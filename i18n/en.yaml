@@ -1608,6 +1608,10 @@ explore:
       title: "Sayyi'at Browser"
       desc: "Every mention of the sayyi'at and everything tied to them — sin, guilt, disobedience, the major and minor sins, repentance and seeking forgiveness — in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
       menu: "Browse sayyi'at and sins across the Qur'an and books"
+    hasanat:
+      title: "Hasanat Browser"
+      desc: "Every mention of the good deeds (al-hasanat) in the Qur'an, the Sunnah, the seerah and every harvested book — «إن الحسنات يذهبن السيئات»، «من جاء بالحسنة فله عشر أمثالها»، the writing of the good deeds, the good loan to God and «الحسنى» — with every verse and report cited."
+      menu: "Browse the good deeds (al-hasanat) in the Qur'an and books"
     magic:
       title: "Magic and Magicians Browser"
       desc: "Every mention of magic and the magicians in the Qur'an, the Sunnah, the seerah and every harvested book — sorcery, soothsayers, ruqyah, the evil eye and envy — with every verse and report cited."
@@ -3418,6 +3422,38 @@ sayyiat:
     curated:
       title: "Records about sayyi'at"
       desc: "Curated museum records on the sayyi'at, sin, guilt, disobedience, repentance and seeking forgiveness themselves: the concepts of sin, guilt, minor sins, tawba and istighfar, and events such as the angels' report of the intended sin."
+hasanat:
+  title: "Hasanat Browser"
+  lede: "Every mention of the good deeds (al-hasanat) in the museum's sources: the Qur'anic verses that write, multiply and efface them, the hadiths on the recording of intentions and deeds, the good loan to God, the goodly intercession and the «الحسنى» reward, and every mention in the seerah, the stories, the Companion and Successor reports and every harvested book — sourced records that grow as new texts land."
+  badge: Good deeds explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Mentions are found at build time by a guarded lexicon over the passage texts — «الحسنات»، «حسنات»، «الحسنة»، «حسنة»، the gated «الحسنى» (divine-names uses stay out), and the fixed collocations «قرضا حسنا» and «بدل حسنا بعد سوء»; bare «حسن»/«الحسن» (names, the hadith grade), the «حسنا» adverb, and «حسنة» as a feminine adjective on a host noun are left out, verified false positives are excluded by id, and every book harvested later brings its mentions here automatically once its passages land in the graph; curated records join through the hasanat-browser tag. Each passage is marked hasanat, hasana or husna after its dominant term."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter good deeds
+  filter_none: No matches.
+  empty: No good-deed records in this build yet.
+  kinds:
+    hasanat: "«الحسنات» — the good deeds"
+    hasana: "«حسنة» — a good deed"
+    husna: "«الحسنى» — the best reward"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Every Qur'anic mention of the good deeds: «إن الحسنات يذهبن السيئات»، «من جاء بالحسنة فله عشر أمثالها»، «فأولئك يبدل الله سيئاتهم حسنات»، «أقرضوا الله قرضا حسنا»، «الحسنى» the reward of ihsan, and the verses where «حسنة» carries the worldly-good sense."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The hadiths of the two Sahihs, the Muwatta, the Arba'in and the Sunan: the hadith qudsi of the writing of the good and evil deeds, «كل عمل ابن آدم يضاعف الحسنة»، «من سن في الإسلام سنة حسنة»، the gecko and the like, and every report that quotes or teaches about الحسنات."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of the good deeds — this section fills itself as new seerah texts with mentions of الحسنات land."
+    books:
+      title: "In the other books"
+      desc: "Mentions of the good deeds in every other harvested work — poetry, history, fiqh and whatever lands next — classified by the work's genre the day its passages arrive."
+    curated:
+      title: "The records about good deeds"
+      desc: "The museum's curated records on الحسنات itself: the concept of the good deeds, the good loan to God, the book of deeds, the records of intention and resolve, and the reports where good deeds are weighed, multiplied or erase sins."
 magic:
   title: "Magic and Magicians Browser"
   lede: "Every mention of magic and the magicians in the museum's sources: sorcery in the Qur'an from the story of Pharaoh's magicians to the trial of Harut and Marut, the hadiths on sorcery and soothsaying, the Prophet's own cure by ruqyah, the evil eye and envy, and every magic mention in every harvested book — sourced records that grow as new texts land."
