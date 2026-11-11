@@ -16,6 +16,9 @@ open a new block on top with the new version and today's date.
 ## v1.11.0 — 2026-11-10
 ### Added
 - **Angels Browser: متصفح الملائكة (`/{lang}/angels/`).** A new browser over the one graph listing angels and everything mentioned about them in the Qur'an, the hadith, the Seerah and the Sunni books — named angels (Gabriel, Michael, Israfil, Malik of the Fire, Ridwan, Munkar and Nakir, Harut and Marut, the angel of death), orders and hosts (the Throne-bearers, the higher assembly, the angels of Badr), the recording angels (the noble scribes, the watcher and the attendant, the angel of the fetus), and angel-human encounters (Ibrahim's guests, Zakariya's callers, Maryam's angel, the angels of aid at Badr and Hunayn, Laylat al-Qadr, the Prophet's own encounters). Eighteen new cited concept records (new kind `angel`), trilingual draft prose, `angels-browser` tags on nineteen existing records, ~300 `mentions` edges from Qur'an and hadith passages, the `/[lang]/angels/` pages with a filterable section grid and per-subject verse/report pages, `/api/v1/angels.json`, an Explore-menu and landing card, and the acceptance spec `docs/engineering/23-angels-browser-requirements.md` for production validation. Plan `docs/plan/35-angels-browser.md`; lane `angels`. Records are draft until a human reads them.
+
+---
+
 ## v1.10.1 — 2026-11-11
 ### Fixed
 - **Battles API: ghazwa flags come from the shared edge rule.** `/api/v1/battles.json` now derives its `ghazwa` flag through `scripts/ghazwa.ts` — the same rule the battles pages use — so the endpoint cannot drift from the site. The live split is 57 ghazawat and 15 saraya of 72 prophetic-era records (3,250 military records total); the 53/22/75/3,251 figures in the requirements doc were its implementation-time snapshot and have drifted with the graph, not with a second derivation.
