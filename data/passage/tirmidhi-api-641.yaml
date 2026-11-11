@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-641
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "641"
+label: { ar: "جامع الترمذي — حديث 641", en: "Jami' al-Tirmidhi 641 — The Book on Zakat", ur: "جامع ترمذی — حدیث 641" }
+text: "… يَحْيَى بْنُ سَعِيدٍ فِي حَدِيثِ عَمْرِو بْنِ شُعَيْبٍ وَقَالَ هُوَ عِنْدَنَا وَاهٍ ‏.‏ وَمَنْ ضَعَّفَهُ فَإِنَّمَا ضَعَّفَهُ مِنْ قِبَلِ أَنَّهُ يُحَدِّثُ مِنْ صَحِيفَةِ جَدِّهِ عَبْدِ اللَّهِ بْنِ عَمْرٍو وَأَمَّا أَكْثَرُ أَهْلِ الْحَدِيثِ فَيَحْتَجُّونَ بِحَدِيثِ عَمْرِو بْنِ شُعَيْبٍ وَيُثْبِتُونَهُ مِنْهُمْ أَحْمَدُ وَإِسْحَاقُ وَغَيْرُهُمَا ‏.‏"
+summary:
+  ar: "في جامع الترمذي؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Jami' al-Tirmidhi; mention of writing or dispatching a letter."
+  ur: "جامع ترمذی میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 641 (book 7 hadith 25); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

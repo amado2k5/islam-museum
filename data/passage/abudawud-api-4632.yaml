@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4632
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4632"
+label: { ar: "سنن أبي داود — حديث 4632", en: "Sunan Abi Dawud 4632 — Model Behavior of the Prophet (Kitab Al-Sunnah)", ur: "سنن ابی داؤد — حدیث 4632" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى بْنِ فَارِسٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، - قَالَ مُحَمَّدٌ كَتَبْتُهُ مِنْ كِتَابِهِ - قَالَ أَخْبَرَنَا مَعْمَرٌ عَنِ الزُّهْرِيِّ عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ عَنِ ابْنِ عَبَّاسٍ قَالَ كَانَ أَبُو هُرَيْرَةَ يُحَدِّثُ أَنَّ رَجُلاً أَتَى إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ إِنِّي أَرَى اللَّيْلَةَ ظُلَّةً يَنْطِفُ مِنْهَا السَّمْنُ وَالْعَسَلُ فَأَرَى النَّاسَ يَتَكَفَّفُونَ بِأَيْدِيهِمْ فَالْمُسْتَكْثِرُ وَالْمُسْتَقِل …"
+summary:
+  ar: "في سنن أبي داود؛ ذكر متعلق بالمكاتبات."
+  en: "In Sunan Abi Dawud; a mention related to correspondence."
+  ur: "سنن ابی داؤد میں؛ مکاتبات سے متعلق ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4632 (book 42 hadith 37); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/muwatta-api-1419
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1419"
+label: { ar: "موطأ مالك — حديث 1419", en: "Muwatta Malik 1419 — Judgements", ur: "موطأ مالک — حدیث 1419" }
+text: "ذَلِكَ عَلِيَّ بْنَ أَبِي طَالِبٍ فَقَالَ لَهُ عَلِيٌّ إِنَّ هَذَا الشَّىْءَ مَا هُوَ بِأَرْضِي عَزَمْتُ عَلَيْكَ لَتُخْبِرَنِّي ‏.‏ فَقَالَ لَهُ أَبُو مُوسَى كَتَبَ إِلَىَّ مُعَاوِيَةُ بْنُ أَبِي سُفْيَانَ أَنْ أَسْأَلَكَ عَنْ ذَلِكَ ‏.‏ فَقَالَ عَلِيٌّ أَنَا أَبُو حَسَنٍ إِنْ لَمْ يَأْتِ بِأَرْبَعَةِ شُهَدَاءَ فَلْيُعْطَ بِرُمَّتِهِ ‏.‏"
+summary:
+  ar: "في موطأ مالك؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Muwatta Malik; sending a letter or message to a party."
+  ur: "موطأ مالک میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muawiya-ibn-abi-sufyan, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1419 (book 36 hadith 21); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

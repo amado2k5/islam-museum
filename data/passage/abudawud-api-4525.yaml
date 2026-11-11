@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4525
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4525"
+label: { ar: "سنن أبي داود — حديث 4525", en: "Sunan Abi Dawud 4525 — Types of Blood-Wit (Kitab Al-Diyat)", ur: "سنن ابی داؤد — حدیث 4525" }
+text: "إِنَّ سَهْلاً وَاللَّهِ أَوْهَمَ الْحَدِيثَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَتَبَ إِلَى يَهُودَ ‏ \"‏ أَنَّهُ قَدْ وُجِدَ بَيْنَ أَظْهُرِكُمْ قَتِيلٌ فَدُوهُ ‏\"‏ ‏.‏ فَكَتَبُوا يَحْلِفُونَ بِاللَّهِ خَمْسِينَ يَمِينًا مَا قَتَلْنَاهُ وَلاَ عَلِمْنَا قَاتِلاً ‏.‏ قَالَ فَوَدَاهُ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنْ عِنْدِهِ مِائَةَ نَاقَةٍ ‏.‏"
+summary:
+  ar: "في سنن أبي داود؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan Abi Dawud; sending a letter or message to a party."
+  ur: "سنن ابی داؤد میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4525 (book 41 hadith 32); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/muslim-api-4264
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4264"
+label: { ar: "صحيح مسلم — حديث 4264", en: "Sahih Muslim 4264 — The Book of Oaths", ur: "صحیح مسلم — حدیث 4264" }
+text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ بَرَّادٍ الأَشْعَرِيُّ، وَمُحَمَّدُ بْنُ الْعَلاَءِ الْهَمْدَانِيُّ، - وَتَقَارَبَا فِي اللَّفْظِ - قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ بُرَيْدٍ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ أَرْسَلَنِي أَصْحَابِي إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم أَسْأَلُهُ لَهُمُ الْحُمْلاَنَ إِذْ هُمْ مَعَهُ فِي جَيْشِ الْعُسْرَةِ - وَهِيَ غَزْوَةُ تَبُوكَ - فَقُلْتُ يَا نَبِيَّ اللَّهِ إِنَّ أَصْحَابِي أَرْسَلُونِي إِلَيْكَ لِتَحْمِلَهُم …"
+summary:
+  ar: "في صحيح مسلم؛ ذكر ديوان أو بريد المراسلات."
+  en: "In Sahih Muslim; mention of the chancery or the barid post."
+  ur: "صحیح مسلم میں؛ دیوآن یا بریڈ کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4264 (book 27 hadith 11); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

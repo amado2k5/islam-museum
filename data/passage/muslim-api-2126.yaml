@@ -1,0 +1,16 @@
+id: passage/muslim-api-2126
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2126"
+label: { ar: "صحيح مسلم — حديث 2126", en: "Sahih Muslim 2126 — The Book of Prayer - Funerals", ur: "صحیح مسلم — حدیث 2126" }
+text: "فَلَمَّا مَاتَ أَبُو سَلَمَةَ قُلْتُ أَىُّ الْمُسْلِمِينَ خَيْرٌ مِنْ أَبِي سَلَمَةَ أَوَّلُ بَيْتٍ هَاجَرَ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ ثُمَّ إِنِّي قُلْتُهَا فَأَخْلَفَ اللَّهُ لِي رَسُولَ اللَّهِ صلى الله عليه وسلم ‏.‏ قَالَتْ أَرْسَلَ إِلَىَّ رَسُولُ اللَّهِ صلى الله عليه وسلم حَاطِبَ بْنَ أَبِي بَلْتَعَةَ يَخْطُبُنِي لَهُ فَقُلْتُ إِنَّ لِي بِنْتًا وَأَنَا …"
+summary:
+  ar: "في صحيح مسلم؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih Muslim; sending a letter or message to a party."
+  ur: "صحیح مسلم میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2126 (book 11 hadith 4); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

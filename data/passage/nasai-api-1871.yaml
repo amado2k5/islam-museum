@@ -1,0 +1,16 @@
+id: passage/nasai-api-1871
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1871"
+label: { ar: "السنن النسائي — حديث 1871", en: "Sunan al-Nasa'i 1871 — The Book of Funerals", ur: "سنن النسائی — حدیث 1871" }
+text: "… أَنَّ عَمْرَو بْنَ شُعَيْبٍ، كَتَبَ إِلَى عَبْدِ اللَّهِ بْنِ عَبْدِ الرَّحْمَنِ بْنِ أَبِي حُسَيْنٍ يُعَزِّيهِ بِابْنٍ لَهُ هَلَكَ وَذَكَرَ فِي كِتَابِهِ أَنَّهُ سَمِعَ أَبَاهُ يُحَدِّثُ عَنْ جَدِّهِ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ الْعَاصِ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ إِنَّ اللَّهَ لاَ يَرْضَى لِعَبْدِهِ الْمُؤْمِنِ إِذَا ذَهَبَ بِصَفِيِّهِ مِنْ أَهْلِ الأَرْضِ فَصَبَرَ وَاحْتَسَبَ وَقَالَ مَا أُمِر …"
+summary:
+  ar: "في السنن النسائي؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan al-Nasa'i; sending a letter or message to a party."
+  ur: "سنن النسائی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1871 (book 21 hadith 54); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

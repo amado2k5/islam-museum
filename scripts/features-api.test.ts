@@ -4,6 +4,7 @@ import { featureApiData } from "./export-api.js";
 import { duaKindOf, duaSignalsOf } from "./dua.js";
 import { sayyiatKindOf, sayyiatSignalsOf } from "./sayyiat.js";
 import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
+import { mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf } from "./mukatabat.js";
 
 const makeNode = (id: string, cls: string, data: Record<string, any> = {}, prose: Record<string, any> = {}): Node => ({
   id, class: cls, slug: id.split("/")[1], label: { ar: id, en: id, ur: id }, summary: { ar: "", en: "", ur: "" }, stub: false,
@@ -56,7 +57,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "nature.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "mukatabat.json", "nature.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -198,6 +199,49 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(hasanatSignalsOf(qardHadith as any)).toContain("qard-hasan");
     expect(hasanatSignalsOf(adjFp as any)).toEqual([]);
     expect(hasanatSignalsOf(namesFp as any)).toEqual([]);
+  });
+
+  it("exports mukatabat: detected correspondence by corpus, kind and sender, gated false positives, future-book inclusion", () => {
+    const propheticLetter = makeNode("passage/muslim-7541x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "7541x", text: "أرسل النبي إلى هرقل كتابا مختوما فيه من محمد إلى هرقل رسول الله" });
+    const caliphalLetter = makeNode("passage/muwatta-9997", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9997", text: "فكتب عمر إلى معاوية كتابا فيه الأمر بكذا من أمره" });
+    const royalReply = makeNode("passage/bukhari-9997", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "9997", text: "فكتب هرقل إلى النبي جوابه: من هرقل إلى محمد رسول الله" });
+    const sulaymanAyah = makeNode("passage/quran-27-30x", "passage", { unit: "ayah", work: "work/quran", sura: 27, aya: 30, text: "إنه من سليمان وإنه بسم الله الرحمن الرحيم إنه علي أن أشكركم" });
+    const baridMention = makeNode("passage/muwatta-9998", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9998", text: "كان صاحب البريد يتولى المكاتبات بين أقاليم الخلافة" });
+    const fiqhFp = makeNode("passage/muwatta-9999", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9999", text: "بيعت جاريته بمكاتبة على ألف درهم" });
+    const divineFp = makeNode("passage/muslim-9998", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9998", text: "لما خلق الله الخلق كتب في كتابه ما هو كائن إلى يوم القيامة" });
+    const bookRefFp = makeNode("passage/muslim-9997", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9997", text: "روي في كتاب مسلم عن النبي" });
+    const futureBook = makeNode("passage/futurebook-3", "passage", { unit: "chapter", work: "work/future-rasaail", ref: "1", text: "قال المؤلف: بعث الملك إلى السلطان كتابا بخطابه" });
+    const futureWork = makeNode("work/future-rasaail", "work", { genre: ["adab"] });
+    const curatedEvent = { ...makeNode("event/letters-to-rulers", "event", { kind: "other" }), tags: ["mukatabat-browser", "mukatabat-prophetic"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, propheticLetter, caliphalLetter, royalReply, sulaymanAyah, baridMention, fiqhFp, divineFp, bookRefFp, futureBook, futureWork, curatedEvent] });
+    const items = data["mukatabat.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/muslim-7541x");
+    expect(ids).toContain("passage/muwatta-9997");
+    expect(ids).toContain("passage/bukhari-9997");
+    expect(ids).toContain("passage/quran-27-30x");
+    expect(ids).toContain("passage/muwatta-9998");
+    expect(ids).toContain("passage/futurebook-3"); // a book harvested later lands automatically
+    expect(ids).toContain("event/letters-to-rulers");
+    expect(ids).not.toContain("passage/muwatta-9999"); // fiqh mukataba self-purchase, not correspondence
+    expect(ids).not.toContain("passage/muslim-9998"); // «كتب في كتابه» is the divine register
+    expect(ids).not.toContain("passage/muslim-9997"); // «في كتاب مسلم» names the book, not a letter
+    expect(items.find((i) => i.id === "passage/muslim-7541x")).toMatchObject({ section: "sunnah", mukatabat_kind: "letter", sender: "prophetic" });
+    expect(items.find((i) => i.id === "passage/muwatta-9997")).toMatchObject({ section: "sunnah", mukatabat_kind: "letter", sender: "caliphal" });
+    expect(items.find((i) => i.id === "passage/bukhari-9997")).toMatchObject({ section: "sunnah", mukatabat_kind: "letter", sender: "royal" });
+    expect(items.find((i) => i.id === "passage/quran-27-30x")).toMatchObject({ section: "quran", mukatabat_kind: "letter" });
+    expect(items.find((i) => i.id === "passage/muwatta-9998")).toMatchObject({ section: "sunnah", mukatabat_kind: "mention", sender: "caliphal" });
+    expect(items.find((i) => i.id === "passage/futurebook-3")).toMatchObject({ section: "books", mukatabat_kind: "letter", sender: "royal" });
+    expect(items.find((i) => i.id === "event/letters-to-rulers")).toMatchObject({ section: "curated", mukatabat_kind: null, sender: "prophetic" });
+    expect(featureApiData(compiled)["mukatabat.json"].feature).toBe("mukatabat-browser");
+    expect(mukatabatKindOf(propheticLetter as any)).toBe("letter");
+    expect(mukatabatKindOf(baridMention as any)).toBe("mention");
+    expect(mukatabatSenderOf(propheticLetter as any)).toBe("prophetic");
+    expect(mukatabatSenderOf(royalReply as any)).toBe("royal");
+    expect(mukatabatSenderOf(baridMention as any)).toBe("caliphal"); // صاحب البريد is a caliphal office
+    expect(mukatabatSignalsOf(fiqhFp as any)).toEqual([]);
+    expect(mukatabatSignalsOf(divineFp as any)).toEqual([]);
+    expect(mukatabatSignalsOf(bookRefFp as any)).toEqual([]);
   });
 
   it("exports madhahib: tagged records by mh- sections, mentions edges by school and dhikr", () => {

@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1655
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1655"
+label: { ar: "جامع الترمذي — حديث 1655", en: "Jami' al-Tirmidhi 1655 — The Book on Virtues of Jihad", ur: "جامع ترمذی — حدیث 1655" }
+text: "رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ ثَلاَثَةٌ حَقٌّ عَلَى اللَّهِ عَوْنُهُمُ الْمُجَاهِدُ فِي سَبِيلِ اللَّهِ وَالْمُكَاتَبُ الَّذِي يُرِيدُ الأَدَاءَ وَالنَّاكِحُ الَّذِي يُرِيدُ الْعَفَافَ ‏\"‏ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ ‏.‏"
+summary:
+  ar: "في جامع الترمذي؛ ذكر المكاتبات أو المراسلات."
+  en: "In Jami' al-Tirmidhi; mention of correspondence."
+  ur: "جامع ترمذی میں؛ مکاتبات کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1655 (book 22 hadith 38); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

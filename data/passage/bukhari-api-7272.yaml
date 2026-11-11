@@ -1,0 +1,16 @@
+id: passage/bukhari-api-7272
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "7272"
+label: { ar: "صحيح البخاري — حديث 7272", en: "Sahih al-Bukhari 7272 — Holding Fast to the Qur'an and Sunnah", ur: "صحیح بخاری — حدیث 7272" }
+text: "عَبْدِ اللَّهِ بْنِ دِينَارٍ، أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ، كَتَبَ إِلَى عَبْدِ الْمَلِكِ بْنِ مَرْوَانَ يُبَايِعُهُ، وَأُقِرُّ لَكَ بِالسَّمْعِ وَالطَّاعَةِ عَلَى سُنَّةِ اللَّهِ وَسُنَّةِ رَسُولِهِ، فِيمَا اسْتَطَعْتُ‏.‏"
+summary:
+  ar: "في صحيح البخاري؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih al-Bukhari; sending a letter or message to a party."
+  ur: "صحیح بخاری میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/abd-al-malik-ibn-marwan, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7272 (book 96 hadith 5); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

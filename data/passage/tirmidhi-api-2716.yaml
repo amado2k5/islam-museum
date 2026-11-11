@@ -1,0 +1,18 @@
+id: passage/tirmidhi-api-2716
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2716"
+label: { ar: "جامع الترمذي — حديث 2716", en: "Jami' al-Tirmidhi 2716 — Chapters on Seeking Permission", ur: "جامع ترمذی — حدیث 2716" }
+text: "أَنَسِ بْنِ مَالِكٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَتَبَ قَبْلَ مَوْتِهِ إِلَى كِسْرَى وَإِلَى قَيْصَرَ وَإِلَى النَّجَاشِيِّ وَإِلَى كُلِّ جَبَّارٍ يَدْعُوهُمْ إِلَى اللَّهِ وَلَيْسَ بِالنَّجَاشِيِّ الَّذِي صَلَّى عَلَيْهِ النَّبِيُّ صلى الله عليه وسلم ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ ‏.‏"
+summary:
+  ar: "في جامع الترمذي؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Jami' al-Tirmidhi; sending a letter or message to a party."
+  ur: "جامع ترمذی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/heraclius, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/negus-of-aksum, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2716 (book 42 hadith 29); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

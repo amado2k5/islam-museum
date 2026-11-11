@@ -421,6 +421,21 @@
         }
       }
     },
+    "/mukatabat.json": {
+      "get": {
+        "operationId": "getMukatabat",
+        "summary": "Mukatabat Browser dataset",
+        "description": "The Mukatabat Browser dataset (متصفح المكاتبات): every mention of correspondence in the Qur'an, Sunnah, seerah and harvested books — the letters the Prophet sent to kings and emperors, the letters, replies and reports that came back, the caliphs' letters and the chancery institutions, and Sulayman's letter to the Queen of Sheba — detected at build time by a guarded lexicon plus the curated records tagged mukatabat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), mukatabat_kind (letter, mention), sender (prophetic, caliphal, royal, other), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every correspondence record with corpus section, mukatabat kind, sender, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/magic.json": {
       "get": {
         "operationId": "getMagic",

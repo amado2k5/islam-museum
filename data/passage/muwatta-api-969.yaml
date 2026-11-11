@@ -1,0 +1,17 @@
+id: passage/muwatta-api-969
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "969"
+label: { ar: "موطأ مالك — حديث 969", en: "Muwatta Malik 969 — Jihad", ur: "موطأ مالک — حدیث 969" }
+text: "مَالِكٍ، أَنَّهُ بَلَغَهُ أَنَّ عُمَرَ بْنَ عَبْدِ الْعَزِيزِ، كَتَبَ إِلَى عَامِلٍ مِنْ عُمَّالِهِ أَنَّهُ بَلَغَنَا أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ إِذَا بَعَثَ سَرِيَّةً يَقُولُ لَهُمُ ‏ \"‏ اغْزُوا بِاسْمِ اللَّهِ فِي سَبِيلِ اللَّهِ تُقَاتِلُونَ مَنْ كَفَرَ بِاللَّهِ لاَ تَغُلُّوا وَلاَ تَغْدِرُوا وَلاَ تُمَثِّلُوا وَلاَ تَقْتُلُوا وَلِيدًا وَقُلْ ذَلِكَ لِجِيُوشِكَ وَسَرَايَاكَ إِنْ شَاء …"
+summary:
+  ar: "في موطأ مالك؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Muwatta Malik; sending a letter or message to a party."
+  ur: "موطأ مالک میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 969 (book 21 hadith 11); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

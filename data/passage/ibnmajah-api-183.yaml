@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-183
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "183"
+label: { ar: "سنن ابن ماجه — حديث 183", en: "Sunan Ibn Majah 183 — The Book of the Sunnah", ur: "سنن ابن ماجہ — حدیث 183" }
+text: "… إِذَا بَلَغَ مِنْهُ مَا شَاءَ اللَّهُ أَنْ يَبْلُغَ قَالَ إِنِّي سَتَرْتُهَا عَلَيْكَ فِي الدُّنْيَا وَأَنَا أَغْفِرُهَا لَكَ الْيَوْمَ ‏.‏ قَالَ ثُمَّ يُعْطَى صَحِيفَةَ حَسَنَاتِهِ أَوْ كِتَابَهُ بِيَمِينِهِ ‏.‏ قَالَ وَأَمَّا الْكَافِرُ أَوِ الْمُنَافِقُ فَيُنَادَى عَلَى رُءُوسِ الأَشْهَادِ ‏\"‏ ‏.‏ قَالَ خَالِدٌ فِي ‏\"‏ الأَشْهَادِ ‏\"‏ ‏.‏ شَىْءٌ مِنِ انْقِطَاعٍ ‏.‏ ‏{هَؤُلاَءِ الَّذِينَ كَذَبُوا عَلَى رَبِّهِم …"
+summary:
+  ar: "في سنن ابن ماجه؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Sunan Ibn Majah; mention of writing or dispatching a letter."
+  ur: "سنن ابن ماجہ میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 183 (book 0 hadith 183); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

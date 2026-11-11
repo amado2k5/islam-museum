@@ -1,0 +1,16 @@
+id: passage/muslim-api-7015
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7015"
+label: { ar: "صحيح مسلم — حديث 7015", en: "Sahih Muslim 7015 — The Book of Repentance", ur: "صحیح مسلم — حدیث 7015" }
+text: "… بِذُنُوبِهِ فَيَقُولُ هَلْ تَعْرِفُ فَيَقُولُ أَىْ رَبِّ أَعْرِفُ ‏.‏ قَالَ فَإِنِّي قَدْ سَتَرْتُهَا عَلَيْكَ فِي الدُّنْيَا وَإِنِّي أَغْفِرُهَا لَكَ الْيَوْمَ ‏.‏ فَيُعْطَى صَحِيفَةَ حَسَنَاتِهِ وَأَمَّا الْكُفَّارُ وَالْمُنَافِقُونَ فَيُنَادَى بِهِمْ عَلَى رُءُوسِ الْخَلاَئِقِ هَؤُلاَءِ الَّذِينَ كَذَبُوا عَلَى اللَّهِ ‏\"‏ ‏.‏"
+summary:
+  ar: "في صحيح مسلم؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Sahih Muslim; mention of writing or dispatching a letter."
+  ur: "صحیح مسلم میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7015 (book 50 hadith 61); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

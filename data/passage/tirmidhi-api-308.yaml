@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-308
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "308"
+label: { ar: "جامع الترمذي — حديث 308", en: "Jami' al-Tirmidhi 308 — The Book on Salat (Prayer)", ur: "جامع ترمذی — حدیث 308" }
+text: "النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَرَأَ فِي الْمَغْرِبِ بِالطُّورِ ‏.‏ وَرُوِيَ عَنْ عُمَرَ أَنَّهُ كَتَبَ إِلَى أَبِي مُوسَى أَنِ اقْرَأْ فِي الْمَغْرِبِ بِقِصَارِ الْمُفَصَّلِ ‏.‏ وَرُوِيَ عَنْ أَبِي بَكْرٍ الصِّدِّيقِ أَنَّهُ قَرَأَ فِي الْمَغْرِبِ بِقِصَارِ الْمُفَصَّلِ ‏.‏ قَالَ وَعَلَى هَذَا الْعَمَلُ عِنْدَ أَهْلِ الْعِلْمِ وَبِهِ يَقُولُ ابْنُ الْمُبَارَكِ وَأَحْمَدُ وَإِسْحَاقُ ‏.‏ وَقَالَ الشَّافِعِيُّ وَذُكِر …"
+summary:
+  ar: "في جامع الترمذي؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Jami' al-Tirmidhi; sending a letter or message to a party."
+  ur: "جامع ترمذی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 308 (book 2 hadith 160); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

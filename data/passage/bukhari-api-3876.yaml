@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3876
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3876"
+label: { ar: "صحيح البخاري — حديث 3876", en: "Sahih al-Bukhari 3876 — Merits of the Helpers in Madinah (Ansaar)", ur: "صحیح بخاری — حدیث 3876" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا بُرَيْدُ بْنُ عَبْدِ اللَّهِ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى ـ رضى الله عنه ـ بَلَغَنَا مَخْرَجُ النَّبِيِّ صلى الله عليه وسلم وَنَحْنُ بِالْيَمَنِ فَرَكِبْنَا سَفِينَةً فَأَلْقَتْنَا سَفِينَتُنَا إِلَى النَّجَاشِيِّ بِالْحَبَشَةِ، فَوَافَقْنَا جَعْفَرَ بْنَ أَبِي طَالِبٍ، فَأَقَمْنَا مَعَهُ حَتَّى قَدِمْنَا، فَوَافَقْنَا النَّبِيَّ صلى الله عليه وسلم حِينَ افْتَتَحَ خَيْبَرَ، فَقَالَ النَّبِيُّ صلى الله عليه …"
+summary:
+  ar: "في صحيح البخاري؛ ذكر ديوان أو بريد المراسلات."
+  en: "In Sahih al-Bukhari; mention of the chancery or the barid post."
+  ur: "صحیح بخاری میں؛ دیوآن یا بریڈ کا ذکر."
+relations:
+  - { type: mentions, target: person/negus-of-aksum, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3876 (book 63 hadith 101); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

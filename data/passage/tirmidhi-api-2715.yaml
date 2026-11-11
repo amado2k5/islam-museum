@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-2715
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2715"
+label: { ar: "جامع الترمذي — حديث 2715", en: "Jami' al-Tirmidhi 2715 — Chapters on Seeking Permission", ur: "جامع ترمذی — حدیث 2715" }
+text: "فَلَمَّا تَعَلَّمْتُهُ كَانَ إِذَا كَتَبَ إِلَى يَهُودَ كَتَبْتُ إِلَيْهِمْ وَإِذَا كَتَبُوا إِلَيْهِ قَرَأْتُ لَهُ كِتَابَهُمْ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏ وَقَدْ رُوِيَ مِنْ غَيْرِ هَذَا الْوَجْهِ عَنْ زَيْدِ بْنِ ثَابِتٍ رَوَاهُ الأَعْمَشُ عَنْ ثَابِتِ بْنِ عُبَيْدٍ الأَنْصَارِيِّ عَنْ زَيْدِ بْنِ ثَابِتٍ قَالَ أَمَرَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ أَتَعَلَّم …"
+summary:
+  ar: "في جامع الترمذي؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Jami' al-Tirmidhi; sending a letter or message to a party."
+  ur: "جامع ترمذی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2715 (book 42 hadith 28); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/muslim-api-6406
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6406"
+label: { ar: "صحيح مسلم — حديث 6406", en: "Sahih Muslim 6406 — The Book of the Merits of the Companions", ur: "صحیح مسلم — حدیث 6406" }
+text: "… بْنُ بَرَّادٍ أَبُو عَامِرٍ الأَشْعَرِيُّ، وَأَبُو كُرَيْبٍ مُحَمَّدُ بْنُ الْعَلاَءِ - وَاللَّفْظُ لأَبِي عَامِرٍ - قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ بُرَيْدٍ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِيهِ، قَالَ لَمَّا فَرَغَ النَّبِيُّ صلى الله عليه وسلم مِنْ حُنَيْنٍ بَعَثَ أَبَا عَامِرٍ عَلَى جَيْشٍ إِلَى أَوْطَاسٍ فَلَقِيَ دُرَيْدَ بْنَ الصِّمَّةِ فَقُتِلَ دُرَيْدٌ وَهَزَمَ اللَّهُ أَصْحَابَهُ فَقَالَ أَبُو مُوسَى وَبَعَثَنِي مَعَ أَبِي عَامِرٍ - …"
+summary:
+  ar: "في صحيح مسلم؛ ذكر ديوان أو بريد المراسلات."
+  en: "In Sahih Muslim; mention of the chancery or the barid post."
+  ur: "صحیح مسلم میں؛ دیوآن یا بریڈ کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6406 (book 44 hadith 237); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

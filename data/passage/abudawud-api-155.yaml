@@ -1,0 +1,17 @@
+id: passage/abudawud-api-155
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "155"
+label: { ar: "سنن أبي داود — حديث 155", en: "Sunan Abi Dawud 155 — Purification (Kitab Al-Taharah)", ur: "سنن ابی داؤد — حدیث 155" }
+text: "… مُسَدَّدٌ، وَأَحْمَدُ بْنُ أَبِي شُعَيْبٍ الْحَرَّانِيُّ، قَالاَ حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا دَلْهَمُ بْنُ صَالِحٍ، عَنْ حُجَيْرِ بْنِ عَبْدِ اللَّهِ، عَنِ ابْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، أَنَّ النَّجَاشِيَّ، أَهْدَى إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم خُفَّيْنِ أَسْوَدَيْنِ سَاذَجَيْنِ فَلَبِسَهُمَا ثُمَّ تَوَضَّأَ وَمَسَحَ عَلَيْهِمَا ‏.‏ قَالَ مُسَدَّدٌ عَنْ دَلْهَمِ بْنِ صَالِحٍ ‏.‏ قَالَ أَبُو دَاوُدَ هَذَا مِمَّا تَفَرَّدَ بِهِ أَهْلُ الْبَصْرَةِ ‏.‏"
+summary:
+  ar: "في سنن أبي داود؛ ذكر ديوان أو بريد المراسلات."
+  en: "In Sunan Abi Dawud; mention of the chancery or the barid post."
+  ur: "سنن ابی داؤد میں؛ دیوآن یا بریڈ کا ذکر."
+relations:
+  - { type: mentions, target: person/negus-of-aksum, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 155 (book 1 hadith 155); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

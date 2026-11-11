@@ -1,0 +1,17 @@
+id: passage/abudawud-api-5136
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "5136"
+label: { ar: "سنن أبي داود — حديث 5136", en: "Sunan Abi Dawud 5136 — General Behavior (Kitab Al-Adab)", ur: "سنن ابی داؤد — حدیث 5136" }
+text: "ابْنِ عَبَّاسٍ أَنَّ أَبَا سُفْيَانَ أَخْبَرَهُ قَالَ فَدَخَلْنَا عَلَى هِرَقْلَ فَأَجْلَسَنَا بَيْنَ يَدَيْهِ ثُمَّ دَعَا بِكِتَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَإِذَا فِيهِ ‏\"‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ مِنْ مُحَمَّدٍ رَسُولِ اللَّهِ إِلَى هِرَقْلَ عَظِيمِ الرُّومِ سَلاَمٌ عَلَى مَنِ اتَّبَعَ الْهُدَى أَمَّا بَعْدُ ‏\"‏ ‏.‏"
+summary:
+  ar: "في سنن أبي داود؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan Abi Dawud; sending a letter or message to a party."
+  ur: "سنن ابی داؤد میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/heraclius, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 5136 (book 43 hadith 364); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

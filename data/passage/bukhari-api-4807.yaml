@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4807
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4807"
+label: { ar: "صحيح البخاري — حديث 4807", en: "Sahih al-Bukhari 4807 — Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))", ur: "صحیح بخاری — حدیث 4807" }
+text: "… مِمَّنْ أُمِرَ نَبِيُّكُمْ صلى الله عليه وسلم أَنْ يَقْتَدِيَ بِهِ، فَسَجَدَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم‏.‏ ‏{‏عُجَابٌ‏}‏ عَجِيبٌ‏.‏ الْقِطُّ الصَّحِيفَةُ هُوَ هَا هُنَا صَحِيفَةُ الْحَسَنَاتِ‏.‏ وَقَالَ مُجَاهِدٌ ‏{‏فِي عِزَّةٍ‏}‏ مُعَازِّينَ‏.‏ ‏{‏الْمِلَّةِ الآخِرَةِ‏}‏ مِلَّةُ قُرَيْشٍ‏.‏ الاِخْتِلاَقُ الْكَذِبُ‏.‏ الأَسْبَابُ طُرُقُ السَّمَاءِ فِي أَبْوَابِهَا ‏{‏جُنْدٌ مَا هُنَالِكَ مَهْزُومٌ‏}‏ يَعْنِي قُرَيْشًا ‏{‏أُولَئِكَ الأَحْزَابُ‏}‏ الْقُرُونُ الْمَاضِيَةُ‏.‏ ‏{‏فَوَاقٍ‏}‏ رُجُوعٍ‏.‏ ‏{‏قِطَّنَا‏}‏ عَذَابَنَا ‏{‏اتَّخَذْنَاهُمْ سُخْرِيًّا‏}‏ أَحَطْنَا بِهِم …"
+summary:
+  ar: "في صحيح البخاري؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Sahih al-Bukhari; mention of writing or dispatching a letter."
+  ur: "صحیح بخاری میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4807 (book 65 hadith 329); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

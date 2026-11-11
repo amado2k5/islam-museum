@@ -1,0 +1,16 @@
+id: passage/nasai-api-5201
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5201"
+label: { ar: "السنن النسائي — حديث 5201", en: "Sunan al-Nasa'i 5201 — The Book of Adornment", ur: "سنن النسائی — حدیث 5201" }
+text: "… عَنْ قَتَادَةَ، عَنْ أَنَسٍ، قَالَ أَرَادَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يَكْتُبَ إِلَى الرُّومِ فَقَالُوا إِنَّهُمْ لاَ يَقْرَءُونَ كِتَابًا إِلاَّ مَخْتُومًا ‏.‏ فَاتَّخَذَ خَاتَمًا مِنْ فِضَّةٍ كَأَنِّي أَنْظُرُ إِلَى بَيَاضِهِ فِي يَدِهِ وَنُقِشَ فِيهِ مُحَمَّدٌ رَسُولُ اللَّهِ ‏.‏"
+summary:
+  ar: "في السنن النسائي؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan al-Nasa'i; sending a letter or message to a party."
+  ur: "سنن النسائی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5201 (book 48 hadith 162); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

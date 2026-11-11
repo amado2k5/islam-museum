@@ -1,0 +1,17 @@
+id: passage/muwatta-api-1593
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1593"
+label: { ar: "موطأ مالك — حديث 1593", en: "Muwatta Malik 1593 — Blood-Money", ur: "موطأ مالک — حدیث 1593" }
+text: "فِي كِتَابِهِ ‏{‏وَكَتَبْنَا عَلَيْهِمْ فِيهَا أَنَّ النَّفْسَ بِالنَّفْسِ وَالْعَيْنَ بِالْعَيْنِ وَالأَنْفَ بِالأَنْفِ وَالأُذُنَ بِالأُذُنِ وَالسِّنَّ بِالسِّنِّ وَالْجُرُوحَ قِصَاصٌ ‏}‏ فَذَكَرَ اللَّهُ تَبَارَكَ وَتَعَالَى أَنَّ النَّفْسَ بِالنَّفْسِ فَنَفْسُ الْمَرْأَةِ الْحُرَّةِ بِنَفْسِ الرَّجُلِ الْحُرِّ وَجُرْحُهَا بِجُرْحِهِ ‏.‏ قَالَ مَالِكٌ فِي الرَّجُلِ يُمْسِكُ الرَّجُلَ لِلرَّجُلِ فَيَضْرِبُهُ فَيَمُوتُ مَكَانَهُ أَنَّهُ إِنْ أَمْسَكَهُ وَهُوَ يَرَى أَنَّهُ يُرِيدُ قَتْلَهُ قُتِلاَ بِه …"
+summary:
+  ar: "في موطأ مالك؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Muwatta Malik; sending a letter or message to a party."
+  ur: "موطأ مالک میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muawiya-ibn-abi-sufyan, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/marwan-ibn-al-hakam, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1593 (book 43 hadith 10); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

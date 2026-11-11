@@ -1,0 +1,17 @@
+id: passage/muslim-api-4837
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4837"
+label: { ar: "صحيح مسلم — حديث 4837", en: "Sahih Muslim 4837 — The Book on Government", ur: "صحیح مسلم — حدیث 4837" }
+text: "نَافِعٌ فَقَدِمْتُ عَلَى عُمَرَ بْنِ عَبْدِ الْعَزِيزِ وَهُوَ يَوْمَئِذٍ خَلِيفَةٌ فَحَدَّثْتُهُ هَذَا الْحَدِيثَ فَقَالَ إِنَّ هَذَا لَحَدٌّ بَيْنَ الصَّغِيرِ وَالْكَبِيرِ ‏.‏ فَكَتَبَ إِلَى عُمَّالِهِ أَنْ يَفْرِضُوا لِمَنْ كَانَ ابْنَ خَمْسَ عَشْرَةَ سَنَةً وَمَنْ كَانَ دُونَ ذَلِكَ فَاجْعَلُوهُ فِي الْعِيَالِ ‏.‏"
+summary:
+  ar: "في صحيح مسلم؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih Muslim; sending a letter or message to a party."
+  ur: "صحیح مسلم میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4837 (book 33 hadith 133); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

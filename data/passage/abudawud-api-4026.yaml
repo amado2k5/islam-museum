@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4026
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4026"
+label: { ar: "سنن أبي داود — حديث 4026", en: "Sunan Abi Dawud 4026 — Clothing (Kitab Al-Libas)", ur: "سنن ابی داؤد — حدیث 4026" }
+text: "حَدَّثَنَا زِيَادُ بْنُ أَيُّوبَ، حَدَّثَنَا أَبُو تُمَيْلَةَ، قَالَ حَدَّثَنِي عَبْدُ الْمُؤْمِنِ بْنُ خَالِدٍ، عَنْ عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، عَنْ أُمِّ سَلَمَةَ، قَالَتْ لَمْ يَكُنْ ثَوْبٌ أَحَبَّ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم مِنْ قَمِيصٍ ‏.‏"
+summary:
+  ar: "في سنن أبي داود؛ ذكر ديوان أو بريد المراسلات."
+  en: "In Sunan Abi Dawud; mention of the chancery or the barid post."
+  ur: "سنن ابی داؤد میں؛ دیوآن یا بریڈ کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4026 (book 34 hadith 7); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

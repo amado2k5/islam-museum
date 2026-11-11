@@ -1,0 +1,17 @@
+id: passage/abudawud-api-2108
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2108"
+label: { ar: "سنن أبي داود — حديث 2108", en: "Sunan Abi Dawud 2108 — Marriage (Kitab Al-Nikah)", ur: "سنن ابی داؤد — حدیث 2108" }
+text: "الزُّهْرِيِّ، أَنَّ النَّجَاشِيَّ، زَوَّجَ أُمَّ حَبِيبَةَ بِنْتَ أَبِي سُفْيَانَ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم عَلَى صَدَاقٍ أَرْبَعَةِ آلاَفِ دِرْهَمٍ وَكَتَبَ بِذَلِكَ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَبِلَ ‏.‏"
+summary:
+  ar: "في سنن أبي داود؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan Abi Dawud; sending a letter or message to a party."
+  ur: "سنن ابی داؤد میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/negus-of-aksum, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2108 (book 12 hadith 63); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

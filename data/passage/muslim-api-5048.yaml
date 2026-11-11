@@ -1,0 +1,16 @@
+id: passage/muslim-api-5048
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5048"
+label: { ar: "صحيح مسلم — حديث 5048", en: "Sahih Muslim 5048 — The Book of Hunting, Slaughter, and what may be Eaten", ur: "صحیح مسلم — حدیث 5048" }
+text: "فَسَعَيْتُ حَتَّى أَدْرَكْتُهَا فَأَتَيْتُ بِهَا أَبَا طَلْحَةَ فَذَبَحَهَا فَبَعَثَ بِوَرِكِهَا وَفَخِذَيْهَا إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَأَتَيْتُ بِهَا رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَبِلَهُ ‏.‏"
+summary:
+  ar: "في صحيح مسلم؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih Muslim; sending a letter or message to a party."
+  ur: "صحیح مسلم میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5048 (book 34 hadith 77); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

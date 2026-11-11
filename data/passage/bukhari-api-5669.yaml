@@ -1,0 +1,17 @@
+id: passage/bukhari-api-5669
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5669"
+label: { ar: "صحيح البخاري — حديث 5669", en: "Sahih al-Bukhari 5669 — Patients", ur: "صحیح بخاری — حدیث 5669" }
+text: "عُمَرُ إِنَّ النَّبِيَّ صلى الله عليه وسلم قَدْ غَلَبَ عَلَيْهِ الْوَجَعُ وَعِنْدَكُمُ الْقُرْآنُ، حَسْبُنَا كِتَابُ اللَّهِ فَاخْتَلَفَ أَهْلُ الْبَيْتِ فَاخْتَصَمُوا، مِنْهُمْ مَنْ يَقُولُ قَرِّبُوا يَكْتُبْ لَكُمُ النَّبِيُّ صلى الله عليه وسلم كِتَابًا لَنْ تَضِلُّوا بَعْدَهُ، وَمِنْهُمْ مَنْ يَقُولُ مَا قَالَ عُمَرُ فَلَمَّا أَكْثَرُوا اللَّغْوَ وَالاِخْتِلاَفَ عِنْدَ النَّبِيِّ صلى الله عليه وسلم قَالَ رَسُولُ اللَّهِ صلى …"
+summary:
+  ar: "في صحيح البخاري؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Sahih al-Bukhari; mention of writing or dispatching a letter."
+  ur: "صحیح بخاری میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5669 (book 75 hadith 29); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

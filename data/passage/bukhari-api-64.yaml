@@ -1,0 +1,16 @@
+id: passage/bukhari-api-64
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "64"
+label: { ar: "صحيح البخاري — حديث 64", en: "Sahih al-Bukhari 64 — Knowledge", ur: "صحیح بخاری — حدیث 64" }
+text: "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم بَعَثَ بِكِتَابِهِ رَجُلاً، وَأَمَرَهُ أَنْ يَدْفَعَهُ إِلَى عَظِيمِ الْبَحْرَيْنِ، فَدَفَعَهُ عَظِيمُ الْبَحْرَيْنِ إِلَى كِسْرَى، فَلَمَّا قَرَأَهُ مَزَّقَهُ‏.‏ فَحَسِبْتُ أَنَّ ابْنَ الْمُسَيَّبِ قَالَ فَدَعَا عَلَيْهِمْ رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يُمَزَّقُوا كُلَّ مُمَزَّقٍ‏.‏"
+summary:
+  ar: "في صحيح البخاري؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Sahih al-Bukhari; mention of writing or dispatching a letter."
+  ur: "صحیح بخاری میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 64 (book 3 hadith 6); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

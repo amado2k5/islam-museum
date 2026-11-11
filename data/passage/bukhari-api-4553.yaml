@@ -1,0 +1,18 @@
+id: passage/bukhari-api-4553
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4553"
+label: { ar: "صحيح البخاري — حديث 4553", en: "Sahih al-Bukhari 4553 — Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))", ur: "صحیح بخاری — حدیث 4553" }
+text: "… قَالَ انْطَلَقْتُ فِي الْمُدَّةِ الَّتِي كَانَتْ بَيْنِي وَبَيْنَ رَسُولِ اللَّهِ صلى الله عليه وسلم ـ قَالَ ـ فَبَيْنَا أَنَا بِالشَّأْمِ إِذْ جِيءَ بِكِتَابٍ مِنَ النَّبِيِّ صلى الله عليه وسلم إِلَى هِرَقْلَ قَالَ وَكَانَ دِحْيَةُ الْكَلْبِيُّ جَاءَ بِهِ فَدَفَعَهُ إِلَى عَظِيمِ بُصْرَى، فَدَفَعَهُ عَظِيمُ بُصْرَى إِلَى ـ هِرَقْلَ ـ قَالَ فَقَالَ هِرَقْلُ هَلْ هَا هُنَا أَحَدٌ مِنْ قَوْمِ هَذَا الرَّجُلِ الَّذِي يَزْعُمُ أَنَّهُ نَبِيٌّ فَقَالُوا …"
+summary:
+  ar: "في صحيح البخاري؛ وصول كتاب منسوب إلى مرسل."
+  en: "In Sahih al-Bukhari; a letter arriving from a named sender."
+  ur: "صحیح بخاری میں؛ نامزد بھیجنے والے کا خط پہنچنا."
+relations:
+  - { type: mentions, target: person/heraclius, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/dihya-al-kalbi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4553 (book 65 hadith 75); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

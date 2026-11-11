@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4356
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4356"
+label: { ar: "صحيح البخاري — حديث 4356", en: "Sahih al-Bukhari 4356 — Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)", ur: "صحیح بخاری — حدیث 4356" }
+text: "… لاَ أَثْبُتُ عَلَى الْخَيْلِ، فَضَرَبَ فِي صَدْرِي حَتَّى رَأَيْتُ أَثَرَ أَصَابِعِهِ فِي صَدْرِي، وَقَالَ ‏\"‏ اللَّهُمَّ ثَبِّتْهُ، وَاجْعَلْهُ هَادِيًا مَهْدِيًّا ‏\"‏‏.‏ فَانْطَلَقَ إِلَيْهَا فَكَسَرَهَا وَحَرَّقَهَا، ثُمَّ بَعَثَ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ رَسُولُ جَرِيرٍ وَالَّذِي بَعَثَكَ بِالْحَقِّ، مَا جِئْتُكَ حَتَّى تَرَكْتُهَا كَأَنَّهَا جَمَلٌ أَجْرَبُ‏.‏ قَالَ فَبَارَكَ فِي خَيْلِ أَحْمَسَ وَرِجَالِهَا خَمْسَ مَرَّاتٍ‏.‏"
+summary:
+  ar: "في صحيح البخاري؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih al-Bukhari; sending a letter or message to a party."
+  ur: "صحیح بخاری میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4356 (book 64 hadith 382); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

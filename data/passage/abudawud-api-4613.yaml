@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4613
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4613"
+label: { ar: "سنن أبي داود — حديث 4613", en: "Sunan Abi Dawud 4613 — Model Behavior of the Prophet (Kitab Al-Sunnah)", ur: "سنن ابی داؤد — حدیث 4613" }
+text: "كَانَ لاِبْنِ عُمَرَ صَدِيقٌ مِنْ أَهْلِ الشَّامِ يُكَاتِبُهُ فَكَتَبَ إِلَيْهِ عَبْدُ اللَّهِ بْنُ عُمَرَ إِنَّهُ بَلَغَنِي أَنَّكَ تَكَلَّمْتَ فِي شَىْءٍ مِنَ الْقَدَرِ فَإِيَّاكَ أَنْ تَكْتُبَ إِلَىَّ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏ \"‏ إِنَّهُ سَيَكُونُ فِي أُمَّتِي أَقْوَامٌ يُكَذِّبُونَ بِالْقَدَرِ ‏\"‏ ‏.‏"
+summary:
+  ar: "في سنن أبي داود؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan Abi Dawud; sending a letter or message to a party."
+  ur: "سنن ابی داؤد میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4613 (book 42 hadith 18); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

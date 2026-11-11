@@ -187,6 +187,26 @@ const RE_CALIPH = new RegExp(`${BL}(?:${CALIPH_NAMES})(?=$|${E})`);
 const RE_CALIPH_TITLE = new RegExp(`${BL}(?:${CALIPH_TITLES})(?=$|${E})`);
 const RE_ROYAL = new RegExp(`${BL}(?:${ROYAL_NAMES})(?=$|${E})`);
 
+/**
+ * Direction-aware sender: a quoted «من <party> … إلى <party>» names the letter's
+ * author first — «من هرقل إلى» is a royal letter, «من عمر إلى» a caliphal one,
+ * «من محمد إلى هرقل» a prophetic one. Checked before the name-priority fallback
+ * so incoming letters classify by their actual sender.
+ */
+const AR_FROM_TO = /من\s+([ء-ي]+(?:\s+[ء-ي]+){0,3}?)\s+(?:إلى|الي)(?=$|[\sء-ي])/g;
+const SENDER_FIRST: [RegExp, MukatabatSender][] = [
+  [new RegExp(`^(?:${PROPHET_NAMES})(?=$|${E})`), "prophetic"],
+  [new RegExp(`^(?:${CALIPH_NAMES}|${CALIPH_TITLES})(?=$|${E})`), "caliphal"],
+  [new RegExp(`^(?:${ROYAL_NAMES})(?=$|${E})`), "royal"],
+];
+function senderFromDirection(raw: string): MukatabatSender | null {
+  for (const m of raw.matchAll(AR_FROM_TO)) {
+    const who = (m[1] ?? "").trim();
+    for (const [re, cls] of SENDER_FIRST) if (re.test(who)) return cls;
+  }
+  return null;
+}
+
 /** Institution-level royal markers for mention-kind passages about kings' correspondence. */
 const RE_ROYAL_INSTITUTION = /مكاتبات\s+(?:ال)?(?:ملوك|سلاطين)|خواتيم\s+(?:ال)?(?:ملوك|سلاطين)|خاتم\s+(?:كسرى|السلطان|الملك)|ملك\s+(?:ال)?(?:روم|فارس|الحبشة|اليمن|الأرض)|مراسلة\s+(?:ال)?(?:ملوك|سلاطين)/;
 
@@ -240,7 +260,7 @@ function rawTextOf(n: Node): string {
 
 /** Whether a «مكاتب/مكاتبة» match sits inside the fiqh mukataba contract context. */
 function isFiqhMukataba(raw: string, index: number): boolean {
-  const window = raw.slice(Math.max(0, index - 60), index + 80);
+  const window = raw.slice(Math.max(0, index - 100), index + 120);
   return MUKATABA_FIQH.test(window);
 }
 
@@ -249,7 +269,13 @@ function isFiqhMukataba(raw: string, index: number): boolean {
  * «عند الله/عند ربه/عنده» — God's register. A «كتاب» in this context is the
  * divine record, never a letter. Checked around each weak-signal match.
  */
-const DIVINE_BOOK = /كتب\s+الله|كتب\s+عليكم|كتب\s+عليهم|كتب\s+في\s+(?:ال)?(?:لوح|صحف)|أم\s+الكتاب|اللوح\s+المحفوظ|عند\s+(?:الله|ربه|ربك|مولاه)|عنده|فوق\s+العرش|قضى\s+الله|خلق\s+الله|لما\s+(?:خلق|قضى)\s+الله/;
+const DIVINE_BOOK = /كتب\s+الله|كتب\s+عليكم|كتب\s+عليهم|كتب\s+في\s+(?:ال)?(?:لوح|صحف)|أم\s+الكتاب|اللوح\s+المحفوظ|عند\s+(?:الله|ربه|ربك|مولاه)|عنده|فوق\s+العرش|قضى\s+الله|خلق\s+الله|لما\s+(?:خلق|قضى)\s+الله|قال\s+في\s+كتاب|تلا\s+في\s+كتاب|يتلو\s+في\s+كتاب|نزل\s+في\s+كتاب|أنزل\s+في\s+كتاب|أوحى\s+في\s+كتاب|في\s+كتاب\s+الله|في\s+كتاب\s+ربك|في\s+كتاب\s+ربه/;
+/**
+ * The mushaf/scripture page sense: «في كتابه وما في الصحيفة» (understanding given
+ * in the Book and the page), «ما في المصحف» — «كتاب/صحيفة» here names the
+ * scripture or its page, never a letter. Checked around weak letter signals.
+ */
+const SCRIPTURE_PAGE = /صحيفة|صحف|مصحف|قرآن|فهم|تلاوة|تلا|آية|سورة|مصحفا/;
 
 /** Words that may legitimately continue a letter reference («كتاب فيه»، «كتاب
  *  الذي»، «كتاب على»، «كتاب من») — prepositions, relatives and determiners.
@@ -311,6 +337,8 @@ export function mukatabatSignalsOf(n: Node): string[] {
     if (BOOK_AUTHOR_AFTER.test(after.trimStart())) continue;
     if (REF_MESSAGE_BEFORE.test(before + m[0])) continue;
     if (divineAt(m.index!)) continue;
+    const pageWindow = raw.slice(Math.max(0, m.index! - 80), m.index! + 80);
+    if (SCRIPTURE_PAGE.test(pageWindow)) continue;
     const hasPronoun = /(?:ه|ها|هم|هن|نا|ي|ت|كم|كن|هما|ك)$/.test(noun) && !/^(?:كتاب|رسالة|رقعة|صك|خطاب|جواب)$/.test(noun);
     const continues = REF_CONTINUE.test(after);
     if (!hasPronoun && !continues) continue;
@@ -334,12 +362,16 @@ export function mukatabatSignalsOf(n: Node): string[] {
   }
 
   for (const m of raw.matchAll(AR_KATABA_VERB)) {
+    // «كاتب علي» = Ali's scribe (a person), «كاتب عبده/عليهم» = the fiqh
+    // manumission contract — neither is correspondence.
+    if (/كاتب\s+(?:ال)?(?:نبي|رسول|علي|أمير|والي|قاضي|سلطان|ملك|خليفة|إمام|صاحب|دواوين|الكتب|المهدي|السلطان)/.test(m[0])) continue;
+    if (isFiqhMukataba(raw, m.index!)) continue;
     if (!SLAVE_OBJECT.test(m[0])) { hits.add("kataba_verb"); break; }
   }
 
   for (const m of raw.matchAll(AR_SAHIFA)) {
     const window = raw.slice(Math.max(0, m.index! - 50), m.index! + 70);
-    if (SAHIFA_CONTEXT.test(window)) { hits.add("sahifa"); break; }
+    if (SAHIFA_CONTEXT.test(window) && !/(?:مصحف|قرآن|صحف|فهم|تلاوة|تلا|آية|سورة)/.test(window)) { hits.add("sahifa"); break; }
   }
 
   // Institutions and genre nouns (mention-level).
@@ -381,6 +413,8 @@ export function mukatabatSenderOf(n: Node): MukatabatSender {
   if (n.class !== "passage" || n.stub) return null;
   if (!isMukatabatPassage(n)) return null;
   const raw = rawTextOf(n);
+  const directed = senderFromDirection(raw);
+  if (directed) return directed;
   if (RE_PROPHET.test(raw)) return "prophetic";
   if (RE_CALIPH.test(raw) || RE_CALIPH_TITLE.test(raw)) return "caliphal";
   if (RE_ROYAL.test(raw) || RE_ROYAL_INSTITUTION.test(raw)) return "royal";

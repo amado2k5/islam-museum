@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-307
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "307"
+label: { ar: "جامع الترمذي — حديث 307", en: "Jami' al-Tirmidhi 307 — The Book on Salat (Prayer)", ur: "جامع ترمذی — حدیث 307" }
+text: "عَنْهُ أَنَّهُ كَانَ يَقْرَأُ فِي الرَّكْعَةِ الأُولَى مِنَ الظُّهْرِ قَدْرَ ثَلاَثِينَ آيَةً وَفِي الرَّكْعَةِ الثَّانِيَةِ قَدْرَ خَمْسَ عَشْرَةَ آيَةً ‏.‏ وَرُوِيَ عَنْ عُمَرَ أَنَّهُ كَتَبَ إِلَى أَبِي مُوسَى أَنِ اقْرَأْ فِي الظُّهْرِ بِأَوْسَاطِ الْمُفَصَّلِ ‏.‏ وَرَأَى بَعْضُ أَهْلِ الْعِلْمِ أَنَّ الْقِرَاءَةَ فِي صَلاَةِ الْعَصْرِ كَنَحْوِ الْقِرَاءَةِ فِي صَلاَةِ الْمَغْرِبِ يَقْرَأُ بِقِصَارِ الْمُفَصَّلِ ‏.‏ وَرُوِيَ عَن …"
+summary:
+  ar: "في جامع الترمذي؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Jami' al-Tirmidhi; sending a letter or message to a party."
+  ur: "جامع ترمذی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 307 (book 2 hadith 159); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

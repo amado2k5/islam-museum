@@ -1,0 +1,17 @@
+id: passage/abudawud-api-2927
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2927"
+label: { ar: "سنن أبي داود — حديث 2927", en: "Sunan Abi Dawud 2927 — Shares of Inheritance (Kitab Al-Fara'id)", ur: "سنن ابی داؤد — حدیث 2927" }
+text: "لَهُ الضَّحَّاكُ بْنُ سُفْيَانَ كَتَبَ إِلَىَّ رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ أُوَرِّثَ امْرَأَةَ أَشْيَمَ الضِّبَابِيِّ مِنْ دِيَةِ زَوْجِهَا ‏.‏ فَرَجَعَ عُمَرُ ‏.‏ قَالَ أَحْمَدُ بْنُ صَالِحٍ حَدَّثَنَا عَبْدُ الرَّزَّاقِ بِهَذَا الْحَدِيثِ عَنْ مَعْمَرٍ عَنِ الزُّهْرِيِّ عَنْ سَعِيدٍ وَقَالَ فِيهِ وَكَانَ النَّبِيُّ صلى الله عليه وسلم اسْتَعْمَلَهُ عَلَى الأَعْرَابِ ‏.‏"
+summary:
+  ar: "في سنن أبي داود؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan Abi Dawud; sending a letter or message to a party."
+  ur: "سنن ابی داؤد میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2927 (book 19 hadith 43); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }
