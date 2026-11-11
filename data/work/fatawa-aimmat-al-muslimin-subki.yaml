@@ -9,6 +9,12 @@ summary:
 wings: [words]
 authors: [person/mahmud-khattab-al-subki]
 sources: [source/fatawa-aimmat-al-muslimin-subki]
+relations:
+  - { type: mentions, target: concept/madhhab, sources: [source/fatawa-aimmat-al-muslimin-subki] }
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/fatawa-aimmat-al-muslimin-subki] }
+  - { type: mentions, target: group/maliki-madhhab, sources: [source/fatawa-aimmat-al-muslimin-subki] }
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/fatawa-aimmat-al-muslimin-subki] }
+  - { type: mentions, target: group/hanbali-madhhab, sources: [source/fatawa-aimmat-al-muslimin-subki] }
 provenance:
   layer: own-research
   source: "Waqfeya OCR of the book, pp. 1–107 read for this batch"

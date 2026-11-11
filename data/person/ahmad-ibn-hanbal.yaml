@@ -1,5 +1,6 @@
 id: person/ahmad-ibn-hanbal
 class: person
+tags: [madhahib-browser, mh-aima, mh-hanbali]
 label:
   ar: أحمد بن حنبل
   en: "Ahmad ibn Hanbal"
@@ -80,6 +81,7 @@ relations:
   - { type: traveled_to, target: place/jazira, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: participated_in, target: event/mihna-of-the-quran, role: "ثبت ولم يجب فضرب بالسياط", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي البغداديين (PDF ص53)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: founder_of, target: group/hanbali-madhhab, sources: [source/madkhal-ibn-badran-turki] }
 external_ids:
   wikidata: Q194442
 sources:

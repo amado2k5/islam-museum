@@ -1,6 +1,7 @@
 id: work/al-risala-shafii
 class: work
 kind: book
+tags: [madhahib-browser, mh-shafii, mh-kutub]
 label: { ar: "الرسالة", en: "Al-Risala" }
 summary:
   ar: "بطاقة أولية لكتاب الرسالة للشافعي، المؤسس الأول لعلم أصول الفقه؛ لم تُراجع مصادره على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam, source/assabile-abu-ishaq-alheweny]
 external_ids: { wikidata: "Q534888" }
+relations:
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in juristic histories — entry not yet checked on the page"

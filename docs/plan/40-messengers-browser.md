@@ -1,4 +1,4 @@
-# Plan 39 — Messengers and Prophets Browser (متصفح الرسل والأنبياء)
+# Plan 40 — Messengers and Prophets Browser (متصفح الرسل والأنبياء)
 
 _Requested by the founder: "start working on متصفح الرسل والانبياء where it
 should list all the mentioned and written الرسل والانبياء that are in tabi3een
@@ -11,7 +11,7 @@ and everything mentioned about الرسل والانبياء anywhere in any of 
 books, quran, sunnah, see rah."_
 
 The acceptance spec for production validation is
-`docs/engineering/27-messengers-browser-requirements.md` (`MSG-R..` ids).
+`docs/engineering/28-messengers-browser-requirements.md` (`MSG-R..` ids).
 
 ## 1. What it is
 
@@ -121,7 +121,7 @@ core names ambiguous:
   status, per-corpus counts, passage ids); registered in
   `scripts/export-api.ts`, `site/public/openapi/v1.json`,
   `docs/data/README.md`, `llms.txt`.
-- Docs: this plan, `docs/engineering/27-messengers-browser-requirements.md`,
+- Docs: this plan, `docs/engineering/28-messengers-browser-requirements.md`,
   `docs/plan/00-README.md`, `docs/plan/06-roadmap.md`, `docs/agents/lanes.md`
   (`messengers` lane), `docs/status.md`, `docs/site/browsers.md`, `CANARY.md`.
 

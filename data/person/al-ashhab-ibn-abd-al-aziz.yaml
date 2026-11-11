@@ -1,0 +1,31 @@
+id: person/al-ashhab-ibn-abd-al-aziz
+class: person
+tags: [madhahib-browser, mh-salaf, mh-maliki]
+label:
+  ar: "الأشهب بن عبد العزيز"
+  en: "al-Ashhab ibn Abd al-Aziz"
+  ur: "اشہب بن عبدالعزیز"
+roles: [jurist, muhaddith]
+gender: male
+summary:
+  ar: "أبو عمر الأشهب بن عبد العزيز المالكي، تفقه بمالك وبالمدنيين وبالمصريين؛ ولد سنة خمسين ومائة وتوفي بمصر سنة أربع ومائتين بعد الشافعي، وقيل فيه «ما رأيت أفقه من أشهب لولا طيش فيه»، وكانت المنافسة بينه وبين ابن القاسم وانتهت إليه الرياسة بمصر بعده {cite:tabaqat-fuqaha-abbas-1981 p.128}."
+  en: "Abu Umar al-Ashhab ibn Abd al-Aziz, the Maliki who studied under Malik and the Medinese and Egyptians; born 150, died in Egypt 204 after al-Shafi'i — 'I never saw anyone more learned than Ashhab were it not for a recklessness in him', and the leadership in Egypt passed to him after Ibn al-Qasim {cite:tabaqat-fuqaha-abbas-1981 p.128}."
+  ur: "ابو عمر اشہب بن عبدالعزیز مالکی عالم، مالک اور مدینہ و مصر کے علماء سے علم حاصل کیا؛ 150 میں پیدا ہوا اور 204 میں مصر میں وفات پائی۔ کہا گیا «میں نے اشہب سے زیادہ فقیہ نہیں دیکھا سوائے اس کی ایک عادت کے» اور ابن القاسم کے بعد مصر میں مذہب کی قیادت اسی کو ملی {cite:tabaqat-fuqaha-abbas-1981 p.128}."
+wings: [people]
+regions: [egypt-nile, arabia]
+periods: [period/abbasid-early]
+died: { hijri: "0204", edtf: "0819~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بمصر سنة أربع ومائتين {cite:tabaqat-fuqaha-abbas-1981 p.128}؛ التحويل مشتق.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: student_of, target: person/malik-ibn-anas, sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: member_of, target: group/maliki-madhhab, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: own-research
+  source: "طبقات الفقهاء لابن عبد البر، تحقيق عبد العزيز العباس (دار المعارف 1981)، ترجمة الأشهب ص 128"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: madhahib-wave3-tabaqat
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+kids:
+  ar: "الأشهب تلميذ مالك الذي قيل فيه «ما رأيت أفقه منه لولا طيش فيه»، وخلف ابن القاسم في رئاسة المذهب بمصر."
+  en: "Malik's student al-Ashhab — 'none more learned than he were it not for his recklessness' — who succeeded Ibn al-Qasim at the head of the school in Egypt."
+  ur: "مالک کا شاگرد اشہب — «اس سے زیادہ فقیہ میں نے نہیں دیکھا سوائے اس کی ایک عادت کے» — جو ابن القاسم کے بعد مصر میں مذہب کی قیادت پر آیا."

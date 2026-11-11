@@ -1,6 +1,7 @@
 id: work/al-furu-fi-al-fiqh-al-hanbali
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanbali, mh-kutub]
 label: { ar: "الفروع في الفقه الحنبلي", en: "Al-Furu'" }
 summary:
   ar: "بطاقة أولية لـالفروع في الفقه الحنبلي؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q12190951" }
+relations:
+  - { type: mentions, target: group/hanbali-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

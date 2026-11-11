@@ -1,4 +1,4 @@
-// The Messengers Browser's shared reads (docs/plan/39-messengers-browser.md): every mention of
+// The Messengers Browser's shared reads (docs/plan/40-messengers-browser.md): every mention of
 // the prophets and messengers in the museum's sources — the Qur'an, the Sunnah, the seerah and
 // every harvested book — plus the curated records about them, all over the one graph. Passages
 // are found by the shared detector in scripts/messengers.ts at build time and joined to the

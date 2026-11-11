@@ -1,4 +1,4 @@
-// The Messengers Browser's shared reads (docs/plan/39-messengers-browser.md): which passage
+// The Messengers Browser's shared reads (docs/plan/40-messengers-browser.md): which passage
 // records mention the prophets and messengers — by name, by the class terms (الأنبياء، الرسل،
 // المرسلون، بعثنا/أرسلنا), or by the canonical mention edges already in the graph — and which
 // corpus section each belongs to. Detection runs at build time over the compiled graph, so a

@@ -12,6 +12,7 @@ import { primaryYear, recordOfNode, SECTION_IDS, sectionsOf, taxonomy as modernT
 import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
 import { companionIndex, decadeKey } from "./companions.js";
 import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dreams.js";
+import { madhahibMembers } from "./madhahib.js";
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
@@ -266,7 +267,19 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
   out["companions.json"] = { generated: c.generated, feature: "companions-browser", items: companionRows(c, edgesFrom) };
   const msg = messengerApiData(c, edgesFrom, byId);
   out["messengers.json"] = { generated: c.generated, feature: "messengers-browser", subjects: msg.subjects, items: msg.items };
+  out["madhahib.json"] = { generated: c.generated, feature: "madhahib-browser", items: madhahibRows(c, edgesFrom) };
   return out;
+}
+
+const MADHABIB_FIELDS = ["kind", "wings", "themes", "tags", "traditions", "work", "ref", "unit"];
+
+/** The Four Madhhabs Browser's rows (docs/plan/38): every member with its computed sections. */
+function madhahibRows(c: Compiled, edgesFrom: Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>): Record<string, unknown>[] {
+  return madhahibMembers(c.nodes, c.edges).map((m) => {
+    const n = m.node;
+    const picked = Object.fromEntries(MADHABIB_FIELDS.filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
+    return { ...compact(n), ...picked, sections: m.sections, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) };
+  });
 }
 
 const COMPANION_FIELDS = ["gender", "roles", "born", "died", "kunya", "nisba"];
@@ -296,7 +309,7 @@ function companionRows(c: Compiled, edgesFrom: Map<string, { type: string; to: s
   });
 }
 
-/** The Messengers Browser's API rows: detected/class-edge passages plus curated records, and the subject index (docs/plan/39-messengers-browser.md). */
+/** The Messengers Browser's API rows: detected/class-edge passages plus curated records, and the subject index (docs/plan/40-messengers-browser.md). */
 function messengerApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>, byId: Map<string, Node>) {
   const real = c.nodes.filter((n) => !n.stub);
   const edgeSubjects = new Map<string, Set<string>>();

@@ -1,6 +1,7 @@
 id: work/al-mabsut-sarakhsi
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanafi, mh-kutub]
 label: { ar: "المبسوط ⁦(السرخسي)⁩", en: "Al-Mabsut (al-Sarakhsi)" }
 summary:
   ar: "بطاقة أولية للمبسوط لشمس الأئمة السرخسي، أعظم موسوعات الفقه الحنفي أملاه وهو سجين؛ لم تُراجع مصادره على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q31291244" }
+relations:
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested — entry not yet checked on the page"

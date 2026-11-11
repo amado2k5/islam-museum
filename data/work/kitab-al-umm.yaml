@@ -1,6 +1,7 @@
 id: work/kitab-al-umm
 class: work
 kind: book
+tags: [madhahib-browser, mh-shafii, mh-kutub]
 label:
   ar: "كتاب الأم"
   en: "Kitab al-Umm"
@@ -18,6 +19,7 @@ themes: [law-and-courts, development-of-law-theology-institutions]
 periods: [period/abbasid-early]
 regions: [egypt-nile, arabia, levant-iraq]
 relations:
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/kitab-al-umm-wafa-v8] }
   - { type: rules_on, target: concept/al-qada-bil-yamin-maa-al-shahid, sources: [source/kitab-al-umm-wafa-v8] }
   - { type: rules_on, target: concept/tadmin-al-sunna, sources: [source/kitab-al-umm-wafa-v8] }
   - { type: rules_on, target: practice/raf-al-yadayn-fil-salah, sources: [source/kitab-al-umm-wafa-v8] }
