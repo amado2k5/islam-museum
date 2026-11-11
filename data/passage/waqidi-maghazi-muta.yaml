@@ -1,0 +1,23 @@
+id: passage/waqidi-maghazi-muta
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "755"
+label: { ar: "غزوة مؤتة — استشهاد زيد وجعفر وابن رواحة", en: "Battle of Mu'ta — the martyrdom of Zayd, Ja'far and Ibn Rawaha" }
+text: "فدخل على ابنته فاطمة وهي تقول: وا عماه! فقال: على مثل جعفر فلتبك الباكية"
+summary:
+  ar: "في غزوة مؤتة استشهد القادة الثلاثة على الترتيب: زيد بن حارثة ثم جعفر بن أبي طالب ثم عبد الله بن رواحة. ويروي الواقدي أن رسول الله لما جاءه خبر موت جعفر دخل على ابنته فاطمة وهي تقول «وا عماه»، فقال: على مثل جعفر فلتبك الباكية، ثم قال: اصنعوا لآل جعفر طعاما فقد شغلوا عن أنفسهم اليوم. وتذكر أسماء بنت عميس أنها كانت فيمن قال النبي لها «بنى الله لك بزوج خير منه»."
+  en: "At Mu'ta the three commanders fell in succession — Zayd ibn Haritha, then Ja'far ibn Abi Talib, then Abd Allah ibn Rawaha. Waqidi reports the Prophet entering his daughter Fatima's house as she cried 'wa 'ammah', answering 'like Ja'far — let the weeper weep' and ordering food made for the family of Ja'far; Asma' bint Umays narrates the Prophet's words to her that God would give her a better husband."
+relations:
+  - { type: mentions, target: person/zayd-ibn-haritha, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/jafar-ibn-abi-talib, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/asma-bint-umays, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/fatima, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/battle-of-mutah, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 755–769" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

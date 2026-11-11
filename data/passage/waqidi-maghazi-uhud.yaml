@@ -1,0 +1,22 @@
+id: passage/waqidi-maghazi-uhud
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "199"
+label: { ar: "غزوة أحد — استشهاد حمزة وصفية بنت عبد المطلب", en: "Battle of Uhud — the martyrdom of Hamza and Safiyya bint Abd al-Muttalib" }
+text: "لما أصيب حمزة جاءت صفية بنت عبد المطلب تطلبه، فحالت بينها وبينه الأنصار، فقال رسول الله: دعوها! فجلست عنده فجعلت إذا بكت بكى رسول الله، وإذا نشجت ينشج رسول الله"
+summary:
+  ar: "يفصّل الواقدي مشهد استشهاد حمزة يوم أحد، فمشى وحش إلى موضعه، ثم جاءت صفية بنت عبد المطلب — خالة النبي وزوجة الحمزة — تطلبه فأذنت لها أن تجلس عنده، وكانت تبكي فبكى النبي معها. ويذكر فصل غزوة حمراء الأسد في نفس الباب، حيث كانت صفية أيضاً فيمن خرج من المدينة."
+  en: "Waqidi details Hamza's martyrdom at Uhud and the scene when Safiyya bint Abd al-Muttalib — the Prophet's aunt and Hamza's widow — came seeking his body; the Prophet let her sit by him as she wept, and he wept with her. The same chapter closes with the raid on Hamra' al-Asad."
+relations:
+  - { type: mentions, target: person/hamza, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/safiyya-bint-abd-al-muttalib, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: group/banu-hashim, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/battle-of-uhud, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 199–334" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

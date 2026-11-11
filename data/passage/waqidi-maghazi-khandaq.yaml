@@ -1,0 +1,23 @@
+id: passage/waqidi-maghazi-khandaq
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "440"
+label: { ar: "غزوة الخندق — تعاقب النبي بين نسائه", en: "Battle of the Trench — the Prophet's rotation among his wives" }
+text: "كان النبي يعقب بين نسائه، فتكون عائشة أياما، ثم تكون أم سلمة، ثم تكون زينب بنت جحش، فكان هؤلاء الثلاث اللاتي يعقب بينهن في الخندق"
+summary:
+  ar: "خلال حصار الأحزاب في الخندق، يذكر الواقدي أن النبي كان يعقب بين نسائه فتكون عائشة أياما ثم أم سلمة ثم زينب بنت جحش، وكان هؤلاء الثلاث يعقب بينهن في الخندق وسائر نسائه في أطم بني حارثة. وتروي أم سلمة في هذا الباب مواقفها ليلة غارة المشركين على القبة، وخروج سعد بن معاذ مصابا والأسرى في أطم فارع."
+  en: "During the siege of the Confederates at the Trench, Waqidi records that the Prophet rotated among his wives — Aisha some days, then Umm Salama, then Zaynab bint Jahsh — these three dwelling in the trench while the rest stayed in the fortresses of Banu Haritha. Umm Salama narrates her vigil at the Prophet's tent during the night raid."
+relations:
+  - { type: mentions, target: person/aisha, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/umm-salama, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/zaynab-bint-jahsh, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/battle-of-the-trench, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: place/medina, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 440–495" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

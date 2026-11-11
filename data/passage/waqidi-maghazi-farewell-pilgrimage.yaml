@@ -1,0 +1,22 @@
+id: passage/waqidi-maghazi-farewell-pilgrimage
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "1088"
+label: { ar: "حجة الوداع — مكة وعرفات ومنى", en: "The Farewell Pilgrimage — Mecca, Arafat and Mina" }
+text: "ويقال: إنما قال إلى فيء صخرة، وميمونة زوجته تتبع ظلها حتى راح، وأزواجه في قباب حوله"
+summary:
+  ar: "في باب حجة الوداع، يذكر الواقدي روايات نسائه: ميمونة تتبع ظل القبة حتى راح وأزواجه في قباب حوله، وتروي عائشة خبر تبليغها آية الحجاب وأنها رأت النبي يخطب بالناس في عرفة. ويذكر الباب مناسك الحج وأيام منى."
+  en: "In the Farewell Pilgrimage chapter Waqidi gathers the wives' reports: Maymunah following the tent's shade until evening while the Prophet's wives dwelt in tents around him, and Aisha recounting the hijab verse's revelation and the sermon at Arafat. The chapter covers the rites of Hajj and Mina's jamarat."
+relations:
+  - { type: mentions, target: person/maymuna-bint-al-harith, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/aisha, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/farewell-pilgrimage, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: place/mecca, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 1088–1117" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

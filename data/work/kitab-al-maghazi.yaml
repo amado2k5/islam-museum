@@ -1,19 +1,26 @@
 id: work/kitab-al-maghazi
 class: work
 kind: book
-label: { ar: "كتاب المغازي", en: "Kitab al-Maghazi" }
+genre: [sira, history]
+label: { ar: "كتاب المغازي — محمد بن عمر الواقدي", en: "Kitab al-Maghazi — Muhammad ibn Umar al-Waqidi" }
 summary:
-  ar: "بطاقة أولية لكتاب المغازي، من مدونات الغزوات والسيرة؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Kitab al-Maghazi, a compilation of the campaigns; its sources are not yet checked on the page."
+  ar: "أقدم مصنف مستقل باقٍ في مغازي رسول الله وسيره. جمعه محمد بن عمر بن واقد الأسلمي، مولاهم وقاضي المدينة المتوفى سنة 207هـ، ورتبه على السرايا والغزوات من مقدم النبوة إلى سنة إحدى عشرة في ثلاثة أجزاء. يُستشهد به هنا عبر نص المكتبة الشاملة الذي يطابق طبعة مارسدن جونز ⁦(أكسفورد 1966)⁩."
+  en: "The earliest surviving monograph on the Prophet's campaigns. Compiled by Muhammad ibn Umar ibn Waqid al-Aslami, mawla of Banu Hashim and qadi of Medina (d. 207 AH), arranged by sariyya and ghazwa from the emigration to year 11 in three parts. Cited here through al-Maktaba al-Shamila's digital text matching the Marsden Jones Oxford edition (1966)."
 wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q135509586" }
+themes: [prophets, history-writing-and-social-thought, scripture-and-its-sciences]
+regions: [arabia]
+authors: [person/al-waqidi]
+language: language/arabic
+editions: [source/al-waqidi-maghazi]
+relations:
+  - { type: wrote_in, target: language/arabic }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
+  source: "Shamela book 23680 (al-Maktaba al-Shamila), the digital text of the Marsden Jones edition, Oxford University Press, London 1966; identity verified against the Shamela title page and the Jones edition's three-part structure"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
-  run: wikidata-import-wave2
+  run: waqidi-maghazi-bayt-1
+sources: [source/al-waqidi-maghazi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 tags:
 - bayt-browser

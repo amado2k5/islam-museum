@@ -4,7 +4,7 @@
 id: lib-maghazi-waqidi
 kind: library-delegation
 title: "كتاب المغازي — محمد بن عمر الواقدي"
-status: delegated-not-mined
+status: partially-mined
 lane: bayt
 scope: family-chapters-only
 chapters_in_scope:
@@ -16,13 +16,23 @@ chapters_in_scope:
   - banu-hashim-banu-abd-al-muttalib
   - descendants-and-imams-line
 edition_candidates:
-  - "Kitab al-Maghazi, ed. Marsden Jones, OUP 1966"
+  - "Kitab al-Maghazi, ed. Marsden Jones, OUP 1966 — SELECTED: Shamela book 23680 digital text (printed pagination)"
   - "al-Maghazi, ed. Shu'ayb al-Arna'ut, Mu'assasat al-Risala 1405/1984"
 identity_warning: >
-  Title shared with Musa ibn Uqba's earlier Kitab al-Maghazi; passages must
-  cite the Waqidi recension explicitly. Check whether data/work/kitab-al-maghazi
-  already denotes this work before reusing the id.
+  Title shared with Musa ibn Uqba's earlier Kitab al-Maghazi (Wikidata
+  Q135509586). Resolved: work/kitab-al-maghazi now denotes al-Waqidi's
+  recension (genre sira, Shamela/Jones source); the Musa ibn Uqba work is
+  preserved as work/kitab-al-maghazi-musa-ibn-uqba.
 expected_waves: [A-registration, B-family-core, C-wives-clan-descendants]
+harvested: >
+  Wave A+B landed: 19 family-relevant chapter passages mined from Shamela
+  book 23680 (pages 9-1127 printed) covering Hamza's first sariyya, Badr,
+  Uhud/Hamra al-Asad, the Ifk affair, the Trench wives' rotation,
+  Banu Qurayza, Fadak, Umm Qirfa, Hudaybiyya, Khaybar, Mu'ta, the
+  Conquest, Hunayn/Ja'rana/Hawazin, Ta'if, al-Fils, Tabuk, Ali's Yemen
+  mission, the Farewell Pilgrimage and Usama's expedition. All draft-tier,
+  trilingual summaries pending review; non-family battle narrative bulk
+  remains unmined by design.
 notes: >
   Bounded harvest for the bayt browser seerah section. Non-family campaign
   chapters remain unmined by design (see delegation doc).

@@ -1,0 +1,23 @@
+id: passage/waqidi-maghazi-banu-qurayza
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "496"
+label: { ar: "غزوة بني قريظة — مواقف عائشة وأم سلمة وعلي", en: "Campaign against Banu Qurayza — the roles of Aisha, Umm Salama and Ali" }
+text: "كانت عائشة تقول: قتلت بنو قريظة يومهم حتى قتلوا بالليل على شعل السعف"
+summary:
+  ar: "بعد فشل الأحزاب وعودتهم، حاصر النبي بنو قريظة بعد نقضهم العهد، حتى نزلوا على حكم سعد بن معاذ فقتلوا رجالهم وسبيت نساؤهم. وفي هذا الباب روايات لنسائه: عائشة تروي خبر قرة بنت كعب التي قتلها زوجها، وأم سلمة تروي توبة أبي لبابة نازلة في بيتها. ويذكر الواقدي أن علي بن أبي طالب هو الذي حضر فيمن قتلهم بالسيف كما رواه عبد الله بن جعفر عن أبيه."
+  en: "After the Confederates withdrew, the Prophet besieged Banu Qurayza for breaking their treaty until they accepted Sa'd ibn Mu'adh's arbitration and their men were executed. The chapter carries reports of the wives: Aisha on Qarra bint Ka'b and Umm Salama on Abu Lubaba's repentance descending in her house, and Ali's presence among those who killed them by the sword."
+relations:
+  - { type: mentions, target: person/aisha, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/umm-salama, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/sad-ibn-muadh, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/siege-of-banu-qurayza, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 496–531" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

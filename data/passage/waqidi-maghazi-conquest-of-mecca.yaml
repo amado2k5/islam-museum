@@ -1,0 +1,24 @@
+id: passage/waqidi-maghazi-conquest-of-mecca
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "780"
+label: { ar: "شأن الفتح — دخول النبي مكة وآل بيته", en: "The Conquest of Mecca — the Prophet's entry and his household" }
+text: "يا رسول الله، صهرك وابن عمتك وابن عمك وأخوك من الرضاعة! وقد جاء الله بهما مسلمين"
+summary:
+  ar: "في باب الفتح، يخبر عمر النبي بأن أبا سفيان بن الحارث وابا سفيان بن حرب اللذين كانا يقولان في مكة ما قالا قد جاءا مسلمين، فكلمته أم سلمة زوجته فقالت: «يا رسول الله، صهرك وابن عمتك وابن عمك وأخوك من الرضاعة! وقد جاء الله بهما مسلمين، لا يكونان أشقى الناس بك»، فقال النبي: لا حاجة لي بهما. ويذكر الواقدي دخول النبي مكة في ثمانية آلاف وعشرة آلاف، وكشف الكعبة وتكسير الأصنام، ودخول صفية وبني عبد المطلب معهم."
+  en: "At the conquest Umm Salama urged the Prophet on behalf of Abu Sufyan ibn al-Harith and Abu Sufyan ibn Harb — 'your son-in-law, your cousin, your paternal cousin and your foster-brother, God has brought them to you as Muslims' — and the Prophet declined to press them. The chapter covers the entry into Mecca with eight to ten thousand men, the idols' destruction, and Safiyya and Banu Abd al-Muttalib coming in with them."
+relations:
+  - { type: mentions, target: person/umm-salama, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/abu-sufyan-ibn-al-harith, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/abu-sufyan-ibn-harb, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/safiyya-bint-huyayy, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: group/banu-al-muttalib, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/conquest-of-mecca, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 780–873" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

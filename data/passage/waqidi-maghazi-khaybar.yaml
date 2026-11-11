@@ -1,0 +1,26 @@
+id: passage/waqidi-maghazi-khaybar
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "633"
+label: { ar: "غزوة خيبر — مرافقة النساء مع الجيش", en: "Battle of Khaybar — the women who accompanied the army" }
+text: "خرج مع رسول الله من المدينة عشرون امرأة: أم سلمة زوجته، وصفية بنت عبد المطلب، وأم أيمن"
+summary:
+  ar: "في غزوة خيبر، يذكر الواقدي خروج عشرين امرأة مع الجيش، على رأسهن أم سلمة زوج النبي وصفية بنت عبد المطلب خالة النبي وأم أيمن مولاة النبي، وامرأة عاصم بن عدي، وأم عمارة نسيبة بنت كعب. وتروي الصفحة استشهاد أسماء بنت عميس زوجة جعفر بن أبي طالب، وخبر صفية وعلي في باب فتح خيبر."
+  en: "At Khaybar Waqidi lists twenty women who went out with the army, led by Umm Salama, Safiyya bint Abd al-Muttalib (the Prophet's aunt) and Umm Ayman his freedwoman, among them Asma' bint Umays the wife of Ja'far ibn Abi Talib and Umm 'Umara Nusayba bint Ka'b. The same chapter reports Asma' bint Umays's martyrdom and Safiyya's and Ali's role in taking Khaybar."
+relations:
+  - { type: mentions, target: person/umm-salama, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/safiyya-bint-abd-al-muttalib, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/umm-ayman, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/asma-bint-umays, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/jafar-ibn-abi-talib, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/nusayba-bint-kab, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: place/khaybar, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/battle-of-khaybar, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 633–722" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah
