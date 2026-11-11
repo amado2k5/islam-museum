@@ -1,0 +1,60 @@
+id: event/shaytan-made-qareen
+kind: other
+label:
+  ar: من يعش عن ذكر الرحمن يُقيَّض له شيطانٌ قريناً
+  en: Whoever turns from remembrance is assigned a shaytan as qareen
+  ur: جو ذکرِ رحمان سے کنارہ کرے اس کے لیے شیطان قرین بنایا جاتا ہے
+summary:
+  ar: 'قال تعالى: وَمَن يَعْشُ عَن ذِكْرِ الرَّحْمَٰنِ نُقَيِّضْ لَهُ شَيْطَانًا فَهُوَ لَهُ قَرِينٌ ۝ وَمَن يَكُنِ الشَّيْطَانُ لَهُ قَرِينًا فَسَاءَ قَرِينًا {cite:tanzil-quran} [[passage/quran-43-36|الزخرف 36]] [[passage/quran-43-38|الزخرف 38]] [[passage/quran-4-38|النساء 38]].'
+  en: 'God says: and whoever turns away from the remembrance of the Merciful, We assign for him a shaytan who is his companion; and whoever has the shaytan as companion, evil is the companion {cite:tanzil-quran} [[passage/quran-43-36|Zukhruf 36]] [[passage/quran-43-38|Zukhruf 38]] [[passage/quran-4-38|Women 38]].'
+  ur: 'اللہ فرماتا ہے: اور جو ذکرِ رحمان سے کنارہ کرے ہم اس کے لیے ایک شیطان تفویض کرتے ہیں جو اس کا قرین ہو؛ اور جو اس کا قرین شیطان ہو تو برا قرین ہے {cite:tanzil-quran} [[passage/quran-43-36|زخرف 36]] [[passage/quran-43-38|زخرف 38]] [[passage/quran-4-38|نساء 38]]۔'
+wings:
+- people
+- ideas
+themes:
+- creed
+regions: []
+periods: []
+tags:
+- jinn-devils-browser
+- jd-devils
+- jd-jinn
+sources: &id001
+- source/tanzil-quran
+- source/tanzil-translations
+relations:
+- type: related_to
+  target: concept/qareen
+  sources:
+  - source/tanzil-quran
+- type: related_to
+  target: concept/shayatin-al-ins-wal-jinn
+  sources:
+  - source/tanzil-quran
+- type: related_to
+  target: concept/jinn
+  sources:
+  - source/tanzil-quran
+- type: related_to
+  target: person/muhammad
+  sources:
+  - source/tanzil-quran
+- type: related_to
+  target: passage/quran-43-36
+  sources: *id001
+- type: related_to
+  target: passage/quran-43-38
+  sources: *id001
+- type: related_to
+  target: passage/quran-4-38
+  sources: *id001
+provenance:
+  layer: own-research
+  source: Jinn & Devils Browser wave-12; worded from the cited Qur'an ayahs
+  generated_by: Devin (SWE-2 High)
+  run: jinn-devils-browser-12
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High)
+class: event
