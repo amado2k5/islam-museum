@@ -1,0 +1,23 @@
+id: passage/targhib-p76
+class: passage
+unit: hadith
+work: work/al-targhib-wa-al-tarhib-mundhiri
+ref: "76"
+label:
+  ar: "الترغيب والترهيب 76 — لم توت كبيرة"
+  en: "al-Targhib wa-l-Tarhib 76 — One who dies without committing a major sin"
+text: "الاكانت هارة لما قبلها من الدنوبِ قَالَّم نَوْتَ كبِيرَة وَكذلكِ الدَّهْرَحِلهُ وَعَنْ د أيوب رَضَىَ اللَّهُ عنهُ از الني صَع اللهَ عليْه وَسَلمْ كان بمولُ ازكل صَلاة تحط مَابيَزيدنها مِنْ حطيّة رَوَاه احد باسن تَسَن وَعر الحارث مَولى…"
+summary:
+  ar: "مقطع من الترغيب والترهيب للمنذري، في كتاب البيوع ١٢، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Mundhiri's al-Targhib wa-l-Tarhib, in كتاب البيوع ١٢, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/targhib-tarhib-qayyima] }
+  - { type: mentions, target: person/muhammad, sources: [source/targhib-tarhib-qayyima] }
+provenance:
+  layer: own-research
+  source: "الترغيب والترهيب للمنذري — نسخة مستخرجة، ص 76"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: sayyiat-mining-2
+tags: [sayyiat-browser]
+sources: [source/targhib-tarhib-qayyima]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
