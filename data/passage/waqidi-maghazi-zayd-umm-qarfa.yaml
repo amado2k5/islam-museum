@@ -1,0 +1,21 @@
+id: passage/waqidi-maghazi-zayd-umm-qarfa
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "564"
+label: { ar: "سرية زيد بن حارثة إلى أم قرفة", en: "Sariyya of Zayd ibn Haritha to Umm Qirfa" }
+text: "فأتى زيد فقرع الباب، فقام إليه رسول الله يجر ثوبه عريانا، ما رأيته عريانا قبلها، حتى اعتنقه وقبله، ثم سأله فأخبره بما ظفره الله"
+summary:
+  ar: "بعث النبي زيد بن حارثة — ابنه بالتبني — إلى أم قرفة وبني فزارة بعد هزيمة أهل بئر معونة، فقتلها وأهلها وأسر الجارية التي وهبها النبي لحزن بن أبي وهب من الأنصار. ويذكر الواقدي أن عائشة روت حديثا في هذا الباب، وأن النبي لما رجع زيد قام إليه يجر ثوبه عريانا حتى اعتنقه وقبله وسأله عما ظفره الله به."
+  en: "After the defeat at Bi'r Ma'una, the Prophet sent his adopted son Zayd ibn Haritha to Umm Qirfa and Banu Fazar; he killed her household and captured the slave-girl later gifted to Hazzan ibn Abi Wahb of the Ansar. The chapter also carries Aisha's narration, and the scene of the Prophet rising to meet Zayd, embracing and kissing him as he returned."
+relations:
+  - { type: mentions, target: person/zayd-ibn-haritha, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/aisha, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/incident-of-bir-mauna, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 564–566" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

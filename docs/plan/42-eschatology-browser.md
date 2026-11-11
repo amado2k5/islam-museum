@@ -1,4 +1,4 @@
-# Plan 39 — Signs of the Hour Browser (متصفح علامات الساعة)
+# Plan 42 — Signs of the Hour Browser (متصفح علامات الساعة)
 
 _Requested by the founder: "متصفح علامات يوم القيامة الكبرى والصغرى where it
 should list all the mentioned and written that are in quran, seerah, sunna,
@@ -171,3 +171,55 @@ on curated records. Topic chips (`ashrat`, `dajjal`, `yajuj-majuj`, `barzakh`,
   is thin.
 - All AI-authored records stay `status.review: draft` until a human reads
   them; nothing is live until the founder deploys.
+
+## 8. Status and remaining work (handoff, 11 Nov 2026)
+
+**Shipped.** PR #6007, merge commit `f2e52c4aaf` on `main` (11 Nov 2026).
+The browser is registered end to end: `scripts/eschatology.ts` detector,
+`site/src/lib/eschatology.ts`, `/[lang]/signs/` page,
+`site/src/scripts/signs-filter.ts`, `i18n` `signs:` blocks (ar/en/ur),
+Explore-menu entry and landing card, `/api/v1/eschatology.json` +
+OpenAPI, and the docs register (this plan, spec
+`docs/engineering/30-eschatology-browser-requirements.md`, plan index,
+roadmap, lanes row `eschatology`, `docs/status.md`,
+`docs/site/browsers.md`, `docs/data/README.md`, CANARY v1.15.0).
+~1,708 passages detected (1,085 Qur'an ayahs, 621 sunnah reports, 2
+poetry) plus ~60 curated records (27 new trilingual concepts + existing
+records tagged in place). `npm run validate` 0 errors, `npm test` 446
+passed at merge time.
+
+**Remaining, in priority order:**
+
+1. **hadith-api fitan/hereafter import wave** (§2 third bullet — the one
+   planned data wave not yet done). The registered source
+   `source/hadith-api-fawazahmed0` (`github.com/fawazahmed0/hadith-api`,
+   already in `data/source/`) carries the six books plus other
+   collections. Re-download it (the earlier scratch clone was deleted
+   with the work clone), extract the fitan (أشراط الساعة / الفتن) and
+   hereafter-themed chapters, and write them as ordinary `passage`
+   records reconciling hadith-api numbering with the museum's `ref`
+   convention per collection (`arabicnumber` for Muslim, `hadithnumber`
+   for the rest; skip Muwatta — its 2,861 passages already cover it).
+   The detector picks the new records up automatically at build time —
+   that is the point of build-time detection; no detector change should
+   be needed. The Qudsi Browser used the same import mechanism.
+2. **Seerah section depth.** Thin today by design; it fills as the
+   raheeq/hisham/library lanes land seerah passages — detection is
+   automatic, but a review sweep for eschatology mentions phrased without
+   the lexicon belongs to whichever lane touches those passages.
+3. **Human review of the ~60 curated records.** All are
+   `status.review: draft` (AI output is draft-tier until a human reads
+   it). A human reads the trilingual prose and promotes records to
+   `published`; nothing is live until the founder deploys.
+4. **Production validation.** Run the `ESCH-R..` checklist in
+   `docs/engineering/30-eschatology-browser-requirements.md` against the
+   deployed site once the founder deploys.
+5. **Optional depth.** Companion/Tabi'in anecdote and quote mining
+   beyond passage-level detection (see `docs/site/browsers.md` "what it
+   will have"), and eschatology-themed books (e.g. fitan and
+   hereafter monographs) when a library lane registers them — detection
+   surfaces them automatically.
+
+**For the next agent:** the work clone on the microSD was deleted after
+the merge; start from a fresh clone of `main`. Lane `eschatology`,
+branch pattern `eschatology/<topic>-<agent>` (`docs/agents/lanes.md`).

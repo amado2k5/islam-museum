@@ -1,0 +1,23 @@
+id: passage/waqidi-maghazi-taif
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "922"
+label: { ar: "شأن غزوة الطائف — نساء النبي مع الجيش", en: "The campaign of Ta'if — the Prophet's wives with the army" }
+text: "ولما نزل رسول الله الأكمة ومعه امرأتان من نسائه أم سلمة، وزينب، وثار المسلمون إلى الحصن"
+summary:
+  ar: "في باب الطائف، يذكر الواقدي أن النبي نزل الأكمة ومعه امرأتان من نسائه: أم سلمة وزينب، وثار المسلمون إلى الحصن فقاتلهم أهلها بالنبل، وأصيب فيها أبو بكر بشظية فيها سم. ويسوق الواقدي روايات خبيب بن عبد الله بن الحرث الثقفي عن قتالهم، ثم رجع الجيش بعد ست عشرة ليلة بغير قتال."
+  en: "At Ta'if Waqidi notes the Prophet camped at al-Akama accompanied by two of his wives, Umm Salama and Zaynab, while the Muslims stormed the fortress and its defenders rained arrows on them; Abu Bakr was wounded by a poisoned splinter. Khubayb ibn Abd Allah ibn al-Harith al-Thaqafi's reports carry the siege, and the army withdrew after sixteen nights."
+relations:
+  - { type: mentions, target: person/umm-salama, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/zaynab-bint-jahsh, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/siege-of-taif, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: place/taif, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 922–939" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

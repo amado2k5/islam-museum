@@ -1,0 +1,22 @@
+id: passage/waqidi-maghazi-hudaybiyya
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "571"
+label: { ar: "غزوة الحديبية — advising the Prophet at the sacrifice", en: "Treaty of Hudaybiyya — advising the Prophet at the sacrifice" }
+text: "فقلت: يا رسول الله، انطلق أنت إلى هديك فانحره، فإنهم سيقتدون بك"
+summary:
+  ar: "في باب الحديبية، تروي أم سلمة أنها رأت المشركين ينظرون إلى النبي فقالت له: «يا رسول الله، انطلق أنت إلى هديك فانحره، فإنهم سيقتدون بك»، فاضطبع بثوبه وخرج وأخذ الحربة ينحر هديه رافعا صوته بسم الله والله أكبر، فقالت أم سلمة: فما هذا إلا أن رأوه نحر هديه. ويتضمن الباب قصة عثمان المحاصرين وصفية بنت حييئ لما دخلت على النبي بغير حجابها."
+  en: "In the Hudaybiyya chapter Umm Salama recounts urging the Prophet to slaughter his own offering so the Quraysh would imitate him; he rose, took the spear and slaughtered it crying Allahu akbar, and she remarks the Quraysh only did likewise after seeing him. The chapter also covers the besieged Uthman and Safiyya bint Huyayy's entry to the Prophet."
+relations:
+  - { type: mentions, target: person/umm-salama, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/safiyya-bint-huyayy, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: place/hudaybiyya, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/treaty-of-hudaybiyya, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 571–633" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

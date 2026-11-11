@@ -1,0 +1,21 @@
+id: passage/waqidi-maghazi-ali-yemen
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "1079"
+label: { ar: "سرية علي بن أبي طالب إلى اليمن", en: "Sariyya of Ali ibn Abi Talib to Yemen" }
+text: "فعقد له رسول الله يومئذ لواء، أخذ عمامة فلفها مثنية مربعة فجعلها في رأس الرمح، ثم دفعها إليه، وقال: هكذا اللواء!"
+summary:
+  ar: "في رمضان سنة عشر بعث النبي علي بن أبي طالب إلى اليمن رسولاً قاضياً، فعقد له لواءً وأخذ عمامة فلفها مثنية مربعة فجعلها في رأس الرمح ثم دفعها إليه وقال: هكذا اللواء! وقال له: امض ولا تلتفت! فأقبل علي حتى نزل على سبأ وهم يعبدون الصليب، فدعاهم إلى الله وأسلموا. ويذكر الواقدي أن عروة بن محمد الزبيري حدثه أن عليا قال: بعثني رسول الله إلى اليمن..."
+  en: "In Ramadan of year ten the Prophet sent Ali ibn Abi Talib to Yemen as judge and envoy; he bound a banner for him, wrapped a turban double into a square and fixed it on the spear-shaft, saying 'thus the banner!' and 'go and do not look back.' Ali reached Saba whose people worshipped the cross, called them to God and they submitted; al-Awra' ibn Muhammad al-Zubayri reports Ali's own account of the mission."
+relations:
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: place/yemen, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/ali-expeditions-to-yemen, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 1079–1084" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

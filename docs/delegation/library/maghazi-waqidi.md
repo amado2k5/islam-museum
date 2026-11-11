@@ -65,10 +65,36 @@ listed here so the omission is documented, not silent.
 
 ## Harvest waves (suggested)
 
-- **Wave A (this PR):** delegation doc + stub + `work` record decision;
-  no passages yet if no verified edition is at hand.
-- **Wave B:** chapters 1–4 above (~30–60 passages expected).
-- **Wave C:** chapters 5–7 (~40–80 passages expected).
+- **Wave A:** delegation doc + stub + `work` record decision — DONE.
+- **Wave B (this PR):** 19 family-relevant chapter passages mined from
+  al-Maktaba al-Shamila book 23680 (`passage/waqidi-maghazi-*`), covering
+  the wives' rotation at the Trench, the Ifk affair, Safiyya bint
+  Abd al-Muttalib at Uhud, the Khaybar women list, Mu'ta's condolence to
+  Fatima, Umm Salama at Hudaybiyya/Tabuk, Maymunah at the Farewell
+  Pilgrimage, and the clan members (Hamza, al-Abbas, al-Fadl, Abu Sufyan
+  ibn al-Harith, Usama) at Badr, Hunayn and the Conquest. All draft-tier.
+- **Wave C (remaining):** deeper per-chapter mining of the same family
+  chapters — additional wife/clan mentions inside the already-fetched page
+  ranges — plus any family chapters in parts not yet fetched.
+
+### Edition used (decided)
+
+- **Access:** al-Maktaba al-Shamila book 23680 («كتاب مغازي الواقدي»),
+  three parts, Shamela URL pages 42–1166.
+- **Edition identity:** the Shamela text reproduces the Marsden Jones
+  critical edition (Oxford University Press, 1966); citations use the
+  printed page numbers shown in Shamela's page footer (part 1 starts at
+  printed p. 1 ≈ Shamela page 42).
+- **Identity resolution:** `work/kitab-al-maghazi` previously carried the
+  generic title with Wikidata Q135509586 — verified to be **Mūsā ibn
+  ʿUqba's** work. The Wāqidī record now carries an explicit author in its
+  label and the Jones/Shamela provenance; the Mūsā ibn ʿUqba identity is
+  preserved as `work/kitab-al-maghazi-musa-ibn-uqba` (draft). No passages
+  of either book are mixed.
+- **Text handling:** Shamela's transcription is fully vocalised; excerpts
+  in passage `text` fields are the vocalised text with diacritics stripped
+  and honorifics removed, trimmed to ≤ ~40 words; the printed page span of
+  each chapter is recorded in `provenance.source`.
 
 ## Unmined remainder
 

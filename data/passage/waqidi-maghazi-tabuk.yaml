@@ -1,0 +1,21 @@
+id: passage/waqidi-maghazi-tabuk
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "989"
+label: { ar: "غزوة تبوك — تبشير كعب بن مالك عند أم سلمة", en: "Battle of Tabuk — the glad tidings to Ka'b ibn Malik at Umm Salama's" }
+text: "قال لي رسول الله من الليل: يا أم سلمة، قد نزلت توبة كعب بن مالك وصاحبيه"
+summary:
+  ar: "في غزوة تبوك، وهي آخر غزوات النبي، كان كعب بن مالك أحد المنافقين الثلاثة الذين تخلفوا عن الجهاد بلا عذر، فنزلت توبتهم. ويروي الواقدي أن النبي قال لأم سلمة من الليل: «يا أم سلمة، قد نزلت توبة كعب بن مالك وصاحبيه»، فقالت: ألا أرسلت إليهم فأبشرهم؟ قال: يمنعونك النوم آخر الليل، ولكن لا يرون حتى يصبحوا، فلما صلى الصبح أخبر الناس بما تاب الله عليهم. ويذكر الباب القبائل التي بعث إليها النبي."
+  en: "At Tabuk, the Prophet's last campaign, Ka'b ibn Malik was one of the three hypocrites who stayed behind without excuse until their repentance descended. Waqidi reports the Prophet telling Umm Salama at night that Ka'b's repentance had come down, and that he would not send for them until dawn lest he keep her awake; at morning prayer he announced their repentance to the people."
+relations:
+  - { type: mentions, target: person/umm-salama, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/kaab-ibn-malik, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/expedition-to-tabuk, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 989–1060" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah
