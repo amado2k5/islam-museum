@@ -1,0 +1,42 @@
+id: event/rooster-saw-an-angel
+class: event
+kind: other
+label:
+  ar: "صياح الديك: رأى ملكاً"
+  en: "The rooster's crow: it saw an angel"
+  ur: "مرغے کی بانگ: اس نے فرشتہ دیکھا"
+summary:
+  ar: "صياح الديك رأت مَلَكاً {cite:sahih-al-bukhari} [[passage/bukhari-3303|البخاري 3303]]."
+  en: "The rooster's crow: it saw an angel {cite:sahih-al-bukhari} [[passage/bukhari-3303|Bukhari 3303]]."
+  ur: "مرغے کی بانگ: اس نے فرشتہ دیکھا {cite:sahih-al-bukhari} [[passage/bukhari-3303|بخاری 3303]]۔"
+wings: [people, ideas]
+themes: [creed]
+regions: []
+periods: [period/prophetic-era]
+tags:
+- jinn-devils-browser
+- jd-angels
+sources:
+- source/sahih-al-bukhari
+relations:
+- type: related_to
+  target: concept/rooster
+  sources: [source/sahih-al-bukhari]
+- type: related_to
+  target: concept/malaika
+  sources: [source/sahih-al-bukhari]
+- type: related_to
+  target: concept/shayatin-al-ins-wal-jinn
+  sources: [source/sahih-al-bukhari]
+- type: mentions
+  target: passage/bukhari-3303
+  sources: [source/sahih-al-bukhari]
+provenance:
+  layer: own-research
+  source: "Jinn & Devils Browser wave-6; worded from Sahih al-Bukhari report of the rooster seeing an angel"
+  generated_by: Devin (SWE-2 High)
+  run: jinn-devils-browser-6
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High)
