@@ -15,7 +15,7 @@ import InventionSections from "../components/InventionSections.astro";
 import CareerStrip from "../components/CareerStrip.astro";
 import ModernStrips from "../components/ModernStrips.astro";
 import { JOB_NOT_YET } from "../lib/jobs";
-import { byId, href, labelOf, summaryOf, summaryRaw, related, updatedOn, REPO, SITE, SEGMENT, nodes } from "../lib/graph";
+import { byId, href, labelOf, summaryOf, summaryRaw, stripNeedsSource, related, updatedOn, REPO, SITE, SEGMENT, nodes } from "../lib/graph";
 import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
 import { recordingRef } from "../lib/recordings";
@@ -111,15 +111,15 @@ const refChip = (id: string) => { const n = byId.get(id); return n ? { id, label
 const perspectivesRaw = sectionHtml.flatMap((s) => s.persp).length
   ? sectionHtml.flatMap((s) => s.persp).map((p) => ({ label: p.tradition, id: "", standing: /^(sunni|أهل السنة|سني)/i.test(p.tradition) ? "main" : /academic|أكاديمي/i.test(p.tradition) ? "secondary" : "other", stance: "", html: p.html, sunni: /^(sunni|أهل السنة|سني)/i.test(p.tradition), holders: [] as any[], evidence: [] as any[], sources: [] as any[] }))
   : (d.perspectives ?? []).map((p: any) => ({
-      label: traditionLabel(p.tradition, lang), stance: p.stance?.[lang] ?? p.stance?.en ?? "", html: p.summary[lang] ?? p.summary.en, sunni: String(p.tradition).startsWith("sunni"),
+      label: traditionLabel(p.tradition, lang), stance: stripNeedsSource(p.stance?.[lang] ?? p.stance?.en ?? ""), html: stripNeedsSource(p.summary[lang] ?? p.summary.en ?? ""), sunni: String(p.tradition).startsWith("sunni"),
       id: p.id ?? "", standing: p.standing ?? (String(p.tradition).startsWith("sunni") ? "main" : p.tradition === "academic" ? "secondary" : "other"), holders: (p.holders ?? []).map(refChip).filter(Boolean),
-      evidence: (p.evidence ?? []).map((e: any) => ({ chip: refChip(e.ref), note: e.note?.[lang] ?? e.note?.en ?? "" })).filter((e: any) => e.chip),
+      evidence: (p.evidence ?? []).map((e: any) => ({ chip: refChip(e.ref), note: stripNeedsSource(e.note?.[lang] ?? e.note?.en ?? "") })).filter((e: any) => e.chip),
       sources: (p.sources ?? []).map(refChip).filter(Boolean),
     }));
 // scope rule (docs/scope.md): the first opinion is Sunni and leads; every other view is labelled before its text and sits under "more opinions"
 const leadOpinion = perspectivesRaw[0];
 const moreOpinions = perspectivesRaw.slice(1);
-const issueText: string = d.issue?.[lang] ?? d.issue?.en ?? "";
+const issueText: string = stripNeedsSource(d.issue?.[lang] ?? d.issue?.en ?? "");
 const perspectives = perspectivesRaw;
 
 const bibliography = (s: Node) => {
@@ -225,7 +225,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
           <section class="panel ui" aria-labelledby="expectations" style="margin-block:1.5rem">
             <h2 id="expectations" style="font-size:1rem;margin:0 0 8px">{T.syllabus.expectations}</h2>
             <ul style="margin:0;padding-inline-start:20px">
-              {d.expectations.map((e: any) => <li style="margin-block:4px"><code class="ltr" dir="ltr">{e.code}</code> — {e.text[lang] ?? e.text.en}</li>)}
+              {d.expectations.map((e: any) => <li style="margin-block:4px"><code class="ltr" dir="ltr">{e.code}</code> — {stripNeedsSource(e.text[lang] ?? e.text.en ?? "")}</li>)}
             </ul>
           </section>
         )}

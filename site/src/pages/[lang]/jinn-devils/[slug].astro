@@ -49,7 +49,7 @@ const ayah = (p: any) => ({
 const report = (p: any) => ({
   href: href(lang, p.id),
   label: p.label?.[lang] ?? p.label?.en ?? p.id,
-  summary: p.data.summary?.[lang] ?? p.data.summary?.ar ?? "",
+  summary: stripNeedsSource(p.data.summary?.[lang] ?? p.data.summary?.ar ?? ""),
   summaryLang: (p.data.summary?.[lang] ?? p.data.summary?.ar) ? (p.data.summary?.[lang] ? lang : "ar") : lang,
 });
 const desc = stripNeedsSource(summaryRaw(n, lang)).replace(/\{cite:[^}]*\}/g, "").replace(/\[\[([a-z]+\/[a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_m, _id, c) => c ?? "").slice(0, 240);

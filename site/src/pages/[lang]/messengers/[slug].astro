@@ -40,11 +40,11 @@ const groups = (["quran", "sunnah", "seerah", "books"] as const)
   .map((id) => ({ id, items: subject.passages.filter((p) => p.section === id) }))
   .filter((g) => g.items.length > 0);
 const related = relatedOf(n.id);
-const summaryOf = (p: Node) => p.summary?.[lang] ?? p.summary?.ar ?? p.data.summary?.[lang] ?? p.data.summary?.ar ?? "";
+const summaryOf = (p: Node) => stripNeedsSource(p.summary?.[lang] ?? p.summary?.ar ?? p.data.summary?.[lang] ?? p.data.summary?.ar ?? "");
 const EXCERPT = 260;
 const excerptOf = (p: Node) => {
   const raw = p.class === "passage" ? String(p.data.text_search ?? p.data.text ?? "") : summaryOf(p);
-  const clean = raw.replace(/\s+/g, " ").trim();
+  const clean = stripNeedsSource(raw).replace(/\s+/g, " ").trim();
   return clean.length > EXCERPT ? `${clean.slice(0, EXCERPT)}…` : clean;
 };
 const workLabel = (p: Node) => (p.data.work ? labelOf(byId.get(p.data.work as string) ?? p, lang) : "");
