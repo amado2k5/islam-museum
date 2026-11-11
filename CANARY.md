@@ -14,7 +14,11 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v1.11.4 — 2026-11-11
+### Data
+- **Angels Browser prose: unresolved-source markers resolved.** Four of the seven `(needs_source)` flags in each language's `concept/malaika` Sheikh Omar Abdelkafy lesson sections now carry the textual sources they summarise — the recording and guardian angels (al-Tirmidhi, Abu Dawud, Ibn Kathir), Mika'il's charge of rain and Jibril's of wind and revelation (Ibn Kathir), the Angel of Death's taking souls one by one (Muslim, al-Tirmidhi), the angels of the Frequented House who enter daily and do not return (al-Bukhari, Muslim), the fifty-thousand-year day of the angels' ascent and the Spirit as Jibril (Qur'an 70:4, Ibn Kathir), Iblis's request for respite (Qur'an 15:39), the angels' confession on the Day of Judgment, the Prophet's mule hearing the graves' punishment (al-Bukhari, Muslim), the groaning heaven and the prostrate foreheads of angels (Muslim), and the roaming angels seeking gatherings of remembrance (al-Tirmidhi, Ibn Majah). Three flags remain in each language, all on claims no registered source supports: Israfil being created before Adam and blowing the trumpet twice, the angel of good deeds being "on leave for thirty years", and the Sheikh's count of eighteen angelic functions in the Qur'an.
+
 ### Fixed
+- **Invalid `mentions` edges corrected to `related_to`.** Nineteen edges pointed from `person`/`event` records at `passage` records, which the predicate rules forbid (`mentions` cannot start from a person or end at a passage): the jinn-and-devils interaction records from waves 3–5 (Harut and Marut, Balaam's fall, Adam's disobedience, Solomon's court, the grave-questioning angels, Pharaoh's sorcerers, the praising servant, the dream-ruling and shaytan-path events). The links still render on subject pages through `related_to`; nothing was removed.
 - **Graph build repair after the Dreams Browser merge.** A leftover duplicate `tags` key on the Ibn Sirin dream-interpretation work record crashed `build-graph`; the tags are now unioned on one line and every other data file was scanned for the same defect.
 
 ### Added
