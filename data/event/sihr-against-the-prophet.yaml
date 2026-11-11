@@ -8,14 +8,14 @@ summary:
   ur: "روایت کے مطابق یہودی شخص لَبِيد بن الاعصم نے اپنے بھتیجے اور ایک عورت کے ساتھ نبی پر جادو کیا؛ نبی کو تین آدمیوں اور لَبِيد کی نشاندہی باڑ سے ہوئی، پھر نبک کے پتوں کے راکھ میں پانی ملا کر معوذات پڑھنے سے نبی شفا پائے اور جادوگر کے بال گر گئے۔"
 wings: [time]
 periods: [period/prophetic-era]
-regions: [hijaz]
+regions: [arabia]
 date:
-  start: { edtf: "0625~", calendar: hijri, precision: year, status: tradition, derived: true, note: "Placement varies between Meccan and Medinan reports; tradition does not fix a year. Conversion to Gregorian is derived." }
+  start: { edtf: "0631~", calendar: julian, precision: year, status: tradition, derived: true, note: "Placement varies between Meccan and Medinan reports; tradition does not fix a year. Julian conversion is derived." }
 relations:
   - { type: had_participant, target: person/muhammad, role: "المسحور الذي عوّذ نفسه ورقى", sources: [source/sahih-al-bukhari] }
   - { type: had_participant, target: person/labid-ibn-al-asam, role: "الساحر المسمّى في الخبر", sources: [source/sahih-al-bukhari] }
   - { type: occurred_at, target: place/medina, confidence: low, note: "Medinan placement in some reports; Meccan in others.", sources: [source/ibn-hisham-saqqa] }
-  - { type: exemplifies, target: concept/sihr, note: "The Quranic teaching that sorcery cannot harm the believer and that lawful ruqyah is the remedy.", sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+  - { type: related_to, target: concept/sihr, note: "The Quranic teaching that sorcery cannot harm the believer and that lawful ruqyah is the remedy.", sources: [source/tanzil-quran, source/sahih-al-bukhari] }
 provenance:
   layer: own-research
   source: "Sahih al-Bukhari, Kitab al-Tibb, hadith of the Prophet's bewitching and cure; Ibn Hisham's sira; al-Bidaya wa'l-Nihaya"

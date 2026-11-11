@@ -10,7 +10,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
-import { magicItems, MAGIC_SECTIONS, MAGIC_TOPICS, type MagicSection, type MagicTopic } from "../../../lib/magic";
+import { magicItems, MAGIC_SECTIONS, type MagicSection, type MagicTopic } from "../../../lib/magic";
 import type { Node } from "../../../../scripts/build-graph";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
