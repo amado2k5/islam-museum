@@ -1,0 +1,57 @@
+# The Grand Tour: the museum's spine, walked in order from before the Hijra to today.
+#
+# This file is the Tour's manifest and nothing else: an ordered list of record ids. Everything a visitor sees at a stop
+# (name, date, wing, narrative, the "why this stop matters" line, the doors onward) is read from the record itself and
+# from the graph at build time. Nothing about a stop is asserted here.
+#
+# Rules a stop must meet (checked by scripts/fable/o02_tour_coverage.py, never by eye):
+#   - it is a cornerstone (importance: 1);
+#   - it has Arabic and English prose;
+#   - it stands in river order: dated stops never run backwards, a stop dated only by its period stands inside that
+#     period, a stop with no date and no period may stand anywhere and is labelled as crossing the centuries.
+# Together the stops must cover all nine wings and every Hijri century from the 1st to the 14th.
+#
+# Keep one `- id: class/slug` line per stop. The oracles read this file without a YAML library.
+stops:
+  - id: building/kaaba
+  - id: event/first-revelation
+  - id: person/khadija
+  - id: event/hijra
+  - id: event/battle-of-badr
+  - id: concept/five-pillars
+  - id: practice/salah
+  - id: event/conquest-of-mecca
+  - id: practice/hajj
+  - id: person/muhammad
+  - id: work/quran
+  - id: person/abu-bakr
+  - id: person/umar-ibn-al-khattab
+  - id: person/ali-ibn-abi-talib
+  - id: person/aisha
+  - id: building/dome-of-the-rock
+  - id: person/umar-ibn-abd-al-aziz
+  - id: place/baghdad
+  - id: person/malik-ibn-anas
+  - id: person/al-khwarizmi
+  - id: person/al-bukhari
+  - id: person/al-tabari
+  - id: place/cairo
+  - id: building/al-azhar
+  - id: person/ibn-sina
+  - id: person/al-ghazali-abu-hamid
+  - id: work/ihya-ulum-al-din
+  - id: person/ibn-rushd
+  - id: event/sack-of-baghdad-656
+  - id: person/baybars
+  - id: person/ibn-taymiyya
+  - id: person/ibn-battuta-muhammad
+  - id: person/ibn-khaldun
+  - id: event/conquest-constantinople-857
+  - id: event/fall-of-granada-897
+  - id: person/sulayman-al-qanuni
+  - id: building/taj-mahal
+  - id: person/ahmed-iii-uthmani
+  - id: person/mahmud-ii-uthmani
+  - id: person/malcolm-x
+  - id: period/contemporary-era
+  - id: object/kiswa

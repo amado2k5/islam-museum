@@ -1,0 +1,104 @@
+---
+// The Grand Tour's threshold: the River of Time. Fourteen centuries as one band; the Tour's stops surface on it in order.
+// The river is an entrance, not a wall: the stops are an ordered list in the HTML, complete and navigable with no script.
+// Only when the page's script has run (html.js) is that same list laid out as the flowing band.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import { ui, fmt, type Lang } from "../../../lib/i18n";
+import { labelOf } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { TOUR_LANGS, stops, density, tourPath, stopHref, dateText } from "../../../lib/grand-tour";
+
+export function getStaticPaths() { return TOUR_LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const G = T.grand_tour;
+const last = Math.max(...stops.map((s) => s.walk));
+const reaches = Array.from({ length: last + 1 }, (_, c) => ({ c, stops: stops.filter((s) => s.walk === c) }));
+const peak = Math.max(...density.slice(0, last + 1), 1);
+// the river's width at a century follows the number of cornerstones dated to it (square-root scale, 10 to 58 px)
+const width = (c: number) => Math.round(10 + 48 * Math.sqrt(density[c] / peak));
+const dateLine = (s: (typeof stops)[number]) => { const d = dateText(s, lang); return d.kind === "none" ? G.timeless : d.text; };
+---
+<BaseLayout lang={lang} title={G.title} description={G.lede} path={tourPath(lang)} alternates={{ ar: tourPath("ar"), en: tourPath("en") }}>
+  <div data-pagefind-body>
+    <PageHeader title={G.river_title} lede={G.lede} crumbs={[{ label: T.name, href: `/${lang}/` }, { label: G.title }]} crumbsLabel={T.entity.breadcrumb} wing="time" titleAttrs={{ "data-pagefind-meta": "title" }}>
+      <p class="ui gt-scale">{fmt(G.scale, { n: num(stops.length, lang) })}</p>
+      <p class="gt-go"><a class="btn btn-gold" href={stopHref(lang, stops[0])}>{G.begin} <span class="flip" aria-hidden="true">→</span></a> <a class="btn btn-line" href={stopHref(lang, stops[0])} data-gt-resume hidden>{G.resume}</a></p>
+    </PageHeader>
+  </div>
+  <div class="wrap gt" data-pagefind-ignore>
+    <div class="gt-ctl ui" data-gt-ctl hidden>
+      <button type="button" class="chip" data-gt-earlier><span class="flip" aria-hidden="true">←</span> {G.earlier}</button>
+      <label class="gt-scrub"><span class="sr-only">{G.scrub_label}</span><input type="range" min="0" max={last} step="1" value="0" data-gt-scrub /></label>
+      <output class="gt-now" data-gt-now aria-live="polite"></output>
+      <button type="button" class="chip" data-gt-later>{G.later} <span class="flip" aria-hidden="true">→</span></button>
+    </div>
+    <nav aria-label={G.list_label}>
+      <ol class="gt-river" data-gt-river>
+        {reaches.map((r) => (
+          <li class="gt-reach" data-century={r.c} style={`--d:${width(r.c)}px;--dp:${width(Math.max(r.c - 1, 0))}px`}>
+            <h2 class="gt-century ui">{G.centuries[r.c]}</h2>
+            <div class="gt-lane" aria-hidden="true"><div class="gt-flow"></div></div>
+            <p class="gt-density ui">{fmt(G.cornerstones_here, { n: num(density[r.c], lang) })}</p>
+            {r.stops.length > 0 && (
+              <ol class="gt-stops" start={r.stops[0].index + 1}>
+                {r.stops.map((s) => (
+                  <li class="gt-stop" style={`--wing:var(--wing-${s.node.wings[0] ?? "time"})`}>
+                    <a href={stopHref(lang, s)} data-gt-stop={s.slug}><span class="gt-n ui" aria-hidden="true">{s.index + 1}</span><span class="gt-name">{labelOf(s.node, lang)}</span> <span class="gt-date ui">{dateLine(s)}</span></a>
+                  </li>
+                ))}
+              </ol>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+    <p class="ui gt-end"><a class="btn btn-lapis" href={tourPath(lang, "complete")}>{G.finish} <span class="flip" aria-hidden="true">→</span></a></p>
+  </div>
+  <script src="../../../scripts/grand-tour.ts"></script>
+  <style is:global>
+    .gt { padding-block: 22px 44px; }
+    .gt-scale { margin: 14px 0 0; color: #e6d5b8; }
+    .gt-go { margin: 18px 0 6px; display: flex; flex-wrap: wrap; gap: 12px; }
+    /* Without script: a plain, numbered list under century headings. */
+    .gt-river { list-style: none; padding: 0; margin: 0; }
+    .gt-reach { margin: 0 0 1.3rem; }
+    .gt-century { font-size: 1.1rem; margin: 0 0 .2rem; color: var(--gold-text); }
+    .gt-lane { display: none; }
+    .gt-density { font-size: .82rem; margin: 0 0 .35rem; color: var(--muted); }
+    .gt-stops { margin: 0; padding-inline-start: 1.8rem; }
+    .gt-stop { margin: .3rem 0; }
+    .gt-n { display: none; }
+    .gt-name { font-weight: 600; }
+    .gt-date { color: var(--muted); font-size: .88rem; }
+    .gt-end { margin: 1.4rem 0 0; }
+    .gt-ctl { display: flex; align-items: center; gap: 12px; margin: 0 0 12px; flex-wrap: wrap; }
+    .gt-ctl[hidden] { display: none; }
+    .gt-ctl button { border: 1px solid var(--line); cursor: pointer; }
+    .gt-scrub { flex: 1 1 180px; display: flex; }
+    .gt-scrub input { width: 100%; accent-color: var(--gold); }
+    .gt-now { min-width: 11ch; font-weight: 600; }
+    /* With script: the same list, laid out as one band that flows in reading direction. */
+    html.js .gt-river { display: flex; overflow-x: auto; max-width: 100%; padding: 20px 0 24px; border-radius: 18px; color: #f9f8f6; cursor: grab;
+      background: linear-gradient(180deg, #0a2533 0%, #113f4e 55%, #0a2533 100%); scroll-snap-type: x proximity; scrollbar-color: #c5a059 transparent; }
+    html.js .gt-river.dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
+    html.js .gt-reach { flex: 0 0 auto; margin: 0; padding: 0 20px; min-width: 220px; scroll-snap-align: start; border-inline-start: 1px dashed rgba(197, 160, 89, .4); }
+    html.js .gt-reach:first-child { border-inline-start: 0; }
+    html.js .gt-century { color: #e6d5b8; font-size: .98rem; white-space: nowrap; margin: 0; }
+    html.js .gt-lane { display: flex; align-items: stretch; height: 62px; margin: 8px -20px 8px; }
+    html.js .gt-flow { flex: 1; background: linear-gradient(180deg, rgba(197, 160, 89, .85), rgba(42, 123, 136, .9) 50%, rgba(197, 160, 89, .85));
+      clip-path: polygon(0 calc(50% - var(--dp) / 2), 100% calc(50% - var(--d) / 2), 100% calc(50% + var(--d) / 2), 0 calc(50% + var(--dp) / 2)); }
+    html.js[dir="rtl"] .gt-flow { clip-path: polygon(0 calc(50% - var(--d) / 2), 100% calc(50% - var(--dp) / 2), 100% calc(50% + var(--dp) / 2), 0 calc(50% + var(--d) / 2)); }
+    html.js .gt-density { color: #c9d3d6; white-space: nowrap; margin: 0 0 12px; }
+    html.js .gt-stops { display: flex; gap: 12px; list-style: none; padding: 0; }
+    html.js .gt-stop { margin: 0; }
+    html.js .gt-stop a { display: flex; flex-direction: column; gap: 6px; width: 184px; min-height: 132px; padding: 12px 14px; border-radius: 14px; text-decoration: none; color: #f9f8f6;
+      background: rgba(249, 248, 246, .08); border: 1px solid rgba(197, 160, 89, .45); border-top: 4px solid var(--wing); }
+    html.js .gt-stop a:hover { background: rgba(249, 248, 246, .16); border-color: #c5a059; }
+    html.js .gt-river a:focus-visible { outline: 2px solid #e6d5b8; outline-offset: 2px; box-shadow: none; }
+    html.js .gt-n { display: inline-flex; align-items: center; justify-content: center; width: 1.9rem; height: 1.9rem; border-radius: 50%; border: 1px solid #c5a059; color: #e6d5b8; font-size: .82rem; }
+    html.js .gt-stop a[data-visited] .gt-n { background: #c5a059; color: #0a2533; }
+    html.js .gt-date { color: #e6d5b8; font-size: .8rem; margin-top: auto; }
+  </style>
+</BaseLayout>
