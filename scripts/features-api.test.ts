@@ -175,7 +175,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
   });
 
   it("exports miracles: detected topics, corpus sections, kind, subjects and the subject index", () => {
-    const staff = makeNode("passage/quran-26-30x", "passage", { unit: "ayah", work: "work/quran", sura: 26, aya: 30, text: "وألق عصاك" });
+    const staff = makeNode("passage/quran-26-30x", "passage", { unit: "ayah", work: "work/quran", sura: 26, aya: 30, text: "فألقي عصاه فإذا هي ثعبان مبين" });
     const sea = makeNode("passage/quran-26-63x", "passage", { unit: "ayah", work: "work/quran", sura: 26, aya: 63, text: "فأوحينا إلى موسى أن اضرب بعصاك البحر" });
     const camel = makeNode("passage/quran-26-155x", "passage", { unit: "ayah", work: "work/quran", sura: 26, aya: 155, text: "فكذبت ثمود بعذابه" });
     const plain = makeNode("passage/muslim-0002x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "2x", text: "إن الرجل ليصلي" });
