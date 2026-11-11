@@ -6,7 +6,9 @@ translators: []
 ---
 
 ## نبذة
-في سنة 622م انتقل النبي محمد وكثير من أصحابه من [[place/mecca|مكة]] إلى [[place/medina|المدينة]]. واختار المسلمون هذه الهجرة لاحقًا بداية لتقويمهم.
+الهجرة النبوية هي انتقال النبي [[person/muhammad|محمد]] من [[place/mecca|مكة]] إلى [[place/medina|المدينة]] سنة 622م، وهي سنة أربع عشرة من المبعث {cite:mubarakpuri-raheeq p.163-164} {cite:muruj-al-dhahab p. 577}. وكان أصحابه قد أخذوا يهاجرون إلى المدينة قبله {cite:ibn-ishaq-guillaume} {cite:sahih-al-bukhari 3905}. وغادر النبي بيته ليلة 27 صفر سنة 14 من النبوة، الموافق 12/13 سبتمبر 622م {cite:mubarakpuri-raheeq p.163-164}. وخرج من مكة ومعه [[person/abu-bakr|أبو بكر]] ومولاه [[person/amir-ibn-fuhayra|عامر بن فهيرة]]، ودليلهم [[person/abdullah-ibn-urayqit|عبد الله بن أريقط]] {cite:muruj-al-dhahab p. 577}. واختبأ في [[place/ghar-thawr|غار ثور]] ثلاث ليال، ثم سار من الغار إلى المدينة {cite:mubarakpuri-raheeq p.161} {cite:mubarakpuri-raheeq p.174}.
+
+وعند المباركفوري أنه نزل [[place/quba|قباء]] يوم الإثنين 8 ربيع الأول، الموافق 23 سبتمبر 622م، ثم دخل المدينة يوم الجمعة {cite:mubarakpuri-raheeq p.170} {cite:mubarakpuri-raheeq p.172}. ويؤرّخ [[person/al-masudi|المسعودي]] دخوله المدينة بيوم الإثنين لاثنتي عشرة ليلة مضت من ربيع الأول، ويذكر أنه أقام بقباء إلى الخميس وسار يوم الجمعة {cite:muruj-al-dhahab p. 577}. ومكث [[person/ali-ibn-abi-talib|علي بن أبي طالب]] بعده بمكة ثلاثة أيام حتى أدّى ما أُمر بأدائه، ثم لحق به {cite:muruj-al-dhahab p. 577}. وأقام النبي بالمدينة عشر سنين {cite:muruj-al-dhahab p. 577}. ومن الهجرة يبدأ [[concept/hijri-calendar|التقويم الهجري]]؛ ففي «باب التاريخ» من صحيح البخاري عن سهل بن سعد أنهم لم يعدّوا من مبعث النبي ولا من وفاته، وما عدّوا إلا من مقدمه المدينة {cite:sahih-al-bukhari 3934}.
 
 ## ما جرى
 بعد سنوات من المشقة في مكة، تعهّد وفد من أهل المدينة ⁦(وكان اسمها يثرب)⁩ بحماية النبي، وبدأ أصحابه يغادرون مكة إلى الواحة جماعاتٍ صغيرة. وخرج النبي مع [[person/abu-bakr|أبي بكر]] ووصل إلى أطراف المدينة في خريف سنة 622م، ولحق به [[person/ali-ibn-abi-talib|علي بن أبي طالب]] بعد وقت قصير {cite:ibn-ishaq-guillaume}.

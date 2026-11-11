@@ -8,7 +8,7 @@ summary:
   ar: الغطاء الأسود المطرّز بالذهب للكعبة الذي يُستبدل سنوياً — تقاليدها ممتدة من الجاهلية إلى مصنع مكة الحديث.
   en: The Kaaba's gold-embroidered black covering, renewed yearly — a tradition from pre-Islamic Arabia to the modern Mecca
     workshop.
-wings: [objects]
+wings: [objects, made]
 themes:
 - sacred-space-and-pilgrimage
 - arts-of-the-book
@@ -17,6 +17,10 @@ materials:
 - gold thread
 external_ids:
   wikidata: Q1511204
+relations:
+- { type: mentioned_in, target: work/masalik-al-absar, sources: [source/umari-masalik-1924] }
+- { type: written_about_by, target: person/ibn-fadl-allah-al-umari, sources: [source/umari-masalik-1924] }
+- { type: written_about_by, target: person/al-azraqi-muhammad-ibn-abd-allah, note: "Al-Umari takes his reports on who covered the Kaaba from al-Azraqi.", sources: [source/umari-masalik-1924] }
 sources:
 - source/wikidata
 - source/umari-masalik-1924

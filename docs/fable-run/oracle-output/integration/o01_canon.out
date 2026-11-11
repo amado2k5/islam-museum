@@ -1,0 +1,60 @@
+ORACLE 01: the canon exists and is selected by the museum's own structure (statement 1)
+file: scripts/fable/o01_canon.py
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 876  (the numbers below describe the working tree, not HEAD)
+------------------------------------------------------------------------------
+[PASS] the schema carries the field: importance is an optional 1-or-2 integer on every class
+[PASS] roughly 800-1,000 canon records: 824 records carry importance
+[PASS] roughly 250-300 cornerstones: 271 records carry importance 1
+
+How each canon record stands on the museum's own structure (g = inbound relations + inbound Arabic prose links;
+paths = appearances in pathways, courses, journeys and tour halls; woven = g + 3*paths). The script's eligibility
+rule is evaluated twice: with the reach signal set to zero, and with it set as high as it can go.
+   315  qualify on structure alone (eligible even with the reach signal at zero)
+   489  pass the structural floor and need the reach signal to be eligible
+    20  are editorial includes named in the script (of 59 named; the rest now qualify by rule)
+     0  are below the structural floor today and not an editorial include
+    11  canon records have no internal signal at all (g = 0 and paths = 0): concept/tajwid, event/abolition-caliphate-1342, event/battle-kosovo-791, event/battle-of-manzikert-463, event/battle-of-nicopolis-1396, event/battle-of-panipat-932, event/battle-of-talas-133, event/second-fitna, person/ahmad-baba-al-timbukti, person/ahmad-sirhindi, person/razia-sultana
+[PASS] no record is in the canon on the reach signal alone: every one passes the structural floor, is a period, or is a named editorial include: 0 below the floor
+[PASS] no canon record is without any internal signal unless it is a named editorial include or a period
+[PASS] the reach signal never writes: the canon script's only write to a record is its importance line: substitutions in write_records: ['^importance:.*\\n', '^status:']
+[PASS] no record stores a Wikipedia language-edition count: 0 records with such a field
+[PASS] the readable register docs/canon.md matches the data: register says 824 canon, 271 cornerstones
+[PASS] every canon record is named in the register: 0 missing
+
+Cornerstones by Hijri century of the record's own date (the century floor; 0 = before the Hijra, 15 = the present century):
+  century  0:   8 cornerstones,  26 canon records
+  century  1:  67 cornerstones, 148 canon records
+  century  2:  12 cornerstones,  39 canon records
+  century  3:  14 cornerstones,  42 canon records
+  century  4:   6 cornerstones,  30 canon records
+  century  5:   8 cornerstones,  37 canon records
+  century  6:   8 cornerstones,  30 canon records
+  century  7:  11 cornerstones,  41 canon records
+  century  8:   6 cornerstones,  21 canon records
+  century  9:   6 cornerstones,  17 canon records
+  century 10:  10 cornerstones,  33 canon records
+  century 11:   4 cornerstones,  25 canon records
+  century 12:   1 cornerstones,   6 canon records
+  century 13:   2 cornerstones,  11 canon records
+  century 14:   7 cornerstones,  17 canon records
+  century 15:   1 cornerstones,  11 canon records
+  cornerstones with no date of their own (concepts, practices, most places and works): 100
+[PASS] every Hijri century from the 1st to the 14th holds at least one cornerstone: none empty
+  raised by the century floor (marked in the register): person/ahmed-iii-uthmani
+
+Cornerstones by wing (a record's own `wings` field; a record may sit in more than one):
+  time      55
+  place     30
+  people   106
+  ideas     32
+  objects   29
+  words     14
+  living    10
+  today      2
+  made       1
+[PASS] every cornerstone sits in at least one wing: 0 with no wing
+[PASS] every one of the nine wings holds at least one cornerstone: empty: none
+------------------------------------------------------------------------------
+RESULT: GREEN (12 checks passed)
