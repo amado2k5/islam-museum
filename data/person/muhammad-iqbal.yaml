@@ -10,17 +10,20 @@ born:
   precision: year
   sources:
   - source/wikidata
+  note: "The Encyclopaedia of Islam gives 1873, or more probably 1876 {cite:encyclopaedia-of-islam-2 vol. 3 p. 1090}."
 died:
   edtf: '1938'
   calendar: gregorian
   precision: year
   sources:
   - source/wikidata
+  note: "21 April 1938 {cite:encyclopaedia-of-islam-2 vol. 3 p. 1090}."
 roles:
 - poet-scholar
 summary:
-  ar: شاعر وفيلسوف من لاهور؛ صاحب دعوة إحياء الذات الإسلامية ويُعد الأب الروحي لفكرة باكستان.
-  en: Muhammad Iqbal.
+  ar: "شاعر بالأردية والفارسية ومفكر من البنجاب، درس في لاهور وكمبردج وميونخ؛ دعا في «أسرار خودي» و«جاويد نامه» ومحاضرات «تجديد الفكر الديني في الإسلام» إلى تنمية الذات وبعث المسلمين، وأعلن سنة 1930م ضرورة قيام دولة مسلمة في شمال غربي الهند، ويلقب بالأب الروحي لباكستان."
+  en: "Poet in Urdu and Persian and thinker from the Punjab, educated in Lahore, Cambridge and Munich. In the Asrar-i khudi, the Javidnama and the lectures on the reconstruction of religious thought in Islam he called for the development of the self and the revival of the Muslims; in 1930 he stated the need for a Muslim state in north-west India, and he is called the spiritual father of Pakistan."
+  ur: "پنجاب کے اردو اور فارسی شاعر اور مفکر، جنہوں نے لاہور، کیمبرج اور میونخ میں تعلیم پائی۔ «اسرار خودی»، «جاوید نامہ» اور تشکیل جدید الہیات اسلامیہ کے خطبات میں انہوں نے خودی کی تربیت اور مسلمانوں کے احیا کی دعوت دی؛ 1930ء میں شمال مغربی ہندوستان میں مسلم ریاست کی ضرورت بیان کی، اور پاکستان کے روحانی باپ کہلاتے ہیں۔"
 wings:
 - people
 themes:
@@ -33,10 +36,18 @@ relations:
   - { type: born_in, target: place/sialkot, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q643883)" }
   - { type: died_in, target: place/lahore, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q11739)" }
   - { type: buried_in, target: place/lahore-fort, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q613720)" }
+  - { type: authored, target: work/reconstruction-religious-thought-islam, note: "Lectures given at several Indian universities in 1928", sources: [source/encyclopaedia-of-islam-2] }
 sources:
 - source/wikidata
+- source/encyclopaedia-of-islam-2
 external_ids:
   wikidata: Q484141
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 3, IKBAL, MUHAMMAD, PDF pp. 1090-1092 (A. Schimmel); dates and places of birth, death and burial from Wikidata as recorded on each field"
+  generated_by: "Claude Code (claude-fable-5-2)"
+  model: "claude-fable-5-2"
+  run: canon-cornerstones-2
 importance: 1
 status:
   review: draft
