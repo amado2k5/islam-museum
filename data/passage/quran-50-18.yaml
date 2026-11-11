@@ -17,6 +17,8 @@ translations:
   ur: { text: "کوئی بات اس کی زبان پر نہیں آتی مگر ایک نگہبان اس کے پاس تیار رہتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
+  - { type: mentions, target: concept/kiraman-katibin, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

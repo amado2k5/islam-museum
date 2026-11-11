@@ -205,6 +205,8 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
     fields: ["kind", "wings", "themes", "tags"] },
   { file: "nature.json", feature: "nature-browser", pick: (n) => n.tags.includes("nature-browser"),
     fields: ["kind", "wings", "themes", "tags"] },
+  { file: "angels.json", feature: "angels-browser", pick: (n) => n.tags.includes("angels-browser"),
+    fields: ["kind", "wings", "themes", "tags"] },
   { file: "dreams.json", feature: "dream-browser",
     pick: (n) => n.tags.includes(DREAM_TAG) || isDreamPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],

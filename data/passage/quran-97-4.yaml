@@ -17,6 +17,8 @@ translations:
   ur: { text: "اس میں روح (الامین) اور فرشتے ہر کام کے (انتظام کے) لیے اپنے پروردگار کے حکم سے اترتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-97 }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/malaikat-laylat-al-qadr, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -80,6 +80,18 @@ relations:
   - source/mubarakpuri-raheeq
 - type: part_of
   target: period/prophetic-era
+- type: mentions
+  target: person/jibril
+  sources:
+  - source/sahih-muslim
+- type: mentions
+  target: concept/malaika
+  sources:
+  - source/sahih-muslim
+- type: mentions
+  target: concept/malak-al-mawt
+  sources:
+  - source/sahih-muslim
 issue:
   ar: هل كان الإسراء والمعراج بالجسد والروح يقظةً، وكيف يُؤرَّخ ويُفهم؟
   en: Was the Isra and Miraj in body and soul while awake, and how is it dated and
@@ -163,3 +175,5 @@ provenance:
 tags:
 - ghayb-browser
 - ghayb-heavens
+- angels-browser
+- angels-events

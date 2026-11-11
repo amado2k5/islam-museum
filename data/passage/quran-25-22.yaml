@@ -17,6 +17,7 @@ translations:
   ur: { text: "جس دن یہ فرشتوں کو دیکھیں گے اس دن گنہگاروں کے لئے خوشی کی بات نہیں ہوگی اور کہیں گے (خدا کرے تم) روک لئے (اور بند کردیئے) جاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

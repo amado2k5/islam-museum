@@ -346,6 +346,14 @@
         }
       }
     },
+    "/angels.json": {
+      "get": {
+        "operationId": "getAngels",
+        "summary": "Angels Browser dataset",
+        "description": "The Angels Browser dataset: every record tagged angels-browser (named angels, orders and hosts, recording angels, angel-human encounters across the Qur'an, hadith, Seerah and Sunni books) with kind, wings, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every angels record with kind, wings, themes, section tags and edges",
     "/dreams.json": {
       "get": {
         "operationId": "getDreams",

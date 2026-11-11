@@ -17,6 +17,8 @@ translations:
   ur: { text: "کہہ دو کہ موت کا فرشتہ جو تم پر مقرر کیا گیا ہے تمہاری روحیں قبض کر لیتا ہے پھر تم اپنے پروردگار کی طرف لوٹائے جاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-32 }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/malak-al-mawt, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

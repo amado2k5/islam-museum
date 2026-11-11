@@ -17,6 +17,7 @@ translations:
   ur: { text: "جب ان کے پاس پیغمبر ان کے آگے اور پیچھے سے آئے کہ خدا کے سوا (کسی کی) عبادت نہ کرو۔ کہنے لگے کہ اگر ہمارا پروردگار چاہتا تو فرشتے اُتار دیتا سو جو تم دے کر بھیجے گئے ہو ہم اس کو نہیں مانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -16,6 +16,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 date:
   start: { edtf: "0624-03-17~", calendar: julian, precision: day, status: tradition, note: "ليلة الجمعة السابع عشر من رمضان سنة اثنتين من الهجرة، يقرره الكتاب (الرحيق ص212)." }
+tags: [angels-browser, angels-events]
 relations:
   - { type: occurred_at, target: place/badr, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
@@ -29,6 +30,9 @@ relations:
   - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "أسره رجل من الأنصار", sources: [source/mubarakpuri-raheeq] }
   - { type: caused, target: event/badr-duel, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
+  - { type: mentions, target: concept/malaikat-al-imdad, sources: [source/mubarakpuri-raheeq] }
+  - { type: mentions, target: concept/angels-at-badr, sources: [source/mubarakpuri-raheeq] }
+  - { type: mentions, target: concept/malaika, sources: [source/mubarakpuri-raheeq] }
 sides:
   - label: { ar: "المسلمون", en: "The Muslims" }
   - label: { ar: "قريش وأحلافها", en: "Quraysh and their allies" }
