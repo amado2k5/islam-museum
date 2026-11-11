@@ -71,11 +71,11 @@ this explicitly so validators do not flag it as an error.
 
 ## 3. Records
 
-- **66 passage records detected** in the current corpus: 43 Qur'an
-  ayahs (`work/quran`), 22 sunnah reports (`sahih-al-bukhari` 3,
+- **67 passage records detected** in the current corpus: 43 Qur'an
+  ayahs (`work/quran`), 23 sunnah reports (`sahih-al-bukhari` 3,
   `sahih-muslim` 8, `sunan-abi-dawud` 2, `sunan-al-nasai` 2,
   `sunan-ibn-majah` 3, `jami-al-tirmidhi` 2, `muwatta-malik` 1,
-  `arbaun-nawawi` 1) and 1 poetry record
+  `arbaun-nawawi` 1, `riyad-al-salihin` 1) and 1 poetry record
   (`poem-hassan-diwan-muzayna-la-yura-fiha-khatib-03`, «رجال تهلك
   الحسنات فيهم»). Seerah section is empty — the harvested corpus has
   no sira-genre passages carrying the term; it fills automatically.
@@ -134,8 +134,8 @@ records.
 
 ## 7. Status
 
-Built 11 November 2026: 66 detected passages + 14 curated records =
-80 items in `/api/v1/hasanats.json` (43 quran, 22 sunnah, 1 books; the
+Built 11 November 2026: 67 detected passages + 14 curated records =
+81 items in `/api/v1/hasanats.json` (43 quran, 23 sunnah, 1 books; the
 seerah section fills as seerah passages are harvested), the
 `/[lang]/hasanat/` page in three languages, the landing card and
 Explore menu entry, full API docs. New records are draft-tier until a

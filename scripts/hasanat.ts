@@ -64,7 +64,8 @@ const AR_BADAL_HASAN = /بدل[ء-ي]{0,3}\s+حسنا\s+بعد\s+سوء/;
 const ADJ_HOSTS = new Set(
   `أسوة اسوة سيرة امرأة امرأه شفاعة شفاعه موعظة موعظه موعظه دعوة دعوه خصلة خلقًا خلقا
    رؤية رؤيا آية اية صورة صوره منزلة منزله نعمة نعم حال حاله نفس نفسا كلمة كلمه
-   قصة قصه رواية روايه مقالة مقاله صيغة صيغه طريقة طريقه أسلوب اسلوب`.split(/\s+/),
+   قصة قصه رواية روايه مقالة مقاله صيغة صيغه طريقة طريقه أسلوب اسلوب
+   نعلته نعلة ثوبه ثوبا`.split(/\s+/),
 );
 /** The word immediately before a match, clitics and article stripped, or "" at text start. */
 function prevToken(raw: string, index: number): string {
@@ -80,8 +81,9 @@ const HUSNA_ADJ_WINDOW = /أسماء|اسماء|اسم|كلم[ةته]/;
  * hatch: tagging a passage `hasanat-browser` also admits it (see pick in export-api).
  */
 export const HASANAT_EXCLUDE = new Set<string>([
-  // «إن الحسنات يذهبن السيئات» stays; nothing is excluded yet — the list fills as the
-  // detector's corpus run is reviewed (adjective hosts are already gated above).
+  // «إن الرجل ليحب أن يكون ثوبه حسنا ونعله حسنة» — «حسنة» is the feminine adjective on
+  // the sandal (نعلة), not a deed; kept out by id after the Riyad al-Salihin wave.
+  "passage/riyad-611",
 ]);
 
 const HASANAT_SIGNALS = new Set(["hasanat"]);
