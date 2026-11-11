@@ -1,0 +1,24 @@
+id: passage/sira-nabawiyya-salabi-200
+class: passage
+unit: chapter
+work: work/al-sira-al-nabawiyya-sallabi
+ref: "200"
+label:
+  ar: "السيرة النبوية للصلابي — مراسلة النجاشي"
+  en: "al-Sallabi's al-Sira al-Nabawiyya — correspondence with the Negus"
+text: "باب التكبير علي الجنازة [٦٤/٥ ورقمه (١٣٣٣)]. (٥) البخاري، كتاب مناقب الانصار، باب موت النجاشي، حديث رقم (٣٨٧٧) . (٦) اسد الغابة (٩٩/١)، الاصابة (١٠٩/١). ٧) السيرة النبوية للدكتور مصطفي السباعي (ص ٥٧)"
+summary:
+  ar: "مقطع من السيرة النبوية للصلابي، في مراسلات النجاشي، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Sallabi's al-Sira al-Nabawiyya, in the correspondence with the Negus, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sira-nabawiyya-salabi] }
+  - { type: mentions, target: person/muhammad, sources: [source/sira-nabawiyya-salabi] }
+  - { type: mentions, target: person/negus-of-aksum, sources: [source/sira-nabawiyya-salabi] }
+provenance:
+  layer: own-research
+  source: "السيرة النبوية للصلابي ص 200 — مقتطف المكاتبات"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-seerah-mining-1
+tags: [mukatabat-browser]
+sources: [source/sira-nabawiyya-salabi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
