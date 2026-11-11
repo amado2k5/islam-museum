@@ -5,7 +5,7 @@
 // other museum records it links to. Everything is composed from the compiled graph at build time.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { byId, href, labelOf, summaryRaw } from "../../../lib/graph";
+import { byId, href, labelOf, summaryRaw, stripNeedsSource } from "../../../lib/graph";
 import { renderProse, newHonState } from "../../../lib/markdown";
 import { angelsItems, passagesOf, relatedOf } from "../../../lib/angels";
 
@@ -50,10 +50,10 @@ const ayah = (p: any) => ({
 const report = (p: any) => ({
   href: href(lang, p.id),
   label: p.label?.[lang] ?? p.label?.en ?? p.id,
-  summary: p.data.summary?.[lang] ?? p.data.summary?.ar ?? "",
+  summary: stripNeedsSource(p.data.summary?.[lang] ?? p.data.summary?.ar ?? ""),
   summaryLang: (p.data.summary?.[lang] ?? p.data.summary?.ar) ? (p.data.summary?.[lang] ? lang : "ar") : lang,
 });
-const desc = summaryRaw(n, lang).replace(/\{cite:[^}]*\}/g, "").replace(/\[\[([a-z]+\/[a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_m, _id, c) => c ?? "").slice(0, 240);
+const desc = stripNeedsSource(summaryRaw(n, lang)).replace(/\{cite:[^}]*\}/g, "").replace(/\[\[([a-z]+\/[a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_m, _id, c) => c ?? "").slice(0, 240);
 ---
 <BaseLayout lang={lang} title={title} description={desc} path={`/${lang}/angels/${n.id.split("/")[1]}/`}>
   <div class="wrap" style="padding-block:10px 20px">

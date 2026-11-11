@@ -3,7 +3,7 @@
 // comes from its period record; the list is chronological, same card shape as the kind pages.
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
-import { labelOf, href } from "../../../../lib/graph";
+import { labelOf, href, stripNeedsSource } from "../../../../lib/graph";
 import { num } from "../../../../lib/nav";
 import { formatDate, startOf } from "../../../../lib/dates";
 import { byPeriod, battlePeriods, placeOf, commandersOf, parentOf, isGhazwa } from "../../../../lib/battles";
@@ -27,7 +27,7 @@ const tagOf = (n: Node) => (n.periods.includes("period/prophetic-era") ? (isGhaz
     <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/battles/`}>{B.title}</a> › {eraLabel}</nav>
     <div data-pagefind-body>
       <h1>{eraLabel}</h1>
-      {period.summary?.[lang] && <p style="max-width:var(--measure)">{period.summary[lang]}</p>}
+      {period.summary?.[lang] && <p style="max-width:var(--measure)">{stripNeedsSource(period.summary[lang])}</p>}
       <p class="panel ui" style="max-width:var(--measure)">{fmt(B.count_records, { n: num(nodes.length, lang) })}</p>
       <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
         <label for="battles-filter">{B.filter_label}</label>

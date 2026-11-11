@@ -4,7 +4,7 @@
 // the one graph. Counts are read from the graph at build time and appear on this page only.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
-import { href, labelOf } from "../../../lib/graph";
+import { href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
 import { jinnDevilsItems, JD_SECTIONS } from "../../../lib/jinn-devils";
 
@@ -13,7 +13,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const J = (T as any)["jinn-devils"];
 const label = (n: any) => labelOf(n, lang);
-const summaryOf = (n: any) => n.data.summary?.[lang] ?? n.data.summary?.ar ?? "";
+const summaryOf = (n: any) => stripNeedsSource(n.data.summary?.[lang] ?? n.data.summary?.ar ?? "");
 const sectionIds = [...JD_SECTIONS, ...new Set(jinnDevilsItems.flatMap((i) => i.sections).filter((s) => !JD_SECTIONS.includes(s)))];
 const sections = sectionIds.map((id) => ({ id, items: jinnDevilsItems.filter((i) => i.sections.includes(id)) })).filter((s) => s.items.length > 0);
 const status = fmt(J.status, { n: num(jinnDevilsItems.length, lang), s: num(sections.length, lang) });

@@ -17,8 +17,10 @@ export function scan(files: Iterable<{ path: string; html: string }>): { errors:
     if (html.includes("�")) errors.push(`${file}: contains U+FFFD (replacement character)`);
     if (html.includes("ق.م هـ")) errors.push(`${file}: renders the garbled "ق.م هـ"`);
     if (/\d{4}-\d{2}-\dX/.test(html)) errors.push(`${file}: renders a date with a placeholder digit`);
-    // Transcript-mining markers are data annotations, never prose: the literal must not reach a published page.
-    if (/\(?needs_source/i.test(html)) errors.push(`${file}: renders a "needs_source" marker`);
+    // Transcript-mining markers are data annotations, never prose: the parenthesised marker form
+    // ((needs_source), (needs_source: …), isolate-wrapped) must not reach a published page. Prose that
+    // merely names the mechanism ("needs_source flags", `needs_source` in backticks) is allowed.
+    if (/\u2066?\(\s*needs_source(?:[^()]|\([^()]*\))*\)\u2069?/i.test(html)) errors.push(`${file}: renders a "needs_source" marker`);
     const anchors = new Set([...html.matchAll(/\sid="(note-\d+)"/g)].map((m) => m[1]));
     for (const m of html.matchAll(/href="#(note-\d+)"/g)) {
       if (!anchors.has(m[1])) errors.push(`${file}: footnote link #${m[1]} has no anchor on this page`);

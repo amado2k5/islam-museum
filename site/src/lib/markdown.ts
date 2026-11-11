@@ -101,7 +101,7 @@ export function honorify(html: string, lang: Lang, state: HonState = newHonState
   return html
     .split(/(<h[1-6][\s\S]*?<\/h[1-6]>|<table[\s\S]*?<\/table>)/)
     .map((part, idx) => {
-      if (idx % 2 === 1) return part;
+      if (idx % 2 === 1) return part.replace(NEEDS_SOURCE, "");
       return part.replace(/(^|>)([^<]+)(?=<|$)/g, (_m, lead: string, text: string, offset: number) => {
         const inLink = part.lastIndexOf("<a ", offset) > part.lastIndexOf("</a>", offset);
         return lead + (inLink ? text : body(text));
@@ -135,7 +135,7 @@ export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
   md = md.replace(/^:::perspectives\n([\s\S]*?)\n:::\s*$/gm, (_m, body: string) => {
     for (const line of body.split("\n")) {
       const m = line.match(/^- \*\*(.+?)\*\*:\s*(.+)$/);
-      if (m) perspectives.push({ tradition: m[1], html: transform(markedSafe.parseInline(m[2], { async: false }) as string) });
+      if (m) perspectives.push({ tradition: m[1].replace(NEEDS_SOURCE, "").trim(), html: transform(markedSafe.parseInline(m[2], { async: false }) as string) });
     }
     return "";
   });

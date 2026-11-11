@@ -4,7 +4,7 @@
 // his record's perspectives when the accession is contested, and a link to the full person page.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
-import { labelOf, summaryOf, href } from "../../../lib/graph";
+import { labelOf, summaryOf, stripNeedsSource, href } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
 import { khulafaNodes, reignOf, neighboursOf, reignEventsOf, chainOf, CLAIM_POLITIES } from "../../../lib/khulafa";
 import { byId } from "../../../lib/graph";
@@ -70,7 +70,7 @@ const roleKey = reign.role === "rival-claimant" ? K.role_claimant : K.role_ruler
         {node.data.issue?.[lang] && <p class="panel" style="max-width:var(--measure)">{node.data.issue[lang]}</p>}
         <ul style="max-width:var(--measure)">
           {node.data.perspectives.map((p: any) => (
-            <li style="margin:.5rem 0"><strong class="ui">{p.tradition}</strong> — {p.summary?.[lang] ?? p.summary?.en}</li>
+            <li style="margin:.5rem 0"><strong class="ui">{p.tradition}</strong> — {stripNeedsSource(p.summary?.[lang] ?? p.summary?.en ?? "")}</li>
           ))}
         </ul>
       </section>

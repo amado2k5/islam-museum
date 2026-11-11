@@ -5,7 +5,7 @@
 // Counts are read from the graph at build time and appear on this page only.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
-import { href, labelOf } from "../../../lib/graph";
+import { href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
 import { natureItems, NATURE_SECTIONS } from "../../../lib/nature";
 
@@ -14,7 +14,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const N = (T as any).nature;
 const label = (n: any) => labelOf(n, lang);
-const summaryOf = (n: any) => n.summary?.[lang] ?? n.summary?.ar ?? "";
+const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "");
 const sectionIds = [...NATURE_SECTIONS, ...new Set(natureItems.map((i) => i.section).filter((s) => !NATURE_SECTIONS.includes(s)))];
 const sections = sectionIds.map((id) => ({ id, items: natureItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
 const status = fmt(N.status, { n: num(natureItems.length, lang), s: num(sections.length, lang) });
