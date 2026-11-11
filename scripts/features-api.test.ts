@@ -28,9 +28,18 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
   const expression = makeNode("passage/muwatta-1-187", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "1.187", text: "ما أعرف شيئاً مما أدركت عليه الناس إلا النداء بالصلاة", text_search: "بقي على حاله إلا النداء بالصلاة، تعبيراً عما رآه من تغير أحوال الناس." });
   const madhhabBook = makeNode("work/mughni-x", "work", { kind: "book" });
   const madhhabFaqih = { ...makeNode("person/faqih-x", "person"), tags: ["madhahib-browser", "mh-salaf", "mh-hanafi"] };
+  const baytHadith = makeNode("passage/muslim-2408x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "2408x", text: "إني تارك فيكم ثقلين أحدهما كتاب الله والآخر أهل بيتي" });
+  const baytAyah = makeNode("passage/quran-33-33x", "passage", { unit: "ayah", work: "work/quran", sura: 33, aya: 33, text: "إنما يريد الله ليذهب عنكم الرجس أهل البيت", translations: { en: { text: "Allah intends only to remove from you the impurity, O people of the house" } } });
+  const baytExtra = makeNode("passage/quran-33-28", "passage", { unit: "ayah", work: "work/quran", sura: 33, aya: 28, text: "يا أيها النبي قل لأزواجك إن كنتن تردن الحياة" });
+  const baytPerson = { ...makeNode("person/fatima-x", "person", { kind: "companion" }), tags: ["bayt-browser", "bayt-ahl"] };
+  const baytEvent = { ...makeNode("event/ghadir-khumm-x", "event", { kind: "event" }), tags: ["bayt-browser", "bayt-mawaqif"] };
+  const notBaytPharaoh = makeNode("passage/quran-2-49x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 49, text: "ونجيناكم من آل فرعون يسومونكم سوء العذاب وأغرقنا آل فرعون" });
+  const notBaytAhlKitab = makeNode("passage/quran-5-15x", "passage", { unit: "ayah", work: "work/quran", sura: 5, aya: 15, text: "يا أهل الكتاب قد جاءكم رسولنا يبين لكم" });
+  const notBaytQasim = makeNode("passage/muwatta-1-012x", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "1.012x", text: "بلغ مالكا أن القاسم بن محمد وسالم بن عبد الله كانوا يقولون" });
+  const notBaytAhlBaytihi = makeNode("passage/muslim-1829x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "1829x", text: "والرجل راع على أهل بيته وهو مسؤول عنهم" });
   const compiled: Compiled = {
     generated: "2026-11-06T00:00:00Z", commit: null, coverage,
-    nodes: [job, holder, fatwa, sermon, poem, film, book, qudsi, plainHadith, dreamHadith, dreamAyah, dreamConcept, sighting, expression, madhhabBook, madhhabFaqih, makeNode("work/quran", "work", { genre: ["scripture"] }), makeNode("work/sahih-bukhari", "work", { genre: ["hadith"] }), makeNode("work/sahih-muslim", "work", { genre: ["hadith"] }), makeNode("work/muwatta-malik", "work", { genre: ["hadith"] })],
+    nodes: [job, holder, fatwa, sermon, poem, film, book, qudsi, plainHadith, dreamHadith, dreamAyah, dreamConcept, sighting, expression, madhhabBook, madhhabFaqih, baytHadith, baytAyah, baytExtra, baytPerson, baytEvent, notBaytPharaoh, notBaytAhlKitab, notBaytQasim, notBaytAhlBaytihi, makeNode("work/quran", "work", { genre: ["scripture"] }), makeNode("work/sahih-bukhari", "work", { genre: ["hadith"] }), makeNode("work/sahih-muslim", "work", { genre: ["hadith"] }), makeNode("work/muwatta-malik", "work", { genre: ["hadith"] })],
     edges: [
       { from: "work/fatwa-x", to: "person/mufti", type: "issued_by", inverse: true },
       { from: "work/mughni-x", to: "group/hanbali-madhhab", type: "mentions", inverse: false },
@@ -40,7 +49,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "companions.json", "dreams.json", "fatwa.json", "ghayb.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "nature.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "fatwa.json", "ghayb.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "nature.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -83,6 +92,55 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(ids).not.toContain("passage/muwatta-9999"); // «العين» watering crops is not the evil eye
     expect(items.find((i) => i.id === "passage/muslim-9999")).toMatchObject({ section: "sunnah", topics: ["sihr"] });
     expect(items.find((i) => i.id === "concept/sihr")).toMatchObject({ section: "concepts", topics: ["sihr"] });
+  });
+
+  it("exports messengers: detected names and class terms, gated ambiguous names, edge mentions, and the subject index", () => {
+    const nuh = makeNode("passage/muslim-8888", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "8888", text: "قال نوح لقومه إني لكم نذير مبين" });
+    const salih = makeNode("passage/bukhari-7777", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "7777", text: "إن صالحا نبي ثمود" });
+    const ambiguous = makeNode("passage/muwatta-7777", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "7777", text: "كان الرجل صالحا في دينه" });
+    const ibnAdam = makeNode("passage/muslim-7777", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "7777", text: "يا ابن آدم لا تقنط من رحمة الله" });
+    const edgeOnly = makeNode("passage/quran-2-247", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 247, text: "وقال لهم نبيهم إن الله قد بعث لكم" });
+    const muhammadOnly = makeNode("passage/muslim-6666", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "6666" });
+    const musa = makeNode("person/musa", "person", { kind: "prophet" });
+    const muhammad = makeNode("person/muhammad", "person", { kind: "prophet" });
+    const data = featureApiData({
+      ...compiled,
+      nodes: [...compiled.nodes, nuh, salih, ambiguous, ibnAdam, edgeOnly, muhammadOnly, musa, muhammad],
+      edges: [
+        ...compiled.edges,
+        { from: "passage/quran-2-247", to: "person/musa", type: "mentions", inverse: false },
+        { from: "passage/muslim-6666", to: "person/muhammad", type: "mentions", inverse: false },
+      ],
+    });
+    const items = data["messengers.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/muslim-8888");
+    expect(ids).toContain("passage/bukhari-7777");
+    expect(ids).toContain("passage/quran-2-247");
+    expect(ids).not.toContain("passage/muwatta-7777"); // «صالح» as an adjective is not Salih
+    expect(ids).not.toContain("passage/muslim-7777"); // «ابن آدم» is mankind, not Adam
+    expect(ids).not.toContain("passage/muslim-6666"); // a bare narrator edge to Muhammad is not a mention
+    expect(items.find((i) => i.id === "passage/muslim-8888")).toMatchObject({ section: "sunnah", subjects: ["person/nuh"] });
+    expect(items.find((i) => i.id === "passage/quran-2-247")).toMatchObject({ section: "quran", subjects: expect.arrayContaining(["person/musa"]) });
+    expect((data["messengers.json"] as any).subjects.map((s: any) => s.id)).toContain("person/musa");
+  });
+
+  it("exports bayt: detected passages by corpus, tagged records by section tag, gated false positives", () => {
+    const items = featureApiData(compiled)["bayt.json"].items;
+    const ids = items.map((i) => i.id).sort();
+    expect(ids).toContain("passage/muslim-2408x");
+    expect(ids).toContain("passage/quran-33-33x");
+    expect(ids).toContain("passage/quran-33-28"); // BAYT_EXTRA: wife verse with no lexical marker
+    expect(ids).toContain("person/fatima-x");
+    expect(ids).toContain("event/ghadir-khumm-x");
+    expect(ids).not.toContain("passage/quran-2-49x"); // آل فرعون is not the Prophet's family
+    expect(ids).not.toContain("passage/quran-5-15x"); // أهل الكتاب is not the household
+    expect(ids).not.toContain("passage/muwatta-1-012x"); // القاسم بن محمد = the Muwatta narrator
+    expect(ids).not.toContain("passage/muslim-1829x"); // أهل بيته = "his household" in fiqh
+    expect(items.find((i) => i.id === "passage/muslim-2408x")).toMatchObject({ section: "sunnah" });
+    expect(items.find((i) => i.id === "passage/quran-33-33x")).toMatchObject({ section: "quran" });
+    expect(items.find((i) => i.id === "person/fatima-x")).toMatchObject({ section: "ahl" });
+    expect(items.find((i) => i.id === "event/ghadir-khumm-x")).toMatchObject({ section: "mawaqif" });
   });
 
   it("is empty-capable", () => {
