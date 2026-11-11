@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور اس شخص سے بڑھ کر ظالم کون جس کو اس کے پروردگار کی آیتوں سے نصیحت کی جائے تو وہ اُن سے منہ پھیر لے۔ ہم گنہگاروں سے ضرور بدلہ لینے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-32 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

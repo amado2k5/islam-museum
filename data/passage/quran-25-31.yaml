@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور اسی طرح ہم نے گنہگاروں میں سے ہر پیغمبر کا دشمن بنا دیا۔ اور تمہارا پروردگار ہدایت دینے اور مدد کرنے کو کافی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ہم نے تم سے پہلے بھی پیغمبر ان کی قوم کی طرف بھیجے تو وہ اُن کے پاس نشانیاں لےکر آئے سو جو لوگ نافرمانی کرتے تھے ہم نے اُن سے بدلہ لےکر چھوڑا اور مومنوں کی مدد ہم پر لازم تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

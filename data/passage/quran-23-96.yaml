@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور بری بات کے جواب میں ایسی بات کہو جو نہایت اچھی ہو۔ اور یہ جو کچھ بیان کرتے ہیں ہمیں خوب معلوم ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -17,6 +17,7 @@ translations:
   ur: { text: "وہ تمہارے اعمال درست کردے گا اور تمہارے گناہ بخش دے گا۔ اور جو شخص خدا اور اس کے رسول کی فرمانبرداری کرے گا تو بےشک بڑی مراد پائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
