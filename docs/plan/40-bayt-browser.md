@@ -51,6 +51,9 @@ books 11 (poetry), seerah 0→4 (work records). After tagging 53 curated
 records and adding two new person records the build exports 408 rows.
 `excluded still in: 0`.
 
+Post-harvest (11 Nov 2026, PR #6011): 19 Waqidi passages join the seerah
+section → ~374 detected passages, ~429 items exported.
+
 ## Files
 
 - `scripts/bayt.ts` — detector, sections, tag section map.
@@ -71,5 +74,56 @@ records and adding two new person records the build exports 408 rows.
 
 - All records draft until human review; contested doctrine keeps labelled
   perspectives.
-- Next: Waqidi family-chapter harvest per the delegation doc; mentions-edge
-  enrichment on person pages; human read → publish.
+
+## 8. Status and remaining work (handoff, 11 Nov 2026)
+
+Shipped: the browser, detector, API, surface and docs in PR #6005; the
+Waqidi wave-B harvest in PR #6011 (19 `passage/waqidi-maghazi-*` records,
+the corpus's first seerah passages). `npm run validate` 0 errors,
+`npm test` all pass at merge time.
+
+**Remaining, in priority order:**
+
+1. **Waqidi wave C — deeper per-chapter mining.** The delegation doc
+   `docs/delegation/library/maghazi-waqidi.md` §Unmined remainder now
+   lists the fetched and unfetched Shamela URL ranges. Two parts: (a)
+   sweep the already-fetched ranges for family mentions not yet excerpted
+   (wife and clan names inside the Badr roll-call, the Hudaybiyya
+   Safiyya pages, the Khaybar chapter, the Conquest, the Farewell
+   Pilgrimage and Usama chapters); (b) fetch and mine the unfetched
+   ranges for family chapters — the early sira chapters (Shamela URL
+   42–49, which may carry People-of-the-Cloak context), the chapters
+   between Badr and Uhud (213–239), between Hamra' al-Asad and the Ifk
+   (381–465, the Banu Nadir era), and the gaps at 571–601, 762–794,
+   809–819 and 912–923. Also confirm whether the Ghadir Khumm report
+   appears inside the already-fetched Farewell chapter (URL 1127–1156).
+2. **Seerah section depth beyond Waqidi.** 19 passages today. The other
+   `sira`-genre works tagged for the browser (`work/al-sira-al-nabawiyya-ibn-kathir`,
+   `work/al-sira-al-nabawiyya-sallabi`, `work/fiqh-al-sira-al-buti`) have
+   no passage records yet; Ibn Hisham mining belongs to the sira lane —
+   detection is automatic whenever those passages land.
+3. **Curated-record gap audit.** The plan targeted ~8–12 new records;
+   two shipped (`ummayma-bint-ali`, `fatima-bint-ali`). A pass against
+   the wives' and descendants' lists may surface a few more missing
+   figures (e.g. children of Hasan/Husayn the graph does not yet carry).
+4. **Mentions-edge enrichment.** Detected passages carry edges only where
+   the harvest added them; a deeper pass linking bayt passages to their
+   person/group/event pages is open.
+5. **BAYT-R20 build gate.** `npm run build` never completed on the final
+   merged tree (the attempt was killed mid-rebase; CI covers it, but a
+   clean local build confirmation is still open).
+6. **BAYT-R21 production smoke** — the BAYT-R1..R12 checklist against
+   islam.museum after the founder deploys; record the result in
+   `docs/status.md` per the requirements doc.
+7. **Human review.** Every harvested record is `status.review: draft`
+   until a human reads and promotes it; wife-name mentions intentionally
+   include narrator mentions («روت عائشة») per the founder's ruling.
+
+Done since the handoff was drafted: `docs/coverage.md` regenerated
+(54,134 entities) in the same commit as this section.
+
+**For the next agent:** start from a fresh clone of `main` — the microSD
+work clone and the `/Volumes/exmicroSD/maghazi-scratch` fetch workspace
+were deleted after the merge (the shared `islam-museum-harvest` store is
+untouched). Lane `bayt`, branch pattern `bayt/<topic>-<agent>`
+(`docs/agents/lanes.md`).

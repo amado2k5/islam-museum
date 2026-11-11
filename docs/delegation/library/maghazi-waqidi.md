@@ -96,8 +96,51 @@ listed here so the omission is documented, not silent.
   and honorifics removed, trimmed to ≤ ~40 words; the printed page span of
   each chapter is recorded in `provenance.source`.
 
-## Unmined remainder
+## Unmined remainder (wave-C brief, 11 Nov 2026)
 
-The non-family bulk of al-Wāqidī's *Maghāzī* remains unmined by design; the
-battles browser (`docs/plan/` battles waves) is the natural consumer of the
-campaign chapters. Revisit if the founder widens scope.
+The non-family bulk of al-Wāqidī's *Maghāzī* remains unmined by design;
+the battles browser (`docs/plan/` battles waves) is the natural consumer
+of the campaign chapters. Revisit if the founder widens scope.
+
+**Fetch map (Shamela URL page ids → printed pages):**
+
+- Fetched and mined (wave B): Hamza sariyya 50–51 (pp. 9–10); Badr
+  60–213 (pp. 19–172); Uhud 240–375 + Hamra' al-Asad 375–381 (pp.
+  199–340); Ifk 466–480 (pp. 426–440); Khandaq 480–536 (pp. ~440–495);
+  Banu Qurayza tail 536–571 (pp. 496–531); Fadak 602–604 (pp. 562–564);
+  Umm Qirfa 604–606 (pp. 564–566); Hudaybiyya 611–673 (pp. 571–633);
+  Khaybar 673–762 (pp. 633–722); Mu'ta 795–809 (pp. 755–769); Conquest
+  820–912 (pp. 780–873); Hunayn 924–961 (pp. 885–922); Ta'if 961–978
+  (pp. 922–939); Ja'rana 978–988 + Hawazin delegation 988–1012 (pp.
+  939–973); al-Fils 1023–1028 (pp. 984–989); Tabuk 1028–1099 (pp.
+  989–1060); Qur'an-on-Tabuk + Abu Bakr's Hajj + Ali's Yemen +
+  ṣadaqāt 1099–1127 (pp. 1060–1088); Farewell Pilgrimage 1127–1156 (pp.
+  1088–1117); Usama 1156–1166 (pp. 1117–1127).
+- **Not yet fetched:** 42–49 (front matter and the earliest sira
+  chapters — candidate for People-of-the-Cloak / early household
+  context), 213–239 (chapters between Badr and Uhud), 381–465 (the
+  Banu Nadir era between Hamra' al-Asad and the Ifk), 571–601 (between
+  Qurayza and Fadak), 762–794 (between Khaybar and Mu'ta), 809–819
+  (between Mu'ta and the Conquest), 912–923 (between the Conquest and
+  Hunayn), and any tail after 1166.
+
+**Wave-C tasks:**
+
+1. Sweep the fetched ranges for family mentions not yet excerpted —
+   wife and clan names inside the Badr roll-call pages, the Hudaybiyya
+   Safiyya/people-of-the-trench pages, the Khaybar chapter, the Conquest
+   chapter, the Farewell Pilgrimage and Usama chapters.
+2. Fetch the unfetched ranges above and check their TOC for family
+   chapters (descendants/imams mentions, any additional wife chapters).
+3. Confirm whether the Ghadir Khumm report appears inside the
+   already-fetched Farewell chapter (URL 1127–1156); if it does, excerpt
+   it (it feeds `event/ghadir-khumm` and `place/ghadir-khumm`).
+4. Keep the same record rules: ≤40-word excerpts, honorifics stripped,
+   printed-page provenance, `status.review: draft`, `mentions` edges to
+   existing ids only.
+
+**Edition caveat:** the Shamela transcription is community-maintained;
+the Marsden Jones print edition is not open access. If a passage ever
+needs verification against print, the fallback is the al-Arna'ūt edition
+(Mu'assasat al-Risāla 1405/1984) — do not silently switch editions
+mid-harvest; record any edition change in this doc first.
