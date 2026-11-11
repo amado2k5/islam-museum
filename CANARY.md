@@ -13,11 +13,13 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.18.2 — 2026-11-12
+### Fixed
+- **Main build repaired: the `needs_source` page check no longer flags marker syntax quoted inside `<code>`.** The v1.15.2 release note quotes the exact marker forms — `(needs_source)` and `(needs_source: …)` written as code — and the changelog renders CANARY.md verbatim, so the literal marker landed inside `<code>` on all three language changelog pages and `check:site` failed the build. The check now strips `<code>…</code>` elements before testing: a genuinely leaked marker still renders as page text — every prose path runs `stripNeedsSource` before markdown rendering, so a marker can never legitimately arrive inside `<code>` — while release notes and docs quoting the syntax stay publishable.
+
 ## v1.18.1 — 2026-11-12
 ### Added
 - **Sayyi'at Browser: first book harvests — seerah section opens, three more Sunni books mined.** Forty-six new draft passage records feed `/{lang}/sayyiat/`: ten seerah excerpts that open the previously empty seerah section — al-Sallabi's Sirah on Ka'b ibn Malik's three-fold trial and accepted repentance at Tabuk and the hypocrites' mockery of revelation («أبالله وآياته ورسوله كنتم تستهزئون»، «عذر أقبح من ذنب»), plus Ibn Kathir's Sirah on Hatib ibn Abi Balta'a's intercepted letter and the Ifk affair and the lashing of its slanderers — alongside thirty-six hadith passages from al-Mundhiri's Targhib wa-l-Tarhib, al-Tabrizi's Mishkat al-Masabih (new `work/mishkat-al-masabih` record) and Ibn Hajar's Bulugh al-Maram covering major and minor sins, the kabā'ir, usury, wine, backbiting, usurpation and repentance. All are `status.review: draft` pending human reading; lexicon-detected passages link automatically, narrative excerpts carry the `sayyiat-browser` tag. Corpus now 458 passages + 7 curated records.
-### Fixed
-- **Main build repaired: the `needs_source` page check no longer flags marker syntax quoted inside `<code>`.** The v1.15.2 release note quotes the exact marker forms — `(needs_source)` and `(needs_source: …)` written as code — and the changelog renders CANARY.md verbatim, so the literal marker landed inside `<code>` on all three language changelog pages and `check:site` failed the build. The check now strips `<code>…</code>` elements before testing: a genuinely leaked marker still renders as page text — every prose path runs `stripNeedsSource` before markdown rendering, so a marker can never legitimately arrive inside `<code>` — while release notes and docs quoting the syntax stay publishable.
 
 ## v1.18.0 — 2026-11-12
 ### Added
