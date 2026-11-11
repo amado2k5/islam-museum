@@ -13,6 +13,15 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.10.1 — 2026-11-11
+### Fixed
+- **Battles API: ghazwa flags come from the shared edge rule.** `/api/v1/battles.json` now derives its `ghazwa` flag through `scripts/ghazwa.ts` — the same rule the battles pages use — so the endpoint cannot drift from the site. The live split is 57 ghazawat and 15 saraya of 72 prophetic-era records (3,250 military records total); the 53/22/75/3,251 figures in the requirements doc were its implementation-time snapshot and have drifted with the graph, not with a second derivation.
+
+### Added
+- **`meta/deploy.json` gains a `pages` count, and Backstage gets its fill-in script.** The deploy stamp now records the number of HTML pages it published, and `site/src/scripts/backstage-stats.ts` is ready to fill the Backstage entry and page figures from `/api/v1/meta/counts.json` and `meta/deploy.json` — the same single sources the homepage reads.
+
+---
+
 ## v1.10.0 — 2026-11-10
 ### Added
 - **Battles browser: testable requirements spec.** `docs/engineering/20-battles-browser-requirements.md` lists every requirement for the browser — the routes in all three languages, the derived ghazwa/sariyya split, `/api/v1/battles.json`, search indexing, the register rows, the record-level rendering rules and the data-state baseline — each with the concrete production check to run. Linked from plan 31 and the battles lane so any agent can validate the shipped browser against it.
