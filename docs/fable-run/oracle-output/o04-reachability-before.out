@@ -1,0 +1,89 @@
+ORACLE 04: no cornerstone is a dead end; every published record within three hops of a cornerstone (statement 4)
+file: scripts/fable/o04_reachability.py
+HEAD: f07d617b7301f799232cb151557dc6618ae9513a
+baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 3  (the numbers below describe the working tree, not HEAD)
+graph artifact: .cache/graph.json; built from commit 1401a5cc979ae87eb47e1cf7534a59695858025f; 56030 nodes, 133438 edges
+WARNING: the graph artifact was built from a different commit than HEAD. Run `npm run graph` and re-run.
+------------------------------------------------------------------------------
+cornerstones: 271
+  distinct neighbours:  0: 23   1: 6   2: 11   3: 8   4: 13   5+: 210
+  isolated (no neighbour): 23
+    building/hassan-ii-mosque
+    building/masjid-sultan-hasan
+    building/sulaymaniyya-mosque
+    concept/al-hadith-al-nabawi
+    concept/arabesque
+    concept/imama
+    concept/masjid-umum
+    concept/sharia
+    concept/umma
+    group/arabs
+    object/al-mushaf-al-azraq
+    object/ardabil-carpet
+    object/kiswa
+    object/minbar-kutubiyya
+    object/mushaf-birmingham
+    period/abbasid-fragmentation
+    period/buyid-seljuk-fatimid-era
+    period/contemporary-era
+    period/gunpowder-empires
+    period/modern-era
+    polity/delhi-sultanate
+    polity/seljuk-empire
+    work/alf-layla-wa-layla
+  leaves (one neighbour): 6
+    building/dome-of-the-rock  ->  place/jerusalem
+    building/taj-mahal  ->  work/gardens-of-paradise
+    concept/islamic-calligraphy  ->  work/how-to-read-islamic-calligraphy
+    event/battle-of-nahrawan  ->  person/harqus-ibn-zuhayr
+    polity/timurid-empire  ->  polity/safavid-iran
+    practice/eid-al-fitr  ->  work/muktatafat-mena-al-seera
+[FAIL] no cornerstone is a dead end (each has at least two distinct neighbours over meaningful relations): 29 dead ends (23 isolated, 6 leaves)
+  finer measure, not a check: cornerstones whose own file writes no relation: 92 ({'place': 30, 'concept': 24, 'period': 13, 'building': 5, 'object': 5, 'polity': 5, 'work': 5, 'group': 2, 'practice': 2, 'event': 1})
+
+Hop distance to the nearest cornerstone, published records (the population the statement is about): 18,699 records
+  0 hops (a cornerstone)     106
+  1 hops                   3,746
+  2 hops                   1,332
+  3 hops                   1,903
+  4 hops                     333
+  5 hops                     271
+  6 hops                      66
+  7 hops                      24
+  8 hops                      10
+  9 hops                       4
+  10 hops                       2
+  11 hops                       1
+  12 hops                       1
+  no path to any cornerstone  10,900
+  within three hops: 7,087 of 18,699 (37.9%); beyond three hops: 712; unconnected: 10,900
+
+Hop distance to the nearest cornerstone, all records: 54,135 records
+  0 hops (a cornerstone)     271
+  1 hops                  12,234
+  2 hops                  11,384
+  3 hops                   4,670
+  4 hops                   1,020
+  5 hops                     473
+  6 hops                     163
+  7 hops                      63
+  8 hops                      36
+  9 hops                      14
+  10 hops                       3
+  11 hops                       4
+  12 hops                       2
+  no path to any cornerstone  23,798
+  within three hops: 28,559 of 54,135 (52.8%); beyond three hops: 1,778; unconnected: 23,798
+
+The uncovered published population: 11,612 records
+  of which have no relation at all in the graph: 10,521
+  of which have relations but no path within three hops: 1,091
+  by class: {'source': 8846, 'person': 831, 'passage': 686, 'work': 304, 'media': 222, 'concept': 142, 'building': 133, 'listing': 91, 'place': 79, 'group': 78, 'question': 62, 'event': 37, 'job': 28, 'invention': 26, 'practice': 14, 'award': 11, 'object': 10, 'polity': 7, 'exhibit': 4, 'journey': 1}
+
+The same measure without the museum's reference apparatus (source, media and dataset records, which attach to records by citation, not by relation):
+  published subject records: 9,631; within three hops: 7,087 (73.6%); uncovered: 2,544
+  of the 8,846 uncovered source records, 3,729 are cited by a record within two hops of a cornerstone, and 53 are cited by no record. A citation is not a relation and is not counted as a hop.
+[FAIL] every published record sits within three relation-hops of a cornerstone: 11,612 of 18,699 published records do not
+------------------------------------------------------------------------------
+RESULT: NOT-GREEN (3 failed: graph artifact is stale; no cornerstone is a dead end (each has at least two distinct neighbours over meaningful relations); every published record sits within three relation-hops of a cornerstone)
