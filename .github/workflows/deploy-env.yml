@@ -26,8 +26,11 @@ name: Deploy islam.museum (reusable, one environment)
 # project; production is deployed only by deploy.yml, which is the founder's alone.
 #
 # A deploy does not build: it downloads the `dist` artifact of a build run. Empty build_run_id
-# means the latest successful build of main; a run id redeploys that build (nothing is sent to
-# R2 twice: the manifest diff finds no change but the deploy stamp, api/v1/meta/deploy.json).
+# means the latest successful build of the source branch (main unless the caller names a
+# release branch); a run id redeploys that build (nothing is sent to R2 twice: the manifest
+# diff finds no change but the deploy stamp, api/v1/meta/deploy.json). A non-main source
+# branch is accepted only for a non-production environment: production builds come from
+# main, always — the "Find the build" step fails the run otherwise.
 on:
   workflow_call:
     inputs:
@@ -36,10 +39,15 @@ on:
         required: true
         type: string
       build_run_id:
-        description: "Build run id to deploy. Empty: the latest successful build of main."
+        description: "Build run id to deploy. Empty: the latest successful build of the source branch."
         required: false
         type: string
         default: ""
+      source_branch:
+        description: "Branch the build must come from. Default main. A release branch (release/**) is accepted only when the environment is not production."
+        required: false
+        type: string
+        default: "main"
       seed:
         description: "First publish into an empty bucket: record what is already there instead of failing on the missing manifest (publish.mjs --seed). Harmless once a manifest exists."
         required: false
@@ -127,14 +135,22 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
           REQUESTED: ${{ inputs.build_run_id }}
+          SOURCE_BRANCH: ${{ inputs.source_branch }}
+          ENVIRONMENT: ${{ inputs.environment }}
         run: |
           set -euo pipefail
+          # Production is main-only, whoever calls this workflow and whatever they pass:
+          # a release branch may feed UAT, never production.
+          if [ "$ENVIRONMENT" = "production" ] && [ "$SOURCE_BRANCH" != "main" ]; then
+            echo "::error::Production deploys build from main only; source_branch \"$SOURCE_BRANCH\" is refused."
+            exit 1
+          fi
           fields=databaseId,headSha,headBranch,conclusion,createdAt,displayTitle,url,workflowName
           if [ -n "$REQUESTED" ]; then
             run=$(gh run view "$REQUESTED" --json "$fields")
           else
-            run=$(gh run list --workflow build.yml --branch main --status success --limit 1 --json "$fields" | jq '.[0] // empty')
-            test -n "$run" || { echo "::error::No successful build of main yet. Run \"Build islam.museum\" (or push to main) first."; exit 1; }
+            run=$(gh run list --workflow build.yml --branch "$SOURCE_BRANCH" --status success --limit 1 --json "$fields" | jq '.[0] // empty')
+            test -n "$run" || { echo "::error::No successful build of $SOURCE_BRANCH yet. Run \"Build islam.museum\" (or push to $SOURCE_BRANCH) first."; exit 1; }
           fi
           id=$(jq -r .databaseId <<<"$run")
           sha=$(jq -r .headSha <<<"$run")
@@ -147,7 +163,7 @@ jobs:
           [ "$workflow" = "Build islam.museum" ] || { echo "::error::Run $id is \"$workflow\", not a build run."; exit 1; }
           # A build run is successful only when its tests, its build and the keep-newest job all passed.
           [ "$conclusion" = "success" ] || { echo "::error::Build run $id ended with \"$conclusion\", not success: its tests or build failed, so it is not deployable."; exit 1; }
-          [ "$branch" = "main" ] || { echo "::error::Build run $id built $branch, not main."; exit 1; }
+          [ "$branch" = "$SOURCE_BRANCH" ] || { echo "::error::Build run $id built $branch, not $SOURCE_BRANCH."; exit 1; }
           # The artifact must still exist (retention-days in build.yml).
           gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.name == "dist" and .expired == false) | .id' | grep -q . \
             || { echo "::error::Build run $id has no live dist artifact (expired or never uploaded). Rebuild the commit with \"Build islam.museum\"."; exit 1; }
@@ -182,7 +198,7 @@ jobs:
           set -euo pipefail
           for f in workers/site/wrangler.production.toml workers/r2-sync/wrangler.production.toml; do
             grep -Eq "^\[(\[)?env\.$WRANGLER_ENV(\.|\]|\])" "$f" \
-              || { echo "::error::Build $RUN_ID (commit $SHA) has no [env.$WRANGLER_ENV] in $f: it predates the $WRANGLER_ENV configuration. Wait for a build of a newer commit of main, then deploy that run id."; exit 1; }
+              || { echo "::error::Build $RUN_ID (commit $SHA) has no [env.$WRANGLER_ENV] in $f: it predates the $WRANGLER_ENV configuration. Wait for a build of a newer commit of the source branch, then deploy that run id."; exit 1; }
           done
           echo "both wrangler configs define [env.$WRANGLER_ENV]"
       - uses: actions/setup-node@v4
