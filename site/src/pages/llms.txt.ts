@@ -36,6 +36,7 @@ export const GET: APIRoute = () => {
     `- [Screening Room dataset](${SITE}/api/v1/screens.json) — every film, series and programme with format, release, countries and ids`,
     `- [Ghayb Browser dataset](${SITE}/api/v1/ghayb.json) — every unseen-topic record tagged ghayb-browser with kind, section tag, themes and edges`,
     `- [Nature Explorer dataset](${SITE}/api/v1/nature.json) — every natural-world record tagged nature-browser with kind, section tag, themes and edges`,
+    `- [Jinn & Devils Browser dataset](${SITE}/api/v1/jinn-devils.json) — every jinn, devil, angel and dream record tagged jinn-devils-browser (plus angels-browser angel records) with kind, section tags, themes and edges`,
     `- [Asma ul Husna dataset](${SITE}/api/v1/asma.json) — the 99 divine names in enumeration order with transliteration, root and edges`,
     `- [Khulafa dataset](${SITE}/api/v1/khulafa.json) — every caliph with roles and reign story_roles; chains at ${SITE}/api/v1/khulafa/chains.json`,
     `- [Battles dataset](${SITE}/api/v1/battles.json) — every military engagement with kind, date, sides, outcome, casualties and the derived ghazwa flag`,

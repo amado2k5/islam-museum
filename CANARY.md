@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.11.0 — 2026-11-11
+### Added
+- **Jinn & Devils Browser: «متصفح الشياطين والجن» is live in the build.** A dedicated browser gathers every jinn, devil and demon, angel and dream record in the museum's graph — the Qur'an, the hadith, the seerah and the harvested books — into four sections (the jinn, devils, angels, dreams). Every record gets a subject page showing the ayahs and reports that mention it, drawn from the frozen Qur'an text and the harvested passages. The browser joins the Explore menu and the landing page in Arabic, English and Urdu, exports `/api/v1/jinn-devils.json`, and is documented in the engineering requirements spec so any agent can test it against production.
+
 ## v1.10.1 — 2026-11-11
 ### Added
 - **Jinn & Devils Browser: ninety-seven passages now point at their beings.** A conservative harvest (`scripts/harvest/jinn-devils/mentions.py`) scanned every Qur'an ayah and harvested hadith record for unambiguous jinn/devil/dream vocabulary — الجن as a whole token (never الجنة or الجنود), إبليس, شيطان/شياطين, وسواس, لوّامة, سحر-domain words, كهانة, قرين in hadith corpora, and the jinn kinds (مارد، عفريت، غول، سيّاط) — and added `mentions` edges to the graph records those words name. Edges cite each passage's own registered source; the run is idempotent so future harvested books get the same treatment by re-running it.

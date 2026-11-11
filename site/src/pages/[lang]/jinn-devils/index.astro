@@ -1,0 +1,68 @@
+---
+// The Jinn & Devils Browser's home (docs/plan/35-jinn-devils-browser.md): the museum's records on
+// jinn, devils and demons, angels, and the dreams that carry them — grouped in four sections over
+// the one graph. Counts are read from the graph at build time and appear on this page only.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { href, labelOf } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { jinnDevilsItems, JD_SECTIONS } from "../../../lib/jinn-devils";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const J = (T as any)["jinn-devils"];
+const label = (n: any) => labelOf(n, lang);
+const summaryOf = (n: any) => n.data.summary?.[lang] ?? n.data.summary?.ar ?? "";
+const sectionIds = [...JD_SECTIONS, ...new Set(jinnDevilsItems.flatMap((i) => i.sections).filter((s) => !JD_SECTIONS.includes(s)))];
+const sections = sectionIds.map((id) => ({ id, items: jinnDevilsItems.filter((i) => i.sections.includes(id)) })).filter((s) => s.items.length > 0);
+const status = fmt(J.status, { n: num(jinnDevilsItems.length, lang), s: num(sections.length, lang) });
+const searchText = (i: (typeof jinnDevilsItems)[number]) =>
+  [i.node.label.ar, i.node.label.en, i.node.label.ur, summaryOf(i.node)].filter(Boolean).join(" ");
+---
+<BaseLayout lang={lang} title={J.title} description={J.lede} path={`/${lang}/jinn-devils/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{J.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {J.title}</nav>
+    <div data-pagefind-body>
+      <h1>{J.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{J.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <h2 id="method-title" style="font-size:1.1rem">{J.method_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{J.method_note}</p>
+      <p class="ui muted">{J.api} <a href="/api/v1/jinn-devils.json"><bdi dir="ltr">/api/v1/jinn-devils.json</bdi></a></p>
+    </div>
+
+    <section aria-labelledby="sections-title" style="margin-top:2rem">
+      <h2 id="sections-title">{J.sections_title}</h2>
+      <nav aria-label={J.sections_title} class="ui" style="margin:0 0 1rem">
+        <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {sections.map((s) => <li><a class="chip" href={`#t-${s.id}`}>{J.sections[s.id]?.title ?? s.id} · {num(s.items.length, lang)}</a></li>)}
+        </ul>
+      </nav>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="jinn-devils-filter">{J.filter_label}</label>
+        <input id="jinn-devils-filter" type="search" data-jinn-devils-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <div data-pagefind-ignore>
+        {sections.map((s) => (
+          <section data-jinn-devils-section aria-labelledby={`t-${s.id}`} style="margin:1.4rem 0">
+            <h3 id={`t-${s.id}`} style="font-size:1.1rem;margin:0 0 .2rem">{J.sections[s.id]?.title ?? s.id}</h3>
+            <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{J.sections[s.id]?.desc}</p>
+            <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+              {s.items.map((i) => (
+                <li data-jinn-devils-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
+                  <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a>
+                  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem">{summaryOf(i.node)}</p>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))}
+      </div>
+      <p class="panel ui" data-jinn-devils-none hidden>{J.filter_none}</p>
+      {jinnDevilsItems.length === 0 && <p class="panel ui">{J.empty}</p>}
+    </section>
+  </div>
+  <script src="../../../scripts/jinn-devils-filter.ts"></script>
+</BaseLayout>

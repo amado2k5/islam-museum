@@ -1592,6 +1592,10 @@ explore:
       title: Nature Explorer
       desc: "Animals, birds, insects, sea creatures, plants and the phenomena of creation in the Qur'an and the hadith — every verse and report with its source."
       menu: "Browse nature in the Qur'an and hadith"
+    jinn-devils:
+      title: "Jinn & Devils Browser"
+      desc: "Jinn, devils and demons, angels, and the dreams that carry them — every mention in the Qur'an, the hadith and the seerah with its source."
+      menu: "Browse jinn, devils and angels"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -3252,6 +3256,36 @@ nature:
     cosmos:
       title: The created world
       desc: "Rain, mountains, thunder, winds, night and day, sun, moon and stars, water, earth and heavens — the signs spread before those who reflect."
+jinn-devils:
+  title: "Jinn & Devils Browser"
+  lede: "Jinn, devils and demons, angels, and the dreams that carry them — every being, encounter and report the Qur'an, the hadith, the seerah and the harvested books record, gathered in one browser with its sources."
+  badge: Unseen beings explorer
+  status: "This build holds {n} records in {s} sections; texts are draft until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — cited, trilingual — grouped by the tags jinn-devils-browser and jd-<section> inside the one graph, not in a side table; angel records the Angels Browser also carries appear here under the angels section. The Qur'an text is the frozen Tanzil text, shown on the subject pages by reference only, and the hadith cards link to the reports' own pages. Future harvested books join the browser automatically once their records carry the tag."
+  api: "The whole dataset is at"
+  sections_title: The browser's sections
+  filter_label: Filter topics
+  filter_none: No matching results.
+  empty: No jinn and devil records in this build yet.
+  entity_page: "Museum record"
+  quran_title: "In the Qur'an"
+  hadith_title: "In the hadith"
+  quran_ref: "Qur'an"
+  related_title: "Also in the museum"
+  sections:
+    jinn:
+      title: The jinn
+      desc: "The hidden folk of the texts: their kinds, their homes and roads, the delegation that came to the Prophet, and the stories of meeting them."
+    devils:
+      title: Devils and demons
+      desc: "Iblis and the shayatin, the whispers and envy, sorcery and soothsaying, and every encounter the texts record between devils and humans."
+    angels:
+      title: Angels
+      desc: "The noble messengers of God: Gabriel, the recording angels, the angels of battles and journeys, and their meetings with people."
+    dreams:
+      title: Dreams and visions
+      desc: "The dream-science of the tradition: true dreams, nightmares, dream interpretation, and the dream reports that carry unseen beings."
 qudsi:
   title: "Hadith Qudsi Browser"
   lede: "A hadith qudsi is a report the Prophet relates from his Lord in words other than the Qur'an's. Here is every hadith qudsi in the six books and the Muwatta of Malik, gathered with its narrations in each collection and arranged by theme; every narration is a page in the museum."
