@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.11.4 — 2026-11-10
+### Data
+- **Urdu labels and summaries for the Dream Browser's records.** The 35 browser items that lacked them — 26 passages (Qur'an ayahs, Bukhari, Muslim and Muwatta reports, the Hassan poem verse), the `concept/ihtilam` record and the `work/tafsir-al-ahlam-ibn-sirin` card — gained `label.ur` and `summary.ur`, so the Urdu dreams page now shows Urdu card text throughout instead of falling back to Arabic. Passage labels follow the corpus convention («بخاری 3680 — …», «موطأ 126 — …», «قرآن 12:4»).
+
 ## v1.11.3 — 2026-11-10
 ### Data
 - **`concept/ruya-fiqh` gains a fiqh-rulings section, trilingual.** The dream-fiqh record now states that no legal ruling is built on a dream (nothing attaches until the cause exists in waking), ties ihtilam's ghusl reports (Muwatta 126–128) and the mubashshirat hadith (Muwatta 2749) to their `[[passage/…]]` records, and cross-links the chapter to `concept/ahlam`, `concept/al-hulm`, `concept/taabir-al-ruya` and `concept/kitab-al-ruya`. Stays `status.review: draft`.
