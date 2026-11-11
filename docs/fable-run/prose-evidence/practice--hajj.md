@@ -1,6 +1,6 @@
 # practice/hajj
 
-Lead before: 34 Arabic words, 48 English words. Lead after: 166 / 247.
+Lead before: 34 Arabic words, 48 English words. Lead after: 166 / 249.
 Sources cited in the lead: fiqh-mawsua-kuwaitiyya-noor-v3, tanzil-quran
 
 Local copy read: `~/islam-museum-harvest/books/fiqh/fiqh-mawsua-kuwaitiyya-noor-v3/fiqh-mawsua-kuwaitiyya-noor-v3/pages.json` (18,079 pages, OCR). The page numbers are pages.json pages of that one file, which is the form the record already uses (p.6836). The entry «حج» opens on page 6836; its numbered paragraphs 1 to 14 run to page 6841.
@@ -14,7 +14,7 @@ Local copy read: `~/islam-museum-harvest/books/fiqh/fiqh-mawsua-kuwaitiyya-noor-
 | 5 | واختلف الفقهاء في وجوبه عند تحقق | {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6837} | page 6837, paragraph 5, read on the page: Abu Hanifa in the sounder of the two reports from him, Abu Yusuf, Malik in the preferred view from him and Ahmad for "at once"; al-Shafi'i and Muhammad ibn al-Hasan for "may be deferred" |
 | 6 | واستدل الشافعية بأن النبي فتح مكة | {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6838} | page 6838, read on the page: argument (b) of the Shafi'is and those with them (Mecca taken in year eight of the Hijra, no hajj until the tenth year) |
 | 7 | وشروط فرضيته خمسة متفق عليها بين | {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6840} | page 6840, paragraph 8, read on the page: five conditions, Islam, sanity, maturity, freedom, ability, «وهي متفق عليها بين العلماء» |
-| 8 | وتذكر الموسوعة من حِكَمه أن المسلمين | {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6839} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6840} | page 6839, paragraph 7, item ⁦(ج)⁩, which runs on to page 6840, read on the page: Muslims gather from all parts of the earth, come to know one another, and differences of wealth and poverty, of race and colour, of tongue and language dissolve |
+| 8 | وتذكر الموسوعة من حِكَمه أن المسلمين | {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6839} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6840} | page 6839, paragraph 7, item ⁦(ج)⁩, which runs on to page 6840, read on the page: Muslims gather from all parts of the earth, come to know one another and grow close («فيتعرف بعضهم على بعض، ويألف بعضهم بعضا», p. 6840), and differences of wealth and poverty, of race and colour, of tongue and language dissolve (revised: the English now carries both verbs, as the Arabic «فيتعارفون ويتآلفون» did) |
 
 Sentences from the record itself: 4 (1, 2, 3, 4; all also re-read on the page). Sentences from a source text read: 4 (5, 6, 7, 8).
 
@@ -30,3 +30,5 @@ Seen in the record, outside the lead (not changed):
 - The section «حكمه» (Arabic) types the wording of Al Imran 97 inside «», and the English section "Ruling" types a translation of it in quotation marks.
 - data `provenance.source` and `status.generated_by` say the record rests on hadith 8, 46 and 50 of Sahih al-Bukhari, but no sentence of the prose cites al-Bukhari.
 - The source record says the edition and volume of this copy are not verified and that the page numbers are scan pages of one 18,079-page file, not printed folios.
+
+Revised after verification: the English of sentence 8 dropped «ويتآلفون». It now reads "where they come to know one another and grow close", matching the Arabic and p. 6840. To stay within 250 words, "from all over the earth" became "from across the earth". The Arabic lead is unchanged.

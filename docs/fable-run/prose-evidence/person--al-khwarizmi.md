@@ -7,7 +7,7 @@ Local copies read:
 - Cairo 1939 edition: `~/islam-museum-harvest/books/medicine-science/khwarizmi-algebra/20241227_20241227_1503/pages.json` (130 scan pages; the record cites scan pages). Scan pp.22–25 read.
 - London (Rosen) edition: `~/islam-museum-harvest/books/medicine-science/khwarizmi-algebra/ar120vieux197/pages.json`, scan p.121 (the Arabic title page).
 - Mawsu'at A'lam: `~/islam-museum-harvest/books/rijal/mawsuat-a3lam-ulama-adaba/v08/pgs/page-523.txt` and `page-524.txt`. The title page of this volume (`page-001.txt`) reads «حرف الخاء ... 8 ... ابن خاتمة - الخيري», so it is volume 8; the page text opens with the number 523.
-- Muruj al-Dhahab: the passage is in `~/islam-museum-harvest/extracted/muruj/muruj.txt` (just after the marker `PageV01P253`) and on scan p.167 of `~/islam-museum-harvest/books/tareekh/muruj-dhahab/Heliopolis1957_gmail_2_20181129/pages.json`. See the note on "p. 519" below.
+- Muruj al-Dhahab: the passage is in `~/islam-museum-harvest/extracted/muruj/muruj.txt` (just after the marker `PageV01P253`), on scan p.167 of `~/islam-museum-harvest/books/tareekh/muruj-dhahab/Heliopolis1957_gmail_2_20181129/pages.json`, and, as found after verification, on scan p.519 of `~/islam-museum-harvest/books/tareekh/muruj-dhahab/AAlexandrina-011911/pages.json`. That last copy is the one the record's `p. 519` counts by. See the note on "p. 519" below.
 
 | # | Sentence (first six words of the Arabic) | Citation | Where the fact was read |
 |---|---|---|---|
@@ -28,6 +28,8 @@ Could not be supported and left out:
 - The Sindhind adaptation, the four surviving books and the kunya note are in the record with citations and were left out for length only. `khwarizmi-mactutor` and `tdv-harizmi` are web sources and are not on this machine.
 
 Seen in the record (not changed, outside the lead):
-- `{cite:muruj-al-dhahab p. 519}`: I could not match page 519 to any of the four local scans (page 519 of each has no mention of him). The passage itself is real and is where the table says. The locator needs a check; it is carried from the record unchanged.
+- `{cite:muruj-al-dhahab p. 519}`: the writer could not match page 519 to a local scan, and the verifier could not either. It does match. Scan page 519 of `~/islam-museum-harvest/books/tareekh/muruj-dhahab/AAlexandrina-011911/pages.json` (volume 1 of the 1989 printing in the Bibliotheca Alexandrina scan; the printed number at the foot of that page is 515) carries the passage: «ثم لمن طرأ بعد ظهور الإسلام - مثل الكندي ... وأبي معشر، والخوارزمي، ومحمد بن كثير الفرغاني ... وثابت بن قرة ... ومحمد بن جابر البتاني، وغير هؤلاء ممن قد عني بعلوم الهيئة». A search for the name misses it because the OCR of that page splits the word in two ⁦(«والخوار زمي»)⁩. So the record's locator is a scan-page number of that copy, and it is carried unchanged. The same source id is cited by the page index of a different scan in `person/umar-ibn-abd-al-aziz`; one id, more than one pagination.
 - Section «للدارسين» gives 164–232 AH / 781–847 CE; the lead and the data file give 164/780 and 235/850. That section has no citation.
 - In al-Mas'udi's sentence the name is «الخوارزمي» alone; "Muhammad ibn Musa al-Khwarizmi" appears in his list of historians at the opening of the book.
+
+Revised after verification: the lead is unchanged. The finding was that `{cite:muruj-al-dhahab p. 519}` matched no local copy. It matches scan page 519 of the Bibliotheca Alexandrina scan named above, where the passage was read. The row for sentence 1 stands; only the note on the locator is corrected.

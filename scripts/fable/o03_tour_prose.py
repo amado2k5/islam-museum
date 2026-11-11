@@ -7,7 +7,8 @@ For each stop in the manifest, in Arabic and English, the narrative is the lead 
   - every citation in the lead names a source the record already listed at the frozen baseline commit (no new source);
   - the publication bar (`npm run cite-check`): sources present and defined, provenance recorded, citations resolve;
   - no typed honorific and no typed Qur'an bracket in the lead (the validator checks the whole file as well).
-A stop listed in docs/fable-run/GAP-REGISTER.md with its reason is reported as registered, and keeps the statement not green.
+A record that could not be finished to this standard is not in the manifest: it was taken off the Tour and is listed, with
+its reason, in docs/fable-run/GAP-REGISTER.md section 1.
 
   python3 scripts/fable/o03_tour_prose.py                 # all stops
   python3 scripts/fable/o03_tour_prose.py person/aisha    # named records only (working check, not a ledger run)
@@ -19,7 +20,6 @@ only = [a for a in sys.argv[1:] if "/" in a and not a.startswith("-")]
 o = Oracle("03", "Tour prose meets the published standard, deepened only from already-cited sources (statement 3)", needs_graph=False)
 ids = only or manifest_ids()
 HONORIFIC = re.compile("ﷺ|صلى الله عليه|عليه السلام|عليها السلام|رضي الله عن|رحمه الله|﴿|﴾|\\(pbuh\\)|peace be upon him", re.I)
-gap = open(os.path.join(ROOT, "docs/fable-run/GAP-REGISTER.md"), encoding="utf-8").read() if os.path.exists(os.path.join(ROOT, "docs/fable-run/GAP-REGISTER.md")) else ""
 
 bad = {"length": [], "uncited": [], "new-source": [], "missing": [], "typed": []}
 o.note("stop | record | Arabic words | English words | sentences without a citation (ar/en) | citations outside the baseline source list")
@@ -46,7 +46,7 @@ for k, rid in enumerate(ids, 1):
             bad["typed"].append(f"{rid} [{lang}]")
         cells.append((n, len(unc), new))
     row = " | ".join([f"{k:>2}", f"{rid:<38}"] + [f"{c[0]:>4}" if c != "none" else "none" for c in cells] + ["/".join(str(c[1]) if c != "none" else "-" for c in cells), "; ".join(", ".join(c[2]) for c in cells if c != "none" and c[2]) or "-"])
-    o.note(row + ("   [in the gap register]" if rid in gap else ""))
+    o.note(row)
 
 o.note()
 o.check("every stop has an Arabic and an English lead", not bad["missing"], "; ".join(bad["missing"]))
@@ -58,9 +58,6 @@ r = subprocess.run(["npx", "tsx", "scripts/cite-check.ts", *ids], cwd=ROOT, capt
 line = [l for l in r.stdout.splitlines() if l.startswith("cite-check:")]
 o.note("  " + (line[0] if line else r.stdout[-300:] + r.stderr[-300:]))
 o.check("the publication bar holds for every stop (cite-check)", bool(line) and re.search(r"\b0 fail\b", line[0]) is not None, line[0].split(" — ")[0] if line else "no result")
-registered = [rid for rid in ids if rid in gap]
-if registered:
-    o.note(f"  stops in the gap register: {', '.join(registered)}")
 if only:
     o.note("  (named records only: a working check, not a ledger run)")
 o.finish()

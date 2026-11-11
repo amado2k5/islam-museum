@@ -30,3 +30,5 @@ Could not be supported and left out:
 - The Siyar reading in the data summary (`{cite:siyar-alam-nubala 17/541}`: died Saturday 4 Jumada al-Akhira 728, buried at al-Qarafa) contradicts EI2, the Durar and the Tadhkira in the same record (20 Dhu al-Qa'da 728, citadel of Damascus, Sufiyya cemetery). Not used.
 
 Read on the page and left out only for length: the first lesson at the Sukkariyya (2 Muharram 683), al-Hamawiyya (698), the removal to Alexandria (last night of Safar 709), all EI2 PDF pp. 983 to 984.
+
+Revised after verification: nothing changed; the verifier had no finding in the lead. The two points it saw outside the lead (the unreadable `summary.ar` and the death date in `summary.en` of the data file) are data and were not touched.

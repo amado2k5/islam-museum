@@ -1,6 +1,6 @@
 # place/cairo
 
-Lead before: 11 Arabic words, 20 English words. Lead after: 156 / 244.
+Lead before: 11 Arabic words, 20 English words. Lead after: 156 / 244; after the revision at the end of this file, 163 / 249.
 Sources cited in the lead: geonames-gazetteer, khitat-maqrizi-1998, tarikh-khulafa-minhaj-1434, farghani-elements-astronomy
 
 Local copies read:
@@ -12,7 +12,7 @@ Local copies read:
 | # | Sentence (first six words of the Arabic) | Citation | Where the fact was read |
 |---|---|---|---|
 | 1 | القاهرة عاصمة مصر | {cite:geonames-gazetteer 360630} | old lead ("capital of Egypt", uncited there). Read in the local GeoNames file, row 360630: name Cairo, country EG, feature code PPLC (capital of a political entity), 30.06263 N 31.24967 E |
-| 2 | أسسها الفاطميون بجوار الفسطاط، وتؤرخ بيانات | {cite:khitat-maqrizi-1998 p.1001} {cite:khitat-maqrizi-1998 p.1030} | old lead (uncited there) and this record's data file (`founded.edtf: 0969`, whose note cites the Khitat p.1030). Read on the page: scan p.1001, after Fustat, al-Askar and al-Qata'i', «قدم القائد جوهر بعساكر مولاه الإمام المعز لدين الله معد فبنى القاهرة حصناً ومعقلاً بين يدي المدينة»; scan p.1030, the arrival. The year 969 CE is the data file's own figure, not a number on al-Maqrizi's page, and the sentence says it is the museum's data |
+| 2 | أسسها الفاطميون بجوار الفسطاط، وتؤرخ بيانات | {cite:khitat-maqrizi-1998 p.1001} {cite:khitat-maqrizi-1998 p.1030} | old lead (uncited there) and this record's data file (`founded.edtf: 0969`, whose note cites the Khitat p.1030). Read on the page: scan p.1001, after Fustat, al-Askar and al-Qata'i', «قدم القائد جوهر بعساكر مولاه الإمام المعز لدين الله معد فبنى القاهرة حصناً ومعقلاً بين يدي المدينة»; scan p.1030, the arrival. The year 969 CE is the data file's own figure (a converted year, not marked derived) and is on neither page: scan p.1030 gives Sha'ban 358 and, as another report, Jumada II 359. After verification the two citations stand directly after "beside Fustat", the clause they support, and the sentence says in words that the year is the museum's and is not on al-Maqrizi's pages |
 | 3 | يذكر المقريزي أن القائد جوهرًا دخل | {cite:khitat-maqrizi-1998 p.1030} {cite:khitat-maqrizi-1998 p.1067} | this record, section «التأسيس والمدينة الفاطمية», same two citations; read on the page, scan p.1030 and p.1067 |
 | 4 | ويذكر رواية أخرى أنها اختُطّت في | {cite:khitat-maqrizi-1998 p.1030} | this record, same section, same citation; read on the page, scan p.1030: «ويقال إن القاهرة اختطها جوهر في يوم السبت لست بقين من جمادى الآخرة سنة تسع وخمسين» |
 | 5 | وقصد جوهر أن تكون حصنًا بين | {cite:khitat-maqrizi-1998 p.1030} {cite:khitat-maqrizi-1998 p.1031} | source text, not in the record before. Same file, read on the page: the sentence starts at the foot of scan p.1030 («وقصد جوهر باختطاط القاهرة») and runs on to p.1031 («حيث هي اليوم أن تصير حصناً فيما بين القرامطة وبين مدينة مصر ليقاتلهم من دونها») |
@@ -37,3 +37,5 @@ Seen in the record (not changed, outside the lead):
 - Section «التأسيس والمدينة الفاطمية» says Jawhar named «السور الأول» al-Mansuriyya; on p.1067 the pronoun is the place («وسماها المنصورية»). The lead follows the page.
 - Section «في المتحف» lists the Abbasid caliphate «(750م)» among polities that had Cairo as capital, with no citation; the years shown are the polities' own start years.
 - `founded.edtf: 0969` is a converted year with al-Maqrizi as its source and is not marked derived.
+
+Revised after verification: in sentence 2 the two al-Maqrizi citations followed the year 969 CE, which is on neither page. They now follow "founded it beside Fustat", and the sentence ends «وتؤرخ بيانات المتحف تأسيسها بسنة 969م، وهي سنة ميلادية ليست في صفحتي المقريزي» ("the museum's data date its founding to 969 CE, a year not on al-Maqrizi's pages"). The year itself is kept: it is the old lead's and the data file's. Whether `founded` should be marked derived is a data question, outside the lead.

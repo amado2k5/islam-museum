@@ -1,6 +1,6 @@
 # person/muhammad
 
-Lead before: 22 Arabic words, 32 English words. Lead after: 173 / 243.
+Lead before: 22 Arabic words, 32 English words. Lead after: 173 / 243 (after the verification revision: 178 / 247).
 Sources cited in the lead: mubarakpuri-raheeq
 
 Local copy read: `~/islam-museum-harvest/books/seerah/raheeq-makhtum/20210430_20210430_0628/pages.json` (460 pages, text layer). This is the copy the record's `provenance` and `status` name. Its printed page numbers equal its pages.json pages, and the citations carried into the lead were found on the pages they name (49, 54, 57, 60, 62, 63, 64, 75, 444, 454).
@@ -8,7 +8,7 @@ Local copy read: `~/islam-museum-harvest/books/seerah/raheeq-makhtum/20210430_20
 | # | Sentence (first six words of the Arabic) | Citation | Where the fact was read |
 |---|---|---|---|
 | 1 | محمد بن عبد الله بن عبد | {cite:mubarakpuri-raheeq p.49} | this record: old lead ⁦(the name, "نحو 570–632م", Prophet of Islam)⁩ and section «النسب الشريف», same citation. Also read on the page: page 49 (the first part of the lineage, to Adnan, agreed on by the biographers and genealogists; "ibn Hashim") |
-| 2 | وُلد بشعب بني هاشم في مكة | {cite:mubarakpuri-raheeq p.54} | this record, section «المولد والنشأة الأولى», same citation. Also read on the page: page 54 |
+| 2 | وُلد بشعب بني هاشم في مكة | {cite:mubarakpuri-raheeq p.54} | this record, section «المولد والنشأة الأولى», same citation. Also read on the page: page 54. Revised: the conversion to 20 or 22 April 571 is now credited as the page credits it, «حسبما حققه العالم الكبير محمد سليمان المنصورفوري»: al-Mubarakpuri gives it following Muhammad Sulayman al-Mansurpuri |
 | 3 | وماتت أمه آمنة بالأبواء وهو ابن | {cite:mubarakpuri-raheeq p.57} {cite:mubarakpuri-raheeq p.57-58} | this record, same section, same two citations. Also read on the page: page 57 (with his mother until he was six; she died at al-Abwa'; Abd al-Muttalib took him back to Mecca; at his death he entrusted him to Abu Talib) |
 | 4 | وفي الخامسة والعشرين خرج تاجراً إلى | {cite:mubarakpuri-raheeq p.60-61} | this record, section «الشباب قبل النبوة», same citation. Also read on the page: page 60 |
 | 5 | وكان قومه يسمونه «الأمين» | {cite:mubarakpuri-raheeq p.62} | this record, sections «كمال النفس ومكارم الأخلاق» and «السيرة الإجمالية قبل النبوة», same citation. Also read on the page: page 62 |
@@ -30,3 +30,5 @@ Seen in the record, outside the lead (not changed):
 - "نحو 570" (data `summary`, old lead) against the source's own date for the birth, 20 or 22 April 571 (p.54). The lead keeps both, the second as the author's.
 - The source record `mubarakpuri-raheeq` names the 344-page scan, whose text layer is unreadable; this record cites the 460-page copy, as its own `status` note says. Other records cite the same source id with other page numbers (see `event--conquest-of-mecca.md`).
 - Arabic section «السيرة الإجمالية قبل النبوة» says he once meant to spend a night as the young men did; the English says twice. The page (62) has the Prophet say "only twice" and then tells the first.
+
+Revised after verification: sentence 2 names Muhammad Sulayman al-Mansurpuri as the scholar whose reckoning al-Mubarakpuri follows for April 571. Not changed, with the reason: (1) the life span «نحو 570–632م» in sentence 1 is the record's own data (`born: 0570~`, with the note that the exact year is not certain; `died: 0632-06-08`) and stood in the published lead before the rewrite; page 49 carries the lineage only, and no page read carries "about 570" or 632 CE, so there is no page to move it to. Sentence 2 now says whose reckoning 571 is. (2) Pages 444 and 454 are pages of the local 460-page copy, where the verifier found both passages; the source record names a 344-page scan as its checked copy, and `building/kaaba` and `event/hijra` cite the same source id by another edition's pages. One page system for this source needs a change to the source record and to those records' bodies: data and body sections, outside the lead.
