@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جو شخص سیدھا رستہ معلوم ہونے کے بعد پیغمبر کی مخالف کرے اور مومنوں کے رستے کے سوا اور رستے پر چلے تو جدھر وہ چلتا ہے ہم اسے ادھر ہی چلنے دیں گے اور (قیامت کے دن) جہنم میں داخل کریں گے اور وہ بری جگہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations, source/tafsir-tabari-shakir-v09]

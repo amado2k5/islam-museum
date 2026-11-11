@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور اہل انجیل کو چاہیئے کہ جو احکام خدا نے اس میں نازل فرمائے ہیں اس کے مطابق حکم دیا کریں اور جو خدا کے نازل کئے ہوئے احکام کے مطابق حکم نہ دے گا تو ایسے لوگ نافرماں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

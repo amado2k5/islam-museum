@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور اگر یوں لوگ تمہاری تکذیب کریں تو کہہ دو تمہارا پروردگار صاحب رحمت وسیع ہے مگر اس کا عذاب گنہ گاروں لوگوں سے نہیں ٹلے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations, source/tafsir-tabari-shakir-v12]

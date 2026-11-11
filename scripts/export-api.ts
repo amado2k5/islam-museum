@@ -19,6 +19,8 @@ import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPas
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
 import { MIRACLES_TAG, MIRACLE_SECTIONS, MIRACLE_SUBJECTS, MIRACLE_SUBJECT_SET, MIRACLE_TOPIC_KIND, MIRACLE_TOPIC_SUBJECTS, miracleTopicsOf, miracleCorpusOf, miracleTagSection, type MiracleTopic } from "./miracles.js";
 import { DUA_TAG, duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, isDuaPassage, type DuaKind } from "./dua.js";
+import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
+import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatTagSection, isHasanatPassage, type HasanatKind } from "./hasanat.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { existsSync, readdirSync } from "node:fs";
 
@@ -232,6 +234,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       dua_kind: n.class === "passage" ? duaKindOf(n) : null,
       signals: n.class === "passage" ? duaSignalsOf(n) : [],
     }) },
+  { file: "hasanats.json", feature: "hasanat-browser",
+    pick: (n) => n.tags.includes(HASANAT_TAG) || isHasanatPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? hasanatCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : hasanatTagSection(n),
+      hasanat_kind: n.class === "passage" ? hasanatKindOf(n) : null,
+      signals: n.class === "passage" ? hasanatSignalsOf(n) : [],
+    }) },
   { file: "magic.json", feature: "magic-browser",
     pick: (n) => n.tags.includes(MAGIC_TAG) || isMagicPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
@@ -260,6 +272,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       section: n.class === "passage"
         ? baytCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
         : baytTagSection(n),
+    }) },
+  { file: "sayyiat.json", feature: "sayyiat-browser",
+    pick: (n) => n.tags.includes(SAYYIAT_TAG) || isSayyiatPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? sayyiatCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : sayyiatTagSection(n),
+      sayyiat_kind: n.class === "passage" ? sayyiatKindOf(n) : null,
+      signals: n.class === "passage" ? sayyiatSignalsOf(n) : [],
     }) },
   { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
     fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },

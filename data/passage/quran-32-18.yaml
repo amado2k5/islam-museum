@@ -17,6 +17,7 @@ translations:
   ur: { text: "بھلا جو مومن ہو وہ اس شخص کی طرح ہوسکتا ہے جو نافرمان ہو؟ دونوں برابر نہیں ہو سکتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-32 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

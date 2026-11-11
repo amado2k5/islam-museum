@@ -391,6 +391,36 @@
         }
       }
     },
+    "/sayyiat.json": {
+      "get": {
+        "operationId": "getSayyiat",
+        "summary": "Sayyi'at Browser dataset",
+        "description": "The Sayyi'at Browser dataset (متصفح السيئات): every mention of the sayyi'at and the sins theme in the Qur'an, Sunnah, seerah and harvested books — the «سيّئ» family, the names of sin, guilt and disobedience, major and minor sins, transgression, immorality and wrongdoing — detected at build time plus the curated records tagged sayyiat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), sayyiat_kind (sayyi or related), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every sayyi'at record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/hasanats.json": {
+      "get": {
+        "operationId": "getHasanats",
+        "summary": "Hasanat Browser dataset",
+        "description": "The Hasanat Browser dataset (متصفح الحسنات): every mention of the good deeds (al-hasanat) in the Qur'an, Sunnah, seerah and harvested books — «الحسنات»، «حسنات»، «الحسنة»، «حسنة»، the gated «الحسنى», and the fixed collocations «قرضا حسنا» and «بدل حسنا بعد سوء» — detected at build time plus the curated records tagged hasanat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), hasanat_kind (hasanat, hasana or husna), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every good-deed record with corpus section, hasanat kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/magic.json": {
       "get": {
         "operationId": "getMagic",

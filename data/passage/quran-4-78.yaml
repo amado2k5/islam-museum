@@ -17,6 +17,7 @@ translations:
   ur: { text: "(اے جہاد سے ڈرنے والو) تم کہیں رہو موت تو تمہیں آ کر رہے گی خواہ بڑے بڑے محلوں میں رہو اور ان لوگوں کو اگر کوئی فائدہ پہنچتا ہے تو کہتے ہیں یہ خدا کی طرف سے ہے اور اگر کوئی گزند پہنچتا ہے تو (اے محمدﷺ تم سے) کہتے ہیں کہ یہ گزند آپ کی وجہ سے (ہمیں پہنچا) ہے کہہ دو کہ (رنج وراحت) سب الله ہی کی طرف سے ہے ان لوگوں کو کیا ہوگیا ہے کہ بات بھی نہیں سمجھ سکتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations, source/tafsir-tabari-shakir-v08]

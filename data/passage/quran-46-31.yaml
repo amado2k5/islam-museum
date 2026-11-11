@@ -17,6 +17,7 @@ translations:
   ur: { text: "اے قوم! خدا کی طرف بلانے والے کی بات قبول کرو اور اس پر ایمان لاؤ۔ خدا تمہارے گناہ بخش دے گا اور تمہیں دکھ دینے والے عذاب سے پناہ میں رکھے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-46 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

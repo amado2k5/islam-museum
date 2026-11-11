@@ -12,15 +12,26 @@ name: Deploy islam.museum to UAT
 # check https://uat.islam.museum, then start "Deploy islam.museum to Cloudflare" with the same
 # build_run_id (shown in this run's summary) to publish the identical build to production.
 #
+# Release branches: set `source_branch` to a release branch (e.g. release/uat) to deploy UAT
+# from that branch instead of main — work merged to the release branch is built automatically
+# (build.yml runs on release/**) and can be reviewed on UAT without touching main. Production
+# never takes a release-branch build: deploy.yml passes no source branch, and the shared
+# workflow refuses a non-main source for the production environment.
+#
 # UAT is never indexed: the UAT Worker answers /robots.txt with "Disallow: /" and marks every
 # response noindex; the pages still carry production canonical URLs, as the build is the same.
 on:
   workflow_dispatch:
     inputs:
       build_run_id:
-        description: "Build run id to deploy (Build islam.museum). Empty: the latest successful build of main."
+        description: "Build run id to deploy (Build islam.museum). Empty: the latest successful build of the source branch."
         required: false
         type: string
+      source_branch:
+        description: "Branch the build must come from: main (default) or a release branch such as release/uat. With an empty build_run_id, the latest successful build of this branch is deployed."
+        required: false
+        type: string
+        default: main
       seed:
         description: "First publish into the empty UAT bucket (or after the bucket was emptied): record what is there instead of failing on the missing manifest. Harmless once a manifest exists."
         required: false
@@ -44,6 +55,7 @@ jobs:
     with:
       environment: uat
       build_run_id: ${{ inputs.build_run_id }}
+      source_branch: ${{ inputs.source_branch }}
       seed: ${{ inputs.seed }}
     # The `uat` Environment's own R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY and R2_SYNC_TOKEN
     # override the repository ones of the same name; CLOUDFLARE_* are shared.

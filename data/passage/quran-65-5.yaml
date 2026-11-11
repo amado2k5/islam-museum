@@ -17,6 +17,7 @@ translations:
   ur: { text: "یہ خدا کے حکم ہیں جو خدا نے تم پر نازل کئے ہیں۔ اور جو خدا سے ڈرے گا وہ اس سے اس کے گناہ دور کر دے گا اور اسے اجر عظیم بخشے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-65 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

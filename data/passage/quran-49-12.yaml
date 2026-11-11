@@ -17,6 +17,7 @@ translations:
   ur: { text: "اے اہل ایمان! بہت گمان کرنے سے احتراز کرو کہ بعض گمان گناہ ہیں۔ اور ایک دوسرے کے حال کا تجسس نہ کیا کرو اور نہ کوئی کسی کی غیبت کرے۔ کیا تم میں سے کوئی اس بات کو پسند کرے گا کہ اپنے مرے ہوئے بھائی کا گوشت کھائے؟ اس سے تو تم ضرور نفرت کرو گے۔ (تو غیبت نہ کرو) اور خدا کا ڈر رکھو بےشک خدا توبہ قبول کرنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-49 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

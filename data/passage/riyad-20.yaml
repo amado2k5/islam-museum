@@ -1,0 +1,24 @@
+id: passage/riyad-20
+class: passage
+unit: hadith
+work: work/riyad-al-salihin
+ref: "20"
+label:
+  ar: "رياض الصالحين 20 — قاتل تسعة وتسعين نفسا ثم تاب"
+  en: "Riyad al-Salihin 20 — The man who killed ninety-nine souls then repented"
+text: "كَانَ فِيمَنْ كَانَ قَبْلَكُمْ رَجُلٌ قَتَلَ تِسْعَةً وَتِسْعِينَ نَفْسًا۔ فَسَأَلَ عَنْ أَعْلَمِ أَهْلِ الأَرْضِ، فَدُلَّ عَلَى رَاهِبٍ۔ فَأَتَاهُ فَقَالَ إِنَّهُ قَتَلَ تِسْعَةً وَتِسْعِينَ نَفْسًا فَهَلْ لَهُ مِنَ تَوْبَةٍ۔ فَقَالَ لاَ، فَقَتَلَهُ فَكَمَّلَ بِهِ مِائَةً۔ ثُمَّ سَأَلَ عَنْ أَعْلَمِ أَهْلِ الأَرْضِ،…"
+summary:
+  ar: "حديث في رياض الصالحين للنووي، في باب «باب التوبة»، من نسخة hadithunlocked المستخرجة؛ النص مقتبس بحدود أربعين كلمة."
+  en: "A hadith in al-Nawawi's Riyad al-Salihin, in the chapter «باب التوبة», excerpted within forty words."
+relations:
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/riyad-salihin] }
+  - { type: mentions, target: person/muhammad, sources: [source/riyad-salihin] }
+  - { type: mentions, target: concept/tawba, sources: [source/riyad-salihin] }
+provenance:
+  layer: own-research
+  source: "رياض الصالحين — النووي، نسخة hadithunlocked المستخرجة؛ مقطع متون لا يتجاوز أربعين كلمة وفق سياسة المصادر"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: sayyiat-riyad-1
+tags: [sayyiat-browser]
+sources: [source/riyad-salihin]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
