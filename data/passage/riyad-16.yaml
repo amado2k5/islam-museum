@@ -1,0 +1,23 @@
+id: passage/riyad-16
+class: passage
+unit: hadith
+work: work/riyad-al-salihin
+ref: "16"
+label:
+  ar: "رياض الصالحين 16 — الله يبسط يده بالليل ليتوب مسيء النهار"
+  en: "Riyad al-Salihin 16 — God spreads His hand at night for the penitent of the day"
+text: "عَنِ النَّبِيِّ قَالَ: «إِنَّ اللَّهَ ﷻ يَبْسُطُ يَدَهُ بِاللَّيْلِ لِيَتُوبَ مُسِيءُ النَّهَارِ، وَيَبْسُطُ يَدَهُ بِالنَّهَارِ لِيَتُوبَ مُسِيءُ اللَّيْلِ, حَتَّى تَطْلُعَ الشَّمْسُ مِنْ مَغْرِبِهَا»."
+summary:
+  ar: "حديث في رياض الصالحين للنووي، في باب «باب التوبة»، من نسخة hadithunlocked المستخرجة؛ النص مقتبس بحدود أربعين كلمة."
+  en: "A hadith in al-Nawawi's Riyad al-Salihin, in the chapter «باب التوبة», excerpted within forty words."
+relations:
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/riyad-salihin] }
+  - { type: mentions, target: person/muhammad, sources: [source/riyad-salihin] }
+  - { type: mentions, target: concept/tawba, sources: [source/riyad-salihin] }
+provenance:
+  layer: own-research
+  source: "رياض الصالحين — النووي، نسخة hadithunlocked المستخرجة؛ مقطع متون لا يتجاوز أربعين كلمة وفق سياسة المصادر"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: sayyiat-riyad-1
+sources: [source/riyad-salihin]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
