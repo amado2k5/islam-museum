@@ -1,0 +1,53 @@
+id: event/qareen-dialogue-in-the-fire
+kind: other
+label:
+  ar: حوار القرين في النار
+  en: The qareen's dialogue in the Fire
+  ur: آگ میں قرین کا محاورہ
+summary:
+  ar: 'في سورة ق: وَقَالَ قَرِينُهُ هَٰذَا مَا لَدَيَّ عَتِيدٌ ۝ قَالَ قَرِينُهُ رَبَّنَا مَا أَطْغَيْتُهُ وَلَٰكِن كَانَ فِي ضَلَالٍ بَعِيدٍ {cite:tanzil-quran} [[passage/quran-50-23|ق 23]] [[passage/quran-50-27|ق 27]].'
+  en: 'In Surat Qaf: and his companion says: this is what I have prepared; his companion says: our Lord, I did not send him astray but he was in far error {cite:tanzil-quran} [[passage/quran-50-23|Qaf 23]] [[passage/quran-50-27|Qaf 27]].'
+  ur: 'سورة ق میں: اور اس کا قرین کہتا ہے: یہی وہ چیز ہے جو میرے پاس تیار ہے؛ اس کا قرین کہتا ہے: اے ہمارے رب میں نے اسے گمراہ نہیں کیا بلکہ وہ دور کی گمراہی میں تھا {cite:tanzil-quran} [[passage/quran-50-23|ق 23]] [[passage/quran-50-27|ق 27]]۔'
+wings:
+- people
+- ideas
+themes:
+- creed
+regions: []
+periods: []
+tags:
+- jinn-devils-browser
+- jd-devils
+- jd-jinn
+sources: &id001
+- source/tanzil-quran
+- source/tanzil-translations
+relations:
+- type: related_to
+  target: concept/qareen
+  sources:
+  - source/tanzil-quran
+- type: related_to
+  target: concept/shayatin-al-ins-wal-jinn
+  sources:
+  - source/tanzil-quran
+- type: related_to
+  target: person/muhammad
+  sources:
+  - source/tanzil-quran
+- type: related_to
+  target: passage/quran-50-23
+  sources: *id001
+- type: related_to
+  target: passage/quran-50-27
+  sources: *id001
+provenance:
+  layer: own-research
+  source: Jinn & Devils Browser wave-12; worded from the cited Qur'an ayahs
+  generated_by: Devin (SWE-2 High)
+  run: jinn-devils-browser-12
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High)
+class: event
