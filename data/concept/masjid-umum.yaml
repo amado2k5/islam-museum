@@ -10,6 +10,9 @@ summary:
 wings: [ideas, objects]
 themes:
 - architecture
+relations:
+- { type: exemplified_by, target: building/prophets-mosque, note: "The record names the Prophet's mosque in Medina as the model from which the mosque's plan developed.", sources: [source/wikidata] }
+- { type: has_part, target: concept/minbar, sources: [source/wikidata] }
 sources:
 - source/wikidata
 external_ids:

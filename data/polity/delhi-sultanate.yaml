@@ -7,7 +7,7 @@ label:
 summary:
   ar: سلطنة قامت سنة 1206م وانتهت سنة 1526م، وعاصمتها دلهي.
   en: A sultanate established in 1206 CE and ended in 1526 CE; its capital was Delhi.
-wings: []
+wings: [time]
 periods:
 - period/crusades-ayyubid-mamluk
 regions:
@@ -32,6 +32,8 @@ capitals:
 - place: place/delhi
 external_ids:
   wikidata: Q229411
+relations:
+- { type: had_capital, target: place/delhi, sources: [source/wikidata] }
 sources:
 - source/wikidata
 provenance:

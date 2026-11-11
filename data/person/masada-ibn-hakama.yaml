@@ -11,7 +11,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
-died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Aghani / Ansab" }
+died: { edtf: "0628~", hijri: "0006~", calendar: julian, precision: year, status: debated, derived: true, note: "Killed by Qays ibn al-Musahhar in Zayd ibn Haritha's second raid on Banu Fazara at Wadi al-Qura (Ibn Hisham 4/265-266). Ibn Ishaq does not date the raid, so the year is the raid's as recorded in event/raid-of-zayd-on-banu-fazara-and-umm-qirfa. Replaces 600~, an unsourced estimate from a date-enrichment pass.", sources: [source/ibn-hisham-saqqa] }
 relations:
   - { type: lived_in, target: place/badr, confidence: low, note: "Associated with Badr per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-fazara, sources: [source/ibn-hisham-saqqa] }
