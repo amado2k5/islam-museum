@@ -13,6 +13,7 @@ import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
 import { companionIndex, decadeKey } from "./companions.js";
 import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dreams.js";
 import { madhahibMembers } from "./madhahib.js";
+import { BAYT_TAG, baytCorpusOf, baytTagSection, isBaytPassage } from "./bayt.js";
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
@@ -230,6 +231,14 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
   { file: "jinn-devils.json", feature: "jinn-devils-browser",
     pick: (n) => n.tags.includes("jinn-devils-browser") || n.tags.includes("angels-browser"),
     fields: ["kind", "wings", "themes", "tags"] },
+  { file: "bayt.json", feature: "bayt-browser",
+    pick: (n) => n.tags.includes(BAYT_TAG) || isBaytPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? baytCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : baytTagSection(n),
+    }) },
   { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
     fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },
 ];
@@ -309,7 +318,7 @@ function companionRows(c: Compiled, edgesFrom: Map<string, { type: string; to: s
   });
 }
 
-/** The Messengers Browser's API rows: detected/class-edge passages plus curated records, and the subject index (docs/plan/40-messengers-browser.md). */
+/** The Messengers Browser's API rows: detected/class-edge passages plus curated records, and the subject index (docs/plan/41-messengers-browser.md). */
 function messengerApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>, byId: Map<string, Node>) {
   const real = c.nodes.filter((n) => !n.stub);
   const edgeSubjects = new Map<string, Set<string>>();

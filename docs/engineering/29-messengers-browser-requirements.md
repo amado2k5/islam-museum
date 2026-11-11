@@ -1,9 +1,9 @@
-# 28 · Messengers and Prophets Browser — requirements and production checklist
+# 29 · Messengers and Prophets Browser — requirements and production checklist
 
 _The feature requirements for «متصفح الرسل والأنبياء» (the Messengers and
 Prophets Browser — every mention of the messengers and prophets in the
 Qur'an, the Sunnah, the seerah and every harvested book), as requested by the
-founder and delivered in `docs/plan/40-messengers-browser.md`. Written so any
+founder and delivered in `docs/plan/41-messengers-browser.md`. Written so any
 person or AI agent can validate each requirement against production
 (`https://islam.museum`, `https://api.islam.museum`) without reading the plan.
 Every requirement has an id (`MSG-R..`), a "how to check" line, and the
@@ -134,7 +134,7 @@ local build/test/CI._
 |---|---|---|
 | MSG-R30 | `https://api.islam.museum/api/v1/messengers.json` returns every detected + tagged record with `section`, `subjects`, `topics`, `work`, `ref`, `unit`, `text`, `kind`, `themes`, `tags`, edges, prose languages, plus `subjects[]` (id, label, summary, status, per-corpus counts, passage ids) | `curl -s .../messengers.json \| jq '.items \| length'`; `feature: "messengers-browser"`; `section` ∈ {quran,sunnah,seerah,books,curated} |
 | MSG-R31 | Endpoint documented in `docs/data/README.md`, `site/public/openapi/v1.json` (`/messengers.json` path), and `llms.txt` | all three rows exist |
-| MSG-R32 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 40), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`messengers` lane), `docs/status.md`, `CANARY.md`, `docs/plan/40-messengers-browser.md`, this spec | all rows present |
+| MSG-R32 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 41), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`messengers` lane), `docs/status.md`, `CANARY.md`, `docs/plan/41-messengers-browser.md`, this spec | all rows present |
 | MSG-R33 | `features-api.test.ts` asserts `messengers.json` in the export set and its detection/classification rules (named subject, gated «صالح», «ابن آدم» strip, edge-mention inclusion, narrator-edge exclusion) | `npm test` green |
 
 ## 5. Governance and delivery

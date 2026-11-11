@@ -391,6 +391,21 @@
         }
       }
     },
+    "/bayt.json": {
+      "get": {
+        "operationId": "getBayt",
+        "summary": "Household of the Prophet Browser dataset",
+        "description": "The Household of the Prophet Browser dataset (متصفح بيت النبوة وآل النبي): everything mentioned about the Prophet's household and family — Ahl al-Bayt, the 'itrah, Banu Hashim and Banu Abd al-Muttalib, the wives, daughters, children and descendants, the imams line — detected at build time plus the curated records tagged bayt-browser, each with its corpus section (quran, sunnah, seerah, books, ahl, mawaqif, concepts), work, ref, text excerpt, kind, themes and edges.",
+        "responses": {
+          "200": {
+            "description": "Every bayt record with corpus section, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/jinn-devils.json": {
       "get": {
         "operationId": "getJinnDevils",

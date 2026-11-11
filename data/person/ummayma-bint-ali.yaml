@@ -1,0 +1,56 @@
+id: person/ummayma-bint-ali
+class: person
+label:
+  ar: أميمة بنت علي
+  en: Umayma bint Ali
+  ur: "امیمہ بنت علی"
+names:
+- kind: full
+  lang: ar
+  value: أميمة بنت علي بن أبي طالب وفاطمة
+- kind: kunya
+  lang: ar
+  value: أميمة
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من بنات علي بن أبي طالب وفاطمة بنت النبي، تزوجت ابن عمها عبد الله بن جعفر بن أبي طالب؛ وتُعدّ من أهل البيت داخل في آية التطهير ومفهوم الكساء.
+  en: One of the daughters of Ali ibn Abi Talib and Fatima, the Prophet's daughter; she married her cousin Abdullah ibn Ja'far ibn Abi Talib and is counted among the People of the House.
+  ur: "علی بن ابی طالب اور فاطمہ — نبی کی بیٹی — کی بیٹیوں میں سے؛ اپنے کزن عبد اللہ بن جعفر بن ابی طالب سے شادی کی اور اہلِ بیت میں شمار ہوتی ہیں۔"
+wings: [people]
+themes:
+- women
+- family-marriage-kinship
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+faith:
+- value: sunni
+  basis: tradition
+  note: ابنة الصحابي علي بن أبي طالب؛ يُسجَّل ضمن الإطار السني للمتحح (docs/scope.md).
+relations:
+- { type: child_of, target: person/ali-ibn-abi-talib, sources: [source/ibn-hajar-isaba] }
+- { type: child_of, target: person/fatima, sources: [source/ibn-hajar-isaba] }
+- { type: spouse_of, target: person/abdullah-ibn-jafar, sources: [source/ibn-hajar-isaba], note: "تزوجت ابن عمها عبد الله بن جعفر بن أبي طالب." }
+- { type: member_of, target: group/ahl-al-bayt, sources: [source/ibn-hajar-isaba], confidence: low, note: "عضوية أهل البيت للأبناء غير المباشرين موضع خلاف بين المذاهب." }
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة وترجمة بنات علي بن أبي طالب
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: bayt-browser-records
+sources:
+- source/ibn-hajar-isaba
+- source/ibn-sad-tabaqat-bewley
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 Flash High); bayt-browser records wave"
+tags:
+- bayt-browser
+- bayt-ahl
