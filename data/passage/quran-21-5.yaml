@@ -17,6 +17,7 @@ translations:
   ur: { text: "بلکہ (ظالم) کہنے لگے کہ (یہ قرآن) پریشان (باتیں ہیں جو) خواب (میں دیکھ لی) ہیں۔ (نہیں) بلکہ اس نے اس کو اپنی طرف سے بنا لیا ہے (نہیں) بلکہ (یہ شعر ہے جو اس) شاعر (کا نتیجہٴ طبع) ہے۔ تو جیسے پہلے (پیغمبر نشانیاں دے کر) بھیجے گئے تھے (اسی طرح) یہ بھی ہمارے پاس کوئی نشانی لائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
+  - { type: mentions, target: concept/ahlam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

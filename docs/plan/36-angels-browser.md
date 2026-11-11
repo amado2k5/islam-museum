@@ -66,5 +66,5 @@ Nature Explorer uses. The harvesting lanes should consult this plan when tagging
 
 ## Validation
 
-`docs/engineering/23-angels-browser-requirements.md` is the acceptance spec: every
+`docs/engineering/24-angels-browser-requirements.md` is the acceptance spec: every
 requirement has a production check.

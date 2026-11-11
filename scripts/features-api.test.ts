@@ -21,15 +21,21 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
   const book = makeNode("work/book-x", "work", { kind: "book" });
   const qudsi = { ...makeNode("passage/muslim-2577", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "2577", text: "يا عبادي" }), tags: ["hadith-qudsi", "qudsi-zulm"], themes: ["ethics-and-character"] };
   const plainHadith = makeNode("passage/muslim-0001", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "1" });
+  const dreamHadith = makeNode("passage/bukhari-3681", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "3681", text: "رأيت كأني أشرب لبناً" });
+  const dreamAyah = makeNode("passage/quran-12-4", "passage", { unit: "ayah", work: "work/quran", sura: 12, aya: 4, text: "إذ قال يوسف لأبيه يا أبت إني رأيت أحد عشر كوكباً", translations: { en: { text: "I saw in a dream eleven planets" } } });
+  const dreamConcept = { ...makeNode("concept/ahlam", "concept", { kind: "term" }), tags: ["dream-browser", "dream-concepts"] };
+  const sighting = makeNode("passage/bukhari-0002", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "2", text: "أرى في نافذة بيت أخي" });
+  const expression = makeNode("passage/muwatta-1-187", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "1.187", text: "ما أعرف شيئاً مما أدركت عليه الناس إلا النداء بالصلاة", text_search: "بقي على حاله إلا النداء بالصلاة، تعبيراً عما رآه من تغير أحوال الناس." });
   const compiled: Compiled = {
     generated: "2026-11-06T00:00:00Z", commit: null, coverage,
-    nodes: [job, holder, fatwa, sermon, poem, film, book, qudsi, plainHadith],
+    nodes: [job, holder, fatwa, sermon, poem, film, book, qudsi, plainHadith, dreamHadith, dreamAyah, dreamConcept, sighting, expression, makeNode("work/quran", "work", { genre: ["scripture"] }), makeNode("work/sahih-bukhari", "work", { genre: ["hadith"] }), makeNode("work/sahih-muslim", "work", { genre: ["hadith"] }), makeNode("work/muwatta-malik", "work", { genre: ["hadith"] })],
     edges: [{ from: "work/fatwa-x", to: "person/mufti", type: "issued_by", inverse: true }],
   };
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
     expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "companions.json", "fatwa.json", "ghayb.json", "jobs.json", "khulafa.json", "khutab.json", "nature.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["asma.json", "battles.json", "companions.json", "dreams.json", "fatwa.json", "ghayb.json", "jobs.json", "khulafa.json", "khutab.json", "nature.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -40,6 +46,16 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(data["screens.json"].items[0]).toMatchObject({ id: "screen/film-x", format: "film", countries: ["lb"] });
     expect(data["poetry.json"].items.map((i) => i.id)).not.toContain("work/book-x");
     expect(data["jobs.json"].feature).toBe("job-browser");
+  });
+
+  it("exports dreams: detected passages by corpus, tagged concepts by section tag, no sighting false positives", () => {
+    const items = featureApiData(compiled)["dreams.json"].items;
+    const ids = items.map((i) => i.id).sort();
+    expect(ids).toEqual(["concept/ahlam", "passage/bukhari-3681", "passage/quran-12-4"]);
+    expect(ids).not.toContain("passage/muwatta-1-187"); // «تعبيراً عما رآه» = "expression", not a dream
+    expect(items.find((i) => i.id === "passage/bukhari-3681")).toMatchObject({ section: "sunnah", work: "work/sahih-bukhari" });
+    expect(items.find((i) => i.id === "passage/quran-12-4")).toMatchObject({ section: "quran", sura: 12, aya: 4 });
+    expect(items.find((i) => i.id === "concept/ahlam")).toMatchObject({ section: "concepts" });
   });
 
   it("is empty-capable", () => {

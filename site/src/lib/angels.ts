@@ -1,4 +1,4 @@
-// The Angels Browser's shared reads (docs/plan/35-angels-browser.md): every record tagged
+// The Angels Browser's shared reads (docs/plan/36-angels-browser.md): every record tagged
 // `angels-browser`, grouped by its `angels-<section>` tag into the browser's six sections,
 // plus the Qur'an and hadith passages that mention each record (from `mentions` edges on the
 // passage records). Everything comes from the compiled graph at build time; there is no side list.

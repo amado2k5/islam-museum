@@ -2,7 +2,7 @@
 
 Public name: **متصفح الملائكة · Angels Browser · فرشتوں کا براؤزر**
 Route: `/{lang}/angels/` and `/{lang}/angels/<slug>/` for `lang ∈ {ar, en, ur}`.
-Plan: `docs/plan/35-angels-browser.md`. Lane: `angels`.
+Plan: `docs/plan/36-angels-browser.md`. Lane: `angels`.
 
 ## Original requirements (founder request, preserved verbatim)
 

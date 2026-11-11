@@ -1,0 +1,30 @@
+id: concept/ahlam
+class: concept
+kind: term
+label:
+  ar: الأحلام
+  en: Dreams (ahlam)
+  ur: خواب
+summary:
+  ar: "ما يقع في النوم من صور وأحلام. يجمع المتون بين الرؤيا الصادقة التي هي من الله وبشرى للمؤمن، والحلم الذي هو من الشيطان، وحديث النفس الذي لا يُعبأ به. {cite:sahih-al-bukhari} {cite:sahih-muslim}"
+  en: "What the sleeper sees in sleep. The hadith collections divide it into the true dream (ru'ya), which is from God and a glad tidings for the believer; the bad dream (hulm), which is from Satan; and the soul's idle talk (hadith nafs), which is not acted on. {cite:sahih-al-bukhari} {cite:sahih-muslim}"
+  ur: "نیند میں دیکھے گئے مناظر اور خواب۔ حدیث کی کتابیں ان کی تین قسمیں بیان کرتی ہیں: سچا خواب ⁦(رؤیا)⁩ جو اللہ کی طرف سے ہے اور مومن کے لیے بشارت ہے، برا خواب ⁦(حلم)⁩ جو شیطان کی طرف سے ہے، اور نفس کی بکواس جس پر عمل نہیں ہوتا۔ {cite:sahih-al-bukhari} {cite:sahih-muslim}"
+wings: [ideas]
+themes: [creed, scripture-and-its-sciences]
+periods: [period/prophetic-era]
+relations:
+  - { type: related_to, target: concept/taabir-al-ruya, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: concept/al-hulm, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: concept/ruya-fiqh, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: concept/kitab-al-ruya, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: concept/mubashshirat, sources: [source/sahih-muslim] }
+  - { type: related_to, target: concept/ahlam-al-anbiya, sources: [source/tanzil-quran] }
+sources: [source/sahih-al-bukhari, source/sahih-muslim, source/tanzil-quran]
+provenance:
+  layer: own-research
+  source: "Sahih al-Bukhari and Sahih Muslim, the chapters on dreams (كتاب الرؤيا), and the Qur'anic dream passages"
+  generated_by: "Devin (SWE-2 Flash)"
+  model: swe-2-flash
+  run: dreams-browser-01
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash)" }
+tags: [dream-browser, dream-concepts]
