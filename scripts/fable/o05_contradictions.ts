@@ -3,6 +3,7 @@
 //   npx tsx scripts/fable/o05_contradictions.ts                      check: detect on the current graph, compare with the register
 //   npx tsx scripts/fable/o05_contradictions.ts --init <graph.json>  create the register from a detection run (once, at the baseline)
 //   npx tsx scripts/fable/o05_contradictions.ts --merge <file.json>  apply adjudications [{key, status, resolution}] to the register
+//   npx tsx scripts/fable/o05_contradictions.ts --add-new [note]      enter findings the register has never seen (an improved detector, new data)
 //   npx tsx scripts/fable/o05_contradictions.ts --write-md           rewrite docs/fable-run/CONTRADICTIONS.md from the register
 //
 // The register (docs/fable-run/contradictions/register.json) holds one entry per finding ever detected, with its evidence and
@@ -16,7 +17,7 @@ import { p } from "../lib.js";
 import { detect, type Finding } from "./contradictions.js";
 
 type Status = "registered" | "fixed" | "not-a-contradiction";
-interface Entry extends Finding { status: Status; resolution: string }
+interface Entry extends Finding { status: Status; resolution: string; masked?: string }
 interface Register { detected_at_commit: string | null; note: string; entries: Entry[] }
 const FILE = p("docs", "fable-run", "contradictions", "register.json");
 const sh = (c: string) => execSync(c, { cwd: p(), encoding: "utf8" }).trim();
@@ -47,6 +48,19 @@ if (args[0] === "--merge") {
 }
 
 const reg = load();
+if (args[0] === "--add-new") {
+  // A later detection run (an improved detector, or new data) may raise findings the register has never seen. They are added,
+  // never dropped: each enters as registered, on the detector's evidence, with a note saying when and why it appeared.
+  const { commit, findings } = detect();
+  const have = new Set(reg.entries.map((e) => e.key));
+  const fresh = findings.filter((f) => !have.has(f.key));
+  for (const f of fresh) reg.entries.push({ ...f, status: "registered", resolution: args[1] ?? `First raised at graph commit ${commit}. Not yet read by an adjudicator; it stands on the evidence in this entry.` });
+  reg.entries.sort((a, b) => a.key.localeCompare(b.key));
+  save(reg);
+  console.log(`added ${fresh.length} new entries (graph commit ${commit})`);
+  for (const f of fresh) console.log(`  ${f.key}\n      ${f.evidence}`);
+  process.exit(0);
+}
 if (args[0] === "--write-md") {
   const count = (s: Status) => reg.entries.filter((e) => e.status === s).length;
   const L = ["# Cross-record contradictions: the register", "",
@@ -59,7 +73,7 @@ if (args[0] === "--write-md") {
   for (const k of kinds) {
     const es = reg.entries.filter((e) => `${e.detector} ${e.kind}` === k);
     L.push(`## ${k.slice(2)} (${es.length})`, "", "| Status | Records | Evidence | What was done, or why it stands |", "|---|---|---|---|");
-    for (const e of es) L.push(`| ${e.status} | ${e.records.map((r) => "`" + r + "`").join(" · ")} | ${e.evidence.replace(/\|/g, "\\|").replace(/\n/g, " ")} | ${(e.resolution || "Not yet read by an adjudicator. It stands on the evidence in this row.").replace(/\|/g, "\\|").replace(/\n/g, " ")} |`);
+    for (const e of es) L.push(`| ${e.status}${e.masked ? " (hidden from the detector)" : ""} | ${e.records.map((r) => "`" + r + "`").join(" · ")} | ${e.evidence.replace(/\|/g, "\\|").replace(/\n/g, " ")} | ${(e.resolution || "Not yet read by an adjudicator. It stands on the evidence in this row.").replace(/\|/g, "\\|").replace(/\n/g, " ")}${e.masked ? " Why the detector is quiet: " + e.masked.replace(/\|/g, "\\|") : ""} |`);
     L.push("");
   }
   writeFileSync(p("docs", "fable-run", "CONTRADICTIONS.md"), L.join("\n"));
@@ -96,8 +110,12 @@ const silent = findings.filter((f) => !byKey.has(f.key));
 check("every contradiction the detectors raise today is in the register", silent.length === 0, silent.length ? `${silent.length} not registered: ${silent.slice(0, 5).map((f) => f.key).join("; ")}` : `${findings.length} raised, all registered`);
 const notFixed = reg.entries.filter((e) => e.status === "fixed" && now.has(e.key));
 check("every entry marked fixed is no longer raised", notFixed.length === 0, notFixed.slice(0, 5).map((e) => e.key).join("; "));
-const gone = reg.entries.filter((e) => e.status !== "fixed" && !now.has(e.key));
+// A masked entry is a contradiction that still stands although the detector no longer raises it, because a sound correction
+// elsewhere moved one of the dates it compared. It stays registered and says why it is hidden.
+const masked = reg.entries.filter((e) => e.status === "registered" && !now.has(e.key) && e.masked?.trim());
+const gone = reg.entries.filter((e) => e.status !== "fixed" && !now.has(e.key) && !e.masked?.trim());
 check("no entry vanished without being marked fixed (a finding that stops firing must be accounted for)", gone.length === 0, gone.slice(0, 5).map((e) => e.key).join("; "));
+console.log(`  registered entries the detectors no longer raise because a sound fix elsewhere hides them: ${masked.length}${masked.length ? " (" + masked.map((e) => e.key).join("; ") + ")" : ""}`);
 check("every entry carries its evidence", reg.entries.every((e) => e.evidence?.trim()));
 const noReason = reg.entries.filter((e) => e.status !== "registered" && !e.resolution.trim());
 check("every fixed or dismissed entry records what was done or why", noReason.length === 0, `${noReason.length} without a reason`);

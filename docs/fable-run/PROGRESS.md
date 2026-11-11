@@ -48,15 +48,28 @@ Merged is not live. Nothing on this branch, and nothing on main after `8d1b0ef9`
 
 ## Phase plan
 
-| Phase | Content | State |
-|---|---|---|
-| 1 | Baseline, canon oracles, canon coverage repairs (century floor, wings on wingless cornerstones) | done; final commit `42db751657`; branch `fable-run/phase-1-canon` |
-| 2 | Tour manifest, River, rooms, completion room, entry link, coverage oracle | built; prose not yet deepened |
-| 3 | Tour prose in Arabic and English, cite-check | next |
-| 4 | Cornerstone dead ends, three-hop reachability, hop distribution | pending |
-| 5 | Cross-record contradiction sweep | pending |
-| 6 | Canon-first search test, absence list with verifier | pending |
-| 7 | Vision pass, no-JavaScript run, integration re-run, ledger, SHOWCASE, PUBLISH | pending |
+| Phase | Content | State | PR |
+|---|---|---|---|
+| 1 | Baseline, canon oracles, century floor, wings on wingless cornerstones | on the remote | #6022 |
+| 2 | Tour manifest, River, rooms, completion room, entry link, coverage oracle | on the remote | #6023 |
+| 3 | The Tour's 41 narratives in Arabic and English | on the remote | #6027 |
+| 4 | Dead-end cornerstones opened (22 of 29) | on the remote | #6028 |
+| 5 | Contradiction sweep: 122 found, 44 fixed, 70 registered, 8 consistent | on the remote | #6029 |
+| 6 | Canon-first search test (production: 2 of 50), absence list corrected (24 of 31 found) | on the remote | #6030 |
+| 7 | Verifier fixes, vision pass, no-JavaScript run, integration re-run, ledger, SHOWCASE, PUBLISH | in progress | pending |
+
+`docs/fable-run/phases.json` holds each phase's final commit and branch; `scripts/fable/o11_remote.py` checks them against the host.
+
+## Where things stand right now (for a resumed session)
+
+- Running in the background when this was written: five fresh-context verifiers (prose batches A, B, C; relations; contradiction fixes), each writing to `docs/fable-run/verifier/`; and `scripts/fable/o08_unchanged.py` (two scoped builds, about ten minutes).
+- Next actions, in order:
+  1. Read each verifier report in `docs/fable-run/verifier/`. Fix every ERROR in the leads; remove every UNSUPPORTED relation; re-status every WRONG contradiction fix (edit the record back or forward, then `npx tsx scripts/fable/o05_contradictions.ts --merge <file>`). Commit in batches of 25 records or fewer. Record what the verifiers caught in SHOWCASE.md and PUBLISH.md.
+  2. `npm run graph && npm run derive && sh scripts/fable/scoped-build.sh && node scripts/fable/capture.mjs --dist .cache/fable-dist docs/fable-run/vision/shots`, commit the screenshots, then brief two fresh-context reviewers to list defects from the committed screenshots into `docs/fable-run/vision/review-*.md`; merge their lists into `docs/fable-run/vision/defects.json` (fields: id, where, screenshots, description, status fixed or registered, note).
+  3. A fresh-context agent re-derives the headline numbers from the published commands.
+  4. Integration: `git fetch origin main`; list what main changed that touches the oracles; rebase a scratch copy; re-run the affected oracles there.
+  5. `python3 scripts/fable/board.py && python3 scripts/fable/numbers.py`, then write VERIFICATION.md (around the generated board), SHOWCASE.md, PUBLISH.md; add phase 7 to `phases.json`; open the last PR.
+  6. Restore `.claude/launch.json` (`git checkout -- .claude/launch.json`; the temporary dev-server entry must not be committed) and stop the dev server.
 
 ## Decisions taken (each also in PROPOSALS.md where it is the founder's to confirm)
 
@@ -73,7 +86,10 @@ Merged is not live. Nothing on this branch, and nothing on main after `8d1b0ef9`
 ## Dead ends
 
 - A full site build cannot run on this machine (about 12 GB free, about 19 GB needed).
-- `capture.mjs --nojs` against the dev server stalled past five minutes; the no-JavaScript run needs a built page or a different wait condition.
+- `capture.mjs --nojs` against the dev server stalled past five minutes. The no-JavaScript run uses a scoped production build instead.
+- First scoped build used symbolic links for the source tree. Astro then emitted pages with no stylesheet at all, and the no-JavaScript check ("the river is a list, not a band") passed for the wrong reason. Rebuilt from a verbatim copy; the build script now fails if the pages carry no stylesheet, and the oracle needs a positive control (with JavaScript on, the same list is a band).
+- A shell loop over an unquoted variable (zsh does not word-split) left a commit's file list empty: the relation evidence was committed without the 25 records. Fixed in the next commit; history not rewritten.
+- The absence oracle at first failed on generic search words ("belief", "jurisprudence"); the verifier separated real spellings from generic terms and explained every remaining match.
 
 ## Log
 
@@ -83,6 +99,10 @@ Merged is not live. Nothing on this branch, and nothing on main after `8d1b0ef9`
 - 09:30 Canon floor committed (`18fa4222d3`). Wings committed in two batches (`1d5a49572f`, `bc57cc83af`). Validator: 0 errors.
 - 10:10 Oracles o00 and o01 committed (`42db751657`). Phase 1 complete locally.
 - 10:40 Grand Tour section committed (`1401a5cc97`): 42 stops, River, rooms, ribbon, completion room, entry link. o00, o01, o02 green at that commit.
+- 11:10 Oracles o03, o04, o05 written with before-runs. Seven prose writers, two graph editors, four adjudicators and one absence verifier launched (14 subagents).
+- 12:30 All 14 back. Prose: 41 finished, 1 cannot be (contemporary era, removed from the Tour). Dead ends: 29 to 7. Contradictions: 44 fixed, 70 registered, 8 consistent. Absences: 24 of 31 found.
+- 13:00 Phases 3 to 6 committed, pushed, PRs #6027 to #6030 open. Production search measured: 2 of 50.
+- 13:10 Five fresh-context verifiers launched to break the prose, the relations and the fixes.
 
 ## Usage
 

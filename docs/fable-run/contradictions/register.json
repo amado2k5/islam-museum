@@ -3,6 +3,18 @@
  "note": "One entry per cross-record contradiction the detectors in scripts/fable/contradictions.ts raised. Entries are never deleted; a later detection run may add entries.",
  "entries": [
   {
+   "key": "A|after-death|person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib|participated_in|event/first-raid-on-ifriqiya",
+   "detector": "A",
+   "kind": "takes part in an event after death",
+   "records": [
+    "person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib",
+    "event/first-raid-on-ifriqiya"
+   ],
+   "evidence": "person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib died 0634 (AH 0013); event/first-raid-on-ifriqiya is dated ? (AH 0027?); relation participated_in",
+   "status": "registered",
+   "resolution": "First raised after the detectors were taught to read dates given only in the Hijri calendar, a blind spot the fresh-context verifier of the fixes reported (11 November 2026). Not yet read by an adjudicator; it stands on the evidence in this entry."
+  },
+  {
    "key": "A|after-death|person/al-faryani|participated_in|event/faryani-mahdi-848",
    "detector": "A",
    "kind": "takes part in an event after death",
@@ -123,6 +135,30 @@
    "resolution": "The event record covers the conquest of Crete in all its stages, from Junada's first raid to its completion under al-Ma'mun, and its single date, 824~, marks only that completion (the date's own note says so). Humayd's part, as the relation's role 'raider in al-Rashid's reign' and al-Baladhuri p. 330 say, was the raid under al-Rashid (r. 786-809), before his estimated death of about 820. The detector compared his death with the end of a long event."
   },
   {
+   "key": "A|after-death|person/iyas-ibn-qabisa|participated_in|event/conquest-of-al-hira",
+   "detector": "A",
+   "kind": "takes part in an event after death",
+   "records": [
+    "person/iyas-ibn-qabisa",
+    "event/conquest-of-al-hira"
+   ],
+   "evidence": "person/iyas-ibn-qabisa died 618~; event/conquest-of-al-hira is dated ? (AH 0012); relation participated_in",
+   "status": "registered",
+   "resolution": "First raised after the detectors were taught to read dates given only in the Hijri calendar, a blind spot the fresh-context verifier of the fixes reported (11 November 2026). Not yet read by an adjudicator; it stands on the evidence in this entry."
+  },
+  {
+   "key": "A|after-death|person/janada-ibn-abi-umayya|participated_in|event/conquest-of-iqritish",
+   "detector": "A",
+   "kind": "takes part in an event after death",
+   "records": [
+    "person/janada-ibn-abi-umayya",
+    "event/conquest-of-iqritish"
+   ],
+   "evidence": "person/janada-ibn-abi-umayya died ? (AH 0080); event/conquest-of-iqritish is dated 0824~; relation participated_in",
+   "status": "registered",
+   "resolution": "First raised after the detectors were taught to read dates given only in the Hijri calendar, a blind spot the fresh-context verifier of the fixes reported (11 November 2026). Not yet read by an adjudicator; it stands on the evidence in this entry."
+  },
+  {
    "key": "A|after-death|person/malik-ibn-harim-al-hamdani|participated_in|event/battle-of-al-radm",
    "detector": "A",
    "kind": "takes part in an event after death",
@@ -156,7 +192,19 @@
    ],
    "evidence": "person/masada-ibn-hakama died 600~; event/raid-of-zayd-on-banu-fazara-and-umm-qirfa is dated 0628~ (AH 0006~); relation participated_in",
    "status": "fixed",
-   "resolution": "The record's own cited prose (Ibn Hisham 4/265-266) says Qays ibn al-Musahhar killed him in this very raid, so he died at the event, not 28 years before it; died 600~ was an unsourced estimate from a date-enrichment pass. Corrected died in data/person/masada-ibn-hakama.yaml from 600~ to 0628~ / AH 0006~, the raid's date as recorded in event/raid-of-zayd-on-banu-fazara-and-umm-qirfa (Ibn Ishaq gives the raid no year of his own; the new note says so and keeps the old value on record)."
+   "resolution": "The record's own cited prose (Ibn Hisham 4/265-266) says Qays ibn al-Musahhar killed him in this very raid, so he died at the event, not 28 years before it; died 600~ was an unsourced estimate from a date-enrichment pass. Corrected died in data/person/masada-ibn-hakama.yaml from 600~ to 0628~ / AH 0006~, the raid's date as recorded in event/raid-of-zayd-on-banu-fazara-and-umm-qirfa (Ibn Ishaq gives the raid no year of his own; the new note says so and keeps the old value on record). Verifier's note: his death in the raid is in the cited source (Ibn Hisham 4/265-266); the year is taken from the event record, where it is itself flagged as needing a source, and is marked derived."
+  },
+  {
+   "key": "A|after-death|person/muhammad-ibn-abdallah-al-qummi|participated_in|event/al-qummi-buja-war",
+   "detector": "A",
+   "kind": "takes part in an event after death",
+   "records": [
+    "person/muhammad-ibn-abdallah-al-qummi",
+    "event/al-qummi-buja-war"
+   ],
+   "evidence": "person/muhammad-ibn-abdallah-al-qummi died 0843~; event/al-qummi-buja-war is dated ? (AH 0241); relation participated_in",
+   "status": "registered",
+   "resolution": "First raised after the detectors were taught to read dates given only in the Hijri calendar, a blind spot the fresh-context verifier of the fixes reported (11 November 2026). Not yet read by an adjudicator; it stands on the evidence in this entry."
   },
   {
    "key": "A|after-death|person/rayta-bint-al-harith|participated_in|event/return-of-abyssinian-emigrants",
@@ -216,7 +264,7 @@
    ],
    "evidence": "person/salit-ibn-amr died 0625 (AH 0003); event/letters-to-rulers-and-kings is dated 0628-05~ (AH 0006-12); relation participated_in",
    "status": "fixed",
-   "resolution": "The death date AH 3 / 625 ('martyred at Uhud, Ibn A'idh, al-Isaba p. 604') was taken from the wrong man: on that page it is entry 3559, Salit ibn Amr ibn Zayd. Entry 3560, this Salit (ibn Amr ibn Abd Shams al-Amiri, the envoy to Hawdha), says Ibn Ishaq and Ibn al-Kalbi name him among those martyred at al-Yamama, which the record's own prose already states. Corrected died in data/person/salit-ibn-amr.yaml from 0625 / AH 0003 to 0634~ / AH 0012, the year of that battle as recorded in event/battle-of-yamama. For the same reason the record's participated_in -> event/battle-of-uhud (note 'al-Isaba p. 604') was retargeted to event/battle-of-yamama."
+   "resolution": "The death date AH 3 / 625 ('martyred at Uhud, Ibn A'idh, al-Isaba p. 604') was taken from the wrong man: on that page it is entry 3559, Salit ibn Amr ibn Zayd. Entry 3560, this Salit (ibn Amr ibn Abd Shams al-Amiri, the envoy to Hawdha), says Ibn Ishaq and Ibn al-Kalbi name him among those martyred at al-Yamama, which the record's own prose already states. Corrected died in data/person/salit-ibn-amr.yaml from 0625 / AH 0003 to 0634~ / AH 0012, the year of that battle as recorded in event/battle-of-yamama. For the same reason the record's participated_in -> event/battle-of-uhud (note 'al-Isaba p. 604') was retargeted to event/battle-of-yamama. Verifier's note: martyrdom at al-Yamama is in the cited source (al-Isaba p. 604); the year is taken from the event record, not from a source this record cites, and is marked derived."
   },
   {
    "key": "A|after-death|person/salit-ibn-amr|participated_in|event/return-of-abyssinian-emigrants",
@@ -228,7 +276,7 @@
    ],
    "evidence": "person/salit-ibn-amr died 0625 (AH 0003); event/return-of-abyssinian-emigrants is dated 0628~ (AH 0007~); relation participated_in",
    "status": "fixed",
-   "resolution": "Same correction as the finding for event/letters-to-rulers-and-kings. Died in data/person/salit-ibn-amr.yaml was corrected from 0625 / AH 0003, the death of the namesake Salit ibn Amr ibn Zayd (al-Isaba p. 604, entry 3559: martyred at Uhud), to 0634~ / AH 0012: this Salit was martyred at al-Yamama (entry 3560, as the record's own prose says). He was alive in AH 7; the relation to the return was not changed."
+   "resolution": "Same correction as the finding for event/letters-to-rulers-and-kings. Died in data/person/salit-ibn-amr.yaml was corrected from 0625 / AH 0003, the death of the namesake Salit ibn Amr ibn Zayd (al-Isaba p. 604, entry 3559: martyred at Uhud), to 0634~ / AH 0012: this Salit was martyred at al-Yamama (entry 3560, as the record's own prose says). He was alive in AH 7; the relation to the return was not changed. Verifier's note: martyrdom at al-Yamama is in the cited source (al-Isaba p. 604); the year is taken from the event record, not from a source this record cites, and is marked derived."
   },
   {
    "key": "A|after-death|person/sarjun-ibn-mansur|participated_in|event/arabization-of-syrian-diwan",
@@ -291,6 +339,18 @@
    "resolution": "It cannot be settled from the cited source. Ibn Ishaq (4/11) only names her in his count of the sixteen women who emigrated, 'those who came back and those who died there', and says nothing of her fate. The death year 620~ is an unsourced estimate from a date-enrichment pass whose own note says '~650'. With no sourced death date and no statement that she sailed in AH 7, neither the date nor the relation can be corrected without guessing. Proposed removal of died 620~ from data/person/umm-kulthum-bint-suhayl.yaml: the founder's decision."
   },
   {
+   "key": "A|after-death|person/umm-kurzan|participated_in|event/bajila-sawad-quarter",
+   "detector": "A",
+   "kind": "takes part in an event after death",
+   "records": [
+    "person/umm-kurzan",
+    "event/bajila-sawad-quarter"
+   ],
+   "evidence": "person/umm-kurzan died 628~; event/bajila-sawad-quarter is dated ? (AH 0017~); relation participated_in",
+   "status": "registered",
+   "resolution": "First raised after the detectors were taught to read dates given only in the Hijri calendar, a blind spot the fresh-context verifier of the fixes reported (11 November 2026). Not yet read by an adjudicator; it stands on the evidence in this entry."
+  },
+  {
    "key": "A|after-death|person/umm-muni-asma-bint-amr|participated_in|event/battle-of-khaybar",
    "detector": "A",
    "kind": "takes part in an event after death",
@@ -349,6 +409,18 @@
    "evidence": "person/utarid-ibn-hajib died 625~; event/sariyya-of-uyayna-to-banu-tamim is dated 0631-01 (AH 0009-01); relation participated_in",
    "status": "registered",
    "resolution": "The relation is right as far as it goes: the event record covers the raid of Muharram 9 AH and the coming of the Tamim chiefs that followed it, where Utarid spoke for them. The wrong side is the death date. person/utarid-ibn-hajib carries died 625~, an estimate written by the date-enrichment pass with no cited source (its own note reads '~650, al-Isaba; Usd al-Ghaba', a different year, and neither book is among the record's sources). The record's cited sources ({cite:ibn-hisham-saqqa 4/206-207}; {cite:mubarakpuri-raheeq p. 425-426}) have Utarid alive in 9 AH (631) as head and orator of the Banu Tamim delegation, and give no death year. Nothing the record cites can replace the date, so it stands: proposed removal of `died` from data/person/utarid-ibn-hajib.yaml, the founder's decision."
+  },
+  {
+   "key": "A|after-death|person/utba-ibn-amir-al-juhani|participated_in|event/four-lieutenants-egypt",
+   "detector": "A",
+   "kind": "takes part in an event after death",
+   "records": [
+    "person/utba-ibn-amir-al-juhani",
+    "event/four-lieutenants-egypt"
+   ],
+   "evidence": "person/utba-ibn-amir-al-juhani died 630~; event/four-lieutenants-egypt is dated ? (AH 0020~); relation participated_in",
+   "status": "registered",
+   "resolution": "First raised after the detectors were taught to read dates given only in the Hijri calendar, a blind spot the fresh-context verifier of the fixes reported (11 November 2026). Not yet read by an adjudicator; it stands on the evidence in this entry."
   },
   {
    "key": "A|after-death|person/uthman-ibn-abd-ghanm|participated_in|event/return-of-abyssinian-emigrants",
@@ -503,8 +575,8 @@
     "event/distribution-of-hunayn-spoils"
    ],
    "evidence": "person/dhu-al-khuwaysira born 658~; event/distribution-of-hunayn-spoils is dated 0630-02 (AH 0008-11); relation participated_in",
-   "status": "fixed",
-   "resolution": "The year was keyed under the wrong life event. person/dhu-al-khuwaysira carried born 658~ (date-enrichment pass, note: Fath al-Bari), impossible for a man who confronted the Prophet at al-Ji'rana in 8 AH (630). The record's own prose says he later became a Kharijite leader and was killed at al-Nahrawan ({cite:ibn-hisham-saqqa 4/140}), and the museum's event/battle-of-nahrawan is dated 38 AH, which is 658: the year is his death, not his birth. Changed the field name from `born` to `died` in data/person/dhu-al-khuwaysira.yaml, leaving the value 658~ and its note as they were. One caution for the re-check: the harvest holds a different edition of Ibn Hisham, so the Saqqa page for the death at al-Nahrawan was taken from the record's prose and not re-read."
+   "status": "registered",
+   "resolution": "Re-opened by the fresh-context verifier of the fixes. An adjudicator had renamed `born: 658~` to `died`, resting on the record's prose that he was killed at al-Nahrawan. The page that prose cites (Ibn Hisham, ed. al-Saqqa, 4/139-140) has only the Hunayn episode and says nothing of his death, and 658~ is itself an unsourced value from the date-enrichment pass. The edit was reverted to the baseline. Proposed to the founder: remove the unsourced `born: 658~` from data/person/dhu-al-khuwaysira.yaml."
   },
   {
    "key": "A|before-birth|person/dumayra-mawla-ali|participated_in|event/sariyya-of-zayd-to-madyan",
@@ -531,6 +603,18 @@
    "resolution": "Stands. born 680~ was written by the date-enrichment pass and names Ibn Sa'd, who is not among the record's sources; her cited source has her sailing as Mu'awiya's wife on the first Cyprus raid in 28 AH, about 648 ({cite:futuh-buldan-maarif-1407 p.208}), and the record's prose gives her no birth year. Nothing to correct the field to: proposed removal of born 680~ from data/person/fakhita-bint-qaraza.yaml (founder's decision)."
   },
   {
+   "key": "A|before-birth|person/jamil-ibn-busbuhri|participated_in|event/umar-sawad-settlement",
+   "detector": "A",
+   "kind": "takes part in an event before birth",
+   "records": [
+    "person/jamil-ibn-busbuhri",
+    "event/umar-sawad-settlement"
+   ],
+   "evidence": "person/jamil-ibn-busbuhri born 745~; event/umar-sawad-settlement is dated ? (AH 0017~); relation participated_in",
+   "status": "registered",
+   "resolution": "First raised after the detectors were taught to read dates given only in the Hijri calendar, a blind spot the fresh-context verifier of the fixes reported (11 November 2026). Not yet read by an adjudicator; it stands on the evidence in this entry."
+  },
+  {
    "key": "A|before-birth|person/mushayil-al-armani|participated_in|event/mushayil-revolt",
    "detector": "A",
    "kind": "takes part in an event before birth",
@@ -553,6 +637,18 @@
    "evidence": "person/nafisa-bint-munya born 610~; event/marriage-to-khadija is dated 0595~; relation participated_in",
    "status": "registered",
    "resolution": "The relation is right and the birth year is wrong. Her cited source (al-Raheeq p. 61) makes her Khadija's go-between in the marriage, about 595, and the record's own story_roles entry is dated 0595~. Born 610~ and died 632~ are unsourced estimates from a date-enrichment pass ('source: Ibn Sa'd', which the record does not cite). No cited source gives her dates. Proposed removal of born 610~ and died 632~ from data/person/nafisa-bint-munya.yaml: the founder's decision."
+  },
+  {
+   "key": "A|before-birth|person/qurt-ibn-jammakh-al-abdi|participated_in|event/battle-of-al-buwayb",
+   "detector": "A",
+   "kind": "takes part in an event before birth",
+   "records": [
+    "person/qurt-ibn-jammakh-al-abdi",
+    "event/battle-of-al-buwayb"
+   ],
+   "evidence": "person/qurt-ibn-jammakh-al-abdi born 640~; event/battle-of-al-buwayb is dated ? (AH 0014~); relation participated_in",
+   "status": "registered",
+   "resolution": "First raised after the detectors were taught to read dates given only in the Hijri calendar, a blind spot the fresh-context verifier of the fixes reported (11 November 2026). Not yet read by an adjudicator; it stands on the evidence in this entry."
   },
   {
    "key": "A|before-birth|person/sufyan-ibn-mujib|participated_in|event/conquest-of-syria",
@@ -719,8 +815,8 @@
     "person/abd-al-wahid-ii-almohad"
    ],
    "evidence": "event/battle-of-telagh-1268 is dated 1268; person/abd-al-wahid-ii-almohad died 1224~ (AH 0621-08)",
-   "status": "fixed",
-   "resolution": "The relation pointed at the wrong caliph. person/abd-al-wahid-ii-almohad's own summary and prose are about Abd al-Wahid ibn Yusuf, strangled in Sha'ban 621 AH (1224) after nine months ({cite:shadharat-dhahab p. 96}); he cannot be the Almohad caliph of 1266-1269. That caliph, the successor of al-Murtada, is al-Wathiq Abu Dabbus, who has the record person/al-wathiq-abu-dabus (took Marrakesh in Muharram 665 AH, ruled three years, killed in Muharram 668 AH: {cite:wafayat-ayan p. 15-16} as that record cites it, read on p. 18 of vol. 7 in the harvest copy). Retargeted during_reign in data/event/battle-of-telagh-1268.yaml from person/abd-al-wahid-ii-almohad to person/al-wathiq-abu-dabus; nothing else in the file was touched. The event card itself names no ruler, so the support is in the two person records' own cited sources (Shadharat al-Dhahab p. 96 for the man who died in 621 AH; Wafayat al-A'yan pp. 15-16 for the caliph of 665-668 AH), not in a source the event cites. The battle is dated 1268, inside Abu Dabbus's reign. Left for the founder: person/abd-al-wahid-ii-almohad still carries the 1266-1269 story_role and the successor_of al-Murtada relation that belong to Abu Dabbus; moving them means removing them from that record."
+   "status": "registered",
+   "resolution": "Re-opened by the fresh-context verifier of the fixes. An adjudicator had retargeted `during_reign` to al-Wathiq Abu Dabbus, who did reign in 1268. But nothing the event itself cites supports the relation: the support came from the two rulers' records, and the source the edge cites (al-Bayan al-Mughrib) does not contain the Almohad section in either copy on hand. A relation is added only where the record's own cited sources support it, so the edit was reverted. Proposed to the founder: retarget to person/al-wathiq-abu-dabus once a source the event cites is read, or remove the edge."
   },
   {
    "key": "A|reign-after-death|event/cairo-caliphate-baya-659|person/al-mustansir-billah-egypt",
@@ -875,8 +971,8 @@
     "person/abd-al-wahid-ii-almohad"
    ],
    "evidence": "event/marinid-zayyanid-wars is dated 1250; person/abd-al-wahid-ii-almohad died 1224~ (AH 0621-08)",
-   "status": "fixed",
-   "resolution": "The relation pointed at the wrong caliph. person/abd-al-wahid-ii-almohad's own summary and prose are about Abd al-Wahid ibn Yusuf, strangled in Sha'ban 621 AH (1224) after nine months ({cite:shadharat-dhahab p. 96}); he cannot be the Almohad caliph of 1266-1269. That caliph, the successor of al-Murtada, is al-Wathiq Abu Dabbus, who has the record person/al-wathiq-abu-dabus (took Marrakesh in Muharram 665 AH, ruled three years, killed in Muharram 668 AH: {cite:wafayat-ayan p. 15-16} as that record cites it, read on p. 18 of vol. 7 in the harvest copy). Retargeted during_reign in data/event/marinid-zayyanid-wars.yaml from person/abd-al-wahid-ii-almohad to person/al-wathiq-abu-dabus; nothing else in the file was touched. The event card itself names no ruler, so the support is in the two person records' own cited sources (Shadharat al-Dhahab p. 96 for the man who died in 621 AH; Wafayat al-A'yan pp. 15-16 for the caliph of 665-668 AH), not in a source the event cites. The wars are dated 1250-1411, so they overlap both al-Murtada's reign (the event's other during_reign, left as written) and Abu Dabbus's (1266-1269)."
+   "status": "registered",
+   "resolution": "Re-opened by the fresh-context verifier of the fixes. An adjudicator had retargeted `during_reign` to al-Wathiq Abu Dabbus. The event spans 1250-1411, so the new edge was true only because that range overlaps any reign of the period, and nothing the event cites supports it. Reverted to the baseline. Proposed to the founder: remove `during_reign -> person/abd-al-wahid-ii-almohad` from data/event/marinid-zayyanid-wars.yaml; a single reign is the wrong relation for a conflict of 160 years."
   },
   {
    "key": "A|reign-after-death|event/mudejar-revolt-1264|person/abd-al-wahid-ii-almohad",
@@ -887,8 +983,8 @@
     "person/abd-al-wahid-ii-almohad"
    ],
    "evidence": "event/mudejar-revolt-1264 is dated 1264; person/abd-al-wahid-ii-almohad died 1224~ (AH 0621-08)",
-   "status": "fixed",
-   "resolution": "The relation pointed at the wrong caliph. person/abd-al-wahid-ii-almohad's own summary and prose are about Abd al-Wahid ibn Yusuf, strangled in Sha'ban 621 AH (1224) after nine months ({cite:shadharat-dhahab p. 96}); he cannot be the Almohad caliph of 1266-1269. That caliph, the successor of al-Murtada, is al-Wathiq Abu Dabbus, who has the record person/al-wathiq-abu-dabus (took Marrakesh in Muharram 665 AH, ruled three years, killed in Muharram 668 AH: {cite:wafayat-ayan p. 15-16} as that record cites it, read on p. 18 of vol. 7 in the harvest copy). Retargeted during_reign in data/event/mudejar-revolt-1264.yaml from person/abd-al-wahid-ii-almohad to person/al-wathiq-abu-dabus; nothing else in the file was touched. The event card itself names no ruler, so the support is in the two person records' own cited sources (Shadharat al-Dhahab p. 96 for the man who died in 621 AH; Wafayat al-A'yan pp. 15-16 for the caliph of 665-668 AH), not in a source the event cites. The revolt is dated 1264-1266: it falls in al-Murtada's reign (the event's other during_reign, left as written) and ends in the year Abu Dabbus took Marrakesh (665 AH, 1266)."
+   "status": "registered",
+   "resolution": "Re-opened by the fresh-context verifier of the fixes. An adjudicator had retargeted `during_reign` to al-Wathiq Abu Dabbus. The revolt is dated 1264-1266 and Abu Dabbus entered Marrakesh on 21 Muharram 665 (October 1266), so he reigned for at most its last weeks, and nothing the event cites names him. The edit silenced the detector without making the record true, and was reverted. The record's relation to al-Murtada already covers the span. Proposed to the founder: remove `during_reign -> person/abd-al-wahid-ii-almohad` from data/event/mudejar-revolt-1264.yaml."
   },
   {
    "key": "A|reign-after-death|event/muezzin-salat-adhan-786|person/al-wathiq-umar-cairo",
@@ -899,8 +995,9 @@
     "person/al-wathiq-umar-cairo"
    ],
    "evidence": "event/muezzin-salat-adhan-786 is dated 1384~ (AH 0786~); person/al-wathiq-umar-cairo died 1342",
-   "status": "fixed",
-   "resolution": "The caliph's death year was wrong. person/al-wathiq-umar-cairo carried died 1342, a date-enrichment value with no cited source, although the record's own summary says he was given allegiance in Rajab 785 AH and died in Shawwal 788 AH, and its story_roles end his rule in 1386. Corrected died in data/person/al-wathiq-umar-cairo.yaml from edtf 1342 to edtf 1386 with hijri 0788-10, supported by the record's cited source, {cite:tarikh-khulafa-minhaj-1434 p. 761, 763}. The event as it is dated (about 786 AH / 1384) now falls inside his caliphate (785-788 AH), so the detector's finding is gone. One thing is left open and could not be fixed here: the event's own cited page (al-Suyuti p. 761) places the innovation in Sha'ban of 'this year', and the year running in that passage is 791 AH, not 786. If the event is re-dated to 791 AH it falls three years after this caliph's death and this same finding returns as a true contradiction. Re-dating needs the lead sections of the event's Arabic and English prose (both say Sha'ban 786 AH), the Urdu file and a calendar conversion, none of which an adjudicator may touch; it would then call for removing during_reign -> person/al-wathiq-umar-cairo (and reviewing during_reign -> person/al-mustasim-zakariya-cairo) from data/event/muezzin-salat-adhan-786.yaml, which is the founder's decision."
+   "status": "registered",
+   "resolution": "Not fixed, although the detector is quiet. The correction of the caliph's death date (al-Suyuti, Tarikh al-Khulafa p. 763) is sound and stays. But the event's own cited page (al-Suyuti p. 761) dates the innovation to Sha'ban 791 AH, three years after this caliph died: the event record is misdated and its relation to him is false. Found by the adjudicator and confirmed by the fresh-context verifier. Re-dating needs the event's lead sections and its Urdu file, which this run may not touch. Proposed to the founder: re-date data/event/muezzin-salat-adhan-786.yaml to 791 AH and remove or retarget `during_reign -> person/al-wathiq-umar-cairo`.",
+   "masked": "The caliph's death date was corrected from 1342 to Shawwal 788 AH (1386), soundly, from his own cited page. The event is dated about 786 AH in its record, so the detector no longer fires."
   },
   {
    "key": "A|reign-after-death|event/safadi-aleppo-lectures-759|person/al-mutadid-billah-cairo",
@@ -1043,8 +1140,8 @@
     "person/abd-al-wahid-ii-almohad"
    ],
    "evidence": "event/zayyanid-iberian-conflicts is dated 1250; person/abd-al-wahid-ii-almohad died 1224~ (AH 0621-08)",
-   "status": "fixed",
-   "resolution": "The relation pointed at the wrong caliph. person/abd-al-wahid-ii-almohad's own summary and prose are about Abd al-Wahid ibn Yusuf, strangled in Sha'ban 621 AH (1224) after nine months ({cite:shadharat-dhahab p. 96}); he cannot be the Almohad caliph of 1266-1269. That caliph, the successor of al-Murtada, is al-Wathiq Abu Dabbus, who has the record person/al-wathiq-abu-dabus (took Marrakesh in Muharram 665 AH, ruled three years, killed in Muharram 668 AH: {cite:wafayat-ayan p. 15-16} as that record cites it, read on p. 18 of vol. 7 in the harvest copy). Retargeted during_reign in data/event/zayyanid-iberian-conflicts.yaml from person/abd-al-wahid-ii-almohad to person/al-wathiq-abu-dabus; nothing else in the file was touched. The event card itself names no ruler, so the support is in the two person records' own cited sources (Shadharat al-Dhahab p. 96 for the man who died in 621 AH; Wafayat al-A'yan pp. 15-16 for the caliph of 665-668 AH), not in a source the event cites. The conflicts are dated 1250-1550, so they overlap both al-Murtada's reign (the event's other during_reign, left as written) and Abu Dabbus's (1266-1269)."
+   "status": "registered",
+   "resolution": "Re-opened by the fresh-context verifier of the fixes. An adjudicator had retargeted `during_reign` to al-Wathiq Abu Dabbus. The event spans 1250-1550, so the new edge was true only because that range overlaps any reign of the period, and nothing the event cites supports it. Reverted to the baseline. Proposed to the founder: remove `during_reign -> person/abd-al-wahid-ii-almohad` from data/event/zayyanid-iberian-conflicts.yaml."
   },
   {
    "key": "A|reign-before-birth|event/baghdad-famine-334|person/al-mustakfi-billah",

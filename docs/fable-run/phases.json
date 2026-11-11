@@ -1,0 +1,92 @@
+{
+ "note": "One entry per phase of the Grand Tour mission. `final_commit` is the last commit of the phase; `branch` is the remote branch that must contain it; `pr` is the phase's pull request. scripts/fable/o11_remote.py checks every line against the repository host.",
+ "repo": "amado2k5/islam-museum",
+ "phases": [
+  {
+   "n": 1,
+   "title": "Canon audit, century floor, wings for every cornerstone",
+   "branch": "fable-run/phase-1-canon",
+   "base": "main",
+   "final_commit": "42db751657e8939a4ada3a6b01cbfb2fd92bc38c",
+   "pr": 6022,
+   "deliverables": [
+    "scripts/report/canon.py (century floor)",
+    "docs/canon.md",
+    "scripts/fable/complete_wings.py and 50 wing edits",
+    "oracles o00 and o01",
+    "docs/fable-run/PROPOSALS.md"
+   ]
+  },
+  {
+   "n": 2,
+   "title": "The Grand Tour, entered through the River of Time",
+   "branch": "fable-run/phase-2-tour",
+   "base": "fable-run/phase-1-canon",
+   "final_commit": "f07d617b7301f799232cb151557dc6618ae9513a",
+   "pr": 6023,
+   "deliverables": [
+    "tour/grand-tour.yaml",
+    "site/src/pages/[lang]/grand-tour/ (River, rooms, completion room)",
+    "progress ribbon",
+    "homepage entry link",
+    "i18n strings in ar, en, ur",
+    "oracle o02"
+   ]
+  },
+  {
+   "n": 3,
+   "title": "The Tour's 41 narratives, finished in Arabic and English",
+   "branch": "fable-run/phase-3-prose",
+   "base": "fable-run/phase-2-tour",
+   "final_commit": "6c4420f475815c8fa3c37b5153ad3afe4146b4da",
+   "pr": 6027,
+   "deliverables": [
+    "lead sections of 41 cornerstone records in content/ar and content/en",
+    "docs/fable-run/prose-evidence/ (one file per record)",
+    "docs/fable-run/GAP-REGISTER.md",
+    "oracles o03, o04, o05 and their before-runs",
+    "docs/fable-run/briefs/"
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Open the dead-end cornerstones",
+   "branch": "fable-run/phase-4-reachability",
+   "base": "fable-run/phase-3-prose",
+   "final_commit": "0aca4b69f39c5dddbaa652a3158fe42eae791a40",
+   "pr": 6028,
+   "deliverables": [
+    "82 relations on 22 cornerstones (25 data files)",
+    "docs/fable-run/relation-evidence/ (one file per record)"
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Cross-record contradiction sweep",
+   "branch": "fable-run/phase-5-contradictions",
+   "base": "fable-run/phase-4-reachability",
+   "final_commit": "28b85812868ccdb937018975e0ab7e00cb1ddc83",
+   "pr": 6029,
+   "deliverables": [
+    "17 records corrected",
+    "docs/fable-run/contradictions/register.json and the four adjudication files",
+    "docs/fable-run/CONTRADICTIONS.md"
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Canon-first search test, and the absence list corrected",
+   "branch": "fable-run/phase-6-search-absences",
+   "base": "fable-run/phase-5-contradictions",
+   "final_commit": "37fb25b9ef43ebe7e4beb06280f347421a4e3bfe",
+   "pr": 6030,
+   "deliverables": [
+    "scripts/fable/search-queries.json and o06_search.mjs",
+    "scripts/fable/absences.json, find_record.py and o07_absences.py",
+    "docs/fable-run/ABSENCES.md",
+    "docs/canon.md (absence section corrected)",
+    "PROPOSALS P-4 to P-9, NOTICED.md"
+   ]
+  }
+ ]
+}
