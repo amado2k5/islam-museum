@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v1.10.1 — 2026-11-11
 ### Added
+- **Jinn & Devils Browser: ninety-seven passages now point at their beings.** A conservative harvest (`scripts/harvest/jinn-devils/mentions.py`) scanned every Qur'an ayah and harvested hadith record for unambiguous jinn/devil/dream vocabulary — الجن as a whole token (never الجنة or الجنود), إبليس, شيطان/شياطين, وسواس, لوّامة, سحر-domain words, كهانة, قرين in hadith corpora, and the jinn kinds (مارد، عفريت، غول، سيّاط) — and added `mentions` edges to the graph records those words name. Edges cite each passage's own registered source; the run is idempotent so future harvested books get the same treatment by re-running it.
 - **Jinn & Devils Browser: graph seeds begin.** Twenty-nine existing records — the jinn, the qareen, Iblis, the shayatin of humans and jinn, waswas, sihr, kahana, the ghul, the dream-science concepts and the Prophet-era kahins — now carry `jinn-devils-browser` tags with section tags (`jd-jinn`, `jd-devils`, `jd-angels`, `jd-dreams`), and three new records open the interaction stories: the kinds of jinn, the delegation of the jinn to the Prophet, and the bewitching done on him by Labid ibn al-Asam. New `jinn` and `devil` concept kinds join the schema alongside the angels browser's `angel`. Draft-tier throughout; the browser page and API export follow in later commits.
 
 ### Fixed
