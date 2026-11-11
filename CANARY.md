@@ -22,6 +22,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **Jinn & Devils Browser: wave-16 figure tagging and sihr edge.** Three more records join the browser by tag — `person/sulayman` (`jd-jinn`, the jinn of his court), `person/musa` and `person/firawn` (`jd-devils`, the sorcerers-of-Pharaoh confrontation) — and Sahih Muslim 89 (the seven destructive sins, among them السحر) gains a `mentions` edge to `concept/sihr`. A full audit of the remaining uncovered hadith passages confirmed the explicit shaytan/jinn/dream corpus of the six books, the Muwatta and the Forty is now surfaced; the residual long tail is incidental lexical matches handled by the future-harvest pipeline.
+- **Jinn & Devils Browser: wave-17 dream and sorcery events tagged.** Two existing events join the browser: `event/the-prophets-dream-of-the-two-gold-bracelets` (`jd-dreams` — the Prophet's dream of Laylat al-Qadr and the two gold bracelets interpreted as the two false claimants) and `event/nahavand-false-prophet-499` (`jd-devils` — the sorcerer who claimed prophecy at Nahavand in 499). Hassan's elegy verse «ومثلاها من الجن تسعد» in Ibn Hisham's Sira gains `mentions` edges to `concept/jinn`, `person/hassan-ibn-thabit` and `person/muhammad` — the only jinn mention in the harvested pre-Islamic and early poetry corpus.
 
 ## v1.14.0 — 2026-11-11
 ### Added
