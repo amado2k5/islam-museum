@@ -14,13 +14,14 @@ export const JD_SECTIONS = ["jinn", "devils", "angels", "dreams"];
 
 export interface JinnDevilsItem { node: Node; sections: string[] }
 
-/** Records this browser shows: the browser tag, or the Angels Browser's tag for the angels section. */
+/** Records this browser shows: the browser tag, the Angels Browser's tag for the angels section, and the Dreams Browser's tag for the dreams section. */
 export const jinnDevilsItems: JinnDevilsItem[] = realNodes
-  .filter((n) => n.tags.includes(JD_TAG) || n.tags.includes("angels-browser"))
+  .filter((n) => n.tags.includes(JD_TAG) || n.tags.includes("angels-browser") || n.tags.includes("dream-browser"))
   .map((n) => ({
     node: n,
     sections: [...new Set(n.tags.filter((t) => t.startsWith("jd-")).map((t) => t.slice(3)))]
       .concat(n.tags.includes("angels-browser") ? ["angels"] : [])
+      .concat(n.tags.includes("dream-browser") ? ["dreams"] : [])
       .filter((s, i, a) => a.indexOf(s) === i),
   }))
   .filter((i) => i.sections.length > 0)
