@@ -17,6 +17,7 @@ tags: [hadith-qudsi, qudsi-ishtakat-al-nar]
 relations:
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: practice/dua, sources: [source/sahih-muslim] }
 provenance: { layer: own-research, source: "Sahih Muslim 617 (Abd al-Baqi numbering), verified as hadith qudsi against al-Ahadith al-Qudsiyya (Supreme Council for Islamic Affairs, Cairo, 1417/1997) p. 439; matn excerpt of at most 40 words", generated_by: "Devin (SWE-2 Medium)", run: "hadith-qudsi-browser-2" }
 sources: [source/sahih-muslim, source/ahadith-qudsiyya-majlis]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); label, summary and grouping are the museum's own words" }

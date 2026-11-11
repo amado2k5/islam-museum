@@ -1600,6 +1600,10 @@ explore:
       title: Dream Browser
       desc: "Every vision and dream mentioned in the Qur'an, the hadith, the seerah and every harvested book — from Joseph's dream to the dream of Laylat al-Qadr, and every dream classified the day its source lands."
       menu: "Browse dreams in the Qur'an, hadith and seerah"
+    dua:
+      title: "Du'a Browser"
+      desc: "Every supplication mentioned in the Qur'an, the Sunnah, the seerah and every harvested book — from «ربِّ اغفر لي» to «اللهم إني أعوذ بك»، the Prophet's night prayers and the Companions' du'as — with every verse and report cited."
+      menu: "Browse supplications in the Qur'an, hadith and books"
     magic:
       title: "Magic and Magicians Browser"
       desc: "Every mention of magic and the magicians in the Qur'an, the Sunnah, the seerah and every harvested book — sorcery, soothsayers, ruqyah, the evil eye and envy — with every verse and report cited."
@@ -3348,6 +3352,37 @@ dreams:
     concepts:
       title: The science of dreams
       desc: "The museum's curated records on dreams: the books of dreams in hadith, their interpretation and rulings, the bad dream and ihtilam, and the glad tidings."
+dua:
+  title: "Du'a Browser"
+  lede: "Every supplication mentioned in the museum's sources: the Qur'anic prayers from Adam's «ربنا» to the Prophet's «اللهم» formulas, the du'as of the two Sahihs, the Muwatta and the Sunan, the supplications of the Companions and the Successors, what the seerah and every harvested book carry — sourced records that grow as new texts land."
+  badge: Supplication explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Supplications are found at build time by a guarded lexicon over the passage texts — the formulas «اللهم»، «ربنا»، «يا رب» and «ربِ + follower»، the supplication verbs with a divine object, isti'adha and istighfar, and the passages about supplication itself; calls to false gods, the da'wa senses of «دعوة» and «يدعو»، and mere tasbih are left out, verified false positives are excluded by id, and every book harvested later brings its du'as here automatically once its passages land in the graph; curated records join through the dua-browser tag. Each passage is marked formula when it carries a supplication and mention when it is only about one."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter supplications
+  filter_none: No matches.
+  empty: No supplication records in this build yet.
+  kinds:
+    formula: "Carries a supplication"
+    mention: "About supplication"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The supplications of the Qur'an: the prophets' prayers from «ربِّ هب لي» to «ربنا»، the table spread of the disciples, the command «ادعوني أستجب لكم», the refuge formulas of the mu'awwidhat, and every verse that mentions or enjoins du'a."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The du'as of the Prophet and the Companions in the two Sahihs, the Muwatta and the Sunan: «اللهم إني أعوذ بك»، the night prayers, the funeral and rain supplications, the best du'a of Arafat, and every report that quotes or teaches supplication."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of supplication — this section fills itself as new seerah texts with du'as land."
+    books:
+      title: "In the other books"
+      desc: "Supplications in every other harvested work — poetry, history, fiqh and whatever lands next — classified by the work's genre the day its passages arrive."
+    curated:
+      title: "The records about du'a"
+      desc: "The museum's curated records on supplication itself: the practice of du'a, istighfar, istikhara, vows, the supplication for one's children, and the etiquettes the tradition records."
 magic:
   title: "Magic and Magicians Browser"
   lede: "Every mention of magic and the magicians in the museum's sources: sorcery in the Qur'an from the story of Pharaoh's magicians to the trial of Harut and Marut, the hadiths on sorcery and soothsaying, the Prophet's own cure by ruqyah, the evil eye and envy, and every magic mention in every harvested book — sourced records that grow as new texts land."

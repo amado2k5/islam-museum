@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ہم نے جو پیغمبر بھیجا ہے اس لئے بھیجا ہے کہ خدا کے فرمان کے مطابق اس کا حکم مانا جائے اور یہ لوگ جب اپنے حق میں ظلم کر بیٹھے تھے اگر تمہارے پاس آتے اور خدا سے بخشش مانگتے اور رسول (خدا) بھی ان کے لئے بخشش طلب کرتے تو خدا کو معاف کرنے والا (اور) مہربان پاتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
+  - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations, source/tafsir-tabari-shakir-v08]

@@ -12,6 +12,7 @@ relations:
   - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-al-bukhari] }
   - { type: mentions, target: person/sad-ibn-muadh, sources: [source/sahih-al-bukhari] }
   - { type: mentions, target: event/battle-of-uhud, sources: [source/sahih-al-bukhari] }
+  - { type: basis_for, target: practice/dua, sources: [source/sahih-al-bukhari] }
 provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 2805 (كتاب الجهاد والسير)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
 sources: [source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

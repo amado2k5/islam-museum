@@ -17,6 +17,7 @@ import { BAYT_TAG, baytCorpusOf, baytTagSection, isBaytPassage } from "./bayt.js
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
 import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPassage, eschatologyTopicsOf } from "./eschatology.js";
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
+import { DUA_TAG, duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, isDuaPassage, type DuaKind } from "./dua.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { existsSync, readdirSync } from "node:fs";
 
@@ -219,6 +220,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       section: n.class === "passage"
         ? dreamCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
         : dreamTagSection(n),
+    }) },
+  { file: "duas.json", feature: "dua-browser",
+    pick: (n) => n.tags.includes(DUA_TAG) || isDuaPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? duaCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : duaTagSection(n),
+      dua_kind: n.class === "passage" ? duaKindOf(n) : null,
+      signals: n.class === "passage" ? duaSignalsOf(n) : [],
     }) },
   { file: "magic.json", feature: "magic-browser",
     pick: (n) => n.tags.includes(MAGIC_TAG) || isMagicPassage(n),

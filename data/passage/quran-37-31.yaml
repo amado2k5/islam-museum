@@ -17,6 +17,7 @@ translations:
   ur: { text: "سو ہمارے بارے میں ہمارے پروردگار کی بات پوری ہوگئی اب ہم مزے چکھیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
+  - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

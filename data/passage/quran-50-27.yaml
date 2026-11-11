@@ -17,6 +17,7 @@ translations:
   ur: { text: "اس کا ساتھی (شیطان) کہے گا کہ اے ہمارے پروردگار میں نے اس کو گمراہ نہیں کیا تھا بلکہ یہ آپ ہی رستے سے دور بھٹکا ہوا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
+  - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
