@@ -354,6 +354,13 @@
         "responses": {
           "200": {
             "description": "Every angels record with kind, wings, themes, section tags and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/dreams.json": {
       "get": {
         "operationId": "getDreams",
