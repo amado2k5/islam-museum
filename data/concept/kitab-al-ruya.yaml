@@ -1,0 +1,27 @@
+id: concept/kitab-al-ruya
+class: concept
+kind: term
+label:
+  ar: كتاب الرؤيا
+  en: Kitab al-Ru'ya — the Book of Dreams
+  ur: کتاب الرؤیا — خوابوں کی کتاب
+summary:
+  ar: "أحد كتب الحديث في الصحيحين والموطأ والسنن: باب يجمع ما رُوي من رؤى الأنبياء والصحابة وما أُصل من أحكامها. {cite:sahih-al-bukhari} {cite:sahih-muslim} {cite:muwatta-malik} {cite:jami-al-tirmidhi}"
+  en: "The hadith chapter on dreams found in the two Sahihs, the Muwatta and the Sunan: it gathers the reported dreams of the prophets and Companions with the rulings drawn from them. {cite:sahih-al-bukhari} {cite:sahih-muslim} {cite:muwatta-malik} {cite:jami-al-tirmidhi}"
+  ur: "دونوں صحیحین، موطأ اور سنن میں حدیث کا ایک باب: خوابوں کے بارے میں انبیاء اور صحابہ کی روایات اور ان سے نکالے گئے احکام یکجا کرتا ہے۔ {cite:sahih-al-bukhari} {cite:sahih-muslim} {cite:muwatta-malik} {cite:jami-al-tirmidhi}"
+wings: [ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/prophetic-era]
+relations:
+  - { type: related_to, target: concept/ahlam, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: concept/ruya-fiqh, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: concept/mubashshirat, sources: [source/sahih-muslim] }
+sources: [source/sahih-al-bukhari, source/sahih-muslim, source/muwatta-malik, source/jami-al-tirmidhi]
+provenance:
+  layer: own-research
+  source: "The Kitab al-Ru'ya chapters of Sahih al-Bukhari, Sahih Muslim, the Muwatta of Malik and Jami' al-Tirmidhi"
+  generated_by: "Devin (SWE-2 Flash)"
+  model: swe-2-flash
+  run: dreams-browser-01
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash)" }
+tags: [dream-browser, dream-concepts]
