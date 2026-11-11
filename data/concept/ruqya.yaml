@@ -1,0 +1,20 @@
+id: concept/ruqya
+class: concept
+kind: term
+label: { ar: "الرُّقْيَة", en: "Ruqyah", ur: "رقیہ" }
+summary:
+  ar: "التعويذ المشروع: قراءة القرآن والأدعية المشروع على المريض أو المصاب استجلاباً للشفاء وطلباً لحفظ الله، وهو ما فعله النبي بنفسه حين سُحر، وفيه النهي عن الرقية بالثوم والبصل وما فيه من الشرك والجهل."
+  en: "The lawful counter-incantation: reciting Qur'an and permissible supplications over the sick or afflicted to seek healing and God's protection — what the Prophet himself did when bewitched, distinct from unlawful ruqyah by garlic, onions and ignorance."
+  ur: "جائز رقیہ: مریض یا متاثرہ شخص پر قرآن اور جائز دعائیں پڑھ کر شفا اور اللہ کی حفاظت مانگنا — وہی جو نبی نے اپنے اوپر جادو ہونے پر کیا، بجائے لہسن، پیاز اور شرک والی ناجائز رقیہ کے۔"
+wings: [ideas]
+relations:
+  - { type: related_to, target: concept/ruqya-fiqh, note: "The fiqh treatment of ruqyah conditions and rulings.", sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: concept/sihr, note: "Ruqyah is the Qur'anic remedy set against sorcery.", sources: [source/tanzil-quran] }
+provenance:
+  layer: own-research
+  source: "Hadith collections already in the graph (Muwatta's ruqyah chapters, Sahih Muslim's reports on ruqyah and the seven destructive sins); the Prophet's cure-by-ruqyah hadith in Sahih al-Bukhari"
+  generated_by: "Devin (SWE-2 Flash)"
+  run: magic-browser-01
+sources: [source/muwatta-maruf-1997, source/sahih-muslim, source/sahih-al-bukhari]
+tags: [magic-browser, magic-ruqyah]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Flash)" }

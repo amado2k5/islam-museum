@@ -1,0 +1,26 @@
+id: event/sihr-against-the-prophet
+class: event
+kind: other
+label: { ar: "سحر النبي", en: "The Magic Worked Against the Prophet", ur: "نبی پر جادو" }
+summary:
+  ar: "ما يُروى أن رجلاً يهودياً اسمه لَبِيد بن الأَصَمّ سحر النبي في المدينة مع ابن أخته وامرأة، فكان النبي يعوذ نفسه بالمعوذتين ويستعيذ من شر ما خلق؛ فنُبِّئ بالثلاثة وأن لَبِيداً في قصة شعره فأُتي به فسُئل فأقرّ، فأمر النبي بإتيان غصن رَطْب فيه ثلاث ورقات فأُحرق حتى صار رماداً ثم نُفث فيه الماء فقُرئ عليه البقرة وآل عمران والمعوذتان فبرأ، وسقط شعر لَبِيد وبدت آثاره."
+  en: "The report that a Jewish man named Labid ibn al-Asam bewitched the Prophet along with his nephew and a woman; the Prophet was told of the three and of Labid's location by a comb of hair, was cured by ruqyah with lote-tree leaves and the opening suras, while the sorcerer's hair fell out."
+  ur: "روایت کے مطابق یہودی شخص لَبِيد بن الاعصم نے اپنے بھتیجے اور ایک عورت کے ساتھ نبی پر جادو کیا؛ نبی کو تین آدمیوں اور لَبِيد کی نشاندہی باڑ سے ہوئی، پھر نبک کے پتوں کے راکھ میں پانی ملا کر معوذات پڑھنے سے نبی شفا پائے اور جادوگر کے بال گر گئے۔"
+wings: [time]
+periods: [period/prophetic-era]
+regions: [hijaz]
+date:
+  start: { edtf: "0625~", calendar: hijri, precision: year, status: tradition, derived: true, note: "Placement varies between Meccan and Medinan reports; tradition does not fix a year. Conversion to Gregorian is derived." }
+relations:
+  - { type: had_participant, target: person/muhammad, role: "المسحور الذي عوّذ نفسه ورقى", sources: [source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/labid-ibn-al-asam, role: "الساحر المسمّى في الخبر", sources: [source/sahih-al-bukhari] }
+  - { type: occurred_at, target: place/medina, confidence: low, note: "Medinan placement in some reports; Meccan in others.", sources: [source/ibn-hisham-saqqa] }
+  - { type: exemplifies, target: concept/sihr, note: "The Quranic teaching that sorcery cannot harm the believer and that lawful ruqyah is the remedy.", sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+provenance:
+  layer: own-research
+  source: "Sahih al-Bukhari, Kitab al-Tibb, hadith of the Prophet's bewitching and cure; Ibn Hisham's sira; al-Bidaya wa'l-Nihaya"
+  generated_by: "Devin (SWE-2 Flash)"
+  run: magic-browser-01
+sources: [source/sahih-al-bukhari, source/ibn-hisham-saqqa, source/bidaya-ilmiyya-v5, source/tanzil-quran]
+tags: [magic-browser, magic-sihr, magic-ruqyah]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Flash)" }

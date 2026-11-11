@@ -31,7 +31,7 @@ export type MagicTopic = (typeof MAGIC_TOPICS)[number];
  * substring), the bewitched («مسحور» and its cases), the enchanter («مشعوذ», «شعوذة»),
  * and the form-II enchantment forms («تسحير», «مسحّر», «مسحر»).
  */
-const AR_SIHR_STRONG = /ساحر|سحرة|ساحرة|مسحور|مسحورة|مشعوذ|شعوذة|تسحير|مسحّر|مسحر/;
+const AR_SIHR_STRONG = /ساحر|سحرة|ساحرة|مسحور|مسحورة|مشعوذ|شعوذة|تسحير|مسحّر|مسحر|السحر/;
 /**
  * Ambiguous sorcery forms — «السحر»/«سحر»/«سحرا» are sorcery or the night-vigil, the
  * pronoun-suffixed forms («سحره»، «سحرتها»، «سحروا») are "bewitched him" or the idafa
@@ -41,7 +41,7 @@ const AR_SIHR_STRONG = /ساحر|سحرة|ساحرة|مسحور|مسحورة|م�
 const AR_SIHR_WEAK = /السحر|سحر|سحرا|سحره|سحرتها|سحرت|سحروا|سحرهم|سحرنا|يسحر/;
 /** Magic-domain words that make an ambiguous «سحر» a mention of sorcery, not the night. */
 const AR_MAGIC_CONTEXT =
-  /ساحر|سحرة|مسحور|مشعوذ|شعوذة|شياطين|شيطان|تمائم|تعويذ|طلسم|تنجيم|منجم|كاهن|عراف|رقى|يرقي|استرقاء|كفروا|يبطل|يتعلم|يعمل|صنعة|قراءة|كتاب|من السحر|بالسحر|للسحر|لسحر|علم السحر|سحره|سحروا|بيان/;
+  /ساحر|سحرة|مسحور|مشعوذ|شعوذة|شياطين|شيطان|تمائم|تعويذ|طلسم|تنجيم|منجم|كاهن|عراف|رقى|يرقي|استرقاء|كفروا|يبطل|يتعلم|يعمل|صنعة|قراءة|كتاب|من السحر|بالسحر|للسحر|(?<![ء-ي])لسحر|علم السحر|سحره|سحروا|بيان/;
 /**
  * The night-vigil (sahar) usages stripped before matching: «تسحر/أسحر/يستسحر» are "stay up
  * (pre-dawn)", «سحراً» and «في/من السحر» are time expressions, and the possessive night-forms

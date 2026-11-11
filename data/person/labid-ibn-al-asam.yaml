@@ -1,0 +1,21 @@
+id: person/labid-ibn-al-asam
+class: person
+label: { ar: "لَبِيد بن الأَصَمّ", en: "Labid ibn al-Asam", ur: "لَبِید بن الاعصم" }
+summary:
+  ar: "رجل يهودي من بني قينقاع، سحر النبي بمكة أو قرب المدينة مع ابن أخته وامرأة، فنزلت في البقرة آيتان أن لا السحر يضر من لم يؤمن؛ فأمر النبي بتعويذٍ من أوراق النبق فأُذيع سحره."
+  en: "A Jewish man of the Banu Qaynuqa' said to have bewitched the Prophet along with his nephew and a woman; the Prophet was healed by ruqyah with lote-tree leaves while the sorcerer's hair fell out — reported in the hadith collections and the sira literature."
+  ur: "بنی قینقاع کا ایک یہودی شخص جس نے — روایت کے مطابق — اپنے بھتیجے اور ایک عورت کے ساتھ نبی پر جادو کیا؛ نبک کے پتوں سے رقیہ کے ذریعے نبی شفا پائے اور جادوگر کے بال گر گئے — یہ روایت حدیث کی کتابوں اور سیرت میں آتی ہے۔"
+wings: [people]
+periods: [period/prophetic-era]
+relations:
+  - { type: related_to, target: event/sihr-against-the-prophet, note: "Named in the hadith as the sorcerer who worked magic against the Prophet.", sources: [source/sahih-al-bukhari, source/ibn-hisham-saqqa] }
+  - { type: related_to, target: concept/sihr, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: concept/ruqya-fiqh, note: "The Prophet's own ruqyah with lote-tree leaves is the model case of lawful counter-incantation.", sources: [source/sahih-al-bukhari] }
+provenance:
+  layer: own-research
+  source: "Sahih al-Bukhari, Kitab al-Tibb (the hadith of the Prophet's bewitching and cure by ruqyah); Ibn Hisham's sira; al-Bidaya wa'l-Nihaya on the same report"
+  generated_by: "Devin (SWE-2 Flash)"
+  run: magic-browser-01
+sources: [source/sahih-al-bukhari, source/ibn-hisham-saqqa, source/bidaya-ilmiyya-v5]
+tags: [magic-browser, magic-sihr, magic-ruqyah]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Flash)" }
