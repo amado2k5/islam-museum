@@ -88,6 +88,8 @@ _Second edition, 21 October 2026 (repository state: commit 5cef03793 on `main`, 
 
 **Companions Browser (10 November 2026; founder approval in chat, labelled submission-impacting in plan 29; pending merge and founder deployment):** `/api/v1/companions.json` added — a view over existing `person` records (606 Companions). No class, record, relation, prose or media count changes.
 
+**Dream Browser (10 November 2026; founder request in chat, labelled submission-impacting; pending merge and founder deployment):** `/api/v1/dreams.json` added — every dream mentioned in the Qur'an, hadith, seerah and harvested books, detected at build time plus curated `dream-browser` records (43 items: 15 Qur'an ayahs, 18 sunnah reports, 1 poetry passage, 9 concepts). No class changes; the four new concept records are `status.review: draft` until a human reads them.
+
 What the dossier deliberately does not claim: an institutional partner, a legal entity, a human-reviewed corpus, a user study, a licence for the AI illustrations that has not been written down, or a track record longer than the project has.
 
 ### A.6 Changes since the first edition, and open items

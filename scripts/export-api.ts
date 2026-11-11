@@ -11,6 +11,7 @@ import { wingCounts } from "./wings.js";
 import { primaryYear, recordOfNode, SECTION_IDS, sectionsOf, taxonomy as modernTaxonomy, yearsOf, WINDOW_START_YEAR } from "./modern/sections.js";
 import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
 import { companionIndex, decadeKey } from "./companions.js";
+import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dreams.js";
 import { existsSync, readdirSync } from "node:fs";
 
 const OUT = p("site", "public", "api", "v1");
@@ -178,7 +179,7 @@ export function khulafaChains(c: Compiled) {
   return { generated: c.generated, feature: "khulafa-browser", chains };
 }
 
-const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boolean; fields: string[]; extra?: (n: Node, edgesFrom: Map<string, { type: string; to: string }[]>) => Record<string, unknown> }[] = [
+const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boolean; fields: string[]; extra?: (n: Node, edgesFrom: Map<string, { type: string; to: string }[]>, byId?: Map<string, Node>) => Record<string, unknown> }[] = [
   { file: "jobs.json", feature: "job-browser", pick: (n) => n.class === "job",
     fields: ["kind", "domain", "hirfa", "era", "broader", "regions", "organization", "training"] },
   { file: "qudsi.json", feature: "hadith-qudsi-browser", pick: (n) => n.class === "passage" && n.tags.includes("hadith-qudsi"),
@@ -205,12 +206,21 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
     fields: ["kind", "wings", "themes", "tags"] },
   { file: "nature.json", feature: "nature-browser", pick: (n) => n.tags.includes("nature-browser"),
     fields: ["kind", "wings", "themes", "tags"] },
+  { file: "dreams.json", feature: "dream-browser",
+    pick: (n) => n.tags.includes(DREAM_TAG) || isDreamPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? dreamCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : dreamTagSection(n),
+    }) },
   { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
     fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },
 ];
 
 export function featureApiData(c: Compiled): Record<string, { generated: string; feature: string; items: Record<string, unknown>[] }> {
   const real = c.nodes.filter((n) => !n.stub);
+  const byId = new Map(c.nodes.map((n) => [n.id, n]));
   const edgesFrom = new Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>();
   for (const e of c.edges) {
     const list = edgesFrom.get(e.from) ?? [];
@@ -231,7 +241,7 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
     const items = real.filter(spec.pick).sort((a, b) => a.id.localeCompare(b.id)).map((n) => {
       const picked = Object.fromEntries(spec.fields.filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
       const row: Record<string, unknown> = { ...compact(n), ...picked, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) };
-      if (spec.extra) Object.assign(row, spec.extra(n, edgesFrom as any));
+      if (spec.extra) Object.assign(row, spec.extra(n, edgesFrom as any, byId));
       if (n.class === "job") row.holders = (holders.get(n.id) ?? []).sort();
       if (spec.file === "qudsi.json") Object.assign(row, { hadith: n.tags.find((t) => t.startsWith("qudsi-"))?.slice(6) ?? null, tags: n.tags, themes: n.themes });
       return row;
