@@ -12,7 +12,7 @@ Reads the board between the BOARD markers of docs/fable-run/VERIFICATION.md and 
   statement 13
   - every row's state and last line are, word for word, the RESULT line of its captured output;
   - every captured output was produced at the commit the board names (no row carried over from an earlier run);
-  - the board was measured with no uncommitted file under the measured folders;
+  - the board, and every run on it, was measured with no uncommitted file under the measured folders;
   - nothing under the measured folders has changed between the commit the board names and HEAD, so the board describes
     the tree as it is now.
 
@@ -39,7 +39,7 @@ have = {r["st"].split(" ")[0] for r in rows}
 need = [str(n) for n in range(1, 13) if n != 10]
 o.check("statement 10: every statement from 1 to 12 has a row on the board (10 and 13 are this oracle)", all(n in have for n in need), "missing: " + (", ".join(n for n in need if n not in have) or "none"))
 
-untracked, dirty, noresult, differs, carried = [], [], [], [], []
+untracked, dirty, noresult, differs, carried, unclean = [], [], [], [], [], []
 for r in rows:
     if subprocess.run(["git", "ls-files", "--error-unmatch", r["file"]], cwd=ROOT, capture_output=True).returncode != 0:
         untracked.append(r["file"])
@@ -58,6 +58,9 @@ for r in rows:
     hd = re.search(r"^HEAD: ([0-9a-f]{40})", t, re.M)
     if shown != r["last"] or not hd or hd.group(1) != board_commit:
         carried.append(f"{r['st']} (output from {hd.group(1)[:10] if hd else 'unknown'})")
+    uc = re.search(r"^uncommitted paths under [^:]*: (\d+)", t, re.M)
+    if uc and uc.group(1) != "0":
+        unclean.append(f"{r['st']} ({uc.group(1)})")
     o.note(f"  statement {r['st']:<22} {r['state']:<9} {os.path.basename(r['out']):<28} produced at {hd.group(1)[:10] if hd else 'unknown'}")
 
 o.check("statement 10: every oracle on the board is a file committed to git", not untracked and not dirty, f"not committed: {untracked or 'none'}; changed since the commit: {dirty or 'none'}")
@@ -69,7 +72,7 @@ o.check("statement 10: every number in NUMBERS.md names a captured output that e
 
 o.check("statement 13: every row's state and last line are the RESULT line of its captured output, word for word", bool(rows) and not differs, f"rows that differ: {differs or 'none'}")
 o.check("statement 13: every captured output was produced at the commit the board names", bool(rows) and not carried, f"carried over from an earlier run: {carried or 'none'}")
-o.check("statement 13: the board was measured with nothing uncommitted under the measured folders", board_dirty == 0, f"uncommitted paths at the time: {board_dirty}")
+o.check("statement 13: the board, and every run on it, was measured with nothing uncommitted under the measured folders", board_dirty == 0 and not unclean, f"uncommitted paths when the board was written: {board_dirty}; runs that saw uncommitted files: {unclean or 'none'}")
 head = sh("git rev-parse HEAD")
 since = [l for l in sh(f"git diff --name-only {board_commit} HEAD -- " + " ".join(MEASURED)).splitlines() if l.strip()] if board_commit else ["?"]
 now = [l for l in sh("git status --porcelain -- " + " ".join(MEASURED)).splitlines() if l.strip()]
