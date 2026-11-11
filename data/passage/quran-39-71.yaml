@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور کافروں کو گروہ گروہ بنا کر جہنم کی طرف لے جائیں گے۔ یہاں تک کہ جب وہ اس کے پاس پہنچ جائیں گے تو اس کے دروازے کھول دیئے جائیں گے تو اس کے داروغہ ان سے کہیں گے کہ کیا تمہارے پاس تم ہی میں سے پیغمبر نہیں آئے تھے جو تم کو تمہارے پروردگار کی آیتیں پڑھ پڑھ کر سناتے اور اس دن کے پیش آنے سے ڈراتے تھے کہیں گے کیوں نہیں لیکن کافروں کے حق میں عذاب کا حکم متحقق ہوچکا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
+  - { type: mentions, target: concept/malik-keeper-of-jahannam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
