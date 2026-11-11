@@ -17,6 +17,7 @@ translations:
   ur: { text: "کہہ دو کہ میں تم سے یہ نہیں کہتا کہ میرے پاس الله تعالیٰ کے خزانے ہیں اور نہ (یہ کہ) میں غیب جانتا ہوں اور نہ تم سے یہ کہتا کہ میں فرشتہ ہوں۔ میں تو صرف اس حکم پر چلتا ہوں جو مجھے (خدا کی طرف سے) آتا ہے۔ کہہ دو کہ بھلا اندھا اور آنکھ والے برابر ہوتے ہیں؟ تو پھر تم غور کیوں نہیں کرتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

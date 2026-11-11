@@ -17,6 +17,7 @@ translations:
   ur: { text: "(ان کی کیفیت یہ ہے کہ) جب فرشتے ان کی جانیں نکالنے لگتے ہیں اور یہ (کفر وشرک سے) پاک ہوتے ہیں تو سلام علیکم کہتے ہیں (اور کہتے ہیں کہ) جو عمل تم کیا کرتے تھے ان کے بدلے میں بہشت میں داخل ہوجاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

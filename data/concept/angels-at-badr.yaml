@@ -15,6 +15,9 @@ periods:
   - period/prophetic-era
 regions:
   - arabia
+relations:
+  - { type: mentions, target: concept/malaikat-al-imdad, sources: [source/tafsir-manar-v09] }
+  - { type: mentions, target: event/badr-battle-day, sources: [source/tafsir-manar-v09] }
 perspectives:
   - tradition: sunni
     id: rida-angels-did-not-fight
@@ -41,6 +44,7 @@ perspectives:
           ar: "ص 512-513 ⁦(نقل رضا عن الآلوسي وابن كثير وعرضها للرد)⁩"
     sources: [source/tafsir-manar-v09]
 sources: [source/tafsir-manar-v09]
+tags: [angels-browser, angels-angels-hosts]
 relations: []
 provenance:
   layer: own-research
