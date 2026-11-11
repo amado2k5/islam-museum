@@ -16,6 +16,7 @@ translations:
   en: { text: "Those who, if We give them power in the land, establish worship and pay the poor-due and enjoin kindness and forbid iniquity. And Allah's is the sequel of events.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "یہ وہ لوگ ہیں کہ اگر ہم ان کو ملک میں دسترس دیں تو نماز پڑھیں اور زکوٰة ادا کریں اور نیک کام کرنے کا حکم دیں اور برے کاموں سے منع کریں اور سب کاموں کا انجام خدا ہی کے اختیار میں ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -14,7 +14,7 @@ export const wingCountLabel = (lang: Lang, w: Wing | string) => fmt(ui(lang).win
 /** The "{n} events" template of a counted wing, or null for a wing that shows a phrase (rendered as static text). */
 export const wingCountTemplate = (lang: Lang, w: Wing | string): string | null => { const t = ui(lang).wings.counts[w]; return typeof t === "string" && t.includes("{n}") ? t : null; };
 
-export interface ExplorePage { key: "quran" | "qudsi" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles" | "ghayb" | "companions" | "seerah" | "nature" | "angels" | "dreams" | "dua" | "jinn-devils" | "magic" | "messengers" | "madhahib" | "bayt" | "signs"; href: string; ready: boolean }
+export interface ExplorePage { key: "quran" | "qudsi" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles" | "ghayb" | "companions" | "seerah" | "nature" | "angels" | "dreams" | "dua" | "islamiceconomy" | "jinn-devils" | "magic" | "messengers" | "madhahib" | "bayt" | "signs"; href: string; ready: boolean }
 /** The interactive explorers; `ready` flips as each phase ships, and an unfinished one links to the nearest page that exists. */
 export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "quran", href: `/${lang}/words/quran/`, ready: true },
@@ -47,6 +47,7 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "angels", href: `/${lang}/angels/`, ready: true },
   { key: "dreams", href: `/${lang}/dreams/`, ready: true },
   { key: "dua", href: `/${lang}/dua/`, ready: true },
+  { key: "islamiceconomy", href: `/${lang}/islamic-economy/`, ready: true },
   { key: "magic", href: `/${lang}/magic/`, ready: true },
   { key: "messengers", href: `/${lang}/messengers/`, ready: true },
   { key: "jinn-devils", href: `/${lang}/jinn-devils/`, ready: true },

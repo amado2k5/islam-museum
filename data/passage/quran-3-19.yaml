@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! religion with Allah (is) the Surrender (to His Will and Guidance). Those who (formerly) received the Scripture differed only after knowledge came unto them, through transgression among themselves. Whoso disbelieveth the revelations of Allah (will find that) lo! Allah is swift at reckoning.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "دین تو خدا کے نزدیک اسلام ہے اور اہل کتاب نے جو (اس دین سے) اختلاف کیا تو علم ہونے کے بعد آپس کی ضد سے کیا اور جو شخص خدا کی آیتوں کو نہ مانے تو خدا جلد حساب لینے والا (اور سزا دینے والا) ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

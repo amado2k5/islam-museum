@@ -16,6 +16,7 @@ translations:
   en: { text: "Such as keep the pact of Allah, and break not the covenant;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جو خدا کے عہد کو پورا کرتے ہیں اور اقرار کو نہیں توڑتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/al-sakk-wal-hawala, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -16,6 +16,7 @@ translations:
   en: { text: "Your guardian can be only Allah; and His messenger and those who believe, who establish worship and pay the poordue, and bow down (in prayer).", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تمہارے دوست تو خدا اور اس کے پیغمبر اور مومن لوگ ہی ہیں جو نماز پڑھتے اور زکوٰة دیتے اور (خدا کے آگے) جھکتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
