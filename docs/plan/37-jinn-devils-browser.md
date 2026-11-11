@@ -84,8 +84,18 @@ Built 10 November 2026: schema kinds, 29 tags, 4 seed records, the mentions harv
 (97 passage records, ~150 edges), the browser pages in three languages, the Explore entry,
 the landing card, `/api/v1/jinn-devils.json`, OpenAPI, `llms.txt` and the requirements spec
 (`docs/engineering/25-jinn-devils-requirements.md`). Records are draft-tier until a human
-reads them; nothing goes live until the founder deploys. Interaction-story waves continue:
-more angel encounters (the cave of the three men, Badr's angel host), jinn encounters
-(the well of Banu Ghifar, the jinn of the marketplace and the road), devil encounters
-(the traveller's devil at the well, the devil on the shoulder), and the dream reports of
-the Companions and Tabi'in.
+reads them; nothing goes live until the founder deploys.
+
+Interaction waves 2–17 landed through 11 November 2026 (PRs #5992–#6017): the core
+encounter stories (cave of the three men, jinn delegation, Solomon's court, Pharaoh's
+sorcerers, Adam's fall, the bewitching of the Prophet, the ifrit of the Night Journey,
+the snake-jinn of Medina, the well and sleeper shaytan hadiths, the dream-ruling and
+Prophet-dream reports, the qareen records, Harut/Marut/Labid/Balam person promotions,
+the muezzin adhan witness, and the wave-14/16/17 person and event tagging sweeps). A
+keyword audit over the whole `data/passage/` corpus confirmed the explicit
+shaytan/jinn/dream/angel material of the current harvest is surfaced; what remains is
+tracked in the spec's §12 — human review of draft records, the production acceptance
+run, re-running the mentions harvester after each future book harvest, and manual
+story waves only when a newly harvested book adds named encounters. See
+`docs/engineering/25-jinn-devils-requirements.md` §12 for the authoritative remaining-work
+list.
