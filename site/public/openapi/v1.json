@@ -466,6 +466,21 @@
         }
       }
     },
+    "/miracles.json": {
+      "get": {
+        "operationId": "getMiracles",
+        "summary": "Divine and Prophetic Miracles Browser dataset",
+        "description": "The Divine and Prophetic Miracles Browser dataset (متصفح المعجزات الإلهية ومعجزات الرسل): every mention of the divine miracles and the prophets' miracles in the Qur'an, Sunnah, seerah and harvested books — the miracle of the Qur'an, the Prophet's signs, the staff, the sea, the she-camel, the ark, the fire, the clay bird, the cradle speech, the heavenly table, Sulayman's signs, the dreams, the annunciation, the covenant chest, the cosmic signs and the destruction of the nations — detected at build time and joined to the canonical mentions edges, plus the curated miracles-browser records and the subjects index, each with its corpus section (quran, sunnah, seerah, books, curated), kind (event/sign/mention), subjects/topics chips, work, ref, text excerpt and edges.",
+        "responses": {
+          "200": {
+            "description": "Every miracle mention record with corpus section, kind, subjects, topics, work, ref, excerpt and edges, plus the subjects index",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/madhahib.json": {
       "get": {
         "operationId": "getMadhahib",
