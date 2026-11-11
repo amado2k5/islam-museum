@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور دیوؤں (کی جماعت کو بھی ان کے تابع کردیا تھا کہ ان) میں سے بعض ان کے لئے غوطے مارتے تھے اور اس کے سوا اور کام بھی کرتے تھے اور ہم ان کے نگہبان تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
+  - { type: mentions, target: concept/shayatin-al-ins-wal-jinn, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -10,6 +10,7 @@ summary:
 relations:
   - { type: mentions, target: person/aisha, sources: [source/sahih-al-bukhari] }
   - { type: mentions, target: event/death-of-the-prophet, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/sihr, sources: [source/sahih-al-bukhari] }
 provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4451 (كتاب المغازي)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
 sources: [source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

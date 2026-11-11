@@ -22,6 +22,7 @@ relations:
   - { type: mentions, target: person/marut, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/sulayman, sources: [source/tanzil-quran] }
   - { type: mentions, target: place/babil, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/shayatin-al-ins-wal-jinn, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/harut-and-marut, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred

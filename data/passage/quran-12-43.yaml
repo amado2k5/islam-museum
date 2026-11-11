@@ -6,10 +6,11 @@ work: work/quran
 ref: "12:43"
 sura: 12
 aya: 43
-label: { en: "Qur'an 12:43", ar: "القرآن 12:43" }
+label: { en: "Qur'an 12:43", ar: "القرآن 12:43", ur: "قرآن 12:43" }
 summary:
   en: "Qur'an 12:43 (sura Yusuf, verse 43)."
   ar: "القرآن 12:43 ⁦(سورة يوسف، الآية 43)⁩."
+  ur: "قرآن 12:43 ⁦(سورہ یوسف، آیت 43)⁩۔"
 text: "وَقَالَ ٱلْمَلِكُ إِنِّىٓ أَرَىٰ سَبْعَ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعَ سُنۢبُلَـٰتٍ خُضْرٍ وَأُخَرَ يَابِسَـٰتٍ ۖ يَـٰٓأَيُّهَا ٱلْمَلَأُ أَفْتُونِى فِى رُءْيَـٰىَ إِن كُنتُمْ لِلرُّءْيَا تَعْبُرُونَ"
 text_search: "وقال الملك إني أرى سبع بقرات سمان يأكلهن سبع عجاف وسبع سنبلات خضر وأخر يابسات ۖ يا أيها الملأ أفتوني في رؤياي إن كنتم للرؤيا تعبرون"
 translations:
@@ -18,6 +19,8 @@ translations:
 relations:
   - { type: part_of, target: passage/quran-12 }
   - { type: mentions, target: concept/asma-al-malik, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/ruya-fiqh, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/taabir-al-ruya, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/ahlam, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/ahlam-al-anbiya, sources: [source/tanzil-quran] }
 sensitivity: sacred

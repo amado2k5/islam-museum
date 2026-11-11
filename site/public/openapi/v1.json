@@ -376,6 +376,21 @@
         }
       }
     },
+    "/jinn-devils.json": {
+      "get": {
+        "operationId": "getJinnDevils",
+        "summary": "Jinn & Devils Browser dataset",
+        "description": "The Jinn & Devils Browser dataset (متصفح الشياطين والجن): every record tagged jinn-devils-browser — jinn, devils and demons, angels, and the dreams that carry them — plus angels-browser angel records, with kind, wings, themes, section tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every jinn/devils/angels/dreams record with kind, wings, themes, section tags and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/ghayb.json": {
       "get": {
         "operationId": "getQudsi",

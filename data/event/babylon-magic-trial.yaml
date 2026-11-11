@@ -1,0 +1,47 @@
+id: event/babylon-magic-trial
+class: event
+kind: other
+label:
+  ar: "امتحان السحر في بابل: هاروت وماروت"
+  en: "The trial of magic in Babylon: Harut and Marut"
+  ur: "بابل میں جادو کا امتحان: ہاروت اور ماروت"
+summary:
+  ar: "يخبر القرآن أن الشياطين علّمت الناس السحر وأنه نزل على ملكين ببابل «ماروت وماروت» ما يُبتلون به، وأنهم «ما يعلمان أحداً حتى يقولا إنما نحن فتنة فلا تكفر» {cite:tanzil-quran} [[passage/quran-2-102|البقرة 102]]. وفي التفسير أن هذين المَلَكين أو من في حكمهما هما من فتنوا الناس بالسحر حتى عصاهم الله {cite:tafsir-ibn-kathir}."
+  en: "The Qur'an reports that the devils taught people sorcery and that it was sent down upon two beings in Babylon — 'Marut and Harut' — by which they would be tested, and that they 'do not teach anyone until they say: we are only a trial, so do not disbelieve' {cite:tanzil-quran} [[passage/quran-2-102|al-Baqarah 102]]. In the tafsir they are the two beings — understood variously as angels, jinn or humans — through whom people were tried by magic until God punished them {cite:tafsir-ibn-kathir}."
+  ur: "قرآن بتاتا ہے کہ شیطانوں نے لوگوں کو جادو سکھایا اور بابل میں «ماروت اور ہاروت» نامی دو ہستیوں پر وہ چیز نازل ہوئی جس سے ان کی آزمائش ہو، اور «وہ کسی کو نہیں سکھاتے جب تک یہ نہ کہیں کہ ہم تو آزمائش ہیں، اس لیے کفر نہ کرو» {cite:tanzil-quran} [[passage/quran-2-102|البقرہ 102]]۔ تفسیر میں یہی وہ دو ہستیاں ہیں — جنہیں فرشتے، جن یا انسان کے طور پر سمجھا گیا — جن کے ذریعے لوگوں کو جادو سے آزمایا گیا یہاں تک کہ اللہ نے ان پر سزا دی {cite:tafsir-ibn-kathir}۔"
+wings: [people, ideas]
+themes: [creed, scripture-and-its-sciences]
+regions: [levant-iraq]
+periods: []
+tags:
+- jinn-devils-browser
+- jd-devils
+- jd-angels
+sources:
+- source/tanzil-quran
+- source/tafsir-ibn-kathir
+relations:
+- type: related_to
+  target: person/harut
+  sources: [source/tanzil-quran]
+- type: related_to
+  target: person/marut
+  sources: [source/tanzil-quran]
+- type: related_to
+  target: concept/harut-and-marut
+  sources: [source/tanzil-quran]
+- type: related_to
+  target: concept/sihr
+  sources: [source/tanzil-quran]
+- type: mentions
+  target: passage/quran-2-102
+  sources: [source/tanzil-quran]
+provenance:
+  layer: own-research
+  source: "Jinn & Devils Browser wave-4; worded from surah al-Baqarah 2:102 and Tafsir Ibn Kathir"
+  generated_by: Devin (SWE-2 High)
+  run: jinn-devils-browser-4
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High)

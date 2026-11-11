@@ -1,0 +1,41 @@
+id: event/shaytan-unmasked-before-hijra
+class: event
+kind: other
+label:
+  ar: "الشيطان يكشف نفسه ليلة الهجرة"
+  en: "The shaytan unmasked on the eve of the hijra"
+  ur: "ہجرت کی رات شیطان کا کھلنا"
+summary:
+  ar: "في تجهز النبي للهجرة ظهر له شيخ يعظه بالبقاء في مكة ويخوفه من قومه، فلما ألح عليه سأل من هو فأبى أن يقول الشهادة وفرّ منه مكشوفاً، فعرفه الصحابة أنه الشيطان بعث ليعوق الهجرة {cite:sahih-al-bukhari} {cite:ibn-hisham-sira} {cite:muruj-al-dhahab}."
+  en: "As the Prophet prepared for the hijra an old man appeared to him counselling him to stay in Mecca and warning him of his people; when pressed for who he was he refused to pronounce the testimony, fled from him unveiled, and the Companions knew he was the shaytan sent to obstruct the emigration {cite:sahih-al-bukhari} {cite:ibn-hisham-sira} {cite:muruj-al-dhahab}."
+  ur: "جب نبی ہجرت کی تیاری کر رہے تھے تو ایک بوڑھا آدمی ان کے سامنے آیا اور مکہ میں رہنے کا مشورہ دیا اور اپنی قوم سے خبردار کیا؛ جب اس سے پوچھا گیا کہ تم کون ہو تو اس نے گواہی دینے سے انکار کیا اور اپنے روپ میں بھاگ گیا، تو صحابہ نے پہچان لیا کہ یہ ہجرت کو روکنے بھیجا گیا شیطان ہے {cite:sahih-al-bukhari} {cite:ibn-hisham-sira} {cite:muruj-al-dhahab}۔"
+wings: [people, ideas]
+themes: [prophets]
+regions: [arabia]
+periods: [period/prophetic-era]
+tags:
+- jinn-devils-browser
+- jd-devils
+sources:
+- source/sahih-al-bukhari
+- source/ibn-hisham-sira
+- source/muruj-al-dhahab
+relations:
+- type: related_to
+  target: person/muhammad
+  sources: [source/sahih-al-bukhari, source/ibn-hisham-sira]
+- type: related_to
+  target: event/hijra-journey-to-medina
+  sources: [source/ibn-hisham-sira, source/muruj-al-dhahab]
+- type: related_to
+  target: concept/shayatin-al-ins-wal-jinn
+  sources: [source/sahih-al-bukhari]
+provenance:
+  layer: own-research
+  source: "Jinn & Devils Browser wave-2 seed; worded from the hijra narrative in Sahih al-Bukhari, Ibn Hisham's Sirah and al-Muruj al-Dhahab"
+  generated_by: Devin (SWE-2 High)
+  run: jinn-devils-browser-2
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High)

@@ -1,0 +1,40 @@
+id: event/devil-at-the-well
+class: event
+kind: other
+label:
+  ar: "الشيطان عند البئر والمسافر"
+  en: "The shaytan at the well of the traveller"
+  ur: "مسافر کے کنویں پر شیطان"
+summary:
+  ar: "يحكي الحديث أن رجلاً كان يسير في سفر فرأى شيخاً عند بئر، فلما توضأ الرجل وصلى ركعتين جاءه الشيطان في صورة الشيخ، فقال له «والله ما استطعت أن آذيك اليوم إلا بالصلاة»، ثم فرّ منه {cite:sahih-muslim} {cite:jami-al-tirmidhi}."
+  en: "The hadith relates that a man was travelling and saw an old man at a well; when the man performed ablution and prayed two rak'as, the shaytan came to him in the old man's likeness and said 'by God I could not harm you today except through prayer', then fled from him {cite:sahih-muslim} {cite:jami-al-tirmidhi}."
+  ur: "حدیث میں آیا ہے کہ ایک آدمی سفر میں تھا اور اس نے کنویں پر ایک بوڑھے آدمی کو دیکھا؛ جب اس آدمی نے وضو کیا اور دو رکعتیں پڑھے تو شیطان اسی بوڑھے کی شکل میں اس کے پاس آیا اور کہا «قسم ہے اللہ کی، آج میں تمہیں دعا کے سوا کچھ نہیں کر سکا»، پھر اس سے بھاگ گیا {cite:sahih-muslim} {cite:jami-al-tirmidhi}۔"
+wings: [people, ideas]
+themes: [creed]
+regions: [arabia]
+periods: [period/prophetic-era]
+tags:
+- jinn-devils-browser
+- jd-devils
+sources:
+- source/sahih-muslim
+- source/jami-al-tirmidhi
+relations:
+- type: related_to
+  target: person/muhammad
+  sources: [source/sahih-muslim]
+- type: related_to
+  target: concept/shayatin-al-ins-wal-jinn
+  sources: [source/sahih-muslim]
+- type: related_to
+  target: concept/al-waswasa
+  sources: [source/jami-al-tirmidhi]
+provenance:
+  layer: own-research
+  source: "Jinn & Devils Browser wave-3; worded from Sahih Muslim's hadith of the traveller at the well and Jami' al-Tirmidhi"
+  generated_by: Devin (SWE-2 High)
+  run: jinn-devils-browser-3
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High)
