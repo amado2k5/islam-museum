@@ -1,6 +1,7 @@
 id: work/al-inaya-sharh-al-hidaya
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanafi, mh-kutub]
 label: { ar: "العناية شرح الهداية", en: "al-'Inaya Sharh al-Hidaya" }
 summary:
   ar: "بطاقة أولية لـالعناية شرح الهداية؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q31301528" }
+relations:
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

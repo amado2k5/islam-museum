@@ -1608,6 +1608,10 @@ explore:
       title: "Jinn & Devils Browser"
       desc: "Jinn, devils and demons, angels, and the dreams that carry them — every mention in the Qur'an, the hadith and the seerah with its source."
       menu: "Browse jinn, devils and angels"
+    madhahib:
+      title: "Four Madhhabs Browser"
+      desc: "The four imams and the schools they founded, the salaf and the books that recorded them — every mention of the madhhabs in the Sunni books with its source."
+      menu: "Browse the four madhhabs and their mentions"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -3402,6 +3406,49 @@ jinn-devils:
     dreams:
       title: Dreams and visions
       desc: "The dream-science of the tradition: true dreams, nightmares, dream interpretation, and the dream reports that carry unseen beings."
+madhahib:
+  title: "Four Madhhabs Browser"
+  lede: "The four imams — Abu Hanifa, Malik, al-Shafi'i and Ahmad — and the schools they founded, the salaf and tabi'in on whom the fiqh was built, the books that recorded the madhhabs, and everything the Sunni books say about them in history, fatwas and legal questions — gathered in one browser with its sources."
+  badge: Legal-schools explorer
+  status: "This build holds {n} records in {s} sections; texts are draft until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — cited, trilingual — with no side table. Curated records carry the madhahib-browser tag and mh-<section> tags, and any work, passage or question whose 'mentions' edge names a madhhab or the madhhab concept joins 'Mentions in the sources' — and a mention of the Hanafi, Maliki, Shafi'i or Hanbali school also joins that school's section. A book harvested later appears here automatically the day its edges are written, and sources that cannot hold 'mentions' edges join through their tags."
+  api: "The whole dataset is at"
+  sections_title: The browser's sections
+  filter_label: Filter records
+  filter_none: No matching results.
+  empty: No madhhab records in this build yet.
+  sections:
+    aima:
+      title: The four imams
+      desc: "The mujtahid imams around whom the fiqh turned: Abu Hanifa al-Nu'man, Malik ibn Anas, Muhammad ibn Idris al-Shafi'i and Ahmad ibn Hanbal — their lives, their schools, and what they authored and transmitted."
+    hanafi:
+      title: The Hanafis
+      desc: "The school of Abu Hanifa: its companions, its books, its method of legal reasoning, and what was written in its tabaqat."
+    maliki:
+      title: The Malikis
+      desc: "The school of Malik ibn Anas and the people of Medina: its companions, its books, the practice of Medina it rests on, and what was recorded in its tabaqat."
+    shafii:
+      title: The Shafi'is
+      desc: "The school of al-Shafi'i: its companions, its books, its usul and qiyas method, and what the later scholars followed."
+    hanbali:
+      title: The Hanbalis
+      desc: "The school of Ahmad ibn Hanbal: its companions, its books, and its method of transmission, doctrine and revealed texts."
+    ukhra:
+      title: Other schools
+      desc: "Legal schools outside the four as the tradition recorded them: the Zahiri, Ja'fari and Ibadi schools — shown in their own section so the four madhhabs stay the frame."
+    salaf:
+      title: The salaf and tabi'in
+      desc: "The generation on whom the fiqh was built before the schools settled: the imams of Kufah, Basra and the Hijaz among the Successors and their successors — Ibrahim al-Nakha'i, al-Sha'bi, al-Awza'i, Sufyan al-Thawri and their like."
+    kutub:
+      title: The books
+      desc: "The codices and treatises that established the schools or compared them: the Muwatta, the Hidayah, the Mughni, the comparative studies and the histories of the madhhabs."
+    mafahim:
+      title: The concepts
+      desc: "The terms of fiqh and usul that turn on the schools: the madhhab itself, ijtihad, qiyas, istihsan, taqlid, ikhtilaf, the people of hadith and ra'y."
+    dhikr:
+      title: Mentions in the sources
+      desc: "Every book, passage or question in the museum that mentions the four madhhabs or one of them — histories of the schools, tabaqat of the jurists, fatwas and comparative questions — with its source."
 qudsi:
   title: "Hadith Qudsi Browser"
   lede: "A hadith qudsi is a report the Prophet relates from his Lord in words other than the Qur'an's. Here is every hadith qudsi in the six books and the Muwatta of Malik, gathered with its narrations in each collection and arranged by theme; every narration is a page in the museum."

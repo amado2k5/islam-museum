@@ -1,6 +1,7 @@
 id: work/matn-al-minhaj-fi-madhhab-al-shafii
 class: work
 kind: book
+tags: [madhahib-browser, mh-shafii, mh-kutub]
 label: { ar: "متن المنهاج في مذهب الإمام الشافعي", en: "Matn al-Minhaj fi Madhhab al-Shafii" }
 summary:
   ar: "بطاقة أولية لـمتن المنهاج في مذهب الإمام الشافعي؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q19443325" }
+relations:
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

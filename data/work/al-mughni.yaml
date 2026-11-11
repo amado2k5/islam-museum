@@ -1,6 +1,7 @@
 id: work/al-mughni
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanbali, mh-kutub]
 label:
   ar: المغني
   en: "al-Mughni"
@@ -24,6 +25,10 @@ regions:
 themes:
 - development-of-law-theology-institutions
 relations:
+- type: mentions
+  target: group/hanbali-madhhab
+  sources:
+  - source/madkhal-ibn-badran-turki
 - type: commentary_on
   target: work/mukhtasar-al-kharaqi
   sources:

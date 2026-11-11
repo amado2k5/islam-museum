@@ -1,6 +1,7 @@
 id: work/mukhtasar-al-tahawi
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanafi, mh-kutub]
 label: { ar: "مختصر الطحاوي", en: "Mukhtasar al-Tahawi" }
 summary:
   ar: "بطاقة أولية لـمختصر الطحاوي؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q136564623" }
+relations:
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

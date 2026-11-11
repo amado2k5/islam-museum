@@ -1,6 +1,7 @@
 id: work/mukhtasar-al-khiraqi
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanbali, mh-kutub]
 label: { ar: "مختصر الخرقي", en: "Mukhtasar al-Khiraqi" }
 summary:
   ar: "بطاقة أولية لمختصر الخرقي لعمر بن الحسين الخرقي، أول متون الفقه الحنبلي؛ لم تُراجع مصادره على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q19470569" }
+relations:
+  - { type: mentions, target: group/hanbali-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested — entry not yet checked on the page"

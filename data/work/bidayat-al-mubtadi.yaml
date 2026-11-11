@@ -1,6 +1,7 @@
 id: work/bidayat-al-mubtadi
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanafi, mh-kutub]
 label:
   ar: "بداية المبتدي"
   en: "Bidayat al-Mubtadi"
@@ -17,6 +18,7 @@ themes: [law-and-courts, development-of-law-theology-institutions]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 relations:
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/hidaya-bakdash-v1] }
   - { type: relies_on, target: work/mukhtasar-al-quduri, sources: [source/hidaya-bakdash-v1] }
   - { type: relies_on, target: work/al-jami-al-saghir-fi-al-fiqh, sources: [source/hidaya-bakdash-v1] }
 sources: [source/hidaya-bakdash-v1]

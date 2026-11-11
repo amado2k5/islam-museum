@@ -1,6 +1,7 @@
 id: work/al-mustasfa
 class: work
 kind: book
+tags: [madhahib-browser, mh-kutub]
 label:
   ar: "المستصفى من علم الأصول"
   en: "al-Mustasfa min Ilm al-Usul"
@@ -18,6 +19,7 @@ themes: [development-of-law-theology-institutions, law-and-courts]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 relations:
+  - { type: mentions, target: concept/madhhab, sources: [source/mustasfa-hafiz-v1] }
   - { type: rules_on, target: concept/iqtida-al-nahy-al-fasad, sources: [source/mustasfa-hafiz-v3] }
   - { type: mentions, target: work/al-mankhul, sources: [source/mustasfa-hafiz-v1] }
   - { type: mentions, target: person/al-baqillani, sources: [source/mustasfa-hafiz-v1] }

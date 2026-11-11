@@ -1,6 +1,7 @@
 id: work/tabaqat-al-shafiiyya-al-kubra
 class: work
 kind: book
+tags: [madhahib-browser, mh-shafii, mh-kutub]
 label: { ar: "طبقات الشافعية الكبرى", en: "Tabaqat al-Shafi'iyya al-Kubra", ur: "طبقات الشافعیہ الکبریٰ" }
 summary:
   ar: "معجم تاج الدين السبكي الأكبر في تراجم علماء الشافعية، وهو أكبر ثلاث نسخ من «الطبقات» — الكبرى والوسطى والصغرى — جمع فيه التاريخ والأدب والفقه والحديث على غرار «تبيين كذب المفتري» لابن عساكر مع أُسس أوسع {cite:durar-kamina-jil-1993 2/425} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}."
@@ -11,6 +12,8 @@ regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/al-aalam]
 external_ids: { wikidata: "Q6810913" }
+relations:
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/durar-kamina-jil-1993] }
 provenance:
   layer: own-research
   source: "Ibn Hajar, al-Durar al-Kamina, vol. 2 printed p. 425; Encyclopaedia of Islam 2nd ed. vol. 9, printed p. 745 (al-Subki A no. 9)"

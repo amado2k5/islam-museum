@@ -1,6 +1,7 @@
 id: work/al-muwafaqat
 class: work
 kind: book
+tags: [madhahib-browser, mh-kutub]
 label: { ar: "الموافقات في أصول الشريعة", en: "al-Muwafaqat fi Usul al-Shari'a", ur: "الموافقات فی اصول الشریعہ" }
 summary:
   ar: "كتاب في أصول الشريعة لأبي إسحاق الشاطبي الغرناطي المالكي ⁦(ت 790هـ)⁩، جعله مؤلفه خمسة أقسام: المقدمات العلمية، والأحكام، والمقاصد الشرعية، والأدلة الشرعية، والاجتهاد والتقليد؛ وسماه أولاً «عنوان التعريف بأسرار التكليف» ثم «الموافقات» لرؤيا رآها بعض شيوخه. وأشهر ما فيه كتاب المقاصد الذي يقرر أن التكاليف ترجع إلى حفظ مقاصد ضرورية وحاجية وتحسينية، وأن الضروريات خمس: حفظ الدين والنفس والنسل والمال والعقل، معتمداً على الاستقراء {cite:muwafaqat-mashhur-ibn-affan-v1 p. 9} {cite:muwafaqat-mashhur-ibn-affan-v1 p. 10} {cite:muwafaqat-mashhur-ibn-affan-v1 p. 11} {cite:muwafaqat-draz-ilmiyya p. 221} {cite:muwafaqat-draz-ilmiyya p. 222}."
@@ -15,6 +16,11 @@ themes: [development-of-law-theology-institutions, law-and-courts]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
 relations:
+  - { type: mentions, target: concept/madhhab, sources: [source/muwafaqat-draz-ilmiyya] }
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/muwafaqat-draz-ilmiyya] }
+  - { type: mentions, target: group/maliki-madhhab, sources: [source/muwafaqat-draz-ilmiyya] }
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/muwafaqat-draz-ilmiyya] }
+  - { type: mentions, target: group/hanbali-madhhab, sources: [source/muwafaqat-draz-ilmiyya] }
   - { type: about, target: concept/maqasid-al-shariah, sources: [source/muwafaqat-draz-ilmiyya] }
   - { type: rules_on, target: concept/al-daruriyyat-al-khams, sources: [source/muwafaqat-draz-ilmiyya] }
   - { type: mentions, target: person/fakhr-al-din-al-razi, sources: [source/muwafaqat-draz-ilmiyya] }

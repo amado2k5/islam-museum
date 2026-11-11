@@ -406,6 +406,21 @@
         }
       }
     },
+    "/madhahib.json": {
+      "get": {
+        "operationId": "getMadhahib",
+        "summary": "Four Madhhabs Browser dataset",
+        "description": "The Four Madhhabs Browser dataset (متصفح المذاهب الأربعة): every record tagged madhahib-browser with mh-<section> tags — the four imams and schools, other schools, the salaf forebears, the canonical books, the fiqh/usul concepts — plus every work, passage, event, exhibit or question whose mentions edge names a madhhab group or the madhhab concept, each with its computed sections (aima, hanafi, maliki, shafii, hanbali, ukhra, salaf, kutub, mafahim, dhikr), kind, traditions, themes and edges.",
+        "responses": {
+          "200": {
+            "description": "Every madhhab record with computed sections, kind, traditions, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/ghayb.json": {
       "get": {
         "operationId": "getQudsi",

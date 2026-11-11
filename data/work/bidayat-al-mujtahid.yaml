@@ -1,6 +1,7 @@
 id: work/bidayat-al-mujtahid
 class: work
 kind: book
+tags: [madhahib-browser, mh-kutub]
 label: { ar: "بداية المجتهد ونهاية المقتصد", en: "Bidayat al-Mujtahid wa-Nihayat al-Muqtasid", ur: "بدایۃ المجتہد و نہایۃ المقتصد" }
 summary:
   ar: "كتاب في الفقه المقارن للقاضي أبي الوليد محمد بن أحمد بن رشد الحفيد ⁦(520-595هـ)⁩، قال في مقدمته إنه أثبت فيه لنفسه على جهة التذكرة مسائل الأحكام المتفق عليها والمختلف فيها بأدلتها ونكت الخلاف فيها، مما يجري مجرى الأصول لما يرد على المجتهد من المسكوت عنه؛ وقدّم له بمقدمة أصولية في طرق تلقي الأحكام وأصنافها وأسباب الاختلاف الستة. يمضي من كتاب الطهارة إلى كتاب الأقضية، ويذكر في كل مسألة أقوال الصحابة والتابعين وفقهاء الأمصار، مالكاً أولاً ثم أبا حنيفة والشافعي وأحمد والظاهرية وغيرهم، ثم سبب الخلاف، وكثيراً ما يرجّح {cite:bidaya-bakri-bayt-al-afkar p. 6} {cite:bidaya-bakri-bayt-al-afkar p. 17} {cite:bidaya-bakri-bayt-al-afkar p. 1008}."
@@ -15,6 +16,10 @@ themes: [law-and-courts, development-of-law-theology-institutions]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 relations:
+  - { type: mentions, target: concept/madhhab, sources: [source/bidaya-bakri-bayt-al-afkar] }
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/bidaya-bakri-bayt-al-afkar] }
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/bidaya-bakri-bayt-al-afkar] }
+  - { type: mentions, target: group/hanbali-madhhab, sources: [source/bidaya-bakri-bayt-al-afkar] }
   - { type: relies_on, target: work/al-istidhkar, note: "يذكر ابن رشد أن أكثر ما عوّل عليه في نسبة المذاهب إلى أربابها كتاب الاستذكار", sources: [source/bidaya-bakri-bayt-al-afkar] }
   - { type: mentions, target: work/al-mudawwana-al-kubra, sources: [source/bidaya-bakri-bayt-al-afkar] }
   - { type: mentions, target: group/zahiri-madhhab, sources: [source/bidaya-bakri-bayt-al-afkar] }

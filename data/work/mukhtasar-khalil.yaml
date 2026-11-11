@@ -1,6 +1,7 @@
 id: work/mukhtasar-khalil
 class: work
 kind: book
+tags: [madhahib-browser, mh-maliki, mh-kutub]
 label: { ar: "مختصر خليل", en: "Mukhtasar Khalil" }
 summary:
   ar: "بطاقة أولية لمختصر خليل بن إسحاق الجندي، متن الفقه المالكي؛ لم تُراجع مصادره على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q6933513" }
+relations:
+  - { type: mentions, target: group/maliki-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested — entry not yet checked on the page"
