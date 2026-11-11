@@ -14,6 +14,9 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v1.11.4 — 2026-11-11
+### Fixed
+- **Graph build repair after the Dreams Browser merge.** A leftover duplicate `tags` key on the Ibn Sirin dream-interpretation work record crashed `build-graph`; the tags are now unioned on one line and every other data file was scanned for the same defect.
+
 ### Added
 - **Jinn & Devils Browser: «متصفح الشياطين والجن» is live in the build.** A dedicated browser gathers every jinn, devil and demon, angel and dream record in the museum's graph — the Qur'an, the hadith, the seerah and the harvested books — into four sections (the jinn, devils, angels, dreams). Every record gets a subject page showing the ayahs and reports that mention it, drawn from the frozen Qur'an text and the harvested passages. The browser joins the Explore menu and the landing page in Arabic, English and Urdu, exports `/api/v1/jinn-devils.json`, and is documented in the engineering requirements spec so any agent can test it against production.
 
