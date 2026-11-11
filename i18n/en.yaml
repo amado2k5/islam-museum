@@ -1628,6 +1628,10 @@ explore:
       title: "Messengers and Prophets Browser"
       desc: "Every mention of the messengers and prophets in the Qur'an, the Sunnah, the seerah and every harvested book — the named prophets, the messengers, the bearers of stories, and every verse and report cited."
       menu: "Browse the messengers, prophets and their mentions"
+    miracles:
+      title: "Divine and Prophetic Miracles Browser"
+      desc: "Every mention of the divine miracles and the prophets' miracles in the Qur'an, the Sunnah, the seerah and every harvested book — the miracle of the Qur'an, the moon-split, the Isra' and Mi'raj, the staff, the sea, the she-camel, the ark, the fire, the clay bird, the cradle speech, the heavenly table, Sulayman's signs, the dreams, the annunciation and the covenant chest, with every verse and report cited."
+      menu: "Browse the divine and prophetic miracles"
     madhahib:
       title: "Four Madhhabs Browser"
       desc: "The four imams and the schools they founded, the salaf and the books that recorded them — every mention of the madhhabs in the Sunni books with its source."
@@ -3622,6 +3626,83 @@ messengers:
     curated:
       title: Curated records
       desc: "The museum's curated records on the messengers and prophets: their lives, stories and sources, tagged messengers-browser."
+miracles:
+  title: "Divine and Prophetic Miracles Browser"
+  lede: "Every mention of the divine miracles and the prophets' miracles in the museum's sources: the miracle of the Qur'an and its inimitability, the Prophet's signs — the moon-split, the Isra' and Mi'raj, the descent of 'Isa — the staff, the sea, the she-camel, the ark, the fire, the clay bird, the cradle speech, the heavenly table, Sulayman's signs, the dreams, the annunciation, the covenant chest, the cosmic signs of creation, the destruction of the deniers' nations, and every book that discusses them — sourced records that grow as new texts land."
+  badge: Miracles explorer
+  status: "This build holds {n} records in {s} sections and {p} subject pages; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Miracle mentions are found at build time by a guarded lexicon over the passage texts — «معجز» never counts in the Qur'an where it is the verb 'to defeat', «أعجاز نخل» is palm-roots not inimitability, ambiguous forms count only beside their own collocations, and verified false positives are excluded by id; passages already linked by explicit mentions edges into the miracle subjects enter too; every book harvested later brings its miracle mentions here automatically once its passages land in the graph, and curated records join through the miracles-browser tag."
+  api: "The whole set is available at"
+  subjects_title: Miracle and prophet pages
+  subjects_note: "Every miracle-bearing prophet, concept and event recorded in the museum has a subject page gathering its verses, reports and stories from every section."
+  feed_title: Every mention in the sources
+  mentions_count: "{n} mentions"
+  sections_title: The browser's sections
+  filter_label: Filter miracle records
+  filter_none: No matches.
+  empty: No miracle records in this build yet.
+  entity_page: "Museum record"
+  quran_title: "In the Qur'an"
+  sunnah_title: "In the Sunnah"
+  seerah_title: "In the seerah"
+  books_title: "In the other books"
+  curated_title: "Curated records"
+  quran_ref: "Qur'an"
+  related_title: "Also in the museum"
+  unnamed_title: "Unnamed signs and miracles"
+  unnamed_note: "Places that speak of a sign or miracle without naming it — shown as they are, without guessing."
+  generic_title: "Collective mentions of miracles"
+  topics:
+    doctrine: The miracle and its proofs
+    challenge: The challenge and its answer
+    i3jaz: Inimitability
+    karamat: Saintly graces
+    unnamed: Signs without a name
+    cosmic-signs: Cosmic signs
+    moon: The moon-split
+    isra-miraj: The Isra' and Mi'raj
+    descent: The descent of 'Isa
+    staff: The staff of Musa
+    sea: The parting of the sea
+    provision: Provision from heaven
+    fire: The fire of Ibrahim
+    she-camel: The she-camel of Salih
+    ad-destruction: The destruction of 'Ad
+    thamud-destruction: The destruction of Thamud
+    madyan-destruction: The destruction of Madyan
+    lut-destruction: The destruction of Lut's people
+    pharaoh-destruction: The drowning of Pharaoh's people
+    generic-destruction: The destruction of deniers
+    elephant: The People of the Elephant
+    fish: The fish and the whale
+    ark: The ark of Nuh
+    basket: The basket of Musa
+    healing: Healing by 'Isa and Ayyub
+    clay-bird: The clay bird
+    cradle: The cradle speech
+    table: The heavenly table
+    sulayman: Sulayman's signs
+    dreams: Yusuf's dreams
+    annunciation: The annunciation of Yahya
+    covenant-ark: The covenant chest
+    prophet-signs: The Prophet's signs
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The divine miracles and the prophets' miracles in the revelation: the miracle of the Book, the signs of the creation, the staff, the sea, the she-camel, the ark, the fire, the clay bird, the cradle speech, the heavenly table, the covenant chest, the moon-split, the Isra' and Mi'raj, the descent, the Prophet's signs, the destruction of the nations and the cosmic signs."
+    sunnah:
+      title: In the Sunnah
+      desc: "The hadiths of the two Sahihs, the Muwatta, the Arba'in and the Sunan that carry the miracles — the Prophet's signs, the healing of 'Isa and Ayyub, the water from between his fingers, the weeping trunk, the dreams and the reports of the Companions and Tabi'in."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and history books carry of the miracles and their stories — this section fills itself as new seerah texts with their miracle mentions land."
+    books:
+      title: In the other books
+      desc: "The miracles in every harvested book beyond the Qur'an, the hadith and the seerah — tafsir, 'ilm al-kalam, history, poetry and whatever comes next, where the miracle vocabulary marks the mention."
+    curated:
+      title: Curated records
+      desc: "The museum's curated records on the miracles: the concepts and events that gather them — the inimitability of the Qur'an, the cosmic signs, the karamat, the moon-split, the Isra' and Mi'raj, the descent — tagged miracles-browser."
 madhahib:
   title: "Four Madhhabs Browser"
   lede: "The four imams — Abu Hanifa, Malik, al-Shafi'i and Ahmad — and the schools they founded, the salaf and tabi'in on whom the fiqh was built, the books that recorded the madhhabs, and everything the Sunni books say about them in history, fatwas and legal questions — gathered in one browser with its sources."
