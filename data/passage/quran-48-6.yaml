@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور (اس لئے کہ) منافق مردوں اور منافق عورتوں اور مشرک مردوں اور مشرک عورتوں کو جو خدا کے حق میں برے برے خیال رکھتے ہیں عذاب دے۔ ان ہی پر برے حادثے واقع ہوں۔ اور خدا ان پر غصے ہوا اور ان پر لعنت کی اور ان کے لئے دوزخ تیار کی۔ اور وہ بری جگہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-48 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

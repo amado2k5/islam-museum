@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور گنہگار لوگ دوزخ کو دیکھیں گے تو یقین کرلیں گے کہ وہ اس میں پڑنے والے ہیں۔ اور اس سے بچنے کا کوئی رستہ نہ پائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

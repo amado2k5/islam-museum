@@ -17,6 +17,7 @@ translations:
   ur: { text: "پھر اگر معلوم ہو جائے کہ ان دونوں نے (جھوٹ بول کر) گناہ حاصل کیا ہے تو جن لوگوں کا انہوں نے حق مارنا چاہا تھا ان میں سے ان کی جگہ اور دو گواہ کھڑے ہوں جو (میت سے) قرابت قریبہ رکھتے ہوں پھر وہ خدا کی قسمیں کھائیں کہ ہماری شہادت ان کی شہادت سے بہت اچھی ہے اور ہم نے کوئی زیادتی نہیں کی ایسا کیا ہو تو ہم بےانصاف ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

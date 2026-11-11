@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور اندھا اور آنکھ والا برابر نہیں۔ اور نہ ایمان لانے والے نیکوکار اور نہ بدکار (برابر ہیں) (حقیقت یہ ہے کہ) تم بہت کم غور کرتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -17,6 +17,7 @@ translations:
   ur: { text: "جن لوگوں نے ہماری آیتوں کو جھٹلایا اور ان سے سرتابی کی۔ ان کے لیے نہ آسمان کے دروازے کھولے جائیں گے اور نہ وہ بہشت میں داخل ہوں گے۔ یہاں تک کہ اونٹ سوئی کے ناکے میں سے نہ نکل جائے اور گنہگاروں کو ہم ایسی ہی سزا دیا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
