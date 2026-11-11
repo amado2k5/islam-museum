@@ -162,7 +162,7 @@ export function detect(graphFile = p(".cache", "graph.json")): { commit: string 
   return { commit: g.commit ?? null, findings: [...out.values()].sort((a, b) => a.key.localeCompare(b.key)) };
 }
 
-if (process.argv[1]?.endsWith("contradictions.ts")) {
+if (/[\\/]contradictions\.ts$/.test(process.argv[1] ?? "")) {
   const file = process.argv.slice(2).find((a) => !a.startsWith("--"));
   const { commit, findings } = detect(file);
   const by: Record<string, number> = {};
