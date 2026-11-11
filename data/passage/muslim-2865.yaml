@@ -2,22 +2,47 @@ id: passage/muslim-2865
 class: passage
 unit: hadith
 work: work/sahih-muslim
-ref: "2865"
+ref: '2865'
 label:
-  ar: "مسلم 2865 — إني خلقت عبادي حنفاء كلهم"
-  en: "Muslim 2865 — I created all My servants upright in faith"
-  ur: "مسلم 2865 — میں نے اپنے سب بندوں کو یکسو پیدا کیا"
-text: "ألا إن ربي أمرني أن أعلمكم ما جهلتم مما علمني يومي هذا كل مال نحلته عبدا حلال وإني خلقت عبادي حنفاء كلهم وإنهم أتتهم الشياطين فاجتالتهم عن دينهم وحرمت عليهم ما أحللت لهم وأمرتهم أن يشركوا بي ما لم أنزل …"
+  ar: مسلم 2865 — إني خلقت عبادي حنفاء كلهم
+  en: Muslim 2865 — I created all My servants upright in faith
+  ur: مسلم 2865 — میں نے اپنے سب بندوں کو یکسو پیدا کیا
+text: ألا إن ربي أمرني أن أعلمكم ما جهلتم مما علمني يومي هذا كل مال نحلته عبدا حلال وإني خلقت عبادي حنفاء كلهم وإنهم أتتهم الشياطين فاجتالتهم عن دينهم وحرمت عليهم ما أحللت لهم وأمرتهم أن يشركوا بي ما لم أنزل …
 summary:
-  ar: "حديث قدسي في صحيح مسلم، رقم 2865: إني خلقت عبادي حنفاء كلهم. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
-  en: "A hadith qudsi in Sahih Muslim, no. 2865: I created all My servants upright in faith. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
-  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2865: میں نے اپنے سب بندوں کو یکسو پیدا کیا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
-themes: [creed]
-tags: [hadith-qudsi, qudsi-khalaqtu-ibadi-hunafa]
+  ar: 'حديث قدسي في صحيح مسلم، رقم 2865: إني خلقت عبادي حنفاء كلهم. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ.'
+  en: 'A hadith qudsi in Sahih Muslim, no. 2865: I created all My servants upright in faith. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta.'
+  ur: 'صحیح مسلم میں حدیثِ قدسی، نمبر 2865: میں نے اپنے سب بندوں کو یکسو پیدا کیا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔'
+themes:
+- creed
+tags:
+- hadith-qudsi
+- qudsi-khalaqtu-ibadi-hunafa
 relations:
-  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
-  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
-  - { type: mentions, target: concept/shayatin-al-ins-wal-jinn, sources: [source/sahih-muslim] }
-provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7207; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
-sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
-status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }
+- type: mentions
+  target: person/muhammad
+  sources:
+  - source/sahih-muslim
+- type: mentions
+  target: concept/hadith-qudsi
+  sources:
+  - source/sahih-muslim
+- type: mentions
+  target: concept/shayatin-al-ins-wal-jinn
+  sources:
+  - source/sahih-muslim
+- type: mentions
+  target: event/shayatin-turned-servants-from-hanifiyya
+  sources:
+  - source/sahih-muslim
+provenance:
+  layer: own-research
+  source: fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7207; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries
+  generated_by: Devin (model unknown)
+  run: hadith-qudsi-browser-1
+sources:
+- source/sahih-muslim
+- source/hadith-api-fawazahmed0
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words
