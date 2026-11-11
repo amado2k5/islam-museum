@@ -6,22 +6,44 @@ label:
   en: The prophets' dreams
   ur: انبیاء کے خواب
 summary:
-  ar: "رؤى الأنبياء في القرآن وسيرتهم: رؤيا يوسف والإخوة والسجن والملك، ورؤيا إبراهيم في ذبح ابنه، ورؤيا النبي التي صدقها الله في البدر والمسجد الحرام. {cite:tanzil-quran} {cite:sahih-al-bukhari}"
-  en: "The prophets' dreams in the Qur'an and seerah: Joseph's dream of the stars, his brothers, the prison and the king; Abraham's dream of the sacrifice; and the Prophet's dream that God fulfilled at Badr and the Sacred Mosque. {cite:tanzil-quran} {cite:sahih-al-bukhari}"
-  ur: "قرآن اور سیرت میں انبیاء کے خواب: یوسف کا خواب ستاروں، بھائیوں، قید اور بادشاہ کا، ابراہیم کا بیٹے کی قربانی کا خواب، اور نبی کا وہ خواب جسے اللہ نے بدر اور مسجد حرام میں سچا کیا۔ {cite:tanzil-quran} {cite:sahih-al-bukhari}"
-wings: [ideas]
-themes: [prophets, creed]
-periods: [period/prophetic-era]
+  ar: 'رؤى الأنبياء في القرآن وسيرتهم: رؤيا يوسف والإخوة والسجن والملك، ورؤيا إبراهيم في ذبح ابنه، ورؤيا النبي التي صدقها الله في البدر والمسجد الحرام. {cite:tanzil-quran} {cite:sahih-al-bukhari}'
+  en: 'The prophets'' dreams in the Qur''an and seerah: Joseph''s dream of the stars, his brothers, the prison and the king; Abraham''s dream of the sacrifice; and the Prophet''s dream that God fulfilled at Badr and the Sacred Mosque. {cite:tanzil-quran} {cite:sahih-al-bukhari}'
+  ur: 'قرآن اور سیرت میں انبیاء کے خواب: یوسف کا خواب ستاروں، بھائیوں، قید اور بادشاہ کا، ابراہیم کا بیٹے کی قربانی کا خواب، اور نبی کا وہ خواب جسے اللہ نے بدر اور مسجد حرام میں سچا کیا۔ {cite:tanzil-quran} {cite:sahih-al-bukhari}'
+wings:
+- ideas
+themes:
+- prophets
+- creed
+periods:
+- period/prophetic-era
 relations:
-  - { type: related_to, target: concept/ahlam, sources: [source/tanzil-quran] }
-  - { type: related_to, target: concept/taabir-al-ruya, sources: [source/tanzil-quran] }
-  - { type: related_to, target: person/yusuf, sources: [source/tanzil-quran] }
-sources: [source/tanzil-quran, source/sahih-al-bukhari]
+- type: related_to
+  target: concept/ahlam
+  sources:
+  - source/tanzil-quran
+- type: related_to
+  target: concept/taabir-al-ruya
+  sources:
+  - source/tanzil-quran
+- type: related_to
+  target: person/yusuf
+  sources:
+  - source/tanzil-quran
+sources:
+- source/tanzil-quran
+- source/sahih-al-bukhari
 provenance:
   layer: own-research
-  source: "The Qur'anic dream passages (Sura Yusuf, As-Saffat, Al-Isra, Al-Fath, Al-Anfal) and the Prophet's dream reports in Sahih al-Bukhari"
-  generated_by: "Devin (SWE-2 Flash)"
+  source: The Qur'anic dream passages (Sura Yusuf, As-Saffat, Al-Isra, Al-Fath, Al-Anfal) and the Prophet's dream reports in Sahih al-Bukhari
+  generated_by: Devin (SWE-2 Flash)
   model: swe-2-flash
   run: dreams-browser-01
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash)" }
-tags: [dream-browser, dream-concepts]
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 Flash)
+tags:
+- dream-browser
+- dream-concepts
+- jinn-devils-browser
+- jd-dreams
