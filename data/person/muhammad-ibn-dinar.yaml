@@ -1,0 +1,31 @@
+id: person/muhammad-ibn-dinar
+class: person
+tags: [madhahib-browser, mh-salaf, mh-maliki]
+label:
+  ar: "محمد بن إبراهيم بن دينار"
+  en: "Muhammad ibn Ibrahim ibn Dinar"
+  ur: "محمد بن ابراہیم بن دینار"
+roles: [jurist]
+gender: male
+summary:
+  ar: "محمد بن إبراهيم بن دينار المدني، من كبار أصحاب مالك؛ درس معه علي بن حربان، وقال الشافعي «ما رأيت في فتيان مالك أفقه من محمد بن دينار»، وتوفي سنة اثنتين وثمانين ومائة بعد مالك بثلاث سنين {cite:tabaqat-fuqaha-abbas-1981 p.124}."
+  en: "Muhammad ibn Ibrahim ibn Dinar of Medina, among Malik's senior students; he studied with him and 'Ali ibn Harban, and al-Shafi'i said 'I never saw among Malik's young companions anyone more learned than Muhammad ibn Dinar'; he died 182, three years after Malik {cite:tabaqat-fuqaha-abbas-1981 p.124}."
+  ur: "محمد بن ابراہیم بن دینار مدینہ کا باشندہ، مالک کے بڑے شاگردوں میں سے؛ شافعی کا قول «مالک کے ساتھیوں میں میں نے اس سے زیادہ فقیہ نہیں دیکھا» مشہور ہے، اور مالک کے تین سال بعد 182 میں وفات پائی {cite:tabaqat-fuqaha-abbas-1981 p.124}."
+wings: [people]
+regions: [arabia]
+periods: [period/abbasid-early]
+died: { hijri: "0182", edtf: "0798~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة اثنتين وثمانين ومائة بعد مالك بثلاث سنين {cite:tabaqat-fuqaha-abbas-1981 p.124}؛ التحويل مشتق.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: student_of, target: person/malik-ibn-anas, sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: member_of, target: group/maliki-madhhab, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: own-research
+  source: "طبقات الفقهاء لابن عبد البر، تحقيق عبد العزيز العباس (دار المعارف 1981)، ترجمة محمد بن دينار ص 124"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: madhahib-wave3-tabaqat
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+kids:
+  ar: "محمد بن دينار تلميذ مالك الذي قال فيه الشافعي «ما رأيت في فتيان مالك أفقه منه»."
+  en: "Malik's student Muhammad ibn Dinar, of whom al-Shafi'i said 'I saw none more learned among Malik's companions'."
+  ur: "مالک کا شاگرد محمد بن دینار جس کے بارے میں شافعی نے کہا «مالک کے ساتھیوں میں میں نے اس سے زیادہ فقیہ نہیں دیکھا»."

@@ -58,6 +58,11 @@ TARGETS = {
     "person/zufar-ibn-al-hudhayl": ["mh-salaf", "mh-hanafi"],
     "person/layth-ibn-sad": ["mh-salaf", "mh-maliki"],
     "person/abd-al-rahman-ibn-al-qasim": ["mh-salaf", "mh-maliki"],
+    "person/abdallah-ibn-wahb-al-misri": ["mh-salaf", "mh-maliki"],
+    "person/al-rabi-ibn-sulayman-al-muradi": ["mh-salaf", "mh-shafii"],
+    "person/isa-ibn-aban": ["mh-salaf", "mh-hanafi"],
+    "person/hafs-ibn-ghiyath": ["mh-salaf", "mh-hanafi"],
+    "person/umar-ibn-husayn-al-khiraqi": ["mh-salaf", "mh-hanbali"],
     # --- Hanafi scholars and books ---
     "person/ibn-abidin": ["mh-hanafi"],
     "person/ala-al-din-al-kasani": ["mh-hanafi"],
