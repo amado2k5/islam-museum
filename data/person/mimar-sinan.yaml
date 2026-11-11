@@ -7,20 +7,32 @@ roles:
 - architect
 - engineer
 summary:
-  en: Chief architect of the Ottoman Empire in the sixteenth century; among his works is the Selimiye Mosque in Edirne.
-  ar: المعمار العثماني الأكبر في القرن العاشر الهجري، ومن أبرز أعماله مسجد السليمية في أدرنة.
+  en: "Chief court architect of the Ottoman empire from 945/1538 until his death in 996/1588. Taken in the devshirme levy and trained on campaign, he is credited in three sixteenth-century lists with some 477 buildings; his three great complexes are the Shehzade and the Suleymaniye in Istanbul and the Selimiye in Edirne."
+  ar: "كبير معماري البلاط العثماني من سنة 945هـ/1538م إلى وفاته سنة 996هـ/1588م. أُخذ في الدوشرمة وتمرّس في الحملات العسكرية، وتنسب إليه ثلاث قوائم من القرن السادس عشر نحو 477 بناء؛ ومجمعاته الثلاثة الكبرى شهزاده والسليمانية في إسطنبول والسليمية في أدرنة."
+  ur: "945ھ/1538ء سے 996ھ/1588ء میں وفات تک عثمانی دربار کے معمار اعلیٰ۔ دیوشرمہ کے تحت لیے گئے اور فوجی مہموں میں تربیت پائی؛ سولہویں صدی کی تین فہرستیں تقریباً 477 عمارتیں ان سے منسوب کرتی ہیں۔ ان کے تین بڑے مجموعے استنبول کے شہزادہ اور سلیمانیہ اور ادرنہ کا سلیمیہ ہیں۔"
 wings: [people]
-born: { edtf: "1489~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+born: { edtf: "1489~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV. The Encyclopaedia of Islam gives 895/1490 {cite:encyclopaedia-of-islam-2 vol. 9 p. 644}." }
 died: { edtf: "1588", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: built, target: building/sehzade-mosque, note: "950-5/1543-8; his first major commission", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: built, target: building/sulaymaniyya-mosque, note: "957-64/1550-7", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: built, target: building/selimiye-mosque, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: built, target: building/rustem-pasha-mosque, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: built, target: building/mihrimah-edirnekapi-mosque, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: built, target: building/sokollu-mehmed-pasha-mosque, note: "979/1571-2", sources: [source/encyclopaedia-of-islam-2] }
 external_ids:
   wikidata: Q5600
 sources:
 - source/goodwin-ottoman-architecture-1971
+- source/encyclopaedia-of-islam-2
 provenance:
   source: "built from the cited source(s): source/goodwin-ottoman-architecture-1971"
-  generated_by: "Claude Haiku 5.5 (Wikidata insertion, slice S9)"
+  generated_by: "Claude Haiku 5.5 (Wikidata insertion, slice S9); prose and EI2 enrichment by Claude Code (claude-fable-5-2)"
+  model: "claude-fable-5-2"
+  run: canon-cornerstones-1
+  layer: own-research
+  ei2: "Encyclopaedia of Islam, 2nd ed., vol. 9, SINAN, PDF pp. 644-645 (B. O'Kane). The OCR drops the opening of the Selimiye paragraph, so its dates are not taken from this source."
 importance: 1
 status:
   review: draft

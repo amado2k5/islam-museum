@@ -30,14 +30,10 @@ event/battle-of-manzikert-463 event/zallaqa-504 event/abolition-caliphate-1342 e
 event/battle-kosovo-791 event/battle-of-nicopolis-1396 event/battle-of-panipat-932 event/second-fitna
 concept/ijma concept/ijtihad concept/madhhab concept/tafsir concept/ilm concept/tajwid concept/madrasa concept/wahy
 concept/dajjal concept/hudud-penalties concept/maqasid-al-shariah concept/bida concept/halal-haram concept/falsafa
+person/timur-lang person/usman-dan-fodio person/shah-waliullah-al-dahlawi person/hafiz-al-shirazi person/al-junayd-ibn-muhammad
+person/idris person/hud event/battle-of-al-zab event/balat-al-shuhada event/abbasid-dawa-in-khurasan
+concept/ashariyya concept/al-mahdi
 """.split()
-# Subjects a first-time visitor would look for that have no record under an obvious slug (checked 10 Nov 2026).
-# Check aliases and labels before creating any of them.
-WANTED = ["Timur", "Osman I", "Selim I", "Shah Jahan", "Aurangzeb", "Abd al-Rahman III al-Nasir", "Usman dan Fodio",
-          "Omar al-Mukhtar", "Shah Wali Allah", "Firdawsi", "Hafiz", "Sa'di", "al-Idrisi (geographer)", "Ibn al-Athir",
-          "Ibn Jubayr", "al-Junayd", "Ibn Majid", "Piri Reis", "the prophets Idris and Hud", "Luqman",
-          "the Abbasid revolution", "Battle of the Zab", "Battle of Tours", "Las Navas de Tolosa", "Battle of Plassey",
-          "aqida (as a concept)", "usul al-fiqh", "Ash'ari and Maturidi schools (as concepts)", "the Mahdi (concept)"]
 ID = re.compile(r"\b((?:person|place|event|building|concept|work|polity|group|object|practice|period|journey|invention|question)/[a-z0-9][a-z0-9-]*)")
 SKIP_SRC = {"source", "media", "screen", "listing", "dataset"}
 
@@ -175,8 +171,6 @@ def report(ents, canon):
         L.append(f"| {cls} | {row['n']} | {row['t1']} | {row['nop']} | {row['short']} | {row['draft']} | {row['noimg']} |")
     L += [f"| **all** | **{tot['n']}** | **{tot['t1']}** | **{tot['nop']}** | **{tot['short']}** | **{tot['draft']}** | **{tot['noimg']}** |", "",
           "\"Under 300 words\" counts the Arabic prose file, front matter included, and includes the records with none. \"No image\" means no `media/` record depicts the subject; for prophets and Companions that is the rule, not a gap.", "",
-          "## Not in the graph yet", "",
-          "Subjects a visitor would look for that have no record under an obvious name (checked on 10 November 2026). Check aliases and labels before creating one: " + "; ".join(WANTED) + ".", "",
           "## The list", "",
           "Marks after a name: ∅ no Arabic prose, ✎ under 300 words, ◌ draft, + editorial include."]
     for cls in QUOTA:
