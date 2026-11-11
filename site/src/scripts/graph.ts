@@ -5,7 +5,7 @@
 interface GNode { id: string; c: string; l: Record<string, string>; s: Record<string, string>; hop: number }
 interface GEdge { s: string; t: string; r: string }
 interface Data { centre: string; nodes: GNode[]; edges: GEdge[] }
-interface Payload { lang: string; labels: Record<string, string>; classes: Record<string, string>; t: Record<string, string> }
+interface Payload { lang: string; labels: Record<string, string>; inv?: Record<string, string>; classes: Record<string, string>; t: Record<string, string> }
 
 const NS = "http://www.w3.org/2000/svg";
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
@@ -152,9 +152,15 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-graph]")) {
     }
     svg.append(gE, gL, gN);
     show(centre);
-    // the list beside the chart: every neighbour, with the relation to the centre
+    // the list beside the chart: every neighbour, with the relation to the centre. Edges are stored subject→object
+    // (s --r--> t): when the centre is the subject the neighbour is the object, so its label is the predicate's inverse
+    // (a parent reads «والد/والدة», not «ابن/ابنة») — the same direction the entity pages use.
     const rel = new Map<string, string>();
-    for (const e of d.edges) { if (e.s === centre.id) rel.set(e.t, p.labels[e.r] ?? e.r); else if (e.t === centre.id) rel.set(e.s, p.labels[e.r] ?? e.r); }
+    for (const e of d.edges) {
+      const key = p.inv?.[e.r];
+      if (e.s === centre.id) rel.set(e.t, (key ? p.labels[key] : undefined) ?? p.labels[e.r] ?? e.r);
+      else if (e.t === centre.id) rel.set(e.s, p.labels[e.r] ?? e.r);
+    }
     list.innerHTML = [...h1, ...h2].map((n) => `<li><a href="${esc(hrefOf(n.id))}">${esc(labelOf(n))}</a> <span class="muted">— ${esc(rel.get(n.id) ?? p.t.hops)}</span> · <button type="button" class="gx-mini" data-recentre="${esc(n.id)}">${esc(p.t.recentre)}</button></li>`).join("");
     list.querySelectorAll<HTMLButtonElement>("[data-recentre]").forEach((b) => b.addEventListener("click", () => load(b.dataset.recentre!, true)));
   }

@@ -12,6 +12,7 @@ import { primaryYear, recordOfNode, SECTION_IDS, sectionsOf, taxonomy as modernT
 import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
 import { companionIndex, decadeKey } from "./companions.js";
 import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dreams.js";
+import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { existsSync, readdirSync } from "node:fs";
 
 const OUT = p("site", "public", "api", "v1");
@@ -197,9 +198,7 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
   { file: "battles.json", feature: "battles-browser", pick: (n) => n.class === "event" && ["battle", "siege", "conquest", "war", "campaign", "raid", "revolt", "civil-war", "skirmish", "naval-battle", "mutiny"].includes(n.data.kind),
     fields: ["kind", "sides", "outcome", "casualties", "significance", "map", "part_of"],
     extra: (n, ef) => ({ periods: n.periods, themes: n.themes,
-      ghazwa: n.periods.includes("period/prophetic-era") && (
-      (n.data.sides ?? []).some((s: any) => (s.commanders ?? []).includes("person/muhammad") || (s.participants ?? []).includes("person/muhammad")) ||
-      (ef.get(n.id) ?? []).some((e) => e.type === "had_participant" && e.to === "person/muhammad")) }) },
+      ghazwa: isGhazwaNode(n, (ef.get(n.id) ?? []).some((e) => e.type === "had_participant" && e.to === MUHAMMAD)) }) },
   { file: "khulafa.json", feature: "khulafa-browser", pick: (n) => n.class === "person" && (n.data.roles ?? []).includes("caliph"),
     fields: ["roles", "story_roles"] },
   { file: "ghayb.json", feature: "ghayb-browser", pick: (n) => n.tags.includes("ghayb-browser"),

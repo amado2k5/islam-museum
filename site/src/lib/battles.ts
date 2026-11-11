@@ -3,6 +3,7 @@
 // groupings — every list is computed from the compiled graph at build time, never a side table.
 import { realNodes, edgesFrom, byId } from "./graph";
 import { timelineKey } from "./dates";
+import { isGhazwaNode, MUHAMMAD } from "../../../scripts/ghazwa";
 import type { Node } from "../../../scripts/build-graph";
 
 /** The eleven engagement kinds the browser lists (schema/enums/kinds.yaml, event). Atrocities and
@@ -30,11 +31,7 @@ const ghazwaCache = new Map<string, boolean>();
 export function isGhazwa(n: Node): boolean {
   const hit = ghazwaCache.get(n.id);
   if (hit !== undefined) return hit;
-  const prophetic = n.periods.includes("period/prophetic-era");
-  if (!prophetic) { ghazwaCache.set(n.id, false); return false; }
-  const P = "person/muhammad";
-  let found = (n.data.sides ?? []).some((s: any) => (s.commanders ?? []).includes(P) || (s.participants ?? []).includes(P));
-  if (!found) found = edgesFrom(n.id).some((e) => e.type === "had_participant" && e.to === P);
+  const found = isGhazwaNode(n, edgesFrom(n.id).some((e) => e.type === "had_participant" && e.to === MUHAMMAD));
   ghazwaCache.set(n.id, found);
   return found;
 }

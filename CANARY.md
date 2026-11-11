@@ -26,6 +26,29 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.10.1 — 2026-11-11
+### Fixed
+- **Battles API: ghazwa flags come from the shared edge rule.** `/api/v1/battles.json` now derives its `ghazwa` flag through `scripts/ghazwa.ts` — the same rule the battles pages use — so the endpoint cannot drift from the site. The live split is 57 ghazawat and 15 saraya of 72 prophetic-era records (3,250 military records total); the 53/22/75/3,251 figures in the requirements doc were its implementation-time snapshot and have drifted with the graph, not with a second derivation.
+
+### Added
+- **`meta/deploy.json` gains a `pages` count, and Backstage gets its fill-in script.** The deploy stamp now records the number of HTML pages it published, and `site/src/scripts/backstage-stats.ts` is ready to fill the Backstage entry and page figures from `/api/v1/meta/counts.json` and `meta/deploy.json` — the same single sources the homepage reads.
+
+### Fixed
+- **Map: every city in a region is now reachable.** Hundreds of places share fallback positions around their host city, so region markers piled up and a click on the pile opened whichever marker painted last — a Baghdad click could open Adana. The clicked city is now honoured even when the year slider sits outside its activity window (the old code silently substituted the region's first city), a click on a pile opens a chooser listing every place at that spot with its linked-record count, and a scrollable list of all the region's places sits beside the map so any city can be picked by name. Markers for places with no activity in the selected year dim instead of disappearing. Palette, pan and basemap are unchanged.
+- **Object pages show their photographs again.** Detail pages only looked for `depicted_in` edges, but remote museum photographs reach objects through the media record's own `depicts` field — the same field the objects gallery already reads. Depiction media are now indexed once per build worker from that field, so records like the Coronation Mantle render their image, licence and attribution on the detail page.
+- **Internal `(needs_source)` markers can no longer reach a published page.** Transcript-mining annotations stayed in prose and rendered literally on pages like the Prophet's biography and the Battle of Badr. A single strip pattern now removes them — bare, parenthesised, and isolate-wrapped forms — in the Markdown renderer, plain-text summaries, entity metadata and Nature descriptions, and the site checker fails the build if the literal ever appears in generated HTML. The markers stay in the data as honest sourcing state.
+- **Battles pages use the shared ghazwa/sariyya rule.** The battles index and the ghazawat page now call the same `scripts/ghazwa.ts` derivation the API uses, so index tile, ghazawat page and `/api/v1/battles.json` always agree.
+- **Teacher-pathway pages explain the † mark.** The curriculum-review date renders a dagger when the Hijri date is computed; the page now carries the same footnote legend entity pages use, so the mark is never dangling.
+- **Backstage counts and date are live.** The page no longer hard-codes "49,505 entries / 99,000 pages" and a stale date; it shows graph-derived figures with no-JavaScript fallbacks and lets the fill-in script replace them with the live counts and deploy timestamp.
+- **The People hall lists people.** Graph nodes are stored class-by-class, so the hall opened on the concepts and events cross-listed into the wing before its 11,000 persons; every hall now lists its own class first. The "full hall arrives in a later phase" note is gone from every populated wing.
+- **Changelog route templates render as paths.** CANARY entries name routes as `/{lang}/place/` or `/[lang]/asma/<slug>/`; the changelog now renders the concrete path of the reader's language (`/ar/asma/…/`) instead of the literal template, while `{cite:… <fiche>}` and `<details>` prose stay untouched.
+- **Qudsi browser: the unthemed groups get a heading.** Seven hadith groups carry no theme and rendered a blank "· 7" heading; they now gather under a localized "Other themes" label in Arabic, English and Urdu.
+- **Battles joins the ready explorers.** The Explore card no longer shows "under preparation" while `/battles/` is live.
+- **Graph explorer reads parent/child the right way round.** Child edges were labelled «ابن/ابنة» where entity pages group the same people under «والد/والدة»; edge direction is now honoured, so a parent's neighbours read as parents/children consistently.
+- **Search opens on its query.** A direct load of `/ar/search/?q=…` now seeds the box and runs the search once Pagefind finishes initialising, instead of showing an empty page until the visitor types.
+
+---
+
 ## v1.10.0 — 2026-11-10
 ### Added
 - **Battles browser: testable requirements spec.** `docs/engineering/20-battles-browser-requirements.md` lists every requirement for the browser — the routes in all three languages, the derived ghazwa/sariyya split, `/api/v1/battles.json`, search indexing, the register rows, the record-level rendering rules and the data-state baseline — each with the concrete production check to run. Linked from plan 31 and the battles lane so any agent can validate the shipped browser against it.

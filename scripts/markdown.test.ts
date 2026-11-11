@@ -7,6 +7,7 @@ vi.mock("../site/src/lib/graph", () => ({
   href: (lang: string, id: string) => `/${lang}/${id}/`,
   labelOf: (n: any) => n?.label?.en ?? "",
   realNodes: [],
+  NEEDS_SOURCE: /\(needs_source[^)]*\)|\bneeds_source\b/g,
 }));
 
 import { renderProse } from "../site/src/lib/markdown";
