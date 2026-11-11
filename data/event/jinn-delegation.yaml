@@ -1,0 +1,41 @@
+id: event/jinn-delegation
+class: event
+kind: other
+label:
+  ar: وفد الجن على النبي
+  en: The delegation of the jinn to the Prophet
+  ur: جنوں کا وفد نبی پر
+summary:
+  ar: "قدم وفد من الجن على النبي في المدينة ليلاً فاستمعوا إلى قراءته للقرآن وسألوه عما يُطعمهم ويُسقى، فأخبرهم أن رزقهم ورق الشجر وماء الأنهار، وأن أعمالهم تُعرض عليهم، فآمن منهم قوم وكفر قوم، وأمرهم أن ينذروا قومهم، وسألوه عن امرأته خديجة فأخبرهم بوفاتها فبكى {cite:sahih-muslim}. ويوافقه ما جاء في سورة الجن من استماع الجن للقرآن وإيمان بعضهم ودعوتهم قومهم إلى الإسلام [[passage/quran-72-1|الجن 1]]."
+  en: "A delegation of jinn came to the Prophet in Medina by night, heard him recite the Qur'an and asked what sustains them; he told them their provision is the leaves of sweet-smelling trees and the water of rivers, that their deeds are presented to them, and ordered them to warn their people; some believed and some disbelieved, and when they asked about his wife Khadija he told them she had died and wept {cite:sahih-muslim}. It matches surah al-Jinn, where jinn hear the Qur'an, some believe, and call their people to Islam [[passage/quran-72-1|al-Jinn 1]]."
+  ur: "مدینہ میں رات کو جنوں کا ایک وفد نبی کے پاس آیا، ان کی تلاوت سنی، اور پوچھا کہ تمہیں کیا کھلاتا ہے؟ انہوں نے بتایا کہ ان کا رزق خوشبودار درختوں کے پتے اور دریا کا پانی ہے، اور ان کے اعمال ان کے سامنے پیش ہوتے ہیں؛ ان میں سے بعض نے ایمان لایا اور بعض نے انکار کیا، اور انہوں نے ان کی قوم کو خبردار کرنے کا حکم پایا، اور ان کی بیوی خدیجہ کا حال پوچھا تو ان کی وفات بتائی تو وہ روئے {cite:sahih-muslim}۔ یہ اس کے مطابق ہے کہ سورۃ الجن میں جن قرآن سنتے ہیں، بعض ایمان لاتے ہیں اور اپنی قوم کو اسلام کی دعوت دیتے ہیں [[passage/quran-72-1|الجن 1]]۔"
+wings: [people, ideas]
+themes: [prophets, creed]
+regions: [arabia]
+periods: [period/prophetic-era]
+tags:
+- jinn-devils-browser
+- jd-jinn
+sources:
+- source/sahih-muslim
+- source/tanzil-quran
+- source/ibn-hisham-sira
+relations:
+- type: related_to
+  target: person/muhammad
+  sources: [source/sahih-muslim]
+- type: related_to
+  target: concept/jinn
+  sources: [source/tanzil-quran]
+- type: related_to
+  target: event/jinn-hear-the-quran
+  sources: [source/tanzil-quran]
+provenance:
+  layer: own-research
+  source: "Jinn & Devils Browser seed record; worded from Sahih Muslim's hadith of the jinn delegation and surah al-Jinn"
+  generated_by: Devin (SWE-2 High)
+  run: jinn-devils-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High)

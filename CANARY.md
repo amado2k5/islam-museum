@@ -14,6 +14,9 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v1.10.1 — 2026-11-11
+### Added
+- **Jinn & Devils Browser: graph seeds begin.** Twenty-nine existing records — the jinn, the qareen, Iblis, the shayatin of humans and jinn, waswas, sihr, kahana, the ghul, the dream-science concepts and the Prophet-era kahins — now carry `jinn-devils-browser` tags with section tags (`jd-jinn`, `jd-devils`, `jd-angels`, `jd-dreams`), and three new records open the interaction stories: the kinds of jinn, the delegation of the jinn to the Prophet, and the bewitching done on him by Labid ibn al-Asam. New `jinn` and `devil` concept kinds join the schema alongside the angels browser's `angel`. Draft-tier throughout; the browser page and API export follow in later commits.
+
 ### Fixed
 - **Battles API: ghazwa flags come from the shared edge rule.** `/api/v1/battles.json` now derives its `ghazwa` flag through `scripts/ghazwa.ts` — the same rule the battles pages use — so the endpoint cannot drift from the site. The live split is 57 ghazawat and 15 saraya of 72 prophetic-era records (3,250 military records total); the 53/22/75/3,251 figures in the requirements doc were its implementation-time snapshot and have drifted with the graph, not with a second derivation.
 
