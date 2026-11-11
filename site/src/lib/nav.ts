@@ -41,7 +41,7 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "companions", href: `/${lang}/companions/`, ready: true },
   { key: "asma", href: `/${lang}/asma/`, ready: true },
   { key: "khulafa", href: `/${lang}/khulafa/`, ready: true },
-  { key: "battles", href: `/${lang}/battles/`, ready: false },
+  { key: "battles", href: `/${lang}/battles/`, ready: true },
   { key: "ghayb", href: `/${lang}/ghayb/`, ready: true },
   { key: "nature", href: `/${lang}/nature/`, ready: true },
 ];

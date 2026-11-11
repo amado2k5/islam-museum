@@ -37,7 +37,7 @@ export const qudsiHadiths: QudsiHadith[] = [...bySlug.entries()].map(([slug, ns]
   const narrations = [...ns].sort(byCollection);
   const titled = narrations.filter((n) => String(n.label.en ?? "").includes(" — "));
   const lead = titled.find((n) => n.themes.length > 0) ?? titled[0] ?? narrations[0];
-  return { slug, theme: lead.themes[0] ?? "", lead, narrations };
+  return { slug, theme: lead.themes[0] ?? "other", lead, narrations };
 }).sort((a, b) => themeRank(a.theme) - themeRank(b.theme) || byCollection(a.lead, b.lead));
 
 /** The hadith's title: the part of the lead narration's label after the collection and number. */

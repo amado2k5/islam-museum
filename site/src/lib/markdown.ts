@@ -1,6 +1,6 @@
 // Prose renderer: marked + wiki-links [[class/slug|text]], {cite:source p.N}, :::perspectives blocks.
 import { Marked } from "marked";
-import { byId, href, labelOf, realNodes } from "./graph";
+import { byId, href, labelOf, realNodes, NEEDS_SOURCE } from "./graph";
 import type { Lang } from "./i18n";
 
 export interface Cite { n: number; source: string; locator?: string }
@@ -118,6 +118,7 @@ export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
     html.replace(/(^|>)([^<]+)(?=<|$)/g, (_m, lead: string, text: string) =>
       lead +
       text
+        .replace(NEEDS_SOURCE, "")
         .replace(/\[\[([a-z]+\/[a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_x, id: string, custom?: string) => {
           const n = byId.get(id);
           if (!n) return custom ?? id;
