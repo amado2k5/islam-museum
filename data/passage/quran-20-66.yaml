@@ -17,6 +17,7 @@ translations:
   ur: { text: "موسیٰ نے کہا نہیں تم ہی ڈالو۔ (جب انہوں نے چیزیں ڈالیں) تو ناگہاں ان کی رسیاں اور لاٹھیاں موسی کے خیال میں ایسی آنے لگیں کہ وہ (میدان) میں ادھر اُدھر دوڑ رہی ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
+  - { type: mentions, target: concept/sihr, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

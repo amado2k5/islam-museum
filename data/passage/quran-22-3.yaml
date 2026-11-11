@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور بعض لوگ ایسے ہیں جو خدا (کی شان) میں علم (ودانش) کے بغیر جھگڑتے اور ہر شیطان سرکش کی پیروی کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
+  - { type: mentions, target: concept/shayatin-al-ins-wal-jinn, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

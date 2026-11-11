@@ -20,6 +20,7 @@ relations:
   - { type: mentions, target: person/firawn, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/haman, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/qarun, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/sihr, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
