@@ -1,4 +1,4 @@
-// The Hasanat Browser's shared reads (docs/plan/44-hasanat-browser.md): which passage records
+// The Hasanat Browser's shared reads (docs/plan/45-hasanat-browser.md): which passage records
 // mention or report the good deeds (al-hasanat), and which corpus section each belongs to.
 // Detection runs at build time over the compiled graph, so a mention of الحسنات in any
 // harvested book — and in every book harvested later — appears without any tagging step.

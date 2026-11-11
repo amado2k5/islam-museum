@@ -1,4 +1,4 @@
-# Plan 44 — Hasanat Browser (متصفح الحسنات)
+# Plan 45 — Hasanat Browser (متصفح الحسنات)
 
 _Requested by the founder 11 November 2026: "start working on
 متصفح الحسنات where it should list all the mentioned and written
@@ -128,7 +128,7 @@ records.
   Explore menu entry via `explorePages`. Register rows in
   `docs/site/browsers.md`, plan index, `docs/agents/lanes.md`
   (`hasanat` lane), `docs/status.md`, `CANARY.md` (v1.17.0).
-- `docs/engineering/32-hasanat-browser-requirements.md` — the
+- `docs/engineering/33-hasanat-browser-requirements.md` — the
   requirements and production checklist for later validation
   (`HASANAT-R..`).
 

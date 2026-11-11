@@ -1,10 +1,10 @@
-# 32 · Hasanat Browser — requirements and production checklist
+# 33 · Hasanat Browser — requirements and production checklist
 
 _The feature requirements for «متصفح الحسنات» (the Hasanat Browser —
 every mention of the good deeds, الحسنات, in the Qur'an, the Sunnah,
 the seerah, Companion and Tabi'i reports and every harvested book), as
 requested by the founder on 11 November 2026 and delivered in
-`docs/plan/44-hasanat-browser.md`. Written so any person or AI agent
+`docs/plan/45-hasanat-browser.md`. Written so any person or AI agent
 can validate each requirement against production (`https://islam.museum`,
 `https://api.islam.museum`) without reading the plan. Every requirement
 has an id (`HASANAT-R..`), a "how to check" line, and the artifact that
@@ -89,7 +89,7 @@ names «الأسماء الحسنى» are all out of scope by design.
 |---|---|---|
 | HASANAT-R40 | `https://api.islam.museum/api/v1/hasanats.json` returns every detected + tagged record with `section`, `hasanat_kind`, `signals`, `work`, `ref`, `unit`, `text`, `sura`, `aya`, `kind`, `themes`, `tags`, `connections`, `prose` | `curl -s .../hasanats.json \| jq '.items \| length'` ≥ 75; `feature: "hasanat-browser"`; `section` ∈ {quran,sunnah,seerah,books,curated}; `hasanat_kind` ∈ {hasanat,hasana,husna,null} |
 | HASANAT-R41 | Endpoint documented in `docs/data/README.md`, `site/public/openapi/v1.json` (`/hasanats.json` path), and `llms.txt` | all three rows exist |
-| HASANAT-R42 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 44), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`hasanat` lane), `docs/status.md`, `CANARY.md` (v1.17.0 + entries), `docs/plan/44-hasanat-browser.md`, this file | all rows present |
+| HASANAT-R42 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 45), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`hasanat` lane), `docs/status.md`, `CANARY.md` (v1.17.0 + entries), `docs/plan/45-hasanat-browser.md`, this file | all rows present |
 | HASANAT-R43 | `features-api.test.ts` asserts `hasanats.json` in the export set and its detection/classification/exclusion rules (kinds, sections, adjective/names/divine-names/adverb gates, future-book inclusion, curated tag) | `npm test` green |
 
 ## 5. Governance and delivery

@@ -1,4 +1,4 @@
-// The Hasanat Browser's shared reads (docs/plan/44-hasanat-browser.md): every mention of the
+// The Hasanat Browser's shared reads (docs/plan/45-hasanat-browser.md): every mention of the
 // good deeds (al-hasanat) the museum's sources carry — Qur'an verses, hadith reports, seerah
 // books and every other harvested work — plus the curated records about good deeds, all over
 // the one graph. Passages are found by the shared detector in scripts/hasanat.ts at build

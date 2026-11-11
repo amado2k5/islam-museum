@@ -1,4 +1,4 @@
-// The Hasanat Browser's filter (docs/plan/44-hasanat-browser.md): narrows the good-deeds list
+// The Hasanat Browser's filter (docs/plan/45-hasanat-browser.md): narrows the good-deeds list
 // as the visitor types, matching titles, summaries, work names and text excerpts in all three
 // languages, ignoring Arabic vowel marks. Without JavaScript the whole list is on the page.
 const input = document.querySelector<HTMLInputElement>("[data-hasanat-filter]");
