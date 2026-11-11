@@ -1,6 +1,7 @@
 id: work/al-muhadhdhab-fiqh-shafii
 class: work
 kind: book
+tags: [madhahib-browser, mh-shafii, mh-kutub]
 label: { ar: "المهذب في فقه الإمام الشافعي", en: "Al-Muhadhdhab fi Fiqh al-Imam al-Shafi'i" }
 summary:
   ar: "موسوعة أبي إسحاق الشيرازي الفقهية التي كتبها بين ٤٥٥ و٤٦٩هـ، وصارت مع «التنبيه» من خمسة كتب مرجعية في المذهب الشافعي وعليها جهاز شرحي واسع منه «المجموع شرح المهذب» للنووي {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
@@ -10,6 +11,8 @@ authors: [person/abu-ishaq-al-shirazi]
 wings: [time]
 sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
 external_ids: { wikidata: "Q20389197" }
+relations:
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

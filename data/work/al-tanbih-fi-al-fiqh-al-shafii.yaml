@@ -1,6 +1,7 @@
 id: work/al-tanbih-fi-al-fiqh-al-shafii
 class: work
 kind: book
+tags: [madhahib-browser, mh-shafii, mh-kutub]
 label: { ar: "التنبيه في الفقه الشافعي", en: "Al-Tanbih fi al-Fiqh al-Shafi'i" }
 summary:
   ar: "متن أبي إسحاق الشيرازي المختصر في الفقه، صنّفه بين ٤٥٢ و٤٥٣هـ وجاءت عليه أكثر من سبعين شرحاً {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
@@ -10,6 +11,8 @@ authors: [person/abu-ishaq-al-shirazi]
 wings: [time]
 sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
 external_ids: { wikidata: "Q108806953" }
+relations:
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

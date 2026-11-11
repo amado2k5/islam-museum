@@ -1,6 +1,7 @@
 id: work/madkhal-al-shari-al-sharif-ala-al-madhahib
 class: work
 kind: book
+tags: [madhahib-browser, mh-kutub]
 label: { ar: "مدخل الشرع الشريف على المذاهب", en: "Madkhal al-Shari al-Sharif ala al-Madhahib" }
 summary:
   ar: "بطاقة أولية لـمدخل الشرع الشريف على المذاهب؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,12 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q19455697" }
+relations:
+  - { type: mentions, target: concept/madhhab, sources: [source/al-aalam] }
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/al-aalam] }
+  - { type: mentions, target: group/maliki-madhhab, sources: [source/al-aalam] }
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/al-aalam] }
+  - { type: mentions, target: group/hanbali-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

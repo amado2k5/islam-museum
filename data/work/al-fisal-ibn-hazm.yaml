@@ -1,6 +1,7 @@
 id: work/al-fisal-ibn-hazm
 class: work
 kind: book
+tags: [madhahib-browser, mh-ukhra, mh-kutub]
 label: { ar: "الفصل في الملل والأهواء والنحل", en: "al-Fisal fi al-Milal wa-l-Ahwa' wa-l-Nihal", ur: "الفصل فی الملل والاہواء والنحل" }
 summary:
   ar: "كتاب ابن حزم الأندلسي ⁦(384-456هـ)⁩ في الأديان والفرق ومسائل الكلام، قصد فيه كما يقول إيراد البراهين الراجعة إلى الحس مع بيان اللفظ وترك التعقيد؛ رتّب فيه الفرق المخالفة لدين الإسلام ست مراتب بحسب بعدها، من منكري الحقائق إلى المقرّين ببعض الأنبياء دون بعض، وتكلم على اليهود والنصارى والمجوس والصابئة، ثم على نحل أهل الإسلام التي يجعلها خمساً: أهل السنة والمعتزلة والمرجئة والشيعة والخوارج، ثم على مسائل التوحيد والصفات والقدر والإيمان والإمامة وغيرها {cite:fisal-ibn-hazm-kotobarabia p. 8} {cite:fisal-ibn-hazm-kotobarabia p. 9} {cite:fisal-ibn-hazm-kotobarabia p. 595}."
@@ -16,6 +17,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
 sensitivity: polemical
 relations:
+  - { type: mentions, target: group/zahiri-madhhab, sources: [source/fisal-ibn-hazm-kotobarabia] }
   - { type: mentions, target: group/mutazila, sources: [source/fisal-ibn-hazm-kotobarabia] }
   - { type: mentions, target: group/murjia, sources: [source/fisal-ibn-hazm-kotobarabia] }
   - { type: mentions, target: group/shia, sources: [source/fisal-ibn-hazm-kotobarabia] }

@@ -1,6 +1,7 @@
 id: work/kafi-al-mubtadi
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanafi, mh-kutub]
 label: { ar: "كافي المبتدئ من الطلاب", en: "Kafi al-Mubtadi'" }
 summary:
   ar: "بطاقة أولية لـكافي المبتدئ من الطلاب؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q131552388" }
+relations:
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

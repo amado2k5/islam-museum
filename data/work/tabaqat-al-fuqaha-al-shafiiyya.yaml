@@ -1,6 +1,7 @@
 id: work/tabaqat-al-fuqaha-al-shafiiyya
 class: work
 kind: book
+tags: [madhahib-browser, mh-shafii, mh-kutub]
 label: { ar: "طبقات الفقهاء الشافعية", en: "Tabaqat al-Fuqaha' al-Shafi'iyya" }
 summary:
   ar: "بطاقة أولية لـطبقات الفقهاء الشافعية؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q109260226" }
+relations:
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

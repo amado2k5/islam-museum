@@ -1,6 +1,7 @@
 id: work/al-majmu-sharh-al-muhadhdhab
 class: work
 kind: book
+tags: [madhahib-browser, mh-shafii, mh-kutub]
 label:
   ar: "المجموع شرح المهذب"
   en: "al-Majmu' Sharh al-Muhadhdhab"
@@ -17,6 +18,7 @@ themes: [law-and-courts, worship-and-the-pillars]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 relations:
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/majmu-irshad-v8] }
   - { type: commentary_on, target: work/al-muhadhdhab-fiqh-shafii, sources: [source/majmu-irshad-v8] }
   - { type: rules_on, target: practice/tawaf, sources: [source/majmu-irshad-v8] }
   - { type: rules_on, target: practice/sai, sources: [source/majmu-irshad-v8] }

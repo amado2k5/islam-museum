@@ -1,6 +1,7 @@
 id: work/madkhal-ila-madhhab-ahmad
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanbali, mh-kutub]
 label:
   ar: المدخل إلى مذهب الإمام أحمد بن حنبل
   en: "al-Madkhal ila Madhhab al-Imam Ahmad ibn Hanbal"
@@ -24,6 +25,8 @@ regions:
 themes:
 - development-of-law-theology-institutions
 - sects-and-schools
+relations:
+  - { type: mentions, target: group/hanbali-madhhab, sources: [source/madkhal-ibn-badran-turki] }
 provenance:
   layer: own-research
   source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)

@@ -1,6 +1,7 @@
 id: work/al-binaya-sharh-al-hidaya
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanafi, mh-kutub]
 label: { ar: "البناية في شرح الهداية", en: "al-Binaya fi Sharh al-Hidaya", ur: "البنایہ فی شرح الہدایہ" }
 summary:
   ar: "شرح بدر الدين العيني على «الهداية» للمرغيناني في عشر مجلدات، يتوسع فيه جداً في تخريج أحاديث الأحكام وبيان مذاهب علماء الأمصار، كما تصفه الترجمة المطبوعة مع عمدة القاري {cite:umdat-qari-ilmiyya-2001-v1 p. 17}."
@@ -15,6 +16,7 @@ themes: [law-and-courts]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
 relations:
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/umdat-qari-ilmiyya-2001-v1] }
   - { type: commentary_on, target: work/al-hidayah-marghinani, sources: [source/umdat-qari-ilmiyya-2001-v1] }
   - { type: mentions, target: person/al-daraqutni, note: "قال فيه في مبحث القراءة إنه مستحق للتضعيف", sources: [source/sunan-daraqutni-ibn-hazm-2011] }
 provenance:
