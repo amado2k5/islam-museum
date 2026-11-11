@@ -16,6 +16,7 @@ translations:
   en: { text: "We never sent before thee any messengers but lo! they verily ate food and walked in the markets. And We have appointed some of you a test for others: Will ye be steadfast? And thy Lord is ever Seer.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہم نے تم سے پہلے جتنے پیغمبر بھیجے ہیں سب کھانا کھاتے تھے اور بازاروں میں چلتے پھرتے تھے۔ اور ہم نے تمہیں ایک دوسرے کے لئے آزمائش بنایا ہے۔ کیا تم صبر کرو گے۔ اور تمہارا پروردگار تو دیکھنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

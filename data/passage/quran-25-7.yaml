@@ -16,6 +16,7 @@ translations:
   en: { text: "And they say: What aileth this messenger (of Allah) that he eateth food and walketh in the markets? Why is not an angel sent down unto him, to be a warner with him.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور کہتے ہیں کہ یہ کیسا پیغمبر ہے کہ کھاتا ہے اور بازاروں میں چلتا پھرتا ہے۔ کیوں نازل نہیں کیا گیا اس کے پاس کوئی فرشتہ اس کے ساتھ ہدایت کرنے کو رہتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-25 }
   - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred

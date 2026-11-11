@@ -391,6 +391,21 @@
         }
       }
     },
+    "/islamic-economy.json": {
+      "get": {
+        "operationId": "getIslamicEconomy",
+        "summary": "Islamic Economy Browser dataset",
+        "description": "The Islamic Economy Browser dataset (متصفح العملات والصكوك والوقف الإسلامي): every mention of money and Islamic economics, deeds/instruments/covenants, and endowments in the Qur'an, Sunnah, seerah and harvested books — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — detected at build time plus the curated records tagged islamic-economy-browser, each with its corpus section (quran, sunnah, seerah, books, curated), topic chips (money, sukuk, waqf), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every Islamic-economy record with corpus section, topics, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/sayyiat.json": {
       "get": {
         "operationId": "getSayyiat",

@@ -57,7 +57,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nature.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "islamic-economy.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nature.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -349,6 +349,40 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(items.find((i) => i.id === "passage/quran-33-33x")).toMatchObject({ section: "quran" });
     expect(items.find((i) => i.id === "person/fatima-x")).toMatchObject({ section: "ahl" });
     expect(items.find((i) => i.id === "event/ghadir-khumm-x")).toMatchObject({ section: "mawaqif" });
+  });
+
+  it("exports islamic-economy: detected passages by corpus and topic, tagged records, gated ambiguous forms", () => {
+    const ribaAyah = makeNode("passage/quran-2-275x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 275, text: "الذين يأكلون الربا لا يقومون إلا كما يقوم الذي يتخبطه الشيطان" });
+    const waqfHadith = makeNode("passage/muslim-9996", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9996", text: "أوقف رجل أرضه على المسجد والأوقاف للعباد" });
+    const deedHadith = makeNode("passage/muwatta-9996", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9996", text: "كتبوا في الوثيقة بينهما ميثاقاً" });
+    const bookPassage = makeNode("passage/fiqhbook-1", "passage", { unit: "section", work: "work/future-fiqh", ref: "1", text: "باب في البيوع والربا" });
+    const seerahPassage = makeNode("passage/sira-1", "passage", { unit: "section", work: "work/future-sira", ref: "1", text: "وكان يتجر فتاجر فأعطاه ديناراً" });
+    const stopFp = makeNode("passage/muwatta-9997", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9997", text: "وقف الرجل عند الباب ثم انصرف" });
+    const debtFp = makeNode("passage/muslim-9997", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9997", text: "الدين يسر والرزق" });
+    const waqfConcept = { ...makeNode("concept/waqf", "concept", { kind: "term" }), tags: ["islamic-economy-browser", "islamic-economy-waqf"] };
+    const bookWork = { ...makeNode("work/iqtisad-x", "work", { kind: "book" }), tags: ["islamic-economy-browser", "islamic-economy-books", "islamic-economy-money"] };
+    const siraWork = makeNode("work/future-sira", "work", { genre: ["sira"] });
+    const fiqhWork = makeNode("work/future-fiqh", "work", { genre: ["fiqh"] });
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, ribaAyah, waqfHadith, deedHadith, bookPassage, seerahPassage, stopFp, debtFp, waqfConcept, bookWork, siraWork, fiqhWork] });
+    const items = data["islamic-economy.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-2-275x");
+    expect(ids).toContain("passage/muslim-9996");
+    expect(ids).toContain("passage/muwatta-9996");
+    expect(ids).toContain("passage/fiqhbook-1"); // a book harvested later lands automatically
+    expect(ids).toContain("passage/sira-1");
+    expect(ids).toContain("concept/waqf");
+    expect(ids).toContain("work/iqtisad-x");
+    expect(ids).not.toContain("passage/muwatta-9997"); // «وقف» "he stopped" is not endowment
+    expect(ids).not.toContain("passage/muslim-9997"); // «الدين» "religion" is not debt
+    expect(items.find((i) => i.id === "passage/quran-2-275x")).toMatchObject({ section: "quran", topics: ["money"] });
+    expect(items.find((i) => i.id === "passage/muslim-9996")).toMatchObject({ section: "sunnah", topics: ["waqf"] });
+    expect(items.find((i) => i.id === "passage/muwatta-9996")).toMatchObject({ section: "sunnah", topics: ["sukuk"] });
+    expect(items.find((i) => i.id === "passage/fiqhbook-1")).toMatchObject({ section: "books" });
+    expect(items.find((i) => i.id === "passage/sira-1")).toMatchObject({ section: "seerah" });
+    expect(items.find((i) => i.id === "concept/waqf")).toMatchObject({ section: "curated", topics: ["waqf"] });
+    expect(items.find((i) => i.id === "work/iqtisad-x")).toMatchObject({ section: "books", topics: ["money"] });
+    expect(data["islamic-economy.json"].feature).toBe("islamic-economy-browser");
   });
 
   it("is empty-capable", () => {

@@ -16,6 +16,7 @@ translations:
   en: { text: "Allah hath blighted usury and made almsgiving fruitful. Allah loveth not the impious and guilty.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "خدا سود کو نابود (یعنی بےبرکت) کرتا اور خیرات (کی برکت) کو بڑھاتا ہے اور خدا کسی ناشکرے گنہگار کو دوست نہیں رکھتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

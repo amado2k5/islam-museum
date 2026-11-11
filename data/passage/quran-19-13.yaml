@@ -16,6 +16,7 @@ translations:
   en: { text: "And compassion from Our presence, and purity; and he was devout,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور اپنے پاس شفقت اور پاکیزگی دی تھی۔ اور پرہیزگار تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

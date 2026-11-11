@@ -22,6 +22,7 @@ import { DUA_TAG, duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, isDuaPass
 import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
 import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatTagSection, isHasanatPassage, type HasanatKind } from "./hasanat.js";
 import { MUKATABAT_TAG, mukatabatCorpusOf, mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf, mukatabatTagSection, mukatabatTagSender, isMukatabatPassage } from "./mukatabat.js";
+import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { existsSync, readdirSync } from "node:fs";
 
@@ -234,6 +235,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : duaTagSection(n),
       dua_kind: n.class === "passage" ? duaKindOf(n) : null,
       signals: n.class === "passage" ? duaSignalsOf(n) : [],
+    }) },
+  { file: "islamic-economy.json", feature: "islamic-economy-browser",
+    pick: (n) => n.tags.includes(IE_TAG) || isIslamicEconomyPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? ieCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : ieTagSection(n),
+      topics: n.class === "passage" ? ieTopicsOf(n) : ieTagTopics(n),
+      signals: n.class === "passage" ? ieSignalsOf(n) : [],
     }) },
   { file: "hasanats.json", feature: "hasanat-browser",
     pick: (n) => n.tags.includes(HASANAT_TAG) || isHasanatPassage(n),
