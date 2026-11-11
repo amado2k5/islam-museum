@@ -1,0 +1,26 @@
+id: concept/mubashshirat
+class: concept
+kind: belief
+label:
+  ar: المبشرات
+  en: Glad tidings in dreams (mubashshirat)
+  ur: مبشرات — خوابوں میں بشارتیں
+summary:
+  ar: "الرؤيا الصالحة من الله وبشرى للمؤمن؛ قال النبي إن المبشرات ما يبقى من النبوة بعد انقطاع الوحي. {cite:sahih-muslim} {cite:muwatta-malik}"
+  en: "The true dream as glad tidings: the Prophet taught that mubashshirat — the dreams that bring good news — are what remains of prophethood after revelation ceased. {cite:sahih-muslim} {cite:muwatta-malik}"
+  ur: "سچا خواب بشارت کے طور پر: نبی نے سکھایا کہ مبشرات — وہ خواب جو اچھی خبر دیتے ہیں — نبوت کے وہ ضمن ہیں جو اس کے ختم ہونے کے بعد باقی رہ جاتے ہیں۔ {cite:sahih-muslim} {cite:muwatta-malik}"
+wings: [ideas]
+themes: [creed]
+periods: [period/prophetic-era]
+relations:
+  - { type: related_to, target: concept/ahlam, sources: [source/sahih-muslim] }
+  - { type: related_to, target: concept/ruya-fiqh, sources: [source/sahih-muslim] }
+sources: [source/sahih-muslim, source/muwatta-malik, source/sahih-al-bukhari]
+provenance:
+  layer: own-research
+  source: "Sahih Muslim and the Muwatta, the chapters on dreams and glad tidings"
+  generated_by: "Devin (SWE-2 Flash)"
+  model: swe-2-flash
+  run: dreams-browser-01
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash)" }
+tags: [dream-browser, dream-concepts]

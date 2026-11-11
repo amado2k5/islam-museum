@@ -1,7 +1,7 @@
 # Plan 35 — Jinn & Devils Browser (متصفح الشياطين والجن)
 
 _Requested by the founder 10 November 2026 (verbatim, kept for the acceptance spec in
-`docs/engineering/23-jinn-devils-requirements.md`): "start working on متصفح الشياطين والجن
+`docs/engineering/25-jinn-devils-requirements.md`): "start working on متصفح الشياطين والجن
 where it should list all the mentioned and written Jinn and demons/devil that are in quran,
 sunnah, any of seerah and any dreams mentioned and written in books that were harvested and
 any future harvested book if it has a Jinn and demons/devil should be viewable here. add a box
@@ -83,7 +83,7 @@ jinn and devil-associated); it then appears in each of its sections.
 Built 10 November 2026: schema kinds, 29 tags, 4 seed records, the mentions harvester
 (97 passage records, ~150 edges), the browser pages in three languages, the Explore entry,
 the landing card, `/api/v1/jinn-devils.json`, OpenAPI, `llms.txt` and the requirements spec
-(`docs/engineering/23-jinn-devils-requirements.md`). Records are draft-tier until a human
+(`docs/engineering/25-jinn-devils-requirements.md`). Records are draft-tier until a human
 reads them; nothing goes live until the founder deploys. Interaction-story waves continue:
 more angel encounters (the cave of the three men, Badr's angel host), jinn encounters
 (the well of Banu Ghifar, the jinn of the marketplace and the road), devil encounters

@@ -17,6 +17,7 @@ translations:
   ur: { text: "(یعنی) ہمیشہ رہنے کے باغات جن میں وہ داخل ہوں گے اور ان کے باپ دادا اور بیبیوں اور اولاد میں سے جو نیکوکار ہوں گے وہ بھی (بہشت میں جائیں گے) اور فرشتے (بہشت کے) ہر ایک دروازے سے ان کے پاس آئیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

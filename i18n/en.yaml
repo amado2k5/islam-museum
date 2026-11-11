@@ -1592,6 +1592,14 @@ explore:
       title: Nature Explorer
       desc: "Animals, birds, insects, sea creatures, plants and the phenomena of creation in the Qur'an and the hadith — every verse and report with its source."
       menu: "Browse nature in the Qur'an and hadith"
+    angels:
+      title: "The Angels Browser"
+      desc: "Every mention of the angels in the Qur'an, the hadith, the Seerah and the Sunni books — Gabriel, Michael, Israfil, the recording scribes, the angels of Badr and Hunayn — grouped by role with every verse and report cited."
+      menu: "Browse the angels and their mentions"
+    dreams:
+      title: Dream Browser
+      desc: "Every vision and dream mentioned in the Qur'an, the hadith, the seerah and every harvested book — from Joseph's dream to the dream of Laylat al-Qadr, and every dream classified the day its source lands."
+      menu: "Browse dreams in the Qur'an, hadith and seerah"
     jinn-devils:
       title: "Jinn & Devils Browser"
       desc: "Jinn, devils and demons, angels, and the dreams that carry them — every mention in the Qur'an, the hadith and the seerah with its source."
@@ -3256,6 +3264,70 @@ nature:
     cosmos:
       title: The created world
       desc: "Rain, mountains, thunder, winds, night and day, sun, moon and stars, water, earth and heavens — the signs spread before those who reflect."
+angels:
+  title: Angels Browser
+  lede: "The angels in the Qur'an, the hadith, the Seerah and the Sunni books: Gabriel and Michael, Israfil and Malik, Ridwan and the two of the grave, the noble scribes, and the angels of Badr and Hunayn — every mention with its source."
+  badge: Angels browser
+  status: "This build holds {n} records in {s} sections; texts are draft until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — cited, trilingual — grouped by the tags angels-browser and angels-<section> inside the one graph, not in a side table. The Qur'an text is the frozen Tanzil text, shown on the subject pages by reference only, and the hadith cards link to the reports' own pages."
+  api: "The whole dataset is at"
+  sections_title: The browser's sections
+  filter_label: Filter subjects
+  filter_none: No matching results.
+  empty: No angels records in this build yet.
+  entity_page: "Museum record"
+  quran_title: "In the Qur'an"
+  hadith_title: "In the hadith"
+  quran_ref: "Qur'an"
+  related_title: "Also in the museum"
+  sections:
+    doctrine:
+      title: Creed and creation
+      desc: "What the angels are, how they were made, their ranks and obedience — the foundation every mention stands on."
+    revelation:
+      title: Angels of revelation
+      desc: "Gabriel and Michael: the carriers of the Word, the announcers, the winds and the rain."
+    eschaton:
+      title: Angels of the Hereafter
+      desc: "Israfil and the Trumpet, Malik of the Fire, Ridwan of Paradise, the two of the grave, and the angel of death."
+    recording:
+      title: The recording angels
+      desc: "The noble scribes at every shoulder, the watcher and the attendant, and the angel of the fetus."
+    hosts:
+      title: Ranks and hosts
+      desc: "The bearers of the Throne, the higher assembly, and the angels seen at Badr."
+    events:
+      title: Appearances and encounters
+      desc: "Every meeting between angels and people: Ibrahim's guests, Zakariya's callers, Maryam's angel, the Prophet's encounters, and the angels of aid."
+dreams:
+  title: Dream Browser
+  lede: "Every vision and dream mentioned in the museum's sources: the Qur'anic verses from the story of Joseph to the dream of Badr, the dream hadiths of the two Sahihs, the Muwatta and the Sunan, what the seerah books carry, and every dream in every harvested book — sourced records that grow as new texts land."
+  badge: Dream explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Qur'anic verses are found in the frozen Tanzil text, dream hadiths are found by their vocabulary in the books' texts, and every book harvested later brings its dreams here automatically once its passages land in the graph; curated records about the science of dreams join through the dream-browser tag."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter dreams
+  filter_none: No matches.
+  empty: No dream records in this build yet.
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The verses of vision and dream: Joseph, his brothers, the prison and the king; Abraham's dream of the sacrifice; the Prophet's dreams at Badr and the Sacred Mosque; and the mentions of dreams in the chapters of reminder and division."
+    sunnah:
+      title: In the Sunnah
+      desc: "The dream hadiths of the two Sahihs, the Muwatta and the Sunan: the dreams of the Prophet and the Companions, the rulings on the true dream, the bad dream and ihtilam, and the principles of glad tidings."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and history books carry of dreams — this section fills itself as new seerah texts with visions land."
+    books:
+      title: In the other books
+      desc: "Dreams in every harvested book beyond the Qur'an, the hadith and the seerah — poetry, history, fiqh and whatever comes next."
+    concepts:
+      title: The science of dreams
+      desc: "The museum's curated records on dreams: the books of dreams in hadith, their interpretation and rulings, the bad dream and ihtilam, and the glad tidings."
 jinn-devils:
   title: "Jinn & Devils Browser"
   lede: "Jinn, devils and demons, angels, and the dreams that carry them — every being, encounter and report the Qur'an, the hadith, the seerah and the harvested books record, gathered in one browser with its sources."

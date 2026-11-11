@@ -17,6 +17,7 @@ translations:
   ur: { text: "اس وقت خدا نے تمہیں خواب میں کافروں کو تھوڑی تعداد میں دکھایا۔ اور اگر بہت کر کے دکھاتا تو تم لوگ جی چھوڑ دیتے اور (جو) کام (درپیش تھا اس) میں جھگڑنے لگتے لیکن خدا نے (تمہیں اس سے) بچا لیا۔ بےشک وہ سینوں کی باتوں تک سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
+  - { type: mentions, target: concept/ahlam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

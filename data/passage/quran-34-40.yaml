@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جس دن وہ ان سب کو جمع کرے گا پھر فرشتوں سے فرمائے گا کیا یہ لوگ تم کو پوجا کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

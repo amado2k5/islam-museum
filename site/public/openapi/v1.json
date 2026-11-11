@@ -346,11 +346,41 @@
         }
       }
     },
+    "/angels.json": {
+      "get": {
+        "operationId": "getAngels",
+        "summary": "Angels Browser dataset",
+        "description": "The Angels Browser dataset: every record tagged angels-browser (named angels, orders and hosts, recording angels, angel-human encounters across the Qur'an, hadith, Seerah and Sunni books) with kind, wings, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every angels record with kind, wings, themes, section tags and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/dreams.json": {
+      "get": {
+        "operationId": "getDreams",
+        "summary": "Dream Browser dataset",
+        "description": "The Dream Browser dataset (متصفح الأحلام): every dream the museum's sources mention — Qur'an verses, hadith reports, seerah books and every harvested work — detected at build time plus the curated records tagged dream-browser, each with its corpus section (quran, sunnah, seerah, books, concepts), work, ref, text excerpt, kind, themes and edges.",
+        "responses": {
+          "200": {
+            "description": "Every dream record with corpus section, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/jinn-devils.json": {
       "get": {
         "operationId": "getJinnDevils",
         "summary": "Jinn & Devils Browser dataset",
-        "description": "The Jinn & Devils Browser dataset: every record tagged jinn-devils-browser — jinn, devils and demons, angels, and the dreams that carry them — plus angels-browser angel records, with kind, wings, themes, section tags and edges.",
+        "description": "The Jinn & Devils Browser dataset (متصفح الشياطين والجن): every record tagged jinn-devils-browser — jinn, devils and demons, angels, and the dreams that carry them — plus angels-browser angel records, with kind, wings, themes, section tags and edges.",
         "responses": {
           "200": {
             "description": "Every jinn/devils/angels/dreams record with kind, wings, themes, section tags and edges",

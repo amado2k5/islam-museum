@@ -16,6 +16,9 @@ regions: [global]
 issue:
   ar: "هل يجوز السجود لغير الله، وكيف يُفهم سجود الملائكة لآدم دون عبادة له؟"
   en: "Is prostration to anyone other than God permitted, and how is the angels' prostration to Adam to be understood without worship of him?"
+relations:
+  - { type: related_to, target: concept/mal-al-aala, sources: [source/tafsir-sharawi-khawatir-scan] }
+  - { type: related_to, target: concept/malaika-khalq, sources: [source/tafsir-sharawi-khawatir-scan] }
 perspectives:
   - tradition: sunni
     id: sunni-sharawi
@@ -45,7 +48,7 @@ perspectives:
       ar: "يذكر الشعراوي اعتراضات قيلت دون أن يسمي أصحابها، وهي معروضة هنا كما نقلها هو ولم تُراجع في مصادرها."
       en: "Sha'rawi reports objections without naming their holders; they are set out as he reports them and have not been checked at their sources."
     sources: []
-relations: []
+tags: [angels-browser, angels-events]
 sources: [source/tafsir-sharawi-khawatir-scan, source/tafsir-tabari-shakir-v01]
 provenance:
   layer: own-research

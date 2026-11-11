@@ -17,6 +17,7 @@ translations:
   ur: { text: "(مشرکو!) کیا تمہارے پروردگار نے تم کو لڑکے دیئے اور خود فرشتوں کو بیٹیاں بنایا۔ کچھ شک نہیں کہ (یہ) تم بڑی (نامعقول بات) کہتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

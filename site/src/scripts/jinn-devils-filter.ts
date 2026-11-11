@@ -1,4 +1,4 @@
-// The Jinn & Devils Browser's filter (docs/plan/35-jinn-devils-browser.md): narrows the topic list
+// The Jinn & Devils Browser's filter (docs/plan/37-jinn-devils-browser.md): narrows the topic list
 // as the visitor types, matching titles and summaries in all three languages, ignoring Arabic vowel
 // marks. Without JavaScript the whole list is on the page.
 const input = document.querySelector<HTMLInputElement>("[data-jinn-devils-filter]");

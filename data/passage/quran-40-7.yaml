@@ -17,6 +17,8 @@ translations:
   ur: { text: "جو لوگ عرش کو اٹھائے ہوئے اور جو اس کے گردا گرد (حلقہ باندھے ہوئے) ہیں (یعنی فرشتے) وہ اپنے پروردگار کی تعریف کے ساتھ تسبیح کرتے رہتے ہیں اور مومنوں کے لئے بخشش مانگتے رہتے ہیں۔ کہ اے ہمارے پروردگار تیری رحمت اور تیرا علم ہر چیز کو احاطہ کئے ہوئے ہے تو جن لوگوں نے توبہ کی اور تیرے رستے پر چلے ان کو بخش دے اور دوزخ کے عذاب سے بچالے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: mentions, target: concept/hamalat-al-arsh, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

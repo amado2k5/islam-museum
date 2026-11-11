@@ -1,6 +1,6 @@
 # Jinn & Devils Browser — requirements and production acceptance test
 
-«متصفح الشياطين والجن» — the museum's browser over jinn, devils and demons, angels, and the dreams that carry them, as mentioned and written in the Qur'an, the Sunnah, the seerah, the Companion and Tabi'i reports, and every harvested book. Plan: `docs/plan/35-jinn-devils-browser.md`. Lane: `jinn-devils` (`docs/agents/lanes.md`). Implemented in `site/src/pages/[lang]/jinn-devils/`, `site/src/lib/jinn-devils.ts`, `scripts/export-api.ts` (`jinn-devils.json`).
+«متصفح الشياطين والجن» — the museum's browser over jinn, devils and demons, angels, and the dreams that carry them, as mentioned and written in the Qur'an, the Sunnah, the seerah, the Companion and Tabi'i reports, and every harvested book. Plan: `docs/plan/37-jinn-devils-browser.md`. Lane: `jinn-devils` (`docs/agents/lanes.md`). Implemented in `site/src/pages/[lang]/jinn-devils/`, `site/src/lib/jinn-devils.ts`, `scripts/export-api.ts` (`jinn-devils.json`).
 
 This file is the acceptance spec: each numbered requirement states what must be true, how to check it against the production site, and what the expected result is. Any agent or reviewer can run the checks verbatim. Numbers marked *(derived)* are computed from the graph at build time — the exact figures below are the values at implementation (10 November 2026, 33 browser records); they can only grow as waves land, so test against *at least* those values, or better, against the numbers the graph build reports.
 
@@ -20,7 +20,7 @@ Second instruction, same day:
   Check: `curl -s https://islam.museum/api/v1/jinn-devils.json | python3 -c "import json,sys; d=json.load(sys.stdin); items=d if isinstance(d,list) else d['items']; print(len(items))"` → `>= 33`.
 - **R2** **Future harvested books surface automatically**: a record from any later book enters the browser the moment it carries the `jinn-devils-browser` tag (or `angels-browser` for the angels section); no code change is needed. The mentions harvester `scripts/harvest/jinn-devils/mentions.py` is idempotent and re-runnable over `data/passage/` so new passage records get their `mentions` edges on the next run.
   Check: `python3 scripts/harvest/jinn-devils/mentions.py` (dry run) reports 0 *new* files against the committed state; the script's PATTERNS table is the classification contract.
-- **R3** **Interaction stories**: the records include the meetings and interactions between jinn/devils and humans recorded in the Qur'an, seerah, Sunnah and Companion/Tabi'i reports — at implementation: `event/jinn-delegation` (Sahih Muslim), `event/sihr-against-the-prophet` and `person/labid-ibn-al-asam` (the bewitching, Two Sahihs + Ibn Ishaq), plus the angel-interaction events already in the graph (`event/battle-of-badr`, `event/uhud-archers-mistake`, `person/dihya-al-kalbi`, `event/jinn-hear-the-quran`). Additional waves are planned (plan 35 §6).
+- **R3** **Interaction stories**: the records include the meetings and interactions between jinn/devils and humans recorded in the Qur'an, seerah, Sunnah and Companion/Tabi'i reports — at implementation: `event/jinn-delegation` (Sahih Muslim), `event/sihr-against-the-prophet` and `person/labid-ibn-al-asam` (the bewitching, Two Sahihs + Ibn Ishaq), plus the angel-interaction events already in the graph (`event/battle-of-badr`, `event/uhud-archers-mistake`, `person/dihya-al-kalbi`, `event/jinn-hear-the-quran`). Additional waves are planned (plan 37 §6).
   Check: `curl -s https://islam.museum/api/v1/jinn-devils.json` items include `event/jinn-delegation`, `event/sihr-against-the-prophet`, `person/labid-ibn-al-asam`, `person/iblis`, `concept/jinn`, `concept/jinn-anwa`, `concept/qareen`, `concept/shayatin-al-ins-wal-jinn`.
 
 ## 2. Pages exist and render in all three languages
@@ -33,7 +33,7 @@ Second instruction, same day:
 
 ## 3. Taxonomy — four sections
 
-- **R8** The landing page groups records into the `jd-<section>` tags: `jinn` (the jinn), `devils` (devils and demons), `angels` (angels), `dreams` (dreams and dream literature). Each section shows its record count and links its cards. *(derived)* roster at implementation is in `docs/plan/35-jinn-devils-browser.md`.
+- **R8** The landing page groups records into the `jd-<section>` tags: `jinn` (the jinn), `devils` (devils and demons), `angels` (angels), `dreams` (dreams and dream literature). Each section shows its record count and links its cards. *(derived)* roster at implementation is in `docs/plan/37-jinn-devils-browser.md`.
 - **R9** The section set is data-driven: a record re-tagged between sections moves sections on the next build; a record carrying several `jd-*` tags appears in each of its sections; only the four tag names are ordered in `site/src/lib/jinn-devils.ts` `JD_SECTIONS`.
 
 ## 4. Subject page content
@@ -54,7 +54,7 @@ Second instruction, same day:
 
 - **R17** The Explore menu contains a «Jinn & Devils Browser» entry in all three languages (`explore.pages.jinn-devils` in `i18n/{ar,en,ur}.yaml`), linking `/{lang}/jinn-devils/`.
 - **R18** The landing page shows a dedicated card (title + lede), separate from every other browser card, via `explorePages(lang)`.
-- **R19** The browser is registered in `docs/site/browsers.md` (row with routes, plan link, counts), `docs/status.md`, `docs/agents/lanes.md` (`jinn-devils` lane), `docs/plan/35-jinn-devils-browser.md`, the plan index (`docs/plan/00-README.md`), and `CANARY.md` (reader-facing entry per commit).
+- **R19** The browser is registered in `docs/site/browsers.md` (row with routes, plan link, counts), `docs/status.md`, `docs/agents/lanes.md` (`jinn-devils` lane), `docs/plan/37-jinn-devils-browser.md`, the plan index (`docs/plan/00-README.md`), and `CANARY.md` (reader-facing entry per commit).
 
 ## 7. API
 

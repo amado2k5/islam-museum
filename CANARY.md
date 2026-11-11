@@ -13,9 +13,39 @@ open a new block on top with the new version and today's date.
 
 ---
 
-## v1.11.0 — 2026-11-11
+## v1.11.4 — 2026-11-11
 ### Added
 - **Jinn & Devils Browser: «متصفح الشياطين والجن» is live in the build.** A dedicated browser gathers every jinn, devil and demon, angel and dream record in the museum's graph — the Qur'an, the hadith, the seerah and the harvested books — into four sections (the jinn, devils, angels, dreams). Every record gets a subject page showing the ayahs and reports that mention it, drawn from the frozen Qur'an text and the harvested passages. The browser joins the Explore menu and the landing page in Arabic, English and Urdu, exports `/api/v1/jinn-devils.json`, and is documented in the engineering requirements spec so any agent can test it against production.
+
+## v1.11.3 — 2026-11-10
+### Data
+- **`concept/ruya-fiqh` gains a fiqh-rulings section, trilingual.** The dream-fiqh record now states that no legal ruling is built on a dream (nothing attaches until the cause exists in waking), ties ihtilam's ghusl reports (Muwatta 126–128) and the mubashshirat hadith (Muwatta 2749) to their `[[passage/…]]` records, and cross-links the chapter to `concept/ahlam`, `concept/al-hulm`, `concept/taabir-al-ruya` and `concept/kitab-al-ruya`. Stays `status.review: draft`.
+
+## v1.11.2 — 2026-11-10
+### Data
+- **Dream concept prose deepened, trilingual.** Four records of the Dream Browser's science-of-dreams section gained full Arabic, English and Urdu prose in the museum's cited-docent voice: `concept/ahlam-al-anbiya` now walks every prophetic dream the graph carries — Joseph's star dream and prison interpretation, Abraham's sacrifice vision, and the Prophet's milk, palace, Kaaba and Laylat al-Qadr dreams, each tied to its `[[passage/…]]` record; `concept/al-hulm` unpacks the bad-dream report with its remedy (left-hand blowing, seeking refuge, telling no one) and separates it from ihtilam; `concept/taabir-al-ruya` sets out the interpretation rules the people of knowledge gathered — interpretation by the dreamer's state, by the likely, only by people of dreams — beside the Joseph model and the Ibn Sirin book card; `concept/ihtilam` adds the Muwatta's reports (the woman's dream-ghusl question, Umar's re-prayer after sleep, the madhy doubt) to the fiqh-encyclopedia summary. Every claim cites a defined source; all stay `status.review: draft` until a human reads them.
+
+---
+
+## v1.11.1 — 2026-11-11
+### Fixed
+- **Merge repair for the Angels and Dream browsers.** The union merge of the two browser branches left three seams on `main`: a duplicated `ExplorePage` interface in `site/src/lib/nav.ts` (TypeScript would reject the conflicting `key` types), a truncated `/angels.json` block that broke `site/public/openapi/v1.json`, and two competing export-list assertions in `scripts/features-api.test.ts`. All three are repaired so both browsers' entries stand side by side; four register lines that briefly pointed at a non-existent `docs/plan/36-dreams-browser.md` now point back to `docs/plan/35-dreams-browser.md`.
+
+---
+
+## v1.11.0 — 2026-11-10
+### Added
+- **Angels Browser: متصفح الملائكة (`/{lang}/angels/`).** A new browser over the one graph listing angels and everything mentioned about them in the Qur'an, the hadith, the Seerah and the Sunni books — named angels (Gabriel, Michael, Israfil, Malik of the Fire, Ridwan, Munkar and Nakir, Harut and Marut, the angel of death), orders and hosts (the Throne-bearers, the higher assembly, the angels of Badr), the recording angels (the noble scribes, the watcher and the attendant, the angel of the fetus), and angel-human encounters (Ibrahim's guests, Zakariya's callers, Maryam's angel, the angels of aid at Badr and Hunayn, Laylat al-Qadr, the Prophet's own encounters). Eighteen new cited concept records (new kind `angel`), trilingual draft prose, `angels-browser` tags on nineteen existing records, ~300 `mentions` edges from Qur'an and hadith passages, the `/[lang]/angels/` pages with a filterable section grid and per-subject verse/report pages, `/api/v1/angels.json`, an Explore-menu and landing card, and the acceptance spec `docs/engineering/24-angels-browser-requirements.md` for production validation. Plan `docs/plan/36-angels-browser.md`; lane `angels`. Records are draft until a human reads them.
+- **متصفح الأحلام · Dream Browser (`/{lang}/dreams/`).** A new explorer gathers every dream the museum's sources mention — the Qur'anic verses of vision and dream (the story of Joseph, Abraham's sacrifice dream, the dreams fulfilled at Badr and the Sacred Mosque), the dream hadiths of the two Sahihs, the Muwatta and the Sunan, what the seerah books carry, and every dream in every harvested book — in five sections (Qur'an, Sunnah, seerah, other books, the science of dreams). Passages are found automatically at build time by a shared detector (`scripts/dreams.ts`), so a dream in any book harvested later appears here the day its record lands; curated records about the science of dreams join through a tag. Every card opens the record's own museum page; the list filters as you type and reads fully without JavaScript. It sits in the Explore menu and on the landing page in Arabic, English and Urdu, and its whole set is open at `/api/v1/dreams.json`.
+- **Four new records on the science of dreams.** `concept/ahlam` (the umbrella: the true dream, the bad dream and the soul's talk), `concept/kitab-al-ruya` (the hadith chapter on dreams), `concept/mubashshirat` (dreams as glad tidings) and `concept/ahlam-al-anbiya` (the prophets' dreams), each with trilingual labels, summaries and prose — draft until a human reads them. Five existing records (the fiqh of the dream, its interpretation, the bad dream, ihtilam and the modern dream-interpretation debate) joined the browser in place.
+- **Dream mentions linked across the graph.** Every detected Qur'an ayah and hadith passage gained a `mentions` edge to `concept/ahlam` with its own source, and the eight narrative prophetic-dream ayahs also point to `concept/ahlam-al-anbiya` — so the concept pages show where dreams appear.
+- **Requirements spec for the Dream Browser.** `docs/engineering/23-dream-browser-requirements.md` records the founder's original request verbatim and the full acceptance checklist — graph model, corpus coverage, the page in three languages, the API, registers, governance and known limits — each with a production check, so any person or agent can validate the deployed feature. Plan: `docs/plan/35-dreams-browser.md`.
+
+### Data
+- **Dream corpus: 34 passages detected, 45 browser items.** The build-time detector found 15 Qur'an ayahs, 18 sunnah reports and 1 poetry passage containing dream vocabulary; known false positives (waking sight, similes, the bird-brains insult, forbearance, "expression") are excluded by rule. The seerah section is ready and fills itself as seerah passages are harvested.
+- **Dream concept prose enriched, trilingual.** The four new concept records (`concept/ahlam`, `kitab-al-ruya`, `mubashshirat`, `ahlam-al-anbiya`) gained full trilingual prose that walks the reports the hadith collections actually carry — the forty-sixths-of-prophethood sayings, the morning-questions after fajr, the blowing-on-the-left remedy for the bad dream, Yunus 64 read as mubashshirat, the milk dream and the palace dream, Laylat al-Qadr and the adhan dreams — each tied to its `[[passage/…]]` and `[[person/…]]`/`[[work/…]]` records and cited to the defined sources with page numbers, in the same shape as the fiqh records. Two dream works joined the browser through the tag: `work/tafsir-al-ahlam-ibn-sirin` (draft card) and `work/fatwa-islamweb-dreaming-of-blasphemy` (published fatwa on dreaming of blasphemy). All remain `status.review: draft` until a human reads them.
+
+---
 
 ## v1.10.1 — 2026-11-11
 ### Added

@@ -17,6 +17,7 @@ translations:
   ur: { text: "جن لوگوں نے کہا کہ ہمارا پروردگار خدا ہے پھر وہ (اس پر) قائم رہے ان پر فرشتے اُتریں گے (اور کہیں گے) کہ نہ خوف کرو اور نہ غمناک ہو اور بہشت کی جس کا تم سے وعدہ کیا جاتا تھا خوشی مناؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
+  - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

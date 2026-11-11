@@ -32,8 +32,11 @@ waypoints:
       en: "He landed in Jerusalem, led the prophets in prayer, tied the Buraq to the ring of a door of the mosque, and was then ascended that night from Jerusalem to the lowest heaven (al-Raheeq p. 138)."
     events: [event/isra-and-miraj]
     sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
+tags: [angels-browser, angels-events]
 relations:
   - { type: part_of, target: event/isra-and-miraj }
   - { type: had_participant, target: person/muhammad, role: "المُسرى به", sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: person/jibril, sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: concept/malaika, sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Raheeq al-Makhtum pp. 137-142" }

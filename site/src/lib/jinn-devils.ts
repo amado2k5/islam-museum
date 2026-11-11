@@ -1,4 +1,4 @@
-// The Jinn & Devils Browser's shared reads (docs/plan/35-jinn-devils-browser.md): every record
+// The Jinn & Devils Browser's shared reads (docs/plan/37-jinn-devils-browser.md): every record
 // tagged `jinn-devils-browser`, grouped by its `jd-<section>` tags into the browser's four
 // sections, plus the angel records the parallel Angels Browser tags (`angels-browser`) so this
 // browser is complete whether or not that branch has landed. The Qur'an and hadith passages that
