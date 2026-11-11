@@ -13,6 +13,12 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.11.2 — 2026-11-10
+### Data
+- **Dream concept prose deepened, trilingual.** Four records of the Dream Browser's science-of-dreams section gained full Arabic, English and Urdu prose in the museum's cited-docent voice: `concept/ahlam-al-anbiya` now walks every prophetic dream the graph carries — Joseph's star dream and prison interpretation, Abraham's sacrifice vision, and the Prophet's milk, palace, Kaaba and Laylat al-Qadr dreams, each tied to its `[[passage/…]]` record; `concept/al-hulm` unpacks the bad-dream report with its remedy (left-hand blowing, seeking refuge, telling no one) and separates it from ihtilam; `concept/taabir-al-ruya` sets out the interpretation rules the people of knowledge gathered — interpretation by the dreamer's state, by the likely, only by people of dreams — beside the Joseph model and the Ibn Sirin book card; `concept/ihtilam` adds the Muwatta's reports (the woman's dream-ghusl question, Umar's re-prayer after sleep, the madhy doubt) to the fiqh-encyclopedia summary. Every claim cites a defined source; all stay `status.review: draft` until a human reads them.
+
+---
+
 ## v1.11.1 — 2026-11-11
 ### Fixed
 - **Merge repair for the Angels and Dream browsers.** The union merge of the two browser branches left three seams on `main`: a duplicated `ExplorePage` interface in `site/src/lib/nav.ts` (TypeScript would reject the conflicting `key` types), a truncated `/angels.json` block that broke `site/public/openapi/v1.json`, and two competing export-list assertions in `scripts/features-api.test.ts`. All three are repaired so both browsers' entries stand side by side; four register lines that briefly pointed at a non-existent `docs/plan/36-dreams-browser.md` now point back to `docs/plan/35-dreams-browser.md`.
