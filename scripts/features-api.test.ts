@@ -156,6 +156,8 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(sayyiatSignalsOf(braceletFp as any)).toEqual([]);
     expect(sayyiatSignalsOf(kabiraOnly as any)).toEqual([]);
     expect(sayyiatSignalsOf(pairGated as any)).toEqual(expect.arrayContaining(["kabira", "saghiira", "ijrim"]));
+  });
+
   it("exports hasanats: detected passages by corpus and kind, gated false positives, future-book inclusion", () => {
     const hasanatAyah = makeNode("passage/quran-11-114x", "passage", { unit: "ayah", work: "work/quran", sura: 11, aya: 114, text: "إن الحسنات يذهبن السيئات" });
     const hasanaHadith = makeNode("passage/muslim-9996", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9996", text: "كل عمل ابن آدم يضاعف الحسنة بعشر أمثالها" });
