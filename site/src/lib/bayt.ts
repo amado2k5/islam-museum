@@ -1,4 +1,4 @@
-// The Bayt al-Nubuwwa & Al al-Nabi Browser's shared reads (docs/plan/39-bayt-browser.md):
+// The Bayt al-Nubuwwa & Al al-Nabi Browser's shared reads (docs/plan/40-bayt-browser.md):
 // everything the museum's sources mention about the Prophet's household and family —
 // بيت النبوة وآل النبي — across the Qur'an, the Sunnah, the seerah books and every
 // harvested work, plus the curated records on the family itself. Passages are found by

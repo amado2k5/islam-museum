@@ -1,7 +1,7 @@
 # Kitab al-Maghazi (كتاب المغازي) — al-Waqidi — bayt-browser harvest delegation
 
-Lane: `bayt`. Feature: `docs/plan/39-bayt-browser.md`;
-requirements: `docs/engineering/27-bayt-browser-requirements.md` (BAYT-R17).
+Lane: `bayt`. Feature: `docs/plan/40-bayt-browser.md`;
+requirements: `docs/engineering/28-bayt-browser-requirements.md` (BAYT-R17).
 
 ## Source decision
 

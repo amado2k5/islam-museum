@@ -1,10 +1,10 @@
-# 27 · Household of the Prophet Browser — requirements and production checklist
+# 28 · Household of the Prophet Browser — requirements and production checklist
 
 _The feature requirements for «متصفح بيت النبوة وآل النبي» (the Household of
 the Prophet and the Prophet's family — everything mentioned about the
 Prophet's household anywhere in the Qur'an, the Sunnah, the seerah and every
 harvested book, including books harvested later), as requested by the founder
-and delivered in `docs/plan/39-bayt-browser.md`. Written so any person or AI
+and delivered in `docs/plan/40-bayt-browser.md`. Written so any person or AI
 agent can validate each requirement against production
 (`https://islam.museum`, `https://api.islam.museum`) without reading the plan.
 Every requirement has an id (`BAYT-R..`), a "how to check" line, and the
@@ -188,7 +188,7 @@ Founder rulings recorded during planning (verbatim decisions):
   only in qualified forms or after the false-positive audit; generic «آل»/«أهل»/
   «سبط»/bare «البيت» do not match alone. *Check:* read `BAYT_*` constants in
   `scripts/bayt.ts`; the corpus audit in
-  `docs/plan/39-bayt-browser.md` §audit records counts and exclusions.
+  `docs/plan/40-bayt-browser.md` §audit records counts and exclusions.
   *Artifact:* `scripts/bayt.ts`.
 
 ### Seerah harvest

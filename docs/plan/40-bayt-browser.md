@@ -1,6 +1,6 @@
-# 39 · Bayt al-Nubuwwa & Al al-Nabi Browser (متصفح بيت النبوة وآل النبي) — megaplan
+# 40 · Bayt al-Nubuwwa & Al al-Nabi Browser (متصفح بيت النبوة وآل النبي) — megaplan
 
-Lane: `bayt`. Requirements spec: `docs/engineering/27-bayt-browser-requirements.md`
+Lane: `bayt`. Requirements spec: `docs/engineering/28-bayt-browser-requirements.md`
 (`BAYT-R..`). Canaries: `CANARY.md` v1.13.0.
 
 ## Request

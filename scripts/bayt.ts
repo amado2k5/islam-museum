@@ -1,4 +1,4 @@
-// The Bayt al-Nubuwwa & Al al-Nabi Browser's shared reads (docs/plan/39-bayt-browser.md):
+// The Bayt al-Nubuwwa & Al al-Nabi Browser's shared reads (docs/plan/40-bayt-browser.md):
 // which passage records mention the Prophet's household and family — بيت النبوة وآل النبي —
 // and which corpus section each belongs to. Detection runs at build time over the compiled
 // graph, so a mention in any harvested book — and in every book harvested later — appears

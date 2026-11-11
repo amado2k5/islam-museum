@@ -1,4 +1,4 @@
-// The Bayt al-Nubuwwa & Al al-Nabi Browser's filter (docs/plan/39-bayt-browser.md): narrows
+// The Bayt al-Nubuwwa & Al al-Nabi Browser's filter (docs/plan/40-bayt-browser.md): narrows
 // the family list as the visitor types, matching titles, summaries, work names and text
 // excerpts in all three languages, ignoring Arabic vowel marks. Without JavaScript the
 // whole list is on the page.
