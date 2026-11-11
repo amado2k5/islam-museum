@@ -1,0 +1,23 @@
+id: passage/kathir-hatib-01
+class: passage
+unit: chapter
+work: work/al-sira-al-nabawiyya-ibn-kathir
+ref: "537"
+label:
+  ar: "السيرة النبوية لابن كثير — قصة حاطب — اعتراض كتابه"
+  en: "Ibn Kathir's Sirah — Hatib's intercepted letter"
+text: "على بن أبى طالب والزبير بن العوام فقال : « أدرِكا امرأةً قد كتب معها حاطبُ بن أبى بَلتعة بكتاب إلى قريش يحذِّرهم ماقد أجمعنا له من أمرهم » . فحر جا حتى أدركاها بالحكيفة حليفة بنى أبى…"
+summary:
+  ar: "مقطع من السيرة النبوية لابن كثير، في غزوة الحديبية، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Kathir's al-Sira al-Nabawiyya, in غزوة الحديبية, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-bidaya-wal-nihaya] }
+provenance:
+  layer: own-research
+  source: "سيرة ابن كثير ص 537 — اعتراض كتاب حاطب ودفاع عمر وجواب النبي"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: sayyiat-mining-2
+tags: [sayyiat-browser]
+sources: [source/al-bidaya-wal-nihaya]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

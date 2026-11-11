@@ -1,0 +1,23 @@
+id: passage/sallabi-kaab-03
+class: passage
+unit: chapter
+work: work/al-sira-al-nabawiyya-sallabi
+ref: "841"
+label:
+  ar: "السيرة النبوية للسلاّبي — كعب بن مالك — «يا كعب بن مالك أبشر»"
+  en: "al-Sallabi's Sirah — 'O Ka'b ibn Malik, rejoice'"
+text: "شاب. قال: فلبثت بعد ذلك عشر ليال، حتى كملت لنا خمسون ليلة من حين نَهَى رسول اللٰه وَلَلظم عن كلامنا، فلمّا صليّت صلاة الفجر صُبْحَ حمسينَ ليلة، وأنا على ظهر بيت من بيوتنا، فبينا أنا جالس على الحال…"
+summary:
+  ar: "مقطع من السيرة النبوية للسلاّبي، في غزوة تبوك، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Sallabi's al-Sira al-Nabawiyya, in غزوة تبوك, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sira-nabawiyya-sallabi] }
+  - { type: mentions, target: person/muhammad, sources: [source/sira-nabawiyya-sallabi] }
+provenance:
+  layer: own-research
+  source: "سيرة السلاّبي ص 841 — صرخة المبشر وسجود كعب شكراً"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: sayyiat-mining-2
+tags: [sayyiat-browser]
+sources: [source/sira-nabawiyya-sallabi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
