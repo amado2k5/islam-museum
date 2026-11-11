@@ -1,6 +1,7 @@
 id: work/al-jami-al-saghir-fi-al-fiqh
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanafi, mh-kutub]
 label: { ar: "الجامع الصغير في الفقه", en: "al-Jami al-Saghir fi al-Fiqh" }
 summary:
   ar: "بطاقة أولية لـالجامع الصغير في الفقه؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q19452954" }
+relations:
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

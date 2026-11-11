@@ -1,6 +1,7 @@
 id: work/majmu-al-fatawa
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanbali, mh-kutub]
 genre: [creed, fatwa, collection]
 label: { ar: "مجموع الفتاوى", en: "Majmu' al-Fatawa", ur: "مجموع الفتاویٰ" }
 summary:
@@ -16,6 +17,8 @@ language: language/arabic
 structure: "A subject arrangement of Ibn Taymiyya's fatwas, treatises and 'rules' (qawa'id) by the compiler Ibn Qasim, volume by volume. Volumes read for this record: vol. 7, al-Iman (Kitab al-Iman al-Kabir and Kitab al-Iman al-Awsat); vol. 8, Kitab al-Qadar; vol. 10, Kitab 'Ilm al-Suluk (al-Tuhfa al-'Iraqiyya, Amrad al-Qulub wa-Shifa'uha, al-'Ubudiyya, fatwas on fana', the Sufis, retreats, seclusion, the Ihya' and Qut al-Qulub, commentary on sayings of Abd al-Qadir al-Jilani, al-Wasiyya al-Sughra); vol. 37, the general indexes."
 editions: [source/majmu-fatawa-qasim-v10, source/majmu-fatawa-wafa-v7, source/majmu-fatawa-wafa-v8, source/majmu-fatawa-wafa-v37]
 sources: [source/majmu-fatawa-qasim-v10, source/majmu-fatawa-wafa-v7, source/majmu-fatawa-wafa-v8, source/majmu-fatawa-wafa-v37]
+relations:
+  - { type: mentions, target: group/hanbali-madhhab, sources: [source/majmu-fatawa-qasim-v10] }
 provenance:
   layer: own-research
   source: "مجموع الفتاوى، طبعة مجمع الملك فهد ج10 ص 1–5، 149، 551، 770–773؛ طبعة دار الوفاء ج7 ص 6–11، 423–433، ج8 ص 434–439، 759–766، ج37 ص 1–5، 604–605"

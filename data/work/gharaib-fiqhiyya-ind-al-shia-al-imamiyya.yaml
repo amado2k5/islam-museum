@@ -1,6 +1,7 @@
 id: work/gharaib-fiqhiyya-ind-al-shia-al-imamiyya
 class: work
 kind: book
+tags: [madhahib-browser, mh-ukhra, mh-kutub]
 label: { ar: "غرائب فقهية عند الشيعة الإمامية", en: "Gharaib Fiqhiyya ind al-Shia al-Imamiyya" }
 summary:
   ar: "بطاقة أولية لـغرائب فقهية عند الشيعة الإمامية؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q19425847" }
+relations:
+  - { type: mentions, target: group/jafari-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

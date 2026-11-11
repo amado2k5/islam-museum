@@ -1,6 +1,7 @@
 id: work/muwatta-malik
 class: work
 kind: book
+tags: [madhahib-browser, mh-maliki, mh-kutub]
 label: { ar: "الموطأ", en: "Muwatta of Imam Malik" }
 summary:
   ar: "كتاب الموطأ لإمام دار الهجرة مالك بن أنس ⁦(ت 179هـ)⁩: من أوائل مصنفات الحديث والفقه المرتبة على الأبواب، جمعه في المدينة المنورة. روايته الأشهر رواية يحيى بن يحيى الليثي، وتتوزع كتبها من الصلاة إلى العقيقة."
@@ -12,6 +13,8 @@ language: language/arabic
 wings: []
 themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
 regions: [arabia]
+relations:
+  - { type: mentions, target: group/maliki-madhhab, sources: [source/muwatta-maruf-1997] }
 provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab headings at PDF pp. 33–645", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
 external_ids:
   wikidata: Q1050556

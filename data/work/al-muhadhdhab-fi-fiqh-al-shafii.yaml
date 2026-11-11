@@ -1,6 +1,7 @@
 id: work/al-muhadhdhab-fi-fiqh-al-shafii
 class: work
 kind: book
+tags: [madhahib-browser, mh-shafii, mh-kutub]
 label: { ar: "المهذب في فقه الإمام الشافعي", en: "Al-Muhadhdhab fi Fiqh al-Imam al-Shafi’i" }
 summary:
   ar: "بطاقة أولية لـالمهذب في فقه الإمام الشافعي؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q136768965" }
+relations:
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

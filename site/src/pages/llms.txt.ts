@@ -40,6 +40,7 @@ export const GET: APIRoute = () => {
     `- [Dream Browser dataset](${SITE}/api/v1/dreams.json) — every dream mentioned in the Qur'an, hadith, seerah and harvested books, detected at build time plus the curated dream-browser records, with corpus section, work, ref and edges`,
     `- [Magic and Magicians Browser dataset](${SITE}/api/v1/magic.json) — every mention of magic and the magicians in the Qur'an, Sunnah, seerah and harvested books (sorcery, soothsaying, ruqyah, evil eye, envy) detected at build time plus the curated magic-browser records, with corpus section, topics, work, ref and edges`,
     `- [Jinn & Devils Browser dataset](${SITE}/api/v1/jinn-devils.json) — every jinn, devil, angel and dream record tagged jinn-devils-browser (plus angels-browser angel records) with kind, section tags, themes and edges`,
+    `- [Four Madhhabs Browser dataset](${SITE}/api/v1/madhahib.json) — every record tagged madhahib-browser with mh-<section> tags (the four imams and schools, other schools, the salaf, books, concepts) plus every record whose mentions edge names a madhhab, with computed sections and edges`,
     `- [Asma ul Husna dataset](${SITE}/api/v1/asma.json) — the 99 divine names in enumeration order with transliteration, root and edges`,
     `- [Khulafa dataset](${SITE}/api/v1/khulafa.json) — every caliph with roles and reign story_roles; chains at ${SITE}/api/v1/khulafa/chains.json`,
     `- [Battles dataset](${SITE}/api/v1/battles.json) — every military engagement with kind, date, sides, outcome, casualties and the derived ghazwa flag`,
