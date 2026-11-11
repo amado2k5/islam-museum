@@ -73,7 +73,7 @@ rows = [
     ("... by where they are", "-", grab("o08-vision.out", r"by where they are: (.*)$"), "-", "o08-vision.out"),
     ("Existing pages rebuilt from the old templates and the new, and compared byte for byte", "-", grab("o08b-unchanged.out", r"(pages rendered by the baseline's templates: \d+; byte-identical under the branch's templates: \d+; different: \d+; missing: \d+)"), "-", "o08b-unchanged.out"),
     ("Rooms walked with JavaScript off, by following \"next\" from the first (Arabic; English)", "-", " ; ".join(__import__("re").findall(r"(\d+ rooms walked of \d+)", text("o09-nojs.out"))) or "not measured", "-", "o09-nojs.out"),
-    ("Cornerstones probed on the live site's wing pages that the page lists (production)", grab("o13-production-wings.out", r"(\d+ of \d+) probed cornerstones"), "not measurable before a deploy", "o13-production-wings.out", "-"),
+    ("Twelve cornerstones looked for on the wing page that should hold them (before: the live site; after: this branch's built pages)", grab("o13-production-wings.out", r"(\d+ of \d+) probed cornerstones"), grab("o13-branch-wings.out", r"(\d+ of \d+) probed cornerstones"), "o13-production-wings.out", "o13-branch-wings.out"),
     ("Subjects the canon register called missing", grab("o07-absences.out", r"baseline: (\d+) subjects"), grab("o07-absences.out", r"(found under another name: \d+\s+only a stub: \d+\s+absent after the search: \d+)"), "o07-absences.out", "o07-absences.out"),
 ]
 L = ["# The run's numbers", "",
