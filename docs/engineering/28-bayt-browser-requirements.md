@@ -197,8 +197,8 @@ Founder rulings recorded during planning (verbatim decisions):
   al-Waqidi's *Kitab al-Maghazi* family chapters is specified in
   `docs/delegation/library/maghazi-waqidi.md` with the edition/source
   decision, the chapter list in scope, the citation rules, and the explicit
-  statement of what remains unmined. A library stub
-  `data/_stubs.d/lib-maghazi-waqidi.yaml` registers the work for future
+  statement of what remains unmined. A library manifest
+  `docs/delegation/library/maghazi-waqidi.yaml` registers the work for future
   waves. *Check:* both files exist and name the in-scope chapters.
   *Artifact:* those files.
 - **BAYT-R18 — Seerah section live.** `/ar/bayt/` shows the «في السيرة»
