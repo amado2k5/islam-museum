@@ -12,7 +12,8 @@
 #      taken from main for the purpose of this run: CANARY.md (both sides add a version block at the top; the real
 #      merge places this branch's block above main's newest) and docs/coverage.md (generated; regenerated on merge).
 #      Any other conflict stops the script: it is a finding, and is written to merge.out;
-#   3. builds the graph artifact, the derived files and the scoped site build from the merged tree;
+#   3. builds the graph artifact, the time browser's files, the derived files and the scoped site build from the
+#      merged tree, and records in build.out whether that build completed;
 #   4. runs oracles 00, 01, 02, 03, 04, 05, 07 and 09 and the validator there, and writes their outputs into THIS
 #      checkout, under docs/fable-run/oracle-output/integration/.
 # The merge is never committed (the repository's commit hook refuses commits that touch Qur'an passage files, which
@@ -42,9 +43,19 @@ echo "files main changed that this branch also changed, merged by git without co
 echo "RESULT: GREEN (the merge conflicts only in CANARY.md and docs/coverage.md)" >> "$OUT/merge.out"
 ln -s "$ROOT/node_modules" node_modules
 ln -s "$ROOT/site/node_modules" site/node_modules
+# the same preparation the site's own prebuild runs before a build: the graph, the time browser's files (the homepage
+# reads .cache/time-browser/explorer.json), then the derived files
 npx tsx scripts/build-graph.ts > "$OUT/graph.log" 2>&1
+npx tsx scripts/time-browser.ts >> "$OUT/graph.log" 2>&1
+npx tsx scripts/time-browser-explorer.ts >> "$OUT/graph.log" 2>&1
 npm run derive >> "$OUT/graph.log" 2>&1
-sh scripts/fable/scoped-build.sh >> "$OUT/graph.log" 2>&1 || echo "scoped build failed; oracle 09 will say so" >> "$OUT/graph.log"
+if sh scripts/fable/scoped-build.sh >> "$OUT/graph.log" 2>&1; then
+  echo "scoped build of the merged tree: $(find .cache/fable-dist -name index.html | wc -l | tr -d ' ') pages" > "$OUT/build.out"
+  echo "RESULT: GREEN (the homepage, the wing landings and the Tour build from the merged tree)" >> "$OUT/build.out"
+else
+  { echo "scoped build of the merged tree FAILED; the last lines of its log:"; grep -v "^    at " "$OUT/graph.log" | tail -4 | cut -c1-400; echo "RESULT: NOT-GREEN (the merged tree does not build; oracle 09 below measures an incomplete build)"; } > "$OUT/build.out"
+fi
+echo "build: $(grep '^RESULT:' "$OUT/build.out")"
 run() { name="$1"; shift; "$@" > "$OUT/$name.out" 2>/dev/null || true; echo "$name: $(grep '^RESULT:' "$OUT/$name.out" | tail -1)"; }
 run o00_baseline python3 scripts/fable/o00_baseline.py
 run o01_canon python3 scripts/fable/o01_canon.py
