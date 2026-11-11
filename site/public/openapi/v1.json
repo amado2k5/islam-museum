@@ -391,6 +391,21 @@
         }
       }
     },
+    "/eschatology.json": {
+      "get": {
+        "operationId": "getEschatology",
+        "summary": "Signs of the Hour Browser dataset",
+        "description": "The Signs of the Hour Browser dataset (متصفح علامات الساعة): every mention of the signs of the Hour and all eschatology in the Qur'an, Sunnah, seerah and harvested books — the major and minor signs, the barzakh, resurrection and gathering, reckoning and the Scale, the Sirat and the Hawd, paradise and hell — detected at build time plus the curated records tagged eschatology-browser, each with its corpus section, topics chips, work, ref, text excerpt, kind, themes and edges.",
+        "responses": {
+          "200": {
+            "description": "Every eschatology record with corpus section, topics, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/bayt.json": {
       "get": {
         "operationId": "getBayt",

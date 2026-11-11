@@ -24,6 +24,10 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
   const dreamHadith = makeNode("passage/bukhari-3681", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "3681", text: "رأيت كأني أشرب لبناً" });
   const dreamAyah = makeNode("passage/quran-12-4", "passage", { unit: "ayah", work: "work/quran", sura: 12, aya: 4, text: "إذ قال يوسف لأبيه يا أبت إني رأيت أحد عشر كوكباً", translations: { en: { text: "I saw in a dream eleven planets" } } });
   const dreamConcept = { ...makeNode("concept/ahlam", "concept", { kind: "term" }), tags: ["dream-browser", "dream-concepts"] };
+  const eschAyah = makeNode("passage/quran-75-1", "passage", { unit: "ayah", work: "work/quran", sura: 75, aya: 1, text: "لا أقسم بيوم القيامة" });
+  const eschHadith = makeNode("passage/muslim-9998", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9998", text: "أشراط الساعة" });
+  const eschConcept = { ...makeNode("concept/yaum-al-qiyama", "concept", { kind: "belief" }), tags: ["eschatology-browser", "eschatology-hereafter", "eschatology-qiyama"] };
+  const eschFp = makeNode("passage/muwatta-9998", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9998", text: "اشتريت ساعة من السوق" });
   const sighting = makeNode("passage/bukhari-0002", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "2", text: "أرى في نافذة بيت أخي" });
   const expression = makeNode("passage/muwatta-1-187", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "1.187", text: "ما أعرف شيئاً مما أدركت عليه الناس إلا النداء بالصلاة", text_search: "بقي على حاله إلا النداء بالصلاة، تعبيراً عما رآه من تغير أحوال الناس." });
   const madhhabBook = makeNode("work/mughni-x", "work", { kind: "book" });
@@ -39,7 +43,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
   const notBaytAhlBaytihi = makeNode("passage/muslim-1829x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "1829x", text: "والرجل راع على أهل بيته وهو مسؤول عنهم" });
   const compiled: Compiled = {
     generated: "2026-11-06T00:00:00Z", commit: null, coverage,
-    nodes: [job, holder, fatwa, sermon, poem, film, book, qudsi, plainHadith, dreamHadith, dreamAyah, dreamConcept, sighting, expression, madhhabBook, madhhabFaqih, baytHadith, baytAyah, baytExtra, baytPerson, baytEvent, notBaytPharaoh, notBaytAhlKitab, notBaytQasim, notBaytAhlBaytihi, makeNode("work/quran", "work", { genre: ["scripture"] }), makeNode("work/sahih-bukhari", "work", { genre: ["hadith"] }), makeNode("work/sahih-muslim", "work", { genre: ["hadith"] }), makeNode("work/muwatta-malik", "work", { genre: ["hadith"] })],
+    nodes: [job, holder, fatwa, sermon, poem, film, book, qudsi, plainHadith, dreamHadith, dreamAyah, dreamConcept, eschAyah, eschHadith, eschConcept, eschFp, sighting, expression, madhhabBook, madhhabFaqih, baytHadith, baytAyah, baytExtra, baytPerson, baytEvent, notBaytPharaoh, notBaytAhlKitab, notBaytQasim, notBaytAhlBaytihi, makeNode("work/quran", "work", { genre: ["scripture"] }), makeNode("work/sahih-bukhari", "work", { genre: ["hadith"] }), makeNode("work/sahih-muslim", "work", { genre: ["hadith"] }), makeNode("work/muwatta-malik", "work", { genre: ["hadith"] })],
     edges: [
       { from: "work/fatwa-x", to: "person/mufti", type: "issued_by", inverse: true },
       { from: "work/mughni-x", to: "group/hanbali-madhhab", type: "mentions", inverse: false },
@@ -49,7 +53,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "fatwa.json", "ghayb.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "nature.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "eschatology.json", "fatwa.json", "ghayb.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "nature.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -92,6 +96,19 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(ids).not.toContain("passage/muwatta-9999"); // «العين» watering crops is not the evil eye
     expect(items.find((i) => i.id === "passage/muslim-9999")).toMatchObject({ section: "sunnah", topics: ["sihr"] });
     expect(items.find((i) => i.id === "concept/sihr")).toMatchObject({ section: "concepts", topics: ["sihr"] });
+  });
+
+  it("exports eschatology: detected passages by corpus and topic, tagged records, ambiguous-form gates", () => {
+    const items = featureApiData(compiled)["eschatology.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-75-1");
+    expect(ids).toContain("passage/muslim-9998");
+    expect(ids).toContain("concept/yaum-al-qiyama");
+    expect(ids).not.toContain("passage/muwatta-9998"); // «ساعة» the watch, not the Hour
+    expect(items.find((i) => i.id === "passage/quran-75-1")).toMatchObject({ section: "quran", sura: 75, aya: 1 });
+    expect(items.find((i) => i.id === "passage/muslim-9998")).toMatchObject({ section: "sunnah" });
+    expect(items.find((i) => i.id === "concept/yaum-al-qiyama")).toMatchObject({ section: "hereafter" });
+    expect(featureApiData(compiled)["eschatology.json"].feature).toBe("eschatology-browser");
   });
 
   it("exports messengers: detected names and class terms, gated ambiguous names, edge mentions, and the subject index", () => {

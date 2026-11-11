@@ -15,6 +15,7 @@ import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dre
 import { madhahibMembers } from "./madhahib.js";
 import { BAYT_TAG, baytCorpusOf, baytTagSection, isBaytPassage } from "./bayt.js";
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
+import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPassage, eschatologyTopicsOf } from "./eschatology.js";
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { existsSync, readdirSync } from "node:fs";
@@ -231,6 +232,15 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
   { file: "jinn-devils.json", feature: "jinn-devils-browser",
     pick: (n) => n.tags.includes("jinn-devils-browser") || n.tags.includes("angels-browser"),
     fields: ["kind", "wings", "themes", "tags"] },
+  { file: "eschatology.json", feature: "eschatology-browser",
+    pick: (n) => n.tags.includes(ESCH_TAG) || isEschatologyPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? eschCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : eschTagSection(n),
+      topics: n.class === "passage" ? eschatologyTopicsOf(n) : eschTagTopics(n),
+    }) },
   { file: "bayt.json", feature: "bayt-browser",
     pick: (n) => n.tags.includes(BAYT_TAG) || isBaytPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
