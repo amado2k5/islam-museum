@@ -23,6 +23,7 @@ open a new block on top with the new version and today's date.
 
 ### Fixed
 - **Invalid `mentions` edges corrected to `related_to` in eight jinn-and-devils event records.** The wave-6 Companion reports (the Prophet's vision of the Messiah and the Dajjal, the rooster that saw an angel, the shaytan's knots, schemes and prayer-count, his weakest state on Arafat, Bilal and the shaytan on the night journey, Umar's prayer at sunrise) each carried a `mentions` edge whose target was a hadith passage — a direction the predicate rules forbid. The links still render through `related_to`; nothing was removed.
+- **Upstream merge repairs: fourteen more `mentions`→passage edges and two dangling person targets.** The wave-7 dream-event records that arrived with the main merge (Aisha's dream of the three moons, the Companions' dream of Laylat al-Qadr, the forty-sixth-of-prophethood dream, Ibn Zayd's dream that began the adhan, the ifrit's visit, the Iraq warning, Khalid's frightening dream, the household protections, the Medina snake-jinn and the lofty-assembly dream) carried the same forbidden edge direction — now `related_to` — and pointed at two person ids that do not exist (`person/aisha-bint-abi-bakr` → `person/aisha`; `person/abdallah-ibn-zayd-ibn-asim` → `person/abdullah-ibn-zayd-ibn-asim`). `npm run validate` is back to 0 errors on the merged tree.
 
 ## v1.12.0 — 2026-11-10
 ### Added
