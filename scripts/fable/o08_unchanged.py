@@ -84,7 +84,7 @@ if os.path.isdir(out_old) and os.path.isdir(out_new):
     o.check("the bundled script files are the same files, with the same hashed names, in both builds", js(out_old) == js(out_new), f"{len(js(out_old))} in the baseline build, {len(js(out_new))} in the branch build")
     ur = [p for p in old_pages if p.startswith("ur/")]
     o.check("every /ur/ page is byte-identical, and no /ur/ page is added", all(p in same for p in ur) and not any(p.startswith("ur/") for p in new_only), f"{len(ur)} /ur/ pages compared")
-    link = re.compile(r'<p class="ui" style="margin:1\.1rem 0 0"><a class="btn btn-lapis" style="[^"]*" href="/(ar|en)/grand-tour/">[^<]*<span class="flip" aria-hidden="true">→</span></a></p>')
+    link = re.compile(r'<p class="ui" style="[^"]*"><a class="btn btn-lapis" style="[^"]*" href="/(ar|en)/grand-tour/">[^<]*<span class="flip"[^>]*>→</span></a></p>')
     for rel in differ:
         a = open(os.path.join(out_old, rel), encoding="utf-8").read()
         b = open(os.path.join(out_new, rel), encoding="utf-8").read()

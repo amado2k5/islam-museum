@@ -86,13 +86,13 @@ const converted = stops.some((s) => dateLine(s).includes("†"));
     .gt-scrub input { width: 100%; accent-color: var(--gold); }
     /* With script: the same list, laid out as one band that flows in reading direction. The stream runs behind the stops. */
     html.js .gt-band { position: relative; border-radius: 18px; overflow: hidden; background: linear-gradient(180deg, #0a2533 0%, #113f4e 55%, #0a2533 100%); }
-    html.js .gt-band::after { content: ""; position: absolute; inset-block: 0; inset-inline-end: 0; width: 44px; pointer-events: none; background: linear-gradient(to right, rgba(10, 37, 51, 0), rgba(10, 37, 51, .92)); }
-    html.js[dir="rtl"] .gt-band::after { background: linear-gradient(to left, rgba(10, 37, 51, 0), rgba(10, 37, 51, .92)); }
+    html.js .gt-band::after { content: ""; position: absolute; z-index: 2; inset-block: 0; inset-inline-end: 0; width: 72px; pointer-events: none; background: linear-gradient(to right, rgba(10, 37, 51, 0), rgba(10, 37, 51, .96)); }
+    html.js[dir="rtl"] .gt-band::after { background: linear-gradient(to left, rgba(10, 37, 51, 0), rgba(10, 37, 51, .96)); }
     html.js .gt-river { display: flex; overflow-x: auto; max-width: 100%; padding: 18px 0 20px; color: #f9f8f6; cursor: grab; scroll-snap-type: x proximity; scrollbar-color: #c5a059 transparent; }
     html.js .gt-river.dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
     html.js .gt-reach { position: relative; flex: 0 0 auto; margin: 0; padding: 0 18px; min-width: 220px; scroll-snap-align: start; border-inline-start: 1px dashed rgba(197, 160, 89, .4); }
     html.js .gt-reach:first-child { border-inline-start: 0; }
-    html.js .gt-reach:last-child { padding-inline-end: 56px; }
+    html.js .gt-reach:last-child { padding-inline-end: 92px; }
     html.js .gt-century, html.js .gt-density, html.js .gt-stops { position: relative; z-index: 1; }
     html.js .gt-century { color: #e6d5b8; font-size: .98rem; white-space: nowrap; margin: 0; }
     html.js .gt-density { color: #c9d3d6; white-space: nowrap; margin: 2px 0 14px; }

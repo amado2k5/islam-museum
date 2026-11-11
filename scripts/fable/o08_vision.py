@@ -57,8 +57,9 @@ else:
         ids |= set(re.findall(r"\b([A-Z]\d{1,3})\b(?=\s*\|)", open(r, encoding="utf-8").read()))
     unreg = sorted(ids - {d.get("id") for d in defects})
     o.check("every defect id in the reviewers' lists is in the register", not unreg, ", ".join(unreg[:10]))
-# a second round: a reviewer who re-checks earlier defects on the re-captured screenshots writes rows of three cells,
-# | id | GONE / STILL THERE / CHANGED | what the new screenshot shows |. Nothing may be called fixed that is still seen.
+# later rounds: a reviewer who looks for earlier defects again on re-captured screenshots writes rows of three cells,
+# | id | GONE / STILL THERE / CHANGED | what the new screenshot shows |. Review files are read in name order and a later
+# round's file is named after the earlier ones, so the latest look at a defect is the one that counts.
 recheck = {}
 for r in reviews:
     for line in open(r, encoding="utf-8"):
@@ -71,12 +72,12 @@ if recheck and defects is not None:
     status = {d.get("id"): d.get("status") for d in defects}
     tally = {k: sum(1 for v in recheck.values() if v == k) for k in ("GONE", "STILL THERE", "CHANGED")}
     o.note(f"second round, earlier defects looked for again on the re-captured screenshots: {len(recheck)}  (gone: {tally['GONE']}, still there: {tally['STILL THERE']}, changed: {tally['CHANGED']})")
-    called_fixed = sorted(i for i, v in recheck.items() if v == "STILL THERE" and status.get(i) == "fixed")
-    o.check("nothing is called fixed that the second-round reviewer still sees", not called_fixed, f"called fixed but still seen: {called_fixed or 'none'}")
-    changed = sorted(i for i, v in recheck.items() if v == "CHANGED")
-    o.note(f"  seen in a changed form (each one's register note says what stands): {', '.join(f'{i} ({status.get(i)})' for i in changed) or 'none'}")
+    called_fixed = sorted(i for i, v in recheck.items() if v != "GONE" and status.get(i) == "fixed")
+    o.check("of the defects looked for again, only those the latest look found gone are called fixed", not called_fixed, f"called fixed but still seen, whole or in part: {called_fixed or 'none'}")
     fixed_gone = sum(1 for i, v in recheck.items() if v == "GONE" and status.get(i) == "fixed")
-    o.note(f"  called fixed and confirmed gone by the second round: {fixed_gone}")
+    never = sum(1 for d in defects if d.get("status") == "fixed" and d.get("id") not in recheck)
+    o.note(f"  called fixed and confirmed gone by a later look: {fixed_gone}; called fixed and never looked for again: {never}")
+    o.check("every defect called fixed was looked for again by a fresh reviewer", never == 0, f"{never} not looked for again")
 overflow = [s for s in shots if s["horizontalOverflowPx"] > 0]
 o.note(f"pages that scroll sideways, measured in the page at capture: {len(overflow)}" + ("" if not overflow else ": " + ", ".join(f"{s['file']} ({s['horizontalOverflowPx']}px)" for s in overflow[:8])))
 tour_overflow = [s for s in overflow if s["page"] in ("river", "room-first", "room-badr", "room-last", "complete")]

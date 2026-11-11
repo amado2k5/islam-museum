@@ -71,7 +71,7 @@ const last = Math.max(...stops.map((s) => s.walk));
       <section class="ui" aria-labelledby="gt-wings">
         <h2 id="gt-wings">{G.wings_doors}</h2>
         <ul class="grid-cards gt-wings">
-          {WINGS.map((w) => <li><a class="card" href={wingHref(lang, w)} style={`border-inline-start:5px solid var(--wing-${w})`}><b>{T.wings[w].title} <span class="flip" aria-hidden="true">→</span></b><span>{T.wings[w].blurb}</span></a></li>)}
+          {WINGS.map((w) => <li><a class="card" href={wingHref(lang, w)} style={`border-inline-start:5px solid var(--wing-${w})`}><b>{T.wings[w].title} <span class="flip" style="display:inline-block" aria-hidden="true">→</span></b><span>{T.wings[w].blurb}</span></a></li>)}
         </ul>
         <p class="gt-last"><a class="btn btn-lapis" href={`/${lang}/graph/`}>{G.graph_door} <span class="flip" aria-hidden="true">→</span></a> <a class="btn btn-outline" href={stopHref(lang, stops[0])}>{G.restart}</a> <a class="btn btn-outline" href={tourPath(lang)}>{G.back_to_river}</a></p>
       </section>

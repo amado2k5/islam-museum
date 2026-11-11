@@ -34,5 +34,5 @@ const segs = Array.from({ length: last + 1 }, (_, c) => ({ c, first: stops.find(
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .gt-ribbon li[aria-current] > * { background: var(--gold); border-color: var(--gold); } }
   .gt-ribbon a:hover { outline: 1px solid var(--gold); }
   /* On a phone fifteen cells in one row are too small to read or to press: two rows of eight and seven. */
-  @media (max-width: 560px) { .gt-ribbon ol { flex-wrap: wrap; gap: 4px; } .gt-ribbon li, .gt-ribbon li.pre { flex: 1 0 calc(12.5% - 4px); } .gt-ribbon li > * { font-size: .8rem; height: 34px; } }
+  @media (max-width: 560px) { .gt-ribbon ol { flex-wrap: wrap; gap: 4px; } .gt-ribbon li, .gt-ribbon li.pre { flex: 0 0 calc(12.5% - 3.5px); } .gt-ribbon li > * { font-size: .8rem; height: 34px; } }
 </style>
