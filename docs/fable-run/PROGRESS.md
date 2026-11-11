@@ -53,8 +53,8 @@ Merged is not live. Nothing on this branch, and nothing on main after `8d1b0ef9`
 | 1 | Baseline, canon oracles, century floor, wings on wingless cornerstones | on the remote | #6022 |
 | 2 | Tour manifest, River, rooms, completion room, entry link, coverage oracle | on the remote | #6023 |
 | 3 | The Tour's 41 narratives in Arabic and English | on the remote | #6027 |
-| 4 | Dead-end cornerstones opened (22 of 29) | on the remote | #6028 |
-| 5 | Contradiction sweep: 122 found, 44 fixed, 70 registered, 8 consistent | on the remote | #6029 |
+| 4 | Dead-end cornerstones opened (29 down to 12 after the verifier removed 17 relations) | on the remote | #6028 |
+| 5 | Contradiction sweep: 130 found, 38 fixed, 84 registered, 8 consistent (after its re-check) | on the remote | #6029 |
 | 6 | Canon-first search test (production: 2 of 50), absence list corrected (24 of 31 found) | on the remote | #6030 |
 | 7 | Verifier fixes, vision pass, no-JavaScript run, integration re-run, ledger, SHOWCASE, PUBLISH | in progress | pending |
 
@@ -62,14 +62,14 @@ Merged is not live. Nothing on this branch, and nothing on main after `8d1b0ef9`
 
 ## Where things stand right now (for a resumed session)
 
-- Running in the background when this was written: five fresh-context verifiers (prose batches A, B, C; relations; contradiction fixes), each writing to `docs/fable-run/verifier/`; and `scripts/fable/o08_unchanged.py` (two scoped builds, about ten minutes).
+- Done since the phases above: all five verifier reports acted on and committed (see the log).
+- Running in the background when this was written: the final byte comparison (`o08_unchanged.py`), the no-JavaScript oracle and the screenshot capture into `docs/fable-run/vision/shots/`.
 - Next actions, in order:
-  1. Read each verifier report in `docs/fable-run/verifier/`. Fix every ERROR in the leads; remove every UNSUPPORTED relation; re-status every WRONG contradiction fix (edit the record back or forward, then `npx tsx scripts/fable/o05_contradictions.ts --merge <file>`). Commit in batches of 25 records or fewer. Record what the verifiers caught in SHOWCASE.md and PUBLISH.md.
-  2. `npm run graph && npm run derive && sh scripts/fable/scoped-build.sh && node scripts/fable/capture.mjs --dist .cache/fable-dist docs/fable-run/vision/shots`, commit the screenshots, then brief two fresh-context reviewers to list defects from the committed screenshots into `docs/fable-run/vision/review-*.md`; merge their lists into `docs/fable-run/vision/defects.json` (fields: id, where, screenshots, description, status fixed or registered, note).
-  3. A fresh-context agent re-derives the headline numbers from the published commands.
-  4. Integration: `git fetch origin main`; list what main changed that touches the oracles; rebase a scratch copy; re-run the affected oracles there.
-  5. `python3 scripts/fable/board.py && python3 scripts/fable/numbers.py`, then write VERIFICATION.md (around the generated board), SHOWCASE.md, PUBLISH.md; add phase 7 to `phases.json`; open the last PR.
-  6. Restore `.claude/launch.json` (`git checkout -- .claude/launch.json`; the temporary dev-server entry must not be committed) and stop the dev server.
+  1. Commit the screenshots. Brief two fresh-context reviewers (`docs/fable-run/briefs/vision-review.md`) to list defects from them into `docs/fable-run/vision/review-*.md`; merge into `docs/fable-run/vision/defects.json` (fields: id, where, screenshots, description, status fixed or registered, note). Fix what is the Tour's; register what is the existing site's.
+  2. A fresh-context agent re-derives the headline numbers (`docs/fable-run/briefs/verify-numbers.md`).
+  3. Integration: main moved 12 commits by 10:00 (two new browsers, a UAT-from-branch deploy option); six files overlap (CANARY.md, docs/coverage.md, the three i18n files, Landing.astro). Rebase a scratch copy and re-run the affected oracles there.
+  4. `python3 scripts/fable/board.py && python3 scripts/fable/numbers.py`; fill the generated sections of VERIFICATION.md; write SHOWCASE.md and PUBLISH.md; add phase 7 to `phases.json`; open the last PR.
+  5. Restore `.claude/launch.json` (`git checkout -- .claude/launch.json`; the temporary dev-server entry must not be committed) and stop the dev server.
 
 ## Decisions taken (each also in PROPOSALS.md where it is the founder's to confirm)
 
@@ -93,16 +93,23 @@ Merged is not live. Nothing on this branch, and nothing on main after `8d1b0ef9`
 
 ## Log
 
-- 08:11 Session start. Read charter, AGENTS.md, change gates, publication standard, site README.
-- 08:15 Graph built at baseline (1 min). Site dependencies installed.
-- 08:40 Baseline exploration done. Canon holes found: no 12th-century cornerstone; 48 wingless cornerstones; no canon record in Today or Made.
-- 09:30 Canon floor committed (`18fa4222d3`). Wings committed in two batches (`1d5a49572f`, `bc57cc83af`). Validator: 0 errors.
-- 10:10 Oracles o00 and o01 committed (`42db751657`). Phase 1 complete locally.
-- 10:40 Grand Tour section committed (`1401a5cc97`): 42 stops, River, rooms, ribbon, completion room, entry link. o00, o01, o02 green at that commit.
-- 11:10 Oracles o03, o04, o05 written with before-runs. Seven prose writers, two graph editors, four adjudicators and one absence verifier launched (14 subagents).
-- 12:30 All 14 back. Prose: 41 finished, 1 cannot be (contemporary era, removed from the Tour). Dead ends: 29 to 7. Contradictions: 44 fixed, 70 registered, 8 consistent. Absences: 24 of 31 found.
-- 13:00 Phases 3 to 6 committed, pushed, PRs #6027 to #6030 open. Production search measured: 2 of 50.
-- 13:10 Five fresh-context verifiers launched to break the prose, the relations and the fixes.
+Times are local (EST) and are the commit times in git, not recollections. An earlier version of this log carried times typed from memory that ran up to three hours ahead of the clock; they were replaced on reading `git log`.
+
+- 08:11 Session start (the worktree's creation time). Read the charter, AGENTS.md, the change gates, the publication standard, the site README.
+- 08:15 Graph artifact built at the baseline (one minute). Site dependencies installed.
+- 08:32 Canon century floor committed (`18fa4222d3`); wings, batch 1 (`1d5a49572f`).
+- 08:35 Wings, batch 2 (`bc57cc83af`). Validator: 0 errors.
+- 08:52 Oracles o00 and o01 (`42db751657`). Phase 1 complete.
+- 08:54 Grand Tour section (`1401a5cc97`): 42 stops, River, rooms, ribbon, completion room, entry link.
+- 08:55 First captured oracle runs (`f07d617b73`). PRs #6022 and #6023 opened.
+- 09:07 Oracles o03, o04, o05 with before-runs (`91dc7a62d3`). Fourteen subagents launched: seven prose writers, two graph editors, four adjudicators, one absence verifier.
+- 09:29 Narratives committed in two batches (`0a1dbd751e`, `6c4420f475`): 41 finished, 1 cannot be (the contemporary era).
+- 09:31 Dead-end relations (`7ddde0c7f4`, `0aca4b69f3`) and contradiction fixes (`28b8581286`). PRs #6027 to #6029.
+- 09:42 Search test and absence list (`37fb25b9ef`). PR #6030. Production search: 2 of 50.
+- 09:45 Five fresh-context verifiers launched (prose A, B, C; relations; fixes).
+- 09:51 Fixes verifier acted on (`d6abc792fe`): 5 fixes reverted, 1 marked hidden, detectors taught Hijri-only dates, 8 new findings registered.
+- 10:21 Prose verifiers acted on by three fixers (`3905338e7f`, `9d3cab2ca2`): 57 of 71 findings fixed; the Qur'an stop removed (40 stops).
+- 10:22 17 relations removed after verification (`cfadf9bcfe`). Tour script moved to a plain shell file and the /ur/ homepage made byte-identical (`37f69b054c`).
 
 ## Usage
 

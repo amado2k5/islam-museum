@@ -5,7 +5,7 @@
 //
 // Pages: the Tour (river, three rooms, completion room), the homepage and the nine wing landings, in Arabic
 // (right-to-left) and English, at phone (390), tablet (820) and desktop (1280) widths: 90 screenshots.
-// JPEG, capped at 3,200 px of height so the set stays small enough to commit; the cap and the full page height are
+// JPEG, capped at 2,600 px of height so the set stays small enough to commit; the cap and the full page height are
 // recorded for every file in index.json, with the horizontal overflow measured in the page (0 means no sideways scroll).
 import { chromium } from "playwright";
 import { createServer } from "node:http";
@@ -35,7 +35,7 @@ const WINGS = ["time", "place", "people", "ideas", "objects", "words", "living",
 const TOUR = [["river", "grand-tour/"], ["room-first", `grand-tour/${manifest[0]}/`], ["room-badr", "grand-tour/battle-of-badr/"], ["room-last", `grand-tour/${manifest[manifest.length - 1]}/`], ["complete", "grand-tour/complete/"]];
 const SITE = [["home", ""], ...WINGS.map((w) => [`wing-${w}`, `${w}/`])];
 const pages = [...(only === "site" ? [] : TOUR), ...(only === "tour" ? [] : SITE)];
-const CAP = 3200;
+const CAP = 2600;
 mkdirSync(out, { recursive: true });
 const browser = await chromium.launch();
 const shots = [];
@@ -47,7 +47,7 @@ for (const lang of ["ar", "en"]) for (const [name, path] of pages) for (const [s
   await page.waitForTimeout(900);
   const m = await page.evaluate(() => ({ h: document.documentElement.scrollHeight, w: document.documentElement.scrollWidth, cw: document.documentElement.clientWidth }));
   const file = `${lang}-${name}-${size}.jpg`;
-  await page.screenshot({ path: join(out, file), type: "jpeg", quality: 58, clip: { x: 0, y: 0, width: w, height: Math.min(m.h, CAP) }, fullPage: true });
+  await page.screenshot({ path: join(out, file), type: "jpeg", quality: 50, clip: { x: 0, y: 0, width: w, height: Math.min(m.h, CAP) }, fullPage: true });
   shots.push({ file, url: `/${lang}/${path}`, lang, page: name, size, status: res?.status() ?? 0, width: w, pageHeight: m.h, shotHeight: Math.min(m.h, CAP), horizontalOverflowPx: Math.max(0, m.w - m.cw) });
   console.log(`${file}  status ${res?.status()}  page ${w}x${m.h}  overflow ${Math.max(0, m.w - m.cw)}px`);
   await ctx.close();

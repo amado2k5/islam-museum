@@ -8,7 +8,7 @@ visible defect. You are not here to say the pages look fine.
 `docs/fable-run/vision/shots/` holds screenshots of rendered pages of islam.museum, a museum site in Arabic
 (right-to-left) and English, taken from a production build at three widths: phone (390 px), tablet (820 px) and
 desktop (1280 px). `docs/fable-run/vision/shots/index.json` lists every file with its page, language, width, the
-page's full height, the height shown (shots are cut at 3,200 px; taller pages continue below the cut) and the
+page's full height, the height shown (shots are cut at 2,600 px; taller pages continue below the cut) and the
 sideways overflow measured in the page.
 
 File names: `<lang>-<page>-<size>.jpg`. Pages:
@@ -46,7 +46,7 @@ Anything a careful visitor or designer would call wrong on the page as rendered:
 - raw markup, placeholder text, an untranslated string, a number that looks wrong on its face.
 
 Not defects: the content of the text itself (you are not checking facts), and the bottom of a screenshot being cut at
-3,200 px.
+2,600 px.
 
 ## What you write
 

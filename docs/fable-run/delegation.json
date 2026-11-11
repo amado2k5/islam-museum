@@ -1,0 +1,27 @@
+{
+  "note": "The subagents this run launched, as the harness reported them when each finished (tokens, tool calls, wall-clock). Recorded for the run's own story; these are the harness's figures, not an oracle's.",
+  "agents": [
+    { "role": "prose writer", "task": "Tour leads, batch 1 (6 records)", "tokens": 325629, "tool_uses": 77, "minutes": 20.5 },
+    { "role": "prose writer", "task": "Tour leads, batch 2 (6 records)", "tokens": 472455, "tool_uses": 85, "minutes": 25.2 },
+    { "role": "prose writer", "task": "Tour leads, batch 3 (6 records)", "tokens": 571958, "tool_uses": 146, "minutes": 27.4 },
+    { "role": "prose writer", "task": "Tour leads, batch 4 (6 records)", "tokens": 527118, "tool_uses": 119, "minutes": 27.4 },
+    { "role": "prose writer", "task": "Tour leads, batch 5 (6 records)", "tokens": 476525, "tool_uses": 107, "minutes": 24.3 },
+    { "role": "prose writer", "task": "Tour leads, batch 6 (6 records)", "tokens": 542992, "tool_uses": 98, "minutes": 24.2 },
+    { "role": "prose writer", "task": "Tour leads, batch 7 (6 records)", "tokens": 387863, "tool_uses": 76, "minutes": 21.8 },
+    { "role": "graph editor", "task": "dead-end cornerstones A (15 records)", "tokens": 370759, "tool_uses": 91, "minutes": 23.7 },
+    { "role": "graph editor", "task": "dead-end cornerstones B (14 records)", "tokens": 358997, "tool_uses": 87, "minutes": 21.1 },
+    { "role": "adjudicator", "task": "contradictions, batch 1 (31 findings)", "tokens": 232831, "tool_uses": 73, "minutes": 10.3 },
+    { "role": "adjudicator", "task": "contradictions, batch 2 (31 findings)", "tokens": 363708, "tool_uses": 76, "minutes": 15.3 },
+    { "role": "adjudicator", "task": "contradictions, batch 3 (30 findings)", "tokens": 262827, "tool_uses": 73, "minutes": 12.1 },
+    { "role": "adjudicator", "task": "contradictions, batch 4 (30 findings)", "tokens": 329039, "tool_uses": 98, "minutes": 14.9 },
+    { "role": "verifier (fresh context)", "task": "absence list: find each claimed absence; resumed once to explain every remaining match", "tokens": 391476, "tool_uses": 66, "minutes": 23.6 },
+    { "role": "verifier (fresh context)", "task": "prose, batch A (14 records, 254 sentences)", "tokens": 462358, "tool_uses": 97, "minutes": 18.3 },
+    { "role": "verifier (fresh context)", "task": "prose, batch B (14 records, 246 sentences)", "tokens": 463508, "tool_uses": 81, "minutes": 18.1 },
+    { "role": "verifier (fresh context)", "task": "prose, batch C (13 records, 230 sentences)", "tokens": 421177, "tool_uses": 84, "minutes": 16.7 },
+    { "role": "verifier (fresh context)", "task": "82 added relations", "tokens": 406023, "tool_uses": 78, "minutes": 22.1 },
+    { "role": "verifier (fresh context)", "task": "20 contradiction fixes", "tokens": 346791, "tool_uses": 81, "minutes": 13.7 },
+    { "role": "fixer", "task": "act on prose report A (30 findings)", "tokens": 385791, "tool_uses": 126, "minutes": 20.4 },
+    { "role": "fixer", "task": "act on prose report B (28 findings)", "tokens": 396195, "tool_uses": 70, "minutes": 25.8 },
+    { "role": "fixer", "task": "act on prose report C (13 findings)", "tokens": 315775, "tool_uses": 65, "minutes": 18.4 }
+  ]
+}

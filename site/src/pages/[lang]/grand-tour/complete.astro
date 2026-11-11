@@ -40,7 +40,7 @@ const last = Math.max(...stops.map((s) => s.walk));
         <h2 id="gt-route">{G.route_title}</h2>
         <p class="muted gt-route-desc">{G.route_desc} {fmt(G.complete_links, { n: num(stopLinks.length, lang) })}</p>
         <div class="gt-route-scroll" tabindex="0" role="group" aria-labelledby="gt-route">
-          <svg class="gt-route" viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby="gt-route-t gt-route-d">
+          <svg class="gt-route" viewBox={`0 0 ${W} ${H}`} role="group" aria-labelledby="gt-route-t gt-route-d">
             <title id="gt-route-t">{G.route_title}</title>
             <desc id="gt-route-d">{G.route_desc}</desc>
             {WINGS.map((w, k) => (
