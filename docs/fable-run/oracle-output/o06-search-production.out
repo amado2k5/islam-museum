@@ -1,0 +1,59 @@
+ORACLE 06: canon-first search, a fixed query set against a built site (statement 6)
+file: scripts/fable/o06_search.mjs (queries: scripts/fable/search-queries.json)
+HEAD: 91dc7a62d3b88b561da006a4b5db2abd504426c1
+site measured: https://islam.museum
+that site's own deploy stamp: commit 8d1b0ef9d7556cc570e9e452e8cd3257e346ab1f, version 1.10.0, deployed 2026-11-10T18:33:45Z
+------------------------------------------------------------------------------
+[FAIL] ar "محمد"  first result: /ar/source/shamail-bajuri-awwama-2001/  expected: /ar/person/muhammad/
+[FAIL] ar "أبو بكر"  first result: /ar/person/abd-allah-ibn-abi-dawud-al-sijistani/  expected: /ar/person/abu-bakr/
+[FAIL] ar "عمر بن الخطاب"  first result: /ar/source/tarikh-umar-ibn-al-jawzi/  expected: /ar/person/umar-ibn-al-khattab/
+[FAIL] ar "علي بن أبي طالب"  first result: /ar/person/aqil-ibn-abi-talib/  expected: /ar/person/ali-ibn-abi-talib/
+[FAIL] ar "عائشة"  first result: /ar/source/feedspot-islam-with-aisha/  expected: /ar/person/aisha/
+[FAIL] ar "خديجة"  first result: /ar/source/atlantic-books-fatima-barkatulla/  expected: /ar/person/khadija/
+[FAIL] ar "مكة"  first result: /ar/questions/why-face-mecca-in-prayer/  expected: /ar/place/mecca/
+[FAIL] ar "المدينة المنورة"  first result: /ar/source/musnad-bazzar-ulum-hikam-2005-v13/  expected: /ar/place/medina/
+[FAIL] ar "بغداد"  first result: /ar/invention/baghdad-papermaking/  expected: /ar/place/baghdad/
+[FAIL] ar "القاهرة"  first result: /ar/source/farq-bayn-al-firaq-tawfiqiyya/  expected: /ar/place/cairo/
+[FAIL] ar "غزوة بدر"  first result: /ar/media/map-event-battle-of-badr/  expected: /ar/event/battle-of-badr/
+[FAIL] ar "الهجرة"  first result: /ar/concept/hijra-fiqh/  expected: /ar/event/hijra/
+[FAIL] ar "الكعبة"  first result: /ar/concept/kab/  expected: /ar/building/kaaba/
+[FAIL] ar "الصلاة"  first result: /ar/questions/what-is-jumua/  expected: /ar/practice/salah/
+[FAIL] ar "الحج"  first result: /ar/work/manasik-al-hajj-ibn-taymiyya/  expected: /ar/practice/hajj/
+[FAIL] ar "القرآن"  first result: /ar/source/siraj-gharib-quran-khudayri-1435/  expected: /ar/work/quran/
+[FAIL] ar "البخاري"  first result: /ar/person/jalaluddin-surkh-posh-bukhari/  expected: /ar/person/al-bukhari/ or /ar/work/sahih-al-bukhari/
+[FAIL] ar "الغزالي"  first result: /ar/person/muhyi-al-din-ibn-al-ghazali/  expected: /ar/person/al-ghazali-abu-hamid/
+[FAIL] ar "ابن سينا"  first result: /ar/event/ibn-sina-vizier-hamadan-1015/  expected: /ar/person/ibn-sina/
+[FAIL] ar "ابن خلدون"  first result: /ar/event/ibn-khaldun-parents-die-black-death-1349/  expected: /ar/person/ibn-khaldun/
+[FAIL] ar "ابن بطوطة"  first result: /ar/event/ibn-battuta-journey-to-mali-1352/  expected: /ar/person/ibn-battuta-muhammad/
+[FAIL] ar "صلاح الدين"  first result: /ar/screen/al-nasir-salah-al-din-1963/  expected: /ar/person/salah-al-din-yusuf-ibn-ayyub/
+[FAIL] ar "الأزهر"  first result: /ar/source/azhar-thousand-years-awf/  expected: /ar/building/al-azhar/
+[FAIL] ar "قبة الصخرة"  first result: /ar/object/dome-of-the-rock-mosque-lamp-956/  expected: /ar/building/dome-of-the-rock/
+[FAIL] ar "تاج محل"  first result: /ar/building/taj-mahal-palace-bhopal/  expected: /ar/building/taj-mahal/
+[FAIL] en "Muhammad"  first result: /en/source/tafsir-nasafi-tahqiq-2018-v1/  expected: /en/person/muhammad/
+[FAIL] en "Abu Bakr"  first result: /en/source/wikidata-abu-bakr-al-shatri/  expected: /en/person/abu-bakr/
+[FAIL] en "Umar ibn al-Khattab"  first result: /en/source/tarikh-umar-ibn-al-jawzi/  expected: /en/person/umar-ibn-al-khattab/
+[FAIL] en "Ali ibn Abi Talib"  first result: /en/source/sallabi-ali-vol2/  expected: /en/person/ali-ibn-abi-talib/
+[FAIL] en "Aisha"  first result: /en/source/youtube-islam-with-aisha/  expected: /en/person/aisha/
+[FAIL] en "Khadija"  first result: /en/building/khadija-mosque-berlin/  expected: /en/person/khadija/
+[FAIL] en "Mecca"  first result: /en/event/makkah-fitna-571/  expected: /en/place/mecca/
+[FAIL] en "Medina"  first result: /en/media/prophets-mosque-1908-mirat-al-haramayn/  expected: /en/place/medina/
+[FAIL] en "Baghdad"  first result: /en/invention/baghdad-papermaking/  expected: /en/place/baghdad/
+[FAIL] en "Cairo"  first result: /en/person/al-qaim-cairo/  expected: /en/place/cairo/
+[FAIL] en "Battle of Badr"  first result: /en/media/illus-event-battle-of-badr/  expected: /en/event/battle-of-badr/
+[FAIL] en "Hijra"  first result: /en/questions/what-is-hijra/  expected: /en/event/hijra/
+[FAIL] en "Kaaba"  first result: /en/object/kaaba-key-nuhad-es-said-740/  expected: /en/building/kaaba/
+[FAIL] en "prayer"  first result: /en/questions/what-is-jumua/  expected: /en/practice/salah/
+[FAIL] en "Hajj"  first result: /en/questions/what-is-hajj/  expected: /en/practice/hajj/
+[FAIL] en "Quran"  first result: /en/media/photo-al-mushaf-al-azraq/  expected: /en/work/quran/
+[FAIL] en "Bukhari"  first result: /en/work/fath-al-bari/  expected: /en/person/al-bukhari/ or /en/work/sahih-al-bukhari/
+[FAIL] en "Ghazali"  first result: /en/source/fiqh-al-sira-al-ghazali/  expected: /en/person/al-ghazali-abu-hamid/
+[PASS] en "Avicenna"  first result: /en/person/ibn-sina/
+[FAIL] en "Ibn Khaldun"  first result: /en/event/muqaddima-completion-779/  expected: /en/person/ibn-khaldun/
+[FAIL] en "Ibn Battuta"  first result: /en/event/ibn-battuta-journey-to-mali-1352/  expected: /en/person/ibn-battuta-muhammad/
+[PASS] en "Saladin"  first result: /en/person/salah-al-din-yusuf-ibn-ayyub/
+[FAIL] en "Al-Azhar"  first result: /en/concept/azhari/  expected: /en/building/al-azhar/
+[FAIL] en "Dome of the Rock"  first result: /en/place/dome-of-the-rock/  expected: /en/building/dome-of-the-rock/
+[FAIL] en "Taj Mahal"  first result: /en/building/taj-mahal-palace-bhopal/  expected: /en/building/taj-mahal/
+------------------------------------------------------------------------------
+2 of 50 queries return the canon record first; 48 do not; 0 could not be run
+RESULT: NOT-GREEN (48 of 50 queries do not return the canon record first) for the site measured: https://islam.museum

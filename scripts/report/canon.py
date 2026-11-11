@@ -33,13 +33,17 @@ event/battle-kosovo-791 event/battle-of-nicopolis-1396 event/battle-of-panipat-9
 concept/ijma concept/ijtihad concept/madhhab concept/tafsir concept/ilm concept/tajwid concept/madrasa concept/wahy
 concept/dajjal concept/hudud-penalties concept/maqasid-al-shariah concept/bida concept/halal-haram concept/falsafa
 """.split()
-# Subjects a first-time visitor would look for that have no record under an obvious slug (checked 10 Nov 2026).
-# Check aliases and labels before creating any of them.
-WANTED = ["Timur", "Osman I", "Selim I", "Shah Jahan", "Aurangzeb", "Abd al-Rahman III al-Nasir", "Usman dan Fodio",
-          "Omar al-Mukhtar", "Shah Wali Allah", "Firdawsi", "Hafiz", "Sa'di", "al-Idrisi (geographer)", "Ibn al-Athir",
-          "Ibn Jubayr", "al-Junayd", "Ibn Majid", "Piri Reis", "the prophets Idris and Hud", "Luqman",
-          "the Abbasid revolution", "Battle of the Zab", "Battle of Tours", "Las Navas de Tolosa", "Battle of Plassey",
-          "aqida (as a concept)", "usul al-fiqh", "Ash'ari and Maturidi schools (as concepts)", "the Mahdi (concept)"]
+# Subjects a first-time visitor would look for that have no record. The list is not typed here any more: on 11 November 2026
+# a verifier whose job was to find each claimed absence under another spelling found records for 24 of the 31 subjects the
+# earlier list named. What survived is in scripts/fable/absences.json (every spelling searched is listed there) and is
+# re-checked by scripts/fable/o07_absences.py; the readable account is docs/fable-run/ABSENCES.md.
+def wanted():
+    path = os.path.join("scripts", "fable", "absences.json")
+    if not os.path.exists(path):
+        return []
+    return [s["subject"] + (" (a stub only)" if s["status"] == "stub-only" else "") for s in json.load(open(path, encoding="utf-8"))["subjects"] if s["status"] != "found"]
+
+
 ID = re.compile(r"\b((?:person|place|event|building|concept|work|polity|group|object|practice|period|journey|invention|question)/[a-z0-9][a-z0-9-]*)")
 SKIP_SRC = {"source", "media", "screen", "listing", "dataset"}
 
@@ -246,7 +250,7 @@ def report(ents, canon, promoted=(), rank=None):
     L += [f"| **all** | **{tot['n']}** | **{tot['t1']}** | **{tot['nop']}** | **{tot['short']}** | **{tot['draft']}** | **{tot['noimg']}** |", "",
           "\"Under 300 words\" counts the Arabic prose file, front matter included, and includes the records with none. \"No image\" means no `media/` record depicts the subject; for prophets and Companions that is the rule, not a gap.", "",
           "## Not in the graph yet", "",
-          "Subjects a visitor would look for that have no record under an obvious name (checked on 10 November 2026). Check aliases and labels before creating one: " + "; ".join(WANTED) + ".", "",
+          "Subjects a visitor would look for that have no record. Each was searched under every spelling listed in `scripts/fable/absences.json` by a verifier whose job was to find it; an earlier version of this list named 31 subjects, and 24 of them turned out to have records under another name (`docs/fable-run/ABSENCES.md`). Still absent: " + "; ".join(wanted()) + ".", "",
           "## The list", "",
           "Marks after a name: ∅ no Arabic prose, ✎ under 300 words, ◌ draft, + editorial include, ↑ raised by the century floor."]
     for cls in QUOTA:
