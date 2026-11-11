@@ -21,6 +21,8 @@ tags:
 - jd-angels
 sources:
 - source/jami-al-tirmidhi
+- source/sahih-muslim
+- source/sahih-al-bukhari
 relations:
 - type: related_to
   target: person/muhammad
@@ -50,6 +52,14 @@ relations:
   target: passage/arbaun-36
   sources:
   - source/jami-al-tirmidhi
+- type: related_to
+  target: passage/muslim-2689
+  sources:
+  - source/sahih-muslim
+- type: related_to
+  target: passage/bukhari-6408
+  sources:
+  - source/sahih-al-bukhari
 provenance:
   layer: own-research
   source: Jinn & Devils Browser wave-11; worded from the cited hadith report
