@@ -48,21 +48,41 @@ Merged is not live. Nothing on this branch, and nothing on main after `8d1b0ef9`
 
 ## Phase plan
 
-| Phase | Content | PR |
+| Phase | Content | State |
 |---|---|---|
-| 1 | Baseline, canon oracles, canon coverage repairs (century floor, wings on wingless cornerstones) | pending |
-| 2 | Tour manifest, River, rooms, completion room, entry link, coverage oracle | pending |
-| 3 | Tour prose in Arabic and English, cite-check | pending |
+| 1 | Baseline, canon oracles, canon coverage repairs (century floor, wings on wingless cornerstones) | done; final commit `42db751657`; branch `fable-run/phase-1-canon` |
+| 2 | Tour manifest, River, rooms, completion room, entry link, coverage oracle | built; prose not yet deepened |
+| 3 | Tour prose in Arabic and English, cite-check | next |
 | 4 | Cornerstone dead ends, three-hop reachability, hop distribution | pending |
 | 5 | Cross-record contradiction sweep | pending |
 | 6 | Canon-first search test, absence list with verifier | pending |
 | 7 | Vision pass, no-JavaScript run, integration re-run, ledger, SHOWCASE, PUBLISH | pending |
 
+## Decisions taken (each also in PROPOSALS.md where it is the founder's to confirm)
+
+- The canon already existed on main (PR #5975). This run audits it and repairs two coverage holes; it does not re-run the fame-ranked selection (Wikidata's query service was rate-limited to one request a minute on launch day).
+- Century floor added to the canon script (P-1). It raises `person/ahmed-iii-uthmani`.
+- Wings filled on 48 wingless cornerstones by class rule, plus three additions (P-2).
+- "Fourteen centuries" means the Hijri centuries 1 to 14. Before the Hijra is a prelude; the 15th is the present.
+- A stop's century comes from the record's own date; a work with none takes its author's death; anything else floats and never counts toward century coverage.
+- The Tour's narrative at a stop is the lead section of the record's own prose. Deepening the Tour means deepening those records.
+- The Tour is Arabic and English only. No `/ur/` page is built. The homepage entry link is rendered for `ar` and `en` only.
+- Published records whose lead is deepened keep `status.review: published` and gain a provenance note, following the precedent on `event/battle-of-badr` (to be raised as a proposal).
+- The Tour is not registered in `openapi/v1.json`, `llms.txt` or the Explore menu: those are existing pages and the brief limits the change to one section and one link. To be raised as a proposal.
+
+## Dead ends
+
+- A full site build cannot run on this machine (about 12 GB free, about 19 GB needed).
+- `capture.mjs --nojs` against the dev server stalled past five minutes; the no-JavaScript run needs a built page or a different wait condition.
+
 ## Log
 
 - 08:11 Session start. Read charter, AGENTS.md, change gates, publication standard, site README.
 - 08:15 Graph built at baseline (1 min). Site dependencies installed.
-- 08:40 Baseline exploration done (findings 1-6). Next: baseline oracle, canon oracle, canon coverage rule.
+- 08:40 Baseline exploration done. Canon holes found: no 12th-century cornerstone; 48 wingless cornerstones; no canon record in Today or Made.
+- 09:30 Canon floor committed (`18fa4222d3`). Wings committed in two batches (`1d5a49572f`, `bc57cc83af`). Validator: 0 errors.
+- 10:10 Oracles o00 and o01 committed (`42db751657`). Phase 1 complete locally.
+- 10:40 Grand Tour section committed (`1401a5cc97`): 42 stops, River, rooms, ribbon, completion room, entry link. o00, o01, o02 green at that commit.
 
 ## Usage
 
