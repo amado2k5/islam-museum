@@ -1,0 +1,23 @@
+id: passage/sallabi-kaab-02
+class: passage
+unit: chapter
+work: work/al-sira-al-nabawiyya-sallabi
+ref: "839"
+label:
+  ar: "السيرة النبوية للسلاّبي — كعب بن مالك — «ما رجل يريد أن يتغيب إلا ظن أنه سيخفى»"
+  en: "al-Sallabi's Sirah — 'No man means to stay behind but thinks he will be hidden'"
+text: "ونترك كعب بن مالك رمي يحدثنا فيقول: لم أتخلف عن رسول الله وَلِيِ في غزوة غزاها إلا في غزوة تبوك، غير أني كنت تخلفت في غزوة بدر، ولم يعاتب أحداً تخلف عنها، إنما خرج رسول اللّٰه وال في…"
+summary:
+  ar: "مقطع من السيرة النبوية للسلاّبي، في غزوة تبوك، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Sallabi's al-Sira al-Nabawiyya, in غزوة تبوك, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sira-nabawiyya-sallabi] }
+  - { type: mentions, target: person/muhammad, sources: [source/sira-nabawiyya-sallabi] }
+provenance:
+  layer: own-research
+  source: "سيرة السلاّبي ص 839 — تخلف كعب عن تبوك ورحلتا الجهاد"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: sayyiat-mining-2
+tags: [sayyiat-browser]
+sources: [source/sira-nabawiyya-sallabi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

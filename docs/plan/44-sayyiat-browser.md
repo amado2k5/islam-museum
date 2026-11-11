@@ -60,7 +60,7 @@ Every passage is marked `sayyi` when it carries the «سيّئ» word family and
 
 ## 3. Records
 
-- **412 passage records in the browser** in the current corpus: 330 Qur'an ayahs
+- **458 passage records in the browser** in the current corpus: 330 Qur'an ayahs
   (`work/quran`), 73 sunnah reports (`work/sahih-muslim` 22,
   `work/muwatta-malik` 12, `work/jami-al-tirmidhi` 6,
   `work/sahih-al-bukhari` 4, `work/arbaun-nawawi` 2,
@@ -111,8 +111,8 @@ Every passage is marked `sayyi` when it carries the «سيّئ» word family and
 
 ## 7. Status
 
-Built: 412 passages (395 detected + 17 tagged) + 7 curated records in `/api/v1/sayyiat.json`
-(330 quran, 73 sunnah, 9 books; seerah fills as sira-genre passages are
+Built: 458 passages (detected + tagged) + 7 curated records in `/api/v1/sayyiat.json`
+(330 quran, ~110 sunnah, 9 books; seerah fills as sira-genre passages are
 harvested), the `/[lang]/sayyiat/` page in three languages, the landing card
 and Explore menu entry, full API docs.
 New records are draft-tier until a human reads them; nothing goes live until
