@@ -1,0 +1,22 @@
+id: passage/waqidi-maghazi-usama-expedition
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "1117"
+label: { ar: "سرية أسامة بن زيد إلى مؤتة", en: "Sariyya of Usama ibn Zayd to Mu'ta" }
+text: "يا أسامة، سر على اسم الله وبركته حتى تنتهي إلى مقتل أبيك، فأوطئهم الخيل، فقد وليتك على هذا الجيش"
+summary:
+  ar: "في آخر أيام النبي بعث أسامة بن زيد — ابن زيد بن حارثة الذي استشهد بمؤتة — في جيش من شوال ومصر وقيس عيلان إلى البلقاء ليغزو الروم، وكان بعض الناس يتأففون لحداثة سنه. ويروي الواقدي أن النبي لما بلغه ذلك قال لأسرته: يا أسامة، سر على اسم الله وبركته حتى تنتهي إلى مقتل أبيك، فأوطئهم الخيل، فقد وليتك على هذا الجيش."
+  en: "In the Prophet's final days he sent Usama ibn Zayd — son of Zayd ibn Haritha who fell at Mu'ta — at the head of an army drawn from the clans of al-Ash'ariyyin toward al-Balqa' against the Byzantines; some murmured at his youth. Waqidi records the Prophet's rebuke to his family: 'march in God's name until you reach your father's killers — I have put you in charge of this army.'"
+relations:
+  - { type: mentions, target: person/usama-ibn-zayd, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/zayd-ibn-haritha, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/aisha, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/expedition-of-usama, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 1117–1127" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

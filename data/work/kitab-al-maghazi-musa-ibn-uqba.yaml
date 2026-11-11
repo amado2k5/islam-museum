@@ -1,0 +1,25 @@
+id: work/kitab-al-maghazi-musa-ibn-uqba
+class: work
+kind: book
+genre: [sira]
+label: { ar: "كتاب المغازي — موسى بن عقبة", en: "Kitab al-Maghazi — Musa ibn Uqba" }
+summary:
+  ar: "كتاب المغازي لموسى بن عقبة المدني ⁦(ت 141هـ)⁩، يذكره أهل العلم بأنه أقدم مصنف مستقل في مغازي النبي، وقد نقل ابن إسحاق وابن هشام عنه في السيرة. سُجلت هويته هنا لئلا تختلط بمصنف الواقدي اللاحق الذي يحمل العنوان نفسه."
+  en: "Kitab al-Maghazi by Musa ibn Uqba al-Madani (d. 141 AH), regarded by many scholars as the earliest monograph on the Prophet's campaigns; Ibn Ishaq and Ibn Hisham drew on it in the Sira. Recorded here so its identity stays distinct from al-Waqidi's later work of the same title."
+wings: []
+themes: [prophets, scripture-and-its-sciences]
+regions: [arabia]
+authors: [person/musa-ibn-uqba]
+external_ids: { wikidata: "Q135509586" }
+relations:
+  - { type: wrote_in, target: language/arabic }
+provenance:
+  layer: own-research
+  source: "Wikidata Q135509586 ('Kitab al-Maghazi', 'Book by Musa ibn Uqba'); split out of the former generic work/kitab-al-maghazi draft during the Waqidi Maghazi harvest"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: waqidi-maghazi-bayt-1
+sources: [source/wikidata-kitab-al-maghazi-musa-ibn-uqba]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser

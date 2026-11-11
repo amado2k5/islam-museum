@@ -1,0 +1,22 @@
+id: passage/waqidi-maghazi-ifk
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "426"
+label: { ar: "ذكر عائشة وأصحاب الإفك — تلاوة براءتها على المنبر", en: "The slander affair — the exoneration of Aisha read from the pulpit" }
+text: "فخرج رسول الله إلى الناس مسرورا فصعد على المنبر فحمد الله وأثنى عليه بما هو أهله، ثم تلا عليهم بما نزل عليه في براءة عائشة"
+summary:
+  ar: "يفصّل الواقدي قصة الإفك كاملة: اتهام المشركين والمنافقين لعائشة، وتنزيل البراءة، وخرج النبي مسرورا فصعد المنبر وتلا ما نزل عليه في براءتها. وتروي الصفحة براءة زينب بنت جحش من اتهام آخر ونزول آية الحجاب التي كانت في هذا الباب، وهو أول الخلوة بالنساء. وتذكر أم سلمة قولها «كنت أول من علم براءة عائشة»."
+  en: "Waqidi narrates the whole slander affair: the accusation against Aisha, the revelation of her exoneration, and the Prophet ascending the pulpit in joy to recite it. The same chapter reports Zaynab bint Jahsh's exoneration and the descent of the hijab verse, and Umm Salama's remark that she was the first to know of Aisha's innocence."
+relations:
+  - { type: mentions, target: person/aisha, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/umm-salama, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/zaynab-bint-jahsh, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: group/banu-hashim, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 426–440" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

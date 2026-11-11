@@ -1,0 +1,27 @@
+id: passage/waqidi-maghazi-hunayn
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "885"
+label: { ar: "غزوة حنين — ثابتو المائة وأهل البيت", en: "Battle of Hunayn — the steadfast hundred and the household" }
+text: "بقي رسول الله في نفر من المهاجرين والأنصار وأهل بيته، العباس، وعلي، والفضل بن عباس، وأبو سفيان بن الحارث، وربيعة بن الحارث، وأيمن بن عبيد، وأسامة بن زيد، وأبو بكر، وعمر"
+summary:
+  ar: "في غزوة حنين، لما انكشف الناس عن النبي بقي في نفر من المهاجرين والأنصار وأهل بيته: العباس وعلي والفضل بن عباس وأبو سفيان بن الحارث وربيعة بن الحارث وأيمن بن عبيد وأسامة بن زيد وأبو بكر وعمر، يقال ثلاثون رجلا وأربعون في رواية أخرى. ويذكر الواقدي في نفس الباب مقتل الحارث بن هشام وخطبة أعرابي للنبي عند الفتح، ثم غزوة الجعرانة ووفد هوازن ومنهم جرير بن عبد الله."
+  en: "At Hunayn, when the rout began the Prophet was left with a handful of Emigrants, Helpers and his household: al-Abbas, Ali, al-Fadl ibn al-Abbas, Abu Sufyan ibn al-Harith, Rabi'a ibn al-Harith, Ayman ibn Ubayd, Usama ibn Zayd, Abu Bakr and Umar — thirty or forty men in the rival reports. The same chapter covers the Ja'rana division and the Hawazin delegation."
+relations:
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/abbas-ibn-abd-al-muttalib, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/al-fadl-ibn-al-abbas, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/abu-sufyan-ibn-al-harith, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/usama-ibn-zayd, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/umm-ayman, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: group/banu-hashim, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/battle-of-hunayn, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/distribution-of-hunayn-spoils, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 885–939" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah

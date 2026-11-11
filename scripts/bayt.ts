@@ -110,6 +110,9 @@ export const BAYT_EXTRA = new Set([
   "passage/quran-58-2",
   "passage/quran-58-3",
   "passage/quran-58-4",
+  // Waqidi, Kitab al-Maghazi: Usama ibn Zayd's final expedition — grandson-in-law and
+  // adopted grandson of the Prophet through Zayd ibn Haritha; no lexical household marker.
+  "passage/waqidi-maghazi-usama-expedition",
 ]);
 
 /** The Arabic text a passage is judged on: matn, normalized search text, Arabic label and summary. */

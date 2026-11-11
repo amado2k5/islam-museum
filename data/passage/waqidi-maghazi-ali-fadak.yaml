@@ -1,0 +1,22 @@
+id: passage/waqidi-maghazi-ali-fadak
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "562"
+label: { ar: "سرية علي بن أبي طالب إلى بني سعد بفدك", en: "Sariyya of Ali ibn Abi Talib to Banu Sa'd at Fadak" }
+text: "بعث رسول الله عليا في مائة رجل إلى حي سعد بفدك، وبلغ رسول الله أن لهم جمعا يريدون أن يمدوا يهود خيبر"
+summary:
+  ar: "في أثناء غزوة خيبر، بعث النبي علي بن أبي طالب في مائة رجل إلى بني سعد بفدك بعد أن بلغه جمع يريدون مد يهود خيبر، فأخذ عينا لهم فأقر أن وراءه جمعا، فهدم حصونهم على رؤوسهم حتى أسلموا. ويسوق الواقدي الخبر بأسانيده، ويذكر أن النبي أعطى عليا فدكاً غنيمة على الصحيحين."
+  en: "During the Khaybar campaign the Prophet sent Ali ibn Abi Talib with a hundred men to Banu Sa'd at Fadak after hearing they meant to reinforce Khaybar; Ali took their scout, who confessed to a gathering, and the forts were demolished over their heads until they submitted. Waqidi reports that Fadak was assigned to Ali as ghaneema."
+relations:
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: place/fadak, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: place/khaybar, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: event/battle-of-khaybar, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي — المكتبة الشاملة book 23680 (= طبعة مارسدن جونز، أكسفورد 1966)، ص 562–564" , generated_by: "Devin (SWE-2 High)", run: "waqidi-maghazi-bayt-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags:
+- bayt-browser
+- bayt-seerah
