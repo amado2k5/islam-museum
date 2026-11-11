@@ -148,8 +148,8 @@ carries its topic chips (العملات / الصكوك / الوقف).
   `llms.txt`. Landing card + Explore menu entry via `explorePages`.
   Register rows in `docs/site/browsers.md`, plan index,
   `docs/agents/lanes.md` (`islamic-economy` lane), `docs/status.md`,
-  `CANARY.md` (v1.17.0).
-- `docs/engineering/32-islamic-economy-browser-requirements.md` — the
+  `CANARY.md` (v1.19.0).
+- `docs/engineering/35-islamic-economy-browser-requirements.md` — the
   requirements and production checklist for later validation (`IE-R..`).
 
 ## 7. Status

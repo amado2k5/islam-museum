@@ -1,0 +1,17 @@
+id: passage/nasai-api-3361
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3361"
+label: { ar: "السنن النسائي — حديث 3361", en: "Sunan al-Nasa'i 3361 — The Book of Marriage", ur: "سنن النسائی — حدیث 3361" }
+text: "لأَقْضِيَنَّ فِيهَا بِقَضِيَّةِ رَسُولِ اللَّهِ صلى الله عليه وسلم إِنْ كَانَتْ أَحَلَّتْهَا لَكَ جَلَدْتُكَ وَإِنْ لَمْ تَكُنْ أَحَلَّتْهَا لَكَ رَجَمْتُكَ بِالْحِجَارَةِ فَكَانَتْ أَحَلَّتْهَا لَهُ فَجُلِدَ مِائَةً ‏.‏ قَالَ قَتَادَةُ فَكَتَبْتُ إِلَى حَبِيبِ بْنِ سَالِمٍ فَكَتَبَ إِلَىَّ بِهَذَا ‏.‏"
+summary:
+  ar: "في السنن النسائي؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan al-Nasa'i; sending a letter or message to a party."
+  ur: "سنن النسائی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3361 (book 26 hadith 166); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

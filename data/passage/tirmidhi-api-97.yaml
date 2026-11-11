@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-97
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "97"
+label: { ar: "جامع الترمذي — حديث 97", en: "Jami' al-Tirmidhi 97 — The Book on Purification", ur: "جامع ترمذی — حدیث 97" }
+text: "… بْنَ إِسْمَاعِيلَ عَنْ هَذَا الْحَدِيثِ فَقَالاَ لَيْسَ بِصَحِيحٍ لأَنَّ ابْنَ الْمُبَارَكِ رَوَى هَذَا عَنْ ثَوْرٍ عَنْ رَجَاءِ بْنِ حَيْوَةَ قَالَ حُدِّثْتُ عَنْ كَاتِبِ الْمُغِيرَةِ مُرْسَلٌ عَنِ النَّبِيِّ صلى الله عليه وسلم وَلَمْ يَذْكُرْ فِيهِ الْمُغِيرَةَ ‏.‏"
+summary:
+  ar: "في جامع الترمذي؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Jami' al-Tirmidhi; mention of writing or dispatching a letter."
+  ur: "جامع ترمذی میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 97 (book 1 hadith 97); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

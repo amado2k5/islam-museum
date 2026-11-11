@@ -1,4 +1,4 @@
-// The Islamic Economy Browser's shared reads (docs/plan/44-islamic-economy-browser.md):
+// The Islamic Economy Browser's shared reads (docs/plan/47-islamic-economy-browser.md):
 // every mention of money and Islamic economics, deeds/instruments/covenants, and
 // endowments — the «متصفح العملات والصكوك والوقف الإسلامي» — in the Qur'an, the Sunnah,
 // the seerah, every harvested book and every book harvested later, plus the curated

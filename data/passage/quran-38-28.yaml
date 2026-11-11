@@ -17,6 +17,7 @@ translations:
   ur: { text: "جو لوگ ایمان لائے اور عمل نیک کرتے رہے۔ کیا ان کو ہم ان کی طرح کر دیں گے جو ملک میں فساد کرتے ہیں۔ یا پرہیزگاروں کو بدکاروں کی طرح کر دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

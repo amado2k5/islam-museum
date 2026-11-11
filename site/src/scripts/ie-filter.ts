@@ -1,4 +1,4 @@
-// The Islamic Economy Browser's filter (docs/plan/44-islamic-economy-browser.md): narrows
+// The Islamic Economy Browser's filter (docs/plan/47-islamic-economy-browser.md): narrows
 // the money/sukuk/waqf list as the visitor types or picks a topic chip, matching titles,
 // summaries, work names and text excerpts in all three languages, ignoring Arabic vowel
 // marks. Without JavaScript the whole list is on the page.

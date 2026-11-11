@@ -1,0 +1,55 @@
+id: concept/al-hasanat
+class: concept
+kind: ethical
+label:
+  ar: "الحسنات"
+  en: "The good deeds (al-hasanat)"
+  ur: "حسنات"
+summary:
+  ar: "الحسنة كل عمل طيب يقرب إلى الله، وجمعها الحسنات، وهي موضوع «متصفح الحسنات» الذي يجمع كل ذكر لها في المصحف والمدونة. يقرر القرآن كتابتها ومضاعفتها: «إن الله لا يظلم مثقال ذرة وإن تك حسنة يضاعفها» [[passage/quran-4-40]]، و«من جاء بالحسنة فله عشر أمثالها» [[passage/quran-6-160]]، و«إن الحسنات يذهبن السيئات» [[passage/quran-11-114]]، و«فأولئك يبدل الله سيئاتهم حسنات» [[passage/quran-25-70]]، و«وأقرضوا الله قرضا حسنا» [[passage/quran-73-20]]، و«بدل حسنا بعد سوء» [[passage/quran-27-11]]. وتجمع الأحاديث كتابتها في الحديث القدسي «إن الله كتب الحسنات والسيئات» {cite:sahih-al-bukhari 7501} {cite:sahih-muslim 0131}، وفيه أن من همّ بحسنة ولم يعملها كُتبت له حسنة، ومن عملها كُتبت له إلى سبعمائة ضعف {cite:sahih-muslim 0128}، وأن كل عمل ابن آدم يضاعف الحسنة بعشر أمثالها إلا الصوم {cite:sunan-ibn-majah 1638}، وأن من سنّ في الإسلام سنة حسنة فله أجرها وأجر من عمل بها {cite:sahih-muslim 1017}، وأن من قتل وزغة في أول ضربة فله حسنة {cite:sunan-abi-dawud 5263}. وتسمى «الحسنى» جزاء الإحسان: «فله جزاء الحسنى» [[passage/quran-18-88]] و«وللذين أحسنوا الحسنى وزيادة» [[passage/quran-10-26]]، وفيها ورد «وصدق بالحسنى» [[passage/quran-92-6]]. وللحسنة في الاستعمال القرآني معنىان يجمعهما هذا السجل: عمل الطاعة، وما ينزل من الخير والراحة في الدنيا — كقوله «وإن تصبهم حسنة يقولوا» [[passage/quran-4-78]] — و«قرضا حسنا» القرض لله [[passage/quran-2-245]]. أما «الأسماء الحسنى» فصيغة أخرى لا مدخل لها في باب الحسنات."
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+relations:
+- { type: related_to, target: concept/amal, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/birr, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/ihsan, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/taqwa, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/khuluq, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/qard-hasan, sources: [source/tanzil-quran, source/tafsir-sharawi-khawatir-scan-vol-2] }
+- { type: related_to, target: concept/kitab-al-amal, sources: [source/sahih-al-bukhari, source/sahih-muslim] }
+- { type: related_to, target: concept/istighfar, sources: [source/tanzil-quran, source/sahih-muslim] }
+- { type: related_to, target: concept/tawba, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/dhikr, sources: [source/sahih-muslim] }
+- { type: related_to, target: concept/hamm, sources: [source/sahih-muslim, source/ibn-rajab-jami-ulum-hikam] }
+- { type: related_to, target: concept/sadaqa-jariya, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "المصاحف والسنن المدرجة في data/ (tanzil, صحيح البخاري, صحيح مسلم, جامع الترمذي, سنن أبي داود, سنن النسائي, سنن ابن ماجه, الموطأ, أربعون النووية)؛ الحسنات موضوع متصفح الحسنات"
+  generated_by: "Devin (SWE-2 High)"
+  model: swe-2-high
+  run: hasanat-browser-1
+sources:
+- source/tanzil-quran
+- source/sahih-al-bukhari
+- source/sahih-muslim
+- source/jami-al-tirmidhi
+- source/sunan-abi-dawud
+- source/sunan-al-nasai
+- source/sunan-ibn-majah
+- source/muwatta-maruf-1997
+- source/arbaun-nawawi
+- source/hadith-api-fawazahmed0
+- source/tafsir-sharawi-khawatir-scan-vol-2
+- source/ibn-rajab-jami-ulum-hikam
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High); ayah references checked against data/passage/quran-* and hadith numbers against the harvested collections; the two senses of حسنة are documented for review"
+
+tags: [hasanat-browser, hasanat-concepts]

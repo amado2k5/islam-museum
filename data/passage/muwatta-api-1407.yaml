@@ -1,0 +1,17 @@
+id: passage/muwatta-api-1407
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1407"
+label: { ar: "موطأ مالك — حديث 1407", en: "Muwatta Malik 1407 — Judgements", ur: "موطأ مالک — حدیث 1407" }
+text: "أَبِي الزِّنَادِ، أَنَّ عُمَرَ بْنَ عَبْدِ الْعَزِيزِ، كَتَبَ إِلَى عَبْدِ الْحَمِيدِ بْنِ عَبْدِ الرَّحْمَنِ بْنِ زَيْدِ بْنِ الْخَطَّابِ وَهُوَ عَامِلٌ عَلَى الْكُوفَةِ أَنِ اقْضِ بِالْيَمِينِ مَعَ الشَّاهِدِ ‏.‏"
+summary:
+  ar: "في موطأ مالك؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Muwatta Malik; sending a letter or message to a party."
+  ur: "موطأ مالک میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/muwatta-malik] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1407 (book 36 hadith 9); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

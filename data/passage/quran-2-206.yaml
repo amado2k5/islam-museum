@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جب اس سے کہا جاتا ہے کہ خدا سے خوف کر تو غرور اس کو گناہ میں پھنسا دیتا ہے۔ سو ایسے کو جہنم سزاوار ہے۔ اور وہ بہت برا ٹھکانہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations, source/tafsir-tabari-shakir-v04]

@@ -1,0 +1,18 @@
+id: passage/bukhari-api-6260
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6260"
+label: { ar: "صحيح البخاري — حديث 6260", en: "Sahih al-Bukhari 6260 — Asking Permission", ur: "صحیح بخاری — حدیث 6260" }
+text: "الْحَدِيثَ قَالَ ثُمَّ دَعَا بِكِتَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَقُرِئَ فَإِذَا فِيهِ ‏ \"‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ، مِنْ مُحَمَّدٍ عَبْدِ اللَّهِ وَرَسُولِهِ إِلَى هِرَقْلَ عَظِيمِ الرُّومِ، السَّلاَمُ عَلَى مَنِ اتَّبَعَ الْهُدَى، أَمَّا بَعْدُ ‏\"‏‏.‏"
+summary:
+  ar: "في صحيح البخاري؛ نص كتاب أو جوابه منسوب إلى مرسل."
+  en: "In Sahih al-Bukhari; a letter text or reply attributed to a sender."
+  ur: "صحیح بخاری میں؛ بھیجنے والے سے منسوب خط کا متن یا جواب."
+relations:
+  - { type: mentions, target: person/heraclius, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6260 (book 79 hadith 34); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

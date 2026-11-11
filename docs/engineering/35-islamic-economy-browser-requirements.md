@@ -5,7 +5,7 @@ Islamic Economy Browser — everything the museum's sources mention or write
 about money and Islamic economics, deeds/instruments/covenants, and
 endowments, across the Qur'an, the Sunnah, the seerah, Companion and Tabi'i
 reports and every harvested book), as requested by the founder on 11
-November 2026 and delivered in `docs/plan/44-islamic-economy-browser.md`.
+November 2026 and delivered in `docs/plan/47-islamic-economy-browser.md`.
 Written so any person or AI agent can validate each requirement against
 production (`https://islam.museum`, `https://api.islam.museum`) without
 reading the plan. Every requirement has an id (`IE-R..`), a "how to check"
@@ -136,7 +136,7 @@ formula, not every act of giving (plain sadaqa, gifts and vows are out).
 |---|---|---|
 | IE-R40 | `https://api.islam.museum/api/v1/islamic-economy.json` returns every detected + tagged record with `section`, `topics`, `signals`, `work`, `ref`, `unit`, `text`, `sura`, `aya`, `kind`, `themes`, `tags`, `connections`, `prose` | `curl -s .../islamic-economy.json \| jq '.items \| length'`; `feature: "islamic-economy-browser"`; `section` ∈ {quran,sunnah,seerah,books,curated}; `topics` ⊆ {money,sukuk,waqf} |
 | IE-R41 | Endpoint documented in `docs/data/README.md`, `site/public/openapi/v1.json` (`/islamic-economy.json` path), and `llms.txt` | all three rows exist |
-| IE-R42 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 44), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`islamic-economy` lane), `docs/status.md`, `CANARY.md` (v1.17.0 + entries), `docs/plan/44-islamic-economy-browser.md`, this file | all rows present |
+| IE-R42 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 47), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`islamic-economy` lane), `docs/status.md`, `CANARY.md` (v1.19.0 + entries), `docs/plan/47-islamic-economy-browser.md`, this file | all rows present |
 | IE-R43 | `features-api.test.ts` asserts `islamic-economy.json` in the export set and its detection/classification/exclusion rules (topics, corpus sections, false-positive gates, future-book inclusion) | `npm test` green |
 
 ## 5. Governance and delivery

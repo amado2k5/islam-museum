@@ -11,6 +11,10 @@ regions: [south-asia]
 coordinates: [31.558, 74.3507]
 coordinate_precision: site
 external_ids: { wikidata: "Q11739", geonames: "1172451" }
+relations:
+  - { type: located_in, target: place/punjab, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: located_in, target: place/pakistan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: capital_of, target: polity/ghaznavid-empire, note: "Second capital under Mahmud's successors; sole capital from the loss of Ghazna in 558/1163 to the Ghurid capture in 583/1187 (EI2 vol. 5.2 p. 37).", sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/geonames-gazetteer, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: published, completeness: 2, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; enriched by Devin (SWE-2 Medium) from EI2 vol. 5.2 LAHAWR" }
@@ -20,3 +24,4 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: explorer-lahore-1
+  canon: "Prose rewritten in full from the same article, PDF pp. 37-41 (history by P. Jackson, monuments by P. A. Andrews), by Claude Code (claude-fable-5-2), run canon-cornerstones-1; relations added from p. 37."

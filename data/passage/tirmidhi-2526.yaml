@@ -34,6 +34,10 @@ relations:
   target: event/angels-would-visit-your-houses
   sources:
   - source/jami-al-tirmidhi
+- type: mentions
+  target: concept/al-sayyiat
+  sources:
+  - source/jami-al-tirmidhi
 provenance:
   layer: own-research
   source: fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2526; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries

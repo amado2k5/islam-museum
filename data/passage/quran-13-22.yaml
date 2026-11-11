@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جو پروردگار کی خوشنودی حاصل کرنے کے لیے (مصائب پر) صبر کرتے ہیں اور نماز پڑھتے ہیں اور جو (مال) ہم نے ان کو دیا ہے اس میں سے پوشیدہ اور ظاہر خرچ کرتے ہیں اور نیکی سے برائی دور کرتے ہیں یہی لوگ ہیں جن کے لیے عاقبت کا گھر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

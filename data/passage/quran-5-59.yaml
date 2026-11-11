@@ -17,6 +17,7 @@ translations:
   ur: { text: "کہو کہ اے اہل کتاب! تم ہم میں برائی ہی کیا دیکھتے ہو سوا اس کے کہ ہم خدا پر اور جو (کتاب) ہم پر نازل ہوئی اس پر اور جو (کتابیں) پہلے نازل ہوئیں ان پر ایمان لائے ہیں اور تم میں اکثر بدکردار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

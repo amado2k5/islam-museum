@@ -17,6 +17,7 @@ translations:
   ur: { text: "جو برے کام کرے گا اس کو بدلہ بھی ویسا ہی ملے گا۔ اور جو نیک کام کرے گا مرد ہو یا عورت اور وہ صاحب ایمان بھی ہوگا تو ایسے لوگ بہشت میں داخل ہوں گے وہاں ان کو بےشمار رزق ملے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

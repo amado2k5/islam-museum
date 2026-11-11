@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور یہ کافر اس بستی پر بھی گزر چکے ہیں جس پر بری طرح کا مینہ برسایا گیا تھا۔ کیا وہ اس کو دیکھتے نہ ہوں گے۔ بلکہ ان کو (مرنے کے بعد) جی اُٹھنے کی امید ہی نہیں تھی۔", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

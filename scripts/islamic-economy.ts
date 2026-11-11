@@ -1,4 +1,4 @@
-// The Islamic Economy Browser's shared reads (docs/plan/44-islamic-economy-browser.md):
+// The Islamic Economy Browser's shared reads (docs/plan/47-islamic-economy-browser.md):
 // which passage records mention money and Islamic economics, deeds/instruments/covenants,
 // and endowments — the «متصفح العملات والصكوك والوقف الإسلامي». Detection runs at build
 // time over the compiled graph, so a mention in any harvested book — and in every book

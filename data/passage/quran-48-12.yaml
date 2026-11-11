@@ -17,6 +17,7 @@ translations:
   ur: { text: "بات یہ ہے کہ تم لوگ یہ سمجھ بیٹھے تھے کہ پیغمبر اور مومن اپنے اہل وعیال میں کبھی لوٹ کر آنے ہی کے نہیں۔ اور یہی بات تمہارے دلوں کو اچھی معلوم ہوئی۔ اور (اسی وجہ سے) تم نے برے برے خیال کئے اور (آخرکار) تم ہلاکت میں پڑ گئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-48 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
