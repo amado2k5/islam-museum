@@ -12,6 +12,7 @@ import { primaryYear, recordOfNode, SECTION_IDS, sectionsOf, taxonomy as modernT
 import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
 import { companionIndex, decadeKey } from "./companions.js";
 import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dreams.js";
+import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { existsSync, readdirSync } from "node:fs";
 
@@ -214,6 +215,15 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       section: n.class === "passage"
         ? dreamCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
         : dreamTagSection(n),
+    }) },
+  { file: "magic.json", feature: "magic-browser",
+    pick: (n) => n.tags.includes(MAGIC_TAG) || isMagicPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? magicCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : magicTagSection(n),
+      topics: n.class === "passage" ? magicTopicsOf(n) : magicTagTopics(n),
     }) },
   { file: "jinn-devils.json", feature: "jinn-devils-browser",
     pick: (n) => n.tags.includes("jinn-devils-browser") || n.tags.includes("angels-browser"),
