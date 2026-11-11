@@ -35,6 +35,8 @@ capitals:
 - place: place/nishapur
 external_ids:
   wikidata: Q3708094
+relations:
+- { type: had_capital, target: place/nishapur, sources: [source/wikidata] }
 sources:
 - source/wikidata
 provenance:

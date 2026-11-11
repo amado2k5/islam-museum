@@ -12,6 +12,8 @@ regions: [arabia]
 relations:
   - { type: related_to, target: person/muhammad, note: "الحديث أثره وكلامه وفعله", sources: [source/sahih-al-bukhari] }
   - { type: related_to, target: concept/isnad, note: "طريق وصول الحديث", sources: [source/sahih-muslim] }
+  - { type: has_part, target: concept/kutub-al-sitta, sources: [source/sahih-al-bukhari, source/sahih-muslim] }
+  - { type: basis_for, target: concept/ibada, sources: [source/sahih-al-bukhari, source/sahih-muslim] }
 external_ids: { wikidata: "Q234343" }
 sources: [source/sahih-al-bukhari, source/sahih-muslim, source/manhaj-tawthiq-al-sunna-azhar]
 provenance:

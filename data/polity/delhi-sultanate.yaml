@@ -32,6 +32,8 @@ capitals:
 - place: place/delhi
 external_ids:
   wikidata: Q229411
+relations:
+- { type: had_capital, target: place/delhi, sources: [source/wikidata] }
 sources:
 - source/wikidata
 provenance:

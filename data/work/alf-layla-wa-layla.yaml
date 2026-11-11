@@ -12,6 +12,12 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-7
 external_ids: { wikidata: "Q8258" }
+relations:
+  - { type: translation_of, target: work/hazar-afsan, note: "Al-Mas'udi: Hazar Afsana, carried over from Persian, is what people call Alf Layla wa-Layla; Abbott's first stage in EI2 is an eighth-century translation of it.", sources: [source/muruj-al-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: mentioned_in, target: work/muruj-al-dhahab, sources: [source/muruj-al-dhahab] }
+  - { type: mentioned_in, target: work/al-fihrist, sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2] }
+  - { type: mentions, target: person/shahrazad, sources: [source/muruj-al-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: mentions, target: person/harun-al-rashid, sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); EI2 account added in ei2-b010 part 3dm (part 1 of 4)" }

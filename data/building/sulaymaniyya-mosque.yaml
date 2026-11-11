@@ -21,6 +21,10 @@ periods:
 - period/gunpowder-empires
 external_ids:
   wikidata: Q178643
+relations:
+- { type: located_in, target: place/istanbul, sources: [source/wikidata] }
+- { type: built_by, target: person/mimar-sinan, sources: [source/wikidata] }
+- { type: patronized_by, target: person/sulayman-al-qanuni, note: "The record calls it the mosque of Suleiman, built for him by Sinan.", sources: [source/wikidata] }
 sources:
 - source/wikidata
 importance: 1
