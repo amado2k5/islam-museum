@@ -19,6 +19,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **Three prophet records added, trilingual draft.** `person/idris`, `person/hud` and `person/ilyas` now exist as cited draft records (Qur'an + tafsir/qisas sources), and the matching Qur'an passage `mentions` edges point at them; the unresolved stubs for those figures are resolved.
+- **Jinn & Devils Browser: wave-11 angel-interaction hadiths.** Six new records in the angels section from the hadith qudsi of the smaller collections and Ibn Rajab's Forty commentary: the angel who blows the spirit into the fetus and writes provision, deed, term and blessedness or wretchedness (Ibn Rajab's Jami' al-Ulum, Forty 4); God boasting of the praying servants to the angels (Ibn Majah 801); angels alternating by night and day and gathering at the Fajr and Asr prayers (Nasai 485); the roaming angels who seek gatherings of remembrance, with tranquility, mercy and God's mention descending on them (Tirmidhi 3600 with the parallel Forty 36); the angels reporting the servant's intended evil deed — «My Lord, that is Your servant who wants to do an evil deed and You know him best» (Forty 37); and the angels who would visit the houses of those who remained in their state, were it not for sins (Tirmidhi 2526). Each trilingual draft, tagged `jd-angels`, with `mentions` edges from its source passages.
 
 ---
 
