@@ -66,7 +66,16 @@ export function loadStubs(opts: { shared?: boolean } = {}): Stub[] {
   // data/_stubs.yaml plus any data/_stubs.d/*.yaml, so parallel contributors never edit the same file
   if (!stubCache) {
     const files = [p("data", "_stubs.yaml"), ...listFiles(p("data", "_stubs.d"), ".yaml")];
-    stubCache = files.filter((f) => existsSync(f)).flatMap((f) => readYaml<Stub[]>(f) ?? []);
+    stubCache = files.filter((f) => existsSync(f)).flatMap((f) => {
+      const doc = readYaml<unknown>(f);
+      if (doc == null) return [];
+      // _stubs.d files are YAML lists of { id: class/slug } entries only. A mapping file (a delegation
+      // manifest was committed here once) flatMaps into a single bogus stub whose slug is undefined and
+      // only fails much later as an Astro "Missing parameter: slug" build error — fail at load time.
+      if (!Array.isArray(doc)) throw new Error(`${rel(f)}: stub files must be a YAML list of { id: class/slug } entries; manifests and notes belong in docs/delegation/, not data/_stubs.d/`);
+      for (const s of doc as Stub[]) if (s?.id && !/^[a-z]+\/[a-z0-9][a-z0-9-]*$/.test(s.id)) throw new Error(`${rel(f)}: stub id "${s.id}" must be class/slug`);
+      return doc as Stub[];
+    });
   }
   return opts.shared ? stubCache : structuredClone(stubCache);
 }

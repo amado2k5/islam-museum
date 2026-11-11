@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.15.1 — 2026-11-11
+### Fixed
+- **Main-branch build repaired.** A delegation manifest (`maghazi-waqidi.yaml`, the al-Waqidi *Kitab al-Maghazi* harvest registry) had been committed inside `data/_stubs.d/`, where every file must be a YAML list of `class/slug` stub entries; the loader folded the mapping into the stub list and the site build died in Astro with «Missing parameter: slug». The manifest now lives beside its delegation doc at `docs/delegation/library/maghazi-waqidi.yaml`, the bayt plan and requirements point there, and `loadStubs` rejects any non-list stub file — or a stub id that is not `class/slug` — with a clear error at load time instead of a cryptic build failure.
+
 ## v1.15.0 — 2026-11-11
 ### Changed
 - **Bayt browser handoff notes.** `docs/plan/40-bayt-browser.md` gains a status-and-remaining-work section (PR #6005 browser + PR #6011 Waqidi wave B shipped; open items: Waqidi wave C, seerah depth beyond Waqidi, the curated-record gap audit, mentions-edge enrichment, `docs/coverage.md` regeneration, the BAYT-R20 build gate, BAYT-R21 production smoke and the human read of draft records). `docs/delegation/library/maghazi-waqidi.md` now carries the full fetch map — which Shamela URL ranges were mined and which remain — plus the wave-C task list and the edition caveat; `docs/agents/lanes.md` and `docs/status.md` point at the handoff, and `docs/coverage.md` is regenerated (54,134 entities) closing that open item.

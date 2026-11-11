@@ -25,8 +25,8 @@ production-ready end to end.
   work/genre/unit) plus `ahl`, `mawaqif`, `concepts` (curated records tagged
   `bayt-browser` + `bayt-<section>`).
 - Bounded harvest: family chapters of al-Waqidi's *Kitab al-Maghazi* —
-  delegation doc `docs/delegation/library/maghazi-waqidi.md`, stub
-  `data/_stubs.d/lib-maghazi-waqidi.yaml`.
+  delegation doc `docs/delegation/library/maghazi-waqidi.md`, manifest
+  `docs/delegation/library/maghazi-waqidi.yaml`.
 
 ## Detector design (scripts/bayt.ts)
 
@@ -67,8 +67,8 @@ section → ~374 detected passages, ~429 items exported.
   `i18n/{ar,en,ur}.yaml`.
 - Data: 53 records tagged in place; `person/ummayma-bint-ali` and
   `person/fatima-bint-ali` created (draft, trilingual).
-- Docs: this plan, requirements 27, delegation `maghazi-waqidi.md`,
-  stub `data/_stubs.d/lib-maghazi-waqidi.yaml`, registers.
+- Docs: this plan, requirements 28, delegation `maghazi-waqidi.md`,
+  manifest `docs/delegation/library/maghazi-waqidi.yaml`, registers.
 
 ## Status / next waves
 
