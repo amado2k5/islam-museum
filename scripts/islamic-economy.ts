@@ -468,7 +468,7 @@ export function ieCorpusOf(workId: string | undefined, genre: string[] | undefin
 export function ieTagSection(n: Node): IeSection {
   for (const t of n.tags) {
     if (!t.startsWith("islamic-economy-") || t === IE_TAG) continue;
-    const id = t.slice(17);
+    const id = t.slice("islamic-economy-".length);
     if ((IE_SECTIONS as readonly string[]).includes(id)) return id as IeSection;
   }
   return "curated";
@@ -478,6 +478,6 @@ export function ieTagSection(n: Node): IeSection {
 export function ieTagTopics(n: Node): IeTopic[] {
   return n.tags
     .filter((t) => t.startsWith("islamic-economy-") && t !== IE_TAG)
-    .map((t) => t.slice(17))
+    .map((t) => t.slice("islamic-economy-".length))
     .filter((t): t is IeTopic => (IE_TOPICS as readonly string[]).includes(t));
 }
