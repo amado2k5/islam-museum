@@ -1,0 +1,28 @@
+# Library stub: Kitab al-Maghazi — al-Waqidi (maghazi-waqidi lane)
+# Delegation: docs/delegation/library/maghazi-waqidi.md
+# Feature: docs/plan/39-bayt-browser.md (bayt-browser, seerah section)
+id: lib-maghazi-waqidi
+kind: library-delegation
+title: "كتاب المغازي — محمد بن عمر الواقدي"
+status: delegated-not-mined
+lane: bayt
+scope: family-chapters-only
+chapters_in_scope:
+  - prophetic-family-in-medina
+  - ghadir-khumm-and-farewell-pilgrimage
+  - people-of-the-cloak
+  - fatima-ali-hasan-husayn
+  - ummahat-al-muminin
+  - banu-hashim-banu-abd-al-muttalib
+  - descendants-and-imams-line
+edition_candidates:
+  - "Kitab al-Maghazi, ed. Marsden Jones, OUP 1966"
+  - "al-Maghazi, ed. Shu'ayb al-Arna'ut, Mu'assasat al-Risala 1405/1984"
+identity_warning: >
+  Title shared with Musa ibn Uqba's earlier Kitab al-Maghazi; passages must
+  cite the Waqidi recension explicitly. Check whether data/work/kitab-al-maghazi
+  already denotes this work before reusing the id.
+expected_waves: [A-registration, B-family-core, C-wives-clan-descendants]
+notes: >
+  Bounded harvest for the bayt browser seerah section. Non-family campaign
+  chapters remain unmined by design (see delegation doc).
