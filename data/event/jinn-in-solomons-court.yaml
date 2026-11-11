@@ -1,0 +1,46 @@
+id: event/jinn-in-solomons-court
+class: event
+kind: other
+label:
+  ar: "الجن في بلاط سليمان"
+  en: "The jinn in Solomon's court"
+  ur: "سلیمان کے دربار میں جن"
+summary:
+  ar: "يخبر القرآن أن الجن عملوا لسليمان ما يشاء من محاريب وتماثيل وجفان كالجواب، وكان منهم من يبني له ويغوص له، وسمع سليمان صوت جنّي يعده بإحضار عرش بلقيس قبل أن يقوم من مقامه {cite:tanzil-quran}. وهو من أوضح نصوص القرآن على مباشرة الجن لشؤون البشر في زمن قديم."
+  en: "The Qur'an reports that jinn worked for Solomon whatever he willed of high chambers, images and basins like reservoirs, that among them were builders for him and divers for him, and that Solomon heard a jinn promise to bring the throne of Bilqis before he rose from his place {cite:tanzil-quran}. It is among the Qur'an's clearest texts on jinn attending directly to human affairs in an earlier age."
+  ur: "قرآن بتاتا ہے کہ جن سلیمان کے لیے اس کی مرضی کے مطابق محرابیں، بتیں اور حوضوں جیسی کٹوریاں بناتے تھے، ان میں سے کچھ اس کے لیے تعمیر کرتے اور کچھ غوطے لگاتے تھے، اور سلیمان نے ایک جن کی آواز سنی جو ملکہ بلقیس کا تخت اس کے اٹھنے سے پہلے لا دینے کا وعدہ کر رہا تھا {cite:tanzil-quran}۔ یہ قرآن کی قدیم زمانے میں جنوں کے انسانی معاملات میں براہ راست مداخلت کی واضح ترین آیات میں سے ہے۔"
+wings: [people, ideas]
+themes: [scripture-and-its-sciences, prophets]
+regions: [levant-iraq]
+periods: [period/pre-islamic-arabia]
+tags:
+- jinn-devils-browser
+- jd-jinn
+sources:
+- source/tanzil-quran
+- source/tafsir-ibn-kathir
+relations:
+- type: related_to
+  target: person/sulayman
+  sources: [source/tanzil-quran]
+- type: related_to
+  target: concept/jinn
+  sources: [source/tanzil-quran]
+- type: related_to
+  target: concept/jinn-anwa
+  sources: [source/tanzil-quran]
+- type: mentions
+  target: passage/quran-34-12
+  sources: [source/tanzil-quran]
+- type: mentions
+  target: passage/quran-27-39
+  sources: [source/tanzil-quran]
+provenance:
+  layer: own-research
+  source: "Jinn & Devils Browser wave-2 seed; worded from the frozen Qur'an text of Saba', al-Naml and Sad and Tafsir Ibn Kathir"
+  generated_by: Devin (SWE-2 High)
+  run: jinn-devils-browser-2
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High)
