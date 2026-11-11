@@ -13,6 +13,7 @@ import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
 import { companionIndex, decadeKey } from "./companions.js";
 import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dreams.js";
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
+import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPassage, eschatologyTopicsOf } from "./eschatology.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { existsSync, readdirSync } from "node:fs";
 
@@ -228,6 +229,15 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
   { file: "jinn-devils.json", feature: "jinn-devils-browser",
     pick: (n) => n.tags.includes("jinn-devils-browser") || n.tags.includes("angels-browser"),
     fields: ["kind", "wings", "themes", "tags"] },
+  { file: "eschatology.json", feature: "eschatology-browser",
+    pick: (n) => n.tags.includes(ESCH_TAG) || isEschatologyPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? eschCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : eschTagSection(n),
+      topics: n.class === "passage" ? eschatologyTopicsOf(n) : eschTagTopics(n),
+    }) },
   { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
     fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },
 ];

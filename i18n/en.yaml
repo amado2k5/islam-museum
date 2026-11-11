@@ -1604,6 +1604,10 @@ explore:
       title: "Magic and Magicians Browser"
       desc: "Every mention of magic and the magicians in the Qur'an, the Sunnah, the seerah and every harvested book — sorcery, soothsayers, ruqyah, the evil eye and envy — with every verse and report cited."
       menu: "Browse magic and magicians in the Qur'an and books"
+    signs:
+      title: "Signs of the Hour Browser"
+      desc: "Every mention of the signs of the Hour, the Day of Judgment and all eschatology in the Qur'an, the Sunnah, the seerah and every harvested book — the major and minor signs, barzakh, resurrection, reckoning, Paradise and Hell — with every verse and report cited."
+      menu: "Browse the signs of the Hour and the Hereafter"
     jinn-devils:
       title: "Jinn & Devils Browser"
       desc: "Jinn, devils and demons, angels, and the dreams that carry them — every mention in the Qur'an, the hadith and the seerah with its source."
@@ -3372,6 +3376,56 @@ magic:
     concepts:
       title: The records about magic
       desc: "The museum's curated records on magic and the unseen harms around it: sorcery and the sahara, soothsaying and augury, ruqyah and its rulings, the evil eye, envy, waswasah, kashf and 'irafa."
+signs:
+  title: "Signs of the Hour Browser"
+  lede: "Every mention of the signs of the Hour, the Day of Judgment and all eschatology in the museum's sources: the major and minor signs (أشراط الساعة) from the coming of the Dajjal to the rising sun from the west, barzakh and the grave, resurrection and gathering, reckoning and the Scale, the Sirat and the Hawd, Paradise and Hell, and the end-times figures the Qur'an and Sunnah name — sourced records that grow as new texts land."
+  badge: Eschatology explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Eschatology mentions are found at build time by a guarded lexicon over the passage texts — unambiguous forms match directly, ambiguous forms like «الساعة» (the Hour or an hour of time), «الجنة» (Paradise or a garden), «النار» (Hell or fire), «الآخرة» (the Hereafter or the last of a series), «الصراط» (the Bridge or a path), «الميزان» (the Scale or a balance) count only beside their own collocations, and verified false positives are excluded by id; every book harvested later brings its eschatology mentions here automatically once its passages land in the graph, and curated records join through the eschatology-browser tag."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter signs records
+  filter_none: No matches.
+  empty: No signs records in this build yet.
+  topics:
+    ashrat: Signs of the Hour
+    saa: The Hour & end-times
+    qiyama: The Day of Judgment
+    barzakh: Barzakh & the grave
+    hisab: Reckoning
+    mizan: The Scale
+    sirat: The Bridge
+    hawd: The Basin
+    jannah: Paradise
+    jahannam: Hell
+    akhira: The Hereafter
+    dajjal: The Dajjal
+    yajuj-majuj: Yajuj & Majuj
+    mahdi: The Mahdi
+    malakut: The Trumpet & angels
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The signs of the Hour, the Day, barzakh, resurrection, reckoning, the Scale, the Sirat, the Hawd, Paradise and Hell across the revelation — the eschatology chapters and the verses that name them."
+    sunnah:
+      title: In the Sunnah
+      desc: "The hadiths of the signs of the Hour, the Dajjal, Yajuj and Majuj, the Hour's portents, barzakh and the grave, resurrection and gathering, reckoning and the Scale, the Sirat and the Hawd, Paradise and Hell — the two Sahihs, the Sunan, the Muwatta and the Arba'in."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and history books carry of the signs of the Hour and the Hereafter — this section fills itself as new seerah texts land."
+    books:
+      title: In the other books
+      desc: "Eschatology in every harvested book beyond the Qur'an, the hadith and the seerah — poetry, history, fiqh and whatever comes next."
+    hereafter:
+      title: In the Hereafter
+      desc: "The curated records on the Hereafter itself: barzakh, the grave, resurrection, gathering, reckoning, the Scale, the Sirat and the Hawd."
+    dwelling:
+      title: In the dwelling
+      desc: "The curated records on the final dwelling: Paradise and its ranks, Hell and its keepers, the Houris and the bliss."
+    concepts:
+      title: The records about the signs
+      desc: "The museum's curated records on the signs of the Hour and the Day of Judgment: the major and minor signs, the end-times figures, the Day's stations and the eschatological events."
 jinn-devils:
   title: "Jinn & Devils Browser"
   lede: "Jinn, devils and demons, angels, and the dreams that carry them — every being, encounter and report the Qur'an, the hadith, the seerah and the harvested books record, gathered in one browser with its sources."
