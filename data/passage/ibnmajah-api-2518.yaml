@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-2518
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2518"
+label: { ar: "سنن ابن ماجه — حديث 2518", en: "Sunan Ibn Majah 2518 — The Chapters on Manumission (of Slaves)", ur: "سنن ابن ماجہ — حدیث 2518" }
+text: "رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ ثَلاَثَةٌ كُلُّهُمْ حَقٌّ عَلَى اللَّهِ عَوْنُهُ الْغَازِي فِي سَبِيلِ اللَّهِ وَالْمُكَاتَبُ الَّذِي يُرِيدُ الأَدَاءَ وَالنَّاكِحُ الَّذِي يُرِيدُ التَّعَفُّفَ ‏\"‏ ‏.‏"
+summary:
+  ar: "في سنن ابن ماجه؛ ذكر المكاتبات أو المراسلات."
+  en: "In Sunan Ibn Majah; mention of correspondence."
+  ur: "سنن ابن ماجہ میں؛ مکاتبات کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-ibn-majah] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2518 (book 19 hadith 7); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

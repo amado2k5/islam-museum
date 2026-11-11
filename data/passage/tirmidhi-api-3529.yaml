@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-3529
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3529"
+label: { ar: "جامع الترمذي — حديث 3529", en: "Jami' al-Tirmidhi 3529 — Chapters on Supplication", ur: "جامع ترمذی — حدیث 3529" }
+text: "… اللَّهِ بْنَ عَمْرِو بْنِ الْعَاصِي فَقُلْتُ لَهُ حَدِّثْنَا مِمَّا، سَمِعْتَ مِنْ، رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ فَأَلْقَى إِلَىَّ صَحِيفَةً فَقَالَ هَذَا مَا كَتَبَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم قَالَ فَنَظَرْتُ فِيهَا فَإِذَا فِيهَا إِنَّ أَبَا بَكْرٍ الصِّدِّيقَ رضى الله عنه قَالَ يَا رَسُولَ اللَّهِ عَلِّمْنِي مَا أَقُولُ إِذَا أَصْبَحْتُ وَإِذَا أَمْسَيْتُ ‏.‏ فَقَالَ ‏ \"‏ يَا …"
+summary:
+  ar: "في جامع الترمذي؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Jami' al-Tirmidhi; mention of writing or dispatching a letter."
+  ur: "جامع ترمذی میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3529 (book 48 hadith 160); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/muslim-api-5480
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5480"
+label: { ar: "صحيح مسلم — حديث 5480", en: "Sahih Muslim 5480 — The Book of Clothes and Adornment", ur: "صحیح مسلم — حدیث 5480" }
+text: "… قَالَ لَمَّا أَرَادَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يَكْتُبَ إِلَى الرُّومِ - قَالَ - قَالُوا إِنَّهُمْ لاَ يَقْرَءُونَ كِتَابًا إِلاَّ مَخْتُومًا ‏.‏ قَالَ فَاتَّخَذَ رَسُولُ اللَّهِ صلى الله عليه وسلم خَاتَمًا مِنْ فِضَّةٍ كَأَنِّي أَنْظُرُ إِلَى بَيَاضِهِ فِي يَدِ رَسُولِ اللَّهِ صلى الله عليه وسلم نَقْشُهُ مُحَمَّدٌ رَسُولُ اللَّهِ ‏.‏"
+summary:
+  ar: "في صحيح مسلم؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih Muslim; sending a letter or message to a party."
+  ur: "صحیح مسلم میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5480 (book 37 hadith 95); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

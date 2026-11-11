@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1406
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1406"
+label: { ar: "صحيح البخاري — حديث 1406", en: "Sahih al-Bukhari 1406 — Obligatory Charity Tax (Zakat)", ur: "صحیح بخاری — حدیث 1406" }
+text: "مُعَاوِيَةُ نَزَلَتْ فِي أَهْلِ الْكِتَابِ‏.‏ فَقُلْتُ نَزَلَتْ فِينَا وَفِيهِمْ‏.‏ فَكَانَ بَيْنِي وَبَيْنَهُ فِي ذَاكَ، وَكَتَبَ إِلَى عُثْمَانَ ـ رضى الله عنه ـ يَشْكُونِي، فَكَتَبَ إِلَىَّ عُثْمَانُ أَنِ اقْدَمِ الْمَدِينَةَ‏.‏ فَقَدِمْتُهَا فَكَثُرَ عَلَىَّ النَّاسُ حَتَّى كَأَنَّهُمْ لَمْ يَرَوْنِي قَبْلَ ذَلِكَ، فَذَكَرْتُ ذَاكَ لِعُثْمَانَ فَقَالَ لِي إِنْ شِئْتَ تَنَحَّيْتَ فَكُنْتَ قَرِيبًا‏.‏ فَذَاكَ الَّذِي أَنْزَلَنِي هَذَا الْمَنْزِلَ، وَلَوْ أَمَّرُوا عَلَى …"
+summary:
+  ar: "في صحيح البخاري؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih al-Bukhari; sending a letter or message to a party."
+  ur: "صحیح بخاری میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1406 (book 24 hadith 11); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

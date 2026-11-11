@@ -1,0 +1,17 @@
+id: passage/muwatta-api-613
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "613"
+label: { ar: "موطأ مالك — حديث 613", en: "Muwatta Malik 613 — Zakat", ur: "موطأ مالک — حدیث 613" }
+text: "جَاءَ كِتَابٌ مِنْ عُمَرَ بْنِ عَبْدِ الْعَزِيزِ إِلَى أَبِي وَهُوَ بِمِنًى أَنْ لاَ يَأْخُذَ مِنَ الْعَسَلِ وَلاَ مِنَ الْخَيْلِ صَدَقَةً ‏.‏"
+summary:
+  ar: "في موطأ مالك؛ وصول كتاب منسوب إلى مرسل."
+  en: "In Muwatta Malik; a letter arriving from a named sender."
+  ur: "موطأ مالک میں؛ نامزد بھیجنے والے کا خط پہنچنا."
+relations:
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/muwatta-malik] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 613 (book 17 hadith 36); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

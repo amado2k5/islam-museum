@@ -1,0 +1,18 @@
+id: passage/abudawud-api-2917
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2917"
+label: { ar: "سنن أبي داود — حديث 2917", en: "Sunan Abi Dawud 2917 — Shares of Inheritance (Kitab Al-Fara'id)", ur: "سنن ابی داؤد — حدیث 2917" }
+text: "رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ مَا أَحْرَزَ الْوَلَدُ أَوِ الْوَالِدُ فَهُوَ لِعَصَبَتِهِ مَنْ كَانَ ‏\"‏ ‏.‏ قَالَ فَكَتَبَ لَهُ كِتَابًا فِيهِ شَهَادَةُ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ وَزَيْدِ بْنِ ثَابِتٍ وَرَجُلٍ آخَرَ فَلَمَّا اسْتُخْلِفَ عَبْدُ الْمَلِكِ اخْتَصَمُوا إِلَى هِشَامِ بْنِ إِسْمَاعِيلَ أَوْ إِلَى إِسْمَاعِيلَ بْنِ هِشَامٍ فَرَفَعَهُمْ إِلَى عَبْدِ الْمَلِكِ فَقَالَ هَذَا مِن …"
+summary:
+  ar: "في سنن أبي داود؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Sunan Abi Dawud; mention of writing or dispatching a letter."
+  ur: "سنن ابی داؤد میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-abi-dawud] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2917 (book 19 hadith 33); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

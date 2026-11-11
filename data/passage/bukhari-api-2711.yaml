@@ -1,0 +1,17 @@
+id: passage/bukhari-api-2711
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2711"
+label: { ar: "صحيح البخاري — حديث 2711", en: "Sahih al-Bukhari 2711", ur: "صحیح بخاری — حدیث 2711" }
+text: "لَمَّا كَاتَبَ سُهَيْلُ بْنُ عَمْرٍو يَوْمَئِذٍ كَانَ فِيمَا اشْتَرَطَ سُهَيْلُ بْنُ عَمْرٍو عَلَى النَّبِيِّ صلى الله عليه وسلم أَنَّهُ لاَ يَأْتِيكَ مِنَّا أَحَدٌ وَإِنْ كَانَ عَلَى دِينِكَ إِلاَّ رَدَدْتَهُ إِلَيْنَا، وَخَلَّيْتَ بَيْنَنَا وَبَيْنَهُ‏.‏ فَكَرِهَ الْمُؤْمِنُونَ ذَلِكَ، وَامْتَعَضُوا مِنْهُ، وَأَبَى سُهَيْلٌ إِلاَّ ذَلِكَ، فَكَاتَبَهُ النَّبِيُّ صلى الله عليه وسلم عَلَى ذَلِكَ، فَرَدَّ يَوْمَئِذٍ أَبَا جَنْدَلٍ عَلَى …"
+summary:
+  ar: "في صحيح البخاري؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Sahih al-Bukhari; mention of writing or dispatching a letter."
+  ur: "صحیح بخاری میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2711 (book 0 hadith 0); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

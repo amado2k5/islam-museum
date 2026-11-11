@@ -1612,6 +1612,10 @@ explore:
       title: "Hasanat Browser"
       desc: "Every mention of the good deeds (al-hasanat) in the Qur'an, the Sunnah, the seerah and every harvested book — «إن الحسنات يذهبن السيئات»، «من جاء بالحسنة فله عشر أمثالها»، the writing of the good deeds, the good loan to God and «الحسنى» — with every verse and report cited."
       menu: "Browse the good deeds (al-hasanat) in the Qur'an and books"
+    mukatabat:
+      title: "Mukatabat Browser"
+      desc: "Every mention of correspondence in the Qur'an, the Sunnah, the seerah and every harvested book — the Prophet's letters to kings and emperors, the caliphs' letters and the reports written back, Sulayman's letter to the Queen of Sheba — with every verse and report cited."
+      menu: "Browse letters and correspondence in the Qur'an and books"
     magic:
       title: "Magic and Magicians Browser"
       desc: "Every mention of magic and the magicians in the Qur'an, the Sunnah, the seerah and every harvested book — sorcery, soothsayers, ruqyah, the evil eye and envy — with every verse and report cited."
@@ -3458,6 +3462,44 @@ hasanat:
     curated:
       title: "The records about good deeds"
       desc: "The museum's curated records on الحسنات itself: the concept of the good deeds, the good loan to God, the book of deeds, the records of intention and resolve, and the reports where good deeds are weighed, multiplied or erase sins."
+mukatabat:
+  title: "Mukatabat Browser"
+  lede: "Every mention of correspondence in the museum's sources: the letters the Prophet sent to kings and emperors and the letters, replies and reports that came back, the letters of the caliphs to their governors and the reports written to them, Sulayman's letter to the Queen of Sheba in the Qur'an, and every correspondence mention in the seerah, the hadith books and every harvested book — sourced records that grow as new texts land."
+  badge: Correspondence explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Correspondence is found at build time by a guarded detector over the passage texts — send, bring, open, find, read and reply signals, quoted letter openings («من محمد إلى هرقل»، «من عمر إلى معاوية»), basmala letter headers, the chancery institutions (ديوان الخاتم، ديوان البريد، ديوان الإنشاء، صاحب البريد) and the «مكاتبات/مراسلات» genre nouns; the fiqh mukataba self-purchase contract, the divine-book sense («كتب الله»، «في كتاب الله»), debt-contract scribes, quantitative «إلى» and the mushaf-page senses stay out, verified false positives are excluded by id, and every book harvested later brings its letters here automatically once its passages land in the graph; curated records join through the mukatabat-browser tag. Each passage is marked letter when it carries an actual letter and mention when it is only about correspondence, and sender chips class the correspondence prophetic, caliphal, royal or other."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  senders_title: Sender
+  all_senders: "All senders"
+  filter_label: Filter correspondence
+  filter_none: No matches.
+  empty: No correspondence records in this build yet.
+  kinds:
+    letter: "Carries a letter"
+    mention: "About correspondence"
+  senders:
+    prophetic: "Prophetic"
+    caliphal: "Caliphal"
+    royal: "Royal"
+    other: "Other"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The correspondence of the Qur'an: Sulayman's letter to the Queen of Sheba («إنه من سليمان وإنه بسم الله الرحمن الرحيم»), and every verse that mentions letters, messages or written reports."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The letters of the Prophet and the reports of kings' replies in the two Sahihs, the Muwatta and the Sunan: the letters to Heraclius, Chosroes and the Negus, the sealing of the Prophet's seal, the envoys' reports, and the caliphs' letters to their governors and the reports written back."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of correspondence — the Prophet's letters to the kings, the kings' answers, the caliphs' correspondence with their lands — this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Correspondence mentions in every other harvested work — poetry, history, chancery manuals and whatever lands next — classified by the work's genre the day its passages arrive."
+    curated:
+      title: "The records about correspondence"
+      desc: "The museum's curated records on correspondence itself: the genre of letters, the chancery (diwan al-insha), the seal and the barid post, and the named letters the tradition preserves."
 magic:
   title: "Magic and Magicians Browser"
   lede: "Every mention of magic and the magicians in the museum's sources: sorcery in the Qur'an from the story of Pharaoh's magicians to the trial of Harut and Marut, the hadiths on sorcery and soothsaying, the Prophet's own cure by ruqyah, the evil eye and envy, and every magic mention in every harvested book — sourced records that grow as new texts land."

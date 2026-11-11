@@ -1,0 +1,16 @@
+id: passage/bukhari-api-7300
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "7300"
+label: { ar: "صحيح البخاري — حديث 7300", en: "Sahih al-Bukhari 7300 — Holding Fast to the Qur'an and Sunnah", ur: "صحیح بخاری — حدیث 7300" }
+text: "… حَدَّثَنَا الأَعْمَشُ، حَدَّثَنِي إِبْرَاهِيمُ التَّيْمِيُّ، حَدَّثَنِي أَبِي قَالَ، خَطَبَنَا عَلِيٌّ ـ رضى الله عنه ـ عَلَى مِنْبَرٍ مِنْ آجُرٍّ، وَعَلَيْهِ سَيْفٌ فِيهِ صَحِيفَةٌ مُعَلَّقَةٌ فَقَالَ وَاللَّهِ مَا عِنْدَنَا مِنْ كِتَابٍ يُقْرَأُ إِلاَّ كِتَابُ اللَّهِ وَمَا فِي هَذِهِ الصَّحِيفَةِ‏.‏ فَنَشَرَهَا فَإِذَا فِيهَا أَسْنَانُ الإِبِلِ وَإِذَا فِيهَا ‏\"‏ الْمَدِينَةُ حَرَمٌ مِنْ عَيْرٍ إِلَى كَذَا، فَمَنْ أَحْدَثَ فِيهَا حَدَثًا فَعَلَيْهِ لَعْنَةُ اللَّهِ وَالْمَلاَئِكَةِ وَالنَّاسِ أَجْمَعِينَ، …"
+summary:
+  ar: "في صحيح البخاري؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Sahih al-Bukhari; mention of writing or dispatching a letter."
+  ur: "صحیح بخاری میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7300 (book 96 hadith 31); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

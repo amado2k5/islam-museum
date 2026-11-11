@@ -1,0 +1,17 @@
+id: passage/abudawud-api-3619
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3619"
+label: { ar: "سنن أبي داود — حديث 3619", en: "Sunan Abi Dawud 3619 — The Office of the Judge (Kitab Al-Aqdiyah)", ur: "سنن ابی داؤد — حدیث 3619" }
+text: "كَتَبَ إِلَىَّ ابْنُ عَبَّاسٍ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَضَى بِالْيَمِينِ عَلَى الْمُدَّعَى عَلَيْهِ ‏.‏"
+summary:
+  ar: "في سنن أبي داود؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan Abi Dawud; sending a letter or message to a party."
+  ur: "سنن ابی داؤد میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-abi-dawud] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3619 (book 25 hadith 49); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }
