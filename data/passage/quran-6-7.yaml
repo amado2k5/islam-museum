@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور اگر ہم تم پر کاغذوں پر لکھی ہوئی کتاب نازل کرتے اور یہ اسے اپنے ہاتھوں سے بھی ٹٹول لیتے تو جو کافر ہیں وہ یہی کہہ دیتے کہ یہ تو (صاف اور) صریح جادو ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
+  - { type: mentions, target: concept/sihr, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

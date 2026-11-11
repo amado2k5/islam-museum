@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور کہنے لگے کہ اے جادوگر اس عہد کے مطابق جو تیرے پروردگار نے تجھ سے کر رکھا ہے اس سے دعا کر بےشک ہم ہدایت یاب ہو جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
+  - { type: mentions, target: concept/sihr, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

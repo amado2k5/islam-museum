@@ -17,6 +17,7 @@ translations:
   ur: { text: "وہ کہیں گے تو پاک ہے تو ہی ہمارا دوست ہے۔ نہ یہ۔ بلکہ یہ جِنّات کو پوجا کرتے تھے۔ اور اکثر انہی کو مانتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
+  - { type: mentions, target: concept/jinn, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

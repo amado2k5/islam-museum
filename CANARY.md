@@ -13,7 +13,13 @@ open a new block on top with the new version and today's date.
 
 ---
 
-## v1.11.4 — 2026-11-10
+## v1.11.4 — 2026-11-11
+### Fixed
+- **Graph build repair after the Dreams Browser merge.** A leftover duplicate `tags` key on the Ibn Sirin dream-interpretation work record crashed `build-graph`; the tags are now unioned on one line and every other data file was scanned for the same defect.
+
+### Added
+- **Jinn & Devils Browser: «متصفح الشياطين والجن» is live in the build.** A dedicated browser gathers every jinn, devil and demon, angel and dream record in the museum's graph — the Qur'an, the hadith, the seerah and the harvested books — into four sections (the jinn, devils, angels, dreams). Every record gets a subject page showing the ayahs and reports that mention it, drawn from the frozen Qur'an text and the harvested passages. The browser joins the Explore menu and the landing page in Arabic, English and Urdu, exports `/api/v1/jinn-devils.json`, and is documented in the engineering requirements spec so any agent can test it against production.
+
 ### Data
 - **Urdu labels and summaries for the Dream Browser's records.** The 35 browser items that lacked them — 26 passages (Qur'an ayahs, Bukhari, Muslim and Muwatta reports, the Hassan poem verse), the `concept/ihtilam` record and the `work/tafsir-al-ahlam-ibn-sirin` card — gained `label.ur` and `summary.ur`, so the Urdu dreams page now shows Urdu card text throughout instead of falling back to Arabic. Passage labels follow the corpus convention («بخاری 3680 — …», «موطأ 126 — …», «قرآن 12:4»).
 
@@ -48,6 +54,10 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v1.10.1 — 2026-11-11
+### Added
+- **Jinn & Devils Browser: ninety-seven passages now point at their beings.** A conservative harvest (`scripts/harvest/jinn-devils/mentions.py`) scanned every Qur'an ayah and harvested hadith record for unambiguous jinn/devil/dream vocabulary — الجن as a whole token (never الجنة or الجنود), إبليس, شيطان/شياطين, وسواس, لوّامة, سحر-domain words, كهانة, قرين in hadith corpora, and the jinn kinds (مارد، عفريت، غول، سيّاط) — and added `mentions` edges to the graph records those words name. Edges cite each passage's own registered source; the run is idempotent so future harvested books get the same treatment by re-running it.
+- **Jinn & Devils Browser: graph seeds begin.** Twenty-nine existing records — the jinn, the qareen, Iblis, the shayatin of humans and jinn, waswas, sihr, kahana, the ghul, the dream-science concepts and the Prophet-era kahins — now carry `jinn-devils-browser` tags with section tags (`jd-jinn`, `jd-devils`, `jd-angels`, `jd-dreams`), and three new records open the interaction stories: the kinds of jinn, the delegation of the jinn to the Prophet, and the bewitching done on him by Labid ibn al-Asam. New `jinn` and `devil` concept kinds join the schema alongside the angels browser's `angel`. Draft-tier throughout; the browser page and API export follow in later commits.
+
 ### Fixed
 - **Battles API: ghazwa flags come from the shared edge rule.** `/api/v1/battles.json` now derives its `ghazwa` flag through `scripts/ghazwa.ts` — the same rule the battles pages use — so the endpoint cannot drift from the site. The live split is 57 ghazawat and 15 saraya of 72 prophetic-era records (3,250 military records total); the 53/22/75/3,251 figures in the requirements doc were its implementation-time snapshot and have drifted with the graph, not with a second derivation.
 

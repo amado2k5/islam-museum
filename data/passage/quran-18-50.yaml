@@ -19,6 +19,7 @@ relations:
   - { type: part_of, target: passage/quran-18 }
   - { type: mentions, target: person/adam, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/iblis, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/jinn, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/malaika-khalq, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/sujud-al-malaika-li-adam, sources: [source/tanzil-quran] }

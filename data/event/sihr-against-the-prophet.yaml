@@ -1,0 +1,50 @@
+id: event/sihr-against-the-prophet
+class: event
+kind: other
+label:
+  ar: سحر أُلقي على النبي
+  en: The bewitching done on the Prophet
+  ur: نبی پر کیا گیا جادو
+date:
+  start: { edtf: "0630~", calendar: julian, precision: year, status: tradition, note: "في السنوات الأخيرة من حياة النبي بالمدينة على رواية الجمهور" }
+summary:
+  ar: "سحر رجل يهودي من أهل المدينة — قيل هو لبيد بن الأعصم — النبي حتى اشتد به الأمر، فأخبر جبريل أنه مسحور، فنزلت المعوذتان فشُفي، وأُخرج السحر من بئر تحت فراشه فاعترف فُعِرف وأُخرج {cite:sahih-al-bukhari} {cite:sahih-muslim}."
+  en: "A Jew of Medina — said to be Labid ibn al-Asam — bewitched the Prophet until his condition grew severe; Gabriel told him he was bewitched, the two Suras of Refuge were revealed and he was cured, the magic drawn from a well beneath his bedding, and the man confessed and was expelled {cite:sahih-al-bukhari} {cite:sahih-muslim}."
+  ur: "مدینہ کا ایک یہودی — کہا جاتا ہے لبید بن الاعصم — نے نبی پر جادو کیا یہاں تک کہ ان کی حالت بگڑی؛ جبریل نے بتایا کہ وہ مسحور ہیں، معوذتین نازل ہوئیں اور وہ شفا پائے، اور جادو ان کے بستر کے نیچے کنوئیں سے نکالا گیا، اس نے اعتراف کیا تو معلوم ہوا اور اسے نکال دیا گیا {cite:sahih-al-bukhari} {cite:sahih-muslim}۔"
+wings: [people]
+themes: [prophets, creed]
+regions: [arabia]
+periods: [period/prophetic-era]
+tags:
+- jinn-devils-browser
+- jd-devils
+sources:
+- source/sahih-al-bukhari
+- source/sahih-muslim
+- source/sira-ibn-ishaq-zakkar
+- source/tafsir-ibn-kathir
+relations:
+- type: had_participant
+  target: person/muhammad
+  sources: [source/sahih-al-bukhari, source/sahih-muslim]
+- type: had_participant
+  target: person/labid-ibn-al-asam
+  sources: [source/sahih-al-bukhari, source/sahih-muslim]
+- type: related_to
+  target: concept/sihr
+  sources: [source/tanzil-quran]
+- type: related_to
+  target: passage/quran-113
+  sources: [source/sahih-al-bukhari]
+- type: related_to
+  target: passage/quran-114
+  sources: [source/sahih-al-bukhari]
+provenance:
+  layer: own-research
+  source: "Jinn & Devils Browser seed record; worded from the bewitching hadith in the Two Sahihs and Ibn Kathir's tafsir of al-Falaq and al-Nas"
+  generated_by: Devin (SWE-2 High)
+  run: jinn-devils-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High)

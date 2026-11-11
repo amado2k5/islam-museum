@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جب ان کو ہماری روشن آیتیں پڑھ کر سنائی جاتی ہیں تو کہتے ہیں یہ ایک (ایسا) شخص ہے جو چاہتا ہے کہ جن چیزوں کی تمہارے باپ دادا پرستش کیا کرتے تھے ان سے تم کو روک دے اور (یہ بھی) کہتے ہیں کہ یہ (قرآن) محض جھوٹ ہے (جو اپنی طرف سے) بنا لیا گیا ہے۔ اور کافروں کے پاس جب حق آیا تو اس کے بارے میں کہنے لگے کہ یہ تو صریح جادو ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
+  - { type: mentions, target: concept/sihr, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

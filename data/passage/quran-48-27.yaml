@@ -19,6 +19,8 @@ translations:
 relations:
   - { type: part_of, target: passage/quran-48 }
   - { type: mentions, target: building/masjid-al-haram, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/ruya-fiqh, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/taabir-al-ruya, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/ahlam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

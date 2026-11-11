@@ -17,6 +17,9 @@ translations:
   ur: { text: "جنات میں سے ایک قوی ہیکل جن نے کہا کہ قبل اس کے کہ آپ اپنی جگہ سے اٹھیں میں اس کو آپ کے پاس لاحاضر کرتا ہوں اور میں اس (کے اٹھانے کی) طاقت رکھتا ہوں (اور) امانت دار ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
+  - { type: mentions, target: concept/ghul, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/jinn, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/jinn-anwa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
