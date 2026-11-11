@@ -10,6 +10,7 @@ summary:
 relations:
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: practice/dua, sources: [source/sahih-muslim] }
 provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب فضائل عبد الله بن عباس (طبعة دار التأصيل، الحديث 6523؛ ترقيم عبد الباقي المعروف 2477)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
 sources: [source/sahih-muslim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

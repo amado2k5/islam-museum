@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور خدا کے سب نام اچھے ہی اچھے ہیں۔ تو اس کو اس کے ناموں سے پکارا کرو اور جو لوگ اس کے ناموں میں کجی اختیار کرتے ہیں ان کو چھوڑ دو۔ وہ جو کچھ کر رہے ہیں عنقریب اس کی سزا پائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
+  - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

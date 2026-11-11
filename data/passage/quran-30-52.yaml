@@ -17,6 +17,7 @@ translations:
   ur: { text: "تو تم مردوں کی (بات) نہیں سنا سکتے اور نہ بہروں کو جب وہ پیٹھ پھیر کر پھر جائیں آواز سنا سکتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
+  - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

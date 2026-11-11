@@ -16,6 +16,7 @@ tags: [hadith-qudsi, qudsi-abd-allah-ibn-amr-ibn-haram]
 relations:
   - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah] }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-ibn-majah] }
+  - { type: basis_for, target: practice/dua, sources: [source/sunan-ibn-majah] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2800; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
 sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
 status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

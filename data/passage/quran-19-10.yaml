@@ -17,6 +17,7 @@ translations:
   ur: { text: "کہا کہ پروردگار میرے لئے کوئی نشانی مقرر فرما۔ فرمایا نشانی یہ ہے کہ تم صحیح وسالم ہو کر تین (رات دن) لوگوں سے بات نہ کرسکو گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
+  - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

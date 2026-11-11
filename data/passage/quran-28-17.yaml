@@ -17,6 +17,7 @@ translations:
   ur: { text: "کہنے لگے کہ اے پروردگار تو نے جو مجھ پر مہربانی فرمائی ہے میں (آئندہ) کبھی گنہگاروں کا مددگار نہ بنوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
+  - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

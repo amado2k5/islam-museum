@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جو لوگ آگ میں (جل رہے) ہوں گے وہ دوزخ کے داروغوں سے کہیں گے کہ اپنے پروردگار سے دعا کرو کہ ایک روز تو ہم سے عذاب ہلکا کردے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

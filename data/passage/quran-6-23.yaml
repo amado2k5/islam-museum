@@ -17,6 +17,7 @@ translations:
   ur: { text: "تو ان سے کچھ عذر نہ بن پڑے گا (اور) بجز اس کے (کچھ چارہ نہ ہوگا) کہ کہیں خدا کی قسم جو ہمارا پروردگار ہے ہم شریک نہیں بناتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
+  - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

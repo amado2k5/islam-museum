@@ -17,6 +17,7 @@ translations:
   ur: { text: "امید ہے کہ ہمارا پروردگار اس کے بدلے میں ہمیں اس سے بہتر باغ عنایت کرے ہم اپنے پروردگار کی طرف سے رجوع لاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-68 }
+  - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

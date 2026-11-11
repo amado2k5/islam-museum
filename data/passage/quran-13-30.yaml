@@ -17,6 +17,7 @@ translations:
   ur: { text: "(جس طرح ہم اور پیغمبر بھیجتے رہے ہیں) اسی طرح (اے محمدﷺ) ہم نے تم کو اس امت میں جس سے پہلے بہت سی امتیں گزر چکی ہیں بھیجا ہے تاکہ تم ان کو وہ (کتاب) جو ہم نے تمہاری طرف بھیجی ہے پڑھ کر سنا دو اور یہ لوگ رحمٰن کو نہیں مانتے۔ کہہ دو وہی تو میرا پروردگار ہے اس کے سوا کوئی معبود نہیں۔ میں اسی پر بھروسہ رکھتا ہوں اور اسی کی طرف رجوع کرتا ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
+  - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

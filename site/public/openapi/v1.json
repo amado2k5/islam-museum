@@ -376,6 +376,21 @@
         }
       }
     },
+    "/duas.json": {
+      "get": {
+        "operationId": "getDuas",
+        "summary": "Du'a Browser dataset",
+        "description": "The Du'a Browser dataset (متصفح الأدعية): every supplication the museum's sources mention or write — Qur'anic prayers, hadith reports, seerah books and every harvested work — detected at build time plus the curated records tagged dua-browser, each with its corpus section (quran, sunnah, seerah, books, curated), dua_kind (formula or mention), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every du'a record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/magic.json": {
       "get": {
         "operationId": "getMagic",
