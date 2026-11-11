@@ -23,7 +23,15 @@ by_folder = {}
 for f in theirs:
     k = "/".join(f.split("/")[:2]) if "/" in f else f
     by_folder[k] = by_folder.get(k, 0) + 1
+shared_records = [f for f in both if f.startswith(("data/", "content/", "tour/"))]
+mv = re.search(r"^## (v[\d.]+)", sh(f"git show {main}:CANARY.md | head -60"), re.M)
+main_version = mv.group(1) if mv else "unknown"
 D = os.path.join(ROOT, "docs/fable-run/oracle-output/integration")
+mo = open(os.path.join(D, "merge.out"), encoding="utf-8").read() if os.path.exists(os.path.join(D, "merge.out")) else ""
+cf = re.search(r"files in conflict:\n((?:  .*\n)*)", mo)
+conflicts = ", ".join(f"`{x.strip()}`" for x in (cf.group(1).splitlines() if cf else []) if x.strip()) or "not recorded (run integrate.sh)"
+if mo and main not in mo:
+    conflicts += " (WARNING: the outputs in the integration folder are from a different main than the one named here)"
 res = {}
 for f in sorted(os.listdir(D)) if os.path.isdir(D) else []:
     t = open(os.path.join(D, f), encoding="utf-8").read()
@@ -36,15 +44,15 @@ for s in subjects:
     L.append(f"- {s}")
 L += ["", "Where they landed: " + ", ".join(f"`{k}` ({v})" for k, v in sorted(by_folder.items(), key=lambda x: -x[1])[:10]) + ".", "",
       f"Files changed on both sides ({len(both)}): " + ", ".join(f"`{f}`" for f in both) + ".", "",
-      "**What that touches.** Main added records, so every count that depends on the size of the graph moves at integration (records, relations, hop distances, the number of records that hang off the Tour's path). Main did not touch the canon script, the canon register, the Tour's manifest, any Tour stop's prose, or any record this run edited. It changed the homepage component and the three string files in other places, and those merged without conflict.", "",
-      "**The integration point.** A scratch checkout of this branch with that main merged into it. Two files conflicted: `CANARY.md` (both sides opened a `v1.17.0` block; this branch's block has to be renumbered above main's newest) and `docs/coverage.md` (generated; regenerate it). The merge was left uncommitted there: the repository's commit hook refuses a commit that touches Qur'an passage files, and main's own new commits add a `mentions` relation to several hundred of them. The hook was not bypassed. A merge was used, not a rebase, because a rebase replays the `CANARY.md` conflict in every commit; the resulting tree is the same.", "",
+      "**What that touches.** Main added records, so every count that depends on the size of the graph moves at integration (records, relations, hop distances, the number of records that hang off the Tour's path). " + (f"Of the {len(both)} files changed on both sides, none is a record or a prose file: main did not touch the Tour's manifest, any Tour stop's prose, or any record this run edited." if not shared_records else f"Main also changed {len(shared_records)} record or prose files that this run changed: " + ", ".join(f"`{f}`" for f in shared_records) + ".") + (" The canon script and the canon register were not changed on main." if not ({"scripts/report/canon.py", "docs/canon.md"} & theirs) else " Main also changed the canon script or the canon register."), "",
+      f"**The integration point.** A scratch checkout of this branch with that main merged into it, made by `sh scripts/fable/integrate.sh <scratch folder> {main[:10]}`. The files in conflict: {conflicts}. `CANARY.md` conflicts because both sides add a version block at the top (main's newest is `{main_version}`; this branch's block has to be renumbered above it at the real merge), and `docs/coverage.md` is generated and has to be regenerated. For this run both were taken from main. The merge was left uncommitted: the repository's commit hook refuses a commit that touches Qur'an passage files, and main's own new commits add relations to several hundred of them. The hook was not bypassed. A merge was used, not a rebase, because a rebase replays the `CANARY.md` conflict in every commit; the resulting tree is the same.", "",
       "Oracles re-run on that merged tree (outputs in `docs/fable-run/oracle-output/integration/`; their headers name this branch's head because the merge is uncommitted, and count the merged files as uncommitted paths):", "",
       "| Oracle | Last line at the integration point |", "|---|---|"]
 for f, r in res.items():
     L.append(f"| `{f}` | {r} |")
-L += ["", f"At the integration point the graph holds {grab('o00_baseline.out', r'^\s*([\d,]+)\s+records \(stubs excluded\)')} records; the Tour's {grab('o02_tour_coverage.out', r'(\d+) stops in tour/grand-tour.yaml')} stops still cover nine wings and fourteen centuries; {grab('o02_tour_coverage.out', r'hang directly off this path[^:]*: (\d+)')} records hang off the path; published records within three hops: {grab('o04_reachability.out', r'within three hops: ([\d,]+ of [\d,]+ \([\d.]+%\))')}.", "",
+L += ["", f"At the integration point the graph holds {grab('o00_baseline.out', r'^\s*([\d,]+)\s+records \(stubs excluded\)')} records; the Tour has {grab('o02_tour_coverage.out', r'(\d+) stops in tour/grand-tour.yaml')} stops (wings: {grab('o02_tour_coverage.out', r'the stops span all nine wings: (.*)$')}; centuries: {grab('o02_tour_coverage.out', r'the stops span all fourteen Hijri centuries: (.*)$')}); {grab('o02_tour_coverage.out', r'hang directly off this path[^:]*: ([\d,]+)')} records hang off the path; published records within three hops: {grab('o04_reachability.out', r'within three hops: ([\d,]+ of [\d,]+ \([\d.]+%\))')}.", "",
       "**Not re-run at the integration point, and why.** `o06_search.mjs` (needs a full build with a search index), `o08_unchanged.py` (it compares this branch with its own baseline, which is a property of the branch, not of the merge), `o08_vision.py` (the screenshots are of this branch), `o11_remote.py` (a property of the remote).", "",
-      "To rebuild the scratch checkout: `git worktree add --detach <dir> <this branch>`, then in it `git merge --no-commit origin/main`, take main's `CANARY.md` and place this branch's block above its newest version under the next minor number, regenerate `docs/coverage.md` with `npm run graph && npm run coverage`, and run the oracles.", "",
+      "To repeat it: `git fetch origin main && sh scripts/fable/integrate.sh <an empty folder outside the repository> && python3 scripts/fable/concurrency.py`.", "",
       "<!-- CONCURRENCY:END -->"]
 p = os.path.join(ROOT, "docs/fable-run/VERIFICATION.md")
 t = open(p, encoding="utf-8").read()

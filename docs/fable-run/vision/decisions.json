@@ -1,0 +1,292 @@
+{
+ "note": "What was done about each defect the vision reviewers listed. scripts/fable/defects.py joins this file with the reviewers' own tables (review-*.md) to write defects.json. `where` is tour (the Tour's own pages or the homepage button), site (an existing page or shared part of the site, which this run may not rework), data (text that comes from a record) or capture (an artifact of how the screenshot was taken, not a defect of the page).",
+ "defaults": {
+  "S": {
+   "status": "registered",
+   "where": "site",
+   "note": "On an existing page of the site, as it was before this run. The brief bars reworking existing pages, so it is listed for the founder and not changed."
+  },
+  "W": {
+   "status": "registered",
+   "where": "site",
+   "note": "On an existing wing page of the site, as it was before this run. The brief bars reworking existing pages, so it is listed for the founder and not changed."
+  }
+ },
+ "ids": {
+  "T1": {
+   "status": "fixed",
+   "where": "capture",
+   "note": "Not a page defect. The site paints its footer lazily (content-visibility) and a full-page screenshot never scrolls, so the footer was left unpainted in the image; confirmed in a live browser. The capture now forces painting and every screenshot was re-taken."
+  },
+  "T2": {
+   "status": "fixed",
+   "where": "capture",
+   "note": "The same capture artifact as T1; re-captured with painting forced."
+  },
+  "T3": {
+   "status": "fixed",
+   "where": "capture",
+   "note": "The same capture artifact as T1: the three side-door cards are in the page (measured in a live browser at this width, 97 px tall each) and were not painted in the image. Re-captured."
+  },
+  "T4": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The drawing's box scrolls sideways on narrow screens by design (the drawing needs about 860 px to be legible). A line above it now says so on any screen narrower than the drawing, the circles are smaller so neighbours no longer touch, and the stop key under it lists all forty."
+  },
+  "T5": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The second-language name now aligns to the page's reading side, under the title, clear of the corner emblem."
+  },
+  "T6": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The sources list is numbered, matching the footnote numbers in the narrative."
+  },
+  "T7": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "Page and volume references are isolated as left-to-right text, so they keep their order inside an Arabic line."
+  },
+  "T8": {
+   "status": "registered",
+   "where": "data",
+   "note": "The comma before the reference is now the Arabic comma in Arabic. The Latin 'p.' is part of the page reference as the records store it, and the site's own record pages print it the same way; changing it means changing every record's citations."
+  },
+  "T9": {
+   "status": "registered",
+   "where": "site",
+   "note": "How the site renders an isolated Arabic parenthesis when the phrase wraps across two lines. The narrative is the record's own prose and uses the site's rule for parentheses; the same text renders the same way on the record's own page."
+  },
+  "T10": {
+   "status": "registered",
+   "where": "site",
+   "note": "How the site's prose renderer lets a footnote number and the full stop wrap away from the word before them. The same on every record page; a change to the shared renderer."
+  },
+  "T11": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "On a phone the ribbon now breaks into two rows of eight and seven larger cells, and the cell for the time before the Hijra is wide enough for its label."
+  },
+  "T12": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "Same change as T11: larger cells and larger numerals on a phone."
+  },
+  "T13": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The control row is now one line (earlier, the name of the stretch in view, later) with the slider on its own line beneath."
+  },
+  "T14": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The site's own legend for the dagger (a Hijri date computed from the civil date) is printed under the river whenever a stop's date carries it."
+  },
+  "T15": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The stream now runs behind the stop cards, so the stops stand on it, and the band fades at the edge where it continues. Whether it now reads as a river is for the second-round reviewer to say."
+  },
+  "T16": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "Lane labels are set in the page's ink colour; the wing's colour is carried by a small square before each label and by the circles."
+  },
+  "T17": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "Lane labels are larger, and on screens narrower than the drawing the box scrolls at full size instead of shrinking the text (see T4)."
+  },
+  "T18": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "On the completion page the ribbon's caption now says every century has been walked; in the rooms it says how far the walk has reached."
+  },
+  "T19": {
+   "status": "registered",
+   "where": "site",
+   "note": "The honorific sign is drawn by the site's shared prose renderer, at the size and position it uses on every record page."
+  },
+  "T20": {
+   "status": "registered",
+   "where": "data",
+   "note": "The labels are the records' own in each language (a hadith passage has a fuller Arabic label than its English one). The Tour prints what the record holds."
+  },
+  "T21": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The three counts are now three separate lines with no separator dots."
+  },
+  "T22": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The narrative, the counted box and the sources now share one column width in both languages."
+  },
+  "T23": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "On a phone the previous and next buttons are stacked with their contents centred, each with a small heading line."
+  },
+  "T24": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "On a wide screen the counted box and the sources stand beside the narrative instead of under it."
+  },
+  "T25": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "Stop cards in one stretch of the river are the same height."
+  },
+  "T26": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The stream was redrawn (it now runs behind the cards and its width range is wider), so the change of width between two centuries reads as the river narrowing or widening."
+  },
+  "T27": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The band fades at the edge where it continues, and the last stretch has room after its last card."
+  },
+  "T28": {
+   "status": "registered",
+   "where": "tour",
+   "note": "By design: the control names the stretch of the river in view, and at the start that is the same words as the first heading under it."
+  },
+  "T29": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The line now uses figures throughout (40, 9, 14), and the count under each heading speaks of a stretch of the river, not a century, so it is right for the time before the Hijra. The river has fifteen stretches because it shows the years before the Hijra and then fourteen centuries; the heading of the first stretch says so."
+  },
+  "T30": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The earlier and later buttons are dimmed and inactive when there is nowhere further to go."
+  },
+  "T31": {
+   "status": "registered",
+   "where": "tour",
+   "note": "The top edge of a stop card is its wing's colour. The river carries no colour key; each room names the wing in words."
+  },
+  "T32": {
+   "status": "registered",
+   "where": "data",
+   "note": "The Kaaba's record has no date of its own, so the Tour shows the periods the record lists, by the periods' own labels."
+  },
+  "T33": {
+   "status": "registered",
+   "where": "site",
+   "note": "One chip is the record's class (object) and the other its wing (Objects): two different facts with near-identical names in the site's own vocabulary."
+  },
+  "T34": {
+   "status": "registered",
+   "where": "site",
+   "note": "The relation names are the site's own labels for its predicates, the same ones the record pages show under Connections."
+  },
+  "T35": {
+   "status": "registered",
+   "where": "site",
+   "note": "Line breaking of transliterated names (a break after 'al-') is how the browser breaks the site's English text everywhere."
+  },
+  "T36": {
+   "status": "registered",
+   "where": "data",
+   "note": "The two spellings are the labels of two different records (the work and its source entry) as the data holds them."
+  },
+  "T37": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "Every Tour page now has the same trail: Museum, the Grand Tour, then the page's own name. The completion page's last crumb is its name, not a button label."
+  },
+  "T38": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The count of relations between stops is on its own line."
+  },
+  "T39": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "On desktop the nine wing doors are three to a row, and each heading carries an arrow."
+  },
+  "T40": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "Smaller circles leave a gap between neighbours on one lane, and the arcs are lighter. Where a dozen relations meet at one stop the arcs still converge: that is what the graph holds."
+  },
+  "T41": {
+   "status": "registered",
+   "where": "site",
+   "note": "The site's shared footer has one link whose Arabic string is in English. Not a Tour page element."
+  },
+  "T42": {
+   "status": "registered",
+   "where": "data",
+   "note": "The Kiswa's lead cites the database entry by its identifier, which is the precise reference; the record has no fuller citation to show."
+  },
+  "T43": {
+   "status": "registered",
+   "where": "site",
+   "note": "Most of the gap is the site's own spacing above its footer; the Tour's part of it was reduced."
+  },
+  "T44": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The ribbon's caption now speaks of how far the visitor's walk has reached, which is true at an undated stop as well."
+  },
+  "S1": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The button was rebuilt: a pill directly under the headline, as wide as its text, centred."
+  },
+  "S2": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The label and its arrow now wrap as one piece of centred text."
+  },
+  "S3": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The button is a fully rounded pill, like the page's other buttons."
+  },
+  "S4": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "The button moved out of the 'On this day' block to sit directly under the headline."
+  },
+  "S5": {
+   "status": "fixed",
+   "where": "tour",
+   "note": "Under the headline, the button is on the first screen at every width."
+  },
+  "S6": {
+   "status": "registered",
+   "where": "site",
+   "note": "The new button's arrow points forward in Arabic. The older arrows on the Arabic homepage point the other way; they are the existing page's."
+  },
+  "S21": {
+   "status": "registered",
+   "where": "capture",
+   "note": "Probably the site's fixed bottom bar caught mid-page by a full-page screenshot, as the reviewer suspected. Not confirmed in a browser."
+  },
+  "S42": {
+   "status": "registered",
+   "where": "site",
+   "note": "The Place wing opens on a full-screen map. Whether the header is truly hidden for a visitor, or the capture stacked a fixed panel over the page, was not settled; listed for the founder to look at in a browser."
+  },
+  "W1": {
+   "status": "registered",
+   "where": "capture",
+   "note": "Mostly an artifact of this machine, not settled as a page defect. The scoped build does not copy the picture folder; the capture now serves pictures from the repository and asks lazy images to load, and most frames fill in the re-capture. The frames still empty are pictures whose files are not in the repository (the museum's pictures are served from its media store). Whether any is missing on the live site was not checked."
+  },
+  "W2": {
+   "status": "registered",
+   "where": "capture",
+   "note": "The same as W1: the pictures for these cards are not on this machine. The English and Arabic pages differ only in which pictures happened to be present or loaded at capture."
+  },
+  "W29": {
+   "status": "registered",
+   "where": "capture",
+   "note": "The site's fixed bottom bar, caught mid-page by a full-page screenshot."
+  }
+ }
+}

@@ -68,14 +68,27 @@ def main():
     for st, text, file, cmd, out, result, code in rows:
         state = "GREEN" if result.startswith("GREEN") else "NOT-GREEN"
         L.append(f"| **{st}** {text} | **{state}** | {result.replace('|', '/')} | `{file}` | `{cmd}` | `docs/fable-run/oracle-output/{out}` |")
-    green = sum(1 for r in rows if r[5].startswith("GREEN"))
-    L += ["", f"{green} of {len(rows)} oracle runs end GREEN. Statements 10 and 13 have no oracle of their own: 10 is this table (every statement above has a committed oracle, a command and a captured output), and 13 is how the table is made (by `scripts/fable/board.py`, from the runs, never typed).", "", "<!-- BOARD:END -->"]
-    block = "\n".join(L)
     vf = os.path.join(ROOT, "docs", "fable-run", "VERIFICATION.md")
-    text = open(vf, encoding="utf-8").read() if os.path.exists(vf) else "# Verification ledger\n\n<!-- BOARD:BEGIN -->\n<!-- BOARD:END -->\n"
-    text = re.sub(r"<!-- BOARD:BEGIN.*?<!-- BOARD:END -->", lambda m: block, text, flags=re.S)
-    open(vf, "w", encoding="utf-8").write(text)
-    print(f"board: {green} of {len(rows)} green -> docs/fable-run/VERIFICATION.md")
+
+    def write(extra):
+        green = sum(1 for r in rows if r[5].startswith("GREEN")) + sum(1 for e in extra if "| **GREEN** |" in e)
+        total = len(rows) + len(extra)
+        block = "\n".join(L + extra + ["", f"{green} of {total} oracle runs end GREEN. The last row is the ledger checking itself: that every statement has a committed oracle and a captured output (statement 10), and that every row above is the oracle's own last line from a run at the commit named, never typed (statement 13).", "", "<!-- BOARD:END -->"])
+        text = open(vf, encoding="utf-8").read() if os.path.exists(vf) else "# Verification ledger\n\n<!-- BOARD:BEGIN -->\n<!-- BOARD:END -->\n"
+        open(vf, "w", encoding="utf-8").write(re.sub(r"<!-- BOARD:BEGIN.*?<!-- BOARD:END -->", lambda m: block, text, flags=re.S))
+        return green, total
+
+    # statements 10 and 13: the ledger checks the table just written against the files it names, then its own row is added
+    write([])
+    subprocess.run("python3 scripts/fable/numbers.py", shell=True, cwd=ROOT, capture_output=True, text=True)
+    r = run("python3 scripts/fable/o10_ledger.py")
+    open(os.path.join(OUT, "o10-ledger.out"), "w", encoding="utf-8").write(r.stdout)
+    res = [l for l in r.stdout.splitlines() if l.startswith("RESULT:")]
+    result = res[-1][8:] if res else f"NOT-GREEN (the oracle did not finish: exit {r.returncode}; {r.stderr.strip()[-160:]})"
+    print(f"board: statements 10 and 13: {result[:110]}")
+    state = "GREEN" if result.startswith("GREEN") else "NOT-GREEN"
+    green, total = write([f"| **10 and 13** Every statement has an oracle; the board is derived from the last runs, never narrated | **{state}** | {result.replace('|', '/')} | `scripts/fable/o10_ledger.py` | `python3 scripts/fable/o10_ledger.py` | `docs/fable-run/oracle-output/o10-ledger.out` |"])
+    print(f"board: {green} of {total} green -> docs/fable-run/VERIFICATION.md")
 
 
 if __name__ == "__main__":

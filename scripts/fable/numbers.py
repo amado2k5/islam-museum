@@ -27,7 +27,7 @@ def grab(name, pattern, group=1):
 
 def commit(name):
     t = text(name)
-    m = re.search(r"built from commit ([0-9a-f]{10})", t) or re.search(r"^HEAD: ([0-9a-f]{10})", t, re.M) or re.search(r"deploy stamp: commit ([0-9a-f]{10})", t)
+    m = re.search(r"leads below are read from commit ([0-9a-f]{10})", t) or re.search(r"built from commit ([0-9a-f]{10})", t) or re.search(r"^HEAD: ([0-9a-f]{10})", t, re.M) or re.search(r"deploy stamp: commit ([0-9a-f]{10})", t)
     return m.group(1) if m else "?"
 
 
@@ -67,6 +67,13 @@ rows = [
     ("... standing in the register with their evidence", "-", grab("o05-contradictions.out", r"stand registered with their evidence:\s+(\d+)"), "-", "o05-contradictions.out"),
     ("... read and found consistent", "-", grab("o05-contradictions.out", r"read and found consistent:\s+(\d+)"), "-", "o05-contradictions.out"),
     ("Search: fixed queries that return the canon record first (production, the baseline deploy)", grab("o06-search-production.out", r"(\d+ of \d+) queries return the canon record first"), "this branch could not be built here; not measured", "o06-search-production.out", "-"),
+    ("Guided pathways", count(B, "exhibit records whose id starts path- (pathways)"), count(A, "exhibit records whose id starts path- (pathways)"), B, A),
+    ("Cornerstones that write no relation of their own", count(B, "cornerstones with no authored outgoing relation"), count(A, "cornerstones with no authored outgoing relation"), B, A),
+    ("Visible defects listed by the fresh-context reviewers of the screenshots", "no vision pass", grab("o08-vision.out", r"defects listed by the reviewers: (\d+\s+\(fixed: \d+, registered: \d+\))"), "-", "o08-vision.out"),
+    ("... by where they are", "-", grab("o08-vision.out", r"by where they are: (.*)$"), "-", "o08-vision.out"),
+    ("Existing pages rebuilt from the old templates and the new, and compared byte for byte", "-", grab("o08b-unchanged.out", r"(pages rendered by the baseline's templates: \d+; byte-identical under the branch's templates: \d+; different: \d+; missing: \d+)"), "-", "o08b-unchanged.out"),
+    ("Rooms walked with JavaScript off, by following \"next\" from the first (Arabic; English)", "-", " ; ".join(__import__("re").findall(r"(\d+ rooms walked of \d+)", text("o09-nojs.out"))) or "not measured", "-", "o09-nojs.out"),
+    ("Cornerstones probed on the live site's wing pages that the page lists (production)", grab("o13-production-wings.out", r"(\d+ of \d+) probed cornerstones"), "not measurable before a deploy", "o13-production-wings.out", "-"),
     ("Subjects the canon register called missing", grab("o07-absences.out", r"baseline: (\d+) subjects"), grab("o07-absences.out", r"(found under another name: \d+\s+only a stub: \d+\s+absent after the search: \d+)"), "o07-absences.out", "o07-absences.out"),
 ]
 L = ["# The run's numbers", "",
@@ -74,6 +81,21 @@ L = ["# The run's numbers", "",
      "| Measure | Before | After (this branch) | Read from (before) | Read from (after) |", "|---|---|---|---|---|"]
 for name, before, after, fb, fa in rows:
     L.append(f"| {name} | {before} | {after} | {('`' + fb + '` @ ' + commit(fb)) if fb.endswith('.out') else fb} | {('`' + fa + '` @ ' + commit(fa)) if fa.endswith('.out') else fa} |")
+# the run's shape: the harness's own report of each subagent, kept in delegation.json (not an oracle's measurement)
+import collections, json
+dp = os.path.join(ROOT, "docs", "fable-run", "delegation.json")
+if os.path.exists(dp):
+    ag = json.load(open(dp, encoding="utf-8"))["agents"]
+    by = collections.OrderedDict()
+    for a in ag:
+        r = by.setdefault(a["role"], [0, 0, 0, 0.0])
+        r[0] += 1; r[1] += a["tokens"]; r[2] += a["tool_uses"]; r[3] += a["minutes"]
+    L += ["", "## The run's shape", "",
+          "_From `docs/fable-run/delegation.json`: what the harness reported when each subagent finished. Minutes are each agent's own wall-clock and overlap, because agents ran side by side. The orchestrating session's own tokens are not in these figures._", "",
+          "| Role | Agents | Tokens | Tool calls | Agent-minutes |", "|---|---|---|---|---|"]
+    for role, (n, tok, tools, mins) in by.items():
+        L.append(f"| {role} | {n} | {tok:,} | {tools:,} | {mins:,.0f} |")
+    L.append(f"| **all** | **{len(ag)}** | **{sum(a['tokens'] for a in ag):,}** | **{sum(a['tool_uses'] for a in ag):,}** | **{sum(a['minutes'] for a in ag):,.0f}** |")
 L.append("")
 open(os.path.join(ROOT, "docs", "fable-run", "NUMBERS.md"), "w", encoding="utf-8").write("\n".join(L))
 print("\n".join(L))

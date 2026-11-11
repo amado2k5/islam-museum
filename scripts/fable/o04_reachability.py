@@ -13,6 +13,7 @@ Definitions, fixed here so the numbers can be re-derived:
   published       status.review == published.
 
   npm run graph && python3 scripts/fable/o04_reachability.py [--list-beyond N]
+  python3 scripts/fable/o04_reachability.py --graph <graph.json built at another commit>     # for example the baseline
 """
 import collections, sys
 from fable import Oracle, real_nodes, review, importance, arg, own_relations
@@ -48,7 +49,10 @@ o.note(f"  leaves (one neighbour): {len(leaves)}")
 for i in leaves:
     o.note(f"    {i}  ->  {next(iter(adj[i]))}")
 o.check("no cornerstone is a dead end (each has at least two distinct neighbours over meaningful relations)", not dead, f"{len(dead)} dead ends ({len(isolated)} isolated, {len(leaves)} leaves)")
-o.note(f"  finer measure, not a check: cornerstones whose own file writes no relation: {len(no_own)} ({dict(collections.Counter(i.split('/')[0] for i in no_own).most_common())})")
+if "--graph" in sys.argv:
+    o.note("  finer measure (cornerstones whose own file writes no relation): not computed with --graph, because it reads the data files of the working tree, not of the commit the artifact was built from")
+else:
+    o.note(f"  finer measure, not a check: cornerstones whose own file writes no relation: {len(no_own)} ({dict(collections.Counter(i.split('/')[0] for i in no_own).most_common())})")
 
 # multi-source breadth-first search from every cornerstone
 dist = {i: 0 for i in corner}
