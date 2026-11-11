@@ -13,6 +13,7 @@ import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
 import { companionIndex, decadeKey } from "./companions.js";
 import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dreams.js";
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
+import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { existsSync, readdirSync } from "node:fs";
 
@@ -232,7 +233,7 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
     fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },
 ];
 
-export function featureApiData(c: Compiled): Record<string, { generated: string; feature: string; items: Record<string, unknown>[] }> {
+export function featureApiData(c: Compiled): Record<string, { generated: string; feature: string; items: Record<string, unknown>[]; [key: string]: unknown }> {
   const real = c.nodes.filter((n) => !n.stub);
   const byId = new Map(c.nodes.map((n) => [n.id, n]));
   const edgesFrom = new Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>();
@@ -250,7 +251,7 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
       holders.set(job, list);
     }
   }
-  const out: Record<string, { generated: string; feature: string; items: Record<string, unknown>[] }> = {};
+  const out: Record<string, { generated: string; feature: string; items: Record<string, unknown>[]; [key: string]: unknown }> = {};
   for (const spec of FEATURE_EXPORTS) {
     const items = real.filter(spec.pick).sort((a, b) => a.id.localeCompare(b.id)).map((n) => {
       const picked = Object.fromEntries(spec.fields.filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
@@ -263,6 +264,8 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
     out[spec.file] = { generated: c.generated, feature: spec.feature, items };
   }
   out["companions.json"] = { generated: c.generated, feature: "companions-browser", items: companionRows(c, edgesFrom) };
+  const msg = messengerApiData(c, edgesFrom, byId);
+  out["messengers.json"] = { generated: c.generated, feature: "messengers-browser", subjects: msg.subjects, items: msg.items };
   return out;
 }
 
@@ -291,6 +294,66 @@ function companionRows(c: Compiled, edgesFrom: Map<string, { type: string; to: s
       prose: Object.keys(n.prose ?? {}),
     };
   });
+}
+
+/** The Messengers Browser's API rows: detected/class-edge passages plus curated records, and the subject index (docs/plan/39-messengers-browser.md). */
+function messengerApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>, byId: Map<string, Node>) {
+  const real = c.nodes.filter((n) => !n.stub);
+  const edgeSubjects = new Map<string, Set<string>>();
+  for (const e of c.edges) {
+    if (e.type !== "mentions" || !e.from.startsWith("passage/") || !MESSENGER_SUBJECT_SET.has(e.to)) continue;
+    const set = edgeSubjects.get(e.from) ?? new Set<string>();
+    set.add(e.to);
+    edgeSubjects.set(e.from, set);
+  }
+  const genreOf = (workId: string | undefined): string[] | undefined =>
+    workId ? (byId.get(workId)?.data.genre as string[] | undefined) : undefined;
+  const isGeneric = (t: MessengerTopic) => !t.startsWith("person/");
+  const items: Record<string, unknown>[] = [];
+  const subjectPassages = new Map<string, { id: string; section: string }[]>();
+  for (const n of real) {
+    if (n.class === "passage") {
+      const detected = messengerTopicsOf(n);
+      const detectedSubjects = detected.filter((t): t is Extract<MessengerTopic, `person/${string}`> => t.startsWith("person/"));
+      const generic = detected.filter(isGeneric);
+      const edges = edgeSubjects.get(n.id) ?? new Set<string>();
+      const edgeNonMuhammad = [...edges].filter((s) => s !== "person/muhammad");
+      const include =
+        detected.length > 0 ||
+        edgeNonMuhammad.length > 0 ||
+        (edges.has("person/muhammad") && (generic.length > 0 || detectedSubjects.includes("person/muhammad")));
+      if (!include) continue;
+      const section = messengerCorpusOf(n.data.work as string | undefined, genreOf(n.data.work as string | undefined), n.data.unit as string | undefined);
+      const subjects = [...new Set([...detectedSubjects, ...edges])];
+      const topics = [...new Set([...detectedSubjects, ...edgeNonMuhammad, ...generic])];
+      const picked = Object.fromEntries(["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"].filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
+      items.push({ ...compact(n), ...picked, section, subjects, topics, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) });
+      for (const s of subjects) {
+        if (!MESSENGER_SUBJECT_SET.has(s)) continue;
+        const list = subjectPassages.get(s) ?? [];
+        list.push({ id: n.id, section });
+        subjectPassages.set(s, list);
+      }
+      continue;
+    }
+    if (n.tags.includes(MESSENGERS_TAG)) {
+      items.push({
+        ...compact(n), kind: n.data.kind, wings: n.wings, themes: n.themes, tags: n.tags,
+        section: messengerTagSection(n), subjects: [], topics: [], connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}),
+      });
+    }
+  }
+  const sectionRank = (s: unknown) => (MESSENGER_SECTIONS as readonly string[]).indexOf(String(s));
+  items.sort((a, b) => sectionRank(a.section) - sectionRank(b.section) || String(a.id).localeCompare(String(b.id)));
+  const subjects = MESSENGER_SUBJECTS.map((id) => {
+    const node = byId.get(id);
+    if (!node || node.stub) return null;
+    const passages = (subjectPassages.get(id) ?? []).sort((a, b) => sectionRank(a.section) - sectionRank(b.section) || a.id.localeCompare(b.id));
+    const counts = { quran: 0, sunnah: 0, seerah: 0, books: 0 };
+    for (const p of passages) if (p.section in counts) counts[p.section as keyof typeof counts]++;
+    return { id, label: node.label, summary: node.summary, status: node.data.status?.review, counts, passages: passages.map((p) => p.id) };
+  }).filter((x): x is NonNullable<typeof x> => !!x);
+  return { items, subjects };
 }
 
 export function decisionsApiData() {

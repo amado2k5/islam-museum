@@ -1,0 +1,27 @@
+id: person/hud
+class: person
+label:
+  ar: "هود"
+  en: "Hud"
+  ur: "ہود"
+gender: male
+summary:
+  ar: "نبي أُرسل إلى عاد، وذكره القرآن في سياق إنذارهم ودعوتهم إلى الله {cite:tanzil-quran} {cite:tafsir-ibn-kathir}."
+  en: "The prophet sent to Aad, named in the Qur'an in the context of warning them and calling them to God {cite:tanzil-quran} {cite:tafsir-ibn-kathir}."
+  ur: "عاد کی طرف بھیجا گیا نبی، جس کا ذکر قرآن میں انہیں ڈرانے اور اللہ کی طرف بلانے کے سیاق میں ہے {cite:tanzil-quran} {cite:tafsir-ibn-kathir}۔"
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/tafsir-ibn-kathir] }
+relations:
+  - { type: related_to, target: group/aad, note: "نبي عاد في الرواية القرآنية", sources: [source/tanzil-quran, source/tafsir-ibn-kathir], confidence: low }
+sources: [source/tanzil-quran, source/tafsir-ibn-kathir, source/qisas-anbiya-thaalabi-edition]
+provenance:
+  layer: own-research
+  source: "Qur'anic mentions and the classical tafsir/qisas records already registered in the museum"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: messengers-browser-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

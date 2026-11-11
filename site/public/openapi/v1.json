@@ -406,6 +406,21 @@
         }
       }
     },
+    "/messengers.json": {
+      "get": {
+        "operationId": "getMessengers",
+        "summary": "Messengers and Prophets Browser dataset",
+        "description": "The Messengers and Prophets Browser dataset (متصفح الرسل والأنبياء): every mention of the messengers and prophets in the Qur'an, Sunnah, seerah and harvested books — named prophets, the class terms and unnamed prophets — detected at build time and joined to the canonical mentions edges, plus the curated messengers-browser records and the subjects index, each with its corpus section (quran, sunnah, seerah, books, curated), subjects/topics chips, work, ref, text excerpt and edges.",
+        "responses": {
+          "200": {
+            "description": "Every messenger/prophet mention record with corpus section, subjects, topics, work, ref, excerpt and edges, plus the subjects index",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/ghayb.json": {
       "get": {
         "operationId": "getQudsi",

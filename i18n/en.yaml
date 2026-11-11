@@ -1608,6 +1608,10 @@ explore:
       title: "Jinn & Devils Browser"
       desc: "Jinn, devils and demons, angels, and the dreams that carry them — every mention in the Qur'an, the hadith and the seerah with its source."
       menu: "Browse jinn, devils and angels"
+    messengers:
+      title: "Messengers and Prophets Browser"
+      desc: "Every mention of the messengers and prophets in the Qur'an, the Sunnah, the seerah and every harvested book — the named prophets, the messengers, the bearers of stories, and every verse and report cited."
+      menu: "Browse the messengers, prophets and their mentions"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -3402,6 +3406,54 @@ jinn-devils:
     dreams:
       title: Dreams and visions
       desc: "The dream-science of the tradition: true dreams, nightmares, dream interpretation, and the dream reports that carry unseen beings."
+messengers:
+  title: "Messengers and Prophets Browser"
+  lede: "Every mention of the messengers and prophets in the museum's sources: the named prophets and messengers in the Qur'an, the Sunnah and the seerah, the bearers of stories, lineages and missions, the prophets who are not named, and every mention of the messengers and prophets in every harvested book — sourced records that grow as new texts land."
+  badge: Messengers and prophets explorer
+  status: "This build holds {n} records in {s} sections and {p} subject pages; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Prophet and messenger mentions are found at build time by a guarded lexicon over the passage texts — named forms match directly, ambiguous forms like «صالح» and «يحيي» count only beside their own collocations, «ابن آدم» is dropped because it means mankind rather than Adam, and verified false positives are excluded by id; ayahs and reports already linked by explicit mentions edges enter too; every book harvested later brings its prophet mentions here automatically once its passages land in the graph, and curated records join through the messengers-browser tag."
+  api: "The whole set is available at"
+  subjects_title: Prophet and messenger pages
+  subjects_note: "Every prophet or messenger recorded in the museum has a subject page gathering their verses, reports and stories from every section."
+  feed_title: Every mention in the sources
+  mentions_count: "{n} mentions"
+  sections_title: The browser's sections
+  filter_label: Filter messenger records
+  filter_none: No matches.
+  empty: No messenger records in this build yet.
+  entity_page: "Museum record"
+  quran_title: "In the Qur'an"
+  sunnah_title: "In the Sunnah"
+  seerah_title: "In the seerah"
+  books_title: "In the other books"
+  curated_title: "Curated records"
+  quran_ref: "Qur'an"
+  related_title: "Also in the museum"
+  unnamed_title: "Unnamed prophets and messengers"
+  unnamed_note: "Places that speak of a prophet, messenger or envoy without naming them — shown as they are, without guessing the identity."
+  generic_title: "Collective mentions of the prophets and messengers"
+  topics:
+    prophets: The prophets
+    messengers: The messengers
+    sending: Sending and mission
+    unnamed: Mention without a name
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The prophets and messengers in the revelation: the named figures in the stories of the nations and the verses, the missions, the collective descriptions of prophets and messengers, and those of them who are not named."
+    sunnah:
+      title: In the Sunnah
+      desc: "The hadiths of the two Sahihs, the Muwatta, the Arba'in and the Sunan: the reports of the prophets and messengers and their states, the hadiths that mention prophets and messengers, and what the fiqh and spiritual chapters carry about them."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and history books carry of the prophets and messengers — this section fills itself as new seerah texts with their mentions land."
+    books:
+      title: In the other books
+      desc: "The messengers and prophets in every harvested book beyond the Qur'an, the hadith and the seerah — poetry, history, fiqh, tafsir and whatever comes next."
+    curated:
+      title: Curated records
+      desc: "The museum's curated records on the messengers and prophets: their lives, stories and sources, tagged messengers-browser."
 qudsi:
   title: "Hadith Qudsi Browser"
   lede: "A hadith qudsi is a report the Prophet relates from his Lord in words other than the Qur'an's. Here is every hadith qudsi in the six books and the Muwatta of Malik, gathered with its narrations in each collection and arranged by theme; every narration is a page in the museum."
