@@ -30,3 +30,6 @@ born: { edtf: "765", calendar: gregorian, precision: year, derived: true, note: 
 died: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/wafayat-ayan, source/kamil-ibn-al-athir], confidence: low }
+tags:
+- bayt-browser
+- bayt-ahl

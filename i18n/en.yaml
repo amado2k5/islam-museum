@@ -1612,6 +1612,10 @@ explore:
       title: "Four Madhhabs Browser"
       desc: "The four imams and the schools they founded, the salaf and the books that recorded them — every mention of the madhhabs in the Sunni books with its source."
       menu: "Browse the four madhhabs and their mentions"
+    bayt:
+      title: "Household of the Prophet Browser"
+      desc: "Everything mentioned about the Prophet's household and family — the People of the House, the Prophet's clan, his wives, daughters and descendants — in the Qur'an, the Sunnah, the seerah and the harvested books."
+      menu: "Browse the Prophet's household and family"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -3449,6 +3453,40 @@ madhahib:
     dhikr:
       title: Mentions in the sources
       desc: "Every book, passage or question in the museum that mentions the four madhhabs or one of them — histories of the schools, tabaqat of the jurists, fatwas and comparative questions — with its source."
+bayt:
+  title: "Household of the Prophet Browser"
+  lede: "Everything the museum's sources carry about the Prophet's household and family: the verses of the People of the House and his wives in the Qur'an, the hadiths of the Two Weighty Things, the Cloak, Ghadir, Fadak and Fatima's inheritance in the two Sahihs, the Muwatta and the Sunan, what the Companions and Tabi'in transmitted, and every mention in every harvested book — sourced records that grow as new text lands."
+  badge: Explorer of the Prophet's house
+  status: "This build holds {n} records in {s} sections; texts are drafts until a human reads them."
+  method_title: Browser method
+  method_note: "Every record here is an ordinary museum record — sourced and trilingual. Household mentions are detected at build time by a guarded lexicon over passage texts — unambiguous terms like Ahl al-Bayt, the 'itrah and Banu Hashim match directly, while ambiguous names like Fatima, Zaynab and Safiyya count only in their qualified forms or after false-positive audit; every book harvested later brings its mentions here automatically once its text lands, and curated records on the family join through the bayt-browser tag."
+  api: "The whole dataset is at"
+  sections_title: Browser sections
+  filter_label: Filter family records
+  filter_none: No matching results.
+  empty: No household records in this build yet.
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The verses of the People of the House in purification and the mubahala, the verses of his wives in Surat al-Ahzab, the Sawda verse and the rest — each ayah with its source."
+    sunnah:
+      title: In the Sunnah
+      desc: "The hadiths of the Two Weighty Things, the Cloak, Ghadir, Fadak and Fatima's inheritance in the two Sahihs, the Muwatta, the Forty and the Sunan — each report with its source."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and maghazi books carry about the People of the House, Banu Hashim, the Prophet's wives and his children — this section fills itself as new seerah text lands."
+    books:
+      title: In other books
+      desc: "Every mention of the Prophet's household in poetry, history, fiqh and every harvested work outside the Qur'an, the hadith and the seerah."
+    ahl:
+      title: The household and the clan
+      desc: "The museum's curated records on the family's members: Fatima, Ali, Hasan, Husayn, Khadija, the daughters and wives, Banu Hashim, Banu Abd al-Muttalib, the grandfather and the uncles."
+    mawaqif:
+      title: Episodes and events
+      desc: "The episodes and stories tied to the household: Ghadir Khumm, the Cloak, the mubahala, Fadak, Fatima's inheritance, Karbala and Ali's bay'ah."
+    concepts:
+      title: Concepts and sources
+      desc: "The museum's curated records on the household's concepts: the 'itrah, the People of the Cloak, the Two Weighty Things, the Mothers of the Believers, the Twelve Imams, and the seerah and shamail books."
 qudsi:
   title: "Hadith Qudsi Browser"
   lede: "A hadith qudsi is a report the Prophet relates from his Lord in words other than the Qur'an's. Here is every hadith qudsi in the six books and the Muwatta of Malik, gathered with its narrations in each collection and arranged by theme; every narration is a page in the museum."
