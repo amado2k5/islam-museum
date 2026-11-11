@@ -572,7 +572,7 @@ function miracleApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: 
   const real = c.nodes.filter((n) => !n.stub);
   const edgeSubjects = new Map<string, Set<string>>();
   for (const e of c.edges) {
-    if (e.type !== "mentions" || !e.from.startsWith("passage/") || !MIRACLE_SUBJECT_SET.has(e.to)) continue;
+    if (e.type !== "mentions" || !e.from.startsWith("passage/") || e.to === "person/muhammad" || !MIRACLE_SUBJECT_SET.has(e.to)) continue;
     const set = edgeSubjects.get(e.from) ?? new Set<string>();
     set.add(e.to);
     edgeSubjects.set(e.from, set);

@@ -45,7 +45,9 @@ const passageSection = (n: Node): MiracleSection =>
 // Canonical mention edges already in the graph: passage -> subject `mentions`.
 const edgeSubjects = new Map<string, Set<string>>();
 for (const e of graph.edges) {
-  if (e.type !== "mentions" || !e.from.startsWith("passage/") || !MIRACLE_SUBJECT_SET.has(e.to)) continue;
+  // A bare `mentions → person/muhammad` edge marks the hadith's narrator, not a miracle
+  // mention; it never enters through edges alone (the topic map assigns Muhammad's signs).
+  if (e.type !== "mentions" || !e.from.startsWith("passage/") || e.to === "person/muhammad" || !MIRACLE_SUBJECT_SET.has(e.to)) continue;
   const set = edgeSubjects.get(e.from) ?? new Set<string>();
   set.add(e.to);
   edgeSubjects.set(e.from, set);
