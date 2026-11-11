@@ -141,11 +141,18 @@ are the local gates; the MIR-R checklist is the production gate.
 
 ## 6. Status
 
-- Detector + unit survey: `scripts/miracles.ts`, `scripts/muj-scan.ts`.
+- Detector + unit tests: `scripts/miracles.ts`, `scripts/miracles.test.ts`,
+  `scripts/muj-scan.ts` (survey). The alternation-leak fix dropped the survey
+  from thousands of false hits to ~490 true detections across all corpora.
 - Site lib, home + subject pages, filter, i18n, nav, landing card: shipped.
 - API export `miracles.json`, OpenAPI, llms.txt, data README, feature test:
   shipped.
-- Remaining: curated `miracles-browser` tags on the concept/event records,
-  `mentions`-edge enrichment for miracle passages, Tathbit book passage
-  mining, detector precision pass on the survey counts, human read of draft
-  records, MIR-R production run.
+- Curated `miracles-browser` tags on the concept/event records: shipped.
+- Tathbit Dalail mining: shipped — 195 `unit: chapter` passages from the
+  Arabic Wikisource edition (`source/ar-wikisource`, draft), 42 already
+  detected into the books section; the work record carries author, genre and
+  language. The Wikisource transcription drops the print edition's chapter
+  titles, so labels number chapters by position in the Wikisource text.
+- Remaining: `mentions`-edge enrichment for miracle passages (new harvests
+  add theirs), detector precision pass on any new false-positive families the
+  production review finds, human read of draft records, MIR-R production run.

@@ -1,17 +1,23 @@
 id: work/tathbit-dalail-nubuwwat-sayyidina-muhammad
 class: work
 kind: book
-label: { ar: "تثبيت دلائل نبوة سيدنا محمد", en: "Tathbit Dalail Nubuwwat Sayyidina Muhammad" }
+tags: [miracles-browser, miracles-books]
+label: { ar: "تثبيت دلائل نبوة سيدنا محمد", en: "Tathbit Dala'il al-Nubuwwa", ur: "تثبیت دلائل نبوت" }
 summary:
-  ar: "بطاقة أولية لـتثبيت دلائل نبوة سيدنا محمد؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Tathbit Dalail Nubuwwat Sayyidina Muhammad; its sources are not yet checked on the page."
+  ar: "«تثبيت دلائل النبوة» للقاضي عبد الجبار الهمداني ⁦(ت 415هـ)⁩: مصنف كلامي جامع في أدلة النبوة ومعجزات النبي، يستدل فيها بالقرآن وما نُقل من الأثر ويرد على منكري النبوة وسالبي المعجزات. من أئمة المعتزلة، وتُعرض نصوصه في متصفح المعجزات بوصفها من كتب الأدلة على المعجزات."
+  en: "Tathbit Dala'il al-Nubuwwa by the Qadi Abd al-Jabbar al-Hamdani (d. 415 AH): a theological compilation of proofs of prophethood and the Prophet's miracles, arguing from the Qur'an and transmitted reports against those who deny them. A leading Mu'tazili work, shown in the Miracles Browser among the books of proof."
+  ur: "«تثبیت دلائل نبوت» قاضی عبد الجبار ہمدانی ⁦(وفات 415ھ)⁩ کی تصنیف: نبوت اور معجزات کے دلائل پر ایک کلامی مجموعہ جو قرآن اور منقول آثار سے استدلال کرتا ہے۔ معتزلی أشهر مصنفین میں سے، معجزات براؤزر میں دلائل کی کتابوں میں دکھائی گئی ہے۔"
+genre: [theology]
+disciplines: [theology]
+authors: [person/qadi-abd-al-jabbar]
+language: language/arabic
 wings: []
-sources: [source/al-aalam]
+sources: [source/ar-wikisource, source/al-aalam]
 external_ids: { wikidata: "Q19470998" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  source: "Wikidata Q19470998 (author Abd al-Jabbar ibn Ahmad); Arabic Wikisource edition, الجزء الأول والثاني wikitext"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: miracles-tathbit-mining
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); Wikisource edition mined into chapter passages for the Miracles Browser" }
