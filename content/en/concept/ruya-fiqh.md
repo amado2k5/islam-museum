@@ -17,6 +17,13 @@ Interpretation (ta'bir) carries a dream from its outward form to its inward mean
 
 It is recommended that a dream be told only to a sympathetic or learned person. A dream one likes is met with praise to God and told to others; a disliked one is answered by seeking refuge from its harm and not telling it to anyone. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8538} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8539}
 
+## Rulings touching the dream in fiqh
+No legal ruling is built on a dream: if a person sees in sleep what would entail a hadd, a divorce, a vow or an expiation, nothing attaches until the cause exists in waking {cite:fiqh-mawsua-kuwaitiyya-noor-v3}. What is built on a dream is glad tidings and reassurance, not obligation.
+
+Among the dream's fiqh appendages is [[concept/ihtilam|ihtilam]]: whoever finds in his garment a trace of ihtilam and remembers nothing he saw in sleep owes ghusl from his most recent sleep, and Umar repeated what he prayed after his last sleep but not what preceded it {cite:muwatta-maruf-1997 p.95} [[passage/muwatta-1-126|Muwatta 126]]. Of the woman who sees in sleep what a man sees the report came: "Yes, when she sees the water" {cite:muwatta-maruf-1997 p.96} [[passage/muwatta-1-127|Muwatta 127]] [[passage/muwatta-1-128|Muwatta 128]].
+
+In the chapter of glad tidings fiqh binds the righteous dream to the [[concept/mubashshirat|mubashshirat]] that remain of prophethood after revelation ceased {cite:muwatta-maruf-1997 p.546} [[passage/muwatta-31-2749|Muwatta 2749]], and to interpretation and [[concept/taabir-al-ruya|the science of interpretation]] that God gave Joseph {cite:tanzil-quran}. This chapter connects to [[concept/ahlam|dreams]], [[concept/al-hulm|the bad dream]] and [[concept/kitab-al-ruya|Kitab al-Ru'ya]] in the collections.
+
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 8)
 The Sheikh says that when the soul is released in sleep with no barriers, it sees beautiful visions and dreams: it sees a late relative, the Prophet, the Companions and the righteous, and the door of good and transparency opens for it {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:28:30}. He gives the example that a person may see his brother living in America and his sister living in South Africa while in his room with his wife beside him who sees nothing, and he says this belongs to the picture of sleep (his view) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:28:30}.
 
