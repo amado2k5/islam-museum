@@ -16,6 +16,7 @@ translations:
   en: { text: "They said: O Moses! Either throw first, or let us be the first to throw?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "بولے کہ موسیٰ یا تم (اپنی چیز) ڈالو یا ہم (اپنی چیزیں) پہلے ڈالتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: event/sorcerers-of-pharaoh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-20 }
   - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred

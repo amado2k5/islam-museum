@@ -1,7 +1,7 @@
-# Plan 38 — Four Madhhabs Browser (متصفح المذاهب الأربعة)
+# Plan 39 — Four Madhhabs Browser (متصفح المذاهب الأربعة)
 
 _Requested by the founder 10 November 2026 (verbatim, kept for the acceptance spec in
-`docs/engineering/26-madhahib-browser-requirements.md`): "start working on متصفح المذاهب
+`docs/engineering/27-madhahib-browser-requirements.md`): "start working on متصفح المذاهب
 الأربعة where it should list all the mentioned and written المذاهب الأربعة that are in tabi3een
 stories, quotes, mentioned and written in books that were harvested and any future harvested
 book if it has a المذاهب الأربعة should be viewable here. add a box for it on landing page and

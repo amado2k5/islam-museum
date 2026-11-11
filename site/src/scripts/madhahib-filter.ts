@@ -1,4 +1,4 @@
-// The Four Madhhabs Browser's filter (docs/plan/38-madhahib-browser.md): narrows the records list
+// The Four Madhhabs Browser's filter (docs/plan/39-madhahib-browser.md): narrows the records list
 // as the visitor types, matching titles, summaries, work names, class names and excerpts in all
 // three languages, ignoring Arabic vowel marks. Without JavaScript the whole list is on the page.
 const input = document.querySelector<HTMLInputElement>("[data-madhahib-filter]");

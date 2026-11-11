@@ -13,6 +13,8 @@ relations:
   - { type: mentions, target: person/saifi-mawla-ibn-aflah, sources: [source/muwatta-maruf-1997] }
   - { type: mentions, target: person/abu-al-saib-mawla-hisham-ibn-zuhra, sources: [source/muwatta-maruf-1997] }
   - { type: mentions, target: person/abu-said-al-khudri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: concept/jinn, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: concept/shayatin-al-ins-wal-jinn, sources: [source/muwatta-maruf-1997] }
 provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2798 at PDF p. 571; ما جاء في قتل الحيات وما يقال في ذلك", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b108" }
 sources: [source/muwatta-maruf-1997]
 status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 571; matn excerpt at most 40 words" }

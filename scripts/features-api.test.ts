@@ -40,7 +40,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "companions.json", "dreams.json", "fatwa.json", "ghayb.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "nature.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "companions.json", "dreams.json", "fatwa.json", "ghayb.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "magic.json", "madhahib.json", "nature.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -69,6 +69,20 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(byId.get("work/mughni-x")).toMatchObject({ sections: ["hanbali", "dhikr"] });
     expect(byId.get("person/faqih-x")).toMatchObject({ sections: ["hanafi", "salaf"] });
     expect(byId.has("work/book-x")).toBe(false);
+  });
+
+  it("exports magic: detected passages by corpus and topic, tagged records, ambiguous-form gates", () => {
+    const sihrHadith = makeNode("passage/muslim-9999", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9999", text: "اجتنبوا السبع الموبقات ومنها السحر" });
+    const aynFp = makeNode("passage/muwatta-9999", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9999", text: "رأيت العين تسقي الزرع" });
+    const sihrConcept = { ...makeNode("concept/sihr", "concept", { kind: "term" }), tags: ["magic-browser", "magic-sihr"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, sihrHadith, aynFp, sihrConcept], edges: compiled.edges });
+    const items = data["magic.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/muslim-9999");
+    expect(ids).toContain("concept/sihr");
+    expect(ids).not.toContain("passage/muwatta-9999"); // «العين» watering crops is not the evil eye
+    expect(items.find((i) => i.id === "passage/muslim-9999")).toMatchObject({ section: "sunnah", topics: ["sihr"] });
+    expect(items.find((i) => i.id === "concept/sihr")).toMatchObject({ section: "concepts", topics: ["sihr"] });
   });
 
   it("is empty-capable", () => {

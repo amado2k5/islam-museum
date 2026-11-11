@@ -1,4 +1,4 @@
-// The Four Madhhabs Browser's shared reads (docs/plan/38-madhahib-browser.md): which records belong
+// The Four Madhhabs Browser's shared reads (docs/plan/39-madhahib-browser.md): which records belong
 // to each section of «متصفح المذاهب الأربعة». Membership is tag-driven (`madhahib-browser` plus
 // `mh-<section>` tags) and edge-driven: any work, passage, event, exhibit or question whose `mentions`
 // edge names a madhhab group or the madhhab concept joins `dhikr` — and the school section when it

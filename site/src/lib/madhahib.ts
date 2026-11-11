@@ -1,4 +1,4 @@
-// The Four Madhhabs Browser's shared reads (docs/plan/38-madhahib-browser.md): every record of «متصفح
+// The Four Madhhabs Browser's shared reads (docs/plan/39-madhahib-browser.md): every record of «متصفح
 // المذاهب الأربعة» — the four imams and schools, the other schools, the salaf forebears, the
 // canonical books, the fiqh/usul concepts, and every work, passage or question whose `mentions`
 // edge names a madhhab — over the one graph. Membership is computed at build time by the shared

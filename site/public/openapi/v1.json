@@ -376,6 +376,21 @@
         }
       }
     },
+    "/magic.json": {
+      "get": {
+        "operationId": "getMagic",
+        "summary": "Magic and Magicians Browser dataset",
+        "description": "The Magic and Magicians Browser dataset (متصفح السحر والسحرة): every mention of magic and the magicians in the Qur'an, Sunnah, seerah and harvested books — sorcery, soothsaying and augury, ruqyah, the evil eye and envy — detected at build time plus the curated records tagged magic-browser, each with its corpus section (quran, sunnah, seerah, books, concepts), topic chips, work, ref, text excerpt, kind, themes and edges.",
+        "responses": {
+          "200": {
+            "description": "Every magic record with corpus section, topics, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/jinn-devils.json": {
       "get": {
         "operationId": "getJinnDevils",

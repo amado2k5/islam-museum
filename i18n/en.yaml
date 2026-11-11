@@ -1600,6 +1600,10 @@ explore:
       title: Dream Browser
       desc: "Every vision and dream mentioned in the Qur'an, the hadith, the seerah and every harvested book — from Joseph's dream to the dream of Laylat al-Qadr, and every dream classified the day its source lands."
       menu: "Browse dreams in the Qur'an, hadith and seerah"
+    magic:
+      title: "Magic and Magicians Browser"
+      desc: "Every mention of magic and the magicians in the Qur'an, the Sunnah, the seerah and every harvested book — sorcery, soothsayers, ruqyah, the evil eye and envy — with every verse and report cited."
+      menu: "Browse magic and magicians in the Qur'an and books"
     jinn-devils:
       title: "Jinn & Devils Browser"
       desc: "Jinn, devils and demons, angels, and the dreams that carry them — every mention in the Qur'an, the hadith and the seerah with its source."
@@ -3332,6 +3336,46 @@ dreams:
     concepts:
       title: The science of dreams
       desc: "The museum's curated records on dreams: the books of dreams in hadith, their interpretation and rulings, the bad dream and ihtilam, and the glad tidings."
+magic:
+  title: "Magic and Magicians Browser"
+  lede: "Every mention of magic and the magicians in the museum's sources: sorcery in the Qur'an from the story of Pharaoh's magicians to the trial of Harut and Marut, the hadiths on sorcery and soothsaying, the Prophet's own cure by ruqyah, the evil eye and envy, and every magic mention in every harvested book — sourced records that grow as new texts land."
+  badge: Magic explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Magic mentions are found at build time by a guarded lexicon over the passage texts — unambiguous forms match directly, ambiguous forms like «سحر» (sorcery or the night-vigil), «رقية» (incantation or a name), «العين» (evil eye or the eye) count only beside their own collocations, and verified false positives are excluded by id; every book harvested later brings its magic mentions here automatically once its passages land in the graph, and curated records join through the magic-browser tag."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter magic records
+  filter_none: No matches.
+  empty: No magic records in this build yet.
+  topics:
+    sihr: Sorcery
+    sahara: The sahar (pre-dawn)
+    kahana: Soothsaying & augury
+    ruqyah: Ruqyah
+    ayn: The evil eye
+    hasad: Envy
+    waswasah: Waswasah (whispering)
+    kashf: Kashf (unveiling)
+    irafa: "'Irafa (mystic discernment)"
+    jinn: Jinn
+    nujum: Astrology
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "Sorcery and the magicians across the revelation: Pharaoh's magicians and Moses' contest, the accusation against the Prophet, the trial of Harut and Marut, the veiling of the sky, and the verses that name sorcery, soothsaying and the unseen harm."
+    sunnah:
+      title: In the Sunnah
+      desc: "The hadiths of the two Sahihs, the Muwatta, the Arba'in and the Sunan: sorcery among the seven destructive sins, the prohibition on visiting diviners, the Prophet's cure by ruqyah, the evil eye and the ruqyah chapters of the fiqh books."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and history books carry of magic and magicians — this section fills itself as new seerah texts with magic mentions land."
+    books:
+      title: In the other books
+      desc: "Magic in every harvested book beyond the Qur'an, the hadith and the seerah — poetry, history, fiqh and whatever comes next."
+    concepts:
+      title: The records about magic
+      desc: "The museum's curated records on magic and the unseen harms around it: sorcery and the sahara, soothsaying and augury, ruqyah and its rulings, the evil eye, envy, waswasah, kashf and 'irafa."
 jinn-devils:
   title: "Jinn & Devils Browser"
   lede: "Jinn, devils and demons, angels, and the dreams that carry them — every being, encounter and report the Qur'an, the hadith, the seerah and the harvested books record, gathered in one browser with its sources."

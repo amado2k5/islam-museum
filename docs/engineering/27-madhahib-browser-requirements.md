@@ -4,7 +4,7 @@
 imams and the schools they founded, the other schools the tradition recorded, the salaf and
 tabi'in forebears, the canonical books, the fiqh/usul concepts, and every mention of the
 madhhabs in the Qur'an-related corpus, the Sunni books, the harvested books and every future
-harvested book. Plan: `docs/plan/38-madhahib-browser.md`. Lane: `madhahib`
+harvested book. Plan: `docs/plan/39-madhahib-browser.md`. Lane: `madhahib`
 (`docs/agents/lanes.md`). Implemented in `site/src/pages/[lang]/madhahib/`,
 `site/src/lib/madhahib.ts`, `scripts/madhahib.ts`, `scripts/export-api.ts` (`madhahib.json`).
 
@@ -56,7 +56,7 @@ Founder decisions recorded in the same session (they bound the interpretation of
   `group/ibadiyya` or `concept/madhhab` joins `dhikr` (and the school/`ukhra` section for the
   school targets); (b) a `source`-class record — outside the `mentions` domain — joins through
   `madhahib-browser` + `mh-<section>` tags. Both contracts are documented in
-  `docs/plan/38-madhahib-browser.md` §2 and the `madhahib` lane row.
+  `docs/plan/39-madhahib-browser.md` §2 and the `madhahib` lane row.
   Check: `grep -n "mentions" schema/predicates.yaml` → domain `[work,passage,media,event,exhibit,question]`;
   `scripts/madhahib.ts` `MENTION_SECTIONS` is the target→section table; re-run
   `npm run graph && npm run api` after adding a test `mentions` edge and the record appears in
@@ -132,7 +132,7 @@ Founder decisions recorded in the same session (they bound the interpretation of
   `site/src/components/Landing.astro` and `site/src/layouts/BaseLayout.astro`.
 - **R23** The browser is registered in `docs/site/browsers.md` (row with routes, plan link,
   counts), `docs/status.md`, `docs/agents/lanes.md` (`madhahib` lane),
-  `docs/plan/38-madhahib-browser.md`, the plan index (`docs/plan/00-README.md`),
+  `docs/plan/39-madhahib-browser.md`, the plan index (`docs/plan/00-README.md`),
   `docs/plan/06-roadmap.md`, and `CANARY.md` (reader-facing entry per commit; new feature ⇒
   minor version bump).
 
