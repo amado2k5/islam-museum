@@ -29,9 +29,15 @@ export const labelOf = (n: Pick<Node, "label" | "slug">, lang: Lang) => n.label[
 // The raw summary keeps its {cite:…} markers and [[wiki-links]]; entity pages pass it through
 // renderProse so citations become footnotes. For plain-text contexts (cards, meta descriptions,
 // feeds) this strips the markers and resolves links to their label text.
+/** Transcript-mining markers ((needs_source), (needs_source: …), the isolate-wrapped Arabic form, and the bare token)
+ *  stay in the data as honest sourcing annotations but must never reach a rendered page. Every text path that turns a
+ *  record into prose strips them through this one pattern. */
+export const NEEDS_SOURCE = /\u2066?\(\s*needs_source(?:[^()]|\([^()]*\))*\)\u2069?|\bneeds_source\b/g;
+export const stripNeedsSource = (s: string) => s.replace(NEEDS_SOURCE, "");
+
 export const summaryOf = (n: Pick<Node, "summary">, lang: Lang) => {
   const raw = n.summary[lang] ?? n.summary.en ?? "";
-  return raw
+  return stripNeedsSource(raw)
     .replace(/\{cite:[^}]*\}/g, "")
     .replace(/\[\[([a-z]+\/[a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_x, id: string, custom?: string) => { const t = custom ?? (byId.has(id) ? labelOf(byId.get(id)!, lang) : id.split("/")[1].replace(/-/g, " ")); return t; })
     .replace(/[ \t]+([.,:;!؟?])/g, "$1")

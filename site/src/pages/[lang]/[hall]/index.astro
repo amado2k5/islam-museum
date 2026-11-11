@@ -6,7 +6,8 @@ import PageHeader from "../../../components/PageHeader.astro";
 import ExploreBar from "../../../components/ExploreBar.astro";
 import TodayCards from "../../../components/TodayCards.astro";
 import HijriTimeline from "../../../components/HijriTimeline.astro";
-import { ui, LANGS, WINGS, WING_PATH, fmt, type Lang, type Wing } from "../../../lib/i18n";
+import { ui, LANGS, WINGS, WING_PATH, type Lang, type Wing } from "../../../lib/i18n";
+import { WING_CLASSES } from "../../../../../scripts/wings";
 import { href, labelOf, realNodes, summaryOf, graph, byId } from "../../../lib/graph";
 import { formatDate, timelineKey } from "../../../lib/dates";
 import { readFileSync } from "node:fs";
@@ -28,6 +29,13 @@ if (wing === "time") {
   }
   // Undated entries (datasets, buildings) sort last: Infinity keys are non-decreasing.
   items.splice(0, items.length, ...keyed.map((k) => k.n));
+}
+// Each hall lists its own class first: the graph sorts nodes by class, so without this /people/
+// opened on the concepts and events cross-listed into the wing before its 11,000 persons.
+const primaryClasses = WING_CLASSES[wing];
+if (wing !== "time" && primaryClasses) {
+  const primary = new Set(primaryClasses);
+  items.sort((a, b) => Number(!primary.has(a.class)) - Number(!primary.has(b.class)));
 }
 const dateOf = (n: any) => {
   const d = n.data;
@@ -179,7 +187,7 @@ const collections = wing === "objects"
     crumbsLabel={T.entity.breadcrumb}
     wing={wing}
   >
-    <p class="ui" style="color:#c9d3d6;margin:14px 0 0">{items.length ? (wing === "time" ? T.hall.coming_time : T.hall.coming) : T.hall.empty}{" "}{wing !== "objects" && <span>{fmt(T.hall.phase, { wing: T.wings[wing].title })}</span>}</p>
+    <p class="ui" style="color:#c9d3d6;margin:14px 0 0">{items.length ? (wing === "time" ? T.hall.coming_time : T.hall.coming) : T.hall.empty}</p>
     {wing === "time" && <p class="ui tl-legend" style="color:#c9d3d6;font-size:.9rem;margin:6px 0 0">{T.timeline.legend}</p>}
   </PageHeader>}
   <div class="wrap" style={wing === "place" ? "padding-block:0" : "padding-block:24px 20px"} data-pagefind-ignore>

@@ -215,9 +215,10 @@ jobs:
           else
             echo "::warning::No release block found at the top of CANARY.md; the footer will show no version."
           fi
+          pages=$(find dist -name '*.html' -not -path '*/pagefind*' | wc -l | tr -d ' ')
           jq -n --arg t "$(date -u +%Y-%m-%dT%H:%M:%SZ)" --arg sha "$SHA" --argjson run "$RUN_ID" --arg env "$ENVIRONMENT" \
-            --arg version "$version" --arg version_date "$version_date" \
-            '{deployed_at: $t, commit: $sha, build_run: $run, environment: $env, version: $version, version_date: $version_date}' > dist/api/v1/meta/deploy.json
+            --arg version "$version" --arg version_date "$version_date" --argjson pages "$pages" \
+            '{deployed_at: $t, commit: $sha, build_run: $run, environment: $env, version: $version, version_date: $version_date, pages: $pages}' > dist/api/v1/meta/deploy.json
           cat dist/api/v1/meta/deploy.json
       - name: Install R2 sync Worker dependencies
         run: npm ci --prefix workers/r2-sync

@@ -47,7 +47,8 @@ const renumberR = (r: { html: string; cites: { n: number; source: string; locato
 };
 const noteR = teacherNote ? renderProse(teacherNote.markdown, lang) : null;
 const noteHtml = noteR ? renumberR(noteR)(noteR.html) : "";
-const verified = c.verified ? formatDate({ edtf: c.verified, calendar: "gregorian", precision: "day" }, lang).text : "";
+const verifiedD = c.verified ? formatDate({ edtf: c.verified, calendar: "gregorian", precision: "day" }, lang) : null;
+const verified = verifiedD?.text ?? "";
 ---
 <BaseLayout lang={lang} title={title} description={summaryOf(n, lang)} path={path} jsonld={learningResourceLd(n, lang)} alternates={alternates} ogType="article">
   <link slot="head" rel="alternate" type="text/html" href={`${SITE}${printPath}`} title={E.tp_print_view} />
@@ -70,6 +71,7 @@ const verified = c.verified ? formatDate({ edtf: c.verified, calendar: "gregoria
           <dt class="muted">{E.tp_document}</dt><dd lang="en" dir="ltr">{c.document}</dd>
           {verified && <><dt class="muted">{E.tp_verified.replace("{date}", "").trim()}</dt><dd>{verified}</dd></>}
         </dl>
+        {verifiedD?.derived && <p class="muted" style="margin:8px 0 0;font-size:.85rem">{T.entity.dagger}</p>}
         <p class="muted" style="margin:10px 0 0;font-size:.85rem">{E.tp_mapped}</p>
       </section>
       <section class="panel" aria-labelledby="goal-h">
