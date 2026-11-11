@@ -102,7 +102,42 @@ Second instruction, same day:
 
 ## 12. Known open items (not defects)
 
-- All records are `status.review: draft` — awaiting human read before publication tier.
-- Interaction-story waves continue: the cave of the three men, the well of Banu Ghifar, the traveller's devil, more seerah and Companion/Tabi'i encounter records — each lands as ordinary tagged records, no page change needed.
-- The angels section is a union of `jd-angels` and `angels-browser` tags; when the Angels Browser branch merges, its records appear here automatically and the two browsers' angel rosters reconcile through the shared tags.
-- `person/harut` and `person/marut` remain stubs in `data/_stubs.d/quran-mentions.yaml` until sourced person records are written (Q 2:102 names them as teachers of magic).
+State after waves 1–17 (11 November 2026): ~150 records across the four sections; the
+explicit shaytan/jinn/dream/angel corpus of the Qur'an, the six books, the Muwatta, the
+Forty Hadith and the harvested poetry/seerah passages is surfaced and audited. What
+remains:
+
+- **Human review (the only blocker to production).** Every record added by the waves is
+  `status.review: draft` — the jinn/devil/dream events, the tagged persons and the seeded
+  concepts. They go live only after a human reads them and promotes them to `published`;
+  no agent may self-promote. This is a content task, not a code task — the pages, API,
+  nav, search and graph are already production-shaped.
+- **Production acceptance run.** The `JD-R..` checks in this file have not yet been
+  executed against the live site (`https://islam.museum`). Run §2–§9 verbatim after the
+  next deploy and record the results; the count floors in §10 (33 records, 4 sections,
+  3 languages) are baselines that can only grow.
+- **Future harvests (standing, automatic).** Each newly harvested book that contains
+  jinn/devil/dream/angel material joins the browser the day its passage records land:
+  re-run `python3 scripts/harvest/jinn-devils/mentions.py` after any harvest wave, then
+  triage its output for named-story records worth a curated `event/`/`person/` record.
+  Named-story depth (a full interaction narrative, not just a `mentions` edge) remains a
+  manual wave per source — there is no automated story extraction.
+- **Corpus saturation note (wave-16/17 audit).** The keyword audits over
+  `data/passage/` found no remaining explicit jinn/devil/dream hadiths in the current
+  harvest; residual matches are lexical noise (جنت، جنازة، محتلم، جنون). When new books
+  land — more of Bukhari/Muslim/Tirmidhi/Nasa'i/Abu Dawud/Ibn Majah beyond the partial
+  harvest, tafsir passage records (e.g. Ibn Sirin's *Tafsir al-Ahlam*, whose `work/`
+  record exists but has no `passage/` records yet), deeper seerah mining (Waqidi wave C),
+  or regional collections — expect new candidates from the same sweeps.
+- **Editorial judgement calls left open.** Weak-isnad or mursal lore stays labelled in
+  the record (e.g. `event/umar-ghul-encounter`, `event/fitna-points-to-the-east`,
+  `event/shaytan-insinuates-at-one-or-two` carry isnad caveats in their prose); whether
+  to keep, strengthen or drop them is a human review decision. The same applies to
+  contested exegetical points (e.g. whether Harut and Marut taught magic by divine
+  permission — the `person/harut` and `person/marut` records document the difference of
+  opinion rather than deciding it).
+- **Urdu and English prose are draft translations** marked `status.review: draft` with
+  provenance; a native-reader pass is part of the human review above.
+- **Angels roster reconciliation.** The angels section unions `jd-angels` and
+  `angels-browser` tags; as more angel records land (the Angels Browser and Eschatology
+  Browser waves), audit for double-listing or gaps between the two tag families.
