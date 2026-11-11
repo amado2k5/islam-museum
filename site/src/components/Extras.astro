@@ -2,11 +2,22 @@
 // Panels for the additions of docs 12-14: themes, place in the story, conflict sides, screen facts, tensions, on screen.
 import { existsSync } from "node:fs";
 import { repoPath } from "../lib/paths";
-import { byId, edgesFrom, href, labelOf } from "../lib/graph";
+import { byId, edgesFrom, href, labelOf, realNodes } from "../lib/graph";
 import { ui, type Lang } from "../lib/i18n";
 import { formatDate } from "../lib/dates";
 import { onScreen, themeLabel, traditionLabel } from "../lib/entity";
 import type { Node } from "../../../scripts/build-graph";
+
+// depicts[] target id -> the media records that depict it (remote, url-bearing media only).
+const DEPICTS = new Map<string, Node[]>();
+for (const m of realNodes) {
+  if (m.class !== "media" || !m.data.url) continue;
+  for (const t of m.data.depicts ?? []) {
+    const list = DEPICTS.get(t) ?? [];
+    list.push(m);
+    DEPICTS.set(t, list);
+  }
+}
 
 const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
 const T = ui(lang);
@@ -19,11 +30,12 @@ const mapMedia = d.media?.map ? byId.get(d.media.map) : undefined;
 const mapFileRel = mapMedia?.data.files?.[`webp_${lang}`] ?? mapMedia?.data.files?.webp_en;
 // media files live in the media repo; show the figure only when the file is present at build time
 const mapFile = mapFileRel && existsSync(repoPath("site", "public", mapFileRel)) ? mapFileRel : undefined;
-// remote media (link-don't-copy): objects photographed by open-licence museums
-const depictions = edgesFrom(n.id)
-  .filter((e) => e.type === "depicted_in")
-  .map((e) => byId.get(e.to))
-  .filter((m): m is Node => !!m && m.class === "media" && !!m.data.url);
+// remote media (link-don't-copy): objects photographed by open-licence museums. Depictions arrive two ways:
+// depicted_in edges, and the media record's own depicts[] field (the objects hall reads the same field).
+// The depicts index is built once per worker, not once per page.
+const depictedIds = new Set(edgesFrom(n.id).filter((e) => e.type === "depicted_in").map((e) => e.to));
+for (const m of DEPICTS.get(n.id) ?? []) depictedIds.add(m.id);
+const depictions = [...depictedIds].map((id) => byId.get(id)).filter((m): m is Node => !!m && m.class === "media" && !!m.data.url);
 // deep-zoom: a direct IIIF image service on a depiction skips the manifest fetch.
 // Only open licences permit reproduction beyond a size cap: VAM-NC (the V&A
 // website terms) limits digital reproduction to 768 px on the longest side, so

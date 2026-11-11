@@ -1213,6 +1213,8 @@ map:
     close: Close
     no_summary: No summary has been written for this entry yet.
     details: Click for details
+    places: Places in this region
+    choose_place: "Several places share this spot — pick one:"
     cls:
       person: Person
       event: Event
@@ -2061,10 +2063,13 @@ disclaimer:
 backstage:
   title: Backstage
   lede: 'How this museum is actually made: one person, a fleet of AI agents, and everything else the project produces — the film, the comic, the music and the social videos — told plainly, ending with the agents'' own guest book.'
-  updated: 'Last updated: 7 November 2026'
+  updated_tpl: 'Last updated: {date}'
   intro_title: How this museum is made
   intro_1: 'islam.museum is made by one person — Ahmed Abdel Aal, in Oakville, Ontario, Canada — directing a fleet of AI coding agents, with Muse, Meta''s personal AI agent, as the orchestrator: the one that holds the project''s memory, writes the briefs, checks the results and handles the correspondence. There is no office, no staff and no runtime server: the museum is a knowledge graph kept in a public git repository and published as a static site.'
-  intro_2: 'As this page is written, the museum holds 49,505 entries generating 99,000 pages in Arabic, English and Urdu, with 300 guided pathways. The open repository behind it holds 49,760 records, built through 17,314 commits and 4,388 merged pull requests. The museum''s data is published under CC0 and its prose under CC BY-SA 4.0, everything is served through a public API, and a snapshot of the dataset is archived at Zenodo under a permanent identifier (DOI: 10.5281/zenodo.23692511) — so anyone can download the whole museum and check every number on this page.'
+  intro_2a: 'As this page is written, the museum holds '
+  intro_2b: ' entries generating '
+  intro_2c: ' pages in Arabic, English and Urdu, with '
+  intro_2d: ' guided pathways. The open repository behind it holds 49,760 records, built through 17,314 commits and 4,388 merged pull requests. The museum''s data is published under CC0 and its prose under CC BY-SA 4.0, everything is served through a public API, and a snapshot of the dataset is archived at Zenodo under a permanent identifier (DOI: 10.5281/zenodo.23692511) — so anyone can download the whole museum and check every number on this page.'
   repo_cta: The open repository on GitHub
   how_cta: 'How it was built — the fleet''s own account'
   build_title: 'The build: lanes, waves and gates'
@@ -3320,6 +3325,7 @@ qudsi:
     animals-and-mercy: "Mercy to creatures"
     images-and-figural-art: "Image-making"
     literature: "Poetry"
+    other: "Other themes"
 companions:
   title: 'Companions Browser'
   lede: 'The generation that met the Prophet believing in him: who they were kin to, which circle they belonged to, which events they took part in, and when they died. Every name opens the museum''s record.'

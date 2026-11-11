@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { repoPath } from "./paths";
 import { parse } from "yaml";
-import { byId, edgesFrom, href, labelOf, summaryOf, SITE } from "./graph";
+import { byId, edgesFrom, href, labelOf, summaryOf, stripNeedsSource, SITE } from "./graph";
 import type { Node } from "../../../scripts/build-graph";
 import { fmt, type Lang, ui } from "./i18n";
 import { a11yLd } from "./a11y";
@@ -30,10 +30,10 @@ if (levels.length !== 3) throw new Error(`edu/levels.yaml: expected 3 levels, fo
 export const levelOf = (heading: string, lang: string): Level | null => levels.find((l) => l.heading[lang] === heading) ?? null;
 /** Child-level markdown for the kids' chrome: links become plain labels (bridge cards are the only doors out), citations go. */
 export function plainChildMarkdown(md: string, lang: Lang): string {
-  return md
+  return stripNeedsSource(md
     .replace(/\[\[([a-z]+\/[a-z0-9-]+)\|([^\]]*)\]\]/g, "$2")
     .replace(/\[\[([a-z]+\/[a-z0-9-]+)\]\]/g, (_m, id: string) => { const n = byId.get(id); return n ? labelOf(n, lang) : id.split("/")[1]; })
-    .replace(/\{cite:[^}]*\}/g, "");
+    .replace(/\{cite:[^}]*\}/g, ""));
 }
 
 export interface Group { type: string; label: string; items: { node: Node; edge: any }[] }

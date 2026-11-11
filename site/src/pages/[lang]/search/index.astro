@@ -52,7 +52,7 @@ const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/,
             e.stopImmediatePropagation();
             Promise.all(missing.map(load)).then(function () { var ev = new Event("input", { bubbles: true }); ev.synonymsReady = true; t.dispatchEvent(ev); });
           }, true);
-          new PagefindUI({ element: "#search", bundlePath: pagefindBase + "/pagefind-" + lang + "/", baseUrl: "/", showSubResults: true, showImages: false, translations: { placeholder: placeholder, zero_results: zeroResults },
+          var ui = new PagefindUI({ element: "#search", bundlePath: pagefindBase + "/pagefind-" + lang + "/", baseUrl: "/", showSubResults: true, showImages: false, translations: { placeholder: placeholder, zero_results: zeroResults },
             processTerm: function (term) {
               var whole = syn.whole[norm(term)];
               if (whole && whole.length) return whole[0];
@@ -73,7 +73,18 @@ const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/,
           new MutationObserver(hwCheck).observe(document.getElementById("search"), { childList: true, subtree: true });
           document.addEventListener("input", hwCheck);
           var p = new URLSearchParams(location.search).get("q");
-          if (p) { var i = document.querySelector("#search input"); if (i) { i.value = p; i.dispatchEvent(new Event("input", { bubbles: true })); } }
+          // PagefindUI builds its input asynchronously: poll for it, then seed the query and ask the UI to search
+          // directly (triggerSearch), so a direct ?q= load shows results without waiting for a keystroke.
+          if (p) {
+            var kick = function (tries) {
+              var i = document.querySelector("#search input");
+              if (!i) { if (tries > 0) setTimeout(function () { kick(tries - 1); }, 100); return; }
+              i.value = p;
+              i.dispatchEvent(new Event("input", { bubbles: true }));
+              if (ui && typeof ui.triggerSearch === "function") ui.triggerSearch(p);
+            };
+            kick(50);
+          }
         };
         s.onerror = function () { document.getElementById("search-fallback").hidden = false; };
         document.head.appendChild(s);

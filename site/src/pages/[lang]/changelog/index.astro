@@ -17,6 +17,11 @@ const blocks = canaryBlocks(VER.canary);
 const coming = [C.coming_1, C.coming_2, C.coming_3, C.coming_4];
 
 type Seg = { t: "text" | "code" | "strong"; s: string };
+// CANARY entries name routes as templates (/{lang}/place/, /[lang]/asma/<slug>/); render them as the concrete path
+// of the page's language so readers see a usable address, never the template braces. A <param> only counts as a
+// route segment when it follows a slash — {cite:x <fiche>} and `<details>` in prose stay untouched.
+const routes = (s: string, lang: Lang) =>
+  s.replace(/\{lang\}|\[lang\]/g, lang).replace(/\/<([a-z][a-z-]*)>/g, "/…");
 function segs(text: string): Seg[] {
   const out: Seg[] = [];
   const re = /(`[^`]+`|\*\*[^*]+\*\*)/g;
@@ -49,7 +54,7 @@ function segs(text: string): Seg[] {
               {g.title && <h3>{g.title}</h3>}
               <ul>
                 {g.items.map((item) => (
-                  <li>{segs(item).map((s) => s.t === "code" ? <code dir="ltr">{s.s}</code> : s.t === "strong" ? <strong>{s.s}</strong> : <>{s.s}</>)}</li>
+                  <li>{segs(routes(item, lang)).map((s) => s.t === "code" ? <code dir="ltr">{s.s}</code> : s.t === "strong" ? <strong>{s.s}</strong> : <>{s.s}</>)}</li>
                 ))}
               </ul>
             </>

@@ -63,7 +63,37 @@
   const visiblePlaces = $derived(items.filter((n) => n.cls === "place" && n.coordinates));
   const activeRegions = $derived(regions.filter((r) => items.some((n) => n.cls === "place" && n.coordinates && (n.regions ?? []).includes(r.id))));
   const regionPlaces = $derived(visiblePlaces.filter((n) => (n.regions ?? []).includes(selectedRegion)).sort((a, b) => a.label.localeCompare(b.label, "ar")));
-  const selectedPlaceNode = $derived(temporalActive(itemById.get(selectedPlace), year) ? itemById.get(selectedPlace) : regionPlaces[0]);
+  // The clicked city is honoured even when the year slider sits outside its activity window — substituting
+  // regionPlaces[0] here is what made a Baghdad click open Adana. The fallback only covers a stale selection
+  // from another region.
+  const selectedPlaceNode = $derived.by(() => {
+    const n = itemById.get(selectedPlace);
+    return n && n.cls === "place" && (n.regions ?? []).includes(selectedRegion) ? n : regionPlaces[0];
+  });
+  // Year activity for region places, batched in one pass over the links (doc 19 R5.2: active places are
+  // prioritised, inactive ones stay present and clickable — markers dim, they never disappear).
+  const activePlaceIds = $derived.by(() => {
+    const out = new Set<string>();
+    const regionSet = new Set(regionPlaces.map((p) => p.id));
+    const spanOK = (n?: Item) => !!n?.span && year >= n.span.earliest && year <= n.span.latest;
+    for (const p of regionPlaces) { const n = itemById.get(p.id); if (spanOK(n)) out.add(p.id); }
+    for (const l of linkPairs) {
+      if (!PLACE_DATED.has(l.type)) continue;
+      const a = itemById.get(l.from), b = itemById.get(l.to);
+      if (a && regionSet.has(a.id) && !a.span && spanOK(b)) out.add(a.id);
+      if (b && regionSet.has(b.id) && !b.span && spanOK(a)) out.add(b.id);
+    }
+    return out;
+  });
+  // Linked-entity count per place for the region list and the cluster chooser.
+  const placeCounts = $derived.by(() => {
+    const m = new Map<string, number>();
+    for (const l of linkPairs) {
+      if (placeIds.has(l.from)) m.set(l.from, (m.get(l.from) ?? 0) + 1);
+      if (placeIds.has(l.to)) m.set(l.to, (m.get(l.to) ?? 0) + 1);
+    }
+    return m;
+  });
   const activeWorldTransform = $derived(
     level === "world" ? "translate(0 0) scale(1)" :
     level === "region" ? regionById.get(selectedRegion)?.worldTransform ?? "translate(0 0) scale(1)" :
@@ -147,7 +177,18 @@
   }
   function resetView() { panX = 0; panY = 0; }
   function openRegion(id: string) { selectedRegion = id; level = "region"; zoom = 1; resetView(); hoverId = null; }
-  function openPlace(id: string) { selectedPlace = id; level = "city"; orbitShift = 0; orbitPage = 0; zoom = 1; resetView(); hoverId = null; selectedEntity = id; }
+  function openPlace(id: string) { selectedPlace = id; level = "city"; orbitShift = 0; orbitPage = 0; zoom = 1; resetView(); hoverId = null; clusterPick = null; selectedEntity = id; }
+  // Region markers pile up where fallback positions coincide (hundreds of places share a host's spot).
+  // A click near other markers opens a chooser instead of silently selecting whichever marker paints last.
+  let clusterPick = $state<{ places: { id: string; label: string; n: number }[] } | null>(null);
+  function pickPlace(id: string) {
+    const p = itemById.get(id);
+    if (!p) return;
+    const pos = placePos(p);
+    const near = regionPlaces.filter((q) => { const r = placePos(q); return Math.hypot(r.x - pos.x, r.y - pos.y) < 46; });
+    if (near.length > 1) clusterPick = { places: near.map((q) => ({ id: q.id, label: q.label, n: placeCounts.get(q.id) ?? 0 })).sort((a, b) => a.label.localeCompare(b.label, "ar")) };
+    else openPlace(id);
+  }
   function openEntity(id: string) {
     const node = itemById.get(id);
     selectedEntity = id;
@@ -401,7 +442,7 @@
         {/if}
         {#each regionPlaces as p, i}
           {@const pos = placePos(p)}
-          <g class="place" class:hover={hoverId === p.id} transform={`translate(${pos.x} ${pos.y}) scale(.34)`} onmouseenter={() => hoverId = p.id} onmouseleave={() => hoverId = null} onclick={() => wasClick() && openPlace(p.id)} tabindex="0" role="button" aria-label={p.label} onkeydown={(e) => e.key === "Enter" && openPlace(p.id)}>
+          <g class="place" class:hover={hoverId === p.id} class:dim={!activePlaceIds.has(p.id)} transform={`translate(${pos.x} ${pos.y}) scale(.34)`} onmouseenter={() => hoverId = p.id} onmouseleave={() => hoverId = null} onclick={() => wasClick() && pickPlace(p.id)} tabindex="0" role="button" aria-label={p.label} onkeydown={(e) => e.key === "Enter" && pickPlace(p.id)}>
             <circle r="26" class="halo" />
             <path d={iconPath(p)} class="wire" />
           </g>
@@ -468,6 +509,29 @@
       <div class="tip ui" bind:this={tipEl} role="status"><b>{tooltip.label}</b><span>{clsName(tooltip)}</span></div>
     {/if}
 
+    {#if level === "region"}
+      <aside class="place-list panel ui" aria-label={tt("places", "أماكن هذه الناحية")} onpointerdown={(e) => e.stopPropagation()}>
+        <p class="pl-title">{regionById.get(selectedRegion)?.label ?? ""} · {regionPlaces.length}</p>
+        <ul>
+          {#each regionPlaces as p}
+            <li><button type="button" class:dim={!activePlaceIds.has(p.id)} onclick={() => openPlace(p.id)}>
+              <span class="pl-name">{p.label}</span><span class="pl-n">{placeCounts.get(p.id) ?? 0}</span>
+            </button></li>
+          {/each}
+        </ul>
+      </aside>
+      {#if clusterPick}
+        <div class="cluster-pop panel ui" role="dialog" aria-label={tt("choose_place", "عدة أماكن في الموقع نفسه")} onpointerdown={(e) => e.stopPropagation()}>
+          <p class="pl-title">{tt("choose_place", "عدة أماكن في الموقع نفسه")}</p>
+          <ul>
+            {#each clusterPick.places as c}
+              <li><button type="button" onclick={() => openPlace(c.id)}><span class="pl-name">{c.label}</span><span class="pl-n">{c.n}</span></button></li>
+            {/each}
+          </ul>
+        </div>
+      {/if}
+    {/if}
+
     <div class="timebar ui" dir={rtl ? "rtl" : "ltr"}>
       <button class="icon" onpointerdown={(e) => e.stopPropagation()} onclick={() => adjustYear(-STEP)} aria-label={tt("prev_year", "سنة هجرية سابقة")}>{#if rtl}<ChevronRight size={18} />{:else}<ChevronLeft size={18} />{/if}</button>
       <input type="range" min={AH_YEAR_MIN} max={AH_YEAR_MAX} step="1" bind:value={hijriYear} aria-label={tt("year", "السنة الهجرية")} />
@@ -527,6 +591,21 @@
   .region-label.hover-label { opacity:1; }
   .map-viewer.light .region-label { fill:#755b10; stroke:var(--ivory); }
   .place,.orb,.center-node,.back-symbol { cursor:pointer; }
+  .place.dim .halo,.place.dim .wire { opacity:.28; }
+  .place-list { position:absolute; z-index:3; inset-inline-end:14px; top:14px; bottom:76px; width:230px; display:flex; flex-direction:column; background:rgba(9,9,9,.86); border:1px solid rgba(212,175,55,.45); border-radius:12px; backdrop-filter:blur(8px); overflow:hidden; }
+  .map-viewer.light .place-list { background:rgba(247,243,234,.92); }
+  .place-list .pl-title,.cluster-pop .pl-title { margin:0; padding:9px 12px 7px; font-size:.85rem; color:#d4af37; border-bottom:1px solid rgba(212,175,55,.25); }
+  .map-viewer.light .place-list .pl-title,.map-viewer.light .cluster-pop .pl-title { color:#6f550b; }
+  .place-list ul,.cluster-pop ul { list-style:none; margin:0; padding:4px; overflow-y:auto; }
+  .place-list li,.cluster-pop li { margin:0; }
+  .place-list button,.cluster-pop button { width:100%; display:flex; align-items:center; justify-content:space-between; gap:8px; border:0; background:transparent; color:inherit; font:inherit; text-align:start; padding:6px 9px; border-radius:8px; cursor:pointer; }
+  .place-list button:hover,.cluster-pop button:hover { background:rgba(212,175,55,.16); }
+  .place-list button.dim { opacity:.55; }
+  .pl-name { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .pl-n { flex:none; font-size:.75rem; color:#c9a845; }
+  .map-viewer.light .pl-n { color:#80651c; }
+  .cluster-pop { position:absolute; z-index:6; left:50%; top:64px; transform:translateX(-50%); width:min(320px,86%); max-height:50%; display:flex; flex-direction:column; background:rgba(9,9,9,.92); border:1px solid var(--gold); border-radius:12px; backdrop-filter:blur(10px); box-shadow:0 14px 44px rgba(0,0,0,.4); }
+  .map-viewer.light .cluster-pop { background:rgba(247,243,234,.96); }
   .halo { fill:rgba(212,175,55,.08); stroke:rgba(212,175,55,.3); }
   .hit { fill:transparent; pointer-events:all; }
   .place:hover .halo,.place.hover .halo { fill:rgba(212,175,55,.24); }
