@@ -11,6 +11,9 @@ regions: [anatolia-balkans]
 coordinates: [37.8713, 32.4846]
 coordinate_precision: site
 external_ids: { wikidata: "Q79857", geonames: "306571", pleiades: "648647", idai: "2283197" }
+relations:
+  - { type: located_in, target: place/anatolia, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: capital_of, target: polity/rum-seljuk-sultanate, note: "From the reign of Mas'ud, 512-50/1118-55 (EI2 vol. 5.1 p. 287).", sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/geonames-gazetteer, source/juha-nawadir-kubra-djuwaydi, source/encyclopaedia-of-islam-2, source/idai-gazetteer]
 provenance:
   layer: own-research
@@ -18,5 +21,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: explorer-konya-1
+  canon: "Prose rewritten in full from the same article, PDF pp. 287-290 (history by Cl. Cahen, then the monuments section), by Claude Code (claude-fable-5-2), run canon-cornerstones-2."
 importance: 1
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
