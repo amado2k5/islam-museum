@@ -466,6 +466,21 @@
         }
       }
     },
+    "/nubuwat.json": {
+      "get": {
+        "operationId": "getNubuwat",
+        "summary": "Prophecies and Miracles Browser dataset",
+        "description": "The Prophecies and Miracles Browser dataset (متصفح النبؤات وأسرار القرآن ومعجزاته): every prophecy of the Prophet, proof of prophethood, secret and marvel of the Qur'an, miracle of the Prophet, report of unseen knowledge and eschatological prediction in the Qur'an, Sunnah, seerah and harvested books — detected at build time plus the curated records tagged nubuwat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), topics chips, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every nubuwat record with corpus section, topics, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/eschatology.json": {
       "get": {
         "operationId": "getEschatology",
