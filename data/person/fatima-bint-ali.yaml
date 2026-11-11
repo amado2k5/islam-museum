@@ -1,0 +1,52 @@
+id: person/fatima-bint-ali
+class: person
+label:
+  ar: فاطمة بنت علي
+  en: Fatima bint Ali
+  ur: "فاطمہ بنت علی"
+names:
+- kind: full
+  lang: ar
+  value: فاطمة بنت علي بن أبي طالب وفاطمة
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من بنات علي بن أبي طالب وفاطمة بنت النبي، تحمل اسم جدتها؛ تُذكر في طبقات ابن سعد وإصابة ابن حجر ضمن أولاد علي بن أبي طالب.
+  en: One of the daughters of Ali ibn Abi Talib and Fatima, the Prophet's daughter, bearing her grandmother's name; Ibn Sa'd's Tabaqat and Ibn Hajar's al-Isaba list her among the children of Ali ibn Abi Talib.
+  ur: "علی بن ابی طالب اور نبی کی بیٹی فاطمہ کی بیٹی، جو اپنی دادی کا نام رکھتی ہے؛ ابن سعد کی طبقات اور ابن حجر کی الإصابة میں علی بن ابی طالب کی اولاد میں شمار ہے۔"
+wings: [people]
+themes:
+- women
+- family-marriage-kinship
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+faith:
+- value: sunni
+  basis: tradition
+  note: ابنة الصحابي علي بن أبي طالب؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- { type: child_of, target: person/ali-ibn-abi-talib, sources: [source/ibn-sad-tabaqat-bewley] }
+- { type: child_of, target: person/fatima, sources: [source/ibn-sad-tabaqat-bewley] }
+- { type: member_of, target: group/ahl-al-bayt, sources: [source/ibn-sad-tabaqat-bewley], confidence: low, note: "عضوية أهل البيت للأبناء غير المباشرين موضع خلاف بين المذاهب." }
+provenance:
+  layer: own-research
+  source: طبقات ابن سعد وترجمة بنات علي بن أبي طالب
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: bayt-browser-records
+sources:
+- source/ibn-sad-tabaqat-bewley
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 Flash High); bayt-browser records wave"
+tags:
+- bayt-browser
+- bayt-ahl

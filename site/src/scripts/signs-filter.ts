@@ -1,4 +1,4 @@
-// The Signs-of-the-Hour Browser's filter (docs/plan/39-eschatology-browser.md): narrows the
+// The Signs-of-the-Hour Browser's filter (docs/plan/42-eschatology-browser.md): narrows the
 // signs list as the visitor types, matching titles, summaries, work names, topic names and
 // text excerpts in all three languages, ignoring Arabic vowel marks. Without JavaScript the
 // whole list is on the page.

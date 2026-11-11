@@ -1,6 +1,7 @@
 id: work/al-mudawwana-al-jamia
 class: work
 kind: book
+tags: [madhahib-browser, mh-maliki, mh-kutub]
 label: { ar: "المدونة الجامعة", en: "al-Mudawwanah al-Jami'ah" }
 summary:
   ar: "بطاقة أولية للمدونة الجامعة، الموسوعة الحديثية الدولية المحررة بإشراف علمي معاصر؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q68814234" }
+relations:
+  - { type: mentions, target: group/maliki-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

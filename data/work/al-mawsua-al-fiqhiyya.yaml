@@ -1,6 +1,7 @@
 id: work/al-mawsua-al-fiqhiyya
 class: work
 kind: book
+tags: [madhahib-browser, mh-kutub]
 label: { ar: "الموسوعة الفقهية", en: "al-Mawsu'a al-Fiqhiyya (digital copy)" }
 summary:
   ar: "موسوعة فقهية مرتبة على أبواب العبادات ثم بقية الأبواب، تبدأ بالطهارة ثم الصلاة والجنائز والزكاة والصيام والحج والعمرة. الملف المحفوظ نسخة رقمية من مكتبة الشاملة؛ وصفحة عنوانها تنسبها إلى موقع الدرر السنية بإشراف علوي بن عبد القادر السقاف في ثلاثة أجزاء، وهذا لا يطابق الموسوعة الفقهية الكويتية المعروفة {cite:fiqh-mawsua-foulabook-copy p.1} {cite:fiqh-mawsua-foulabook-copy p.2}."
@@ -11,6 +12,11 @@ themes: [development-of-law-theology-institutions]
 periods: [period/contemporary-era]
 regions: [global]
 relations:
+  - { type: mentions, target: concept/madhhab, sources: [source/fiqh-mawsua-foulabook-copy] }
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/fiqh-mawsua-foulabook-copy] }
+  - { type: mentions, target: group/maliki-madhhab, sources: [source/fiqh-mawsua-foulabook-copy] }
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/fiqh-mawsua-foulabook-copy] }
+  - { type: mentions, target: group/hanbali-madhhab, sources: [source/fiqh-mawsua-foulabook-copy] }
   - { type: mentions, target: concept/tahara }
   - { type: mentions, target: concept/fiqh }
 provenance:

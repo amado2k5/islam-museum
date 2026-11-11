@@ -1,4 +1,4 @@
-// The Signs-of-the-Hour Browser's shared reads (docs/plan/39-eschatology-browser.md): every
+// The Signs-of-the-Hour Browser's shared reads (docs/plan/42-eschatology-browser.md): every
 // mention of the signs of the Hour, the Day of Judgment and all eschatology in the museum's
 // sources — the major and minor signs, barzakh and the grave, resurrection and gathering,
 // reckoning and the Scale, the Sirat and the Hawd, Paradise and Hell, and the named

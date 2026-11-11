@@ -1,10 +1,10 @@
-# 27 · Signs of the Hour Browser — requirements and production checklist
+# 30 · Signs of the Hour Browser — requirements and production checklist
 
 _The feature requirements for «متصفح علامات الساعة» (the Signs of the Hour /
 Day-of-Judgment Browser — every mention of the signs of the Hour, the Day of
 Judgment and all eschatology in the Qur'an, the Sunnah, the seerah and every
 harvested book), as requested by the founder and delivered in
-`docs/plan/39-eschatology-browser.md`. Written so any person or AI agent can
+`docs/plan/42-eschatology-browser.md`. Written so any person or AI agent can
 validate each requirement against production (`https://islam.museum`,
 `https://api.islam.museum`) without reading the plan. Every requirement has
 an id (`ESCH-R..`), a "how to check" line, and the artifact that proves it._
@@ -133,7 +133,7 @@ differs); the work was pushed without waiting on local build/test/CI._
 |---|---|---|
 | ESCH-R30 | `https://api.islam.museum/api/v1/eschatology.json` returns every detected + tagged record with `section`, `topics`, `work`, `ref`, `unit`, `text`, `kind`, `themes`, `tags`, edges, prose languages | `curl -s .../eschatology.json \| jq '.items \| length'` ≥ 200; `feature: "eschatology-browser"`; `section` ∈ {quran,sunnah,seerah,books,hereafter,dwelling,concepts} |
 | ESCH-R31 | Endpoint documented in `docs/data/README.md`, `site/public/openapi/v1.json` (`/eschatology.json` path), and `llms.txt` | all three rows exist |
-| ESCH-R32 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 39), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`eschatology` lane), `docs/status.md`, `CANARY.md`, `docs/plan/39-eschatology-browser.md`, this spec | all rows present |
+| ESCH-R32 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 42), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`eschatology` lane), `docs/status.md`, `CANARY.md`, `docs/plan/42-eschatology-browser.md`, this spec | all rows present |
 | ESCH-R33 | `features-api.test.ts` asserts `eschatology.json` in the export set and its detection/classification rules (quran/sunnah/books/seerah classification, gated-form rules) | `npm test` green |
 
 ## 5. Governance and delivery

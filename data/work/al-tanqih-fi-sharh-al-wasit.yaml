@@ -1,6 +1,7 @@
 id: work/al-tanqih-fi-sharh-al-wasit
 class: work
 kind: book
+tags: [madhahib-browser, mh-shafii, mh-kutub]
 label: { ar: "التنقيح في شرح الوسيط", en: "Al-Tanqih fi Sharh al-Wasit" }
 summary:
   ar: "بطاقة أولية لـالتنقيح في شرح الوسيط؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q136466270" }
+relations:
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

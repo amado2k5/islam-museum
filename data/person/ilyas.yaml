@@ -1,0 +1,27 @@
+id: person/ilyas
+class: person
+label:
+  ar: "إلياس"
+  en: "Ilyas (Elijah)"
+  ur: "الیاس"
+gender: male
+summary:
+  ar: "نبي أُرسل إلى بني إسرائيل في التراث الإسلامي، وذكره القرآن مع اليسع من أهل الخير {cite:tanzil-quran} {cite:tafsir-ibn-kathir}."
+  en: "A prophet sent to the Children of Israel in Islamic tradition, named in the Qur'an with al-Yasa' among the righteous {cite:tanzil-quran} {cite:tafsir-ibn-kathir}."
+  ur: "اسلامی روایت میں بنی اسرائیل کی طرف بھیجا گیا نبی، جس کا ذکر قرآن میں الیسع کے ساتھ نیکوکاروں میں ہے {cite:tanzil-quran} {cite:tafsir-ibn-kathir}۔"
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/tafsir-ibn-kathir] }
+relations:
+  - { type: related_to, target: person/al-yasa, note: "يُذكر مع اليسع في القرآن وفي تراث الأنبياء", sources: [source/tanzil-quran, source/tafsir-ibn-kathir, source/qisas-anbiya-thaalabi-edition], confidence: low }
+sources: [source/tanzil-quran, source/tafsir-ibn-kathir, source/qisas-anbiya-thaalabi-edition]
+provenance:
+  layer: own-research
+  source: "Qur'anic mentions and the classical tafsir/qisas records already registered in the museum"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: messengers-browser-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

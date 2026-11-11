@@ -1,5 +1,6 @@
 id: person/al-kulayni
 class: person
+tags: [madhahib-browser, mh-ukhra]
 label: { ar: "محمد بن يعقوب الكليني", en: "Muhammad ibn Ya'qub al-Kulayni", ur: "محمد بن یعقوب کلینی" }
 names:
   - { kind: full, lang: ar, value: "محمد بن يعقوب الكليني" }
@@ -21,6 +22,7 @@ relations:
   - { type: student_of, target: person/muhammad-ibn-ali-alan, sources: [source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/muhammad-ibn-ismail-al-naysaburi, sources: [source/encyclopaedia-of-islam-2] }
   - { type: authored, target: work/al-kafi, sources: [source/duha-islam, source/encyclopaedia-of-islam-2] }
+  - { type: member_of, target: group/jafari-madhhab, sources: [source/duha-islam] }
   - { type: participated_in, target: event/kulayni-studies-qumm, role: "الطالب", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/kulayni-shaykh-rayy, role: "شيخ الإمامية", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/kulayni-moves-baghdad, role: "المنتقل المدرّس", sources: [source/encyclopaedia-of-islam-2] }

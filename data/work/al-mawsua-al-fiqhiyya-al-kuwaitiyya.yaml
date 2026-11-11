@@ -1,6 +1,7 @@
 id: work/al-mawsua-al-fiqhiyya-al-kuwaitiyya
 class: work
 kind: book
+tags: [madhahib-browser, mh-kutub]
 label: { ar: "الموسوعة الفقهية الكويتية", en: "al-Mawsu'a al-Fiqhiyya al-Kuwaitiyya (Kuwaiti Fiqh Encyclopedia)" }
 summary:
   ar: "موسوعة فقهية عصرية تصدرها وزارة الأوقاف والشئون الإسلامية في الكويت. ترتب مصطلحات الفقه ألفبائياً، وتعرض في كل مسألة الاتجاهات الفقهية مع أدلتها، وتستوعب التراث الفقهي حتى القرن الثالث عشر الهجري، ولا تشمل التقنينات ولا الترجيح الشخصي ولا المناقشات المذهبية. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1326} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1331} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1341}"
@@ -11,6 +12,11 @@ themes: [development-of-law-theology-institutions]
 periods: [period/contemporary-era]
 regions: [global]
 relations:
+  - { type: mentions, target: concept/madhhab, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: mentions, target: group/maliki-madhhab, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: mentions, target: group/shafii-madhhab, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: mentions, target: group/hanbali-madhhab, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
   - { type: mentions, target: concept/fiqh }
   - { type: mentions, target: concept/al-abar }
   - { type: mentions, target: concept/ibaha }

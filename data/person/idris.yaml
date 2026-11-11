@@ -1,0 +1,24 @@
+id: person/idris
+class: person
+label:
+  ar: "إدريس"
+  en: "Idris (Enoch)"
+  ur: "ادریس"
+gender: male
+summary:
+  ar: "نبي مذكور في القرآن ضمن الصابرين وفي «الأخيار»، وقيل إنه رُفع إلى مكان عالٍ {cite:tanzil-quran} {cite:tafsir-ibn-kathir}."
+  en: "A prophet named in the Qur'an among the patient and among 'the righteous', said to have been raised to a high station {cite:tanzil-quran} {cite:tafsir-ibn-kathir}."
+  ur: "قرآن میں صابرین اور نیکوکاروں میں مذکور ایک نبی، جن کے بارے میں کہا جاتا ہے کہ انہیں بلند مقام پر اٹھا لیا گیا {cite:tanzil-quran} {cite:tafsir-ibn-kathir}۔"
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/tafsir-ibn-kathir] }
+sources: [source/tanzil-quran, source/tafsir-ibn-kathir, source/qisas-anbiya-thaalabi-edition]
+provenance:
+  layer: own-research
+  source: "Qur'anic mentions and the classical tafsir/qisas records already registered in the museum"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: messengers-browser-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

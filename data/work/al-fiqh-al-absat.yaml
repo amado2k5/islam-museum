@@ -1,6 +1,7 @@
 id: work/al-fiqh-al-absat
 class: work
 kind: book
+tags: [madhahib-browser, mh-hanafi, mh-kutub]
 label: { ar: "الفقه الأبسط", en: "Al-Fiqh al-Absat" }
 summary:
   ar: "بطاقة أولية لـالفقه الأبسط؛ لم تُراجع مصادرها على الصفحة بعد."
@@ -8,6 +9,8 @@ summary:
 wings: []
 sources: [source/al-aalam]
 external_ids: { wikidata: "Q125495771" }
+relations:
+  - { type: mentions, target: group/hanafi-madhhab, sources: [source/al-aalam] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"

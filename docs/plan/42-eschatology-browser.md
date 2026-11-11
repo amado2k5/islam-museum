@@ -12,7 +12,7 @@ or from sahaba and tabi'een and add those stories, mentions, quotes, details …
 also add this in engineering documents as the original requirements …"_
 
 The acceptance spec for production validation is
-`docs/engineering/27-eschatology-browser-requirements.md` (`ESCH-R..` ids).
+`docs/engineering/30-eschatology-browser-requirements.md` (`ESCH-R..` ids).
 
 ## 1. What it is
 
@@ -155,7 +155,7 @@ on curated records. Topic chips (`ashrat`, `dajjal`, `yajuj-majuj`, `barzakh`,
   `topics`, `work`, `ref`, `unit`, `text`, `sura`, `aya`, `kind`, `themes`,
   `tags` and edges; registered in `scripts/export-api.ts`,
   `site/public/openapi/v1.json`, `docs/data/README.md`, `llms.txt`.
-- Docs: this plan, `docs/engineering/27-eschatology-browser-requirements.md`,
+- Docs: this plan, `docs/engineering/30-eschatology-browser-requirements.md`,
   `docs/plan/00-README.md`, `docs/plan/06-roadmap.md`, `docs/agents/lanes.md`
   (`eschatology` lane), `docs/status.md`, `docs/site/browsers.md`, `CANARY.md`.
 

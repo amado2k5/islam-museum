@@ -1,4 +1,4 @@
-// The Signs-of-the-Hour Browser's shared reads (docs/plan/39-eschatology-browser.md):
+// The Signs-of-the-Hour Browser's shared reads (docs/plan/42-eschatology-browser.md):
 // which passage records mention the signs of the Hour, the Day of Judgment and all
 // eschatology — the major and minor signs (أشراط الساعة), barzakh and the grave,
 // resurrection and gathering, reckoning and the Scale, the Sirat and the Hawd,
@@ -274,6 +274,6 @@ export function eschTagTopics(n: Node): EschTopic[] {
 /**
  * Passage records whose only lexical hit is a known false positive. Curated escape hatch,
  * each verified by reading the passage. Filled after the detection review sweep
- * (docs/plan/39-eschatology-browser.md §7).
+ * (docs/plan/42-eschatology-browser.md §7).
  */
 export const ESCH_EXCLUDE = new Set<string>([]);
