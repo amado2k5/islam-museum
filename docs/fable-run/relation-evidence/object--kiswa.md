@@ -20,3 +20,9 @@ Could have been added but the record does not cite it: nothing.
 Named in the record with a citation, but no registered predicate fits: `building/kaaba`, the first thing the record names. Nothing in `schema/predicates.yaml` runs from an object to a building, and `part_of` has no building in its range, so the Kiswa cannot be linked to the Kaaba.
 
 Supported by the record and left out: those said to have covered the Kaaba, at pp. 137-139, of whom the lead now links `person/muhammad` and `person/abd-allah-al-mamun`. `commissioned_by` is the nearest predicate, but the record is the covering as a yearly institution, not one cloth, and to say that someone covered the Kaaba is not to say he ordered this object made. `made_in -> place/misr`: in al-Umari's day the covering was «تُحمل من الخزانة السلطانية بمصر مع الركب», carried from Egypt, which is not said to be where it was made.
+
+## Removed after verification
+
+A fresh-context verifier re-read every relation above against this record. These were taken out again because the record does not say as much as the relation does:
+
+- `made_in -> place/mecca` (stretched): Section «الأثر»: «تصنع اليوم في دار كسوة الكعبة بأم الجود» {cite:wikidata}, and summary «إلى مصنع مكة الحديث». That is true of today. The same record says that in al-Umari's time it was «تُحمل من الخزانة السلطانية بمصر مع الركب» and that the ruler of Yemen sent another. made_in takes no date, so the edge reads as the object's origin; only the relation's note keeps the time. Mildest of the stretched.

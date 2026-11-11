@@ -24,3 +24,11 @@ Looked for and not found as records:
 Could have been added but no registered predicate says it:
 - person/ibn-sina (linked in the prose), al-Biruni and al-Ghazali, whom the summary says worked in these centuries: the only predicate between a person and a period is `wrote_about`, which is not what the summary says.
 - polity/fatimid-caliphate and polity/seljuk-empire, linked in the prose list: no predicate links a polity to a period.
+
+## Removed after verification
+
+A fresh-context verifier re-read every relation above against this record. These were taken out again because the record does not say as much as the relation does:
+
+- `has_part -> event/buyid-entry-baghdad-334` (stretched): start.note: 'Starts when the Buyids enter Baghdad'. The best of the period edges: the event opens the period, and the event's own periods field names this period. But it is still an uncited curatorial note, the prose saying «وهذه الحدود وضعها المتحف للتنظيم وليست قطعية», and Hodgson and Hourani are attached to the relation though the record cites them only as further reading.
+- `has_part -> event/abbasid-khutba-egypt-567` (stretched): start.note: 'ends with the fall of the Fatimid caliphate'. The record names no event. The agent matched the phrase to the end of the Fatimid khutba in 567 by the year and the death of al-Adid; the match is sound, but it is the agent's, not the record's. Boundary event, uncited note, borrowed sources; and the event's own periods field lists only period/crusades-ayyubid-mamluk.
+- `has_part -> group/al-fatimiyun` (stretched): summary.ar, also the first line of the prose, neither cited: «حكمت أسر كالبويهيين والفاطميين والسلاجقة». Houses that ruled in these centuries are not said to be parts of the period, and the Fatimid house (909 to 1171 in its own record) begins before the period does (945). Sources on the relation are the record's further-reading pair.

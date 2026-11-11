@@ -20,3 +20,9 @@ Looked for and not found as records:
 
 Could have been added but the record does not cite it:
 - person/ibn-badran and work/madkhal-ila-madhhab-ahmad are listed under «نظرة عامة» in the prose. That list is generated from the `periods:` classification and is uncited; it was not used. (A work could carry `part_of` to a period, but the list is not evidence.)
+
+## Removed after verification
+
+A fresh-context verifier re-read every relation above against this record. These were taken out again because the record does not say as much as the relation does:
+
+- `has_part -> event/abolition-caliphate-1342` (stretched): start.note: 'From the abolition of the caliphate to the Iranian revolution; conventional boundaries.' The summary puts the period after the event: «السنوات التي أعقبت إلغاء الخلافة العثمانية سنة 1924». A boundary marker in an uncited curatorial note; Hodgson and Hourani are on the relation though the record cites them only as further reading. In its favour: the event's own periods field lists this period, and the years agree.
