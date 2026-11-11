@@ -6,23 +6,59 @@ translators: []
 ---
 
 ## موجز
-الملائكة في الإسلام خلق من خلق الله سبحانه وتعالى، والإيمان بهم ركن من أركان الإيمان عند أهل السنة والجماعة {cite:aqida-tahawiyya §72}.
+الملائكة في الإسلام خلق من خلق الله سبحانه وتعالى، والإيمان بهم ركن من أركان الإيمان عند أهل السنة والجماعة {cite:aqida-tahawiyya §72}. هم عباد مكرمون لا يعصون الله ما أمرهم ويفعلون ما يؤمرون، ولهم أعمال موكلة في السماوات والأرض، منهم الرسل بحمل الوحي كجبريل وميكائيل، ومنهم كتبة الأعمال والحملة والموكلون بمصائر الخلق.
+
+## الأصل اللغوي والاصطلاحي
+«الملك» في اللغة يطلق على الرسول وعلى القوي، ومنه «الملوك» وال«ملائكة» جمع ملك، وقد جاء في كلام العرب أن الملك من أخفى الأسماء على لسان السجية لعلوّ معناه {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14974}. وفي الاصطلاح: خلق الله من نور، يسكنون السماء، لا يأكلون ولا يشربون ولا يتزوجون ولا ينامون، ويعبدون الله ويطيعونه {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14975}.
+
+## في القرآن
+جاء في القرآن من صفاتهم وأعمالهم:
+- خلقهم قبل آدم وسجودهم له بأمر الله، وامتناع إبليس {cite:tanzil-quran} — [[passage/quran-2-34|البقرة 34]]، [[passage/quran-7-11|الأعراف 11]]، [[passage/quran-15-29|الحجر 29]]، [[passage/quran-17-61|الإسراء 61]]، [[passage/quran-38-71|ص 71]]، [[passage/quran-38-72|ص 72]]، [[passage/quran-38-73|ص 73]]، [[passage/quran-35-1|فاطر 1]].
+- رسالتهم: ينزلون بالوحي والكتب على الأنبياء {cite:tanzil-quran} — [[passage/quran-2-97|البقرة 97]]، [[passage/quran-26-193|الشعراء 193]]، [[passage/quran-69-4|القارعة 4]]، [[passage/quran-81-19|التكوير 19]]، [[passage/quran-16-2|النحل 2]].
+- عبادتهم: يسبحون الليل والنهار لا يفترون، ولا يعصون الله ما أمرهم، ويستغفرون للمؤمنين {cite:tanzil-quran} — [[passage/quran-21-20|الأنبياء 20]]، [[passage/quran-66-6|التحريم 6]]، [[passage/quran-40-7|غافر 7]]، [[passage/quran-7-206|الأعراف 206]].
+- أعمالهم: كتابة الأعمال والموكلية بالمصائر والحفظ {cite:tanzil-quran} — [[passage/quran-50-17|ق 17]]، [[passage/quran-50-18|ق 18]]، [[passage/quran-82-10|الانفطار 10]]، [[passage/quran-82-11|الانفطار 11]]، [[passage/quran-82-12|الانفطار 12]]، [[passage/quran-86-4|الطارق 4]]، [[passage/quran-32-11|السجدة 11]]، [[passage/quran-41-30|فصلت 30]].
+- حضورهم في المشاهد الكبرى: الإسراء والمعراج، إمداد المسلمين، ليلة القدر {cite:tanzil-quran} — [[passage/quran-97-4|القدر 4]]، [[passage/quran-8-9|الأنفال 9]]، [[passage/quran-8-12|الأنفال 12]]، [[passage/quran-3-124|آل عمران 124]].
+- مقامهم: لكل منهم مقام معلوم، وكراماً كاتبين، وحملة عرش {cite:tanzil-quran} — [[passage/quran-37-164|الصافات 164]]، [[passage/quran-69-17|الحاقة 17]].
+
+## في الحديث والسنة
+- في الخلق: ورد في آثار أن الله خلق الملائكة من نور قبل أن يخلق آدم من طين، وفيها أحاديث عن جبريل أنه كان قبل آدم بألفي عام؛ والصحيح أن تفاصيل الخلق مما استأثر به الله، والمحفوظ أن خلقهم سابق على خلق آدم {cite:sahih-muslim} {cite:mustadrak-al-hakim}.
+- في العبادة: «الملائكة لا ينامون ولا يفترون» في التسبيح، ويصلون على من صلى على النبي، ويستغفرون للمؤمنين بالليل والنهار، ويدعون لهم بالرحمة {cite:sahih-al-bukhari} {cite:sahih-muslim}.
+- في العدد: ورد أن من أهل البيت المعمور سبعون ألفاً يطوفون به لا يعودون، وأن حول العرش مواضع ملائكة لا تُحصى؛ والعدّ من الغيب {cite:sahih-al-bukhari}.
+- في الطاعة: «إن الله يبعث... والملائكة... لا يعصون الله ما أمرهم ويفعلون ما يؤمرون» صفة قرآنية ثابتة، وفي الحديث أن منهم الكرام الكاتبون ومنهم حافظ العهد ومنهم السياحون في الأرض يلتمسون مجالس الذكر {cite:sahih-muslim} {cite:sunan-abi-dawud}.
 
 ## في العقيدة
 جاءت العقيدة الطحاوية بلفظ مقرر: «ونؤمن بالملائكة والنبيين والكتب المنزلة على المرسلين، ونشهد أنهم كانوا على الحق المبين» {cite:aqida-tahawiyya §72}؛ ويفصّل شرح ابن أبي العز معنى الإيمان بهم وأوصافهم {cite:sharh-tahawiyya-ibn-abi-al-izz}.
+- الإيمان بهم يشمل: أنهم عباد مكرمون، لا يعصون الله، وأنكر وجودهم أو سبّهم كفر عند الجمهور {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14978}.
+- منكرهم: إنكار وجود الملائكة أو تكذيبهم بما جاء به النبي كفر، ومن سبّهم قُتل عند الجمهور {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14978}.
+
+## صفاتهم ومكانتهم
+- لا يأكلون ولا يشربون ولا يتزوجون ولا ينامون، ولا يلدون ولا يولدون {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14975}.
+- لهم القدرة على التمثل — يتشكلون بصور البشر بإذن الله، كما في قصة جبريل مع مريم وقصة جبريل مع النبي في صورة الأعرابي {cite:sahih-muslim} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14976}.
+- لهم أجنحة وأقدار وأمر كما في الوصف القرآني، ولهم أعمال يفترقون فيها: من الوحي إلى السحاب إلى كتابة الأعمال إلى قبض الأرواح {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14976}.
+- ألّا يخطر ببالهم أن يسبقوا الله بقول أو عمل، كما في الحديث القدسي: «وما ينطقون إلا بالحق» وفي الأدب القرآني «ولا يسبقونه بالقول وهم بأمره يعملون» [[passage/quran-21-27|الأنبياء 27]].
+
+## وظائفهم في القرآن والحديث
+جمع المفسرون وظائف الملائكة في القرآن، ومن جملة ما ورد: حمل العرش، والسجود لآدم، والرسالة بالوحي، والكتابة، والحفظ، والنزول بالرحمة والقطر، والنفخ في الصور، وملك الموت، وخازنا الجنة والنار، وملائكة الإمداد، وملائكة الصلاة على النبي، وسياحة الأرض في مجالس الذكر {cite:tafsir-ibn-kathir} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:27:30}.
+- كل مؤمن معه ملكان كاتبان يكتبان عمله، وكل ابن آدم له من الملائكة من يحفظه {cite:sunan-abi-dawud} {cite:jami-al-tirmidhi}.
+## ملاحظات للباحثين
+الوظائف المأثورة في القرآن والحديث هي ما ذُكر آنفاً؛ وما زاد على ذلك من تفصيل في أسماء الموكلين ومقاديرهم مروي في كتب التفسير والآثار ويحتاج إلى سند يُذكر مع كل دعوى.
+
+## في السيرة النبوية
+- جبريل هو الملك الذي أكثر ما خالط النبي: جاءه بالوحي أول مرة في غار حراء، وعرج به في المعراج، ودارسه القرآن في رمضان، ووقف بين يديه يوم أحد، وجاءه بصورة الأعرابي يسأل عن الإسلام والإيمان والإحسان {cite:sahih-al-bukhari} {cite:sahih-muslim}.
+- ملائكة بدر وحنين نزلوا للإمداد، وملائكة الوحي يترددون بين السماء والأرض في الليالي التي كان يُوحى فيها؛ والإسراء والمعراج في [[event/isra-and-miraj|صفحة الإسراء]]، وإمداد بدر في [[event/badr-battle-day|صفحة بدر]].
 
 ## الملائكة في درس الشيخ عمر عبد الكافي ⁦(الحلقة التاسعة)⁩
-يذكر الشيخ أن الملائكة يكتبون الأعمال ولا ينامون، وأن لكل إنسان ملائكة يحفظونه بالليل، وأن الشياطين لا تخطفه لولا ذلك (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:28:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:29:00}
-ويقول إن الملائكة موكلون بأعمال، فميكائيل للمطر، وجبريل للرياح والوحي (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:43:00} ويذكر أن إسرافيل صاحب الصور، وخُلق قبل آدم، وينفخ مرتين (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:43:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:49:00}
-ويذكر أن ملك الموت يقبض الأرواح واحدة بعد أخرى (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:49:30} ويذكر إبليس الذي سأل الإنظار إلى يوم البعث ⁦(لا يُنقل نصه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:28:30}
-ويذكر الشيخ أن ملائكة يحملون العرش، وأن ملائكة البيت المعمور يدخلون إليه كل يوم ولا يعودون (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:37:00}
+يذكر الشيخ أن الملائكة يكتبون الأعمال ولا ينامون، وأن لكل إنسان ملائكة يحفظونه بالليل، وأن الشياطين لا تخطفه لورا ذلك {cite:jami-al-tirmidhi} {cite:sunan-abi-dawud} {cite:tafsir-ibn-kathir}. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:28:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:29:00}
+ويقول إن الملائكة موكلون بأعمال، فميكائيل للمطر، وجبريل للرياح والوحي {cite:tafsir-ibn-kathir}. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:43:00} ويذكر أن إسرافيل صاحب الصور، وخُلق قبل آدم، وينفخ مرتين {cite:sahih-al-bukhari} {cite:sahih-muslim} (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:43:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:49:00}
+ويذكر أن ملك الموت يقبض الأرواح واحدة بعد أخرى {cite:sahih-muslim} {cite:jami-al-tirmidhi}. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:49:30} ويذكر إبليس الذي سأل الإنظار إلى يوم البعث ⁦(لا يُنقل نصه)⁩ [[passage/quran-15-39|الحجر 39]] {cite:tanzil-quran}. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:28:30}
+ويذكر الشيخ أن ملائكة يحملون العرش، وأن ملائكة البيت المعمور يدخلون إليه كل يوم ولا يعودون {cite:sahih-al-bukhari} {cite:sahih-muslim}. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:37:00}
 ويقول إن مجلس العلم خير من عبادة الملائكة، لأن الإنسان فيه يجاهد نفسه ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:42:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:42:30} ويقول إن الملائكة لو كانت فينا فهم الصحابة لملأوا المجلس، وأن ساعة درس تهدي ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:09:30}
 
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 4)⁩
 يقترح الشيخ فكرة يقول إنها خطرت له في الحال، وهي أن يُعطى ملك السيئات يوم إجازة، بأن يمتنع المرء في ذلك اليوم عن الغيبة والنميمة وسماع الشر وأكل الحرام {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:56:00}. ويقارن ذلك بالموظف الذي يأخذ يوماً أو يومين إجازة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:56:00}. ويقول إن من داوم على ذلك شهرين أو ثلاثة رأى أن الملك طاهر تعب معه طوال العمر، يكتب عليه منذ سن الخامسة عشرة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:56:30}. ويدعو إلى زيادة هذه الأيام إلى يومين ثم ثلاثة، وإلى تشغيل ملك الحسنات الذي يقول إنه في إجازة منذ ثلاثين سنة، بكتابة الصلاة والذكر والخير وقراءة القرآن وقيام الليل (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:57:00}.
 
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 7)⁩
-يذكر الشيخ أن عروج الملائكة إلى السماء يكون في يوم مقداره خمسون ألف سنة، ويقول إن القرآن يقرّب المسائل إلى الأفهام (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:12:00}. ثم يعود إلى الآية التي توقف عندها، وفيها قيام الروح والملائكة [[passage/quran-78-38|النبأ 38]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:12:00}. ويقول إن الروح قد يكون جبريل، ويذكر أن هذا قول جل المفسرين، ويعلل ذلك بأنه رئيس الملائكة وبأن الله شرّفه بإنزال الكتب (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:12:30}.
+يذكر الشيخ أن عروج الملائكة إلى السماء يكون في يوم مقداره خمسون ألف سنة [[passage/quran-70-4|المعارج 4]] {cite:tanzil-quran} {cite:tafsir-ibn-kathir}، ويقول إن القرآن يقرّب المسائل إلى الأفهام {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:12:00}. ثم يعود إلى الآية التي توقف عندها، وفيها قيام الروح والملائكة [[passage/quran-78-38|النبأ 38]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:12:00}. ويقول إن الروح قد يكون جبريل، ويذكر أن هذا قول جل المفسرين، ويعلل ذلك بأنه رئيس الملائكة وبأن الله شرّفه بإنزال الكتب {cite:tafsir-ibn-kathir} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:12:30}.
 
 :::perspectives
 - **أهل السنة ⁦(لم يُسنَد بعد)⁩**: لم يُسنَد موقف أهل السنة في هذه المسألة بعد.
@@ -31,7 +67,14 @@ translators: []
 :::
 
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 9)⁩
-يرى الشيخ أن المؤمن يسبح ضد التيار في الدنيا، وأن الملائكة تأخذ روحه فتسبح في ملكوت السماء وتُفتح لها أبواب السماء، كما بيّن في درس الاثنين الماضي {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:27:00}. ويتساءل عما تدبّره الملائكة من أمر الله [[passage/quran-79-5|النازعات 5]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:27:00}. ويقول إن وظائف الملائكة في القرآن، إذا جُمعت، بلغت ثماني عشرة وظيفة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:27:30}. ويذكر أن أولها الملكان الجالسان عن اليمين وعن الشمال، ملك الحسنات وملك السيئات، وهما مع الإنسان أربعاً وعشرين ساعة [[passage/quran-50-18|ق 18]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:27:30}. ويقول إن الملائكة يوم القيامة تقول لربها إنها ما عبدته حق عبادته (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:37:30}. ويروي أن بغلة النبي نفرت به مرة، فقال الصحابة إن خُلقها قد ساء، فنفى النبي ذلك {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:37:30}. وينقل عن النبي أن البغلة نفرت لأنها تسمع في القبور ما يقع من العذاب (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:38:00}. ثم يورد حديث «أطت السماء»، وينسبه إلى مسلم (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:38:00}. ويشرح الأطيط بأنه صوت الخشب في السقف حين يحمل ثقلاً {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:38:30}. ويورد من الحديث أن السماء تئط، وأنه ليس فيها موضع أربعة أصابع إلا وفيه جبهة ملك ساجد يسبح بحمد الله، حتى إذا حُشروا بين يدي ربهم يوم القيامة قالوا إنهم ما عبدوه حق عبادته (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:38:30}. ويقول إن الصحابة استجابوا بالسمع والطاعة، بخلاف بني إسرائيل {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:41:30}. ويذكر من وظائف الملائكة السياحين في الأرض الذين يلتمسون مجالس الذكر، ويقول لو كُشف الحجاب لرأينا الملائكة تغطي السماوات {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:41:30}.
+يرى الشيخ أن المؤمن يسبح ضد التيار في الدنيا، وأن الملائكة تأخذ روحه فتسبح في ملكوت السماء وتُفتح لها أبواب السماء، كما بيّن في درس الاثنين الماضي {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:27:00}. ويتساءل عما تدبّره الملائكة من أمر الله [[passage/quran-79-5|النازعات 5]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:27:00}. ويقول إن وظائف الملائكة في القرآن، إذا جُمعت، بلغت ثماني عشرة وظيفة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:27:30}. ويذكر أن أولها الملكان الجالسان عن اليمين وعن الشمال، ملك الحسنات وملك السيئات، وهما مع الإنسان أربعاً وعشرين ساعة [[passage/quran-50-18|ق 18]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:27:30}. ويقول إن الملائكة يوم القيامة تقول لربها إنها ما عبدته حق عبادته {cite:sahih-muslim}. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:37:30}. ويروي أن بغلة النبي نفرت به مرة، فقال الصحابة إن خُلقها قد ساء، فنفى النبي ذلك {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:37:30}. وينقل عن النبي أن البغلة نفرت لأنها تسمع في القبور ما يقع من العذاب {cite:sahih-al-bukhari} {cite:sahih-muslim}. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:38:00}. ثم يورد حديث «أطت السماء»، وينسبه إلى مسلم {cite:sahih-muslim}. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:38:00}. ويشرح الأطيط بأنه صوت الخشب في السقف حين يحمل ثقلاً {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:38:30}. ويورد من الحديث أن السماء تئط، وأنه ليس فيها موضع أربعة أصابع إلا وفيه جبهة ملك ساجد يسبح بحمد الله، حتى إذا حُشروا بين يدي ربهم يوم القيامة قالوا إنهم ما عبدوه حق عبادته {cite:sahih-muslim}. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:38:30}. ويقول إن الصحابة استجابوا بالسمع والطاعة، بخلاف بني إسرائيل {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:41:30}. ويذكر من وظائف الملائكة السياحين في الأرض الذين يلتمسون مجالس الذكر، ويقول لو كُشف الحجاب لرأينا الملائكة تغطي السماوات {cite:jami-al-tirmidhi} {cite:sunan-ibn-majah}. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:41:30}.
+
+## عند المفسرين
+يفصّل ابن كثير صفاتهم، ويذكر أنهم ملائكة موكلون بأمور، وأنهم لا يملكون لأنفسهم ضراً ولا نفعاً، ويذكر أن الله تعالى سمّاهم «رسل» في مواضع لأنهم يحملون أمره إلى من شاء {cite:tafsir-ibn-kathir}. ويرى القرطبي في مفهمه أن الإيمان بالملائكة يتضمن التصديق بما أخبر به النبي من أحوالهم وأوصافهم {cite:mufhim-qurtubi-v7}.
 
 ## في سياق الغيب
 خلقوا من نور لا يعصون الله؛ منهم حملة العرش والكرام الكاتبون وجبريل أمين الوحي.
+
+## ملاحظات
+- عددهم لا يُحصى، والعدّ منه ما هو من الغيب، والقرآن والحديث أثبتا وجودهم وأعمالهم دون أن يَعُدّهم عداً.
+- لكل واحد منهم اسم وموكلية كما في كتب التفسير والحديث، وبعض الأسماء مروي في الآثار لا في القرآن، مثل رضوان وخازن النار مالك.
