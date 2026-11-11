@@ -16,7 +16,11 @@ translations:
   en: { text: "A stalwart of the jinn said: I will bring it thee before thou canst rise from thy place. Lo! I verily am strong and trusty for such work.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جنات میں سے ایک قوی ہیکل جن نے کہا کہ قبل اس کے کہ آپ اپنی جگہ سے اٹھیں میں اس کو آپ کے پاس لاحاضر کرتا ہوں اور میں اس (کے اٹھانے کی) طاقت رکھتا ہوں (اور) امانت دار ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: event/jinn-in-solomons-court, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-27 }
+  - { type: mentions, target: concept/ghul, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/jinn, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/jinn-anwa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

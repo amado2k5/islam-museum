@@ -21,6 +21,7 @@ relations:
   - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/isa-ibn-maryam, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/maryam, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/sihr, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

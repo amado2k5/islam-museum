@@ -15,7 +15,9 @@ summary:
 themes: [spirituality-and-sufism]
 tags: [hadith-qudsi, qudsi-kama-yanbaghi-li-jalal-wajhik]
 relations:
+  - { type: mentions, target: event/the-praising-servant, sources: [source/sunan-ibn-majah] }
   - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah] }
+  - { type: mentions, target: concept/kiraman-katibin, sources: [source/sunan-ibn-majah] }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-ibn-majah] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3801; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
 sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]

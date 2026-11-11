@@ -1,4 +1,4 @@
-// The Magic Browser's shared reads (docs/plan/37-magic-browser.md): every mention of magic
+// The Magic Browser's shared reads (docs/plan/38-magic-browser.md): every mention of magic
 // and the magicians in the museum's sources — sorcery, soothsaying and augury, ruqyah, the
 // evil eye and envy — plus the curated records about them, all over the one graph. Passages
 // are found by the shared detector in scripts/magic.ts at build time, so a magic mention in

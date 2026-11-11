@@ -1,19 +1,39 @@
 id: person/marut
 class: person
-label: { ar: "ماروت", en: "Marut", ur: "ماروت" }
+label:
+  ar: "ماروت"
+  en: "Marut"
+  ur: "ماروت"
+gender: male
 summary:
-  ar: "أحد الملكين اللذين علّم الله بهما السحر في بابل فتنةً للناس وامتحاناً لمن اتبعهما، كما في الآية 102 من سورة البقرة، وكانا يُعلّمان ما يفرّق بين المرء وزوجه ابتلاءً منه سبحانه."
-  en: "One of the two angels whom God sent to Babylon to teach people sorcery as a trial — they taught what would separate a man from his wife, as a test from Him (Qur'an 2:102)."
-  ur: "دو فرشتوں میں سے ایک جنھیں اللہ نے آزمائش کے طور پر بابل میں لوگوں کو جادو سکھانے بھیجا؛ انہوں نے وہ چیز سکھائی جو مرد کو اس کی بیوی سے جدا کر دے ⁦(سورۃ بقرہ، آیت 102)⁩۔"
-wings: [people]
+  ar: "ماروت أحد المَلَكين اللذين ذُكرا في قصة السحر ببابل في سورة البقرة: «واتبعوا ما تتلو الشياطين على ملك سليمان... وماروت وهاروت». اختلف المفسرون في صفتهما؛ فذهب جمع إلى أنهما ملكان أُرسلا ليبتليا الناس، وذهب آخرون إلى أنهما من الجن أو البشر، وروي أن الله عاقبهما بعد تعليم السحر {cite:tanzil-quran} {cite:tafsir-ibn-kathir}."
+  en: "Marut is one of the two beings named in the Babylon magic narrative of surah al-Baqarah: 'they followed what the devils recited about the kingdom of Solomon... and Marut and Harut'. The exegetes differed over their nature; many held them to be two angels sent to test people, others said jinn or humans, and tradition adds that God punished them after they taught sorcery {cite:tanzil-quran} {cite:tafsir-ibn-kathir}."
+  ur: "ماروت ان دو ہستیوں میں سے ایک ہیں جن کا ذکر سورۃ البقرہ کی جادو کی کہانی میں آیا ہے: «اور انہوں نے تو تابع ہوئے جو شیطان سلیمان کی بادشاہت کے بارے میں پڑھتے تھے... اور ماروت اور ہاروت»۔ مفسروں میں ان کی فطرت پر اختلاف ہے؛ بہت سے انہیں دو فرشتے مانتے ہیں جو لوگوں کی آزمائش کے لیے بھیجے گئے، دوسروں نے انہیں جن یا انسان کہا، اور روایت میں ہے کہ سحر سکھانے کے بعد اللہ نے ان پر سزا دی {cite:tanzil-quran} {cite:tafsir-ibn-kathir}۔"
+wings: [people, ideas]
+themes: [creed, scripture-and-its-sciences]
+regions: [levant-iraq]
+periods: []
+tags:
+- jinn-devils-browser
+- jd-angels
+- magic-browser
+- magic-sihr
+sources:
+- source/tanzil-quran
+- source/tafsir-ibn-kathir
 relations:
-  - { type: related_to, target: concept/harut-and-marut, note: "The two angels of the Babylon trial named together in Qur'an 2:102.", sources: [source/tanzil-quran] }
-  - { type: related_to, target: concept/sihr, note: "They are the Quranic pair said to have taught sorcery.", sources: [source/tanzil-quran] }
+- type: related_to
+  target: concept/harut-and-marut
+  sources: [source/tanzil-quran]
+- type: related_to
+  target: concept/sihr
+  sources: [source/tanzil-quran]
 provenance:
   layer: own-research
-  source: "Qur'an 2:102 via the frozen Tanzil passage records; exegesis summaries in the works already in the graph"
-  generated_by: "Devin (SWE-2 Flash)"
-  run: magic-browser-01
-sources: [source/tanzil-quran]
-tags: [magic-browser, magic-sihr]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Flash)" }
+  source: "Jinn & Devils Browser wave-3; stub promoted from _stubs.d/quran-mentions.yaml, worded from surah al-Baqarah 2:102 and Tafsir Ibn Kathir"
+  generated_by: Devin (SWE-2 High)
+  run: jinn-devils-browser-3
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High)

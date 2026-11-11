@@ -1,9 +1,9 @@
-# 25 · Magic and Magicians Browser — requirements and production checklist
+# 26 · Magic and Magicians Browser — requirements and production checklist
 
 _The feature requirements for «متصفح السحر والسحرة» (the Magic and Magicians
 Browser — every mention of magic and the magicians in the Qur'an, the Sunnah,
 the seerah and every harvested book), as requested by the founder and delivered
-in `docs/plan/37-magic-browser.md`. Written so any person or AI agent can
+in `docs/plan/38-magic-browser.md`. Written so any person or AI agent can
 validate each requirement against production (`https://islam.museum`,
 `https://api.islam.museum`) without reading the plan. Every requirement has an
 id (`MAGIC-R..`), a "how to check" line, and the artifact that proves it._
@@ -132,7 +132,7 @@ the work was built independently of the unmerged jinn-devils browser branch._
 |---|---|---|
 | MAGIC-R30 | `https://api.islam.museum/api/v1/magic.json` returns every detected + tagged record with `section`, `topics`, `work`, `ref`, `unit`, `text`, `kind`, `themes`, `tags`, edges, prose languages | `curl -s .../magic.json \| jq '.items \| length'` ≥ 115; `feature: "magic-browser"`; `section` ∈ {quran,sunnah,seerah,books,concepts} |
 | MAGIC-R31 | Endpoint documented in `docs/data/README.md`, `site/public/openapi/v1.json` (`/magic.json` path), and `llms.txt` | all three rows exist |
-| MAGIC-R32 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 37), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`magic` lane), `docs/status.md`, `CANARY.md`, `docs/plan/37-magic-browser.md`, this spec | all rows present |
+| MAGIC-R32 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 38), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`magic` lane), `docs/status.md`, `CANARY.md`, `docs/plan/38-magic-browser.md`, this spec | all rows present |
 | MAGIC-R33 | `features-api.test.ts` asserts `magic.json` in the export set and its detection/classification rules (sihr topic, ambiguous-'ayn gate) | `npm test` green |
 
 ## 5. Governance and delivery

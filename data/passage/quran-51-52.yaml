@@ -17,6 +17,7 @@ translations:
   ur: { text: "اسی طرح ان سے پہلے لوگوں کے پاس جو پیغمبر آتا وہ اس کو جادوگر یا دیوانہ کہتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-51 }
+  - { type: mentions, target: concept/sihr, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

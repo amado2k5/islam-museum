@@ -20,6 +20,8 @@ relations:
   - { type: mentions, target: concept/ram-of-sacrifice, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/sacrifice-of-ismail }
   - { type: part_of, target: passage/quran-37 }
+  - { type: mentions, target: concept/ruya-fiqh, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/taabir-al-ruya, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/ahlam, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/ahlam-al-anbiya, sources: [source/tanzil-quran] }
 sensitivity: sacred

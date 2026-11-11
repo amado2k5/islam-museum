@@ -1,4 +1,4 @@
-# Plan 37 — Magic and Magicians Browser (متصفح السحر والسحرة)
+# Plan 38 — Magic and Magicians Browser (متصفح السحر والسحرة)
 
 _Requested by the founder: "start working on متصفح السحر والسحرة where it should
 list all the mentioned and written Magic and magicians that are in quran, sunnah,
@@ -12,7 +12,7 @@ Magic and magicians in quran, sunnah, seerah, anywhere in any of the sunni
 books."_
 
 The acceptance spec for production validation is
-`docs/engineering/25-magic-browser-requirements.md` (`MAGIC-R..` ids).
+`docs/engineering/26-magic-browser-requirements.md` (`MAGIC-R..` ids).
 
 ## 1. What it is
 
@@ -117,7 +117,7 @@ verse).
   `topics`, `work`, `ref`, `unit`, `text`, `sura`, `aya`, `kind`, `themes`,
   `tags` and edges; registered in `scripts/export-api.ts`,
   `site/public/openapi/v1.json`, `docs/data/README.md`, `llms.txt`.
-- Docs: this plan, `docs/engineering/25-magic-browser-requirements.md`,
+- Docs: this plan, `docs/engineering/26-magic-browser-requirements.md`,
   `docs/plan/00-README.md`, `docs/plan/06-roadmap.md`, `docs/agents/lanes.md`
   (`magic` lane), `docs/status.md`, `docs/site/browsers.md`, `CANARY.md`.
 

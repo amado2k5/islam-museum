@@ -1,4 +1,4 @@
-// The Magic Browser's filter (docs/plan/37-magic-browser.md): narrows the magic list as the
+// The Magic Browser's filter (docs/plan/38-magic-browser.md): narrows the magic list as the
 // visitor types, matching titles, summaries, work names, topic names and text excerpts in all
 // three languages, ignoring Arabic vowel marks. Without JavaScript the whole list is on the page.
 const input = document.querySelector<HTMLInputElement>("[data-magic-filter]");

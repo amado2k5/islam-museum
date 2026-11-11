@@ -16,12 +16,14 @@ translations:
   en: { text: "And follow that which the devils falsely related against the kingdom of Solomon. Solomon disbelieved not; but the devils disbelieved, teaching mankind magic and that which was revealed to the two angels in Babel, Harut and Marut. Nor did they (the two angels) teach it to anyone till they had said: We are only a temptation, therefore disbelieve not (in the guidance of Allah). And from these two (angles) people learn that by which they cause division between man and wife; but they injure thereby no-one save by Allah's leave. And they learn that which harmeth them and profiteth them not. And surely they do know that he who trafficketh therein will have no (happy) portion in the Hereafter; and surely evil is the price for which they sell their souls, if they but knew.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ان (ہزلیات) کے پیچھے لگ گئے جو سلیمان کے عہدِ سلطنت میں شیاطین پڑھا کرتے تھے اور سلیمان نے مطلق کفر کی بات نہیں کی، بلکہ شیطان ہی کفر کرتے تھے کہ لوگوں کو جادو سکھاتے تھے۔ اور ان باتوں کے بھی (پیچھے لگ گئے) جو شہر بابل میں دو فرشتوں (یعنی) ہاروت اور ماروت پر اتری تھیں۔ اور وہ دونوں کسی کو کچھ نہیں سکھاتے تھے، جب تک یہ نہ کہہ دیتے کہ ہم تو (ذریعہٴ) آزمائش ہیں۔ تم کفر میں نہ پڑو۔ غرض لوگ ان سے (ایسا) جادو سیکھتے، جس سے میاں بیوی میں جدائی ڈال دیں۔ اور خدا کے حکم کے سوا وہ اس (جادو) سے کسی کا کچھ بھی نہیں بگاڑ سکتے تھے۔ اور کچھ ایسے (منتر) سیکھتے جو ان کو نقصان ہی پہنچاتے اور فائدہ کچھ نہ دیتے۔ اور وہ جانتے تھے کہ جو شخص ایسی چیزوں (یعنی سحر اور منتر وغیرہ) کا خریدار ہوگا، اس کا آخرت میں کچھ حصہ نہیں۔ اور جس چیز کے عوض انہوں نے اپنی جانوں کو بیچ ڈالا، وہ بری تھی۔ کاش وہ (اس بات کو) جانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: event/babylon-magic-trial, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/sihr, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
   - { type: mentions, target: person/harut, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/marut, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/sulayman, sources: [source/tanzil-quran] }
   - { type: mentions, target: place/babil, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/shayatin-al-ins-wal-jinn, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/harut-and-marut, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/malaika, sources: [source/tanzil-quran] }
 sensitivity: sacred

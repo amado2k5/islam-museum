@@ -19,6 +19,8 @@ translations:
 relations:
   - { type: part_of, target: passage/quran-12 }
   - { type: mentions, target: concept/asma-al-malik, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/ruya-fiqh, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/taabir-al-ruya, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/ahlam, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/ahlam-al-anbiya, sources: [source/tanzil-quran] }
 sensitivity: sacred

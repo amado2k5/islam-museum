@@ -1,4 +1,4 @@
-// The Magic Browser's shared reads (docs/plan/37-magic-browser.md): which passage records
+// The Magic Browser's shared reads (docs/plan/38-magic-browser.md): which passage records
 // mention magic and the magicians — sorcery, soothsaying and augury, ruqyah and the counter-
 // incantations, the evil eye and envy — and which corpus section each belongs to. Detection
 // runs at build time over the compiled graph, so a magic mention in any harvested book — and

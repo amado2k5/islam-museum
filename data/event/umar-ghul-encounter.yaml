@@ -1,0 +1,37 @@
+id: event/umar-ghul-encounter
+class: event
+kind: other
+label:
+  ar: "لقاء عمر بالغول قبل الإسلام"
+  en: "Umar's encounter with the ghul before Islam"
+  ur: "اسلام سے پہلے عمر کی غول سے ملاقات"
+summary:
+  ar: "تروي كتب التواريخ والأخبار أن عمر بن الخطاب لقي الغول في بعض أسفاره قبل الإسلام، وفي روايات أنه سمع عويلها بالليل أو رآها في صورة امرأة، وتُعد هذه الأخبار من أخبار الجن الضعيفة الإسناد التي صنفها أهل العلم {cite:muruj-al-dhahab} {cite:tabari-tarikh-abu-al-fadl}."
+  en: "The books of history and reports relate that Umar ibn al-Khattab met the ghul on one of his journeys before Islam, in versions that he heard its wailing at night or saw it in a woman's shape; these reports belong to the weakly transmitted lore of the jinn that the scholars have classified {cite:muruj-al-dhahab} {cite:tabari-tarikh-abu-al-fadl}."
+  ur: "تاریخ اور خبروں کی کتابیں بتاتی ہیں کہ عمر بن الخطاب نے اسلام سے پہلے اپنے ایک سفر میں غول سے ملاقات کی، روایات میں ہے کہ اس نے رات کو اس کی کراہ سنی یا اسے عورت کی شکل میں دیکھا؛ یہ خبریں ان کمزور سند والی جن کی روایات میں سے ہیں جنہیں علماء نے درجہ بند کیا ہے {cite:muruj-al-dhahab} {cite:tabari-tarikh-abu-al-fadl}۔"
+wings: [people, ideas]
+themes: [prophets]
+regions: [arabia]
+periods: [period/pre-islamic-arabia]
+tags:
+- jinn-devils-browser
+- jd-jinn
+sources:
+- source/muruj-al-dhahab
+- source/tabari-tarikh-abu-al-fadl
+relations:
+- type: related_to
+  target: person/umar-ibn-al-khattab
+  sources: [source/muruj-al-dhahab]
+- type: related_to
+  target: concept/ghul
+  sources: [source/muruj-al-dhahab]
+provenance:
+  layer: own-research
+  source: "Jinn & Devils Browser wave-3; worded from al-Muruj al-Dhahab and al-Tabari's Tarikh — weakly transmitted lore, labelled as such"
+  generated_by: Devin (SWE-2 High)
+  run: jinn-devils-browser-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High)
