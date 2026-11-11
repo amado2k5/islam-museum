@@ -54,7 +54,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "nature.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "nature.json", "nubuwat.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -106,6 +106,24 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(featureApiData(compiled)["duas.json"].feature).toBe("dua-browser");
     expect(duaKindOf(duaHadith as any)).toBe("formula");
     expect(duaSignalsOf(callFp as any)).toEqual([]);
+  });
+
+  it("exports nubuwat: detected passages by corpus and topic, tagged records, ambiguous-form gates", () => {
+    const prophecyHadith = makeNode("passage/muslim-8877", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "8877", text: "ليأتين عليكم من بعدي اشياء" });
+    const miracleHadith = makeNode("passage/bukhari-8877", "passage", { unit: "hadith", work: "work/sahih-al-bukhari", ref: "8877", text: "انشق القمر نصفين" });
+    const genericFp = makeNode("passage/muwatta-8877", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "8877", text: "كان ياتي بالليل فيصلي" });
+    const nubConcept = { ...makeNode("concept/dalail-al-nubuwwa", "concept", { kind: "term" }), tags: ["nubuwat-browser", "nubuwat-nubuwwa"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, prophecyHadith, miracleHadith, genericFp, nubConcept], edges: compiled.edges });
+    const items = data["nubuwat.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/muslim-8877");
+    expect(ids).toContain("passage/bukhari-8877");
+    expect(ids).toContain("concept/dalail-al-nubuwwa");
+    expect(ids).not.toContain("passage/muwatta-8877"); // «ياتي» without a prophecy collocation is not a prediction
+    expect(items.find((i) => i.id === "passage/muslim-8877")).toMatchObject({ section: "sunnah", topics: ["nubuwat"] });
+    expect(items.find((i) => i.id === "passage/bukhari-8877")).toMatchObject({ section: "sunnah", topics: ["muajizat"] });
+    expect(items.find((i) => i.id === "concept/dalail-al-nubuwwa")).toMatchObject({ section: "curated", topics: ["nubuwwa"] });
+    expect(featureApiData(compiled)["nubuwat.json"].feature).toBe("nubuwat-browser");
   });
 
   it("exports madhahib: tagged records by mh- sections, mentions edges by school and dhikr", () => {

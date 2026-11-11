@@ -18,6 +18,7 @@ import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassa
 import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPassage, eschatologyTopicsOf } from "./eschatology.js";
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
 import { DUA_TAG, duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, isDuaPassage, type DuaKind } from "./dua.js";
+import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNubuwatPassage, nubuwatTopicsOf } from "./nubuwat.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { existsSync, readdirSync } from "node:fs";
 
@@ -230,6 +231,15 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : duaTagSection(n),
       dua_kind: n.class === "passage" ? duaKindOf(n) : null,
       signals: n.class === "passage" ? duaSignalsOf(n) : [],
+    }) },
+  { file: "nubuwat.json", feature: "nubuwat-browser",
+    pick: (n) => n.tags.includes(NUBUWAT_TAG) || isNubuwatPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? nubuwatCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : nubuwatTagSection(n),
+      topics: n.class === "passage" ? nubuwatTopicsOf(n) : nubuwatTagTopics(n),
     }) },
   { file: "magic.json", feature: "magic-browser",
     pick: (n) => n.tags.includes(MAGIC_TAG) || isMagicPassage(n),
