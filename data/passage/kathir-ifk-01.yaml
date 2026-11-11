@@ -1,0 +1,23 @@
+id: passage/kathir-ifk-01
+class: passage
+unit: chapter
+work: work/al-sira-al-nabawiyya-ibn-kathir
+ref: "309"
+label:
+  ar: "السيرة النبوية لابن كثير — قصة الإفك — عائشة والتهمة"
+  en: "Ibn Kathir's Sirah — قصة الإفك — عائشة والتهمة"
+text: "(١) قلص : ارتفع . - ٣٠٩ - ما يقولون لا تُصدقونى . قالت : ثم التمست إسم يعقوب فما أذكره فقلت : ولكن سأقول كما قال أبو يوسف : ( قصبرٌ جميل والله المستعان على ما تَصِفون ) قالت…"
+summary:
+  ar: "مقطع من السيرة النبوية لابن كثير، في السيرة النبوية، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Kathir's al-Sira al-Nabawiyya, in السيرة النبوية, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-bidaya-wal-nihaya] }
+provenance:
+  layer: own-research
+  source: "سيرة ابن كثير ص 309 — إنزال براءة عائشة، وضرب حد القذف لمسطح بن أثاثة وحسان بن ثابت وحمنة بنت جحش «ممن أفصح بالفاحشة»"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: sayyiat-mining-2
+tags: [sayyiat-browser]
+sources: [source/al-bidaya-wal-nihaya]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

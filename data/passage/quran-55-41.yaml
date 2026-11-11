@@ -17,6 +17,7 @@ translations:
   ur: { text: "گنہگار اپنے چہرے ہی سے پہچان لئے جائیں گے تو پیشانی کے بالوں اور پاؤں سے پکڑ لئے جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-55 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

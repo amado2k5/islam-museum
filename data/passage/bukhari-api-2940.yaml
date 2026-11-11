@@ -1,0 +1,19 @@
+id: passage/bukhari-api-2940
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2940"
+label: { ar: "صحيح البخاري — حديث 2940", en: "Sahih al-Bukhari 2940", ur: "صحیح بخاری — حدیث 2940" }
+text: "… عُتْبَةَ، عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ ـ رضى الله عنهما ـ أَنَّهُ أَخْبَرَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَتَبَ إِلَى قَيْصَرَ يَدْعُوهُ إِلَى الإِسْلاَمِ، وَبَعَثَ بِكِتَابِهِ إِلَيْهِ مَعَ دِحْيَةَ الْكَلْبِيِّ، وَأَمَرَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يَدْفَعَهُ إِلَى عَظِيمِ بُصْرَى لِيَدْفَعَهُ إِلَى قَيْصَرَ، وَكَانَ قَيْصَرُ لَمَّا كَشَفَ اللَّهُ عَنْهُ جُنُودَ فَارِسَ مَشَى مِنْ حِمْصَ إِلَى إِيلِيَاءَ، شُكْرًا لِمَا …"
+summary:
+  ar: "في صحيح البخاري؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih al-Bukhari; sending a letter or message to a party."
+  ur: "صحیح بخاری میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/heraclius, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/dihya-al-kalbi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2940 (book 0 hadith 0); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

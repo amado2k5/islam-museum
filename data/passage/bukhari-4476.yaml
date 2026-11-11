@@ -18,6 +18,7 @@ relations:
   - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
   - { type: basis_for, target: practice/dua, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-al-bukhari] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4476; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
 sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
 status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

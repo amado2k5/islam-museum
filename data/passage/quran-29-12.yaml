@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جو کافر ہیں وہ مومنوں سے کہتے ہیں کہ ہمارے طریق کی پیروی کرو ہم تمہارے گناہ اُٹھالیں گے۔ حالانکہ وہ اُن کے گناہوں کا کچھ بھی بوجھ اُٹھانے والے نہیں۔ کچھ شک نہیں کہ یہ جھوٹے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

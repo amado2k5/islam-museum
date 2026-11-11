@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! those who believe and do good works and establish worship and pay the poor-due, their reward is with their Lord and there shall no fear come upon them neither shall they grieve.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جو لوگ ایمان لائے اور نیک عمل کرتے اور نماز پڑھتے اور زکوٰة دیتے رہے ان کو ان کے کاموں کا صلہ خدا کے ہاں ملے گا اور (قیامت کے دن) ان کو نہ کچھ خوف ہوا اور نہ وہ غمناک ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

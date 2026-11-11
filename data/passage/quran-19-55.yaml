@@ -16,6 +16,7 @@ translations:
   en: { text: "He enjoined upon his people worship and almsgiving, and was acceptable in the sight of his Lord.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور اپنے گھر والوں کو نماز اور زکوٰة کا حکم کرتے تھے اور اپنے پروردگار کے ہاں پسندیدہ (وبرگزیدہ) تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-55
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "55"
+label: { ar: "سنن ابن ماجه — حديث 55", en: "Sunan Ibn Majah 55 — The Book of the Sunnah", ur: "سنن ابن ماجہ — حدیث 55" }
+text: "لَمَّا بَعَثَنِي رَسُولُ اللَّهِ ـ صلى الله عليه وسلم ـ إِلَى الْيَمَنِ قَالَ ‏ \"‏ لاَ تَقْضِيَنَّ وَلاَ تَفْصِلَنَّ إِلاَّ بِمَا تَعْلَمُ فَإِنْ أَشْكَلَ عَلَيْكَ أَمْرٌ فَقِفْ حَتَّى تُبَيِّنَهُ أَوْ تَكْتُبَ إِلَىَّ فِيهِ ‏\"‏ ‏.‏"
+summary:
+  ar: "في سنن ابن ماجه؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan Ibn Majah; sending a letter or message to a party."
+  ur: "سنن ابن ماجہ میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-ibn-majah] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 55 (book 0 hadith 55); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

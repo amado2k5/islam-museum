@@ -1,0 +1,17 @@
+id: passage/muwatta-api-612
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "612"
+label: { ar: "موطأ مالك — حديث 612", en: "Muwatta Malik 612 — Zakat", ur: "موطأ مالک — حدیث 612" }
+text: "لأَبِي عُبَيْدَةَ بْنِ الْجَرَّاحِ خُذْ مِنْ خَيْلِنَا وَرَقِيقِنَا صَدَقَةً ‏.‏ فَأَبَى ثُمَّ كَتَبَ إِلَى عُمَرَ بْنِ الْخَطَّابِ فَأَبَى عُمَرُ ثُمَّ كَلَّمُوهُ أَيْضًا فَكَتَبَ إِلَى عُمَرَ فَكَتَبَ إِلَيْهِ عُمَرُ إِنْ أَحَبُّوا فَخُذْهَا مِنْهُمْ وَارْدُدْهَا عَلَيْهِمْ وَارْزُقْ رَقِيقَهُمْ ‏.‏ قَالَ مَالِكٌ مَعْنَى قَوْلِهِ رَحِمَهُ اللَّهُ وَارْدُدْهَا عَلَيْهِمْ يَقُولُ عَلَى فُقَرَائِهِمْ ‏.‏"
+summary:
+  ar: "في موطأ مالك؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Muwatta Malik; sending a letter or message to a party."
+  ur: "موطأ مالک میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/muwatta-malik] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 612 (book 17 hadith 35); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

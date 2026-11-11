@@ -16,6 +16,7 @@ translations:
   en: { text: "O ye who believe! Squander not your wealth among yourselves in vanity, except it be a trade by mutual consent, and kill not one another. Lo! Allah is ever Merciful unto you.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "مومنو! ایک دوسرے کا مال ناحق نہ کھاؤ ہاں اگر آپس کی رضامندی سے تجارت کا لین دین ہو (اور اس سے مالی فائدہ حاصل ہو جائے تو وہ جائز ہے) اور اپنے آپ کو ہلاک نہ کرو کچھ شک نہیں کہ خدا تم پر مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

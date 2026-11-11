@@ -1,0 +1,16 @@
+id: passage/nasai-api-3120
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3120"
+label: { ar: "السنن النسائي — حديث 3120", en: "Sunan al-Nasa'i 3120 — The Book of Jihad", ur: "سنن النسائی — حدیث 3120" }
+text: "‏ \"‏ ثَلاَثَةٌ كُلُّهُمْ حَقٌّ عَلَى اللَّهِ عَزَّ وَجَلَّ عَوْنُهُ الْمُجَاهِدُ فِي سَبِيلِ اللَّهِ وَالنَّاكِحُ الَّذِي يُرِيدُ الْعَفَافَ وَالْمُكَاتَبُ الَّذِي يُرِيدُ الأَدَاءَ ‏\"‏ ‏.‏"
+summary:
+  ar: "في السنن النسائي؛ ذكر المكاتبات أو المراسلات."
+  en: "In Sunan al-Nasa'i; mention of correspondence."
+  ur: "سنن النسائی میں؛ مکاتبات کا ذکر."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3120 (book 25 hadith 36); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

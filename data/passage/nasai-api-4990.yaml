@@ -1,0 +1,18 @@
+id: passage/nasai-api-4990
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4990"
+label: { ar: "السنن النسائي — حديث 4990", en: "Sunan al-Nasa'i 4990 — The Book Of Faith and its Signs", ur: "سنن النسائی — حدیث 4990" }
+text: "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا النَّضْرُ بْنُ شُمَيْلٍ، قَالَ أَنْبَأَنَا كَهْمَسُ بْنُ الْحَسَنِ، قَالَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ بُرَيْدَةَ، عَنْ يَحْيَى بْنِ يَعْمَرَ، أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ، قَالَ حَدَّثَنِي عُمَرُ بْنُ الْخَطَّابِ، قَالَ بَيْنَمَا نَحْنُ عِنْدَ رَسُولِ اللَّهِ صلى الله عليه وسلم ذَاتَ يَوْمٍ إِذْ طَلَعَ عَلَيْنَا رَجُلٌ شَدِيدُ بَيَاضِ الثِّيَابِ شَدِيدُ سَوَادِ الشَّعَرِ لاَ يُرَى عَلَيْهِ أَثَر …"
+summary:
+  ar: "في السنن النسائي؛ ذكر ديوان أو بريد المراسلات."
+  en: "In Sunan al-Nasa'i; mention of the chancery or the barid post."
+  ur: "سنن النسائی میں؛ دیوآن یا بریڈ کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4990 (book 47 hadith 6); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

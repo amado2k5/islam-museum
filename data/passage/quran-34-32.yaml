@@ -17,6 +17,7 @@ translations:
   ur: { text: "بڑے لوگ کمزوروں سے کہیں گے کہ بھلا ہم نے تم کو ہدایت سے جب وہ تمہارے پاس آچکی تھی روکا تھا؟ (نہیں) بلکہ تم ہی گنہگار تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

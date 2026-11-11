@@ -16,6 +16,7 @@ translations:
   en: { text: "Men whom neither merchandise nor sale beguileth from remembrance of Allah and constancy in prayer and paying to the poor their due; who fear a day when hearts and eyeballs will be overturned;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(یعنی ایسے) لوگ جن کو خدا کے ذکر اور نماز پڑھنے اور زکوٰة دینے سے نہ سوداگری غافل کرتی ہے نہ خرید وفروخت۔ وہ اس دن سے جب دل (خوف اور گھبراہٹ کے سبب) الٹ جائیں گے اور آنکھیں (اوپر کو چڑھ جائیں گی) ڈرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

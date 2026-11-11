@@ -16,6 +16,7 @@ translations:
   en: { text: "O ye who believe! Observe your duty to Allah, and give up what remaineth (due to you) from usury, if ye are (in truth) believers.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "مومنو! خدا سے ڈرو اور اگر ایمان رکھتے ہو تو جتنا سود باقی رہ گیا ہے اس کو چھوڑ دو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

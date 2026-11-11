@@ -14,6 +14,7 @@ relations:
   - { type: basis_for, target: concept/ittisal-al-isnad, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: mentions, target: person/abu-dharr-al-ghifari, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: mentions, target: person/muadh-ibn-jabal, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/ibn-rajab-jami-ulum-hikam] }
 provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 18 pp. 375–431", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-7" }
 sources: [source/ibn-rajab-jami-ulum-hikam]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 375, the grading critique and ittisal discussion from pp. 375–376" }

@@ -16,6 +16,8 @@ translations:
   en: { text: "And (remember) when We made a covenant with the Children of Israel, (saying): Worship none save Allah (only), and be good to parents and to kindred and to orphans and the needy, and speak kindly to mankind; and establish worship and pay the poor-due. Then, after that, ye slid back, save a few of you, being averse.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور جب ہم نے بنی اسرائیل سے عہد لیا کہ خدا کے سوا کسی کی عبادت نہ کرنا اور ماں باپ اور رشتہ داروں اور یتیموں اور محتاجوں کے ساتھ بھلائی کرتے رہنا اور لوگوں سے اچھی باتیں کہنا، اور نماز پڑھتے اور زکوٰة دیتے رہنا، تو چند شخصوں کے سوا تم سب (اس عہد سے) منہ پھیر کر پھر بیٹھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/al-sakk-wal-hawala, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
   - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
 sensitivity: sacred

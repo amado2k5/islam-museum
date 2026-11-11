@@ -391,6 +391,66 @@
         }
       }
     },
+    "/islamic-economy.json": {
+      "get": {
+        "operationId": "getIslamicEconomy",
+        "summary": "Islamic Economy Browser dataset",
+        "description": "The Islamic Economy Browser dataset (متصفح العملات والصكوك والوقف الإسلامي): every mention of money and Islamic economics, deeds/instruments/covenants, and endowments in the Qur'an, Sunnah, seerah and harvested books — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — detected at build time plus the curated records tagged islamic-economy-browser, each with its corpus section (quran, sunnah, seerah, books, curated), topic chips (money, sukuk, waqf), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every Islamic-economy record with corpus section, topics, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/sayyiat.json": {
+      "get": {
+        "operationId": "getSayyiat",
+        "summary": "Sayyi'at Browser dataset",
+        "description": "The Sayyi'at Browser dataset (متصفح السيئات): every mention of the sayyi'at and the sins theme in the Qur'an, Sunnah, seerah and harvested books — the «سيّئ» family, the names of sin, guilt and disobedience, major and minor sins, transgression, immorality and wrongdoing — detected at build time plus the curated records tagged sayyiat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), sayyiat_kind (sayyi or related), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every sayyi'at record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/hasanats.json": {
+      "get": {
+        "operationId": "getHasanats",
+        "summary": "Hasanat Browser dataset",
+        "description": "The Hasanat Browser dataset (متصفح الحسنات): every mention of the good deeds (al-hasanat) in the Qur'an, Sunnah, seerah and harvested books — «الحسنات»، «حسنات»، «الحسنة»، «حسنة»، the gated «الحسنى», and the fixed collocations «قرضا حسنا» and «بدل حسنا بعد سوء» — detected at build time plus the curated records tagged hasanat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), hasanat_kind (hasanat, hasana or husna), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every good-deed record with corpus section, hasanat kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/mukatabat.json": {
+      "get": {
+        "operationId": "getMukatabat",
+        "summary": "Mukatabat Browser dataset",
+        "description": "The Mukatabat Browser dataset (متصفح المكاتبات): every mention of correspondence in the Qur'an, Sunnah, seerah and harvested books — the letters the Prophet sent to kings and emperors, the letters, replies and reports that came back, the caliphs' letters and the chancery institutions, and Sulayman's letter to the Queen of Sheba — detected at build time by a guarded lexicon plus the curated records tagged mukatabat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), mukatabat_kind (letter, mention), sender (prophetic, caliphal, royal, other), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every correspondence record with corpus section, mukatabat kind, sender, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/magic.json": {
       "get": {
         "operationId": "getMagic",
@@ -474,6 +534,21 @@
         "responses": {
           "200": {
             "description": "Every messenger/prophet mention record with corpus section, subjects, topics, work, ref, excerpt and edges, plus the subjects index",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/miracles.json": {
+      "get": {
+        "operationId": "getMiracles",
+        "summary": "Divine and Prophetic Miracles Browser dataset",
+        "description": "The Divine and Prophetic Miracles Browser dataset (متصفح المعجزات الإلهية ومعجزات الرسل): every mention of the divine miracles and the prophets' miracles in the Qur'an, Sunnah, seerah and harvested books — the miracle of the Qur'an, the Prophet's signs, the staff, the sea, the she-camel, the ark, the fire, the clay bird, the cradle speech, the heavenly table, Sulayman's signs, the dreams, the annunciation, the covenant chest, the cosmic signs and the destruction of the nations — detected at build time and joined to the canonical mentions edges, plus the curated miracles-browser records and the subjects index, each with its corpus section (quran, sunnah, seerah, books, curated), kind (event/sign/mention), subjects/topics chips, work, ref, text excerpt and edges.",
+        "responses": {
+          "200": {
+            "description": "Every miracle mention record with corpus section, kind, subjects, topics, work, ref, excerpt and edges, plus the subjects index",
             "content": {
               "application/json": {}
             }

@@ -1,0 +1,17 @@
+id: passage/bukhari-api-2236
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2236"
+label: { ar: "صحيح البخاري — حديث 2236", en: "Sahih al-Bukhari 2236 — Sales and Trade", ur: "صحیح بخاری — حدیث 2236" }
+text: "… وَيَسْتَصْبِحُ بِهَا النَّاسُ‏.‏ فَقَالَ ‏\"‏ لاَ، هُوَ حَرَامٌ ‏\"‏‏.‏ ثُمَّ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم عِنْدَ ذَلِكَ ‏\"‏ قَاتَلَ اللَّهُ الْيَهُودَ، إِنَّ اللَّهَ لَمَّا حَرَّمَ شُحُومَهَا جَمَلُوهُ ثُمَّ بَاعُوهُ فَأَكَلُوا ثَمَنَهُ ‏\"‏‏.‏ قَالَ أَبُو عَاصِمٍ حَدَّثَنَا عَبْدُ الْحَمِيدِ، حَدَّثَنَا يَزِيدُ، كَتَبَ إِلَىَّ عَطَاءٌ سَمِعْتُ جَابِرًا ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه …"
+summary:
+  ar: "في صحيح البخاري؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih al-Bukhari; sending a letter or message to a party."
+  ur: "صحیح بخاری میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2236 (book 34 hadith 182); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

@@ -17,6 +17,7 @@ translations:
   ur: { text: "بہانے مت بناؤ تم ایمان لانے کے بعد کافر ہو چکے ہو۔ اگر ہم تم میں سے ایک جماعت کو معاف کردیں تو دوسری جماعت کو سزا بھی دیں گے کیونکہ وہ گناہ کرتے رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

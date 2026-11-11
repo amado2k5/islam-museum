@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1461
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1461"
+label: { ar: "موطأ مالك — حديث 1461", en: "Muwatta Malik 1461 — Wills and Testaments", ur: "موطأ مالک — حدیث 1461" }
+text: "حَدَّثَنِي مَالِكٌ، عَنْ يَحْيَى بْنِ سَعِيدٍ، أَنَّ أَبَا الدَّرْدَاءِ، كَتَبَ إِلَى سَلْمَانَ الْفَارِسِيِّ أَنْ هَلُمَّ إِلَى الأَرْضِ الْمُقَدَّسَةِ فَكَتَبَ إِلَيْهِ سَلْمَانُ إِنَّ الأَرْضَ لاَ تُقَدِّسُ أَحَدًا وَإِنَّمَا يُقَدِّسُ الإِنْسَانَ عَمَلُهُ وَقَدْ بَلَغَنِي أَنَّكَ جُعِلْتَ طَبِيبًا تُدَاوِي فَإِنْ كُنْتَ تُبْرِئُ فَنِعِمَّا لَكَ وَإِنْ كُنْتَ مُتَطَبِّبًا فَاحْذَرْ أَنْ تَقْتُلَ إِنْسَانًا فَتَدْخُلَ النَّارَ ‏.‏ فَكَانَ أَبُو الدَّرْدَاءِ إِذَا قَضَى بَيْنَ اثْنَيْنِ ثُمَّ أَدْبَرَا …"
+summary:
+  ar: "في موطأ مالك؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Muwatta Malik; sending a letter or message to a party."
+  ur: "موطأ مالک میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/muwatta-malik] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1461 (book 37 hadith 7); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

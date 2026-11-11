@@ -1,0 +1,17 @@
+id: passage/muwatta-api-1517
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1517"
+label: { ar: "موطأ مالك — حديث 1517", en: "Muwatta Malik 1517 — Hudud", ur: "موطأ مالک — حدیث 1517" }
+text: "… أَحَدُهُمَا ‏.‏ قَالَ فَكَتَبَ إِلَىَّ عُمَرُ إِنْ عَفَا فَأَجِزْ عَفْوَهُ فِي نَفْسِهِ وَإِنِ افْتُرِيَ عَلَى أَبَوَيْهِ وَقَدْ هَلَكَا أَوْ أَحَدُهُمَا فَخُذْ لَهُ بِكِتَابِ اللَّهِ إِلاَّ أَنْ يُرِيدَ سِتْرًا ‏.‏ قَالَ يَحْيَى سَمِعْتُ مَالِكًا يَقُولُ وَذَلِكَ أَنْ يَكُونَ الرَّجُلُ الْمُفْتَرَى عَلَيْهِ يَخَافُ إِنْ كُشِفَ ذَلِكَ مِنْهُ أَنْ تَقُومَ عَلَيْهِ بَيِّنَةٌ فَإِذَا كَانَ عَلَى مَا وَصَفْتُ فَعَفَا …"
+summary:
+  ar: "في موطأ مالك؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Muwatta Malik; sending a letter or message to a party."
+  ur: "موطأ مالک میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/muwatta-malik] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1517 (book 41 hadith 18); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

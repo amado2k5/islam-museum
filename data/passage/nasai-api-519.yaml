@@ -1,0 +1,17 @@
+id: passage/nasai-api-519
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "519"
+label: { ar: "السنن النسائي — حديث 519", en: "Sunan al-Nasa'i 519 — The Book of the Times (of Prayer)", ur: "سنن النسائی — حدیث 519" }
+text: "أَخْبَرَنِي عَمْرُو بْنُ هِشَامٍ، قَالَ حَدَّثَنَا مَخْلَدُ بْنُ يَزِيدَ، عَنْ سُفْيَانَ الثَّوْرِيِّ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، عَنْ سُلَيْمَانَ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، قَالَ جَاءَ رَجُلٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَسَأَلَهُ عَنْ وَقْتِ الصَّلاَةِ فَقَالَ ‏\"‏ أَقِمْ مَعَنَا هَذَيْنِ الْيَوْمَيْنِ ‏\"‏ ‏.‏ فَأَمَرَ بِلاَلاً فَأَقَامَ عِنْدَ الْفَجْرِ فَصَلَّى الْفَجْرَ ثُمَّ أَمَرَهُ حِينَ زَالَتِ الشَّمْسُ فَصَلَّى الظُّهْرَ ثُمَّ أَمَرَه …"
+summary:
+  ar: "في السنن النسائي؛ ذكر ديوان أو بريد المراسلات."
+  en: "In Sunan al-Nasa'i; mention of the chancery or the barid post."
+  ur: "سنن النسائی میں؛ دیوآن یا بریڈ کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 519 (book 6 hadith 26); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }
