@@ -1,0 +1,14 @@
+ORACLE 03: every lesson is served in Arabic and English, at most three interactions from the courses home (statements 2 and 3)
+run at commit 7c3125e96a5b0373c7de1a56734445442187ea49 on 2026-11-12 05:39 UTC; baseline 800467e93e; uncommitted paths under data/ content/ site/ i18n/ scripts/courses/: 0
+
+/ar/: pages of the courses surface reached from the home within 3 interactions: 18
+/en/: pages of the courses surface reached from the home within 3 interactions: 18
+lessons in data/course: 16; lesson pages expected (Arabic + English): 32
+interactions from the home to a lesson, by search: 32 lessons at 2; the most: 2
+paths replayed with real taps in a fresh browser at 390 px: 32 of 32
+  [PASS] every lesson in the data is served by the new surface in Arabic and in English — 32 of 32
+  [PASS] every lesson is at most 3 interactions from the courses home (by search) — the most is 2
+  [PASS] every shortest path was performed with real taps and landed on its lesson — 32 of 32
+  [PASS] at 390 px every control of the surface is at least 44 px high (home, course map and a lesson, both languages)
+
+RESULT: GREEN (4 checks passed)

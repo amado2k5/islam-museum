@@ -1,0 +1,3 @@
+| id | file | where in the image | severity | defect |
+|---|---|---|---|---|
+| NR-1 | en-desktop-state-classroom-1, en-desktop-state-classroom-3, en-phone-state-classroom-1, en-phone-state-classroom-3, ar-desktop-state-classroom-1, ar-desktop-state-classroom-3, ar-phone-state-classroom-1, ar-phone-state-classroom-3 | classroom title strip, y about 15 to 45 | medium | The page title ("What is biodiversity?" / "ما التنوع الحيوي؟") in the new thin strip is cut by the curved lower edge of the hero: the bottoms of the letters and the question mark are sliced off, worst in en-phone-state-classroom-1 and -3. |
