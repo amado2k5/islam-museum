@@ -1,3 +1,9 @@
+---
+id: concept/hudud-allah-wal-kabair
+lang: en
+source_lang: ar
+translators: []
+---
 # The limits of God and the major sins
 
 The Qur'an speaks of the 'limits of God' (hudud Allah) at the points of its great rulings: in divorce, «these are the limits of God, so do not transgress them» (al-Baqara 229); in fasting, «these are the limits of God, so do not approach them» (al-Baqara 187); and it warns «whoever transgresses the limits of God has wronged himself» (al-Talaq 1) and «whoever transgresses the limits of God — it is those who are the wrongdoers» (al-Baqara 229). In the jurists' idiom, 'hadd' then became the name of a penalty fixed by the Law as due to God: the hadd of fornication, of slander, of theft, of wine, of apostasy and of brigandage, with the discretionary punishment and, for some, retaliation attached — the widening from the Qur'anic phrase to the fiqh chapters recorded by the Kuwaiti Fiqh Encyclopedia's hudud entry {cite:fiqh-mawsua-kuwaitiyya-noor-v3}.
