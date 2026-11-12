@@ -1,0 +1,20 @@
+id: person/abu-hashim-fadim
+class: person
+label: { ar: "أبو هاشم فديم", en: "Abu Hashim Fadim", ur: "ابو ہاشم فدیم" }
+names:
+  - { kind: full, lang: ar, value: "أبو هاشم فديم" }
+gender: male
+roles: [mystic]
+summary:
+  ar: "أبو هاشم فديم، من متقدمي البغداديين المعروفين بالنسك والتحقيق بالتصوف، جلس إليه سفيان الثوري فاستحسن طريقته، ولم يُحفظ من كلامه إلا ما حكاه عنه الثوري في ترك الرياء."
+  en: "Abu Hashim Fadim, one of the early Baghdadis known for ascetic practice and the realisation of Sufism; Sufyan al-Thawri sat with him and praised his way, and only what al-Thawri related of his words in leaving off show survives."
+  ur: "ابو ہاشم فدیم قدیم بغدادی زاہدوں میں سے تھے جو نسک اور تصوف کی تحقیق میں مشہور تھے۔ سفیان ثوری ان کی مجلس میں بیٹھے اور ان کے طریقے کو سراہا۔ ان کے کلام میں سے صرف وہ بات محفوظ ہے جو ثوری نے ریا چھوڑنے کے بارے میں نقل کی۔"
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: related_to, target: person/sufyan-al-thawri, note: "جلس إليه سفيان الثوري وحمد طريقته (حلية الأولياء 10/112).", sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/112", generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b41 }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 2 }
