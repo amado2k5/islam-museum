@@ -1802,4 +1802,13 @@ Resume point: ahl-al-hikma episode 21 (branch from origin/main).
 | Repetition loops, stray non-Arabic characters and garbled windows | ep21 00:01:00-00:01:30 (mixed-language lines), 00:04:00 (loop), 00:06:00 (a family anecdote), 00:14:30 (loop); ep22 00:00:30 (loop), 00:14:00 (loop); ep23 00:17:30-00:18:00 (stray characters), 00:11:00-00:11:30 (an anecdote about Umar and Ibn Abbas); ep24 00:05:30 (loop), 00:12:30 (loop), 00:14:00 (loop), 00:17:00-00:18:00 (stray characters) | Not speech or not recoverable | Loop check, Clarity | Open |
 | Political jests and asides about national affairs | ep24 00:11:30-00:12:00; ep23 00:14:00-00:14:30 (a remark on Egyptians and Israelites in the Qarun passage) | Garbled and not a lesson claim; the clear remarks are recorded as his opinion elsewhere | Clarity | Open |
 
-Resume point: ahl-al-hikma episode 25 (branch from origin/main).
+### ahl-al-hikma ep25-ep27 (12 Nov 2026)
+
+29 points written for episodes 25 to 27 (ar, en, ur); 23 needs_source marks. Series complete: episode 27 is the last of 27. Episode 25 is a near-duplicate of episode 24 (same aphorism and the same talk in both transcripts); it is written as a short repeat section with its own timestamps and flagged needs_source for the duplicate inference (not checked by listening). Proposal for the founder, not applied: ep27 00:02:00-00:03:00 holds a sweeping unsourced remark about the Shia and the Khawarij; the record stays `sensitivity: contested` and the remark is described, not reproduced, as his claim.
+
+| Excluded (ahl-al-hikma ep25-27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Presenter's greetings, break announcements, opening Quran recitation, closing supplications and sign-offs | ep25 00:00:00-00:00:30, 00:08:00-00:08:30, 00:14:30-00:15:30; ep26 00:00:00-00:00:30, 00:08:30-00:09:00, 00:15:00-00:16:00; ep27 00:00:00-00:01:00, 00:10:00-00:10:30, 00:16:00-00:17:00 | Not lesson content (the recitation is Quran text, never typed) | Content rule, Quran rule | Open |
+| Repetition loops and garbled windows | ep25 00:04:30 (loop), 00:09:30 (loop); ep26 00:05:30-00:06:00 (loop), 00:11:00-00:11:30 (loop), 00:14:00 (partial loop); ep27 00:01:30 (long loop), 00:03:30 (partial loop), 00:05:00 (partial loop), 00:09:00 (loop), 00:14:30 (loop) | Not speech or not recoverable | Loop check, Clarity | Open |
+| Repeated stretches already written in episode 24 | ep25 00:02:00-00:08:30 (parts), 00:11:30-00:14:30 | Same content as ep24, not duplicated beyond the repeat section | Duplication | Open |
+| National-pride aside on the Egyptian army | ep27 00:11:00-00:11:30 | Not a lesson claim | Content rule | Open |
