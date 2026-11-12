@@ -95,3 +95,6 @@
 
 ## Batch 20 (run microsd-books-b28, Claude Code / claude-fable-5-2)
 - Pages read: vol. 9 pp. 383–389. Enriched `person/dhu-al-nun-al-misri` (456, to 9/389). The notice runs to about 9/395; 9/390–395 not yet read.
+
+## Batch 21 (run microsd-books-b29, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 390–395. Enriched `person/dhu-al-nun-al-misri`: notice 456 complete at about 9/395. The cosmic poem on 9/390–391 is described, not quoted. The hadith referred to on 9/394 is described, not quoted.
