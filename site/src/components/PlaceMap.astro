@@ -7,11 +7,12 @@
 // people and events around a place. Its data is fetched on demand from /<lang>/place-map/*.json
 // (site/src/pages/[lang]/place-map/[file].json.ts); nothing but the picture and the index is in the HTML.
 // Styles are the plain file site/public/shell/place-map.css, linked from the wing page's head only, so that no other
-// page's HTML changes when the map does (docs/site/README.md, "site-wide numbers").
+// page's HTML changes when the map does. The script, the styles and the data are each asked for with a fingerprint of
+// their content (?v=…), so a page is always run by the script and fed by the data it was built with (docs/site/README.md, "site-wide numbers").
 // Requirements: docs/engineering/19-islam-map-requirements.md. Review and decisions: docs/site/place-map-review.md.
 import { ui, NUM_LOCALE, type Lang } from "../lib/i18n";
 import { labelOf, realNodes } from "../lib/graph";
-import { allRelationTypes, dataVersion, dotPaths, ELSEWHERE, H, placeIndex, placeMapModel, REGION_IDS, relationLabels, SHARDS, W } from "../lib/place-map";
+import { allRelationTypes, assetVersion, dataVersion, dotPaths, ELSEWHERE, H, placeIndex, placeMapModel, REGION_IDS, relationLabels, SHARDS, W } from "../lib/place-map";
 import { wholeYears } from "../lib/place-map-core";
 
 interface Props { lang: Lang }
@@ -165,4 +166,4 @@ const ICON = {
   )}
 </section>
 <script type="application/json" id="pm-config" set:html={JSON.stringify(config).replace(/</g, "\\u003c")}></script>
-<script is:inline src="/shell/place-map.js" defer></script>
+<script is:inline src={`/shell/place-map.js?v=${assetVersion("place-map.js")}`} defer></script>

@@ -14,6 +14,7 @@
   if (!root || !cfgEl || !window.fetch || !window.PointerEvent || !window.ResizeObserver || !window.Intl) return;
   var C;
   try { C = JSON.parse(cfgEl.textContent); } catch (e) { return; }
+  var VER = C.v ? "?v=" + C.v : "";
   var T = C.t, RTL = C.dir === "rtl", W = C.W, H = C.H, ELSE = C.regions.length - 1, K_MAX = 90, K_PLACE = 26;
 
   // ---------- small helpers ----------
@@ -220,8 +221,10 @@
     if (retry) { var b = h("button", null, T.retry); b.type = "button"; b.addEventListener("click", retry); statusEl.appendChild(b); }
   }
   function load(name) {
-    // The page names the build its data belongs to (C.v), so a cached file from an older build is never paired with a newer page.
-    if (!files[name]) files[name] = fetch(C.base + name + ".json?v=" + C.v).then(function (r) { if (!r.ok) throw new Error(String(r.status)); return r.json(); }).catch(function (e) { delete files[name]; throw e; });
+    // The page names the build its data belongs to (C.v), so a cached file from an older build is never paired with a
+    // newer page. (The page asks for this script by its own fingerprint too, so the two always belong together; a page
+    // from before the fingerprints existed has no C.v and is simply asked for without one.)
+    if (!files[name]) files[name] = fetch(C.base + name + ".json" + VER).then(function (r) { if (!r.ok) throw new Error(String(r.status)); return r.json(); }).catch(function (e) { delete files[name]; throw e; });
     return files[name];
   }
   function loadPlaces() {

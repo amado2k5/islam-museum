@@ -323,6 +323,23 @@ export function dataVersion(lang: Lang): string {
   return v;
 }
 
+const assetVersions = new Map<string, string>();
+/**
+ * A short fingerprint of one of the map's two plain files under site/public/shell/. The page asks for
+ * `/shell/place-map.js?v=…` and `/shell/place-map.css?v=…`, so a page always runs the script and wears the styles it
+ * was built with: the shell files may be kept by a browser for a while (site/public/_headers), and a page that names
+ * its data's version must not be run by an older script that does not know of it. Only the three Place pages name
+ * these files, so an edit to either re-uploads those three pages and nothing else.
+ */
+export function assetVersion(file: "place-map.js" | "place-map.css"): string {
+  let v = assetVersions.get(file);
+  if (!v) {
+    v = createHash("sha256").update(readFileSync(repoPath("site", "public", "shell", file))).digest("hex").slice(0, 10);
+    assetVersions.set(file, v);
+  }
+  return v;
+}
+
 /** Every relation that can appear in those files, for the page's label table. */
 export function allRelationTypes(): string[] {
   const m = placeMapModel();

@@ -129,7 +129,8 @@ describe("place map: what the script does on a reader's device", () => {
   it("fetches only the page's own static JSON files", () => {
     const calls = [...script.matchAll(/\bfetch\(([^)]*)\)/g)].map((m) => m[1]);
     // one request shape only: a file beside the page, stamped with the page's own data version
-    expect(calls).toEqual(['C.base + name + ".json?v=" + C.v']);
+    expect(calls).toEqual(['C.base + name + ".json" + VER']);
+    expect(script).toContain('var VER = C.v ? "?v=" + C.v : "";');
     // the only address in the file is the SVG namespace, which names a format and is never requested
     expect(script.replaceAll("http://www.w3.org/2000/svg", "")).not.toMatch(/XMLHttpRequest|WebSocket|EventSource|sendBeacon|https?:\/\//);
   });
@@ -144,6 +145,21 @@ describe("place map: what the script does on a reader's device", () => {
     expect(script).toContain("prefers-reduced-motion");
     expect(styles).toMatch(/:root\[data-theme="dark"\] \.pm/);
     expect(styles).toMatch(/@media \(prefers-color-scheme: dark\)/);
+  });
+});
+
+describe("place map: a page, its script, its styles and its data come from one build", () => {
+  const component = readFileSync(new URL("../site/src/components/PlaceMap.astro", import.meta.url), "utf8");
+  const wingPage = readFileSync(new URL("../site/src/pages/[lang]/[hall]/index.astro", import.meta.url), "utf8");
+  it("asks for the script and the stylesheet by a fingerprint of their content", () => {
+    expect(component).toContain('src={`/shell/place-map.js?v=${assetVersion("place-map.js")}`}');
+    expect(wingPage).toContain('href={`/shell/place-map.css?v=${assetVersion("place-map.css")}`}');
+    // never by the bare name: a browser may still hold an older copy under it
+    expect(component + wingPage).not.toMatch(/["'`]\/shell\/place-map\.(js|css)["'`]/);
+  });
+  it("names the data's version in the page and preloads the very address the script will ask for", () => {
+    expect(component).toContain("v: dataVersion(lang)");
+    expect(wingPage).toContain("place-map/places.json?v=${dataVersion(lang)}");
   });
 });
 
