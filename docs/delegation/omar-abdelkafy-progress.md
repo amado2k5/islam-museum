@@ -2070,3 +2070,15 @@ Next step: episode 23.
 | Openings, greetings, break announcements, supplications and the long closing prayer | ep22 00:00:00–00:01:00, 00:16:00–00:17:00, 00:31:00–00:33:00 | Not lesson content | Content rule | Open |
 | Repetition loops and garbled windows | ep22 00:06:30, 00:07:30, 00:13:30, 00:17:30, 00:22:00, 00:23:00–00:24:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Poetry quoted | ep22 00:03:00–00:03:30 | Not reproduced | Sources policy | Open |
+
+### ajaeb-al-kulub ep28-ep29 (12 Nov 2026) - series complete
+
+9 points written for episodes 28 and 29 (ar, en, ur); 6 needs_source marks. Episodes 28 and 29 are near-duplicates of episode 27 (the three transcripts match almost word for word): they are written as short repeat sections with their own timestamps and flagged needs_source, the cause (duplicate recordings or a repeated talk) not checked by listening. Series total: 29 episodes, 226 points, 116 needs_source marks, 67 `about` edges, record `work/ajaeb-al-kulub` (status draft, sensitivity contested, decision dec-20261112-267). Three episodes (11, 28, 29) are repeats and may point to mislabelled archive entries; the founder may wish the archive page checked.
+
+| Excluded (ajaeb-al-kulub ep28-29) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep28 00:00:00, 00:05:00 (supplication), 00:05:30; ep29 00:00:00, 00:05:00 (supplication), 00:05:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep28 00:02:30 (a very long loop of one syllable), 00:03:00 (a very long loop in the Ibn Abbas story); ep29 00:03:30 (a very long loop of one letter) | Not speech or not recoverable | Loop check, Clarity | Open |
+| Repeated stretches of episode 27 | ep28 and ep29 whole (written once each as short repeat sections) | Same content as ep27 | Duplication | Open |
+
+Resume point: none; ajaeb-al-kulub is complete (29 of 29). Branch from origin/main for any follow-up.
