@@ -1,0 +1,19 @@
+---
+id: person/ibrahim-ibn-sad-al-mulawi
+lang: en
+source_lang: ar
+translators: ["Claude Code, claude-fable-5-2, translation"]
+status: { review: draft }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b69, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/155-158" }
+---
+## Summary
+Ibrahim ibn Sa'd al-Mulawi was known for signs and marked by marvels. [[person/abu-nuaym-al-asbahani-ahmad|Abu Nu'aym]] gives him a notice in the tenth volume of [[work/hilyat-al-awliya|Hilyat al-Awliya]], printed number 524, sequence 525, on pages 155 to 158. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/155} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/158}
+
+## Out onto the sea
+Abu al-Harith al-Awlasi relates that he left the fortress of Awlas for the sea, and a companion said: do not go, I have prepared an omelette for you to eat. He sat and ate, then went down to the shore and found Ibrahim ibn Sa'd standing in prayer. He thought Ibrahim would ask him to walk with him on the water; when Ibrahim had finished his prayer he said: now, Abu al-Harith, walk on the thought. He said: in God's name, and Ibrahim walked on the water; when he himself tried, his foot sank, and Ibrahim turned and said: the deep water has taken hold of your foot. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/156}
+
+## The three on the mountain
+Al-Awlasi relates that he left Mecca outside the season of pilgrimage, heading for Syria, and found three men on a mountain talking about the world. When they had finished, they bound themselves to God not to touch gold or silver. He said: I am with you too. Then they parted; one of them was Ibrahim ibn Sa'd. After some days he waited for a letter, then one day found him at Awlas praying on the sea. When he greeted him, Ibrahim rebuked him and told him to keep away for three days without eating, then come back. He did so, and on returning found Ibrahim praying briefly; Ibrahim took his hand, stood him at the sea, and moved his lips, and fish came toward them with their heads raised and mouths open. Ibrahim asked where Abu Bishr the fisherman of Awlas was, and the fish scattered as if a stone had passed through them. He then told him: you are not asked for this matter; keep to the sands and the mountains, hide your person as far as you can, and be sparing of the world until God's command comes, for I see you pressed toward it. He disappeared and was not seen again until he died. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/156} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/157}
+
+## The letter after his death
+After his death, al-Awlasi went to the sea and met a black man who asked: are you Abu al-Harith? He said yes. The man said: may God reward you for your brother Ibrahim ibn Sa'd, whose name was Wadih, a client of Ibrahim, who said Ibrahim had told him to deliver a letter. It said: when a matter comes to you of poverty, sickness or harm, seek help from God, and practise contentment with what God decrees, for God sees you and His judgement must take effect; if you are content, the reward is great and you are safe from a terrible fear; if you cannot find contentment, then bear it, and do not complain to one who is not fit to be complained to. Know that everything has a cause, each cause has a term, and every care for God's sake has a relief, soon or late. Beware of binding your heart to a creature with fear or hope, of telling him your secret, or relying on his friendship, for the rich among them are poor in their riches, the poor among them are humbled in their poverty, and the learned among them are ignorant in their knowledge, save a few whom God protects. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/157} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/158}

@@ -471,3 +471,17 @@
 | 522 (printed) | 155 | the epithet "شروانى القلب والطرف" | garbled in the scan | not given |
 | 522 (printed) | 155 | the honorific form in Muharib's reply | the museum never types honorifics | omitted |
 | 523 (printed) | 155 | the name of Abu al-Abbas al-Thaqafi | legible; given as read | no flag |
+
+## Batch 69 (run microsd-books-b69, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 155–159 (full text read before writing). New draft, printed number kept with the sequence number noted: person/ibrahim-ibn-sad-al-mulawi (printed 524, sequence 525, 10/155–158). The notice's letter ends at the top of page 158; the text on page 159 belongs to the next printed notice.
+- Flag for the coordinator (possible duplicates, not acted on): (a) printed 525, Abu Muhriz, has a chain that matches notice 491 (Abu Mahriz al-Tufawi) almost name for name (Awn ibn Hamara, Muhammad ibn al-Husayn al-Barjalani, Abu Bakr ibn Ubayd). It may be a second notice on the same person, to be merged as an alias or an added citation, or a separate person; not decided here. (b) A heading on page 158 reads "٥٣٧" (printed notice numbering off) and names Miskin al-Sufi again, with a saying of Ibrahim ibn Adham about the two sorrows, which is a second report on the subject of notice 487. Also flagged, not acted on.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 69)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 524 (printed) | 156 | "المجة أخذت برجلك" | the word is unclear in the scan; "اللجة" (deep water) is the likely reading | rendered as deep water; the prose gives the reading as the likely one |
+| 524 (printed) | 157 | the name of the man who brought the letter ("واضحا") | read as Wadih, a client of Ibrahim; the spelling is uncertain | given as Wadih, flagged for revision |
+| 524 (printed) | 156 | "إبراهيم بن سعد العلوي" | the nisba is read as "العلوي" | given as read; the record uses the name only |
+| 524 (printed) | 157 | the claim that the letter is Ibrahim's own words | the letter is attributed by the report to Ibrahim | the attribution is stated as the report's, not as a verified text |
