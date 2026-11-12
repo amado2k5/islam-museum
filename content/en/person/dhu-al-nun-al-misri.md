@@ -118,3 +118,22 @@ Abu Nu'aym continues Dhu al-Nun's sayings and anecdotes on pages 369–375 of th
 **Servants who saw and acted.** He said that God has servants who saw and then looked, understood and then knew, knew and then acted, acted and then benefited; the veil was lifted between them and Him, and they looked with the sight of their hearts at what is stored for them in the hidden of the unseen; they cut off every veil, and He was their aim and their goal. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/374}}
 
 **At the Kaaba.** He tells that he was performing the circumambulation of the Kaaba when he saw a man clinging to its curtains, weeping and saying: I kept my affliction from anyone but You, I confided my secret to You, I was occupied with You over what is other than You. He then recited verses on the sweetness of union that increases longing. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/375}}
+
+## In Hilyat al-Awliya (seventh continuation)
+Abu Nu'aym continues Dhu al-Nun's sayings on pages 376–382 of the ninth volume. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/376-382}}
+
+**The rights of a companion.** He said that whoever humbles himself meets with moisture and fruit, and whoever exalts himself meets with ruin. The right of a companion is to gladden him, and if you cannot, at least not to grieve him. In this age, he said, no one wins the love of people except one who is light to them in burdens and speaks well of them. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/376}}
+
+**Love and affection.** He said that love for God is general, and affection for God is particular, because every believer tastes His love, but not every believer attains His affection. Whoever loves solitude with other than God is moved only by fear of God. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/377}}
+
+**Intimacy with God.** He said that intimacy with God is a bright light, and its sign is that He makes you feel estranged from His creatures and at home with Himself. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/377-378}}
+
+**Sincerity.** Asked how the servant finds deliverance, he said: deliverance is in sincerity, and when he is sincere he is delivered. The sign of sincerity is that you carry no companionship with creatures and no fear of their blame. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/378}}
+
+**Keys and doors.** He said that one does not reach keys by doors, but reaches doors by keys. Whoever completes the obligation has completed fear; whoever brings supererogatory acts has brought hope; whoever occupies his heart and tongue with remembrance, God casts into his heart the light of longing for Him. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/379}}
+
+**Those whose state is balanced.** He described people whose secrets are with God, whose hearts are humbled before Him, whose tears tell of their burning when they are grieved, who have closed the gaps of passion with the sweetness of intimate prayer, so that heedlessness has no entrance to them. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/380}}
+
+**The witness of the heart.** He said: my heart bears witness to God through what befalls it, and how could it not bear witness when all their affairs are with You? Is it that one who trusts in God should let his heart take to other than Him? Far, far; the negligent have been ruined before You. When a disciple complained that the time had dragged, he said: I have seen you bring a great fear, but what has passed from my heart is not the fear you think. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/381}}
+
+**Wisdom and the world.** He said that the beacon of wisdom is the Book of God and its proof, and that the world with its adornment seats the seeker and distracts the heedless, so that the seeker does not seek his cure and the heedless does not know his disease. Then God chose some of His creatures and gave them knowledge of His wisdom, so they looked with the eyes of their hearts at what was veiled, and their spirits roamed in the realm of the heavens. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/382}}
