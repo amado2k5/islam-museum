@@ -444,3 +444,17 @@
 | 517 (printed) | 153 | the copying young man's name | the text gives no name | the notice is kept as an epithet record; no name supplied |
 | 518 (printed) | 153 | "خوفا من المملة" | read as "الملامة" (blame) in the prose; "المملة" is the scan's reading | the prose renders the fear as of blame, a reading flagged for revision |
 | 518 (printed) | 153 | one word describing the fear | unclear in the scan | not given |
+
+## Batch 67 (run microsd-books-b67, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 153–154 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/al-daylami-al-masloub (printed 519, sequence 520, 10/153; epithet-only, laqab), person/umayya-ibn-al-samit (printed 520 in the scan as "530", sequence 521, 10/154). Printed 521 (Hilal ibn al-Wazir, who prays for God's witnessing and reads the verse on what God knows of the people) begins on 10/154 and is next.
+- Flag for the coordinator: the scan prints the heading of notice 520 as "530"; it is read here as 520 by sequence, and the printed series is one behind the sequence as before.
+- The al-Daylami vision is described only by its effect (the need for ritual washing); its detail is omitted as not appropriate to render. Qur'an verses in Umayya's account are referred to by sense only.
+
+## Exclusions and garbled readings (batch 67)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 519 (printed) | 153 | the vision's detail | the detail is not rendered | the effect of the vision (the need for washing) is stated; the detail is omitted |
+| 519 (printed) | 153 | the name of the narrator's sheikh | the scan gives an unnamed sheikh | "the sheikh" stated; no name supplied |
+| 520 (printed as 530) | 154 | the heading number | misprinted as "530" in the scan | read as 520 by sequence; flagged for the coordinator |
+| 520 (printed as 530) | 154 | a phrase in the weeping account | garbled in the scan | not given |
