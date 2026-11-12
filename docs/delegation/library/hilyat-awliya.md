@@ -107,3 +107,7 @@
 
 ## Batch 24 (run microsd-books-b32, Claude Code / claude-fable-5-2)
 - Pages read: vol. 10 pp. 62–67. Enriched `person/yahya-ibn-muadh-al-razi` (463, to 10/67). Notice continues from 10/68 to about 72.
+
+## Batch 25 (run microsd-books-b33, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 68–70. Enriched `person/yahya-ibn-muadh-al-razi`: notice 463 complete at about 10/70. A new notice heading (OCR "٣٦٤ سعيد بن العباس الرازي", i.e. almost certainly notice 464, Sa'id ibn al-Abbas al-Razi) begins on 10/70. It is not in the queue and needs a separate lead; 10/71–72 belong to it.
+- Correction to the queue: notice 463 ends at about 10/70, not 72.
