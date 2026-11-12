@@ -3,8 +3,9 @@ class: event
 kind: revelation
 label: { en: "The first revelation", ar: "بدء الوحي في غار حراء" }
 summary:
-  en: "The descent of Jibril upon the Prophet in the cave of Hira with the opening verses of surat al-Alaq — on the night of Monday 21 Ramadan in the book's preferred reckoning, corresponding to 10 August 610 CE, when the Prophet was forty lunar years, six months and twelve days old."
-  ar: "نزول جبريل على النبي في غار حراء بأوائل سورة العلق — ليلة الإثنين الحادي والعشرين من رمضان في ترجيح الكتاب، الموافق 10 أغسطس 610م، وعمره إذ ذاك أربعون سنة قمرية وستة أشهر واثنا عشر يوماً."
+  en: "The descent of Jibril upon the Prophet in the cave of Hira with the opening verses of surat al-Alaq, on the night of Monday 21 Ramadan in the book's preferred reckoning, corresponding to 10 August 610 CE, when the Prophet was forty lunar years, six months and twelve days old. The Encyclopaedia of Islam summarises the Muslim accounts of this first revelation and of the experience of wahy, and sets beside them the academic view that the traditional stories of a first revelation are doubtful."
+  ar: "نزول جبريل على النبي في غار حراء بأوائل سورة العلق، ليلة الإثنين الحادي والعشرين من رمضان في ترجيح الكتاب، الموافق 10 أغسطس 610م، وعمره إذ ذاك أربعون سنة قمرية وستة أشهر واثنا عشر يوماً. وتلخص دائرة المعارف الإسلامية الروايات الإسلامية عن هذا الوحي الأول وعن تجربة الوحي، وتضع إلى جانبها الرأي الأكاديمي القائل إن القصص التقليدية عن وحي أول مشكوك فيها."
+  ur: "غارِ حرا میں نبی پر جبریل کا سورۃ العلق کی ابتدائی آیات کے ساتھ نزول، کتاب کی ترجیح کے مطابق پیر کی رات 21 رمضان، جو 10 اگست 610ء کے مطابق ہے، جب نبی کی عمر چالیس قمری سال، چھ ماہ اور بارہ دن تھی۔ دائرۃ المعارف الاسلامیہ اس پہلی وحی اور وحی کے تجربے کی اسلامی روایتیں خلاصے کے طور پر دیتی ہے اور ان کے ساتھ یہ علمی رائے رکھتی ہے کہ پہلی وحی کے روایتی قصے مشکوک ہیں۔"
 wings: [time]
 themes: [scripture-and-its-sciences, prophets]
 periods: [period/prophetic-era]
@@ -23,7 +24,7 @@ relations:
   - { type: part_of, target: period/prophetic-era }
   - { type: mentions, target: person/jibril, sources: [source/ibn-ishaq-guillaume] }
   - { type: mentions, target: concept/malaika, sources: [source/ibn-ishaq-guillaume] }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/sahih-muslim, source/assabile-abu-ishaq-alheweny]
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/sahih-muslim, source/assabile-abu-ishaq-alheweny, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "نزل الوحي على النبي في غار حراء، وكان أول ما نزل عليه الأمرُ بالقراءة."
@@ -39,5 +40,6 @@ provenance:
   generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 65-68"
   model: claude-sonnet-5-5
   run: showcase-prose-phase3-batch1
+  canon: "Encyclopaedia of Islam 2, vol. 11 art. Wahy pp. 61-64, vol. 7 art. Muhammad pp. 413-415, vol. 5.1 art. al-Kur'an pp. 440-441 and 453-454, written by Claude Sonnet 5.5, run canon-cornerstones-19"
 importance: 1
 status: { review: published, completeness: 3, generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 65-68; Phase 3 batch 2 checked the date and age against al-Raheeq al-Makhtum p. 64 (Monday, 21 Ramadan, 10 August 610 CE, age 40 lunar years, six months and twelve days) and noted its alternative of Monday 11 Ramadan (p. 66), which the date field's debated status already covers" }

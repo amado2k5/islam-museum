@@ -3,8 +3,9 @@ class: event
 kind: battle
 label: { en: "The Battle of Uhud", ar: "غزوة أحد" }
 summary:
-  en: "A battle near Mount Uhud in which the Quraysh gained the upper hand and Hamza, the Prophet's uncle, was killed."
+  en: "A battle fought near Mount Uhud, about five kilometres north of Medina, between the Muslims under the Prophet and a Meccan force led by Abu Sufyan, after the defeat at Badr. Traditional accounts date it to Shawwal of year 3. The Muslims did well at first, but the archers left their position, Khalid ibn al-Walid's cavalry turned the battle, and perhaps 65 to 70 Muslims died, among them Hamza; the Meccans withdrew towards Mecca. The Encyclopaedia of Islam gives this synopsis and discusses how far the accounts can be relied on."
   ar: "معركة قرب جبل أحد تفوّقت فيها قريش واستشهد فيها حمزة عم النبي. ومن أخبارها في صحيح البخاري: جعل النبي عبد الله بن جبير على الرماة فلما تركوا موضعهم أصاب المشركون من المسلمين سبعين، وقال أبو سفيان يومئذ «يوم بيوم بدر والحرب سجال» {cite:sahih-al-bukhari 3039}، وقول النبي لسعد بن أبي وقاص «ارم فداك أبي وأمي» {cite:sahih-al-bukhari 3725}، وصعوده أحد مع أبي بكر وعمر وعثمان فلما رجف بهم الجبل قال «اسكن أحد فليس عليك إلا نبي وصديق وشهيدان» {cite:sahih-al-bukhari 3697} ومنها أيضاً أن فاطمة كانت تغسل جرحه وعلي يسكب الماء بالمجن حتى ألصقت به قطعة حصير محرقة فاستمسك الدم وكسرت رباعيته {cite:sahih-al-bukhari 4075}، وأنه كان يجمع بين الرجلين من القتلى في ثوب واحد ويسأل «أيهم أكثر أخذاً للقرآن» فيقدمه في اللحد وأمر بدفنهم بدمائهم لم يغسلوا ولم يصل عليهم {cite:sahih-al-bukhari 4079}، ورؤياه السيف الذي انقطع صدره فكان ما أصيب به المؤمنون ثم هزه فعاد أحسن ما كان {cite:sahih-al-bukhari 4081}."
+  ur: "احد مدینہ کے شمال میں تقریباً پانچ کلومیٹر پر واقع پہاڑ ہے جس کے قریب بدر کی شکست کے بعد نبی کی قیادت میں مسلمانوں اور ابو سفیان کی سربراہی میں اہلِ مکہ کے درمیان جنگ ہوئی۔ روایتی بیانات اسے تیسرے سال کے شوال میں رکھتے ہیں۔ مسلمان شروع میں غالب رہے، پھر تیر اندازوں نے اپنی جگہ چھوڑی، خالد بن الولید کے سواروں نے جنگ کا رخ پلٹ دیا اور شاید پینسٹھ سے ستر مسلمان شہید ہوئے، جن میں حمزہ بھی تھے؛ اہلِ مکہ مکہ کی طرف لوٹ گئے۔ دائرۃ المعارف الاسلامیہ یہ خلاصہ دیتا ہے اور روایات کی قابلِ اعتمادی پر بحث کرتا ہے۔"
 wings: [time]
 themes: [battles, desertions-defections-withdrawals]
 periods: [period/prophetic-era]
@@ -40,7 +41,7 @@ map:
     - { type: line, role: march, side: 1, from: [21.4225, 39.8262], to: [24.492, 39.596], label: { ar: "مسير جيش قريش من مكة", en: "Quraysh army's march from Mecca" }, precision: schematic, source: source/mubarakpuri-raheeq }
     - { type: line, role: retreat, side: 0, from: [24.503, 39.607], to: [24.505, 39.617], label: { ar: "انسحاب المسلمين المنظم إلى شعب الجبل", en: "The Muslims' ordered withdrawal into the shi'b" }, precision: schematic, source: source/mubarakpuri-raheeq }
 external_ids: { wikidata: "Q488278" }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy, source/sira-nabawiyya-sallabi]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy, source/sira-nabawiyya-sallabi, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "في أحد جعل النبي خمسين رامياً على جبل الرماة وأمرهم ألا يفارقوا مواقعهم؛ فلما نزلوا قبل الأوان دارت المعركة على المسلمين."
@@ -56,4 +57,5 @@ provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added al-Sallabi's lessons section from source/sira-nabawiyya-sallabi pp. 512-524"
   layer: own-research
   source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  canon: "EI2 vol. 10, article Uhud, PDF p. 837, written by Claude Sonnet 5.5, run canon-cornerstones-19"
   generated_by: Devin
