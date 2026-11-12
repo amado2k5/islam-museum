@@ -47,7 +47,7 @@ def main():
     if args[0] == "--list":
         tmp = os.path.join(ROOT, ".cache", "curricula", "_list")
         os.makedirs(tmp, exist_ok=True)
-        d = get(f"{API}?system.type=l2___course&{Q}&depth=0", os.path.join(tmp, "courses.json"))
+        d = get(f"{API}?system.type=l2___course&{Q}&depth=0", os.path.join(tmp, f"courses-{os.getpid()}.json"))  # one file per caller: a fleet lists at the same moment
         pat = args[1].lower() if len(args) > 1 else ""
         for n in sorted(it["system"]["name"] for it in d["items"]):
             if pat in n.lower():
@@ -75,17 +75,24 @@ def main():
             for ocn in el(scn, "overall_expectations") or []:
                 ov = {"code": text(el(ocn, "title_index")), "title": text(el(ocn, "title")), "text": text(el(ocn, "content")), "specific": []}
                 for pcn in el(ocn, "specific_expectations") or []:
-                    ov["specific"].append({"code": text(el(pcn, "title_index")), "text": text(el(pcn, "content"))})
+                    code = text(el(pcn, "title_index"))
+                    if code:  # the service holds empty placeholder items under strands that have overall expectations only
+                        ov["specific"].append({"code": code, "text": text(el(pcn, "content"))})
                 st["overall"].append(ov)
             strands.append(st)
+    # the curriculum document this course belongs to, as the Ministry names it (for the source record)
+    cur = {}
+    for cn in course["elements"].get("part_of", {}).get("value", []):
+        if mc.get(cn, {}).get("system", {}).get("type") == "ui___curriculum_view":
+            cur = {"title": text(el(cn, "title")), "url_slug": el(cn, "url_slug"), "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/" + (el(cn, "url_slug") or "")}
     grade = [g["name"] for g in course["elements"].get("site___grade", {}).get("value", [])]
     official = {"course": text(course["elements"]["name"]["value"]), "ministry_name": name, "grade": grade, "last_modified": course["system"].get("last_modified"), "strands": strands}
     json.dump(official, open(os.path.join(out, "official.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     sha = lambda f: hashlib.sha256(open(os.path.join(out, f), "rb").read()).hexdigest()
     n_spec = sum(len(o["specific"]) for s in strands for o in s["overall"])
     manifest = {
-        "slug": slug, "authority": "Ontario Ministry of Education", "ministry_course_name": name, "course": official["course"], "grade": grade,
-        "retrieved_utc": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "slug": slug, "authority": "Ontario Ministry of Education", "curriculum": cur, "course_code": text(course["elements"].get("code", {}).get("value", "")), "ministry_course_name": name, "course": official["course"], "grade": grade,
+        "retrieved_utc": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "addresses": {"courses.json": list_url, "course.json": course_url},
         "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
         "ministry_last_modified": official["last_modified"],

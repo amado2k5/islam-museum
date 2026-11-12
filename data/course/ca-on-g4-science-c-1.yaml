@@ -1,0 +1,57 @@
+id: course/ca-on-g4-science-c-1
+class: course
+kind: lesson
+label:
+  en: How light travels
+  ar: كيف ينتقل الضوء
+  ur: روشنی کیسے سفر کرتی ہے
+summary:
+  en: 'Where light comes from and how it behaves: it travels in a straight path and can be reflected (C2.1, C2.3).'
+  ar: 'من أين يأتي الضوء وكيف يسلك: ينتقل في مسار مستقيم ويمكن أن ينعكس، التوقعان C2.1 وC2.3.'
+  ur: 'روشنی کہاں سے آتی ہے اور کیسے برتاؤ کرتی ہے: وہ سیدھے راستے پر سفر کرتی ہے اور منعکس ہو سکتی ہے، توقعات C2.1 اور C2.3۔'
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g4-science-c
+expectations:
+- code: C2.1
+  text:
+    en: identify a variety of natural and artificial light sources
+    ar: تعرَّف إلى مجموعة متنوعة من مصادر الضوء الطبيعية والصناعية
+    ur: روشنی کے قدرتی اور مصنوعی ذرائع کی مختلف اقسام کی نشاندہی کریں
+- code: C2.3
+  text:
+    en: describe properties of light, including that light travels in a straight path and that light can be absorbed, reflected, and refracted
+    ar: صِف خصائص الضوء، ومنها أنه ينتقل في مسار مستقيم وأنه يمكن أن يُمتصّ وينعكس وينكسر
+    ur: روشنی کی خصوصیات بیان کریں، بشمول یہ کہ روشنی سیدھے راستے پر سفر کرتی ہے اور جذب، منعکس اور منعطف ہو سکتی ہے
+connections:
+- position: before
+  kind: scholar
+  title:
+    en: Three states of light
+    ar: ثلاثة أحوال للضوء
+    ur: روشنی کی تین حالتیں
+  text:
+    en: 'Optics is the study of light and vision. The editor of the Kitab al-Manazir notes that the Greeks treated optics as a branch of mathematics, while Ibn al-Haytham made it a mixed science of natural and mathematical kinds and studied light in three states: travelling in straight lines, reflection and refraction. Which of these three have you already seen in everyday life?'
+    ar: 'البصريات علم الضوء والإبصار. يرى محقق «كتاب المناظر» أن البحث في البصريات كان عند اليونان أحد فروع الرياضيات، فجعله ابن الهيثم علمًا مركّبًا من العلوم الطبيعية والتعليمية، ودرس فيه أحوال الضوء الثلاثة: الإشراق على الاستقامة والانعكاس والانعطاف. أي هذه الأحوال الثلاثة رأيته في حياتك اليومية؟'
+    ur: 'بصریات روشنی اور بینائی کا علم ہے۔ «کتاب المناظر» کا مدیر لکھتا ہے کہ یونانیوں کے ہاں بصریات ریاضی کی ایک شاخ تھی، جبکہ ابن الہیثم نے اسے قدرتی اور ریاضیاتی علوم سے مل کر بنا علم بنایا اور روشنی کی تین حالتوں کا مطالعہ کیا: سیدھا سفر، انعکاس اور انعطاف۔ ان تینوں میں سے کون سی آپ روزمرہ زندگی میں دیکھ چکے ہیں؟'
+  entity: concept/optics
+  sources:
+  - source/manazir-sabra-1983
+- position: within
+  kind: invention
+  title:
+    en: A dark room and a hole
+    ar: بيت مظلم وثقب
+    ur: تاریک کمرہ اور ایک سوراخ
+  text:
+    en: Ibn al-Haytham let the light of the sun, the moon, the stars and a fire into a dark room through a small hole and studied it on the opposite wall. He cut its path with an opaque body and laid a ruler along it, and found it perfectly straight. With several candles before one hole, a spot of light appeared opposite each candle along a straight line through the hole. What does this show about how light travels?
+    ar: أدخل ابن الهيثم ضوء الشمس والقمر والكواكب والنار من ثقب صغير إلى بيت مظلم، وتأمله على الجدار المقابل. قطع طريقه بجسم كثيف ومدّ عليه مسطرة فوجده في غاية الاستقامة. وحين وضع عدة سرج أمام ثقب واحد ظهر ضوء مقابل كل سراج على الخط المستقيم المارّ بالثقب. ماذا يبيّن هذا عن طريقة انتقال الضوء؟
+    ur: ابن الہیثم نے سورج، چاند، ستاروں اور آگ کی روشنی ایک چھوٹے سوراخ سے تاریک کمرے میں آنے دی اور سامنے کی دیوار پر اس کا مطالعہ کیا۔ اس نے ایک ٹھوس جسم سے اس کا راستہ کاٹا اور اس پر پیمانہ رکھا تو اسے بالکل سیدھا پایا۔ جب ایک ہی سوراخ کے سامنے کئی چراغ رکھے گئے تو ہر چراغ کے سامنے سوراخ سے گزرتی سیدھی لکیر پر روشنی کا ایک دھبہ ظاہر ہوا۔ یہ روشنی کے سفر کے بارے میں کیا ظاہر کرتا ہے؟
+  entity: invention/camera-obscura
+  sources:
+  - source/manazir-sabra-1983
+order: 1

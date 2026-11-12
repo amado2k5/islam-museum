@@ -1,0 +1,63 @@
+id: course/ca-on-g2-science-d-1
+class: course
+kind: lesson
+label:
+  en: Machines that move water
+  ar: آلات تحرّك الماء
+  ur: پانی کو حرکت دینے والی مشینیں
+summary:
+  en: Looking at the ways parts of a machine move, and at a lever and a wheel and axle at work in daily life (D2.1, D2.3, D2.4).
+  ar: النظر في طرق حركة أجزاء الآلة، وفي رافعة وعجلة ومحور تعملان في الحياة اليومية ⁦(D2.1 وD2.3 وD2.4)⁩.
+  ur: مشین کے پرزے کن طریقوں سے حرکت کرتے ہیں، اور روزمرہ زندگی میں لیور اور پہیے اور دھرے کا کام ⁦(D2.1، D2.3، D2.4)⁩۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g2-science-d
+expectations:
+- code: D2.1
+  text:
+    en: describe different ways an object can move
+    ar: صِف طرائق مختلفة يمكن أن يتحرك بها الجسم
+    ur: بیان کریں کہ کوئی شے کن مختلف طریقوں سے حرکت کر سکتی ہے
+- code: D2.3
+  text:
+    en: 'identify the six basic types of simple machines: lever, inclined plane, wedge, pulley, wheel and axle, and screw'
+    ar: 'تعرّف على الأنواع الستة الأساسية من الآلات البسيطة: الرافعة، والمستوى المائل، والإسفين، والبكرة، والعجلة والمحور، والمسمار اللولبي'
+    ur: 'سادہ مشینوں کی چھ بنیادی اقسام کی نشاندہی کریں: لیور، ڈھلوانی سطح، پچر، چرخی، پہیہ اور دھرا، اور پیچ'
+- code: D2.4
+  text:
+    en: describe ways in which each type of simple machine is used in daily life to make tasks easier
+    ar: صِف طرق استخدام كل نوع من الآلات البسيطة في الحياة اليومية لتسهيل المهام
+    ur: بیان کریں کہ ہر قسم کی سادہ مشین روزمرہ زندگی میں کام آسان بنانے کے لیے کن طریقوں سے استعمال ہوتی ہے
+connections:
+- position: within
+  kind: invention
+  title:
+    en: The cow that does not pull
+    ar: البقرة التي لا تجرّ
+    ur: وہ گائے جو کھینچتی نہیں
+  text:
+    en: In one of al-Jazari's machines, flowing water turns a wheel and axle. A lever carries a lightweight wooden cow. Where do you see a lever or a wheel and axle at work?
+    ar: في إحدى آلات الجزري يدير الماء الجاري دولابًا ومحورًا. وتحمل رافعة بقرة خشبية خفيفة. أين ترى رافعة أو عجلة ومحورًا تعملان حولك؟
+    ur: الجزری کی ایک مشین میں بہتا ہوا پانی پہیے اور دھرے کو گھماتا ہے۔ ایک لیور ہلکی لکڑی کی گائے کو اٹھائے رکھتا ہے۔ آپ کو اپنے آس پاس لیور یا پہیہ اور دھرا کہاں کام کرتے نظر آتے ہیں؟
+  entity: invention/jazari-hidden-drive-water-lifter
+  sources:
+  - source/jazari-hill-1974
+- position: after
+  kind: invention
+  title:
+    en: From turning to back and forth
+    ar: من الدوران إلى الذهاب والإياب
+    ur: گھومنے سے آگے پیچھے تک
+  text:
+    en: 'TDV describes al-Jazari''s pump with two pistons: flowing water turns a wheel, and the turning becomes back-and-forth motion in the piston rods. How many different kinds of movement can you name in this one machine?'
+    ar: 'تصف موسوعة TDV مضخة الجزري ذات المكبسين: يدير الماء الجاري دولابًا، ويتحول الدوران إلى حركة ذهاب وإياب في قضبان المكبسين. كم نوعًا من الحركة تستطيع أن تسمّي في هذه الآلة وحدها؟'
+    ur: 'ٹی ڈی وی انسائیکلوپیڈیا الجزری کے دو پسٹن والے پمپ کو یوں بیان کرتی ہے: بہتا ہوا پانی پہیے کو گھماتا ہے، اور گردش پسٹن کی سلاخوں میں آگے پیچھے کی حرکت بن جاتی ہے۔ آپ اس ایک مشین میں حرکت کی کتنی مختلف قسمیں گِن سکتے ہیں؟'
+  entity: invention/jazari-double-piston-pump
+  sources:
+  - source/tdv-cezeri
+  - source/jazari-hill-1974
+order: 1

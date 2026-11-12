@@ -1,0 +1,224 @@
+course: course/ca-on-g3-science
+gaps:
+- code: A1.1
+  text: use a scientific research process and associated skills to conduct investigations
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: use a scientific experimentation process and associated skills to conduct investigations
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.5
+  text: communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: write and execute code in investigations and when modelling concepts, with a focus on testing, debugging, and refining programs
+  why: The expectation asks the student to write and run code and to test and debug it. The museum holds no record about programming; its nearest record, on algorism, is about written arithmetic by ordered steps, which is not coding.
+  searches:
+  - 'find_entity.py "algorithm" "خوارزمية" "coding": invention/algorism and work/al-jabr-wal-muqabala: arithmetic and algebra, not code'
+  - 'find_entity.py "computer" "حاسوب" "programming": no usable record; the only hit was a fatwa about asking artificial intelligence'
+- code: A2.2
+  text: identify and describe impacts of coding and of emerging technologies on everyday life
+  why: The expectation asks about the impact of coding and emerging technologies on everyday life today. The museum holds no record about either.
+  searches:
+  - 'find_entity.py "emerging technology" "تقنية حديثة" "technology and society": no real record'
+  - 'find_entity.py "artificial intelligence" "الذكاء الاصطناعي" "computer": work/fatwa-islamqa-asking-artificial-intelligence-for-fatwas only: a fatwa, not an account of impact on everyday life'
+- code: A3.1
+  text: describe practical applications of science and technology concepts in their home and community, and how these applications address real-world problems
+  why: The expectation asks the student to describe applications of science in their own home and community; its object is the student’s own surroundings, which the museum does not hold.
+  searches:
+  - 'find_entity.py "locally grown" "محلي" "local produce": only partial-word matches (al-Muhalla of Ibn Hazm), unrelated'
+  - 'find_entity.py "engineering design" "هندسة" "architect" "مهندس": 42 records, none about applications in a present-day home or community'
+- code: A3.2
+  text: investigate how science and technology can be used with other subject areas to address real-world problems
+  why: The expectation asks the student to investigate how science and technology combine with other school subjects to meet real-world problems; it names no subject matter the museum could supply.
+  searches:
+  - 'find_entity.py "scientific method" "المنهج العلمي" "experiment" "تجربة": 12 records, none about combining school subjects; the nearest, invention/ibn-zuhr-goat-tracheotomy-demonstration, is a medical demonstration'
+  - 'find_entity.py "engineering design" "هندسة" "architect" "مهندس": no record that addresses cross-subject problem solving'
+- code: B1.1
+  text: assess ways in which plants are important to humans and other living things, taking different perspectives into consideration, and identify ways in which humans can protect native plant species and their habitats
+  why: The expectation asks the student to assess the importance of plants to humans and others and to name ways to protect native plant species and habitats. The nearest record, concept/hima, describes land reserved for named animals and says nothing about protecting plants or native species.
+  searches:
+  - 'find_entity.py "hima" "حمى" "protected land": concept/hima: a reserved pasture for the horse, riding camel and plough-ox; no statement about plants or habitat protection'
+  - 'find_entity.py "deforestation" "إزالة الغابات" "habitat": no real record'
+- code: B1.2
+  text: assess ways in which human activities have an impact on plants and plant habitats, and identify personal actions that they could take to minimize harmful effects and enhance positive ones
+  why: The expectation asks about the impact of human activities on plants and plant habitats and on personal actions to reduce harm. The museum holds no record on that subject.
+  searches:
+  - 'find_entity.py "deforestation" "إزالة الغابات" "habitat": no real record (one unrelated source record)'
+  - 'find_entity.py "pollution" "تلوث" "environment" "البيئة" "forest" "غابة": only place/al-ghaba and battle records named al-Ghaba; not about plants'
+- code: B1.3
+  text: assess the benefits and limitations of locally grown food
+  why: The expectation is about the benefits and limits of locally grown food, which is a question about Ontario’s present-day food supply; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "locally grown" "محلي" "local produce": only partial-word matches (al-Muhalla), unrelated'
+  - 'find_entity.py "food" "طعام" "local food" "market": the hits seen were hadith passages and fiqh entries on food rulings; none on local growing'
+- code: B2.2
+  text: identify different parts of plants, including the root, stem, flower, stamen, pistil, leaf, seed, cone, and fruit, and describe how each part contributes to plants’ survival within their environment
+  why: The expectation asks the student to identify the parts of plants and what each contributes to survival. The museum holds no record that describes plant parts.
+  searches:
+  - 'find_entity.py "root" "جذر" "leaf" "ورقة" "stem of plant": only the name Waraqa ibn Nawfal, a hadith passage and a mathematical record on cubic roots, none about plant parts'
+  - 'find_entity.py "seed" "بذرة" "germination" "إنبات": concept/mustard-seed has no prose; passage/muslim-0184 is a hadith, not a description of a seed'
+- code: B2.3
+  text: describe changes that different plants undergo in their life cycles
+  why: The expectation asks the student to describe the changes plants undergo in their life cycles. The museum holds no record on plant life cycles.
+  searches:
+  - 'find_entity.py "life cycle" "دورة الحياة" "growth of a plant": exhibit/path-life-cycle only: a Muslim human life cycle'
+  - 'find_entity.py "seed" "بذرة" "germination" "إنبات": no record describing plant growth'
+- code: B2.4
+  text: describe ways in which a variety of plants adapt and/or react to their environment and to changes in their environment
+  why: The expectation asks about how plants adapt or react to their environment. The museum holds no record on plant adaptation.
+  searches:
+  - 'find_entity.py "adaptation" "تكيف" "desert plants": no real record'
+  - 'find_entity.py "plant" "نبات" "botany": exhibit/path-botany, a fatwa on cloning plants, records on plant naming, idhkhir and plant-ash glass; none on how plants respond to their environment'
+- code: B2.5
+  text: demonstrate an understanding that most plants get energy directly from the Sun through the process of photosynthesis, which involves the absorption of carbon dioxide and the release of oxygen
+  why: The expectation asks the student to understand photosynthesis. The museum holds no record on it.
+  searches:
+  - 'find_entity.py "photosynthesis" "التمثيل الضوئي" "chlorophyll": no real record'
+  - 'find_entity.py "plant" "نبات" "botany": exhibit/path-botany and records on naming and plant ash; none on how plants take energy from the Sun'
+- code: B2.7
+  text: describe various plants used for food, including those grown by First Nations, Métis, and Inuit, and identify local settings where these plants are grown or found
+  why: The expectation asks about food plants including those grown by First Nations, Métis and Inuit, and the local settings where they grow. The museum holds no record on Indigenous food plants or Ontario settings.
+  searches:
+  - 'find_entity.py "Indigenous" "السكان الأصليين" "First Nations": no real record'
+  - 'find_entity.py "locally grown" "محلي" "local produce": only partial-word matches, unrelated'
+- code: B2.8
+  text: describe ways in which plants and animals, including humans, depend on each other
+  why: The expectation asks about how plants and animals, including humans, depend on each other. The museum’s nearest records are course records of the Grade 6 pilot and a social-interdependence concept, neither about plants and animals.
+  searches:
+  - 'find_entity.py "food chain" "سلسلة غذائية" "interdependence": course/ca-on-g6-sci-bio-3 (another course) and concept/diversity-of-talents-and-interdependence (human society), not plants and animals'
+  - 'find_entity.py "bee" "نحل" "ant" "نمل" "spider": concept/bee, concept/ant, concept/spider exist but have no prose to write from'
+- code: C1.2
+  text: assess harmful effects of forces that may result from various human activities, and describe how health and safety devices can minimize these effects
+  why: The expectation asks about harmful forces from human activities and the health and safety devices that reduce them. The museum holds no record on safety devices.
+  searches:
+  - 'find_entity.py "seat belt" "safety device" "جهاز أمان": no real record'
+  - 'find_entity.py "friction" "احتكاك" "push" "pull": no real record'
+- code: C2.1
+  text: describe different types of contact forces and non-contact forces
+  why: The expectation asks about contact and non-contact forces and how forces start, stop or change an object’s motion or shape. The museum holds no record that describes forces in this sense.
+  searches:
+  - 'find_entity.py "force" "قوة" "friction" "Newton": only records using the word in a political or legal sense (power, binding force, conquest by force)'
+  - 'find_entity.py "gravity" "جاذبية" "magnet" "مغناطيس": only place/magnetic-temple-china, a place record, not about forces'
+- code: C2.2
+  text: describe different ways a force can be exerted on an object
+  why: The expectation asks about contact and non-contact forces and how forces start, stop or change an object’s motion or shape. The museum holds no record that describes forces in this sense.
+  searches:
+  - 'find_entity.py "force" "قوة" "friction" "Newton": only records using the word in a political or legal sense (power, binding force, conquest by force)'
+  - 'find_entity.py "gravity" "جاذبية" "magnet" "مغناطيس": only place/magnetic-temple-china, a place record, not about forces'
+- code: C2.3
+  text: describe how different forces applied to an object, including forces of varying magnitude, can cause the object to start, stop, or change its direction, speed, or shape
+  why: The expectation asks about contact and non-contact forces and how forces start, stop or change an object’s motion or shape. The museum holds no record that describes forces in this sense.
+  searches:
+  - 'find_entity.py "force" "قوة" "friction" "Newton": only records using the word in a political or legal sense (power, binding force, conquest by force)'
+  - 'find_entity.py "gravity" "جاذبية" "magnet" "مغناطيس": only place/magnetic-temple-china, a place record, not about forces'
+- code: C2.4
+  text: identify ways in which forces are used in their daily lives
+  why: The expectation asks about contact and non-contact forces and how forces start, stop or change an object’s motion or shape. The museum holds no record that describes forces in this sense.
+  searches:
+  - 'find_entity.py "force" "قوة" "friction" "Newton": only records using the word in a political or legal sense (power, binding force, conquest by force)'
+  - 'find_entity.py "gravity" "جاذبية" "magnet" "مغناطيس": only place/magnetic-temple-china, a place record, not about forces'
+- code: D1.1
+  text: assess effects on society and the environment of strong and stable structures
+  why: The records the museum holds on dams show a structure's failure and what followed, not the effects of a strong, stable structure while it stood.
+  searches:
+  - 'find_entity.py "dam" "سد" "bridge" "جسر": building/marib-dam, event/flood-of-al-aram and passage/quran-34-16 were tried and removed after review, because they tell of a dam bursting and say nothing of what the dam did while it stood'
+  - 'find_entity.py "bridge" "جسر" "dam": only battle and strife records named for a bridge, and building/marib-dam, which describes a dam’s history, not its strength'
+- code: D1.2
+  text: assess the environmental impact of structures built by various animals, including structures built by humans
+  why: The expectation asks about the environmental impact of structures built by animals and by humans. The museum has records for the bee, the ant and the spider, but they have no prose to write from.
+  searches:
+  - 'find_entity.py "bee" "نحل" "ant" "نمل" "spider": concept/bee, concept/ant, concept/spider: prose none'
+  - 'find_entity.py "nest" "عش" "beaver" "bird nest": only a silver hoard called al-Ush and a person named al-Ush'
+- code: D2.1
+  text: describe a structure as a supporting framework that holds a load and has a definite size, shape, and function, and identify structures in the natural environment and in the built environment
+  why: The expectation asks the student to define a structure as a supporting framework with a load, size, shape and function, and to find natural and built examples. The museum holds no record that treats structures in this sense; its building records describe particular buildings.
+  searches:
+  - 'find_entity.py "arch" "قوس" "buttress" "vault" "عقد": only contract (aqd) records and hadith passages'
+  - 'find_entity.py "truss" "beam" "column" "عمود": building/amud-al-sawari and a photo of a column base, not about the idea of a structure'
+- code: D2.2
+  text: demonstrate an understanding of the relationship between form and function for various structures
+  why: The expectation asks the student to understand the relationship between form and function in structures. The museum’s record of the Dome of the Rock describes a form, but does not say how form serves function, so it is used in lesson D-1 only for materials and wind.
+  searches:
+  - 'find_entity.py "dome" "قبة" "arch": building/dome-of-the-rock: description of form and materials, no account of form and function'
+  - 'find_entity.py "strut" "tie" "تدعيم" "stability" "توازن": no record on structural form and function'
+- code: D2.3
+  text: identify the strength of a structure as its ability to support a load and describe ways to increase the strength of structures, including ways to increase the strength of different materials used to build them
+  why: The expectation asks about the strength of a structure as its ability to support a load and ways to increase it. The museum holds no record that says this of any structure.
+  searches:
+  - 'find_entity.py "truss" "beam" "column" "عمود": no record on load or strength'
+  - 'find_entity.py "bridge" "جسر" "dam": only battle and strife records named for a bridge, and building/marib-dam, which describes a dam’s history, not its strength'
+- code: D2.4
+  text: describe the stability of a structure as its ability to keep its shape, maintain balance, float, and/or stay fixed in one spot when a force is applied to the structure, and describe ways to improve a structure’s stability
+  why: The expectation asks about the stability of a structure when a force is applied and how to improve it. The museum holds no record that treats stability.
+  searches:
+  - 'find_entity.py "strut" "tie" "تدعيم" "stability" "توازن": concept/al-tawazun-al-kawni is the balance of creation, not of structures'
+  - 'find_entity.py "arch" "قوس" "buttress" "vault" "عقد": no record on stability'
+- code: D2.7
+  text: explain the role of struts and ties in structures under load
+  why: The expectation asks the student to explain the role of struts and ties in structures under load. The museum holds no record on struts or ties.
+  searches:
+  - 'find_entity.py "strut" "tie" "تدعيم" "stability" "توازن": only a hadith passage on the tie of kinship and concept/al-tawazun-al-kawni'
+  - 'find_entity.py "truss" "beam" "column" "عمود": no record on struts or ties'
+- code: E1.1
+  text: assess the importance of soils for society and the environment
+  why: The expectation asks the student to assess the importance of soils for society and the environment. The museum has records on farming and on one agronomist’s view of land, but none that assesses soil’s importance to society or the environment.
+  searches:
+  - 'find_entity.py "soil" "تربة" "compost": invention/ibn-bassal-soil-water-matching (used in lessons B-1 and E-1) and unrelated turbe (tomb) records; no assessment of importance'
+  - 'find_entity.py "agriculture" "الفلاحة" "Kitab al-Filaha": concept/agriculture-in-islam is about farming as a livelihood, not about soil; work/filaha-nabatiyya is a corpus of magic and talismans'
+- code: E1.2
+  text: assess the impact of human activity on soils, and describe ways in which humans can improve the quality of soils and/or lessen or prevent harmful effects on soils
+  why: The expectation asks about the impact of human activity on soils and ways to improve or protect them. The museum holds no record on soil degradation.
+  searches:
+  - 'find_entity.py "land degradation" "تدهور الأرض" "drought" "جفاف": no real record'
+  - 'find_entity.py "erosion" "تعرية" "soil erosion" "انجراف التربة": no real record'
+- code: E2.1
+  text: identify the living and non-living components of soil, and describe the characteristics of healthy soil
+  why: The expectation asks about the living and non-living parts of soil and the signs of healthy soil. The museum holds no record on soil composition.
+  searches:
+  - 'find_entity.py "humus" "تركيب التربة" "soil composition": one unrelated hadith passage on one-fifth of booty (khumus)'
+  - 'find_entity.py "soil" "تربة" "compost": no record on soil composition; the Ibn Bassal record is about practical land types and is used in lessons B-1 and E-1'
+- code: E2.2
+  text: identify different substances that are commonly added to, or absorbed by, the soil, and describe their effects on soil health
+  why: The only record on a substance added to soil gives jurists' rulings on purity, sale and eating the produce, not its effect on soil health.
+  searches:
+  - 'find_entity.py "fertilizer" "manure" "سماد": concept/simad was tried and removed after review, because it is jurists’ rulings on purity and sale, mentions human excrement, and is not about soil health'
+  - 'find_entity.py "soil" "تربة" "compost": invention/ibn-bassal-soil-water-matching describes land types and suitable plants, not substances added to soil'
+- code: E2.4
+  text: explain the process of erosion, including its causes and its impact on soils
+  why: The expectation asks about erosion, its causes and its impact on soils. The museum holds no record on erosion.
+  searches:
+  - 'find_entity.py "erosion" "تعرية" "soil erosion" "انجراف التربة": no real record'
+  - 'find_entity.py "fallow" "بور" "soil conservation" "crop rotation" "تناوب المحاصيل": hits were place and person names ending in -pur (Burhanpur, Hoshiarpur, Sultanpur and the like); none on soil conservation'
+- code: E2.5
+  text: identify various strategies used to maintain and improve soil health in Ontario
+  why: The expectation asks about strategies used to maintain and improve soil health in Ontario. The museum holds no record on soil-health strategies in Ontario, and its records on manure and land types are about other places.
+  searches:
+  - 'find_entity.py "fallow" "بور" "soil conservation" "crop rotation" "تناوب المحاصيل": no usable record'
+  - 'find_entity.py "fertilizer" "manure" "سماد" "crop rotation": concept/simad exists (tried for E2.2 and removed after review) but gives rulings on manure, not strategies for soil health in Ontario'
+- code: E2.6
+  text: describe the process of composting, and explain some benefits of composting
+  why: The expectation asks about the process and benefits of composting. The museum holds no record on composting.
+  searches:
+  - 'find_entity.py "compost" "تسميد" "organic matter": only place/santiago-de-compostela and a raid on it, unrelated'
+  - 'find_entity.py "fertilizer" "manure" "سماد" "crop rotation": concept/simad: rulings on manure; it does not describe composting'

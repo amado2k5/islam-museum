@@ -1,0 +1,71 @@
+id: course/ca-on-g10-snc2d-a-1
+class: course
+kind: lesson
+label:
+  ar: علماء العلم ومهنه
+  en: Scientists and the careers of science
+  ur: سائنس دان اور سائنسی پیشے
+summary:
+  ar: 'كيف يلتقي الطالب بعلماء العلم ومهنه في المتحف: عالم في البصريات وحرفة الطبيب ومسار تدريب طبيب ⁦(A2.1 وA2.2)⁩.'
+  en: 'How a student meets scientists and the careers of science in the museum: a scholar of optics, the craft of the physician and one physician''s path of training (A2.1, A2.2).'
+  ur: 'طالب علم میوزیم میں سائنس دانوں اور سائنسی پیشوں سے کیسے ملتا ہے: بصریات کا ایک عالم، طبیب کا فن اور ایک طبیب کی تربیت کا راستہ ⁦(A2.1 اور A2.2)⁩۔'
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g10-snc2d-a
+expectations:
+- code: A2.1
+  text:
+    en: identify and describe a variety of careers related to the fields of science under study […] and the education and training necessary for these careers
+    ar: حدّد مجموعة متنوعة من المهن المتصلة بميادين العلم قيد الدراسة […] وصِفها، وصِف التعليم والتدريب اللازمين لهذه المهن
+    ur: زیرِ مطالعہ سائنسی شعبوں سے متعلق مختلف پیشوں […] کی نشاندہی کریں اور انہیں بیان کریں، نیز ان پیشوں کے لیے ضروری تعلیم و تربیت بیان کریں
+- code: A2.2
+  text:
+    en: identify scientists, including Canadians […], who have made a contribution to the fields of science under study
+    ar: حدّد علماء، ومنهم كنديون […]، أسهموا في ميادين العلم قيد الدراسة
+    ur: ایسے سائنس دانوں کی نشاندہی کریں، جن میں کینیڈین […] بھی شامل ہیں، جنہوں نے زیرِ مطالعہ سائنسی شعبوں میں حصہ ڈالا
+connections:
+- position: before
+  kind: scholar
+  title:
+    ar: ابن الهيثم وكتاب المناظر
+    en: Ibn al-Haytham and the Book of Optics
+    ur: ابن الہیثم اور کتاب المناظر
+  text:
+    ar: الحسن بن الهيثم عالم عربي في الرياضيات والفيزياء، اشتهر بكتابه «المناظر» في البصريات. ويصفه محقق طبعة الكتاب بأنه عاش في القرن الخامس الهجري. فأي عالم من علماء مقررك تضعه إلى جانبه؟
+    en: Al-Hasan ibn al-Haytham was an Arab scholar of mathematics and physics, known for his Kitab al-Manazir on optics. The editor of the book's edition describes him as having lived in the fifth century AH. Which scientist of your own course would you set beside him?
+    ur: حسن ابن الہیثم ریاضی اور طبیعیات کے ایک عرب عالم تھے، جو بصریات پر اپنی کتاب «المناظر» سے مشہور ہوئے۔ کتاب کے ایڈیشن کے محقق انہیں پانچویں صدی ہجری میں بیان کرتے ہیں۔ آپ کے اپنے کورس کا کون سا سائنس دان آپ کے نزدیک ان کے پہلو میں رکھا جا سکتا ہے؟
+  entity: person/ibn-al-haytham
+  sources:
+  - source/manazir-sabra-1983
+- position: within
+  kind: career
+  title:
+    ar: 'الطبيب: كيف كانت الحرفة تُتعلَّم'
+    en: 'The physician: how the craft was learned'
+    ur: 'طبیب: یہ فن کیسے سیکھا جاتا تھا'
+  text:
+    ar: الطبيب هو من يشخّص المرض ويعالجه بعلم الطب. وكان الطب في الدولة الإسلامية حرفة تُتعلَّم بالدراسة والتجربة والملازمة. ثم صار في العصر العباسي يُمنح بامتحان أمام رئيس الأطباء وإجازة. ماذا تطلب مهنة العلم من المتعلم اليوم؟
+    en: The physician is the person who diagnoses illness and treats it by the science of medicine. In the Islamic states the craft was learned by study, practice and attachment to experienced practitioners. In the Abbasid period a practitioner was admitted after an examination before the head of physicians, who then issued a licence. What would a career in science ask of a learner today?
+    ur: طبیب وہ ہے جو طب کے علم سے بیماری کی تشخیص اور علاج کرتا ہے۔ اسلامی ریاستوں میں یہ فن مطالعے، مشق اور تجربہ کار معالجوں کی صحبت سے سیکھا جاتا تھا۔ عباسی دور میں معالج کو رئیس الاطبا کے سامنے امتحان کے بعد داخلہ ملتا تھا، جو پھر اجازت نامہ جاری کرتا تھا۔ آج سائنس کے پیشے کو سیکھنے والے سے کیا مانگتا ہے؟
+  entity: job/physician
+  sources:
+  - source/tdv-tip
+  - source/tdv-hekimbasi
+- position: after
+  kind: career
+  title:
+    ar: شيخ الطب بالديار المصرية
+    en: The shaykh of medicine in Egypt
+    ur: مصر میں طب کا شیخ
+  text:
+    ar: تسمّي «شذرات الذهب» لابن العماد ابن النفيس شيخَ الطب بالديار المصرية، ومن انتهت إليه معرفة الطب، وتذكر أن له مشاركة في الفقه والأصول والحديث والعربية والمنطق. ألّف في الطب كتاب «الشامل» الذي تدل فهرسته على أنه يكون ثلثمائة مجلدة، ووقف أملاكه وكتبه على المارستان المنصوري. ما التدريب الذي تتطلبه مهنة في العلم؟
+    en: Ibn al-Imad's Shadharat al-Dhahab calls Ibn al-Nafis the shaykh of medicine in Egypt, the one to whom knowledge of medicine ultimately led, and says he also took part in jurisprudence, the principles of law, hadith, Arabic and logic. He wrote the medical book al-Shamil, whose index suggests it would run to three hundred volumes, and he endowed his properties and his books to the Mansuri hospital. What training does a career in science ask?
+    ur: ابن العماد کی «شذرات الذہب» ابن نفیس کو مصر میں طب کا شیخ کہتی ہے، وہ جن پر طب کا علم آ کر ختم ہوا، اور بتاتی ہے کہ وہ فقہ، اصول، حدیث، عربی اور منطق میں بھی شریک تھے۔ انہوں نے طب کی کتاب «الشامل» لکھی جس کی فہرست سے لگتا ہے کہ وہ تین سو جلدوں کی ہوتی، اور اپنی جائیدادیں اور کتابیں منصوری ہسپتال پر وقف کر دیں۔ سائنس کے کسی پیشے کے لیے کیسی تربیت درکار ہوتی ہے؟
+  entity: person/ibn-al-nafis
+  sources:
+  - source/shadharat-dhahab
+order: 1

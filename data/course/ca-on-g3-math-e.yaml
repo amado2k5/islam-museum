@@ -1,0 +1,34 @@
+id: course/ca-on-g3-math-e
+class: course
+kind: unit
+label:
+  en: 'Strand E: Spatial Sense'
+  ar: 'المحور هـ: الحس المكاني'
+  ur: 'محور ہ: مکانی فہم'
+summary:
+  en: Shapes, structures and measurement (overall expectations E1 and E2). Three lessons are linked.
+  ar: الأشكال والبُنى والقياس، وهي التوقعات العامة E1 وE2. تُربط ثلاثة دروس.
+  ur: اشکال، ساختیں اور پیمائش ⁦(مجموعی توقعات E1 اور E2)⁩۔ تین اسباق جوڑے گئے ہیں۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g3-math
+lessons:
+- course/ca-on-g3-math-e-1
+- course/ca-on-g3-math-e-2
+- course/ca-on-g3-math-e-4
+expectations:
+- code: E1
+  text:
+    en: describe and represent shape, location, and movement by applying geometric properties and spatial relationships in order to navigate the world around them
+    ar: صِف الشكل والموقع والحركة ومثّلها بتطبيق الخصائص الهندسية والعلاقات المكانية للتنقل في العالم من حولك
+    ur: ہندسی خصوصیات اور مکانی رشتوں کو بروئے کار لا کر شکل، مقام اور حرکت کو بیان اور ظاہر کریں تاکہ اپنے اردگرد کی دنیا میں راستہ پا سکیں
+- code: E2
+  text:
+    en: compare, estimate, and determine measurements in various contexts
+    ar: قارن القياسات وقدّرها وحدّدها في سياقات متنوعة
+    ur: مختلف سیاق میں پیمائشوں کا موازنہ کریں، ان کا اندازہ لگائیں اور انہیں معلوم کریں
+order: 4

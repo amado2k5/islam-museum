@@ -1,0 +1,51 @@
+id: course/ca-on-g11-sbi3u-e-1
+class: course
+kind: lesson
+label:
+  en: Where does the blood go?
+  ar: إلى أين يذهب الدم؟
+  ur: خون کہاں جاتا ہے؟
+summary:
+  en: How the route of the blood through the heart and lungs was described, and what a class must bring to explain the circulatory system.
+  ar: كيف وُصف مسار الدم عبر القلب والرئتين، وما الذي يجب أن يأتي به الصف ليشرح الجهاز الدوري.
+  ur: دل اور پھیپھڑوں سے خون کے راستے کی وضاحت کیسے کی گئی، اور نظامِ دوران کی وضاحت کے لیے کلاس کو اور کیا لانا ہوگا۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g11-sbi3u-e
+expectations:
+- code: E3.3
+  text:
+    en: explain the anatomy of the circulatory system […] and its function in transporting substances that are vital to health
+    ar: اشرح تشريح الجهاز الدوري […] ووظيفته في نقل المواد الحيوية للصحة
+    ur: نظامِ دوران کی تشریح […] اور صحت کے لیے ضروری مادّوں کی ترسیل میں اس کے کام کی وضاحت کریں
+connections:
+- position: before
+  kind: story
+  title:
+    en: The pores in the wall of the heart
+    ar: المسامّ في حاجز القلب
+    ur: دل کی دیوار کے مسامات
+  text:
+    en: In the system taught by Galen and his school, which held sway in medicine for about a thousand years before Ibn al-Nafis, blood formed in the liver and reached the right ventricle, and part of it crossed to the left ventricle through invisible pores in the septum. The pores puzzled anatomists for more than a thousand years. Why would a scheme need passages that no one could see?
+    ar: في النظام الذي علّمه جالينوس ومدرسته، وظلّ سائداً في الطب نحو ألف سنة قبل ابن النفيس، كان الدم يتكوّن في الكبد ويصل إلى البطين الأيمن، ويعبر قسم منه إلى البطين الأيسر من مسامّ غير مرئية في الحاجز. وكانت هذه المسامّ لغزاً حيّر المشرّحين أكثر من ألف سنة. فلماذا احتاج ذلك النظام إلى منافذ لا يراها أحد؟
+    ur: گیلن اور ان کے مکتب کی تعلیم کے مطابق، جو ابن نفیس سے تقریباً ایک ہزار سال پہلے تک طب پر چھایا رہا، خون جگر میں بنتا اور دائیں بطین تک پہنچتا تھا، اور اس کا ایک حصہ حاجز کے نظر نہ آنے والے مسامات سے بائیں بطین میں جاتا تھا۔ یہ مسامات ایک ہزار سال سے زیادہ ماہرینِ تشریح کے لیے معمّا بنے رہے۔ ایسے نظام کو ان راستوں کی ضرورت کیوں پڑی جنہیں کوئی دیکھ نہ سکا؟
+  entity: invention/pulmonary-circulation
+  sources: &id001
+  - source/west-2008-ibn-al-nafis
+- position: within
+  kind: invention
+  title:
+    en: Blood passes through the lungs
+    ar: الدم يمرّ عبر الرئتين
+    ur: خون پھیپھڑوں سے گزرتا ہے
+  text:
+    en: 'In the thirteenth century the physician Ibn al-Nafis wrote, in his commentary on the anatomy of Ibn Sina''s Canon, that blood does not cross from the right ventricle to the left through pores in the wall between them, because that wall is solid; it reaches the left ventricle from the lung. The record adds that small passages join the pulmonary artery and the pulmonary vein. Trace this route on a diagram of the heart: which vessels does it name?'
+    ar: 'في القرن السابع الهجري كتب الطبيب ابن النفيس، في شرحه على تشريح قانون ابن سينا، أن الدم لا يعبر من البطين الأيمن إلى البطين الأيسر من مسامّ في الحاجز بينهما كما قال جالينوس، لأن الحاجز هناك مصمت؛ بل يدخل البطين الأيسر من الرئة. ويذكر السجل أن بين الشريان الرئوي والوريد الرئوي منافذ صغيرة تصل بينهما. تتبّع هذا الطريق على رسم للقلب: أي الأوعية يسمّي؟'
+    ur: 'ساتویں صدی ہجری میں طبیب ابن نفیس نے ابن سینا کے قانون کی تشریح پر اپنی شرح میں لکھا کہ خون دائیں بطین سے بائیں بطین میں ان کے درمیان کی دیوار کے مساموں سے نہیں گزرتا، جیسا کہ جالینوس نے کہا تھا، کیونکہ وہ دیوار ٹھوس ہے؛ بلکہ وہ پھیپھڑے سے بائیں بطین میں داخل ہوتا ہے۔ اندراج بتاتا ہے کہ پھیپھڑوں کی شریان اور پھیپھڑوں کی ورید کے درمیان چھوٹے راستے انہیں جوڑتے ہیں۔ دل کی کسی تصویر پر یہ راستہ دیکھیں: وہ کن رگوں کا نام لیتا ہے؟'
+  entity: invention/pulmonary-circulation
+  sources: *id001
+order: 1

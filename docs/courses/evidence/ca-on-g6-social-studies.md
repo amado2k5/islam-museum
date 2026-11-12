@@ -1,0 +1,9 @@
+# Evidence: ca-on-g6-social-studies
+
+Each row: the claim in the connection text, and the sentence of the linked record that it restates (quoted from the record's English prose, at most 40 words), with the record's own citation marker.
+
+| Lesson | Entity | Claim made | Record sentence it restates |
+|---|---|---|---|
+| ca-on-g6-social-studies-a-1 | event/canadian-islamic-history-month | It is October of every year in Canada, first established in 2007 to recognize, celebrate and reflect on the history, culture and contributions of Muslims in Canada | "Canadian Islamic History Month is October of every year in Canada, first established in 2007 as a time \"to recognize, celebrate and reflect on the rich history, culture, and contributions of Muslims in Canada\"" {cite:canada-ca-combatting-islamophobia-commemorations} |
+| ca-on-g6-social-studies-a-1 | event/canadian-islamic-history-month | The Government of Canada's page presents it as an opportunity for all Canadians to engage in dialogue, advance understanding and foster inclusion and appreciation of the diversity of Canadian Muslim communities | "presents it as an opportunity for all Canadians to engage in dialogue, advance understanding and foster inclusion and appreciation of the diversity of Canadian Muslim communities" {cite:canada-ca-combatting-islamophobia-commemorations} |
+| ca-on-g6-social-studies-a-1 | event/canadian-islamic-history-month | The page names the month and its yearly themes, such as the 2023 campaign "Celebrating the Contributions of Muslim Women and Girls", and names no particular contributions (ar: «الاحتفاء بإسهامات النساء والفتيات المسلمات») | "The 2023 campaign was \"Celebrating the Contributions of Muslim Women and Girls\", the 2024 campaign \"Celebrating Generations of Canadian Muslims\"" {cite:canada-ca-combatting-islamophobia-commemorations}; "names no particular contributions" is the museum's observation that the record lists none |

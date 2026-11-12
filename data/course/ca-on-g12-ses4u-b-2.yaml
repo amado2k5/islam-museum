@@ -1,0 +1,52 @@
+id: course/ca-on-g12-ses4u-b-2
+class: course
+kind: lesson
+label:
+  en: Recording the sky as earlier observers did
+  ar: تسجيل السماء كما سجّلها الراصدون الأقدمون
+  ur: آسمان کا اندراج، جیسا پہلے مشاہدہ کرنے والے کرتے تھے
+summary:
+  en: How observers of the past recorded where and when a feature of the sky appeared (B2.2).
+  ar: كيف سجّل الراصدون قديماً موضع ظهور معلم في السماء ووقته (B2.2).
+  ur: ماضی کے مشاہدہ کرنے والوں نے آسمان کی کسی خصوصیت کے ظہور کی جگہ اور وقت کیسے درج کیے (B2.2)۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g12-ses4u-b
+expectations:
+- code: B2.2
+  text:
+    en: locate observable features of the night sky using star charts, computer models, or direct observation, and record the location of these features using astronomical terms […] and systems […] [PR, C]
+    ar: حدّد مواضع المعالم المرصودة في سماء الليل باستخدام الخرائط النجمية أو النماذج الحاسوبية أو الرصد المباشر، وسجّل مواضعها باستخدام مصطلحات فلكية […] ونظم […] [PR, C]
+    ur: ستاروں کے نقشوں، کمپیوٹر ماڈلوں یا براہِ راست مشاہدے سے رات کے آسمان کی قابلِ مشاہدہ خصوصیات کی جگہ معلوم کریں، اور ان کی جگہ فلکیاتی اصطلاحات […] اور نظاموں […] میں درج کریں [PR, C]
+connections:
+- position: before
+  kind: story
+  title:
+    en: A tailed star over Najd and Yemen
+    ar: نجم ذو ذؤابة فوق نجد واليمن
+    ur: نجد اور یمن پر دم دار ستارہ
+  text:
+    en: In 905 AH a tailed star rose from the east of Najd; its rising was in Aries, its tail over Yemen and its course through Syria. That is what Shadharat al-Dhahab reports of where it rose and where it went. How would you record the position of a feature of the sky today, with the terms you have learned?
+    ar: في سنة 905هـ طلع من مشرق نجد نجم ذو ذؤابة، وكان طلوعه من برج الحمل وذؤابته في اليمن وسيره في الشام. هذا ما يذكره «شذرات الذهب» عن موضع طلوعه وجهة سيره. كيف تسجّل اليوم موضع معلم في السماء بالمصطلحات التي تعلمتها؟
+    ur: سن 905ھ میں نجد کے مشرق سے ایک دم دار ستارہ طلوع ہوا؛ اس کا طلوع برج حمل سے تھا، اس کی دم یمن میں اور سفر شام کی طرف۔ «شذرات الذہب» اس کے طلوع کی جگہ اور سفر کی سمت یوں بتاتی ہے۔ آج آپ جو اصطلاحات سیکھ چکے ہیں ان سے آسمان کی کسی خصوصیت کی جگہ کیسے درج کریں گے؟
+  entity: event/comet-905
+  sources:
+  - source/shadharat-dhahab
+- position: within
+  kind: reflection
+  title:
+    en: Where the observer stands
+    ar: أين يقف الراصد
+    ur: مشاہدہ کرنے والا کہاں کھڑا ہے
+  text:
+    en: Al-Farghani writes that if the conjunction falls away from the nodes, parallax makes the visible differ from the true, and an eclipse may appear partial from one place and total from another. How does the observer's place change what is recorded?
+    ar: يذكر الفرغاني أنه إن كان الاجتماع في غير الرأس والذنب اختلف المرئي عن الحقيقي بسبب اختلاف المنظر، وقد يبدو الكسوف جزئياً من موضع وكلياً من موضع آخر. كيف يغيّر موضع الراصد ما يسجّله؟
+    ur: الفرغانی لکھتا ہے کہ اگر اجتماع عقدوں سے ہٹ کر ہو تو اختلافِ منظر دکھائے گئے اور اصل میں فرق ڈال دیتا ہے، اور ایک جگہ سے گرہن جزوی اور دوسری جگہ سے مکمل نظر آ سکتا ہے۔ مشاہدہ کرنے والے کی جگہ اس کے درج کردہ کو کیسے بدلتی ہے؟
+  entity: concept/eclipses
+  sources:
+  - source/farghani-elements-astronomy
+order: 2

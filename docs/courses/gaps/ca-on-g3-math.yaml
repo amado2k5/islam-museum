@@ -1,0 +1,212 @@
+course: course/ca-on-g3-math
+gaps:
+- code: B1.2
+  text: compare and order whole numbers up to and including 1000, in various contexts
+  why: 'Comparing and ordering whole numbers: invention/algorism is taught for place value and written steps (B1.5, B2.4); no record compares or orders numbers.'
+  searches:
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "algorism" "place value": one method record, invention/algorism, taught in lesson b-1; nothing on comparing, ordering, rounding or counting by steps'
+  - 'find_entity.py "fractions" "الكسور" "kasr" "decimal fractions": concept/kasr is a lexical and fiqh term (breaking); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, about decimal fractions, not fair shares or equivalent fractions'
+- code: B1.3
+  text: round whole numbers to the nearest ten or hundred, in various contexts
+  why: 'Rounding to the nearest ten or hundred: no record in the museum is about rounding or estimating by rounding.'
+  searches:
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "algorism" "place value": one method record, invention/algorism, taught in lesson b-1; nothing on comparing, ordering, rounding or counting by steps'
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": hits are the mint (دار الضرب), the division of spoils and of realms, and Muwatta reports; no record on multiplication or division facts, arrays or properties of operations'
+- code: B1.4
+  text: count to 1000, including by 50s, 100s, and 200s, using a variety of tools and strategies
+  why: 'Counting to 1000 by 50s, 100s and 200s: no record is about skip counting.'
+  searches:
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "algorism" "place value": one method record, invention/algorism, taught in lesson b-1; nothing on comparing, ordering, rounding or counting by steps'
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": hits are the mint (دار الضرب), the division of spoils and of realms, and Muwatta reports; no record on multiplication or division facts, arrays or properties of operations'
+- code: B1.6
+  text: use drawings to represent, solve, and compare the results of fair-share problems that involve sharing up to 20 items among 2, 3, 4, 5, 6, 8, and 10 sharers, including problems that result in whole numbers, mixed numbers, and fractional …
+  why: 'Fair-share problems with drawings and fractional results: the museum holds no record on sharing equally or on common fractions; invention/decimal-fractions-al-uqlidisi is about decimal fractions.'
+  searches:
+  - 'find_entity.py "fractions" "الكسور" "kasr" "decimal fractions": concept/kasr is a lexical and fiqh term (breaking); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, about decimal fractions, not fair shares or equivalent fractions'
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "algorism" "place value": one method record, invention/algorism, taught in lesson b-1; nothing on comparing, ordering, rounding or counting by steps'
+- code: B1.7
+  text: represent and solve fair-share problems that focus on determining and using equivalent fractions, including problems that involve halves, fourths, and eighths; thirds and sixths; and fifths and tenths
+  why: 'Equivalent fractions (halves, fourths, eighths; thirds and sixths; fifths and tenths): no record states fraction equivalences at this level.'
+  searches:
+  - 'find_entity.py "fractions" "الكسور" "kasr" "decimal fractions": concept/kasr is a lexical and fiqh term (breaking); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, about decimal fractions, not fair shares or equivalent fractions'
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "algorism" "place value": one method record, invention/algorism, taught in lesson b-1; nothing on comparing, ordering, rounding or counting by steps'
+- code: B2.1
+  text: use the properties of operations, and the relationships between multiplication and division, to solve problems and check calculations
+  why: 'Properties of operations and the relation of multiplication to division: no record states them at Grade 3 level.'
+  searches:
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": hits are the mint (دار الضرب), the division of spoils and of realms, and Muwatta reports; no record on multiplication or division facts, arrays or properties of operations'
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": invention/abu-wafa-debt-multiplication (a rule for multiplying with a debt as a middle step) and invention/mahani-successive-quotient-ratios (a theory of ratio), both listed by title and not at Grade 3 level'
+- code: B2.2
+  text: recall and demonstrate multiplication facts of 2, 5, and 10, and related division facts
+  why: 'Multiplication facts of 2, 5 and 10: no record is about multiplication facts.'
+  searches:
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": hits are the mint (دار الضرب), the division of spoils and of realms, and Muwatta reports; no record on multiplication or division facts, arrays or properties of operations'
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": invention/abu-wafa-debt-multiplication (a rule for multiplying with a debt as a middle step) and invention/mahani-successive-quotient-ratios (a theory of ratio), both listed by title and not at Grade 3 level'
+- code: B2.3
+  text: use mental math strategies, including estimation, to add and subtract whole numbers that add up to no more than 1000, and explain the strategies used
+  why: 'Mental math strategies and estimation for adding and subtracting: invention/algorism is a written method; no record is about mental calculation.'
+  searches:
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "algorism" "place value": one method record, invention/algorism, taught in lesson b-1; nothing on comparing, ordering, rounding or counting by steps'
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": hits are the mint (دار الضرب), the division of spoils and of realms, and Muwatta reports; no record on multiplication or division facts, arrays or properties of operations'
+- code: B2.6
+  text: represent multiplication of numbers up to 10 × 10 and division up to 100 ÷ 10, using a variety of tools and drawings, including arrays
+  why: 'Representing multiplication and division with arrays and drawings: no record uses arrays or drawings for them.'
+  searches:
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": hits are the mint (دار الضرب), the division of spoils and of realms, and Muwatta reports; no record on multiplication or division facts, arrays or properties of operations'
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": invention/abu-wafa-debt-multiplication (a rule for multiplying with a debt as a middle step) and invention/mahani-successive-quotient-ratios (a theory of ratio), both listed by title and not at Grade 3 level'
+- code: B2.7
+  text: represent and solve problems involving multiplication and division, including problems that involve groups of one half, one fourth, and one third, using tools and drawings
+  why: 'Problems on multiplication and division, including groups of one half, one fourth and one third: no record poses such problems.'
+  searches:
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": hits are the mint (دار الضرب), the division of spoils and of realms, and Muwatta reports; no record on multiplication or division facts, arrays or properties of operations'
+  - 'find_entity.py "fractions" "الكسور" "kasr" "decimal fractions": concept/kasr is a lexical and fiqh term (breaking); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, about decimal fractions, not fair shares or equivalent fractions'
+- code: B2.8
+  text: represent the connection between the numerator of a fraction and the repeated addition of the unit fraction with the same denominator using various tools and drawings, and standard fractional notation
+  why: 'The numerator as repeated addition of the unit fraction: no record treats common fractions or their notation.'
+  searches:
+  - 'find_entity.py "fractions" "الكسور" "kasr" "decimal fractions": concept/kasr is a lexical and fiqh term (breaking); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, about decimal fractions, not fair shares or equivalent fractions'
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "algorism" "place value": one method record, invention/algorism, taught in lesson b-1; nothing on comparing, ordering, rounding or counting by steps'
+- code: B2.9
+  text: use the ratios of 1 to 2, 1 to 5, and 1 to 10 to scale up numbers and to solve problems
+  why: 'Ratios of 1 to 2, 1 to 5 and 1 to 10 for scaling: invention/mahani-successive-quotient-ratios is a theory of ratio by successive quotients, not scaling problems.'
+  searches:
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": invention/abu-wafa-debt-multiplication (a rule for multiplying with a debt as a middle step) and invention/mahani-successive-quotient-ratios (a theory of ratio), both listed by title and not at Grade 3 level'
+  - 'find_entity.py "fractions" "الكسور" "kasr" "decimal fractions": concept/kasr is a lexical and fiqh term (breaking); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, about decimal fractions, not fair shares or equivalent fractions'
+- code: C1.3
+  text: determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in patterns that have repeating elements, movements, or operations
+  why: 'Determining pattern rules, predicting and finding missing elements: the two pattern records name the kind of pattern and where it appears (taught in lesson c-1 under C1.1 and C1.2) and state no rule to extend.'
+  searches:
+  - 'find_entity.py "geometric patterns" "الزخارف الهندسية" "girih" "tessellation": two records, concept/islamic-geometric-patterns and concept/girih, taught in lesson c-1; neither states a pattern rule or a relationship among numbers'
+  - 'find_entity.py "al-Khwarizmi" "الخوارزمي" "algorithm" "algebra": concept/algebra, taught in lesson c-2 under C2.1; its examples are equations with roots and squares, not equivalent expressions with whole numbers up to 1000'
+- code: C1.4
+  text: create and describe patterns to illustrate relationships among whole numbers up to 1000
+  why: 'Patterns showing relationships among whole numbers up to 1000: no record is about number patterns at this level.'
+  searches:
+  - 'find_entity.py "geometric patterns" "الزخارف الهندسية" "girih" "tessellation": two records, concept/islamic-geometric-patterns and concept/girih, taught in lesson c-1; neither states a pattern rule or a relationship among numbers'
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "algorism" "place value": one method record, invention/algorism, taught in lesson b-1; nothing on comparing, ordering, rounding or counting by steps'
+- code: C2.2
+  text: determine whether given sets of addition, subtraction, multiplication, and division expressions are equivalent or not
+  why: 'Deciding whether sets of expressions are equivalent: concept/algebra is taught for the unknown (C2.1); it does not compare given addition, subtraction, multiplication and division expressions.'
+  searches:
+  - 'find_entity.py "al-Khwarizmi" "الخوارزمي" "algorithm" "algebra": concept/algebra, taught in lesson c-2 under C2.1; its examples are equations with roots and squares, not equivalent expressions with whole numbers up to 1000'
+  - 'find_entity.py "multiplication" "الضرب" "division" "القسمة": hits are the mint (دار الضرب), the division of spoils and of realms, and Muwatta reports; no record on multiplication or division facts, arrays or properties of operations'
+- code: C2.3
+  text: identify and use equivalent relationships for whole numbers up to 1000, in various contexts
+  why: 'Using equivalent relationships for whole numbers up to 1000: no record states such relationships at this level.'
+  searches:
+  - 'find_entity.py "al-Khwarizmi" "الخوارزمي" "algorithm" "algebra": concept/algebra, taught in lesson c-2 under C2.1; its examples are equations with roots and squares, not equivalent expressions with whole numbers up to 1000'
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "algorism" "place value": one method record, invention/algorism, taught in lesson b-1; nothing on comparing, ordering, rounding or counting by steps'
+- code: C3.1
+  text: solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events
+  why: 'Writing and executing code with sequential, concurrent and repeating events: no record is about code.'
+  searches:
+  - 'find_entity.py "programming" "البرمجة" "code" "automaton": invention/jazari-musical-boat (an automaton) and unrelated hits (a fatwa on discount codes, a chivalry code); no record about writing, executing or altering code'
+  - 'find_entity.py "al-Khwarizmi" "الخوارزمي" "algorithm" "algebra": invention/algorism explains the origin of the word algorithm and is taught in lesson b-1 for written steps, not for code'
+- code: C3.2
+  text: read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes
+  why: 'Reading and altering code and describing how changes affect the outcome: no record is about code.'
+  searches:
+  - 'find_entity.py "programming" "البرمجة" "code" "automaton": invention/jazari-musical-boat (an automaton) and unrelated hits (a fatwa on discount codes, a chivalry code); no record about writing, executing or altering code'
+  - 'find_entity.py "al-Khwarizmi" "الخوارزمي" "algorithm" "algebra": invention/algorism explains the origin of the word algorithm and is taught in lesson b-1 for written steps, not for code'
+- code: D1.1
+  text: sort sets of data about people or things according to two and three attributes, using tables and logic diagrams, including Venn, Carroll, and tree diagrams, as appropriate
+  why: 'Sorting data by two and three attributes with Venn, Carroll and tree diagrams: no record sorts data by attributes or uses these diagrams.'
+  searches:
+  - 'find_entity.py "statistics" "الإحصاء" "frequency analysis" "census": invention/frequency-analysis-al-kindi, event/egypt-census-837 and event/abbasid-census-200; the first two are taught in lesson d-1; none sorts data by two or three attributes with Venn, Carroll or tree diagrams'
+  - 'find_entity.py "bar graph" "pictograph" "رسم بياني" "chart": hits are music chart records (award/uk-albums-chart and others), not graphs of data; grep -ril "pictograph|bar graph" over content/en/concept, invention, work: no file'
+- code: D1.3
+  text: display sets of data, using many-to-one correspondence, in pictographs and bar graphs with proper sources, titles, and labels, and appropriate scales
+  why: 'Displaying data in pictographs and bar graphs with titles, labels and scales: no record is about graphs of data.'
+  searches:
+  - 'find_entity.py "bar graph" "pictograph" "رسم بياني" "chart": hits are music chart records (award/uk-albums-chart and others), not graphs of data; grep -ril "pictograph|bar graph" over content/en/concept, invention, work: no file'
+  - 'find_entity.py "statistics" "الإحصاء" "frequency analysis" "census": invention/frequency-analysis-al-kindi, event/egypt-census-837 and event/abbasid-census-200; the first two are taught in lesson d-1; none sorts data by two or three attributes with Venn, Carroll or tree diagrams'
+- code: D1.4
+  text: determine the mean and identify the mode(s), if any, for various data sets involving whole numbers, and explain what each of these measures indicates about the data
+  why: 'Determining the mean and mode of data sets: no record is about mean or mode.'
+  searches:
+  - 'find_entity.py "average" "المتوسط" "mean" "mode": hits are the Mediterranean (المتوسط) and a hadith mode of transmission; no record on mean or mode'
+  - 'find_entity.py "bar graph" "pictograph" "رسم بياني" "chart": hits are music chart records (award/uk-albums-chart and others), not graphs of data; grep -ril "pictograph|bar graph" over content/en/concept, invention, work: no file'
+- code: D2.1
+  text: use mathematical language, including the terms “impossible”, “unlikely”, “equally likely”, “likely”, and “certain”, to describe the likelihood of events happening, and use that likelihood to make predictions and informed decisions
+  why: 'Describing likelihood with the terms impossible to certain: concept/nard and concept/maysir record rulings on games of chance and do not describe how likely events are.'
+  searches:
+  - 'find_entity.py "probability" "الاحتمال" "chance" "dice": concept/nard and concept/maysir are rulings on games of chance, not descriptions of how likely events are'
+  - 'grep -rilE "unlikely|equally likely" content/en/concept content/en/invention content/en/work content/en/event: files that contain the words (concept/huzn, manara, ithbat, nikah-fiqh), none a record about likelihood by its title'
+- code: D2.2
+  text: make and test predictions about the likelihood that the mean and the mode(s) of a data set will be the same for data collected from different populations
+  why: 'Predicting whether the mean and mode of data collected from different populations will match: no record is about mean, mode or sampling different populations.'
+  searches:
+  - 'find_entity.py "probability" "الاحتمال" "chance" "dice": concept/nard and concept/maysir are rulings on games of chance, not descriptions of how likely events are'
+  - 'find_entity.py "average" "المتوسط" "mean" "mode": hits are the Mediterranean (المتوسط) and a hadith mode of transmission; no record on mean or mode'
+- code: E1.1
+  text: sort, construct, and identify cubes, prisms, pyramids, cylinders, and cones by comparing their faces, edges, vertices, and angles
+  why: 'Sorting, constructing and identifying cubes, prisms, pyramids, cylinders and cones by faces, edges, vertices and angles: no record names these solids or their parts.'
+  searches:
+  - 'find_entity.py "cube" "مكعب" "pyramid" "هرم" "cylinder" "أسطوانة": hits are personal names (Harim, Hurrem), invention/taqi-six-cylinder-pump and work/mahani-sphere-cylinder-commentary; no record that sorts solids by faces, edges and vertices'
+  - 'find_entity.py "dome" "قبة" "muqarnas" "مقرنص": mostly buildings without prose, and concept/muqarnas and invention/kashi-muqarnas-mensuration, taught in lesson e-1 under E1.2'
+- code: E1.3
+  text: identify congruent lengths, angles, and faces of three-dimensional objects by mentally and physically matching them, and determine if the objects are congruent
+  why: 'Identifying congruent lengths, angles and faces of three-dimensional objects: no record is about congruence.'
+  searches:
+  - 'find_entity.py "cube" "مكعب" "pyramid" "هرم" "cylinder" "أسطوانة": hits are personal names (Harim, Hurrem), invention/taqi-six-cylinder-pump and work/mahani-sphere-cylinder-commentary; no record that sorts solids by faces, edges and vertices'
+  - 'find_entity.py "geometric patterns" "الزخارف الهندسية" "girih" "tessellation": two records, concept/islamic-geometric-patterns and concept/girih, taught in lesson c-1; neither states a pattern rule or a relationship among numbers'
+- code: E1.4
+  text: give and follow multistep instructions involving movement from one location to another, including distances and half- and quarter-turns
+  why: 'Giving and following multistep instructions for movement with distances and half- and quarter-turns: no record gives such instructions.'
+  searches:
+  - 'find_entity.py "qibla" "القبلة" "direction" "navigation": records on the qibla and its change name a direction for prayer; none gives multistep instructions with distances or half- and quarter-turns'
+  - 'grep -rilE "quarter turn|half turn|quarter-turn" content/en/concept content/en/invention content/en/work content/en/event: one file, invention/ibn-al-shatir-lunar-model, which by its title is an astronomical model, not instructions for movement'
+- code: E2.1
+  text: use appropriate units of length to estimate, measure, and compare the perimeters of polygons and curved shapes, and construct polygons with a given perimeter
+  why: 'Estimating, measuring and comparing perimeters: no record is about perimeter.'
+  searches:
+  - 'find_entity.py "dhira cubit" "ذراع" "farsakh" "mile unit of length": only concept/dhira-fiqh, whose Urdu record does not state the measuring cubit, so no connection to it can be written in all three languages'
+  - 'grep -rilE "kilometre|kilometer" content/en/concept content/en/invention content/en/work: files that contain the word in passing (concept/kahana, al-sidq-truthfulness, aghac, rabigh), none a record about metric units or benchmarks'
+- code: E2.2
+  text: explain the relationships between millimetres, centimetres, metres, and kilometres as metric units of length, and use benchmarks for these units to estimate lengths
+  why: 'The relationships among millimetres, centimetres, metres and kilometres: no record is about metric units of length.'
+  searches:
+  - 'find_entity.py "dhira cubit" "ذراع" "farsakh" "mile unit of length": only concept/dhira-fiqh, whose Urdu record does not state the measuring cubit, so no connection to it can be written in all three languages'
+  - 'grep -rilE "kilometre|kilometer" content/en/concept content/en/invention content/en/work: files that contain the word in passing (concept/kahana, al-sidq-truthfulness, aghac, rabigh), none a record about metric units or benchmarks'
+- code: E2.3
+  text: use non-standard units appropriately to estimate, measure, and compare capacity, and explain the effect that overfilling or underfilling, and gaps between units, have on accuracy
+  why: 'Non-standard units for capacity and the effect of overfilling, underfilling and gaps: the sa'' is a fixed legal measure, taught under E2.5 in lesson e-2; no record is about filling a unit accurately.'
+  searches:
+  - 'find_entity.py "mudd" "صاع" "sa'' measure" "capacity measure": concept/saa and concept/measure-sa; the sa'' is a fixed legal measure whose size the jurists dispute, taught in lesson e-2 under E2.5; no record on filling or overfilling a unit'
+  - 'find_entity.py "dhira cubit" "ذراع" "farsakh" "mile unit of length": only concept/dhira-fiqh, whose Urdu record does not state the measuring cubit, so no connection to it can be written in all three languages'
+- code: E2.4
+  text: compare, estimate, and measure the mass of various objects, using a pan balance and non-standard units
+  why: 'Comparing, estimating and measuring mass with a pan balance and non-standard units: no record is about comparing masses.'
+  searches:
+  - 'find_entity.py "ratl" "رطل" "mithqal" "weights and measures": only media/walters-476-glass-weight, a photograph record of a weight, not a comparison of masses'
+  - 'grep -rilE "pan balance" content/en/concept content/en/invention content/en/work content/en/event: one file, invention/biruni-displacement-vessel, which by its title is a displacement vessel, not a comparison of masses with non-standard units'
+- code: E2.7
+  text: compare the areas of two-dimensional shapes by matching, covering, or decomposing and recomposing the shapes, and demonstrate that different shapes can have the same area
+  why: 'Comparing areas by matching, covering or decomposing and recomposing shapes: concept/ilm-al-misaha is taught under E2.8 for the unit of area; it does not compare areas of shapes by these methods.'
+  searches:
+  - 'find_entity.py "area" "مساحة" "ilm al-misaha" "square measure": concept/ilm-al-misaha (taught in lesson e-4 under E2.8) and invention/kashi-muqarnas-mensuration (lesson e-1); neither compares areas by matching, covering or decomposing, or uses square centimetres or metres'
+  - 'grep -rilE "square centimetre|square metre" content/en/concept content/en/invention content/en/work content/en/event: one file, invention/taqi-six-cylinder-pump, a pump record, not about measuring or comparing areas'
+- code: E2.9
+  text: use square centimetres (cm2) and square metres (m2) to estimate, measure, and compare the areas of various two-dimensional shapes, including those with curved sides
+  why: 'Square centimetres and square metres for estimating and comparing areas: no record uses these units.'
+  searches:
+  - 'find_entity.py "area" "مساحة" "ilm al-misaha" "square measure": concept/ilm-al-misaha (taught in lesson e-4 under E2.8) and invention/kashi-muqarnas-mensuration (lesson e-1); neither compares areas by matching, covering or decomposing, or uses square centimetres or metres'
+  - 'grep -rilE "square centimetre|square metre" content/en/concept content/en/invention content/en/work content/en/event: one file, invention/taqi-six-cylinder-pump, a pump record, not about measuring or comparing areas'
+- code: F1.1
+  text: estimate and calculate the change required for various simple cash transactions involving whole-dollar amounts and amounts of less than one dollar
+  why: 'Calculating the change in simple cash transactions: no record is about making change.'
+  searches:
+  - 'find_entity.py "dinar" "دينار" "dirham" "coinage": records on minting (event/hajjaj-mint-reform, event/abd-al-malik-coinage) and on rulings; none about change in a cash transaction'
+  - 'find_entity.py "change" "الصرف" "currency exchange" "coin": concept/currency-exchange-sarf (Arabic prose only), a ruling on exchanging money, not making change'
+- code: D1.2
+  text: collect data through observations, experiments, and interviews to answer questions of interest that focus on qualitative and quantitative data, and organize the data using frequency tables
+  why: 'Collecting data by observation, experiment and interview and organizing it in frequency tables: the records held show counts made long ago, not data collected and tabulated by the student.'
+  searches:
+  - 'find_entity.py "statistics" "الإحصاء" "frequency analysis" "census": event/egypt-census-837 (a recorded count of looms, taught in lesson d-1 under D1.5) and invention/frequency-analysis-al-kindi (letter counting for breaking a cipher, removed from Grade 3 as unsuitable: its subject is cryptanalysis); neither collects data or builds a frequency table'
+  - 'find_entity.py "bar graph" "pictograph" "رسم بياني" "chart": hits are music chart records, not tables of collected data'
+- code: E2.6
+  text: use analog and digital clocks and timers to tell time in hours, minutes, and seconds
+  why: 'Telling time on analog and digital clocks and timers: the clock record shows seasonal hours signalled by doors, balls and lights, with nothing to read in hours, minutes and seconds.'
+  searches:
+  - 'find_entity.py "clock" "ساعة" "minutes" "hour": invention/jazari-castle-clock shows seasonal (unequal) hours by doors, falcons and lights; linked in a lesson first and removed by the fleet review because there is no dial or digital display to read'
+  - 'find_entity.py "clock" "ساعة" "minutes" "hour": the other clock records (invention/elephant-clock, invention/jazari-swordsman-candle-clock, invention/shatir-polar-sundial, invention/taqi-astronomical-clock), taken by title and summary, are devices for seasonal hours, a candle, a sundial or observation, not clocks read in hours, minutes and seconds; the remaining hits are the Hour of Friday and of the Last Day'

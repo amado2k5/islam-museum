@@ -1,0 +1,297 @@
+course: course/ca-on-g11-hrt3m
+gaps:
+- code: A1.1
+  text: explore a variety of topics related to world religions and belief traditions […] to identify topics for research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: identify key concepts […] related to their selected topics
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: formulate effective questions to guide their research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: create appropriate research plans to investi­gate their selected topics […], ensuring that their plans follow guidelines for ethical research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: locate and select information relevant to their investigations from a variety of primary sources […] and/or secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.3
+  text: based on preliminary research, for each investigation formulate a research question and identify potential subtopics to focus their research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.1
+  text: assess various aspects of information gath­ered from primary and secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.2
+  text: record and organize information and key ideas using a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.3
+  text: analyse and interpret research information […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.4
+  text: demonstrate academic honesty by docu­menting the sources of all information generated through research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.5
+  text: synthesize findings and formulate conclu­sions […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.1
+  text: use an appropriate format […] to communicate the results of their research and inquiry effectively for a specific audience and purpose
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.2
+  text: use terms relating to world religions and belief traditions correctly […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.3
+  text: clearly communicate the results of their inquiries […], and follow appropriate conventions for acknowledging sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.4
+  text: demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.1
+  text: identify diverse religions and belief traditions that are found in Canada […]
+  why: Asks the student to identify the religions found in Canada; the museum holds no record on Canada's religious makeup or on those traditions.
+  searches:
+  - 'find_entity.py "Muslims in Canada" "مسلمو كندا" "Canadian Muslims": two source records (Muslims in Canada Archives; a National Council of Canadian Muslims press-release source) and no entity record'
+  - 'find_entity.py "Christianity" "نصرانية" "Judaism" "اليهودية": Muwatta passages and place/al-yahudiyya, a town; no record on those traditions'
+  - 'find_entity.py "Hinduism" "هندوسية" "Buddhism" "Sikh": no entity record of those traditions (one Sikh-related event and two sources)'
+- code: B1.2
+  text: identify reasons for the study of world religions and belief traditions […]
+  why: Asks for reasons for the study of world religions; the museum holds no record on the study of religions.
+  searches:
+  - 'find_entity.py "comparative religion" "مقارنة الأديان" "study of religions": one YouTube channel source only, no entity record'
+  - 'find_entity.py "religious diversity" "تعدد الأديان" "pluralism": one source record on Bosnian religious leaders, no entity record'
+- code: B1.3
+  text: identify and describe local and global contexts in which it is important to have an understanding of diverse religions and belief traditions
+  why: Asks for local and global contexts in which understanding diverse religions matters; the museum holds no record on this.
+  searches:
+  - 'find_entity.py "religious diversity" "تعدد الأديان" "pluralism": one source record on Bosnian religious leaders, no entity record'
+  - 'find_entity.py "Muslims in Canada" "مسلمو كندا" "Canadian Muslims": two source records (Muslims in Canada Archives; a National Council of Canadian Muslims press-release source) and no entity record'
+- code: B2.1
+  text: explain the various terms used to classify religions and belief traditions and the values implicit in these classifications […]
+  why: Asks for the terms used to classify religions (sect, cult, denomination); the museum's nearest records classify Islamic legal schools, not religions.
+  searches:
+  - 'find_entity.py "sect" "فرقة" "denomination" "madhhab": concept/madhhab and the four legal schools, which classify Islamic law, not religions in general'
+  - 'find_entity.py "polytheism" "شرك" "idolatry": concept/shirk is the Islamic term for associating partners with God; no record treats polytheism, pantheism or animism as study terms'
+- code: B2.2
+  text: define and appropriately use terms that relate to the study of world religions and belief traditions […]
+  why: Asks for terms such as atheism, agnosticism, monotheism, pantheism, animism; the museum has the Islamic term shirk only, not these study terms.
+  searches:
+  - 'find_entity.py "atheism" "إلحاد" "agnosticism": six records, none about atheism or agnosticism (Muwatta passages matched other words)'
+  - 'find_entity.py "polytheism" "شرك" "idolatry": concept/shirk is the Islamic term for associating partners with God; no record treats polytheism, pantheism or animism as study terms'
+- code: B2.3
+  text: explain important concepts related to the study of religions and belief traditions […]
+  why: Asks for concepts of the study of religion (insider-outsider challenge, reductionism, thick description); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "comparative religion" "مقارنة الأديان" "study of religions": one YouTube channel source only, no entity record'
+  - 'find_entity.py "sect" "فرقة" "denomination" "madhhab": concept/madhhab and the four legal schools, which classify Islamic law, not religions in general'
+- code: B3.1
+  text: identify and explain the rationale for at least two recognized conceptual or methodological approaches to the study of religions and belief traditions […]
+  why: Asks for recognised approaches to the study of religion (theological, anthropological, historical, and others); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "comparative religion" "مقارنة الأديان" "study of religions": one YouTube channel source only, no entity record'
+  - 'find_entity.py "sect" "فرقة" "denomination" "madhhab": concept/madhhab and the four legal schools, which classify Islamic law, not religions in general'
+- code: B3.2
+  text: identify the strengths and limitations of var­ious approaches to the study of religions and belief traditions […]
+  why: Asks for strengths and limits of approaches to the study of religion; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "comparative religion" "مقارنة الأديان" "study of religions": one YouTube channel source only, no entity record'
+  - 'find_entity.py "doubt" "شك" "scepticism", then "reason" "عقل" "aql", then "iman" "إيمان" "faith": concept/doubt-shakk is doubt in law, concept/aql is reason as legal capacity, concept/iman is faith; none treats the roles of doubt, faith, intuition and reason across traditions'
+- code: B3.3
+  text: describe their own perspective on religions and belief traditions
+  why: 'skills expectation: names no subject matter; it asks for the student''s own perspective'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B3.4
+  text: identify biases that may inform their own perspective on religions and belief traditions […]
+  why: 'skills expectation: names no subject matter; it asks for the student''s own perspective'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B3.5
+  text: describe the roles of doubt, faith, intuition, and reason in religions and belief traditions
+  why: Asks for the roles of doubt, faith, intuition and reason across traditions; the museum's records on doubt and reason are about law, and its record on faith is not a comparison.
+  searches:
+  - 'find_entity.py "doubt" "شك" "scepticism", then "reason" "عقل" "aql", then "iman" "إيمان" "faith": concept/doubt-shakk is doubt in law, concept/aql is reason as legal capacity, concept/iman is faith; none treats the roles of doubt, faith, intuition and reason across traditions'
+  - 'find_entity.py "comparative religion" "مقارنة الأديان" "study of religions": one YouTube channel source only, no entity record'
+- code: C1.1
+  text: explain the connection between religions/belief traditions and human efforts to understand existence and the nature of reality […]
+  why: Asks how religions connect with human efforts to understand existence and reality; the museum holds no record framed this way.
+  searches:
+  - 'find_entity.py "meaning of life" "الغاية من الخلق" "purpose of creation": no relevant record (one fiqh term, ruqba, matched on a word)'
+  - 'find_entity.py "karma" "reincarnation" "nirvana": only unrelated names (a person named Karman, a place)'
+- code: C1.2
+  text: explain the ways in which individual human needs […] can be addressed through religions and belief traditions
+  why: Asks how individual human needs are met through religions; the museum holds no record on this.
+  searches:
+  - 'find_entity.py "human needs" "حاجات الإنسان" "psychological security": no real record'
+  - 'find_entity.py "meaning of life" "الغاية من الخلق" "purpose of creation": no relevant record (one fiqh term, ruqba, matched on a word)'
+- code: C1.3
+  text: explain the ways in which community needs […] can be met through religions and belief traditions
+  why: Asks how community needs are met through religions; the museum holds no record framed on community needs.
+  searches:
+  - 'find_entity.py "human needs" "حاجات الإنسان" "psychological security": no real record'
+  - 'find_entity.py "ritual" "طقوس" "rites of passage": concept/tahara and the ritual-bath records on purity only; none classifies rituals or treats rites in general'
+- code: C1.4
+  text: analyse how experiences and practices asso­ciated with various belief systems may change over time, and suggest reasons for the changes
+  why: Asks to analyse how experiences and practices change over time and why; no record of the museum is built to answer this across belief systems.
+  searches:
+  - 'find_entity.py "human needs" "حاجات الإنسان" "psychological security": no real record'
+  - 'find_entity.py "ritual" "طقوس" "rites of passage": concept/tahara and the ritual-bath records on purity only; none classifies rituals or treats rites in general'
+- code: C2.1
+  text: explain how the journey of life can be seen as a quest for meaning, and identify common questions associated with the search for meaning and purpose in life […]
+  why: Asks how the journey of life can be seen as a quest for meaning and which common questions arise; the museum holds no record on this.
+  searches:
+  - 'find_entity.py "meaning of life" "الغاية من الخلق" "purpose of creation": no relevant record (one fiqh term, ruqba, matched on a word)'
+  - 'find_entity.py "karma" "reincarnation" "nirvana": only unrelated names (a person named Karman, a place)'
+- code: C2.2
+  text: identify and explain concepts associated with the journey of life and the quest for meaning in various religions and belief traditions […]
+  why: Asks for concepts of the journey of life across traditions (karma, jihad, nirvana, vocation, covenant); the museum's jihad record is the fiqh of fighting, so linking it here would stretch it, and there is no record for the other concepts.
+  searches:
+  - 'find_entity.py "jihad" "جهاد": concept/jihad treats fighting in the way of God in fiqh; the expectation lists jihad beside karma and nirvana as a concept of the journey of life, and the museum has no record that sets it in that frame'
+  - 'find_entity.py "karma" "reincarnation" "nirvana": only unrelated names (a person named Karman, a place)'
+- code: D1.6
+  text: explain how differing interpretations of spe­cific teachings have arisen within various faith communities […]
+  why: Asks how differing interpretations of specific teachings arose within faith communities; the museum's record on disagreement is about jurists' rulings, not interpretations of teachings across communities.
+  searches:
+  - 'find_entity.py "interpretation" "تأويل" "differing interpretations" "ikhtilaf": concept/ikhtilaf is disagreement among jurists on legal rulings, and tafsir volumes; no record on how interpretations of teachings arose across faith communities'
+  - 'find_entity.py "sect" "فرقة" "denomination" "madhhab": concept/madhhab and the four legal schools, which classify Islamic law, not religions in general'
+- code: E2.1
+  text: describe ways in which various religions and belief traditions use rites and rituals to provide a spiritual context for understanding human experience
+  why: Asks how rites and rituals give a spiritual context for human experience across traditions; no record of the museum is framed this way.
+  searches:
+  - 'find_entity.py "ritual" "طقوس" "rites of passage": concept/tahara and the ritual-bath records on purity only; none classifies rituals or treats rites in general'
+  - 'find_entity.py "human needs" "حاجات الإنسان" "psychological security": no real record'
+- code: E2.3
+  text: classify rituals and practices of various religions and belief systems in terms of cate­gories such as almsgiving, asceticism, atonement, anointing, calls to worship, covenant, dietary laws, sacrifice, holy days, vision quest
+  why: Asks to classify rituals into categories (almsgiving, asceticism, atonement, covenant, sacrifice, and others); the museum holds no classification of rituals.
+  searches:
+  - 'find_entity.py "ritual" "طقوس" "rites of passage": concept/tahara and the ritual-bath records on purity only; none classifies rituals or treats rites in general'
+  - 'find_entity.py "sect" "فرقة" "denomination" "madhhab": concept/madhhab and the four legal schools, which classify Islamic law, not religions in general'
+- code: F1.1
+  text: identify and explain the significance of signs and symbols associated with various religions and belief traditions […]
+  why: Asks for the significance of signs and symbols of traditions; the museum holds no record on religious signs and symbols.
+  searches:
+  - 'find_entity.py "symbol" "رمز" "crescent": fiqh records on sighting the crescent for the months; none on religious signs and symbols'
+  - 'find_entity.py "popular culture" "ثقافة شعبية" "film": film records and film-news sources; none on how popular culture uses religious symbols'
+- code: F2.1
+  text: analyse the ways in which religious pluralism is reflected in Canadian society and culture […]
+  why: Asks how religious pluralism shows in Canadian society and culture; the museum holds no record on Canada's demographics or policy.
+  searches:
+  - 'find_entity.py "Muslims in Canada" "مسلمو كندا" "Canadian Muslims": two source records (Muslims in Canada Archives; a National Council of Canadian Muslims press-release source) and no entity record'
+  - 'find_entity.py "religious diversity" "تعدد الأديان" "pluralism": one source record on Bosnian religious leaders, no entity record'
+- code: F2.2
+  text: evaluate the influence of various religions and belief traditions on the policies and practices of social and political institutions […]
+  why: Asks about the influence of religions on Canadian institutions such as the constitution, hospitals and schools; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "state and religion" "الدولة والدين" "constitution": event/constitution-of-medina and an Ottoman constitution; not the Canadian constitution, hospitals or schools'
+  - 'find_entity.py "Canadian" "Ontario" "أونتاريو" "school": place/ontario has no prose; the other hits are Islamic legal schools'
+- code: F3.1
+  text: explain why tensions and debates have arisen between various faith communities and society […]
+  why: Asks why tensions arose between faith communities and society (Doukhobors, tribunals, satyagraha); the museum holds no record on these cases.
+  searches:
+  - 'find_entity.py "Doukhobors" "kirpan" "religious tribunal": no real record'
+  - 'find_entity.py "Muslims in Canada" "مسلمو كندا" "Canadian Muslims": two source records (Muslims in Canada Archives; a National Council of Canadian Muslims press-release source) and no entity record'
+- code: F3.2
+  text: explain how leaders from various religions and belief traditions have used religion to oppose prejudice and discrimination […]
+  why: Asks how leaders used religion to oppose prejudice; the Prophet is named in the example list, but the museum's sermon record does not speak of prejudice, so linking it would stretch it.
+  searches:
+  - 'entity_brief.py event/farewell-sermon-at-arafat --full, searched for "non-Arab" "superior" "piety" "red" "black" "white": no passage on prejudice or discrimination; the record states the sanctity of blood and property, usury, women, the Book of God and brotherhood among Muslims'
+  - 'find_entity.py "Gandhi" "Martin Luther King" "Mother Teresa" "activist": person/khan-abdul-ghaffar-khan only, used in lesson d-4'
+- code: F3.3
+  text: evaluate the influence of prejudice on public perceptions of the practices of various religious institutions and belief traditions […]
+  why: Asks to evaluate the influence of prejudice on public perceptions of practices; the museum's records on this are a debate programme and a UN observance, neither of which evaluates public perceptions of practices.
+  searches:
+  - 'find_entity.py "Doukhobors" "kirpan" "religious tribunal": no real record'
+  - 'find_entity.py "popular culture" "ثقافة شعبية" "film": film records and film-news sources; none on how popular culture uses religious symbols'
+- code: F3.4
+  text: analyse how specific laws or historical events have affected relationships between the state and groups holding particular religious beliefs […]
+  why: Asks how specific laws or events affected relations between the state and religious groups (anti-conversion laws, the Iranian Revolution, French law); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "Iranian Revolution" "الثورة الإيرانية" "hijab ban": no real record'
+  - 'find_entity.py "state and religion" "الدولة والدين" "constitution": event/constitution-of-medina and an Ottoman constitution; not the Canadian constitution, hospitals or schools'
+- code: F4.1
+  text: identify ways in which religious or quasi-religious references or symbols are incorporated into civil ceremonies […]
+  why: Asks about religious references in civil ceremonies (flags, the national anthem, Remembrance Day); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "national anthem" "Remembrance Day" "civil ceremony": no real record'
+  - 'find_entity.py "state and religion" "الدولة والدين" "constitution": event/constitution-of-medina and an Ottoman constitution; not the Canadian constitution, hospitals or schools'
+- code: F4.2
+  text: analyse ways in which popular culture uses traditional symbols, ideas, and other elements associated with various religions and belief traditions […]
+  why: Asks how popular culture uses traditional symbols and ideas; the museum holds no record on this.
+  searches:
+  - 'find_entity.py "popular culture" "ثقافة شعبية" "film": film records and film-news sources; none on how popular culture uses religious symbols'
+  - 'find_entity.py "symbol" "رمز" "crescent": fiqh records on sighting the crescent for the months; none on religious signs and symbols'
+- code: F4.3
+  text: analyse and critique from a personal per­spective ways in which elements of various religions and belief traditions are imported into popular culture
+  why: Asks to analyse and critique how religious elements are imported into popular culture; the museum holds no record on this.
+  searches:
+  - 'find_entity.py "popular culture" "ثقافة شعبية" "film": film records and film-news sources; none on how popular culture uses religious symbols'
+  - 'find_entity.py "symbol" "رمز" "crescent": fiqh records on sighting the crescent for the months; none on religious signs and symbols'
+- code: E1.4
+  text: describe how major historical events and movements have shaped the daily practices of various religions and belief traditions […]
+  why: The only record tried for the change of the direction of prayer was withdrawn after the reviewer found hostile language about a religious group in it, so no remaining record serves this expectation.
+  searches:
+  - 'find_entity.py "qibla" "قبلة" "change of direction": event/change-of-qibla, withdrawn from every lesson because its text uses hostile language about Jews in the record''s own voice'
+  - 'practice/salah and passage/quran-4-103 checked: they give the prayer and a verse on its times, not a historical event that changed the practice'
+- code: E2.4
+  text: describe how major historical events and movements have shaped the rituals of various religions and belief traditions […]
+  why: The only record tried for an event that shaped a practice, the change of the qibla, was withdrawn for hostile language about a religious group, so nothing remaining serves this expectation.
+  searches:
+  - 'find_entity.py "qibla" "قبلة": event/change-of-qibla, withdrawn from every lesson (hostile language about Jews in the record''s own voice)'
+  - 'practice/salah: gives the prayer''s origin in the Isra and its five times, not a later event that shaped it'
+- code: D1.1
+  text: explain the concept of the supernatural and the role of entities associated with it in various religions and belief traditions […]
+  why: The one record that served it, the angels, was withdrawn as a precaution (it carries a preacher's remark contrasting the Companions with "the Children of Israel"), and no remaining record names entities of the supernatural.
+  searches:
+  - 'concept/malaika: withdrawn from these lessons; a student who opens the record reads the remark, and the founder may restore the link'
+  - 'concept/tawhid and concept/five-pillars checked: they state beliefs and acts, not the role of beings associated with the supernatural'
+- code: E2.5
+  text: explain how key teachings of various religions and belief systems are reflected in their rites of passage […]
+  why: The only record tried, the marriage contract, gives the schools' legal definitions of a contract and does not describe a rite of passage or the teaching it carries.
+  searches:
+  - 'find_entity.py "nikah" "marriage" "زواج": practice/nikah gives juristic definitions of the contract (Hanafi and Shafi''i wordings), not a rite or the teaching it carries, and the Hanafi wording is a legal formula about a woman that a card cannot present without a named jurist'
+  - 'find_entity.py "rite of passage" "birth" "coming of age": practice/aqiqa, a birth rite, exists in the museum; it is not linked from this course and the reviewer did not propose it for E2.5'

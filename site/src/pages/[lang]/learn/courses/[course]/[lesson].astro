@@ -31,7 +31,7 @@ const steps = [
 const stepN = (id: string) => steps.find((s) => s.id === id)?.n;
 const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
 ---
-<BaseLayout lang={lang} title={`${title} · ${courseTitle}`} description={summaryOf(l, lang)} path={lessonPath(lang, c, l)} alternates={{ ar: lessonPath("ar", c, l), en: lessonPath("en", c, l), ur: href("ur", l.id) }}>
+<BaseLayout lang={lang} title={`${title} · ${courseTitle}`} description={summaryOf(l, lang)} path={lessonPath(lang, c, l)} alternates={{ ar: lessonPath("ar", c, l), en: lessonPath("en", c, l), ur: lessonPath("ur", c, l) }}>
   <div data-pagefind-body>
     <PageHeader title={title} lede={summaryOf(l, lang)} crumbs={[{ label: T.syllabus.title, href: homePath(lang) }, { label: courseTitle, href: coursePath(lang, c) }, ...(v.strand.node ? [{ label: labelOf(v.strand.node, lang) }] : [])]} crumbsLabel={T.entity.breadcrumb} wing="ideas" titleAttrs={{ "data-pagefind-meta": "title" }}>
       <p class="cx-where">

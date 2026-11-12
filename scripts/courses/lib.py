@@ -10,7 +10,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 BASELINE = "800467e93e2c9ef073807f6bd5c7b717b028f859"  # origin/main when the mission branch was cut (2026-11-11)
 PRODUCTION = "https://islam.museum"
 OUT = os.path.join(ROOT, "docs", "courses-mission", "oracle-output")
-LANGS = ("ar", "en")  # the mission's languages; Urdu is not this mission's lane
+LANGS = ("ar", "en", "ur")  # Urdu joined on the user's instruction of 12 November 2026
 
 
 def sh(cmd, check=False):
@@ -25,12 +25,19 @@ def load(path):
         return yaml.safe_load(f)
 
 
+UNPARSEABLE = []  # (slug, error) for course files that did not parse on the last courses() call
+
+
 def courses():
     """Every course record on disk, by id."""
     out = {}
+    UNPARSEABLE.clear()
     for f in sorted(glob.glob(os.path.join(ROOT, "data", "course", "*.yaml"))):
-        d = yaml.safe_load(open(f, encoding="utf-8"))
-        out[d["id"]] = d
+        try:
+            d = yaml.safe_load(open(f, encoding="utf-8"))
+            out[d["id"]] = d
+        except Exception as e:  # another agent may be half-way through writing a file; one bad file must not stop every gate
+            UNPARSEABLE.append((os.path.basename(f)[:-5], str(e).splitlines()[0]))
     return out
 
 
@@ -62,7 +69,7 @@ def tree(cs, root_id):
 
 class Oracle:
     def __init__(self, num, title):
-        self.num, self.title, self.lines, self.passed, self.failed = num, title, [], 0, []
+        self.num, self.title, self.lines, self.passed, self.failed, self.out_dir = num, title, [], 0, [], None
         self.note(f"ORACLE {num}: {title}")
         dirty = len([l for l in sh("git status --porcelain -- data content site i18n scripts/courses").splitlines() if l.strip()])
         self.note(f"run at commit {sh('git rev-parse HEAD')} on {datetime.datetime.now().astimezone().strftime('%Y-%m-%d %H:%M %Z')}; baseline {BASELINE[:10]}; uncommitted paths under data/ content/ site/ i18n/ scripts/courses/: {dirty}")
@@ -85,8 +92,9 @@ class Oracle:
         last = f"RESULT: GREEN ({self.passed} checks passed)" if not self.failed else f"RESULT: NOT-GREEN ({len(self.failed)} failed: {'; '.join(self.failed)})"
         self.note(last)
         if "--save" in sys.argv:
-            os.makedirs(OUT, exist_ok=True)
-            with open(os.path.join(OUT, slug + ".out"), "w", encoding="utf-8") as f:
+            out = self.out_dir or OUT
+            os.makedirs(out, exist_ok=True)
+            with open(os.path.join(out, slug + ".out"), "w", encoding="utf-8") as f:
                 f.write("\n".join(self.lines) + "\n")
         sys.exit(0)
 
@@ -102,6 +110,7 @@ def quote_official(text):
     because of their example lists. The rule is mechanical and loses no word silently:
       1. every parenthetical that begins "(e.g." is replaced by "[…]" (an omission mark);
       2. if what remains is still longer than 40 words, it is cut after the 40th word and ends with " …".
+         The omission mark "[…]" is not a word and is not counted toward the 40.
     Nothing is reworded, reordered or added. The fidelity check compares a record's text with quote_official(official text).
     """
     out, i, n = [], 0, len(text)

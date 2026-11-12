@@ -1,0 +1,57 @@
+id: course/ca-on-g5-math-f-1
+class: course
+kind: lesson
+label:
+  en: Debts, and moving a debt to someone else
+  ar: الدين، ونقله إلى غيرك
+  ur: قرض، اور قرض کو کسی اور کو منتقل کرنا
+summary:
+  en: What a debt is, who is bound by it, and one way a debt can be transferred among people (F1.1, F1.4).
+  ar: ما الدين، ومن يلتزم به، وإحدى طرق نقل الدين بين الناس، التوقعان F1.1 وF1.4.
+  ur: قرض کیا ہے، اس کا پابند کون ہے، اور قرض لوگوں کے درمیان منتقل کرنے کا ایک طریقہ، توقعات F1.1، F1.4۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g5-math-f
+expectations:
+- code: F1.1
+  text:
+    en: describe several ways money can be transferred among individuals, organizations, and businesses
+    ar: صِف عدة طرق يمكن بها تحويل المال بين الأفراد والمؤسسات والشركات
+    ur: کئی ایسے طریقے بیان کریں جن سے افراد، اداروں اور کاروباروں کے درمیان رقم منتقل کی جا سکتی ہے
+- code: F1.4
+  text:
+    en: explain the concepts of credit and debt, and describe how financial decisions may be impacted by each
+    ar: اشرح مفهومي الائتمان والدين، وصِف كيف يمكن أن يتأثر القرار المالي بكل منهما
+    ur: کریڈٹ اور قرض کے تصورات واضح کریں، اور بیان کریں کہ مالی فیصلے ان میں سے ہر ایک سے کیسے متاثر ہو سکتے ہیں
+connections:
+- position: before
+  kind: invention
+  title:
+    en: A debt binds a person
+    ar: دين يلزم الذمة
+    ur: قرض ذمے کو باندھتا ہے
+  text:
+    en: The Kuwaiti encyclopaedia of jurisprudence records that a debt in the jurists' term is a binding right in the liability, and that debts attach to the debtor's liability, not to his property. Does a debt attach to a person or to property?
+    ar: تذكر الموسوعة الفقهية الكويتية أن الدين في اصطلاح الفقهاء لزوم حق في الذمة، وأن الديون تتعلق بذمة المدين لا بأمواله. هل يتعلق الدين بالشخص أم بماله؟
+    ur: کویتی فقہی انسائیکلو پیڈیا لکھتا ہے کہ فقہا کی اصطلاح میں قرض ذمے میں ایک حق کا لازم ہونا ہے، اور قرض مقروض کے ذمے سے جڑتے ہیں، اس کے مال سے نہیں۔ کیا قرض شخص سے جڑتا ہے یا مال سے؟
+  entity: concept/dayn-fiqh
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+- position: within
+  kind: invention
+  title:
+    en: Passing a debt on
+    ar: نقل الدين
+    ur: قرض کی منتقلی
+  text:
+    en: 'Hawala lexically is transfer; technically it is the transfer of a debt from one liability to another by offer and acceptance between two of three parties: the creditor, the debtor and the one who undertakes payment. The transferor is the debtor, the transferee the creditor, and the debt is the object. It differs from surety in that it releases the transferor''s liability. Who owes whom after a transfer?'
+    ar: 'الحوالة لغة التحول والانتقال، واصطلاحاً نقل الدين من ذمة إلى ذمة، ويتم بإيجاب وقبول بين اثنين من الأطراف الثلاثة: الدائن والمدين والملتزم بالأداء. فالمحيل هو المدين، والمحال هو الدائن، والمحال به هو الدين نفسه. وتفترق الحوالة عن الكفالة والضمان في أن الحوالة تبرئ ذمة المحيل. من يدين لمن بعد الحوالة؟'
+    ur: 'حوالہ لغت میں تبدیل ہونا اور منتقل ہونا ہے، اور اصطلاح میں قرض کو ایک ذمے سے دوسرے ذمے میں منتقل کرنا، جو تین فریقوں میں سے دو کے درمیان ایجاب و قبول سے ہوتا ہے: قرض خواہ، مقروض اور ادائیگی کا ذمہ لینے والا۔ محیل مقروض ہے، محال قرض خواہ ہے، اور محال بہ خود قرض ہے۔ حوالہ کفالت اور ضمانت سے اس میں مختلف ہے کہ حوالہ محیل کے ذمے کو بری کر دیتا ہے۔ منتقلی کے بعد کون کس کا مقروض ہے؟'
+  entity: concept/hawala-debt-transfer
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+order: 1

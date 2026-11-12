@@ -1,0 +1,144 @@
+course: course/ca-on-g11-amu3m
+gaps:
+- code: A1.1
+  text: apply the creative process when performing notated and/or improvised music […]
+  why: 'Performing skills: the creative process in performance; the museum holds no record that can carry it.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: apply the creative process when composing and/or arranging music […]
+  why: 'Composing and arranging skills: the creative process in composition; the museum holds no record that can carry it.'
+  searches:
+  - 'find_entity.py "composition" "تلحين" "composer" "ملحن": two records, a book composition event and person/abu-bakr-aga-composer with no prose; nothing usable'
+  - 'find_entity.py "orchestra" "أوركسترا" "ensemble" "فرقة موسيقية": one building record, Khoja Gaukushan Ensemble, with no prose and no music; nothing on ensembles'
+- code: A2.1
+  text: apply the elements of music and related concepts appropriately and effectively when interpreting and performing notated music […]
+  why: 'Performing skills: interpreting notated music with phrasing, intonation and balance; names no subject matter a record could carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: manipulate the elements of music and related concepts appropriately and effectively when improvising melodies in a variety of musical forms […]
+  why: Improvising melodies in set forms, with a mention of modes and scales from non-Western music; the museum holds no record on improvisation, modes or scales.
+  searches:
+  - 'find_entity.py "improvisation" "ارتجال" "taqsim": three records, all about the division of labour or of sciences; none on improvised music'
+  - 'find_entity.py "scale" "سلم موسيقي" "mode" "نغم": 37 records, all hadith passages on the Scale (the Balance) and the like; no record on musical scales or modes'
+  - 'find_entity.py "maqam" "مقام" "singing" "غناء": the records are shrines and Praiseworthy Station (al-maqam al-mahmud), plus the qiyan and a ban on singing-girls; no record on the musical mode'
+- code: A2.3
+  text: apply the elements of music and related concepts appropriately and effectively when composing and/or arranging music in a variety of forms […]
+  why: Composing in forms such as rondo and theme and variations, with modal scales; no record on musical forms, scales or composing.
+  searches:
+  - 'find_entity.py "composition" "تلحين" "composer" "ملحن": two records, a book composition event and person/abu-bakr-aga-composer with no prose; nothing usable'
+  - 'find_entity.py "scale" "سلم موسيقي" "mode" "نغم": 37 records, all hadith passages on the Scale (the Balance) and the like; no record on musical scales or modes'
+- code: A3.1
+  text: demonstrate technical skills when performing increasingly complex notated and/or improvised music […]
+  why: Technical performing skills (sight-reading, accuracy, fluency); names no subject matter a record could carry.
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.2
+  text: apply compositional techniques when composing and/or arranging music […]
+  why: Compositional techniques, including vocables in First Nation song and raga and tala; the museum holds no record on First Nation song, rhythmic cycles or composing technique.
+  searches:
+  - 'find_entity.py "Aboriginal" "First Nations" "Indigenous" "الشعوب الأصلية": no real record'
+  - 'find_entity.py "rhythm" "إيقاع" "iqa" "tala": concept/iqa is the sitting posture in prayer; the rest are military raids; no record on rhythm or rhythmic cycles'
+  - 'find_entity.py "composition" "تلحين" "composer" "ملحن": two records, a book composition event and person/abu-bakr-aga-composer with no prose; nothing usable'
+- code: A3.3
+  text: use a variety of current technologies in various applications related to music, including composing, arranging, performing, and/or recording music […]
+  why: Using music technologies for composing, performing and recording; the museum holds no record on music technology.
+  searches:
+  - 'find_entity.py "sound recording" "تسجيل صوتي" "music technology" "software": no real record'
+  - 'none: skills expectation'
+- code: B1.1
+  text: deconstruct the elements and other components in musical works through score study and purposeful listening […]
+  why: Score study and listening to deconstruct musical elements; the museum holds no score, no record on musical elements and none on form.
+  searches:
+  - 'find_entity.py "musical notation" "تدوين موسيقي" "notation": one source record about an astronomy edition; no record on musical notation'
+  - 'find_entity.py "scale" "سلم موسيقي" "mode" "نغم": 37 records, all hadith passages on the Scale (the Balance) and the like; no record on musical scales or modes'
+  - 'find_entity.py "music" "موسيقى" "Musiqa": 31 records, none a lesson on this (awards, a film soundtrack, a record label, a singer, a book on music and dance, a fatwa on instruments); the singers and the book are taught in b-2, b-3 and c-1'
+- code: B1.2
+  text: listen in a purposeful way to selections from a wide variety of musical styles and genres, and analyse and reflect on their responses to and interpretation of them […]
+  why: Purposeful listening and a personal response to selections from a range of styles; the museum holds records about singers and a film song (used in b-2, b-3 and c-1) but no record that supplies the listening or the response, which belong to the student and the class.
+  searches:
+  - 'find_entity.py "music" "موسيقى" "Musiqa": 31 records, none a lesson on this (awards, a film soundtrack, a record label, a singer, a book on music and dance, a fatwa on instruments); the singers and the book are taught in b-2, b-3 and c-1'
+  - 'find_entity.py "qawwali" "قوالي" "Sufi music" "سماع": records on Nusrat Fateh Ali Khan, Abida Parveen, Kun Faya Kun and sama'' (a fiqh term); these are taught elsewhere, and none describes the sound well enough to support a listening analysis'
+- code: B1.3
+  text: accurately reproduce, notate, or identify melodic, harmonic, and/or rhythmic examples […]
+  why: Reproducing, notating and identifying melodic, harmonic and rhythmic examples (the document prints this text under code B1.3 in strand C, after the strand B expectation of the same code); the museum holds no record on notation, intervals or rhythm patterns.
+  searches:
+  - 'find_entity.py "musical notation" "تدوين موسيقي" "notation": one source record about an astronomy edition; no record on musical notation'
+  - 'find_entity.py "rhythm" "إيقاع" "iqa" "tala": concept/iqa is the sitting posture in prayer; the rest are military raids; no record on rhythm or rhythmic cycles'
+- code: B3.1
+  text: analyse the impact of the study of music on their personal growth (including the development of their values), their expressive capabilities, their awareness of social issues, and their understanding of other cultures […]
+  why: The student's own growth through music, including understanding other cultures; a personal reflection that names no subject matter a record could carry.
+  searches:
+  - 'find_entity.py "music" "موسيقى" "Musiqa": 31 records, none a lesson on this (awards, a film soundtrack, a record label, a singer, a book on music and dance, a fatwa on instruments); the singers and the book are taught in b-2, b-3 and c-1'
+  - 'find_entity.py "orchestra" "أوركسترا" "ensemble" "فرقة موسيقية": one building record, Khoja Gaukushan Ensemble, with no prose and no music; nothing on ensembles'
+- code: B3.2
+  text: assess their musical skills and knowledge, and develop and implement a plan to ensure continued improvement […]
+  why: Self-assessment of the student's own musical skills and a plan to improve; names no subject matter.
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B3.3
+  text: demonstrate the interpersonal skills, work habits, attitudes, and qualities that are essential to the effective functioning of a musical ensemble […]
+  why: Interpersonal skills and habits in a musical ensemble; names no subject matter a record could carry.
+  searches:
+  - 'find_entity.py "orchestra" "أوركسترا" "ensemble" "فرقة موسيقية": one building record, Khoja Gaukushan Ensemble, with no prose and no music; nothing on ensembles'
+  - 'none: skills expectation'
+- code: B4.1
+  text: assess their interests, skills, and knowledge in relation to a variety of music-related careers […]
+  why: Assessing the student's interests against music-related careers; the museum holds no job record for a musician, singer or muezzin.
+  searches:
+  - 'find_entity.py --class job "musician" "موسيقي" "muezzin" "مؤذن": no real record'
+  - 'find_entity.py "musician" "مغني" "mughanni" "singer": 43 records, mostly al-Mughni (the jurist''s book) and its passages; the musicians the museum holds are taught in b-2'
+- code: B4.2
+  text: analyse the requirements for postsecondary study of music with respect to education and musical proficiency, and assess what they need to do to meet those requirements […]
+  why: Requirements for postsecondary study of music in Ontario; the museum holds no record on programs or auditions.
+  searches:
+  - 'find_entity.py "patronage" "رعاية الفنون" "arts funding" "university music program": two records, a hadith book on manumission and a poet''s patron; nothing on arts funding or music programs'
+  - 'find_entity.py --class job "musician" "موسيقي" "muezzin" "مؤذن": no real record'
+- code: B4.3
+  text: analyse opportunities for, and explain the benefits of, continuing involvement in music and other arts, including opportunities associated with private or public arts organizations […]
+  why: Opportunities for continued involvement in the arts and funding organisations; the museum holds no record on arts organisations or funding.
+  searches:
+  - 'find_entity.py "patronage" "رعاية الفنون" "arts funding" "university music program": two records, a hadith book on manumission and a poet''s patron; nothing on arts funding or music programs'
+  - 'find_entity.py "musician" "مغني" "mughanni" "singer": 43 records, mostly al-Mughni (the jurist''s book) and its passages; the musicians the museum holds are taught in b-2'
+- code: C1.1
+  text: extend their understanding of the elements and other components of music, particularly through practical application and aural recognition, and use appropriate terminology related to these elements […]
+  why: 'Music theory: scales, intervals, triads, seventh chords, cadences and forms, with terminology; the museum holds no record on any of these.'
+  searches:
+  - 'find_entity.py "scale" "سلم موسيقي" "mode" "نغم": 37 records, all hadith passages on the Scale (the Balance) and the like; no record on musical scales or modes'
+  - 'find_entity.py "musical notation" "تدوين موسيقي" "notation": one source record about an astronomy edition; no record on musical notation'
+  - 'find_entity.py "maqam" "مقام" "singing" "غناء": the records are shrines and Praiseworthy Station (al-maqam al-mahmud), plus the qiyan and a ban on singing-girls; no record on the musical mode'
+- code: C1.2
+  text: demonstrate an understanding of, and use correct terminology related to, the concepts of notation in a variety of activities […]
+  why: Notation concepts for small ensembles and arranging; the museum holds no record on musical notation.
+  searches:
+  - 'find_entity.py "musical notation" "تدوين موسيقي" "notation": one source record about an astronomy edition; no record on musical notation'
+  - 'find_entity.py "orchestra" "أوركسترا" "ensemble" "فرقة موسيقية": one building record, Khoja Gaukushan Ensemble, with no prose and no music; nothing on ensembles'
+- code: C3.1
+  text: explain the importance of and demonstrate safe and healthy practices associated with practising, performing, and listening to music […]
+  why: Safe and healthy practices in practising, performing and listening to music; the museum holds no record on hearing safety, ergonomics or voice health.
+  searches:
+  - 'find_entity.py "hearing" "سمع" "noise" "voice health": 70 records about hearing hadith and the divine name as-Sami; none on hearing safety or voice health'
+  - 'find_entity.py "music" "موسيقى" "Musiqa": 31 records, none a lesson on this (awards, a film soundtrack, a record label, a singer, a book on music and dance, a fatwa on instruments); the singers and the book are taught in b-2, b-3 and c-1'
+- code: C3.2
+  text: explain and demonstrate conventions associated with various type of musical performance and production, from the perspective of a performer and an audience member […]
+  why: Conventions of musical performance and production from a performer's and an audience member's view; the museum holds no record on concert or audience conventions, and the adhan and tajwid rules are not performance conventions.
+  searches:
+  - 'find_entity.py "concert" "حفل" "audience" "جمهور": audiences with rulers and republics; no record on concert or audience conventions'
+  - 'find_entity.py "adhan" "أذان" "Quran recitation" "تجويد": practice/adhan and practice/tajwid are rules for the call and for recitation, not conventions of musical performance, and are not music theory terminology'
+- code: C3.3
+  text: demonstrate an understanding of ethical and legal practices with reference to both consumers and producers of music, with particular emphasis on copyright issues […]
+  why: Ethical and legal practice for consumers and producers of music, with copyright; the museum holds no record on music copyright.
+  searches:
+  - 'find_entity.py "copyright" "حقوق المؤلف" "intellectual property": one fatwa on research works after the author''s death; nothing on music, performers or recordings'
+  - 'find_entity.py "music" "موسيقى" "Musiqa": 31 records, none a lesson on this (awards, a film soundtrack, a record label, a singer, a book on music and dance, a fatwa on instruments); the singers and the book are taught in b-2, b-3 and c-1'
+- code: C2.1
+  text: demonstrate an understanding of the development and function and/or theme of various musical forms and conventions […]
+  why: The two remaining records describe an instrument and a singer, not the development or function of a musical form; the one record that touched forms and music (Javahir al-Musiqat) describes its paintings, date and script, not the music it treats.
+  searches:
+  - 'concept/ziryab-fifth-string tried: an added string to an instrument is not the development of a form of music'
+  - 'work/javahir-al-musiqat-i-muhammadi tried: the record describes the manuscript''s paintings, date and script, not the music it treats'

@@ -1,0 +1,40 @@
+id: course/ca-on-g6-math-b-2
+class: course
+kind: lesson
+label:
+  en: Debts and numbers below zero
+  ar: الديون والأعداد دون الصفر
+  ur: دَین اور صفر سے نیچے کے اعداد
+summary:
+  en: Reading integers on number lines, with a debt as an example of a number below zero.
+  ar: قراءة الأعداد الصحيحة على خطوط الأعداد، ومثال الدين على عدد دون الصفر.
+  ur: عددی خطوط پر صحیح اعداد پڑھنا، اور دَین کو صفر سے نیچے کے عدد کی مثال کے طور پر دیکھنا۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g6-math-b
+expectations:
+- code: B1.2
+  text:
+    en: read and represent integers, using a variety of tools and strategies, including horizontal and vertical number lines
+    ar: اقرأ الأعداد الصحيحة الموجبة والسالبة ومثّلها بتشكيلة من الأدوات والاستراتيجيات، ومنها خطوط الأعداد الأفقية والرأسية
+    ur: مثبت اور منفی صحیح اعداد کو مختلف اوزاروں اور حکمتِ عملیوں سے پڑھیں اور ظاہر کریں، جن میں افقی اور عمودی عددی خطوط شامل ہیں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A debt in the middle of a multiplication
+    ar: دين في وسط عملية ضرب
+    ur: ضرب کے بیچ میں ایک دَین
+  text:
+    ar: في كتاب الحساب الذي يحتاج إليه الكتّاب والعمّال يشرح أبو الوفاء البوزجاني ضرب عددين بطريقة تستعمل متمميهما إلى العشرة التالية. في مثال المؤرخ، ثلاثة في خمسة، يظهر من طرح خمسة من ثلاثة دين مقداره اثنان. تقول البطاقة إن هذا شاهد على قبول وسيط سالب في حساب عملي، لا أول عدد سالب في العالم. وتظهر هنا كمية دون الصفر، هي دين مقداره اثنان، خطوةً وسيطة. أين يقع الدين على خط الأعداد؟
+    en: In the arithmetic needed by scribes and officials, Abu al-Wafa al-Buzjani explains multiplication through complements to the next ten. In the historian's example, three times five, subtracting five from three yields a debt of two. The record says this is evidence that a negative middle step was accepted in practical arithmetic, not the world's first negative number. Here a quantity below zero, a debt of two, appears as a middle step. Where does a debt sit on a number line?
+    ur: 'کاتبوں اور عاملوں کی ضرورت کے علم حساب میں ابو الوفا البوزجانی دو اعداد کو اگلی دہائی تک پہنچانے والے تکملوں سے ضرب بتاتے ہیں۔ مؤرخ کی مثال تین ضرب پانچ ہے: تین میں سے پانچ گھٹانا دو کا دَین دیتا ہے۔ اندراج کے مطابق یہ عملی حساب میں منفی وسطی حاصل کی قبولیت کی شہادت ہے، دنیا کا پہلا منفی عدد نہیں۔ یہاں صفر سے نیچے کی ایک مقدار، دو کا دَین، درمیانے مرحلے کے طور پر آتی ہے۔ عددی خط پر دَین کہاں آتا ہے؟'
+  entity: invention/abu-wafa-debt-multiplication
+  sources:
+  - source/abu-wafa-youschkevitch-dsb
+  - source/abu-wafa-mactutor
+order: 2

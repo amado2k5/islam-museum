@@ -1,0 +1,40 @@
+id: course/ca-on-g8-math-d-1
+class: course
+kind: lesson
+label:
+  en: Counting letters to read a hidden message
+  ar: عدّ الحروف لقراءة رسالة مخفية
+  ur: خفیہ پیغام پڑھنے کے لیے حروف گننا
+summary:
+  en: Telling one-variable data from two-variable data, through a count of letters (D1.1).
+  ar: التمييز بين بيانات المتغير الواحد وبيانات المتغيرين من خلال عدّ الحروف، التوقع D1.1.
+  ur: ایک متغیر اور دو متغیرات کے اعداد و شمار میں فرق کرنا، حروف کی گنتی کے ذریعے، توقع D1.1۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g8-math-d
+expectations:
+- code: D1.1
+  text:
+    en: identify situations involving one-variable data and situations involving two-variable data, and explain when each type of data is needed
+    ar: حدِّد المواقف التي تتضمن بيانات بمتغير واحد والمواقف التي تتضمن بيانات بمتغيرين، واشرح متى يلزم كل نوع من البيانات
+    ur: ایسی صورتیں پہچانیں جن میں ایک متغیر کے اعداد و شمار ہوں اور ایسی جن میں دو متغیرات کے اعداد و شمار ہوں، اور بتائیں کہ ہر قسم کے اعداد و شمار کی ضرورت کب پڑتی ہے
+connections:
+- position: within
+  kind: invention
+  title:
+    en: Counting letters to read a hidden message
+    ar: عدّ الحروف لقراءة رسالة مخفية
+    ur: خفیہ پیغام پڑھنے کے لیے حروف گننا
+  text:
+    en: 'Al-Kindi describes counting the letters in a sample of a known language, ranking them by use, and comparing that ranking with the symbols of a concealed message. The record stresses that numbers are not his final verdict: a short message may depart from ordinary usage, and a guess needs checking against letter combinations and context. What would make a count of letters too small to trust?'
+    ar: 'يشرح الكندي طريقة تبدأ بعدّ الحروف في نص من لغة معروفة، وترتيبها بحسب كثرة الاستعمال، ثم مقارنة هذا الترتيب برموز النص المعمى. ويقول السجل إنه لا يجعل العدد حكماً نهائياً: فالرسالة القصيرة قد تخالف العادة، ويحتاج الظن إلى اختبار باقتران الحروف وسياق الكلام. ما الذي يجعل عدّ الحروف قليلاً لا يوثق به؟'
+    ur: 'الکندی ایک ایسا طریقہ بیان کرتا ہے جس میں کسی معلوم زبان کے نمونے میں حروف گنے جاتے ہیں، استعمال کی کثرت کے لحاظ سے انہیں ترتیب دیا جاتا ہے، پھر اس ترتیب کا مخفی پیغام کی علامتوں سے موازنہ کیا جاتا ہے۔ ریکارڈ زور دیتا ہے کہ گنتی اس کا آخری فیصلہ نہیں: چھوٹا پیغام عام استعمال سے ہٹ سکتا ہے، اور اندازے کو حروف کے میل اور عبارت کے سیاق سے پرکھنا پڑتا ہے۔ حروف کی گنتی کو کس بات سے اتنا کم سمجھا جائے کہ اس پر بھروسا نہ ہو؟'
+  entity: invention/frequency-analysis-al-kindi
+  sources:
+  - source/kindi-cryptanalysis-1987
+  - source/tdv-muamma
+order: 1

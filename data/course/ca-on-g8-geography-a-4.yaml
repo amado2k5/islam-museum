@@ -1,0 +1,53 @@
+id: course/ca-on-g8-geography-a-4
+class: course
+kind: lesson
+label:
+  en: When a dam fails
+  ar: حين ينهار السد
+  ur: جب بند ٹوٹتا ہے
+summary:
+  en: How a process of the physical environment can change where people can live, seen through one past case (A1.2).
+  ar: كيف يمكن لعملية في البيئة الطبيعية أن تغيّر المواضع التي يستطيع الناس العيش فيها، من خلال حالة ماضية واحدة (A1.2).
+  ur: طبعی ماحول کا کوئی عمل لوگوں کے رہنے کی جگہوں کو کیسے بدل سکتا ہے، ایک ماضی کی مثال کے ذریعے (A1.2)۔
+sources:
+- source/ontario-curriculum-sshg-2023
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g8-geography-a
+expectations:
+- code: A1.2
+  text:
+    en: analyse how processes related to the physical environment may affect human settlements in the future […]
+    ar: حلّل كيف يمكن أن تؤثر العمليات المتصلة بالبيئة الطبيعية في المستوطنات البشرية في المستقبل […]
+    ur: تجزیہ کریں کہ طبعی ماحول سے متعلق عمل مستقبل میں انسانی بستیوں پر کیسے اثر انداز ہو سکتے ہیں […]
+connections:
+- position: within
+  kind: story
+  title:
+    en: The dam that burst
+    ar: السد الذي انفجر
+    ur: وہ بند جو پھٹ گیا
+  text:
+    en: The Sealed Nectar puts the bursting of the Marib Dam in Yemen at 450 or 451 CE, the great flood that the Qur'an mentions as the flood of al-Arim. The author calls it a major event that led to the ruin of settlement and the scattering of peoples, and notes that the sources differ widely on the dating. How can the failure of one water structure change where people can live?
+    ar: يقدّر الرحيق المختوم انفجار سد مأرب في اليمن بسنة 450م أو 451م، وهو السيل العظيم الذي ذكره القرآن بسيل العرم. ويصفه المؤلف بأنه حادثة كبرى أدت إلى خراب العمران وتشتت الشعوب، وينبّه إلى أن المصادر تختلف كثيراً في تعيين السنين. كيف يغيّر انهيار منشأة مائية واحدة المواضع التي يستطيع الناس العيش فيها؟
+    ur: الرحیق المختوم یمن کے سدِ مأرب کے پھٹنے کا زمانہ 450 یا 451 عیسوی بتاتی ہے، یعنی وہ بڑا سیلاب جسے قرآن سیلِ عرم کہتا ہے۔ مصنف اسے ایک بڑا واقعہ قرار دیتا ہے جس سے آبادی اجڑ گئی اور قومیں بکھر گئیں، اور متنبہ کرتا ہے کہ سنین کے تعین میں ماخذ بہت مختلف ہیں۔ ایک آبی ڈھانچے کا ٹوٹنا لوگوں کے رہنے کی جگہوں کو کیسے بدل سکتا ہے؟
+  entity: event/flood-of-al-aram
+  sources:
+  - source/mubarakpuri-raheeq
+- position: after
+  kind: quran
+  title:
+    en: Read Saba 16
+    ar: اقرأ سبأ 16
+    ur: سورۂ سبا آیت 16 پڑھیں
+  text:
+    en: 'The record of the flood points to Surat Saba, verse 16, as the place where the Qur''an mentions the flood of al-Arim. Read the verse on the page as the museum prints it. Then ask: what does it say in its own words, and how does it sit beside the history of the dam in this lesson?'
+    ar: 'يشير سجل السيل إلى سورة سبأ، الآية 16، موضعاً ذكر فيه القرآن سيل العرم. اقرأ الآية كما يعرضها المتحف من نصه المثبت، ثم اسأل: ماذا تقول بألفاظها هي، وكيف تقف إلى جانب تاريخ السد الذي رأيته في هذا الدرس؟'
+    ur: 'سیلاب کا ریکارڈ سورۂ سبا کی آیت 16 کی طرف اشارہ کرتا ہے جہاں قرآن نے سیلِ عرم کا ذکر کیا ہے۔ آیت کو اس طرح پڑھیں جیسے عجائب گھر اپنے محفوظ متن سے دکھاتا ہے، پھر پوچھیں: وہ اپنے الفاظ میں کیا کہتی ہے، اور اس سبق میں دیکھی گئی بند کی تاریخ کے ساتھ اس کا کیا تعلق بنتا ہے؟'
+  ref: '34:16'
+  entity: passage/quran-34-16
+  sources:
+  - source/tanzil-quran
+order: 4

@@ -1,0 +1,58 @@
+id: course/ca-on-g11-sch3u-a-3
+class: course
+kind: lesson
+label:
+  en: From evidence to conclusion
+  ar: من الدليل إلى الاستنتاج
+  ur: شواہد سے نتیجے تک
+summary:
+  en: How to ask whether evidence supports a prediction, where error and bias may lie, and how to justify a conclusion (A1.8, A1.10).
+  ar: كيف تسأل هل تؤيد الأدلة التنبؤ، وأين قد يكمن الخطأ والتحيز، وكيف تبرّر استنتاجاً ⁦(A1.8 وA1.10)⁩.
+  ur: یہ کیسے پوچھا جائے کہ شواہد پیش گوئی کی تائید کرتے ہیں یا نہیں، غلطی اور جانب داری کہاں ہو سکتی ہے، اور نتیجے کا جواز کیسے دیا جائے ⁦(A1.8، A1.10)⁩۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g11-sch3u-a
+expectations:
+- code: A1.8
+  text:
+    en: synthesize, analyse, interpret, and evaluate qualitative and quantitative data; solve problems involving quantitative data; determine whether the evidence supports or refutes the initial prediction or hypothesis and whether it is consistent with scientific theory; identify sources of bias and error …
+    ar: ادمج البيانات الكيفية والكمية وحلّلها وفسّرها وقيّمها؛ وحُلّ المسائل المتعلقة بالبيانات الكمية؛ وحدّد هل تؤيد الأدلة التنبؤ أو الفرضية الأولى أم تنفيها، وهل تتسق مع النظرية العلمية؛ وحدّد مصادر التحيز والخطأ …
+    ur: کیفی اور مقداری اعداد و شمار کو یکجا کریں، ان کا تجزیہ کریں، ان کی تعبیر کریں اور انھیں پرکھیں؛ مقداری اعداد و شمار والے مسائل حل کریں؛ طے کریں کہ شواہد ابتدائی پیش گوئی یا مفروضے کی تائید کرتے ہیں یا تردید، اور آیا وہ سائنسی نظریے سے ہم آہنگ ہیں؛ جانب داری اور غلطی کے ماخذ کی نشاندہی کریں …
+- code: A1.10
+  text:
+    en: draw conclusions based on inquiry results and research findings, and justify their conclusions with reference to scientific knowledge
+    ar: استخلص النتائج مما أسفر عنه التحقيق وانتهى إليه البحث، وبرّر استنتاجاتك بالرجوع إلى المعرفة العلمية
+    ur: تحقیق کے نتائج اور تحقیقی دریافتوں کی بنیاد پر نتائج اخذ کریں، اور اپنے نتائج کا جواز سائنسی علم کے حوالے سے پیش کریں
+connections:
+- position: before
+  kind: invention
+  title:
+    en: What must be known before accepting an inference
+    ar: ما ينبغي معرفته قبل قبول الاستنتاج
+    ur: نتیجہ ماننے سے پہلے کیا جاننا ضروری ہے
+  text:
+    en: Seeing improvement after a substance is used does not, by itself, reveal what that substance did. In The Canon of Medicine, Ibn Sina sets out seven conditions for learning drug powers through experience. The record presents this as an organization of interpretive conditions within humoral medicine, not as a modern clinical-trial protocol. Which of your own results could be explained in more than one way?
+    ar: لا تكفي مشاهدة تحسن بعد استعمال مادة لكي تُعرف حقيقة تأثيرها. ويرتب ابن سينا في القانون في الطب سبعة شروط لمعرفة قوى الأدوية بالتجربة. ويعرض السجل ذلك تنظيماً لشروط التفسير داخل طب الأمزجة، لا بروتوكول تجربة سريرية حديثة. أي نتائجك أنت يمكن أن تُفسَّر بأكثر من وجه؟
+    ur: کسی مادے کے استعمال کے بعد بہتری دیکھ لینا بذاتِ خود یہ نہیں بتاتا کہ اس مادے نے کیا اثر کیا۔ ابنِ سینا القانون فی الطب میں تجربے کے ذریعے دواؤں کی قوتیں جاننے کی سات شرطیں ترتیب دیتے ہیں۔ اندراج اسے طبِ امزاج کے اندر تعبیر کی شرطوں کی تنظیم بتاتا ہے، نہ کہ جدید طبی آزمائش کا ضابطہ۔ آپ کے اپنے نتائج میں سے کون سے ایک سے زیادہ طریقوں سے سمجھائے جا سکتے ہیں؟
+  entity: invention/ibn-sina-seven-drug-assessment-conditions
+  sources:
+  - source/canon-ibn-sina-print-v1
+  - source/nasser-tibi-savage-smith-canon-rules-2009
+- position: after
+  kind: object
+  title:
+    en: Many ratios, no single test
+    ar: نسب متعددة لا معيار واحد
+    ur: کئی نسبتیں، کوئی ایک کسوٹی نہیں
+  text:
+    en: 'Plant-ash glass uses the ash of soda-rich plants as its flux instead of mineral natron, and by the tenth century it had become the dominant recipe of glassmaking in the Islamic world. Nadine Schibille proposes six chemical ratios that separate Egyptian, Levantine, Mesopotamian, Central Asian, Iberian and Sicilian glass. She stresses that no single criterion suffices: all must be used, both to exclude and to support an attribution. What would your data need before you drew a conclusion?'
+    ar: زجاج رماد النباتات يستعمل رماد نباتات غنية بالصودا صاهراً بدل النطرون المعدني، وقد صار بحلول القرن العاشر الوصفة الغالبة في صناعة الزجاج بالعالم الإسلامي. وتقترح نادين شيبيل ست نسب كيميائية تفصل بين زجاج مصر والشام والعراق وآسيا الوسطى والأندلس وصقلية. وتؤكد أنه لا يكفي معيار واحد، بل يجب أن تؤخذ المعايير كلها نفياً وإثباتاً. ماذا تحتاج بياناتك قبل أن تستخلص نتيجة؟
+    ur: پودوں کی راکھ والا شیشہ معدنی نطرون کی جگہ سوڈا سے بھرپور پودوں کی راکھ کو گداز کے طور پر استعمال کرتا ہے، اور دسویں صدی تک وہ اسلامی دنیا میں شیشہ سازی کا غالب نسخہ بن چکا تھا۔ نادین شیبیل چھ کیمیائی نسبتیں تجویز کرتی ہیں جو مصر، شام، عراق، وسطی ایشیا، اندلس اور صقلیہ کے شیشے کو الگ کرتی ہیں۔ وہ زور دیتی ہیں کہ کوئی ایک معیار کافی نہیں، سب کو استعمال کرنا چاہیے، نسبت دینے اور نسبت رد کرنے دونوں کے لیے۔ نتیجہ اخذ کرنے سے پہلے آپ کے اعداد و شمار کو کیا درکار ہوگا؟
+  entity: concept/plant-ash-glass
+  sources:
+  - source/schibille-islamic-glass-2022
+order: 3

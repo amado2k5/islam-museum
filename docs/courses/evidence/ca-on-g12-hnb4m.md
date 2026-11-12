@@ -1,0 +1,69 @@
+# Evidence: ca-on-g12-hnb4m
+
+Each row: the claim in the connection text, and the sentence of the linked record that it restates (quoted from the record's own prose, at most 40 words), with the record's own citation marker. Closing questions are the lesson's own and state no fact. Each quotation was machine-checked against the record text printed by entity_brief.py (--full) when the row was written. Arabic rows quote the Arabic record, English rows the English record.
+
+| Lesson | Entity | Claim made | Record sentence it restates |
+|---|---|---|---|
+| b-1 | event/green-turban-ashraf-773 | In 773 AH the green sign was introduced on the Sharifs' turbans to distinguish them, by order of the sultan, the first of its kind (en) | "in 773 AH the green sign was introduced on the turbans of the Sharifs so that they would be distinguished, by order of the sultan, and that this was the first thing of its kind introduced" {cite:tarikh-khulafa-minhaj-1434 p.757-758} |
+| b-1 | event/green-turban-ashraf-773 | Same claim (ar) | "أُحدثت العلامة الخضراء على عمائم الشرفاء ليتميزوا بها، بأمر السلطان، وأن هذا أول ما أُحدث من ذلك" {cite:tarikh-khulafa-minhaj-1434 p.757-758} |
+| b-1 | event/green-turban-ashraf-773 | Ibn Jabir's verses say the sign is for one who is not well known (en) | "in which he says that the sign is for one who is not well known" {cite:tarikh-khulafa-minhaj-1434 p.757-758} |
+| b-1 | event/green-turban-ashraf-773 | Same claim (ar) | "إن العلامة شأن من لم يشتهر" {cite:tarikh-khulafa-minhaj-1434 p.757-758} |
+| b-2 | invention/tiraz | Tiraz is a band of writing woven or embroidered into fine garments with the ruler's name and words of good omen (en) | "Tiraz is a band of writing woven or embroidered into fine garments, carrying the name of the ruler and words of good omen" {cite:muqaddima-ibn-khaldun p. 256} |
+| b-2 | invention/tiraz | Same claim (ar) | "الطراز شريط من الكتابة يُنسج أو يُطرَّز في الثياب الفاخرة، يحمل اسم الحاكم وكلمات تجري مجرى الفأل" {cite:muqaddima-ibn-khaldun p. 256} |
+| b-2 | invention/tiraz | Ibn Khaldun: Persian kings put images of kings in their tiraz; the kings of Islam put written names in their place (en) | "the Persian kings before Islam put the images and figures of kings in their tiraz, and that the kings of Islam put written names and words of good omen in their place" {cite:muqaddima-ibn-khaldun p. 256} |
+| b-2 | invention/tiraz | Same claim (ar) | "ملوك العجم قبل الإسلام كانوا يجعلون طرازهم بصور الملوك وأشكالهم، ثم اعتاض ملوك الإسلام عن ذلك بكتب أسمائهم" {cite:muqaddima-ibn-khaldun p. 256} |
+| b-2 | invention/tiraz | TDV: Abd al-Malik ordered the Greek tiraz on Egypt's cloth dropped and the declaration of God's oneness woven (en) | "the TDV encyclopaedia records that he ordered the Greek tiraz on Egyptian cloth dropped and the declaration of God's oneness woven instead" {cite:tdv-tiraz pp. 112–114} |
+| b-2 | invention/tiraz | Same claim (ar) | "أمر بترك الطراز اليوناني على نسيج مصر وكتابة التوحيد مكانه" {cite:tdv-tiraz pp. 112–114} |
+| b-2 | object/tiraz-132-london | Yellow tiraz silk with an Arabic maker's inscription, dated 132 AH (749–750 CE) (en) | "A fragment of yellow tiraz silk bearing an Arabic maker's inscription, dated 132 AH (749–750 CE)" {cite:tei-epigraphie 47} |
+| b-2 | object/tiraz-132-london | Found in a cemetery at Akhmim, one of four fragments of one textile, held by the V&A, London (en) | "originally found in a cemetery at Akhmim, Egypt, it is part B of four fragments that once formed a single textile, held by the Victoria and Albert Museum, London" {cite:tei-epigraphie 47} |
+| b-2 | object/tiraz-132-london | Same claims (ar) | "عُثر عليها أصلًا في مقبرة بالأخميم بمصر، وهي الجزء الثاني من أربع قطع كانت يومًا نسيجًا واحدًا، ومحفوظة في متحف فيكتوريا وألبرت بلندن" {cite:tei-epigraphie 47} |
+| b-3 | invention/tiraz | At Tinnis some 5,000 looms were working, among them a workshop of the caliph; a governor under al-Muqtadir had eighty tiraz workshops (en) | "at Tinnis in Egypt some 5,000 looms were working, among them a workshop belonging to the caliph, and a governor under al-Muqtadir had eighty tiraz workshops of his own" {cite:tdv-tiraz pp. 112–114} |
+| b-3 | invention/tiraz | Same claim (ar) | "ففي تنّيس بمصر كان نحو 5000 نول يعمل، منها دار للخليفة، وكان لأحد الولاة في عهد المقتدر ثمانون دار طراز يُنسج فيها قماشه" {cite:tdv-tiraz pp. 112–114} |
+| b-3 | invention/tiraz | The sahib al-tiraz oversaw the dyers, the tools and the weavers (en) | "The man in charge of them, the sahib al-tiraz, oversaw the dyers, the tools and the weavers" {cite:muqaddima-ibn-khaldun p. 256} |
+| b-3 | invention/tiraz | Same claim (ar) | "ينظر في أمور الصبّاغين والآلة والحاكة" {cite:muqaddima-ibn-khaldun p. 256} |
+| b-3 | job/weaver | Looms made by the weavers, ordered or bought ready; sizes differed; comb and shuttle measured for the cloth (en) | "Looms differed in size, and the comb and shuttle were measured for the cloth. The entry says looms were made by the weavers, ordered or bought ready" {cite:tdv-cullah p.83-84} |
+| b-3 | job/weaver | The 1640 price list: Edirne loom 170 akce, plain loom 120; Manisa 3,000 looms in the nineteenth century (en) | "gives the 1640 price list: an Edirne loom 170 akce, a plain loom 120. Combs were counted in cile of forty teeth" {cite:tdv-cullah p.83-84} |
+| b-3 | job/weaver | Manisa had 3,000 looms in the nineteenth century (en) | "Manisa had 3,000 looms in the nineteenth century" {cite:tdv-cullah p.83-84} |
+| b-3 | job/weaver | Same claims (ar) | "تفاوتت أحجام الأنوال، وقيست الأمشاط والمكوك بحسب القماش" {cite:tdv-cullah p.83-84} |
+| b-3 | job/weaver | Same claims (ar): price list and Manisa | "ويذكر قائمة التسعير سنة 1640م: نول أدرنة بمئة وسبعين أقجة والنول البسيط بمئة وعشرين" {cite:tdv-cullah p.83-84} |
+| b-3 | job/weaver | Same claim (ar): Manisa | "وكان في مانيسا ثلاثة آلاف نول في القرن التاسع عشر" {cite:tdv-cullah p.83-84} |
+| b-3 | job/weaver | Looms made by weavers, ordered or bought ready (ar) | "إن الأنوال كانت تُصنع عند الحائكين أو تُطلب أو تُشترى جاهزة" {cite:tdv-cullah p.83-84} |
+| c-1 | concept/albisa | Clothing covers the body and protects against heat and cold (en) | "Libas is what covers the body and protects against heat and cold" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3267} |
+| c-1 | concept/albisa | Same claim (ar) | "اللباس ما يستر البدن ويدفع الحر والبرد" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3267} |
+| c-1 | concept/albisa | Covering the nakedness is obligatory; dressing well at gatherings and festivals is recommended if not for pride (en) | "Obligatory: what covers the nakedness and protects against heat and cold." {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3267} |
+| c-1 | concept/albisa | Dressing well at gatherings and festivals is recommended so long as it is not for pride (en) | "Recommended: what gives the basic adornment and shows blessing, and dressing well at gatherings and festivals, following Aisha's report of two garments for Friday, so long as it is not for pride." {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3267} |
+| c-1 | concept/albisa | Same claims (ar) | "الفرض: ما يستر العورة ويدفع الحر والبرد" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3267} |
+| c-1 | concept/albisa | Same claims (ar): dressing well, not for pride | "والتزين في الجمع والأعياد ومجامع الناس، لحديث عائشة في الثوبين للجمعة، إذا لم يكن للتكبر" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3268} |
+| c-1 | concept/albisa | Materials are lawful unless a text forbids them, as silk is for men (en) | "The default is that materials are lawful unless a text forbids them, as silk is for men" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3269} |
+| c-1 | concept/albisa | Same claim (ar) | "الأصل فيها الحل إلا ما ورد النص بتحريمه، كالحرير للذكور" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3269} |
+| c-1 | concept/albisa | White is recommended (en) | "White is recommended and used for shrouds" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3270} |
+| c-1 | concept/albisa | Same claim (ar) | "الأبيض: مستحب، ويكفن فيه الموتى" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3270} |
+| c-1 | concept/rida-garment | Rida' is the garment covering the upper body over the izar (en) | "Rida' in the lexicon is the garment that covers the upper body over the izar" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8693} |
+| c-1 | concept/rida-garment | Same claim (ar) | "الرداء في اللغة الثوب الذي يستر أعلى البدن فوق الإزار" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8693} |
+| c-1 | concept/rida-garment | For the pilgrim in ihram a white izar and rida' (en; the Arabic says it is recommended, the English that jurists agree; the card says only that the record names them) | "a pilgrim in ihram should wear a white or washed izar and rida'" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8693} |
+| c-1 | concept/rida-garment | Same claim (ar) | "ويستحب للمحرم أن يلبس رداء وإزارا أبيضين جديدين أو مغسولين" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8693} |
+| c-1 | concept/rida-garment | In prayer the majority prefer a shirt with a rida' (en) | "In prayer the majority prefer a shirt with a rida' over a single garment" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8694} |
+| c-1 | concept/rida-garment | Same claims (ar) | "وفي الصلاة يفضل جمهور الفقهاء القميص مع الرداء" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8694} |
+| c-2 | job/weaver | He bought yarn ready-spun or spun raw cotton himself (en) | "He bought yarn ready-spun or spun raw cotton himself" {cite:tdv-cullah p.83-84} |
+| c-2 | job/weaver | Same claim (ar) | "كان يشتري الغزل جاهزاً أو يغزل القطن الخام بنفسه" {cite:tdv-cullah p.83-84} |
+| c-2 | job/weaver | Cotton was the main fibre; wool also appears (en) | "Cotton was the main fibre." {cite:tdv-cullah p.83-84} |
+| c-2 | job/weaver | Same claim (ar) | "كان القطن الليف الرئيسي." {cite:tdv-cullah p.83-84} |
+| c-2 | job/weaver | Common products (en) | "Common products were coarse cloth, lining, striped cloth, muslin, makrama and shirting" {cite:tdv-cullah p.83-84} |
+| c-2 | job/weaver | Same claim (ar) | "ومن منتجاتهم القماش الخشن والبطانة والمخطط والتلبند والمكرمة وقماش القمصان" {cite:tdv-cullah p.83-84} |
+| c-2 | job/weaver | After dyeing the merchants sold the cloth in the covered market (en) | "After dyeing, the merchants sold the cloth in the covered market." {cite:tdv-cullah p.83-84} |
+| c-2 | job/weaver | Same claim (ar) | "وبعد الصباغة يبيع البزازون القماش في البدستان" {cite:tdv-cullah p.83-84} |
+| c-2 | invention/tiraz | Ibn Khaldun: the names of rulers drawn into the weave of silk and brocade garments (en) | "the names of rulers, or signs particular to them, were drawn into the weave of their silk and brocade garments" {cite:muqaddima-ibn-khaldun p. 256} |
+| c-2 | invention/tiraz | The letters made of weft and warp in gold thread or coloured threads, as the craftsmen judged (en) | "the letters made of the weft and warp in gold thread or in coloured threads that differed from the cloth, as the craftsmen judged" {cite:muqaddima-ibn-khaldun p. 256} |
+| c-2 | invention/tiraz | Same claims (ar) | "وتُعتبر كتابة خطّها في نسج الثوب ألحاماً وأسداءً بخيط الذهب، أو بخيوط ملوّنة تخالف لون الثوب، على ما يُحكمه الصنّاع" {cite:muqaddima-ibn-khaldun p. 256} |
+| c-3 | job/weaver | The weavers of a town agreed quantity and size of cloth; the qadi certified it through the ahi baba (en) | "The weavers of a town agreed the quantity and size of cloth among themselves, and the qadi certified it through the ahi baba" {cite:tdv-cullah p.83-84} |
+| c-3 | job/weaver | Same claim (ar) | "اتفق حائكو المدينة فيما بينهم على كمية القماش ومقاسه، وصدّق القاضي ذلك بواسطة أخي بابا" {cite:tdv-cullah p.83-84} |
+| c-3 | job/weaver | An inspector checked output; excess or faulty cloth was torn and the weaver fined (en) | "A selected inspector checked output, and cloth that exceeded the size or was faulty was torn and the weaver fined" {cite:tdv-cullah p.83-84} |
+| c-3 | job/weaver | Same claim (ar) | "ويفحص مفتش مختار الإنتاج، فما زاد عن المقاس أو كان معيباً مُزّق وغُرّم الحائك" {cite:tdv-cullah p.83-84} |
+| c-3 | job/weaver | Weavers worked to merchants' orders and could not sell their own cloth in the market (en) | "The weavers often worked to orders from the cloth merchants and became dependent on them. They could not sell their own cloth in the market" {cite:tdv-cullah p.83-84} |
+| c-3 | job/weaver | Same claim (ar) | "وكثيراً ما عمل الحائكون بطلب من البزازين وصاروا تابعين لهم. ولم يكن لهم أن يبيعوا قماشهم في السوق" {cite:tdv-cullah p.83-84} |
+| c-3 | job/weaver | From the 17th century cheap Indian cotton yarn and cloth flooded Ottoman markets; weavers used the yarn and imitated Indian cloth (en) | "From the seventeenth century cheap Indian cotton yarn and cloth flooded the Ottoman markets, and the weavers used the yarn and imitated Indian cloth" {cite:tdv-cullah p.83-84} |
+| c-3 | job/weaver | Same claim (ar) | "منذ القرن السابع عشر غمر الغزل والقماش القطني الهندي الرخيص الأسواق العثمانية، فاستعمل الحائكون الغزل وقلدوا القماش الهندي" {cite:tdv-cullah p.83-84} |
+| c-3 | job/weaver | European cottons imitating muslin entered in the second half of the 18th century (en) | "In the second half of the eighteenth century European cottons imitating muslin entered" {cite:tdv-cullah p.83-84} |
+| c-3 | job/weaver | Same claim (ar) | "وفي النصف الثاني من القرن الثامن عشر دخلت أقطان أوروبية تقلد الموسلين" {cite:tdv-cullah p.83-84} |
+| c-3 | job/weaver | The 1830s mechanisation a turning point; cheap imports hastened the guilds' collapse by the 1850s (en) | "The entry calls the European mechanisation of the 1830s a turning point, and says cheap imports in local markets hastened the collapse of the guilds by the 1850s" {cite:tdv-cullah p.83-84} |
+| c-3 | job/weaver | Same claim (ar) | "ويعد المدخل تمكين أوروبا بالآلات في ثلاثينيات القرن التاسع عشر منعطفاً، ويقول إن الواردات الرخيصة في الأسواق المحلية عجّلت انهيار الطوائف في خمسينياته" {cite:tdv-cullah p.83-84} |

@@ -1,0 +1,39 @@
+id: course/ca-on-g3-math-e-1
+class: course
+kind: lesson
+label:
+  en: Ceilings made of cells
+  ar: سقوف مبنية من خلايا
+  ur: خانوں سے بنی چھتیں
+summary:
+  en: Taking a structure apart into the flat shapes and solid objects it contains.
+  ar: تفكيك البنية إلى الأشكال المسطحة والأجسام المجسمة التي تحتويها.
+  ur: کسی ساخت کو کھول کر اس میں موجود چپٹی شکلوں اور ٹھوس اجسام کو پہچاننا۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g3-math-e
+expectations:
+- code: E1.2
+  text:
+    en: compose and decompose various structures, and identify the two-dimensional shapes and three-dimensional objects that these structures contain
+    ar: ركّب بُنى متنوعة وفكّكها، وحدّد الأشكال ثنائية الأبعاد والأجسام ثلاثية الأبعاد التي تحتويها هذه البُنى
+    ur: مختلف ساختوں کو جوڑیں اور کھولیں، اور ان میں موجود دو ابعادی اشکال اور سہ ابعادی اجسام کی شناخت کریں
+connections:
+- position: before
+  kind: invention
+  title:
+    en: A ceiling counted by its pieces
+    ar: سقف يُحسب بأجزائه
+    ur: اجزا سے گنی جانے والی چھت
+  text:
+    ar: نظم الكاشي في مفتاح الحساب قياس سطح المقرنص، وهو البناء الخلوي المتدرج الذي يربط أجزاء السقف ويزينها. يختار وحدة معيارية، ويعد الأجزاء بحسب أشكالها. وفي التعريف الذي تناقشه الدراسة، الخلية ذات وجهين وسقف، والطبقة تجمع خلايا قواعدها في مستوى أفقي واحد. كم شكلاً تجد في سقف مبني من خلايا؟
+    en: In the Key to Arithmetic, al-Kashi organized the measurement of muqarnas, the tiered cellular construction that articulates and decorates ceilings. He selects a module and counts elements by shape. In the definition the study discusses, a cell consists of two facets and a roof, and cells with bases in one horizontal plane form a tier. How many shapes can you find in a ceiling built of cells?
+    ur: غیاث الدین کاشی نے «مفتاح الحساب» میں مقرنس کی سطح کا حساب منظم کیا، وہ تہہ دار خانے جو سقف کو جوڑتے اور سجاتے ہیں۔ پہلے معیاری اکائی منتخب، پھر شکل کے مطابق اجزا شمار ہوتے ہیں۔ مطالعے میں نقل تعریف کے مطابق ایک خانہ دو رخوں اور اوپری چھت پر مشتمل ہے، اور جن خانوں کی بنیادیں ایک افقی سطح میں ہوں وہ ایک تہہ بناتے ہیں۔ ایسی چھت میں آپ کتنی شکلیں پہچان سکتے ہیں جو خانوں سے بنی ہو؟
+  entity: invention/kashi-muqarnas-mensuration
+  sources:
+  - source/dold-samplonius-muqarnas-1992
+order: 1

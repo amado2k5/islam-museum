@@ -1,0 +1,66 @@
+id: course/ca-on-g8-math-e-2
+class: course
+kind: lesson
+label:
+  en: Measuring land, circles and ceilings
+  ar: قياس الأرض والدوائر والسقوف
+  ur: زمین، دائرے اور چھتوں کی پیمائش
+summary:
+  en: Solving problems about perimeter, circumference, area, volume and surface area with appropriate formulas (E2.3).
+  ar: حل مسائل المحيط ومحيط الدائرة والمساحة والحجم ومساحة السطح بصيغ مناسبة، التوقع E2.3.
+  ur: احاطے، دائرے کے محیط، رقبے، حجم اور سطح کے رقبے کے مسائل مناسب کلیوں سے حل کرنا، توقع E2.3۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g8-math-e
+expectations:
+- code: E2.3
+  text:
+    en: solve problems involving the perimeter, circumference, area, volume, and surface area of composite two-dimensional shapes and three-dimensional objects, using appropriate formulas
+    ar: حُلَّ مسائل تتضمن المحيط ومحيط الدائرة والمساحة والحجم ومساحة السطح للأشكال الثنائية الأبعاد المركّبة والأجسام الثلاثية الأبعاد، باستخدام الصيغ المناسبة
+    ur: مرکب دو ابعادی شکلوں اور سہ ابعادی اجسام کے احاطے، دائرے کے محیط، رقبے، حجم اور سطح کے رقبے سے متعلق مسائل مناسب کلیوں کے ساتھ حل کریں
+connections:
+- position: before
+  kind: reflection
+  title:
+    en: A chapter on measuring
+    ar: باب في المساحة
+    ur: پیمائش کا ایک باب
+  text:
+    en: 'Mensuration is the science of measuring areas and volumes, and al-Khwarizmi gave it a chapter of his book. The record lists his rules: the area of a triangle is its height times half its base, and the circumference of a circle is the diameter times three and a seventh, which he calls "a convention among people, not a necessity". Which of these rules can you check by measuring a real circle?'
+    ar: 'المساحة علم قياس السطوح والأجسام، وقد خصّه الخوارزمي بباب في كتابه. ويورد السجل قواعده: تكسير المثلث أن تضرب عموده في نصف قاعدته، ودور الدائرة، أي محيطها، القطر في ثلاثة وسبع، وهو عنده «اصطلاح بين الناس من غير اضطرار». أي هذه القواعد تستطيع أن تتحقق منه بقياس دائرة حقيقية؟'
+    ur: 'مساحت سطحوں اور اجسام کو ناپنے کا علم ہے، اور الخوارزمی نے اس کے لیے اپنی کتاب میں ایک باب رکھا۔ ریکارڈ اس کے قاعدے گنواتا ہے: مثلث کا رقبہ اس کی بلندی کو آدھے قاعدے سے ضرب دینا ہے، اور دائرے کا محیط قطر کو تین اور ایک ساتویں سے ضرب دینا ہے، جسے وہ «لوگوں کے درمیان ایک اصطلاح، بغیر کسی لازمی ضرورت کے» کہتا ہے۔ ان میں سے کون سا قاعدہ آپ ایک حقیقی دائرہ ناپ کر جانچ سکتے ہیں؟'
+  entity: concept/ilm-al-misaha
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+- position: within
+  kind: invention
+  title:
+    en: Sixteen decimal places for the circle
+    ar: ست عشرة منزلة عشرية للدائرة
+    ur: دائرے کے لیے سولہ اعشاری مقام
+  text:
+    en: MacTutor dates al-Kashi's Treatise on the Circumference to 1424 and describes him expressing twice the ratio of circumference to diameter in sexagesimal and decimal forms with high precision. Okten reports the decimal value 6.2831853071795865, an approximation to twice the ratio, not to pi itself. The record calls this an improvement of an inherited calculation, not the discovery of pi. Which circle has a circumference equal to that number?
+    ar: تؤرخ ماكتوتر «الرسالة المحيطية» للكاشي بسنة 1424، وتذكر أنه أخرج ضعف نسبة المحيط إلى القطر في النظام الستيني ثم العشري بدقة عالية. وينقل أوكتن العدد العشري 6.2831853071795865، وهو قيمة تقريبية لضعف النسبة لا لـpi نفسها. ويصف السجل ذلك بأنه تحسين لحساب قديم لا اكتشاف pi. أي دائرة يساوي محيطها هذا العدد؟
+    ur: ماک ٹیوٹر الکاشی کی «الرسالۃ المحیطیہ» کو 1424ء کی بتاتی ہے اور کہتی ہے کہ اس نے محیط اور قطر کی نسبت کا دگنا ساٹھ کے نظام اور اعشاری نظام دونوں میں اعلیٰ درستی سے نکالا۔ اوکتن اعشاری عدد 6.2831853071795865 نقل کرتا ہے، جو نسبت کے دگنے کی تقریبی قدر ہے، pi کی نہیں۔ ریکارڈ اسے ایک پرانے حساب کی بہتری کہتا ہے، pi کی دریافت نہیں۔ کس دائرے کا محیط اس عدد کے برابر ہے؟
+  entity: invention/al-kashi-pi-calculation
+  sources:
+  - source/kashi-mactutor
+  - source/tdv-kashi-okten
+- position: after
+  kind: invention
+  title:
+    en: Measuring a ceiling of hollows
+    ar: قياس سقف من التجاويف
+    ur: کھوکھلوں سے بنی چھت کی پیمائش
+  text:
+    en: 'In the Key to Arithmetic, al-Kashi organised the measurement of muqarnas, the tiered cellular construction that articulates and decorates ceilings: he selects a module, counts elements by shape, and adds the surfaces of facets, roofs and connecting pieces. Dold-Samplonius notes an inconsistency in the projection and values whose derivation she does not know. Why is counting hollows in a photograph not enough to find the surface area?'
+    ar: 'في «مفتاح الحساب» نظّم الكاشي قياس سطح المقرنص، وهو البناء الخلوي المتدرج الذي يربط أجزاء السقف ويزينها: يختار وحدة معيارية، ويعدّ الأجزاء بحسب أشكالها، ويجمع مساحات الوجوه والسقوف والعناصر الواصلة. وتذكر دولد-سامبلونيوس تناقضاً في المسقط وقيماً لم تعرف اشتقاقها. لماذا لا يكفي عدّ التجاويف في صورة لحساب السطح؟'
+    ur: '«مفتاح الحساب» میں الکاشی نے مقرنس کی سطح کی پیمائش کو ترتیب دیا، جو تہ بہ تہ خانوں والی وہ تعمیر ہے جو چھت کے حصوں کو جوڑتی اور سجاتی ہے: وہ ایک معیاری اکائی چنتا ہے، اجزا کو ان کی شکلوں کے مطابق گنتا ہے، اور رخوں، چھتوں اور جوڑنے والے اجزا کے رقبے جمع کرتا ہے۔ دولد-سامبلونیوس اسقاط میں ایک تضاد اور ایسی قدروں کا ذکر کرتی ہیں جن کی اخذ کا انہیں علم نہیں۔ تصویر میں کھوکھلے گن لینا سطح کا رقبہ معلوم کرنے کے لیے کیوں کافی نہیں؟'
+  entity: invention/kashi-muqarnas-mensuration
+  sources:
+  - source/dold-samplonius-muqarnas-1992
+order: 2

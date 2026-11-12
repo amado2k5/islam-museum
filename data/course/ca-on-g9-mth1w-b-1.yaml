@@ -1,0 +1,54 @@
+id: course/ca-on-g9-mth1w-b-1
+class: course
+kind: lesson
+label:
+  ar: من أين جاءت أعدادنا؟
+  en: Where do our numbers come from?
+  ur: ہمارے اعداد کہاں سے آئے؟
+summary:
+  ar: قصة كيف نشأ حساب الأرقام الهندية وكيف كُتبت الكسور العشرية واستُعملت في ثقافة واحدة، ولماذا تهمّنا اليوم.
+  en: The story of how reckoning with the Indian numerals and decimal fractions was developed and used in one culture, and why it still matters.
+  ur: ایک ثقافت میں ہندوستانی ہندسوں سے حساب اور اعشاری کسور کی ترقی اور استعمال کی کہانی، اور یہ کہ وہ آج بھی کیوں اہم ہیں۔
+sources:
+- source/ontario-curriculum-secondary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g9-mth1w-b
+expectations:
+- code: B1.1
+  text:
+    en: research a number concept to tell a story about its development and use in a specific culture, and describe its relevance in a current context
+    ar: ابحث في مفهوم عددي لتروي قصة تطوّره واستعماله في ثقافة بعينها، وصِف صلته بسياق معاصر
+    ur: کسی عددی تصور کی تحقیق کریں تاکہ کسی مخصوص ثقافت میں اس کی ترقی اور استعمال کی کہانی سنا سکیں، اور موجودہ سیاق میں اس کی مطابقت بیان کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    ar: كتاب في الحساب بالأرقام الهندية
+    en: A book on reckoning with the Indian numerals
+    ur: ہندوستانی ہندسوں سے حساب پر ایک کتاب
+  text:
+    ar: ألّف محمد بن موسى الخوارزمي في بغداد كتاباً في الحساب بالأرقام الهندية التسعة والصفر في نظام عشري منزلي، دخلت به الأرقام الهندية والنظام العشري إلى العالم الإسلامي كما تذكر موسوعة TDV. ضاع أصله العربي، وبقيت ترجمة لاتينية من القرن الثاني عشر تبدأ بعبارة «Dixit Algorizmi»، أي «قال الخوارزمي». وصار اسمه اللاتيني «Algorismus» اسماً للأرقام نفسها، ومنه جاءت كلمة «algorithm». أي عدد تستعمله كل يوم له قصة تُروى؟
+    en: Muhammad ibn Musa al-Khwarizmi wrote a book in Baghdad on reckoning with the nine Indian numerals and zero in a decimal place-value system, and TDV says the Indian numerals and the decimal system entered the Islamic world through it. Its Arabic original is lost, but a twelfth-century Latin translation survives that opens "Dixit Algorizmi", "al-Khwarizmi said". His Latin name "Algorismus" became a name for the numerals themselves, and from it comes "algorithm". Which number you use every day has a story to tell?
+    ur: محمد بن موسیٰ خوارزمی نے بغداد میں ہندوستانی نو ہندسوں اور صفر کے ساتھ اعشاری مقامی قدر کے نظام میں حساب پر ایک کتاب لکھی، جس کے ذریعے، ٹی ڈی وی کے بیان کے مطابق، ہندوستانی ہندسے اور اعشاری نظام عالمِ اسلام میں داخل ہوئے۔ اس کا عربی اصل گم ہو گیا، مگر بارہویں صدی کا ایک لاطینی ترجمہ باقی ہے جو «Dixit Algorizmi» یعنی «خوارزمی نے کہا» سے شروع ہوتا ہے۔ ان کا لاطینی نام «Algorismus» خود ہندسوں کا نام بن گیا، اور اسی سے «algorithm» آیا۔ روزمرہ کے کس عدد کی کوئی کہانی ہے؟
+  entity: invention/algorism
+  sources:
+  - source/tdv-harizmi
+  - source/khwarizmi-jabr-cairo-1939
+- position: after
+  kind: invention
+  title:
+    ar: نصف الواحد خمسة أعشار
+    en: A half is five tenths
+    ur: آدھا یعنی پانچ دسویں
+  text:
+    ar: في كتاب ألّفه الإقليدسي بدمشق سنة 341هـ/952–953م معالجة مبكرة مباشرة للكسور العشرية داخل الحساب الهندي ذي القيمة المكانية. يعرض سعيدان السلسلة 13 ثم 6.5 ثم 3.25 ثم 1.625 ثم 0.8125 بالتنصيف المتكرر، ويذكر خطاً فوق منزلة الآحاد يصر المؤلف على استعماله. ويؤكد السجل أن هذا ليس اختراع الأرقام الهندية ولا النقطة العشرية الحالية. لماذا يفيد أن نعلّم منزلة الآحاد؟
+    en: A book composed by al-Uqlidisi at Damascus in 341 AH (952–953 CE) contains an early direct treatment of decimal fractions within Indian place-value arithmetic. Saidan gives the repeated-halving sequence 13, 6.5, 3.25, 1.625, 0.8125, and describes a stroke over the units position that the author insists should be used. The record stresses that this is not the invention of the Indian numerals or of today's decimal point. Why does it help to mark the units place?
+    ur: اقلیدسی کی دمشق میں سن 341ھ / 952–953ء میں لکھی ہوئی کتاب میں ہندوستانی مقامی قدر والے حساب کے اندر اعشاری کسور کا ایک ابتدائی براہِ راست بیان ملتا ہے۔ سعیدان بار بار آدھا کرنے سے 13، 6.5، 3.25، 1.625، 0.8125 کی لڑی بتاتے ہیں، اور اکائی کے مقام کے اوپر ایک لکیر کا ذکر کرتے ہیں جسے مصنف استعمال کرنے پر اصرار کرتا ہے۔ ریکارڈ زور دیتا ہے کہ یہ ہندوستانی ہندسوں یا آج کے اعشاری نقطے کی ایجاد نہیں۔ اکائی کا مقام نشان زد کرنا کیوں مددگار ہے؟
+  entity: invention/decimal-fractions-al-uqlidisi
+  sources:
+  - source/uqlidisi-saidan-dsb
+  - source/tdv-oklidisi
+order: 1

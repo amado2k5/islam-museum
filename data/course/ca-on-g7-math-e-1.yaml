@@ -1,0 +1,59 @@
+id: course/ca-on-g7-math-e-1
+class: course
+kind: lesson
+label:
+  ar: محيط الدائرة ومساحتها
+  en: The circumference and area of a circle
+  ur: دائرے کا محیط اور رقبہ
+summary:
+  ar: العلاقات بين القطر والمحيط والمساحة في الدائرة وتفسير صيغتيها، في ضوء باب المساحة عند الخوارزمي وحساب الكاشي للمحيط.
+  en: The relationships among a circle's diameter, circumference and area, and the reasoning behind their formulas, in light of al-Khwarizmi's mensuration chapter and al-Kashi's computation of the circumference.
+  ur: دائرے کے قطر، محیط اور رقبے کے تعلقات اور ان کے کلیوں کی توجیہ، خوارزمی کے باب مساحت اور کاشی کے محیط کے حساب کی روشنی میں۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g7-math-e
+expectations:
+- code: E2.3
+  text:
+    en: use the relationships between the radius, diameter, and circumference of a circle to explain the formula for finding the circumference and to solve related problems
+    ar: استعمل العلاقات بين نصف القطر والقطر ومحيط الدائرة لتفسّر صيغة إيجاد المحيط ولحل مسائل متصلة بها
+    ur: دائرے کے رداس، قطر اور محیط کے تعلقات کو استعمال کریں تاکہ محیط معلوم کرنے کا کلیہ سمجھا سکیں اور متعلقہ مسائل حل کر سکیں
+- code: E2.5
+  text:
+    en: show the relationships between the radius, diameter, and area of a circle, and use these relationships to explain the formula for measuring the area of a circle and to solve related problems
+    ar: بيّن العلاقات بين نصف القطر والقطر ومساحة الدائرة، واستعمل هذه العلاقات لتفسّر صيغة قياس مساحة الدائرة ولحل مسائل متصلة بها
+    ur: رداس، قطر اور دائرے کے رقبے کے تعلقات دکھائیں اور انہیں استعمال کر کے رقبہ ناپنے کا کلیہ سمجھائیں اور متعلقہ مسائل حل کریں
+connections:
+- position: before
+  kind: invention
+  title:
+    ar: المحيط والمساحة في باب المساحة عند الخوارزمي
+    en: Circumference and area in al-Khwarizmi's mensuration
+    ur: خوارزمی کے باب مساحت میں محیط اور رقبہ
+  text:
+    ar: يعطي باب المساحة عند الخوارزمي دور الدائرة، أي محيطها، بأنه القطر في ثلاثة وسبع، وتكسيرها، أي مساحتها، بأنه نصف القطر في نصف الدور. ويقول إن جعل المحيط القطر في ثلاثة وسبع «اصطلاح بين الناس من غير اضطرار»، وفي مسألة الدائرة التي قطرها سبعة أذرع يجعل المحيط اثنين وعشرين ذراعاً، وينبّه المحققان على أن هذا تقريبي. كيف تقارن قاعدة المساحة هذه بالصيغة التي تعرفها؟
+    en: Al-Khwarizmi's mensuration chapter gives a circle's circumference as the diameter times three and a seventh, and its area as half the diameter times half the circumference. He calls taking three and a seventh "a convention among people, not a necessity", and for a circle of diameter seven cubits he takes the circumference as twenty-two cubits, which the editors note is approximate. How does this area rule compare with the formula you know?
+    ur: خوارزمی کے باب مساحت میں دائرے کا دور یعنی محیط قطر ضرب تین اور ایک ساتواں ہے، اور اس کا رقبہ نصف قطر ضرب نصف محیط۔ وہ کہتے ہیں کہ محیط کو قطر کا تین اور ایک ساتواں گنا ماننا «لوگوں میں ایک اصطلاح ہے، کوئی لازمی بات نہیں»، اور سات ذراع قطر والے دائرے کے مسئلے میں محیط بائیس ذراع لیتے ہیں، جسے محققین تقریبی بتاتے ہیں۔ رقبے کا یہ قاعدہ اس کلیے سے کیسے ملتا ہے جو آپ جانتے ہیں؟
+  entity: concept/ilm-al-misaha
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+- position: after
+  kind: invention
+  title:
+    ar: حساب الكاشي لمحيط الدائرة
+    en: Al-Kashi computes the circumference
+    ur: کاشی کا محیطِ دائرہ کا حساب
+  text:
+    ar: تؤرخ ماكتوتر «الرسالة المحيطية» للكاشي بسنة 1424م، وتذكر إخراج ضعف نسبة المحيط إلى القطر في النظام الستيني ثم العشري بدقة عالية، وينقل أوكتن العدد العشري 6.2831853071795865. ويقول السجل إنه تحسين لحساب قديم لا اكتشاف العدد pi، وإن إيرانيكا تصف مضلعات داخل الدائرة وحولها لتقريب المحيط. كيف يقرّبنا مضلع من دائرة؟
+    en: MacTutor dates al-Kashi's Treatise on the Circumference to 1424 and describes it as giving twice the ratio of circumference to diameter in sexagesimal and decimal forms with high precision, and Okten reports the decimal value 6.2831853071795865. The record says this improved an inherited calculation and did not discover pi, and that Iranica describes polygons inside and around a circle to approach the circumference. How does a polygon bring you closer to a circle?
+    ur: میک ٹیوٹر کاشی کے «رسالۂ محیطیہ» کو 1424ء کا بتاتا ہے اور کہتا ہے کہ اس میں محیط اور قطر کی نسبت کا دگنا ستّینی اور اعشاری دونوں صورتوں میں بلند درستی کے ساتھ دیا گیا ہے، اور اوکتن اعشاری قیمت 6.2831853071795865 نقل کرتے ہیں۔ ریکارڈ کہتا ہے کہ یہ ایک وراثت میں ملے حساب کی بہتری تھی، pi کی دریافت نہیں، اور یہ کہ ایرانیکا محیط کے قریب پہنچنے کے لیے دائرے کے اندر اور باہر کثیر الاضلاع کا ذکر کرتا ہے۔ کثیر الاضلاع ہمیں دائرے کے قریب کیسے لاتا ہے؟
+  entity: invention/al-kashi-pi-calculation
+  sources:
+  - source/kashi-mactutor
+  - source/tdv-kashi-okten
+  - source/iranica-kashi
+order: 1

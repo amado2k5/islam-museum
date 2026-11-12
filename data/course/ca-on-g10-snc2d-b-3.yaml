@@ -1,0 +1,52 @@
+id: course/ca-on-g10-snc2d-b-3
+class: course
+kind: lesson
+label:
+  ar: 'علم الأحياء الجديد وأخلاقياته: ماذا تقول الفتاوى؟'
+  en: 'New biology and its ethics: what do the fatwas say?'
+  ur: 'نئی حیاتیات اور اس کی اخلاقیات: فتاویٰ کیا کہتے ہیں؟'
+summary:
+  ar: جوابان لجهة إفتاء واحدة عن التبرع بالأعضاء واستنساخ النباتات، شاهدًا لتحليل القضايا الأخلاقية ⁦(B1.1)⁩.
+  en: Two answers of one fatwa body on organ donation and on plant cloning, as evidence for an analysis of ethical issues (B1.1).
+  ur: ایک فتویٰ ادارے کے دو جواب، اعضا کے عطیے اور پودوں کی کلوننگ پر، اخلاقی مسائل کے تجزیے کے لیے شہادت کے طور پر ⁦(B1.1)⁩۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g10-snc2d-b
+expectations:
+- code: B1.1
+  text:
+    en: analyse, on the basis of research, ethical issues related to a technological development in the field of systems biology […], and communicate their findings [IP, PR, AI, C]
+    ar: حلّل، استنادًا إلى البحث، قضايا أخلاقية تتصل بتطور تقني في ميدان علم الأحياء المنظومي […]، وبلّغ ما توصل إليه [IP, PR, AI, C]
+    ur: تحقیق کی بنیاد پر نظامی حیاتیات کے میدان میں کسی تکنیکی پیش رفت سے متعلق اخلاقی مسائل کا تجزیہ کریں […]، اور اپنے نتائج بیان کریں [IP, PR, AI, C]
+connections:
+- position: within
+  kind: object
+  title:
+    ar: فتوى في الوصية بالتبرع بالأعضاء
+    en: A fatwa on bequeathing organs
+    ur: اعضا کے عطیے کی وصیت پر ایک فتویٰ
+  text:
+    ar: سُئلت دائرة الإفتاء العام الأردنية، من مبادرة للتوعية بالتبرع بالأعضاء، عن وصية الإنسان بالتبرع بأعضائه بعد وفاته. فأجابت بأن التبرع بالأعضاء بعد الوفاة لدفع الضرر عن الآخرين تبيحه الشريعة، وعدّته من التعاون على البر، وأدرجته تحت قاعدتي أن الضرورات تبيح المحظورات وأن الضرورة تقدر بقدرها. ويسجّل المتحف هذا جواب الدائرة. فأي أصوات أخرى تزن معه؟
+    en: Jordan's General Iftaa Department was asked by an organ-donation awareness initiative about a person bequeathing his organs for donation after death. It answered that donating organs after death to relieve harm to others is permitted by the sharia, counted it as cooperation in righteousness, and placed it under the maxims that necessity makes the prohibited permissible and that necessity is measured by its extent. The museum records this as the Department's answer. What other voices would you weigh with it?
+    ur: اردن کے دائرۃ الافتاء العام سے اعضا کے عطیے کی آگاہی کی ایک مہم نے سوال کیا کہ کوئی شخص اپنے مرنے کے بعد اپنے اعضا عطیہ کرنے کی وصیت کرے تو اس کا کیا حکم ہے۔ اس نے جواب دیا کہ دوسروں سے ضرر دور کرنے کے لیے موت کے بعد اعضا کا عطیہ شریعت میں جائز ہے، اسے نیکی پر تعاون شمار کیا، اور اسے ان دو قواعد کے تحت رکھا کہ ضرورتیں ممنوعات کو مباح کر دیتی ہیں اور ضرورت کا اندازہ اس کی مقدار سے ہوتا ہے۔ میوزیم اسے ادارے کا جواب کہہ کر درج کرتا ہے۔ اس کے ساتھ آپ اور کن آوازوں کو تولیں گے؟
+  entity: work/fatwa-aliftaa-jo-bequeathing-ones-organs-after-death
+  sources:
+  - source/aliftaa-jo
+- position: after
+  kind: object
+  title:
+    ar: فتوى في استنساخ النباتات
+    en: A fatwa on cloning plants
+    ur: پودوں کی کلوننگ پر ایک فتویٰ
+  text:
+    ar: سُئلت الدائرة عن استنساخ الخلايا النباتية ومضاعفتها لصنع العصائر والمواد المضافة إلى الطعام، فأجابت بأنه لا حرج في الاستفادة من تقنيات الاستنساخ في النباتات بشرط ثبوت عدم إضرارها بالمستهلك وعدم إخلالها بالنظام النباتي. ورجعت في ضبط المصالح والمفاسد إلى أهل الخبرة والاختصاص، واستشهدت بقرار لمجمع الفقه الإسلامي الدولي بجدة سنة 1997. كيف تختبر شرطًا كهذا؟
+    en: Asked about cloning plant cells and multiplying them to make juices and food additives, the Department answered that using cloning techniques in plants is unobjectionable, provided they are shown not to harm the consumer or disrupt the plant ecosystem. It referred the judgment of benefits and harms to experts and specialists, and cited a 1997 resolution of the International Islamic Fiqh Academy in Jeddah. How would you test a condition like that?
+    ur: پودوں کے خلیوں کی کلوننگ اور انہیں بڑھا کر جوس اور کھانے میں ملائی جانے والی اشیا بنانے کے بارے میں پوچھا گیا تو دائرے نے جواب دیا کہ پودوں میں کلوننگ کی تکنیکوں سے فائدہ اٹھانے میں کوئی حرج نہیں، بشرطیکہ ثابت ہو کہ وہ صارف کو نقصان نہیں پہنچاتیں اور نباتاتی نظام کو نہیں بگاڑتیں۔ اس نے فوائد اور نقصانات کی پرکھ ماہرین اور اہلِ اختصاص کے سپرد کی، اور جدہ میں مجمع الفقہ الاسلامی الدولی کی 1997 کی ایک قرارداد کا حوالہ دیا۔ آپ ایسی شرط کو کیسے آزمائیں گے؟
+  entity: work/fatwa-aliftaa-jo-plant-cloning
+  sources:
+  - source/aliftaa-jo
+order: 3

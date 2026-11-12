@@ -1,0 +1,196 @@
+course: course/ca-on-g4-science
+gaps:
+- code: A1.1
+  text: use a scientific research process and associated skills to conduct investigations
+  why: 'Skills expectation: names no subject matter.'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: use a scientific experimentation process and associated skills to conduct investigations
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.3
+  text: use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.4
+  text: follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.5
+  text: communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A2.1
+  text: write and execute code in investigations and when modelling concepts, with a focus on producing different types of output for a variety of purposes
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A2.2
+  text: identify and describe impacts of coding and of emerging technologies on everyday life, including skilled trades
+  why: Asks about the impacts of coding and emerging technologies on everyday life; the museum holds no record on coding or on such impacts.
+  searches:
+  - 'find_entity.py "algorithm" "خوارزمية" "al-Khwarizmi" "coding": person/al-khwarizmi and invention/algorism exist, but they are about arithmetic and algebra; no record on writing or running code'
+  - 'find_entity.py "computer" "programming" "البرمجة" "automaton": one record, invention/jazari-musical-boat, a medieval automaton design; nothing on coding or its effects on daily life'
+- code: A3.2
+  text: investigate how science and technology can be used with other subject areas to address real-world problems
+  why: Asks the student to investigate how science and technology combine with other subject areas to solve real-world problems; no record joins two school subjects to a real problem.
+  searches:
+  - 'find_entity.py "science" "scientist" "careers" "inventor" "مخترع": hits are fiqh and hadith-science records; nothing that joins science to another school subject'
+  - 'find_entity.py "computer" "programming" "البرمجة" "automaton": one record, invention/jazari-musical-boat, a medieval automaton design; nothing on coding or its effects on daily life'
+- code: B1.1
+  text: assess positive and negative impacts of human activities on habitats and communities, while taking different perspectives into account
+  why: Asks for the impacts of human activities on habitats and communities; the museum holds no record on habitats or on communities of organisms.
+  searches:
+  - 'find_entity.py "habitat" "الموطن" "extinction" "endangered" "انقراض": records on the end of dynasties (the word inqiraz), none on species or habitats'
+  - 'find_entity.py "plants" "النبات" "botany" "Ibn al-Baytar" "الزراعة": person/ibn-al-baytar mentions the "habitats" of plants once in a summary line but says nothing of what a habitat provides organisms; concept/trees-plants has no prose'
+- code: B1.2
+  text: analyse the impact of the depletion or extinction of a species on its habitat and community, and describe possible actions to prevent such depletions or extinctions
+  why: Asks about the depletion or extinction of a species and its effect on a habitat; the museum holds no such record.
+  searches:
+  - 'find_entity.py "habitat" "الموطن" "extinction" "endangered" "انقراض": records on the end of dynasties (the word inqiraz), none on species or habitats'
+  - 'find_entity.py "food chain" "predator" "المفترس" "ecosystem": no real record'
+- code: B2.1
+  text: describe habitats as areas that provide organisms, including plants and animals, with the necessities of life, and identify ways in which a local habitat provides these necessities
+  why: Asks what a habitat provides to organisms; the museum holds no record that describes a habitat.
+  searches:
+  - 'find_entity.py "habitat" "الموطن" "extinction" "endangered" "انقراض": records on the end of dynasties (the word inqiraz), none on species or habitats'
+  - 'find_entity.py "plants" "النبات" "botany" "Ibn al-Baytar" "الزراعة": person/ibn-al-baytar mentions the "habitats" of plants once in a summary line but says nothing of what a habitat provides organisms; concept/trees-plants has no prose'
+- code: B2.2
+  text: describe a community as a group of interacting species sharing a common habitat, and identify factors that affect the ability of a community of plants and animals to survive in a local habitat
+  why: Asks for a community of interacting species in a common habitat; the museum holds no such record.
+  searches:
+  - 'find_entity.py "food chain" "predator" "المفترس" "ecosystem": no real record'
+  - 'find_entity.py "habitat" "الموطن" "extinction" "endangered" "انقراض": records on the end of dynasties (the word inqiraz), none on species or habitats'
+- code: B2.3
+  text: describe the relationship of organisms in a food chain, and classify organisms as producers, consumers, or decomposers
+  why: Asks for food chains and for classing organisms as producers, consumers or decomposers; the museum holds no record that states a food chain.
+  searches:
+  - 'find_entity.py "food chain" "predator" "المفترس" "ecosystem": no real record'
+  - 'entity_brief.py work/kitab-al-hayawan --full: the book sorts animals by how they move (walk, fly, swim, creep) and into humans, beasts, predators and vermin; it states no food chain, no diet classes and no adaptations'
+- code: B2.4
+  text: demonstrate an understanding of a food web as the interconnection of multiple food chains in a natural community
+  why: Asks for the food web as the link of several food chains; the museum holds no record on food chains or webs.
+  searches:
+  - 'find_entity.py "food chain" "predator" "المفترس" "ecosystem": no real record'
+  - 'entity_brief.py work/kitab-al-hayawan --full: the book sorts animals by how they move (walk, fly, swim, creep) and into humans, beasts, predators and vermin; it states no food chain, no diet classes and no adaptations'
+- code: B2.5
+  text: describe how animals are categorized according to their diet, and categorize various animals as carnivores, herbivores, or omnivores
+  why: Asks for animals classed by diet as carnivores, herbivores or omnivores; the museum has no record that classes animals by what they eat (Kitab al-Hayawan classes them by movement).
+  searches:
+  - 'find_entity.py "herbivore" "carnivore" "آكل" "diet of animals": concept/akl (lawful food) and a personal name; nothing on animal diets'
+  - 'entity_brief.py work/kitab-al-hayawan --full: the book sorts animals by how they move (walk, fly, swim, creep) and into humans, beasts, predators and vermin; it states no food chain, no diet classes and no adaptations'
+- code: B2.6
+  text: describe structural adaptations of a variety of plants and animals and how these adaptations allow the organisms to survive in specific habitats
+  why: Asks for structural adaptations of plants and animals to habitats; the museum holds no record that describes an adaptation.
+  searches:
+  - 'find_entity.py "camel" "الجمل" "desert animals" "adaptation": concept/camel has no prose; the other hits are the Battle of the Camel and Salih''s she-camel, not adaptations'
+  - 'entity_brief.py work/kitab-al-hayawan --full: the book sorts animals by how they move (walk, fly, swim, creep) and into humans, beasts, predators and vermin; it states no food chain, no diet classes and no adaptations'
+- code: B2.7
+  text: explain why all habitats have limits to the number of plants and animals they can support
+  why: Asks why habitats have limits on the number of organisms they support; the museum holds no record on carrying capacity or habitats.
+  searches:
+  - 'find_entity.py "habitat" "الموطن" "extinction" "endangered" "انقراض": records on the end of dynasties (the word inqiraz), none on species or habitats'
+  - 'find_entity.py "food chain" "predator" "المفترس" "ecosystem": no real record'
+- code: C1.1
+  text: assess the impacts on society of devices that use the properties of light or sound, or both
+  why: Asks the student to assess impacts on society of devices that use light or sound; the camera-obscura record says what the experiment proved and calls it the basis of the camera, but it assesses no impact on society.
+  searches:
+  - 'find_entity.py "light" "النور" "lamp" "السراج" "candle": 266 hits, all names, hadith and the divine name an-Nur; nothing on which sources emit light or which only reflect it'
+  - 'find_entity.py "sound" "wave" "echo" "vibration" "صدى" "اهتزاز": only hadith and personal names; no record on sound as a wave'
+- code: C1.2
+  text: assess the impacts on the environment of light energy and sound energy produced by various technologies, while taking different perspectives into account
+  why: Asks for the environmental impacts of light and sound energy from technologies; the museum holds no record on this.
+  searches:
+  - 'find_entity.py "light" "النور" "lamp" "السراج" "candle": 266 hits, all names, hadith and the divine name an-Nur; nothing on which sources emit light or which only reflect it'
+  - 'find_entity.py "sound" "wave" "echo" "vibration" "صدى" "اهتزاز": only hadith and personal names; no record on sound as a wave'
+- code: C2.2
+  text: distinguish between objects and living things that emit their own light and those that reflect light from other sources
+  why: Asks the student to tell objects that emit their own light from those that reflect it; the records name sources of light but do not sort them in this way.
+  searches:
+  - 'find_entity.py "light" "النور" "lamp" "السراج" "candle": 266 hits, all names, hadith and the divine name an-Nur; nothing on which sources emit light or which only reflect it'
+  - 'find_entity.py "heat" "fire" "sun" "الشمس" "lighthouse": concept/fire and concept/sun have no prose; the rest are names and hadith'
+- code: C2.4
+  text: describe properties of sound, including that sound travels through a medium as a wave and that sound can be absorbed or reflected and modified
+  why: Asks for properties of sound, including travel as a wave, absorption and reflection; the museum holds no record on sound as a physical property.
+  searches:
+  - 'find_entity.py "sound" "wave" "echo" "vibration" "صدى" "اهتزاز": only hadith and personal names; no record on sound as a wave'
+  - 'find_entity.py "ear" "hearing" "music theory" "الموسيقى" "lute": hearing in hadith transmission and the divine name as-Sami; person/al-farabi is a philosopher record with no acoustics in it'
+- code: C2.5
+  text: explain how vibrations cause sound waves
+  why: Asks how vibrations cause sound waves; the museum holds no record on vibrations or sound waves.
+  searches:
+  - 'find_entity.py "sound" "wave" "echo" "vibration" "صدى" "اهتزاز": only hadith and personal names; no record on sound as a wave'
+  - 'find_entity.py "ear" "hearing" "music theory" "الموسيقى" "lute": hearing in hadith transmission and the divine name as-Sami; person/al-farabi is a philosopher record with no acoustics in it'
+- code: C2.6
+  text: describe how different objects and materials interact with light and sound energy
+  why: Asks how different objects and materials interact with light and sound; the records show an opaque body stopping a beam of light and nothing more, and none treats sound.
+  searches:
+  - 'find_entity.py "glass" "lens" "spectacles" "eye" "العين" "ophthalmology": the evil eye, place names and personal names; nothing on how materials treat light'
+  - 'find_entity.py "sound" "wave" "echo" "vibration" "صدى" "اهتزاز": only hadith and personal names; no record on sound as a wave'
+- code: C2.7
+  text: distinguish between sources of light that emit both light and heat and those that emit light but little heat
+  why: Asks to tell light sources that give off heat from those that give little; the museum holds no record on this (concept/fire and concept/sun have no prose).
+  searches:
+  - 'find_entity.py "heat" "fire" "sun" "الشمس" "lighthouse": concept/fire and concept/sun have no prose; the rest are names and hadith'
+  - 'find_entity.py "light" "النور" "lamp" "السراج" "candle": 266 hits, all names, hadith and the divine name an-Nur; nothing on which sources emit light or which only reflect it'
+- code: D1.1
+  text: assess the impacts of machines and their mechanisms on the daily lives of people in various communities
+  why: Asks the student to assess the impacts of machines on the daily lives of people in various communities; the pump, the washer and the lifters are documented as designs and copies, with no account of their effect on a community.
+  searches:
+  - 'find_entity.py "windmill" "waterwheel" "noria" "الناعورة" "water wheel": the pump and two water lifters of al-Jazari; each is a design in a book, with no account of its effect on a community or on the environment'
+  - 'find_entity.py "lever" "pulley" "gear" "wheel" "الرافعة" "الدولاب": al-Jazari''s water lifters and the pump, which describe how motion is passed on; none explains how a machine changes a force'
+- code: D1.2
+  text: assess and compare the environmental impacts of using different machines designed for similar purposes
+  why: Asks for the environmental impacts of different machines made for similar purposes; no record compares machines or states an environmental effect.
+  searches:
+  - 'find_entity.py "windmill" "waterwheel" "noria" "الناعورة" "water wheel": the pump and two water lifters of al-Jazari; each is a design in a book, with no account of its effect on a community or on the environment'
+  - 'find_entity.py "lever" "pulley" "gear" "wheel" "الرافعة" "الدولاب": al-Jazari''s water lifters and the pump, which describe how motion is passed on; none explains how a machine changes a force'
+- code: D2.5
+  text: explain how forces are changed in a variety of machines
+  why: Asks how forces are changed in machines; the records describe how motion is passed on, not how a force is changed.
+  searches:
+  - 'find_entity.py "lever" "pulley" "gear" "wheel" "الرافعة" "الدولاب": al-Jazari''s water lifters and the pump, which describe how motion is passed on; none explains how a machine changes a force'
+  - 'find_entity.py "force" "weight" "balance" "الميزان" "Balance of Wisdom": concept/al-mizan and invention/balance-of-wisdom are about weighing and density, not about changing forces in machines'
+- code: E1.2
+  text: assess social and environmental impacts of extracting and refining rocks and minerals and of manufacturing, recycling, and disposing of products derived from rocks and minerals, while taking various perspectives into account
+  why: Asks for the impacts of extracting, refining, making and recycling rock and mineral products; the museum holds no such record.
+  searches:
+  - 'find_entity.py "rock" "mineral" "ore" "copper" "iron mining" "salt": the Dome of the Rock, personal names and a fiqh record on dust of ores; nothing on extracting or refining'
+  - 'find_entity.py "mineralogy" "geology" "علم المعادن" "stone" "الأحجار": the Black Stone, a stone-drill instrument and hadith; no record on rock types or the rock cycle'
+- code: E2.1
+  text: explain geological processes that result in the formation of igneous, sedimentary, and metamorphic rocks, using the rock cycle
+  why: Asks for the formation of igneous, sedimentary and metamorphic rocks, using the rock cycle; the museum holds no record on rocks or the rock cycle.
+  searches:
+  - 'find_entity.py "mineralogy" "geology" "علم المعادن" "stone" "الأحجار": the Black Stone, a stone-drill instrument and hadith; no record on rock types or the rock cycle'
+  - 'find_entity.py "fossil" "earthquake" "mountain" "جبال" "مناجم" "mining": earthquakes (used in lesson E-1); concept/mountains has no prose; nothing on fossils'
+- code: E2.2
+  text: describe the physical properties of igneous, sedimentary, and metamorphic rocks
+  why: Asks for the physical properties of the three rock types; the museum holds no such record.
+  searches:
+  - 'find_entity.py "mineralogy" "geology" "علم المعادن" "stone" "الأحجار": the Black Stone, a stone-drill instrument and hadith; no record on rock types or the rock cycle'
+  - 'find_entity.py "gemstone" "jewel" "precious stones" "الأحجار الكريمة" "ruby": object/fass-al-jabali is a royal ruby seal in a chronicle; no record on the uses or properties of rocks and minerals'
+- code: E2.3
+  text: classify different rocks and minerals according to their composition and physical properties, using various tests and criteria
+  why: Asks the student to classify rocks and minerals by composition and tests; person/al-biruni lists a book on gems among his works, but no record says what it contains.
+  searches:
+  - 'find_entity.py "al-Biruni" "البيروني" "Biruni": person/al-biruni-muhammad-ibn-ahmad lists al-Jamahir fi al-jawahir among his sixty works but the record says nothing of its content'
+  - 'find_entity.py "gemstone" "jewel" "precious stones" "الأحجار الكريمة" "ruby": object/fass-al-jabali is a royal ruby seal in a chronicle; no record on the uses or properties of rocks and minerals'
+- code: E2.4
+  text: describe everyday uses of rocks and minerals
+  why: Asks for everyday uses of rocks and minerals; the museum holds no record that describes such uses.
+  searches:
+  - 'find_entity.py "rock" "mineral" "ore" "copper" "iron mining" "salt": the Dome of the Rock, personal names and a fiqh record on dust of ores; nothing on extracting or refining'
+  - 'find_entity.py "gemstone" "jewel" "precious stones" "الأحجار الكريمة" "ruby": object/fass-al-jabali is a royal ruby seal in a chronicle; no record on the uses or properties of rocks and minerals'
+- code: E2.5
+  text: describe how fossils are formed and what information they can provide about Earth’s history
+  why: Asks how fossils form and what they tell of Earth's history; the museum holds no record on fossils.
+  searches:
+  - 'find_entity.py "fossil" "earthquake" "mountain" "جبال" "مناجم" "mining": earthquakes (used in lesson E-1); concept/mountains has no prose; nothing on fossils'
+  - 'find_entity.py "mineralogy" "geology" "علم المعادن" "stone" "الأحجار": the Black Stone, a stone-drill instrument and hadith; no record on rock types or the rock cycle'
+- code: E2.6
+  text: demonstrate an understanding of First Nations, Métis, and Inuit geological knowledges that are used in the selection of different rocks and minerals for specific purposes
+  why: Asks for First Nations, Métis and Inuit geological knowledges used in choosing rocks and minerals; the museum holds no such record.
+  searches:
+  - 'find_entity.py "First Nations" "Métis" "Inuit" "Indigenous" "السكان الأصليون": one real record, concept/muwala (a fiqh term); nothing usable'
+  - 'find_entity.py "mineralogy" "geology" "علم المعادن" "stone" "الأحجار": the Black Stone, a stone-drill instrument and hadith; no record on rock types or the rock cycle'

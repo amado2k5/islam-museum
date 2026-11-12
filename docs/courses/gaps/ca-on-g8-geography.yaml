@@ -1,0 +1,144 @@
+course: course/ca-on-g8-geography
+gaps:
+- code: A1.3
+  text: describe possible features of a sustainable community in the future […], and analyse some challenges associated with creating such a community […]
+  why: The expectation asks the student to describe features of a sustainable community of the future and the challenges of creating one; no museum record describes a planned sustainable community, and none states that its subject served sustainability.
+  searches:
+  - 'find_entity.py "sustainable community" "مجتمع مستدام" "sustainability": no real record'
+  - 'find_entity.py "recycling" "إعادة التدوير" "environment": no usable record (a fatwa on collecting plastic caps for charity and a Grade 6 lesson of this archive, neither about a sustainable community)'
+  - 'find_entity.py "tree planting" "غرس" "زراعة الأشجار": no record about a community or its future; passage/muwatta-22-2166 is a hadith passage on reviving land'
+- code: A2.1
+  text: formulate questions to guide investigations into issues related to the interrelationship between human settlement and sustainability from a geographic perspective […]
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: gather and organize data and information from a variety of sources and using various technologies to investigate issues related to the interrelationship between human settlement and sustainability from a geographic perspective […]
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: *id001
+- code: A2.3
+  text: analyse and construct various print and digital maps as part of their investigations into issues related to the interrelationship between human settlement and sustainability, with a focus on investigating the spatial boundaries of the issue […]
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: *id001
+- code: A2.4
+  text: interpret and analyse data and information relevant to their investigations, using various tools and spatial technologies […]
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: *id001
+- code: A2.5
+  text: evaluate evidence and draw conclusions about issues related to the interrelationship between human settlement and sustainability
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: *id001
+- code: A2.6
+  text: communicate the results of their inquiries using appropriate vocabulary […] and formats appropriate for specific audiences […]
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: *id001
+- code: A3.1
+  text: identify significant spatial patterns in human settlement on a global scale […]
+  why: The expectation asks for spatial patterns in human settlement on a global scale (where people live); the museum holds no record on population distribution.
+  searches:
+  - 'find_entity.py "population distribution" "توزيع السكان" "demography": no real record'
+  - 'find_entity.py "urbanization" "التحضر" "urban growth": no real record'
+- code: A3.4
+  text: identify and describe significant current trends in human settlement […]
+  why: The expectation asks for significant current trends in human settlement; the museum holds no record on present-day trends.
+  searches:
+  - 'find_entity.py "urbanization" "التحضر" "urban growth": no real record'
+  - 'find_entity.py "migration" "هجرة" "migrants": real records on the Hijra and the first migration to Abyssinia, which are events of the early community, not current trends in human settlement'
+- code: A3.6
+  text: describe some practices that individuals and communities have adopted to help make human settlements more sustainable […]
+  why: The expectation asks for practices that make settlements more sustainable. concept/hima is a real record of a reserved pasture, but it does not say the reserve served conservation or sustainability, so the museum does not claim it.
+  searches:
+  - 'find_entity.py "sustainable community" "مجتمع مستدام" "sustainability": no real record'
+  - 'find_entity.py "hima" "حمى" "conservation": concept/hima is a real record (a reserved pasture); it describes who may graze, not conservation'
+  - 'find_entity.py "recycling" "إعادة التدوير" "environment": no usable record'
+- code: A3.7
+  text: demonstrate the ability to analyse and construct choropleth maps on topics related to human settlement […]
+  why: 'Skills expectation (constructing and analysing choropleth maps): it names a mapping technique, not subject matter a record could carry.'
+  searches: *id001
+- code: B1.1
+  text: analyse some interrelationships among factors that can contribute to quality of life […]
+  why: The expectation asks for the factors that contribute to quality of life and how they interrelate; the museum holds no record on quality-of-life factors.
+  searches:
+  - 'find_entity.py "quality of life" "جودة الحياة" "well-being": no real record'
+  - 'find_entity.py "life expectancy" "متوسط العمر" "literacy": no real record'
+- code: B1.2
+  text: analyse how various factors have affected the economies of specific developed and developing countries around the world […], and explain the interrelationship between these factors and quality of life in some of these countries […]
+  why: The expectation asks for how factors have affected the economies of specific developed and developing countries today; the museum holds no record on these economies.
+  searches:
+  - 'find_entity.py "developing country" "دول نامية" "development": the hits are unrelated (a leadership-training programme and a self-development concept)'
+  - 'find_entity.py "poverty" "الفقر" "inequality": concept/faqr is poverty in Sufi ethics, not the economy of a country'
+- code: B1.3
+  text: assess the effectiveness of various programs and policies aimed at improving the quality of life in various countries […]
+  why: The expectation asks the student to assess the effectiveness of programmes and policies in various countries, which needs evidence of results. The records on zakat, waqf and the Adudi Bimaristan (lesson b-1, under B3.5) describe what an institution did, not how well it worked, so they cannot carry this expectation.
+  searches:
+  - 'find_entity.py "poverty relief" "مكافحة الفقر" "aid": concept/three-sources-of-economy (one author''s framework, marked unchecked in the record) and listing/ksrelief (a directory entry for a relief centre); neither assesses a programme or policy'
+  - 'find_entity.py "United Nations" "الأمم المتحدة" "NGO": one source record on an observance day, nothing about programmes'
+- code: B1.4
+  text: assess the effectiveness of media in improving the quality of life in some countries/regions around the world […]
+  why: The expectation asks for the effectiveness of media in improving quality of life; the museum holds no record on media campaigns.
+  searches:
+  - 'find_entity.py "media" "إعلام" "press": no record about media; the hits are a biographical dictionary and hadith passages'
+  - 'find_entity.py "Red Crescent" "الهلال الأحمر" "humanitarian": directory entries for relief organisations, not media'
+- code: B2.1
+  text: formulate questions to guide investigations into issues related to global development and quality of life from a geographic perspective […]
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: *id001
+- code: B2.2
+  text: gather and organize data and information from a variety of sources and using various technologies to investigate issues related to global development and quality of life from a geographic perspective […]
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: *id001
+- code: B2.3
+  text: analyse and construct digital and print maps as part of their investigations into issues related to global development and quality of life […]
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: *id001
+- code: B2.4
+  text: interpret and analyse data and information relevant to their investigations, using various tools and spatial technologies […]
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: *id001
+- code: B2.5
+  text: evaluate evidence and draw conclusions about issues related to global development and quality of life
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: *id001
+- code: B2.6
+  text: communicate the results of their inquiries using appropriate vocabulary […] and formats appropriate for specific audiences […]
+  why: 'Skills expectation: it names an inquiry skill (questions, data, maps, analysis, evaluation, communication), not subject matter a record could carry.'
+  searches: *id001
+- code: B3.1
+  text: identify and describe the significance of several indicators that are commonly used to measure quality of life on a global scale […]
+  why: The expectation asks for indicators commonly used to measure quality of life on a global scale; the museum holds no record on such indicators.
+  searches:
+  - 'find_entity.py "quality of life" "جودة الحياة" "well-being": no real record'
+  - 'find_entity.py "life expectancy" "متوسط العمر" "literacy": no real record'
+- code: B3.2
+  text: compare findings with respect to selected quality of life indicators in some developing and more developed countries […]
+  why: The expectation asks the student to compare quality-of-life findings between developing and more developed countries; the museum holds no data of that kind.
+  searches:
+  - 'find_entity.py "developing country" "دول نامية" "development": the hits are unrelated (a leadership-training programme and a self-development concept)'
+  - 'find_entity.py "wealth" "ثروة" "distribution of wealth": concept/wealth-in-islam is one author''s ethical account of wealth and concept/nisab is a wealth threshold in zakat; neither compares countries'
+- code: B3.3
+  text: demonstrate the ability to analyse and construct scatter graphs, both on paper and using a graphing program, when studying global development and/or quality of life […]
+  why: 'Skills expectation (analysing and constructing scatter graphs): it names a graphing technique, not subject matter a record could carry.'
+  searches: *id001
+- code: B3.4
+  text: demonstrate the ability to analyse and construct population pyramids, both on paper and using a graphing program, when studying demographic patterns and trends in developed and developing countries […]
+  why: 'Skills expectation (analysing and constructing population pyramids): it names a graphing technique, not subject matter a record could carry.'
+  searches: *id001
+- code: B3.6
+  text: identify different types of economic systems […], and describe their characteristics
+  why: The expectation asks for types of economic systems and their characteristics; the museum holds no record that describes types of economic system.
+  searches:
+  - 'find_entity.py "economic system" "نظام اقتصادي" "economy": concept/al-iqtisad-fi-al-quran and concept/economy-as-moderation are ethical treatments of the economy, not accounts of types of economic system'
+  - 'find_entity.py "riba" "ربا" "usury": concept/riba is a rule about interest, with prose in Arabic only, not a description of a type of economic system'
+- code: B3.7
+  text: explain how the four main economic sectors (i.e., primary, secondary, tertiary, and quaternary) are related to global development […]
+  why: The expectation asks how the four economic sectors relate to global development; the museum holds no record that sets out the sectors or links them to development.
+  searches:
+  - 'find_entity.py "industry" "صناعة" "manufacturing": concept/crafts-in-islam is al-Maraghi on the ethics of crafts, not an account of economic sectors'
+  - 'find_entity.py "agriculture" "farming" "فلاحة": concept/agriculture-in-islam is taught in lesson a-2 under A3.5; it does not relate sectors to one another or to development'
+- code: B3.9
+  text: describe the spatial distribution of wealth, both globally and within selected countries/regions […]
+  why: The expectation asks for the spatial distribution of wealth, globally and within countries; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "wealth" "ثروة" "distribution of wealth": concept/wealth-in-islam is one author''s ethical account of wealth, not a map of its distribution'
+  - 'find_entity.py "inheritance" "ميراث" "mirath": concept/mirath is the law of inheritance shares, not a spatial distribution of wealth'

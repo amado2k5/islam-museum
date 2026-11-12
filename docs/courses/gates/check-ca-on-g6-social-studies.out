@@ -1,0 +1,38 @@
+ORACLE course: ingestion gate for course/ca-on-g6-social-studies (strict)
+run at commit ed3a303a9efb4795cacaa334c618b7baa2879077 on 2026-11-12 02:44 EST; baseline 800467e93e; uncommitted paths under data/ content/ site/ i18n/ scripts/courses/: 1004
+
+  [PASS] every record file of this course parses
+records: 1 subject, 1 units, 1 lessons; above it: ['course/ca-on-g6', 'course/ca-on-english']
+  [PASS] TREE the subject hangs under a grade under a jurisdiction — ['grade', 'jurisdiction']
+  [PASS] TREE units hang on the subject and lessons on units
+  [PASS] TREE every `lessons:` list names its own children — []
+  [PASS] TREE siblings have distinct `order`
+  [PASS] DRAFT every record is draft and names what generated it
+  [PASS] SOURCE the subject cites a curriculum source that is a source record — ['source/ontario-curriculum-sshg-2023']
+  [PASS] SOURCE every record of the course cites the curriculum source
+authority's document: .cache/curricula/ontario-sshg-g6/official.json: 2 strands, 6 overall and 40 specific expectations; official language `en`
+expectation entries: 5; identical to the official text: 3; identical under the 40-word quotation rule (examples marked […], long texts cut with …): 2; wrong: 0
+  [PASS] FIDELITY every expectation is the authority's code and text
+specific expectations in a lesson: 2; in the gap register: 38; in neither: 0
+  [PASS] COVERAGE every specific expectation is in a lesson or in the gap register
+  [PASS] COVERAGE no expectation is both taught and registered as a gap
+  [PASS] GAPS every gap entry carries the official code and text, at least two searches, and the reason
+texts that are a byte copy of another language's text: 0
+  [PASS] LANGUAGE no text is a copy of another language passed off as a translation
+  [PASS] LANGUAGE Arabic is present on every label, summary and connection
+  [PASS] LANGUAGE (strict) every text is present in Arabic, English and Urdu
+lesson expectation texts with no Arabic yet (shown in the official language, labelled): 0
+  [PASS] MAPPING every connection has a position, a kind, a title, a text and at least one source
+connections: 1; linking a record: 1; distinct records: 1; links that are not a record: 0 []
+  [PASS] MAPPING every linked entity is a real record
+  [PASS] MAPPING every Qur'an connection links its passage record and cites only the Tanzil text
+  [PASS] PROVENANCE every cited source is a source record
+  [PASS] PROVENANCE every source a connection cites existed at the baseline commit
+entity-linked connections citing a source their record did not cite at the baseline: 0 of 1
+  [PASS] PROVENANCE every source a connection cites was already cited by its linked record at the baseline
+connections with no entity link: 0; lessons with no connection: 0
+  [PASS] MAPPING (strict) every connection links a record
+  [PASS] MAPPING (strict) every lesson has at least one connection
+  [PASS] PROSE every record has prose in Arabic and English (and Urdu when strict) with the right front matter; lessons have a Brief
+
+RESULT: GREEN (24 checks passed)

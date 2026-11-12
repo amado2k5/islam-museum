@@ -1,0 +1,40 @@
+id: course/ca-on-g6-math-e-1
+class: course
+kind: lesson
+label:
+  en: Quadrilaterals and their properties
+  ar: الأشكال الرباعية وخصائصها
+  ur: چوکور اور ان کی خصوصیات
+summary:
+  en: Listing the properties of a quadrilateral.
+  ar: تدوين خصائص شكل رباعي.
+  ur: ایک چوکور کی خصوصیات کی فہرست بنانا۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g6-math-e
+expectations:
+- code: E1.1
+  text:
+    en: create lists of the geometric properties of various types of quadrilaterals, including the properties of the diagonals, rotational symmetry, and line symmetry
+    ar: ضع قوائم بالخصائص الهندسية لمختلف أنواع الأشكال الرباعية، ومنها خصائص الأقطار والتناظر الدوراني والتناظر حول خط
+    ur: مختلف قسم کے چوکور کی ہندسی خصوصیات کی فہرستیں بنائیں، بشمول قطروں کی خصوصیات، گردشی تشاکل اور خطی تشاکل
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A quadrilateral with two equal legs
+    ar: رباعي ذو ساقين متساويتين
+    ur: دو برابر ساقوں والا چہارضلعی
+  text:
+    ar: 'في شرح ما أشكل من مصادرات كتاب إقليدس درس عمر الخيام بناء نظرية المتوازيات باستعمال رباعي ذي ساقين متساويين عموديين على قاعدة، ويُوصل طرفاهما العلويان بخط. ويسأل البحث عن الزاويتين عند هذا الوصل: أهما قائمتان أم حادتان أم منفرجتان؟ وهذه مساهمة في ترتيب البرهان، لا إثبات المصادرة الخامسة من بقية المصادرات وحدها. ما الخصائص التي تستطيع أن تحصيها لهذا الرباعي من الرسم؟'
+    en: In his commentary on Euclid's postulates, Umar Khayyam reconstructed the theory of parallels using a quadrilateral with equal legs perpendicular to its base, their upper ends joined. The investigation asks whether the two summit angles are right, acute or obtuse. The record says this concerns how a proof is organised, not proving the fifth postulate from Euclid's other assumptions alone. Which properties of this quadrilateral can you list from a drawing?
+    ur: شرح مشکلات مصادرات کتاب اقلیدس میں عمر خیام نے متوازی نظریے کی نئی ترتیب ایک چہارضلعی سے کی جس کی مساوی ساقیں قاعدے پر عمود ہیں اور ان کے بالائی سرے ملائے گئے ہیں۔ سوال ہے کہ اوپر دونوں زاویے قائم، حادہ یا منفرجہ ہیں؟ اضافہ برہان کی ترتیب کا ہے، باقی مسلموں سے تنہا پانچویں مسلمے کا ثبوت نہیں۔ ڈرائنگ سے آپ اس چہارضلعی کی کون سی خصوصیات گنوا سکتے ہیں؟
+  entity: invention/khayyam-parallel-quadrilateral
+  sources:
+  - source/sep-umar-khayyam
+  - source/vahabzadeh-khayyam-mathematician
+order: 1

@@ -1,0 +1,52 @@
+id: course/ca-on-g4-science-e-1
+class: course
+kind: lesson
+label:
+  en: When the ground shakes
+  ar: حين تهتز الأرض
+  ur: جب زمین ہلتی ہے
+summary:
+  en: How a geological process, an earthquake, affected towns, buildings and people (E1.1).
+  ar: كيف أثّرت عملية جيولوجية، هي الزلزلة، في المدن والمباني والناس، التوقع E1.1.
+  ur: ایک ارضیاتی عمل، زلزلے، نے شہروں، عمارتوں اور لوگوں پر کیا اثر ڈالا، توقع E1.1۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g4-science-e
+expectations:
+- code: E1.1
+  text:
+    en: analyse ways in which geological processes impact society and the environment
+    ar: حلِّل الطرق التي تؤثر بها العمليات الجيولوجية في المجتمع والبيئة
+    ur: ان طریقوں کا تجزیہ کریں جن سے ارضیاتی عمل معاشرے اور ماحول پر اثر انداز ہوتے ہیں
+connections:
+- position: before
+  kind: story
+  title:
+    en: The year of the great shaking
+    ar: عام الزلزلة الكبرى
+    ur: بڑے زلزلے کا سال
+  text:
+    en: Ibn al-Imad's chronicle, the Shadharat al-Dhahab, reports that in 425 AH an earthquake destroyed about half of Ramla, villages sank into the ground, part of the wall of Jerusalem fell and the minaret of the mosque of Ascalon collapsed. The sea also receded about three farsakhs, and some of the people who had gone out to gather fish and shells were caught when the water returned. What happened to the people, the buildings and the land?
+    ar: يذكر ابن العماد في «شذرات الذهب» أنه في سنة 425هـ زُلزلت الرملة فهُدم نحو نصفها، وخُسف بقرى، وسقط بعض حائط بيت المقدس، وسقطت منارة جامع عسقلان. وجزر البحر نحو ثلاثة فراسخ، وباغت الماءُ حين عاد بعضَ الذين خرجوا يتتبّعون السمك والصدف. ماذا أصاب الناس والبنيان والأرض؟
+    ur: ابن العماد اپنی «شذرات الذہب» میں بتاتا ہے کہ 425 ہجری میں زلزلے نے رملہ کا تقریباً آدھا حصہ تباہ کر دیا، بستیاں زمین میں دھنس گئیں، بیت المقدس کی دیوار کا کچھ حصہ گر پڑا اور عسقلان کی جامع مسجد کا مینار گر گیا۔ سمندر بھی تقریباً تین فرسخ پیچھے ہٹ گیا، اور جو لوگ مچھلیاں اور سیپ چننے نکلے تھے ان میں سے کچھ پانی لوٹنے پر اس کی زد میں آ گئے۔ لوگوں، عمارتوں اور زمین پر کیا بیتی؟
+  entity: event/earthquake-tsunami-425
+  sources:
+  - source/shadharat-dhahab
+- position: after
+  kind: story
+  title:
+    en: A mosque rebuilt smaller
+    ar: مسجد تُبنى من جديد أصغر
+    ur: ایک مسجد جو چھوٹی بنائی گئی
+  text:
+    en: After the earthquake of 1033, which devastated Jerusalem, the Fatimid caliph al-Zahir had al-Aqsa rebuilt between 1034 and 1036, and the work was completed under al-Mustansir in 1065. The new mosque was smaller, with seven aisles instead of fifteen, and the Encyclopaedia of Islam counts the earthquake among the causes of a major reorganisation of Jerusalem. How did a geological event change a city's buildings?
+    ar: بعد زلزلة سنة 1033م المدمرة أعاد الخليفة الفاطمي الظاهر بناء المسجد الأقصى بين 1034 و1036م، واكتمل العمل في خلافة المستنصر سنة 1065م. وكان المسجد الجديد أصغر، بسبعة أروقة بدل خمسة عشر، وتعدّ «دائرة المعارف الإسلامية» الزلزلة من أسباب إعادة تنظيم كبيرة لبيت المقدس. كيف غيّر حدث جيولوجي مباني مدينة؟
+    ur: 1033 عیسوی کے تباہ کن زلزلے کے بعد فاطمی خلیفہ الظاہر نے مسجد اقصیٰ کو 1034 سے 1036 کے درمیان دوبارہ بنوایا، اور کام المستنصر کے دور میں 1065 میں مکمل ہوا۔ نئی مسجد چھوٹی تھی، پندرہ کے بجائے سات صحنوں والی، اور اسلامی انسائیکلوپیڈیا زلزلے کو بیت المقدس کی ایک بڑی تنظیمِ نو کے اسباب میں شمار کرتا ہے۔ ایک ارضیاتی واقعے نے ایک شہر کی عمارتیں کیسے بدلیں؟
+  entity: event/aqsa-fatimid-rebuild
+  sources:
+  - source/encyclopaedia-of-islam-2
+order: 1

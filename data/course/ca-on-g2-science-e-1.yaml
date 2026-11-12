@@ -1,0 +1,65 @@
+id: course/ca-on-g2-science-e-1
+class: course
+kind: lesson
+label:
+  en: Where does water come from?
+  ar: من أين يأتي الماء؟
+  ur: پانی کہاں سے آتا ہے؟
+summary:
+  en: Wells, pools, springs, rain and tunnels as sources of water that people built ways to reach (E2.2).
+  ar: الآبار والبرك والعيون والمطر والأنفاق بوصفها مصادر للماء ابتكر الناس طرقًا للوصول إليها ⁦(E2.2)⁩.
+  ur: کنویں، تالاب، چشمے، بارش اور سرنگیں بطور پانی کے ذرائع جن تک پہنچنے کے طریقے لوگوں نے بنائے ⁦(E2.2)⁩۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g2-science-e
+expectations:
+- code: E2.2
+  text:
+    en: identify sources of water in the natural and built environments
+    ar: حدّد مصادر الماء في البيئات الطبيعية والمبنية
+    ur: قدرتی اور تعمیر شدہ ماحول میں پانی کے ذرائع کی نشاندہی کریں
+connections:
+- position: before
+  kind: place
+  title:
+    en: A fountain given to everyone
+    ar: سبيل لكل الناس
+    ur: سب کے لیے ایک سبیل
+  text:
+    en: Al-Haddad describes the sabil as a charitable building endowed to give people fresh water every day all year round. He says sabils drew water from wells, pools and springs, or from rain and floods through channels or pipes hidden in walls, and that some had one or two cisterns. Which of these sources of water can you find near your school?
+    ar: يعد الحداد السبيل بناءً خيريًا يوقف لسقي الناس الماء العذب كل يوم وعلى مدار العام. ويذكر الحداد أن الأسبلة كانت تستمد الماء من الآبار والبرك والعيون، أو من المطر والسيول عبر مجارٍ أو أنابيب مخفية في الجدران، وأن لبعضها صهريجًا أو صهريجين. أي هذه المصادر للماء تجده قرب مدرستك؟
+    ur: الحداد سبیل کو ایک خیراتی عمارت بتاتے ہیں جو لوگوں کو سال بھر روزانہ میٹھا پانی پلانے کے لیے وقف کی جاتی تھی۔ الحداد بتاتے ہیں کہ سبیلیں کنوؤں، تالابوں اور چشموں سے، یا بارش اور سیلاب سے دیواروں میں چھپی نالیوں یا نلکیوں کے ذریعے پانی لیتی تھیں، اور بعض میں ایک یا دو حوض تھے۔ ان میں سے پانی کے کون سے ذرائع آپ کو اپنے اسکول کے قریب ملتے ہیں؟
+  entity: concept/sabil
+  sources:
+  - source/haddad-asbila-makka-madina-2004
+- position: within
+  kind: invention
+  title:
+    en: A tunnel that brings water out
+    ar: نفق يخرج الماء
+    ur: پانی باہر لانے والی سرنگ
+  text:
+    en: Ataie-Ashtiani and Simmons describe a qanat as a gently sloping underground tunnel that brings water out by gravity, so the water runs out downhill, with vertical shafts (straight holes down from the ground) for working, access and maintenance. Al-Karaji wrote a manual on levels and on lining up such a tunnel. Why must the route of such a tunnel be chosen and checked?
+    ar: يصف عطائي أشتياني وسيمونز القناة بأنها نفق جوفي خفيف الانحدار يُخرج الماء بفعل الجاذبية، فيجري الماء إلى الخارج نازلًا، وتتخلله آبار رأسية ⁦(حفر مستقيمة نحو الأسفل من سطح الأرض)⁩ للعمل والوصول والصيانة. وقد كتب الكرجي كتابًا في الموازين وضبط مسار مثل هذا النفق. لماذا ينبغي اختيار مسار نفق كهذا والتحقق منه؟
+    ur: اتائی اشتیانی اور سیمنز قنات کو ایک ہلکی ڈھلان والی زیرِ زمین سرنگ بتاتے ہیں جو کشش ثقل سے پانی باہر لاتی ہے، یعنی پانی ڈھلان پر بہہ کر نکلتا ہے، اور جس میں کام، رسائی اور دیکھ بھال کے لیے عمودی کنویں ⁦(زمین سے سیدھے نیچے جاتے گڑھے)⁩ ہوتے ہیں۔ الکرجی نے سطح ناپنے اور ایسی سرنگ کی سمت درست رکھنے پر ایک کتاب لکھی۔ ایسی سرنگ کا راستہ کیوں چنا اور جانچا جانا چاہیے؟
+  entity: invention/karaji-qanat-surveying
+  sources:
+  - source/karaji-ataie-simmons-2020
+- position: after
+  kind: invention
+  title:
+    en: Lifting water from a well
+    ar: رفع الماء من البئر
+    ur: کنویں سے پانی اٹھانا
+  text:
+    en: Al-Jazari describes a machine for raising water from a well or pool with a scoop carried by a moving stem. An animal supplies the motion. Why might a community need a machine to bring water up from a well?
+    ar: يصف الجزري آلة ترفع الماء من بئر أو حوض بمغرفة تحملها ساق متحركة. ويمد الحيوان الآلة بالحركة. لماذا قد تحتاج جماعة إلى آلة ترفع الماء من البئر؟
+    ur: الجزری ایک ایسی مشین بیان کرتے ہیں جو کنویں یا حوض سے ایک چلتی ہوئی ڈنڈی پر لگے ڈول سے پانی اوپر اٹھاتی ہے۔ جانور حرکت دیتا ہے۔ کسی برادری کو کنویں سے پانی اوپر لانے کے لیے مشین کی ضرورت کیوں پڑ سکتی ہے؟
+  entity: invention/jazari-animal-scoop-water-lifter
+  sources:
+  - source/jazari-hill-1974
+order: 1

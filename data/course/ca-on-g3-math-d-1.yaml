@@ -1,0 +1,39 @@
+id: course/ca-on-g3-math-d-1
+class: course
+kind: lesson
+label:
+  en: Counting to find out
+  ar: العدّ للمعرفة
+  ur: جاننے کے لیے گنتی
+summary:
+  en: Reading a recorded count by asking questions and drawing conclusions.
+  ar: قراءة إحصاء مسجّل بطرح الأسئلة واستخلاص النتائج.
+  ur: درج شدہ گنتی کو سوال پوچھ کر اور نتائج اخذ کر کے پڑھنا۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g3-math-d
+expectations:
+- code: D1.5
+  text:
+    en: analyse different sets of data presented in various ways, including in frequency tables and in graphs with different scales, by asking and answering questions about the data and drawing conclusions, then make convincing arguments and informed decisions
+    ar: حلّل مجموعات بيانات مختلفة معروضة بطرق متنوعة، ومنها الجداول التكرارية والرسوم البيانية ذات المقاييس المختلفة، بطرح أسئلة عن البيانات والإجابة عنها واستخلاص النتائج، ثم قدّم حججًا مقنعة واتخذ قرارات مدروسة
+    ur: مختلف طریقوں سے پیش کیے گئے اعداد و شمار کے سیٹ، بشمول تعدادی جدولوں اور مختلف پیمانوں والے گرافوں کے، کا تجزیہ کریں، ان کے بارے میں سوال پوچھ کر اور جواب دے کر اور نتائج اخذ کر کے، پھر قائل کرنے والے دلائل پیش کریں اور باخبر فیصلے کریں
+connections:
+- position: within
+  kind: story
+  title:
+    en: Looms counted
+    ar: إحصاء النول
+    ur: کھڈیوں کی گنتی
+  text:
+    ar: تذكر شذرات الذهب لسنة 837هـ إحصاءً للحاكة في الإسكندرية ولقرى مصر، وتقارنه بما كان قبل ذلك. فكان في الإسكندرية ثمان مئة نول، وكان فيها في آخر القرن الثامن الهجري أربعة عشر ألف نول. الأرقام منقولة عن المصدر وحده، ويقول السجل إنه يحتاج إلى مصدر إضافي. ماذا تسأل عن هذه الأرقام؟
+    en: The "Fragments of Gold" records for 837 AH a count of the weavers in Alexandria and of the villages of Egypt, and compares it with what had been before. There were eight hundred looms in Alexandria, where at the end of the eighth century AH there had been fourteen thousand. The figures are given on the source's own authority, and the record says an additional source is needed. What would you ask about these numbers?
+    ur: «شذرات الذہب» 837ھ کی ایک مردم شماری کا ذکر کرتی ہے جو اسکندریہ میں کھڈیوں اور مصر کے دیہات کے بارے میں ہے، اور اسے پہلے کی حالت سے موازنہ کرتی ہے۔ اسکندریہ میں آٹھ سو کھڈیاں تھیں، جبکہ آٹھویں صدی ہجری کے آخر میں وہاں چودہ ہزار کھڈیاں تھیں۔ یہ اعداد صرف اسی ماخذ کی سند پر ہیں، اور اندراج کہتا ہے کہ ایک اضافی ماخذ درکار ہے۔ آپ ان اعداد کے بارے میں کیا پوچھیں گے؟
+  entity: event/egypt-census-837
+  sources:
+  - source/shadharat-dhahab
+order: 1

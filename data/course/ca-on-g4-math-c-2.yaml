@@ -1,0 +1,58 @@
+id: course/ca-on-g4-math-c-2
+class: course
+kind: lesson
+label:
+  en: Finding the unknown number
+  ar: إيجاد العدد المجهول
+  ur: نامعلوم عدد معلوم کرنا
+summary:
+  en: How a symbol can stand for an unknown number, and how an equation is solved and checked (C2.1, C2.2).
+  ar: كيف يمكن لرمز أن يقوم مقام عدد مجهول، وكيف تُحَلّ المعادلة ويُتحقَّق منها ⁦(C2.1 وC2.2)⁩.
+  ur: ایک علامت نامعلوم عدد کی جگہ کیسے لے سکتی ہے، اور مساوات کو کیسے حل اور جانچا جاتا ہے ⁦(C2.1 اور C2.2)⁩۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g4-math-c
+expectations:
+- code: C2.1
+  text:
+    en: identify and use symbols as variables in expressions and equations
+    ar: حدّد الرموز واستعملها متغيّراتٍ في العبارات والمعادلات
+    ur: علامتوں کی نشاندہی کریں اور انہیں اظہاریوں اور مساواتوں میں متغیر کے طور پر استعمال کریں
+- code: C2.2
+  text:
+    en: solve equations that involve whole numbers up to 50 in various contexts, and verify solutions
+    ar: حُلّ معادلات تتضمن أعداداً صحيحة حتى 50 في سياقات متنوعة، وتحقّق من الحلول
+    ur: پچاس تک کے پورے اعداد پر مشتمل مساواتیں مختلف سیاق و سباق میں حل کریں اور حلوں کی تصدیق کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A book for people's needs
+    ar: كتاب لحاجات الناس
+    ur: لوگوں کی ضرورتوں کے لیے ایک کتاب
+  text:
+    en: The record says algebra, al-jabr wal-muqabala, is the art of finding an unknown number from known ones through an equation. Al-Khwarizmi set it out in Baghdad, in a concise book, for people's needs in inheritance, bequests, trade and land measurement. TDV adds that his algebra was wholly in words, with no symbols. What symbol could stand for the unknown number in a problem of your own?
+    ar: يقول السجل إن علم الجبر والمقابلة صناعة يُستخرج بها العدد المجهول من الأعداد المعلومة بمعادلة بينها. وضعه الخوارزمي في بغداد في كتاب مختصر لما يلزم الناس في مواريثهم ووصاياهم وتجاراتهم ومساحة أرضيهم. وتضيف موسوعة TDV أن جبره كله بالكلمات بلا رموز. ما الرمز الذي يمكن أن يقوم مقام العدد المجهول في مسألة من وضعك؟
+    ur: ریکارڈ کہتا ہے کہ علم الجبر والمقابلہ وہ فن ہے جس سے معلوم اعداد کے ذریعے ایک مساوات کی مدد سے نامعلوم عدد نکالا جاتا ہے۔ خوارزمی نے اسے بغداد میں ایک مختصر کتاب میں پیش کیا، تاکہ وراثت، وصیتوں، تجارت اور زمین کی پیمائش میں لوگوں کی ضرورت پوری ہو۔ ٹی ڈی وی انسائیکلوپیڈیا (TDV) مزید کہتا ہے کہ ان کا الجبرا مکمل طور پر الفاظ میں تھا، بغیر علامتوں کے۔ اپنے کسی مسئلے میں نامعلوم عدد کی جگہ کون سی علامت آ سکتی ہے؟
+  entity: invention/algebra
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+  - source/tdv-cebir
+- position: after
+  kind: invention
+  title:
+    en: Restoring and balancing
+    ar: الجبر والمقابلة
+    ur: پورا کرنا اور برابر کرنا
+  text:
+    en: Two operations give algebra its name, the record explains. Al-jabr, "restoring", removes a subtracted quantity from one side by adding it to both; al-muqabala, "balancing", cancels like terms that appear on both sides. How does doing the same thing to both sides keep an equation true, and how can you check your answer?
+    ar: يشرح السجل أن عمليتين أعطتا هذا العلم اسمه. الجبر، وهو أن يُزال المستثنى من أحد الطرفين بزيادته على الطرفين معاً، والمقابلة، وهي إسقاط الأجناس المتماثلة من الطرفين. كيف يُبقي فعل الشيء نفسه بالطرفين المعادلة صحيحة، وكيف تتحقق من جوابك؟
+    ur: ریکارڈ وضاحت کرتا ہے کہ دو عملوں نے اس علم کو اس کا نام دیا۔ الجبر، یعنی «پورا کرنا»، کسی طرف سے منفی مقدار کو دونوں طرف اضافہ کر کے ہٹا دیتا ہے؛ اور المقابلہ، یعنی «برابر کرنا»، دونوں طرف موجود ایک جیسے حدود کو ساقط کر دیتا ہے۔ دونوں طرف ایک ہی عمل کرنے سے مساوات کیوں درست رہتی ہے، اور آپ اپنا جواب کیسے جانچیں گے؟
+  entity: invention/algebra
+  sources:
+  - source/tdv-cebir
+order: 2
