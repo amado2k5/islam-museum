@@ -19,6 +19,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **7 curated records tagged `nar-browser`.** Jahannam, the Fire, Zaqqum, the Sirat, the Fire from Yemen, Malik keeper of Jahannam and the people of the Fire and the Garden, each with its section tag (`nar-doctrine`, `nar-dunya`, `nar-people`, `nar-sirat`) — no new record was needed; the graph already held them.
+- **Hilyat al-Awliya, volume 9: Muhammad ibn al-Mubarak al-Suri and the close of Ahmad ibn Asim's notice (microsd-books batch 21).** New draft record for Muhammad ibn al-Mubarak al-Suri (notice 451), with his sayings on sincerity, a dialogue on the outward and inward faith, and the threefold assent of the heart, each paragraph cited to volume and page (9/298–303), and a note on the hadith chains at 9/304–309. Notice 449 closes at page 297 with a poem this batch did not transcribe.
 
 ### Tests
 - The feature-export test now covers the Fire Browser: detection by corpus and kind, the hellfire names, the gated دينار/منار false positives, the worldly-fire shelf, curated records and a book harvested later entering automatically.

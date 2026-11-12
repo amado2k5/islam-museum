@@ -70,3 +70,7 @@
 
 ## Batch 12 (run microsd-books-b20, Claude Code / claude-fable-5-2)
 - Pages read: vol. 9 pp. 285–296. Enriched `person/ahmad-ibn-asim-al-antaki` (449, to 9/296). Notice continues to about 9/309 (not yet mined: 9/297–309).
+
+## Batch 13 (run microsd-books-b21, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 297–309. Notice 449 ends at 9/297 (closing poem, not transcribed). New draft `person/muhammad-ibn-al-mubarak-al-suri` (451, 9/298–309): the dialogue is attributed to Abu Nu'aym's grandfather's written record, the sayings to Muhammad ibn Asbagh ibn al-Faraj. The chains on 9/304–309 are described only, not quoted.
+- Identity: 451 is Muhammad ibn al-Mubarak al-Suri, not a separate heading; no existing record for him was found (searched data/person).
