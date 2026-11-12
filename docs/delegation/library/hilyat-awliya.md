@@ -719,3 +719,16 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 662 (printed) | 390 | the verse line | a single line of verse; the museum paraphrases | described, not quoted |
 | 662 (printed) | 389–390 | "وقد تقدم ذكره" | refers to an earlier mention in the book | recorded as the book's own cross-reference |
+
+## Batch 86 (run microsd-books-b86, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 390 (full text read before writing). New draft: person/amir-ibn-hamdawayh-al-zahid (printed 663, sequence 664, 10/390). The notice is three lines; no existing record of the name. The place name "مسيلة" is recorded as Musayla in the Maghreb (region maghreb); the identification is not confirmed from the text and is flagged.
+- Printed 664 (Isam ibn Yazid, "أبو سعيد الملقب بخير") begins on 10/390 and is next.
+- Printed 532 and 546 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 86)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 663 (printed) | 390 | the place "مسيلة" | the region is not stated in the text | region set to maghreb as a likely reading; flagged for revision |
+| 663 (printed) | 390 | the nisba "الثودي" for "الثوري" | a misprint in the scan | read as Sufyan al-Thawri |
