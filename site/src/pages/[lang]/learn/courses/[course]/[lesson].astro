@@ -127,7 +127,7 @@ const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
             <p class="ui" style="font-weight:600;margin:0 0 4px">{C.i_can}</p>
             <ul class="cx-can">
               {v.expectations.map((e, k) => (
-                <li><label for={`cx-can${k}`}><input type="checkbox" id={`cx-can${k}`} /><span class="cx-code ltr" dir="ltr">{e.code}</span><span style="flex:1" lang={e.textLang} dir={e.textLang === "ar" || e.textLang === "ur" ? "rtl" : "ltr"}>{e.text}</span></label></li>
+                <li><label for={`cx-can${k}`}><input type="checkbox" id={`cx-can${k}`} /><span class="cx-code ltr" dir="ltr">{e.code}</span><span style="flex:1"><span style="display:block" lang={e.textLang} dir={e.textLang === "ar" || e.textLang === "ur" ? "rtl" : "ltr"}>{e.text}</span>{!e.translated && <span class="cx-untr ui">{fmt(C.official_wording, { lang: langName(e.textLang, lang) })}</span>}</span></label></li>
               ))}
             </ul>
           </>
@@ -156,7 +156,7 @@ const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
       {v.prev && <a class="cx-prev" href={lessonPath(lang, c, v.prev)} rel="prev"><small><span class="flip" aria-hidden="true">←</span> {C.prev}</small>{labelOf(v.prev, lang)}</a>}
       {v.next
         ? <a class="cx-next" href={lessonPath(lang, c, v.next)} rel="next"><small>{C.next} <span class="flip" aria-hidden="true">→</span></small>{labelOf(v.next, lang)}</a>
-        : <a class="cx-next" href={coursePath(lang, c)}><small>{C.finish_course}</small>{C.back_to_map}</a>}
+        : <a class="cx-next" href={coursePath(lang, c)}><small>{C.finish_course}</small>{C.back_to_map} <span class="flip" aria-hidden="true">→</span></a>}
     </nav>
 
     {v.cites.length > 0 && (

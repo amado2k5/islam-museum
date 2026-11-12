@@ -48,7 +48,8 @@ html[lang="ar"] .cx-btn, html[lang="ar"] .cx .ui { font-family: var(--ar-body); 
 .cx-lesson.is-next { border-color: var(--gold); box-shadow: 0 0 0 2px color-mix(in srgb, var(--gold) 35%, transparent); }
 .cx-lesson b { font-size: 1.02rem; }
 .cx-lesson .cx-sum { font-size: .88rem; color: var(--muted); }
-.cx-meet { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; margin-top: 4px; }
+.cx-meet { display: flex; flex-wrap: wrap; align-items: center; align-self: end; gap: 4px 6px; margin-top: 4px; }
+.cx-lesson b, .cx-lesson .cx-sum { align-self: start; }
 .cx-tag { font-family: var(--sans); font-size: .72rem; letter-spacing: .02em; padding: 1px 8px; border-radius: 99px; background: var(--panel); color: var(--fg); }
 html[lang="ar"] .cx-tag { font-family: var(--ar-body); font-size: .8rem; }
 .cx-state { font-family: var(--sans); font-size: .85rem; font-weight: 700; color: var(--gold-text); }
@@ -97,7 +98,7 @@ html[lang="ar"] .cx-rail-t { font-size: .88rem; letter-spacing: 0; }
 .cx-brief p, .cx-sec p { margin: 0 0 .8em; }
 .cx-exp { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
 .cx-exp li { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; align-items: baseline; }
-.cx-code { font-family: var(--sans); font-weight: 700; font-size: .82rem; padding: 2px 9px; border-radius: 6px; background: var(--lapis); color: #f9f8f6; }
+.cx-code { display: inline-block; min-width: 3.6em; text-align: center; font-family: var(--sans); font-weight: 700; font-size: .82rem; padding: 2px 9px; border-radius: 6px; background: var(--lapis); color: #f9f8f6; }
 .cx-untr { grid-column: 2; font-size: .78rem; color: var(--muted); }
 html[dir="rtl"] .cx-exp [dir="ltr"], html[dir="rtl"] .cx-can [dir="ltr"] { text-align: right; }
 html[dir="ltr"] .cx-exp [dir="rtl"], html[dir="ltr"] .cx-can [dir="rtl"] { text-align: left; }
@@ -151,6 +152,7 @@ html[lang="ar"] .cx-tell summary { font-family: var(--ar-body); font-size: 1rem;
 .cx-can { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 4px; }
 .cx-can label { display: flex; gap: 10px; align-items: flex-start; min-height: 44px; padding: 8px 10px; border-radius: 10px; cursor: pointer; }
 .cx-can input { width: 20px; height: 20px; margin-top: 3px; flex: none; accent-color: var(--lapis); }
+.cx-can .cx-untr { display: block; }
 .cx-donebar { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; }
 .cx-donebar .cx-state { font-size: 1rem; }
 .cx-note { font-size: .85rem; color: var(--muted); margin: 10px 0 0; }
@@ -182,8 +184,11 @@ html[lang="ar"] .cx-nav small { font-family: var(--ar-body); font-size: .86rem; 
 html.cx-present header.site, html.cx-present footer.site, html.cx-present .page-banner .crumbs, html.cx-present .cx-steps, html.cx-present .cx-tools, html.cx-present .cx-nav, html.cx-present .cx-notes, html.cx-present .cx-draft, html.cx-present .pattern, html.cx-present .cx-rail, html.cx-present .cx-recordlink, html.cx-present .page-banner .page-lede { display: none !important; }
 html.cx-present { font-size: 135%; }
 @media (min-width: 1000px) { html.cx-present { font-size: 165%; } }
-html.cx-present .page-banner { padding-block: 14px 40px; }
-html.cx-present .page-banner h1 { font-size: 1.6rem; margin: 0; }
+html.cx-present .page-banner { padding-block: 10px 34px; }
+html.cx-present .page-banner::after, html.cx-present .skip { display: none; }
+html.cx-present .page-banner h1 { font-size: 1.2rem; margin: 0; }
+html.cx-present .cx-where { display: none; }
+html.cx-present .cx-pres-bar .cx-pres-hint { font-size: .62rem; }
 html.cx-present .cx-layout { display: block; }
 html.cx-present .cx-loop { max-width: 1000px; margin-inline: auto; }
 html.cx-present .cx-step:not(.is-shown) { display: none; }

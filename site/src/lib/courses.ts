@@ -156,7 +156,8 @@ export function lessonView(course: Course, lesson: Node, lang: Lang): LessonView
       if (i < 0) { cites.push({ n: cites.length + 1, label: c.source, locator: c.locator }); i = cites.length - 1; }
       map.set(c.n, i + 1);
     }
-    return r.html.replace(/<sup class="cite"><a href="#note-(\d+)" id="cite-\d+-\d+">\d+<\/a><\/sup>/g, (_m, k) => `<sup class="cite"><a href="#note-${map.get(Number(k))}">${map.get(Number(k))}</a></sup>`);
+    // a note number never starts a line on its own: the space before it does not break
+    return r.html.replace(/\s+(?=<sup class="cite">)/g, "\u00a0").replace(/<sup class="cite"><a href="#note-(\d+)" id="cite-\d+-\d+">\d+<\/a><\/sup>/g, (_m, k) => `<sup class="cite"><a href="#note-${map.get(Number(k))}">${map.get(Number(k))}</a></sup>`);
   };
   const raw = (lesson.prose?.[proseLang]?.sections ?? []) as { heading: string; markdown: string }[];
   const briefSec = raw.find((s) => BRIEF.test(s.heading.trim()));

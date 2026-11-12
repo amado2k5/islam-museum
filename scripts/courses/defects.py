@@ -47,6 +47,18 @@ REGISTER = {
     "EN-55": "Disproved by measurement: o10_nojs.mjs chooses every option with scripts off and sees exactly one feedback line each time (22 of 22 lessons); the reveals are native <details>. A still image cannot show it.",
     "EN-63": "Low: the handout ends where the lesson ends.",
 }
+REGISTER.update({
+    "EN-18": "Partly fixed in round 3 by data: `person/al-jazari` now links the real record `person/al-jazari-engineer` (alias search). `work/kitab-al-hiyal` has no record; it stays shown and unlinked. " + PILOT,
+    "EN-50": "Capture artefact: the 'You are here' rail is sticky, and a full-page capture draws it once, beside the top of the lesson. On a screen it stays in view.",
+    "EN-56": DESIGN + "marking the step being read needs a script; with scripts off the rail is a plain list of links.",
+    "AR-23": "Not the surface's: with scripts off the site's own header menu makes the Arabic page start scrolled sideways on a phone (the same 196 px on production today). The surface's content is intact (o10_nojs.mjs). Listed for the founder in PUBLISH.md.",
+    "NEN-1": "Disproved by measurement: o10_nojs.mjs answers the check with scripts off on every lesson. A still image cannot show a response.",
+    "NEN-2": DESIGN + "on a phone the steps rail wraps to further lines instead of running off the screen (round-1 defect EN-7).",
+    "NAR-3": DESIGN + "on a phone the steps rail wraps to further lines instead of running off the screen (round-1 defect EN-7).",
+    "NAR-4": DESIGN + "below 1080 px the 'You are here' list follows the lesson, where it serves as the way on; the banner strip and breadcrumb carry the position above.",
+    "NAR-5": "The same as AR-16, registered there.",
+    "NEN-4": PILOT + " `object/astrolabe`, `building/maragha-observatory` and `work/kitab-al-hiyal` have no record; the one-line note can wrap on a phone.",
+})
 CAPTURE = {"AR-12", "AR-13", "EN-24", "EN-25", "EN-26", "EN-27", "EN-50"}  # sticky bars drawn mid-page by the capture; the capture now shoots from the top
 
 
