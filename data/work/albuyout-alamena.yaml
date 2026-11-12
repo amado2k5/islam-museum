@@ -54,6 +54,20 @@ relations:
   - { type: about, target: passage/quran-42-49, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: passage/quran-42-50, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: passage/quran-55-56, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/mahr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/hiba-fiqh, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/zulm, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/al-hasan-al-basri, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/ibn-khaldun, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/ibn-hazm, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/ahmad-ibn-hanbal, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/abu-hanifa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/ibn-taymiyya, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/umar-ibn-al-khattab, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/abu-bakr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: passage/quran-21-90, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: passage/quran-30-21, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: passage/quran-3-123, sources: [source/assabile-omar-abdelkafy] }
 sources: [source/assabile-omar-abdelkafy]
-provenance: { layer: copyrighted-reference, source: "Assabile, albuyout-alamena (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-albuyout-1, ai_editor: "Claude Code" }
+provenance: { layer: copyrighted-reference, source: "Assabile, albuyout-alamena (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-albuyout-1, ai_editor: "Claude Code", extended: [{ generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-albuyout-2, episodes: "04-05" }] }
 status: { review: draft, generated_by: "Claude Code (claude-sonnet-5-5); run omar-abdelkafy-albuyout-1" }
