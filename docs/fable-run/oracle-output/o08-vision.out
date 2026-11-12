@@ -1,0 +1,25 @@
+ORACLE 08: the vision pass is mechanical: screenshots, fresh-context defect lists, every defect fixed or registered (statement 8)
+file: scripts/fable/o08_vision.py
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 0
+------------------------------------------------------------------------------
+screenshots: 90, captured at commit e2c16d9083d7bd039f95323ee9e0d50dbef9882c from scoped production build (.cache/fable-dist); uncommitted measured paths at capture: 0
+[PASS] the capture covers the Tour's pages, the homepage and the nine wing landings, in Arabic and English, at phone, tablet and desktop widths: 90 of 90; missing []
+[PASS] every screenshot in the index is a committed file: 0 missing; uncommitted changes: 0
+[PASS] every captured page answered 200
+[PASS] the screenshots show the pages as they are now: no site, string or manifest file changed since the capture: changed since: 
+fresh-context review files: review-R.md, review-S.md, review-T.md, review-W.md, review-X.md
+[PASS] at least two fresh-context reviewers left a defect list
+defects listed by the reviewers: 135  (fixed: 23, registered: 112)
+  by where they are: capture: 7, data: 5, site: 77, tour: 46
+[PASS] every defect is fixed or registered, names the screenshot it was seen in, and says what was done or why it stands: 0 incomplete: []
+[PASS] every defect id in the reviewers' lists is in the register
+second round, earlier defects looked for again on the re-captured screenshots: 53  (gone: 24, still there: 13, changed: 16)
+[PASS] of the defects looked for again, only those the latest look found gone are called fixed: called fixed but still seen, whole or in part: none
+  called fixed and confirmed gone by a later look: 23; called fixed and never looked for again: 0
+[PASS] every defect called fixed was looked for again by a fresh reviewer: 0 not looked for again
+pages that scroll sideways, measured in the page at capture: 0
+[PASS] no Tour page scrolls sideways at any width
+------------------------------------------------------------------------------
+RESULT: GREEN (10 checks passed)

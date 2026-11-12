@@ -26,6 +26,11 @@ perspectives:
     summary: { ar: "كما في الكافي للكليني: للإمام صلة روحية بالله، ومعرفة الله تكون بالإيمان بالله ورسوله وموالاة علي والائتمام به وبأئمة الهدى والبراءة إلى الله من عدوهم {cite:duha-islam p. 850-852}." }
     sources: [source/duha-islam]
 external_ids: { wikidata: "Q19819982" }
+relations:
+  - { type: influenced, target: group/imamiyya, sources: [source/duha-islam] }
+  - { type: mentioned_in, target: work/al-kafi, sources: [source/duha-islam] }
+  - { type: mentioned_in, target: work/duha-al-islam, sources: [source/duha-islam] }
+  - { type: written_about_by, target: person/ahmad-amin, sources: [source/duha-islam] }
 sources: [source/duha-islam]
 provenance:
   layer: own-research

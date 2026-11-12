@@ -1,0 +1,58 @@
+ORACLE 11: every phase's work is on the remote, proven by the host (statement 11)
+file: scripts/fable/o11_remote.py
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 0
+------------------------------------------------------------------------------
+host: github.com/amado2k5/islam-museum (queried with `gh api`)
+
+Phase 1: Canon audit, century floor, wings for every cornerstone
+  final commit 42db751657e8939a4ada3a6b01cbfb2fd92bc38c; remote branch fable-run/phase-1-canon; pull request #6022
+  deliverables: scripts/report/canon.py (century floor); docs/canon.md; scripts/fable/complete_wings.py and 50 wing edits; oracles o00 and o01; docs/fable-run/PROPOSALS.md
+[PASS] phase 1: the pull request is live on the host and its head is the phase branch: #6022 is open; head fable-run/phase-1-canon at 42db751657; base main
+[PASS] phase 1: the remote branch exists: fable-run/phase-1-canon at 42db751657
+[PASS] phase 1: the final commit is contained in the remote branch: host compare: branch is identical relative to the commit (0 ahead)
+
+Phase 2: The Grand Tour, entered through the River of Time
+  final commit f07d617b7301f799232cb151557dc6618ae9513a; remote branch fable-run/phase-2-tour; pull request #6023
+  deliverables: tour/grand-tour.yaml; site/src/pages/[lang]/grand-tour/ (River, rooms, completion room); progress ribbon; homepage entry link; i18n strings in ar, en, ur; oracle o02
+[PASS] phase 2: the pull request is live on the host and its head is the phase branch: #6023 is open; head fable-run/phase-2-tour at f07d617b73; base fable-run/phase-1-canon
+[PASS] phase 2: the remote branch exists: fable-run/phase-2-tour at f07d617b73
+[PASS] phase 2: the final commit is contained in the remote branch: host compare: branch is identical relative to the commit (0 ahead)
+
+Phase 3: The Tour's 41 narratives, finished in Arabic and English
+  final commit 6c4420f475815c8fa3c37b5153ad3afe4146b4da; remote branch fable-run/phase-3-prose; pull request #6027
+  deliverables: lead sections of 41 cornerstone records in content/ar and content/en; docs/fable-run/prose-evidence/ (one file per record); docs/fable-run/GAP-REGISTER.md; oracles o03, o04, o05 and their before-runs; docs/fable-run/briefs/
+[PASS] phase 3: the pull request is live on the host and its head is the phase branch: #6027 is open; head fable-run/phase-3-prose at 6c4420f475; base fable-run/phase-2-tour
+[PASS] phase 3: the remote branch exists: fable-run/phase-3-prose at 6c4420f475
+[PASS] phase 3: the final commit is contained in the remote branch: host compare: branch is identical relative to the commit (0 ahead)
+
+Phase 4: Open the dead-end cornerstones
+  final commit 0aca4b69f39c5dddbaa652a3158fe42eae791a40; remote branch fable-run/phase-4-reachability; pull request #6028
+  deliverables: 82 relations on 22 cornerstones (25 data files); docs/fable-run/relation-evidence/ (one file per record)
+[PASS] phase 4: the pull request is live on the host and its head is the phase branch: #6028 is open; head fable-run/phase-4-reachability at 0aca4b69f3; base fable-run/phase-3-prose
+[PASS] phase 4: the remote branch exists: fable-run/phase-4-reachability at 0aca4b69f3
+[PASS] phase 4: the final commit is contained in the remote branch: host compare: branch is identical relative to the commit (0 ahead)
+
+Phase 5: Cross-record contradiction sweep
+  final commit 28b85812868ccdb937018975e0ab7e00cb1ddc83; remote branch fable-run/phase-5-contradictions; pull request #6029
+  deliverables: 17 records corrected; docs/fable-run/contradictions/register.json and the four adjudication files; docs/fable-run/CONTRADICTIONS.md
+[PASS] phase 5: the pull request is live on the host and its head is the phase branch: #6029 is open; head fable-run/phase-5-contradictions at 28b8581286; base fable-run/phase-4-reachability
+[PASS] phase 5: the remote branch exists: fable-run/phase-5-contradictions at 28b8581286
+[PASS] phase 5: the final commit is contained in the remote branch: host compare: branch is identical relative to the commit (0 ahead)
+
+Phase 6: Canon-first search test, and the absence list corrected
+  final commit 37fb25b9ef43ebe7e4beb06280f347421a4e3bfe; remote branch fable-run/phase-6-search-absences; pull request #6030
+  deliverables: scripts/fable/search-queries.json and o06_search.mjs; scripts/fable/absences.json, find_record.py and o07_absences.py; docs/fable-run/ABSENCES.md; docs/canon.md (absence section corrected); PROPOSALS P-4 to P-9, NOTICED.md
+[PASS] phase 6: the pull request is live on the host and its head is the phase branch: #6030 is open; head fable-run/phase-6-search-absences at 37fb25b9ef; base fable-run/phase-5-contradictions
+[PASS] phase 6: the remote branch exists: fable-run/phase-6-search-absences at 37fb25b9ef
+[PASS] phase 6: the final commit is contained in the remote branch: host compare: branch is identical relative to the commit (0 ahead)
+
+Phase 7: What the verifiers caught, the vision pass, the no-JavaScript run, the integration re-run, the ledger
+  final commit ca0886cd1d3c5330c87270ed50bc21118241b598; remote branch fable-run/phase-7-verification; pull request #6033
+  deliverables: 5 contradiction fixes reverted, 17 relations removed, 57 narrative findings fixed, the Qur'an stop withdrawn (40 stops); docs/fable-run/verifier/ (the fresh-context reports); docs/fable-run/vision/ (90 screenshots, the reviewers' lists, the defect register); oracles o08 (vision, unchanged pages), o09 (no JavaScript), o10 (the ledger's self-check), o11, the wing probe; scripts/fable/integrate.sh and the integration outputs; docs/fable-run/VERIFICATION.md, NUMBERS.md, SHOWCASE.md, PUBLISH.md
+[PASS] phase 7: the pull request is live on the host and its head is the phase branch: #6033 is open; head fable-run/phase-7-verification at ca0886cd1d; base fable-run/phase-6-search-absences
+[PASS] phase 7: the remote branch exists: fable-run/phase-7-verification at ca0886cd1d
+[PASS] phase 7: the final commit is contained in the remote branch: host compare: branch is identical relative to the commit (0 ahead)
+------------------------------------------------------------------------------
+RESULT: GREEN (21 checks passed)

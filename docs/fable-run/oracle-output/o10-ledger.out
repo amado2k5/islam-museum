@@ -1,0 +1,29 @@
+ORACLE 10 and 13: every statement has an oracle; the board is derived from the last runs, never narrated
+file: scripts/fable/o10_ledger.py
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 0
+------------------------------------------------------------------------------
+board: measured at ca0886cd1d3c5330c87270ed50bc21118241b598; 12 rows besides this one
+[PASS] statement 10: every statement from 1 to 12 has a row on the board (10 and 13 are this oracle): missing: none
+  statement 1                      GREEN     o01-canon.out                produced at ca0886cd1d
+  statement 2                      GREEN     o02-tour_coverage.out        produced at ca0886cd1d
+  statement 3                      GREEN     o03-tour_prose.out           produced at ca0886cd1d
+  statement 4                      NOT-GREEN o04-reachability.out         produced at ca0886cd1d
+  statement 5                      GREEN     o05-contradictions.out       produced at ca0886cd1d
+  statement 6                      NOT-GREEN o06-search-production.out    produced at ca0886cd1d
+  statement 7                      GREEN     o07-absences.out             produced at ca0886cd1d
+  statement 8                      GREEN     o08-vision.out               produced at ca0886cd1d
+  statement 8 (rest of the site)   GREEN     o08b-unchanged.out           produced at ca0886cd1d
+  statement 9                      GREEN     o09-nojs.out                 produced at ca0886cd1d
+  statement 11                     GREEN     o11-remote.out               produced at ca0886cd1d
+  statement 12                     GREEN     o00-baseline.out             produced at ca0886cd1d
+[PASS] statement 10: every oracle on the board is a file committed to git: not committed: none; changed since the commit: none
+[PASS] statement 10: every row has a captured output that ends with the oracle's own RESULT line: without one: none
+[PASS] statement 10: every number in NUMBERS.md names a captured output that exists: 17 outputs named; missing: none
+[PASS] statement 13: every row's state and last line are the RESULT line of its captured output, word for word: rows that differ: none
+[PASS] statement 13: every captured output was produced at the commit the board names: carried over from an earlier run: none
+[PASS] statement 13: the board, and every run on it, was measured with nothing uncommitted under the measured folders: uncommitted paths when the board was written: 0; runs that saw uncommitted files: none
+[PASS] statement 13: nothing under the measured folders has changed since the commit the board names: HEAD ca0886cd1d; changed in commits since: 0; uncommitted now: 0
+------------------------------------------------------------------------------
+RESULT: GREEN (8 checks passed)
