@@ -261,3 +261,14 @@
 | Notice | Page | Passage | Reason | Handling |
 |---|---|---|---|---|
 | 490 | 138 | the verses on the fool, the palace and the slave-women | several words garbled in the scan ("بدافوق السرير", "وادرما هي") | the verses are described, not quoted; garbled words are not given |
+
+## Batch 53 (run microsd-books-b53, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 138–139 (full text read before writing). New draft: person/abu-mahriz-al-tufawi (491, 10/138–139). Notice 492 begins on 10/139 and is next.
+
+## Exclusions and garbled readings (batch 53)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 491 | 138 | the word after "تشمر في" ("المبددة" in the scan) | unclear in the scan; "المجاهدة" (striving) is the likely reading | given as striving; the prose does not flag it, a gap to fix in revision |
+| 491 | 138 | "ولحق المتقدمين في الوفادة" | "الوفادة" unclear in the scan | rendered in the sense of the earlier generation; the prose notes nothing further |
+| 491 | 138 | the opening "لا بان للأكياس" | read as "لا بأن" (it is evident) | given as read; the sense is the discerning's highest station |
