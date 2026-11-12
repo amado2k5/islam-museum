@@ -118,3 +118,6 @@
 
 ## Batch 27 (run microsd-books-b35, Claude Code / claude-fable-5-2)
 - Pages read: vol. 10 pp. 73–77. Enriched `person/al-harith-al-muhasibi` (465, part one to 10/77); Hilyat source added to the record's sources. Notice continues from 10/78 to about 110.
+
+## Batch 28 (run microsd-books-b36, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 78–82. Enriched `person/al-harith-al-muhasibi` (465, to 10/82). Notice continues from 10/83. The Qur'anic verse on 10/82 is referred to, not quoted.
