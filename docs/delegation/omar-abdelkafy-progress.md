@@ -342,3 +342,23 @@ Notes for ep10–ep13. Episodes 11 and 12 are the two halves of one lesson in th
 | Wording of the reply attributed to Aisha in the greeting hadith | ep15 00:17:30 | An insult against a group; described ("answered them harshly"), never reproduced | Polemic rule (method rule 3) | Open |
 | al-Hasan al-Basri and the narrow rooms in Basra; the powerful man exposed as a thief | ep16 00:17:30–00:18:30 | Anecdotes cut by a loop before their point | Loop check | Open |
 | Verses recited ("we blame our time") | ep16 00:20:30 | Verbatim verse; given by sense | Sources policy | Open |
+
+### Completed recordings (§8), continued
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| silsilat-ebadu-al-rahman ep17–ep18 (spouses, offspring and leadership in piety; the closing list of attributes and the power of supplication) | ep17 about 22 min, ep18 about 25 min (transcript) | ar, en, ur: 1 record extended, 25 points | 13 new `about` edges (verses 25:74–76, 66:10–11, 24:26, 16:97; sadaqa jariya, hasad, tarbiya, ajal, sabr, tawakkul, dua; Nuh, Lut, Amr ibn al-As, Uthman) | ep17 14, ep18 11 points; engine qwen3-asr pass5, 30 s windows | 8 needs_source (the Prophet's ruling on secrets, ep17 00:03:30; the lecturer's reading of 24:26, ep17 00:04:30; the wife and the husband's illness, ep17 00:05:00; the hadith on the good practice, ep17 00:15:30; the family's instructions on death, ep18 00:18:00; the sense of the hadith on provision, ep18 00:18:30; the hadith on supplication reversing the decree, ep18 00:11:30; the two brothers' example, the sense only) | run omar-abdelkafy-ebadu-al-rahman-6 |
+
+Notes for ep17–ep18. The recording of ep17 is much garbled from 00:02:00 to 00:02:30 and after 00:14:00, and ep18 repeats the closing verses at length; only clear windows are written. Episode 18 closes the attributes listed in the programme. Points in ep17 and ep18 that are the lecturer's own opinions (the leadership of the pious; the timing of marriage for a girl; the sex of a child) are marked "the lecturer's view" where they are opinion.
+
+| Excluded (ebadu ep17–ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, break jingles, closing formulae | ep17 00:00:00, 00:10:00–00:10:30, 00:21:30; ep18 00:00:00, 00:13:30–00:14:30, 00:19:30, 00:24:30–00:25:00 | Not lesson content; Qur'an never typed | Content rule; Qur'an rule | Open |
+| Repetition loops and hallucinated runs | ep17 00:02:30, 00:14:00, 00:14:30; ep18 00:14:30 (tail), 00:15:00 | Not speech | Loop check | Open |
+| Anecdote of the Meccan woman who joked for the women of Mecca and was hosted in Medina | ep17 00:14:30–00:15:30 | Names and sequence garbled | Clarity | Open |
+| The institution that corrupts people ("the dancing class") and the charitable-deed reckoning | ep17 00:17:00–00:17:30 | Garbled; the point is unclear | Clarity | Open |
+| Lamentation on people's bickering over a prize | ep17 00:07:00 | Partly garbled | Clarity | Open |
+| Recited verses on the bee, the rooster and the sparrow | ep18 00:08:00 | Verbatim verse, partly garbled; given by sense only | Sources policy | Open |
+| The sentence "we ask what it would be to be among the godfearing if you were rich" | ep18 00:16:00–00:16:30 | Garbled; the point is not recoverable | Clarity | Open |
+| Remark on a son who turns against his father | ep18 00:16:00 | Partly garbled; not written | Clarity | Open |
+| Money of the chamber and the cameras in the programme | ep17 00:21:00 | Logistics of the broadcast, not lesson content | Content rule | Open |
