@@ -14,7 +14,7 @@ export const wingCountLabel = (lang: Lang, w: Wing | string) => fmt(ui(lang).win
 /** The "{n} events" template of a counted wing, or null for a wing that shows a phrase (rendered as static text). */
 export const wingCountTemplate = (lang: Lang, w: Wing | string): string | null => { const t = ui(lang).wings.counts[w]; return typeof t === "string" && t.includes("{n}") ? t : null; };
 
-export interface ExplorePage { key: "quran" | "qudsi" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles" | "ghayb" | "companions" | "seerah" | "nature" | "angels" | "dreams" | "dua" | "sayyiat" | "hudud" | "hasanat" | "hisab" | "mukatabat" | "islamiceconomy" | "jinn-devils" | "magic" | "messengers" | "miracles" | "madhahib" | "bayt" | "signs" | "nubuwat" | "ibadat" | "places" | "nar" | "janna" | "qurun"; href: string; ready: boolean }
+export interface ExplorePage { key: "quran" | "qudsi" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles" | "ghayb" | "companions" | "seerah" | "nature" | "angels" | "dreams" | "dua" | "sayyiat" | "hudud" | "hasanat" | "hisab" | "mukatabat" | "islamiceconomy" | "jinn-devils" | "magic" | "messengers" | "miracles" | "madhahib" | "bayt" | "signs" | "nubuwat" | "ibadat" | "places" | "nar" | "janna" | "qurun" | "akhlaq" | "usra"; href: string; ready: boolean }
 /** The interactive explorers; `ready` flips as each phase ships, and an unfinished one links to the nearest page that exists. */
 export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "quran", href: `/${lang}/words/quran/`, ready: true },
@@ -65,5 +65,7 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "places", href: `/${lang}/places/`, ready: true },
   { key: "nar", href: `/${lang}/nar/`, ready: true },
   { key: "janna", href: `/${lang}/janna/`, ready: true },
+  { key: "usra", href: `/${lang}/usra/`, ready: true },
+  { key: "akhlaq", href: `/${lang}/akhlaq/`, ready: true },
   { key: "qurun", href: `/${lang}/qurun/`, ready: true },
 ];

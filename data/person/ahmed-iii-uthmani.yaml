@@ -6,8 +6,9 @@ names:
 gender: male
 roles: [ruler, caliph]
 summary:
-  ar: "السلطان أحمد الثالث ⁦(١١١٥–١١٤٣هـ/١٧٠٣–١٧٣٠م)⁩؛ في عهده ظلت راية الجهاد مرفوعة فأعادت الدولة المورة وآزاق، وحاصر المجاهدون قيصر روسيا بطرس وخليلته ومعهما مئتا ألف كادوا يقعون في الأسر لولا أن رفع الصدر الأعظم بلطه جي باشا الحصار ووقع معاهدة فلكزن ⁦(بروث)⁩ في جمادى الآخرة ١١٢٣هـ فعزله السلطان. وتوسطت هولندا وإنكلترا فوقعت معاهدة أدرنة ١١٢٥هـ وفيها تنازلت روسيا عن سواحل البحر الأسود. وانتصر العثمانيون على البنادقة واستولوا على كريت وجزراً، لكن النمسا انتصرت وسقطت بلغراد عام ١١٢٩هـ/١٧١٧م، فعُقد صلح بساروفتز عام ١١٣٠هـ/١٧١٨م انتزعت به النمسا بلغراد وأكثر الصرب وجزءاً من الأفلاق وعادت المورة للعثمانيين {cite:dawlat-uthmaniyya-salabi p. 310-311}."
-  en: "Ahmed III (r. 1115–1143/1703–1730) — recovered the Morea and Azov, nearly captured Peter the Great on the Pruth, then lost Belgrade to Austria and signed Passarowitz (1718): Serbia and part of Wallachia gone, Morea kept {cite:dawlat-uthmaniyya-salabi p. 310-311}."
+  ar: "أحمد الثالث، السلطان العثماني الثالث والعشرون، وُلد سنة 1084هـ/1673م وحكم من 1115هـ/1703م إلى 1143هـ/1730م. خاضت الدولة في عهده حروباً مع روسيا والبندقية والنمسا، فاستعادت المورة من البندقية وخسرت بلغراد بصلح بساروفتز سنة 1718م. وبعد ذلك غلب على عهده عصر التوليب بما فيه من ترف وفنون وأول مطبعة في إسطنبول، حتى ثارت إسطنبول سنة 1730م فتنازل عن العرش ومات سنة 1149هـ/1736م."
+  en: "Ahmed III, the twenty-third Ottoman sultan, was born in 1084/1673 and reigned from 1115/1703 to 1143/1730. His reign brought wars with Russia, Venice and Austria: the Morea was regained from Venice, and Belgrade was lost under the Treaty of Passarowitz in 1718. The later years, the Age of Tulips, were marked by court pleasure, the arts and the first printing press in Istanbul, until a rising in Istanbul in 1730 forced his abdication; he died in 1149/1736."
+  ur: "احمد ثالث عثمانی سلطنت کے تئیسویں سلطان تھے، جو 1084ھ/1673ء میں پیدا ہوئے اور 1115ھ/1703ء سے 1143ھ/1730ء تک حکمران رہے۔ ان کے دور میں روس، وینس اور آسٹریا سے جنگیں ہوئیں، مورہ وینس سے واپس لیا گیا اور 1718ء کے معاہدۂ پساروویتس میں بلغراد ہاتھ سے گیا۔ بعد کے برس عہد لالہ کہلاتے ہیں، جن میں دربار کی تفریح، فنون اور استنبول کا پہلا چھاپہ خانہ نمایاں رہے، یہاں تک کہ 1730ء کی بغاوت نے انہیں دستبردار ہونے پر مجبور کیا اور وہ 1149ھ/1736ء میں فوت ہوئے۔"
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
@@ -15,17 +16,18 @@ born: { edtf: "1673", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1736", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
-  - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
-  - { type: child_of, target: person/mehmed-iv-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
-  - { type: successor_of, target: person/mustafa-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2], confidence: low }
+  - { type: child_of, target: person/mehmed-iv-uthmani, sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/mustafa-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2] }
 external_ids: { wikidata: "Q199482" }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 310-311"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch47
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 1, article Ahmad III, PDF pages 290-293, written by Claude Sonnet 5.5, run canon-cornerstones-15"
 importance: 1
 status: { review: published, completeness: 3 }
 story_roles:

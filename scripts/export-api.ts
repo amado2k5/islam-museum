@@ -20,6 +20,7 @@ import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJE
 import { MIRACLES_TAG, MIRACLE_SECTIONS, MIRACLE_SUBJECTS, MIRACLE_SUBJECT_SET, MIRACLE_TOPIC_KIND, MIRACLE_TOPIC_SUBJECTS, miracleTopicsOf, miracleCorpusOf, miracleTagSection, type MiracleTopic } from "./miracles.js";
 import { QURUN_TAG, QURUN_SECTIONS, QURUN_SUBJECTS, QURUN_SUBJECT_SET, QURUN_TOPIC_KIND, QURUN_TOPIC_SUBJECTS, qurunTopicsOf, qurunCorpusOf, qurunTagSection, type QurunTopic } from "./qurun.js";
 import { DUA_TAG, duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, isDuaPassage, type DuaKind } from "./dua.js";
+import { AKHLAQ_TAG, akhlaqCorpusOf, akhlaqKindOf, akhlaqKindsOf, akhlaqSignalsOf, akhlaqTagSection, akhlaqTagTopics, akhlaqTopicsOf, akhlaqTracksOf, isAkhlaqPassage, type AkhlaqKind } from "./akhlaq.js";
 import { IBADAT_TAG, ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTopicsOf, isIbadatPassage, type IbadatKind } from "./ibadat.js";
 import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNubuwatPassage, nubuwatTopicsOf } from "./nubuwat.js";
 import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
@@ -29,6 +30,7 @@ import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatT
 import { JANNA_TAG, jannaCorpusOf, jannaKindOf, jannaSignalsOf, jannaTagSection, isJannaPassage, type JannaKind } from "./janna.js";
 import { MUKATABAT_TAG, mukatabatCorpusOf, mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf, mukatabatTagSection, mukatabatTagSender, isMukatabatPassage } from "./mukatabat.js";
 import { NAR_TAG, narKindOf, narSectionOf, narSignalsOf, narTagSection, isNarPassage } from "./nar.js";
+import { USRA_TAG, usraCorpusOf, usraSignalsOf, usraTagSection, usraTopicsOf, isUsraPassage } from "./usra.js";
 import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { PLACES_TAG, PLACE_CORPORA, placeCorpusOf, placeSectionOf, type PlaceCorpus } from "./places.js";
@@ -244,6 +246,19 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       dua_kind: n.class === "passage" ? duaKindOf(n) : null,
       signals: n.class === "passage" ? duaSignalsOf(n) : [],
     }) },
+  { file: "akhlaq.json", feature: "akhlaq-browser",
+    pick: (n) => n.tags.includes(AKHLAQ_TAG) || isAkhlaqPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? akhlaqCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : akhlaqTagSection(n),
+      akhlaq_kind: n.class === "passage" ? akhlaqKindOf(n) : null,
+      kinds: n.class === "passage" ? akhlaqKindsOf(n) : [],
+      tracks: n.class === "passage" ? akhlaqTracksOf(n) : [],
+      topics: n.class === "passage" ? akhlaqTopicsOf(n) : akhlaqTagTopics(n),
+      signals: n.class === "passage" ? akhlaqSignalsOf(n) : [],
+    }) },
   { file: "ibadat.json", feature: "ibadat-browser",
     pick: (n) => n.tags.includes(IBADAT_TAG) || isIbadatPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
@@ -303,6 +318,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : jannaTagSection(n),
       janna_kind: n.class === "passage" ? jannaKindOf(n) : null,
       signals: n.class === "passage" ? jannaSignalsOf(n) : [],
+    }) },
+  { file: "usra.json", feature: "usra-browser",
+    pick: (n) => n.tags.includes(USRA_TAG) || isUsraPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? usraCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : usraTagSection(n),
+      topics: n.class === "passage" ? usraTopicsOf(n) : [],
+      signals: n.class === "passage" ? usraSignalsOf(n) : [],
     }) },
   { file: "hisab.json", feature: "hisab-browser",
     pick: (n) => n.tags.includes(HISAB_TAG) || isHisabPassage(n),
@@ -765,7 +790,7 @@ function miracleApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: 
   return { items, subjects };
 }
 
-/** The Centuries, Years and Months Browser's API rows: detected/class-edge passages plus curated records, and the subject index (docs/plan/54-qurun-browser.md). */
+/** The Centuries, Years and Months Browser's API rows: detected/class-edge passages plus curated records, and the subject index (docs/plan/56-qurun-browser.md). */
 function qurunApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>, byId: Map<string, Node>) {
   const real = c.nodes.filter((n) => !n.stub);
   const edgeSubjects = new Map<string, Set<string>>();

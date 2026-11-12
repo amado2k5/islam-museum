@@ -1,4 +1,4 @@
-// The Centuries, Years and Months Browser's filter (docs/plan/54-qurun-browser.md):
+// The Centuries, Years and Months Browser's filter (docs/plan/56-qurun-browser.md):
 // narrows the mention feed as the visitor types, matching titles, summaries, work names,
 // topic and subject names and text excerpts in all three languages, ignoring Arabic vowel
 // marks. Without JavaScript the whole list is on the page.

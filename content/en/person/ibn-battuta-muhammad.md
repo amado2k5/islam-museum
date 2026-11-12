@@ -1,14 +1,44 @@
 ---
 id: person/ibn-battuta-muhammad
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Overview
 Abu Abdallah Muhammad ibn Abdallah ibn Muhammad al-Lawati al-Tanji, known as Ibn Battuta, a traveller from Tangier in the Maghrib. He visited many lands of the Islamic world and wrote his well-known travel account. {cite:mawsuat-a3lam-ulama-adaba}
 
 He was born in 703 AH (1304 CE) and died in 776 AH (1374 CE), according to report. {cite:mawsuat-a3lam-ulama-adaba}
+
+## The Traveller in the Encyclopaedia of Islam
+The Encyclopaedia of Islam gives his full name as Shams al-Din Abu Abd Allah Muhammad ibn Abd Allah ibn Muhammad ibn Ibrahim ibn Muhammad ibn Ibrahim ibn Yusuf al-Lawati al-Tanji, and calls him a Moorish traveller. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767} It records his birth at [[place/tanja|Tangier]] on 17 Rajab 703, which is 25 February 1304, and his death in Morocco in 770, which is 1368 to 1369, or in 779, which is 1377; the article leaves the two death dates open. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767} It says that his many long journeys make him one of the famous travellers and one of the authors of travel books, known as rihla. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767}
+
+## The Eight Stages of His Journeys
+The article sets out the chronology of his travels in eight stages and warns that some details remain uncertain. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767}
+
+In the first stage he left Tangier on 2 Rajab 725, which is 13 June 1325, and crossed North Africa, Egypt, Upper Egypt and Syria, leaving [[place/damascus|Damascus]] for [[place/mecca|Mecca]] in Shawwal 726, which is September 1326. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767} In the second he left Mecca on 20 Dhu al-Hijja 726, which is 17 November 1326, and went through Iraq, Khuzistan, Fars and the Jibal, then to [[place/tabriz|Tabriz]], [[place/baghdad|Baghdad]], Samarra and Mosul, returning to Baghdad. The article adds a stay in Arabia with three pilgrimages, from 727 to 730, which is 1327 to 1330. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767}
+
+The third stage took him down the Red Sea to Yemen and [[place/aden|Aden]], then to Zayla, [[place/mogadishu|Mogadishu]] and the trading ports of East Africa, and back by Oman and the Persian Gulf, with a further pilgrimage in 732, which is 1332. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767} In the fourth he returned to Egypt and Syria, crossed Asia Minor and the territories of the [[polity/golden-horde|Golden Horde]], visited [[place/constantinople|Constantinople]] and came back to the Golden Horde, then passed through Transoxania and Afghanistan. He reached the valley of the Indus on 1 Muharram 734, which is 12 September 1333, and stayed at [[place/delhi|Delhi]] until Safar 743, which is July 1342. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767}
+
+In the fifth stage he spent a year and a half in the [[place/maldives|Maldives]], visited [[place/sri-lanka|Ceylon]], made a second visit to the Maldives, and went on to [[place/bengal|Bengal]], Assam and [[place/sumatra|Sumatra]], arriving at the Chinese port of Zaytun, which the article identifies with [[place/quanzhou|Quanzhou]]. The article notes that it is not certain whether he reached Peking. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767} In the sixth he returned by Sumatra and Malabar, in Muharram 748, which is April to May 1347, and by the Persian Gulf, Baghdad, Syria and Egypt, making another pilgrimage. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767}
+
+In the seventh stage he went to Egypt and [[place/alexandria|Alexandria]] and embarked in Safar 750, which is April to May 1349, for Tunis. He then reached Sardinia in a Catalan ship, returned by way of Algeria, and arrived at [[place/fez|Fez]] at the end of Shaban 750, which is November 1349. He visited the kingdom of [[place/granada|Granada]] and went back to Morocco. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767} In the eighth he left [[place/sijilmasa|Sijilmasa]] at the beginning of Muharram 753, which is February 1352, crossed the Sahara and the country of the [[place/niger|Niger]], and returned to Sijilmasa in Dhu al-Qada 754, which is December 1353. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767}
+
+## How the Rihla Was Written
+The article stresses that the account was not written down by Ibn Battuta himself but by a scholar, [[person/ibn-juzayy-muhammad|Ibn Juzayy]], commissioned by the Marinid ruler of the time, Abu Inan. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768} The writing from dictation was completed on 3 Dhu al-Hijja 756, which is 9 December 1357, and the definitive text appeared a few months later under the title Tuhfat al-nuzzar fi gharaib al-amsar wa-ajaib al-asfar. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768} The work is held in the museum as [[work/rihla-ibn-battuta|the Rihla]].
+
+## The Text and the Question of Reliability
+The author of the article judges that Ibn Juzayy's literary editing inevitably altered the original character of the work to some degree. In his view the text contains descriptions that are pertinent, sober and sometimes dry, beside high-flown passages that are closer to stylistic exercises on marvels, which were then in favour with the educated public. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768}
+
+He cautions against blaming the editor each time. He says the voyage to the country of the Bulgars, the description of China, and details on Syria and Arabia that appear to be borrowed from [[person/ibn-jubayr-muhammad|Ibn Jubayr]] should not all be explained by Ibn Juzayy's intervention. His reason is that Ibn Battuta himself admitted that he had sometimes lost the notes he made on his travels and rewrote them from memory, and may on occasion have been tempted to use his imagination to fill a gap. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768} The author nevertheless considers it reasonable to think that the editor systematically exaggerated tendencies towards fantasy that were more moderate in the original. He holds it even more certain that the rearranging of several itineraries, the poetical quotations and the elaborate prose style come from Ibn Juzayy. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768} Whatever their origin, he says, these weaknesses do not detract from the value of the whole, which has long been recognised especially for its descriptions of India, of the Turkish principalities of Asia Minor and of the lands of the Niger. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768} The museum treats the wider debate on his reports in [[question/credibility-of-ibn-battuta|its own question page]].
+
+## His Place in the Rihla Genre
+The article describes the traditional rihla as a form that arose in the West, among Spaniards and Maghribis who wished to note the countries and customs of the East while making the pilgrimage, and that was centred on the visit to the holy places of Arabia. It says that Ibn Battuta follows this usage at the start of his work, but that the sheer extent of his journeys gradually blurs the original object. {cite:encyclopaedia-of-islam-2 vol. 3 p. 767}
+
+The author places the Rihla within the literature of observation, called iyan. He argues that the new territorial groupings of the Turco-Mongol period eased the movement of goods and people and so made possible an original form of the rihla. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768} He sees Ibn Battuta at a turning point in the history of the genre: by basing his account on his own travels, around which he builds his professional and even his family life, he goes further than Ibn Jubayr. At the same time Ibn Juzayy's intervention foreshadowed a later development in which the rihla joined a more literary tradition, with facts adjusted to the rules of scholarly prose and the taste of adab. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768} The structure of the book follows the chronology of the journeys, as Ibn Jubayr's does, and unlike later writers such as al-Abdari or al-Ayyashi, for whom the rihla was mainly a pretext for writing inspired by literary or religious concerns. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768}
+
+## Editions and Translations
+According to the article, the best edition of the Arabic text is still that of Defremery and Sanguinetti, published in Paris in four volumes between 1853 and 1859 with a French translation. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768} It names the Beirut edition of 1379/1960 as following that text, as does, with important corrections, the English translation by H. A. R. Gibb in the Hakluyt Society series, 1958 to 1962, which the article describes as still in progress. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768} It also lists a Turkish translation by Mehmed Sherif Pasha, Istanbul 1915, a Persian one by Muhammad Ali Muwahhid, Tehran 1958, and Italian selections by F. Gabrieli, Florence 1961. {cite:encyclopaedia-of-islam-2 vol. 3 p. 768}
 
 ## For Sprouts
 A brave traveler who set out from Tangier, journeyed for many years, and visited far lands to meet people and record his travels.

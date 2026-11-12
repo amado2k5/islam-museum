@@ -406,6 +406,20 @@
         }
       }
     },
+    "/akhlaq.json": {
+      "get": {
+        "summary": "Akhlaq and Mu'amalat Browser dataset",
+        "description": "The Ethics and Dealings Browser dataset (متصفح الأخلاق والمعاملات): every mention of ethics and dealings in the Qur'an, the Sunnah, the seerah and every harvested book — virtues (truthfulness, trustworthiness, patience, gratitude, humility, sincerity, kindness to parents, kinship), vices (lying, treachery, pride, ostentation, envy, backbiting, slander, anger, injustice, hypocrisy) and dealings (sale, riba, debt, pledge, hire, bequest, inheritance, marriage, divorce, oaths, testimony, judgement, weights, reconciliation, gifts, guarantee, agency, partnership, salam, transfer, loans, usurpation, pre-emption, hoarding, coercion, interdiction, contracts) — detected at build time by scripts/akhlaq.ts plus the curated records tagged akhlaq-browser, each with its corpus section (quran, sunnah, seerah, books, curated), akhlaq_kind (virtue/vice/dealing/mention), kinds, tracks (akhlaq/mu'amalat), topics, matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every akhlaq/mu'amalat record with corpus section, kind, tracks, topics, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/ibadat.json": {
       "get": {
         "summary": "Ibadat and Adhkar Browser dataset",
@@ -853,6 +867,27 @@
             }
           }
         }
+      }
+    },
+    "/usra.json": {
+      "get": {
+        "summary": "Usra Browser — Family and Marriages dataset",
+        "description": "The Usra Browser dataset (متصفح الأسرة والزيجات): everything the museum's sources mention about the most famous marriages in Islam, Muslim families, their dwellings, livelihood, daily life and social customs in the Qur'an, Sunnah, seerah, Companion and Tabi'in reports and every harvested book — passages detected at build time by a guarded lexicon (marital-context gating on «زواج/زوج», marriage-context gating on «خطبة», divine-voice exclusion on nafaqa verbs, publisher «دار» excluded, false positives by id) plus the curated usra-browser records (36 records incl. the usra/maskan/maisha/istidhan/diyafa seeds and event/marriage-of-fatima-and-ali) — each with its section (quran, sunnah, seerah, books, curated), usra_kind, topical topics (marriages, family, homes, livelihood, daily, customs), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Usra dataset",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "usra"
+        ]
       }
     }
   },

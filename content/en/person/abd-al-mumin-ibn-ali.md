@@ -1,18 +1,51 @@
 ---
 id: person/abd-al-mumin-ibn-ali
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Overview
-Abd al-Mu'min ibn Ali, of the Kumiya tribe. {cite:tarikh-ibn-khaldun-ibar p.1669}
+Abd al-Mu'min ibn Ali, of the Kumiya tribe, succeeded the Mahdi [[person/muhammad-ibn-tumart|Ibn Tumart]] as leader of the reformist tawhid movement known as the Almohad movement, and founded the [[group/muminid-dynasty|Mu'minid dynasty]]. In the sixth/twelfth century that dynasty took the place of the kingdoms of Ifriqiya and of the [[polity/almoravid-dynasty|Almoravid dynasty]] of Morocco and Spain, with its capital at [[place/marrakesh|Marrakesh]]. The Encyclopaedia of Islam, whose account this page follows, dates his rule from his proclamation in 527/1133 to his death in 558/1163. {cite:encyclopaedia-of-islam-2 vol. 1 p. 97} {cite:encyclopaedia-of-islam-2 vol. 1 p. 98}
 
-## With Ibn Tumart
-Ibn Khaldun reports that he met Ibn Tumart at Malala, became close to him, and set about taking knowledge from him. {cite:tarikh-ibn-khaldun-ibar p.1669}
+## Sources for his reign
+The article says the history of the Almohad origins and of his reign has been largely reinterpreted since the discovery of new documents: extracts from an anonymous work on the movement's chief figures, the memoirs of a companion of the Mahdi and of Abd al-Mu'min, a volume of a chronicle on the movement's beginnings, and a collection of official letters from Abd al-Mu'min and his immediate successors. These allow a critical account that does not rest only on later Arabic historians. {cite:encyclopaedia-of-islam-2 vol. 1 p. 97}
 
-## The caliphate
-He was the successor in the Almohad state, which arose at his hands and united the two Maghribs. {cite:tarikh-ibn-khaldun-ibar p.1669}
+## Origins and the meeting with Ibn Tumart
+Abd al-Mu'min was a humble student of the Arabicized Berber tribe of the Kumiya, of the Zanata group, settled in the north of what is now the province of Oran, near [[place/nedroma|Nedroma]]. Unlike his master, he made no claim to Arab or Prophetic ancestry until much later. The year of his birth is not established. As a young man he left his village of Tagra with his uncle Yalu to travel east, or perhaps only to Ifriqiya, to complete his studies. The journey took him no further than Bougie, where, in the suburb of Malala, he met Ibn Tumart and his small group of disciples and was taught the Mahdi's unitarian doctrine during the few months it stayed there. The article notes that the meeting might be taken for legend were it not confirmed by a witness, the Mahdi's companion al-Baydhaq. {cite:encyclopaedia-of-islam-2 vol. 1 p. 97}
 
-## Notes for researchers
-- The data include neither his date of birth nor his date of death. An additional source is needed.
+Ibn Khaldun likewise reports that Abd al-Mu'min met Ibn Tumart at Malala, became close to him, and set about taking knowledge from him. {cite:tarikh-ibn-khaldun-ibar p.1669}
+
+## At the Mahdi's side
+From then until the Mahdi's death in 524/1130, Abd al-Mu'min was very active beside his master. Ibn Tumart attached him by adoption to his own tribe, the Hargha, and gave him a place in his Council of Ten. He took part in the expeditions and in the deliberations of the Almohad staff, and found a protector in [[person/abu-hafs-umar-al-hintati|Abu Hafs Umar al-Hintati]], the most active member of the movement. When the Mahdi died it was Abu Hafs who imposed on the Berber hillsmen of [[place/tinmal|Tinmallal]] the Mahdi's choice of successor. Three years passed before Abd al-Mu'min was proclaimed in 527/1133 and received the oath of allegiance from his new subjects, facing an uncertain political situation. His first task, the article says, was to break the already undermined Almoravid structure. {cite:encyclopaedia-of-islam-2 vol. 1 p. 97}
+
+Ibn Khaldun adds that he was the successor in the Almohad state, which arose at his hands and united the two Maghribs. {cite:tarikh-ibn-khaldun-ibar p.1669}
+
+## The conquest of Morocco
+Securing the whole of Morocco proved long and difficult. Abd al-Mu'min first attacked the Sus and the Dra, then the line of Almoravid fortresses encircling the High Atlas that barred access to the plains and to Marrakesh. He then turned north-east, took the fortified towns of Damnat and Day, and step by step gained the Middle Atlas and the oases of the [[place/tafilalt|Tafilalt]]. Almohad columns next entered northern Morocco from their base in the Jebala massif, occupied the fortresses around Taza, and won over the tribes of the Wadi Law, Badis, Nakur, Melilla and northern Oran region. He returned to his own village of Tagra as a conqueror. {cite:encyclopaedia-of-islam-2 vol. 1 p. 97}
+
+With considerable forces he then felt strong enough to leave guerrilla warfare in the hills and meet the Almoravids on the plain. The death of the Almoravid amir Ali ibn Yusuf left a tottering throne to his son [[person/tashfin-ibn-ali|Tashufin]], and open rivalry arose between the Lamtuna and Masufa chiefs over the succession. A further blow to the Almoravids was the death of the Catalan Reverter, leader of their Christian militia, killed in 539/1145 in an engagement with the Almohads in eastern Morocco. The adhesion of the Zanata to the tawhid tilted the balance further. The armies of Abd al-Mu'min and Tashufin met before [[place/tlemcen|Tlemcen]], and Tashufin fell back on Oran and died the same year, 539, after falling from his horse. {cite:encyclopaedia-of-islam-2 vol. 1 p. 97} {cite:encyclopaedia-of-islam-2 vol. 1 p. 98}
+
+## Fez and Marrakesh
+The road to [[place/fez|Fez]] was open. [[place/oujda|Oujda]] and Guercif were taken, and the capital of northern Morocco fell after a siege of nine months in 540/1146, followed by [[place/meknes|Meknes]] and Salé. Marrakesh made some attempt to resist but capitulated in Shawwal 541/April 1147, despite a stubborn defence by the garrison of the Rasaba. There was great slaughter of the Almoravids, among them the young prince Ishaq ibn Ali ibn Yusuf. Abd al-Mu'min chose the Almoravid palace as his residence and ordered the monumental mosque of the Booksellers, the [[building/kutubiyya-mosque|Kutubiyya]], built nearby; its minaret still dominates Marrakesh. {cite:encyclopaedia-of-islam-2 vol. 1 p. 98}
+
+## Organising the empire
+With Almoravid power destroyed, Abd al-Mu'min organised his empire on the political system of the Almohad community, broadened and adapted to his purpose. He re-examined his supporters, and the article says thousands judged of doubtful loyalty or lacking religious fervour were put to the sword. {cite:encyclopaedia-of-islam-2 vol. 1 p. 98}
+
+The article judges that it was probably at the capture of Marrakesh that he let his entourage give him the title amir al-mu'minin, whereas the Almoravids had used only amir al-muslimin, acknowledging the spiritual suzerainty of the [[polity/abbasid-caliphate|Abbasid caliphate]]. Breaking with the Almoravid tradition, which had itself drawn on Hispano-Umayyad organisation, he set up an administrative system suited to his large empire and to his wish not to offend his Berber entourage. The article says many of its regulations survive in the makhzen of modern Morocco. For his chancellery he nonetheless turned to Andalusian experts, mostly former secretaries at the Almoravid court. {cite:encyclopaedia-of-islam-2 vol. 1 p. 98}
+
+He also secured the succession in his own line. In 549/1154 he had his eldest son Muhammad named heir presumptive, and in 551/1156 he appointed his other sons governors of the principal towns, each with senior Almohad figures as mentors. {cite:encyclopaedia-of-islam-2 vol. 1 p. 98}
+
+## Ifriqiya
+Having decided to annex Ifriqiya, Abd al-Mu'min found it, in the article's words, an easy prey: the Sanhaja dynasties of Bougie and [[place/qayrawan|Kairouan]] were undermined, Bedouin incursions were overrunning the country, and the Normans under [[person/roger-of-sicily|Roger II of Sicily]] were gaining a foothold in the main ports. The article observes that an expedition could therefore be presented as jihad against the unbelievers. {cite:encyclopaedia-of-islam-2 vol. 1 p. 98}
+
+In 546/1151 he gathered his troops at Salé and advanced east, taking [[place/algiers|Algiers]], [[place/bejaia|Bougie]] and [[place/qalat-bani-hammad|Qal'at Bani Hammad]], capital of the [[polity/hammadid-dynasty|Hammadids]], and routing nomadic Arabs near [[place/setif|Setif]]. For the time being he went no further towards Tunisia. Ifriqiya proper was conquered eight years later. Leaving Abu Hafs Umar al-Hintati as lieutenant in the Maghrib, he reached [[place/tunis|Tunis]] after a six-month journey in Jumada II 554/June 1159. He then besieged al-Mahdiyya, held by Roger II, which fell in Muharram 555/January 1160. In the same campaign he gained [[place/sousse|Sousse]], Kairouan, [[place/sfax|Sfax]], Gafsa, [[place/gabes|Gabes]] and [[place/tripoli|Tripoli]]. He then returned to Marrakesh and left for Spain in 556/1161. {cite:encyclopaedia-of-islam-2 vol. 1 p. 98}
+
+## Al-Andalus
+The Almohad presence in the Iberian peninsula began in 539/1145, just after the capture of Tlemcen. The following year the Almoravid admiral Ibn Maymun, who had gone over to Abd al-Mu'min, took Cadiz. An Almohad army then took in turn Jerez, Niebla, Silves, Badajoz, Mertola and finally [[place/seville|Seville]]. In 549/1154 the Almoravid governor surrendered [[place/granada|Granada]], and in 552/1157 [[place/almeria|Almeria]] was recaptured from the Christians, whose designs on al-Andalus were becoming ever clearer. In these circumstances Abd al-Mu'min decided to cross the Straits himself. He made his headquarters at [[place/gibraltar|Gibraltar]], whose reconstruction he had ordered the year before, and stayed two winter months, sending columns towards [[place/jaen|Jaen]], where the mercenaries of [[person/ibn-mardanish|Ibn Mardanish]] were raiding. {cite:encyclopaedia-of-islam-2 vol. 1 p. 98}
+
+## Death
+Abd al-Mu'min returned to Morocco at the beginning of 558/1162 and gathered his troops at the vast camp opposite Salé, the Ribat al-Fath, now [[place/rabat|Rabat]], for another expedition to the peninsula. He fell ill and, after a long and painful illness, died in Jumada II 558/May 1163; the historians agree on month and year but not the day. His remains were taken from Salé to Tinmallal and buried near the tomb of the Mahdi Ibn Tumart. {cite:encyclopaedia-of-islam-2 vol. 1 p. 98}
+
+## Assessments
+The article reports that various estimates of him have been given, since nothing marked him out for so brilliant a career. At first, and in the years after Ibn Tumart's death, it says he seems somewhat timid and led by his principal collaborator Abu Hafs Umar. Later, it judges, he showed increasing strategic and political ability: he handled his susceptible Almohad Berber entourage tactfully, won the goodwill of the Arabs of Ifriqiya after subduing them, and carried out his role as head of state and guardian of the Mahdi's doctrine with intelligence, energy and also cruelty. These are the article's own judgements, not the museum's. {cite:encyclopaedia-of-islam-2 vol. 1 p. 98}

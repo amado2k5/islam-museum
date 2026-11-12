@@ -1,4 +1,4 @@
-// The Centuries, Years and Months Browser's shared reads (docs/plan/54-qurun-browser.md):
+// The Centuries, Years and Months Browser's shared reads (docs/plan/56-qurun-browser.md):
 // every mention of the centuries/generations (القرون), the years and the named years
 // (السنين والأعوام), the important months (الشهور الهامة) and the sacred months
 // (الأشهر الحرم) in the museum's sources — the Qur'an, the Sunnah, the seerah and every

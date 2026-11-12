@@ -4,16 +4,16 @@ class: place
 kind: city
 label: { en: "Ta'if", ar: "الطائف" , ur: "طائف"}
 summary:
-  en: "Hill town southeast of Mecca, visited by the Prophet in 619 CE and besieged in 630 CE."
-  ar: "مدينة جبلية جنوب شرق مكة المكرمة، زارها النبي سنة 619م وحوصرت سنة 630م."
-  ur: "مکہ کے جنوب مشرق میں پہاڑی شہر؛ نبی نے 619ء میں یہاں کا سفر کیا اور 630ء میں اس کا محاصرہ ہوا۔ {cite:mubarakpuri-raheeq}"
+  en: "Hill town in the Sarat mountains south-east of Mecca, 1,680 m above sea level, home of the Thaqif tribe in early Islam and later the summer capital of western Arabia. The Prophet visited it in 619 CE and it was besieged in 630 CE. Before Islam it had a brick wall and fortresses, and the valley of Wajj, which gave it its early name, was declared a haram in the agreement between the Prophet and the Thaqif."
+  ar: "مدينة جبلية في جبال السراة جنوب شرق مكة على ارتفاع 1680 مترًا، سكنتها ثقيف في صدر الإسلام وصارت لاحقًا عاصمة صيفية لغربي الجزيرة. زارها النبي سنة 619م وحوصرت سنة 630م. وكان لها قبل الإسلام سور من اللبن وحصون، وأُعلن وادي وج الذي أعطاها اسمها الأول حرمًا في الاتفاق بين النبي وثقيف."
+  ur: "سراۃ کے پہاڑوں میں مکہ کے جنوب مشرق میں 1680 میٹر کی بلندی پر واقع پہاڑی شہر، جو ابتدائی اسلام میں ثقیف کا مسکن تھا اور بعد میں مغربی عرب کا گرمائی دارالحکومت بنا۔ نبی نے 619ء میں یہاں کا سفر کیا اور 630ء میں اس کا محاصرہ ہوا۔ اسلام سے پہلے اس کی اینٹوں کی دیوار اور قلعے تھے، اور وادیٔ وج، جس نے اسے ابتدائی نام دیا، نبی اور ثقیف کے معاہدے میں حرم قرار پائی۔"
 wings: [place]
 regions: [arabia]
 coordinates: [21.27, 40.42]
 coordinate_precision: site
 coordinate_note: "Agrees with GeoNames within 0.4 km."
 external_ids: { geonames: "107968", wikidata: "Q182640"}
-sources: [source/geonames-gazetteer, source/mubarakpuri-raheeq, source/wikidata]
+sources: [source/geonames-gazetteer, source/mubarakpuri-raheeq, source/wikidata, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from docs/plan/16 §6, checked against GeoNames" }
 
@@ -23,6 +23,7 @@ education:
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
 provenance:
   layer: own-research
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 10, article al-Ta'if, PDF pages 130-131 (p. 131 unreadable), written by Claude Sonnet 5.5, run canon-cornerstones-12"
   model: unknown
   run: explorer-40-subjects-2026-11-04
   source: "Existing museum record and its listed sources; source/provenance metadata restored for the 40-subject Explorer batch. No new dates, coordinates or relations."

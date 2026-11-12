@@ -1678,6 +1678,10 @@ explore:
       title: "Paradise Browser"
       desc: "Every mention of Paradise (al-janna) in the Qur'an, the Sunnah, the seerah and every harvested book — al-Firdaws, the gardens of 'Adn, Dar al-Salam, its rivers, gates, degrees, soil and people, and every report of the Companions and Successors — with every verse and report cited."
       menu: "Browse Paradise in the Qur'an, hadith and books"
+    usra:
+      title: "Family and Marriages Browser"
+      desc: "The famous marriages in Islam, the Muslim family and its daily life — every mention of marriage, spouses and children, dwellings, livelihood and social customs in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
+      menu: "Browse marriages, families and daily life in the Qur'an and books"
     islamiceconomy:
       title: "Islamic Economy Browser"
       desc: "Every mention of money and Islamic economics, deeds and covenants, and endowment in the Qur'an, the Sunnah, the seerah and every harvested book — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — with every verse and report cited."
@@ -1742,6 +1746,10 @@ explore:
       title: "Sacred Places Browser"
       desc: "Every place of sanctity, importance and value in Islam that the Qur'an, the Sunnah, the seerah, the Companions and Successors, and every harvested book mention — the three sanctuaries, the hajj stations, the seerah sites, the places named in the Qur'an and every place a passage names."
       menu: "Browse the sacred and important places of Islam"
+    akhlaq:
+      title: "Ethics and Dealings Browser"
+      desc: "Every mention of ethics and dealings in the Qur'an, the Sunnah, the seerah, Companion and Tabi'i reports and every harvested book — truthfulness, trustworthiness, faithfulness, patience, gratitude, humility, excellence, modesty, forbearance, pardon, sincerity, repentance, generosity, kindness to parents, kinship ties and the neighbour's right; lying, treachery, pride, ostentation, envy, miserliness, backbiting, slander, anger, injustice, disobedience to parents, hypocrisy and cheating; and sale, riba, debt, pledge, hire, bequest, inheritance, marriage, divorce, oaths, testimony, judgement, weights and measures, reconciliation, gifts, guarantees, agency, partnership, salam, transfer, loans, usurpation, pre-emption, hoarding, coercion and interdiction — every verse and report with its source."
+      menu: "Browse ethics and dealings in the Qur'an, hadith and books"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -3528,6 +3536,43 @@ janna:
     curated:
       title: "Curated records"
       desc: "The museum's own records about Paradise — its names, gates, rivers, soil, degrees and people — shared through the janna-browser tag."
+usra:
+  title: "Family and Marriages Browser"
+  lede: "The famous marriages in Islam and the Muslim family in the museum's sources: the marriages of the Prophet and the Companions, the spouses and children of Muslim homes, their dwellings and rooms, their livelihood and maintenance, the details of their daily life — sleep, clothing, food and service — and their social customs — asking permission, neighbours, guests, gifts and companionship in good faith — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, the reports of the Companions and the Successors, and every harvested book — sourced records that grow as new texts land."
+  badge: Family and marriages explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Family-life mentions are found at build time by a guarded lexicon over the passage texts in six families: marriage (نكاح، زواج، زوجة، مهر، وليمة، عرس), the family and children (أسرة، عيال، بنون، أولاد، ذرية، والدين، رضاعة), dwellings (مسكن، مساكن، حجرات، بيتهم، دارهم), livelihood (معيشة، قوت، نفقة، كسوة، رزقهم), daily life (نوم، ثياب، خادم، فراش، سفرة) and social customs (استئذان، جار، ضيف، هدية، معروف، مجلس). The ambiguous words are guarded: «زوج» and «بعل» count only beside marriage vocabulary, «بيت» only in its home plural and possessive forms, «دار» only possessed, «صداق» only beside marriage words, and verified false positives are excluded by id; every book harvested later brings its family-life reports here automatically when its passages land in the graph, and curated records join through the usra-browser tag. The famous marriages are read from the graph's own spouse_of edges."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  couples_title: "The famous marriages"
+  couples_desc: "Marriage pairs from the museum's own graph: every record joined to its spouse by a cited spouse_of edge — the Prophet's marriages, the marriages of the Companions and the Successors, and the couples of the books."
+  filter_label: Filter family and marriage records
+  filter_none: No matches.
+  empty: No family records in this build yet.
+  topics:
+    zawaj: "Marriages"
+    usra: "Family"
+    maskan: "Dwellings"
+    maisha: "Livelihood"
+    yawmi: "Daily life"
+    adat: "Social customs"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Marriage, family and home in the Qur'an: «وأنكحوا الأيامى منكم»، «فانكحوا ما طاب لكم من النساء»، «لتسكنوا إليها»، «واجعل بينكم مودة ورحمة»، the verses of the mahr and the walima, the isti'dhan verses of al-Nur, «يا أيها الذين آمنوا لا تدخلوا بيوت النبي»، and the households of the prophets."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The Prophet's marriages and household in the two Sahihs, the Muwatta and the Sunan: the walima feasts, the mahr reports, the manners of the home and the family, the rights of spouses and children, hospitality and neighbours, and every report on Muslim daily life."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of marriages, households and daily life — the Prophet's weddings, the Companions' homes in Madina, the reports of living and earning — this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Family-life reports in every harvested work beyond the Qur'an, hadith and seerah — fiqh, adab, history, biography and poetry — classified by the work's genre the day its passages land."
+    curated:
+      title: "Records about the Muslim family"
+      desc: "The museum's curated records about marriage, family, dwellings, livelihood and customs themselves: nikah, mahr, walima, the aqiqa, the forms of marriage, the manners of the home and the guest."
 nar:
   title: "The Fire Browser"
   lede: "Every mention of the Fire in the museum's sources: the verses of the Fire and its names — Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya and al-Sa'ir — the reports of its torment, keepers, fuel, zaqqum and boiling water, and the bridge over it, the «اتقوا النار» formulas of the Sunnah, the sayings of the Companions and the Successors, and this world's fire on its own shelf: Ibrahim's fire, the fire of Musa's tree, and the fire of war and cooking — in every harvested book, growing as new texts land."
@@ -4690,3 +4735,106 @@ hisab:
     curated:
       title: Curated records
       desc: "The article of the subject and the rows of the calculator: each record explains one counting text and names its source."
+akhlaq:
+  title: "Ethics and Dealings Browser"
+  lede: "Every mention of ethics and dealings in the museum's sources: the Qur'an's virtues from truthfulness, trustworthiness, justice and excellence to kindness to parents and kinship ties, and its vices from lying, treachery, pride, backbiting and injustice; the hadiths 'I was sent to perfect noble character' and 'a Muslim is one from whose tongue and hand the Muslims are safe'; and the dealings between people from sale, riba, debt and pledge to marriage, divorce, oaths, testimony, judgement and the scales — and every report of the Companions and the Successors, what the seerah books carry, and every harvested book — sourced records that grow as new texts land."
+  badge: Ethics and Dealings Explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: How the browser works
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Ethics and dealings are found at build time by a guarded lexicon over the passage texts: the virtue words (truthfulness, trustworthiness, faithfulness, patience, gratitude, humility, excellence, modesty, forbearance, sincerity, repentance, generosity, kindness to parents, kinship, the neighbour's right, good advice, withholding harm, mastery, mercy, justice, contentment), the vice words (lying, treachery, pride, ostentation, envy, miserliness, backbiting, slander, indecency, insults, anger, injustice, disobedience to parents, hypocrisy, cheating) and the dealings words (sale, trade, riba, debt, loan, pledge, hire, bequest, inheritance, marriage, dower, nursing, divorce, release, waiting period, maintenance, custody, oaths, expiation, testimony, proof, judgement, scales, measure, short-measure, reconciliation, gifts, guarantee, surety, agency, partnership, qirad, mudaraba, muzara'a, musaqat, salam, istisna', transfer, loan, deposit, usurpation, found property, pre-emption, hoarding, coercion, interdiction, contract); the bay'ah allegiance, 'raba' as growth outside transaction, 'hukm' as wisdom, 'shahada' as the testimony of faith or martyrdom, 'ajr' as bare reward, 'qism' as portion, and the worship rites owned by the sibling Ibadat and Du'a browsers are left out, verified false positives are excluded by id, and every book harvested later brings its mentions here automatically once its passages land in the graph; curated records join through the akhlaq-browser tag. Each passage is marked with its track (akhlaq/mu'amalat), kind (virtue/vice/dealing/mention) and topics."
+  api: "The full set is available at"
+  sections_title: Browser sections
+  filter_label: "Filter ethics and dealings"
+  filter_none: "No matching results."
+  empty: "No akhlaq or mu'amalat records in this build yet."
+  tracks:
+    akhlaq: "Ethics"
+    muamalat: "Dealings"
+  kinds:
+    virtue: "virtue"
+    vice: "vice"
+    dealing: "dealing"
+    mention: "about the subject"
+  topics:
+    akhlaq: "Ethics"
+    muamalat: "Dealings"
+    sidq: "Truthfulness"
+    amana: "Trustworthiness"
+    wafa: "Faithfulness"
+    sabr: "Patience"
+    shukr: "Gratitude"
+    tawadu: "Humility"
+    ihsan: "Excellence"
+    haya: "Modesty"
+    hilm: "Forbearance and pardon"
+    ikhlas: "Sincerity"
+    tawba: "Repentance"
+    karam: "Generosity and preferring others"
+    birr: "Kindness to parents"
+    rahim: "Kinship ties"
+    jiwar: "The neighbour's right"
+    husn-zann: "Good opinion"
+    nasiha: "Sincere advice"
+    kaf-adha: "Withholding harm"
+    itqan: "Mastery"
+    rahmah: "Mercy"
+    adl: "Justice"
+    qanaa: "Contentment"
+    kadhib: "Lying"
+    khiyana: "Treachery"
+    kibr: "Pride"
+    riya: "Ostentation"
+    hasad: "Envy"
+    bukhl: "Miserliness"
+    ghiba: "Backbiting"
+    namima: "Slander and mockery"
+    fahish: "Indecency and insults"
+    ghadab: "Anger"
+    zulm: "Injustice"
+    uquq: "Disobedience to parents and severing kinship"
+    nifaq: "Hypocrisy"
+    ghish: "Cheating"
+    bay: "Sale and trade"
+    riba: "Riba"
+    dayn: "Debt and loan"
+    rahn: "Pledge"
+    ijara: "Hire"
+    wasiyya: "Bequest"
+    irth: "Inheritance"
+    nikah: "Marriage and dower"
+    talaq: "Divorce and waiting period"
+    yamin: "Oaths and expiation"
+    shahada: "Testimony"
+    qada: "Judgement"
+    mizan: "Scales and measure"
+    sulh: "Reconciliation"
+    hiba: "Gifts"
+    kafala: "Guarantee and surety"
+    wakala: "Agency"
+    sharika: "Partnership and mudaraba"
+    salam: "Salam and istisna'"
+    hawala: "Debt transfer"
+    ariya: "Loans and deposits"
+    ghasb: "Usurpation and found property"
+    shufa: "Pre-emption"
+    ihtikar: "Hoarding"
+    ikrah: "Coercion"
+    hajr: "Interdiction"
+    aqd: "The contract"
+    idda: "Waiting period"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Ethics and dealings in the Qur'an: 'God commands justice and excellence', the birr verse, 'fulfil the contracts', 'give full measure and weight', the riba, debt and pledge verses, the marriage, divorce, waiting-period and nursing rulings, oaths and their expiation, testimony and judgement, al-Mutaffifin, kindness to parents, backbiting, mockery, hypocrisy and pride, and every verse that names a virtue, a vice or a dealing."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The Prophet's, the Companions' and the Successors' ethics and dealings in the two Sahihs, the Muwatta and the Sunan: 'I was sent to perfect noble character', 'a Muslim is one from whose tongue and hand the Muslims are safe', 'the signs of the hypocrite are three', the reports on kindness to parents, kinship, the neighbour and sincere advice, and the Books of Sales, Manners, Pledges, Bequests, Testimonies and Judgements in the collections, and every report that quotes or teaches a trait or a dealing."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of ethics and dealings — from Meccan trade to the Medina market, the Prophet's sales and covenants — the section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Ethics and dealings in every harvested work beyond Qur'an, hadith and seerah — the adab, fiqh, raqa'iq, history and poetry books and what comes next — classified by the work's genre the day its passages land."
+    curated:
+      title: "Records on ethics and dealings"
+      desc: "The museum's curated records on the virtues, the vices and the contracts themselves: character, manners, truthfulness, trustworthiness, patience, gratitude, humility, sincerity, kindness to parents; lying, treachery, pride, backbiting, miserliness, envy, injustice and disobedience; and the contract, sale, riba, debt, pledge, hire, bequest, inheritance, marriage, divorce, oaths, testimony, judgement, scales, gifts, guarantee, agency, partnership and the rest of the dealings."

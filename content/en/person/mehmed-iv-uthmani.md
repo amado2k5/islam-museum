@@ -1,22 +1,41 @@
 ---
 id: person/mehmed-iv-uthmani
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Overview
-Sultan Mehmed IV, son of [[person/ibrahim-i-uthmani|Ibrahim I]]. He was born in 1051 AH, and ruled from 1058 AH to 1099 AH (1648–1687 CE). {cite:dawlat-uthmaniyya-salabi p.307-308}
+Mehmed IV was the nineteenth sultan of the Ottoman dynasty and reigned from 1058 to 1099 AH, 1648 to 1687 CE. The Encyclopaedia of Islam calls him by the Turkish epithet "the hunter", given for his excessive passion for the chase. He was the son of Sultan [[person/ibrahim-i-uthmani|Ibrahim I]] and of Khadija Turkhan Sultan, and was born on 30 Ramadan 1051, 2 January 1642. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1009} The Ottoman historian Ali Muhammad al-Salabi, whose account is also used on this page, gives the same year of birth and the same regnal dates. {cite:dawlat-uthmaniyya-salabi p.307-308}
+
+His reign of almost forty years runs from a childhood enthronement amid court and army factions, through the rule of the Köprülü viziers and the last great Ottoman gains in Crete and the north, to the failed second siege of Vienna and the loss of most of Hungary, and ends with his deposition by officers, officials and religious dignitaries. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1009} {cite:encyclopaedia-of-islam-2 vol. 6 p. 1010}
 
 ## Coming to the throne
-He came to the throne at the age of seven, after his father was killed. {cite:dawlat-uthmaniyya-salabi p.307-308}
+Mehmed was placed on the throne in Istanbul at the age of seven. His father Ibrahim, described by the article as a sensualist and possibly deranged, was deposed on 18 Rajab 1058, 8 August 1648. At that moment Ibrahim was the only surviving adult male of the house of Osman, though two other sons of his, [[person/sulayman-ii-uthmani|Suleyman II]] and Ahmed, also survived and later reached the throne after Mehmed. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1009} Al-Salabi says the boy came to power after his father was killed. {cite:dawlat-uthmaniyya-salabi p.307-308}
 
-## His reign
-Al-Salabi says that Europe formed the Holy League, in which were Austria, Poland, Venice, the Knights of Malta, the Pope and Russia, and began its attack on the state. {cite:dawlat-uthmaniyya-salabi p.307-308}
+## A divided state
+The article says power was divided between the court, where the old queen mother [[person/kosem-sultan|Kösem]] and Mehmed's own mother, the valide Turkhan, held the reins, and the rebellious soldiery of the Janissaries and the Sipahis. It measures the instability by a count: until the appointment of [[person/koprulu-mehmed-pasha|Köprülü Mehmed]] as grand vizier in 1066/1656, there were thirteen grand viziers. In 1061/1651 Kösem was strangled and the Janissaries' resistance was broken, but the court rule of the sultan's mother that followed did not, in the article's judgement, improve matters. The grand vizierate of Ipshir Mustafa Pasha, in 1064 to 1065/1654 to 1655, ended early through his rival Murad Pasha, while the war in Crete was draining the empire's resources. In Jumada I 1066, March 1656, a military rebellion forced the sultan to allow the execution of several of his favourites. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1009}
 
-The grand vizier Mehmed Koprulu restored the state's prestige until his death in 1072 AH. His son Ahmed Koprulu followed his way, and opened the fortress of Novigrad in 1074 AH. {cite:dawlat-uthmaniyya-salabi p.307-308}
+## The Köprülü viziers
+The article names Köprülü Mehmed Pasha, vizier from 1066 to 1072/1656 to 1661, as the real strong man. He removed the influence of the harem from affairs of state and became the actual ruler of the empire until his death. His rule began with a Turkish naval defeat by the Venetians at the Dardanelles, yet the next year brought successes in Transylvania and a firmer Turkish hold on the Danube principalities, helped by the Khan of the Crimea. In 1068/1658 and 1069/1659 he put down revolts in Anatolia, and on Crete a large fleet of Venice and other Christian allies failed against the Turkish forces. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1009} Al-Salabi likewise says that Mehmed Köprülü restored the state's prestige until his death in 1072 AH. {cite:dawlat-uthmaniyya-salabi p.307-308}
 
-After Ahmed's death order weakened. Al-Salabi says that Austria took Novigrad, Buda and Pest, and that Venice occupied Athens and Corinth in 1097 AH. {cite:dawlat-uthmaniyya-salabi p.307-308}
+His son [[person/fazil-ahmed-koprulu|Köprülü Ahmed Pasha]] succeeded him in office and completed his work with the final conquest of Crete, the surrender of Candia in Rabi II 1080, September 1669, followed by peace with Venice. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1009} Al-Salabi says that Ahmed followed his father's way and took the fortress of Novigrad in 1074 AH. {cite:dawlat-uthmaniyya-salabi p.307-308}
 
-## Deposition
-The scholars and the men of the state agreed to depose him. He was deposed in 1099 AH and his brother Suleyman II succeeded him. {cite:dawlat-uthmaniyya-salabi p.307-308}
+## Wars with Austria and Poland
+War with Austria began again in 1071/1661, and the sultan took part in several campaigns, notably that of 1073/1663 in which Uivár, also called Neuhäusel or Nové Zámky, was taken. In 1075/1664 came the battle of St. Gotthard on the Raab, where the Turks were beaten by an allied army that included French troops. The article notes, however, that the peace concluded the same year at Vasvár was favourable to Turkey. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1009}
+
+In 1083/1672 the sultan joined the campaign against Poland, after the Ukrainian Cossacks had called for Ottoman aid against the Polish king. The war ended in a treaty of 1087/1676 that, in the article's words, strengthened the empire's position in the north. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1009}
+
+## The sultan and his court
+Köprülü Ahmed Pasha died in 1087/1676. The article says the sultan had by then developed a morose and capricious character and never showed Ahmed the deference he had shown the father. Ahmed had nevertheless held his own against enemies at home, not least by forming new troops, the beshli and the gönüllü, which were far more reliable than the Janissaries and Sipahis. He could not end the extravagant luxury of the court, which wasted enormous sums. The sultan had an abnormal liking for great hunts, organised at huge cost around Edirne, the town he preferred to Istanbul as a residence. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1009}
+
+## Kara Mustafa and the siege of Vienna
+After Ahmed's death the sultan did not take the affairs of state into his own hands. He appointed [[person/kara-mustafa-pasha|Kara Mustafa Pasha Merzifonlu]] as grand vizier. The article judges that Kara Mustafa continued the tradition of warfare unnecessarily. He had successes against the Cossacks in 1088/1677 and 1089/1678, behind whom Muscovite power was beginning to count in Ottoman affairs. In 1093/1682 war with the Austrian monarchy broke out again and led to the second Turkish siege of Vienna, from 18 Rajab to 20 Ramadan 1094, 12 July to 12 September 1683. It ended in a Turkish rout, thanks to the intervention of the Polish king John Sobieski. The disaster cost Kara Mustafa his office and his life, and the influence of the palace again became dominant. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1009}
+
+## Loss of Hungary and the Holy League
+The grand viziers who followed proved unequal to the task, and in 1096 to 1098/1685 to 1687 nearly the whole of Hungary was lost to the Austrian armies. The article gives the Turkish defeat at [[place/mohacs|Mohács]] on 11 Shaban 1098, 22 June 1687, as the culmination, and adds that hostilities with Venice had at the same time been reopened in the Morea and the Archipelago. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1009} {cite:encyclopaedia-of-islam-2 vol. 6 p. 1010} Al-Salabi describes the same pressure as Europe's Holy League, which he says included Austria, Poland, Venice, the Knights of Malta, the Pope and Russia, and which began its attack on the state. He adds that after Ahmed's death order weakened, that Austria took Novigrad, Buda and Pest, and that Venice occupied Athens and Corinth in 1097 AH. {cite:dawlat-uthmaniyya-salabi p.307-308} The two accounts differ in emphasis, and neither is set above the other here.
+
+## Deposition and death
+The defeats caused a revolt of the troops in the field, who marched on the capital in Dhu al-Qada 1098, September 1687. The article says the sultan himself fell victim to them and was made to bear responsibility for the defeats. To satisfy popular demands and forestall further trouble, he was deposed on 2 Muharram 1099, 8 November 1687, by the deputy grand vizier Fadil Mustafa Pasha Köprülü together with religious dignitaries. The OCR of the passage naming one of the dignitaries is unclear, so the name is left out here. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1010} Al-Salabi says the scholars and men of the state agreed to depose him, and that his brother Suleyman II succeeded him. {cite:dawlat-uthmaniyya-salabi p.307-308}
+
+The article says he is reported to have accepted the decision gracefully and retired to his beloved Edirne, where he died on 28 Rabi II 1104, 6 January 1693. He was buried in Istanbul beside his mother in the Yeni Cami. {cite:encyclopaedia-of-islam-2 vol. 6 p. 1010}
