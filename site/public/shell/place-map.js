@@ -220,7 +220,8 @@
     if (retry) { var b = h("button", null, T.retry); b.type = "button"; b.addEventListener("click", retry); statusEl.appendChild(b); }
   }
   function load(name) {
-    if (!files[name]) files[name] = fetch(C.base + name + ".json").then(function (r) { if (!r.ok) throw new Error(String(r.status)); return r.json(); }).catch(function (e) { delete files[name]; throw e; });
+    // The page names the build its data belongs to (C.v), so a cached file from an older build is never paired with a newer page.
+    if (!files[name]) files[name] = fetch(C.base + name + ".json?v=" + C.v).then(function (r) { if (!r.ok) throw new Error(String(r.status)); return r.json(); }).catch(function (e) { delete files[name]; throw e; });
     return files[name];
   }
   function loadPlaces() {
@@ -275,7 +276,7 @@
     if (narrow()) setPanel(level === "region");
     regionEls.forEach(function (el, i) { el.classList.toggle("is-sel", i === st.region && level !== "world"); });
     ring.hidden = !(st.place >= 0);
-    setHash(); renderCrumbs();
+    setHash(); renderCrumbs(); showYear();
   }
   function goWorld(quiet) { st.region = -1; st.place = -1; st.ent = null; enter("world"); renderPanel(); buildOrbit(); fly(homeView(), quiet ? 0 : undefined); }
   function goRegion(r, quiet) { st.region = r; st.place = -1; st.ent = null; enter("region"); renderPanel(); buildOrbit(); fly(targetOfLevel(), quiet ? 0 : undefined); }
@@ -379,6 +380,7 @@
   function panelError(retry) { body.textContent = ""; var p = h("p", "pm-wait", T.load_error + " "); var b = h("button", "pm-link", T.retry); b.type = "button"; b.addEventListener("click", retry); body.appendChild(p); body.appendChild(b); }
   function renderPanel() {
     var keepScroll = body.scrollTop, same = body.dataset.for === st.level + ":" + st.region + ":" + st.place + ":" + st.ent;
+    var focused = same && body.contains(document.activeElement) ? document.activeElement.dataset.key : null;
     body.textContent = ""; body.dataset.for = st.level + ":" + st.region + ":" + st.place + ":" + st.ent;
     var year = ceYear();
     if (st.level === "world") {
@@ -431,6 +433,12 @@
       }
     }
     body.scrollTop = same ? keepScroll : 0;
+    if (focused) refocus(body, focused);
+  }
+  // A redraw replaces the elements; the reader's place in them is kept by the record each one stands for.
+  function refocus(scope, key) {
+    var all = scope.querySelectorAll("[data-key]");
+    for (var i = 0; i < all.length; i++) if (all[i].dataset.key === key) { all[i].focus({ preventScroll: true }); return; }
   }
   function entityRows(heading, empty) {
     if (!current.items.length) { body.appendChild(h("p", "pm-wait", empty)); return; }
@@ -467,6 +475,7 @@
     links.textContent = ""; orbit.core = null; orbit.nodes = [];
   }
   function buildOrbit() {
+    var focused = document.activeElement && document.activeElement.classList.contains("pm-node") ? document.activeElement.dataset.key : null;
     clearOrbit();
     if (!current || !P) { layoutNames(); return; }
     var f = free(), aw = vw - f.l - f.r, ah = vh - f.t - f.b, tight = aw < 600;
@@ -495,7 +504,7 @@
       var b = h("button", "pm-node" + (it.from != null && !isActive(it) ? " is-dim" : "")); b.type = "button";
       b.appendChild(h("span", "pm-shape c-" + it.cls));
       var t = h("span"); t.appendChild(auto("span", "pm-node-t", it.label)); var sub = it.rels[0] || it.years; if (sub) t.appendChild(h("small", null, sub)); b.appendChild(t);
-      b.title = [it.label].concat(it.rels, it.years ? [it.years] : []).join(" · ");
+      b.title = [it.label].concat(it.rels, it.years ? [it.years] : []).join(" · "); b.dataset.key = "e" + it.id;
       b.addEventListener("click", function () { pendingName[it.id] = it; openItem(it.id); });
       b.addEventListener("mouseenter", function () { hot("e" + it.id, true); }); b.addEventListener("mouseleave", function () { hot("e" + it.id, false); });
       b.addEventListener("focus", function () { hot("e" + it.id, true); }); b.addEventListener("blur", function () { hot("e" + it.id, false); });
@@ -504,6 +513,7 @@
       orbit.nodes.push({ el: b, key: "e" + it.id, line: line });
     });
     layoutNames();
+    if (focused) refocus(over, focused);
   }
   function placeOrbit() {
     if (!orbit.core || !current) return;
@@ -674,8 +684,14 @@
     if (+slider.value !== st.ah) slider.value = String(st.ah);
     showYear(); drawDots();
     names.forEach(function (n, key) { if (key.charAt(0) === "p") n.el.classList.toggle("is-dim", P.state[+key.slice(1)] === 1); });
-    if (!live) { renderPanel(); buildOrbit(); } else if (st.level === "world") layoutNames();
+    // What is active decides the order and the marks of the panel's rows and the orbit's nodes, so both follow the
+    // year: at once when the year is set, and at most a few times a second while it is running (play, or a drag).
+    clearTimeout(liveTimer); liveTimer = 0;
+    if (!live) { renderPanel(); buildOrbit(); }
+    else if (performance.now() - liveAt > 260) { liveAt = performance.now(); renderPanel(); buildOrbit(); }
+    else liveTimer = setTimeout(function () { liveTimer = 0; liveAt = performance.now(); renderPanel(); buildOrbit(); }, 260);
   }
+  var liveTimer = 0, liveAt = 0;
   slider.addEventListener("input", function () { stopPlay(); setYear(+slider.value, true); });
   slider.addEventListener("change", function () { setYear(+slider.value, false); });
   [].forEach.call(root.querySelectorAll(".pm-step"), function (b) { b.addEventListener("click", function () { stopPlay(); setYear(st.ah + +b.dataset.step, false); }); });

@@ -10,6 +10,7 @@
 // The map is a view over the one graph (AGENTS.md): places and their edges, nothing typed here but the twelve regions'
 // country lists and where each region's name sits.
 import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { feature, merge, mesh } from "topojson-client";
 import { geoContains, geoNaturalEarth1, geoPath } from "d3-geo";
 import { parse } from "yaml";
@@ -236,15 +237,15 @@ export function yearsText(n: GNode, lang: Lang): string {
 export function corePayload(lang: Lang) {
   const m = placeMapModel();
   const kinds = [...new Set(m.places.map((p) => p.kind))].sort();
-  const other: Lang = lang === "ar" ? "en" : "ar";
+  const others = (["ar", "en", "ur"] as Lang[]).filter((l) => l !== lang);
   return {
     v: 1,
     kinds,
-    // [slug, name, the name in the other main language (for search) or 0, x, y, region, kind, records tied to it, active years (flat pairs), 1 when the position is borrowed]
+    // [slug, name, its names in the other two languages joined by "|" (for search only: a reader of the Urdu page may type "Konya") or 0, x, y, region, kind, records tied to it, active years (flat pairs), 1 when the position is borrowed]
     places: m.places.map((p) => {
       const label = labelOf(p.node, lang);
-      const alt = p.node.label[other];
-      const row: (string | number | number[])[] = [p.slug, label, alt && alt !== label ? alt : 0, p.x, p.y, p.r, kinds.indexOf(p.kind), p.n, p.iv];
+      const alt = [...new Set(others.map((l) => p.node.label[l]).filter((x): x is string => !!x && x !== label))].join("|");
+      const row: (string | number | number[])[] = [p.slug, label, alt || 0, p.x, p.y, p.r, kinds.indexOf(p.kind), p.n, p.iv];
       if (p.approx) row.push(1);
       return row;
     }),
@@ -300,6 +301,26 @@ export function shards(lang: Lang): Shards {
   const out: Shards = { p: P.map((s) => ({ v: 1, types: s.t.types, ents: s.t.ents, places: s.places })), e: E.map((s) => ({ v: 1, types: s.t.types, ents: s.t.ents, full: s.full })) };
   shardCache.set(lang, out);
   return out;
+}
+
+const versions = new Map<Lang, string>();
+/**
+ * A short fingerprint of everything the script can fetch for a language. The page carries it and the script adds it to
+ * every request (`places.json?v=…`), so a page and its data always come from the same build: the Worker lets a browser
+ * keep a JSON file for a day and a page for an hour, and without this a reader could meet today's page with
+ * yesterday's places. It changes only when the data does, so the page's HTML changes only then.
+ */
+export function dataVersion(lang: Lang): string {
+  let v = versions.get(lang);
+  if (!v) {
+    const h = createHash("sha256");
+    h.update(JSON.stringify(corePayload(lang)));
+    const s = shards(lang);
+    for (const part of [...s.p, ...s.e]) h.update(JSON.stringify(part));
+    v = h.digest("hex").slice(0, 10);
+    versions.set(lang, v);
+  }
+  return v;
 }
 
 /** Every relation that can appear in those files, for the page's label table. */

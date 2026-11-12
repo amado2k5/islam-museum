@@ -11,7 +11,7 @@
 // Requirements: docs/engineering/19-islam-map-requirements.md. Review and decisions: docs/site/place-map-review.md.
 import { ui, NUM_LOCALE, type Lang } from "../lib/i18n";
 import { labelOf, realNodes } from "../lib/graph";
-import { allRelationTypes, dotPaths, ELSEWHERE, H, placeIndex, placeMapModel, REGION_IDS, relationLabels, SHARDS, W } from "../lib/place-map";
+import { allRelationTypes, dataVersion, dotPaths, ELSEWHERE, H, placeIndex, placeMapModel, REGION_IDS, relationLabels, SHARDS, W } from "../lib/place-map";
 import { wholeYears } from "../lib/place-map-core";
 
 interface Props { lang: Lang }
@@ -50,7 +50,7 @@ const staticNames = m.regions.map((r) => {
 const peak = Math.sqrt(Math.max(...m.bins, 1));
 const bars = m.bins.map((b, i) => { const h = Math.round(Math.max(0.6, (Math.sqrt(b) / peak) * 10) * 100) / 100; return { x: i + 0.1, y: Math.round((10 - h) * 100) / 100, h }; });
 const config = {
-  lang, dir: lang === "en" ? "ltr" : "rtl", base: `/${lang}/place-map/`, page: `/${lang}/`, W, H, home: m.home, core: m.core, shards: SHARDS,
+  lang, dir: lang === "en" ? "ltr" : "rtl", base: `/${lang}/place-map/`, v: dataVersion(lang), page: `/${lang}/`, W, H, home: m.home, core: m.core, shards: SHARDS,
   ahMin: m.ahMin, ahMax: m.ahMax, startAh: m.startAh, ce: m.ce, bins: m.bins,
   regions: [...m.regions.map((r) => ({ id: r.id, name: regionName(r.id), bbox: r.bbox, ax: r.ax, ay: r.ay, count: r.count })), { id: ELSEWHERE, name: regionName(ELSEWHERE), bbox: null, ax: 0, ay: 0, count: m.byRegion[REGION_IDS.length].length }],
   eras, kinds: V.kind, cls: T.class, rel: relationLabels(lang, allRelationTypes()), numLocale: NUM_LOCALE[lang], total,

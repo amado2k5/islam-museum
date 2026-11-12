@@ -139,9 +139,19 @@ Met: R1.1 to R1.4, R2.1 to R2.5, R3.2, R3.3, R4.1 to R4.4, R5.1 to R5.4, R6.1 to
 
 ### What a deploy uploads
 
-- The three Place pages, the two new files under `/shell/`, and 771 small JSON files under `/<lang>/place-map/` (3 × 257). **No Worker, wrangler or workflow file changes**: paths under `/ar/`, `/en/` and `/ur/` are already served from R2.
+- The three Place pages, the two new files under `/shell/`, and 771 small JSON files under `/<lang>/place-map/` (3 × 257). The page names the build its data belongs to and the script adds that name to every request (`places.json?v=…`), so a browser never pairs a new page with files it cached from an older deploy. **No Worker, wrangler or workflow file changes**: paths under `/ar/`, `/en/` and `/ur/` are already served from R2.
 - **No other page changes.** Compared file by file against a build of `main` at the same path: both entity pages, the courses page and the eight other wing pages are byte-identical in all three languages, and the hashed script names are the same.
 - That holds because the old Svelte component stays a build entry that no page draws. Taking it out renames the chunks it shares with the depth dial on every entity page. It should go, with the three packages only it uses (`motion`, `@floating-ui/dom`, `@lucide/svelte`), in a separate change labelled `rewrites-all-pages`. Decision dec-20261111-234.
+
+### Change-gate label: `submission-impacting`, waiting for the founder's sign-off
+
+`docs/ai-change-gates.md` section 3 names "anything that adds a cookie, a form, a script, a network call or analytics" as `submission-impacting`. This change adds one script file (`/shell/place-map.js`) and network calls the old page did not make: the script fetches static JSON files from the museum's own address (`/<lang>/place-map/places.json`, then one small file when a place or a record is opened). So the change carries that label, and it is the founder's to sign off. It was first described as `non-impacting`; a reviewer was right that the gate's own words cover it.
+
+What was checked against the filed claims (dossier A.5 and annex A, DPGA indicators 7 and 9a): no account, no cookie, no advertising, no third-party script or request, no storage on the reader's device, static files only, every page readable with JavaScript off. All of these still hold, and `scripts/place-map.test.ts` fails the build if the script ever requests anything but its own static JSON or stores anything.
+
+The claims register and the evidence map are reserved files (gate 8) and are **not edited in this pull request** until the founder signs off. The row proposed for the dossier's table A.6, for him to accept or change:
+
+> | Place wing map rebuilt (11 Nov 2026): the map's data moved out of the page's HTML into static JSON files beside it (`/{lang}/place-map/*.json`, built from the graph), fetched by a plain script on that page (`/shell/place-map.js`) | submission-impacting (a script and same-origin requests added) | None of the filed claims changes: no cookie, no storage, no third-party request, no server code; the page reads without JavaScript | Founder sign-off: _pending_ |
 
 **How to repeat the comparison** (a full build needs about 19 GB; this needs under 1 GB and about a minute a build). Copy `site/src` into a sibling folder at the same depth (so relative imports resolve), keep only the page files to compare (the wing page, the entity route cut down to two entities, the courses page: between them they carry every Svelte island), point a temporary Astro config at that folder with the real `astro.config.mjs` as its base, and run `astro build` into `.cache/`. Do it once on `main` and once on the change, **at the same path** (Astro derives hashed names from the source path), then `diff -rq` the two outputs. The first version of this method is `scripts/fable/scoped-build.sh` on the branch `fable-run/phase-7-verification`.
 
