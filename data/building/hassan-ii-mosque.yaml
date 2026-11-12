@@ -20,6 +20,9 @@ periods:
 - period/contemporary-era
 external_ids:
   wikidata: Q41346
+relations:
+- { type: located_in, target: place/casablanca, sources: [source/wikidata] }
+- { type: built_by, target: person/hassan-ii-of-morocco, sources: [source/wikidata] }
 sources:
 - source/wikidata
 importance: 1
