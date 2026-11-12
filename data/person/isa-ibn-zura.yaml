@@ -1,0 +1,37 @@
+id: person/isa-ibn-zura
+class: person
+label: { ar: "عيسى بن زرعة", en: "Isa ibn Zur'a", ur: "عیسیٰ بن زرعہ" }
+names:
+  - { value: "Ibn Zur'a", kind: alternate, lang: en }
+  - { value: "Abu Ali Isa ibn Ishaq ibn Zur'a", kind: full, lang: en }
+  - { value: "أبو علي عيسى بن إسحاق بن زرعة", kind: full, lang: ar }
+  - { value: "ابن زرعة", kind: alternate, lang: ar }
+summary:
+  ar: "أبو علي عيسى بن إسحاق بن زرعة فيلسوف يعقوبي مسيحي ومدافع عن عقيدته ومترجم، وُلد ببغداد في ذي الحجة 331هـ/أغسطس 943م وتوفي في 6 شعبان 398هـ/16 أبريل 1008م. درس الأدب والطبيعيات والرياضيات ثم الفلسفة على يحيى بن عدي، وترجم أو اختصر عن السريانية في الغالب عدة كتب لأرسطو أشهرها تاريخ الحيوان، وعمل بالتجارة مع بيزنطة، فاتُّهم لدى السلطة وصودرت أملاكه. ولم يبق من مصنفاته الكثيرة إلا ترجمة واحدة وعشر رسائل أو نحوها {cite:encyclopaedia-of-islam-2 vol. 3 p. 1011} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1012}."
+  en: "Abu Ali Isa ibn Ishaq ibn Zur'a was a Jacobite Christian philosopher, apologist and translator, born in Baghdad in Dhu l-Hijja 331/August 943 and dead on 6 Sha'ban 398/16 April 1008. He studied literature, physics and mathematics and then philosophy under Yahya ibn Adi, and translated or abridged, probably from Syriac, several works of Aristotle, above all the Historia Animalium. He also traded, particularly with Byzantium, was denounced to the authorities and lost his property. Of his many writings only one translation and about ten treatises survive {cite:encyclopaedia-of-islam-2 vol. 3 p. 1011} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1012}."
+  ur: "ابو علی عیسیٰ بن اسحاق بن زرعہ یعقوبی مسیحی فلسفی، اپنے مذہب کے مدافع اور مترجم تھے؛ وہ بغداد میں ذوالحجہ 331ھ/اگست 943ء میں پیدا ہوئے اور 6 شعبان 398ھ/16 اپریل 1008ء کو فوت ہوئے۔ انہوں نے ادب، طبیعیات اور ریاضی پڑھنے کے بعد یحییٰ بن عدی کی نگرانی میں فلسفہ پڑھا اور غالباً سریانی سے ارسطو کی کئی کتابوں کا ترجمہ یا اختصار کیا، جن میں سب سے مشہور تاریخ الحیوان ہے۔ وہ تجارت بھی کرتے تھے، خاص طور پر بازنطینی سلطنت کے ساتھ، حکام کے پاس ان کی شکایت کی گئی اور ان کا مال ضبط ہوا۔ ان کی بہت سی تصانیف میں سے صرف ایک ترجمہ اور دس کے لگ بھگ رسالے باقی ہیں {cite:encyclopaedia-of-islam-2 vol. 3 p. 1011} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1012}."
+gender: male
+roles: [philosopher, merchant, writer]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born: { edtf: "0943-08", hijri: "0331-12", calendar: julian, precision: month, status: tradition, derived: true, note: "Dhu l-Hijja 331 / August 943 per the Encyclopaedia of Islam article; the conversion is the article's {cite:encyclopaedia-of-islam-2 vol. 3 p. 1011}." }
+died: { edtf: "1008-04-16", hijri: "0398-08-06", calendar: julian, precision: day, status: tradition, derived: true, note: "6 Sha'ban 398 / 16 April 1008 per the Encyclopaedia of Islam article, which rejects the dates 371/981 and 448/1056 given by Ibn Abi Usaybi'a {cite:encyclopaedia-of-islam-2 vol. 3 p. 1011}." }
+relations:
+  - { type: student_of, target: person/yahya-ibn-adi, note: "Studied philosophy under his direction.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: born_in, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article Ibn Zur'a"
+  generated_by: "Claude Sonnet 5.5"
+  model: "claude-sonnet-5-5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 3, article Ibn Zur'a, Abu Ali Isa b. Ishaq (OCR pages 1011-1012)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "عيسى بن زرعة فيلسوف مسيحي من بغداد ترجم كتباً لأرسطو وكتب عن العقل والإيمان."
+  en: "Isa ibn Zur'a was a Christian thinker from Baghdad who translated books by Aristotle and wrote about reason and faith."
+  ur: "عیسیٰ بن زرعہ بغداد کے ایک مسیحی مفکر تھے جنہوں نے ارسطو کی کتابوں کا ترجمہ کیا اور عقل اور ایمان پر لکھا۔"

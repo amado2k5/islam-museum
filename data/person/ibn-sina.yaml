@@ -20,9 +20,9 @@ faith:
     sources: [source/britannica-avicenna, source/tdv-ibn-sina-alper]
 languages: [language/arabic, language/persian]
 summary:
-  en: Persian polymath (c. 980–1037) whose Canon of Medicine and Book of Healing shaped medicine and philosophy across the Islamic world and Europe for centuries.
-  ar: عالم موسوعي فارسي ⁦(نحو 980–1037م)⁩ أثّر كتاباه القانون في الطب والشفاء في الفلسفة في العالم الإسلامي وأوروبا قرونًا.
-  ur: "مسلمان طبیب اور فلسفی، قانون کے مصنف؛ ان کی ذاتی مسلکی نسبت مختلف فیہ ہے اور یہاں متعین آرا کے ساتھ بیان ہوتی ہے {cite:britannica-avicenna opening} {cite:tdv-ibn-sina-alper affiliation-discussion}۔"
+  en: "Persian physician and philosopher, born in 370/980 near Bukhara and died at Hamadan in 428/1037, who served several courts as physician and minister. His Canon of Medicine taught medicine in Europe and the Islamic world for centuries, and his Healing and other philosophical works shaped later thought, though the Encyclopaedia of Islam notes that many of his writings are lost. His personal confessional affiliation is debated and is set out in the perspectives below."
+  ar: "طبيب وفيلسوف فارسي وُلد سنة 370هـ/980م قرب بخارى وتوفي في همدان سنة 428هـ/1037م، وخدم عدة بلاطات طبيبًا ووزيرًا. كان كتابه القانون في الطب أساس تعليم الطب في أوروبا والعالم الإسلامي قرونًا، وأثّر الشفاء وسائر أعماله الفلسفية في الفكر اللاحق، مع أن دائرة المعارف الإسلامية تنبّه إلى ضياع كثير من كتاباته. وانتماؤه المذهبي الشخصي محل خلاف تعرضه وجهات النظر أدناه."
+  ur: "فارسی طبیب اور فلسفی، جو 370ھ/980ء میں بخارا کے قریب پیدا ہوئے اور 428ھ/1037ء میں ہمدان میں فوت ہوئے، اور کئی درباروں میں طبیب اور وزیر رہے۔ ان کی القانون فی الطب صدیوں تک یورپ اور اسلامی دنیا میں طب کی تعلیم کی بنیاد رہی، اور الشفاء اور دوسری فلسفیانہ تصانیف نے بعد کی فکر کو متاثر کیا، اگرچہ انسائیکلوپیڈیا آف اسلام بتاتا ہے کہ ان کی بہت سی تحریریں ضائع ہو چکی ہیں۔ ان کی ذاتی مسلکی نسبت مختلف فیہ ہے اور نیچے نقطہ ہائے نظر میں بیان ہوئی ہے۔"
 wings: [people]
 themes: [medicine, philosophy-and-logic, golden-age-and-decline]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -81,7 +81,7 @@ perspectives:
 inventions:
   - { invention: invention/ibn-sina-seven-drug-assessment-conditions, role: describer, note: "Seven conditions in Canon Book2, not inventor of all experimentation or modern clinical trials.", sources: [source/canon-ibn-sina-print-v1, source/nasser-tibi-savage-smith-canon-rules-2009] }
 external_ids: { wikidata: Q8011, viaf: "31996761" }
-sources: [source/gohlman-1974, source/gutas-2014, source/shadharat-dhahab, source/min-al-falsafa-al-yunaniyya-azhar, source/farghani-elements-astronomy, source/assabile-tareq-al-suwaidan, source/canon-ibn-sina-print-v1, source/nasser-tibi-savage-smith-canon-rules-2009, source/tdv-ibn-sina-alper, source/britannica-avicenna]
+sources: [source/gohlman-1974, source/gutas-2014, source/shadharat-dhahab, source/min-al-falsafa-al-yunaniyya-azhar, source/farghani-elements-astronomy, source/assabile-tareq-al-suwaidan, source/canon-ibn-sina-print-v1, source/nasser-tibi-savage-smith-canon-rules-2009, source/tdv-ibn-sina-alper, source/britannica-avicenna, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "عالج ابن سينا وهو في السادسة عشرة نوحَ بنَ منصور الساماني، فأذن له بمكتبة قصره فقرأها كلها."
@@ -99,6 +99,7 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "claude-haiku-5-5"
   run: "farghani-389-577"
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 3, article Ibn Sina, PDF pages 973-977, written by Claude Sonnet 5.5, run canon-cornerstones-20"
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b87", source: "D-129; actual Canon318–319/JRSM78–80, selected Alper and Britannica. Individual Muslim basis, qualified Sunni frame and reported contrary readings appended; all original fields/status/provenance/prose retained." }
   lead_deepened: "Lead section deepened to 150-250 words, Arabic and English, only from sources this record already cited (Grand Tour mission, run grand-tour-2026-11-11; Claude Code, claude-fable-5-2). AI text awaiting a human read; sentence-by-sentence evidence in docs/fable-run/prose-evidence/."

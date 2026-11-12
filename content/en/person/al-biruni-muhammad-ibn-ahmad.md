@@ -1,8 +1,8 @@
 ---
 id: person/al-biruni-muhammad-ibn-ahmad
 lang: en
-source_lang: ar
-translators: ["Claude Code (OCR-harvest worker I), claude-opus-5-5"]
+source_lang: en
+translators: []
 status:
   review: published
 provenance:
@@ -17,6 +17,39 @@ provenance:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "English translation of new Arabic mountain-method/identity sections from actual primary translation/Britannica/TDV; prior Claude translation/authorship retained" }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b39", source: "English translation of new Arabic displacement-vessel section from actual Khanikoff/Ansari/Yassi selected passages; prior Claude translation/authorship retained" }
 ---
+## Overview
+The Encyclopaedia of Islam article on al-Biruni, written by D. J. Boilot, introduces Abu al-Rayhan Muhammad ibn Ahmad al-Biruni as one of the greatest scholars of medieval Islam. The author adds his own judgement that he was also the most original and the most profound. He was at home in the mathematical, astronomical, physical and natural sciences, and distinguished himself as a geographer, historian, chronologist and linguist, and as what the article calls an impartial observer of customs and creeds. He is known as al-Ustadh, the Master. The article records that he was sometimes called by the nisba al-Khwarizmi, and that some modern orientalists use it too, at the risk of confusion with another scholar of that name. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1300}
+
+## Birth and early training
+According to the article, al-Biruni was born of an Iranian family in 362/973, in the suburb of [[place/kath-khwarazm|Kath]], the capital of [[place/khwarizm|Khwarizm]], a region in the delta of the Amu Darya. The Gregorian day given is 4 September, with the Islamic day cited from al-Ghadanfar as the third of Dhu al-Hijja. He spent his first twenty-five years in his homeland, where he was trained by masters such as the mathematician [[person/abu-nasr-mansur-ibn-iraq|Abu Nasr Mansur ibn Ali ibn Iraq]]. There he published a few early works and corresponded with [[person/ibn-sina|Ibn Sina]], the young prodigy of Bukhara, who was seven years his junior. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1300}
+
+The article says he seems to have visited the Samanid sultan [[person/mansur-ii-samani|Mansur II ibn Nuh]], who reigned 387 to 389/997 to 999, and whom he praised as his first benefactor. He then stayed for a long time at [[place/jurjan|Jurjan]], south-east of the Caspian Sea, apparently from 388/998, when the Ziyarid ruler Qabus ibn Wushmgir, called Shams al-Ma'ali, returned from exile. From there he was able to travel as far as [[place/rayy|Rayy]]. At the court of Jurjan he wrote his first great work, on calendars and eras, [[work/al-athar-al-baqiya|al-Athar al-baqiya]], probably around 390/1000 and dedicated to Qabus. The article adds that he made many later changes and additions to it, and cites Sachau's edition of 1878 and the English translation of 1879. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1300}
+
+## Language
+The article notes that he was raised in the Iranian dialect of Khwarizm and spoke Persian, yet deliberately chose Arabic for his scientific writing. It adds that some later works may have been written in Persian, or in Arabic and Persian together. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1300}
+
+## Return to Khwarizm
+The article reports that he returned to his own country before 399/1008 and was received by Prince Abu al-Hasan Ali ibn Ma'mun. He then served for seven years the prince's brother, the Khwarizmshah [[person/abu-al-abbas-mamun-ibn-mamun|Abu al-Abbas Ma'mun ibn Ma'mun]]. Because of what the article calls his golden and silver tongue, he was entrusted with delicate political missions. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1300}
+
+The article also mentions two colleagues. Ibn Sina is said to have left the Khwarizmian capital for Jurjan of his own will in 398/1008, together with the Christian physician Abu Sahl Isa ibn Yahya al-Masihi al-Jurjani. This physician collaborated closely with al-Biruni, even to the point of writing a series of works in his name, as did Abu Nasr. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1300}
+
+## Ghazna and India
+In 407/1016 to 1017 the Khwarizmshah was killed by his rebellious troops, and the country was then conquered by the Ghaznavid sultan [[person/mahmud-ghaznawi|Mahmud ibn Sebuktegin]]. In the spring of 408/1017 many prisoners were taken to [[place/ghazna|Ghazna]], among them learned men, including al-Biruni, Abu Nasr and the physician Abu al-Khayr al-Husayn ibn Baba al-Khammar al-Baghdadi. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1300}
+
+From then on al-Biruni was kept at the court of Ghazna, possibly as official astrologer, and he accompanied Mahmud on several military expeditions to north-west India. The article says that he taught the Greek sciences there and received in exchange an initiation into Sanskrit and various dialects, and an immense body of knowledge. He put it into his description of India, [[work/kitab-al-hind|Tahqiq ma li-l-Hind]], completed in 421/1030, shortly after Mahmud's death. The article cites Sachau's edition of 1887 and his English translation of 1888. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1300}
+
+## The Tafhim, the Qanun and the later years
+The year before, the article says, he had written a summary of geometry, arithmetic, astronomy and astrology, al-Tafhim li-awa'il sina'at al-tanjim, which Ramsay Wright edited with an English translation in 1934. His third principal work, [[work/al-qanun-al-masudi|al-Qanun al-Mas'udi]] on astronomy and the stars, was dedicated in 421/1030 to Sultan [[person/masud-ibn-mahmud|Mas'ud ibn Mahmud]], who ruled from 421 to 432/1030 to 1041. Al-Biruni reserved the right to add finishing touches later. The article cites Yaqut for the story that Mas'ud offered the author an elephant-load of silver coins for it, which al-Biruni refused, and says that he was nevertheless provided with the means to carry on his scientific and literary work to the end of his life. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1300}
+
+In the reign of Sultan [[person/mawdud-ibn-masud|Mawdud ibn Mas'ud]], 432 to 441/1041 to 1049, he wrote the treatise on mineralogy that has survived, al-Jamahir fi ma'rifat al-jawahir, edited by Krenkow in 1936. His last important work, still unpublished when the article was written, was the Saydala on medicinal drugs, in which he declared himself to be over eighty lunar years old. For this reason the article says that the usual date of death, 440/1048 according to al-Ghadanfar, must be put back a little, and that he must have died after 442/1050. The place named next in the article is cut off in the OCR text. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1300}
+
+## The scale of his writings
+The article says that the total number of his works is considerable. In a risala on the writings of Muhammad ibn Zakariyya al-Razi, edited by Kraus, he included in 427 a list of his own writings, of which, the article says, 103 were completed, a number of others unfinished, twelve written in his name by Abu Nasr, twelve by Abu Sahl, and one by another collaborator. Counting other lists and certain omissions, the article puts the total at 180 works, ranging from short treatises on specialised matters to major works covering vast fields of knowledge. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1301}
+
+Among the shorter pieces the article lists four mathematical and astronomical treatises printed together at Hyderabad in 1948 as Rasa'il al-Biruni, including Ifrad al-maqal fi amr al-zilal and Fi rashikat al-Hind. A separate volume, Rasa'il Abi Nasr ila al-Biruni, includes fifteen treatises by Abu Nasr, most of them written in al-Biruni's name. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1301}
+
+About twenty other works survive in manuscript, some partly edited and some not. The article names among them Tahdid nihayat al-amakin, whose manuscript Fatih 3386, completed at Ghazna in 416, is possibly in his own hand. It also names [[work/biruni-istiab-astrolabe|Istiab al-wujuh al-mumkina fi san'at al-asturlab]] on the construction of the astrolabe, a work on specific gravities, and a translation of the Book of Patanjali. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1301}
+
 ## Summary
 Abu al-Rayhan Muhammad ibn Ahmad al-Biruni was one of the great astronomers, mathematicians, geographers and historians of his age, born on the outskirts of Khwarazm (Kath) in 362 AH (973 CE). {cite:mawsuat-a3lam-ulama-adaba} {cite:kashf-zunun-furqan} The editor of al-Qanun al-Mas'udi gives his birth as 2 Dhu al-Hijja 362, 4 September 973, in a village outside Kath, the capital of Khwarazm, to an obscure family. {cite:qanun-masudi-jundi-v1 p. 12} The encyclopaedia record gives his death as 442 AH {cite:mawsuat-a3lam-ulama-adaba}, while the title page of the Qanun edition gives 440 AH. {cite:qanun-masudi-jundi-v1 p. 2}
 

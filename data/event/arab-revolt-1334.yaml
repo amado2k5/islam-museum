@@ -3,8 +3,9 @@ class: event
 kind: revolt
 label: { ar: "الثورة العربية الكبرى", en: "The Arab Revolt" }
 summary:
-  ar: "بطاقة أولية للثورة العربية الكبرى، حركة الشريف حسين بن علي في الحجاز ضد الدولة العثمانية أثناء الحرب العالمية الأولى بدءاً سنة ١٩١٦م؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for the Arab Revolt, Sharif Husayn ibn Ali's Hejazi rising against the Ottoman state during the First World War beginning in 1916; its sources are not yet checked on the page."
+  ar: "الثورة العربية الكبرى انتفاضة أعلنها الشريف الحسين بن علي شريف مكة على الحكم العثماني في الحجاز يوم 10 يونيو 1916م أثناء الحرب العالمية الأولى، بعد مفاوضات مع البريطانيين ومع جمعيات عربية سرية. قاد ابنه فيصل جيوشها نحو سنتين، وبلغ دمشق في أكتوبر 1918م. وتصفها مداخل دائرة المعارف الإسلامية وصفًا مختلفًا، فتراها حركة عربية أو انتفاضة أسرية انفصالية أو حركة شجعتها بريطانيا."
+  en: "The Arab Revolt was the rising proclaimed by Sharif Husayn ibn Ali of Mecca against Ottoman rule in the Hijaz on 10 June 1916, during the First World War, after talks with the British and with secret Arab societies. His son Faysal commanded its armies for about two years and reached Damascus in October 1918. The Encyclopaedia of Islam describes it differently in different entries, as an Arab movement, a dynastic separatist rising, or a movement encouraged by Britain."
+  ur: "عرب بغاوت وہ تحریک تھی جس کا اعلان مکہ کے شریف حسین بن علی نے پہلی جنگ عظیم کے دوران 10 جون 1916ء کو حجاز میں عثمانی حکومت کے خلاف کیا، برطانویوں اور خفیہ عرب انجمنوں سے بات چیت کے بعد۔ ان کے بیٹے فیصل نے تقریباً دو سال اس کی فوجوں کی قیادت کی اور اکتوبر 1918ء میں دمشق پہنچے۔ دائرۃ المعارف اسلامیہ کے مضامین اسے مختلف طرح بیان کرتے ہیں: عرب تحریک، خاندانی علیحدگی پسند بغاوت، یا برطانیہ کی شہ پر اٹھنے والی تحریک۔"
 wings: [time]
 periods: [period/modern-era]
 regions: [arabia]
@@ -26,7 +27,7 @@ relations:
 sides:
   - label: { ar: "جيش الثورة العربية بقيادة الشريف حسين وفيصل", en: "The Arab Revolt under Sharif Husayn and Faisal" }
   - label: { ar: "الجيش العثماني", en: "The Ottoman army" }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q239060
 provenance:
@@ -35,5 +36,6 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  canon: "Encyclopaedia of Islam 2nd ed., no single article; entries Hashimids (vol. 3 PDF p. 283), Abd Allah b. al-Husayn (vol. 1 p. 65), Faysal I (vol. 2 p. 910), Djam'iyya (vol. 2 p. 454), Djemal Pasha (vol. 2 p. 558), Enwer (vol. 2 p. 729), Kawmiyya (vol. 4 p. 820), Maysalun (vol. 6 p. 945) and others, written by Claude Sonnet 5.5, run canon-cornerstones-20"
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

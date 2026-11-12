@@ -1,7 +1,7 @@
 ---
 id: practice/dua
 lang: en
-source_lang: ar
+source_lang: en
 translators: []
 ---
 ## Overview
@@ -15,6 +15,40 @@ Every istighfar is du'a, not every du'a istighfar; dhikr in its widest sense inc
 
 ## Ruling
 Al-Nawawi: the chosen doctrine of the jurists, hadith scholars and the mass of the learned is that du'a is recommended; it can be obligatory, like the supplication inside al-Fatiha in prayer and the janaza supplication. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8103}
+
+## Du'a in the Encyclopaedia of Islam: meaning and scope
+The Encyclopaedia of Islam, second edition, defines du'a as an appeal or invocation addressed to God, made for another person or for oneself, or else against someone. It therefore covers a prayer calling for blessing as well as one of imprecation and cursing, and the article connects the practice to the effective force given to the spoken word. In the general sense it is personal prayer addressed to God, often rendered as a prayer of request. {cite:encyclopaedia-of-islam-2 vol. 2 p. 644}
+
+## The Qur'anic usage
+According to the article, in the Qur'an the word always keeps its original meaning of invocation or appeal. It describes the human being who turns to God in affliction, and it is used for two kinds of prayer: that of earlier righteous people and prophets, and that of the unbelievers. In the first case God hears and answers, as with [[person/ibrahim|Abraham]] and with [[person/zakariyya|Zachariah]]; in the second the prayer is said to be in vain, and the false gods hear nothing of what is addressed to them. The article also notes a shade of meaning in one verse where the word stands for any relation of the human being to God, and another passage that sets ritual prayer, which is performed, beside du'a, which is a personal invocation. {cite:encyclopaedia-of-islam-2 vol. 2 p. 644}
+
+## Du'a, ritual prayer and dhikr
+Many hadiths speak of du'a, and the article says traditionists and jurists define its significance, the main ones being gathered by [[person/al-ghazali-abu-hamid|al-Ghazali]] in [[work/ihya-ulum-al-din|Ihya' 'ulum al-din]]. It stresses that du'a must be distinguished from ritual or liturgical prayer, yet warns against reducing the difference to fixed vocal prayer on one side and mental prayer on the other. It cites a scale of values proposed by [[person/ibn-taymiyya|Ibn Taymiyya]]: ritual prayer is a higher kind than Qur'an recitation, recitation is higher than [[practice/dhikr|dhikr]], and dhikr is higher than individual invocation. In the article's view, inward prayer is suggested rather by dhikr and meditation, whereas du'a always carries the idea of a formulated request, whether beneficent or imprecatory. {cite:encyclopaedia-of-islam-2 vol. 2 p. 644}
+
+## Forms of request and the conditions of du'a
+The article says the request can vary widely with circumstances and can take a communal form. The wording is free, though Qur'anic texts or existing traditional prayers are likely to be used. It then summarises what treatises recommending du'a, especially Sufi ones, lay down as conditions and manners, drawing on the handbook of [[person/al-bajuri-ibrahim-ibn-muhammad|al-Bajuri]]. {cite:encyclopaedia-of-islam-2 vol. 2 p. 644}
+
+The conditions listed are: eating only lawful food, praying with conviction that the prayer will be answered, not being distracted during it, and not asking for something that leads to a sinful act, causes enmity between relatives, harms the rights of Muslims, or is impossible. The manners listed are: choosing the best times, with al-Bajuri suggesting prostration, the moment of standing for the iqama, or the call to prayer; preceding the du'a with [[practice/wudu|ablution]] and ritual prayer and with a confession of faults and repentance; turning toward the [[concept/qibla|qibla]]; raising the hands toward heaven; and pronouncing praise of God and the blessing on the Prophet at the beginning, in the middle and at the end. {cite:encyclopaedia-of-islam-2 vol. 2 p. 644}
+
+The article describes these recommendations as largely advisory, and says they aim to give the prayer the best chance of being accepted by God, adding to the power of the word the effects of legal purity and of gesture. {cite:encyclopaedia-of-islam-2 vol. 2 p. 644}
+
+## Fixed ritual forms
+Where the object of the du'a concerns the common good of the community, the article says it takes a set ritual form recognised by all, using the procedure of ritual prayer. Its chief example is the prayer for rain, [[practice/salat-al-istisqa|istisqa']], for which the du'a is preceded by a ritual prayer of two rak'as, two sermons and the rite of turning the cloak. It adds that the prayer for the dead, made communally and often during the sessions of the brotherhoods, also follows various regulations. {cite:encyclopaedia-of-islam-2 vol. 2 p. 644}
+
+## Raising the hands
+The article says texts that widely recommend du'a speak constantly of ablution and of raising the hands, and rely on hadith for both; it notes that this last point is a matter of discussion. According to the article, [[person/al-nasai|al-Nasa'i]] and [[person/ahmad-ibn-hanbal|Ibn Hanbal]] accept the raising of the hands only in the du'a of the prayer for rain. See also [[practice/raf-al-yadayn-fil-salah|raising the hands in prayer]]. {cite:encyclopaedia-of-islam-2 vol. 2 p. 644}
+
+## Devotional use
+The article describes Islamic devotional trends as treating du'a chiefly as a prayer of request for well-being, above all the public good of the Muslim community and the spiritual welfare of oneself and others. It says beautiful du'a texts are not rare and are found mingled with the liturgies of hizb and wird in the handbooks of the religious brotherhoods, so that du'a becomes less an appeal of invocation or imprecation than an appeal trusting in divine mercy. It adds that pronouncing the divine Names can turn either into the measured repetition of dhikr or into a du'a that ties each request to a Name and attribute, and names a monograph by Muhammad 'Ali Khan al-Bukhari on this theme. In this sense du'a becomes an equivalent of the spiritual impulse toward God. {cite:encyclopaedia-of-islam-2 vol. 2 p. 645}
+
+## Questions raised in kalam and falsafa
+The article proposes that the incantatory value of word and gesture was probably the first consideration in the idea of du'a, rooted in a Semitic understanding of the relation of the human being to the holy, and that Hellenistic influence led theology and philosophy to ask how a prayer of request could be effective before God's almighty power and decree. It gives three typical positions. {cite:encyclopaedia-of-islam-2 vol. 2 p. 645}
+
+The [[group/mutazila|Mu'tazila]], it says, deny the usefulness of the prayer of request, since in their view it would detract from God's pure transcendence: the human being, as creator of his own acts, has no need to ask God to favour them, and the divine command to invoke Him asks for an attitude of adoration, while the promise to hear is a just reward for a rationally good act. {cite:encyclopaedia-of-islam-2 vol. 2 p. 645}
+
+The [[concept/ashariyya|Ash'ari]] school, centred on God's absolute and free will, restores du'a to its traditional value. The article presents the funeral prayer as a du'a asking God's mercy if He wills, and says the imprecatory side is not forgotten, citing a hadith reported from [[person/anas-ibn-malik|Anas]] that the du'a of one who suffers injustice is answered, even if he is an unbeliever. A prayer may be answered as asked, after a delay known to God, or by something different of greater benefit. The article notes that Ash'ari manuals pose the problem of reconciling effective du'a with predetermination and decree, and that one answer distinguishes a fixed predetermination from a suspended, conditional one: in the latter the du'a itself enters the conditions that determine whether an event occurs, while in the former it cannot change God's will, though God still grants favour to the one who implores. See also [[concept/qadar|qadar]]. {cite:encyclopaedia-of-islam-2 vol. 2 p. 645}
+
+The philosophers, it continues, include du'a in their universal determinism. In the article's account of [[person/ibn-sina|Ibn Sina]], the answer to a request results from the cooperation of earthly dispositions and celestial causes; the invocation acts as a psychic influence on the celestial spheres, which also prompt people to pray, so that prayers, especially for rain, prove useful. The article observes that this cosmological reading does not reflect the most common view, in which the pious believer's du'a joins the person praying to God, not to the spheres, and draws on the familiar idea of the power of a name over the one named. It closes by saying these rational justifications show the importance of du'a in the religious life of Islam. {cite:encyclopaedia-of-islam-2 vol. 2 p. 645}
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
 
