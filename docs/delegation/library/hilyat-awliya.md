@@ -77,3 +77,9 @@
 
 ## Batch 14 (run microsd-books-b22, Claude Code / claude-fable-5-2)
 - Pages read: vol. 9 pp. 344–349. Enriched `person/dhu-al-nun-al-misri` (456, to 9/349). Unclear OCR at 9/344 (the woman at the crops) rendered only in its clearest sense. Notice continues from 9/350.
+
+## Batch 15 (run microsd-books-b23, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 350–355. Enriched `person/dhu-al-nun-al-misri` (456, to 9/355). A Qur'an verse on 9/353 is referred to, not quoted (Qur'an text is never typed). Notice continues from 9/356.
+
+## Batch 16 (run microsd-books-b24, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 356–361. Enriched `person/dhu-al-nun-al-misri` (456, to 9/361). Notice continues from 9/362.

@@ -52,3 +52,35 @@ Abu Nu'aym continues Dhu al-Nun's anecdotes and sayings on pages 344–349 of th
 **Refused prayer.** He related that he heard al-Hasan say he did not fear for them that their prayers would be refused, but that they would be refused the ability to pray. He said that a pure nature needs only the scent of greatness, and that wisdom is a pointer to it. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/347}}
 
 **In the wilderness of the Children of Israel.** Sa'id ibn Uthman relates that he was with Dhu al-Nun in the desert of the Children of Israel when a woman approached. Dhu al-Nun said that no one sets foot in that place except a truthful one. When he greeted her she said: what has a man to do with mixing with women? He said: I am your brother Dhu al-Nun, and I am beyond suspicion. She welcomed him, and asked by what means he had come to know God so that he knew Him. He answered that he saw a Beloved: when he drew near, the Beloved drew him near; when he called, the Beloved answered; when he slackened, the Beloved urged him on; when he obeyed, the Beloved increased him; and when he disobeyed, the Beloved bore with him patiently. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/348-349}}
+
+## In Hilyat al-Awliya (third continuation)
+Abu Nu'aym continues Dhu al-Nun's sayings on pages 350–355 of the ninth volume. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/350-355}}
+
+**The marks of people of certainty.** He describes a company who crossed the valleys of doubt by certainty, sought help in the obligations through knowledge, proved the corruption of their hopes by gnosis, fled from the loneliness of heedlessness, clothed themselves in knowledge to guard against ignorance, passed through the darkness of the night, refuted the arguments of innovators by following the Sunna, and hastened to leave what is disliked before the chance is lost. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/350}}
+
+**Keeping company with the knower.** He said that keeping company with the knower is like keeping company with God: he bears with you and forbears toward you, imitating God's beautiful qualities. Asked about the dhimmi and the hanif, he said the hanif is more fit for forbearance, pardon and patience. Asked how he was in the morning, he said: I am in weariness; if my weariness leaves me, death is seeking me. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/351}}
+
+**Seeking wisdom.** He said that whoever has reached the road to the next world should ask wise men often and consult them, and that the first thing to ask about is the intellect, since all things are reached only by the intellect; if you want to serve God, understand first and then serve. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/352}}
+
+**Withdrawal from people and from the self.** A man of Basra asked him when withdrawal from creatures would be sound for him; he said: when you are strong in withdrawing from your own self. Asked when his seeking of asceticism would be sound, he said: when you are ascetic toward your own self. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/352}}
+
+**The party of God.** He said that God tests them until their minds, joints and hearts have no room for love of anyone else; they belong wholly to Him, and He belongs to them in this world and the next; He is pleased with them and they with Him; He loves them and they love Him. When a verse about the party of God was recited, Dhu al-Nun cried out and asked where these people are and how one reaches them. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/353}}
+
+**Signs of the next world in God.** Yusuf ibn al-Husayn asked him the sign of the next world in God. He said there are three: clarity, mutual help and fidelity; clarity in religion, mutual help in sharing, and fidelity in affliction. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/354}}
+
+**An old man in the mountains of Syria.** He tells that he was travelling among the mountains of Syria when he found an old man on a hillock, his eyebrows fallen over his eyes from age. He greeted him, and a short exchange followed; the old man recited verses on the love of God, and Dhu al-Nun left with a heavy heart. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/355}}
+
+## In Hilyat al-Awliya (fourth continuation)
+Abu Nu'aym continues Dhu al-Nun's sayings and anecdotes on pages 356–361 of the ninth volume. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/356-361}}
+
+**Bad manners.** Asked for the sign of bad manners, he said: much disputing. He related from Ja'far ibn Muhammad that the base man is one who does not mind what is said of him or what he says. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/356}}
+
+**A visit to a woman worshipper.** He went in to a woman who worshipped, and asked how she was in the morning. She said that she had risen from the world, hurrying toward departure and preparing for the terror of the day of crossing; she acknowledged her shortfall in thanking God for His favours and her inability to count them. In her words was the point that a self which sells the next world for this one has no claim to a condition. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/356-357}}
+
+**Exhortations and reproach of the self.** On pages 357–358 comes a long form of reproach and address to God: to whom has God guaranteed victory in this world and the next, so that he should seek help from one as helpless as himself? Who has God undertaken to provide for in sickness and health, so that he should seek provision from others by disobeying Him? Who knows his own worlds and yet, from ignorance, prefers the passing to the lasting? These are questions put to the heedless self. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/357-358}}
+
+**Drawing hearts.** He said that heedless hearts are gathered by intellect, that eyes are drawn by a beautiful voice, that favour is won by success, that life is made sweet by the company of the righteous, and that all good is gathered in the righteous companion. He said that whoever longs for intimacy with God finds rest in Him, and whoever finds rest in Him has his night, his day, his secret and his public life in delight. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/359-360}}
+
+**The house of peace.** He said that God has servants whom He settled in the house of peace; they keep their bellies clear of forbidden food, shut their eyes on the sights of sin, and bind their limbs from idle talk and from action at the wrong time. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/360}}
+
+**Joy and grief in the knower.** Asked which of the two states dominates the knower's heart, joy or grief and sorrows, he said that in his understanding there is no state pointed to apart from another, and no cause apart from another. He gave the image of the knower in this world as a man crowned with the crown of honour and seated on a throne in a house, with a sword hung above his head by a thread. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/361}}
