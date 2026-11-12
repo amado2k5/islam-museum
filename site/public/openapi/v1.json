@@ -447,6 +447,21 @@
         }
       }
     },
+    "/hudud.json": {
+      "get": {
+        "operationId": "getHudud",
+        "summary": "Hudud Allah and Kaba'ir Browser dataset",
+        "description": "The Hudud Allah and Kaba'ir Browser dataset (متصفح حدود الله والكبائر): every mention of the limits of God, the fixed penalties (stoning, flogging, the amputated hand, discretionary punishment and their crimes) and the major sins in the Qur'an, Sunnah, seerah and harvested books — detected at build time plus the curated records tagged hudud-browser, each with its corpus section (quran, sunnah, seerah, books, curated), hudud_kind (hudud or kabair), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every hudud and kaba'ir record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/hisab.json": {
       "get": {
         "operationId": "getHisab",
