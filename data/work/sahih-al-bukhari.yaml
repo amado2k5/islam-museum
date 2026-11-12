@@ -9,8 +9,9 @@ class: work
 kind: book
 label: { ar: "صحيح البخاري", en: "Sahih al-Bukhari" }
 summary:
-  ar: "الجامع المسند الصحيح المختصر من أمور رسول الله وسننه وأيامه لمحمد بن إسماعيل البخاري الجعفي {cite:sahih-al-bukhari-bugha p.1}."
-  en: "The Jami' al-Musnad al-Sahih of Muhammad ibn Isma'il al-Bukhari al-Ju'fi {cite:sahih-al-bukhari-bugha p.1}."
+  ar: "الجامع المسند الصحيح المختصر من أمور رسول الله وسننه وأيامه لمحمد بن إسماعيل البخاري الجعفي {cite:sahih-al-bukhari-bugha p.1}. تصفه دائرة المعارف الإسلامية بأنه أشهر مؤلفاته، ويضم 97 كتابًا و3450 بابًا وفيه 7397 خبرًا بأسانيد كاملة، أو 2762 دون المكرر، مرتبة بحسب الموضوعات وفي الغالب على أبواب الفقه. صار مع صحيح مسلم في صدر مجاميع الحديث السني، ويعدّه أكثر أهل السنة أهمّ كتاب بعد القرآن، وللعيني وابن حجر والقسطلاني شروح عليه."
+  en: "The Jami' al-Musnad al-Sahih of Muhammad ibn Isma'il al-Bukhari al-Ju'fi {cite:sahih-al-bukhari-bugha p.1}. The Encyclopaedia of Islam calls it his most famous work: 97 books and 3,450 chapters holding 7,397 reports with full chains, or 2,762 without repetitions, arranged by subject and in the main by the divisions of jurisprudence. It came to stand with Muslim's Sahih at the head of Sunni hadith collections, most Sunnis rank it the most important book after the Qur'an, and al-Ayni, Ibn Hajar and al-Qastallani wrote commentaries on it."
+  ur: "الجامع المسند الصحیح المختصر من امور رسول اللہ وسننہ وایامہ محمد بن اسماعیل بخاری الجعفی کی کتاب ہے {cite:sahih-al-bukhari-bugha p.1}۔ اسلامی انسائیکلوپیڈیا اسے ان کی سب سے مشہور تصنیف کہتا ہے: 97 کتابیں اور 3450 ابواب جن میں مکمل اسناد کے ساتھ 7397 روایات ہیں، یا تکرار کے بغیر 2762، جو موضوع کے لحاظ سے اور زیادہ تر فقہ کے ابواب پر ترتیب دی گئی ہیں۔ یہ مسلم کی صحیح کے ساتھ سنی مجموعوں میں سرِ فہرست ٹھہری، بیشتر اہلِ سنت اسے قرآن کے بعد سب سے اہم کتاب مانتے ہیں، اور عینی، ابن حجر اور قسطلانی نے اس کی شروح لکھیں۔"
 genre: [hadith]
 made: { by_muslims: true, basis: documented, sources: [source/sahih-al-bukhari] }
 authors: [person/al-bukhari]
@@ -20,9 +21,9 @@ themes: [scripture-and-its-sciences]
 regions: [arabia]
 relations:
   - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sahih-al-bukhari] }
-provenance: { layer: own-research, source: "Sahih al-Bukhari source record (Deoband 1384–1387 AH edition)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+provenance: { layer: own-research, source: "Sahih al-Bukhari source record (Deoband 1384–1387 AH edition)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1", canon: "Encyclopaedia of Islam 2nd ed., vol. 1 al-Bukhari, Muhammad b. Isma'il, PDF pp. 1360-1361, and vol. 3 Hadith, PDF pp. 32-36, written by Claude Sonnet 5.5, run canon-cornerstones-21" }
 external_ids:
   wikidata: Q1023470
-sources: [source/sahih-al-bukhari, source/manhaj-tawthiq-al-sunna-azhar, source/sunnah-com, source/assabile-abu-ishaq-alheweny]
+sources: [source/sahih-al-bukhari, source/manhaj-tawthiq-al-sunna-azhar, source/sunnah-com, source/assabile-abu-ishaq-alheweny, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }

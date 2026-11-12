@@ -1,8 +1,8 @@
 ---
 id: work/sunan-al-nasai
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
 "Al-Sunan", known as the Lesser Sunan, by Ahmad ibn Shu'ayb [[person/al-nasai|al-Nasa'i]] (215–303 AH). It is one of the [[concept/kutub-al-sitta|Six Books]]. {cite:sunan-al-nasai}
@@ -11,6 +11,19 @@ He is well known for his attention to the defects of hadiths and the errors of t
 
 ## Structure and size
 Sunnah.com gives Sunan al-Nasa'i as roughly 5,700 hadith (counting repetitions) in 52 books {cite:sunnah-com nasai}.
+
+## The author, as the Encyclopaedia of Islam presents him
+The Encyclopaedia of Islam entry calls [[person/al-nasai|al-Nasa'i]] the author of one of the six canonical collections of traditions and gives his birth as 215/830 and his death as 303/915. It says that very little is known about him. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}
+
+According to the entry, he is said to have travelled widely to hear traditions, to have settled first in [[place/misr|Egypt]] and afterwards in [[place/damascus|Damascus]], and to have died as a result of ill-treatment suffered either at Damascus or, in other accounts, at [[place/ramla|Ramla]]. The entry reports that this was attributed to his feelings in favour of [[person/ali-ibn-abi-talib|Ali]] and against the [[polity/umayyad-caliphate|Umayyads]]. Because of this violent end he is called a martyr, and the entry gives his tomb as being at [[place/mecca|Mecca]]. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}
+
+## Arrangement and contents of the collection
+The entry describes his collection of traditions as divided into 51 chapters, each subdivided into babs. This differs from the figure of 52 books quoted above from Sunnah.com, and the two counts are set side by side here without a verdict. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}
+
+As to subjects, the entry says that considerable space goes to traditions on the ceremonial duties, the acts of worship. It notes that the chapters headed ihbas, nuhl, rukba and umra, which deal with forms of bequest and donation, do not occur in any of the other collections, although part of their material appears there under other headings. On the other hand, the entry observes that chapters on eschatology, such as those on tribulations and the resurrection, on the recounting of virtues, and on the Qur'an are lacking. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1024}
+
+## Other works attributed to him
+The entry cites Sezgin, with a cross-reference to Brockelmann, for nine other works by al-Nasa'i, either extant or known from citations, in addition to his collection of traditions. They include a work on the virtues of Ali, the Kitab al-Khasa'is fi fadl Ali b. Abi Talib, which the entry says was printed at Cairo in 1308/1890-1, and a work on weak and unreliable transmitters of traditions, the Kitab al-Du'afa' wa l-matrukin, printed in 1323/1905-6 and also at Allahabad. The entry also lists a Tasmiyat fuqaha' al-amsar and a commentary on the Qur'an. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1024}
 
 ## In «Asdaf al-Lu'lu'» by Abu Ishaq al-Heweny
 [[person/abu-ishaq-al-heweny|Abu Ishaq al-Heweny]] relates that during his military service he was in Shaykh Hamid Ibrahim's library when the shaykh pointed him to [[work/sunan-ibn-majah|Sunan Ibn Majah]] and then to Sunan al-Nasa'i, asking him to do a takhrij of their hadiths and leave a copy for the library's readers; he left Ibn Majah and took up al-Nasa'i. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep09 00:26:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep11 00:10:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep11 00:11:00} This became his book «Badhl al-Ihsan bi-Taqrib Sunan al-Nasa'i Abi Abd al-Rahman». He says he took the title from the name of a project al-Albani had written down for himself, that it was "a beginner's work" in which he played with calligraphy, and that he sent his handwritten copy as a gift to Shaykh Muhammad Amr Abd al-Latif, but the messenger could not find him and brought it back. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep11 00:11:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep11 00:12:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep11 00:13:00} Two volumes were published; he later reached the Book of Funerals in about twelve unpublished volumes, and when he revised it the first two volumes became four. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep11 00:11:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep23 00:23:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:26:30}

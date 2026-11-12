@@ -1,9 +1,33 @@
 ---
 id: concept/tawhid
 lang: en
-source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+source_lang: en
+translators: []
 ---
+
+## Overview
+In the strict sense, tawhid is the act of believing and affirming that God is one and unique, that is, monotheism. The Encyclopaedia of Islam article says that for a Muslim it means affirming what the first article of the profession of faith states, that there is no god but God. That first testimony is therefore often called the word of tawhid, and the name Tawhid is sometimes given to [[passage/quran-112|sura 112]], which declares God to be one and without equal {cite:encyclopaedia-of-islam-2 vol. 10 p. 411}.
+
+## The word and the Qur'an
+The article notes that the noun tawhid does not occur in the Qur'an, nor does the verb wahhada, yet the principle that God is single is proclaimed there many times. It counts thirteen places where God is called a sole divinity and twenty-nine where it is said of Him that there is no divinity other than He, besides other formulas of the same meaning. These statements are most often aimed at the polytheist associators, on which see [[concept/shirk|shirk]]. Some are aimed at Christians, at Jews or at dualists, and the article gives the references as IV, 171, V, 73, IX, 31 and XVI, 51 {cite:encyclopaedia-of-islam-2 vol. 10 p. 411}.
+
+## Rational proof of God's oneness
+According to the article, theologians were not content to cite these verses and took pains to show God's oneness by reason. Their main argument is called reciprocal hindrance. If there were two gods, a conflict of wills would sooner or later arise between them. Two contrary wills cannot both be carried out at once, so either one of the two or both would have to admit powerlessness in that case, and a powerless being cannot be a god. The article adds that this argument's premisses are claimed to be visible in Qur'an XXI, 22 {cite:encyclopaedia-of-islam-2 vol. 10 p. 411}.
+
+## Ahl al-tawhid as a name for Muslims
+Because the profession of monotheism marks Islam, some authors have used the expression ahl al-tawhid for the whole body of Muslims. The article names the Sunni traditionalist [[person/ibn-khuzayma|Ibn Khuzayma]] and the Imami [[person/al-shaykh-al-mufid|al-Shaykh al-Mufid]], who also uses the variant muwahhidun, and it adds [[person/al-ashari|al-Ash'ari]] in his Maqalat {cite:encyclopaedia-of-islam-2 vol. 10 p. 411}.
+
+The article also records that some movements claimed to represent strict monotheism better than others and kept the expression for themselves. The [[group/mutazila|Mu'tazila]] called themselves ahl al-tawhid wa-l-adl and sometimes simply ahl al-tawhid. The Almohads, the muwahhidun, followers of the mahdi [[person/ibn-tumart|Ibn Tumart]], did the same, and for them see [[polity/almohad-caliphate|the Almohad caliphate]] {cite:encyclopaedia-of-islam-2 vol. 10 p. 411}.
+
+## Tawhid in Sufi writing
+In Sufi literature the article says tawhid prompted intense speculation and passed from a simple concept to a spiritual experience. A well-known text of [[person/al-junayd-ibn-muhammad|al-Junayd]] distinguishes four steps. The first is the simple attestation of oneness, which suffices for ordinary believers. The last is the highest rank, reserved for an elite, in which the creature wholly ceases to exist before his Lord and so reaches fana in tawhid, on which see [[concept/fana-sufi|fana]]. In the Ihya, [[person/al-ghazali-abu-hamid|al-Ghazali]] proposes a classification that the article calls in part comparable. For Sufi views of tawhid the article points in particular to the [[work/al-risala-al-qushayriyya|Risala]] of al-Qushayri {cite:encyclopaedia-of-islam-2 vol. 10 p. 411}.
+
+## A wider meaning of the word
+The article stresses that divine unicity is only one of God's characteristics among others, yet its importance in Islam explains why the word tawhid has sometimes taken a much broader sense. For some theologians it came to mean the whole discussion of God, His existence and His various attributes. It gives the Mu'tazili [[person/abd-al-jabbar-al-hamadhani|Abd al-Jabbar]] as an example, and also the Hanbali [[person/abu-yala-al-farra|Abu Ya'la]] {cite:encyclopaedia-of-islam-2 vol. 10 p. 411}.
+
+Further still, in the titles of some books the word stands for the whole of the principles of religion, as each theological school defines them, on which see [[concept/usul-al-din|usul al-din]]. The article names the Tawhid of [[person/abu-mansur-al-maturidi|al-Maturidi]], the work of the same title by the Imami Ibn Babawayh, and the Risalat al-Tawhid of [[person/muhammad-abduh|Muhammad Abduh]]. In current usage, it says, the expression ilm al-tawhid, or tawhid alone, means theology in general and is the modern equivalent of [[concept/ilm-al-kalam|ilm al-kalam]] {cite:encyclopaedia-of-islam-2 vol. 10 p. 411}.
+
+The sections that follow set out how particular Sunni creeds describe God's oneness and attributes, each attributed to its own book.
 
 ## Summary
 [[work/aqida-tahawiyya|Al-Tahawi]] opens his statement of the creed of the people of the Sunna and the Community by saying: "We say of God's oneness, believing by God's guidance", then enumerates the articles: "God is one without partner; nothing is like Him; nothing overcomes Him; there is no god but He" {cite:aqida-tahawiyya p. 8}.

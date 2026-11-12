@@ -261,3 +261,38 @@
 | Notice | Page | Passage | Reason | Handling |
 |---|---|---|---|---|
 | 490 | 138 | the verses on the fool, the palace and the slave-women | several words garbled in the scan ("بدافوق السرير", "وادرما هي") | the verses are described, not quoted; garbled words are not given |
+
+## Batch 53 (run microsd-books-b53, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 138–139 (full text read before writing). New draft: person/abu-mahriz-al-tufawi (491, 10/138–139). Notice 492 begins on 10/139 and is next.
+
+## Exclusions and garbled readings (batch 53)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 491 | 138 | the word after "تشمر في" ("المبددة" in the scan) | unclear in the scan; "المجاهدة" (striving) is the likely reading | given as striving; the prose does not flag it, a gap to fix in revision |
+| 491 | 138 | "ولحق المتقدمين في الوفادة" | "الوفادة" unclear in the scan | rendered in the sense of the earlier generation; the prose notes nothing further |
+| 491 | 138 | the opening "لا بان للأكياس" | read as "لا بأن" (it is evident) | given as read; the sense is the discerning's highest station |
+
+## Batch 54 (run microsd-books-b54, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 139–140 (full text read before writing). New draft: person/khaythama-al-ajli (493, 10/139). Correction to the batch 53 note: no notice 492 heading appears in the OCR of pages 138–140. The OCR runs from 491 (Abu Mahriz al-Tufawi) straight to a heading printed "493". No record was made for 492; it needs checking against the page image before anything is written for it.
+- Page 139 carries two headings printed "493": Khaythama al-Ajli (first) and Hasan al-Hafari (second). The second is most likely notice 494 misprinted; Hazim al-Hanafi (printed 494) and Qays ibn al-Sakan (printed 495) and al-Hakam ibn Aban (printed 496) follow on page 140 and in the same sequence. Their printed numbers are kept until the page image confirms the numbering. Hasan al-Hafari is the next notice to read in full.
+
+## Exclusions and garbled readings (batch 54)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 493 | 139 | the opening of the notice ("نبه صلى خدع الماجلة") | garbled in the scan; "صلى" is not a word here | the sense (renounced the world once its deception was clear) is given; the garbled words are not |
+| 493 | 139 | words inside the verses | unclear in the scan | not given; the prose says so |
+| 492 | 139 | the missing heading | no heading in the OCR | no record; see the correction above |
+
+## Batch 55 (run microsd-books-b55, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 139–140 (full text read before writing). New draft: person/hasan-al-hafari (printed 493, by sequence 494; 10/139–140). Notice 494 by sequence was Hasan; the next printed heading is "٤٩٤ - حازم الحنف" on 10/140 (Hazim al-Hanafi, printed 494, by sequence 495), then Qays ibn al-Sakan (printed 495) and al-Hakam ibn Aban (printed 496).
+- Numbering: the printed numbers now run one behind the sequence from notice 493 onward. The library and the prose keep the printed numbers and note the sequence number; whether to renumber is for the coordinator to decide. The page image has not been checked for this.
+
+## Exclusions and garbled readings (batch 55)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 493 (printed) | 139 | the bracketed name "إبراهيم بن الجنيد" and its footnote "زيادة من مغ" | the edition marks it as an addition from another manuscript | the chain is given without the bracketed name; the prose does not render the bracket |
+| 493 (printed) | 139 | "أمد عوانس مؤمني الجن" | "عوانس" unclear in the scan | rendered loosely as a support to the believing jinn; flagged for revision |
+| 493 (printed) | 139 | the nisba "الحفري" and the mosque's name | read as in the scan | kept as written |

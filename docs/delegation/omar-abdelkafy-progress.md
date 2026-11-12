@@ -1266,7 +1266,6 @@ Next step: episode 41.
 | Garbled passages | ep22 00:00:00 (partial), 00:01:30-00:02:00, 00:04:00-00:04:30, 00:07:00-00:07:30, 00:10:30-00:14:00 (the vision and the Umar passages), 00:14:30-00:16:30 (partial), 00:17:00, 00:21:00-00:22:30, 00:24:00-00:26:00, 00:29:00-00:30:30, 00:33:30-00:34:00, 00:36:00-00:36:30 | Not recoverable as clear Arabic | Clarity | Open |
 | Supplications and the producer's announcement with phone number | ep22 00:37:00-00:40:00 | Not lesson content | Content rule | Open |
 
-Resume point: episode 23 (branch from origin/main).
 ### albuyout-alamena, episode 41 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-29)
 
 Episode 41 read in full (46 min of transcript) before writing. 21 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (unchained stories and sayings, ages and claims without a source, rulings without evidence, unidentified verses of poetry, garbled call text).
@@ -1298,7 +1297,6 @@ Next step: episode 42.
 | Garbled passages | ep23 00:00:00-00:01:00 (a man in a dream and counted deeds), 00:04:30-00:06:30 (a Successor and the night voice), 00:08:30-00:09:30, 00:11:30-00:13:00 (partial), 00:15:00-00:18:00 (the eighth-door and obstacle passages), 00:20:00, 00:26:30-00:27:30, 00:29:00-00:29:30, 00:30:00-00:31:30 (the waiting-for-graduation remark), 00:34:00-00:34:30, 00:36:30-00:37:30 (a remark on the Arabic word for the card), 00:38:00-00:39:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Supplications and the producer's announcement with phone number | ep23 00:42:30-00:43:30 | Not lesson content | Content rule | Open |
 
-Resume point: episode 24 (branch from origin/main).
 ### albuyout-alamena, episode 42 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-30)
 
 Episode 42 read in full (50 min of transcript) before writing. 19 points written (ar, en, ur); new `about` edges for the people and passages named; 12 needs_source (unchained accounts and sayings, an unattributed likening, rulings without evidence, garbled call text).
@@ -1353,3 +1351,127 @@ Next step: episode 45.
 | Private circumstances of callers | ep44 00:34:30–00:47:30 | Kept general | Privacy | Open |
 | Caller's question on a name for adoptive parents' supplication | ep44 00:37:30–00:38:30 | Text garbled; no answer given in the recording that can be summarised | Clarity | Open |
 | Hadith and saying wording | ep44 00:03:00–00:05:00, 00:16:30–00:20:30, 00:26:30–00:28:00, 00:32:00–00:34:00 | Wording not typed; by sense only | Hadith rule | Open |
+
+
+### al-dar-al-akhera ep24 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep24 (Paradise, part 3: doors and degrees) | about 46 min (transcript) | ar, en, ur: 1 record extended | 6 new `about` edges | 15 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the ascription to the Prophet and the martyrs' leader (ep24 00:00:00, 00:02:30); the number of Qur'an verses (00:16:30, not written); the two sayings of Abu Bakr (00:13:00); the standard-bearers (00:10:00); the report on the two springs (00:37:00) | run omar-abdelkafy-dar-akhera-17 |
+
+| Excluded (dar-akhera ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep24 00:05:00, 00:06:30, 00:15:30, 00:26:30, 00:42:30 | Not speech | Loop check | Open |
+| Garbled passages | ep24 00:01:00-00:02:00, 00:05:30-00:07:00 (partial), 00:08:30-00:09:30 (the story of Utba), 00:11:30-00:13:00 (a station-announcement analogy), 00:15:30-00:17:00, 00:19:30-00:20:30, 00:27:30-00:28:00, 00:30:30-00:32:00, 00:35:30-00:37:00, 00:39:00-00:39:30, 00:41:00-00:42:00, 00:43:30-00:45:30 | Not recoverable as clear Arabic | Clarity | Open |
+| Closing remarks on the benefit of the lesson | ep24 00:46:00 | Not lesson content | Content rule | Open |
+
+
+### albuyout-alamena, episode 45 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-33)
+
+Episode 45 read in full (50 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 11 needs_source (unnamed studies and statistics, unchained sayings and hadith, rulings without evidence, garbled call text and numbers).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep45 (gentleness in the home) | about 50 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 13 points | new `about` edges | 13 | 11 needs_source | this PR |
+
+Next step: episode 46.
+
+| Excluded (albuyout-alamena ep45) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae, sponsor and website line | ep45 00:00:00–00:00:30, 00:16:00–00:16:30, 00:26:30–00:27:30, 00:49:30–00:50:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep45 00:05:00, 00:07:00–00:07:30, 00:25:30–00:26:00, 00:28:00, 00:29:00–00:29:30, 00:31:00–00:32:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep45 00:28:00–00:45:00 | Kept general | Privacy | Open |
+| Numbers of scenes and percentages on channels and official reports | ep45 00:06:00–00:12:00 | Garbled and unverifiable; the claim is recorded without figures and marked needs_source | Sources policy | Open |
+| Story of Abu Hanifa's parents' marriage | ep45 00:47:30–00:48:00 | Deferred by the lecturer to a coming episode; not told here | Scope | Open |
+| Caller's question on a hadith about one light of means | ep45 00:28:30–00:29:30 | Asked and not answered in the recording | Clarity | Open |
+
+### albuyout-alamena, episode 46 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-34)
+
+Episode 46 read in full (47 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (sweeping claims on men and women, physiological and brain claims, a British statistic and unchained accounts without source, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep46 (the complementarity of the spouses) | about 47 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 13 points | new `about` edges | 13 | 9 needs_source | this PR |
+
+Next step: episode 47.
+
+| Excluded (albuyout-alamena ep46) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae, sponsor and website line | ep46 00:00:00–00:00:30, 00:14:30–00:15:00, 00:26:00–00:26:30, 00:46:30–00:47:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep46 00:04:30–00:05:00, 00:16:00–00:17:00, 00:23:00–00:23:30, 00:34:00–00:34:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep46 00:27:30–00:41:30 | Kept general | Privacy | Open |
+| Details of a mosque and schedule asked by callers | ep46 00:35:30–00:37:00 | Promotional and private; not lesson content | Content rule | Open |
+| Poetry quoted | ep46 00:09:30–00:10:00 | Not reproduced | Sources policy | Open |
+| Numbers on bodily make-up and crime | ep46 00:13:30–00:15:00, 00:26:30–00:27:30 | Unverifiable and partly garbled; claims recorded without figures and marked needs_source | Sources policy | Open |
+
+### albuyout-alamena, episode 47 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-35)
+
+Episode 47 read in full (51 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people and passages named; 13 needs_source (unchained accounts, hadiths and a story in sense, an unsourced historical claim, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep47 (the soul and what shaped it) | about 51 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 15 points | new `about` edges | 15 | 13 needs_source | this PR |
+
+Series complete: episode 47 is the last episode of albuyout-alamena.
+
+| Excluded (albuyout-alamena ep47) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae, sponsor and website line | ep47 00:00:00–00:00:30, 00:18:00–00:18:30, 00:37:00–00:37:30, 00:50:30–00:51:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep47 00:01:00–00:01:30, 00:13:00, 00:27:00–00:27:30, 00:30:00–00:30:30, 00:32:00–00:32:30, 00:40:00–00:40:30, 00:50:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep47 00:27:30–00:50:00 | Kept general | Privacy | Open |
+| Poetry quoted | ep47 00:06:00–00:06:30 | Not reproduced | Sources policy | Open |
+| Hadith and supplication wording | ep47 00:02:30–00:05:00, 00:11:30–00:15:00, 00:20:00–00:22:30, 00:44:00–00:44:30, 00:48:00–00:49:30 | Wording not typed; by sense only | Hadith rule | Open |
+
+### al-dar-al-akhera ep25 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep25 (Paradise, part 4: its building, the banquet parable, the chambers) | about 28 min of distinct content in a 9 h file (transcript) | ar, en, ur: 1 record extended | 6 new `about` edges | 14 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the opening story (ep25 00:00:00); the dream interpretation (00:04:00-00:05:30); the suicide figure (00:11:30); the building of Paradise (00:13:00-00:20:30); the tree description (00:17:30-00:18:30); the hundred degrees (00:24:30); the Ayyubid account (00:27:00-00:27:30) | run omar-abdelkafy-dar-akhera-18 |
+
+| Excluded (dar-akhera ep25) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| The same 28 min 30 s lesson repeated about nineteen times | ep25 00:28:30 to 08:57:00 | Duplicate audio; only the first pass is cited | Duplicate | Open |
+| Repetition loops | ep25 00:00:30, 00:03:30, 00:19:30, 00:25:00, 00:29:30, 00:30:00 and many later windows | Not speech | Loop check | Open |
+| Garbled passages | ep25 00:09:00 (a story about honey), 00:14:00-00:15:30 (a worship anecdote), 00:20:00 (a narrator anecdote), 00:21:00-00:22:00 (an audience aside), 00:28:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Supplications and closing blessings | ep25 00:05:30-00:06:30, 00:15:30 | Not lesson content | Content rule | Open |
+
+
+### al-dar-al-akhera ep26 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep26 (the names of Paradise) | about 42 min (transcript) | ar, en, ur: 1 record extended | 5 new `about` edges | 13 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the opening (ep26 00:00:00-00:01:00); the four doors (00:02:30-00:05:00); the rivers (00:10:00); the Sad and Uthman story (00:19:30-00:21:30); the safe station and sparrow story (00:35:00-00:39:00); the steward story (00:40:00-00:41:30) | run omar-abdelkafy-dar-akhera-19 |
+
+| Excluded (dar-akhera ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep26 00:04:00, 00:07:00, 00:08:30, 00:09:00, 00:09:30, 00:12:30, 00:22:00, 00:24:00, 00:25:30, 00:26:00, 00:29:00, 00:30:30 | Not speech | Loop check | Open |
+| Garbled passages | ep26 00:05:30-00:09:00 (modern analogies), 00:11:00-00:11:30, 00:13:00-00:15:00, 00:22:30-00:31:30 (anecdotes about Ali and Fatima), 00:31:30-00:32:30, 00:33:30-00:34:00, 00:36:00-00:37:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Closing remarks and personal health | ep26 00:41:30-00:42:00 | Not lesson content | Content rule | Open |
+
+
+### al-dar-al-akhera ep27 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep27 (the servants of the Merciful, major sins) | about 44 min (transcript) | ar, en, ur: 1 record extended | 3 new `about` edges | 10 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the opening story (ep27 00:00:00-00:00:30); the man brought for drinking (00:06:30-00:07:00); the list of the tongue's sins (00:22:30-00:23:00); the hadiths on killing (00:30:00-00:32:00); the years of the poor's head start (00:40:00, 00:42:30) | run omar-abdelkafy-dar-akhera-20 |
+
+| Excluded (dar-akhera ep27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep27 00:01:00, 00:03:00, 00:06:00 (partial), 00:07:30, 00:08:00, 00:12:00, 00:16:30, 00:18:00, 00:18:30, 00:24:00, 00:25:30, 00:33:30 (partial), 00:36:00, 00:38:00, 00:39:00 | Not speech | Loop check | Open |
+| Garbled passages | ep27 00:01:30-00:04:00, 00:05:30-00:06:00, 00:08:30-00:09:00, 00:11:00-00:12:00, 00:15:00-00:16:30, 00:20:00-00:22:00, 00:24:30-00:28:00, 00:33:00-00:34:30, 00:35:00-00:38:30, 00:40:30-00:42:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Supplications, thanks and publisher and telephone line | ep27 00:43:00-00:44:00 | Not lesson content | Content rule | Open |
+
+
+### al-dar-al-akhera ep28 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep28 (the servants of the Merciful, part 2) | about 47 min (transcript) | ar, en, ur: 1 record extended | 3 new `about` edges | 14 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the Bedouin story (ep28 00:01:00-00:01:30); the report on Yemen and the 1960s story (00:11:00-00:13:00); the abortion and adultery rulings are his opinion (00:05:00-00:07:30, 00:14:30-00:16:30); the valley of Athama (00:21:00-00:23:00); the Shurayh story details (00:23:30-00:28:30); the three qualities of kindness (00:44:00) | run omar-abdelkafy-dar-akhera-21 |
+
+| Excluded (dar-akhera ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep28 00:00:00, 00:02:30, 00:08:00, 00:17:00, 00:27:00, 00:29:00, 00:32:00, 00:32:30, 00:34:30, 00:41:30, 00:42:30 | Not speech | Loop check | Open |
+| Garbled passages | ep28 00:00:30, 00:02:00, 00:13:30-00:14:00 (a quoted poem, not reproduced), 00:25:00-00:25:30, 00:33:00-00:35:00, 00:35:00-00:36:00, 00:41:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Announcements about travel and the next lecture, requests for supplication | ep28 00:46:30-00:47:00 | Not lesson content | Content rule | Open |
+
+Resume point: episode 29 (branch from origin/main).
