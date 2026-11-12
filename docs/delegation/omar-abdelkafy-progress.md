@@ -973,7 +973,6 @@ Opinions labelled as the lecturer's own with no museum ruling: apostasy of one w
 | Garbled passages | ep16 00:02:30, 00:07:30-00:08:00 (a remark about being people of the Sunna and Egypt), 00:12:00-00:13:30 (a hotel analogy), 00:15:30-00:16:30, 00:20:00, 00:24:30-00:25:30 (names of saints and a remark on them), 00:25:30-00:27:00, 00:30:30-00:31:00 (the story of a broker said to be told by al-Ghazali), 00:32:30-00:33:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Announcement on distribution and pricing of the recorded series | ep16 00:36:00-00:37:00 | Logistics, not lesson content | Content rule | Open |
 
-Resume point: episode 17 (branch from origin/main).
 ### albuyout-alamena, episode 29 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-17)
 
 Episode 29 read in full (51 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people, places and passages named; 13 needs_source (stories, figures and sayings without a chain or source, garbled call text).
@@ -1025,3 +1024,19 @@ Next step: episode 31. The series has 47 episodes of transcript on disk (ep01 to
 | Private circumstances of callers | ep30 00:31:00–00:41:00 | Kept general | Privacy | Open |
 | Verses of poetry quoted | ep30 00:25:00–00:25:30 | Not reproduced | Sources policy | Open |
 | Hadith and saying wording | ep30 00:07:00–00:11:00, 00:19:00, 00:44:00–00:44:30 | Wording not typed; by sense only | Hadith rule | Open |
+
+
+### al-dar-al-akhera ep19 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep19 (the Fire, part 2) | about 41 min (transcript) | ar, en, ur: 1 record extended | none new (concept/jahannam already linked) | 8 points; qwen3-asr pass5, 30 s windows | needs_source on every point; the second half of the dipping hadith (00:02:30) is inferred from nearby context; the third kind charged to the Fire (00:08:30) | run omar-abdelkafy-dar-akhera-12 |
+
+| Excluded (dar-akhera ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep19 00:10:30, 00:11:30, 00:15:30, 00:16:00, 00:17:30, 00:22:00, 00:22:30, 00:23:00, 00:23:30, 00:24:30, 00:25:30, 00:33:30, 00:35:30, 00:36:30, 00:37:30, 00:38:00, 00:39:00, 00:40:00 | Not speech | Loop check | Open |
+| Garbled passages | ep19 00:00:00, 00:02:00-00:02:30, 00:03:00-00:06:30 (anecdotes and a remark on tyrants), 00:09:30-00:12:00, 00:13:00-00:16:30 (food of the Fire, unrecoverable), 00:19:00-00:21:00, 00:26:30-00:33:00 (the four groups and the two places), 00:34:00-00:35:30, 00:36:00 (a repeated phrase) | Not recoverable as clear Arabic | Clarity | Open |
+| Hallucinated non-Arabic text | ep19 00:40:30 | Not speech in any intelligible language | Clarity | Open |
+| Supplications and sign-off | ep19 00:38:30, 00:39:30 (announcement) | Not lesson content | Content rule | Open |
+
+Resume point: episode 20 (branch from origin/main).
