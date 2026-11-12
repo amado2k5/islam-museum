@@ -519,6 +519,7 @@ Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan progra
 | tariq-al-noor ep13-ep15 (five things that corrupt the heart; the wise are three; self-deception and humility) | ar, en, ur: series record extended with 3 episode sections (21 points) | 15 new `about` edges (96 in total) | needs_source on: ep13 the unnamed Companion and Abu Bakr narrative, the campaigns list; ep14 Umar ibn Abd al-Aziz's last words, the verses attributed to al-Shafi'i; ep15 the speaker of the Satan saying, the Jabala account | omar-abdelkafy-tariq-al-noor-4 |
 | tariq-al-noor ep16-ep18 (what leads to a good ending; signs of wretchedness; the value of time) | ar, en, ur: series record extended with 3 episode sections (20 points) | 10 new `about` edges (106 in total) | needs_source on: ep16 the womb-writing of provision and the angel-of-death speech; ep18 the unnamed righteous man, the ranking figure 190 | omar-abdelkafy-tariq-al-noor-5 |
 | tariq-al-noor ep19-ep21 (hope and mercy; kindness to parents; guarding the tongue) | ar, en, ur: series record extended with 3 episode sections (30 points) | 10 new `about` edges (116 in total) | needs_source on the identity of Muhammad al-Ghazali, Anas, the Abu Nuwas, Umar and Abu Bakr narratives, the absolute ruling on the dutiful and disobedient child, the survey figure | omar-abdelkafy-tariq-al-noor-6 |
+| tariq-al-noor ep22-ep24 (silence; knowledge gatherings; trial and contentment) | ar, en, ur: series record extended with 3 episode sections (21 points) | 11 new `about` edges (127 in total) | needs_source on the listening-ratio statistic and unstable word counts (ep22), the Friday-sermon scholars claim, the cosmetic-clinic figure and the seven benefits attributed to al-Hasan (ep23), the Job and David narratives (ep24) | omar-abdelkafy-tariq-al-noor-7 |
 
 | Excluded (tariq-al-noor ep01-ep04) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
@@ -679,6 +680,13 @@ Next step: episode 10.
 | Verses of Abu Nuwas | ep19 00:08:30-00:09:00 | Verbatim verse, not reproduced | Sources policy | Open |
 | Teens' food, clothes and gifts remark | ep20 00:05:00-00:05:30 | Partly garbled, no clear point | Clarity | Open |
 
+| Excluded (tariq-al-noor ep22-ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, closing formulae | ep22 00:00:00, 00:09:00; ep23 00:00:00, 00:09:00-00:09:30; ep24 00:00:00, 00:08:30-00:09:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep22 00:02:00, 00:06:00 (inner); ep23 00:06:30 (inner); ep24 00:03:00, 00:05:00, 00:07:30 (inner) | Not speech | Loop check | Open |
+| Passage on worship without toil (fasting and prayer examples) | ep22 00:01:30-00:02:30 | Partly garbled; only the clear list of virtues kept | Clarity | Open |
+| Passage on children apologising to parents | ep22 00:07:00-00:07:30 | Garbled | Clarity | Open |
+| Remarks on a daughter's marriage to a mother-dependent husband and on rival relatives' spending | ep24 00:02:00-00:03:30 | Partly garbled, no clear usable point beyond the trial list | Clarity | Open |
 ### albuyout-alamena, episodes 10–11 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-5)
 
 | Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
