@@ -1,6 +1,6 @@
 # Usra Browser — Family and Marriages (متصفح الأسرة والزيجات)
 
-Plan 54 · requested 12 Nov 2026 · built 12 Nov 2026 · lane `usra` · spec `docs/engineering/42-usra-browser-requirements.md`
+Plan 55 · requested 12 Nov 2026 · built 12 Nov 2026 · lane `usra` · spec `docs/engineering/43-usra-browser-requirements.md`
 
 ## What it is
 

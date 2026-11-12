@@ -4,8 +4,9 @@ label: { ar: "السيد محمد رشيد رضا", en: "Muhammad Rashid Rida" }
 names:
   - { kind: full, lang: ar, value: "محمد رشيد بن علي رضا" }
 summary:
-  ar: "عالم وصحفي من رواد الإصلاح الإسلامي، تلميذ الشيخ محمد عبده، وصاحب تاريخ الإمام محمد عبده في مجلدين. يصفه شكيب أرسلان في تعليقه على حاضر العالم الإسلامي بالأستاذ الأكبر، ويثني على سعة علمه ورجاحة عقله وقدرته على ربط الشريعة بالنوازل المعاصرة، ويذكر كتاباً له في حكمة الشرع الإسلامي وفي التسري الشرعي، يرد فيه على المعترضين."
-  en: "Scholar and journalist of the Islamic reform movement, a disciple of Muhammad Abduh and author of a two-volume biography of him. Arslan calls him 'the great master', praises his command of Arabic, his jurisprudence on modern questions and his reply to critics of Islamic law, and cites his treatment of concubinage in Islamic law {cite:stoddard-arslan-hadir-1923 vol. 1, scan pp. 301–303}."
+  ar: "محمد رشيد رضا، من مواليد القلمون قرب طرابلس الشام عام 1865م وتوفي عام 1935م، من أغزر مؤلفي الإصلاح الإسلامي والجامعة الإسلامية تأليفاً وأكثرهم تأثيراً، وارتبط اسمه بمجلة المنار التي حررها منذ 1898م. تتلمذ على محمد عبده في القاهرة، وأسس عام 1911م دار الدعوة والإرشاد، وشارك في السياسة العربية والجدل حول الخلافة. ويبين المقال أن رأيه في الوهابية تبدل مع الزمن وأنه انتقد الطرق الصوفية، ويشير إلى ثناء شكيب أرسلان عليه وهو ثناء معاصر وصديق."
+  en: "Muhammad Rashid Rida, born in Qalamun near Tripoli in 1865 and died in 1935, was one of the most productive and influential authors of Islamic reform and Pan-Islamism, and is tied above all to the journal al-Manar, which he edited from 1898. He studied under Muhammad Abduh in Cairo, founded Dar al-Da'wa wa'l-Irshad in 1911, and took part in Arab politics and in the debate on the caliphate. The Encyclopaedia of Islam reports that his view of the Wahhabiyya changed over time and that he criticised the Sufi orders; Shakib Arslan, a contemporary and friend, praised him."
+  ur: "محمد رشید رضا 1865ء میں طرابلس کے قریب قلمون میں پیدا ہوئے اور 1935ء میں وفات پائی۔ وہ اسلامی اصلاح اور پان اسلام ازم کے سب سے زیادہ لکھنے والے اور اثر ڈالنے والے مصنفین میں سے تھے اور رسالہ المنار سے، جس کے مدیر وہ 1898ء سے رہے، خاص طور پر وابستہ ہیں۔ انہوں نے قاہرہ میں محمد عبدہ سے پڑھا، 1911ء میں دار الدعوۃ والارشاد قائم کیا اور عرب سیاست اور خلافت کی بحث میں حصہ لیا۔ دائرہ معارف اسلامیہ کے مطابق وہابیہ کے بارے میں ان کی رائے وقت کے ساتھ بدلی اور انہوں نے صوفی سلسلوں پر تنقید کی، جبکہ ہمعصر دوست شکیب ارسلان نے ان کی تعریف کی۔"
 gender: male
 wings: [people]
 periods: [period/modern-era]
@@ -15,7 +16,7 @@ died: { edtf: "1935", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/qalamun, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4703072)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/stoddard-arslan-hadir-1923]
+sources: [source/stoddard-arslan-hadir-1923, source/encyclopaedia-of-islam-2]
 # Verification: one source (Arslan's praise, written by a contemporary and friend, so not neutral). Works and dates need checking against a second source before publication.
 importance: 1
 status: { review: draft, completeness: 1 }
@@ -23,3 +24,4 @@ provenance:
   layer: own-research
   generated_by: "Claude Haiku 5.5"
   extraction_flow: "Apple Vision OCR (text layer) -> manual reading of scan pages 301-303 -> summary in own words"
+  canon: "EI2 vol. 8, article Rashid Rida, PDF pages 486-487, written by Claude Sonnet 5.5, run canon-cornerstones-13"

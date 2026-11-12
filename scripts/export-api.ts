@@ -19,6 +19,7 @@ import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPas
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
 import { MIRACLES_TAG, MIRACLE_SECTIONS, MIRACLE_SUBJECTS, MIRACLE_SUBJECT_SET, MIRACLE_TOPIC_KIND, MIRACLE_TOPIC_SUBJECTS, miracleTopicsOf, miracleCorpusOf, miracleTagSection, type MiracleTopic } from "./miracles.js";
 import { DUA_TAG, duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, isDuaPassage, type DuaKind } from "./dua.js";
+import { AKHLAQ_TAG, akhlaqCorpusOf, akhlaqKindOf, akhlaqKindsOf, akhlaqSignalsOf, akhlaqTagSection, akhlaqTagTopics, akhlaqTopicsOf, akhlaqTracksOf, isAkhlaqPassage, type AkhlaqKind } from "./akhlaq.js";
 import { IBADAT_TAG, ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTopicsOf, isIbadatPassage, type IbadatKind } from "./ibadat.js";
 import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNubuwatPassage, nubuwatTopicsOf } from "./nubuwat.js";
 import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
@@ -243,6 +244,19 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : duaTagSection(n),
       dua_kind: n.class === "passage" ? duaKindOf(n) : null,
       signals: n.class === "passage" ? duaSignalsOf(n) : [],
+    }) },
+  { file: "akhlaq.json", feature: "akhlaq-browser",
+    pick: (n) => n.tags.includes(AKHLAQ_TAG) || isAkhlaqPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? akhlaqCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : akhlaqTagSection(n),
+      akhlaq_kind: n.class === "passage" ? akhlaqKindOf(n) : null,
+      kinds: n.class === "passage" ? akhlaqKindsOf(n) : [],
+      tracks: n.class === "passage" ? akhlaqTracksOf(n) : [],
+      topics: n.class === "passage" ? akhlaqTopicsOf(n) : akhlaqTagTopics(n),
+      signals: n.class === "passage" ? akhlaqSignalsOf(n) : [],
     }) },
   { file: "ibadat.json", feature: "ibadat-browser",
     pick: (n) => n.tags.includes(IBADAT_TAG) || isIbadatPassage(n),

@@ -1,6 +1,6 @@
 # Usra Browser — engineering requirements (acceptance spec)
 
-Spec 42 · plan `docs/plan/54-usra-browser.md` · lane `usra` · built 12 Nov 2026
+Spec 43 · plan `docs/plan/55-usra-browser.md` · lane `usra` · built 12 Nov 2026
 
 ## Original requirement (verbatim, founder request 12 Nov 2026)
 
