@@ -732,3 +732,15 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 663 (printed) | 390 | the place "مسيلة" | the region is not stated in the text | region set to maghreb as a likely reading; flagged for revision |
 | 663 (printed) | 390 | the nisba "الثودي" for "الثوري" | a misprint in the scan | read as Sufyan al-Thawri |
+
+## Batch 87 (run microsd-books-b87, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 390 (full text read before writing). New draft: person/isam-ibn-yazid (printed 664, sequence 665, 10/390). No existing record of the name. The laqab "خير" is recorded as the notice gives it.
+- Printed 665 (Musa ibn Musawwir al-Dabbi, "الضبي") begins on 10/390 and is next.
+- Printed 532 and 546 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 87)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 664 (printed) | 390 | the words "لو أتينهم" | the OCR's "أتينهم" is read as "أتيناهم" (we came to them) | given as "shall we go to them" |
