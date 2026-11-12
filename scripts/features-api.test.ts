@@ -10,6 +10,7 @@ import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
 import { mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf } from "./mukatabat.js";
 import { narKindOf, narSignalsOf } from "./nar.js";
 import { jannaKindOf, jannaSignalsOf } from "./janna.js";
+import { akhlaqKindOf, akhlaqSignalsOf, akhlaqTopicsOf, akhlaqTracksOf } from "./akhlaq.js";
 
 const makeNode = (id: string, cls: string, data: Record<string, any> = {}, prose: Record<string, any> = {}): Node => ({
   id, class: cls, slug: id.split("/")[1], label: { ar: id, en: id, ur: id }, summary: { ar: "", en: "", ur: "" }, stub: false,
@@ -62,7 +63,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -144,6 +145,39 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(featureApiData(compiled)["ibadat.json"].feature).toBe("ibadat-browser");
     expect(ibadatKindOf(iyyakaAyah as any)).toBe("act");
     expect(ibadatSignalsOf(argueFp as any)).toEqual([]);
+  });
+
+  it("exports akhlaq: detected passages by corpus, track, kind and topic; ambiguity gates; curated records; future-book inclusion", () => {
+    const ribaAyah = makeNode("passage/quran-2-275x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 275, text: "وأحل الله البيع وحرم الربا" });
+    const uqudAyah = makeNode("passage/quran-5-1x", "passage", { unit: "ayah", work: "work/quran", sura: 5, aya: 1, text: "يا أيها الذين آمنوا أوفوا بالعقود" });
+    const ghibaAyah = makeNode("passage/quran-49-12x", "passage", { unit: "ayah", work: "work/quran", sura: 49, aya: 12, text: "يا أيها الذين آمنوا اجتنبوا كثيراً من الظن ولا تجسسوا ولا يغتب بعضكم بعضاً" });
+    const nifaqHadith = makeNode("passage/muslim-59x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "59x", text: "آية المنافق ثلاث إذا حدث كذب وإذا عاهد أخلف وإذا اؤتمن خان" });
+    const mutaffifAyah = makeNode("passage/quran-83-1x", "passage", { unit: "ayah", work: "work/quran", sura: 83, aya: 1, text: "ويل للمطففين الذين إذا اكتالوا على الناس يستوفون" });
+    const rabaFp = makeNode("passage/quran-23-50x", "passage", { unit: "ayah", work: "work/quran", sura: 23, aya: 50, text: "فربا واستوى على قرار ذي ماء" });
+    const bayahFp = makeNode("passage/muwatta-9990", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9990", text: "بايعوا النبي تحت الشجرة بيعة الرضوان" });
+    const iddaFp = makeNode("passage/muwatta-9991", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9991", text: "ما تعدونها في عدة أيام" });
+    const futureBook = makeNode("passage/adober-1", "passage", { work: "work/al-adab-al-mufrad", ref: "1", text: "قال أبو هريرة: من كان يؤمن بالله واليوم الآخر فليكرم جاره" });
+    const akhlaqConcept = { ...makeNode("concept/akhlaq", "concept", { kind: "ethical" }), tags: ["akhlaq-browser", "akhlaq-akhlaq"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, ribaAyah, uqudAyah, ghibaAyah, nifaqHadith, mutaffifAyah, rabaFp, bayahFp, iddaFp, futureBook, akhlaqConcept] });
+    const items = data["akhlaq.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-2-275x");
+    expect(ids).toContain("passage/muslim-59x");
+    expect(ids).toContain("passage/adober-1");
+    expect(ids).toContain("concept/akhlaq");
+    expect(items.find((i) => i.id === "passage/quran-2-275x")).toMatchObject({ section: "quran", akhlaq_kind: "dealing" });
+    expect(items.find((i) => i.id === "passage/muslim-59x")).toMatchObject({ section: "sunnah" });
+    expect(items.find((i) => i.id === "passage/adober-1")).toMatchObject({ section: "books" });
+    expect(items.find((i) => i.id === "concept/akhlaq")).toMatchObject({ section: "curated", akhlaq_kind: null });
+    expect(featureApiData(compiled)["akhlaq.json"].feature).toBe("akhlaq-browser");
+    expect(akhlaqTopicsOf(ribaAyah as any)).toEqual(expect.arrayContaining(["riba", "bay"]));
+    expect(akhlaqTracksOf(ribaAyah as any)).toContain("muamalat");
+    expect(akhlaqTopicsOf(ghibaAyah as any)).toContain("ghiba");
+    expect(akhlaqTopicsOf(mutaffifAyah as any)).toContain("mizan");
+    expect(akhlaqKindOf(nifaqHadith as any)).toBe("vice");
+    expect(akhlaqSignalsOf(rabaFp as any)).toEqual([]);
+    expect(akhlaqSignalsOf(bayahFp as any)).toEqual([]);
+    expect(akhlaqSignalsOf(iddaFp as any)).toEqual([]);
   });
 
   it("exports nar: hellfire names, gated nar lexeme, worldly-fire shelf, curated records, future-book inclusion", () => {
