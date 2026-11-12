@@ -1748,3 +1748,19 @@ Next step: episode 26.
 | Openings, greetings, supplications, closing formulae | ep25 00:00:00–00:01:00, 00:23:00–00:23:30 | Not lesson content | Content rule | Open |
 | Repetition loops and garbled windows | ep25 00:04:30–00:05:00, 00:12:00, 00:15:30–00:16:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Scientific and medical figures | ep25 00:06:30–00:23:00 | Unverifiable; recorded as the lecturer's claims and marked needs_source | Sources policy | Open |
+
+### al-manjeyat, episode 26 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-manjeyat-14)
+
+Episode 26 read in full (24 min of transcript) before writing. 6 points written (ar, en, ur); new `about` edges for the people and passages named; 5 needs_source (unchained accounts and hadiths in sense, unsourced claims about the angels, smoking and the reckoning of years).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-manjeyat ep26 (the Night of Power) | about 24 min (transcript) | ar, en, ur: work/al-manjeyat extended, 6 points | new `about` edges | 6 | 5 needs_source | this PR |
+
+Next step: episode 27.
+
+| Excluded (al-manjeyat ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, closing formulae | ep26 00:00:00–00:01:30, 00:23:00–00:24:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep26 00:14:00, 00:07:30, 00:18:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep26 00:18:30–00:19:00, 00:20:00 | Not reproduced | Sources policy | Open |
