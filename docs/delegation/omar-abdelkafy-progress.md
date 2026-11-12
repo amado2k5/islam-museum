@@ -1435,4 +1435,17 @@ Series complete: episode 47 is the last episode of albuyout-alamena.
 | Garbled passages | ep25 00:09:00 (a story about honey), 00:14:00-00:15:30 (a worship anecdote), 00:20:00 (a narrator anecdote), 00:21:00-00:22:00 (an audience aside), 00:28:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Supplications and closing blessings | ep25 00:05:30-00:06:30, 00:15:30 | Not lesson content | Content rule | Open |
 
-Resume point: episode 26 (branch from origin/main).
+
+### al-dar-al-akhera ep26 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep26 (the names of Paradise) | about 42 min (transcript) | ar, en, ur: 1 record extended | 5 new `about` edges | 13 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the opening (ep26 00:00:00-00:01:00); the four doors (00:02:30-00:05:00); the rivers (00:10:00); the Sad and Uthman story (00:19:30-00:21:30); the safe station and sparrow story (00:35:00-00:39:00); the steward story (00:40:00-00:41:30) | run omar-abdelkafy-dar-akhera-19 |
+
+| Excluded (dar-akhera ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep26 00:04:00, 00:07:00, 00:08:30, 00:09:00, 00:09:30, 00:12:30, 00:22:00, 00:24:00, 00:25:30, 00:26:00, 00:29:00, 00:30:30 | Not speech | Loop check | Open |
+| Garbled passages | ep26 00:05:30-00:09:00 (modern analogies), 00:11:00-00:11:30, 00:13:00-00:15:00, 00:22:30-00:31:30 (anecdotes about Ali and Fatima), 00:31:30-00:32:30, 00:33:30-00:34:00, 00:36:00-00:37:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Closing remarks and personal health | ep26 00:41:30-00:42:00 | Not lesson content | Content rule | Open |
+
+Resume point: episode 27 (branch from origin/main).
