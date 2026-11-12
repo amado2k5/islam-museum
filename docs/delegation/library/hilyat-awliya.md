@@ -458,3 +458,16 @@
 | 519 (printed) | 153 | the name of the narrator's sheikh | the scan gives an unnamed sheikh | "the sheikh" stated; no name supplied |
 | 520 (printed as 530) | 154 | the heading number | misprinted as "530" in the scan | read as 520 by sequence; flagged for the coordinator |
 | 520 (printed as 530) | 154 | a phrase in the weeping account | garbled in the scan | not given |
+
+## Batch 68 (run microsd-books-b68, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 154–155 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/hilal-ibn-al-wazir (printed 521, sequence 522, 10/154–155), person/muharib-ibn-hassan (printed 522, sequence 523, 10/155), person/abu-amr-al-marwazi (printed 523, sequence 524, 10/155). Printed 524 (Ibrahim ibn Sa'd al-Mulawi, known for signs and marvels, with the Prophetic bequest) begins on 10/155 and is next.
+- The Qur'an verse Hilal recites is referred to by sense only. The honorific form in Muharib's reply is omitted. Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 68)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 521 (printed) | 155 | the Qur'an verse Hilal recites | the Qur'an text is never typed | referred to by sense only |
+| 522 (printed) | 155 | the epithet "شروانى القلب والطرف" | garbled in the scan | not given |
+| 522 (printed) | 155 | the honorific form in Muharib's reply | the museum never types honorifics | omitted |
+| 523 (printed) | 155 | the name of Abu al-Abbas al-Thaqafi | legible; given as read | no flag |
