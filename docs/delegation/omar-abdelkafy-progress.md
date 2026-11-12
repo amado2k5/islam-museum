@@ -1990,3 +1990,14 @@ Next step: episode 20.
 | Repetition loops and garbled windows | ep19 00:14:00, 00:20:30, 00:29:30, 00:33:00, 00:37:30, 00:44:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Poetry quoted | ep19 00:14:30–00:15:30, 00:35:00–00:36:00 | Not reproduced | Sources policy | Open |
 | Private caller details, an interrupted call and an off-topic personal question | ep19 00:39:00–00:44:30 | Generalised or left out; the interrupted call has no usable content | Privacy | Open |
+
+### ajaeb-al-kulub ep17-ep20 (12 Nov 2026)
+
+30 points written for episodes 17 to 20 (ar, en, ur); 17 needs_source marks; 12 new `about` edges. Quran verses referenced only through passage links (41-30, 24-15, 34-13, 2-152, 34-15, 14-7); none typed. A supplication the lecturer attributes to the Prophet at al-Ta'if (ep19) is described, not quoted, and flagged needs_source (no chain, partly garbled).
+
+| Excluded (ajaeb-al-kulub ep17-20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep17 00:00:00, 00:05:30 (supplication); ep18 00:00:00, 00:05:30; ep19 00:00:00, 00:04:30 (supplication); ep20 00:00:00, 00:05:00 (supplication) | Not lesson content | Content rule | Open |
+| Repetition loops, non-speech and garbled windows | ep18 00:06:00 (a long run of non-speech "oh"); ep19 00:03:00 (a long loop of one letter after the supplication), 00:05:00 (non-speech); ep17 00:01:30 (a half-clear sentence on avoiding a former companion in the street); ep20 00:03:00 (a half-clear anecdote on a man's health at fifty or sixty) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ajaeb-al-kulub episode 21 (branch from origin/main).
