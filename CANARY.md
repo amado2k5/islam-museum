@@ -44,6 +44,7 @@ open a new block on top with the new version and today's date.
 - Hilyat al-Awliya vol. 10, printed notice 645 (Sa'id ibn Abd al-Aziz al-Halabi): a new person record with a trilingual draft, kept apart from the existing Tanukhi jurist and from the Khurasan governor of the same name, on a report about repaying a kindness to a man of the Banu Abd al-Muttalib. The wording of the report is not given.
 
 ### Fixed
+- **The site build completes again: the Genealogies browser no longer stops it.** The production build of 12 November (run 43183349688) ran for three hours and then failed while generating the Genealogies pages with `ANSAB_CORPORA is not defined`: `site/src/lib/ansab.ts` sorted its mention feed by corpus using a list it re-exported but never imported. The import is added; nothing else changes. Checked by loading the module against the compiled graph (3,052 mentions, 194 subjects; the unfixed file reproduces the error) and by loading all 80 site library modules, none of which fails. The tests did not catch it because no test loads this module.
 - **The Arabic courses page no longer passes English off as Arabic.** Official expectation text that has no translation is now shown in its original language and labelled so, in every language.
 - **Two links in the Grade 6 Science pilot pointed at the wrong records** and are repointed. The pilot's wider faults (its expectation texts are not the Ministry's wording, and two strands are swapped) are measured in `docs/courses-mission/AUDIT.md` and left for the founder's decision.
 ### Tests
