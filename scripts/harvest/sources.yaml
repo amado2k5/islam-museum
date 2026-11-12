@@ -148,16 +148,6 @@ sources:
     - url: https://download.geonames.org/export/dump/admin1CodesASCII.txt
       dest: raw/collections/geonames/admin1CodesASCII.txt
       size: 151583
-  ideo-diamond:
-    name: IDEO Diamond / AlKindi — General Diamond Catalog
-    url: https://opac.diamondrda.org
-    licence: unlicensed — facts-only pending LRM-CS terms (verified 2026-11-08)
-    layer: copyrighted-reference
-    method: Wikidata P8795/P11979 crosswalk + per-record OPAC citation
-      ({cite:ideo-diamond work/<id>} or agent/<id>); no bulk harvest until
-      LRM-CS agrees terms
-    status: enabled
-    limits: {}
   natural-earth:
     name: Natural Earth 10 m (physical, admin-0, shaded relief)
     url: https://www.naturalearthdata.com/downloads/
