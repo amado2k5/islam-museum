@@ -841,7 +841,6 @@ Rule from now on (coordinator, 11 Nov 2026): every episode is read in full; any 
 | Garbled passages | ep11 00:00:00-00:01:30 (opening, about the endings of deeds), 00:01:00 (the people of chess and dice), 00:09:30-00:10:30, 00:12:30-00:13:00, 00:16:30-00:17:00, 00:27:30-00:29:00 (the excuses of the unnamed), 00:31:00-00:31:30, 00:35:30 (partial) | Not recoverable as clear Arabic | Clarity | Open |
 | Closing supplications and sign-off | ep11 00:37:00-00:39:00 | Not lesson content | Content rule | Open |
 
-Resume point: episode 12 (branch from origin/main).
 ### albuyout-alamena, tails of episodes 20, 21 and 22 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-13)
 
 Closes the gaps left in the first pass: ep20 from 00:37:00 to the end (47:30), ep21 from 00:37:00 to the end (45:00) and ep22 from 00:30:00 to the end (45:30), all read in full. 28 points written in continuation sections (ar, en, ur); 2 new `about` edges (niqab, riba); 20 needs_source (garbled call text, unsourced sayings and statistics, answers not recorded in the window).
@@ -926,3 +925,20 @@ Next step: episode 28.
 | Garbled passages | ep27 00:08:00–00:08:30 (partly), 00:11:00 (a mixed-script word), 00:38:30–00:39:00 (the account of Umar's cold-day practice, who asked him is unclear) | Garbled; recorded only the clear sense | Clarity | Open |
 | Hadith and saying wording | ep27 00:05:30–00:06:30, 00:10:00, 00:16:00–00:17:00, 00:26:00, 00:32:00–00:33:00 | Wording not typed; by sense only | Hadith rule | Open |
 | Verses of poetry quoted | ep27 00:35:30–00:36:00 | Not reproduced beyond a brief mention | Sources policy | Open |
+
+
+### al-dar-al-akhera ep14-ep15 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep14-ep15 (crossing the Bridge, the stations, the Pond, intercession; the arches of the Bridge) | ep14 about 32 min; ep15 about 37 min (transcript) | ar, en, ur: 1 record extended | 11 new `about` edges | ep14 7, ep15 9 points; qwen3-asr pass5, 30 s windows | needs_source on every point; the order of the arches and ablution among them (ep15 00:24:00); the zakat figures (00:14:30); the hajj hadith and Umar's saying (00:22:30); the reports without chains (ep15 00:30:30) | run omar-abdelkafy-dar-akhera-9 |
+
+The hajj hadith (ep15 00:22:30) is presented as the lecturer's relating with no museum ruling; the record stays `sensitivity: contested`.
+
+| Excluded (dar-akhera ep14-ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep14 00:01:30, 00:04:00, 00:07:00, 00:13:30, 00:15:30, 00:16:30, 00:17:00, 00:17:30, 00:20:30, 00:26:30, 00:27:00, 00:27:30, 00:28:00, 00:29:00, 00:30:00, 00:30:30; ep15 00:02:00, 00:12:00, 00:13:00, 00:13:30, 00:14:00, 00:17:30, 00:19:30 (a repeated phrase), 00:27:30, 00:29:00, 00:33:30, 00:35:30 | Not speech | Loop check | Open |
+| Garbled passages | ep14 00:03:00-00:04:00, 00:06:00-00:07:30, 00:12:30-00:14:00, 00:14:30-00:16:00, 00:18:30-00:20:30, 00:21:30-00:22:30, 00:24:00-00:25:30, 00:28:30-00:29:30 (the ant passage); ep15 00:02:30-00:03:30, 00:05:00-00:06:30, 00:12:30 (a remark on lecturing), 00:15:00-00:15:30, 00:17:30-00:19:30 (fasting numbers and a bleeding ruling), 00:20:00 (partial), 00:24:30-00:27:00, 00:31:30-00:33:00, 00:34:00-00:35:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Supplications and sign-offs | ep14 00:32:00; ep15 00:35:30-00:36:30 | Not lesson content | Content rule | Open |
+
+Resume point: episode 16 (branch from origin/main).
