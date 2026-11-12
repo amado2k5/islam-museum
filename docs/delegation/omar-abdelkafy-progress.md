@@ -1542,3 +1542,31 @@ Resume point: episode 33 (branch from origin/main). The recording ends at 00:31:
 | Closing supplications, the publisher and telephone line | ep33 00:37:30, 00:41:00-00:42:00 | Not lesson content | Content rule | Open |
 
 Resume point: the 33 harvested episodes (01 to 33) are all written. The lecturer announces two further summary episodes in ep33 00:40:00; they are not in the harvest. Branch from origin/main for any follow-up.
+
+### ahl-al-hikma ep01-ep04 (12 Nov 2026)
+
+New record work/ahl-al-hikma (27 episodes in the harvest, 81 files); episodes 1 to 4 written (ar, en, ur). Decision dec-20261112-265 (sensitivity: contested). 31 points; needs_source on reports without a chain and on garbled stretches.
+
+| Excluded (ahl-al-hikma ep01-04) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Presenter's greetings, thanks, break announcements, closing supplications and sign-offs | ep01 00:00:00-00:02:00, 00:08:30-00:09:30, 00:16:30-00:17:30; ep02 00:06:30, 00:14:30-00:15:30; ep03 00:00:00-00:00:30, 00:09:00-00:09:30, 00:15:30-00:16:30; ep04 00:00:00-00:00:30, 00:11:30-00:12:00, 00:15:00-00:15:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep01 00:08:00, 00:12:00; ep04 00:02:00 (a long repeated letter), 00:07:00-00:08:30 (a marriage-bargaining dialogue, garbled), 00:09:30-00:10:00 | Not speech or not recoverable | Loop check, Clarity | Open |
+| A Ramadan-end prayer-time anecdote and two mosque-attendance remarks | ep04 00:11:00-00:11:30 | Garbled | Clarity | Open |
+
+Resume point: ahl-al-hikma episode 5 (branch from origin/main).
+### al-manjeyat, episode 16 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-manjeyat-4)
+
+Episode 16 read in full (23 min of transcript) before writing. 9 points written (ar, en, ur); new `about` edges for the people and passages named; 8 needs_source (unchained accounts, sayings and hadiths in sense, rulings without evidence, garbled text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-manjeyat ep16 (humility) | about 23 min (transcript) | ar, en, ur: work/al-manjeyat extended, 9 points | new `about` edges | 9 | 8 needs_source | this PR |
+
+Next step: episode 17.
+
+| Excluded (al-manjeyat ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, closing formulae | ep16 00:00:00, 00:22:30–00:23:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep16 00:13:30–00:14:00, 00:18:30–00:19:00, 00:08:00–00:08:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Verses of poetry quoted | ep16 00:09:30–00:10:00 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep16 00:02:30–00:04:30, 00:10:00–00:13:30, 00:16:00–00:18:30 | Wording not typed; by sense only | Hadith rule | Open |

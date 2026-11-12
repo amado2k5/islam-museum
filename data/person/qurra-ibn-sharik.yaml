@@ -1,0 +1,39 @@
+id: person/qurra-ibn-sharik
+class: person
+label: { ar: "قرة بن شريك العبسي", en: "Qurra ibn Sharik", ur: "قرہ بن شریک" }
+names:
+  - { kind: full, lang: ar, value: "قرة بن شريك بن مرثد بن حازم العبسي الغطفاني" }
+  - { kind: full, lang: en, value: "Qurra ibn Sharik ibn Marthad ibn Hazim al-Absi al-Ghatafani" }
+  - { kind: alternate, lang: en, value: "Kurra b. Sharik" }
+  - { kind: nisba, lang: ar, value: "العبسي" }
+  - { kind: nisba, lang: ar, value: "الغطفاني" }
+summary:
+  ar: "قرة بن شريك بن مرثد بن حازم العبسي الغطفاني، والي مصر للخليفة الأموي الوليد بن عبد الملك من سنة 90 إلى 96هـ/709 إلى 714م، وهو من عرب الشام الشماليين من ناحية قنسرين. أعاد بناء جامع عمرو بن العاص في الفسطاط، وعمل على إحياء الأراضي الموات، وأعاد تنظيم دواوين مصر سنة 95هـ، وتوفي بالطاعون وهو في منصبه. وتذكر دائرة المعارف الإسلامية أن البرديات تصحح الصورة الجائرة التي رسمتها له المصادر المتأخرة {cite:encyclopaedia-of-islam-2 vol. 5 p. 538}."
+  en: "Qurra ibn Sharik ibn Marthad ibn Hazim al-Absi al-Ghatafani governed Egypt for the Umayyad caliph al-Walid ibn Abd al-Malik from 90 to 96 AH, 709 to 714 CE. A Syrian Arab from the Qinnasrin region, he rebuilt the mosque of Amr ibn al-As at Fustat, worked to bring waste land back into cultivation, reorganised the diwans of Egypt in 95/713-14, and died of plague in office. The Encyclopaedia of Islam notes that the Egyptian papyri correct the harsh picture drawn of him by later chroniclers {cite:encyclopaedia-of-islam-2 vol. 5 p. 538}."
+  ur: "قرہ بن شریک بن مرثد بن حازم العبسی الغطفانی اموی خلیفہ ولید بن عبدالملک کی طرف سے 90 تا 96ھ/709 تا 714ء مصر کے والی رہے۔ وہ قنسرین کے علاقے کے شامی عرب تھے۔ انہوں نے فسطاط میں مسجد عمرو بن العاص کو از سر نو تعمیر کیا، بنجر زمینوں کو آباد کرنے کی کوشش کی، 95ھ/713-714ء میں مصر کے دیوان نئے سرے سے ترتیب دیے اور منصب پر رہتے ہوئے طاعون سے فوت ہوئے۔ دائرۃ المعارف الاسلامیہ بتاتا ہے کہ مصری پیپائرس ان کی وہ سخت تصویر درست کرتے ہیں جو بعد کے مؤرخین نے بنائی {cite:encyclopaedia-of-islam-2 vol. 5 p. 538}."
+gender: male
+roles: [emir]
+wings: [people]
+periods: [period/umayyad]
+regions: [egypt-nile]
+died: { edtf: "0714", hijri: "0096", calendar: julian, precision: year, status: tradition, derived: true, note: "EI2 gives Safar 96 / October-November 714 on the authority of al-Tabari, or 23 Rabi I 96 / 6 December 714 on the authority of al-Maqrizi; both are kept {cite:encyclopaedia-of-islam-2 vol. 5 p. 539}.", sources: [source/encyclopaedia-of-islam-2] }
+story_roles:
+  - { role: official, toward: place/misr, start: { edtf: "0709-01", hijri: "0090-03", calendar: julian, precision: month }, end: { edtf: "0714", hijri: "0096", calendar: julian, precision: year }, status: historical, note: "Governor of Egypt, amir of prayer and financial director, for al-Walid ibn Abd al-Malik; arrived at Fustat on 3 or 13 Rabi I 90 (10 or 20 January 709) {cite:encyclopaedia-of-islam-2 vol. 5 p. 538}.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: ruler_of, target: place/misr, start: { edtf: "0709-01", hijri: "0090-03", calendar: julian, precision: month }, end: { edtf: "0714", hijri: "0096", calendar: julian, precision: year }, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/al-fustat, note: "Seat of the governor of Egypt {cite:encyclopaedia-of-islam-2 vol. 5 p. 538}.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: member_of, target: group/abs, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: built, target: building/masjid-amr-fustat, note: "Rebuilt the mosque entirely on the caliph's order, 92-93 AH {cite:encyclopaedia-of-islam-2 vol. 5 p. 538}.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., article Kurra b. Sharik (C. E. Bosworth), vol. 5, PDF pages 538-539"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-3
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 5, article Kurra b. Sharik b. Marthad b. Hazim al-Abs al-Ghatafani, PDF pages 538-539"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "قرة بن شريك كان حاكم مصر قبل أكثر من ألف سنة، وأعاد بناء مسجد عمرو بن العاص وأصلح أراضي المزارعين."
+  en: "Qurra ibn Sharik ruled Egypt for the caliph more than a thousand years ago, rebuilt the mosque of Amr ibn al-As and helped bring unused land back to farmers."
+  ur: "قرہ بن شریک ہزار سال سے زیادہ پہلے خلیفہ کی طرف سے مصر کے حاکم تھے، انہوں نے مسجد عمرو بن العاص دوبارہ بنوائی اور بنجر زمینیں کاشت کاروں کو لوٹانے میں مدد دی۔"

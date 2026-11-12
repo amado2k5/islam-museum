@@ -1,8 +1,35 @@
 ---
 id: building/bir-zamzam
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
-The well inside the [[building/masjid-al-haram|Sacred Mosque]] in Mecca, from which pilgrims and those performing the lesser pilgrimage drink; in Islamic memory it is linked to the story of Hajar and Isma'il. {cite:wikidata}
+Zamzam is the sacred well at the perimeter of the sacred complex of [[place/mecca|Mecca]]. It lies to the east of the [[building/kaaba|Kaaba]], alongside the wall where the Black Stone is set, and a little farther from the centre than the Station of Abraham, [[object/maqam-ibrahim|Maqam Ibrahim]]. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457} Today the well is a subterranean arrangement that also opens to the east, and the sacred water is distributed through taps. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457}
+
+## The name
+The article calls the noun zamzam onomatopoeic. It is apparently linked to the adjectives zamzam and zumazim, which the medieval Arabic dictionaries explain as an abundant supply of water, a water-point regarded as never drying up. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457} Several of the stories told about the well explain the name from a dull, murmuring sound, which can be a distant roll of thunder before rain or a guttural sound made with closed mouth by an animal or a person, and which the sources treat as a carrier of the sacred and of mystery. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457}
+
+## What the stories say, and how the article treats them
+The Qur'an does not refer to the well directly. In the Islamic sources of the Abbasid period the well was drawn into a mythic discourse about the past that goes far beyond what the Qur'anic text seems to allow, and the article says this discourse can no longer be regarded as relating historical facts. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457} It points the reader to the geographer Yaqut for a brief list of the many versions. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457}
+
+Among the explanations of the murmuring, the medieval sources generally attribute it to the prayer of the Zoroastrians, who are said to have made pilgrimages to Mecca on account of their supposed kinship with Abraham and to have prayed over the well in their own manner; the article cites [[person/al-masudi|al-Mas'udi]] for this account. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457} A version passed on by [[person/yaqut-al-hamawi|Yaqut]] makes the angel Gabriel the one who murmured over the well. The article links this to the non-Qur'anic accounts of [[person/hajar|Hagar]] and her son [[person/ismail|Ishmael]], brought to Mecca by [[person/ibrahim|Abraham]], in which an angel causes inexhaustible water to spring up for the mother and the child who are on the point of dying of thirst; it cites [[person/ibn-hisham|Ibn Hisham]] for this. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457} A later account, from al-Ayni, the commentator on al-Bukhari, derives the word from the precious "bridles" that the ancestor of the Sasanids is supposed to have given to the well. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457}
+
+The article observes that these accounts are not all of one period, provenance or purpose, and says that working out their chronology would be a worthwhile project. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457}
+
+## Abd al-Muttalib and the re-digging
+The museum's event record for the re-digging, which draws on al-Raheeq al-Makhtum, tells that [[person/abd-al-muttalib|Abd al-Muttalib]], directed by a dream, dug Zamzam again and found what the Jurhum had buried in it: swords, armour and two gazelles of gold. He used the swords as a door for the Kaaba, and when Quraysh disputed his claim, an arbitration confirmed the well to him. {cite:mubarakpuri-raheeq p. 48-53} See [[event/redigging-of-zamzam|The Re-digging of Zamzam]]. The article's bibliography points to Ibn Habib's book on Quraysh for the rediscovery of the well by Abd al-Muttalib and the exclusive right of providing water that was awarded to him, and says the account adds that all the other members of the tribe fell ill. {cite:encyclopaedia-of-islam-2 vol. 11 p. 459}
+
+## Buildings and administration
+For the architecture from the early Abbasid age, the article refers to the study by Gaudefroy-Demombynes, which describes a domed structure over the well, a basin for ablutions, and a circular basin around the curb of the well where water was drawn in buckets lifted by pulleys and poured into pitchers and earthenware casks. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457} It names that study, and the Meccan history of al-Azraqi, who died in 249/858, as the main routes into the caliphal period, and the Andalusian pilgrim Ibn Jubayr, in the second half of the 6th/12th century, as an important eyewitness to the administration of the well and the veneration shown to it. {cite:encyclopaedia-of-islam-2 vol. 11 p. 457}
+
+## Place in the pilgrimage and the Umayyad period
+The article reports the view of Gaudefroy-Demombynes that the cult of Zamzam did not take its place in the pilgrimage as an obligatory rite. It also notes his doubts about the standing of Zamzam under the Umayyads, who are said to have taken over a spring on Mount Thabir to improve the water supply of the lower city of Mecca. This aroused the hostility of the inhabitants, even though the water was purer and pleasanter to drink than that of the sacred well. {cite:encyclopaedia-of-islam-2 vol. 11 p. 459}
+
+## Devotion to its water
+Despite this, the article says, the faith of pilgrims from early Islamic times to the present has kept lending outstanding qualities to the water of Zamzam, which is seen as a bearer of baraka and as a curative source. It stresses that Muhammad drank this water and used it regularly for various purposes. {cite:encyclopaedia-of-islam-2 vol. 11 p. 459} Yaqut, in his article on Zamzam, reports a saying that Mujahid transmitted from Ibn Abbas: whoever drinks it hoping for a cure will be cured by God, whoever is thirsty will be quenched, and whoever is hungry will be satisfied. {cite:encyclopaedia-of-islam-2 vol. 11 p. 459}
+
+The same fervour led to practices that the article calls magical in type, such as dipping linen in the water to serve later as a shroud, a practice the article says could provoke the anger of certain jurists, and it raised questions about ablutions and which parts of the body may be sprinkled with the water. Small clay or metal flasks called zamzamiyyat, sealed and sold as holding water from the well, are still prized by pilgrims and carried home; accredited and licensed water-drawers, the zamazima, have existed since medieval times. Popular belief also holds that other holy wells, such as the one in the Great Mosque at Kairouan, are connected to Zamzam underground. {cite:encyclopaedia-of-islam-2 vol. 11 p. 459}
+
+## What this record does not cover
+The OCR of the page of the article between these two passages is unreadable, so the museum has not read all of the article's treatment of the history of the cult, and the entry gives no dates for the well's origin. The article's bibliography also cites G. R. Hawting's study of the disappearance and rediscovery of Zamzam and the "well of Mecca" in the Bulletin of the School of Oriental and African Studies, 1980, for the development of the cult. {cite:encyclopaedia-of-islam-2 vol. 11 p. 459}

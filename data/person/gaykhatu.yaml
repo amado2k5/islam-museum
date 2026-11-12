@@ -1,0 +1,39 @@
+id: person/gaykhatu
+class: person
+label: { ar: "كيخاتو", en: "Gaykhatu", ur: "گیخاتو" }
+names:
+  - { kind: regnal, lang: en, value: "Rin-chen rDo-rje" }
+  - { kind: alternate, lang: en, value: "Gaykhatu Khan" }
+  - { kind: alternate, lang: en, value: "Kaykhatu" }
+summary:
+  ar: "كيخاتو، الإلخان من سنة 690هـ/1291م إلى سنة 694هـ/1295م، الابن الأصغر لأباقا، رفعه أمراء المغول بعد موت أخيه أرغون. وتصفه دائرة المعارف الإسلامية بالسخاء المفرط وبتبديد الخزينة، وبأنه الإلخان الوحيد الذي لم ينفذ أي إعدام. أدخل النقد الورقي على النمط الصيني بنصيحة وزيره، فانهارت مالية الدولة، ثم خذله أمراؤه وأُعدم عند زحف بيدو عليه {cite:encyclopaedia-of-islam-2 vol. 2 p. 1024}."
+  en: "Gaykhatu was Ilkhan from 690/1291 to 694/1295, the younger son of Abaqa, raised to power by the Mongol leaders after the death of his brother Arghun. The Encyclopaedia of Islam describes his unbounded liberality and his emptying of the treasury, and says he was the only Ilkhan to carry out no executions. On his finance minister's advice he introduced Chinese-style paper money, the state's finances collapsed, and he was deserted by his amirs and executed when Baydu advanced against him {cite:encyclopaedia-of-islam-2 vol. 2 p. 1024}."
+  ur: "گیخاتو 690ھ/1291ء سے 694ھ/1295ء تک ایل خان رہے، ابقا کے چھوٹے بیٹے تھے اور بھائی ارغون کی وفات کے بعد منگول سرداروں نے انہیں اقتدار دیا۔ دائرۃ المعارف الاسلامیہ ان کی بے پایاں سخاوت اور خزانہ لٹا دینے کا ذکر کرتا ہے اور کہتا ہے کہ وہ واحد ایل خان تھے جنہوں نے کوئی سزائے موت نافذ نہ کی۔ وزیرِ مالیات کے مشورے پر چینی طرز کا کاغذی زر متعارف کرایا تو ریاست کی مالیات ڈھے گئی، اور بیدو کی پیش قدمی پر امیروں نے ساتھ چھوڑ دیا اور انہیں قتل کر دیا گیا {cite:encyclopaedia-of-islam-2 vol. 2 p. 1024}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, anatolia-balkans]
+faith:
+  - { value: unknown, basis: unknown, note: "EI2 records that he took Tibetan Buddhist names at accession and says he was in no way hostile to the Muslims {cite:encyclopaedia-of-islam-2 vol. 2 p. 1024}" }
+died: { edtf: "1295-03", hijri: "0694", calendar: julian, precision: month, status: historical, derived: true, note: "EI2 vol. 2: defeated at Hamadan on 3 Jumada I 694/21 March 1295 and executed three days later; EI2 vol. 1 (Baydu) instead gives his strangling as 6 Jumada II/21 April 1295. The two articles differ. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1024}" }
+relations:
+  - { type: child_of, target: person/abaga-ibn-hulagu, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: sibling_of, target: person/arghun-khan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: ruler_of, target: polity/ilkhanate, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/ghazan-khan, note: "His nephew and eventual successor after six months of civil war.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/baydu-khan, note: "Baydu, prince of Baghdad, advanced against him and was invited to the throne.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-3
+  canon: "Encyclopaedia of Islam, 2nd ed., vol. 2, article Gaykhatu, p. 1024; vol. 7 Mongols p. 260; vol. 5 Kirman (Kutlugh-Khanids) p. 593"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "كيخاتو إلخان كريم جداً، لكن النقود الورقية التي جربها لم تنجح."
+  en: "Gaykhatu was a very generous Ilkhan, but the paper money he tried did not work."
+  ur: "گیخاتو بہت سخی ایل خان تھے، مگر ان کا آزمایا ہوا کاغذی زر کامیاب نہ ہوا۔"

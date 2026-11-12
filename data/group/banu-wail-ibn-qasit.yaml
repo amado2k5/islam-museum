@@ -1,0 +1,19 @@
+id: group/banu-wail-ibn-qasit
+tags: ["ansab-browser", "ansab-butun"]
+class: group
+kind: clan
+label: { ar: "بنو وائل بن قاسط", en: "Banu Wa'il ibn Qasit" }
+summary:
+  ar: "بطن من الأوس بيثرب من ولد وائل بن قاسط؛ منه سعد بن خيثمة الشهيد ببدر، وهند بنت عمرو زوج عمرو بن الجموح أُم معاذ ومعوذ؛ من بيوت الأوس المبايعة {cite:ibn-hisham-sira}."
+  en: "A batn of Aws at Yathrib, the house of Sa'd ibn Khaythama the Badr martyr and Hind bint Amr the mother of Mu'adh and Mu'awwidh; among the pledging houses of Aws {cite:ibn-hisham-sira}."
+  ur: "اوس کا بطن یثرب میں — بدر کے شہید سعد بن خیثمہ اور معاذ و معوذ کی ماں ہند کا گھرانہ۔"
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/al-aws, sources: [source/ibn-hisham-sira] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — butun records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-butun-1
+sources: [source/ibn-hisham-sira]
+status: { review: draft, completeness: 1 }

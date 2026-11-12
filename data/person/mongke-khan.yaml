@@ -1,0 +1,39 @@
+id: person/mongke-khan
+class: person
+label: { ar: "منكو خان", en: "Mongke Khan", ur: "منگو خان" }
+names:
+  - { kind: alternate, lang: en, value: "Möngke" }
+  - { kind: alternate, lang: ar, value: "منكوقاآن" }
+  - { kind: alternate, lang: en, value: "Mangu" }
+summary:
+  ar: "منكو، رابع الخانات العظام للإمبراطورية المغولية، وابن تولوي أصغر أبناء جنكيز خان. تولى العرش سنة 1251م بعد فترة نيابة طويلة، وبأمره سار أخوه هولاكو إلى الغرب فنشأت الدولة الإلخانية، وأرسل أخاه قبلاي إلى جنوب الصين. وتصفه دائرة المعارف الإسلامية بأنه ظل متعلقاً بالشامانية مع تسامحه مع أديان كثيرة {cite:encyclopaedia-of-islam-2 vol. 7 p. 258}."
+  en: "Mongke was the fourth Great Khan of the Mongol Empire and a son of Tolui, Genghis Khan's youngest son. Enthroned in 1251 after a long interregnum, he sent his brother Hulagu west on the expedition that led to the Ilkhanate and his brother Kubilay against the Sung in the south of China. The Encyclopaedia of Islam says he stayed personally attached to Shamanism while tolerating a wide range of faiths {cite:encyclopaedia-of-islam-2 vol. 7 p. 258}."
+  ur: "منگو منگول سلطنت کے چوتھے عظیم خان اور چنگیز خان کے سب سے چھوٹے بیٹے تولوئی کے فرزند تھے۔ طویل وقفے کے بعد 1251ء میں تخت نشین ہوئے، اور ان کے حکم سے ان کے بھائی ہلاکو مغرب کی طرف روانہ ہوئے جس سے ایل خانی سلطنت قائم ہوئی، جبکہ دوسرے بھائی قبلائی کو جنوبی چین میں سونگ سلطنت کی طرف بھیجا گیا۔ دائرۃ المعارف الاسلامیہ کے مطابق وہ ذاتی طور پر آبائی شمن مت سے وابستہ رہے مگر بہت سے مذاہب کے ساتھ رواداری برتتے تھے {cite:encyclopaedia-of-islam-2 vol. 7 p. 258}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, china-east-asia]
+faith:
+  - { value: other, basis: documented, note: "Ancestral Shamanism, per the Encyclopaedia of Islam; tolerant of Christians, Muslims and Buddhists {cite:encyclopaedia-of-islam-2 vol. 7 p. 258}" }
+died: { edtf: "1259", calendar: julian, precision: year, status: historical, derived: true, note: "The EI2 article places his death in China, but the OCR line carrying the date is damaged; the year 1259 is the one given in the assignment brief and agrees with the entry's remark that Hulagu's and Kubilay's campaigns were still under way {cite:encyclopaedia-of-islam-2 vol. 7 p. 258}." }
+relations:
+  - { type: ruler_of, target: polity/mongol-empire, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: sibling_of, target: person/hulagu, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: sibling_of, target: person/qubilay-khan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: polity/ilkhanate, note: "The Ilkhanate arose from the western expedition he commissioned from Hulagu.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: polity/golden-horde, note: "Allied with Batu in the coup of 1251; Batu kept autonomy in the Golden Horde lands.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-3
+  canon: "Encyclopaedia of Islam, 2nd ed., vol. 7, article Möngke, p. 258 (with Mongols, pp. 258-260)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "منكو خان خان مغولي عظيم، أرسل أخويه ليحكما في الشرق والغرب."
+  en: "Mongke was a great Mongol khan who sent his two brothers out east and west."
+  ur: "منگو ایک بڑے منگول خان تھے جنہوں نے اپنے دو بھائیوں کو مشرق اور مغرب کی طرف بھیجا۔"
