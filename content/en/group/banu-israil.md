@@ -12,7 +12,7 @@ Banu Isra'il are the descendants of Ya'qub ibn Ishaq ibn Ibrahim — the nation 
 في النصوص: يذكر القرآن بني إسرائيل في أكثر من خمسين موضعاً: موسى وهارون وتلوت وطالوت وداود وسليمان وزكريا ويحيى وعيسى ابن مريم كلهم منهم، وفي بني إسرائيل قصص السبت والبقرة والملك والتيه {cite:tafsir-tabari-shakir-v01}.
 
 ## In Islam and history
-في النسب: إسرائيل هو يعقوب عليه السلام في أهل السير، ومن أسباطه الاثني عشر خرجت أحياؤهم المعروفة، وفيهم يهود المدينة من النضير وقينقاع وقريظة ويهود خيبر {cite:tarikh-ard-al-quran} {cite:ibn-hisham-sira}.
+في النسب: إسرائيل هو يعقوب في أهل السير، ومن أسباطه الاثني عشر خرجت أحياؤهم المعروفة، وفيهم يهود المدينة من النضير وقينقاع وقريظة ويهود خيبر {cite:tarikh-ard-al-quran} {cite:ibn-hisham-sira}.
 
 ## For younger visitors
 Banu Isra'il are Ya'qub's descendants — most of God's prophets were among them, and their stories fill the Qur'an.
