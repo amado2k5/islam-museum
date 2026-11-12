@@ -1,0 +1,73 @@
+id: dec-20261112-238
+kind: decision
+date: 2026-11-12
+expires_at: 2027-11-12
+question_hash: 821484b1e0ec
+lane: omar-abdelkafy
+class: content
+modality: repo
+domain: safety
+mode: conservative
+question: "Sensitivity label for a lecture-series record:
+  work/silsilat-ebadu-al-rahman (Omar Abdelkafy, Assabile) episodes 9, 10 and 12
+  hold the lecturer's own opinions on disputed matters (abortion, contraception,
+  women's fields of work and separate schooling, censorship, atheism called a
+  sickness, an unsourced claim about imported food). Set sensitivity: contested
+  on the record and mark each such point as the lecturer's view, per the
+  audio-video harvest method rules 2 and 3 of 25 Oct 2026?"
+options:
+  - "set sensitivity: contested and mark each such point as the lecturer's view"
+  - no sensitivity label
+  - leave the opinion passages out
+evidence:
+  - "docs/agents/audio-video-harvest.md, 'Include everything, and categorise
+    it', rules 2 and 3 (founder, 25 Oct 2026): opinions and rants are included,
+    labelled as the speaker's view; sensitivity: contested on a record that
+    holds disputed matter"
+  - "docs/delegation/omar-abdelkafy-progress.md, batch H4:
+    work/sharh-al-hekam-al-ataeya marked sensitivity: contested for the same
+    reason"
+  - "Reversible: one YAML field and inline labels in three prose files"
+status: decided
+step: rule
+decision: "harvest inclusively: any intelligible topic is included, contested
+  windows are included as the speaker said them, opinions/rants are categorised
+  by closest fit, garbled windows are discarded and reported — nothing silently
+  dropped"
+confidence: 0.85
+reversible: true
+rationale: "Answered by a standing repository rule (rule-harvest-include):
+  founder harvest rulings 25 Oct 2026 (docs(harvest) commits)."
+rule: founder harvest rulings 25 Oct 2026 (docs(harvest) commits)
+rule_id: rule-harvest-include
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-harvest-include
+chain:
+  depth: 0
+  root_id: rule:rule-harvest-include
+  root_kind: rule
+  root_expires_at: null
+  derived_rule_hash: 576da99fff5ac1a2
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - rule-harvest-include
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+state_chain:
+  current_state: applied
+  applied:
+    at: 2026-11-12
+    by: omar-abdelkafy (Claude Code claude-fable-5-2)
+    note: "work/silsilat-ebadu-al-rahman labelled sensitivity: contested; opinion
+      points of eps 9, 10 and 12 marked as the lecturer's view"

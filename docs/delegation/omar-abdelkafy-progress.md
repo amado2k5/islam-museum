@@ -280,3 +280,23 @@ Trust criteria used (recorded for reuse): a point is written only from windows t
 | Naming Nuh as the prophet called "an insolent liar" | ebadu ep04 00:13:00 | Likely a slip or mis-transcription; the point is written without the name | Accuracy | Open |
 | Figures "46 parts" and "13 hours" for the day's half-hours | ebadu ep05 00:13:00 | Garbled figures; the half-hour programme is written without them | Clarity | Open |
 | Hadith alluded to on Satan and the one who sleeps through the prayer | ebadu ep05 00:08:30 | Hadith wording not typed; only the lecturer's contrast is written | Hadith rule | Open |
+
+### Completed recordings (§8), continued
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| silsilat-ebadu-al-rahman ep06–ep09 (refuge from Hell and supplication; the middle course in spending; pure monotheism; the sanctity of life and "moral killing") | about 19–23 min each (transcript) | ar, en, ur: 1 record extended, 59 points | 19 new `about` edges (verses 25:65–68, khawf, jahannam, dua, israf, ummat wasat, tawhid, tawakkul, qibla, zulm, ijhad, tarbiya; Hudhayfa, Umar, al-Shafi'i, Musa) | ep06 15, ep07 14, ep08 15, ep09 15 points; engine qwen3-asr pass5, 30 s windows | 5 needs_source (17 hypocrites, ep06 00:02:00; counts of "fire", "garden", "mercy", "punishment" in the Qur'an, ep06 00:10:30; Ibn Mas'ud on the unanswered greeting, ep07 00:14:00; imported-food claim, ep09 00:08:30; Umar's "shackle" saying, ep09 00:20:00) | run omar-abdelkafy-ebadu-al-rahman-3 |
+
+Notes for ep06–ep09. (1) Broadcast: at ep08 00:01:00 the lecturer greets "the viewers of the Sharjah satellite channel", so the programme was broadcast there; recorded in the episode section. (2) Dating evidence (an inference, marked as such): at ep08 00:04:00 he speaks of an earthquake of about nine on the Richter scale in Japan as a recent event, which fits the earthquake of March 2011, so the series was probably recorded in Ramadan 1432 (August 2011) or later; not written as a date in the record. (3) Sensitivity: episodes 9, 10 and 12 carry the lecturer's opinions on disputed matters (abortion, contraception, women's work and separate schooling, censorship, atheism, an unsourced claim about imported food). The decision engine (question `docs/decisions/inbox/assabile-ebadu-sensitivity-contested.yaml`) answered with rule-harvest-include: such points are included, attributed, and each is marked "the lecturer's view"; the record is labelled `sensitivity: contested`, as `work/sharh-al-hekam-al-ataeya` was.
+
+| Excluded (ebadu ep06–ep09) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, break jingles, closing formulae | ep06 00:00:00–00:01:00, 00:14:00–00:15:00, 00:22:30; ep07 00:00:00–00:01:00, 00:10:30–00:11:00, 00:18:30–00:19:00; ep08 00:00:00–00:00:30, 00:11:30–00:12:30, 00:21:30–00:22:30; ep09 00:00:00–00:01:00, 00:13:30–00:14:00, 00:22:00–00:22:30 | Not lesson content; Qur'an never typed | Content rule; Qur'an rule | Open |
+| Repetition loops | ep06 00:05:30 (tail), 00:10:00, 00:11:30 (tail); ep07 00:17:00; ep08 00:05:00 (tail), 00:16:00 (tail), 00:19:30 (tail); ep09 00:01:30, 00:07:30, 00:13:30 | Not speech | Loop check | Open |
+| Garbled figures for the number of verses («3663», «6836») | ep08 00:06:00–00:06:30 | Garbled; the clear figure given at 00:09:00 (6,236) is used | Clarity | Open |
+| Verses recited (Shawqi's praise poem; "we walked steps written for us"; "let events run"; the orphan line; the old woman and the perfumer; white hair before its time) | ep08 00:07:00–00:08:00, 00:16:00, 00:20:00; ep09 00:16:30, 00:17:30, 00:21:00 | Verbatim verse, partly garbled; named or given by sense only | Sources policy; clarity | Open |
+| Remark on Jerusalem and Palestine in the passage on money turning friends to enemies | ep07 00:12:30–00:13:00 | Garbled simile; meaning not recoverable | Clarity | Open |
+| Figure in the "stone in a boy's hand" remark | ep07 00:18:00 | Garbled figure and unclear reference; only the clear list of causes of strength is written | Clarity | Open |
+| Hot and cold water passage | ep06 00:18:30–00:19:00 | Partly garbled; the clear point (taste depends on the drinker's state) is written from the preceding window | Clarity | Open |
+| Wife who says her husband threatens her; the husband who is "not jealous" | ep09 00:13:00 | Garbled | Clarity | Open |
+| Foreign words of address ("tante") and the remark on language | ep09 00:19:30–00:20:00 | Loop tail, fragmentary | Loop check | Open |
