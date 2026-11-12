@@ -1008,3 +1008,20 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 683 (printed) | 400 | "أعان النظر على المى" | the word is unclear in the scan; "الهدم" is the likely reading | flagged; not asserted |
 | 683 (printed) | 400 | the hadith from Abu Hurayra | a quoted report with the Prophet's formula | described only |
+
+## Batch 106 (run microsd-books-b106, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 400–401 (full text read before writing). Printed 684 (sequence 685), "الأخوان عبد الله وهمام", is written as two records: person/abd-allah-ibn-muhammad-ibn-al-numan (Abu Bakr) and person/hammam-ibn-muhammad-ibn-al-numan (Abu Amr). Both cite the same notice, with the father linked to person/muhammad-ibn-al-numan-ibn-abd-al-salam.
+- Checked against the scan: the brothers' joint description; the Aisha chain (Ja'far ibn Ma'bad, Abd Allah ibn Muhammad ibn al-Nu'man, Farwa, Ali ibn Mushir, Yusuf ibn Maymun, Ata, Aisha), which Abu Nu'aym calls gharib; the Abu Hurayra chain through Hammam to Abd al-Rahman ibn Muhammad.
+- Not confirmed: the father's name in the first link of the Abu Hurayra chain (the scan reads "ابن حمر"; read as Hamdan, flagged); the rest of Farwa's nisba is unclear in the scan and left unrecorded.
+- Both hadiths carry the Prophet's formula; described only, not quoted.
+- Next is printed 685 (Muhammad ibn al-Faraj al-Wadhankani), on page 401.
+- Printed 532, 546 and 666 stay held.
+
+## Exclusions and garbled readings (batch 106)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 684 (printed) | 400 | Aisha hadith with the Prophet's formula | a quoted report with the formula | described only |
+| 684 (printed) | 400 | Abu Hurayra hadith with the Prophet's formula | a quoted report with the formula | described only |
+| 684 (printed) | 400 | "ابن حمر" in the first link | garbled in the OCR | read as Hamdan, flagged |
+| 684 (printed) | 400 | "فروة بن أب المرام" | the nisba is truncated in the OCR | name Farwa only; nisba not recorded |
