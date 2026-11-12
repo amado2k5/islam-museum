@@ -1,0 +1,71 @@
+ORACLE 04: no cornerstone is a dead end; every published record within three hops of a cornerstone (statement 4)
+file: scripts/fable/o04_reachability.py
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 876  (the numbers below describe the working tree, not HEAD)
+graph artifact: .cache/graph.json; built from commit ca0886cd1d3c5330c87270ed50bc21118241b598; 56433 nodes, 136424 edges
+------------------------------------------------------------------------------
+cornerstones: 271
+  distinct neighbours:  0: 7   1: 5   2: 17   3: 11   4: 16   5+: 215
+  isolated (no neighbour): 7
+    concept/al-hadith-al-nabawi
+    object/ardabil-carpet
+    period/abbasid-fragmentation
+    period/buyid-seljuk-fatimid-era
+    period/contemporary-era
+    period/gunpowder-empires
+    period/modern-era
+  leaves (one neighbour): 5
+    concept/sharia  ->  concept/ibada
+    polity/delhi-sultanate  ->  place/delhi
+    polity/seljuk-empire  ->  place/nishapur
+    polity/timurid-empire  ->  polity/safavid-iran
+    practice/eid-al-fitr  ->  work/muktatafat-mena-al-seera
+[FAIL] no cornerstone is a dead end (each has at least two distinct neighbours over meaningful relations): 12 dead ends (7 isolated, 5 leaves)
+  finer measure, not a check: cornerstones whose own file writes no relation: 73 ({'place': 30, 'concept': 18, 'period': 13, 'work': 4, 'polity': 3, 'practice': 2, 'building': 1, 'group': 1, 'object': 1})
+
+Hop distance to the nearest cornerstone, published records (the population the statement is about): 18,699 records
+  0 hops (a cornerstone)     106
+  1 hops                   3,763
+  2 hops                   1,427
+  3 hops                   1,827
+  4 hops                     335
+  5 hops                     252
+  6 hops                      65
+  7 hops                      24
+  8 hops                      10
+  9 hops                       4
+  10 hops                       2
+  11 hops                       1
+  12 hops                       1
+  no path to any cornerstone  10,882
+  within three hops: 7,123 of 18,699 (38.1%); beyond three hops: 694; unconnected: 10,882
+
+Hop distance to the nearest cornerstone, all records: 54,538 records
+  0 hops (a cornerstone)     271
+  1 hops                  12,635
+  2 hops                  11,575
+  3 hops                   4,540
+  4 hops                   1,017
+  5 hops                     451
+  6 hops                     161
+  7 hops                      60
+  8 hops                      36
+  9 hops                      14
+  10 hops                       3
+  11 hops                       4
+  12 hops                       2
+  no path to any cornerstone  23,769
+  within three hops: 29,021 of 54,538 (53.2%); beyond three hops: 1,748; unconnected: 23,769
+
+The uncovered published population: 11,576 records
+  of which have no relation at all in the graph: 10,508
+  of which have relations but no path within three hops: 1,068
+  by class: {'source': 8846, 'person': 811, 'passage': 677, 'work': 303, 'media': 222, 'concept': 137, 'building': 133, 'listing': 91, 'place': 79, 'group': 78, 'question': 62, 'event': 37, 'job': 28, 'invention': 26, 'practice': 13, 'award': 11, 'object': 10, 'polity': 7, 'exhibit': 4, 'journey': 1}
+
+The same measure without the museum's reference apparatus (source, media and dataset records, which attach to records by citation, not by relation):
+  published subject records: 9,631; within three hops: 7,123 (74.0%); uncovered: 2,508
+  of the 8,846 uncovered source records, 3,822 are cited by a record within two hops of a cornerstone, and 53 are cited by no record. A citation is not a relation and is not counted as a hop.
+[FAIL] every published record sits within three relation-hops of a cornerstone: 11,576 of 18,699 published records do not
+------------------------------------------------------------------------------
+RESULT: NOT-GREEN (2 failed: no cornerstone is a dead end (each has at least two distinct neighbours over meaningful relations); every published record sits within three relation-hops of a cornerstone)
