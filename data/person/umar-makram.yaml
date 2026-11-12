@@ -1,0 +1,33 @@
+id: person/umar-makram
+class: person
+label: { ar: "عمر مكرم", en: "Umar Makram", ur: "عمر مکرم" }
+names:
+  - { kind: full, lang: ar, value: "السيد عمر مكرم" }
+  - { kind: alternate, lang: en, value: "al-Sayyid Umar Makram" }
+summary:
+  ar: "السيد عمر مكرم، نحو 1755-1822م، زعيم شعبي في القاهرة بين 1791 و1809، ونقيب الأشراف في مصر منذ نوفمبر 1793. نظّم مقاومة شعبية للفرنسيين، وشارك في تولية محمد علي سنة 1805، ثم عارض مطالبه الضريبية فنُفي إلى دمياط سنة 1809 وإلى طنطا، وتوفي هناك سنة 1822 {cite:encyclopaedia-of-islam-2 vol. 10 p. 889}."
+  en: "Al-Sayyid Umar Makram, c. 1755-1822, was the charismatic leader of the common people in Cairo between 1791 and 1809 and naqib al-ashraf of Egypt from November 1793. He helped organise popular resistance to the French, took part in making Muhammad Ali governor in 1805, then opposed his tax demands and was banished to Damietta in 1809 and later to Tanta, where he died in 1822 {cite:encyclopaedia-of-islam-2 vol. 10 p. 889}."
+  ur: "السید عمر مکرم، تقریباً 1755ء تا 1822ء، 1791ء سے 1809ء تک قاہرہ کے عوام کے کرشماتی رہنما اور نومبر 1793ء سے مصر کے نقیب الاشراف تھے۔ انہوں نے فرانسیسیوں کے خلاف عوامی مزاحمت منظم کرنے میں مدد کی، 1805ء میں محمد علی کو والی بنانے میں حصہ لیا، پھر ان کے محصولات کے مطالبات کی مخالفت کی تو 1809ء میں دمیاط اور بعد میں طنطا جلاوطن ہوئے جہاں 1822ء میں فوت ہوئے {cite:encyclopaedia-of-islam-2 vol. 10 p. 889}."
+gender: male
+roles: [politician, activist]
+wings: [people]
+periods: [period/modern-era]
+regions: [egypt-nile]
+born: { edtf: "1755~", hijri: "1168", calendar: gregorian, precision: year, status: debated, derived: true, note: "EI2 gives ca. 1755; Hijri year derived", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1822", hijri: "1237", calendar: gregorian, precision: year, status: historical, derived: true, note: "died at Tanta in 1822 after being banished again in April 1822; Hijri year derived", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: died_in, target: place/tanta, sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article 'Umar Makram (D. Crecelius)"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-5
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 10 p. 889 ('Umar Makram, al-Sayyid, D. Crecelius); vol. 7 pp. 204-205 (Misr); vol. 4 p. 465 (al-Kahira)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+external_ids: { wikidata: Q3882084 }
+kids:
+  ar: "عمر مكرم قائد شعبي في القاهرة وقف مع الناس ضد الفرنسيين، ودافع عن حقوقهم أمام الحكام."
+  en: "Umar Makram was a leader of the people of Cairo who stood with them against the French and spoke up for them before the rulers."
+  ur: "عمر مکرم قاہرہ کے عوام کے رہنما تھے جو فرانسیسیوں کے خلاف ان کے ساتھ کھڑے ہوئے اور حکمرانوں کے سامنے ان کے لیے بولے۔"

@@ -1,0 +1,38 @@
+id: person/hermann-of-carinthia
+class: person
+label: { ar: "هرمان الكارنثي", en: "Hermann of Carinthia", ur: "ہرمن کارنتھیائی" }
+names:
+  - { kind: latinized, lang: la, value: "Hermannus Dalmata" }
+  - { kind: alternate, lang: en, value: "Hermann of Dalmatia" }
+  - { kind: alternate, lang: la, value: "Hermannus Secundus" }
+summary:
+  ar: "هرمان الكارنثي، ويسميه الموسوعة أيضاً هرمان الدلماطي، مترجم لاتيني من القرن الثاني عشر للميلاد كان من الرهبان الذين كلفهم بطرس المبجل بترجمة نصوص إسلامية إلى اللاتينية، وتنسب إليه ترجمة كتاب الكرة المسطحة لبطلميوس عن صيغة مسلمة المجريطي العربية، ونسخة لاتينية من أصول إقليدس مبنية على أصل عربي متأخر، وترجمة المدخل الكبير لأبي معشر سنة 1150م باسم هرمانوس الثاني الألماني، وتحذر المقالات من أن الأسماء تتعدد ولا تذكر ميلاده ولا وفاته {cite:encyclopaedia-of-islam-2 vol. 7 p. 791} {cite:encyclopaedia-of-islam-2 vol. 1 p. 771} {cite:encyclopaedia-of-islam-2 vol. 10 p. 847}."
+  en: "Hermann of Carinthia, called Hermann of Dalmatia elsewhere in the Encyclopaedia of Islam, was a twelfth-century Latin translator, one of the scholars Peter the Venerable commissioned to put Islamic texts into Latin. The articles credit him with Ptolemy's Planisphaerium rendered from Maslama al-Majriti's Arabic version, a Latin Euclid's Elements made from a later Arabic recension, and, under the name Hermannus Secundus or the German, a 1150 translation of Abu Ma'shar's Great Introduction. They give neither birth nor death dates {cite:encyclopaedia-of-islam-2 vol. 7 p. 791} {cite:encyclopaedia-of-islam-2 vol. 1 p. 771} {cite:encyclopaedia-of-islam-2 vol. 10 p. 847}."
+  ur: "ہرمن کارنتھیائی، جنہیں دائرۃ المعارف الاسلامیہ دوسری جگہ ہرمن دلماتی بھی کہتا ہے، بارہویں صدی عیسوی کے لاطینی مترجم تھے اور ان علما میں شامل تھے جنہیں پیٹر محترم نے اسلامی متون کے لاطینی ترجمے پر مقرر کیا۔ مقالات ان سے بطلیموس کی کتاب کرۂ مسطحہ کا وہ ترجمہ منسوب کرتے ہیں جو مسلمہ مجریطی کے عربی نسخے سے کیا گیا، اقلیدس کے اصول کا ایک متاخر عربی نسخے پر مبنی لاطینی ترجمہ، اور ہرمانوس ثانی یا جرمن کے نام سے ابو معشر کے المدخل الکبیر کا 1150ء کا ترجمہ۔ ان کی ولادت اور وفات کی تاریخیں مقالات میں نہیں {cite:encyclopaedia-of-islam-2 vol. 7 p. 791} {cite:encyclopaedia-of-islam-2 vol. 1 p. 771} {cite:encyclopaedia-of-islam-2 vol. 10 p. 847}."
+gender: male
+roles: [translator]
+wings: [people]
+themes: [translation-and-transmission, astronomy-and-timekeeping, mathematics, islam-and-christianity]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+floruit: { edtf: "1150", calendar: julian, precision: year, status: historical, note: "The Encyclopaedia of Islam dates the translation of Abu Ma'shar's Great Introduction by Hermannus Secundus to 1150 {cite:encyclopaedia-of-islam-2 vol. 1 p. 158}; it dates no other work of his, and gives no birth or death." }
+relations:
+  - { type: related_to, target: person/robert-of-ketton, note: "The article on orientalists names Robert of Ketton and Hermann of Dalmatia as the scholars Peter the Venerable commissioned to translate five Islamic texts.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/abu-mashar, note: "Translated the Great Introduction into Latin in 1150, under the name Hermannus Secundus or the German.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/maslama-al-majriti, note: "Translated Ptolemy's Planisphaerium from Maslama's Arabic version.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/uqlidis, note: "Made a Latin version of Euclid's Elements from a later Arabic recension.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/adelard-of-bath, note: "Named with Adelard of Bath and Gerard of Cremona among the twelfth-century Arabic-Latin translators of the Elements.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/gerard-of-cremona, note: "Named with Adelard of Bath and Gerard of Cremona among the twelfth-century Arabic-Latin translators of the Elements.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed.: Abu Ma'shar, Asturlab, Mustashrikun, al-Nudjum, Uklidis"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-5
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 1 p. 158 (Abu Ma'shar), p. 771 (Asturlab); vol. 7 pp. 791-792 (Mustashrikun); vol. 8 p. 119 (al-Nudjum); vol. 10 pp. 847-848 (Uklidis)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "هرمان الكارنثي ترجم إلى اللاتينية كتباً عربية في الفلك والهندسة فقرأها طلاب أوروبا."
+  en: "Hermann of Carinthia translated Arabic books on the stars and on geometry into Latin so that students in Europe could read them."
+  ur: "ہرمن کارنتھیائی نے ستاروں اور ہندسے کی عربی کتابیں لاطینی میں ترجمہ کیں تاکہ یورپ کے طلبہ انہیں پڑھ سکیں۔"

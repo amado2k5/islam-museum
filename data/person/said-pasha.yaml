@@ -1,0 +1,38 @@
+id: person/said-pasha
+class: person
+label: { ar: "سعيد باشا", en: "Sa'id Pasha", ur: "سعید پاشا" }
+names:
+  - { kind: full, lang: en, value: "Muhammad Sa'id Pasha" }
+  - { kind: full, lang: ar, value: "محمد سعيد باشا" }
+  - { kind: alternate, lang: en, value: "Said Pasha" }
+summary:
+  ar: "محمد سعيد باشا، أصغر أبناء محمد علي باشا ووالي مصر الوراثي من 1854 إلى 1863، تحت السيادة العثمانية نظرياً. وُلد سنة 1822 وتولى الحكم في تموز 1854 بعد وفاة ابن أخيه عباس حلمي الأول. عُرف بميله إلى الثقافة الفرنسية، فمنح فرديناند دي لسبس امتياز قناة السويس، وأصدر قانون الملكية العقارية الخاصة وألغى احتكار الدولة للمحاصيل سنة 1858. توفي في الإسكندرية في 17 كانون الثاني 1863 وخلفه إسماعيل {cite:encyclopaedia-of-islam-2 vol. 8 p. 924} {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}."
+  en: "Muhammad Sa'id Pasha, youngest son of Muhammad Ali Pasha, was hereditary viceroy of Egypt from 1854 to 1863, theoretically under Ottoman suzerainty. Born in 1822, he succeeded in July 1854 after the death of his predecessor 'Abbas Hilmi I. Known for his fondness for French culture, he granted Ferdinand de Lesseps the Suez Canal concession, issued Egypt's first comprehensive law on private landed property and ended the state monopoly over agricultural products in 1858. He died in Alexandria on 17 January 1863 and was succeeded by Isma'il {cite:encyclopaedia-of-islam-2 vol. 8 p. 924} {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}."
+  ur: "محمد سعید پاشا، محمد علی پاشا کے سب سے چھوٹے بیٹے، 1854ء سے 1863ء تک مصر کے موروثی والی رہے، جو نظری طور پر عثمانی بالادستی کے تحت تھا۔ وہ 1822ء میں پیدا ہوئے اور اپنے پیش رو عباس حلمی اول کی وفات کے بعد جولائی 1854ء میں تخت نشین ہوئے۔ فرانسیسی ثقافت سے لگاؤ کی وجہ سے انہوں نے فرڈیننڈ دی لیسپس کو نہرِ سویز کا امتیازی اجازت نامہ دیا، نجی زمینی جائیداد پر مصر کا پہلا جامع قانون جاری کیا اور 1858ء میں زرعی پیداوار پر ریاستی اجارہ ختم کیا۔ وہ 17 جنوری 1863ء کو اسکندریہ میں فوت ہوئے اور اسماعیل ان کے جانشین بنے {cite:encyclopaedia-of-islam-2 vol. 8 p. 924} {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}۔"
+gender: male
+roles: [politician]
+wings: [people]
+periods: [period/modern-era]
+regions: [egypt-nile]
+born: { edtf: "1822", hijri: "1237", calendar: gregorian, precision: year, status: historical, derived: true, note: "born in 1822 per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 8 p. 924}", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1863-01-17", hijri: "1279", calendar: gregorian, precision: day, status: historical, derived: true, note: "17 January 1863 per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: child_of, target: person/muhammad-ali-pasha, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/alexandria, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/ferdinand-de-lesseps, note: "granted him the Suez Canal concession", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/suez-canal, note: "signed the concession of 1856", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/port-said, note: "the canal port was named after him", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/khedive-ismail, note: "his nephew and successor as ruler of Egypt", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article Sa'id Pasha (C.E. Bosworth); article al-Suways (R. Schulze); article Misr (history)"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-5
+  canon: "EI2 vol. 8, article Sa'id Pasha, Muhammad, PDF pages 924-925; vol. 9 PDF p. 938; vol. 7 PDF p. 206"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "سعيد باشا حكم مصر قبل نحو مئة وسبعين سنة، وهو الذي سمح بحفر قناة السويس."
+  en: "Sa'id Pasha ruled Egypt about a hundred and seventy years ago, and it was he who allowed the Suez Canal to be dug."
+  ur: "سعید پاشا تقریباً ایک سو ستر سال پہلے مصر کے حکمران تھے اور انہی نے نہرِ سویز کھودنے کی اجازت دی۔"

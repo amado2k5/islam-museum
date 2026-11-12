@@ -1,0 +1,36 @@
+id: person/napoleon-bonaparte
+class: person
+label: { ar: "نابليون بونابرت", en: "Napoleon Bonaparte", ur: "نپولین بوناپارٹ" }
+names:
+  - { kind: alternate, lang: en, value: "Napoléon Bonaparte" }
+  - { kind: alternate, lang: ar, value: "نابليون الأول" }
+  - { kind: alternate, lang: ar, value: "بونابارت" }
+summary:
+  ar: "نابليون بونابرت قائد فرنسي نزلت حملته العسكرية غرب الإسكندرية في ليلة 1-2 يوليو 1798 بهدف تهديد الموقف البريطاني في الهند باحتلال مصر. هزم الجيش المملوكي بقيادة مراد بيك في وقعة الأهرام يوم 21 يوليو، وأسس معه علماء الحملة المجمع العلمي المصري، وعاد إلى فرنسا في 23 أغسطس 1799 تاركاً القيادة لكليبر ثم لمنو {cite:encyclopaedia-of-islam-2 vol. 7 p. 204}."
+  en: "Napoleon Bonaparte was the French general whose expeditionary corps landed west of Alexandria on the night of 1-2 July 1798, aiming to threaten the British position in India by occupying Egypt. The Mamluk army under Murad Bey was defeated at the battle of the Pyramids on 21 July, the scholars of the expedition founded the Institut d'Egypte, and Bonaparte returned to France on 23 August 1799, leaving the command to Kleber and then Menou {cite:encyclopaedia-of-islam-2 vol. 7 p. 204}."
+  ur: "نپولین بوناپارٹ وہ فرانسیسی جرنیل تھے جن کی مہم جو فوج یکم و دو جولائی 1798ء کی رات اسکندریہ کے مغرب میں اتری، اور مقصد مصر پر قبضہ کر کے ہندوستان میں برطانوی پوزیشن کو خطرے میں ڈالنا تھا۔ 21 جولائی کو مراد بیگ کی مملوک فوج معرکۂ اہرام میں ہاری، مہم کے علما نے المجمع العلمی المصری قائم کیا، اور بوناپارٹ 23 اگست 1799ء کو فرانس لوٹ گئے اور کمان کلیبر پھر منو کو سونپ گئے {cite:encyclopaedia-of-islam-2 vol. 7 p. 204}."
+gender: male
+roles: [general, politician]
+wings: [people]
+periods: [period/modern-era]
+regions: [egypt-nile]
+born: { edtf: "1769", precision: year, status: historical, note: "years 1769 and 1821 read in the Wikidata description of Q517", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1821", precision: year, status: historical, note: "years 1769 and 1821 read in the Wikidata description of Q517", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: participated_in, target: event/french-campaign-egypt-1213, role: "commander of the expedition", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/battle-of-the-pyramids-1213, role: "commander", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/murad-bey, note: "opponent at the battle of the Pyramids", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., scattered articles (no article of his own); Wikidata Q517 for the years"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-5
+  canon: "Encyclopaedia of Islam 2nd ed.: vol. 7 p. 204 (Misr, French occupation); vol. 3 p. 1279 (Institut d'Egypte); vol. 11 p. 245 (Yafa); vol. 1 p. 187 (Abukir); vol. 5 part 1 p. 111 (Kibt); vol. 6 p. 824 (Matba'a); vol. 2 p. 490 (Djarida); vol. 9 p. 122 (Sayigh); vol. 10 p. 729"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+external_ids: { wikidata: Q517 }
+kids:
+  ar: "نابليون قائد فرنسي جاء بجيشه وعلمائه إلى مصر سنة 1798، وأسس العلماء معه مجمعاً علمياً في القاهرة."
+  en: "Napoleon was a French general who came to Egypt in 1798 with his army and a team of scholars, who set up a scientific institute in Cairo."
+  ur: "نپولین ایک فرانسیسی جرنیل تھے جو 1798ء میں اپنی فوج اور علما کی ٹیم کے ساتھ مصر آئے، اور علما نے قاہرہ میں علمی ادارہ قائم کیا۔"
