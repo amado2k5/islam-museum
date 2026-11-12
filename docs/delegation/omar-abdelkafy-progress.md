@@ -1268,3 +1268,20 @@ Next step: episode 41.
 | Supplications and the producer's announcement with phone number | ep22 00:37:00-00:40:00 | Not lesson content | Content rule | Open |
 
 Resume point: episode 23 (branch from origin/main).
+### albuyout-alamena, episode 41 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-29)
+
+Episode 41 read in full (46 min of transcript) before writing. 21 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (unchained stories and sayings, ages and claims without a source, rulings without evidence, unidentified verses of poetry, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep41 (the examination season in the home) | about 46 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 21 points | new `about` edges | 21 | 9 needs_source | this PR |
+
+Next step: episode 42.
+
+| Excluded (albuyout-alamena ep41) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae, sponsor and website line | ep41 00:00:00–00:00:30, 00:14:00–00:14:30, 00:24:30–00:25:00, 00:45:00–00:45:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep41 00:04:00, 00:06:30–00:07:00, 00:16:30–00:17:00, 00:21:00, 00:25:30, 00:32:30–00:33:00, 00:44:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep41 00:25:30–00:34:00 | Kept general | Privacy | Open |
+| Verses of poetry quoted | ep41 00:04:30, 00:19:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep41 00:23:30–00:25:00 | Wording not typed; by sense only | Hadith rule | Open |
