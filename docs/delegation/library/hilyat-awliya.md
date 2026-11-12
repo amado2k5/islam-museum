@@ -1109,3 +1109,9 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 689 (printed) | 406 | the fear and hope saying | a saying through a chain | paraphrased |
 | 689 (printed) | 408 | closing dictation note speaker | "امراف" garbled in the scan | not named |
 | 689 (printed) | 407 | Syrian list | many names, no sayings | recorded as leads, not as records |
+
+## Batch 112: end of volume 10 text (run microsd-books-b112, Claude Code / claude-fable-5-2)
+- Checked the scan from page 409 on. Printed 690 does not exist in the vol. 10 body: the last notice is printed 689 (Muhammad ibn al-Husayn al-Khushani), which ends on page 408 with a dictation date.
+- Page 409 is the printer's colophon (the Dar al-Kutub al-Ilmiyya edition, dated 1357 AH). Pages 410 to 415 are the volume index (فهرس الجزء العاشر), which lists the notices by their sequence numbers and pages.
+- The notice queue therefore cannot continue at 690 in vol. 10. The next step needs a ruling from the coordinator: either the seeded queue, or the next volume of the book.
+- Printed 532, 546 and 666 stay held.
