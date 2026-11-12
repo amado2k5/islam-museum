@@ -2044,3 +2044,14 @@ Next step: episode 22.
 | Repetition loops and garbled windows | ep21 00:06:30, 00:23:00, 00:27:00, 00:34:00, 00:45:00, 00:46:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | A call about a deceased relative and a call with no audible question | ep21 00:38:00–00:40:00 | Private and not lesson content | Privacy | Open |
 | Poetry-like proverb quoted | ep21 00:27:30 | Summarised in sense, not reproduced | Sources policy | Open |
+
+### ajaeb-al-kulub ep25-ep27 (12 Nov 2026)
+
+23 points written for episodes 25 to 27 (ar, en, ur); 13 needs_source marks; 10 new `about` edges. Quran verses referenced only through passage links (3-134, 43-32, 28-68, 109-1, 112-1, 3-31, 5-54, 1-5); none typed.
+
+| Excluded (ajaeb-al-kulub ep25-27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep25 00:00:00, 00:05:00 (supplication); ep26 00:00:00 (greeting), 00:05:30; ep27 00:00:00, 00:05:00 (supplication), 00:05:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep26 00:04:00 (a very long loop of one letter in the middle of a sentence on love shown in conduct); ep27 00:03:00 (a very long loop in the Ibn Abbas story, where the lion was met is not recoverable); ep25 00:02:00 (the closing line of the Abd al-Malik anecdote is garbled), 00:03:30 (a half-clear sentence on encouraging rancour) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ajaeb-al-kulub episode 28 (branch from origin/main).
