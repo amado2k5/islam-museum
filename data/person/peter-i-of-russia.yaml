@@ -2,9 +2,9 @@ id: person/peter-i-of-russia
 class: person
 label: { ar: "بطرس الأكبر", en: "Peter I of Russia (Peter the Great)", ur: "پیٹر اول روس، پیٹر اعظم" }
 names:
-  - { kind: variant, lang: en, value: "Peter the Great" }
-  - { kind: variant, lang: tr, value: "Petro" }
-  - { kind: variant, lang: ar, value: "بطرس الأول" }
+  - { kind: alternate, lang: en, value: "Peter the Great" }
+  - { kind: alternate, lang: tr, value: "Petro" }
+  - { kind: alternate, lang: ar, value: "بطرس الأول" }
 summary:
   ar: "بطرس الأكبر قيصر روسيا الذي ذكرته دائرة المعارف الإسلامية في سياق علاقة روسيا بالدولة العثمانية وفارس وآسيا الوسطى. استولى على آزاق سنة 1696م وأُجبر على التخلي عنها بمعاهدة بروت سنة 1711م، وتدخل في شمال القوقاز وساحل بحر قزوين وبلغ دربند سنة 1722م، وأرسل بعثة إلى خيوة سنة 1717م {cite:encyclopaedia-of-islam-2 vol. 1 p. 857} {cite:encyclopaedia-of-islam-2 vol. 2 p. 101}."
   en: "Peter the Great, tsar of Russia, appears in the Encyclopaedia of Islam through Russia's relations with the Ottoman Empire, Persia and Central Asia. He took Azak in 1696 and gave it up under the Treaty of the Prut in 1711, intervened on the western Caspian shore and occupied Derbend in 1722, and sent an expedition against Khiva in 1717 {cite:encyclopaedia-of-islam-2 vol. 1 p. 857} {cite:encyclopaedia-of-islam-2 vol. 2 p. 101}."
@@ -15,7 +15,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans, persia-central-asia]
 relations:
-  - { type: ruled_by, target: polity/tsardom-of-russia, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: ruler_of, target: polity/tsardom-of-russia, sources: [source/encyclopaedia-of-islam-2] }
   - { type: fought, target: polity/ottoman-empire, note: "Azak 1695-96 and the Pruth campaign of 1711.", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/treaty-pruth-1123, sources: [source/encyclopaedia-of-islam-2] }
   - { type: related_to, target: place/azak, note: "Captured by Peter on 6 August 1696 and handed back after the Pruth treaty.", sources: [source/encyclopaedia-of-islam-2] }

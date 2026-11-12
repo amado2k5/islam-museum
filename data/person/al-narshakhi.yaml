@@ -2,8 +2,11 @@ id: person/al-narshakhi
 class: person
 label: { ar: "النرشخي", en: "al-Narshakhi", ur: "نرشخی" }
 names:
-  - { value: "Abu Bakr Muhammad ibn Ja'far ibn Zakariyya al-Narshakhi", kind: full }
-  - { value: "أبو بكر محمد بن جعفر بن زكريا النرشخي", kind: full }
+  - { kind: full, value: "Abu Bakr Muhammad ibn Ja'far ibn Zakariyya al-Narshakhi" }
+  - { kind: full, value: "أبو بكر محمد بن جعفر بن زكريا النرشخي" }
+  - { kind: alternate, value: "Narshakhi" }
+  - { kind: alternate, value: "Narshaki" }
+  - { kind: alternate, value: "Narshakhi, Abu Bakr Muhammad" }
 summary:
   ar: "أبو بكر محمد بن جعفر بن زكريا النرشخي، مؤرخ من العصر السامانيّ، يُظن أنه من نرشخ قرب بخارى. لا يُعرف من حياته إلا أنه ألّف تاريخاً لبخارى بالعربية وقدّمه إلى الأمير نوح بن نصر سنة 332هـ/943-944م، وهو كتابه الوحيد المعروف. ترجمه أبو نصر القبوي إلى الفارسية سنة 522هـ/1128م وزاد عليه غيره، فالنص الفارسي المتداول كثير التغيّر عن أصله {cite:encyclopaedia-of-islam-2 vol. 7 p. 1020}."
   en: "Abu Bakr Muhammad ibn Ja'far ibn Zakariyya al-Narshakhi was a historian of the Samanid period, presumably from Narshakh near Bukhara. Nothing is known of his life except that he wrote a history of Bukhara and presented it to the amir Nuh ibn Nasr in 332/943-4; it is his only known book. It was put into Persian by al-Qubawi in 522/1128 and later reworked, so the Persian text we have differs much from the original {cite:encyclopaedia-of-islam-2 vol. 7 p. 1020}."
@@ -15,7 +18,6 @@ periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia]
 relations:
   - { type: related_to, target: person/nuh-ibn-nasr, note: "Presented his history of Bukhara to the Samanid amir Nuh ibn Nasr in 332/943-4.", sources: [source/encyclopaedia-of-islam-2] }
-aliases: ["Narshakhi", "Narshaki", "Narshakhi, Abu Bakr Muhammad"]
 provenance:
   layer: own-research
   source: "Encyclopaedia of Islam 2nd ed., article Narshakhi"

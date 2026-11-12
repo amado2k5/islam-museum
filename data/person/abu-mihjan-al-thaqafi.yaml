@@ -15,7 +15,7 @@ wings: [people]
 periods: [period/rashidun]
 regions: [arabia]
 relations:
-  - { type: member_of, target: group/thaqif, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: member_of, target: group/thaqif, sources: [source/encyclopaedia-of-islam-2, source/muruj-al-dhahab] }
   - { type: participated_in, target: event/battle-of-al-qadisiyya, sources: [source/encyclopaedia-of-islam-2] }
   - { type: related_to, target: person/umar-ibn-al-khattab, note: "Banished him for his wine verse, according to the article.", sources: [source/encyclopaedia-of-islam-2] }
   - { type: related_to, target: person/saad-ibn-abi-waqqas, note: "Imprisoned him for drunkenness before al-Qadisiyya and pardoned him afterwards, per the article's account.", sources: [source/encyclopaedia-of-islam-2] }
@@ -26,7 +26,8 @@ provenance:
   model: "claude-sonnet-5-5"
   run: canon-missing-2
   canon: "Encyclopaedia of Islam 2nd ed., vol. 1, article Abu Mihdjan 'Abd Allah b. Habib (OCR page 159); vol. 6 (OCR page 668)"
-sources: [source/encyclopaedia-of-islam-2]
+sources: [source/encyclopaedia-of-islam-2, source/muruj-al-dhahab]
+aliases: [person/abu-mahjan-al-thaqafi]
 importance: 2
 status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
 kids:
