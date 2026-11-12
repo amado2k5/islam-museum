@@ -406,6 +406,17 @@
         }
       }
     },
+    "/ibadat.json": {
+      "get": {
+        "summary": "Ibadat and Adhkar Browser dataset",
+        "description": "The Worship and Adhkar Browser dataset (متصفح العبادات والأذكار): every act of worship and remembrance mentioned or written in the Qur'an, the Sunnah, the seerah and every harvested book — prayer, purification, fasting, zakat and charity, hajj and umrah, dhikr and adhkar, du'a (via the Du'a detector), recitation, repentance and ruqya — detected at build time plus the curated records tagged ibadat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), ibadat_kind (act/mention), worship topics, matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every ibadat record with corpus section, ibadat kind, topics, work, ref, excerpt, kind, themes and edges"
+          }
+        }
+      }
+    },
     "/islamic-economy.json": {
       "get": {
         "operationId": "getIslamicEconomy",
@@ -429,6 +440,21 @@
         "responses": {
           "200": {
             "description": "Every sayyi'at record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/hudud.json": {
+      "get": {
+        "operationId": "getHudud",
+        "summary": "Hudud Allah and Kaba'ir Browser dataset",
+        "description": "The Hudud Allah and Kaba'ir Browser dataset (متصفح حدود الله والكبائر): every mention of the limits of God, the fixed penalties (stoning, flogging, the amputated hand, discretionary punishment and their crimes) and the major sins in the Qur'an, Sunnah, seerah and harvested books — detected at build time plus the curated records tagged hudud-browser, each with its corpus section (quran, sunnah, seerah, books, curated), hudud_kind (hudud or kabair), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every hudud and kaba'ir record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
             "content": {
               "application/json": {}
             }

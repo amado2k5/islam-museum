@@ -323,3 +323,25 @@ Notes. (1) Broadcast: the lecturer greets the viewers of the Dubai channel at ep
 | Calls and answers too garbled to read (Abu Dhabi, Sharjah and Sweden callers' details; Sudan caller's second half; ep02 calls at 00:30:00–00:35:00 in part; ep03 calls at 00:33:00–00:37:30 and 00:42:00–00:43:00) | ep01 00:30:00–00:41:00; ep02 00:29:30–00:35:00; ep03 00:33:00–00:37:30 | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
 | Wig and Shafi'i question; the daughter who loves singing (question only) | ep03 00:34:00, 00:35:00 | Redirected by the lecturer to another programme; answered briefly later | Scope | Open |
 | Shari'a wording of the five kind words; the twelve-line remarks on the Greek horse custom beyond the clear point | ep01 00:12:00; ep03 00:01:00 | Unsourced | Accuracy | Open |
+
+### Completed recordings (§8), continued
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| silsilat-ebadu-al-rahman ep10–ep13 ("nor do they commit fornication"; the outcome and the rights of a Muslim; repentance; false witness) | ep10 about 23 min; ep11 13 min 23 s; ep12 9 min 11 s; ep13 5 min 26 s (transcript metadata) | ar, en, ur: 1 record extended, 41 points | 8 new `about` edges (verses 25:69, 25:70, 25:72; zina, ghadd al-basar, mahr, nikah, tawba) | ep10 19, ep11 9, ep12 8, ep13 5 points; engine qwen3-asr pass5, 30 s windows | 4 needs_source (spinsterhood claim, ep10 00:04:30; "69 billion dollars" on music videos, ep10 00:07:30; condolence for a missed takbir, ep11 00:06:30; saying attributed to Umar, ep12 00:02:00) | run omar-abdelkafy-ebadu-al-rahman-4 |
+
+Notes for ep10–ep13. Episodes 11 and 12 are the two halves of one lesson in the archive (ep11 ends at the break, ep12 opens after it). Episode 13 in the archive is incomplete: the file is 5 min 26 s long and stops in mid-sentence; the episode section says so. The opinion points of ep10 and ep12 are marked "the lecturer's view" under the decision recorded for ep09.
+
+| Excluded (ebadu ep10–ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, break jingles, closing formulae | ep10 00:00:00, 00:13:30–00:14:00, 00:23:00–00:23:30; ep11 00:00:00–00:01:00, 00:12:30–00:13:00; ep12 00:00:00, 00:08:00–00:09:00; ep13 00:00:00–00:00:30 | Not lesson content; Qur'an never typed | Content rule; Qur'an rule | Open |
+| Repetition loops | ep10 00:12:00, 00:16:30 (tail), 00:18:30 | Not speech | Loop check | Open |
+| Remark about "the Jews in the modern age" and shop mannequins | ep10 00:16:30–00:17:00 | The sentence is cut by a loop and cannot be read; a remark against a group is not written from a broken line | Loop check; clarity | Open |
+| Hadith of the palace in Paradise and the Prophet's regard for its owner's jealousy | ep10 00:11:30–00:12:00 | The owner's name is lost in a loop | Loop check | Open |
+| Verses on the tooth-stick | ep10 00:12:30 | Verbatim verse; the persons are not named in the clear part | Sources policy; clarity | Open |
+| The ant of Sulayman | ep10 00:13:00 | Fragment of a recited verse | Qur'an rule; clarity | Open |
+| Verse of Antara and the "I am only of Ghaziyya" line | ep10 00:09:30, 00:17:30 | Verbatim verse; given by sense | Sources policy | Open |
+| Location given for the valley called Atham | ep11 00:02:30 | The transcript reads "in the Garden", a slip or mis-transcription; the reading is written without a location | Accuracy | Open |
+| Wording of the condolence formula | ep11 00:07:30 | Garbled | Clarity | Open |
+| Verses on beholding God and on the Fire closed over its people | ep11 00:10:00–00:12:00 | Qur'an never typed; given by sense, sura not named | Qur'an rule | Open |
+| The lecturer's statement that the undutiful child never enters the Garden and the dutiful never enters the Fire | ep13 00:03:00 | Kept, but written as his statement "made without a source"; no ruling in the museum's voice | Voice rule | Open |
