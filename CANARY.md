@@ -24,6 +24,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Hilyat al-Awliya vol. 10, printed notices 501–503 (Muhammad ibn Mu'awiya al-Sufi, Mughith al-Aswad, Muhammad ibn Salih al-Taymi): three new person records with trilingual drafts, on a wise man's warning at a meadow, on remembrance of graves, Paradise and Fire, and on reflection on the signs of God. Printed numbers kept with sequence numbers noted; unclear chain names are marked.
+- Hilyat al-Awliya vol. 10, printed notices 504–506 (Ali ibn al-Hasan ibn Musa, Khattab al-Abid, Abu Ja'far al-Mahwali): three new person records with trilingual drafts, on what opens thought and the ladder of virtue, on the trace a sin leaves on a face, and on complaining to God about a body that disobeyed. Printed numbers kept with sequence numbers noted; garbled chain names are not given.
 
 
 ## v1.27.0 — 2026-11-19
