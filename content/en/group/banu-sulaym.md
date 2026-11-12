@@ -2,17 +2,18 @@
 id: group/banu-sulaym
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
 
-## Overview
-Banu Sulaym is a Mudari tribe of Qays Aylan, of [[group/mudar-ibn-nizar|Mudar]]. The Sealed Nectar counts them among the branches of Qays with Hawazin and Ghatafan. {cite:mubarakpuri-raheeq p.21} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/14-15}
+## Summary
+Banu Sulaym ibn Mansur ibn Ikrima ibn Khasafa ibn Qays Aylan ibn Mudar — numerous in men and lineage; among them al-Abbas ibn Mirdas and the companions of al-Mutallib ibn Abi Wada'a; Sulaym aided the Muslims at Hunayn, and their dawn-raid reports run in the hadith of the scout {cite:mubarakpuri-raheeq p.16} {cite:isaba} {cite:kamil-ibn-al-athir}.
 
-## Dwellings before Islam
-Banu Sulaym lived near [[place/medina|Medina]], from Wadi al-Qura to [[place/khaybar|Khaybar]], east of Medina, up to the border of the two mountains, and as far as the lava field. {cite:mubarakpuri-raheeq p.22} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/15-16}
+## Lineage and home
+النسب والموطن: سليم بن منصور بن عكرمة بن خصفة بن قيس عيلان؛ دارهم بين مكة والمدينة نحو الحرمين، ومنهم بنو سحيم وبنو حزن وبنو مالك {cite:tarikh-al-tabari}.
 
-## Not covered here
-The Prophet's expeditions against Banu Sulaym (al-Kudr and others), and the migration of Banu Sulaym to Ifriqiya in later periods, are presented in their own entries. See [[event/expedition-of-al-kudr|the expedition of al-Kudr]].
+## In Islam and history
+بنو سليم قبيلة مضرية حول الحرمين؛ منها العباس بن مرداس وأصحاب حنين.
 
-## For young visitors
-Banu Sulaym were a large tribe who lived east of Medina, in the land of the volcanic lava plain.
+## For younger visitors
+بنو سلیم مضری قبیلہ ہے جو حرمین کے قریب رہتا تھا۔
+

@@ -1,20 +1,22 @@
 id: person/maadd-ibn-adnan
+tags: ["ansab-browser", "ansab-shajara"]
 class: person
-label: { ar: "معد بن عدنان", en: "Ma'add ibn 'Adnan" }
-summary:
-  ar: "معد بن عدنان الذي ينتهي إليه نسب العرب العدنانية، نهى النبي أن يتجاوز عنه في النسب لعلمه بتباعد الأنساب وكثرة الآراء في طول المدة والأعصار، وقد اختلف أهل النسب فيما فوقه على ما ذكر المسعودي من نسخة ابن هشام عن ابن إسحاق ونسخة أخرى ورواية ابن الأعرابي عن هشام بن محمد الكلبي {cite:muruj-al-dhahab p. 565-566}."
-  en: "The Adnani forefather at whom the Prophet bade genealogy stop — above him the copies diverge, in Ibn Hisham's rescension, another version, and Ibn al-A'rabi's from Hisham al-Kalbi {cite:muruj-al-dhahab p. 565-566}."
+label: { ar: "معد بن عدنان", en: "Ma'add ibn Adnan" }
 gender: male
+roles: []
+summary:
+  ar: "أبو نزار؛ إليه ينتهي الجزء المتفق على صحته من نسب النبي عند أهل السير والأنساب {cite:mubarakpuri-raheeq p.48}، وعنده يقف كثير من النسابين لقوله «كذب النسّابون» حين يبلغ النسب عدنان {cite:ibn-hisham-sira 1/1-4} {cite:muruj-al-dhahab p.565-566}، وعند بعضهم أن قضاعة بن معد من ولده وعند آخرين هو قحطاني."
+  en: "Father of Nizar; the agreed-sound part of the Prophet's lineage ends at him with the sira and genealogy scholars {cite:mubarakpuri-raheeq p.48}, and many genealogists stop here on the report «the genealogists lie» when the line reaches Adnan {cite:ibn-hisham-sira 1/1-4} {cite:muruj-al-dhahab p.565-566}; some count Quda'a ibn Ma'add among his sons, others make Quda'a Qahtani."
 wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
 relations:
-  - { type: lived_in, target: place/aden, confidence: low, note: "Associated with عدن per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+  - { type: child_of, target: person/adnan, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 565–566"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch40
-sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq]
-status:
-  review: published
-  completeness: 3
+  source: "ansab-browser lane — prophetic-lineage records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }

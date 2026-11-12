@@ -1,21 +1,22 @@
 id: person/nizar-ibn-maadd
+tags: ["ansab-browser", "ansab-shajara"]
 class: person
 label: { ar: "نزار بن معد", en: "Nizar ibn Ma'add" }
-summary:
-  ar: "نزار بن معد بن عدنان أبو القبائل العدنانية، ولد أربعة أولاد: إياداً وبه كان يكنى، وأنماراً، وربيعة، ومضراً، وقيل إن بجيلة وخثعم من ولد أنمار، فلما حضرته الوفاة قسم بينهم قسمة رمزية وأمرهم إن أشكلت أن يرجعوا إلى الأفعى الجرهمي ملك نجران، وقد كانت لنزار معه وقائع وحروب كثيرة واجتمعت عليه معد بن ربيعة ومضر وإياد وأنمار وتداعت بجدها نزار {cite:muruj-al-dhahab p. 430-431}."
-  en: "Son of Ma'add and father of the Adnanite tribes — Iyad, Anmar, Rabi'a and Mudar — whose allegorical death-bed division sent the brothers to al-Af'a al-Jurhumi of Najran {cite:muruj-al-dhahab p. 430-431}."
 gender: male
+roles: []
+summary:
+  ar: "أبو مضر وربيعة وإياد وأنمار؛ إليه يرجع أكثر أحياء العرب العدنانية حتى لُقّبت العرب العدنانية ببني نزار {cite:mubarakpuri-raheeq p.16} {cite:ibn-hisham-sira 1/1-4}."
+  en: "Father of Mudar, Rabi'a, Iyad and Anmar; most Adnani Arab tribes trace back to him, so the Adnani Arabs are called Banu Nizar {cite:mubarakpuri-raheeq p.16} {cite:ibn-hisham-sira 1/1-4}."
 wings: [people]
+themes: [family-marriage-kinship]
 periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/maadd-ibn-adnan, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 430–431"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch39
-sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/nihayat-al-arab-nuwayri-vol3-scan]
-status:
-  review: published
-  completeness: 3
-relations:
-  - { type: lived_in, target: place/najran, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/nihayat-al-arab-nuwayri-vol3-scan] }
+  source: "ansab-browser lane — prophetic-lineage records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }

@@ -2,20 +2,15 @@
 id: person/maadd-ibn-adnan
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
 
-## Overview
-Ma'add ibn [[person/adnan|Adnan]], from whose descendants the [[person/nizar-ibn-maadd|Nizar]] and all the clans of the [[group/adnan|Adnanite Arabs]] branched out. {cite:mubarakpuri-raheeq p.20}
+## Summary
+Father of Nizar; the agreed-sound part of the Prophet's lineage ends at him with the sira and genealogy scholars {cite:mubarakpuri-raheeq p.48}, and many genealogists stop here on the report «the genealogists lie» when the line reaches Adnan {cite:ibn-hisham-sira 1/1-4} {cite:muruj-al-dhahab p.565-566}; some count Quda'a ibn Ma'add among his sons, others make Quda'a Qahtani.
 
-## In al-Rahiq al-Makhtum
-The sons of [[person/qaydar|Qaydar ibn Isma'il]] kept multiplying in Mecca until Adnan was born, and then his son Ma'add. {cite:mubarakpuri-raheeq p.20} {cite:qalb-jazirat-al-arab p.230} The clans of Ma'add branched out from his son Nizar, and it is said that Ma'add had no other son. {cite:mubarakpuri-raheeq p.20} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/14-15}
+## His place in the lineage
+His father is Adnan; his son Nizar is the ancestor of most Adnani Arab tribes, and the famous genealogical dispute over whether Quda'a ibn Ma'add is Adnani or Qahtani attaches to his house {cite:mubarakpuri-raheeq p.16-17}.
 
-## In the days of Nebuchadnezzar
-The Adnanite clans dispersed toward Yemen at the second campaign of [[person/bukhtanasar|Nebuchadnezzar]] in 587 BCE. The prophet Jeremiah took Ma'add to Syria. When Nebuchadnezzar's pressure lifted, Ma'add returned to Mecca and found among the [[group/jurhum|Jurhum]] only Jurshum ibn Jalhama, and he married his daughter Ma'ana, who bore him Nizar. {cite:mubarakpuri-raheeq p.28} {cite:rahma-lil-alamin 2/48} This is a report the author relays from *Rahmah lil-Alamin* alone, and it has not been checked against a second source.
+## For younger visitors
+Ma'add ibn Adnan is one of the Prophet's ancestors in the part of the lineage the genealogists agree on, from Adnan down to Abdullah ibn Abd al-Muttalib.
 
-## What is not stated here
-What al-Mas'udi relates about stopping at Ma'add in lineage is recorded in this entry's data.
-
-## For young visitors
-Ma'add was the son of Adnan. All the Adnanite tribes of Arabia came from his son Nizar.

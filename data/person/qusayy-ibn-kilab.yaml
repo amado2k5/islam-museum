@@ -1,26 +1,22 @@
 id: person/qusayy-ibn-kilab
+tags: ["ansab-browser", "ansab-shajara"]
 class: person
-label: { en: "Qusayy ibn Kilab", ar: "قصي بن كلاب" }
+label: { ar: "قصي بن كلاب", en: "Qusayy ibn Kilab" }
 gender: male
 roles: []
-faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
 summary:
-  en: "The Qahtani-raised Qurashi who returned to Mecca, married Hulayl’s daughter Hubba, took the custody of the Kaaba from Khuzaʾa around 440 CE after the arbitration of Yaʾmar ibn Awf, gathered Quraysh into the town’s quarters, founded Dar al-Nadwa, and held the five offices: riyasa, liwa, hijaba, siqaya and rifada."
-  ar: "القرشي الذي نشأ في بلاد قضاعة بأطراف الشام ثم عاد إلى مكة وتزوج حُبّى بنت هليل، واستلب ولاية البيت من خزاعة نحو سنة 440م بعد تحكيم يعمر بن عوف، فجمع قريشاً في مكة، وأسس دار الندوة، وكانت له مناصب الرياسة واللواء والحجابة والسقاية والرفادة."
+  ar: "اسمه زيد بن كلاب، سمي قصياً لأنه نشأ بعيداً عن مكة؛ جمع قريشاً من شعثها فلقب مجمعاً، وملك أمر مكة والكعبة على خزاعة، وأول من سن لقريش دار الندوة والحجابة والسقاية والرفادة والإيفاد واللواء {cite:mubarakpuri-raheeq p.31} {cite:ibn-hisham-sira 1/109-125} {cite:tarikh-al-tabari}."
+  en: "His name was Zayd ibn Kilab; he was called Qusayy ('far away') because he grew up far from Mecca. He gathered scattered Quraysh — hence 'al-Mujammi' (the Gatherer) — took the rule of Mecca and the Ka'ba from Khuza'a, and was the first to institute for Quraysh the Dar al-Nadwa, the hijaba, the siqaya, the rifada, the ifada and the liwa {cite:mubarakpuri-raheeq p.31} {cite:ibn-hisham-sira 1/109-125} {cite:tarikh-al-tabari}."
 wings: [people]
-themes: [family-marriage-kinship, wars-and-campaigns]
+themes: [family-marriage-kinship]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
-story_roles:
-  - { role: ruler, toward: group/quraysh, status: tradition, note: "صارت له ثم لقريش السيادة التامة والأمر النافذ في مكة.", sources: [source/mubarakpuri-raheeq] }
-died: { edtf: "480~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sirat Ibn Hisham" }
 relations:
-  - { type: child_of, target: person/kilab-ibn-murrah }
-  - { type: member_of, target: group/quraysh }
-  - { type: founder_of, target: building/dar-al-nadwa, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
-  - { type: spouse_of, target: person/hubba-bint-hulayl, sources: [source/mubarakpuri-raheeq] }
-  - { type: participated_in, target: event/qusayy-takes-mecca, role: "الغالب على ولاية البيت", sources: [source/mubarakpuri-raheeq] }
-  - { type: ruler_of, target: place/mecca, start: { edtf: "0440~" }, sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
-  - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ikhbar-al-kiram] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ikhbar-al-kiram]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
+  - { type: child_of, target: person/kilab-ibn-murra, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — prophetic-lineage records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }

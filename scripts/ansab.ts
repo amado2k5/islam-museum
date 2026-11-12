@@ -1,0 +1,397 @@
+// The Genealogies, Peoples, Mutun and Prophets' Tree Browser's shared reads
+// (docs/plan/55-ansab-browser.md): which passage records mention lineages, tribes and peoples,
+// the didactic mutun and the prophets' tree — by name, by the class terms (النسب، الأنساب،
+// القبيلة، المتون، شجرة الأنبياء), or by the canonical `mentions` edges already in the graph —
+// and which corpus section each belongs to. Detection runs at build time over the compiled
+// graph, so a nasab, tribe, matn or prophets'-tree mention in any harvested book — and in every
+// book harvested later — appears without a tagging step. Curated records join through the
+// `ansab-browser` tag instead.
+//
+// The lexicon is deliberately narrow: unvocalized Arabic makes «تميم» collide with the adjective
+// "complete", «سليم» with the name, «الروم» with بيت الروم, «متن» with the back of an animal or
+// the matn of a hadith, «بني» with any "sons of", and «عاد» with the verb "he returned".
+// Names are therefore matched on the passage matn only (text_search/text, never the label or
+// the summary), ambiguous forms are context-gated, and ANSAB_EXCLUDE / ANSAB_TOPIC_EXCLUDE are
+// the curated escape hatches for verified false positives.
+import type { Node } from "./build-graph.js";
+
+export const ANSAB_TAG = "ansab-browser";
+/**
+ * The browser's domain sections on the home page; a record's `ansab-<section>` tag places it,
+ * untagged automatic members land in `mentioned` — the self-growing shelf. The corpus split
+ * (Qur'an / Sunnah / seerah / other books) happens per subject page through `ansabCorpusOf`.
+ */
+export const ANSAB_SECTIONS = ["shajara", "tribes", "peoples", "mutun", "curated", "mentioned"] as const;
+export type AnsabSection = (typeof ANSAB_SECTIONS)[number];
+export type AnsabCorpus = "quran" | "sunnah" | "seerah" | "books";
+export const ANSAB_CORPORA: AnsabCorpus[] = ["quran", "sunnah", "seerah", "books"];
+
+/**
+ * The canonical subject index: the lineage figures of the prophets' tree (the agreed chain to
+ * Adnan, the disputed links between Adnan and Ismail, and the prophets on Ibrahim's two lines),
+ * the tribes and peoples, the didactic mutun, and the nasab concepts. Records are matched by id;
+ * a subject missing from the graph simply renders nothing.
+ */
+export const ANSAB_SUBJECTS = [
+  // شجرة الأنبياء — the agreed chain Adnan → Muhammad (الجزء المتفق عليه)
+  "person/muhammad", "person/abdullah-ibn-abd-al-muttalib", "person/abd-al-muttalib",
+  "person/hashim-ibn-abd-manaf", "person/abd-manaf-ibn-qusayy", "person/qusayy-ibn-kilab",
+  "person/kilab-ibn-murra", "person/murra-ibn-kab", "person/kab-ibn-luayy", "person/luayy-ibn-ghalib",
+  "person/ghalib-ibn-fihr", "person/fihr-ibn-malik", "person/malik-ibn-al-nadr",
+  "person/al-nadr-ibn-kinana", "person/kinana-ibn-khuzayma", "person/khuzayma-ibn-mudrika",
+  "person/mudrika-ibn-ilyas", "person/ilyas-ibn-mudar", "person/mudar-ibn-nizar",
+  "person/nizar-ibn-maadd", "person/maadd-ibn-adnan", "person/adnan",
+  // شجرة الأنبياء — the disputed links Adnan → Ismail (الجزء المختلف فيه), Ibn Ishaq/al-Tabari order
+  "person/udd-ibn-adnan", "person/adad-ibn-udd", "person/al-humaysa-ibn-adad",
+  "person/salman-ibn-al-humaysa", "person/awf-ibn-salman", "person/buz-ibn-awf",
+  "person/qamwal-ibn-buz", "person/ubayy-ibn-qamwal", "person/al-awwam-ibn-ubayy",
+  "person/nashid-ibn-al-awwam", "person/haza-ibn-nashid", "person/bildas-ibn-haza",
+  "person/yadlaf-ibn-bildas", "person/tabikh-ibn-yadlaf", "person/jahim-ibn-tabikh",
+  "person/nahish-ibn-jahim", "person/makhi-ibn-nahish", "person/ays-ibn-makhi",
+  "person/abaq-ibn-ays", "person/daid-ibn-abaq", "person/nabt-ibn-daid", "person/mashih-ibn-nabt",
+  "person/al-nashtan-ibn-mashih", "person/udr-ibn-al-nashtan", "person/al-dhara-ibn-udr",
+  "person/abd-ibn-al-dhara", "person/ahmar-ibn-abd", "person/nabit-ibn-ahmar", "person/qaydar",
+  "person/ismail", "person/ibrahim",
+  // شجرة الأنبياء — Ibrahim's two lines to the prophets (Ismail → Muhammad; Ishaq → Isa)
+  "person/ishaq", "person/yaqub", "person/yusuf", "person/musa", "person/harun", "person/dawud",
+  "person/sulayman", "person/zakariyya", "person/yahya", "person/isa-ibn-maryam",
+  // القبائل والأنساب — the tribes and clans
+  "group/quraysh", "group/banu-hashim", "group/banu-abd-manaf", "group/banu-umayya",
+  "group/banu-abd-shams", "group/banu-makhzum", "group/banu-zuhra", "group/banu-al-najjar",
+  "group/banu-nadir", "group/qaynuqa", "group/qurayza", "group/jewish-tribes-of-hijaz",
+  "group/aws", "group/khazraj", "group/khuzaa", "group/aad", "group/thamud", "group/banu-tamim",
+  "group/hawazin", "group/thaqif", "group/ghatafan", "group/hudhayl", "group/banu-sulaym",
+  "group/aslam", "group/juhayna", "group/muzayna", "group/ghifar", "group/ashja", "group/al-azd",
+  "group/lakhm", "group/ghassan", "group/hamdan", "group/himyar", "group/madhhij", "group/qudaa",
+  "group/tayy", "group/shayban", "group/bakr-ibn-wail", "group/taghlib", "group/abd-al-qays",
+  "group/kinda", "group/dabba", "group/yarbu", "group/kinana", "group/murad", "group/anmar-ibn-nizar",
+  "group/abs", "group/banu-amir-ibn-sasaa", "group/banu-asad", "group/banu-abbas",
+  // الأعراق — the peoples
+  "group/arabs", "group/al-ajam", "group/persians", "group/al-rum", "group/turks",
+  "group/al-habasha", "group/al-qibt", "group/berbers", "group/kurds", "group/banu-israil",
+  "group/mongols",
+  // المتون — the didactic memorization texts
+  "work/ajurrumiyya", "work/alfiyya-ibn-malik", "work/alfiyya-al-iraqi", "work/matn-ibn-ashir",
+  "work/risala-qayrawani", "work/al-durra-al-alfiyya", "work/al-kharida-al-bahiyya",
+  "work/matn-al-idah-fi-al-manasik", "work/aqida-tahawiyya", "work/tuhfat-al-atfal",
+  "work/al-jazariyya", "work/al-shatibiyya", "work/al-rahbiyya", "work/al-waraqat",
+  "work/al-bayquniyya", "work/nukhbat-al-fikar", "work/matn-al-quduri",
+  "work/al-sullam-al-munawraq", "work/jawharat-al-tawhid", "work/bad-al-amali",
+  "work/qatr-al-nada", "work/matn-abi-shuja", "work/al-zubad", "work/safinat-al-najah",
+  // nasab concepts
+  "concept/nasab", "concept/ansab", "concept/nasab-al-nabi", "concept/ahl-al-nasab",
+  "concept/waqf-al-nasab-inda-maadd", "concept/luhuq-nasab-fiqh",
+] as const;
+export type AnsabSubjectId = (typeof ANSAB_SUBJECTS)[number];
+export const ANSAB_SUBJECT_SET = new Set<string>(ANSAB_SUBJECTS);
+
+/** Class-level chips for passages about genealogy, tribes, mutun or the tree without naming one. */
+export const ANSAB_GENERIC_TOPICS = ["nasab", "tribes", "mutun", "prophets-tree"] as const;
+export type AnsabGenericTopic = (typeof ANSAB_GENERIC_TOPICS)[number];
+export type AnsabTopic = AnsabSubjectId | AnsabGenericTopic;
+
+/** Passage records whose only lexical hit is a known false positive, verified by reading. */
+export const ANSAB_EXCLUDE = new Set<string>([]);
+/** Single-topic exclusions for verified false positives. */
+export const ANSAB_TOPIC_EXCLUDE = new Set<string>([]);
+
+const DIACRITICS = /[ً-ٰٟۡ-ۭۨـ]/g;
+/** Imlaei-style normalization for matching: hamza seats and final alif/ya unified. */
+export function normalizeAnsabArabic(s: string): string {
+  return s
+    .replace(DIACRITICS, "")
+    .replace(/[أإٱ]/g, "ا")
+    .replace(/ى/g, "ي")
+    .replace(/ة/g, "ه")
+    .replace(/ؤ/g, "و")
+    .replace(/ئ/g, "ي");
+}
+
+const BOUNDARY = String.raw`(?=\s|$|[،,.;:!؟?()\[\]{}«»"'\-ـ])`;
+/** A token name with clitic prefixes and the common case/number suffixes. */
+function tok(name: string, suffix = "(?:ا|ه|ي|هم|هن|كم|كن|نا|ك)?"): RegExp {
+  return new RegExp(String.raw`(?:^|\s)[بلوفسك]{0,2}` + name + suffix + BOUNDARY);
+}
+/** A fixed phrase that must not sit inside a longer word; a leading clitic is allowed. */
+function phrase(p: string): RegExp {
+  const esc = p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(String.raw`(?<![ء-ي])[وبلفسكا]{0,2}` + esc + String.raw`(?![ء-ي])`);
+}
+const gphrase = (p: string): RegExp => {
+  const esc = p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(String.raw`(?<![ء-ي])` + esc + String.raw`(?![ء-ي])`);
+};
+
+/** Unambiguous subject names — the lineage links, tribes, peoples and mutun titles. */
+const SUBJECT_PATTERNS: Partial<Record<AnsabSubjectId, RegExp[]>> = {
+  "person/muhammad": [tok("محمد"), phrase("محمد بن عبد الله"), phrase("خاتم النبيين")],
+  "person/abdullah-ibn-abd-al-muttalib": [phrase("عبد الله بن عبد المطلب"), phrase("عبدالله بن عبد المطلب")],
+  "person/abd-al-muttalib": [tok("عبد المطلب"), phrase("شيبه بن هاشم"), phrase("شيبه الحمد")],
+  "person/hashim-ibn-abd-manaf": [phrase("هاشم بن عبد مناف"), phrase("بني هاشم"), phrase("بنو هاشم"), phrase("البيت الهاشمي"), phrase("الهاشميون"), phrase("الهاشميين")],
+  "person/abd-manaf-ibn-qusayy": [phrase("عبد مناف بن قصي"), phrase("عبد مناف"), phrase("بني عبد مناف"), phrase("بنو عبد مناف")],
+  "person/qusayy-ibn-kilab": [phrase("قصي بن كلاب"), phrase("قصي")],
+  "person/kilab-ibn-murra": [phrase("كلاب بن مره")],
+  "person/murra-ibn-kab": [phrase("مره بن كعب")],
+  "person/kab-ibn-luayy": [phrase("كعب بن لوي")],
+  "person/luayy-ibn-ghalib": [phrase("لوي بن غالب"), phrase("بني لوي")],
+  "person/ghalib-ibn-fihr": [phrase("غالب بن فهر")],
+  "person/fihr-ibn-malik": [phrase("فهر بن مالك"), phrase("قريش بن فهر")],
+  "person/malik-ibn-al-nadr": [phrase("مالك بن النضر")],
+  "person/al-nadr-ibn-kinana": [phrase("النضر بن كنانه")],
+  "person/kinana-ibn-khuzayma": [phrase("كنانه بن خزيمه")],
+  "person/khuzayma-ibn-mudrika": [phrase("خزيمه بن مدركه")],
+  "person/mudrika-ibn-ilyas": [phrase("مدركه بن الياس")],
+  "person/ilyas-ibn-mudar": [phrase("الياس بن مضر")],
+  "person/mudar-ibn-nizar": [phrase("مضر بن نزار"), gphrase("مضر"), gphrase("المضريه")],
+  "person/nizar-ibn-maadd": [phrase("نزار بن معد"), phrase("بني نزار")],
+  "person/maadd-ibn-adnan": [phrase("معد بن عدنان"), phrase("بني معد")],
+  "person/adnan": [phrase("عدنان"), phrase("العدنانيون"), phrase("العدنانية"), phrase("عدناني"), phrase("عدنانيه")],
+  "person/ismail": [tok("اسماعيل"), phrase("بني اسماعيل"), phrase("ولد اسماعيل")],
+  "person/ibrahim": [tok("ابراهيم")],
+  "person/ishaq": [tok("اسحاق")],
+  "person/yaqub": [tok("يعقوب")],
+  "person/yusuf": [tok("يوسف")],
+  "person/musa": [tok("موسي")],
+  "person/harun": [tok("هارون")],
+  "person/dawud": [tok("داود")],
+  "person/sulayman": [tok("سليمان")],
+  "person/zakariyya": [tok("زكريا")],
+  "person/isa-ibn-maryam": [tok("عيسي"), tok("المسيح"), phrase("ابن مريم"), phrase("عيسي ابن مريم")],
+  "person/qaydar": [phrase("قيدار"), phrase("قيدر")],
+  // tribes
+  "group/quraysh": [tok("قريش"), phrase("قريشيه"), phrase("القرشيون"), phrase("القرشيين")],
+  "group/banu-hashim": [phrase("بني هاشم"), phrase("بنو هاشم"), phrase("الهاشميون"), phrase("الهاشميه")],
+  "group/banu-abd-manaf": [phrase("بني عبد مناف"), phrase("بنو عبد مناف")],
+  "group/banu-umayya": [phrase("بني اميه"), phrase("بنو اميه"), phrase("الامويون"), phrase("الامويين"), phrase("امويه")],
+  "group/banu-abd-shams": [phrase("بني عبد شمس"), phrase("بنو عبد شمس"), phrase("عبد شمس")],
+  "group/banu-makhzum": [phrase("بني مخزوم"), phrase("بنو مخزوم"), phrase("المخزوميون")],
+  "group/banu-zuhra": [phrase("بني زهره"), phrase("بنو زهره"), phrase("الزهريون")],
+  "group/banu-al-najjar": [phrase("بني النجار"), phrase("بنو النجار"), phrase("بني نجار")],
+  "group/banu-nadir": [phrase("بني النضير"), phrase("بنو النضير"), phrase("النضير")],
+  "group/qaynuqa": [phrase("قينقاع"), phrase("بني قينقاع")],
+  "group/qurayza": [phrase("قريظه"), phrase("بني قريظه")],
+  "group/jewish-tribes-of-hijaz": [phrase("يهود المدينه"), phrase("يهود خيبر"), phrase("قبائل اليهود")],
+  "group/aws": [phrase("الاوس"), phrase("بني الاوس"), phrase("اوسيه"), phrase("الاوس والخزرج"), phrase("اوس وخزرج")],
+  "group/khazraj": [phrase("الخزرج"), phrase("بني الخزرج"), phrase("خزرجيه"), phrase("الاوس والخزرج")],
+  "group/khuzaa": [phrase("خزاعه"), phrase("بني خزاعه")],
+  "group/aad": [phrase("عاد"), phrase("قوم عاد"), phrase("عاد الاولي"), phrase("بني عاد")],
+  "group/thamud": [phrase("ثمود"), phrase("قوم ثمود"), phrase("بني ثمود")],
+  "group/banu-tamim": [phrase("بني تميم"), phrase("بنو تميم"), phrase("تميميه")],
+  "group/hawazin": [phrase("هوازن"), phrase("بني هوازن"), phrase("هوازنيه")],
+  "group/thaqif": [phrase("ثقيف"), phrase("بني ثقيف"), phrase("الثقيفون"), phrase("ثقفيه")],
+  "group/ghatafan": [phrase("غطفان"), phrase("بني غطفان")],
+  "group/hudhayl": [phrase("هذيل"), phrase("بني هذيل")],
+  "group/banu-sulaym": [phrase("بني سليم"), phrase("بنو سليم"), phrase("سليميه")],
+  "group/aslam": [phrase("اسلم"), phrase("بني اسلم")],
+  "group/juhayna": [phrase("جهينه"), phrase("بني جهينه")],
+  "group/muzayna": [phrase("مزينه"), phrase("بني مزينه")],
+  "group/ghifar": [phrase("غفار"), phrase("بني غفار"), phrase("الغفاريون")],
+  "group/ashja": [phrase("اشجع"), phrase("بني اشجع")],
+  "group/al-azd": [phrase("الازد"), phrase("بني الازد"), phrase("ازديه")],
+  "group/lakhm": [phrase("لخم"), phrase("بني لخم"), phrase("اللخميون"), phrase("المناذره")],
+  "group/ghassan": [phrase("غسان"), phrase("بني غسان"), phrase("الغساسنه")],
+  "group/hamdan": [phrase("همدان"), phrase("بني همدان")],
+  "group/himyar": [phrase("حمير"), phrase("بني حمير"), phrase("الاحماريون"), phrase("الحميريون")],
+  "group/madhhij": [phrase("مذحج"), phrase("بني مذحج")],
+  "group/qudaa": [phrase("قضاعه"), phrase("بني قضاعه")],
+  "group/tayy": [phrase("طيء"), phrase("بني طيء"), phrase("الطائييون")],
+  "group/shayban": [phrase("شيبان"), phrase("بني شيبان")],
+  "group/bakr-ibn-wail": [phrase("بكر بن وايل"), phrase("بني بكر"), phrase("البكريون")],
+  "group/taghlib": [phrase("تغلب"), phrase("بني تغلب")],
+  "group/abd-al-qays": [phrase("عبد القيس"), phrase("بني عبد القيس")],
+  "group/kinda": [phrase("كنده"), phrase("بني كنده")],
+  "group/dabba": [phrase("ضبه"), phrase("بني ضبه")],
+  "group/yarbu": [phrase("يربوع"), phrase("بني يربوع")],
+  "group/kinana": [phrase("كنانه"), phrase("بني كنانه")],
+  "group/murad": [phrase("مراد"), phrase("بني مراد")],
+  "group/anmar-ibn-nizar": [phrase("انمار بن نزار"), phrase("بني انمار")],
+  "group/abs": [phrase("عبس"), phrase("بني عبس")],
+  "group/banu-amir-ibn-sasaa": [phrase("بني عامر"), phrase("بنو عامر"), phrase("عامر بن صعصعه")],
+  "group/banu-asad": [phrase("بني اسد"), phrase("بنو اسد"), phrase("الاسديون")],
+  "group/banu-abbas": [phrase("بني العباس"), phrase("بنو العباس"), phrase("العباسيون"), phrase("العباسيه")],
+  // peoples
+  "group/arabs": [phrase("العرب"), phrase("اعراب"), phrase("الاعراب"), phrase("العراب")],
+  "group/al-ajam": [phrase("العجم"), phrase("الاعاجم"), phrase("اعجميه")],
+  "group/persians": [phrase("الفرس"), phrase("الفارسيه"), phrase("فارس")],
+  "group/al-rum": [phrase("الروم"), phrase("بني الاصفر"), phrase("الروميه")],
+  "group/turks": [phrase("الترك"), phrase("الاتراك"), phrase("التركيه")],
+  "group/al-habasha": [phrase("الحبشه"), phrase("الحبش"), phrase("الحبشيون")],
+  "group/al-qibt": [phrase("القبط"), phrase("الاقباط"), phrase("القبطيه")],
+  "group/berbers": [phrase("البربر"), phrase("الامازيغ")],
+  "group/kurds": [phrase("الاكراد"), phrase("الكرد")],
+  "group/banu-israil": [phrase("بني اسراييل"), phrase("بنو اسراييل"), phrase("الاسراييليون")],
+  "group/mongols": [phrase("التتر"), phrase("المغول")],
+  // mutun
+  "work/ajurrumiyya": [phrase("الاجروميه"), phrase("اجروميه"), phrase("متن الاجروميه")],
+  "work/alfiyya-ibn-malik": [phrase("الفيه ابن مالك"), phrase("الفيه النحو"), phrase("خلاصه ابن مالك")],
+  "work/alfiyya-al-iraqi": [phrase("الفيه العراقي")],
+  "work/matn-ibn-ashir": [phrase("متن ابن عاشر"), phrase("المرشد المعين"), phrase("ابن عاشر")],
+  "work/risala-qayrawani": [phrase("رساله ابن ابي زيد"), phrase("الرساله القيروانيه"), phrase("رساله القيرواني")],
+  "work/aqida-tahawiyya": [phrase("الطحاويه"), phrase("العقيده الطحاويه"), phrase("متن الطحاويه")],
+  "work/tuhfat-al-atfal": [phrase("تحفه الاطفال")],
+  "work/al-jazariyya": [phrase("الجزريه"), phrase("الموقده")],
+  "work/al-shatibiyya": [phrase("الشاطبيه"), phrase("حرز الاماني")],
+  "work/al-rahbiyya": [phrase("الرحبيه")],
+  "work/al-waraqat": [phrase("الورقات"), phrase("ورقات الجويني")],
+  "work/al-bayquniyya": [phrase("البيقونيه"), phrase("المنظومه البيقونيه")],
+  "work/nukhbat-al-fikar": [phrase("نخبه الفكر"), phrase("النخبه")],
+  "work/matn-al-quduri": [phrase("متن القدوري"), phrase("مختصر القدوري")],
+  "work/al-sullam-al-munawraq": [phrase("السلم المنورق"), phrase("سلم المنورق")],
+  "work/jawharat-al-tawhid": [phrase("جوهرة التوحيد"), phrase("جوهره التوحيد")],
+  "work/bad-al-amali": [phrase("بدء الامالي"), phrase("بد الامالي")],
+  "work/qatr-al-nada": [phrase("قطر الندي")],
+  "work/matn-abi-shuja": [phrase("متن ابي شجاع"), phrase("غايه الاختصار")],
+  "work/al-zubad": [phrase("الزبد"), phrase("زبد ابن رسلان")],
+  "work/safinat-al-najah": [phrase("سفينه النجاه")],
+};
+
+/** Class-level mentions: genealogy talk, tribe talk, mutun talk, the prophets' tree. */
+const GENERIC_PATTERNS: [AnsabGenericTopic, RegExp[]][] = [
+  ["nasab", [
+    gphrase("النسب"), gphrase("الانساب"), gphrase("نسبه"), gphrase("نسبها"), gphrase("انسابهم"),
+    gphrase("النسابون"), gphrase("النسابين"), gphrase("نسابه"), gphrase("النسابه"), gphrase("منتسب"),
+    gphrase("ينتسب"), gphrase("انتساب"), gphrase("سلاله"), gphrase("السلاله"), gphrase("عقبه"),
+    gphrase("ذريته"), gphrase("ذريتها"), gphrase("النسل"), gphrase("جهره النسب"), gphrase("شجره النسب"),
+    gphrase("نسب النبي"), gphrase("نسب الرسول"), gphrase("شجره الانبياء"),
+  ]],
+  ["tribes", [
+    gphrase("القبيله"), gphrase("القبايل"), gphrase("قبايل العرب"), gphrase("العشيره"),
+    gphrase("العشاير"), gphrase("البطن"), gphrase("البطون"), gphrase("الفخذ"), gphrase("الافخاذ"),
+    gphrase("الحي"), gphrase("الاحياء"), gphrase("بطون قريش"), gphrase("قبايل اليمن"),
+    gphrase("قبايل الحجاز"), gphrase("قبايل نجد"), gphrase("القحطانيون"), gphrase("قحطانيه"),
+    gphrase("قحطاني"), gphrase("العدنانيون"), gphrase("عدنانيه"), gphrase("عدناني"),
+  ]],
+  ["mutun", [
+    gphrase("المتون"), gphrase("المتن"), gphrase("متون المذهب"), gphrase("متن في"),
+    gphrase("متون العلم"), gphrase("منظومه"), gphrase("منظومته"), gphrase("النظم"), gphrase("نظمه"),
+    gphrase("حفظ المتون"), gphrase("متون الحفظ"), gphrase("متونا"),
+  ]],
+  ["prophets-tree", [
+    gphrase("شجره الانبياء"), gphrase("شجره النبيين"), gphrase("شجره الرسل"),
+    gphrase("نسل الانبياء"), gphrase("ذريه الانبياء"), gphrase("نسب الانبياء"),
+    gphrase("نسب النبي"), gphrase("نسب الرسول"), gphrase("سلسله النسب"),
+  ]],
+];
+
+/** English fallbacks for the museum's own translations (matn translations only). */
+const EN_GENERIC: [AnsabGenericTopic, RegExp][] = [
+  ["nasab", /\blineage\b|\bgenealogy\b|\bgenealogical\b|\bdescent\b/i],
+  ["tribes", /\btribes?\b|\bclans?\b/i],
+  ["mutun", /\bmutun\b|\bmatn\b|\bdidactic text/i],
+];
+
+/** The Arabic matn a passage is judged on: frozen text_search first, then the matn text. */
+const arabicMatnOf = (n: Node): string =>
+  normalizeAnsabArabic(String(n.data.text_search ?? n.data.text ?? ""));
+/** English is read only from the matn translation, never the label or summary. */
+const englishMatnOf = (n: Node): string => {
+  if (n.data.work === "work/quran") return "";
+  const tr = n.data.translations as Record<string, { text?: string }> | undefined;
+  return [tr?.en?.text].filter(Boolean).join(" ");
+};
+
+/** The ansab topics a passage mentions, detected from its own matn. */
+export function ansabTopicsOf(n: Node): AnsabTopic[] {
+  if (n.class !== "passage" || n.stub || ANSAB_EXCLUDE.has(n.id)) return [];
+  const ar = ` ${arabicMatnOf(n)} `;
+  const en = englishMatnOf(n).toLowerCase();
+  const topics = new Set<AnsabTopic>();
+  for (const [id, pats] of Object.entries(SUBJECT_PATTERNS) as [AnsabSubjectId, RegExp[]][]) {
+    if (pats.some((p) => p.test(ar))) topics.add(id);
+  }
+  for (const [topic, pats] of GENERIC_PATTERNS) if (pats.some((p) => p.test(ar))) topics.add(topic);
+  for (const [topic, pat] of EN_GENERIC) if (pat.test(en)) topics.add(topic);
+  for (const t of [...topics]) if (ANSAB_TOPIC_EXCLUDE.has(`${n.id}:${t}`)) topics.delete(t);
+  return [...topics];
+}
+
+/** True when the passage's own matn mentions a lineage, tribe, people, matn or the tree. */
+export function isAnsabPassage(n: Node): boolean {
+  return ansabTopicsOf(n).length > 0;
+}
+
+/**
+ * Which corpus an ansab passage belongs to, from its work: the frozen Qur'an, the hadith
+ * collections (genre `hadith` or a hadith-unit passage), the seerah books (genre `sira`), and
+ * every other harvested work. Works not yet harvested land in the right section by their genre
+ * the day their passages arrive.
+ */
+export function ansabCorpusOf(workId: string | undefined, genre: string[] | undefined, unit: string | undefined): AnsabCorpus {
+  if (workId === "work/quran" || unit === "ayah") return "quran";
+  if (genre?.includes("sira")) return "seerah";
+  if (genre?.includes("hadith") || unit === "hadith") return "sunnah";
+  return "books";
+}
+
+/** The section of a record: its `ansab-<section>` tag when registered, class fallback, else `mentioned`. */
+export function ansabSectionOf(n: Node): AnsabSection {
+  const tag = n.tags.find((t) => t.startsWith("ansab-") && t !== ANSAB_TAG);
+  const id = tag?.slice(6) ?? "";
+  if ((ANSAB_SECTIONS as readonly string[]).includes(id)) return id as AnsabSection;
+  if (n.class === "work") return "mutun";
+  if (n.class === "group") return n.data.kind === "people" || n.data.kind === "population" ? "peoples" : "tribes";
+  return n.tags.includes(ANSAB_TAG) ? "curated" : "mentioned";
+}
+
+/**
+ * The prophets' tree, oldest ancestor first: the agreed chain Adnan → Muhammad then the disputed
+ * links between Ismail and Adnan and Ibrahim's two lines. `agreed: false` marks the segment the
+ * genealogists dispute (above Adnan), rendered in its own visual style — the three-part division
+ * of concept/nasab-al-nabi.
+ */
+export interface AnsabChainLink { id: string; agreed: boolean }
+export const ANSAB_PROPHET_CHAIN: AnsabChainLink[] = [
+  { id: "person/ibrahim", agreed: true },
+  { id: "person/ismail", agreed: true },
+  { id: "person/qaydar", agreed: false },
+  { id: "person/nabit-ibn-ahmar", agreed: false },
+  { id: "person/ahmar-ibn-abd", agreed: false },
+  { id: "person/abd-ibn-al-dhara", agreed: false },
+  { id: "person/al-dhara-ibn-udr", agreed: false },
+  { id: "person/udr-ibn-al-nashtan", agreed: false },
+  { id: "person/al-nashtan-ibn-mashih", agreed: false },
+  { id: "person/mashih-ibn-nabt", agreed: false },
+  { id: "person/nabt-ibn-daid", agreed: false },
+  { id: "person/daid-ibn-abaq", agreed: false },
+  { id: "person/abaq-ibn-ays", agreed: false },
+  { id: "person/ays-ibn-makhi", agreed: false },
+  { id: "person/makhi-ibn-nahish", agreed: false },
+  { id: "person/nahish-ibn-jahim", agreed: false },
+  { id: "person/jahim-ibn-tabikh", agreed: false },
+  { id: "person/tabikh-ibn-yadlaf", agreed: false },
+  { id: "person/yadlaf-ibn-bildas", agreed: false },
+  { id: "person/bildas-ibn-haza", agreed: false },
+  { id: "person/haza-ibn-nashid", agreed: false },
+  { id: "person/nashid-ibn-al-awwam", agreed: false },
+  { id: "person/al-awwam-ibn-ubayy", agreed: false },
+  { id: "person/ubayy-ibn-qamwal", agreed: false },
+  { id: "person/qamwal-ibn-buz", agreed: false },
+  { id: "person/buz-ibn-awf", agreed: false },
+  { id: "person/awf-ibn-salman", agreed: false },
+  { id: "person/salman-ibn-al-humaysa", agreed: false },
+  { id: "person/al-humaysa-ibn-adad", agreed: false },
+  { id: "person/adad-ibn-udd", agreed: false },
+  { id: "person/udd-ibn-adnan", agreed: false },
+  { id: "person/adnan", agreed: true },
+  { id: "person/maadd-ibn-adnan", agreed: true },
+  { id: "person/nizar-ibn-maadd", agreed: true },
+  { id: "person/mudar-ibn-nizar", agreed: true },
+  { id: "person/ilyas-ibn-mudar", agreed: true },
+  { id: "person/mudrika-ibn-ilyas", agreed: true },
+  { id: "person/khuzayma-ibn-mudrika", agreed: true },
+  { id: "person/kinana-ibn-khuzayma", agreed: true },
+  { id: "person/al-nadr-ibn-kinana", agreed: true },
+  { id: "person/malik-ibn-al-nadr", agreed: true },
+  { id: "person/fihr-ibn-malik", agreed: true },
+  { id: "person/ghalib-ibn-fihr", agreed: true },
+  { id: "person/luayy-ibn-ghalib", agreed: true },
+  { id: "person/kab-ibn-luayy", agreed: true },
+  { id: "person/murra-ibn-kab", agreed: true },
+  { id: "person/kilab-ibn-murra", agreed: true },
+  { id: "person/qusayy-ibn-kilab", agreed: true },
+  { id: "person/abd-manaf-ibn-qusayy", agreed: true },
+  { id: "person/hashim-ibn-abd-manaf", agreed: true },
+  { id: "person/abd-al-muttalib", agreed: true },
+  { id: "person/abdullah-ibn-abd-al-muttalib", agreed: true },
+  { id: "person/muhammad", agreed: true },
+];

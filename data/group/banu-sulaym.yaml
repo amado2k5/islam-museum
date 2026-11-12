@@ -1,27 +1,19 @@
 id: group/banu-sulaym
+tags: ["ansab-browser", "ansab-tribes"]
 class: group
 kind: tribe
-label:
-  ar: بنو سليم
-  en: Banu Sulaym
+label: { ar: "بنو سليم", en: "Banu Sulaym" }
 summary:
-  ar: "بنو سليم بن منصور بن عكرمة بن خصفة بن قيس عيلان، من عظام أحياء العرب؛ كانوا في الحجاز ثم اجتمعوا في مهاجرتهم إلى مصر ومنها أجازوا إلى إفريقية في أثر بني هلال فسكنوا برقة ثم الغرب وزاحموا بني هلال فدحضوهم إلى المغرب الأوسط، واستقروا بضواحي قابس وصفاقس وما بين طرابلس إلى حدود فاس، ومنهم بنو مكي رؤساء قابس وبنو ثابت رؤساء طرابلس وبنو مزني أمراء بسكرة."
-  en: "Banu Sulaym ibn Mansur ibn Ikrima ibn Khasafa ibn Qays Aylan, among the great Arab divisions; Hijazi folk who gathered in the migration to Egypt then crossed into Ifriqiya after Banu Hilal — they settled Barqa then pressed west, driving the Hilalis into the Middle Maghreb, and settled the marches of Gabes, Sfax and from Tripoli toward Fez's bounds; of them the Banu Makki chiefs of Gabes, the Banu Thabit of Tripoli and the Banu Muzni amirs of Biskra."
-wings: []
-periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
-regions: [maghreb, egypt-nile]
-external_ids: { wikidata: "Q2456206" }
-sources:
-- source/tarikh-ibn-khaldun-ibar
-- source/mubarakpuri-raheeq
-- source/muhadarat-tarikh-al-umam-al-islamiyya
+  ar: "بنو سليم بن منصور بن عكرمة بن خصفة بن قيس عيلان بن مضر، قيسية عددًا ونسباً؛ منهم العباس بن مرداس وصحب المطلب بن أبي وداعة، وكانت سليم تساعد المسلمين في حنين وحديث «أصبحنا ببني سليم» في تتبع الرائد {cite:mubarakpuri-raheeq p.16} {cite:isaba} {cite:kamil-ibn-al-athir}."
+  en: "Banu Sulaym ibn Mansur ibn Ikrima ibn Khasafa ibn Qays Aylan ibn Mudar — numerous in men and lineage; among them al-Abbas ibn Mirdas and the companions of al-Mutallib ibn Abi Wada'a; Sulaym aided the Muslims at Hunayn, and their dawn-raid reports run in the hadith of the scout {cite:mubarakpuri-raheeq p.16} {cite:isaba} {cite:kamil-ibn-al-athir}."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
 provenance:
   layer: own-research
-  source: ابن خلدون، العبر — أنساب العرب، بنو سليم وهجرتهم إلى إفريقية، ص478-482 (طبعة هيليوبوليس)
-  generated_by: Devin (SWE-2 High) from Apple Vision OCR
-  model: swe-2-high
-  run: lib-ibar-east-27
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
+  source: "ansab-browser lane — tribes and peoples"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari, source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }

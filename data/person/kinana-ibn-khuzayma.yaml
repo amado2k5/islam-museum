@@ -1,0 +1,22 @@
+id: person/kinana-ibn-khuzayma
+tags: ["ansab-browser", "ansab-shajara"]
+class: person
+label: { ar: "كنانة بن خزيمة", en: "Kinana ibn Khuzayma" }
+gender: male
+roles: []
+summary:
+  ar: "أبو النضر جد قريش؛ عنده تتلاقى أنساب قريش وبني كنانة وبني أسد بن خزيمة وبني عمرو {cite:mubarakpuri-raheeq p.48} {cite:tarikh-al-tabari}، ومن كنانة بن النضر ولده حي بني كنانة."
+  en: "Father of al-Nadr, the ancestor of Quraysh; the genealogies of Quraysh, Banu Kinana, Banu Asad ibn Khuzayma and Banu Amr meet at him {cite:mubarakpuri-raheeq p.48} {cite:tarikh-al-tabari}; through his grandson Kinana ibn al-Nadr come the Banu Kinana clans."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/khuzayma-ibn-mudrika, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — prophetic-lineage records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }

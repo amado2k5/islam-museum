@@ -1,15 +1,22 @@
 id: person/fihr-ibn-malik
+tags: ["ansab-browser", "ansab-shajara"]
 class: person
-label: { ar: "فهر بن مالك", en: "Fihr ibn Mālik (Quraysh)" }
-summary: { ar: "الملقب قريش وإليه تنتسب القبيلة؛ من الجزء الأول المتفق على صحته في سلسلة النسب النبوي.", en: "The eponym ‘Quraysh’ to whom the tribe is traced, in the agreed first part of the Prophet’s genealogy." }
+label: { ar: "فهر بن مالك", en: "Fihr ibn Malik" }
+gender: male
+roles: []
+summary:
+  ar: "هو «قريش» بن فهر الذي إليه تنحصر قريش البطاح والظواهر، وفي قول: سمي فهر بن مالك قريشاً لأنه قرش عدواً لأهل اليمن أرادوا أن يقتادوا قريشاً فدافعهم عن قومه وخزاعة؛ أولاده غالب ومحرم والحارث {cite:ibn-hisham-sira 1/1-4} {cite:mubarakpuri-raheeq p.48} {cite:tarikh-al-tabari}."
+  en: "Fihr ibn Malik, the 'Quraysh' to whom Quraysh of the hollows and the outskirts are confined; it is said he was called Quraysh because he 'quarashed' (crushed) a Yemeni enemy that meant to carry off Quraysh, defending his people and Khuza'a; his sons are Ghalib, Muharram and al-Harith {cite:ibn-hisham-sira 1/1-4} {cite:mubarakpuri-raheeq p.48} {cite:tarikh-al-tabari}."
 wings: [people]
-story_roles: [{ role: family-of-the-prophet }]
 themes: [family-marriage-kinship]
-born: { edtf: "250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham / Ibn Hazm" }
-died: { edtf: "320~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham / Ibn Hazm" }
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
 relations:
-  - { type: lived_in, target: place/mecca, confidence: low, note: "Ancestor of Quraysh at Mecca per the record's cited al-Raheeq al-Makhtum.", sources: [source/mubarakpuri-raheeq] }
-  - { type: child_of, target: person/malik-ibn-al-nadr }
-  - { type: founder_of, target: group/quraysh }
-sources: [source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 48–53" }
+  - { type: child_of, target: person/malik-ibn-al-nadr, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — prophetic-lineage records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }
