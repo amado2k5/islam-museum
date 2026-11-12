@@ -1,0 +1,34 @@
+id: person/sarghitmish
+class: person
+label: { ar: "الأمير صرغتمش الناصري", en: "Sarghitmish al-Nasiri, Mamluk emir", ur: "امیر صرغتمش الناصری، مملوکی امیر" }
+names:
+  - { kind: full, value: "Sayf al-Din Sarghitmish ibn Abd Allah al-Nasiri" }
+  - { kind: alternate, value: "Sarghatmish" }
+  - { kind: alternate, value: "Sarghatmush" }
+summary:
+  ar: "الأمير سيف الدين صرغتمش الناصري مملوك الناصر محمد بن قلاوون الذي صار من كبار مدبري الدولة بعد وفاة السلطان، وشارك شيخو وطاز في حكم مصر، وكان من صانعي عودة الناصر حسن سنة 755هـ. انفرد بالتدبير بعد موت شيخو سنة 758هـ، ثم قبض عليه حسن في رمضان سنة 759هـ وسجنه بالإسكندرية حيث مات. هو صاحب المدرسة الصرغتمشية بالقاهرة وكان يميل إلى الحنفية ويقرّب العلماء {cite:durar-kamina-jil-1993 2/206-207} {cite:nujum-zahira 10/328}."
+  en: "Amir Sayf al-Din Sarghitmish al-Nasiri was a mamluk of al-Nasir Muhammad ibn Qalawun who became one of the chief managers of the state after the sultan's death. He shared power with Shaykhu and Taz and helped bring al-Nasir Hasan back in 755. He ruled alone after Shaykhu's death in 758, was arrested by Hasan in Ramadan 759 and died in prison in Alexandria. He founded the Sarghitmishiyya madrasa in Cairo, favoured the Hanafi school and kept company with scholars {cite:durar-kamina-jil-1993 2/206-207} {cite:nujum-zahira 10/328}."
+  ur: "امیر سیف الدین صرغتمش الناصری الناصر محمد بن قلاوون کے مملوک تھے جو سلطان کی وفات کے بعد ریاست کے بڑے مدبروں میں شامل ہوئے۔ انہوں نے شیخو اور طاز کے ساتھ اقتدار بانٹا اور 755ھ میں الناصر حسن کی واپسی میں حصہ لیا۔ 758ھ میں شیخو کی وفات کے بعد وہ تنہا مدبر رہے، رمضان 759ھ میں حسن نے انہیں گرفتار کر کے اسکندریہ کے قید خانے میں ڈال دیا جہاں وہ فوت ہوئے۔ قاہرہ کا مدرسہ صرغتمشیہ انہی کا ہے، وہ حنفی مذہب کی طرف مائل تھے اور علماء کی صحبت رکھتے تھے {cite:durar-kamina-jil-1993 2/206-207} {cite:nujum-zahira 10/328}."
+gender: male
+roles: [emir, patron]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+died: { edtf: "1358", hijri: "0759", calendar: julian, precision: year, status: historical, derived: true, note: "Died in prison at Alexandria in Dhu al-Hijja 759 {cite:nujum-zahira 10/328}; Ibn Hajar's note says al-Maqrizi dates his death to Dhu al-Hijja 759 {cite:durar-kamina-jil-1993 2/207}. Birth date is not given in the sources read.", sources: [source/nujum-zahira, source/durar-kamina-jil-1993] }
+relations:
+  - { type: lived_in, target: place/cairo, note: "His madrasa stands in the Salibah quarter of Cairo; Nujum 10/308 note.", sources: [source/nujum-zahira] }
+  - { type: died_in, target: place/alexandria, note: "Died in the prison of Alexandria; Nujum 10/328.", sources: [source/nujum-zahira] }
+provenance:
+  layer: own-research
+  source: "Ibn Taghribirdi, al-Nujum al-Zahira vol. 10 pp. 302-310 and 328; Ibn Hajar, al-Durar al-Kamina vol. 2 pp. 206-207; Encyclopaedia of Islam 2nd ed. (al-Nasir; al-Salih; Mamluks architecture)"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-3
+  canon: "EI2 vol. 3 p. 259, vol. 7 p. 1047, vol. 8 p. 1058, vol. 12 pp. 644-645 (madrasa of Sarghitmish); Nujum vol. 10; Durar vol. 2"
+sources: [source/nujum-zahira, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "صرغتمش كان أميراً قوياً في مصر، وبنى مدرسة في القاهرة، ثم سجنه السلطان حسن."
+  en: "Sarghitmish was a powerful emir in Egypt who built a school in Cairo before the sultan locked him up."
+  ur: "صرغتمش مصر کا طاقتور امیر تھا جس نے قاہرہ میں مدرسہ بنوایا، پھر سلطان نے اسے قید کر دیا۔"

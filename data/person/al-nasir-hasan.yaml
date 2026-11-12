@@ -1,0 +1,39 @@
+id: person/al-nasir-hasan
+class: person
+label: { ar: "السلطان الناصر حسن بن محمد بن قلاوون", en: "al-Nasir Hasan, Mamluk sultan of Egypt", ur: "سلطان ناصر حسن بن محمد بن قلاوون، مملوکی سلطان مصر" }
+names:
+  - { kind: full, value: "al-Malik al-Nasir Nasir al-Din Abu al-Ma'ali Hasan ibn Muhammad ibn Qalawun" }
+  - { kind: alternate, value: "Sultan Hasan" }
+  - { kind: alternate, lang: ar, value: "السلطان حسن" }
+  - { kind: alternate, value: "Qumari" }
+summary:
+  ar: "الملك الناصر ناصر الدين أبو المعالي حسن بن محمد بن قلاوون، التاسع عشر من سلاطين المماليك الأتراك في مصر، تولى السلطنة صبياً سنة 748هـ/1347م بعد مقتل أخيه المظفر حاجي، ثم خُلع سنة 752هـ وأُعيد سنة 755هـ تحت سطوة الأميرين شيخو وصرغتمش. انفرد بالحكم بعد القبض على صرغتمش سنة 759هـ، وبنى مدرسته الكبرى تجاه قلعة الجبل، وقتله مملوكه يلبغا العمري سنة 762هـ/1361م {cite:encyclopaedia-of-islam-2 vol. 7 p. 1047} {cite:nujum-zahira 10/187}."
+  en: "Al-Malik al-Nasir Nasir al-Din Abu al-Ma'ali Hasan ibn Muhammad ibn Qalawun was the nineteenth Turkish Mamluk sultan of Egypt. He was enthroned as a boy in 748/1347 after the killing of his brother al-Muzaffar Hajji, deposed in 752, and restored in 755 under the sway of the amirs Shaykhu and Sarghitmish. He ruled alone after arresting Sarghitmish in 759, built his great madrasa facing the Citadel of Cairo, and was killed by his own mamluk Yalbugha al-Umari in 762/1361 {cite:encyclopaedia-of-islam-2 vol. 7 p. 1047} {cite:nujum-zahira 10/187}."
+  ur: "الملک الناصر ناصر الدین ابو المعالی حسن بن محمد بن قلاوون مصر کے انیسویں ترک مملوک سلطان تھے۔ وہ اپنے بھائی المظفر حاجی کے قتل کے بعد 748ھ/1347ء میں بچپن میں تخت نشین ہوئے، 752ھ میں معزول ہوئے اور 755ھ میں امیر شیخو اور صرغتمش کے زور تلے دوبارہ بحال ہوئے۔ 759ھ میں صرغتمش کی گرفتاری کے بعد وہ تنہا حکمران رہے، قلعہ قاہرہ کے سامنے اپنا عظیم مدرسہ بنوایا، اور 762ھ/1361ء میں اپنے ہی مملوک یلبغا العمری کے ہاتھوں قتل ہوئے {cite:encyclopaedia-of-islam-2 vol. 7 p. 1047} {cite:nujum-zahira 10/187}."
+gender: male
+roles: [sultan, patron]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+born: { edtf: "1335", hijri: "0735", calendar: julian, precision: year, status: debated, derived: true, note: "Ibn Hajar gives 735 AH {cite:durar-kamina-jil-1993 2/38}; Ibn Taghribirdi says he was eleven at his accession in 748 {cite:nujum-zahira 10/187} and a little over thirty at his death {cite:nujum-zahira 10/313}; the sources do not agree.", sources: [source/durar-kamina-jil-1993, source/nujum-zahira] }
+died: { edtf: "1361", hijri: "0762", calendar: julian, precision: year, status: debated, derived: true, note: "Killed in Jumada I 762/March 1361 {cite:encyclopaedia-of-islam-2 vol. 7 p. 1047}; another EI2 article gives 12 Jumada I 763/9 March 1362 {cite:encyclopaedia-of-islam-2 vol. 3 p. 259}. Ibn Taghribirdi puts the seizure on 9 Jumada I 762 {cite:nujum-zahira 11/3}.", sources: [source/encyclopaedia-of-islam-2, source/nujum-zahira] }
+relations:
+  - { type: child_of, target: person/al-nasir-muhammad-ibn-qalawun, note: "Son of al-Nasir Muhammad by a concubine; EI2 vol. 7 p. 1047.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: sibling_of, target: person/al-salih-salih, note: "His brother, who replaced him in 752 and was deposed in 755; EI2 vol. 3 p. 259.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: ruler_of, target: polity/mamluk-sultanate, note: "Sultan 748-752/1347-1351 and 755-762/1354-1361; EI2 vol. 7 p. 1047.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: commissioned, target: building/masjid-sultan-hasan, note: "Began the mosque-madrasa below the Citadel in 757 or 758 AH; EI2 vol. 3 p. 260; Nujum 10/306.", sources: [source/encyclopaedia-of-islam-2, source/nujum-zahira] }
+  - { type: died_in, target: place/cairo, note: "Killed in the Citadel; EI2 vol. 3 p. 259.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. (Hasan; al-Nasir; al-Salih; Mamluks); Ibn Taghribirdi, al-Nujum al-Zahira vol. 10 pp. 187-189, 302-318 and vol. 11 pp. 3-8; Ibn Hajar, al-Durar al-Kamina"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-3
+  canon: "EI2 vol. 3 pp. 259-260 (Hasan, J. Wansbrough), vol. 7 p. 1047 (al-Nasir), vol. 8 p. 1058 (al-Salih), vol. 6 p. 343 (Mamluks), vol. 4 p. 452 and vol. 12 pp. 644-645 (architecture)"
+sources: [source/encyclopaedia-of-islam-2, source/nujum-zahira, source/durar-kamina-jil-1993]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "السلطان حسن حكم مصر وهو صبي، وبنى مسجداً ومدرسة ضخمة في القاهرة ما زالت قائمة حتى اليوم."
+  en: "Sultan Hasan became ruler of Egypt as a boy and built a huge mosque and school in Cairo that still stands today."
+  ur: "سلطان حسن بچپن میں مصر کے حکمران بنے اور قاہرہ میں ایک عظیم مسجد اور مدرسہ بنوایا جو آج بھی کھڑا ہے۔"

@@ -1,0 +1,36 @@
+id: person/shaykhu-al-umari
+class: person
+label: { ar: "الأمير شيخو العمري الناصري", en: "Shaykhu al-Umari, Mamluk emir", ur: "امیر شیخو العمری، مملوکی امیر" }
+names:
+  - { kind: full, value: "Sayf al-Din Shaykhu ibn Abd Allah al-Umari al-Nasiri" }
+  - { kind: alternate, value: "Shaykhun" }
+  - { kind: alternate, value: "Shaykhun al-Umari" }
+summary:
+  ar: "الأمير سيف الدين شيخو بن عبد الله العمري الناصري، مملوك تركي اشتراه الخواجا عمر وباعه للناصر محمد بن قلاوون، فترقى حتى صار أتابك العساكر وأول من سُمّي الأمير الكبير بخلعة. شارك في الوصاية على الناصر حسن، وأعاده إلى السلطنة سنة 755هـ، وبنى الجامع والخانقاه بالصليبة في القاهرة. ضربه مملوك بالسيف في دار العدل في شعبان سنة 758هـ فمات من جراحه في أواخر السنة {cite:nujum-zahira 10/324-325} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1047}."
+  en: "Amir Sayf al-Din Shaykhu ibn Abd Allah al-Umari al-Nasiri was a Turkish mamluk whom the merchant Khwaja Umar bought and sold to al-Nasir Muhammad ibn Qalawun. He rose to be atabek of the armies and the first to be named al-Amir al-Kabir with a robe of investiture. He took part in the regency for al-Nasir Hasan, helped restore him to the throne in 755, and built the mosque and khanqah in the Salibah quarter of Cairo. A mamluk struck him with a sword in the Dar al-Adl in Shaban 758, and he died of his wounds late that year {cite:nujum-zahira 10/324-325} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1047}."
+  ur: "امیر سیف الدین شیخو بن عبد اللہ العمری الناصری ترک مملوک تھے جنہیں تاجر خواجہ عمر نے خریدا اور الناصر محمد بن قلاوون کو بیچ دیا۔ وہ ترقی کر کے اتابک العساکر بنے اور خلعت کے ساتھ الامیر الکبیر کہلانے والے پہلے امیر ہوئے۔ انہوں نے الناصر حسن کی سرپرستی میں حصہ لیا، 755ھ میں انہیں دوبارہ تخت پر بٹھانے میں مدد دی، اور قاہرہ کے محلہ صلیبہ میں جامع اور خانقاہ بنوائی۔ شعبان 758ھ میں دار العدل میں ایک مملوک نے ان پر تلوار سے وار کیا اور وہ اسی سال کے آخر میں زخموں سے فوت ہوئے {cite:nujum-zahira 10/324-325} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1047}."
+gender: male
+roles: [emir, patron]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+died: { edtf: "1357", hijri: "0758", calendar: julian, precision: year, status: historical, derived: true, note: "Died in Dhu al-Qada or Dhu al-Hijja 758: Nujum gives 7 Dhu al-Hijja and mentions an early Dhu al-Qada report {cite:nujum-zahira 10/324}; Ibn Hajar gives 26 Dhu al-Qada {cite:durar-kamina-jil-1993 2/197}; EI2 says late 758/1357 {cite:encyclopaedia-of-islam-2 vol. 7 p. 1047}. He was a little over fifty {cite:nujum-zahira 10/324}; no birth year is given.", sources: [source/nujum-zahira, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: built, target: building/shaykhu-complex-cairo, note: "Mosque and khanqah in the Salibah quarter; Nujum 10/303 and 10/325.", sources: [source/nujum-zahira] }
+  - { type: buried_in, target: building/shaykhu-complex-cairo, note: "Buried in his khanqah; Nujum 10/325.", sources: [source/nujum-zahira] }
+  - { type: died_in, target: place/cairo, sources: [source/nujum-zahira] }
+  - { type: allied_with, target: person/sarghitmish, note: "Together restored al-Nasir Hasan in 755; Nujum 10/302; EI2 vol. 3 p. 259.", sources: [source/nujum-zahira, source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Ibn Taghribirdi, al-Nujum al-Zahira vol. 10 pp. 188, 286, 302-305, 324-325; Ibn Hajar, al-Durar al-Kamina vol. 2 pp. 196-197; Encyclopaedia of Islam 2nd ed. (al-Nasir; al-Salih; Amir al-Kabir)"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-3
+  canon: "EI2 vol. 1 p. 466 (Amir al-Kabir), vol. 3 p. 259, vol. 7 p. 1047, vol. 8 p. 1058; Nujum vol. 10; Durar vol. 2"
+sources: [source/nujum-zahira, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "شيخو كان أميراً كبيراً في مصر، وبنى جامعاً وخانقاه في القاهرة ما زالا قائمين."
+  en: "Shaykhu was a great emir in Egypt who built a mosque and a Sufi lodge in Cairo that are still standing."
+  ur: "شیخو مصر کا بڑا امیر تھا جس نے قاہرہ میں جامع مسجد اور خانقاہ بنوائی جو آج بھی موجود ہیں۔"
