@@ -744,3 +744,16 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | Notice | Page | Passage | Reason | Handling |
 |---|---|---|---|---|
 | 664 (printed) | 390 | the words "لو أتينهم" | the OCR's "أتينهم" is read as "أتيناهم" (we came to them) | given as "shall we go to them" |
+
+## Batch 88 (run microsd-books-b88, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 390–391 (full text read before writing). New draft: person/musa-ibn-musawwir-al-dabbi (printed 665, sequence 666, 10/390). No existing record of the name. The notice is complete on page 390.
+- Printed 666 (Muhammad ibn Ali, "له الدعوة المجابة"; the heading is on 390 and its text begins at the top of 391) runs onto page 391 and is next. Its first lines on 391 concern a man among the substitutes (abdal) whose prayer is answered.
+- Printed 532 and 546 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 88)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 665 (printed) | 390 | the nisba "الضي" | read as "الضبي" | given as al-Dabbi |
+| 665 (printed) | 390 | the dream's wording "رؤى في المنام" | the dream report is the transmitter's report | stated as reported by Abu Muhammad ibn Hayyan |
