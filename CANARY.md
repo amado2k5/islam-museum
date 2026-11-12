@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+### Content
+
+- **Urdu pages brought level with English and Arabic.** 85 Urdu pages of the cornerstone records (people, events, places, buildings, concepts, practices, works) were missing Overview paragraphs, citations, links or whole sections that the English and Arabic pages already had. They were completed by faithful translation, so Urdu readers now get the same sourced text. Markers match across the three languages except where the English or Arabic file itself carries stray pasted lines (several al-Nawawi event pages). Draft translations, `status.review: draft` unchanged.
+
 ## v1.27.0 — 2026-11-19
 ### Changed
 - **The Grand Tour's branch caught up with main once more before merging.** Main's canon work had meanwhile rewritten four more Tour stops (the conquest of Mecca, the first revelation, Baghdad, the Kaaba). As before, main's sections and sources stay, the Tour's cited narrative is the overview, and main's own overview paragraphs move to the head of the next section; provenance keeps both parties' notes. Hall-tour stops and the reading list's Brief flags follow their records. Not deployed.
