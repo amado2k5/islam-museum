@@ -4,6 +4,7 @@ import { featureApiData } from "./export-api.js";
 import { duaKindOf, duaSignalsOf } from "./dua.js";
 import { ibadatKindOf, ibadatSignalsOf, ibadatTopicsOf } from "./ibadat.js";
 import { sayyiatKindOf, sayyiatSignalsOf } from "./sayyiat.js";
+import { hududKindOf, hududSignalsOf } from "./hudud.js";
 import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
 import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
 import { mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf } from "./mukatabat.js";
@@ -60,7 +61,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "ibadat.json", "islamic-economy.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -243,6 +244,46 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(sayyiatSignalsOf(braceletFp as any)).toEqual([]);
     expect(sayyiatSignalsOf(kabiraOnly as any)).toEqual([]);
     expect(sayyiatSignalsOf(pairGated as any)).toEqual(expect.arrayContaining(["kabira", "saghiira", "ijrim"]));
+  });
+
+  it("exports hudud: limits, penalties and major sins by corpus and kind, gated weak signals, exclusions, future-book inclusion", () => {
+    const hududAyah = makeNode("passage/quran-2-229x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 229, text: "تلك حدود الله فلا تعتدوها" });
+    const zinaAyah = makeNode("passage/quran-24-2x", "passage", { unit: "ayah", work: "work/quran", sura: 24, aya: 2, text: "الزانية والزاني فاجلدوا كل واحد منهما مائة جلدة" });
+    const qatAyah = makeNode("passage/quran-5-38x", "passage", { unit: "ayah", work: "work/quran", sura: 5, aya: 38, text: "والسارق والسارقة فاقطعوا أيديهما" });
+    const mubiqatHadith = makeNode("passage/muslim-0089x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "89x", text: "قال رسول الله اجتنبوا السبع الموبقات" });
+    const densityPassage = makeNode("passage/tirmidhi-2625x", "passage", { unit: "hadith", work: "work/jami-al-tirmidhi", ref: "2625x", text: "في الزنا والسرقة من أصاب من ذلك شيئا فأقيم فيه الحد" });
+    const tarjumaFp = makeNode("passage/musnad-9991", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9991", text: "وذكره في ترجمة أبي بكر رضي الله عنه" });
+    const swordsFp = makeNode("passage/bukhari-4265x", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "4265x", text: "انقطعت في يدي يوم مؤتة تسعة أسياف" });
+    const tazirFp = makeNode("passage/quran-48-9x", "passage", { unit: "ayah", work: "work/quran", sura: 48, aya: 9, text: "لتؤمنوا بالله ورسوله وتعزروه وتوقروه" });
+    const guessFp = makeNode("passage/quran-18-22", "passage", { unit: "ayah", work: "work/quran", sura: 18, aya: 22, text: "سيقولون ثلاثة رابعهم كلبهم ويقولون خمسة سادسهم كلبهم رجما بالغيب" });
+    const weakOnly = makeNode("passage/muwatta-9995", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9995", text: "وسار بين حدود المدينة" });
+    const futureBook = makeNode("passage/futurefiqh-1", "passage", { unit: "hadith", work: "work/future-hidaya", ref: "1", text: "ويجب عليه الرجم إذا زنى" });
+    const hududConcept = { ...makeNode("concept/hudud-allah-wal-kabair", "concept", { kind: "legal" }), tags: ["hudud-browser"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, hududAyah, zinaAyah, qatAyah, mubiqatHadith, densityPassage, tarjumaFp, swordsFp, tazirFp, guessFp, weakOnly, futureBook, hududConcept] });
+    const items = data["hudud.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-2-229x");        // «حدود الله»
+    expect(ids).toContain("passage/quran-24-2x");         // «فاجلدوا» punishment flogging
+    expect(ids).toContain("passage/quran-5-38x");         // «فاقطعوا أيديهما» the amputated hand
+    expect(ids).toContain("passage/muslim-0089x");        // «السبع الموبقات»
+    expect(ids).toContain("passage/tirmidhi-2625x");      // «الحد»+«الزنا»+«السرقة» density admission
+    expect(ids).toContain("passage/futurefiqh-1");        // a book harvested later lands automatically
+    expect(ids).toContain("concept/hudud-allah-wal-kabair");
+    expect(ids).not.toContain("passage/musnad-9991");     // «ترجمة» biography, not stoning
+    expect(ids).not.toContain("passage/bukhari-4265x");   // «انقطعت» broke, not «قطع»
+    expect(ids).not.toContain("passage/quran-48-9x");     // «تعزّروه» honour, not «تعزير»
+    expect(ids).not.toContain("passage/quran-18-22");     // «رجما بالغيب» guessing — id-level exclusion
+    expect(ids).not.toContain("passage/muwatta-9995");    // lone weak «حدود» (borders)
+    expect(items.find((i) => i.id === "passage/quran-2-229x")).toMatchObject({ section: "quran", hudud_kind: "hudud" });
+    expect(items.find((i) => i.id === "passage/muslim-0089x")).toMatchObject({ section: "sunnah", hudud_kind: "kabair" });
+    expect(items.find((i) => i.id === "passage/tirmidhi-2625x")).toMatchObject({ section: "sunnah", hudud_kind: "hudud" });
+    expect(items.find((i) => i.id === "concept/hudud-allah-wal-kabair")).toMatchObject({ section: "curated", hudud_kind: null });
+    expect(featureApiData(compiled)["hudud.json"].feature).toBe("hudud-browser");
+    expect(hududKindOf(mubiqatHadith as any)).toBe("kabair");
+    expect(hududSignalsOf(tarjumaFp as any)).toEqual([]);
+    expect(hududSignalsOf(swordsFp as any)).toEqual([]);
+    expect(hududSignalsOf(tazirFp as any)).toEqual([]);
+    expect(hududSignalsOf(weakOnly as any)).toEqual([]);
   });
 
   it("exports hasanats: detected passages by corpus and kind, gated false positives, future-book inclusion", () => {

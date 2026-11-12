@@ -322,3 +322,95 @@ Notes for ep10–ep13. Episodes 11 and 12 are the two halves of one lesson in th
 | Wording of the condolence formula | ep11 00:07:30 | Garbled | Clarity | Open |
 | Verses on beholding God and on the Fire closed over its people | ep11 00:10:00–00:12:00 | Qur'an never typed; given by sense, sura not named | Qur'an rule | Open |
 | The lecturer's statement that the undutiful child never enters the Garden and the dutiful never enters the Fire | ep13 00:03:00 | Kept, but written as his statement "made without a source"; no ruling in the museum's voice | Voice rule | Open |
+
+### Completed recordings (§8), continued
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| silsilat-ebadu-al-rahman ep14–ep16 (evil deeds turned into good and the door of repentance; passing by idle talk and guarding the tongue; pondering God's signs) | about 23–25 min each (transcript) | ar, en, ur: 1 record extended, 53 points | 10 new `about` edges (verses 25:71, 25:73; hifz al-lisan, namima, tadabbur al-Qur'an, muhasabat al-nafs, mirath; al-Fudayl ibn Iyad, al-Izz ibn Abd al-Salam, Umar ibn Abd al-Aziz) | ep14 17, ep15 18, ep16 18 points; engine qwen3-asr pass5, 30 s windows | 1 needs_source (the sultan's name in the al-Izz ibn Abd al-Salam story, ep15 00:20:00) | run omar-abdelkafy-ebadu-al-rahman-5 |
+
+| Excluded (ebadu ep14–ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, break jingles, closing formulae | ep14 00:00:00–00:01:00, 00:14:00, 00:24:00–00:25:00; ep15 00:00:00–00:01:00, 00:13:30, 00:23:00–00:23:30; ep16 00:00:00–00:01:00, 00:12:30–00:13:00, 00:23:00–00:23:30 | Not lesson content; Qur'an never typed | Content rule; Qur'an rule | Open |
+| Repetition loops and a diacritised hallucination | ep16 00:18:30, 00:23:30 | Not speech | Loop check | Open |
+| Remark on the wording of verse 25:71 ("repents a true repentance") | ep14 00:08:30–00:09:30 | Garbled; the argument cannot be followed | Clarity | Open |
+| Recited opening of Surat Ta-Ha in Umar's conversion | ep14 00:07:00–00:07:30 | Qur'an never typed; sura not named, so not linked | Qur'an rule | Open |
+| Weapon in the Hamza story ("with the sword") | ep14 00:04:30 | Detail doubtful against the usual account; written without the weapon | Accuracy | Open |
+| Name in the hadith on the woman with continuous bleeding | ep14 00:21:30 | Name garbled; the concession is written without it | Clarity | Open |
+| Supplication "if You see me leaving the gatherings of those who remember" | ep15 00:06:30 | Partly garbled; unattributed | Clarity | Open |
+| The "black box of memories" passage | ep15 00:13:00 | Partly garbled | Clarity | Open |
+| Wording of the reply attributed to Aisha in the greeting hadith | ep15 00:17:30 | An insult against a group; described ("answered them harshly"), never reproduced | Polemic rule (method rule 3) | Open |
+| al-Hasan al-Basri and the narrow rooms in Basra; the powerful man exposed as a thief | ep16 00:17:30–00:18:30 | Anecdotes cut by a loop before their point | Loop check | Open |
+| Verses recited ("we blame our time") | ep16 00:20:30 | Verbatim verse; given by sense | Sources policy | Open |
+
+### Completed recordings (§8), continued
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| silsilat-ebadu-al-rahman ep17–ep18 (spouses, offspring and leadership in piety; the closing list of attributes and the power of supplication) | ep17 about 22 min, ep18 about 25 min (transcript) | ar, en, ur: 1 record extended, 25 points | 13 new `about` edges (verses 25:74–76, 66:10–11, 24:26, 16:97; sadaqa jariya, hasad, tarbiya, ajal, sabr, tawakkul, dua; Nuh, Lut, Amr ibn al-As, Uthman) | ep17 14, ep18 11 points; engine qwen3-asr pass5, 30 s windows | 8 needs_source (the Prophet's ruling on secrets, ep17 00:03:30; the lecturer's reading of 24:26, ep17 00:04:30; the wife and the husband's illness, ep17 00:05:00; the hadith on the good practice, ep17 00:15:30; the family's instructions on death, ep18 00:18:00; the sense of the hadith on provision, ep18 00:18:30; the hadith on supplication reversing the decree, ep18 00:11:30; the two brothers' example, the sense only) | run omar-abdelkafy-ebadu-al-rahman-6 |
+
+Notes for ep17–ep18. The recording of ep17 is much garbled from 00:02:00 to 00:02:30 and after 00:14:00, and ep18 repeats the closing verses at length; only clear windows are written. Episode 18 closes the attributes listed in the programme. Points in ep17 and ep18 that are the lecturer's own opinions (the leadership of the pious; the timing of marriage for a girl; the sex of a child) are marked "the lecturer's view" where they are opinion.
+
+| Excluded (ebadu ep17–ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, break jingles, closing formulae | ep17 00:00:00, 00:10:00–00:10:30, 00:21:30; ep18 00:00:00, 00:13:30–00:14:30, 00:19:30, 00:24:30–00:25:00 | Not lesson content; Qur'an never typed | Content rule; Qur'an rule | Open |
+| Repetition loops and hallucinated runs | ep17 00:02:30, 00:14:00, 00:14:30; ep18 00:14:30 (tail), 00:15:00 | Not speech | Loop check | Open |
+| Anecdote of the Meccan woman who joked for the women of Mecca and was hosted in Medina | ep17 00:14:30–00:15:30 | Names and sequence garbled | Clarity | Open |
+| The institution that corrupts people ("the dancing class") and the charitable-deed reckoning | ep17 00:17:00–00:17:30 | Garbled; the point is unclear | Clarity | Open |
+| Lamentation on people's bickering over a prize | ep17 00:07:00 | Partly garbled | Clarity | Open |
+| Recited verses on the bee, the rooster and the sparrow | ep18 00:08:00 | Verbatim verse, partly garbled; given by sense only | Sources policy | Open |
+| The sentence "we ask what it would be to be among the godfearing if you were rich" | ep18 00:16:00–00:16:30 | Garbled; the point is not recoverable | Clarity | Open |
+| Remark on a son who turns against his father | ep18 00:16:00 | Partly garbled; not written | Clarity | Open |
+| Money of the chamber and the cameras in the programme | ep17 00:21:00 | Logistics of the broadcast, not lesson content | Content rule | Open |
+## al-dar-al-akhera, episodes 1 onward (12 Nov 2026, Claude Code claude-sonnet-5-5)
+
+Series record `work/al-dar-al-akhera` (33 lessons; transcripts `books/assabile/omar-abdelkafy/al-dar-al-akhera/pass5-qwen/`, Qwen3-ASR, 30-second windows). New record, `status.review: draft` with provenance (run `omar-abdelkafy-dar-akhera-1`). Sensitivity `contested` set through the decision engine (`docs/decisions/records/dec-20261112-260.yaml`, rule-harvest-include). Trust criteria as for the ebadu series: a point is written only from windows that read as clear Arabic in context; hadith and verses are given by sense and attributed to the lecturer, never typed; no passage links where the lecturer does not name the sura.
+
+### Completed recordings (§8)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep01-ep03 (agenda and etiquette of visiting the sick; the Prophet's death, dying and the will; condolence customs and Abu Bakr's will) | ep01 39.6 min; ep02 and ep03 about 41 min (transcript) | ar, en, ur: 1 new record (work/al-dar-al-akhera) | 23 `about` edges (concepts, 1 practice, 7 persons) | ep01 22, ep02 18, ep03 15 points; engine qwen3-asr pass5, 30 s windows | needs_source on garbled stretches throughout (30 annotations: ep01 11, ep02 11, ep03 8), notably the third reason for hurrying death (ep01 00:11:30), the amulet ruling wording (ep01), Abu Bakr's objector (ep03 00:24:00) and al-Hajjaj's dying words (ep03 00:34:00) | run omar-abdelkafy-dar-akhera-1 |
+
+| Excluded (dar-akhera ep01-ep03) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops (detected: a word repeated 15 or more times in a window) | ep01 00:01:00, 00:02:30, 00:18:00, 00:29:30, 00:30:00; ep02 00:03:30, 00:05:00, 00:07:00, 00:12:30, 00:18:30, 00:21:00, 00:22:30, 00:24:30, 00:35:00, 00:37:00, 00:40:00; ep03 00:00:30 (tail), 00:02:30, 00:07:30, 00:13:00, 00:15:30, 00:22:30, 00:23:00, 00:23:30, 00:30:00 (tail), 00:32:00, 00:35:30, 00:36:00, 00:38:00 | Not speech | Loop check | Open |
+| Openings, break and call-to-prayer pauses, closing supplications and sign-offs; written-questions-only notice | ep01 00:06:30-00:07:00, 00:39:00; ep02 00:10:30, 00:40:30-00:42:00; ep03 00:40:00-00:40:30 | Not lesson content | Content rule | Open |
+| Question-and-answer at the end of ep02 (prayer choice, loan fees, microphones, pregnancy) | ep02 00:42:30-00:46:30 | Garbled throughout; no question or answer is recoverable | Clarity | Open |
+| Garbled or fragmentary passages | ep01 00:20:00-00:20:30 (telephone anecdote), 00:23:00-00:24:30; ep02 00:09:00 (shrouding and washing details), 00:17:00-00:18:30, 00:23:00-00:24:30, 00:30:00-00:31:00, 00:32:30-00:35:30; ep03 00:04:30-00:05:30, 00:06:00-00:08:00 (the saying on three occasions for breaking the fast), 00:13:30-00:16:00, 00:31:30-00:33:30 (gratitude passage), 00:36:30-00:38:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Poem-form will and verses recited | ep03 00:17:30-00:19:30, 00:37:30 | Verbatim verse, garbled | Sources policy; clarity | Open |
+| Attribution of "no share in Islam for one who leaves prayer" to Fatima's scene | ep02 00:03:30 | Speaker and attribution unclear | Accuracy | Open |
+
+
+### al-dar-al-akhera ep04-ep05 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep04-ep05 (causes of punishment in the grave; deeds that save from it; written questions) | ep04 about 42 min; ep05 about 48 min (transcript) | ar, en, ur: 1 record extended (work/al-dar-al-akhera) | 12 new `about` edges (concepts, 3 persons, passage 67, 3 practices) | ep04 20, ep05 18 points; qwen3-asr pass5, 30 s windows | needs_source on garbled stretches (ep04 11, ep05 17); attribution of the 14-deeds hadith to Muslim is the lecturer's and unchecked (ep05 00:17:30); the "Ibn al-Atiyya" quotation (ep04 00:22:30); the Pharaoh-Ramses remark (ep05 00:12:30) | run omar-abdelkafy-dar-akhera-2 |
+
+Opinions labelled as the lecturer's own (record stays `sensitivity: contested`, dec-20261112-260): wife's voluntary fast and covering against a husband's wish, penalty for highway robbery, songs and instruments, the hadra circles, key money, ruling by other than God's law, the ruling on believing fortune-tellers. The hadra criticism (ep04 00:35:00) is the one passage close to `polemical`; it is described, not reproduced, and the question is left to the founder.
+
+| Excluded (dar-akhera ep04-ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep04 00:02:00, 00:04:30 (tail), 00:11:30 (tail), 00:26:30 (tail), 00:28:00, 00:30:00, 00:37:30; ep05 00:09:30, 00:15:30, 00:16:30, 00:21:30, 00:35:00, 00:38:00, 00:43:00 | Not speech | Loop check | Open |
+| Garbled or fragmentary passages | ep04 00:06:30, 00:08:00, 00:16:00 (partial), 00:18:00-00:18:30, 00:19:30-00:21:00, 00:27:00-00:28:00, 00:32:00, 00:36:00-00:37:00, 00:39:30-00:40:00; ep05 00:04:30-00:05:30 (the story of the divorced woman), 00:12:00-00:13:00 (partial), 00:16:30-00:17:30, 00:21:00-00:23:00, 00:33:30-00:35:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Insulting phrase quoted in a reply to a greeting | ep04 00:33:30 | Abusive wording about a group; the point (courtesy in replying) written without it | Content rule | Open |
+| Closing supplications, sign-offs, producer's announcement with phone number and organisation name | ep04 00:42:00; ep05 00:41:30, 00:47:30-00:48:00 | Not lesson content | Content rule | Open |
+| Question on a bank loan and one on spending zakat | ep05 00:43:00-00:44:30 | Garbled | Clarity | Open |
+
+
+### al-dar-al-akhera ep06 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep06 (minor signs of the Hour, part 1) | about 42 min (transcript) | ar, en, ur: 1 record extended | 1 new `about` edge (concept/ashrat-al-saa) | 20 points; qwen3-asr pass5, 30 s windows | needs_source on 18 of 20 points; the shepherd's name and description (00:16:00), the death toll in the Euphrates hadith (00:12:00), Aisha's saying (00:00:00) | run omar-abdelkafy-dar-akhera-3 |
+
+Opinions labelled as the lecturer's: group recitation in mosques, music, modern readings of the thigh hadith, dress. The hadith on a future fight between Muslims and Jews is given by sense only; his commentary on it is garbled and not written (sensitivity stays `contested`).
+
+| Excluded (dar-akhera ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep06 00:10:00, 00:14:00, 00:14:30, 00:25:30, 00:29:00, 00:30:00, 00:31:30, 00:33:00, 00:33:30 | Not speech | Loop check | Open |
+| Garbled passages | ep06 00:07:30-00:10:00 (painting and art tangent), 00:13:00-00:14:00 (Bilal and Ali), 00:19:00-00:19:30, 00:32:00-00:33:00, 00:39:30-00:41:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Sign-off | ep06 00:42:00 (greeting and thanks) | Not lesson content | Content rule | Open |
+
+Resume point: episode 07 (branch from origin/main).
