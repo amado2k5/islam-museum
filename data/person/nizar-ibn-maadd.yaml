@@ -1,4 +1,5 @@
 id: person/nizar-ibn-maadd
+tags: ["ansab-browser", "ansab-shajara"]
 class: person
 label: { ar: "نزار بن معد", en: "Nizar ibn Ma'add" }
 summary:
@@ -18,4 +19,5 @@ status:
   review: published
   completeness: 3
 relations:
+  - { type: child_of, target: person/maadd-ibn-adnan, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
   - { type: lived_in, target: place/najran, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/nihayat-al-arab-nuwayri-vol3-scan] }

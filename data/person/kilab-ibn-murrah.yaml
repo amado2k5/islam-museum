@@ -1,0 +1,22 @@
+id: person/kilab-ibn-murra
+tags: ["ansab-browser", "ansab-shajara"]
+class: person
+label: { ar: "كلاب بن مرة", en: "Kilab ibn Murra" }
+gender: male
+roles: []
+summary:
+  ar: "أبو قصي وزهرة؛ مات وقصيه رضيع فسافرت به أمه فاطمة بنت سعد إلى اليمن فنشأ هناك حتى رجع شاباً إلى مكة، ومن زهرة بن كلاب بنو زهرة الذين منهم آمنة بنت وهب أم النبي وعبد الرحمن بن عوف وسعد بن أبي وقاص {cite:mubarakpuri-raheeq p.48-49} {cite:ibn-hisham-sira 1/1-4} {cite:isaba}."
+  en: "Father of Qusayy and Zuhra; he died while Qusayy was an infant, so his mother Fatima bint Sa'd took him to Yemen where he grew up until he returned to Mecca as a young man. From Zuhra ibn Kilab come Banu Zuhra — the clan of Amina bint Wahb the Prophet's mother, Abd al-Rahman ibn Awf and Sa'd ibn Abi Waqqas {cite:mubarakpuri-raheeq p.48-49} {cite:ibn-hisham-sira 1/1-4} {cite:isaba}."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/murra-ibn-kab, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — prophetic-lineage records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }

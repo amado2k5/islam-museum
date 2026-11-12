@@ -1,20 +1,68 @@
 ---
 id: building/alhambra
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
-The Alhambra is a fortress in [[place/granada|Granada]]. Al-Maqqari, relaying Ibn Khaldun, reports that [[person/ibn-al-ahmar|Ibn al-Ahmar]] built the fortress as his residence when he took control of Granada in 635 AH. {cite:nafh-tib-maqqari p. 484}
+The Alhambra is the fortified palace-city that the Nasrid rulers built on a hill above [[place/granada|Granada]]. Al-Maqqari, relaying Ibn Khaldun, reports that [[person/ibn-al-ahmar|Ibn al-Ahmar]] built the fortress as his residence when he took control of Granada in 635 AH. {cite:nafh-tib-maqqari p. 484} The Encyclopaedia of Islam article on Granada says the Alhambra is more than a fortress and a palace: it was a royal city and a seat of government, comparable in intention to [[place/madinat-al-zahra|Madinat al-Zahra]] and the Almohad kasaba of [[place/marrakesh|Marrakesh]]. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1058}
+
+## Before the Nasrids
+According to the article, the name al-Hamra appears at the end of the 3rd/9th century, applied to a small fortress where Arabs pursued by rebel peasants took refuge during the revolts under the Umayyad amir Abd Allah. It was probably built on the westernmost point of the Sabika plateau, which the Nasrid Alhambra would later cover entirely. The castle seems to have been abandoned in the last years of the caliphate and the early 5th/11th century, and it was rebuilt and probably enlarged by the Jewish vizier Samuel Ibn Nagrello between 443/1052 and 447/1056. The [[polity/zirid-dynasty|Zirid]] amir Abd Allah then improved it. It is mentioned several times in the struggles of the Spanish amirs against the Almoravids and the Almohads, and the article describes it as small, since Christian contingents camped outside its walls. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1058}
+
+## Founding by Ibn al-Ahmar
+The article says that when Muhammad Ibn al-Ahmar entered Granada in Ramadan 635/May 1238 he first lived in the Zirid Alcazaba in the town itself, then ordered the building of the present Alhambra within a few months. The new foundation differed in purpose and size from the old fortress. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1058}
+
+Opposite the commercial part of the town stood a kasaba enlarged for the needs of government. Besides the royal palaces it held the state offices, mints, barracks for the guards and lodgings for palace servants and some high dignitaries, together with a great mosque, baths, workshops and shops. The article notes that the Sabika hill is the last platform of a spur from the [[place/sierra-nevada|Sierra Nevada]], rising almost sheer above the Darro, separated by a ravine from the slopes behind it, with a maximum length of 740 metres and width of 220. Work began with an aqueduct from the mountains, so that water ran through the town and the palaces. The enclosure and the first palaces were probably not finished until the reign of the second amir, [[person/muhammad-ii-of-granada|Muhammad II]], 671-701/1273-1302, and the Nasrids never gave up living there. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1058}
 
 ## The seat of the Nasrid rulers
 The Alhambra became the palace and first capital of the Banu Nasr. Yusuf I, al-Ghani bi-llah, built its fine palaces, which al-Maqqari describes as the centre of their rule and the crowning of their buildings. {cite:nafh-tib-maqqari p. 523-527}
 
-## The surrender
-Their last king, Abu Abd Allah Muhammad, handed the Alhambra over to the Christians on 2 Rabi al-Awwal 897 AH, after they had taken about five hundred of Granada's notables as security. The Christian king renewed its palaces and visited them by day, sleeping in his camp at night until he was sure of safety, and then he entered. {cite:nafh-tib-maqqari p. 523-527}
+## The fortress and its walls
+The article calls the Alhambra first of all a powerful fortress. Inside the high rampart, with its strong towers, the enclosure was divided into three parts: the Alcazaba, a compact block of fortifications to the west; the main body of the palaces on the highest ground; and the town on the gentler slopes to the east. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1059}
 
-## What is not covered here
-The data contains no architectural description of the palace and no building dates beyond those given above. An additional source is needed.
+The Alcazaba stood at the end of the hill facing the Vega, as a fortified keep independent of the rest. A large parade-ground, then occupied by small houses, lay inside a triangular wall of high curtains and towers, reinforced by three vaulted bastions, and the fortress had its own gate to the outside. The wall around the whole Alhambra is of concrete, exceptionally high, with twenty-three tall, wide towers, some holding halls or small houses belonging to the palaces. The article attributes the whole circuit to Muhammad I and Muhammad II. In the reign of Yusuf I, 733-55/1333-54, the towers of Comares, Machuca and the Candil were added, with the three great gateways of la Justicia, Siete Suelas and las Armas. The Peinador tower was finished under the next sultan, [[person/muhammad-v-nasrid|Muhammad V]]. The last sultans, facing the Christian threat, only built platforms for cannon at the foot of the great gates. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1059}
+
+Three gates, la Justicia, Siete Suelos and los Picos, opened to the outside, and only the gate of las Armas linked the Alhambra to the town. The article describes them as huge masses of masonry with vaulted passages that bend two or even three times, made of concrete with brick facades and arches and sometimes ceramic decoration, and praises them as architecture apart from their military value. It likens most of them to the great gates of the Almohads or Marinids in Morocco, and singles out la Justicia, part of a raised bastion with a high-piered arch, for its vigorous elegance. The Throne Room, or Hall of the Ambassadors, occupies the top floor of a huge square bastion. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1059}
+
+## The siege and surrender
+The article says the walls were never attacked in the sultans' time; Christian incursions stopped before the walls of the town, which underwent no formal siege until the last campaign of the Catholic Monarchs in 896-7/1491-2. In its account the town capitulated and the keep was surrendered on 1 Rabi I 897/2 January 1492, and Ferdinand and Isabella entered the Alhambra on 6 January, so the ramparts and palaces suffered no damage in the collapse of the kingdom. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1059}
+
+Al-Maqqari gives a different day for the handover. He writes that the last king, Abu Abd Allah Muhammad, [[person/boabdil-muhammad-xii|known to the museum as Boabdil]], handed the Alhambra to the Christians on 2 Rabi al-Awwal 897 AH, after they had taken about five hundred of Granada's notables as security. The Christian king renewed its palaces and visited them by day, sleeping in his camp at night until he was sure of safety, and then he entered. {cite:nafh-tib-maqqari p. 523-527}
+
+## The palaces
+The article describes the palaces as groups of buildings arranged round courtyards, with the court and not the building as the central element, and with groups often set on different axes and linked by corridors or connecting rooms. The palaces of the 7th/13th century were pulled down in the next century to make room for the present ones. Excavation uncovered an earlier group to the west, a square court with small rooms and a small mosque, followed by a huge court, the patio of Machuca. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1059}
+
+The present palaces form two groups round two courts whose main axes are perpendicular. The Cuarto de Comares, with its vestibule, the Mechouar and a small patio, was built by Yusuf I. The Cuarto de los Leones was built by Muhammad V, whose two reigns the article dates 755-9/1354-8 and 769-94/1368-92. Older baths and a mosque link the two groups. South of the Lions group lay the burial-ground of the dynasty, the Rawda, whose plan excavation has recovered. The Partal pavilion beside a pond, and the rich houses completing the Peinador de la Reina and the Captive towers, form separate groups. In both big patios the reception halls are on the ground floor and the smaller living rooms above. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1059}
+
+## Comares and the Hall of the Ambassadors
+The article treats the patio of Comares, also called the patio of la Alberca or of the Myrtles and the work of Yusuf I, as the place to grasp the Granada architects' method. A very long pool bordered by myrtles fills the centre, and the surrounding buildings are arranged in three different styles: walls with doors and twin windows on the long sides, a mezzanine between two colonnades to the south, and to the north a graceful portico dominated by the great bastion of the Hall of the Ambassadors. The author judges this composition deliberately picturesque and varied rather than unified. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1059} {cite:encyclopaedia-of-islam-2 vol. 2 p. 1060}
+
+Through the gallery one reaches a very long ante-room, the hall of la Barea, and then the Hall of the Ambassadors, the throne room, square, with no central support, its dome resting directly on the walls and lit by nine ground-level windows, three on each side, looking toward the Generalife, the Darro ravine and the Vega. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1060}
+
+## The Court of the Lions
+The article says most of the buildings of Muhammad V in the later 8th/14th century are grouped round the Court of the Lions. Seen on plan the four rooms flanking the court differ in size and shape, but from above the roofs balance each other. The court is divided by two intersecting paths with a fountain at the crossing, whose basin rests on stone lions that probably belonged to a palace of the 5th/11th century. Four projecting pavilions stand at the middle of the sides, and the porticoes use rich moulded-plaster arcades on slender marble columns; on the ground floor the portico repeats a single motif, the ringed column with palm-leaf capitals. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1060}
+
+The Partal has a pool with a long pavilion of a five-arched portico under tile roofs, and its great hall and pool have windows at ground level that bring the landscape in, as in the Hall of the Ambassadors. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1060}
+
+## Decoration
+The article reports that the decoration is arranged on three levels. Ceramic facings cover floors and the lower panels of walls, with geometrical motifs and star-shaped patterns. The middle part of the walls is moulded plasterwork divided into panels framed by bands of inscriptions, while in the second half of the 8th/14th century long high friezes covered much of the surface. Kufic script is used for eulogies, but naskhi dominates almost everywhere, and the article ranks some Alhambra inscriptions among the finest cursive epigraphy. Floral designs usually appear as foliated scrolls combining the palm leaf with the pine cone and palmette. Colour, mostly dark blues and reds with some gold, was often added to the plaster. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1060} {cite:encyclopaedia-of-islam-2 vol. 2 p. 1061}
+
+Ceilings are luxurious: painted interlaced wooden roofs, and in the largest halls domes of small stalactites, the [[concept/muqarnas|muqarnas]], with painted and moulded sides. The article names the cupolas of the halls of the Kings, the Two Sisters and the Abencerrajes as richer than any others. Figures appear in the paintings on the vaults of the Hall of the Kings, which the article says were painted by artists of Christian upbringing, while small paintings at the Partal, showing hunting, war and domestic scenes, belong to the Muslim tradition. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1061}
+
+The author judges that the Alhambra shows monumental decoration in Muslim Spain at its final stage, wonderful but bound to a tradition it no longer tried to renew, with a stiffness appearing in the moulding at the end of the 8th/14th century and more clearly in the 9th/15th, in the Tower of the Infantes. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1060} {cite:encyclopaedia-of-islam-2 vol. 2 p. 1061}
+
+## Gardens, town and the Generalife
+The article says the largest patios were probably laid out as gardens, with the finest beside pleasure pavilions such as the Partal and in country houses of the Vega and the mountain slopes. These gardens were walled, with alleys crossing at right angles, usually four sunken beds between two raised walks and a basin at the crossing. It adds that the abundant foliage seen today was supplied by Christians, since the Nasrid walls looked out over bare slopes. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1061}
+
+Little remains of the town inside the walls, to the south and east of the palace: the great mosque stood where the church of Santa Maria de la Alhambra now is, while the madrasa, baths and richest houses have gone, and excavation has found house foundations and an artisan quarter to the east. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1061}
+
+On the spur above, the Nasrids had a series of country houses, and only the nearest, the [[building/generalife|Generalife]], survives, supplied by the same aqueduct. Its gardens are larger than its buildings; the Patio de la Acequia is a long walled garden with one side opened by arches, a central canal with jets and two flower-beds, and a pavilion at each end. The northern one has three floors and its finest hall at the top, dated by the article to the early 8th/14th century. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1061}
+
+## Survival and later history
+The article calls the Alhambra the only palace of the Muslim Middle Ages to survive whole and well preserved, and credits the Christian conquerors with defending it. Ferdinand and Isabella had the palaces strengthened and restored, and their Habsburg successors continued, with the palace of [[person/charles-v|Charles V]] built after part of the Nasrid residences was demolished, but beside the rest. In the 18th century, under the Bourbons, care ceased and the site was partly abandoned to the poor and to gypsies who made homes in it. Restoration began in the 19th century with clearing, excavation and new gardens. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1061}
+
+The article adds that the Alhambra reveals the art of the 8th/14th century because in the 9th/15th century the sovereigns of Granada were too poor to rebuild, and so the works of Yusuf I and Muhammad V were not replaced. It describes the site as a place of pilgrimage for those who love the arts of Spanish Islam. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1061} {cite:encyclopaedia-of-islam-2 vol. 2 p. 1062}
 
 ## For Sprouts
 The Alhambra is a magnificent palace upon the hills of Granada, with flowing fountains and walls adorned with beautiful calligraphy.
