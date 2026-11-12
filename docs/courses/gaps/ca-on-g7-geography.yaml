@@ -1,0 +1,150 @@
+# The gap register of course/ca-on-g7-geography: every specific expectation of the Ontario GEO - Grade 7 course that no honest link serves.
+course: course/ca-on-g7-geography
+gaps:
+- code: A1.2
+  text: compare and contrast the perspectives of some different groups […] on the challenges and opportunities presented by the natural environment
+  why: Compares the perspectives of groups (Indigenous peoples, farmers, resource companies, environmental organisations) on the challenges of the natural environment; the museum holds no record that sets out any such group's perspective.
+  searches:
+  - 'find_entity.py "Indigenous" "السكان الأصليين" "First Nations" "Aboriginal": no real record'
+  - 'find_entity.py "environment" "البيئة" "conservation" "sustainability": only concept/environmental-protection-in-islam, one author''s reading of the topic, naming no group and no perspective to compare'
+- code: A1.4
+  text: assess ways in which different peoples living in similar physical environments have responded to challenges and opportunities presented by these environments, and assess the sustainability of these responses […]
+  why: Compares how different peoples in similar environments (the Netherlands, the Mississippi delta, Gobi and Sahara nomads, Costa Rica and the Amazon) have responded; the museum holds no record on any of these comparisons.
+  searches:
+  - 'find_entity.py "Netherlands" "هولندا" "Dutch" "Mekong" "Mississippi": place/netherlands has no prose; the other hits are wars and an album chart'
+  - 'find_entity.py "desert" "صحراء" "Sahara": no record on nomadic life; the one desert record used (Ibn Jubayr''s road) is a single crossing, not a way of life'
+  - 'find_entity.py "rainforest" "غابات مطيرة" "Amazon" "Madagascar": no real record'
+- code: A2.1
+  text: formulate questions to guide investigations into the impact of natural events and/or human activities that change the physical environment […], ensuring that their questions reflect a geographic perspective
+  why: 'Skills expectation: names no subject matter.'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: gather and organize data and information from a variety of sources, and using various technologies, on the impact of natural events and/or human activities that change the physical environment, ensuring that their sources reflect more than one perspective […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A2.3
+  text: analyse and construct maps as part of their investigations into the impact of natural events and/or human activities that change the physical environment, with a focus on investigating the spatial boundaries of the impact […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A2.4
+  text: interpret and analyse data and information relevant to their investigations, using various tools and spatial technologies […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A2.5
+  text: evaluate evidence and draw conclusions about the impact of natural events and/or human activities that change the physical environment
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A2.6
+  text: communicate the results of their inquiries, using appropriate vocabulary […] and formats appropriate for specific audiences […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A3.2
+  text: describe some key natural processes and human activities […] that create and change landforms
+  why: Asks how natural processes and human activities (tectonic forces, erosion, glaciation, mining) create and change landforms; the museum's landform records say nothing about how a landform formed.
+  searches:
+  - 'find_entity.py "earthquake" "زلزلة" "زلزال": 35 records, all accounts of damage to towns and none about a landform being made or changed'
+  - 'find_entity.py "volcano" "بركان" "harra" "حرة": place/harrat-al-rajla names a lava field but says nothing of how it formed; "tectonic" "tsunami": only event/earthquake-tsunami-425, an account of a town and a retreating sea'
+- code: A3.3
+  text: demonstrate the ability to extract information from and analyse topographical maps […]
+  why: Asks the student to extract information from and analyse topographical maps; the museum holds no topographic map or record about reading one.
+  searches:
+  - 'find_entity.py "topographic map" "خريطة طبوغرافية" "contour": no real record'
+  - 'find_entity.py "map" "خريطة" "GIS" "cartography": invention/tabula-rogeriana is a world map of the twelfth century, not a topographic map with relief to read'
+- code: A3.8
+  text: analyse and construct climate graphs to gather information on and illustrate climate patterns for a specific location […]
+  why: Asks the student to analyse and construct climate graphs for a place; the museum holds no climate data or graph.
+  searches:
+  - 'find_entity.py "climate graph" "rainfall" "أمطار" "temperature": one record, event/baghdad-rains-collapse-332, an account of a rainy spell and fallen houses, with no data to graph'
+  - 'find_entity.py "climate" "مناخ" "monsoon": only concept/al-aqalim-al-saba and concept/athar-al-iqlim, already used in lesson a-5, which give no measurements'
+- code: A3.9
+  text: describe patterns and characteristics of major natural vegetation regions around the world […]
+  why: Asks for the patterns and characteristics of major natural vegetation regions (grasslands, boreal forests, rain forests, tundra); the museum holds no record on any.
+  searches:
+  - 'find_entity.py "vegetation" "نبات" "grassland" "steppe" "tundra": four records, none on a vegetation region (a battle on a steppe, a plants-and-naming concept, a botany path)'
+  - 'find_entity.py "rainforest" "غابات مطيرة" "Amazon" "Madagascar": no real record; "forest" "غابة" "tree": no record on forests as a region'
+- code: A3.10
+  text: describe some key natural processes and human activities […] that create and change natural vegetation patterns
+  why: Asks how natural processes and human activities (erosion of topsoil, deforestation, monoculture, overgrazing, invasive species) change vegetation patterns; the museum holds no such record.
+  searches:
+  - 'find_entity.py "deforestation" "إزالة الغابات" "soil erosion" "desertification": no real record'
+  - 'find_entity.py "locust" "جراد" "invasive": concept/locust has no prose; the other hits are plagues of people, not vegetation change'
+- code: A3.11
+  text: describe how different aspects of the physical environment interact with each other in two or more regions of the world […]
+  why: Asks how aspects of the physical environment (vegetation, landforms, climate) interact in two or more regions; the museum holds no record that describes such an interaction.
+  searches:
+  - 'find_entity.py "desert" "صحراء" "Sahara": only the Ibn Jubayr road, which names water points and thirst but does not relate vegetation, landform and climate'
+  - 'find_entity.py "volcano" "بركان" "harra" "حرة": place/harrat-al-rajla has no physical description beyond "lava field"'
+- code: B1.1
+  text: analyse interrelationships between the location/accessibility, mode of extraction/harvesting, and use of various natural resources […]
+  why: Asks for the relationship between where a resource is, how it is extracted and how it is used; the museum holds no record that describes extraction.
+  searches:
+  - 'find_entity.py "mine" "منجم" "معدن" "gold mine": 42 hits, mostly hadith passages containing the word "mine"; none on mining'
+  - 'find_entity.py "quarry" "حجارة" "stone building material": two unrelated records; place/al-muqattam names ochre and lime as extracted but says nothing of method or use'
+- code: B1.2
+  text: analyse natural resource extraction/harvesting and use in some specific regions of the world […], including the sustainability of these practices
+  why: Asks for analysis of extraction and its sustainability in specific regions (Amazon and Swedish forestry, West African fishing, Chinese coal power); the museum holds no record on any.
+  searches:
+  - 'find_entity.py "fishing" "صيد السمك" "fisheries" "overfishing": no real record'
+  - 'find_entity.py "coal" "فحم" "fossil fuel" "electricity": no record on coal or power generation (hits are a battle, a charcoal fatwa, and the Grade 6 electricity course); "timber" "خشب" "lumber": no record on forestry'
+- code: B1.3
+  text: assess the efforts of some groups, agencies, and/or organizations […] in helping to preserve natural resources
+  why: Asks the student to assess the efforts of groups and agencies (UNEP, NGOs, indigenous groups, governments) to preserve natural resources; the museum holds no record of any such effort.
+  searches:
+  - 'find_entity.py "United Nations" "الأمم المتحدة" "NGO" "Friends of the Earth": no relevant record (one source record on an observance of another subject)'
+  - 'find_entity.py "environment" "البيئة" "conservation" "sustainability": concept/environmental-protection-in-islam is one author''s view and names no group or action to assess; concept/hima-protected-pasture is a ruling on reserving pasture, used in lesson b-1 for B3.5 and not stretched to B1.3'
+- code: B1.4
+  text: create a personal plan of action outlining how they can contribute to more sustainable natural resource extraction/harvesting and/or use […]
+  why: Asks the student to create a personal plan of action for more sustainable use of resources; the museum holds no record that supplies matter for such a plan.
+  searches:
+  - 'find_entity.py "energy" "طاقة" "fuel" "firewood": concept/ihtitab is a fiqh ruling on gathering firewood, not on reducing use'
+  - 'find_entity.py "pollution" "تلوث" "smog" "acid rain": no real record'
+- code: B2.1
+  text: formulate questions to guide investigations into issues related to the impact of the extraction/harvesting and/or use of natural resources around the world from a geographic perspective […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: B2.2
+  text: gather and organize data and information from a variety of sources on the impact of resource extraction/harvesting and/or use, ensuring that their sources reflect more than one perspective […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: B2.3
+  text: analyse and construct maps as part of their investigations, with a particular focus on exploring the spatial boundaries of and, where applicable, patterns relating to their topics […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: B2.4
+  text: interpret and analyse data and information relevant to their investigations, using various tools and spatial technologies […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: B2.5
+  text: evaluate evidence and draw conclusions about issues related to the impact of natural resource extraction/harvesting and/or use around the world
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: B2.6
+  text: communicate the results of their inquiries using appropriate vocabulary […] and formats appropriate for specific audiences […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: B3.1
+  text: identify Earth’s renewable, non-renewable, and flow resources […], and explain their relationship to Earth’s physical features
+  why: Asks the student to identify renewable, non-renewable and flow resources and relate them to physical features; the museum's nearest record lists resources without sorting them into those kinds.
+  searches:
+  - 'find_entity.py "natural resources" "الموارد الطبيعية" "renewable resources": only concept/al-mawarid-al-tabiiyya (prose in Arabic only), one author''s list of farm, mineral and animal resources, with no renewable, non-renewable or flow classification'
+  - 'find_entity.py "renewable" "متجددة" "solar" "wind energy": hits are astronomy records on the sun; no record on energy resources'
+- code: B3.3
+  text: identify significant short- and long-term effects of natural resource extraction/harvesting and use on people and the environment […]
+  why: Asks for the short- and long-term effects of extraction and use (deforestation, desertification, smog, acid rain, soil contamination, flooding); the museum holds no record of these effects of resource use.
+  searches:
+  - 'find_entity.py "pollution" "تلوث" "smog" "acid rain": no real record'
+  - 'find_entity.py "deforestation" "إزالة الغابات" "soil erosion" "desertification": no real record'
+- code: B3.4
+  text: describe the perspectives of different groups […] regarding the use of the natural environment to meet human needs
+  why: Asks for the perspectives of different groups (an indigenous community, an environmental organisation, a mining or forestry company, a resource town) on using the environment; the museum holds no record of such groups.
+  searches:
+  - 'find_entity.py "Indigenous" "السكان الأصليين" "First Nations" "Aboriginal": no real record'
+  - 'find_entity.py "mine" "منجم" "معدن" "gold mine": no record on a mining or forestry company or a resource town'
+- code: B3.6
+  text: demonstrate the ability to extract information from, analyse, and construct GIS maps relating to natural resources around the world […]
+  why: Asks the student to extract information from, analyse and construct GIS maps of natural resources; the museum holds no GIS data or record about one.
+  searches:
+  - 'find_entity.py "map" "خريطة" "GIS" "cartography": thirteen hits, none a GIS or thematic resource map (a twelfth-century world map, battle sketches, a star-mapping lesson)'
+  - 'find_entity.py "hydroelectric" "كهرباء" "power plant": only the Grade 6 electricity lessons; no record of oil refineries or deforestation to map'

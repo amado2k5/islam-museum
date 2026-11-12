@@ -1,0 +1,54 @@
+id: course/ca-on-g9-mth1w-e-1
+class: course
+kind: lesson
+label:
+  ar: قصة نسبة المحيط إلى القطر
+  en: The story of the circle's ratio
+  ur: دائرے کی نسبت کی کہانی
+summary:
+  ar: قصة تقريب نسبة المحيط إلى القطر في ثقافة واحدة، من باب المساحة عند الخوارزمي إلى حساب الكاشي، وصلتها بعلم الفلك.
+  en: The story of approximating the ratio of circumference to diameter in one culture, from al-Khwarizmi's mensuration chapter to al-Kashi's computation, and its link to astronomy.
+  ur: ایک ثقافت میں محیط اور قطر کی نسبت کو قریب لانے کی کہانی، خوارزمی کے باب مساحت سے کاشی کے حساب تک، اور علمِ فلکیات سے اس کا تعلق۔
+sources:
+- source/ontario-curriculum-secondary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g9-mth1w-e
+expectations:
+- code: E1.1
+  text:
+    en: research a geometric concept or a measurement system to tell a story about its development and use in a specific culture or community, and describe its relevance in connection to careers and to other disciplines
+    ar: ابحث في مفهوم هندسي أو نظام قياس لتروي قصة تطوّره واستعماله في ثقافة أو مجتمع بعينه، وصِف صلته بالمهن وبالمجالات المعرفية الأخرى
+    ur: کسی ہندسی تصور یا پیمائش کے نظام کی تحقیق کریں تاکہ کسی مخصوص ثقافت یا برادری میں اس کی ترقی اور استعمال کی کہانی سنا سکیں، اور پیشوں اور دیگر مضامین سے اس کا تعلق بیان کریں
+connections:
+- position: before
+  kind: invention
+  title:
+    ar: نسبة المحيط إلى القطر «اصطلاح»
+    en: The ratio of circumference to diameter as a convention
+    ur: محیط اور قطر کی نسبت ایک اصطلاح
+  text:
+    ar: 'يقول الخوارزمي في باب المساحة من كتابه إن جعل المحيط القطر في ثلاثة وسبع «اصطلاح بين الناس من غير اضطرار». ويذكر قولين آخرين، منهما قول أهل النجوم: أن تضرب القطر في 62832 وتقسم على 20000، ويقول إن ذلك كله قريب بعضه من بعض. ويعلّق محققا طبعة القاهرة بأن أقرب هذه القيم إلى الحقيقة قيمة أهل النجوم. لماذا يسمّي قيمةً ما «اصطلاحاً»؟'
+    en: 'In the mensuration chapter of his book, al-Khwarizmi says that taking the circumference as three and a seventh times the diameter is "a convention among people, not a necessity". He gives two other views, one of them the astronomers'' rule: multiply the diameter by 62,832 and divide by 20,000, and says all of them are close to one another. The Cairo editors comment that the astronomers'' value is the closest to the truth. Why might he call a value a convention?'
+    ur: 'خوارزمی اپنی کتاب کے باب مساحت میں کہتے ہیں کہ محیط کو قطر کا تین اور ایک ساتواں گنا ماننا «لوگوں میں ایک اصطلاح ہے، کوئی لازمی بات نہیں»۔ وہ دو اور قول بیان کرتے ہیں، جن میں اہلِ نجوم کا قاعدہ ہے: قطر کو 62832 سے ضرب دے کر 20000 پر تقسیم کرو؛ اور کہتے ہیں کہ یہ سب ایک دوسرے کے قریب ہیں۔ قاہرہ ایڈیشن کے محققین تبصرہ کرتے ہیں کہ اہلِ نجوم کی قیمت حقیقت سے سب سے قریب ہے۔ وہ کسی قیمت کو اصطلاح کیوں کہتے ہیں؟'
+  entity: concept/ilm-al-misaha
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+- position: after
+  kind: invention
+  title:
+    ar: حساب الكاشي لمحيط الدائرة
+    en: Al-Kashi computes the circumference
+    ur: کاشی کا محیطِ دائرہ کا حساب
+  text:
+    ar: تؤرخ ماكتوتر «الرسالة المحيطية» للكاشي بسنة 1424م، وتذكر إخراج ضعف نسبة المحيط إلى القطر في النظام الستيني ثم العشري بدقة عالية، وينقل أوكتن العدد العشري 6.2831853071795865. ويقول السجل إنه تحسين لحساب قديم لا اكتشاف العدد pi، وإن إيرانيكا تصف مضلعات داخل الدائرة وحولها لتقريب المحيط. كيف يقرّبنا مضلع من دائرة؟
+    en: MacTutor dates al-Kashi's Treatise on the Circumference to 1424 and describes it as giving twice the ratio of circumference to diameter in sexagesimal and decimal forms with high precision, and Okten reports the decimal value 6.2831853071795865. The record says this improved an inherited calculation and did not discover pi, and that Iranica describes polygons inside and around a circle to approach the circumference. How does a polygon bring you closer to a circle?
+    ur: میک ٹیوٹر کاشی کے «رسالۂ محیطیہ» کو 1424ء کا بتاتا ہے اور کہتا ہے کہ اس میں محیط اور قطر کی نسبت کا دگنا ستّینی اور اعشاری دونوں صورتوں میں بلند درستی کے ساتھ دیا گیا ہے، اور اوکتن اعشاری قیمت 6.2831853071795865 نقل کرتے ہیں۔ ریکارڈ کہتا ہے کہ یہ ایک وراثت میں ملے حساب کی بہتری تھی، pi کی دریافت نہیں، اور یہ کہ ایرانیکا محیط کے قریب پہنچنے کے لیے دائرے کے اندر اور باہر کثیر الاضلاع کا ذکر کرتا ہے۔ کثیر الاضلاع ہمیں دائرے کے قریب کیسے لاتا ہے؟
+  entity: invention/al-kashi-pi-calculation
+  sources:
+  - source/kashi-mactutor
+  - source/tdv-kashi-okten
+  - source/iranica-kashi
+order: 1

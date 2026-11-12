@@ -1,0 +1,96 @@
+course: course/ca-on-g11-avi3m
+gaps:
+- code: A1.1
+  text: use various strategies, individually and/or collaboratively, to generate, explore, and elaborate on ideas and to develop and revise detailed plans for the creation of art works that address a variety of creative challenges […]
+  why: 'skills expectation: names no subject matter'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: apply the appropriate stages of the creative process to produce and revise two- and three-dimensional art works using a variety of traditional and contemporary media […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.3
+  text: document their use of each stage of the creative process, as well as varied and extensive research, in a portfolio that includes art works created for a variety of purposes […], and review and reflect on the contents of their portfolio …
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.1
+  text: explore how elements and principles of design can be used to convey emotion and enhance personal expression, and use a combination of these elements and principles to create two- and three-dimensional art works that express personal feelings and communicate specific …
+  why: The expectation asks the student to explore, in studio work, how line, value, form and the like convey emotion; no museum record is about emotion in art.
+  searches:
+  - 'find_entity.py "emotion" "feeling" "العاطفة" "التعبير": no record on emotion in art (التعبير matched only concept/tacbir-expressing-consent and two dream-interpretation records)'
+  - 'find_entity.py "expression" "mood": matched only concept/rida-consent-fiqh and a diagram media record, neither about art'
+- code: A2.2
+  text: apply elements and principles of design as well as art-making conventions to create art works that comment and/or communicate their personal perspective on issues related to social justice or the environment […]
+  why: The expectation asks the student to make art that comments on social justice or the environment; the museum holds no record of such art and nothing on the studio practice of commenting.
+  searches:
+  - 'find_entity.py "social justice" "العدالة الاجتماعية" "caricature" "سخرية": no record on art about social justice (سخرية matched only a hypocrites event and a fatwa on mocking rites)'
+  - 'find_entity.py "satire" "poverty": satire matched only verse-satire records (event/abu-al-mukhtar-satire, concept/hija-fiqh), which are poetry, not visual art; poverty matched only concept/faqr and concept/poverty-and-sufficiency-in-islam, which hold no art'
+- code: A3.1
+  text: explore and experiment with media, including alternative media, and current technologies, and use them to create a variety of art works […]
+  why: The expectation asks the student to experiment with media, including alternative media and current technologies; the museum holds no record of collage, mixed media, found objects or photography.
+  searches:
+  - 'find_entity.py "collage" "mixed media" "found objects": no record'
+  - 'find_entity.py "photography" "التصوير الفوتوغرافي": no record on photography as an art medium'
+- code: A3.3
+  text: describe appropriate standards and conventions for the presentation of different types of visual art works, and apply these standards and conventions when preparing their art works for presentation […]
+  why: The expectation asks for the standards and conventions of presenting art works (signing, labelling, matting, mounting) and their use on the student’s own work. job/calligrapher mentions signature formulas and mounted albums but not standards for preparing work for display, so linking it would stretch it.
+  searches:
+  - 'find_entity.py "framing" "mounting" "exhibition" "معرض": no record on presentation standards (mounting matched only concept/nuzul)'
+  - 'find_entity.py "label" "signature": label matched only a fatwa on a product label; signature matched only building/signature-dede-sultan-tomb, a tomb'
+- code: B1.1
+  text: analyse their initial response to art works […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B1.2
+  text: deconstruct the visual content and the use of elements and principles of design in their own art work and the work of others […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B1.4
+  text: describe and reflect on the qualities of their own art works and the works of others, and evaluate the effectiveness of these works, using a variety of criteria […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B2.3
+  text: reflect on and explain how creating and analysing art works has affected their personal identity and values and/or changed their perceptions of society and social issues […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B3.2
+  text: describe, on the basis of research and investigation, a variety of personal opportunities in their community in cultural or other fields related to visual arts […]
+  why: The expectation asks about personal opportunities in the student’s own community (venues, installations, grants); the museum holds no record on arts funding or community arts.
+  searches:
+  - 'find_entity.py "community arts" "sponsorship" "funding": no record on arts funding (funding matched only event/quraysh-military-funding)'
+  - 'find_entity.py "grant" "منحة": grant matched only land and tenure grants (concept/iqta, concept/qatia, concept/umra-grant)'
+- code: B3.3
+  text: describe, on the basis of investigation, a variety of local, national, and global arts-based organizations, and identify ways they could become involved with one or more of these organizations […]
+  why: The expectation asks about local, national and global arts organisations and ways to join them. job/calligrapher names UNESCO’s listing and the IRCICA competitions inside one craft record, but the museum holds no record of an arts organisation a student could join.
+  searches:
+  - 'find_entity.py "arts council" "arts organization" "منظمة فنية" "art society": no record'
+  - 'find_entity.py "IRCICA": no record (the competitions are named only inside job/calligrapher)'
+- code: C1.3
+  text: using appropriate terminology, explain the creative process and describe in detail the critical analysis process, with particular reference to the role of deconstruction in the latter process
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: C2.2
+  text: demonstrate an understanding of a variety of conventions used in visual arts […], and explain how they are used in different types of art works
+  why: The expectation asks for the conventions of visual art (allegory, expressive exaggeration, juxtaposition, propaganda art, satirical art) and how they are used. concept/propaganda-coins is linked in lesson b-1 under B2.1 but teaches no convention of art.
+  searches:
+  - 'find_entity.py "allegory" "heroic" "convention" "exaggeration": no record on art conventions (convention matched only banking and treaty records)'
+  - 'find_entity.py "satire" "propaganda" "رمز": satire matched only verse-satire records; propaganda matched only concept/propaganda-coins, which describes a coin type, not a convention of art'
+- code: C3.1
+  text: demonstrate an understanding of legal and ethical issues related to the appropriation of images, materials, or ideas, or to the display of art works […], and apply legal and ethical practices when appropriating images, materials, and/or ideas to create art works […]
+  why: The expectation asks for the legal and ethical issues of appropriating images, materials or ideas, and of censoring or displaying art. work/fatwa-aliftaa-jo-selling-a-dead-authors-manuscript-to-publish-under-another-name concerns attributing a book to oneself, not visual art, and concept/tazwir-forgery and event/man-ibn-zaida-forgery concern forged documents and seals.
+  searches:
+  - 'find_entity.py "appropriation" "censorship" "copyright" "plagiarism": no record on appropriation of images (appropriation matched only event/umar-sawafi)'
+  - 'find_entity.py "forgery" "الانتحال" "حقوق المؤلف" "الرقابة": forgery matched documents and seals; الرقابة matched only concept/bank-supervision and invention/al-mahdi-zimam-oversight'
+- code: C3.2
+  text: demonstrate an understanding of health and safety issues and conscientious practices associated with the use of materials, property, techniques, tools, and technologies in visual arts […], and apply these practices when creating and/or presenting art works
+  why: The expectation asks for the health and safety practices of a studio (aerosols, knives, presses, electrical tools). practice/persian-painting-pigments-and-gold calls verdigris a conservationist’s nightmare because it eats paper, a matter of conservation, not studio safety.
+  searches:
+  - 'find_entity.py "safety" "toxic" "hazard" "poison" "خطر": no record on studio safety (toxic matched only concept/muskir and a work on an intoxicated spirit)'
+  - 'find_entity.py "سلامة": matched only persons named Salama and similar names, no safety practice'
+- code: C3.3
+  text: demonstrate an understanding of how the production and presentation of art works can affect the environment […], and apply environmentally responsible practices when creating, presenting, and promoting art works
+  why: The expectation asks how making and showing art can affect the environment. concept/environmental-protection-in-islam is about the environment in general, and building/museum-of-islamic-art-doha records a carbon-neutral certificate, but neither is about art materials or the display of art works.
+  searches:
+  - 'find_entity.py "pollution" "carbon" "تلوث": no record'
+  - 'find_entity.py "environment" "البيئة" "waste": matched concept/environmental-protection-in-islam (general, not art), concept/al-israf and fatwas on water waste'

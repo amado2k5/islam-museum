@@ -1,0 +1,36 @@
+id: place/port-said
+class: place
+kind: city
+label: { ar: "بورسعيد", en: "Port Said", ur: "بورسعید" }
+historical_names:
+  - { name: "Bur Sa'id", lang: en }
+summary:
+  ar: "ميناء مصري على ساحل المتوسط عند الطرف الشمالي لقناة السويس وعلى ضفتها الغربية، أُسس سنة 1859م في عهد الوالي سعيد باشا وسُمّي باسمه. اختار موقعه فريق مهندسين بقيادة لاروش ودي لسبس، وكانت أرضه ماء إلا شريطاً رملياً بين بحيرة المنزلة والبحر. صار بعد حفر القناة ثاني موانئ مصر بعد الإسكندرية ومركز محافظة تحمل اسمه، وبلغ عدد سكان المدينة نحو 374 ألفاً في تقدير 1986م {cite:encyclopaedia-of-islam-2 vol. 8 p. 353} {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}."
+  en: "An Egyptian seaport on the Mediterranean coast at the northern end of the Suez Canal, on its western bank, founded in 1859 in the reign of the viceroy Sa'id Pasha and named after him. Its site was chosen by a party of engineers under Laroche and de Lesseps and was under water except for a sand strip between Lake Manzala and the sea. After the canal was dug it became the second seaport of Egypt after Alexandria and the chief town of a governorate of the same name; the town had about 374,000 inhabitants in a 1986 estimate {cite:encyclopaedia-of-islam-2 vol. 8 p. 353} {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}."
+  ur: "مصر کی بحیرۂ روم کے ساحل پر نہرِ سویز کے شمالی سرے اور اس کے مغربی کنارے پر واقع بندرگاہ، جو 1859ء میں والی سعید پاشا کے دور میں قائم ہوئی اور انہی کے نام پر ہے۔ اس کی جگہ لاروش اور دی لیسپس کی قیادت میں انجینئروں کی ایک ٹولی نے چنی، اور وہ علاقہ منزلہ جھیل اور سمندر کے درمیان ریت کی ایک پٹی کے سوا زیر آب تھا۔ نہر کھلنے کے بعد یہ اسکندریہ کے بعد مصر کی دوسری بندرگاہ اور اسی نام کی گورنری کا صدر مقام بنی؛ 1986ء کے اندازے میں شہر کی آبادی تقریباً 374 ہزار تھی {cite:encyclopaedia-of-islam-2 vol. 8 p. 353} {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}۔"
+wings: [place]
+regions: [egypt-nile]
+coordinates: [31.2667, 32.3167]
+coordinate_precision: locality
+coordinate_note: "Latitude 31 deg 16 min N, longitude 32 deg 19 min E, as given in the Encyclopaedia of Islam article; rounded to four decimals."
+founded: { edtf: "1859", hijri: "1275", calendar: gregorian, precision: year, status: historical, derived: true, note: "founded in 1859 per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 8 p. 353}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: related_to, target: place/suez-canal, note: "the seaport at its northern end", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/said-pasha, note: "named after the viceroy in whose reign it was founded", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/ferdinand-de-lesseps, note: "chose the site with a party of engineers", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: group/suez-canal-company, note: "its headquarters stood in the town", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/manzala, note: "the site lay on the sand strip between Lake Manzala and the sea", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/ismailia, note: "linked to Cairo by a railway via Zagazig and Isma'iliyya", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article Port Said (Bur Sa'id)"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-5
+  canon: "EI2 vol. 8, article Port Said, PDF pages 353-354 (printed 324-325)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "بورسعيد مدينة ميناء عند مدخل قناة السويس من جهة البحر المتوسط، سُميت باسم حاكم مصر سعيد باشا."
+  en: "Port Said is a port city at the Mediterranean entrance of the Suez Canal, named after the ruler of Egypt, Sa'id Pasha."
+  ur: "بورسعید نہرِ سویز کے بحیرۂ روم والے دہانے پر بندرگاہی شہر ہے، جس کا نام مصر کے حکمران سعید پاشا کے نام پر ہے۔"

@@ -1,0 +1,52 @@
+id: course/ca-on-g3-science-c-1
+class: course
+kind: lesson
+label:
+  en: When wind and earth strike what people built
+  ar: حين تضرب الريح والأرض ما بناه الناس
+  ur: جب ہوا اور زمین انسان کی بنائی چیزوں پر ٹوٹ پڑیں
+summary:
+  en: Assessing what the forces of natural phenomena do to natural and built places, and how people responded (C1.1).
+  ar: تقييم آثار قوى الظواهر الطبيعية في الأماكن الطبيعية والمبنية، وطرق استجابة الناس (C1.1).
+  ur: قدرتی مظاہر کی قوتیں قدرتی اور تعمیر شدہ مقامات پر کیا اثر ڈالتی ہیں، اور لوگوں نے کیا ردِعمل دیا، اس کا جائزہ (C1.1)۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g3-science-c
+expectations:
+- code: C1.1
+  text:
+    en: assess the effects of the action of forces from natural phenomena on natural and built environments, and identify ways in which human activities can reduce or enhance these effects
+    ar: قيّم آثار القوى الناتجة عن الظواهر الطبيعية في البيئات الطبيعية والمبنية، وحدّد الطرق التي يمكن بها للأنشطة البشرية أن تُقلّل هذه الآثار أو تعزّزها
+    ur: قدرتی مظاہر سے پیدا ہونے والی قوتوں کے قدرتی اور تعمیر شدہ ماحول پر اثرات کا جائزہ لیں، اور وہ طریقے پہچانیں جن سے انسانی سرگرمیاں ان اثرات کو کم یا زیادہ کر سکتی ہیں
+connections:
+- position: within
+  kind: story
+  title:
+    en: A black wind and an earthquake in 425
+    ar: ريح سوداء وزلزلة سنة 425
+    ur: 425 ہجری کی سیاہ آندھی اور زلزلہ
+  text:
+    en: Ibn al-Imad's chronicle reports that in 425 AH a black wind over Nisibin uprooted many of its orchards and knocked down a palace of baked brick, stone and lime. Ramla was then shaken and about half of it destroyed, and part of the wall of Jerusalem and the minaret of the mosque of Ascalon fell. Which of these effects fell on farmland, and which on buildings?
+    ar: يروي ابن العماد في تاريخه أنه في سنة 425هـ هبّت ريح سوداء بنصيبين فقلعت كثيرًا من بساتينها وهدمت قصرًا من الآجر والحجارة والكلس. ثم زُلزلت الرملة فهُدم نحو نصفها، وسقط بعض حائط بيت المقدس ومنارة جامع عسقلان. أي هذه الآثار وقع على الأرض الزراعية، وأيها على الأبنية؟
+    ur: ابن العماد کی تاریخ بتاتی ہے کہ 425 ہجری میں نصیبین پر ایک سیاہ آندھی چلی جس نے اس کے بہت سے باغ اکھاڑ دیے اور پکی اینٹ، پتھر اور چونے کا بنا ایک محل گرا دیا۔ پھر رملہ ہلا اور اس کا تقریباً آدھا حصہ تباہ ہوا، اور بیت المقدس کی دیوار کا کچھ حصہ اور عسقلان کی مسجد کا مینار گر گیا۔ ان میں سے کون سے اثرات زرعی زمین پر پڑے اور کون سے عمارتوں پر؟
+  entity: event/earthquake-tsunami-425
+  sources:
+  - source/shadharat-dhahab
+- position: after
+  kind: story
+  title:
+    en: 'After the earthquake: rebuilding the Aqsa'
+    ar: 'بعد الزلزلة: إعادة بناء الأقصى'
+    ur: 'زلزلے کے بعد: مسجدِ اقصیٰ کی تعمیرِ نو'
+  text:
+    en: The earthquake of 1033 devastated Jerusalem, and the Fatimid caliph al-Zahir had al-Aqsa rebuilt between 1034 and 1036; the work was completed under al-Mustansir in 1065. The new mosque was smaller than the one before it, with seven aisles instead of fifteen. What was the rebuilt mosque like?
+    ar: 'دمّرت زلزلة سنة 1033م بيت المقدس، فأعاد الخليفة الفاطمي الظاهر بناء المسجد الأقصى بين 1034 و1036م، واكتمل العمل في خلافة المستنصر سنة 1065م. وكان المسجد الجديد أصغر من سابقه: سبعة أروقة بدل خمسة عشر. كيف كان المسجد الذي أُعيد بناؤه؟'
+    ur: '1033ء کے زلزلے نے بیت المقدس کو تباہ کر دیا، تو فاطمی خلیفہ الظاہر نے مسجدِ اقصیٰ کو 1034 سے 1036 کے درمیان دوبارہ بنوایا، اور کام المستنصر کے دور میں 1065ء میں مکمل ہوا۔ نئی مسجد پہلی سے چھوٹی تھی: پندرہ کی جگہ سات صحن۔ دوبارہ بنائی گئی مسجد کیسی تھی؟'
+  entity: event/aqsa-fatimid-rebuild
+  sources:
+  - source/encyclopaedia-of-islam-2
+order: 1

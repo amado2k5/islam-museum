@@ -1,0 +1,52 @@
+id: course/ca-on-g12-sph4u-e-1
+class: course
+kind: lesson
+label:
+  en: Light in a drop of water
+  ar: الضوء في قطرة ماء
+  ur: پانی کی بوند میں روشنی
+summary:
+  en: Describing refraction, one of the behaviours of light (E3.2).
+  ar: وصف انكسار الضوء، أحد سلوكاته، التوقع E3.2.
+  ur: روشنی کے انعطاف کا بیان، جو اس کے رویّوں میں سے ایک ہے، توقع E3.2۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g12-sph4u-e
+expectations:
+- code: E3.2
+  text:
+    en: describe and explain the diffraction, refraction, polarization, and interference of light waves […]
+    ar: صِف وفسِّر حيود موجات الضوء وانكسارها واستقطابها وتداخلها […]
+    ur: روشنی کی لہروں کے انعراج، انعطاف، استقطاب اور تداخل کو بیان کریں اور ان کی وضاحت کریں […]
+connections:
+- position: before
+  kind: scholar
+  title:
+    en: Three states of light
+    ar: ثلاثة أحوال للضوء
+    ur: روشنی کی تین حالتیں
+  text:
+    en: 'Optics is the study of light and vision. The editor of the Kitab al-Manazir notes that the Greeks treated optics as a branch of mathematics, while Ibn al-Haytham made it a mixed science of natural and mathematical kinds and studied light in three states: travelling in straight lines, reflection and refraction. Which of these three have you already seen in everyday life?'
+    ar: 'البصريات علم الضوء والإبصار. يرى محقق «كتاب المناظر» أن البحث في البصريات كان عند اليونان أحد فروع الرياضيات، فجعله ابن الهيثم علمًا مركّبًا من العلوم الطبيعية والتعليمية، ودرس فيه أحوال الضوء الثلاثة: الإشراق على الاستقامة والانعكاس والانعطاف. أي هذه الأحوال الثلاثة رأيته في حياتك اليومية؟'
+    ur: 'بصریات روشنی اور بینائی کا علم ہے۔ «کتاب المناظر» کا مدیر لکھتا ہے کہ یونانیوں کے ہاں بصریات ریاضی کی ایک شاخ تھی، جبکہ ابن الہیثم نے اسے قدرتی اور ریاضیاتی علوم سے مل کر بنا علم بنایا اور روشنی کی تین حالتوں کا مطالعہ کیا: سیدھا سفر، انعکاس اور انعطاف۔ ان تینوں میں سے کون سی آپ روزمرہ زندگی میں دیکھ چکے ہیں؟'
+  entity: concept/optics
+  sources:
+  - source/manazir-sabra-1983
+- position: within
+  kind: invention
+  title:
+    en: A glass sphere for a raindrop
+    ar: كرة زجاجية بدل قطرة
+    ur: بوند کی جگہ شیشے کا گولا
+  text:
+    en: Kamal al-Din al-Farisi replaced a tiny raindrop with a glass sphere filled with water, to study light in a model he could control. As Russell describes it, he explained the primary rainbow by two refractions with one internal reflection between them, and the secondary by two reflections. Russell also says his attempt to explain colour was unsuccessful. Where does the light bend on this path, and what is left unexplained?
+    ar: استبدل كمال الدين الفارسي بالقطرة الصغيرة كرة زجاجية مملوءة بالماء، ليدرس مسار الضوء في نموذج يمكن التحكم فيه. وكما تعرض رسل، شرح القوس الأساسي بانكسارين بينهما انعكاس داخلي واحد، والثانوي بانعكاسين بين الانكسارين. وتصرّح رسل بأن محاولته تفسير اللون لم تنجح. أين ينحني الضوء في هذا المسار، وما الذي بقي بلا تفسير؟
+    ur: کمال الدین فارسی نے چھوٹی سی بوند کی جگہ پانی سے بھرا شیشے کا گولا رکھا تاکہ روشنی کا مطالعہ ایسے نمونے میں کرے جسے قابو میں رکھا جا سکے۔ رسل کے بیان کے مطابق اس نے بنیادی قوسِ قزح کی وضاحت دو انعطافوں سے کی جن کے درمیان ایک اندرونی انعکاس ہے، اور ثانوی کی دو انعکاسوں سے۔ رسل یہ بھی کہتی ہے کہ رنگ کی وضاحت کی اس کی کوشش کامیاب نہ ہوئی۔ اس راستے میں روشنی کہاں مڑتی ہے، اور کیا بے وضاحت رہ جاتا ہے؟
+  entity: invention/farisi-water-sphere-rainbow
+  sources:
+  - source/russell-faresi-iranica
+order: 1

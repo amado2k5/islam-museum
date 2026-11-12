@@ -1,0 +1,74 @@
+course: course/ca-on-g12-avi4e
+gaps:
+- code: A1.1
+  text: use a variety of strategies, individually and/or collaboratively, to generate, explore, and reflect on ideas and to develop and revise plans for the creation of art works, including applied and commercial art works […]
+  why: 'skills expectation: names no subject matter'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: apply the appropriate stages of the creative process to create a variety of art works, including applied and commercial art works, in areas of personal interest […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.3
+  text: document their use of each stage of the creative process in a portfolio […], and review and reflect on the contents of the portfolio to determine how effectively they have used the creative process
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.1
+  text: apply the elements and principles of design with increasing skill to create art works, including applied and commercial art works, that reflect their personal interests or personal experience and/or that convey emotion […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.2
+  text: apply the elements and principles of design as well as art-making conventions with increasing skill to create a variety of art works that explore and/or present a point of view on contemporary social issues and/or themes […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.1
+  text: extend their exploration of media/materials, techniques, tools, and traditional and emerging technologies, and apply them to create a variety of art works, including applied and commercial art works, for a range of purposes […]
+  why: The expectation asks the student to use media, tools and technologies, including design software, to make art works; the museum holds no record on design software or on media and technologies for applied or commercial work.
+  searches:
+  - 'find_entity.py "software" "digital art" "تقنيات" "3D printing": no real record under these spellings'
+  - 'find_entity.py "graphic design" "logo" "تصميم" "typography": eight records, none on design practice: a building by an architect, a coin standard, a book on gardens, diagrams and sources whose labels contain "design"'
+- code: A3.2
+  text: explain standards and conventions for the presentation of art works for a variety of purposes, and apply appropriate standards and conventions when preparing works for presentation […]
+  why: The expectation is about standards for presenting finished works (signing, dating, labelling, mounting, framing, an artist's statement); the museum holds no record on these standards.
+  searches:
+  - 'find_entity.py "exhibition" "معرض" "signature" "artist statement": four records, none on presenting works: a person whose name contains the word, a tomb whose label contains "Signature", and two sources about exhibitions'
+  - 'find_entity.py "framing" "label" "تأطير" "mounting": three records, none about framing or labelling a work (a product-label fatwa, a dismounting term, a source)'
+- code: B1.1
+  text: describe their initial reaction to a variety of art works, including applied and commercial art works […], and explain in detail the reasons for their reaction
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B1.2
+  text: identify the elements and principles of design used in art works, including applied and commercial art works, analyse their purpose, and evaluate their effectiveness […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B2.1
+  text: explain how applied and commercial art works can influence individual and community values […]
+  why: The expectation asks how applied and commercial works influence individual and community values (advertising, packaging, posters); no record of the museum shows an art work shaping a community's values.
+  searches:
+  - 'find_entity.py "values" "قيم" "advertising" "poster": ninety-nine matches, nearly all Ibn Qayyim al-Jawziyya and the word qayyim; none on advertising, posters or packaging'
+  - 'find_entity.py "propaganda" "الدعاية" "public art" "قيم المجتمع": concept/propaganda-coins describes coins carrying a publicity message but says nothing on their effect on values; no record on public art'
+- code: B3.2
+  text: explain how skills associated with the creation and analysis of visual art works, including applied and commercial art works, can be transferred to jobs outside the visual arts field […]
+  why: The expectation asks how skills of making and analysing art transfer to jobs outside the visual arts; the museum holds no record that treats the transfer of skills between occupations.
+  searches:
+  - 'find_entity.py "transferable skills" "essential skills" "المهارات" "career": five records, none on skills transfer: two events in the career of Ibn al-Jawzi and three sources'
+  - 'find_entity.py "job opportunities" "apprenticeship" "حرفة" "craftsman": concept/hirfa-crafts, a set of rulings on craft and occupation, not on training or skills transfer'
+- code: C3.1
+  text: demonstrate an understanding of legal and ethical issues associated with intellectual, virtual, and physical property […], and apply ethical practices when appropriating the property of others and using cultural images in their art works […]
+  why: The expectation is about legal and ethical issues of ownership, plagiarism and appropriation in art works; the museum holds no record on the ownership of images or designs.
+  searches:
+  - 'find_entity.py "plagiarism" "intellectual property" "copyright" "الملكية الفكرية": one record, a fatwa on research works after the author''s death, not on art or images'
+  - 'find_entity.py "forgery" "attribution" "signature" "تزوير": records on forgery as a legal wrong, on the attribution of a printed book and of reports, and a tomb whose label contains "Signature"; none on ownership of art'
+- code: C3.2
+  text: demonstrate an understanding of health and safety procedures when creating or presenting art works, including applied and commercial art works […]
+  why: The expectation is about health and safety when making or presenting art (ventilation, gloves, protective equipment, storage of hazardous materials); the museum holds no record on workshop safety.
+  searches:
+  - 'find_entity.py "safety" "ventilation" "السلامة" "toxic": forty-three matches, all personal names, hadith passages and the word salama; none on workshop safety'
+  - 'find_entity.py "chemicals" "pigments" "dye" "أصباغ": a fatwa on chemical cleaners for carpets, and practice/persian-painting-pigments-and-gold, which mentions verdigris eating through paper but not the maker''s health or safe handling'
+- code: C3.3
+  text: identify responsible environmental practices that should be used in applied arts workplaces […], and apply these practices when creating visual art works
+  why: The expectation asks for responsible environmental practices in applied-arts workplaces (disposal of paints and solvents, recycling); the museum holds no record on the environmental practice of a workshop.
+  searches:
+  - 'find_entity.py "recycling" "environment" "waste" "البيئة": ten records; concept/environmental-protection-in-islam is an author''s reading on pollution and says nothing on art materials or workshops'
+  - 'find_entity.py "pigments" "dye" "chemicals": no record on disposal of paints, solvents or chemicals (see C3.2)'

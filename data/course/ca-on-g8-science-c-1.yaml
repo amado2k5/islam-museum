@@ -1,0 +1,58 @@
+id: course/ca-on-g8-science-c-1
+class: course
+kind: lesson
+label:
+  en: Weighing water to find density
+  ar: وزن الماء لمعرفة الكثافة
+  ur: کثافت جاننے کے لیے پانی تولنا
+summary:
+  en: How mass, volume and density relate, and how an object's weight in a liquid tells us about it (C2.2, C2.5).
+  ar: كيف ترتبط الكتلة بالحجم والكثافة، وماذا يخبرنا وزن الجسم في السائل عنه، التوقعان C2.2 وC2.5.
+  ur: کمیت، حجم اور کثافت کا باہمی تعلق، اور مائع میں کسی جسم کا وزن ہمیں اس کے بارے میں کیا بتاتا ہے، توقعات C2.2 اور C2.5۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g8-science-c
+expectations:
+- code: C2.2
+  text:
+    en: demonstrate an understanding of the relationship between mass, volume, and density
+    ar: أظهر فهمًا للعلاقة بين الكتلة والحجم والكثافة
+    ur: کمیت، حجم اور کثافت کے درمیان تعلق کی سمجھ کا مظاہرہ کریں
+- code: C2.5
+  text:
+    en: determine the buoyancy of an object, given its density, in a variety of fluids
+    ar: حدِّد طفو جسم، بمعلومية كثافته، في موائع متنوعة
+    ur: کسی جسم کی کثافت دی ہونے پر مختلف سیالوں میں اس کی اچھال کا تعین کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: Collecting the water a stone pushes aside
+    ar: جمع الماء الذي يزيحه حجر
+    ur: پانی جو پتھر ہٹاتا ہے اسے جمع کرنا
+  text:
+    en: The Balance of Wisdom transmits a conical vessel attributed to al-Biruni. A side tube directs the displaced water into a balance pan, and weighing that water allows a comparison of the sample's volume and weight. The record adds that drops can remain inside the tube, and that "specific gravity" here means a ratio to reference water. How would a stray drop change the result?
+    ar: 'ينقل «ميزان الحكمة» وصف إناء مخروطي منسوب إلى البيروني، يوجه الماء المزاح عبر أنبوب جانبي إلى كفة ميزان. وبوزن ذلك الماء يمكن مقارنة حجم العينة ووزنها، لكن الأنبوب يضيف مشكلة: قطرات قد تبقى معلقة فيه. ويقول السجل إن «الثقل النوعي» هنا نسبة مقارنة بماء مرجعي. كيف تغيّر قطرة شاردة النتيجة؟'
+    ur: '«میزان الحکمہ» بیرونی سے منسوب ایک مخروطی برتن کا بیان نقل کرتی ہے جو ہٹایا گیا پانی ایک جانبی نالی کے ذریعے ترازو کے پلڑے میں پہنچاتا ہے۔ اس پانی کو تول کر نمونے کے حجم اور وزن کا موازنہ کیا جا سکتا ہے، مگر نالی ایک مسئلہ بھی لاتی ہے: قطرے اس میں اٹکے رہ سکتے ہیں۔ ریکارڈ کہتا ہے کہ یہاں «نوعی وزن» ایک حوالہ جاتی پانی سے نسبت ہے۔ ایک بھٹکا ہوا قطرہ نتیجے کو کیسے بدلے گا؟'
+  entity: invention/biruni-displacement-vessel
+  sources:
+  - source/khazini-khanikoff-1859
+  - source/ansari-biruni-physics-1975
+- position: after
+  kind: invention
+  title:
+    en: A balance that weighs in water
+    ar: ميزان يزن في الماء
+    ur: ایک ترازو جو پانی میں تولتا ہے
+  text:
+    en: Robert Hall describes al-Khazini's balance as connected with the treasury of Sultan Sanjar at Merv, in a treatise written in 515 AH/1121-1122 CE. An immersed object has a lower apparent weight because the liquid supports it, and comparing its weight in air with the loss of weight in water gives information about its density. Equal dry weights alone do not show that two objects are the same material. What else would you need to know?
+    ar: يعرض روبرت هول ميزان الخازني مرتبطًا بخزانة السلطان سنجر في مرو، في كتاب أُلّف سنة 515هـ/1121–1122م. فالجسم المغمور يبدو أخف لأن السائل يسنده، ومقارنة وزنه في الهواء بنقص الوزن في الماء تتيح بحث كثافته. ولا تكفي مساواة جسمين في الوزن الجاف للحكم بأنهما من المادة نفسها. فماذا تحتاج أن تعرف أيضًا؟
+    ur: رابرٹ ہال الخازنی کے ترازو کو سلطان سنجر کے خزانے سے مرو میں وابستہ بتاتا ہے، ایک رسالے میں جو 515 ہجری/1121–1122 عیسوی میں لکھا گیا۔ پانی میں ڈوبا ہوا جسم ہلکا دکھائی دیتا ہے کیونکہ مائع اسے سہارا دیتا ہے، اور ہوا میں اس کے وزن کا پانی میں وزن کی کمی سے موازنہ کرنے سے اس کی کثافت کے بارے میں معلومات ملتی ہیں۔ صرف خشک وزن کا برابر ہونا یہ ثابت نہیں کرتا کہ دو جسم ایک ہی مادے کے ہیں۔ آپ کو اور کیا جاننا ہوگا؟
+  entity: invention/balance-of-wisdom
+  sources:
+  - source/khazini-hall-dsb
+order: 1

@@ -1,0 +1,212 @@
+course: course/ca-on-g2-math
+gaps:
+- code: B1.2
+  text: compare and order whole numbers up to and including 200, in various contexts
+  why: 'Comparing and ordering whole numbers to 200: no record is about comparing or ordering numbers; the one record on written numbers (algorism) is taught for reading and building numbers.'
+  searches:
+  - 'find_entity.py "counting" "عد" "to 100" "numbers": concept/ihtisab (counting for reward), concept/add-al-ay (counting the verses), invention/combinatorics-ibn-munim; none is about counting or ordering whole numbers'
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "numerals": only invention/algorism, taught in lesson b-1 under B1.1; it does not compare, order or count'
+- code: B1.3
+  text: estimate the number of objects in collections of up to 200 and verify their estimates by counting
+  why: 'Estimating the number of objects in a collection and verifying by counting: no record is about estimating a count; the one estimating record is about the fruit on trees.'
+  searches:
+  - 'grep -ril "estimat" content/en/concept content/en/invention: concept/kharas-estimate-fiqh (estimating the fruit on palms and vines for zakat; read, not linked: it estimates a quantity of fruit by looking at trees, not the number of objects in a collection, and nothing is checked by counting) and hits where the word occurs in passing'
+  - 'find_entity.py "counting" "عد" "to 100" "numbers": concept/ihtisab (counting for reward), concept/add-al-ay (counting the verses), invention/combinatorics-ibn-munim; none is about counting or ordering whole numbers'
+- code: B1.4
+  text: count to 200, including by 20s, 25s, and 50s, using a variety of tools and strategies
+  why: 'Counting to 200 by 20s, 25s and 50s: no record is about counting in steps.'
+  searches:
+  - 'find_entity.py "counting" "عد" "to 100" "numbers": concept/ihtisab (counting for reward), concept/add-al-ay (counting the verses), invention/combinatorics-ibn-munim; none is about counting or ordering whole numbers'
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "numerals": only invention/algorism, taught in lesson b-1 under B1.1; it does not compare, order or count'
+- code: B1.5
+  text: describe what makes a number even or odd
+  why: 'Even and odd numbers: no record is about even and odd numbers.'
+  searches:
+  - 'find_entity.py "even odd numbers" "زوجي فردي" "odd": one hit, passage/muslim-0035 ("seventy-odd branches"), which is not about even and odd numbers'
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "numerals": only invention/algorism, taught in lesson b-1 under B1.1; it does not compare, order or count'
+- code: B1.7
+  text: recognize that one third and two sixths of the same whole are equal, in fair-sharing contexts
+  why: 'One third and two sixths of the same whole are equal: the museum''s inheritance records name halves, thirds, quarters and eighths but no sixths and no equivalence.'
+  searches:
+  - 'find_entity.py "fraction" "كسر" "half": concept/kasr is a lexical and fiqh term (breaking); invention/decimal-fractions-al-uqlidisi is about decimal fractions (tenths and hundredths); neither shows one third equal to two sixths'
+  - 'find_entity.py "inheritance" "ميراث" "fair share": concept/mirath, concept/ilm-al-faraid and the Muwatta inheritance passages name legal shares of an estate (halves, thirds, quarters, eighths, not used in any lesson); no record names sixths or shows one third equal to two sixths in a fair-sharing problem'
+- code: B2.1
+  text: use the properties of addition and subtraction, and the relationships between addition and multiplication and between subtraction and division, to solve problems and check calculations
+  why: 'Properties of addition and subtraction, and the relationships between the operations: the one arithmetic record (algorism) names the four operations but does not state their properties or relationships.'
+  searches:
+  - 'find_entity.py "addition" "subtraction" "جمع" "طرح": hits are jam (combining prayers), jam al-Quran and similar; the only arithmetic record is invention/algorism, taught in lesson b-1 under B1.1'
+  - 'find_entity.py "multiplication" "ضرب" "times table": invention/abu-wafa-debt-multiplication (complement multiplication with debts, written for older students; read, not linked) and hits for the mint (dar al-darb) and for blows'
+- code: B2.2
+  text: recall and demonstrate addition facts for numbers up to 20, and related subtraction facts
+  why: 'Addition facts to 20 and related subtraction facts: no record is about number facts.'
+  searches:
+  - 'find_entity.py "addition" "subtraction" "جمع" "طرح": hits are jam (combining prayers), jam al-Quran and similar; the only arithmetic record is invention/algorism, taught in lesson b-1 under B1.1'
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "numerals": only invention/algorism, taught in lesson b-1 under B1.1; it does not compare, order or count'
+- code: B2.3
+  text: use mental math strategies, including estimation, to add and subtract whole numbers that add up to no more than 50, and explain the strategies used
+  why: 'Mental math strategies for adding and subtracting to 50: no record is about mental calculation.'
+  searches:
+  - 'find_entity.py "addition" "subtraction" "جمع" "طرح": hits are jam (combining prayers), jam al-Quran and similar; the only arithmetic record is invention/algorism, taught in lesson b-1 under B1.1'
+  - 'find_entity.py "counting" "عد" "to 100" "numbers": concept/ihtisab (counting for reward), concept/add-al-ay (counting the verses), invention/combinatorics-ibn-munim; none is about counting or ordering whole numbers'
+- code: B2.5
+  text: represent multiplication as repeated equal groups, including groups of one half and one fourth, and solve related problems, using various tools and drawings
+  why: 'Multiplication as repeated equal groups, including groups of one half and one fourth: no record is about equal groups; the multiplication record is for older students.'
+  searches:
+  - 'find_entity.py "multiplication" "ضرب" "times table": invention/abu-wafa-debt-multiplication (complement multiplication with debts, written for older students; read, not linked) and hits for the mint (dar al-darb) and for blows'
+  - 'find_entity.py "fraction" "كسر" "half": concept/kasr is a lexical and fiqh term (breaking); invention/decimal-fractions-al-uqlidisi is about decimal fractions (tenths and hundredths); neither shows one third equal to two sixths'
+- code: B2.6
+  text: represent division of up to 12 items as the equal sharing of a quantity, and solve related problems, using various tools and drawings
+  why: 'Division of up to 12 items as equal sharing: no record shows division as equal sharing of a quantity.'
+  searches:
+  - 'find_entity.py "multiplication" "ضرب" "times table": invention/abu-wafa-debt-multiplication (complement multiplication with debts, written for older students; read, not linked) and hits for the mint (dar al-darb) and for blows'
+  - 'find_entity.py "inheritance" "ميراث" "fair share": concept/mirath, concept/ilm-al-faraid and the Muwatta inheritance passages name legal shares of an estate (halves, thirds, quarters, eighths, not used in any lesson); no record names sixths or shows one third equal to two sixths in a fair-sharing problem'
+- code: C1.2
+  text: create and translate patterns using various representations, including shapes and numbers
+  why: 'Creating and translating patterns with shapes and numbers: the two geometric-pattern records name patterns of stars and polygons but do not show creating or translating them (C1.1 is taught from them).'
+  searches:
+  - 'find_entity.py "pattern" "نمط" "sequence" "متتالية": hits are textile and script styles and the geometric-pattern records taught in lesson c-1 under C1.1; nothing on number patterns, pattern rules or predictions'
+  - 'find_entity.py "Islamic geometric patterns" "الزخرفة الهندسية" "girih": concept/islamic-geometric-patterns and concept/girih (one-sentence records; only girih is taught, in lesson c-1 under C1.1); neither sorts shapes by sides, angles or symmetry in a cited sentence'
+- code: C1.3
+  text: determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in patterns represented with shapes and numbers
+  why: 'Pattern rules, extending patterns and predicting: the geometric-pattern records show that patterns repeat but give no rule, extension or prediction.'
+  searches:
+  - 'find_entity.py "pattern" "نمط" "sequence" "متتالية": hits are textile and script styles and the geometric-pattern records taught in lesson c-1 under C1.1; nothing on number patterns, pattern rules or predictions'
+  - 'find_entity.py "Islamic geometric patterns" "الزخرفة الهندسية" "girih": concept/islamic-geometric-patterns and concept/girih (one-sentence records; only girih is taught, in lesson c-1 under C1.1); neither sorts shapes by sides, angles or symmetry in a cited sentence'
+- code: C1.4
+  text: create and describe patterns to illustrate relationships among whole numbers up to 100
+  why: 'Patterns that show relationships among whole numbers to 100: no record is about number patterns.'
+  searches:
+  - 'find_entity.py "pattern" "نمط" "sequence" "متتالية": hits are textile and script styles and the geometric-pattern records taught in lesson c-1 under C1.1; nothing on number patterns, pattern rules or predictions'
+  - 'find_entity.py "counting" "عد" "to 100" "numbers": concept/ihtisab (counting for reward), concept/add-al-ay (counting the verses), invention/combinatorics-ibn-munim; none is about counting or ordering whole numbers'
+- code: C2.1
+  text: identify when symbols are being used as variables, and describe how they are being used
+  why: 'Symbols used as variables: no record for young students; the equation records are for older students.'
+  searches:
+  - 'find_entity.py "equation" "equality" "معادلة" "balance": concept/al-durub-al-sitta (al-Khwarizmi''s six types of equation, written for older students) and balance (mizan) records about weighing; none is about symbols as variables or equivalent expressions for young students'
+  - 'find_entity.py "pattern" "نمط" "sequence" "متتالية": hits are textile and script styles and the geometric-pattern records taught in lesson c-1 under C1.1; nothing on number patterns, pattern rules or predictions'
+- code: C2.2
+  text: determine what needs to be added to or subtracted from addition and subtraction expressions to make them equivalent
+  why: 'Making addition and subtraction expressions equivalent: no record is about equivalent expressions.'
+  searches:
+  - 'find_entity.py "equation" "equality" "معادلة" "balance": concept/al-durub-al-sitta (al-Khwarizmi''s six types of equation, written for older students) and balance (mizan) records about weighing; none is about symbols as variables or equivalent expressions for young students'
+  - 'find_entity.py "addition" "subtraction" "جمع" "طرح": hits are jam (combining prayers), jam al-Quran and similar; the only arithmetic record is invention/algorism, taught in lesson b-1 under B1.1'
+- code: C2.3
+  text: identify and use equivalent relationships for whole numbers up to 100, in various contexts
+  why: 'Equivalent relationships for whole numbers to 100: no record is about equivalence of numbers.'
+  searches:
+  - 'find_entity.py "equation" "equality" "معادلة" "balance": concept/al-durub-al-sitta (al-Khwarizmi''s six types of equation, written for older students) and balance (mizan) records about weighing; none is about symbols as variables or equivalent expressions for young students'
+  - 'find_entity.py "fraction" "كسر" "half": concept/kasr is a lexical and fiqh term (breaking); invention/decimal-fractions-al-uqlidisi is about decimal fractions (tenths and hundredths); neither shows one third equal to two sixths'
+- code: C3.1
+  text: solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events
+  why: 'Writing and executing code: no record is about code; algorism is the origin of the word algorithm and is taught for place value.'
+  searches:
+  - 'find_entity.py "algorithm" "code" "خوارزمية" "program": invention/algorism (the origin of the word algorithm, taught in lesson b-1 for place value) and many television-programme records; nothing about writing, running or changing code'
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "numerals": only invention/algorism, taught in lesson b-1 under B1.1; it does not compare, order or count'
+- code: C3.2
+  text: read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes
+  why: 'Reading and altering code: no record is about code.'
+  searches:
+  - 'find_entity.py "algorithm" "code" "خوارزمية" "program": invention/algorism (the origin of the word algorithm, taught in lesson b-1 for place value) and many television-programme records; nothing about writing, running or changing code'
+  - 'find_entity.py "pattern" "نمط" "sequence" "متتالية": hits are textile and script styles and the geometric-pattern records taught in lesson c-1 under C1.1; nothing on number patterns, pattern rules or predictions'
+- code: D1.1
+  text: sort sets of data about people or things according to two attributes, using tables and logic diagrams, including Venn and Carroll diagrams
+  why: 'Sorting data by two attributes with Venn and Carroll diagrams: no record is about sorting by attributes.'
+  searches:
+  - 'find_entity.py "sorting" "classification" "تصنيف" "diagram": hits are compositions of books (tasnif), invention/razi-substance-classification and concept/makki-wa-madani; none sorts people or things by two attributes with Venn or Carroll diagrams'
+  - 'find_entity.py "statistics" "إحصاء" "survey" "tally": census and land-survey events (event/abbasid-census-200, event/egypt-census-837, event/uthman-ibn-hunayf-survey); read as events, none shows sorting data by two attributes or organising it in tally tables'
+- code: D1.2
+  text: collect data through observations, experiments, and interviews to answer questions of interest that focus on two pieces of information, and organize the data in two-way tally tables
+  why: 'Collecting data and organising it in two-way tally tables: the museum''s census and survey records are events about governance, not classroom data collection.'
+  searches:
+  - 'find_entity.py "statistics" "إحصاء" "survey" "tally": census and land-survey events (event/abbasid-census-200, event/egypt-census-837, event/uthman-ibn-hunayf-survey); read as events, none shows sorting data by two attributes or organising it in tally tables'
+  - 'find_entity.py "sorting" "classification" "تصنيف" "diagram": hits are compositions of books (tasnif), invention/razi-substance-classification and concept/makki-wa-madani; none sorts people or things by two attributes with Venn or Carroll diagrams'
+- code: D1.3
+  text: display sets of data, using one-to-one correspondence, in concrete graphs, pictographs, line plots, and bar graphs with proper sources, titles, and labels
+  why: 'Displaying data in concrete graphs, pictographs, line plots and bar graphs: no record is about graphs.'
+  searches:
+  - 'find_entity.py "graph" "chart" "رسم بياني" "bar graph": music-chart award records (UK Albums Chart and kin) and place-value chart media; no record about bar graphs, pictographs or line plots'
+  - 'find_entity.py "statistics" "إحصاء" "survey" "tally": census and land-survey events (event/abbasid-census-200, event/egypt-census-837, event/uthman-ibn-hunayf-survey); read as events, none shows sorting data by two attributes or organising it in tally tables'
+- code: D1.4
+  text: identify the mode(s), if any, for various data sets presented in concrete graphs, pictographs, line plots, bar graphs, and tables, and explain what this measure indicates about the data
+  why: 'Finding the mode of a data set: no record is about the mode.'
+  searches:
+  - 'find_entity.py "statistics" "إحصاء" "survey" "tally": census and land-survey events (event/abbasid-census-200, event/egypt-census-837, event/uthman-ibn-hunayf-survey); read as events, none shows sorting data by two attributes or organising it in tally tables'
+  - 'find_entity.py "graph" "chart" "رسم بياني" "bar graph": music-chart award records (UK Albums Chart and kin) and place-value chart media; no record about bar graphs, pictographs or line plots'
+- code: D1.5
+  text: analyse different sets of data presented in various ways, including in logic diagrams, line plots, and bar graphs, by asking and answering questions about the data and drawing conclusions, then make convincing arguments and informed decisions
+  why: 'Analysing data and drawing conclusions: no record is about reading data displays.'
+  searches:
+  - 'find_entity.py "statistics" "إحصاء" "survey" "tally": census and land-survey events (event/abbasid-census-200, event/egypt-census-837, event/uthman-ibn-hunayf-survey); read as events, none shows sorting data by two attributes or organising it in tally tables'
+  - 'find_entity.py "graph" "chart" "رسم بياني" "bar graph": music-chart award records (UK Albums Chart and kin) and place-value chart media; no record about bar graphs, pictographs or line plots'
+- code: D2.1
+  text: use mathematical language, including the terms “impossible”, “possible”, and “certain”, to describe the likelihood of complementary events happening, and use that likelihood to make predictions and informed decisions
+  why: 'The words impossible, possible and certain for the likelihood of events: the records on certainty are about law and belief, not about the likelihood of events.'
+  searches:
+  - 'find_entity.py "likelihood" "certain" "impossible" "possible": concept/al-yaqin, concept/yaqin-fiqh and concept/doubt-shakk are about certainty and doubt in law and belief, not the likelihood of events; concept/maysir and concept/nard (games of chance) were read as titles and not linked for young students'
+  - 'find_entity.py "probability" "احتمال" "chance": concept/maysir and concept/nard (gambling and games of chance) and chancery (diwan) hits; no record on probability or predictions from data'
+- code: D2.2
+  text: make and test predictions about the likelihood that the mode(s) of a data set from one population will be the same for data collected from a different population
+  why: 'Predicting whether the mode of a data set will be the same in another population: no record is about data or prediction.'
+  searches:
+  - 'find_entity.py "probability" "احتمال" "chance": concept/maysir and concept/nard (gambling and games of chance) and chancery (diwan) hits; no record on probability or predictions from data'
+  - 'find_entity.py "statistics" "إحصاء" "survey" "tally": census and land-survey events (event/abbasid-census-200, event/egypt-census-837, event/uthman-ibn-hunayf-survey); read as events, none shows sorting data by two attributes or organising it in tally tables'
+- code: E1.1
+  text: sort and identify two-dimensional shapes by comparing number of sides, side lengths, angles, and number of lines of symmetry
+  why: 'Sorting two-dimensional shapes by sides, side lengths, angles and lines of symmetry: the geometric-pattern records name stars and polygons but no property of any shape.'
+  searches:
+  - 'find_entity.py "symmetry" "تناظر" "congruent" "shape": no record is about sorting or matching two-dimensional shapes; concept/girih mentions symmetry only in an uncited paragraph of its scholars section'
+  - 'find_entity.py "Islamic geometric patterns" "الزخرفة الهندسية" "girih": concept/islamic-geometric-patterns and concept/girih (one-sentence records; only girih is taught, in lesson c-1 under C1.1); neither sorts shapes by sides, angles or symmetry in a cited sentence'
+- code: E1.2
+  text: compose and decompose two-dimensional shapes, and show that the area of a shape remains constant regardless of how its parts are rearranged
+  why: 'Composing and decomposing shapes and showing that area stays constant: the mensuration record gives area rules, not composing or rearranging shapes.'
+  searches:
+  - 'find_entity.py "area" "مساحة" "square" "triangle": concept/ilm-al-misaha gives area rules (triangle, rhombus, circle), its cubit-by-cubit passage was removed from lesson e-2 (E2.1 is in this register); it does not compose or decompose shapes or show that area stays constant'
+  - 'find_entity.py "symmetry" "تناظر" "congruent" "shape": no record is about sorting or matching two-dimensional shapes; concept/girih mentions symmetry only in an uncited paragraph of its scholars section'
+- code: E1.3
+  text: identify congruent lengths and angles in two-dimensional shapes by mentally and physically matching them, and determine if the shapes are congruent
+  why: 'Congruent lengths and angles: no record is about congruence.'
+  searches:
+  - 'find_entity.py "symmetry" "تناظر" "congruent" "shape": no record is about sorting or matching two-dimensional shapes; concept/girih mentions symmetry only in an uncited paragraph of its scholars section'
+  - 'find_entity.py "area" "مساحة" "square" "triangle": concept/ilm-al-misaha gives area rules (triangle, rhombus, circle), its cubit-by-cubit passage was removed from lesson e-2 (E2.1 is in this register); it does not compose or decompose shapes or show that area stays constant'
+- code: E2.2
+  text: explain the relationship between centimetres and metres as units of length, and use benchmarks for these units to estimate lengths
+  why: 'Centimetres and metres, and benchmarks for estimating: no record is about centimetres or metres; the cubit is taught under E2.1.'
+  searches:
+  - 'find_entity.py "cubit" "ذراع" "dhira": concept/dhira-fiqh (the forearm and the measuring cubit in fiqh; read, not linked, since its Urdu text omits the measuring sections); no record on centimetres, metres or benchmarks'
+  - 'find_entity.py "weights and measures" "مكاييل" "mikyal": no real record under these spellings; concept/mizan (balance and standards of weight and measure) is about weight and the scale, not length'
+- code: E2.3
+  text: measure and draw lengths in centimetres and metres, using a measuring tool, and recognize the impact of starting at points other than zero
+  why: 'Measuring and drawing lengths with a tool in centimetres and metres, and starting at points other than zero: no record is about measuring tools.'
+  searches:
+  - 'find_entity.py "weights and measures" "مكاييل" "mikyal": no real record under these spellings; concept/mizan (balance and standards of weight and measure) is about weight and the scale, not length'
+  - 'find_entity.py "cubit" "ذراع" "dhira": concept/dhira-fiqh (the forearm and the measuring cubit in fiqh; read, not linked, since its Urdu text omits the measuring sections); no record on centimetres, metres or benchmarks'
+- code: B1.6
+  text: use drawings to represent, solve, and compare the results of fair-share problems that involve sharing up to 10 items among 2, 3, 4, and 6 sharers, including problems that result in whole numbers, mixed numbers, and fractional amounts
+  why: Two of the museum's records name halves, thirds, quarters and eighths, but as legal shares after a death, with unequal shares for male and female; that is not a subject for a seven-year-old and contradicts a fair-share lesson, and neither record shares items among equal sharers.
+  searches:
+  - 'find_entity.py "inheritance" "ميراث" "fair share": passage/muwatta-13-1449 and passage/muwatta-13-1450 (shares of an estate after the death of a parent or spouse; removed by the fleet review, not suited to Grade 2 and not equal sharing of items)'
+  - 'find_entity.py "fraction" "كسر" "half" "sharing": concept/kasr is a lexical and fiqh term; invention/decimal-fractions-al-uqlidisi is about tenths and hundredths; no record shares objects among 2, 3, 4 or 6 sharers'
+- code: E1.4
+  text: create and interpret simple maps of familiar places
+  why: 'Simple maps of familiar places: the one map record is a map of the whole world, not a familiar place.'
+  searches:
+  - 'find_entity.py "map" "خريطة" "Idrisi": invention/tabula-rogeriana is a silver disc of the seven climes and seventy sectional maps of the inhabited world; no familiar place and no way to make a simple map (removed by the fleet review)'
+  - 'find_entity.py "plan" "مخطط" "school" "neighbourhood": no record of a familiar or local place that a seven-year-old could map'
+- code: E1.5
+  text: describe the relative positions of several objects and the movements needed to get from one object to another
+  why: 'Relative positions of objects and the movements between them: the one map record shows no position or movement of objects.'
+  searches:
+  - 'find_entity.py "map" "خريطة" "Idrisi": invention/tabula-rogeriana (a world map with roads and distances in miles); it does not describe positions of several objects or movements from one to another (removed by the fleet review)'
+  - 'find_entity.py "direction" "اتجاه" "qibla": concept/qibla is a direction with no movement between objects'
+- code: E2.1
+  text: choose and use non-standard units appropriately to measure lengths, and describe the inverse relationship between the size of a unit and the number of units needed
+  why: 'Non-standard units for lengths and the inverse relation between unit size and count: the one record on the cubit measures areas of squares, not lengths, and does not state the relation.'
+  searches:
+  - 'find_entity.py "cubit" "ذراع" "dhira": concept/ilm-al-misaha gives areas of squares in cubits (a square of side two is four times the cubit-by-cubit area), neither a length measurement nor the inverse relation (removed by the fleet review)'
+  - 'find_entity.py "cubit" "ذراع" "dhira": concept/dhira-fiqh (the forearm and the measuring cubit in fiqh; read, not linked, since its Urdu text omits the measuring sections)'
+- code: B2.4
+  text: use objects, diagrams, and equations to represent, describe, and solve situations involving addition and subtraction of whole numbers that add up to no more than 100
+  why: 'Using objects, diagrams and equations for addition and subtraction to 100: the one arithmetic record states the four operations in general, with no situation to model and no sum within 100.'
+  searches:
+  - 'find_entity.py "addition" "subtraction" "جمع" "طرح": the only arithmetic record is invention/algorism (place value, units to hundreds); it models no situation and shows no equation'
+  - 'find_entity.py "Hindu-Arabic numerals" "الأرقام الهندية" "numerals": only invention/algorism, taught in lesson b-1 under B1.1 only'

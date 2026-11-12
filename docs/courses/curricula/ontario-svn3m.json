@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-svn3m",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "Science",
+  "url_slug": "secondary-science",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-science"
+ },
+ "course_code": "SVN3M",
+ "ministry_course_name": "SVN3M",
+ "course": "Environmental Science",
+ "grade": [
+  "11"
+ ],
+ "retrieved_utc": "2026-11-12T06:12:17Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=60149053-b1ee-40fd-8b9c-e23abb64decd&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2026-08-28T15:39:55.1242451Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "e39e56464370ba14ba2724624f982cad5c13b81c31986ce0420f3202987f6386",
+  "official.json": "f6395ce28ee4cdcb143df57434aa341ca2db2f5cf0dc75d300bd9707e12e820e"
+ },
+ "counts": {
+  "strands": 6,
+  "overall_expectations": 17,
+  "specific_expectations": 75
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

@@ -1,0 +1,44 @@
+id: course/ca-on-g4-science-d-1
+class: course
+kind: lesson
+label:
+  en: A machine for washing hands
+  ar: آلة لغسل اليدين
+  ur: ہاتھ دھونے کی ایک مشین
+summary:
+  en: Identifying a machine used in daily life, its purpose, and the purpose of each of its parts (D2.1, D2.2).
+  ar: التعرّف إلى آلة تُستعمل في الحياة اليومية وغرضها وغرض كل جزء من أجزائها، التوقعان D2.1 وD2.2.
+  ur: روزمرہ زندگی میں استعمال ہونے والی ایک مشین، اس کا مقصد اور اس کے ہر پرزے کا مقصد پہچاننا، توقعات D2.1 اور D2.2۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g4-science-d
+expectations:
+- code: D2.1
+  text:
+    en: identify machines that are used in daily life, and describe their purposes
+    ar: تعرَّف إلى آلات تُستعمل في الحياة اليومية وصِف أغراضها
+    ur: روزمرہ زندگی میں استعمال ہونے والی مشینوں کی نشاندہی کریں اور ان کے مقاصد بیان کریں
+- code: D2.2
+  text:
+    en: identify the parts of various mechanisms and describe the purpose of each part
+    ar: تعرَّف إلى أجزاء آليات متنوعة وصِف غرض كل جزء
+    ur: مختلف میکانزم کے پرزوں کی نشاندہی کریں اور ہر پرزے کا مقصد بیان کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A peacock, a float and two figures
+    ar: طاووس وعوّامة وشخصيتان
+    ur: ایک طاؤس، ایک تیرنے والا پرزہ اور دو مورتیاں
+  text:
+    en: 'A peacock pours water, one figure offers soap and another a towel: a hand-washing design in al-Jazari''s book. The Cleveland Museum of Art explains the sequence: collected water raises a float, releasing a soap-bearing figure and then a towel-bearing one, and the used water drains through a spigot. The museum does not know for certain whether the machine was ever built. Which part does which job?'
+    ar: 'طاووس يصب ماءً، وشخصية تقدّم الصابون، ثم أخرى تحمل المنديل: تصميم لغسل اليدين في كتاب الجزري. يشرح متحف كليفلاند التتابع: يرفع الماء المتجمع عوّامة تُخرج شخصية بالصابون ثم أخرى بالمنديل، ثم يُصرف الماء المستعمل بصنبور. ولا يعرف المتحف بيقين هل بُنيت الآلة فعلًا. أي جزء يؤدي أي عمل؟'
+    ur: 'ایک طاؤس پانی ڈالتا ہے، ایک مورتی صابن پیش کرتی ہے اور دوسری تولیہ: جزری کی کتاب میں ہاتھ دھونے کا ایک ڈیزائن۔ کلیولینڈ میوزیم آف آرٹ ترتیب سمجھاتا ہے: جمع شدہ پانی ایک تیرنے والے پرزے کو اٹھاتا ہے جو صابن والی مورتی کو اور پھر تولیے والی مورتی کو آزاد کرتا ہے، اور استعمال شدہ پانی نل سے نکل جاتا ہے۔ عجائب گھر یقین سے نہیں جانتا کہ یہ مشین کبھی بنی بھی یا نہیں۔ کون سا پرزہ کون سا کام کرتا ہے؟'
+  entity: invention/jazari-peacock-washer
+  sources:
+  - source/cleveland-jazari-peacock
+order: 1

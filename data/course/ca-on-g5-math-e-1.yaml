@@ -1,0 +1,44 @@
+id: course/ca-on-g5-math-e-1
+class: course
+kind: lesson
+label:
+  en: Kinds of triangle and their area
+  ar: أنواع المثلثات ومساحتها
+  ur: تکونوں کی اقسام اور ان کا رقبہ
+summary:
+  en: The kinds of triangle and how the area of a triangle relates to its base and height (E1.1, E2.5).
+  ar: أنواع المثلثات وكيف ترتبط مساحة المثلث بقاعدته وعموده، التوقعان E1.1 وE2.5.
+  ur: تکونوں کی اقسام اور تکون کا رقبہ اس کی قاعدے اور اونچائی سے کیسے جڑا ہے، توقعات E1.1، E2.5۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g5-math-e
+expectations:
+- code: E1.1
+  text:
+    en: identify geometric properties of triangles, and construct different types of triangles when given side or angle measurements
+    ar: حدّد الخصائص الهندسية للمثلثات، وأنشئ أنواعاً مختلفة من المثلثات عند إعطاء قياسات الأضلاع أو الزوايا
+    ur: تکونوں کی ہندسی خصوصیات پہچانیں، اور اضلاع یا زاویوں کی پیمائشیں دی جانے پر مختلف اقسام کے تکون بنائیں
+- code: E2.5
+  text:
+    en: use the area relationships among rectangles, parallelograms, and triangles to develop the formulas for the area of a parallelogram and the area of a triangle, and solve related problems
+    ar: استخدم علاقات المساحة بين المستطيلات ومتوازيات الأضلاع والمثلثات لاستنتاج صيغتي مساحة متوازي الأضلاع ومساحة المثلث، وحُلّ مسائل ذات صلة
+    ur: مستطیلوں، متوازی الاضلاع اور تکونوں کے درمیان رقبے کے تعلقات استعمال کر کے متوازی الاضلاع اور تکون کے رقبے کے کلیے اخذ کریں، اور متعلقہ مسائل حل کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A triangle's area in cubits
+    ar: مساحة المثلث بالأذرع
+    ur: ہاتھوں میں تکون کا رقبہ
+  text:
+    en: 'Mensuration is the science of measuring areas and volumes, and al-Khwarizmi gave it a chapter of his Book of al-Jabr and al-Muqabala. In it the area of a triangle is its height times half its base, and triangles are of three kinds: right, acute and obtuse. For an acute triangle with sides of 13, 14 and 15 cubits he gets a height of twelve and an area of eighty-four. Can you draw all three kinds?'
+    ar: 'المساحة علم قياس السطوح والأجسام، وقد خصّها الخوارزمي بباب في كتابه الجبر والمقابلة. وفيه مساحة المثلث أن تضرب عموده في نصف قاعدته، والمثلثات ثلاثة أجناس: قائمة وحادة ومنفرجة. وفي مثلث حاد مختلف الأضلاع أطواله 13 و14 و15 ذراعاً يخرج العمود اثني عشر والمساحة أربعة وثمانين. هل تستطيع رسم الأجناس الثلاثة؟'
+    ur: 'پیمائش سطحوں اور اجسام کو ناپنے کا علم ہے، اور خوارزمی نے اپنی کتابِ جبر و مقابلہ میں اس کے لیے ایک باب رکھا۔ اس میں تکون کا رقبہ اس کی اونچائی کو آدھے قاعدے سے ضرب دینا ہے، اور تکون تین قسم کے ہیں: قائمہ، حادہ اور منفرجہ۔ 13، 14 اور 15 ہاتھ کے اضلاع والے ایک حادہ تکون میں اونچائی بارہ اور رقبہ چوراسی نکلتا ہے۔ کیا آپ تینوں قسمیں بنا سکتے ہیں؟'
+  entity: concept/ilm-al-misaha
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+order: 1

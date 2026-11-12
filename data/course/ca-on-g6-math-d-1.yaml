@@ -1,0 +1,44 @@
+id: course/ca-on-g6-math-d-1
+class: course
+kind: lesson
+label:
+  en: Counting to read a message
+  ar: العدّ لقراءة رسالة
+  ur: پیغام پڑھنے کے لیے گنتی
+summary:
+  en: Collecting and organising data, and analysing it by questioning first guesses and drawing conclusions.
+  ar: جمع البيانات وتنظيمها وتحليلها بمساءلة الظنون الأولى واستخلاص النتائج.
+  ur: اعداد و شمار جمع کرنا اور ترتیب دینا، اور ابتدائی اندازوں پر سوال اٹھا کر اور نتائج اخذ کر کے ان کا تجزیہ کرنا۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g6-math-d
+expectations:
+- code: D1.2
+  text:
+    en: collect qualitative data and discrete and continuous quantitative data to answer questions of interest about a population, and organize the sets of data as appropriate, including using intervals
+    ar: اجمع بيانات نوعية وبيانات كمية متقطعة ومتصلة للإجابة عن أسئلة تهم مجتمعًا إحصائيًا، ونظّم مجموعات البيانات بما يناسب، ومن ذلك استخدام الفئات
+    ur: کسی آبادی کے بارے میں دلچسپی کے سوالات کے جواب کے لیے کیفی اعداد و شمار اور منقطع و متصل مقداری اعداد و شمار جمع کریں، اور انہیں مناسب طور پر ترتیب دیں، بشمول وقفوں کے استعمال کے
+- code: D1.6
+  text:
+    en: analyse different sets of data presented in various ways, including in histograms and broken-line graphs and in misleading graphs, by asking and answering questions about the data, challenging preconceived notions, and drawing conclusions, then make convincing arguments and informed decisions
+    ar: حلّل مجموعات بيانات مختلفة معروضة بطرق متنوعة، ومنها المدرّجات التكرارية والرسوم البيانية الخطية المنكسرة والرسوم المضلِّلة، بطرح أسئلة عن البيانات والإجابة عنها وتحدي الأفكار المسبقة واستخلاص النتائج، ثم قدّم حججًا مقنعة واتخذ قرارات مستنيرة
+    ur: مختلف طریقوں سے پیش کیے گئے اعداد و شمار کے مجموعوں کا تجزیہ کریں، بشمول ہسٹوگرام، ٹوٹی لکیر والے گراف اور گمراہ کن گراف، اعداد و شمار کے بارے میں سوال پوچھ کر اور ان کے جواب دے کر، پہلے سے قائم تصورات کو چیلنج کر کے اور نتائج اخذ کر کے، پھر قائل کرنے والے دلائل دیں اور باخبر فیصلے کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: Counting letters to read a hidden message
+    ar: عدّ الحروف لقراءة رسالة خفية
+    ur: پوشیدہ پیغام پڑھنے کے لیے حروف کی گنتی
+  text:
+    ar: 'قد تتغير أسماء الحروف في رسالة خفية، ويبقى تكرارها مفتاحاً لفهمها. يشرح الكندي طريقة تبدأ بعدّ الحروف في نص من لغة معروفة، وترتيبها بحسب كثرة الاستعمال، ثم مقارنة هذا الترتيب برموز النص المعمى. لكنه لا يجعل العدد حكماً نهائياً: فالرسالة القصيرة قد تخالف العادة، ويحتاج الظن إلى اختبار باقتران الحروف وسياق الكلام. ماذا تعدّ أولاً، وما طول العيّنة التي تريدها؟'
+    en: 'Letters in a concealed message may change their names while repetition remains a clue. Al-Kindi describes counting letters in a sample of a known language, ranking them by use and comparing that ranking with the message''s symbols. Numbers are not his final verdict: a short message may depart from ordinary usage, and a guess needs checking against letter combinations and context. What would you count first, and how long a sample would you want?'
+    ur: 'پوشیدہ پیغام میں حروف کے نام بدل سکتے ہیں، مگر ان کی تکرار سراغ رہ سکتی ہے۔ کندی معلوم زبان کے نمونے میں حروف گننے، کثرت کے لحاظ سے ترتیب دینے اور معمى کی علامتوں سے مقابلہ کرنے کا طریقہ بیان کرتے ہیں۔ عدد آخری فیصلہ نہیں: مختصر پیغام عام استعمال سے مختلف ہو سکتا ہے اور اندازے کو حروف کے جوڑ اور سیاق سے جانچنا پڑتا ہے۔ آپ پہلے کیا گنیں گے، اور نمونہ کتنا لمبا چاہیں گے؟'
+  entity: invention/frequency-analysis-al-kindi
+  sources:
+  - source/kindi-cryptanalysis-1987
+order: 1

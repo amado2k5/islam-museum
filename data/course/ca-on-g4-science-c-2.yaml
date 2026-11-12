@@ -1,0 +1,53 @@
+id: course/ca-on-g4-science-c-2
+class: course
+kind: lesson
+label:
+  en: How we see
+  ar: كيف نرى
+  ur: ہم کیسے دیکھتے ہیں
+summary:
+  en: The eye and the camera as organs and devices that make use of the properties of light (C2.8).
+  ar: العين وآلة التصوير بوصفهما عضوًا وجهازًا يستفيدان من خصائص الضوء، التوقع C2.8.
+  ur: آنکھ اور کیمرہ، بطور عضو اور آلہ جو روشنی کی خصوصیات سے کام لیتے ہیں، توقع C2.8۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g4-science-c
+expectations:
+- code: C2.8
+  text:
+    en: identify sensory organs and devices that make use of the properties of light and sound
+    ar: تعرَّف إلى الأعضاء الحسّية والأجهزة التي تستفيد من خصائص الضوء والصوت
+    ur: ان حسی اعضا اور آلات کی نشاندہی کریں جو روشنی اور آواز کی خصوصیات سے کام لیتے ہیں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: An eye that receives
+    ar: عين تتلقى
+    ur: ایک آنکھ جو وصول کرتی ہے
+  text:
+    en: In his Book of Optics, Ibn al-Haytham joined the spreading of light and colour, the structure of the eye and the interpretation of what we see into a detailed account of vision. In it the eye does not reach out to touch an object with a ray; it is affected by what arrives from the object. The record adds that his model of the eye differs from the modern eye. What does your own eye need in order to see?
+    ar: جمع ابن الهيثم في «كتاب المناظر» انتشار الضوء واللون وبنية العين وتفسير ما نراه في نظرية مفصلة للإبصار. ولا تخرج العين في هذا التفسير لتلمس الشيء بشعاع، بل تتأثر بما يصلها منه. ويضيف السجل أن نموذجه للعين يختلف عن العين الحديثة. فماذا تحتاج عينك أنت لكي ترى؟
+    ur: ابن الہیثم نے اپنی «کتاب المناظر» میں روشنی اور رنگ کے پھیلاؤ، آنکھ کی ساخت اور جو کچھ ہم دیکھتے ہیں اس کی تعبیر کو بینائی کے ایک مفصل بیان میں جوڑا۔ اس بیان میں آنکھ کسی شعاع سے چیز کو چھونے کے لیے باہر نہیں نکلتی؛ بلکہ چیز سے جو کچھ پہنچتا ہے اس سے متاثر ہوتی ہے۔ ریکارڈ مزید بتاتا ہے کہ اس کا آنکھ کا نمونہ جدید آنکھ سے مختلف ہے۔ دیکھنے کے لیے آپ کی اپنی آنکھ کو کیا چاہیے؟
+  entity: invention/haytham-incoming-light-vision
+  sources:
+  - source/smith-alhacen-visual-perception-2001
+- position: after
+  kind: invention
+  title:
+    en: From a dark room to a camera
+    ar: من البيت المظلم إلى آلة التصوير
+    ur: تاریک کمرے سے کیمرے تک
+  text:
+    en: TDV calls the dark-room experiment, which Ibn al-Haytham devised to prove that light travels in straight lines, the basis of today's photographic camera. Which device you know uses light to make a picture?
+    ar: تعدّ موسوعة TDV تجربة الحجرة المظلمة، التي رتّبها ابن الهيثم ليبرهن على استقامة الضوء، أساسَ آلة التصوير اليوم. أي جهاز تعرفه يستعمل الضوء لصنع صورة؟
+    ur: ٹی ڈی وی انسائیکلوپیڈیا تاریک کمرے کے اس تجربے کو، جو ابن الہیثم نے روشنی کے سیدھے سفر کو ثابت کرنے کے لیے ترتیب دیا، آج کے فوٹوگرافی کیمرے کی بنیاد کہتی ہے۔ آپ کا جانا ہوا کون سا آلہ روشنی سے تصویر بناتا ہے؟
+  entity: invention/camera-obscura
+  sources:
+  - source/tdv-ibnul-heysem
+  - source/manazir-sabra-1983
+order: 2

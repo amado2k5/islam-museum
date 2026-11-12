@@ -1,0 +1,224 @@
+course: course/ca-on-g12-hnb4m
+gaps:
+- code: A1.1
+  text: explore a variety of topics related to fashion […] to identify topics for research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: identify key concepts […] related to their selected topics
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: formulate effective questions to guide their research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: create appropriate research plans to investi­gate their selected topics (i.e., outline purpose and method; identify sources of information), ensuring that their plans follow guidelines for ethical research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: locate and select information relevant to their investigations from a variety of primary sources […] and secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.3
+  text: based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.1
+  text: assess various aspects of information gath­ered from primary and secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.2
+  text: record and organize information and key ideas using a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.3
+  text: analyse and interpret research information […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.4
+  text: demonstrate academic honesty by docu­menting the sources of all information generated through research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.5
+  text: synthesize findings and formulate conclu­sions […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.1
+  text: use an appropriate format […] to communicate the results of their research and inquiry for a specific purpose and audience
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.2
+  text: use terms relating to fashion correctly […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.3
+  text: clearly communicate the results of their inquiries […], and follow APA conventions for acknowledging sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.4
+  text: demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.1
+  text: analyse the influence on the fashion industry of brand marketing […]
+  why: The expectation is about brand marketing in the fashion industry (logos, endorsements, positional goods); the museum holds no record on fashion branding.
+  searches:
+  - 'find_entity.py "brand" "علامة تجارية" "advertising" "logo" "شعار": no record on fashion branding or advertising; hits were a fatwa on buying counterfeit branded goods, a US trademark source record, wasm (branding of animals) and the concept of shi''ar'
+  - 'grep -ril "brand" over content/en concept, practice, invention and job: 13 files (wajh-fiqh, qaa, anam, washm-fiqh, manara, hayawan-animal and others), none a fashion topic by title'
+- code: B2.2
+  text: explain the contributions to the fashion industry of various Canadian and international designers […]
+  why: The expectation asks for the contributions of Canadian and international fashion designers; the museum holds no record on any fashion designer or house.
+  searches:
+  - 'find_entity.py "fashion designer" "مصمم أزياء" "couture" "tailoring house": no real record'
+  - 'find_entity.py "Chanel" "Yves Saint Laurent" "Hanae Mori" "Ritu Kumar" "Vera Wang" "شانيل": no real record'
+- code: B2.3
+  text: explain the influence of haute couture on the fashion industry […]
+  why: The expectation is about haute couture and its influence on current styles; the museum holds no record on couture.
+  searches:
+  - 'find_entity.py "fashion designer" "مصمم أزياء" "couture" "tailoring house": no real record'
+  - 'grep -ril "haute couture" over content/en concept, practice, invention and job: 0 files'
+- code: B2.4
+  text: explain the influence on the fashion industry of the traditional fashion centres […]
+  why: The expectation is about the traditional fashion centres (Paris, Milan, London, Tokyo, New York City); the museum holds place records for some of these cities but none carries prose or says anything on fashion.
+  searches:
+  - 'find_entity.py "Paris" "باريس" "Milan" "London" "Dubai" "دبي": place/paris, place/london and place/dubai exist but have no prose; nothing on fashion; no record for Milan'
+  - 'find_entity.py "Milan" "ميلانو" "New York" "نيويورك" "Tokyo" "طوكيو" "Los Angeles" "Toronto" "تورنتو" "Beijing" "بكين": place/new-york-city, place/los-angeles, place/toronto and place/beijing exist but have no prose; no place record for Milan or Tokyo'
+- code: B2.5
+  text: explain the influence on the fashion industry of emerging fashion centres […]
+  why: The expectation is about emerging fashion centres (Los Angeles, Toronto, Dubai, Beijing); the museum holds place records for these cities but none carries prose or says anything on fashion.
+  searches:
+  - 'find_entity.py "Paris" "باريس" "Milan" "London" "Dubai" "دبي": place/paris, place/london and place/dubai exist but have no prose; nothing on fashion; no record for Milan'
+  - 'find_entity.py "Milan" "ميلانو" "New York" "نيويورك" "Tokyo" "طوكيو" "Los Angeles" "Toronto" "تورنتو" "Beijing" "بكين": place/new-york-city, place/los-angeles, place/toronto and place/beijing exist but have no prose; no place record for Milan or Tokyo'
+- code: C2.1
+  text: identify countries associated with the production of specific textiles […], and explain why those countries are major textile producers
+  why: The expectation asks which countries produce which textiles and why; the museum holds no record that says what a country produces in textiles (the records of Egypt, India, China and Scotland carry no textile content, and the tiraz workshops are places of weaving, not country-level production).
+  searches:
+  - 'find_entity.py "China" "الصين" "Egypt" "مصر" "India" "الهند" "Scotland": place/misr has prose but none on cotton or textiles (grep of content/en/place/misr.md for cotton, textile, cloth, tiraz, linen, silk found nothing); place/india, place/china and place/scotland have no prose'
+  - 'find_entity.py "cotton" "قطن" "Egypt cotton" "Gujarat" "textile trade" "تجارة النسيج": no record on cotton production; hits were people named Qatn and place/gujarat, which has no prose'
+- code: C2.3
+  text: analyse the social and environmental impact of textile production and disposal […]
+  why: The expectation is about the social and environmental impact of textile production and disposal (child labour, pesticides, dyes, landfill); the museum holds no record on any of it.
+  searches:
+  - 'find_entity.py "pesticide" "irrigation" "ري" "pollution" "تلوث" "waste" "landfill": no record on the impact of textile production; hits were the city of Rayy, the Muwatta book on irrigation partnership and wars'
+  - 'grep -ril "pesticide" over content/en concept, practice, invention and job: 0 files'
+- code: C3.1
+  text: demonstrate an understanding of concepts related to the globalization of the fashion industry […]
+  why: The expectation is about concepts of the globalization of the fashion industry (imports, offshore production, trade agreements, maquiladoras); the museum holds no record on them. The one historical case it holds, the Ottoman weavers, serves C3.3 only.
+  searches:
+  - 'find_entity.py "globalization" "عولمة" "free trade agreement" "export" "تصدير": no real record (one source record on a history of al-Andalus)'
+  - 'find_entity.py "child labour" "عمالة الأطفال" "factory" "مصنع" "union" "نقابة": no record on garment labour or unions; hits were the Soviet Union, a charcoal factory fatwa and a bank'
+- code: C3.2
+  text: demonstrate an understanding of legislation and agreements relating to the fashion industry […]
+  why: The expectation is about Canadian and North American legislation and agreements (the Textile Labelling Act, NAFTA); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "NAFTA" "Textile Labelling Act" "trade agreement" "معاهدة تجارية" "import duty" "tariff" "الجمارك": only place/nafta, the town Nafta (نفطة), not the agreement'
+  - 'find_entity.py "globalization" "عولمة" "free trade agreement" "export" "تصدير": no real record (one source record on a history of al-Andalus)'
+- code: C3.4
+  text: describe strategies that consumers can adopt to make socially responsible fashion choices […]
+  why: The expectation asks for strategies consumers can adopt to make socially responsible fashion choices; the museum holds no record that describes any.
+  searches:
+  - 'find_entity.py "boycott" "مقاطعة" "ethical" "recycle" "إعادة تدوير" "sustainable" "استدامة": only the early boycotts of the Banu Hashim and of the three, which are not consumer strategies'
+  - 'find_entity.py "consumer" "مستهلك" "second-hand" "charity clothing" "sadaqa clothing" "ثياب" "israf waste" "إسراف": work/fatwa-aliftaa-jo-buying-bales-of-used-clothes-and-toys-by-weight rules on whether sealed bales may be bought by weight, not on responsible buying; concept/al-israf has Arabic prose only'
+- code: C3.5
+  text: explain strategies used by the fashion industry to reduce its environmental impact […]
+  why: The expectation asks for strategies the fashion industry uses to reduce its environmental impact (natural dyes, less water and pesticide); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "natural dye" "صبغ" "henna" "حناء" "saffron" "زعفران" "indigo" "نيلج": only Muwatta passages on saffron- or safflower-dyed garments for the pilgrim and on hair dye; nothing on dyes as an industry or on reducing its impact'
+  - 'find_entity.py "pesticide" "irrigation" "ري" "pollution" "تلوث" "waste" "landfill": no record on the impact of textile production; hits were the city of Rayy, the Muwatta book on irrigation partnership and wars'
+- code: D1.1
+  text: analyse the elements and principles of design in fashion presented in the media […]
+  why: The expectation is about analysing design elements and principles in fashion media (magazines, billboards, television); the museum holds no record on fashion media or on design elements.
+  searches:
+  - 'find_entity.py "fashion magazine" "مجلة" "billboard" "television" "media": only television programmes on religious subjects; nothing on fashion media'
+  - 'find_entity.py "elements and principles of design" "color theory" "نظرية اللون" "balance" "proportion" "تناسب": only the balance (mizan) concepts and al-Khazini''s balance; none on design'
+- code: D1.2
+  text: analyse apparel items to determine how the designer has used the elements and principles of design to enhance their marketability
+  why: The expectation is about analysing how a designer used the elements and principles of design to make an apparel item marketable; the museum holds no record that does this for an apparel item.
+  searches:
+  - 'find_entity.py "elements and principles of design" "color theory" "نظرية اللون" "balance" "proportion" "تناسب": only the balance (mizan) concepts and al-Khazini''s balance; none on design'
+  - 'find_entity.py "pattern" "embroidery" "تطريز" "dress design" "calligraphy on cloth" "fashion": hits were the ghulamiyyat fashion, object/nasi-kamkha (a one-line catalogue entry on a silk loom width) and concept/islamic-geometric-patterns (not about apparel); no record that analyses design elements of apparel'
+- code: D1.3
+  text: apply the elements and principles of design when creating fashion-related products […]
+  why: The expectation is practical (students apply design principles in making sketches, garments and sewing projects); no record can teach it and the museum holds none on fashion design.
+  searches:
+  - 'find_entity.py "elements and principles of design" "color theory" "نظرية اللون" "balance" "proportion" "تناسب": only the balance (mizan) concepts and al-Khazini''s balance; none on design'
+  - 'find_entity.py "pattern" "embroidery" "تطريز" "dress design" "calligraphy on cloth" "fashion": hits were the ghulamiyyat fashion, object/nasi-kamkha (a one-line catalogue entry on a silk loom width) and concept/islamic-geometric-patterns (not about apparel); no record that analyses design elements of apparel'
+- code: D2.1
+  text: identify, and describe the function and use of, various tools and technologies used in the creation of fashion products […]
+  why: The expectation is about the function and use of tools and technologies for making fashion products (measuring tape, scissors, sewing machine, loom, CAD); the museum holds no record on sewing tools. Its loom records serve B1.3 and do not describe the loom's function.
+  searches:
+  - 'find_entity.py "scissors" "مقص" "thimble" "spindle" "مغزل" "needle" "سيلان": only a described cataract needle and two media/source records; no record on sewing tools'
+  - 'find_entity.py "seam" "hem" "stitch" "غرزة" "خياطة" "زر" "button": no record on garment construction; hits were a person named Zirr, a surgical suture diagram and a manuscript-paper practice'
+- code: D2.2
+  text: demonstrate the safe use of tools and technologies when creating fashion products
+  why: The expectation is practical (the safe use of tools when making fashion products); no record can teach it and the museum holds none on sewing tools.
+  searches:
+  - 'find_entity.py "scissors" "مقص" "thimble" "spindle" "مغزل" "needle" "سيلان": only a described cataract needle and two media/source records; no record on sewing tools'
+  - 'find_entity.py "seam" "hem" "stitch" "غرزة" "خياطة" "زر" "button": no record on garment construction; hits were a person named Zirr, a surgical suture diagram and a manuscript-paper practice'
+- code: D2.3
+  text: use tools and technologies correctly when creating fashion products […]
+  why: The expectation is practical (using tools correctly for designing, cutting, sewing, knitting, dyeing); no record can teach it and the museum holds none on these tools.
+  searches:
+  - 'find_entity.py "scissors" "مقص" "thimble" "spindle" "مغزل" "needle" "سيلان": only a described cataract needle and two media/source records; no record on sewing tools'
+  - 'find_entity.py "knitting" "crochet" "felting" "حياكة" "تطريز" "embroidery": no real record'
+- code: D3.1
+  text: demonstrate an understanding of and use appropriate terminology when referring to techniques and tools used in fashion drawing […]
+  why: The expectation is about the terminology of fashion drawing (croquis, flat pattern design, draping, CAD); the museum holds no record on fashion drawing.
+  searches:
+  - 'find_entity.py "elements and principles of design" "color theory" "نظرية اللون" "balance" "proportion" "تناسب": only the balance (mizan) concepts and al-Khazini''s balance; none on design'
+  - 'find_entity.py "pattern" "embroidery" "تطريز" "dress design" "calligraphy on cloth" "fashion": hits were the ghulamiyyat fashion, object/nasi-kamkha (a one-line catalogue entry on a silk loom width) and concept/islamic-geometric-patterns (not about apparel); no record that analyses design elements of apparel'
+- code: D3.2
+  text: demonstrate the ability to follow precon­struction procedures […] when creating fashion products
+  why: The expectation is practical (measuring, reading patterns, preparing fabric before sewing); the museum holds no record on patterns or garment construction.
+  searches:
+  - 'find_entity.py "pattern" "embroidery" "تطريز" "dress design" "calligraphy on cloth" "fashion": hits were the ghulamiyyat fashion, object/nasi-kamkha (a one-line catalogue entry on a silk loom width) and concept/islamic-geometric-patterns (not about apparel); no record that analyses design elements of apparel'
+  - 'find_entity.py "seam" "hem" "stitch" "غرزة" "خياطة" "زر" "button": no record on garment construction; hits were a person named Zirr, a surgical suture diagram and a manuscript-paper practice'
+- code: D3.3
+  text: identify and describe basic skills and con­struction techniques used in the creation of fashion products […]
+  why: The expectation is about basic construction techniques (seams, darts, hems, zippers); the museum holds no record on garment construction.
+  searches:
+  - 'find_entity.py "seam" "hem" "stitch" "غرزة" "خياطة" "زر" "button": no record on garment construction; hits were a person named Zirr, a surgical suture diagram and a manuscript-paper practice'
+  - 'find_entity.py "knitting" "crochet" "felting" "حياكة" "تطريز" "embroidery": no real record'
+- code: D3.4
+  text: identify and describe advanced skills and construction techniques used in the creation of fashion products […]
+  why: The expectation is about advanced construction techniques (flat felled seams, collars, bound buttonholes, pleating); the museum holds no record on garment construction.
+  searches:
+  - 'find_entity.py "seam" "hem" "stitch" "غرزة" "خياطة" "زر" "button": no record on garment construction; hits were a person named Zirr, a surgical suture diagram and a manuscript-paper practice'
+  - 'find_entity.py "knitting" "crochet" "felting" "حياكة" "تطريز" "embroidery": no real record'
+- code: D3.5
+  text: apply appropriate construction techniques and demonstrate a range of skills when creating fashion products
+  why: The expectation is practical (applying construction techniques when creating fashion products); no record can teach it and the museum holds none on garment construction.
+  searches:
+  - 'find_entity.py "seam" "hem" "stitch" "غرزة" "خياطة" "زر" "button": no record on garment construction; hits were a person named Zirr, a surgical suture diagram and a manuscript-paper practice'
+  - 'find_entity.py "knitting" "crochet" "felting" "حياكة" "تطريز" "embroidery": no real record'

@@ -7,8 +7,8 @@ import { ui, type Lang } from "./i18n";
 import { renderProse, newHonState } from "./markdown";
 import type { Node } from "../../../scripts/build-graph";
 
-/** The languages the new courses surface is built in. Urdu is not built here (the founder's own lane). */
-export const COURSE_LANGS = ["ar", "en"] as const;
+/** The languages the courses surface is built in: all three of the site's (Urdu joined on the user's instruction of 12 November 2026). */
+export const COURSE_LANGS = ["ar", "en", "ur"] as const;
 export type CourseLang = (typeof COURSE_LANGS)[number];
 export const isCourseLang = (l: string): l is CourseLang => (COURSE_LANGS as readonly string[]).includes(l);
 
@@ -139,7 +139,7 @@ function buildCheck(course: Course, lesson: Node, conns: ConnView[], lang: Lang)
 }
 
 const BRIEF = /^(brief|موجز|مختصر)$/i;
-const TRY = /^(try this|جرّب هذا|جرب هذا)$/i;
+const TRY = /^(try this|جرّب هذا|جرب هذا|یہ آزماؤ|یہ آزمائیں)$/i;
 
 export function lessonView(course: Course, lesson: Node, lang: Lang): LessonView {
   const strand = course.strands.find((s) => s.lessons.includes(lesson))!;

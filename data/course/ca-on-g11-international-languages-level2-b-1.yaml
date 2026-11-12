@@ -1,0 +1,53 @@
+id: course/ca-on-g11-international-languages-level2-b-1
+class: course
+kind: lesson
+label:
+  en: A scholar and his city
+  ar: عالِم ومدينته
+  ur: ایک عالم اور اس کا شہر
+summary:
+  en: 'Speaking about a community''s contribution to the world: al-Khwarizmi and the Baghdad he worked in.'
+  ar: 'الحديث عن إسهام جماعة في العالم: الخوارزمي وبغداد التي عمل فيها.'
+  ur: 'ایک جماعت کی دنیا کے لیے خدمت پر بولنا: الخوارزمی اور وہ بغداد جس میں انھوں نے کام کیا۔'
+sources:
+- source/ontario-curriculum-classical-studies-intl-languages
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g11-international-languages-level2-b
+expectations:
+- code: B3.1
+  text:
+    en: communicate information orally in the target language about communities where the target language is spoken, including aspects of their cultures and their contributions to the world, and make connections to personal experiences and their own and other communities […]
+    ar: نقل المعلومات شفهياً بلغة الدراسة عن الجماعات التي تُتحدَّث فيها هذه اللغة، بما في ذلك جوانب من ثقافاتها وإسهاماتها في العالم، وإقامة صلات بالتجارب الشخصية وبجماعة الطالب نفسه وجماعات أخرى […]
+    ur: ہدفی زبان میں زبانی طور پر ان جماعتوں کے بارے میں معلومات پہنچانا جہاں یہ زبان بولی جاتی ہے، بشمول ان کی ثقافتوں کے پہلو اور دنیا کے لیے ان کی خدمات، اور ذاتی تجربات اور اپنی اور دوسری جماعتوں سے روابط قائم کرنا […]
+connections:
+- position: before
+  kind: place
+  title:
+    en: The city of the court
+    ar: مدينة البلاط
+    ur: دربار کا شہر
+  text:
+    en: The biography of al-Khwarizmi reports that an Indian astronomical text reached the court in Baghdad around 770 CE. Baghdad was founded by al-Mansur in 762 CE and was the seat of the caliphate until the fall of the Abbasid state in 1258 CE. Before you present a scholar, where did his city stand?
+    ar: تذكر سيرة الخوارزمي أن نصاً فلكياً هندياً وصل إلى البلاط في بغداد نحو سنة 770م. وبغداد أسسها المنصور سنة 762م، وظلت مركز الخلافة إلى سقوط الدولة العباسية سنة 1258م. قبل أن تقدّم عالماً، أين كانت تقف مدينته؟
+    ur: الخوارزمی کی سوانح بتاتی ہے کہ تقریباً 770ء میں ایک ہندی فلکیاتی متن بغداد کے دربار میں پہنچا۔ بغداد کو المنصور نے 762ء میں قائم کیا اور وہ 1258ء میں عباسی ریاست کے زوال تک خلافت کا مرکز رہا۔ کسی عالم کو پیش کرنے سے پہلے دیکھیں کہ اس کا شہر کہاں کھڑا تھا؟
+  entity: place/baghdad
+  sources:
+  - source/khwarizmi-mactutor
+  - source/tdv-bagdat-duri
+- position: within
+  kind: scholar
+  title:
+    en: Al-Khwarizmi in an interview
+    ar: الخوارزمي في حوار
+    ur: انٹرویو میں الخوارزمی
+  text:
+    en: The editors of the Cairo edition of al-Khwarizmi's algebra quote Ibn al-Nadim's Fihrist that he came from Khwarazm and was attached to al-Ma'mun's Treasury of Wisdom. They hold that his name became Algorithm in English and Algorismus in Latin, and that Indian reckoning, with its use of zero, reached the West through his book on arithmetic. How would you explain his work in an interview?
+    ar: ينقل محققا طبعة القاهرة لكتاب الخوارزمي في الجبر عن «الفهرست» لابن النديم أن أصله من خوارزم وأنه كان منقطعًا إلى «خزانة الحكمة» للمأمون. ويريان أن اسمه صار كلمة Algorithm في الإنجليزية وAlgorismus في اللاتينية، وأن طريقة الحساب الهندية، ومنها استخدام الصفر، وصلت إلى الغرب عن طريق كتابه في الحساب. كيف ستشرح عمله في حوار؟
+    ur: قاہرہ ایڈیشن کے مرتبین الخوارزمی کی الجبر کی کتاب کے بارے میں ابن الندیم کی «الفہرست» سے نقل کرتے ہیں کہ ان کا اصل وطن خوارزم تھا اور وہ المامون کے «خزانۃ الحکمۃ» سے وابستہ تھے۔ ان کی رائے ہے کہ ان کا نام انگریزی میں Algorithm اور لاطینی میں Algorismus بن گیا، اور ہندی طریقۂ حساب، صفر کے استعمال سمیت، ان کی علمِ حساب کی کتاب کے ذریعے مغرب پہنچا۔ آپ انٹرویو میں ان کے کام کی وضاحت کیسے کریں گے؟
+  entity: person/al-khwarizmi
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+order: 1

@@ -1,27 +1,23 @@
 ---
 // The courses home (docs/courses-mission/DESIGN.md): find my course in at most three taps, or pick up where I stopped.
-// Built for Arabic and English. Other languages keep the pilot page, verbatim (CoursesLegacy).
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../../components/PageHeader.astro";
-import CoursesLegacy from "../../../../components/CoursesLegacy.astro";
 import CoursesStyle from "../../../../components/CoursesStyle.astro";
 import { ui, fmt, LANGS, type Lang } from "../../../../lib/i18n";
 import { labelOf, summaryOf } from "../../../../lib/graph";
 import { num } from "../../../../lib/nav";
-import { isCourseLang, jurisdictions, courses, coursePath, homePath, kidsOf, slugOf } from "../../../../lib/courses";
+import { jurisdictions, courses, coursePath, homePath, kidsOf, slugOf } from "../../../../lib/courses";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const S = T.syllabus;
 const C = T.courses;
-const legacy = !isCourseLang(lang);
 // jurisdiction -> grades -> the courses (subjects with lessons) of each grade
 const tree = jurisdictions.map((j) => ({ j, grades: kidsOf(j.id, "grade").map((g) => ({ g, courses: courses.filter((c) => c.grade === g) })).filter((x) => x.courses.length) })).filter((x) => x.grades.length);
 // a short list is shown open: the course is then one tap away; a long list opens one system at a time (the first tap)
 const openAll = tree.length <= 3;
 ---
-{legacy ? <CoursesLegacy lang={lang} /> : (
 <BaseLayout lang={lang} title={S.title} description={S.lede} path={homePath(lang)} alternates={Object.fromEntries(LANGS.map((l) => [l, homePath(l)]))}>
   <div data-pagefind-body>
     <PageHeader title={S.title} lede={S.lede} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.nav.learn, href: `/${lang}/learn/` }, { label: S.title }]} crumbsLabel={T.entity.breadcrumb} wing="ideas" titleAttrs={{ "data-pagefind-meta": "title" }} />
@@ -46,7 +42,7 @@ const openAll = tree.length <= 3;
                   <li><a class="cx-subject" href={coursePath(lang, c)} data-cx-course={slugOf(c.subject)} data-cx-lessons={c.lessons.map((x) => slugOf(x)).join(" ")}>
                     <b>{c.subject.data?.subject_name?.[lang] ?? labelOf(c.subject, lang)}</b>
                     <span>{fmt(C.lessons_n, { n: num(c.lessons.length, lang) })}</span>
-                    <span data-cx-count data-tpl={C.progress} data-locale={lang === "ar" ? "ar" : "en"} hidden></span>
+                    <span data-cx-count data-tpl={C.progress} data-locale={lang} hidden></span>
                   </a></li>
                 ))}
               </ul>
@@ -59,4 +55,3 @@ const openAll = tree.length <= 3;
   </div>
   <script is:inline src="/shell/courses.js" defer></script>
 </BaseLayout>
-)}

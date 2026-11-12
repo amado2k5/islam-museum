@@ -365,3 +365,15 @@
 | 508 (printed) | 145 | "مفتقة الأكمام" and "الشوع" | "الشوع" read as "الشعر" (hair cloth) | the reading given in the prose; flagged for revision |
 | 508 (printed) | 145 | the names in the chain ("محمد بن يوسف البناء", "إبراهيم الهروي") | garbled in the scan | the names as read are not reproduced beyond the two clearest |
 | 508 (printed) | 145 | a word in the description of the man | unclear in the scan | not given |
+
+## Batch 61 (run microsd-books-b61, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 145–146 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/shaddad-al-majdhum (printed 509, sequence 510, 10/145–146), person/abu-said-al-baraqai (printed 510, sequence 511, 10/146). Printed 511 (Abu Hashim al-Karim, who gives to the needy and to whom people give from a good opinion of him) begins on 10/146 and is next.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 61)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 509 (printed) | 146 | the names in the chain ("سهل بن ماصم", "هل بن ميينة") | garbled in the scan | not given; the prose says so |
+| 510 (printed) | 146 | "الطلاوة" | read as sweetness, delight; the sense is clear from the saying | rendered as sweetness |
+| 510 (printed) | 146 | the names "عبيد الله بن زحر", "صالح المري" | legible, given as read | no further flag |

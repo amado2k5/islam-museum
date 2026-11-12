@@ -1,0 +1,52 @@
+id: course/ca-on-g12-ses4u-f-1
+class: course
+kind: lesson
+label:
+  en: Earthquakes recorded at Ramla
+  ar: زلازل مسجّلة في الرملة
+  ur: رملہ میں درج زلزلے
+summary:
+  en: Two recorded earthquakes at Ramla, to place on a map of recorded earthquakes (F3.8).
+  ar: زلزلتان مسجّلتان في الرملة تضعهما على خريطة الزلازل المسجّلة (F3.8).
+  ur: رملہ کے دو درج شدہ زلزلے، ریکارڈ شدہ زلزلوں کے نقشے پر رکھنے کے لیے (F3.8)۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g12-ses4u-f
+expectations:
+- code: F3.8
+  text:
+    en: identify major areas of tectonic activity in the world by plotting the location of major recorded earthquakes and active volcanoes on a map, and distinguish the areas by type of tectonic activity […]
+    ar: حدّد المناطق الرئيسة للنشاط التكتوني في العالم برسم مواقع أهم الزلازل المسجّلة والبراكين النشطة على خريطة، وميّز بين المناطق بحسب نوع النشاط التكتوني […]
+    ur: نقشے پر ریکارڈ شدہ بڑے زلزلوں اور فعال آتش فشانوں کے مقامات درج کر کے دنیا کے بڑے ٹیکٹونک سرگرمی والے علاقوں کی نشاندہی کریں، اور ٹیکٹونک سرگرمی کی قسم کے لحاظ سے علاقوں کو الگ کریں […]
+connections:
+- position: before
+  kind: story
+  title:
+    en: The earthquake of Jumada I, 460
+    ar: زلزلة جمادى الأولى سنة 460
+    ur: 460ھ کے جمادی الاولیٰ کا زلزلہ
+  text:
+    en: In Jumada I of the year 460 AH an earthquake struck the land of Palestine and destroyed the town of Ramla. Some merchants wrote that the whole of Ramla sank into the ground; during the quake the sea receded so far that its bed was uncovered and people walked on it, and then it returned to its former state. Where on a map would you mark this record?
+    ar: في جمادى الأولى سنة ستين وأربعمائة كانت زلزلة بأرض فلسطين أهلكت بلد الرملة. وكتب بعض التجار أنها خسفت الرملة جميعها، وانجفل البحر وقت الزلزلة حتى انكشفت أرضه ومشى الناس فيه ثم عاد إلى حاله. أين على الخريطة تضع هذا السجل؟
+    ur: 460ھ کے جمادی الاولیٰ میں فلسطین کی سرزمین پر زلزلہ آیا جس نے رملہ شہر کو تباہ کر دیا۔ بعض تاجروں نے لکھا کہ پورا رملہ زمین میں دھنس گیا۔ زلزلے کے وقت سمندر اتنا پیچھے ہٹ گیا کہ اس کی تہہ کھل گئی اور لوگ اس پر چلنے لگے، پھر وہ اپنی پہلی حالت پر لوٹ آیا۔ نقشے پر آپ اس ریکارڈ کو کہاں درج کریں گے؟
+  entity: event/ramla-earthquake-460
+  sources:
+  - source/muntazam-ibn-al-jawzi
+- position: within
+  kind: story
+  title:
+    en: Ramla shaken again, in 425
+    ar: الرملة تُزلزل ثانية سنة 425
+    ur: 425ھ میں رملہ پھر ہل گیا
+  text:
+    en: In 425 AH, the record says, Ramla was shaken and about half of it destroyed; villages sank into the ground, part of the wall of Jerusalem fell and the minaret of the mosque of Ascalon collapsed. The sea then receded about three leagues, and people who went out to gather fish and shells were carried off when the water returned. What does it mean for a map that Ramla appears in two records?
+    ar: في سنة خمس وعشرين وأربعمائة زُلزلت الرملة فهُدم نحو نصفها وخُسف بقرى وسقط بعض حائط بيت المقدس وسقطت منارة جامع عسقلان. وجزر البحر نحو ثلاثة فراسخ فخرج الناس يتتبّعون السمك والصدف، فعاد الماء فأخذ قوماً منهم. ماذا يعني للخريطة أن الرملة ترد في سجلين؟
+    ur: 425ھ میں رملہ میں زلزلہ آیا تو اس کا تقریباً نصف حصہ منہدم ہو گیا، کچھ بستیاں زمین میں دھنس گئیں، بیت المقدس کی دیوار کا کچھ حصہ گرا، اور عسقلان کی جامع مسجد کا مینار گر گیا۔ سمندر تقریباً تین فرسخ پیچھے ہٹ گیا، تو لوگ مچھلیاں اور سیپیاں ڈھونڈنے نکل آئے، پھر پانی واپس آیا اور ان میں سے کچھ لوگوں کو بہا لے گیا۔ نقشے کے لیے اس کا کیا مطلب ہے کہ رملہ دو ریکارڈوں میں آتا ہے؟
+  entity: event/earthquake-tsunami-425
+  sources:
+  - source/shadharat-dhahab
+order: 1

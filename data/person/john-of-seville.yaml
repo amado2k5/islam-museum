@@ -1,0 +1,40 @@
+id: person/john-of-seville
+class: person
+label: { ar: "يوحنا الإشبيلي", en: "John of Seville", ur: "یوحنا اشبیلی" }
+names:
+  - { kind: latinized, lang: la, value: "Johannes Hispalensis" }
+  - { kind: alternate, lang: la, value: "Ioannes Hispalensis" }
+summary:
+  ar: "يوحنا الإشبيلي مترجم لاتيني من القرن الثاني عشر للميلاد، نقل إلى اللاتينية أعمالاً عربية في التنجيم والفلك والحساب، منها مدخل أبي معشر الكبير سنة 1130م وجوامع الفرغاني في الفلك، وكتاب القبيصي في أحكام النجوم سنة 1144م، وكتاب المواليد لأبي علي الخياط سنة 1153م، وصورة لاتينية من كتاب الحساب المنسوب إلى الخوارزمي. وتذكر دائرة المعارف الإسلامية هذه التواريخ في مقالات متفرقة ولا تذكر ميلاده ولا وفاته ولا ترجمة لحياته {cite:encyclopaedia-of-islam-2 vol. 1 p. 158} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1111}."
+  en: "John of Seville was a twelfth-century Latin translator of Arabic works on astrology, astronomy and arithmetic. The Encyclopaedia of Islam, in scattered articles, credits him with Latin versions of Abu Ma'shar's Great Introduction in 1130, al-Farghani's astronomical compendium, al-Qabisi's introduction to astrology in 1144, Abu Ali al-Khayyat's book on nativities in 1153, and a Latin arithmetic in the al-Khwarizmi tradition. It gives no birth or death dates and no biography {cite:encyclopaedia-of-islam-2 vol. 1 p. 158} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1111}."
+  ur: "یوحنا اشبیلی بارہویں صدی عیسوی کے لاطینی مترجم تھے جنہوں نے نجوم، فلکیات اور حساب پر عربی کتابوں کو لاطینی میں منتقل کیا۔ دائرۃ المعارف الاسلامیہ اپنے مختلف مقالات میں ان سے ابو معشر کے المدخل الکبیر کا 1130ء کا ترجمہ، فرغانی کی فلکیاتی کتاب، قبیصی کا مدخل علمِ نجوم 1144ء میں، ابو علی خیاط کی کتابِ مواليد 1153ء میں، اور خوارزمی کی روایت کے حساب کا لاطینی متن منسوب کرتا ہے۔ اس میں ان کی ولادت یا وفات کی کوئی تاریخ یا سوانح نہیں {cite:encyclopaedia-of-islam-2 vol. 1 p. 158} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1111}."
+gender: male
+roles: [translator]
+wings: [people]
+themes: [translation-and-transmission, astronomy-and-timekeeping, mathematics]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+floruit: { edtf: "1130/1153", calendar: julian, precision: year, status: historical, note: "The earliest and latest dates the Encyclopaedia of Islam gives for his translations: 1130 for Abu Ma'shar's Great Introduction {cite:encyclopaedia-of-islam-2 vol. 1 p. 158} and 1153 for al-Khayyat's Kitab al-Mawalid {cite:encyclopaedia-of-islam-2 vol. 4 p. 1214}. His birth and death are not given." }
+relations:
+  - { type: related_to, target: person/abu-mashar, note: "Translated Abu Ma'shar's Great Introduction in 1130 and other astrological works.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-farghani, note: "One of two Latin translators of al-Farghani's astronomical compendium; the other was Gerard of Cremona.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-khwarizmi, note: "Made known a Latin arithmetic in al-Khwarizmi's tradition and spread his sexagesimal fraction rules.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/abu-ali-al-khayyat, note: "Translated al-Khayyat's Kitab al-Mawalid in 1153.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/mashaallah, note: "Rendered Masha'allah's letter on eclipses into Latin.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/umar-ibn-al-farrukhan, note: "Translated a Kitab al-Mawalid summary composed by Umar ibn al-Farrukhan.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/abu-al-qasim-ibn-al-saffar, note: "Translated a treatise on the astrolabe by Ibn al-Saffar; his Latin version appears under the name of Maslama al-Majriti.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/plato-of-tivoli, note: "Translated some of the same Arabic works as Plato of Tivoli.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/gerard-of-cremona, note: "Two Latin translators of al-Farghani.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed.: Abu Ma'shar, al-Farghani, al-Khwarazmi, al-Kabisi, al-Khayyat, Ibn al-Saffar, al-Manazil, Masha'allah, al-Nudjum, 'Ilm al-hisab"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-5
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 1 p. 158 (Abu Ma'shar); vol. 2 p. 823 (al-Farghani); vol. 3 pp. 956, 1172; vol. 4 pp. 360-361 (al-Kabisi), 1111-1112 (al-Khwarazmi), 1214 (al-Khayyat), 426; vol. 6 pp. 395, 738; vol. 8 pp. 118-119 (al-Nudjum)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "يوحنا الإشبيلي ترجم كتباً عربية عن النجوم والحساب إلى اللاتينية ليقرأها طلاب أوروبا."
+  en: "John of Seville translated Arabic books about the stars and about numbers into Latin so that students in Europe could read them."
+  ur: "یوحنا اشبیلی نے ستاروں اور اعداد کی عربی کتابیں لاطینی میں ترجمہ کیں تاکہ یورپ کے طلبہ انہیں پڑھ سکیں۔"

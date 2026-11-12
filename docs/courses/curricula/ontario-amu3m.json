@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-amu3m",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "The Arts",
+  "url_slug": "secondary-arts",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-arts"
+ },
+ "course_code": "AMU3M",
+ "ministry_course_name": "AMU3M",
+ "course": "Music",
+ "grade": [
+  "11"
+ ],
+ "retrieved_utc": "2026-11-12T06:34:02Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=f6a4c9ec-c4c3-464b-9804-83d3b1f6bf2e&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2025-08-06T16:52:02.4898006Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "859d9f9aaeba1a376493463cf4fd544830ecce61dc8980e8504c00e3168efd4d",
+  "official.json": "e5d6b37b7883c12e36714ce4b5818bc02e059a8345e5cf6b17b9295a48efec35"
+ },
+ "counts": {
+  "strands": 3,
+  "overall_expectations": 10,
+  "specific_expectations": 29
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

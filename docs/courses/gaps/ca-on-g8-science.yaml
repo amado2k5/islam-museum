@@ -1,0 +1,250 @@
+course: course/ca-on-g8-science
+gaps:
+- code: A1.1
+  text: use a scientific research process and associated skills to conduct investigations
+  why: 'Skills expectation: names no subject matter.'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: use a scientific experimentation process and associated skills to conduct investigations
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.3
+  text: use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.4
+  text: follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.5
+  text: communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A2.1
+  text: write and execute code in investigations and when modelling concepts, with a focus on automating large systems in action
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A2.2
+  text: identify and describe impacts of coding and of emerging technologies, such as artificial intelligence systems, on everyday life, including skilled trades
+  why: Asks the student to describe the impacts of coding and of emerging technologies such as artificial intelligence on everyday life; the museum holds no record on coding, AI or their effects.
+  searches:
+  - 'find_entity.py "artificial intelligence" "الذكاء الاصطناعي" "coding" "algorithm" "الخوارزمية": invention/algorism is about reckoning with Indian numerals; no record on writing or running code or on AI'
+  - 'find_entity.py "automation" "automaton" "الحيل" "robot" "الآلات": invention/jazari-musical-boat, a display boat whose record says it is not the first programmed robot; work/turuq-saniyya-taqi; nothing on the effects of automating systems'
+- code: A3.2
+  text: investigate how science and technology can be used with other subject areas to address real-world problems
+  why: Asks the student to investigate how science and technology combine with other subject areas to solve real-world problems; no record joins two school subjects to a real problem.
+  searches:
+  - 'find_entity.py "skilled trades" "craftsman" "artisan" "الصناعات" "الحرف": work/qamus-al-sinaat-al-shamiyya has no prose; nothing that joins science to another school subject for a real problem'
+  - 'find_entity.py "lever" "pulley" "gear" "simple machine" "mechanical advantage" "الرافعة": invention/jazari-animal-scoop-water-lifter and invention/jazari-hidden-drive-water-lifter, designs that pass motion on; neither explains input and output forces; grep "mechanical advantage" content/en: no hits'
+- code: B1.1
+  text: assess how various technologies have enhanced our understanding of cells and cellular processes
+  why: Asks how technologies such as the microscope enhanced our understanding of cells; the museum holds no record on cells or on any instrument for seeing them.
+  searches:
+  - 'find_entity.py "cell" "الخلية" "microscope" "cell theory": no real record on cells; the only hits are a film and a group whose names contain the word "cell"'
+  - 'find_entity.py "osmosis" "diffusion" "الانتشار" "mitochondria": only concept/intishar, a fiqh term for the spreading of a report; nothing on cells'
+- code: B1.2
+  text: analyse beneficial and harmful effects of developments in cell biology and associated emerging technologies on human health and the environment, while taking different perspectives into consideration
+  why: Asks for the beneficial and harmful effects of developments in cell biology on human health and the environment; the museum holds no record on cell biology.
+  searches:
+  - 'find_entity.py "cell" "الخلية" "microscope" "cell theory": no real record on cells; the only hits are a film and a group whose names contain the word "cell"'
+  - 'find_entity.py "bacteria" "microorganism" "الأحياء الدقيقة" "unicellular": no real record'
+- code: B2.1
+  text: demonstrate an understanding of cells, using cell theory
+  why: Asks for an understanding of cells using cell theory; the museum holds no record on cells or cell theory.
+  searches:
+  - 'find_entity.py "cell" "الخلية" "microscope" "cell theory": no real record on cells; the only hits are a film and a group whose names contain the word "cell"'
+  - 'find_entity.py "bacteria" "microorganism" "الأحياء الدقيقة" "unicellular": no real record'
+- code: B2.2
+  text: identify organelles and other cell components, including the nucleus, cell membrane, cell wall, chloroplasts, vacuole, mitochondria, and cytoplasm, and explain their basic functions
+  why: Asks for the organelles and other cell components and their functions; the museum holds no record on cells.
+  searches:
+  - 'find_entity.py "cell" "الخلية" "microscope" "cell theory": no real record on cells; the only hits are a film and a group whose names contain the word "cell"'
+  - 'find_entity.py "osmosis" "diffusion" "الانتشار" "mitochondria": only concept/intishar, a fiqh term for the spreading of a report; nothing on cells'
+- code: B2.3
+  text: compare the structure and function of plant and animal cells
+  why: Asks to compare the structure and function of plant and animal cells; the museum holds no record on cells.
+  searches:
+  - 'find_entity.py "cell" "الخلية" "microscope" "cell theory": no real record on cells; the only hits are a film and a group whose names contain the word "cell"'
+  - 'find_entity.py "tissue" "الأنسجة" "organ system" "anatomy" "التشريح": concept/anatomy, work/sharh-tashrih-al-qanun; the anatomy record describes organs as simple or composite in Ibn Sina''s scheme (flesh, bone, nerve; hand, face) and says nothing of cells or tissues made of cells'
+- code: B2.4
+  text: explain the processes of diffusion and osmosis within a cell
+  why: Asks to explain diffusion and osmosis within a cell; the museum holds no record on either process.
+  searches:
+  - 'find_entity.py "osmosis" "diffusion" "الانتشار" "mitochondria": only concept/intishar, a fiqh term for the spreading of a report; nothing on cells'
+  - 'find_entity.py "cell" "الخلية" "microscope" "cell theory": no real record on cells; the only hits are a film and a group whose names contain the word "cell"'
+- code: B2.5
+  text: describe various unicellular and multicellular organisms, and compare ways in which these two types of organisms meet their basic needs
+  why: Asks to describe unicellular and multicellular organisms and how they meet their basic needs; the museum holds no record on single-celled life.
+  searches:
+  - 'find_entity.py "bacteria" "microorganism" "الأحياء الدقيقة" "unicellular": no real record'
+  - 'find_entity.py "cell" "الخلية" "microscope" "cell theory": no real record on cells; the only hits are a film and a group whose names contain the word "cell"'
+- code: B2.6
+  text: describe the organization of cells into tissues, organs, and systems
+  why: Asks to describe how cells are organized into tissues, organs and systems; the nearest record, concept/anatomy, treats organs in a medieval scheme without cells or tissues of cells, so it cannot carry the expectation.
+  searches:
+  - 'find_entity.py "tissue" "الأنسجة" "organ system" "anatomy" "التشريح": concept/anatomy, work/sharh-tashrih-al-qanun; the anatomy record describes organs as simple or composite in Ibn Sina''s scheme (flesh, bone, nerve; hand, face) and says nothing of cells or tissues made of cells'
+  - 'find_entity.py "cell" "الخلية" "microscope" "cell theory": no real record on cells; the only hits are a film and a group whose names contain the word "cell"'
+- code: C1.1
+  text: assess the environmental, social, and economic impacts of various innovations and technologies that are based on the properties of fluids
+  why: Asks the student to assess the environmental, social and economic impacts of innovations based on the properties of fluids; the pump and lifter records are designs in books, with no account of their impact.
+  searches:
+  - 'find_entity.py "Pascal" "pressure" "الضغط" "hydraulic": only a fatwa on fasting with high blood pressure; nothing on fluid pressure'
+  - 'find_entity.py "waterwheel" "Ferris" "windmill" "water wheel" "الناعورة" "دولاب": the Jazari pump and water lifters, each a design in a book; none states an effect on productivity or industry'
+- code: C1.2
+  text: assess the environmental and social impacts of fluid spills, including impacts on First Nations, Métis, and Inuit communities, and including the cost and technical challenges related to cleanup and remediation efforts
+  why: Asks for the impacts of fluid spills and the cost of clean-up; the museum holds no record on spills or on the fluids concerned.
+  searches:
+  - 'find_entity.py "oil spill" "pollution" "التلوث" "environmental impact": no real record'
+  - 'find_entity.py "viscosity" "اللزوجة" "petroleum" "النفط": no real record; grep -ril "viscos\|compressib" content/en: no hits'
+- code: C2.1
+  text: demonstrate an understanding of the factors that affect viscosity, and compare the viscosity of various fluids, including volumetric flow rate
+  why: Asks for the factors that affect viscosity and for comparing the viscosity of fluids; the museum holds no record on viscosity.
+  searches:
+  - 'find_entity.py "viscosity" "اللزوجة" "petroleum" "النفط": no real record; grep -ril "viscos\|compressib" content/en: no hits'
+  - 'find_entity.py "Pascal" "pressure" "الضغط" "hydraulic": only a fatwa on fasting with high blood pressure; nothing on fluid pressure'
+- code: C2.3
+  text: explain the difference between solids, liquids, and gases in terms of their density, using the particle theory of matter
+  why: Asks to explain solids, liquids and gases in terms of density, using the particle theory of matter; the museum holds no record on the particle theory (the density records of lesson C-1 concern liquids and metals only).
+  searches:
+  - 'find_entity.py "particle" "atom" "الذرة" "الجوهر الفرد" "matter": hits are fiqh and kalam questions and a course record, none on the particle theory of matter'
+  - 'find_entity.py "gas" "الهواء" "compress" "pneumatic": only course/ca-on-g6-sci-fly-1, a lesson record, not a source of content'
+- code: C2.4
+  text: explain the difference between liquids and gases in terms of their compressibility and how their compressibility affects their technological applications
+  why: Asks to explain the difference in compressibility between liquids and gases and its technological applications; the museum holds no record on compressibility.
+  searches:
+  - 'find_entity.py "gas" "الهواء" "compress" "pneumatic": only course/ca-on-g6-sci-fly-1, a lesson record, not a source of content'
+  - 'find_entity.py "Pascal" "pressure" "الضغط" "hydraulic": only a fatwa on fasting with high blood pressure; nothing on fluid pressure'
+- code: C2.6
+  text: explain in qualitative terms the relationship between pressure, volume, and temperature when a liquid or a gas is compressed or heated
+  why: Asks for the relationship between pressure, volume and temperature when a liquid or gas is compressed or heated; the museum holds no record on any of the three.
+  searches:
+  - 'find_entity.py "Pascal" "pressure" "الضغط" "hydraulic": only a fatwa on fasting with high blood pressure; nothing on fluid pressure'
+  - 'find_entity.py "temperature" "الحرارة" "thermometer" "boiling": no real record on temperature or heat'
+- code: C2.7
+  text: describe how forces are transferred in all directions in fluids, including using Pascal’s law to quantify the transfer of forces in fluids
+  why: Asks how forces are transferred in all directions in fluids, including Pascal's law; the museum holds no record on fluid pressure.
+  searches:
+  - 'find_entity.py "Pascal" "pressure" "الضغط" "hydraulic": only a fatwa on fasting with high blood pressure; nothing on fluid pressure'
+  - 'find_entity.py "hydrology" "hydrostatic" "water engineering" "علم الحيل": no real record; grep -i pneumatic content/en: only group/banu-musa, which lists a book title on the pneumatics and describes no device'
+- code: C2.9
+  text: describe the differences between pneumatic and hydraulic systems
+  why: Asks for the differences between pneumatic and hydraulic systems; the museum holds no record that describes a pneumatic or a hydraulic system as such, only a title on the pneumatics.
+  searches:
+  - 'find_entity.py "hydrology" "hydrostatic" "water engineering" "علم الحيل": no real record; grep -i pneumatic content/en: only group/banu-musa, which lists a book title on the pneumatics and describes no device'
+  - 'find_entity.py "gas" "الهواء" "compress" "pneumatic": only course/ca-on-g6-sci-fly-1, a lesson record, not a source of content'
+- code: D1.1
+  text: assess the social, economic, and environmental impacts of automating systems
+  why: Asks the student to assess the social, economic and environmental impacts of automating systems; the museum holds no record that assesses such impacts.
+  searches:
+  - 'find_entity.py "automation" "automaton" "الحيل" "robot" "الآلات": invention/jazari-musical-boat, a display boat whose record says it is not the first programmed robot; work/turuq-saniyya-taqi; nothing on the effects of automating systems'
+  - 'find_entity.py "artificial intelligence" "الذكاء الاصطناعي" "coding" "algorithm" "الخوارزمية": invention/algorism is about reckoning with Indian numerals; no record on writing or running code or on AI'
+- code: D1.2
+  text: assess the impact on individuals, society, and the environment of alternative ways of meeting needs that are currently met by existing systems, taking different points of view into consideration
+  why: Asks the student to assess alternative ways of meeting needs that existing systems meet; no record compares systems or states an impact.
+  searches:
+  - 'find_entity.py "waterwheel" "Ferris" "windmill" "water wheel" "الناعورة" "دولاب": the Jazari pump and water lifters, each a design in a book; none states an effect on productivity or industry'
+  - 'find_entity.py "lever" "pulley" "gear" "simple machine" "mechanical advantage" "الرافعة": invention/jazari-animal-scoop-water-lifter and invention/jazari-hidden-drive-water-lifter, designs that pass motion on; neither explains input and output forces; grep "mechanical advantage" content/en: no hits'
+- code: D2.1
+  text: identify various types of systems
+  why: Asks the student to identify various types of systems; the museum holds designs of one type, water-lifting devices (served in lesson D-1 through D2.2 and D2.3), and no records of other kinds of system.
+  searches:
+  - 'find_entity.py "lever" "pulley" "gear" "simple machine" "mechanical advantage" "الرافعة": invention/jazari-animal-scoop-water-lifter and invention/jazari-hidden-drive-water-lifter, designs that pass motion on; neither explains input and output forces; grep "mechanical advantage" content/en: no hits'
+  - 'find_entity.py "automation" "automaton" "الحيل" "robot" "الآلات": invention/jazari-musical-boat, a display boat whose record says it is not the first programmed robot; work/turuq-saniyya-taqi; nothing on the effects of automating systems'
+- code: D2.4
+  text: use the scientific terms displacement, force, work, energy, and efficiency to describe everyday experiences
+  why: Asks to use the scientific terms displacement, force, work, energy and efficiency for everyday experiences; the museum holds no record that defines them.
+  searches:
+  - 'find_entity.py "work" "force" "energy" "efficiency" "الطاقة" "القوة": concept/work-in-islam is about labour, not physical work; no record on force, energy or efficiency'
+  - 'find_entity.py "lever" "pulley" "gear" "simple machine" "mechanical advantage" "الرافعة": invention/jazari-animal-scoop-water-lifter and invention/jazari-hidden-drive-water-lifter, designs that pass motion on; neither explains input and output forces; grep "mechanical advantage" content/en: no hits'
+- code: D2.5
+  text: demonstrate an understanding of the relationships between work, force, and displacement in simple systems
+  why: Asks for the relationships between work, force and displacement in simple systems; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "work" "force" "energy" "efficiency" "الطاقة" "القوة": concept/work-in-islam is about labour, not physical work; no record on force, energy or efficiency'
+  - 'find_entity.py "lever" "pulley" "gear" "simple machine" "mechanical advantage" "الرافعة": invention/jazari-animal-scoop-water-lifter and invention/jazari-hidden-drive-water-lifter, designs that pass motion on; neither explains input and output forces; grep "mechanical advantage" content/en: no hits'
+- code: D2.6
+  text: explain the relationship between input and output forces and determine the mechanical advantage of various mechanical systems, including simple machines
+  why: Asks to explain the relationship between input and output forces and determine mechanical advantage; the balance record states that balance depends on the load's distance from the suspension, but no record speaks of input and output forces or of mechanical advantage.
+  searches:
+  - 'find_entity.py "lever" "pulley" "gear" "simple machine" "mechanical advantage" "الرافعة": invention/jazari-animal-scoop-water-lifter and invention/jazari-hidden-drive-water-lifter, designs that pass motion on; neither explains input and output forces; grep "mechanical advantage" content/en: no hits'
+  - 'find_entity.py "work" "force" "energy" "efficiency" "الطاقة" "القوة": concept/work-in-islam is about labour, not physical work; no record on force, energy or efficiency'
+- code: D2.7
+  text: identify ways in which energy can dissipate from mechanical systems, and describe technological innovations that make these systems more efficient
+  why: Asks how energy dissipates from mechanical systems and what innovations make them more efficient; the museum holds no record on energy loss or efficiency.
+  searches:
+  - 'find_entity.py "work" "force" "energy" "efficiency" "الطاقة" "القوة": concept/work-in-islam is about labour, not physical work; no record on force, energy or efficiency'
+  - 'find_entity.py "waterwheel" "Ferris" "windmill" "water wheel" "الناعورة" "دولاب": the Jazari pump and water lifters, each a design in a book; none states an effect on productivity or industry'
+- code: D2.8
+  text: explain how providing information and support to consumers helps to ensure that the systems they use run safely and efficiently
+  why: Asks how information and support to consumers help systems run safely and efficiently; the museum holds no record on consumer information or support.
+  searches:
+  - 'find_entity.py "lever" "pulley" "gear" "simple machine" "mechanical advantage" "الرافعة": invention/jazari-animal-scoop-water-lifter and invention/jazari-hidden-drive-water-lifter, designs that pass motion on; neither explains input and output forces; grep "mechanical advantage" content/en: no hits'
+  - 'find_entity.py "automation" "automaton" "الحيل" "robot" "الآلات": invention/jazari-musical-boat, a display boat whose record says it is not the first programmed robot; work/turuq-saniyya-taqi; nothing on the effects of automating systems'
+- code: D2.9
+  text: describe technological innovations involving mechanical systems that have increased productivity in various industries
+  why: Asks for innovations in mechanical systems that increased productivity in industries; the pump and lifter records describe designs and do not state any gain in productivity.
+  searches:
+  - 'find_entity.py "waterwheel" "Ferris" "windmill" "water wheel" "الناعورة" "دولاب": the Jazari pump and water lifters, each a design in a book; none states an effect on productivity or industry'
+  - 'find_entity.py "lever" "pulley" "gear" "simple machine" "mechanical advantage" "الرافعة": invention/jazari-animal-scoop-water-lifter and invention/jazari-hidden-drive-water-lifter, designs that pass motion on; neither explains input and output forces; grep "mechanical advantage" content/en: no hits'
+- code: D2.10
+  text: identify social factors that influence the evolution of a system
+  why: Asks for social factors that influence the evolution of a system; the records name a patron and a tradition of improvers but do not say how either shaped a system's development.
+  searches:
+  - 'find_entity.py "lever" "pulley" "gear" "simple machine" "mechanical advantage" "الرافعة": invention/jazari-animal-scoop-water-lifter and invention/jazari-hidden-drive-water-lifter, designs that pass motion on; neither explains input and output forces; grep "mechanical advantage" content/en: no hits'
+  - 'find_entity.py "waterwheel" "Ferris" "windmill" "water wheel" "الناعورة" "دولاب": the Jazari pump and water lifters, each a design in a book; none states an effect on productivity or industry'
+- code: E1.1
+  text: assess the social and environmental impact of the scarcity of fresh water, and propose a plan of action to help address fresh water sustainability issues
+  why: Asks the student to assess the effects of the scarcity of fresh water and propose a plan of action; the museum holds no record on water scarcity.
+  searches:
+  - 'find_entity.py "fresh water" "scarcity" "drought" "الجفاف" "الماء العذب": no real record on water scarcity'
+  - 'find_entity.py "groundwater" "water table" "المياه الجوفية" "aquifer" "spring" "العيون": event/mecca-springs-835 says springs were channeled into Mecca and does not discuss groundwater; invention/karaji-qanat-surveying does not mention a water table'
+- code: E1.2
+  text: demonstrate an understanding of First Nations, Métis, and Inuit knowledges and values about water, connections to water, and ways of managing water resources sustainably
+  why: Asks for First Nations, Métis and Inuit knowledges and values about water; the museum holds no such record.
+  searches:
+  - 'find_entity.py "First Nations" "Indigenous" "Inuit" "Métis" "السكان الأصليين": one hit, concept/muwala (a fiqh term); nothing usable'
+  - 'find_entity.py "fresh water" "scarcity" "drought" "الجفاف" "الماء العذب": no real record on water scarcity'
+- code: E1.3
+  text: assess the impact of scientific discoveries and technological innovations on local and global water systems
+  why: Asks to assess the impact of scientific discoveries and technological innovations on local and global water systems; the qanat and spring records describe methods and events but assess no impact on a water system.
+  searches:
+  - 'find_entity.py "groundwater" "water table" "المياه الجوفية" "aquifer" "spring" "العيون": event/mecca-springs-835 says springs were channeled into Mecca and does not discuss groundwater; invention/karaji-qanat-surveying does not mention a water table'
+  - 'find_entity.py "watershed" "river basin" "الحوض" "drainage" "river": concept/hawd-basin-water is about the rules of purity for a basin of still water; place/indus-river has no prose; no record on watersheds'
+- code: E2.1
+  text: identify the states of water on Earth’s surface, their distribution, relative amounts, and circulation, and the conditions under which they exist
+  why: Asks for the states of water on Earth, their distribution and circulation; the museum holds no record on them (concept/rain and concept/clouds have no prose).
+  searches:
+  - 'find_entity.py "rain" "المطر" "evaporation" "clouds" "السحاب" "humidity": concept/rain and concept/clouds have no prose; the other hits are the rain prayer and a book on rain by Ibn Abi al-Dunya, not records of the water cycle'
+  - 'find_entity.py "glacier" "ice" "الجليد" "climate change" "melting": only place names (Uzice, Kosice); no real record'
+- code: E2.2
+  text: demonstrate an understanding of a watershed, and explain its importance to water management and planning
+  why: Asks for an understanding of a watershed and its importance to water management; the museum holds no record on watersheds.
+  searches:
+  - 'find_entity.py "watershed" "river basin" "الحوض" "drainage" "river": concept/hawd-basin-water is about the rules of purity for a basin of still water; place/indus-river has no prose; no record on watersheds'
+  - 'find_entity.py "rain" "المطر" "evaporation" "clouds" "السحاب" "humidity": concept/rain and concept/clouds have no prose; the other hits are the rain prayer and a book on rain by Ibn Abi al-Dunya, not records of the water cycle'
+- code: E2.3
+  text: explain how human activity and natural phenomena cause changes in the water table
+  why: Asks how human activity and natural phenomena change the water table; the museum holds no record on the water table.
+  searches:
+  - 'find_entity.py "groundwater" "water table" "المياه الجوفية" "aquifer" "spring" "العيون": event/mecca-springs-835 says springs were channeled into Mecca and does not discuss groundwater; invention/karaji-qanat-surveying does not mention a water table'
+  - 'find_entity.py "watershed" "river basin" "الحوض" "drainage" "river": concept/hawd-basin-water is about the rules of purity for a basin of still water; place/indus-river has no prose; no record on watersheds'
+- code: E2.4
+  text: identify factors, including climate change, that have contributed to the melting of glaciers and polar ice-caps, and describe the effects of this phenomenon on local and global water systems
+  why: Asks for the factors, including climate change, behind the melting of glaciers and ice-caps; the museum holds no record on glaciers or ice.
+  searches:
+  - 'find_entity.py "glacier" "ice" "الجليد" "climate change" "melting": only place names (Uzice, Kosice); no real record'
+  - 'find_entity.py "rain" "المطر" "evaporation" "clouds" "السحاب" "humidity": concept/rain and concept/clouds have no prose; the other hits are the rain prayer and a book on rain by Ibn Abi al-Dunya, not records of the water cycle'
+- code: E2.5
+  text: explain changes in atmospheric conditions caused by the presence of bodies of water
+  why: Asks to explain changes in atmospheric conditions caused by bodies of water; the museum holds no record on weather or climate.
+  searches:
+  - 'find_entity.py "rain" "المطر" "evaporation" "clouds" "السحاب" "humidity": concept/rain and concept/clouds have no prose; the other hits are the rain prayer and a book on rain by Ibn Abi al-Dunya, not records of the water cycle'
+  - 'find_entity.py "glacier" "ice" "الجليد" "climate change" "melting": only place names (Uzice, Kosice); no real record'
+- code: E2.6
+  text: describe various indicators of water quality, and explain the impact of human activity on those indicators
+  why: Asks for indicators of water quality and the impact of human activity on them; the museum holds no record on water quality.
+  searches:
+  - 'find_entity.py "water quality" "pure water" "clean water" "الماء الطهور" "drinking water": no real record on water quality; concept/hawd-basin-water gives colour, taste and smell as the jurists'' sign that an impurity has changed still water, which is a rule of ritual purity, not a measure of quality'
+  - 'find_entity.py "watershed" "river basin" "الحوض" "drainage" "river": concept/hawd-basin-water is about the rules of purity for a basin of still water; place/indus-river has no prose; no record on watersheds'

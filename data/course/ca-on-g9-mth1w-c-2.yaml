@@ -1,0 +1,57 @@
+id: course/ca-on-g9-mth1w-c-2
+class: course
+kind: lesson
+label:
+  ar: تبسيط العبارات وحل المعادلات
+  en: Simplifying expressions and solving equations
+  ur: اظہارات کو سادہ کرنا اور مساواتیں حل کرنا
+summary:
+  ar: تبسيط العبارات الجبرية وجمع المتشابه، وحل المعادلات والتحقق من الحلول، في ضوء ضروب الخوارزمي الستة وحساب الكرجي.
+  en: Simplifying algebraic expressions and collecting like terms, and solving equations and verifying the solutions, in light of al-Khwarizmi's six types and al-Karaji's arithmetic.
+  ur: الجبری اظہارات کو سادہ کرنا اور ہم جنس اجزا جمع کرنا، اور مساواتیں حل کر کے جوابوں کی تصدیق کرنا، خوارزمی کی چھ قسموں اور کرجی کے حساب کی روشنی میں۔
+sources:
+- source/ontario-curriculum-secondary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g9-mth1w-c
+expectations:
+- code: C1.4
+  text:
+    en: simplify algebraic expressions by applying properties of operations of numbers, using various representations and tools, in different contexts
+    ar: بسّط عبارات جبرية بتطبيق خصائص العمليات على الأعداد، مستعينًا بتمثيلات وأدوات متنوعة، في سياقات مختلفة
+    ur: اعداد پر عملوں کی خصوصیات لاگو کر کے الجبری اظہارات کو سادہ کریں، مختلف نمائندگیوں اور اوزار کے ساتھ، مختلف سیاق میں
+- code: C1.5
+  text:
+    en: create and solve equations for various contexts, and verify their solutions
+    ar: أنشئ معادلات لسياقات متنوعة وحُلَّها، وتحقق من حلولها
+    ur: مختلف سیاق کے لیے مساواتیں بنائیں اور حل کریں، اور ان کے حل کی تصدیق کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    ar: ضروب المعادلات الستة
+    en: The six types of equation
+    ur: مساوات کی چھ قسمیں
+  text:
+    ar: 'قسّم الخوارزمي معادلات الدرجة الأولى والثانية ذات المعاملات الموجبة إلى ستة ضروب: ثلاثة مفردة وثلاثة مقترنة. والضروب المفردة الثلاثة: «مال يعدل خمسة أجذاره»، فالجذر خمسة والمال خمسة وعشرون؛ و«خمسة أموال تعدل ثمانين»، فالمال الواحد خمس الثمانين وهو ستة عشر؛ و«أربعة أجذار تعدل عشرين»، فالجذر خمسة. كيف تتحقق من كل جواب بردّه إلى المسألة؟'
+    en: 'Al-Khwarizmi divided first- and second-degree equations with positive terms into six types, three simple and three compound. The three simple types are: "a square equals five of its roots", so the root is five and the square twenty-five; "five squares equal eighty", so one square is a fifth of eighty, sixteen; and "four roots equal twenty", so the root is five. How could you check each answer by putting it back into the problem?'
+    ur: 'خوارزمی نے مثبت اجزا والی پہلے اور دوسرے درجے کی مساواتوں کو چھ قسموں میں بانٹا: تین مفرد اور تین مقترن۔ تین مفرد قسمیں یہ ہیں: «ایک مال اپنے پانچ جذروں کے برابر ہے»، تو جذر پانچ اور مال پچیس؛ «پانچ مال اسی کے برابر ہیں»، تو ایک مال اسی کا پانچواں حصہ یعنی سولہ؛ اور «چار جذر بیس کے برابر ہیں»، تو جذر پانچ۔ ہر جواب کو مسئلے میں واپس رکھ کر آپ اس کی تصدیق کیسے کریں گے؟'
+  entity: concept/al-durub-al-sitta
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+- position: after
+  kind: invention
+  title:
+    ar: ضرب المقادير المركبة وجمع المتشابه
+    en: Multiplying composite expressions and collecting like terms
+    ur: مرکب اظہارات کی ضرب اور ہم جنس اجزا کا جمع
+  text:
+    ar: اشتغل الكرجي أيضاً بالمقادير المركبة من حدود عدة، وتصف السيرة الضرب بأن تعمل الحدود بعضها في بعض قبل جمع النتائج المتشابهة. ومثال السجل الحديث، وهو شرح حسابي لا مثال من الكتاب، أن ضرب x+2 في x+3 يعطي x²+3x+2x+6 ثم x²+5x+6، ويتحقق منه بوضع x=2، فيكون حاصل أربعة في خمسة عشرين، وهو حاصل أربعة زائد عشرة زائد ستة. أين جُمعت الحدود المتشابهة في هذا المثال؟
+    en: Al-Karaji also worked on composite expressions of several terms, and MacTutor describes multiplication as combining terms before collecting matching results. The record's own modern example, an explanatory one and not an example from the book, expands (x+2)(x+3) to x²+3x+2x+6 and then x²+5x+6, and checks it by setting x=2, where four times five and four plus ten plus six both give twenty. Where in that example are the like terms collected?
+    ur: کرجی نے کئی اجزا والے مرکب اظہارات پر بھی کام کیا، اور سوانح ضرب کو یوں بیان کرتی ہے کہ پہلے اجزا کو ایک دوسرے سے ضرب دیا جاتا ہے اور پھر ہم جنس نتائج جمع کیے جاتے ہیں۔ ریکارڈ کی اپنی جدید مثال، جو وضاحتی ہے اور کتاب کی مثال نہیں، یہ ہے کہ x+2 کو x+3 سے ضرب دینے پر x²+3x+2x+6 اور پھر x²+5x+6 ملتا ہے، اور x=2 رکھ کر تصدیق ہوتی ہے، جہاں چار ضرب پانچ اور چار جمع دس جمع چھ دونوں بیس ہیں۔ اس مثال میں ہم جنس اجزا کہاں جمع کیے گئے؟
+  entity: invention/karaji-polynomial-arithmetic
+  sources:
+  - source/karaji-mactutor
+order: 2

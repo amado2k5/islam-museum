@@ -1,0 +1,44 @@
+id: course/ca-on-g5-science-b-1
+class: course
+kind: lesson
+label:
+  en: Blood, heart and lungs
+  ar: الدم والقلب والرئتان
+  ur: خون، دل اور پھیپھڑے
+summary:
+  en: The structure and function of two vital organs and how the heart and the lungs work together (B2.2, B2.3).
+  ar: بنية عضوين حيويين ووظيفتهما، وكيف يعمل القلب والرئتان معاً، التوقعان B2.2 وB2.3.
+  ur: دو اہم اعضا کی ساخت اور کام، اور دل اور پھیپھڑے مل کر کیسے کام کرتے ہیں، توقعات B2.2، B2.3۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g5-science-b
+expectations:
+- code: B2.2
+  text:
+    en: describe the basic structure and function of vital organs in various systems in the human body
+    ar: صِف البنية الأساسية للأعضاء الحيوية في مختلف أجهزة جسم الإنسان ووظيفتها
+    ur: انسانی جسم کے مختلف نظاموں میں اہم اعضا کی بنیادی ساخت اور کام بیان کریں
+- code: B2.3
+  text:
+    en: describe interrelationships between human body systems
+    ar: صِف العلاقات المتبادلة بين أجهزة جسم الإنسان
+    ur: انسانی جسم کے نظاموں کے باہمی تعلقات بیان کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: The blood's route through the lung
+    ar: طريق الدم عبر الرئة
+    ur: پھیپھڑے سے خون کا راستہ
+  text:
+    en: In the thirteenth century the physician Ibn al-Nafis wrote, in his commentary on the anatomy of Ibn Sina's Canon, that blood does not cross from the right ventricle of the heart to the left through pores in the wall between them, as Galen had taught, because that wall is solid; it reaches the left ventricle from the lung. Which organs does the blood visit on this route?
+    ar: كتب الطبيب ابن النفيس في القرن السابع الهجري، في شرحه على تشريح قانون ابن سينا، أن الدم لا يعبر من البطين الأيمن إلى البطين الأيسر من مسامّ في الحاجز بينهما كما قال جالينوس، لأن الحاجز هناك مصمت؛ بل يدخل البطين الأيسر من الرئة. أي الأعضاء يمرّ بها الدم في هذا الطريق؟
+    ur: تیرھویں صدی عیسوی میں طبیب ابن نفیس نے ابن سینا کے «القانون» کی تشریح پر اپنی شرح میں لکھا کہ خون دل کے دائیں بطن سے بائیں بطن میں ان مساموں سے نہیں گزرتا جو دونوں کے درمیان دیوار میں ہیں، جیسا کہ جالینوس نے سکھایا تھا، کیونکہ وہاں دیوار ٹھوس ہے؛ بلکہ وہ بائیں بطن میں پھیپھڑے سے پہنچتا ہے۔ اس راستے میں خون کن اعضا سے گزرتا ہے؟
+  entity: invention/pulmonary-circulation
+  sources:
+  - source/west-2008-ibn-al-nafis
+order: 1

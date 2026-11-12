@@ -1,0 +1,71 @@
+id: course/ca-on-g6-math-f-1
+class: course
+kind: lesson
+label:
+  en: Paying, trading and giving
+  ar: الدفع والتجارة والعطاء
+  ur: ادائیگی، تجارت اور عطیہ
+summary:
+  en: Methods of payment, and trading, lending, borrowing and donating as ways of sharing resources.
+  ar: طرق الدفع، والتجارة والإقراض والاقتراض والتبرع بوصفها طرقًا لتوزيع الموارد.
+  ur: ادائیگی کے طریقے، اور تجارت، قرض دینا، قرض لینا اور عطیہ دینا بطور وسائل کی تقسیم کے طریقے۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g6-math-f
+expectations:
+- code: F1.1
+  text:
+    en: describe the advantages and disadvantages of various methods of payment that can be used to purchase goods and services
+    ar: صِف مزايا وعيوب طرق الدفع المختلفة التي يمكن استخدامها لشراء السلع والخدمات
+    ur: مختلف طریقۂ ادائیگی کے فوائد اور نقصانات بیان کریں جو سامان اور خدمات خریدنے کے لیے استعمال ہو سکتے ہیں
+- code: F1.5
+  text:
+    en: describe trading, lending, borrowing, and donating as different ways to distribute financial and other resources among individuals and organizations
+    ar: صِف التجارة والإقراض والاقتراض والتبرع بوصفها طرقًا مختلفة لتوزيع الموارد المالية وغيرها بين الأفراد والمنظمات
+    ur: تجارت، قرض دینے، قرض لینے اور عطیہ دینے کو افراد اور اداروں کے درمیان مالی اور دیگر وسائل کی تقسیم کے مختلف طریقوں کے طور پر بیان کریں
+connections:
+- position: before
+  kind: story
+  title:
+    en: Honest measure in buying and selling
+    ar: الكيل الصحيح في البيع والشراء
+    ur: خرید و فروخت میں ٹھیک ناپ تول
+  text:
+    ar: 'يرى المراغي التجارة من أوسع ميادين النشاط الإنساني. وينقل عن ابن خلدون أنها تستدعي المكايسة والغش والأيمان الكاذبة، فخصّها الإسلام بالترغيب والترهيب: أمر بالتثبت من الكيل والوزن، وببيان العيب، واستحب السماحة في البيع والشراء. ويعرض كذلك صور الشركة، ومنها المضاربة. كيف يحمي الكيل الصحيح البائع والمشتري معاً؟'
+    en: 'Al-Maraghi sees commerce as one of the widest fields of human activity. Quoting Ibn Khaldun that trade invites haggling, fraud and false oaths, he shows Islam surrounding it with exhortation and warning: exact measure and weight, disclosure of defects, and commendation of leniency in buying and selling. He also sets out the forms of partnership, among them mudaraba. How does honest measure protect both the buyer and the seller?'
+    ur: 'مراغی تجارت کو انسانی سرگرمی کے وسیع ترین میدانوں میں شمار کرتے ہیں۔ ابن خلدون سے نقل کرتے ہیں کہ تجارت سودے بازی، فریب اور جھوٹی قسموں کو جنم دیتی ہے، اسی لیے اسلام نے اسے ترغیب اور ترہیب دونوں سے گھیرا: ناپ تول کی پابندی، عیب کی نمائش اور خرید و فروخت میں نرمی۔ وہ شرکت اور مضاربت کی صورتیں بھی پیش کرتے ہیں۔ درست ناپ تول خریدار اور فروخت کنندہ دونوں کی حفاظت کیسے کرتی ہے؟'
+  entity: concept/trade-in-islam
+  sources:
+  - source/min-qadaya-al-mal-wal-amal-azhar
+- position: within
+  kind: invention
+  title:
+    en: The sakk and the hawala
+    ar: الصك والحوالة
+    ur: صک اور حوالہ
+  text:
+    ar: يذكر حسن إبراهيم حسن في «تاريخ الإسلام» أن الصك أشبه بالشيك اليوم؛ كان يُجمع فيه أسماء المستحقين وما يستحقونه من المال، ثم يوقّع الخليفة أو السلطان أو الأمير في آخره باعتماد دفع هذه الأرزاق. ومن شواهد اتساع استعمال الحوالة أن الملاحين الذين نقلوا السلطان ملكشاه السلجوقي وجيوشه عبر نهر جيحون تسلموا من وزيره حوالات يقبضون قيمتها من العامل السلجوقي بإنطاكية. لماذا قد تكون الورقة أيسر من النقود؟
+    en: 'Hasan Ibrahim Hasan writes in his Tarikh al-Islam that the sakk is much like today''s cheque: it gathered the names of those entitled and what each was due, and the caliph, sultan or prince signed at its foot to authorise payment. As evidence of the hawala''s wide use, the boatmen who ferried the Seljuk sultan Malikshah and his armies across the river Jayhun received bills of exchange from his vizier, to be collected from the Seljuk agent in Antioch. Why might a paper be handier than coins?'
+    ur: حسن ابراہیم حسن اپنی «تاریخ الاسلام» میں لکھتے ہیں کہ صک آج کے چیک جیسا ہے؛ اس میں مستحقین کے نام اور ان کے مستحق مال کی مقدار جمع کی جاتی تھی، پھر خلیفہ یا سلطان یا امیر آخر میں ان وظائف کی ادائیگی کی منظوری پر دستخط کرتا تھا۔ حوالہ کے وسیع استعمال کی ایک مثال یہ ہے کہ سلجوقی سلطان ملک شاہ اور اس کے لشکر کو دریائے جیحون کے پار پہنچانے والے ملاحوں نے اس کے وزیر سے حوالات وصول کیں، جن کی رقم وہ انطاکیہ میں سلجوقی عامل سے وصول کرتے تھے۔ کاغذ سکوں سے آسان کیوں ہو سکتا ہے؟
+  entity: concept/al-sakk-wal-hawala
+  sources:
+  - source/tarikh-islam-hasan-ibrahim
+- position: after
+  kind: invention
+  title:
+    en: Giving the yield and keeping the principal
+    ar: تسبيل الغلّة وحبس الأصل
+    ur: آمدنی کا عطیہ اور اصل کی حفاظت
+  text:
+    ar: الوقف تصرّف يحبس فيه المالك أصل ماله عن البيع والهبة والإرث، ويجعل غلّته لوجه من وجوه البر على الدوام. وأشهر ما يُروى في أوله أن عمر بن الخطاب أصاب أرضاً بخيبر، فتصدق بها على ألا تباع ولا توهب ولا تورث. وتقول موسوعة TDV إن أكثر مساجد المدن الإسلامية ومدارسها ومستشفياتها وسُبلها قام عليه من منتصف القرن الثامن إلى أواخر القرن التاسع عشر. إلى من تذهب الغلّة؟
+    en: A waqf is an act by which an owner locks the capital of his property away from sale, gift and inheritance, and gives its yield to a good cause for ever. The best-known report of its beginning is that Umar ibn al-Khattab acquired land at Khaybar and gave it on condition that it would not be sold, given away or inherited. The TDV encyclopaedia says it funded most of the mosques, colleges, hospitals and public fountains of Muslim cities from the mid-eighth to the late nineteenth century. Who receives the yield?
+    ur: 'وقف ایک ایسا عمل ہے جس کے ذریعے مالک اپنی جائیداد کی اصل کو بیچنے، ہبہ کرنے اور وراثت میں جانے سے روک دیتا ہے، اور اس کی آمدنی ہمیشہ کے لیے کسی نیک مقصد کو دے دیتا ہے۔ سب سے مشہور روایت عمر بن الخطاب کی ہے: انہیں خیبر میں زمین ملی تو انہوں نے اسے اس شرط پر صدقہ کیا کہ وہ نہ بیچی جائے، نہ ہبہ کی جائے اور نہ وراثت میں جائے۔ ٹی ڈی وی کے مطابق اس نظام نے آٹھویں صدی کے وسط سے انیسویں صدی کے اواخر تک مسلم شہروں کی بیشتر مساجد، مدارس، شفاخانوں اور سبیلوں کا خرچ اٹھایا۔ آمدنی کسے ملتی ہے؟'
+  entity: invention/waqf
+  sources:
+  - source/sahih-al-bukhari-bugha
+  - source/tdv-vakif
+order: 1

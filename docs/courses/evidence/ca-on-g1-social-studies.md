@@ -1,0 +1,14 @@
+# Evidence: ca-on-g1-social-studies
+
+Each row: the claim in the connection text, and the sentence of the linked record that it restates (quoted from the record's English prose or summary, at most 40 words), with the record's own citation marker.
+
+| Lesson | Entity | Claim made | Record sentence it restates |
+|---|---|---|---|
+| ca-on-g1-social-studies-a-2 | concept/jiwar | The Kuwaiti jurisprudence encyclopaedia: jiwar covers the rights a neighbour has over a neighbour | "Jiwar covers the rights a neighbour has over a neighbour." {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6676} |
+| ca-on-g1-social-studies-a-2 | concept/jiwar | A neighbour's rights limit how an owner may use his property where it harms the neighbour | "The neighbour's rights limit how an owner may use his property where it harms the neighbour." {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6681} |
+| ca-on-g1-social-studies-b-1 | concept/sabil | Al-Haddad: a charitable building endowed to give people fresh water every day all year round | "A charitable building endowed to give people fresh water every day all year round" {cite:haddad-asbila-makka-madina-2004 p.9} |
+| ca-on-g1-social-studies-b-1 | concept/sabil | Drew water from wells, pools, springs, or rain and floods through channels or pipes hidden in walls | "They drew water from wells, pools and springs or from rain and floods through well-built channels or pipes hidden in walls" {cite:haddad-asbila-makka-madina-2004 p.49} {cite:haddad-asbila-makka-madina-2004 p.50} |
+| ca-on-g1-social-studies-b-1 | building/bimaristan-adudi | Adud al-Dawla built a hospital in Baghdad (the Buyid ruler and the opening date are no longer restated) | "the hospital built by the Buyid Adud al-Dawla; it was opened at the beginning of Rabi II 372 AH." {cite:muntazam-ibn-al-jawzi j.7 p.118-119} |
+| ca-on-g1-social-studies-b-1 | building/bimaristan-adudi | Physicians, medicines, stewards, servants, vessels and clothing gathered there; the poor given the clothing and vessels that left it | "Physicians, medicines, stewards, servants, vessels and clothing ... were gathered there ... the poor were given the clothing and vessels that left it." {cite:muntazam-ibn-al-jawzi j.7 p.119} |
+| ca-on-g1-social-studies-b-2 | invention/hisba | Ibn Khaldun: an office in which the ruler appoints a capable person to watch over the markets and streets | "an office in which the ruler appoints a capable person to watch over the markets and streets" {cite:muqaddima-ibn-khaldun p. 221} |
+| ca-on-g1-social-studies-b-2 | invention/hisba | He looks into fraud in measures, weights and foodstuffs, blocked streets and buildings about to fall, and acts without waiting for a complaint | "looks into fraud in measures, weights and foodstuffs, ... keeps the streets from being blocked, orders buildings about to collapse to be pulled down ... without waiting for anyone to bring a complaint" {cite:muqaddima-ibn-khaldun p. 221} |

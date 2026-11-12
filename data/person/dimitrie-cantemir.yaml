@@ -1,0 +1,37 @@
+id: person/dimitrie-cantemir
+class: person
+label: { ar: "ديميتري كانتيمير", en: "Dimitrie Cantemir", ur: "دیمیتری کانتیمیر" }
+names:
+  - { kind: full, value: "Dimitrie Cantemir" }
+  - { kind: alternate, value: "Demetrius Cantemir" }
+  - { kind: alternate, value: "Kantemiroğlu" }
+  - { kind: alternate, value: "Kantimir, Demetrius" }
+  - { kind: alternate, value: "Dimitri Kantemir" }
+summary:
+  ar: "ديميتري كانتيمير، ويعرف في تركيا بكانتيمير أوغلو، من مواليد 1673م وتوفي سنة 1723م، أمير تابع للدولة العثمانية على البغدان وعالم موسوعي وناظّر وعازف موسيقي. أُرسل رهينة إلى إسطنبول في صباه وعُيّن أميراً على البغدان سنة 1710م ثم تحالف مع بطرس الأكبر فهرب بعد الانتصار العثماني سنة 1711م وأقام في روسيا. اشتهر في أوروبا بكتابه عن نشوء الدولة العثمانية وانحطاطها، وفي تركيا بكتاب في علم الموسيقى كتبه نحو سنة 1700م {cite:encyclopaedia-of-islam-2 vol. 12 p. 570}."
+  en: "Dimitrie Cantemir, known in Turkey as Kantemiroglu, lived from 1673 to 1723. He was an Ottoman-appointed prince of Moldavia, a polymath, and a musician and music theorist. Sent as a hostage to Istanbul in his youth, he was named prince of Moldavia in 1710, allied himself with Peter the Great, and fled to Russia after the Ottoman victory of 1711. Europe knew him for his history of the rise and decay of the Ottoman Empire, Turkey for his treatise on music of about 1700 {cite:encyclopaedia-of-islam-2 vol. 12 p. 570}."
+  ur: "دیمیتری کانتیمیر، جو ترکی میں کانتیمیر اوغلو کہلاتے ہیں، 1673ء سے 1723ء تک زندہ رہے۔ وہ عثمانیوں کی طرف سے مقرر کردہ شہزادۂ مولداویہ، ہمہ جہت عالم اور موسیقی کے ماہر و نظریہ دان تھے۔ نوجوانی میں یرغمال بن کر استنبول بھیجے گئے، 1710ء میں مولداویہ کے شہزادے بنے، پطرس اعظم سے اتحاد کیا اور 1711ء کی عثمانی فتح کے بعد روس چلے گئے۔ یورپ میں وہ عثمانی سلطنت کے عروج و زوال کی تاریخ سے اور ترکی میں تقریباً 1700ء کے موسیقی کے رسالے سے مشہور ہوئے {cite:encyclopaedia-of-islam-2 vol. 12 p. 570}۔"
+gender: male
+roles: [scholar, musician, composer, historian, politician]
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+born: { edtf: "1673-10-26", hijri: "1084", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 26 October 1673 at Silisteni per EI2 Supplement; the Hijri year is a derived conversion.", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1723-08-21", hijri: "1135", calendar: gregorian, precision: day, status: historical, derived: true, note: "Died 21 August 1723 per EI2 Supplement; vol. 7 p. 739 gives 1727 instead; the Hijri year is a derived conversion.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: lived_in, target: place/istanbul, note: "Hostage there 1687-91 and 1693-1710 according to EI2.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: allied_with, target: person/peter-i-of-russia, note: "Secret alliance before the Pruth campaign of 1711.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/treaty-pruth-1123, role: "Prince of Moldavia allied with the Tsar", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd edition (Brill), local OCR"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-5
+  canon: "Encyclopaedia of Islam 2nd ed., Supplement vol. 12 article Kantimir, Demetrius, PDF pp. 570-571; vol. 6 p. 1018; vol. 1 pp. 291, 293, 1317; vol. 7 pp. 739-740, 1098"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "ديميتري كانتيمير أمير وعالم كتب عن تاريخ العثمانيين وعن الموسيقى التركية."
+  en: "Dimitrie Cantemir was a prince and scholar who wrote about Ottoman history and Turkish music."
+  ur: "دیمیتری کانتیمیر ایک شہزادے اور عالم تھے جنہوں نے عثمانی تاریخ اور ترک موسیقی پر لکھا۔"

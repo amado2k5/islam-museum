@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-sph4c",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "Science",
+  "url_slug": "secondary-science",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-science"
+ },
+ "course_code": "SPH4C",
+ "ministry_course_name": "SPH4C",
+ "course": "Physics",
+ "grade": [
+  "12"
+ ],
+ "retrieved_utc": "2026-11-12T06:36:53Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=a020b4c1-8a6f-455e-8af4-5b385bc839a2&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2025-10-31T18:57:31.568418Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "c60445ff1bb279a00a6a4f80eb21b49acc94b077e10a3b52217ba6935273bc69",
+  "official.json": "9ece8ebaa890af471bc90dba8259d0b92f160bfa0ab85917c02a182fd5a3a109"
+ },
+ "counts": {
+  "strands": 6,
+  "overall_expectations": 17,
+  "specific_expectations": 91
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

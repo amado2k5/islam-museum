@@ -1,0 +1,46 @@
+id: course/ca-on-g4-math-b-2
+class: course
+kind: lesson
+label:
+  en: 'Tenths: parts of one'
+  ar: 'الأعشار: أجزاء من الواحد'
+  ur: 'دسویں حصے: ایک کے اجزا'
+summary:
+  en: How decimal tenths are read, compared and matched with fractions (B1.7, B1.9).
+  ar: كيف تُقرأ الأعشار العشرية وتُقارَن وتُقابَل بالكسور ⁦(B1.7 وB1.9)⁩.
+  ur: اعشاری دسویں حصوں کو کیسے پڑھا، ان کا موازنہ کیا اور کسور سے ملایا جاتا ہے ⁦(B1.7 اور B1.9)⁩۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g4-math-b
+expectations:
+- code: B1.7
+  text:
+    en: read, represent, compare, and order decimal tenths, in various contexts
+    ar: اقرأ الأعشار العشرية ومثّلها وقارن بينها ورتّبها في سياقات متنوعة
+    ur: اعشاری دسویں حصوں کو مختلف سیاق و سباق میں پڑھیں، ظاہر کریں، ان کا موازنہ کریں اور انہیں ترتیب دیں
+- code: B1.9
+  text:
+    en: describe relationships and show equivalences among fractions and decimal tenths, in various contexts
+    ar: صِف العلاقات بين الكسور والأعشار العشرية وبيّن تكافؤها في سياقات متنوعة
+    ur: کسور اور اعشاری دسویں حصوں کے درمیان رشتے بیان کریں اور ان کی مساوات دکھائیں، مختلف سیاق و سباق میں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A half as five tenths
+    ar: النصف خمسة أعشار
+    ur: آدھا یعنی پانچ دسویں
+  text:
+    en: A half can be written as five tenths, and half of that as twenty-five hundredths. The record says a book composed at Damascus by al-Uqlidisi has an early direct treatment of such fractions within Indian place-value arithmetic. It adds that this is not the invention of the Indian numerals or of today's decimal point, and that historians disagree about how complete the idea was. How would you write five tenths as a decimal?
+    ar: نصف الواحد يمكن أن يُكتب خمسة أعشار، ونصف النصف خمسة وعشرين جزءاً من مئة. يذكر السجل أن في كتاب ألّفه الإقليدسي بدمشق معالجةً مبكرة مباشرة لمثل هذه الكسور داخل الحساب الهندي ذي القيمة المكانية. ويضيف أنها ليست اختراع الأرقام الهندية ولا النقطة العشرية الحالية، وأن المؤرخين مختلفون في مقدار اكتمال المفهوم. كيف تكتب خمسة أعشار عدداً عشرياً؟
+    ur: نصف کو پانچ دسویں حصوں اور اس کے نصف کو پچیس سوویں حصوں میں لکھا جا سکتا ہے۔ ریکارڈ بتاتا ہے کہ اقلیدسی کی دمشق میں لکھی ہوئی کتاب میں ہندی مقامی حساب کے اندر ایسے کسور کی ابتدائی براہِ راست بحث ملتی ہے۔ وہ مزید کہتا ہے کہ یہ ہندی ہندسوں یا موجودہ اعشاری نقطے کی ایجاد نہیں، اور نظری مفہوم کی تکمیل پر مؤرخین مختلف رائے رکھتے ہیں۔ پانچ دسویں کو اعشاریے کی شکل میں آپ کیسے لکھیں گے؟
+  entity: invention/decimal-fractions-al-uqlidisi
+  sources:
+  - source/tdv-oklidisi
+  - source/uqlidisi-saidan-dsb
+  - source/uqlidisi-mactutor
+order: 2

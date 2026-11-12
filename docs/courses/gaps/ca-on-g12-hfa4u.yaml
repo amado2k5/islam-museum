@@ -1,0 +1,370 @@
+course: course/ca-on-g12-hfa4u
+gaps:
+- code: A1.1
+  text: explore a variety of topics related to nutrition and health […] to identify topics for research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: identify key concepts […] related to their selected topics
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.3
+  text: formulate effective questions to guide their research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.1
+  text: create appropriate research plans to investigate their selected topics […], ensuring that their plans follow guidelines for ethical research
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.2
+  text: locate and select information relevant to their investigations from a variety of primary sources […] and secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.3
+  text: based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.1
+  text: assess various aspects of information gathered from primary and secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.2
+  text: record and organize information and key ideas using a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.3
+  text: analyse and interpret research information […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.4
+  text: demonstrate academic honesty by documenting the sources of all information generated through research
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.5
+  text: synthesize findings and formulate conclusions […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.1
+  text: use an appropriate format […] to communicate the results of their research and inquiry effectively for a specific purpose and audience
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.2
+  text: use terms relating to nutrition and health correctly […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.3
+  text: clearly communicate the results of their inquiries […], and follow APA conventions for acknowledging sources […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.4
+  text: demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B1.1
+  text: identify the sources and explain the functions of macronutrients (i.e., carbohydrates, fats, proteins), micronutrients (i.e., vitamins, minerals), and water
+  why: The expectation is about the sources and functions of nutrients; the museum holds no record on nutrients.
+  searches:
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+  - 'find_entity.py "deficiency" "scurvy" "rickets" "anaemia" "نقص": 56 records, all Muwatta passages that contain the word نقص (a shortfall); none about a deficiency disease'
+- code: B1.2
+  text: describe the causes and symptoms of nutrient deficiencies […] and excesses […]
+  why: The expectation is about nutrient deficiency diseases and their symptoms; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "deficiency" "scurvy" "rickets" "anaemia" "نقص": 56 records, all Muwatta passages that contain the word نقص (a shortfall); none about a deficiency disease'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: B1.3
+  text: analyse specific foods to determine their nutrient content, using available food and nutrition information […]
+  why: The expectation is about analysing the nutrient content of foods from labels and databases; the museum holds no record on nutrient values (the calorie-label fatwa is about honesty in selling, not about reading nutrition data).
+  searches:
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+  - 'find_entity.py "digestion" "هضم" "metabolism" "calorie": 1 record: a fatwa on understating calories on a product label; nothing on digestion, metabolism or energy'
+- code: B1.4
+  text: plan and prepare a food item or items to ensure optimal nutrient content and retention […]
+  why: The expectation is a food-preparation task on nutrient retention; the museum holds no record on cooking and nutrients.
+  searches:
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+- code: B2.1
+  text: explain why Canada’s Food Guide has changed over time […]
+  why: The expectation is about Canada's Food Guide; the museum holds no record on food guides.
+  searches:
+  - 'find_entity.py "food guide" "dietary guidelines" "قائمة الطعام" "balanced diet": no real record'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: B2.2
+  text: outline the main nutrients found in each of the food groups in Canada’s Food Guide […]
+  why: The expectation is about the nutrients in Canada's Food Guide groups; no food-guide or nutrient record exists.
+  searches:
+  - 'find_entity.py "food guide" "dietary guidelines" "قائمة الطعام" "balanced diet": no real record'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: B2.3
+  text: explain how various research findings support the recommendations and guidelines in Canada’s Food Guide […]
+  why: The expectation is about research findings behind Canada's Food Guide; no food-guide or nutrition-research record exists.
+  searches:
+  - 'find_entity.py "food guide" "dietary guidelines" "قائمة الطعام" "balanced diet": no real record'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: B2.4
+  text: explain the differences in the underlying concepts and recommendations of food guides from other countries […] and food guides designed for special groups […]
+  why: The expectation is about other countries' food guides; no food-guide record exists.
+  searches:
+  - 'find_entity.py "food guide" "dietary guidelines" "قائمة الطعام" "balanced diet": no real record'
+  - 'find_entity.py "functional food" "additive" "organic" "consumer protection": no real record'
+- code: B2.5
+  text: analyse a recipe and modify it as necessary to reflect specific recommendations in Canada’s Food Guide […]
+  why: The expectation is a recipe-modification task against Canada's Food Guide; no food-guide or recipe record exists.
+  searches:
+  - 'find_entity.py "food guide" "dietary guidelines" "قائمة الطعام" "balanced diet": no real record'
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+- code: B3.1
+  text: explain the processes of and factors affecting the digestion, absorption, and metabolism of food
+  why: The expectation is about digestion, absorption and metabolism; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "digestion" "هضم" "metabolism" "calorie": 1 record: a fatwa on understating calories on a product label; nothing on digestion, metabolism or energy'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: B3.2
+  text: analyse foods to identify their macronutrient content (i.e., the percentage of calories from various types of nutrients)
+  why: The expectation is about the percentage of calories from nutrients; the museum holds no record on macronutrients.
+  searches:
+  - 'find_entity.py "digestion" "هضم" "metabolism" "calorie": 1 record: a fatwa on understating calories on a product label; nothing on digestion, metabolism or energy'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: B3.3
+  text: explain the concept of energy balance, and describe how energy balance is achieved […]
+  why: The expectation is about energy balance; the museum holds no record on energy intake or expenditure.
+  searches:
+  - 'find_entity.py "digestion" "هضم" "metabolism" "calorie": 1 record: a fatwa on understating calories on a product label; nothing on digestion, metabolism or energy'
+  - 'find_entity.py "energy" "طاقة" "fat" "sugar" "honey" "عسل": 23 records: honey, animal fat and oil in fiqh, Ontario course records; none on energy balance or calorie use'
+- code: B3.4
+  text: analyse and interpret data to determine how various factors affect calorie expenditure […]
+  why: The expectation is about data on calorie expenditure; the museum holds no record on exercise or body composition.
+  searches:
+  - 'find_entity.py "exercise" "رياضة" "physical activity" "sport": 13 records: spiritual training, combat-sport rules, athlete source records; none on exercise and energy'
+  - 'find_entity.py "digestion" "هضم" "metabolism" "calorie": 1 record: a fatwa on understating calories on a product label; nothing on digestion, metabolism or energy'
+- code: B4.1
+  text: analyse their own nutrient intake with reference to current Canadian guidelines […]
+  why: The expectation asks students to analyse their own nutrient intake against Canadian guidelines; the museum holds no record on nutrient intake or the guidelines.
+  searches:
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+  - 'find_entity.py "food guide" "dietary guidelines" "قائمة الطعام" "balanced diet": no real record'
+- code: B4.2
+  text: compare their own nutrient intake with that of various population groups in Canada
+  why: The expectation asks students to compare their intake with Canadian population groups; the museum holds no record on such data.
+  searches:
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+  - 'find_entity.py "food guide" "dietary guidelines" "قائمة الطعام" "balanced diet": no real record'
+- code: B4.4
+  text: plan and prepare a food item or items to address a specific nutritional deficiency in a typical Canadian diet […]
+  why: The expectation is a food-preparation task on a nutritional deficiency in the Canadian diet; no record on that exists.
+  searches:
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+- code: C1.3
+  text: explain why particular food and nutrition products are appropriate or popular at various stages of the lifespan […]
+  why: The expectation is about food and nutrition products for stages of life (baby foods, meal replacements); the museum holds no record on such products.
+  searches:
+  - 'find_entity.py "functional food" "additive" "organic" "consumer protection": no real record'
+  - 'find_entity.py "breastfeeding" "رضاعة" "pregnancy" "infant" "حمل": 41 records; the usable ones are used in lesson C-1; none on a child''s or an adult''s nutritional needs'
+- code: C1.4
+  text: plan and prepare a food item or items appropriate to the nutritional needs of people at a specific stage of the lifespan
+  why: The expectation is a food-preparation task for a stage of life; no record on foods for a stage of life exists (the infant-feeding records are used in lesson C-1 for C1.1).
+  searches:
+  - 'find_entity.py "breastfeeding" "رضاعة" "pregnancy" "infant" "حمل": 41 records; the usable ones are used in lesson C-1; none on a child''s or an adult''s nutritional needs'
+  - 'find_entity.py "old age" "شيخوخة" "childhood" "عمر": 1009 records, nearly all the name Umar or Muwatta passages; none on food at a stage of life'
+- code: C2.2
+  text: explain the relationship between particular social and emotional conditions […] and unhealthy eating patterns that can contribute to illness and disease
+  why: The expectation is about social and emotional conditions and unhealthy eating patterns; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "diabetes" "السكري" "allergy" "heart disease" "obesity" "سمنة": 6 records: personal names, a place name, a fatwa on praying seated because of obesity, and the fasting fatwa used in lesson C-3; no record on the diseases themselves'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: C2.3
+  text: assess the role of various factors […] in nutrition-related illnesses and health conditions
+  why: The expectation is about heredity, income, geography and lifestyle in nutrition-related illness; the museum holds no record on these illnesses.
+  searches:
+  - 'find_entity.py "diabetes" "السكري" "allergy" "heart disease" "obesity" "سمنة": 6 records: personal names, a place name, a fatwa on praying seated because of obesity, and the fasting fatwa used in lesson C-3; no record on the diseases themselves'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: C2.4
+  text: analyse how specific illnesses, diseases, or medical treatments […] affect people’s nutritional needs
+  why: The expectation is about how illnesses and treatments change nutritional needs; the diet-in-illness records (lesson C-3) concern permitted practice, not nutritional needs.
+  searches:
+  - 'find_entity.py "diabetes" "السكري" "allergy" "heart disease" "obesity" "سمنة": 6 records: personal names, a place name, a fatwa on praying seated because of obesity, and the fasting fatwa used in lesson C-3; no record on the diseases themselves'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: C2.5
+  text: identify and evaluate strategies to prevent food- and nutrition-related diseases and illnesses
+  why: The expectation is about strategies to prevent food- and nutrition-related diseases; the museum holds no record on prevention strategies.
+  searches:
+  - 'find_entity.py "diabetes" "السكري" "allergy" "heart disease" "obesity" "سمنة": 6 records: personal names, a place name, a fatwa on praying seated because of obesity, and the fasting fatwa used in lesson C-3; no record on the diseases themselves'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: C2.6
+  text: plan and prepare a food item or items to meet the nutritional needs of people with a specific illness or disease
+  why: The expectation is a food-preparation task for people with an illness; no record on it exists.
+  searches:
+  - 'find_entity.py "diabetes" "السكري" "allergy" "heart disease" "obesity" "سمنة": 6 records: personal names, a place name, a fatwa on praying seated because of obesity, and the fasting fatwa used in lesson C-3; no record on the diseases themselves'
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+- code: C3.1
+  text: evaluate new and emerging food- and nutrition-related products and services in terms of their real or perceived benefits to Canadian consumers […]
+  why: The expectation is about new food and nutrition products for Canadian consumers; the museum holds no record on such products.
+  searches:
+  - 'find_entity.py "functional food" "additive" "organic" "consumer protection": no real record'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: C3.3
+  text: assess the effects on overall health of various eating patterns and trends […]
+  why: The expectation is about the health effects of eating trends such as low-carbohydrate diets; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "functional food" "additive" "organic" "consumer protection": no real record'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: C3.4
+  text: explain some ways in which scientific research on nutrition and health has influenced government policy […]
+  why: The expectation is about nutrition research shaping Canadian policy such as labelling and trans-fat rules; the museum holds no record on Canadian food policy.
+  searches:
+  - 'find_entity.py "functional food" "additive" "organic" "consumer protection": no real record'
+  - 'find_entity.py "food guide" "dietary guidelines" "قائمة الطعام" "balanced diet": no real record'
+- code: C3.5
+  text: plan and prepare a food item or items using a product that is currently being marketed as a functional food […]
+  why: The expectation is a food-preparation task with a functional food; no record on functional foods exists.
+  searches:
+  - 'find_entity.py "functional food" "additive" "organic" "consumer protection": no real record'
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+- code: D1.2
+  text: explain how and why various social, cultural, and economic factors […] contribute to nutritional inequalities among people within the same community
+  why: The expectation is about social and economic factors in nutritional inequality within a community; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "poverty" "فقر" "poor" "food security": 11 records: poverty in Sufi ethics, zakat and fidya fatwas, poverty and sufficiency in Islam; none connects poverty to food insecurity, nutrition or health'
+  - 'find_entity.py "hunger" "جوع" "famine" "مجاعة": 16 records: famine and dearth events (two used in lesson B-1), one on the effects of plenty and hunger, one memoir; none on food-security measures'
+- code: D1.3
+  text: explain the relationships among poverty, food insecurity, poor nutrition, and poor health
+  why: The expectation is about the relationship among poverty, food insecurity, nutrition and health; the poverty records define who counts as poor and how zakat meets need, and none links poverty to food insecurity or health.
+  searches:
+  - 'find_entity.py "poverty" "فقر" "poor" "food security": 11 records: poverty in Sufi ethics, zakat and fidya fatwas, poverty and sufficiency in Islam; none connects poverty to food insecurity, nutrition or health'
+  - 'find_entity.py "hunger" "جوع" "famine" "مجاعة": 16 records: famine and dearth events (two used in lesson B-1), one on the effects of plenty and hunger, one memoir; none on food-security measures'
+- code: D1.5
+  text: demonstrate the ability to combat food insecurity at the local and global level […]
+  why: The expectation asks students to act against food insecurity (write to a representative, volunteer, fundraise); it names no subject matter the museum can supply.
+  searches:
+  - 'find_entity.py "poverty" "فقر" "poor" "food security": 11 records: poverty in Sufi ethics, zakat and fidya fatwas, poverty and sufficiency in Islam; none connects poverty to food insecurity, nutrition or health'
+  - 'find_entity.py "hunger" "جوع" "famine" "مجاعة": 16 records: famine and dearth events (two used in lesson B-1), one on the effects of plenty and hunger, one memoir; none on food-security measures'
+- code: D2.1
+  text: explain how geographical factors, physical conditions, and natural disasters […] affect food supply and production and water potability
+  why: The expectation is about geography, physical conditions and disasters affecting food supply and water potability; the flood and climate records found do not speak of food supply or drinking water, and the famine records that touch supply are used in lesson B-1.
+  searches:
+  - 'find_entity.py "climate" "drought" "flood" "pollution" "environment" "بيئة": 24 records: floods, climate and environmental-protection essays; grep of the flood records for crop, harvest, grain, wheat, food, price, irrigation and drink found nothing about food supply or drinking water'
+  - 'find_entity.py "hunger" "جوع" "famine" "مجاعة": 16 records: famine and dearth events (two used in lesson B-1), one on the effects of plenty and hunger, one memoir; none on food-security measures'
+- code: D2.2
+  text: explain the effects of various agricultural methods […] on local and/or global food production and yields
+  why: The expectation is about the effects of agricultural methods such as crop rotation on yields; the one related record (manure rulings) is about purity and sale, not methods or yields.
+  searches:
+  - 'find_entity.py "pesticide" "fertilizer" "crop rotation" "تسميد": 1 record: concept/simad, the purity rulings on manure and its sale; nothing on methods or yields'
+  - 'find_entity.py "climate" "drought" "flood" "pollution" "environment" "بيئة": 24 records: floods, climate and environmental-protection essays; grep of the flood records for crop, harvest, grain, wheat, food, price, irrigation and drink found nothing about food supply or drinking water'
+- code: D2.3
+  text: analyse the relationship between various economic, social, and political factors and food supply and production in a particular region or regions […]
+  why: The expectation is about economic, social and political factors in a region's food supply; the hoarding fatwa used in lesson D-2 is a ruling on one practice, not an analysis of a region's supply.
+  searches:
+  - 'find_entity.py "hunger" "جوع" "famine" "مجاعة": 16 records: famine and dearth events (two used in lesson B-1), one on the effects of plenty and hunger, one memoir; none on food-security measures'
+  - 'find_entity.py "poverty" "فقر" "poor" "food security": 11 records: poverty in Sufi ethics, zakat and fidya fatwas, poverty and sufficiency in Islam; none connects poverty to food insecurity, nutrition or health'
+- code: D3.1
+  text: explain how consumer food choices affect the environment, locally and globally […]
+  why: The expectation is about consumer food choices and the environment; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "climate" "drought" "flood" "pollution" "environment" "بيئة": 24 records: floods, climate and environmental-protection essays; grep of the flood records for crop, harvest, grain, wheat, food, price, irrigation and drink found nothing about food supply or drinking water'
+  - 'find_entity.py "functional food" "additive" "organic" "consumer protection": no real record'
+- code: D3.2
+  text: analyse the effect on the environment of various agricultural trends […] and food production technologies […]
+  why: The expectation is about the environmental effects of agricultural trends and technologies; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "climate" "drought" "flood" "pollution" "environment" "بيئة": 24 records: floods, climate and environmental-protection essays; grep of the flood records for crop, harvest, grain, wheat, food, price, irrigation and drink found nothing about food supply or drinking water'
+  - 'find_entity.py "pesticide" "fertilizer" "crop rotation" "تسميد": 1 record: concept/simad, the purity rulings on manure and its sale; nothing on methods or yields'
+- code: D3.3
+  text: analyse the effects of various environmental protection laws and regulations on food supply and production […]
+  why: The expectation is about environmental protection laws and food supply; the one environment record is an author's essay on pollution and gives no law or effect on food supply.
+  searches:
+  - 'find_entity.py "climate" "drought" "flood" "pollution" "environment" "بيئة": 24 records: floods, climate and environmental-protection essays; grep of the flood records for crop, harvest, grain, wheat, food, price, irrigation and drink found nothing about food supply or drinking water'
+  - 'find_entity.py "pesticide" "fertilizer" "crop rotation" "تسميد": 1 record: concept/simad, the purity rulings on manure and its sale; nothing on methods or yields'
+- code: D3.4
+  text: demonstrate an understanding of health, safety, and environmental issues related to food supply and production […], and describe key aspects of legislation that is designed to protect Canadian consumers […]
+  why: The expectation is about health, safety and environmental issues in food production and Canadian consumer legislation; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "climate" "drought" "flood" "pollution" "environment" "بيئة": 24 records: floods, climate and environmental-protection essays; grep of the flood records for crop, harvest, grain, wheat, food, price, irrigation and drink found nothing about food supply or drinking water'
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+- code: E1.1
+  text: describe common accidents that can occur in the kitchen […]
+  why: The expectation is about common kitchen accidents; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "first aid" "burn" "حرق" "fire" "emergency": 80 records, mostly hell-fire passages and burnt-city events; none on kitchen accidents or first aid'
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+- code: E1.2
+  text: demonstrate an understanding of safe practices within the food-preparation area […]
+  why: The expectation is about safe practices in the food-preparation area; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+- code: E1.3
+  text: demonstrate an understanding of appropriate emergency responses to common accidents associated with food preparation […]
+  why: The expectation is about emergency responses to kitchen accidents; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "first aid" "burn" "حرق" "fire" "emergency": 80 records, mostly hell-fire passages and burnt-city events; none on kitchen accidents or first aid'
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+- code: E2.1
+  text: outline the causes and symptoms of food-borne illnesses […] and techniques for preventing these illnesses
+  why: The expectation is about food-borne illnesses and their prevention; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+  - 'find_entity.py "deficiency" "scurvy" "rickets" "anaemia" "نقص": 56 records, all Muwatta passages that contain the word نقص (a shortfall); none about a deficiency disease'
+- code: E2.2
+  text: use appropriate personal hygiene practices to prevent contamination of food […]
+  why: The expectation is about personal hygiene to prevent contamination of food; the museum's records on purity are ritual, not food hygiene.
+  searches:
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+- code: E2.3
+  text: use safe food-handling practices to prevent cross-contamination by pathogens, parasites, and allergens in the food-preparation area […]
+  why: The expectation is about preventing cross-contamination by pathogens, parasites and allergens; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+  - 'find_entity.py "diabetes" "السكري" "allergy" "heart disease" "obesity" "سمنة": 6 records: personal names, a place name, a fatwa on praying seated because of obesity, and the fasting fatwa used in lesson C-3; no record on the diseases themselves'
+- code: E2.4
+  text: follow appropriate protocols to ensure food safety […]
+  why: The expectation is about food-safety protocols such as temperatures and storage; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+- code: E3.1
+  text: identify and select appropriate tools, equipment, and ingredients for use in food preparation
+  why: The expectation is about selecting tools, equipment and ingredients for food preparation; the museum holds no record on kitchen tools.
+  searches:
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+- code: E3.2
+  text: demonstrate the ability to safely use, maintain, clean, and store tools and equipment used in food preparation
+  why: The expectation is about using, maintaining and storing kitchen equipment; the museum holds no record on kitchen equipment.
+  searches:
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+- code: E3.3
+  text: demonstrate the ability to follow a recipe
+  why: The expectation is the ability to follow a recipe; the museum holds no recipes.
+  searches:
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: E3.6
+  text: demonstrate the correct use of food-preparation techniques […]
+  why: The expectation is about food-preparation techniques such as whipping and frying; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+- code: E3.7
+  text: demonstrate the ability to manage time effectively in food preparation
+  why: The expectation is about managing time in food preparation; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+  - 'find_entity.py "kitchen" "hygiene" "contamination" "نظافة" "food poisoning": 2 records: purification by liquids (a ritual topic) and a place named Kitchener; nothing on kitchen or food safety'
+- code: E3.8
+  text: demonstrate the ability to plan, prepare, and serve a food item or items according to set criteria
+  why: The expectation is the ability to plan, prepare and serve a food item to set criteria; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "recipe" "cooking" "وصفة" "kitchen utensil" "طبخ": 5 records: a fatwa on cooking for someone not fasting and source records; no recipes or kitchen tools'
+  - 'find_entity.py "nutrition" "تغذية" "vitamin" "protein": 2 records: a fatwa on poultry feed and a source record on a protein diagram; none about nutrients or nutrition'
+- code: E3.5
+  text: demonstrate the ability to measure quantities accurately […]
+  why: E3.5 is a practical skill (measure quantities accurately); the records found are an old legal dry measure and a religious prohibition, neither of which teaches measuring.
+  searches:
+  - 'entity_brief.py concept/saa --full: tried and removed (an old legal dry measure in ratls and mudds, nothing a cook could measure with today)'
+  - 'entity_brief.py concept/tatfif-short-measure --full: tried and removed (a religious prohibition of short measure, ''forbidden'' and ''major sins'', which adds nothing to measuring accurately)'

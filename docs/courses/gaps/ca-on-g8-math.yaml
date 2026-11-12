@@ -1,0 +1,200 @@
+course: course/ca-on-g8-math
+gaps:
+- code: B1.1
+  text: represent and compare very large and very small numbers, including through the use of scientific notation, and describe various ways they are used in everyday life
+  why: The expectation is about very large and very small numbers and scientific notation; the museum holds place value (records tried at the removed lesson b-1) but nothing on powers of ten as notation or on large and small quantities.
+  searches: &id001
+  - 'find_entity.py "scientific notation" "الأعداد الكبيرة" "powers of ten" "exponent": no real record'
+  - 'grep of the museum for place value: invention/algorism and invention/decimal-fractions-al-uqlidisi hold place value, tried at the removed lesson b-1; neither states scientific notation or very large and very small numbers'
+- code: B2.1
+  text: use the properties and order of operations, and the relationships between operations, to solve problems involving rational numbers, ratios, rates, and percents, including those requiring multiple steps or multiple operations
+  why: The expectation is about the order of operations and problems with rational numbers, ratios, rates and percents; the museum holds no record on these.
+  searches:
+  - 'find_entity.py "percent" "النسبة المئوية" "ratio" "proportion" "النسبة والتناسب": only invention/mahani-successive-quotient-ratios (tried at the removed lesson b-3) and its work record; no record on percents, rates or order of operations'
+  - 'find_entity.py "mental calculation" "الحساب الذهني" "finger reckoning" "حساب العقود" "abacus": no real record'
+- code: B2.2
+  text: understand and recall commonly used square numbers and their square roots
+  why: The expectation is about recalling square numbers and their roots; the museum's root record (lesson b-2) is about approximation, not about recalling squares.
+  searches: *id001
+- code: B2.4
+  text: add and subtract integers, using appropriate strategies, in various contexts
+  why: The expectation is about adding and subtracting integers; the museum holds no record on negative numbers.
+  searches: &id003
+  - 'find_entity.py "negative numbers" "الأعداد السالبة" "integers" "zero" "الصفر": only unrelated events whose names contain the word (a battle, an appointment); no record on integers'
+  - 'find_entity.py "mental calculation" "الحساب الذهني" "finger reckoning" "abacus": no real record'
+- code: B2.5
+  text: add and subtract fractions, using appropriate strategies, in various contexts
+  why: The expectation is about adding and subtracting fractions; the museum holds no record on operations with common fractions.
+  searches: &id002
+  - 'find_entity.py "fractions" "الكسور" "common fractions" "كسر": concept/kasr is a record on a different word (breaking), not on fractions; the other hits are hadith passages on selling with a fraction of a measure'
+  - 'find_entity.py "decimal fractions" "al-Kashi" "الكاشي": decimal fractions only (tried at the removed lesson b-1); no record on operations with common fractions'
+- code: B2.6
+  text: multiply and divide fractions by fractions, as well as by whole numbers and mixed numbers, in various contexts
+  why: The expectation is about multiplying and dividing fractions; the museum holds no record on operations with common fractions.
+  searches: *id002
+- code: B2.7
+  text: multiply and divide integers, using appropriate strategies, in various contexts
+  why: The expectation is about multiplying and dividing integers; the museum holds no record on negative numbers.
+  searches: *id003
+- code: C1.1
+  text: identify and compare a variety of repeating, growing, and shrinking patterns, including patterns found in real-life contexts, and compare linear growing and shrinking patterns on the basis of their constant rates and initial values
+  why: The expectation is about repeating, growing and shrinking patterns of numbers; the museum's pattern record is about tilings (girih is used in lesson e-1).
+  searches: &id004
+  - 'find_entity.py "pattern" "sequence" "المتتالية" "arithmetic progression" "figurate numbers": only visual pattern records (concept/islamic-geometric-patterns, tried at lesson e-1 and removed) and a textile; no record on repeating, growing or shrinking number patterns'
+  - 'find_entity.py "pattern" "sequence" "المتتالية": concept/sunnat-allah is a theological record, not a mathematical one'
+- code: C1.2
+  text: create and translate repeating, growing, and shrinking patterns involving rational numbers using various representations, including algebraic expressions and equations for linear growing and shrinking patterns
+  why: The expectation is about creating patterns with algebraic expressions; the museum holds no record on number patterns.
+  searches: *id004
+- code: C1.3
+  text: determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in growing and shrinking patterns involving rational numbers, and use algebraic representations of the pattern rules to solve for unknown values in linear …
+  why: The expectation is about pattern rules, extension and prediction; the museum holds no record on number patterns.
+  searches: *id004
+- code: C1.4
+  text: create and describe patterns to illustrate relationships among rational numbers
+  why: The expectation is about patterns that illustrate relationships among rational numbers; the museum holds no record on them.
+  searches: *id004
+- code: C2.1
+  text: add and subtract monomials with a degree of 1, and add binomials with a degree of 1 that involve integers, using tools
+  why: The expectation is about adding and subtracting monomials and binomials with tools; the museum's algebra records (lesson c-1) do not teach this and are not offered for it.
+  searches: &id005
+  - 'find_entity.py "algebra" "الجبر" "al-jabr": concept/algebra and concept/al-durub-al-sitta (lesson c-1) are about solving equations; the museum has no prose on adding monomials or evaluating expressions with rational numbers'
+  - 'find_entity.py "inequality" "المتباينة" "equation" "المعادلة": equations only; no record on inequalities'
+- code: C2.2
+  text: evaluate algebraic expressions that involve rational numbers
+  why: The expectation is about evaluating algebraic expressions with rational numbers; the museum's algebra records (lesson c-1) do not teach this and are not offered for it.
+  searches: *id005
+- code: C2.4
+  text: solve inequalities that involve integers, and verify and graph the solutions
+  why: The expectation is about inequalities and graphing their solutions; the museum holds no record on inequalities.
+  searches: *id005
+- code: C3.1
+  text: solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves the analysis of data in order to inform and communicate decisions
+  why: The expectation is about writing and executing code; the museum holds no record on programming, and its algorithm record (invention/algorism) is about numerals.
+  searches: &id006
+  - 'find_entity.py "programming" "computer program" "البرمجة" "automaton": only invention/jazari-musical-boat, whose own prose says a motion pattern in pegs is not proof of computer software'
+  - 'find_entity.py "algorithm" "خوارزمية" "algorism": invention/algorism explains the word algorithm but has nothing on writing, running or altering code'
+- code: C3.2
+  text: read and alter existing code involving the analysis of data in order to inform and communicate decisions, and describe how changes to the code affect the outcomes and the efficiency of the code
+  why: The expectation is about reading and altering code that analyses data; the museum holds no record on code.
+  searches: *id006
+- code: D1.2
+  text: collect continuous data to answer questions of interest involving two variables, and organize the data sets as appropriate in a table of values
+  why: The expectation is about collecting continuous two-variable data into a table; the museum holds no record on collecting such data.
+  searches: &id007
+  - 'find_entity.py "graph" "scatter plot" "statistics" "الإحصاء" "table of values": only two census events (event/abbasid-census-200, event/egypt-census-837) and web-profile sources; no record on collecting two-variable data or choosing graphs'
+  - 'find_entity.py "census" "data" "جدول": nothing on scatter plots, infographics or describing the relationship between two variables'
+- code: D1.3
+  text: select from among a variety of graphs, including scatter plots, the type of graph best suited to represent various sets of data; display the data in the graphs with proper sources, titles, and labels, and appropriate scales; and justify their …
+  why: The expectation is about choosing among graphs, including scatter plots; the museum holds no record on graphs.
+  searches: *id007
+- code: D1.4
+  text: create an infographic about a data set, representing the data in appropriate ways, including in tables and scatter plots, and incorporating any other relevant information that helps to tell a story about the data
+  why: The expectation is about creating an infographic about a data set; the museum holds no record on data displays.
+  searches: *id007
+- code: D1.5
+  text: use mathematical language, including the terms “strong”, “weak”, “none”, “positive”, and “negative”, to describe the relationship between two variables for various data sets with and without outliers
+  why: The expectation is about describing the relationship between two variables as strong, weak, positive or negative; the museum holds no record on it.
+  searches: *id007
+- code: D2.1
+  text: solve various problems that involve probability, using appropriate tools and strategies, including Venn and tree diagrams
+  why: The expectation is about solving problems with probability, Venn and tree diagrams; the museum holds no record on probability.
+  searches: &id008
+  - 'find_entity.py "probability" "الاحتمال" "chance" "likelihood": concept/maysir and concept/nard are about the rulings on games of chance, and have nothing on probability'
+  - 'find_entity.py "dice" "قرعة" "lot": concept/qurra-in-distribution (lots in distribution) is Arabic-only and is about a rule for dividing shares, not about probability'
+- code: D2.2
+  text: determine and compare the theoretical and experimental probabilities of multiple independent events happening and of multiple dependent events happening
+  why: The expectation is about theoretical and experimental probabilities of independent and dependent events; the museum holds no record on probability.
+  searches: *id008
+- code: E1.2
+  text: make objects and models using appropriate scales, given their top, front, and side views or their perspective views
+  why: The expectation is about making models to scale from top, front and side views; the museum holds no record on scale models.
+  searches: &id009
+  - 'find_entity.py "map scale" "مقياس الرسم" "survey" "المساحة" "cartography": survey events (event/uthman-ibn-hunayf-survey and others) and concept/ilm-al-misaha; none shows a scale drawing or a top, front and side view'
+  - 'find_entity.py "scale drawing" "architectural drawing" "plan" "مخطط" "muqarnas": concept/hasht-bihisht-plan and invention/round-city-baghdad are plans of buildings, with no scale or reproduction at different ratios'
+- code: E1.3
+  text: use scale drawings to calculate actual lengths and areas, and reproduce scale drawings at different ratios
+  why: The expectation is about scale drawings, actual lengths and areas; the museum holds no record on scale drawings.
+  searches: *id009
+- code: E1.4
+  text: describe and perform translations, reflections, rotations, and dilations on a Cartesian plane, and predict the results of these transformations
+  why: The expectation is about translations, reflections, rotations and dilations on a Cartesian plane; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "translation reflection" "geometric transformation" "الانعكاس" "الدوران" "tiling": invention/ibn-al-haytham-circular-reflection is about the reflection of light in a mirror, not a reflection on a Cartesian plane; the other hits are unrelated'
+  - 'find_entity.py "symmetry" "التماثل" "rotation": only concept/earth-rotation-ship-analogy and concept/al-harakat-al-ula, which are about astronomy'
+- code: E2.1
+  text: represent very large (mega, giga, tera) and very small (micro, nano, pico) metric units using models, base ten relationships, and exponential notation
+  why: The expectation is about very large and very small metric units and exponential notation; the museum holds no record on metric units.
+  searches:
+  - 'find_entity.py "units of measure" "metric" "مقاييس" "weights and measures" "المكاييل والأوزان" "dhira": concept/dhira-fiqh (the forearm or cubit and its rulings) and nothing on mega, giga, micro or nano units'
+  - 'find_entity.py "scientific notation" "الأعداد الكبيرة" "powers of ten": no real record'
+- code: E2.2
+  text: solve problems involving angle properties, including the properties of intersecting and parallel lines and of polygons
+  why: The expectation is about angle properties of lines and polygons; the museum holds no record that states them.
+  searches:
+  - 'find_entity.py "angle" "الزاوية" "parallel lines" "polygon" "المضلع" "triangle": the hits are trigonometry records (invention/taqi-decimal-trigonometric-tables, invention/abu-wafa-spherical-triangle-methods) and a hadith passage; none states angle properties of lines or polygons'
+  - 'find_entity.py "Euclid" "إقليدس" "Elements": person/uqlidis is a record on the translations and commentaries of the Elements, with nothing on angle properties'
+- code: E2.4
+  text: describe the Pythagorean relationship using various geometric models, and apply the theorem to solve problems involving an unknown side length for a given right triangle
+  why: The expectation is about the Pythagorean relationship; the museum holds no record that states it (the nearest record, on mensuration, is used in lesson e-2 for other formulas).
+  searches:
+  - 'find_entity.py "Pythagorean theorem" "نظرية فيثاغورس" "right triangle" "المثلث القائم" "hypotenuse": no record on the theorem; only a spherical-triangle method and a modern diagram'
+  - 'find_entity.py "Pythagoras" "فيثاغورس": person/fithaghuras says only that al-Mas''udi calls him a Greek philosopher known for teaching sciences of the unseen; concept/ilm-al-misaha classifies triangles as right, acute and obtuse and finds the height of a 13, 14, 15 triangle by al-jabr, but states no Pythagorean relationship'
+- code: F1.2
+  text: create a financial plan to reach a long-term financial goal, accounting for income, expenses, and tax implications
+  why: The expectation is about creating a financial plan toward a goal, with income, expenses and taxes; the museum holds rulings on saving and on state taxes, not household planning.
+  searches: &id010
+  - 'find_entity.py "income" "expenses" "الدخل" "tax" "الضريبة" "kharaj" "jizya": concept/kharaj, concept/jizya and concept/zakat are taxes and levies of the state and of the faith; none is a personal plan for income, expenses and tax'
+  - 'find_entity.py "savings" "الادخار" "budget" "إدارة المال": concept/idkhar-fiqh is about the rulings on saving and storing wealth; it has no budget, tracking of spending or plan toward a goal'
+- code: F1.3
+  text: identify different ways to maintain a balanced budget, and use appropriate tools to track all income and spending, for several different scenarios
+  why: The expectation is about balanced budgets and tools for tracking income and spending; the museum holds no record on household budgets.
+  searches: *id010
+- code: F1.5
+  text: compare various ways for consumers to get more value for their money when spending, including taking advantage of sales and customer loyalty and incentive programs, and determine the best choice for different scenarios
+  why: The expectation is about getting more value when spending, including sales and loyalty programmes; the museum holds no record on consumer offers.
+  searches:
+  - 'find_entity.py "loyalty" "discount" "sale" "حسم" "bargaining" "خيار" "consumer protection" "market inspector" "hisba": concept/hisba and invention/hisba (market supervision) and concept/khiyar-fiqh (the right to annul or confirm a contract); none concerns sales, loyalty programmes or incentives'
+  - 'find_entity.py "credit card" "loan" "debt" "الدين" "القرض": no record on consumer offers (the credit terms of F1.6 are in this register)'
+- code: D1.6
+  text: "analyse different sets of data presented in various ways, including in scatter plots and in misleading graphs, by asking and answering questions about the data, challenging preconceived notions, and drawing conclusions, then make convincing arguments and informed decisions"
+  why: "The only record (al-Kindi's letter counts) is one-variable data; it has no scatter plot, no second variable and no misleading graph."
+  searches:
+  - "invention/frequency-analysis-al-kindi (tried at d-1): letter counts are one-variable data; no scatter plot or two-variable data, so it serves D1.1 only"
+  - "find_entity.py \"scatter plot\" \"statistics\" \"survey\" \"إحصاء\": no record presents two-variable data or a graph to analyse"
+- code: B1.4
+  text: use fractions, decimal numbers, and percents, including percents of more than 100% or less than 1%, interchangeably and flexibly to solve a variety of problems
+  why: The expectation is about using fractions, decimals and percents interchangeably; the museum's place-value records show tenths and hundredths and the digit move of the Indian numerals, but no percents, so the lesson was removed.
+  searches:
+  - 'invention/algorism (tried at b-1): place value to thousands; its digit move from 208 to 280 is not multiplication by ten, and it has no percents'
+  - 'invention/decimal-fractions-al-uqlidisi (tried at b-1): a half as five tenths and half of that as twenty-five hundredths, a Grade 4 task; no percents'
+- code: B2.3
+  text: use mental math strategies to multiply and divide whole numbers and decimal numbers up to thousandths by powers of ten, and explain the strategies used
+  why: The expectation is about mental multiplication and division of decimals by powers of ten; the museum holds place value but no record on powers of ten, so the lesson was removed.
+  searches:
+  - 'invention/algorism (tried at b-1): place value to thousands; its digit move from 208 to 280 is not multiplication by ten'
+  - 'invention/decimal-fractions-al-uqlidisi (tried at b-1): half of a half in hundredths; no powers of ten, no multiplication or division by them'
+- code: B2.8
+  text: compare proportional situations and determine unknown values in proportional situations, and apply proportional reasoning to solve problems in various contexts
+  why: The expectation is about comparing proportional situations and finding unknown values; the only record tried defines ratio through successive quotient sequences, far above Grade 8, and determines no unknown values.
+  searches:
+  - 'invention/mahani-successive-quotient-ratios (tried at b-3): ratio defined through successive quotient sequences (continued fractions), far above Grade 8; it determines no unknown values'
+  - 'find_entity.py "proportion" "ratio" "النسبة والتناسب": no other record states proportional reasoning at this grade (see the run log for a record not checked)'
+- code: F1.1
+  text: describe some advantages and disadvantages of various methods of payment that can be used when dealing with multiple currencies and exchange rates
+  why: The expectation is about methods of payment with multiple currencies and exchange rates; the record tried describes cheques and bills of exchange within one realm, with no currency and no rate, so the lesson was removed.
+  searches:
+  - 'concept/al-sakk-wal-hawala (tried at f-1): the sakk and the hawala as instruments of payment; the boatmen''s bills are drawn and collected within one realm, with no second currency and no exchange rate'
+  - 'find_entity.py "currency" "exchange rate" "الصرف" "العملات" "dinar" "dirham": no record states payment in several currencies or a rate between them'
+- code: F1.4
+  text: determine the growth of simple and compound interest at various rates using digital tools, and explain the impact interest has on long-term financial planning
+  why: The expectation is about simple and compound interest at various rates; the record tried is the jurists' prohibition of riba and their reasons, and a religious ruling is not an interest calculation, so the lesson was removed.
+  searches:
+  - 'concept/riba-fiqh (tried at f-2): the jurists'' definition, prohibition and reasons; no interest rate, no growth of a sum, no calculation'
+  - 'find_entity.py "interest" "compound interest" "الفائدة" "loan" "القرض": no record on the calculation of interest'
+- code: F1.6
+  text: compare interest rates, annual fees, and rewards and other incentives offered by various credit card companies and consumer contracts to determine the best value and the best choice for different scenarios
+  why: The expectation is about comparing interest rates, fees and incentives of credit offers; the record tried is the jurists' prohibition of riba and their reasons, which compares no offers, so the lesson was removed.
+  searches:
+  - 'concept/riba-fiqh (tried at f-2): the jurists'' definition, prohibition and reasons; no rates, annual fees or rewards to compare'
+  - 'find_entity.py "credit card" "loan" "debt" "الدين" "القرض": no record on consumer credit offers'

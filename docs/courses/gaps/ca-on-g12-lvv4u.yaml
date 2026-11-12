@@ -1,0 +1,204 @@
+course: course/ca-on-g12-lvv4u
+gaps:
+- code: A1.1
+  text: formulate different types of questions to guide research and facilitate making predictions and inferences about aspects of classical civilizations […]
+  why: 'skills expectation: names no subject matter'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: use decoding strategies […] and information technology […] to understand unfamiliar vocabulary, writing and numerical systems, and textual and visual representations in a broad range of classical sources […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.4
+  text: select information derived from oral and written forms of ancient Greek and Latin primary sources in translation […], from ancient Greek and Roman visual sources […], and from secondary sources about the classical world […], and organize the material using criteria appropriate to …
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.5
+  text: demonstrate academic integrity by acknowledging all contributions from collaborative inquiry and all extracts and other information from written, graphic, and electronic sources that they have used to support and enhance their oral, written, and multimedia presentations in classical studies, using …
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.1
+  text: make inferences about the cultural characteristics, customs, and values of the classical world based on an analysis of information gathered in research […]
+  why: The expectation asks for inferences about the customs and values of classical societies (roles of women, attitudes to democracy, slavery and manumission); the museum holds no record on these in the classical world.
+  searches:
+  - 'find_entity.py "slavery" "الرق" "العتق" "manumission": 220 records, all on Islamic bondage and manumission (concept/riq-fiqh, concept/itq-fiqh, the Muwatta books); none on slavery in the classical world'
+  - 'find_entity.py "citizen" "polis" "Athens" "women in antiquity": place/athens treats Muslim contact and Ottoman rule only; no record on classical citizenship or gender roles'
+- code: A3.1
+  text: communicate orally about the classical world for a wide range of purposes and audiences, using a variety of communication strategies and demonstrating effective word choice, clear expression, convincing delivery, and accurate use of Latin and ancient Greek when required […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.2
+  text: demonstrate responsible, constructive behaviour in interactions with others in a collaborative setting […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.3
+  text: plan and produce a variety of literary, informational, and graphic texts about the classical world for a wide range of purposes and audiences, using effective words, images, and language structures, correct grammar, and a range of editing and revising strategies […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.4
+  text: summarize and paraphrase information in original texts in translation, orally and in writing, to communicate and consolidate their understanding of the classical world […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.5
+  text: accurately transcribe words in ancient Greek, transliterate words from ancient Greek into the Latin alphabet and ancient Greek and Roman numerals into Arabic numerals, and identify English words derived from Latin and ancient Greek […]
+  why: The expectation is about transcribing Greek, transliterating it and tracing English words derived from Greek and Latin; the museum holds no record on the Greek or Latin scripts or on English etymology.
+  searches:
+  - 'find_entity.py "Greek alphabet" "Latin" "اليونانية" "اللاتينية" "writing systems": 23 records, none on the Greek or Latin scripts or numerals (the Latin items are translations of Arabic works)'
+  - 'find_entity.py "etymology" "Greek loanwords" "الدخيل" "المعرب": 3 records, unrelated (Dakhilallah, Al Dakheel Mosque, abjad letters of Madyan)'
+- code: A3.6
+  text: select appropriate media and delivery styles to produce, share, and disseminate products related to their learning […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.1
+  text: develop and outline learning plans to initiate and guide inquiries into the influence of the classical world on the history and culture of later societies, including contemporary societies […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.2
+  text: determine whether and how their learning about the classical world enhances their understanding of other academic and non-academic areas of life […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B1.1
+  text: identify and describe different types of classical myths and their characteristics […]
+  why: The expectation is about types of Greek and Roman myth; the museum holds no record on classical mythology.
+  searches:
+  - 'find_entity.py "myth" "أسطورة" "Greek mythology" "خرافة": 4 records, none on Greek or Roman myth (Bahira legend, Amina legend, Sinbad film, Ziryab study)'
+  - 'find_entity.py "Daedalus" "Icarus" "Persephone" "Oedipus" "Gaia" "Prometheus": no real record; grep -ril "greek myth\|mythology" content/en finds no relevant record'
+- code: B1.2
+  text: describe the context and meaning of some ancient Greek and Roman myths in classical times […]
+  why: The expectation asks for the context and meaning of named Greek and Roman myths; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "Delphi" "Olympus" "Zeus" "زيوس" "آلهة اليونان": 2 records, neither on Greek religion or myth (place/philadelphia is the American city, the other a cataract-surgery source)'
+  - 'find_entity.py "Daedalus" "Icarus" "Persephone" "Oedipus" "Gaia" "Prometheus": no real record'
+- code: B2.1
+  text: identify various genres found in classical literature and describe their characteristics […]
+  why: The expectation is about classical literary genres (epic, lyric, comedy); the museum holds no record on Homer, Catullus or Greek drama.
+  searches:
+  - 'find_entity.py "Homer" "هوميروس" "Iliad" "إلياذة" "Odyssey": no real record'
+  - 'find_entity.py "Greek drama" "tragedy" "comedy" "مسرح" "theatre": 5 records, none on classical theatre (Bir Mauna tragedy, a revolt, two news items on a modern comedian)'
+- code: B2.2
+  text: identify, in works of classical literature in English translation, some common themes […] and stylistic devices […], and describe various ways in which they have been used by classical writers
+  why: The expectation is about themes and devices in classical literary works in translation; the museum holds no record on any such work.
+  searches:
+  - 'find_entity.py "epic" "ملحمة" "Gilgamesh" "جلجامش": 7 records, all battles (ملحمة in the sense of great battle) or the Epic Signs concept; none on epic poetry'
+  - 'find_entity.py "Homer" "هوميروس" "Iliad" "Odyssey": no real record; grep -ril "odysseus\|homer" content/en: 0 files'
+- code: B3.1
+  text: identify mythological and literary words, phrases, and terms in English derived from ancient Greek and Latin and use them correctly […]
+  why: The expectation is about English words derived from Greek and Latin myth and literature; the museum holds no record on English etymology.
+  searches:
+  - 'find_entity.py "etymology" "Greek loanwords" "الدخيل" "المعرب": 3 records, unrelated to English derivatives'
+  - 'find_entity.py "terminology" "Greek derived words" "etymological" "ethics" "أخلاق": 13 records, none on English words from Greek or Latin'
+- code: B3.2
+  text: describe the characteristics of various writing systems used in the classical world, including some key similarities and differences among them […]
+  why: The expectation is about Linear A, Linear B, the Greek, Etruscan and Latin alphabets and hieroglyphs; the museum holds no record on these writing systems.
+  searches:
+  - 'find_entity.py "Linear B" "hieroglyphs" "الهيروغليفية" "Egyptian writing": 7 records, none on these scripts (astrolabe and mathematical inventions that merely contain "linear")'
+  - 'find_entity.py "Greek alphabet" "Latin" "اليونانية" "writing systems": 23 records, none on the Greek, Etruscan or Latin alphabets'
+- code: B4.1
+  text: identify and describe parallels and/or relationships between classical myths or literary works and those of other cultures, including examples of classical influences on the cultural products of later societies […]
+  why: The expectation asks for parallels between classical myths and those of other cultures (Gilgamesh and the Odyssey, Sedna and Hesiod); the museum holds no record on any of these works.
+  searches:
+  - 'find_entity.py "epic" "ملحمة" "Gilgamesh" "جلجامش": no record on the Epic of Gilgamesh'
+  - 'find_entity.py "Homer" "هوميروس" "Iliad" "Odyssey": no real record; grep -ril "gilgamesh" content/en: 0 files'
+- code: B4.2
+  text: explain how various themes from classical mythology and literature relate to and/or enhance their understanding of contemporary socio-political issues […]
+  why: The expectation asks how classical myths bear on contemporary issues (the Trojan War, Daedalus and Icarus, Gaia); the museum holds no record on these myths.
+  searches:
+  - 'find_entity.py "Daedalus" "Icarus" "Persephone" "Oedipus" "Gaia" "Prometheus": no real record'
+  - 'find_entity.py "Troy" "Knossos" "Mycenae" "طروادة" "Schliemann": no real record'
+- code: C1.2
+  text: analyse and describe the political and socio-economic structures associated with different periods and societies in the classical world, including the degree to which they exemplified concepts of social justice, equity, and diversity […]
+  why: The expectation is about the political and social structures of the Greek polis and Rome, and ideas such as the barbarian; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "citizen" "polis" "city-state" "democracy" "Athens": place/athens (Muslim contact and Ottoman rule only), place/acropolis-of-athens (no prose); none on the polis or its citizens'
+  - 'find_entity.py "barbarian" "برابرة" "social justice" "women in antiquity" "gender": 3 records, none on the classical barbarian concept (Berbers at Cordoba, a news source)'
+- code: C2.1
+  text: identify key topographical features in the ancient Mediterranean world […], and explain the relationship of topography to human settlement patterns in the region […]
+  why: The expectation is about the topography of the ancient Mediterranean and settlement patterns; the museum holds no record on classical topography.
+  searches:
+  - 'find_entity.py "Mediterranean" "Sicily" "Crete" "Cyprus" "Greece" "اليونان": place/greece and place/mediterranean-sea have no prose; Sicily, Cyprus and Crete are records of the Islamic period'
+  - 'find_entity.py "Rome" "روما" "Romans": place/rome has no prose; place/rumah is a medieval description of Rome by al-Idrisi and event/antioch-sulayman-477 concerns the Islamic period'
+- code: C2.2
+  text: describe ways in which humans interacted with physical geography to shape the environment to their needs and aspirations in classical times […]
+  why: The expectation is about aqueducts, roads, frontiers and harbours of the Roman world; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "aqueduct" "Roman road" "قناطر" "Roman bridge" "water supply": 10 records, all later bridges or a strife at a bridge in Baghdad; none Roman'
+  - 'grep -ril "aqueduct" content/en/{concept,place,building,event}: 8 files (al-Aflaj, Edirne, Tunis, al-Qatai, Adiyaman, Bir Yusuf, Ibn Tulun mosque, Nilometer), all Islamic-period waterworks'
+- code: C3.1
+  text: identify historical, political, legal, and geographical words, phrases, and terms in English derived from ancient Greek and Latin and use them correctly […]
+  why: The expectation is about English historical and political words derived from Greek and Latin; the museum holds no record on English etymology.
+  searches:
+  - 'find_entity.py "etymology" "Greek loanwords" "الدخيل" "المعرب": 3 records, unrelated'
+  - 'find_entity.py "terminology" "Greek derived words" "etymological": 13 records, none on English derivatives'
+- code: C4.2
+  text: describe ways in which knowledge of Greek and Roman history and geography relates to and enhances their understanding of political, social, and economic events and issues in other cultures, including in modern times […]
+  why: The expectation asks how knowledge of Roman expansion, Athenian democracy and Roman law explains other empires and modern political systems; the museum holds no record on Roman economics, Athenian democracy or Roman law (its one Roman-power record is used for C4.1).
+  searches:
+  - 'find_entity.py "Byzantine" "الروم" "Constantinople" "Roman Empire" "الإمبراطورية الرومانية": polity/byzantine-empire is the one record on the Roman power and answers C4.1; none on the economics of Roman expansion'
+  - 'find_entity.py "citizen" "polis" "democracy" "Roman law" "القانون الروماني": place/athens and concept/al-dimuqratiyya-wal-sharia (a modern debate on democracy and the Sharia) say nothing of Athenian democracy or Roman law'
+- code: D2.1
+  text: identify classical religions, religious practices, and religious institutions, and demonstrate an understanding of their significance for their adherents […]
+  why: The expectation is about Greek and Roman religions, priesthoods and rites; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "oracle" "pagan" "paganism" "sacrifice" "temple" "الوثنية" "Sabians" "الصابئة": 41 records, none on Greek or Roman cult (aqiqa, the sacrifice of Ismail, and concept/sabians-sabia, a ruling on the Sabians)'
+  - 'find_entity.py "Delphi" "Olympus" "Zeus" "آلهة اليونان": 2 unrelated records'
+- code: D2.2
+  text: analyse ways in which classical religions and other religions of the ancient world influenced one another […]
+  why: The expectation is about syncretism among classical religions and the rise of Christianity in the Roman world; the museum holds no record on these.
+  searches:
+  - 'find_entity.py "Christianity" "Jesus" "church" "Judaea": 27 records on Christianity in Arabia and church incidents in Baghdad; none on Judaea or the Roman adoption of Christianity'
+  - 'find_entity.py "Justinian" "Roman law" "Constantine" "Heraclius" "هرقل": place/constantine is Qusantina in Algeria; person/heraclius concerns the letters of the Prophet, not Roman religion'
+- code: D3.1
+  text: identify philosophical, scientific, and religious words, phrases, and terms in English derived from ancient Greek and Latin and use them correctly […]
+  why: The expectation is about English philosophical, scientific and religious words derived from Greek and Latin; the museum holds no record on English etymology.
+  searches:
+  - 'find_entity.py "etymology" "Greek loanwords" "الدخيل" "المعرب": 3 records, unrelated'
+  - 'find_entity.py "terminology" "Greek derived words" "etymological" "ethics": 13 records, none on English derivatives'
+- code: E1.1
+  text: describe important discoveries in the history of archaeological investigations of classical sites and their significance for our understanding of classical cultures […]
+  why: The expectation is about the excavations of Troy, Mycenae, Knossos, Pompeii and the Palatine; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "Troy" "Knossos" "Mycenae" "طروادة" "Schliemann": no real record'
+  - 'find_entity.py "archaeology" "excavation" "Pompeii" "علم الآثار" "تنقيب": 9 records, none on excavations of classical sites (EAMENA covers the Middle East and North Africa)'
+- code: E1.2
+  text: describe past and contemporary practices used in archaeological investigations of classical sites […]
+  why: The expectation is about methods of archaeological survey, excavation and dating at classical sites; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "radiocarbon" "carbon dating" "geophysical survey" "archaeological survey" "المسح الأثري": no real record'
+  - 'find_entity.py "archaeology" "excavation" "Pompeii" "علم الآثار": 9 records, none on archaeological method'
+- code: E1.3
+  text: "identify and explain practical and ethical issues arising from archaeological investigations of classical sites […]"
+  why: "The expectation asks the student to investigate a classical site archaeologically. The museum's record of Athens is an Encyclopaedia of Islam history of the town, with its conversion to a mosque, the 1687 bomb and a wall built of ancient remains, and says nothing about archaeological investigation."
+  searches:
+  - "entity_brief.py place/athens --full: a history of the town after antiquity from the Encyclopaedia of Islam; it holds no excavation, survey, find or method"
+  - "find_entity.py \"archaeology\" \"آثار\" \"excavation\" \"حفريات\": records of sites and finds in the Muslim world, none a classical site investigated by archaeologists"
+- code: E1.4
+  text: demonstrate knowledge and understanding of the periods, styles, and media of classical art and architecture […]
+  why: The expectation is about periods, styles and media of Greek and Roman art and architecture; the museum holds no record on them (its one coin record is used for E4.1).
+  searches:
+  - 'find_entity.py "mosaic" "fresco" "statue" "coin" "sculpture" "تمثال" "فسيفساء": 10 records on Islamic mosaics, coins and sculpture; the one that bears on a Greek model is concept/pre-islamic-arabian-coinage, used in lesson e-2 for E4.1'
+  - 'find_entity.py "arch" "column" "Pantheon" "Colosseum" "amphitheatre" "hippodrome": 26 records; building/hagia-sophia is Byzantine and Ottoman, place/malab-iskandariyya is a legend of a festival, neither a classical style'
+- code: E2.1
+  text: use information about ancient Greek and Roman material culture to make inferences about the social organization and customs of classical cultures […]
+  why: The expectation asks for inferences about classical social organisation from burials, seating and houses; the museum holds no record on these remains.
+  searches:
+  - 'find_entity.py "villa" "insula" "forum" "Roman house" "ancient Greek architecture": 23 records, none on classical houses (hits are discussion forums)'
+  - 'find_entity.py "amphitheatre" "hippodrome" "Pompeii": place/malab-iskandariyya records a festival legend, not seating or social class'
+- code: E2.2
+  text: use evidence from architectural structures and archaeological finds to make inferences about the technological capabilities of classical societies, including in fields such as engineering, transportation, war, and agriculture […]
+  why: The expectation is about Greek and Roman engineering (tholos tombs, roads, the arch, cement); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "aqueduct" "Roman road" "قناطر" "water supply": 10 records, none Roman'
+  - 'find_entity.py "arch" "column" "Pantheon" "Colosseum": 26 records, none on Roman engineering'
+- code: E3.1
+  text: identify English words, phrases, and terms related to material culture that are derived from ancient Greek and Latin and use them correctly […]
+  why: The expectation is about English archaeological and architectural words derived from Greek and Latin; the museum holds no record on English etymology.
+  searches:
+  - 'find_entity.py "etymology" "Greek loanwords" "الدخيل" "المعرب": 3 records, unrelated'
+  - 'find_entity.py "terminology" "Greek derived words" "etymological": 13 records, none on English derivatives'
+- code: E4.2
+  text: describe ways in which their knowledge of classical material culture relates to and enhances their understanding of other cultures and fields of human activity from classical times to the present […]
+  why: The expectation is about water supply, waste management and classical architectural styles in later public buildings; the museum holds no record on classical infrastructure.
+  searches:
+  - 'find_entity.py "aqueduct" "Roman road" "قناطر" "water supply": 10 records, none Roman'
+  - 'find_entity.py "Hagia Sophia" "Greek fire" "Byzantine architecture": building/hagia-sophia is Byzantine and Ottoman, not a classical style whose reuse the record discusses'

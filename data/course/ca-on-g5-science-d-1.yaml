@@ -1,0 +1,70 @@
+id: course/ca-on-g5-science-d-1
+class: course
+kind: lesson
+label:
+  en: 'Floods and earthquakes: what happens to structures'
+  ar: 'السيل والزلزلة: ما يحدث للمنشآت'
+  ur: 'سیلاب اور زلزلہ: ڈھانچوں کا کیا ہوتا ہے'
+summary:
+  en: What forces from nature, a flood and an earthquake, do to the structures of a town, and a rebuilding afterward (D1.1, D2.2).
+  ar: ما تفعله قوى طبيعية، السيل والزلزلة، ببنيان مدينة، وإعادة بناء بعدها، التوقعان D1.1 وD2.2.
+  ur: قدرتی قوتیں، سیلاب اور زلزلہ، ایک شہر کی عمارتوں کے ساتھ کیا کرتی ہیں، اور اس کے بعد تعمیرِ نو، توقعات D1.1، D2.2۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g5-science-d
+expectations:
+- code: D1.1
+  text:
+    en: analyse the effects of forces from natural phenomena on structures in natural and built environments
+    ar: حلِّل آثار القوى الناتجة عن الظواهر الطبيعية في المنشآت في البيئات الطبيعية والمبنية
+    ur: قدرتی مظاہر سے پیدا ہونے والی قوتوں کے قدرتی اور تعمیر شدہ ماحول میں ڈھانچوں پر اثرات کا تجزیہ کریں
+- code: D2.2
+  text:
+    en: identify external forces acting on a structure, and describe their effects on the structure
+    ar: تعرَّف إلى القوى الخارجية المؤثرة في منشأة، وصِف آثارها فيها
+    ur: ڈھانچے پر عمل کرنے والی بیرونی قوتوں کی نشاندہی کریں اور ڈھانچے پر ان کے اثرات بیان کریں
+connections:
+- position: before
+  kind: story
+  title:
+    en: A night flood in Damascus
+    ar: سيل ليلي في دمشق
+    ur: دمشق میں رات کا سیلاب
+  text:
+    en: In Sha'ban 683 AH, the chronicle says, a huge flood came at night in Damascus. Houses were destroyed and the rivers were blocked. The water broke the locks of the Faradis Gate, entered as far as the Muqaddamiyya college, and broke the bridge of the Faradis Gate. On which of these structures did the water act, and how?
+    ar: في شعبان سنة 683هـ كانت الزيادة الهائلة بدمشق بالليل، وخربت البيوت وانطمّت الأنهار، وكسر الماء أقفال باب الفراديس ودخل حتى وصل إلى مدرسة المقدمية، وكسر جسر باب الفراديس. على أي هذه المنشآت عمل الماء، وكيف؟
+    ur: خبر کے مطابق شعبان 683 ہجری میں دمشق میں رات کو بہت بڑا سیلاب آیا۔ گھر برباد ہو گئے اور دریا بند ہو گئے۔ پانی نے باب الفرادیس کے تالے توڑ دیے، مدرسہ مقدمیہ تک پہنچا اور باب الفرادیس کا پل توڑ دیا۔ پانی نے ان میں سے کن عمارتوں پر اثر کیا اور کیسے؟
+  entity: event/damascus-flood-683
+  sources:
+  - source/shadharat-dhahab
+- position: within
+  kind: story
+  title:
+    en: What fell in the earthquake of 425
+    ar: ما سقط في زلزلة سنة 425
+    ur: 425 ہجری کے زلزلے میں کیا گرا
+  text:
+    en: In 425 AH, the chronicle says, Ramla was shaken and about half of it was destroyed. Villages sank into the ground, part of the wall of Jerusalem fell, and the minaret of the mosque of Ascalon collapsed. The same entry says the sea receded about three leagues and then returned. Which of these structures would you expect to suffer most, and why?
+    ar: في سنة 425هـ، بحسب الخبر، زُلزلت الرملة فهُدم نحو نصفها وخُسف بقرى وسقط بعض حائط بيت المقدس وسقطت منارة جامع عسقلان. ويذكر الخبر نفسه أن البحر جزر نحو ثلاثة فراسخ ثم عاد الماء. أي هذه المنشآت تتوقع أن يصيبها الضرر الأكبر، ولماذا؟
+    ur: خبر کے مطابق 425 ہجری میں رملہ ہلا اور اس کا تقریباً آدھا حصہ ڈھ گیا۔ بستیاں زمین میں دھنس گئیں، بیت المقدس کی فصیل کا کچھ حصہ گر گیا اور عسقلان کی جامع مسجد کا مینار گر پڑا۔ اسی اندراج میں ہے کہ سمندر تقریباً تین فرسخ پیچھے ہٹا اور پھر پانی لوٹ آیا۔ ان میں سے کون سی عمارتوں کو آپ سب سے زیادہ نقصان کی توقع کریں گے اور کیوں؟
+  entity: event/earthquake-tsunami-425
+  sources:
+  - source/shadharat-dhahab
+- position: after
+  kind: place
+  title:
+    en: Rebuilding al-Aqsa after the earthquake
+    ar: إعادة بناء الأقصى بعد الزلزلة
+    ur: زلزلے کے بعد اقصیٰ کی تعمیرِ نو
+  text:
+    en: The earthquake of 1033 devastated Jerusalem. The Fatimid caliph al-Zahir rebuilt al-Aqsa between 1034 and 1036, and the work was completed under al-Mustansir in 1065. The new mosque was smaller than its predecessor, with seven aisles instead of fifteen. What changed in the mosque when it was rebuilt?
+    ar: 'كانت زلزلة سنة 1033م مدمرة على بيت المقدس كلها، فأعاد الخليفة الفاطمي الظاهر بناء الأقصى بين 1034 و1036م وأُكمل العمل في خلافة المستنصر سنة 1065م. وكان المسجد الجديد أصغر من سلفه: سبعة أروقة بدل خمسة عشر. ماذا تغيّر في المسجد حين أُعيد بناؤه؟'
+    ur: '1033 عیسوی کے زلزلے نے پورے بیت المقدس کو تباہ کر دیا۔ فاطمی خلیفہ الظاہر نے 1034 سے 1036 عیسوی کے درمیان اقصیٰ کو دوبارہ تعمیر کروایا اور کام 1065 عیسوی میں المستنصر کے دور میں مکمل ہوا۔ نئی مسجد اپنی پیش رو سے چھوٹی تھی: پندرہ کی جگہ سات رواق۔ مسجد کی تعمیرِ نو میں کیا بدل گیا؟'
+  entity: event/aqsa-fatimid-rebuild
+  sources:
+  - source/encyclopaedia-of-islam-2
+order: 1

@@ -1,0 +1,65 @@
+id: course/ca-on-g8-science-e-1
+class: course
+kind: lesson
+label:
+  en: Sharing and carrying water
+  ar: اقتسام الماء وإيصاله
+  ur: پانی کی تقسیم اور ترسیل
+summary:
+  en: 'How water use was managed and supplied in a community: who may use it, how it was brought, and who kept the channels working (E2.7).'
+  ar: 'كيف أُدير استعمال الماء وأُوصل في مجتمع: من يحق له استعماله، وكيف جُلب، ومن حافظ على القنوات، التوقع E2.7.'
+  ur: 'کسی معاشرے میں پانی کے استعمال کا انتظام اور ترسیل کیسے ہوئی: اسے کون استعمال کر سکتا ہے، وہ کیسے لایا گیا، اور نالیوں کو کون چلتا رکھتا تھا، توقع E2.7۔'
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g8-science-e
+expectations:
+- code: E2.7
+  text:
+    en: explain how municipalities process water and manage water usage
+    ar: اشرح كيف تعالج البلديات المياه وكيف تدير استعمالها
+    ur: وضاحت کریں کہ بلدیات پانی کو کیسے صاف اور پروسیس کرتی ہیں اور اس کے استعمال کا انتظام کیسے کرتی ہیں
+connections:
+- position: before
+  kind: story
+  title:
+    en: Who has the first turn at the water?
+    ar: من له أول نوبة في الماء؟
+    ur: پانی پر پہلی باری کس کی؟
+  text:
+    en: The Kuwaiti Encyclopedia of Fiqh (al-Mawsu'a al-Fiqhiyya al-Kuwaitiyya), on shirb, the right to water, sorts waters into four kinds by ownership and use, and says public water, like great rivers and mountain springs, belongs to all. It states that when water is short the one first to bring the land to life has priority, but that a person who needs water to drink goes before one who needs it for land, and that cleaning public canals is paid from the treasury of the Muslims. Whose needs come first where you live?
+    ar: تقسم الموسوعة الفقهية الكويتية، في الكلام على الشِّرب، المياه أربعة أنواع بالنظر إلى تملكها والانتفاع بها، وتقول إن الماء العام، كالأنهار الكبيرة والعيون في الجبال، حق للناس جميعًا. وتذكر أنه إذا قل الماء قُدّم السابق في الإحياء، وأن المحتاج إلى الماء للشرب يُقدَّم على من يحتاجه لسقي الأرض، وأن مؤنة كرى الأنهار العامة من بيت مال المسلمين. فحاجة من تُقدَّم أولًا في مكان إقامتك؟
+    ur: کویتی فقہی انسائیکلوپیڈیا ⁦(الموسوعۃ الفقہیۃ الکویتیۃ)⁩ شِرب ⁦(پانی کے حق)⁩ کے بیان میں پانی کو ملکیت اور استعمال کے لحاظ سے چار اقسام میں بانٹتا ہے، اور کہتا ہے کہ عام پانی، جیسے بڑے دریا اور پہاڑوں کے چشمے، سب لوگوں کا حق ہے۔ وہ بتاتا ہے کہ جب پانی کم ہو تو زمین آباد کرنے میں پہل کرنے والے کو ترجیح ملتی ہے، مگر پینے کے لیے پانی چاہنے والا زمین کے لیے چاہنے والے سے پہلے آتا ہے، اور عام نہروں کی صفائی کا خرچ مسلمانوں کے بیت المال سے ہے۔ جہاں آپ رہتے ہیں وہاں کس کی ضرورت پہلے آتی ہے؟
+  entity: concept/shirb-water-rights
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+- position: within
+  kind: story
+  title:
+    en: Public water in a wall
+    ar: ماء للناس في جدار
+    ur: دیوار میں لوگوں کا پانی
+  text:
+    en: The record on the sabil, the public water building, follows al-Haddad. It says sabils drew their water from wells, pools and springs, or from rain and floods through well-built channels or pipes hidden in the walls, and that some had one or two cisterns and stone or marble basins. They received great care in their siting and building, and in the many endowments that kept them working. Who today keeps a public supply running?
+    ar: يتبع سجل السبيل، أي مبنى الماء العام، ما يقوله الحداد. فقد كانت الأسبلة تستمد ماءها من الآبار والبرك والعيون أو من الأمطار والسيول بقنوات محكمة أو أقصاب مغيبة في الجدران، وبعضها زُوّد بصهريج أو صهريجين وبأحواض من الحجر أو الرخام. وحظيت بعناية في اختيار مواقعها وعمارتها، وفي الأوقاف الكثيرة التي وُقفت عليها لدوام منفعتها. فمن يُبقي اليوم إمدادًا عامًا بالماء قائمًا؟
+    ur: سبیل، یعنی عوامی پانی کی عمارت، کا ریکارڈ الحداد کی پیروی کرتا ہے۔ وہ بتاتا ہے کہ سبیلیں اپنا پانی کنوؤں، تالابوں اور چشموں سے، یا بارش اور سیلاب سے محکم نالیوں یا دیواروں میں چھپی نلیوں کے ذریعے لیتی تھیں، اور بعض میں ایک یا دو حوض اور پتھر یا سنگِ مرمر کے حوضچے تھے۔ ان کی جگہ کے انتخاب اور تعمیر میں بڑی احتیاط برتی جاتی تھی، اور ان کے چلتے رہنے کے لیے بہت سے اوقاف تھے۔ آج عوامی پانی کی فراہمی کو کون چلتا رکھتا ہے؟
+  entity: concept/sabil
+  sources:
+  - source/haddad-asbila-makka-madina-2004
+- position: after
+  kind: invention
+  title:
+    en: Finding a route for hidden water
+    ar: البحث عن مسار للماء الخفي
+    ur: پوشیدہ پانی کے لیے راستہ تلاش کرنا
+  text:
+    en: In The Extraction of Hidden Waters, the record says, al-Karaji describes levels and surveying procedures inside a manual that follows water from exploration to maintenance and handover. It explains a qanat as a gently sloping underground tunnel that brings water out by gravity, with vertical shafts for working, access and maintenance, and stresses that this is a refinement, not the invention of qanats. Why must the route neither climb against the flow nor lose its direction?
+    ar: يذكر السجل أن الكرجي يشرح في «إنباط المياه الخفية» موازين وطرائق للتسوية وتوجيه الحفر، ضمن كتاب يتابع الماء من البحث عنه إلى صيانة القناة وتسليم العمل. والقناة الجوفية نفق ذو انحدار لطيف يخرج الماء بالجاذبية، وتتصل به فتحات رأسية للعمل والوصول والصيانة، ويؤكد السجل أن هذا تحسين لا اختراع للقنوات. لماذا يجب ألا يرتفع المسار في وجه الجريان ولا يضل اتجاهه؟
+    ur: ریکارڈ بتاتا ہے کہ کرجی «انباطِ میاہِ خفیہ» میں سطح بندی اور کھدائی کی سمت درست رکھنے کے آلات اور طریقے بیان کرتا ہے، ایک ایسی کتاب کے اندر جو پانی کے ساتھ اس کی تلاش سے لے کر دیکھ بھال اور حوالگی تک چلتی ہے۔ زیرزمین قنات ہلکی ڈھلان والی سرنگ ہے جو پانی کو ثقل سے باہر لاتی ہے، اور اس سے کام، رسائی اور دیکھ بھال کے لیے عمودی سوراخ جڑے ہوتے ہیں؛ ریکارڈ زور دیتا ہے کہ یہ بہتری ہے، قناتوں کی ایجاد نہیں۔ راستے کو بہاؤ کے خلاف چڑھنا کیوں نہیں چاہیے اور اپنی سمت کیوں نہیں کھونی چاہیے؟
+  entity: invention/karaji-qanat-surveying
+  sources:
+  - source/karaji-ataie-simmons-2020
+order: 1

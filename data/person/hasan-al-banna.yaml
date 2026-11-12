@@ -1,0 +1,38 @@
+id: person/hasan-al-banna
+class: person
+label: { ar: "حسن البنا", en: "Hasan al-Banna", ur: "حسن البنا" }
+names:
+  - { kind: full, lang: en, value: "Hasan b. Ahmad b. 'Abd al-Rahman al-Banna" }
+  - { kind: full, lang: ar, value: "حسن بن أحمد بن عبد الرحمن البنا" }
+  - { kind: nisba, lang: ar, value: "البنا" }
+summary:
+  ar: "حسن البنا، معلم مصري وُلد سنة 1906 وأسس سنة 1928 في الإسماعيلية جمعية الإخوان المسلمين، وكان مرشدها العام. نشأ في بيت والده الساعاتي المشتغل بعلوم الحديث، وتعلم في دمنهور ودار العلوم بالقاهرة، وعمل مدرساً في الإسماعيلية حتى 1933 ثم في القاهرة. اتسع نشاط حركته منذ 1936 ودخلت السياسة، وحُلّت جمعيته في كانون الأول 1948، واغتيل في 12 شباط 1949 {cite:encyclopaedia-of-islam-2 vol. 1 p. 1078} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1101} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1102}."
+  en: "Hasan al-Banna, an Egyptian teacher born in 1906, founded the Society of the Muslim Brothers in Isma'iliyya in 1928 and led it as General Guide. Raised in the house of his father, a watch-maker who studied the traditional sciences, he studied at Damanhur and at the Dar al-'Ulum in Cairo, and taught in Isma'iliyya until 1933 and then in Cairo. His movement grew and entered politics from 1936, its organisation was ordered dissolved in December 1948, and he was assassinated on 12 February 1949 {cite:encyclopaedia-of-islam-2 vol. 1 p. 1078} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1101} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1102}."
+  ur: "حسن البنا مصری معلم تھے جو 1906ء میں پیدا ہوئے، 1928ء میں اسماعیلیہ میں جمعیت اخوان المسلمین کی بنیاد رکھی اور اس کے مرشد عام رہے۔ ان کی پرورش گھڑی ساز مگر روایتی علوم کے طالب والد کے گھر میں ہوئی، انہوں نے دمنہور اور قاہرہ کے دار العلوم میں تعلیم پائی، اور 1933ء تک اسماعیلیہ میں اور پھر قاہرہ میں پڑھایا۔ ان کی تحریک 1936ء سے وسیع ہوئی اور سیاست میں داخل ہوئی، دسمبر 1948ء میں ان کی تنظیم کو ختم کرنے کا حکم ہوا، اور وہ 12 فروری 1949ء کو قتل ہوئے {cite:encyclopaedia-of-islam-2 vol. 1 p. 1078} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1101} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1102}۔"
+gender: male
+roles: [teacher, activist]
+wings: [people]
+periods: [period/modern-era]
+regions: [egypt-nile]
+born: { edtf: "1906", hijri: "1324", calendar: gregorian, precision: year, status: historical, derived: true, note: "born in 1906 per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 1 p. 1078}", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1949-02-12", hijri: "1368", calendar: gregorian, precision: day, status: historical, derived: true, note: "assassinated on 12 February 1949 per EI2 (Ikhwan article); the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 3 p. 1102}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: lived_in, target: place/damanhur, note: "studied at the Junior Teachers' School", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/ismailia, note: "taught there 1927-33 and founded the Society there in 1928", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/cairo, note: "studied at the Dar al-'Ulum, and from 1933 taught and led the movement from Cairo", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/jamal-al-din-al-afghani, note: "EI2 finds many elements of his doctrine in al-Afghani's preaching", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/mustafa-al-sibai, note: "EI2 names al-Siba'i as leader of the Syrian association of Muslim Brethren", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/sayyid-qutb, note: "EI2 names Qutb among the writers who systematised the Brethren's social doctrine", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article al-Banna', Hasan (J.M.B. Jones); article al-Ikhwan al-Muslimun; article Misr (modern politics)"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-5
+  canon: "EI2 vol. 1, article al-Banna' Hasan, PDF pp. 1078-1079 (the last sentence, on his death, is lost in the scan); vol. 3, article al-Ikhwan al-Muslimun, PDF pp. 1101-1103; vol. 3 PDF p. 550"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "حسن البنا معلم مصري أسس جمعية الإخوان المسلمين سنة 1928 ودعا فيها إلى العودة إلى تعاليم الإسلام."
+  en: "Hasan al-Banna was an Egyptian teacher who founded the Society of the Muslim Brothers in 1928 and called people back to the teachings of Islam."
+  ur: "حسن البنا مصر کے ایک معلم تھے جنہوں نے 1928ء میں جمعیت اخوان المسلمین قائم کی اور لوگوں کو اسلام کی تعلیمات کی طرف بلایا۔"

@@ -1,0 +1,55 @@
+id: course/ca-on-g12-ses4u-b-1
+class: course
+kind: lesson
+label:
+  en: Redesigning the astrolabe
+  ar: إعادة تصميم الأسطرلاب
+  ur: اسطرلاب کی نئی تشکیل
+summary:
+  en: Why and how the astrolabe was redesigned in two ways, and what each design gave up (B1.2).
+  ar: لماذا وكيف أُعيد تصميم الأسطرلاب بطريقتين، وما الذي تخلى عنه كل تصميم (B1.2).
+  ur: اسطرلاب کو دو طرح کیوں اور کیسے نئے سرے سے بنایا گیا، اور ہر ڈیزائن نے کیا چھوڑا (B1.2)۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g12-ses4u-b
+expectations:
+- code: B1.2
+  text:
+    en: analyse why and how a particular technology related to astronomical research was developed and how it has been improved over time […] [AI, C]
+    ar: حلّل لماذا وكيف طُوِّرت تقنية بعينها متصلة بالبحث الفلكي وكيف تحسّنت مع الزمن […] [AI, C]
+    ur: تجزیہ کریں کہ فلکیاتی تحقیق سے متعلق کوئی خاص ٹیکنالوجی کیوں اور کیسے تیار کی گئی اور وقت کے ساتھ اس میں کیسے بہتری آئی […] [AI, C]
+connections:
+- position: before
+  kind: invention
+  title:
+    en: One plate for many latitudes
+    ar: صفيحة واحدة لعروض كثيرة
+    ur: ایک تختی، کئی عرض بلد
+  text:
+    en: In eleventh-century Toledo, Ibrahim ibn Yahya al-Zarqali developed an astronomical plate that did not need a new horizon plate whenever the observer's latitude changed. The record presents it as a development of the astrolabe, and says "universal" describes a design suited to different latitudes, not a device that finds place and time without knowledge or reading. Why would a maker want one plate for many latitudes?
+    ar: في طليطلة في القرن الحادي عشر طور إبراهيم بن يحيى الزرقالي صفيحة فلكية لا تستلزم تبديل صفيحة الأفق كلما تغير عرض الراصد. وهي تطوير للأسطرلاب، و«جامعة» وصف لصلاحية التصميم للعروض المختلفة، لا لآلة تستخرج مكان الإنسان والساعة وحدها من غير معرفة أو قراءة. لماذا يريد صانع الأداة صفيحة واحدة لعروض كثيرة؟
+    ur: گیارہویں صدی کے طلیطلہ میں ابراہیم بن یحییٰ الزرقالی نے ایسی فلکی تختی بنائی جس میں مشاہدہ کرنے والے کا عرض بلد بدلنے پر افق کی تختی بدلنا ضروری نہ تھا۔ یہ اسطرلاب کی روایت میں بہتری تھی، اور «جامع» کا مطلب مختلف عرض بلد کے لیے موزوں ڈیزائن ہے، ایسا آلہ نہیں جو علم یا قرأت کے بغیر خود مقام اور وقت معلوم کر لے۔ ایک صانع ایک ہی تختی کو کئی عرض بلد کے لیے کیوں چاہے گا؟
+  entity: invention/universal-astrolabe-al-zarqali
+  sources:
+  - source/zarqali-puig-bea
+  - source/zarqaliyya-bir-2020
+- position: within
+  kind: invention
+  title:
+    en: The astrolabe as a staff and threads
+    ar: الأسطرلاب عصا وخيوطاً
+    ur: اسطرلاب بطور عصا و دھاگے
+  text:
+    en: 'Sharaf al-Din al-Tusi is credited with a different arrangement from the plane astrolabe: a graduated staff, used with threads, that performs some of its work. The marks are not simply a ruler''s equal divisions; they carry astronomical and angular information. The account also states limits, especially in azimuth and meridian problems: a simple shape did not preserve every function equally well. What did this design give up for its simplicity?'
+    ar: 'تصور الأسطرلاب المسطح صفحة تحمل دوائر السماء؛ أما شرف الدين الطوسي فارتبط بمحاولة مختلفة: حمل بعض أعمال تلك الصفحة على عصا مدرجة تستعمل معها خيوط. والعلامات ليست مقياس طول فحسب، لأنها تمثل مقادير فلكية وأوتار زوايا. ويذكر الوصف المنشور عجزاً أو خشونة في نتائج مسائل للسمت وخط الزوال. ماذا تخلى عنه هذا التصميم مقابل بساطته؟'
+    ur: 'شرف الدین طوسی سے منسوب تبدیلی میں مسطح اسطرلاب کے کام کا کچھ حصہ ایک مدرج عصا اور دھاگوں کو سونپا گیا۔ یہ صرف لمبائی ناپنے کی لکڑی نہیں تھی، کیونکہ اس کی علامتیں فلکی مقداروں اور زاویوں کے اوتار کی خبر دیتی تھیں۔ بیان خود سمت اور خط نصف النہار کے بعض مسائل میں کمی یا موٹے اندازے بتاتا ہے: سادہ شکل کا مطلب یہ نہیں کہ ہر کام آسان یا ہر نتیجہ بہتر ہو گیا۔ اس ڈیزائن نے سادگی کے بدلے کیا چھوڑا؟'
+  entity: invention/tusi-linear-astrolabe
+  sources:
+  - source/sharaf-tusi-mactutor
+  - source/carra-vaux-linear-astrolabe-1895
+  - source/tdv-sharaf-tusi-ozel
+order: 1

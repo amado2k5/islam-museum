@@ -1,5 +1,7 @@
 # The courses surface: design
 
+> **Note, 12 November 2026.** This record was written when the surface was built for Arabic and English and Urdu kept the pilot page. On the user's instruction the surface is now built in Urdu too, the legacy page (`CoursesLegacy.astro`) is removed, and the homepage carries a section and an explorer card for it (`CoursesPromo.astro`). Where the text below says "Arabic and English" or mentions the legacy page, read it with this note. The Urdu pages and the homepage section have not had a vision review.
+
 Phase 2 of the courses mission. This is the concept the prototype builds, and the reasoning a future agent needs to extend it without breaking it. It is an evolution of one surface of islam.museum. Nothing outside `/[lang]/learn/courses/` changes.
 
 What it is for: a student studying an ordinary school subject meets Islamic civilisation inside that subject, in the lessons of their own curriculum, with every claim cited.

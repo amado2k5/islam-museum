@@ -1,0 +1,41 @@
+id: course/ca-on-g6-math-c-1
+class: course
+kind: lesson
+label:
+  en: Patterns built by a rule
+  ar: أنماط تُبنى بقاعدة
+  ur: قاعدے سے بننے والے نمونے
+summary:
+  en: Finding the rule of a pattern and using it to extend the pattern and predict.
+  ar: إيجاد قاعدة النمط واستخدامها لمواصلة النمط والتنبؤ.
+  ur: نمونے کا قاعدہ معلوم کرنا اور اسے نمونہ آگے بڑھانے اور پیش گوئی کے لیے استعمال کرنا۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g6-math-c
+expectations:
+- code: C1.3
+  text:
+    en: determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in repeating, growing, and shrinking patterns, and use algebraic representations of the pattern rules to solve for unknown values in linear growing patterns
+    ar: حدّد قواعد الأنماط واستخدمها لمواصلة الأنماط وللتنبؤ وتبرير التنبؤات وتحديد العناصر الناقصة في الأنماط المتكررة والمتزايدة والمتناقصة، واستخدم التمثيلات الجبرية لقواعد الأنماط لإيجاد القيم المجهولة في الأنماط المتزايدة الخطية
+    ur: نمونوں کے قاعدے معلوم کریں اور ان سے نمونوں کو آگے بڑھائیں، پیش گوئیاں کریں اور ان کا جواز دیں، اور دہرائے جانے والے، بڑھتے اور گھٹتے نمونوں میں غائب عناصر پہچانیں، اور خطی بڑھتے نمونوں میں نامعلوم اقدار کے لیے قاعدوں کی الجبری نمائندگی استعمال کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A table built by adding neighbours
+    ar: جدول يُبنى بجمع المتجاورين
+    ur: متجاور اعداد جمع کر کے بننے والا جدول
+  text:
+    ar: "نبدأ بصف من الأعداد: 1، 2، 1. وفي الصف التالي يبقى الواحد عند الطرفين، ويُجمع كل عددين متجاورين: واحد واثنان يعطيان ثلاثة، واثنان وواحد يعطيان ثلاثة، فيكون 1، 3، 3، 1. تنسب المصادر إلى أبي بكر الكرجي قاعدة جمع الأعداد المتجاورة في جدول، وينقلها السموأل المغربي عن حساب أصلي لم يعد باقياً. تصفها البطاقة بأنها تحسين محدد، لا أول مثلث حسابي في العالم. هل تستطيع أن تصف القاعدة لصف تالٍ بكلماتك؟"
+    en: "Start with a row of numbers, 1, 2, 1. The next row keeps a one at each end and adds each pair of neighbours: one and two make three, two and one make three, so the row is 1, 3, 3, 1. The sources attribute this rule of adding adjacent entries in a table to Abu Bakr al-Karaji; al-Samawal al-Maghribi transmits it from a computation that no longer survives. The record calls it a bounded improvement, not the world's first arithmetic triangle. Can you state the rule for the next row in your own words?"
+    ur: "ایک صف سے شروع کریں: 1، 2، 1۔ اگلی صف میں دونوں سروں پر ایک رہتا ہے اور ہر دو متجاور اعداد جمع کیے جاتے ہیں: ایک اور دو کا جمع تین، دو اور ایک کا جمع تین، یوں صف 1، 3، 3، 1 بنتی ہے۔ مصادر جدول کے متجاور اعداد جمع کرنے کا یہ قاعدہ ابو بکر الکرجی سے منسوب کرتے ہیں؛ سموأل المغربی اسے اس اصل حساب سے نقل کرتے ہیں جو اب باقی نہیں رہا۔ اندراج اسے ایک متعین بہتری کہتا ہے، دنیا کا پہلا حسابی مثلث نہیں۔ کیا آپ اگلی صف کا قاعدہ اپنے الفاظ میں بتا سکتے ہیں؟"
+  entity: invention/karaji-binomial-coefficient-recurrence
+  sources:
+  - source/karaji-mactutor
+  - source/samawal-dsb
+  - source/jaina-mathematics-mactutor
+order: 1

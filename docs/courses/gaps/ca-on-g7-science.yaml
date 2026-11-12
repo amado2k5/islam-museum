@@ -1,0 +1,238 @@
+course: course/ca-on-g7-science
+gaps:
+- code: A1.1
+  text: use a scientific research process and associated skills to conduct investigations
+  why: Skills expectation (a process or practice of investigation); it names no subject matter a record could carry.
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: use a scientific experimentation process and associated skills to conduct investigations
+  why: Skills expectation (a process or practice of investigation); it names no subject matter a record could carry.
+  searches: *id001
+- code: A1.3
+  text: use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems
+  why: Skills expectation (a process or practice of investigation); it names no subject matter a record could carry.
+  searches: *id001
+- code: A1.4
+  text: follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials
+  why: Skills expectation (a process or practice of investigation); it names no subject matter a record could carry.
+  searches: *id001
+- code: A1.5
+  text: communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes
+  why: Skills expectation (a process or practice of investigation); it names no subject matter a record could carry.
+  searches: *id001
+- code: A2.1
+  text: write and execute code in investigations and when modelling concepts, with a focus on planning and designing programs
+  why: 'Skills expectation: writing and executing code. The museum holds no record on programming; invention/jazari-musical-boat says in its own summary that it is not the first programmed robot, so it is not linked.'
+  searches: *id001
+- code: A2.2
+  text: identify and describe impacts of coding and of emerging technologies, such as artificial intelligence systems, on everyday life, including skilled trades
+  why: The expectation is about the impacts of coding and of artificial intelligence on everyday life and skilled trades; the museum holds no record on these.
+  searches:
+  - 'find_entity.py "artificial intelligence" "الذكاء الاصطناعي" "computer" "programming" "برمجة": one real record, work/fatwa-islamqa-asking-artificial-intelligence-for-fatwas, a ruling on asking AI for fatwas, not about impacts on daily life or trades'
+  - 'grep -rliE "artificial intelligence" content/en outside course/: invention/jazari-musical-boat and invention/jazari-castle-clock mention it only in passing; the other hits are records of modern people (person/fei-fei-li, person/feryal-clark)'
+- code: B1.1
+  text: assess the impact of various technologies on the environment
+  why: The expectation asks the student to assess the impact of technologies on the environment; the museum holds no record that assesses a technology's environmental impact.
+  searches:
+  - 'find_entity.py "atmosphere" "غلاف جوي" "air" "هواء" "pollution" "تلوث": three hits, a mosque named Air Tiris, a course lesson on flight and a NASA source record; nothing on pollution'
+  - 'find_entity.py "natural resources" "موارد طبيعية" "waste" "recycling": concept/al-mawarid-al-tabiiyya is an author''s account of raw materials and trade and concept/al-israf is about extravagance; neither assesses a technology''s environmental impact'
+- code: B1.3
+  text: analyse how diverse First Nations, Métis, and Inuit practices and perspectives contribute to environmental sustainability
+  why: The expectation is about First Nations, Metis and Inuit practices and perspectives on sustainability; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "First Nations" "Métis" "Inuit" "السكان الأصليون" "Indigenous": one loose hit, concept/muwala (a fiqh term for continuity)'
+  - 'grep -rliE "First Nations|Métis|Indigenous peoples" content/en outside course/: no file'
+- code: B2.1
+  text: explain that an ecosystem is a network of interactions among living organisms and their environment
+  why: The expectation is about the structure and workings of ecosystems; the museum holds no record that describes one.
+  searches:
+  - 'find_entity.py "ecosystem" "نظام بيئي" "ecology": one loose hit (a fatwa on obstetrics training), no ecosystem record'
+  - 'find_entity.py "food chain" "سلسلة غذائية" "predator" "decomposer": no real record'
+- code: B2.2
+  text: identify biotic and abiotic components in an ecosystem, and describe the interactions between them
+  why: The expectation is about the structure and workings of ecosystems; the museum holds no record that describes one.
+  searches:
+  - 'find_entity.py "ecosystem" "نظام بيئي" "ecology": one loose hit (a fatwa on obstetrics training), no ecosystem record'
+  - 'find_entity.py "soil" "تربة" "water cycle" "دورة الماء": 105 hits, the first being graves and tombs (turba); the soil-and-farming record found is invention/ibn-bassal-soil-water-matching, tried for B2.8 and removed (it matches crops to land and water and names no ecosystem impact); none of the hits read concerns the cycling of matter'
+- code: B2.3
+  text: describe roles and relationships between producers, consumers, and decomposers within an ecosystem
+  why: 'The expectation is about the structure and workings of ecosystems; the museum holds no record that describes one. concept/al-tawazun-al-kawni (a preacher''s story of a sparrow campaign and locusts) was considered and not linked: it is a spoken narration whose details the record itself flags as needing a source, and it gives no ecological account to restate.'
+  searches:
+  - 'find_entity.py "food chain" "سلسلة غذائية" "predator" "decomposer": no real record'
+  - 'find_entity.py "ecosystem" "نظام بيئي" "ecology": one loose hit (a fatwa on obstetrics training), no ecosystem record'
+- code: B2.4
+  text: describe the transfer of energy in a food chain, and explain the effects of altering any part of the chain
+  why: 'The expectation is about the structure and workings of ecosystems; the museum holds no record that describes one. concept/al-tawazun-al-kawni (a preacher''s story of a sparrow campaign and locusts) was considered and not linked: it is a spoken narration whose details the record itself flags as needing a source, and it gives no ecological account to restate.'
+  searches:
+  - 'find_entity.py "food chain" "سلسلة غذائية" "predator" "decomposer": no real record'
+  - 'find_entity.py "ecosystem" "نظام بيئي" "ecology": one loose hit (a fatwa on obstetrics training), no ecosystem record'
+- code: B2.5
+  text: describe how matter is cycled within the environment, and explain how the cycling of matter promotes sustainability
+  why: The expectation is about the structure and workings of ecosystems; the museum holds no record that describes one.
+  searches:
+  - 'find_entity.py "soil" "تربة" "water cycle" "دورة الماء": 105 hits, the first being graves and tombs (turba); the soil-and-farming record found is invention/ibn-bassal-soil-water-matching, tried for B2.8 and removed (it matches crops to land and water and names no ecosystem impact); none of the hits read concerns the cycling of matter'
+  - 'find_entity.py "ecosystem" "نظام بيئي" "ecology": one loose hit (a fatwa on obstetrics training), no ecosystem record'
+- code: B2.6
+  text: explain the differences between primary succession and secondary succession in ecosystems
+  why: The expectation is about the structure and workings of ecosystems; the museum holds no record that describes one.
+  searches:
+  - 'find_entity.py "ecosystem" "نظام بيئي" "ecology": one loose hit (a fatwa on obstetrics training), no ecosystem record'
+  - 'find_entity.py "soil" "تربة" "water cycle" "دورة الماء": 105 hits, the first being graves and tombs (turba); the soil-and-farming record found is invention/ibn-bassal-soil-water-matching, tried for B2.8 and removed (it matches crops to land and water and names no ecosystem impact); none of the hits read concerns the cycling of matter'
+- code: B2.7
+  text: explain how biotic and abiotic factors limit the number of organisms an ecosystem can sustain
+  why: 'The expectation is about the structure and workings of ecosystems; the museum holds no record that describes one. concept/al-tawazun-al-kawni (a preacher''s story of a sparrow campaign and locusts) was considered and not linked: it is a spoken narration whose details the record itself flags as needing a source, and it gives no ecological account to restate.'
+  searches:
+  - 'find_entity.py "ecosystem" "نظام بيئي" "ecology": one loose hit (a fatwa on obstetrics training), no ecosystem record'
+  - 'find_entity.py "food chain" "سلسلة غذائية" "predator" "decomposer": no real record'
+- code: B2.8
+  text: describe how different approaches to agriculture and to harvesting food from the natural environment can impact an ecosystem, and identify strategies that can be used to maintain and/or restore balance to ecosystems
+  why: Concept/hima records who may graze a reserved pasture and invention/ibn-bassal-soil-water-matching records matching crops to land and water; neither says anything about an impact on an ecosystem or about keeping or restoring balance.
+  searches:
+  - 'concept/hima: the record concerns who may graze and the forfeiture of property; it names no ecosystem, no protection of the land and no balance, so it was removed after the fleet review'
+  - 'invention/ibn-bassal-soil-water-matching: the record matches crops to land and water; no impact on an ecosystem and no restoration, so it was removed after the fleet review'
+- code: C1.1
+  text: analyse the social and environment impacts of the use and disposal of pure substances found in technological devices, considering local and global perspectives
+  why: The expectation is about the social and environmental impacts of using and disposing of pure substances in technological devices; the museum holds no record on this.
+  searches:
+  - 'find_entity.py "mining" "تعدين" "metal" "معدن" "extraction": 15 hits, among them al-Kashi''s root extraction, a fiqh term for binding vessels with metal and a mining place; none on substances in devices or their disposal'
+  - 'find_entity.py "natural resources" "موارد طبيعية" "waste" "recycling": concept/al-mawarid-al-tabiiyya and concept/al-israf are economic accounts, not about use and disposal of substances in devices'
+- code: C1.2
+  text: assess environmental and social impacts of different industrial methods used to separate mixtures
+  why: The expectation is about the environmental and social impacts of industrial methods of separating mixtures; the anbik record (taught in lesson c-1 under C2.7) describes an apparatus, not an industry or its impacts.
+  searches:
+  - 'find_entity.py "mining" "تعدين" "metal" "معدن" "extraction": no record on industrial separation'
+  - 'find_entity.py "dissolve" "ذوبان" "solution" "محلول" "solvent": 18 hits, none about dissolving a substance: "solution" as the answer to an equation (Abu Kamil, al-Kashi, Abu al-Wafa, Khayyam), an army that dissolves, fatwa resolutions, the dissolution of a contract'
+- code: C2.1
+  text: demonstrate an understanding of the particle theory of matter
+  why: The expectation is about the particle theory of matter; the museum holds no record that states it.
+  searches:
+  - 'find_entity.py "atom" "ذرة" "particle" "الجزء الذي لا يتجزأ": 3 hits, all hadith passages (an atom''s weight of pride; grain called dhurra), none on particle theory'
+  - 'find_entity.py "states of matter" "حالات المادة" "melting" "boiling" "evaporation": no real record'
+- code: C2.2
+  text: use particle theory to distinguish between pure substances and mixtures
+  why: The expectation uses particle theory to tell pure substances from mixtures; the museum holds no record on either idea.
+  searches:
+  - 'find_entity.py "atom" "ذرة" "particle" "الجزء الذي لا يتجزأ": 3 hits, all hadith passages (an atom''s weight of pride; grain called dhurra), none on particle theory'
+  - 'find_entity.py "dissolve" "ذوبان" "solution" "محلول" "solvent": 18 hits, none about dissolving a substance: "solution" as the answer to an equation (Abu Kamil, al-Kashi, Abu al-Wafa, Khayyam), an army that dissolves, fatwa resolutions, the dissolution of a contract'
+- code: C2.3
+  text: distinguish between homogeneous and heterogeneous mixtures
+  why: The expectation is about homogeneous and heterogeneous mixtures; the museum holds no record that describes them.
+  searches:
+  - 'find_entity.py "dissolve" "ذوبان" "solution" "محلول" "solvent": 18 hits, none about dissolving a substance: "solution" as the answer to an equation (Abu Kamil, al-Kashi, Abu al-Wafa, Khayyam), an army that dissolves, fatwa resolutions, the dissolution of a contract'
+  - 'find_entity.py "states of matter" "حالات المادة" "melting" "boiling" "evaporation": no real record'
+- code: C2.4
+  text: use the particle theory to describe how different factors affect the solubility of a substance and the rate at which it dissolves
+  why: The expectation is about the factors that affect solubility and the rate of dissolving; the museum holds no record on dissolving.
+  searches:
+  - 'find_entity.py "dissolve" "ذوبان" "solution" "محلول" "solvent": 18 hits, none about dissolving a substance: "solution" as the answer to an equation (Abu Kamil, al-Kashi, Abu al-Wafa, Khayyam), an army that dissolves, fatwa resolutions, the dissolution of a contract'
+  - 'find_entity.py "atom" "ذرة" "particle" "الجزء الذي لا يتجزأ": 3 hits, all hadith passages (an atom''s weight of pride; grain called dhurra), none on particle theory'
+- code: C2.5
+  text: describe the concentration of a saturated solution in both qualitative and quantitative terms, and differentiate between saturated and unsaturated solutions
+  why: The expectation is about saturated solutions and their concentration; the museum holds no record on solutions of substances.
+  searches:
+  - 'find_entity.py "dissolve" "ذوبان" "solution" "محلول" "solvent": 18 hits, none about dissolving a substance: "solution" as the answer to an equation (Abu Kamil, al-Kashi, Abu al-Wafa, Khayyam), an army that dissolves, fatwa resolutions, the dissolution of a contract'
+  - 'find_entity.py "states of matter" "حالات المادة" "melting" "boiling" "evaporation": no real record'
+- code: C2.6
+  text: explain why water is referred to as the universal solvent
+  why: The expectation asks why water is called the universal solvent; the museum holds no record on water as a solvent (concept/sabil is about drinking-water buildings and is taught in lesson d-1 under D1.1).
+  searches:
+  - 'find_entity.py "dissolve" "ذوبان" "solution" "محلول" "solvent": 18 hits, none about dissolving a substance: "solution" as the answer to an equation (Abu Kamil, al-Kashi, Abu al-Wafa, Khayyam), an army that dissolves, fatwa resolutions, the dissolution of a contract'
+  - 'find_entity.py "water" "ماء" "water management" "cistern" "aqueduct": hits are concept/sabil, a fountain building, and persons named Ma al-Ayn and al-Mundhir ibn Ma al-Sama; none on water as a solvent'
+- code: C2.8
+  text: describe pure substances as elements and compounds consisting of atoms and combinations of atoms
+  why: The expectation describes pure substances as elements and compounds made of atoms. concept/four-elements (Ibn Sina's fire, air, water and earth) and the alchemy records are older theories of matter, not elements and compounds of atoms, so they are not linked as if they were.
+  searches:
+  - 'find_entity.py "Jabir ibn Hayyan" "جابر بن حيان" "Geber" "alchemy" "كيمياء": person/jabir-ibn-hayyan, concept/sinaat-al-kimiya, exhibit/path-jabir-chem and question/who-was-jabir; they report who practised alchemy and claims about its origin, nothing on atoms'
+  - 'find_entity.py "atom" "ذرة" "particle" "الجزء الذي لا يتجزأ": 3 hits, all hadith passages (an atom''s weight of pride; grain called dhurra), none on particle theory'
+- code: D1.2
+  text: evaluate the impact of the ergonomic design of various tools, objects, and work spaces on a user’s health, safety, and ability to work efficiently, and use this information to describe changes that could be made in their own spaces and …
+  why: The expectation is about the ergonomic design of tools, objects and work spaces and their effect on a user's health and safety; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "ergonomics" "workplace" "craftsman" "حرفي": no real record'
+  - 'find_entity.py "mason" "معمار" "architect" "مهندس" "Sinan": job/architect and person/mimar-sinan describe a trade and a career (job/architect is taught in lesson a-1 under A3.1), not the design of tools or work spaces for health and safety'
+- code: D2.2
+  text: describe ways in which the centre of gravity of a structure affects the structure’s stability
+  why: The expectation is about how the centre of gravity affects a structure's stability; the museum holds no record on stability.
+  searches:
+  - 'find_entity.py "centre of gravity" "مركز الثقل" "force" "balance" "ميزان": 79 hits, among them concept/al-mizan and concept/al-tawazun-al-kawni, the balance in a moral or cosmic sense, none on stability of a structure'
+  - 'grep -rliE "centre of gravity|center of gravity" content/en: no file'
+- code: D2.3
+  text: identify the magnitude, direction, point of application, and plane of application of the forces applied to a structure
+  why: The expectation is about the magnitude, direction, point and plane of forces on a structure; the museum holds no record that treats forces on structures.
+  searches:
+  - 'find_entity.py "centre of gravity" "مركز الثقل" "force" "balance" "ميزان": no record on forces acting on a structure'
+  - 'grep -rliE "centre of gravity|center of gravity" content/en: no file'
+- code: D2.4
+  text: describe the role of symmetry in structures, and identify instances of symmetry in various structures
+  why: The expectation is about symmetry in structures; the girih and geometric-patterns records describe repeating star and polygon patterns in one Wikidata sentence each and name neither symmetry nor any property of it.
+  searches:
+  - 'concept/girih: a Wikidata sentence (interlacing lines that build stars and polygons) and generic tiers; it does not name symmetry, so it was removed after the fleet review'
+  - 'concept/islamic-geometric-patterns: one Wikidata sentence (repeated patterns of stars, polygons and grids); it does not name symmetry, so it was removed after the fleet review'
+- code: D2.7
+  text: describe methods engineers and other professionals use to assess, improve, and maintain the safety of structures
+  why: The expectation is about the methods engineers use to assess, improve and maintain the safety of structures. event/aqsa-fatimid-rebuild records a rebuilding after an earthquake, and the market-inspection records concern trade, not structural safety.
+  searches:
+  - 'find_entity.py "building safety" "سلامة المباني" "inspection" "muhtasib" "المحتسب": invention/hisba, job/muhtasib and events on al-Maqrizi''s terms as market inspector, about regulating markets, not inspecting structures'
+  - 'find_entity.py "earthquake" "زلزلة" "collapse" "انهيار" "structure failure": event/aqsa-fatimid-rebuild gives the dates and the smaller plan of a rebuilding, not how safety was assessed or improved'
+- code: E1.1
+  text: assess the social and environmental benefits of technologies that reduce heat loss in enclosed spaces or heat transfer to surrounding spaces
+  why: The expectation is about technologies that reduce heat loss or heat transfer in enclosed spaces. building/emarat-e-badgir (a wind-catcher house) exists but has no prose, so nothing can be restated from it.
+  searches:
+  - 'find_entity.py "wind catcher" "badgir" "ملقف" "wind tower": one real record, building/emarat-e-badgir, prose none'
+  - 'find_entity.py "courtyard" "فناء" "mashrabiya" "مشربية" "ventilation": hits are fiqh and Sufi terms (concept/arsa, fana), none on cooling or insulation'
+- code: E1.2
+  text: analyse various social, economic, and environmental impacts, including impacts related to climate change, of using non-renewable and renewable sources of energy
+  why: The expectation is about the social, economic and environmental impacts of renewable and non-renewable energy, including climate change. The museum holds water- and animal-powered machines (invention/jazari-double-piston-pump, invention/jazari-animal-scoop-water-lifter) that name a power source, not its impacts, so they are not linked.
+  searches:
+  - 'find_entity.py "renewable energy" "طاقة متجددة" "solar" "طاقة شمسية" "fossil fuel": 9 hits on astronomy (solar-time tables, eclipses, a calendar gearing), none on energy sources or their impacts'
+  - 'find_entity.py "fuel" "وقود" "charcoal" "فحم" "oil" "نفط" "naphtha": only fiqh records on oil and fat as substances'
+- code: E2.1
+  text: use particle theory to explain how heat affects the motion of particles in a solid, a liquid, and a gas
+  why: The expectation is about heat as energy and how it moves; the museum holds no record on heat.
+  searches:
+  - 'find_entity.py "thermometer" "temperature" "درجة الحرارة" "heat transfer": no real record'
+  - 'find_entity.py "states of matter" "حالات المادة" "melting" "boiling" "evaporation": no real record'
+- code: E2.2
+  text: demonstrate an understanding of various ways in which heat is generated
+  why: The expectation is about heat as energy and how it moves; the museum holds no record on heat.
+  searches:
+  - 'find_entity.py "heat" "حرارة" "fire" "furnace" "kiln" "فرن": only records on Hell-fire (concept/jahannam, concept/malik-keeper-of-jahannam), none on heat as energy'
+  - 'find_entity.py "thermometer" "temperature" "درجة الحرارة" "heat transfer": no real record'
+- code: E2.3
+  text: use particle theory to explain the effects of heat on volume in solids, liquids, and gases, including during changes of states of matter
+  why: The expectation is about heat as energy and how it moves; the museum holds no record on heat.
+  searches:
+  - 'find_entity.py "states of matter" "حالات المادة" "melting" "boiling" "evaporation": no real record'
+  - 'find_entity.py "thermometer" "temperature" "درجة الحرارة" "heat transfer": no real record'
+- code: E2.4
+  text: explain how heat is transmitted through conduction, and describe natural processes that are affected by conduction
+  why: The expectation is about heat as energy and how it moves; the museum holds no record on heat.
+  searches:
+  - 'find_entity.py "conduction" "convection" "radiation" "إشعاع" "توصيل حراري": no real record; grep -rliE "conduction|convection" content/en: no file'
+  - 'find_entity.py "thermometer" "temperature" "درجة الحرارة" "heat transfer": no real record'
+- code: E2.5
+  text: explain how heat is transmitted in liquids and gases through convection, and describe natural processes that depend on convection
+  why: The expectation is about heat as energy and how it moves; the museum holds no record on heat.
+  searches:
+  - 'find_entity.py "conduction" "convection" "radiation" "إشعاع" "توصيل حراري": no real record; grep -rliE "conduction|convection" content/en: no file'
+  - 'find_entity.py "thermometer" "temperature" "درجة الحرارة" "heat transfer": no real record'
+- code: E2.6
+  text: explain how heat is transmitted through radiation, and describe the effects of radiation from the Sun on different kinds of surfaces
+  why: The expectation is about heat as energy and how it moves; the museum holds no record on heat.
+  searches:
+  - 'find_entity.py "conduction" "convection" "radiation" "إشعاع" "توصيل حراري": no real record; grep -rliE "conduction|convection" content/en: no file'
+  - 'find_entity.py "climate" "مناخ" "sun" "شمس" "greenhouse": hits are people and clans named Shams (Banu Abd Shams, al-Sakhawi), none on climate or solar radiation'
+- code: E2.7
+  text: describe the role of radiation in heating and cooling Earth, and explain how greenhouse gases affect the transmission of radiated heat through the atmosphere
+  why: The expectation is about radiation, the atmosphere and greenhouse gases; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "greenhouse gas" "carbon" "غازات الدفيئة" "global warming" "الاحتباس الحراري": no real record; grep -rliE "greenhouse" content/en: building/yildiz-palace only (a palace building)'
+  - 'find_entity.py "climate" "مناخ" "sun" "شمس" "greenhouse": hits are people and clans named Shams (Banu Abd Shams, al-Sakhawi), none on climate or solar radiation'
+- code: E2.8
+  text: identify common sources of greenhouse gases, including sources resulting from human activity, and describe how humans can reduce emissions of these gases
+  why: The expectation is about radiation, the atmosphere and greenhouse gases; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "greenhouse gas" "carbon" "غازات الدفيئة" "global warming" "الاحتباس الحراري": no real record; grep -rliE "greenhouse" content/en: building/yildiz-palace only (a palace building)'
+  - 'find_entity.py "renewable energy" "طاقة متجددة" "solar" "طاقة شمسية" "fossil fuel": 9 hits on astronomy (solar-time tables, eclipses, a calendar gearing), none on energy sources or their impacts'

@@ -1,0 +1,57 @@
+id: course/ca-on-g8-science-c-2
+class: course
+kind: lesson
+label:
+  en: 'Steering the flow: a clock and a heart'
+  ar: 'توجيه الجريان: ساعة وقلب'
+  ur: 'بہاؤ کو سمت دینا: ایک گھڑی اور ایک دل'
+summary:
+  en: What affects the flow of a fluid, and how flow is directed in a mechanical device and in a living body (C2.8, C2.10).
+  ar: ما الذي يؤثر في جريان المائع، وكيف يُوجَّه الجريان في جهاز ميكانيكي وفي جسم حي، التوقعان C2.8 وC2.10.
+  ur: سیال کے بہاؤ پر کیا اثر ڈالتا ہے، اور بہاؤ کو میکانی آلے میں اور زندہ جسم میں کیسے سمت دی جاتی ہے، توقعات C2.8 اور C2.10۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g8-science-c
+expectations:
+- code: C2.8
+  text:
+    en: describe factors that affect the flow of fluids
+    ar: صِف العوامل التي تؤثر في جريان الموائع
+    ur: سیالوں کے بہاؤ پر اثر انداز ہونے والے عوامل بیان کریں
+- code: C2.10
+  text:
+    en: compare how fluids are used and how their flow is regulated in living organisms and in mechanical devices or systems
+    ar: قارن بين كيفية استعمال الموائع وتنظيم جريانها في الكائنات الحية وفي الأجهزة أو المنظومات الميكانيكية
+    ur: موازنہ کریں کہ جانداروں میں اور میکانی آلات یا نظاموں میں سیالوں کو کیسے استعمال کیا جاتا ہے اور ان کے بہاؤ کو کیسے منظم کیا جاتا ہے
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A tank that keeps its level
+    ar: خزان يحفظ مستواه
+    ur: ایک ٹنکی جو اپنی سطح برقرار رکھتی ہے
+  text:
+    en: 'In the record on al-Jazari''s castle clock, a float in a reservoir descends as the water falls and passes its movement on through ropes and pulleys. A falling level in an unregulated tank changes the conditions under which the water leaves, so another chamber has its own float and a conical plug: rising water closes the inlet, falling water lets more in, and the level stays approximately steady. What decides how fast water leaves a tank?'
+    ar: 'في سجل ساعة القلعة عند الجزري عوامة في خزان تنخفض مع انخفاض الماء وتنقل حركتها بالحبال والبكرات. لكن انخفاض منسوب خزان غير منظم يغير شروط خروج الماء، ولهذا توجد حجرة أخرى ذات عوامة وسدادة مخروطية: عندما يرتفع الماء تسد الوارد، وعندما ينقص تسمح بالمزيد، فيبقى مستواها مضبوطًا تقريبًا. ما الذي يحدد سرعة خروج الماء من خزان؟'
+    ur: 'جزری کی قلعہ نما گھڑی کے ریکارڈ میں ٹنکی کے اندر ایک تیرنے والا پرزہ پانی گرنے کے ساتھ نیچے آتا ہے اور اپنی حرکت رسیوں اور چرخیوں کے ذریعے آگے پہنچاتا ہے۔ بغیر ضابطے والی ٹنکی میں سطح گرنے سے پانی کے نکلنے کے حالات بدل جاتے ہیں، اس لیے ایک اور خانہ ہے جس میں اپنا تیرنے والا پرزہ اور مخروطی ڈاٹ ہے: پانی چڑھے تو آمد بند کرتی ہے، گھٹے تو مزید آنے دیتی ہے، اور سطح تقریباً قائم رہتی ہے۔ ٹنکی سے پانی کے نکلنے کی رفتار کیا طے کرتا ہے؟'
+  entity: invention/jazari-castle-clock
+  sources:
+  - source/jazari-hill-1974
+- position: after
+  kind: invention
+  title:
+    en: The blood's route through the lungs
+    ar: طريق الدم عبر الرئتين
+    ur: خون کا پھیپھڑوں سے گزرنے کا راستہ
+  text:
+    en: The record defines the pulmonary circulation as the blood's route from the right side of the heart to the lungs, and from the lungs to the left side. It says that Ibn al-Nafis wrote, against Galen, that blood does not cross the wall between the ventricles through pores, because that wall is solid, and that it reaches the left ventricle from the lung. Where, in a body or in a machine, must a fluid be made to take one route and not another?
+    ar: يعرّف السجل الدورة الدموية الرئوية بأنها طريق الدم من الجانب الأيمن للقلب إلى الرئة، ثم منها إلى الجانب الأيسر. ويقول إن ابن النفيس نفى، خلافًا لجالينوس، أن يعبر الدم الحاجز بين البطينين من مسامّ، لأن ذلك الحاجز مصمت، وقال إن الدم يدخل البطين الأيسر من الرئة. أين يجب، في جسم أو في آلة، أن يُحمل مائع على طريق دون آخر؟
+    ur: ریکارڈ پھیپھڑوں کی دورانِ خون کو خون کا دل کے دائیں حصے سے پھیپھڑوں تک اور پھیپھڑوں سے بائیں حصے تک کا راستہ قرار دیتا ہے۔ وہ بتاتا ہے کہ ابن النفیس نے جالینوس کے برخلاف لکھا کہ خون بطینوں کے درمیان کی دیوار کے مساموں سے نہیں گزرتا کیونکہ وہ دیوار ٹھوس ہے، اور وہ بائیں بطین میں پھیپھڑے سے پہنچتا ہے۔ جسم میں یا مشین میں، کہاں سیال کو ایک راستے پر چلانا اور دوسرے پر نہیں چلانا پڑتا ہے؟
+  entity: invention/pulmonary-circulation
+  sources:
+  - source/west-2008-ibn-al-nafis
+order: 2

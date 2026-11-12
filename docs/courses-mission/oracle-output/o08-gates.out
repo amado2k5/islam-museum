@@ -1,0 +1,32 @@
+ORACLE 08: the ship gates at the branch head: validate prints `0 errors`, cite-check prints `0 fail` (statement 8)
+run at commit 3c620c285812bdb83ed7d0e6e3c44b84e1de2db7 on 2026-11-12 03:02 EST; baseline 800467e93e; uncommitted paths under data/ content/ site/ i18n/ scripts/courses/: 0
+
+validator's last line: validated 58017 entities, 89763 prose files: 69 errors, 4486 warnings
+validator's last line at the baseline commit (main, before this mission): validated 57190 entities, 87345 prose files: 16 errors, 4378 warnings
+error lines now: 69; of them not present at the baseline: 69; of them naming a course file: 26
+    new: ERROR content/ar/group/aad.md: honorifics must not be typed into prose (the UI renders them)
+    new: ERROR content/ar/group/al-ajam.md: {cite:sahih-bukhari} does not resolve to a source
+    new: ERROR content/ar/group/al-ajam.md: {cite:sahih-bukhari} does not resolve to a source
+    new: ERROR content/ar/group/al-rum.md: {cite:sahih-bukhari} does not resolve to a source
+    new: ERROR content/ar/group/banu-israil.md: honorifics must not be typed into prose (the UI renders them)
+    new: ERROR content/ar/person/kilab-ibn-murrah.md: frontmatter id "person/kilab-ibn-murra" must equal "person/kilab-ibn-murrah"
+    new: ERROR content/ar/person/kilab-ibn-murrah.md: no data file for person/kilab-ibn-murrah
+    new: ERROR content/en/group/al-ajam.md: {cite:sahih-bukhari} does not resolve to a source
+    new: ERROR content/en/group/al-ajam.md: {cite:sahih-bukhari} does not resolve to a source
+    new: ERROR content/en/group/al-rum.md: {cite:sahih-bukhari} does not resolve to a source
+    new: ERROR content/en/group/banu-israil.md: honorifics must not be typed into prose (the UI renders them)
+    new: ERROR content/en/person/kilab-ibn-murrah.md: frontmatter id "person/kilab-ibn-murra" must equal "person/kilab-ibn-murrah"
+    new: ERROR content/en/person/kilab-ibn-murrah.md: no data file for person/kilab-ibn-murrah
+    new: ERROR content/ur/event/isra-and-miraj.md: the perspectives block must start with the Sunni entry (docs/scope.md)
+    new: ERROR content/ur/person/kilab-ibn-murrah.md: frontmatter id "person/kilab-ibn-murra" must equal "person/kilab-ibn-murrah"
+    new: ERROR content/ur/person/kilab-ibn-murrah.md: no data file for person/kilab-ibn-murrah
+    new: ERROR data/course/ca-on-g11-avi3m-a.yaml: summary.ur: wrap Arabic-script parentheses in U+2066 ... U+2069 (AGENTS.md)
+    new: ERROR data/course/ca-on-g11-avi3m-b-2.yaml: summary.ur: wrap Arabic-script parentheses in U+2066 ... U+2069 (AGENTS.md)
+    new: ERROR data/course/ca-on-g11-avi3m-b.yaml: summary.ur: wrap Arabic-script parentheses in U+2066 ... U+2069 (AGENTS.md)
+    new: ERROR data/course/ca-on-g11-avi3m-c-1.yaml: summary.ur: wrap Arabic-script parentheses in U+2066 ... U+2069 (AGENTS.md)
+  [FAIL] GATE validate prints the literal string `0 errors` — validated 58017 entities, 89763 prose files: 69 errors, 4486 warnings
+  [FAIL] this mission's files add no validator error (no error line names a course file) — 26 error lines
+cite-check's last line over all 643 course records: cite-check: 643 pass, 0 fail of 643 record(s) — the bar is citations to defined sources plus recorded provenance (docs/agents/publication-standard.md)
+  [PASS] GATE cite-check prints the literal string `0 fail` — cite-check: 643 pass, 0 fail of 643 record(s) — the bar is citations to defined sources plus recorded provenance (docs/agents/publication-standard.md)
+
+RESULT: NOT-GREEN (2 failed: GATE validate prints the literal string `0 errors`; this mission's files add no validator error (no error line names a course file))
