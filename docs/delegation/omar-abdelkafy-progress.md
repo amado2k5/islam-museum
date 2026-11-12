@@ -888,7 +888,6 @@ The hadith that God puts a Jew or Christian in the Fire in place of each Muslim 
 | Garbled passages | ep13 00:00:00-00:01:00, 00:03:30-00:04:30, 00:06:30-00:12:00 (the zakat shade, a caliph's tent story and the unrelated anecdotes), 00:20:00-00:22:30 (a story about a request in a dream), 00:23:00-00:24:30 (the Prophet recognising his community and the thousand-hadith repeat), 00:33:00-00:33:30, 00:36:30-00:38:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Closing supplications and sign-off | ep13 00:35:30-00:37:00 | Not lesson content | Content rule | Open |
 
-Resume point: episode 14 (branch from origin/main).
 ### albuyout-alamena, episodes 24–26 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-14)
 
 Each episode read in full. 63 points written (ar, en, ur); 34 new `about` edges (ep24 15, ep25 8 new, ep26 11 new; the rest were already present); 44 needs_source (unsourced reports and anecdotes, garbled call text, lexical claims not checked against a dictionary).
@@ -959,3 +958,20 @@ Next step: episode 29.
 | Garbled passages and calls | ep28 00:01:00–00:02:00 (partly), 00:12:00, 00:26:30–00:27:30 (the black box explanation is only in the later passage), 00:34:30–00:35:30, 00:36:00, 00:38:00 (the fate of the disobedient), 00:46:00 | Garbled or fragmentary; only the clear sense is summarised | Clarity | Open |
 | Private circumstances | ep28 00:27:00–00:29:30, 00:42:30–00:46:30 | Personal details kept general | Privacy | Open |
 | Hadith and saying wording | ep28 00:10:00–00:12:30, 00:15:00, 00:18:00–00:19:00, 00:24:30 | Wording not typed; by sense only | Hadith rule | Open |
+
+
+### al-dar-al-akhera ep16 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep16 (the Pond; Salih's she-camel; eight kinds kept from the Pond) | about 37 min (transcript) | ar, en, ur: 1 record extended | 7 new `about` edges | 14 points; qwen3-asr pass5, 30 s windows | needs_source on every point; the four-corners report has no source (00:06:30); the Egypt hadith (00:09:00); the eighth kind (00:31:30); the two-men report (00:33:30) | run omar-abdelkafy-dar-akhera-10 |
+
+Opinions labelled as the lecturer's own with no museum ruling: apostasy of one who rejects a known obligation (ep16 00:17:30), innovation examples, rebellion against rulers, conditions for singing. The record stays `sensitivity: contested`.
+
+| Excluded (dar-akhera ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep16 00:03:30, 00:08:30, 00:13:00, 00:18:30, 00:21:30, 00:35:30 | Not speech | Loop check | Open |
+| Garbled passages | ep16 00:02:30, 00:07:30-00:08:00 (a remark about being people of the Sunna and Egypt), 00:12:00-00:13:30 (a hotel analogy), 00:15:30-00:16:30, 00:20:00, 00:24:30-00:25:30 (names of saints and a remark on them), 00:25:30-00:27:00, 00:30:30-00:31:00 (the story of a broker said to be told by al-Ghazali), 00:32:30-00:33:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Announcement on distribution and pricing of the recorded series | ep16 00:36:00-00:37:00 | Logistics, not lesson content | Content rule | Open |
+
+Resume point: episode 17 (branch from origin/main).
