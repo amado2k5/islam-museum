@@ -370,7 +370,7 @@ Notes for ep10–ep13. Episodes 11 and 12 are the two halves of one lesson in th
 
 | Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
 |---|---|---|---|---|---|---|
-| silsilat-ebadu-al-rahman ep17–ep18 (spouses, offspring and leadership in piety; the closing list of attributes and the power of supplication) | ep17 about 22 min, ep18 about 25 min (transcript) | ar, en, ur: 1 record extended, 25 points | 13 new `about` edges (verses 25:74–76, 66:10–11, 24:26, 16:97; sadaqa jariya, hasad, tarbiya, ajal, sabr, tawakkul, dua; Nuh, Lut, Amr ibn al-As, Uthman) | ep17 14, ep18 11 points; engine qwen3-asr pass5, 30 s windows | 8 needs_source (the Prophet's ruling on secrets, ep17 00:03:30; the lecturer's reading of 24:26, ep17 00:04:30; the wife and the husband's illness, ep17 00:05:00; the hadith on the good practice, ep17 00:15:30; the family's instructions on death, ep18 00:18:00; the sense of the hadith on provision, ep18 00:18:30; the hadith on supplication reversing the decree, ep18 00:11:30; the two brothers' example, the sense only) | run omar-abdelkafy-ebadu-al-rahman-6 |
+| silsilat-ebadu-al-rahman ep17–ep18 (spouses, offspring and leadership in piety; the closing list of attributes and the power of supplication) | ep17 about 22 min, ep18 about 25 min (transcript) | ar, en, ur: 1 record extended, 25 points | 6 new `about` edges (verses 25:74–76, 66:10–11, 24:26, 16:97; sadaqa jariya, hasad, tarbiya, ajal, sabr, tawakkul, dua; Nuh, Lut, Amr ibn al-As, Uthman) | ep17 14, ep18 11 points; engine qwen3-asr pass5, 30 s windows | 8 needs_source (the Prophet's ruling on secrets, ep17 00:03:30; the lecturer's reading of 24:26, ep17 00:04:30; the wife and the husband's illness, ep17 00:05:00; the hadith on the good practice, ep17 00:15:30; the family's instructions on death, ep18 00:18:00; the sense of the hadith on provision, ep18 00:18:30; the hadith on supplication reversing the decree, ep18 00:11:30; the two brothers' example, the sense only) | run omar-abdelkafy-ebadu-al-rahman-6 |
 
 Notes for ep17–ep18. The recording of ep17 is much garbled from 00:02:00 to 00:02:30 and after 00:14:00, and ep18 repeats the closing verses at length; only clear windows are written. Episode 18 closes the attributes listed in the programme. Points in ep17 and ep18 that are the lecturer's own opinions (the leadership of the pious; the timing of marriage for a girl; the sex of a child) are marked "the lecturer's view" where they are opinion.
 
@@ -606,6 +606,22 @@ Notes for ep25–ep26. Episode 25 is garbled in its middle sections; episode 26 
 | Hadith of the cards (full wording), Hadith on the Bedouin and the townsman | ep10 00:08:00; ep12 00:05:30-00:06:00 | Wording not typed; garbled | Hadith rule; clarity | Open |
 | Corruption and bribery remark in the heedlessness passage | ep09 00:07:30-00:08:00 | Partly garbled personal anecdote; only the clear point on backbiting kept | Clarity | Open |
 
+### Completed recordings (§8), continued
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| silsilat-ebadu-al-rahman ep27–ep28 (reflection and the real losses; self-reckoning, the obstacles and long hope) | ep27 about 24 min, ep28 about 24 min (transcript) | ar, en, ur: 1 record extended, 24 points | 6 new `about` edges (verses 25:72, 25:73, 25:68; tadabbur al-Qur'an, muhasabat al-nafs, tul al-amal, mawt, zakat, dhikr, afw, tawba; Umar, Ibn Mas'ud) | ep27 13, ep28 11 points; engine qwen3-asr pass5, 30 s windows | 7 needs_source (the question about weeping in prayer, ep27 00:03:30; the father's sealed will, ep27 00:04:30; Umar and the scent, ep27 00:15:30; the comparison with public money, ep27 00:16:30 (no figures); the locked heart, ep28 00:07:30; the reckoning by plain arithmetic, ep28 00:08:30; long hope and the death of the one who thought he would not die, ep28 00:17:30) | run omar-abdelkafy-ebadu-al-rahman-11 |
+
+Notes for ep27–ep28. Episode 27 has a long segment on mosques and the Qur'an's recitation from 00:12:00 that is garbled and not written; episode 28 has runs of repeated words at 00:15:30 and 00:20:00–00:21:00 that are excluded. With this batch all 28 lessons of the series are written.
+
+| Excluded (ebadu ep27–ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, break jingles, closing formulae | ep27 00:00:00–00:01:00, 00:13:00, 00:23:30; ep28 00:00:00, 00:13:00, 00:23:30–00:24:00 | Not lesson content; Qur'an never typed | Content rule; Qur'an rule | Open |
+| Repetition loops and hallucinated runs | ep27 00:12:30 (tail); ep28 00:14:00 (tail), 00:15:30, 00:20:00–00:21:00 | Not speech | Loop check | Open |
+| The Qur'an recitation and the "wailing" at the close of ep27 | ep27 00:12:00–00:12:30 | Partly garbled; the sentence is not recoverable | Clarity; Qur'an rule | Open |
+| Garbled passage on the building boom and the 2019 remark | ep28 00:22:30 | Garbled; the year and the remark are not clear | Clarity | Open |
+| Accounts of money and the "two hundred thousand" figures | ep28 00:10:30 | Figures garbled | Clarity; no figure without a source | Open |
+| Remark on the Badr-era lessons on the Qur'an's tongue and the Prophet's last lessons | ep28 00:19:00 | Garbled | Clarity | Open |
 ### albuyout-alamena, episodes 6–7 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-3)
 
 | Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
