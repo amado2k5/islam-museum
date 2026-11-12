@@ -3,8 +3,9 @@ class: concept
 kind: term
 label: { ar: "الإسناد", en: "Isnad" }
 summary:
-  ar: "الإسناد سلسلة الرجال الموصلة إلى متن الحديث: «حدثنا فلان عن فلان» حتى تنتهي الرواية إلى النبي أو الصحابي؛ به عرف المحدثون صحة الخبر من ضعفه، فدرسوا الرجال عدالةً وضبطاً، واتصال السند من انقطاعه. وقد افتتح مسلم صحيحه بالكلام على عظمة الإسناد وصيانته من الكذب، وفيه عن ابن المبارك «الإسناد من الدين، ولولا الإسناد لقال من شاء ما شاء» {cite:sahih-muslim muqaddima}، حتى قيل إنه من خصائص هذه الأمة."
-  en: "The isnad is the chain of men linking a hadith's text back to the Prophet or a Companion — 'so-and-so told us from so-and-so'; by it the muhaddithun judged a report sound or weak, examining narrators for integrity and precision and the chain for continuity. Muslim opened his Sahih with the isnad's dignity and its guarding against fabrication, so that it came to be counted among this community's distinguishing marks."
+  ar: "الإسناد سلسلة الرجال الموصلة إلى متن الحديث: «حدثنا فلان عن فلان» حتى تنتهي الرواية إلى النبي أو الصحابي؛ به عرف المحدثون صحة الخبر من ضعفه، فدرسوا الرجال عدالةً وضبطاً، واتصال السند من انقطاعه. وقد افتتح مسلم صحيحه بالكلام على عظمة الإسناد وصيانته من الكذب {cite:sahih-muslim muqaddima}. وتذكر دائرة المعارف الإسلامية أن الحاجة إلى الإسناد نمت مع تقدم القرن الأول، وأن مجموعات القرن الثالث فصاعدًا تورد الأسانيد كاملة، وتعرض مصطلحاته وطرق تلقي الرواية، كما تعرض آراء الباحثين الغربيين في نمو الأسانيد."
+  en: "The isnad is the chain of men linking a hadith's text back to the Prophet or a Companion, by which the muhaddithun judged a report sound or weak, examining narrators and the chain's continuity. Muslim opened his Sahih with the isnad's dignity and its guarding against fabrication. The Encyclopaedia of Islam says the need to state one's authority grew as the first century advanced and that collections from the 3rd/9th century on give complete isnads; it sets out the technical terms and the ways of receiving a transmission, and reports the views of Western scholars on the growth of isnads."
+  ur: "اسناد راویوں کا وہ سلسلہ ہے جو حدیث کے متن کو نبی یا صحابی تک پہنچاتا ہے؛ اسی سے محدثین نے روایت کی صحت اور ضعف پرکھا، راویوں اور سند کے اتصال کو دیکھ کر۔ مسلم نے اپنی صحیح کا آغاز اسناد کی عظمت اور اس کے جھوٹ سے محفوظ رہنے پر گفتگو سے کیا۔ انسائیکلوپیڈیا آف اسلام کہتا ہے کہ پہلی صدی کے بڑھنے کے ساتھ اپنے مآخذ بیان کرنے کی ضرورت پیدا ہوئی اور تیسری صدی ہجری سے مجموعوں میں مکمل اسناد دی گئیں؛ وہ اصطلاحات اور روایت حاصل کرنے کے طریقے بتاتا ہے اور اسناد کے ارتقا پر مغربی علما کی آرا بھی نقل کرتا ہے۔"
 wings: [ideas]
 themes: [scripture-and-its-sciences]
 periods: [period/rashidun, period/umayyad, period/abbasid-early]
@@ -14,11 +15,12 @@ relations:
   - { type: related_to, target: concept/ittisal-al-isnad, sources: [source/sahih-muslim] }
   - { type: related_to, target: concept/mustalah-al-hadith, sources: [source/sahih-muslim] }
 external_ids: { wikidata: "Q1674390" }
-sources: [source/sahih-muslim, source/manhaj-tawthiq-al-sunna-azhar, source/assabile-abu-ishaq-alheweny]
+sources: [source/sahih-muslim, source/manhaj-tawthiq-al-sunna-azhar, source/assabile-abu-ishaq-alheweny, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
   source: "مقدمة صحيح مسلم في الإسناد والرواية؛ صياغة المتحف"
   generated_by: "Devin (SWE-2 High)"
   run: hadith-section-1
+  canon: "EI2 vol. 4 article Isnad p. 220 and vol. 3 article Hadith PDF pp. 33-37, written by Claude Sonnet 5.5, run canon-cornerstones-20"
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

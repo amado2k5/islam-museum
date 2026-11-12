@@ -9,8 +9,8 @@ wings: [place]
 coordinates: [42.883333333333, 71.366666666667]
 coordinate_precision: locality
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q486545" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q486545", nomisma: "taraz" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q486545 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."

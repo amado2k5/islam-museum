@@ -3,8 +3,9 @@ class: event
 kind: siege
 label: { en: "The Battle of the Trench (al-Ahzab)", ar: "غزوة الأحزاب ⁦(الخندق)⁩" }
 summary:
-  en: "In Shawwal 5 AH (February-March 627 CE), a confederate army of 10,000 Meccans and Bedouin allies besieged Medina; upon Salman al-Farisi's advice the Muslims dug a protective trench on their northern boundary; the siege endured for nearly a month amidst cold, hunger, and the treachery of Banu Qurayza, until broken by Nu'aym ibn Mas'ud's stratagem and a violent night windstorm."
-  ar: "في شوال سنة 5هـ ⁦(فبراير-مارس 627م)⁩، زحف تحالف الأحزاب بعشرة آلاف مقاتل من قريش وغطفان بإيعاز من سادات يهود بني النضير؛ فأشار سلمان الفارسي بحفر الخندق شمال المدينة؛ صمد ثلاثة آلاف مسلم نحو شهر في برد وجوع ونقض بني قريظة لعهدهم، حتى خذل الله الأحزاب بحيلة نعيم بن مسعود وريح شاتية هوجاء زلزلت معسكرهم."
+  ar: "غزوة الخندق حصار ضربه على المدينة تحالف تقوده قريش في السنة الخامسة للهجرة، وقد حفر المسلمون خندقاً في الجهات المكشوفة من الواحة فأوقف فرسان المهاجمين. وتذكر رواية السيرة شهراً من الحصار وحيلة نعيم بن مسعود وريحاً شديدة في الليل، أما دائرة المعارف الإسلامية فتؤرخها بذي القعدة سنة 5هـ، أبريل 627م، وتتحدث عن نحو عشرة آلاف رجل وأسبوعين قليلي القتال. وبعدها حاصر النبي بني قريظة، ويعدّ المقال الأكاديمي إخفاق الحصار نقطة تحول في السيرة."
+  en: "The Battle of the Trench was the siege of Medina by a Quraysh-led confederacy in the fifth year of the Hijra; the Muslims dug a trench across the exposed parts of the oasis and it stopped the attackers' cavalry. The sira tradition tells of a siege of about a month, Nu'aym ibn Mas'ud's stratagem and a violent night wind, while the Encyclopaedia of Islam dates it to Dhu al-Qa'da 5, April 627, with about 10,000 men and a fortnight of little fighting. The Prophet then besieged Banu Qurayza, and the Encyclopaedia counts the failure of the siege among the main turning points of Muhammad's life."
+  ur: "غزوۂ خندق ہجرت کے پانچویں سال قریش کی قیادت میں بننے والے اتحاد کا مدینہ کا محاصرہ تھا؛ مسلمانوں نے نخلستان کے کھلے حصوں میں خندق کھودی جس نے حملہ آوروں کے سواروں کو روک دیا۔ سیرت کی روایت تقریباً ایک ماہ کے محاصرے، نعیم بن مسعود کی تدبیر اور رات کی تیز آندھی کا ذکر کرتی ہے، جبکہ انسائیکلوپیڈیا آف اسلام اسے ذوالقعدہ 5ھ، اپریل 627ء کا بتاتا ہے، تقریباً دس ہزار آدمیوں اور کم لڑائی والے دو ہفتوں کے ساتھ۔ اس کے بعد نبی نے بنو قریظہ کا محاصرہ کیا، اور انسائیکلوپیڈیا محاصرے کی ناکامی کو محمد کی زندگی کے اہم موڑوں میں شمار کرتا ہے۔"
 wings: [time]
 themes: [battles, wars-and-campaigns]
 periods: [period/prophetic-era]
@@ -54,7 +55,7 @@ map:
     - { type: point, role: camp, side: 1, label: { ar: "معسكر الأحزاب شمال الخندق", en: "The confederates' camp north of the ditch" }, at: [24.503, 39.602], precision: schematic, source: source/mubarakpuri-raheeq }
     - { type: point, role: landmark, label: { ar: "الثغرة التي اقتحمها عمرو بن عبد ود وخيله", en: "The gap where Amr ibn Abd Wadd and his horsemen crossed" }, at: [24.496, 39.596], precision: schematic, source: source/mubarakpuri-raheeq }
 external_ids: { wikidata: "Q826083" }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy, source/assabile-abu-ishaq-alheweny, source/sira-nabawiyya-sallabi]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy, source/assabile-abu-ishaq-alheweny, source/sira-nabawiyya-sallabi, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "بمشورة سلمان الفارسي حفر المسلمون خندقاً أمام المدينة؛ فحاصرهم جيش عشرة آلاف نحو شهر حتى فرّقتهم ريح ليلة."
@@ -71,3 +72,4 @@ provenance:
   layer: own-research
   source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
   generated_by: Devin
+  canon: "EI2 vol. 4 article Khandak (PDF p. 1059); vol. 7 Muhammad article (PDF pp. 422-423) and Murra article (PDF p. 683), written by Claude Sonnet 5.5, run canon-cornerstones-20"

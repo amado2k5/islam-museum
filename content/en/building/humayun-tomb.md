@@ -1,8 +1,8 @@
 ---
 id: building/humayun-tomb
 lang: en
-source_lang: ar
-translators: ["Claude Code (OCR-harvest worker H), translation"]
+source_lang: en
+translators: []
 status:
   review: published
 provenance:
@@ -12,7 +12,32 @@ provenance:
   source: "source/rezavi-iranian-influence-indian-architecture-2002, pp. 129, 131, 133, 138-139; source/brookes-gardens-of-paradise-1987, pp. 130-132, 136, 154"
 ---
 ## Overview
-Humayun's tomb at Delhi is the mausoleum of the second Mughal emperor. [[person/syed-ali-nadeem-rezavi|Syed Ali Nadeem Rezavi]] ranks it, with the Taj Mahal, as the most famous Mughal building on the Timurid [[concept/hasht-bihisht-plan|nine-part plan]]. {cite:rezavi-iranian-influence-indian-architecture-2002 p.138}
+Humayun's tomb at Delhi is the mausoleum of the second Mughal emperor. [[person/syed-ali-nadeem-rezavi|Syed Ali Nadeem Rezavi]] ranks it, with the Taj Mahal, as the most famous Mughal building on the Timurid [[concept/hasht-bihisht-plan|nine-part plan]]. {cite:rezavi-iranian-influence-indian-architecture-2002 p.138} The Encyclopaedia of Islam calls it the first major Mughal building in [[place/delhi|Delhi]] and says it marked the arrival of a new style of building in India. {cite:encyclopaedia-of-islam-2 vol. 2 p. 278} {cite:encyclopaedia-of-islam-2 vol. 3 p. 479}
+
+## The tomb in the monuments of Delhi
+The article on Delhi in the Encyclopaedia of Islam records that [[person/humayun-mughal|Humayun]] settled in the city after the early Mughal conquests and began a citadel, Dinpanah, on the old mound of Indrapat in 940/1533, but was driven out by Sher Shah, who finished the work. Humayun's return five years later added nothing to the buildings of Delhi, and the next two Mughal rulers preferred to live at Agra and Lahore. The article names the group of monuments around Humayun's tomb among the Mughal works in Delhi that date from those reigns. {cite:encyclopaedia-of-islam-2 vol. 2 p. 273} It describes the tomb as the first major building of the Mughals in the city, of a style already foreshadowed in the small [[building/tomb-of-atgah-khan-delhi|tomb of Atga Khan]] at Nizamuddin. {cite:encyclopaedia-of-islam-2 vol. 2 p. 278}
+
+## Foundation and builder
+The article gives two dates for the laying of the foundations: 976/1568-9 according to Sangin Beg, in the Siyar al-Manazil, and 973/1565 according to Sayyid Ahmad Khan, whom most later writers follow. It says the work was commissioned by Humayun's widow, who employed the Persian architect Ghiyath, and that the wall of the enclosure had been begun some five years earlier. {cite:encyclopaedia-of-islam-2 vol. 2 p. 278} The article on Hind notes that the tomb was not begun until 976/1568-9 and was built, unlike the usual practice, not in the emperor's lifetime but by his widow. {cite:encyclopaedia-of-islam-2 vol. 3 p. 479} A plate caption in the article on the Mughals gives the dates 970-8/1562-71 for the building. {cite:encyclopaedia-of-islam-2 vol. 7 p. 377} The encyclopaedia thus gives differing dates in different articles; the sections below on Brookes and Nath give the dates of other authors.
+
+## The building
+The article describes a mausoleum 47.5 metres square standing on a plinth 95 metres square and 6.7 metres high. Every face is alike: a central rectangular front with an immense arch, flanked by smaller wings that each hold a smaller arch, the wings being octagonal in plan and projecting forward. The central chamber carries a bulbous double dome on a high collar, with small open pavilions called chhatris over the corner wings and the portals. {cite:encyclopaedia-of-islam-2 vol. 2 p. 278} The whole building is in red sandstone with a liberal use of white and coloured marble. {cite:encyclopaedia-of-islam-2 vol. 2 p. 279}
+
+The article on Hind adds that the chamber holding the cenotaph is square in plan, with each corner cut off at an angle and a recessed central bay in each side. Each bay has a deep arch as high as the walls, built as a half-dome, and smaller arches of varied height fill the rest of the faces. The double dome stands on a tall drum, with an open chhatri of the Lodi type on slender pillars at each corner and two smaller square chhatris over each central arch. The arches are struck from four centres, a shape the article presents as new to northern India. The inlay of white and grey marble, set in star-shaped designs on the drum below the dome, is classed as opus sectile rather than the polished pietra dura of the later Mughal period. The plinth contains the true grave directly beneath the cenotaph. {cite:encyclopaedia-of-islam-2 vol. 3 p. 479} The text of the Delhi article is cut off by the OCR between its first description of the dome and its remarks on materials, so nothing is reported from that gap.
+
+## The garden and its neighbours
+According to the Delhi article the mausoleum stands in a square garden enclosure 340 metres on a side, which it calls the first [[concept/chaharbagh|chaharbagh]] garden in India that still keeps its original plan. {cite:encyclopaedia-of-islam-2 vol. 2 p. 278} The article on Hind says the tomb gains greatly in effect from the plinth and from the still larger garden, a great square divided into squares and again into squares by paths, flower-beds and parterres. {cite:encyclopaedia-of-islam-2 vol. 3 p. 479}
+
+Other buildings of the complex are named in the Delhi article: the small Nai ka Gumbad, the [[building/nila-gumbad-delhi|Nila Gumbad]], the Afsarwala tomb and mosque, the Arab Sarai and the tomb of [[building/tomb-of-isa-khan-delhi|Isa Khan]]. {cite:encyclopaedia-of-islam-2 vol. 2 p. 279} The article says the Nila Gumbad is earlier than Humayun's tomb and so is not, as often stated, the tomb of Fahim Khan, who died in 1035/1626. {cite:encyclopaedia-of-islam-2 vol. 2 p. 279} Isa Khan's tomb is an octagonal building of 954/1547-8, from the reign of Islam Shah Sur, with a separate mosque on the west; the article calls it the last building in Delhi with sloping buttresses at its angles. {cite:encyclopaedia-of-islam-2 vol. 2 p. 278} The article refers readers to S. A. A. Naqvi's 1947 study of the tomb and its neighbouring buildings. {cite:encyclopaedia-of-islam-2 vol. 2 p. 279} Some way to the south stands the tomb of [[person/abd-al-rahim-khan-i-khana|Abd al-Rahim]], Khan-i Khanan, who died in 1036/1626-7. It is a similar but smaller building without the octagonal corner compartments, which the article calls a more obvious forerunner of the [[building/taj-mahal|Taj Mahal]]. {cite:encyclopaedia-of-islam-2 vol. 2 p. 279}
+
+## Plan and orientation
+The article on the Mughals explains the nine-part plan: a central domed chamber, open rectangular halls in the middle of the sides, and double-storeyed vaulted rooms at the corners. The plan of Humayun's tomb is made of four such nine-part units, which in turn form the corner elements of one larger nine-part figure. The article says this design was apparently inspired by Humayun's boat palace, described by Khwandamir, and that under [[person/jalal-al-din-akbar|Akbar]] the nine-part plan became the ground plan used above all others. {cite:encyclopaedia-of-islam-2 vol. 7 p. 358} This agrees with the account of Rezavi given above, and see also the [[concept/hasht-bihisht-plan|nine-part plan]] record.
+
+The article on the makbara, the tomb, lists Humayun's tomb among the major mausolea with neither an internal [[concept/mihrab|mihrab]] nor an external mosque; the building that might be taken for a mosque is in fact the main gateway. {cite:encyclopaedia-of-islam-2 vol. 6 p. 136}
+
+## Later use and standing
+The Delhi article says the tomb complex, together with the [[building/dargah-nizamuddin|shrine area of Nizamuddin]] and other dargahs, continued to be used as burial places for later rulers of the [[polity/mughal-empire|Mughal dynasty]] after Shahjahanabad became the capital. {cite:encyclopaedia-of-islam-2 vol. 2 p. 273} The article on Hind calls the tomb of great importance as the immediate Indian prototype for other monumental mausolea. {cite:encyclopaedia-of-islam-2 vol. 3 p. 479}
+
 
 ## Architect and plan
 It was designed by Mirza Ghiyas, the master architect who had come to India with Babur. Rezavi argues that its plan copies the "boat-house" Humayun had made on the Yamuna, as described by his court historian Khwand Amir: four boats, each carrying a double-storeyed [[concept/chahartaq|chahartaq]], set facing one another and joined by four apartments, leaving an octagonal tank in the middle. In the tomb the chahartaqs became double-storeyed vaulted octagonal corner chambers in stone, the connecting apartments became rectangular side chambers, and the tank became the domed octagonal burial chamber at the centre. {cite:rezavi-iranian-influence-indian-architecture-2002 p.138} {cite:rezavi-iranian-influence-indian-architecture-2002 p.139}
