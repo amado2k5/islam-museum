@@ -1,8 +1,8 @@
 ---
 id: concept/tawba
 lang: en
-source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Summary
 In Ka'b's account at Ibn Ishaq, "God's repentance" upon the three is declared after the boycott; Ka'b counts as part of his repentance matters touching his wealth and the truthfulness of his speech. {cite:ibn-hisham-saqqa 4/180-181}
@@ -15,6 +15,27 @@ Ka'b said part of his repentance was to strip off his wealth as alms — the Pro
 
 ## Notes
 - This page describes the concept only as it appears in Ka'b's account; the general legal definition of repentance and its rulings need the fiqh and creed sources (needs_source).
+
+## Repentance in the Encyclopaedia of Islam
+The Encyclopaedia of Islam, second edition, defines tawba as the verbal noun of the verb meaning to repent or return from one's sins and be turned towards God, and compares it with the Rabbinic teshuba. It says the settled teaching on repentance rests on the Qur'an, the Hadith and the literature of piety, above all of the Sufi kind. {cite:encyclopaedia-of-islam-2 vol. 10 p. 407}
+
+### The vocabulary of repentance
+According to the article, the root t-w-b occurs often in the Qur'an, mostly in Medinan passages, and the forms for repentance and for the oft-returning, said of God, are found only in Medinan passages. When the verb speaks of a person repenting, it usually takes the preposition ila, toward God; when God is the subject it takes ala, as in the verse on [[person/adam|Adam]] whom his Lord turned towards. {cite:encyclopaedia-of-islam-2 vol. 10 p. 407}
+
+The article adds that the Qur'anic vocabulary is varied. Two roots of almost entirely Meccan origin are a-w-b, with the senses of returning and place of return, and n-w-b, in the sense of turning toward God. A third and rarer root, n-d-m, means remorse or regret for sin, arising from fear of punishment as much as from turning to God. By Medinan times, it says, t-w-b dominated the discourse and absorbed the meanings of the other terms, which later served, especially among Sufis, to draw distinctions inside the field of repentance. {cite:encyclopaedia-of-islam-2 vol. 10 p. 407}
+
+As one such distinction the article cites [[person/al-hujwiri|al-Hujwiri]], who died in 469/1077: tawba is a return from great sins to obedience, inaba a return from minor sins to love, and awba a return from one's self to God. {cite:encyclopaedia-of-islam-2 vol. 10 p. 407}
+
+### Repentance in the Hadith
+The article notes that the Hadith contains varied teachings on repentance and, like the Qur'an, often links it with seeking God's forgiveness, treated in the museum under [[concept/istighfar|istighfar]]. It gives three reports. In the first, from [[person/abu-hurayra|Abu Hurayra]] and recorded by al-Bukhari, the Prophet says he seeks God's forgiveness and turns to Him more than seventy times a day. In the second, from Ibn Umar and recorded by Ibn Majah, God accepts a servant's repentance as long as the death rattle has not occurred. In the third, from Anas and recorded by al-Tirmidhi, all of Adam's offspring are sinners, and the best of sinners are those given to repentance. {cite:encyclopaedia-of-islam-2 vol. 10 p. 407}
+
+### Repentance on the Sufi path
+The article says that repentance discourse was well developed by the 4th/10th century, when repentance was widely counted the first station on the Sufi path, a theme taken up in the museum's entry on [[concept/al-maqamat-wal-ahwal|stations and states]]. It gives al-Hujwiri's definition of tawba as remorse for disobedience, immediate abandonment of sin and determination not to sin again. It adds his view that contrition may spring from fear of divine chastisement, from desire for divine favour together with certainty that evil conduct cannot gain it, or from shame before God. {cite:encyclopaedia-of-islam-2 vol. 10 p. 407}
+
+The article says that [[person/al-ghazali-abu-hamid|al-Ghazali]], who died in 505/1111, gave repentance a detailed chapter in the Ihya, holding it a free act and an obligation on every Muslim as a life-long spiritual discipline. {cite:encyclopaedia-of-islam-2 vol. 10 p. 407}
+
+### Remembering or forgetting the sin
+The article reports that early Sufis debated whether the sins of a true penitent should be remembered or forgotten. Citing al-Hujwiri, it relates that Sahl al-Tustari, who died in 283/896, held that repentance means not forgetting one's sins but always regretting them, so that one is not pleased with oneself, since a person who never forgets his sins never grows conceited. It sets against this the view of al-Junayd, who died in 297/910, and others that repentance consists in forgetting the sin, because remembering it is a veil between God and those who contemplate Him. {cite:encyclopaedia-of-islam-2 vol. 10 p. 407}
 
 ## Sha'rawi on repentance and society
 Sha'rawi holds that Abraham and Isma'il asked repentance for their descendants because they knew those who came after would sin, and that the law of repentance protects the whole society: if a single sin left the sinner in the Fire forever with no repentance, sinners would grow bolder and people would despair of their salvation. He cites the hadith that every child of Adam errs and the best of those who err are those who repent. {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.588}

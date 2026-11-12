@@ -1,0 +1,36 @@
+id: person/peter-i-of-russia
+class: person
+label: { ar: "بطرس الأكبر", en: "Peter I of Russia (Peter the Great)", ur: "پیٹر اول روس، پیٹر اعظم" }
+names:
+  - { kind: alternate, lang: en, value: "Peter the Great" }
+  - { kind: alternate, lang: tr, value: "Petro" }
+  - { kind: alternate, lang: ar, value: "بطرس الأول" }
+summary:
+  ar: "بطرس الأكبر قيصر روسيا الذي ذكرته دائرة المعارف الإسلامية في سياق علاقة روسيا بالدولة العثمانية وفارس وآسيا الوسطى. استولى على آزاق سنة 1696م وأُجبر على التخلي عنها بمعاهدة بروت سنة 1711م، وتدخل في شمال القوقاز وساحل بحر قزوين وبلغ دربند سنة 1722م، وأرسل بعثة إلى خيوة سنة 1717م {cite:encyclopaedia-of-islam-2 vol. 1 p. 857} {cite:encyclopaedia-of-islam-2 vol. 2 p. 101}."
+  en: "Peter the Great, tsar of Russia, appears in the Encyclopaedia of Islam through Russia's relations with the Ottoman Empire, Persia and Central Asia. He took Azak in 1696 and gave it up under the Treaty of the Prut in 1711, intervened on the western Caspian shore and occupied Derbend in 1722, and sent an expedition against Khiva in 1717 {cite:encyclopaedia-of-islam-2 vol. 1 p. 857} {cite:encyclopaedia-of-islam-2 vol. 2 p. 101}."
+  ur: "پیٹر اعظم روس کے زار تھے اور دائرۃ المعارف الاسلامیہ میں ان کا ذکر روس کے عثمانیوں، ایران اور وسطی ایشیا سے تعلقات کے ضمن میں آتا ہے۔ انہوں نے 1696ء میں آزاق لیا اور 1711ء کے معاہدۂ پروت کے تحت اسے چھوڑنا پڑا، 1722ء میں بحیرۂ قزوین کے مغربی ساحل میں مداخلت کر کے دربند پر قبضہ کیا، اور 1717ء میں خیوا کی طرف مہم بھیجی {cite:encyclopaedia-of-islam-2 vol. 1 p. 857} {cite:encyclopaedia-of-islam-2 vol. 2 p. 101}۔"
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans, persia-central-asia]
+relations:
+  - { type: ruler_of, target: polity/tsardom-of-russia, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: fought, target: polity/ottoman-empire, note: "Azak 1695-96 and the Pruth campaign of 1711.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/treaty-pruth-1123, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/azak, note: "Captured by Peter on 6 August 1696 and handed back after the Pruth treaty.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/darband, note: "Occupied in 1722 during the Caspian campaign.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/baltaji-mehmed-pasha, note: "The grand vizier who is said to have defeated him on the Pruth in 1711.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., scattered passages (no separate article on Peter), written in the museum's own words"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., passages in vol. 1 pp. 290, 478, 857, 1064; vol. 2 p. 101; vol. 4 p. 1106; vol. 5 pp. 153-158, 532; vol. 5 fasc. 2 p. 99; vol. 8 p. 826; vol. 10 p. 181"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "بطرس الأكبر قيصر روسيا، حارب العثمانيين وأرسل جيوشه إلى بحر قزوين."
+  en: "Peter the Great was a tsar of Russia who fought the Ottomans and sent his armies to the Caspian Sea."
+  ur: "پیٹر اعظم روس کے زار تھے جنہوں نے عثمانیوں سے جنگ لڑی اور اپنی فوجیں بحیرۂ قزوین تک بھیجیں۔"

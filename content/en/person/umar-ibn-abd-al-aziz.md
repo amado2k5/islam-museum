@@ -1,13 +1,57 @@
 ---
 id: person/umar-ibn-abd-al-aziz
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
 [[person/umar-ibn-abd-al-aziz|Umar ibn Abd al-Aziz]] ibn Marwan was an Umayyad caliph, born most probably in 61 AH in [[place/medina|Medina]]; his mother was Umm Asim, daughter of Asim, the son of [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]] {cite:salabi-umayyad-state-2020 p.157-161}. [[person/al-walid-ibn-abd-al-malik|Al-Walid ibn Abd al-Malik]] made him governor of Medina in Rabi' al-Awwal 87 AH, where he formed a consultative council of ten of the city's jurists {cite:salabi-umayyad-state-2020 p.168-173}. He was given allegiance as caliph after the death of [[person/sulayman-ibn-abd-al-malik|Sulayman ibn Abd al-Malik]] at [[place/marj-dabiq|Marj Dabiq]] in Safar 99 AH, by a testament Sulayman had written for him {cite:tabari-khayyat-part2 scan 72} {cite:tabari-khayyat-part2 scan 73} {cite:muruj-al-dhahab p. 172-176}.
 
 Al-Sallabi writes that he began the return of unjustly taken property with himself and then with the Umayyads, and that he wrote to his governor of Egypt to lift the [[concept/jizya|jizya]] from those who became Muslim {cite:salabi-umayyad-state-2020 p.184-193} {cite:salabi-umayyad-state-2020 p.194-203}. He ordered the sunna collected and written down: he wrote to [[person/abu-bakr-ibn-hazm|Abu Bakr ibn Hazm]] to record the hadith of the Prophet because he feared that knowledge would fade, and he ordered [[person/muhammad-ibn-shihab-al-zuhri|Ibn Shihab al-Zuhri]] to gather it {cite:salabi-umayyad-state-2020 p.297-302}. In his time he dealt with the governors and the [[group/khawarij|Kharijites]], writing to his governor of Iraq to call them to act by the Book of God, and he had a dispute with [[person/yazid-ibn-al-muhallab|Yazid ibn al-Muhallab]] {cite:tabari-khayyat-part2 scan 75} {cite:tabari-khayyat-part2 scan 78}. He died at Dayr Sim'an in the district of [[place/homs|Homs]] in Rajab 101 AH, and [[person/al-masudi|al-Mas'udi]] gives his caliphate as two years, five months and five days {cite:muruj-al-dhahab p. 172-176}. Al-Sallabi reports that the scholars counted him among the Rightly Guided Caliphs {cite:salabi-umayyad-state-2020 p.159}.
+
+## In the Encyclopaedia of Islam, second edition
+
+The article in the Encyclopaedia of Islam presents [[person/umar-ibn-abd-al-aziz|Umar ibn Abd al-Aziz]], called Abu Hafs al-Ashajj, as the fifth caliph of the Marwanid branch of the [[polity/umayyad-caliphate|Umayyad dynasty]], who reigned from 99/717 to 101/720. His father was Abd al-Aziz ibn Marwan, and his grandfather was Marwan ibn al-Hakam {cite:encyclopaedia-of-islam-2 vol. 10 p. 876}. The sections below follow that article. The later sections of this page, drawn from other sources, are kept as they were.
+
+## Birth and upbringing
+
+The article says Umar was probably born in [[place/medina|Medina]] around 60/680, although some sources place his birth in Egypt. He spent his early years in both places, above all at [[place/hulwan|Hulwan]] in Egypt, where his father lived as governor from 65 to 86/686 to 705. His education, however, took place in Medina, where he is said to have first kept company with prominent pious men and hadith scholars {cite:encyclopaedia-of-islam-2 vol. 10 p. 876}.
+
+After his father died, his uncle the caliph [[person/abd-al-malik-ibn-marwan|Abd al-Malik]] summoned him to Damascus to confirm a marriage between him and the caliph's daughter Fatima. Shortly afterwards Abd al-Malik's son and successor [[person/al-walid-ibn-abd-al-malik|al-Walid]] named Umar governor of Medina. The article reads both acts as conciliatory gestures meant to soften relations between two branches of the Marwanid family {cite:encyclopaedia-of-islam-2 vol. 10 p. 876}.
+
+## Governor of Medina
+
+Umar arrived at his post in Rabi' I 87, February to March 706. His jurisdiction later took in [[place/mecca|Mecca]] and [[place/taif|Taif]]. Little is known of what he did there, but it is said that he set out at once to govern in close association with the jurists of the Prophet's city. Most accounts show him as a just governor, who often led the pilgrimage and showed special reverence to pious men such as [[person/said-ibn-al-musayyab|Sa'id ibn al-Musayyab]]; other accounts describe the young Umar as worldly and indulgent {cite:encyclopaedia-of-islam-2 vol. 10 p. 876}.
+
+At al-Walid's request he oversaw the expansion of the [[building/prophets-mosque|Mosque of the Prophet]]. The article suggests that his lenient rule in the Hijaz may have brought about his removal from it. Some people of Iraq had fled to the Hijaz to escape the harsher treatment of [[person/al-hajjaj-ibn-yusuf|al-Hajjaj ibn Yusuf]], the powerful governor of Iraq, and under pressure from al-Hajjaj Umar was recalled in Sha'ban 93, May to June 712 {cite:encyclopaedia-of-islam-2 vol. 10 p. 876}.
+
+## At court and the succession
+
+For the next years Umar seems to have been attached to the Umayyad court in Damascus. There, with the influential [[person/raja-ibn-haywa|Raja' ibn Haywa]], he acted as an unofficial counsellor to the caliph [[person/sulayman-ibn-abd-al-malik|Sulayman ibn Abd al-Malik]]. In 97/716, for example, he accompanied Sulayman on pilgrimage to Mecca and stopped with him at [[place/jerusalem|Jerusalem]] on the way back {cite:encyclopaedia-of-islam-2 vol. 10 p. 876}.
+
+In 98/716 Sulayman fell ill at Dabiq in northern Syria while on campaign. Raja' persuaded him to name Umar as his successor, with [[person/yazid-ibn-abd-al-malik|Yazid ibn Abd al-Malik]] to follow. This ran against Abd al-Malik's earlier wish that the succession stay among his own descendants. The change drew some opposition from Abd al-Malik's line, but allegiance to Umar was secured, and he was proclaimed caliph on 10 Safar 99, 22 September 717 {cite:encyclopaedia-of-islam-2 vol. 10 p. 876}.
+
+## Military and frontier affairs
+
+The article notes that Umar has often been portrayed as a pacifist caliph, but judges it more likely that his stance on military affairs was dictated by concern over the dwindling caliphal treasury. In 99/717 he ordered the armies engaged in the costly and probably fruitless [[event/siege-of-constantinople-717|siege of Constantinople]] to withdraw, and the frontier with Byzantium to be pulled back to the region of [[place/malatya|Malatya]]. In that same year, though, he was willing to send troops against the Turks who had launched destructive raids into [[place/azerbaijan|Azerbaijan]], and the traditional summer raids continued without a break {cite:encyclopaedia-of-islam-2 vol. 10 p. 876}.
+
+In 100/718 he ordered first an Iraqi army and then a Syrian one against the Kharijite rebels led by Shawdhab, also called Bistam, al-Yashkuri in Iraq, although some sources relate that the rebels were calmed by diplomacy {cite:encyclopaedia-of-islam-2 vol. 10 p. 876}. On the [[group/khawarij|Khawarij]] in general see their own record.
+
+## Governors and fiscal policy
+
+Like other caliphs, Umar appointed and removed provincial governors as he saw fit. The most famous case is his removal and imprisonment of the Azdi notable [[person/yazid-ibn-al-muhallab|Yazid ibn al-Muhallab]], who had evidently gone back on promises about revenues he had raised as Sulayman's governor of Iraq and the East {cite:encyclopaedia-of-islam-2 vol. 10 p. 876}.
+
+The article says Umar is best known for his fiscal policies, though these remain unclear. His famous fiscal rescript is not a document in its own right but a text preserved in a later biography of the caliph by Ibn Abd al-Hakam, and its details remain open to different interpretations. The article finds it clear that, in the rescript and in other fiscal matters, Umar sought to raise the revenues due to the state while also granting new converts the same lenient fiscal status as other Muslims. It adds that his successors did not pursue these policies and that their long-term importance for the caliphate's fiscal system was small {cite:encyclopaedia-of-islam-2 vol. 10 p. 876} {cite:encyclopaedia-of-islam-2 vol. 10 p. 877}.
+
+## Death and burial
+
+On the road from Damascus to [[place/aleppo|Aleppo]], perhaps heading for his nearby estate at Khunasira, Umar fell ill. Some sources allege that the family of Abd al-Malik poisoned him. He died on 20 or 25 Rajab 101, 5 or 10 February 720, in the village of Dayr Sim'an near [[place/maarrat-al-numan|Ma'arrat al-Nu'man]], and was buried in a plot he had bought himself. The ruins of his tomb, of uncertain date, can still be seen {cite:encyclopaedia-of-islam-2 vol. 10 p. 877}. The museum also has a record of his [[building/omar-ibn-abdel-aziz-tomb|tomb]].
+
+## The later image
+
+The article holds that Umar's significance lies as much in the complexity of his later image as in what he achieved as caliph. To later generations he was an example of piety, fairness and humility. It was often stressed that his mother was a granddaughter of the Rightly-Guided caliph [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]], and the links between the two men were elaborated until some commentators counted Umar II among the Rightly-Guided caliphs. The article adds that there is some evidence that Umar saw himself as the redeeming [[concept/al-mahdi|Mahdi]] and as a renewer, mujaddid, of Islam as the community approached the end of its first century {cite:encyclopaedia-of-islam-2 vol. 10 p. 877}.
+
+Another strand of anecdote shows him, especially in youth, as a typical Umayyad prince fond of pomp and luxury. The article suggests these accounts may serve as a foil that heightens the image of the virtuous mature caliph. His reputation for piety also reached beyond Muslim audiences, and the article takes this to explain a Christian polemical pseudo-correspondence attributed to him and the Byzantine emperor Leo III. To writers of the Abbasid era and later he was something of an enigma: a prince of the Umayyad house, which many disliked, yet a pious statesman worthy of nostalgia and imitation. He is one of the few early figures who became the subject of separate biographical works early on {cite:encyclopaedia-of-islam-2 vol. 10 p. 877}.
 
 ## Allegiance
 al-Tabari reports that when people dispersed from the writing after the death of Sulayman, Umar feared that something of the matter had been assigned to him, so he asked Raja' ibn Haywa {cite:tabari-khayyat-part2 scan 70}. Umar led the funeral prayer over Sulayman after his death, according to the report {cite:tabari-khayyat-part2 scan 72}. When the news of the people's allegiance to him reached Abd al-Aziz ibn al-Walid, Umar said: "If you had given allegiance and taken up the command, I would not have disputed it with you" {cite:tabari-khayyat-part2 scan 73}.

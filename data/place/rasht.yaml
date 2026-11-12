@@ -10,8 +10,8 @@ regions: [persia-central-asia]
 coordinates: [37.27611111111111, 49.58861111111111]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q178373" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q178373", nomisma: "dar_al-marz_rasht" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q178373 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."

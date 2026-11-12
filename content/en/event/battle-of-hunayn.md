@@ -1,8 +1,8 @@
 ---
 id: event/battle-of-hunayn
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Summary
@@ -31,8 +31,36 @@ There were six thousand captives, among them [[person/al-shayma-bint-al-harith|a
 ## Significance and legislation
 The battle set down important principles. It broke the last armed polytheist gathering in the Hijaz. In it the Prophet forbade killing women, children and the 'usafa' (hired labourers) {cite:ibn-hisham-saqqa 4/95-96}. Qur'anic guidance came down drawing the lesson of pride in numbers, in [[passage/quran-9-25|سورة التوبة 25–26]].
 
+## The Encyclopaedia of Islam account of the battle
+The sections above follow the Muslim tradition of the sira. This section and the next summarise the article on Hunayn in the Encyclopaedia of Islam, a scholarly reference work, which gives an academic reconstruction and says plainly where the sources differ.
+
+The article describes [[place/wadi-hunayn|Hunayn]] as a deep, irregular valley with clusters of palm trees, a day's journey from [[place/mecca|Mecca]] on one of the roads to [[place/taif|al-Ta'if]], and as the scene of the battle that is the second one named in the Qur'an. It dates the fighting to early Shawwal 8/630, soon after the [[event/conquest-of-mecca|conquest of Mecca]]. {cite:encyclopaedia-of-islam-2 vol. 3 p. 610}
+
+In its account the confederate tribe of [[group/hawazin|Hawazin]], with its subsection [[group/thaqif|Thakif]], began to mobilise soon after the Prophet left Medina, apparently hoping to attack the Muslim force holding Mecca. Each side kept spies in the other's camp. About a fortnight after the conquest, Muhammad marched against Hawazin with twelve thousand men. The confederate commander, [[person/malik-ibn-awf|Malik ibn Awf al-Nasri]], brought flocks along with the army, and the venerable poet and warrior [[person/durayd-ibn-al-simma|Durayd ibn al-Simma]], who died in the battle, protested strongly at their presence. {cite:encyclopaedia-of-islam-2 vol. 3 p. 610}
+
+On leaving the oasis of Hunayn the road enters winding gorges that suit an ambush, and there Malik waited. The Muslims hardly suspected an enemy, since they thought him encamped at [[place/awtas|Awtas]]. Surprised by a sudden charge of Bedouin cavalry, they fell back in disarray. {cite:encyclopaedia-of-islam-2 vol. 3 p. 610}
+
+The article stresses that from this point the course of the fighting is hard to reconstruct, because the accounts of the Muhajirun, the Ansar, the Hashimids and the Shi'is differ. It judges that the Prophet, on his grey mule, was cut off for a time with few attendants and in grave danger. The Muslim tradition recorded above speaks of a white mule, so the two descriptions are given here side by side without a ruling. According to the article the Muslims then abandoned mounts they could not control, rallied and attacked, while the enemy, hemmed into a congested and narrow front, could not exploit his first success. It suggests that [[person/khalid-ibn-al-walid|Khalid ibn al-Walid]], who commanded the Muslim cavalry, may deserve the credit for turning the tide, and notes that the Ansar, in the Medinese school's accounts, claim it for themselves. {cite:encyclopaedia-of-islam-2 vol. 3 p. 610}
+
+Within a few hours the enemy was routed. The article offers as evidence the small Muslim losses, about twelve killed, the vast number of captives, including about six thousand women and children, and booty of over twenty-four thousand camels. Some of the fleeing Bedouin were pursued to Awtas, and others took refuge behind the walls of al-Ta'if, which Muhammad then besieged. {cite:encyclopaedia-of-islam-2 vol. 3 p. 610}
+
+## Hawazin and Thaqif in the Encyclopaedia of Islam
+The Encyclopaedia of Islam describes Hawazin as a large North Arabian group of tribes that properly includes [[group/banu-amir-ibn-sasaa|Amir ibn Sa'sa'a]] and Thakif. Before Islam it was bitterly hostile to [[group/quraysh|Quraysh]], with which it had fought the wars of the Fijar; the article sees the underlying cause in the trade rivalry between Mecca and al-Ta'if, whose people, Thakif, were either part of Hawazin or closely allied to it. {cite:encyclopaedia-of-islam-2 vol. 3 p. 305} Al-Ta'if later came under the section of Thakif known as the Ahlaf, meaning allies. {cite:encyclopaedia-of-islam-2 vol. 3 p. 306}
+
+On the Prophet's relations with the tribe, the article says that a small section of [[group/banu-sad-ibn-bakr|Sa'd ibn Bakr]], the tribe of his wet-nurse, became Muslim early, while others fought against him at Hunayn. It reports that, as he settled the affairs of Mecca, he heard that Malik ibn Awf was massing Hawazin and Thakif a day or two's march away, and that about two thousand Meccans joined him despite the old enmity between Quraysh and Hawazin. After the battle Thakif took refuge in al-Ta'if, while Hawazin was routed and lost all its possessions. {cite:encyclopaedia-of-islam-2 vol. 3 p. 306}
+
+The article notes that Muhammad then treated Malik very generously, restoring his wife and children, giving him camels and recognising him as chief of Hawazin. Malik later helped him against his former allies of Thakif. In the wars after the Prophet's death, the article says, Hawazin is reported to have suspended payment of the alms-tax to Medina but did not take up arms against Abu Bakr, which it attributes to the consideration shown to the tribe after its defeat. {cite:encyclopaedia-of-islam-2 vol. 3 p. 306}
+
+The article on Thakif adds that before Islam the tribe controlled the walled town of al-Ta'if and was divided into the less prestigious Ahlaf and the Malik, and that at Hunayn each subdivision fought under its own banner. {cite:encyclopaedia-of-islam-2 vol. 10 p. 457} It calls Thakif one of the staunchest Arabian tribes in opposition to Muhammad. After his unsuccessful siege of al-Ta'if in 8/630, which Qurashis supported because they feared a Thakafi takeover of their estates near the town, he changed tactics and set against Thakif their Bedouin allies under Malik ibn Awf, who blockaded the town. A Thakif delegation then came to Medina to negotiate conversion and won significant concessions for the tribe. The article reads the outcome as establishing the supremacy of Quraysh over Thakif. {cite:encyclopaedia-of-islam-2 vol. 10 p. 457}
+
 ## For young visitors
 The Muslims went out with a large army, and the enemy surprised them with an ambush in the valley early in the morning, so some of them fell back. But the Prophet stood firm and called to his Companions bravely; they came back and won. Afterwards he forgave many of those who had fought him.
+
+## Ali at Hunayn: Al-Sallabi's account
+[[person/ali-ibn-abi-talib|Ali]] stood firm with the Prophet at Hunayn, together with those of the Muhajirun and the Ansar who stood firm with him. In the army of Hawazin there was a man on a red camel holding a black banner. When he reached someone he thrust with his spear, and when he missed someone he raised his spear for those behind him, and they followed him {cite:sallabi-ali-vol1 p.109}. Ali saw that this man had an effect on Hawazin's zeal, so he set out toward him with a man of the Ansar until the two of them brought him down from his camel and killed him. They fled, and the Muslims were victorious {cite:sallabi-ali-vol1 p.109}.
+
+## Notes for researchers
+- The book does not name the man on the red camel at this point, so no name is recorded here; the book refers the report to the Musnad of Abu Ya'la.
 
 ## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
 

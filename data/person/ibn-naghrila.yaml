@@ -1,0 +1,44 @@
+id: person/ibn-naghrila
+class: person
+label: { ar: "ابن نغريلة", en: "Ibn Naghrila (Samuel ha-Nagid)", ur: "ابن نغریلہ" }
+names:
+  - { kind: alternate, value: "Ismail ibn Naghrila" }
+  - { kind: alternate, value: "Samuel ha-Nagid" }
+  - { kind: alternate, value: "Samuel Ibn Nagrello" }
+  - { kind: alternate, value: "Ibn al-Naghralla" }
+  - { kind: alternate, value: "Ibn Nagrella" }
+summary:
+  ar: "ابن نغريلة، ويسميه المقال الإنجليزي صموئيل ها-ناغيد، وزير يهودي في غرناطة الزيرية، تذكره دائرة المعارف الإسلامية أشهر وزراء الطوائف اليهود وتؤرخ وفاته بسنة 448هـ/1056-7م. أعاد بناء حصن الحمراء الأول بين 443 و447هـ/1052-1056م، وخلفه في الوزارة ابنه يوسف، ودار بينه وبين ابن حزم جدل، وقد ظلت سيرته في الدائرة مبثوثة في مقالات أخرى لا في ترجمة مستقلة {cite:encyclopaedia-of-islam-2 vol. 11 p. 199}."
+  en: "Ibn Naghrila, called Samuel ha-Nagid in Hebrew sources, was the Jewish vizier of Zirid Granada, named by the Encyclopaedia of Islam as the most famous Jewish vizier of the taifa period, with his death given as 448/1056-7. He rebuilt the early fortress of the Alhambra between 443/1052 and 447/1056, was succeeded in office by his son Joseph, and was the target of a polemic by Ibn Hazm. The Encyclopaedia has no entry of its own for him; what it says is scattered through other articles {cite:encyclopaedia-of-islam-2 vol. 11 p. 199}."
+  ur: "ابن نغریلہ، جنہیں عبرانی ماخذ میں صموئیل ہا-ناگید کہا جاتا ہے، زیری غرناطہ کے یہودی وزیر تھے۔ دائرۃ المعارف الاسلامیہ انہیں ملوک الطوائف کے دور کا سب سے مشہور یہودی وزیر کہتی ہے اور ان کی وفات 448ھ/1056-7ء بتاتی ہے۔ انہوں نے 443ھ/1052ء اور 447ھ/1056ء کے درمیان الحمراء کے ابتدائی قلعے کی تعمیرِ نو کی، ان کے بعد ان کے بیٹے یوسف اس منصب پر آئے، اور ابن حزم نے ان کے ساتھ مناظرہ کیا۔ دائرے میں ان کے لیے الگ مضمون نہیں، جو کچھ ہے وہ دوسرے مضامین میں بکھرا ہوا ہے {cite:encyclopaedia-of-islam-2 vol. 11 p. 199}."
+gender: male
+roles: [vizier, poet]
+faith:
+  - value: jewish
+    basis: documented
+    note: "Described as a Jewish vizier and as a Jew of Granada by the Encyclopaedia of Islam."
+    sources: [source/encyclopaedia-of-islam-2]
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+born: { edtf: "0993", calendar: julian, precision: year, status: tradition, derived: false, note: "993 as given with the death year 1056 in the article on the cup-bearer (saki), EI2 vol. 8 p. 949; no Hijri birth date is given.", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1056", hijri: "0448", calendar: julian, precision: year, status: tradition, derived: false, note: "EI2 vol. 11 p. 199 gives 448/1056-7; vol. 8 p. 949 gives 1056.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: lived_in, target: place/granada, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: debated_with, target: person/ibn-hazm, note: "Ibn Hazm wrote a refutation of him; EI2 vol. 3 p. 828 and vol. 4 p. 1023.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/abu-ishaq-al-ilbiri, note: "The Granadan jurist and poet protested in verse against the office held by Ibn Naghrila and his son; EI2 vol. 1 p. 149.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: polity/zirid-dynasty, note: "Served the Zirids of Granada as vizier; EI2 supplement p. 742 and vol. 11 p. 199.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., scattered mentions (no entry of its own)"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-2
+  canon: "EI2 vol. 11 p. 199 (Wazir), vol. 2 p. 1058 (Gharnata), vol. 1 p. 149 (Abu Ishak al-Ilbiri), vol. 3 p. 828 (Ibn Hazm), vol. 4 p. 1023 (Khalk), vol. 8 p. 949 (Saki), vol. 11 p. 251 (Yahud), vol. 12 p. 742 (Nissim b. Ya'kub)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "ابن نغريلة وزير في غرناطة قبل نحو ألف سنة، وكان يكتب الشعر ويبني حصناً صار أصل قصر الحمراء."
+  en: "Ibn Naghrila was a minister in Granada about a thousand years ago, who wrote poetry and rebuilt a fortress on the hill where the Alhambra later stood."
+  ur: "ابن نغریلہ تقریباً ہزار سال پہلے غرناطہ کے وزیر تھے، شاعری بھی کرتے تھے اور اس پہاڑی پر قلعہ بنوایا جہاں بعد میں الحمراء بنی۔"

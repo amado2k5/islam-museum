@@ -1,0 +1,35 @@
+id: person/amr-ibn-al-zubayr
+class: person
+label: { ar: "عمرو بن الزبير بن العوام", en: "Amr ibn al-Zubayr ibn al-Awwam", ur: "عمرو بن زبیر بن عوام" }
+names:
+  - { kind: full, value: "Amr ibn al-Zubayr ibn al-Awwam al-Asadi" }
+  - { kind: alternate, value: "'Amr b. al-Zubayr" }
+summary:
+  ar: "عمرو بن الزبير بن العوام الأسدي، أخو عبد الله بن الزبير، وأمه أم خالد بنت خالد بن سعيد الأموية. ذكر الذهبي أنه سمع من أبيه وأخيه ولا رواية معروفة له، وأن له وفادة على معاوية وابنه، وأنه كانت بينه وبين أخيه عبد الله خصومة {cite:tarikh-islam-dhahabi p. 198}. ولّاه عمرو بن سعيد بن العاص شرطة المدينة سنة 60هـ تقريباً، ثم سار على رأس جند من الشام إلى مكة لقتال أخيه، فهُزم وأُسر، وانتهى أمره في سجن عبد الله بن الزبير {cite:tarikh-islam-dhahabi p. 199} {cite:al-bidaya-wal-nihaya p. 518}. وتختلف الروايات في كيفية وفاته، ولم تذكر المصادر المقروءة تاريخ ميلاده."
+  en: "Amr ibn al-Zubayr ibn al-Awwam al-Asadi was a brother of Abd Allah ibn al-Zubayr; his mother was Umm Khalid bint Khalid ibn Sa'id of the Umayyad clan. Al-Dhahabi says he heard from his father and brother, has no known transmitted report, went as a delegate to Mu'awiya and to his son, and was in dispute with his brother Abd Allah {cite:tarikh-islam-dhahabi p. 198}. Amr ibn Sa'id ibn al-As gave him command of the police of Medina in about 60 AH, and he then marched with a force from Syria on Mecca against his brother, was defeated and captured, and ended his days in Abd Allah ibn al-Zubayr's prison {cite:tarikh-islam-dhahabi p. 199} {cite:al-bidaya-wal-nihaya p. 518}. The accounts differ on how he died, and the sources read give no date of his birth."
+  ur: "عمرو بن زبیر بن عوام اسدی عبد اللہ بن زبیر کے بھائی تھے؛ ان کی والدہ ام خالد بنت خالد بن سعید اموی خاندان سے تھیں۔ ذہبی کے مطابق انہوں نے اپنے والد اور بھائی سے سنا، ان کی کوئی روایت معلوم نہیں، وہ معاویہ اور ان کے بیٹے کے پاس وفد لے کر گئے، اور ان کے اور ان کے بھائی عبد اللہ کے درمیان نزاع تھا {cite:tarikh-islam-dhahabi p. 198}۔ عمرو بن سعید بن العاص نے تقریباً 60ھ میں انہیں مدینہ کی پولیس کا سربراہ بنایا، پھر وہ شام کے لشکر کے ساتھ اپنے بھائی کے خلاف مکہ کی طرف بڑھے، شکست کھائی، پکڑے گئے اور عبد اللہ بن زبیر کی قید میں ان کا انجام ہوا {cite:tarikh-islam-dhahabi p. 199} {cite:al-bidaya-wal-nihaya p. 518}۔ ان کی وفات کی کیفیت میں روایات مختلف ہیں، اور پڑھے گئے مآخذ ان کی پیدائش کی تاریخ نہیں دیتے۔"
+gender: male
+roles: [politician]
+wings: [people]
+periods: [period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: official, start: { edtf: "0680~" }, end: { edtf: "0680~" }, status: historical, note: "Police chief of Medina under Amr ibn Sa'id ibn al-As, the year 60 AH in Ibn Kathir {cite:al-bidaya-wal-nihaya p. 518}.", sources: [source/tarikh-islam-dhahabi, source/al-bidaya-wal-nihaya] }
+relations:
+  - { type: sibling_of, target: person/abdullah-ibn-al-zubayr, note: "Brother of Abd Allah ibn al-Zubayr; the two were in dispute {cite:tarikh-islam-dhahabi p. 198}.", sources: [source/tarikh-islam-dhahabi] }
+  - { type: opposed, target: person/abdullah-ibn-al-zubayr, start: { edtf: "0680~" }, note: "Led the force sent from Medina against his brother in Mecca and was defeated {cite:tarikh-islam-dhahabi p. 199}.", sources: [source/tarikh-islam-dhahabi, source/al-bidaya-wal-nihaya], confidence: high }
+  - { type: related_to, target: person/amr-ibn-said-ibn-al-as, note: "Served as his chief of police in Medina and was chosen by him to command the expedition to Mecca {cite:al-bidaya-wal-nihaya p. 518}.", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: died_in, target: place/mecca, note: "Died in Abd Allah ibn al-Zubayr's prison, according to the reports; his body was thrown in Shi'b al-Khayf {cite:tarikh-islam-dhahabi p. 200}.", sources: [source/tarikh-islam-dhahabi], confidence: medium }
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam, years 61-80 AH, entry 78 (pp. 198-200 of the scan); Ibn Kathir, al-Bidaya wa-l-Nihaya, year 60 AH (scan pp. 518-519)"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-2
+  canon: "No Encyclopaedia of Islam 2nd ed. article on him was found in the local OCR (searched for 'Amr b. al-Zubayr); written from al-Dhahabi and Ibn Kathir."
+sources: [source/tarikh-islam-dhahabi, source/al-bidaya-wal-nihaya]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "عمرو بن الزبير كان أخا عبد الله بن الزبير، وقاد جنداً ضده في مكة فخسر."
+  en: "Amr ibn al-Zubayr was the brother of Abd Allah ibn al-Zubayr, and he led soldiers against him in Mecca but lost."
+  ur: "عمرو بن زبیر عبد اللہ بن زبیر کے بھائی تھے، انہوں نے مکہ میں ان کے خلاف لشکر چلایا مگر ہار گئے۔"

@@ -1,0 +1,34 @@
+id: person/sibylla
+class: person
+label: { ar: "سيبيلا", en: "Sibylla", ur: "سیبیلا" }
+names:
+  - { value: "Sibylla of Jerusalem", kind: alternate, lang: en }
+  - { value: "ملكة بيت المقدس", kind: alternate, lang: ar }
+summary:
+  ar: "سيبيلا ملكة بيت المقدس الفرنجية وزوجة غي دي لوزينيان. لا يسميها ابن الأثير باسمها، لكنه يروي أن الملك انتقل إلى أم الصبي الوارث بعد موته، فأحبت فارساً قدم حديثاً إلى الشام اسمه كي فتزوجته ونقلت إليه الملك وتوجته بحضور البطرك والفرسان الدينيين والبارونات. وبعد فتح بيت المقدس أطلقها صلاح الدين وأذن لها في اللحاق بزوجها المحبوس في قلعة نابلس {cite:kamil-ibn-al-athir p. 141} {cite:kamil-ibn-al-athir p. 157}."
+  en: "Sibylla was the Frankish queen of Jerusalem and the wife of Guy de Lusignan. Ibn al-Athir does not give her name, but tells that after the death of the boy heir the kingdom passed to his mother, who fell in love with a knight lately arrived in Syria called Kay, married him, transferred the kingdom to him and had him crowned before the patriarch, the military orders and the barons. After the conquest of Jerusalem Saladin released her and let her rejoin her husband, who was held in the castle of Nablus {cite:kamil-ibn-al-athir p. 141} {cite:kamil-ibn-al-athir p. 157}."
+  ur: "سیبیلا بیت المقدس کی فرنگی ملکہ اور گی دی لوزینیان کی بیوی تھیں۔ ابن الاثیر ان کا نام نہیں لیتے، لیکن بتاتے ہیں کہ وارث بچے کی وفات کے بعد سلطنت اس کی ماں کو منتقل ہوئی، جسے شام میں نئے آئے ہوئے ایک شہسوار کی، جس کا نام «کی» تھا، محبت ہو گئی؛ اس نے اس سے شادی کی، سلطنت اس کے سپرد کی اور بطریق، دینی فوجی تنظیموں اور بیرنوں کی موجودگی میں اسے تاج پہنایا۔ بیت المقدس کی فتح کے بعد صلاح الدین نے انہیں رہا کیا اور شوہر سے ملنے کی اجازت دی، جو نابلس کے قلعے میں قید تھا {cite:kamil-ibn-al-athir p. 141} {cite:kamil-ibn-al-athir p. 157}."
+gender: female
+roles: [ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: spouse_of, target: person/guy-de-lusignan, sources: [source/kamil-ibn-al-athir] }
+  - { type: sibling_of, target: person/baldwin-iv, note: "Implied by Ibn al-Athir, who calls the boy heir the leper king's nephew through a sister and says the kingdom passed to the boy's mother; he names neither.", sources: [source/kamil-ibn-al-athir], confidence: low }
+  - { type: participated_in, target: event/frank-split-raymond-582, role: "الملكة", sources: [source/kamil-ibn-al-athir] }
+  - { type: ruled_over, target: place/jerusalem, note: "Ibn al-Athir says the kingdom passed to her and that her husband ruled by her right.", sources: [source/kamil-ibn-al-athir], confidence: medium }
+provenance:
+  layer: own-research
+  source: "Ibn al-Athir, al-Kamil, printed pp. 141 and 157 (harvest scan kamilt00_201908); the Encyclopaedia of Islam 2nd ed. was searched and has no passage on her"
+  generated_by: "Claude Sonnet 5.5"
+  model: "claude-sonnet-5-5"
+  run: canon-missing-2
+  canon: "No Encyclopaedia of Islam 2nd ed. article or passage names her; the account rests on Ibn al-Athir, whose unnamed 'queen' the museum identifies with Sibylla as the wife of Guy"
+sources: [source/kamil-ibn-al-athir]
+importance: 2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "سيبيلا كانت ملكة القدس عند الفرنجة وتزوجت فارساً تولى معها الملك."
+  en: "Sibylla was the queen of Jerusalem among the Franks, and she married a knight who ruled together with her."
+  ur: "سیبیلا فرنگیوں کی طرف سے بیت المقدس کی ملکہ تھیں اور انہوں نے ایک شہسوار سے شادی کی جو ان کے ساتھ حکمران بنا۔"
