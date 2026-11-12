@@ -535,3 +535,10 @@ First explore-list family scored against the eight criteria (verification date 9
 - Nomisma HELD: babil (babylon, 2.2 km; mint definition is the ancient site, not clearly an Islamic-period mint); ascalon (the concept fetch failed twice; retry later).
 - Manuscript catalogues: Leiden Digital Collections has no content licence (LICENSE.txt covers the site software); robots allows; Crawl-delay 10. Chester Beatty online collections: robots disallows search and OAI; the terms URL returns 404; no licence line found. Neither qualifies under criterion 3 (a public terms page must exist). NOT registered.
 - BnF Gallica: robots.txt answers a Cloudflare challenge (403). Not reachable; deferred again.
+
+## 2026-11-12 (p31) — held items re-checked
+
+- sanaa: the city-level iDAI entry 2281510 (Sanʿaʾ, populated-place, 0.7 km, GeoNames 71137 matches ours) passes; the old-city entry 2777018 is still not linked. Linked sanaa -> 2281510.
+- ascalon: Nomisma concept `ascalon` fetched on the second try (mint at the ancient site of Ascalon in Judaea), 0.9 km from our point; linked. The concept `askalan` returns an empty body and was not used.
+- babil: Nomisma concept `babylon` (mint at the ancient site of Babylon), 2.2 km; linked on the same standard as the other ancient-site Levant and Iraq mint links. Flagged for founder review of the wording.
+- Gallica robots.txt: still a Cloudflare 403 (re-probed 12 Nov 2026); not registered.
