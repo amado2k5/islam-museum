@@ -285,7 +285,7 @@ Trust criteria used (recorded for reuse): a point is written only from windows t
 
 | Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
 |---|---|---|---|---|---|---|
-| silsilat-ebadu-al-rahman ep06–ep09 (refuge from Hell and supplication; the middle course in spending; pure monotheism; the sanctity of life and "moral killing") | about 19–23 min each (transcript) | ar, en, ur: 1 record extended, 59 points | 19 new `about` edges (verses 25:65–68, khawf, jahannam, dua, israf, ummat wasat, tawhid, tawakkul, qibla, zulm, ijhad, tarbiya; Hudhayfa, Umar, al-Shafi'i, Musa) | ep06 15, ep07 14, ep08 15, ep09 15 points; engine qwen3-asr pass5, 30 s windows | 5 needs_source (17 hypocrites, ep06 00:02:00; counts of "fire", "garden", "mercy", "punishment" in the Qur'an, ep06 00:10:30; Ibn Mas'ud on the unanswered greeting, ep07 00:14:00; imported-food claim, ep09 00:08:30; Umar's "shackle" saying, ep09 00:20:00) | run omar-abdelkafy-ebadu-al-rahman-3 |
+| silsilat-ebadu-al-rahman ep06–ep09 (refuge from Hell and supplication; the middle course in spending; pure monotheism; the sanctity of life and "moral killing") | about 19–23 min each (transcript) | ar, en, ur: 1 record extended, 59 points | 18 new `about` edges (verses 25:65–68, khawf, jahannam, dua, israf, ummat wasat, tawhid, tawakkul, qibla, zulm, ijhad, tarbiya; Hudhayfa, Umar, al-Shafi'i, Musa) | ep06 15, ep07 14, ep08 15, ep09 15 points; engine qwen3-asr pass5, 30 s windows | 5 needs_source (17 hypocrites, ep06 00:02:00; counts of "fire", "garden", "mercy", "punishment" in the Qur'an, ep06 00:10:30; Ibn Mas'ud on the unanswered greeting, ep07 00:14:00; imported-food claim, ep09 00:08:30; Umar's "shackle" saying, ep09 00:20:00) | run omar-abdelkafy-ebadu-al-rahman-3 |
 
 Notes for ep06–ep09. (1) Broadcast: at ep08 00:01:00 the lecturer greets "the viewers of the Sharjah satellite channel", so the programme was broadcast there; recorded in the episode section. (2) Dating evidence (an inference, marked as such): at ep08 00:04:00 he speaks of an earthquake of about nine on the Richter scale in Japan as a recent event, which fits the earthquake of March 2011, so the series was probably recorded in Ramadan 1432 (August 2011) or later; not written as a date in the record. (3) Sensitivity: episodes 9, 10 and 12 carry the lecturer's opinions on disputed matters (abortion, contraception, women's work and separate schooling, censorship, atheism, an unsourced claim about imported food). The decision engine (question `docs/decisions/inbox/assabile-ebadu-sensitivity-contested.yaml`) answered with rule-harvest-include: such points are included, attributed, and each is marked "the lecturer's view"; the record is labelled `sensitivity: contested`, as `work/sharh-al-hekam-al-ataeya` was.
 
@@ -399,3 +399,22 @@ Opinions labelled as the lecturer's own (record stays `sensitivity: contested`, 
 | Question on a bank loan and one on spending zakat | ep05 00:43:00-00:44:30 | Garbled | Clarity | Open |
 
 Resume point: episode 06 (branch `agent/assabile-dar-akhera`).
+
+### Completed recordings (§8), continued
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| silsilat-ebadu-al-rahman ep19–ep20 (faithfulness: trusts, vows, pledges, dowry; order: the rows, the leader, the fast, zakat categories, the household) | ep19 about 23 min, ep20 about 22 min (transcript) | ar, en, ur: 1 record extended, 29 points | 8 new `about` edges (concept ahd, amana, nadhr, mahr; Abu Jandal, Suhayl ibn Amr, Qarun, Ahmad ibn Hanbal, practice nikah) | ep19 11, ep20 18 points; engine qwen3-asr pass5, 30 s windows | 7 needs_source (his account of working women, ep19 00:04:00; the cave story, ep19 00:07:00 and 00:11:30; zakat figures, ep20 00:04:30, not written; his ruling on shares, ep20 00:06:30; his account of Badr ranks, ep20 00:09:00; the household-budget proposal, ep20 00:17:00) | run omar-abdelkafy-ebadu-al-rahman-7 |
+
+Notes for ep19–ep20. The lecturer's view is marked on all opinion points. The zakat thresholds and rates in ep20 are garbled in the recording and are not written.
+
+| Excluded (ebadu ep19–ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, break jingles, closing formulae | ep19 00:00:00, 00:15:00, 00:22:30–00:23:00; ep20 00:00:00–00:00:30, 00:12:30, 00:22:30–00:23:00 | Not lesson content; Qur'an never typed | Content rule; Qur'an rule | Open |
+| Repetition loops | ep20 00:01:30 (run of repeated syllables), 00:16:30 | Not speech | Loop check | Open |
+| Garbled example of the three-person leadership and the Tabuk-era figures | ep20 00:02:30 | Garbled | Clarity | Open |
+| Garbled passage on gold, fixed deposits and the 80 figure | ep20 00:06:30–00:07:30 | Figures unreadable | Clarity | Open |
+| The garbled descriptions of the contract of the marriage gift (table, chairs, a bride with two eyes) | ep19 00:17:00–00:17:30 | Garbled; the point is written from the clear part only | Clarity | Open |
+| Historical figures on the treaty's dates and the Quraysh terms | ep19 00:12:00 | Partly garbled | Clarity | Open |
+| Remarks on the ledger of the fast and the Hijri year | ep20 00:03:30–00:03:50 | Garbled | Clarity | Open |
+| Statement on the Gulf states' accounts of zakat on oil revenues | ep20 00:05:00–00:06:00 | Figures and place names garbled | Clarity; no figure without a source | Open |
