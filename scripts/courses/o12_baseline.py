@@ -5,8 +5,9 @@ The history, stated plainly because it changed during the run:
   - The mission branched from origin/main at the BASELINE (800467e93e) and, as the brief required, opened its first two
     phase pull requests against release/uat (#6141, #6163). The user then instructed the agent to merge its own pull
     requests, and later to merge the finished Ontario work to MAIN.
-  - release/uat carries the Grand Tour run, which is not on main. To keep it out of main, the final branch was cut afresh
-    from the then-current origin/main and the mission's own files were carried onto it; nothing of release/uat came with them.
+  - The final branch was cut afresh from the then-current origin/main and the mission's own files were carried onto it.
+    While it was being prepared the founder merged release/uat into main (9688b3b813, with the one-branch rule), so main
+    received the Grand Tour run and the mission's first two phases by that road; the final branch then merged main.
   - So there are two reference commits: the BASELINE, the "before" of every measurement; and the CUT, the commit of main
     the final branch starts from (`git merge-base HEAD origin/main`), which is the integration point the oracles ran on.
 
@@ -33,7 +34,15 @@ SHARED = ("i18n/ar.yaml", "i18n/en.yaml", "i18n/ur.yaml", "CANARY.md", "docs/cov
 def span(a, b, name):
     n = int(sh(f"git rev-list --count {a}..{b}"))
     files = sh(f"git diff --name-only {a} {b}").splitlines()
-    touch = [f for f in files if SURFACE.match(f)]
+    # main received the mission's own earlier phases through release/uat (merge 9688b3b813, 12 November 2026); a file of
+    # the surface counts as touched by someone else only if a commit outside this mission's scope touched it
+    touch = []
+    for f in (f for f in files if SURFACE.match(f)):
+        subjects = sh(f"git log --no-merges --format=%s {a}..{b} -- '{f}'").splitlines()
+        if any(not re.match(r"[a-z]+\((courses|course)\)", s) for s in subjects):
+            touch.append(f)
+    own = len([f for f in files if SURFACE.match(f)]) - len(touch)
+    o.note(f"  ({own} files of the surface on main in this span were put there by this mission's own commits, scope `(courses)` or `(course)`)") if own else None
     shared = [f for f in files if f in SHARED]
     o.note()
     o.note(f"main, {name}: {n} commits, {len(files)} files changed")
@@ -57,7 +66,7 @@ o.note()
 o.note(f"commits on main that this branch does not contain: {behind}")
 o.note(f"commits on release/uat that are not on main (the Grand Tour run and the mission's first two phase merges): {uat_only}")
 o.note(f"Grand Tour files this branch adds or changes relative to the CUT: {'yes: ' + grand if grand else 'none'}")
-o.check("nothing main changed since the BASELINE touches the course class or the courses surface", not t1 and not t2, ", ".join((t1 + t2)[:6]))
+o.check("nothing main changed since the BASELINE touches the course class or the courses surface, other than this mission's own commits", not t1 and not t2, ", ".join((t1 + t2)[:6]))
 o.check("the branch adds or changes nothing of the Grand Tour run (main's own copy is untouched)", not grand)
 o.check("the branch contains main as of the oracle run, or the commits it lacks touch nothing of the courses surface", behind == 0 or not t2, f"{behind} commits behind")
 
