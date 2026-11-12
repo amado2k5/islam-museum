@@ -22,6 +22,8 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **Ontario, Grades 1 to 12: 65 courses with lessons, in Arabic, English and Urdu, all draft.** Every Ontario course the Ministry publishes in structured form that can honestly carry something from the museum was attempted: 360 lessons and 671 connections to museum records serve 536 official expectations; 2,610 expectations the museum cannot yet serve are listed, with the reason, in `docs/courses/gaps/`. One course (Grade 5 Social Studies) ended with no lesson and is recorded as a gap only. Every lesson was read by a fresh reviewer after it was written and corrected or removed where the link was stretched; the reviews are in `docs/courses-mission/verifier/`. Seven source records for the Ontario curriculum documents are added. Table per course: `docs/courses/FLEET.md`.
+- Hilyat al-Awliya vol. 10, printed notices 511–512 (Abu Hashim al-Karim, Mas'ud ibn al-Harith al-Jahmi): two new person records with trilingual drafts, on spending by means and by good opinion of God, and on a dream in which God says a worshipper has been wandering the roads of the world and is pleasing to Him. Garbled chain names are not given.
+
 ### Fixed
 - **The Arabic courses page no longer passes English off as Arabic.** Official expectation text that has no translation is now shown in its original language and labelled so, in every language.
 - **Two links in the Grade 6 Science pilot pointed at the wrong records** and are repointed. The pilot's wider faults (its expectation texts are not the Ministry's wording, and two strands are swapped) are measured in `docs/courses-mission/AUDIT.md` and left for the founder's decision.
