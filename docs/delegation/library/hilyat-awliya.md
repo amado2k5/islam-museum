@@ -604,3 +604,19 @@
 | 544 (printed) | 168 | the phrase in the group's description of the man ("يعطر المطر") | garbled in the scan | not given |
 | 544 (printed) | 168 | the honorific after Abraham | the museum never types honorifics | omitted |
 | 544 (printed) | 167 | the narrator's cut name at the end of the group's remark | cut in the scan | not given |
+
+## Batch 78 (run microsd-books-b78, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 168–171 (full text read before writing). New draft, printed number kept with the sequence number noted: person/abd-allah-ibn-khubayq (printed 545, sequence 546, 10/168–171). It is a long notice of sayings and transmitted reports; the reports are referred to by their place in the text and their wording is not given. Printed 546 begins on 10/172 (not yet read); it is next.
+- Honorifics in the text are not typed; the prose refers to the Prophet without a formula. No Qur'an text is typed.
+- Held: printed 532 stays held pending the coordinator's ruling; nothing written.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 78)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 545 (printed) | 169 | "أشر وبطر" and "دفتر" | legible; the sense is a proud man and a register | given as read |
+| 545 (printed) | 169 | the saying on the sweetness of obedience and the sayings of Hudhayfa | legible | given as read |
+| 545 (printed) | 170 | the reports on chains ("عن الأشج", "عن أبي ذيب") | some names garbled in the scan | the reports are described; their chains are not given |
+| 545 (printed) | 171 | the words of the hadith on the trials of the last hour | the wording is a quoted report; not typed | described only |
+| 545 (printed) | 170–171 | the Prophet's honorific formulas in the reports | the museum does not type honorifics | omitted |
