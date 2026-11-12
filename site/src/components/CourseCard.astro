@@ -1,0 +1,21 @@
+---
+// One discovery inside a lesson (docs/courses-mission/DESIGN.md, "The card"): a Qur'an verse, a scholar, a story, an object, a place.
+// The graph is one tap away: the card's door opens the museum record. A named record that is not written yet is shown, never linked.
+import { ui, type Lang } from "../lib/i18n";
+import type { ConnView } from "../lib/courses";
+
+interface Props { c: ConnView; lang: Lang; within?: boolean }
+const { c, lang, within = false } = Astro.props;
+const C = ui(lang).courses;
+---
+<aside class="cx-card" data-kind={c.kind}>
+  <p class="cx-kind"><span>{c.kindLabel}</span>{c.ref && <span class="ltr" dir="ltr">{c.ref}</span>}{within && <span class="cx-within">{C.within_label}</span>}</p>
+  <h3>{c.title}</h3>
+  {c.passage?.ayah && <blockquote class="cx-ayah" lang="ar" dir="rtl">{c.passage.ayah}</blockquote>}
+  <p>{c.text}</p>
+  {c.passage && <a class="cx-door" href={c.passage.href}><b>{c.passage.label}</b><span class="cx-go">{C.read_verse} <span class="flip" aria-hidden="true">→</span></span></a>}
+  {c.door && (c.door.stub
+    ? <p class="cx-door is-stub"><b>{c.door.label}</b> · {C.no_record}</p>
+    : <a class="cx-door" href={c.door.href}><b>{c.door.label}</b><span class="cx-class">{c.door.classLabel}</span><span class="cx-go">{C.open_record} <span class="flip" aria-hidden="true">→</span></span></a>)}
+  {c.sources.length > 0 && <p class="cx-src">{c.sources.length > 1 ? C.sources : C.source}: {c.sources.map((s, i) => <>{i > 0 && " · "}{s.href ? <a href={s.href}>{s.label}</a> : s.label}</>)}</p>}
+</aside>

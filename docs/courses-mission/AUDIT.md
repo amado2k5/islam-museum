@@ -6,6 +6,7 @@ Phase 1 of the courses mission. Every number here is a line of a committed, re-r
 - **B** = the fresh-context verifier's report, `verifier/pilot-expectations.md` (the pilot's expectations against the Ministry's own text).
 - **C** = `python3 scripts/courses/find_entity.py …` → `oracle-output/o01-alias-search.out`.
 - **D** = `npm run validate` at the baseline → `oracle-output/gate-validate-baseline.out`.
+- **E** = a second fresh-context verifier's independent recount of sections 1 to 4, `verifier/audit-numbers.md`: 47 claims, 45 matching, none mismatching, 2 only partly checkable, and the overstatements it found corrected below.
 
 ## 1. The tree
 
@@ -40,7 +41,7 @@ The 23 records are drafts and they are live. The founder's ruling that AI output
 
 **(c) Five of the 14 linked entities are not records.** `person/al-jazari`, `person/sultan-bin-salman`, `object/astrolabe`, `building/maragha-observatory` and `work/kitab-al-hiyal` are stubs: a student who taps them lands on a page with no account. An alias search finds that two of the five exist under another id (`person/al-jazari-engineer`, `person/sultan-bin-salman-al-saud`) and that the other three have real neighbours (`group/banu-musa`, `place/maragha`, several astrolabe inventions and works) but no record of their own. Evidence: A, C.
 
-**(d) No connection is written from its entity's own sources.** For all 15 entity-linked connections, none of the connection's cited sources is cited anywhere in the linked record. `person/al-jahiz`, for example, cites Ibn al-Nadim, Ibn Khallikan, al-Mas'udi and the Encyclopaedia of Islam; the connection about him cites Hill's *Islamic Science and Engineering*, a book the record never uses, whose own source record says "bibliographic details to be verified". 23 of the 33 connections rest on that one book with no page. Evidence: A.
+**(d) No connection is written from its entity's own sources.** Of the 15 entity-linked connections, 10 link a record that exists, and for all 10 none of the connection's cited sources is cited anywhere in the linked record (the other 5 link stubs, which have nothing to cite; they are defect (c)). `person/al-jahiz`, for example, cites Ibn al-Nadim, Ibn Khallikan, al-Mas'udi and the Encyclopaedia of Islam; the connection about him cites Hill's *Islamic Science and Engineering*, a book the record never uses, whose own source record says "bibliographic details to be verified". 23 of the 33 connections cite that book (21 cite it alone, 2 with one other), and no connection can name a page, because a connection's source is a bare id. The comparison is by source id: it would miss a record citing the same work under another id; the verifier found no such case. Evidence: A; the numbers in this paragraph were corrected after the fresh-context recount (`verifier/audit-numbers.md`), which found the first wording ("all 15", "rest on that one book") stronger than the evidence.
 
 **(e) Qur'an connections do not link to the passage.** 5 of 5 carry a `ref` (for example `6:38`) and none links the museum's passage record, so the verse itself is not one tap away. Evidence: A.
 
