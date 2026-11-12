@@ -1700,3 +1700,19 @@ Next step: episode 23.
 | Openings, greetings, supplications, closing formulae | ep22 00:00:00–00:01:00, 00:23:30–00:24:00 | Not lesson content | Content rule | Open |
 | Repetition loops and garbled windows | ep22 00:02:30–00:03:00, 00:20:30–00:21:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Scientific and medical figures | ep22 00:03:00–00:12:00, 00:17:30–00:22:00 | Unverifiable and some garbled; recorded as the lecturer's claims and marked needs_source | Sources policy | Open |
+
+### al-manjeyat, episode 23 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-manjeyat-11)
+
+Episode 23 read in full (24 min of transcript) before writing. 6 points written (ar, en, ur); new `about` edges for the people and passages named; 4 needs_source (unchained sayings and stories, medical and scientific figures and claims without source).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-manjeyat ep23 (the favour of hearing) | about 24 min (transcript) | ar, en, ur: work/al-manjeyat extended, 6 points | new `about` edges | 6 | 4 needs_source | this PR |
+
+Next step: episode 24.
+
+| Excluded (al-manjeyat ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, closing formulae | ep23 00:00:00–00:01:00, 00:23:30–00:24:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep23 00:08:30–00:09:00, 00:17:30–00:18:00, 00:20:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Scientific and medical figures | ep23 00:07:30–00:17:30 | Unverifiable; recorded as the lecturer's claims and marked needs_source | Sources policy | Open |
