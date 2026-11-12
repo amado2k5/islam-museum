@@ -8,9 +8,9 @@
 // appears here automatically. Counts are read from the graph at build time.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
-import { labelOf, stripNeedsSource, byId } from "../../../lib/graph";
+import { labelOf, stripNeedsSource, byId, href } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
-import { ansabSubjects, ansabFeed, ANSAB_SECTIONS, ANSAB_CORPORA, ANSAB_PROPHET_CHAIN } from "../../../lib/ansab";
+import { ansabSubjects, ansabSlugById, ansabFeed, ANSAB_SECTIONS, ANSAB_CORPORA, ANSAB_PROPHET_CHAIN } from "../../../lib/ansab";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
@@ -24,7 +24,9 @@ const sections = ANSAB_SECTIONS
 const status = fmt(N.status, { n: num(ansabSubjects.length, lang), f: num(ansabFeed.length, lang), s: num(sections.length, lang) });
 const searchText = (s: (typeof ansabSubjects)[number]) =>
   [s.node.label.ar, s.node.label.en, s.node.label.ur, summaryOf(s.node)].filter(Boolean).join(" ");
-const slugOf = (s: (typeof ansabSubjects)[number]) => s.node.slug ?? s.node.id.split("/")[1];
+const slugOf = (s: (typeof ansabSubjects)[number]) => ansabSlugById.get(s.node.id)!;
+// A browser subject links to its browser page; any other record links to its entity page.
+const subjectHref = (id: string) => { const s = ansabSlugById.get(id); return s ? `/${lang}/ansab/${s}/` : href(lang, id); };
 const countsLine = (s: (typeof ansabSubjects)[number]) =>
   ANSAB_CORPORA.filter((c) => s.counts[c] > 0).map((c) => `${N.corpora?.[c]?.name ?? c} · ${num(s.counts[c], lang)}`).join(" · ");
 const chain = ANSAB_PROPHET_CHAIN.map((l) => ({ ...l, node: byId.get(l.id) })).filter((l) => l.node);
@@ -50,7 +52,7 @@ const lastDisputed = chain.map((l, i) => (!l.agreed ? i : -1)).reduce((a, b) => 
       <ol role="list" class="ansab-chain" style="list-style:none;padding:0;margin:1rem 0;display:flex;flex-wrap:wrap;align-items:stretch;gap:8px">
         {chain.map((l, i) => (
           <li style={`display:flex;align-items:center;gap:8px;${!l.agreed ? "opacity:.92" : ""}`}>
-            <a href={`/${lang}/ansab/${l.node.slug ?? l.node.id.split("/")[1]}/`}
+            <a href={subjectHref(l.node.id)}
                class="chip"
                title={!l.agreed ? N.disputed_tooltip : ""}
                style={!l.agreed ? "border-style:dashed;border-color:var(--gold);text-decoration-style:dotted;text-decoration-line:underline;text-underline-offset:4px" : "font-weight:600"}>{label(l.node)}</a>
@@ -115,7 +117,7 @@ const lastDisputed = chain.map((l, i) => (!l.agreed ? i : -1)).reduce((a, b) => 
                       {i.topics.slice(0, 6).map((t) => {
                         const tn = byId.get(t);
                         return tn
-                          ? <a class="chip" style="font-size:.75rem" href={`/${lang}/ansab/${tn.slug ?? t.split("/")[1]}/`}>{label(tn)}</a>
+                          ? <a class="chip" style="font-size:.75rem" href={subjectHref(tn.id)}>{label(tn)}</a>
                           : <span class="chip" style="font-size:.75rem">{N.topics?.[t] ?? t}</span>;
                       })}
                     </p>

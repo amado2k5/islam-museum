@@ -10,7 +10,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
-import { placesItems, PLACES_SECTIONS } from "../../../lib/places";
+import { placesItems, placesSlugOf, PLACES_SECTIONS } from "../../../lib/places";
 import { PLACE_CORPORA } from "../../../../../scripts/places";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
@@ -24,7 +24,7 @@ const sections = sectionIds.map((id) => ({ id, items: placesItems.filter((i) => 
 const status = fmt(N.status, { n: num(placesItems.length, lang), s: num(sections.length, lang) });
 const searchText = (i: (typeof placesItems)[number]) =>
   [i.node.label.ar, i.node.label.en, i.node.label.ur, summaryOf(i.node)].filter(Boolean).join(" ");
-const slugOf = (i: (typeof placesItems)[number]) => i.node.slug ?? i.node.id.split("/")[1];
+const slugOf = placesSlugOf;
 const countsLine = (i: (typeof placesItems)[number]) =>
   PLACE_CORPORA.filter((c) => i.counts[c] > 0).map((c) => `${N.corpora?.[c]?.name ?? c} · ${num(i.counts[c], lang)}`).join(" · ");
 ---
