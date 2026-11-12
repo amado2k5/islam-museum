@@ -1554,3 +1554,14 @@ New record work/ahl-al-hikma (27 episodes in the harvest, 81 files); episodes 1 
 | A Ramadan-end prayer-time anecdote and two mosque-attendance remarks | ep04 00:11:00-00:11:30 | Garbled | Clarity | Open |
 
 Resume point: ahl-al-hikma episode 5 (branch from origin/main).
+
+### ahl-al-hikma ep05-ep08 (12 Nov 2026)
+
+31 points written for episodes 5 to 8 (ar, en, ur); 11 new `about` edges; needs_source on reports without a chain and on garbled stretches.
+
+| Excluded (ahl-al-hikma ep05-08) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Presenter's greetings, thanks, break announcements, closing supplications and sign-offs | ep05 00:00:00, 00:07:30-00:08:00, 00:15:00-00:15:30; ep06 00:00:00, 00:08:30-00:09:00, 00:15:00-00:16:00; ep07 00:00:00, 00:09:00-00:09:30, 00:16:00-00:17:00; ep08 00:07:00-00:07:30, 00:15:00-00:15:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep05 00:05:30-00:06:30 (a family anecdote), 00:10:00-00:11:30 partial; ep06 00:06:00-00:08:00, 00:11:30-00:12:30, 00:14:30; ep07 00:03:30-00:04:00, 00:06:00-00:06:30, 00:10:00-00:10:30, 00:13:30, 00:16:30; ep08 00:00:00 (loop), 00:01:30-00:02:00, 00:09:30-00:10:30, 00:11:30-00:12:30 | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ahl-al-hikma episode 9 (branch from origin/main).
