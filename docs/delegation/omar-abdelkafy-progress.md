@@ -908,3 +908,21 @@ Next step: episode 27.
 | Private and sensitive circumstances | ep24 00:30:30–00:31:30 (a woman's relationship with a married man); ep25 00:25:30–00:27:00 (medical details), 00:30:30 (a marriage arrangement) | Summarised in general terms only | Privacy | Open |
 | Hadith and saying wording | ep24 00:09:30–00:10:00, 00:13:30, 00:16:00–00:16:30, 00:25:30; ep25 00:05:30, 00:06:30, 00:19:30; ep26 00:06:00 | Wording not typed; by sense only | Hadith rule | Open |
 | A remark on exaggeration in words and a garbled line of verse attributed to a classical poet | ep26 00:07:00–00:07:30 | Garbled and off the subject of the home; not recorded | Clarity | Open |
+
+### albuyout-alamena, episode 27 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-15)
+
+Episode 27 re-read in full from the start (47 min of transcript is 43 min of speech, no calls). 18 points written (ar, en, ur); new `about` edges for the people and passages named; 11 needs_source (reports and stories given by sense without a chain, and sweeping generalisations).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep27 (the character of muru'a) | about 43 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 18 points | new `about` edges | 18 | 11 needs_source | this PR |
+
+Next step: episode 28.
+
+| Excluded (albuyout-alamena ep27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep27 00:00:00–00:01:00, 00:14:30 (break), 00:28:00–00:28:30, 00:42:30–00:43:00 | Not lesson content | Content rule | Open |
+| Repetition loops and noise | ep27 00:14:00, 00:23:30 (a run of one repeated letter), 00:37:30, 00:38:00–00:38:30, 00:40:00, 00:41:00, 00:41:30 | Not speech | Loop check | Open |
+| Garbled passages | ep27 00:08:00–00:08:30 (partly), 00:11:00 (a mixed-script word), 00:38:30–00:39:00 (the account of Umar's cold-day practice, who asked him is unclear) | Garbled; recorded only the clear sense | Clarity | Open |
+| Hadith and saying wording | ep27 00:05:30–00:06:30, 00:10:00, 00:16:00–00:17:00, 00:26:00, 00:32:00–00:33:00 | Wording not typed; by sense only | Hadith rule | Open |
+| Verses of poetry quoted | ep27 00:35:30–00:36:00 | Not reproduced beyond a brief mention | Sources policy | Open |
