@@ -420,6 +420,24 @@
         }
       }
     },
+    "/ansab.json": {
+      "get": {
+        "summary": "The Genealogies, Peoples, Mutun and Prophets' Tree Browser dataset",
+        "description": "The Genealogies, Peoples, Mutun and Prophets' Tree Browser dataset (متصفح الأنساب والأعراق والمتون وشجرة الأنبياء والمرسلين): every mention of genealogies, tribes, peoples, didactic mutun and the prophets' tree in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors and every harvested book — the Prophet's lineage in its three parts (agreed to Adnan, disputed to Ismail ibn Ibrahim on the Ibn Ishaq/al-Tabari transmission, unestablished above Ibrahim), the Arab tribes and clans, the peoples (Arabs, Ajam, Rum, Habasha, Copts, Banu Isra'il and the rest) and the memorisation texts — detected at build time by scripts/ansab.ts and joined to the canonical mentions edges, plus the curated records tagged ansab-browser and the subjects index with per-corpus counts, each with its corpus section (quran, sunnah, seerah, books), subjects/topics chips, work, ref, text excerpt, kind, themes, tags and edges. A book harvested later enters the dataset automatically when its passage records land in the graph.",
+        "responses": {
+          "200": {
+            "description": "Every ansab record with corpus section, subjects, topics, work, ref, excerpt, kind, themes and edges, plus the subjects index",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FeatureSet"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/ibadat.json": {
       "get": {
         "summary": "Ibadat and Adhkar Browser dataset",
@@ -652,6 +670,21 @@
         "responses": {
           "200": {
             "description": "Every miracle mention record with corpus section, kind, subjects, topics, work, ref, excerpt and edges, plus the subjects index",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/qurun.json": {
+      "get": {
+        "operationId": "getQurun",
+        "summary": "Centuries, Years and Months Browser dataset",
+        "description": "The Centuries, Years and Months Browser dataset (متصفح القرون والسنين والشهور الهامة والأشهر الحرم): every mention of the centuries and generations, the years and the named years, the important months and the sacred months in the Qur'an, Sunnah, seerah and harvested books — the qurun, the named years of the seerah (the Year of the Elephant, the Year of Sorrow, the Year of the Delegations, the Year of al-Ramada), the twelve lunar months from Muharram to Dhu al-Hijja, the four sacred months, the intercalation (al-Nasi'), the days of Tashriq, the day of 'Arafa, the Night of Power, the Jahiliyya month-names and the Persian months — detected at build time and joined to the canonical mentions edges, plus the curated qurun-browser records and the subjects index, each with its corpus section (quran, sunnah, seerah, books, curated), kind (period/mention), subjects/topics chips, work, ref, text excerpt and edges.",
+        "responses": {
+          "200": {
+            "description": "Every time-mention record with corpus section, kind, subjects, topics, work, ref, excerpt and edges, plus the subjects index",
             "content": {
               "application/json": {}
             }

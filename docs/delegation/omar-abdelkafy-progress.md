@@ -973,7 +973,6 @@ Opinions labelled as the lecturer's own with no museum ruling: apostasy of one w
 | Garbled passages | ep16 00:02:30, 00:07:30-00:08:00 (a remark about being people of the Sunna and Egypt), 00:12:00-00:13:30 (a hotel analogy), 00:15:30-00:16:30, 00:20:00, 00:24:30-00:25:30 (names of saints and a remark on them), 00:25:30-00:27:00, 00:30:30-00:31:00 (the story of a broker said to be told by al-Ghazali), 00:32:30-00:33:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Announcement on distribution and pricing of the recorded series | ep16 00:36:00-00:37:00 | Logistics, not lesson content | Content rule | Open |
 
-Resume point: episode 17 (branch from origin/main).
 ### albuyout-alamena, episode 29 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-17)
 
 Episode 29 read in full (51 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people, places and passages named; 13 needs_source (stories, figures and sayings without a chain or source, garbled call text).
@@ -1025,3 +1024,93 @@ Next step: episode 31. The series has 47 episodes of transcript on disk (ep01 to
 | Private circumstances of callers | ep30 00:31:00–00:41:00 | Kept general | Privacy | Open |
 | Verses of poetry quoted | ep30 00:25:00–00:25:30 | Not reproduced | Sources policy | Open |
 | Hadith and saying wording | ep30 00:07:00–00:11:00, 00:19:00, 00:44:00–00:44:30 | Wording not typed; by sense only | Hadith rule | Open |
+
+
+### al-dar-al-akhera ep19 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep19 (the Fire, part 2) | about 41 min (transcript) | ar, en, ur: 1 record extended | none new (concept/jahannam already linked) | 8 points; qwen3-asr pass5, 30 s windows | needs_source on every point; the second half of the dipping hadith (00:02:30) is inferred from nearby context; the third kind charged to the Fire (00:08:30) | run omar-abdelkafy-dar-akhera-12 |
+
+| Excluded (dar-akhera ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep19 00:10:30, 00:11:30, 00:15:30, 00:16:00, 00:17:30, 00:22:00, 00:22:30, 00:23:00, 00:23:30, 00:24:30, 00:25:30, 00:33:30, 00:35:30, 00:36:30, 00:37:30, 00:38:00, 00:39:00, 00:40:00 | Not speech | Loop check | Open |
+| Garbled passages | ep19 00:00:00, 00:02:00-00:02:30, 00:03:00-00:06:30 (anecdotes and a remark on tyrants), 00:09:30-00:12:00, 00:13:00-00:16:30 (food of the Fire, unrecoverable), 00:19:00-00:21:00, 00:26:30-00:33:00 (the four groups and the two places), 00:34:00-00:35:30, 00:36:00 (a repeated phrase) | Not recoverable as clear Arabic | Clarity | Open |
+| Hallucinated non-Arabic text | ep19 00:40:30 | Not speech in any intelligible language | Clarity | Open |
+| Supplications and sign-off | ep19 00:38:30, 00:39:30 (announcement) | Not lesson content | Content rule | Open |
+
+Resume point: episode 20 (branch from origin/main).
+### albuyout-alamena, episode 31 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-19)
+
+Episode 31 read in full (51 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 8 needs_source (stories, figures and sayings without a source, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep31 (estrangement in the home) | about 51 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 13 points | new `about` edges | 13 | 8 needs_source | this PR |
+
+Next step: episode 32.
+
+| Excluded (albuyout-alamena ep31) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep31 00:00:00–00:00:30, 00:19:30–00:20:00, 00:30:30–00:31:00, 00:50:00–00:51:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep31 00:06:00, 00:19:00–00:20:30, 00:24:30–00:26:30, 00:34:30–00:35:30, 00:36:00–00:36:30, 00:38:00, 00:39:30–00:40:30, 00:46:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep31 00:31:00–00:41:00 | Kept general | Privacy | Open |
+| Verses of poetry quoted | ep31 00:02:00, 00:27:30–00:28:30, 00:31:00 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep31 00:03:00, 00:13:30, 00:26:30–00:27:00, 00:29:30, 00:43:00 | Wording not typed; by sense only | Hadith rule | Open |
+| Questions with no recorded answer | ep31 00:37:00 (obligatory knowledge) | The answer is not in the transcript | Clarity | Open |
+
+### albuyout-alamena, episode 32 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-20)
+
+Episode 32 read in full (48 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 10 needs_source (reports and sayings without a chain, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep32 (contentment in the home) | about 48 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 13 points | new `about` edges | 13 | 10 needs_source | this PR |
+
+Next step: episode 33.
+
+| Excluded (albuyout-alamena ep32) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep32 00:00:00–00:00:30, 00:09:30–00:10:00, 00:23:00–00:23:30, 00:47:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep32 00:04:00–00:04:30, 00:08:00, 00:17:30–00:18:00, 00:23:30–00:24:00, 00:25:30–00:26:00, 00:28:30–00:29:00, 00:30:30–00:31:00, 00:41:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep32 00:24:00–00:33:30 | Kept general | Privacy | Open |
+| Verses of poetry quoted | ep32 00:03:00, 00:45:00–00:45:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep32 00:07:00–00:10:00, 00:12:00–00:13:00, 00:21:00–00:22:30, 00:37:30, 00:43:00 | Wording not typed; by sense only | Hadith rule | Open |
+| Calls with no recorded answer | ep32 00:29:00 (a woman's own account), 00:34:00 (a cut line), 00:42:30 | The answer is not in the transcript | Clarity | Open |
+
+### albuyout-alamena, episode 33 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-21)
+
+Episode 33 read in full (44 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (stories and sayings without a chain, generalisations without a source).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep33 (mutual respect in the home) | about 44 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 15 points | new `about` edges | 15 | 9 needs_source | this PR |
+
+Next step: episode 34.
+
+| Excluded (albuyout-alamena ep33) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep33 00:00:00–00:01:00, 00:15:30–00:16:00, 00:31:30–00:32:00, 00:43:00–00:44:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep33 00:30:00–00:31:30, 00:37:00–00:37:30, 00:41:30–00:42:00 | Not speech | Loop check | Open |
+| Garbled passages | ep33 00:16:00 (the opening of the al-Jahiz story), 00:36:30 (the sentence on husbands who blame wives), 00:39:30–00:40:00 | Garbled; only the clear sense is summarised | Clarity | Open |
+| Verses of poetry quoted | ep33 00:10:00–00:10:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep33 00:09:30, 00:13:30, 00:18:30, 00:19:00–00:19:30, 00:32:00–00:33:00 | Wording not typed; by sense only | Hadith rule | Open |
+
+### albuyout-alamena, episode 34 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-22)
+
+Episode 34 read in full (51 min of transcript) before writing. 16 points written (ar, en, ur); new `about` edges for the people and passages named; 12 needs_source (figures, stories and sayings without a source, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep34 (quarrel and harmony in the home) | about 51 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 16 points | new `about` edges | 16 | 12 needs_source | this PR |
+
+Next step: episode 35.
+
+| Excluded (albuyout-alamena ep34) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep34 00:00:00–00:00:30, 00:13:30–00:15:30, 00:32:30–00:34:30, 00:51:00–00:51:30 | Not lesson content (verse recitations at the breaks) | Content rule | Open |
+| Repetition loops and garbled windows | ep34 00:11:30–00:12:30, 00:21:30–00:22:30, 00:35:00–00:36:30, 00:36:30–00:37:00, 00:45:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep34 00:34:30–00:46:30 | Kept general | Privacy | Open |
+| Verses of poetry quoted | ep34 00:01:30, 00:02:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep34 00:04:30, 00:17:00–00:19:00, 00:24:00–00:25:00, 00:27:30–00:29:30, 00:48:30 | Wording not typed; by sense only | Hadith rule | Open |
+| Passage about greeting women who are not relatives | ep34 00:26:30–00:27:30 | Garbled; the ruling is not clear and is not recorded | Clarity | Open |

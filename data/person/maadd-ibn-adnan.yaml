@@ -1,4 +1,5 @@
 id: person/maadd-ibn-adnan
+tags: ["ansab-browser", "ansab-shajara"]
 class: person
 label: { ar: "معد بن عدنان", en: "Ma'add ibn 'Adnan" }
 summary:
@@ -7,6 +8,7 @@ summary:
 gender: male
 wings: [people]
 relations:
+  - { type: child_of, target: person/adnan, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
   - { type: lived_in, target: place/aden, confidence: low, note: "Associated with عدن per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
 provenance:
   layer: own-research

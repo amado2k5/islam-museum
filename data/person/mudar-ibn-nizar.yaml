@@ -1,4 +1,5 @@
 id: person/mudar-ibn-nizar
+tags: ["ansab-browser", "ansab-shajara"]
 class: person
 label:
   ar: مضر بن نزار
@@ -34,6 +35,7 @@ provenance:
   model: claude-haiku-5-5
   run: lib-nihayat-vol3-proverbs-2
 relations:
+  - { type: child_of, target: person/nizar-ibn-maadd, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
 - type: lived_in
   target: place/hijaz
   sources:
