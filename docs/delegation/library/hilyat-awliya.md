@@ -934,3 +934,18 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 678 (printed) | 396 | the nisba "الحراز" in the body | read as al-Khazzaz (the heading reading) | flagged as the likely reading |
 | 678 (printed) | 396 | the report from Jabir | a quoted report with the Prophet's formula | described only |
 | 678 (printed) | 396 | the heading number "٦٧٨" and the next heading "٠٦٨٩" | the scan's numbering of 679 is garbled | 679 read as the next notice by sequence; flagged |
+
+## Batch 101 (run microsd-books-b101, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 396–397 (full text read before writing). New draft: person/ahmad-ibn-mahdi-ibn-rustam (printed 679, sequence 680, 10/396–397). No existing record of the name. Notice complete at the foot of page 397; 680 (Muhammad ibn Ma'ruf al-Mattar, "مؤملة") begins on page 398.
+- The anecdote on the woman is given briefly and neutrally, as the notice gives it, with no detail beyond what the text states. The hadiths carry the Prophet's formula and are described only; the Qur'an verse on the men who were true to their covenant is referred to by sense only.
+- Printed 680 (Muhammad ibn Ma'ruf al-Mattar, Mu'ammala, on 398) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 101)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 679 (printed) | 397 | the anecdote's details | the text is clear; given briefly | the anecdote is given as the notice gives it |
+| 679 (printed) | 396–397 | the hadiths and the Uhud verse | the Prophet's formula; the Qur'an text is never typed | described only; the verse by sense |
+| 679 (printed) | 397 | "لم يعرف له قرار أربعين سنة" | the sense is clear; the phrase is a report about his residence | given as reported |
