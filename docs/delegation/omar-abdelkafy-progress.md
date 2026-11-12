@@ -2126,3 +2126,14 @@ New record work/mawkib-al-nour (29 episodes in the harvest, about 43 minutes and
 | Repetition loops and garbled windows | ep01 00:13:30 (a very long loop of one letter), 00:34:00 (a very long loop), 00:23:00 (a half-clear aside), 00:39:30-00:40:00 (a half-clear remark) | Not speech or not recoverable | Loop check, Clarity | Open |
 
 Resume point: mawkib-al-nour episode 2 (branch from origin/main).
+
+### mawkib-al-nour ep02 (12 Nov 2026)
+
+24 points written for episode 2 (ar, en, ur); 16 needs_source marks; 10 new `about` edges (21 in all). Quran verses referenced only through passage links (50-18, 23-60, 11-111, 14-34, 68-11); none typed. One episode per PR because of the episode length (about 42 minutes).
+
+| Excluded (mawkib-al-nour ep02) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, closing supplications and sign-offs | ep02 00:00:00 (recitation, Quran text never typed), 00:00:30-00:01:00 (supplications), 00:40:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows | ep02 00:03:00 (a remark on prayer-bead counters made in Asia, only the clear claim kept), 00:10:30 (a half-clear aside on grammar), 00:30:30 (a half-clear sentence on God's concealment), 00:39:30 (a half-clear remark on packaging) | Not recoverable | Clarity | Open |
+
+Resume point: mawkib-al-nour episode 3 (branch from origin/main).
