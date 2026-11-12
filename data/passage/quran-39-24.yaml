@@ -17,6 +17,7 @@ translations:
   ur: { text: "بھلا جو شخص قیامت کے دن اپنے منہ سے برے عذاب کو روکتا ہو (کیا وہ ویسا ہوسکتا ہے جو چین میں ہو) اور ظالموں سے کہا جائے گا کہ جو کچھ تم کرتے رہے تھے اس کے مزے چکھو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

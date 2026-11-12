@@ -16,6 +16,7 @@ translations:
   en: { text: "Never stand (to pray) there. A place of worship which was found upon duty (to Allah) from the first day is more worthy that thou shouldst stand (to pray) therein, wherein are men who love to purify themselves. Allah loveth the purifiers.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تم اس (مسجد) میں کبھی (جاکر) کھڑے بھی نہ ہونا۔ البتہ وہ مسجد جس کی بنیاد پہلے دن سے تقویٰ پر رکھی گئی ہے اس قابل ہے کہ اس میں جایا (اور نماز پڑھایا) کرو۔ اس میں ایسے لوگ ہیں جو کہ پاک رہنے کو پسند کرتے ہیں۔ اور خدا پاک رہنے والوں کو ہی پسند کرتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: building/masjid-quba, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/demolition-of-masjid-al-dirar, note: "داخلة في عبارة ابن إسحاق «إلى آخر القصة» بعد افتتاح الآية 107 (ص174)؛ تحديد آخر القصة قراءة المتحف (needs_source)", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred

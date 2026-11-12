@@ -1,0 +1,23 @@
+id: passage/tareekh-bidaya-nihaya-018
+class: passage
+unit: chapter
+work: work/al-bidaya-wal-nihaya
+ref: "106"
+label:
+  ar: "البداية والنهاية — ابن كثير — ص 106"
+  en: "البداية والنهاية — ابن كثير — p. 106"
+text: "حديث من وجه آخر هو أقوى منه والله أعلم) . سنة عشر من الهجرة باب بعث رسول الله واليي خالد بن الوليد قال ابن إسحاق : ثم بعث رسول الله والي خالد بن الوليد في شهر ربيع الآخر أو جمادى"
+summary:
+  ar: "مقطع من «البداية والنهاية — ابن كثير» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «البداية والنهاية — ابن كثير» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-bidaya-wal-nihaya] }
+provenance:
+  layer: own-research
+  source: "البداية والنهاية — ابن كثير ص 106 — مقتطف المكاتبات — tareekh"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-1
+tags: [mukatabat-browser]
+sources: [source/al-bidaya-wal-nihaya]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

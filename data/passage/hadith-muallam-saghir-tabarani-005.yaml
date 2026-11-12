@@ -1,0 +1,23 @@
+id: passage/hadith-muallam-saghir-tabarani-005
+class: passage
+unit: chapter
+work: work/al-mujam-al-saghir
+ref: "151"
+label:
+  ar: "المعجم الصغير — الترمذي — ص 151"
+  en: "المعجم الصغير — الترمذي — p. 151"
+text: "لله صلى الله عليه وآله وسلم فيه بسم الله الرحمن الرحيم ، من محمد رسول الله صلى الله عليه وآله وسلم إلى زياد بن جهور سلم أنت ، فإلى أحمد الله إليك [ إليك الله ] الذى لا إله إلا"
+summary:
+  ar: "مقطع من «المعجم الصغير — الترمذي» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «المعجم الصغير — الترمذي» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/mujam-saghir-dar-kutub-v1] }
+  - { type: mentions, target: person/muhammad, sources: [source/mujam-saghir-dar-kutub-v1] }
+provenance:
+  layer: own-research
+  source: "المعجم الصغير — الترمذي ص 151 — مقتطف المكاتبات — hadith"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-3
+tags: [mukatabat-browser]
+sources: [source/mujam-saghir-dar-kutub-v1]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

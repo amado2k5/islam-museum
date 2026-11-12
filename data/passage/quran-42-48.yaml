@@ -17,6 +17,7 @@ translations:
   ur: { text: "پھر اگر یہ منہ پھیر لیں تو ہم نے تم کو ان پر نگہبان بنا کر نہیں بھیجا۔ تمہارا کام تو صرف (احکام کا) پہنچا دینا ہے۔ اور جب ہم انسان کو اپنی رحمت کا مزہ چکھاتے ہیں تو اس سے خوش ہوجاتا ہے۔ اور اگر ان کو ان ہی کے اعمال کے سبب کوئی سختی پہنچتی ہے تو (سب احسانوں کو بھول جاتے ہیں) بےشک انسان بڑا ناشکرا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

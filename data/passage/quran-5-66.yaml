@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور اگر وہ تورات اور انجیل کو اور جو (اور کتابیں) ان کے پروردگار کی طرف سے ان پر نازل ہوئیں ان کو قائم رکھتے (تو ان پر رزق مینہ کی طرح برستا کہ) اپنے اوپر سے پاؤں کے نیچے سے کھاتے ان میں کچھ لوگ میانہ رو ہیں اور بہت سے ایسے ہیں جن کے اعمال برے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-2910
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2910"
+label: { ar: "جامع الترمذي 2910 — مضاعفة الحسنة بعشر أمثالها", en: "Jami' al-Tirmidhi 2910 — the good deed multiplied tenfold and beyond", ur: "جامع ترمذی 2910 — نیکی کا دس گنا اور اس سے زیادہ بڑھنا" }
+text: "… مَسْعُودٍ، يَقُولُ قَالَ رَسُولُ اللَّهِ \" مَنْ قَرَأَ حَرْفًا مِنْ كِتَابِ اللَّهِ فَلَهُ بِهِ حَسَنَةٌ وَالْحَسَنَةُ بِعَشْرِ أَمْثَالِهَا لاَ أَقُولُ الم حَرْفٌ وَلَكِنْ أَلِفٌ حَرْفٌ وَلاَمٌ حَرْفٌ وَمِيمٌ حَرْفٌ \". وَيُرْوَى هَذَا الْحَدِيثُ مِنْ غَيْرِ هَذَا الْوَجْهِ عَنِ ابْنِ مَسْعُودٍ وَرَوَاهُ أَبُو الأَحْوَصِ عَنِ ابْنِ مَسْعُودٍ رَفَعَهُ بَعْضُهُمْ وَوَقَفَهُ بَعْضُهُمْ عَنِ ابْنِ مَسْعُودٍ. قَالَ أَبُو …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2910، يذكر مضاعفة الحسنة بعشر أمثالها. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 2910 (Chapters on The Virtues of the Qur'an), that speaks of the good deed multiplied tenfold and beyond. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 2910، جس میں نیکی کا دس گنا اور اس سے زیادہ بڑھنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2910 (book 45 hadith 36); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

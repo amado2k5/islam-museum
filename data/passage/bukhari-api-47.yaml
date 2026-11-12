@@ -1,0 +1,17 @@
+id: passage/bukhari-api-47
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "47"
+label: { ar: "صحيح البخاري 47 — قيراط الأجر", en: "Sahih al-Bukhari 47 — the qirat of reward", ur: "صحیح بخاری 47 — اجر کا قیراط" }
+text: "… هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" مَنِ اتَّبَعَ جَنَازَةَ مُسْلِمٍ إِيمَانًا وَاحْتِسَابًا، وَكَانَ مَعَهُ حَتَّى يُصَلَّى عَلَيْهَا، وَيَفْرُغَ مِنْ دَفْنِهَا، فَإِنَّهُ يَرْجِعُ مِنَ الأَجْرِ بِقِيرَاطَيْنِ، كُلُّ قِيرَاطٍ مِثْلُ أُحُدٍ، وَمَنْ صَلَّى عَلَيْهَا ثُمَّ رَجَعَ قَبْلَ أَنْ تُدْفَنَ فَإِنَّهُ يَرْجِعُ بِقِيرَاطٍ \". تَابَعَهُ عُثْمَانُ الْمُؤَذِّنُ قَالَ حَدَّثَنَا عَوْفٌ عَنْ مُحَمَّدٍ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ نَحْوَهُ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 47، يذكر قيراط الأجر. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 47 (Belief), that speaks of the qirat of reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 47، جس میں اجر کا قیراط کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 47 (book 2 hadith 40); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

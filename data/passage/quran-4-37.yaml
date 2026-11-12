@@ -16,6 +16,7 @@ translations:
   en: { text: "Who hoard their wealth and enjoin avarice on others, and hide that which Allah hath bestowed upon them of His bounty. For disbelievers We prepare a shameful doom;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جو خود بھی بخل کریں اور لوگوں کو بھی بخل سکھائیں اور جو (مال) خدا نے ان کو اپنے فضل سے عطا فرمایا ہے اسے چھپا چھپا کے رکھیں اور ہم نے ناشکروں کے لئے ذلت کا عذاب تیار کر رکھا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

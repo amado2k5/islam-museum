@@ -1,0 +1,17 @@
+id: passage/nasai-api-3425
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3425"
+label: { ar: "السنن النسائي — حديث 3425", en: "Sunan al-Nasa'i 3425 — The Book of Divorce", ur: "سنن النسائی — حدیث 3425" }
+text: "أَرْسَلَ إِلَىَّ رَسُولُ اللَّهِ صلى الله عليه وسلم وَإِلَى صَاحِبَىَّ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم يَأْمُرُكُمْ أَنْ تَعْتَزِلُوا نِسَاءَكُمْ فَقُلْتُ لِلرَّسُولِ أُطَلِّقُ امْرَأَتِي أَمْ مَاذَا أَفْعَلُ قَالَ لاَ بَلْ تَعْتَزِلُهَا وَلاَ تَقْرَبْهَا ‏.‏ فَقُلْتُ لاِمْرَأَتِي الْحَقِي بِأَهْلِكِ فَكُونِي فِيهِمْ حَتَّى يَقْضِيَ اللَّهُ عَزَّ وَجَلَّ ‏.‏ فَلَحِقَتْ بِهِمْ ‏.‏ خَالَفَهُ مَعْمَرٌ ‏.‏"
+summary:
+  ar: "في السنن النسائي؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan al-Nasa'i; sending a letter or message to a party."
+  ur: "سنن النسائی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3425 (book 27 hadith 37); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

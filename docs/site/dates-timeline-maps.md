@@ -52,4 +52,27 @@ python3 scripts/map/build_basemap.py <path-to-ne_10m_land.shp> site/src/data/bas
 
 The source shapefile is not in the repo. The 310 KB JSON is read at build time only; the browser receives just the SVG paths for the map on that page.
 
+### The Place wing map
+
+`/[lang]/place/` is the map of every place in the museum and, under it, the index of those places. Review, decisions and what is still open: [`place-map-review.md`](place-map-review.md). Requirements: [`docs/engineering/19-islam-map-requirements.md`](../engineering/19-islam-map-requirements.md).
+
+| Part | File |
+|---|---|
+| Data model, built once per build from the graph: land and borders (Natural Earth 1:110m through `world-atlas`, Natural Earth projection fitted to 1000 × 560), the twelve regions, every place's position, region, linked-record count and active years | `site/src/lib/place-map.ts` (pure helpers in `place-map-core.ts`) |
+| The picture and the index in the page: plain SVG, readable without JavaScript | `site/src/components/PlaceMap.astro` |
+| The files the script fetches: `places.json`, and `p-00`…`p-7f` / `e-00`…`e-7f` (a place's or a record's file is found by hashing its name) | `site/src/pages/[lang]/place-map/[file].json.ts` |
+| Behaviour and styles, plain files loaded by this page only | `site/public/shell/place-map.js`, `site/public/shell/place-map.css` |
+| Tests | `scripts/place-map.test.ts` |
+
+Rules for anyone who changes it:
+
+- **Nothing but the picture and the index goes into the HTML.** The page was 25 MB when the data was inside it. Data the script needs is fetched from the JSON files above; a new kind of data gets a new file there, not a prop.
+- **A place is drawn where its coordinates are.** No moving markers apart; stacked places are told apart by zooming and by the chooser. `[0, 0]` is not a position: such a record is left off the map and stays in the index.
+- **A place is never hidden by the year.** The year only sets how bright a marker is (active, earlier, not yet, undated).
+- **Black, white and gold only** on the map and its controls (requirement R1.1); gold is never text on ivory. The theme comes from CSS selectors on the site's own theme attribute, never from script.
+- **A page, its script, its styles and its data come from one build.** The page asks for `/shell/place-map.js` and `/shell/place-map.css` by a fingerprint of their content (`?v=…`, `assetVersion`), and carries a fingerprint of its data (`dataVersion`) that the script adds to every request. A browser may keep a shell file for a while and a JSON file for a day; without the fingerprints a new page could be run by an old script or fed old places. Never reference either file by its bare name (the test fails), and keep the script tolerant of a page that carries no `v`.
+- **The script fetches same-origin static JSON and stores nothing.** `scripts/place-map.test.ts` fails otherwise. `activityState`, `tierOf`, `searchKey` and `shardOf` exist twice, in `place-map-core.ts` and in the script; the test runs both on the same inputs.
+- **Keep it out of the shared bundle.** The map is not a Svelte island: an island shares hashed chunks with the depth dial on every entity page, so editing it can re-upload the whole site. To check that a change touches only this page, build `main` and the change at the same path and compare the files (the method is in `place-map-review.md`).
+- Region names, kinds and the relation phrases are in `i18n` (`map.viewer.regions`, `.kind`, `.here`); a new string goes into all three files.
+
 When you add a map to a new place, put its places in the graph with coordinates and link them to the event with `occurred_at` (or `site_of` for a site). Do not draw points in the template.

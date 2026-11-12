@@ -17,6 +17,7 @@ translations:
   ur: { text: "وہ تمہارے گناہ بخش دے گا اور (موت کے) وقت مقررہ تک تم کو مہلت عطا کرے گا۔ جب خدا کا مقرر کیا ہوگا وقت آجاتا ہے تو تاخیر نہیں ہوتی۔ کاش تم جانتے ہوتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-71 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -16,6 +16,7 @@ translations:
   en: { text: "And hath made me blessed wheresoever I may be, and hath enjoined upon me prayer and almsgiving so long as I remain alive,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور میں جہاں ہوں (اور جس حال میں ہوں) مجھے صاحب برکت کیا ہے اور جب تک زندہ ہوں مجھ کو نماز اور زکوٰة کا ارشاد فرمایا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

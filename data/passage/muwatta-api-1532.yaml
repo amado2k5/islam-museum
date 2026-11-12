@@ -1,0 +1,18 @@
+id: passage/muwatta-api-1532
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1532"
+label: { ar: "موطأ مالك — حديث 1532", en: "Muwatta Malik 1532 — Hudud", ur: "موطأ مالک — حدیث 1532" }
+text: "… فِي حِرَابَةٍ وَلَمْ يَقْتُلُوا أَحَدًا فَأَرَادَ أَنْ يَقْطَعَ أَيْدِيَهُمْ أَوْ يَقْتُلَ فَكَتَبَ إِلَى عُمَرَ بْنِ عَبْدِ الْعَزِيزِ فِي ذَلِكَ فَكَتَبَ إِلَيْهِ عُمَرُ بْنُ عَبْدِ الْعَزِيزِ لَوْ أَخَذْتَ بِأَيْسَرِ ذَلِكَ ‏.‏ قَالَ يَحْيَى وَسَمِعْتُ مَالِكًا يَقُولُ الأَمْرُ عِنْدَنَا فِي الَّذِي يَسْرِقُ أَمْتِعَةَ النَّاسِ الَّتِي تَكُونُ مَوْضُوعَةً بِالأَسْوَاقِ مُحْرَزَةً قَدْ أَحْرَزَهَا أَهْلُهَا فِي أَوْعِيَتِهِمْ وَضَمُّوا بَعْضَهَا إِلَى بَعْضٍ إِنَّهُ مَنْ سَرَقَ مِن …"
+summary:
+  ar: "في موطأ مالك؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Muwatta Malik; sending a letter or message to a party."
+  ur: "موطأ مالک میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/muwatta-malik] }
+  - { type: mentions, target: concept/hudud-allah-wal-kabair, sources: [source/muwatta-malik] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1532 (book 41 hadith 4); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

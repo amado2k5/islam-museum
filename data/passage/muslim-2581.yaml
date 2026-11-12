@@ -8,8 +8,10 @@ text: "قال رسول الله: «أتدرون ما المفلس؟» قالوا
 summary:
   ar: "رواية أبي هريرة في كتاب البر من صحيح مسلم؛ المفلس الحقيقي من يأتي بالأعمال وقد أتلف حقوق الناس — من أشهر نصوص الحساب يوم القيامة."
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/sahih-muslim] }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-muslim] }
 provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة (طبعة دار التأصيل، الحديث 6745؛ ترقيم عبد الباقي المعروف 2581)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
 sources: [source/sahih-muslim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

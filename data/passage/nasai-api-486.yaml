@@ -1,0 +1,17 @@
+id: passage/nasai-api-486
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "486"
+label: { ar: "سنن النسائي 486 — رفع الدرجات", en: "Sunan al-Nasa'i 486 — ranks raised", ur: "سنن نسائی 486 — درجات کی بلندی" }
+text: "أَخْبَرَنَا كَثِيرُ بْنُ عُبَيْدٍ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ حَرْبٍ، عَنِ الزُّبَيْدِيِّ، عَنِ الزُّهْرِيِّ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" تَفْضُلُ صَلاَةُ الْجَمْعِ عَلَى صَلاَةِ أَحَدِكُمْ وَحْدَهُ بِخَمْسَةٍ وَعِشْرِينَ جُزْءًا وَيَجْتَمِعُ مَلاَئِكَةُ اللَّيْلِ وَالنَّهَارِ فِي صَلاَةِ الْفَجْرِ وَاقْرَءُوا إِنْ شِئْتُمْ { وَقُرْآنَ الْفَجْرِ إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا } \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 486، يذكر رفع الدرجات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 486 (The Book of Salah), that speaks of ranks raised. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 486، جس میں درجات کی بلندی کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 486 (book 5 hadith 39); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

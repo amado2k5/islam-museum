@@ -1,0 +1,17 @@
+id: passage/nasai-api-3190
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3190"
+label: { ar: "سنن النسائي 3190 — المقاصة بالحسنات والسيئات", en: "Sunan al-Nasa'i 3190 — deeds settled between people", ur: "سنن نسائی 3190 — نیکیوں اور برائیوں سے بدلہ چکانا" }
+text: "… هَارُونُ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنَا حَرَمِيُّ بْنُ عُمَارَةَ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، عَنْ سُلَيْمَانَ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" حُرْمَةُ نِسَاءِ الْمُجَاهِدِينَ عَلَى الْقَاعِدِينَ كَحُرْمَةِ أُمَّهَاتِهِمْ وَإِذَا خَلَفَهُ فِي أَهْلِهِ فَخَانَهُ قِيلَ لَهُ يَوْمَ الْقِيَامَةِ هَذَا خَانَكَ فِي أَهْلِكَ فَخُذْ مِنْ حَسَنَاتِهِ مَا شِئْتَ فَمَا ظَنُّكُمْ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3190، يذكر المقاصة بالحسنات والسيئات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 3190 (The Book of Jihad), that speaks of deeds settled between people. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 3190، جس میں نیکیوں اور برائیوں سے بدلہ چکانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3190 (book 25 hadith 106); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

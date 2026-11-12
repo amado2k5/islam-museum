@@ -1,0 +1,17 @@
+id: passage/nasai-api-4003
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4003"
+label: { ar: "سنن النسائي 4003 — إبدال السيئة حسنة", en: "Sunan al-Nasa'i 4003 — a bad deed exchanged for a good one", ur: "سنن نسائی 4003 — برائی کا نیکی سے بدل جانا" }
+text: "… النَّبِيَّ قَالُوا يَا مُحَمَّدُ إِنَّ الَّذِي تَقُولُ وَتَدْعُو إِلَيْهِ لَحَسَنٌ لَوْ تُخْبِرُنَا أَنَّ لِمَا عَمِلْنَا كَفَّارَةً. فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ { وَالَّذِينَ لاَ يَدْعُونَ مَعَ اللَّهِ إِلَهًا آخَرَ } إِلَى { فَأُولَئِكَ يُبَدِّلُ اللَّهُ سَيِّئَاتِهِمْ حَسَنَاتٍ } قَالَ يُبَدِّلُ اللَّهُ شِرْكَهُمْ إِيمَانًا وَزِنَاهُمْ إِحْصَانًا وَنَزَلَتْ { قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَى أَنْفُسِهِمْ } الآيَةَ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4003، يذكر إبدال السيئة حسنة. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 4003 (The Book of Fighting [The Prohibition of Bloodshed]), that speaks of a bad deed exchanged for a good one. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 4003، جس میں برائی کا نیکی سے بدل جانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4003 (book 37 hadith 38); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

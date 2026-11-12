@@ -1215,6 +1215,95 @@ map:
     details: Click for details
     places: Places in this region
     choose_place: "Several places share this spot — pick one:"
+    crumbs: Map trail
+    view_label: 'Map of the Islamic world with {n} places'
+    help: 'Drag the map to move it; zoom with the mouse wheel, two fingers or a double click. From the keyboard: arrow keys move, plus and minus zoom, zero returns to the full view, Escape goes up one level. Every place is also in the list, the search and the index.'
+    search: Find a place
+    search_ph: Find a city or a site…
+    search_none: No place by that name is on the map.
+    search_count: 'Results: {n}'
+    panel: Map panel
+    panel_show: Show the panel
+    panel_hide: Hide the panel
+    regions_h: Regions
+    regions_lede: Pick a region from this list or from the map, or find a place by name, then move the year bar to see where history was being written.
+    region_count: 'Places: {n}'
+    elsewhere: Rest of the world
+    places_h: Places in this region
+    records: 'Linked records: {n}'
+    no_records: Nothing in the museum is linked to this place yet.
+    open_place: Open the place page
+    filter_all: All
+    show_more: 'Show more ({n} left)'
+    active_now: Present in the chosen year
+    year_ce: '{y} CE'
+    year_bce: '{y} BCE'
+    time: Year bar
+    play: Play through the years
+    pause: Pause the years
+    step_back: Back ten years
+    step_fwd: Forward ten years
+    era: 'Era: {name}'
+    fullscreen: Fill the screen with the map
+    exit_fullscreen: Leave full screen
+    reset: Full view
+    loading: Loading the places…
+    load_error: The map data could not be loaded.
+    retry: Try again
+    legend_h: Map key
+    legend_size: Each dot is a place; a larger dot has more records linked to it
+    legend_active: 'Bright with a halo: the place has a dated record in the chosen year'
+    legend_earlier: 'Clear: its dated records are earlier than this year'
+    legend_notyet: 'Faint: its first dated record is later than this year'
+    legend_undated: 'Medium: no dated record is linked to it'
+    approx: The position is approximate, taken from the place that contains it
+    index_h: Index of places
+    index_lede: 'All {n} places of the museum that are on the map, by region and then by name.'
+    index_others: Other records in this wing
+    to_index: 'Index of all {n} places'
+    nojs: The interactive map needs JavaScript. The picture above is static, and every place is in the index below.
+    credit: 'Map: Natural Earth, public domain · positions from the museum records'
+    links_h: Links
+    links_rest: '{n} more links on its page'
+    back_to: 'Back to {name}'
+    page_of: '{a} of {b}'
+    choose_more: 'and {n} more; zoom in to tell them apart'
+    kind:
+      city: City
+      town: Town
+      site: Site
+      region: Region
+      province: Province
+      island: Island
+      river: River
+      mountain: Mountain
+      sea: Sea
+      oasis: Oasis
+    regions:
+      andalus-europe: al-Andalus and Europe
+      maghreb: The Maghreb
+      west-africa-sahel: West Africa and the Sahel
+      egypt-nile: Egypt and the Nile valley
+      east-africa: East Africa and the Swahili coast
+      arabia: The Arabian peninsula
+      levant-iraq: The Levant and Iraq
+      anatolia-balkans: Anatolia, the Caucasus and the Balkans
+      persia-central-asia: Persia and Central Asia
+      south-asia: South Asia
+      southeast-asia: Southeast Asia
+      china-east-asia: China and East Asia
+    here:
+      lived_in: Lived here
+      born_in: Born here
+      died_in: Died here
+      buried_in: Buried here
+      occurred_at: Took place here
+      traveled_to: Travelled here
+      ruler_of: Ruled here
+      ruled_over: Ruled here
+      located_in: Stands here
+      part_of: Part of this place
+      mentions: Mentions this place
     cls:
       person: Person
       event: Event
@@ -1604,6 +1693,38 @@ explore:
       title: "Du'a Browser"
       desc: "Every supplication mentioned in the Qur'an, the Sunnah, the seerah and every harvested book — from «ربِّ اغفر لي» to «اللهم إني أعوذ بك»، the Prophet's night prayers and the Companions' du'as — with every verse and report cited."
       menu: "Browse supplications in the Qur'an, hadith and books"
+    ibadat:
+      title: "Worship and Adhkar Browser"
+      desc: "Every act of worship and remembrance mentioned in the Qur'an, the Sunnah, the seerah and every harvested book — prayer, purification, fasting, zakat and charity, hajj and umrah, dhikr and du'a, glorification and seeking forgiveness, recitation, repentance and ruqya — with every verse and report cited."
+      menu: "Browse worship and adhkar in the Qur'an, hadith and books"
+    nar:
+      title: "The Fire Browser"
+      desc: "Every mention of the Fire in the Qur'an, the Sunnah, the seerah and every harvested book — Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya and al-Sa'ir, its keepers, fuel, food and the bridge over it — and this world's fire too: Ibrahim's fire, Musa's burning tree and the fire of war — every verse and report cited."
+      menu: "Browse the Fire in the Qur'an, hadith and books"
+    islamiceconomy:
+      title: "Islamic Economy Browser"
+      desc: "Every mention of money and Islamic economics, deeds and covenants, and endowment in the Qur'an, the Sunnah, the seerah and every harvested book — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — with every verse and report cited."
+      menu: "Browse money, sukuk and waqf in the Qur'an, hadith and books"
+    sayyiat:
+      title: "Sayyi'at Browser"
+      desc: "Every mention of the sayyi'at and everything tied to them — sin, guilt, disobedience, the major and minor sins, repentance and seeking forgiveness — in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
+      menu: "Browse sayyi'at and sins across the Qur'an and books"
+    hudud:
+      title: "Hudud Allah and Kaba'ir Browser"
+      desc: "Every mention of the limits of God and the major sins — «these are the limits of God», the prescribed penalties of stoning, flogging, the amputated hand and discretionary punishment, the hadd crimes of fornication, theft, slander, wine, apostasy and brigandage, and the kaba'ir and the seven destroyers — in the Qur'an, the Sunnah, the seerah, Companion and Tabi'i reports and every harvested book, with every verse and report cited."
+      menu: "Browse hudud Allah and kaba'ir across the Qur'an and books"
+    hasanat:
+      title: "Hasanat Browser"
+      desc: "Every mention of the good deeds (al-hasanat) in the Qur'an, the Sunnah, the seerah and every harvested book — «إن الحسنات يذهبن السيئات»، «من جاء بالحسنة فله عشر أمثالها»، the writing of the good deeds, the good loan to God and «الحسنى» — with every verse and report cited."
+      menu: "Browse the good deeds (al-hasanat) in the Qur'an and books"
+    hisab:
+      title: "Hasanat and Sayyi'at Ledger, Calculator and Counter"
+      desc: "Every text that counts, writes, multiplies, erases or weighs a deed in the Qur'an, the Sunnah, the seerah and every harvested book, with a calculator that reads the figures the texts name and a tally counter; every figure is attributed to its text."
+      menu: "Ledger, calculator and counter of good and bad deeds"
+    mukatabat:
+      title: "Mukatabat Browser"
+      desc: "Every mention of correspondence in the Qur'an, the Sunnah, the seerah and every harvested book — the Prophet's letters to kings and emperors, the caliphs' letters and the reports written back, Sulayman's letter to the Queen of Sheba — with every verse and report cited."
+      menu: "Browse letters and correspondence in the Qur'an and books"
     magic:
       title: "Magic and Magicians Browser"
       desc: "Every mention of magic and the magicians in the Qur'an, the Sunnah, the seerah and every harvested book — sorcery, soothsayers, ruqyah, the evil eye and envy — with every verse and report cited."
@@ -1620,6 +1741,10 @@ explore:
       title: "Messengers and Prophets Browser"
       desc: "Every mention of the messengers and prophets in the Qur'an, the Sunnah, the seerah and every harvested book — the named prophets, the messengers, the bearers of stories, and every verse and report cited."
       menu: "Browse the messengers, prophets and their mentions"
+    miracles:
+      title: "Divine and Prophetic Miracles Browser"
+      desc: "Every mention of the divine miracles and the prophets' miracles in the Qur'an, the Sunnah, the seerah and every harvested book — the miracle of the Qur'an, the moon-split, the Isra' and Mi'raj, the staff, the sea, the she-camel, the ark, the fire, the clay bird, the cradle speech, the heavenly table, Sulayman's signs, the dreams, the annunciation and the covenant chest, with every verse and report cited."
+      menu: "Browse the divine and prophetic miracles"
     madhahib:
       title: "Four Madhhabs Browser"
       desc: "The four imams and the schools they founded, the salaf and the books that recorded them — every mention of the madhhabs in the Sunni books with its source."
@@ -1628,6 +1753,14 @@ explore:
       title: "Household of the Prophet Browser"
       desc: "Everything mentioned about the Prophet's household and family — the People of the House, the Prophet's clan, his wives, daughters and descendants — in the Qur'an, the Sunnah, the seerah and the harvested books."
       menu: "Browse the Prophet's household and family"
+    nubuwat:
+      title: "Prophecies and Miracles Browser"
+      desc: "Every prophecy of the Prophet, proof of prophethood, secret and marvel of the Qur'an, miracle and eschatological prediction in the Qur'an, the Sunnah, the seerah and every harvested book — with every verse and report cited."
+      menu: "Browse the Prophet's prophecies, the Qur'an's secrets and the miracles"
+    places:
+      title: "Sacred Places Browser"
+      desc: "Every place of sanctity, importance and value in Islam that the Qur'an, the Sunnah, the seerah, the Companions and Successors, and every harvested book mention — the three sanctuaries, the hajj stations, the seerah sites, the places named in the Qur'an and every place a passage names."
+      menu: "Browse the sacred and important places of Islam"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -3383,6 +3516,248 @@ dua:
     curated:
       title: "The records about du'a"
       desc: "The museum's curated records on supplication itself: the practice of du'a, istighfar, istikhara, vows, the supplication for one's children, and the etiquettes the tradition records."
+nar:
+  title: "The Fire Browser"
+  lede: "Every mention of the Fire in the museum's sources: the verses of the Fire and its names — Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya and al-Sa'ir — the reports of its torment, keepers, fuel, zaqqum and boiling water, and the bridge over it, the «اتقوا النار» formulas of the Sunnah, the sayings of the Companions and the Successors, and this world's fire on its own shelf: Ibrahim's fire, the fire of Musa's tree, and the fire of war and cooking — in every harvested book, growing as new texts land."
+  badge: Fire explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Fire mentions are found at build time by a guarded lexicon over the passage texts: the names of the Fire «جهنم»، «سقر»، «الجحيم»، «الحطمة»، «لظى»، «الحامية»، «الهاوية» and «السعير»، the words of its people, fuel, torment, keepers, guardians, food, drink, depths and the bridge over it, and the lexeme «نار» itself. Worldly fire — Ibrahim's «كوني برداً وسلاماً»، the fire of Musa's tree, and the fire of war and cooking — is classified on its own shelf, verified false positives are excluded by id, and every book harvested later brings its fire mentions here automatically once its passages land in the graph; curated records join through the nar-browser tag. Each passage is marked hellfire or worldly."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter mentions
+  filter_none: No matches.
+  empty: No fire records in this build yet.
+  kinds:
+    hellfire: "The Fire of the hereafter"
+    worldly: "This world's fire"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The verses of the Fire: its seven names, its attributes, torment and people, «فاتقوا النار»، the eternity of its people, and the reports of the Last Day about it — every verse that mentions the Fire of the hereafter or warns of it."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The reports of the Fire in the two Sahihs, the Muwatta and the Sunan: «اتقوا النار ولو بشق تمرة»، its vision, gates, keepers and guardians and the Sirat across it, and the sayings of the Companions and the Successors about it."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry about the Fire — this section fills itself as new seerah texts mentioning the Fire land."
+    books:
+      title: "In the other books"
+      desc: "Fire mentions in every other harvested work — tafsir, creed, history, poetry and whatever lands next — classified by the work's genre the day its passages arrive."
+    dunya:
+      title: "This world's fire"
+      desc: "Worldly fire in the texts: Ibrahim's fire «كوني برداً وسلاماً»، the fire of Musa's tree in the holy valley, the fire of war, cooking and kindling, and the fire of the People of the Ditch — every mention of this world's fire on its own shelf."
+    curated:
+      title: "The records about the Fire"
+      desc: "The museum's curated records on the Fire itself: Jahannam and its attributes, Malik its keeper, the Zaqqum, the Sirat, and the people of the Fire and the people of Paradise — the concept records the mentions point to."
+islamic_economy:
+  title: "Islamic Economy Browser"
+  lede: "Every mention of money and Islamic economics, deeds and covenants, and endowment in the museum's sources: the Qur'anic verses on scales and measures, usury and debt; the Prophet's reports on dinars and dirhams, partnership, salam and the market's ethics; the endowments of Uthman and Umar's pious foundations; and every economics passage in every harvested book — sourced records that grow as new texts land."
+  badge: Currency, deeds and endowment explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Money, deeds and endowment mentions are found at build time by a guarded lexicon over the passage texts — unambiguous forms match directly, and ambiguous words like «دين» (debt or religion), «وقف» (endowment or «he stopped»), «عهد» (covenant or era), «شركة» (partnership or polytheism) and «سند» (bond or isnad) count only beside their domain collocations, with the weak tokens themselves stripped before the context test so a word can never satisfy its own context; verified false positives are excluded by id, and every book harvested later brings its mentions here automatically once its passages land in the graph; curated records join through the islamic-economy-browser tag. Each record carries topic chips: money (العملات — the full scope of Islamic economics), sukuk (الصكوك — all deeds, instruments and covenants) and waqf (الوقف — endowment)."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  topics_title: The topics
+  filter_label: Filter records
+  filter_none: No matches.
+  empty: No Islamic-economy records in this build yet.
+  topics:
+    money: "Money and economics"
+    sukuk: "Deeds and covenants"
+    waqf: "Endowment"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The economics of the Qur'an: «أوفوا الكيل والميزان»، usury and «آكلو الربا»، debt and its writing, zakat and its nisab, the prohibition of usury in sale, and every verse that mentions money, contracts or endowment."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The Prophet's reports on dinars and dirhams, fair weights, partnership and mudaraba, the salam contract, market ethics — gharar, tadlis, najsh, ihtikar — the debt instruments hawala and suftaja, and every hadith on trade, wages or endowment."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of money, treaties and endowment — this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Money, deeds and endowment in every other harvested work — fiqh, history, poetry and whatever lands next — classified by the work's genre the day its passages arrive."
+    curated:
+      title: "The records on the economy"
+      desc: "The museum's curated records on money, deeds and endowment: the waqf cluster, the trade-and-finance concepts, the covenant and instrument records, waqf and treaty events, and the Islamic-finance works."
+ibadat:
+  title: "Worship and Adhkar Browser"
+  lede: "Every act of worship and remembrance in the museum's sources: the prayer with its pillars, sunnahs and supererogatory forms, purification by wudu, ghusl and tayammum, the fast of Ramadan and i'tikaf, zakat and charity, hajj and umrah with tawaf and sa'y, the remembrance of God with its morning and evening adhkar, glorification, praise, tahlil, takbir, istighfar and blessings on the Prophet, supplication in all its formulas, the recitation of the Qur'an, repentance and turning back, and ruqya — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, the reports of the Companions and the Successors, and every harvested book — sourced records that grow as new texts land."
+  badge: Worship and adhkar explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Acts of worship and remembrance are found at build time by a guarded lexicon over the passage texts: the vocabulary of prayer, bowing and prostration, wudu, ghusl and tayammum, fasting, iftar, suhur and i'tikaf, zakat and charity, hajj, umrah, tawaf, sa'y, ihram, Arafat and the rites, remembrance of God, glorification, praise, tahlil, takbir, istighfar, blessings on the Prophet, hawqala and basmala, supplication through the Du'a Browser's own lexicon, recitation and tartil, repentance and turning back, and ruqya; worship of other than God («يعبدون الأصنام») and the argument sense of «احتجّ» are excluded, verified false positives are excluded by id, and every book harvested later brings its acts of worship here automatically once its passages land in the graph; curated records join through the ibadat-browser tag. Each passage is marked act when it performs or commands the worship and mention when it is only about it."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter worship and adhkar
+  filter_none: No matches.
+  empty: No worship records in this build yet.
+  kinds:
+    act: "Performs or commands the worship"
+    mention: "About the worship"
+  topics:
+    ibada: "Worship"
+    salah: "Prayer"
+    tahara: "Purification"
+    sawm: "Fasting"
+    zakat: "Zakat and charity"
+    hajj: "Hajj and umrah"
+    dhikr: "Remembrance"
+    dua: "Supplication"
+    tilawa: "Recitation"
+    tawba: "Repentance"
+    ruqya: "Ruqya"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Worship and remembrance in the Qur'an: «أقيموا الصلاة وآتوا الزكاة»، «إياك نعبد»، the verses of fasting, hajj and purification, «فاذكروني أذكركم»، «سبحان الله»، «لا إله إلا الله»، the prophets' prayers, and every verse that mentions or commands worship."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The worship of the Prophet, the Companions and the Successors in the two Sahihs, the Muwatta and the Sunan: prayer, wudu, fasting, zakat and hajj, the morning and evening adhkar and the post-prayer adhkar, istighfar and blessings on the Prophet, and every report that quotes or teaches worship."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of worship and remembrance — this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Acts of worship in every harvested work beyond the Qur'an, hadith and seerah — poetry, history, fiqh and adab and what follows them — classified by the work's genre the day its passages land."
+    curated:
+      title: "Records about worship"
+      desc: "The museum's curated records about worship and remembrance themselves: prayer, purification, fasting, zakat, hajj and umrah, dhikr, du'a, repentance, istighfar, ruqya and the concepts and rulings that join them."
+sayyiat:
+  title: "Sayyi'at Browser"
+  lede: "Every mention of the sayyi'at in the museum's sources: «good deeds annul ill-deeds», the hadith of the servant who intends a sin, the Companions' and Successors' sins in the seerah, and the names of sin and disobedience in every harvested book — cited records that grow as new text lands."
+  badge: Sayyi'at explorer
+  status: "This build holds {n} records in {s} sections; texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and trilingual prose. Sin mentions are found at build time by a guarded lexicon over passage texts — the «سيّئ» and «ساء» families, the names of sin, guilt and disobedience, and the words of major and minor sins, transgression, immorality and wrongdoing; the ambiguous «كبيرة» and «صغيرة» count only beside a strong sin signal, and verified false positives are excluded by id (such as «النساء» carrying «ساء» inside it, the prayer takbir, and «ذنب» the tailbone); every book harvested later brings its mentions here automatically when its passages land in the graph, and curated records join through the sayyiat-browser tag."
+  api: "The full collection is at"
+  sections_title: The browser's sections
+  filter_label: Filter sin mentions
+  filter_none: No matching results.
+  empty: No sayyi'at records in this build yet.
+  kinds:
+    sayyi: "carries the sayyi'at word"
+    related: "about sin and disobedience"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The sayyi'at, sins, guilt and disobedience in the revelation: «good deeds annul ill-deeds», «except the slips», the stories of the prophets with sinners, and the command of repentance and seeking forgiveness."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "Hadith of the two Sahihs, the Muwatta and the Sunan: the hadith of the servant who intends a sin, major and minor sins, the kinds of sin, the stories of the repentant, and every report that names guilt, disobedience or repentance."
+    seerah:
+      title: "In the Seerah"
+      desc: "What the seerah and history books carry of sin mentions — the sins of some Companions and their repentance, and the moments of disobedience in campaigns and strife — this section fills itself as new seerah text lands."
+    books:
+      title: "In other books"
+      desc: "Sin mentions in every harvested work other than the Qur'an, hadith and seerah — zuhd, raqa'iq, fiqh, tafsir, poetry and history, and what comes after — classified by the work's genre the day its passages land."
+    curated:
+      title: "Records about sayyi'at"
+      desc: "Curated museum records on the sayyi'at, sin, guilt, disobedience, repentance and seeking forgiveness themselves: the concepts of sin, guilt, minor sins, tawba and istighfar, and events such as the angels' report of the intended sin."
+hudud:
+  title: "Hudud Allah and Kaba'ir Browser"
+  lede: "Every mention of the limits of God and the major sins in the museum's sources: the verses of «these are the limits of God» and «whoever transgresses the limits of God», the hudud of fornication, theft and slander in the two Sahihs, the Muwatta and the Sunan, the carrying out of penalties in the seerah and the reports of the Companions and Successors, the lists of kaba'ir and the seven destroyers, and every mention in every harvested book — cited records that grow as new text lands."
+  badge: Hudud and kaba'ir explorer
+  status: "This build holds {n} records in {s} sections; texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and trilingual prose. Mentions are found at build time by a guarded lexicon over passage texts: «حدود الله» in every inflection, the establishing of the hadd, the fixed penalties — stoning, flogging in its punishment forms, the amputated hand and discretionary punishment — and «kaba'ir» and «mubiqat». Weak signals — ungated «hudud» and «hadd», ambiguous «jald», the hadd crimes of fornication, theft, slander, wine, apostasy and brigandage, retaliation, and ambiguous «kabira» — count only beside a strong signal, or two at a time together; verified false positives are excluded by id; every book harvested later brings its mentions here automatically when its passages land in the graph, and curated records join through the hudud-browser tag. Each passage is marked 'hudud' or 'kabair' by its signals."
+  api: "The full collection is at"
+  sections_title: The browser's sections
+  filter_label: Filter hudud and kaba'ir mentions
+  filter_none: No matching results.
+  empty: No hudud or kaba'ir records in this build yet.
+  kinds:
+    hudud: "hudud Allah and the fixed penalties"
+    kabair: "the major sins"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The limits of God and the major sins in the revelation: «these are the limits of God, so do not approach them», «whoever transgresses the limits of God has wronged himself», «the fornicatress and the fornicator — flog each», «the thief, male and female — cut off their hands», the punishment of brigandage, retaliation and the kaba'ir."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "Hadith of the two Sahihs, the Muwatta and the Sunan: «avoid the seven destroyers», carrying out the hudud on those who confessed, the stoning of Ma'iz and the Ghamidi woman, the hudud of slander, wine and theft, and the chapters of hudud in the methodical collections."
+    seerah:
+      title: "In the Seerah"
+      desc: "What the seerah and history books carry of hudud and kaba'ir mentions — the carrying out of penalties in Madina, and the Companions' and Successors' moments with the great sins — this section fills itself as new seerah text lands."
+    books:
+      title: "In other books"
+      desc: "Hudud and kaba'ir mentions in every harvested work other than the Qur'an, hadith and seerah — fiqh, zuhd, tafsir, history and poetry, and what comes after — classified by the work's genre the day its passages land."
+    curated:
+      title: "Records about hudud and kaba'ir"
+      desc: "Curated museum records on the limits of God and the major sins themselves: the concepts of hudud Allah, the fixed penalties, the kaba'ir, stoning, discretionary punishment, fornication and what connects to them."
+hasanat:
+  title: "Hasanat Browser"
+  lede: "Every mention of the good deeds (al-hasanat) in the museum's sources: the Qur'anic verses that write, multiply and efface them, the hadiths on the recording of intentions and deeds, the good loan to God, the goodly intercession and the «الحسنى» reward, and every mention in the seerah, the stories, the Companion and Successor reports and every harvested book — sourced records that grow as new texts land."
+  badge: Good deeds explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Mentions are found at build time by a guarded lexicon over the passage texts — «الحسنات»، «حسنات»، «الحسنة»، «حسنة»، the gated «الحسنى» (divine-names uses stay out), and the fixed collocations «قرضا حسنا» and «بدل حسنا بعد سوء»; bare «حسن»/«الحسن» (names, the hadith grade), the «حسنا» adverb, and «حسنة» as a feminine adjective on a host noun are left out, verified false positives are excluded by id, and every book harvested later brings its mentions here automatically once its passages land in the graph; curated records join through the hasanat-browser tag. Each passage is marked hasanat, hasana or husna after its dominant term."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter good deeds
+  filter_none: No matches.
+  empty: No good-deed records in this build yet.
+  kinds:
+    hasanat: "«الحسنات» — the good deeds"
+    hasana: "«حسنة» — a good deed"
+    husna: "«الحسنى» — the best reward"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Every Qur'anic mention of the good deeds: «إن الحسنات يذهبن السيئات»، «من جاء بالحسنة فله عشر أمثالها»، «فأولئك يبدل الله سيئاتهم حسنات»، «أقرضوا الله قرضا حسنا»، «الحسنى» the reward of ihsan, and the verses where «حسنة» carries the worldly-good sense."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The hadiths of the two Sahihs, the Muwatta, the Arba'in and the Sunan: the hadith qudsi of the writing of the good and evil deeds, «كل عمل ابن آدم يضاعف الحسنة»، «من سن في الإسلام سنة حسنة»، the gecko and the like, and every report that quotes or teaches about الحسنات."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of the good deeds — this section fills itself as new seerah texts with mentions of الحسنات land."
+    books:
+      title: "In the other books"
+      desc: "Mentions of the good deeds in every other harvested work — poetry, history, fiqh and whatever lands next — classified by the work's genre the day its passages arrive."
+    curated:
+      title: "The records about good deeds"
+      desc: "The museum's curated records on الحسنات itself: the concept of the good deeds, the good loan to God, the book of deeds, the records of intention and resolve, and the reports where good deeds are weighed, multiplied or erase sins."
+mukatabat:
+  title: "Mukatabat Browser"
+  lede: "Every mention of correspondence in the museum's sources: the letters the Prophet sent to kings and emperors and the letters, replies and reports that came back, the letters of the caliphs to their governors and the reports written to them, Sulayman's letter to the Queen of Sheba in the Qur'an, and every correspondence mention in the seerah, the hadith books and every harvested book — sourced records that grow as new texts land."
+  badge: Correspondence explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Correspondence is found at build time by a guarded detector over the passage texts — send, bring, open, find, read and reply signals, quoted letter openings («من محمد إلى هرقل»، «من عمر إلى معاوية»), basmala letter headers, the chancery institutions (ديوان الخاتم، ديوان البريد، ديوان الإنشاء، صاحب البريد) and the «مكاتبات/مراسلات» genre nouns; the fiqh mukataba self-purchase contract, the divine-book sense («كتب الله»، «في كتاب الله»), debt-contract scribes, quantitative «إلى» and the mushaf-page senses stay out, verified false positives are excluded by id, and every book harvested later brings its letters here automatically once its passages land in the graph; curated records join through the mukatabat-browser tag. Each passage is marked letter when it carries an actual letter and mention when it is only about correspondence, and sender chips class the correspondence prophetic, caliphal, royal or other."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  senders_title: Sender
+  all_senders: "All senders"
+  filter_label: Filter correspondence
+  filter_none: No matches.
+  empty: No correspondence records in this build yet.
+  kinds:
+    letter: "Carries a letter"
+    mention: "About correspondence"
+  senders:
+    prophetic: "Prophetic"
+    caliphal: "Caliphal"
+    royal: "Royal"
+    other: "Other"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The correspondence of the Qur'an: Sulayman's letter to the Queen of Sheba («إنه من سليمان وإنه بسم الله الرحمن الرحيم»), and every verse that mentions letters, messages or written reports."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The letters of the Prophet and the reports of kings' replies in the two Sahihs, the Muwatta and the Sunan: the letters to Heraclius, Chosroes and the Negus, the sealing of the Prophet's seal, the envoys' reports, and the caliphs' letters to their governors and the reports written back."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of correspondence — the Prophet's letters to the kings, the kings' answers, the caliphs' correspondence with their lands — this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Correspondence mentions in every other harvested work — poetry, history, chancery manuals and whatever lands next — classified by the work's genre the day its passages arrive."
+    curated:
+      title: "The records about correspondence"
+      desc: "The museum's curated records on correspondence itself: the genre of letters, the chancery (diwan al-insha), the seal and the barid post, and the named letters the tradition preserves."
 magic:
   title: "Magic and Magicians Browser"
   lede: "Every mention of magic and the magicians in the museum's sources: sorcery in the Qur'an from the story of Pharaoh's magicians to the trial of Harut and Marut, the hadiths on sorcery and soothsaying, the Prophet's own cure by ruqyah, the evil eye and envy, and every magic mention in every harvested book — sourced records that grow as new texts land."
@@ -3423,6 +3798,81 @@ magic:
     concepts:
       title: The records about magic
       desc: "The museum's curated records on magic and the unseen harms around it: sorcery and the sahara, soothsaying and augury, ruqyah and its rulings, the evil eye, envy, waswasah, kashf and 'irafa."
+nubuwat:
+  title: "Prophecies and Miracles Browser"
+  lede: "Every prophecy of the Prophet, proof of prophethood, secret and marvel of the Qur'an, miracle of the Prophet and eschatological prediction in the museum's sources: the Qur'anic announcements and the «من بعدي» reports, the proofs of prophethood (دلائل النبوة), the inimitability of the Qur'an and its secrets, the moon's splitting, the night journey, the multiplied food and every marvel the tradition records — sourced records that grow as new texts land."
+  badge: Prophecy explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Prophecy, prophethood, Qur'anic marvel and eschatology mentions are found at build time by a guarded lexicon over the passage texts — unambiguous forms match directly, ambiguous forms like «النبي» (the Prophet or a prophet), «المعجز» (a wonder or a wonder-worker), «السر» (a secret or a matter), «الغيب» (the unseen or the unseen realm), «الآخرة» (the Hereafter or the last of a series) count only beside their own collocations, and verified false positives are excluded by id; every book harvested later brings its prophecies and marvels here automatically once its passages land in the graph, and curated records join through the nubuwat-browser tag."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter prophecy records
+  filter_none: No matches.
+  empty: No prophecy records in this build yet.
+  topics:
+    nubuwwa: Prophethood & its proofs
+    nubuwat: Prophecies & predictions
+    muajizat: Miracles of the Prophet
+    ijaz: The Qur'an's inimitability
+    asrar: Secrets of the Qur'an
+    ilm-ghayb: Unseen knowledge
+    akhira: Signs of the Hour
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The prophecies and predictions of the revelation: the announcements of what will come, the proofs of prophethood, the inimitability of the Qur'an and its secrets, the reports of unseen knowledge, and the eschatological verses."
+    sunnah:
+      title: In the Sunnah
+      desc: "The prophecies and proofs of prophethood in the two Sahihs, the Muwatta and the Sunan: the «من بعدي» reports, the proofs of prophethood, the miracles of the Prophet, the unseen-knowledge reports, and the hadiths on the signs of the Hour."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and history books carry of prophecy, prophethood and marvel — this section fills itself as new seerah texts land."
+    books:
+      title: In the other books
+      desc: "Prophecies, proofs of prophethood, Qur'anic secrets and marvels in every harvested book beyond the Qur'an, the hadith and the seerah — poetry, history, tafsir and whatever comes next."
+    curated:
+      title: The records about prophecy
+      desc: "The museum's curated records on prophethood, prophecy and the Qur'an's marvels: the proofs of prophethood, the inimitability, the secrets, the miracles and the eschatological predictions the tradition collects."
+places:
+  title: "Sacred Places Browser"
+  lede: "Every place of sanctity, importance and value in Islam that the museum's sources mention: the three sanctuaries of Mecca, Medina and Jerusalem, the stations of the hajj, the sites of the seerah and the battles, the places the Qur'an names and the nations it recounts, other venerated sites, and every place or building a passage in the Qur'an, the Sunnah, the seerah, the Companions' and Successors' stories, or a harvested book names — each with every verse and report cited."
+  badge: Sacred places explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — a place or building node of the one graph, with its sources and its three-language prose. Membership is graph membership: a record joins through the places-browser tag or through any passage's mentions edge, so a place named in a book harvested later appears here the day its passage record lands. On each subject page the mentioning passages are grouped by corpus — the frozen Tanzil Qur'an text (shown by reference, never retyped), the sunnah reports, the seerah reports and the other books — and every card links back to the ordinary entity and passage pages."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter places
+  filter_none: No matches.
+  empty: No place records in this build yet.
+  entity_page: "Museum record"
+  quran_ref: "Qur'an"
+  related_title: "Also in the museum"
+  corpora:
+    quran: { name: "Qur'an", title: "In the Qur'an" }
+    sunnah: { name: "Sunnah", title: "In the Sunnah" }
+    seerah: { name: "Seerah", title: "In the seerah" }
+    books: { name: "Books", title: "In the other books" }
+  sections:
+    sanctuaries:
+      title: The three sanctuaries
+      desc: "Mecca and the Sacred Mosque with the Kaaba, Medina and the Prophet's Mosque, Jerusalem and al-Aqsa — the holiest ground in Islam, with every verse and report that mentions them."
+    hajj:
+      title: The stations of the hajj
+      desc: "The rite's own geography: al-Safa and al-Marwa, Mina, Arafat, Muzdalifa, the Jamarat, and the miqat stations where the pilgrims enter ihram."
+    seerah:
+      title: The sites of the seerah
+      desc: "The ground the Prophet's life walked: the cave of Hira and the cave of Thawr, Quba, Uhud, Badr, Hunayn, al-Hudaybiyya, Khaybar, al-Ta'if, al-Baqi' and the rest of the named places of the biography and the campaigns."
+    quran:
+      title: Places named in the Qur'an
+      desc: "The towns, lands and mountains the Qur'an names: Madyan, Saba, Misr, Babil, Iram, al-Ahqaf, Mount Judi, Mount Sinai, Najran, Yathrib and the lands of the nations it recounts."
+    sacred:
+      title: Other venerated sites
+      desc: "The places the tradition honours beyond the three sanctuaries and the seerah trail: al-Haram al-Ibrahimi, the historic mosques, the wells and mountains and shrines the sources revere."
+    mentioned:
+      title: Mentioned in the sources
+      desc: "Every other place or building a passage mentions — the automatic shelf that grows on its own the day a new harvested book names a place."
 signs:
   title: "Signs of the Hour Browser"
   lede: "Every mention of the signs of the Hour, the Day of Judgment and all eschatology in the museum's sources: the major and minor signs (أشراط الساعة) from the coming of the Dajjal to the rising sun from the west, barzakh and the grave, resurrection and gathering, reckoning and the Scale, the Sirat and the Hawd, Paradise and Hell, and the end-times figures the Qur'an and Sunnah name — sourced records that grow as new texts land."
@@ -3551,6 +4001,83 @@ messengers:
     curated:
       title: Curated records
       desc: "The museum's curated records on the messengers and prophets: their lives, stories and sources, tagged messengers-browser."
+miracles:
+  title: "Divine and Prophetic Miracles Browser"
+  lede: "Every mention of the divine miracles and the prophets' miracles in the museum's sources: the miracle of the Qur'an and its inimitability, the Prophet's signs — the moon-split, the Isra' and Mi'raj, the descent of 'Isa — the staff, the sea, the she-camel, the ark, the fire, the clay bird, the cradle speech, the heavenly table, Sulayman's signs, the dreams, the annunciation, the covenant chest, the cosmic signs of creation, the destruction of the deniers' nations, and every book that discusses them — sourced records that grow as new texts land."
+  badge: Miracles explorer
+  status: "This build holds {n} records in {s} sections and {p} subject pages; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Miracle mentions are found at build time by a guarded lexicon over the passage texts — «معجز» never counts in the Qur'an where it is the verb 'to defeat', «أعجاز نخل» is palm-roots not inimitability, ambiguous forms count only beside their own collocations, and verified false positives are excluded by id; passages already linked by explicit mentions edges into the miracle subjects enter too; every book harvested later brings its miracle mentions here automatically once its passages land in the graph, and curated records join through the miracles-browser tag."
+  api: "The whole set is available at"
+  subjects_title: Miracle and prophet pages
+  subjects_note: "Every miracle-bearing prophet, concept and event recorded in the museum has a subject page gathering its verses, reports and stories from every section."
+  feed_title: Every mention in the sources
+  mentions_count: "{n} mentions"
+  sections_title: The browser's sections
+  filter_label: Filter miracle records
+  filter_none: No matches.
+  empty: No miracle records in this build yet.
+  entity_page: "Museum record"
+  quran_title: "In the Qur'an"
+  sunnah_title: "In the Sunnah"
+  seerah_title: "In the seerah"
+  books_title: "In the other books"
+  curated_title: "Curated records"
+  quran_ref: "Qur'an"
+  related_title: "Also in the museum"
+  unnamed_title: "Unnamed signs and miracles"
+  unnamed_note: "Places that speak of a sign or miracle without naming it — shown as they are, without guessing."
+  generic_title: "Collective mentions of miracles"
+  topics:
+    doctrine: The miracle and its proofs
+    challenge: The challenge and its answer
+    i3jaz: Inimitability
+    karamat: Saintly graces
+    unnamed: Signs without a name
+    cosmic-signs: Cosmic signs
+    moon: The moon-split
+    isra-miraj: The Isra' and Mi'raj
+    descent: The descent of 'Isa
+    staff: The staff of Musa
+    sea: The parting of the sea
+    provision: Provision from heaven
+    fire: The fire of Ibrahim
+    she-camel: The she-camel of Salih
+    ad-destruction: The destruction of 'Ad
+    thamud-destruction: The destruction of Thamud
+    madyan-destruction: The destruction of Madyan
+    lut-destruction: The destruction of Lut's people
+    pharaoh-destruction: The drowning of Pharaoh's people
+    generic-destruction: The destruction of deniers
+    elephant: The People of the Elephant
+    fish: The fish and the whale
+    ark: The ark of Nuh
+    basket: The basket of Musa
+    healing: Healing by 'Isa and Ayyub
+    clay-bird: The clay bird
+    cradle: The cradle speech
+    table: The heavenly table
+    sulayman: Sulayman's signs
+    dreams: Yusuf's dreams
+    annunciation: The annunciation of Yahya
+    covenant-ark: The covenant chest
+    prophet-signs: The Prophet's signs
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The divine miracles and the prophets' miracles in the revelation: the miracle of the Book, the signs of the creation, the staff, the sea, the she-camel, the ark, the fire, the clay bird, the cradle speech, the heavenly table, the covenant chest, the moon-split, the Isra' and Mi'raj, the descent, the Prophet's signs, the destruction of the nations and the cosmic signs."
+    sunnah:
+      title: In the Sunnah
+      desc: "The hadiths of the two Sahihs, the Muwatta, the Arba'in and the Sunan that carry the miracles — the Prophet's signs, the healing of 'Isa and Ayyub, the water from between his fingers, the weeping trunk, the dreams and the reports of the Companions and Tabi'in."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and history books carry of the miracles and their stories — this section fills itself as new seerah texts with their miracle mentions land."
+    books:
+      title: In the other books
+      desc: "The miracles in every harvested book beyond the Qur'an, the hadith and the seerah — tafsir, 'ilm al-kalam, history, poetry and whatever comes next, where the miracle vocabulary marks the mention."
+    curated:
+      title: Curated records
+      desc: "The museum's curated records on the miracles: the concepts and events that gather them — the inimitability of the Qur'an, the cosmic signs, the karamat, the moon-split, the Isra' and Mi'raj, the descent — tagged miracles-browser."
 madhahib:
   title: "Four Madhhabs Browser"
   lede: "The four imams — Abu Hanifa, Malik, al-Shafi'i and Ahmad — and the schools they founded, the salaf and tabi'in on whom the fiqh was built, the books that recorded the madhhabs, and everything the Sunni books say about them in history, fatwas and legal questions — gathered in one browser with its sources."
@@ -4072,3 +4599,78 @@ grand_tour:
   graph_door: "The full graph explorer"
   restart: "Walk the tour again"
   back_to_river: "Back to the River of Time"
+hisab:
+  title: "Hasanat and Sayyi'at Ledger, Calculator and Counter"
+  lede: "What the museum's sources say about the account of deeds: the verses, hadiths and reports of the seerah, the Companions and the Successors that count a good deed and a bad one, write them, multiply, erase, and weigh in qirats, ranks and the Scale. A list of every such text, a calculator that reads the figures the texts name for particular acts, and a tally counter that stays in your browser."
+  badge: The account of deeds in the texts
+  status: "This build holds {n} records in {s} sections, {r} of them rows of the calculator; the texts are drafts until a human reads them."
+  parts_title: Parts of the page
+  read_more: Read the article
+  caveat_title: Before you count
+  caveat: "This page describes what the texts contain and computes no one's outcome. Every figure on it is read from a text named beside it, and the texts themselves hang the figure on intention, acceptance, the avoiding of major sins and the settling of wrongs, and say that what lies above the figure is a bounty no number caps. The museum gives no rulings: where narrations differ they are shown as they came, and where a text names no figure its result is written in its own words and not turned into a number."
+  method_title: The page's method
+  method_note: "Every record here is an ordinary museum record with its sources. The texts of the list are found at build time by a guarded lexicon over the passage texts: a number of good or bad deeds, the tenfold and seven-hundredfold multiples, the writing of a deed, the erasing, shedding and expiating of bad deeds, forgiveness of what is past, ranks and the qirat, what equals a greater act, the Scale and the atom's weight, the noble scribes and the record of deeds, the bankrupt and the burdens, and the reckoning. A plain mention of good or bad deeds with no counting stays in the Hasanat and Sayyi'at browsers. Verified false positives are excluded by id, and every book harvested later brings its texts here automatically the day its passages land. The rows of the calculator are curated records carrying a reckoning field that reads the figure from one named text."
+  api: "The whole set is available at"
+  calc_title: The calculator
+  calc_intro: "Each row is an act for which a text names a figure or a result. Enter how many times; the calculator multiplies your count by the stated figure and adds up. Rows whose text names no figure show their result in words under the total."
+  calc_nojs: "The table is complete for reading; the automatic sum needs JavaScript."
+  calc_reset: Reset the calculator
+  cols:
+    deed: Act
+    unit: Unit
+    states: What the text states
+    texts: Texts
+    count: How many times
+  fig:
+    hasanat: "{n} good deeds"
+    hasanat_range: "{a} to {b} good deeds"
+    sayyiat: "{n} bad deed"
+    erased: "{n} bad deeds erased"
+    degrees: "{n} ranks"
+  total_title: The total as the texts state it
+  totals:
+    hasanat: Good deeds written
+    sayyiat: Bad deeds written
+    erased: Bad deeds erased
+    degrees: Ranks
+  worded_title: Results for which the text names no figure
+  total_note: "The total is your counts multiplied by the figures of the texts, nothing more. Where a text gives a range the range is shown, and the columns are not subtracted from one another because the texts do not do so."
+  counter_title: The counter
+  counter_intro: "A tally for tasbih, tahlil and anything counted. Choose what you are counting and press once for each. When you reach the number a text names, what the text states appears."
+  counter_nojs: "The counter needs JavaScript."
+  counter_what: What are you counting?
+  counter_free: Free tally
+  counter_add: "+1"
+  counter_undo: Undo
+  counter_reset: Reset
+  counter_reached: "You have reached the stated number {n} time(s) —"
+  counter_saved: "The tally is kept in your browser only and is sent nowhere."
+  list_title: The list
+  list_intro: "Every text in the museum's corpus that counts, writes, erases or weighs a deed, arranged by its source; each card opens the page of the text."
+  sections_title: Sections of the list
+  filter_label: Search the list
+  filter_none: No matches.
+  empty: No records in this build yet.
+  kinds_label: Kind of text
+  kinds_all: All
+  kinds:
+    hasanat: Good deeds written and multiplied
+    sayyiat: Bad deeds and loss
+    erasure: Erasure and expiation
+    scale: "Scale, record and reckoning"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The verses that multiply a good deed and repay a bad deed with its like, remit and exchange bad deeds, and speak of the noble scribes, the record that leaves out nothing small or great, the scales of justice, the atom's weight and the swiftness of the reckoning."
+    sunnah:
+      title: In the Sunnah
+      desc: "The hadiths of the two Sahihs, the Sunan and the Muwatta: the hadith qudsi on the writing of good and bad deeds, the figures for remembrance, recitation and prayer, the expiations of sins, the qirat and the ranks, the bankrupt, and the first thing a servant is reckoned for."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and maghazi books carry of texts that count a deed; this section fills itself as seerah books with such texts are harvested."
+    books:
+      title: In the other books
+      desc: "Counting texts in every other harvested work, from the books of renunciation and heart-softening reports to history and fiqh and whatever comes next, classified by the genre of the work the day its passages arrive."
+    curated:
+      title: Curated records
+      desc: "The article of the subject and the rows of the calculator: each record explains one counting text and names its source."

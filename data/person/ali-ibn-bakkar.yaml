@@ -1,0 +1,23 @@
+id: person/ali-ibn-bakkar
+class: person
+label: { ar: "علي بن بكار", en: "Ali ibn Bakkar", ur: "علی بن بکار" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن علي بن بكار المصيصي" }
+  - { kind: kunya, lang: ar, value: "أبو الحسن" }
+gender: male
+roles: [mystic]
+summary:
+  ar: "أبو الحسن علي بن بكار، زاهد مرابط سكن المصيصة على الثغر، صحب إبراهيم بن أدهم وأبا إسحاق الفزاري ومخلد بن الحسين، وروى الحديث بحسب «حلية الأولياء»."
+  en: "Abu al-Hasan Ali ibn Bakkar, an ascetic who lived as a frontier guard at al-Massisa, a companion of Ibrahim ibn Adham, Abu Ishaq al-Fazari and Makhlad ibn al-Husayn, and a transmitter of hadith according to Hilyat al-Awliya."
+  ur: "ابو الحسن علی بن بکار ایک زاہد تھے جو سرحد پر مصیصہ میں مرابط رہے۔ وہ ابراہیم بن ادہم، ابو اسحاق فزاری اور مخلد بن حسین کی صحبت میں رہے، اور «حلیۃ الاولیاء» کے مطابق حدیث بھی روایت کی۔"
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/massisa, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: student_of, target: person/ibn-adham-ibrahim, note: "صحبه (حلية الأولياء 9/317).", sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: student_of, target: person/abu-ishaq-al-fazari, note: "صحبه وروى عنه (حلية الأولياء 9/317، 9/319-322).", sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/317-322", generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16 }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 2 }

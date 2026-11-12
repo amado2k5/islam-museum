@@ -17,6 +17,7 @@ translations:
   ur: { text: "میں چاہتا ہوں کہ تو میرے گناہ میں بھی ماخوذ ہو اور اپنے گناہ میں بھی پھر (زمرہ) اہل دوزخ میں ہو اور ظالموں کی یہی سزا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

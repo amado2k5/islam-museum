@@ -1,0 +1,17 @@
+id: passage/muslim-api-4880
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4880"
+label: { ar: "صحيح مسلم 4880 — محو السيئات وحط الخطايا", en: "Sahih Muslim 4880 — bad deeds erased and sins shed", ur: "صحیح مسلم 4880 — برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "… بِاللَّهِ أَفْضَلُ الأَعْمَالِ \". فَقَامَ رَجُلٌ فَقَالَ يَا رَسُولَ اللَّهِ أَرَأَيْتَ إِنْ قُتِلْتُ فِي سَبِيلِ اللَّهِ تُكَفَّرُ عَنِّي خَطَايَاىَ فَقَالَ لَهُ رَسُولُ اللَّهِ \" نَعَمْ إِنْ قُتِلْتَ فِي سَبِيلِ اللَّهِ وَأَنْتَ صَابِرٌ مُحْتَسِبٌ مُقْبِلٌ غَيْرُ مُدْبِرٍ \". ثُمَّ قَالَ رَسُولُ اللَّهِ \" كَيْفَ قُلْتَ \". قَالَ أَرَأَيْتَ إِنْ قُتِلْتُ فِي سَبِيلِ اللَّهِ أَتُكَفَّرُ عَنِّي خَطَايَاىَ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4880، يذكر محو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 4880 (The Book on Government), that speaks of bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 4880، جس میں برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4880 (book 33 hadith 176); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

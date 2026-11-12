@@ -17,6 +17,7 @@ translations:
   ur: { text: "اگر تم نیکوکاری کرو گے تو اپنی جانوں کے لئے کرو گے۔ اور اگر اعمال بد کرو گے تو (اُن کا) وبال بھی تمہاری ہی جانوں پر ہوگا پھر جب دوسرے (وعدے) کا وقت آیا (تو ہم نے پھر اپنے بندے بھیجے) تاکہ تمہارے چہروں کو بگاڑ دیں اور جس طرح پہلی دفعہ مسجد (بیت المقدس) میں داخل ہوگئے تھے اسی طرح پھر اس میں داخل ہوجائیں اور جس چیز پر غلبہ پائیں اُسے تباہ کردیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

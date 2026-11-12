@@ -1,0 +1,43 @@
+id: dec-20261111-232
+kind: "decision"
+date: "2026-11-11"
+expires_at: "2027-11-11"
+question_hash: 1f088f17852b
+lane: "place-map"
+class: "process"
+modality: "repo"
+domain: "media"
+mode: "conservative"
+question: "The Place wing page carried 14 MB of map data inside its HTML (25.9 MB per language). Should the map script fetch that data on demand from static JSON files written beside the page under /<lang>/place-map/ at build time, instead of the page carrying it or a new /api/v1/ export serving it?"
+options:
+  - "static JSON files under /<lang>/place-map/, built by an Astro endpoint from the one graph and fetched on demand"
+  - "a new /api/v1/ export"
+  - "keep the data in the page"
+evidence:
+  - "AGENTS.md, hosting split of 28 October 2026: data goes to R2; workers/site/src/route.js already serves every path under /ar/, /en/ and /ur/ from R2, so no Worker, wrangler or workflow file changes"
+  - "site/src/pages/timeline-data/[lang].json.ts is the standing precedent for page data moved out of a page so the page stays small"
+  - "docs/ai-change-gates.md section 3 lists /api/v1/ and docs/data/README.md as submission-impacting; a page's own data files are not an API route and no claim in the dossier changes"
+  - "scripts/check-static.ts allows a fetch of a same-origin static .json file; the script stores nothing on the device and calls nothing else (scripts/place-map.test.ts asserts it)"
+  - "Measured: page 601 KB (was 25.3 MB), places.json 125 KB compressed, the file behind a click at most 36 KB compressed"
+status: decided
+step: rule
+decision: "every feature is graph + API + search: records stay in the one graph, the class is exported in the static API, pages are search-indexed, and the feature is registered in docs/site/browsers.md, the plan index, the roadmap, docs/agents/lanes.md and docs/status.md — label anything submission-impacting"
+confidence: 0.85
+reversible: true
+rationale: "Answered by a standing repository rule (rule-feature-graph-api-search): AGENTS.md (every feature is graph, API and search) + docs/ai-change-gates.md §3."
+rule: "AGENTS.md (every feature is graph, API and search) + docs/ai-change-gates.md §3"
+rule_id: "rule-feature-graph-api-search"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-feature-graph-api-search
+chain:
+  depth: 0
+  root_id: "rule:rule-feature-graph-api-search"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "af27b5d5f4b70b48"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-feature-graph-api-search"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

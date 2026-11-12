@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-1326
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1326"
+label: { ar: "جامع الترمذي 1326 — الأجران", en: "Jami' al-Tirmidhi 1326 — the double reward", ur: "جامع ترمذی 1326 — دوہرا اجر" }
+text: "… عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِذَا حَكَمَ الْحَاكِمُ فَاجْتَهَدَ فَأَصَابَ فَلَهُ أَجْرَانِ وَإِذَا حَكَمَ فَأَخْطَأَ فَلَهُ أَجْرٌ وَاحِدٌ \". قَالَ وَفِي الْبَابِ عَنْ عَمْرِو بْنِ الْعَاصِي وَعُقْبَةَ بْنِ عَامِرٍ. قَالَ أَبُو عِيسَى حَدِيثُ أَبِي هُرَيْرَةَ حَدِيثٌ حَسَنٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ. لاَ نَعْرِفُهُ مِنْ حَدِيثِ سُفْيَانَ الثَّوْرِيِّ عَنْ يَحْيَى …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1326، يذكر الأجران. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 1326 (The Chapters On Judgements From The Messenger of Allah), that speaks of the double reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 1326، جس میں دوہرا اجر کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1326 (book 15 hadith 6); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

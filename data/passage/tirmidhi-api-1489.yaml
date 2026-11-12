@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-1489
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1489"
+label: { ar: "جامع الترمذي 1489 — نقص قيراط من الأجر كل يوم", en: "Jami' al-Tirmidhi 1489 — a qirat lost from the reward each day", ur: "جامع ترمذی 1489 — ہر روز اجر سے ایک قیراط کی کمی" }
+text: "… أُمَّةٌ مِنَ الأُمَمِ لأَمَرْتُ بِقَتْلِهَا فَاقْتُلُوا مِنْهَا كُلَّ أَسْوَدَ بَهِيمٍ وَمَا مِنْ أَهْلِ بَيْتٍ يَرْتَبِطُونَ كَلْبًا إِلاَّ نَقَصَ مِنْ عَمَلِهِمْ كُلَّ يَوْمٍ قِيرَاطٌ إِلاَّ كَلْبَ صَيْدٍ أَوْ كَلْبَ حَرْثٍ أَوْ كَلْبَ غَنَمٍ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ وَقَدْ رُوِيَ هَذَا الْحَدِيثُ مِنْ غَيْرِ وَجْهٍ عَنِ الْحَسَنِ عَنْ عَبْدِ اللَّهِ بْنِ مُغَفَّلٍ عَنِ النَّبِيِّ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1489، يذكر نقص قيراط من الأجر كل يوم. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 1489 (The Book on Hunting), that speaks of a qirat lost from the reward each day. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 1489، جس میں ہر روز اجر سے ایک قیراط کی کمی کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1489 (book 18 hadith 31); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

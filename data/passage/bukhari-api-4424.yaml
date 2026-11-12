@@ -1,0 +1,17 @@
+id: passage/bukhari-api-4424
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4424"
+label: { ar: "صحيح البخاري — حديث 4424", en: "Sahih al-Bukhari 4424 — Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)", ur: "صحیح بخاری — حدیث 4424" }
+text: "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم بَعَثَ بِكِتَابِهِ إِلَى كِسْرَى مَعَ عَبْدِ اللَّهِ بْنِ حُذَافَةَ السَّهْمِيِّ، فَأَمَرَهُ أَنْ يَدْفَعَهُ إِلَى عَظِيمِ الْبَحْرَيْنِ، فَدَفَعَهُ عَظِيمُ الْبَحْرَيْنِ إِلَى كِسْرَى، فَلَمَّا قَرَأَهُ مَزَّقَهُ ـ فَحَسِبْتُ أَنَّ ابْنَ الْمُسَيَّبِ قَالَ ـ فَدَعَا عَلَيْهِمْ رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يُمَزَّقُوا كُلَّ مُمَزَّقٍ‏.‏"
+summary:
+  ar: "في صحيح البخاري؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih al-Bukhari; sending a letter or message to a party."
+  ur: "صحیح بخاری میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4424 (book 64 hadith 446); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

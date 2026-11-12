@@ -1,0 +1,18 @@
+id: passage/ibnmajah-api-4077
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "4077"
+label: { ar: "سنن ابن ماجه — حديث 4077", en: "Sunan Ibn Majah 4077 — Tribulations", ur: "سنن ابن ماجہ — حدیث 4077" }
+text: "… نَبِيَّ بَعْدِي ثُمَّ يُثَنِّي فَيَقُولُ أَنَا رَبُّكُمْ ‏.‏ وَلاَ تَرَوْنَ رَبَّكُمْ حَتَّى تَمُوتُوا وَإِنَّهُ أَعْوَرُ وَإِنَّ رَبَّكُمْ لَيْسَ بِأَعْوَرَ وَإِنَّهُ مَكْتُوبٌ بَيْنَ عَيْنَيْهِ كَافِرٌ يَقْرَؤُهُ كُلُّ مُؤْمِنٍ كَاتِبٍ أَوْ غَيْرِ كَاتِبٍ وَإِنَّ مِنْ فِتْنَتِهِ أَنَّ مَعَهُ جَنَّةً وَنَارًا فَنَارُهُ جَنَّةٌ وَجَنَّتُهُ نَارٌ فَمَنِ ابْتُلِيَ بِنَارِهِ فَلْيَسْتَغِثْ بِاللَّهِ وَلْيَقْرَأْ فَوَاتِحَ الْكَهْفِ فَتَكُونَ عَلَيْهِ بَرْدًا وَسَلاَمًا كَمَا كَانَتِ النَّارُ عَلَى إِبْرَاهِيمَ وَإِن …"
+summary:
+  ar: "في سنن ابن ماجه؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Sunan Ibn Majah; mention of writing or dispatching a letter."
+  ur: "سنن ابن ماجہ میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-ibn-majah] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 4077 (book 36 hadith 152); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

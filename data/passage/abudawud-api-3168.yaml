@@ -1,0 +1,17 @@
+id: passage/abudawud-api-3168
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3168"
+label: { ar: "سنن أبي داود 3168 — قيراط الأجر", en: "Sunan Abi Dawud 3168 — the qirat of reward", ur: "سنن ابی داؤد 3168 — اجر کا قیراط" }
+text: "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا سُفْيَانُ، عَنْ سُمَىٍّ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، يَرْوِيهِ قَالَ مَنْ تَبِعَ جَنَازَةً فَصَلَّى عَلَيْهَا فَلَهُ قِيرَاطٌ وَمَنْ تَبِعَهَا حَتَّى يُفْرَغَ مِنْهَا فَلَهُ قِيرَاطَانِ أَصْغَرُهُمَا مِثْلُ أُحُدٍ أَوْ أَحَدُهُمَا مِثْلُ أُحُدٍ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3168، يذكر قيراط الأجر. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 3168 (Funerals (Kitab Al-Jana'iz)), that speaks of the qirat of reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3168، جس میں اجر کا قیراط کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3168 (book 21 hadith 80); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

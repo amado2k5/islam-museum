@@ -17,6 +17,8 @@ translations:
   ur: { text: "اور جو لوگ پرہیزگار عورتوں کو بدکاری کا عیب لگائیں اور اس پر چار گواہ نہ لائیں تو ان کو اسی درے مارو اور کبھی ان کی شہادت قبول نہ کرو۔ اور یہی بدکردار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/hudud-allah-wal-kabair, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

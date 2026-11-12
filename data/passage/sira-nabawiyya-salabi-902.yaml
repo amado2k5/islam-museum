@@ -1,0 +1,24 @@
+id: passage/sira-nabawiyya-salabi-902
+class: passage
+unit: chapter
+work: work/al-sira-al-nabawiyya-sallabi
+ref: "902"
+label:
+  ar: "السيرة النبوية للصلابي — مراسلة هرقل"
+  en: "al-Sallabi's al-Sira al-Nabawiyya — correspondence with Heraclius"
+text: "ن محمد عبد الله ورسوله إلى هرقل عظيم الروم ) وبقوله: ( من محمد عبد الله ورسوله إلى المقوقس عظيم القبط ) بخلاف ما جاء في كتابه لم إلى كسرى أبرويز، فاكتفي بقوله : ( من محمد رسول الله إلى كسرى عظيم"
+summary:
+  ar: "مقطع من السيرة النبوية للصلابي، في مراسلات هرقل، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Sallabi's al-Sira al-Nabawiyya, in the correspondence with Heraclius, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sira-nabawiyya-sallabi] }
+  - { type: mentions, target: person/muhammad, sources: [source/sira-nabawiyya-sallabi] }
+  - { type: mentions, target: person/heraclius, sources: [source/sira-nabawiyya-sallabi] }
+provenance:
+  layer: own-research
+  source: "السيرة النبوية للصلابي ص 902 — مقتطف المكاتبات — الدفعة الرابعة"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-seerah-mining-4
+tags: [mukatabat-browser]
+sources: [source/sira-nabawiyya-sallabi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

@@ -1,0 +1,18 @@
+id: passage/nasai-api-2499
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2499"
+label: { ar: "السنن النسائي — حديث 2499", en: "Sunan al-Nasa'i 2499 — The Book of Zakah", ur: "سنن النسائی — حدیث 2499" }
+text: "لَهُ سَلَبَةُ فَحَمَى لَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم ذَلِكَ الْوَادِيَ فَلَمَّا وَلِيَ عُمَرُ بْنُ الْخَطَّابِ كَتَبَ سُفْيَانُ بْنُ وَهْبٍ إِلَى عُمَرَ بْنِ الْخَطَّابِ يَسْأَلُهُ فَكَتَبَ عُمَرُ إِنْ أَدَّى إِلَيْكَ مَا كَانَ يُؤَدِّي إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم مِنْ عُشْرِ نَحْلِهِ فَاحْمِ لَهُ سَلَبَةَ ذَلِكَ وَإِلاَّ فَإِنَّمَا هُوَ ذُبَابُ غَيْثٍ يَأْكُلُهُ مَن …"
+summary:
+  ar: "في السنن النسائي؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan al-Nasa'i; sending a letter or message to a party."
+  ur: "سنن النسائی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2499 (book 23 hadith 65); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

@@ -16,7 +16,7 @@ wings: [place]
 regions: [andalus-europe]
 coordinates: [39.8581, -4.0226]
 coordinate_precision: site
-external_ids: { wikidata: "Q5836", geonames: "2510409", pleiades: "266066" }
+external_ids: { wikidata: "Q5836", geonames: "2510409", pleiades: "266066", idai: "2074550" }
 relations:
   - { type: located_in, target: place/al-andalus, sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer, source/nafh-tib-maqqari] }
 provenance:
@@ -24,6 +24,6 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 323"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-22
-sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer, source/nafh-tib-maqqari]
+sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer, source/nafh-tib-maqqari, source/idai-gazetteer]
 importance: 2
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

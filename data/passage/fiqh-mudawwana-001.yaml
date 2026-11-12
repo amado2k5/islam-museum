@@ -1,0 +1,23 @@
+id: passage/fiqh-mudawwana-001
+class: passage
+unit: chapter
+work: work/al-mudawwana-al-kubra
+ref: "51"
+label:
+  ar: "المدونة — مالك — ص 51"
+  en: "المدونة — مالك — p. 51"
+text: "ا كتاب أخذته من موسى بن عقبة فيه بسم الله الرحمن الرحيم من محمد رسول الله إلى منذر بن ساوى سلم أنت فاني أحمد الله الذى لا اله الا هو أما يمد فان كتابك جاءنى وسمعت ما فيه قمن صبلى"
+summary:
+  ar: "مقطع من «المدونة — مالك» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «المدونة — مالك» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/al-mudawwana-al-kubra] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-mudawwana-al-kubra] }
+provenance:
+  layer: own-research
+  source: "المدونة — مالك ص 51 — مقتطف المكاتبات — fiqh"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-2
+tags: [mukatabat-browser]
+sources: [source/al-mudawwana-al-kubra]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
