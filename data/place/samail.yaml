@@ -4,11 +4,16 @@ kind: town
 label: { ar: "سمائل", en: "Samail" }
 summary: { ar: "سمائل.", en: "Samail; a place linked to persons via Wikidata claims." }
 wings: [place]
-regions: [global]
-coordinates: [0, 0]
+regions: [arabia]
+coordinates: [23.29838, 57.9531]
 coordinate_precision: locality
-coordinate_note: "Wikidata Q26200709."
-external_ids: { wikidata: "Q26200709" }
-sources: [source/wikidata]
+coordinate_note: "GeoNames 286590 (Samā’il, populated place, Ad Dakhiliyah, Oman), read 11 November 2026. The Wikidata item Q26200709 (settlement in the wilaya of Samail) carries no coordinates, which is why the record held the placeholder [0, 0] until then."
+external_ids: { wikidata: "Q26200709", geonames: "286590" }
+sources: [source/wikidata, source/geonames-gazetteer]
 status: { review: draft, completeness: 1 }
-provenance: { layer: own-research, generated_by: "Devin", run: "person-place-geo-a" }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  extensions:
+    - { generated_by: "Claude Code", model: "claude-fable-5-2", run: "place-coordinates-2026-11-11", source: "Coordinates and GeoNames id from GeoNames 286590 (docs/authenticity-ledger/pages/geonames-samail.yaml), replacing the placeholder [0, 0]; region tag from the country. Labels, summary and Wikidata id unchanged." }

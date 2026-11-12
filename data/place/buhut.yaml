@@ -4,11 +4,16 @@ kind: town
 label: { ar: "بهوت", en: "Buhut" }
 summary: { ar: "بهوت.", en: "Buhut; a place linked to persons via Wikidata claims." }
 wings: [place]
-regions: [global]
-coordinates: [0, 0]
+regions: [egypt-nile]
+coordinates: [31.17058, 31.32726]
 coordinate_precision: locality
-coordinate_note: "Wikidata Q12199762."
-external_ids: { wikidata: "Q12199762" }
-sources: [source/wikidata]
+coordinate_note: "GeoNames 358693 (Buhūt, populated place, Dakahlia, Egypt), read 11 November 2026. The Wikidata item Q12199762 (village in Dakahlia Governorate) carries no coordinates, which is why the record held the placeholder [0, 0] until then."
+external_ids: { wikidata: "Q12199762", geonames: "358693" }
+sources: [source/wikidata, source/geonames-gazetteer]
 status: { review: draft, completeness: 1 }
-provenance: { layer: own-research, generated_by: "Devin", run: "person-place-geo-a" }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  extensions:
+    - { generated_by: "Claude Code", model: "claude-fable-5-2", run: "place-coordinates-2026-11-11", source: "Coordinates and GeoNames id from GeoNames 358693 (docs/authenticity-ledger/pages/geonames-buhut.yaml), replacing the placeholder [0, 0]; region tag from the country. Labels, summary and Wikidata id unchanged." }

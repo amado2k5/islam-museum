@@ -1,0 +1,19 @@
+id: geonames-samail
+kind: page
+carrier: www.geonames.org
+url: https://www.geonames.org/286590/sama-il.html
+retrieved_on: '2026-11-11'
+used_for:
+- facts: coordinates and GeoNames id of the place for samail (GeoNames 286590, Samā’il, feature code PPL populated place, Ad Dakhiliyah, Oman; 23.29838, 57.9531)
+checks:
+- date: '2026-11-11'
+  type: read through the GeoNames website
+  basis: the place page at retrieval (coordinates, feature code, administrative hierarchy Oman > Ad Dakhiliyah); last change in its history 11 December 2025
+  result: matched
+- date: '2026-11-11'
+  type: identity check
+  basis: Wikidata item Q26200709 at revision 2242464580 (human settlement in Oman, in the wilaya of Samail; no coordinate claim) and the Arabic Wikipedia article «سمائل (سمائل)» at revision 77028928 (the settlement inside the wilaya, Ad Dakhiliyah governorate). The wilaya's own Wikidata item Q3470608 (revision 2529545776) links the same GeoNames id 286590 and gives 23.3, 57.983333, about three kilometres away; the GeoNames point for the populated place was used.
+  result: matched
+history:
+- date: '2026-11-11'
+  event: recorded for place/samail coordinates and GeoNames id only; they replace the placeholder coordinates [0, 0]

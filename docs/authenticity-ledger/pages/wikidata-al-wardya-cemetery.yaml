@@ -1,0 +1,19 @@
+id: wikidata-al-wardya-cemetery
+kind: page
+carrier: www.wikidata.org
+url: https://www.wikidata.org/w/index.php?title=Q28716432&oldid=2468638431
+retrieved_on: '2026-11-11'
+used_for:
+- facts: coordinates for al-wardya-cemetery, taken from the Wikidata item of the mosque and mausoleum of Shaykh Umar al-Suhrawardi in Baghdad (Q28716432, claim P625 = 33.35055556, 44.40194444), which stands inside the cemetery (see wikipedia-al-wardya-cemetery-ar). Recorded on the place as an approximate point within the cemetery.
+checks:
+- date: '2026-11-11'
+  type: read through the Wikidata API
+  basis: item claims P625 (coordinates), P131 (Baghdad) and P17 (Iraq) at the recorded revision, last modified 2026-03-02. The English Wikipedia article «Mausoleum of Umar Suhrawardi» at revision 1379913890 gives the same coordinates.
+  result: matched
+- date: '2026-11-11'
+  type: read through the Wikidata API
+  basis: the cemetery's own item Q29513771 at revision 2457841925 (cemetery; Iraq; no coordinate claim), which is why its coordinates could not be taken directly
+  result: no coordinates on the item
+history:
+- date: '2026-11-11'
+  event: recorded for place/al-wardya-cemetery coordinates only; they replace the placeholder coordinates [0, 0]
