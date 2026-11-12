@@ -1791,3 +1791,15 @@ Series complete: episode 27 is the last episode of al-manjeyat.
 | Repetition loops and garbled windows | ep17 00:05:30-00:06:30 (partial), 00:13:00-00:14:00; ep18 00:11:00-00:12:30, 00:14:00-00:14:30 (a story partly unreadable); ep19 00:06:00-00:07:30, 00:08:00, 00:13:00-00:13:30; ep20 00:03:30-00:04:30 (a rural anecdote), 00:06:30-00:07:00, 00:11:30-00:12:30 | Not speech or not recoverable | Loop check, Clarity | Open |
 
 Resume point: ahl-al-hikma episode 21 (branch from origin/main).
+
+### ahl-al-hikma ep21-ep24 (12 Nov 2026)
+
+42 points written for episodes 21 to 24 (ar, en, ur); 40 needs_source marks on reports without a chain and on garbled stretches. Quran verses referenced only through passage links (18-23, 18-24, 12-15, 12-20, 12-35, 3-123, 9-60); none typed.
+
+| Excluded (ahl-al-hikma ep21-24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Presenter's greetings, break announcements, opening Quran recitation, closing supplications and sign-offs | ep21 00:00:00-00:00:30, 00:08:30-00:09:00, 00:14:30-00:15:30; ep22 00:00:00-00:00:30, 00:07:30-00:08:00, 00:14:30; ep23 00:00:00-00:01:00, 00:08:30-00:09:00, 00:16:30-00:17:00; ep24 00:00:00-00:01:00, 00:09:00-00:09:30, 00:16:00-00:17:00 | Not lesson content (the recitations are Quran text, never typed) | Content rule, Quran rule | Open |
+| Repetition loops, stray non-Arabic characters and garbled windows | ep21 00:01:00-00:01:30 (mixed-language lines), 00:04:00 (loop), 00:06:00 (a family anecdote), 00:14:30 (loop); ep22 00:00:30 (loop), 00:14:00 (loop); ep23 00:17:30-00:18:00 (stray characters), 00:11:00-00:11:30 (an anecdote about Umar and Ibn Abbas); ep24 00:05:30 (loop), 00:12:30 (loop), 00:14:00 (loop), 00:17:00-00:18:00 (stray characters) | Not speech or not recoverable | Loop check, Clarity | Open |
+| Political jests and asides about national affairs | ep24 00:11:30-00:12:00; ep23 00:14:00-00:14:30 (a remark on Egyptians and Israelites in the Qarun passage) | Garbled and not a lesson claim; the clear remarks are recorded as his opinion elsewhere | Clarity | Open |
+
+Resume point: ahl-al-hikma episode 25 (branch from origin/main).
