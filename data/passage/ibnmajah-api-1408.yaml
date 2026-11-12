@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-1408
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1408"
+label: { ar: "سنن ابن ماجه 1408 — محو السيئات وحط الخطايا، مغفرة ما تقدم من الذنب", en: "Sunan Ibn Majah 1408 — bad deeds erased and sins shed; forgiveness of past sins", ur: "سنن ابن ماجہ 1408 — برائیوں کا مٹنا اور خطاؤں کا جھڑنا، پچھلے گناہوں کی مغفرت" }
+text: "… \" لَمَّا فَرَغَ سُلَيْمَانُ بْنُ دَاوُدَ مِنْ بِنَاءِ بَيْتِ الْمَقْدِسِ سَأَلَ اللَّهَ ثَلاَثًا حُكْمًا يُصَادِفُ حُكْمَهُ وَمُلْكًا لاَ يَنْبَغِي لأَحَدٍ مِنْ بَعْدِهِ وَأَلاَّ يَأْتِيَ هَذَا الْمَسْجِدَ أَحَدٌ لاَ يُرِيدُ إِلاَّ الصَّلاَةَ فِيهِ إِلاَّ خَرَجَ مِنْ ذُنُوبِهِ كَيَوْمَ وَلَدَتْهُ أُمُّهُ \". فَقَالَ النَّبِيُّ ـ \" أَمَّا اثْنَتَانِ فَقَدْ أُعْطِيَهُمَا وَأَرْجُو أَنْ يَكُونَ قَدْ أُعْطِيَ الثَّالِثَةَ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1408، يذكر محو السيئات وحط الخطايا، ومغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 1408 (Establishing the Prayer and the Sunnah Regarding Them), that speaks of bad deeds erased and sins shed, forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1408، جس میں برائیوں کا مٹنا اور خطاؤں کا جھڑنا، پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1408 (book 5 hadith 606); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

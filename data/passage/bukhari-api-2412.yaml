@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2412
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2412"
+label: { ar: "صحيح البخاري 2412 — الحساب", en: "Sahih al-Bukhari 2412 — the reckoning", ur: "صحیح بخاری 2412 — حساب" }
+text: "… \". قَالَ سَمِعْتُهُ بِالسُّوقِ يَحْلِفُ وَالَّذِي اصْطَفَى مُوسَى عَلَى الْبَشَرِ. قُلْتُ أَىْ خَبِيثُ، عَلَى مُحَمَّدٍ فَأَخَذَتْنِي غَضْبَةٌ ضَرَبْتُ وَجْهَهُ. فَقَالَ النَّبِيُّ \" لاَ تُخَيِّرُوا بَيْنَ الأَنْبِيَاءِ، فَإِنَّ النَّاسَ يَصْعَقُونَ يَوْمَ الْقِيَامَةِ، فَأَكُونُ أَوَّلَ مَنْ تَنْشَقُّ عَنْهُ الأَرْضُ، فَإِذَا أَنَا بِمُوسَى آخِذٌ بِقَائِمَةٍ مِنْ قَوَائِمِ الْعَرْشِ، فَلاَ أَدْرِي أَكَانَ فِيمَنْ صَعِقَ، أَمْ حُوسِبَ بِصَعْقَةِ الأُولَى \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2412، يذكر الحساب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 2412 (Khusoomaat), that speaks of the reckoning. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 2412، جس میں حساب کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2412 (book 44 hadith 3); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

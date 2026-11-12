@@ -1,0 +1,17 @@
+id: passage/bukhari-api-6405
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6405"
+label: { ar: "صحيح البخاري 6405 — محو السيئات وحط الخطايا، مغفرة ما تقدم من الذنب", en: "Sahih al-Bukhari 6405 — bad deeds erased and sins shed; forgiveness of past sins", ur: "صحیح بخاری 6405 — برائیوں کا مٹنا اور خطاؤں کا جھڑنا، پچھلے گناہوں کی مغفرت" }
+text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ مَالِكٍ، عَنْ سُمَىٍّ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ ـ أَنَّ رَسُولَ اللَّهِ قَالَ \" مَنْ قَالَ سُبْحَانَ اللَّهِ وَبِحَمْدِهِ. فِي يَوْمٍ مِائَةَ مَرَّةٍ حُطَّتْ خَطَايَاهُ، وَإِنْ كَانَتْ مِثْلَ زَبَدِ الْبَحْرِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6405، يذكر محو السيئات وحط الخطايا، ومغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 6405 (Invocations), that speaks of bad deeds erased and sins shed, forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 6405، جس میں برائیوں کا مٹنا اور خطاؤں کا جھڑنا، پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6405 (book 80 hadith 100); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-1086
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1086"
+label: { ar: "سنن ابن ماجه 1086 — مغفرة ما تقدم من الذنب", en: "Sunan Ibn Majah 1086 — forgiveness of past sins", ur: "سنن ابن ماجہ 1086 — پچھلے گناہوں کی مغفرت" }
+text: "حَدَّثَنَا مُحْرِزُ بْنُ سَلَمَةَ الْعَدَنِيُّ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ أَبِي حَازِمٍ، عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ ـ قَالَ \" الْجُمُعَةُ إِلَى الْجُمُعَةِ كَفَّارَةُ مَا بَيْنَهُمَا. مَا لَمْ تُغْشَ الْكَبَائِرُ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1086، يذكر مغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 1086 (Establishing the Prayer and the Sunnah Regarding Them), that speaks of forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1086، جس میں پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1086 (book 5 hadith 284); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

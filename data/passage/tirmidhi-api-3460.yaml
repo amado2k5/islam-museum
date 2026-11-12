@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-3460
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3460"
+label: { ar: "جامع الترمذي 3460 — محو السيئات وحط الخطايا، مغفرة ما تقدم من الذنب", en: "Jami' al-Tirmidhi 3460 — bad deeds erased and sins shed; forgiveness of past sins", ur: "جامع ترمذی 3460 — برائیوں کا مٹنا اور خطاؤں کا جھڑنا، پچھلے گناہوں کی مغفرت" }
+text: "… الأَرْضِ أَحَدٌ يَقُولُ لاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ. إِلاَّ كُفِّرَتْ عَنْهُ خَطَايَاهُ وَلَوْ كَانَتْ مِثْلَ زَبَدِ الْبَحْرِ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ. وَرَوَى شُعْبَةُ هَذَا الْحَدِيثَ عَنْ أَبِي بَلْجٍ بِهَذَا الإِسْنَادِ نَحْوَهُ وَلَمْ يَرْفَعْهُ وَأَبُو بَلْجٍ اسْمُهُ يَحْيَى بْنُ أَبِي سُلَيْمٍ وَيُقَالُ أَيْضًا يَحْيَى بْنُ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3460، يذكر محو السيئات وحط الخطايا، ومغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 3460 (Chapters on Supplication), that speaks of bad deeds erased and sins shed, forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 3460، جس میں برائیوں کا مٹنا اور خطاؤں کا جھڑنا، پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3460 (book 48 hadith 91); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

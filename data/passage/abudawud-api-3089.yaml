@@ -1,0 +1,17 @@
+id: passage/abudawud-api-3089
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3089"
+label: { ar: "سنن أبي داود 3089 — محو السيئات وحط الخطايا", en: "Sunan Abi Dawud 3089 — bad deeds erased and sins shed", ur: "سنن ابی داؤد 3089 — برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "… فَذَكَرَ رَسُولُ اللَّهِ الأَسْقَامَ فَقَالَ \" إِنَّ الْمُؤْمِنَ إِذَا أَصَابَهُ السَّقَمُ ثُمَّ أَعْفَاهُ اللَّهُ مِنْهُ كَانَ كَفَّارَةً لِمَا مَضَى مِنْ ذُنُوبِهِ وَمَوْعِظَةً لَهُ فِيمَا يَسْتَقْبِلُ وَإِنَّ الْمُنَافِقَ إِذَا مَرِضَ ثُمَّ أُعْفِيَ كَانَ كَالْبَعِيرِ عَقَلَهُ أَهْلُهُ ثُمَّ أَرْسَلُوهُ فَلَمْ يَدْرِ لِمَ عَقَلُوهُ وَلَمْ يَدْرِ لِمَ أَرْسَلُوهُ \". فَقَالَ رَجُلٌ مِمَّنْ حَوْلَهُ يَا رَسُولَ اللَّهِ وَمَا الأَسْقَامُ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3089، يذكر محو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 3089 (Funerals (Kitab Al-Jana'iz)), that speaks of bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3089، جس میں برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3089 (book 21 hadith 1); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

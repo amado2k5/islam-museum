@@ -1705,6 +1705,10 @@ explore:
       title: "Hasanat Browser"
       desc: "Every mention of the good deeds (al-hasanat) in the Qur'an, the Sunnah, the seerah and every harvested book — «إن الحسنات يذهبن السيئات»، «من جاء بالحسنة فله عشر أمثالها»، the writing of the good deeds, the good loan to God and «الحسنى» — with every verse and report cited."
       menu: "Browse the good deeds (al-hasanat) in the Qur'an and books"
+    hisab:
+      title: "Hasanat and Sayyi'at Ledger, Calculator and Counter"
+      desc: "Every text that counts, writes, multiplies, erases or weighs a deed in the Qur'an, the Sunnah, the seerah and every harvested book, with a calculator that reads the figures the texts name and a tally counter; every figure is attributed to its text."
+      menu: "Ledger, calculator and counter of good and bad deeds"
     mukatabat:
       title: "Mukatabat Browser"
       desc: "Every mention of correspondence in the Qur'an, the Sunnah, the seerah and every harvested book — the Prophet's letters to kings and emperors, the caliphs' letters and the reports written back, Sulayman's letter to the Queen of Sheba — with every verse and report cited."
@@ -4422,3 +4426,78 @@ syllabus:
     hadith: Hadith
     place: Place
     object: Object
+hisab:
+  title: "Hasanat and Sayyi'at Ledger, Calculator and Counter"
+  lede: "What the museum's sources say about the account of deeds: the verses, hadiths and reports of the seerah, the Companions and the Successors that count a good deed and a bad one, write them, multiply, erase, and weigh in qirats, ranks and the Scale. A list of every such text, a calculator that reads the figures the texts name for particular acts, and a tally counter that stays in your browser."
+  badge: The account of deeds in the texts
+  status: "This build holds {n} records in {s} sections, {r} of them rows of the calculator; the texts are drafts until a human reads them."
+  parts_title: Parts of the page
+  read_more: Read the article
+  caveat_title: Before you count
+  caveat: "This page describes what the texts contain and computes no one's outcome. Every figure on it is read from a text named beside it, and the texts themselves hang the figure on intention, acceptance, the avoiding of major sins and the settling of wrongs, and say that what lies above the figure is a bounty no number caps. The museum gives no rulings: where narrations differ they are shown as they came, and where a text names no figure its result is written in its own words and not turned into a number."
+  method_title: The page's method
+  method_note: "Every record here is an ordinary museum record with its sources. The texts of the list are found at build time by a guarded lexicon over the passage texts: a number of good or bad deeds, the tenfold and seven-hundredfold multiples, the writing of a deed, the erasing, shedding and expiating of bad deeds, forgiveness of what is past, ranks and the qirat, what equals a greater act, the Scale and the atom's weight, the noble scribes and the record of deeds, the bankrupt and the burdens, and the reckoning. A plain mention of good or bad deeds with no counting stays in the Hasanat and Sayyi'at browsers. Verified false positives are excluded by id, and every book harvested later brings its texts here automatically the day its passages land. The rows of the calculator are curated records carrying a reckoning field that reads the figure from one named text."
+  api: "The whole set is available at"
+  calc_title: The calculator
+  calc_intro: "Each row is an act for which a text names a figure or a result. Enter how many times; the calculator multiplies your count by the stated figure and adds up. Rows whose text names no figure show their result in words under the total."
+  calc_nojs: "The table is complete for reading; the automatic sum needs JavaScript."
+  calc_reset: Reset the calculator
+  cols:
+    deed: Act
+    unit: Unit
+    states: What the text states
+    texts: Texts
+    count: How many times
+  fig:
+    hasanat: "{n} good deeds"
+    hasanat_range: "{a} to {b} good deeds"
+    sayyiat: "{n} bad deed"
+    erased: "{n} bad deeds erased"
+    degrees: "{n} ranks"
+  total_title: The total as the texts state it
+  totals:
+    hasanat: Good deeds written
+    sayyiat: Bad deeds written
+    erased: Bad deeds erased
+    degrees: Ranks
+  worded_title: Results for which the text names no figure
+  total_note: "The total is your counts multiplied by the figures of the texts, nothing more. Where a text gives a range the range is shown, and the columns are not subtracted from one another because the texts do not do so."
+  counter_title: The counter
+  counter_intro: "A tally for tasbih, tahlil and anything counted. Choose what you are counting and press once for each. When you reach the number a text names, what the text states appears."
+  counter_nojs: "The counter needs JavaScript."
+  counter_what: What are you counting?
+  counter_free: Free tally
+  counter_add: "+1"
+  counter_undo: Undo
+  counter_reset: Reset
+  counter_reached: "You have reached the stated number {n} time(s) —"
+  counter_saved: "The tally is kept in your browser only and is sent nowhere."
+  list_title: The list
+  list_intro: "Every text in the museum's corpus that counts, writes, erases or weighs a deed, arranged by its source; each card opens the page of the text."
+  sections_title: Sections of the list
+  filter_label: Search the list
+  filter_none: No matches.
+  empty: No records in this build yet.
+  kinds_label: Kind of text
+  kinds_all: All
+  kinds:
+    hasanat: Good deeds written and multiplied
+    sayyiat: Bad deeds and loss
+    erasure: Erasure and expiation
+    scale: "Scale, record and reckoning"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The verses that multiply a good deed and repay a bad deed with its like, remit and exchange bad deeds, and speak of the noble scribes, the record that leaves out nothing small or great, the scales of justice, the atom's weight and the swiftness of the reckoning."
+    sunnah:
+      title: In the Sunnah
+      desc: "The hadiths of the two Sahihs, the Sunan and the Muwatta: the hadith qudsi on the writing of good and bad deeds, the figures for remembrance, recitation and prayer, the expiations of sins, the qirat and the ranks, the bankrupt, and the first thing a servant is reckoned for."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and maghazi books carry of texts that count a deed; this section fills itself as seerah books with such texts are harvested."
+    books:
+      title: In the other books
+      desc: "Counting texts in every other harvested work, from the books of renunciation and heart-softening reports to history and fiqh and whatever comes next, classified by the genre of the work the day its passages arrive."
+    curated:
+      title: Curated records
+      desc: "The article of the subject and the rows of the calculator: each record explains one counting text and names its source."

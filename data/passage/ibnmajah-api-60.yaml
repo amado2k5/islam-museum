@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-60
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "60"
+label: { ar: "سنن ابن ماجه 60 — مضاعفة الحسنة بعشر أمثالها، الميزان", en: "Sunan Ibn Majah 60 — the good deed multiplied tenfold and beyond; the Scale", ur: "سنن ابن ماجہ 60 — نیکی کا دس گنا اور اس سے زیادہ بڑھنا، میزان" }
+text: "… مَنْ قَدْ أَمَرْتَنَا. ثُمَّ يَقُولُ أَخْرِجُوا مَنْ كَانَ فِي قَلْبِهِ وَزْنُ دِينَارٍ مِنَ الإِيمَانِ ثُمَّ مَنْ كَانَ فِي قَلْبِهِ وَزْنُ نِصْفِ دِينَارٍ ثُمَّ مَنْ كَانَ فِي قَلْبِهِ مِثْقَالُ حَبَّةٍ مِنْ خَرْدَلٍ \". قَالَ أَبُو سَعِيدٍ فَمَنْ لَمْ يُصَدِّقْ هَذَا فَلْيَقْرَأْ {إِنَّ اللَّهَ لاَ يَظْلِمُ مِثْقَالَ ذَرَّةٍ وَإِنْ تَكُ حَسَنَةً يُضَاعِفْهَا وَيُؤْتِ مِنْ لَدُنْهُ أَجْرًا عَظِيمًا}."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 60، يذكر مضاعفة الحسنة بعشر أمثالها، والميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 60 (The Book of the Sunnah), that speaks of the good deed multiplied tenfold and beyond, the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 60، جس میں نیکی کا دس گنا اور اس سے زیادہ بڑھنا، میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 60 (book 0 hadith 60); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-2003
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2003"
+label: { ar: "جامع الترمذي 2003 — الميزان", en: "Jami' al-Tirmidhi 2003 — the Scale", ur: "جامع ترمذی 2003 — میزان" }
+text: "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا قَبِيصَةُ بْنُ اللَّيْثِ الْكُوفِيُّ، عَنْ مُطَرِّفٍ، عَنْ عَطَاءٍ، عَنْ أُمِّ الدَّرْدَاءِ، عَنْ أَبِي الدَّرْدَاءِ، قَالَ سَمِعْتُ النَّبِيَّ يَقُولُ \" مَا مِنْ شَيْءٍ يُوضَعُ فِي الْمِيزَانِ أَثْقَلُ مِنْ حُسْنِ الْخُلُقِ وَإِنَّ صَاحِبَ حُسْنِ الْخُلُقِ لَيَبْلُغُ بِهِ دَرَجَةَ صَاحِبِ الصَّوْمِ وَالصَّلاَةِ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2003، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 2003 (Chapters on Righteousness And Maintaining Good Relations With Relatives), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 2003، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2003 (book 27 hadith 109); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

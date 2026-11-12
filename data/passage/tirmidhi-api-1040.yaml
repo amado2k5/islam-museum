@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-1040
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1040"
+label: { ar: "جامع الترمذي 1040 — قيراط الأجر", en: "Jami' al-Tirmidhi 1040 — the qirat of reward", ur: "جامع ترمذی 1040 — اجر کا قیراط" }
+text: "… عَمْرٍو، حَدَّثَنَا أَبُو سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" مَنْ صَلَّى عَلَى جَنَازَةٍ فَلَهُ قِيرَاطٌ وَمَنْ تَبِعَهَا حَتَّى يُقْضَى دَفْنُهَا فَلَهُ قِيرَاطَانِ أَحَدُهُمَا أَوْ أَصْغَرُهُمَا مِثْلُ أُحُدٍ \". فَذَكَرْتُ ذَلِكَ لاِبْنِ عُمَرَ فَأَرْسَلَ إِلَى عَائِشَةَ فَسَأَلَهَا عَنْ ذَلِكَ فَقَالَتْ صَدَقَ أَبُو هُرَيْرَةَ. فَقَالَ ابْنُ عُمَرَ لَقَدْ فَرَّطْنَا فِي قَرَارِيطَ كَثِيرَةٍ. وَفِي الْبَابِ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1040، يذكر قيراط الأجر. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 1040 (The Book on Jana''iz (Funerals)), that speaks of the qirat of reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 1040، جس میں اجر کا قیراط کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1040 (book 10 hadith 76); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

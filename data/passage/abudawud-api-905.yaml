@@ -1,0 +1,17 @@
+id: passage/abudawud-api-905
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "905"
+label: { ar: "سنن أبي داود 905 — مغفرة ما تقدم من الذنب", en: "Sunan Abi Dawud 905 — forgiveness of past sins", ur: "سنن ابی داؤد 905 — پچھلے گناہوں کی مغفرت" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ مُحَمَّدِ بْنِ حَنْبَلٍ، حَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ عَمْرٍو، حَدَّثَنَا هِشَامٌ، - يَعْنِي ابْنَ سَعْدٍ - عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ زَيْدِ بْنِ خَالِدٍ الْجُهَنِيِّ، أَنَّ النَّبِيَّ قَالَ \" مَنْ تَوَضَّأَ فَأَحْسَنَ وُضُوءَهُ ثُمَّ صَلَّى رَكْعَتَيْنِ لاَ يَسْهُو فِيهِمَا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 905، يذكر مغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 905 (Prayer (Kitab Al-Salat)), that speaks of forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 905، جس میں پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 905 (book 2 hadith 515); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
