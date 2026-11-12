@@ -24,6 +24,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Hilyat al-Awliya vol. 10, printed notices 501–503 (Muhammad ibn Mu'awiya al-Sufi, Mughith al-Aswad, Muhammad ibn Salih al-Taymi): three new person records with trilingual drafts, on a wise man's warning at a meadow, on remembrance of graves, Paradise and Fire, and on reflection on the signs of God. Printed numbers kept with sequence numbers noted; unclear chain names are marked.
+- Hilyat al-Awliya vol. 10, printed notices 504–506 (Ali ibn al-Hasan ibn Musa, Khattab al-Abid, Abu Ja'far al-Mahwali): three new person records with trilingual drafts, on what opens thought and the ladder of virtue, on the trace a sin leaves on a face, and on complaining to God about a body that disobeyed. Printed numbers kept with sequence numbers noted; garbled chain names are not given.
 
 
 ## v1.27.0 — 2026-11-19
@@ -344,6 +345,12 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **Al-Munjiyat (Omar Abdelkafy), episode 19 added to its series page, in three languages.** The episode is the lecturer's talk on praiseworthy and blameworthy character: purification before knowledge, the Prophet's marriage criterion, the prayer and fast that bear no fruit without character, the roots of blameworthy character, how to regard the old, young and peers, hidden sins, self-admiration, envy, transgression (Nuh) and conceit (Qarun and the owner of the two gardens). His opinions are labelled as his, 5 passages are marked needs_source (unchained hadiths in sense, unsourced figures and unnamed Western scholars). The record is a draft awaiting a human read.
+
+### Data
+- **Al-Munjiyat (Omar Abdelkafy), episode 20 added to its series page, in three languages.** The episode is the lecturer's talk on praiseworthy character: the community as an example, character as obligation, the smile, ageing and cosmetics, patience (Nuh), courage (Ibn al-Zubayr and Asma), justice (the two litigants before Dawud), manliness (the bedouin's guarantee) and forbearance (Ibrahim and Ismail). His opinions are labelled as his, 6 passages are marked needs_source (unchained accounts and hadiths in sense, unsourced claims and a garbled passage). The record is a draft awaiting a human read.
+
+### Data
+- **Al-Munjiyat (Omar Abdelkafy), episode 21 added to its series page, in three languages.** The episode is the lecturer's talk on generosity and pardon: character that saves, Umar and the governorship seeker, the trees of generosity and miserliness, branding of the withholder of zakat, the professional poor and the axe-head account, speeding and suicide, gratitude and the hungry neighbour, the Prophet's giving, beautiful patience, forgiveness and leaving, and repelling evil with what is better (Fussilat 34). His opinions are labelled as his, 5 passages are marked needs_source (unchained accounts and hadiths in sense, an estimate and a ruling without evidence). The record is a draft awaiting a human read.
 
 ## v1.22.0 — 2026-11-11
 ### Added
