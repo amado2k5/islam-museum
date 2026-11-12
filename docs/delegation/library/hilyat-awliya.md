@@ -1039,3 +1039,21 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 685 (printed) | 401 | Ibn Umar, Ibn Mas'ud, Jabir reports | quoted reports with the Prophet's words | described only |
 | 685 (printed) | 401 | death year 284 AH | figures blurred in the scan | read as 284, flagged |
 | 685 (printed) | 401 | last word of the third saying of Abu Uthman | unclear in the scan | flagged |
+
+## Batch 108 (run microsd-books-b108, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 402–404 top (full text read before writing; printed 686 runs from page 402 to the top of page 404, where printed 687 begins).
+- Identity decision (flagged for the coordinator): printed 686 gives "محمد بن يوسف بن معدان" with the kunya أبو عبد الله, the nisba الصوفي and the laqab البناء, and places his hadith chain at Tarsus. The existing record person/muhammad-ibn-yusuf-ibn-maadan (printed 662) carries the same name and patronymic, with the laqab "عروس الزهاد" and the death at Massisa. Treated as the same person, so the 686 notice is added to that record as a second notice rather than as a duplicate. The kunya and the laqab البناء are added to the names; the roles now include transmitter. If the coordinator rules these are two men, the second notice should be split out.
+- Checked against the scan: the four stations of the heart; the four causes of knowledge; the saying that knowledge without benefit is worse to carry than an ember; the sayings on remembrance and on the one who seeks quick blessings; the Ibn Umar, Anas and related reports, described not quoted.
+- Flagged: the fifth station ("والخامس قلب النقمة الشيطان") is garbled in the scan and not recorded; the chain name "عبد الله بن غير" is read as it appears in the scan (probably Ibn Numayr, not confirmed); the chain name "السندى - الأسدى" is garbled and not recorded.
+- Printed 687 (Abu al-Hasan Ali ibn Sahl) begins at the top of page 404.
+- Printed 532, 546 and 666 stay held.
+
+## Exclusions and garbled readings (batch 108)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 686 (printed) | 402–404 | prophetic reports with the formula (refuge from knowledge without benefit; the Ibn Umar and Anas reports) | quoted reports | described only |
+| 686 (printed) | 402 | fifth station of the heart | garbled in the scan | not recorded |
+| 686 (printed) | 403 | "عبد الله بن غير" in the chain | unclear in the scan | read as it appears, not confirmed |
+| 686 (printed) | 403 | "السندى - الأسدى" in the chain | garbled | not recorded |
+| 686 (printed) | 402 | the verse lines | verse | paraphrased, not quoted |
