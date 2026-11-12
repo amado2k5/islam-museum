@@ -79,8 +79,8 @@ def tables(pattern, cols):
 
 
 def main():
-    found = tables("round-*/review-*.md", ["file", "where", "severity", "defect"])
-    confirm = tables("round-*/confirm-*.md", ["verdict", "seen"])
+    found = tables("round-*/review*.md", ["file", "where", "severity", "defect"])
+    confirm = tables("round-*/confirm*.md", ["verdict", "seen"])
     out = []
     for i, d in found.items():
         decision = "register" if i in REGISTER else "fix"

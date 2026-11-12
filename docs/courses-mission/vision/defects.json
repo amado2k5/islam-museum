@@ -81,9 +81,9 @@
    "defect": "The English curriculum sentences are right-aligned in the Arabic page, the code badge (B1.1) is inserted in the middle of the sentence, and the wrapped last word (\"biodiversity\", \"circuits\") hangs alone on its own line; unlike the top of the lesson, these items carry no \"official wording, not yet translated\" label.",
    "decision": "register",
    "reason": "By design: round 3 added the 'official wording, not yet translated' label and moved the code beside the sentence. What remains is the sentence's side: on an Arabic page the official English sentence sits on the page's reading side, next to its code, and wraps like any text.",
-   "confirmed_in": "round-2",
+   "confirmed_in": "round-3",
    "verdict": "still present",
-   "seen": "ar-phone-lesson-first-2of3, ar-phone-lesson-stubs-2of2, ar-phone-lesson-last-2of2, ar-phone-state-check-answered-2of4: English checklist sentences are still right-aligned in the Arabic page, still no \"official wording, not translated\" label, and the last word still hangs alone (\"biodiversity\", \"circuits\", \"exploration\"). The badge now sits beside the checkbox instead of mid-sentence, which is the only change.",
+   "seen": "ar-phone-lesson-first-2of3, ar-phone-lesson-stubs-2of2, ar-phone-lesson-last-2of2 and ar-phone-state-check-answered-2of4 (the slice that now holds the list): the \"(لم يُترجم بعد)\" label is now under each item and the badge sits beside the sentence, but the English sentences are still right-aligned in the Arabic page and the last word still hangs alone on its own line (\"biodiversity\", \"circuits\", \"organisms\"). The slice named 3of4 no longer contains the list.",
    "status": "registered"
   },
   {
@@ -133,9 +133,9 @@
    "where": "Body text and bar help text",
    "defect": "Possible: body copy is about 22 px and the bar help text about 12 px, which looks small for a classroom projector; the full site title and progress header also stay visible and use space.",
    "decision": "fix",
-   "confirmed_in": "round-2",
+   "confirmed_in": "round-3",
    "verdict": "still present",
-   "seen": "ar-desktop-state-classroom-1 and -3: the bar help text (\"استعمل مفاتيح الأسهم…\") is still about 12-13 px, and the full site-title hero strip with the progress line still takes about 160 px at the top. Body text is larger (about 24-26 px) than before.",
+   "seen": "ar-desktop-state-classroom-1 and -3: the body text is now large (about 28 px) and the hero is a thin strip, but the bar help text \"استعمل مفاتيح الأسهم والأزرار. مفتاح Esc يخرج.\" is still about 12 px, small for a projector.",
    "status": "still present"
   },
   {
@@ -552,10 +552,10 @@
    "where": "Sultan bin Salman card",
    "defect": "The card shows \"This record is not written yet.\" with no link, yet \"Compare with the card\" in Check yourself will have nothing real behind it (possible).",
    "decision": "fix",
-   "confirmed_in": "round-2",
-   "verdict": "still present",
-   "seen": "en-phone-lesson-last-1of2.jpg: the \"Sultan bin Salman Al Saud . This record is not written yet.\" card is still there with no link (the check now asks only about Qur'an 55:33, which has a real card, so the compare part is fixed).",
-   "status": "still present"
+   "confirmed_in": "round-3",
+   "verdict": "gone",
+   "seen": "en-phone-lesson-last-1of3: the \"Sultan bin Salman Al Saud\" card now shows \"Person\" and a link \"Open in the museum\"; no \"not written yet\" text.",
+   "status": "closed"
   },
   {
    "id": "EN-21",
@@ -765,9 +765,9 @@
    "where": "lesson 1 card",
    "defect": "\"✓ Done\" sits below the tag row, pushing the first card's tags and text out of alignment with card 2 and 3.",
    "decision": "fix",
-   "confirmed_in": "round-2",
+   "confirmed_in": "round-3",
    "verdict": "still present",
-   "seen": "en-desktop-state-map-progress-1of2.jpg: cards 1 and 2 have their tags at y=917 (status line below), cards 3 and 4 have tags at y=945, so tag rows in this row are still at different heights.",
+   "seen": "en-desktop-state-map-progress-1of2: card 1 now has its tags and \"Done\" below, but the tag row of cards 1 and 2 sits at y about 917 while cards 3 and 4 have it at y about 945, so tags still do not line up across the row.",
    "status": "still present"
   },
   {
@@ -844,9 +844,9 @@
    "where": "lesson cards",
    "defect": "Card text and tags are not aligned across a row: cards with a one-line title leave a larger gap before the description, and the tag rows sit at different heights (cards 1 to 4, 5 to 8, 9 to 12).",
    "decision": "fix",
-   "confirmed_in": "round-2",
+   "confirmed_in": "round-3",
    "verdict": "still present",
-   "seen": "en-desktop-map-1of2.jpg: row 1 card 1 tags at y=936 against y=940 for cards 2 to 4 (small, about 4 px); card 5 description (\"up.\") touches its tags. Other rows line up. Cannot call it fully gone.",
+   "seen": "en-desktop-map-1of2: rows 2, 3 and 4 line up, but in row 1 card 1's tag row (y about 936) is about 4 px higher than cards 2 to 4 (y about 940); in en-desktop-state-map-progress-1of2 the mismatch is larger. Description start heights differ with one-line versus two-line titles, as before.",
    "status": "still present"
   },
   {
@@ -883,10 +883,10 @@
    "where": "footnote after \"...when variety is lost?\"",
    "defect": "The footnote number \"1\" wraps onto its own line, orphaned under the sentence.",
    "decision": "fix",
-   "confirmed_in": "round-2",
-   "verdict": "still present",
-   "seen": "en-desktop-lesson-first-1of2.jpg (y about 2006): the footnote \"1\" still sits alone on its own line under \"...when variety is lost?\" (fixed on phone and tablet only).",
-   "status": "still present"
+   "confirmed_in": "round-3",
+   "verdict": "gone",
+   "seen": "en-desktop-lesson-first-1of2: the footnote \"1\" now follows \"lost?\" on the same line; it is no longer alone on its own line.",
+   "status": "closed"
   },
   {
    "id": "EN-48",
@@ -1019,10 +1019,10 @@
    "where": "note \"Your progress is kept in this browser only and needs JavaScript; every lesson opens without it.\"",
    "defect": "The sentence is technical for a student and says nothing about what the student should do next.",
    "decision": "fix",
-   "confirmed_in": "round-2",
-   "verdict": "still present",
-   "seen": "en-phone-nojs-home-1of2.jpg: note reads \"Every course and lesson here opens without JavaScript. Only one thing needs it: remembering which lessons you have done.\" Still uses \"JavaScript\" and gives no action.",
-   "status": "still present"
+   "confirmed_in": "round-3",
+   "verdict": "gone",
+   "seen": "en-phone-nojs-home-1of2: the note now reads \"Scripts are switched off in this browser. Every course and lesson still opens; the page just cannot remember which lessons you have finished.\" in plain words.",
+   "status": "closed"
   },
   {
    "id": "EN-59",
@@ -1095,7 +1095,10 @@
    "where": "Top-right corner, x about 1048-1268, y 0-10",
    "defect": "A dark rounded block sticks out of the top edge above the title, looks like a leftover of the site header or a sticky element behind the classroom view.",
    "decision": "fix",
-   "status": "awaiting a later reviewer"
+   "confirmed_in": "round-3",
+   "verdict": "gone",
+   "seen": "ar-desktop-state-classroom-1 and -3: the top edge shows only the hero strip with the title; no dark block sticks out at the top right.",
+   "status": "closed"
   },
   {
    "id": "NAR-2",
@@ -1105,7 +1108,10 @@
    "where": "\"بلغت آخر دروس هذا المقرر / عُد إلى خريطة المقرر\" card in the \"next\" slot",
    "defect": "The card has no arrow, unlike every other next card (\"الدرس التالي ←\"), and it is outlined like a next card though it leads back to the map, so the direction cue is inconsistent.",
    "decision": "fix",
-   "status": "awaiting a later reviewer"
+   "confirmed_in": "round-3",
+   "verdict": "gone",
+   "seen": "ar-desktop-lesson-last-2of2, ar-tablet-lesson-last-2of2, ar-phone-lesson-last-2of2: the card now reads \"عُد إلى خريطة المقرر\" with a left arrow, like the other forward cards.",
+   "status": "closed"
   },
   {
    "id": "NAR-3",
@@ -1170,7 +1176,10 @@
    "where": "\"Curriculum expectations\" list",
    "defect": "The text after each code badge starts at a different x (B1.1 at about 69, B2.1 at about 72 on phone; 167 against 170 on desktop) because the badges differ in width, so the two lines are not aligned.",
    "decision": "fix",
-   "status": "awaiting a later reviewer"
+   "confirmed_in": "round-3",
+   "verdict": "gone",
+   "seen": "en-desktop-lesson-first-1of2 (text at x about 173 for both B1.1 and B2.1) and en-phone-lesson-first-1of3 (text at x about 76 for both): the sentences start at the same x.",
+   "status": "closed"
   },
   {
    "id": "NEN-4",
@@ -1191,7 +1200,10 @@
    "where": "\"Check yourself\" (3) section",
    "defect": "In this lesson \"Check yourself\" holds only the \"I can now\" tick boxes, with no question to answer, so the section the rail names \"Check yourself\" has no check, unlike the other lessons.",
    "decision": "fix",
-   "status": "awaiting a later reviewer"
+   "confirmed_in": "round-3",
+   "verdict": "gone",
+   "seen": "en-phone-lesson-stubs-2of2: \"Check yourself\" now has a question (\"Which of these did you meet in this lesson?\" with three options) and a tell-it-back question before the \"I can now\" boxes.",
+   "status": "closed"
   },
   {
    "id": "NEN-6",
@@ -1202,7 +1214,20 @@
    "defect": "The classroom view on desktop still keeps the full hero (title, \"Lesson 1 of 4\", dots, \"1 of 16 in the course\", about 140 px), while on a phone it is cut to a thin title strip, so the two sizes behave differently and the phone strip loses the lesson position.",
    "decision": "register",
    "reason": "By design: classroom view shows the lesson's title in a thin strip and the step count in the bar ('3 / 5'); the lesson's place in the course is on the ordinary view, one key press away.",
+   "confirmed_in": "round-3",
+   "verdict": "still present",
+   "seen": "en-desktop-state-classroom-1 vs en-phone-state-classroom-1: both are now a thin title strip, so the two sizes agree, but neither strip shows \"Lesson 1 of 4\" or the lesson position, which the reviewer also named as lost on the phone strip. The same strip clips the title (see NR-1).",
    "status": "registered"
+  },
+  {
+   "id": "NR-1",
+   "found_in": "round-3",
+   "severity": "medium",
+   "file": "en-desktop-state-classroom-1, en-desktop-state-classroom-3, en-phone-state-classroom-1, en-phone-state-classroom-3, ar-desktop-state-classroom-1, ar-desktop-state-classroom-3, ar-phone-state-classroom-1, ar-phone-state-classroom-3",
+   "where": "classroom title strip, y about 15 to 45",
+   "defect": "The page title (\"What is biodiversity?\" / \"ما التنوع الحيوي؟\") in the new thin strip is cut by the curved lower edge of the hero: the bottoms of the letters and the question mark are sliced off, worst in en-phone-state-classroom-1 and -3.",
+   "decision": "fix",
+   "status": "awaiting a later reviewer"
   }
  ]
 }
