@@ -1075,3 +1075,19 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 687 (printed) | 404 | the line of verse in the dream | verse | not quoted |
 | 687 (printed) | 405 | the letter to al-Junayd | the letter is long | described, not given in full |
 | 687 (printed) | 405 | Anas report | quoted report | described only |
+
+## Batch 110 (run microsd-books-b110, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 405–406 top (full text read before writing; the notice ends at the top of page 406 with the Jesus tale, and printed 689 (Muhammad ibn al-Husayn al-Khushani) begins on page 406). New draft: person/ahmad-ibn-jafar-ibn-hani (printed 688, 10/405–406). No existing record of the name.
+- Checked against the scan: the epithets; the sayings on help, fear and success; the service and nearness saying; the Abu Khallad report and the Jesus tale, both described, not quoted.
+- Flagged: "المنيعة" (the word for pillars) is an uncertain reading of the OCR "المنيمة", flagged in the record; the Abu Khallad chain is garbled in two places and the record says so; the location of the subject is not stated in the notice, so the region is set from the chain only (flagged).
+- Printed 689 begins on page 406.
+- Printed 532, 546 and 666 stay held.
+
+## Exclusions and garbled readings (batch 110)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 688 (printed) | 405 | "الأعمدة المنيعة" | OCR reads "المنيمة" | flagged in the record |
+| 688 (printed) | 405 | Abu Khallad chain | garbled in two places | described, not read in full |
+| 688 (printed) | 405 | Abu Khallad report | quoted report with the formula | described only |
+| 688 (printed) | 406 | Jesus tale | anecdote with dialogue | described in paraphrase |
