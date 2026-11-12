@@ -9,6 +9,7 @@ import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
 import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
 import { mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf } from "./mukatabat.js";
 import { narKindOf, narSignalsOf } from "./nar.js";
+import { jannaKindOf, jannaSignalsOf } from "./janna.js";
 
 const makeNode = (id: string, cls: string, data: Record<string, any> = {}, prose: Record<string, any> = {}): Node => ({
   id, class: cls, slug: id.split("/")[1], label: { ar: id, en: id, ur: id }, summary: { ar: "", en: "", ur: "" }, stub: false,
@@ -61,7 +62,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -326,6 +327,42 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(hasanatSignalsOf(qardHadith as any)).toContain("qard-hasan");
     expect(hasanatSignalsOf(adjFp as any)).toEqual([]);
     expect(hasanatSignalsOf(namesFp as any)).toEqual([]);
+  });
+
+
+  it("exports jannas: detected passages by corpus and kind, gated false positives, future-book inclusion", () => {
+    const firdawsAyah = makeNode("passage/quran-23-11x", "passage", { unit: "ayah", work: "work/quran", sura: 23, aya: 11, text: "الذين يرثون الفردوس هم فيها خالدون" });
+    const gateHadith = makeNode("passage/bukhari-1897x", "passage", { unit: "hadith", work: "work/sahih-al-bukhari", ref: "1897x", text: "في الجنة باب يقال له الريان يدخل منه الصائمون يوم القيامة" });
+    const gatedAyah = makeNode("passage/quran-2-35x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 35, text: "يا آدم اسكن أنت وزوجك الجنة وكلا منها رغدا حيث شئتما" });
+    const siraPassage = makeNode("passage/sira-1x", "passage", { unit: "chapter", work: "work/sira-ibn-hisham", ref: "1", text: "فبشره النبي بالجنة والفردوس" });
+    const siraWork = makeNode("work/sira-ibn-hisham", "work", { genre: ["sira"] });
+    const orchardAyah = makeNode("passage/quran-18-33x", "passage", { unit: "ayah", work: "work/quran", sura: 18, aya: 33, text: "كلا الجنتين آتت أكلها ولم تظلم منه شيئا وفجرنا خلالهما نهرا" });
+    const shieldHadith = makeNode("passage/muslim-1151x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "1151x", text: "الصيام جنة فلا يرفث ولا يجهل" });
+    const jinnAyah = makeNode("passage/quran-72-1x", "passage", { unit: "ayah", work: "work/quran", sura: 72, aya: 1, text: "أوحي إلي أنه استمع نفر من الجن فقالوا إنا سمعنا قرآنا عجبا" });
+    const futureBook = makeNode("passage/futurebook-1", "passage", { unit: "chapter", work: "work/future-book", ref: "1", text: "وسئل عن الفردوس الأعلى فقال: هي أعلى الجنة" });
+    const futureWork = makeNode("work/future-book", "work", { genre: ["fiqh"] });
+    const jannaConcept = { ...makeNode("concept/firdaws", "concept", { kind: "belief" }), tags: ["janna-browser"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, firdawsAyah, gateHadith, gatedAyah, siraPassage, siraWork, orchardAyah, shieldHadith, jinnAyah, futureBook, futureWork, jannaConcept] });
+    const items = data["jannas.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-23-11x");
+    expect(ids).toContain("passage/bukhari-1897x");
+    expect(ids).toContain("passage/sira-1x");
+    expect(ids).toContain("passage/futurebook-1"); // a book harvested later lands automatically
+    expect(ids).toContain("concept/firdaws");
+    expect(ids).not.toContain("passage/quran-2-35x"); // worldly garden of Adam's command context — no Paradise collocation
+    expect(ids).not.toContain("passage/muslim-1151x"); // «الصيام جنة» is the shield matn
+    expect(ids).not.toContain("passage/quran-72-1x"); // «الجن» is the jinn, never جنة
+    expect(items.find((i) => i.id === "passage/quran-23-11x")).toMatchObject({ section: "quran", janna_kind: "description" });
+    expect(items.find((i) => i.id === "passage/bukhari-1897x")).toMatchObject({ section: "sunnah" });
+    expect(items.find((i) => i.id === "passage/sira-1x")).toMatchObject({ section: "seerah" });
+    expect(items.find((i) => i.id === "passage/futurebook-1")).toMatchObject({ section: "books" });
+    expect(items.find((i) => i.id === "concept/firdaws")).toMatchObject({ section: "curated", janna_kind: null });
+    expect(featureApiData(compiled)["jannas.json"].feature).toBe("janna-browser");
+    expect(jannaKindOf(firdawsAyah as any)).toBe("description");
+    expect(jannaSignalsOf(firdawsAyah as any)).toContain("firdaws");
+    expect(jannaSignalsOf(jinnAyah as any)).toEqual([]);
+    expect(jannaSignalsOf(shieldHadith as any)).toEqual([]);
   });
 
   it("exports mukatabat: detected correspondence by corpus, kind and sender, gated false positives, future-book inclusion", () => {
