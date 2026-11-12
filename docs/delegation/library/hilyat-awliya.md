@@ -160,3 +160,13 @@
 | 468 | 113 | Shurayh's words in the dream "رحال سر بسر" | garbled in the scan | omitted |
 | 468 | 115 | the object Abd al-Muttalib was first told to dig up ("برة") | unclear in the scan | described as "a thing (the word is garbled in the scan)" |
 | 468 | 113–115 | Qur'anic surahs cited | Qur'an text never typed | referred to only |
+
+## Batch 35 (run microsd-books-b43, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 116–128 (the opening 116–122 was already in the record from batch 15; read again in full here). Enriched `person/sari-al-saqati` (469, to 10/128). Notice 470 (Ibrahim ibn Shammas) begins on 10/128 and is next. Ahmad ibn Hanbal and Bishr ibn al-Harith are placed in Baghdad, the city of the notice.
+
+## Exclusions and garbled readings (batch 43)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 469 | 126 | the word after "رجل" (given as "لديرانى" in the scan) | unclear | read as "a monk of the monasteries (Dayrani)" with the reading flagged as uncertain in the note |
+| 469 | 125 | a hadith on the Friday prayer, the ending of the anecdote | cut in the scan | described only as far as the text runs |
