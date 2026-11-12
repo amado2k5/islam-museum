@@ -1501,4 +1501,17 @@ Series complete: episode 47 is the last episode of albuyout-alamena.
 | Political and personal digressions (a teacher's anecdote about schools in North Africa, remarks on movements and events of the time) | ep30 00:06:30-00:07:30 | Modern political commentary, not lesson content; kept out of the record | Content rule | Open |
 | Announcements, a questioner about fasting and the publisher and telephone line | ep30 00:37:30-00:40:00 | Not lesson content | Content rule | Open |
 
-Resume point: episode 31 (branch from origin/main).
+
+### al-dar-al-akhera ep31 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep31 (joining ties, patience, Abraham, the Event) | about 40 min (transcript) | ar, en, ur: 1 record extended | 3 new `about` edges | 16 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the reports on cutting kinship (ep31 00:00:30-00:02:00); the report of the seven in God's shade (00:05:00-00:05:30); the Aisha report (00:12:00, 00:13:30); the Abu Hanifa story (00:14:30-00:15:30); the Ridwan report (00:29:30-00:30:30); the answers to questions (00:36:00-00:39:00) | run omar-abdelkafy-dar-akhera-24 |
+
+| Excluded (dar-akhera ep31) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep31 00:04:00, 00:08:30, 00:11:30, 00:14:00, 00:19:30, 00:26:00, 00:31:00, 00:32:30, 00:38:00 | Not speech | Loop check | Open |
+| Garbled passages | ep31 00:00:00, 00:06:00-00:10:00 (stories of a shaykh and a sick man), 00:11:00-00:12:30 (Shafii aside, not reproduced), 00:12:30-00:13:30, 00:19:00-00:20:30, 00:26:30-00:27:00, 00:33:30-00:34:30, 00:37:00-00:38:30 | Not recoverable as clear Arabic | Clarity | Open |
+| Closing supplications, questions about parents and a vow, and the publisher and telephone line | ep31 00:34:30-00:37:30, 00:39:30-00:40:00 | Not lesson content or private; kept general | Content rule | Open |
+
+Resume point: episode 32 (branch from origin/main).
