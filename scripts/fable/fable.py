@@ -66,7 +66,7 @@ class Oracle:
         if self.ok:
             print(f"RESULT: GREEN ({self.n} checks passed)")
             sys.exit(0)
-        print(f"RESULT: NOT-GREEN ({len(self.failed)} of {self.n} checks failed: {'; '.join(self.failed)})")
+        print(f"RESULT: NOT-GREEN ({len(self.failed)} failed: {'; '.join(self.failed)})")
         sys.exit(1)
 
 
@@ -85,7 +85,7 @@ def importance(n):
 # ---- The anchor rule: where a record stands in time (used by the canon floor check and the Tour coverage oracle) ----
 # 1. the record's own date: a person's death (else floruit, else birth); an event's date.start; a building's `built`; an
 #    object's `made`; a work's `composed`; a period's or polity's `start`; a place's or group's `founded`.
-# 2. a work with no date of its own: the latest death among the persons the graph says authored it.
+# 2. a work with no date of its own: the latest death among its authors (an `authored` relation, or its own `authors` field).
 # 3. otherwise the record floats: inside the span of the periods it lists, or anywhere if it lists none.
 # The Hijri year is the one the record states for that date; where it states none it is floor((CE year - 622) * 33 / 32) + 1,
 # the arithmetic rule (33 lunar years to 32 solar), exact to within one year. Century 0 is "before the Hijra".
@@ -151,10 +151,17 @@ def anchor(n, by_id, authors_of):
 
 
 def authors_index(graph):
+    """A work's authors: the persons the graph says authored it, and the persons the work's own `authors` field names."""
     out = collections.defaultdict(list)
     for e in graph["edges"]:
         if e["type"] == "authored" and not e.get("inverse"):
             out[e["to"]].append(e["from"])
+    ids = {n["id"] for n in graph["nodes"]}
+    for n in graph["nodes"]:
+        if n["class"] == "work":
+            for a in n["data"].get("authors") or []:
+                if isinstance(a, str) and a in ids and a not in out[n["id"]]:
+                    out[n["id"]].append(a)
     return out
 
 
@@ -163,3 +170,84 @@ def manifest_ids(path="tour/grand-tour.yaml"):
     if not os.path.exists(os.path.join(ROOT, path)):
         return []
     return re.findall(r"^\s*-\s*id:\s*([a-z]+/[a-z0-9-]+)\s*$", open(os.path.join(ROOT, path), encoding="utf-8").read(), re.M)
+
+
+# ---- The Tour's narrative at a stop: the lead section of the record's own prose ----
+CITE = re.compile(r"\{cite:([a-z0-9-]+)(?:\s[^}]*)?\}")
+
+
+def lead_section(record_id, lang, commit=None):
+    """(heading, markdown) of the first `## ` section of content/<lang>/<id>.md, or None. With `commit`, as it stood then."""
+    if commit:
+        body = sh(f"git show {commit}:content/{lang}/{record_id}.md")
+        if not body:
+            return None
+    else:
+        path = os.path.join(ROOT, "content", lang, record_id + ".md")
+        if not os.path.exists(path):
+            return None
+        body = open(path, encoding="utf-8").read()
+    m = re.search(r"^## (.+)\n([\s\S]*?)(?=^## |\Z)", body, re.M)
+    return (m.group(1).strip(), m.group(2).strip()) if m else None
+
+
+def plain(md):
+    """The lead as a reader sees it: citations removed, [[id|label]] links reduced to their label."""
+    t = CITE.sub("", md)
+    t = re.sub(r"\[\[[^\]|]+\|([^\]]*)\]\]", r"\1", t)
+    t = re.sub(r"\[\[([^\]|]+)\]\]", r"\1", t)
+    return t
+
+
+def word_count(md):
+    return len([w for w in plain(md).split() if re.search(r"\w", w)])
+
+
+def uncited_sentences(md):
+    """Sentences of four words or more that carry no citation. A citation counts for the sentence it sits in or directly ends."""
+    t = CITE.sub(" ⟦C⟧ ", md)
+    t = re.sub(r"\s+", " ", t)
+    # a citation placed just after the full stop belongs to the sentence before it
+    t = re.sub(r"([.!?؟۔])\s*⟦C⟧", " ⟦C⟧\\1", t)
+    out = []
+    for s in re.split(r"(?<=[.!?؟۔])\s+", t):
+        s = s.strip()
+        if len([w for w in plain(s.replace("⟦C⟧", "")).split() if re.search(r"\w", w)]) >= 4 and "⟦C⟧" not in s:
+            out.append(s)
+    return out
+
+
+def sources_at(commit, record_id):
+    """The record's `sources:` list as it stood at a commit (ids without the source/ prefix)."""
+    t = sh(f"git show {commit}:data/{record_id}.yaml")
+    m = re.search(r"^sources:[ \t]*\[([^\]]*)\]", t, re.M)
+    if m:
+        items = [x.strip() for x in m.group(1).split(",")]
+    else:
+        b = re.search(r"^sources:[ \t]*\n((?:[ \t]*-[ \t]*\S+[ \t]*\n?)+)", t, re.M)
+        items = re.findall(r"-[ \t]*(\S+)", b.group(1)) if b else []
+    listed = [x.replace("source/", "").strip("\"'") for x in items if x]
+    # a source the record's own prose already cited at that commit is "already cited in that record" too
+    cited = []
+    for lang in ("ar", "en", "ur"):
+        cited += CITE.findall(sh(f"git show {commit}:content/{lang}/{record_id}.md"))
+    return sorted(set(listed) | set(cited))
+
+
+def own_relations(record_id):
+    """(type, target) pairs written in the record's own data file under `relations:`. Reads the file, not the graph:
+    the graph artifact keeps edges, not which record wrote them."""
+    path = os.path.join(ROOT, "data", record_id + ".yaml")
+    if not os.path.exists(path):
+        return []
+    t = open(path, encoding="utf-8").read()
+    m = re.search(r"^relations:[ \t]*\n((?:(?:[ \t]+.*|[ \t]*-.*|[ \t]*)\n?)*)", t, re.M)
+    if not m:
+        return []
+    out = []
+    for item in re.split(r"\n(?=[ \t]*-[ \t])", m.group(1)):
+        ty = re.search(r"\btype:[ \t]*[\"']?([a-z_]+)", item)
+        tg = re.search(r"\btarget:[ \t]*[\"']?([a-z]+/[a-z0-9][a-z0-9-]*)", item)
+        if ty and tg:
+            out.append((ty.group(1), tg.group(1)))
+    return out

@@ -5,7 +5,11 @@ source_lang: en
 translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 ---
 ## موجز
-السلطان سليمان القانوني، واسمه سليمان بن سليم الأول، من سلاطين الدولة العثمانية. حكم من سنة 926 إلى 974هـ ⁦(1520–1566م)⁩ وابن [[person/selim-i-ottoman|سليم الأول]]. {cite:dawlat-uthmaniyya-salabi p.200-202}
+السلطان سليمان القانوني، واسمه سليمان بن سليم الأول، من سلاطين [[polity/ottoman-empire|الدولة العثمانية]]، حكم من سنة 926 إلى 974هـ ⁦(1520–1566م)⁩، وهو ابن [[person/selim-i-ottoman|سليم الأول]] {cite:dawlat-uthmaniyya-salabi p.198} {cite:dawlat-uthmaniyya-salabi p.200-202} {cite:dawlat-uthmaniyya-salabi p.276}. ولد في [[place/trabzon|طرابزون]] وكان والده والياً عليها، وارتقى العرش في السادسة والعشرين من عمره {cite:dawlat-uthmaniyya-salabi p.200}. ويذكر الصلابي أن والده اهتم به فنشأ محباً للعلم والأدب والعلماء والفقهاء، وأنه كان متأنياً إذا اتخذ قراراً لا يرجع عنه {cite:dawlat-uthmaniyya-salabi p.200}. ويعدّ في سنواته الأولى أربعة تمردات أُخمدت، منها تمرد جان بردي الغزالي والي الشام وتمرد أحمد شاه في مصر سنة 930هـ {cite:dawlat-uthmaniyya-salabi p.200} {cite:dawlat-uthmaniyya-salabi p.201}.
+
+وشنّ سليمان حرباً كبيرة على [[place/rhodes|رودس]] ابتداء من منتصف سنة 1522م وفتحها، وأعطى فرسان القديس يوحنا حق الانتقال منها فذهبوا إلى مالطة {cite:dawlat-uthmaniyya-salabi p.201}. وانتصر على المجر في [[event/battle-mohacs-932|موقعة موهاكس]] سنة 1526م ودخل بودا في 11 سبتمبر، وبلغت جيوشه أسوار فيينا سنة 1529م ثم تراجع عنها {cite:dawlat-uthmaniyya-salabi p.202}.
+
+ويذكر [[person/tariq-al-suwaidan|طارق السويدان]] أن أعظم شهرته القوانين التي أصدرها مع شيخ الإسلام [[person/abu-al-suud-afandi|أبي السعود أفندي]]، وأن العثمانيين فضّلوا لقب «القانوني» وأن الأوروبيين سمّوه «العظيم» {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep14 00:13:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep14 00:15:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep14 00:15:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep14 00:19:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep14 00:20:00}. ويعدّ الصلابي عهده العصر الذهبي للدولة العثمانية، ويذكر أن المؤرخين اتفقوا على أن عظمتها انتهت بوفاته {cite:dawlat-uthmaniyya-salabi p.202} {cite:dawlat-uthmaniyya-salabi p.276}.
 
 ## النشأة والعرش
 ولد في طرابزون، وكان والده والياً عليها. يذكر الصلابي أن والده اهتم به فنشأ محباً للعلم والأدب والعلماء والفقهاء. ارتقى العرش في السادسة والعشرين من عمره، وكان متأنياً في شؤونه إذا اتخذ قراراً لا يرجع عنه. {cite:dawlat-uthmaniyya-salabi p.200-202}

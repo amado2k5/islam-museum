@@ -23,7 +23,7 @@ status:
   completeness: 3
 relations:
   - { type: child_of, target: person/ilyas-ibn-mudar, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
-- type: lived_in
-  target: place/hijaz
-  sources:
-  - source/muruj-al-dhahab
+  - type: lived_in
+    target: place/hijaz
+    sources:
+    - source/muruj-al-dhahab
