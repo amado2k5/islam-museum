@@ -159,4 +159,6 @@ None yet.
 - **Resume point (batch 117):** scan p. 371, the summary sentence cut off at the foot of the page ("فيتبين من جميع هذه الاعتبارات"), then Article 3 chapter 2 to its end and chapters 3–7 (pp. 372–533), then Article 2 chapters 3–4 (pp. 230–339).
 - **Manazir Article 3, scan pp. 371–375 (batch 118):** read in full. The summary completed on p. 372; the end of chapter 2 on steep tilt and facing (pp. 372–374); chapter 3 opens with its title and lists the conditions of correct perception (pp. 374–375). Added to `content/{ar,en,ur}/work/kitab-al-manazir.md`, citing scan pages 371–375.
 - **Resume point (batch 118):** scan p. 375, "وتختلف هذه الأبعاد بحسب كل مبصر" then the rest of chapter 3 (pp. 375–376 onward), then chapters 4–7 (pp. 376–533), then Article 2 chapters 3–4 (pp. 230–339).
+- **Manazir Article 3, chapter 3 finished to p. 381 (batch 119):** scan pp. 375–381 read in full. The remaining conditions (position, light, size, density and air, motion, the eye) and the concluding general rule of moderation (pp. 375–381). Added to `content/{ar,en,ur}/work/kitab-al-manazir.md`, citing scan pages 375–381.
+- **Resume point (batch 119):** scan p. 381 ("وإذ قد تبين ذلك فلنسم العرض") the definition of the measure of moderation, then chapters 4–7 (pp. 381–533), then Article 2 chapters 3–4 (pp. 230–339).
 
