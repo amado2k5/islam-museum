@@ -404,3 +404,16 @@
 | 513 (printed) | 148 | the couplet Zuhayr often recited | the couplet is paraphrased, not quoted | paraphrased in the prose |
 | 513 (printed) | 149 | the words "ويخطئ" and the tail of the saying about hearing a beating | cut at the foot of page 149 | the saying is given to its end on page 150 |
 | 513 (printed) | 148 | the chain between "ثم قال: حدثني ممدي" and the plague account | the narrator's name ("ممدى", maternal uncle or kinsman) is unclear | the uncle is named as the source of the plague account in the prose only as "a kinsman", with the scan's name not given |
+
+## Batch 64 (run microsd-books-b64, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 150–151 (full text read before writing). New draft, printed number kept with the sequence number noted: person/muhammad-ibn-ishaq-al-kufi (printed 514, sequence 515, 10/150–151). Printed 515 (Qasim ibn Muhammad al-Sufi, who kept himself and was strict about monastic practice) begins on 10/151 and is next.
+- The verses on the back of a book are described, not quoted. Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 64)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 514 (printed) | 150 | "أبو عبد الله بن عبد الله (؟)" chain opening | garbled in the scan | not given; the chain is summarised by its named links |
+| 514 (printed) | 151 | "عبد الله بن الذرج" | the name is unclear in the scan ("الدرج" or "الذرج") | written as "الدرج" in the prose; flagged for revision |
+| 514 (printed) | 151 | the verses on the back of the book | the lines are garbled in the scan | described in prose, not quoted; no line given |
+| 514 (printed) | 151 | "ميراث الجوع" | the saying is repeated in the scan | given once as read, with the repetition noted |
