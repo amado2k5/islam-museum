@@ -26,3 +26,8 @@ Ibn Asakir relates his saying: the greatest loser of all is the one who shows pe
 
 ## Death
 The year of his death in Mecca is given differently: al-Sulami said 341 or 340, al-Qushayri 341, and Ishaq ibn Ibrahim al-Harawi 340. {cite:tarikh-dimashq-amrawi-v5 p. 355} {cite:tarikh-dimashq-amrawi-v5 p. 356} {cite:tarikh-dimashq-amrawi-v5 p. 357} The editor of Tarikh Dimashq quotes Siyar A'lam al-Nubala' that he was born some years after 240 and died in Mecca in Dhu al-Qa'da 340, aged ninety-four and some months. {cite:tarikh-dimashq-amrawi-v5 p. 357} The Mawsu'a gives his birth as 246 AH and death as 340 AH. {cite:mawsuat-a3lam-ulama-adaba p.153}
+
+## In Hilyat al-Awliya
+[[person/abu-nuaym-al-asbahani-ahmad|Abu Nu'aym]] opens with him (notice 647 of [[work/hilyat-al-awliya|Hilyat al-Awliya]]) a group of gnostics whose days, he says, he himself reached, and whose states became widely known because they held to the law in knowledge and practice. He records that Ibn al-A'rabi was a Basran who settled in Mecca and wrote well-known works, and dates his death to 341 AH. Through Sulayman ibn Ahmad, who heard him in Mecca, he relates a hadith on wiping over leather socks. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/375}
+
+Among his sayings in the notice: God made this world pleasant for the knowers by the thought of leaving it, and made Paradise pleasant for its people by the thought of staying in it for ever. Asked which times he was content with, he said that all times belong to God, and that the best of them is a time in which God brings about through him what pleases Him. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/375-376}
