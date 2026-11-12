@@ -1025,3 +1025,17 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 684 (printed) | 400 | Abu Hurayra hadith with the Prophet's formula | a quoted report with the formula | described only |
 | 684 (printed) | 400 | "ابن حمر" in the first link | garbled in the OCR | read as Hamdan, flagged |
 | 684 (printed) | 400 | "فروة بن أب المرام" | the nisba is truncated in the OCR | name Farwa only; nisba not recorded |
+## Batch 107 (run microsd-books-b107, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 401 (full text read before writing; p. 402 opens printed 686, Muhammad ibn Yusuf ibn Ma'dan, which is not in this batch). New draft: person/muhammad-ibn-al-faraj-al-wadhankani (printed 685, 10/401). No existing record of the name.
+- Checked against the scan: the epithets; the companionship with Abu Uthman Sa'id ibn al-Abbas al-Razi; the prayer; Tarsus three times; the death year read as 284 AH (flagged: the figures are blurred in the scan); the reports from Ibn Umar, Ibn Mas'ud and Jabir, described not quoted; Abu Uthman's three sayings through his grandfather Mahmud.
+- Flagged: the final word of the third saying is unclear in the scan; the year figures are blurred.
+- Next is printed 686 (Muhammad ibn Yusuf ibn Ma'dan), on page 402.
+- Printed 532, 546 and 666 stay held.
+
+## Exclusions and garbled readings (batch 107)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 685 (printed) | 401 | Ibn Umar, Ibn Mas'ud, Jabir reports | quoted reports with the Prophet's words | described only |
+| 685 (printed) | 401 | death year 284 AH | figures blurred in the scan | read as 284, flagged |
+| 685 (printed) | 401 | last word of the third saying of Abu Uthman | unclear in the scan | flagged |
