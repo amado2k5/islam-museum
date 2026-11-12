@@ -1,0 +1,38 @@
+id: person/guyuk-khan
+class: person
+label: { ar: "كيوك خان", en: "Guyuk Khan", ur: "گیوک خان" }
+names:
+  - { kind: alternate, lang: en, value: "Güyük" }
+  - { kind: alternate, lang: en, value: "Goyuk" }
+  - { kind: alternate, lang: ar, value: "كيوك" }
+  - { kind: alternate, lang: ar, value: "كويوك" }
+summary:
+  ar: "كيوك الخان الأعظم الثالث للإمبراطورية المغولية، وابن أوكتاي. بعد نيابة أمه توراكينا بعد موت أبيه سنة 639هـ/1241م، انتُخب خاناً سنة 644هـ/1246م، وحكم حتى موته المفاجئ سنة 646هـ/1248م وهو في طريقه غرباً. كان عدواً لباتو منذ حملة روسيا، وردّ بازدراء رسل الإسماعيلية النزارية سنة 644هـ/1246م، ولا مقالة خاصة به في دائرة المعارف الإسلامية، فيعتمد هذا السجل على إشارات متفرقة في مقالاتها {cite:encyclopaedia-of-islam-2 vol. 7 p. 258}."
+  en: "Guyuk was the third Great Khan of the Mongol Empire and a son of Ogedei. After his mother Toregene ruled as regent following his father's death in 639/1241, he was acclaimed Great Khan in 644/1246 and reigned until his sudden death in 646/1248 on a journey west. He had been an enemy of Batu since the Russian campaign and, in 644/1246, dismissed Nizari Ismaili envoys with contempt. The Encyclopaedia of Islam has no article under his name, so the record draws on passages in several of its articles {cite:encyclopaedia-of-islam-2 vol. 7 p. 258}."
+  ur: "گیوک منگول سلطنت کے تیسرے عظیم خان اور اوگدائی کے بیٹے تھے۔ باپ کی وفات 639ھ/1241ء کے بعد ان کی والدہ تورگینہ نائب رہیں؛ 644ھ/1246ء میں وہ عظیم خان تسلیم ہوئے اور 646ھ/1248ء میں مغرب کے سفر کے دوران اچانک وفات تک حکومت کی۔ روس کی مہم سے وہ باتو کے دشمن تھے، اور 644ھ/1246ء میں انہوں نے نزاری اسماعیلی سفیروں کو حقارت سے لوٹا دیا۔ دائرۃ المعارف الاسلامیہ میں ان کے نام سے الگ مضمون نہیں، اس لیے یہ اندراج اس کے کئی مضامین کے متفرق حوالوں پر مبنی ہے {cite:encyclopaedia-of-islam-2 vol. 7 p. 258}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, china-east-asia]
+themes: [mongol-invasions]
+died: { edtf: "1248", hijri: "0646", calendar: julian, precision: year, status: historical, derived: false, note: "The article Batu gives the Yuan shih for his death in the third month of 1248 (27 March to 24 April), at Kum-Sengir on the Upper Urungu {cite:encyclopaedia-of-islam-2 vol. 1 p. 1165}; the article Mongols says only 1248 {cite:encyclopaedia-of-islam-2 vol. 7 p. 258}." }
+relations:
+  - { type: child_of, target: person/ogedei-khan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/ogedei-khan, note: "Acclaimed Great Khan in 1246 after the regency of his mother Toregene.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: ruler_of, target: polity/mongol-empire, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: opposed, target: person/batu-khan, note: "The two were enemies from the Russian campaign; open conflict was averted only by Guyuk's death in 1248.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-4
+  canon: "Encyclopaedia of Islam, 2nd ed.: no article under his name; passages in Batu (vol. 1 pp. 1165-1166), Mongols (vol. 7 p. 258), Toregene Khatun (vol. 10 p. 602), Caghatay Khanate (vol. 2 p. 17), Kuriltay (vol. 5 p. 536), Nizariyya in Supplement (vol. 12 p. 706), Ulus (vol. 10 p. 869)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "كيوك خان خان مغولي عظيم حكم نحو سنتين وكان على خلاف مع ابن عمه باتو."
+  en: "Guyuk was a Great Khan of the Mongols who ruled for about two years and quarrelled with his cousin Batu."
+  ur: "گیوک منگولوں کے عظیم خان تھے جنہوں نے تقریباً دو سال حکومت کی اور اپنے چچا زاد باتو سے ان بن رہی۔"

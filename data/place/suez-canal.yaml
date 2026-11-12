@@ -1,0 +1,29 @@
+id: place/suez-canal
+class: place
+kind: site
+label: { ar: "قناة السويس", en: "Suez Canal", ur: "نہرِ سویز" }
+summary:
+  ar: "قناة بحرية تربط البحر المتوسط بالبحر الأحمر عبر برزخ السويس. منح سعيد باشا الامتياز لفرديناند دي لسبس في 5 كانون الثاني 1856م، وتأسست شركة القناة في باريس سنة 1858م، وبدأ الحفر في 22 نيسان 1859م، وافتُتحت القناة في 16 تشرين الثاني 1869م بطول 164 كم وعرض 52 م. وباع الخديوي إسماعيل أسهمه لبريطانيا، وضمنت اتفاقية القسطنطينية سنة 1888م حرية الملاحة، وأممتها الحكومة المصرية في 26 تموز 1956م {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} {cite:encyclopaedia-of-islam-2 vol. 9 p. 939}."
+  en: "A ship canal joining the Mediterranean to the Red Sea across the Isthmus of Suez. Sa'id Pasha signed the concession to Ferdinand de Lesseps on 5 January 1856, the Suez Canal Company was founded in Paris in 1858, digging began on 22 April 1859, and the canal opened on 16 November 1869 at 164 km long and 52 m wide. Khedive Ismail was forced to sell his shares to the British government, the Convention of Constantinople of 1888 guaranteed freedom of passage, and the Egyptian government nationalised the canal on 26 July 1956 {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} {cite:encyclopaedia-of-islam-2 vol. 9 p. 939}."
+  ur: "ایک بحری نہر جو برزخِ سویز کے پار بحیرۂ روم کو بحیرۂ احمر سے ملاتی ہے۔ سعید پاشا نے 5 جنوری 1856ء کو فرڈیننڈ دی لیسپس کو امتیازی اجازت نامہ دیا، نہر کی کمپنی 1858ء میں پیرس میں قائم ہوئی، کھدائی 22 اپریل 1859ء کو شروع ہوئی، اور نہر 16 نومبر 1869ء کو 164 کلومیٹر لمبائی اور 52 میٹر چوڑائی کے ساتھ کھلی۔ خدیو اسماعیل کو اپنے حصص برطانوی حکومت کو بیچنا پڑے، 1888ء کے معاہدۂ قسطنطنیہ نے آمد و رفت کی آزادی کی ضمانت دی، اور مصری حکومت نے 26 جولائی 1956ء کو اسے قومیا لیا {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} {cite:encyclopaedia-of-islam-2 vol. 9 p. 939}۔"
+wings: [place]
+regions: [egypt-nile]
+relations:
+  - { type: related_to, target: place/suways, note: "Suez became the southern port of entry into the canal", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/red-sea, note: "joins the Red Sea", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/mediterranean-sea, note: "joins the Mediterranean", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/khedive-ismail, note: "forced to sell his canal shares to the British government", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/ismailia, note: "the fresh-water canal from Cairo ran to the Isma'iliyya region", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article al-Suways (R. Schulze), vol. 9, printed pp. 912-913 (PDF pages 938-939)"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-4
+  canon: "EI2 vol. 9, article al-Suways (R. Schulze), PDF pages 938-939. The EI2 has no separate article on the canal."
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "قناة السويس ممر مائي حُفر بين البحرين المتوسط والأحمر، فاختصر طريق السفن بين أوروبا وآسيا."
+  en: "The Suez Canal is a waterway dug between the Mediterranean and the Red Sea, which shortened the ships' route between Europe and Asia."
+  ur: "نہرِ سویز بحیرۂ روم اور بحیرۂ احمر کے درمیان کھودی گئی آبی گزرگاہ ہے جس نے یورپ اور ایشیا کے درمیان جہازوں کا راستہ چھوٹا کر دیا۔"

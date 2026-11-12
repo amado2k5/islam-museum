@@ -1,0 +1,37 @@
+id: person/doquz-khatun
+class: person
+label: { ar: "دقوز خاتون", en: "Doquz Khatun", ur: "دقوز خاتون" }
+names:
+  - { kind: alternate, lang: en, value: "Dokuz Khatun" }
+  - { kind: alternate, lang: en, value: "Dokuz Khātūn" }
+  - { kind: alternate, lang: ar, value: "دوكوز خاتون" }
+summary:
+  ar: "دقوز خاتون زوجة الإلخان هولاكو المفضلة، وكانت نصرانية نسطورية، وتوفيت سنة 663هـ/1265م. وبحسب دائرة المعارف الإسلامية رعت النصارى في دولة هولاكو، وأعانت اليعاقبة، وساعدت على كسب نصارى الشام إلى جانب الإلخانيين. وعند سقوط بغداد سنة 656هـ/1258م وقع الإبقاء على النصارى ومن لجأ إليهم من المسلمين بإلحاحها، ومُنح الجاثليق دار الدويدار ودار الفلك ورباطاً للنساء، وتذكر الدائرة أن هذه السياسة جاءت أحياناً على حساب المسلمين {cite:encyclopaedia-of-islam-2 vol. 3 p. 601} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1155} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1027}."
+  en: "Doquz Khatun was the favourite wife of the Ilkhan Hulegu, a Nestorian Christian, who died in 663/1265. According to the Encyclopaedia of Islam she favoured Christians in Hulegu's realm, helped the Jacobites, and helped win the Christians of Syria to the Ilkhan's cause. At the fall of Baghdad in 656/1258 the Christians, and the Muslims who took refuge with them, were spared at her insistence, and the Catholicos was given the caliphal palaces of Dar al-Duwaydar and Dar al-Falak and a women's ribat; the article adds that her favour sometimes came at the expense of Muslims {cite:encyclopaedia-of-islam-2 vol. 3 p. 601} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1155} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1027}."
+  ur: "دقوز خاتون ایل خان ہلاکو کی چہیتی بیوی اور نسطوری عیسائی تھیں، اور 663ھ/1265ء میں فوت ہوئیں۔ دائرۃ المعارف الاسلامیہ کے مطابق انہوں نے ہلاکو کی سلطنت میں عیسائیوں کی سرپرستی کی، یعقوبیوں کی مدد کی اور شام کے عیسائیوں کو ایل خان کے حق میں جیتنے میں مدد دی۔ 656ھ/1258ء میں بغداد کے سقوط کے وقت ان کے اصرار پر عیسائیوں اور ان کے پاس پناہ لینے والے مسلمانوں کو بخش دیا گیا، اور جاثلیق کو خلافتی محلات دار الدویدار، دار الفلک اور خواتین کا رباط دیا گیا؛ مضمون کہتا ہے کہ ان کی یہ مہربانی بعض اوقات مسلمانوں کی قیمت پر ہوئی {cite:encyclopaedia-of-islam-2 vol. 3 p. 601} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1155} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1027}."
+gender: female
+roles: [patron]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, levant-iraq]
+faith:
+  - { value: christian, basis: documented, note: "Described as a Nestorian Christian wife of Hulegu {cite:encyclopaedia-of-islam-2 vol. 7 p. 1027}" }
+died: { edtf: "1265", hijri: "0663", calendar: julian, precision: year, status: historical, derived: true, note: "The article on the Ilkhans gives only the year, 1265 {cite:encyclopaedia-of-islam-2 vol. 3 p. 1155}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: spouse_of, target: person/hulagu, note: "His favourite wife {cite:encyclopaedia-of-islam-2 vol. 3 p. 1155}.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/sack-of-baghdad-656, role: "Interceded for the Christians and for Muslims sheltering with them", note: "{cite:encyclopaedia-of-islam-2 vol. 7 p. 1027}", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: polity/ilkhanate, note: "Her patronage shaped the early Ilkhanid policy towards Christians {cite:encyclopaedia-of-islam-2 vol. 3 p. 1155}.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-4
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 3, articles Holago p. 601 and Ilkhans p. 1155; vol. 7, article Nasara pp. 1027 (no article of her own)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "دقوز خاتون زوجة هولاكو، طلبت أن يُحمى النصارى حين سقطت بغداد."
+  en: "Doquz Khatun was Hulegu's wife, who asked that Christians be protected when Baghdad fell."
+  ur: "دقوز خاتون ہلاکو کی بیوی تھیں، جنہوں نے بغداد کے گرنے پر عیسائیوں کی حفاظت کی درخواست کی۔"
