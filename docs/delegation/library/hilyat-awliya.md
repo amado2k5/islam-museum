@@ -774,3 +774,17 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 667 (printed) | 391 | "تفابد أهل أصبهان" (Zayd ibn Akhram's epithet) | garbled in the scan | not given |
 | 667 (printed) | 391 | "تقتصدق" in the saying on the dirham | garbled in the scan | the first saying is given; the garbled one is not |
 | 667 (printed) | 391 | "المصر لا يقبل له حمل" | unclear in the scan | not given |
+
+## Batch 90 (run microsd-books-b90, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 391–392 (full text read before writing). New draft: person/salih-ibn-mihran (printed 668, sequence 669, 10/391–392; laqab "الحكيم" recorded). No existing record of the name.
+- The notice's final saying is cut in the scan at the foot of page 391 ("والإخلاص اليقين" followed by a closing quotation mark); page 392 opens with the printed 669 heading. The record says the scan breaks off there and does not supply the rest.
+- Printed 669 (Abd Allah ibn Khalid, page 392) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 90)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 668 (printed) | 391 | the end of the saying on sincerity | the scan breaks off after "والإخلاص اليقين" | the record says the scan breaks off; no continuation is supplied |
+| 668 (printed) | 391 | "ورحان" (the two kinds of scrupulousness) | the scan has "ورحان" for "ورعان" | read as "ورعان" (two kinds) |
