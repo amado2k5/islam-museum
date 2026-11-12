@@ -29,3 +29,40 @@ The work is in the pull requests; a "no" to any entry is a revert of the named c
 - **What the run found.** The canon's ranking reads Wikipedia language-edition counts from a cache that the script keeps out of git. On launch day Wikidata's query service was rate-limited to one request a minute, so the full selection could not be re-run, and nobody without that cache can re-derive the ranking.
 - **What the run did.** Nothing to the rule. It added a `--floor-only` mode that needs no network and keeps the existing marks and order.
 - **Asked of the founder.** Whether to commit the counts used for a canon run as a dated snapshot beside the script, so the ranking can be re-derived from the repository alone. The counts would still rank and never be written into a record.
+
+## P-4. The review state of the 41 records whose lead was deepened
+
+- **What the run did.** Rewrote the lead section of 41 cornerstone records in Arabic and English. Twenty-eight of them were `status.review: published`, meaning a human had read them. The new leads are AI text that no human has read.
+- **What the run chose.** It left each record's review state as it was and added a provenance note (`lead_deepened`) saying the lead is AI text awaiting a human read, following the precedent on `event/battle-of-badr`, where an AI-added section sits in a published record under an `enriched_by` note. It did not flip 28 published cornerstones to draft.
+- **Why this is the founder's call.** The ruling of 8 November 2026 says AI output enters as draft and no agent promotes it. Read strictly, a published record that now opens with unread AI text should go back to draft. The run did not make that change because it would un-publish the museum's most-read records on an agent's say-so.
+- **Asked of the founder.** Keep the state and the note; or flip the 28 to draft until read; or read the leads (41 short texts, each with a sentence-by-sentence evidence file) and promote them.
+
+## P-5. Canon-first search needs a change the brief does not allow this run to make
+
+- **What the run measured.** On production (the deploy at `8d1b0ef9`) the search page returns the canon record first for 2 of 50 fixed queries. A search for Mecca returns an event of 571 AH; a search for Muhammad returns the record of a tafsir edition.
+- **Why it is not fixed.** Nothing in the search path knows the canon exists. Making it know means touching either the entity page template (one invisible attribute on the title of canon records, read by the search indexer) or the search page's query handling. Both are existing pages, and the brief limits this run to one new section and one link. It also cannot be verified here: the search index needs every page built, and a full build does not fit on this machine.
+- **The smallest change that would do it.** In `site/src/layouts/EntityLayout.astro`, give the page title of a record with `importance` the indexer's weight attribute (`data-pagefind-weight`), higher for importance 1 than 2, for Arabic and English only so that `/ur/` stays byte-identical. Then run `node scripts/fable/o06_search.mjs <UAT url>`. If the weight alone does not carry every query, the next lever is the search page's ranking options (page-length normalisation), which is a change to that page.
+- **Asked of the founder.** Whether to allow that one-attribute change, and to run the search oracle on the UAT build either way: its result on UAT is the true state of statement 6.
+
+## P-6. Registering the Tour where the browser rule asks
+
+- **The standing rule** (6 November 2026) says every browser is exported in the static API, listed in `openapi/v1.json` and `llms.txt`, added to the Explore menu, and entered in `docs/site/browsers.md`, the roadmap, the lanes file and `docs/status.md`.
+- **What the run did.** None of it. Each of those is an existing published file or a shared document, and the brief limits the change to one section and one link. The Tour keeps no records of its own (its manifest is a list of ids of existing records), so nothing is missing from the graph or from search; what is missing is the listing.
+- **Asked of the founder.** Whether to register the Tour as a browser after reviewing it, and whether its manifest should move from `tour/grand-tour.yaml` into the graph as an `exhibit` record (which would add a page under `/ur/` and change several listing pages).
+
+## P-7. Removals the contradiction sweep proposes
+
+- **What the run found.** Seventy cross-record contradictions stand registered because the cited sources cannot settle them (`docs/fable-run/CONTRADICTIONS.md`). For most, the only correction is to remove something: a date from an earlier enrichment pass that the record's own source does not carry, a relation that attaches a person to an event he did not live to see, a narrator written as a participant.
+- **What the run did.** Removed nothing. The founder's standing rule is that every removal is his decision.
+- **Asked of the founder.** To rule on the proposed removals in the register (each entry names the field or relation), and on the larger patterns in `docs/fable-run/NOTICED.md`: the enrichment pass whose dates disagree with their own notes, the record that holds two caliphs, and the probable duplicate records.
+
+## P-8. Predicates the graph is missing
+
+- **What the run found.** Seven cornerstones could not be given a second neighbour, and several could be given fewer than their text supports, because no registered predicate says what the text says: a period to the polities and buildings that define it; an object to the building it belongs to (the Kiswa and the Kaaba); a building to its forerunners; a practice to a related practice (Eid al-Fitr and the fast of Ramadan); a polity to the polity it branched from.
+- **What the run did.** Added no predicate: `schema/predicates.yaml` is a shared schema and a new predicate is a schema change.
+- **Asked of the founder.** Whether to add predicates for these, or to widen the domain and range of `part_of`, so that the remaining dead-end cornerstones can be opened from text they already carry.
+
+## P-9. The Urdu leads
+
+- **What the run did.** Left every file under `content/ur/` untouched, as the brief requires. The Urdu leads of the 41 Tour records are now shorter than, and in places differ from, the Arabic and English.
+- **Asked of the founder.** Who translates the new leads into Urdu, and when.

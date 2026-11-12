@@ -22,20 +22,20 @@ Every Hijri century from the 1st to the 14th holds at least one cornerstone. The
 | event | 76 | 30 | 6 | 31 | 56 | 73 |
 | place | 130 | 30 | 19 | 101 | 120 | 130 |
 | concept | 63 | 30 | 0 | 26 | 53 | 63 |
-| building | 29 | 20 | 0 | 17 | 21 | 25 |
+| building | 29 | 20 | 0 | 15 | 21 | 25 |
 | work | 20 | 15 | 0 | 8 | 12 | 19 |
 | polity | 34 | 12 | 0 | 31 | 32 | 34 |
 | group | 20 | 5 | 4 | 15 | 16 | 20 |
 | practice | 15 | 10 | 0 | 6 | 14 | 15 |
-| object | 12 | 5 | 0 | 11 | 10 | 0 |
+| object | 12 | 5 | 0 | 10 | 10 | 0 |
 | period | 13 | 13 | 0 | 9 | 13 | 13 |
-| **all** | **824** | **271** | **37** | **443** | **526** | **804** |
+| **all** | **824** | **271** | **37** | **440** | **526** | **804** |
 
 "Under 300 words" counts the Arabic prose file, front matter included, and includes the records with none. "No image" means no `media/` record depicts the subject; for prophets and Companions that is the rule, not a gap.
 
 ## Not in the graph yet
 
-Subjects a visitor would look for that have no record under an obvious name (checked on 10 November 2026). Check aliases and labels before creating one: Timur; Osman I; Selim I; Shah Jahan; Aurangzeb; Abd al-Rahman III al-Nasir; Usman dan Fodio; Omar al-Mukhtar; Shah Wali Allah; Firdawsi; Hafiz; Sa'di; al-Idrisi (geographer); Ibn al-Athir; Ibn Jubayr; al-Junayd; Ibn Majid; Piri Reis; the prophets Idris and Hud; Luqman; the Abbasid revolution; Battle of the Zab; Battle of Tours; Las Navas de Tolosa; Battle of Plassey; aqida (as a concept); usul al-fiqh; Ash'ari and Maturidi schools (as concepts); the Mahdi (concept).
+Subjects a visitor would look for that have no record. Each was searched under every spelling listed in `scripts/fable/absences.json` by a verifier whose job was to find it; an earlier version of this list named 31 subjects, and 24 of them turned out to have records under another name (`docs/fable-run/ABSENCES.md`). Still absent: Firdawsi; Ibn Majid; Luqman (a stub only); Battle of Plassey; aqida (as a concept); usul al-fiqh; the Maturidi school (as a concept or group).
 
 ## The list
 
@@ -75,7 +75,7 @@ Marks after a name: ∅ no Arabic prose, ✎ under 300 words, ◌ draft, + edito
 
 ### building — importance 1 (20)
 
-`kaaba`◌ · `prophets-mosque`◌ · `masjid-al-haram`◌ · `al-azhar` · `al-aqsa-mosque`✎◌ · `dome-of-the-rock`✎ · `umayyad-mosque`✎◌ · `taj-mahal`✎ · `great-mosque-cordoba`◌ · `hagia-sophia` · `masjid-quba`✎◌ · `masjid-ibn-tulun` · `sulaymaniyya-mosque`✎◌ · `alhambra`✎◌ · `masjid-sultan-hasan` · `humayun-tomb` · `jami-qayrawan`✎◌ · `hassan-ii-mosque`✎◌ · `masjid-amr-fustat` · `new-mosque-istanbul`✎◌
+`kaaba`◌ · `prophets-mosque`◌ · `masjid-al-haram`◌ · `al-azhar` · `al-aqsa-mosque`✎◌ · `dome-of-the-rock` · `umayyad-mosque`✎◌ · `taj-mahal` · `great-mosque-cordoba`◌ · `hagia-sophia` · `masjid-quba`✎◌ · `masjid-ibn-tulun` · `sulaymaniyya-mosque`✎◌ · `alhambra`✎◌ · `masjid-sultan-hasan` · `humayun-tomb` · `jami-qayrawan`✎◌ · `hassan-ii-mosque`✎◌ · `masjid-amr-fustat` · `new-mosque-istanbul`✎◌
 
 ### building — importance 2 (9)
 
@@ -115,7 +115,7 @@ Marks after a name: ∅ no Arabic prose, ✎ under 300 words, ◌ draft, + edito
 
 ### object — importance 1 (5)
 
-`kiswa`✎ · `al-mushaf-al-azraq` · `mushaf-birmingham`✎◌ · `ardabil-carpet`✎◌ · `minbar-kutubiyya`✎◌
+`kiswa` · `al-mushaf-al-azraq` · `mushaf-birmingham`✎◌ · `ardabil-carpet`✎◌ · `minbar-kutubiyya`✎◌
 
 ### object — importance 2 (7)
 
