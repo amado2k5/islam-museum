@@ -1,0 +1,41 @@
+id: dec-20261112-268
+kind: "decision"
+date: "2026-11-12"
+expires_at: "2027-11-12"
+question_hash: 4fc3e7435bbe
+lane: "omar-abdelkafy"
+class: "content"
+modality: "repo"
+domain: "safety"
+mode: "conservative"
+question: "Sensitivity label for a lecture-series record: work/mawkib-al-nour (Omar Abdelkafy, Assabile, daily Ramadan programme on one or two verses a day) holds the lecturer's own opinions and unchained reports on disputed or practical matters (diet and weight in Ramadan, dress of women in a household, lay remarks on psychology, blessing in provision and the dawn prayer). Set sensitivity: contested on the record and mark each such point as the lecturer's view, per the audio-video harvest method rules 2 and 3 of 25 Oct 2026?"
+options:
+  - "set sensitivity: contested and mark each such point as the lecturer's view"
+  - "no sensitivity label"
+  - "leave the opinion passages out"
+evidence:
+  - "docs/agents/audio-video-harvest.md, 'Include everything, and categorise it', rules 2 and 3 (founder, 25 Oct 2026): opinions and rants are included, labelled as the speaker's view; sensitivity: contested on a record that holds disputed matter"
+  - "docs/decisions/records/dec-20261112-267.yaml (same lane, same rule, work/ajaeb-al-kulub)"
+  - "Reversible: one YAML field and inline labels in three prose files"
+status: decided
+step: rule
+decision: "harvest inclusively: any intelligible topic is included, contested windows are included as the speaker said them, opinions/rants are categorised by closest fit, garbled windows are discarded and reported — nothing silently dropped"
+confidence: 0.85
+reversible: true
+rationale: "Answered by a standing repository rule (rule-harvest-include): founder harvest rulings 25 Oct 2026 (docs(harvest) commits)."
+rule: "founder harvest rulings 25 Oct 2026 (docs(harvest) commits)"
+rule_id: "rule-harvest-include"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-harvest-include
+chain:
+  depth: 0
+  root_id: "rule:rule-harvest-include"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "576da99fff5ac1a2"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-harvest-include"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

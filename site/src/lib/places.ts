@@ -8,6 +8,7 @@ import {
   PLACES_TAG, PLACES_SECTIONS, placeSectionOf, placeCorpusOf,
   type PlaceSection, type PlaceCorpus,
 } from "../../../scripts/places";
+import { browserSlugs } from "../../../scripts/browser-slugs";
 import type { Node } from "../../../scripts/build-graph";
 
 export { PLACES_SECTIONS, type PlaceSection } from "../../../scripts/places";
@@ -55,7 +56,14 @@ export const placesItems: PlacesItem[] = realNodes
     return r || a.node.id.localeCompare(b.node.id);
   });
 
-export const placesBySlug = new Map(placesItems.map((i) => [i.node.slug ?? i.node.id.split("/")[1], i]));
+/** The browser slug of each record, keyed by node id — the one place a page URL is decided.
+ *  It is the record's own slug; when a place and a building share a slug, the later one takes
+ *  its class as a prefix (scripts/browser-slugs.ts). The same slug serves every language, so the page routes, the cards
+ *  that link to them and the language switch all agree. */
+export const placesSlugById = browserSlugs(placesItems.map((i) => i.node));
+export const placesSlugOf = (i: PlacesItem): string => placesSlugById.get(i.node.id)!;
+
+export const placesBySlug = new Map(placesItems.map((i) => [placesSlugOf(i), i]));
 
 /** The passages that mention this record, grouped by corpus: Qur'an ayahs first by sura/aya,
  *  then sunnah, seerah and other books in id order. */

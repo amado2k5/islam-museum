@@ -9,17 +9,11 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, summaryRaw, stripNeedsSource } from "../../../lib/graph";
 import { renderProse, newHonState } from "../../../lib/markdown";
-import { placesItems, passagesOf, relatedOf } from "../../../lib/places";
+import { placesItems, placesSlugOf, passagesOf, relatedOf } from "../../../lib/places";
 
 export function getStaticPaths() {
-  const seen = new Set<string>();
   return LANGS.flatMap((lang) =>
-    placesItems.flatMap((i) => {
-      let slug = i.node.slug ?? i.node.id.split("/")[1];
-      if (seen.has(slug)) slug = `${i.node.class}-${slug}`;
-      seen.add(slug);
-      return [{ params: { lang, slug }, props: { lang, item: i } }];
-    }),
+    placesItems.map((i) => ({ params: { lang, slug: placesSlugOf(i) }, props: { lang, item: i } })),
   );
 }
 const { lang, item } = Astro.props as { lang: Lang; item: (typeof placesItems)[number] };
@@ -67,7 +61,7 @@ const reportSections = (["sunnah", "seerah", "books"] as const)
   .filter((s) => s.list.length > 0);
 const desc = stripNeedsSource(summaryRaw(n, lang)).replace(/\{cite:[^}]*\}/g, "").replace(/\[\[([a-z]+\/[a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_m, _id, c) => c ?? "").slice(0, 240);
 ---
-<BaseLayout lang={lang} title={title} description={desc} path={`/${lang}/places/${(item.node.slug ?? n.id.split("/")[1])}/`}>
+<BaseLayout lang={lang} title={title} description={desc} path={`/${lang}/places/${placesSlugOf(item)}/`}>
   <div class="wrap" style="padding-block:10px 20px">
     <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem">
       <a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/places/`}>{N.title}</a> › {sectionTitle}

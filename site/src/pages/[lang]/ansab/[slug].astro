@@ -10,17 +10,11 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, summaryRaw, stripNeedsSource, edgesFrom } from "../../../lib/graph";
 import { renderProse, newHonState } from "../../../lib/markdown";
-import { ansabSubjects, passagesOfCorpus, relatedOf, ANSAB_PROPHET_CHAIN } from "../../../lib/ansab";
+import { ansabSubjects, ansabSlugById, passagesOfCorpus, relatedOf, ANSAB_PROPHET_CHAIN } from "../../../lib/ansab";
 
 export function getStaticPaths() {
-  const seen = new Set<string>();
   return LANGS.flatMap((lang) =>
-    ansabSubjects.flatMap((s) => {
-      let slug = s.node.slug ?? s.node.id.split("/")[1];
-      if (seen.has(slug)) slug = `${s.node.class}-${slug}`;
-      seen.add(slug);
-      return [{ params: { lang, slug }, props: { lang, item: s } }];
-    }),
+    ansabSubjects.map((s) => ({ params: { lang, slug: ansabSlugById.get(s.node.id)! }, props: { lang, item: s } })),
   );
 }
 const { lang, item } = Astro.props as { lang: Lang; item: (typeof ansabSubjects)[number] };
@@ -71,9 +65,11 @@ const reportSections = (["sunnah", "seerah", "books"] as const)
   .map((k) => ({ id: `pc-${k}`, key: k, list: corpus[k] as any[] }))
   .filter((s) => s.list.length > 0);
 const desc = stripNeedsSource(summaryRaw(n, lang)).replace(/\{cite:[^}]*\}/g, "").replace(/\[\[([a-z]+\/[a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_m, _id, c) => c ?? "").slice(0, 240);
-const ansabSlug = (id: string) => { const t = byId.get(id); return t ? `/${lang}/ansab/${t.slug ?? id.split("/")[1]}/` : href(lang, id); };
+// A relative that is a browser subject links to its browser page; any other record (a parent or
+// child the browser has no page for) links to its entity page.
+const ansabSlug = (id: string) => { const s = ansabSlugById.get(id); return s ? `/${lang}/ansab/${s}/` : href(lang, id); };
 ---
-<BaseLayout lang={lang} title={title} description={desc} path={`/${lang}/ansab/${(item.node.slug ?? n.id.split("/")[1])}/`}>
+<BaseLayout lang={lang} title={title} description={desc} path={`/${lang}/ansab/${ansabSlugById.get(n.id)}/`}>
   <div class="wrap" style="padding-block:10px 20px">
     <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem">
       <a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/ansab/`}>{N.title}</a> › {sectionTitle}
