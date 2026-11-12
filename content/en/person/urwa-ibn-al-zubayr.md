@@ -3,6 +3,7 @@ id: person/urwa-ibn-al-zubayr
 lang: en
 source_lang: en
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 53–54", note: "section added to earlier prose" }
 ---
 ## Overview
 Urwa ibn al-Zubayr ibn al-Awwam, son of [[person/zubayr-ibn-al-awwam|al-Zubayr ibn al-Awwam]] {cite:futuh-buldan-maarif-1407}. The Encyclopaedia of Islam describes him as an eminent traditionist, one of the Seven Jurists of [[place/medina|Medina]], and the founder of historical study in Islam. It says he was born in Medina, very probably in 23/643-4, and died there, probably in 93/711-2 or 94/712-13. {cite:encyclopaedia-of-islam-2 vol. 10 p. 966}

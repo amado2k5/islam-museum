@@ -3,6 +3,7 @@ id: person/urwa-ibn-al-zubayr
 lang: ur
 source_lang: en
 translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 53–54", note: "section added to earlier prose" }
 ---
 ## خلاصہ
 عروہ بن زبیر بن عوام، [[person/zubayr-ibn-al-awwam|زبیر بن عوام]] کے بیٹے تھے۔ {cite:futuh-buldan-maarif-1407} انسائیکلوپیڈیا آف اسلام انہیں ایک ممتاز محدث، مدینہ کے سات فقہاء میں سے ایک اور اسلام میں تاریخی مطالعے کا بانی قرار دیتا ہے۔ اس کے مطابق وہ غالباً 23ھ/643-644ء میں [[place/medina|مدینہ]] میں پیدا ہوئے اور غالباً 93ھ/711-712ء یا 94ھ/712-713ء میں وہیں وفات پائی۔ {cite:encyclopaedia-of-islam-2 vol. 10 p. 966}

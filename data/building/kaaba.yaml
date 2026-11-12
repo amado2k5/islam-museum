@@ -13,8 +13,9 @@ class: building
 kind: shrine
 label: { en: "The Kaaba", ar: "الكعبة" }
 summary:
-  en: "The House whose foundations Ibrahim and Ismail raised at Mecca; it was a raised mound before the building, then the sanctuary toward which Arabia’s tribes came — custodied successively by Ismail’s line, Jurhum, Khuzaʾa and finally Quraysh under Qusayy."
-  ar: "البيت الذي رفع إبراهيم وإسماعيل قواعده بمكة؛ كان مرتفعاً كالرابية قبل البناء، ثم صار حرماً تفد إليه قبائل الجزيرة، تولّت سدانته ذرية إسماعيل ثم جرهم ثم خزاعة ثم قريش منذ قصي."
+  ar: "الكعبة أشهر مقدسات الإسلام وهي بيت الله في وسط المسجد الحرام بمكة، ويتجه إليها المسلمون في صلاتهم ويطوف بها الحجاج. يرى المسلمون أن إبراهيم وإسماعيل رفعا قواعدها، وتقول دائرة المعارف الإسلامية إن المعروف تاريخياً عنها قليل خارج الروايات الإسلامية، وإن التاريخ الأوضح يبدأ بإعادة بناء قريش، ثم بناء ابن الزبير سنة 64هـ/683م، ثم ردّ الحجاج لها إلى شكلها السابق سنة 74هـ/693م. وتعرض المقالة كذلك حجرها الأسود وكسوتها وحرمها ومكانتها عند المتصوفة وقراءة تاريخية لدين مكة قبل الإسلام."
+  en: "The Kaaba is the most famous sanctuary of Islam, the House of God at the centre of the great mosque of Mecca, toward which Muslims pray and around which pilgrims circle. Muslims understand Ibrahim and Ismail to have raised its foundations; the Encyclopaedia of Islam says little is known historically outside Muslim tradition, with firmer history beginning with the Quraysh rebuilding, then Ibn al-Zubayr's rebuilding in 64/683 and al-Hajjaj's return to the earlier form in 74/693. The article also covers its Black Stone, covering, sacred zone, Sufi views and a historical reading of Mecca's religion before Islam."
+  ur: "کعبہ اسلام کا سب سے مشہور مقدس مقام اور مکہ کی بڑی مسجد کے وسط میں بیت اللہ ہے، جس کی طرف مسلمان نماز پڑھتے ہیں اور جس کا طواف حاجی کرتے ہیں۔ مسلمان سمجھتے ہیں کہ ابراہیم اور اسماعیل نے اس کی بنیادیں اٹھائیں؛ دائرۃ المعارف اسلامیہ کہتی ہے کہ مسلم روایات کے باہر تاریخی طور پر کم معلوم ہے، اور واضح تاریخ قریش کی تعمیر نو سے، پھر سنہ 64ھ/683ء میں ابن زبیر کی تعمیر اور سنہ 74ھ/693ء میں حجاج کی سابقہ شکل کی بحالی سے شروع ہوتی ہے۔ مقالہ حجر اسود، غلاف، حرم، صوفیہ کے خیالات اور اسلام سے پہلے مکہ کے دین کی تاریخی قراءت بھی بیان کرتا ہے۔"
 wings: [objects]
 periods: [period/pre-islamic-arabia, period/prophetic-era]
 regions: [arabia]
@@ -22,7 +23,7 @@ themes: [sacred-space-and-pilgrimage]
 relations:
   - { type: located_in, target: place/mecca }
 external_ids: {   wikidata: "Q29466", tei: "38,849" , archnet: "3790" }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/muhadarat-tarikh-al-umam-al-islamiyya, source/tei-epigraphie, source/archnet]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/muhadarat-tarikh-al-umam-al-islamiyya, source/tei-epigraphie, source/archnet, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
 provenance:
@@ -31,3 +32,4 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch10"
+  canon: "EI2 vol. 4, article Ka'ba, PDF pages 335-340, written by Claude Sonnet 5.5, run canon-cornerstones-18"
