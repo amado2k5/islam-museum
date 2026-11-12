@@ -12,8 +12,9 @@ class: event
 kind: siege
 label: { en: "The Conquest of Khaybar", ar: "غزوة خيبر" }
 summary:
-  en: "In Muharram 7 AH (May-June 628 CE), the Prophet marched with 1,400 companions of Hudaybiyya against the formidable Jewish oasis of Khaybar; following fierce assaults and the capture of eight major fortresses (including Na'im, al-Sa'b ibn Mu'adh, al-Zubayr, Ubayy, and al-Qamus), the Jewish leaders surrendered and agreed to cultivate the land for half of its produce."
-  ar: "في المحرم سنة 7هـ ⁦(مايو 628م)⁩، سار النبي في ألف وأربعمائة من أصحاب بيعة الرضوان لفتح واحة خيبر المنيعة؛ فحوصرت حصونها الثمانية حصناً حصناً حتى فتحها الله على يدي علي بن أبي طالب بقتله مرحباً، ونزل أهل خيبر على الصلح بحقن دمائهم ومزارعة أرضهم على نصف ما يخرج من ثمر وزرع. وفي صحيح مسلم رواية سهل بن سعد وسلمة بن الأكوع لحديث الراية: «لأعطين هذه الراية رجلاً يفتح الله على يديه، يحب الله ورسوله ويحبه الله ورسوله» {cite:sahih-muslim 2405}."
+  ar: "في المحرم سنة 7هـ، مايو ويونيو 628م، سار النبي محمد إلى واحة خيبر التي تبعد نحو 150 كيلومتراً عن المدينة، فحاصر المسلمون حصونها واحداً بعد آخر حتى استسلم اليهود على أن يبقوا في أرضهم ويدفعوا نصف غلتها. وتعرض دائرة المعارف الإسلامية دوافع الحملة عند كايتاني ومونتغمري وات وهيكل، منسوبة إلى أصحابها، وتذكر أن عمر بن الخطاب راجع هذا الترتيب سنة 20هـ. وتجعل المقالة أهمية الحدث في الاتفاق نفسه الذي رسم نمط العلاقة بين المسلمين والشعوب غير المسلمة التي حكموها."
+  en: "In Muharram 7 AH, May to June 628 CE, the Prophet Muhammad marched on the oasis of Khaybar, about 150 km from Medina. The Muslims besieged its strongholds one after another until the Jewish inhabitants capitulated and agreed to stay on their land and hand over half its produce. The Encyclopaedia of Islam reports the motives given by Caetani, Montgomery Watt and Haykal, each attributed to its author, and notes that Umar revised the arrangement in 20 AH. It locates the event's importance in the pact itself, which set the pattern for relations between Muslims and the non-Muslim peoples they later ruled."
+  ur: "محرم 7 ھ یعنی مئی جون 628ء میں نبی محمد مدینہ سے تقریباً 150 کلومیٹر دور نخلستان خیبر کی طرف روانہ ہوئے۔ مسلمانوں نے اس کے قلعوں کا ایک کے بعد ایک محاصرہ کیا یہاں تک کہ یہودی باشندوں نے ہتھیار ڈالے اور اپنی زمین پر رہنے اور اس کی آدھی پیداوار دینے پر راضی ہوئے۔ دائرۃ المعارف اسلامیہ کایتانی، منٹگمری واٹ اور ہیکل کے بیان کردہ محرکات ان کے ناموں سے نقل کرتا ہے اور بتاتا ہے کہ عمر نے بیس ہجری میں اس انتظام پر نظر ثانی کی۔ مضمون اس واقعے کی اہمیت خود معاہدے میں دیکھتا ہے جس نے مسلمانوں اور بعد میں ان کے زیر حکومت آنے والی غیر مسلم اقوام کے تعلقات کا انداز طے کیا۔"
 wings: [time]
 themes: [battles, wars-and-campaigns]
 periods: [period/prophetic-era]
@@ -46,7 +47,7 @@ map:
   features:
     - { type: point, role: landmark, label: { ar: "واحة خيبر — ثمانية حصون في منطقتين: النطاة والشق، والكتيبة ⁦(القموص والوطيح والسلالم)⁩", en: "The Khaybar oasis: eight forts in two districts, al-Natah and al-Shiq, and al-Katiba (al-Qamus, al-Watih, al-Salalim)" }, at: [25.70, 39.29], precision: approximate, source: source/mubarakpuri-raheeq }
 external_ids: { wikidata: "Q565661" }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1, source/assabile-abla-al-kahlawi]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1, source/assabile-abla-al-kahlawi, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 364–379" }
 provenance:
@@ -55,3 +56,4 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch7"
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 4, article Khaybar, PDF pages 1189-1194, written by Claude Sonnet 5.5, run canon-cornerstones-19"

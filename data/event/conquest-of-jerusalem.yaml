@@ -3,8 +3,9 @@ class: event
 kind: conquest
 label: { ar: "فتح بيت المقدس", en: "Conquest of Bayt al-Maqdis (Jerusalem)" }
 summary:
-  ar: "قدم عمر بن الخطاب الجابية، فخرج إليه أهل إيلياء طالبين الأمان، فصالحوه على الجزية وفتحوا المدينة له. وأشار عليه يهودي كان يسأله عن الدجال بأن لا يرجع حتى يفتح الله إيلياء {cite:tabari-tarikh-abu-al-fadl j.3 p.607}. وفهرس الجزء يضع الذكر في سنة خمس عشرة، صفحات 607 إلى 613 {cite:tabari-tarikh-abu-al-fadl j.3 p.632}."
-  en: "Umar ibn al-Khattab came to al-Jabiya; the people of Iliya came out to him seeking safe-conduct, made peace with him on payment of the jizya, and opened the city to him. A Jewish man who used to question him about the Dajjal advised him not to turn back until God had opened Iliya to him {cite:tabari-tarikh-abu-al-fadl j.3 p.607}. The volume's index places the account under the year 15, pages 607 to 613 {cite:tabari-tarikh-abu-al-fadl j.3 p.632}."
+  ar: "سلّم أهل إيلياء المدينة للمسلمين في عهد عمر بن الخطاب، بصلح على الجزية، وتختلف المصادر في من تلقّى التسليم وفي نص المعاهدة وفي السنة. تذكر دائرة المعارف الإسلامية أن أقدم الروايات تجعل الصلح مع قائد قبلي قليل الشهرة هو خالد بن ثابت الفهمي، وتصف روايات زيارة عمر وشروط العهدة العمرية بأنها متأخرة ولا يوثق بها. وفي رواية الطبري قدم عمر الجابية فخرج إليه أهل إيلياء طالبين الأمان {cite:tabari-tarikh-abu-al-fadl j.3 p.607}، ويضع فهرس الجزء الثالث الخبر في سنة خمس عشرة {cite:tabari-tarikh-abu-al-fadl j.3 p.632}، وتضعه المقالة في مطلع سنة 638م، أي آخر 16هـ أو أول 17هـ."
+  en: "The people of Iliya surrendered the city to the Muslims in the time of Umar ibn al-Khattab, making peace on payment of the jizya; the sources differ on who received the surrender, on the treaty text and on the year. The Encyclopaedia of Islam says the oldest accounts make the peace with a little-known tribal commander, Khalid ibn Thabit al-Fahmi, and calls the stories of Umar's visit and the terms of the Covenant of Umar later and unreliable. In al-Tabari, Umar came to al-Jabiya and the people of Iliya went out to him seeking safe-conduct {cite:tabari-tarikh-abu-al-fadl j.3 p.607}; the volume's index places the account under the year 15 {cite:tabari-tarikh-abu-al-fadl j.3 p.632}, while the encyclopaedia dates the fall to early 638, the end of 16 or beginning of 17 AH."
+  ur: "عمر بن الخطاب کے زمانے میں ایلیاء کے لوگوں نے جزیے پر صلح کر کے شہر مسلمانوں کے حوالے کیا؛ ماخذ اس میں مختلف ہیں کہ سپردگی کس نے قبول کی، معاہدے کا متن کیا تھا اور سال کون سا تھا۔ دائرۃ المعارف اسلامیہ کے مطابق قدیم ترین روایات میں صلح ایک کم معروف قبائلی سالار خالد بن ثابت فہمی سے ہوئی، اور عمر کی آمد اور عہدِ عمری کی شرائط کی روایات متاخر اور ناقابلِ اعتماد ہیں۔ طبری کے ہاں عمر الجابیہ آئے تو ایلیاء کے لوگ امان مانگتے ہوئے نکلے {cite:tabari-tarikh-abu-al-fadl j.3 p.607}؛ جلد کی فہرست اسے سنہ 15 کے تحت رکھتی ہے {cite:tabari-tarikh-abu-al-fadl j.3 p.632}، جبکہ دائرۃ المعارف سقوط کو 638ء کے آغاز، یعنی 16ھ کے اختتام یا 17ھ کے آغاز، میں رکھتا ہے."
 wings: [time]
 themes: [conquest-and-its-debates, sacred-space-and-pilgrimage]
 periods: [period/rashidun]
@@ -29,9 +30,10 @@ map:
   features:
     - { type: point, role: event_point, label: { ar: "فتح بيت المقدس", en: "Conquest of Bayt al-Maqdis (Jerusalem)" }, at: [31.78, 35.24], precision: locality, source: source/farghani-elements-astronomy }
   sources: [source/farghani-elements-astronomy]
-sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-al-sham-ilmiyya-1997-v1]
+sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-al-sham-ilmiyya-1997-v1, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
+  canon: "EI2 vol. 5.1 article al-Kuds (history, section 4-6), PDF pages 360-363, and vol. 2 Ahl al-dhimma PDF p. 242, written by Claude Sonnet 5.5, run canon-cornerstones-19"
   generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 1; enriched by Claude Code (OCR-harvest worker J)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04

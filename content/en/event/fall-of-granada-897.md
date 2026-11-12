@@ -1,8 +1,8 @@
 ---
 id: event/fall-of-granada-897
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
 On the second of Rabi al-Awwal 897 AH the Castilians entered the Alhambra, after the last of the Nasrid sultans, [[person/boabdil-muhammad-xii|Abu Abd Allah]], handed over [[place/granada|Granada]] under documents of sixty-seven conditions. {cite:nafh-tib-maqqari p.529-531}
@@ -18,6 +18,36 @@ The Castilians took about five hundred notables as pledges. The sultan went down
 Al-Maqqari reports that the Christians broke the conditions one after another, until they forced the Muslims to convert to Christianity in 904 AH. The people of the Bayyazin rose against the rulers and killed them, villages that refused were wiped out, and the people of the mountain of Balanqa came out under safe conduct to Fez. {cite:nafh-tib-maqqari p.529-531}
 
 The date of the event is converted from the Hijri date. {cite:nafh-tib-maqqari p.530}
+
+## The last years of the Nasrid kingdom, according to the Encyclopaedia of Islam
+
+The article on the Nasrids in the Encyclopaedia of Islam, second edition, places the surrender at the end of a long decline of the dynasty that ruled the [[polity/emirate-of-granada|kingdom of Granada]]. It calls the history of the final decades a tangle and treats it only in outline, and it says that the last decade of Nasrid rule is involved and in some respects enigmatic. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082}
+
+### The war of the Catholic Monarchs
+
+The article says that after the death of Juan II the crown of Aragon passed to Ferdinand, husband of Isabel of Castile, and that the Treaty of Alcáçobas of 4 September 1479 put her throne on a firmer footing and ended the civil war in [[polity/castile|Castile]]. The Catholic Monarchs could then turn to Granada and the Reconquest. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1081} In February 1482 the taking of [[place/alhama-granada|Alhama]], which commanded the main road from Granada to Málaga and Ronda, was the first major step towards the final Christian victory. The sultan [[person/abu-al-hasan-nasrid|Abu al-Hasan Ali]] failed to recover it between February and July, but in mid-July his rout of forces before [[place/loja|Loja]] dashed Castilian hopes of an easy passage. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1081}
+
+### Divided rulers
+
+At this point, the article says, a palace plot hatched by the leader of the Banu al-Sarraj faction and by the powerful Yusuf Ibn Kumasha replaced Abu al-Hasan with his son Abu Abd Allah Muhammad, who is Muhammad XII, known in Castilian sources as Boabdil. Unable to regain Granada, the father left with his brother Muhammad ibn Sa'd, called [[person/al-zaghal|al-Zaghal]], for [[place/malaga|Málaga]], which he made his capital, so that the kingdom was split between Granada and Almería in the east and Ronda and Málaga in the west. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1081} Boabdil then struck rashly at [[place/lucena|Lucena]], deep in Castile, lost first-class officers in the retreat and was himself captured, which allowed his father to return to Granada. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1081}
+
+The article adds that some regarded the returning father as lawful king and others did not. When a stroke incapacitated him early in 1485 he was replaced by al-Zaghal and taken to [[place/almunecar|Almuñécar]], where he died. The article notes that al-Zaghal can be counted as Muhammad XIII, since the anonymous chronicle Nubdhat al-Asr says that he took the kingship after his brother, and that in October 1483 most of the Granadan jurists had by fatwa denied Boabdil's right to the throne. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1081} The Catholic Monarchs' king, it says, was in the end Boabdil, and it was he who formally surrendered Granada to them on 2 January 1492. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082}
+
+### The kingdom shrinks
+
+By then the kingdom had become a shadow of its former self. The article lists towns that passed into Christian hands one after another, among them [[place/ronda|Ronda]], [[place/velez-malaga|Vélez-Málaga]], Málaga after hard fighting in 1487, [[place/vera|Vera]] in 1488, and [[place/baza|Baza]], [[place/purchena|Purchena]], [[place/almeria|Almería]], Almuñécar, Salobreña and [[place/guadix|Guadix]]. Al-Zaghal gave up Almería and Guadix in return for a tiny semi-autonomous principality in the Alpujarras, sold all his lands in 1490 and sailed for Oran. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082}
+
+### Boabdil after the surrender
+
+According to the article, Boabdil held rights as a Mudéjar under the Capitulations of Granada. He left his old capital for his country estates, stayed on for a while and then left for the Maghrib. He died in 949/1533-4 and was buried in [[place/fez|Fez]], where his descendants were found living in penury in 1027/1617-18. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082}
+
+### Why the kingdom fell
+
+The article gives several causes, which it describes as only adumbrated. It judges that the Catholic Monarchs were able to tackle internal dissension and unite most of their subjects behind a common cause, whereas the Nasrids failed to resolve family quarrels and factional strife. Even outside the palace a united front could not be guaranteed, because the cultivators and the influential jurists did not always coincide. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082}
+
+The most damaging split, in its judgement, was between Boabdil and al-Zaghal, which in 1486 made Granada itself the scene of bloody fighting. Boabdil was the more valuable to Castile as a vacillator but a ready collaborator, while al-Zaghal was by far the better soldier and a staunch defender of Islam's interests until, perhaps despairing of Boabdil, he gave up and left him to his own devices. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082}
+
+Castile, the article says, exploited every visible division and moved gradually into military superiority by keeping an army in the field and deploying its artillery ever more efficiently. It pursued a war of attrition, systematically devastating cultivated land outside the walls to wear down enemy morale. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1083} The Maghrib, which in earlier times had supplied reinforcements, could no longer do so because of its own decadence and weakness. When Mamluk Egypt was asked for aid in 1487, the article says, it had nothing more to offer than diplomatic intervention and goodwill, being no naval match for Christian Spain, and from then on the fall of the Nasrid kingdom was only a matter of time. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1083} Heroism, of which the last years offered striking examples, was in the article's words no substitute for such reinforcements. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1083}
 
 ## In Tareq al-Suwaidan's programme "History Taught Me"
 [[person/tariq-al-suwaidan|Tareq al-Suwaidan]] tells the last months of Granada at the end of episode 6 and in episode 7 of his programme [[work/allamani-al-tarikh-program|"History Taught Me"]], and treats its fall as the end of the Muslim state in al-Andalus {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep06 00:16:30} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep07 00:13:30}.

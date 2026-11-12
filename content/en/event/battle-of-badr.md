@@ -1,8 +1,8 @@
 ---
 id: event/battle-of-badr
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Summary
@@ -27,6 +27,34 @@ Surat al-Anfal was revealed as a whole in commentary on Badr. Its subjects inclu
 ## Significance
 The book describes Badr as the first decisive battle of Islam. It defeated the leadership of Quraysh that had driven the Muslims out. After it, [[person/abdullah-ibn-ubayy|Abdullah ibn Ubayy]] and those with him embraced Islam outwardly, and the tribes around Medina were struck with terror {cite:mubarakpuri-raheeq p.229-233}. Historians from outside the tradition see Badr as the turning point from a persecuted community to a regional power that negotiates and fights {cite:watt-1956-medina}.
 
+## The place and its sources: the Encyclopaedia of Islam
+The article on Badr in the Encyclopaedia of Islam, second edition, was written by the historian W. Montgomery Watt. It describes [[place/badr|Badr]] as a small town south-west of [[place/medina|Medina]], a night's journey from the coast, at the junction of a road from Medina with the caravan route from [[place/mecca|Mecca]] to Syria. It lies in a plain about 8 km long and 4 km broad, ringed by steep hills and sand-dunes {cite:encyclopaedia-of-islam-2 vol. 1 p. 924}.
+
+The article places the battle on 17, 19 or 21 Ramadan 2 AH, which it converts to 13, 15 or 17 March 624. It says the early sources hold a wealth of detail, yet it is hard to give a clear account of the battle and of the events that led up to it. It reports that the earliest and most reliable version is generally held to be a letter from [[person/urwa-ibn-al-zubayr|Urwa ibn al-Zubayr]] to the caliph [[person/abd-al-malik-ibn-marwan|Abd al-Malik]], preserved by al-Tabari, and adds that even this letter contains some material that seems doubtful {cite:encyclopaedia-of-islam-2 vol. 1 p. 924} {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}. The museum notes that the Muslim tradition, followed in the sections above, fixes the day as 17 Ramadan.
+
+## The academic account of the battle, as the Encyclopaedia of Islam tells it
+This section gives the view of one modern academic article, labelled as such. It is a reconstruction by its author, and it differs from the tradition in some details; it gives no verdict between them.
+
+On this account, Muhammad learned that a rich caravan led by [[person/abu-sufyan-ibn-harb|Abu Sufyan ibn Harb]], chief of the clan of Umayya, was returning from Syria to Mecca. He gathered a force of slightly over 300 men, about 80 of them Emigrants and the rest [[group/ansar|Ansar]], and marched toward Badr hoping to intercept it {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}. Abu Sufyan had asked Mecca for a force to protect the caravan on the stretch easily reached from Medina. The article observes that the Meccans are said to have spent over a week on the road, so the request must have been sent earlier than the sources claim, since they say he sent it only after hearing of Muhammad's preparations {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}.
+
+The Meccan force was commanded by [[person/abu-jahl|Abu Jahl]] of the clan of Makhzum and numbered about 950 men from all the clans of [[group/quraysh|Quraysh]]. Before it reached Badr, a message came from Abu Sufyan that he had slipped past the Muslims by forced marches along a route nearer the coast. Abu Jahl went on regardless, despite the disapproval of some senior men and the withdrawal of the contingents of the clans of [[group/banu-zuhra|Zuhra]] and [[group/banu-adi|Adi]]. The article suggests that he and his supporters thought themselves too strong for Muhammad to dare an attack, and that he wished to make a show of strength {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}.
+
+According to the article, Muhammad seems not to have known of this army until the evening before the battle, when some of his men seized a Meccan water-carrier at the wells. The Meccan camp was still hidden behind a hill. The author suggests that this chance encounter made it easier to persuade all his followers to fight, since withdrawing would then have been dishonourable {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}. Next morning Muhammad moved quickly and took the wells, filling them with sand except the one nearest the enemy, where he posted his men, so that the Meccans had to fight for their water {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}.
+
+Of the fighting itself the article says only that there appear to have been some single combats followed by a general melee. It records that the Meccans were catastrophically defeated: nearly seventy were killed, among them Abu Jahl and about a dozen leaders, and nearly seventy were taken prisoner and later ransomed for considerable sums, while only about fifteen Muslims were killed {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}. The Muslim tradition above counts fourteen Muslim dead; the two figures are given here as each source states them.
+
+## Consequences: two readings in the Encyclopaedia of Islam
+The article sets two kinds of reading side by side. For Mecca, it calls the result a disaster that was not crippling. The loss of many leading men was grave, but perhaps the most serious aspect was the loss of prestige, and recovering it required punishing Muhammad {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}.
+
+For the Muslims, the article says, Badr seemed a vindication of their faith, brought about for them by God, and they believed that He had sent angels to their aid. It adds that Muhammad spent much time in prayer and received assurances of victory, and that the Muslims saw the outcome as the punishment long foretold for those who rejected the message. The article cites passages of Surat al-Anfal for these points {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}. This is the Muslim understanding, and it is the one the sections above follow.
+
+The article then adds its own academic judgements, attributed to its author. He accepts a suggestion by the scholar Richard Bell that the word furqan, applied to Badr, means deliverance from judgement. He holds that the victory confirmed the Muslims in their faith and led them to exaggerate their own importance, an exaggeration that produced a spiritual crisis after the reverse at [[event/battle-of-uhud|Uhud]]. He judges that from this time Muhammad was in a much stronger position in Medina, and that the self-confidence and prestige the victory brought were factors without which Islam could hardly have developed as it did {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}.
+
+The article also notes that those who fought at Badr as Muslims, the Badriyyun, came to be regarded as an aristocracy of merit, and that in most versions of the register of [[person/umar-ibn-al-khattab|Umar]] they formed the highest class {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}.
+
+## The second expedition to Badr
+The article adds that Muhammad undertook a second expedition to Badr in Sha'ban or Dhu al-Qa'da 4 AH, which it converts to January or April 626, in keeping with a promise given to Abu Sufyan as he withdrew from Uhud. Both Muhammad and the Meccans had much larger forces, but there was no fighting {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}. It also mentions that Badr is described by Arabian geographers such as Yaqut, al-Bakri, al-Muqaddasi and al-Mas'udi, and that the traveller J. L. Burckhardt examined the site with the battle in mind {cite:encyclopaedia-of-islam-2 vol. 1 p. 925}.
+
 ## For young visitors
 Three hundred men set out following a caravan, and met an army of a thousand. They camped at the water of Badr and waited for the attacks, row by row, until their leader ordered the attack. They were victorious, and they returned to Medina on a day that later became a festival.
 
@@ -35,6 +63,13 @@ The details of the mobilisation before the battle, the Prophet's departure in pu
 
 ## After the battle (The Sealed Nectar, pp. 222–233)
 The details of the dead, the captives, the spoils, and news of Mecca and Medina are in the card [[event/badr-aftermath|After Badr]], as is the revelation of Surat al-Anfal concerning the spoils {cite:mubarakpuri-raheeq p.228} {cite:mubarakpuri-raheeq p.231}.
+
+## Ali's account, as al-Sallabi relates it
+Al-Sallabi presents [[person/ali-ibn-abi-talib|Ali]]'s account of the Battle of Badr, transmitted from Harithah ibn Mudarrib. The Prophet set out for Badr, and the Muslims reached the well ahead of the idolaters. There they found two men from the enemy: one was a Qurashi who escaped, and the other was a freedman of Uqba ibn Abi Mu'ayt, who was seized {cite:sallabi-ali-vol1 p. 78}. The freedman said that the enemy were many and fierce in strength, and then told the Prophet that they slaughtered ten camels every day. The Prophet said: "The enemy are a thousand, and each camel is for a hundred" {cite:sallabi-ali-vol1 p. 78}.
+
+The Prophet spent the night calling on his Lord, on a night when it rained. At dawn he led the people in prayer and urged them to fight, and he said that Quraysh's host was beneath the red crag of the mountain {cite:sallabi-ali-vol1 p. 78} {cite:sallabi-ali-vol1 p. 79}. When the Prophet saw a man on a red camel urging the people on, he said: "If there is anyone among the people who commands good, perhaps it is the owner of the red camel." Then [[person/hamza|Hamza]] came and said that it was [[person/utba-ibn-rabia|Utba ibn Rabi'a]], who was discouraging the people from fighting {cite:sallabi-ali-vol1 p. 79}. When Utba, Shayba and al-Walid came out to duel, the Prophet said: "Stand up, Ali; stand up, Hamza; and stand up, [[person/ubayda-ibn-al-harith|Ubayda]]" {cite:sallabi-ali-vol1 p. 79}.
+
+Al-Sallabi's book then states that seventy of the idolaters were killed and seventy captured, and that Abbas was among the captives, [[event/badr-prisoners|prisoners of Badr]] {cite:sallabi-ali-vol1 p. 79}. It also mentions the killing of [[person/talha-ibn-abi-talha|Talha ibn Abi Talha]], the standard-bearer of the idolaters, and the verse of poetry that al-Hajjaj ibn Alat al-Sulami composed about him {cite:sallabi-ali-vol1 p. 79} {cite:sallabi-ali-vol1 p. 80}.
 
 ## For Sprouts
 In Ramadan of the second year after the Hijra, the battle of Badr was fought. It was the first big meeting between the Muslims and Quraysh, and the Muslims won by God's help.
