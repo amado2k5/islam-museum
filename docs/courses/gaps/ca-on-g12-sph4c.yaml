@@ -1,0 +1,372 @@
+course: course/ca-on-g12-sph4c
+gaps:
+- code: A1.1
+  text: formulate relevant scientific questions about observed relationships, ideas, problems, or issues, make informed predictions, and/or formulate educated hypotheses to focus inquiries or research
+  why: 'Skills expectation: names no subject matter.'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: select appropriate instruments […] and materials […], and identify appropriate methods, techniques, and procedures, for each inquiry
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.3
+  text: identify and locate a variety of print and electronic sources that enable them to address research topics fully and appropriately
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.4
+  text: apply knowledge and understanding of safe laboratory practices and procedures when planning investigations by correctly interpreting Workplace Hazardous Materials Information System (WHMIS) symbols; by using appropriate techniques for handling and storing laboratory equipment and materials and disposing of laboratory materials …
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.5
+  text: conduct inquiries, controlling relevant variables, adapting or extending procedures as required, and using appropriate materials and equipment safely, accurately, and effectively, to collect observations and data
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.6
+  text: compile accurate data from laboratory and other sources, and organize and record the data, using appropriate formats, including tables, flow charts, graphs, and/or diagrams
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.7
+  text: select, organize, and record relevant information on research topics from a variety of appropriate sources, including electronic, print, and/or human sources, using suitable formats and an accepted form of academic documentation
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.8
+  text: synthesize, analyse, interpret, and evaluate qualitative and/or quantitative data; solve problems using quantitative data; determine whether the evidence supports or refutes the initial prediction or hypothesis and whether it is consistent with scientific theory; identify sources of bias and/or error …
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.9
+  text: analyse the information gathered from research sources for logic, accuracy, reliability, adequacy, and bias
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.10
+  text: draw conclusions based on inquiry results and research findings, and justify their conclusions with reference to scientific knowledge
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.11
+  text: communicate ideas, plans, procedures, results, and conclusions orally, in writing, and/or in electronic presentations, using appropriate language and a variety of formats […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.12
+  text: use appropriate numeric […], symbolic, and graphic modes of representation […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.13
+  text: express the results of any calculations involving data accurately and precisely, to the appropriate number of decimal places or significant figures
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A2.1
+  text: identify and describe a variety of careers related to the fields of science under study […] and the education and training necessary for these careers
+  why: The expectation asks for careers in the fields of science under study and the education and training they need. The museum holds no record on a physics or technology career or on its training.
+  searches:
+  - 'find_entity.py "engineer" "مهندس" "technician" "career": 19 hits; person/al-jazari-engineer is the only physics-related person, the rest are unrelated names or career events of other scholars'
+  - 'entity_brief.py person/al-jazari-engineer: records a court engineer''s service and patronage and no training or education path, so there is nothing to restate on the education a career needs'
+- code: B1.1
+  text: analyse the design and uses of a transportation technology […], and evaluate its social and environmental impact, including the impact on risk behaviour and accident rates [AI, C]
+  why: The expectation is about a transportation technology and its social and environmental impact. The museum holds no record on a vehicle or a transport technology.
+  searches:
+  - 'find_entity.py "ship" "boat" "سفينة" "transport" "car" "vehicle": 21 hits; concept/earth-rotation-ship-analogy is a debate about motion, the rest are fatwas on cars, a grain shipment and unrelated names; no record on a transport technology'
+  - 'find_entity.py "robot" "روبوت" "automaton" "مؤتمت": only invention/jazari-musical-boat, an entertainment automaton that carries no passenger or cargo, so it is not a transportation technology'
+- code: B1.2
+  text: analyse how technologies are used to track the motion of objects, and outline various kinds of scientific knowledge gained through the use of such technologies […] [AI, C]
+  why: The expectation is about technologies that track the motion of objects (animal migration, ocean currents, celestial objects). The museum holds no record on a tracking technology.
+  searches:
+  - 'find_entity.py "speed" "velocity" "motion" "حركة": 20 hits, none a tracking technology; the records on the heavens'' motion are concepts, not instruments that track objects'
+  - 'find_entity.py "clock" "ساعة" "water clock": the hits are Jazari''s clocks, which measure time and do not track the motion of objects; no record on tracking technology'
+- code: B2.1
+  text: 'use appropriate terminology related to motion, including, but not limited to: distance, displacement, position, speed, acceleration, instantaneous, force, and net force [C]'
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: &id002
+  - 'find_entity.py "speed" "velocity" "motion" "حركة": 20 hits, all political or religious movements, plus the heavens'' motion and the ship analogy; no record on speed, velocity or acceleration of objects'
+  - 'find_entity.py "acceleration" "تسارع" "uniform motion" "freefall" "سقوط": 63 hits, all falls of cities and rulers; no record on falling bodies or acceleration'
+  - 'find_entity.py "Newton" "نيوتن" "law of motion" "inertia" "قصور": no record on Newton or the laws of motion (the hits are palaces and two source records on calculus)'
+- code: B2.2
+  text: plan and conduct investigations to measure distance and speed for objects moving in one dimension in uniform motion [IP, PR]
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B2.3
+  text: plan and conduct investigations to measure constant acceleration for objects moving in one dimension [IP, PR]
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B2.4
+  text: draw distance–time graphs, and use the graphs to calculate average speed and instantaneous speed of objects moving in one dimension [PR, AI, C]
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B2.5
+  text: draw speed–time graphs, and use the graphs to calculate average acceleration and distance of objects moving in one dimension [PR, AI, C]
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B2.6
+  text: solve simple problems involving one-dimensional average speed (vav), distance (Δd), and elapsed time (Δt), using the algebraic equation vav = Δd/Δt [AI]
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B2.7
+  text: solve simple problems involving one-dimensional average acceleration (aav), change in speed (Δv), and elapsed time (Δt) using the algebraic equation aav = Δv/Δt [AI]
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B2.8
+  text: plan and conduct an inquiry to determine the relationship between the net force acting on an object and its acceleration in one dimension [IP, PR, AI]
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B2.9
+  text: analyse, in quantitative terms, the forces acting on an object, and use free-body diagrams to determine net force and acceleration of the object in one dimension [AI, C]
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B2.10
+  text: conduct an inquiry to measure gravitational acceleration, and calculate the percentage error of the experimental value [PR, AI, C]
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B3.1
+  text: distinguish between constant, instantaneous, and average speed, and give examples of each involving uniform and non-uniform motion
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B3.2
+  text: describe the relationship between one-dimensional average speed (vav), distance (Δd), and elapsed time (Δt)
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B3.3
+  text: describe, in quantitative terms, the relationship between one-dimensional average acceleration (aav), change in speed (Δv), and elapsed time (Δt)
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B3.4
+  text: state Newton’s laws, and apply them qualitatively and quantitatively to explain the motion of an object in one dimension
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: B3.5
+  text: explain the relationship between the acceleration of an object and the net unbalanced force acting on that object
+  why: The expectation is about measuring or calculating motion, force and acceleration. The museum holds no record on the kinematics or dynamics of objects that a connection could restate.
+  searches: *id002
+- code: C1.1
+  text: analyse advantages and disadvantages of friction within mechanical systems in real-world situations, as well as methods used to increase or reduce friction in these systems […] [AI, C]
+  why: The expectation is about friction in mechanical systems and ways to raise or lower it. The museum holds no record on friction.
+  searches:
+  - 'find_entity.py "friction" "احتكاك": no real record'
+  - 'find_entity.py "gear" "ترس" "gears" "geared": only a modern gear-tooth image and its Commons record; no record on friction in moving parts'
+- code: C1.2
+  text: evaluate, on the basis of research, the effectiveness of a common mechanical system in addressing a social or environmental challenge […] [IP, PR, AI, C]
+  why: The expectation is about a mechanical system that addresses a social or environmental challenge (prosthetics, lifts, heating). The museum holds no record on such a system.
+  searches:
+  - 'find_entity.py "engineer" "مهندس" "technician" "career": no record of a prosthetic, lift or heating system'
+  - 'find_entity.py "automaton" "automata" "آلة": 28 hits; Jazari''s devices serve court display and water supply, and no record is about a system that meets a social or environmental challenge'
+- code: C2.1
+  text: 'use appropriate terminology related to mechanical systems, including, but not limited to: coefficients of friction, torque, mechanical advantage, work input, and work output [C]'
+  why: The expectation is about friction, forces and their terminology. The museum holds no record on friction, torque or the forces on an object.
+  searches: &id003
+  - 'find_entity.py "friction" "احتكاك": no real record'
+  - 'find_entity.py "torque" "lever arm" "mechanical advantage" "balance beam" "قبان" "قرسطون": no real record'
+- code: C2.2
+  text: analyse, in qualitative and quantitative terms, the forces […] acting on an object in one dimension, and describe the resulting motion of the object [AI, C]
+  why: The expectation is about friction, forces and their terminology. The museum holds no record on friction, torque or the forces on an object.
+  searches: *id003
+- code: C2.3
+  text: use an inquiry process to determine the factors affecting static and kinetic friction, and to determine the corresponding coefficient of friction between an everyday object and the surface with which it is in contact [PR, AI]
+  why: The expectation is about friction, forces and their terminology. The museum holds no record on friction, torque or the forces on an object.
+  searches: *id003
+- code: C2.4
+  text: use an inquiry process to determine the relationships between force, distance, and torque for the load arm and effort arm of levers [IP, PR, AI]
+  why: The expectation is about levers, torque, mechanical advantage or constructing a machine with measured results. The museum holds no record on levers, torque or the measurement of mechanical advantage.
+  searches: &id004
+  - 'find_entity.py "lever" "رافعة" "pulley": 10 hits; the water-lifters of al-Jazari (رافعة means lifter), a mosque named for a crane and a fatwa on financial leverage; no record on levers or pulleys as machines'
+  - 'find_entity.py "torque" "lever arm" "mechanical advantage" "balance beam" "قبان" "قرسطون": no real record'
+  - 'find_entity.py "trebuchet" "منجنيق" "mangonel": event/bira-siege-674 tells a duel of catapults and its result and does not describe how a catapult is built or measured'
+- code: C2.5
+  text: solve problems involving torque, force, load-arm length, and effort-arm length as they relate to the three classes of levers [AI]
+  why: The expectation is about levers, torque, mechanical advantage or constructing a machine with measured results. The museum holds no record on levers, torque or the measurement of mechanical advantage.
+  searches: *id004
+- code: C2.6
+  text: investigate, in quantitative terms, common machines […] with respect to input and output forces and mechanical advantage [PR]
+  why: The expectation is about levers, torque, mechanical advantage or constructing a machine with measured results. The museum holds no record on levers, torque or the measurement of mechanical advantage.
+  searches: *id004
+- code: C2.7
+  text: construct a simple or compound machine, and determine its mechanical advantage […] [PR, AI]
+  why: The expectation is about levers, torque, mechanical advantage or constructing a machine with measured results. The museum holds no record on levers, torque or the measurement of mechanical advantage.
+  searches: *id004
+- code: C3.3
+  text: explain, with reference to force and displacement, the conditions necessary for work to be done
+  why: The expectation is about the conditions for work to be done and the concept of mechanical advantage. The museum holds no record that explains work, force and displacement or mechanical advantage.
+  searches: &id005
+  - 'find_entity.py "energy" "طاقة" "mill": passages, a fatwa on energy stones and Grade 6 course records; no record on work or mechanical advantage'
+  - 'find_entity.py "torque" "lever arm" "mechanical advantage" "balance beam" "قبان" "قرسطون": no real record'
+- code: C3.4
+  text: explain the concept of mechanical advantage
+  why: The expectation is about the conditions for work to be done and the concept of mechanical advantage. The museum holds no record that explains work, force and displacement or mechanical advantage.
+  searches: *id005
+- code: D1.1
+  text: evaluate, on the basis of research, the impact on society and the environment of the evolution of an electrical technology […] [IP, PR, AI, C]
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: &id006
+  - 'find_entity.py "electricity" "كهرباء": only the museum''s own Grade 6 course records'
+  - 'find_entity.py "electric current" "تيار كهربائي" "circuit" "Ohm": 4 hits, the events shown are military circuits of a governor and a conquest; no record on electric circuits'
+  - 'find_entity.py "magnet" "مغناطيس" "magnetic" "compass": a drafting compass, and place/magnetic-temple-china, which retells one tale of magnetic stones and describes no field or force'
+  - 'find_entity.py "magnetism" "lodestone" "حجر المغناطيس" "magnetic needle" "إبرة": only a cataract needle and an insulin needle'
+- code: D1.2
+  text: assess the impact of an electromagnetic technology that is used for the benefit of society or the environment […] [AI, C]
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D2.1
+  text: 'use appropriate terminology related to electricity and magnetism, including, but not limited to: direct current, alternating current, electrical potential difference, resistance, power, energy, permanent magnet, electromagnet, magnetic field, motor principle, and electric motor [C]'
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D2.2
+  text: construct real and simulated mixed direct current (DC) circuits (i.e., parallel, series, and mixed circuits), and analyse them in quantitative terms to test Kirchhoff’s laws [PR, AI]
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D2.3
+  text: analyse, in quantitative terms, real or simulated DC circuits and circuit diagrams, using Ohm’s law and Kirchhoff’s laws [AI]
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D2.4
+  text: conduct an inquiry to determine the magnetic fields produced by a permanent magnet, a straight current-carrying conductor, and a solenoid, and illustrate their findings [PR, AI, C]
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D2.5
+  text: conduct an inquiry to determine the direction of the magnetic field of a straight current-carrying conductor or solenoid [PR, AI]
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D2.6
+  text: conduct an inquiry to determine the direction of the forces on a straight current-carrying conductor that is placed in a uniform magnetic field [PR, AI]
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D2.7
+  text: construct, or deconstruct and explain the components of, a basic electric device […] [PR, C]
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D3.1
+  text: compare and contrast the behaviour and functions of series, parallel, and mixed DC circuits
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D3.2
+  text: state Kirchhoff’s laws and Ohm’s law, and use them to explain, in quantitative terms, direct current, potential difference, and resistance in mixed circuit diagrams
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D3.3
+  text: identify and explain safety precautions related to electrical circuits in the school, home, and workplace […]
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D3.4
+  text: describe, with the aid of an illustration, the magnetic field produced by permanent magnets (bar and U-shaped) and electromagnets (straight conductor and solenoid)
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D3.5
+  text: explain the law of magnetic poles
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D3.6
+  text: distinguish between conventional current and electron flow
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D3.7
+  text: state Oersted’s principle, and apply the right-hand rule to explain the direction of the magnetic field produced when electric current flows through a long, straight conductor and through a solenoid
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D3.8
+  text: state the motor principle, and use the right-hand rule to explain the direction of the force experienced by a conductor
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D3.9
+  text: explain, using diagrams, the components and operation of a DC electric motor
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: D3.10
+  text: compare and contrast direct current and alternating current (AC) in qualitative terms […], and describe situations in which each is used
+  why: The expectation is about electric circuits, magnetic fields or an electrical technology. The museum holds no record on electricity or magnetism.
+  searches: *id006
+- code: E1.1
+  text: analyse an energy-transformation technology […], and evaluate its impact on society and the environment [AI, C]
+  why: The expectation is about energy, its transformation, efficiency or the sustainability of an energy technology. The museum holds no record on energy as a physical quantity or on an energy-transformation technology other than the two water-driven machines used in lesson E-1.
+  searches: &id007
+  - 'find_entity.py "energy" "طاقة" "mill": passages, a fatwa on energy stones and Grade 6 course records; no record on energy or its transformations'
+  - 'find_entity.py "heat engine" "steam" "بخار" "turbine" "solar" "شمس طاقة": no record on engines, turbines or solar power (the hits are a fever hadith, solar eclipses and astronomical tables for the sun)'
+  - 'find_entity.py "windmill" "طاحونة الهواء" "wind": concept/wind has no prose; the other hits are the wind of Aad and a dragon-wind over Baghdad'
+- code: E1.2
+  text: propose a course of practical action to improve the sustainability of an energy-transformation technology […] [PR, AI, C]
+  why: The expectation is about energy, its transformation, efficiency or the sustainability of an energy technology. The museum holds no record on energy as a physical quantity or on an energy-transformation technology other than the two water-driven machines used in lesson E-1.
+  searches: *id007
+- code: E2.1
+  text: 'use appropriate terminology related to energy and energy transformations, including, but not limited to: work, gravitational potential energy, kinetic energy, chemical energy, energy transformations, and efficiency [C]'
+  why: The expectation is about energy, its transformation, efficiency or the sustainability of an energy technology. The museum holds no record on energy as a physical quantity or on an energy-transformation technology other than the two water-driven machines used in lesson E-1.
+  searches: *id007
+- code: E2.2
+  text: use the law of conservation of energy to solve problems involving gravitational potential energy, kinetic energy, and thermal energy [AI]
+  why: The expectation is about energy, its transformation, efficiency or the sustainability of an energy technology. The museum holds no record on energy as a physical quantity or on an energy-transformation technology other than the two water-driven machines used in lesson E-1.
+  searches: *id007
+- code: E2.3
+  text: construct a simple device that makes use of energy transformations […], and use it to investigate transformations between gravitational potential energy and kinetic energy [PR]
+  why: The expectation is about energy, its transformation, efficiency or the sustainability of an energy technology. The museum holds no record on energy as a physical quantity or on an energy-transformation technology other than the two water-driven machines used in lesson E-1.
+  searches: *id007
+- code: E2.4
+  text: design and construct a complex device that integrates energy transformations […], and analyse its operation in qualitative and quantitative terms [IP, PR, AI]
+  why: The expectation is about energy, its transformation, efficiency or the sustainability of an energy technology. The museum holds no record on energy as a physical quantity or on an energy-transformation technology other than the two water-driven machines used in lesson E-1.
+  searches: *id007
+- code: E2.5
+  text: investigate a simple energy transformation […], explain the power and output, and calculate the energy [PR, AI, C]
+  why: The expectation is about energy, its transformation, efficiency or the sustainability of an energy technology. The museum holds no record on energy as a physical quantity or on an energy-transformation technology other than the two water-driven machines used in lesson E-1.
+  searches: *id007
+- code: E3.1
+  text: describe and compare various types of energy and energy transformations […]
+  why: The expectation is about energy, its transformation, efficiency or the sustainability of an energy technology. The museum holds no record on energy as a physical quantity or on an energy-transformation technology other than the two water-driven machines used in lesson E-1.
+  searches: *id007
+- code: E3.2
+  text: explain the energy transformations in a system […], using principles related to kinetic energy, gravitational potential energy, conservation of energy, and efficiency
+  why: The expectation is about energy, its transformation, efficiency or the sustainability of an energy technology. The museum holds no record on energy as a physical quantity or on an energy-transformation technology other than the two water-driven machines used in lesson E-1.
+  searches: *id007
+- code: E3.4
+  text: compare the efficiency of various systems that produce electricity […], using the law of conservation of energy, and outlining the transformations, transmissions, and energy losses involved
+  why: The expectation is about energy, its transformation, efficiency or the sustainability of an energy technology. The museum holds no record on energy as a physical quantity or on an energy-transformation technology other than the two water-driven machines used in lesson E-1.
+  searches: *id007
+- code: E3.5
+  text: describe a variety of renewable and non- renewable sources of energy […], and identify the strengths and weaknesses of each
+  why: The expectation is about energy, its transformation, efficiency or the sustainability of an energy technology. The museum holds no record on energy as a physical quantity or on an energy-transformation technology other than the two water-driven machines used in lesson E-1.
+  searches: *id007
+- code: F1.2
+  text: analyse some of the social and economic consequences of the use of robotic systems for different kinds of operations […] [AI, C]
+  why: The expectation is about the social and economic consequences of robotic systems. The museum holds no record on robots or industrial automation.
+  searches:
+  - 'find_entity.py "robot" "روبوت" "automaton" "مؤتمت": only invention/jazari-musical-boat, an entertainment automaton with no industrial use'
+  - 'find_entity.py "automaton" "automata" "آلة": 28 hits; Jazari''s devices serve court display and water supply, and no record concerns social or economic consequences of automation'
+- code: F2.2
+  text: draw simple hydraulic or pneumatic circuits [C]
+  why: The expectation is about fluid pressure, Pascal's and Bernoulli's principles, laminar flow or the drawing, building and calculation of fluid circuits. The museum holds no record on fluid statics or dynamics; its two pumps are used in lesson F-1 only for their parts and their history.
+  searches: &id008
+  - 'find_entity.py "pressure" "ضغط" "Pascal" "buoyancy" "طفو": a fasting fatwa and three records on Pascal''s triangle; no record on fluid pressure or Pascal''s principle'
+  - 'find_entity.py "fluid" "laminar" "flow" "جريان" "Bernoulli": only three fiqh records on bodily fluids; no record on fluid flow'
+  - 'find_entity.py "siphon" "سيفون" "water pressure": al-Mada''in and the battle of Ctesiphon, named by sound alone; no record on siphons'
+- code: F2.3
+  text: use an inquiry process to determine factors that affect the static pressure head in fluids, compare theoretical and empirical values, and account for discrepancies [IP, PR, AI]
+  why: The expectation is about fluid pressure, Pascal's and Bernoulli's principles, laminar flow or the drawing, building and calculation of fluid circuits. The museum holds no record on fluid statics or dynamics; its two pumps are used in lesson F-1 only for their parts and their history.
+  searches: *id008
+- code: F2.4
+  text: conduct a laboratory inquiry or computer simulation to demonstrate Pascal’s principle [PR]
+  why: The expectation is about fluid pressure, Pascal's and Bernoulli's principles, laminar flow or the drawing, building and calculation of fluid circuits. The museum holds no record on fluid statics or dynamics; its two pumps are used in lesson F-1 only for their parts and their history.
+  searches: *id008
+- code: F2.5
+  text: use an inquiry process to determine the relationships between force, area, pressure, volume, and time in a hydraulic or pneumatic system […] [IP, PR, AI]
+  why: The expectation is about fluid pressure, Pascal's and Bernoulli's principles, laminar flow or the drawing, building and calculation of fluid circuits. The museum holds no record on fluid statics or dynamics; its two pumps are used in lesson F-1 only for their parts and their history.
+  searches: *id008
+- code: F2.6
+  text: solve problems related to the relationships between force, area, pressure, volume, and time in hydraulic and pneumatic systems […] [AI]
+  why: The expectation is about fluid pressure, Pascal's and Bernoulli's principles, laminar flow or the drawing, building and calculation of fluid circuits. The museum holds no record on fluid statics or dynamics; its two pumps are used in lesson F-1 only for their parts and their history.
+  searches: *id008
+- code: F2.7
+  text: design and construct a hydraulic or pneumatic system […], solving problems as they arise, and evaluate the system with respect to mechanical advantage and efficiency [IP, PR, AI]
+  why: The expectation is about fluid pressure, Pascal's and Bernoulli's principles, laminar flow or the drawing, building and calculation of fluid circuits. The museum holds no record on fluid statics or dynamics; its two pumps are used in lesson F-1 only for their parts and their history.
+  searches: *id008
+- code: F2.8
+  text: conduct an inquiry to demonstrate Bernoulli’s principle […] [PR]
+  why: The expectation is about fluid pressure, Pascal's and Bernoulli's principles, laminar flow or the drawing, building and calculation of fluid circuits. The museum holds no record on fluid statics or dynamics; its two pumps are used in lesson F-1 only for their parts and their history.
+  searches: *id008
+- code: F3.1
+  text: identify factors affecting static pressure head […], analyse static pressure head in quantitative terms, and explain its effects in liquids and gases
+  why: The expectation is about fluid pressure, Pascal's and Bernoulli's principles, laminar flow or the drawing, building and calculation of fluid circuits. The museum holds no record on fluid statics or dynamics; its two pumps are used in lesson F-1 only for their parts and their history.
+  searches: *id008
+- code: F3.2
+  text: state Pascal’s principle, and explain its applications in the transmission of forces in fluid systems
+  why: The expectation is about fluid pressure, Pascal's and Bernoulli's principles, laminar flow or the drawing, building and calculation of fluid circuits. The museum holds no record on fluid statics or dynamics; its two pumps are used in lesson F-1 only for their parts and their history.
+  searches: *id008
+- code: F3.4
+  text: describe factors affecting laminar flow, and explain how the design of an item or organism […] responds to these factors
+  why: The expectation is about fluid pressure, Pascal's and Bernoulli's principles, laminar flow or the drawing, building and calculation of fluid circuits. The museum holds no record on fluid statics or dynamics; its two pumps are used in lesson F-1 only for their parts and their history.
+  searches: *id008
+- code: F3.5
+  text: state Bernoulli’s principle, and explain some of its applications […]
+  why: The expectation is about fluid pressure, Pascal's and Bernoulli's principles, laminar flow or the drawing, building and calculation of fluid circuits. The museum holds no record on fluid statics or dynamics; its two pumps are used in lesson F-1 only for their parts and their history.
+  searches: *id008

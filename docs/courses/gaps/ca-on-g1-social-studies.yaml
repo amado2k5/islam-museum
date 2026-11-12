@@ -1,0 +1,150 @@
+course: course/ca-on-g1-social-studies
+gaps:
+- code: A1.1
+  text: describe how and why a person’s roles, relationships, and responsibilities, in relation to others and to the environment, may change in different places or situations and at different times […]
+  why: Asks how and why a person's roles and responsibilities change in different places and times; the museum's family records state duties, not how a child's role changes.
+  searches:
+  - 'find_entity.py "family" "أسرة" "roles" "parents" "الوالدين": only concept/huquq-al-walidayn and practice/birr-al-walidayn, which state duties toward parents, not how roles change'
+  - 'find_entity.py "childhood" "طفولة" "child" "growing up": no record on a child''s growing responsibilities (concept/janin is the unborn child)'
+- code: A1.3
+  text: compare some of the significant events in their own lives and/or the lives of their family members with those in the lives of their peers
+  why: Asks the student to compare significant events in their own life with those of peers; the object is the student's own life, not a subject of the museum.
+  searches:
+  - 'find_entity.py "childhood" "طفولة" "child" "growing up": no record on a child''s life events'
+  - 'find_entity.py "self" "identity" "هوية": only records on self-admiration and self-delusion; none on a child''s life'
+- code: A1.4
+  text: describe the impact that people can have on each other in some different situations […] and some of the ways in which interactions between people can affect a person’s sense of self
+  why: Asks how people's interactions affect each other and a person's sense of self; no record describes this.
+  searches:
+  - 'find_entity.py "friendship" "صداقة" "sharing" "كرم": concept/friendship covers the meaning of friendship, the law''s encouragement of it and eating at a friend''s house, not how interactions shape a person''s sense of self; concept/karam is generosity'
+  - 'find_entity.py "self" "identity" "هوية": only records on self-admiration and self-delusion; nothing on the effect of others on a person''s sense of self'
+- code: A1.5
+  text: identify some of the ways in which First Nations, Métis, and Inuit individuals and communities are reclaiming and revitalizing aspects of their identity that were lost or taken away due to colonization, including the residential school system […], and the role …
+  why: Asks about First Nations, Métis and Inuit reclaiming identity after colonization and residential schools; the museum holds no record on these peoples.
+  searches:
+  - 'find_entity.py "Indigenous" "السكان الأصليين" "First Nations" "Métis": no real record'
+  - 'find_entity.py "residential school" "colonization" "الاستعمار": only period/colonial-era, a general period record, not about Canada or its peoples'
+- code: A2.1
+  text: formulate questions to guide investigations into some aspects of the interrelationship between events, people, and/or places in their lives and their own roles, relationships, responsibilities, and identity/sense of self […]
+  why: 'skills expectation: names no subject matter'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: gather and organize information on significant events, people, and/or places in their lives that contribute or have contributed to the development of their roles, relationships, responsibilities, and identity/sense of self […], using primary and/or secondary sources that they have located themselves …
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.3
+  text: analyse and construct simple maps as part of their investigations into places that are significant to them or to their family […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.4
+  text: interpret and analyse information relevant to their investigations, using a variety of tools […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.5
+  text: evaluate evidence and draw conclusions about some aspects of the interrelationship between events, people, and/or places in their lives and their own roles, relationships, responsibilities, and identity/sense of self
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.6
+  text: communicate the results of their inquiries, using appropriate vocabulary […] and formats […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.1
+  text: describe some of their own roles, relationships, and responsibilities […]
+  why: Asks the student to describe their own roles and responsibilities; the object is the student's own life.
+  searches:
+  - 'find_entity.py "family" "أسرة" "roles" "parents" "الوالدين": records on duties toward parents only; none on a child''s own roles'
+  - 'find_entity.py "pet" "cat" "قطة": concept/cat has no prose; concept/cat-in-hadith and concept/hirr-fiqh are about the cat in hadith and fiqh, not a child''s roles'
+- code: A3.3
+  text: demonstrate an understanding of simple chronology by identifying and organizing chronologically some significant events related to their personal experience […]
+  why: Asks the student to put events of their own life in order (simple chronology); the object is the student's own life.
+  searches:
+  - 'find_entity.py "timeline" "chronology" "تسلسل زمني": only a source record on a chronology of interpolation; nothing usable'
+  - 'find_entity.py "childhood" "طفولة" "child" "growing up": no record on stages of a child''s life'
+- code: B2.1
+  text: formulate questions to guide investigations into some aspects of the interrelationship between people and the natural and built features of their community, with a focus on some of the short- and long-term effects of this interrelationship […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B2.2
+  text: gather and organize information on the interrelationship between people and the natural and built features of their community, and on the effects of this interrelationship, using sources that they have located themselves or that have been provided to them […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B2.4
+  text: interpret and analyse information and data relevant to their investigations, using a variety of tools […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B2.5
+  text: evaluate evidence and draw conclusions about some aspects of the interrelationship between people and natural and built features of their local community, and some of the effects of this interrelationship
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B2.6
+  text: communicate the results of their inquiries using appropriate vocabulary […] and formats […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B3.1
+  text: identify the traditional Indigenous and treaty territory or territories on which their school is located
+  why: Asks the student to name the Indigenous and treaty territory of their school; the museum holds no record on Canadian Indigenous territories.
+  searches:
+  - 'find_entity.py "Indigenous" "السكان الأصليين" "First Nations" "Métis": no real record'
+  - 'find_entity.py "treaty territory" "Ontario" "أونتاريو" "Canada" "كندا": place/ontario and place/canada exist but have no prose and say nothing on territories'
+- code: B3.2
+  text: identify some of the natural and built features of their community […]
+  why: Asks the student to name natural and built features of their own community; the object is the student's own community.
+  searches:
+  - 'find_entity.py "park" "حديقة" "playground": records of unrelated gardens and tombs; none about a community park'
+  - 'find_entity.py "neighbourhood" "حي" "residential area" "district": no record on community features (place/al-hay is a place stub with no prose)'
+- code: B3.3
+  text: identify some distinct areas in the local community […], and describe some of the characteristics of these areas […]
+  why: Asks the student to identify residential, commercial and other areas of their community and their characteristics; no record describes kinds of areas in a community.
+  searches:
+  - 'find_entity.py "neighbourhood" "حي" "residential area" "district": no record on residential or commercial areas'
+  - 'find_entity.py "market" "سوق" "souq": place/essouk has no prose; the rest are hadith passages and an event; invention/hisba is linked in a lesson but does not describe commercial areas'
+- code: B3.4
+  text: describe the location of some significant places in their community, using relative location […], relative distance […], and relative direction […]
+  why: Asks the student to describe location with relative terms (near, far, left, right); no record teaches this.
+  searches:
+  - 'find_entity.py "direction" "اتجاه" "compass" "qibla" "قبلة": concept/qibla is about the direction of prayer, not relative location'
+  - 'find_entity.py "neighbourhood" "حي" "residential area" "district": no record on describing location'
+- code: B3.6
+  text: demonstrate an understanding of some common non-standard units of measurement […]
+  why: Asks the student to understand non-standard units of measurement (footsteps, tiles, blocks); no record teaches units of measurement.
+  searches:
+  - 'find_entity.py "measurement" "units" "ذراع" "cubit" "footstep": records that mention a cubit inside events and hadith, none on units of measurement'
+  - 'find_entity.py "map" "خريطة" "Idrisi": records on al-Idrisi''s world map, which give distances in miles, not non-standard units'
+- code: B3.7
+  text: demonstrate the ability to construct simple maps of places they have visited, using symbols and non-standard units […]
+  why: Asks the student to construct maps with symbols and non-standard units; the object is the student's own map work.
+  searches:
+  - 'find_entity.py "measurement" "units" "ذراع" "cubit" "footstep": no record on non-standard units'
+  - 'find_entity.py "park" "حديقة" "playground": no record on a local park to map'
+- code: A1.2
+  text: "describe how some significant events in their lives […] led to changes in their roles, relationships, and/or responsibilities"
+  why: "Asks how an event changes a child's roles, relationships or responsibilities; the aqiqa record gives naming, hair-shaving and an animal sacrifice and says nothing of any change of role, and an animal slaughter with its meat distribution is heavy detail for age 6."
+  searches:
+  - "practice/aqiqa: tried for lesson a-1 and removed on review; naming, shaving the hair and slaughtering a victim on the seventh day, with nothing about a change in the child's roles or responsibilities, and detail unsuitable for Grade 1"
+  - "find_entity.py \"naming a child\" \"growing up\" \"birthday\" (re-run on review): concept/tasmiya-naming (rules on names) and practice/mawlid-al-nabi (birthday celebrations of the Prophet); neither describes how a child's own roles or responsibilities change"
+- code: A3.2
+  text: "identify some of the significant people, places, and things in their life, including their life in the community […], and describe their purpose or the role they have"
+  why: "Asks for the purpose or role of a significant place; the record on the Prophet's Mosque gives who owned the site, a price in dinars and the mud-brick foundation in cubits, never says what the mosque is for, and is too hard for age 6."
+  searches:
+  - "building/prophets-mosque: tried for lesson a-1 and removed on review; the owners of the site, a price in dinars and a foundation about three cubits high, with nothing on the purpose of the place"
+  - "find_entity.py \"mosque\" \"place of worship\" \"مسجد\" (re-run on review): found concept/masjid (Mosque) and concept/masjid-umum, not read for this expectation in this fix pass; a later pass may test whether either states a mosque's purpose in terms a six-year-old can use"
+- code: B1.3
+  text: "create a plan that outlines some specific ways in which they can responsibly interact with the built and/or natural environment in the local community […], and describe how their actions might enhance the features of the local environment"
+  why: "Asks for a plan to treat the local environment responsibly and improve it; the hima record is land reserved by the ruler for named herds of one village and says nothing about caring for or improving land."
+  searches:
+  - "concept/hima: tried for lesson b-3 and removed on review; pasture reserved by the ruler for the horse, camel and ox of one village, with a penalty clause, and nothing about caring for or improving the environment"
+  - "find_entity.py \"care for the environment\" \"protecting land\" \"الحفاظ على البيئة\" (re-run on review): no real record"
+- code: B2.3
+  text: "analyse maps, and construct simple maps using appropriate elements, as part of their investigations into the interrelationship between people and significant natural and built features in their community […]"
+  why: "Asks the student to read and construct maps using their elements; the one record tried is a medieval world map (a silver disc, seven climes, seventy maps), which teaches no title, legend, scale or compass and is too hard for age 6."
+  searches:
+  - "invention/tabula-rogeriana: tried for lesson b-4 and removed on review; the record does not teach the parts of a map and offers a silver disc, seven climes and seventy maps"
+  - "find_entity.py \"compass\" \"legend\" \"scale of a map\" \"مقياس الرسم\" (re-run on review): only drafting-compass records and unrelated legends; nothing on the elements of a map"
+- code: B3.5
+  text: "demonstrate an understanding of the basic elements of a map […] when reading and constructing simple maps showing places that are significant to them […]"
+  why: "Asks the student to read a map's elements and a simple map of the local community; the one record tried is a medieval world map that teaches no element of a map a child can use."
+  searches:
+  - "invention/tabula-rogeriana: tried for lesson b-4 and removed on review; the record shows one old world map and no element a six-year-old can read"
+  - "find_entity.py \"compass\" \"legend\" \"scale of a map\" \"مقياس الرسم\" (re-run on review): nothing on the elements of a map"

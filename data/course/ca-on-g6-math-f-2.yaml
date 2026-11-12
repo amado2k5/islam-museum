@@ -1,0 +1,57 @@
+id: course/ca-on-g6-math-f-2
+class: course
+kind: lesson
+label:
+  en: Saving and interest
+  ar: الادخار والفائدة
+  ur: بچت اور شرحِ سود
+summary:
+  en: Financial goals and the steps towards them, and what interest rates and fees are.
+  ar: الأهداف المالية وخطوات تحقيقها، وما أسعار الفائدة والرسوم.
+  ur: مالی اہداف اور ان کی طرف قدم، اور شرحِ سود اور فیسیں کیا ہیں۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g6-math-f
+expectations:
+- code: F1.2
+  text:
+    en: identify different types of financial goals, including earning and saving goals, and outline some key steps in achieving them
+    ar: حدّد أنواعًا مختلفة من الأهداف المالية، ومنها أهداف الكسب والادخار، وأوجز بعض الخطوات الرئيسة لتحقيقها
+    ur: مختلف قسم کے مالی اہداف کی نشان دہی کریں، بشمول کمانے اور بچت کے اہداف، اور انہیں حاصل کرنے کے چند کلیدی مراحل بیان کریں
+- code: F1.4
+  text:
+    en: explain the concept of interest rates, and identify types of interest rates and fees associated with different accounts and loans offered by various banks and other financial institutions
+    ar: اشرح مفهوم أسعار الفائدة، وحدّد أنواع أسعار الفائدة والرسوم المرتبطة بمختلف الحسابات والقروض التي تقدمها المصارف وسائر المؤسسات المالية
+    ur: شرحِ سود کا تصور بیان کریں، اور مختلف بینکوں اور دیگر مالیاتی اداروں کے پیش کردہ مختلف کھاتوں اور قرضوں سے وابستہ شرحِ سود کی اقسام اور فیسوں کی نشان دہی کریں
+connections:
+- position: before
+  kind: reflection
+  title:
+    en: Setting wealth aside for a time of need
+    ar: خبء المال لوقت الحاجة
+    ur: ضرورت کے وقت کے لیے مال محفوظ رکھنا
+  text:
+    ar: تعرّف موسوعة الفقه الكويتية الادخار بأنه خبء المال لوقت الحاجة. ما الذي قد يدّخر لأجله تلميذ، وما الذي يجعله حاجة؟
+    en: The Kuwaiti encyclopaedia of jurisprudence defines saving (idkhar) as setting wealth aside for a time of need. What might a student save for, and what makes it a need?
+    ur: کویتی فقہی انسائیکلوپیڈیا ادخار کو ضرورت کے وقت کے لیے مال محفوظ رکھنا بتاتی ہے۔ ایک طالب علم کس چیز کے لیے بچت کر سکتا ہے، اور اسے ضرورت کیا بناتا ہے؟
+  entity: concept/idkhar-fiqh
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+- position: after
+  kind: reflection
+  title:
+    en: Excess on a debt in return for delay
+    ar: زيادة في الدين مقابل الأجل
+    ur: مدت کے بدلے قرض پر اضافہ
+  text:
+    ar: تعرّف موسوعة الفقه الكويتية الربا بأنه في اللغة الزيادة، وفي اصطلاح الفقهاء زيادة في أحد العوضين في المعاوضة، أو زيادة في الدين مقابل الأجل. وتذكر أن الفقهاء على تحريمه بالكتاب والسنة والإجماع. وهل يشمل هذا التعريف الفائدة في مصرف حديث؟ لا يجيب السجل عن ذلك. أي كلمات في هذا التعريف تقارنها بالطريقة التي يصف بها المصرف الفائدة على القرض؟
+    en: The Kuwaiti encyclopaedia of jurisprudence defines riba as excess in the lexical sense; in the jurists' usage it is an excess on one of two counter-values in an exchange, or an excess on a debt in return for delay. The encyclopaedia says the jurists hold it forbidden by the Qur'an, the Sunna and consensus. Whether this definition covers interest at a modern bank is a question the record does not answer. Which words in this definition would you compare with the way a bank describes interest on a loan?
+    ur: 'کویتی فقہی انسائیکلوپیڈیا ربا کی تعریف یوں کرتی ہے: لغت میں زیادتی، اور فقہاء کے ہاں عوض کے تبادلے میں کسی ایک عوض پر زیادتی، یا مدت کے بدلے قرض پر اضافہ۔ انسائیکلوپیڈیا کے مطابق فقہاء اسے قرآن، سنت اور اجماع سے حرام مانتے ہیں۔ اندراج اس کا جواب نہیں دیتا کہ آیا یہ تعریف آج کے بینک کے سود پر لاگو ہوتی ہے۔ اس تعریف کے کون سے الفاظ کا موازنہ آپ اس طریقے سے کریں گے جس سے بینک قرض پر سود کو بیان کرتا ہے؟'
+  entity: concept/riba-fiqh
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+order: 2

@@ -1,0 +1,252 @@
+course: course/ca-on-g12-hsb4u
+gaps:
+- code: A1.1
+  text: explore a variety of topics related to the analysis of social change […] to identify topics for research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: identify key concepts […] related to their selected topics
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.3
+  text: formulate effective questions to guide their research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.1
+  text: create appropriate research plans to investi­gate their selected topics […], ensuring that their plans follow guidelines for ethical research
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.2
+  text: locate and select information relevant to their investigations from a variety of primary sources […] and/or secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.3
+  text: based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.1
+  text: assess various aspects of information gath­ered from primary and secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.2
+  text: record and organize information and key ideas using a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.3
+  text: analyse and interpret research information […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.4
+  text: demonstrate academic honesty by docu­menting the sources of all information generated through research
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.5
+  text: synthesize findings and formulate conclu­sions […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.1
+  text: use an appropriate format […] to communicate the results of their research and inquiry effectively for a specific purpose and audience
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.2
+  text: use terms relating to social change correctly […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.3
+  text: clearly communicate the results of their inquiries […], and follow APA conventions for acknowledging sources […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.4
+  text: demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B1.3
+  text: explain major social science methodologies and research designs […]
+  why: The expectation names social-science research designs (qualitative and quantitative methods, ethnography, surveys); the museum's Muqaddima record speaks of verifying the methods of history, which is not a research design of that kind, so the lesson does not claim it.
+  searches:
+  - 'find_entity.py "research method" "منهج البحث" "isnad": concept/isnad and passage records on the transmission of hadith; no record on social-science research designs'
+  - 'find_entity.py "Ibn Khaldun" "ابن خلدون" "Muqaddimah": person/ibn-khaldun, concept/asabiyya and work/al-muqaddima exist and are taught in lesson b-1 under B1.1 and B1.2; none of them records social-science research designs or any other point of this expectation'
+- code: B2.1
+  text: describe ways in which influential Canadian leaders have contributed to social change […]
+  why: The expectation is about Canadian leaders who contributed to social change; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "Canada" "كندا" "Canadian": place/canada has no prose; one event record (Canadian Islamic History Month) and source records; nothing on Canada''s leaders, policies, population, work or institutions'
+  - 'find_entity.py "women" "المرأة" "women rights": concept/imra (women in fiqh) and records on hadith counsels to women; nothing on discrimination, social change or work in Canada'
+- code: B2.2
+  text: explain how various economic, environmental, political, or sociocultural factors […] can lead to social change, and how other factors […] can create resistance to change
+  why: The expectation asks for economic, environmental, political and sociocultural factors leading to or resisting social change, with modern examples; no record explains such factors.
+  searches:
+  - 'find_entity.py "environment" "بيئة" "climate": seven records, among them concept/environmental-protection-in-islam and concept/athar-al-iqlim (climate''s effect on people); none on climate change, environmental activism or fossil-fuel exploitation'
+  - 'find_entity.py "social change" "التغير الاجتماعي" "civilization": two source records (Hodgson, The Venture of Islam; an article on Ziryab); no entity about social change'
+  - 'find_entity.py "revolution" "ثورة" "protest": 75 records of historical revolts and wars (e.g. event/kharijite-rebellion-866, event/arab-revolt-1334), several without prose; none treats protest, advocacy or community organization as a means of creating social change'
+- code: B2.3
+  text: explain various means of creating social change […]
+  why: The expectation asks for means of creating social change (protest, advocacy, organization); the revolt records are single wars without such analysis.
+  searches:
+  - 'find_entity.py "revolution" "ثورة" "protest": 75 records of historical revolts and wars (e.g. event/kharijite-rebellion-866, event/arab-revolt-1334), several without prose; none treats protest, advocacy or community organization as a means of creating social change'
+  - 'find_entity.py "social change" "التغير الاجتماعي" "civilization": two source records (Hodgson, The Venture of Islam; an article on Ziryab); no entity about social change'
+- code: B2.4
+  text: explain the relationships between conformity, alienation, and social change […]
+  why: The expectation is about conformity, alienation and social change; no record treats them, and the asabiyya record is about group solidarity, not conformity or alienation.
+  searches:
+  - 'find_entity.py "social change" "التغير الاجتماعي" "civilization": two source records (Hodgson, The Venture of Islam; an article on Ziryab); no entity about social change'
+  - 'find_entity.py "Ibn Khaldun" "ابن خلدون" "Muqaddimah": person/ibn-khaldun, concept/asabiyya and work/al-muqaddima exist and are taught in lesson b-1 under B1.1 and B1.2; none of them records social-science research designs or any other point of this expectation'
+- code: B2.5
+  text: explain the relationships between poverty, affluence, and social change […]
+  why: The expectation asks for the relationships between poverty, affluence and social change (the digital divide, access to education); zakat is used in lesson d-1 for D1.4, but no record treats these relationships.
+  searches:
+  - 'find_entity.py "poverty" "فقر" "zakat": practice/zakat, concept/zakat and concept/faqr (poverty in Sufi ethics); zakat is taught in lesson d-1 under D1.4; none treats the relationship of poverty and affluence to social change or the digital divide'
+  - 'find_entity.py "literacy" "محو الأمية" "education": 22 records on tarbiya, Islamic education and Muslim education today; none gives literacy rates or links literacy to standard of living'
+- code: B2.6
+  text: explain the impact of social change on indi­viduals in Canada and on Canadian society […]
+  why: The expectation asks for the impact of social change on individuals and society in Canada; the museum holds no record on Canadian society.
+  searches:
+  - 'find_entity.py "Canada" "كندا" "Canadian": place/canada has no prose; one event record (Canadian Islamic History Month) and source records; nothing on Canada''s leaders, policies, population, work or institutions'
+  - 'find_entity.py "social change" "التغير الاجتماعي" "civilization": two source records (Hodgson, The Venture of Islam; an article on Ziryab); no entity about social change'
+- code: B3.1
+  text: identify some recent technological changes and describe how they affect individuals […]
+  why: The expectation asks for recent technological changes and their effects on individuals; no record in the museum treats them.
+  searches:
+  - 'find_entity.py "technology" "تقنية" "innovation": records on bid''a (innovation in religion) and the course record for Grade 6 science; no record on recent technologies or their effects on people'
+  - 'find_entity.py "labour" "عمل" "workers": concept/work-in-islam and concept/amal (the five rulings on action); nothing on the nature of work changing or on workers in Canada'
+- code: B3.2
+  text: explain how various new technologies […] can affect social structures and interactions
+  why: The expectation asks how new technologies in medicine, education, entertainment and health affect social structures; no record treats a present-day technology, and the printing records found are about publishing the Qur'an and sources.
+  searches:
+  - 'find_entity.py "technology" "تقنية" "innovation": records on bid''a (innovation in religion) and the course record for Grade 6 science; no record on recent technologies or their effects on people'
+  - 'find_entity.py "printing" "مطبعة" "printing press": a Qur''an printing complex (group/king-fahd-complex-for-printing-the-holy-quran) and many source records; no record of a technology changing social structures'
+- code: B3.3
+  text: explain how technological advances […] lead to cul­tural adaptations […]
+  why: The expectation asks how technological advances lead to cultural adaptations and cultural lag; no record treats them.
+  searches:
+  - 'find_entity.py "technology" "تقنية" "innovation": records on bid''a (innovation in religion) and the course record for Grade 6 science; no record on recent technologies or their effects on people'
+  - 'find_entity.py "printing" "مطبعة" "printing press": a Qur''an printing complex (group/king-fahd-complex-for-printing-the-holy-quran) and many source records; no record of a technology changing social structures'
+- code: C1.1
+  text: describe population trends in Canada and around the world […]
+  why: The expectation asks for population trends in Canada and the world; the museum holds no demographic record.
+  searches:
+  - 'find_entity.py "population" "سكان" "demography": no real record'
+  - 'find_entity.py "demographic" "ديموغرافيا" "fertility": no real record'
+  - 'find_entity.py "Canada" "كندا" "Canadian": place/canada has no prose; one event record (Canadian Islamic History Month) and source records; nothing on Canada''s leaders, policies, population, work or institutions'
+- code: C1.2
+  text: explain concepts related to demography […], and assess the social impact of demographic change
+  why: The expectation asks for demography concepts and the social impact of demographic change; the museum holds no demographic record.
+  searches:
+  - 'find_entity.py "population" "سكان" "demography": no real record'
+  - 'find_entity.py "demographic" "ديموغرافيا" "fertility": no real record'
+- code: C1.3
+  text: explain the significance of immigration to Canadian society […]
+  why: The expectation asks for the significance of immigration to Canadian society; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "immigration" "مهاجرون" "refugees": group/muhajirun and a question record on the Ansar and Muhajirun, about the emigrants to Medina in early Islam, not about immigration to a modern country'
+  - 'find_entity.py "Canada" "كندا" "Canadian": place/canada has no prose; one event record (Canadian Islamic History Month) and source records; nothing on Canada''s leaders, policies, population, work or institutions'
+- code: C2.1
+  text: describe how trends are shaped by various socio-economic factors […]
+  why: The expectation asks how socio-economic factors shape trends (costs of activities, access to health care and education); no record treats them.
+  searches:
+  - 'find_entity.py "social change" "التغير الاجتماعي" "civilization": two source records (Hodgson, The Venture of Islam; an article on Ziryab); no entity about social change'
+  - 'find_entity.py "poverty" "فقر" "zakat": practice/zakat, concept/zakat and concept/faqr (poverty in Sufi ethics); zakat is taught in lesson d-1 under D1.4; none treats the relationship of poverty and affluence to social change or the digital divide'
+- code: C2.2
+  text: describe ways in which culture, tradition, and language influence social trends
+  why: The expectation asks how culture, tradition and language influence social trends; no record treats this.
+  searches:
+  - 'find_entity.py "culture" "ثقافة" "language": records on reading and culture, the Arabic language in jurisprudence and an art-and-culture book; none describes how culture, tradition and language influence social trends'
+  - 'find_entity.py "social change" "التغير الاجتماعي" "civilization": two source records (Hodgson, The Venture of Islam; an article on Ziryab); no entity about social change'
+- code: C2.3
+  text: explain how increases in population mobility shape social patterns and trends
+  why: The expectation asks how increased population mobility shapes social patterns and trends; the migration records are single historical events, not a study of mobility as a pattern.
+  searches:
+  - 'find_entity.py "migration" "هجرة" "hijra": records of the Hijra, the migrations to Abyssinia and the scholars'' exodus from Nishapur c. 450/1058; each is one historical event, none studies how population mobility shapes social patterns and trends'
+  - 'find_entity.py "trade" "تجارة" "caravan": concept/trade-in-islam, concept/ushr, hajj caravan events; none treats arrangements between governments and transnational corporations or trade as a driver of social trends'
+- code: C2.4
+  text: explain changes in the nature of work in Canada […]
+  why: The expectation is about changes in the nature of work in Canada (information economy, telecommuting, credentialism); the museum holds no record on it.
+  searches:
+  - 'find_entity.py "labour" "عمل" "workers": concept/work-in-islam and concept/amal (the five rulings on action); nothing on the nature of work changing or on workers in Canada'
+  - 'find_entity.py "Canada" "كندا" "Canadian": place/canada has no prose; one event record (Canadian Islamic History Month) and source records; nothing on Canada''s leaders, policies, population, work or institutions'
+- code: C3.1
+  text: describe the key ideas of major social science theories related to deviance […]
+  why: The expectation asks for social-science theories of deviance (labelling, social control); the museum holds no such record.
+  searches:
+  - 'find_entity.py "deviance" "انحراف" "social control": no real record'
+  - 'find_entity.py "crime" "جريمة" "punishment": records on punishment in the afterlife and a ruler''s punishment of a group (event/hajjaj-punishes-asawira); none surveys methods of deterrence or the social science of deviance'
+- code: C3.2
+  text: summarize and interpret statistics related to social deviance, discrimination, and hate crimes
+  why: The expectation asks for statistics on social deviance, discrimination and hate crimes; the museum holds no such statistics.
+  searches:
+  - 'find_entity.py "deviance" "انحراف" "social control": no real record'
+  - 'find_entity.py "racism" "عنصرية" "discrimination": no real record'
+- code: C3.3
+  text: describe various methods of deterrence used within local, national, and global institutions and societies […], and explain the reasons for each
+  why: The expectation asks for methods of deterrence in institutions today (restorative justice, sentencing circles, school suspension) and their reasons; no record describes them.
+  searches:
+  - 'find_entity.py "crime" "جريمة" "punishment": records on punishment in the afterlife and a ruler''s punishment of a group (event/hajjaj-punishes-asawira); none surveys methods of deterrence or the social science of deviance'
+  - 'find_entity.py "qisas" "قصاص" "diya": 42 records, mostly persons named Diya al-Din, the Muwatta Book of blood-money and a few cases; none was found that describes deterrence as institutions use it today (a record on blood-money was not read in full: noted in the run log as a possible second pass for C3.3)'
+- code: C3.4
+  text: explain the relationship between social panic about crime and deviance and the attention given to these issues by media, politicians, and other social groups
+  why: The expectation asks about social panic about crime and the attention of media and politicians; no record treats it.
+  searches:
+  - 'find_entity.py "crime" "جريمة" "punishment": records on punishment in the afterlife and a ruler''s punishment of a group (event/hajjaj-punishes-asawira); none surveys methods of deterrence or the social science of deviance'
+  - 'find_entity.py "deviance" "انحراف" "social control": no real record'
+- code: C3.5
+  text: explain ways in which the deterrence of social deviance and the maintenance of civil liberties can come into conflict with one another […]
+  why: The expectation asks how deterrence and civil liberties conflict (Bill C-36, the Canadian Anti-Terrorism Act); the museum holds no record on it.
+  searches:
+  - 'find_entity.py "Canada" "كندا" "Canadian": place/canada has no prose; one event record (Canadian Islamic History Month) and source records; nothing on Canada''s leaders, policies, population, work or institutions'
+  - 'find_entity.py "crime" "جريمة" "punishment": records on punishment in the afterlife and a ruler''s punishment of a group (event/hajjaj-punishes-asawira); none surveys methods of deterrence or the social science of deviance'
+- code: D1.1
+  text: describe the key provisions of various provincial, national, and international agreements for addressing human rights issues […]
+  why: The expectation asks for the key provisions of provincial, national and international human-rights agreements; the museum holds no record on any of them, and the treaties of early Islam are not such instruments.
+  searches:
+  - 'find_entity.py "human rights" "حقوق الإنسان" "dignity": concept/huquq-al-insan (a file on violations in the Arab world) and source records; no record on the provisions of a human-rights agreement'
+  - 'find_entity.py "charter" "ميثاق" "treaty": the treaties of early Islam (Hudaybiyya, Taghlib, Ukaydir) and event/constitution-of-medina; considered and rejected: the expectation asks for the provisions of modern provincial, national and international human-rights instruments, which these are not'
+- code: D1.2
+  text: demonstrate an understanding of various types of discrimination […] and their impact on individuals and groups
+  why: The expectation asks for types of discrimination and their impact; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "racism" "عنصرية" "discrimination": no real record'
+  - 'find_entity.py "women" "المرأة" "women rights": concept/imra (women in fiqh) and records on hadith counsels to women; nothing on discrimination, social change or work in Canada'
+- code: D1.3
+  text: summarize the statistics on literacy rates nationally and internationally, and assess the impact of low literacy levels on the standard of living of individuals and groups
+  why: The expectation asks for literacy statistics and the effect of low literacy on standard of living; the museum holds no such statistics.
+  searches:
+  - 'find_entity.py "literacy" "محو الأمية" "education": 22 records on tarbiya, Islamic education and Muslim education today; none gives literacy rates or links literacy to standard of living'
+  - 'find_entity.py "library" "مكتبة" "libraries": 103 records on medieval libraries (e.g. building/dar-al-ilm-baghdad); none gives statistics on literacy'
+- code: D2.1
+  text: explain various types of arrangements between governments and transnational corporations, including the reasons for such arrangements, and describe their impact on developing nations […]
+  why: The expectation asks for arrangements between governments and transnational corporations and their impact on developing nations; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "globalization" "عولمة" "world trade": no real record'
+  - 'find_entity.py "trade" "تجارة" "caravan": concept/trade-in-islam, concept/ushr, hajj caravan events; none treats arrangements between governments and transnational corporations or trade as a driver of social trends'
+- code: D2.2
+  text: describe the roles of various transnational organizations […] and assess their effectiveness in carrying out their respective mandates
+  why: The expectation asks for the roles and effectiveness of transnational organizations (IMF, WTO, WHO); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "globalization" "عولمة" "world trade": no real record'
+  - 'find_entity.py "human rights" "حقوق الإنسان" "dignity": concept/huquq-al-insan (a file on violations in the Arab world) and source records; no record on the provisions of a human-rights agreement'
+- code: D2.3
+  text: summarize the impact […] of globalization on Canadian society
+  why: The expectation asks for the impact of globalization on Canadian society; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "globalization" "عولمة" "world trade": no real record'
+  - 'find_entity.py "Canada" "كندا" "Canadian": place/canada has no prose; one event record (Canadian Islamic History Month) and source records; nothing on Canada''s leaders, policies, population, work or institutions'
+- code: D3.1
+  text: describe the effects of unfair exploitation […] on individuals and groups
+  why: The expectation asks for the effects of unfair exploitation (trafficking, child labour, expropriation of land) on individuals and groups; the fiqh records on bondage are rules for owners and slaves, not a study of such effects.
+  searches:
+  - 'find_entity.py "slavery" "رق" "slave": fiqh records on bondage (concept/riq-fiqh and related terms) setting out rules for owners and slaves; none studies the effects of unfair exploitation on individuals and groups'
+  - 'find_entity.py "labour" "عمل" "workers": concept/work-in-islam and concept/amal (the five rulings on action); nothing on the nature of work changing or on workers in Canada'
+- code: D3.2
+  text: explain ways in which some Canadian gov­ernment policies have resulted in unfair or unjust exploitation of individuals and groups […]
+  why: The expectation is about Canadian government policies that led to unfair exploitation; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "Canada" "كندا" "Canadian": place/canada has no prose; one event record (Canadian Islamic History Month) and source records; nothing on Canada''s leaders, policies, population, work or institutions'
+  - 'find_entity.py "internment" "اعتقال" "residential schools": only arrests of individual scholars and rulers; nothing on residential schools, internment camps or indentured labour'
+- code: D3.3
+  text: identify environmental changes that have resulted from the unchecked exploitation of fossil-fuel resources […], and assess the impact of these changes on the well-being of Canadians
+  why: The expectation asks for environmental changes from fossil-fuel exploitation and their effect on Canadians; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "environment" "بيئة" "climate": seven records, among them concept/environmental-protection-in-islam and concept/athar-al-iqlim (climate''s effect on people); none on climate change, environmental activism or fossil-fuel exploitation'
+  - 'find_entity.py "Canada" "كندا" "Canadian": place/canada has no prose; one event record (Canadian Islamic History Month) and source records; nothing on Canada''s leaders, policies, population, work or institutions'

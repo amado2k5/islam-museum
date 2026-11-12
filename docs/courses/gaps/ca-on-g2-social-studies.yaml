@@ -1,0 +1,178 @@
+course: course/ca-on-g2-social-studies
+gaps:
+- code: A1.1
+  text: "compare ways in which some traditions have been celebrated over multiple generations in their family […] and identify some of the main reasons for changes in these traditions […]"
+  why: "Compares traditions of diverse groups, including First Nations, Métis and Inuit, over multiple generations in the student's own family; the museum holds no record of a Canadian family's traditions or of First Nations, Métis or Inuit peoples."
+  searches:
+  - "find_entity.py \"First Nations\" \"الأمم الأولى\" \"Métis\" \"Indigenous\": no real record"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Arctic\": one real record, concept/muwala (a fiqh term on continuity), nothing usable"
+  - "find_entity.py \"Christmas\" \"Easter\" \"Diwali\" \"Passover\" \"Hanukkah\" \"Kwanzaa\" \"عيد الميلاد\": no real record"
+- code: A1.2
+  text: "compare their family structure and some of their traditions and celebrations with those of their peers’ families […]"
+  why: "Compares the student's own family structure and traditions with those of peers' families; this rests on the student's own and classmates' families, which no record of the museum describes."
+  searches:
+  - "find_entity.py \"family\" \"أسرة\" \"عائلة\" \"multigenerational\": 47 records, all events or passages about named families (for example event/ali-left-with-the-prophets-family); none describes family structure"
+  - "find_entity.py \"food\" \"طعام\" \"cuisine\" \"meal\" \"wedding\": hadith passages and fiqh of slaughter; no record on a family's foods or rites of passage"
+- code: A1.3
+  text: "compare some of the past and present traditions and celebrations of various ethnocultural groups in their local community, and identify some of the main reasons for the change […]"
+  why: "Compares past and present traditions of ethnocultural groups in the student's local community and the reasons for change, including banned and reclaimed practices; the museum holds no record of a Canadian local community or of its groups."
+  searches:
+  - "find_entity.py \"First Nations\" \"الأمم الأولى\" \"Métis\" \"Indigenous\": no real record"
+  - "find_entity.py \"Canada\" \"كندا\" \"Ontario\": place/canada and place/ontario exist but have no prose"
+  - "find_entity.py \"residential school\" \"colonization\" \"استعمار\" \"reconciliation\": three unrelated records about reconciliation between scholars and the fiqh of winning hearts; nothing usable"
+- code: A1.4
+  text: "identify some ways in which First Nations, Métis, and/or Inuit individuals, communities, and nations are reclaiming traditions, customs, teachings, and celebrations […] that were banned, lost, or practised in secret due to settlement and/or colonization, including the residential school system […]"
+  why: "Asks how First Nations, Métis and Inuit communities are reclaiming traditions banned or lost through settlement, colonization and the residential school system; the whole object of the expectation lies outside the museum."
+  searches:
+  - "find_entity.py \"First Nations\" \"الأمم الأولى\" \"Métis\" \"Indigenous\": no real record"
+  - "find_entity.py \"residential school\" \"colonization\" \"استعمار\" \"reconciliation\": three unrelated records about reconciliation between scholars and the fiqh of winning hearts; nothing usable"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Arctic\": one real record, concept/muwala (a fiqh term on continuity), nothing usable"
+- code: A2.2
+  text: "gather and organize information on some of the past and present traditions and celebrations within their family and the community to which they belong, using primary and/or secondary sources that they have gathered themselves or that have been provided to …"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: A2.3
+  text: "analyse and construct simple maps as part of their investigations into past and present traditions and celebrations in their local community […]"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: A2.4
+  text: "interpret and analyse information relevant to their investigations, using a variety of tools […]"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: A2.5
+  text: "evaluate evidence and draw conclusions about past and present traditions and celebrations in their own families and the communities to which they belong"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: A2.6
+  text: "communicate the results of their inquiries, using appropriate vocabulary […] and formats […]"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: A3.1
+  text: "identify and describe different types of families […]"
+  why: "Asks the student to describe different types of families (one-parent, blended, foster and others); the museum holds no record on family types."
+  searches:
+  - "find_entity.py \"family\" \"أسرة\" \"عائلة\" \"multigenerational\": 47 records, all events or passages about named families; none describes types of family"
+  - "find_entity.py \"heritage\" \"تراث\" \"tradition\" \"تقاليد\": 37 records, none about family forms"
+- code: A3.2
+  text: "identify various groups in their community […], and describe some of the ways in which their community reflects this diversity […]"
+  why: "Asks the student to identify groups in their community (religious, ethnocultural, First Nations, Métis, Inuit, immigrants and refugees) and how the community reflects this diversity; the museum holds no record of a Canadian community."
+  searches:
+  - "find_entity.py \"diversity\" \"تنوع\" \"multicultural\" \"neighbourhood\": concept/jiwar is the fiqh of the neighbour's rights; nothing on a community's groups"
+  - "find_entity.py \"immigrants\" \"مهاجرون\" \"refugees\" \"لاجئون\" \"hijra\": group/muhajirun and event/hijra are the Prophet's emigration from Mecca to Medina, not immigrants to Canada"
+  - "find_entity.py \"Canada\" \"كندا\" \"Ontario\": place/canada and place/ontario exist but have no prose"
+- code: A3.3
+  text: "identify places and/or countries of personal or familial significance, and locate them on a globe and/or print, digital, or interactive map"
+  why: "Asks the student to find places and countries of personal or family significance on a globe or map; this rests on the student's own family, which no record describes."
+  searches:
+  - "find_entity.py \"globe\" \"كرة أرضية\" \"world map\" \"خريطة\": invention/tabula-rogeriana is a medieval world map (linked in lesson b-1); none concerns a family's places"
+  - "find_entity.py \"family tree\" \"نسب\" \"genealogy\" \"timeline\": concept/nasab is the fiqh of lineage; nothing on a family's places"
+- code: A3.5
+  text: "demonstrate an understanding of simple chronology by identifying and organizing chronologically some important events and/or people from multiple generations in their family and/or community […]"
+  why: "Asks the student to order events and people of several generations of their own family or community in time (family tree, timeline); this rests on the student's own family history, which no record describes."
+  searches:
+  - "find_entity.py \"family tree\" \"نسب\" \"genealogy\" \"timeline\" \"chronology\" \"تأريخ\": concept/nasab is the fiqh of lineage and proofs of descent, not a family chronology"
+  - "find_entity.py \"family\" \"أسرة\" \"عائلة\" \"multigenerational\": 47 records about named families, none a method for a student's own family history"
+- code: B1.1
+  text: "compare selected communities from around the world, including their own community, in terms of the lifestyles of people in those communities and some ways in which the people meet their needs […]"
+  why: "Compares selected communities around the world, including the student's own, in lifestyle and ways of meeting needs (housing, groceries, food); the museum holds no record that compares present-day communities."
+  searches:
+  - "find_entity.py \"Hawaii\" \"هاواي\" \"Caribbean\" \"South America\": no real record (only a source record on Caribbean pirates)"
+  - "find_entity.py \"shelter\" \"house\" \"مسكن\" \"housing\" \"clothing\" \"لباس\": 91 records, none about a community's housing or clothing (place/maskin is a place name)"
+  - "find_entity.py \"food\" \"طعام\" \"cuisine\" \"meal\": hadith passages and fiqh of slaughter; no record on a community's diet"
+- code: B1.2
+  text: "describe some of the ways in which two or more distinct communities have adapted to their location, climate, and physical features […]"
+  why: "Asks how two or more distinct communities have adapted to their location, climate and physical features; the museum holds no record that describes a community's adaptation, only a medieval scheme of climes, tried for lesson b-2 and removed on review."
+  searches:
+  - "find_entity.py \"climate\" \"مناخ\" \"weather\": concept/al-aqalim-al-saba (tried for lesson b-2 and removed on review) and concept/athar-al-iqlim (Ibn Khaldun on climate and people, whose summary makes claims about skin colour that were not linked); neither describes a community's adaptation"
+  - "find_entity.py \"farming\" \"زراعة\" \"agriculture\" \"harvest\": concept/agriculture-in-islam is a book's view of farming as a livelihood and land rights, not an adaptation to climate"
+  - "find_entity.py \"hunting\" \"صيد\" \"fishing\": Muwatta book of hunting and similar passages are rulings, not a community's way of life"
+- code: B2.1
+  text: "formulate questions to guide investigations into some aspects of the interrelationship between the natural environment of selected communities, including at least one contemporary First Nation, Métis, or Inuit community, and the ways in which people live […]"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: B2.2
+  text: "gather and organize information and data about some communities’ locations, climate, and physical features, and the ways of life of people in these communities, including at least one contemporary First Nation, Métis, or Inuit community […]"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: B2.3
+  text: "analyse and construct simple maps to determine and illustrate patterns in the interrelationship between the location of some communities and human activities in those communities […]"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: B2.4
+  text: "interpret and analyse information relevant to their investigations, using a variety of tools […]"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: B2.5
+  text: "evaluate evidence and draw conclusions about some aspects of the interrelationship between communities’ natural environment and the ways of life of people in those communities, including at least one contemporary First Nation, Métis, or Inuit community"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: B2.6
+  text: "communicate the results of their inquiries, using appropriate vocabulary […] and formats […]"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: B3.3
+  text: "identify cardinal directions on a map (i.e., N, S, E, W), and use these directions when locating selected communities, countries, and/or continents"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: B3.5
+  text: "demonstrate the ability to extract information on the location and climate of a region from photographs and print, digital, and/or interactive maps"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: B3.7
+  text: "describe selected communities around the world, including at least one contemporary First Nation, Métis, or Inuit community, with reference to their major physical features, wildlife, and some aspects of their culture […]"
+  why: "Asks the student to describe selected communities around the world (physical features, wildlife, culture), including a contemporary First Nation, Métis or Inuit community; the museum holds no record of such communities."
+  searches:
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Arctic\": one real record, concept/muwala (a fiqh term on continuity), nothing usable"
+  - "find_entity.py \"Canada\" \"كندا\" \"Ontario\": place/canada and place/ontario exist but have no prose"
+  - "find_entity.py \"Mexico\" \"المكسيك\" \"Winnipeg\" \"Toronto\": place/toronto has no prose; two records are mosques in the United States and Mexico without prose"
+- code: B3.8
+  text: "describe similarities and differences between their community and a community in a different region in the world […]"
+  why: "Asks the student to compare their own community with a community in a different region (food, clothing, housing, beliefs, climate, recreation); the museum holds no record of a Canadian community and none comparing present-day communities."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Ontario\": place/canada and place/ontario exist but have no prose"
+  - "find_entity.py \"diversity\" \"تنوع\" \"multicultural\" \"neighbourhood\": concept/jiwar is the fiqh of the neighbour's rights; nothing comparing communities"
+  - "find_entity.py \"food\" \"طعام\" \"cuisine\" \"meal\": hadith passages and fiqh of slaughter; no record on a community's food"
+- code: A3.6
+  text: "identify some ways in which heritage is passed on through various community celebrations, traditions, teachings, ceremonies, and events […]"
+  why: "Asks how heritage is passed on through community celebrations and traditions; the records tried give moon-sighting and the jurists' recommendation for the last ten nights of Ramadan and an etymology of zakat al-fitr, and say nothing about handing a practice on."
+  searches:
+  - "practice/sawm-ramadan: tried for lesson a-2 and removed on review; the sighting of the crescent, completing Sha'ban to thirty and the jurists' recommendation for the last ten nights, which are too hard for age 7 and say nothing of passing a practice on"
+  - "practice/zakat-al-fitr: tried for lesson a-2 and removed on review; the record is an etymology of why the alms is joined to fitr and of the coined term fitra, a grammar point far above Grade 2"
+- code: A3.7
+  text: "identify some ways in which heritage is passed on through various family celebrations and practices, including at least one First Nation, Métis, and/or Inuit family celebration or practice […]"
+  why: "Asks how heritage is passed on through family celebrations and practices, including a First Nation, Métis or Inuit one; the records tried say nothing about handing a practice on from one generation to the next."
+  searches:
+  - "practice/sawm-ramadan: tried for lesson a-2 and removed on review; it records no way in which the practice is handed on in a family"
+  - "practice/zakat-al-fitr: tried for lesson a-2 and removed on review; it records no way in which the practice is handed on in a family"
+- code: B3.4
+  text: "identify the location of selected countries, cities, and/or towns around the world, including at least one contemporary First Nation, Métis, or Inuit community, and describe how their location and climate are related […]"
+  why: "Asks the student to locate selected countries, cities or towns and describe how their location and climate are related; the one record tried is a medieval scheme of seven climes with a claim about an empty southern quarter that a seven-year-old cannot weigh, and it names the climate of no country or town."
+  searches:
+  - "concept/al-aqalim-al-saba: tried for lesson b-2 and removed on review; seven climes, twenty-four degrees beyond the equator, and a southern quarter said to be empty of people and ruined by heat, which is wrong as stated"
+  - "earlier searches for this register: no record gives the climate of a named country or town at Grade 2 level"

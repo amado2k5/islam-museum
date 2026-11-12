@@ -1,0 +1,65 @@
+id: course/ca-on-g11-international-languages-level2-c-1
+class: course
+kind: lesson
+label:
+  en: Arabic, its script and its calligraphy
+  ar: العربية وخطّها وفن الخط
+  ur: عربی، اس کا رسم الخط اور خطاطی
+summary:
+  en: Reading about the language, how its script was said to be devised, and an art of writing.
+  ar: القراءة عن اللغة وعن وضع خطها كما تُروى القصة، وعن فن من فنون الكتابة.
+  ur: زبان کے بارے میں، اس کے رسم الخط کے وضع ہونے کی روایت کے بارے میں، اور تحریر کے ایک فن کے بارے میں پڑھنا۔
+sources:
+- source/ontario-curriculum-classical-studies-intl-languages
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g11-international-languages-level2-c
+expectations:
+- code: C3.1
+  text:
+    en: using information from a variety of texts in the target language, identify communities where the target language is spoken, find out about aspects of their cultures, and make connections to personal experiences and their own and other communities […]
+    ar: باستخدام المعلومات من نصوص متنوعة بلغة الدراسة، تحديد الجماعات التي تُتحدَّث فيها هذه اللغة، والتعرّف إلى جوانب من ثقافاتها، وإقامة صلات بالتجارب الشخصية وبجماعة الطالب نفسه وجماعات أخرى […]
+    ur: ہدفی زبان کے مختلف متون سے معلومات لے کر ان جماعتوں کی نشاندہی کرنا جہاں یہ زبان بولی جاتی ہے، ان کی ثقافتوں کے پہلوؤں کا پتا لگانا، اور ذاتی تجربات اور اپنی اور دوسری جماعتوں سے روابط قائم کرنا […]
+connections:
+- position: before
+  kind: reflection
+  title:
+    en: What is Arabic?
+    ar: ما العربية؟
+    ur: عربی کیا ہے؟
+  text:
+    en: In the lexicon, Arabic is eloquence and purity of speech; the Arabic language is what the Arabs spoke, and the Qur'an came down in it. The Kuwaiti jurists' encyclopaedia, which the record follows, adds that Arabic has merit as the tongue of the people of paradise and that a person is rewarded for learning and teaching it. How does a community's view of its language shape the way others learn it?
+    ar: العربية في اللغة الفصاحة، واللغة العربية ما نطقت به العرب، ونزل القرآن بها. وتضيف الموسوعة الفقهية الكويتية، التي يتبعها السجل، أن للعربية فضلاً لأنها لسان أهل الجنة، وأن المرء يثاب على تعلمها وتعليمها. كيف تؤثر نظرة جماعة إلى لغتها في طريقة تعلم الآخرين لها؟
+    ur: لغت میں عربی کا مطلب فصاحت ہے، اور عربی زبان وہ ہے جو عرب بولتے تھے اور قرآن اسی میں نازل ہوا۔ کویتی فقہی انسائیکلوپیڈیا، جس کی پیروی اندراج کرتا ہے، اضافہ کرتا ہے کہ عربی کو اہلِ جنت کی زبان ہونے کی فضیلت ہے اور اسے سیکھنے سکھانے پر اجر ملتا ہے۔ کسی جماعت کا اپنی زبان کے بارے میں نظریہ دوسروں کے اسے سیکھنے کے انداز کو کیسے متاثر کرتا ہے؟
+  entity: concept/arabiyya
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+- position: within
+  kind: story
+  title:
+    en: How the script travelled
+    ar: كيف انتقل الخط
+    ur: رسم الخط کا سفر
+  text:
+    en: Al-Baladhuri relays a report from al-Sharqi ibn al-Qatami that three men of Tayy devised the script, measuring the spelling of Arabic against the spelling of Syriac. People of al-Anbar learned it from them, then the people of al-Hira, and Bishr ibn Abd al-Malik taught it in Mecca. The record notes that this is a single report from one narrator and needs a further source. What would you check next?
+    ar: ينقل البلاذري عن الشرقي بن القطامي أن ثلاثة من طيئ وضعوا الخط وقاسوا هجاء العربية على هجاء السريانية. وتعلمه منهم قوم من أهل الأنبار، ثم أهل الحيرة، وعلّمه بشر بن عبد الملك في مكة. ويلاحظ السجل أن هذه رواية واحدة منسوبة إلى راوٍ واحد وأنها تحتاج إلى مصدر إضافي. ماذا ستتحقق منه بعد ذلك؟
+    ur: البلاذری الشرقی بن القطامی سے روایت نقل کرتے ہیں کہ طے کے تین آدمیوں نے رسم الخط وضع کیا اور عربی کے ہجے کو سریانی کے ہجے پر پرکھا۔ ان سے انبار کے لوگوں نے سیکھا، پھر حیرہ والوں نے، اور بشر بن عبد الملک نے اسے مکہ میں سکھایا۔ اندراج نوٹ کرتا ہے کہ یہ ایک ہی راوی سے منسوب ایک ہی روایت ہے اور اسے مزید ماخذ کی ضرورت ہے۔ آپ آگے کیا جانچیں گے؟
+  entity: event/arabic-script-origin
+  sources:
+  - source/futuh-buldan-maarif-1407
+- position: after
+  kind: object
+  title:
+    en: The art of the Arabic letter
+    ar: فن الحرف العربي
+    ur: عربی حرف کا فن
+  text:
+    en: "Islamic calligraphy is the art of writing and shaping the Arabic letter beautifully. Its scripts include Kufic, Naskh, Thuluth and Diwani. Choose one of these scripts and describe what you see in its letters."
+    ar: "الخط الإسلامي فن كتابة الحرف العربي وتشكيله جمالياً. ومن خطوطه الكوفي والنسخ والثلث والديواني. اختر خطاً منها وصف ما تراه في حروفه."
+    ur: "اسلامی خطاطی عربی حرف کو خوبصورتی سے لکھنے اور ڈھالنے کا فن ہے۔ اس کے خطوں میں کوفی، نسخ، ثلث اور دیوانی شامل ہیں۔ ان میں سے ایک خط چنیں اور بیان کریں کہ اس کے حروف میں آپ کو کیا نظر آتا ہے۔"
+  entity: concept/islamic-calligraphy
+  sources:
+  - source/wikidata
+order: 1

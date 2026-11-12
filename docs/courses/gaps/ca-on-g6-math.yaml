@@ -1,0 +1,182 @@
+course: course/ca-on-g6-math
+gaps:
+- code: B1.3
+  text: compare and order integers, decimal numbers, and fractions, separately and in combination, in various contexts
+  why: 'Comparing and ordering integers, decimals and fractions in combination: the museum''s decimal and debt records are taught for reading and representing (B1.4, B1.2); none of them compares numbers of the three kinds with one another.'
+  searches:
+  - 'find_entity.py "fractions" "الكسور" "kasr": concept/kasr is a lexical and fiqh term (breaking, a part of one); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, taught in lesson b-1 under B1.4 and B1.6'
+  - 'find_entity.py "negative numbers" "debt" "positive and negative": invention/abu-wafa-debt-multiplication (taught in lesson b-2 under B1.2) and fiqh debt records; no record about ordering numbers'
+- code: B1.5
+  text: round decimal numbers, both terminating and repeating, to the nearest tenth, hundredth, or whole number, as applicable, in various contexts
+  why: 'Rounding terminating and repeating decimals: no record in the museum is about rounding.'
+  searches:
+  - 'find_entity.py "rounding" "estimation" "التقريب" "approximation": hits are hadith-science works (Taqrib al-Tahdhib and kin) and invention/abu-hanifa-brick-stack-reckoning (an estimate of brick volume), none about rounding decimals'
+  - 'find_entity.py "fractions" "الكسور" "kasr": concept/kasr is a lexical and fiqh term (breaking, a part of one); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, taught in lesson b-1 under B1.4 and B1.6'
+- code: B2.3
+  text: use mental math strategies to calculate percents of whole numbers, including 1%, 5%, 10%, 15%, 25%, and 50%, and explain the strategies used
+  why: 'Mental-math strategies for percents of whole numbers: no record is about percents or mental calculation.'
+  searches:
+  - 'find_entity.py "percent" "النسبة المئوية" "ratio" "rate" "proportion": invention/mahani-successive-quotient-ratios and work/mahani-risala-fi-nisba (the Euclidean theory of ratio by successive quotients); nothing on percents, rates or everyday ratio problems'
+  - 'grep -ril "percent" content/en/concept content/en/invention content/en/work content/en/person: hits are concept records on other subjects (concept/al-qiraa-wal-thaqafa, idarat-al-hayat, al-fatwa-hurriyya-am-ihtikar) where a percent figure occurs in passing, none a record on calculating percents'
+- code: B2.5
+  text: add and subtract fractions with like and unlike denominators, using appropriate tools, in various contexts
+  why: 'Adding and subtracting fractions with like and unlike denominators: the museum''s only fraction record is about decimal fractions, taught under B1.4 and B1.6; it does not add or subtract fractions with different denominators.'
+  searches:
+  - 'find_entity.py "fractions" "الكسور" "kasr": concept/kasr is a lexical and fiqh term (breaking, a part of one); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, taught in lesson b-1 under B1.4 and B1.6'
+  - 'find_entity.py "divisibility" "prime" "factor" "القسمة" "الأعداد الأولية": no record on divisibility rules or prime numbers; the hits are about the division of spoils and realms (قسمة); the one record on divisors is invention/farisi-amicable-factorization, taught in lesson b-4'
+- code: B2.9
+  text: multiply whole numbers by proper fractions, using appropriate tools and strategies
+  why: 'Multiplying whole numbers by proper fractions: no record is about operations on common fractions.'
+  searches:
+  - 'find_entity.py "fractions" "الكسور" "kasr": concept/kasr is a lexical and fiqh term (breaking, a part of one); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, taught in lesson b-1 under B1.4 and B1.6'
+  - 'find_entity.py "multiplication" "الضرب" "product of": hits are the mint (دار الضرب), a Muwatta report on a tax and reports on striking a person; no record on multiplying by a fraction'
+- code: B2.10
+  text: divide whole numbers by proper fractions, using appropriate tools and strategies
+  why: 'Dividing whole numbers by proper fractions: no record is about operations on common fractions.'
+  searches:
+  - 'find_entity.py "fractions" "الكسور" "kasr": concept/kasr is a lexical and fiqh term (breaking, a part of one); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, taught in lesson b-1 under B1.4 and B1.6'
+  - 'find_entity.py "divisibility" "prime" "factor" "القسمة" "الأعداد الأولية": no record on divisibility rules or prime numbers; the hits are about the division of spoils and realms (قسمة); the one record on divisors is invention/farisi-amicable-factorization, taught in lesson b-4'
+- code: B2.11
+  text: represent and solve problems involving the division of decimal numbers up to thousandths by whole numbers up to 10, using appropriate tools and strategies
+  why: 'Dividing decimal numbers up to thousandths by whole numbers up to 10: invention/algorism is taught under B2.8 for written division in general, but the museum has no record about dividing decimals by whole numbers.'
+  searches:
+  - 'find_entity.py "fractions" "الكسور" "kasr": concept/kasr is a lexical and fiqh term (breaking, a part of one); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, taught in lesson b-1 under B1.4 and B1.6'
+  - 'find_entity.py "rounding" "estimation" "التقريب" "approximation": hits are hadith-science works (Taqrib al-Tahdhib and kin) and invention/abu-hanifa-brick-stack-reckoning (an estimate of brick volume), none about rounding decimals'
+- code: B2.12
+  text: solve problems involving ratios, including percents and rates, using appropriate tools and strategies
+  why: 'Solving problems with ratios, percents and rates: the only ratio records concern the theory of ratio by successive quotients, not problems with percents or rates.'
+  searches:
+  - 'find_entity.py "percent" "النسبة المئوية" "ratio" "rate" "proportion": invention/mahani-successive-quotient-ratios and work/mahani-risala-fi-nisba (the Euclidean theory of ratio by successive quotients); nothing on percents, rates or everyday ratio problems'
+  - 'grep -ril "percent" content/en/concept content/en/invention content/en/work content/en/person: hits are concept records on other subjects (concept/al-qiraa-wal-thaqafa, idarat-al-hayat, al-fatwa-hurriyya-am-ihtikar) where a percent figure occurs in passing, none a record on calculating percents'
+- code: C1.4
+  text: create and describe patterns to illustrate relationships among whole numbers and decimal numbers
+  why: 'Creating patterns to illustrate relationships among whole numbers and decimal numbers: no record links patterns to decimals.'
+  searches:
+  - 'find_entity.py "linear patterns" "sequence" "المتتالية" "arithmetic progression": no real record; invention/karaji-binomial-coefficient-recurrence is taught in lesson c-1 under C1.1 to C1.3 and does not relate whole numbers to decimals'
+  - 'find_entity.py "fractions" "الكسور" "kasr": concept/kasr is a lexical and fiqh term (breaking, a part of one); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, taught in lesson b-1 under B1.4 and B1.6'
+- code: C2.1
+  text: add monomials with a degree of 1 that involve whole numbers, using tools
+  why: 'Adding monomials of degree 1 with tools: concept/algebra and concept/al-durub-al-sitta are taught under C2.2 and C2.3 for equations; no record is about adding like terms with tools.'
+  searches:
+  - 'find_entity.py "inequality" "المتباينة" "unknown" "المجهول": hits are place/unknown, a screen record and a fatwa resolution; concept/algebra and concept/al-durub-al-sitta cover equations only and are taught in lesson c-2 under C2.2 and C2.3'
+  - 'find_entity.py "monomial" "expression" "الحدود" "term": hits are the hudud (prescribed punishments) and Muwatta reports on boundaries; grep -rli "monomial" content/en returns nothing; no record is about adding like terms with tools'
+- code: C2.4
+  text: solve inequalities that involve two operations and whole numbers up to 100 and verify and graph the solutions
+  why: 'Solving and graphing inequalities with two operations: the museum''s algebra records treat equations only.'
+  searches:
+  - 'find_entity.py "inequality" "المتباينة" "unknown" "المجهول": hits are place/unknown, a screen record and a fatwa resolution; concept/algebra and concept/al-durub-al-sitta cover equations only and are taught in lesson c-2 under C2.2 and C2.3'
+  - 'find_entity.py "algebra" "الجبر" "al-jabr": equations only (concept/al-durub-al-sitta states equations with positive terms)'
+- code: C3.1
+  text: solve problems and create computational representations of mathematical situations by writing and executing efficient code, including code that involves conditional statements and other control structures
+  why: 'Writing and running efficient code with conditionals and control structures: the museum holds the origin of the word algorithm, not coding.'
+  searches:
+  - 'find_entity.py "mathematical modelling" "calculation" "الحساب" "hisab": concept/al-hisab (the Reckoning, on the Day), work/al-jabr-wal-muqabala and invention/algebra; nothing on writing or reading code'
+  - 'invention/algorism (in lesson b-3 under B1.1, B2.4, B2.7, B2.8): it records the origin of the word "algorithm" and ordered written steps for arithmetic, but nothing on conditional statements, control structures or running code'
+- code: C3.2
+  text: read and alter existing code, including code that involves conditional statements and other control structures, and describe how changes to the code affect the outcomes and the efficiency of the code
+  why: 'Reading and altering code and describing the effect of changes: the museum holds the origin of the word algorithm, not coding.'
+  searches:
+  - 'find_entity.py "mathematical modelling" "calculation" "الحساب" "hisab": concept/al-hisab (the Reckoning, on the Day), work/al-jabr-wal-muqabala and invention/algebra; nothing on writing or reading code'
+  - 'invention/algorism (in lesson b-3 under B1.1, B2.4, B2.7, B2.8): it records the origin of the word "algorithm" and ordered written steps for arithmetic, but nothing on conditional statements, control structures or running code'
+- code: D1.1
+  text: describe the difference between discrete and continuous data, and provide examples of each
+  why: 'Discrete and continuous data: no record describes kinds of data.'
+  searches:
+  - 'find_entity.py "survey data" "census" "إحصاء السكان" "data collection": event/abbasid-census-200 and event/egypt-census-837 are counts of persons and looms; neither describes kinds of data (discrete and continuous), infographics or spread'
+  - 'find_entity.py "graph" "histogram" "الرسم البياني" "statistics" "الإحصاء": censuses only (event/abbasid-census-200, event/egypt-census-837); no record on graphs, histograms or choosing a graph'
+- code: D1.3
+  text: select from among a variety of graphs, including histograms and broken-line graphs, the type of graph best suited to represent various sets of data; display the data in the graphs with proper sources, titles, and labels, and appropriate scales; and …
+  why: 'Choosing and drawing histograms and broken-line graphs: no record is about graphs.'
+  searches:
+  - 'find_entity.py "graph" "histogram" "الرسم البياني" "statistics" "الإحصاء": censuses only (event/abbasid-census-200, event/egypt-census-837); no record on graphs, histograms or choosing a graph'
+  - 'find_entity.py "survey data" "census" "إحصاء السكان" "data collection": event/abbasid-census-200 and event/egypt-census-837 are counts of persons and looms; neither describes kinds of data (discrete and continuous), infographics or spread'
+- code: D1.4
+  text: create an infographic about a data set, representing the data in appropriate ways, including in tables, histograms, and broken-line graphs, and incorporating any other relevant information that helps to tell a story about the data
+  why: 'Creating an infographic about a data set: no record is about presenting data.'
+  searches:
+  - 'find_entity.py "graph" "histogram" "الرسم البياني" "statistics" "الإحصاء": censuses only (event/abbasid-census-200, event/egypt-census-837); no record on graphs, histograms or choosing a graph'
+  - 'find_entity.py "survey data" "census" "إحصاء السكان" "data collection": event/abbasid-census-200 and event/egypt-census-837 are counts of persons and looms; neither describes kinds of data (discrete and continuous), infographics or spread'
+- code: D1.5
+  text: determine the range as a measure of spread and the measures of central tendency for various data sets, and use this information to compare two or more data sets
+  why: 'Range and measures of central tendency: no record is about averages or spread.'
+  searches:
+  - 'find_entity.py "mean" "median" "average" "المتوسط": hits are the Mediterranean (البحر المتوسط), the separated letters of the suras and a TV episode; no record on measures of central tendency or spread'
+  - 'find_entity.py "survey data" "census" "إحصاء السكان" "data collection": event/abbasid-census-200 and event/egypt-census-837 are counts of persons and looms; neither describes kinds of data (discrete and continuous), infographics or spread'
+- code: D2.1
+  text: use fractions, decimals, and percents to express the probability of events happening, represent this probability on a probability line, and use it to make predictions and informed decisions
+  why: 'Expressing probability as a fraction, decimal or percent and placing it on a probability line: the records on games of chance and lots are rulings, not about likelihood.'
+  searches:
+  - 'find_entity.py "probability" "chance" "الاحتمال" "lots" "القرعة": concept/maysir, concept/nard (games of chance) and concept/qurra-in-distribution (lots), all rulings or practices, none on likelihood or probability lines'
+  - 'find_entity.py "fractions" "الكسور" "kasr": concept/kasr is a lexical and fiqh term (breaking, a part of one); the only arithmetic record is invention/decimal-fractions-al-uqlidisi, taught in lesson b-1 under B1.4 and B1.6'
+- code: D2.2
+  text: determine and compare the theoretical and experimental probabilities of two independent events happening
+  why: 'Theoretical and experimental probability of two independent events: the records on games of chance and lots are rulings, not about likelihood.'
+  searches:
+  - 'find_entity.py "probability" "chance" "الاحتمال" "lots" "القرعة": concept/maysir, concept/nard (games of chance) and concept/qurra-in-distribution (lots), all rulings or practices, none on likelihood or probability lines'
+  - 'find_entity.py "mean" "median" "average" "المتوسط": hits are the Mediterranean (البحر المتوسط), the separated letters of the suras and a TV episode; no record on measures of central tendency or spread'
+- code: E1.2
+  text: construct three-dimensional objects when given their top, front, and side views
+  why: 'Building three-dimensional objects from top, front and side views: no record is about views of solids.'
+  searches:
+  - 'find_entity.py "solid geometry" "prism" "pyramid" "المجسمات" "الهرم": only a person (Harim ibn Hayyan) and a tomb; no record on three-dimensional objects or their views'
+  - 'find_entity.py "nets" "geometric construction" "quadrilateral" "رباعي" "المعين": concept/chaharbagh (a four-part garden) and people named Hussein or Ali; no record on nets of solids'
+- code: E1.3
+  text: plot and read coordinates in all four quadrants of a Cartesian plane, and describe the translations that move a point from one coordinate to another
+  why: 'Plotting and reading coordinates in all four quadrants of a Cartesian plane: no record is about a coordinate plane.'
+  searches:
+  - 'find_entity.py "coordinates" "latitude longitude" "الإحداثيات" "خطوط الطول": one source record only (source/biruni-tahdid-ali-translation), no entity about plotting points'
+  - 'find_entity.py "map" "map projection" "الخريطة" "grid": invention/tabula-rogeriana (al-Idrisi''s world map) and course/ca-on-g6-sci-space-3 (a lesson of the museum''s own science course); no record on a Cartesian plane or translations of points'
+- code: E2.1
+  text: measure length, area, mass, and capacity using the appropriate metric units, and solve problems that require converting smaller units to larger ones and vice versa
+  why: 'Measuring length, area, mass and capacity with metric units and converting among them: the museum''s measurement records concern the cubit and other non-metric units.'
+  searches:
+  - 'find_entity.py "measurement units" "cubit" "الذراع" "weights and measures" "المكاييل والموازين": concept/dhira-fiqh (the cubit, a non-metric unit, in fiqh) and no record on metric units or converting them'
+  - 'find_entity.py "coordinates" "latitude longitude" "الإحداثيات" "خطوط الطول": one source record only (source/biruni-tahdid-ali-translation), no entity about plotting points'
+- code: E2.2
+  text: use a protractor to measure and construct angles up to 360°, and state the relationship between angles that are measured clockwise and those that are measured counterclockwise
+  why: 'Measuring and constructing angles up to 360 degrees with a protractor and relating clockwise to counterclockwise: no record measures angles.'
+  searches:
+  - 'find_entity.py "angle" "الزاوية" "protractor" "complementary angles": invention/taqi-decimal-trigonometric-tables (decimal fractions in trigonometric tables) and hits on zawiya (a lodge); the word protractor occurs only in compass-construction records (invention/abu-wafa-fixed-opening-constructions), which do not measure angles'
+  - 'find_entity.py "solid geometry" "prism" "pyramid" "المجسمات" "الهرم": only a person (Harim ibn Hayyan) and a tomb; no record on three-dimensional objects or their views'
+- code: E2.3
+  text: use the properties of supplementary angles, complementary angles, opposite angles, and interior and exterior angles to solve for unknown angle measures
+  why: 'Using the properties of supplementary, complementary, opposite, interior and exterior angles to find unknown angles: no record states these properties.'
+  searches:
+  - 'find_entity.py "angle" "الزاوية" "protractor" "complementary angles": invention/taqi-decimal-trigonometric-tables (decimal fractions in trigonometric tables) and hits on zawiya (a lodge); the word protractor occurs only in compass-construction records (invention/abu-wafa-fixed-opening-constructions), which do not measure angles'
+  - 'find_entity.py "nets" "geometric construction" "quadrilateral" "رباعي" "المعين": concept/chaharbagh (a four-part garden) and people named Hussein or Ali; no record on nets of solids'
+- code: E2.5
+  text: create and use nets to demonstrate the relationship between the faces of prisms and pyramids and their surface areas
+  why: 'Creating and using nets of prisms and pyramids: no record is about nets.'
+  searches:
+  - 'find_entity.py "nets" "geometric construction" "quadrilateral" "رباعي" "المعين": concept/chaharbagh (a four-part garden) and people named Hussein or Ali; no record on nets of solids'
+  - 'find_entity.py "solid geometry" "prism" "pyramid" "المجسمات" "الهرم": only a person (Harim ibn Hayyan) and a tomb; no record on three-dimensional objects or their views'
+- code: F1.3
+  text: identify and describe various factors that may help or interfere with reaching financial goals
+  why: 'Factors that help or interfere with reaching financial goals: the records on property, thresholds and debt are rulings and say nothing about such factors.'
+  searches:
+  - 'find_entity.py "poverty" "wealth" "الفقر" "financial hardship" "debt": concept/mal-fiqh, concept/nisab and concept/dayn-fiqh are rulings on property, thresholds and debt; none describes factors that help or hinder a person reaching a financial goal'
+  - 'find_entity.py "financial goals" "saving" "الادخار" "thrift": concept/idkhar-fiqh (taught in lesson f-2 under F1.2), concept/al-iddikhar-al-mashru and concept/saving-and-investment-in-islam (Arabic prose only)'
+- code: B2.1
+  text: "use the properties of operations, and the relationships between operations, to solve problems involving whole numbers, decimal numbers, fractions, ratios, rates, and whole number percents, including those requiring multiple steps or multiple operations"
+  why: "The only record (Abu al-Wafa's debt in a multiplication) multiplies a negative number by ten, which is beyond Grade 6, and its shortcut is a special case with the same tens digit; it shows no property of operations."
+  searches:
+  - "invention/abu-wafa-debt-multiplication (tried at b-2): a worked special case (three times five) that passes through a debt; kept under B1.2 for the number below zero, not for properties of operations"
+  - "find_entity.py \"multiplication\" \"properties of operations\" \"الضرب\": no other record states a property of operations for whole numbers, fractions or decimals"
+- code: E1.4
+  text: "describe and perform combinations of translations, reflections, and rotations up to 360° on a grid, and predict the results of these transformations"
+  why: "The museum's two pattern records (islamic-geometric-patterns, girih) are short and state no translation, reflection or rotation, and no image or description of the tiles' shapes."
+  searches:
+  - "concept/islamic-geometric-patterns (tried at e-1): one sentence sourced to Wikidata only; a pointer, not content, and no symmetry or transformation stated"
+  - "concept/girih (tried at e-1): says the strapwork is common in Seljuk and Safavid architecture and rests on girih tiles; no image, no tile shapes, no symmetry or transformation"
+- code: C1.1
+  text: "identify and describe repeating, growing, and shrinking patterns, including patterns found in real-life contexts, and specify which growing patterns are linear"
+  why: "Identifying and describing repeating, growing and shrinking patterns, and which growing patterns are linear: the museum's one pattern-rule record (al-Karaji's table of adjacent sums) shows a rule for building rows, not growing, shrinking or linear patterns."
+  searches:
+  - "invention/karaji-binomial-coefficient-recurrence (tried at c-1): a rule for building each row of a table by adding neighbours; served under C1.3 only, it states no growing, shrinking or linear pattern, graph or algebraic expression"
+  - "find_entity.py \"linear patterns\" \"sequence\" \"المتتالية\" \"arithmetic progression\": no real record on sequences, tables of values or graphs of patterns"
+- code: C1.2
+  text: "create and translate repeating, growing, and shrinking patterns using various representations, including tables of values, graphs, and, for linear growing patterns, algebraic expressions and equations"
+  why: "Creating and translating patterns among tables, graphs and algebraic expressions: the museum's one pattern-rule record builds a table by a rule and gives no graph, expression or equation of a linear pattern."
+  searches:
+  - "invention/karaji-binomial-coefficient-recurrence (tried at c-1): a rule for building each row of a table by adding neighbours; served under C1.3 only, it states no growing, shrinking or linear pattern, graph or algebraic expression"
+  - "find_entity.py \"linear patterns\" \"sequence\" \"المتتالية\" \"arithmetic progression\": no real record on sequences, tables of values or graphs of patterns"

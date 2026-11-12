@@ -1,0 +1,52 @@
+id: course/ca-on-g8-math-c-1
+class: course
+kind: lesson
+label:
+  en: Restoring and balancing an equation
+  ar: جبر المعادلة وموازنتها
+  ur: مساوات کا جبر اور توازن
+summary:
+  en: Solving equations with several terms, and checking the solutions (C2.3).
+  ar: حل معادلات ذات حدود متعددة والتحقق من الحلول، التوقع C2.3.
+  ur: کئی اجزا والی مساواتیں حل کرنا اور حلوں کی تصدیق کرنا، توقع C2.3۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g8-math-c
+expectations:
+- code: C2.3
+  text:
+    en: solve equations that involve multiple terms, integers, and decimal numbers in various contexts, and verify solutions
+    ar: حُلَّ معادلات تتضمن حدودًا متعددة وأعدادًا صحيحة وأعدادًا عشرية في سياقات متنوعة، وتحقق من الحلول
+    ur: ایسی مساواتیں حل کریں جن میں متعدد اجزا، صحیح اعداد اور اعشاری اعداد شامل ہوں، مختلف سیاق میں، اور حلوں کی تصدیق کریں
+connections:
+- position: before
+  kind: reflection
+  title:
+    en: Restoring and cancelling
+    ar: الجبر والمقابلة
+    ur: جبر اور مقابلہ
+  text:
+    en: The editors of the 1939 Cairo edition note that the name of this science in every language comes from al-jabr, the word al-Khwarizmi used as the title of his book. In his problems al-jabr is completing a quantity that has a deficiency or deduction by adding its like to both sides, and al-muqabala is casting away like terms from both sides. What do both operations leave unchanged?
+    ar: يذكر محققا طبعة القاهرة سنة 1939 أن اسم هذا العلم في جميع اللغات مشتق من كلمة «الجبر» التي جعلها الخوارزمي اسماً لكتابه. و«الجبر» في مسائله أن يُكمل ما فيه نقص أو استثناء بزيادة مثله على الطرفين، و«المقابلة» أن يُلقى المتماثل من الطرفين. ماذا تُبقي العمليتان دون تغيير؟
+    ur: 1939ء کی قاہرہ طبع کے مرتبین بتاتے ہیں کہ اس علم کا نام ہر زبان میں اس لفظ «الجبر» سے نکلا ہے جسے الخوارزمی نے اپنی کتاب کا نام بنایا۔ اس کے مسائل میں «جبر» یہ ہے کہ جس مقدار میں کمی یا استثنا ہو اسے دونوں طرف اس جیسی مقدار جمع کر کے پورا کیا جائے، اور «مقابلہ» یہ ہے کہ دونوں طرف سے ایک جیسے اجزا ہٹا دیے جائیں۔ دونوں عمل کس چیز کو بدلے بغیر چھوڑتے ہیں؟
+  entity: concept/algebra
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+- position: within
+  kind: reflection
+  title:
+    en: A square and ten roots
+    ar: مال وعشرة أجذار
+    ur: ایک مال اور دس جذر
+  text:
+    en: 'Al-Khwarizmi divided everything needed in reckoning by al-jabr and al-muqabala into six types of equation, resting on three kinds of number: the root, the square (mal) and the simple number. One of his examples is "a square and ten of its roots equal thirty-nine dirhams", where the root comes out as three and the square as nine. Put three into that example: does the equation hold?'
+    ar: 'قسّم الخوارزمي كل ما يحتاج إليه في حساب الجبر والمقابلة إلى ستة ضروب من المعادلات، مبنية على ثلاثة أنواع من الأعداد: الجذر والمال والعدد المفرد. ومن أمثلته «مال وعشرة أجذاره يعدل تسعة وثلاثين درهماً»، فيخرج الجذر ثلاثة والمال تسعة. عوّض الثلاثة في هذا المثال: هل تتحقق المعادلة؟'
+    ur: 'الخوارزمی نے جبر و مقابلہ کے حساب میں درکار ہر بات کو مساواتوں کی چھ قسموں میں بانٹا، جو تین قسم کے اعداد پر قائم ہیں: جذر، مال اور سادہ عدد۔ اس کی ایک مثال «ایک مال اور اس کے دس جذر انتالیس درہم کے برابر ہیں» ہے، جس میں جذر تین اور مال نو نکلتا ہے۔ اس مثال میں تین رکھ کر دیکھیں: کیا مساوات پوری ہوتی ہے؟'
+  entity: concept/al-durub-al-sitta
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+order: 1

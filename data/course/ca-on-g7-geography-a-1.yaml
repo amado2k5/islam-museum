@@ -1,0 +1,71 @@
+id: course/ca-on-g7-geography-a-1
+class: course
+kind: lesson
+label:
+  en: Answering the land with water works
+  ar: الاستجابة للأرض بأعمال المياه
+  ur: زمین کے جواب میں آبی تعمیرات
+summary:
+  en: How people have responded to the challenges and opportunities of the physical environment, and how dams and canals create and change water systems (A1.1, A3.5).
+  ar: كيف استجاب الناس لتحديات البيئة الطبيعية وفرصها، وكيف تُنشئ السدود والقنوات المنظومات المائية وتغيّرها ⁦(A1.1 وA3.5)⁩.
+  ur: لوگوں نے طبعی ماحول کے چیلنجوں اور مواقع کا کیسے جواب دیا، اور بند اور نہریں آبی نظاموں کو کیسے بناتی اور بدلتی ہیں ⁦(A1.1 اور A3.5)⁩۔
+sources:
+- source/ontario-curriculum-sshg-2023
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g7-geography-a
+expectations:
+- code: A1.1
+  text:
+    en: describe various ways in which people have responded to challenges and opportunities presented by the physical environment […], and analyse short- and long-term effects of some of these responses […]
+    ar: صِف طرقًا متعددة استجاب بها الناس للتحديات والفرص التي تقدمها البيئة الطبيعية […]، وحلّل الآثار القصيرة والطويلة الأمد لبعض هذه الاستجابات […]
+    ur: طبعی ماحول کے پیش کردہ چیلنجوں اور مواقع کے جواب میں لوگوں کے اپنائے ہوئے مختلف طریقوں کو بیان کریں […]، اور ان میں سے بعض جوابات کے مختصر اور طویل مدتی اثرات کا تجزیہ کریں […]
+- code: A3.5
+  text:
+    en: describe some key natural processes and human activities […] that create and change water bodies and systems
+    ar: صِف بعض العمليات الطبيعية الرئيسة والأنشطة البشرية […] التي تُنشئ المسطحات والمنظومات المائية وتغيّرها
+    ur: بعض اہم قدرتی عمل اور انسانی سرگرمیوں […] کو بیان کریں جو آبی ذخائر اور آبی نظاموں کو بناتی اور بدلتی ہیں
+connections:
+- position: before
+  kind: place
+  title:
+    en: A great dam in Yemen
+    ar: سد عظيم في اليمن
+    ur: یمن کا ایک عظیم بند
+  text:
+    en: The Marib Dam is the dam whose construction began in the time of the Mukarribs of Saba, in the centuries before 650 BCE, and it holds a great place in the history of Yemen. Al-Raheeq al-Makhtum says breaches began to appear in it, and then came the great flood the Qur'an refers to as the flood of al-Aram, in 450 or 451 CE by the estimate of its author, al-Mubarakpuri, a major event that ruined settlements and scattered peoples. How can one dam shape a land's life and, when it fails, undo it?
+    ar: سد مأرب سدٌّ بدأ بناؤه في عهد مكاربة سبأ، في القرون التي سبقت سنة 650 ق.م، وله مكانة عظيمة في تاريخ اليمن. ويذكر الرحيق المختوم أن الشقوق بدأت تظهر فيه، ثم جاء السيل العظيم الذي يشير إليه القرآن بسيل العرم، سنة 450 أو 451م بتقدير مؤلفه المباركفوري، وكان حدثًا جللًا أدى إلى خراب المساكن وتفرّق الناس. كيف يصنع سدٌّ واحد حياة أرض، ثم يهدمها إذا انهار؟
+    ur: سدِ مأرب وہ بند ہے جس کی تعمیر سبا کے مکاربوں کے زمانے میں، 650 قبل مسیح سے پہلے کی صدیوں میں، شروع ہوئی، اور یمن کی تاریخ میں اس کا بڑا مقام ہے۔ الرحیق المختوم بتاتی ہے کہ اس میں شگاف پڑنے لگے، پھر وہ عظیم سیلاب آیا جسے قرآن سیلِ عرم کے نام سے ذکر کرتا ہے، اس کے مصنف مبارکپوری کے اندازے سے 450 یا 451 عیسوی میں، ایک بڑا واقعہ جس نے بستیاں اجاڑ دیں اور لوگوں کو بکھیر دیا۔ ایک بند زمین کی زندگی کیسے بناتا ہے، اور ٹوٹنے پر اسے کیسے اجاڑ دیتا ہے؟
+  entity: building/marib-dam
+  sources:
+  - source/mubarakpuri-raheeq
+  - source/tafhim-al-quran
+- position: within
+  kind: story
+  title:
+    en: A canal for a city
+    ar: نهر لمدينة
+    ur: ایک شہر کے لیے نہر
+  text:
+    en: Al-Baladhuri reports that Umar ibn al-Khattab ordered Abu Musa al-Ash'ari to dig a canal for the people of Basra, and the digging began from a place called al-Ijana. Abu Musa led the canal three farsakhs until it reached Basra, and the canal of al-Ubulla reached four farsakhs. The account adds that people used to drink from the monastery of Qawaws on the Tigris. What does a dug channel change for the life of a city?
+    ar: يروي البلاذري أن عمر بن الخطاب أمر أبا موسى الأشعري أن يحتفر لأهل البصرة نهرًا، فبدأ الحفر من موضع يسمى الإجانة. وقاد أبو موسى النهر ثلاثة فراسخ حتى بلغ البصرة، وبلغ طول نهر الأبلة أربعة فراسخ. ويضيف الخبر أن الناس كانوا يشربون من دير قاووس في دجلة. ماذا يغيّر النهر المحفور في حياة مدينة؟
+    ur: البلاذری بتاتے ہیں کہ عمر بن الخطاب نے ابو موسیٰ اشعری کو حکم دیا کہ وہ بصرہ والوں کے لیے نہر کھودیں، اور کھدائی الاِجانہ نامی جگہ سے شروع ہوئی۔ ابو موسیٰ نے نہر کو تین فرسخ لے جا کر بصرہ تک پہنچایا، اور نہرِ ابلہ کی لمبائی چار فرسخ تک پہنچی۔ بیان میں ہے کہ لوگ دجلہ پر واقع قاووس کی خانقاہ سے پانی پیتے تھے۔ کھودی ہوئی نہر کسی شہر کی زندگی میں کیا تبدیلی لاتی ہے؟
+  entity: event/digging-of-nahr-al-ubulla
+  sources:
+  - source/futuh-buldan-maarif-1407
+- position: after
+  kind: invention
+  title:
+    en: Levelling a tunnel underground
+    ar: تسوية نفقٍ تحت الأرض
+    ur: زیرِ زمین سرنگ کی سطح بندی
+  text:
+    en: In The Extraction of Hidden Waters, Abu Bakr al-Karaji describes levelling and surveying procedures within a manual that follows water from exploration to maintenance. The record explains a qanat as a gently sloping underground tunnel that brings water out by gravity, with vertical shafts for working, access and maintenance, and it says Karaji refined an older tradition rather than inventing qanats. How could a builder choose a tunnel's route before any water flowed?
+    ar: يشرح أبو بكر الكرجي في «إنباط المياه الخفية» طرائق التسوية وضبط مسار الحفر، ضمن كتاب يتابع الماء من البحث عنه إلى صيانة القناة. ويصف السجل القناة الجوفية بأنها نفق ذو انحدار لطيف يُخرج الماء بالجاذبية، وتتصل به فتحات رأسية للعمل والوصول والصيانة، ويقول إن الكرجي حسّن تقليدًا أقدم ولم يخترع القنوات. كيف يختار الحافر مسار نفقٍ قبل أن يجري فيه ماء؟
+    ur: ابو بکر الکرجی اپنی کتاب «استخراجِ پوشیدہ پانی» میں سطح بندی اور کھدائی کا راستہ متعین کرنے کے طریقے بیان کرتے ہیں، ایک ایسے رسالے میں جو پانی کی تلاش سے لے کر نالی کی دیکھ بھال تک اس کے ساتھ چلتا ہے۔ ریکارڈ قنات کو ہلکی ڈھلان والی زیرِ زمین سرنگ بتاتا ہے جو کشش ثقل سے پانی باہر لاتی ہے، جس سے کام، رسائی اور دیکھ بھال کے لیے عمودی راستے جڑے ہوتے ہیں؛ اور کہتا ہے کہ کرجی نے ایک پرانی روایت کو بہتر کیا، قناتوں کو ایجاد نہیں کیا۔ پانی بہنے سے پہلے کھدائی کرنے والا سرنگ کا راستہ کیسے چنے؟
+  entity: invention/karaji-qanat-surveying
+  sources:
+  - source/karaji-ataie-simmons-2020
+order: 1

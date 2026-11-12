@@ -1,0 +1,62 @@
+id: course/ca-on-g7-math-c-1
+class: course
+kind: lesson
+label:
+  ar: حدود وعبارات ومعادلات وتحقق من الحل
+  en: Terms, expressions, equations and checking the answer
+  ur: اجزا، عبارتیں، مساواتیں اور جواب کی جانچ
+summary:
+  ar: جمع الحدود وطرحها وتقييم العبارات وحل المعادلات والتحقق من الحل، في ضوء أنواع المعادلات الستة عند الخوارزمي وحساب الكرجي للعبارات.
+  en: Adding and subtracting terms, evaluating expressions, and solving equations and verifying the solutions, in light of al-Khwarizmi's six types of equation and al-Karaji's arithmetic of expressions.
+  ur: اجزا کو جمع اور تفریق کرنا، عبارتوں کی قیمت نکالنا، اور مساواتیں حل کر کے حل کی تصدیق کرنا، خوارزمی کی مساواتوں کی چھ قسموں اور کرجی کے عبارتوں کے حساب کی روشنی میں۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g7-math-c
+expectations:
+- code: C2.1
+  text:
+    en: add and subtract monomials with a degree of 1 that involve whole numbers, using tools
+    ar: اجمع وأطرح الحدود الأحادية من الدرجة الأولى التي تتضمن أعداداً صحيحة كلية، باستعمال الأدوات
+    ur: ایسی یک رکنی عبارتیں جن کا درجہ ایک ہو اور جن میں مکمل اعداد شامل ہوں، اوزار استعمال کرتے ہوئے جمع اور تفریق کریں
+- code: C2.2
+  text:
+    en: evaluate algebraic expressions that involve whole numbers and decimal numbers
+    ar: قيّم العبارات الجبرية التي تتضمن أعداداً صحيحة كلية وأعداداً عشرية
+    ur: ایسی الجبری عبارتوں کی قیمت نکالیں جن میں مکمل اعداد اور اعشاری اعداد شامل ہوں
+- code: C2.3
+  text:
+    en: solve equations that involve multiple terms, whole numbers, and decimal numbers in various contexts, and verify solutions
+    ar: حلّ معادلات تتضمن حدوداً متعددة وأعداداً صحيحة كلية وأعداداً عشرية في سياقات متنوعة، وتحقق من الحلول
+    ur: ایسی مساواتیں حل کریں جن میں متعدد اجزا، مکمل اعداد اور اعشاری اعداد شامل ہوں، مختلف سیاق میں، اور حل کی تصدیق کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    ar: ضروب المعادلات الستة
+    en: The six types of equation
+    ur: مساوات کی چھ قسمیں
+  text:
+    ar: 'قسّم الخوارزمي معادلات الدرجة الأولى والثانية ذات المعاملات الموجبة إلى ستة ضروب: ثلاثة مفردة وثلاثة مقترنة. وفي «مال وعشرة أجذاره يعدل تسعة وثلاثين درهماً» يخرج الجذر ثلاثة والمال تسعة. كيف تتحقق من هذا الجواب بردّه إلى المسألة؟'
+    en: 'Al-Khwarizmi divided first- and second-degree equations with positive terms into six types, three simple and three compound. For "a square and ten of its roots equal thirty-nine dirhams" the root is three and the square nine. How could you check that answer by putting it back into the problem?'
+    ur: 'خوارزمی نے مثبت اجزا والی پہلے اور دوسرے درجے کی مساواتوں کو چھ قسموں میں بانٹا: تین مفرد اور تین مقترن۔ «ایک مال اور اس کی دس جڑیں انتالیس درہم کے برابر» میں جذر تین اور مال نو نکلتا ہے۔ اس جواب کو مسئلے میں واپس رکھ کر آپ اس کی تصدیق کیسے کریں گے؟'
+  entity: concept/al-durub-al-sitta
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+- position: after
+  kind: invention
+  title:
+    ar: ضرب المقادير المركبة وجمع المتشابه
+    en: Multiplying composite expressions and collecting like terms
+    ur: مرکب اظہارات کی ضرب اور ہم جنس اجزا کا جمع
+  text:
+    ar: 'اشتغل الكرجي أيضاً بالمقادير المركبة من حدود عدة، وتصف سيرة ماكتوتر الضرب بأن تعمل الحدود بعضها في بعض قبل جمع النتائج المتشابهة. ومثال السجل الحديث، وهو شرح حسابي لا مثال من الكتاب، أن x²+3x+2x+6 يصير x²+5x+6، فتُجمع 3x و2x فتصيران 5x. أين جُمعت الحدود المتشابهة في هذا المثال؟'
+    en: 'Al-Karaji also worked on composite expressions of several terms, and MacTutor describes multiplication as combining terms before collecting matching results. The record''s own modern example, an explanatory one and not an example from the book, turns x²+3x+2x+6 into x²+5x+6, where 3x and 2x are collected as 5x. Where in that example are the like terms collected?'
+    ur: 'کرجی نے کئی اجزا والے مرکب اظہارات پر بھی کام کیا، اور میک ٹیوٹر کی سوانح ضرب کو یوں بیان کرتی ہے کہ پہلے اجزا کو ایک دوسرے سے ضرب دیا جاتا ہے اور پھر ہم جنس نتائج جمع کیے جاتے ہیں۔ ریکارڈ کی اپنی جدید مثال، جو وضاحتی ہے اور کتاب کی مثال نہیں، یہ ہے کہ x²+3x+2x+6 سے x²+5x+6 بنتا ہے، جہاں 3x اور 2x جمع ہو کر 5x بنتے ہیں۔ اس مثال میں ہم جنس اجزا کہاں جمع کیے گئے؟'
+  entity: invention/karaji-polynomial-arithmetic
+  sources:
+  - source/karaji-mactutor
+order: 1

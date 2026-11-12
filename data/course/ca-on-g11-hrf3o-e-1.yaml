@@ -1,0 +1,63 @@
+id: course/ca-on-g11-hrf3o-e-1
+class: course
+kind: lesson
+label:
+  en: A book, a chain of reports and a script
+  ar: كتاب وسلسلة روايات وخط
+  ur: ایک کتاب، روایات کا سلسلہ اور ایک رسم الخط
+summary:
+  en: Two ways a faith keeps its teachings, a written book and reports handed on (E1.1, E1.2, E1.3).
+  ar: طريقان يحفظ بهما دينٌ تعاليمه، كتاب مكتوب وروايات متناقلة ⁦(E1.1 وE1.2 وE1.3)⁩.
+  ur: ایک دین اپنی تعلیمات کو دو طریقوں سے محفوظ رکھتا ہے، ایک لکھی ہوئی کتاب اور آگے منتقل ہونے والی روایات ⁦(E1.1، E1.2 اور E1.3)⁩۔
+sources:
+- source/ontario-curriculum-social-sciences-humanities
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g11-hrf3o-e
+expectations:
+- code: E1.1
+  text:
+    en: compare and contrast sacred writings and oral teachings
+    ar: قارن بين الكتابات المقدسة والتعاليم الشفوية وبيّن أوجه الاتفاق والاختلاف
+    ur: مقدس تحریروں اور زبانی تعلیمات کا موازنہ کریں اور ان کے مشترک اور مختلف پہلو بیان کریں
+- code: E1.2
+  text:
+    en: describe the importance of sacred writings and oral teachings in various world religions and belief traditions
+    ar: صِف أهمية الكتابات المقدسة والتعاليم الشفوية في أديان ومعتقدات متعددة في العالم
+    ur: دنیا کے مختلف مذاہب اور اعتقادی روایات میں مقدس تحریروں اور زبانی تعلیمات کی اہمیت بیان کریں
+- code: E1.3
+  text:
+    en: describe various sacred writings and oral teachings, providing specific examples from various world religions and belief traditions […]
+    ar: صِف كتابات مقدسة وتعاليم شفوية متنوعة، مع ذكر أمثلة محددة من أديان ومعتقدات متعددة في العالم […]
+    ur: مختلف مقدس تحریروں اور زبانی تعلیمات کو بیان کریں اور دنیا کے مختلف مذاہب اور اعتقادی روایات سے مخصوص مثالیں پیش کریں […]
+connections:
+- position: before
+  kind: object
+  title:
+    en: One book
+    ar: كتاب واحد
+    ur: ایک کتاب
+  text:
+    en: The Qur'an is the holy book of Islam, which Muslims believe was sent down to the Prophet Muhammad. It contains 114 suras and 6,236 verses, in the Hafs transmission, as in the Tanzil project text. The museum does not write out the verses on its pages. What does it mean for a community to hold one book?
+    ar: القرآن هو الكتاب المقدس للإسلام، ويعتقد المسلمون أنه أُنزل على النبي محمد. وفيه 114 سورة و6236 آية في رواية حفص كما في نص مشروع تنزيل. ولا يكتب المتحف الآيات على صفحاته. ماذا يعني أن تحتفظ جماعة بكتاب واحد؟
+    ur: قرآن اسلام کی مقدس کتاب ہے جس کے بارے میں مسلمانوں کا اعتقاد ہے کہ وہ نبی محمد پر نازل کی گئی۔ اس میں 114 سورتیں اور 6236 آیات ہیں، روایتِ حفص میں، جیسا کہ تنزیل منصوبے کے متن میں ہے۔ عجائب گھر اپنے صفحات پر آیات نہیں لکھتا۔ ایک جماعت کا ایک کتاب کو تھامے رکھنا کیا معنی رکھتا ہے؟
+  entity: work/quran
+  sources:
+  - source/tanzil-quran
+- position: within
+  kind: hadith
+  title:
+    en: What is handed on by report
+    ar: ما يُنقل بالرواية
+    ur: جو روایت سے آگے پہنچایا جاتا ہے
+  text:
+    en: Hadith is what is reported from the Prophet in word, deed, tacit approval or description, reaching us through a chain of transmission, the sanad, that ends with him. How does a teaching passed on by report differ from a book?
+    ar: الحديث ما يُنقل عن النبي من قول أو فعل أو تقرير أو وصف، ويصلنا بسلسلة نقل، هي السند، تنتهي إليه. بمَ يختلف تعليم متناقل بالرواية عن كتاب؟
+    ur: حدیث وہ ہے جو نبی سے قول، فعل، تقریر یا وصف کی صورت میں نقل ہوا ہو اور ہم تک سند، یعنی نقل کے سلسلے، سے پہنچا ہو جو ان پر ختم ہوتا ہے۔ روایت سے آگے پہنچنے والی تعلیم ایک کتاب سے کیسے مختلف ہے؟
+  entity: concept/al-hadith-al-nabawi
+  sources:
+  - source/sahih-al-bukhari
+  - source/sahih-muslim
+order: 1

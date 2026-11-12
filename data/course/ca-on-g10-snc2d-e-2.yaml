@@ -1,0 +1,49 @@
+id: course/ca-on-g10-snc2d-e-2
+class: course
+kind: lesson
+label:
+  ar: أين ينعكس الضوء على مرآة منحنية؟
+  en: Where does light reflect on a curved mirror?
+  ur: خمدار آئینے پر روشنی کہاں منعکس ہوتی ہے؟
+summary:
+  ar: سؤال هندسي عن موضع انعكاس الضوء على مرآة دائرية بين جسم وعين ⁦(E2.2 وE2.3 وE3.3)⁩.
+  en: A geometrical question about where light reflects on a circular mirror between an object and an eye (E2.2, E2.3, E3.3).
+  ur: ایک ہندسی سوال کہ کسی شے اور آنکھ کے بیچ دائروی آئینے پر روشنی کہاں منعکس ہوتی ہے ⁦(E2.2، E2.3 اور E3.3)⁩۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g10-snc2d-e
+expectations:
+- code: E2.2
+  text:
+    en: use an inquiry process to investigate the laws of reflection, using plane and curved mirrors, and draw ray diagrams to summarize their findings [PR, C]
+    ar: استعمل عملية استقصائية لاستقصاء قوانين الانعكاس بمرايا مستوية ومنحنية، وارسم مخططات الأشعة لتلخيص ما توصل إليه [PR, C]
+    ur: ہموار اور خمدار آئینوں کے ذریعے انعکاس کے قوانین کی تحقیق کے لیے استفسار کا عمل اپنائیں، اور اپنے نتائج کا خلاصہ کرنے کے لیے شعاعی خاکے بنائیں [PR, C]
+- code: E2.3
+  text:
+    en: predict the qualitative characteristics of images formed by plane and curved mirrors […], test their predictions through inquiry, and summarize their findings [PR, AI, C]
+    ar: تنبّأ بالصفات النوعية للصور التي تتكوّن في المرايا المستوية والمنحنية […]، واختبر تنبؤاته بالاستقصاء، ولخّص ما توصل إليه [PR, AI, C]
+    ur: ہموار اور خمدار آئینوں میں بننے والے عکسوں کی کیفیتی خصوصیات کی پیش گوئی کریں […]، استفسار کے ذریعے اپنی پیش گوئیوں کو جانچیں، اور اپنے نتائج کا خلاصہ کریں [PR, AI, C]
+- code: E3.3
+  text:
+    en: describe, on the basis of observation, the characteristics and positions of images formed by plane and curved mirrors […], with the aid of ray diagrams and algebraic equations, where appropriate
+    ar: صِف، استنادًا إلى المشاهدة، صفات الصور التي تتكوّن في المرايا المستوية والمنحنية ومواضعها […]، بالاستعانة بمخططات الأشعة والمعادلات الجبرية حيثما يناسب
+    ur: مشاہدے کی بنیاد پر ہموار اور خمدار آئینوں میں بننے والے عکسوں کی خصوصیات اور مقامات بیان کریں […]، شعاعی خاکوں اور جہاں مناسب ہو الجبری مساوات کی مدد سے
+connections:
+- position: within
+  kind: invention
+  title:
+    ar: مسألة ابن الهيثم في المرآة الدائرية
+    en: Ibn al-Haytham's circular-mirror question
+    ur: ابن الہیثم کا دائروی آئینے کا سوال
+  text:
+    ar: إذا عرفت موضع جسم وموضع عين، فأين ينبغي أن ينعكس الضوء على مرآة دائرية ليصل بينهما؟ مساهمة ابن الهيثم هنا مقدمات هندسية وتطبيقات في المقالة الخامسة من «كتاب المناظر». والمطلوب إنشاء نقطة على المحيط تحقق تساوي زاويتي السقوط والانعكاس بالنسبة إلى العمود المحلي. والطريقة إنشاء رياضي، لا مرآة أصلية نُسبت إلى المؤلف. أين العمود المقام عند نقطة الانعكاس، وأي زاويتين متساويتين؟
+    en: Given the position of an object and an eye, where should light reflect on a circular mirror to connect them? Ibn al-Haytham's contribution here is geometrical lemmas and applications in Book V of the Book of Optics. The task is to construct a rim point where the angles of incidence and reflection are equal, measured against the local normal. It is a mathematical construction, not an original mirror attributed to the author. At the reflection point, where is the normal, and which two angles are equal?
+    ur: اگر آپ کو کسی شے کا مقام اور آنکھ کا مقام معلوم ہو تو دائروی آئینے پر روشنی کو کہاں منعکس ہونا چاہیے کہ وہ دونوں کو ملا دے؟ ابن الہیثم کی یہاں شراکت «کتاب المناظر» کی پانچویں مقالے میں ہندسی مقدمات اور اطلاقات ہیں۔ مطلوب یہ ہے کہ محیط پر ایک ایسا نقطہ بنایا جائے جہاں زاویۂ سقوط اور زاویۂ انعکاس مقامی عمود کے لحاظ سے برابر ہوں۔ یہ ایک ریاضیاتی تعمیر ہے، مصنف سے منسوب کوئی اصل آئینہ نہیں۔ انعکاس کے نقطے پر عمود کہاں ہوتا ہے، اور کون سے دو زاویے برابر ہوتے ہیں؟
+  entity: invention/ibn-al-haytham-circular-reflection
+  sources:
+  - source/hogendijk-alhazen-lemmas-1996
+order: 2

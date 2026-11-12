@@ -1,0 +1,28 @@
+ORACLE 09: the vision pass: committed screenshots, fresh-context defect lists, every defect confirmed gone or registered (statement 9)
+run at commit 7c3125e96a5b0373c7de1a56734445442187ea49 on 2026-11-12 00:38 EST; baseline 800467e93e; uncommitted paths under data/ content/ site/ i18n/ scripts/courses/: 0
+
+round-1: 110 screenshots captured at commit 32402fb27a (uncommitted paths at capture: 0); widths [390, 820, 1280]; languages ['ar', 'en']; all files present: True; files tracked by git in the folder: 113; pages with sideways scroll outside the no-script shots: 0
+   reviewers' files: ['review-ar.md', 'review-en.md']
+round-2: 109 screenshots captured at commit 1e3fd3502d (uncommitted paths at capture: 0); widths [390, 820, 1280]; languages ['ar', 'en']; all files present: True; files tracked by git in the folder: 116; pages with sideways scroll outside the no-script shots: 0
+   reviewers' files: ['confirm-ar.md', 'confirm-en.md', 'review-ar.md', 'review-en.md']
+round-3: 110 screenshots captured at commit ed938ea32c (uncommitted paths at capture: 0); widths [390, 820, 1280]; languages ['ar', 'en']; all files present: True; files tracked by git in the folder: 114; pages with sideways scroll outside the no-script shots: 0
+   reviewers' files: ['confirm.md', 'review.md']
+round-4 (targeted: state-classroom,desktop-map,tablet-map,state-map): 25 screenshots captured at commit 2a41309646 (uncommitted paths at capture: 0); widths [820, 1280]; languages ['ar', 'en']; all files present: True; files tracked by git in the folder: 29; pages with sideways scroll outside the no-script shots: 0
+   reviewers' files: ['confirm.md', 'review.md']
+round-5 (targeted: desktop-map,state-map): 13 screenshots captured at commit 05ef4f2f96 (uncommitted paths at capture: 0); widths [1280]; languages ['ar', 'en']; all files present: True; files tracked by git in the folder: 16; pages with sideways scroll outside the no-script shots: 0
+   reviewers' files: ['confirm.md']
+
+defects found by fresh reviewers over 5 rounds: 100 (high 2, medium 39, low 59)
+  closed (fixed, and a later reviewer saw it gone on a re-taken screenshot): 59
+  registered with a reason: 41
+  fixed but not yet confirmed by a later reviewer: 0
+  a later reviewer still saw it: 0
+  registered, by reason: {'pilot data, not rewritten': 10, 'other': 9, 'by design': 17, 'disproved by a measurement': 4, 'capture artefact': 1}
+  [PASS] screenshots were captured at phone, tablet and desktop widths in every round
+  [PASS] screenshots cover Arabic and English in every round
+  [PASS] at least two review rounds exist, the later ones by reviewers who had not seen the earlier
+  [PASS] every defect is closed by a later reviewer or registered with a reason
+  [PASS] every registered defect carries its reason
+  [PASS] no high-severity defect is left open or merely registered
+
+RESULT: GREEN (6 checks passed)

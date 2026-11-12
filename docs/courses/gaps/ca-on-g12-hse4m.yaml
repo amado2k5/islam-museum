@@ -1,0 +1,210 @@
+course: course/ca-on-g12-hse4m
+gaps:
+- code: A1.1
+  text: explore a variety of topics related to equity and social justice […] to identify topics for research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: identify key concepts […] related to their selected topics
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.3
+  text: formulate effective questions to guide their research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.1
+  text: create appropriate research plans to investi­gate their selected topics […], ensuring that their plans follow guidelines for ethical research
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.2
+  text: locate and select information relevant to their investigations from a variety of primary sources […] and secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A2.3
+  text: based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.1
+  text: assess various aspects of information gathered from primary and secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.2
+  text: record and organize information and key ideas using a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.3
+  text: analyse and interpret research information […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.4
+  text: demonstrate academic honesty by docu­menting the sources of all information generated through research
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A3.5
+  text: synthesize findings and formulate conclusions […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.1
+  text: use an appropriate format […] to communicate the results of their research and inquiry effectively for a specific purpose and audience
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.2
+  text: use terms relating to equity and social justice correctly […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.3
+  text: clearly communicate the results of their inquiries […], and follow APA conventions for acknowledging sources […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A4.4
+  text: demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B1.1
+  text: demonstrate an understanding of theoretical and research approaches associated with the study of equity and social justice issues […]
+  why: The expectation asks for named theoretical approaches (postmodernism, anti-oppression theory, critical race theory, postcolonial theory and others); the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "critical theory" "نظرية" "feminism" "النسوية": only concept/islamic-feminism, a two-sentence draft overview that does not describe a theoretical approach to equity issues'
+  - 'find_entity.py "Foucault" "Marx" "ماركس" "sociology": no real record'
+- code: B1.2
+  text: demonstrate an understanding of basic concepts related to the social construction of identity […] that have been developed by a range of theorists […], and of how to apply the concepts when analysing equity issues
+  why: The expectation asks for concepts of the social construction of identity and the theorists who developed them; the museum holds no record on these theorists or concepts.
+  searches:
+  - 'find_entity.py "Foucault" "Marx" "ماركس" "sociology": no real record'
+  - 'find_entity.py "racism" "العنصرية" "discrimination": no real record'
+- code: B1.3
+  text: explain how individual and systemic factors […] can cause or perpetuate inequity and social injustice
+  why: The expectation asks how individual and systemic factors cause or perpetuate inequity; the museum holds no record that treats these factors.
+  searches:
+  - 'find_entity.py "racism" "العنصرية" "discrimination": no real record'
+  - 'find_entity.py "gap between rich and poor" "الفجوة بين الأغنياء والفقراء" "inequality" "التفاوت": no real record on inequality (one Muwatta passage on cloth sales matched a word only)'
+- code: B2.2
+  text: analyse the effects of bias, stereotypes, prejudice, discrimination, and oppression on individuals and groups […]
+  why: The expectation asks for the effects of bias, stereotypes, prejudice and oppression on individuals and groups; the museum holds no record on these effects.
+  searches:
+  - 'find_entity.py "prejudice" "التحيز" "stereotype" "الصورة النمطية": no real record'
+  - 'find_entity.py "racism" "العنصرية" "discrimination": no real record'
+- code: B2.3
+  text: analyse factors that affect political participa­tion, including standing for elected office, at the local, provincial, and/or federal level in Canada […]
+  why: The expectation is about political participation in Canada; the museum holds no record on Canadian politics or elections.
+  searches:
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose'
+  - 'find_entity.py "suffrage" "حق التصويت" "vote" "election": concept/ikhtiyar (choice by the responsible agent) and a candidate''s manifesto source only; nothing on participation in Canada'
+- code: B2.4
+  text: demonstrate an understanding of how the use of language can empower or marginalize individuals and groups […]
+  why: The expectation asks how language empowers or marginalises groups (colonial languages, reclaimed words); the museum holds no record on language and power.
+  searches:
+  - 'find_entity.py "colonial language" "لغة المستعمر" "linguistic": only concept/malakat-al-lugha (the linguistic habitus), which is not about power or marginalisation'
+  - 'find_entity.py "Arabic language" "اللغة" "language": language/arabic and records on grammar and script; none on language as power'
+- code: B3.1
+  text: analyse stereotypes found in the media and popular culture, and assess their impact […]
+  why: The expectation asks for stereotypes in media and popular culture and their impact; the museum holds no record that analyses media stereotypes.
+  searches:
+  - 'find_entity.py "prejudice" "التحيز" "stereotype" "الصورة النمطية": no real record'
+  - 'find_entity.py "media" "الإعلام" "stereotype": only book and source records whose titles contain the word "al-A''lam"'
+- code: B3.2
+  text: analyse the viewpoints in news reports […] on equity and social justice issues
+  why: The expectation asks for the viewpoints in news reports on equity issues; the museum holds no record on news coverage.
+  searches:
+  - 'find_entity.py "newspaper" "الصحافة" "journalism" "news report": only source records of single newspaper articles, no entity on news reporting'
+  - 'find_entity.py "media" "الإعلام" "stereotype": no relevant entity'
+- code: B3.3
+  text: demonstrate an understanding of various ways in which media and popular culture can be used to raise awareness of equity and social justice issues […]
+  why: The expectation asks how media and popular culture raise awareness of equity issues; the museum holds no record that says so of any work.
+  searches:
+  - 'find_entity.py "media" "الإعلام" "stereotype": no relevant entity'
+  - screen/bilal-jil-jadid-2015 exists, an animated film about Bilal ibn Rabah, but its record says nothing about raising awareness of equity (it has errors in its director fields), so it cannot carry a link
+- code: C1.1
+  text: analyse the rationale for specific instances of social injustice in Canadian history […], and demonstrate an understanding of how perspectives on the issues related to these historical injustices have changed
+  why: The expectation is about injustices in Canadian history (residential schools, internment, Africville and others); the museum holds no record on Canadian history.
+  searches:
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada has no prose'
+  - 'find_entity.py "Indigenous" "السكان الأصليين" "First Nations": no real record'
+- code: C1.3
+  text: analyse the role of economics and globaliza­tion in promoting or impeding equity or social justice […]
+  why: The expectation asks how economics and globalisation promote or impede equity (World Bank policies, maquiladoras, microcredit); the museum holds no record on these.
+  searches:
+  - 'find_entity.py "microcredit" "القروض الصغيرة" "globalization" "العولمة": no real record'
+  - 'find_entity.py "labour" "union" "نقابة" "workers": no relevant entity'
+- code: C1.4
+  text: assess the equity and social justice implications of major environmental issues […]
+  why: The expectation asks for the equity implications of major environmental issues (privatised water, electronic waste, climate policy); no record addresses who bears the burden of an environmental harm.
+  searches:
+  - 'find_entity.py "environment" "البيئة" "water" "المياه": concept/sabil (a public water fountain) and concept/water-of-life (no prose); neither concerns equity in environmental policy'
+  - 'concept/environmental-protection-in-islam exists: it reports one author saying pollution threatens persons and societies, and says nothing on who bears the burden, so it cannot carry this expectation'
+- code: C2.1
+  text: evaluate the achievements of a range of individual Canadians […] in the areas of equity and social justice
+  why: The expectation asks for the achievements of individual Canadians in equity and social justice; the museum holds no record on any Canadian activist.
+  searches:
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada has no prose'
+  - 'find_entity.py "Mandela" "Rosa Parks" "activist" "ناشط": only source records, no entity on a Canadian'
+- code: C2.4
+  text: describe the issues leading to the establishment of a range of secular social justice movements or organizations […], and assess the impact of these movements on individuals and groups
+  why: The expectation asks for secular social justice movements or organisations (labour movement, Greenpeace, Doctors Without Borders). The museum has no record of one; its nearest, Hilf al-Fudul, is a pledge sworn by clans and is used under D1.4, not here.
+  searches:
+  - 'find_entity.py "Doctors Without Borders" "charity organisation" "جمعية خيرية" "humanitarian": only fatwa records on charities'
+  - 'find_entity.py "labour" "union" "نقابة" "workers": no relevant entity'
+- code: C3.1
+  text: compare challenges facing various equity-seeking groups […], and describe some of the policies, strategies, and initiatives used by these groups to address their concerns
+  why: The expectation asks for challenges facing equity-seeking groups (gender, race, poverty, disability) and the policies they use; the museum holds no record on such groups' strategies.
+  searches:
+  - 'find_entity.py "disability" "الإعاقة" "ذوي الاحتياجات": a fatwa on zakat for a woman with a mental disability and a concept on "behavioural disability" only'
+  - 'find_entity.py "poor" "الفقير" "poverty" "مسكين": hadith passages and a Sufi concept of poverty, no record on a group seeking equity'
+- code: C3.2
+  text: describe the ways in which Aboriginal peoples in Canada and other indigenous groups around the world […] have used laws or international atten­tion to try to effect changes in domestic policy with respect to social justice issues
+  why: The expectation asks how Aboriginal peoples and other indigenous groups have used law or international attention to change policy; the museum holds no record on indigenous peoples.
+  searches:
+  - 'find_entity.py "Indigenous" "السكان الأصليين" "First Nations": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada has no prose'
+- code: C3.3
+  text: compare the ways in which injustices against women […] have been addressed in Canada to the ways they have been addressed in other countries, with refer­ence both to public policy and the strategies used by groups, particularly women’s groups, to effect …
+  why: The expectation asks to compare how injustices against women have been addressed in Canada and elsewhere, by public policy and by women's groups; the museum holds no record of such a policy or group.
+  searches:
+  - 'find_entity.py "violence against women" "العنف ضد المرأة" "political leadership women": no real record'
+  - 'find_entity.py "women" "المرأة" "women''s rights": rulings on women in fiqh and Muwatta passages, no record on policy or women''s groups; concept/islamic-feminism is a two-sentence draft'
+- code: D1.1
+  text: describe how fundamental values, attitudes, and day-to-day behaviour […] can contribute to equity and social justice
+  why: The expectation asks how personal values and behaviour contribute to equity; no record speaks of everyday values in that sense.
+  searches:
+  - 'find_entity.py "justice" "عدل" "social justice": concept/adl defines uprightness as a legal condition of witnesses, imams and judges, not a personal value in daily behaviour'
+  - 'find_entity.py "Hilf al-Fudul" "حلف الفضول" "fudul": event/hilf-al-fudul is used under D1.4'
+- code: D1.2
+  text: describe how education can help promote equity and social justice […]
+  why: The expectation asks how education promotes equity and social justice; the museum holds no record that treats education in those terms.
+  searches:
+  - 'find_entity.py "education" "التعليم" "madrasa" "school": concept/madrasa and records on legal schools of thought, nothing on education and equity'
+  - 'find_entity.py "research methods" "منهج البحث" "citation" "APA": no relevant entity'
+- code: D1.3
+  text: analyse ways in which personal actions […] can empower individuals and reduce the impact of inequity or social injustice in local, national, and international contexts
+  why: The expectation asks how personal actions (voting, clubs, consumer action, unions) can reduce inequity in Canada; the museum holds no record on these actions.
+  searches:
+  - 'find_entity.py "suffrage" "حق التصويت" "vote" "election": nothing on voting as civic action'
+  - 'find_entity.py "boycott" "مقاطعة" "petition" "protest": events on the boycott of Banu Hashim and of the three, which are not actions for equity'
+- code: D2.3
+  text: describe volunteer opportunities that relate to equity and social justice initiatives in schools, in the local community, nationally, and globally, and that reflect their personal skills, knowledge, and interests […]
+  why: The expectation asks for volunteer opportunities in schools and communities; the museum holds no record on volunteering in that sense.
+  searches:
+  - 'find_entity.py "volunteer" "تطوع" "NGO": concept/tatawwu-voluntary-acts is about acts beyond the obligatory in worship and giving, not volunteer roles in equity groups'
+  - 'find_entity.py "Doctors Without Borders" "charity organisation" "جمعية خيرية" "humanitarian": only fatwa records on charities'
+- code: D3.1
+  text: identify a specific need related to an equity or social justice issue, and design an initiative to address this need […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: D3.2
+  text: identify strategies and skills needed for gaining support for and handling potential resistance to their initiative […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: D3.3
+  text: demonstrate an understanding of how to effectively evaluate social action initiatives […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: D3.4
+  text: implement their initiative using appropriate planning, organizational, evaluation, and communication skills
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: D3.5
+  text: reflect on the skills and strategies they used before, during, and after designing and implementing their initiative; explain which ones they found most useful in achieving their objectives; and identify what they would do differently in the future to improve …
+  why: 'skills expectation: names no subject matter'
+  searches: *id001

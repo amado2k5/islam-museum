@@ -1,0 +1,54 @@
+---
+// The course map (docs/courses-mission/DESIGN.md): every strand and every lesson of one course on one page,
+// so any lesson is one tap from here; what is done and what is next are painted by /shell/courses.js from local state.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../../components/PageHeader.astro";
+import CoursesStyle from "../../../../../components/CoursesStyle.astro";
+import { ui, fmt, type Lang } from "../../../../../lib/i18n";
+import { labelOf, summaryOf, href } from "../../../../../lib/graph";
+import { num } from "../../../../../lib/nav";
+import { COURSE_LANGS, courses, coursePath, lessonPath, homePath, slugOf, kindsOf, type Course } from "../../../../../lib/courses";
+
+export function getStaticPaths() { return COURSE_LANGS.flatMap((lang) => courses.map((c) => ({ params: { lang, course: slugOf(c.subject) }, props: { lang, c } }))); }
+const { lang, c } = Astro.props as { lang: Lang; c: Course };
+const T = ui(lang);
+const C = T.courses;
+const title = labelOf(c.subject, lang);
+const where = [c.jurisdiction && labelOf(c.jurisdiction, lang)].filter(Boolean).join(" · ");
+let i = 0;
+---
+<BaseLayout lang={lang} title={title} description={summaryOf(c.subject, lang)} path={coursePath(lang, c)} alternates={{ ar: coursePath("ar", c), en: coursePath("en", c), ur: coursePath("ur", c) }}>
+  <div data-pagefind-body>
+    <PageHeader title={title} lede={summaryOf(c.subject, lang)} crumbs={[{ label: T.nav.learn, href: `/${lang}/learn/` }, { label: T.syllabus.title, href: homePath(lang) }, { label: where }]} crumbsLabel={T.entity.breadcrumb} wing="ideas" titleAttrs={{ "data-pagefind-meta": "title" }} />
+  </div>
+  <CoursesStyle />
+  <div class="wrap cx" data-cx="course" data-cx-course={slugOf(c.subject)} data-cx-title={title}>
+    <div class="cx-bar">
+      <a class="cx-btn primary" data-cx-continue href={lessonPath(lang, c, c.lessons[0])} data-label-start={C.start} data-label-next={C.resume_go}>{C.start} <span class="flip" aria-hidden="true">→</span></a>
+      <div class="cx-meter" data-cx-meter hidden>
+        <div class="cx-meter-track"><span class="cx-meter-fill" data-cx-fill></span></div>
+        <p class="ui" data-cx-progress data-tpl={C.progress} data-n={c.lessons.length} data-locale={lang}></p>
+      </div>
+    </div>
+    <p class="cx-draft ui">{C.draft_course}</p>
+    {c.strands.map((s) => (
+      <section class="cx-strand">
+        {s.node && <h2>{labelOf(s.node, lang)}</h2>}
+        {s.node && <p>{summaryOf(s.node, lang)}</p>}
+        <ol class="cx-lessons">
+          {s.lessons.map((l) => { i += 1; const kinds = kindsOf(l, lang); return (
+            <li><a class="cx-lesson" href={lessonPath(lang, c, l)} data-cx-lesson={slugOf(l)}>
+              <span class="cx-num" aria-hidden="true">{num(i, lang)}</span>
+              <b>{labelOf(l, lang)}</b>
+              <span class="cx-sum">{summaryOf(l, lang)}</span>
+              <span class="cx-meet">{kinds.map((k) => <span class="cx-tag">{k.label}{k.n > 1 ? ` × ${num(k.n, lang)}` : ""}</span>)}<span class="cx-state" data-cx-state data-done={C.done} data-next={C.next_up}></span></span>
+            </a></li>
+          ); })}
+        </ol>
+      </section>
+    ))}
+    <noscript><p class="cx-hint">{C.progress_nojs}</p></noscript>
+    <p class="ui"><a href={homePath(lang)}><span class="flip" aria-hidden="true">←</span> {C.all_courses}</a></p>
+  </div>
+  <script is:inline src="/shell/courses.js" defer></script>
+</BaseLayout>

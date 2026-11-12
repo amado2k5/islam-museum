@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-hsc4m",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "Social Sciences and Humanities",
+  "url_slug": "social-sciences-humanities",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/social-sciences-humanities"
+ },
+ "course_code": "HSC4M",
+ "ministry_course_name": "HSC4M",
+ "course": "World Cultures",
+ "grade": [
+  "12"
+ ],
+ "retrieved_utc": "2026-11-12T05:54:50Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=336bac12-a498-4812-b4b1-50f6921a43b0&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2025-03-11T12:40:55.3460404Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "27238b1da5514c5ed7dc21c42635c6c6fd522e0862970c0916767e56636b2ffa",
+  "official.json": "64e0444f4ba87ca536c1b15c8ce2cfd5ddafcacf8b8a726b12ec7436304ce00e"
+ },
+ "counts": {
+  "strands": 4,
+  "overall_expectations": 13,
+  "specific_expectations": 53
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

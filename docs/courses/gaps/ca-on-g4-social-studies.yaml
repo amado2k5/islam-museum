@@ -1,0 +1,178 @@
+course: course/ca-on-g4-social-studies
+gaps:
+- code: A1.1
+  text: "compare social organization […] in a few early societies, including at least one First Nation and one Inuit society […]"
+  why: "Asks the student to compare social organisation across a few early societies, including a First Nation and an Inuit society; the one record still linked (dress in al-Andalus) shows how dress marked groups, not how a society was organised, and the record on the groups of Medina was withdrawn on review."
+  searches:
+  - "concept/medina-society-at-hijra: tried for the lesson a-5 (the groups of Medina); withdrawn on review because the record's page carries a hostile generalisation about the Jews of Medina, and no record that carries such content is linked"
+  - "concept/al-ziyy-al-andalusi: linked in lesson a-5 for A1.2; it describes who wore what, and does not set out the social organisation of a society, so it does not carry A1.1"
+  - "earlier searches for this register (\"First Nation\", \"Inuit\"): no real record, so the societies the expectation names cannot be compared"
+- code: A2.1
+  text: "formulate questions to guide investigations into ways of life and relationships with the environment in a few early societies, including at least one First Nation and one Inuit society, with an emphasis on aspects of the interrelationship between the environment …"
+  why: "Inquiry-skill expectation (formulating questions) about ways of life and environment in early societies including a First Nation and an Inuit society; it asks for method and for societies the museum does not hold, and no record can honestly carry it."
+  searches:
+  - "find_entity.py \"First Nation\" \"الأمم الأولى\" \"Haudenosaunee\" \"Indigenous\": no real record"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Eskimo\" \"Arctic\": one real record, concept/muwala (a fiqh term, not Inuit); nothing usable"
+  - "find_entity.py \"oral history\" \"رواية شفوية\" \"primary sources\": one source record (an interview), no entity about inquiry method"
+  - "second pass: re-read against concept/unglazed-earthenware, concept/agriculture-in-islam and invention/tabula-rogeriana (taught in lessons a-4 and a-7 under A3.2 and A1.4; the Idrisi map was removed from lesson a-8 on review and A3.1 is in this register); this expectation is the skill of formulating questions and names no subject matter a record could carry, so it stays here"
+- code: A2.2
+  text: "gather and organize information on ways of life and relationships with the environment in a few early societies, including at least one First Nation and one Inuit society, using a variety of primary and secondary sources in both print and …"
+  why: "Inquiry-skill expectation (gathering information from primary and secondary sources) including First Nation and Inuit societies and Elders' oral history; the museum holds no such records."
+  searches:
+  - "find_entity.py \"First Nation\" \"الأمم الأولى\" \"Haudenosaunee\" \"Indigenous\": no real record"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Eskimo\" \"Arctic\": one real record, concept/muwala (a fiqh term, not Inuit); nothing usable"
+  - "find_entity.py \"oral history\" \"رواية شفوية\" \"primary sources\": one source record (an interview), no entity about inquiry method"
+  - "second pass: concept/unglazed-earthenware (an artefact record) is taught in lesson a-4 under A3.2; gathering primary and secondary sources, including Elders' oral history and visits to First Nations cultural centres, is a skill whose named sources the museum does not hold"
+- code: A2.3
+  text: "analyse and construct print and/or digital maps, including thematic maps, as part of their investigations into interrelationships between the environment and life in a few early societies, including at least one First Nation and one Inuit society […]"
+  why: "Map-skills expectation about thematic maps of environment and life in early societies including a First Nation and an Inuit society; no record is a thematic map of those societies."
+  searches:
+  - "find_entity.py \"First Nation\" \"الأمم الأولى\" \"Haudenosaunee\" \"Indigenous\": no real record"
+  - "find_entity.py \"map\" \"خريطة\" \"Idrisi\" \"cartography\": invention/tabula-rogeriana is a world map of the Islamic Middle Ages, not a thematic map of environment or of an early society named by the expectation"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Eskimo\" \"Arctic\": one real record, concept/muwala (a fiqh term, not Inuit); nothing usable"
+  - "second pass: find_entity.py \"map\" \"خريطة\" \"atlas\" \"world map\": invention/tabula-rogeriana was tried in lesson a-8 under A3.1 (finding places on a map) and removed on review; analysing and constructing thematic maps of the environment and life is a skill the Idrisi record does not teach, so A2.3 stays here"
+- code: A2.4
+  text: "interpret and analyse information relevant to their investigations, using a variety of tools […]"
+  why: "Inquiry-skill expectation (interpreting artefacts, paintings, petroglyphs) tied to First Nation and Inuit societies; no usable record."
+  searches:
+  - "find_entity.py \"First Nation\" \"الأمم الأولى\" \"Haudenosaunee\" \"Indigenous\": no real record"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Eskimo\" \"Arctic\": one real record, concept/muwala (a fiqh term, not Inuit); nothing usable"
+  - "find_entity.py \"paper\" \"ورق\" \"papermaking\": concept/gold-leaf-glass-tesserae is about the purity of gold in mosaic cubes, not daily life shown by visual evidence"
+  - "second pass: find_entity.py \"pottery\" \"فخار\" \"ceramic\" \"lustre\": concept/unglazed-earthenware is taught in lesson a-4 under A3.2 (reading daily life from visual evidence); A2.4 is the general skill of analysing information with tools, and its named examples (petroglyphs, hunting customs of a First Nation and an Inuit society) are outside the museum, so it stays here"
+- code: A2.5
+  text: "evaluate evidence and draw conclusions about ways of life and relationships with the environment in a few early societies, including at least one First Nation and one Inuit society, with an emphasis on aspects of the interrelationship between the environment …"
+  why: "Inquiry-skill expectation (evaluating evidence, drawing conclusions) about environment and life in early societies including a First Nation and an Inuit society; no record to carry it."
+  searches:
+  - "find_entity.py \"First Nation\" \"الأمم الأولى\" \"Haudenosaunee\" \"Indigenous\": no real record"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Eskimo\" \"Arctic\": one real record, concept/muwala (a fiqh term, not Inuit); nothing usable"
+  - "find_entity.py \"oral history\" \"رواية شفوية\" \"primary sources\": one source record (an interview), no entity about inquiry method"
+  - "second pass: no record teaches evaluating evidence and drawing conclusions; the records now used in lessons a-4 to a-7 carry subject matter, not this skill"
+- code: A2.6
+  text: "communicate the results of their inquiries, using appropriate vocabulary […] and formats […]"
+  why: "Inquiry-skill expectation (communicating results) about early societies including a First Nation and an Inuit society; method only, no record to link."
+  searches:
+  - "find_entity.py \"First Nation\" \"الأمم الأولى\" \"Haudenosaunee\" \"Indigenous\": no real record"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Eskimo\" \"Arctic\": one real record, concept/muwala (a fiqh term, not Inuit); nothing usable"
+  - "find_entity.py \"oral history\" \"رواية شفوية\" \"primary sources\": one source record (an interview), no entity about inquiry method"
+  - "second pass: no record teaches communicating inquiry results; the Try this activities of lessons a-4 to a-7 are the lessons' own, not a record"
+- code: A3.1
+  text: "identify the location of some early societies, including at least one First Nation and one Inuit society, on a globe or on print, digital, and/or interactive maps, and demonstrate the ability to extract information on early societies’ relationship with the …"
+  why: "Asks the student to locate early societies, including a First Nation and an Inuit society, on maps and take information from them; the only map record is a map of its maker's world and does not locate any society the curriculum names."
+  searches:
+  - "invention/tabula-rogeriana: tried for the lesson a-8 and removed on review; the record describes a silver disc and seventy maps of the medieval inhabited world, not the location of an early society or its relation to the environment"
+  - "earlier searches for this register (\"First Nation\", \"Inuit\"): no real record, so no society named by the expectation can be located on a map from the museum's holdings"
+- code: B1.1
+  text: "analyse some of the general ways in which the natural environment of regions in Canada has affected the development of industry […]"
+  why: "How the natural environment of Canadian regions shaped industry; the museum holds no record on Canadian regions or industries."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"mining\" \"تعدين\" \"metals mine\": no usable record (a fatwa and a source record)"
+  - "find_entity.py \"forest\" \"غابة\" \"forestry\" \"logging\": place/al-ghaba and two raids; no record about forestry"
+  - "find_entity.py \"fishing\" \"صيد السمك\" \"fisheries\": no real record"
+- code: B1.2
+  text: "assess aspects of the environmental impact of different industries in two or more physical and/or political regions of Canada […]"
+  why: "Environmental impact of industries in Canadian regions; no Canadian industry records."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"mining\" \"تعدين\" \"metals mine\": no usable record (a fatwa and a source record)"
+  - "find_entity.py \"fishing\" \"صيد السمك\" \"fisheries\": no real record"
+  - "find_entity.py \"environment stewardship\" \"البيئة\" \"khalifa steward\" \"hima\": concept/hima is a reserved pasture; concept/environmental-protection-in-islam is one author's reading with no actions by industry or citizens, and neither concerns Canada"
+- code: B1.3
+  text: "describe some key actions taken by both industries and citizens to address the need for more sustainable use of land and resources […], and assess their effectiveness"
+  why: "Actions by industries and citizens in Canada for sustainable use of land and resources; the closest records concern a reserved pasture and an author's reading, neither describing such actions."
+  searches:
+  - "find_entity.py \"environment stewardship\" \"البيئة\" \"khalifa steward\" \"hima\": concept/hima is a reserved pasture; concept/environmental-protection-in-islam is one author's reading with no actions by industry or citizens, and neither concerns Canada"
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"mining\" \"تعدين\" \"metals mine\": no usable record (a fatwa and a source record)"
+- code: B2.1
+  text: "formulate questions to guide investigations into some of the issues and challenges associated with balancing human needs/wants and activities with environmental stewardship in one or more of the political and/or physical regions of Canada"
+  why: "Inquiry-skill expectation (formulating questions) about balancing needs with environmental stewardship in Canadian regions; no Canadian record."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"environment stewardship\" \"البيئة\" \"khalifa steward\" \"hima\": concept/hima is a reserved pasture; concept/environmental-protection-in-islam is one author's reading with no actions by industry or citizens, and neither concerns Canada"
+  - "find_entity.py \"Ontario\" \"أونتاريو\" \"Toronto\" \"Ottawa\": place/ontario, place/toronto, place/ottawa exist but none has prose"
+- code: B2.2
+  text: "gather and organize information and data from various sources to investigate issues and challenges associated with balancing human needs/wants and activities with environmental stewardship in one or more of the political and/or physical regions of Canada […]"
+  why: "Inquiry-skill expectation (gathering data) about stewardship in Canadian regions; no Canadian record."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"environment stewardship\" \"البيئة\" \"khalifa steward\" \"hima\": concept/hima is a reserved pasture; concept/environmental-protection-in-islam is one author's reading with no actions by industry or citizens, and neither concerns Canada"
+  - "find_entity.py \"map\" \"خريطة\" \"Idrisi\" \"cartography\": invention/tabula-rogeriana is a world map of the Islamic Middle Ages, not a thematic map of environment or of an early society named by the expectation"
+- code: B2.3
+  text: "analyse and construct print and/or digital maps, including thematic maps, as part of their investigations into balancing human needs/wants and activities with environmental stewardship in Canada […]"
+  why: "Map-skills expectation (thematic maps of Canada); no thematic map or Canadian record."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"map\" \"خريطة\" \"Idrisi\" \"cartography\": invention/tabula-rogeriana is a world map of the Islamic Middle Ages, not a thematic map of environment or of an early society named by the expectation"
+  - "find_entity.py \"mountains\" \"جبال\" \"tundra\" \"climate\": concept/mountains has no prose; no record on Canadian regions"
+- code: B2.4
+  text: "interpret and analyse information and data related to their investigations, using a variety of tools […]"
+  why: "Inquiry-skill expectation (interpreting data) about Canadian regions; no Canadian record."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"environment stewardship\" \"البيئة\" \"khalifa steward\" \"hima\": concept/hima is a reserved pasture; concept/environmental-protection-in-islam is one author's reading with no actions by industry or citizens, and neither concerns Canada"
+  - "find_entity.py \"mountains\" \"جبال\" \"tundra\" \"climate\": concept/mountains has no prose; no record on Canadian regions"
+- code: B2.5
+  text: "evaluate evidence and draw conclusions about issues and challenges associated with balancing human needs/wants and activities with environmental stewardship in Canada"
+  why: "Inquiry-skill expectation (evaluating evidence) about Canadian stewardship issues; no Canadian record."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"environment stewardship\" \"البيئة\" \"khalifa steward\" \"hima\": concept/hima is a reserved pasture; concept/environmental-protection-in-islam is one author's reading with no actions by industry or citizens, and neither concerns Canada"
+  - "find_entity.py \"Ontario\" \"أونتاريو\" \"Toronto\" \"Ottawa\": place/ontario, place/toronto, place/ottawa exist but none has prose"
+- code: B2.6
+  text: "communicate the results of their inquiries using appropriate vocabulary […] and formats […]"
+  why: "Inquiry-skill expectation (communicating results) about Canadian stewardship issues; no Canadian record."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"environment stewardship\" \"البيئة\" \"khalifa steward\" \"hima\": concept/hima is a reserved pasture; concept/environmental-protection-in-islam is one author's reading with no actions by industry or citizens, and neither concerns Canada"
+  - "find_entity.py \"mountains\" \"جبال\" \"tundra\" \"climate\": concept/mountains has no prose; no record on Canadian regions"
+- code: B3.1
+  text: "identify various physical regions in Canada […], and describe their location and some of the major ways in which they are distinct from and similar to each other […]"
+  why: "Identify and compare physical regions of Canada; place/canada has no prose and no record describes a Canadian landform, vegetation or climate region."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"mountains\" \"جبال\" \"tundra\" \"climate\": concept/mountains has no prose; no record on Canadian regions"
+  - "find_entity.py \"forest\" \"غابة\" \"forestry\" \"logging\": place/al-ghaba and two raids; no record about forestry"
+- code: B3.2
+  text: "identify some of the main human activities, including industrial development and recreational activities, in various physical regions of Canada […]"
+  why: "Main human activities in physical regions of Canada; no records on Canadian industry or recreation."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"mining\" \"تعدين\" \"metals mine\": no usable record (a fatwa and a source record)"
+  - "find_entity.py \"fishing\" \"صيد السمك\" \"fisheries\": no real record"
+  - "find_entity.py \"forest\" \"غابة\" \"forestry\" \"logging\": place/al-ghaba and two raids; no record about forestry"
+- code: B3.3
+  text: "describe the four main economic sectors (i.e., the primary sector is resource based, the secondary sector is based on manufacturing and processing, the tertiary sector is service based, the quaternary sector is information based), and identify some industries that are …"
+  why: "Describe the four economic sectors and industries in each; the only related record is about trade rulings."
+  searches:
+  - "find_entity.py \"economic sectors\" \"تجارة\" \"industry\": concept/trade-in-islam is about trade rulings, not the four economic sectors of Canada"
+  - "find_entity.py \"mining\" \"تعدين\" \"metals mine\": no usable record (a fatwa and a source record)"
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+- code: B3.4
+  text: "identify various types of political regions in Canada […], and describe some of their basic similarities and differences […]"
+  why: "Types of political regions in Canada; no records on provinces, territories, municipalities or First Nations bands."
+  searches:
+  - "find_entity.py \"provinces\" \"مقاطعة\" \"territories\": only boycott events; no record on Canadian provinces or territories"
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"Ontario\" \"أونتاريو\" \"Toronto\" \"Ottawa\": place/ontario, place/toronto, place/ottawa exist but none has prose"
+- code: B3.5
+  text: "identify Canada’s provinces and territories and their capital cities, and describe them with reference to their location and some of the peoples who live in them […]"
+  why: "Canada's provinces and territories and their capitals; place/ontario, place/toronto and place/ottawa exist but have no prose, so nothing may be written from them."
+  searches:
+  - "find_entity.py \"Ontario\" \"أونتاريو\" \"Toronto\" \"Ottawa\": place/ontario, place/toronto, place/ottawa exist but none has prose"
+  - "find_entity.py \"provinces\" \"مقاطعة\" \"territories\": only boycott events; no record on Canadian provinces or territories"
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+- code: B3.6
+  text: "describe significant opportunities and challenges related to quality of life in some of Canada’s political regions […]"
+  why: "Opportunities and challenges for quality of life in Canadian political regions; no Canadian records."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"
+  - "find_entity.py \"Ontario\" \"أونتاريو\" \"Toronto\" \"Ottawa\": place/ontario, place/toronto, place/ottawa exist but none has prose"
+  - "find_entity.py \"environment stewardship\" \"البيئة\" \"khalifa steward\" \"hima\": concept/hima is a reserved pasture; concept/environmental-protection-in-islam is one author's reading with no actions by industry or citizens, and neither concerns Canada"
+- code: B3.7
+  text: "demonstrate an understanding of cardinal and intermediate directions (i.e., NW, SW, NE, and SE), and use these directions as well as number and letter grids to locate selected political and physical regions of Canada on a variety of print and …"
+  why: "Cardinal and intermediate directions and map grids for Canadian regions; the only related record is the prayer direction, which is not map-reading."
+  searches:
+  - "find_entity.py \"compass directions\" \"اتجاهات\" \"qibla\": concept/qibla is the prayer direction, not map-reading with cardinal and intermediate directions or grids"
+  - "find_entity.py \"map\" \"خريطة\" \"Idrisi\" \"cartography\": invention/tabula-rogeriana is a world map of the Islamic Middle Ages, not a thematic map of environment or of an early society named by the expectation"
+  - "find_entity.py \"Canada\" \"كندا\" \"Canadian\": place/canada exists but has no prose; nothing else about Canadian geography"

@@ -1,0 +1,206 @@
+course: course/ca-on-g1-science
+gaps:
+- code: A1.1
+  text: use a scientific research process and associated skills to conduct investigations
+  why: 'skills expectation: names no subject matter (a research process)'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials
+  why: 'skills expectation: names no subject matter (health and safety procedures)'
+  searches: *id001
+- code: A1.5
+  text: communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes
+  why: 'skills expectation: names no subject matter (communicating findings)'
+  searches: *id001
+- code: A2.1
+  text: write and execute code in investigations and when modelling concepts, with a focus on creating clear and precise instructions for simple algorithms
+  why: The expectation asks the student to write and run code. The museum holds no record about programming; al-Khwarizmi's algorism is about decimal reckoning, not instructions for a computer, and linking it would stretch the expectation.
+  searches:
+  - 'find_entity.py "coding" "برمجة" "programming": no real record'
+  - 'find_entity.py "algorithm" "خوارزمية" "al-Khwarizmi": person/al-khwarizmi and invention/algorism exist, but they concern arithmetic and algebra, not writing code'
+- code: A2.2
+  text: identify and describe impacts of coding and of emerging technologies on everyday life
+  why: The expectation asks about the impact of coding and emerging technologies on everyday life; the museum holds no record on coding or on emerging technologies.
+  searches:
+  - 'find_entity.py "coding" "برمجة" "programming": no real record'
+  - 'find_entity.py "algorithm" "خوارزمية" "al-Khwarizmi": only records on arithmetic and algebra; nothing on technology and everyday life today'
+- code: A3.2
+  text: investigate how science and technology can be used with other subject areas to address real-world problems
+  why: 'skills expectation: names no subject matter (using science and technology with other subject areas)'
+  searches: *id001
+- code: B1.1
+  text: describe changes or problems that could result from the loss of living and non-living things that are part of everyday life, while taking different perspectives into consideration
+  why: The expectation asks about problems that follow from losing living and non-living things in everyday life, from different perspectives; the museum has one Arabic-only record on waste and no record on loss of living things in a student's surroundings.
+  searches:
+  - 'find_entity.py "waste" "نفايات" "recycling": concept/al-israf (extravagance and waste) has Arabic prose only, so it cannot carry an English and Urdu connection; the rest are fatwas and wars'
+  - 'find_entity.py "plants" "النبات" "botany": concept/trees-plants has no prose'
+- code: B2.1
+  text: demonstrate an understanding of the natural environment as a place where living and non-living things are interconnected
+  why: The expectation asks the student to understand the natural environment as a place where living and non-living things are interconnected; no record describes such an interconnection that a student of Grade 1 could use.
+  searches:
+  - 'find_entity.py "rain" "المطر" "weather": concept/rain has no prose'
+  - 'find_entity.py "plants" "النبات" "botany": concept/trees-plants has no prose; exhibit/path-botany has prose but no cited statement about interconnection'
+- code: B2.3
+  text: identify the physical characteristics of various plants and animals, including humans, and explain how these characteristics help the plants and animals meet their basic needs
+  why: The expectation asks about the physical characteristics of plants and animals and how they help them meet their needs. work/kitab-al-hayawan is a book about animals, but its record describes the book, not any animal's characteristics.
+  searches:
+  - 'find_entity.py "camel" "الجمل" "ناقة": concept/camel has no prose'
+  - 'find_entity.py "work/kitab-al-hayawan" and plants: the book record describes the work and its editor, not characteristics of animals; concept/trees-plants has no prose'
+- code: B2.6
+  text: describe ways in which living things provide for the needs of other living things
+  why: The expectation asks how living things provide for the needs of other living things; no record states such a relation.
+  searches:
+  - 'find_entity.py "food" "الطعام" "nutrition": records are about slaughter and grain transport, not one living thing feeding another'
+  - 'find_entity.py "migration" "هجرة الطيور" "birds": concept/birds has no prose; the migration records are about the Hijra to Abyssinia'
+- code: C1.1
+  text: describe everyday uses of energy at school and at home, and suggest ways to use energy responsibly
+  why: The expectation asks about everyday uses of energy at home and school; the museum holds no record on energy or its use.
+  searches:
+  - 'find_entity.py "energy" "طاقة" "solar": only astronomical tables and instruments, no record on energy'
+  - 'find_entity.py "fire" "الوقود" "fuel": concept/fire has no prose; the others are about Jahannam'
+- code: C1.2
+  text: describe how the lives of people and other living things would be affected if electrical energy were no longer available
+  why: The expectation asks how life would change without electrical energy; the museum holds no record on electricity.
+  searches:
+  - 'find_entity.py "electricity" "كهرباء" "electric": only the pilot course records for Grade 6 (course/ca-on-g6-sci-elec-*), which are not museum knowledge records'
+  - 'find_entity.py "energy" "طاقة" "solar": no record on electrical energy'
+- code: C2.1
+  text: demonstrate an understanding that energy is the ability to move or change something
+  why: The expectation asks for an understanding of energy as the ability to move or change something; no record defines or explains energy.
+  searches:
+  - 'find_entity.py "energy" "طاقة" "solar": no record on energy'
+  - 'find_entity.py "fire" "الوقود" "fuel": concept/fire has no prose'
+- code: C2.2
+  text: demonstrate an understanding that the Sun is Earth’s principal source of energy, including how it warms the air, land, and water; is a source of light for Earth; and makes it possible for plants to grow
+  why: The expectation asks for an understanding of the Sun as Earth’s principal source of energy. concept/sun exists but has no prose, so nothing can be restated.
+  searches:
+  - 'find_entity.py "sun" "الشمس" "sunlight": concept/sun has no prose; the other hits are persons whose names contain the word'
+  - 'find_entity.py "energy" "طاقة" "solar": only astronomical records (solar-time tables, solar apogee), none about the Sun as a source of energy'
+- code: C2.3
+  text: identify food as a source of energy for living things
+  why: The expectation asks to identify food as a source of energy for living things; no record says so.
+  searches:
+  - 'find_entity.py "food" "الطعام" "nutrition": slaughter in fiqh and grain transport; nothing on food as energy'
+  - 'find_entity.py "energy" "طاقة" "solar": no record on energy'
+- code: C2.4
+  text: identify everyday uses of various sources of energy
+  why: The expectation asks for everyday uses of various sources of energy; the museum holds no record on sources of energy.
+  searches:
+  - 'find_entity.py "energy" "طاقة" "solar": no record on sources of energy'
+  - 'find_entity.py "fire" "الوقود" "fuel": concept/fire has no prose'
+- code: C2.5
+  text: demonstrate an understanding that humans get the energy resources they need from the world around them, and that the supply of many of these resources is limited
+  why: The expectation asks about energy resources people take from the world and their limited supply; the museum holds no record on energy resources.
+  searches:
+  - 'find_entity.py "energy" "طاقة" "solar": no record on energy resources'
+  - 'find_entity.py "waste" "نفايات" "recycling": nothing on limited resources'
+- code: C2.6
+  text: describe seasonal differences in how we use energy and in the forms of energy we use
+  why: The expectation asks about seasonal differences in how energy is used; the museum holds no record on energy use or on seasons.
+  searches:
+  - 'find_entity.py "seasons" "الفصول" "four seasons": four work records named Fusul (chapters), none about seasons; exhibit/path-festival-year is a trail through the religious seasons (Ramadan, the festivals), not about weather or energy'
+  - 'find_entity.py "winter" "الشتاء" "cold clothing": only a journey in a freezing winter, no statement about energy use'
+- code: D1.1
+  text: identify the kinds of waste materials produced by humans, and plan and carry out a course of action for minimizing waste in the classroom or at home, explaining why each action is important
+  why: The expectation asks the student to identify kinds of waste and plan to reduce it; the only waste records are fatwas, wars and an Arabic-only record on extravagance.
+  searches:
+  - 'find_entity.py "waste" "نفايات" "recycling": concept/al-israf has Arabic prose only; fatwas on aquarium water and on recycling plastic caps are rulings, which the museum does not use for science lessons'
+  - 'find_entity.py "israf" "إسراف" "extravagance": concept/al-israf again, Arabic only'
+- code: D2.4
+  text: describe observable characteristics of various everyday objects, including structures, using qualitative information gathered through their senses
+  why: The expectation asks the student to describe observable characteristics of everyday objects using the senses; the object records the museum holds are catalogued museum pieces, none described through a child’s senses.
+  searches:
+  - 'find_entity.py "wood" "خشب" "timber": object/loha-fatimi-1 to 3 are wood panels, but they are catalogued art objects without a statement about observable properties for this lesson'
+  - 'find_entity.py "glass" "زجاج" "lamp": concept/andalusi-lead-glass is used in a lesson; the others describe composition, not sensory characteristics'
+- code: D2.5
+  text: describe purposes of everyday objects, including structures
+  why: The expectation asks for the purposes of everyday objects. The museum’s object and invention records give purposes of historic pieces, but none an honest match for the everyday objects the expectation names.
+  searches:
+  - 'find_entity.py "shelter" "مأوى" "tent": tent hangings and Rufayda’s tent for the wounded; neither tied to this expectation'
+  - 'find_entity.py "fastener" "مثبت" "joint": no record on fasteners'
+- code: D2.7
+  text: identify different kinds of fasteners and describe uses for each
+  why: The expectation asks for different kinds of fasteners and their uses; the museum holds no record on fasteners.
+  searches:
+  - 'find_entity.py "fastener" "مثبت" "joint": hits are about joint conquests and a joint operation'
+  - 'find_entity.py "nail" "مسمار" "rivet": hits are about nail polish and a person’s name'
+- code: D2.8
+  text: identify sources in nature of some common materials that are used to make various objects, including structures
+  why: The expectation asks for natural sources of common materials; the museum holds no record on the natural origin of materials such as wood or clay.
+  searches:
+  - 'find_entity.py "wood" "خشب" "timber": only Fatimid wood panels and concept/aghac, a unit of distance; nothing on where wood comes from'
+  - 'find_entity.py "plants" "النبات" "botany": concept/trees-plants has no prose'
+- code: E1.1
+  text: assess the impact of daily and seasonal changes on human outdoor activities, and identify innovations that enable people to engage in various activities year-round
+  why: The expectation asks about the impact of daily and seasonal changes on outdoor activities and innovations that allow year-round activity; no record describes such innovations.
+  searches:
+  - 'find_entity.py "yakhchal" "ice house" "ثلاجة": no real record'
+  - 'find_entity.py "winter" "الشتاء" "cold clothing": one journey through a freezing winter, nothing on year-round activity'
+- code: E1.2
+  text: assess ways in which daily and seasonal changes have an impact on society, the environment, and living things in the natural environment
+  why: The expectation asks how daily and seasonal changes affect society, environment and living things; no record states such an effect.
+  searches:
+  - 'find_entity.py "seasons" "الفصول" "four seasons": no record about the seasons themselves'
+  - 'find_entity.py "rain" "المطر" "weather": concept/rain has no prose; salat-al-istisqa is a prayer, whose treatment would be a ruling, not an effect on the environment'
+- code: E2.1
+  text: demonstrate an understanding of Earth’s relationship to the Sun and that this relationship results in daily and seasonal changes on Earth
+  why: The expectation asks for an understanding of Earth’s relationship to the Sun as the cause of daily and seasonal change. concept/sun has no prose and the sundial record does not state this relationship.
+  searches:
+  - 'find_entity.py "sun" "الشمس" "sunlight": concept/sun has no prose'
+  - 'find_entity.py "sundial" "مزولة" "astrolabe": the sundial and astrolabe records describe instruments, not why the Sun’s path changes through the year'
+- code: E2.4
+  text: describe and compare the four seasons in terms of the weather, including precipitation and temperature, in their local area
+  why: The expectation asks the student to describe and compare the four seasons in the local area; this depends on local weather and no museum record bears on it.
+  searches:
+  - 'find_entity.py "seasons" "الفصول" "four seasons": no record about the seasons'
+  - 'find_entity.py "rain" "المطر" "weather": concept/rain has no prose'
+- code: E2.5
+  text: describe changes in the appearance or behaviour of living things that are adaptations to seasonal changes
+  why: The expectation asks about changes in living things as adaptations to the seasons; no record describes such changes.
+  searches:
+  - 'find_entity.py "migration" "هجرة الطيور" "birds": concept/birds has no prose; the others are about the Hijra to Abyssinia'
+  - 'find_entity.py "camel" "الجمل" "ناقة": concept/camel has no prose'
+- code: E2.6
+  text: describe how humans prepare for, and respond to, daily and seasonal changes
+  why: The expectation asks how humans prepare for and respond to daily and seasonal changes; no record describes this in a way a lesson could restate.
+  searches:
+  - 'find_entity.py "winter" "الشتاء" "cold clothing": one journey in a freezing winter, nothing on preparation'
+  - 'find_entity.py "shelter" "مأوى" "tent": tent hangings and a medical tent, neither about seasonal preparation'
+- code: A1.2
+  text: use a scientific experimentation process and associated skills to conduct investigations
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.2
+  text: identify actions that can be taken to contribute to a healthy environment
+  why: The only record tried, concept/hima, is about who may graze a reserved pasture; it never speaks of clean air, clean water, nutritious food or any action for a healthy environment.
+  searches:
+  - 'concept/hima tried: reserved pasture for named animals, about access and forfeiture of property, not about the needs of living things or a healthy environment'
+  - 'fleet review (docs/courses-mission/verifier/sweep-science.md): no other record was found that states clean air, water or food as a need of living things'
+- code: B2.2
+  text: identify the basic needs of living things, including the need for air, water, food, heat, shelter, and space
+  why: The only record tried, concept/hima, is about who may graze a reserved pasture; it never names the basic needs of living things such as air, water, food, heat, shelter and space.
+  searches:
+  - 'concept/hima tried: reserved pasture for named animals, about access and forfeiture of property, not about the needs of living things or a healthy environment'
+  - 'fleet review (docs/courses-mission/verifier/sweep-science.md): no other record was found that states clean air, water or food as a need of living things'
+- code: B2.5
+  text: describe the characteristics of a healthy environment, including clean air and water and nutritious food, and how a healthy environment enables living things to meet their needs
+  why: The only record tried, concept/hima, is about who may graze a reserved pasture; it never describes a healthy environment or how it lets living things meet their needs.
+  searches:
+  - 'concept/hima tried: reserved pasture for named animals, about access and forfeiture of property, not about the needs of living things or a healthy environment'
+  - 'fleet review (docs/courses-mission/verifier/sweep-science.md): no other record was found that states clean air, water or food as a need of living things'
+- code: B2.4
+  text: identify the location and the function of various parts of the human body, including sensory organs
+  why: The only record tried, invention/haytham-incoming-light-vision, is a theory of vision that names no location of body parts and whose eye model is not the modern eye; its subject is above the age of Grade 1.
+  searches:
+  - 'invention/haytham-incoming-light-vision tried: a theory of how the eye sees, with obsolete anatomy, not a map of body parts and their functions'
+  - 'fleet review (docs/courses-mission/verifier/sweep-science.md): no record in the museum names the location and function of body parts at a level for Grade 1; anatomy records are draft and above the age'

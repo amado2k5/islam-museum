@@ -1,0 +1,189 @@
+course: course/ca-on-g2-science
+gaps:
+- code: A1.1
+  text: "use a scientific research process and associated skills to conduct investigations"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: A1.2
+  text: "use a scientific experimentation process and associated skills to conduct investigations"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: A1.3
+  text: "use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: A1.4
+  text: "follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: A1.5
+  text: "communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes"
+  why: "skills expectation: names no subject matter"
+  searches:
+  - "none: skills expectation"
+  - "none: skills expectation"
+- code: A2.1
+  text: "write and execute code in investigations and when modelling concepts, with a focus on decomposing problems into smaller steps"
+  why: "Asks the student to write and execute code, decomposing problems into steps; the museum holds no record on coding."
+  searches:
+  - "find_entity.py \"coding\" \"برمجة\" \"algorithm\": one real record, invention/algorism (reckoning with Indian numerals), which is arithmetic, not decomposing a problem into coded steps; nothing usable"
+  - "find_entity.py \"scientific method\" \"المنهج التجريبي\" \"experiment\" \"تجربة\": 12 records; none describes a research, experimentation or design process for pupils (nearest is invention/ibn-zuhr-goat-tracheotomy-demonstration, a surgical test); nothing usable"
+- code: A2.2
+  text: "identify and describe impacts of coding and of emerging technologies on everyday life"
+  why: "Asks the student to describe impacts of coding and emerging technologies on everyday life; the museum holds no record on either."
+  searches:
+  - "find_entity.py \"artificial intelligence\" \"الذكاء الاصطناعي\" \"emerging technology\": one real record, a fatwa on asking artificial intelligence for rulings; nothing on the impact of coding on everyday life"
+  - "find_entity.py \"coding\" \"برمجة\" \"algorithm\": one real record, invention/algorism (reckoning with Indian numerals), which is arithmetic, not decomposing a problem into coded steps; nothing usable"
+- code: A3.1
+  text: "describe practical applications of science and technology concepts in their home and community, and how these applications address real-world problems"
+  why: "Asks the student to describe practical applications of science and technology in the home and community; the museum holds no record describing such an application with prose of its own."
+  searches:
+  - "find_entity.py \"household\" \"المنزل\" \"waste\" \"النفايات\" \"recycling\": 19 records, hadith and biography passages about households; nothing on applications of science in a home"
+  - "find_entity.py \"pulley\" \"بكرة\" \"lever\" \"رافعة\" \"inclined plane\": 19 records, all persons named Abu Bakra; nothing on a pulley, inclined plane, wedge or screw"
+- code: B1.1
+  text: "examine impacts that animals can have on society and the environment, and describe some ways in which any negative impacts can be minimized"
+  why: "Asks the student to examine impacts that animals can have on society and the environment and how to minimise negative ones; the museum holds no record on animals' impact."
+  searches:
+  - "find_entity.py \"domestic animals\" \"الحيوانات الأليفة\" \"pets\" \"livestock\": concept/livestock has no prose; concept/anam and concept/sawm-bidding-and-pasture are fiqh rulings, not the impact of animals on society"
+  - "find_entity.py \"endangered species\" \"الحيوانات المهددة\" \"hunting\" \"habitat\": 10 records, all about hunting rulings and hunting-scene objects; nothing on human impact on animals' habitats"
+- code: B1.2
+  text: "assess impacts of various human activities on animals and the places where they live, and describe practices that can minimize negative impacts"
+  why: "Asks the student to assess impacts of human activities on animals and their habitats; the museum holds no record on this."
+  searches:
+  - "find_entity.py \"endangered species\" \"الحيوانات المهددة\" \"hunting\" \"habitat\": 10 records, all about hunting rulings and hunting-scene objects; nothing on human impact on animals' habitats"
+  - "find_entity.py \"domestic animals\" \"الحيوانات الأليفة\" \"pets\" \"livestock\": concept/livestock has no prose; concept/anam and concept/sawm-bidding-and-pasture are fiqh rulings, not the impact of animals on society"
+- code: B2.3
+  text: "describe the life cycle of a variety of animals, including insects, amphibians, birds, and mammals"
+  why: "Asks the student to describe the life cycle of insects, amphibians, birds and mammals; the museum holds no record on any animal's life cycle."
+  searches:
+  - "find_entity.py \"metamorphosis\" \"التحول\" \"egg\" \"chick\" \"tadpole\": 8 records, poems and hadith that mention an egg figuratively; nothing on animal life cycles"
+  - "find_entity.py \"locust\" \"الجراد\" \"metamorphosis\" \"life cycle\": concept/locust has no prose; the other hits are a hadith, a mosque and an earthquake event; nothing on a life cycle"
+  - "find_entity.py \"insect\" \"حشرة\" \"frog\" \"ضفدع\" \"bird\" \"طائر\" \"mammal\": 12 records; concept/frog has no prose; the others are a frog-rain event and a fiqh note on bird droppings; nothing on the life cycle of an animal"
+- code: B2.4
+  text: "compare changes in the appearance and behaviour of various animals as they go through a complete life cycle"
+  why: "Asks the student to compare changes in appearance and behaviour through a complete life cycle; no record describes a life cycle."
+  searches:
+  - "find_entity.py \"metamorphosis\" \"التحول\" \"egg\" \"chick\" \"tadpole\": 8 records, poems and hadith that mention an egg figuratively; nothing on animal life cycles"
+  - "find_entity.py \"insect\" \"حشرة\" \"frog\" \"ضفدع\" \"bird\" \"طائر\" \"mammal\": 12 records; concept/frog has no prose; the others are a frog-rain event and a fiqh note on bird droppings; nothing on the life cycle of an animal"
+- code: B2.5
+  text: "describe adaptations, including physical and/or behavioural characteristics, that allow various animals to survive in their natural environment"
+  why: "Asks the student to describe adaptations that let animals survive in their environment; no record describes an animal's adaptation."
+  searches:
+  - "find_entity.py \"adaptation\" \"التكيف\" \"desert animals\": no real record"
+  - "find_entity.py \"camel\" \"الجمل\" \"الإبل\": concept/camel has no prose; the other hits are hadith passages on zakat and a battle; nothing on how the camel survives in its environment"
+- code: C1.1
+  text: "assess practices related to the use, storage, and disposal of liquids and solids in the home in terms of the effects on personal health and safety and on the environment, and suggest ways to improve these practices"
+  why: "Asks the student to assess household practices for using, storing and disposing of liquids and solids; the museum holds no record on household practices of this kind."
+  searches:
+  - "find_entity.py \"household\" \"المنزل\" \"waste\" \"النفايات\" \"recycling\": 19 records, hadith and biography passages about households; nothing on applications of science in a home"
+  - "find_entity.py \"liquid\" \"سائل\" \"solid\" \"ice\" \"ثلج\": 23 records: event/baghdad-great-snow-398 (used in the lesson C-1), concept/maai-fiqh (a fiqh term for liquids in purification) and hadith passages; no record on properties of liquids and solids"
+- code: C2.1
+  text: "identify various types of matter in natural and built environments as liquids or solids"
+  why: "Asks the student to identify matter in natural and built environments as liquid or solid; no record describes matter as liquid or solid."
+  searches:
+  - "find_entity.py \"liquid\" \"سائل\" \"solid\" \"ice\" \"ثلج\": 23 records: event/baghdad-great-snow-398 (used in the lesson C-1), concept/maai-fiqh (a fiqh term for liquids in purification) and hadith passages; no record on properties of liquids and solids"
+  - "find_entity.py \"mixture\" \"خليط\" \"dissolve\" \"solution\": 17 records, all mathematical solutions of equations; nothing on mixtures of liquids and solids"
+- code: C2.2
+  text: "describe the properties of liquids and solids"
+  why: "Asks the student to describe the properties of liquids and solids; no record describes them."
+  searches:
+  - "find_entity.py \"liquid\" \"سائل\" \"solid\" \"ice\" \"ثلج\": 23 records: event/baghdad-great-snow-398 (used in the lesson C-1), concept/maai-fiqh (a fiqh term for liquids in purification) and hadith passages; no record on properties of liquids and solids"
+  - "find_entity.py \"mixture\" \"خليط\" \"dissolve\" \"solution\": 17 records, all mathematical solutions of equations; nothing on mixtures of liquids and solids"
+- code: C2.3
+  text: "describe properties of liquid water and solid water, and identify the conditions that cause changes from one state to the other"
+  why: "Asks the student to describe liquid and solid water and the conditions that change one into the other; the snow record reports a snowfall but does not describe the conditions of melting or freezing."
+  searches:
+  - "find_entity.py \"liquid\" \"سائل\" \"solid\" \"ice\" \"ثلج\": 23 records: event/baghdad-great-snow-398 (used in the lesson C-1), concept/maai-fiqh (a fiqh term for liquids in purification) and hadith passages; no record on properties of liquids and solids"
+  - "find_entity.py \"water cycle\" \"evaporation\" \"rain\" \"دورة الماء\": concept/rain has no prose; the other hits are rain prayers, hadith and events; nothing on evaporation, condensation or precipitation"
+- code: C2.4
+  text: "identify conditions in which the states of liquids and solids remain constant and conditions that can cause their states to change"
+  why: "Asks the student to identify conditions in which states stay constant or change; no record gives such conditions."
+  searches:
+  - "find_entity.py \"liquid\" \"سائل\" \"solid\" \"ice\" \"ثلج\": 23 records: event/baghdad-great-snow-398 (used in the lesson C-1), concept/maai-fiqh (a fiqh term for liquids in purification) and hadith passages; no record on properties of liquids and solids"
+  - "find_entity.py \"water cycle\" \"evaporation\" \"rain\" \"دورة الماء\": concept/rain has no prose; the other hits are rain prayers, hadith and events; nothing on evaporation, condensation or precipitation"
+- code: C2.5
+  text: "describe some ways in which liquids and solids can be combined to make useful mixtures"
+  why: "Asks the student to describe useful mixtures of liquids and solids; no record describes a mixture."
+  searches:
+  - "find_entity.py \"mixture\" \"خليط\" \"dissolve\" \"solution\": 17 records, all mathematical solutions of equations; nothing on mixtures of liquids and solids"
+  - "find_entity.py \"liquid\" \"سائل\" \"solid\" \"ice\" \"ثلج\": 23 records: event/baghdad-great-snow-398 (used in the lesson C-1), concept/maai-fiqh (a fiqh term for liquids in purification) and hadith passages; no record on properties of liquids and solids"
+- code: C2.7
+  text: "explain the meaning of international symbols that give us information on the safety of substances"
+  why: "Asks the student to explain international safety symbols for substances; no record on safety symbols."
+  searches:
+  - "find_entity.py \"hazard symbol\" \"رموز السلامة\" \"poison\" \"سم\": 4 records, hadith passages on saying the name of God before eating and a poisoning incident; no record on safety symbols"
+  - "find_entity.py \"safety goggles\" \"السلامة\" \"protective equipment\": 34 records, all matches on the word salama in names and hadith texts; no record on safety procedures in investigations"
+- code: D1.1
+  text: "assess the impact of simple machines on the daily lives of people in various communities"
+  why: "Asks the student to assess the impact of simple machines on the daily lives of people in various communities; the museum's machine records say they hold no figures for the people served, so no impact can be restated."
+  searches:
+  - "find_entity.py \"bridge\" \"جسر\" \"dam\" \"سد\" \"mill\" \"طاحونة\": 48 records, mostly battles, blood and a dam-burst event; no record on the impact of a machine or technology on a community or the environment"
+  - "find_entity.py \"pulley\" \"بكرة\" \"lever\" \"رافعة\" \"inclined plane\": 19 records, all persons named Abu Bakra; nothing on a pulley, inclined plane, wedge or screw"
+- code: D1.2
+  text: "assess the impact on the environment of technologies that use simple machines to facilitate movement"
+  why: "Asks the student to assess the impact on the environment of technologies that use simple machines to move things; no record assesses an environmental impact."
+  searches:
+  - "find_entity.py \"bridge\" \"جسر\" \"dam\" \"سد\" \"mill\" \"طاحونة\": 48 records, mostly battles, blood and a dam-burst event; no record on the impact of a machine or technology on a community or the environment"
+  - "find_entity.py \"pollution\" \"التلوث\" \"environment\" \"البيئة\" \"conservation\": 6 records; concept/environmental-protection-in-islam is a single author's statement that pollution of water, air and soil threatens safety, with no assessment of human activities and no plan for action; nothing else usable"
+- code: D2.2
+  text: "identify ways in which the position of an object can be changed"
+  why: "Asks the student to identify ways in which the position of an object can be changed; no record describes pushing, pulling or moving an object."
+  searches:
+  - "find_entity.py \"position\" \"موضع\" \"push\" \"pull\" \"دفع\" \"سحب\": no record on changing the position of an object; the hits are places, persons and fiqh terms"
+  - "find_entity.py \"force\" \"قوة\" \"friction\" \"weight\": 38 records, none on the force needed to move an object (hits are political power, weights in trade and hadith); nothing usable"
+- code: D2.5
+  text: "compare, qualitatively or quantitatively, the force required to move an object using various simple machines to the force required to move the object without using a simple machine"
+  why: "Asks the student to compare the force needed to move an object with and without a simple machine; no record compares forces."
+  searches:
+  - "find_entity.py \"force\" \"قوة\" \"friction\" \"weight\": 38 records, none on the force needed to move an object (hits are political power, weights in trade and hadith); nothing usable"
+  - "find_entity.py \"pulley\" \"بكرة\" \"lever\" \"رافعة\" \"inclined plane\": 19 records, all persons named Abu Bakra; nothing on a pulley, inclined plane, wedge or screw"
+- code: E1.1
+  text: "assess the impact of human activities on air and water, taking various perspectives into consideration, including those of First Nations, Métis, and Inuit, and plan a course of action to protect the quality of the air and/or water in the …"
+  why: "Asks the student to assess human impact on air and water, including First Nations, Métis and Inuit perspectives, and plan local action; the museum holds no First Nations, Métis or Inuit record and no local assessment."
+  searches:
+  - "find_entity.py \"pollution\" \"التلوث\" \"environment\" \"البيئة\" \"conservation\": 6 records; concept/environmental-protection-in-islam is a single author's statement that pollution of water, air and soil threatens safety, with no assessment of human activities and no plan for action; nothing else usable"
+  - "find_entity.py \"First Nations\" \"الأمم الأولى\" \"Métis\" \"Inuit\" \"Indigenous\": no real record"
+- code: E1.2
+  text: "assess their personal and household uses of water, and create a plan to use water responsibly"
+  why: "Asks the student to assess personal and household uses of water and plan responsible use; no record on household water use."
+  searches:
+  - "find_entity.py \"wudu\" \"الوضوء\" \"water use\" \"israf\" \"الإسراف\": practice/wudu is a rite of purification; concept/al-israf has Arabic prose only; no record on a household's use of water or on a plan to use it responsibly"
+  - "find_entity.py \"household\" \"المنزل\" \"waste\" \"النفايات\" \"recycling\": 19 records, hadith and biography passages about households; nothing on applications of science in a home"
+- code: E1.3
+  text: "examine the availability of fresh water and drinking water around the world, and describe the impact on communities"
+  why: "Asks the student to examine the availability of fresh and drinking water around the world and its impact on communities; no record on water availability."
+  searches:
+  - "find_entity.py \"water\" \"الماء\" \"drinking water\" \"ماء الشرب\" \"fresh water\": 96 records, mostly hadith and fiqh on purity; the one relevant record is concept/sabil, used in lesson E-1 for sources of water, but it does not describe the availability of drinking water around the world"
+  - "find_entity.py \"drought\" \"الجفاف\" \"famine\" \"well\" \"بئر\": 78 records, mostly hadith passages and an incident named Bi'r Ma'una; nothing on the availability of fresh water around the world"
+- code: E2.1
+  text: "demonstrate an understanding of the key properties of air and water"
+  why: "Asks the student to show understanding of the key properties of air and water; no record describes either."
+  searches:
+  - "find_entity.py \"air\" \"الهواء\" \"wind\" \"الريح\" \"atmosphere\": 16 records; concept/wind has no prose; concept/rih-fiqh is a legal ruling; nothing on the properties of air"
+  - "find_entity.py \"water\" \"الماء\" \"drinking water\" \"ماء الشرب\" \"fresh water\": 96 records, mostly hadith and fiqh on purity; the one relevant record is concept/sabil, used in lesson E-1 for sources of water, but it does not describe the availability of drinking water around the world"
+- code: E2.3
+  text: "describe the stages of the water cycle, including evaporation, condensation, precipitation, and collection"
+  why: "Asks the student to describe the stages of the water cycle; no record describes them."
+  searches:
+  - "find_entity.py \"cloud\" \"السحاب\" \"الغيث\" \"دورة المياه\" \"hydrological cycle\": concept/clouds has no prose; the other hits are a hadith simile and a person named Ghayth; nothing on the stages of the water cycle"
+  - "find_entity.py \"water cycle\" \"evaporation\" \"rain\" \"دورة الماء\": concept/rain has no prose; the other hits are rain prayers, hadith and events; nothing on evaporation, condensation or precipitation"
+- code: E2.4
+  text: "identify the three states of water in the environment, and describe how temperature changes affect the state of water within the water cycle"
+  why: "Asks the student to identify the three states of water in the environment and how temperature changes them; no record describes the three states or temperature."
+  searches:
+  - "find_entity.py \"water cycle\" \"evaporation\" \"rain\" \"دورة الماء\": concept/rain has no prose; the other hits are rain prayers, hadith and events; nothing on evaporation, condensation or precipitation"
+  - "find_entity.py \"liquid\" \"سائل\" \"solid\" \"ice\" \"ثلج\": 23 records: event/baghdad-great-snow-398 (used in the lesson C-1), concept/maai-fiqh (a fiqh term for liquids in purification) and hadith passages; no record on properties of liquids and solids"
+- code: E2.5
+  text: "describe ways in which living things, including humans, depend on air and water"
+  why: "Asks the student to describe how living things depend on air and water; no record describes this dependence."
+  searches:
+  - "find_entity.py \"plants\" \"النبات\" \"agriculture\" \"irrigation\" \"الري\": 49 records, mostly a place called Rayy and books of irrigation partnership in fiqh; concept/trees-plants has no prose; nothing on how living things depend on air and water"
+  - "find_entity.py \"water\" \"الماء\" \"drinking water\" \"ماء الشرب\" \"fresh water\": 96 records, mostly hadith and fiqh on purity; the one relevant record is concept/sabil, used in lesson E-1 for sources of water, but it does not describe the availability of drinking water around the world"

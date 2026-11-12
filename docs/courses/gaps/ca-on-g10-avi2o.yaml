@@ -1,0 +1,86 @@
+course: course/ca-on-g10-avi2o
+gaps:
+- code: A1.1
+  text: use a variety of strategies, individually and/or collaboratively, to generate ideas and to develop plans for the creation of art works […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: 'use experimentation, reflection, and revision when producing a variety of art works in each of the following areas: drawing, sculpture, painting, printmaking, and mixed media […]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: document their use of the creative process in a portfolio […], and refer to this portfolio to reflect on how effectively they have used the creative process
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: use various elements and principles of design to create art works that express personal feelings and/or communicate emotions to an audience […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: apply elements and principles of design as well as art-making conventions to create art works that communicate ideas, information, or messages, and/or that convey a point of view on an issue […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.1
+  text: identify and describe their initial reactions to a variety of art works, and explain the reasons for their reactions […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.2
+  text: identify and describe the elements and principles of design used in their own art works and the works of others, and describe their effects […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.4
+  text: use a variety of strategies […] to identify and reflect on the qualities of their own art works and the works of others, and evaluate the effectiveness of these works
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.3
+  text: identify and describe ways in which creating and/or analysing art works has affected their personal identity and values […]
+  why: The expectation is about how the student's own making and analysing changed their identity and values; the museum holds no record on that.
+  searches:
+  - 'find_entity.py "portrait" "تصوير" "self-portrait" "figurative art": concept/tasweer-images-and-picturing is a record on the view of picturing living beings, not on a student''s identity or values'
+  - 'find_entity.py "colour" "لون" "colour theory": records on legal colour (lawn-fiqh) and ceramics; none on a maker''s self-concept or stereotypes'
+- code: B3.3
+  text: describe, on the basis of exploration, a variety of personal opportunities in their community in cultural or other fields related to visual arts […]
+  why: The expectation asks for the student's own exploration of opportunities in their community; the museum holds no record on local arts opportunities in Ontario.
+  searches:
+  - 'find_entity.py "exhibition" "معرض" "gallery" "museum display": two source records (a gallery biography, a mosque photo-exhibition catalogue) and a person named Abu Mu''arrid; no record on community arts opportunities'
+  - 'find_entity.py "apprentice" "حرفة" "guild" "craft training": concept/hirfa-crafts is a set of fiqh rulings on crafts and concept/akhi-baba a guild title; neither speaks of community opportunities'
+- code: C1.3
+  text: identify and describe the stages of the creative process and the critical analysis process […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C3.1
+  text: identify legal and ethical issues associated with visual arts […], and demonstrate legal and ethical practices when creating, presenting, and/or promoting art works […]
+  why: The expectation is about copyright, ownership and cultural sensitivity in the student's own art; the one record found concerns the rights of research works after the author's death, not visual arts.
+  searches:
+  - 'find_entity.py "copyright" "حقوق النشر" "intellectual property" "plagiarism": one record, work/fatwa-dar-alifta-intellectual-property-of-research-after-death, about research works, not visual art'
+  - 'grep -rli "copyright" content/en/concept content/en/job content/en/work: only source-note mentions in works, no record on art copyright or cultural sensitivity'
+- code: C3.2
+  text: demonstrate an understanding of safe and conscientious practices associated with the use of materials, tools, and technologies in visual arts, and apply these practices when creating and/or presenting art works […]
+  why: The expectation is about safe practice with materials and tools in the studio; the museum holds no record on studio safety.
+  searches:
+  - 'find_entity.py "safety" "سلامة" "hazard" "toxic": names containing Salama and Muwatta passages, no record on hazardous materials or tools'
+  - 'grep -rli "toxic" content/en/concept: only fiqh concepts (ikhala, naqi, takhlil) and no art materials'
+- code: C3.3
+  text: demonstrate an understanding of how the production and presentation of art works can affect the environment, and apply environmentally responsible practices when creating and presenting art works […]
+  why: The expectation is about the environmental effect of making and showing art; the one related record is a writer's reading of pollution and the Islamic view, with nothing on art materials.
+  searches:
+  - 'find_entity.py "environment" "بيئة" "recycl" "waste": concept/environmental-protection-in-islam gives an author''s reading on pollution; it does not speak of art materials'
+  - 'grep -rli "recycl" content/en/concept content/en/work: concept/andalusi-lead-glass and fatwa records on water; none on recycled or hazardous art materials'

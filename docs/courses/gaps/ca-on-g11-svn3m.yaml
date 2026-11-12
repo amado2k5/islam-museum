@@ -1,0 +1,417 @@
+course: course/ca-on-g11-svn3m
+gaps:
+- code: A1.1
+  text: formulate relevant scientific questions about observed relationships, ideas, problems, or issues, make informed predictions, and/or formulate educated hypotheses to focus inquiries or research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: select appropriate instruments […], and materials […], and identify appropriate methods, techniques, and procedures, for each inquiry
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: identify and locate a variety of print and electronic sources that enable them to address research topics fully and appropriately
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: apply knowledge and understanding of safe laboratory practices and procedures when planning investigations by correctly interpreting Workplace Hazardous Materials Information System (WHMIS) symbols; by using appropriate techniques for handling and storing laboratory equipment and materials and disposing of laboratory materials …
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.5
+  text: conduct inquiries, controlling relevant variables, adapting or extending procedures as required, and using appropriate materials and equipment safely, accurately, and effectively, to collect observations and data
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.6
+  text: compile accurate data from laboratory and other sources, and organize and record the data, using appropriate formats, including tables, flow charts, graphs, and/or diagrams
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.7
+  text: select, organize, and record relevant information on research topics from a variety of appropriate sources, including electronic, print, and/or human sources, using suitable formats and an accepted form of academic documentation
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.8
+  text: synthesize, analyse, interpret, and evaluate qualitative and/or quantitative data to determine whether the evidence supports or refutes the initial prediction or hypothesis and whether it is consistent with scientific theory; identify sources of bias and/or error; and suggest improvements to …
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.9
+  text: analyse the information gathered from research sources for logic, accuracy, reliability, adequacy, and bias
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.10
+  text: draw conclusions based on inquiry results and research findings, and justify their conclusions with reference to scientific knowledge
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.11
+  text: communicate ideas, plans, procedures, results, and conclusions orally, in writing, and/or in electronic presentations, using appropriate language and a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.12
+  text: use appropriate numeric, symbolic, and graphic modes of representation, and appropriate units of measurement […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.13
+  text: express the results of any calculations involving data accurately and precisely, to the appropriate number of decimal places or significant figures
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.1
+  text: analyse, on the basis of research, social and economic issues related to a particular environmental challenge […] and to efforts to address it [IP, PR, AI, C]
+  why: The only record is one author's opinion that pollution threatens safety; it names no social or economic issue and no particular environmental challenge.
+  searches:
+  - 'concept/environmental-protection-in-islam: three sentences giving one modern author''s reading; it names no social or economic issue, no research and no particular challenge'
+  - 'fleet review sweep (docs/courses-mission/verifier/sweep-secondary-sciences.md): no other record on social and economic issues of an environmental challenge was found'
+- code: B1.2
+  text: analyse ways in which societal needs or demands have influenced scientific endeavours related to the environment […] [AI, C]
+  why: the expectation asks how societal needs have shaped environmental science; the museum holds no record of that
+  searches:
+  - 'find_entity.py "global warming" "الاحتباس الحراري" "climate change" "تغير المناخ": no real record'
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+- code: B2.1
+  text: 'use appropriate terminology related to the application of scientific knowledge and procedures to environmental issues, including, but not limited to: fact, inference, paradigm, objectivity, and causality [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.2
+  text: plan and conduct a laboratory inquiry to test a scientific procedure used to address a contemporary environmental problem […] [IP, PR, AI]
+  why: 'laboratory inquiry: asks the student to plan and run a procedure; names no subject matter the museum holds'
+  searches:
+  - 'find_entity.py "global warming" "الاحتباس الحراري" "climate change" "تغير المناخ": no real record'
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+- code: B2.3
+  text: investigate, through research or using case studies or computer simulation, how scientific knowledge and procedures are applied to address a particular contemporary environmental issue […] [PR, AI]
+  why: the expectations ask for case studies or perspectives on how science is applied to a contemporary environmental issue (climate change, species protection); the museum holds no such record
+  searches:
+  - 'find_entity.py "global warming" "الاحتباس الحراري" "climate change" "تغير المناخ": no real record'
+  - 'find_entity.py "biodiversity" "التنوع الحيوي" "species" "endangered": no record outside the museum''s own course records (course/ca-on-g6-sci-*) and the fiqh term naw'' (kind)'
+- code: B2.4
+  text: use a research process to investigate how evidence, theories, and paradigms reflecting a range of perspectives have contributed to our scientific knowledge about the environment […], and communicate their findings [IP, PR, AI, C]
+  why: the expectations ask for case studies or perspectives on how science is applied to a contemporary environmental issue (climate change, species protection); the museum holds no such record
+  searches:
+  - 'find_entity.py "global warming" "الاحتباس الحراري" "climate change" "تغير المناخ": no real record'
+  - 'find_entity.py "biodiversity" "التنوع الحيوي" "species" "endangered": no record outside the museum''s own course records (course/ca-on-g6-sci-*) and the fiqh term naw'' (kind)'
+- code: B2.5
+  text: use a research process to locate a media report on a contemporary environmental issue […], summarize its arguments, and assess their validity from a scientific perspective [IP, PR, AI, C]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B3.1
+  text: identify some major contemporary environmental challenges […], and explain their causes […] and effects […]
+  why: the expectation asks for major contemporary environmental challenges with causes and effects; the museum holds no record on them beyond the one writer's reading used at B1.1
+  searches:
+  - 'find_entity.py "global warming" "الاحتباس الحراري" "climate change" "تغير المناخ": no real record'
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+- code: B3.2
+  text: describe how scientists use a variety of processes […] to solve problems and answer questions related to the environment
+  why: the expectations ask how scientists work on environmental problems and how new evidence changes theory; the museum holds no such record
+  searches:
+  - 'find_entity.py "global warming" "الاحتباس الحراري" "climate change" "تغير المناخ": no real record'
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+- code: B3.3
+  text: explain how new evidence affects scientific knowledge about the environment and leads to modifications of theory and/or shifts in paradigms […]
+  why: the expectations ask how scientists work on environmental problems and how new evidence changes theory; the museum holds no such record
+  searches:
+  - 'find_entity.py "global warming" "الاحتباس الحراري" "climate change" "تغير المناخ": no real record'
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+- code: B3.5
+  text: describe a variety of human activities that have led to environmental problems […] and/or contributed to their solution […]
+  why: the expectation asks for human activities that caused or solved environmental problems; the one recycling record is used at E3.4 and gives no account of causes
+  searches:
+  - 'find_entity.py "recycling" "إعادة التدوير" "landfill" "incineration": only work/fatwa-aliftaa-jo-recycling-plastic-caps-for-charity (linked at E3.4); no record on landfill or incineration'
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+- code: C1.2
+  text: evaluate the effectiveness of government initiatives that are intended to reduce the impact of environmental factors on human health […] [AI, C]
+  why: the expectation asks to evaluate the effectiveness of government initiatives for health; the museum holds no record of such an initiative with a health aim and a result
+  searches:
+  - 'find_entity.py "hisba" "muhtasib" "محتسب": records on the market inspector exist (invention/hisba, job/muhtasib); grep for sanit*, filth, clean*, refuse, garbage, street in them returned nothing, so no environmental-health initiative to link'
+  - 'person/sadiq-khan read: one sentence on charges on older, more polluting vehicles (T-Charge, ULEZ) and a supporters'' claim of fewer polluting vehicles; it names no health aim and no measured result, so a lesson on it would stretch C1.2'
+- code: C2.1
+  text: 'use appropriate terminology related to human health and the environment, including, but not limited to: contaminants, heavy metals, air pollution, and pesticide [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.2
+  text: analyse longitudinal data to determine the impact of various environmental factors that affect human health […] [AI]
+  why: 'data analysis: asks the student to analyse longitudinal data; the museum holds no such data'
+  searches:
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+  - 'find_entity.py "air" "هواء" "dust" "smoke" "دخان": no record on air quality (matches: the sura of the Smoke, persons named Dust)'
+- code: C2.3
+  text: investigate, through laboratory inquiry or field study, water samples from natural and disturbed environments […], and analyse the resulting data [PR, AI]
+  why: 'laboratory or field inquiry on water samples: a procedure, with no subject matter the museum holds'
+  searches:
+  - 'find_entity.py "drinking water" "مياه الشرب" "water quality" "water purification": only concept/miyah (kinds of water for ritual purification); no record on water quality or testing'
+  - 'find_entity.py "compost" "soil" "تربة" "manure": only invention/ibn-bassal-soil-water-matching (linked at D3.2, D3.3) and place/turubah, concept/turba (a town, a tomb); grep -ril "compost" content/en: only Santiago de Compostela and a hijab company''s compostable packaging (person/sana-saleh)'
+- code: C2.4
+  text: analyse, on the basis of a laboratory inquiry, computer simulation, or field study, particulate matter in air […] [PR, AI]
+  why: 'laboratory or field inquiry on particulate matter in air: a procedure, with no subject matter the museum holds'
+  searches:
+  - 'find_entity.py "air" "هواء" "dust" "smoke" "دخان": no record on air quality (matches: the sura of the Smoke, persons named Dust)'
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+- code: C2.5
+  text: investigate health standards for buildings and methods to retrofit or otherwise improve structures to reduce their negative impact on human health […], and communicate their findings [PR, C]
+  why: the expectation asks about health standards for buildings and retrofits; the museum holds no such record
+  searches:
+  - 'find_entity.py "insulation" "heating" "energy efficiency" "ترشيد الطاقة": no real record'
+  - 'find_entity.py "geothermal" "hot spring" "hammam" "حمام": concept/hammam and concept/hammam-bath-house exist (a public bathhouse, by label), not building health standards or energy'
+- code: C3.1
+  text: identify the main pollutants and environmental contaminants that can affect human health […]
+  why: the expectations ask for pollutants, their effects on health, how they enter the body and how exposure is reduced; the museum holds no record on environmental contaminants
+  searches:
+  - 'find_entity.py "lead" "mercury" "رصاص" "زئبق": no record on a contaminant (the matches are lead as leadership and Andalusi lead glass); grep -ril "contaminat" content/en: concept/shajar-trees and concept/maai-fiqh, both on ritual impurity of food and water'
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+  - 'find_entity.py "air" "هواء" "dust" "smoke" "دخان": no record on air quality (matches: the sura of the Smoke, persons named Dust)'
+- code: C3.2
+  text: describe the effects of a variety of environmental factors on human health […]
+  why: the expectations ask for pollutants, their effects on health, how they enter the body and how exposure is reduced; the museum holds no record on environmental contaminants
+  searches:
+  - 'find_entity.py "lead" "mercury" "رصاص" "زئبق": no record on a contaminant (the matches are lead as leadership and Andalusi lead glass); grep -ril "contaminat" content/en: concept/shajar-trees and concept/maai-fiqh, both on ritual impurity of food and water'
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+  - 'find_entity.py "air" "هواء" "dust" "smoke" "دخان": no record on air quality (matches: the sura of the Smoke, persons named Dust)'
+- code: C3.3
+  text: describe ways in which a variety of environmental contaminants […] can enter the human body […]
+  why: the expectations ask for pollutants, their effects on health, how they enter the body and how exposure is reduced; the museum holds no record on environmental contaminants
+  searches:
+  - 'find_entity.py "lead" "mercury" "رصاص" "زئبق": no record on a contaminant (the matches are lead as leadership and Andalusi lead glass); grep -ril "contaminat" content/en: concept/shajar-trees and concept/maai-fiqh, both on ritual impurity of food and water'
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+  - 'find_entity.py "air" "هواء" "dust" "smoke" "دخان": no record on air quality (matches: the sura of the Smoke, persons named Dust)'
+- code: C3.4
+  text: describe measures that can reduce exposure to environmental contaminants […]
+  why: the expectations ask for pollutants, their effects on health, how they enter the body and how exposure is reduced; the museum holds no record on environmental contaminants
+  searches:
+  - 'find_entity.py "lead" "mercury" "رصاص" "زئبق": no record on a contaminant (the matches are lead as leadership and Andalusi lead glass); grep -ril "contaminat" content/en: concept/shajar-trees and concept/maai-fiqh, both on ritual impurity of food and water'
+  - 'find_entity.py "pollution" "تلوث" "air quality": no real record; grep -ril "pollut" content/en: 8 files; two concern pollution (concept/environmental-protection-in-islam, linked at B1.1; person/mubarak-ahmad-khan, linked at B3.4), one has a sentence on vehicle charges (person/sadiq-khan), five use the word of moral or ritual impurity'
+  - 'find_entity.py "air" "هواء" "dust" "smoke" "دخان": no record on air quality (matches: the sura of the Smoke, persons named Dust)'
+- code: C3.5
+  text: identify a variety of populations who are particularly vulnerable to the effects of environmental factors, and explain why these populations are vulnerable […]
+  why: the expectation asks for populations vulnerable to environmental factors; the museum holds no record of that
+  searches:
+  - 'find_entity.py "Inuit" "Arctic" "Indigenous" "aboriginal": no record'
+  - 'find_entity.py "plague" "طاعون" "epidemic" "quarantine": records on epidemics (event/plague-of-amwas, concept/al-taun) concern disease, not environmental contaminants; not linked'
+- code: D1.1
+  text: evaluate, on the basis of research, a variety of agricultural and forestry practices […] with respect to their impact on the economy and the environment […] [IP, PR, AI, C]
+  why: the expectations ask to evaluate farming and forestry practices for economy, environment and health; the museum holds no evaluation of such practices
+  searches:
+  - 'find_entity.py "fertilizer" "pesticide" "سماد" "مبيدات": only concept/simad (linked at D3.4); no record on pesticides'
+  - 'find_entity.py "forest" "deforestation" "غابات" "تشجير": no record on forestry (matches: a battle of a forest, a mosque); person/rizwana-hasan has one sentence listing deforestation among court campaigns'
+- code: D1.2
+  text: evaluate, on the basis of research, the impact, including the long-term impact, of agricultural and forestry practices on human health […] [IP, PR, AI, C]
+  why: the expectations ask to evaluate farming and forestry practices for economy, environment and health; the museum holds no evaluation of such practices
+  searches:
+  - 'find_entity.py "fertilizer" "pesticide" "سماد" "مبيدات": only concept/simad (linked at D3.4); no record on pesticides'
+  - 'find_entity.py "forest" "deforestation" "غابات" "تشجير": no record on forestry (matches: a battle of a forest, a mosque); person/rizwana-hasan has one sentence listing deforestation among court campaigns'
+- code: D2.1
+  text: 'use appropriate terminology related to sustainable agriculture and forestry, including, but not limited to: bioremediation, crop rotation, companion planting, organic product, humus, compost, mulch, silviculture, and naturalization [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D2.2
+  text: test samples of a variety of types of soil […] to determine their nutrients and composition […] [PR, AI]
+  why: 'laboratory or practical task on soil or compost: the student performs a procedure; the museum holds no soil-testing or compost procedure'
+  searches:
+  - 'find_entity.py "compost" "soil" "تربة" "manure": only invention/ibn-bassal-soil-water-matching (linked at D3.2, D3.3) and place/turubah, concept/turba (a town, a tomb); grep -ril "compost" content/en: only Santiago de Compostela and a hijab company''s compostable packaging (person/sana-saleh)'
+  - 'find_entity.py "fertilizer" "pesticide" "سماد" "مبيدات": only concept/simad (linked at D3.4); no record on pesticides'
+- code: D2.3
+  text: use an inquiry process to investigate the nutrients in and composition of a variety of compost samples […], and analyse the findings to determine appropriate uses for each sample [IP, PR, AI]
+  why: 'laboratory or practical task on soil or compost: the student performs a procedure; the museum holds no soil-testing or compost procedure'
+  searches:
+  - 'find_entity.py "compost" "soil" "تربة" "manure": only invention/ibn-bassal-soil-water-matching (linked at D3.2, D3.3) and place/turubah, concept/turba (a town, a tomb); grep -ril "compost" content/en: only Santiago de Compostela and a hijab company''s compostable packaging (person/sana-saleh)'
+  - 'find_entity.py "fertilizer" "pesticide" "سماد" "مبيدات": only concept/simad (linked at D3.4); no record on pesticides'
+- code: D2.4
+  text: prepare a soil mixture […] for a selected plant species, based on analysis of the criteria for optimal growth for that species […] [PR, AI]
+  why: 'laboratory or practical task on soil or compost: the student performs a procedure; the museum holds no soil-testing or compost procedure'
+  searches:
+  - 'find_entity.py "compost" "soil" "تربة" "manure": only invention/ibn-bassal-soil-water-matching (linked at D3.2, D3.3) and place/turubah, concept/turba (a town, a tomb); grep -ril "compost" content/en: only Santiago de Compostela and a hijab company''s compostable packaging (person/sana-saleh)'
+  - 'find_entity.py "fertilizer" "pesticide" "سماد" "مبيدات": only concept/simad (linked at D3.4); no record on pesticides'
+- code: D2.5
+  text: use a research process to investigate environmentally sustainable methods of managing and maintaining healthy and productive agricultural zones and forests […] [IP, PR]
+  why: 'research process on sustainable methods for farming and forests: a research task; the museum holds no record on rotation, companion planting or selective harvesting'
+  searches:
+  - 'find_entity.py "compost" "soil" "تربة" "manure": only invention/ibn-bassal-soil-water-matching (linked at D3.2, D3.3) and place/turubah, concept/turba (a town, a tomb); grep -ril "compost" content/en: only Santiago de Compostela and a hijab company''s compostable packaging (person/sana-saleh)'
+  - 'find_entity.py "forest" "deforestation" "غابات" "تشجير": no record on forestry (matches: a battle of a forest, a mosque); person/rizwana-hasan has one sentence listing deforestation among court campaigns'
+- code: D2.6
+  text: design a landscaping project for their local area […], taking into account local conditions […], and propose a course of action to ensure the sustainability of the project and its healthy interaction with the surrounding environment […] [IP, PR, AI]
+  why: 'design project for the student''s own locality: names no subject matter the museum holds'
+  searches:
+  - 'find_entity.py "compost" "soil" "تربة" "manure": only invention/ibn-bassal-soil-water-matching (linked at D3.2, D3.3) and place/turubah, concept/turba (a town, a tomb); grep -ril "compost" content/en: only Santiago de Compostela and a hijab company''s compostable packaging (person/sana-saleh)'
+  - 'find_entity.py "forest" "deforestation" "غابات" "تشجير": no record on forestry (matches: a battle of a forest, a mosque); person/rizwana-hasan has one sentence listing deforestation among court campaigns'
+- code: D3.1
+  text: explain the basic principles of various agricultural and forestry practices […], and identify regulations and regulatory bodies associated with these practices […]
+  why: the expectation asks for principles of practices such as pest management and their regulators; the museum holds no record
+  searches:
+  - 'find_entity.py "fertilizer" "pesticide" "سماد" "مبيدات": only concept/simad (linked at D3.4); no record on pesticides'
+  - 'find_entity.py "compost" "soil" "تربة" "manure": only invention/ibn-bassal-soil-water-matching (linked at D3.2, D3.3) and place/turubah, concept/turba (a town, a tomb); grep -ril "compost" content/en: only Santiago de Compostela and a hijab company''s compostable packaging (person/sana-saleh)'
+- code: D3.4
+  text: explain different ecologically sound practices for improving and maintaining soil structure and fertility […]
+  why: The only science in the record is a one-line definition of manure; the rest is jurists' disagreement on purity, sale and contracts, which D3.4 does not ask for.
+  searches:
+  - 'concept/simad: a one-line definition of manure, then jurists'' differences on purity, sale and contracts; it names no practice for soil structure or fertility'
+  - 'fleet review sweep (docs/courses-mission/verifier/sweep-secondary-sciences.md): no other record on practices for soil structure and fertility was found'
+- code: D3.5
+  text: explain agricultural techniques and forestry practices that aim to maintain both biodiversity and long-term productivity […]
+  why: the expectation asks for practices that keep biodiversity and long-term productivity; no record states such an aim
+  searches:
+  - 'find_entity.py "biodiversity" "التنوع الحيوي" "species" "endangered": no record outside the museum''s own course records (course/ca-on-g6-sci-*) and the fiqh term naw'' (kind)'
+  - 'find_entity.py --class concept "hima" "حمى" "conservation": concept/hima and concept/hima-protected-pasture are reserved pastures; read: they state no conservation of species or soil, so not linked'
+- code: D3.6
+  text: describe sustainable water-management practices in agricultural and forestry settings […]
+  why: The record summarises surplus-water and idle-land rules and a water dispute; it names no water-management practice, and D3.6 does not ask for a legal view.
+  searches:
+  - 'concept/agriculture-in-islam: a book''s summary of surplus-water and idle-land rules and a water dispute; it names no irrigation or conservation practice'
+  - 'fleet review sweep (docs/courses-mission/verifier/sweep-secondary-sciences.md): no other record on sustainable water management was found'
+- code: E1.1
+  text: analyse, on the basis of research, the impact of economic and political considerations on the development of waste management practices or strategies […] [IP, PR, AI, C]
+  why: the expectations ask for economic and political forces on waste management and the impact of a specific waste; the museum holds no record
+  searches:
+  - 'find_entity.py "waste" "sanitation" "نظافة" "garbage": no record on waste management (matches: extravagance, a fatwa on aquarium fish waste, a sack of Basra)'
+  - 'find_entity.py "recycling" "إعادة التدوير" "landfill" "incineration": only work/fatwa-aliftaa-jo-recycling-plastic-caps-for-charity (linked at E3.4); no record on landfill or incineration'
+- code: E1.2
+  text: evaluate the short- and long-term impact on the environment of a specific type of waste […] [AI, C]
+  why: the expectations ask for economic and political forces on waste management and the impact of a specific waste; the museum holds no record
+  searches:
+  - 'find_entity.py "waste" "sanitation" "نظافة" "garbage": no record on waste management (matches: extravagance, a fatwa on aquarium fish waste, a sack of Basra)'
+  - 'find_entity.py "recycling" "إعادة التدوير" "landfill" "incineration": only work/fatwa-aliftaa-jo-recycling-plastic-caps-for-charity (linked at E3.4); no record on landfill or incineration'
+- code: E2.1
+  text: 'use appropriate terminology related to waste management, including, but not limited to: solid, liquid, and gaseous waste; toxic waste; heavy metal; chlorinated hydrocarbons; and polychlorinated biphenyls (PCBs) [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: E2.2
+  text: plan and conduct an inquiry in a microenvironment to treat a solid, liquid, or gaseous waste […] [IP, PR]
+  why: 'practical inquiry in a microenvironment: a procedure, with no subject matter the museum holds'
+  searches:
+  - 'find_entity.py "waste" "sanitation" "نظافة" "garbage": no record on waste management (matches: extravagance, a fatwa on aquarium fish waste, a sack of Basra)'
+  - 'find_entity.py "recycling" "إعادة التدوير" "landfill" "incineration": only work/fatwa-aliftaa-jo-recycling-plastic-caps-for-charity (linked at E3.4); no record on landfill or incineration'
+- code: E2.3
+  text: use a research process to investigate the waste generated throughout the life cycle of a product […] [IP, PR]
+  why: research tasks on a product's waste life cycle or a waste practice; the museum holds no record on either
+  searches:
+  - 'find_entity.py "life cycle" "product" "craft" "حرف": no record on product life cycles (matches: fatwas on product reviews and labels, craft as occupation)'
+  - 'find_entity.py "waste" "sanitation" "نظافة" "garbage": no record on waste management (matches: extravagance, a fatwa on aquarium fish waste, a sack of Basra)'
+- code: E2.4
+  text: plan and conduct a waste audit within their school, and propose a plan of action for waste reduction based on their findings […] [IP, PR, AI, C]
+  why: 'school waste audit: a local practical task; the museum holds nothing on waste auditing'
+  searches:
+  - 'find_entity.py "waste" "sanitation" "نظافة" "garbage": no record on waste management (matches: extravagance, a fatwa on aquarium fish waste, a sack of Basra)'
+  - 'find_entity.py "recycling" "إعادة التدوير" "landfill" "incineration": only work/fatwa-aliftaa-jo-recycling-plastic-caps-for-charity (linked at E3.4); no record on landfill or incineration'
+- code: E2.5
+  text: investigate a local, regional, national, or global waste management practice […], and communicate their findings [PR, C]
+  why: research tasks on a product's waste life cycle or a waste practice; the museum holds no record on either
+  searches:
+  - 'find_entity.py "life cycle" "product" "craft" "حرف": no record on product life cycles (matches: fatwas on product reviews and labels, craft as occupation)'
+  - 'find_entity.py "waste" "sanitation" "نظافة" "garbage": no record on waste management (matches: extravagance, a fatwa on aquarium fish waste, a sack of Basra)'
+- code: E3.1
+  text: describe different categories of waste […]
+  why: the expectations ask for categories of waste, the science of processing waste and its application; the museum holds no record
+  searches:
+  - 'find_entity.py "waste" "sanitation" "نظافة" "garbage": no record on waste management (matches: extravagance, a fatwa on aquarium fish waste, a sack of Basra)'
+  - 'find_entity.py "sewage" "drainage" "مجاري": only work/fatwa-binbaz-recycled-sewage-water (linked at E3.2)'
+- code: E3.3
+  text: describe the scientific principles involved in processing solid, liquid, and gaseous waste […]
+  why: the expectations ask for categories of waste, the science of processing waste and its application; the museum holds no record
+  searches:
+  - 'find_entity.py "waste" "sanitation" "نظافة" "garbage": no record on waste management (matches: extravagance, a fatwa on aquarium fish waste, a sack of Basra)'
+  - 'find_entity.py "sewage" "drainage" "مجاري": only work/fatwa-binbaz-recycled-sewage-water (linked at E3.2)'
+- code: E3.5
+  text: explain how scientific knowledge and technological processes have been applied in the development of environmentally sound waste management strategies […]
+  why: the expectations ask for categories of waste, the science of processing waste and its application; the museum holds no record
+  searches:
+  - 'find_entity.py "waste" "sanitation" "نظافة" "garbage": no record on waste management (matches: extravagance, a fatwa on aquarium fish waste, a sack of Basra)'
+  - 'find_entity.py "sewage" "drainage" "مجاري": only work/fatwa-binbaz-recycled-sewage-water (linked at E3.2)'
+- code: F1.1
+  text: evaluate the impact on the environment of renewable and non-renewable energy sources, and propose an environmentally friendly solution to reduce non-renewable energy consumption […] [AI, C]
+  why: the expectations ask to assess the impact and costs of energy sources; the museum holds no record on energy sources or their costs
+  searches:
+  - 'find_entity.py "solar" "الطاقة الشمسية" "renewable energy" "الطاقة المتجددة": no record on energy production (matches are astronomy: solar-time tables, eclipses)'
+  - 'find_entity.py "coal" "oil" "petroleum" "نفط" "فحم": no record on fuels as energy (matches: olive-oil fatwas, a charcoal-factory fatwa, fiqh rulings on oil)'
+- code: F1.2
+  text: assess the costs and benefits to society of the use of renewable and non-renewable energy sources, using a variety of criteria […] [AI, C]
+  why: the expectations ask to assess the impact and costs of energy sources; the museum holds no record on energy sources or their costs
+  searches:
+  - 'find_entity.py "solar" "الطاقة الشمسية" "renewable energy" "الطاقة المتجددة": no record on energy production (matches are astronomy: solar-time tables, eclipses)'
+  - 'find_entity.py "coal" "oil" "petroleum" "نفط" "فحم": no record on fuels as energy (matches: olive-oil fatwas, a charcoal-factory fatwa, fiqh rulings on oil)'
+- code: F2.1
+  text: 'use appropriate terminology related to energy conservation, including, but not limited to: renewable resource, non-renewable resource, and R-value'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: F2.2
+  text: investigate energy consumption and costs in their household over a given period of time, and suggest ways in which their household could conserve energy [PR, AI, C]
+  why: 'household or building energy audit: a local practical task; the museum holds nothing on energy consumption or audits'
+  searches:
+  - 'find_entity.py "insulation" "heating" "energy efficiency" "ترشيد الطاقة": no real record'
+  - 'find_entity.py "solar" "الطاقة الشمسية" "renewable energy" "الطاقة المتجددة": no record on energy production (matches are astronomy: solar-time tables, eclipses)'
+- code: F2.3
+  text: plan and conduct an energy audit of a home or business, and propose ways to improve its energy efficiency [IP, PR, AI, C]
+  why: 'household or building energy audit: a local practical task; the museum holds nothing on energy consumption or audits'
+  searches:
+  - 'find_entity.py "insulation" "heating" "energy efficiency" "ترشيد الطاقة": no real record'
+  - 'find_entity.py "solar" "الطاقة الشمسية" "renewable energy" "الطاقة المتجددة": no record on energy production (matches are astronomy: solar-time tables, eclipses)'
+- code: F3.1
+  text: explain the historical significance of a variety of energy sources […], and describe their long-term impact on the environment
+  why: the expectation asks for the historical significance of energy sources such as whale oil and coal; the museum holds no such record
+  searches:
+  - 'find_entity.py "whale" "whaling" "عنبر": only concept/whale-of-yunus and object/yunus-hut (Jonah), not whale oil'
+  - 'find_entity.py "coal" "oil" "petroleum" "نفط" "فحم": no record on fuels as energy (matches: olive-oil fatwas, a charcoal-factory fatwa, fiqh rulings on oil)'
+- code: F3.2
+  text: describe the characteristics of a sustainable energy system […]
+  why: the expectations ask for sustainable energy systems, emission-reducing methods and technologies that reduce consumption; the museum holds no record
+  searches:
+  - 'find_entity.py "solar" "الطاقة الشمسية" "renewable energy" "الطاقة المتجددة": no record on energy production (matches are astronomy: solar-time tables, eclipses)'
+  - 'find_entity.py "mill" "طاحونة" "waterwheel" "ناعورة": only invention/jazari-double-piston-pump (linked at F3.3) and a water-lifter driven by animals; place/hama has one sentence calling it famous for waterwheels'
+  - 'find_entity.py "insulation" "heating" "energy efficiency" "ترشيد الطاقة": no real record'
+- code: F3.3
+  text: explain the basic principles and characteristics of various types of renewable […] and non-renewable […] energy production and their impact on the environment
+  why: The record is a water-driven pump; it has no renewable energy production and no environmental impact.
+  searches:
+  - 'invention/jazari-double-piston-pump: a water-driven lifting pump; the record gives no renewable-energy production and no environmental impact, so it does not fit F3.3'
+  - 'fleet review sweep (docs/courses-mission/verifier/sweep-secondary-sciences.md): no other record on renewable and non-renewable energy production and its impact was found'
+- code: F3.4
+  text: describe methods of energy production and conservation intended to reduce greenhouse gas emissions […]
+  why: the expectations ask for sustainable energy systems, emission-reducing methods and technologies that reduce consumption; the museum holds no record
+  searches:
+  - 'find_entity.py "solar" "الطاقة الشمسية" "renewable energy" "الطاقة المتجددة": no record on energy production (matches are astronomy: solar-time tables, eclipses)'
+  - 'find_entity.py "mill" "طاحونة" "waterwheel" "ناعورة": only invention/jazari-double-piston-pump (linked at F3.3) and a water-lifter driven by animals; place/hama has one sentence calling it famous for waterwheels'
+  - 'find_entity.py "insulation" "heating" "energy efficiency" "ترشيد الطاقة": no real record'
+- code: F3.5
+  text: describe technological advances aimed at reducing energy consumption […]
+  why: the expectations ask for sustainable energy systems, emission-reducing methods and technologies that reduce consumption; the museum holds no record
+  searches:
+  - 'find_entity.py "solar" "الطاقة الشمسية" "renewable energy" "الطاقة المتجددة": no record on energy production (matches are astronomy: solar-time tables, eclipses)'
+  - 'find_entity.py "mill" "طاحونة" "waterwheel" "ناعورة": only invention/jazari-double-piston-pump (linked at F3.3) and a water-lifter driven by animals; place/hama has one sentence calling it famous for waterwheels'
+  - 'find_entity.py "insulation" "heating" "energy efficiency" "ترشيد الطاقة": no real record'
+- code: E3.4
+  text: explain common strategies and technologies used in the collection and storage of waste […]
+  why: The only record is a ruling that a caps-collection charity is a door of good within recommended charity; it names no collection method, storage or technology.
+  searches:
+  - 'work/fatwa-aliftaa-jo-recycling-plastic-caps-for-charity (tried at e-2): classifies a charity act as recommended charity; names no strategy or technology of collection or storage, so it does not serve E3.4'
+  - 'find_entity.py "waste collection" "storage" "جمع النفايات" "تخزين النفايات": no other record describes how waste is collected or stored'

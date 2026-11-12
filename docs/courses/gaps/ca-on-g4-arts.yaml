@@ -1,0 +1,206 @@
+course: course/ca-on-g4-arts
+gaps:
+- code: A1.1
+  text: translate into dance a variety of movement sequences observed in nature […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: use dance as a language to explore and communicate ideas derived from a variety of literature sources […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: use narrative form to create short dance pieces on a variety of themes […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: use the elements of energy […] and time […] in a dance piece to communicate an idea […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: demonstrate an understanding of how the language of dance can clarify and highlight ideas, images, and characters from familiar stories […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: identify, using dance vocabulary, the elements of dance used in their own and others’ dance pieces and explain how each helps communicate ideas and feelings […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.3
+  text: identify and give examples of their strengths and areas for growth as dance creators and audience members […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.1
+  text: describe, with teacher guidance, how forms and styles of dance reflect people’s different social and political roles in various communities, times, and places […]
+  why: Asks for dance forms and styles as signs of people's social and political roles (court dance, country dance, carnival, capoeira); the museum holds no record of a dance form or its social setting.
+  searches:
+  - 'find_entity.py "dance" "الرقص" "sama" "whirling" "mawlawi" "السماع": concept/raqs-fiqh is a legal ruling on dancing, not a dance form or a community; practice/sama-mawlawiyya is a one-line record citing only Wikidata; group/mawlawiyya names a "rotating sama''" but never calls it dance'
+  - 'find_entity.py "carnival" "رقصة" "folk dance" "dabke" "court dance": no real record; grep -ril "court dance\|folk dance\|dancers" over content/en/concept, practice, event, object: no file'
+- code: A3.2
+  text: identify and describe the different roles of dance in their lives and in communities around the world […]
+  why: Asks for the roles of dance in people's lives and communities (socialising, entertainment, telling stories, harvest, religious ceremony); the museum holds no record that describes dance in any of these roles.
+  searches:
+  - 'find_entity.py "dance" "الرقص" "sama" "whirling" "mawlawi" "السماع": concept/raqs-fiqh states jurists'' rulings on dancing, not its roles in life; group/mawlawiyya says the order is famous for its rotating sama'' but does not describe it as a dance, and practice/sama-mawlawiyya rests on one Wikidata line'
+  - 'find_entity.py "carnival" "رقصة" "folk dance" "dabke" "court dance": no real record'
+- code: B1.1
+  text: engage actively in drama exploration and role play, with a focus on exploring drama structures, key ideas, and pivotal moments in their own stories and stories from diverse communities, times, and places […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.2
+  text: demonstrate an understanding of the element of role by selectively using a few other elements of drama […] to build belief in a role and establish its dramatic context
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.3
+  text: plan and shape the direction of the drama or role play by posing questions and working with others to find solutions, both in and out of role […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.4
+  text: communicate thoughts, feelings, and ideas to a specific audience, using audio, visual, and/or technological aids to enhance their drama work […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.1
+  text: express personal responses and make connections to characters, themes, and issues presented in their own and others’ drama works […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.2
+  text: explain, using drama terminology, how elements and drama conventions are used to produce specific effects and/or audience responses in their own and others’ drama works […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.3
+  text: identify and give examples of their strengths, interests, and areas for growth as drama participants and audience members […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B3.1
+  text: identify and describe some similarities in the purposes of process drama and more formal, traditional theatre productions […]
+  why: Asks for similarities in the purposes of process drama and formal theatre productions; the museum holds no record on process drama or on staged theatre.
+  searches:
+  - 'find_entity.py "theatre" "المسرح" "shadow play" "khayal al-zill" "storyteller" "hakawati" "راوي": no record on theatre; the hits are narrators of hadith (rawi) and one record on a ban on street storytellers'
+  - 'find_entity.py "drama" "تمثيل" "ta''ziyeh" "تعزية" "puppet" "karagoz": place/drama is a town in Greece; practice/taziya is the condolence visit; no record on a drama or theatre form; grep -rli "theatre\|shadow play\|puppet" over content/en/concept, practice, work, event: only incidental mentions'
+- code: B3.2
+  text: demonstrate an awareness of different kinds of drama and theatre from different times and places and of how they reflect their contexts […]
+  why: Asks for different kinds of drama and theatre and how they reflect their contexts; the records tried, concept/ashik and work/alpamish, are minstrelsy and a verse epic, not theatre, and nothing in them speaks of how they reflect their contexts.
+  searches:
+  - 'concept/ashik: wandering minstrels who sang and recited; missing nouns drama, theatre'
+  - 'work/alpamish: a verse epic with no theatre in it; the clause "reflect their contexts" is not in the record'
+- code: C1.1
+  text: sing and/or play, in tune, from musical notation, unison and two-part music with simple accompaniments from a wide variety of cultures, styles, and historical periods […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C1.2
+  text: apply the elements of music when singing and/or playing, composing, and arranging music to create a specific effect […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C1.3
+  text: create musical compositions for specific purposes and audiences […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C1.4
+  text: use the tools and techniques of musicianship in musical performances […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C1.5
+  text: demonstrate an understanding of musical signs and standard notation on the five-line staff, and use devised notation to record the sequence of sounds in a composition of their own […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.1
+  text: express detailed personal responses to musical performances in a variety of ways […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.2
+  text: identify the elements used in the music they perform, listen to, and create, and describe how they are used […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.3
+  text: identify and give examples of their strengths and areas for growth as musical performers, creators, interpreters, and audience members […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C3.2
+  text: demonstrate an awareness, through listening, of the characteristics of musical forms and traditions of diverse times, places, and communities […]
+  why: Asks for the characteristics of musical forms and traditions through listening; the record tried, invention/ziryab-fifth-string, is about an added string and how a medieval author builds a portrait, and the lesson Brief itself conceded that the listening is for the class.
+  searches:
+  - 'invention/ziryab-fifth-string: an added oud string and a historian''s critique; missing nouns musical form, tradition, listening'
+  - 'find_entity.py "qawwali" "قوالي": person/nusrat-fatih-ali-khan, work/kun-faya-kun-rockstar and person/aziz-mian are a singer, a film song and a singer; they serve other grades and were not tried for this expectation in the review'
+- code: D1.1
+  text: create two- and three-dimensional works of art that express feelings and ideas inspired by their interests and experiences […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.2
+  text: demonstrate an understanding of composition, using selected principles of design to create narrative art works or art works on a theme or topic […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.3
+  text: use elements of design in art works to communicate ideas, messages, and understandings […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.4
+  text: use a variety of materials, tools, and techniques to determine solutions to design challenges […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D2.1
+  text: interpret a variety of art works, and identify the feelings, issues, themes, and social concerns that they convey […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D2.4
+  text: identify and document their strengths, their interests, and areas for improvement as creators and viewers of art […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C3.1
+  text: "identify the role of music in a community today and compare it to its role in a community of the past […]"
+  why: "The only record that described the role of music in a past community was concept/al-qiyan, about singing slave women, which is not suitable for Grade 4; the oud-string record does not describe a community's use of music."
+  searches:
+  - "find_entity.py \"qiyan\" \"القيان\": concept/al-qiyan fits the expectation, but its subject is slave women sold by a broker and it is not suitable for Grades 2 to 4 (runbook, Fit the grade); removed from the lesson after the fleet review"
+  - "find_entity.py \"ziryab\" \"زرياب\": invention/ziryab-fifth-string is a story of one instrument string and of who tells it, not the role of music in a community"

@@ -1,0 +1,208 @@
+course: course/ca-on-g5-math
+gaps:
+- code: B1.2
+  text: compare and order whole numbers up to and including 100 000, in various contexts
+  why: The expectation is about comparing, ordering or rounding numbers; the museum's number records (algorism, decimal fractions) say how place value works but do not compare, order or round numbers, so there is nothing to restate.
+  searches: &id002
+  - 'find_entity.py "arithmetic" "الحساب" "hisab": concept/al-hisab (The Reckoning) is a different sense of the word; invention/algorism and invention/karaji-polynomial-arithmetic are about place-value notation and polynomials, not comparing or rounding'
+  - 'find_entity.py "decimal fractions" "al-Kashi" "الكاشي": invention/decimal-fractions-al-uqlidisi (used in b-1 for B1.5) and al-Kashi records on pi, roots and sines; none compares or rounds decimal numbers'
+- code: B1.3
+  text: represent equivalent fractions from halves to twelfths, including improper fractions and mixed numbers, using appropriate tools, in various contexts
+  why: The expectation is about equivalent fractions, ordering fractions, relating fractions to decimals and percents, or fraction operations; the museum holds no record on fractions as a topic of arithmetic and none on percents.
+  searches: &id001
+  - 'find_entity.py "fraction" "الكسور" "kasr": only concept/kasr, a legal term (breaking a bone) that mentions the mathematical sense in one line; no record on fractions in arithmetic'
+  - 'find_entity.py "percent" "النسبة المئوية" "ratio": no record on percents; invention/mahani-successive-quotient-ratios is a theory of ratio of magnitudes, not fractions, decimals or whole number percents'
+- code: B1.4
+  text: compare and order fractions from halves to twelfths, including improper fractions and mixed numbers, in various contexts
+  why: The expectation is about equivalent fractions, ordering fractions, relating fractions to decimals and percents, or fraction operations; the museum holds no record on fractions as a topic of arithmetic and none on percents.
+  searches: *id001
+- code: B1.6
+  text: round decimal numbers to the nearest tenth, in various contexts
+  why: The expectation is about comparing, ordering or rounding numbers; the museum's number records (algorism, decimal fractions) say how place value works but do not compare, order or round numbers, so there is nothing to restate.
+  searches: *id002
+- code: B1.7
+  text: describe relationships and show equivalences among fractions, decimal numbers up to hundredths, and whole number percents, using appropriate tools and drawings, in various contexts
+  why: The expectation is about equivalent fractions, ordering fractions, relating fractions to decimals and percents, or fraction operations; the museum holds no record on fractions as a topic of arithmetic and none on percents.
+  searches: *id001
+- code: B2.2
+  text: recall and demonstrate multiplication facts from 0 × 0 to 12 × 12, and related division facts
+  why: The expectation is about multiplication facts, mental math, written algorithms for addition, subtraction, multiplication and division, or estimation; the museum's records describe one multiplication route (invention/abu-wafa-debt-multiplication, tried for B2.1 and not used) but give no facts, mental strategies, area models or division algorithms to restate.
+  searches: &id003
+  - 'find_entity.py "multiplication" "الضرب" "division": hits are the mint (dar al-darb) and divisions of the realm; no arithmetic record beyond invention/abu-wafa-debt-multiplication, whose only worked example is 3 x 5'
+  - 'find_entity.py "arithmetic" "الحساب" "hisab": invention/algorism describes the four operations in writing in general terms but no algorithm for two-digit multiplication or three-digit division'
+- code: B2.3
+  text: use mental math strategies to multiply whole numbers by 0.1 and 0.01 and estimate sums and differences of decimal numbers up to hundredths, and explain the strategies used
+  why: The expectation is about multiplication facts, mental math, written algorithms for addition, subtraction, multiplication and division, or estimation; the museum's records describe one multiplication route (invention/abu-wafa-debt-multiplication, tried for B2.1 and not used) but give no facts, mental strategies, area models or division algorithms to restate.
+  searches: *id003
+- code: B2.4
+  text: represent and solve problems involving the addition and subtraction of whole numbers that add up to no more than 100 000, and of decimal numbers up to hundredths, using appropriate tools, strategies, and algorithms
+  why: The expectation is about multiplication facts, mental math, written algorithms for addition, subtraction, multiplication and division, or estimation; the museum's records describe one multiplication route (invention/abu-wafa-debt-multiplication, tried for B2.1 and not used) but give no facts, mental strategies, area models or division algorithms to restate.
+  searches: *id003
+- code: B2.5
+  text: add and subtract fractions with like denominators, in various contexts
+  why: The expectation is about equivalent fractions, ordering fractions, relating fractions to decimals and percents, or fraction operations; the museum holds no record on fractions as a topic of arithmetic and none on percents.
+  searches: *id001
+- code: B2.6
+  text: represent and solve problems involving the multiplication of two-digit whole numbers by two-digit whole numbers using the area model and using algorithms, and make connections between the two methods
+  why: The expectation is about multiplication facts, mental math, written algorithms for addition, subtraction, multiplication and division, or estimation; the museum's records describe one multiplication route (invention/abu-wafa-debt-multiplication, tried for B2.1 and not used) but give no facts, mental strategies, area models or division algorithms to restate.
+  searches: *id003
+- code: B2.7
+  text: represent and solve problems involving the division of three-digit whole numbers by two-digit whole numbers using the area model and using algorithms, and make connections between the two methods, while expressing any remainder appropriately
+  why: The expectation is about multiplication facts, mental math, written algorithms for addition, subtraction, multiplication and division, or estimation; the museum's records describe one multiplication route (invention/abu-wafa-debt-multiplication, tried for B2.1 and not used) but give no facts, mental strategies, area models or division algorithms to restate.
+  searches: *id003
+- code: B2.8
+  text: multiply and divide one-digit whole numbers by unit fractions, using appropriate tools and drawings
+  why: The expectation is about equivalent fractions, ordering fractions, relating fractions to decimals and percents, or fraction operations; the museum holds no record on fractions as a topic of arithmetic and none on percents.
+  searches: *id001
+- code: B2.9
+  text: represent and create equivalent ratios and rates, using a variety of tools and models, in various contexts
+  why: The expectation is about equivalent ratios and rates; the museum's only ratio record is a theory of ratios of magnitudes, which is not equivalent ratios and rates built with tools and models.
+  searches:
+  - 'find_entity.py "percent" "النسبة المئوية" "ratio": invention/mahani-successive-quotient-ratios, work/mahani-risala-fi-nisba (a treatise on ratio of magnitudes); no record on rates'
+  - 'find_entity.py "price" "السعر" "market": market events and rulings; none states a rate or an equivalent ratio'
+- code: C1.1
+  text: identify and describe repeating, growing, and shrinking patterns, including patterns found in real-life contexts
+  why: The expectation is about repeating, growing and shrinking patterns and their rules; the museum holds no record on number or growing patterns. The records on Islamic geometric patterns and girih exist but their prose is a short overview, not enough to restate as a pattern rule.
+  searches: &id004
+  - 'find_entity.py "pattern" "نمط" "symmetry": hits are unrelated (a hadith on a cloth, a person named al-Namat, broken cursive, sunnat Allah); no record on mathematical patterns'
+  - 'find_entity.py "geometric patterns" "girih" "زخارف هندسية": concept/islamic-geometric-patterns and concept/girih exist, but their prose is a short overview with no rules of construction or repetition'
+- code: C1.2
+  text: create and translate growing and shrinking patterns using various representations, including tables of values and graphs
+  why: The expectation is about repeating, growing and shrinking patterns and their rules; the museum holds no record on number or growing patterns. The records on Islamic geometric patterns and girih exist but their prose is a short overview, not enough to restate as a pattern rule.
+  searches: *id004
+- code: C1.3
+  text: determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in repeating, growing, and shrinking patterns
+  why: The expectation is about repeating, growing and shrinking patterns and their rules; the museum holds no record on number or growing patterns. The records on Islamic geometric patterns and girih exist but their prose is a short overview, not enough to restate as a pattern rule.
+  searches: *id004
+- code: C1.4
+  text: create and describe patterns to illustrate relationships among whole numbers and decimal tenths and hundredths
+  why: The expectation is about repeating, growing and shrinking patterns and their rules; the museum holds no record on number or growing patterns. The records on Islamic geometric patterns and girih exist but their prose is a short overview, not enough to restate as a pattern rule.
+  searches: *id004
+- code: C2.2
+  text: evaluate algebraic expressions that involve whole numbers
+  why: The expectation is about evaluating algebraic expressions or solving and graphing inequalities; the museum's algebra records are about equations and their names (used in c-1) and say nothing of inequalities or evaluating expressions with whole numbers.
+  searches: &id005
+  - 'find_entity.py "al-Khwarizmi" "الخوارزمي" "Algebra": person/al-khwarizmi, concept/algebra, invention/algebra: equations of three kinds of term and six types, not inequalities'
+  - 'find_entity.py "algebra" "الجبر" "al-jabr": invention/abu-kamil-irrational-coefficients and invention/karaji-polynomial-arithmetic are about irrational coefficients and polynomials, beyond this expectation'
+- code: C2.4
+  text: solve inequalities that involve one operation and whole numbers up to 50, and verify and graph the solutions
+  why: The expectation is about evaluating algebraic expressions or solving and graphing inequalities; the museum's algebra records are about equations and their names (used in c-1) and say nothing of inequalities or evaluating expressions with whole numbers.
+  searches: *id005
+- code: C3.2
+  text: read and alter existing code, including code that involves conditional statements and other control structures, and describe how changes to the code affect the outcomes
+  why: The expectation is about reading and altering existing code and describing how the changes affect the outcomes; the museum holds no code. The only candidate, al-Jazari's musical boat, is a water-driven machine whose record declines to call it a programmed robot.
+  searches:
+  - 'find_entity.py "coding" "برمجة" "automaton": invention/jazari-musical-boat only; its record says the limits stay visible rather than hiding behind "the first programmed robot"'
+  - 'find_entity.py "algorithm" "خوارزمية" "algorism": invention/algorism (tried for C3.1 and not used) concerns ordered steps of arithmetic, with no code to read or alter'
+- code: D1.1
+  text: explain the importance of various sampling techniques for collecting a sample of data that is representative of a population
+  why: The expectation is about sampling, relative-frequency tables, graphs, infographics, mean, median and mode, or reading misleading graphs; the museum's records of censuses and land surveys are complete counts or measures and give no sample, graph or measure of centre to restate.
+  searches: &id006
+  - 'find_entity.py "statistics" "الإحصاء" "survey": event/egypt-census-837, event/abbasid-census-200 and land surveys; complete counts of villages or a family, not samples, tables or graphs'
+  - 'find_entity.py "arithmetic" "الحساب" "hisab": nothing on data displays or averages'
+- code: D1.2
+  text: collect data, using appropriate sampling techniques as needed, to answer questions of interest about a population, and organize the data in relative-frequency tables
+  why: The expectation is about sampling, relative-frequency tables, graphs, infographics, mean, median and mode, or reading misleading graphs; the museum's records of censuses and land surveys are complete counts or measures and give no sample, graph or measure of centre to restate.
+  searches: *id006
+- code: D1.3
+  text: select from among a variety of graphs, including stacked-bar graphs, the type of graph best suited to represent various sets of data; display the data in the graphs with proper sources, titles, and labels, and appropriate scales; and justify their …
+  why: The expectation is about sampling, relative-frequency tables, graphs, infographics, mean, median and mode, or reading misleading graphs; the museum's records of censuses and land surveys are complete counts or measures and give no sample, graph or measure of centre to restate.
+  searches: *id006
+- code: D1.4
+  text: create an infographic about a data set, representing the data in appropriate ways, including in relative-frequency tables and stacked-bar graphs, and incorporating any other relevant information that helps to tell a story about the data
+  why: The expectation is about sampling, relative-frequency tables, graphs, infographics, mean, median and mode, or reading misleading graphs; the museum's records of censuses and land surveys are complete counts or measures and give no sample, graph or measure of centre to restate.
+  searches: *id006
+- code: D1.5
+  text: determine the mean and the median and identify the mode(s), if any, for various data sets involving whole numbers and decimal numbers, and explain what each of these measures indicates about the data
+  why: The expectation is about sampling, relative-frequency tables, graphs, infographics, mean, median and mode, or reading misleading graphs; the museum's records of censuses and land surveys are complete counts or measures and give no sample, graph or measure of centre to restate.
+  searches: *id006
+- code: D1.6
+  text: analyse different sets of data presented in various ways, including in stacked-bar graphs and in misleading graphs, by asking and answering questions about the data, challenging preconceived notions, and drawing conclusions, then make convincing arguments and informed decisions
+  why: The expectation is about sampling, relative-frequency tables, graphs, infographics, mean, median and mode, or reading misleading graphs; the museum's records of censuses and land surveys are complete counts or measures and give no sample, graph or measure of centre to restate.
+  searches: *id006
+- code: D2.1
+  text: use fractions to express the probability of events happening, represent this probability on a probability line, and use it to make predictions and informed decisions
+  why: The expectation is about expressing and comparing probabilities of events; the museum's only records on chance are legal rulings on games of chance, which hold no probability to restate.
+  searches: &id007
+  - 'find_entity.py "probability" "الاحتمال" "chance": concept/maysir (gambling and games of chance) and concept/nard (backgammon); legal and social records, no probability or odds'
+  - 'find_entity.py "fraction" "الكسور" "kasr": no record that expresses likelihood as a fraction'
+- code: D2.2
+  text: determine and compare the theoretical and experimental probabilities of an event happening
+  why: The expectation is about expressing and comparing probabilities of events; the museum's only records on chance are legal rulings on games of chance, which hold no probability to restate.
+  searches: *id007
+- code: E1.2
+  text: identify and construct congruent triangles, rectangles, and parallelograms
+  why: The expectation is about congruent shapes, views of objects, coordinates in a plane, or translations, reflections and rotations; the museum holds no record on these. The Islamic geometric pattern records are short overviews with no construction to restate.
+  searches: &id008
+  - 'find_entity.py "triangle" "مثلث" "congruent": spherical-triangle methods of Abu al-Wafa and Taqi al-Din tables; no record on congruent plane shapes'
+  - 'find_entity.py "coordinates" "إحداثيات" "map grid": only source/biruni-tahdid-ali-translation, a source record, not a topic record about a coordinate grid'
+- code: E1.3
+  text: draw top, front, and side views of objects, and match drawings with objects
+  why: The expectation is about congruent shapes, views of objects, coordinates in a plane, or translations, reflections and rotations; the museum holds no record on these. The Islamic geometric pattern records are short overviews with no construction to restate.
+  searches: *id008
+- code: E1.4
+  text: plot and read coordinates in the first quadrant of a Cartesian plane using various scales, and describe the translations that move a point from one coordinate to another
+  why: The expectation is about congruent shapes, views of objects, coordinates in a plane, or translations, reflections and rotations; the museum holds no record on these. The Islamic geometric pattern records are short overviews with no construction to restate.
+  searches: *id008
+- code: E1.5
+  text: describe and perform translations, reflections, and rotations up to 180° on a grid, and predict the results of these transformations
+  why: The expectation is about congruent shapes, views of objects, coordinates in a plane, or translations, reflections and rotations; the museum holds no record on these. The Islamic geometric pattern records are short overviews with no construction to restate.
+  searches: *id008
+- code: E2.1
+  text: use appropriate metric units to estimate and measure length, area, mass, and capacity
+  why: The expectation is about metric units of length, area, mass and capacity and converting between them; the museum's measurement record (used in e-1) works in cubits, with no metric units.
+  searches: &id009
+  - 'find_entity.py "weights and measures" "المكاييل والأوزان" "metric": no record found'
+  - 'find_entity.py "area" "المساحة" "perimeter": concept/ilm-al-misaha measures in cubits (used in e-1); no metric units or conversions'
+- code: E2.2
+  text: solve problems that involve converting larger metric units into smaller ones, and describe the base ten relationships among metric units
+  why: The expectation is about metric units of length, area, mass and capacity and converting between them; the museum's measurement record (used in e-1) works in cubits, with no metric units.
+  searches: *id009
+- code: E2.3
+  text: compare angles and determine their relative size by matching them and by measuring them using appropriate non-standard units
+  why: The expectation is about comparing and measuring angles and about how protractors work; the museum holds no record on protractors or angle measuring tools at this level. The astrolabe records are about a sky instrument, not a protractor.
+  searches: &id010
+  - 'find_entity.py "angle" "الزاوية" "protractor": invention/taqi-decimal-trigonometric-tables and unrelated hits; no protractor'
+  - 'find_entity.py "astrolabe" "الإسطرلاب" "asturlab": many astrolabe records, about instruments that tell time and positions of stars, not how a protractor measures and constructs angles up to 180 degrees'
+- code: E2.4
+  text: explain how protractors work, use them to measure and construct angles up to 180°, and use benchmark angles to estimate the size of other angles
+  why: The expectation is about comparing and measuring angles and about how protractors work; the museum holds no record on protractors or angle measuring tools at this level. The astrolabe records are about a sky instrument, not a protractor.
+  searches: *id010
+- code: E2.6
+  text: show that two-dimensional shapes with the same area can have different perimeters, and solve related problems
+  why: The expectation is about shapes with the same area and different perimeters; the museum's area records give formulas, not a comparison of area and perimeter, and its muqarnas measurement is of a ceiling surface.
+  searches:
+  - 'find_entity.py "area" "المساحة" "perimeter": concept/ilm-al-misaha gives areas and a circumference rule but no comparison of equal-area shapes; invention/kashi-muqarnas-mensuration is about surface area of ceiling cells'
+  - 'find_entity.py "geometry" "الهندسة" "handasa": no record on perimeter and area together'
+- code: F1.2
+  text: estimate and calculate the cost of transactions involving multiple items priced in dollars and cents, including sales tax, using various strategies
+  why: The expectation is about calculating the cost of purchases with sales tax, designing a budget, or calculating unit rates; the museum holds records on the ethics and rules of trade but no worked prices, budgets or unit rates.
+  searches: &id011
+  - 'find_entity.py "budget" "الميزانية" "trade": concept/trade-in-islam (honesty, exact measure and weight, partnership) and tithe records; no budget, no sales tax'
+  - 'find_entity.py "price" "السعر" "market": market events and rulings; none gives a price per unit or a total cost'
+- code: F1.3
+  text: design sample basic budgets to manage finances for various earning and spending scenarios
+  why: The expectation is about calculating the cost of purchases with sales tax, designing a budget, or calculating unit rates; the museum holds records on the ethics and rules of trade but no worked prices, budgets or unit rates.
+  searches: *id011
+- code: F1.5
+  text: calculate unit rates for various goods and services, and identify which rates offer the best value
+  why: The expectation is about calculating the cost of purchases with sales tax, designing a budget, or calculating unit rates; the museum holds records on the ethics and rules of trade but no worked prices, budgets or unit rates.
+  searches: *id011
+- code: B2.1
+  text: 'use the properties of operations, and the relationships between operations, to solve problems involving whole numbers and decimal numbers, including those requiring more than one operation, and check calculations'
+  why: 'The expectation is about using properties of operations and the relationships between operations to solve problems and check calculations; the only candidate is a rule for multiplying with complements that involves a debt (a negative intermediate), which is above Grade 5 and is one rule for one product, not a property of operations.'
+  searches:
+  - 'find_entity.py "multiplication" "الضرب" "complement": invention/abu-wafa-debt-multiplication was tried (3 x 5 through complements to ten); it needs a negative intermediate (negative numbers are Grade 7) and its record says it is one specific rule, not about properties of operations'
+  - 'find_entity.py "arithmetic" "الحساب" "hisab": invention/algorism describes the four operations in general terms and names no property or inverse relationship to use'
+- code: C3.1
+  text: 'solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves conditional statements and other control structures'
+  why: 'The expectation is about writing and running code with conditional statements and other control structures; the only candidate, invention/algorism, holds ordered steps of written arithmetic and the origin of the word algorithm, with no conditionals and no code.'
+  searches:
+  - 'find_entity.py "algorithm" "خوارزمية" "algorism": invention/algorism was tried; it has ordered steps of arithmetic and a word origin, no conditionals, no control structures'
+  - 'find_entity.py "coding" "برمجة" "automaton": invention/jazari-musical-boat only (see C3.2); no record holds code or conditional statements'
+- code: F1.6
+  text: 'describe the types of taxes that are collected by the different levels of government in Canada, and explain how tax revenue is used to provide services in the community'
+  why: 'The expectation is about the taxes collected by levels of government in Canada and the services they pay for; the records tried are a land tax with a register (concept/kharaj) and a religious duty paid to named recipients (concept/zakat), which are not taxes of a level of government and say nothing of the services they paid for.'
+  searches:
+  - 'find_entity.py "tax" "ضريبة" "kharaj": concept/kharaj was tried; a land tax and a register of it, with nothing on the services it paid for'
+  - 'find_entity.py "zakat" "زكاة" "tax revenue": concept/zakat was tried; a religious duty paid to eight categories of recipients, not a tax by a level of government'

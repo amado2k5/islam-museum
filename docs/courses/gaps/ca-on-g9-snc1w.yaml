@@ -1,0 +1,266 @@
+course: course/ca-on-g9-snc1w
+gaps:
+- code: A1.1
+  text: apply a scientific research process and associated skills to conduct investigations, making connections between their research and the scientific concepts they are learning
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: apply a scientific experimentation process and associated skills to conduct investigations, making connections between their observations and findings and the scientific concepts they are learning
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: apply an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: apply coding skills to investigate and to model scientific concepts and relationships
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.5
+  text: apply their knowledge and understanding of safe practices and procedures, including the Workplace Hazardous Materials Information System (WHMIS), while planning and carrying out hands-on investigations
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: design an experiment or a prototype to explore a problem relevant to a STEM-related occupation, such as a skilled trade, using findings from research
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: describe how scientific innovations and emerging technologies, including artificial intelligence systems, impact society and careers
+  why: Asks about the impact of emerging technologies, including AI, on society and careers; the museum holds no record on AI or on such impacts.
+  searches:
+  - 'find_entity.py "artificial intelligence" "الذكاء الاصطناعي" "machine learning" "computer": work/fatwa-islamqa-asking-artificial-intelligence-for-fatwas is a fatwa on asking an AI a religious question; no record on AI systems or their effect on society or careers'
+  - 'find_entity.py "emerging technology" "industry" "الصناعة" "invention": records on single historical crafts and inventions (invention/baghdad-papermaking, practice/islamic-glassmaking, concept/crafts-in-islam); none on emerging chemical technologies or their effects on fields or trades'
+- code: A2.3
+  text: analyse how the development and application of science is economically, culturally, and socially contextualized, by investigating real-world issues
+  why: Asks the student to analyse, through real-world issues, how science is shaped by its economic, cultural and social setting; no record presents such an issue for a student to investigate.
+  searches:
+  - 'find_entity.py "science" "العلوم" "scientist" "scientific method": the hits are the hadith, Qur''anic and fiqh sciences; the scientific records are filed under single scholars and inventions'
+  - 'find_entity.py "craftsman" "الصانع" "engineer" "trades": person/al-jazari-engineer and job/papermaker; practice/islamic-glassmaking (used in lesson c-1) describes capitals and craftsmen but no real-world issue for students to investigate'
+- code: A2.4
+  text: apply scientific literacy skills when investigating social and environmental issues that have personal, local, and/or global impacts
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.1
+  text: assess impacts of climate change on the sustainability of local and global ecosystems, describe local or global initiatives for combatting climate change, and identify solutions to address some of the impacts
+  why: Asks about impacts of climate change on ecosystems and solutions; the museum holds no record on climate change.
+  searches:
+  - 'find_entity.py "climate change" "تغير المناخ" "global warming": no real record'
+  - 'find_entity.py "climate": concept/al-aqalim-al-saba (the seven geographical climates) and concept/athar-al-iqlim (Ibn Khaldun on the effect of climate on people); neither is about climate change'
+- code: B1.2
+  text: assess impacts of climate change on communities in Canada, including First Nations, Métis, and Inuit communities
+  why: Asks about impacts of climate change on communities in Canada; the museum holds no record on climate change or on communities in Canada.
+  searches:
+  - 'find_entity.py "climate change" "تغير المناخ" "global warming": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but are one-line gazetteer records with no prose'
+- code: B1.3
+  text: investigate and explain how sustainable practices used by various communities, including First Nations, Métis, and Inuit communities, reflect an understanding of the importance of the dynamic equilibrium of ecosystems
+  why: Asks about sustainable practices of communities, including First Nations, Métis and Inuit communities, and what they show of ecosystem equilibrium; the museum holds no record on those communities, and the hima records give legal rules, not ecological reasons.
+  searches:
+  - 'find_entity.py "First Nations" "Indigenous" "Inuit" "Metis": no relevant record (the one hit, concept/muwala, is about continuity within acts of worship)'
+  - 'find_entity.py "sustainable" "الاستدامة" "conservation" "hima": concept/hima and concept/hima-protected-pasture state the rules for reserved pasture (who may graze, who may reserve it) and give no reason from ecology or conservation'
+- code: B2.1
+  text: investigate interactions between the biosphere, hydrosphere, lithosphere, and atmosphere, and explain why these interactions are important for ecosystem sustainability
+  why: Asks about interactions of the biosphere, hydrosphere, lithosphere and atmosphere; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "biosphere" "hydrosphere" "atmosphere" "lithosphere" "الغلاف الجوي": no real record'
+  - 'find_entity.py "rain" "المطر" "water cycle": concept/rain has no prose; work/kitab-al-matar-ibn-abi-al-dunya gathers reports on rain, thunder, lightning and wind and says nothing of how Earth''s systems interact'
+- code: B2.2
+  text: explain how naturally occurring phenomena, including the cycling of matter and the flow of energy, contribute to the dynamic equilibrium within and between ecosystems
+  why: Asks about the cycling of matter and the flow of energy in ecosystems; the museum holds no record on either.
+  searches:
+  - 'find_entity.py "food chain" "السلسلة الغذائية" "nutrient" "decomposition" "energy flow": no real record'
+  - 'find_entity.py "ecosystem" "النظام البيئي" "biosphere": no real record'
+- code: B2.3
+  text: compare and contrast the processes of cellular respiration and photosynthesis, and explain how their complementary relationship contributes to the dynamic equilibrium of ecosystems
+  why: Asks the student to compare cellular respiration and photosynthesis; the museum holds no record on either.
+  searches:
+  - 'find_entity.py "photosynthesis" "التمثيل الضوئي" "respiration": no real record'
+  - 'find_entity.py "plants" "النبات" "oxygen" "botany": concept/trees-plants gathers Qur''anic verses and a hadith about trees; nothing on how plants or cells use energy'
+- code: B2.5
+  text: explain the effects of various human activities on the dynamic equilibrium of ecosystems
+  why: Asks for the effects of human activities on the equilibrium of ecosystems; the only related records are one author's reading on pollution and a preacher's anecdote whose details the record marks as unsourced, so neither can carry a lesson.
+  searches:
+  - 'find_entity.py "universe" "الكون" "cosmos" "creation": concept/al-tawazun-al-kawni holds a preacher''s account that human interference spoils creation''s balance, with a sparrow-and-locust story whose date and details the record itself marks as needing a source; it cannot carry a lesson'
+  - 'find_entity.py "environment": concept/environmental-protection-in-islam gives one author''s reading that pollution of water, air and land threatens people and societies; it says nothing of ecosystems, their cycles or their balance'
+- code: B2.6
+  text: identify and use various indicators of climate change to describe the impacts of climate change on local and global ecosystems, and analyse how human activities contribute to climate change
+  why: Asks for indicators of climate change and the human activities behind it; the museum holds no record on climate change or its indicators.
+  searches:
+  - 'find_entity.py "drought" "الجفاف" "glacier" "sea level" "temperature": no real record'
+  - 'find_entity.py "climate change" "تغير المناخ" "global warming": no real record'
+- code: B2.7
+  text: explain how sustainable practices related to the cycling of matter and the flow of energy can be applied in agricultural innovations
+  why: Asks how sustainable practices on cycling of matter and flow of energy apply in agricultural innovations; the museum's agriculture records give legal rules and a soil and water classification, none on cycling of matter or flow of energy.
+  searches:
+  - 'find_entity.py "agriculture" "الزراعة" "irrigation" "fertiliser" "السماد": concept/agriculture-in-islam (livelihood and land-title rules), concept/simad (rulings on the purity of manure) and invention/ibn-bassal-soil-water-matching (soil and water types for crops, used in lesson b-1); none explains the cycling of matter or the flow of energy in farming'
+  - 'find_entity.py "food chain" "السلسلة الغذائية" "nutrient" "decomposition" "energy flow": no real record'
+- code: C1.2
+  text: analyse impacts of using emerging chemical technologies in various fields, including in the skilled trades, and assess factors that influence the development of these technologies
+  why: Asks about emerging chemical technologies in various fields and the factors that influence them; the museum holds no record on such technologies.
+  searches:
+  - 'find_entity.py "emerging technology" "industry" "الصناعة" "invention": records on single historical crafts and inventions (invention/baghdad-papermaking, practice/islamic-glassmaking, concept/crafts-in-islam); none on emerging chemical technologies or their effects on fields or trades'
+  - 'find_entity.py "chemistry" "الكيمياء" "alchemy" "chemical": concept/sinaat-al-kimiya (the claimed origins of alchemy) and work/kimiya-i-saadat (a Sufi book); nothing on properties, changes or interactions of matter'
+- code: C2.1
+  text: investigate properties, changes, and interactions of matter that are important for the dynamic equilibrium of ecosystems and their sustainability
+  why: Asks for properties, changes and interactions of matter important for ecosystems; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "chemistry" "الكيمياء" "alchemy" "chemical": concept/sinaat-al-kimiya (the claimed origins of alchemy) and work/kimiya-i-saadat (a Sufi book); nothing on properties, changes or interactions of matter'
+  - 'find_entity.py "four elements" "الأركان" "matter": concept/four-elements gives Ibn Sina''s four simple bodies (fire, air, water, earth) as natural philosophy; it is neither an atomic model nor the periodic table'
+- code: C2.2
+  text: research the role of experimental evidence in the development of various atomic models, and compare and contrast different models of the atom
+  why: Asks for the role of experimental evidence in atomic models and a comparison of models of the atom; the museum holds no record on atomic models.
+  searches:
+  - 'find_entity.py "atom" "الذرة" "atomism" "الجوهر الفرد": no real record'
+  - 'find_entity.py "four elements" "الأركان" "matter": concept/four-elements gives Ibn Sina''s four simple bodies (fire, air, water, earth) as natural philosophy; it is neither an atomic model nor the periodic table'
+- code: C2.3
+  text: identify the location, relative mass, and charge of subatomic particles within an atom, using the Bohr-Rutherford model
+  why: Asks for the location, relative mass and charge of subatomic particles in the Bohr-Rutherford model; the museum holds no record on atomic structure.
+  searches:
+  - 'find_entity.py "atom" "الذرة" "atomism" "الجوهر الفرد": no real record'
+  - 'find_entity.py "four elements" "الأركان" "matter": concept/four-elements gives Ibn Sina''s four simple bodies (fire, air, water, earth) as natural philosophy; it is neither an atomic model nor the periodic table'
+- code: C2.4
+  text: explain the relationship between the position of an element in the periodic table and the structure of its atoms, using models
+  why: Asks for the relation between an element's position in the periodic table and its atomic structure; the museum holds no record on the periodic table or on atomic structure.
+  searches:
+  - 'find_entity.py "periodic table" "الجدول الدوري" "chemical element": no real record'
+  - 'find_entity.py "atom" "الذرة" "atomism" "الجوهر الفرد": no real record'
+- code: C2.5
+  text: investigate the physical and chemical properties of elements, and use their findings to relate these properties to the organization of the periodic table, classify elements, and identify patterns in the periodic table
+  why: Asks the student to investigate properties of elements and the organisation of the periodic table; the museum holds no record on the periodic table or on the properties of elements.
+  searches:
+  - 'find_entity.py "periodic table" "الجدول الدوري" "chemical element": no real record'
+  - 'find_entity.py "metal" "الفلزات" "gold" "mercury" "sulphur": concept/gold-silver gathers Qur''anic verses on gold and silver and the rest are fatwas on gold; nothing on the properties of elements'
+- code: C2.6
+  text: investigate and describe physical and chemical properties of elements and compounds, including those that make up common household products
+  why: Asks for physical and chemical properties of elements and compounds, including household products; the museum's records on salt and soap are legal, and the glass records give recipes, not properties.
+  searches:
+  - 'find_entity.py "salt" "الملح" "soap" "الصابون" "vinegar": concept/milh and concept/soap-saboon are fiqh records (purity, riba, the state of ihram) with no properties of the substances'
+  - 'find_entity.py "compound" "المركب" "salt" "acid": invention/kindi-drug-degrees (compound drugs in medicine) and concept/milh (salt in purity and riba rulings); neither describes the properties of a chemical compound'
+- code: C2.7
+  text: describe the relationship between the structure of simple compounds and their chemical formulas
+  why: Asks for the relation between the structure of simple compounds and their chemical formulas; the museum holds no record on chemical formulas.
+  searches:
+  - 'find_entity.py "chemical formula" "الصيغة الكيميائية" "molecule": no real record'
+  - 'find_entity.py "compound" "المركب" "salt" "acid": invention/kindi-drug-degrees (compound drugs in medicine) and concept/milh (salt in purity and riba rulings); neither describes the properties of a chemical compound'
+- code: D1.1
+  text: assess social, environmental, and economic benefits and challenges resulting from the production of electrical energy from various sources
+  why: Asks for the benefits and challenges of producing electrical energy from various sources; the museum holds no record on electrical energy.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "power plant" "solar energy": no relevant record (the one hit is a fatwa on wearing energy stones)'
+  - 'find_entity.py "wind" "water power" "fuel" "coal" "oil": concept/wind (Qur''anic verses), two al-Jazari water-lifting designs (invention/jazari-double-piston-pump, invention/jazari-animal-scoop-water-lifter) and fatwas on olive oil; none concerns producing electrical energy'
+- code: D1.2
+  text: evaluate how electrical energy production and consumption impact various communities locally or globally, and describe ways to achieve sustainable practices
+  why: Asks how electrical energy production and consumption affect communities and how to make them sustainable; the museum holds no record on electrical energy.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "power plant" "solar energy": no relevant record (the one hit is a fatwa on wearing energy stones)'
+  - 'find_entity.py "wind" "water power" "fuel" "coal" "oil": concept/wind (Qur''anic verses), two al-Jazari water-lifting designs (invention/jazari-double-piston-pump, invention/jazari-animal-scoop-water-lifter) and fatwas on olive oil; none concerns producing electrical energy'
+- code: D1.3
+  text: develop a plan of action to address a local or global electrical energy production or consumption issue, including strategies for energy conservation
+  why: Asks the student to plan action on an electrical energy issue; the museum holds no record on electrical energy.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "power plant" "solar energy": no relevant record (the one hit is a fatwa on wearing energy stones)'
+  - 'find_entity.py "wind" "water power" "fuel" "coal" "oil": concept/wind (Qur''anic verses), two al-Jazari water-lifting designs (invention/jazari-double-piston-pump, invention/jazari-animal-scoop-water-lifter) and fatwas on olive oil; none concerns producing electrical energy'
+- code: D1.4
+  text: analyse social, environmental, and economic impacts of emerging technologies related to electrical energy production, consumption, storage, and conservation
+  why: Asks for impacts of emerging technologies for electrical energy production, storage and conservation; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "power plant" "solar energy": no relevant record (the one hit is a fatwa on wearing energy stones)'
+  - 'find_entity.py "emerging technology" "industry" "الصناعة" "invention": records on single historical crafts and inventions (invention/baghdad-papermaking, practice/islamic-glassmaking, concept/crafts-in-islam); none on emerging chemical technologies or their effects on fields or trades'
+- code: D2.1
+  text: conduct investigations to explain the behaviour of electric charges in static and current electricity, and to relate the observed behaviour to the properties of subatomic particles and atomic structure
+  why: Asks for the behaviour of electric charges in static and current electricity; the museum holds no record on electric charge.
+  searches:
+  - 'find_entity.py "lightning" "البرق" "static" "spark": concept/thunder-lightning gathers Qur''anic verses and a report on thunder and lightning, and says nothing of electric charge'
+  - 'find_entity.py "electricity" "الكهرباء" "electric current" "circuit": no real record (the hits are circuits of journeys and of the tawaf)'
+- code: D2.2
+  text: determine the conductivity of various materials by investigating their ability to hold or transfer electric charges
+  why: Asks for the conductivity of materials; the museum holds no record on conductors or electric charge.
+  searches:
+  - 'find_entity.py "battery" "البطارية" "conductor" "resistance" "magnet": the hits are historical events of resistance and a legend (place/magnetic-temple-china); no record on conductors, resistance or magnets'
+  - 'find_entity.py "electricity" "الكهرباء" "electric current" "circuit": no real record (the hits are circuits of journeys and of the tawaf)'
+- code: D2.3
+  text: identify the components of a direct current (DC) circuit and explain their functions, and identify electrical quantities, their symbols, and their corresponding International System of Units (SI) units
+  why: Asks for the parts of a DC circuit, their functions and the electrical quantities; the museum holds no record on circuits.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "electric current" "circuit": no real record (the hits are circuits of journeys and of the tawaf)'
+  - 'find_entity.py "battery" "البطارية" "conductor" "resistance" "magnet": the hits are historical events of resistance and a legend (place/magnetic-temple-china); no record on conductors, resistance or magnets'
+- code: D2.4
+  text: investigate the relationships between electric current, potential difference, and resistance in electrical circuits, and develop a mathematical model to represent the relationships
+  why: Asks for the relationships between current, potential difference and resistance; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "electric current" "circuit": no real record (the hits are circuits of journeys and of the tawaf)'
+  - 'find_entity.py "battery" "البطارية" "conductor" "resistance" "magnet": the hits are historical events of resistance and a legend (place/magnetic-temple-china); no record on conductors, resistance or magnets'
+- code: D2.5
+  text: apply a mathematical model to calculate electric current, potential difference, and resistance in real-world situations
+  why: Asks the student to calculate current, potential difference and resistance; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "electric current" "circuit": no real record (the hits are circuits of journeys and of the tawaf)'
+  - 'find_entity.py "battery" "البطارية" "conductor" "resistance" "magnet": the hits are historical events of resistance and a legend (place/magnetic-temple-china); no record on conductors, resistance or magnets'
+- code: D2.6
+  text: construct series and parallel circuits to compare electric current, potential difference, and resistance in both types of circuits
+  why: Asks the student to build series and parallel circuits; the museum holds no record on circuits.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "electric current" "circuit": no real record (the hits are circuits of journeys and of the tawaf)'
+  - 'find_entity.py "battery" "البطارية" "conductor" "resistance" "magnet": the hits are historical events of resistance and a legend (place/magnetic-temple-china); no record on conductors, resistance or magnets'
+- code: D2.7
+  text: explain the difference between electricity and electrical energy
+  why: Asks for the difference between electricity and electrical energy; the museum holds no record on either.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "electric current" "circuit": no real record (the hits are circuits of journeys and of the tawaf)'
+  - 'find_entity.py "energy" "الطاقة" "power plant" "solar energy": no relevant record (the one hit is a fatwa on wearing energy stones)'
+- code: D2.8
+  text: determine the efficiency of various electrical devices that consume or produce electrical energy, and identify the energy transformations in each device
+  why: Asks for the efficiency of electrical devices and their energy transformations; the museum's machine records are mechanical, not electrical.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "power plant" "solar energy": no relevant record (the one hit is a fatwa on wearing energy stones)'
+  - 'find_entity.py "wind" "water power" "fuel" "coal" "oil": concept/wind (Qur''anic verses), two al-Jazari water-lifting designs (invention/jazari-double-piston-pump, invention/jazari-animal-scoop-water-lifter) and fatwas on olive oil; none concerns producing electrical energy'
+- code: E1.1
+  text: evaluate social, environmental, and economic impacts of space observation and exploration
+  why: Asks the student to evaluate the social, environmental and economic impacts of space observation and exploration; the museum holds no record on space exploration, and its observatory record states no such impacts.
+  searches:
+  - 'find_entity.py "space exploration" "satellite" "rocket": only records on Arab satellite television channels (concept/al-fadaiyyat-al-arabiyya, concept/al-fatwa-ala-al-fadaiyyat)'
+  - 'find_entity.py "telescope" "satellite" "spacecraft" "exploration": the same satellite-channel records; building/sharaf-al-dawla-observatory says an observatory was commissioned at Baghdad in 378 AH and what it was to observe, and states no social, environmental or economic impact'
+- code: E1.2
+  text: evaluate how space observation and exploration technologies contribute to our understanding of climate change, natural disasters, and other phenomena
+  why: Asks how space technologies add to our understanding of climate change and natural disasters; the museum holds no record on such technologies.
+  searches:
+  - 'find_entity.py "climate change" "تغير المناخ" "global warming": no real record'
+  - 'find_entity.py "earthquake" "الزلزلة" "natural disaster" "flood": many records of earthquakes and floods as historical events (for example event/earthquake-tsunami-425), none about observing them from space'
+- code: E1.3
+  text: assess ways in which technological innovations related to space observation and exploration are applied in various fields, including their contributions to sustainable practices on Earth
+  why: Asks how innovations from space observation are applied in other fields; the museum holds no record on such innovations.
+  searches:
+  - 'find_entity.py "space exploration" "satellite" "rocket": only records on Arab satellite television channels (concept/al-fadaiyyat-al-arabiyya, concept/al-fatwa-ala-al-fadaiyyat)'
+  - 'find_entity.py "emerging technology" "industry" "الصناعة" "invention": records on single historical crafts and inventions (invention/baghdad-papermaking, practice/islamic-glassmaking, concept/crafts-in-islam); none on emerging chemical technologies or their effects on fields or trades'
+- code: E2.1
+  text: describe the importance of the Sun and its characteristics, including its role in the solar system and in sustaining life on Earth
+  why: Asks for the importance and characteristics of the Sun and its role in the solar system and for life; the museum's sun record has no prose, and the one record that mentions the sun's year gives nothing on its characteristics or role.
+  searches:
+  - 'find_entity.py "sun" "الشمس" "sunlight" "sundial": concept/sun has no prose and most hits are people named Shams; concept/al-harakat-al-thaniya gives the sun''s return in about 365 and a quarter days but nothing on its characteristics or its role in the solar system'
+  - 'find_entity.py "heat" "الحرارة" "sunlight" "solar energy": no relevant record'
+- code: E2.2
+  text: explain how the Sun’s energy causes natural phenomena on Earth, and how these phenomena contribute to renewable energy production
+  why: Asks how the Sun's energy causes natural phenomena and renewable energy; the museum holds no record on either.
+  searches:
+  - 'find_entity.py "heat" "الحرارة" "sunlight" "solar energy": no relevant record'
+  - 'find_entity.py "wind" "water power" "fuel" "coal" "oil": concept/wind (Qur''anic verses), two al-Jazari water-lifting designs (invention/jazari-double-piston-pump, invention/jazari-animal-scoop-water-lifter) and fatwas on olive oil; none concerns producing electrical energy'
+- code: E2.3
+  text: summarize observational evidence used to support theories about the origin and evolution of the universe and the solar system, considering diverse ways of knowing
+  why: Asks for the observational evidence behind theories of the origin and evolution of the universe and solar system; the museum holds no record on such theories or evidence.
+  searches:
+  - 'find_entity.py "origin of universe" "نشأة الكون" "big bang" "creation of the heavens": no real record'
+  - 'find_entity.py "universe" "الكون" "cosmos" "السماوات": concept/al-haya-al-sunniyya (a genre of cosmology drawn from the Qur''an, the Sunna and reports) and concept/heavens (Qur''anic verses); neither presents observational evidence for a theory of the origin of the universe or the solar system'

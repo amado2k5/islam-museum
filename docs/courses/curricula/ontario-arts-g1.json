@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-arts-g1",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "The Arts",
+  "url_slug": "elementary-arts",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-arts"
+ },
+ "course_code": "",
+ "ministry_course_name": "Arts - Grade 1",
+ "course": "The Arts",
+ "grade": [
+  "1"
+ ],
+ "retrieved_utc": "2026-11-12T06:35:51Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=ddb8269f-381f-4b6c-b759-ad00eba2d90f&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2024-10-31T16:30:04.9212388Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "40ba72de2c830549bbde9953b189758fb72d9ac5185edd868e50ce1854637e12",
+  "official.json": "517f01ef9f49e854ebe477366d21f8b61559afd08f3011dbfe6777d19c8126e8"
+ },
+ "counts": {
+  "strands": 4,
+  "overall_expectations": 12,
+  "specific_expectations": 38
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

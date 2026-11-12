@@ -1,0 +1,146 @@
+course: course/ca-on-g12-amu4m
+gaps:
+- code: A1.1
+  text: apply the creative process when performing increasingly complex and difficult notated and/or improvised music […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: apply the creative process when composing and/or arranging increasingly complex musical works […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: apply the elements of music and related concepts appropriately and effectively when interpreting and performing increasingly complex and difficult notated music […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: manipulate the elements of music and related concepts effectively and with increasing skill and creativity when improvising melodies in a wide variety of musical forms […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.3
+  text: apply the elements of music and related concepts effectively and with increasing skill and creativity when composing and/or arranging music in a variety of forms […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.1
+  text: extend their technical skills when performing increasingly complex and difficult notated and/or improvised music […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.2
+  text: apply compositional techniques with increasing skill and creativity when composing and/or arranging music […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.3
+  text: use a variety of current technologies with increasing skill when practising, performing, composing, arranging, or recording music […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.1
+  text: deconstruct with increasing skill and insight the elements and other components of music through score study of and purposeful listening to increasingly complex musical works […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.2
+  text: listen to and reflect on selections from a wide range of musical styles and genres, including their own performance repertoire, and analyse and reflect with increasing insight on their responses to and interpretation of them […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.3
+  text: analyse with increasing insight and assess the effectiveness of music from a wide range of styles and genres and in various performance modes, and reflect on how such analyses can enhance their own creation or performance of music […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B3.1
+  text: analyse and assess the impact of the study of music on their self-awareness, their expressive capabilities, their awareness of social issues, and their understanding of others […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B3.2
+  text: assess, with increasing insight, their musical skills and knowledge, and develop and implement a detailed plan to enhance them and evaluate their progress […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B3.3
+  text: demonstrate the interpersonal skills, work habits, attitudes, and qualities that are essential to the effective performance of music in a variety of contexts […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B4.1
+  text: assess their interests, skills, and knowledge in relation to a variety of careers in the arts and culture industry […]
+  why: The expectation asks the student to assess their own interests and skills against careers in the arts and culture industry (a composer, promotion and marketing, music education, arts advocacy); the museum holds no record of such a career.
+  searches:
+  - 'find_entity.py "musician" "موسيقي" "singer" "muezzin": concept/muezzin is a role in worship, person/al-gharid and person/mabad-al-mughanni are one-line singer records; no record on a career in the arts and culture industry'
+  - 'find_entity.py "arts advocacy" "فنون" "audition" "conservatory": hits are book titles containing "funun" and hadith audition sessions (sama''); no record on arts organisations or music careers'
+- code: B4.2
+  text: evaluate and demonstrate their musical skills and knowledge in relation to entrance requirements for postsecondary study of music […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B4.3
+  text: demonstrate an understanding of the benefits of their continuing involvement in a variety of aspects of the arts community […]
+  why: The expectation asks the student to explain the benefits of continuing involvement in the arts community (performer, composer, advocate, promoter, producer); the museum holds no record on an arts community or on arts activism.
+  searches:
+  - 'find_entity.py "arts advocacy" "فنون" "audition" "conservatory": no record on an arts community; award/order-of-sciences-and-arts-egypt is a state decoration, not a community'
+  - 'find_entity.py "musician" "موسيقي" "singer" "muezzin": individual singers only, no record on community involvement'
+- code: C1.1
+  text: extend and deepen their understanding of the elements and other components of music, particularly through practical application and aural recognition, and use appropriate terminology related to them […]
+  why: The expectation asks the student to identify triads, cadences, chord progressions and forms with the right terminology; the museum holds no record of music theory.
+  searches:
+  - 'find_entity.py "musical notation" "تدوين موسيقي" "scale" "solfège": hits are hadith passages about "the Scale" (al-mizan); no record on music theory'
+  - 'find_entity.py "maqam" "مقام" "melodic mode": hits are shrines (maqam) and a hadith station (al-maqam al-mahmud); no record on melodic modes'
+- code: C1.2
+  text: extend their understanding of, and use correct terminology related to, the concepts of notation in a variety of activities […]
+  why: The expectation asks the student to read, write and name notation, modes and scoring formats; the museum holds no record on musical notation.
+  searches:
+  - 'find_entity.py "musical notation" "تدوين موسيقي" "scale" "solfège": no record on notation'
+  - 'find_entity.py "maqam" "مقام" "melodic mode": no record on modes, only shrines and hadith'
+- code: C1.3
+  text: accurately reproduce, notate, and identify increasingly complex melodic, harmonic, and/or rhythmic examples […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.1
+  text: demonstrate an understanding of the development of various forms of music with respect to chronology, genre, and theme […]
+  why: The expectation asks the student to explain how forms of music developed over time, by chronology, genre and theme; the museum holds individual records but none on the development of a form.
+  searches:
+  - 'find_entity.py "history of music" "تاريخ الموسيقى" "blues" "jazz": no real record under these spellings'
+  - 'find_entity.py "qawwali" "قوالي" "ghazal" "غزل": records on singers (person/nusrat-fatih-ali-khan, person/mehdi-hassan, person/begum-akhtar) but none traces a form across time'
+- code: C3.1
+  text: demonstrate an understanding of performance-related injuries connected to the field of music and ways of minimizing such injuries […]
+  why: The expectation asks the student to understand injuries connected to music (hearing, posture) and how to minimise them; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "hearing loss" "السمع" "noise" "ergonomics": hits are hadith passages beginning "he heard" (sami''a) and concept/sama (the rulings of hearing); none on injury'
+  - 'find_entity.py "musician" "موسيقي" "singer" "muezzin": no record on a musician''s health'
+- code: C3.2
+  text: extend their understanding of conventions associated with various types of musical performances, from the perspective of performers and audience members […]
+  why: The expectation asks the student to understand the conventions of musical performances (an orchestra, surtitles at the opera, how genres challenged conventions); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "concert" "حفل" "orchestra" "opera": hits are military operations and cooperative societies; no record on performance conventions'
+  - 'find_entity.py "qawwali" "قوالي" "ghazal" "غزل": person records only, none on the conventions of a performance'
+- code: C3.3
+  text: demonstrate an understanding of legal and ethical practices with respect to both consumers and producers of music, with a particular emphasis on the recording industry […]
+  why: The expectation asks the student to understand legal and ethical practices in music, above all licensing and file sharing in the recording industry; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "copyright" "حقوق الملكية" "licensing" "piracy": the only record is work/fatwa-dar-alifta-intellectual-property-of-research-after-death, about research works after the author''s death, not music or recordings'
+  - 'find_entity.py "music" "موسيقى" "Musiqa": listing/awakening-records is a record company''s profile; no record on licensing or the legal practice of the industry'

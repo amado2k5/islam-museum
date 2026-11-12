@@ -1,0 +1,46 @@
+id: course/ca-on-g5-math-c-1
+class: course
+kind: lesson
+label:
+  en: Finding the unknown
+  ar: إيجاد المجهول
+  ur: نامعلوم کی تلاش
+summary:
+  en: What an equation says about an unknown number, and how an unknown is found and checked (C2.1, C2.3).
+  ar: ماذا تقول المعادلة عن عدد مجهول، وكيف يُستخرج المجهول ويُتحقق منه، التوقعان C2.1 وC2.3.
+  ur: مساوات نامعلوم عدد کے بارے میں کیا کہتی ہے، اور نامعلوم کیسے نکالا اور جانچا جاتا ہے، توقعات C2.1، C2.3۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g5-math-c
+expectations:
+- code: C2.1
+  text:
+    en: translate among words, algebraic expressions, and visual representations that describe equivalent relationships
+    ar: ترجم بين الكلمات والعبارات الجبرية والتمثيلات البصرية التي تصف علاقات متكافئة
+    ur: الفاظ، الجبری اظہارات اور بصری نمائندگیوں کے درمیان ترجمہ کریں جو مساوی تعلقات بیان کرتی ہیں
+- code: C2.3
+  text:
+    en: solve equations that involve whole numbers up to 100 in various contexts, and verify solutions
+    ar: حُلّ معادلات تتضمن أعداداً صحيحة حتى 100 في سياقات متنوعة، وتحقق من الحلول
+    ur: 100 تک کے مکمل اعداد پر مشتمل مساوات مختلف سیاق میں حل کریں اور حلوں کی تصدیق کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: Finding an unknown number
+    ar: إيجاد عدد مجهول
+    ur: نامعلوم عدد کی تلاش
+  text:
+    en: Algebra, al-jabr wal-muqabala, is the art of finding an unknown number from known ones through an equation. Al-Khwarizmi set it out in Baghdad under the caliph al-Ma'mun in a concise book, for people's needs in inheritance, bequests, trade and land measurement. The TDV biography of al-Khwarizmi describes his drawing with squares and rectangles as a geometric representation and verification of the solution, and TDV notes that his algebra was wholly in words, with no symbols. How could you show the same unknown in words, in a drawing and in symbols?
+    ar: علم الجبر والمقابلة صناعة يُستخرج بها العدد المجهول من الأعداد المعلومة بمعادلة بينها. وضعه محمد بن موسى الخوارزمي في بغداد في عهد الخليفة المأمون في كتاب مختصر، لما يلزم الناس في مواريثهم ووصاياهم وتجاراتهم ومساحة أرضيهم. وتصف سيرة الخوارزمي في موسوعة TDV رسمه بالمربعات والمستطيلات بأنه تمثيل هندسي للحل التحليلي والتحقق منه، وتذكر موسوعة TDV أن جبره كان كله بالكلمات بلا رموز. كيف تُظهر المجهول نفسه بالكلمات وبالرسم وبالرموز؟
+    ur: علمِ جبر و مقابلہ ایسا فن ہے جس سے معلوم اعداد کے ساتھ ایک مساوات کے ذریعے نامعلوم عدد نکالا جاتا ہے۔ محمد بن موسیٰ خوارزمی نے اسے بغداد میں خلیفہ مامون کے دور میں ایک مختصر کتاب میں ترتیب دیا، لوگوں کی وراثت، وصیتوں، تجارت اور زمین کی پیمائش کی ضرورتوں کے لیے۔ TDV میں خوارزمی کی سوانح بتاتی ہے کہ مربعوں اور مستطیلوں کی اس کی ڈرائنگ حل کی ایک ہندسی نمائندگی اور اس کی تصدیق ہے، اور TDV لکھتی ہے کہ اس کا جبر پورا الفاظ میں تھا، علامتوں کے بغیر۔ ایک ہی نامعلوم کو الفاظ، ڈرائنگ اور علامتوں میں کیسے دکھایا جائے؟
+  entity: invention/algebra
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+  - source/tdv-harizmi
+  - source/tdv-cebir
+order: 1

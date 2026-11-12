@@ -1,0 +1,57 @@
+id: course/ca-on-g1-social-studies-b-1
+class: course
+kind: lesson
+label:
+  en: Services that meet our needs
+  ar: خدمات تلبّي حاجاتنا
+  ur: ہماری ضرورتیں پوری کرنے والی خدمات
+summary:
+  en: Which services and workers meet a community’s needs, and what would happen without them (B1.1, B1.2).
+  ar: أي الخدمات والعاملين يلبّون حاجات المجتمع، وماذا قد يحدث لو غابوا ⁦(B1.1 وB1.2)⁩.
+  ur: کون سی خدمات اور کارکن برادری کی ضرورتیں پوری کرتے ہیں، اور ان کے بغیر کیا ہو سکتا ہے ⁦(B1.1 اور B1.2)⁩۔
+sources:
+- source/ontario-curriculum-sshg-2023
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g1-social-studies-b
+expectations:
+- code: B1.1
+  text:
+    en: describe some of the ways in which people interact with the natural environment and the built features of, and human services in, the local community to meet their needs, and what might happen if these features/services did not exist
+    ar: صِف بعض الطرق التي يتفاعل بها الناس مع البيئة الطبيعية والمعالم المبنية والخدمات البشرية في المجتمع المحلي لتلبية حاجاتهم، وماذا قد يحدث لو لم تكن هذه المعالم أو الخدمات موجودة
+    ur: بیان کریں کہ لوگ اپنی ضرورتیں پوری کرنے کے لیے مقامی برادری کے قدرتی ماحول، تعمیر شدہ خصوصیات اور انسانی خدمات سے کن طریقوں سے کام لیتے ہیں، اور اگر یہ خصوصیات یا خدمات نہ ہوتیں تو کیا ہو سکتا تھا
+- code: B1.2
+  text:
+    en: identify some services and service-related occupations in their community […], and describe how they meet people’s needs, including their own needs
+    ar: حدّد بعض الخدمات والمهن المرتبطة بها في مجتمعهم المحلي […]، وصِف كيف تلبّي حاجات الناس، ومنها حاجاتهم هم
+    ur: اپنی برادری کی کچھ خدمات اور ان سے متعلق پیشوں کی نشاندہی کریں […]، اور بیان کریں کہ وہ لوگوں کی ضرورتیں، بشمول ان کی اپنی ضرورتیں، کیسے پوری کرتے ہیں
+connections:
+- position: before
+  kind: object
+  title:
+    en: The sabil, a water fountain for all
+    ar: السبيل، سقاية الماء للناس
+    ur: سبیل، سب کے لیے پانی
+  text:
+    en: Al-Haddad describes a sabil as a charitable building endowed to give people fresh water every day all year round. Sabils drew water from wells, pools and springs, or from rain and floods through well-built channels or pipes hidden in walls. What would happen in a neighbourhood if its water stopped?
+    ar: يصف الحداد السبيل بأنه بناء خيري يُوقَف ليسقي الناس الماء العذب كل يوم وعلى مدار العام. وكانت الأسبلة تستمد ماءها من الآبار والبرك والعيون أو من الأمطار والسيول بقنوات محكمة أو أقصاب مغيبة في الجدران. ماذا يحدث في حيّ لو انقطع عنه الماء؟
+    ur: الحداد سبیل کو ایک خیراتی عمارت بتاتے ہیں جو وقف کی جاتی تھی تاکہ لوگوں کو ہر روز اور سال بھر میٹھا پانی ملے۔ سبیلیں اپنا پانی کنوؤں، حوضوں اور چشموں سے، یا بارش اور سیلاب کے پانی سے، مضبوط نالیوں یا دیواروں میں چھپے پائپوں کے ذریعے حاصل کرتی تھیں۔ اگر کسی محلے کا پانی بند ہو جائے تو کیا ہوگا؟
+  entity: concept/sabil
+  sources:
+  - source/haddad-asbila-makka-madina-2004
+- position: after
+  kind: place
+  title:
+    en: A hospital in Baghdad
+    ar: مستشفى في بغداد
+    ur: بغداد کا ایک ہسپتال
+  text:
+    en: In Baghdad Adud al-Dawla built a hospital. The record, following Ibn al-Jawzi, says physicians, medicines, stewards, servants, vessels and clothing were gathered there, and the poor were given the clothing and vessels that left it. Who looks after the sick in your community?
+    ar: بنى عضد الدولة في بغداد بيمارستانًا. ويذكر السجل، نقلًا عن ابن الجوزي، أنه جُمع فيه الأطباء والأدوية والقوّام والخدم والآنية والكسوة، وأن الفقراء أُعطوا الكسوة والآنية التي خرجت منه. من يعتني بالمرضى في مجتمعك؟
+    ur: بغداد میں عضد الدولہ نے ایک ہسپتال بنوایا۔ ریکارڈ، ابن الجوزی کے حوالے سے، بتاتا ہے کہ وہاں طبیب، دوائیں، نگران، خادم، برتن اور کپڑے جمع کیے گئے، اور غریبوں کو وہ کپڑے اور برتن دیے گئے جو اس سے نکلتے تھے۔ آپ کی برادری میں بیماروں کا خیال کون رکھتا ہے؟
+  entity: building/bimaristan-adudi
+  sources:
+  - source/muntazam-ibn-al-jawzi
+order: 1

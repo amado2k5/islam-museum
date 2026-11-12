@@ -15,6 +15,8 @@ import { wingCountLabel, explorePages, num } from "../lib/nav";
 import { featuredPool } from "../../../scripts/wings";
 import { a11yLd } from "../lib/a11y";
 import { TOUR_LANGS, tourPath, stops as tourStops } from "../lib/grand-tour";
+import CoursesPromo from "./CoursesPromo.astro";
+import { isCourseLang, homePath } from "../lib/courses";
 const { lang, path } = Astro.props as { lang: Lang; path: string };
 const T = ui(lang);
 const L = T.learn;
@@ -22,7 +24,9 @@ const ORDER = ["path-islam-in-30-minutes", "path-meccan-period", "path-abyssinia
 const rank = (id: string) => { const k = ORDER.indexOf(id.replace("exhibit/", "")); return k === -1 ? 99 : k; };
 const paths = realNodes.filter((n: any) => n.class === "exhibit" && String(n.id).startsWith("exhibit/path-")).sort((a: any, b: any) => rank(a.id) - rank(b.id) || String(a.id).localeCompare(String(b.id))).slice(0, 5);
 const PATH_ACC = ["var(--gold)", "var(--wing-ideas)", "var(--wing-place)", "#8e5aa8", "var(--wing-people)"];
-const EXPLORE = explorePages(lang);
+// the Education Explorer joins the homepage's list here, not in explorePages(): that list also feeds the header menu,
+// which is baked into every page of the site, and a new entry there would rewrite all of them
+const EXPLORE = [...explorePages(lang), { key: "courses" as any, href: homePath(lang), ready: true }];
 const pages = 2 * realNodes.length;
 // One random entry per wing card, picked in the browser from a small pool fixed at build time (scripts/wings.ts featuredPool).
 const teaser = (s: string, n = 110) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s);
@@ -63,6 +67,7 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
     </div>
   </section>
 
+  {isCourseLang(lang) && <CoursesPromo lang={lang} />}
   <section class="block" id="wings" aria-labelledby="wings-title" style="padding-top:1rem">
     <div class="wrap">
       <div class="sec-head"><h2 id="wings-title">{T.landing.wings_title}</h2><p class="muted">{T.landing.wings_lede}</p></div>
@@ -86,6 +91,7 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
         {EXPLORE.map((x) => (
           <li class="xcard">
             <div class="thumb" aria-hidden="true" data-thumb={x.key}>
+              {x.key === "courses" && <svg viewBox="0 0 150 150" style="position:absolute;inset:0" aria-hidden="true"><path d="M75 26 V124" stroke="#c5a059" stroke-width="3" fill="none"/><rect x="26" y="34" width="38" height="22" rx="5" fill="none" stroke="#2a7b88" stroke-width="4"/><rect x="86" y="64" width="38" height="22" rx="5" fill="none" stroke="#2a7b88" stroke-width="4"/><rect x="26" y="94" width="38" height="22" rx="5" fill="none" stroke="#2a7b88" stroke-width="4"/><path d="M75 37 L83 45 L75 53 L67 45 Z M75 67 L83 75 L75 83 L67 75 Z M75 97 L83 105 L75 113 L67 105 Z" fill="#c5a059"/></svg>}
               {x.key === "timeline" && <div class="axis"><div class="line"></div><span class="tick" style="inset-inline-start:8%">1هـ</span><span class="tick" style="inset-inline-start:38%">500هـ</span><span class="tick" style="inset-inline-start:66%">1000هـ</span><span class="tick" style="inset-inline-end:6%">1448هـ</span><div class="play"></div></div>}
               {x.key === "journeys" && <svg class="dunes" viewBox="0 0 150 150" preserveAspectRatio="xMidYMid slice"><rect width="150" height="150" fill="#e8d9b8"/><path d="M0 110 Q40 80 75 105 T150 95 V150 H0 Z" fill="#dfc99c"/><path class="route" d="M118 118 Q95 100 78 108 T40 92 T18 98"/><circle cx="118" cy="118" r="5" fill="var(--gold)"/><circle cx="40" cy="92" r="4" fill="var(--gold)"/><circle cx="18" cy="98" r="4" fill="var(--lapis)"/></svg>}
               {x.key === "graph" && <div class="stars"><i style="top:30%;right:25%"></i><i style="top:55%;right:45%"></i><i style="top:25%;right:60%"></i><i style="top:65%;right:70%"></i><i style="top:40%;right:80%"></i><svg style="position:absolute;inset:0" viewBox="0 0 150 150"><path d="M112 45 L82 82 L60 37 M82 82 L45 97 M82 82 L30 60" stroke="#e8c85a" stroke-width="1" opacity=".6" fill="none"/></svg></div>}

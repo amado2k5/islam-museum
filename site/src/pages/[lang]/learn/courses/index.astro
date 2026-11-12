@@ -1,42 +1,57 @@
 ---
-// Syllabus Browser: pick jurisdiction -> grade -> subject and land on a curriculum
-// whose lessons embed Muslim connection cards (Education Browser, data/course/).
+// The courses home (docs/courses-mission/DESIGN.md): find my course in at most three taps, or pick up where I stopped.
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
-import LearnPicker from "../../../../islands/LearnPicker.svelte";
-import { ui, LANGS, type Lang } from "../../../../lib/i18n";
-import { nodes, href, labelOf, summaryOf } from "../../../../lib/graph";
+import PageHeader from "../../../../components/PageHeader.astro";
+import CoursesStyle from "../../../../components/CoursesStyle.astro";
+import { ui, fmt, LANGS, type Lang } from "../../../../lib/i18n";
+import { labelOf, summaryOf } from "../../../../lib/graph";
+import { num } from "../../../../lib/nav";
+import { jurisdictions, courses, coursePath, homePath, kidsOf, slugOf } from "../../../../lib/courses";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const S = T.syllabus;
-
-const courses = nodes.filter((n) => n.class === "course");
-const pickerNodes = courses.map((n) => ({
-  id: n.id, kind: n.data?.kind, parent: n.data?.part_of,
-  label: labelOf(n, lang), summary: summaryOf(n, lang), grade: n.data?.grade_number, order: n.data?.order,
-}));
-const subjects = courses.filter((n) => n.data?.kind === "subject");
+const C = T.courses;
+// jurisdiction -> grades -> the courses (subjects with lessons) of each grade
+const tree = jurisdictions.map((j) => ({ j, grades: kidsOf(j.id, "grade").map((g) => ({ g, courses: courses.filter((c) => c.grade === g) })).filter((x) => x.courses.length) })).filter((x) => x.grades.length);
+// a short list is shown open: the course is then one tap away; a long list opens one system at a time (the first tap)
+const openAll = tree.length <= 3;
 ---
-<BaseLayout lang={lang} title={S.title} description={S.lede} path={`/${lang}/learn/courses/`} alternates={Object.fromEntries(LANGS.map((l) => [l, `/${l}/learn/courses/`]))}>
-  <div class="wrap" style="padding-block:10px 20px">
-    <nav class="ui muted no-print" aria-label={T.entity.breadcrumb} style="font-size:.88rem;margin-bottom:14px">
-      <a href={`/${lang}/`} style="color:inherit">{T.entity.breadcrumb}</a>
-      › <a href={`/${lang}/learn/`} style="color:inherit">{T.nav.learn}</a>
-      › <span>{S.title}</span>
-    </nav>
-    <h1>{S.title}</h1>
-    <p style="font-size:1.2rem;max-width:var(--measure)">{S.lede}</p>
-
-    <section class="panel" style="margin-block:1.5rem;padding:18px 20px">
-      <LearnPicker client:load nodes={pickerNodes} lang={lang} labels={{ country: S.country, grade: S.grade, subject: S.subject, open: S.open }} />
-      <noscript><p class="ui">{S.noscript}</p></noscript>
-    </section>
-
-    <ul class="grid-cards" style="margin-top:1.5rem">
-      {subjects.map((s) => (
-        <li><a class="card" href={href(lang, s.id)}><b>{labelOf(s, lang)}</b><span>{summaryOf(s, lang)}</span></a></li>
-      ))}
-    </ul>
+<BaseLayout lang={lang} title={S.title} description={S.lede} path={homePath(lang)} alternates={Object.fromEntries(LANGS.map((l) => [l, homePath(l)]))}>
+  <div data-pagefind-body>
+    <PageHeader title={S.title} lede={S.lede} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.nav.learn, href: `/${lang}/learn/` }, { label: S.title }]} crumbsLabel={T.entity.breadcrumb} wing="ideas" titleAttrs={{ "data-pagefind-meta": "title" }} />
   </div>
+  <CoursesStyle />
+  <div class="wrap cx" data-cx="home">
+    <div class="cx-resume" data-cx-resume hidden>
+      <p><span class="ui muted">{C.resume_title}</span><b data-cx-resume-title></b></p>
+      <a class="cx-btn primary" data-cx-resume-link href={homePath(lang)}>{C.resume_go} <span class="flip" aria-hidden="true">→</span></a>
+    </div>
+    <h2 id="find">{C.find_title}</h2>
+    <p class="cx-hint">{C.find_hint}</p>
+    {tree.map(({ j, grades }) => (
+      <details class="cx-jur" open={openAll}>
+        <summary>{labelOf(j, lang)}</summary>
+        <div class="cx-jur-body">
+          {grades.map(({ g, courses: cs }) => (
+            <div class="cx-grade">
+              <span class="cx-grade-n">{fmt(C.grade_label, { n: num(g.data?.grade_number, lang) })}</span>
+              <ul class="cx-subjects">
+                {cs.map((c) => (
+                  <li><a class="cx-subject" href={coursePath(lang, c)} data-cx-course={slugOf(c.subject)} data-cx-lessons={c.lessons.map((x) => slugOf(x)).join(" ")}>
+                    <b>{c.subject.data?.subject_name?.[lang] ?? labelOf(c.subject, lang)}</b>
+                    <span>{fmt(C.lessons_n, { n: num(c.lessons.length, lang) })}</span>
+                    <span data-cx-count data-tpl={C.progress} data-locale={lang} hidden></span>
+                  </a></li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </details>
+    ))}
+    <noscript><p class="cx-hint">{C.progress_nojs}</p></noscript>
+  </div>
+  <script is:inline src="/shell/courses.js" defer></script>
 </BaseLayout>

@@ -1,0 +1,190 @@
+course: course/ca-on-g4-math
+gaps:
+- code: B1.2
+  text: compare and order whole numbers up to and including 10 000, in various contexts
+  why: The fleet review found that no record in the museum compares, orders or rounds numbers; the only record on whole numbers (invention/algorism) gives place value up to thousands.
+  searches:
+  - 'invention/algorism is taught in lesson b-1 under B1.1; its prose states place value (units, tens, hundreds, thousands) and says nothing of comparing, ordering or rounding'
+  - 'find_entity.py "rounding" "تقريب" "compare numbers" "المقارنة بين الأعداد": 17 real records, none about numbers (hits are the word taqrib in hadith-science titles and approximate dates)'
+- code: B1.3
+  text: round whole numbers to the nearest ten, hundred, or thousand, in various contexts
+  why: The fleet review found that no record in the museum compares, orders or rounds numbers; the only record on whole numbers (invention/algorism) gives place value up to thousands.
+  searches:
+  - 'invention/algorism is taught in lesson b-1 under B1.1; its prose states place value (units, tens, hundreds, thousands) and says nothing of comparing, ordering or rounding'
+  - 'find_entity.py "rounding" "تقريب" "compare numbers" "المقارنة بين الأعداد": 17 real records, none about numbers (hits are the word taqrib in hadith-science titles and approximate dates)'
+- code: B1.4
+  text: represent fractions from halves to tenths using drawings, tools, and standard fractional notation, and explain the meanings of the denominator and the numerator
+  why: The expectation is about fractions from halves to tenths (representing, fair shares, counting, repeated addition of a unit fraction); no record supports it, and the one record that mentions a half is already taught under decimal tenths.
+  searches: &id001
+  - 'find_entity.py "fractions" "الكسور" "inheritance shares" "الفرائض": 23 real records, none about fractions; concept/ilm-al-faraid and passage/muwatta-kitab-13-faraid are about who inherits, and concept/ilm-al-faraid prose states no fraction of a whole'
+  - 'second pass: invention/decimal-fractions-al-uqlidisi speaks of a half as five tenths and is taught in lesson b-2 under B1.7 to B1.9; it does not represent fractions from halves to tenths, count by fractions or run fair-share scenarios'
+- code: B1.5
+  text: use drawings and models to represent, compare, and order fractions representing the individual portions that result from two different fair-share scenarios involving any combination of 2, 3, 4, 5, 6, 8, and 10 sharers
+  why: The expectation is about fractions from halves to tenths (representing, fair shares, counting, repeated addition of a unit fraction); no record supports it, and the one record that mentions a half is already taught under decimal tenths.
+  searches: *id001
+- code: B1.6
+  text: count to 10 by halves, thirds, fourths, fifths, sixths, eighths, and tenths, with and without the use of tools
+  why: The expectation is about fractions from halves to tenths (representing, fair shares, counting, repeated addition of a unit fraction); no record supports it, and the one record that mentions a half is already taught under decimal tenths.
+  searches: *id001
+- code: B1.8
+  text: round decimal numbers to the nearest whole number, in various contexts
+  why: The fleet review found that no record rounds decimals to a whole number; invention/decimal-fractions-al-uqlidisi writes a half as five tenths and half of that as twenty-five hundredths and does not round.
+  searches:
+  - 'invention/decimal-fractions-al-uqlidisi is taught in lesson b-2 under B1.7 and B1.9; it shows decimal tenths and hundredths and says nothing of rounding to a whole number'
+  - 'find_entity.py "rounding" "تقريب" "compare numbers" "المقارنة بين الأعداد": 17 real records, none about rounding numbers'
+- code: B2.1
+  text: use the properties of operations, and the relationships between addition, subtraction, multiplication, and division, to solve problems involving whole numbers, including those requiring more than one operation, and check calculations
+  why: The expectation is about properties of operations, multiplication facts, mental strategies or rates; the museum holds no record on any of them.
+  searches: &id002
+  - 'find_entity.py "multiplication" "الضرب" "multiplication table" "جدول الضرب": 12 real records, none about multiplication facts (hits are the mint, دار الضرب, and legal passages on striking)'
+  - 'second pass: invention/algorism is taught in lesson b-3 under B2.4 to B2.6; it names the four operations in general and gives no multiplication facts, mental strategies, properties of operations or rates'
+- code: B2.2
+  text: recall and demonstrate multiplication facts for 1 × 1 to 10 × 10, and related division facts
+  why: The expectation is about properties of operations, multiplication facts, mental strategies or rates; the museum holds no record on any of them.
+  searches: *id002
+- code: B2.3
+  text: use mental math strategies to multiply whole numbers by 10, 100, and 1000, divide whole numbers by 10, and add and subtract decimal tenths, and explain the strategies used
+  why: The expectation is about properties of operations, multiplication facts, mental strategies or rates; the museum holds no record on any of them.
+  searches: *id002
+- code: B2.7
+  text: represent the relationship between the repeated addition of a unit fraction and the multiplication of that unit fraction by a whole number, using tools, drawings, and standard fractional notation
+  why: The expectation is about fractions from halves to tenths (representing, fair shares, counting, repeated addition of a unit fraction); no record supports it, and the one record that mentions a half is already taught under decimal tenths.
+  searches: *id001
+- code: B2.8
+  text: show simple multiplicative relationships involving whole-number rates, using various tools and drawings
+  why: The expectation is about properties of operations, multiplication facts, mental strategies or rates; the museum holds no record on any of them.
+  searches: *id002
+- code: C1.2
+  text: create and translate repeating and growing patterns using various representations, including tables of values and graphs
+  why: The expectation asks the student to create, translate and extend patterns with tables, graphs and rules; the only pattern records say the patterns repeat and nothing more.
+  searches: &id003
+  - 'find_entity.py "geometric patterns" "الزخرفة الهندسية" "girih": concept/islamic-geometric-patterns and concept/girih, both taught in lesson c-1 under C1.1; their prose says only that the patterns repeat and gives no tables of values, graphs, pattern rules or growth'
+  - 'second pass: grep -il "pattern" content/en/concept the first five hits are unrelated records (names of God, ayyam-al-arab, chahartaq, fann-al-ilqa); none seen describes creating, translating or predicting patterns'
+- code: C1.3
+  text: determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in repeating and growing patterns
+  why: The expectation asks the student to create, translate and extend patterns with tables, graphs and rules; the only pattern records say the patterns repeat and nothing more.
+  searches: *id003
+- code: C1.4
+  text: create and describe patterns to illustrate relationships among whole numbers and decimal tenths
+  why: The expectation asks the student to create, translate and extend patterns with tables, graphs and rules; the only pattern records say the patterns repeat and nothing more.
+  searches: *id003
+- code: C2.3
+  text: solve inequalities that involve addition and subtraction of whole numbers up to 20, and verify and graph the solutions
+  why: The expectation is about solving and graphing inequalities; the algebra records cover equations only.
+  searches:
+  - 'find_entity.py "algebra" "الجبر" "al-jabr": concept/algebra, invention/algebra and work/al-jabr-wal-muqabala exist; invention/algebra is taught in lesson c-2 under C2.1 and C2.2 and its prose treats equations (six types), not inequalities'
+  - 'second pass: the algebra records say nothing of inequalities, of verifying them or of graphing a solution set'
+- code: C3.1
+  text: solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, repeating, and nested events
+  why: The expectation is about writing and altering code; the museum holds no record on coding, and records on automata do not support it.
+  searches: &id004
+  - 'find_entity.py "Python" "programming" "البرمجة" "computer" "الحاسوب" "code": 3 real records, none about coding (a fatwa on discount codes, a knightly code, a workshop source)'
+  - 'find_entity.py "programmable" "automaton" "الآلات" "Banu Musa automata" "كتاب الحيل": invention/jazari-musical-boat and work/turuq-saniyya-taqi exist, but a record on automata does not support an expectation about writing or altering code with sequential, concurrent, repeating or nested events; work/kitab-al-hiyal is a stub'
+- code: C3.2
+  text: read and alter existing code, including code that involves sequential, concurrent, repeating, and nested events, and describe how changes to the code affect the outcomes
+  why: The expectation is about writing and altering code; the museum holds no record on coding, and records on automata do not support it.
+  searches: *id004
+- code: D1.1
+  text: describe the difference between qualitative and quantitative data, and describe situations where each would be used
+  why: The expectation is about collecting, graphing and analysing data; the museum holds no record on data handling.
+  searches: &id005
+  - 'find_entity.py "bar graph" "الرسم البياني" "table" "chart" "mean" "المتوسط": 43 real records, none about graphs or averages of data (hits are album-chart awards, a sea, invention/battani-sine-table-methods which is a trigonometric table)'
+  - 'find_entity.py "probability" "الاحتمال" "statistics" "الإحصاء": event/abbasid-census-200 and event/egypt-census-837 are headcounts; neither records collecting, organising or graphing data for a question of interest'
+- code: D1.2
+  text: collect data from different primary and secondary sources to answer questions of interest that involve comparing two or more sets of data, and organize the data in frequency tables and stem-and-leaf plots
+  why: The expectation is about collecting, graphing and analysing data; the museum holds no record on data handling.
+  searches: *id005
+- code: D1.3
+  text: select from among a variety of graphs, including multiple-bar graphs, the type of graph best suited to represent various sets of data; display the data in the graphs with proper sources, titles, and labels, and appropriate scales; and justify their …
+  why: The expectation is about collecting, graphing and analysing data; the museum holds no record on data handling.
+  searches: *id005
+- code: D1.4
+  text: create an infographic about a data set, representing the data in appropriate ways, including in frequency tables, stem-and-leaf plots, and multiple-bar graphs, and incorporating any other relevant information that helps to tell a story about the data
+  why: The expectation is about collecting, graphing and analysing data; the museum holds no record on data handling.
+  searches: *id005
+- code: D1.5
+  text: determine the mean and the median and identify the mode(s), if any, for various data sets involving whole numbers, and explain what each of these measures indicates about the data
+  why: The expectation is about collecting, graphing and analysing data; the museum holds no record on data handling.
+  searches: *id005
+- code: D1.6
+  text: analyse different sets of data presented in various ways, including in stem-and-leaf plots and multiple-bar graphs, by asking and answering questions about the data and drawing conclusions, then make convincing arguments and informed decisions
+  why: The expectation is about collecting, graphing and analysing data; the museum holds no record on data handling.
+  searches: *id005
+- code: D2.1
+  text: use mathematical language, including the terms “impossible”, “unlikely”, “equally likely”, “likely”, and “certain”, to describe the likelihood of events happening, represent this likelihood on a probability line, and use it to make predictions and informed decisions
+  why: The expectation is about describing the likelihood of events and the mean, median and mode; no record supports it honestly.
+  searches: &id006
+  - 'find_entity.py "likelihood" "chance" "الاحتمال" "certain" "يقين": concept/yaqin-fiqh and concept/al-yaqin are about certainty in law and belief; concept/maysir and concept/nard are about games of chance and rulings on them'
+  - 'second pass: considered and rejected; a lesson on describing likelihood in mathematical terms should not rest on a ruling about gambling, and no record describes impossible, unlikely, likely or certain events in that sense'
+- code: D2.2
+  text: make and test predictions about the likelihood that the mean, median, and mode(s) of a data set will be the same for data collected from different populations
+  why: The expectation is about describing the likelihood of events and the mean, median and mode; no record supports it honestly.
+  searches: *id006
+- code: E1.1
+  text: identify geometric properties of rectangles, including the number of right angles, parallel and perpendicular sides, and lines of symmetry
+  why: The expectation is about properties of rectangles, translations and reflections; the museum holds no geometry record at this level.
+  searches: &id007
+  - 'find_entity.py "rectangle" "المستطيل" "reflection" "الانعكاس" "translation" "الانسحاب": 102 real records, none of geometry (concept/inikas and concept/insihab are terms of legal method; the rest are about reflection on the Qur''an or translation circles)'
+  - 'find_entity.py "angle" "الزاوية" "geometry" "الهندسة" "Euclid" "إقليدس": person/uqlidis exists; invention/khayyam-parallel-quadrilateral concerns parallels in a theory far above Grade 4 and describes no rectangle, line of symmetry, or grid movement'
+- code: E1.2
+  text: plot and read coordinates in the first quadrant of a Cartesian plane, and describe the translations that move a point from one coordinate to another
+  why: The expectation is about plotting and reading coordinates in the first quadrant; the museum holds no record on the Cartesian plane.
+  searches:
+  - 'find_entity.py "coordinates" "latitude" "خطوط الطول" "map": invention/tabula-rogeriana and map media exist; none describes a Cartesian plane or plotting a point from two coordinates'
+  - 'second pass: grep -il "coordinate" over content/en/invention the first three hits (abu-wafa-fixed-opening-constructions, al-biruni-earth-radius, biruni-ghazna-qibla-setting-out) are geodesy or construction at a level far above the expectation'
+- code: E1.3
+  text: describe and perform translations and reflections on a grid, and predict the results of these transformations
+  why: The expectation is about properties of rectangles, translations and reflections; the museum holds no geometry record at this level.
+  searches: *id007
+- code: E2.1
+  text: explain the relationships between grams and kilograms as metric units of mass, and between litres and millilitres as metric units of capacity, and use benchmarks for these units to estimate mass and capacity
+  why: The expectation is about metric units of mass, capacity and length and their prefixes; the museum holds no record on them.
+  searches: &id008
+  - 'find_entity.py "kilogram" "gram" "litre" "الكيلوغرام" "الغرام" "metric": 12 real records, none on metric units (work/shifa-al-gharam matches only the letters)'
+  - 'find_entity.py "weights and measures" "الأوزان والمكاييل" "sa''" "mudd": concept/saa and concept/measure-sa describe a legal measure of dry goods, not metric mass or capacity, prefixes or tools'
+- code: E2.2
+  text: use metric prefixes to describe the relative size of different metric units, and choose appropriate units and tools to measure length, mass, and capacity
+  why: The expectation is about metric units of mass, capacity and length and their prefixes; the museum holds no record on them.
+  searches: *id008
+- code: E2.3
+  text: solve problems involving elapsed time by applying the relationships between different units of time
+  why: The expectation is about solving elapsed-time problems; the museum holds no record on computing time.
+  searches:
+  - 'find_entity.py "elapsed time" "calendar" "التقويم" "hour" "الساعة" "clock": 70 real records; the hits are the Hour of the Last Day and the Friday hour, not time measurement'
+  - 'find_entity.py "prayer times" "مواقيت الصلاة" "astrolabe" "الإسطرلاب": passage/muwatta-1-001 gives the times of prayer as a hadith; no record computes elapsed time between units'
+- code: E2.4
+  text: identify angles and classify them as right, straight, acute, or obtuse
+  why: The expectation is about identifying and classifying angles; the museum holds no record on angles at this level.
+  searches:
+  - 'find_entity.py "angle" "الزاوية" "geometry" "الهندسة" "Euclid" "إقليدس": no record that identifies or classifies right, straight, acute or obtuse angles'
+  - 'find_entity.py "rectangle" "المستطيل" "reflection" "الانعكاس" "translation" "الانسحاب": no geometry record'
+- code: E2.6
+  text: apply the formula for the area of a rectangle to find the unknown measurement when given two of the three
+  why: The expectation is about applying the rectangle formula to find an unknown side; the only area record gives unit squares and other shapes, not this rule.
+  searches:
+  - concept/ilm-al-misaha is taught in lesson e-1 under E2.5; its rules cover squares, triangles, circles and solids and give no rule for finding an unknown side of a rectangle from its area and one side
+  - 'find_entity.py "area" "المساحة" "surveying" "measurement": invention/kashi-muqarnas-mensuration measures the surfaces of a ceiling, not rectangles; event/khuzayma-land-survey and event/umar-ibn-hubayra-survey are land surveys with no formula'
+- code: F1.1
+  text: identify various methods of payment that can be used to purchase goods and services
+  why: The expectation is about methods of payment; the museum holds no record on how goods are paid for.
+  searches:
+  - 'find_entity.py "dirham" "درهم" "dinar" "دينار" "coin": 104 real records; event/hajjaj-mint-reform is about striking coin and its inscriptions, not about how a buyer pays; person/dinar is a person named Dinar'
+  - 'find_entity.py "payment" "currency" "العملة" "credit" "الدين" "loan" "القرض": 1,548 real records by loose word match, none on methods of payment for goods and services'
+- code: F1.2
+  text: estimate and calculate the cost of transactions involving multiple items priced in whole-dollar amounts, not including sales tax, and the amount of change needed when payment is made in cash, using mental math
+  why: The expectation is about calculating the cost of transactions and change; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "dirham" "درهم" "dinar" "دينار" "coin": no record on pricing items or computing totals and change'
+  - 'find_entity.py "price" "السعر" "fair price" "تسعير" "market" "سوق": concept/tasir-price-fixing and place/essouk exist; neither shows a buyer calculating the cost of several items or change due'
+- code: F1.4
+  text: explain the relationship between spending and saving, and describe how spending and saving behaviours may differ from one person to another
+  why: The expectation is about the relationship between spending and saving; the saving record does not compare them.
+  searches:
+  - concept/idkhar-fiqh is taught in lesson f-1 under F1.3; it treats saving by individuals and the state, and says nothing of how spending and saving relate or differ between people
+  - 'find_entity.py "saving" "الادخار" "investment" "الاستثمار" "earning" "الكسب": concept/kasb, concept/idkhar-fiqh and passages on lawful earning exist; no record contrasts spending and saving behaviour'
+- code: F1.5
+  text: describe some ways of determining whether something is reasonably priced and therefore a good purchase
+  why: The expectation is about judging whether a price is reasonable; the price records are about legal price-fixing and market supervision.
+  searches:
+  - 'find_entity.py "price" "السعر" "fair price" "تسعير" "market" "سوق": concept/tasir-price-fixing is about a ruler fixing prices and compelling sale, a legal ruling and not a way a shopper judges whether a price is reasonable'
+  - 'considered and rejected: invention/hisba (an overseer of markets and weights) because it concerns market supervision, not a buyer''s judgement of value'

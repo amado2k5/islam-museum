@@ -1,0 +1,53 @@
+id: course/ca-on-g8-geography-a-3
+class: course
+kind: lesson
+label:
+  en: Who may use the land?
+  ar: من يحق له استعمال الأرض؟
+  ur: زمین کون استعمال کر سکتا ہے؟
+summary:
+  en: Land-use questions and how different groups answered them, seen through conquered farmland and the space of a city's markets (A3.3).
+  ar: قضايا استخدام الأرض وكيف أجابت عنها جماعات مختلفة، من خلال أرض زراعية مفتوحة ومساحة أسواق مدينة (A3.3).
+  ur: زمین کے استعمال کے سوال اور مختلف گروہوں کے جواب، فتح کی ہوئی زرعی زمین اور ایک شہر کے بازاروں کی جگہ کے ذریعے (A3.3)۔
+sources:
+- source/ontario-curriculum-sshg-2023
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g8-geography-a
+expectations:
+- code: A3.3
+  text:
+    en: identify significant land-use issues […], and describe responses of various groups to these issues […]
+    ar: حدّد قضايا مهمة في استخدام الأرض […]، وصِف استجابات جماعات مختلفة لهذه القضايا […]
+    ur: زمین کے استعمال کے اہم مسائل کی نشاندہی کریں […] اور ان مسائل پر مختلف گروہوں کے ردِ عمل بیان کریں […]
+connections:
+- position: before
+  kind: story
+  title:
+    en: Land for those who work it
+    ar: الأرض لمن يعمل فيها
+    ur: زمین ان کے لیے جو اس پر کام کرتے ہیں
+  text:
+    en: When the Sawad was conquered, the people asked Sa'd to divide it, and Sa'd wrote to Umar. Umar told him to divide the goods and the horses after the fifth and to leave the land and the rivers to their workers, saying that if he divided it among those present, nothing would remain for those who came after. Who had a claim on this land?
+    ar: لما فُتح السواد طلب الناس من سعد أن يقسمه، فكتب سعد إلى عمر. فأمره عمر أن يقسم المال والكراع بعد الخمس وأن يترك الأرض والأنهار لعمالها، وقال إنه إن قسمها بين من حضر لم يكن لمن يبقى بعدهم شيء. من كان له حق في هذه الأرض؟
+    ur: جب سواد فتح ہوا تو لوگوں نے سعد سے کہا کہ اسے تقسیم کر دیں، تو سعد نے عمر کو لکھا۔ عمر نے حکم دیا کہ مال اور سواریاں خمس کے بعد تقسیم کی جائیں اور زمین اور نہریں ان کے کام کرنے والوں کے پاس رہنے دی جائیں، اور کہا کہ اگر وہ موجود لوگوں میں اسے بانٹ دیں تو بعد میں آنے والوں کے لیے کچھ نہ بچے گا۔ اس زمین پر کس کا حق تھا؟
+  entity: event/umar-sawad-settlement
+  sources:
+  - source/futuh-buldan-maarif-1407
+- position: within
+  kind: invention
+  title:
+    en: Moving the markets
+    ar: نقل الأسواق
+    ur: بازاروں کی منتقلی
+  text:
+    en: Al-Duri attributes to al-Mansur an order of 773 CE to move the markets from the city toward Karkh, for security. Le Strange describes the stalls being removed from the arcades, which were then used as barracks for the city police and horse guards. The sources give a security reason, not a measured result. What did each use of the space serve?
+    ar: ينسب الدوري إلى المنصور أمراً سنة 773م بنقل الأسواق من المدينة نحو الكرخ بدافع الأمن. ويصف لسترنج إزالة المحال من الأروقة، ثم استعمال الأروقة ثكنات لشرطة المدينة وحرس الخيل. وتذكر المصادر سبباً أمنياً ولا تذكر نتيجة مقيسة. ماذا كان كل استعمال للمكان يخدم؟
+    ur: الدوری منصور سے منسوب ایک حکم بیان کرتے ہیں، 773ء میں، کہ بازار شہر سے کرخ کی طرف منتقل کیے جائیں، سلامتی کی وجہ سے۔ لسٹرینج بتاتے ہیں کہ دکانیں راہداریوں سے ہٹا دی گئیں، اور ان راہداریوں کو بعد میں شہر کی پولیس اور گھڑ سوار پہرے کی بیرکوں کے طور پر استعمال کیا گیا۔ ماخذ سلامتی کی وجہ بتاتے ہیں، کسی ناپے گئے نتیجے کا ذکر نہیں کرتے۔ جگہ کے ہر استعمال سے کس کا مقصد پورا ہوتا تھا؟
+  entity: invention/karkh-market-relocation-zoning
+  sources:
+  - source/tdv-bagdat-duri
+  - source/lestrange-baghdad-1900
+order: 3

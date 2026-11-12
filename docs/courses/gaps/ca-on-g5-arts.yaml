@@ -1,0 +1,146 @@
+course: course/ca-on-g5-arts
+gaps:
+- code: A1.1
+  text: translate into movement sequences a variety of images and ideas from other classroom subjects, including the arts […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in dance and the museum cannot supply that skill).'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: use dance as a language to explore, interpret, and communicate ideas derived from a variety of literature sources […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in dance and the museum cannot supply that skill).'
+  searches: *id001
+- code: A1.3
+  text: use movement in the choreographic form call and response in a variety of ways when creating dance pieces […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in dance and the museum cannot supply that skill).'
+  searches: *id001
+- code: A1.4
+  text: use the element of relationship in short dance pieces to communicate an idea […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in dance and the museum cannot supply that skill).'
+  searches: *id001
+- code: A2.1
+  text: relate stories and characters in their own and others’ dance pieces to personal knowledge and experience […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in dance and the museum cannot supply that skill).'
+  searches: *id001
+- code: A2.2
+  text: identify the elements of dance used in their own and others’ dance pieces and explain how they help communicate a message […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in dance and the museum cannot supply that skill).'
+  searches: *id001
+- code: A2.3
+  text: identify and give examples of their strengths and areas for growth as dance creators and audience members […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in dance and the museum cannot supply that skill).'
+  searches: *id001
+- code: A3.1
+  text: describe, with teacher guidance, dance forms and styles that reflect the beliefs and traditions of diverse communities, times, and places […]
+  why: 'The expectation asks for dance forms and styles that reflect the beliefs and traditions of diverse communities. The museum holds no record on a dance form or style: the only dance records are a legal ruling on dancing and a film title.'
+  searches:
+  - 'find_entity.py "dance" "رقص" "dabke": concept/raqs-fiqh is a ruling on dancing, not a dance form; screen/raqs-al-bismil-2020 is a title; no record on any dance form or style'
+  - 'find_entity.py "Sema" "سماع" "whirling dervish" "Mevlevi": concept/sama is the legal and linguistic term for hearing, not a dance'
+  - 'grep -ril -w "dance\|dancing" content/en/concept content/en/practice content/en/event: only raqs-fiqh, golconda-painting, ghurur, sadaqa-jariya and conquest-of-azerbaijan, none about a dance form'
+- code: A3.2
+  text: identify and describe some of the ways in which dance influences popular culture […]
+  why: The expectation asks how dance influences popular culture. The museum holds no record on popular dance or on a dance's influence on fashion, magazines or music.
+  searches:
+  - 'find_entity.py "hip hop" "هيب هوب" "rap": no real record'
+  - 'find_entity.py "dance" "رقص" "dabke": only a legal ruling on dancing and a film title, nothing on popular dance'
+- code: B1.1
+  text: engage actively in drama exploration and role play, with a focus on examining issues and themes in fiction and non-fiction sources from diverse communities, times, and places […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in drama and the museum cannot supply that skill).'
+  searches: *id001
+- code: B1.2
+  text: demonstrate an understanding of the element of role by selectively using some other elements of drama […], to build belief in a role and establish its dramatic context […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in drama and the museum cannot supply that skill).'
+  searches: *id001
+- code: B1.3
+  text: plan and shape the direction of the drama or role play by collaborating with others to develop ideas, both in and out of role […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in drama and the museum cannot supply that skill).'
+  searches: *id001
+- code: B1.4
+  text: communicate thoughts, feelings, and ideas to a specific audience, using audio, visual, and/or technological aids to achieve specific dramatic effects […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in drama and the museum cannot supply that skill).'
+  searches: *id001
+- code: B2.1
+  text: express personal responses and make connections to characters, themes, and issues presented in their own and others’ drama works […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in drama and the museum cannot supply that skill).'
+  searches: *id001
+- code: B2.2
+  text: explain, using drama terminology, how different elements are used to communicate and reinforce the intended message in their own and others’ drama works […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in drama and the museum cannot supply that skill).'
+  searches: *id001
+- code: B2.3
+  text: identify and give examples of their strengths, interests, and areas for improvement as drama creators, performers, and audience members […]
+  why: 'skills expectation: names no subject matter (it asks the student for creating or responding in drama and the museum cannot supply that skill).'
+  searches: *id001
+- code: B3.1
+  text: describe forms of process drama, theatre, storytelling, and visual representation from diverse communities around the world, and explain how they may reflect some beliefs and traditions of their communities […]
+  why: The expectation asks for forms of drama, theatre, storytelling and visual representation from diverse communities and how they reflect beliefs and traditions. The museum holds no record on a theatre form; the maqama records name a literary genre but say nothing of performance or of a community's beliefs in it.
+  searches:
+  - 'find_entity.py "shadow play" "khayal al-zill" "خيال الظل": no real record'
+  - 'find_entity.py "theatre" "مسرح" "drama": place/drama is a town in Greece; nothing on a theatre form'
+  - 'find_entity.py "storytelling" "maqama" "hakawati": work/maqamat-badi-al-zaman and work/maqamat-al-hariri are books of a literary genre, not storytelling as performed'
+- code: B3.2
+  text: demonstrate an understanding of the broader world of drama and theatre by identifying and describing the roles and responsibilities of key theatre personnel […]
+  why: The expectation asks for the roles of key theatre personnel (producer, director, stage manager, designers, technicians). The museum holds no record on the work of a theatre.
+  searches:
+  - 'find_entity.py "role play" "تمثيل" "actor": no record on theatre work; the hits are sources about film actors and an astronomy instrument'
+  - 'find_entity.py "stage manager" "مخرج" "puppet" "karagoz": no record on theatre personnel'
+  - 'find_entity.py "film" "سينما" "cinema": exhibits on national cinemas, none naming the roles of theatre personnel'
+- code: C1.1
+  text: sing and/or play, in tune, from musical notation, unison and two-part music with accompaniments, from a wide variety of cultures, styles, and historical periods […]
+  why: 'skills expectation: names no subject matter (it asks the student for making, performing or responding to music and the museum cannot supply that skill).'
+  searches: *id001
+- code: C1.2
+  text: apply the elements of music when singing and/or playing, composing, and arranging music to create a specific effect […]
+  why: 'skills expectation: names no subject matter (it asks the student for making, performing or responding to music and the museum cannot supply that skill).'
+  searches: *id001
+- code: C1.3
+  text: create musical compositions for specific purposes and audiences […]
+  why: 'skills expectation: names no subject matter (it asks the student for making, performing or responding to music and the museum cannot supply that skill).'
+  searches: *id001
+- code: C1.4
+  text: use the tools and techniques of musicianship in musical performances […]
+  why: 'skills expectation: names no subject matter (it asks the student for making, performing or responding to music and the museum cannot supply that skill).'
+  searches: *id001
+- code: C1.5
+  text: demonstrate an understanding of standard and other types of musical notation through performance and composition […]
+  why: 'skills expectation: names no subject matter (it asks the student for making, performing or responding to music and the museum cannot supply that skill).'
+  searches: *id001
+- code: C2.1
+  text: express detailed personal responses to musical performances in a variety of ways […]
+  why: 'skills expectation: names no subject matter (it asks the student for making, performing or responding to music and the museum cannot supply that skill).'
+  searches: *id001
+- code: C2.2
+  text: identify the elements of music in the music they perform, listen to, and create, and describe how they are used […]
+  why: 'skills expectation: names no subject matter (it asks the student for making, performing or responding to music and the museum cannot supply that skill).'
+  searches: *id001
+- code: C2.3
+  text: identify and give examples of their strengths and areas for growth as musical performers, creators, interpreters, and audience members […]
+  why: 'skills expectation: names no subject matter (it asks the student for making, performing or responding to music and the museum cannot supply that skill).'
+  searches: *id001
+- code: D1.1
+  text: create two- and three-dimensional art works that express feelings and ideas inspired by their own and others’ points of view […]
+  why: 'skills expectation: names no subject matter (it asks the student for making or responding to art and the museum cannot supply that skill).'
+  searches: *id001
+- code: D1.2
+  text: demonstrate an understanding of composition, using selected principles of design to create narrative art works or art works on a theme or topic […]
+  why: 'skills expectation: names no subject matter (it asks the student for making or responding to art and the museum cannot supply that skill).'
+  searches: *id001
+- code: D1.3
+  text: use elements of design in art works to communicate ideas, messages, and understandings […]
+  why: 'skills expectation: names no subject matter (it asks the student for making or responding to art and the museum cannot supply that skill).'
+  searches: *id001
+- code: D1.4
+  text: use a variety of materials, tools, and techniques to determine solutions to design challenges […]
+  why: 'skills expectation: names no subject matter (it asks the student for making or responding to art and the museum cannot supply that skill).'
+  searches: *id001
+- code: D2.1
+  text: interpret a variety of art works and identify the feelings, issues, themes, and social concerns that they convey […]
+  why: The expectation asks the student to interpret art works and identify the feelings, issues, themes and social concerns they convey. The museum holds no record that states what feelings or social concerns a work conveys; its painting records describe style, patronage and technique.
+  searches:
+  - 'find_entity.py "sculpture" "نحت" "statue": no real record'
+  - 'find_entity.py "mural" "graffiti" "painting": concept/mughal-painting, concept/deccani-painting and others exist, but their prose describes style, patronage and technique, not feelings or social concerns conveyed'
+  - 'grep -il -E "emotion|feeling|mood" content/en/concept/mughal-painting.md content/en/concept/deccani-painting.md content/en/concept/islamic-calligraphy.md: no match'
+- code: D2.4
+  text: identify and explain their strengths, their interests, and areas for improvement as creators, interpreters, and viewers of art […]
+  why: 'skills expectation: names no subject matter (it asks the student for making or responding to art and the museum cannot supply that skill).'
+  searches: *id001

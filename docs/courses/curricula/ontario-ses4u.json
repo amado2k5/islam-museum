@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-ses4u",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "Science",
+  "url_slug": "secondary-science",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-science"
+ },
+ "course_code": "SES4U",
+ "ministry_course_name": "SES4U",
+ "course": "Earth and Space Science",
+ "grade": [
+  "12"
+ ],
+ "retrieved_utc": "2026-11-12T06:06:50Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=98a7b4db-dae7-4b3e-805c-6068167142fc&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2026-08-28T15:41:21.3395579Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "e6c5b64325edbf94447b7770a424a2aeb6e3594c6f8349fc2ea69354abf67bd5",
+  "official.json": "778d79278834e68109166fdbdc5dbeda66a5b057f205ba650cd731028d3a603e"
+ },
+ "counts": {
+  "strands": 6,
+  "overall_expectations": 17,
+  "specific_expectations": 98
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

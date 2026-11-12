@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+"""Statement 12: the baseline is frozen and concurrency is accounted for.
+
+The history, stated plainly because it changed during the run:
+  - The mission branched from origin/main at the BASELINE (800467e93e) and, as the brief required, opened its first two
+    phase pull requests against release/uat (#6141, #6163). The user then instructed the agent to merge its own pull
+    requests, and later to merge the finished Ontario work to MAIN.
+  - release/uat carries the Grand Tour run, which is not on main. To keep it out of main, the final branch was cut afresh
+    from the then-current origin/main and the mission's own files were carried onto it; nothing of release/uat came with them.
+  - So there are two reference commits: the BASELINE, the "before" of every measurement; and the CUT, the commit of main
+    the final branch starts from (`git merge-base HEAD origin/main`), which is the integration point the oracles ran on.
+
+This oracle prints what main did between the BASELINE and the CUT and since the CUT, whether any of it touches the
+course class or the courses surface, and whether the branch contains main. It also rewrites the ledger's concurrency section.
+
+  git fetch origin main release/uat && python3 scripts/courses/o12_baseline.py [--save]
+"""
+import os, re
+from lib import Oracle, ROOT, BASELINE, sh
+
+o = Oracle("12", "the baseline is frozen and concurrency is accounted for (statement 12)")
+head, main = sh("git rev-parse HEAD"), sh("git rev-parse origin/main")
+cut = sh("git merge-base HEAD origin/main")
+o.note(f"BASELINE (origin/main when the mission began, 2026-11-11): {BASELINE}")
+o.note(f"CUT (the commit of main the final branch starts from): {cut}")
+o.note(f"now: this branch {head}; origin/main {main}")
+frozen = BASELINE in open(os.path.join(ROOT, "scripts/courses/lib.py")).read() and sh(f"git merge-base --is-ancestor {BASELINE} HEAD; echo $?") == "0"
+o.check("the BASELINE is recorded in the oracles' library and is an ancestor of the branch", frozen)
+SURFACE = re.compile(r"^(data/course/|content/(ar|en|ur)/course/|site/src/pages/\[lang\]/learn/courses/|site/src/lib/courses\.ts|site/src/components/Course|site/public/shell/courses\.js|schema/course\.schema\.json|scripts/courses/|docs/courses)")
+SHARED = ("i18n/ar.yaml", "i18n/en.yaml", "i18n/ur.yaml", "CANARY.md", "docs/coverage.md", "site/src/components/Landing.astro", "site/src/layouts/BaseLayout.astro", "site/src/styles/global.css", "site/src/lib/graph.ts", "site/src/lib/i18n.ts", "site/src/lib/markdown.ts", "site/src/lib/nav.ts", "site/src/components/PageHeader.astro")
+
+
+def span(a, b, name):
+    n = int(sh(f"git rev-list --count {a}..{b}"))
+    files = sh(f"git diff --name-only {a} {b}").splitlines()
+    touch = [f for f in files if SURFACE.match(f)]
+    shared = [f for f in files if f in SHARED]
+    o.note()
+    o.note(f"main, {name}: {n} commits, {len(files)} files changed")
+    o.note(f"  files of the course class or the courses surface changed on main: {len(touch)} {touch[:10]}")
+    o.note(f"  shared files this mission also edits or builds on, changed on main: {shared}")
+    subj = [l for l in sh(f"git log --format=%s {a}..{b}").splitlines() if not l.startswith("Merge")]
+    o.note("  what those commits were (first 20 subjects):")
+    for s in subj[:20]:
+        o.note("    - " + s[:140])
+    return touch
+
+
+t1 = span(BASELINE, cut, "between the BASELINE and the CUT (carried into the branch by cutting from main)")
+t2 = span(cut, "origin/main", "since the CUT (not in the branch)") if cut != main else []
+behind = int(sh("git rev-list --count HEAD..origin/main"))
+uat_only = int(sh("git rev-list --count origin/main..origin/release/uat"))
+# the Grand Tour reached main by its own pull requests while this run was under way; what matters is that this branch
+# changes none of it and brings none of it that main does not already hold
+grand = sh(f"git diff --name-only {cut} HEAD -- site/src/pages/'[lang]'/grand-tour scripts/fable docs/fable-run | head -1")
+o.note()
+o.note(f"commits on main that this branch does not contain: {behind}")
+o.note(f"commits on release/uat that are not on main (the Grand Tour run and the mission's first two phase merges): {uat_only}")
+o.note(f"Grand Tour files this branch adds or changes relative to the CUT: {'yes: ' + grand if grand else 'none'}")
+o.check("nothing main changed since the BASELINE touches the course class or the courses surface", not t1 and not t2, ", ".join((t1 + t2)[:6]))
+o.check("the branch adds or changes nothing of the Grand Tour run (main's own copy is untouched)", not grand)
+o.check("the branch contains main as of the oracle run, or the commits it lacks touch nothing of the courses surface", behind == 0 or not t2, f"{behind} commits behind")
+
+vp = os.path.join(ROOT, "docs", "courses-mission", "VERIFICATION.md")
+if os.path.exists(vp):
+    t = open(vp, encoding="utf-8").read()
+    a, b = "<!-- CONCURRENCY:BEGIN (generated by scripts/courses/o12_baseline.py; do not edit by hand) -->", "<!-- CONCURRENCY:END -->"
+    if a in t and b in t:
+        body = "\n".join(l for l in o.lines[2:] if not l.startswith("RESULT"))
+        t = t[: t.index(a) + len(a)] + "\n\n```\n" + body.strip() + "\n```\n\n" + t[t.index(b):]
+        open(vp, "w", encoding="utf-8").write(t)
+o.done("o12-baseline")

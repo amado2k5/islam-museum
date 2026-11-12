@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-mth1w",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "Mathematics",
+  "url_slug": "secondary-mathematics",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-mathematics"
+ },
+ "course_code": "MTH1W",
+ "ministry_course_name": "MTH1W",
+ "course": "Mathematics",
+ "grade": [
+  "9"
+ ],
+ "retrieved_utc": "2026-11-12T06:09:43Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=6aecd641-1561-4d2e-b671-ddac5057c737&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2025-05-13T12:13:00.9966796Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "eb025e1b5d687753a9a3a51524dcfeaca321fa20d58100b2aa662f7fb8e0b924",
+  "official.json": "8c48169a9c658ebe19f97948535b8bed0bd2db5c25182478b826d4d9fd8c3549"
+ },
+ "counts": {
+  "strands": 7,
+  "overall_expectations": 14,
+  "specific_expectations": 46
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

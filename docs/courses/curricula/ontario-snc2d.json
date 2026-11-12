@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-snc2d",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "Science",
+  "url_slug": "secondary-science",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-science"
+ },
+ "course_code": "SNC2D",
+ "ministry_course_name": "SNC2D",
+ "course": "Science",
+ "grade": [
+  "10"
+ ],
+ "retrieved_utc": "2026-11-12T06:06:43Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=b5a21ac9-5817-44ab-b458-2ad55e7b65db&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2026-01-14T13:17:22.4200715Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "64c2dab39c441dff090a5c32fce4e25962c6a809808e53d6115a6715917ca796",
+  "official.json": "691954ac56abb2acd7bc99ef107296be5232f4c8e4423e5791489c50b76a400a"
+ },
+ "counts": {
+  "strands": 5,
+  "overall_expectations": 14,
+  "specific_expectations": 81
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

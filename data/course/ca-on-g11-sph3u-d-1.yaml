@@ -1,0 +1,65 @@
+id: course/ca-on-g11-sph3u-d-1
+class: course
+kind: lesson
+label:
+  en: Where does a machine's energy come from?
+  ar: من أين تأتي طاقة الآلة؟
+  ur: مشین کی توانائی کہاں سے آتی ہے؟
+summary:
+  en: Energy transfers and transformations in machines, and how the law of conservation of energy explains them (D3.1).
+  ar: انتقالات الطاقة وتحولاتها في الآلات، وكيف يفسّرها قانون حفظ الطاقة (D3.1).
+  ur: مشینوں میں توانائی کی منتقلیاں اور تبدیلیاں، اور قانونِ بقائے توانائی انہیں کیسے واضح کرتا ہے (D3.1)۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g11-sph3u-d
+expectations:
+- code: D3.1
+  text:
+    en: describe a variety of energy transfers and transformations, and explain them using the law of conservation of energy
+    ar: صِف مجموعة متنوعة من انتقالات الطاقة وتحولاتها، وفسّرها بقانون حفظ الطاقة
+    ur: توانائی کی منتقلیوں اور تبدیلیوں کی مختلف صورتیں بیان کریں، اور انہیں قانونِ بقائے توانائی سے واضح کریں
+connections:
+- position: before
+  kind: invention
+  title:
+    en: The cow that does not turn the wheel
+    ar: البقرة التي لا تدير الساقية
+    ur: وہ گائے جو پہیہ نہیں گھماتی
+  text:
+    en: Al-Jazari describes a pool hiding a wheel and drive below, with jars lifting water to a channel above. A wooden cow seems to turn the machine, but the record says water drives it, and the shaft turns the cow, not the reverse. It adds that the arrangement needs a supply, a drainage path and a fall that lets the water do work; it is not a closed pool creating its own power. Where does the energy come from?
+    ar: يصف الجزري حوضًا يخفي تحته دولابًا ومحركًا، وتعلوه جرار تصعد بالماء إلى قناة. تبدو بقرة خشبية كأنها تدير الآلة، لكن السجل يقول إن الماء هو الذي يديرها، وإن العمود يدور فتدور معه البقرة لا العكس. ويضيف أن الترتيب يحتاج موردًا ومسار صرف وانخفاضًا يسمح للماء بأن يؤدي شغلًا، وليس حوضًا مغلقًا يخلق قوة من ذاته. من أين تأتي الطاقة؟
+    ur: جزری ایک حوض بیان کرتے ہیں جس کے نیچے ایک پہیہ اور چلانے والی قوت چھپی ہے، اور اوپر گھڑے پانی کو ایک نالی تک اٹھاتے ہیں۔ ایک لکڑی کی گائے مشین کو گھماتی دکھائی دیتی ہے، مگر ریکارڈ کہتا ہے کہ اسے پانی چلاتا ہے، اور محور گھومتا ہے تو گائے اس کے ساتھ گھومتی ہے، اس کے برعکس نہیں۔ وہ مزید کہتا ہے کہ اس ترتیب کو پانی کی رسد، نکاسی کا راستہ اور ایسا ڈھلوان چاہیے جو پانی سے کام لینے دے؛ یہ ایسا بند حوض نہیں جو اپنی ذات سے قوت پیدا کرے۔ توانائی کہاں سے آتی ہے؟
+  entity: invention/jazari-hidden-drive-water-lifter
+  sources:
+  - source/jazari-hill-1974
+- position: within
+  kind: invention
+  title:
+    en: An animal turns the drive
+    ar: حيوان يدير المحرك
+    ur: جانور چلانے والی قوت دیتا ہے
+  text:
+    en: 'In Category V, chapter 4, al-Jazari describes a water lifter powered by an animal: gears carry rotation to a pin that moves in a slot in the ladle''s stem, raising and lowering the scoop. The record says the animal powers the driving assembly, and the geared mechanism turns that input into a repeated lifting movement. How does rotation become up-and-down motion here?'
+    ar: في القسم الخامس، الباب الرابع، يصف الجزري رافعة ماء تعمل بالطاقة الحيوانية؛ تنقل التروس الدوران إلى دبوس يتحرك في شق ساق المغرفة فيرفعها ويخفضها. ويقول السجل إن الحيوان يمد مجموعة الحركة بالطاقة، وإن الآلة المسننة تنقل هذا الإدخال إلى حركة رفع متكررة. كيف يتحول الدوران هنا إلى حركة صعود ونزول؟
+    ur: 'پانچویں حصے کے چوتھے باب میں جزری جانور کی قوت سے چلنے والی پانی اٹھانے کی مشین بیان کرتے ہیں: دندانے دار پہیے گردش کو ایک کیل تک پہنچاتے ہیں جو چمچے کی ڈنڈی کے شگاف میں چلتی ہے اور مغرفے کو اٹھاتی اور گراتی ہے۔ ریکارڈ کہتا ہے کہ جانور حرکتی مجموعے کو توانائی دیتا ہے اور دندانے دار نظام اس دخل کو بار بار اٹھانے کی حرکت میں بدل دیتا ہے۔ یہاں گردش اوپر نیچے کی حرکت کیسے بنتی ہے؟'
+  entity: invention/jazari-animal-scoop-water-lifter
+  sources:
+  - source/jazari-hill-1974
+- position: after
+  kind: invention
+  title:
+    en: Six pistons on one shaft
+    ar: ست مكابس على محور واحد
+    ur: ایک محور پر چھ پسٹن
+  text:
+    en: In Al-Turuq al-saniyya, Taqi al-Din ibn Maruf described six tubes with pistons, weights and valves, moved by projections distributed around a shaft and joined to a shared outlet. A cam raises a piston through a rocker, and a weight then drives it down. The record says the common pipe collects the delivery and does not become an independent energy source. What has to turn the shaft?
+    ar: في «الطرق السنية» وصف تقي الدين بن معروف ست قصبات بمكابس وأثقال وصمامات، تحركها نتوءات موزعة على محور، وتتجمع مخارجها في أنبوب واحد. ترفع الكامة المكبس عبر الذراع، ثم يدفعه ثقل إلى أسفل. ويقول السجل إن الأنبوب الجامع يستقبل نتائج الوحدات ولا يتحول إلى مصدر طاقة مستقل. ما الذي يلزم لإدارة المحور؟
+    ur: «الطرق السنیہ» میں تقی الدین بن معروف نے چھ نلکیاں بیان کیں جن میں پسٹن، وزن اور والو ہیں؛ انہیں ایک محور کے گرد پھیلے ابھار چلاتے ہیں اور ان کے نکاس ایک مشترکہ نلکی میں ملتے ہیں۔ کیم ایک بازو کے ذریعے پسٹن کو اٹھاتی ہے، پھر ایک وزن اسے نیچے دھکیلتا ہے۔ ریکارڈ کہتا ہے کہ مشترکہ نلکی یونٹوں کا حاصل جمع کرتی ہے اور توانائی کا آزاد ذریعہ نہیں بنتی۔ محور کو کیا گھمائے گا؟
+  entity: invention/taqi-six-cylinder-pump
+  sources:
+  - source/taqi-turuq-hasan-1976
+order: 1

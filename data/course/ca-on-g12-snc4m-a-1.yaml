@@ -1,0 +1,71 @@
+id: course/ca-on-g12-snc4m-a-1
+class: course
+kind: lesson
+label:
+  en: 'Physicians: training and contributions'
+  ar: 'الأطباء: التدريب والإسهام'
+  ur: 'معالج: تربیت اور خدمات'
+summary:
+  en: Careers in medicine and the training they need, and what scientists have contributed to the field, as the museum's records of physicians present them (A2.1, A2.2).
+  ar: المهن الطبية وما تتطلبه من تعليم وتدريب، وما أسهم به العلماء في هذا الميدان، كما تعرضها سجلات المتحف عن الأطباء ⁦(A2.1، A2.2)⁩.
+  ur: طب کے پیشے اور ان کے لیے درکار تعلیم و تربیت، اور اس شعبے میں سائنس دانوں کی خدمات، جیسا کہ میوزیم کے ریکارڈ معالجوں کے بارے میں پیش کرتے ہیں ⁦(A2.1، A2.2)⁩۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g12-snc4m-a
+expectations:
+- code: A2.1
+  text:
+    en: identify and describe a variety of careers related to the fields of science under study […] and the education and training necessary for these careers
+    ar: حدّد مهنًا متنوعة متصلة بميادين العلوم قيد الدراسة وصِفها […]، وصِف التعليم والتدريب اللازمين لهذه المهن
+    ur: زیرِ مطالعہ سائنسی شعبوں سے متعلق مختلف پیشوں کی نشاندہی کریں اور انہیں بیان کریں […]، اور ان پیشوں کے لیے ضروری تعلیم و تربیت بیان کریں
+- code: A2.2
+  text:
+    en: describe the contributions of scientists, including Canadians […], to the field under study
+    ar: صِف إسهامات العلماء، ومنهم كنديون […]، في الميدان قيد الدراسة
+    ur: زیرِ مطالعہ شعبے میں سائنس دانوں، بشمول کینیڈین سائنس دانوں […]، کی خدمات بیان کریں
+connections:
+- position: before
+  kind: career
+  title:
+    en: The physician's craft
+    ar: حرفة الطبيب
+    ur: طبیب کا پیشہ
+  text:
+    en: The physician diagnoses illness and treats it by the science of medicine. In the Islamic states the craft was learned by study, practice and attachment to experienced practitioners. In the Abbasid period a practitioner was admitted after an examination before the head of physicians, who then issued a licence. How is a physician trained and licensed where you live?
+    ar: الطبيب من يشخّص المرض ويعالجه بعلم الطب. وفي الدولة الإسلامية كان الطب حرفة تُتعلَّم بالدراسة والتجربة والملازمة. ثم صار في العصر العباسي يُمنح بامتحان أمام رئيس الأطباء وإجازة. كيف يتدرّب الطبيب ويحصل على الإجازة اليوم في المكان الذي تعيش فيه؟ وما الذي تغيّر منذ ذلك العهد؟
+    ur: طبیب بیماری کی تشخیص کرتا اور علمِ طب سے اس کا علاج کرتا ہے۔ اسلامی ریاستوں میں یہ پیشہ مطالعے، مشق اور تجربہ کار معالجوں کی صحبت سے سیکھا جاتا تھا۔ عباسی دور میں معالج کو رئیس الاطباء کے سامنے امتحان کے بعد داخل کیا جاتا اور وہ اسے اجازت نامہ دیتا۔ آپ کے ہاں طبیب کی تربیت اور اجازت کیسے ہوتی ہے؟
+  entity: job/physician
+  sources:
+  - source/tdv-hekimbasi
+  - source/tdv-tip
+- position: within
+  kind: invention
+  title:
+    en: A physician corrects Galen
+    ar: طبيب يصحّح جالينوس
+    ur: ایک معالج جالینوس کی تصحیح کرتا ہے
+  text:
+    en: In the thirteenth century the physician Ibn al-Nafis wrote, in his commentary on the anatomy of Ibn Sina's Canon, that blood does not cross from the right ventricle to the left through pores in the wall between them, as Galen had taught, because that wall is solid; it reaches the left ventricle from the lung. Which part of this was new, and which was already known?
+    ar: كتب الطبيب ابن النفيس في القرن السابع الهجري، في شرحه على تشريح قانون ابن سينا، أن الدم لا يعبر من البطين الأيمن إلى البطين الأيسر من مسامّ في الحاجز بينهما كما قال جالينوس، لأن الحاجز هناك مصمت؛ بل يدخل البطين الأيسر من الرئة. أي جزء من هذا كان جديدًا، وأي جزء كان معروفًا من قبل؟
+    ur: طبیب ابن النفیس نے ساتویں صدی ہجری میں ابن سینا کے قانون کی تشریح پر اپنی شرح میں لکھا کہ خون دل کے دائیں بطین سے بائیں بطین میں ان مساموں سے نہیں گزرتا جو جالینوس کے بقول دونوں کے درمیانی پردے میں ہیں، کیونکہ وہ پردہ ٹھوس ہے؛ بلکہ وہ پھیپھڑے سے بائیں بطین میں پہنچتا ہے۔ اس میں کیا نیا تھا اور کیا پہلے سے معلوم تھا؟
+  entity: invention/pulmonary-circulation
+  sources:
+  - source/west-2008-ibn-al-nafis
+- position: after
+  kind: invention
+  title:
+    en: Telling two diseases apart
+    ar: التمييز بين مرضين
+    ur: دو بیماریوں میں فرق
+  text:
+    en: Abu Bakr al-Razi's treatise on smallpox and measles compares what the two diseases share and where they differ. It assembles shared symptoms, then distinguishes relatively more nausea and anxiety in measles from more characteristic back pain in smallpox, according to his observations and his period's interpretation. It is a document in medical history, not a guide to diagnosis today. How do you compare two similar conditions?
+    ar: في رسالة أبي بكر الرازي عن الجدري والحصبة مقارنة بين ما يتشابه وما يختلف في المرضين. يعرض أعراضًا مشتركة، ثم يفرّق بين تكرر الغثيان والقلق في الحصبة وبروز ألم الظهر في الجدري، بحسب ملاحظته وتفسير عصره. والرسالة وثيقة في تاريخ الطب، وليست دليلًا لتشخيص مرض اليوم. كيف تقارن بين حالتين متشابهتين؟
+    ur: ابوبکر الرازی کا چیچک اور خسرے پر رسالہ دونوں بیماریوں کی مشترک اور مختلف باتوں کا موازنہ کرتا ہے۔ وہ مشترک علامات جمع کرتا ہے، پھر اپنے مشاہدے اور اپنے دور کی تعبیر کے مطابق خسرے میں متلی اور بے چینی کو چیچک کی نمایاں کمر درد سے الگ کرتا ہے۔ یہ طب کی تاریخ کی دستاویز ہے، آج کی تشخیص کی رہنمائی نہیں۔ ملتی جلتی دو کیفیتوں کا موازنہ آپ کیسے کریں گے؟
+  entity: invention/al-razi-smallpox-measles
+  sources:
+  - source/razi-greenhill-smallpox-1848
+order: 1

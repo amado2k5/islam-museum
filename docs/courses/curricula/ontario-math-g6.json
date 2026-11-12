@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-math-g6",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "Mathematics",
+  "url_slug": "elementary-mathematics",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+ },
+ "course_code": "",
+ "ministry_course_name": "Math - Grade 6",
+ "course": "Mathematics",
+ "grade": [
+  "6"
+ ],
+ "retrieved_utc": "2026-11-12T06:09:29Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=0c998c86-c5bf-4f7d-bace-44a4c32af80e&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2023-03-17T14:35:07.1607801Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "45df9719054fe77bdbffd06b2640dca13b0be95e690c99ed1a36b580af540249",
+  "official.json": "945aaf20a40c8225a332b1bd0163347bda164da9257d0d269dec60246e916704"
+ },
+ "counts": {
+  "strands": 6,
+  "overall_expectations": 12,
+  "specific_expectations": 53
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

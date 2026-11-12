@@ -1,0 +1,224 @@
+course: course/ca-on-g11-hsp3u
+gaps:
+- code: A1.1
+  text: anthropology, psychology, and sociology […] to identify topics for research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: identify key concepts […] related to their selected topics
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: formulate effective questions to guide their research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: create appropriate research plans to investigate their selected topics […], ensuring that their plans follow guideline for ethical research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: locate and select information relevant to their investigations from a variety of primary sources […] and/or secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.3
+  text: based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.1
+  text: assess various aspects of information gath­ered from primary and secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.2
+  text: record and organize information and key ideas using a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.3
+  text: analyse and interpret research information […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.4
+  text: demonstrate academic honesty by docu­menting the sources of all information generated through research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.5
+  text: synthesize findings and formulate conclu­sions […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.1
+  text: use an appropriate format […] to communicate the results of their research and inquiry effec­tively for a specific purpose and audience
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.2
+  text: use terms relating to anthropology, psychol­ogy, and sociology correctly […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.3
+  text: clearly communicate the results of their inquiries […], and follow APA conventions for acknowledging sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.4
+  text: demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.1
+  text: explain the significance of contributions of influential anthropologists […]
+  why: The expectation is about the contributions of influential anthropologists; the museum holds no record on one.
+  searches:
+  - 'find_entity.py "Darwin" "داروين" "Freud" "فرويد" "Margaret Mead": no real record'
+  - 'find_entity.py "archaeology" "آثار" "excavation" "anthropology" "أنثروبولوجيا": records on antiquities law and on books titled al-Athar; none on anthropology or on excavation as a research method'
+- code: B1.2
+  text: outline the key ideas of the major anthropo­logical schools of thought […] and explain how they can be used to analyse features of cultural systems
+  why: The expectation is about the schools of thought of anthropology; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "functionalism" "الوظيفية" "sociology" "علم الاجتماع" "school of thought": no real record'
+  - 'find_entity.py "archaeology" "آثار" "excavation" "anthropology" "أنثروبولوجيا": records on antiquities law and on books titled al-Athar; none on anthropology or on excavation as a research method'
+- code: B1.3
+  text: explain significant issues in different areas of anthropology […]
+  why: The expectation is about issues in the areas of anthropology; the museum holds no record on these areas. Ibn Khaldun on learning Arabic is one thinker’s theory, not an account of an area of the field.
+  searches:
+  - 'find_entity.py "linguistics" "اللغة" "philology" "علم اللغة": concept/lughah-fiqh (language in fiqh rulings) and concept/malakat-al-lugha (Ibn Khaldun on learning Arabic by memorisation); none on linguistic anthropology as a field'
+  - 'find_entity.py "archaeology" "آثار" "excavation" "anthropology" "أنثروبولوجيا": records on antiquities law and on books titled al-Athar; none on anthropology or on excavation as a research method'
+- code: B1.4
+  text: explain the main research methods used for conducting anthropological research […], and assess critiques of the various methods
+  why: The expectation is about anthropological research methods and critiques of them; the museum holds no record on these methods.
+  searches:
+  - 'find_entity.py "survey" "fieldwork" "observation" "travel account" "الرحلة": hadith journeys (rihla) and land surveys of the Sawad; none on research methods'
+  - 'find_entity.py "archaeology" "آثار" "excavation" "anthropology" "أنثروبولوجيا": records on antiquities law and on books titled al-Athar; none on anthropology or on excavation as a research method'
+- code: B2.1
+  text: explain, from an anthropological perspective, how various factors […] influence and shape human behaviour and culture […]
+  why: The one record the museum holds on a physical environment shaping people is linked to D2.1 in lesson d-2, whose wording is the same with a sociological perspective; linking it again here would count one record twice. Nothing on pandemics or globalization.
+  searches:
+  - 'find_entity.py "climate and human" "environment influence" "الإقليم" "geography and character": concept/athar-al-iqlim, which lesson d-2 links to D2.1; no second record on this factor'
+  - 'find_entity.py "plague" "الطاعون" "pandemic" "globalization" "العولمة": plague events (Amwas, 448, the Black Death in Ibn Khaldun’s life); none on how a pandemic or globalization shaped culture'
+- code: B3.2
+  text: explain ways in which culture is an agent of socialization […]
+  why: The expectation is about culture as an agent of socialization; the museum holds no record on socialization, and its records on rites are rulings, not accounts of how a culture teaches kinship duties.
+  searches:
+  - 'find_entity.py "socialization" "التنشئة الاجتماعية" "social upbringing": no real record'
+  - 'find_entity.py "child development" "تربية الأطفال" "upbringing" "تنشئة": concept/tarbiya, a lecturer’s advice on raising children (his view), not an account of culture as an agent of socialization'
+- code: C1.1
+  text: explain the significance of contributions of influential psychologists […]
+  why: The expectation is about the contributions of influential psychologists; the museum holds no record on one.
+  searches:
+  - 'find_entity.py "Darwin" "داروين" "Freud" "فرويد" "Margaret Mead": no real record'
+  - 'find_entity.py "psychology" "علم النفس" "nafs" "soul": 21 records on the soul (nafs) in religious teaching, such as concept/al-nafs-wal-ruh; none on a psychologist, theory or study'
+- code: C1.3
+  text: explain the contribution to understanding human behaviour of various psychological approaches […]
+  why: The expectation is about psychological approaches such as clinical or developmental psychology; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "psychology" "علم النفس" "nafs" "soul": 21 records on the soul (nafs) in religious teaching, such as concept/al-nafs-wal-ruh; none on a psychologist, theory or study'
+  - 'find_entity.py "mental illness" "bimaristan" "المارستان" "melancholia" "مرض عقلي": bimaristan buildings and a fatwa on mental illness and legal capacity; none on a psychological approach (clinical, experimental, developmental)'
+- code: C1.4
+  text: compare the major research methods used for conducting psychological research […], and assess critiques of the various methods
+  why: The expectation is about psychological research methods and critiques of them; the museum holds no record on these methods.
+  searches:
+  - 'find_entity.py "ethics of research" "human subjects" "experiment" "psychological experiment" "علم النفس التجريبي": Ibn Zuhr’s animal demonstration, Ibn al-Haytham’s optics experiments, a fatwa on medical experiments; none on psychological research or its methods'
+  - 'find_entity.py "survey" "fieldwork" "observation" "travel account" "الرحلة": hadith journeys (rihla) and land surveys of the Sawad; none on research methods'
+- code: C2.1
+  text: explain, from a psychological perspective, how various influences […] contribute to an individual’s psychological development
+  why: The expectation is about heredity, environment and attachment in psychological development; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "heredity" "الوراثة" "attachment" "child psychology" "نفسية الطفل": only fiqh records on attachment of descent (lahaq, luhuq); none on psychological development'
+  - 'find_entity.py "child development" "تربية الأطفال" "upbringing" "تنشئة": concept/tarbiya, a lecturer’s advice on raising children (his view), not an account of culture as an agent of socialization'
+- code: C2.2
+  text: explain, from a psychological perspective, ways in which context and the influence of other individuals can affect people’s emotional and behavioural responses […]
+  why: The expectation is about how context and other people affect emotional and behavioural responses; the museum holds no psychological record on this.
+  searches:
+  - 'find_entity.py "conformity" "الإمعة" "peer pressure" "crowd" "الجماعة": records on the early Muslim community and on holding to the community (luzum al-jama’a); none on how others affect emotion or behaviour'
+  - 'find_entity.py "psychology" "علم النفس" "nafs" "soul": 21 records on the soul (nafs) in religious teaching, such as concept/al-nafs-wal-ruh; none on a psychologist, theory or study'
+- code: C3.1
+  text: identify and describe the role of socialization in the psychological development of the indi­vidual […]
+  why: The expectation is about the role of socialization in psychological development; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "socialization" "التنشئة الاجتماعية" "social upbringing": no real record'
+  - 'find_entity.py "child development" "تربية الأطفال" "upbringing" "تنشئة": concept/tarbiya, a lecturer’s advice on raising children (his view), not an account of culture as an agent of socialization'
+- code: C3.3
+  text: analyse the procedures of and ethical prob­lems associated with major psychological experi­ments in socialization […]
+  why: The expectation is about the procedures and ethics of socialization experiments; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "ethics of research" "human subjects" "experiment" "psychological experiment" "علم النفس التجريبي": Ibn Zuhr’s animal demonstration, Ibn al-Haytham’s optics experiments, a fatwa on medical experiments; none on psychological research or its methods'
+  - 'find_entity.py "experiment" "conformity" "obedience" "اختبار": records on religious obedience (ta’abbud, taat wulat al-amr) and on scientific experiments; none on socialization experiments'
+- code: D1.2
+  text: summarize the key ideas of the major sociological schools of thought […], and explain how they can be used to analyse social behaviour
+  why: The expectation is about the major schools of sociological thought; Ibn Khaldun’s terms are linked in lesson d-1 under D1.1, but the museum holds no record on a school of thought.
+  searches:
+  - 'find_entity.py "functionalism" "الوظيفية" "sociology" "علم الاجتماع" "school of thought": no real record'
+  - 'find_entity.py "Ibn Khaldun" "umran" "العمران" "sociology of history": person/ibn-khaldun, concept/umran and concept/asabiyya, linked in lesson d-1; none sets out a school of thought such as functionalism or conflict theory'
+- code: D1.3
+  text: identify and explain the main research methods that are used for conducting sociolog­ical research […], and assess critiques of the various methods
+  why: The expectation is about sociological research methods and critiques of them; the museum holds no record on these methods.
+  searches:
+  - 'find_entity.py "statistics" "الإحصاء" "census" "content analysis" "case study": two events on censuses (event/abbasid-census-200, event/egypt-census-837); none on sociological research methods or their critique'
+  - 'find_entity.py "survey" "fieldwork" "observation" "travel account" "الرحلة": hadith journeys (rihla) and land surveys of the Sawad; none on research methods'
+- code: D2.2
+  text: explain, from a sociological perspective, the relationship between prejudice and individual and systemic discrimination […], and describe their impacts on individuals and society
+  why: The expectation is about prejudice and discrimination and their impacts; the museum holds no record on these as a topic.
+  searches:
+  - 'find_entity.py "prejudice" "التعصب" "discrimination" "racism" "العنصرية": no real record'
+  - 'find_entity.py "racism" "skin colour" "لون البشرة" "الأسود" "equality": persons and events whose names contain these words; none on prejudice or discrimination as a topic; concept/athar-al-iqlim (colour and climate) is linked in lesson d-2 and does not treat discrimination'
+- code: D2.3
+  text: explain, from a sociological perspective, how diverse influences […] shape social behaviour […]
+  why: The expectation is about how culture, religion, economics, media and technology shape social behaviour; the only candidates are about media content and are not accounts of influence on behaviour.
+  searches:
+  - 'find_entity.py "media" "الإعلام" "social networking" "التواصل الاجتماعي": concept/al-ilam-wal-mas-uliyya (a lecturer on programme makers) and concept/surat-al-mutadayyin-fi-al-ilam (a studio discussion of the screen image of the religious person); about media content, not about how media or technology shape behaviour'
+  - 'find_entity.py "courtship" "الخطبة" "dating" "bullying" "التنمر": sermons (khutba) only; none on courtship or bullying as social behaviour'
+- code: D3.1
+  text: explain how structural changes take place in social institutions […] in response to diverse influences […]
+  why: The expectation is about structural change in social institutions in response to diverse influences; the museum holds no record on such change.
+  searches:
+  - 'find_entity.py "social change" "التغير الاجتماعي" "Charter of Rights" "social movement" "demographic": no real record'
+  - 'find_entity.py "family" "الأسرة" "marriage" "الزواج" "institution": 109 records, marriage events and nikah; none on structural change in an institution'
+- code: D3.3
+  text: evaluate the relative influence of primary agents of socialization […] and secondary agents of socialization […] on the socialization of the individual
+  why: The expectation is about the relative influence of agents of socialization; the museum holds no record that weighs them.
+  searches:
+  - 'find_entity.py "socialization" "التنشئة الاجتماعية" "social upbringing": no real record'
+  - 'find_entity.py "child development" "تربية الأطفال" "upbringing" "تنشئة": concept/tarbiya, a lecturer’s advice on raising children (his view), not an account of culture as an agent of socialization'
+- code: C1.2
+  text: "summarize the key ideas of major psychological theories […], and explain how they can be used to understand human behaviour"
+  why: "The only candidate records are one non-psychologist's management talks, which give a chronology of Maslow and Theory Y that cannot be right and so would mislead a student asked to summarize major psychological theories."
+  searches:
+  - "concept/nazariyyat-al-dafiyya (tried at c-1): a lecturer's account of Maslow's hierarchy and \"Theory Z\" with a chronology that cannot be right (Theory Y built on Maslow, not the reverse)"
+  - "find_entity.py \"psychology\" \"علم النفس\" \"personality\" \"behaviour\": no record by a psychologist or on a major psychological theory"
+- code: C2.3
+  text: "explain how diverse psychological factors […] influence individual behaviour"
+  why: "The only candidate record is a lecturer's definition of motivation by reward, a popular management claim and not a psychological account of factors influencing behaviour."
+  searches:
+  - "concept/al-tahfiz (tried at c-1): a lecturer's definition of motivation as receiving a reward; not a psychological account of influences on behaviour"
+  - "find_entity.py \"motivation\" \"learning\" \"علم النفس\" \"التحفيز\": no other record states a psychological factor"
+- code: C3.2
+  text: "assess how diverse personality traits […] shape human behaviour and interaction in a variety of environments"
+  why: "The only candidate record is a lecturer's DISC leadership-personality talk, with uncited figures; DISC is a popular management tool, not an established trait theory."
+  searches:
+  - "concept/tahlil-disc (tried at c-1): DISC leadership talk with figures marked needs_source (uncited percentages and error margin); a management tool, not a trait theory"
+  - "find_entity.py \"personality\" \"traits\" \"الشخصية\": no record on personality traits from a psychological source"

@@ -1,0 +1,9 @@
+---
+// The courses surface's own styles, written into the page as one <style> element where this component is rendered.
+// Not an Astro <style> block on purpose: Astro attaches a component's styles to every page of a route that imports it,
+// whatever the page renders. The sheet is read as text and emitted only where this component is drawn, so it reaches
+// the courses pages and nothing else. An edit to courses.css rewrites the courses pages and no other page.
+import css from "./courses.css?raw";
+const min = css.replace(/\/\*[\s\S]*?\*\//g, "").replace(/\s*\n\s*/g, "").replace(/\s*([{};,>])\s*/g, "$1").replace(/;}/g, "}");
+---
+<style is:inline set:html={min}></style>

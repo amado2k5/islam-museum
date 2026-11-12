@@ -1,0 +1,575 @@
+course: course/ca-on-g11-sph3u
+gaps:
+- code: A1.1
+  text: formulate relevant scientific questions about observed relationships, ideas, problems, or issues, make informed predictions, and/or formulate educated hypotheses to focus inquiries or research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: select appropriate instruments […] and materials […], and identify appropriate methods, techniques, and procedures, for each inquiry
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: identify and locate a variety of print and electronic sources that enable them to address research topics fully and appropriately
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: apply knowledge and understanding of safe laboratory practices and procedures when planning investigations by correctly interpreting Workplace Hazardous Materials Information System (WHMIS) symbols; by using appropriate techniques for handling and storing laboratory equipment and materials and disposing of laboratory materials …
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.5
+  text: conduct inquiries, controlling relevant variables, adapting or extending procedures as required, and using appropriate materials and equipment safely, accurately, and effectively, to collect observations and data
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.6
+  text: compile accurate data from laboratory and other sources, and organize and record the data, using appropriate formats, including tables, flow charts, graphs, and/or diagrams
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.7
+  text: select, organize, and record relevant information on research topics from a variety of appropriate sources, including electronic, print, and/or human sources, using suitable formats and an accepted form of academic documentation
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.8
+  text: synthesize, analyse, interpret, and evaluate qualitative and/or quantitative data; solve problems involving quantitative data; determine whether the evidence supports or refutes the initial prediction or hypothesis and whether it is consistent with scientific theory; identify sources of bias and/or error …
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.9
+  text: analyse the information gathered from research sources for logic, accuracy, reliability, adequacy, and bias
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.10
+  text: draw conclusions based on inquiry results and research findings, and justify their conclusions with reference to scientific knowledge
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.11
+  text: communicate ideas, plans, procedures, results, and conclusions orally, in writing, and/or in electronic presentations, using appropriate language and a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.12
+  text: use appropriate numeric […], symbolic, and graphic modes of representation for qualitative and quantitative data […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.13
+  text: express the results of any calculations involving data accurately and precisely, to the appropriate number of decimal places or significant figures
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.1
+  text: analyse, on the basis of research, a technology that applies concepts related to kinematics […] [IP, PR, AI, C]
+  why: The expectation asks the student to analyse or assess a technology that applies kinematics; the museum holds no record on a speed-measuring or motion-sensing technology.
+  searches:
+  - 'find_entity.py "odometer" "عداد المسافة" "speedometer" "milestone": no real record on a speed or distance measuring device (the only hit is an unrelated social-media source)'
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+- code: B1.2
+  text: assess the impact on society and the environment of a technology that applies concepts related to kinematics […] [AI, C]
+  why: The expectation asks the student to analyse or assess a technology that applies kinematics; the museum holds no record on a speed-measuring or motion-sensing technology.
+  searches:
+  - 'find_entity.py "odometer" "عداد المسافة" "speedometer" "milestone": no real record on a speed or distance measuring device (the only hit is an unrelated social-media source)'
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+- code: B2.1
+  text: 'use appropriate terminology related to kinematics, including, but not limited to: time, distance, position, displacement, speed, velocity, and acceleration [C]'
+  why: The expectation asks for terminology, graphs, equations or laboratory work on linear motion; the museum holds no record that supplies motion data or a method of analysis, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+  - 'find_entity.py "acceleration" "التسارع" "speed" "السرعة": only concept/causes-of-early-arab-expansion (the speed of the conquests) and work/thimrat-al-tasaru (hastening to love of God); neither is about physical speed or acceleration'
+- code: B2.2
+  text: analyse and interpret position–time, velocity–time, and acceleration–time graphs of motion in one dimension […] [AI, C]
+  why: The expectation asks for terminology, graphs, equations or laboratory work on linear motion; the museum holds no record that supplies motion data or a method of analysis, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+  - 'find_entity.py "acceleration" "التسارع" "speed" "السرعة": only concept/causes-of-early-arab-expansion (the speed of the conquests) and work/thimrat-al-tasaru (hastening to love of God); neither is about physical speed or acceleration'
+- code: B2.3
+  text: use a velocity–time graph for constant acceleration to derive the equation for average velocity [e.g., vav = (v1 + v2)/2] and the equations for displacement [e.g., Δd = ((v1 + v2)/2)Δt, Δd = vΔt + ½a (Δt2)], and solve simple …
+  why: The expectation asks for terminology, graphs, equations or laboratory work on linear motion; the museum holds no record that supplies motion data or a method of analysis, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+  - 'find_entity.py "acceleration" "التسارع" "speed" "السرعة": only concept/causes-of-early-arab-expansion (the speed of the conquests) and work/thimrat-al-tasaru (hastening to love of God); neither is about physical speed or acceleration'
+- code: B2.4
+  text: conduct an inquiry into the uniform and non-uniform linear motion of an object […] [PR]
+  why: The expectation asks for terminology, graphs, equations or laboratory work on linear motion; the museum holds no record that supplies motion data or a method of analysis, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+  - 'find_entity.py "acceleration" "التسارع" "speed" "السرعة": only concept/causes-of-early-arab-expansion (the speed of the conquests) and work/thimrat-al-tasaru (hastening to love of God); neither is about physical speed or acceleration'
+- code: B2.5
+  text: solve problems involving distance, position, and displacement […] [AI, C]
+  why: The expectation asks for terminology, graphs, equations or laboratory work on linear motion; the museum holds no record that supplies motion data or a method of analysis, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+  - 'find_entity.py "acceleration" "التسارع" "speed" "السرعة": only concept/causes-of-early-arab-expansion (the speed of the conquests) and work/thimrat-al-tasaru (hastening to love of God); neither is about physical speed or acceleration'
+- code: B2.6
+  text: plan and conduct an inquiry into the motion of objects in one dimension, using vector diagrams and uniform acceleration equations [IP, PR, C]
+  why: The expectation asks for terminology, graphs, equations or laboratory work on linear motion; the museum holds no record that supplies motion data or a method of analysis, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+  - 'find_entity.py "acceleration" "التسارع" "speed" "السرعة": only concept/causes-of-early-arab-expansion (the speed of the conquests) and work/thimrat-al-tasaru (hastening to love of God); neither is about physical speed or acceleration'
+- code: B2.7
+  text: solve problems involving uniform and non-uniform linear motion in one and two dimensions, using graphical analysis and algebraic equations [AI, C]
+  why: The expectation asks for terminology, graphs, equations or laboratory work on linear motion; the museum holds no record that supplies motion data or a method of analysis, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+  - 'find_entity.py "acceleration" "التسارع" "speed" "السرعة": only concept/causes-of-early-arab-expansion (the speed of the conquests) and work/thimrat-al-tasaru (hastening to love of God); neither is about physical speed or acceleration'
+- code: B2.8
+  text: use kinematic equations to solve problems related to the horizontal and vertical components of the motion of a projectile […] [AI, C]
+  why: The expectation asks for kinematic equations or an inquiry on projectile motion with measured components; the only projectile record (event/bira-siege-674) is used for the descriptive expectation B3.3 and gives no distances, times or speeds.
+  searches:
+  - 'find_entity.py "projectile" "المقذوف" "catapult" "trebuchet" "منجنيق": one real record, event/bira-siege-674, linked in lesson b-1 (B3.3); it gives no distances, times or speeds'
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+- code: B2.9
+  text: conduct an inquiry into the projectile motion of an object, and analyse, in qualitative and quantitative terms, the relationship between the horizontal and vertical components […] [PR, AI]
+  why: The expectation asks for kinematic equations or an inquiry on projectile motion with measured components; the only projectile record (event/bira-siege-674) is used for the descriptive expectation B3.3 and gives no distances, times or speeds.
+  searches:
+  - 'find_entity.py "projectile" "المقذوف" "catapult" "trebuchet" "منجنيق": one real record, event/bira-siege-674, linked in lesson b-1 (B3.3); it gives no distances, times or speeds'
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+- code: B3.1
+  text: distinguish between the terms constant, instantaneous, and average with reference to speed, velocity, and acceleration, and provide examples to illustrate each term
+  why: The expectation asks for terminology, graphs, equations or laboratory work on linear motion; the museum holds no record that supplies motion data or a method of analysis, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+  - 'find_entity.py "acceleration" "التسارع" "speed" "السرعة": only concept/causes-of-early-arab-expansion (the speed of the conquests) and work/thimrat-al-tasaru (hastening to love of God); neither is about physical speed or acceleration'
+- code: B3.2
+  text: distinguish between, and provide examples of, scalar and vector quantities as they relate to the description of uniform and non-uniform linear motion […]
+  why: The expectation asks for terminology, graphs, equations or laboratory work on linear motion; the museum holds no record that supplies motion data or a method of analysis, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "kinematics" "الحركة" "motion" "velocity": no record on motion in the physical sense; the hits are political movements (event/qumm-revolt, event/muqanna-revolt) and a flanking manoeuvre'
+  - 'find_entity.py "acceleration" "التسارع" "speed" "السرعة": only concept/causes-of-early-arab-expansion (the speed of the conquests) and work/thimrat-al-tasaru (hastening to love of God); neither is about physical speed or acceleration'
+- code: C1.1
+  text: analyse, with reference to Newton’s laws, a technology that applies these laws […], and propose ways to improve its performance [AI, C]
+  why: The expectation asks the student to analyse or assess a technology that applies Newton's laws; the museum holds no record on such a technology or on the laws.
+  searches:
+  - 'find_entity.py "force" "القوة" "friction" "الاحتكاك": only records on political or military force (event/tughril-qizil-war-584, concept/fath-anwa, concept/al-quwwa-wal-nufudh); none on physical force or friction'
+  - 'find_entity.py "lever" "الرافعة" "pulley" "البكرة" "mechanics": no record on mechanics; the hits are persons named Abu Bakra'
+- code: C1.2
+  text: evaluate the impact on society and the environment of technologies that use the principles of force […] [AI, C]
+  why: The expectation asks the student to analyse or assess a technology that applies Newton's laws; the museum holds no record on such a technology or on the laws.
+  searches:
+  - 'find_entity.py "force" "القوة" "friction" "الاحتكاك": only records on political or military force (event/tughril-qizil-war-584, concept/fath-anwa, concept/al-quwwa-wal-nufudh); none on physical force or friction'
+  - 'find_entity.py "lever" "الرافعة" "pulley" "البكرة" "mechanics": no record on mechanics; the hits are persons named Abu Bakra'
+- code: C2.1
+  text: 'use appropriate terminology related to forces, including, but not limited to: mass, time, speed, velocity, acceleration, friction, gravity, normal force, and free-body diagrams [C]'
+  why: The expectation asks for terminology, inquiries or problems on net force, acceleration, mass or free fall; the museum holds no record that supplies force or motion data, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "force" "القوة" "friction" "الاحتكاك": only records on political or military force (event/tughril-qizil-war-584, concept/fath-anwa, concept/al-quwwa-wal-nufudh); none on physical force or friction'
+  - 'find_entity.py "gravity" "الجاذبية" "falling bodies" "سقوط الأجسام": no real record'
+- code: C2.2
+  text: conduct an inquiry that applies Newton’s laws to analyse, in qualitative and quantitative terms, the forces acting on an object, and use free-body diagrams to determine the net force and the acceleration of the object [PR, AI, C]
+  why: The expectation asks for terminology, inquiries or problems on net force, acceleration, mass or free fall; the museum holds no record that supplies force or motion data, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "force" "القوة" "friction" "الاحتكاك": only records on political or military force (event/tughril-qizil-war-584, concept/fath-anwa, concept/al-quwwa-wal-nufudh); none on physical force or friction'
+  - 'find_entity.py "gravity" "الجاذبية" "falling bodies" "سقوط الأجسام": no real record'
+- code: C2.3
+  text: conduct an inquiry into the relationship between the acceleration of an object and its net force and mass […], and analyse the resulting data [PR, AI]
+  why: The expectation asks for terminology, inquiries or problems on net force, acceleration, mass or free fall; the museum holds no record that supplies force or motion data, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "force" "القوة" "friction" "الاحتكاك": only records on political or military force (event/tughril-qizil-war-584, concept/fath-anwa, concept/al-quwwa-wal-nufudh); none on physical force or friction'
+  - 'find_entity.py "gravity" "الجاذبية" "falling bodies" "سقوط الأجسام": no real record'
+- code: C2.4
+  text: analyse the relationships between acceleration and applied forces such as the force of gravity, normal force, force of friction, coefficient of static friction, and coefficient of kinetic friction, and solve related problems involving forces in one dimension, using free-body diagrams …
+  why: The expectation asks for terminology, inquiries or problems on net force, acceleration, mass or free fall; the museum holds no record that supplies force or motion data, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "force" "القوة" "friction" "الاحتكاك": only records on political or military force (event/tughril-qizil-war-584, concept/fath-anwa, concept/al-quwwa-wal-nufudh); none on physical force or friction'
+  - 'find_entity.py "gravity" "الجاذبية" "falling bodies" "سقوط الأجسام": no real record'
+- code: C2.5
+  text: plan and conduct an inquiry to analyse the effect of forces acting on objects in one dimension, using vector diagrams, free-body diagrams, and Newton’s laws [IP, PR, AI, C]
+  why: The expectation asks for terminology, inquiries or problems on net force, acceleration, mass or free fall; the museum holds no record that supplies force or motion data, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "force" "القوة" "friction" "الاحتكاك": only records on political or military force (event/tughril-qizil-war-584, concept/fath-anwa, concept/al-quwwa-wal-nufudh); none on physical force or friction'
+  - 'find_entity.py "gravity" "الجاذبية" "falling bodies" "سقوط الأجسام": no real record'
+- code: C2.6
+  text: analyse and solve problems involving the relationship between the force of gravity and acceleration for objects in free fall [AI]
+  why: The expectation asks for terminology, inquiries or problems on net force, acceleration, mass or free fall; the museum holds no record that supplies force or motion data, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "force" "القوة" "friction" "الاحتكاك": only records on political or military force (event/tughril-qizil-war-584, concept/fath-anwa, concept/al-quwwa-wal-nufudh); none on physical force or friction'
+  - 'find_entity.py "gravity" "الجاذبية" "falling bodies" "سقوط الأجسام": no real record'
+- code: C3.2
+  text: explain how the theories and discoveries of Galileo and Newton advanced knowledge of the effects of forces on the motion of objects
+  why: The expectation asks how Galileo and Newton advanced knowledge of forces and motion. The museum holds no record on either; the record on the earth's rotation and the ship analogy (used in lesson b-1) says only that Heinen compares one falling-stone argument with examples in Galileo's Dialogue, and does not describe what Galileo or Newton discovered.
+  searches:
+  - 'find_entity.py "Newton" "نيوتن" "Galileo" "غاليليو": no person or concept record; the only hits are two calculus sources'
+  - 'find_entity.py "impetus" "الميل" "mayl" "Ibn Sina motion": no record on theories of motion; the hits are concept/mayl-falak-al-buruj (the obliquity of the ecliptic) and an unrelated question'
+- code: C3.3
+  text: state Newton’s laws, and apply them, in qualitative terms, to explain the effect of forces acting on objects
+  why: The expectation asks the student to state Newton's laws and apply them; the museum holds no record on the laws or on a theory of motion that they could be set beside.
+  searches:
+  - 'find_entity.py "Newton" "نيوتن" "Galileo" "غاليليو": no person or concept record; the only hits are two calculus sources'
+  - 'find_entity.py "impetus" "الميل" "mayl" "Ibn Sina motion": no record on theories of motion; the hits are concept/mayl-falak-al-buruj (the obliquity of the ecliptic) and an unrelated question'
+- code: C3.4
+  text: describe, in qualitative and quantitative terms, the relationships between mass, gravitational field strength, and force of gravity
+  why: The expectation asks for the relationships between mass, gravitational field strength and the force of gravity; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "gravity" "الجاذبية" "falling bodies" "سقوط الأجسام": no real record'
+  - 'find_entity.py "buoyancy" "الطفو" "density" "الكثافة" "Archimedes": invention/biruni-displacement-vessel exists (and invention/balance-of-wisdom), but both records say they concern weighing and relative density, not the force of gravity or a gravitational field'
+- code: D1.1
+  text: analyse, using the principles of energy transformations, a technology that involves the transfer and transformation of thermal energy […] [AI, C]
+  why: The expectation asks the student to analyse or assess a technology that transfers or transforms thermal, nuclear or geothermal energy; the museum holds no record on such a technology.
+  searches:
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+  - 'find_entity.py "steam" "بخار" "boiler" "turbine": no record on a steam or thermal device (only hadith on fever and a fatwa on steam inhalation)'
+  - 'find_entity.py "power plant" "محطة توليد" "hydroelectric" "dam" "سد": only ancient dams (building/marib-dam, event/flood-of-al-aram); no record on generating electricity'
+- code: D1.2
+  text: assess, on the basis of research, how technologies related to nuclear, thermal, or geothermal energy affect society and the environment […] [IP, PR, AI, C]
+  why: The expectation asks the student to analyse or assess a technology that transfers or transforms thermal, nuclear or geothermal energy; the museum holds no record on such a technology.
+  searches:
+  - 'find_entity.py "nuclear" "نووي" "radioactivity" "atom": no record on nuclear physics; the hits are al-Nawawi, whose name matches the Arabic word'
+  - 'find_entity.py "power plant" "محطة توليد" "hydroelectric" "dam" "سد": only ancient dams (building/marib-dam, event/flood-of-al-aram); no record on generating electricity'
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+- code: D2.1
+  text: 'use appropriate terminology related to energy transformations, including, but not limited to: mechanical energy, gravitational potential energy, kinetic energy, work, power, fission, fusion, heat, heat capacity, temperature, and latent heat [C]'
+  why: The expectation asks for terminology, inquiries or problems on energy, work and power; the museum holds no record that supplies such quantities, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+- code: D2.2
+  text: solve problems relating to work, force, and displacement along the line of force [AI]
+  why: The expectation asks for terminology, inquiries or problems on energy, work and power; the museum holds no record that supplies such quantities, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+- code: D2.3
+  text: use the law of conservation of energy to solve problems in simple situations involving work, gravitational potential energy, kinetic energy, and thermal energy and its transfer (heat) [AI]
+  why: The expectation asks for terminology, inquiries or problems on energy, work and power; the museum holds no record that supplies such quantities, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+- code: D2.4
+  text: plan and conduct inquiries involving transformations between gravitational potential energy and kinetic energy […] to test the law of conservation of energy [IP, PR]
+  why: The expectation asks for terminology, inquiries or problems on energy, work and power; the museum holds no record that supplies such quantities, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+- code: D2.5
+  text: solve problems involving the relationship between power, energy, and time [AI]
+  why: The expectation asks for terminology, inquiries or problems on energy, work and power; the museum holds no record that supplies such quantities, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+- code: D2.6
+  text: conduct inquiries and solve problems involving the relationship between power and work […] [PR, AI]
+  why: The expectation asks for terminology, inquiries or problems on energy, work and power; the museum holds no record that supplies such quantities, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+- code: D2.7
+  text: compare and contrast the input energy, useful output energy, and per cent efficiency of selected energy generation methods […] [AI, C]
+  why: The expectation asks the student to compare input energy, useful output and per cent efficiency of energy generation methods; the museum's water-lifting records give no measured input, output or efficiency.
+  searches:
+  - 'find_entity.py "waterwheel" "ناعورة" "water mill" "noria": invention/jazari-double-piston-pump, invention/jazari-animal-scoop-water-lifter and invention/jazari-hidden-drive-water-lifter exist (the last two are in lesson d-1); none gives input energy, useful output or an efficiency figure'
+  - 'find_entity.py "power plant" "محطة توليد" "hydroelectric" "dam" "سد": only ancient dams (building/marib-dam, event/flood-of-al-aram); no record on generating electricity'
+  - 'find_entity.py "windmill" "طاحونة هوائية" "wind power" "wind energy": no real record'
+- code: D2.8
+  text: investigate the relationship between the concepts of conservation of mass and conservation of energy, and solve problems using the mass–energy equivalence [PR, AI]
+  why: The expectation asks for terminology, inquiries or problems on energy, work and power; the museum holds no record that supplies such quantities, and a record cannot carry the calculation.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+- code: D2.9
+  text: conduct an inquiry to determine the specific heat capacity of a single substance […] and of two substances when they are mixed together […] [PR]
+  why: The expectation asks for specific heat capacity, changes of state or heating curves; the museum holds no record on heat as a physical quantity.
+  searches:
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+- code: D2.10
+  text: solve problems involving changes in temperature and changes of state, using algebraic equations […] [AI, C]
+  why: The expectation asks for specific heat capacity, changes of state or heating curves; the museum holds no record on heat as a physical quantity.
+  searches:
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+- code: D2.11
+  text: draw and analyse heating and cooling curves that show temperature changes and changes of state for various substances [AI, C]
+  why: The expectation asks for specific heat capacity, changes of state or heating curves; the museum holds no record on heat as a physical quantity.
+  searches:
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+- code: D3.2
+  text: explain the concepts of and interrelationships between energy, work, and power, and identify and describe their related units
+  why: The expectation asks for explanations of energy, work, power or their units; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+  - 'find_entity.py "efficiency" "الكفاءة" "heat engine" "furnace" "كور": no record on efficiency or heat engines (concept/kafaa is equality in marriage)'
+- code: D3.3
+  text: 'explain the following concepts, giving examples of each, and identify their related units: thermal energy, kinetic energy, gravitational potential energy, heat, specific heat capacity, specific latent heat, power, and efficiency'
+  why: The expectation asks for explanations of energy, work, power or their units; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+  - 'find_entity.py "efficiency" "الكفاءة" "heat engine" "furnace" "كور": no record on efficiency or heat engines (concept/kafaa is equality in marriage)'
+- code: D3.4
+  text: identify, qualitatively, the relationship between efficiency and thermal energy transfer
+  why: The expectation asks for the relationship between efficiency and thermal energy transfer; the museum holds no record on efficiency or heat transfer.
+  searches:
+  - 'find_entity.py "efficiency" "الكفاءة" "heat engine" "furnace" "كور": no record on efficiency or heat engines (concept/kafaa is equality in marriage)'
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+- code: D3.5
+  text: describe, with reference to force and displacement along the line of force, the conditions that are required for work to be done
+  why: The expectation asks for explanations of energy, work, power or their units; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "work" "power": no record on physical energy, work or power; the hits are concept/work-in-islam (work as labour) and unrelated passages'
+  - 'find_entity.py "efficiency" "الكفاءة" "heat engine" "furnace" "كور": no record on efficiency or heat engines (concept/kafaa is equality in marriage)'
+- code: D3.6
+  text: describe and compare nuclear fission and nuclear fusion
+  why: The expectation concerns nuclear physics (fission, fusion, isotopes, radiation, half-life, a nuclear power plant); the museum holds no record on it.
+  searches:
+  - 'find_entity.py "nuclear" "نووي" "radioactivity" "atom": no record on nuclear physics; the hits are al-Nawawi, whose name matches the Arabic word'
+  - 'find_entity.py "isotope" "ذرة" "atomic" "Democritus" "الجوهر الفرد": only passages about an atom''s weight of pride; no record on atoms or isotopes'
+- code: D3.7
+  text: explain, using the kinetic molecular theory, the energy transfer that occurs during changes of state
+  why: The expectation asks for the kinetic molecular theory of changes of state, or for conduction, convection and radiation; the museum holds no record on heat transfer.
+  searches:
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+  - 'find_entity.py "isotope" "ذرة" "atomic" "Democritus" "الجوهر الفرد": only passages about an atom''s weight of pride; no record on atoms or isotopes'
+- code: D3.8
+  text: distinguish between and provide examples of conduction, convection, and radiation
+  why: The expectation asks for the kinetic molecular theory of changes of state, or for conduction, convection and radiation; the museum holds no record on heat transfer.
+  searches:
+  - 'find_entity.py "heat" "الحرارة" "thermal" "temperature": no record on heat or temperature as physics; the hits are event/hypocrites-discourage-marching-in-the-heat and building/arnavut-pasha-bath-eger (a thermal bath, with no account of energy transfer)'
+  - 'find_entity.py "isotope" "ذرة" "atomic" "Democritus" "الجوهر الفرد": only passages about an atom''s weight of pride; no record on atoms or isotopes'
+- code: D3.9
+  text: identify and describe the structure of common nuclear isotopes […]
+  why: The expectation concerns nuclear physics (fission, fusion, isotopes, radiation, half-life, a nuclear power plant); the museum holds no record on it.
+  searches:
+  - 'find_entity.py "nuclear" "نووي" "radioactivity" "atom": no record on nuclear physics; the hits are al-Nawawi, whose name matches the Arabic word'
+  - 'find_entity.py "isotope" "ذرة" "atomic" "Democritus" "الجوهر الفرد": only passages about an atom''s weight of pride; no record on atoms or isotopes'
+- code: D3.10
+  text: compare the characteristics of […] and safety precautions related to alpha particles, beta particles, and gamma rays
+  why: The expectation concerns nuclear physics (fission, fusion, isotopes, radiation, half-life, a nuclear power plant); the museum holds no record on it.
+  searches:
+  - 'find_entity.py "nuclear" "نووي" "radioactivity" "atom": no record on nuclear physics; the hits are al-Nawawi, whose name matches the Arabic word'
+  - 'find_entity.py "isotope" "ذرة" "atomic" "Democritus" "الجوهر الفرد": only passages about an atom''s weight of pride; no record on atoms or isotopes'
+- code: D3.11
+  text: explain radioactive half-life for a given radioisotope, and describe its applications and their consequences
+  why: The expectation concerns nuclear physics (fission, fusion, isotopes, radiation, half-life, a nuclear power plant); the museum holds no record on it.
+  searches:
+  - 'find_entity.py "nuclear" "نووي" "radioactivity" "atom": no record on nuclear physics; the hits are al-Nawawi, whose name matches the Arabic word'
+  - 'find_entity.py "isotope" "ذرة" "atomic" "Democritus" "الجوهر الفرد": only passages about an atom''s weight of pride; no record on atoms or isotopes'
+- code: D3.12
+  text: explain the energy transformations that occur within a nuclear power plant, with reference to the laws of thermodynamics […]
+  why: The expectation concerns nuclear physics (fission, fusion, isotopes, radiation, half-life, a nuclear power plant); the museum holds no record on it.
+  searches:
+  - 'find_entity.py "nuclear" "نووي" "radioactivity" "atom": no record on nuclear physics; the hits are al-Nawawi, whose name matches the Arabic word'
+  - 'find_entity.py "isotope" "ذرة" "atomic" "Democritus" "الجوهر الفرد": only passages about an atom''s weight of pride; no record on atoms or isotopes'
+- code: E1.1
+  text: analyse how properties of mechanical waves and sound influence the design of structures and technological devices […] [AI, C]
+  why: Both records are about string count, tuning and a whistle driven by displaced air; neither gives a property of sound or waves that shapes a design.
+  searches:
+  - 'invention/ziryab-fifth-string: string count, tuning and plectrum for the oud; the record says it supplies no pitch or acoustic values, so it names no property of sound waves such as frequency'
+  - 'invention/jazari-musical-boat: a whistle sounded by displaced air; the record gives no property of sound or waves that shapes the design'
+- code: E1.2
+  text: analyse the negative impact that mechanical waves and/or sound can have on society and the environment, and assess the effectiveness of a technology intended to reduce this impact [AI, C]
+  why: The expectation asks for the negative impact of waves or sound on society and the environment, and for a technology that reduces it; the museum holds no record that treats either.
+  searches:
+  - 'find_entity.py "mosque acoustics" "صوت المسجد" "loudspeaker" "noise" "ضوضاء": only fatwas on loudspeakers (work/fatwa-aliftaa-jo-a-second-friday-prayer-when-the-loudspeaker-fails, work/fatwa-aliftaa-jo-loudspeakers-for-quran-and-dhikr-in-public-places) and concept/lagh-noise-fiqh; they rule on disturbance, and none treats the physics of sound or a noise-reducing technology'
+  - 'find_entity.py "earthquake" "زلزال" "bridge" "structure vibration": event/earthquake-tsunami-425 and event/aqsa-fatimid-rebuild describe damage and rebuilding, but neither treats waves, vibration or a technology that reduces the damage'
+- code: E2.1
+  text: 'use appropriate terminology related to mechanical waves and sound, including, but not limited to: longitudinal wave, transverse wave, frequency, period, cycle, amplitude, phase, wavelength, velocity, superposition, constructive interference, destructive interference, standing waves, and resonance [C]'
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "wave" "الموجة" "frequency" "resonance" "رنين": only invention/frequency-analysis-al-kindi (letter frequency in cryptanalysis, not wave frequency)'
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+- code: E2.2
+  text: conduct laboratory inquiries or computer simulations involving mechanical waves and their interference […] [PR]
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "wave" "الموجة" "frequency" "resonance" "رنين": only invention/frequency-analysis-al-kindi (letter frequency in cryptanalysis, not wave frequency)'
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+- code: E2.3
+  text: plan and conduct inquiries to determine the speed of waves in a medium […], compare theoretical and empirical values, and account for discrepancies [IP, PR, AI, C]
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "wave" "الموجة" "frequency" "resonance" "رنين": only invention/frequency-analysis-al-kindi (letter frequency in cryptanalysis, not wave frequency)'
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+- code: E2.4
+  text: investigate the relationship between the wavelength, frequency, and speed of a wave, and solve related problems [PR, AI]
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "wave" "الموجة" "frequency" "resonance" "رنين": only invention/frequency-analysis-al-kindi (letter frequency in cryptanalysis, not wave frequency)'
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+- code: E2.5
+  text: analyse the relationship between a moving source of sound and the change in frequency perceived by a stationary observer (i.e., the Doppler effect) [AI]
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "wave" "الموجة" "frequency" "resonance" "رنين": only invention/frequency-analysis-al-kindi (letter frequency in cryptanalysis, not wave frequency)'
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+- code: E2.6
+  text: predict the conditions needed to produce resonance in vibrating objects or air columns […], and test their predictions through inquiry [IP, PR, AI]
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "wave" "الموجة" "frequency" "resonance" "رنين": only invention/frequency-analysis-al-kindi (letter frequency in cryptanalysis, not wave frequency)'
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+- code: E2.7
+  text: analyse the conditions required to produce resonance in vibrating objects and/or in air columns […], and explain how resonance is used in a variety of situations […] [AI, C]
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "wave" "الموجة" "frequency" "resonance" "رنين": only invention/frequency-analysis-al-kindi (letter frequency in cryptanalysis, not wave frequency)'
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+- code: E3.1
+  text: distinguish between longitudinal and transverse waves in different media, and provide examples of both types of waves
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "wave" "الموجة" "frequency" "resonance" "رنين": only invention/frequency-analysis-al-kindi (letter frequency in cryptanalysis, not wave frequency)'
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+- code: E3.2
+  text: explain the components of resonance, and identify the conditions required for resonance to occur in vibrating objects and in various media […]
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "wave" "الموجة" "frequency" "resonance" "رنين": only invention/frequency-analysis-al-kindi (letter frequency in cryptanalysis, not wave frequency)'
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+- code: E3.3
+  text: explain and graphically illustrate the principle of superposition with respect to standing waves and beat frequencies
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "wave" "الموجة" "frequency" "resonance" "رنين": only invention/frequency-analysis-al-kindi (letter frequency in cryptanalysis, not wave frequency)'
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+- code: E3.4
+  text: identify the properties of standing waves, and, for both mechanical and sound waves, explain the conditions required for standing waves to occur
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+  - 'find_entity.py "music theory" "علم الموسيقى" "Kitab al-Musiqa" "musical modes maqam": one real record, work/javahir-al-musiqat-i-muhammadi, a painted manuscript on music and dance; it gives no account of the acoustics of notes or intervals (invention/ziryab-fifth-string is linked in lesson e-1)'
+- code: E3.5
+  text: explain the relationship between the speed of sound in various media and the particle nature of the media […]
+  why: The expectation asks for terminology, inquiries or explanations of the properties of mechanical waves and sound (wave types, interference, resonance, standing waves, the Doppler effect, the speed of sound); the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "sound" "الصوت" "acoustics" "echo" "صدى": no record on the physics of sound; the hits use "sound" for valid or healthy (concept/al-hadith-al-sahih, concept/qalb-salim)'
+  - 'find_entity.py "music theory" "علم الموسيقى" "Kitab al-Musiqa" "musical modes maqam": one real record, work/javahir-al-musiqat-i-muhammadi, a painted manuscript on music and dance; it gives no account of the acoustics of notes or intervals (invention/ziryab-fifth-string is linked in lesson e-1)'
+- code: E3.6
+  text: explain selected natural phenomena […] with reference to the characteristics and properties of waves
+  why: The expectation asks the student to explain natural phenomena such as echolocation with the properties of waves; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "bat" "الخفاش" "echolocation" "animal sound": concept/bat (the bat in al-Damiri) and object/watwat (a painting of a fruit bat) exist; neither mentions echolocation or sound'
+  - 'find_entity.py "ultrasound" "hearing" "السمع" "ear" "الأذن": only fiqh and theology records (concept/udhn-fiqh, concept/asma-al-sami); none on ultrasound or hearing as physics'
+- code: F1.1
+  text: analyse the social and economic impact of technologies related to electromagnetism […] [AI, C]
+  why: The expectation asks the student to analyse the impact of electromagnetic technologies or of electrical energy production; the museum holds no record on either.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "electricity" "الكهرباء" "circuit" "current": no record on electricity; the hits are lessons of another course (course/ca-on-g6-sci-elec-1, -2) and events whose "circuit" is a journey'
+- code: F1.2
+  text: analyse the efficiency and the environmental impact of one type of electrical energy production […], and propose ways to improve the sustainability of electrical energy production [AI, C]
+  why: The expectation asks the student to analyse the impact of electromagnetic technologies or of electrical energy production; the museum holds no record on either.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "circuit" "current": no record on electricity; the hits are lessons of another course (course/ca-on-g6-sci-elec-1, -2) and events whose "circuit" is a journey'
+  - 'find_entity.py "power plant" "محطة توليد" "hydroelectric" "dam" "سد": only ancient dams (building/marib-dam, event/flood-of-al-aram); no record on generating electricity'
+- code: F2.1
+  text: 'use appropriate terminology related to electricity and magnetism, including, but not limited to: direct current, alternating current, conventional current, electron flow, electrical potential difference, electrical resistance, power, energy, step-up transformer, and step-down transformer [C]'
+  why: The expectation concerns electric circuits, current, transformers or the laws of electricity; the museum holds no record on electricity.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "circuit" "current": no record on electricity; the hits are lessons of another course (course/ca-on-g6-sci-elec-1, -2) and events whose "circuit" is a journey'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F2.2
+  text: analyse diagrams of series, parallel, and mixed circuits with reference to Ohm’s law (V = IR) and Kirchhoff’s laws [AI]
+  why: The expectation concerns electric circuits, current, transformers or the laws of electricity; the museum holds no record on electricity.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "circuit" "current": no record on electricity; the hits are lessons of another course (course/ca-on-g6-sci-elec-1, -2) and events whose "circuit" is a journey'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F2.3
+  text: design and build real or computer-simulated mixed direct current (DC) circuits, and explain the circuits with reference to direct current, potential difference, and resistance [PR, C]
+  why: The expectation concerns electric circuits, current, transformers or the laws of electricity; the museum holds no record on electricity.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "circuit" "current": no record on electricity; the hits are lessons of another course (course/ca-on-g6-sci-elec-1, -2) and events whose "circuit" is a journey'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F2.4
+  text: conduct an inquiry to identify the characteristics and properties of magnetic fields […] [PR]
+  why: The expectation concerns magnetic fields, induction, motors, generators, transformers or electrical safety; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F2.5
+  text: investigate, through laboratory inquiry or computer simulation, the magnetic fields produced by an electric current flowing through a long straight conductor and a solenoid […] [PR]
+  why: The expectation concerns magnetic fields, induction, motors, generators, transformers or electrical safety; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F2.6
+  text: solve problems involving energy, power, potential difference, current, and the number of turns in the primary and secondary coils of a transformer [AI]
+  why: The expectation concerns electric circuits, current, transformers or the laws of electricity; the museum holds no record on electricity.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "circuit" "current": no record on electricity; the hits are lessons of another course (course/ca-on-g6-sci-elec-1, -2) and events whose "circuit" is a journey'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F2.7
+  text: investigate electromagnetic induction, and, using Lenz’s law, the law of conservation of energy, and the right-hand rule, explain and illustrate the direction of the electric current induced by a changing magnetic field [PR, AI, C]
+  why: The expectation concerns magnetic fields, induction, motors, generators, transformers or electrical safety; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F2.8
+  text: construct a prototype of a device that uses the principles of electromagnetism […], and test and refine their device [PR, AI]
+  why: The expectation concerns magnetic fields, induction, motors, generators, transformers or electrical safety; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F3.1
+  text: describe the properties of magnetic fields in permanent magnets and electromagnets […]
+  why: The expectation concerns magnetic fields, induction, motors, generators, transformers or electrical safety; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F3.2
+  text: explain, by applying the right-hand rule, the direction of the magnetic field produced when electric current flows through a long straight conductor and through a solenoid
+  why: The expectation concerns magnetic fields, induction, motors, generators, transformers or electrical safety; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F3.3
+  text: distinguish between conventional current and electron flow in relation to the left- and right-hand rules
+  why: The expectation concerns magnetic fields, induction, motors, generators, transformers or electrical safety; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F3.4
+  text: explain Ohm’s law, Kirchhoff’s laws, Oersted’s principle, the motor principle, Faraday’s law, and Lenz’s law in relation to electricity and magnetism
+  why: The expectation concerns electric circuits, current, transformers or the laws of electricity; the museum holds no record on electricity.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "circuit" "current": no record on electricity; the hits are lessons of another course (course/ca-on-g6-sci-elec-1, -2) and events whose "circuit" is a journey'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F3.5
+  text: describe the production and interaction of magnetic fields, using diagrams and the principles of electromagnetism […]
+  why: The expectation concerns magnetic fields, induction, motors, generators, transformers or electrical safety; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F3.6
+  text: explain the operation of an electric motor and a generator, including the roles of their respective components
+  why: The expectation concerns magnetic fields, induction, motors, generators, transformers or electrical safety; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F3.7
+  text: distinguish between alternating current (AC) and direct current, and explain why alternating current is presently used in the transmission of electrical energy
+  why: The expectation concerns electric circuits, current, transformers or the laws of electricity; the museum holds no record on electricity.
+  searches:
+  - 'find_entity.py "electricity" "الكهرباء" "circuit" "current": no record on electricity; the hits are lessons of another course (course/ca-on-g6-sci-elec-1, -2) and events whose "circuit" is a journey'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F3.8
+  text: describe the components of step-up and step-down transformers, and, using concepts and principles related to electric current and magnetic fields, explain the operation of these transformers
+  why: The expectation concerns magnetic fields, induction, motors, generators, transformers or electrical safety; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'
+- code: F3.9
+  text: describe and explain safety precautions […] related to electrical circuits and higher transmission voltages […]
+  why: The expectation concerns magnetic fields, induction, motors, generators, transformers or electrical safety; the museum holds no record that treats them.
+  searches:
+  - 'find_entity.py "magnetism" "المغناطيسية" "compass" "البوصلة" "lodestone": no record on magnetism as physics; the hits are drafting-compass records (media/compass-radomil-modern) and a geometry record; object/sanam-multan (an iron figure said to be held by lodestones) is linked in lesson c-1 only and describes no magnetic field or its properties'
+  - 'find_entity.py "generator" "المولد" "motor" "transformer": no record on generators, motors or transformers (the hits are births, from "mawlid")'

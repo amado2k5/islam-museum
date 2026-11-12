@@ -1,0 +1,68 @@
+id: course/ca-on-g3-science-a-1
+class: course
+kind: lesson
+label:
+  en: Who helped build science and technology?
+  ar: من أسهم في بناء العلوم والتكنولوجيا؟
+  ur: سائنس و ٹیکنالوجی کی تعمیر میں کس کا حصہ ہے؟
+summary:
+  en: Analysing what different communities have contributed to science and technology (A3.3).
+  ar: تحليل ما أسهمت به مجتمعات مختلفة في العلوم والتكنولوجيا (A3.3).
+  ur: مختلف برادریوں نے سائنس و ٹیکنالوجی میں کیا حصہ ڈالا، اس کا تجزیہ (A3.3)۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g3-science-a
+expectations:
+- code: A3.3
+  text:
+    en: analyse contributions to science and technology from various communities
+    ar: حلّل إسهامات المجتمعات المختلفة في العلوم والتكنولوجيا
+    ur: مختلف برادریوں کی سائنس و ٹیکنالوجی میں خدمات کا تجزیہ کریں
+connections:
+- position: before
+  kind: invention
+  title:
+    en: A dark room that tested light
+    ar: غرفة مظلمة تختبر الضوء
+    ur: روشنی کو پرکھنے والا تاریک کمرہ
+  text:
+    en: 'In his Book of Optics, Ibn al-Haytham let the light of the sun, the moon, the stars and a fire into a dark room through a small hole, followed it across the opposite wall, and laid a ruler along its path, finding it straight. The museum records this as an improvement: he did not discover that light passes through a hole, but turned a familiar sight into a repeatable test. What did his test add to what people already saw?'
+    ar: 'في كتاب المناظر أدخل ابن الهيثم ضوء الشمس والقمر والنجوم والنار إلى غرفة مظلمة من ثقب صغير، وتتبّعه على الجدار المقابل، ووضع مسطرة على مساره فوجده مستقيمًا. ويسجّل المتحف ذلك تحسينًا لا اكتشافًا: لم يكتشف ابن الهيثم أن الضوء يمرّ من ثقب، لكنه حوّل مشهدًا مألوفًا إلى اختبار منظّم قابل للإعادة. ماذا أضاف اختباره إلى ما كان الناس يرونه؟'
+    ur: 'اپنی کتاب المناظر میں ابن الہیثم نے سورج، چاند، ستاروں اور آگ کی روشنی ایک چھوٹے سوراخ سے تاریک کمرے میں داخل ہونے دی، سامنے کی دیوار پر اس کا پیچھا کیا اور اس کے راستے پر پیمانہ رکھ کر اسے سیدھا پایا۔ عجائب گھر اسے بہتری کے طور پر درج کرتا ہے، دریافت کے طور پر نہیں: انہوں نے یہ دریافت نہیں کیا کہ روشنی سوراخ سے گزرتی ہے، بلکہ ایک جانے پہچانے منظر کو ترتیب وار، دہرائے جانے والے تجربے میں بدل دیا۔ ان کے تجربے نے اس میں کیا اضافہ کیا جو لوگ پہلے دیکھتے تھے؟'
+  entity: invention/camera-obscura
+  sources:
+  - source/manazir-sabra-1983
+- position: within
+  kind: invention
+  title:
+    en: A word that came from a name
+    ar: كلمة خرجت من اسم
+    ur: ایک نام سے نکلا ہوا لفظ
+  text:
+    en: Muhammad ibn Musa al-Khwarizmi wrote a book in Baghdad on reckoning with nine Indian numerals and a zero, through which the Indian numerals and the decimal system entered the Islamic world. Its Arabic original is lost; a Latin translation survives that opens 'Dixit Algorizmi', 'al-Khwarizmi said', and from his name comes the word 'algorithm'. Whose knowledge travelled in this book, and whose hands carried it on?
+    ar: كتب محمد بن موسى الخوارزمي في بغداد كتابًا عن الحساب بتسعة أرقام هندية وصفر، دخلت به الأرقام الهندية والنظام العشري إلى العالم الإسلامي. أصله العربي مفقود، وتبقى ترجمة لاتينية تبدأ بعبارة «Dixit Algorizmi» أي «قال الخوارزمي»، ومن اسمه جاءت كلمة «الخوارزمية» في لغات العالم. ما المعرفة التي سافرت في هذا الكتاب، وبأيدي من استمرت؟
+    ur: محمد بن موسیٰ الخوارزمی نے بغداد میں نو ہندی اعداد اور صفر کے ساتھ حساب پر ایک کتاب لکھی، جس کے ذریعے ہندی اعداد اور اعشاری نظام اسلامی دنیا میں داخل ہوا۔ اس کا عربی اصل گم ہے؛ ایک لاطینی ترجمہ باقی ہے جو «Dixit Algorizmi» یعنی «الخوارزمی نے کہا» سے شروع ہوتا ہے، اور ان کے نام سے لفظ «الگورتھم» نکلا۔ اس کتاب میں کس کا علم سفر کرتا رہا، اور کن ہاتھوں نے اسے آگے بڑھایا؟
+  entity: invention/algorism
+  sources:
+  - source/tdv-harizmi
+  - source/khwarizmi-jabr-cairo-1939
+- position: after
+  kind: invention
+  title:
+    en: A pump turned by water
+    ar: مضخة يديرها الماء
+    ur: پانی سے چلنے والا پمپ
+  text:
+    en: 'Al-Jazari''s book describes a pump driven by flowing water: a stream turns a wheel and gears, and a pin with a slotted rod turns the rotation into back-and-forth motion of the piston rods. What did he add to machines that already existed?'
+    ar: 'يصف كتاب الجزري مضخة يحرّكها الماء الجاري: يدير التيار دولابًا وتروسًا، ودبوس بقضيب مشقوق يحوّل الدوران إلى حركة ذهاب وإياب في قضيبَي المكبسين. ماذا أضاف إلى آلات كانت موجودة قبله؟'
+    ur: 'الجزری کی کتاب ایک ایسا پمپ بیان کرتی ہے جسے بہتا پانی چلاتا ہے: دھارا ایک پہیے اور دندانے دار پہیوں کو گھماتا ہے، اور شگاف دار سلاخ والی کیل گردش کو پسٹن کی سلاخوں کی آگے پیچھے حرکت میں بدلتی ہے۔ انہوں نے پہلے سے موجود مشینوں میں کیا اضافہ کیا؟'
+  entity: invention/jazari-double-piston-pump
+  sources:
+  - source/tdv-cezeri
+  - source/fstc-jazari-mechanical-genius
+  - source/smg-jazari-double-pump
+order: 1

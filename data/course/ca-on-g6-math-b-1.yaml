@@ -1,0 +1,46 @@
+id: course/ca-on-g6-math-b-1
+class: course
+kind: lesson
+label:
+  en: Tenths, hundredths and equal amounts
+  ar: الأعشار والأجزاء من المئة والمقادير المتساوية
+  ur: دسویں، سوویں حصے اور برابر مقدار
+summary:
+  en: Reading, comparing and ordering decimals to thousandths, and showing that fractions and decimals can name the same amount.
+  ar: قراءة الأعداد العشرية حتى الأجزاء من الألف ومقارنتها وترتيبها، وبيان أن الكسر والعدد العشري قد يدلان على المقدار نفسه.
+  ur: ہزارویں حصوں تک اعشاری اعداد کو پڑھنا، ان کا موازنہ کرنا اور انہیں ترتیب دینا، اور دکھانا کہ کسر اور اعشاری عدد ایک ہی مقدار کا نام ہو سکتے ہیں۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g6-math-b
+expectations:
+- code: B1.4
+  text:
+    en: read, represent, compare, and order decimal numbers up to thousandths, in various contexts
+    ar: اقرأ الأعداد العشرية حتى الأجزاء من الألف ومثّلها وقارن بينها ورتّبها، في سياقات متنوعة
+    ur: اعشاری اعداد کو ہزارویں حصوں تک مختلف سیاق میں پڑھیں، ظاہر کریں، ان کا موازنہ کریں اور انہیں ترتیب دیں
+- code: B1.6
+  text:
+    en: describe relationships and show equivalences among fractions and decimal numbers up to thousandths, using appropriate tools and drawings, in various contexts
+    ar: صِف العلاقات والتكافؤات بين الكسور والأعداد العشرية حتى الأجزاء من الألف وأظهرها، مستخدمًا الأدوات والرسوم المناسبة، في سياقات متنوعة
+    ur: کسور اور ہزارویں حصوں تک اعشاری اعداد کے درمیان رشتے بیان کریں اور برابریاں دکھائیں، مناسب اوزاروں اور خاکوں کے ساتھ، مختلف سیاق میں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: Half of a half, in tenths and hundredths
+    ar: نصف النصف بالأعشار والأجزاء من المئة
+    ur: آدھے کا آدھا، دسویں اور سوویں حصوں میں
+  text:
+    ar: نصف الواحد يمكن أن يكتب خمسة أعشار، ونصف النصف خمسة وعشرين جزءاً من مئة. في كتاب ألّفه أبو الحسن الإقليدسي بدمشق نجد معالجة مبكرة مباشرة لمثل هذه الكسور داخل الحساب الهندي ذي القيمة المكانية. ليست القصة اختراع الأرقام الهندية أو النقطة العشرية الحالية، وبين المؤرخين خلاف في مقدار اكتمال المفهوم. جرّب أن تنصّف عدداً بالأعشار.
+    en: A half can be written as five tenths, and half of that as twenty-five hundredths. In a book composed at Damascus, Abu al-Hasan al-Uqlidisi treats such fractions directly within Indian place-value arithmetic. The record says this is not the invention of the Indian numerals or of today's decimal point, and that historians disagree over how complete his idea was. Try halving a number in tenths.
+    ur: آدھے کو پانچ دسویں حصوں میں لکھ سکتے ہیں اور اس کے آدھے کو پچیس سوویں حصوں میں۔ ابو الحسن الاقلیدسی کی دمشق میں تصنیف کردہ کتاب ہندی مقامی حساب میں ایسے کسور کی ابتدائی براہ راست بحث رکھتی ہے۔ یہ ہندی ہندسوں یا موجودہ اعشاری نقطے کی ایجاد نہیں، اور نظری مفہوم کی تکمیل پر مؤرخین مختلف ہیں۔ کسی عدد کو دسویں حصوں میں آدھا کر کے دیکھیں۔
+  entity: invention/decimal-fractions-al-uqlidisi
+  sources:
+  - source/tdv-oklidisi
+  - source/uqlidisi-saidan-dsb
+  - source/uqlidisi-mactutor
+order: 1

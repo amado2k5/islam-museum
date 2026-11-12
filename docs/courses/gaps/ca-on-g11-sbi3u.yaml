@@ -1,0 +1,392 @@
+course: course/ca-on-g11-sbi3u
+gaps:
+- code: A1.1
+  text: formulate relevant scientific questions about observed relationships, ideas, problems, or issues, make informed predictions, and/or formulate educated hypotheses to focus inquiries or research
+  why: 'skills expectation: names no subject matter'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: select appropriate instruments […] and materials […], and identify appropriate methods, techniques, and procedures, for each inquiry
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.3
+  text: identify and locate a variety of print and electronic sources that enable them to address research topics fully and appropriately
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.4
+  text: apply knowledge and understanding of safe laboratory practices and procedures when planning investigations by correctly interpreting Workplace Hazardous Materials Information System (WHMIS) symbols; by using appropriate techniques for handling and storing laboratory equipment and materials and disposing of laboratory and …
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.5
+  text: conduct inquiries, controlling relevant variables, adapting or extending procedures as required, and using appropriate materials and equipment safely, accurately, and effectively, to collect observations and data
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.6
+  text: compile accurate data from laboratory and other sources, and organize and record the data, using appropriate formats, including tables, flow charts, graphs, and/or diagrams
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.7
+  text: select, organize, and record relevant information on research topics from a variety of appropriate sources, including electronic, print, and/or human sources, using suitable formats and an accepted form of academic documentation
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.8
+  text: synthesize, analyse, interpret, and evaluate qualitative and/or quantitative data to determine whether the evidence supports or refutes the initial prediction or hypothesis and whether it is consistent with scientific theory; identify sources of bias and/or error; and suggest improvements to …
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.9
+  text: analyse the information gathered from research sources for logic, accuracy, reliability, adequacy, and bias
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.10
+  text: draw conclusions based on inquiry results and research findings, and justify their conclusions with reference to scientific knowledge
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.11
+  text: communicate ideas, plans, procedures, results, and conclusions orally, in writing, and/or in electronic presentations, using appropriate language and a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.12
+  text: use appropriate numeric, symbolic, and graphic modes of representation […], and appropriate units of measurement […]
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: A1.13
+  text: express the results of any calculations involving data accurately and precisely, to the appropriate number of decimal places or significant figures
+  why: 'skills expectation: names no subject matter'
+  searches: *id001
+- code: B1.1
+  text: analyse some of the risks and benefits of human intervention […] to the biodiversity of aquatic or terrestrial ecosystems [AI, C]
+  why: The expectation asks for the risks and benefits of human intervention to the biodiversity of ecosystems; the museum holds a record on pollution and one on reserved pasture, neither on biodiversity or interventions such as plantations, pesticides or fire suppression.
+  searches:
+  - 'find_entity.py "pesticide" "monoculture" "forest" "الغابات" "wildfire" "overharvesting" "deforestation" "التشجير": no relevant record (a battle in a forest, a mausoleum)'
+  - 'find_entity.py "hima" "الحمى" "conservation" "protected land" "biodiversity": concept/hima and concept/hima-protected-pasture are legal records on reserved pasture; neither speaks of species or ecosystems'
+  - 'find_entity.py "climate change" "التغير المناخي" "environment" "البيئة" "ecology": concept/environmental-protection-in-islam speaks of the pollution of water, air and soil, not of climate or habitats'
+- code: B1.2
+  text: analyse the impact that climate change might have on the diversity of living things […] [AI, C]
+  why: The expectation is about the effect of climate change on the diversity of living things; the museum holds no record on climate change or habitats.
+  searches:
+  - 'find_entity.py "climate change" "التغير المناخي" "environment" "البيئة" "ecology": concept/environmental-protection-in-islam speaks of the pollution of water, air and soil, not of climate or habitats'
+  - 'find_entity.py "ecological succession" "drought" "flood" "rainfall" "climate" "المناخ" "temperature": records of historical floods and the flood of Noah; none on climate, habitats or succession'
+  - 'find_entity.py "biodiversity" "التنوع الحيوي" "ecosystem" "النظام البيئي" "habitat": only the museum''s own Grade 6 course records (course/ca-on-g6-sci-bio-*), which are not knowledge records'
+- code: B2.1
+  text: 'use appropriate terminology related to biodiversity, including, but not limited to: genetic diversity, species diversity, structural diversity, protists, bacteria, fungi, binomial nomenclature, and morphology [C]'
+  why: The expectation asks for biodiversity terminology (genetic, species and structural diversity, protists, bacteria, fungi, binomial nomenclature, morphology); the museum holds no record that teaches it. invention/ibn-baytar-comparative-materia-medica concerns one plant carrying several names, but it is about drugs and does not teach the terms.
+  searches:
+  - 'find_entity.py "biodiversity" "التنوع الحيوي" "ecosystem" "النظام البيئي" "habitat": only the museum''s own Grade 6 course records (course/ca-on-g6-sci-bio-*), which are not knowledge records'
+  - 'find_entity.py "kingdom" "المملكة" "prokaryote" "eukaryote" "phylogeny" "species" "النوع الحيوي": no record on biological kingdoms or cells (hits are states, films and a legal term for kind)'
+  - 'find_entity.py "bacteria" "virus" "الجراثيم" "الفيروس" "microbe" "fungi" "الفطريات" "protist": no record on microorganisms (one fatwa on a forged vaccination certificate)'
+- code: B2.2
+  text: classify, and draw biological diagrams of, representative organisms from each of the kingdoms according to their unifying and distinguishing anatomical and physiological characteristics […] [PR, AI, C]
+  why: The expectation asks the student to classify organisms of each kingdom and draw them; it is a practical task whose object is the kingdoms, for which the museum holds no record (the animal division of Kitab al-Hayawan is linked in b-1 for B3.3).
+  searches:
+  - 'find_entity.py "kingdom" "المملكة" "prokaryote" "eukaryote" "phylogeny" "species" "النوع الحيوي": no record on biological kingdoms or cells (hits are states, films and a legal term for kind)'
+  - 'find_entity.py "classification" "taxonomy" "التصنيف" "الحيوان" "zoology" "علم الحيوان": work/kitab-al-hayawan (linked in lesson b-1 for B3.3), concept/hayawan-animal (food, slaughter, zakat) and hadith on the sale of animals; no record on taxonomic rank or phylogeny'
+  - 'find_entity.py "bacteria" "virus" "الجراثيم" "الفيروس" "microbe" "fungi" "الفطريات" "protist": no record on microorganisms (one fatwa on a forged vaccination certificate)'
+- code: B2.3
+  text: use proper sampling techniques to collect various organisms from a marsh, pond, field, or other ecosystem, and classify the organisms according to the principles of taxonomy [PR, AI, C]
+  why: 'The expectation is a field task: sampling organisms from an ecosystem and classifying them; the museum holds no record on sampling or the organisms of a marsh or pond.'
+  searches:
+  - 'find_entity.py "biodiversity" "التنوع الحيوي" "ecosystem" "النظام البيئي" "habitat": only the museum''s own Grade 6 course records (course/ca-on-g6-sci-bio-*), which are not knowledge records'
+  - 'find_entity.py "classification" "taxonomy" "التصنيف" "الحيوان" "zoology" "علم الحيوان": work/kitab-al-hayawan (linked in lesson b-1 for B3.3), concept/hayawan-animal (food, slaughter, zakat) and hadith on the sale of animals; no record on taxonomic rank or phylogeny'
+  - 'find_entity.py "kingdom" "المملكة" "prokaryote" "eukaryote" "phylogeny" "species" "النوع الحيوي": no record on biological kingdoms or cells (hits are states, films and a legal term for kind)'
+- code: B2.4
+  text: create and apply a dichotomous key to identify and classify organisms from each of the kingdoms [PR, AI, C]
+  why: The expectation is to create and apply a dichotomous key; a practical skill with no record in the museum to serve it.
+  searches:
+  - 'find_entity.py "classification" "taxonomy" "التصنيف" "الحيوان" "zoology" "علم الحيوان": work/kitab-al-hayawan (linked in lesson b-1 for B3.3), concept/hayawan-animal (food, slaughter, zakat) and hadith on the sale of animals; no record on taxonomic rank or phylogeny'
+  - 'find_entity.py "kingdom" "المملكة" "prokaryote" "eukaryote" "phylogeny" "species" "النوع الحيوي": no record on biological kingdoms or cells (hits are states, films and a legal term for kind)'
+  - 'find_entity.py "plants" "النبات" "botany" "seeds" "بذور" "علم النبات": exhibit/path-botany is a path title; concept/trees-plants and concept/seeds-grain have no prose; the rest are hadith on planting; no record on plant anatomy or physiology'
+- code: B3.1
+  text: explain the fundamental principles of taxonomy and phylogeny by defining concepts of taxonomic rank and relationship, such as genus, species, and taxon
+  why: The expectation asks for the principles of taxonomy and phylogeny (rank, genus, species, taxon); the museum holds no record that sets them out. Kitab al-Hayawan divides the animal world by locomotion and names, which the record does not present as taxonomic rank.
+  searches:
+  - 'find_entity.py "classification" "taxonomy" "التصنيف" "الحيوان" "zoology" "علم الحيوان": work/kitab-al-hayawan (linked in lesson b-1 for B3.3), concept/hayawan-animal (food, slaughter, zakat) and hadith on the sale of animals; no record on taxonomic rank or phylogeny'
+  - 'find_entity.py "kingdom" "المملكة" "prokaryote" "eukaryote" "phylogeny" "species" "النوع الحيوي": no record on biological kingdoms or cells (hits are states, films and a legal term for kind)'
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+- code: B3.2
+  text: compare and contrast the structure and function of different types of prokaryotes, eukaryotes, and viruses […]
+  why: The expectation compares prokaryotes, eukaryotes and viruses by genetic material, metabolism and organelles; the museum holds no record on cells or microorganisms.
+  searches:
+  - 'find_entity.py "kingdom" "المملكة" "prokaryote" "eukaryote" "phylogeny" "species" "النوع الحيوي": no record on biological kingdoms or cells (hits are states, films and a legal term for kind)'
+  - 'find_entity.py "bacteria" "virus" "الجراثيم" "الفيروس" "microbe" "fungi" "الفطريات" "protist": no record on microorganisms (one fatwa on a forged vaccination certificate)'
+  - 'find_entity.py "Mendel" "مندل" "chromosome" "الصبغيات" "allele" "Punnett": only person/milos-mendel and person/mundil-ibn-ali, two unrelated people with no prose'
+- code: B3.4
+  text: explain key structural and functional changes in organisms as they have evolved over time […]
+  why: The expectation is about structural and functional changes in organisms over evolutionary time, from prokaryote to eukaryote and from unicellular organisms to plants; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+  - 'find_entity.py "kingdom" "المملكة" "prokaryote" "eukaryote" "phylogeny" "species" "النوع الحيوي": no record on biological kingdoms or cells (hits are states, films and a legal term for kind)'
+  - 'entity_brief.py work/kitab-al-hayawan --full: the record describes a seven-part book on animals and a division of the animal world, and says nothing about change in species over time; not linked to an evolution expectation'
+- code: B3.5
+  text: explain why biodiversity is important to maintaining viable ecosystems […]
+  why: The expectation asks why biodiversity is needed for viable ecosystems; the museum holds no record on the role of biodiversity in ecosystems.
+  searches:
+  - 'find_entity.py "biodiversity" "التنوع الحيوي" "ecosystem" "النظام البيئي" "habitat": only the museum''s own Grade 6 course records (course/ca-on-g6-sci-bio-*), which are not knowledge records'
+  - 'find_entity.py "hima" "الحمى" "conservation" "protected land" "biodiversity": concept/hima and concept/hima-protected-pasture are legal records on reserved pasture; neither speaks of species or ecosystems'
+  - 'find_entity.py "climate change" "التغير المناخي" "environment" "البيئة" "ecology": concept/environmental-protection-in-islam speaks of the pollution of water, air and soil, not of climate or habitats'
+- code: C1.1
+  text: analyse, on the basis of research, the economic and environmental advantages and disadvantages of an artificial selection technology […] [IP, PR, AI, C]
+  why: The expectation asks for the economic and environmental advantages and disadvantages of an artificial selection technology such as livestock breeding; the museum holds no record on breeding.
+  searches:
+  - 'find_entity.py "horse breeding" "selective breeding" "تربية الخيل" "livestock": concept/livestock has no prose; concept/anam and concept/sacred-livestock-jahiliyya concern rulings and pre-Islamic practice, not breeding'
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+  - 'find_entity.py "agriculture" "الفلاحة" "irrigation" "Green Revolution" "Ibn al-Awwam" "ابن العوام" "Kitab al-Filaha": concept/agriculture-in-islam concerns the law and ethics of land and water, not sustainable practice or plants as such; Ibn Bassal''s record is linked in lesson f-1 for F3.4'
+- code: C1.2
+  text: evaluate the possible impact of an environmental change on natural selection and on the vulnerability of species […] [AI, C]
+  why: The expectation is about the effect of environmental change on natural selection and the vulnerability of species; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "climate change" "التغير المناخي" "environment" "البيئة" "ecology": concept/environmental-protection-in-islam speaks of the pollution of water, air and soil, not of climate or habitats'
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+  - 'find_entity.py "Lyell" "Malthus" "Lamarck" "Darwin" "داروين" "natural selection" "الانتخاب الطبيعي": no real record'
+- code: C2.1
+  text: 'use appropriate terminology related to evolution, including, but not limited to: extinction, natural selection, phylogeny, speciation, niche, mutation, mimicry, adaptation, and survival of the fittest [C]'
+  why: The expectation asks for the vocabulary of evolution (extinction, natural selection, speciation, mutation, adaptation); the museum holds no record that teaches it.
+  searches:
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+  - 'find_entity.py "Lyell" "Malthus" "Lamarck" "Darwin" "داروين" "natural selection" "الانتخاب الطبيعي": no real record'
+  - 'find_entity.py "mutation" "الطفرة" "genetic disorder" "hereditary disease" "مرض وراثي": no real record'
+- code: C2.2
+  text: use a research process to investigate some of the key factors that affect the evolutionary process […] [IP, PR]
+  why: The expectation asks the student to research the factors of the evolutionary process (mutations, selective pressures, stresses); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+  - 'find_entity.py "mutation" "الطفرة" "genetic disorder" "hereditary disease" "مرض وراثي": no real record'
+  - 'find_entity.py "climate change" "التغير المناخي" "environment" "البيئة" "ecology": concept/environmental-protection-in-islam speaks of the pollution of water, air and soil, not of climate or habitats'
+- code: C2.3
+  text: analyse, on the basis of research, and report on the contributions of various scientists to modern theories of evolution […] [IP, PR, AI, C]
+  why: The expectation asks for the contributions of scientists to modern theories of evolution; the museum holds no record of such a scientist, and the record of Kitab al-Hayawan says nothing about evolution.
+  searches:
+  - 'find_entity.py "Lyell" "Malthus" "Lamarck" "Darwin" "داروين" "natural selection" "الانتخاب الطبيعي": no real record'
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+  - 'entity_brief.py work/kitab-al-hayawan --full: the record describes a seven-part book on animals and a division of the animal world, and says nothing about change in species over time; not linked to an evolution expectation'
+- code: C2.4
+  text: investigate, through a case study or computer simulation, the processes of natural selection and artificial selection […], and analyse the different mechanisms by which they occur [PR, AI, C]
+  why: The expectation is a case study or simulation of natural and artificial selection (breeding, antibiotic resistance); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "horse breeding" "selective breeding" "تربية الخيل" "livestock": concept/livestock has no prose; concept/anam and concept/sacred-livestock-jahiliyya concern rulings and pre-Islamic practice, not breeding'
+  - 'find_entity.py "antibiotic" "resistance" "المضادات الحيوية" "vaccination" "التطعيم" "immunology": no record on antibiotics (hits are wartime resistance events and a fatwa on forging a vaccination certificate)'
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+- code: C3.1
+  text: explain the fundamental theory of evolution, using the evolutionary mechanism of natural selection to illustrate the process of biological change over time
+  why: The expectation asks the student to explain the theory of evolution through natural selection. The museum holds one record that touches evolution, a modern writer's view on creation and evolution; it gives no account of the theory or its mechanism, so it is not linked.
+  searches:
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+  - 'find_entity.py "Lyell" "Malthus" "Lamarck" "Darwin" "داروين" "natural selection" "الانتخاب الطبيعي": no real record'
+  - 'entity_brief.py work/kitab-al-hayawan --full: the record describes a seven-part book on animals and a division of the animal world, and says nothing about change in species over time; not linked to an evolution expectation'
+- code: C3.2
+  text: explain the process of adaptation of individual organisms to their environment […]
+  why: The expectation is about the adaptation of individual organisms to their environment, with antibiotic resistance as an example; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+  - 'find_entity.py "antibiotic" "resistance" "المضادات الحيوية" "vaccination" "التطعيم" "immunology": no record on antibiotics (hits are wartime resistance events and a fatwa on forging a vaccination certificate)'
+  - 'find_entity.py "bacteria" "virus" "الجراثيم" "الفيروس" "microbe" "fungi" "الفطريات" "protist": no record on microorganisms (one fatwa on a forged vaccination certificate)'
+- code: C3.3
+  text: define the concept of speciation, and explain the process by which new species are formed
+  why: The expectation asks for the concept of speciation and how new species form; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+  - 'find_entity.py "kingdom" "المملكة" "prokaryote" "eukaryote" "phylogeny" "species" "النوع الحيوي": no record on biological kingdoms or cells (hits are states, films and a legal term for kind)'
+  - 'find_entity.py "Lyell" "Malthus" "Lamarck" "Darwin" "داروين" "natural selection" "الانتخاب الطبيعي": no real record'
+- code: C3.4
+  text: describe some evolutionary mechanisms […], and explain how they affect the evolutionary development and extinction of various species […]
+  why: The expectation asks for the mechanisms of evolution (selection, drift, genetic variation) and their effect on species and extinction; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "Darwin" "داروين" "Lamarck" "evolution" "التطور" "extinction" "species": only question/is-human-evolution-compatible-with-islam, which gives one modern writer''s view on creation and evolution and no account of the theory or its mechanisms; read and not linked'
+  - 'find_entity.py "horse breeding" "selective breeding" "تربية الخيل" "livestock": concept/livestock has no prose; concept/anam and concept/sacred-livestock-jahiliyya concern rulings and pre-Islamic practice, not breeding'
+  - 'find_entity.py "mutation" "الطفرة" "genetic disorder" "hereditary disease" "مرض وراثي": no real record'
+- code: D1.2
+  text: evaluate, on the basis of research, the importance of some recent contributions to knowledge, techniques, and technologies related to genetic processes […] [IP, PR, AI, C]
+  why: The expectation asks for the importance of recent contributions to genetic knowledge and technology (the cystic fibrosis gene, insulin from safflower); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "heredity" "الوراثة" "genetics" "DNA": no record on genetics; the two hits are source records of newspaper articles, one titled DNA'
+  - 'find_entity.py "cloning" "الاستنساخ" "genetic engineering" "genome": one record, work/fatwa-aliftaa-jo-plant-cloning, a religious body''s answer on cloning plant cells (linked in lesson d-1 for D1.1); it defines plant cloning as reproduction without change to genetic content, so it cannot show how a technology increases genetic diversity'
+  - 'find_entity.py "mutation" "الطفرة" "genetic disorder" "hereditary disease" "مرض وراثي": no real record'
+- code: D2.1
+  text: 'use appropriate terminology related to genetic processes, including, but not limited to: haploid, diploid, spindle, synapsis, gamete, zygote, heterozygous, homozygous, allele, plasmid, trisomy, non-disjunction, and somatic cell [C]'
+  why: The expectation asks for the vocabulary of genetic processes (haploid, diploid, gamete, allele, plasmid and others); the museum holds no record that teaches it.
+  searches:
+  - 'find_entity.py "heredity" "الوراثة" "genetics" "DNA": no record on genetics; the two hits are source records of newspaper articles, one titled DNA'
+  - 'find_entity.py "meiosis" "الانقسام المنصف" "cell division" "mitosis" "الانقسام الخلوي": no real record'
+  - 'find_entity.py "Mendel" "مندل" "chromosome" "الصبغيات" "allele" "Punnett": only person/milos-mendel and person/mundil-ibn-ali, two unrelated people with no prose'
+- code: D2.2
+  text: investigate the process of meiosis, using a microscope or similar instrument, or a computer simulation, and draw biological diagrams to help explain the main phases in the process [PR, AI, C]
+  why: The expectation is an investigation of meiosis with a microscope or simulation; the museum holds no record on cell division.
+  searches:
+  - 'find_entity.py "meiosis" "الانقسام المنصف" "cell division" "mitosis" "الانقسام الخلوي": no real record'
+  - 'find_entity.py "heredity" "الوراثة" "genetics" "DNA": no record on genetics; the two hits are source records of newspaper articles, one titled DNA'
+  - 'find_entity.py "Mendel" "مندل" "chromosome" "الصبغيات" "allele" "Punnett": only person/milos-mendel and person/mundil-ibn-ali, two unrelated people with no prose'
+- code: D2.3
+  text: use the Punnett square method to solve basic genetics problems involving monohybrid crosses, incomplete dominance, codominance, dihybrid crosses, and sex-linked genes [PR, AI, C]
+  why: The expectation is to solve genetics problems with Punnett squares; a calculation skill with no record in the museum to serve it.
+  searches:
+  - 'find_entity.py "Mendel" "مندل" "chromosome" "الصبغيات" "allele" "Punnett": only person/milos-mendel and person/mundil-ibn-ali, two unrelated people with no prose'
+  - 'find_entity.py "heredity" "الوراثة" "genetics" "DNA": no record on genetics; the two hits are source records of newspaper articles, one titled DNA'
+  - 'find_entity.py "meiosis" "الانقسام المنصف" "cell division" "mitosis" "الانقسام الخلوي": no real record'
+- code: D2.4
+  text: investigate, through laboratory inquiry or computer simulation, monohybrid and dihybrid crosses, and use the Punnett square method and probability rules to analyse the qualitative and quantitative data and determine the parent genotype [PR, AI, C]
+  why: The expectation is a laboratory inquiry or simulation of monohybrid and dihybrid crosses; the museum holds no record on inheritance.
+  searches:
+  - 'find_entity.py "Mendel" "مندل" "chromosome" "الصبغيات" "allele" "Punnett": only person/milos-mendel and person/mundil-ibn-ali, two unrelated people with no prose'
+  - 'find_entity.py "heredity" "الوراثة" "genetics" "DNA": no record on genetics; the two hits are source records of newspaper articles, one titled DNA'
+  - 'find_entity.py "meiosis" "الانقسام المنصف" "cell division" "mitosis" "الانقسام الخلوي": no real record'
+- code: D3.1
+  text: explain the phases in the process of meiosis in terms of cell division, the movement of chromosomes, and crossing over of genetic material
+  why: The expectation asks for the phases of meiosis and crossing over; the museum holds no record on cell division.
+  searches:
+  - 'find_entity.py "meiosis" "الانقسام المنصف" "cell division" "mitosis" "الانقسام الخلوي": no real record'
+  - 'find_entity.py "Mendel" "مندل" "chromosome" "الصبغيات" "allele" "Punnett": only person/milos-mendel and person/mundil-ibn-ali, two unrelated people with no prose'
+  - 'find_entity.py "heredity" "الوراثة" "genetics" "DNA": no record on genetics; the two hits are source records of newspaper articles, one titled DNA'
+- code: D3.2
+  text: explain the concepts of DNA, genes, chromosomes, alleles, mitosis, and meiosis, and how they account for the transmission of hereditary characteristics according to Mendelian laws of inheritance
+  why: The expectation asks for DNA, genes, chromosomes, alleles, mitosis, meiosis and Mendelian inheritance; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "heredity" "الوراثة" "genetics" "DNA": no record on genetics; the two hits are source records of newspaper articles, one titled DNA'
+  - 'find_entity.py "Mendel" "مندل" "chromosome" "الصبغيات" "allele" "Punnett": only person/milos-mendel and person/mundil-ibn-ali, two unrelated people with no prose'
+  - 'find_entity.py "meiosis" "الانقسام المنصف" "cell division" "mitosis" "الانقسام الخلوي": no real record'
+- code: D3.3
+  text: explain the concepts of genotype, phenotype, dominance, incomplete dominance, codominance, recessiveness, and sex linkage according to Mendelian laws of inheritance
+  why: The expectation asks for genotype, phenotype, dominance and sex linkage under Mendelian laws; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "Mendel" "مندل" "chromosome" "الصبغيات" "allele" "Punnett": only person/milos-mendel and person/mundil-ibn-ali, two unrelated people with no prose'
+  - 'find_entity.py "heredity" "الوراثة" "genetics" "DNA": no record on genetics; the two hits are source records of newspaper articles, one titled DNA'
+  - 'find_entity.py "mutation" "الطفرة" "genetic disorder" "hereditary disease" "مرض وراثي": no real record'
+- code: D3.4
+  text: describe some genetic disorders caused by chromosomal abnormalities […] or other genetic mutations in terms of chromosomes affected, physical effects, and treatments
+  why: The expectation asks for genetic disorders caused by chromosomal abnormality or mutation, with their effects and treatments; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "mutation" "الطفرة" "genetic disorder" "hereditary disease" "مرض وراثي": no real record'
+  - 'find_entity.py "heredity" "الوراثة" "genetics" "DNA": no record on genetics; the two hits are source records of newspaper articles, one titled DNA'
+  - 'find_entity.py "asthma" "الربو" "heart disease" "disease" "الأمراض" "plague": concept/disease (Ibn Sina''s definition of disease) and plague events; none on disorders of the respiratory, digestive or circulatory systems'
+- code: D3.5
+  text: describe some reproductive technologies […], and explain how their use can increase the genetic diversity of a species […]
+  why: The expectation asks for reproductive technologies such as cloning and in vitro fertilization and how they increase genetic diversity; the only record on a related technology (plant cloning, in lesson d-1 for D1.1) says plant cloning reproduces without change to genetic content, and the museum holds nothing on the others.
+  searches:
+  - 'find_entity.py "in vitro fertilization" "أطفال الأنابيب" "IVF" "artificial insemination": no real record'
+  - 'find_entity.py "cloning" "الاستنساخ" "genetic engineering" "genome": one record, work/fatwa-aliftaa-jo-plant-cloning, a religious body''s answer on cloning plant cells (linked in lesson d-1 for D1.1); it defines plant cloning as reproduction without change to genetic content, so it cannot show how a technology increases genetic diversity'
+  - 'find_entity.py "pregnancy" "fertilization" "reproduction" "الإخصاب" "embryo" "الجنين" "embryology" "علم الأجنة": concept/janin and event/angel-blows-spirit-into-fetus are legal and hadith records on the unborn child; none describes a reproductive technology'
+- code: E1.1
+  text: evaluate the importance of various technologies, including Canadian contributions, to our understanding of internal body systems […] [AI, C]
+  why: The expectation asks for the importance of technologies, including Canadian contributions, to the understanding of internal body systems (endoscopes, lasers, imaging). The museum holds no record on such technologies; the two surgical records of al-Zahrawi describe treatments, not ways of understanding the systems, and are not linked.
+  searches:
+  - 'find_entity.py "endoscope" "medical imaging" "التصوير الطبي" "laser surgery" "medical technology" "stethoscope" "blood pressure" "ضغط الدم": one fatwa on fasting with chronic illness; nothing on diagnostic or surgical technology'
+  - 'entity_brief.py invention/zahrawi-mishab and invention/zahrawi-intestinal-suture: both describe treatments (a drill for a urinary stone; thread for closing an internal wound), not technologies that improved understanding of internal systems; read and not linked'
+  - 'find_entity.py "dissection" "تشريح" "anatomy" "human body" "جسم الإنسان": concept/anatomy and work/sharh-tashrih-al-qanun concern the science of anatomy; no record describes a dissection or the relation among the respiratory, circulatory and digestive systems'
+- code: E1.2
+  text: assess how societal needs […] lead to scientific and technological developments related to internal systems […] [AI, C]
+  why: The expectation asks how societal needs lead to developments related to internal systems (healthy food, fitness, organ transplants); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "healthy food" "sedentary" "exercise" "الرياضة" "organ transplant" "نقل الأعضاء": no record (hits are spiritual training and a legal term)'
+  - 'find_entity.py "fiber" "vitamins" "minerals" "food" "الغذاء" "diet" "الحمية": concept/hamiyya-diet is a record of dietary abstention in illness, not of a societal need driving a technology'
+  - 'find_entity.py "endoscope" "medical imaging" "التصوير الطبي" "laser surgery" "medical technology" "stethoscope" "blood pressure" "ضغط الدم": one fatwa on fasting with chronic illness; nothing on diagnostic or surgical technology'
+- code: E2.1
+  text: 'use appropriate terminology related to animal anatomy, including, but not limited to: systolic, diastolic, diffusion gradient, inhalation, exhalation, coronary, cardiac, ulcer, asthma, and constipation [C]'
+  why: The expectation asks for the vocabulary of animal anatomy (systolic, diastolic, inhalation, ulcer, asthma); the museum holds no record that teaches it.
+  searches:
+  - 'find_entity.py "heart" "القلب" "blood" "الدم" "artery" "vein": 111 hits; the one record on the anatomy of the blood''s route is invention/pulmonary-circulation (linked in lesson e-1 for E3.3), the rest are hadith and legal passages on blood money and the like'
+  - 'find_entity.py "respiratory system" "الجهاز التنفسي" "digestive system" "الجهاز الهضمي" "lung": no real record'
+  - 'find_entity.py "asthma" "الربو" "heart disease" "disease" "الأمراض" "plague": concept/disease (Ibn Sina''s definition of disease) and plague events; none on disorders of the respiratory, digestive or circulatory systems'
+- code: E2.2
+  text: perform a laboratory or computer-simulated dissection of a representative animal, or use a mounted anatomical model, to analyse the relationships between the respiratory, circulatory, and digestive systems [PR, AI]
+  why: The expectation is a dissection or model study of the respiratory, circulatory and digestive systems; a practical task with no record in the museum to serve it.
+  searches:
+  - 'find_entity.py "dissection" "تشريح" "anatomy" "human body" "جسم الإنسان": concept/anatomy and work/sharh-tashrih-al-qanun concern the science of anatomy; no record describes a dissection or the relation among the respiratory, circulatory and digestive systems'
+  - 'find_entity.py "respiratory system" "الجهاز التنفسي" "digestive system" "الجهاز الهضمي" "lung": no real record'
+  - 'find_entity.py "heart" "القلب" "blood" "الدم" "artery" "vein": 111 hits; the one record on the anatomy of the blood''s route is invention/pulmonary-circulation (linked in lesson e-1 for E3.3), the rest are hadith and legal passages on blood money and the like'
+- code: E2.3
+  text: use medical equipment […] to monitor the functional responses of the respiratory and circulatory systems to external stimuli […] [PR, AI]
+  why: The expectation is to use medical equipment (stethoscope, sphygmomanometer) to monitor respiratory and circulatory responses; a practical task with no record in the museum to serve it.
+  searches:
+  - 'find_entity.py "endoscope" "medical imaging" "التصوير الطبي" "laser surgery" "medical technology" "stethoscope" "blood pressure" "ضغط الدم": one fatwa on fasting with chronic illness; nothing on diagnostic or surgical technology'
+  - 'find_entity.py "heart" "القلب" "blood" "الدم" "artery" "vein": 111 hits; the one record on the anatomy of the blood''s route is invention/pulmonary-circulation (linked in lesson e-1 for E3.3), the rest are hadith and legal passages on blood money and the like'
+  - 'find_entity.py "respiratory system" "الجهاز التنفسي" "digestive system" "الجهاز الهضمي" "lung": no real record'
+- code: E3.1
+  text: explain the anatomy of the respiratory system and the process of ventilation and gas exchange from the environment to the cell […]
+  why: The expectation asks for the anatomy of the respiratory system, ventilation and gas exchange; the museum holds no record on them (the record linked in e-1 describes the route of the blood through the lungs, not breathing).
+  searches:
+  - 'find_entity.py "respiratory system" "الجهاز التنفسي" "digestive system" "الجهاز الهضمي" "lung": no real record'
+  - 'find_entity.py "heart" "القلب" "blood" "الدم" "artery" "vein": 111 hits; the one record on the anatomy of the blood''s route is invention/pulmonary-circulation (linked in lesson e-1 for E3.3), the rest are hadith and legal passages on blood money and the like'
+  - 'find_entity.py "dissection" "تشريح" "anatomy" "human body" "جسم الإنسان": concept/anatomy and work/sharh-tashrih-al-qanun concern the science of anatomy; no record describes a dissection or the relation among the respiratory, circulatory and digestive systems'
+- code: E3.2
+  text: explain the anatomy of the digestive system and the importance of digestion in providing nutrients needed for energy and growth […]
+  why: The expectation asks for the anatomy of the digestive system and the importance of digestion; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "digestion" "الهضم" "stomach" "المعدة" "nutrition" "التغذية": only concept/mabtun-fiqh, a legal record on death from a stomach ailment'
+  - 'find_entity.py "respiratory system" "الجهاز التنفسي" "digestive system" "الجهاز الهضمي" "lung": no real record'
+  - 'find_entity.py "fiber" "vitamins" "minerals" "food" "الغذاء" "diet" "الحمية": concept/hamiyya-diet is a record of dietary abstention in illness, not of a societal need driving a technology'
+- code: E3.4
+  text: describe some disorders related to the respiratory, digestive, and circulatory systems […]
+  why: The expectation asks for disorders of the respiratory, digestive and circulatory systems; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "asthma" "الربو" "heart disease" "disease" "الأمراض" "plague": concept/disease (Ibn Sina''s definition of disease) and plague events; none on disorders of the respiratory, digestive or circulatory systems'
+  - 'find_entity.py "respiratory system" "الجهاز التنفسي" "digestive system" "الجهاز الهضمي" "lung": no real record'
+  - 'find_entity.py "digestion" "الهضم" "stomach" "المعدة" "nutrition" "التغذية": only concept/mabtun-fiqh, a legal record on death from a stomach ailment'
+- code: F1.1
+  text: evaluate, on the basis of research, the importance of plants to the growth and development of Canadian society […] [IP, PR, AI, C]
+  why: The expectation asks for the importance of plants to the growth and development of Canadian society (food, pharmaceuticals, Aboriginal medicines, building materials); the museum holds no record on Canadian society or its plants.
+  searches:
+  - 'find_entity.py "First Nations" "Indigenous" "Aboriginal" "Inuit" "Canada" "كندا": place/canada has no prose; no record on Canadian plants or peoples'
+  - 'find_entity.py "Ibn al-Baytar" "ابن البيطار" "medicinal plants" "pharmacology" "الصيدلة": person/ibn-al-baytar, invention/ibn-baytar-comparative-materia-medica and work/al-mufradat-ibn-baytar treat the naming and comparison of drugs, not the plants of Canadian society'
+  - 'find_entity.py "plants" "النبات" "botany" "seeds" "بذور" "علم النبات": exhibit/path-botany is a path title; concept/trees-plants and concept/seeds-grain have no prose; the rest are hadith on planting; no record on plant anatomy or physiology'
+- code: F1.2
+  text: evaluate, on the basis of research, ways in which different societies or cultures have used plants to sustain human populations while supporting environmental sustainability […] [IP, PR, AI, C]
+  why: The expectation asks for ways different societies used plants to sustain populations while supporting environmental sustainability; the museum holds records on the law of land and water and on soil, water and crop, neither of which speaks of sustainability.
+  searches:
+  - 'find_entity.py "agriculture" "الفلاحة" "irrigation" "Green Revolution" "Ibn al-Awwam" "ابن العوام" "Kitab al-Filaha": concept/agriculture-in-islam concerns the law and ethics of land and water, not sustainable practice or plants as such; Ibn Bassal''s record is linked in lesson f-1 for F3.4'
+  - 'find_entity.py "First Nations" "Indigenous" "Aboriginal" "Inuit" "Canada" "كندا": place/canada has no prose; no record on Canadian plants or peoples'
+  - 'find_entity.py "plants" "النبات" "botany" "seeds" "بذور" "علم النبات": exhibit/path-botany is a path title; concept/trees-plants and concept/seeds-grain have no prose; the rest are hadith on planting; no record on plant anatomy or physiology'
+- code: F2.1
+  text: 'use appropriate terminology related to plants, including, but not limited to: mesophyll, palisade, aerenchyma, epidermal tissue, stomata, root hair, pistil, stamen, venation, auxin, and gibberellin [C]'
+  why: The expectation asks for plant terminology (mesophyll, stomata, auxin and others); the museum holds no record that teaches it.
+  searches:
+  - 'find_entity.py "xylem" "phloem" "leaf" "stomata" "photosynthesis" "التمثيل الضوئي" "root" "stem": no record on plant tissues (hits are mathematical roots, a hadith on a leaf, gold-leaf glass)'
+  - 'find_entity.py "plants" "النبات" "botany" "seeds" "بذور" "علم النبات": exhibit/path-botany is a path title; concept/trees-plants and concept/seeds-grain have no prose; the rest are hadith on planting; no record on plant anatomy or physiology'
+  - 'find_entity.py "propagation" "seed germination" "cutting" "تطعيم" "غرس" "الغرس" "planting trees": no record on plant propagation (hits are a hadith on reviving land, a battle day and unrelated names)'
+- code: F2.2
+  text: design and conduct an inquiry to determine the factors that affect plant growth […] [IP, PR, AI]
+  why: The expectation is to design and conduct an inquiry on factors affecting plant growth; a practical task with no record in the museum to serve it (Ibn Bassal's record is linked in f-1 for F3.4).
+  searches:
+  - 'find_entity.py "plants" "النبات" "botany" "seeds" "بذور" "علم النبات": exhibit/path-botany is a path title; concept/trees-plants and concept/seeds-grain have no prose; the rest are hadith on planting; no record on plant anatomy or physiology'
+  - 'find_entity.py "agriculture" "الفلاحة" "irrigation" "Green Revolution" "Ibn al-Awwam" "ابن العوام" "Kitab al-Filaha": concept/agriculture-in-islam concerns the law and ethics of land and water, not sustainable practice or plants as such; Ibn Bassal''s record is linked in lesson f-1 for F3.4'
+  - 'find_entity.py "xylem" "phloem" "leaf" "stomata" "photosynthesis" "التمثيل الضوئي" "root" "stem": no record on plant tissues (hits are mathematical roots, a hadith on a leaf, gold-leaf glass)'
+- code: F2.3
+  text: identify, and draw biological diagrams of, the specialized plant tissues in roots, stems, and leaves […], using a microscope and models [PR, AI]
+  why: The expectation is to identify and draw plant tissues of roots, stems and leaves under a microscope; the museum holds no record on plant tissues.
+  searches:
+  - 'find_entity.py "xylem" "phloem" "leaf" "stomata" "photosynthesis" "التمثيل الضوئي" "root" "stem": no record on plant tissues (hits are mathematical roots, a hadith on a leaf, gold-leaf glass)'
+  - 'find_entity.py "plants" "النبات" "botany" "seeds" "بذور" "علم النبات": exhibit/path-botany is a path title; concept/trees-plants and concept/seeds-grain have no prose; the rest are hadith on planting; no record on plant anatomy or physiology'
+  - 'find_entity.py "propagation" "seed germination" "cutting" "تطعيم" "غرس" "الغرس" "planting trees": no record on plant propagation (hits are a hadith on reviving land, a battle day and unrelated names)'
+- code: F2.4
+  text: investigate various techniques of plant propagation […] [PR]
+  why: The expectation is to investigate techniques of plant propagation (cuttings, seed germination); the museum holds no record on propagation.
+  searches:
+  - 'find_entity.py "grafting" "التطعيم" "plant propagation": no real record'
+  - 'find_entity.py "propagation" "seed germination" "cutting" "تطعيم" "غرس" "الغرس" "planting trees": no record on plant propagation (hits are a hadith on reviving land, a battle day and unrelated names)'
+  - 'find_entity.py "plants" "النبات" "botany" "seeds" "بذور" "علم النبات": exhibit/path-botany is a path title; concept/trees-plants and concept/seeds-grain have no prose; the rest are hadith on planting; no record on plant anatomy or physiology'
+- code: F3.1
+  text: describe the structures of the various types of tissues in vascular plants, and explain the mechanisms of transport involved in the processes by which materials are distributed throughout a plant […]
+  why: The expectation asks for vascular plant tissues and transport (transpiration, translocation, osmosis); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "xylem" "phloem" "leaf" "stomata" "photosynthesis" "التمثيل الضوئي" "root" "stem": no record on plant tissues (hits are mathematical roots, a hadith on a leaf, gold-leaf glass)'
+  - 'find_entity.py "plants" "النبات" "botany" "seeds" "بذور" "علم النبات": exhibit/path-botany is a path title; concept/trees-plants and concept/seeds-grain have no prose; the rest are hadith on planting; no record on plant anatomy or physiology'
+  - 'find_entity.py "propagation" "seed germination" "cutting" "تطعيم" "غرس" "الغرس" "planting trees": no record on plant propagation (hits are a hadith on reviving land, a battle day and unrelated names)'
+- code: F3.2
+  text: compare and contrast monocot and dicot plants in terms of their structures […] and their evolutionary processes (i.e., how one type evolved from the other)
+  why: The expectation compares monocot and dicot plants; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "xylem" "phloem" "leaf" "stomata" "photosynthesis" "التمثيل الضوئي" "root" "stem": no record on plant tissues (hits are mathematical roots, a hadith on a leaf, gold-leaf glass)'
+  - 'find_entity.py "plants" "النبات" "botany" "seeds" "بذور" "علم النبات": exhibit/path-botany is a path title; concept/trees-plants and concept/seeds-grain have no prose; the rest are hadith on planting; no record on plant anatomy or physiology'
+  - 'find_entity.py "kingdom" "المملكة" "prokaryote" "eukaryote" "phylogeny" "species" "النوع الحيوي": no record on biological kingdoms or cells (hits are states, films and a legal term for kind)'
+- code: F3.3
+  text: explain the reproductive mechanisms of plants in natural reproduction and artificial propagation […]
+  why: The expectation asks for the reproductive mechanisms of plants in natural reproduction and artificial propagation; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "grafting" "التطعيم" "plant propagation": no real record'
+  - 'find_entity.py "propagation" "seed germination" "cutting" "تطعيم" "غرس" "الغرس" "planting trees": no record on plant propagation (hits are a hadith on reviving land, a battle day and unrelated names)'
+  - 'find_entity.py "plants" "النبات" "botany" "seeds" "بذور" "علم النبات": exhibit/path-botany is a path title; concept/trees-plants and concept/seeds-grain have no prose; the rest are hadith on planting; no record on plant anatomy or physiology'
+- code: F3.5
+  text: explain the process of ecological succession, including the role of plants in maintaining biodiversity and the survival of organisms after a disturbance to an ecosystem
+  why: The expectation asks for ecological succession and the role of plants in biodiversity after a disturbance; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "ecological succession" "drought" "flood" "rainfall" "climate" "المناخ" "temperature": records of historical floods and the flood of Noah; none on climate, habitats or succession'
+  - 'find_entity.py "biodiversity" "التنوع الحيوي" "ecosystem" "النظام البيئي" "habitat": only the museum''s own Grade 6 course records (course/ca-on-g6-sci-bio-*), which are not knowledge records'
+  - 'find_entity.py "plants" "النبات" "botany" "seeds" "بذور" "علم النبات": exhibit/path-botany is a path title; concept/trees-plants and concept/seeds-grain have no prose; the rest are hadith on planting; no record on plant anatomy or physiology'

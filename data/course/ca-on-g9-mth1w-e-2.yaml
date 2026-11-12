@@ -1,0 +1,57 @@
+id: course/ca-on-g9-mth1w-e-2
+class: course
+kind: lesson
+label:
+  ar: تغيير الأبعاد وحجم المخروط
+  en: Changing dimensions, and the volume of a cone
+  ur: پیمائشیں بدلنا اور مخروط کا حجم
+summary:
+  ar: أثر تغيير الأطوال في المساحة، وعلاقة حجم المخروط والهرم بقاعدته وارتفاعه، كما في باب المساحة عند الخوارزمي.
+  en: How changing lengths changes area, and how the volume of a cone or pyramid relates to its base and height, as in al-Khwarizmi's mensuration chapter.
+  ur: لمبائیاں بدلنے کا رقبے پر اثر، اور مخروط یا ہرم کے حجم کا اس کے قاعدے اور بلندی سے تعلق، جیسا خوارزمی کے باب مساحت میں ہے۔
+sources:
+- source/ontario-curriculum-secondary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g9-mth1w-e
+expectations:
+- code: E1.4
+  text:
+    en: show how changing one or more dimensions of a two-dimensional shape and a three-dimensional object affects perimeter/circumference, area, surface area, and volume, using technology when appropriate
+    ar: بيّن كيف يؤثر تغيير بُعد واحد أو أكثر في شكل ثنائي الأبعاد وفي جسم ثلاثي الأبعاد على المحيط أو محيط الدائرة والمساحة والمساحة السطحية والحجم، مستعينًا بالتقنية عند الاقتضاء
+    ur: دکھائیں کہ دو بُعدی شکل اور سہ بُعدی جسم کی ایک یا زیادہ پیمائشیں بدلنے سے احاطہ یا محیطِ دائرہ، رقبہ، سطحی رقبہ اور حجم پر کیا اثر پڑتا ہے، مناسب ہونے پر ٹیکنالوجی کے ساتھ
+- code: E1.6
+  text:
+    en: solve problems using the relationships between the volume of prisms and pyramids and between the volume of cylinders and cones, involving various units of measure
+    ar: حُلَّ مسائل باستعمال العلاقات بين حجم المنشورات والأهرامات وبين حجم الأسطوانات والمخاريط، بوحدات قياس متنوعة
+    ur: منشوروں اور اہراموں کے حجم کے درمیان اور بیلنوں اور مخروطوں کے حجم کے درمیان تعلقات استعمال کر کے مسائل حل کریں، مختلف پیمائشی اکائیوں میں
+connections:
+- position: before
+  kind: invention
+  title:
+    ar: ضعف الضلع وحجم المخروط
+    en: Doubling a side, and the volume of a cone
+    ur: ضلع دگنا کرنا اور مخروط کا حجم
+  text:
+    ar: يقول الخوارزمي في باب المساحة إن المربع المتساوي الأضلاع الذي ضلعه اثنان أربعة أمثال سطح الذراع في الذراع، وإن المربع الذي ضلعه نصف ذراع ربع ذلك السطح. ويقول إن المخروط المحدد الرأس تكسيره ثلث تكسير أسفله في عموده، وإن المخروط المقطوع يُكمل حتى يصير محدداً ثم يُطرح منه ما زيد. ماذا يحدث للمساحة حين يتضاعف الضلع؟
+    en: In his mensuration chapter al-Khwarizmi says that an equal-sided square of side two is four times the area of the cubit-by-cubit square, and a square of side half a cubit is a quarter of it. He gives the volume of a pointed cone or pyramid as a third of its base times its height, and says a truncated one is completed to a point and the added part subtracted. What happens to an area when a side doubles?
+    ur: اپنے باب مساحت میں خوارزمی کہتے ہیں کہ برابر اضلاع کا مربع جس کا ضلع دو ہو، ذراع ضرب ذراع والے رقبے کا چار گنا ہے، اور جس کا ضلع آدھا ذراع ہو وہ اس کا چوتھائی ہے۔ وہ نوکدار مخروط یا ہرم کا حجم اس کے قاعدے کا تہائی ضرب اس کی بلندی بتاتے ہیں، اور کٹے ہوئے کو نوک تک پورا کر کے بڑھایا ہوا حصہ گھٹانے کو کہتے ہیں۔ جب ضلع دگنا ہو تو رقبے کے ساتھ کیا ہوتا ہے؟
+  entity: concept/ilm-al-misaha
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+- position: after
+  kind: invention
+  title:
+    ar: تكبير الأطوال وتكبير المساحة
+    en: Scaling lengths and scaling area
+    ur: لمبائیوں کو بڑا کرنا اور رقبے کا بڑھنا
+  text:
+    ar: في قياس الكاشي لسطح المقرنص يقول السجل إن تكبير كل طول مرتين يكبر المساحة أربعاً، وإن وحدات الشكل والتكبير جزء من صحة الجواب. ماذا يحدث لمساحة شكل لو ضاعفنا ضلعه؟
+    en: On al-Kashi's way of measuring the surface of muqarnas, the record says that doubling every length quadruples the area, and that scale and units are part of the mathematical answer. What would happen to the area of a shape if its side were doubled?
+    ur: مقرنص کی سطح ناپنے کے کاشی کے طریقے پر ریکارڈ کہتا ہے کہ ہر لمبائی کو دگنا کرنے سے رقبہ چار گنا ہو جاتا ہے، اور یہ کہ پیمانہ اور اکائیاں ریاضیاتی جواب کا حصہ ہیں۔ اگر کسی شکل کا ضلع دگنا کر دیا جائے تو اس کے رقبے کا کیا ہوگا؟
+  entity: invention/kashi-muqarnas-mensuration
+  sources:
+  - source/dold-samplonius-muqarnas-1992
+order: 2

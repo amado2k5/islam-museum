@@ -1,0 +1,59 @@
+id: course/ca-on-g8-science-d-1
+class: course
+kind: lesson
+label:
+  en: Pumps with a purpose
+  ar: مضخات لها غرض
+  ur: مقصد والے پمپ
+summary:
+  en: The purpose, input and output of a water-lifting system, and the parts that let it work (D2.2, D2.3).
+  ar: غرض منظومة رفع الماء ومدخلها ومخرجها، والأجزاء التي تتيح لها العمل، التوقعان D2.2 وD2.3.
+  ur: پانی اٹھانے والے نظام کا مقصد، اس کا ان پٹ اور آؤٹ پٹ، اور وہ پرزے جو اسے کام کرنے دیتے ہیں، توقعات D2.2 اور D2.3۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g8-science-d
+expectations:
+- code: D2.2
+  text:
+    en: describe the purpose, inputs, and outputs of various systems, including systems related to food processing
+    ar: صِف الغرض من منظومات متنوعة ومدخلاتها ومخرجاتها، ومنها منظومات تتصل بتصنيع الغذاء
+    ur: مختلف نظاموں کا مقصد، ان کے ان پٹ اور آؤٹ پٹ بیان کریں، بشمول خوراک کی پروسیسنگ سے متعلق نظام
+- code: D2.3
+  text:
+    en: identify the various processes and components of a system that allow it to perform its function efficiently and safely
+    ar: حدِّد العمليات والمكوّنات المختلفة في المنظومة التي تتيح لها أداء وظيفتها بكفاءة وأمان
+    ur: نظام کے وہ مختلف عمل اور اجزا بتائیں جو اسے اپنا کام مؤثر اور محفوظ طریقے سے انجام دینے دیتے ہیں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A pump driven by a stream
+    ar: مضخة يديرها تيار
+    ur: بہتے پانی سے چلنے والا پمپ
+  text:
+    en: The record describes a pump in al-Jazari's book that is powered by flowing water, not by a person lifting a bucket. According to the TDV encyclopedia, the drive passes from the wheel to two gears, then to the rod and the arms of the pistons, and rotation becomes back-and-forth motion in the piston rods. The record stresses that the contribution is this arrangement, not the invention of lifting water. What is the input, and what is the output?
+    ar: يصف السجل مضخة في كتاب الجزري يحرّكها الماء الجاري، لا دلوًا يرفعه شخص بيده. وفي شرح TDV تنتقل القوة من الدولاب إلى ترسين ثم إلى القضيب وأذرع المكبسين، وتتحول حركة الدوران إلى ذهاب وإياب في ذراعي المكبسين. ويؤكد السجل أن الإسهام هذا الترتيب لا اختراع رفع الماء كله. ما المدخل وما المخرج؟
+    ur: ریکارڈ جزری کی کتاب میں ایک ایسے پمپ کا بیان کرتا ہے جو بہتے پانی سے چلتا ہے، نہ کہ کسی شخص کے ہاتھ سے ڈول اٹھانے سے۔ ٹی ڈی وی انسائیکلوپیڈیا کے مطابق قوت پہیے سے دو دندانے دار پہیوں تک، پھر ڈنڈے اور پسٹنوں کے بازوؤں تک پہنچتی ہے، اور گردش پسٹنوں کے بازوؤں کی آگے پیچھے حرکت میں بدل جاتی ہے۔ ریکارڈ زور دیتا ہے کہ خدمت یہ ترتیب ہے، پانی اٹھانے کی ایجاد نہیں۔ ان پٹ کیا ہے اور آؤٹ پٹ کیا؟
+  entity: invention/jazari-double-piston-pump
+  sources:
+  - source/tdv-cezeri
+  - source/smg-jazari-double-pump
+- position: after
+  kind: invention
+  title:
+    en: Six pistons, one outlet
+    ar: ست مكابس ومخرج واحد
+    ur: چھ پسٹن اور ایک ہی نکاس
+  text:
+    en: In al-Turuq al-saniyya, as the record reads it, Taqi al-Din ibn Maruf described six tubes with pistons, weights and valves, moved by projections around a shaft and joined to a shared outlet, so that water is delivered in succession rather than in one piston's pulse. A cam raises each piston through a rocker and a weight drives it down, and the valves let water pass one way only. The record notes that no evidence of historical manufacture is known. Which part stops the water going back?
+    ar: يذكر السجل أن تقي الدين بن معروف وصف في «الطرق السنية» ست قصبات بمكابس وأثقال وصمامات، تحركها نتوءات موزعة على محور وتتجمع مخارجها في أنبوب واحد، ليتعاقب رفع الماء بدلًا من دفعة مكبس واحد. فالكامة ترفع المكبس عبر الذراع ثم يدفعه ثقل إلى أسفل، وتسمح الصمامات بمرور الماء في اتجاه واحد. ويقرر السجل أن الدراسة الهندسية الحديثة لا تملك دليلًا على صنع الآلة تاريخيًا. أي جزء يمنع رجوع الماء؟
+    ur: ریکارڈ کے مطابق تقی الدین بن معروف نے «الطرق السنیہ» میں پسٹنوں، وزنوں اور والووں والی چھ نالیاں بیان کیں، جو محور کے گرد پھیلے ابھاروں سے چلتی ہیں اور ایک مشترک نکاس سے جڑی ہیں، تاکہ پانی ایک پسٹن کی ایک دھڑکن کے بجائے باری باری پہنچے۔ ایک کیم ہر پسٹن کو ایک بازو کے ذریعے اوپر اٹھاتا ہے اور ایک وزن اسے نیچے دھکیلتا ہے، اور والو پانی کو صرف ایک سمت گزرنے دیتے ہیں۔ ریکارڈ بتاتا ہے کہ جدید انجینئری مطالعے کے پاس اس مشین کے تاریخی طور پر بننے کا کوئی ثبوت نہیں۔ کون سا پرزہ پانی کو واپس جانے سے روکتا ہے؟
+  entity: invention/taqi-six-cylinder-pump
+  sources:
+  - source/taqi-turuq-hasan-1976
+  - source/cabeza-pump-2021
+order: 1
