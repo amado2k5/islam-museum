@@ -646,3 +646,18 @@
 - 190–199: Sahl ibn Abd Allah al-Tustari's sayings (on the three ways of worship, the signs of certainty, Adam and the companions of God, intention, and the people of the world who love what God hates), with a dialogue with Adam at 194.
 
 Note: the chapter note does not name any subject for these stories; the chains are given where the text gives them, and the sayings of Sahl al-Tustari at 190–199 are attributed by the text itself.
+
+## Batch 81 (run microsd-books-b81, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 302–305 (full text read before writing). New draft: person/ahmad-ibn-muhammad-ibn-ata (printed 575, sequence 576, 10/302–305). Ibn Ata is not an existing person record (the existing names with "ibn-ata" are other people: Ibn Ata Allah, Wasil ibn Ata). The notice ends at the top of page 305, where a separate "قال الشيخ" passage on a group of Baghdad scholars begins; that passage is not part of 575.
+- Qur'an text is never typed: the verse on those whose sides forsake their beds is referred to by sense only. Traditions are described by their transmitters, not quoted. Honorific forms are omitted.
+- Held: printed 532 (Abd Allah ibn Dinar al-Ju'fi) stays held; printed 546 is held with the chapter note.
+- Numbering: the printed series remains one behind the sequence (575 printed = 576 sequence); kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 81)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 575 (printed) | 304 | the words of the verses on glory and patience | several words unclear in the scan | not given |
+| 575 (printed) | 302–305 | the traditions on connected chains | the wording is a quoted report; not typed | described by transmitter only |
+| 575 (printed) | 304 | the Qur'an verse on those whose sides forsake their beds | the Qur'an text is never typed | referred to by sense |
+| 575 (printed) | 305 | the "قال الشيخ" passage on Baghdad scholars | a separate passage, not part of 575 | excluded from this record; its own notice, if any, is for a later batch |
