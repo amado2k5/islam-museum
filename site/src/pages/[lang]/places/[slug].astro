@@ -62,20 +62,9 @@ const report = (p: any) => ({
   summaryLang: (p.data.summary?.[lang] ?? p.data.summary?.ar) ? (p.data.summary?.[lang] ? lang : "ar") : lang,
 });
 const workLabel = (p: any) => (p.data.work ? labelOf(byId.get(p.data.work as string) ?? p, lang) : "");
-const reportBlock = (id: string, list: any[]) => (
-  <section aria-labelledby={id} style="margin-top:1.6rem">
-    <h2 id={id}>{N.corpora[id.replace(/^pc-/, "")]?.title ?? id} · {list.length}</h2>
-    <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;gap:12px">
-      {list.map((p) => { const h = report(p); return (
-        <li class="panel" style="padding:14px 16px">
-          <p style="margin:0;font-weight:600"><a href={h.href}>{h.label}</a></p>
-          <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">{workLabel(p)}{p.data.ref ? ` · ${p.data.ref}` : ""}</p>
-          {h.summary && <p class="muted" lang={h.summaryLang} style="margin:.4rem 0 0">{h.summary}</p>}
-        </li>
-      ); })}
-    </ol>
-  </section>
-);
+const reportSections = (["sunnah", "seerah", "books"] as const)
+  .map((k) => ({ id: `pc-${k}`, key: k, list: corpus[k] as any[] }))
+  .filter((s) => s.list.length > 0);
 const desc = stripNeedsSource(summaryRaw(n, lang)).replace(/\{cite:[^}]*\}/g, "").replace(/\[\[([a-z]+\/[a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_m, _id, c) => c ?? "").slice(0, 240);
 ---
 <BaseLayout lang={lang} title={title} description={desc} path={`/${lang}/places/${(item.node.slug ?? n.id.split("/")[1])}/`}>
@@ -104,9 +93,20 @@ const desc = stripNeedsSource(summaryRaw(n, lang)).replace(/\{cite:[^}]*\}/g, ""
       </section>
     )}
 
-    {corpus.sunnah.length > 0 && reportBlock("pc-sunnah", corpus.sunnah)}
-    {corpus.seerah.length > 0 && reportBlock("pc-seerah", corpus.seerah)}
-    {corpus.books.length > 0 && reportBlock("pc-books", corpus.books)}
+    {reportSections.map((sec) => (
+      <section aria-labelledby={sec.id} style="margin-top:1.6rem">
+        <h2 id={sec.id}>{N.corpora[sec.key]?.title ?? sec.id} · {sec.list.length}</h2>
+        <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;gap:12px">
+          {sec.list.map((p) => { const h = report(p); return (
+            <li class="panel" style="padding:14px 16px">
+              <p style="margin:0;font-weight:600"><a href={h.href}>{h.label}</a></p>
+              <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">{workLabel(p)}{p.data.ref ? ` · ${p.data.ref}` : ""}</p>
+              {h.summary && <p class="muted" lang={h.summaryLang} style="margin:.4rem 0 0">{h.summary}</p>}
+            </li>
+          ); })}
+        </ol>
+      </section>
+    ))}
 
     {citeList.length > 0 && (
       <section class="sec ui" aria-labelledby="psrc" style="margin-top:1.6rem">
