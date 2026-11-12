@@ -788,3 +788,17 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 668 (printed) | 391 | the end of the saying on sincerity | the scan breaks off after "والإخلاص اليقين" | the record says the scan breaks off; no continuation is supplied |
 | 668 (printed) | 391 | "ورحان" (the two kinds of scrupulousness) | the scan has "ورحان" for "ورعان" | read as "ورعان" (two kinds) |
+
+## Batch 91 (run microsd-books-b91, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 392 (full text read before writing). New draft: person/abd-allah-ibn-khalid-judge (printed 669, sequence 670, 10/392). The record is keyed "-judge" because the bare name is shared with other people in the museum; the notice itself gives only "عبد الله بن خالد". No existing record of this man.
+- Printed 670 (Raja' ibn Suhayb, "أبو غسان" of Jurwan, on 392) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 91)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 669 (printed) | 392 | the chain's name "عبد الله بن "خالد" | the quotation mark is a scan artefact | given as Abd Allah ibn Khalid |
+| 669 (printed) | 392 | the words of the condemned man and of the judge | garbled in the scan ("حدا بترس"; "قاض خاكس بسر") | not given; described as unclear |
+| 669 (printed) | 392 | "فلم يربعده" | read as "فلم يبعده" (he was not sent away) | rendered as he was sent to the frontier one day |
