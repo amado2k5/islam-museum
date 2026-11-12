@@ -133,3 +133,18 @@
 
 ## Batch 32 (run microsd-books-b40, Claude Code / claude-fable-5-2)
 - Pages read: vol. 10 pp. 101–110. Enriched `person/al-harith-al-muhasibi` (465, complete at 10/110). Notice 466 (Ali al-Jurjani) begins on 10/110 and is not part of this entry. Qur'anic verses cited on 10/102–103 and 10/105 are referred to, not quoted. The text says "four stations" for reckoning and names three; the entry states only the three named.
+
+## Batch 33 (run microsd-books-b41, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 110–112 (notice 466 in full; notice 467 on page 112). New drafts: `person/ali-al-jurjani-al-mutaabbid` (466, 10/110–112; distinct from `person/al-sharif-al-jurjani-ali-ibn-muhammad` and `person/al-jurjani-ali-ibn-abd-al-aziz`, decision dec-20261112-264), `person/abu-hashim-fadim` (467, 10/112). Notice 468 (Sharih ibn Yunus) begins on 10/113 and is next.
+- Notice order: 466 and 467 done before 469 (per the coordinator's instruction).
+- Engine run note: the batch run also processed another lane's inbox question (omar-abdelkafy, Assabile lecture series); its generated record was removed from the working tree and not committed; that question remains in the inbox for its owner.
+
+## Exclusions and garbled readings (batch 41)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 466 | 112 | first word of the list of God's gifts | smudged in the scan | read as likely "تعظيم" and flagged in the prose |
+| 466 | 111 | a place-name in Ali's instruction on where to live | garbled in the scan | omitted; not transcribed |
+| 466 | 111 | the closing clause "I do not know whether he entered the sea" | unclear in the scan | omitted |
+| 466 | 110–112 | Qur'anic verses cited | Qur'an text never typed | referred to only |
+| 467 | 112 | the chain of the Bedouin anecdote | the name of the narrator's father is not clear in the scan | described as "his father", no name given |
