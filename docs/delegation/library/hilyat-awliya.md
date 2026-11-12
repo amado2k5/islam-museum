@@ -661,3 +661,16 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 575 (printed) | 302–305 | the traditions on connected chains | the wording is a quoted report; not typed | described by transmitter only |
 | 575 (printed) | 304 | the Qur'an verse on those whose sides forsake their beds | the Qur'an text is never typed | referred to by sense |
 | 575 (printed) | 305 | the "قال الشيخ" passage on Baghdad scholars | a separate passage, not part of 575 | excluded from this record; its own notice, if any, is for a later batch |
+
+## Batch 82 (run microsd-books-b82, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 366 (full text read before writing). New draft: person/said-ibn-abd-al-aziz-al-halabi (printed 645, sequence 646, 10/366). Kept apart from the existing records, as directed: person/said-ibn-abd-al-aziz-al-tanukhi is a Damascus jurist (d. 166 AH) with a Tanukh nisba and is not the same person; person/said-ibn-abd-al-aziz is a different man (the governor of Khurasan). No merge.
+- The report is described, not quoted; no honorific is typed.
+- Next: printed 646 (Abu Bakr al-Shibli) begins on 10/366; 661 onward follows in vol. 10.
+- Held: printed 532 and printed 546 stay held.
+
+## Exclusions and garbled readings (batch 82)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 645 (printed) | 366 | the chain's cut name "عبد المزيز بن مروان" | legible | given as read |
+| 645 (printed) | 366 | the hadith's wording | a quoted report with an honorific | described; not typed |
