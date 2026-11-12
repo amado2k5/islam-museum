@@ -754,3 +754,19 @@ Next step: episode 16.
 | Verse wording (the Bedouin's poem, the verse on sorrows relieved, the verse on the toothstick) | ep14 00:19:00–00:21:30; ep15 00:29:00 | Verbatim verse, partly garbled; given by sense | Sources policy; clarity | Open |
 | Hadith wording | ep14 00:25:00; ep15 00:14:00, 00:21:30 | Wording not typed; reported by sense only | Hadith rule | Open |
 | Calls on magic, possession and a medical suspicion | ep15 00:42:00–00:43:00 | Fragmentary; the lecturer's short answer only is summarised | Clarity | Open |
+
+### albuyout-alamena, episodes 16–17 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-8)
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep16–ep17 (raising sons and daughters, rebuilding trust; differences between man and woman, upbringing, extravagance) | about 49 min, 45 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 14 points | 14 new `about` edges (al-Tabari, Ibn al-Jawzi, Jafar ibn Abi Talib, Fatima bint Asad, Usama, Hanzala, Mu'ta, Badr, al-israf, time-as-resource, passages 11:42-43) | ep16 7, ep17 6 points; engine qwen3-asr pass5, 30 s windows | 8 needs_source: ep16 the mothers-and-genius inference (00:04:00), Ja'far and Fatima bint Asad (00:08:30), ages and counts (00:16:30), al-Tabari and Ibn al-Jawzi tales (00:23:00), call details (00:32:30); ep17 the alleged experiment (00:01:30), the 98 per cent figure (00:20:00), the funeral accounts (00:37:30) | run omar-abdelkafy-albuyout-8 |
+
+Next step: episode 18. Sensitivity: ep16 and ep17 carry sweeping generalisations about men, women and mothers' work; all are recorded as the lecturer's own.
+
+| Excluded (albuyout-alamena ep16–ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep16 00:00:00–00:01:00, 00:15:30–00:16:00, 00:31:30–00:32:00, 00:48:00–00:48:30; ep17 00:00:00–00:01:30, 00:14:30–00:15:00, 00:29:30–00:30:00, 00:44:30–00:45:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep16 00:44:00; ep17 00:02:30, 00:09:30, 00:16:30, 00:17:00, 00:29:30, 00:35:00, 00:22:30 | Not speech | Loop check | Open |
+| Calls and answers too garbled to read | ep16 00:35:00–00:44:00 (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Poetry and hadith wording | ep16 00:04:30; ep17 00:08:30, 00:12:30 | Wording not typed; by sense only | Hadith rule | Open |
+| Fiqh questions the lecturer refers elsewhere (a skin condition and ablution, a fasting rule, a will on a house) | ep16 00:44:00 | Referred to fatwa programmes | Scope | Open |
