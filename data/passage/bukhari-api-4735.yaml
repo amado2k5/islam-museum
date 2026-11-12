@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4735
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4735"
+label: { ar: "صحيح البخاري 4735 — كتاب الأعمال والملائكة الكاتبون", en: "Sahih al-Bukhari 4735 — the record of deeds and the recording angels", ur: "صحیح بخاری 4735 — نامۂ اعمال اور لکھنے والے فرشتے" }
+text: "… قُلْتُ لَنْ أَكْفُرَ بِهِ حَتَّى تَمُوتَ ثُمَّ تُبْعَثَ. قَالَ وَإِنِّي لَمَبْعُوثٌ مِنْ بَعْدِ الْمَوْتِ فَسَوْفَ أَقْضِيكَ إِذَا رَجَعْتُ إِلَى مَالٍ وَوَلَدٍ. قَالَ فَنَزَلَتْ {أَفَرَأَيْتَ الَّذِي كَفَرَ بِآيَاتِنَا وَقَالَ لأُوتَيَنَّ مَالاً وَوَلَدًا * أَطَّلَعَ الْغَيْبَ أَمِ اتَّخَذَ عِنْدَ الرَّحْمَنِ عَهْدًا * كَلاَّ سَنَكْتُبُ مَا يَقُولُ وَنَمُدُّ لَهُ مِنَ الْعَذَابِ مَدًّا * وَنَرِثُهُ مَا يَقُولُ وَيَأْتِينَا فَرْدًا}."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4735، يذكر كتاب الأعمال والملائكة الكاتبون. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 4735 (Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))), that speaks of the record of deeds and the recording angels. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 4735، جس میں نامۂ اعمال اور لکھنے والے فرشتے کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4735 (book 65 hadith 257); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

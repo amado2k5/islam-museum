@@ -219,6 +219,59 @@
         }
       }
     },
+    "reckoning": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "effect",
+        "unit",
+        "basis"
+      ],
+      "properties": {
+        "effect": {
+          "enum": [
+            "hasanat",
+            "sayyiat",
+            "erasure",
+            "scale"
+          ]
+        },
+        "hasanat": {
+          "type": "number"
+        },
+        "hasanat_max": {
+          "type": "number"
+        },
+        "sayyiat": {
+          "type": "number"
+        },
+        "erased": {
+          "type": "number"
+        },
+        "degrees": {
+          "type": "number"
+        },
+        "unbounded": {
+          "type": "boolean"
+        },
+        "times": {
+          "type": "integer"
+        },
+        "unit": {
+          "$ref": "_base.schema.json#/$defs/localized"
+        },
+        "result": {
+          "$ref": "_base.schema.json#/$defs/localized"
+        },
+        "basis": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          }
+        }
+      }
+    },
     "inventions": {
       "type": "array",
       "items": {

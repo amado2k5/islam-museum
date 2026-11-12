@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-926
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "926"
+label: { ar: "سنن ابن ماجه 926 — الميزان", en: "Sunan Ibn Majah 926 — the Scale", ur: "سنن ابن ماجہ 926 — میزان" }
+text: "… وَيَحْمَدُهُ عَشْرًا \". فَرَأَيْتُ رَسُولَ اللَّهِ ـ يَعْقِدُهَا بِيَدِهِ \" فَذَلِكَ خَمْسُونَ وَمِائَةٌ بِاللِّسَانِ، وَأَلْفٌ وَخَمْسُمِائَةٍ فِي الْمِيزَانِ، وَإِذَا أَوَى إِلَى فِرَاشِهِ سَبَّحَ وَحَمِدَ وَكَبَّرَ مِائَةً، فَتِلْكَ مِائَةٌ بِاللِّسَانِ، وَأَلْفٌ فِي الْمِيزَانِ، فَأَيُّكُمْ يَعْمَلُ فِي الْيَوْمِ أَلْفَيْنِ وَخَمْسَمِائَةِ سَيِّئَةٍ \". قَالُوا: وَكَيْفَ لاَ يُحْصِيهِمَا قَالَ \" يَأْتِي أَحَدَكُمُ الشَّيْطَانُ، وَهُوَ فِي الصَّلاَةِ، فَيَقُولُ: اذْكُرْ كَذَا …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 926، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 926 (Establishing the Prayer and the Sunnah Regarding Them), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 926، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 926 (book 5 hadith 124); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

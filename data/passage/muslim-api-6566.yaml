@@ -1,0 +1,17 @@
+id: passage/muslim-api-6566
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6566"
+label: { ar: "صحيح مسلم 6566 — محو السيئات وحط الخطايا", en: "Sahih Muslim 6566 — bad deeds erased and sins shed", ur: "صحیح مسلم 6566 — برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "حَدَّثَنَا أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي مَالِكُ بْنُ أَنَسٍ، عَنْ يَزِيدَ بْنِ خُصَيْفَةَ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، زَوْجِ النَّبِيِّ أَنَّ رَسُولَ اللَّهِ قَالَ \" لاَ يُصِيبُ الْمُؤْمِنَ مِنْ مُصِيبَةٍ حَتَّى الشَّوْكَةِ إِلاَّ قُصَّ بِهَا مِنْ خَطَايَاهُ أَوْ كُفِّرَ بِهَا مِنْ خَطَايَاهُ \". لاَ يَدْرِي يَزِيدُ أَيَّتُهُمَا قَالَ عُرْوَةُ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6566، يذكر محو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 6566 (The Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship), that speaks of bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 6566، جس میں برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6566 (book 45 hadith 64); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

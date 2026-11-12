@@ -1,11 +1,38 @@
 ---
 id: polity/timurid-empire
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
-The Timurid empire, founded in 1370 CE and ended in 1507 CE. {cite:wikidata}
+The Timurids were a dynasty of Persia and Central Asia that ruled from 771/1370 to 913/1507. Its founder, [[person/timur-lang|Timur]], rose to power inside the Ulus Chaghatay, a tribal confederation covering [[place/transoxiana|Transoxiana]] and much of north-eastern Afghanistan. That confederation was led by a Turco-Mongol military aristocracy, faithful to Mongol traditions but Muslim and living close to the settled population. The dynasty's capitals were [[place/samarqand|Samarqand]] and later [[place/harat|Herat]]. {cite:encyclopaedia-of-islam-2 vol. 10 p. 538} {cite:encyclopaedia-of-islam-2 vol. 10 p. 539}
 
-## Dating
-The two dates come from Wikidata alone, and a second source is needed before relying on them. The state belongs to the post-Mongol age, according to the museum's classification. {cite:wikidata}
+## Timur's conquests
+Timur took the leadership on 12 Ramadan 771/9 April 1370 and spent his first years campaigning against [[place/khwarizm|Khwarazm]] and his eastern neighbours. He set [[person/toqtamish-khan|Tokhtamish]] on a steppe throne north of the Syr Darya; Tokhtamish soon took over the [[polity/golden-horde|Golden Horde]] and contested power with him until his defeat on the Kondurcha river in 793/1391. Timur began campaigning in Persia in 782/1380-1 and completed its conquest in 795/1393. In his campaigns to [[event/timur-delhi-801|India in 800-1/1398-9]], Syria in 803/1400-1 and [[event/battle-ankara-804|Anatolia in 804/1402]] he won overlordship but set up no administration. In Persia he created a regular government; in Arab Iraq and [[place/azerbaijan|Azerbaijan]] he tried to, but his hold stayed insecure. {cite:encyclopaedia-of-islam-2 vol. 10 p. 538}
+
+He ruled through a puppet khan of the line of Chinggis Khan and took wives of that line for himself and several sons, which gave him the title of royal son-in-law. At the same time he patronised Islamic institutions and scholars. {cite:encyclopaedia-of-islam-2 vol. 10 p. 538}
+
+## Shah Rukh
+Timur left his realm divided into four parts, each under the family of one of his sons. His death on the eve of 17 Sha'ban 807/18 February 1405 set off a struggle for the supreme power and others within each region. Khwarazm went back to the Golden Horde, and Azerbaijan fell to the Turkmen [[polity/qara-qoyunlu|Qara Qoyunlu]] in 810/1408. The victor was Timur's fourth son [[person/shah-rukh|Shah Rukh]], governor of [[place/khorasan|Khurasan]], who took Transoxiana from a nephew and installed his own son [[person/ulugh-beg|Ulugh Beg]] at Samarqand on 27 Dhu al-Hijja 811/13 May 1409. He retook Khwarazm in 815/1413 and asserted control over [[place/fars|Fars]] in 817/1414 and 818/1415. He wrested Azerbaijan from the Qara Qoyunlu in 823/1420, but found it, as Timur had, easier to conquer than to hold, and after two more expeditions settled for vassals of his own choosing. {cite:encyclopaedia-of-islam-2 vol. 10 p. 538}
+
+For a time Shah Rukh held Timur's domain and kept a formal overlordship over the Ottomans and the sultans of Delhi, Bengal and Malwa. After Ulugh Beg was defeated on the Syr Darya in 830/1427 the balance on the steppe changed, and in the 1440s the Uzbek Abu al-Khayr Khan took the northern Syr Darya region and raided Transoxiana repeatedly. {cite:encyclopaedia-of-islam-2 vol. 10 p. 538} {cite:encyclopaedia-of-islam-2 vol. 10 p. 539}
+
+## Division and the reign of Abu Sa'id
+Shah Rukh named no successor, in part, the article says, because of disagreement with his wife [[person/gawhar-shad|Gawharshad]]. After he died on 25 Dhu al-Hijja 850/13 March 1447, rival princes ravaged Khurasan and killed one another. The act that drew the greatest disapproval was the murder of Ulugh Beg by his own son in Ramadan 853/1449. By the summer of 856/1452 the Qara Qoyunlu held Iraq and central and western Persia, and the Timurids were confined to Khurasan, Kirman and Transoxiana. {cite:encyclopaedia-of-islam-2 vol. 10 p. 539}
+
+A new figure then emerged, [[person/abu-said-mirza-timurid|Abu Sa'id]], who took Samarqand in 855/1451 with Uzbek help, took Herat in 862/1458 and made it his capital the next year. In 872/1468 he marched on Azerbaijan to stop the rise of the Aq Qoyunlu. The expedition was badly planned; he was captured and put to death on 22 Rajab 873/5 February 1469. {cite:encyclopaedia-of-islam-2 vol. 10 p. 539}
+
+## Herat under Sultan Husayn
+[[person/husayn-bayqarah|Husayn Bayqara]] took Herat for good in Safar 875/August 1470 and opened there a period of great cultural flowering. His realm reached [[place/balkh|Balkh]] in the east, Khwarazm in the north and Qandahar in the south, while the northern lands stayed with the sons of Abu Sa'id at Samarqand, Bukhara and [[place/farghana|Farghana]]. The border between the two halves held until near the end of his life. {cite:encyclopaedia-of-islam-2 vol. 10 p. 539}
+
+After the sons of Abu Sa'id died in 899-900/1494-5, the princes of Transoxiana fought one another and drew in the Uzbeks under [[person/muhammad-shaybani|Muhammad Shaybani Khan]]. Shaybani crossed the Oxus in 1505-6. Husayn Bayqara set out against him but died on 11 Dhu al-Hijja 911/5 May 1506, and Shaybani took Herat on 8 Muharram 913/20 May 1507. When Shaybani was killed by the [[polity/safavid-iran|Safavids]] in 916/1510, [[person/babur-mughal|Babur]] regained power for a time but could not hold Transoxiana, and in 920/1514 he left for good for [[place/kabul|Kabul]]. {cite:encyclopaedia-of-islam-2 vol. 10 p. 539}
+
+## Government
+Timur's campaigns did serious damage, though he restored many of the cities affected and opened new land to farming; the later succession wars brought fresh ravages. For Khurasan the period was a prosperous one, and Shah Rukh, Abu Sa'id and Sultan Husayn organised large irrigation works there. Timur gave the highest posts to his personal following, who married into his family and became a tight ruling group whose descendants kept high office to the end. Administration was organised in two spheres, the Persian and the Turco-Mongol, with two sets of scribes. {cite:encyclopaedia-of-islam-2 vol. 10 p. 539}
+
+Most provinces were governed by princes. Timur controlled his governors closely; under Shah Rukh they had more fiscal and personal freedom, and the courts of [[place/shiraz|Shiraz]], Yazd and Samarqand became centres of patronage for architecture, calligraphy and miniature painting, and for a new literature in Chaghatay Turkic. Shah Rukh began granting large landholdings free of tax, and he and Gawharshad founded great endowments. Under Sultan Husayn both multiplied until the dynasty had no secure tax base. Taxation was contested, often as a conflict between Turco-Mongol custom and the sharia; several rulers abolished taxes the sharia did not permit, but most seem to have returned. {cite:encyclopaedia-of-islam-2 vol. 10 p. 539}
+
+## Letters and religion
+The court of Sultan Husayn won lasting fame for poetry and the arts of the book. Two figures presided over it: [[person/jami-abd-al-rahman|'Abd al-Rahman Jami]], head of the [[group/naqshbandiyya|Naqshbandiyya]] in Herat and a famed Persian poet, and Mir 'Ali Shir Nawa'i, companion and official of the sultan, whom the article calls probably the greatest poet in Chaghatay. Two scholars patronised by Timur and Shah Rukh, Sa'd al-Din Taftazani and [[person/al-sharif-al-jurjani-ali-ibn-muhammad|Sayyid Sharif Jurjani]], wrote commentaries long used in the madrasas. The shrine complexes the dynasty endowed, at [[place/mashhad|Mashhad]], Turkistan, Gazurgah and Mazar-i Sharif, drew pilgrims for centuries, and royal favour helped the rise of the order founded by [[person/baha-al-din-naqshband|Baha' al-Din Naqshband]]. {cite:encyclopaedia-of-islam-2 vol. 10 p. 540}
+
+The Timurids fell near the height of their cultural splendour. The calligraphers, men of letters and painters of Herat, seeking new patrons, carried Timurid styles to the neighbouring lands, among them India, where Babur founded the later Timurid or [[polity/mughal-empire|Mughal]] dynasty in 1526. {cite:encyclopaedia-of-islam-2 vol. 10 p. 540}

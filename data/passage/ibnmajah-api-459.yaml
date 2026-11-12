@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-459
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "459"
+label: { ar: "سنن ابن ماجه 459 — مغفرة ما تقدم من الذنب", en: "Sunan Ibn Majah 459 — forgiveness of past sins", ur: "سنن ابن ماجہ 459 — پچھلے گناہوں کی مغفرت" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ جَامِعِ بْنِ شَدَّادٍ أَبِي صَخْرَةَ، قَالَ سَمِعْتُ حُمْرَانَ، يُحَدِّثُ أَبَا بُرْدَةَ فِي الْمَسْجِدِ أَنَّهُ سَمِعَ عُثْمَانَ بْنَ عَفَّانَ، يُحَدِّثُ عَنِ النَّبِيِّ ـ قَالَ \" مَنْ أَتَمَّ الْوُضُوءَ كَمَا أَمَرَهُ اللَّهُ فَالصَّلَوَاتُ الْمَكْتُوبَاتُ كَفَّارَاتٌ لِمَا بَيْنَهُنَّ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 459، يذكر مغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 459 (The Book of Purification and its Sunnah), that speaks of forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 459، جس میں پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 459 (book 1 hadith 193); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

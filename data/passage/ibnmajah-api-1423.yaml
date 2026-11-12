@@ -1,0 +1,18 @@
+id: passage/ibnmajah-api-1423
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1423"
+label: { ar: "سنن ابن ماجه 1423 — رفع الدرجات، محو السيئات وحط الخطايا", en: "Sunan Ibn Majah 1423 — ranks raised; bad deeds erased and sins shed", ur: "سنن ابن ماجہ 1423 — درجات کی بلندی، برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "… لَهُ حَدِّثْنِي حَدِيثًا عَسَى اللَّهُ أَنْ يَنْفَعَنِي بِهِ. قَالَ فَسَكَتَ ثُمَّ عُدْتُ فَقُلْتُ مِثْلَهَا فَسَكَتَ ثَلاَثَ مَرَّاتٍ فَقَالَ لِي عَلَيْكَ بِالسُّجُودِ لِلَّهِ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ ـ يَقُولُ \" مَا مِنْ عَبْدٍ يَسْجُدُ لِلَّهِ سَجْدَةً إِلاَّ رَفَعَهُ اللَّهُ بِهَا دَرَجَةً وَحَطَّ عَنْهُ بِهَا خَطِيئَةً \". قَالَ مَعْدَانُ ثُمَّ لَقِيتُ أَبَا الدَّرْدَاءِ فَسَأَلْتُهُ فَقَالَ مِثْلَ ذَلِكَ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1423، يذكر رفع الدرجات، ومحو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 1423 (Establishing the Prayer and the Sunnah Regarding Them), that speaks of ranks raised, bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1423، جس میں درجات کی بلندی، برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1423 (book 5 hadith 621); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

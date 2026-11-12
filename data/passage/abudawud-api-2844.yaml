@@ -1,0 +1,17 @@
+id: passage/abudawud-api-2844
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2844"
+label: { ar: "سنن أبي داود 2844 — نقص قيراط من الأجر كل يوم", en: "Sunan Abi Dawud 2844 — a qirat lost from the reward each day", ur: "سنن ابی داؤد 2844 — ہر روز اجر سے ایک قیراط کی کمی" }
+text: "حَدَّثَنَا الْحَسَنُ بْنُ عَلِيٍّ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ قَالَ \" مَنِ اتَّخَذَ كَلْبًا إِلاَّ كَلْبَ مَاشِيَةٍ أَوْ صَيْدٍ أَوْ زَرْعٍ انْتَقَصَ مِنْ أَجْرِهِ كُلَّ يَوْمٍ قِيرَاطٌ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2844، يذكر نقص قيراط من الأجر كل يوم. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 2844 (Game (Kitab Al-Said)), that speaks of a qirat lost from the reward each day. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2844، جس میں ہر روز اجر سے ایک قیراط کی کمی کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2844 (book 17 hadith 1); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

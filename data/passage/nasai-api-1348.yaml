@@ -1,0 +1,16 @@
+id: passage/nasai-api-1348
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1348"
+label: { ar: "سنن النسائي 1348 — الميزان", en: "Sunan al-Nasa'i 1348 — the Scale", ur: "سنن نسائی 1348 — میزان" }
+text: "… فِي دُبُرِ كُلِّ صَلاَةٍ عَشْرًا وَيَحْمَدُ عَشْرًا وَيُكَبِّرُ عَشْرًا فَهِيَ خَمْسُونَ وَمِائَةٌ فِي اللِّسَانِ وَأَلْفٌ وَخَمْسُمِائَةٍ فِي الْمِيزَانِ \". وَأَنَا رَأَيْتُ رَسُولَ اللَّهِ يَعْقِدُهُنَّ بِيَدِهِ \" وَإِذَا أَوَى أَحَدُكُمْ إِلَى فِرَاشِهِ أَوْ مَضْجَعِهِ سَبَّحَ ثَلاَثًا وَثَلاَثِينَ وَحَمِدَ ثَلاَثًا وَثَلاَثِينَ وَكَبَّرَ أَرْبَعًا وَثَلاَثِينَ فَهِيَ مِائَةٌ عَلَى اللِّسَانِ وَأَلْفٌ فِي الْمِيزَانِ \". قَالَ قَالَ رَسُولُ اللَّهِ \" …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 1348، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 1348 (The Book of Forgetfulness (In Prayer)), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 1348، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1348 (book 13 hadith 170); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

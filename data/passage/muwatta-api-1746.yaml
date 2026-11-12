@@ -1,0 +1,17 @@
+id: passage/muwatta-api-1746
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1746"
+label: { ar: "موطأ مالك 1746 — رفع الدرجات", en: "Muwatta Malik 1746 — ranks raised", ur: "موطأ مالک 1746 — درجات کی بلندی" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، أَنَّهُ بَلَغَهُ عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ، أَنَّهُ كَانَ يَقُولُ الْقَصْدُ وَالْتُّؤَدَةُ وَحُسْنُ السَّمْتِ جُزْءٌ مِنْ خَمْسَةٍ وَعِشْرِينَ جُزْءًا مِنَ النُّبُوَّةِ."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1746، يذكر رفع الدرجات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Muwatta Malik, no. 1746 (Hair), that speaks of ranks raised. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "موطأ مالک کی حدیث نمبر 1746، جس میں درجات کی بلندی کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1746 (book 51 hadith 17); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

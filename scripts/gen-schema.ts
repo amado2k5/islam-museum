@@ -491,7 +491,13 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
       order: intStr,
       name_meta: { type: "object", additionalProperties: false, properties: {
         transliteration: str, root: str,
-        enumeration: { type: "array", items: enm(["tirmidhi", "ibn-majah", "other"]) } } } },
+        enumeration: { type: "array", items: enm(["tirmidhi", "ibn-majah", "other"]) } } },
+      // calculator rows of the Hasanat and Sayyi'at Ledger (docs/plan/50-hisab-browser.md): what a text states for one deed
+      reckoning: { type: "object", additionalProperties: false, required: ["effect", "unit", "basis"], properties: {
+        effect: enm(["hasanat", "sayyiat", "erasure", "scale"]),
+        hasanat: { type: "number" }, hasanat_max: { type: "number" }, sayyiat: { type: "number" }, erased: { type: "number" },
+        degrees: { type: "number" }, unbounded: { type: "boolean" }, times: intStr,
+        unit: L, result: L, basis: entityRefs } } },
     required: ["kind"],
   },
   language: {

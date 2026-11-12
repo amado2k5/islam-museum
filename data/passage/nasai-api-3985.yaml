@@ -1,0 +1,17 @@
+id: passage/nasai-api-3985
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3985"
+label: { ar: "سنن النسائي 3985 — وزر من تبع", en: "Sunan al-Nasa'i 3985 — bearing the burden of those who follow", ur: "سنن نسائی 3985 — پیروی کرنے والوں کا بوجھ" }
+text: "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، عَنْ عَبْدِ الرَّحْمَنِ، قَالَ حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ، عَنْ مَسْرُوقٍ، عَنْ عَبْدِ اللَّهِ، عَنِ النَّبِيِّ قَالَ \" لاَ تُقْتَلُ نَفْسٌ ظُلْمًا إِلاَّ كَانَ عَلَى ابْنِ آدَمَ الأَوَّلِ كِفْلٌ مِنْ دَمِهَا وَذَلِكَ أَنَّهُ أَوَّلُ مَنْ سَنَّ الْقَتْلَ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3985، يذكر وزر من تبع. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 3985 (The Book of Fighting [The Prohibition of Bloodshed]), that speaks of bearing the burden of those who follow. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 3985، جس میں پیروی کرنے والوں کا بوجھ کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3985 (book 37 hadith 20); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
