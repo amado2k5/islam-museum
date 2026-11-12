@@ -674,3 +674,19 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 645 (printed) | 366 | the chain's cut name "عبد المزيز بن مروان" | legible | given as read |
 | 645 (printed) | 366 | the hadith's wording | a quoted report with an honorific | described; not typed |
+
+## Batch 83 (run microsd-books-b83, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 366–376 and 389 (full text read before writing).
+- Printed 646 (Abu Bakr al-Shibli, pages 366–375): ALREADY ON RECORD. The existing person/al-shibli (Abu Bakr Dulaf ibn Jahdar) is the same man, and its Arabic, English and Urdu prose already cites vol. 10 pages 366–374 for this notice. Nothing is duplicated; the existing record is the place for it.
+- Printed 647 (Ibn al-A'rabi, page 375–376): ALREADY ON RECORD. The existing person/ibn-al-arabi-ahmad (Abu Sa'id Ahmad ibn Muhammad ibn Ziyad, al-Basri, resident of Mecca) cites 10/375–376. Nothing is duplicated.
+- Printed 661 (al-Nu'man ibn Abd al-Salam, page 389): new record person/numan-ibn-abd-al-salam (sequence 662, 10/389). No existing record of that name. Trilingual draft.
+- Printed 532 and 546 stay held.
+- Coverage note: the existing prose already cites vol. 10 pages 300–316, 324–328, 366–377 and 385–387. Pages 317–323, 329–365, 378–384 and 388 and later are not cited by any existing record.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 83)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 661 (printed) | 389 | the dream's wording | the report is short; no more is given | the dream is stated as the report gives it |
+| 661 (printed) | 389 | "أبو محمد بن حيان" and "أبو عبد الله الكسائي" | legible | given as read |
