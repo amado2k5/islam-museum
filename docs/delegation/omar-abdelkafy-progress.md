@@ -942,3 +942,20 @@ The hajj hadith (ep15 00:22:30) is presented as the lecturer's relating with no 
 | Supplications and sign-offs | ep14 00:32:00; ep15 00:35:30-00:36:30 | Not lesson content | Content rule | Open |
 
 Resume point: episode 16 (branch from origin/main).
+### albuyout-alamena, episode 28 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-16)
+
+Episode 28 read in full (48 min of transcript) before writing. 17 points written (ar, en, ur); new `about` edges for the people and passages named; 11 needs_source (sayings without a chain, garbled call text, rulings given without evidence).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep28 (noses in the home; rights of mother and wife) | about 48 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 17 points | new `about` edges | 17 | 11 needs_source | this PR |
+
+Next step: episode 29.
+
+| Excluded (albuyout-alamena ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep28 00:00:00–00:00:30, 00:07:00–00:07:30, 00:26:00–00:26:30, 00:48:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep28 00:08:00, 00:10:30, 00:11:30, 00:16:00, 00:18:00, 00:25:00, 00:26:30, 00:43:30, 00:45:00, 00:46:30–00:47:00, 00:48:00 | Not speech | Loop check | Open |
+| Garbled passages and calls | ep28 00:01:00–00:02:00 (partly), 00:12:00, 00:26:30–00:27:30 (the black box explanation is only in the later passage), 00:34:30–00:35:30, 00:36:00, 00:38:00 (the fate of the disobedient), 00:46:00 | Garbled or fragmentary; only the clear sense is summarised | Clarity | Open |
+| Private circumstances | ep28 00:27:00–00:29:30, 00:42:30–00:46:30 | Personal details kept general | Privacy | Open |
+| Hadith and saying wording | ep28 00:10:00–00:12:30, 00:15:00, 00:18:00–00:19:00, 00:24:30 | Wording not typed; by sense only | Hadith rule | Open |
