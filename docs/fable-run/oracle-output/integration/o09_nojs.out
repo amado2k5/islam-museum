@@ -1,0 +1,36 @@
+ORACLE 09: the flagship degrades honestly with JavaScript disabled (statement 9)
+file: scripts/fable/o09_nojs.mjs
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 876
+built pages: .cache/fable-dist (scoped production build: homepage, wing landings and the Tour, rendered by the real site source)
+------------------------------------------------------------------------------
+[PASS] [ar] control: with JavaScript on, the same list is the band (a flex row that scrolls inside itself, controls shown, page still not scrolling sideways): stylesheet applied true; display flex; band scrolls true; controls true; page overflow 0px
+[PASS] [en] control: with JavaScript on, the same list is the band (a flex row that scrolls inside itself, controls shown, page still not scrolling sideways): stylesheet applied true; display flex; band scrolls true; controls true; page overflow 0px
+[PASS] [ar] the River page loads without JavaScript, with the site's stylesheet applied: status 200; stylesheet applied true
+[PASS] [ar] the River is a list, not a band: an <ol> laid out as a block with no sideways scroll: display block, overflow-x visible
+[PASS] [ar] every stop of the manifest is a visible link in the list, in manifest order: 40 visible of 40
+[PASS] [ar] the stops read top to bottom
+[PASS] [ar] the river's script-only controls are not shown, and nothing in the Tour's own content runs off a phone screen: content overflow 0px
+[PASS] [ar] the page scrolls sideways no more than the existing homepage does without JavaScript (the site's header menu, a defect that predates the Tour): River 196px; existing homepage 196px
+[PASS] [ar] following "next" from the first room visits every stop once, in order, and ends in the completion room: 40 rooms walked of 40
+[PASS] [ar] every room loads and shows its name, ribbon, counted line and door to the full record
+[PASS] [ar] every room's narrative is readable without JavaScript (100 words or more on the page)
+[PASS] [ar] the completion room states the count the coverage oracle computes from the graph: page 6234, oracle 6234
+[PASS] [ar] the completion room draws every stop, links every stop, and opens the nine wings and the graph explorer: 40 drawn, 40 linked, 9 wing doors
+[PASS] [ar] no stop is unreachable: each is linked from the River, from the walk and from the completion room
+[PASS] [en] the River page loads without JavaScript, with the site's stylesheet applied: status 200; stylesheet applied true
+[PASS] [en] the River is a list, not a band: an <ol> laid out as a block with no sideways scroll: display block, overflow-x visible
+[PASS] [en] every stop of the manifest is a visible link in the list, in manifest order: 40 visible of 40
+[PASS] [en] the stops read top to bottom
+[PASS] [en] the river's script-only controls are not shown, and nothing in the Tour's own content runs off a phone screen: content overflow 0px
+[PASS] [en] the page scrolls sideways no more than the existing homepage does without JavaScript (the site's header menu, a defect that predates the Tour): River 290px; existing homepage 290px
+[PASS] [en] following "next" from the first room visits every stop once, in order, and ends in the completion room: 40 rooms walked of 40
+[PASS] [en] every room loads and shows its name, ribbon, counted line and door to the full record
+[PASS] [en] every room's narrative is readable without JavaScript (100 words or more on the page)
+[PASS] [en] the completion room states the count the coverage oracle computes from the graph: page 6234, oracle 6234
+[PASS] [en] the completion room draws every stop, links every stop, and opens the nine wings and the graph explorer: 40 drawn, 40 linked, 9 wing doors
+[PASS] [en] no stop is unreachable: each is linked from the River, from the walk and from the completion room
+[PASS] axe-core finds no WCAG A or AA violation on the Tour's pages (5 pages, two languages, light and dark): 0 violation(s)
+[PASS] no Tour page requests anything from another origin: 0 request(s)
+------------------------------------------------------------------------------
+RESULT: GREEN

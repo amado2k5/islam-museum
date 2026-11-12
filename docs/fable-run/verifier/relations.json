@@ -1,0 +1,576 @@
+[
+  {
+    "record": "building/hassan-ii-mosque",
+    "type": "located_in",
+    "target": "place/casablanca",
+    "verdict": "SUPPORTED",
+    "why": "Arabic lead: «جامع في الدار البيضاء افتُتح سنة 1993م» {cite:wikidata}. Prose unchanged since the baseline. Target is the city of Casablanca."
+  },
+  {
+    "record": "building/hassan-ii-mosque",
+    "type": "built_by",
+    "target": "person/hassan-ii-of-morocco",
+    "verdict": "SUPPORTED",
+    "why": "Section «الأثر»: «بناه الملك الحسن الثاني بأيدي ستة آلاف صانع مغربي» {cite:wikidata}. The record's own verb is 'built'. Target is King Hassan II of Morocco, r. 1961-1999."
+  },
+  {
+    "record": "building/masjid-sultan-hasan",
+    "type": "located_in",
+    "target": "place/cairo",
+    "verdict": "SUPPORTED",
+    "why": "Lead: «مسجد ومدرسة في القاهرة بدأ السلطان حسن عمارته سنة 757هـ» {cite:khitat-maqrizi-1998 p.2111}; the record's own wikilink on the city is place/cairo."
+  },
+  {
+    "record": "building/masjid-sultan-hasan",
+    "type": "during_reign",
+    "target": "polity/mamluk-sultanate",
+    "verdict": "SUPPORTED",
+    "why": "«يعدّ يومانز جامع السلطان حسن ... أعظم روائع المماليك المعمارية», dated 1356-1361 {cite:yeomans-islamic-cairo-2006 p.154-155}, and «نضج العمارة المملوكية» {p.162}. The record never writes 'sultanate' or 'in the reign of'; the edge is entailed (a Mamluk masterpiece built by a reigning sultan), not literal. Target is the Cairo sultanate of 1250-1517, not a namesake."
+  },
+  {
+    "record": "building/masjid-sultan-hasan",
+    "type": "exemplifies",
+    "target": "concept/iwan",
+    "verdict": "SUPPORTED",
+    "why": "«وفي قلبه مخطط صليبي ناضج بأربعة إيوانات عملاقة على صحن مكعب عميق» {cite:yeomans-islamic-cairo-2006 p.156, p.161}; the next sentence has its qibla iwan exceed the Taq-i Kisra. Same use of the predicate as other buildings in the graph (a building that shows the element). Target is the architectural iwan."
+  },
+  {
+    "record": "building/masjid-sultan-hasan",
+    "type": "written_about_by",
+    "target": "person/al-maqrizi",
+    "verdict": "SUPPORTED",
+    "why": "«يذكر المقريزي أن العمارة استمرت ثلاث سنين لا تنقطع» {cite:khitat-maqrizi-1998 p.2111}. Target is Taqi al-Din al-Maqrizi, the author of the Khitat."
+  },
+  {
+    "record": "building/masjid-sultan-hasan",
+    "type": "mentioned_in",
+    "target": "work/art-and-architecture-of-islamic-cairo",
+    "verdict": "SUPPORTED",
+    "why": "«يعدّ يومانز جامع السلطان حسن ... أعظم روائع المماليك المعمارية وأكبر جوامع القاهرة وأفخمها» {cite:yeomans-islamic-cairo-2006 p.154-155}. The work record is Yeomans, Garnet 2006, the same book as the cited source."
+  },
+  {
+    "record": "building/sulaymaniyya-mosque",
+    "type": "located_in",
+    "target": "place/istanbul",
+    "verdict": "SUPPORTED",
+    "why": "Lead: «جامع سليمان القانوني في إسطنبول بناه سنان سنة 1557م» {cite:wikidata}; the record's own wikilink is place/istanbul."
+  },
+  {
+    "record": "building/sulaymaniyya-mosque",
+    "type": "built_by",
+    "target": "person/mimar-sinan",
+    "verdict": "SUPPORTED",
+    "why": "Same sentence: «بناه سنان سنة 1557م» {cite:wikidata}. The record says only 'Sinan'; for the mosque of Suleiman in 1557 that is Mimar Sinan, and none of the other Sinans in data/person fits (atik-sinan is a century earlier)."
+  },
+  {
+    "record": "building/sulaymaniyya-mosque",
+    "type": "patronized_by",
+    "target": "person/sulayman-al-qanuni",
+    "verdict": "STRETCHED",
+    "why": "The one cited sentence says «جامع سليمان القانوني ... بناه سنان»: Suleiman's mosque, built by Sinan. 'For Suleiman' appears only in summary.en, a data field with no citation. That is possession or dedication, not patronage: the record nowhere says he ordered, paid for or sponsored it, and gives no dates for him. The evidence file concedes it ('does not say in so many words that he ordered it'). Target itself is the right Suleiman."
+  },
+  {
+    "record": "building/dome-of-the-rock",
+    "type": "located_in",
+    "target": "place/al-aqsa-mosque",
+    "verdict": "SUPPORTED",
+    "why": "In the record at the baseline: lead «قبة الصخرة في صحن المسجد الأقصى في القدس» {cite:wikidata}, and summary.ar «قبة الصخرة في صحن المسجد الأقصى؛ وصفها المقدسي» {cite:ahsan-al-taqasim p. 144}. I read al-Muqaddasi's scan p.143: the mosque's paved court, the platform in its middle and the domes on it. Target is the site record, whose summary says the name covers the whole walled enclosure; place/western-wall is already part_of it. Two caveats, neither changes the verdict: today's lead links the words to building/al-aqsa-mosque, not to this place record; and another source the record cites (Qabbani p.163) treats al-Aqsa as a separate mosque built «بالقرب من ساحة مسجد قبة الصخرة»."
+  },
+  {
+    "record": "building/dome-of-the-rock",
+    "type": "commissioned_by",
+    "target": "person/abd-al-malik-ibn-marwan",
+    "verdict": "SUPPORTED",
+    "why": "The sentence is only in today's lead: «ويذكر محمد قباني أن عبد الملك بن مروان أمر سنة 72هـ ببناء مسجد فوق الصخرة» {cite:umayyad-birth-to-fall-2006 p.163, p.161}. The baseline record named no builder. It is not from memory: the source was already in the record's sources list at the baseline, and I read the page in the local scan. p.163: «مسجد قبة الصخرة: أمر عبد الملك بن مروان سنة 72هـ ببناء مسجد فوق الصخرة»; p.161: «مسجد قبة الصخرة الذي أنشأه عبد الملك بن مروان في القدس». The predicate's Arabic label is the same verb, «أمر ببناء»."
+  },
+  {
+    "record": "building/dome-of-the-rock",
+    "type": "written_about_by",
+    "target": "person/al-muqaddasi",
+    "verdict": "SUPPORTED",
+    "why": "Baseline section «وصف المقدسي»: «وصفها المقدسي لما رآها نحو سنة 375هـ» {cite:ahsan-al-taqasim p. 144}. Target is the geographer, author of the cited book."
+  },
+  {
+    "record": "building/dome-of-the-rock",
+    "type": "mentioned_in",
+    "target": "work/ahsan-al-taqasim",
+    "verdict": "SUPPORTED",
+    "why": "The same baseline description, cited to this work {cite:ahsan-al-taqasim p. 144}; today's lead names the work in words: «ووصفها المقدسي في أحسن التقاسيم»."
+  },
+  {
+    "record": "building/dome-of-the-rock",
+    "type": "written_about_by",
+    "target": "person/ibn-fadl-allah-al-umari",
+    "verdict": "SUPPORTED",
+    "why": "Baseline section «صفتها سنة 743هـ عند العمري»: «يصف ابن فضل الله العمري في مسالك الأبصار المسجد الأقصى والصخرة» {cite:umari-masalik-1924 p.177, p.178}; the record's own wikilinks are the two targets."
+  },
+  {
+    "record": "building/dome-of-the-rock",
+    "type": "mentioned_in",
+    "target": "work/masalik-al-absar",
+    "verdict": "SUPPORTED",
+    "why": "Same baseline sentence and citation as the edge above; the work is named and linked in the record."
+  },
+  {
+    "record": "building/taj-mahal",
+    "type": "located_in",
+    "target": "place/agra",
+    "verdict": "SUPPORTED",
+    "why": "Baseline lead: «ضريح في آغرة بناه شاه جهان لزوجته ممتاز محل» {cite:wikidata}, linked to place/agra; summary.ar «ضريح بناه شاه جهان في آكره» {cite:brookes-gardens-of-paradise-1987 p.152, p.154}."
+  },
+  {
+    "record": "building/taj-mahal",
+    "type": "built_by",
+    "target": "person/shah-jahan-mughal",
+    "verdict": "SUPPORTED",
+    "why": "Baseline section «البناء والبستان عند بروكس»: «يذكر جون بروكس أن شاه جهان بنى التاج ذكرى لزوجه ممتاز محل» {cite:brookes-gardens-of-paradise-1987 p.151, p.152, p.154}, with the record's own link to this person."
+  },
+  {
+    "record": "building/taj-mahal",
+    "type": "burial_place_of",
+    "target": "person/shah-jahan-mughal",
+    "verdict": "SUPPORTED",
+    "why": "Baseline section «موضعه من البستان»: «ودُفن شاه جهان بجوار زوجه فيه سنة 1666م» {cite:brookes-gardens-of-paradise-1987 p.159}."
+  },
+  {
+    "record": "building/taj-mahal",
+    "type": "exemplifies",
+    "target": "concept/chaharbagh",
+    "verdict": "SUPPORTED",
+    "why": "Baseline: «يقوم الضريح على منصة ... فوق مستوى البستان الرباعي» {cite:brookes-gardens-of-paradise-1987 p.152, p.154}, linked to concept/chaharbagh. The record calls the Taj's garden a chaharbagh; it says this of the garden, not of the tomb, and the same paragraph says the tomb is not at the garden's centre. Supported if the garden is read as part of the record, as its two section titles do. Loose."
+  },
+  {
+    "record": "object/al-mushaf-al-azraq",
+    "type": "exemplifies",
+    "target": "concept/kufic-script",
+    "verdict": "SUPPORTED",
+    "why": "Section «وصفه»: «في كل صفحة خمسة عشر سطرًا من الكوفي بحبر الذهب محدَّد بالسواد» {cite:blair-islamic-calligraphy-2006 p. 126, p. 166}."
+  },
+  {
+    "record": "object/al-mushaf-al-azraq",
+    "type": "exemplifies",
+    "target": "concept/mushaf",
+    "verdict": "SUPPORTED",
+    "why": "Same sentence: «كان مصحفًا في سبعة أجزاء على رق مصبوغ بالنيلي» {cite:blair-islamic-calligraphy-2006 p. 126, p. 166}. Target is the term mushaf."
+  },
+  {
+    "record": "object/al-mushaf-al-azraq",
+    "type": "written_about_by",
+    "target": "person/sheila-blair",
+    "verdict": "SUPPORTED",
+    "why": "«بحسب شيلا بلير كان مصحفًا في سبعة أجزاء» {cite:blair-islamic-calligraphy-2006 p. 126, p. 166}; the record's own wikilink is the target."
+  },
+  {
+    "record": "object/al-mushaf-al-azraq",
+    "type": "mentioned_in",
+    "target": "work/islamic-calligraphy-blair",
+    "verdict": "SUPPORTED",
+    "why": "The same sentences are cited to Blair 2006, and the work record is that book (Sheila Blair, Islamic Calligraphy, 2006)."
+  },
+  {
+    "record": "object/kiswa",
+    "type": "mentioned_in",
+    "target": "work/masalik-al-absar",
+    "verdict": "SUPPORTED",
+    "why": "Baseline section headed «في «مسالك الأبصار» للعمري», every sentence of it cited to umari-masalik-1924 pp.137-139."
+  },
+  {
+    "record": "object/kiswa",
+    "type": "written_about_by",
+    "target": "person/ibn-fadl-allah-al-umari",
+    "verdict": "SUPPORTED",
+    "why": "Baseline: «يجمع ابن فضل الله العمري أخبار كسوة الكعبة» {cite:umari-masalik-1924 p.137}, with the record's own link; and «ويروي أنه تولّى بيده خلع الكسوة العتيقة وإلباس الجديدة في حجه سنة 738هـ» {p.138}."
+  },
+  {
+    "record": "object/kiswa",
+    "type": "written_about_by",
+    "target": "person/al-azraqi-muhammad-ibn-abd-allah",
+    "verdict": "SUPPORTED",
+    "why": "Baseline: «ثم ما حكاه الأزرقي من أن معاوية كساها الديباج» {cite:umari-masalik-1924 p.138}, «وينقل عن الأزرقي عن ابن جريج أن تبّعاً أول من كساها كسوة كاملة» {p.139}. Second-hand: the citation is al-Umari quoting al-Azraqi, and the record's verb is 'related', not 'wrote'. The wikilink to this person was added in today's lead; the target, the third-century historian of Mecca, is the al-Azraqi meant."
+  },
+  {
+    "record": "object/kiswa",
+    "type": "made_in",
+    "target": "place/mecca",
+    "verdict": "STRETCHED",
+    "why": "Section «الأثر»: «تصنع اليوم في دار كسوة الكعبة بأم الجود» {cite:wikidata}, and summary «إلى مصنع مكة الحديث». That is true of today. The same record says that in al-Umari's time it was «تُحمل من الخزانة السلطانية بمصر مع الركب» and that the ruler of Yemen sent another. made_in takes no date, so the edge reads as the object's origin; only the relation's note keeps the time. Mildest of the stretched."
+  },
+  {
+    "record": "object/minbar-kutubiyya",
+    "type": "made_in",
+    "target": "place/cordoba",
+    "verdict": "SUPPORTED",
+    "why": "Lead: «منبر خشبي مرصّع بالعاج صنعته ورش قرطبة سنة 1137م لجامع الكتبية في مراكش» {cite:wikidata}. 'Made by the workshops of Cordoba' and then sent to Marrakesh is 'made in Cordoba'. Target is Cordoba in al-Andalus."
+  },
+  {
+    "record": "object/minbar-kutubiyya",
+    "type": "exemplifies",
+    "target": "concept/minbar",
+    "verdict": "SUPPORTED",
+    "why": "Same sentence: it is a minbar, «أجمل منبر إسلامي باقٍ» {cite:wikidata}. Target is the pulpit as an element of the mosque."
+  },
+  {
+    "record": "object/mushaf-birmingham",
+    "type": "exemplifies",
+    "target": "concept/hijazi-script",
+    "verdict": "SUPPORTED",
+    "why": "Lead: «رقوق قرآنية مكتوبة بالحجازي في جامعة برمنغهام» {cite:wikidata}."
+  },
+  {
+    "record": "object/mushaf-birmingham",
+    "type": "exemplifies",
+    "target": "concept/mushaf",
+    "verdict": "SUPPORTED",
+    "why": "Same sentence: «فهي من أقدم أوراق المصحف المعروفة» {cite:wikidata}; the record's label is «مصحف برمنغهام». It is leaves of a mushaf, not a whole codex; slightly loose."
+  },
+  {
+    "record": "work/alf-layla-wa-layla",
+    "type": "translation_of",
+    "target": "work/hazar-afsan",
+    "verdict": "STRETCHED",
+    "why": "What the record says: al-Mas'udi «ذكر كتباً منقولة من الفارسية، منها «هزار أفسانه» ... وقال إن الناس يسمونه «ألف ليلة وليلة»» {cite:muruj-al-dhahab p.550}; and Abbott's six stages begin with «ترجمة من القرن الثامن لـ«هزار أفسانه»» {cite:encyclopaedia-of-islam-2 vol. 1 p. 380-386}, followed by an Islamised version, a ninth-century composite with Arabic material, Ibn Abdus, an Egyptian stage and a last one. So the record supports 'began as a translation of' and 'al-Mas'udi identifies the two'; it does not say the work it goes on to describe (Baghdad and Cairo layers, an eighteenth-century Egyptian recension) is a translation. The record's own label treats the two titles as one work, while the edge treats Hazar Afsan as a separate source."
+  },
+  {
+    "record": "work/alf-layla-wa-layla",
+    "type": "mentioned_in",
+    "target": "work/muruj-al-dhahab",
+    "verdict": "SUPPORTED",
+    "why": "Section «عند المسعودي»: «في سنة 332هـ ذكر المسعودي ... وقال إن الناس يسمونه «ألف ليلة وليلة»» {cite:muruj-al-dhahab p.550}: the title is named in the cited work."
+  },
+  {
+    "record": "work/alf-layla-wa-layla",
+    "type": "mentioned_in",
+    "target": "work/al-fihrist",
+    "verdict": "STRETCHED",
+    "why": "What the record says the Fihrist mentions is Hazar Afsan, «ويذكر ابن النديم في «الفهرست» «هزار أفسان» ويلخص إطارها الحكائي» {cite:encyclopaedia-of-islam-2 vol. 1 p. 380-386}, and al-Jahshiyari's unfinished book of a thousand tales {cite:fihrist-ibn-al-nadim p.423}. It never says the Fihrist names Alf Layla wa-Layla. Hazar Afsan has its own record, built from Fihrist pp. 422-423, and it is the target of the edge above: if it is a separate work, the Fihrist's mention belongs to it. The record does present the Fihrist as a witness to the collection, «وبعد المسعودي و«الفهرست» ذكر المؤرخ المصري ...», so stretched, not unsupported."
+  },
+  {
+    "record": "work/alf-layla-wa-layla",
+    "type": "mentions",
+    "target": "person/shahrazad",
+    "verdict": "SUPPORTED",
+    "why": "«خبر الملك والوزير وابنته وجاريتهما، وهما شيرزاد ودينازاد» {cite:muruj-al-dhahab p.550}; «وفارسية كشهرزاد ودينازاد» {cite:encyclopaedia-of-islam-2 vol. 1 p. 380-386}. Target is the figure of the frame story."
+  },
+  {
+    "record": "work/alf-layla-wa-layla",
+    "type": "mentions",
+    "target": "person/harun-al-rashid",
+    "verdict": "SUPPORTED",
+    "why": "«وتتركز نوادر الحكام على خلفاء بني العباس، وأشهرهم هارون الرشيد» {cite:encyclopaedia-of-islam-2 vol. 1 p. 380-386}."
+  },
+  {
+    "record": "concept/islamic-calligraphy",
+    "type": "has_part",
+    "target": "concept/kufic-script",
+    "verdict": "SUPPORTED",
+    "why": "The record's one cited sentence: «وتنوعت خطوطه بين الكوفي والنسخ والثلث والديواني» {cite:wikidata}: 'its scripts' are named as its kinds."
+  },
+  {
+    "record": "concept/islamic-calligraphy",
+    "type": "has_part",
+    "target": "concept/naskh-script",
+    "verdict": "SUPPORTED",
+    "why": "Same sentence, «... والنسخ ...» {cite:wikidata}. Target is the naskh script."
+  },
+  {
+    "record": "concept/islamic-calligraphy",
+    "type": "has_part",
+    "target": "concept/thuluth-script",
+    "verdict": "SUPPORTED",
+    "why": "Same sentence, «... والثلث ...» {cite:wikidata}. Target is the thuluth script."
+  },
+  {
+    "record": "concept/islamic-calligraphy",
+    "type": "has_part",
+    "target": "concept/divani-script",
+    "verdict": "SUPPORTED",
+    "why": "Same sentence, «... والديواني» {cite:wikidata}. Target is the divani script."
+  },
+  {
+    "record": "concept/arabesque",
+    "type": "influenced_by",
+    "target": "concept/samarran-stucco-styles",
+    "verdict": "SUPPORTED",
+    "why": "«يرى يومانز أن مولد الأرابيسك الإسلامي يُشهد في طراز سامراء الثاني» {cite:yeomans-islamic-cairo-2006 p.37}, the record's own link being the target. 'Born in' entails 'influenced by'; the edge says less than the sentence. The target covers styles A, B and C; the record says B."
+  },
+  {
+    "record": "concept/arabesque",
+    "type": "exemplified_by",
+    "target": "building/masjid-ibn-tulun",
+    "verdict": "STRETCHED",
+    "why": "«ويُرى هذا الطراز في موضعه في بطون عقود جامع ابن طولون» {cite:yeomans-islamic-cairo-2006 p.38, p.39}. 'This style' is the Samarra style of the sentence before. The record never calls the soffits arabesque or the mosque an example of the arabesque; the edge takes two steps (the arabesque is born in style B; style B survives at Ibn Tulun). What the sentence does say is already an edge: building/masjid-ibn-tulun exemplifies concept/samarran-stucco-styles. The Ibn Tulun record itself never uses the word arabesque."
+  },
+  {
+    "record": "concept/arabesque",
+    "type": "mentioned_in",
+    "target": "work/art-and-architecture-of-islamic-cairo",
+    "verdict": "SUPPORTED",
+    "why": "«يرى يومانز أن مولد الأرابيسك الإسلامي ...» {cite:yeomans-islamic-cairo-2006 p.37}; the work record is that book."
+  },
+  {
+    "record": "concept/masjid-umum",
+    "type": "exemplified_by",
+    "target": "building/prophets-mosque",
+    "verdict": "SUPPORTED",
+    "why": "«من مسجد النبي في المدينة تطورت بنيته» {cite:wikidata}. The record names the Prophet's mosque as a mosque and as the model the plan grew from. It states an origin, not 'an example'; the edge says less than the sentence. Loose."
+  },
+  {
+    "record": "concept/masjid-umum",
+    "type": "has_part",
+    "target": "concept/minbar",
+    "verdict": "SUPPORTED",
+    "why": "«تطورت بنيته حول المصلى والقبلة والمنبر والصحن» {cite:wikidata}: the minbar is named as an element of the structure."
+  },
+  {
+    "record": "practice/eid-al-fitr",
+    "type": "based_on",
+    "target": "concept/ramadan-fiqh",
+    "verdict": "STRETCHED",
+    "why": "Rests only on summary.ar, «عيد انقضاء صيام رمضان في أول شوال», a data field with no citation of its own. No cited sentence of the prose mentions Ramadan: the cited lead says only «يوم الفطر أول شوال». 'The festival at the end of the fast' is an occasion, not a basis. The target is the legal entry on the month, used because no predicate links a practice to practice/sawm-ramadan. Weakest of the stretched; close to unsupported."
+  },
+  {
+    "record": "practice/eid-al-fitr",
+    "type": "based_on",
+    "target": "passage/quran-108-2",
+    "verdict": "STRETCHED",
+    "why": "«وفرض كفاية عند الحنابلة لقوله», followed by the words of Q 108:2 {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11984}. What the record says: the verse is the Hanbali evidence for one ruling, the communal obligation of the Eid prayer, which belongs to both Eids. The edge makes the verse a basis of the festival of Eid al-Fitr. The perspective tag and the note narrow it, but the predicate still says more than the sentence. The target verse is the right one."
+  },
+  {
+    "record": "concept/al-hadith-al-nabawi",
+    "type": "has_part",
+    "target": "concept/kutub-al-sitta",
+    "verdict": "STRETCHED",
+    "why": "«وقد جُمع في مصنفات مرتبة على الأبواب أو على مسانيد الرواة، وأشهرها الكتب الستة»: in the prose section «طريق وصوله» and in summary.ar this sentence has no citation. The only source list is on education.did_you_know, [sahih-al-bukhari, sahih-muslim], and those two books cannot attest a later term that counts them among six; the relation repeats that attribution. 'Gathered in compilations, the best known being the Six Books' is also not 'has the Six Books as a part'."
+  },
+  {
+    "record": "concept/al-hadith-al-nabawi",
+    "type": "basis_for",
+    "target": "concept/ibada",
+    "verdict": "STRETCHED",
+    "why": "«يبيّن مجمله ويقرر تفاصيل العبادة والمعاملة والسيرة والأخلاق»: predicate and target fit the words. But the prose sentence in section «مكانته» and summary.ar are uncited; the only source list is the same did_you_know one, which the clause about the Six Books shows to be the record's list carried over, not a citation of the sentence. The record's provenance calls the text «صياغة المتحف». Stretched on citation alone."
+  },
+  {
+    "record": "concept/imama",
+    "type": "influenced",
+    "target": "group/imamiyya",
+    "verdict": "SUPPORTED",
+    "why": "«يصف أحمد أمين الإمامة بأنها الملوّن لعقيدة الإمامية» and «أهم مسألة يدور عليها كلام الإمامية. فهي مركز بحوثهم» {cite:duha-islam p.850}. 'That which colours their creed' is a statement of shaping. A proxy predicate, since nothing says 'central doctrine of'; the edge says less than the sentence."
+  },
+  {
+    "record": "concept/imama",
+    "type": "mentioned_in",
+    "target": "work/al-kafi",
+    "verdict": "SUPPORTED",
+    "why": "«ويصف الكافي الإمامة بأنها «منزلة الأنبياء وإرث الأوصياء ...»» {cite:duha-islam p.850-852}. Second-hand, and the record says so: «من كتاب الكافي للكليني كما ينقله أحمد أمين». Target is al-Kulayni's al-Kafi, not the two other works of that name."
+  },
+  {
+    "record": "concept/imama",
+    "type": "mentioned_in",
+    "target": "work/duha-al-islam",
+    "verdict": "SUPPORTED",
+    "why": "Lead: «الإمامة، كما يعرضها أحمد أمين في ضحى الإسلام، أهم مسألة يدور عليها كلام الإمامية» {cite:duha-islam p.850}."
+  },
+  {
+    "record": "concept/imama",
+    "type": "written_about_by",
+    "target": "person/ahmad-amin",
+    "verdict": "SUPPORTED",
+    "why": "«يصف أحمد أمين الإمامة بأنها الملوّن لعقيدة الإمامية» {cite:duha-islam p.850}. Target is the author of Duha al-Islam."
+  },
+  {
+    "record": "concept/sharia",
+    "type": "has_part",
+    "target": "concept/ibada",
+    "verdict": "SUPPORTED",
+    "why": "The record's one sentence: «الإطار المعياري الإسلامي الجامع للعبادة والمعاملة والأخلاق» {cite:wikidata}: the framework 'that takes in worship'."
+  },
+  {
+    "record": "concept/sharia",
+    "type": "has_part",
+    "target": "concept/madhhab",
+    "verdict": "STRETCHED",
+    "why": "Same sentence, second half: «وتتنوع فيه المذاهب والاجتهادات» {cite:wikidata}, 'the schools and the interpretations vary within it'. That schools differ within the Sharia is not the statement that the madhhab is a part of the Sharia; on the madhhab's page the edge would read 'part of the Sharia', which the sentence does not say."
+  },
+  {
+    "record": "concept/sharia",
+    "type": "has_part",
+    "target": "concept/ijtihad",
+    "verdict": "STRETCHED",
+    "why": "Same clause, «وتتنوع فيه المذاهب والاجتهادات» {cite:wikidata}. As for madhhab; and the sentence's word is the plural, the differing opinions, while the target is ijtihad as the jurist's method."
+  },
+  {
+    "record": "concept/umma",
+    "type": "mentioned_in",
+    "target": "work/quran",
+    "verdict": "SUPPORTED",
+    "why": "The record's one sentence: «مفهوم مركزي في القرآن» {cite:wikidata}."
+  },
+  {
+    "record": "concept/umma",
+    "type": "has_part",
+    "target": "concept/mumin",
+    "verdict": "SUPPORTED",
+    "why": "Same sentence: «جماعة المؤمنين الواحدة عابرة الأجناس والأمصار» {cite:wikidata}. The record defines the umma as the community of the believers; has_part encodes that membership and says no more. The target is the term 'believer'. Loosest of the supported."
+  },
+  {
+    "record": "group/arabs",
+    "type": "lived_in",
+    "target": "place/jazirat-al-arab",
+    "verdict": "SUPPORTED",
+    "why": "By implication, not in so many words: «الضغط السكاني المتكرر في الجزيرة» as what drove the Arabs' expansion, and «وجاءت تنوخ وأسد من شرق الجزيرة ... ثم تبعتهم نزار من وسط الجزيرة وغربها» {cite:encyclopaedia-of-islam-2 vol. 1 p. 551}. The only sentence that says it outright is the summary, which is uncited and was rightly not used. Target is the sourced record of the Peninsula."
+  },
+  {
+    "record": "group/arabs",
+    "type": "has_part",
+    "target": "group/banu-hilal",
+    "verdict": "SUPPORTED",
+    "why": "Section «الزحف الهلالي»: «فأرسل الخليفة ... البدو العرب الذين كانوا شرقي النيل ضده ... وكانت بنو هلال وبنو سليم، من نسل مضر، قد سكنت نجدًا» {cite:encyclopaedia-of-islam-2 vol. 1 p. 557}: the Arab nomads sent are named in the next sentence as Hilal and Sulaym."
+  },
+  {
+    "record": "group/arabs",
+    "type": "has_part",
+    "target": "group/banu-sulaym",
+    "verdict": "SUPPORTED",
+    "why": "Same two sentences {cite:encyclopaedia-of-islam-2 vol. 1 p. 557}; also «ومرّت بنو هلال وبنو سليم بمصر» straight after «وظهر العرب في تاريخ مصر قبائل» {p. 555-556}."
+  },
+  {
+    "record": "group/arabs",
+    "type": "participated_in",
+    "target": "event/conquest-of-egypt",
+    "verdict": "SUPPORTED",
+    "why": "«ظهر جيش عربي على الحدود السورية المصرية، وانتزعت معاهدة ... البلاد من الحكم البيزنطي، وصمدت الإسكندرية نحو ثمانية عشر شهرًا أخرى» {cite:encyclopaedia-of-islam-2 vol. 1 p. 555-556}, under a heading that calls it the Arabs' conquest of Egypt. Target is the conquest of Egypt and Alexandria of 20 AH."
+  },
+  {
+    "record": "group/arabs",
+    "type": "participated_in",
+    "target": "event/hilali-into-ifriqiya-440",
+    "verdict": "SUPPORTED",
+    "why": "«خرج المعز أمير بني زيري على الخليفة الفاطمي المستنصر، فأرسل الخليفة ... البدو العرب الذين كانوا شرقي النيل ضده» {cite:encyclopaedia-of-islam-2 vol. 1 p. 557}. The target event tells the same episode (al-Mu'izz ibn Badis, al-Mustansir, an army of Arabs)."
+  },
+  {
+    "record": "period/abbasid-fragmentation",
+    "type": "has_part",
+    "target": "event/death-of-mutawakkil",
+    "verdict": "UNSUPPORTED",
+    "why": "The only words are start.note: 'Conventional start: the troubles after the murder of al-Mutawakkil; scholars place the transition differently.' The record puts the period after the murder and says the boundary is disputed; it does not say the murder belongs to the period. A data note with no citation; the prose says of the boundaries «وضعها المتحف للتنظيم وليست قطعية». The relation's sources, Hodgson and Hourani, are cited by the record only as further reading, not for this. The event record has no periods field of its own."
+  },
+  {
+    "record": "period/abbasid-fragmentation",
+    "type": "has_part",
+    "target": "event/buyid-entry-baghdad-334",
+    "verdict": "STRETCHED",
+    "why": "end.note: 'The Buyids enter Baghdad.' The event closes the period; the record does not say it belongs to it. Uncited curatorial note, borrowed sources, as above. The event's own periods field lists only the next period, its own date is 17 January 946 while this period ends in 945, and the next period now claims the same event as a part."
+  },
+  {
+    "record": "period/buyid-seljuk-fatimid-era",
+    "type": "has_part",
+    "target": "event/buyid-entry-baghdad-334",
+    "verdict": "STRETCHED",
+    "why": "start.note: 'Starts when the Buyids enter Baghdad'. The best of the period edges: the event opens the period, and the event's own periods field names this period. But it is still an uncited curatorial note, the prose saying «وهذه الحدود وضعها المتحف للتنظيم وليست قطعية», and Hodgson and Hourani are attached to the relation though the record cites them only as further reading."
+  },
+  {
+    "record": "period/buyid-seljuk-fatimid-era",
+    "type": "has_part",
+    "target": "event/abbasid-khutba-egypt-567",
+    "verdict": "STRETCHED",
+    "why": "start.note: 'ends with the fall of the Fatimid caliphate'. The record names no event. The agent matched the phrase to the end of the Fatimid khutba in 567 by the year and the death of al-Adid; the match is sound, but it is the agent's, not the record's. Boundary event, uncited note, borrowed sources; and the event's own periods field lists only period/crusades-ayyubid-mamluk."
+  },
+  {
+    "record": "period/buyid-seljuk-fatimid-era",
+    "type": "has_part",
+    "target": "group/al-fatimiyun",
+    "verdict": "STRETCHED",
+    "why": "summary.ar, also the first line of the prose, neither cited: «حكمت أسر كالبويهيين والفاطميين والسلاجقة». Houses that ruled in these centuries are not said to be parts of the period, and the Fatimid house (909 to 1171 in its own record) begins before the period does (945). Sources on the relation are the record's further-reading pair."
+  },
+  {
+    "record": "event/battle-of-nahrawan",
+    "type": "occurred_at",
+    "target": "place/al-nahrawan",
+    "verdict": "SUPPORTED",
+    "why": "«وثبت قوم فساروا إلى النهروان وتعرضوا للسبيل، فسار إليهم علي فقتلهم» {cite:tarikh-khulafa-minhaj-1434 p. 294}. Target is the town on the Nahrawan canal east of Baghdad."
+  },
+  {
+    "record": "event/battle-of-nahrawan",
+    "type": "had_participant",
+    "target": "person/ali-ibn-abi-talib",
+    "verdict": "SUPPORTED",
+    "why": "Lead: «هي قتال علي بن أبي طالب الخوارج الذين خرجوا عليه بعد التحكيم», with the record's own link; «فسار إليهم علي فقتلهم» {cite:tarikh-khulafa-minhaj-1434 p. 294}."
+  },
+  {
+    "record": "event/battle-of-nahrawan",
+    "type": "had_participant",
+    "target": "group/khawarij",
+    "verdict": "SUPPORTED",
+    "why": "«يذكر السيوطي أن الخوارج خرجوا بعد التحكيم ... وثبت قوم فساروا إلى النهروان ... فسار إليهم علي فقتلهم» {cite:tarikh-khulafa-minhaj-1434 p. 294}."
+  },
+  {
+    "record": "event/battle-of-nahrawan",
+    "type": "had_participant",
+    "target": "person/abdallah-ibn-wahb-al-rasibi",
+    "verdict": "SUPPORTED",
+    "why": "«النهروان كانت في شعبان سنة ثمان وثلاثين، وقُتل فيها عبد الله بن وهب الراسبي» {cite:tarikh-khalifa-umari-1985 p. 197}. Target's own summary has him lead the Kharijites to Nahrawan in 38."
+  },
+  {
+    "record": "event/battle-of-nahrawan",
+    "type": "had_participant",
+    "target": "person/dhu-al-thudiyya",
+    "verdict": "SUPPORTED",
+    "why": "«فسار إليهم علي فقتلهم، وقُتل منهم ذو الثدية، سنة 38هـ» {cite:tarikh-khulafa-minhaj-1434 p. 294}."
+  },
+  {
+    "record": "event/battle-of-nahrawan",
+    "type": "had_participant",
+    "target": "person/abu-ayyub-al-ansari",
+    "verdict": "SUPPORTED",
+    "why": "Section «المعركة»: «وعلى الخيل أبا أيوب الأنصاري» and «وأرسل أبا أيوب يرفع راية أمان» {cite:sallabi-ali-vol2 p. 177}. I could not open that volume; the same passage in the author's other edition (sallabi-ali-tawzi-2004, scan p.643) reads the same."
+  },
+  {
+    "record": "event/battle-of-nahrawan",
+    "type": "had_participant",
+    "target": "person/qays-ibn-sad",
+    "verdict": "SUPPORTED",
+    "why": "«وعلى أهل المدينة قيس بن سعد» {cite:sallabi-ali-vol2 p. 177} and «وكان على ميمنة علي قيس بن سعد» {cite:tarikh-khalifa-umari-1985 p. 197}. The record gives no grandfather's name; the other edition's page prints «قيس بن سعد بن عبادة», which is the target."
+  },
+  {
+    "record": "event/battle-of-nahrawan",
+    "type": "had_participant",
+    "target": "person/hujr-ibn-adi",
+    "verdict": "SUPPORTED",
+    "why": "«وجعل على الميمنة حجر بن عدي» {cite:sallabi-ali-vol2 p. 177}. Caveat for the lead: the record's own summary, from the author's other edition, names the same commander «حجر بن علي», and that is what the page image of that edition prints (scan p.643, printed p.639). I could not open vol. 2 to see whether it prints «عدي» or the prose corrected it. The edge stands on the prose sentence as cited."
+  },
+  {
+    "record": "event/battle-of-nahrawan",
+    "type": "had_participant",
+    "target": "person/maqil-ibn-qays",
+    "verdict": "SUPPORTED",
+    "why": "«وعلى الميسرة شبث بن ربعي ومعقل بن قيس» {cite:sallabi-ali-vol2 p. 177}. The other edition prints «معقل بن قيسى الرياحى», which matches the target, Ma'qil ibn Qays al-Riyahi, one of Ali's commanders."
+  },
+  {
+    "record": "event/battle-of-nahrawan",
+    "type": "had_participant",
+    "target": "person/shabath-ibn-ribi",
+    "verdict": "SUPPORTED",
+    "why": "Same sentence: «وعلى الميسرة شبث بن ربعي» {cite:sallabi-ali-vol2 p. 177}. The other edition's page prints the same name; the record's summary garbles it as «شبث بن ربيعة»."
+  },
+  {
+    "record": "period/modern-era",
+    "type": "has_part",
+    "target": "event/abolition-caliphate-1342",
+    "verdict": "STRETCHED",
+    "why": "start.note: 'From the abolition of the caliphate to the Iranian revolution; conventional boundaries.' The summary puts the period after the event: «السنوات التي أعقبت إلغاء الخلافة العثمانية سنة 1924». A boundary marker in an uncited curatorial note; Hodgson and Hourani are on the relation though the record cites them only as further reading. In its favour: the event's own periods field lists this period, and the years agree."
+  },
+  {
+    "record": "polity/delhi-sultanate",
+    "type": "had_capital",
+    "target": "place/delhi",
+    "verdict": "SUPPORTED",
+    "why": "Lead: «سلطنة قامت سنة 1206م وانتهت سنة 1526م، وعاصمتها دلهي» {cite:wikidata}; the record's own wikilink is place/delhi, not new-delhi or old-delhi."
+  },
+  {
+    "record": "polity/seljuk-empire",
+    "type": "had_capital",
+    "target": "place/nishapur",
+    "verdict": "SUPPORTED",
+    "why": "Lead: «إمبراطورية قامت سنة 1037م وانتهت سنة 1194م، وعاصمتها نيسابور» {cite:wikidata}; the record's own wikilink is the target. The edge says exactly what the record says. That the record gives the empire a single capital is thin (its Urdu summary hedges it), but that is a question about the record, not about the edge."
+  }
+]

@@ -8,7 +8,7 @@ summary:
   ar: "كبرى الممالك الإسلامية في شمال الهند من القرن السابع إلى القرن العاشر الهجري، وعاصمتها دهلي. قامت بعد الفتوح الغورية، وتعاقب عليها المماليك الترك والخلجيون والتغلقيون والسادات واللوديون؛ بلغت أوسع نفوذها في عهد علاء الدين الخلجي، وضعفت بعد غزو تيمور سنة 801هـ/1398م، وانتهى حكم اللوديين في باني بت سنة 932هـ/1526م."
   en: "The principal Muslim kingdom of northern India from the thirteenth to the sixteenth century, with its capital at Delhi. It arose from the Ghurid conquests and was ruled in turn by Turkish slave commanders, Khaljis, Tughluqs, Sayyids and Lodis; it reached its widest sway under 'Ala' al-Din Khalji, was broken by Timur's invasion of 801/1398, and Lodi rule ended at Panipat in 932/1526."
   ur: "تیرہویں سے سولہویں صدی عیسوی تک شمالی ہندوستان کی سب سے بڑی مسلم مملکت، جس کا دارالحکومت دہلی تھا۔ یہ غوری فتوحات سے وجود میں آئی اور اس پر ترک غلام سرداروں، خلجیوں، تغلقوں، سیدوں اور لودھیوں نے باری باری حکومت کی؛ علاء الدین خلجی کے عہد میں اس کا اقتدار سب سے وسیع ہوا، 801ھ/1398ء میں تیمور کے حملے نے اسے توڑ دیا، اور لودھی حکومت 932ھ/1526ء میں پانی پت میں ختم ہوئی۔"
-wings: []
+wings: [time]
 periods:
 - period/crusades-ayyubid-mamluk
 regions:
@@ -33,6 +33,8 @@ capitals:
 - place: place/delhi
 external_ids:
   wikidata: Q229411
+relations:
+- { type: had_capital, target: place/delhi, sources: [source/wikidata] }
 sources:
 - source/wikidata
 - source/encyclopaedia-of-islam-2

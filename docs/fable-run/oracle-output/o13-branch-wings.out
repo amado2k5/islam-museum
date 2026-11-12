@@ -1,0 +1,20 @@
+MEASUREMENT 13: which cornerstones the wing pages list (this branch's built pages, not production)
+file: scripts/fable/o13_production_wings.py
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 0
+built pages: .cache/fable-dist (scoped production build: homepage, wing landings and the Tour, rendered by the real site source)
+------------------------------------------------------------------------------
+  /en/living/  lists  practice/salah
+  /en/living/  lists  practice/hajj
+  /en/living/  lists  practice/sawm-ramadan
+  /en/living/  lists  practice/zakat
+  /en/words/  lists  work/quran
+  /en/words/  lists  work/sahih-al-bukhari
+  /en/words/  lists  work/muwatta-malik
+  /en/time/  lists  period/prophetic-era
+  /en/time/  lists  polity/abbasid-caliphate
+  /en/people/  lists  group/quraysh
+  /en/people/  lists  person/muhammad
+  /en/time/  lists  event/battle-of-badr
+------------------------------------------------------------------------------
+12 of 12 probed cornerstones are listed on the wing page that should hold them (the last two are controls that should be listed)
