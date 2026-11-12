@@ -1891,3 +1891,20 @@ Next step: episode 15.
 | Repetition loops and garbled windows | ep14 00:04:00, 00:18:00, 00:20:00, 00:30:30, 00:36:30–00:37:00, 00:39:00, 00:41:00–00:41:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Poetry quoted | ep14 00:34:30–00:35:00 | Not reproduced | Sources policy | Open |
 | Question on bank home ownership | ep14 00:38:00–00:38:30 | Not answered in the recording; not recorded | Clarity | Open |
+
+### al-naba-al-safi, episode 15 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-5)
+
+Episode 15 read in full (51 min of transcript) before writing. 11 points written (ar, en, ur); new `about` edges for the people and passages named; 10 needs_source (unchained sayings, hadiths and accounts in sense, rulings and procedures without evidence).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep15 (whoever is given four is not denied four) | about 51 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 11 points | new `about` edges | 11 | 10 needs_source | this PR |
+
+Next step: episode 16.
+
+| Excluded (al-naba-al-safi ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements and the long closing prayer | ep15 00:00:00–00:00:30, 00:18:00–00:18:30, 00:36:00–00:36:30, 00:48:00–00:50:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep15 00:09:30, 00:16:30–00:17:00, 00:31:00, 00:33:30, 00:35:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Caller praise of the channel and advertising remarks | ep15 00:40:00–00:40:30, 00:45:30 | Not lesson content | Content rule | Open |
+| Remarks on publishing the lecturer's book | ep15 00:46:30 | Promotional; not recorded | Content rule | Open |

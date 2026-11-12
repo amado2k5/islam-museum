@@ -127,6 +127,13 @@ relations:
   - { type: about, target: passage/quran-14-34, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: passage/quran-4-9, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: passage/quran-12-18, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/sulayman, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/said-ibn-zayd, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: passage/quran-27-40, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: passage/quran-34-13, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: passage/quran-9-60, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: passage/quran-17-3, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: passage/quran-17-36, sources: [source/assabile-omar-abdelkafy] }
 sources: [source/assabile-omar-abdelkafy]
 provenance: { layer: copyrighted-reference, source: "Assabile, al-naba-al-safi (archive series index; transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2); topic list from the museum records citing the series", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: omar-abdelkafy-explorer-backfill-1 }
 status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run omar-abdelkafy-explorer-backfill-1" }
