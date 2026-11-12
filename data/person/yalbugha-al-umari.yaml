@@ -1,0 +1,34 @@
+id: person/yalbugha-al-umari
+class: person
+label: { ar: "يلبغا العمري الخاصكي", en: "Yalbugha al-Umari, Mamluk emir and regent", ur: "یلبغا العمری، مملوکی امیر اور نائب سلطنت" }
+names:
+  - { kind: full, value: "Sayf al-Din Yalbugha ibn Abd Allah al-Umari al-Khassaki al-Nasiri" }
+  - { kind: laqab, value: "Nizam al-Mulk" }
+  - { kind: alternate, value: "Yalbugha al-Kabir" }
+summary:
+  ar: "الأمير يلبغا بن عبد الله العمري الخاصكي، مملوك الناصر حسن الذي ترقى حتى صار أمير مجلس ثم قاد الثورة على سيده وقتله سنة 762هـ/1361م. أقام الصبي المنصور محمد سلطاناً وصار أتابك العساكر ومدبر المملكة، ثم خلعه سنة 764هـ وأقام الأشرف شعبان، وبقي صاحب الأمر حتى قتله مماليكه في ربيع الآخر سنة 768هـ/ديسمبر 1366م. خرج من بيته اليلبغاوية الظاهر برقوق {cite:encyclopaedia-of-islam-2 vol. 6 p. 343} {cite:nujum-zahira 11/3-6}."
+  en: "Amir Yalbugha ibn Abd Allah al-Umari al-Khassaki was a mamluk of al-Nasir Hasan who rose to be amir majlis and then led the revolt that killed his master in 762/1361. He installed the boy al-Mansur Muhammad, became atabek of the armies and manager of the realm, deposed him in 764 in favour of al-Ashraf Shaban, and stayed the real power until his own mamluks killed him in Rabi II 768/December 1366. Barquq came from his household, the Yalbughawiyya {cite:encyclopaedia-of-islam-2 vol. 6 p. 343} {cite:nujum-zahira 11/3-6}."
+  ur: "امیر یلبغا بن عبد اللہ العمری الخاصکی الناصر حسن کے مملوک تھے جو ترقی کر کے امیر مجلس بنے اور پھر اپنے آقا کے خلاف بغاوت کی قیادت کی جس میں 762ھ/1361ء میں سلطان قتل ہوئے۔ انہوں نے نوعمر المنصور محمد کو تخت پر بٹھایا، خود اتابک العساکر اور مدبرِ مملکت بنے، 764ھ میں اسے معزول کر کے الاشرف شعبان کو سلطان بنایا، اور ربیع الآخر 768ھ/دسمبر 1366ء میں اپنے ہی مملوکوں کے ہاتھوں قتل ہونے تک اصل صاحبِ اختیار رہے۔ ظاہر برقوق انہی کے گھرانے یلبغاویہ سے اٹھے {cite:encyclopaedia-of-islam-2 vol. 6 p. 343} {cite:nujum-zahira 11/3-6}."
+gender: male
+roles: [emir, politician]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+died: { edtf: "1366", hijri: "0768", calendar: julian, precision: year, status: historical, derived: true, note: "Killed on the night of 9-10 Rabi II 768, the Saturday night before Sunday 10 Rabi II {cite:nujum-zahira 11/40}; EI2 gives Rabi II 768/December 1366 {cite:encyclopaedia-of-islam-2 vol. 6 p. 343}. Birth date is not given in the sources read.", sources: [source/encyclopaedia-of-islam-2, source/nujum-zahira] }
+relations:
+  - { type: opposed, target: person/al-nasir-hasan, note: "Led the mamluk revolt in which Sultan Hasan was seized and killed, 762 AH; EI2 vol. 6 p. 343; Nujum 10/311-314.", sources: [source/encyclopaedia-of-islam-2, source/nujum-zahira] }
+  - { type: lived_in, target: place/cairo, note: "Lived at al-Kabsh in Cairo; Durar 4/438.", sources: [source/durar-kamina-jil-1993] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. (Mamluks; Sha'ban; al-Nasir); Ibn Taghribirdi, al-Nujum al-Zahira vol. 10 pp. 307-314 and vol. 11 pp. 3-6, 30-44; Ibn Hajar, al-Durar al-Kamina vol. 4 pp. 438-440"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-3
+  canon: "EI2 vol. 6 p. 343 (Mamluks), vol. 9 pp. 163-164 (Sha'ban), vol. 10 p. 662 (Kalluta), vol. 7 p. 1047 (al-Nasir)"
+sources: [source/encyclopaedia-of-islam-2, source/nujum-zahira, source/durar-kamina-jil-1993]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "يلبغا كان مملوكاً للسلطان حسن، ثم صار أقوى رجل في مصر لسنوات قبل أن يسقط هو أيضاً."
+  en: "Yalbugha began as a slave-soldier of Sultan Hasan and became the most powerful man in Egypt for a few years before he fell too."
+  ur: "یلبغا سلطان حسن کا غلام سپاہی تھا اور چند برس مصر کا سب سے طاقتور آدمی بنا، پھر وہ خود بھی گر گیا۔"

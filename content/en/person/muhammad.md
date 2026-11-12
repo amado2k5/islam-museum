@@ -1,8 +1,8 @@
 ---
 id: person/muhammad
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Summary
@@ -38,6 +38,96 @@ He used to withdraw to the cave of [[place/ghar-hira|Hira]] in the month of Rama
 
 ## The secret call
 The author divides the Meccan period into stages. The first was three years of secret call, followed by the open proclamation of the call to the people of Mecca ([[concept/marahil-al-dawa|the stages of the call]]) {cite:mubarakpuri-raheeq p.63}. He and his companions prayed in the mountain passes, concealed from their people ([[concept/al-salat-qabl-al-isra|the prayer before the Night Journey]]) {cite:mubarakpuri-raheeq p.71}. Then he was commanded to call openly, and he proclaimed the call in the gatherings and assemblies of the idolaters {cite:mubarakpuri-raheeq p.75}.
+
+## The Encyclopaedia of Islam account: two ways of asking
+The Encyclopaedia of Islam article on Muhammad opens with the Muslim understanding. Belief that he is the Messenger of God stands second only to belief in the oneness of God in the creed of the shahada, and he holds a highly exalted place at the heart of Muslim faith. The article adds that the Qur'an and Islamic orthodoxy insist that he was fully human and had no supernatural powers of his own. {cite:encyclopaedia-of-islam-2 vol. 7 p. 412}
+
+The article then separates two inquiries. For the believer, God chose Muhammad and was directly responsible for his success. For the historian, the evidence points to a man of remarkable leadership and a charismatic personality who drew strong leaders to him. The article calls the two views not necessarily incompatible, but different inquiries with different methods. The sections below follow its historical inquiry, label its academic judgements as the article's own, and set aside what the believer's inquiry holds. {cite:encyclopaedia-of-islam-2 vol. 7 p. 412}
+
+## Sources for his life
+The article names the [[work/quran|Qur'an]] as the most trustworthy source and also the hardest to use, since it answers Muhammad's changing circumstances but was never meant as biography. Next come the maghazi, sira, tafsir and hadith genres, none of which was written to record his life as such, so each report has to be weighed by its purpose. {cite:encyclopaedia-of-islam-2 vol. 7 p. 412} {cite:encyclopaedia-of-islam-2 vol. 7 p. 413}
+
+The most widely used sources date from the third and fourth centuries of the Islamic era. The most respected is the sira of [[person/ibn-ishaq|Ibn Ishaq]], which survives through the recension of [[person/ibn-hisham|Ibn Hisham]] and one by Yunus b. Bukayr, and through quotations in the history of [[person/al-tabari|al-Tabari]]. The article also lists the maghazi of [[person/al-waqidi|al-Waqidi]], the Tabaqat of Ibn Sa'd, and the hadith collections of [[person/al-bukhari|al-Bukhari]], [[person/muslim-ibn-al-hajjaj|Muslim]] and [[person/ahmad-ibn-hanbal|Ahmad b. Hanbal]]. It notes that Muslim writers often criticise al-Waqidi as unreliable. {cite:encyclopaedia-of-islam-2 vol. 7 p. 413}
+
+## Early life in Mecca
+The article says no certain chronology exists for the Meccan period. The biographers make him 40 or sometimes 43 at the call, which would put his birth near 570. The article rejects the tradition of birth in the Year of the Elephant, judging that the attack of Abraha must have come well before 570, and prefers to leave the year of birth open. {cite:encyclopaedia-of-islam-2 vol. 7 p. 413}
+
+On his family, the article accepts that old poems support the tradition that he belonged to [[group/banu-hashim|Banu Hashim]], apparently a respectable but not prosperous family, and that it ranked below the greatest Meccan clans. His father is described as a colourless figure in the sources. His uncles [[person/abu-talib|Abu Talib]], al-Abbas, [[person/hamza|Hamza]] and [[person/abu-lahab|Abu Lahab]] are the first tangible historical figures among his relatives. {cite:encyclopaedia-of-islam-2 vol. 7 p. 413} {cite:encyclopaedia-of-islam-2 vol. 7 p. 414}
+
+The article reads Sura 93 as affirming that he grew up an orphan. It treats the colourful stories of his youth, including the opening of his breast, the journeys to Syria, the monk [[person/bahira|Bahira]] and his part in rebuilding the Ka'ba, as valuable for early Muslim perceptions of him but of little worth for the historical Muhammad. These are the article's judgements; the earlier sections of this page give the sira's own account. It says the sources tell almost nothing of the years between his marriage to [[person/khadija|Khadija]] and the first revelations. {cite:encyclopaedia-of-islam-2 vol. 7 p. 414}
+
+## Emergence as a religious reformer
+The article calls the question of how he came to his mission among the hardest to answer. It judges it natural that he first shared some religious conceptions of his milieu, and it points to sympathetic monotheists around him, among them [[person/waraqa-ibn-nawfal|Waraqa ibn Nawfal]], the [[concept/hanif|hanifs]] and the poet Umayya b. Abi al-Salt. {cite:encyclopaedia-of-islam-2 vol. 7 p. 414} {cite:encyclopaedia-of-islam-2 vol. 7 p. 415}
+
+Islamic tradition tells of a sudden call, some stories involving Gabriel, while the article reports an argument that his emergence was gradual and involved long reflection, called tahannuth in the sira. It says the verses read as pointing to a first revelation are ambiguous, and it calls the stories identifying Sura 96 or Sura 74 as first revelation highly suspect. The three-year pause of revelation is, in its view, an unexplained puzzle that may come from the biographers' wish to build an exact chronology. {cite:encyclopaedia-of-islam-2 vol. 7 p. 415}
+
+## His public ministry in Mecca
+The article describes the early recitations as an urgent moral and religious appeal: man's responsibility before the God who created him, the coming judgement, and the signs of God in nature. It lists the simple duties of the Meccan years as belief in God, prayer, night vigils, helping those in need, honest dealing, a chaste life and the rejection of the burying of newborn girls. {cite:encyclopaedia-of-islam-2 vol. 7 p. 415}
+
+At first there was no serious opposition. The article names [[person/khadija|Khadija]] as consistently the first believer, with [[person/abu-bakr|Abu Bakr]], [[person/zayd-ibn-haritha|Zayd ibn Haritha]], [[person/ali-ibn-abi-talib|Ali]], [[person/abd-al-rahman-ibn-awf|Abd al-Rahman ibn Awf]] and [[person/saad-ibn-abi-waqqas|Sa'd ibn Abi Waqqas]] among early followers, most of them young or of modest standing. Opposition came when he attacked the gods of Mecca, because the merchants feared for their fairs and trade. {cite:encyclopaedia-of-islam-2 vol. 7 p. 416}
+
+On the word ummi the article says it means one who had not been given a scripture before, the opposite of the People of the Book, and argues that it does not settle whether he could read and write. It adds that the meaning "illiterate" arose later in theological circles, as support for the doctrine of the miracle of the revelation. This is the article's argument; it also notes that in Muslim piety the reading as illiterate is central, and the [[concept/ummi|ummi]] record gives the Muslim understanding of the term. {cite:encyclopaedia-of-islam-2 vol. 7 p. 416}
+
+## Abyssinia, the gharaniq story and the boycott
+Traditions describe at length the persecution of Muhammad and his followers. The article notes that the Qur'an is silent on many episodes the sira treats as major Meccan events. It reports that Ibn Sa'd tells of two migrations to [[place/abyssinia|Abyssinia]] while Ibn Hisham and al-Tabari speak of one, and that Watt found the episode more complex than the traditional accounts suggest, possibly involving a division in the young community or trading aims. {cite:encyclopaedia-of-islam-2 vol. 7 p. 417}
+
+The article retells the story, found in al-Tabari and Ibn Sa'd but not in Ibn Hisham, that Satan placed two verses on his tongue accepting intercession of three goddesses. It says most Muslims reject it as a later invention, that European biographers have often accepted it as historical, and that the article itself finds it unacceptable in its present form while allowing a possible kernel behind it. {cite:encyclopaedia-of-islam-2 vol. 7 p. 417}
+
+It judges the story of the boycott of Banu Hashim probably much exaggerated, though the clan's support was what made his position possible. It names [[person/abu-lahab|Abu Lahab]] as the clan's chief opponent. {cite:encyclopaedia-of-islam-2 vol. 7 p. 417}
+
+## The last years in Mecca
+The article judges that his attempt at reform in Mecca failed on the whole, and that his position grew hopeless after the deaths of Khadija and Abu Talib. It reports the unsuccessful journey to [[place/taif|Ta'if]] and the protection he then obtained from Mut'im b. 'Adi. {cite:encyclopaedia-of-islam-2 vol. 7 p. 417} {cite:encyclopaedia-of-islam-2 vol. 7 p. 418}
+
+On the [[event/isra-and-miraj|Night Journey and Ascension]] the article shows that the sources place them differently: Ibn Sa'd gives two events after Ta'if, Ibn Hisham places them before the two deaths, and al-Tabari places the Ascension before the public ministry. Later tradition joined them, ending at the Temple Mount in Jerusalem, which the article says makes Jerusalem the third holiest city for Muslims. {cite:encyclopaedia-of-islam-2 vol. 7 p. 418}
+
+At the fairs and pilgrimages he found favourable ground with men from Yathrib. The article says the Medinans wanted a political leader to mend tribal conflicts that had ended in the battle of Bu'ath, and calls the contrast between the inspired preacher and the statesman one of the hardest problems of his biography. After contacts in 621 he concluded at al-Aqaba, in 622, a formal agreement under which the Medinans took him under their protection. {cite:encyclopaedia-of-islam-2 vol. 7 p. 418}
+
+His followers slipped away to Medina in groups. The article says that some accounts, possibly Shi'i, have Ali remaining until the last moment. It treats the tale of the cave as possibly an exegetical elaboration of a Qur'anic verse, and says that on the usual reckoning he reached Quba on 12 Rabi' I, 24 September 622. {cite:encyclopaedia-of-islam-2 vol. 7 p. 418} {cite:encyclopaedia-of-islam-2 vol. 7 p. 419}
+
+## Medina: building a community
+The [[event/hijra|Hijra]] became year one of the Islamic calendar. In Medina the Emigrants, [[group/muhajirun|muhajirun]], held a special rank, followed by the Helpers, [[group/ansar|ansar]]. Opposition came from a minority, among them a group around [[person/abdullah-ibn-ubayy|Abd Allah b. Ubayy]], and the old feud of the Aws and Khazraj remained a danger. Three Jewish tribes, [[group/banu-qaynuqa|Qaynuqa]], [[group/banu-nadir|al-Nadir]] and [[group/banu-qurayza|Qurayza]], were prominent. {cite:encyclopaedia-of-islam-2 vol. 7 p. 419}
+
+The article describes a pairing of each Emigrant with a Medinan, and the agreement known as the Constitution of Medina, preserved by Ibn Ishaq. It judges that the document reflects a later, strained relation with the Jews, includes Jews and polytheists in the community, and was soon made obsolete by changing conditions. {cite:encyclopaedia-of-islam-2 vol. 7 p. 419}
+
+The article says he first sought the favour of Medina's Jews by adopting some of their practices, among them the fast of Ashura, and perhaps facing Jerusalem in prayer. When they did not accept his claim, the [[concept/qibla|direction of prayer]] changed to the Ka'ba in the second year after the Hijra. The article calls this a turning point and links it to the figure of Abraham as the first muslim and founder of the Meccan sanctuary. It adds that the Qur'an also challenged Jewish and Christian scriptural claims, and that Muhammad was not thinking of founding a new religion but of restoring the true one. {cite:encyclopaedia-of-islam-2 vol. 7 p. 419} {cite:encyclopaedia-of-islam-2 vol. 7 p. 420} {cite:encyclopaedia-of-islam-2 vol. 7 p. 421}
+
+## Expeditions and battles
+The article recounts small raids, the [[event/expedition-of-nakhla|expedition of Nakhla]] in a sacred month, and the [[event/battle-of-badr|battle of Badr]] in Ramadan 2 AH, where [[person/abu-jahl|Abu Jahl]] led the Meccans and the Muslims won. It says two prisoners were put to death and the others ransomed, and that Badr confirmed his belief in his call. {cite:encyclopaedia-of-islam-2 vol. 7 p. 421}
+
+It then covers the siege of Qaynuqa, the [[event/battle-of-uhud|battle of Uhud]] in 3 AH, where Muslim archers left their position, the Prophet was wounded and his uncle Hamza was killed, and the expulsion of al-Nadir. It describes the siege of Medina in 5 AH, the trench, and the Meccan withdrawal. {cite:encyclopaedia-of-islam-2 vol. 7 p. 422}
+
+On [[event/battle-of-the-trench|the Trench]] aftermath, the article reports that the men of Qurayza, numbering between 600 and 900 according to varying accounts, were killed, and the women, children and property divided, citing Ibn Hisham. It states that tradition places responsibility on Sa'd b. Mu'adh, who gave the judgment, but that, in the article's view, various indications point to the Prophet himself as responsible. This is the article's judgement and is not offered here as settled. {cite:encyclopaedia-of-islam-2 vol. 7 p. 422} {cite:encyclopaedia-of-islam-2 vol. 7 p. 423}
+
+The article also notes the raid on the Banu Mustaliq, the episode involving [[person/aisha|A'isha]], and the chronological disagreement of the sources about it, as an example of how precise chronology is often unattainable. {cite:encyclopaedia-of-islam-2 vol. 7 p. 423}
+
+## Hudaybiya, Khaybar and the conquest of Mecca
+In March 628 he led followers on an 'umra but was stopped at [[event/treaty-of-hudaybiyya|al-Hudaybiya]], where a ten-year truce was agreed, allowing a pilgrimage the next year. The article calls it a brilliant act of diplomacy, since the Meccans recognised him as an equal. It says some followers were angry at the terms. {cite:encyclopaedia-of-islam-2 vol. 7 p. 423}
+
+The oasis of [[place/khaybar|Khaybar]] was taken early in 7 AH. The article says the inhabitants stayed as tenants paying a yearly tribute, later called [[concept/jizya|jizya]], and that this set the precedent for later terms. {cite:encyclopaedia-of-islam-2 vol. 7 p. 423}
+
+The article doubts the traditional letters to the Byzantine and Persian rulers and others summoning them to Islam, finding them unlikely before the conquest of Mecca, though letters to Arab tribes and to the Negus are accepted. {cite:encyclopaedia-of-islam-2 vol. 7 p. 424}
+
+After the reverse at [[event/battle-of-mutah|Mu'ta]], where Zayd ibn Haritha was killed, a Meccan decision to support a client clan against Muhammad's allies, the Khuza'a, freed him from the truce, and he marched in Ramadan 8 AH. The article reports that [[person/abu-sufyan-ibn-harb|Abu Sufyan]] obtained an amnesty for the Quraysh and that he entered the city almost without a fight, demanding the destruction of idols. [[person/khalid-ibn-al-walid|Khalid ibn al-Walid]] and [[person/amr-ibn-al-as|Amr ibn al-As]] became Muslims in this period. {cite:encyclopaedia-of-islam-2 vol. 7 p. 424} {cite:encyclopaedia-of-islam-2 vol. 7 p. 425}
+
+## From Hunayn to the death
+The article follows with [[event/battle-of-hunayn|Hunayn]], the long delay at Ta'if, the gifts to former opponents, and the many delegations of 9 AH. It describes the expedition to [[event/expedition-to-tabuk|Tabuk]] as indecisive in battle but followed by submissions from small Christian and Jewish states in the north. It cautions that historians exaggerate when they present all of Arabia as converted. {cite:encyclopaedia-of-islam-2 vol. 7 p. 425}
+
+The article reports that at the end of 10 AH, in March 632, he led the [[event/farewell-pilgrimage|Farewell Pilgrimage]], which it says set the standard for all time. A month before his death he prepared an expedition to Transjordan under the young [[person/usama-ibn-zayd|Usama ibn Zayd]]. He fell ill, and died reportedly on a Monday, 8 June 632, in the arms of his wife A'isha. The article says he left no legal successor and that the inner circle had to choose a leader in the tribal manner, and relates a report that he was buried under the floor of A'isha's apartment. {cite:encyclopaedia-of-islam-2 vol. 7 p. 426}
+
+## The article's assessment
+The article states that the modern biographer is hindered because the early sources saw his successes as proofs of divine service and not as the acts of a man. In its own historical judgement, the essential clue to his success was his unshakeable belief that God had called him. It adds that the Qur'an presents him as a man like any other who would die, and that later devotion wove a network of superhuman features around him. {cite:encyclopaedia-of-islam-2 vol. 7 p. 426} {cite:encyclopaedia-of-islam-2 vol. 7 p. 427}
+
+## The Prophet in popular Muslim piety
+A separate part of the article, by Annemarie Schimmel, treats the veneration seen in qawwali and mawlid gatherings, in poetry across many regions. It reports popular stories such as the splitting of the moon, the palm trunk that sighed, and stories of the gazelle, and says the folk understanding of ummi as illiterate became central to piety. {cite:encyclopaedia-of-islam-2 vol. 7 p. 428} {cite:encyclopaedia-of-islam-2 vol. 7 p. 429}
+
+It describes belief in his [[concept/shafaa|intercession]], the recitation of blessings on him as a major formula after the shahada, celebration of his birth, and the custom of naming boys after him. It concludes that devotion to him is the strongest binding power among Muslims, whether they see him as intercessor, primordial light, friend of humans and animals, or political leader. {cite:encyclopaedia-of-islam-2 vol. 7 p. 429}
+
+## The image of the Prophet in Europe
+The third part of the article studies how medieval and later Europeans pictured him. It says medieval Latin scholars knew a surprising amount of accurate detail about his life, but that this passed through non-Muslim transmitters and was used by Christian authors for polemic, so an objective life remained impossible. {cite:encyclopaedia-of-islam-2 vol. 7 p. 429} {cite:encyclopaedia-of-islam-2 vol. 7 p. 430}
+
+The article describes the dominant medieval aim as proving he could not have been a prophet, with charges of imposture, sickness, ambition, warfare and sexuality, and describes popular epics that showed him as an idol, an image it reads as polemic against Islam as supposed polytheism. {cite:encyclopaedia-of-islam-2 vol. 7 p. 431} {cite:encyclopaedia-of-islam-2 vol. 7 p. 432} {cite:encyclopaedia-of-islam-2 vol. 7 p. 433}
+
+From the sixteenth and seventeenth centuries it traces a move toward fairer views, with Boulainvilliers, Voltaire and Carlyle, while hostile portraits continued in some English and German writing. It also describes dramas and poems of the nineteenth and early twentieth centuries that used his figure to explore genius, faith and fanaticism. {cite:encyclopaedia-of-islam-2 vol. 7 p. 434} {cite:encyclopaedia-of-islam-2 vol. 7 p. 435} {cite:encyclopaedia-of-islam-2 vol. 7 p. 436}
 
 ## For Sprouts
 The Prophet of Islam. Muslims believe the Qur'an was revealed to him, and he founded the first Muslim community in Medina.

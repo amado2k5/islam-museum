@@ -1,0 +1,34 @@
+id: person/taz-al-nasiri
+class: person
+label: { ar: "الأمير طاز الناصري", en: "Taz al-Nasiri, Mamluk emir", ur: "امیر طاز الناصری، مملوکی امیر" }
+names:
+  - { kind: full, value: "Sayf al-Din Taz ibn Abd Allah al-Nasiri" }
+  - { kind: alternate, value: "Tāz" }
+summary:
+  ar: "الأمير سيف الدين طاز الناصري مملوك الناصر محمد بن قلاوون، كان من الستة المدبرين في دولة المظفر حاجي ثم من التسعة أصحاب المشورة عند تولي الناصر حسن، وأمسك في موسم الحج سنة 751هـ صاحب اليمن المجاهد وبيبغا روس. شارك شيخو وصرغتمش في الحكم ثم نُفي نائباً على حلب، وقبض عليه حسن سنة 758هـ وكُحلت عيناه، فأفرج عنه يلبغا العمري وأقام بالقدس حتى مات سنة 763هـ {cite:durar-kamina-jil-1993 2/214} {cite:nujum-zahira 11/15}."
+  en: "Amir Sayf al-Din Taz al-Nasiri was a mamluk of al-Nasir Muhammad ibn Qalawun, one of the six who ran the state under al-Muzaffar Hajji and one of nine counsellors when al-Nasir Hasan came to the throne. On the pilgrimage of 751 he seized the Rasulid ruler of Yemen, al-Mujahid, and Baybugha Urus. He shared power with Shaykhu and Sarghitmish, was sent away as governor of Aleppo, was arrested and blinded in 758, was freed by Yalbugha al-Umari, and lived in Jerusalem until he died in 763 {cite:durar-kamina-jil-1993 2/214} {cite:nujum-zahira 11/15}."
+  ur: "امیر سیف الدین طاز الناصری الناصر محمد بن قلاوون کے مملوک تھے، المظفر حاجی کے دور میں ریاست چلانے والے چھ امیروں میں سے ایک اور الناصر حسن کی تخت نشینی کے وقت نو مشیروں میں شامل تھے۔ 751ھ کے حج میں انہوں نے یمن کے رسولی حکمران المجاہد اور بیبغا روس کو پکڑا۔ انہوں نے شیخو اور صرغتمش کے ساتھ اقتدار بانٹا، پھر حلب کے نائب بنا کر بھیجے گئے، 758ھ میں گرفتار ہوئے اور ان کی آنکھیں پھوڑ دی گئیں، یلبغا العمری نے انہیں رہا کیا اور وہ 763ھ میں وفات تک قدس میں رہے {cite:durar-kamina-jil-1993 2/214} {cite:nujum-zahira 11/15}."
+gender: male
+roles: [emir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, levant-iraq]
+died: { edtf: "1362", hijri: "0763", calendar: julian, precision: year, status: historical, derived: true, note: "Ibn Hajar gives 20 Dhu al-Hijja 763 {cite:durar-kamina-jil-1993 2/214}; Ibn Taghribirdi records the death under 763 in Jerusalem {cite:nujum-zahira 11/15}, while Ibn Hajar says he had been moved to Damascus at the end of 762. Birth date is not given in the sources read.", sources: [source/durar-kamina-jil-1993, source/nujum-zahira] }
+relations:
+  - { type: lived_in, target: place/aleppo, note: "Governor of Aleppo after 755; Nujum 10/302; Durar 2/214.", sources: [source/nujum-zahira, source/durar-kamina-jil-1993] }
+  - { type: lived_in, target: place/jerusalem, note: "Lived in Jerusalem after release by Yalbugha; Nujum 11/4 and 11/15.", sources: [source/nujum-zahira] }
+  - { type: allied_with, target: person/shaykhu-al-umari, note: "Member of the ruling triumvirate with Shaykhu and Sarghitmish in 752; EI2 vol. 8 p. 1058.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Ibn Taghribirdi, al-Nujum al-Zahira vol. 10 pp. 188, 226-229, 265, 285-286, 302, 307 and vol. 11 pp. 4, 15; Ibn Hajar, al-Durar al-Kamina vol. 2 p. 214; Encyclopaedia of Islam 2nd ed. (Hasan; al-Salih)"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-3
+  canon: "EI2 vol. 3 p. 259 (Hasan), vol. 8 p. 1058 (al-Salih); Nujum vols. 10-11; Durar vol. 2"
+sources: [source/nujum-zahira, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "طاز كان أميراً شجاعاً في مصر، أسر ملك اليمن في الحج، ثم عاش آخر أيامه في القدس."
+  en: "Taz was a brave emir in Egypt who captured the king of Yemen at the pilgrimage and spent his last years in Jerusalem."
+  ur: "طاز مصر کا بہادر امیر تھا جس نے حج کے موقع پر یمن کے بادشاہ کو پکڑا اور آخری برس قدس میں گزارے۔"

@@ -16,6 +16,33 @@ At the [[event/battle-of-the-trench|siege of 627]], with Medina ringed by the la
 ## Legacy
 In the Prophet's reported words, "Salman is one of us, the People of the House" — a Persian, once enslaved, counted inside Islam's most honored family. He remains the tradition's great argument that Islam is not an ethnicity.
 
+## In the Encyclopaedia of Islam
+The Encyclopaedia of Islam, second edition, supplement volume, has an article on Salman al-Farisi, also called Salman Pak, by G. Levi Della Vida. It opens by calling him a semi-legendary figure of early Islam, a Companion of the Prophet and the person whom later tradition regards as the first convert to Islam. {cite:encyclopaedia-of-islam-2 vol. 12 p. 774} The sections below follow that article and label whose view each statement is.
+
+### The traditional account, as the article summarises it
+According to one tradition, whose fullest form goes back to [[person/ibn-ishaq|Ibn Ishaq]], Salman was the son of a village headman of [[place/jayy|Jayy]] near [[place/isfahan|Isfahan]]. Other stories place him near [[place/ramhurmuz|Ramhurmuz]] and give his Persian name as Mahbeh or Ruzbeh. {cite:encyclopaedia-of-islam-2 vol. 12 p. 774} Drawn to Christianity as a boy, he left his father's house to follow a Christian monk, changed teachers several times and reached Syria. From there he travelled down to the [[place/wadi-al-qura|Wadi al-Qura]] in western Arabia, looking for the prophet who was to restore the religion of Abraham, whose coming his last teacher had foretold on his deathbed. {cite:encyclopaedia-of-islam-2 vol. 12 p. 774}
+
+Bedouin of [[group/banu-kalb|Kalb]], acting as his guides, betrayed him and sold him as a slave to a Jew. He was taken to Yathrib, and soon after he arrived the emigration of [[person/muhammad|Muhammad]] took place. Recognising in Muhammad the marks that the monk had described, Salman became a Muslim. He bought his freedom from his Jewish master, after being helped, in the account, by Muhammad himself to raise the sum. {cite:encyclopaedia-of-islam-2 vol. 12 p. 774}
+
+### The ditch, and the academic assessment
+The name of Salman is linked with the siege of Medina by the Meccans: tradition says he advised digging the ditch, the khandaq, with which the Muslims defended themselves. {cite:encyclopaedia-of-islam-2 vol. 12 p. 774} The article's author sets against this the study of J. Horovitz, which, in his words, shows that the earliest accounts of the day of the ditch do not mention Salman's part. He judges that the story was probably invented to give a Persian the introduction of a defence whose name is of Persian origin. {cite:encyclopaedia-of-islam-2 vol. 12 p. 774} This is an academic position and not the view of the traditional sources summarised in the sections above, which credit Salman with the idea of the trench at the [[event/battle-of-the-trench|Battle of the Trench]].
+
+The author adds that the other reports about Salman's career, his part in the conquest of Iraq and of Fars and his governorship of [[place/al-madain|al-Mada'in]], are in his judgement equally without authority and almost all come from the historian Sayf ibn Umar, whose bias he calls well known. {cite:encyclopaedia-of-islam-2 vol. 12 p. 774} In his view the historical Salman is of the vaguest, and it is hard even to accept that the legend rests on the real conversion of a Medinan slave of Persian origin. {cite:encyclopaedia-of-islam-2 vol. 12 p. 776}
+
+### Why the figure grew
+According to the article, Salman's fame is almost entirely due to his Persian nationality. He is the prototype of the converts who played so large a part in the growth of Islam, and he became the national hero of Muslim Persia and a favourite figure of the [[concept/shuubiyya|Shu'ubiyya]]. {cite:encyclopaedia-of-islam-2 vol. 12 p. 776} The author explains most of the traditions about Salman by one theme: the Prophet is reported to foretell that the Persians will form the better part of the Muslim community and to declare Salman a member of his own family, the [[group/ahl-al-bayt|ahl al-bayt]]. {cite:encyclopaedia-of-islam-2 vol. 12 p. 776}
+
+### Later veneration and the afterlife of the figure
+The article reports that Salman appears as one of the founders of Sufism alongside the people of the Suffa, as named in al-Luma, and that the supposed site of his tomb became a place of worship very early, at the latest in the fourth Islamic century. {cite:encyclopaedia-of-islam-2 vol. 12 p. 776} The tomb is still pointed out near ancient al-Mada'in, at a place called Salman Pak, meaning Salman the Pure, near the former Asbandur suburb. Its mosque was seen by Pietro della Valle in 1617, renovated by Sultan Murad IV and restored again in 1322/1904-5, and it is the object of many pilgrimages, especially by Shi'is returning from [[place/karbala|Karbala]]. {cite:encyclopaedia-of-islam-2 vol. 12 p. 776} Other traditions put his tomb near Isfahan, where his cult is attested in the seventh Islamic century, and elsewhere, for example Lydda. {cite:encyclopaedia-of-islam-2 vol. 12 p. 776}
+
+Salman has a part in the development of the futuwa and the craftsmen's corporations. He is venerated as patron of barbers, which gave rise to a tradition, unknown in the old collections, that he was the Prophet's barber, and he is one of the main links in the mystic chain in several dervish orders. {cite:encyclopaedia-of-islam-2 vol. 12 p. 776}
+
+### Views in Shi'i and other sects
+The article states that among the extremist Shi'i sects Salman is placed immediately after [[person/ali-ibn-abi-talib|Ali]] in the series of divine emanations. The [[group/nusayriyya|Nusayriyya]] make him the third member of a trinity formed by three mystic letters, standing for Ali, Muhammad and Salman, of which he is the gate. {cite:encyclopaedia-of-islam-2 vol. 12 p. 776} These are the doctrines of those sects as reported by the article, and not the position of the Sunni sources or of the academic account above.
+
+### Date of death and reported long life
+The article says Salman's death is placed in 35/655-6 or 36/656-7. In the author's view this date serves only to show that historical tradition had no record of any activity of his after the accession of Ali at the end of 35/656. {cite:encyclopaedia-of-islam-2 vol. 12 p. 776} Like other people said to have become Muslim after long experience of other religions, he is credited with an extraordinary lifespan, reported as 200, 300, 350 and even 553 years. {cite:encyclopaedia-of-islam-2 vol. 12 p. 776}
+
 ## For young visitors
 Salman crossed countries and religions looking for the truth, was enslaved, freed — and then dug the ditch that saved Medina.
 

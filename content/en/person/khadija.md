@@ -1,8 +1,8 @@
 ---
 id: person/khadija
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Brief
@@ -17,6 +17,21 @@ When the Prophet returned trembling from the [[event/first-revelation|first reve
 
 ## Legacy
 In Sunni tradition, Khadija is among the most honoured women: the first to believe, the mother of the Prophet's daughters, and a model of trust and generosity. She was buried in the Hajun cemetery in Mecca.
+
+## In the Encyclopaedia of Islam, 2nd edition
+The article on Khadija in the second edition of the Encyclopaedia of Islam, written by W. Montgomery Watt, is short. It describes her as the first wife of [[person/muhammad|Muhammad]], a daughter of Khuwaylid of the clan of Asad of Quraysh in Mecca {cite:encyclopaedia-of-islam-2 vol. 4 p. 936}.
+
+Before her marriage to Muhammad she had been married twice: to Abu Hala al-Tamimi, a client of the Meccan clan of Abd al-Dar, and to Utayyik, also given as Atik, ibn Aidh of the Meccan clan of Makhzum. The article says that the order of these marriages is disputed, as are the name of Abu Hala and his genealogy. It reports that she is mostly said to have borne Abu Hala two children named Hind and Hala, and to have borne Utayyik a daughter named Hind {cite:encyclopaedia-of-islam-2 vol. 4 p. 936}. The author thinks she was probably divorced from Abu Hala, because divorce was common in Mecca, whereas Utayyik is said to have died and left her a widow. He sees some confirmation of this in the fact that Utayyik's nephew, al-Sa'ib ibn Abi al-Sa'ib, later became Muhammad's business partner {cite:encyclopaedia-of-islam-2 vol. 4 p. 936}.
+
+The article notes that she owned property and was able to trade before she married Muhammad, as did another Meccan woman it names. The author judges that this independence most probably reflects the persistence of old practices based on matrilineal kinship, and points to the fact that her sister Ruqayqa had a daughter known by her mother's name {cite:encyclopaedia-of-islam-2 vol. 4 p. 936}. In 605, or earlier, according to the article, she arranged for Muhammad to go to [[place/busra|Busra]] in Syria as steward of her merchandise. He carried out the task satisfactorily, and after his return she offered him marriage. The article says that the tales of her being impressed by miracles connected with Muhammad may be discounted, and so may the story that she won her father's consent by making him drunk {cite:encyclopaedia-of-islam-2 vol. 4 p. 936}.
+
+The marriage contract is mostly said to have been made for her by her uncle Amr ibn Asad, while Hamza acted for his nephew Muhammad. The couple apparently lived for a time in a house within the compound of her nephew [[person/hakim-ibn-hizam|Hakim ibn Hizam]] in Mecca, and during the boycott Hakim took food to his aunt, who was then among the Banu Hashim. It was from Hakim that Khadija received [[person/zayd-ibn-haritha|Zayd ibn Haritha]], who had been brought from Syria as a slave or bought at Ukaz {cite:encyclopaedia-of-islam-2 vol. 4 p. 936}. The accounts differ on ages at the time of the marriage: Muhammad is said to have been twenty-five, or twenty-three, or twenty-one, and Khadija forty, or twenty-eight {cite:encyclopaedia-of-islam-2 vol. 4 p. 936}.
+
+According to the article, at least five children were born to Khadija and Muhammad: four girls, Zaynab, Umm Kulthum, Fatima and Ruqayya, and one or possibly two boys, al-Qasim and Abd Allah. The article adds that these two may be the same child, and that it is generally agreed that al-Tahir and al-Tayyib are names of Abd Allah {cite:encyclopaedia-of-islam-2 vol. 4 p. 936}.
+
+The article treats the marriage as an important turning point in Muhammad's career, mainly because, as it says is explicitly stated, she supported and encouraged him and strengthened his confidence in himself and his mission. It reports that after the experience of the call to prophethood she told her relative [[person/waraqa-ibn-nawfal|Waraqa ibn Nawfal]], a Christian, who declared it to be an experience like that of Moses when he received the Law. The author judges that this doubtless helped to confirm Muhammad's belief in the genuineness of the experience {cite:encyclopaedia-of-islam-2 vol. 4 p. 936}. He also suggests that the marriage is probably referred to in a verse of sura 93, since her wealth would have allowed Muhammad to engage more widely in commerce. This is the author's inference, not a statement of the verse's reading by the museum. The article notes that no further journeys to Syria are mentioned, but that Muhammad seems to have traded in partnership with al-Sa'ib {cite:encyclopaedia-of-islam-2 vol. 4 p. 936} {cite:encyclopaedia-of-islam-2 vol. 4 p. 937}.
+
+On her death, the article says she is reported to have died three days after [[person/abu-talib|Abu Talib]], in the year 619, which it places three years before the Hijra {cite:encyclopaedia-of-islam-2 vol. 4 p. 937}. Other sections of this page give the reports of the Arabic sources, which count the interval differently.
 
 ## For young visitors
 Imagine being the first person to believe a friend's astonishing story, and standing beside him with your money and your courage for the rest of your life. That is what Khadija was.

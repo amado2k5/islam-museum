@@ -1,0 +1,34 @@
+id: person/khedive-ismail
+class: person
+label: { ar: "الخديوي إسماعيل", en: "Khedive Ismail", ur: "خدیو اسماعیل" }
+names:
+  - { kind: full, lang: en, value: "Ismail Pasha" }
+  - { kind: full, lang: ar, value: "إسماعيل باشا" }
+  - { kind: alternate, lang: en, value: "Isma'il Pasha" }
+summary:
+  ar: "إسماعيل باشا، خديوي مصر من 1863 إلى 1879، ابن إبراهيم باشا وحفيد محمد علي، وُلد بالقاهرة سنة 1830 وتعلم في باريس. سعى إلى استقلال أكبر عن السلطان العثماني وإلى تحديث مصر وبناء إمبراطورية أفريقية، فنال لقب الخديوي بفرمان 1867، وأسس دار الكتب والمتحف والبريد، وافتُتحت قناة السويس في عهده. أوقعته الديون في رقابة أوروبية وباع حصته في القناة سنة 1875، وعزله السلطان سنة 1879 {cite:encyclopaedia-of-islam-2 vol. 4 p. 205}."
+  en: "Ismail Pasha, khedive of Egypt 1863-79, son of Ibrahim Pasha and grandson of Muhammad Ali, born in Cairo in 1830 and educated partly in Paris. He sought greater independence from the Ottoman sultan, modernisation and an African empire; the firman of 1867 gave him the title khedive, he founded the national library, a museum and a postal service, and the Suez Canal opened in his reign. Debt brought European financial control, he sold his canal shares in 1875, and the sultan deposed him in 1879 {cite:encyclopaedia-of-islam-2 vol. 4 p. 205}."
+  ur: "اسماعیل پاشا، 1863ء سے 1879ء تک مصر کے خدیو، ابراہیم پاشا کے بیٹے اور محمد علی کے پوتے، 1830ء میں قاہرہ میں پیدا ہوئے اور کچھ تعلیم پیرس میں پائی۔ انہوں نے عثمانی سلطان سے زیادہ آزادی، جدید کاری اور افریقی سلطنت کی کوشش کی؛ 1867ء کے فرمان سے خدیو کا لقب ملا، قومی کتب خانہ، عجائب گھر اور ڈاک قائم کی اور ان کے دور میں نہر سویز کھلی۔ قرض سے یورپی مالی نگرانی آئی، 1875ء میں نہر کے حصے بیچے اور 1879ء میں سلطان نے انہیں معزول کیا {cite:encyclopaedia-of-islam-2 vol. 4 p. 205}."
+gender: male
+roles: [politician]
+wings: [people]
+periods: [period/modern-era]
+regions: [egypt-nile]
+born: { edtf: "1830-12-31", hijri: "1246", calendar: gregorian, precision: day, status: historical, derived: true, note: "31 December 1830 per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 4 p. 205}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/istanbul, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: child_of, target: person/ibrahim-pasha-misri, sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article Isma'il Pasha"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-3
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 4, article Isma'il Pasha, pp. 205-206 (scan text partly garbled; the deposition year reads 1875 in the scan and is given as 1879 from the article's own reign dates); vol. 5 pt 2 p. 369 (education)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "إسماعيل كان حاكماً لمصر أراد أن يجعلها حديثة، فبنى مدارس ومكتبة ومتحفاً وافتُتحت قناة السويس في عهده."
+  en: "Ismail ruled Egypt and wanted to make it modern, so he built schools, a library and a museum, and the Suez Canal opened while he ruled."
+  ur: "اسماعیل مصر کے حکمران تھے جو اسے جدید بنانا چاہتے تھے، اس لیے مدارس، کتب خانہ اور عجائب گھر بنایا اور ان کے دور میں نہر سویز کھلی۔"

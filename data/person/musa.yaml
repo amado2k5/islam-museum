@@ -4,8 +4,9 @@ class: person
 label: { ar: "موسى", en: "Musa" }
 gender: male
 summary:
-  ar: "نبي بني إسرائيل. عند البخاري خبر الحجر الذي فرّ بثوبه فتبعه حتى برأه الله عند قومه {cite:sahih-al-bukhari 278}، وقصته مع الخضر بطولها على لسان ابن عباس الذي رد على من زعم أن موسى صاحب الخضر غيره {cite:sahih-al-bukhari 3401}، ورآه النبي ليلة الإسراء آدم جسيماً سبط الشعر {cite:sahih-al-bukhari 3207}، وإليه رجع يسترد الفرائض حتى انتهت إلى خمس {cite:sahih-al-bukhari 3207}."
-  en: "The prophet of Banu Israel: the fleeing-stone vindication {cite:sahih-al-bukhari 278}, the al-Khidr journey at length {cite:sahih-al-bukhari 3401}, and his Isra meetings with the Prophet {cite:sahih-al-bukhari 3207}."
+  ar: "موسى نبي بني إسرائيل، ويعرض له الإسلام لقب كليم الله. تصفه دائرة المعارف الإسلامية في القرآن بأنه سابق لمحمد ومثال له، وتلخص قصته من طفولته وفراره إلى مدين ومهمته عند فرعون والمعجزات والألواح وتيه بني إسرائيل. وتقارن الرواية القرآنية بالتوراتية والهاغادية، وتذكر ما أضافته كتب قصص الأنبياء كالثعلبي من أساطير حول عصاه. وعند البخاري خبر الحجر والخضر والإسراء {cite:sahih-al-bukhari 278} {cite:sahih-al-bukhari 3401} {cite:sahih-al-bukhari 3207}."
+  en: "Musa is a prophet of the Children of Israel, whom Islamic tradition calls Kalim Allah. The Encyclopaedia of Islam describes him in the Qur'an as forerunner and model for Muhammad and summarises his story from infancy and flight to Madyan through his mission to Pharaoh, the miracles, the tablets and the wandering of Israel. It compares the Qur'anic account with the Biblical and Haggadic ones and records the legends that later prophet-histories such as al-Tha'labi's added about his rod. Al-Bukhari relates the stone, al-Khidr and the Night Journey reports {cite:sahih-al-bukhari 278} {cite:sahih-al-bukhari 3401} {cite:sahih-al-bukhari 3207}."
+  ur: "موسیٰ بنی اسرائیل کے نبی ہیں جنہیں اسلامی روایت کلیم اللہ کہتی ہے۔ انسائیکلوپیڈیا آف اسلام انہیں قرآن میں محمد کا پیش رو اور نمونہ بتاتا ہے اور ان کے قصے کا خلاصہ دیتا ہے، شیرخوارگی اور مدین کی طرف فرار سے فرعون کے پاس مشن، معجزات، تختیوں اور بنی اسرائیل کے بھٹکنے تک۔ وہ قرآنی بیان کا موازنہ بائبلی اور ہگادی بیانات سے کرتا ہے اور ثعلبی جیسی انبیاء کی تاریخوں نے ان کے عصا کے بارے میں جو داستانیں بڑھائیں انہیں درج کرتا ہے۔ بخاری میں پتھر، خضر اور معراج کی روایات ہیں {cite:sahih-al-bukhari 278} {cite:sahih-al-bukhari 3401} {cite:sahih-al-bukhari 3207}."
 wings: [people]
 themes: [prophets]
 periods: [period/pre-islamic-arabia]
@@ -17,6 +18,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch121
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 7, article Musa (Moses), PDF pages 692-694, written by Claude Sonnet 5.5, run canon-cornerstones-22"
 external_ids: { wikidata: "Q9077" }
 relations:
   - { type: born_in, target: place/hulwan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q771345)" }
@@ -24,7 +26,7 @@ relations:
   - { type: lived_in, target: place/misr, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q79)" }
   - { type: lived_in, target: place/sinai-peninsula, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q36755)" }
   - { type: exemplifies, target: concept/asma-al-mujib, sources: [source/tanzil-quran] }
-sources: [source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/tafsir-tabari-shakir-v02]
+sources: [source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/tafsir-tabari-shakir-v02, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "عند البخاري قصة الحجر الذي فرّ بثوب موسى حتى برأه الله عند قومه، وقصته مع الخضر على لسان ابن عباس."

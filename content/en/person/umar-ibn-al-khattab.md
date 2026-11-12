@@ -1,8 +1,8 @@
 ---
 id: person/umar-ibn-al-khattab
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Overview
@@ -17,6 +17,43 @@ Umar was a merchant from the [[group/banu-adi|Banu Adi]] in [[group/quraysh|Qura
 
 ## Legacy
 The first form of the Islamic state, in how the caliph rules, how stipends are given, and how the judge decides, bears his imprint more than that of any other founder. The dispute over his succession at the Saqifa still divides memory.
+
+## Umar in the Encyclopaedia of Islam: the figure and his sources
+The second edition of the Encyclopaedia of Islam opens its article by describing Umar as the second caliph, who ruled from 13/634 to 23/644, one of the great figures of early Islam and a driving force behind the early conquests and the creation of the early Islamic empire. {cite:encyclopaedia-of-islam-2 vol. 10 p. 873}
+
+The article stresses that the historical and biographical traditions about him partly contradict one another, and that many of them contain exaggerated or legendary details. Out of this material, it says, a consistent character emerges: stern, strong-willed, prone to anger, and devoted to [[person/muhammad|Muhammad]], the Qur'an and Islam. The author also judges that Umar seems to have held a coherent political programme during his caliphate and even before it. {cite:encyclopaedia-of-islam-2 vol. 10 p. 873}
+
+## Conversion and the Meccan years in the Encyclopaedia of Islam
+According to the article, Umar is reported to have begun by opposing the cause he later served with all his strength. One report has him overhear his sister [[person/fatima-bint-al-khattab|Fatima]] and her husband [[person/said-ibn-zayd|Said ibn Zayd]] reciting Qur'anic verses and fall, as he often did, into a rage, which was soon followed by his conversion. {cite:encyclopaedia-of-islam-2 vol. 10 p. 873}
+
+The article notes that this sudden reversal, together with his later place in history, has led to his being called "the St. Paul of Islam", a comparison made by the scholar Lazarus-Yafeh. The author adds that the two men seem to have had little in common apart from the stubborn energy with which each championed the cause he had first fought. {cite:encyclopaedia-of-islam-2 vol. 10 p. 873}
+
+His conversion is often placed in his twenty-sixth year, four years before the [[event/hijra|hijra]] of 1/622. The article reports a suggestion by the scholar Conrad that the resulting figure of thirty for the start of the new age may have a significance of its own. {cite:encyclopaedia-of-islam-2 vol. 10 p. 873}
+
+The article describes Umar as a member of the Adi ibn Ka'b, a minor clan of [[group/quraysh|Quraysh]], and as the son of a mother from the Makhzum. It says he could not assert much influence in Mecca, though he may have tried, citing Watt. {cite:encyclopaedia-of-islam-2 vol. 10 p. 873}
+
+## Medina and the caliphate in the Encyclopaedia of Islam
+The article says that it was only after the migration to Yathrib, that is Medina, that Umar emerged as a principal organiser of what it calls the new theocratic state. It describes him as a counsellor more than a soldier. He took part in [[event/battle-of-badr|Badr]], [[event/battle-of-uhud|Uhud]] and later battles, but little is recorded of his military exploits, unlike the cases of [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] and other Companions. {cite:encyclopaedia-of-islam-2 vol. 10 p. 873}
+
+Umar is said to have claimed that at least three Qur'anic verses were revealed at his request, in suras 2, 33 and 66, and the article concludes that everything indicates he had the ear of the Prophet. It reports that harmony prevailed between Umar and [[person/abu-bakr|Abu Bakr]] during this period, and that Umar's becoming, like Abu Bakr, a father-in-law of the Prophet through the marriage of his daughter [[person/hafsa|Hafsa]] caused no jealousy between them. The author judges Umar to have been unquestionably the superior intellect in the Prophet's circle, and says he kept out of the limelight both in Muhammad's lifetime and during Abu Bakr's brief caliphate. {cite:encyclopaedia-of-islam-2 vol. 10 p. 873} {cite:encyclopaedia-of-islam-2 vol. 10 p. 874}
+
+The article also mentions a journey to Syria, dated by the sources to various times between 15/636 and 17/638. It notes that the sources diverge widely on this journey, or journeys, and that Umar apparently stopped at al-Jabiya, where he consulted his commanders. Further details in that part of the article are not legible in the available scan and are left out here. {cite:encyclopaedia-of-islam-2 vol. 10 p. 874}
+
+## Consultation and precedence in the Encyclopaedia of Islam
+On the question of how authority was to be shared, the article says that Umar insisted on two principles, consultation, shura, and precedence in Islam, sabiqa, and that he adhered to both throughout his caliphate, citing Madelung. It notes a contradiction between them: Umar is reported to have advocated the equality of all believers before God, while at the same time favouring particular groups in the allocation of offices and revenues. {cite:encyclopaedia-of-islam-2 vol. 10 p. 875}
+
+The author judges that Umar did much to provide, if not as completely as is sometimes thought, a social and political framework for the religious edifice that had begun to rise in Muhammad's time. The rapid expansion during his caliphate, the article adds, put that same framework at risk. {cite:encyclopaedia-of-islam-2 vol. 10 p. 875}
+
+It lists the questions left unresolved: the relations between the early converts and the first Helpers, the [[group/ansar|Ansar]], on one side and the ambitious Meccan aristocracy on the other; the jealousies emerging between the first Arab conquerors in the new lands and the later waves of immigrants; and whether the Arab forces scattered across the vast territories would accept subordination to the central authority in Medina. Modern discussions are said to divide here. One view, associated with Donner, sees the ruling elite as largely unified and concerned with keeping its power over the tribesmen, while another, associated with Madelung, sees it as deeply divided. Either way, the article says, severe tensions remained, and Umar's successor [[person/uthman-ibn-affan|Uthman]] would later pay the price. {cite:encyclopaedia-of-islam-2 vol. 10 p. 875}
+
+## Three positions on Umar, as set out in the Encyclopaedia of Islam
+The Sunni position. The article states that Sunni tradition reveres Umar not only as a great ruler but as one of the supreme models of the Islamic virtues, and as the paradigmatic just ruler. It reports that he appears often in Sunni hadith, both transmitting from the Prophet and as an authority in his own right, sometimes together with his son [[person/abdullah-ibn-umar|Abd Allah ibn Umar]], whom it calls a great jurist. In many hadiths and in the speeches and sermons attributed to him, he expresses concern with intention, [[concept/niyya|niyya]], and in general with what the author calls the internalisation of norms. The article suggests that this stress on intention may be a later projection back onto Umar. {cite:encyclopaedia-of-islam-2 vol. 10 p. 875}
+
+The same passage says that Umar's exhortations to follow a simple, rough way of life, which he himself practised, are probably less anachronistic. It adds that this stopped short of self-deprivation. He is said to have criticised extreme ascetics and those who relied wholly on God for their sustenance, which the author again suspects of being anachronistic, and to have said he would prefer to die travelling in search of lawful gain than in jihad. The article notes that he engaged in commerce while caliph, and that a distinctive kind of symbolic poverty may be associated with him, different from that of other rulers, including the other Rightly Guided caliphs. {cite:encyclopaedia-of-islam-2 vol. 10 p. 875}
+
+The Shi'i position. The article says that Shi'i tradition has never concealed its antipathy to Umar, because he thwarted the claims of Ali and the House of the Prophet. It reports this as the stance of Shi'i tradition and does not examine it further. {cite:encyclopaedia-of-islam-2 vol. 10 p. 875}
+
+The academic view. The article's own account is framed as a critical reading of the sources: it warns of legendary material, flags two themes as probable later projections, and presents the scholarly disagreement over whether the early elite was unified or divided. It also notes that Umar appears in some twentieth-century works as a model for democratic leadership and other modern values, and ends by saying that this austere, majestic figure continues to inspire respect and awe in the community of believers. This record gives no verdict between these positions. {cite:encyclopaedia-of-islam-2 vol. 10 p. 875}
 
 ## For young visitors
 Umar was a feared enemy before he became the second leader of the community. In ten years, the religion that was born in one valley reached three empires.

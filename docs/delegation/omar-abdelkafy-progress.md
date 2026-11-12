@@ -1514,4 +1514,31 @@ Series complete: episode 47 is the last episode of albuyout-alamena.
 | Garbled passages | ep31 00:00:00, 00:06:00-00:10:00 (stories of a shaykh and a sick man), 00:11:00-00:12:30 (Shafii aside, not reproduced), 00:12:30-00:13:30, 00:19:00-00:20:30, 00:26:30-00:27:00, 00:33:30-00:34:30, 00:37:00-00:38:30 | Not recoverable as clear Arabic | Clarity | Open |
 | Closing supplications, questions about parents and a vow, and the publisher and telephone line | ep31 00:34:30-00:37:30, 00:39:30-00:40:00 | Not lesson content or private; kept general | Content rule | Open |
 
-Resume point: episode 32 (branch from origin/main).
+
+### al-dar-al-akhera ep32 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep32 (scenes of Paradise in four suras) | about 31 min (transcript, very garbled) | ar, en, ur: 1 record extended | 1 new `about` edge | 9 points; qwen3-asr pass5, 30 s windows | needs_source on every point; the dying scene (ep32 00:00:30-00:02:30); the three kinds (00:07:00-00:07:30); the glorification report (00:08:00); the days gone by (00:11:00-00:13:30); the Abu Dharr exchange (00:28:00) | run omar-abdelkafy-dar-akhera-25 |
+
+| Excluded (dar-akhera ep32) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep32 00:03:00, 00:04:00, 00:04:30, 00:05:00, 00:06:30, 00:10:30, 00:12:00, 00:14:30, 00:16:30, 00:18:00, 00:18:30, 00:19:30, 00:21:00, 00:21:30, 00:23:00, 00:23:30, 00:26:30, 00:30:00, 00:30:30 | Not speech | Loop check | Open |
+| Garbled passages | ep32 00:00:00 (partial), 00:03:30, 00:05:30-00:06:30, 00:08:30-00:10:30, 00:11:30, 00:14:30-00:16:00, 00:17:00-00:17:30, 00:20:00-00:21:00, 00:24:30-00:25:00, 00:26:00, 00:28:30-00:29:30, 00:31:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Prices and quantities quoted for a perfume | ep32 00:17:00 | Unverifiable and garbled | Clarity | Open |
+
+Resume point: episode 33 (branch from origin/main). The recording ends at 00:31:00 with no closing in the transcript.
+
+### al-dar-al-akhera ep33 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep33 (the sura of the Human, a description of Paradise, the vision) | about 42 min (transcript) | ar, en, ur: 1 record extended | 3 new `about` edges | 14 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the opening (ep33 00:00:00-00:01:30); the report on voluntary acts (00:07:30-00:08:00); the Sad ibn Muadh report (00:17:00-00:17:30); the unnamed text read aloud (00:28:00-00:30:30); the call to the people of Paradise and the vision (00:31:00-00:37:00) | run omar-abdelkafy-dar-akhera-26 |
+
+| Excluded (dar-akhera ep33) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep33 00:02:30, 00:03:00, 00:06:30, 00:09:30, 00:11:00, 00:13:00, 00:15:00 (partial), 00:18:30, 00:19:00, 00:19:30, 00:24:00, 00:29:00, 00:33:30, 00:34:00 (partial), 00:36:00, 00:37:00 (partial), 00:38:00-00:40:30 | Not speech | Loop check | Open |
+| Garbled passages | ep33 00:02:00, 00:04:30-00:05:30, 00:08:30-00:13:00, 00:14:30-00:15:30, 00:18:00 (a letter of Umar, details unclear), 00:20:00, 00:25:30 (diacritised ASR output unrelated to speech), 00:27:30 | Not recoverable as clear Arabic | Clarity | Open |
+| Closing supplications, the publisher and telephone line | ep33 00:37:30, 00:41:00-00:42:00 | Not lesson content | Content rule | Open |
+
+Resume point: the 33 harvested episodes (01 to 33) are all written. The lecturer announces two further summary episodes in ep33 00:40:00; they are not in the harvest. Branch from origin/main for any follow-up.
