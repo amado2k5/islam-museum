@@ -552,3 +552,54 @@ First explore-list family scored against the eight criteria (verification date 9
 - Nomisma: no new pair passes. ankara (1.9 km) concept describes the modern city, not an Islamic-period mint: held. amorium (2.5 km) duplicates place/ammuriyya: held as a duplicate pair. samosata: concept not readable: held. Founder to review the 'ancient site' wording for the earlier links.
 - Papyri.info registered Tier 2 facts-only (source/papyri-info, registry row, attribution row, source-families row), by decision dec-20261112-266 (override of two engine false positives).
 - New family: none qualifies. Orient-Digital and MEGA-Jordan did not respond (no answer from the host). Perry-Castañeda maps page has no licence wording and no machine route.
+
+## 2026-11-12 (p33) — candidate notes: score sheets (no registration this turn)
+
+Scoring uses the eight criteria of docs/agents/source-families.md (authority, citability, terms, structure, coverage fit, corroboration, Arabic-first, longevity). Each is rated excellent / good / moderate / weak / unverified. Terms posture is one of open, facts-only, link-only, orientation-only. No candidate's subject or publisher is a blocked organisation (AGENTS.md). Downloads were not made; the browser and HTTP reads were of public pages only, with no challenge, login or paywall bypassed.
+
+### 1. Al-Thurayya Gazetteer (github.com/althurayya/althurayya.github.io)
+- Authority good (Leipzig team with Maxim Romanov; Tufts/Perseus origin). Citability moderate: records are GeoJSON files named by toponym and coordinate code (for example ABADHA_526E311N_S.geojson); a GitHub path is a resolvable anchor, but there is no authority id. Terms: the project data is CC BY 4.0 (DATA-LICENSE.md) and the code Apache-2.0; source-derived fields (Cornu's atlas, Shamela titles) are excluded from that grant.
+- Structure excellent (GeoJSON in git, places.json). Coverage good (ninth–tenth-century Islamic geography, 2,000+ toponyms with Arabic titles). Corroboration good (per-record citations to Yaqut and Samʿani). Arabic-first excellent (Arabic titles on each record). Longevity moderate (self-described working version; last push 22 Sep 2026; the project's own domain did not answer).
+- Posture: open for project-created data; source-derived fields excluded.
+- Recommendation: PILOT (10 place records, anchored by GitHub path), not registration. Registration needs a stable anchor decision first.
+
+### 2. EpiHub, The Monumental Inscriptions of Historic Cairo (open-epihub.cnr.it; resource /api/resources/88)
+- Authority good (CNR Italy catalogue; Cairo project by Scarpa and Valente; site hosted with Cultnat / Bibliotheca Alexandrina). Citability good at resource level (DOI 10.82261/fvq9-b273); inscription-level ids unverified (the site is a search database with no public list route I could read).
+- Terms: EpiHub lists the resource licence as "Unidentified"; the Cairo site has no licence or terms page (About and Instructions pages state use only). EpiHub's own pages are CC BY 4.0, which does not extend to resources it catalogues.
+- Structure weak for harvesting (no bulk or JSON route found). Coverage excellent (Islamic monumental inscriptions in Cairo, Hijri and CE dates, Arabic text: the epigraphy gap). Arabic-first excellent. Longevity good (DOI, institutional hosting).
+- Posture: unknown, so facts-only is not yet available: no terms page exists to state the line.
+- Recommendation: DEFER until the publisher states a licence in writing. EpiHub as a whole is ORIENTATION-ONLY (catalogue of resources, not a data source).
+
+### 3. vHMML (vhmml.org; /terms, /dataPortal, /dataPortal/dataset, /dataPortal/schema)
+- Authority excellent (Hill Museum & Manuscript Library, HMML). Citability good (persistent PURL per object; HMML project number; shelfmark and repository fields).
+- Terms: Reading Room and Museum metadata are CC BY 4.0 (terms page and dataset page). Images are NOT open: partner libraries retain rights (Beinecke, Vatican, Bodleian, British Library, Laon, and others), and some images are CC BY-NC 4.0 (HMML-owned only).
+- Structure excellent: weekly bulk JSON and CSV datasets, line-delimited, with a documented schema (object / part / contents levels). I did NOT download them: a download needs the founder's permission (dataset sizes: JSON 48 MB, listing 3 MB CSV).
+- Coverage moderate for the Islamic gap: the collection leans toward Christian manuscripts (Syriac, Ethiopic, Greek, Latin); the count of Arabic-Islamic manuscripts is unverified until a listing is read. Corroboration good (colophons, ownership, dates). Arabic-first moderate (language fields exist; Arabic share unverified). Longevity excellent.
+- Posture: open for metadata; images excluded.
+- Recommendation: PILOT, metadata only, after the founder permits one download of the 3 MB CSV listing to count Arabic-Islamic manuscripts.
+
+### 4. Biblissima authority referentials (data.biblissima.fr, Wikibase)
+- Authority excellent (Biblissima+, a French national research infrastructure). Citability excellent (stable entity URIs, for example data.biblissima.fr/entity/Q499, Ahmad ibn Ibrahim Ibn al-Jazzar, 878–980 CE).
+- Terms: data licence is the Etalab Open Licence 2.0, stated on the wiki's Licence page and compatible with CC BY 2.0 and ODC-BY (read 12 Nov 2026). Open posture.
+- Structure good but with one limit: the SPARQL endpoints answer 401 Unauthorized (query.biblissima.fr, query.data.biblissima.fr), so SPARQL is not an anonymous route and was not used. The MediaWiki and Wikibase JSON API answered anonymously (wbsearchentities returned entities with Arabic-script labels; allpages listing worked).
+- Coverage good for authors and persons of the manuscript and Islamic-scholar field; works coverage unverified. Arabic-first excellent. Corroboration unverified (no cross-reference checked). Longevity good.
+- Posture: open (Etalab 2.0).
+- Recommendation: PILOT via the wiki JSON API only (no SPARQL, no login), on 10 person entities; register later if the pilot holds.
+
+### 5. Louvre collections (collections.louvre.fr; ARK records with .json)
+- Authority excellent (Musée du Louvre). Citability excellent (ARK identifiers, for example ark:/53355/cl010062323, with a per-record JSON at the same ARK plus .json).
+- Terms: textual notices are public information under the Etalab Open Licence (article 4.1.2 of the site's CGU, read 12 Nov 2026); photographs and works under copyright are NOT open (article 4.1.1: prior authorisation; some credited photographs need the other institution's consent). robots.txt disallows /search/export and blocks image crawling for named AI bots. Respect both.
+- Structure good (JSON per record, no bulk route found). Coverage moderate for the Islamic gap (Louvre's Islamic holdings exist, but the share in the 490-object backlog is unverified). Corroboration good (bibliography, provenance, inscriptions fields). Arabic-first weak (French and English record text). Longevity excellent.
+- Posture: open for text notices; images excluded.
+- Recommendation: PILOT, text fields only, a bounded set of Islamic-department objects, one request at a time, with no image fetches.
+
+### Summary
+| Candidate | Score (of 8 criteria) | Terms posture | Recommendation |
+|---|---|---|---|
+| Al-Thurayya Gazetteer | 6 good or better, 2 moderate | open (project data) | pilot, 10 places |
+| EpiHub Historic Cairo | 4 good or better, 2 weak or unverified | unknown (no terms page) | defer; EpiHub orientation-only |
+| vHMML | 5 good or better, 2 moderate/unverified | open (metadata); images excluded | pilot after founder approves one CSV download |
+| Biblissima referentials | 5 good or better, 1 unverified | open (Etalab 2.0) | pilot via wiki JSON API, 10 persons |
+| Louvre collections | 5 good or better, 1 weak, 2 moderate | open (text notices); photographs excluded | pilot, text fields only, Islamic objects |
+
+Nothing is registered this turn. Each registration needs the three-part commit in source-families.md (registry row, source entity with reliability_note, attribution row), plus a decision record for the founder.

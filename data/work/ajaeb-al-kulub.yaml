@@ -1,0 +1,38 @@
+id: work/ajaeb-al-kulub
+class: work
+kind: lecture-series
+label:
+  ar: "سلسلة عجائب القلوب"
+  en: "Ajaeb al-Qulub (Wonders of the Hearts) lesson series"
+  ur: "سلسلہ عجائب القلوب"
+summary:
+  ar: "سلسلة رمضانية يومية قصيرة مع عمر عبد الكافي عن أمراض القلوب وأخلاقها، تبدأ بالحسد وعلاجه، وفق تسجيلات أسبابيل."
+  en: "A short daily Ramadan series with Omar Abdelkafy on the diseases and character of the heart, beginning with envy and its cure, as recorded in the Assabile archive."
+  ur: "عمر عبد الکافی کے ساتھ رمضان کا مختصر روزانہ سلسلہ جس میں دلوں کی بیماریوں اور اخلاق پر بات ہوتی ہے، حسد اور اس کے علاج سے آغاز، اسابیل کے ذخیرے کے مطابق۔"
+wings: [ideas]
+themes: [spirituality-and-sufism, ethics-and-character]
+regions: [global]
+authors: [person/omar-abdelkafy]
+delivered: { by: person/omar-abdelkafy }
+language: language/arabic
+sensitivity: contested
+relations:
+  - { type: about, target: concept/hasad, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/hasad-envy, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/tatayyur-omens, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/husn-al-zann-billah, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/qanaa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/tawakkul, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/tawhid, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/suhur, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/sawm-ramadan, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ramadan-month, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/qalb-salim, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/qabil, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/habil, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/yusuf, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/abu-bakr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/umar-ibn-al-khattab, sources: [source/assabile-omar-abdelkafy] }
+sources: [source/assabile-omar-abdelkafy]
+provenance: { layer: copyrighted-reference, source: "Assabile, ajaeb-al-kulub (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-ajaeb-al-kulub-1, episodes: "01-04" }
+status: { review: draft, generated_by: "Claude Code (claude-sonnet-5-5); run omar-abdelkafy-ajaeb-al-kulub-1" }
