@@ -8,7 +8,7 @@
 // no side list.
 import { realNodes, edgesFrom, byId } from "./graph";
 import {
-  ANSAB_TAG, ANSAB_SUBJECTS, ANSAB_SUBJECT_SET, ANSAB_PROPHET_CHAIN,
+  ANSAB_TAG, ANSAB_CORPORA, ANSAB_SUBJECTS, ANSAB_SUBJECT_SET, ANSAB_PROPHET_CHAIN,
   ansabTopicsOf, ansabCorpusOf, ansabSectionOf,
   type AnsabSection, type AnsabCorpus, type AnsabTopic,
 } from "../../../scripts/ansab";
