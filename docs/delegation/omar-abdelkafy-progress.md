@@ -1133,3 +1133,22 @@ Next step: episode 36.
 | Verses of poetry quoted | ep35 00:10:30 | Not reproduced | Sources policy | Open |
 | Hadith and saying wording | ep35 00:07:00–00:08:00, 00:11:00–00:13:30, 00:18:30–00:19:00, 00:23:30–00:25:00, 00:27:30–00:28:30 | Wording not typed; by sense only | Hadith rule | Open |
 | Questions with no recorded answer | ep35 00:36:30–00:39:00 (triple divorce), 00:42:00–00:43:00 (charity for deceased parents), 00:45:00 (praise and the worldly life) | The answer is not in the transcript | Clarity | Open |
+
+### albuyout-alamena, episode 36 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-24)
+
+Episode 36 read in full (47 min of transcript) before writing. 11 points written (ar, en, ur); new `about` edges for the people and passages named; 8 needs_source (stories and sayings without a chain, rulings given without evidence, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep36 (the spouses' telescopes) | about 47 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 11 points | new `about` edges | 11 | 8 needs_source | this PR |
+
+Next step: episode 37.
+
+| Excluded (albuyout-alamena ep36) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep36 00:00:00–00:00:30, 00:13:30–00:14:00, 00:24:30–00:25:00, 00:46:00–00:46:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep36 00:16:30–00:17:30, 00:19:00, 00:21:00–00:21:30, 00:27:30–00:29:30, 00:30:30–00:31:00, 00:40:30–00:41:00, 00:42:00–00:42:30, 00:45:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep36 00:26:30–00:36:30 | Kept general | Privacy | Open |
+| A proverb on a tiring mother-in-law | ep36 00:37:30–00:38:00 | Garbled; not recorded | Clarity | Open |
+| Hadith and saying wording | ep36 00:12:30, 00:21:30–00:22:30, 00:35:30 | Wording not typed; by sense only | Hadith rule | Open |
+| Questions with no recorded answer | ep36 00:32:00 (bank loans, referred to the jurisprudence programmes), 00:32:30 (a prayer for pregnancy) | The answer is a referral or a prayer only | Scope | Open |
