@@ -702,3 +702,20 @@ Next step: episode 12. Sensitivity: ep10 carries strongly worded views on the We
 | Calls and answers too garbled to read | ep10 00:33:00–00:36:00, 00:38:00–00:39:30; ep11 00:30:00–00:39:00 (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
 | Verse wording (al-Mutanabbi-style lines on the eye of love) and hadith wording | ep10 00:05:30, 00:12:00; ep11 00:20:00 | Wording not typed; by sense only | Hadith rule; sources policy | Open |
 | Questions outside the episode (misyar marriage, loan for a car, bank shares details) | ep10 00:39:00; ep11 00:27:00 | Fiqh questions the lecturer refers to fatwa programmes | Scope | Open |
+
+### albuyout-alamena, episodes 12–13 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-6)
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep12–ep13 (woman's place in the home and society; manners of dialogue and what a wife dislikes) | about 48 min, 47 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 16 points | 14 new `about` edges (awra, Maryam, Fatima, Mut'im ibn Adi, Umm Ruman, Umar ibn Abd al-Aziz, passages 33:32, 51:22, 17:23-24, 49:12) | ep12 7, ep13 9 points; engine qwen3-asr pass5, 30 s windows | 10 needs_source: ep12 the Maryam count (00:03:30), the report of the Prophet and Fatima (00:06:00), the fiqh-books claim (00:10:30), the Mut'im story (00:14:30), the survey and historical accounts (00:18:00), call details (00:26:30); ep13 the Prophet's loyalty and Umar ibn Abd al-Aziz (00:17:00), the beating report (00:30:30), scholars on praying for parents (00:12:30), call details (00:33:00) | run omar-abdelkafy-albuyout-6 |
+
+Next step: episode 14. Sensitivity: ep12 and ep13 hold the lecturer's views on women's voice, going out and discipline; all are recorded as his own views, with their figures marked needs_source.
+
+| Excluded (albuyout-alamena ep12–ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep12 00:00:00–00:00:30, 00:14:00–00:14:30, 00:26:30, 00:48:00; ep13 00:00:00–00:01:00, 00:15:30, 00:30:30, 00:47:00–00:47:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep12 00:04:00, 00:21:30, 00:47:30, 00:38:00; ep13 00:12:00, 00:16:30, 00:20:00, 00:37:30, 00:38:00 | Not speech | Loop check | Open |
+| Poetry and sayings by wording (the line on the shade of a companion; the line on the tooth-stick; a hero's verse) | ep12 00:26:00; ep13 00:09:30, 00:25:30 | Verbatim verse, partly garbled; given by sense | Sources policy; clarity | Open |
+| A caller's question on a sensitive family matter involving a child's parentage, and the question about a will on a house | ep12 00:41:30–00:43:30 | Private and sensitive personal detail about identifiable people, partly garbled | Privacy; clarity | Open |
+| Calls and answers too garbled to read | ep12 00:27:30–00:30:00 in part, 00:33:00–00:36:00 in part; ep13 00:35:00–00:36:00, 00:38:30–00:40:00 | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Fiqh questions the lecturer refers elsewhere (interest-bearing loan, wide trousers, hijab detail, will of a house) | ep12 00:36:00, 00:39:00; ep13 00:36:00 | Referred to fatwa programmes | Scope | Open |
