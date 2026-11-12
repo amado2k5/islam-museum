@@ -181,3 +181,12 @@
 | 471 | 128 | the reporter's name in the chain ("أبو د… بن حيان") | smudged in the scan | not named; the chain is not attributed |
 | 471 | 128 | the sentence after "أكلتين من غير تكلف" in Ramadan | cut in the scan | not recorded |
 | 471 | 129–130 | Qur'anic verses cited | Qur'an text never typed | none quoted; the Moses and Aisha hadiths are described |
+
+## Batch 37 (run microsd-books-b45, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 130–131 (full text read before writing). New drafts: person/bishr-al-tabari (472, 10/130), person/khuzayma-al-abid (473, 10/130-131), person/qadim-al-daylami (474, 10/131). Notice 475 (Ahmad ibn al-Ghamr) begins on 10/131 and is next.
+
+## Exclusions and garbled readings (batch 45)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 473 | 130 | the nisba in the heading (given in the scan as "إصرى") | smudged in the scan | not recorded; the record gives no place |
