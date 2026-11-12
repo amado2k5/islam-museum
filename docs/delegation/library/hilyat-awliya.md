@@ -252,3 +252,12 @@
 | Notice | Page | Passage | Reason | Handling |
 |---|---|---|---|---|
 | 489 | 138 | the transmitter's name after "قال حدثني" ("حكيم بن جمة" in the scan) | unclear in the scan | given as the context reads it; the prose says so |
+
+## Batch 52 (run microsd-books-b52, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 138 (full text read before writing). New draft: person/ahmad-ibn-musa-al-thaqafi (490, 10/138). Notice 491 (Abu Mahriz al-Tufawi) begins on 10/138 and is next.
+
+## Exclusions and garbled readings (batch 52)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 490 | 138 | the verses on the fool, the palace and the slave-women | several words garbled in the scan ("بدافوق السرير", "وادرما هي") | the verses are described, not quoted; garbled words are not given |
