@@ -1973,3 +1973,20 @@ Next step: episode 19.
 | Repetition loops and garbled windows | ep18 00:02:00, 00:04:30, 00:14:00, 00:22:30, 00:32:00, 00:46:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Poetry quoted | ep18 00:24:30–00:25:00, 00:34:00 | Not reproduced | Sources policy | Open |
 | Private caller details and an off-topic personal question | ep18 00:39:30–00:44:30 | Generalised; the personal question was deferred by the lecturer | Privacy | Open |
+
+### al-naba-al-safi, episode 19 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-8)
+
+Episode 19 read in full (49 min of transcript) before writing. 21 points written (ar, en, ur); new `about` edges for the people and passages named; 15 needs_source (unchained hadiths, sayings and accounts in sense, ages and a verdict without a source).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep19 (the prayer of the righteous and the reasons an answer is delayed) | about 49 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 21 points | new `about` edges | 21 | 15 needs_source | this PR |
+
+Next step: episode 20.
+
+| Excluded (al-naba-al-safi ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep19 00:00:00–00:00:30, 00:17:30, 00:35:00, 00:46:30–00:49:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep19 00:14:00, 00:20:30, 00:29:30, 00:33:00, 00:37:30, 00:44:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep19 00:14:30–00:15:30, 00:35:00–00:36:00 | Not reproduced | Sources policy | Open |
+| Private caller details, an interrupted call and an off-topic personal question | ep19 00:39:00–00:44:30 | Generalised or left out; the interrupted call has no usable content | Privacy | Open |
