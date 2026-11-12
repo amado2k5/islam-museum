@@ -574,6 +574,22 @@ Next step: episode 6.
 | Calls and answers too garbled to read | ep04 00:31:00–00:36:30 (in part), ep05 00:27:30–00:36:00 (in part), ep05 00:38:00 | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
 | Questions outside the episode (Qur'anic water, plastic Qur'an copies, books for children) | ep04 00:34:00–00:35:00 | Off topic; the lecturer redirects them | Scope | Open |
 | Ruling on the prohibiting oath before consummation | ep05 00:29:30–00:30:00 | Answer not clear in the recording | Clarity | Open |
+
+### Completed recordings (§8), continued
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| silsilat-ebadu-al-rahman ep25–ep26 (jealousy, praiseworthy and blameworthy; anger, patience and forbearance) | ep25 about 24 min, ep26 about 22 min (transcript) | ar, en, ur: 1 record extended, 23 points | 6 new `about` edges (verses 6:151, 3:134; ghadab; Ibn Abbas, Abd al-Rahman ibn Awf, Aisha) | ep25 11, ep26 12 points; engine qwen3-asr pass5, 30 s windows | 6 needs_source (Ibrahim and Isma'il in the dream, ep25 00:08:30; the servant-girl and Ibn Abbas, ep25 00:11:30; the saying on Umar and the Garden, ep25 00:15:00; the proposal to watch children's phones, ep25 00:21:00; the anecdotes of the butcher and the customer, ep26 00:03:00; Harun al-Rashid and anger, ep26 00:17:30) | run omar-abdelkafy-ebadu-al-rahman-10 |
+
+Notes for ep25–ep26. Episode 25 is garbled in its middle sections; episode 26 has long runs of repeated words from 00:12:30 to 00:17:00 and at 00:20:00, which are excluded. The lecturer's view on the Hiroshima and Nagasaki bombings is marked as his.
+
+| Excluded (ebadu ep25–ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, break jingles, closing formulae | ep25 00:00:00, 00:13:00, 00:24:00–00:24:30; ep26 00:00:00–00:00:30, 00:11:00, 00:22:30 | Not lesson content; Qur'an never typed | Content rule; Qur'an rule | Open |
+| Repetition loops and hallucinated runs | ep25 00:14:30; ep26 00:12:30, 00:15:30 (run of repeated words), 00:20:00 | Not speech | Loop check | Open |
+| Garbled passage on the names of the wives and the sack of wine | ep25 00:14:00 | Garbled | Clarity | Open |
+| Curse on women who alter their appearance | ep25 00:19:30 | Hadith wording not typed; no point written from the garbled part | Hadith rule; clarity | Open |
+| Proverb on the trader and the coin, and the joke on the donkey's burden | ep26 00:08:30 | Garbled; a joke about a named person, not written | Clarity; content rule | Open |
 | Excluded (tariq-al-noor ep05-ep08) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
 | Openings, supplications, closing formulae | ep05 00:00:00, 00:09:00-00:09:30; ep06 00:00:00, 00:09:30-00:10:00; ep07 00:00:00, 00:09:30; ep08 00:00:00-00:00:30, 00:09:30-00:10:00 | Not lesson content | Content rule | Open |
