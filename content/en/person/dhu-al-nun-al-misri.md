@@ -137,3 +137,18 @@ Abu Nu'aym continues Dhu al-Nun's sayings on pages 376–382 of the ninth volume
 **The witness of the heart.** He said: my heart bears witness to God through what befalls it, and how could it not bear witness when all their affairs are with You? Is it that one who trusts in God should let his heart take to other than Him? Far, far; the negligent have been ruined before You. When a disciple complained that the time had dragged, he said: I have seen you bring a great fear, but what has passed from my heart is not the fear you think. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/381}}
 
 **Wisdom and the world.** He said that the beacon of wisdom is the Book of God and its proof, and that the world with its adornment seats the seeker and distracts the heedless, so that the seeker does not seek his cure and the heedless does not know his disease. Then God chose some of His creatures and gave them knowledge of His wisdom, so they looked with the eyes of their hearts at what was veiled, and their spirits roamed in the realm of the heavens. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/382}}
+
+## In Hilyat al-Awliya (eighth continuation)
+Abu Nu'aym continues Dhu al-Nun's prayers and sayings on pages 383–389 of the ninth volume. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/383-389}}
+
+**Thought and punishment.** Yusuf ibn al-Husayn relates from him that the heart does not reflect on anything but God unless it is under a penalty. Among his prayers is that God make him one of those who sheltered under the awning of grief, who read the books of their faults and unrolled the registers of their sins, so that good thought came to dwell in the heart. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/383}}
+
+**A prayer on Satan and pardon.** He said: My God, Satan is an enemy to You and to us, and You will vex him with nothing more painful than Your pardon of us, so pardon us. He also said: if my works are small beside Your obedience, my hope in You is great beside it; my God, do not let my sincere hope in You be void among men. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/384-385}}
+
+**Verses on the worshippers.** He recited lines about people who obeyed God openly and secretly and spent their nights keeping vigil in prayer and patience, their bodies in the earth and their spirits in the realm of the heavens. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/386}}
+
+**The Greatest Name.** A man asked him for the Greatest Name. He said nothing and gave him no answer, but let him think he might teach it, and then stayed silent for six months. After the months had passed he called the man and said that a man of Fustat, whom they both knew, would come to them. He brought out a tray with a covered dish tied with a cloth, and said: take this to him. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/387}}
+
+**The image of the tray.** The tray is an image in cookery for the stages of the way. The dough is kneaded with the water of striving and baked on the fire of sorrow until its flames throw sparks of wasting; it is then filled with the bond of contentment, sweetened with the love of desire, folded with bitterness, cut with the knives of night vigil in the dark, left the sweetness of sleep, and cooked on embers of anxiety. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/388}}
+
+**A poem on creation.** He closed with a poem on God's eternal attributes: He always was, and no describer can grasp Him; and it speaks of the creation of water, of the heavens and of the mountains beyond comparison. The notice runs to about page 395; what follows page 389 has not been read yet. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/389}}
