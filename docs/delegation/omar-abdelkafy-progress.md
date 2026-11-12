@@ -1957,3 +1957,19 @@ Resume point: ajaeb-al-kulub episode 13 (branch from origin/main).
 | Repetition loops, non-speech and garbled windows | ep14 00:01:00 (a very long loop of one letter in the middle of the camel narration), 00:06:30 (non-speech "Oh."), 00:04:00 (a half-clear remark on the book hung on the neck); ep15 00:01:00 (a loop and a half-clear description of the first branch), 00:03:00 (an aside asking viewers to write along), 00:05:00 (a garbled clause); ep16 00:06:00 (garbled names other than Abu Lahab, including a name read as the grandfather of the Prophet, left out because the reading is unclear) | Not speech or not recoverable | Loop check, Clarity | Open |
 
 Resume point: ajaeb-al-kulub episode 17 (branch from origin/main).
+### al-naba-al-safi, episode 18 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-7)
+
+Episode 18 read in full (49 min of transcript) before writing. 18 points written (ar, en, ur); new `about` edges for the people and passages named; 16 needs_source (unchained hadiths, sayings and accounts in sense, an unsourced statistic).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep18 (how did you rise, the eight claims in al-Shafi'i's answer) | about 49 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 18 points | new `about` edges | 18 | 16 needs_source | this PR |
+
+Next step: episode 19.
+
+| Excluded (al-naba-al-safi ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep18 00:00:00–00:00:30, 00:18:00–00:18:30, 00:33:00–00:33:30, 00:46:30–00:48:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep18 00:02:00, 00:04:30, 00:14:00, 00:22:30, 00:32:00, 00:46:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep18 00:24:30–00:25:00, 00:34:00 | Not reproduced | Sources policy | Open |
+| Private caller details and an off-topic personal question | ep18 00:39:30–00:44:30 | Generalised; the personal question was deferred by the lecturer | Privacy | Open |
