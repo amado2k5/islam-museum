@@ -831,3 +831,17 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 671 (printed) | 392 | the nisba "سنديله" | not identified | rendered as al-Sindila; flagged |
 | 671 (printed) | 392 | the name of the book-transmission link | legible | no flag |
+
+## Batch 94 (run microsd-books-b94, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 393 (full text read before writing). New draft: person/ibrahim-ibn-isa-al-zahid (printed 672, sequence 673, 10/393). No existing record of the name.
+- The notice has a report from Ibn Umar about a man of Paradise who appears; it is described, not quoted, and no honorific formula is typed. Its judgement is left to hadith scholars.
+- Printed 673 (Abd al-Wahhab ibn al-Mundhir al-Dabbi, on 393) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 94)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 672 (printed) | 393 | the report from Ibn Umar | the wording is a quoted report with an honorific formula | described only; not typed |
+| 672 (printed) | 393 | the chain's garbled name ("العباس أحمد بن #") | garbled in the scan | not given |
