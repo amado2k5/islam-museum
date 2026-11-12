@@ -1353,3 +1353,22 @@ Next step: episode 45.
 | Private circumstances of callers | ep44 00:34:30–00:47:30 | Kept general | Privacy | Open |
 | Caller's question on a name for adoptive parents' supplication | ep44 00:37:30–00:38:30 | Text garbled; no answer given in the recording that can be summarised | Clarity | Open |
 | Hadith and saying wording | ep44 00:03:00–00:05:00, 00:16:30–00:20:30, 00:26:30–00:28:00, 00:32:00–00:34:00 | Wording not typed; by sense only | Hadith rule | Open |
+
+### albuyout-alamena, episode 45 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-33)
+
+Episode 45 read in full (50 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 11 needs_source (unnamed studies and statistics, unchained sayings and hadith, rulings without evidence, garbled call text and numbers).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep45 (gentleness in the home) | about 50 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 13 points | new `about` edges | 13 | 11 needs_source | this PR |
+
+Next step: episode 46.
+
+| Excluded (albuyout-alamena ep45) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae, sponsor and website line | ep45 00:00:00–00:00:30, 00:16:00–00:16:30, 00:26:30–00:27:30, 00:49:30–00:50:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep45 00:05:00, 00:07:00–00:07:30, 00:25:30–00:26:00, 00:28:00, 00:29:00–00:29:30, 00:31:00–00:32:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep45 00:28:00–00:45:00 | Kept general | Privacy | Open |
+| Numbers of scenes and percentages on channels and official reports | ep45 00:06:00–00:12:00 | Garbled and unverifiable; the claim is recorded without figures and marked needs_source | Sources policy | Open |
+| Story of Abu Hanifa's parents' marriage | ep45 00:47:30–00:48:00 | Deferred by the lecturer to a coming episode; not told here | Scope | Open |
+| Caller's question on a hadith about one light of means | ep45 00:28:30–00:29:30 | Asked and not answered in the recording | Clarity | Open |
