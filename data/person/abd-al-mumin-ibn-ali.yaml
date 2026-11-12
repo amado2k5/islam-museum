@@ -2,8 +2,9 @@ id: person/abd-al-mumin-ibn-ali
 class: person
 label: { ar: "عبد المؤمن بن علي القمي", en: "Abd al-Mu'min ibn Ali al-Qumi" }
 summary:
-  ar: "عبد المؤمن بن علي من قبيلة كومية؛ لقي ابن تومرت عند ملالة واختص به وشمر للأخذ عنه ثم كان خليفته في دولة الموحدين التي نجمت على يديه وجمعت المغربين {cite:tarikh-ibn-khaldun-ibar p. 1669}."
-  en: "Abd al-Mumin ibn Ali of Kumiyya; he met Ibn Tumart at Mellala, devoted himself to him, and became the caliph of the Almohad empire that united both Maghrebs {cite:tarikh-ibn-khaldun-ibar p. 1669}."
+  ar: "عبد المؤمن بن علي من قبيلة كومية البربرية، لقي ابن تومرت في ملالة قرب بجاية وصار من أخص أتباعه، ثم خلفه في قيادة حركة الموحدين وأسس الدولة المؤمنية. حكم من 527هـ/1133م إلى 558هـ/1163م، وأسقط دولة المرابطين بفتح مراكش، وضم إفريقية والأندلس الموحدية إلى المغرب {cite:tarikh-ibn-khaldun-ibar p. 1669}."
+  en: "Abd al-Mu'min ibn Ali, of the Berber Kumiya tribe, met Ibn Tumart at Malala near Bougie, became one of his closest followers, and then succeeded him as leader of the Almohad movement, founding the Mu'minid dynasty. He ruled from 527/1133 to 558/1163, ended Almoravid power with the capture of Marrakesh, and added Ifriqiya and Almohad al-Andalus to Morocco {cite:tarikh-ibn-khaldun-ibar p. 1669}."
+  ur: "عبد المؤمن بن علی بربر قبیلہ کومیہ سے تھے؛ بجایہ کے قریب ملالہ میں ابن تومرت سے ملے، ان کے قریبی ساتھی بنے اور پھر موحدین کی تحریک کی قیادت میں ان کے جانشین ہو کر مومنی سلطنت کی بنیاد رکھی۔ انہوں نے 527ھ/1133ء سے 558ھ/1163ء تک حکومت کی، مراکش کی فتح سے مرابطی اقتدار ختم کیا، اور افریقیہ اور موحدی اندلس کو مراکش کے ساتھ ملایا {cite:tarikh-ibn-khaldun-ibar p. 1669}."
 gender: male
 roles: [caliph]
 wings: [people]
@@ -13,14 +14,15 @@ provenance:
   source: "كتاب العبر لابن خلدون ⁦(ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)⁩"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ibar-batch-4
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 1, article 'Abd al-Mu'min, PDF pages 97-98, written by Claude Sonnet 5.5, run canon-cornerstones-14"
 external_ids: { wikidata: "Q307312" }
-sources: [source/tarikh-ibn-khaldun-ibar]
-importance: 1
+sources: [source/tarikh-ibn-khaldun-ibar, source/encyclopaedia-of-islam-2]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "en label draft (Claude Haiku 5.5, batch 1); Devin (SWE-2 High)" }
 born: { edtf: "1094", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: Almohad Caliph" }
 died: { edtf: "1163", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: Almohad Caliph" }
 relations:
   - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
-  - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name ⁦(القمي)⁩; denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
+  - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name ⁦(القمي)⁩; denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar, source/encyclopaedia-of-islam-2], confidence: low }
 story_roles:
   - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1147", calendar: julian, precision: year }, end: { edtf: "1163", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }

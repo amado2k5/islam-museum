@@ -1,4 +1,4 @@
-// The Qiyama Browser's shared reads (docs/plan/54-qiyama-browser.md): every mention of the
+// The Qiyama Browser's shared reads (docs/plan/56-qiyama-browser.md): every mention of the
 // Resurrection (البعث), the Day of Judgement (يوم القيامة) and the Reckoning (الحساب) the
 // museum's sources carry — Qur'an verses, hadith reports, seerah books and every other
 // harvested work — plus the curated records about the Day and its stations, all over the

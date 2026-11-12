@@ -4,8 +4,9 @@ label: { ar: "الشيخ محمد عبده", en: "Muhammad Abduh" }
 names:
   - { kind: full, lang: ar, value: "محمد عبده" }
 summary:
-  ar: "أحد رواد الإصلاح الإسلامي في مصر في أواخر القرن التاسع عشر وأوائل القرن العشرين. يصفه شكيب أرسلان في تعليقه على حاضر العالم الإسلامي بأستاذه، ويذكر أنه تعرّف إليه في بيروت عام 1886 أثناء نفيه بعد الثورة العرابية، وأنه رأى في فهمه للعقيدة الإسلامية السبيل إلى نهضة الإسلام. ويذكر أن تلميذه ومعاصره رشيد رضا كتب تاريخه في مجلدين."
-  en: "Egyptian reformer of the late 19th and early 20th century. Arslan, who studied under him in Beirut during Abduh's exile after the 'Urabi revolt (1886), calls him the teacher of the age and says that his reading of Islamic belief was the one that could revive the faith; Arslan also notes that Rashid Rida wrote his biography in two volumes {cite:stoddard-arslan-hadir-1923 vol. 1, scan pp. 300–302}."
+  ar: "عالم لاهوت ومصلح مصري ولد سنة 1849 وتوفي سنة 1905، وتعدّه دائرة المعارف الإسلامية مؤسس المدرسة الحداثية المصرية. تتلمذ على جمال الدين الأفغاني، ونُفي بعد الثورة العرابية، ثم عاد سنة 1889 فصار قاضيًا ثم مفتيًا للدولة سنة 1899 وعضوًا في المجلس الإداري للأزهر. دعا إلى إحياء الاجتهاد ونقد التقليد وإلى التوفيق بين الدين والعلم، وتتباين الآراء في تقييم إصلاحه، من تأييد المسلمين الجادين إلى عداء الأوساط المحافظة، ومن وصف كاتب المقالة لاهوته بالحل الوسط الدفاعي."
+  en: "Egyptian theologian and reformer, born in 1849 and died in 1905, whom the Encyclopaedia of Islam counts as founder of the Egyptian modernist school. A disciple of Jamal al-Din al-Afghani, he was exiled after the Urabi rebellion, returned in 1889 and became a judge, then state mufti in 1899, and a member of the Azhar's governing body. He called for the revival of ijtihad, criticised taqlid and sought agreement between religion and science; assessments of his reform differ, from the support of serious-minded Muslims to the hostility of conservative circles, and the article's author calls his theology an apologetic compromise. {cite:encyclopaedia-of-islam-2 vol. 7 p. 470} {cite:encyclopaedia-of-islam-2 vol. 7 p. 471}"
+  ur: "مصر کے ماہرِ الٰہیات اور مصلح، جو 1849ء میں پیدا ہوئے اور 1905ء میں فوت ہوئے، اور جنہیں انسائیکلوپیڈیا آف اسلام مصری جدیدیت پسند مکتب کا بانی شمار کرتا ہے۔ وہ جمال الدین افغانی کے شاگرد تھے، عرابی بغاوت کے بعد جلاوطن ہوئے، 1889ء میں لوٹے اور جج بنے، پھر 1899ء میں ریاست کے مفتی اور ازہر کی انتظامی مجلس کے رکن۔ انہوں نے اجتہاد کی بحالی، تقلید پر تنقید اور دین و علم میں ہم آہنگی کی دعوت دی؛ ان کی اصلاح کے بارے میں آرا مختلف ہیں، سنجیدہ مسلمانوں کی حمایت سے لے کر قدامت پسند حلقوں کی دشمنی تک، اور مضمون کا مصنف ان کی الٰہیات کو معذرت خواہانہ سمجھوتا کہتا ہے۔"
 gender: male
 wings: [people]
 periods: [period/modern-era]
@@ -16,7 +17,7 @@ relations:
   - { type: born_in, target: place/shubra-khit, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5600888)" }
   - { type: born_in, target: place/beheira-governorate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q30630)" }
   - { type: died_in, target: place/alexandria, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q87)" }
-sources: [source/stoddard-arslan-hadir-1923, source/assabile-omar-abdelkafy]
+sources: [source/stoddard-arslan-hadir-1923, source/assabile-omar-abdelkafy, source/encyclopaedia-of-islam-2]
 # Verification: one source (Arslan's commentary, a close disciple, so an admiring witness). Dates of exile and death need a second source before publication; the 1886 Beirut exile is Arslan's own account.
 importance: 1
 status: { review: draft, completeness: 1 }
@@ -25,3 +26,4 @@ provenance:
   source: "source/assabile-omar-abdelkafy"
   generated_by: "Claude Haiku 5.5"
   extraction_flow: "Apple Vision OCR (text layer) -> manual reading of scan pages 300-302 -> summary in own words"
+  canon: "EI2 vol. 7, article Muhammad Abduh, PDF pages 470-472, written by Claude Sonnet 5.5, run canon-cornerstones-13"

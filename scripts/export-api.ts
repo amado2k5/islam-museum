@@ -17,8 +17,10 @@ import { BAYT_TAG, baytCorpusOf, baytTagSection, isBaytPassage } from "./bayt.js
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
 import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPassage, eschatologyTopicsOf } from "./eschatology.js";
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
+import { ANSAB_TAG, ANSAB_SECTIONS, ANSAB_SUBJECTS, ANSAB_SUBJECT_SET, ansabTopicsOf, ansabCorpusOf, ansabSectionOf, type AnsabTopic } from "./ansab.js";
 import { MIRACLES_TAG, MIRACLE_SECTIONS, MIRACLE_SUBJECTS, MIRACLE_SUBJECT_SET, MIRACLE_TOPIC_KIND, MIRACLE_TOPIC_SUBJECTS, miracleTopicsOf, miracleCorpusOf, miracleTagSection, type MiracleTopic } from "./miracles.js";
 import { DUA_TAG, duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, isDuaPassage, type DuaKind } from "./dua.js";
+import { AKHLAQ_TAG, akhlaqCorpusOf, akhlaqKindOf, akhlaqKindsOf, akhlaqSignalsOf, akhlaqTagSection, akhlaqTagTopics, akhlaqTopicsOf, akhlaqTracksOf, isAkhlaqPassage, type AkhlaqKind } from "./akhlaq.js";
 import { IBADAT_TAG, ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTopicsOf, isIbadatPassage, type IbadatKind } from "./ibadat.js";
 import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNubuwatPassage, nubuwatTopicsOf } from "./nubuwat.js";
 import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
@@ -29,6 +31,7 @@ import { JANNA_TAG, jannaCorpusOf, jannaKindOf, jannaSignalsOf, jannaTagSection,
 import { MUKATABAT_TAG, mukatabatCorpusOf, mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf, mukatabatTagSection, mukatabatTagSender, isMukatabatPassage } from "./mukatabat.js";
 import { NAR_TAG, narKindOf, narSectionOf, narSignalsOf, narTagSection, isNarPassage } from "./nar.js";
 import { QIYAMA_TAG, qiyamaCorpusOf, qiyamaKindOf, qiyamaSignalsOf, qiyamaTagSection, isQiyamaPassage, type QiyamaKind } from "./qiyama.js";
+import { USRA_TAG, usraCorpusOf, usraSignalsOf, usraTagSection, usraTopicsOf, isUsraPassage } from "./usra.js";
 import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { PLACES_TAG, PLACE_CORPORA, placeCorpusOf, placeSectionOf, type PlaceCorpus } from "./places.js";
@@ -244,6 +247,19 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       dua_kind: n.class === "passage" ? duaKindOf(n) : null,
       signals: n.class === "passage" ? duaSignalsOf(n) : [],
     }) },
+  { file: "akhlaq.json", feature: "akhlaq-browser",
+    pick: (n) => n.tags.includes(AKHLAQ_TAG) || isAkhlaqPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? akhlaqCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : akhlaqTagSection(n),
+      akhlaq_kind: n.class === "passage" ? akhlaqKindOf(n) : null,
+      kinds: n.class === "passage" ? akhlaqKindsOf(n) : [],
+      tracks: n.class === "passage" ? akhlaqTracksOf(n) : [],
+      topics: n.class === "passage" ? akhlaqTopicsOf(n) : akhlaqTagTopics(n),
+      signals: n.class === "passage" ? akhlaqSignalsOf(n) : [],
+    }) },
   { file: "ibadat.json", feature: "ibadat-browser",
     pick: (n) => n.tags.includes(IBADAT_TAG) || isIbadatPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
@@ -313,6 +329,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : qiyamaTagSection(n),
       qiyama_kind: n.class === "passage" ? qiyamaKindOf(n) : null,
       signals: n.class === "passage" ? qiyamaSignalsOf(n) : [],
+    }) },
+  { file: "usra.json", feature: "usra-browser",
+    pick: (n) => n.tags.includes(USRA_TAG) || isUsraPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? usraCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : usraTagSection(n),
+      topics: n.class === "passage" ? usraTopicsOf(n) : [],
+      signals: n.class === "passage" ? usraSignalsOf(n) : [],
     }) },
   { file: "hisab.json", feature: "hisab-browser",
     pick: (n) => n.tags.includes(HISAB_TAG) || isHisabPassage(n),
@@ -424,6 +450,8 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
   out["messengers.json"] = { generated: c.generated, feature: "messengers-browser", subjects: msg.subjects, items: msg.items };
   const muj = miracleApiData(c, edgesFrom, byId);
   out["miracles.json"] = { generated: c.generated, feature: "miracles-browser", subjects: muj.subjects, items: muj.items };
+  const ans = ansabApiData(c, edgesFrom, byId);
+  out["ansab.json"] = { generated: c.generated, feature: "ansab-browser", subjects: ans.subjects, items: ans.items };
   out["madhahib.json"] = { generated: c.generated, feature: "madhahib-browser", items: madhahibRows(c, edgesFrom) };
   out["places.json"] = { generated: c.generated, feature: "places-browser", items: placesRows(c, edgesFrom, byId) };
   return out;
@@ -769,6 +797,70 @@ function miracleApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: 
     const counts = { quran: 0, sunnah: 0, seerah: 0, books: 0 };
     for (const p of passages) if (p.section in counts) counts[p.section as keyof typeof counts]++;
     return { id, label: node.label, summary: node.summary, status: node.data.status?.review, counts, passages: passages.map((p) => p.id) };
+  }).filter((x): x is NonNullable<typeof x> => !!x);
+  return { items, subjects };
+}
+
+/**
+ * The Genealogies, Peoples, Mutun and Prophets' Tree Browser's API rows (docs/plan/55):
+ * passages whose matn names a lineage link, tribe, people, matn or the class terms — plus
+ * canonical `mentions` edges — and the curated `ansab-browser` records; the subject index
+ * carries every lineage link, tribe, people, matn and concept with per-corpus counts, so a
+ * book harvested later enters the export the day its passages land.
+ */
+function ansabApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>, byId: Map<string, Node>) {
+  const real = c.nodes.filter((n) => !n.stub);
+  const edgeSubjects = new Map<string, Set<string>>();
+  for (const e of c.edges) {
+    if (e.type !== "mentions" || !e.from.startsWith("passage/") || !ANSAB_SUBJECT_SET.has(e.to)) continue;
+    const set = edgeSubjects.get(e.from) ?? new Set<string>();
+    set.add(e.to);
+    edgeSubjects.set(e.from, set);
+  }
+  const genreOf = (workId: string | undefined): string[] | undefined =>
+    workId ? (byId.get(workId)?.data.genre as string[] | undefined) : undefined;
+  const isGeneric = (t: AnsabTopic) => !(t.startsWith("person/") || t.startsWith("group/") || t.startsWith("work/") || t.startsWith("concept/"));
+  const items: Record<string, unknown>[] = [];
+  const subjectPassages = new Map<string, { id: string; section: string }[]>();
+  for (const n of real) {
+    if (n.class === "passage") {
+      const detected = ansabTopicsOf(n);
+      const edges = edgeSubjects.get(n.id) ?? new Set<string>();
+      if (detected.length === 0 && edges.size === 0) continue;
+      const section = ansabCorpusOf(n.data.work as string | undefined, genreOf(n.data.work as string | undefined), n.data.unit as string | undefined);
+      const subjects = [...new Set([...detected.filter((t) => !isGeneric(t)), ...edges])];
+      const topics = [...new Set([...subjects, ...detected.filter(isGeneric)])];
+      const picked = Object.fromEntries(["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"].filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
+      items.push({ ...compact(n), ...picked, section, subjects, topics, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) });
+      for (const s of subjects) {
+        if (!ANSAB_SUBJECT_SET.has(s)) continue;
+        const list = subjectPassages.get(s) ?? [];
+        list.push({ id: n.id, section });
+        subjectPassages.set(s, list);
+      }
+      continue;
+    }
+    if (n.tags.includes(ANSAB_TAG)) {
+      items.push({
+        ...compact(n), kind: n.data.kind, wings: n.wings, themes: n.themes, tags: n.tags,
+        section: ansabSectionOf(n), subjects: [], topics: [], connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}),
+      });
+    }
+  }
+  const sectionRank = (s: unknown) => (ANSAB_SECTIONS as readonly string[]).indexOf(String(s));
+  const corpusRank = (s: unknown) => ["quran", "sunnah", "seerah", "books"].indexOf(String(s));
+  items.sort((a, b) => {
+    const ra = a.class === "passage" ? corpusRank(a.section) : 4 + sectionRank(a.section);
+    const rb = b.class === "passage" ? corpusRank(b.section) : 4 + sectionRank(b.section);
+    return ra - rb || String(a.id).localeCompare(String(b.id));
+  });
+  const subjects = ANSAB_SUBJECTS.map((id) => {
+    const node = byId.get(id);
+    if (!node || node.stub) return null;
+    const passages = (subjectPassages.get(id) ?? []).sort((a, b) => corpusRank(a.section) - corpusRank(b.section) || a.id.localeCompare(b.id));
+    const counts = { quran: 0, sunnah: 0, seerah: 0, books: 0 };
+    for (const p of passages) if (p.section in counts) counts[p.section as keyof typeof counts]++;
+    return { id, label: node.label, summary: node.summary, status: node.data.status?.review, section: ansabSectionOf(node), counts, passages: passages.map((p) => p.id) };
   }).filter((x): x is NonNullable<typeof x> => !!x);
   return { items, subjects };
 }

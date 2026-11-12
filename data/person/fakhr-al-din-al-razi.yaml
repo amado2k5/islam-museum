@@ -9,9 +9,9 @@ relations:
   - { type: died_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/tafsir-al-kabir-razi, sources: [source/mafatih-al-ghayb-dar-al-fikr-1401-j3] }
 summary:
-  ar: "فخر الدين الرازي الإمام المشهور في الكلام والتفسير؛ لما قتل شهاب الدين الغوري سنة اثنتين وستمائة جاء بعض المفسدين من أهل غزنة إلى مماليكه يقولون إن فخر الدين الرازي قتل مولاكم لأنه هو أوصل من قتله ووضع من خوارزم شاه، فثاروا به ليقتلوه فهرب وقصد مؤيد الملك الوزير فسيره سراً إلى مأمنه {cite:kamil-ibn-al-athir p. 304}."
-  ur: "علمِ کلام اور تفسیر کے عالم جو غوری دربار سے وابستہ تھے؛ شہاب الدین غوری کے قتل کے بعد ان کے خلاف الزام پر مملوکوں نے حملہ کیا، مگر وزیر کی مدد سے بچ نکلے۔ {cite:kamil-ibn-al-athir}"
-  en: "Theologian and Qur'an commentator associated with the Ghurid court. After Shihab al-Din al-Ghuri's killing, an accusation against him provoked an attack by the ruler's Mamluks; he escaped with the vizier's help. {cite:kamil-ibn-al-athir}"
+  ar: "فخر الدين الرازي متكلم ومفسر مشهور، تذكر دائرة المعارف الإسلامية أنه وُلد في الري سنة 543هـ/1149م أو ربما 544هـ، وأنه عاش معظم حياته في هراة وعُرف بشيخ الإسلام. كان واعظاً ومعلماً اتبع الأشعرية وناقش الفلسفة ونقد ابن سينا، ومن أهم أعماله مفاتيح الغيب والمحصل والمباحث المشرقية. وتؤرخ المقالة وفاته بسنة 606هـ/1209م، وتحكي رواية ابن الأثير أن مماليك الغوري هاجموه بعد مقتل سلطانهم فنجا بمساعدة الوزير."
+  en: "Theologian and Qur'an commentator who, according to the Encyclopaedia of Islam, was born at Rayy in 543/1149 or perhaps 544 and spent most of his life at Herat, known as shaykh al-Islam. A preacher and teacher who followed al-Ash'ari, engaged with philosophy and criticised Avicenna, his major works include Mafatih al-ghayb, the Muhassal and al-Mabahith al-mashriqiyya. The article dates his death to 606/1209; in Ibn al-Athir's account the Ghurid ruler's Mamluks attacked him after the sultan's killing and he escaped with the vizier's help."
+  ur: "علمِ کلام اور تفسیر کے مشہور عالم؛ دائرۃ المعارف الاسلامیہ کے مطابق وہ 543ھ/1149ء یا شاید 544ھ میں رے میں پیدا ہوئے اور زندگی کا بڑا حصہ ہرات میں گزارا، جہاں شیخ الاسلام کہلائے۔ واعظ اور استاد تھے، اشعری کے پیرو رہے، فلسفے سے مکالمہ کیا اور ابن سینا پر تنقید کی؛ مفاتیح الغیب، المحصل اور المباحث المشرقیہ ان کی اہم تصانیف ہیں۔ مقالہ ان کی وفات 606ھ/1209ء بتاتا ہے؛ ابن الاثیر کے بیان میں غوری سلطان کے قتل کے بعد اس کے مملوکوں نے ان پر حملہ کیا اور وہ وزیر کی مدد سے بچ نکلے۔"
 gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
@@ -26,7 +26,8 @@ provenance:
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/mafatih-al-ghayb-dar-al-fikr-1401-j3 PDF p. 1 and source/mafatih-al-ghayb-dar-al-hadith-2012-v15 PDF p. 1 (full name, dates 544–604); source/mafatih-al-ghayb-dar-al-fikr-1401-j3 PDF pp. 2–5 (method)" }
   explorer_localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fifth-40-stories-2026-11-04","source":"Missing English/Urdu labels and concise summaries restated from this existing Arabic museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 2, article Fakhr al-Din al-Razi, PDF pages 781-785, written by Claude Sonnet 5.5, run canon-cornerstones-13"
 external_ids: { wikidata: "Q333703" }
-sources: [source/kamil-ibn-al-athir, source/mafatih-al-ghayb-dar-al-fikr-1401-j3, source/mafatih-al-ghayb-dar-al-hadith-2012-v15]
+sources: [source/encyclopaedia-of-islam-2, source/kamil-ibn-al-athir, source/mafatih-al-ghayb-dar-al-fikr-1401-j3, source/mafatih-al-ghayb-dar-al-hadith-2012-v15]
 importance: 1
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

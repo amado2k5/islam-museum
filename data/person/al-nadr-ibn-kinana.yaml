@@ -1,0 +1,22 @@
+id: person/al-nadr-ibn-kinana
+tags: ["ansab-browser", "ansab-shajara"]
+class: person
+label: { ar: "النضر بن كنانة", en: "al-Nadr ibn Kinana" }
+gender: male
+roles: []
+summary:
+  ar: "هو «قريش» عند جمهور النسابين: قريش هم بنو النضر بن كنانة، فمن داناه من ولده فهو قرشي؛ أبو مالك بن النضر ومن أولاده الآخرين كنانة وعبد مناة وملكان وقند {cite:ibn-hisham-sira 1/1-4} {cite:mubarakpuri-raheeq p.48}."
+  en: "He is 'Quraysh' in the genealogists' definition: Quraysh are the sons of al-Nadr ibn Kinana, and whoever draws close to his line is Qurashi; father of Malik ibn al-Nadr, and of Kinana, Abd Manat, Milkan and Qind {cite:ibn-hisham-sira 1/1-4} {cite:mubarakpuri-raheeq p.48}."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/kinana-ibn-khuzayma, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — prophetic-lineage records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }

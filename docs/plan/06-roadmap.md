@@ -194,6 +194,7 @@ The front doors over the one graph, with their status, what each has and what it
 | Inventions Browser | live, 58 inventions | waves of 100, chains and maps |
 | Modern Islam Browser | Phase 1 done | pilot and first deploy, then waves (plan 26 §6) |
 | Companions Browser | live pages, 606 Companions (plan 29) | sourced enrichment from the Companion dictionaries, batches of 25 |
+| Genealogies, Peoples, Mutun and Prophets' Tree Browser | built 19 Nov 2026, draft records | human read of drafts; mentions edges on the strongest passages; more tribes/mutun waves |
 | Education | E1 live | E2 to E5 on approval |
 
 ## Risks and mitigations

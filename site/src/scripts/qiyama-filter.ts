@@ -1,4 +1,4 @@
-// The Qiyama Browser's filter (docs/plan/54-qiyama-browser.md): narrows the qiyama list
+// The Qiyama Browser's filter (docs/plan/56-qiyama-browser.md): narrows the qiyama list
 // as the visitor types, matching titles, summaries, work names and text excerpts in all three
 // languages, ignoring Arabic vowel marks. Without JavaScript the whole list is on the page.
 const input = document.querySelector<HTMLInputElement>("[data-qiyama-filter]");

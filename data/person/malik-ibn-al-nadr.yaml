@@ -1,0 +1,22 @@
+id: person/malik-ibn-al-nadr
+tags: ["ansab-browser", "ansab-shajara"]
+class: person
+label: { ar: "مالك بن النضر", en: "Malik ibn al-Nadr" }
+gender: male
+roles: []
+summary:
+  ar: "أبو فهر بن مالك جد قريش الظاهرة؛ حلقة في النسب المتفق عليه بين النضر بن كنانة وفهر {cite:mubarakpuri-raheeq p.48} {cite:ibn-hisham-sira 1/1-4}."
+  en: "Father of Fihr ibn Malik, ancestor of Quraysh proper; a link in the agreed lineage between al-Nadr ibn Kinana and Fihr {cite:mubarakpuri-raheeq p.48} {cite:ibn-hisham-sira 1/1-4}."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/al-nadr-ibn-kinana, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — prophetic-lineage records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }

@@ -1,4 +1,4 @@
-// The Qiyama Browser's shared reads (docs/plan/54-qiyama-browser.md): which passage records
+// The Qiyama Browser's shared reads (docs/plan/56-qiyama-browser.md): which passage records
 // mention the Resurrection (البعث), the Day of Judgement (يوم القيامة) and the Reckoning
 // (الحساب), and which corpus section each belongs to. Detection runs at build time over the
 // compiled graph, so a qiyama mention in any harvested book — and in every book harvested

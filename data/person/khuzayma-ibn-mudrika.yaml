@@ -1,0 +1,22 @@
+id: person/khuzayma-ibn-mudrika
+tags: ["ansab-browser", "ansab-shajara"]
+class: person
+label: { ar: "خزيمة بن مدركة", en: "Khuzayma ibn Mudrika" }
+gender: male
+roles: []
+summary:
+  ar: "أبو كنانة وأسد وعمرو وعون؛ من كنانة قريش النبيّة وبنو كنانة، ومن أسد بن خزيمة قبيلة بني أسد بن خزيمة {cite:mubarakpuri-raheeq p.48} {cite:tarikh-al-tabari}."
+  en: "Father of Kinana, Asad, Amr and Awn; from Kinana descend the prophetic Quraysh and Banu Kinana, and from Asad ibn Khuzayma the tribe of Banu Asad ibn Khuzayma {cite:mubarakpuri-raheeq p.48} {cite:tarikh-al-tabari}."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/mudrika-ibn-ilyas, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — prophetic-lineage records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }

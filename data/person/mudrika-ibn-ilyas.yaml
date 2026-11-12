@@ -1,4 +1,5 @@
 id: person/mudrika-ibn-ilyas
+tags: ["ansab-browser", "ansab-shajara"]
 class: person
 label:
   ar: مدركة بن إلياس
@@ -21,6 +22,7 @@ status:
   review: published
   completeness: 3
 relations:
+  - { type: child_of, target: person/ilyas-ibn-mudar, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
 - type: lived_in
   target: place/hijaz
   sources:
