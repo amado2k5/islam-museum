@@ -7,6 +7,7 @@ import { sayyiatKindOf, sayyiatSignalsOf } from "./sayyiat.js";
 import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
 import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
 import { mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf } from "./mukatabat.js";
+import { narKindOf, narSignalsOf } from "./nar.js";
 
 const makeNode = (id: string, cls: string, data: Record<string, any> = {}, prose: Record<string, any> = {}): Node => ({
   id, class: cls, slug: id.split("/")[1], label: { ar: id, en: id, ur: id }, summary: { ar: "", en: "", ur: "" }, stub: false,
@@ -59,7 +60,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "ibadat.json", "islamic-economy.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "ibadat.json", "islamic-economy.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -113,7 +114,6 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(duaSignalsOf(callFp as any)).toEqual([]);
   });
 
-
   it("exports ibadat: detected passages by corpus and kind, worship topics, false-god and argument gates, du'a inherited", () => {
     const salatAyah = makeNode("passage/quran-2-43x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 43, text: "وأقيموا الصلاة وآتوا الزكاة واركعوا مع الراكعين" });
     const iyyakaAyah = makeNode("passage/quran-1-5x", "passage", { unit: "ayah", work: "work/quran", sura: 1, aya: 5, text: "إياك نعبد وإياك نستعين" });
@@ -142,6 +142,41 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(featureApiData(compiled)["ibadat.json"].feature).toBe("ibadat-browser");
     expect(ibadatKindOf(iyyakaAyah as any)).toBe("act");
     expect(ibadatSignalsOf(argueFp as any)).toEqual([]);
+  });
+
+  it("exports nar: hellfire names, gated nar lexeme, worldly-fire shelf, curated records, future-book inclusion", () => {
+    const hellAyah = makeNode("passage/quran-2-24x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 24, text: "فاتقوا النار التي وقودها الناس والحجارة أعدت للكافرين" });
+    const nameAyah = makeNode("passage/quran-74-26x", "passage", { unit: "ayah", work: "work/quran", sura: 74, aya: 26, text: "سأصليه سقر" });
+    const ittaquHadith = makeNode("passage/muslim-2299", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "2299", text: "اتقوا النار ولو بشق تمرة" });
+    const ibrahimAyah = makeNode("passage/quran-21-69x", "passage", { unit: "ayah", work: "work/quran", sura: 21, aya: 69, text: "قلنا يا نار كوني بردا وسلاما على إبراهيم" });
+    const dinarFp = makeNode("passage/muwatta-2299", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "2299", text: "اشترى الثوب بدينارين من السوق" });
+    const minarFp = makeNode("passage/muwatta-2300", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "2300", text: "وقف على منار المسجد فأنار المصابيح" });
+    const futureBook = makeNode("passage/takhwif-1", "passage", { work: "work/takhwif-min-al-nar", ref: "1", text: "قال ابن رجب: جهنم دار عذاب أعدها الله للكافرين" });
+    const narConcept = { ...makeNode("concept/jahannam", "concept", { kind: "belief" }), tags: ["nar-browser", "nar-doctrine"] };
+    const dunyaConcept = { ...makeNode("concept/fire", "concept", { kind: "natural" }), tags: ["nar-browser", "nar-dunya"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, hellAyah, nameAyah, ittaquHadith, ibrahimAyah, dinarFp, minarFp, futureBook, narConcept, dunyaConcept] });
+    const items = data["nar.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-2-24x");
+    expect(ids).toContain("passage/quran-74-26x");
+    expect(ids).toContain("passage/muslim-2299");
+    expect(ids).toContain("passage/quran-21-69x");
+    expect(ids).toContain("passage/takhwif-1"); // a hellfire book harvested later lands automatically
+    expect(ids).toContain("concept/jahannam");
+    expect(ids).toContain("concept/fire");
+    expect(ids).not.toContain("passage/muwatta-2299"); // دينار is a coin, not a fire
+    expect(ids).not.toContain("passage/muwatta-2300"); // منار/أنار are not the «نار» lexeme
+    expect(items.find((i) => i.id === "passage/quran-2-24x")).toMatchObject({ section: "quran", nar_kind: "hellfire" });
+    expect(items.find((i) => i.id === "passage/muslim-2299")).toMatchObject({ section: "sunnah", nar_kind: "hellfire" });
+    expect(items.find((i) => i.id === "passage/quran-21-69x")).toMatchObject({ section: "dunya", nar_kind: "worldly" });
+    expect(items.find((i) => i.id === "passage/takhwif-1")).toMatchObject({ section: "books", nar_kind: "hellfire" });
+    expect(items.find((i) => i.id === "concept/jahannam")).toMatchObject({ section: "curated", nar_kind: null });
+    expect(items.find((i) => i.id === "concept/fire")).toMatchObject({ section: "dunya", nar_kind: null });
+    expect(featureApiData(compiled)["nar.json"].feature).toBe("nar-browser");
+    expect(narKindOf(hellAyah as any)).toBe("hellfire");
+    expect(narKindOf(ibrahimAyah as any)).toBe("worldly");
+    expect(narSignalsOf(dinarFp as any)).toEqual([]);
+    expect(narSignalsOf(minarFp as any)).toEqual([]);
   });
 
   it("exports nubuwat: detected passages by corpus and topic, tagged records, ambiguous-form gates", () => {

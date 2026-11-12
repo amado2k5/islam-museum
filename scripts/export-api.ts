@@ -25,6 +25,7 @@ import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatT
 import { HISAB_TAG, hisabCorpusOf, hisabKindsOf, hisabSignalsOf, isHisabPassage, reckoningOf } from "./hisab.js";
 import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatTagSection, isHasanatPassage, type HasanatKind } from "./hasanat.js";
 import { MUKATABAT_TAG, mukatabatCorpusOf, mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf, mukatabatTagSection, mukatabatTagSender, isMukatabatPassage } from "./mukatabat.js";
+import { NAR_TAG, narKindOf, narSectionOf, narSignalsOf, narTagSection, isNarPassage } from "./nar.js";
 import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { PLACES_TAG, PLACE_CORPORA, placeCorpusOf, placeSectionOf, type PlaceCorpus } from "./places.js";
@@ -250,6 +251,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       ibadat_kind: n.class === "passage" ? ibadatKindOf(n) : null,
       topics: n.class === "passage" ? ibadatTopicsOf(n) : [],
       signals: n.class === "passage" ? ibadatSignalsOf(n) : [],
+    }) },
+  { file: "nar.json", feature: "nar-browser",
+    pick: (n) => n.tags.includes(NAR_TAG) || isNarPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? narSectionOf(n, byId?.get(n.data.work as string)?.data.genre as string[] | undefined)
+        : narTagSection(n),
+      nar_kind: n.class === "passage" ? narKindOf(n) : null,
+      signals: n.class === "passage" ? narSignalsOf(n) : [],
     }) },
   { file: "nubuwat.json", feature: "nubuwat-browser",
     pick: (n) => n.tags.includes(NUBUWAT_TAG) || isNubuwatPassage(n),
