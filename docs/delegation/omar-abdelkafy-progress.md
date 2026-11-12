@@ -2001,3 +2001,18 @@ Next step: episode 20.
 | Repetition loops, non-speech and garbled windows | ep18 00:06:00 (a long run of non-speech "oh"); ep19 00:03:00 (a long loop of one letter after the supplication), 00:05:00 (non-speech); ep17 00:01:30 (a half-clear sentence on avoiding a former companion in the street); ep20 00:03:00 (a half-clear anecdote on a man's health at fifty or sixty) | Not speech or not recoverable | Loop check, Clarity | Open |
 
 Resume point: ajaeb-al-kulub episode 21 (branch from origin/main).
+### al-naba-al-safi, episode 20 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-9)
+
+Episode 20 read in full (48 min of transcript) before writing. 20 points written (ar, en, ur); new `about` edges for the people and passages named; 16 needs_source (unchained hadiths, sayings and accounts in sense).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep20 (four things that make what you miss of the world not matter, trust and truthful speech) | about 48 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 20 points | new `about` edges | 20 | 16 needs_source | this PR |
+
+Next step: episode 21.
+
+| Excluded (al-naba-al-safi ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep20 00:00:00–00:01:30, 00:17:30–00:18:00, 00:35:00–00:35:30, 00:47:00–00:48:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep20 00:02:00, 00:19:30–00:20:30, 00:24:30, 00:26:30, 00:27:30, 00:39:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private caller details, noisy or interrupted calls and an off-topic personal question | ep20 00:37:00–00:40:00, 00:41:30–00:44:30 | Generalised or left out | Privacy | Open |
