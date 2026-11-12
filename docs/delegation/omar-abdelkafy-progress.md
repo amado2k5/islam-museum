@@ -343,6 +343,25 @@ Notes for ep10–ep13. Episodes 11 and 12 are the two halves of one lesson in th
 | al-Hasan al-Basri and the narrow rooms in Basra; the powerful man exposed as a thief | ep16 00:17:30–00:18:30 | Anecdotes cut by a loop before their point | Loop check | Open |
 | Verses recited ("we blame our time") | ep16 00:20:30 | Verbatim verse; given by sense | Sources policy | Open |
 
+### Completed recordings (§8), continued
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| silsilat-ebadu-al-rahman ep17–ep18 (spouses, offspring and leadership in piety; the closing list of attributes and the power of supplication) | ep17 about 22 min, ep18 about 25 min (transcript) | ar, en, ur: 1 record extended, 25 points | 13 new `about` edges (verses 25:74–76, 66:10–11, 24:26, 16:97; sadaqa jariya, hasad, tarbiya, ajal, sabr, tawakkul, dua; Nuh, Lut, Amr ibn al-As, Uthman) | ep17 14, ep18 11 points; engine qwen3-asr pass5, 30 s windows | 8 needs_source (the Prophet's ruling on secrets, ep17 00:03:30; the lecturer's reading of 24:26, ep17 00:04:30; the wife and the husband's illness, ep17 00:05:00; the hadith on the good practice, ep17 00:15:30; the family's instructions on death, ep18 00:18:00; the sense of the hadith on provision, ep18 00:18:30; the hadith on supplication reversing the decree, ep18 00:11:30; the two brothers' example, the sense only) | run omar-abdelkafy-ebadu-al-rahman-6 |
+
+Notes for ep17–ep18. The recording of ep17 is much garbled from 00:02:00 to 00:02:30 and after 00:14:00, and ep18 repeats the closing verses at length; only clear windows are written. Episode 18 closes the attributes listed in the programme. Points in ep17 and ep18 that are the lecturer's own opinions (the leadership of the pious; the timing of marriage for a girl; the sex of a child) are marked "the lecturer's view" where they are opinion.
+
+| Excluded (ebadu ep17–ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, break jingles, closing formulae | ep17 00:00:00, 00:10:00–00:10:30, 00:21:30; ep18 00:00:00, 00:13:30–00:14:30, 00:19:30, 00:24:30–00:25:00 | Not lesson content; Qur'an never typed | Content rule; Qur'an rule | Open |
+| Repetition loops and hallucinated runs | ep17 00:02:30, 00:14:00, 00:14:30; ep18 00:14:30 (tail), 00:15:00 | Not speech | Loop check | Open |
+| Anecdote of the Meccan woman who joked for the women of Mecca and was hosted in Medina | ep17 00:14:30–00:15:30 | Names and sequence garbled | Clarity | Open |
+| The institution that corrupts people ("the dancing class") and the charitable-deed reckoning | ep17 00:17:00–00:17:30 | Garbled; the point is unclear | Clarity | Open |
+| Lamentation on people's bickering over a prize | ep17 00:07:00 | Partly garbled | Clarity | Open |
+| Recited verses on the bee, the rooster and the sparrow | ep18 00:08:00 | Verbatim verse, partly garbled; given by sense only | Sources policy | Open |
+| The sentence "we ask what it would be to be among the godfearing if you were rich" | ep18 00:16:00–00:16:30 | Garbled; the point is not recoverable | Clarity | Open |
+| Remark on a son who turns against his father | ep18 00:16:00 | Partly garbled; not written | Clarity | Open |
+| Money of the chamber and the cameras in the programme | ep17 00:21:00 | Logistics of the broadcast, not lesson content | Content rule | Open |
 ## al-dar-al-akhera, episodes 1 onward (12 Nov 2026, Claude Code claude-sonnet-5-5)
 
 Series record `work/al-dar-al-akhera` (33 lessons; transcripts `books/assabile/omar-abdelkafy/al-dar-al-akhera/pass5-qwen/`, Qwen3-ASR, 30-second windows). New record, `status.review: draft` with provenance (run `omar-abdelkafy-dar-akhera-1`). Sensitivity `contested` set through the decision engine (`docs/decisions/records/dec-20261112-260.yaml`, rule-harvest-include). Trust criteria as for the ebadu series: a point is written only from windows that read as clear Arabic in context; hadith and verses are given by sense and attributed to the lecturer, never typed; no passage links where the lecturer does not name the sura.
@@ -379,4 +398,19 @@ Opinions labelled as the lecturer's own (record stays `sensitivity: contested`, 
 | Closing supplications, sign-offs, producer's announcement with phone number and organisation name | ep04 00:42:00; ep05 00:41:30, 00:47:30-00:48:00 | Not lesson content | Content rule | Open |
 | Question on a bank loan and one on spending zakat | ep05 00:43:00-00:44:30 | Garbled | Clarity | Open |
 
-Resume point: episode 06 (branch `agent/assabile-dar-akhera`).
+
+### al-dar-al-akhera ep06 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep06 (minor signs of the Hour, part 1) | about 42 min (transcript) | ar, en, ur: 1 record extended | 1 new `about` edge (concept/ashrat-al-saa) | 20 points; qwen3-asr pass5, 30 s windows | needs_source on 18 of 20 points; the shepherd's name and description (00:16:00), the death toll in the Euphrates hadith (00:12:00), Aisha's saying (00:00:00) | run omar-abdelkafy-dar-akhera-3 |
+
+Opinions labelled as the lecturer's: group recitation in mosques, music, modern readings of the thigh hadith, dress. The hadith on a future fight between Muslims and Jews is given by sense only; his commentary on it is garbled and not written (sensitivity stays `contested`).
+
+| Excluded (dar-akhera ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep06 00:10:00, 00:14:00, 00:14:30, 00:25:30, 00:29:00, 00:30:00, 00:31:30, 00:33:00, 00:33:30 | Not speech | Loop check | Open |
+| Garbled passages | ep06 00:07:30-00:10:00 (painting and art tangent), 00:13:00-00:14:00 (Bilal and Ali), 00:19:00-00:19:30, 00:32:00-00:33:00, 00:39:30-00:41:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Sign-off | ep06 00:42:00 (greeting and thanks) | Not lesson content | Content rule | Open |
+
+Resume point: episode 07 (branch from origin/main).
