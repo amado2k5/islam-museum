@@ -1,0 +1,35 @@
+id: event/battle-of-al-jabiya
+class: event
+kind: skirmish
+label: { ar: "الصدام الأول قرب الجابية ⁦(١٥هـ)⁩", en: "The clash near al-Jabiya (15 AH / 636)", ur: "الجابیہ کے قریب پہلی جھڑپ ⁦(١٥ھ)⁩" }
+summary:
+  ar: "الصدام التمهيدي الذي سبق يوم اليرموك. تذكر دائرة المعارف الإسلامية أن المعركة تسمى أيضاً اليرموك أو الجابية، وأنها بدأت بمناورات قرب الجابية قاعدة الغساسنة، وأن المسلمين بقيادة أبي عبيدة بن الجراح فازوا في صدام أولي هناك يوم 13 جمادى الآخرة سنة 15هـ الموافق 23 تموز 636م، ثم حُسم الأمر بعد نحو شهر في اليرموك {cite:encyclopaedia-of-islam-2 vol. 11 p. 302} {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}."
+  en: "The preliminary engagement before the decisive day of the Yarmuk. The Encyclopaedia of Islam says the battle is also called that of the Yarmuk or Djabiya, that it began with manoeuvres near al-Jabiya, the Ghassanid base, and that the Muslims under Abu Ubayda ibn al-Jarrah won an initial clash there on 13 Jumada II 15/23 July 636; the decisive fighting came about a month later at the Yarmuk {cite:encyclopaedia-of-islam-2 vol. 11 p. 302} {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}."
+  ur: "یرموک کے فیصلہ کن دن سے پہلے کی ابتدائی جھڑپ۔ اسلامی دائرۃ المعارف کے مطابق اس جنگ کو یرموک یا جابیہ بھی کہا جاتا ہے، یہ غسانیوں کے اڈے الجابیہ کے قریب چالوں سے شروع ہوئی، اور ابو عبیدہ بن الجراح کی قیادت میں مسلمانوں نے 13 جمادی الآخرہ سنہ 15ھ بمطابق 23 جولائی 636ء کو وہاں پہلی جھڑپ جیتی؛ فیصلہ کن لڑائی تقریباً ایک ماہ بعد یرموک میں ہوئی {cite:encyclopaedia-of-islam-2 vol. 11 p. 302} {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}۔"
+wings: [time]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0636-07-23", hijri: "0015-06-13", calendar: julian, precision: day, status: historical, derived: false, note: "13 Jumada II 15 / 23 July 636, as given in EI2 (article Yarmuk, battle section).", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: part_of, target: event/battle-of-yarmuk, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: part_of, target: event/conquest-of-syria, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/al-jabiya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "commander of the Muslim forces", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/jabala-ibn-al-ayham, role: "king of the Ghassan, led the Ghassanid forces in the campaign", sources: [source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "المسلمون بقيادة أبي عبيدة بن الجراح", en: "The Muslims under Abu Ubayda ibn al-Jarrah", ur: "ابو عبیدہ بن الجراح کی قیادت میں مسلمان" }
+  - label: { ar: "الروم وحلفاؤهم من عرب غسان", en: "The Byzantines and their Ghassanid Arab allies", ur: "رومی اور ان کے غسانی عرب حلیف" }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article Yarmuk (battle section, vol. 11 p. 302) and article al-Djabiya (vol. 2 p. 385)"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-4
+  canon: "EI2 vol. 11 p. 302 (Yarmuk, 2. The battle); vol. 2 p. 385 (al-Djabiya)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "قبل المعركة الكبرى في اليرموك وقع صدام صغير قرب الجابية فاز فيه المسلمون."
+  en: "Before the big battle at the Yarmuk, a small clash near al-Jabiya was won by the Muslims."
+  ur: "یرموک کی بڑی جنگ سے پہلے الجابیہ کے قریب ایک چھوٹی جھڑپ ہوئی جس میں مسلمان جیتے۔"

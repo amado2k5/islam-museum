@@ -1,0 +1,47 @@
+id: place/sultaniyya
+class: place
+kind: city
+label:
+  ar: السلطانية
+  en: Sultaniyya
+  ur: سلطانیہ
+summary:
+  ar: "السلطانية مدينة في شمال إقليم الجبال الإسلامي الوسيط، على نحو خمسين كيلومتراً جنوب شرق زنجان. أسسها الإلخانيون المغول في أواخر القرن السابع الهجري، فبدأ أرغون بناءها، ووسّعها ابنه أولجايتو سنة 705هـ/1305م وجعلها المقر الموسمي الرئيسي لدولته، وانتهى بناؤها سنة 713هـ/1313م. وفيها ضريح أولجايتو، قبة هائلة ثمانية الأضلاع، ما زالت قائمة {cite:encyclopaedia-of-islam-2 vol. 9 p. 884} {cite:encyclopaedia-of-islam-2 vol. 9 p. 885} {cite:encyclopaedia-of-islam-2 vol. 9 p. 886}."
+  en: "Sultaniyya is a town in the northern part of the mediaeval Islamic province of Jibal, some 50 km south-east of Zanjan. The Mongol Ilkhans founded it towards the end of the seventh/thirteenth century: Arghun began building it, his son Oljeitu enlarged it in 705/1305 and made it the chief seasonal residence of his kingdom, and its building was finished in 713/1313. Its great survivor is Oljeitu's mausoleum, an enormous domed octagon {cite:encyclopaedia-of-islam-2 vol. 9 p. 884} {cite:encyclopaedia-of-islam-2 vol. 9 p. 885} {cite:encyclopaedia-of-islam-2 vol. 9 p. 886}."
+  ur: "سلطانیہ قرونِ وسطیٰ کے اسلامی صوبہ جبال کے شمالی حصے میں زنجان سے تقریباً پچاس کلومیٹر جنوب مشرق میں ایک شہر ہے۔ منگول ایل خانیوں نے اسے ساتویں/تیرھویں صدی کے آخر میں بسایا: ارغون نے تعمیر شروع کی، ان کے بیٹے اولجایتو نے 705ھ/1305ء میں اسے وسعت دی اور اپنی سلطنت کا بنیادی موسمی مسکن بنایا، اور اس کی تعمیر 713ھ/1313ء میں مکمل ہوئی۔ اس کی بڑی باقی ماندہ یادگار اولجایتو کا مقبرہ ہے، ایک عظیم الشان ہشت پہلو گنبد {cite:encyclopaedia-of-islam-2 vol. 9 p. 884} {cite:encyclopaedia-of-islam-2 vol. 9 p. 885} {cite:encyclopaedia-of-islam-2 vol. 9 p. 886}."
+wings:
+- place
+periods:
+- period/mongol-post-mongol
+regions:
+- persia-central-asia
+coordinates:
+- 36.4
+- 48.8333
+coordinate_precision: site
+relations:
+- { type: capital_of, target: polity/ilkhanate, note: "Capital, or more accurately chief seasonal residence, under Oljeitu from 705/1305; another EI2 article dates its role as capital from 1307 {cite:encyclopaedia-of-islam-2 vol. 9 p. 885} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1155}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: person/oljeitu, note: "Enlarged the city, made it his capital, died there and was buried in his mausoleum {cite:encyclopaedia-of-islam-2 vol. 9 p. 885}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: person/arghun-khan, note: "Began the construction of the town {cite:encyclopaedia-of-islam-2 vol. 9 p. 885}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: person/abu-said-ilkhan, note: "His accession kurultay was held here; his son's birth prompted the enlargement {cite:encyclopaedia-of-islam-2 vol. 9 p. 885}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: person/rashid-al-din-hamadani, note: "Built a quarter of 1,000 houses, the Rab'-i Rashidi {cite:encyclopaedia-of-islam-2 vol. 9 p. 885}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: person/timur-lang, note: "His forces took the city from the sons of Ahmad Jalayir in 786/1384 {cite:encyclopaedia-of-islam-2 vol. 9 p. 885}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: person/miran-shah, note: "Held it in 795/1393 as part of the fief of Hulegu {cite:encyclopaedia-of-islam-2 vol. 9 p. 885}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: place/tabriz, note: "Rival capital; Hamd Allah Mustawfi says only Tabriz had so many fine buildings {cite:encyclopaedia-of-islam-2 vol. 9 p. 885}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: place/zanjan, note: "About 50 km to the south-east of Zanjan; the modern town is in Zanjan province {cite:encyclopaedia-of-islam-2 vol. 9 p. 884} {cite:encyclopaedia-of-islam-2 vol. 9 p. 885}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: polity/jalayirids, note: "Possession of the city was disputed between the Chubanids, the Jalayirids and the Muzaffarids {cite:encyclopaedia-of-islam-2 vol. 9 p. 885}.", sources: [source/encyclopaedia-of-islam-2] }
+sources:
+- source/encyclopaedia-of-islam-2
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-4
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 9, article Sultaniyya, pp. 884-886 (coordinates lat. 36 24 N, long. 48 50 E given in the article); vol. 3, article Ilkhans, p. 1155"
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "السلطانية مدينة بناها ملوك المغول، وفيها قبة ضخمة جداً ما زالت ترى إلى اليوم."
+  en: "Sultaniyya was a city built by Mongol kings, and its huge dome can still be seen today."
+  ur: "سلطانیہ منگول بادشاہوں کا بسایا ہوا شہر تھا، اور اس کا بہت بڑا گنبد آج بھی نظر آتا ہے۔"

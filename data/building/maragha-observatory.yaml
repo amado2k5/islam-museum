@@ -1,0 +1,40 @@
+id: building/maragha-observatory
+class: building
+kind: observatory
+label: { ar: "مرصد مراغة", en: "Maragha Observatory", ur: "مراغہ رصدگاہ" }
+summary:
+  ar: "مرصد أمر هولاكو ببنائه على تل محصّن غربي مدينة مراغة بأذربيجان بعد أخذ بغداد، وفق تصميم نصير الدين الطوسي الذي كان أول مديريه. أُسس سنة 657هـ/1259م، وهو بحسب دائرة المعارف الإسلامية أول مرصد إسلامي كبير يُعرف تنظيمه وبناؤه بالتفصيل، فضمّ مسكناً لهولاكو ومسجداً ومكتبة غنية وآلات ضخمة، وموّلته الأوقاف. أنتج الزيج الإلخاني وبقي عمله زهاء خمس وخمسين أو ستين سنة، وكان خراباً سنة 740هـ/1339م {cite:encyclopaedia-of-islam-2 vol. 6 p. 628}."
+  en: "The observatory Hulagu ordered built on a fortified hill west of the town of Maragha in Azerbaijan after the fall of Baghdad, to the plans of Nasir al-Din al-Tusi, who became its first director. Founded in 657/1259, it is, in the Encyclopaedia of Islam's account, the first large-scale Islamic observatory whose organisation and structure are known in detail: it had a residence for Hulagu, a mosque, a rich library and large instruments, and was paid for by pious endowments. It gave rise to the Zij-i Ilkhani, worked for some 55 or 60 years, and lay in ruins by 740/1339 {cite:encyclopaedia-of-islam-2 vol. 6 p. 628}."
+  ur: "یہ رصدگاہ ہلاکو نے بغداد کے سقوط کے بعد آذربائیجان کے شہر مراغہ کے مغرب میں ایک مضبوط ٹیلے پر نصیر الدین طوسی کے نقشے کے مطابق بنوائی، جو اس کے پہلے ناظم بنے۔ یہ 657ھ/1259ء میں قائم ہوئی اور دائرۃ المعارف الاسلامیہ کے بیان میں پہلی بڑی اسلامی رصدگاہ ہے جس کی تنظیم اور ساخت تفصیل سے معلوم ہے: اس میں ہلاکو کی رہائش، مسجد، بھرپور کتب خانہ اور بڑے آلات تھے، اور اخراجات اوقاف سے پورے ہوتے تھے۔ اس سے زیجِ ایلخانی نکلی، یہ تقریباً پچپن یا ساٹھ سال کام کرتی رہی، اور 740ھ/1339ء میں کھنڈر تھی {cite:encyclopaedia-of-islam-2 vol. 6 p. 628}."
+wings: [place]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+themes: [astronomy-and-timekeeping, libraries-paper-and-the-book]
+built: { edtf: "1259", hijri: "0657", calendar: julian, precision: year, status: historical, note: "The article Marsad says the observatory was founded in 657/1259 {cite:encyclopaedia-of-islam-2 vol. 6 p. 628}; the article Maragha says Hulagu ordered it after the taking of Baghdad in 656/1258 {cite:encyclopaedia-of-islam-2 vol. 6 p. 525}." }
+patron: person/hulagu
+architect: person/nasir-al-din-al-tusi
+location: place/maragha
+status_now: ruined
+dimensions: "Levelled area of the hill 137 by 347 metres, per Schindler's plan of 1883 {cite:encyclopaedia-of-islam-2 vol. 6 p. 525}"
+relations:
+  - { type: located_in, target: place/maragha, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: founded_by, target: person/hulagu, role: "ordered the observatory built", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/nasir-al-din-al-tusi, note: "Gave the plans, suggested the foundation and was the first director; died in 672/1274.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/muhyi-al-din-al-maghribi, note: "Astronomer of the observatory, d. between 680 and 690/1281-91; his own zij came from it.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/qutb-al-din-shirazi, note: "Astronomer of the observatory (634-710/1236-1311).", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: work/zij-i-ilkhani, note: "The astronomical tables regarded as the result of the work at Maragha.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/oljeitu, note: "In 703/1304 he received Chinese envoys at Maragha and installed Tusi's son at the observatory.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-4
+  canon: "Encyclopaedia of Islam, 2nd ed., vol. 6, articles Marsad p. 628 and Maragha pp. 525-526; vol. 10, article al-Tusi, Nasir al-Din, pp. 798, 802"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "مرصد مراغة مكان كبير بُني على تل لمراقبة النجوم وصنع جداول الفلك."
+  en: "The Maragha Observatory was a big place on a hill where scholars watched the stars and made tables of the sky."
+  ur: "مراغہ رصدگاہ ایک ٹیلے پر بنی بڑی جگہ تھی جہاں عالم ستارے دیکھتے اور آسمان کے جدول بناتے تھے۔"

@@ -1,0 +1,42 @@
+id: person/batu-khan
+class: person
+label: { ar: "باتو خان", en: "Batu Khan", ur: "باتو خان" }
+names:
+  - { kind: alternate, lang: en, value: "Batu" }
+  - { kind: alternate, lang: ar, value: "باتو" }
+  - { kind: alternate, lang: en, value: "Baatu" }
+summary:
+  ar: "باتو أمير مغولي، ثاني أبناء جوجي بن جنكيز خان، فاتح روسيا ومؤسس القبيلة الذهبية على الفولغا. ورث بعد وفاة أبيه سنة 624هـ/1227م الأراضي الغربية من إقطاعه، وقاد الجيش المغولي إلى روسيا وبولندا والمجر بين 633 و639هـ، ثم ثبّت حكمه في سهوب القبجاق. عاداه كيوك، وقام هو بدور حاسم في تنصيب منكو خاناً أعظم سنة 649هـ/1251م، وتوفي على الأرجح سنة 653هـ/1255م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1165}."
+  en: "Batu was a Mongol prince, the second son of Jochi son of Genghis Khan, the conqueror of Russia and founder of the Golden Horde on the Volga. He inherited the western part of his father's appanage on Jochi's death in 624/1227, commanded the Mongol army that struck Russia, Poland and Hungary between 633/1236 and 639/1241, and then settled his rule in the Kipchak Steppe. An enemy of Guyuk, he played the decisive part in raising Mongke to the Great Khanate in 649/1251, and most likely died in 653/1255 {cite:encyclopaedia-of-islam-2 vol. 1 p. 1165}."
+  ur: "باتو منگول شہزادہ، چنگیز خان کے بیٹے جوجی کے دوسرے بیٹے، روس کے فاتح اور وولگا پر قبیلۂ زریں کے بانی تھے۔ باپ کی وفات پر 624ھ/1227ء میں انہیں جاگیر کا مغربی حصہ ملا؛ انہوں نے 633ھ/1236ء سے 639ھ/1241ء کے درمیان روس، پولینڈ اور ہنگری پر حملہ کرنے والی منگول فوج کی کمان کی، پھر دشتِ قپچاق میں اپنی حکومت مستحکم کی۔ گیوک ان کے دشمن تھے اور انہوں نے 649ھ/1251ء میں منگو کو عظیم خان بنوانے میں فیصلہ کن کردار ادا کیا؛ غالباً 653ھ/1255ء میں فوت ہوئے {cite:encyclopaedia-of-islam-2 vol. 1 p. 1165}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+themes: [mongol-invasions]
+faith:
+  - { value: other, basis: documented, note: "The Encyclopaedia of Islam says the Mongols' own sources show him following the worship of the Sky practised by his ancestors; he was not a Muslim {cite:encyclopaedia-of-islam-2 vol. 1 p. 1166}" }
+born: { edtf: "120X", precision: decade, status: historical, derived: false, note: "The Encyclopaedia of Islam says only that he was born in the early years of the 13th century {cite:encyclopaedia-of-islam-2 vol. 1 p. 1165}." }
+died: { edtf: "1255", hijri: "0653", calendar: julian, precision: year, status: debated, derived: false, note: "The article says the sources diverge considerably and that 653/1255 seems most likely {cite:encyclopaedia-of-islam-2 vol. 1 p. 1166}; the article Batu'ids gives 1255-56 {cite:encyclopaedia-of-islam-2 vol. 1 p. 1166}." }
+relations:
+  - { type: child_of, target: person/jochi-ibn-genghis, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: sibling_of, target: person/berke-khan, note: "Berke represented him at Mongke's enthronement and succeeded him in the Golden Horde.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: founder_of, target: polity/golden-horde, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: ruler_of, target: polity/golden-horde, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: allied_with, target: person/mongke-khan, note: "Proposed Mongke as Great Khan after Guyuk's death and backed the coup of 1251.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/saray, note: "The article says the town of Saray was founded by him towards the end of his life.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-4
+  canon: "Encyclopaedia of Islam, 2nd ed., vol. 1, articles Batu (Barthold-Boyle) and Batu'ids, pp. 1165-1167; Mongols, vol. 7 p. 258; Toregene Khatun, vol. 10 p. 602"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "باتو خان قائد مغولي أسس القبيلة الذهبية على نهر الفولغا."
+  en: "Batu Khan was a Mongol leader who founded the Golden Horde beside the Volga river."
+  ur: "باتو خان منگول سردار تھے جنہوں نے دریائے وولگا کے کنارے قبیلۂ زریں قائم کیا۔"

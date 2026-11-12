@@ -1,0 +1,33 @@
+id: person/theodore-trithurios
+class: person
+label: { ar: "ثيودور تريثوريوس", en: "Theodore Trithurios", ur: "تھیوڈور ٹرائتھوریوس" }
+names:
+  - { kind: alternate, lang: la, value: "Theodorus Trithurius" }
+  - { kind: alternate, lang: en, value: "Theodorus, brother of Heraclius" }
+  - { kind: alternate, lang: en, value: "Theodore the Sakellarios" }
+summary:
+  ar: "قائد بيزنطي وأخو الإمبراطور هرقل، تسميه دائرة المعارف الإسلامية ثيودور تريثوريوس الساكلاريوس، أي أمين الخزانة. تذكر في مقالة أجنادين أن القوات الرومية في المعركة سنة 13هـ الموافقة تموز-آب 634م كان يقودها ثيودورس أخو هرقل، وتذكر في مقالة اليرموك أنه جاء من حمص مع القائد فاهان، وأن الروايات تتضارب في حضوره المعركة نفسها، وأنه استُدعي على الأرجح إلى القسطنطينية في غضب قبل المراحل الأخيرة {cite:encyclopaedia-of-islam-2 vol. 1 p. 227} {cite:encyclopaedia-of-islam-2 vol. 11 p. 302}."
+  en: "Byzantine commander and brother of the emperor Heraclius, called by the Encyclopaedia of Islam Theodore Trithurios the Sakellarios, that is the treasurer. Its article on Ajnadayn says the Greek forces in the battle of 13 AH, July-August 634, were led by Theodorus, brother of Heraclius. Its article on the Yarmuk says he came from Hims with the general Vahan, that reports conflict on whether he was present at the battle itself, and that he was probably recalled to Constantinople in disgrace before its final stages {cite:encyclopaedia-of-islam-2 vol. 1 p. 227} {cite:encyclopaedia-of-islam-2 vol. 11 p. 302}."
+  ur: "بازنطینی سپہ سالار اور شہنشاہ ہرقل کے بھائی، جنہیں اسلامی دائرۃ المعارف تھیوڈور ٹرائتھوریوس ساکلاریوس، یعنی خزانچی، کہتا ہے۔ اجنادین کے مضمون میں ہے کہ 13ھ، یعنی جولائی-اگست 634ء، کی جنگ میں رومی فوج کی قیادت ہرقل کے بھائی تھیوڈورس کے پاس تھی۔ یرموک کے مضمون میں ہے کہ وہ حمص سے سپہ سالار واہان کے ساتھ آئے، ان کی جنگ میں موجودگی کے بارے میں روایات متضاد ہیں، اور غالباً آخری مراحل سے پہلے انہیں ناراضی کے ساتھ قسطنطنیہ واپس بلا لیا گیا {cite:encyclopaedia-of-islam-2 vol. 1 p. 227} {cite:encyclopaedia-of-islam-2 vol. 11 p. 302}۔"
+gender: male
+roles: [general]
+wings: [people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: sibling_of, target: person/heraclius, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/battle-of-ajnadayn, role: "Commander of the Greek forces according to the article on Ajnadayn", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/battle-of-yarmuk, role: "Took part in planning; his presence at the battle itself is disputed", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., articles Adjnadayn (vol. 1 p. 227) and al-Yarmuk, part 2 The battle (vol. 11 pp. 301-302)"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-4
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 1 p. 227; vol. 11 pp. 301-302 (PDF pages)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "ثيودور أخو الإمبراطور هرقل، وقاد جيش الروم في معركة أجنادين."
+  en: "Theodore was the brother of the emperor Heraclius and led the Byzantine army at the battle of Ajnadayn."
+  ur: "تھیوڈور شہنشاہ ہرقل کے بھائی تھے اور انہوں نے اجنادین کی جنگ میں بازنطینی فوج کی قیادت کی۔"

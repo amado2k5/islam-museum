@@ -1,0 +1,45 @@
+id: person/choban
+class: person
+label: { ar: "الأمير جوبان", en: "Choban", ur: "امیر چوبان" }
+names:
+  - { kind: full, lang: en, value: "Amir Choban of the Suldus" }
+  - { kind: alternate, lang: en, value: "Chupan" }
+  - { kind: alternate, lang: en, value: "Cuban" }
+  - { kind: alternate, lang: en, value: "Čūbān" }
+  - { kind: alternate, lang: ar, value: "جوبان" }
+  - { kind: alternate, lang: ar, value: "چوپان" }
+summary:
+  ar: "الأمير جوبان قائد مغولي من قبيلة السلدوز ادعت أسرته انحدارها من رجل أنقذ حياة جنكيز خان. خدم الإلخانات أرغون وغيخاتو وغازان وأولجايتو، وعيّنه أبو سعيد أمير الأمراء سنة 717هـ/1317م وتزوج أخته، فصار صاحب النفوذ الأكبر في الدولة، وحكم أبناؤه أقاليمها المهمة. ثم أراد أبو سعيد كسر شوكة الأسرة، فأعدم ابنه دمشق خواجه وأمر بقتله، ففرّ إلى هراة حيث قتله حاكمها الكرتي في أواخر 727 أو مطلع 728هـ/1327م {cite:encyclopaedia-of-islam-2 vol. 2 p. 82} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1155}."
+  en: "Amir Choban was a Mongol commander of the Suldus tribe, whose family claimed descent from a man who once saved the life of Chingiz Khan. He served the Ilkhans Arghun, Gaykhatu, Ghazan and Oljeitu, was made amir al-umara by Abu Said in 717/1317 and married the Ilkhan's sister, and became the dominant power in the state, with his sons governing its main provinces. When Abu Said moved to break the family's power, he put Choban's son Dimashq Khwaja to death and ordered Choban's own execution; Choban fled to Herat, where its Kartid ruler had him killed in late 1327, in 727 or early 728 AH {cite:encyclopaedia-of-islam-2 vol. 2 p. 82} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1155}."
+  ur: "امیر چوبان قبیلہ سلدوز کے ایک منگول سپہ سالار تھے جن کے خاندان کا دعویٰ تھا کہ وہ اس شخص کی نسل سے ہیں جس نے چنگیز خان کی جان بچائی تھی۔ انہوں نے ایل خانیوں ارغون، گیخاتو، غازان اور اولجایتو کی خدمت کی، ابو سعید نے 717ھ/1317ء میں انہیں امیر الامراء بنایا اور انہوں نے ایل خان کی بہن سے نکاح کیا، یوں وہ ریاست کی سب سے بڑی طاقت بن گئے اور ان کے بیٹے اہم صوبوں کے حاکم رہے۔ جب ابو سعید نے اس خاندان کی طاقت توڑنے کا ارادہ کیا تو چوبان کے بیٹے دمشق خواجہ کو قتل کرایا اور خود چوبان کے قتل کا حکم دیا؛ چوبان ہرات بھاگ گئے جہاں کرتی حاکم نے انہیں 1327ء کے آخر میں، 727 یا 728ھ کے آغاز میں، قتل کر دیا {cite:encyclopaedia-of-islam-2 vol. 2 p. 82} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1155}."
+gender: male
+roles: [emir, general]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+died: { edtf: "1327", hijri: "0728", calendar: julian, precision: year, status: historical, derived: true, note: "The article gives Oct.-Nov. 1327, or perhaps Muharram 728, which began on 17 Nov. 1327; the museum records the year only {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: died_in, target: place/herat, note: "He fled back to Herat and took refuge with the Kartid malik Ghiyath al-Din, who put him to death; the article does not name the place of the killing itself {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}.", confidence: medium, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: buried_in, target: place/medina, note: "His body and that of his son Jilaw Khan were taken to Medina for burial {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}.", confidence: medium, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/abu-said-ilkhan, note: "Made amir al-umara by him in 717/1317 and married his sister Dulandi and, after her death, his other sister Sati Beg in 719/1319; Abu Said later destroyed the family {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/arghun-khan, note: "Served under him {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/gaykhatu, note: "Served under him {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/ghazan-khan, note: "Served under him {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/oljeitu, note: "Served under him {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/rashid-al-din-hamadani, note: "After Rashid al-Din was executed in 1318, Choban stepped into the leading place at court {cite:encyclopaedia-of-islam-2 vol. 3 p. 1155}.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: polity/kartid-dynasty, note: "The Kartid malik of Herat, Ghiyath al-Din, killed him {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-nasir-muhammad-ibn-qalawun, note: "The Mamluk sultan put Choban's son Timurtash to death in 728/1328 at Abu Said's urging {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-4
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 2, article Cubanids, pp. 81-82 (section on Amir Cuban); vol. 3, article Ilkhans, p. 1155"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "جوبان قائد مغولي كبير حكم أبناؤه أقاليم كثيرة، ثم انقلب عليه الحاكم الذي خدمه."
+  en: "Choban was a great Mongol commander whose sons governed many provinces, until the ruler he served turned against him."
+  ur: "چوبان ایک بڑے منگول سپہ سالار تھے جن کے بیٹے کئی صوبوں کے حاکم تھے، یہاں تک کہ جس بادشاہ کی وہ خدمت کرتے تھے وہی ان کے خلاف ہو گیا۔"
