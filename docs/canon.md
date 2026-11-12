@@ -22,16 +22,20 @@ Every Hijri century from the 1st to the 14th holds at least one cornerstone. The
 | event | 81 | 30 | 6 | 30 | 59 | 78 |
 | place | 130 | 30 | 20 | 85 | 120 | 130 |
 | concept | 67 | 30 | 0 | 28 | 55 | 67 |
-| building | 32 | 20 | 0 | 17 | 23 | 28 |
+| building | 32 | 20 | 0 | 15 | 23 | 28 |
 | work | 25 | 15 | 0 | 12 | 16 | 24 |
 | polity | 34 | 12 | 0 | 21 | 32 | 34 |
 | group | 20 | 5 | 4 | 15 | 16 | 20 |
 | practice | 15 | 10 | 0 | 6 | 14 | 15 |
-| object | 12 | 5 | 0 | 11 | 10 | 0 |
+| object | 12 | 5 | 0 | 10 | 10 | 0 |
 | period | 13 | 13 | 0 | 9 | 13 | 13 |
-| **all** | **847** | **271** | **44** | **422** | **543** | **827** |
+| **all** | **847** | **271** | **44** | **419** | **543** | **827** |
 
 "Under 300 words" counts the Arabic prose file, front matter included, and includes the records with none. "No image" means no `media/` record depicts the subject; for prophets and Companions that is the rule, not a gap.
+
+## Not in the graph yet
+
+Subjects a visitor would look for that have no record. Each was searched under every spelling listed in `scripts/fable/absences.json` by a verifier whose job was to find it; an earlier version of this list named 31 subjects, and 24 of them turned out to have records under another name (`docs/fable-run/ABSENCES.md`). Twelve of those records have since entered the canon as editorial includes (the `INCLUDE` list in the script). Still absent: Firdawsi; Ibn Majid; Luqman (a stub only); Battle of Plassey; aqida (as a concept); usul al-fiqh; the Maturidi school (as a concept or group).
 
 ## The list
 
@@ -71,7 +75,7 @@ Marks after a name: ∅ no Arabic prose, ✎ under 300 words, ◌ draft, + edito
 
 ### building — importance 1 (20)
 
-`kaaba`◌ · `prophets-mosque`◌ · `masjid-al-haram`◌ · `al-azhar` · `al-aqsa-mosque`✎◌ · `dome-of-the-rock`✎ · `umayyad-mosque`✎◌ · `taj-mahal`✎ · `hagia-sophia` · `great-mosque-cordoba`◌ · `masjid-quba`◌ · `sulaymaniyya-mosque`◌ · `masjid-ibn-tulun` · `alhambra`✎◌ · `masjid-sultan-hasan` · `jami-qayrawan`✎◌ · `humayun-tomb` · `hassan-ii-mosque`✎◌ · `selimiye-mosque`◌ · `masjid-amr-fustat`
+`kaaba`◌ · `prophets-mosque`◌ · `masjid-al-haram`◌ · `al-azhar` · `al-aqsa-mosque`✎◌ · `dome-of-the-rock` · `umayyad-mosque`✎◌ · `taj-mahal` · `hagia-sophia` · `great-mosque-cordoba`◌ · `masjid-quba`◌ · `sulaymaniyya-mosque`◌ · `masjid-ibn-tulun` · `alhambra`✎◌ · `masjid-sultan-hasan` · `jami-qayrawan`✎◌ · `humayun-tomb` · `hassan-ii-mosque`✎◌ · `selimiye-mosque`◌ · `masjid-amr-fustat`
 
 ### building — importance 2 (12)
 
@@ -111,7 +115,7 @@ Marks after a name: ∅ no Arabic prose, ✎ under 300 words, ◌ draft, + edito
 
 ### object — importance 1 (5)
 
-`kiswa`✎ · `al-mushaf-al-azraq` · `mushaf-birmingham`✎◌ · `ardabil-carpet`✎◌ · `minbar-kutubiyya`✎◌
+`kiswa` · `al-mushaf-al-azraq` · `mushaf-birmingham`✎◌ · `ardabil-carpet`✎◌ · `minbar-kutubiyya`✎◌
 
 ### object — importance 2 (7)
 

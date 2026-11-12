@@ -9,6 +9,11 @@ summary:
   en: "The art of beautiful Arabic script; the noblest Islamic art for its link to writing the Qur'an, with styles from Kufic to Naskh, Thuluth and Diwani."
 wings: [objects]
 themes: [arts-of-the-book, scripture-and-its-sciences]
+relations:
+  - { type: has_part, target: concept/kufic-script, sources: [source/wikidata] }
+  - { type: has_part, target: concept/naskh-script, sources: [source/wikidata] }
+  - { type: has_part, target: concept/thuluth-script, sources: [source/wikidata] }
+  - { type: has_part, target: concept/divani-script, sources: [source/wikidata] }
 sources: [source/wikidata]
 external_ids:
   wikidata: Q656831

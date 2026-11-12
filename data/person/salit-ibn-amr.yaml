@@ -19,14 +19,14 @@ story_roles:
   - { role: official, toward: person/muhammad, status: tradition, note: "وصفه ابن إسحاق برسول رسول الله (ص9)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
-died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Uhud (Ibn A'idh, al-Isaba p. 604); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
+died: { edtf: "0634~", hijri: "0012", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at al-Yamama (Ibn Ishaq and Ibn al-Kalbi, al-Isaba p. 604, entry 3560); the year is the battle's as recorded in event/battle-of-yamama. The earlier value here, AH 3 (martyred at Uhud, Ibn A'idh), belongs to the namesake Salit ibn Amr ibn Zayd, entry 3559 on the same page.", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/banu-amir, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: corresponded_with, target: person/hawdha-ibn-ali-al-hanafi, note: "رسول النبي إليه بحسب ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
-  - { type: participated_in, target: event/battle-of-uhud, note: "al-Isaba p. 604", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-yamama, role: martyr, note: "al-Isaba p. 604, entry 3560: Ibn Ishaq and Ibn al-Kalbi name him among those martyred at al-Yamama. The Uhud martyr on the same page (entry 3559, from Ibn A'idh) is the namesake Salit ibn Amr ibn Zayd.", sources: [source/ibn-hajar-isaba] }
 
 provenance:
   layer: own-research

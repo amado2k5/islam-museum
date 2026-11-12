@@ -15,6 +15,9 @@ made:
 holding_institution: "University of Birmingham"
 external_ids:
   wikidata: Q20722902
+relations:
+  - { type: exemplifies, target: concept/hijazi-script, sources: [source/wikidata] }
+  - { type: exemplifies, target: concept/mushaf, sources: [source/wikidata] }
 sources: [source/wikidata]
 importance: 1
 status:

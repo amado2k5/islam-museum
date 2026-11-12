@@ -1,0 +1,33 @@
+ORACLE 05: the cross-record contradiction sweep is complete; nothing is left silently (statement 5)
+file: scripts/fable/o05_contradictions.ts (detectors: scripts/fable/contradictions.ts)
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 876  (the numbers below describe the working tree, not HEAD)
+graph artifact: .cache/graph.json; built from commit ca0886cd1d3c5330c87270ed50bc21118241b598
+------------------------------------------------------------------------------
+register: 130 entries (first detection at graph commit e1d721298ab4b2494a4c8f04d3defcde1808b939)
+  fixed from already-cited sources:        38
+  stand registered with their evidence:    84
+  read and found consistent:               8
+detectors raise today: 91
+    39 found,   10 still raised  A placed in the reign of a ruler already dead
+     7 found,    7 still raised  A placed in the reign of a ruler not yet born
+    39 found,   34 still raised  A takes part in an event after death
+    17 found,   17 still raised  A takes part in an event before birth
+     3 found,    2 still raised  B child born before the parent
+     6 found,    6 still raised  B child born more than a year after the parent's death
+     1 found,    1 still raised  B spouses whose lives do not overlap
+     2 found,    2 still raised  B student died before the teacher was born
+     5 found,    3 still raised  B teacher died before the student was born
+     1 found,    1 still raised  C child_of written in both directions
+     1 found,    1 still raised  C successor_of written in both directions
+     5 found,    3 still raised  D prose gives a death year that differs from the person's own record
+     4 found,    4 still raised  D prose gives a life span that differs from the person's own record
+[PASS] every contradiction the detectors raise today is in the register: 91 raised, all registered
+[PASS] every entry marked fixed is no longer raised
+[PASS] no entry vanished without being marked fixed (a finding that stops firing must be accounted for)
+  registered entries the detectors no longer raise because a sound fix elsewhere hides them: 1 (A|reign-after-death|event/muezzin-salat-adhan-786|person/al-wathiq-umar-cairo)
+[PASS] every entry carries its evidence
+[PASS] every fixed or dismissed entry records what was done or why: 0 without a reason
+  entries registered on the detector's evidence alone, not yet read by an adjudicator: 0
+------------------------------------------------------------------------------
+RESULT: GREEN (5 checks passed)

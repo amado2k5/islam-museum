@@ -36,6 +36,31 @@ relations:
   sources:
   - source/wikidata
   note: أقرب مكان في المتحف إلى إحداثيات ويكيداتا (دون 10 كم).
+- type: located_in
+  target: place/al-aqsa-mosque
+  sources:
+  - source/wikidata
+  - source/ahsan-al-taqasim
+- type: commissioned_by
+  target: person/abd-al-malik-ibn-marwan
+  sources:
+  - source/umayyad-birth-to-fall-2006
+- type: written_about_by
+  target: person/al-muqaddasi
+  sources:
+  - source/ahsan-al-taqasim
+- type: mentioned_in
+  target: work/ahsan-al-taqasim
+  sources:
+  - source/ahsan-al-taqasim
+- type: written_about_by
+  target: person/ibn-fadl-allah-al-umari
+  sources:
+  - source/umari-masalik-1924
+- type: mentioned_in
+  target: work/masalik-al-absar
+  sources:
+  - source/umari-masalik-1924
 external_ids:
   archnet: "2814"
   wikidata: Q172077
@@ -58,3 +83,4 @@ provenance:
   generated_by: "Claude (maintainer session); enriched by Claude Code (OCR-harvest worker J)"
   model: "claude-sonnet-5-5; claude-opus-5-5"
   run: "building-wikidata-1; ocr-harvest-2026-11-04"
+  lead_deepened: "Lead section deepened to 150-250 words, Arabic and English, only from sources this record already cited (Grand Tour mission, run grand-tour-2026-11-11; Claude Code, claude-fable-5-2). AI text awaiting a human read; sentence-by-sentence evidence in docs/fable-run/prose-evidence/."

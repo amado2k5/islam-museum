@@ -24,7 +24,7 @@ relations:
   - { type: spouse_of, target: person/fatima-bint-al-mujallal, sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/hattab-ibn-al-harith, sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
-  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/second-migration-to-abyssinia, role: emigrant, note: "al-Isaba pp. 281-282: al-Waqidi and others say he emigrated in the second migration and died in the land of Abyssinia; Ibn Ishaq lists him among the emigrants who died there (Ibn Hisham 4/7, 4/10), so he did not sail back in AH 7.", sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh, note: "Jumahi Qurashi (al-Isaba p. 281)", sources: [source/ibn-hajar-isaba] }
   - { type: member_of, target: group/muhajirun, note: "al-Isaba p. 281", sources: [source/ibn-hajar-isaba] }

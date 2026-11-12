@@ -1,0 +1,196 @@
+[
+ {
+  "key": "A|after-death|person/amr-ibn-umayya|participated_in|event/return-of-abyssinian-emigrants",
+  "status": "registered",
+  "resolution": "The relation (role: emigrant) ties him to the roster Ibn Ishaq gives inside the chapter on the return (Ibn Hisham 4/3-11), which names every emigrant, the dead included. He did not sail in AH 7: Ibn Ishaq (4/7, 4/10) and al-Isaba p. 1086 say he died in Abyssinia. The right target would be one of the two migration events, but his cited sources say only that he emigrated to Abyssinia, not in which migration, so the relation cannot be retargeted without guessing. Proposed for the founder: retarget participated_in -> event/return-of-abyssinian-emigrants in data/person/amr-ibn-umayya.yaml to event/second-migration-to-abyssinia, or remove it.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/fatima-bint-safwan|participated_in|event/return-of-abyssinian-emigrants",
+  "status": "registered",
+  "resolution": "She did not sail in AH 7: Ibn Ishaq (4/4) and al-Isaba p. 1936 say she died in Abyssinia, yet the record gives participated_in the return with role returnee, which its own prose contradicts. Her cited sources do not say in which migration she left, so the relation cannot be retargeted without guessing, and removing it is the founder's decision. Proposed: retarget participated_in -> event/return-of-abyssinian-emigrants in data/person/fatima-bint-safwan.yaml to event/second-migration-to-abyssinia with role emigrant, or remove it.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/hatib-ibn-al-harith-jumahi|participated_in|event/return-of-abyssinian-emigrants",
+  "status": "fixed",
+  "resolution": "The record tied him (role: emigrant) to the return of AH 7, but he died in Abyssinia (Ibn Hisham 4/7, 4/10). His own cited source, al-Isaba pp. 281-282, says al-Waqidi and others report that he emigrated in the second migration and died in the land of Abyssinia. Retargeted participated_in from event/return-of-abyssinian-emigrants to event/second-migration-to-abyssinia in data/person/hatib-ibn-al-harith-jumahi.yaml, with that passage in the relation's note; nothing else in the file changed.",
+  "files_changed": [
+   "data/person/hatib-ibn-al-harith-jumahi.yaml"
+  ]
+ },
+ {
+  "key": "A|after-death|person/hattab-ibn-al-harith|participated_in|event/return-of-abyssinian-emigrants",
+  "status": "registered",
+  "resolution": "The same case as his brother Hatib, but not fixable from cited sources. Ibn Ishaq (4/7-8, 4/10) says he died in Abyssinia, so he did not sail in AH 7; his cited al-Isaba entry (p. 329) says only that Musa ibn Uqba, Ibn Ishaq and al-Tabari name him among the Abyssinia emigrants, and the words 'he emigrated in the second migration' on p. 282 are about Hatib alone. Proposed for the founder: retarget participated_in -> event/return-of-abyssinian-emigrants in data/person/hattab-ibn-al-harith.yaml to event/second-migration-to-abyssinia, or remove it.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/rayta-bint-al-harith|participated_in|event/return-of-abyssinian-emigrants",
+  "status": "registered",
+  "resolution": "The death year 625~ is an unsourced estimate from a date-enrichment pass (its note names al-Isaba, which the record does not cite). Ibn Ishaq gives no year and two places: she died 'in the land of Abyssinia' (4/5), or 'on the road' with three of her children during the return (4/11); the record notes the discrepancy and declines to choose. On the second reading she died during this very event. No cited source dates her death, so the year cannot be corrected, only removed. Proposed removal of died 625~ (and born 615~) from data/person/rayta-bint-al-harith.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/ruqayya-bint-muhammad|participated_in|event/return-of-abyssinian-emigrants",
+  "status": "registered",
+  "resolution": "She died in Medina in Ramadan AH 2 (al-Isaba p. 1872) and was not in the return of AH 7; Ibn Ishaq only names her (4/10-11) in his count of the sixteen women who ever emigrated to Abyssinia. Her emigration is already recorded from the event side (event/first-migration-to-abyssinia writes had_participant -> person/ruqayya-bint-muhammad), so retargeting would write the same edge twice. Fixing it means removing a relation, which is the founder's decision: proposed removal of participated_in -> event/return-of-abyssinian-emigrants from data/person/ruqayya-bint-muhammad.yaml.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/salit-ibn-amr|participated_in|event/letters-to-rulers-and-kings",
+  "status": "fixed",
+  "resolution": "The death date AH 3 / 625 ('martyred at Uhud, Ibn A'idh, al-Isaba p. 604') was taken from the wrong man: on that page it is entry 3559, Salit ibn Amr ibn Zayd. Entry 3560, this Salit (ibn Amr ibn Abd Shams al-Amiri, the envoy to Hawdha), says Ibn Ishaq and Ibn al-Kalbi name him among those martyred at al-Yamama, which the record's own prose already states. Corrected died in data/person/salit-ibn-amr.yaml from 0625 / AH 0003 to 0634~ / AH 0012, the year of that battle as recorded in event/battle-of-yamama. For the same reason the record's participated_in -> event/battle-of-uhud (note 'al-Isaba p. 604') was retargeted to event/battle-of-yamama.",
+  "files_changed": [
+   "data/person/salit-ibn-amr.yaml"
+  ]
+ },
+ {
+  "key": "A|after-death|person/salit-ibn-amr|participated_in|event/return-of-abyssinian-emigrants",
+  "status": "fixed",
+  "resolution": "Same correction as the finding for event/letters-to-rulers-and-kings. Died in data/person/salit-ibn-amr.yaml was corrected from 0625 / AH 0003, the death of the namesake Salit ibn Amr ibn Zayd (al-Isaba p. 604, entry 3559: martyred at Uhud), to 0634~ / AH 0012: this Salit was martyred at al-Yamama (entry 3560, as the record's own prose says). He was alive in AH 7; the relation to the return was not changed.",
+  "files_changed": [
+   "data/person/salit-ibn-amr.yaml"
+  ]
+ },
+ {
+  "key": "A|after-death|person/umm-harmala-bint-abd-al-aswad|participated_in|event/return-of-abyssinian-emigrants",
+  "status": "registered",
+  "resolution": "She did not sail in AH 7: Ibn Ishaq (4/5) says she died in Abyssinia, yet the record gives participated_in the return with role returnee, which its own prose contradicts. The death year 622~ is an unsourced estimate whose own note says '~640'. Her cited sources do not say in which migration she left, so the relation cannot be retargeted without guessing. Proposed for the founder: retarget participated_in -> event/return-of-abyssinian-emigrants in data/person/umm-harmala-bint-abd-al-aswad.yaml to event/second-migration-to-abyssinia with role emigrant, or remove it.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/umm-kulthum-bint-suhayl|participated_in|event/return-of-abyssinian-emigrants",
+  "status": "registered",
+  "resolution": "It cannot be settled from the cited source. Ibn Ishaq (4/11) only names her in his count of the sixteen women who emigrated, 'those who came back and those who died there', and says nothing of her fate. The death year 620~ is an unsourced estimate from a date-enrichment pass whose own note says '~650'. With no sourced death date and no statement that she sailed in AH 7, neither the date nor the relation can be corrected without guessing. Proposed removal of died 620~ from data/person/umm-kulthum-bint-suhayl.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/urwa-ibn-abd-al-uzza|participated_in|event/return-of-abyssinian-emigrants",
+  "status": "registered",
+  "resolution": "He did not sail in AH 7: Ibn Ishaq (4/9, 4/10) counts him among the seven men who died in Abyssinia. The death year 580~ is wrong as well: an unsourced estimate, whose own note says '~610', that falls before the emigration itself. His cited source names no migration and gives no death year, so neither the relation nor the date can be corrected without guessing. Proposed for the founder: retarget participated_in -> event/return-of-abyssinian-emigrants in data/person/urwa-ibn-abd-al-uzza.yaml to event/second-migration-to-abyssinia or remove it, and remove died 580~.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/uthman-ibn-abd-ghanm|participated_in|event/return-of-abyssinian-emigrants",
+  "status": "registered",
+  "resolution": "Here the relation is right and the date is wrong. His cited al-Isaba entry (p. 1008) quotes al-Baladhuri that he stayed in Abyssinia until he came back with Ja'far ibn Abi Talib, so he was alive in AH 7. Died 615~ is an unsourced estimate from a date-enrichment pass whose own note says '~630'. No cited source gives a death year, so it cannot be corrected, only removed. Proposed removal of died 615~ from data/person/uthman-ibn-abd-ghanm.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "B|born-after-parent-died|person/fatima-bint-al-harith-ibn-khalid|person/rayta-bint-al-harith",
+  "status": "registered",
+  "resolution": "Both dates are unsourced estimates from a date-enrichment pass, and the cited text contradicts them. Ibn Ishaq (4/11) says Fatima was born in Abyssinia and arrived with the returnees of AH 7 (628), so she was not born about 630; her mother's 625~ has no source either (Ibn Ishaq gives no year). No cited source gives a year for either woman, so nothing can be put in their place. Proposed removal of born 630~ from data/person/fatima-bint-al-harith-ibn-khalid.yaml and of died 625~ from data/person/rayta-bint-al-harith.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "B|child-older-than-parent|person/aisha-bint-al-harith-ibn-khalid|person/rayta-bint-al-harith",
+  "status": "registered",
+  "resolution": "Both birth years are unsourced estimates from a date-enrichment pass, and the records' own text contradicts them. A'isha was born in Abyssinia (Ibn Hisham 4/11; her own born_in relation), so after the emigration of about 615-616, not about 610; Rayta emigrated as a married woman and bore four children there, so she was not born about 615. No cited source gives a birth year for either. Proposed removal of born 610~ from data/person/aisha-bint-al-harith-ibn-khalid.yaml and of born 615~ from data/person/rayta-bint-al-harith.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/al-faryani|participated_in|event/faryani-mahdi-848",
+  "status": "registered",
+  "resolution": "The relation is right and the death year is wrong. The record's only source, Shadharat al-Dhahab under the year 848 AH (pp. 261-262), has him going to the Humayda mountains and claiming to be the Mahdi in 848 AH / 1444, and gives no death date. Died 1335 comes from a date-enrichment pass that names Ibn Hajar's al-Durar, which the record does not cite. Nothing sourced can replace it. Proposed removal of died 1335 from data/person/al-faryani.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/al-numan-qayl-dhi-ruayn|participated_in|event/letter-of-himyar-kings",
+  "status": "registered",
+  "resolution": "The relation is right and the death year is wrong. The record's cited source (Ibn Hisham 4/235) has him writing to the Prophet on the return from Tabuk in AH 9 / 631, and the record's own faith and story_roles entries are dated 0631~. Died 525~ is an unsourced estimate from a date-enrichment pass ('source: al-Tabari', which the record does not cite). No cited source gives a death year. Proposed removal of died 525~ from data/person/al-numan-qayl-dhi-ruayn.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/humayd-ibn-mayuq|participated_in|event/conquest-of-iqritish",
+  "status": "not-a-contradiction",
+  "resolution": "The event record covers the conquest of Crete in all its stages, from Junada's first raid to its completion under al-Ma'mun, and its single date, 824~, marks only that completion (the date's own note says so). Humayd's part, as the relation's role 'raider in al-Rashid's reign' and al-Baladhuri p. 330 say, was the raid under al-Rashid (r. 786-809), before his estimated death of about 820. The detector compared his death with the end of a long event.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/masada-ibn-hakama|participated_in|event/raid-of-zayd-on-banu-fazara-and-umm-qirfa",
+  "status": "fixed",
+  "resolution": "The record's own cited prose (Ibn Hisham 4/265-266) says Qays ibn al-Musahhar killed him in this very raid, so he died at the event, not 28 years before it; died 600~ was an unsourced estimate from a date-enrichment pass. Corrected died in data/person/masada-ibn-hakama.yaml from 600~ to 0628~ / AH 0006~, the raid's date as recorded in event/raid-of-zayd-on-banu-fazara-and-umm-qirfa (Ibn Ishaq gives the raid no year of his own; the new note says so and keeps the old value on record).",
+  "files_changed": [
+   "data/person/masada-ibn-hakama.yaml"
+  ]
+ },
+ {
+  "key": "A|after-death|person/thalaba-ibn-hatib|participated_in|event/masjid-al-dirar-builders-ask-the-prophet-to-pray",
+  "status": "registered",
+  "resolution": "Two sources that disagree, or two men under one name. Ibn Ishaq (4/174, cited) names Tha'laba ibn Hatib of Banu Umayya ibn Zayd among the twelve builders of Masjid al-Dirar in AH 9. Died 625 (note: 'date-enrichment pass; source: al-Isaba', not cited by the record) matches al-Isaba no. 951, where Ibn al-Kalbi says the Badr veteran of that name was killed at Uhud; Ibn Hajar uses that to tell him apart from the builder (no. 952). No second record exists (searched data/person for the Arabic name and for thalaba-ibn-hatib), and no source dates the builder's death. Proposed removal of died 625 from data/person/thalaba-ibn-hatib.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "A|after-death|person/usama-ibn-sharik|participated_in|event/farewell-pilgrimage",
+  "status": "registered",
+  "resolution": "The relation is right and the death year is wrong. His cited al-Isaba entry (pp. 43-44) gives his own report that he went out with the Prophet on the Farewell Pilgrimage (AH 10 / 632) and gives no death date. Died 630~ is an unsourced estimate from a date-enrichment pass whose own note says '~660'. Nothing sourced can replace it. Proposed removal of died 630~ from data/person/usama-ibn-sharik.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "A|before-birth|person/abu-hanifa|participated_in|event/treaty-with-taghlib",
+  "status": "registered",
+  "resolution": "Abu Hanifa (b. AH 80) took no part in a treaty of about AH 20. Al-Baladhuri (pp. 249-252) only lists him among the later jurists who held that a Taghlibi pays double the sadaqa, which is what the relation's role says. The event already records that link from its own side as related_to with the same role, so there is nothing to retarget to. Fixing it means removing a relation, which is the founder's decision: proposed removal of participated_in -> event/treaty-with-taghlib from data/person/abu-hanifa.yaml.",
+  "files_changed": []
+ },
+ {
+  "key": "A|before-birth|person/al-akhzar-ibn-lut|participated_in|event/khuzaa-bakr-clash-al-watir",
+  "status": "registered",
+  "resolution": "The relation is right and the birth year is wrong. His cited source (Ibn Hisham 4/34) has him composing verse on his clan's raid at al-Watir in AH 8 / 629. Born 650~ and died 700~ are unsourced estimates from a date-enrichment pass ('source: Ibn Hazm', which the record does not cite). No cited source gives his dates. Proposed removal of born 650~ and died 700~ from data/person/al-akhzar-ibn-lut.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "A|before-birth|person/amr-ibn-al-harith-al-jurhumi|participated_in|event/expulsion-of-jurhum",
+  "status": "registered",
+  "resolution": "The relation is right and the birth year is wrong. His cited sources (al-Raheeq p. 28; Ibn Hisham 1/114-115) make him the Jurhumite who buried the Kaaba's gazelles in Zamzam at the expulsion, which the event dates to the middle of the second century CE on al-Raheeq's estimate. Born 200~ and died 250~ are unsourced estimates from a date-enrichment pass ('source: al-Azraqi', which the record does not cite). No cited source gives his dates. Proposed removal of born 200~ and died 250~ from data/person/amr-ibn-al-harith-al-jurhumi.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "A|before-birth|person/dumayra-mawla-ali|participated_in|event/sariyya-of-zayd-to-madyan",
+  "status": "registered",
+  "resolution": "The relation is right and the birth year is wrong. His only cited source (Ibn Hisham 4/284) names him among those the Prophet sent with Zayd ibn Haritha towards Madyan, so he was a grown man in the Prophet's lifetime. Born 660~ is an unsourced estimate from a date-enrichment pass ('source: al-Isaba', which the record does not cite). No cited source gives a birth year. Proposed removal of born 660~ from data/person/dumayra-mawla-ali.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "A|before-birth|person/nafisa-bint-munya|participated_in|event/marriage-to-khadija",
+  "status": "registered",
+  "resolution": "The relation is right and the birth year is wrong. Her cited source (al-Raheeq p. 61) makes her Khadija's go-between in the marriage, about 595, and the record's own story_roles entry is dated 0595~. Born 610~ and died 632~ are unsourced estimates from a date-enrichment pass ('source: Ibn Sa'd', which the record does not cite). No cited source gives her dates. Proposed removal of born 610~ and died 632~ from data/person/nafisa-bint-munya.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "B|born-after-parent-died|person/harb-ibn-salm|person/sallam-ibn-ziyad",
+  "status": "registered",
+  "resolution": "The son's born 700~ and the father's died 693 are both estimates from a date-enrichment pass ('source: al-Tabari', cited by neither record). The father's year at least agrees with his cited prose (al-Baladhuri: Abd al-Malik appointed him to Khurasan and he died at Basra), so the son's birth estimate is the weak side. The one cited source, Futuh al-Buldan, dates neither man, so no corrected year is available. Proposed removal of born 700~ from data/person/harb-ibn-salm.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "B|student-dead-before-teacher-born|person/ibn-al-raffa-qari|person/ibn-al-khashab",
+  "status": "registered",
+  "resolution": "The relation is right; the teacher's dates belong to another man. Al-Muntazam 7/227-228 (cited by both records, under the events of 394 AH) makes the reciter Abu al-Hasan Ibn al-Khashshab the teacher of Ibn al-Raffa (d. 400 AH) and gives him no dates. Born 1099 and died 1172 on person/ibn-al-khashab are the dates of the grammarian Abu Muhammad Ibn al-Khashshab (492-567 AH), who has his own record, person/ibn-al-khashshab-abd-allah. Nothing sourced can replace them. Proposed removal of born 1099 and died 1172 from data/person/ibn-al-khashab.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "B|teacher-dead-before-student-born|person/al-tabari|person/ahmad-ibn-yusuf-al-taghlibi",
+  "status": "registered",
+  "resolution": "The relation is right and the teacher's death year is wrong. The teacher's own summary and prose say, from the cited thesis (p. 28), that Ibn al-Jazari gives no date for his death, and al-Tabari (b. 224 AH) read the qira'at with him in Baghdad after 242 AH. Died 828 is an unsourced estimate from a date-enrichment pass that the record's own text contradicts. The source says the date is unknown, so there is nothing to put in its place. Proposed removal of died 828 from data/person/ahmad-ibn-yusuf-al-taghlibi.yaml: the founder's decision.",
+  "files_changed": []
+ },
+ {
+  "key": "D|death-year|person/al-jawhari-abu-nasr-ismail-ibn-hammad|person/abu-ali-al-farisi|356AH",
+  "status": "registered",
+  "resolution": "The two records follow different sources that disagree. Al-Jawhari's prose gives Abu Ali al-Farisi's death as 356 AH exactly as its cited source prints it (Bakri Shaykh Amin's article in the Attar edition of al-Sihah, scan b p. 21: 'd. 356 AH / 966'); Abu Ali's own record follows Shadharat al-Dhahab p. 88 (Rabi' I 377 AH). Al-Jawhari's record cites no source that gives 377, so its prose cannot be changed from its own sources.",
+  "files_changed": []
+ },
+ {
+  "key": "D|death-year|work/sira-ibn-ishaq-ibn-hisham|person/ibn-hisham|213AH",
+  "status": "not-a-contradiction",
+  "resolution": "The parenthesis reads 'd. 213 or 218 AH': it gives both dates found in the tradition, and the second, 218 AH, is the 833 CE on Ibn Hisham's own record. The detector read only the first number.",
+  "files_changed": []
+ },
+ {
+  "key": "D|life-span|event/abd-al-malik-coinage|person/abd-al-malik-ibn-marwan|65-86AH",
+  "status": "not-a-contradiction",
+  "resolution": "The parenthesis gives the reign, not the life span: the sentence reads 'the reign of Abd al-Malik ibn Marwan (65-86 AH)', and his record's ruler role runs 685-705 CE. His death in 86 AH / 705 agrees with his record.",
+  "files_changed": []
+ }
+]
