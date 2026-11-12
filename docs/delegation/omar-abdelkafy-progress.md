@@ -820,7 +820,7 @@ Next step: episode 24 (and a revision pass over ep23 00:11:00–00:21:00).
 
 ### albuyout-alamena, episode 23 completion (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-12)
 
-Closes the gap noted for ep23 (00:11:00–00:21:00 and everything after 00:31:30), read in full. 7 points written in a continuation section (ar, en, ur); {n} new `about` edges; 4 needs_source (the claim about the scholars never scolding 00:11:00, the minutes statistic and the Prophet-and-fruit report 00:18:30, call text 00:35:30, Umar's saying 00:43:00).
+Closes the gap noted for ep23 (00:11:00–00:21:00 and everything after 00:31:30), read in full. 7 points written in a continuation section (ar, en, ur); 4 new `about` edges; 4 needs_source (the claim about the scholars never scolding 00:11:00, the minutes statistic and the Prophet-and-fruit report 00:18:30, call text 00:35:30, Umar's saying 00:43:00).
 
 | Excluded (albuyout-alamena ep23 continuation) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
@@ -845,3 +845,21 @@ Rule from now on (coordinator, 11 Nov 2026): every episode is read in full; any 
 | Closing supplications and sign-off | ep11 00:37:00-00:39:00 | Not lesson content | Content rule | Open |
 
 Resume point: episode 12 (branch from origin/main).
+### albuyout-alamena, tails of episodes 20, 21 and 22 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-13)
+
+Closes the gaps left in the first pass: ep20 from 00:37:00 to the end (47:30), ep21 from 00:37:00 to the end (45:00) and ep22 from 00:30:00 to the end (45:30), all read in full. 28 points written in continuation sections (ar, en, ur); 2 new `about` edges (niqab, riba); 20 needs_source (garbled call text, unsourced sayings and statistics, answers not recorded in the window).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep20, ep21, ep22 (tails) | about 10 min, 8 min, 15 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 28 points | 2 new `about` edges (niqab, riba) | ep20 8, ep21 8, ep22 12 | 20 needs_source | this PR |
+
+Next step: episode 24.
+
+| Excluded (albuyout-alamena ep20–ep22 tails) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, prayers for the country, break announcements, closing supplications and sign-offs | ep20 00:37:00, 00:47:00–00:47:30; ep21 00:44:30–00:45:00; ep22 00:45:00–00:45:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep20 00:39:00, 00:41:00 (tail), 00:42:00; ep21 00:41:30; ep22 00:39:30 | Not speech | Loop check | Open |
+| Garbled call windows (question and answer not recoverable) | ep20 00:38:00–00:39:00 (the question on those who hold a hard line and the Syrian caller's question); ep20 00:41:00–00:41:30 (the Jordanian caller's question is clear, the answer is the later passage); ep21 00:37:00–00:37:30; ep22 00:32:00–00:34:00 (personal details), 00:34:00–00:35:30 (no answer in window), 00:35:30–00:37:30, 00:38:00–00:39:00 | Garbled or fragmentary; only the clear question is summarised, no ruling written | Clarity | Open |
+| Caller identities and personal circumstances of a spouse's anger | ep22 00:32:00–00:34:00 | Private and sensitive; not recorded beyond the general description | Privacy | Open |
+| Pleasantries without content | ep21 00:38:30–00:39:00, 00:40:00 | No substantive material | Content rule | Open |
+| Hadith and saying wording | ep20 00:43:00; ep21 00:41:00, 00:43:00; ep22 00:42:00, 00:43:30 | Wording not typed; by sense only | Hadith rule | Open |
