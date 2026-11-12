@@ -874,4 +874,19 @@ Next step: episode 24.
 | Garbled passages | ep12 00:02:30-00:03:00, 00:09:00 (partial), 00:15:00-00:16:00, 00:17:30-00:18:00, 00:19:00-00:19:30 (the postnatal-bleeding remark), 00:26:30-00:27:30, 00:30:30-00:31:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Closing sign-off | ep12 00:36:30 | Not lesson content | Content rule | Open |
 
-Resume point: episode 13 (branch from origin/main).
+
+### al-dar-al-akhera ep13 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep13 (scale, Bridge, seeing God, prayer on the Prophet, parents) | about 38 min (transcript) | ar, en, ur: 1 record extended | 7 new `about` edges | 14 points; qwen3-asr pass5, 30 s windows | needs_source on every point; the throne scene with Abraham and the Prophet (00:14:30) and the scale scene on prayer on the Prophet (00:16:30) have no source; the ascription to al-Tirmidhi (00:27:30); the father-on-the-road story (00:18:30) | run omar-abdelkafy-dar-akhera-8 |
+
+The hadith that God puts a Jew or Christian in the Fire in place of each Muslim (ep13 00:31:30) is presented as the lecturer's relating, with the museum giving no ruling; the record stays `sensitivity: contested`.
+
+| Excluded (dar-akhera ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep13 00:00:30, 00:02:30, 00:06:00, 00:11:30, 00:20:30, 00:22:00, 00:26:30, 00:28:00 | Not speech | Loop check | Open |
+| Garbled passages | ep13 00:00:00-00:01:00, 00:03:30-00:04:30, 00:06:30-00:12:00 (the zakat shade, a caliph's tent story and the unrelated anecdotes), 00:20:00-00:22:30 (a story about a request in a dream), 00:23:00-00:24:30 (the Prophet recognising his community and the thousand-hadith repeat), 00:33:00-00:33:30, 00:36:30-00:38:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Closing supplications and sign-off | ep13 00:35:30-00:37:00 | Not lesson content | Content rule | Open |
+
+Resume point: episode 14 (branch from origin/main).
