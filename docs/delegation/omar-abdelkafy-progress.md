@@ -1335,3 +1335,21 @@ Next step: episode 44.
 | Private circumstances of callers | ep43 00:29:30–00:46:00 | Kept general | Privacy | Open |
 | A garbled passage on a Companion and modern hairstyles | ep43 00:24:00–00:25:30 | Text too garbled to summarise beyond the general point | Clarity | Open |
 | Counts and statistics claimed | ep43 00:13:30–00:14:00 | Divorce rise in summer is the lecturer's claim without a count; recorded as needs_source | Sources policy | Open |
+
+### albuyout-alamena, episode 44 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-32)
+
+Episode 44 read in full (50 min of transcript) before writing. 16 points written (ar, en, ur); new `about` edges for the people and passages named; 11 needs_source (unchained accounts and hadith in sense, unnamed scholarly ascriptions, rulings without evidence).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep44 (hearsay in the home) | about 50 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 16 points | new `about` edges | 16 | 11 needs_source | this PR |
+
+Next step: episode 45.
+
+| Excluded (albuyout-alamena ep44) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae, sponsor and website line | ep44 00:00:00–00:00:30, 00:14:30–00:15:00, 00:32:30–00:33:30, 00:49:00–00:49:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep44 00:02:00, 00:14:00, 00:28:00–00:29:00, 00:35:30–00:36:00, 00:36:30–00:37:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep44 00:34:30–00:47:30 | Kept general | Privacy | Open |
+| Caller's question on a name for adoptive parents' supplication | ep44 00:37:30–00:38:30 | Text garbled; no answer given in the recording that can be summarised | Clarity | Open |
+| Hadith and saying wording | ep44 00:03:00–00:05:00, 00:16:30–00:20:30, 00:26:30–00:28:00, 00:32:00–00:34:00 | Wording not typed; by sense only | Hadith rule | Open |
