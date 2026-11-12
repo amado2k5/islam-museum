@@ -1,0 +1,23 @@
+id: passage/tareekh-wafayat-ayan-005
+class: passage
+unit: chapter
+work: work/wafayat-al-ayan
+ref: "133"
+label:
+  ar: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان — ص 133"
+  en: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان — p. 133"
+text: "فاح بعد قتل أبى سلة حقص انعال كما سيأتى فى ترجته فى المصرى وكتب له كتاب حرف الماءان شاهاله تعالى ولم يزل مالدعنى وزرته حتى توفى السفاح يوم الاحدائلاث عشر الاجازة وذكرة امله خلت من ذى اطحة مشة ست وثلاثين"
+summary:
+  ar: "مقطع من «وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/wafayat-ayan] }
+  - { type: mentions, target: person/abu-al-abbas-al-saffah, sources: [source/wafayat-ayan] }
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان ص 133 — مقتطف المكاتبات — tareekh"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-1
+tags: [mukatabat-browser]
+sources: [source/wafayat-ayan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
