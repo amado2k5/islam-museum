@@ -1,11 +1,35 @@
 ---
 id: person/al-walid-ibn-abd-al-malik
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
 Al-Walid ibn Abd al-Malik, an Umayyad caliph, known as Abu al-Abbas. He died in the middle of Jumada al-Akhira 96 AH. {cite:tabari-tarikh-abu-al-fadl j.6 p.495}
+
+## Accession and character of the reign
+The Encyclopaedia of Islam, second edition, says he was probably born around 54 AH/674 CE, in the reign of Mu'awiya, and that his mother was Wallada, daughter of al-Abbas ibn Jaz' of the Abs branch of Qays. {cite:encyclopaedia-of-islam-2 vol. 11 p. 135}
+
+He had been named by his father as heir to the caliphate. When his uncle [[person/abd-al-aziz-ibn-marwan|Abd al-Aziz ibn Marwan]] died in 85 AH/704 CE, he succeeded without opposition. After the struggles of his father's reign, the article describes his caliphate as generally a time of internal peace and outward expansion. {cite:encyclopaedia-of-islam-2 vol. 11 p. 135}
+
+It adds that he seems never to have left Syria as caliph, except to lead the pilgrimage in 91 AH/710 CE, and that he is said to have set up a system of poor relief and charity there. It calls him a great patron of architecture, noting the Great Mosque of [[place/damascus|Damascus]] in its present form and the rebuilding of the mosque of the Prophet in [[place/medina|Medina]]. {cite:encyclopaedia-of-islam-2 vol. 11 p. 135}
+
+## Policy and the balance of factions
+According to the article, in political affairs he continued his father's policies with little change. He tried to keep a balance among the groups of the Umayyad elite and to contain the divisions between Kays and Yaman. {cite:encyclopaedia-of-islam-2 vol. 11 p. 135}
+
+He kept [[person/al-hajjaj-ibn-yusuf|al-Hajjaj ibn Yusuf]] as governor of Iraq and the East until al-Hajjaj died in 95 AH/714 CE. His brother and heir [[person/sulayman-ibn-abd-al-malik|Sulayman]] was governor of Syria, and for most of the reign his cousin [[person/umar-ibn-abd-al-aziz|Umar ibn Abd al-Aziz]], later a caliph himself, governed the [[place/hijaz|Hijaz]]. The article notes that both had Yemeni sympathies and gave refuge to political opponents of al-Hajjaj. {cite:encyclopaedia-of-islam-2 vol. 11 p. 135}
+
+## Conquests
+The article says the reign saw Muslim arms succeed in many areas. In the west, Spain was invaded in 92 AH/711 CE and almost completely taken by 97 AH/716 CE. {cite:encyclopaedia-of-islam-2 vol. 11 p. 135}
+
+In the east the expansion was managed by al-Hajjaj. His governor in [[place/khurasan|Khurasan]], [[person/qutayba-ibn-muslim|Qutayba ibn Muslim]], governed from 86 to 96 AH/705 to 715 CE and launched a series of attacks on [[place/transoxiana|Transoxania]], which the Muslims had hardly entered before. The article gives the submission of [[place/bukhara|Bukhara]] in 87 to 90 AH/706 to 709 CE, of Khwarazm and Samarkand in 91 to 93 AH/711 to 712 CE and of [[place/farghana|Farghana]] in 94 AH/713 CE. From 90 AH/708 to 709 CE [[person/muhammad-ibn-al-qasim|Muhammad ibn al-Qasim al-Thaqafi]] began the Muslim conquest of [[place/sind|Sind]]. {cite:encyclopaedia-of-islam-2 vol. 11 p. 135}
+
+Against the Byzantines, the article says, little progress was made despite frequent raids. Al-Walid never led the campaigns himself but entrusted the frontier to his brother [[person/maslama-ibn-abd-al-malik|Maslama]], who built up a strong power base in that area. {cite:encyclopaedia-of-islam-2 vol. 11 p. 135}
+
+## Death, succession and assessment in the Encyclopaedia of Islam
+The article says he died in Damascus in Jumada II 96 AH, late February 715 CE. In accordance with his father's will the caliphate was to pass to his brother Sulayman, with whom his relations seem to have become increasingly strained. Some sources, it notes, say he was trying to win acceptance for his own son Abd al-Aziz as heir but died before this could be done, and Sulayman succeeded. {cite:encyclopaedia-of-islam-2 vol. 11 p. 135}
+
+The author judges the reign remarkably successful and perhaps the zenith of Umayyad power, while remarking that it is less clear how far the caliph himself contributed to this. The author suggests his main achievement may have been to preserve balance and stability among the factions of the ruling family and their allies. {cite:encyclopaedia-of-islam-2 vol. 11 p. 135}
 
 ## Rule and building
 Al-Tabari mentions in his biography the building of mosques. In his time [[person/musa-ibn-nusayr|Musa ibn Nusayr]] conquered al-Andalus, and [[person/qutayba-ibn-muslim|Qutayba]] conquered Kashgar. {cite:tabari-tarikh-abu-al-fadl j.6 p.496}

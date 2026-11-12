@@ -1,9 +1,33 @@
 ---
 id: practice/salat-al-janaza
 lang: en
-source_lang: ar
-translators: [Devin]
+source_lang: en
+translators: []
 ---
+## Overview
+The funeral prayer, in Arabic salat al-janaza or salat ala l-mayyit, the prayer over a dead person, is one of the ritual prayers that the Encyclopaedia of Islam places among the prayers other than the five daily ones. It is a communal duty, fard kifaya, which falls on the community as a whole and not on each individual concerned. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997} It differs from the other prayers in one respect that the article stresses: it involves no rak'a, so there is no bowing and no prostration. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997} The same article places it last in its survey of the other ritual prayers, after the Friday prayer, the prayer of the two feasts, the witr, the prayer on a journey, the prayers for rain and for eclipses, and the prayer of fear. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997}
+
+## How the prayer is performed
+According to the article, the imam stands upright facing the [[concept/qibla|qibla]], with the body of the deceased laid crosswise before him. The others line up in ranks behind him, as for every ritual prayer. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997} The imam says four times, in a loud voice, Allahu akbar. After the first he praises God; after the second he says the so-called Abrahamic prayers, the blessing on the Prophet familiar from the ordinary prayer; after the third he makes supplication, du'a, for the deceased; and after the fourth he gives the final salutation, as at the end of other prayers. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997}
+
+## Where the schools differ
+The article singles out several points. The first concerns the recitation of the Fatiha after the first takbira. It is obligatory according to [[person/al-shafii|al-Shafi'i]] and [[person/ahmad-ibn-hanbal|Ibn Hanbal]], and the article adds that the [[group/hanafi-madhhab|Hanafis]] and [[group/maliki-madhhab|Malikis]] allow it to take the place of the praise of God as an option. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997} On the [[concept/al-fatiha-umm-al-kitab|Fatiha]] itself the museum's other sections below give the position of each school in the Kuwaiti encyclopaedia.
+
+The supplication for the deceased is not said aloud and has no fixed formula. The article points to some traditional texts, with substantial variants when the deceased is a woman and in the case of a child. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997} The article does not give the wording.
+
+## Conditions of the prayer
+The prayer is performed only once, and normally in the presence of the corpse. The article names two exceptions to that last condition: when the body has disappeared in a natural disaster such as a flood, or in battle, and when homage is paid in several places to an eminent Muslim who has recently died. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997} The stricter and the wider positions of the individual schools on the absent deceased are set out in the later section on conditions.
+
+## Whom the prayer is said for
+The article connects this question to the [[concept/munafiq|Hypocrites of Medina]]. It reports that [[person/muhammad|Muhammad]] was told in a Qur'anic verse, [[passage/quran-9-84|9:84]], not to pray over any of them when they died nor to stand at their graves, because they had died unbelieving. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997} On this verse and on diversely interpreted prophetic traditions, the article says, jurists have tried to decide which Muslims should be denied the prayer. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997}
+
+It gives an example from the fourth century: the great judge [[person/qadi-abd-al-jabbar|Abd al-Jabbar]], a Mu'tazili who was nevertheless a Shafi'i, declined in 385/995 to pray over the body of the vizier [[person/sahib-ibn-abbad|Ibn Abbad]], because of extortions the vizier had committed and for which he had shown no repentance. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997} The article then cites al-Qurtubi, who asserts that the prayer should be said over all Muslims, even those guilty of serious sins, except heretics and declared rebels, ahl al-bida wa-l-bughat. {cite:encyclopaedia-of-islam-2 vol. 8 p. 997} {cite:encyclopaedia-of-islam-2 vol. 8 p. 998}
+
+For a person who has killed himself, the article cites two later authorities, al-Ghawidji and al-Malatawi, as holding that the prayer should still be performed, even though Islam denounces suicide. {cite:encyclopaedia-of-islam-2 vol. 8 p. 998} A separate EI2 article on the subject says that the question of whether funeral prayers may be given to a person who died by [[concept/intihar|suicide]] was and remains the most debated legal question on that subject, that authorities within the various schools held divergent views and that practice appears to have varied. It suggests that the more charitable view may have prevailed widely. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1280} As an example it tells of a blind professor in Damascus who took his own life in 602/1206: people refused to pray for him, but another prominent Shafi'i scholar did. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1280} It adds that the Prophet is said to have refused to say the customary prayers for one who killed himself, and that suicide was generally regarded as a grave sin. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1280}
+
+## The prayer within the funeral
+The article on the funeral prayer refers readers to the entry Djanaza for the washing of the dead and the burial. {cite:encyclopaedia-of-islam-2 vol. 8 p. 998} The OCR of that short entry in the museum's copy is broken, but it opens by saying that djanaza means a corpse, a bier, or both, and then a funeral. It notes that it was sunna to whisper the shahada in the ear of a dying man whose face was turned towards Mecca, and it says that the body was washed by persons of the same sex. {cite:encyclopaedia-of-islam-2 vol. 2 p. 466} The washing is treated in the museum's record on [[practice/ghusl-al-janaza|washing the deceased]]. The remainder of that entry could not be read reliably and is not summarised here.
+
 ## Summary
 The funeral prayer is, for the majority of jurists, a communal obligation — some Malikis said a communal sunna — discharged once some perform it; it consists of takbirs and supplication for the deceased, without bowing or prostration. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6476}
 

@@ -5,6 +5,7 @@ label: { en: "The Battle of Mu'tah", ar: "غزوة مؤتة" }
 summary:
   en: "A Muslim force of three thousand sent north toward the Byzantine frontier met a larger Byzantine-led army at Mu'tah in Jumada I, 8 AH; after its three appointed commanders fell one by one, Khalid ibn al-Walid took command and withdrew the survivors. Ibn Ishaq (via Urwa ibn al-Zubayr) records a tactical withdrawal; Ibn Hisham cites al-Zuhri that God granted them victory."
   ar: "التقى جيش مسلم من ثلاثة آلاف بجيش أكبر عند مؤتة في جمادى الأولى سنة ثمان؛ استُشهد قادته الثلاثة الواحد تلو الآخر، فأخذ خالد بن الوليد القيادة وانسحب بالجيش. رواية ابن إسحاق عن عروة تذكر المحاجزة، وأضاف ابن هشام رواية الزهري أن الله فتح عليهم. وفي صحيح البخاري عن أنس أن النبي نعى زيداً وجعفراً وابن رواحة للناس قبل أن يأتيهم خبرهم — «أخذ الراية زيد فأصيب ثم أخذ جعفر فأصيب ثم أخذ ابن رواحة فأصيب» وعيناه تذرفان — «حتى أخذ الراية سيف من سيوف الله حتى فتح الله عليهم» {cite:sahih-al-bukhari 4262}."
+  ur: "جمادی الاولیٰ سنہ 8 ہجری میں مدینہ سے شمال کی طرف بھیجا گیا تین ہزار کا مسلم لشکر بازنطینی سرحد کے قریب موتہ میں ایک بڑے لشکر سے ٹکرایا۔ تینوں مقرر سالار یکے بعد دیگرے گرے تو خالد بن الولید نے قیادت سنبھال کر بچ جانے والوں کو واپس نکالا۔ دائرۃ المعارف اسلامیہ کا مضمون اسے مسلمانوں کی شکست قرار دینے والی بازنطینی روایت اور اسلامی روایات کے فرق کے ساتھ بیان کرتا ہے۔"
 wings: [time]
 themes: [battles]
 periods: [period/prophetic-era]
@@ -34,7 +35,7 @@ relations:
   - { type: has_part, target: event/mutah-khalid-command-withdrawal, sources: [source/ibn-hisham-saqqa] }
   - { type: has_part, target: event/mutah-prophets-grief-and-condolence, sources: [source/ibn-hisham-saqqa] }
   - { type: has_part, target: event/mutah-return-to-medina, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 pp. 15-30", generated_by: "kiro", run: "ibn-hisham-batch-4", enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added al-Sallabi's lessons section from source/sira-nabawiyya-sallabi pp. 734-738" }
+provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 pp. 15-30", generated_by: "kiro", run: "ibn-hisham-batch-4", enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added al-Sallabi's lessons section from source/sira-nabawiyya-sallabi pp. 734-738", canon: "Encyclopaedia of Islam 2nd ed. vol. 7, article Muta, PDF pp. 810-811, written by Claude Sonnet 5.5, run canon-cornerstones-20" }
 external_ids: { wikidata: "Q1639459" }
 map:
   kind: battle
@@ -45,7 +46,7 @@ map:
   features:
     - { type: point, role: event_point, label: { ar: "غزوة مؤتة", en: "The Battle of Mu'tah" }, at: [31.0925, 35.6944], precision: locality, source: source/geonames-gazetteer }
   sources: [source/geonames-gazetteer]
-sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/sira-nabawiyya-sallabi]
+sources: [source/encyclopaedia-of-islam-2, source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/sira-nabawiyya-sallabi]
 importance: 1
 status: { review: published, completeness: 2, generated_by: "kiro; extended from Ibn Hisham juz' 4 pp. 15-30 (batch 4)" }
 
