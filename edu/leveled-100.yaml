@@ -24,7 +24,7 @@
 # with brief: true already has a short adult text the Scholar level can be cut from; brief: false means the Scholar
 # level is new text as well (the plan assumed about 60 of 100).
 #
-# Totals: 100 records (49 topic, 5 prophet, 16 era, 8 city, 22 rank); 94 already have a Brief; all 100 have prose in ar, en
+# Totals: 100 records (49 topic, 5 prophet, 16 era, 8 city, 22 rank); 93 already have a Brief; all 100 have prose in ar, en
 # and ur. By class: 25 person, 19 event, 14 place, 11 concept, 8 building, 8 practice, 6 polity, 4 period, 2 language,
 # 1 group, 1 object, 1 work.
 status: { review: draft, approval: approved, approved_by: "founder", approved_on: "2026-10-23" }
@@ -244,7 +244,7 @@ records:
     reason: "Appendix B topic 23, the Abbasids and Baghdad's House of Wisdom; the polity is the anchor, bayt-al-hikma is a Time Machine record below."
     inbound: 17
     prose: [ar, en, ur]
-    brief: true
+    brief: false
   - id: place/al-andalus
     label: { ar: "الأندلس", en: "al-Andalus" }
     tier: topic
@@ -613,7 +613,7 @@ records:
     reason: "Trail catalogue city; 43 inbound."
     inbound: 43
     prose: [ar, en, ur]
-    brief: true
+    brief: false
   - id: place/cairo
     label: { ar: "القاهرة", en: "Cairo" }
     tier: city

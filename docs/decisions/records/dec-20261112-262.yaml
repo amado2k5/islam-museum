@@ -25,8 +25,8 @@ correct_outcome: anchor-point-inside-only
 wrong_outcome: rule-external-id-failclosed
 confidence: 0.85
 reversible: true
-rationale: 'dec-238 answered with rule-external-id-failclosed, which is about omitting an identifier that cannot be confirmed. Its spirit (state the gap, do not guess) agrees with holding the four records that have no citable position, but it does not answer whether a point that a cited source places inside the record''s place may stand for it. A point inside the cemetery is a true statement about where the cemetery is, at the precision the note declares; a city centre is not a statement about where a mosque or a grave is, and four Baghdad sites stacked on one pin would read as a position no source gives. The golden set does hold records placed at a regional centre, so that option is not ruled out: it is left for the founder. The change is one edit on one record and is undone by restoring the previous coordinates.'
-supersedes: dec-20261112-238
+rationale: 'dec-261 answered with rule-external-id-failclosed, which is about omitting an identifier that cannot be confirmed. Its spirit (state the gap, do not guess) agrees with holding the four records that have no citable position, but it does not answer whether a point that a cited source places inside the record''s place may stand for it. A point inside the cemetery is a true statement about where the cemetery is, at the precision the note declares; a city centre is not a statement about where a mosque or a grave is, and four Baghdad sites stacked on one pin would read as a position no source gives. The golden set does hold records placed at a regional centre, so that option is not ruled out: it is left for the founder. The change is one edit on one record and is undone by restoring the previous coordinates.'
+supersedes: dec-20261112-261
 override_reason:
   category: rule-false-positive
   detail: 'rule-external-id-failclosed matched the words "Wikidata item" and "GeoNames ... entry" in a question about coordinates, not identifiers. A keyword false positive in the rule gates.'
