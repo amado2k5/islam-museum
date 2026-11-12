@@ -417,3 +417,16 @@
 | 514 (printed) | 151 | "عبد الله بن الذرج" | the name is unclear in the scan ("الدرج" or "الذرج") | written as "الدرج" in the prose; flagged for revision |
 | 514 (printed) | 151 | the verses on the back of the book | the lines are garbled in the scan | described in prose, not quoted; no line given |
 | 514 (printed) | 151 | "ميراث الجوع" | the saying is repeated in the scan | given once as read, with the repetition noted |
+
+## Batch 65 (run microsd-books-b65, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 151–152 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/qasim-ibn-muhammad-al-sufi (printed 515, sequence 516, 10/151–152), person/yazid-ibn-yazid (printed 516, sequence 517, 10/152). Printed 517 (al-Khadim, the servant, a copyist who was wronged by a young man who took his copy) begins on 10/152 and continues onto 10/153; it is next.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 65)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 515 (printed) | 151 | "حدثني *د بن الحسين" and "أحد بن همام" | the names are garbled in the scan | not given; the prose says the chain runs through named transmitters only where clear |
+| 515 (printed) | 152 | "همة الحبيز" | read as "المحبين" (the lovers) | rendered as lovers |
+| 515 (printed) | 152 | "فترة" and "فمم ذلك" | legible; the sense is clear from the answers | given as read |
+| 516 (printed) | 152 | "عثمان بن ممرو بن أبي ماصم" | read as Uthman ibn Amr ibn Abi Asim | given as read; flagged for revision |
