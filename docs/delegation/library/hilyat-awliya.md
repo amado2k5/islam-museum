@@ -817,3 +817,17 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 670 (printed) | 392 | the father's name in the body "حسسيب" | the heading reads "صهيب" | heading reading used; flagged |
 | 670 (printed) | 392 | the nisba "الجروانى" | not identified from the text | region set as a likely reading; flagged |
+
+## Batch 93 (run microsd-books-b93, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 392–393 (full text read before writing). New draft: person/abd-allah-ibn-dawud-sindila (printed 671, sequence 672, 10/392). Kept apart from the existing person/abdallah-ibn-dawud-al-khuraybi (a Baghdad hadith transmitter; its card is an unchecked draft): the Hilyat gives a different nisba (Sindila) and a different chain (al-Husayn ibn Hafs), so no merge is made.
+- The nisba "سنديله" is read as al-Sindila; its meaning is not identified from the text and is flagged.
+- Printed 672 (Ibrahim ibn Isa al-Zahid, companion of Ma'ruf al-Karkhi, on 393) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 93)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 671 (printed) | 392 | the nisba "سنديله" | not identified | rendered as al-Sindila; flagged |
+| 671 (printed) | 392 | the name of the book-transmission link | legible | no flag |
