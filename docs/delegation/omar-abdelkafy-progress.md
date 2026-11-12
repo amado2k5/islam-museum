@@ -1095,3 +1095,41 @@ Next step: episode 34.
 | Garbled passages | ep33 00:16:00 (the opening of the al-Jahiz story), 00:36:30 (the sentence on husbands who blame wives), 00:39:30–00:40:00 | Garbled; only the clear sense is summarised | Clarity | Open |
 | Verses of poetry quoted | ep33 00:10:00–00:10:30 | Not reproduced | Sources policy | Open |
 | Hadith and saying wording | ep33 00:09:30, 00:13:30, 00:18:30, 00:19:00–00:19:30, 00:32:00–00:33:00 | Wording not typed; by sense only | Hadith rule | Open |
+
+### albuyout-alamena, episode 34 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-22)
+
+Episode 34 read in full (51 min of transcript) before writing. 16 points written (ar, en, ur); new `about` edges for the people and passages named; 12 needs_source (figures, stories and sayings without a source, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep34 (quarrel and harmony in the home) | about 51 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 16 points | new `about` edges | 16 | 12 needs_source | this PR |
+
+Next step: episode 35.
+
+| Excluded (albuyout-alamena ep34) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep34 00:00:00–00:00:30, 00:13:30–00:15:30, 00:32:30–00:34:30, 00:51:00–00:51:30 | Not lesson content (verse recitations at the breaks) | Content rule | Open |
+| Repetition loops and garbled windows | ep34 00:11:30–00:12:30, 00:21:30–00:22:30, 00:35:00–00:36:30, 00:36:30–00:37:00, 00:45:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep34 00:34:30–00:46:30 | Kept general | Privacy | Open |
+| Verses of poetry quoted | ep34 00:01:30, 00:02:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep34 00:04:30, 00:17:00–00:19:00, 00:24:00–00:25:00, 00:27:30–00:29:30, 00:48:30 | Wording not typed; by sense only | Hadith rule | Open |
+| Passage about greeting women who are not relatives | ep34 00:26:30–00:27:30 | Garbled; the ruling is not clear and is not recorded | Clarity | Open |
+
+### albuyout-alamena, episode 35 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-23)
+
+Episode 35 read in full (52 min of transcript) before writing. 16 points written (ar, en, ur); new `about` edges for the people and passages named; 12 needs_source (stories, sayings and statistics without a source, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep35 (the universal language of ethics) | about 52 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 16 points | new `about` edges | 16 | 12 needs_source | this PR |
+
+Next step: episode 36.
+
+| Excluded (albuyout-alamena ep35) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep35 00:00:00–00:01:00, 00:14:30–00:15:00, 00:28:30–00:29:00, 00:51:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep35 00:04:00–00:04:30, 00:10:00, 00:20:00, 00:25:30, 00:40:00–00:41:30, 00:42:30–00:43:00, 00:45:00–00:45:30, 00:50:30–00:51:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep35 00:30:00–00:45:00 | Kept general | Privacy | Open |
+| Verses of poetry quoted | ep35 00:10:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep35 00:07:00–00:08:00, 00:11:00–00:13:30, 00:18:30–00:19:00, 00:23:30–00:25:00, 00:27:30–00:28:30 | Wording not typed; by sense only | Hadith rule | Open |
+| Questions with no recorded answer | ep35 00:36:30–00:39:00 (triple divorce), 00:42:00–00:43:00 (charity for deceased parents), 00:45:00 (praise and the worldly life) | The answer is not in the transcript | Clarity | Open |
