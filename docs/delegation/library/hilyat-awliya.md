@@ -213,3 +213,13 @@
 | Notice | Page | Passage | Reason | Handling |
 |---|---|---|---|---|
 | 478 | 134 | the last sentence of Abu al-Abyad's letter after the word "أسود" | cut in the scan (the next heading follows on the same line) | not completed; the note in the prose says so |
+
+## Batch 40 (run microsd-books-b48, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 135–136 (full text read before writing). New drafts: person/arfajah-al-kufi (482, 10/135), person/amr-ibn-jarir-al-bajali (483, 10/135), person/muhammad-ibn-abi-al-qasim-al-hashimi (484, 10/135–136). Notice 485 (Sabba' al-Mawsili) begins on 10/136 and is next.
+
+## Exclusions and garbled readings (batch 48)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 482 | 135 | the mother's dream after "لِمَ أذنتِ لإمامنا الليلة" | cut in the scan; the page ends there | the account stops at the cut; the note in the prose says so |
+| 483 | 135 | the Qur'anic verse behind the voice | Qur'an text never typed | referred to by its sense only |
