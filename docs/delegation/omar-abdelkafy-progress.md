@@ -300,3 +300,26 @@ Notes for ep06–ep09. (1) Broadcast: at ep08 00:01:00 the lecturer greets "the 
 | Hot and cold water passage | ep06 00:18:30–00:19:00 | Partly garbled; the clear point (taste depends on the drinker's state) is written from the preceding window | Clarity | Open |
 | Wife who says her husband threatens her; the husband who is "not jealous" | ep09 00:13:00 | Garbled | Clarity | Open |
 | Foreign words of address ("tante") and the remark on language | ep09 00:19:30–00:20:00 | Loop tail, fragmentary | Loop check | Open |
+
+## albuyout-alamena (Safe Homes), episodes 1 onward (from 11 Nov 2026, Claude Code claude-sonnet-5-5)
+
+New series record `work/albuyout-alamena` (47 lessons on the Assabile archive; a weekly programme from the Dubai channel). Transcripts: `books/assabile/omar-abdelkafy/albuyout-alamena/pass5-qwen/` (Qwen3-ASR, 30-second windows). The record is new, so it is `status.review: draft` with a provenance block (run `omar-abdelkafy-albuyout-1`); it is labelled `sensitivity: contested` on the precedent of `work/silsilat-ebadu-al-rahman` (decision question `docs/decisions/inbox/assabile-albuyout-sensitivity-contested.yaml`, the same rule-harvest-include answer; the lecturer's disputed views are marked as his). Next step: episode 4.
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep01–ep03 (good choice; choice between children and parents and the rulings on marriage; the engagement and its manners) | about 45 min, 47 min, 47 min (transcript) | ar, en, ur: 1 new record (work/albuyout-alamena), 48 points | 37 `about` edges to existing records (practice/nikah, practice/istikhara, concept/haya, concept/al-qiwama, concept/khitba-fiqh, 12 persons, 12 passages and others); no new entities | ep01 16, ep02 15, ep03 17 points; engine qwen3-asr pass5, 30 s windows | 14 needs_source (see below) | run omar-abdelkafy-albuyout-1 |
+
+Notes. (1) Broadcast: the lecturer greets the viewers of the Dubai channel at ep01 00:00:30 and ep01 00:01:00. (2) needs_source points: the consensus of unnamed scholars on five kind words a day (ep01 00:12:00); the Musa story's wife name (ep01 00:15:30); the Sa'id ibn al-Musayyib story (ep01 00:22:30); partly garbled istikhara/look-at-her passage (ep01 00:09:00); caller summaries (ep01 00:29:00, 00:35:30; ep02 00:29:30); the early-figure saying on marrying a daughter to the God-fearing (ep02 00:12:30); the women Companions' story (ep02 00:36:00); the end of ep02 00:43:00; the Greek and English origin of the engagement (ep03 00:00:30); the order to keep the engagement quiet (ep03 00:15:00); part of the divorce passage (ep03 00:38:00); the 8,000 and 17,000 words statistic (ep03 00:40:00). (3) Sensitivity: opinions on the Qur'anic use of zawj/imra'a (qualified by the lecturer himself in ep02), women driving, obedience houses, a psychological pre-marriage examination, gold rings for men.
+
+### Excluded items
+
+| Excluded (albuyout-alamena ep01–ep03) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements and closing formulae | ep01 00:00:00–00:00:30, 00:13:30, 00:27:30, 00:44:30; ep02 00:00:00–00:00:30, 00:15:30, 00:27:30–00:28:00, 00:44:00; ep03 00:00:00–00:00:30, 00:15:00–00:15:30, 00:28:30, 00:46:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep01 00:09:00 (tail), 00:18:30, 00:34:30–00:35:30, 00:36:30–00:37:00, 00:39:30; ep02 00:13:30, 00:26:00, 00:28:30, 00:37:30, 00:39:30–00:40:00, 00:43:30; ep03 00:22:30, 00:36:00, 00:36:30, 00:38:30, 00:42:00 | Not speech | Loop check | Open |
+| Poetry recited (the Amr ibn Kulthum verse, a quoted couplet on faults) | ep02 00:08:30, 00:18:00; ep01 00:03:30 | Verbatim verse, partly garbled; given by sense or left out | Sources policy; clarity | Open |
+| Hadith wording and istikhara supplication wording | ep01 00:09:00, 00:15:00, 00:27:00; ep02 00:41:30; ep03 00:24:00 | Hadith and supplication wording not typed; reported by sense only | Hadith rule | Open |
+| Umar and the Prophet's marriage exchange | ep01 00:20:30 | Garbled | Clarity | Open |
+| Calls and answers too garbled to read (Abu Dhabi, Sharjah and Sweden callers' details; Sudan caller's second half; ep02 calls at 00:30:00–00:35:00 in part; ep03 calls at 00:33:00–00:37:30 and 00:42:00–00:43:00) | ep01 00:30:00–00:41:00; ep02 00:29:30–00:35:00; ep03 00:33:00–00:37:30 | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Wig and Shafi'i question; the daughter who loves singing (question only) | ep03 00:34:00, 00:35:00 | Redirected by the lecturer to another programme; answered briefly later | Scope | Open |
+| Shari'a wording of the five kind words; the twelve-line remarks on the Greek horse custom beyond the clear point | ep01 00:12:00; ep03 00:01:00 | Unsourced | Accuracy | Open |
