@@ -919,3 +919,18 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 677 (printed) | 396 | the father's name in the body "صبيب" | the heading and the Raja' notice read "صهيب" | "صهيب" preferred; flagged |
 | 677 (printed) | 396 | the 'Aisha report | a quoted report with the Prophet's formula | described only |
 | 677 (printed) | 396 | "والسكرم عنه مأ أور" | garbled in the scan | read as the generosity is reported |
+
+## Batch 100 (run microsd-books-b100, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 396 (full text read before writing). New draft: person/musa-al-khazzaz (printed 678, sequence 679, 10/396). No existing record of this man. The existing "ibn-hayyuya-al-khazzaz" is a different name and is not merged.
+- The report from Jabir on the dropped morsel carries the Prophet's formula; it is described, not quoted.
+- Printed 679 (Ahmad ibn Mahdi ibn Rustam, Abu Ja'far, a generous man who spent on knowledge, on 396–397) is next; its anecdote about a woman in Baghdad runs onto page 397.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 100)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 678 (printed) | 396 | the nisba "الحراز" in the body | read as al-Khazzaz (the heading reading) | flagged as the likely reading |
+| 678 (printed) | 396 | the report from Jabir | a quoted report with the Prophet's formula | described only |
+| 678 (printed) | 396 | the heading number "٦٧٨" and the next heading "٠٦٨٩" | the scan's numbering of 679 is garbled | 679 read as the next notice by sequence; flagged |
