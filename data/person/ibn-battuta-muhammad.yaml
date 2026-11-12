@@ -9,8 +9,9 @@ traditions: [sunni]
 born: { edtf: "1304", hijri: "0703", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "1374", hijri: "0776", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
-  ar: "رحّالة مغربي من طنجة، زار أقطارا كثيرة في العالم الإسلامي، وألّف رحلته المشهورة."
-  en: "A Moroccan traveller from Tangier who visited many lands of the Islamic world and wrote his famous travelogue."
+  ar: "رحّالة مغربي من طنجة، زار أقطارا كثيرة في العالم الإسلامي، وألّف رحلته المشهورة. ولد بطنجة سنة 703هـ، وتذكر دائرة المعارف الإسلامية أن أسفاره جرت في ثماني مراحل من سنة 725هـ إلى 754هـ، وصلت إلى الهند والمالديف والصين وبلاد النيجر. أملى رحلته على ابن جزي بأمر أبي عنان المريني، فأتمّ التدوين سنة 756هـ، ويناقش كاتب المقالة ما في النص من تصرف أدبي وما قد يكون فيه من خيال."
+  en: "A Moroccan traveller from Tangier who visited many lands of the Islamic world and wrote his famous travelogue. Born at Tangier in 703 AH, he travelled in eight stages between 725 and 754 AH, according to the Encyclopaedia of Islam, reaching India, the Maldives, China and the Niger country. He dictated the Rihla to Ibn Juzayy at the order of the Marinid Abu Inan, and the writing was finished in 756 AH; the article's author discusses the literary editing and possible imagination in the text."
+  ur: "طنجہ کا ایک مغربی مسافر جس نے اسلامی دنیا کے بہت سے علاقوں کا سفر کیا اور اپنا مشہور سفرنامہ لکھوایا۔ اسلامی دائرۃ المعارف کے مطابق وہ 703ھ میں طنجہ میں پیدا ہوئے اور 725 سے 754ھ تک آٹھ مراحل میں سفر کیا، ہند، مالدیپ، چین اور نائجر کے علاقوں تک پہنچے۔ انہوں نے مرینی ابو عنان کے حکم پر رحلہ ابن جزی کو لکھوایا جو 756ھ میں مکمل ہوئی، اور مقالے کا مصنف متن میں ادبی تدوین اور ممکنہ تخیل پر بحث کرتا ہے۔"
 wings: [people]
 themes: [travel, history-writing-and-social-thought]
 periods: [period/mongol-post-mongol]
@@ -26,7 +27,7 @@ relations:
 story_roles:
   - { role: traveller-observer, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q7331" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/durar-kamina-jil-1993, source/rihla-ibn-battuta-khayriyya-1904, source/rihla-ibn-battuta-ihya-al-ulum-1987]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/durar-kamina-jil-1993, source/rihla-ibn-battuta-khayriyya-1904, source/rihla-ibn-battuta-ihya-al-ulum-1987, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "ابن بطوطة رحّالة من طنجة جاب أقطار العالم الإسلامي، وخلّدت رحلته خبر بلاد وعادات أهلها في القرن الرابع عشر."
@@ -47,4 +48,5 @@ provenance:
   source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص575; source/rihla-ibn-battuta-khayriyya-1904 scan pp. 14-15, 313, 412, 565-566"
   generated_by: "Devin; enriched by Claude Code (OCR-harvest worker J); Maldives edge by Claude Code (OCR-harvest worker L)"
   model: "SWE-2 High; claude-opus-5-5"
+  canon: "EI2 vol. 3, article Ibn Battuta, PDF pages 767-768, written by Claude Sonnet 5.5, run canon-cornerstones-15"
   run: "lib-mawsuat-a3lam, lib-durar-kamina-batch-1-2-2026-10-31; ocr-harvest-2026-11-04"
