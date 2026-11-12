@@ -520,6 +520,7 @@ Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan progra
 | tariq-al-noor ep16-ep18 (what leads to a good ending; signs of wretchedness; the value of time) | ar, en, ur: series record extended with 3 episode sections (20 points) | 10 new `about` edges (106 in total) | needs_source on: ep16 the womb-writing of provision and the angel-of-death speech; ep18 the unnamed righteous man, the ranking figure 190 | omar-abdelkafy-tariq-al-noor-5 |
 | tariq-al-noor ep19-ep21 (hope and mercy; kindness to parents; guarding the tongue) | ar, en, ur: series record extended with 3 episode sections (30 points) | 10 new `about` edges (116 in total) | needs_source on the identity of Muhammad al-Ghazali, Anas, the Abu Nuwas, Umar and Abu Bakr narratives, the absolute ruling on the dutiful and disobedient child, the survey figure | omar-abdelkafy-tariq-al-noor-6 |
 | tariq-al-noor ep22-ep24 (silence; knowledge gatherings; trial and contentment) | ar, en, ur: series record extended with 3 episode sections (21 points) | 11 new `about` edges (127 in total) | needs_source on the listening-ratio statistic and unstable word counts (ep22), the Friday-sermon scholars claim, the cosmetic-clinic figure and the seven benefits attributed to al-Hasan (ep23), the Job and David narratives (ep24) | omar-abdelkafy-tariq-al-noor-7 |
+| tariq-al-noor ep25-ep27 (signs of happiness; what blocks answered prayer; poverty not feared for the community) | ar, en, ur: series record extended with 3 episode sections (22 points) | 7 new `about` edges (134 in total) | needs_source on the Hasan al-Basri and Umar narratives (ep25), the Hatim al-Asamm and Joseph accounts and the war-death figure (ep27), the identification of Abu Hazim and the caliph (ep27) | omar-abdelkafy-tariq-al-noor-8 |
 
 | Excluded (tariq-al-noor ep01-ep04) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
@@ -703,6 +704,13 @@ Next step: episode 12. Sensitivity: ep10 carries strongly worded views on the We
 | Verse wording (al-Mutanabbi-style lines on the eye of love) and hadith wording | ep10 00:05:30, 00:12:00; ep11 00:20:00 | Wording not typed; by sense only | Hadith rule; sources policy | Open |
 | Questions outside the episode (misyar marriage, loan for a car, bank shares details) | ep10 00:39:00; ep11 00:27:00 | Fiqh questions the lecturer refers to fatwa programmes | Scope | Open |
 
+| Excluded (tariq-al-noor ep25-ep27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, closing formulae | ep25 00:00:00, 00:09:30; ep26 00:00:00, 00:09:00-00:09:30; ep27 00:00:00, 00:09:30-00:10:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep26 00:07:00; ep27 00:05:30-00:06:00 (tail) | Not speech | Loop check | Open |
+| Hadith on two kinds of people not seen who will not enter Paradise, with the lecturer's remarks on dress | ep26 00:07:30-00:08:00 | Hadith wording not typed; remarks garbled | Hadith rule; clarity | Open |
+| Poem verse on the community's pride | ep26 00:03:30 | Verse, garbled and unattributed | Sources policy; clarity | Open |
+| Passage on the Prophet's three supplications | ep27 00:01:00-00:01:30 | Garbled, promised for a later episode | Clarity | Open |
 ### albuyout-alamena, episodes 12–13 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-6)
 
 | Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
