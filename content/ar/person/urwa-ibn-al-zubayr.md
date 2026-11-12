@@ -3,6 +3,7 @@ id: person/urwa-ibn-al-zubayr
 lang: ar
 source_lang: en
 translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 53–54", note: "section added to earlier prose" }
 ---
 ## موجز
 عروة بن الزبير بن العوام، ابن [[person/zubayr-ibn-al-awwam|الزبير بن العوام]]. {cite:futuh-buldan-maarif-1407} وتصفه دائرة المعارف الإسلامية بأنه محدّث جليل، وأحد الفقهاء السبعة في [[place/medina|المدينة]]، ومؤسس الدراسة التاريخية في الإسلام. وتقول إنه وُلد في المدينة على الأرجح سنة 23هـ/643-644م، وتوفي فيها على الأرجح سنة 93هـ/711-712م أو 94هـ/712-713م. {cite:encyclopaedia-of-islam-2 vol. 10 p. 966}

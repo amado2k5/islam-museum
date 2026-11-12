@@ -3,8 +3,9 @@ class: building
 kind: mosque
 label: { ar: "مسجد عمرو بن العاص", en: "the Mosque of Amr ibn al-As" }
 summary:
-  ar: "مسجد عظيم بمدينة الفسطاط بناه عمرو بن العاص موضع فسطاطه وما جاوره، وموضع فسطاطه منه حيث المحراب والمنبر؛ وصلّى فيه نحو ثمانين من الصحابة {cite:umari-masalik-1924 p. 209}."
-  en: "The great mosque of Fustat built by Amr ibn al-As on his camp's ground — its mihrab and minbar stand where his tent stood — and some eighty Companions prayed in it {cite:umari-masalik-1924 p. 209}."
+  ar: "مسجد عظيم بمدينة الفسطاط بناه عمرو بن العاص موضع فسطاطه وما جاوره، وصلّى فيه نحو ثمانين من الصحابة {cite:umari-masalik-1924 p. 209}. تصفه دائرة المعارف الإسلامية بأنه أول مسجد بُني في مصر، وكانت مساحته أول الأمر خمسين ذراعاً في ثلاثين، وبلغ حجمه الحالي سنة 212هـ/827م بعد إعادات بناء متكررة. كان موضع صلاة ومجلس ومحكمة ومبيتاً للمسافرين، وحوله خطط القبائل."
+  en: "The great mosque of Fustat built by Amr ibn al-As on his camp's ground, where some eighty Companions prayed {cite:umari-masalik-1924 p. 209}. The Encyclopaedia of Islam calls it the first mosque built in Egypt, at first fifty by thirty cubits, reaching its present size in 212/827 after repeated rebuilding. It served as a place of prayer, council, court and lodging for travellers, with the tribal quarters of the settlement laid out around it."
+  ur: "فسطاط کی عظیم مسجد جو عمرو بن العاص نے اپنی لشکرگاہ کی زمین پر بنائی اور جس میں تقریباً اسی صحابہ نے نماز پڑھی {cite:umari-masalik-1924 p. 209}۔ دائرۃ المعارف اسلامیہ اسے مصر کی پہلی مسجد بتاتی ہے، جو شروع میں پچاس ضرب تیس ذراع تھی اور بار بار کی تعمیرِ نو کے بعد 212ھ/827ء میں موجودہ حجم کو پہنچی۔ یہ عبادت، مشاورت، عدالت اور مسافروں کی قیام گاہ کا کام دیتی تھی، اور اس کے گرد بستی کے قبائلی محلے تھے۔"
 wings: [objects]
 periods: [period/rashidun]
 regions: [egypt-nile]
@@ -14,11 +15,12 @@ provenance:
   layer: own-research
   source: "مسالك الأبصار (ط 1924) ص 209"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR; extended by Claude Opus 5.5 (claude-opus-5-5) from Futuh Misr (Amir ed.)"
+  canon: "Encyclopaedia of Islam 2nd ed.: al-Fustat vol. 2 PDF pp. 999-1001, Masdjid and Manara vol. 6 pp. 196, 382-383, 676, 688-690, Minbar and Mihrab vol. 7 pp. 19, 95, written by Claude Sonnet 5.5, run canon-cornerstones-18"
   run: lib-geo-umari-6, lib-futuh-misr-batch-3-2026-10-31
   extra_runs: ["showcase-prose-phase2-egypt-batch1 (claude-haiku-5-5, Claude Code; Khitat sections)", "ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 19-26"]
 external_ids:
   wikidata: Q683511
-sources: [source/khitat-maqrizi-1998, source/umari-masalik-1924, source/futuh-misr-amir-1999, source/yeomans-islamic-cairo-2006]
+sources: [source/encyclopaedia-of-islam-2, source/khitat-maqrizi-1998, source/umari-masalik-1924, source/futuh-misr-amir-1999, source/yeomans-islamic-cairo-2006]
 importance: 1
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the mosque's founding by Amr and the laying-out of Fustat around it are read from al-Maqrizi's Khitat (local scan, pp. 831, 990); the Umari sentences keep their own citation" }
 status_now: rebuilt
