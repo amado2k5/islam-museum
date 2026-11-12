@@ -830,3 +830,18 @@ Closes the gap noted for ep23 (00:11:00–00:21:00 and everything after 00:31:30
 | Hadith wording | ep23 00:19:30–00:20:30, 00:42:00 | Wording not typed; by sense only | Hadith rule | Open |
 
 Rule from now on (coordinator, 11 Nov 2026): every episode is read in full; any window too garbled is recorded here with its reason.
+
+
+### al-dar-al-akhera ep11 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep11 (the reckoning, part 1) | about 39 min (transcript) | ar, en, ur: 1 record extended | 6 new `about` edges (concept/al-hisab and others) | 13 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the Talha story (00:04:00), who Umar wished for (00:02:00), the five remedies story where no names are given (00:23:00), the excuse scenes (00:30:00) | run omar-abdelkafy-dar-akhera-6 |
+
+| Excluded (dar-akhera ep11) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep11 00:25:00, 00:29:30, 00:35:00 | Not speech | Loop check | Open |
+| Garbled passages | ep11 00:00:00-00:01:30 (opening, about the endings of deeds), 00:01:00 (the people of chess and dice), 00:09:30-00:10:30, 00:12:30-00:13:00, 00:16:30-00:17:00, 00:27:30-00:29:00 (the excuses of the unnamed), 00:31:00-00:31:30, 00:35:30 (partial) | Not recoverable as clear Arabic | Clarity | Open |
+| Closing supplications and sign-off | ep11 00:37:00-00:39:00 | Not lesson content | Content rule | Open |
+
+Resume point: episode 12 (branch from origin/main).
