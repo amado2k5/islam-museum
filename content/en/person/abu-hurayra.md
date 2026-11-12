@@ -1,9 +1,42 @@
 ---
 id: person/abu-hurayra
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
+## Overview
+Abu Hurayra al-Dawsi al-Yamani was a Companion of [[person/muhammad|Muhammad]] from the Yemeni tribe of Daws. Encyclopaedia of Islam, second edition, introduces him as a Companion who came to Medina in the year of the Khaybar expedition, lived among the poor men of the Prophet's mosque, and became known as one of the most prolific narrators of traditions from the Prophet. The article also reports that the genuineness of much that is attributed to him is questioned, and this page sets out the positions it mentions, each labelled, without giving a verdict {cite:encyclopaedia-of-islam-2 vol. 1 p. 148}
+
+## Name and kunya
+According to the article, his name was Abd Shams, and it was changed to Abd Allah or Abd al-Rahman when he became a Muslim, though many other names have also been mentioned for him. He was called Abu Hurayra, literally the father of a kitten, because while he herded his people's goats he kept a kitten to play with {cite:encyclopaedia-of-islam-2 vol. 1 p. 148} The record on [[concept/cat-in-hadith|cats in hadith]] treats the animal side of the tradition separately.
+
+## Arrival in Medina and companionship
+The article says that when he reached Medina the Prophet was away on the expedition to Khaybar, in 7 AH, 629 CE; the museum has a record of the [[event/battle-of-khaybar|Battle of Khaybar]]. He accepted Islam and stayed close to Muhammad, depending on his charity, and was counted among the poor men known as the [[concept/ahl-al-suffa|Ahl al-Suffa]] {cite:encyclopaedia-of-islam-2 vol. 1 p. 148} He is described as devoted to his mother, whom he persuaded to become a Muslim {cite:encyclopaedia-of-islam-2 vol. 1 p. 148} The article notes that he became a Muslim less than four years before the Prophet's death {cite:encyclopaedia-of-islam-2 vol. 1 p. 148}
+
+## Offices after the Prophet
+[[person/umar-ibn-al-khattab|Umar]] appointed him governor of [[place/bahrayn|Bahrayn]]. The article records that a large sum of money in his possession was confiscated; the OCR of the passage is damaged, so the museum does not state who acted or on what grounds. When Umar later invited him to take up the post again, he refused {cite:encyclopaedia-of-islam-2 vol. 1 p. 148}
+
+The article adds that [[person/marwan-ibn-al-hakam|Marwan]] is said to have appointed him as his deputy when Marwan was absent from [[place/medina|Medina]], while another version says that [[person/muawiya-ibn-abi-sufyan|Muawiya]] gave him this appointment. It reports that he had a reputation both for piety and for a fondness for jesting {cite:encyclopaedia-of-islam-2 vol. 1 p. 148}
+
+## Death
+He is said to have died in 57, 58 or 59 AH. The article reasons that if it is true that he prayed at the funeral of [[person/aisha|Aisha]] in 58 AH, the date must be 58 AH, 678 CE, or 59 AH. It gives his age at death as seventy-eight {cite:encyclopaedia-of-islam-2 vol. 1 p. 148}
+
+## Transmission of traditions
+Although he became a Muslim so late, the article describes him as noted for transmitting a very large number of traditions from the Prophet, and gives an estimate of 3,500. It says the Musnad of [[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]] devotes 213 pages to his traditions, and that eight hundred or more men are credited with transmitting from him {cite:encyclopaedia-of-islam-2 vol. 1 p. 148} Other records in the museum give a higher figure, about five thousand, so the count depends on how reports are counted and on the source consulted. Many of his traditions appear in the collections of [[work/sahih-al-bukhari|al-Bukhari]], according to the article, whose text breaks off at this point in the OCR {cite:encyclopaedia-of-islam-2 vol. 1 p. 148}
+
+## The account of his large number of reports
+The article mentions a story, told in slightly different forms, in which he explains why he transmitted more than others. In this account, as the article gives it, other Companions were busy with their affairs while he stayed with Muhammad and so heard more. When he complained that he forgot what he heard, Muhammad told him to spread out his cloak while he spoke and to draw it round himself when he finished. Abu Hurayra did so, and from then on forgot nothing he heard the Prophet say {cite:encyclopaedia-of-islam-2 vol. 1 p. 148}
+
+The article adds that he had to defend himself against suspicions about his traditions. It says it is impossible to prove whether this defence is genuine or was invented later to meet the doubts of people of a later period {cite:encyclopaedia-of-islam-2 vol. 1 p. 148}
+
+## Positions on his reports
+The record keeps the positions apart, as the museum does for contested questions.
+
+The Sunni scholarly position, set out in the sections of this record drawn from the classical biographical literature and from the lessons of contemporary teachers, treats him as a leading Companion and the foremost transmitter of hadith. The Encyclopaedia of Islam article does not state this position in its own words; it reports the tradition's own account of his memory, summarised above {cite:encyclopaedia-of-islam-2 vol. 1 p. 148}
+
+The academic view, as stated by the article's author, is that the traditions attributed to him contain much material that cannot be genuine. The author judges that Sprenger was scarcely justified in applying to him a harsh phrase of personal censure, because the traditions traced to him are not necessarily his own. The author suggests that he may be little more than a convenient authority to whom inventions of a later period were attributed, and that the authentic reports may be only a small part of the very large number traced to him. The author also writes that he presumably did tell many stories about Muhammad {cite:encyclopaedia-of-islam-2 vol. 1 p. 148}
+
+The article does not report other positions in the text read for this page, such as Shia views, which appear in the record's perspectives block from other sources.
 
 ## Summary
 Abu Hurayra kept company with the Prophet for only about three years, yet he narrated more of the hadith than anyone in the Sunni collections. How one man produced thousands of reports is a question scholars still ask.
