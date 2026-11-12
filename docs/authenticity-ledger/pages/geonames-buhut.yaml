@@ -1,0 +1,19 @@
+id: geonames-buhut
+kind: page
+carrier: www.geonames.org
+url: https://www.geonames.org/358693/buhut.html
+retrieved_on: '2026-11-11'
+used_for:
+- facts: coordinates and GeoNames id of the place for buhut (GeoNames 358693, Buhūt, feature code PPL populated place, Dakahlia, Egypt; 31.17058, 31.32726)
+checks:
+- date: '2026-11-11'
+  type: read through the GeoNames website
+  basis: the place page at retrieval (coordinates, feature code, administrative hierarchy Egypt > Dakahlia); last change in its history 14 July 2024
+  result: matched
+- date: '2026-11-11'
+  type: identity check
+  basis: Wikidata item Q12199762 at revision 2528896151 (village in Dakahlia Governorate, Egypt; no coordinate claim) and the Arabic Wikipedia article «بهوت» at revision 66786547 (a village of the Nabaruh district, Dakahlia). GeoNames lists a separate place Kafr Buhūt (354341), which was not used.
+  result: matched
+history:
+- date: '2026-11-11'
+  event: recorded for place/buhut coordinates and GeoNames id only; they replace the placeholder coordinates [0, 0]
