@@ -890,3 +890,21 @@ The hadith that God puts a Jew or Christian in the Fire in place of each Muslim 
 | Closing supplications and sign-off | ep13 00:35:30-00:37:00 | Not lesson content | Content rule | Open |
 
 Resume point: episode 14 (branch from origin/main).
+### albuyout-alamena, episodes 24–26 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-14)
+
+Each episode read in full. 63 points written (ar, en, ur); 34 new `about` edges (ep24 15, ep25 8 new, ep26 11 new; the rest were already present); 44 needs_source (unsourced reports and anecdotes, garbled call text, lexical claims not checked against a dictionary).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep24–ep26 (truthfulness and lying; the language of dialogue; the language of the Qur'an) | about 47 min, 46 min, 45 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 63 points | 34 new `about` edges | ep24 22, ep25 20, ep26 21 | 44 needs_source | this PR |
+
+Next step: episode 27.
+
+| Excluded (albuyout-alamena ep24–ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep24 00:00:00–00:00:30, 00:11:00–00:11:30, 00:22:30–00:23:00, 00:43:30–00:44:00 (closing), 00:46:30–00:47:00; ep25 00:00:00–00:00:30, 00:08:30–00:09:00, 00:23:30–00:24:00, 00:45:00–00:45:30; ep26 00:00:00–00:00:30, 00:05:00–00:05:30, 00:25:30, 00:44:30–00:45:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep24 00:08:00, 00:13:30 (tail), 00:34:30, 00:39:30, 00:42:30; ep25 00:03:30 (tail), 00:07:30–00:08:00, 00:27:30–00:28:00, 00:39:30, 00:42:00; ep26 00:09:00, 00:17:00, 00:19:30, 00:34:30–00:35:00, 00:38:30 | Not speech | Loop check | Open |
+| Garbled call windows | ep24 00:28:00 (the Kurdish caller's own account), 00:30:30–00:31:30 (the caller's question), 00:36:30; ep25 00:25:00 (start of the Switzerland call), 00:26:30, 00:30:00–00:30:30 (the missed-fasts figures); ep26 00:34:00–00:35:00, 00:37:30–00:38:30 | Garbled or fragmentary; only the clear question is summarised, no ruling written | Clarity | Open |
+| Private and sensitive circumstances | ep24 00:30:30–00:31:30 (a woman's relationship with a married man); ep25 00:25:30–00:27:00 (medical details), 00:30:30 (a marriage arrangement) | Summarised in general terms only | Privacy | Open |
+| Hadith and saying wording | ep24 00:09:30–00:10:00, 00:13:30, 00:16:00–00:16:30, 00:25:30; ep25 00:05:30, 00:06:30, 00:19:30; ep26 00:06:00 | Wording not typed; by sense only | Hadith rule | Open |
+| A remark on exaggeration in words and a garbled line of verse attributed to a classical poet | ep26 00:07:00–00:07:30 | Garbled and off the subject of the home; not recorded | Clarity | Open |
