@@ -1,0 +1,17 @@
+id: passage/abudawud-api-5129
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "5129"
+label: { ar: "سنن أبي داود 5129 — عمل يعدل عملا أعظم منه", en: "Sunan Abi Dawud 5129 — a deed that equals a greater one", ur: "سنن ابی داؤد 5129 — ایک عمل جو بڑے عمل کے برابر ہے" }
+text: "… الأَعْمَشِ، عَنْ أَبِي عَمْرٍو الشَّيْبَانِيِّ، عَنْ أَبِي مَسْعُودٍ الأَنْصَارِيِّ، قَالَ جَاءَ رَجُلٌ إِلَى النَّبِيِّ فَقَالَ يَا رَسُولَ اللَّهِ إِنِّي أُبْدِعَ بِي فَاحْمِلْنِي. قَالَ \" لاَ أَجِدُ مَا أَحْمِلُكَ عَلَيْهِ وَلَكِنِ ائْتِ فُلاَنًا فَلَعَلَّهُ أَنْ يَحْمِلَكَ \". فَأَتَاهُ فَحَمَلَهُ فَأَتَى رَسُولَ اللَّهِ فَأَخْبَرَهُ فَقَالَ رَسُولُ اللَّهِ \" مَنْ دَلَّ عَلَى خَيْرٍ فَلَهُ مِثْلُ أَجْرِ فَاعِلِهِ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 5129، يذكر عمل يعدل عملا أعظم منه. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 5129 (General Behavior (Kitab Al-Adab)), that speaks of a deed that equals a greater one. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 5129، جس میں ایک عمل جو بڑے عمل کے برابر ہے کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 5129 (book 43 hadith 357); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

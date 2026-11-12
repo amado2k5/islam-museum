@@ -16,6 +16,7 @@ translations:
   en: { text: "And We inspired Moses and his brother, (saying): Appoint houses for your people in Egypt and make your houses oratories, and establish worship. And give good news to the believers.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہم نے موسیٰ اور اس کے بھائی کی طرف وحی بھیجی کہ اپنے لوگوں کے لیے مصر میں گھر بناؤ اور اپنے گھروں کو قبلہ (یعنی مسجدیں) ٹھہراؤ اور نماز پڑھو۔ اور مومنوں کو خوشخبری سنادو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: place/misr, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-10 }
   - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred

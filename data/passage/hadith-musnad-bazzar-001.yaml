@@ -1,0 +1,23 @@
+id: passage/hadith-musnad-bazzar-001
+class: passage
+unit: chapter
+work: work/musnad-al-bazzar
+ref: "379"
+label:
+  ar: "مسند البزار — ص 379"
+  en: "مسند البزار — p. 379"
+text: "إلا عليه خاتم فاتخذ رسول الله والم خاتما من فضة نقش فيه: (محمد رسول الله)، وكأني أنظر إلى وبيص الخاتم في إصبع رسول الله و و في كفه (٢) . ٧٠٥١ - حدثنا عمرو بن علي، نا يزيد بن زريع،"
+summary:
+  ar: "مقطع من «مسند البزار» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «مسند البزار» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/musnad-bazzar-anas-thesis-1413] }
+  - { type: mentions, target: person/muhammad, sources: [source/musnad-bazzar-anas-thesis-1413] }
+provenance:
+  layer: own-research
+  source: "مسند البزار ص 379 — مقتطف المكاتبات — hadith"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-2
+tags: [mukatabat-browser]
+sources: [source/musnad-bazzar-anas-thesis-1413]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-476
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "476"
+label: { ar: "جامع الترمذي 476 — مغفرة ما تقدم من الذنب", en: "Jami' al-Tirmidhi 476 — forgiveness of past sins", ur: "جامع ترمذی 476 — پچھلے گناہوں کی مغفرت" }
+text: "… زُرَيْعٍ، عَنْ نَهَّاسِ بْنِ قَهْمٍ، عَنْ شَدَّادٍ أَبِي عَمَّارٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" مَنْ حَافَظَ عَلَى شُفْعَةِ الضُّحَى غُفِرَ لَهُ ذُنُوبُهُ وَإِنْ كَانَتْ مِثْلَ زَبَدِ الْبَحْرِ \". قَالَ أَبُو عِيسَى وَقَدْ رَوَى وَكِيعٌ وَالنَّضْرُ بْنُ شُمَيْلٍ وَغَيْرُ وَاحِدٍ مِنَ الأَئِمَّةِ هَذَا الْحَدِيثَ عَنْ نَهَّاسِ بْنِ قَهْمٍ وَلاَ نَعْرِفُهُ إِلاَّ مِنْ حَدِيثِهِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 476، يذكر مغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 476 (The Book on Al-Witr), that speaks of forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 476، جس میں پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 476 (book 3 hadith 24); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

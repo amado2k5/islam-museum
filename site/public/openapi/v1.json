@@ -376,6 +376,21 @@
         }
       }
     },
+    "/places.json": {
+      "get": {
+        "operationId": "getPlaces",
+        "summary": "Sacred Places Browser dataset",
+        "description": "The Sacred Places Browser dataset (متصفح الأماكن المقدسة والهامة وذات القيمة في الإسلام): every place and building of sanctity, importance and value in Islam — tagged places-browser records plus every record a passage mentions — each with its sanctity section (sanctuaries, hajj, seerah, quran, sacred, mentioned), per-corpus mention counts (quran, sunnah, seerah, books), kind, coordinates, regions, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every sacred or mentioned place/building record with section, mention counts, kind, coordinates and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/duas.json": {
       "get": {
         "operationId": "getDuas",
@@ -391,6 +406,125 @@
         }
       }
     },
+    "/ibadat.json": {
+      "get": {
+        "summary": "Ibadat and Adhkar Browser dataset",
+        "description": "The Worship and Adhkar Browser dataset (متصفح العبادات والأذكار): every act of worship and remembrance mentioned in the Qur'an, the Sunnah, the seerah and every harvested book — prayer, purification, fasting, zakat and charity, hajj and umrah, dhikr and adhkar, du'a (via the Du'a detector), recitation, repentance and ruqya — detected at build time plus the curated records tagged ibadat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), ibadat_kind (act/mention), worship topics, matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every ibadat record with corpus section, ibadat kind, topics, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/nar.json": {
+      "get": {
+        "operationId": "getNar",
+        "summary": "Fire Browser dataset",
+        "description": "The Fire Browser dataset (متصفح النار): every mention of the Fire in the museum's sources — the hellfire names (Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya, al-Hawiya, al-Sa'ir), its people, fuel, torment, keepers, food, drink and the Sirat over it, plus worldly fire (Ibrahim's fire, Musa's tree, the fire of war) — detected at build time plus the curated records tagged nar-browser, each with its section (quran, sunnah, seerah, books, dunya, curated), nar_kind (hellfire or worldly), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every fire mention with section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/islamic-economy.json": {
+      "get": {
+        "operationId": "getIslamicEconomy",
+        "summary": "Islamic Economy Browser dataset",
+        "description": "The Islamic Economy Browser dataset (متصفح العملات والصكوك والوقف الإسلامي): every mention of money and Islamic economics, deeds/instruments/covenants, and endowments in the Qur'an, Sunnah, seerah and harvested books — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — detected at build time plus the curated records tagged islamic-economy-browser, each with its corpus section (quran, sunnah, seerah, books, curated), topic chips (money, sukuk, waqf), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every Islamic-economy record with corpus section, topics, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/sayyiat.json": {
+      "get": {
+        "operationId": "getSayyiat",
+        "summary": "Sayyi'at Browser dataset",
+        "description": "The Sayyi'at Browser dataset (متصفح السيئات): every mention of the sayyi'at and the sins theme in the Qur'an, Sunnah, seerah and harvested books — the «سيّئ» family, the names of sin, guilt and disobedience, major and minor sins, transgression, immorality and wrongdoing — detected at build time plus the curated records tagged sayyiat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), sayyiat_kind (sayyi or related), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every sayyi'at record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/hudud.json": {
+      "get": {
+        "operationId": "getHudud",
+        "summary": "Hudud Allah and Kaba'ir Browser dataset",
+        "description": "The Hudud Allah and Kaba'ir Browser dataset (متصفح حدود الله والكبائر): every mention of the limits of God, the fixed penalties (stoning, flogging, the amputated hand, discretionary punishment and their crimes) and the major sins in the Qur'an, Sunnah, seerah and harvested books — detected at build time plus the curated records tagged hudud-browser, each with its corpus section (quran, sunnah, seerah, books, curated), hudud_kind (hudud or kabair), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every hudud and kaba'ir record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/hisab.json": {
+      "get": {
+        "operationId": "getHisab",
+        "summary": "Hasanat and Sayyi'at Ledger dataset",
+        "description": "The Hasanat and Sayyi'at Ledger, Calculator and Counter dataset (قائمة وآلة حاسبة وعدّاد الحسنات والسيئات): every passage in the Qur'an, Sunnah, seerah and harvested books that counts, writes, multiplies, erases, weighs or reckons a good or bad deed, detected at build time, plus the curated records tagged hisab-browser. Each item has its corpus section (quran, sunnah, seerah, books, curated), hisab_kinds (hasanat, sayyiat, erasure, scale), matched signals, work, ref, text excerpt, themes, tags and edges; calculator rows carry a reckoning block with the figure a named text states for one act (hasanat, hasanat_max, sayyiat, erased, degrees, times, unbounded), the localized unit and result, and the basis passage ids.",
+        "responses": {
+          "200": {
+            "description": "Every ledger record with corpus section, ledger kinds, signals, reckoning, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/hasanats.json": {
+      "get": {
+        "operationId": "getHasanats",
+        "summary": "Hasanat Browser dataset",
+        "description": "The Hasanat Browser dataset (متصفح الحسنات): every mention of the good deeds (al-hasanat) in the Qur'an, Sunnah, seerah and harvested books — «الحسنات»، «حسنات»، «الحسنة»، «حسنة»، the gated «الحسنى», and the fixed collocations «قرضا حسنا» and «بدل حسنا بعد سوء» — detected at build time plus the curated records tagged hasanat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), hasanat_kind (hasanat, hasana or husna), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every good-deed record with corpus section, hasanat kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/mukatabat.json": {
+      "get": {
+        "operationId": "getMukatabat",
+        "summary": "Mukatabat Browser dataset",
+        "description": "The Mukatabat Browser dataset (متصفح المكاتبات): every mention of correspondence in the Qur'an, Sunnah, seerah and harvested books — the letters the Prophet sent to kings and emperors, the letters, replies and reports that came back, the caliphs' letters and the chancery institutions, and Sulayman's letter to the Queen of Sheba — detected at build time by a guarded lexicon plus the curated records tagged mukatabat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), mukatabat_kind (letter, mention), sender (prophetic, caliphal, royal, other), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every correspondence record with corpus section, mukatabat kind, sender, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/magic.json": {
       "get": {
         "operationId": "getMagic",
@@ -399,6 +533,21 @@
         "responses": {
           "200": {
             "description": "Every magic record with corpus section, topics, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/nubuwat.json": {
+      "get": {
+        "operationId": "getNubuwat",
+        "summary": "Prophecies and Miracles Browser dataset",
+        "description": "The Prophecies and Miracles Browser dataset (متصفح النبؤات وأسرار القرآن ومعجزاته): every prophecy of the Prophet, proof of prophethood, secret and marvel of the Qur'an, miracle of the Prophet, report of unseen knowledge and eschatological prediction in the Qur'an, Sunnah, seerah and harvested books — detected at build time plus the curated records tagged nubuwat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), topics chips, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every nubuwat record with corpus section, topics, work, ref, excerpt, kind, themes and edges",
             "content": {
               "application/json": {}
             }
@@ -459,6 +608,21 @@
         "responses": {
           "200": {
             "description": "Every messenger/prophet mention record with corpus section, subjects, topics, work, ref, excerpt and edges, plus the subjects index",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/miracles.json": {
+      "get": {
+        "operationId": "getMiracles",
+        "summary": "Divine and Prophetic Miracles Browser dataset",
+        "description": "The Divine and Prophetic Miracles Browser dataset (متصفح المعجزات الإلهية ومعجزات الرسل): every mention of the divine miracles and the prophets' miracles in the Qur'an, Sunnah, seerah and harvested books — the miracle of the Qur'an, the Prophet's signs, the staff, the sea, the she-camel, the ark, the fire, the clay bird, the cradle speech, the heavenly table, Sulayman's signs, the dreams, the annunciation, the covenant chest, the cosmic signs and the destruction of the nations — detected at build time and joined to the canonical mentions edges, plus the curated miracles-browser records and the subjects index, each with its corpus section (quran, sunnah, seerah, books, curated), kind (event/sign/mention), subjects/topics chips, work, ref, text excerpt and edges.",
+        "responses": {
+          "200": {
+            "description": "Every miracle mention record with corpus section, kind, subjects, topics, work, ref, excerpt and edges, plus the subjects index",
             "content": {
               "application/json": {}
             }

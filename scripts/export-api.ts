@@ -17,8 +17,19 @@ import { BAYT_TAG, baytCorpusOf, baytTagSection, isBaytPassage } from "./bayt.js
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
 import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPassage, eschatologyTopicsOf } from "./eschatology.js";
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
+import { MIRACLES_TAG, MIRACLE_SECTIONS, MIRACLE_SUBJECTS, MIRACLE_SUBJECT_SET, MIRACLE_TOPIC_KIND, MIRACLE_TOPIC_SUBJECTS, miracleTopicsOf, miracleCorpusOf, miracleTagSection, type MiracleTopic } from "./miracles.js";
 import { DUA_TAG, duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, isDuaPassage, type DuaKind } from "./dua.js";
+import { IBADAT_TAG, ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTopicsOf, isIbadatPassage, type IbadatKind } from "./ibadat.js";
+import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNubuwatPassage, nubuwatTopicsOf } from "./nubuwat.js";
+import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
+import { HUDUD_TAG, hududCorpusOf, hududKindOf, hududSignalsOf, hududTagSection, isHududPassage } from "./hudud.js";
+import { HISAB_TAG, hisabCorpusOf, hisabKindsOf, hisabSignalsOf, isHisabPassage, reckoningOf } from "./hisab.js";
+import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatTagSection, isHasanatPassage, type HasanatKind } from "./hasanat.js";
+import { MUKATABAT_TAG, mukatabatCorpusOf, mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf, mukatabatTagSection, mukatabatTagSender, isMukatabatPassage } from "./mukatabat.js";
+import { NAR_TAG, narKindOf, narSectionOf, narSignalsOf, narTagSection, isNarPassage } from "./nar.js";
+import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
+import { PLACES_TAG, PLACE_CORPORA, placeCorpusOf, placeSectionOf, type PlaceCorpus } from "./places.js";
 import { existsSync, readdirSync } from "node:fs";
 
 const OUT = p("site", "public", "api", "v1");
@@ -231,6 +242,67 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       dua_kind: n.class === "passage" ? duaKindOf(n) : null,
       signals: n.class === "passage" ? duaSignalsOf(n) : [],
     }) },
+  { file: "ibadat.json", feature: "ibadat-browser",
+    pick: (n) => n.tags.includes(IBADAT_TAG) || isIbadatPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? ibadatCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : ibadatTagSection(n),
+      ibadat_kind: n.class === "passage" ? ibadatKindOf(n) : null,
+      topics: n.class === "passage" ? ibadatTopicsOf(n) : [],
+      signals: n.class === "passage" ? ibadatSignalsOf(n) : [],
+    }) },
+  { file: "nar.json", feature: "nar-browser",
+    pick: (n) => n.tags.includes(NAR_TAG) || isNarPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? narSectionOf(n, byId?.get(n.data.work as string)?.data.genre as string[] | undefined)
+        : narTagSection(n),
+      nar_kind: n.class === "passage" ? narKindOf(n) : null,
+      signals: n.class === "passage" ? narSignalsOf(n) : [],
+    }) },
+  { file: "nubuwat.json", feature: "nubuwat-browser",
+    pick: (n) => n.tags.includes(NUBUWAT_TAG) || isNubuwatPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? nubuwatCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : nubuwatTagSection(n),
+      topics: n.class === "passage" ? nubuwatTopicsOf(n) : nubuwatTagTopics(n),
+    }) },
+  { file: "islamic-economy.json", feature: "islamic-economy-browser",
+    pick: (n) => n.tags.includes(IE_TAG) || isIslamicEconomyPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? ieCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : ieTagSection(n),
+      topics: n.class === "passage" ? ieTopicsOf(n) : ieTagTopics(n),
+      signals: n.class === "passage" ? ieSignalsOf(n) : [],
+    }) },
+  { file: "hasanats.json", feature: "hasanat-browser",
+    pick: (n) => n.tags.includes(HASANAT_TAG) || isHasanatPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? hasanatCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : hasanatTagSection(n),
+      hasanat_kind: n.class === "passage" ? hasanatKindOf(n) : null,
+      signals: n.class === "passage" ? hasanatSignalsOf(n) : [],
+    }) },
+  { file: "hisab.json", feature: "hisab-browser",
+    pick: (n) => n.tags.includes(HISAB_TAG) || isHisabPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? hisabCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : "curated",
+      hisab_kinds: n.class === "passage" ? hisabKindsOf(n) : reckoningOf(n) ? [reckoningOf(n)!.effect] : [],
+      signals: n.class === "passage" ? hisabSignalsOf(n) : [],
+      reckoning: reckoningOf(n),
+    }) },
   { file: "magic.json", feature: "magic-browser",
     pick: (n) => n.tags.includes(MAGIC_TAG) || isMagicPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
@@ -259,6 +331,37 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       section: n.class === "passage"
         ? baytCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
         : baytTagSection(n),
+    }) },
+  { file: "sayyiat.json", feature: "sayyiat-browser",
+    pick: (n) => n.tags.includes(SAYYIAT_TAG) || isSayyiatPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? sayyiatCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : sayyiatTagSection(n),
+      sayyiat_kind: n.class === "passage" ? sayyiatKindOf(n) : null,
+      signals: n.class === "passage" ? sayyiatSignalsOf(n) : [],
+    }) },
+  { file: "hudud.json", feature: "hudud-browser",
+    pick: (n) => n.tags.includes(HUDUD_TAG) || isHududPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? hududCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : hududTagSection(n),
+      hudud_kind: n.class === "passage" ? hududKindOf(n) : null,
+      signals: n.class === "passage" ? hududSignalsOf(n) : [],
+    }) },
+  { file: "mukatabat.json", feature: "mukatabat-browser",
+    pick: (n) => n.tags.includes(MUKATABAT_TAG) || isMukatabatPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? mukatabatCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : mukatabatTagSection(n),
+      mukatabat_kind: n.class === "passage" ? mukatabatKindOf(n) : null,
+      sender: n.class === "passage" ? mukatabatSenderOf(n) : mukatabatTagSender(n),
+      signals: n.class === "passage" ? mukatabatSignalsOf(n) : [],
     }) },
   { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
     fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },
@@ -297,7 +400,10 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
   out["companions.json"] = { generated: c.generated, feature: "companions-browser", items: companionRows(c, edgesFrom) };
   const msg = messengerApiData(c, edgesFrom, byId);
   out["messengers.json"] = { generated: c.generated, feature: "messengers-browser", subjects: msg.subjects, items: msg.items };
+  const muj = miracleApiData(c, edgesFrom, byId);
+  out["miracles.json"] = { generated: c.generated, feature: "miracles-browser", subjects: muj.subjects, items: muj.items };
   out["madhahib.json"] = { generated: c.generated, feature: "madhahib-browser", items: madhahibRows(c, edgesFrom) };
+  out["places.json"] = { generated: c.generated, feature: "places-browser", items: placesRows(c, edgesFrom, byId) };
   return out;
 }
 
@@ -310,6 +416,34 @@ function madhahibRows(c: Compiled, edgesFrom: Map<string, { type: string; to: st
     const picked = Object.fromEntries(MADHABIB_FIELDS.filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
     return { ...compact(n), ...picked, sections: m.sections, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) };
   });
+}
+
+const PLACES_FIELDS = ["kind", "wings", "themes", "tags", "country", "regions", "coordinates", "external_ids"];
+
+/**
+ * The Sacred Places Browser's rows (docs/plan/49): every `place` and `building` record tagged
+ * `places-browser`, plus every record a passage mentions (`mentioned_in` inverses on the place
+ * side) — so a place named in a book harvested later enters the export automatically. Each row
+ * carries its sanctity `section` and per-corpus `mentions` counts.
+ */
+function placesRows(c: Compiled, edgesFrom: Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>, byId: Map<string, Node>): Record<string, unknown>[] {
+  const rows: Record<string, unknown>[] = [];
+  for (const n of c.nodes) {
+    if (n.stub || (n.class !== "place" && n.class !== "building")) continue;
+    const mentioners = (edgesFrom.get(n.id) ?? [])
+      .filter((e) => e.type === "mentioned_in")
+      .map((e) => byId.get(e.to))
+      .filter((p): p is Node => !!p && !p.stub && p.class === "passage");
+    if (!n.tags.includes(PLACES_TAG) && mentioners.length === 0) continue;
+    const mentions: Record<PlaceCorpus, number> = { quran: 0, sunnah: 0, seerah: 0, books: 0 };
+    for (const p of mentioners) {
+      const w = p.data.work as string | undefined;
+      mentions[placeCorpusOf(w, w ? (byId.get(w)?.data.genre as string[] | undefined) : undefined, p.data.unit as string | undefined)]++;
+    }
+    const picked = Object.fromEntries(PLACES_FIELDS.filter((f) => f !== "tags" && n.data[f] !== undefined).map((f) => [f, n.data[f]]));
+    rows.push({ ...compact(n), ...picked, tags: n.tags, section: placeSectionOf(n), mentions, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) });
+  }
+  return rows.sort((a, b) => String(a.id).localeCompare(String(b.id)));
 }
 
 const COMPANION_FIELDS = ["gender", "roles", "born", "died", "kunya", "nisba"];
@@ -562,4 +696,57 @@ export function exportNeighbourhoods(c: Compiled, real: Node[]) {
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   const c: Compiled = JSON.parse(readFileSync(p(".cache", "graph.json"), "utf8"));
   console.log(`api: ${exportApi(c)} entities -> site/public/api/v1/`);
+}
+
+/** The Miracles Browser's API rows: detected/class-edge passages plus curated records, and the subject index (docs/plan/44-miracles-browser.md). */
+function miracleApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>, byId: Map<string, Node>) {
+  const real = c.nodes.filter((n) => !n.stub);
+  const edgeSubjects = new Map<string, Set<string>>();
+  for (const e of c.edges) {
+    if (e.type !== "mentions" || !e.from.startsWith("passage/") || e.to === "person/muhammad" || !MIRACLE_SUBJECT_SET.has(e.to)) continue;
+    const set = edgeSubjects.get(e.from) ?? new Set<string>();
+    set.add(e.to);
+    edgeSubjects.set(e.from, set);
+  }
+  const genreOf = (workId: string | undefined): string[] | undefined =>
+    workId ? (byId.get(workId)?.data.genre as string[] | undefined) : undefined;
+  const items: Record<string, unknown>[] = [];
+  const subjectPassages = new Map<string, { id: string; section: string }[]>();
+  for (const n of real) {
+    if (n.class === "passage") {
+      const corpus = miracleCorpusOf(n.data.work as string | undefined, genreOf(n.data.work as string | undefined), n.data.unit as string | undefined);
+      const detected = miracleTopicsOf(n, corpus);
+      const edges = edgeSubjects.get(n.id) ?? new Set<string>();
+      if (detected.length === 0 && edges.size === 0) continue;
+      const subjects = [...new Set([...detected.flatMap((t) => MIRACLE_TOPIC_SUBJECTS[t] ?? []), ...edges])];
+      const kinds = detected.map((t) => MIRACLE_TOPIC_KIND[t]);
+      const kind = kinds.includes("event") ? "event" : kinds.includes("sign") ? "sign" : "mention";
+      const picked = Object.fromEntries(["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"].filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
+      items.push({ ...compact(n), ...picked, section: corpus, kind, subjects, topics: detected, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) });
+      for (const s of subjects) {
+        if (!MIRACLE_SUBJECT_SET.has(s)) continue;
+        const list = subjectPassages.get(s) ?? [];
+        list.push({ id: n.id, section: corpus });
+        subjectPassages.set(s, list);
+      }
+      continue;
+    }
+    if (n.tags.includes(MIRACLES_TAG)) {
+      items.push({
+        ...compact(n), kind: n.data.kind, wings: n.wings, themes: n.themes, tags: n.tags,
+        section: miracleTagSection(n), subjects: [], topics: [], kind2: undefined, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}),
+      });
+    }
+  }
+  const sectionRank = (s: unknown) => (MIRACLE_SECTIONS as readonly string[]).indexOf(String(s));
+  items.sort((a, b) => sectionRank(a.section) - sectionRank(b.section) || String(a.id).localeCompare(String(b.id)));
+  const subjects = MIRACLE_SUBJECTS.map((id) => {
+    const node = byId.get(id);
+    if (!node || node.stub) return null;
+    const passages = (subjectPassages.get(id) ?? []).sort((a, b) => sectionRank(a.section) - sectionRank(b.section) || a.id.localeCompare(b.id));
+    const counts = { quran: 0, sunnah: 0, seerah: 0, books: 0 };
+    for (const p of passages) if (p.section in counts) counts[p.section as keyof typeof counts]++;
+    return { id, label: node.label, summary: node.summary, status: node.data.status?.review, counts, passages: passages.map((p) => p.id) };
+  }).filter((x): x is NonNullable<typeof x> => !!x);
+  return { items, subjects };
 }

@@ -17,6 +17,7 @@ translations:
   ur: { text: "غرض اس نے اپنی قوم کی عقل مار دی۔ اور انہوں نے اس کی بات مان لی۔ بےشک وہ نافرمان لوگ تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

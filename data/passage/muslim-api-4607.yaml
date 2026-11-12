@@ -1,0 +1,19 @@
+id: passage/muslim-api-4607
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4607"
+label: { ar: "صحيح مسلم — حديث 4607", en: "Sahih Muslim 4607 — The Book of Jihad and Expeditions", ur: "صحیح مسلم — حدیث 4607" }
+text: "… قَالَ انْطَلَقْتُ فِي الْمُدَّةِ الَّتِي كَانَتْ بَيْنِي وَبَيْنَ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ فَبَيْنَا أَنَا بِالشَّأْمِ إِذْ جِيءَ بِكِتَابٍ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم إِلَى هِرَقْلَ يَعْنِي عَظِيمَ الرُّومِ - قَالَ - وَكَانَ دِحْيَةُ الْكَلْبِيُّ جَاءَ بِهِ فَدَفَعَهُ إِلَى عَظِيمِ بُصْرَى فَدَفَعَهُ عَظِيمُ بُصْرَى إِلَى هِرَقْلَ فَقَالَ هِرَقْلُ هَلْ هَا هُنَا أَحَدٌ مِنْ قَوْمِ هَذَا الرَّجُل …"
+summary:
+  ar: "في صحيح مسلم؛ وصول كتاب منسوب إلى مرسل."
+  en: "In Sahih Muslim; a letter arriving from a named sender."
+  ur: "صحیح مسلم میں؛ نامزد بھیجنے والے کا خط پہنچنا."
+relations:
+  - { type: mentions, target: person/heraclius, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/dihya-al-kalbi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4607 (book 32 hadith 89); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

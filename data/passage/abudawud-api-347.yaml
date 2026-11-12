@@ -1,0 +1,17 @@
+id: passage/abudawud-api-347
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "347"
+label: { ar: "سنن أبي داود 347 — مغفرة ما تقدم من الذنب", en: "Sunan Abi Dawud 347 — forgiveness of past sins", ur: "سنن ابی داؤد 347 — پچھلے گناہوں کی مغفرت" }
+text: "… بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ الْعَاصِ، عَنِ النَّبِيِّ أَنَّهُ قَالَ \" مَنِ اغْتَسَلَ يَوْمَ الْجُمُعَةِ وَمَسَّ مِنْ طِيبِ امْرَأَتِهِ - إِنْ كَانَ لَهَا - وَلَبِسَ مِنْ صَالِحِ ثِيَابِهِ ثُمَّ لَمْ يَتَخَطَّ رِقَابَ النَّاسِ وَلَمْ يَلْغُ عِنْدَ الْمَوْعِظَةِ كَانَتْ كَفَّارَةً لِمَا بَيْنَهُمَا وَمَنْ لَغَا وَتَخَطَّى رِقَابَ النَّاسِ كَانَتْ لَهُ ظُهْرًا \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 347، يذكر مغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 347 (Purification (Kitab Al-Taharah)), that speaks of forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 347، جس میں پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 347 (book 1 hadith 347); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -17,6 +17,7 @@ translations:
   ur: { text: "ہم تو یہ سمجھتے ہیں کہ ہمارے کسی معبود نے تمہیں آسیب پہنچا کر (دیوانہ کر) دیا ہے۔ انہوں نے کہا کہ میں خدا کو گواہ کرتا ہوں اور تم بھی گواہ رہو کہ جن کو تم (خدا کا) شریک بناتے ہو میں اس سے بیزار ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -1,8 +1,38 @@
 ---
 id: person/muhammad-iqbal
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
-A poet and philosopher from Lahore, who called for the revival of Muslim selfhood and is regarded as the spiritual father of the idea of Pakistan. {cite:wikidata}
+Muhammad Iqbal was a poet in Urdu and Persian and a thinker who set out to restore the Muslims to new life by teaching them to develop the self. Born in [[place/sialkot|Sialkot]] in the [[place/punjab|Punjab]], he studied in [[place/lahore|Lahore]], Cambridge and Munich, lived from 1908 in Lahore as a lawyer, and died on 21 April 1938. After the foundation of [[place/pakistan|Pakistan]] he came to be called its spiritual father. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1090} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1092}
+
+## Education in Lahore and Europe
+The Encyclopaedia of Islam gives his birth as 1873, or more probably 1876. As a student in Lahore he came to know Sir Thomas Arnold, who had a part in his going to England in 1905. At [[place/cambridge|Cambridge]] Iqbal, already known as a romantic and Indian-nationalist poet in Urdu, studied philosophy under the Hegelian J. M. E. McTaggart, and law. In 1907 he went to Germany and took his doctorate at [[place/munich|Munich]]; his thesis, The Development of Metaphysics in Persia, already shows his interest in Islamic mystical philosophy. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1090}
+
+## The turn to revival
+From 1908 he lived in Lahore, teaching philosophy for a time and then giving himself to his legal practice. The article's author, A. Schimmel, describes a crisis of mind after his return from Europe, whose possibilities and weaknesses he had come to see, and a growing concern for the revival of the Muslim peoples, sharpened as for many Indian contemporaries by the fate of the Turks in the Balkan War. A notebook of 1910 already holds many ideas he worked out later, and the poems Shikwa and Jawab-i Shikwa, the Complaint and the Answer, tell the Muslims that they have fallen through their own idleness and want of faith. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1090}
+
+## The books
+He set out these ideas in Asrar-i khudi, the Secrets of the Self, of 1915, written in Persian to reach more readers; its stress on developing the ego in place of mystical self-annihilation shocked many. A second Persian poem in rhymed couplets, Rumuz-i bikhudi, the Mysteries of Selflessness, of 1918, set out the duties of the individual in the ideal Muslim community. In 1923 came Payam-i Mashriq, an answer to Goethe's West-Eastern Divan; in 1924 his Urdu poems appeared as Bang-i dara, the Sound of the Caravan Bell; and in 1927 a second book of Persian lyrics, Zabur-i 'Ajam. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1090}
+
+In 1928 he gave at several Indian universities the lectures published as [[work/reconstruction-religious-thought-islam|The Reconstruction of Religious Thought in Islam]], which Schimmel calls a very personal attempt to reconcile Muslim theology with European philosophy and science. The Javidnama of 1932, dedicated to his son Javid, Schimmel counts his chief work in Persian: a journey through the spheres in the company of [[person/jalal-al-din-rumi|Jalal al-Din Rumi]], in which he debates questions of philosophy and politics with Muslim and non-Muslim figures. Bal-i Jibril, Gabriel's Wing, of 1935 is the most important book of his Urdu verse and holds his poem on the [[building/great-mosque-cordoba|Mosque of Cordoba]]; Darb-i Kalim followed a year later, with a bitter criticism of the political and religious state of things. Armaghan-i Hijaz came out soon after his death. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1090}
+
+## Public life
+In these years Iqbal began to work with the Muslim League, and at its annual session at Allahabad in 1930 he made his statement on the need for a separate Muslim state in north-west India. He then took part in two Round Table Conferences in London, travelled in France, Spain and Italy, and attended a Muslim conference in [[place/jerusalem|Jerusalem]]. In the autumn of 1933 he was invited to Afghanistan to discuss founding a university at [[place/kabul|Kabul]]. The British Crown had knighted him in 1922. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1090}
+
+## Poetry as a means
+The form of his verse in both languages is classical, apart from a few schemes of his own: he writes ghazal, qasida and saqinama, and all his long poems in couplets use the metre of Rumi's [[work/mathnawi-rumi|Mathnawi]]. His imagery is inherited too, turned to modern subjects, so that Farhad stands for the exploited worker and Khusraw for the imperialist and the capitalist. Schimmel explains that he needed these forms to win a hearing. Poetry was for him not an end in itself; he held that it must be the heritage of prophecy, and judged it by what he called its life-giving power, not by its beauty. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1091}
+
+## The self and God
+Schimmel sets out his thought as follows. God is the greatest Ego, and every created being has a small ego that it is called to develop; reality is a continual becoming, and even death opens new doors of self-realisation. Immortality is then not a right but an aspiration, open to those who have perfected the self as far as they can. This perfection does not carry a person away from God, as in Nietzsche's superman, with which critics charged him; it is reached by love and prayer. Love is the force that moves creation, set against the dry effort of the intellect. In the solitude of prayer a person draws near to God and then returns to the world to change the course of time. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1091}
+
+Destiny in this view is not blind fate but a working together of the human and the divine will. There may be a union of will, yet never a union of being: a person remains God's servant even in ecstasy, and that, the station of the Prophet himself, is the highest a human being can reach. Schimmel thinks the idea was probably shaped by the tradition of [[person/ahmad-sirhindi|Ahmad Sirhindi]]. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1091}
+
+## Teachers and sources
+He read European philosophy closely, drawn first to Hegel and then to the vitalists, and his view of time owed something to Sufism and something to Bergson. He admired Goethe sincerely. Of Nietzsche he held that the philosopher stopped at the denial in the confession of faith without reaching its affirmation. Rumi was his spiritual guide throughout his life, and the influence of [[person/al-hallaj|al-Hallaj]], whom he came to understand through Massignon's books, was also strong. His hostility to Plato runs through his work; he counted Platonic mysticism among the chief causes of the decline of Islam. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1091}
+
+His main source was the Qur'an. He treated the Qur'an and the sharia as capable of endless development and at the same time as the unchanging expression of the divine will. Schimmel notes that his reading of single verses is sometimes unusual and personal, because he tries to tie them to the findings of modern science, and that a certain traditionalism followed, for example in his attitude to women, which Schimmel finds at odds with his belief in the dynamic nature of Islam. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1091} He attacked theologians who cling to the externals of religion, yet at times defended taqlid as a safeguard in a changing society. Unity is one of his key words: the unity of God reflected in the unity of believers, bound by one law, one Prophet and one centre of prayer. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1092}
+
+## Reception
+Schimmel judges that Iqbal joined many contrary tendencies, so that his verses could arm both conservatives and progressives, and that he was a philosopher-poet and no builder of a system. Several orientalists criticised his work at first. After the foundation of Pakistan it was praised more than that of any other writer, so that, in Schimmel's words, even slight criticism came to be treated as sacrilege; a scholarly account of his links with the poetic and mystical tradition of the subcontinent had still to be written. {cite:encyclopaedia-of-islam-2 vol. 3 p. 1092}

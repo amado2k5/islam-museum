@@ -1,0 +1,21 @@
+id: person/ahmad-ibn-asim-al-antaki
+class: person
+label: { ar: "أحمد بن عاصم الأنطاكي", en: "Ahmad ibn Asim al-Antaki", ur: "احمد بن عاصم انطاکی" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن عاصم الأنطاكي" }
+gender: male
+roles: [mystic]
+summary:
+  ar: "أحمد بن عاصم الأنطاكي، زاهد من أهل أنطاكية، كان يُعدّ من القاصمين للهوى، وأكثر أقواله في «حلية الأولياء» في المحاسبة والمعرفة والصدق والتوكل والصبر."
+  en: "Ahmad ibn Asim al-Antaki, an ascetic of Antioch, counted among those who break desire; most of his sayings in Hilyat al-Awliya concern self-examination, knowledge of God, truthfulness, trust and patience."
+  ur: "احمد بن عاصم انطاکی انطاکیہ کے زاہد تھے، جنہیں خواہش کو توڑنے والوں میں شمار کیا جاتا تھا۔ «حلیۃ الاولیاء» میں ان کے زیادہ تر اقوال محاسبہ، معرفت، صدق، توکل اور صبر پر ہیں۔"
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/antioch, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: related_to, target: person/ahmad-ibn-abi-al-hawari, note: "يروي أحمد بن أبي الحواري عنه (حلية الأولياء 9/281-284).", sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/280-284", generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b19 }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 2 }

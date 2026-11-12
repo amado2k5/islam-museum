@@ -21,6 +21,9 @@ translations:
     license: CC-BY-SA
 sources:
 - source/diwan-mutanabbi-dar-beirut-1983
+relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/diwan-mutanabbi-dar-beirut-1983] }
+
 provenance:
   layer: own-research
   source: ديوان المتنبي، دار بيروت 1403هـ/1983م (ملف ممسوح؛ أرقام الصفحات هي أرقام الملف الموافقة للمطبوع), printed p. 28

@@ -16,6 +16,8 @@ translations:
   en: { text: "And approach not the wealth of the orphan save with that which is better, till he reach maturity. Give full measure and full weight, in justice. We task not any soul beyond its scope. And if ye give your word, do justice thereunto, even though it be (against) a kinsman; and fulfil the covenant of Allah. This He commandeth you that haply ye may remember.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور یتیم کے مال کے پاس بھی نہ جانا مگر ایسے طریق سے کہ بہت ہی پسندیدہ ہو یہاں تک کہ وہ جوانی کو پہنچ جائے اور ناپ تول انصاف کے ساتھ پوری پوری کیا کرو ہم کسی کو تکلیف نہیں دیتے مگر اس کی طاقت کے مطابق اور جب (کسی کی نسبت) کوئی بات کہو تو انصاف سے کہو گو وہ (تمہارا) رشتہ دار ہی ہو اور خدا کے عہد کو پورا کرو ان باتوں کا خدا تمہیں حکم دیتا ہے تاکہ تم نصحیت کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/al-sakk-wal-hawala, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

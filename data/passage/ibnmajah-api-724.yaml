@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-724
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "724"
+label: { ar: "سنن ابن ماجه 724 — عدد الحسنات، كتابة الحسنات", en: "Sunan Ibn Majah 724 — a stated number of good deeds; the writing of good deeds", ur: "سنن ابن ماجہ 724 — نیکیوں کی مقررہ تعداد، نیکیوں کا لکھا جانا" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا شَبَابَةُ، حَدَّثَنَا شُعْبَةُ، عَنْ مُوسَى بْنِ أَبِي عُثْمَانَ، عَنْ أَبِي يَحْيَى، عَنْ أَبِي هُرَيْرَةَ، قَالَ سَمِعْتُ مِنْ، فِي رَسُولِ اللَّهِ ـ يَقُولُ \" الْمُؤَذِّنُ يُغْفَرُ لَهُ مَدَّ صَوْتِهِ وَيَسْتَغْفِرُ لَهُ كُلُّ رَطْبٍ وَيَابِسٍ وَشَاهِدُ الصَّلاَةِ يُكْتَبُ لَهُ خَمْسٌ وَعِشْرُونَ حَسَنَةً وَيُكَفَّرُ عَنْهُ مَا بَيْنَهُمَا \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 724، يذكر عدد الحسنات، وكتابة الحسنات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 724 (The Book of the Adhan and the Sunnah Regarding It), that speaks of a stated number of good deeds, the writing of good deeds. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 724، جس میں نیکیوں کی مقررہ تعداد، نیکیوں کا لکھا جانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 724 (book 3 hadith 19); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,24 @@
+id: passage/hadith-sahih-muslim-001
+class: passage
+unit: chapter
+work: work/sahih-muslim
+ref: "858"
+label:
+  ar: "صحيح مسلم — ص 858"
+  en: "صحيح مسلم — p. 858"
+text: "ب رسول الله ل فقرأه ، فإذا فيه : ((بسم الله الرحمن الرحيم ، من محمد رسول الله إلى هرقل عظيم الروم، سلام على من اتبع الهدى ، أما بعد ؛ فإني أدعوك بدعاية الإسلام ، أسلم تسلم ، وأسلم"
+summary:
+  ar: "مقطع من «صحيح مسلم» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «صحيح مسلم» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/heraclius, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "صحيح مسلم ص 858 — مقتطف المكاتبات — hadith"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-2
+tags: [mukatabat-browser]
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

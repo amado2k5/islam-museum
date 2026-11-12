@@ -1,0 +1,49 @@
+id: dec-20261111-234
+kind: override
+date: '2026-11-11'
+expires_at: '2027-11-11'
+question_hash: 3d8527673714
+lane: place-map
+class: process
+modality: repo
+domain: process
+mode: conservative
+question: 'The Place wing map was rebuilt as a plain script, so the Svelte component MapViewer.svelte is no longer drawn on any page. Taking it out of the build changes the hashed names of the script chunks it shares with the depth dial on every entity page, and so the HTML of about 160,000 pages. Should the unused component stay a build entry for now and be taken out in a separate change the founder can batch with other rewrites-all-pages changes?'
+options:
+- 'keep it as an unused build entry now and take it out in a separate rewrites-all-pages change'
+- 'take it out in the same change and accept that every entity page is uploaded again'
+evidence:
+- 'AGENTS.md, Keep deploys small: a line baked into every page changes all of them (about 30 minutes and 19 GB); the founder batches those changes into one deploy a week'
+- 'Scoped production builds of main and of the change, built at the same path: with the component kept as an entry the chunk names DepthDial.BO9BnRs6.js, attributes.CifQEj-d.js, props.C9YBT8MN.js and render.BRXDr885.js are unchanged, and the entity pages, the courses page and the eight other wing pages are byte-identical in the three languages'
+- 'docs/site/place-map-review.md, section What a deploy uploads'
+status: decided
+step: override
+decision: 'Keep MapViewer.svelte as a build entry that no page draws, and take it out, with the three packages only it uses, in a separate small change labelled rewrites-all-pages for the founder to batch. The wing page holds one never-true expression that names the component, with a comment that says why.'
+correct_outcome: retired-component-kept-as-build-entry
+wrong_outcome: rule-media-license
+confidence: 0.9
+reversible: true
+rationale: 'dec-231 answered with the media licence rule, which does not bear on a build question. The choice is between an unused 126 KB script that no reader downloads and re-uploading about 160,000 pages for a change no reader can see; the house rule on deploy size settles it. Measured, not assumed: two scoped production builds at the same path give identical chunk names and byte-identical entity pages. Reversible by deleting the component and the expression.'
+supersedes: dec-20261111-231
+override_reason:
+  category: rule-false-positive
+  detail: 'rule-media-license matched a question about script chunks and deploy size; nothing in it concerns media or licences. A keyword false positive in the rule gates.'
+  overridden_by: claude-place-map
+signals:
+  matched_rule_id: rule-media-license
+  question_domain: media
+  expected_domain: process
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: claude-place-map
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: '2026-11-11'

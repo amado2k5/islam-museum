@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-550
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "550"
+label: { ar: "سنن ابن ماجه — حديث 550", en: "Sunan Ibn Majah 550 — The Book of Purification and its Sunnah", ur: "سنن ابن ماجہ — حدیث 550" }
+text: "وَرَّادٍ، كَاتِبِ الْمُغِيرَةِ بْنِ شُعْبَةَ عَنِ الْمُغِيرَةِ بْنِ شُعْبَةَ، أَنَّ رَسُولَ اللَّهِ ـ صلى الله عليه وسلم ـ مَسَحَ أَعْلَى الْخُفِّ وَأَسْفَلَهُ ‏.‏"
+summary:
+  ar: "في سنن ابن ماجه؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Sunan Ibn Majah; mention of writing or dispatching a letter."
+  ur: "سنن ابن ماجہ میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-ibn-majah] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 550 (book 1 hadith 284); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

@@ -1,0 +1,23 @@
+id: passage/mishkat-p99
+class: passage
+unit: hadith
+work: work/mishkat-al-masabih
+ref: "99"
+label:
+  ar: "مشكاة المصابيح 99 — شفاعتي لأهل الكبائر من أمتي"
+  en: "Mishkat al-Masabih 99 — My intercession is for the people of major sins of my community"
+text: "٣٣) - ٥٥٩٨) وعن أنس ، أنَّ الني مَ د قال: ( شفاعتي لأهل الكبائر من أمتي)». أبو داود . رواه الترمذي ، وا (٣) ٣٤) - ٥٥٩٩) ورواه ابن ماجه عن جابر ٣٥) - ٥٦٠٠) وعن عوفِ…"
+summary:
+  ar: "مقطع من مشكاة المصابيح للتبريزي، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Tabrizi's Mishkat al-Masabih, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/mishkat-al-masabih] }
+  - { type: mentions, target: person/muhammad, sources: [source/mishkat-al-masabih] }
+  - { type: mentions, target: concept/hudud-allah-wal-kabair, sources: [source/mishkat-al-masabih] }
+provenance:
+  layer: own-research
+  source: "مشكاة المصابيح للتبريزي — نسخة مستخرجة، ص 99"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: sayyiat-mining-2
+sources: [source/mishkat-al-masabih]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

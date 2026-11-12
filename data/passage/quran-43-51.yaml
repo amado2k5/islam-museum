@@ -16,6 +16,7 @@ translations:
   en: { text: "And Pharaoh caused a proclamation to be made among his people saying: O my people! Is not mine the sovereignty of Egypt and these rivers flowing under me? Can ye not then discern?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور فرعون نے اپنی قوم سے پکار کر کہا کہ اے قوم کیا مصر کی حکومت میرے ہاتھ میں نہیں ہے۔ اور یہ نہریں جو میرے (محلوں کے) نیچے بہہ رہی ہیں (میری نہیں ہیں) کیا تم دیکھتے نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: place/misr, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-43 }
   - { type: mentions, target: person/firawn, sources: [source/tanzil-quran] }
 sensitivity: sacred

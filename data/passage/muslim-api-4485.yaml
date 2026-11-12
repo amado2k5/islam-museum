@@ -1,0 +1,17 @@
+id: passage/muslim-api-4485
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4485"
+label: { ar: "صحيح مسلم — حديث 4485", en: "Sahih Muslim 4485 — The Book of Judicial Decisions", ur: "صحیح مسلم — حدیث 4485" }
+text: "كَتَبَ مُعَاوِيَةُ إِلَى الْمُغِيرَةِ اكْتُبْ إِلَىَّ بِشَىْءٍ سَمِعْتَهُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ فَكَتَبَ إِلَيْهِ أَنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏ \"‏ إِنَّ اللَّهَ كَرِهَ لَكُمْ ثَلاَثًا قِيلَ وَقَالَ وَإِضَاعَةَ الْمَالِ وَكَثْرَةَ السُّؤَالِ ‏\"‏ ‏.‏"
+summary:
+  ar: "في صحيح مسلم؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih Muslim; sending a letter or message to a party."
+  ur: "صحیح مسلم میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4485 (book 30 hadith 16); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

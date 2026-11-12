@@ -1,0 +1,22 @@
+id: passage/bulugh-p380
+class: passage
+unit: hadith
+work: work/bulugh-al-maram
+ref: "380"
+label:
+  ar: "بلوغ المرام 380 — وجد امرأته على فاحشة"
+  en: "Bulugh al-Maram 380 — Finding one's wife in an immorality"
+text: "أَرَأَيْتَ أَنْ لَوْ وَجَدَ أَحَدُنَا امْرَأَتَهُ عَلَىٰ فَاحِشَةٍ ، كَيْفَ يَصْنَعُ ؟ إِنْ تَكَلَّمَ تَكَلَّمَ بِأَمْرِ عَظِيمٍ، وَإِنْ سَكَتَ سَكَتَ عَلَىٰ مِثْلِ ذَلِكَ ، فَلَمْ يُجِبْهُ ، فَلَمَّا كَانَ بَعْدَ ذَلِكَ أَتَاهُ، فَقَالَ : إِنَّ الَّذِي سَأَلْتُكَ عَنْهُ…"
+summary:
+  ar: "مقطع من بلوغ المرام لابن حجر، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Hajar's Bulugh al-Maram, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/bulugh-al-maram] }
+  - { type: mentions, target: person/muhammad, sources: [source/bulugh-al-maram] }
+provenance:
+  layer: own-research
+  source: "بلوغ المرام لابن حجر — نسخة مستخرجة، ص 380"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: sayyiat-mining-2
+sources: [source/bulugh-al-maram]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

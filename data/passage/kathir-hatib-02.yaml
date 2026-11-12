@@ -1,0 +1,23 @@
+id: passage/kathir-hatib-02
+class: passage
+unit: chapter
+work: work/al-sira-al-nabawiyya-ibn-kathir
+ref: "538"
+label:
+  ar: "السيرة النبوية لابن كثير — قصة حاطب — اعتذار حاطب"
+  en: "Ibn Kathir's Sirah — قصة حاطب — اعتذار حاطب"
+text: "- ٥٣٨ - حاطب بن أبى بلتعة إلى ناس بمكة من المشركين ، يخبرهم ببعض أمر رسول اللّٰه صلى اللّٰه عليه وسلم فقال : (( يا حاطب ما هذا ؟ )) فقال : يارسول اللّٰه لا تَعْجل على ، إلى…"
+summary:
+  ar: "مقطع من السيرة النبوية لابن كثير، في السيرة النبوية، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Kathir's al-Sira al-Nabawiyya, in السيرة النبوية, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-bidaya-wal-nihaya] }
+provenance:
+  layer: own-research
+  source: "سيرة ابن كثير ص 538 — اعتذار حاطب «لم أفعله غثاً لرسول الله ولا نفاقاً» وقول النبي «إنه قد صدقكم» و«اعملوا ما شئتم فقد غفرت لكم»"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: sayyiat-mining-2
+tags: [sayyiat-browser]
+sources: [source/al-bidaya-wal-nihaya]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

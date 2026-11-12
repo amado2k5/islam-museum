@@ -1,0 +1,24 @@
+id: passage/fiqh-majmu-nawawi-001
+class: passage
+unit: chapter
+work: work/al-majmu-sharh-al-muhadhdhab
+ref: "424"
+label:
+  ar: "المجموع — النووي — ص 424"
+  en: "المجموع — النووي — p. 424"
+text: "الاسم ، وفى الصحيحين أن رسول الله ينع كتب إلى منك الروم : ( من محمد عبد الله ورسوله إلى هرقل عظيم الروم» • ( فرع) ثبت فى الصحيحين من رواية جماعة من الصحابة منهم جابر وأبو هريرة أن رسول"
+summary:
+  ar: "مقطع من «المجموع — النووي» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «المجموع — النووي» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/majmu-irshad-v8] }
+  - { type: mentions, target: person/heraclius, sources: [source/majmu-irshad-v8] }
+  - { type: mentions, target: person/muhammad, sources: [source/majmu-irshad-v8] }
+provenance:
+  layer: own-research
+  source: "المجموع — النووي ص 424 — مقتطف المكاتبات — fiqh"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-2
+tags: [mukatabat-browser]
+sources: [source/majmu-irshad-v8]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

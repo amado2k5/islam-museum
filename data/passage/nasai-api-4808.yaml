@@ -1,0 +1,17 @@
+id: passage/nasai-api-4808
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4808"
+label: { ar: "السنن النسائي — حديث 4808", en: "Sunan al-Nasa'i 4808 — The Book of Oaths (qasamah), Retaliation and Blood Money", ur: "سنن النسائی — حدیث 4808" }
+text: "قَضَى رَسُولُ اللَّهِ صلى الله عليه وسلم فِي الْمُكَاتَبِ يُقْتَلُ بِدِيَةِ الْحُرِّ عَلَى قَدْرِ مَا أَدَّى ‏.‏"
+summary:
+  ar: "في السنن النسائي؛ ذكر المكاتبات أو المراسلات."
+  en: "In Sunan al-Nasa'i; mention of correspondence."
+  ur: "سنن النسائی میں؛ مکاتبات کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4808 (book 45 hadith 103); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

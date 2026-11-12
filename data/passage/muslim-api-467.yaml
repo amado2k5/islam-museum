@@ -1,0 +1,18 @@
+id: passage/muslim-api-467
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "467"
+label: { ar: "صحيح مسلم 467 — عدد الحسنات، عدد السيئات", en: "Sahih Muslim 467 — a stated number of good deeds; a stated number of bad deeds", ur: "صحیح مسلم 467 — نیکیوں کی مقررہ تعداد، برائیوں کی تعداد" }
+text: "… صِغَارُ ذُنُوبِهِ فَيُقَالُ عَمِلْتَ يَوْمَ كَذَا وَكَذَا كَذَا وَكَذَا وَعَمِلْتَ يَوْمَ كَذَا وَكَذَا كَذَا وَكَذَا. فَيَقُولُ نَعَمْ. لاَ يَسْتَطِيعُ أَنْ يُنْكِرَ وَهُوَ مُشْفِقٌ مِنْ كِبَارِ ذُنُوبِهِ أَنْ تُعْرَضَ عَلَيْهِ. فَيُقَالُ لَهُ فَإِنَّ لَكَ مَكَانَ كُلِّ سَيِّئَةٍ حَسَنَةً. فَيَقُولُ رَبِّ قَدْ عَمِلْتُ أَشْيَاءَ لاَ أَرَاهَا هَا هُنَا \". فَلَقَدْ رَأَيْتُ رَسُولَ اللَّهِ ضَحِكَ حَتَّى بَدَتْ نَوَاجِذُهُ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 467، يذكر عدد الحسنات، وعدد السيئات، وإبدال السيئة حسنة. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 467 (The Book of Faith), that speaks of a stated number of good deeds, a stated number of bad deeds, a bad deed exchanged for a good one. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 467، جس میں نیکیوں کی مقررہ تعداد، برائیوں کی تعداد، برائی کا نیکی سے بدل جانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 467 (book 1 hadith 373); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

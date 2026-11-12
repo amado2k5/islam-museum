@@ -1,0 +1,31 @@
+id: concept/al-mukatabat
+class: concept
+kind: term
+label:
+  ar: "المكاتبات"
+  en: "Correspondence (al-mukatabat)"
+  ur: "مکاتبات ⁦(خط و کتابت کا لین دین)⁩"
+summary:
+  ar: "المكاتبات في اصطلاح التراث هي الرسائل والكتب المتبادلة بين الملوك والسلاطين والخلفاء والولاة والرسل — ما يُكتب ويُبعث ويُقرأ ويُجاب. يبدأ المتحف هذا الجنس بما في القرآن من كتاب سليمان إلى بلقيس [[passage/quran-27-30|النمل 30]]، وما في السنة من كتب النبي إلى الملوك — كقراءة هرقل لكتاب النبي في [[passage/bukhari-api-7541|صحيح البخاري 7541]] وصياغة خاتمه وإرسال الكتب إلى كسرى وقيصر والنجاشي في [[passage/muslim-api-5482|صحيح مسلم 5482]] — وما في كتب التاريخ والإنشاء من مكاتبات الخلفاء وولاة الأمور، ويجمعها [[/ar/mukatabat/|متصفح المكاتبات]] مع كل ذكر وكتاب في المصحف والمدونة المحصودة وما يُحصَّل لاحقًا."
+  en: "In the tradition's idiom, al-mukatabat is the exchange of letters and written messages between kings, sultans, caliphs, governors, envoys and correspondents — what is written, sent, read and answered. The museum opens this genre with the Qur'anic letter of Sulayman to Bilqis [[passage/quran-27-30|al-Naml 30]]، the Prophet's letters to the kings — Heraclius reading the Prophet's letter in [[passage/bukhari-api-7541|Sahih al-Bukhari 7541]] and the sealing and dispatch of letters to Chosroes، Caesar and the Negus in [[passage/muslim-api-5482|Sahih Muslim 5482]] — and what the history and chancery books carry of the caliphs' correspondence; the [[/en/mukatabat/|Mukatabat Browser]] gathers it with every mention and letter in the Qur'an، the Sunnah، the seerah and every harvested book — and whatever is harvested later."
+  ur: "تراث کی اصطلاح میں مکاتبات بادشاہوں، سلاطین، خلفاء، گورنروں، سفیروں اور دیگر فریقوں کے درمیان خطوط اور تحریری پیغامات کا تبادلہ ہے — جو لکھا، بھیجا، پڑھا اور جواب دیا جاتا ہے۔ میوزیم اس صنف کا آغاز قرآن میں سلیمان کی بلقیس کو کتاب [[passage/quran-27-30|النمل 30]] سے کرتا ہے، نبی کی بادشاہوں کو کتابوں سے — ہرقل کا نبی کا خط پڑھنا [[passage/bukhari-api-7541|صحیح بخاری 7541]] میں اور مہر بنانا اور کسرى، قیصر اور نجاشی کو کتابیں بھیجنا [[passage/muslim-api-5482|صحیح مسلم 5482]] میں — اور تاریخ و انشاء کی کتابوں میں خلفاء کی مکاتبات سے؛ [[/ur/mukatabat/|مکاتبات براؤزر]] ان تمام ذکر و خطوط کو قرآن، سنت، سیرت اور ہر حاصل شدہ کتاب میں جمع کرتا ہے — اور جو بعد میں حاصل ہو۔"
+wings: [words, ideas]
+themes: [literature, politics-governance-and-authority]
+periods: [period/prophetic-era]
+regions: [global]
+sources: [source/tanzil-quran, source/sahih-al-bukhari, source/sahih-muslim]
+provenance:
+  layer: own-research
+  source: "the museum's passage corpus (Tanzil Qur'an text; Sahih al-Bukhari and Sahih Muslim via the hadith-api harvest)"
+  generated_by: "Devin (SWE-2 High)"
+  run: mukatabat-browser-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); umbrella record written for the Mukatabat Browser; run mukatabat-browser-1" }
+
+relations:
+  - { type: related_to, target: concept/diwan-al-insha, sources: [source/subh-al-asha-cairo-v1] }
+  - { type: related_to, target: concept/diwan-al-barid, sources: [source/subh-al-asha-cairo-v14] }
+  - { type: related_to, target: concept/diwan-al-khatim, sources: [source/subh-al-asha-cairo-v1] }
+  - { type: related_to, target: concept/insha, sources: [source/subh-al-asha-cairo-v1] }
+  - { type: related_to, target: event/letters-to-rulers-and-kings, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+
+tags: [mukatabat-browser, mukatabat-concepts]

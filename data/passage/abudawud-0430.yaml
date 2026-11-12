@@ -15,6 +15,7 @@ summary:
 themes: [worship-and-the-pillars]
 tags: [hadith-qudsi, qudsi-ahd-al-salawat-al-khams]
 relations:
+  - { type: mentions, target: concept/al-sakk-wal-hawala, sources: [source/sunan-abi-dawud] }
   - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud] }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-abi-dawud] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 430; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }

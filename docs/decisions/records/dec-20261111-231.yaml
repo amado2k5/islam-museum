@@ -1,0 +1,40 @@
+id: dec-20261111-231
+kind: "decision"
+date: "2026-11-11"
+expires_at: "2027-11-11"
+question_hash: 3d8527673714
+lane: "place-map"
+class: "process"
+modality: "repo"
+domain: "media"
+mode: "conservative"
+question: "The Place wing map was rebuilt as a plain script, so the Svelte component MapViewer.svelte is no longer drawn on any page. Taking it out of the build changes the hashed names of the script chunks it shares with the depth dial on every entity page, and so the HTML of about 160,000 pages. Should the unused component stay a build entry for now and be taken out in a separate change the founder can batch with other rewrites-all-pages changes?"
+options:
+  - "keep it as an unused build entry now and take it out in a separate rewrites-all-pages change"
+  - "take it out in the same change and accept that every entity page is uploaded again"
+evidence:
+  - "AGENTS.md, Keep deploys small: a line baked into every page changes all of them (about 30 minutes and 19 GB); the founder batches those changes into one deploy a week"
+  - "Scoped production builds of main and of the change, built at the same path: with the component kept as an entry the chunk names DepthDial.BO9BnRs6.js, attributes.CifQEj-d.js, props.C9YBT8MN.js and render.BRXDr885.js are unchanged, and the entity pages, the courses page and the eight other wing pages are byte-identical in the three languages"
+  - "docs/site/place-map-review.md, section What a deploy uploads"
+status: decided
+step: rule
+decision: "media only from schema/enums/licenses.yaml; third-party content keeps its own licence; no figurative depictions of prophets or Companions; no AI-generated portraits"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-media-license): AGENTS.md (licences rule)."
+rule: "AGENTS.md (licences rule)"
+rule_id: "rule-media-license"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-media-license
+chain:
+  depth: 0
+  root_id: "rule:rule-media-license"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "6d596be3560bc4e6"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-media-license"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

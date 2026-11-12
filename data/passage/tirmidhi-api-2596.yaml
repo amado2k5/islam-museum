@@ -1,0 +1,18 @@
+id: passage/tirmidhi-api-2596
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2596"
+label: { ar: "جامع الترمذي 2596 — عدد الحسنات، عدد السيئات", en: "Jami' al-Tirmidhi 2596 — a stated number of good deeds; a stated number of bad deeds", ur: "جامع ترمذی 2596 — نیکیوں کی مقررہ تعداد، برائیوں کی تعداد" }
+text: "… ذُنُوبِهِ وَاخْبَئُوا كِبَارَهَا. فَيُقَالُ لَهُ عَمِلْتَ كَذَا وَكَذَا يَوْمَ كَذَا وَكَذَا عَمِلْتَ كَذَا وَكَذَا فِي يَوْمِ كَذَا وَكَذَا. قَالَ فَيُقَالُ لَهُ فَإِنَّ لَكَ مَكَانَ كُلِّ سَيِّئَةٍ حَسَنَةً. قَالَ فَيَقُولُ يَا رَبِّ لَقَدْ عَمِلْتُ أَشْيَاءَ مَا أَرَاهَا هَا هُنَا \". قَالَ فَلَقَدْ رَأَيْتُ رَسُولَ اللَّهِ يَضْحَكُ حَتَّى بَدَتْ نَوَاجِذُهُ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2596، يذكر عدد الحسنات، وعدد السيئات، وإبدال السيئة حسنة. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 2596 (The Book on the Description of Hellfire), that speaks of a stated number of good deeds, a stated number of bad deeds, a bad deed exchanged for a good one. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 2596، جس میں نیکیوں کی مقررہ تعداد، برائیوں کی تعداد، برائی کا نیکی سے بدل جانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2596 (book 39 hadith 24); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

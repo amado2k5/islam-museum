@@ -16,6 +16,7 @@ translations:
   en: { text: "Who is an enemy to Allah, and His angels and His messengers, and Gabriel and Michael! Then, lo! Allah (Himself) is an enemy to the disbelievers.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جو شخص خدا کا اور اس کے فرشتوں کا اور اس کے پیغمبروں کا اور جبرئیل اور میکائیل کا دشمن ہو تو ایسے کافروں کا خدا دشمن ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
   - { type: mentions, target: person/jibril, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/mikail, sources: [source/tanzil-quran] }

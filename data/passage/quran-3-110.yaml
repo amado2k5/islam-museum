@@ -17,6 +17,7 @@ translations:
   ur: { text: "(مومنو) جتنی امتیں (یعنی قومیں) لوگوں میں پیدا ہوئیں تم ان سب سے بہتر ہو کہ نیک کام کرنے کو کہتے ہو اور برے کاموں سے منع کرتے ہو اور خدا پر ایمان رکھتے ہو اور اگر اہلِ کتاب بھی ایمان لے آتے تو ان کے لیے بہت اچھا ہوتا ان میں ایمان لانے والے بھی ہیں (لیکن تھوڑے) اور اکثر نافرمان ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations, source/tafsir-tabari-shakir-v07]

@@ -18,5 +18,5 @@ born: { edtf: "772", calendar: gregorian, precision: year, derived: true, note: 
 died: { edtf: "867", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
-sources: [source/fihrist-ibn-al-nadim, source/tarikh-khulafa-minhaj-1434, source/risala-qushayriyya-minhaj-2017]
+sources: [source/fihrist-ibn-al-nadim, source/tarikh-khulafa-minhaj-1434, source/risala-qushayriyya-minhaj-2017, source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)" }

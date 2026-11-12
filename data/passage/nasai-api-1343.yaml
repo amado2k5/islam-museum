@@ -1,0 +1,17 @@
+id: passage/nasai-api-1343
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1343"
+label: { ar: "السنن النسائي — حديث 1343", en: "Sunan al-Nasa'i 1343 — The Book of Forgetfulness (In Prayer)", ur: "سنن النسائی — حدیث 1343" }
+text: "وَرَّادٍ، كَاتِبِ الْمُغِيرَةِ أَنَّ مُعَاوِيَةَ، كَتَبَ إِلَى الْمُغِيرَةِ أَنِ اكْتُبْ إِلَىَّ بِحَدِيثٍ سَمِعْتَهُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ فَكَتَبَ إِلَيْهِ الْمُغِيرَةُ إِنِّي سَمِعْتُهُ يَقُولُ عِنْدَ انْصِرَافِهِ مِنَ الصَّلاَةِ ‏ \"‏ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ ‏\"‏ ‏.‏ ثَلاَثَ مَرَّاتٍ ‏.‏"
+summary:
+  ar: "في السنن النسائي؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan al-Nasa'i; sending a letter or message to a party."
+  ur: "سنن النسائی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1343 (book 13 hadith 165); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

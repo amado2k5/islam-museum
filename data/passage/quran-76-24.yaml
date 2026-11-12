@@ -17,6 +17,7 @@ translations:
   ur: { text: "تو اپنے پروردگار کے حکم کے مطابق صبر کئے رہو اور ان لوگوں میں سے کسی بد عمل اور ناشکرے کا کہا نہ مانو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-76 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

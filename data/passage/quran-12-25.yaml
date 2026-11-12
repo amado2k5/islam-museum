@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور دونوں دروازے کی طرف بھاگے (آگے یوسف اور پیچھے زلیخا) اور عورت نے ان کا کرتا پیچھے سے (پکڑ کر جو کھینچا تو) پھاڑ ڈالا اور دونوں کو دروازے کے پاس عورت کا خاوند مل گیا تو عورت بولی کہ جو شخص تمہاری بیوی کے ساتھ برا ارادہ کرے اس کی اس کے سوا کیا سزا ہے کہ یا تو قید کیا جائے یا دکھ کا عذاب دیا جائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations, source/tafsir-tabari-shakir-v16]

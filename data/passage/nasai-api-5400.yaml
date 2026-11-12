@@ -1,0 +1,17 @@
+id: passage/nasai-api-5400
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5400"
+label: { ar: "سنن النسائي 5400 — مضاعفة الأجر", en: "Sunan al-Nasa'i 5400 — the reward doubled or multiplied", ur: "سنن نسائی 5400 — اجر کا دوگنا یا کئی گنا ہونا" }
+text: "… الدَّيْرِ مِنْ دَيْرِهِ فَآمَنُوا بِهِ وَصَدَّقُوهُ فَقَالَ اللَّهُ تَبَارَكَ وَتَعَالَى {يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَآمِنُوا بِرَسُولِهِ يُؤْتِكُمْ كِفْلَيْنِ مِنْ رَحْمَتِهِ} أَجْرَيْنِ بِإِيمَانِهِمْ بِعِيسَى وَبِالتَّوْرَاةِ وَالإِنْجِيلِ وَبِإِيمَانِهِمْ بِمُحَمَّدٍ وَتَصْدِيقِهِمْ قَالَ {يَجْعَلْ لَكُمْ نُورًا تَمْشُونَ بِهِ} الْقُرْآنَ وَاتِّبَاعَهُمُ النَّبِيَّ قَالَ {لِئَلاَّ يَعْلَمَ أَهْلُ الْكِتَابِ} يَتَشَبَّهُونَ بِكُمْ {أَنْ لاَ يَقْدِرُونَ عَلَى شَىْءٍ مِنْ فَضْلِ اللَّهِ} الآيَةَ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 5400، يذكر مضاعفة الأجر. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 5400 (The Book of the Etiquette of Judges), that speaks of the reward doubled or multiplied. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 5400، جس میں اجر کا دوگنا یا کئی گنا ہونا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5400 (book 49 hadith 22); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,51 @@
+id: concept/hisab-al-salat-ala-al-nabi
+class: concept
+kind: doctrine
+label:
+  ar: "الصلاة على النبي مرة واحدة"
+  en: "One prayer of blessing upon the Prophet"
+  ur: "نبی پر ایک بار درود"
+summary:
+  ar: "من صلى على النبي صلاة واحدة جزاه الله بها عشر صلوات، وحُطّت عنه عشر خطيئات، ورُفعت له عشر درجات، في رواية أنس عند النسائي [[passage/nasai-api-1297]]، وأصل العشر بالواحدة عند مسلم [[passage/muslim-0384]]. فالواحدة هنا تتحرك في ثلاث خانات معا: الصلوات، والمحو، والدرجات."
+  en: "Whoever invokes one blessing upon the Prophet, God blesses him ten times, ten sins are shed from him and he is raised ten ranks, in Anas's narration in al-Nasa'i [[passage/nasai-api-1297]]; the core of ten for one is in Muslim [[passage/muslim-0384]]. One act here moves three columns at once: the blessings, the erasure and the ranks."
+  ur: "جو نبی پر ایک بار درود بھیجے اللہ اس پر دس رحمتیں بھیجتا ہے، اس کی دس خطائیں مٹا دی جاتی ہیں اور دس درجے بلند کیے جاتے ہیں، انس کی روایت میں جو نسائی میں ہے [[passage/nasai-api-1297]]، اور ایک کے بدلے دس کی اصل مسلم میں ہے [[passage/muslim-0384]]۔ یہاں ایک عمل بیک وقت تین خانوں کو حرکت دیتا ہے: رحمتیں، مٹنا اور درجات۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+order: 9
+reckoning:
+  effect: erasure
+  erased: 10
+  degrees: 10
+  unit:
+    ar: "لكل صلاة واحدة عليه"
+    en: "per single prayer upon him"
+    ur: "ہر ایک درود پر"
+  result:
+    ar: "جزاه الله بها عشر صلوات، وحُطّت عنه عشر خطيئات، ورُفعت له عشر درجات"
+    en: "God blesses him ten times for it, ten sins are shed from him and he is raised ten ranks"
+    ur: "اللہ اس پر دس رحمتیں بھیجتا ہے، دس خطائیں جھڑتی ہیں اور دس درجے بلند ہوتے ہیں"
+  basis: [passage/nasai-api-1297, passage/muslim-0384]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sunan-al-nasai
+- source/hadith-api-fawazahmed0
+- source/sahih-muslim
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

@@ -1,0 +1,18 @@
+id: passage/muwatta-api-63
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "63"
+label: { ar: "موطأ مالك 63 — كتابة الحسنات، محو السيئات وحط الخطايا", en: "Muwatta Malik 63 — the writing of good deeds; bad deeds erased and sins shed", ur: "موطأ مالک 63 — نیکیوں کا لکھا جانا، برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "… اللَّهِ الْمَدَنِيِّ الْمُجْمِرِ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ مَنْ تَوَضَّأَ فَأَحْسَنَ وُضُوءَهُ ثُمَّ خَرَجَ عَامِدًا إِلَى الصَّلاَةِ فَإِنَّهُ فِي صَلاَةٍ مَادَامَ يَعْمِدُ إِلَى الصَّلاَةِ وَإِنَّهُ يُكْتَبُ لَهُ بِإِحْدَى خُطْوَتَيْهِ حَسَنَةٌ وَيُمْحَى عَنْهُ بِالأُخْرَى سَيِّئَةٌ فَإِذَا سَمِعَ أَحَدُكُمُ الإِقَامَةَ فَلاَ يَسْعَ فَإِنَّ أَعْظَمَكُمْ أَجْرًا أَبْعَدُكُمْ دَارًا. قَالُوا لِمَ يَا أَبَا هُرَيْرَةَ قَالَ مِنْ أَجْلِ كَثْرَةِ الْخُطَا."
+summary:
+  ar: "حديث في موطأ مالك، رقم 63، يذكر كتابة الحسنات، ومحو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Muwatta Malik, no. 63 (Purity), that speaks of the writing of good deeds, bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "موطأ مالک کی حدیث نمبر 63، جس میں نیکیوں کا لکھا جانا، برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 63 (book 2 hadith 32); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

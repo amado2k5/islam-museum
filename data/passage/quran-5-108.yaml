@@ -17,6 +17,7 @@ translations:
   ur: { text: "اس طریق سے بہت قریب ہے کہ یہ لوگ صحیح صحیح شہادت دیں یا اس بات سے خوف کریں کہ (ہماری) قسمیں ان کی قسموں کے بعد رد کر دی جائیں گی اور خدا سے ڈرو اور اس کے حکموں کو (گوشِ ہوش سے) سنو اور خدا نافرمان لوگوں کو ہدایت نہیں دیتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

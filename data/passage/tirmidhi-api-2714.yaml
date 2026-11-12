@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-2714
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2714"
+label: { ar: "جامع الترمذي — حديث 2714", en: "Jami' al-Tirmidhi 2714 — Chapters on Seeking Permission", ur: "جامع ترمذی — حدیث 2714" }
+text: "دَخَلْتُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم وَبَيْنَ يَدَيْهِ كَاتِبٌ فَسَمِعْتُهُ يَقُولُ ‏ \"‏ ضَعِ الْقَلَمَ عَلَى أُذُنِكَ فَإِنَّهُ أَذْكَرُ لِلْمُمْلِي ‏\"‏ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ هَذَا الْوَجْهِ وَهُوَ إِسْنَادٌ ضَعِيفٌ ‏.‏ وَعَنْبَسَةُ بْنُ عَبْدِ الرَّحْمَنِ وَمُحَمَّدُ بْنُ زَاذَانَ يُضَعَّفَانِ فِي الْحَدِيثِ ‏.‏"
+summary:
+  ar: "في جامع الترمذي؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Jami' al-Tirmidhi; mention of writing or dispatching a letter."
+  ur: "جامع ترمذی میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2714 (book 42 hadith 27); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }
