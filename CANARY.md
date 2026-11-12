@@ -14,6 +14,9 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v1.28.0 — 2026-11-12
+### Changed
+- **Page-weight budgets raised for three education routes (proposed; needs the founder's sign-off before merge).** The 12 November build (run 43257201121) passed every earlier step and failed at the page-weight check: `/ar/event/hijra/` measured 169.2 KB against 160 KB, and `/ar/learn/daily/` and `/ar/shabab/daily/` measured 120.7 KB against 120 KB. The Hijra page grew when its prose gained the Encyclopaedia of Islam sections; the two daily-challenge pages are unchanged and grew with the shared layout, the same cause as the classroom quiz budget the founder raised to 150 KB the same day. `scripts/check-weight.ts` now allows 200 KB for the leveled-reading page and 150 KB for the daily challenge. The alternative is to remove weight: cut prose from the Hijra page or slim the shared menu on every page.
+
 ### Added
 - **A new courses experience: the Education Explorer (`/{lang}/learn/courses/`).** The courses page is rebuilt in Arabic, English and Urdu as three steps: a finder (school system, grade, course), a course map that shows every lesson and where you stopped, and a lesson page built as a small loop — the goal, something to see before, the lesson with the museum's connections woven into it, something to follow after, and a short self-check. Each lesson shows the official expectations it serves with the authority's own codes; a classroom view and a print layout are included; every page reads without JavaScript, and progress is kept only in the reader's own browser. Design record: `docs/courses-mission/DESIGN.md`.
 - **The homepage presents it.** A section on the homepage in all three languages says what the Education Explorer is and whom it serves, and it joins the homepage's list of explorers. The header menu is not changed: that would rewrite every page of the site, and is left to the founder's weekly batch.

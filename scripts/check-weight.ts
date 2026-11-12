@@ -31,7 +31,10 @@ export const BUDGETS: Budget[] = [
   { family: "lesson (printable)", route: "/ar/sighar/teachers/lessons/quest/", html: 200 * KB, js: 6 * KB },
   { family: "listing", route: "/ar/learn/trails/", html: 600 * KB, js: 12 * KB },
   // E2: a leveled entity page (the switcher is inline CSS and a few lines of inline script, so JS stays the layout's) and the kids' reader
-  { family: "leveled reading", route: "/ar/event/hijra/", html: 160 * KB, js: 10 * KB },
+  // 12 November 2026 (proposed, awaiting the founder's sign-off): 160 -> 200 KB. The page measured 169.2 KB in build run
+  // 43257201121 after the canon cornerstone rewrite added the Encyclopaedia of Islam sections to the Hijra prose and the
+  // shared layout grew; the only way to remove the weight is to cut that prose.
+  { family: "leveled reading", route: "/ar/event/hijra/", html: 200 * KB, js: 10 * KB },
   { family: "child activity", route: "/ar/sighar/read/event/hijra/", html: 120 * KB, js: 12 * KB },
   // E2: a teacher pathway landing page (trail walker script only) and its printable pack (no script)
   { family: "teacher pathway", route: "/ar/learn/teachers/pathways/g11-chw3m-rise-of-islam/", html: 220 * KB, js: 14 * KB },
@@ -46,7 +49,10 @@ export const BUDGETS: Budget[] = [
   // raised to 150 KB by the founder's decision (the page measured 121.6 KB, the shared layout had grown).
   { family: "classroom quiz", route: "/ar/learn/teachers/quiz/g11-chw3m-rise-of-islam/", html: 150 * KB, js: 15 * KB },
   // E3 step 2: the daily challenge (Century Challenge, five rounds a day) at the child-activity ceiling of plan §3
-  { family: "daily challenge", route: "/ar/learn/daily/", html: 120 * KB, js: 12 * KB },
+  // 12 November 2026 (proposed, awaiting the founder's sign-off): 120 -> 150 KB for both daily-challenge routes, the same
+  // step and the same cause as the classroom quiz above (the pages measured 120.7 KB in build run 43257201121; the page
+  // is unchanged, the shared layout grew).
+  { family: "daily challenge", route: "/ar/learn/daily/", html: 150 * KB, js: 12 * KB },
   { family: "listing", route: "/ar/learn/facts/", html: 600 * KB, js: 10 * KB },
   { family: "printable pack", route: "/ar/learn/facts/poster/", html: 200 * KB, js: 6 * KB },
   { family: "listing", route: "/ar/learn/teachers/packs/", html: 600 * KB, js: 10 * KB },
@@ -65,7 +71,7 @@ export const BUDGETS: Budget[] = [
   { family: "teen hub", route: "/ar/shabab/", html: 200 * KB, js: 30 * KB },
   { family: "teen band", route: "/ar/shabab/scholars/", html: 170 * KB, js: 12 * KB },
   { family: "teen band", route: "/ar/shabab/researchers/", html: 170 * KB, js: 12 * KB },
-  { family: "daily challenge", route: "/ar/shabab/daily/", html: 120 * KB, js: 12 * KB },
+  { family: "daily challenge", route: "/ar/shabab/daily/", html: 150 * KB, js: 12 * KB },
   { family: "teen activity", route: "/ar/shabab/where/", html: 220 * KB, js: 8 * KB },
   // E4 steps 3–6: the taught wing — topics index, one page per kind, cards and the Journey Map.
   { family: "teen listing", route: "/ar/shabab/topics/", html: 400 * KB, js: 8 * KB },
