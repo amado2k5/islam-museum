@@ -3,8 +3,9 @@ class: event
 kind: pilgrimage
 label: { en: "The Farewell Pilgrimage", ar: "حجة الوداع" }
 summary:
-  en: "The only pilgrimage the Prophet led, during which he gave the sermon known as the Farewell Sermon."
-  ar: "الحجة الوحيدة التي قادها النبي، وألقى فيها الخطبة المعروفة بخطبة الوداع. وأطول نص نبوي لمناسكها حديث جابر بن عبد الله عند مسلم — من التلبية إلى الرمي والنحر، وفيه خطبة عرفة «إن دماءكم وأموالكم حرام عليكم» {cite:sahih-muslim 1218}."
+  ar: "الحجة الوحيدة التي قادها النبي، وألقى فيها الخطبة المعروفة بخطبة الوداع. وأطول نص نبوي لمناسكها حديث جابر بن عبد الله عند مسلم — من التلبية إلى الرمي والنحر، وفيه خطبة عرفة «إن دماءكم وأموالكم حرام عليكم» {cite:sahih-muslim 1218}. وتضعها دائرة المعارف الإسلامية في السنة العاشرة للهجرة، وتذكر من ترتيباتها إلغاء النسيء وإقرار السنة القمرية الخالصة، وتعرض قراءات أكاديمية لقوله في مواقف عرفة ومزدلفة ومنى."
+  en: "The only pilgrimage the Prophet led, during which he gave the sermon known as the Farewell Sermon. The Encyclopaedia of Islam places it in the tenth year of the Hijra and names among its arrangements the abolition of intercalation and the purely lunar year; it also reports academic readings of his saying on the standing places at Arafat, Muzdalifa and Mina, set apart from the Muslim reports."
+  ur: "وہ واحد حج جس کی قیادت نبی نے کی اور جس میں انھوں نے خطبۂ وداع دیا۔ دائرۃ المعارف الاسلامیہ اسے ہجرت کے دسویں سال میں رکھتا ہے اور اس کے انتظامات میں نسیء کے خاتمے اور خالص قمری سال کا ذکر کرتا ہے، اور عرفات، مزدلفہ اور منیٰ کے مقامات پر ان کے قول کی علمی تعبیریں اسلامی روایات سے الگ بیان کرتا ہے۔"
 wings: [time]
 themes: [pilgrimages-and-mass-gatherings, race-colour-ethnicity]
 periods: [period/prophetic-era]
@@ -20,7 +21,7 @@ relations:
   - { type: had_participant, target: person/hafsa }
   - { type: part_of, target: period/prophetic-era }
   - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa, source/sallabi-ali-vol1, source/mirat-al-mafatih-v9-jabir]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa, source/sallabi-ali-vol1, source/mirat-al-mafatih-v9-jabir, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "حجة الوداع في السنة العاشرة هي الحجة الوحيدة التي حجّها النبي؛ بيّن فيها للناس مناسكهم وألقى خطبته المشهورة."
@@ -37,3 +38,4 @@ provenance:
   source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
   generated_by: Devin
   enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: section on Jabir's hadith from mirat-al-mafatih-v9-jabir PDF pp. 1-3"
+  canon: "EI2 vol. 3, article Hadjdj (parts i-iii, PDF pp. 40-46) and Ihram p. 1085, written by Claude Sonnet 5.5, run canon-cornerstones-21"

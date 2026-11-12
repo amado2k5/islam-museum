@@ -1,8 +1,8 @@
 ---
 id: person/muhammad-ibn-shihab-al-zuhri
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "tabaqat-ibn-sad-qism-mutammim-mansur-1987 pp. 157–169, 184–185 (section added; earlier text by its original authors)" }
 ---
 
@@ -12,6 +12,28 @@ Ibn Shihab al-Zuhri, a scholar of Medina. He was with [[person/sulayman-ibn-abd-
 Al-Salabi says that Umar ibn Abd al-Aziz ordered him to collect the Sunan, and he wrote them out, volume by volume, and sent them to every land that had a ruler. He relates a saying of Umar: "Hold to Ibn Shihab, for no one remains who knows a past Sunna better than he." {cite:salabi-umayyad-state-2020 p.298-300}
 
 Al-Mas'udi says that he died in 123 AH; al-Waqidi mentions that he died in 124 AH. {cite:muruj-al-dhahab p.192}
+
+## In the Encyclopaedia of Islam
+The Encyclopaedia of Islam presents Abu Bakr Muhammad ibn Muslim ibn Ubayd Allah ibn Abd Allah ibn Shihab al-Zuhri, who died in 124/742, as one of the founders of Islamic tradition in the widest sense of the word. It notes that the material about him combines biographical data with instructive anecdotes. The anecdotes reflect admiration for his achievement, but also criticism of his links with the Umayyads and of some laxity on his part in the transmission of [[concept/al-hadith-al-nabawi|hadith]]. {cite:encyclopaedia-of-islam-2 vol. 11 p. 594}
+
+## Teachers and early training
+According to the article, his first tutor was probably [[person/salih-ibn-kaysan|Salih ibn Kaysan]] of Medina, a client, in Arabic a mawla. From Abd Allah ibn Tha'laba ibn Su'ayr al-Udhri, who died in 87/706 or 89/708, he learned the genealogy of his own clan, the Banu Zuhra. When he wished to study [[concept/fiqh|fiqh]], Abd Allah had to refer him to [[person/said-ibn-al-musayyab|Sa'id ibn al-Musayyab]]. Later he studied under [[person/urwa-ibn-al-zubayr|Urwa ibn al-Zubayr]] and many others. A contemporary remarked that the young al-Zuhri did not outstrip his peers in knowledge, but at an assembly he would step forward from among them and put his questions, while the others held back because of their youth. {cite:encyclopaedia-of-islam-2 vol. 11 p. 594}
+
+## Writing down hadith and sunna
+Al-Zuhri took pride in his memory, yet the article judges that he doubtless kept written records of the hadiths transmitted to him. His colleague [[person/abu-al-zinad|Abu al-Zinad]], a client and official of the Umayyads, reported that al-Zuhri carried writing tablets and pieces of skin with him. The same colleague is quoted as saying that his own circle wrote down only legal matters, the lawful and the unlawful, while Ibn Shihab wrote down everything he heard. {cite:encyclopaedia-of-islam-2 vol. 11 p. 594}
+
+The article adds that al-Zuhri is supposed to have widened the concept of [[concept/sunna|sunna]] current in his time. Another colleague reported that, in their quest for sunan, both of them recorded everything traced back to the Prophet, but al-Zuhri went further and wrote down hadith transmitted on the authority of the Prophet's Companions, which the colleague argued did not form sunna. The colleague concluded that al-Zuhri had succeeded and he himself had failed. According to al-Zuhri, the caliph Umar II ordered him, among others, to collect the sunan; these were later written down in booklets, each sent to a different province. {cite:encyclopaedia-of-islam-2 vol. 11 p. 594} See also [[concept/kitabat-al-hadith|the writing down of hadith]].
+
+## Service to the ruling house
+For several decades, from the days of [[person/abd-al-malik-ibn-marwan|Abd al-Malik ibn Marwan]] to those of [[person/hisham-ibn-abd-al-malik|Hisham]], al-Zuhri kept a close relationship with the ruling house. At different periods he served as qadi, as tax collector and as chief of the [[concept/shurta|shurta]]. The article reports that [[person/al-dhahabi|al-Dhahabi]] gave him the rank of amir, and that elsewhere al-Dhahabi described him as a man of eminence with many dependants and servants who enjoyed high rank in the state. {cite:encyclopaedia-of-islam-2 vol. 11 p. 594}
+
+## Dictation sessions
+Encouraged by the ruling family, al-Zuhri began hadith dictation sessions attended by state officials. By his own apologetic statement, he gave in to pressure from the rulers and at once decided to hold similar sessions for scholars not attached to the state apparatus. The article notes that one stimulus for recording hadith is supposed to have been anti-Umayyad propaganda. Al-Zuhri is reported to have complained of Iraqi tampering with his hadith: what leaves his circle a span long returns from Iraq a cubit long. {cite:encyclopaedia-of-islam-2 vol. 11 p. 594}
+
+Among those who attended was Shu'ayb ibn Dinar, or ibn Abi Hamza, of Homs, who died in 162/778-9. He was a client of the Umayyads and a scribe of Hisham in charge of the caliph's expenditure, so that his books were said to resemble the records of the state register. Shu'ayb reportedly held about 1,700 of al-Zuhri's hadiths, and the article takes this figure as an indication of how much material the sessions processed. {cite:encyclopaedia-of-islam-2 vol. 11 p. 594} {cite:encyclopaedia-of-islam-2 vol. 11 p. 595}
+
+## Breadth of learning
+Besides hadith and fiqh, al-Zuhri was well versed in other fields. The article quotes an admiring student who said that when al-Zuhri spoke of the rewards of Paradise, one would think he was proficient only in that topic, and that the same happened when he spoke of the prophets, of the Qur'an and the sunna, or of the Bedouin and their genealogies. {cite:encyclopaedia-of-islam-2 vol. 11 p. 595}
 
 ## In al-Dhahabi's Siyar
 Al-Dhahabi gives him as Muhammad ibn Muslim ibn 'Ubaydallah ibn 'Abdallah ibn Shihab of Medina, resident in Syria; his birth year is disputed between 50 and 51 AH, with one report placing it at 56. Per al-'Ijli he heard three hadiths from Ibn 'Umar, and he narrated from Sahl ibn Sa'd, Anas ibn Malik, al-Sa'ib ibn Yazid, Sa'id ibn al-Musayyab — whose company he kept for eight years — 'Urwa ibn al-Zubayr, 'Ali ibn al-Husayn, 'Ubaydallah ibn 'Abdallah ibn 'Utba, Abu Bakr ibn 'Abd al-Rahman ibn al-Harith, al-Qasim ibn Muhammad, Kharija ibn Zayd and Aban ibn 'Uthman. {cite:siyar-alam-nubala-ideas-house p.3700}

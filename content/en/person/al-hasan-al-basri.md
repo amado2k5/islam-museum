@@ -1,8 +1,8 @@
 ---
 id: person/al-hasan-al-basri
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
 Abu al-Hasan al-Hasan ibn Yasar al-Basri. In one report his father's name was Firuz. {cite:muruj-al-dhahab p.192}
@@ -17,6 +17,46 @@ Al-Mas'udi relates that Umar ibn Hubayra sent to him in 103 AH with al-Sha'bi an
 
 ## In Ibn al-Nadim
 Ibn al-Nadim says he wrote for al-Rabi' ibn Ziyad in Khurasan and for Anas ibn Malik in Sabur. He was among those who gave the allegiance to Ibn al-Ash'ath; when that was defeated he went in to al-Hajjaj, who rebuked him and gave him safe conduct, and then he kept out of sight until he died. Among his books is a book on exegesis and a letter to Abd al-Malik ibn Marwan refuting the Qadariyya. {cite:fihrist-ibn-al-nadim p.558-559}
+
+## The Encyclopaedia of Islam on his life
+The Encyclopaedia of Islam entry, by H. Ritter, calls him a famous preacher of the Umayyad period in [[place/basra|Basra]] who belonged to the class of the Successors, the [[group/tabiun|tabiun]]. It gives his years as 21/642 to 110/728. {cite:encyclopaedia-of-islam-2 vol. 3 p. 267}
+
+On his origins the article says that his father, whose name was originally Peroz, was taken prisoner at the capture of [[place/maysan|Maysan]] in Iraq. He is said to have been brought to [[place/medina|Medina]], where the woman who owned him freed him, and he married Hasan's mother, Khayra. The article states that the owner's identity cannot be established with certainty, whereas the report of al-Mas'udi given above names her as an Ansari woman. As to the birth, the article records the tradition that Hasan was born in Medina in 21/642 and points to a critique of that tradition in the scholarship of H. H. Schaeder. {cite:encyclopaedia-of-islam-2 vol. 3 p. 267}
+
+He grew up in [[place/wadi-al-qura|Wadi al-Qura]] and went to Basra one year after the [[event/battle-of-siffin|Battle of Siffin]]. As a young man he took part in the campaigns of conquest in eastern Iran from 43/663 onwards, and after that he lived in Basra until his death in 110/728. {cite:encyclopaedia-of-islam-2 vol. 3 p. 267}
+
+## Preacher and master of style
+According to the article, his fame rests on the sincerity and uprightness of his religious character, which already impressed his contemporaries, and above all on his sermons and pronouncements. In them he warned his fellow citizens against sin and urged them to order the whole of life in view of eternity, as he did himself. Only fragments of the sermons survive. The author counts them among the best specimens of early Arabic prose and notes their vivid images and striking antitheses. {cite:encyclopaedia-of-islam-2 vol. 3 p. 267}
+
+The article adds that anthologists such as [[person/al-jahiz|al-Jahiz]] and [[person/al-mubarrad|al-Mubarrad]] quoted the sermons beside the famous speeches of the political leaders of the Umayyad age as models of style, and that many of his sayings entered the great dictionaries. It gives two examples: an exhortation to polish the hearts, because they rust very quickly, and a saying that the world should be treated as a bridge to cross over and not a place to build on. It also remarks that almost no work of hortatory literature lacks a saying of his. {cite:encyclopaedia-of-islam-2 vol. 3 p. 267}
+
+## Worldly goods and wealth
+The article describes his sermons as constantly warning against worldly attitudes and attachment to earthly possessions: people are already on the road to death, and those who have died wait for the rest to follow. He distrusted those who amassed riches. It reports that he rejected a suitor for his daughter, famous for his wealth, simply because of that wealth, and that he would not take uncultivated land being distributed free, saying that even everything between the two bridges for a basket of earth would not please him. {cite:encyclopaedia-of-islam-2 vol. 3 p. 267} {cite:encyclopaedia-of-islam-2 vol. 3 p. 268}
+
+The article also mentions that the poet [[person/farazdaq|al-Farazdaq]] admired him and called him as a witness for his divorce from his wife Nawar, and that brotherly feeling and altruism are stressed in what is reported of him. {cite:encyclopaedia-of-islam-2 vol. 3 p. 268}
+
+## Rulers and rebellion
+The article judges that his verdicts on the earlier caliphs do not express allegiance to a political party, as is usual, but arise from his religious principles. He criticised the rulers of his time, the governors of Iraq, without fear. When he went so far as to criticise the founding of [[place/wasit|Wasit]] by [[person/al-hajjaj-ibn-yusuf|al-Hajjaj]] in 86/705, he drew the governor's displeasure and had to go into hiding until al-Hajjaj died. {cite:encyclopaedia-of-islam-2 vol. 3 p. 267}
+
+Yet the article says he disapproved of those who took part in attempts to remove wicked governors by rebellion. When the followers of Ibn al-Ash'ath, in the [[event/revolt-of-ibn-al-ashath|revolt]] of 81/700, ordered him to join them, he answered that the violence of tyrants is a punishment sent by God, which cannot be met with the sword but must be endured with patience. {cite:encyclopaedia-of-islam-2 vol. 3 p. 267} Ibn al-Nadim, cited above, instead lists him among those who gave allegiance to Ibn al-Ash'ath; the two accounts are reported side by side here without a ruling between them.
+
+## Sin, responsibility and the Qadari charge
+According to the article, he called the worldling whose faith sat lightly and who sinned without concern a munafiq, and used the word in this sense alone. For that reason the doxographies present him as the chief representative of the view that a person guilty of a grave sin is a munafiq. He judged sins strictly and held the sinner fully responsible for his deeds, who cannot excuse himself by saying that God created all actions. {cite:encyclopaedia-of-islam-2 vol. 3 p. 268}
+
+The article states that this stance is that of the [[group/qadariyya|Qadariyya]]. It cites Ibn Taymiyya, who recognises a link between severity about sin and the Qadari label and says that for this reason Hasan was accused of Qadari doctrine. The author of the article holds that there is no doubt Hasan took the Qadari standpoint, and sees support in his letter to [[person/abd-al-malik-ibn-marwan|Abd al-Malik]], while noting that attempts were made early on to clear his name of this charge. {cite:encyclopaedia-of-islam-2 vol. 3 p. 268} By contrast, Ibn al-Nadim, cited above, describes a letter to Abd al-Malik as a refutation of the Qadariyya. The accounts differ and are given here without a verdict.
+
+## Surviving writings
+The article says little of his work has survived. Besides the sermon fragments there is an ascetic and hortatory letter to [[person/umar-ibn-abd-al-aziz|Umar II]], a letter to a "brother" in Mecca in which he recommended residence in the holy city, and a work on fifty-four obligations whose authenticity is not yet established. {cite:encyclopaedia-of-islam-2 vol. 3 p. 268}
+
+On the Qur'an, the article notes that the Fihrist credits him with a commentary, that L. Massignon cites a few details of his exegesis, and that G. Bergsträsser has studied his much sought-after readings of the Qur'an. {cite:encyclopaedia-of-islam-2 vol. 3 p. 268}
+
+## Hadith and the critics
+The article states that, measured by later standards, he handled hadith carelessly: his own sayings circulated as hadiths and he did not object. Critics of the hadith scholars therefore judge him harshly. It reports that [[person/al-dhahabi|al-Dhahabi]], in the Mizan, describes him with a phrase that the article glosses as "rich in forgeries". {cite:encyclopaedia-of-islam-2 vol. 3 p. 268}
+
+## Influence
+According to the article, both the Ahl al-Sunna wa-l-Jama'a and the [[group/mutazila|Mu'tazila]] regarded him as one of their own, although the Mu'tazila at times claimed that their origin was unconnected with him. It adds that the followers of futuwwa took him as their imam, that his name appears in the chains of many Sufi orders, and that he is cited countless times in works of moral exhortation. {cite:encyclopaedia-of-islam-2 vol. 3 p. 268}
+
+The article quotes [[person/abu-talib-al-makki|Abu Talib al-Makki]] in the [[work/qut-al-qulub|Qut al-qulub]], the chief work of the Sufi school of Basra, saying in effect that al-Hasan is the imam of the doctrine he sets out, that the school follows his footsteps and his ways, and that it takes light from his lamp. {cite:encyclopaedia-of-islam-2 vol. 3 p. 268}
 
 ## Al-Hasan al-Basri in Sheikh Omar Abdelkafy's lessons (episodes 2 and 3)
 The Sheikh relates that al-Hasan wept and said that if God tests them He would expose them and tear away their veils (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:07:00} He quotes his saying that the people of the world ate and we ate, they feared tomorrow and we are safe (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:51:00}

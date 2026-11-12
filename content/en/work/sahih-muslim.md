@@ -1,13 +1,42 @@
 ---
 id: work/sahih-muslim
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
 "Al-Musnad al-Sahih al-Mukhtasar bi-Naql al-Adl an al-Adl ila Rasul Allah" (The Concise Authentic Collection of Reports Transmitted by the Reliable from the Reliable to the Messenger of God), by Muslim ibn al-Hajjaj al-Qushayri al-Nisaburi (d. 261 AH) ([[person/muslim-ibn-al-hajjaj|his biography]]). It is one of the [[concept/kutub-al-sitta|Six Books]]. {cite:sahih-muslim}
 
 It is regarded as the second most famous book of hadith. It is known for bringing together the different chains of a single hadith in one place. Its introduction on the terminology of hadith became a foundational text in the science of hadith. {cite:sahih-muslim}
+
+## The work in the Encyclopaedia of Islam
+The Encyclopaedia of Islam, second edition, treats the book inside its article on Muslim ibn al-Hajjaj, and describes his collection of Prophetic hadith as al-Jami' al-Sahih, usually shortened to the Sahih. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745} The article is by G.H.A. Juynboll, and most of what follows is his account, with his judgements attributed to him. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
+
+## Standing among the collections
+According to the article, the consensus of Sunni hadith experts ranks the work, together with the Sahih of [[person/al-bukhari|al-Bukhari]], as the most reliable collection of Prophetic traditions. The two books, joined in time by four more to make the [[concept/kutub-al-sitta|Six Books]], gained a prestige close to canonisation. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745}
+
+Whether Muslim's book should be preferred even to al-Bukhari's has been debated. In the Maghrib the Sahih of Muslim seems at times to have been favoured, and the article names [[person/ibn-hazm|Ibn Hazm]] in this connection: he is said to have criticised al-Bukhari for adding many suspended reports, that is, supporting traditions with a broken chain, a practice Muslim seldom used. The article notes that al-Nawawi lists Muslim's fourteen such reports in his commentary. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745} Surveys comparing the two collectors are cited from al-Khatib al-Baghdadi, [[person/ibn-al-salah|Ibn al-Salah]], al-Nawawi and [[person/al-suyuti|al-Suyuti]]. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745} In the long run, says the article, al-Bukhari's book took first place as the most revered book of Islam, immediately followed by Muslim's. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745}
+
+## Contents and size
+Muslim is reported to have said that he gathered 300,000 traditions and chose his selection for the Sahih from them. Medieval scholars put the number of traditions in the book at 4,000 without counting repetitions. The modern editor, Muhammad Fu'ad 'Abd al-Baqi, counted even more repetitions and found a little over 3,000 distinct traditions. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745}
+
+## Arrangement of the chapters
+The article calls the Sahih the most useful of the Six Books for modern historians, and attributes this to the way its chapters are organised. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745} It adds that al-Bukhari's book was at first rated higher, largely because its chapter headings carry more sophisticated statements, beside which Muslim's headings were felt to fall short, although al-Nawawi later improved them considerably. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745} {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
+
+The two books differ in how the chapters are filled. The article says al-Bukhari's chapters are presumed to follow their legal content strictly, but on closer inspection the organisation is rather loose, with traditions of vaguely related or unrelated legal focus added to many chapters. His aim was to give as many angles on a legal or ritual question as he could, so one issue recurs dozens of times, with its own chains, in many chapters. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746} In Muslim's book, by contrast, each chapter rests on one, sometimes more than one, main cluster, which is hardly ever repeated in another chapter. All the repetitions of a tradition, more numerous than in al-Bukhari, are gathered in the same chapter, so a reader sees at once how often the text occurs in its different versions with their chains. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746} The article quotes a remark of Umar ibn Raslan al-Bulqini, who died in 805/1403, that Muslim is distinguished by gathering the routes of a hadith in one place. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
+
+## Main clusters and the vocabulary of corroboration
+The article uses the term main cluster, which it describes as newly coined, for a tradition's content seen as one of two to ten or more facets of a single basic idea, for instance a legal or ethical concept or a continuing dispute over a ritual point. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746} It explains that Qadi 'Iyad, noticing that the first chain and text in a Muslim chapter looks basic and the later ones act as commentary on it, named the basic concepts usul, and the less essential material mutaba'at and shawahid. The article adds that these two terms seem to have been introduced first by [[person/ibn-hibban|Ibn Hibban]], and links the discussion to the concept of [[concept/al-mutabaa-wa-al-shahid|corroboration and supporting reports]]. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
+
+The article's author argues that the chains of the basic reports are more often than not of relatively late origin, while the accompanying corroborating chains usually show older common links. Because Muslim arranges the material this way, he judges, the Sahih, unlike the other canonical collections, is indispensable for analysing and dating traditions. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
+
+## The introduction
+The article calls the introduction an important and unique feature of the book. Its final section takes up a controversial point, the acceptability of chains built on the word an, known as [[concept/muanan|mu'an'an]] chains, on which Muslim is reported to have taken a somewhat more flexible position. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746} The bibliography points to Juynboll's annotated translation of the introduction. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
+
+## Commentators, editions and other works
+The article names al-Nawawi, who died in 676/1278, and Qadi 'Iyad, who died in 544/1149, as Muslim's two most important commentators. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745} It calls the edition of Muhammad Fu'ad 'Abd al-Baqi, Cairo 1955 to 1956 in five volumes, the best and the most useful because of its multiple numbering of hadith. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746} It notes a complete English translation by A.H. Siddiqui, Lahore 1976, which omits the introduction, and a study by J. Robson on how the Sahih was passed to later generations. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
+
+Muslim is also credited with other works. Two of them, the Kitab al-Kuna and the Kitab al-munfaridat wa-l-wuhdan, are quoted in Ibn Hajar's Tahdhib. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
 
 ## Structure and size
 Sunnah.com describes Sahih Muslim as containing roughly 7,500 hadith (counting repetitions) in 57 books. Its English translation is by Abdul Hamid Siddiqui {cite:sunnah-com muslim}. Together with Sahih al-Bukhari it is known as the two Sahihs.

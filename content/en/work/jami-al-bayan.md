@@ -1,7 +1,7 @@
 ---
 id: work/jami-al-bayan
 lang: en
-source_lang: ar
+source_lang: en
 translators: []
 ---
 
@@ -10,6 +10,23 @@ Ibn Jarir al-Tabari's tafsir, Jami' al-Bayan 'an Ta'wil Ay al-Qur'an, runs to th
 
 ## Its method
 Al-Tabari arranges his commentary verse by verse, building it on reports transmitted from accredited scholars alone and supporting them with variant isnads, applying to the transmitters the hadith critics' jarh and ta'dil — so that when a report proves untrustworthy he says so plainly, taking a frank, independent stance even toward the opinions of Ibn Abbas {cite:tarikh-islam-hasan-ibrahim p.351}. He attends to the plain meaning that cannot be abandoned, and where the text calls for another explanation he returns to the words of the salaf — Companions, Followers and the scholars of the community — while also drawing on the lore handed down from the People of the Book through figures like Ka'b al-Ahbar and Wahb ibn Munabbih {cite:tarikh-islam-hasan-ibrahim p.351}. He is counted the first commentator to make systematic use of ancient poetry, and his tafsir carries extensive linguistic and grammatical discussion, including some of the earliest documentation of the Basran-Kufan grammatical controversy {cite:tarikh-islam-hasan-ibrahim p.352}. For all this, Goldziher concludes, the great tafsir of al-Tabari is the heart of tradition-based exegesis and the summit that school reached {cite:tarikh-islam-hasan-ibrahim p.352}.
+
+## The commentary in the Encyclopaedia of Islam
+The Encyclopaedia of Islam, second edition, treats the commentary inside its article on [[person/al-tabari|al-Tabari]], not under a separate title, and says little about the book itself. What it does say places the work beside his History as one of his two great syntheses. The article judges that both are the most extensive early works of Islamic scholarship to survive and that they preserve the largest array of quotations from sources now lost. On that ground it calls them the richest and most detailed sources for the early stages of Islam as a religious institution and as a body of legal knowledge and practice. {cite:encyclopaedia-of-islam-2 vol. 10 p. 23}
+
+On method, the article stresses al-Tabari's emphasis on [[concept/ijtihad|ijtihad]], the independent exercise of judgement. After quoting his sources he gives the view he considers most acceptable. {cite:encyclopaedia-of-islam-2 vol. 10 p. 22} In the Commentary, it says, he treated the verses in general from a grammatical and lexicographical standpoint, and also drew theological and legal conclusions from the text. {cite:encyclopaedia-of-islam-2 vol. 10 p. 24}
+
+The article describes his sources as essentially written ones. When he introduces a passage with formulae such as haddathana, akhbarana or kataba, it takes this to mean that he held a licence, an ijaza, for the book quoted; when he draws on older books without a firm line of transmission he uses words such as qala, dhakara, rawa or huddithtu. His works are therefore compilations of material written down between about 50 and about 250 AH, and he generally did not use the works of his contemporaries. Where the Commentary does not trace a report back to the Prophet, the article reads this as showing that the source was a book preserving the interpretations of its author or of his contemporaries. {cite:encyclopaedia-of-islam-2 vol. 10 p. 23}
+
+On how the book took shape, the article suggests that his major works began as dictated lectures and grew over long periods, so that a work might reach final form on one date while parts of it had circulated earlier. This, it says, is why a work can appear under several titles, and al-Tabari himself rarely gives formal titles, referring to his works by subject. {cite:encyclopaedia-of-islam-2 vol. 10 p. 23} It also reports an anecdote that he first meant the History and the Commentary to be much longer and shortened them for students and later scholars. The article judges the tale very probably apocryphal, but taken to show his concern to pass on essentials in a usable form. {cite:encyclopaedia-of-islam-2 vol. 10 p. 22}
+
+## Place among earlier commentaries
+According to the article, al-Tabari's is the first major commentary to survive after that of [[person/muqatil-ibn-sulayman|Muqatil ibn Sulayman]], and perhaps the first major running commentary of any kind to survive. Earlier ones are known only indirectly. The commentary of [[person/al-hasan-al-basri|al-Hasan al-Basri]] has to be reconstructed, and those of [[person/mujahid-ibn-jabr|Mujahid ibn Jabr]] and of [[person/abd-al-razzaq-al-sanani|Abd al-Razzaq al-San'ani]] survive only in fragments, in late and possibly reconstituted manuscripts. The article adds that al-Tabari took over Abd al-Razzaq's commentary in its entirety for his own. {cite:encyclopaedia-of-islam-2 vol. 10 p. 24}
+
+## A dispute over one passage
+The article links part of the quarrel between al-Tabari and the Hanbalis of Baghdad to the commentary. The point at issue was the verse promising the Prophet a praiseworthy station. A report from the Successor Mujahid took it to mean that Muhammad would sit with God on the divine throne, and the Hanbalis upheld that reading. {cite:encyclopaedia-of-islam-2 vol. 10 p. 22} {cite:encyclopaedia-of-islam-2 vol. 10 p. 23} Al-Tabari discussed the phrase at length in the Commentary, in a circumspect and reasoned manner, in the Bulaq edition at volume 10, pages 97 to 100, and Rosenthal translated part of the passage in his version of the History. {cite:encyclopaedia-of-islam-2 vol. 10 p. 23}
+
+The article says he is reported to have denied publicly that Mujahid's report was credible, and that Hanbalis then stoned his house in a riot which the Baghdad police put down. It adds that violence around his house is reported again at his death over the same phrase, though accounts of Hanbali hostility at his funeral may be exaggerated. It notes that the whole dispute is known only from conflicting reports by the two sides. {cite:encyclopaedia-of-islam-2 vol. 10 p. 23}
 
 ## For young visitors
 Al-Tabari's commentary is among the greatest early books of tafsir; in it he gathered, verse by verse, what the first Muslims said about the meanings of the Qur'an.

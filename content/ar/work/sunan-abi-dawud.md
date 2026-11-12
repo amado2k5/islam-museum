@@ -1,8 +1,8 @@
 ---
 id: work/sunan-abi-dawud
 lang: ar
-source_lang: ar
-translators: []
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 status: { review: published }
 provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "سنن أبي داود، ط. دار ابن حزم 1997 ج1 ص 1–14، 15، 17، 43–46، 85–86، 140، 195، 437، 493–508؛ والبطاقة الأولى من نشرة كانفور/ديوبند وسنة.كوم" }
 ---
@@ -33,6 +33,21 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-
 
 ## روايته
 يذكر المعدّون أن الكتاب يروى عن أبي داود من طريق [[person/ibn-dasa|محمد بن أبي بكر بن عبد الرزاق بن داسة التمار]] و[[person/abu-ali-al-lului|أبي علي محمد بن أحمد اللؤلؤي]]. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 10} ومن أبرز من روى عن أبي داود من أصحاب الكتب [[person/al-tirmidhi-muhammad-ibn-isa|الترمذي]] و[[person/al-nasai|النسائي]]. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 10}
+
+## في دائرة المعارف الإسلامية
+تصف مقالة الطبعة الثانية من دائرة المعارف الإسلامية عن [[person/abu-dawud-al-sijistani|أبي داود]] كتاب السنن بأنه عمدته الرئيسة وأحد الكتب الستة المعتمدة في الحديث عند أهل السنة. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} وتضيف أنه يقال إنه عرضه على [[person/ahmad-ibn-hanbal|أحمد بن حنبل]] فاستحسنه. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} وتذكر أنه وُلد سنة 202هـ، وطاف في طلب العلم، ثم استقر في [[place/basra|البصرة]]. وتقول المقالة إن ذلك حمل بعضهم على الظن خطأً أن نسبته السجستاني إلى قرية قرب البصرة، وهي في الحقيقة نسبة إلى إقليم [[place/sijistan|سجستان]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} وتجعل وفاته في شوال سنة 275هـ. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
+
+### حجم الأحاديث ودرجاتها
+تعيد المقالة رواية [[person/ibn-dasa|ابن داسة]] أن أبا داود قال إنه انتقى 4800 حديث من خمسمائة ألف، وإن في الكتاب أحاديث صحيحة وأخرى تبدو كذلك وأخرى تقاربها. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} وتنقل قولاً آخر له: ما كان فيه ضعف شديد بيّنه، وما سكت عنه فهو صالح، وبعضه أصح من بعض. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} وهذا يرجع إلى التعليقات التي يضيفها غالباً إلى الحديث ليبيّن رأيه في قيمته. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
+
+### مكانته في نقد الحديث
+تلاحظ المقالة أن [[work/sahih-muslim|مسلماً]] قدّم لصحيحه بمقدمة تناقش مسائل عامة في النقد، لكن أبا داود أول من أورد مثل هذه التعليقات المفصلة على الأحاديث المفردة. وهي ترى أن ذلك مهّد للنقد الأكثر منهجية في جامع تلميذه [[person/al-tirmidhi-muhammad-ibn-isa|الترمذي]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} وتضيف أن أبا داود يروي عن رجال لا يوجدون في الصحيحين، ومبدؤه أن الراوي يُعدّ ثقة ما لم يقم دليل قاطع على خلاف ذلك. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} ويتناول الكتاب في الغالب ما أمرت به الشريعة أو أباحته أو نهت عنه. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
+
+### الثناء والنقد
+تسجل المقالة حكمين بالثناء. قال أبو سعيد ابن الأعرابي إن من لم يعرف غير القرآن وهذا الكتاب كفاه علماً، وقال محمد بن مخلد إن المحدثين تلقوه بالقبول دون مساءلة كما تلقوا القرآن. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} وتستغرب المقالة أنه مع ثناء كثيرين عليه في القرن الرابع الهجري لا يذكره الفهرست، ولا يذكر أبا داود إلا بوصفه والد ابنه. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} وتنقل كذلك نقداً متأخراً: فقد انتقد [[person/abd-al-azim-al-mundhiri|المنذري]]، وهو صاحب مختصر للسنن، بعض الأحاديث التي تُركت دون تعليق، وأضاف [[person/ibn-qayyim-al-jawziyya|ابن القيم]] انتقادات أخرى. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} وتخلص المقالة إلى أن الكتاب، مهما وُجد فيه من عيوب، ما زال يحتل مكانة مكرمة. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
+
+### الرواية وما يتصل بالكتاب
+تذكر المقالة أن السنن رويت من طرق عدة، ويقال إن في بعض الروايات ما ليس في غيرها، وأن رواية [[person/abu-ali-al-lului|اللؤلؤي]] أكثرها قبولاً. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} وتشير إلى أن طبعات كثيرة منه صدرت في الشرق. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} وتذكر أيضاً مجموعة صغيرة من الأحاديث المرسلة لأبي داود هي [[work/kitab-al-marasil|كتاب المراسيل]]، نُشرت في القاهرة سنة 1310هـ/1892م. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
 
 ## شروحه وطبعاته
 - أقدم شروحه المعروفة [[work/maalim-al-sunan|«معالم السنن»]] للخطابي ⁦(319–388هـ)⁩، وهو مطبوع في حواشي طبعة دار ابن حزم. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 1} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 8}

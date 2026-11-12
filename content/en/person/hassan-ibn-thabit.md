@@ -1,9 +1,10 @@
 ---
 id: person/hassan-ibn-thabit
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
+## Overview
 Abu al-Walid Hassan ibn Thabit ibn al-Mundhir al-Najjari al-Ansari, the poet of the Messenger of God and the poet of Islam, a master of rhyme who defended the call. {cite:mubarakpuri-raheeq}
 
 The Prophet set up a pulpit for him in the Prophet's Mosque, from which he would defend the Messenger of God and satirise the polytheists. The Prophet told him: "Satirise them, and the Holy Spirit is with you." His verse is a record of the Prophet's biography, of the campaigns of the Ansar, and of laments for their martyrs, such as Hamza and the martyrs of Mu'ta. {cite:sahih-al-bukhari}
@@ -15,6 +16,42 @@ Ibn Ishaq relates that Hassan was absent when the [[event/delegation-of-banu-tam
 
 ## His reply to Asma bint Marwan
 Ibn Ishaq relates that Asma bint Marwan composed verses disparaging Islam and its people and inciting against the Prophet. Hassan answered her with verses in which he places the Banu Wa'il, Waqif and Khatma below the Banu Khazraj, and describes her killing. See [[work/hassan-reply-to-asma-bint-marwan|the reply]] and [[event/killing-of-asma-bint-marwan|the account]] {cite:ibn-hisham-saqqa 4/286}.
+
+## Background before Islam
+The Encyclopaedia of Islam article on Hassan ibn Thabit gives his line as Hassan ibn Thabit ibn al-Mundhir ibn Haram, of the [[group/al-khazraj|Khazraj]] tribe of Yathrib. It says that the traditional title "poet laureate" of the Prophet is better understood as meaning that he was the most prominent of several poets associated with the rise of Islam, and one who already had an established reputation in the Jahiliyya. {cite:encyclopaedia-of-islam-2 vol. 3 p. 291} {cite:encyclopaedia-of-islam-2 vol. 3 p. 292}
+
+When Muhammad reached Medina, the article says, Hassan was of mature age. Most authorities, including [[person/ibn-ishaq|Ibn Ishaq]], who relies directly on Hassan's grandson Sa'id, give his age as sixty, which the article thinks probably too high, while other authorities suggest 52 or 53. He had written praise poems for Ghassanid and Lakhmid princes, visited their courts and received gifts from them. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292}
+
+## Conversion, family and company
+The article says it is not certain exactly when Hassan embraced Islam. It notes that his brother Aws was one of the earliest converts and was paired with the Emigrant [[person/uthman-ibn-affan|Uthman ibn Affan]] as his "brother" and guest in Medina. In the article's view this probably accounts in part for the pro-Umayyad sympathies credited to Hassan, which it sees in the comparatively large number of elegies for Uthman, eight out of 32, ascribed to him in the Diwan and elsewhere, or reflected in those that are spurious. The article adds that Hassan had an utum of his own, was rich, and kept company with the Awsi poet [[person/qays-ibn-al-khatim|Qays ibn al-Khatim]] and with Sallam ibn Mishkam, chief of the Banu al-Nadir. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292}
+
+According to the article, he had one daughter, who on one occasion showed a talent for poetry, and by Sirin, according to most sources, one son, Abd al-Rahman, who was as provocative as his father but shared neither his ability as a poet nor his long life. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292}
+
+## The slander against Aisha, as the Encyclopaedia presents it
+The article places Hassan in the story of the slander against [[person/aisha|Aisha]] in 5/627. It says he is reported to have been punished for taking part, to have been attacked and wounded by [[person/safwan-ibn-al-muattal|Safwan ibn al-Mu'attal]], and then to have been reconciled by the Prophet, who gave him Sirin, an Egyptian slave girl, and other gifts. It then qualifies this. Certain authorities, Ibn Hisham among them, give the leading part not to Hassan but to [[person/abdullah-ibn-ubayy|Abd Allah ibn Ubayy]]. The article judges that later generations paid the story excessive attention, and that it should be read, whole and in its details, against the friction between the newcomers and the Medinese themselves, both in Medina and during the campaign against the [[event/expedition-of-banu-al-mustaliq|Banu al-Mustaliq]], where the story began. It refers readers to a study by W. Arafat for the disputed details. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292}
+
+The page's opening section, following al-Raheeq al-Makhtum, tells the same episode with Hassan as a participant who was flogged, repented and was forgiven. The two presentations differ in emphasis, and the museum records both without choosing between them. See also [[event/incident-of-the-slander|the incident of the slander]].
+
+## A poet in the service of the community
+The article says that around the siege of Medina or soon afterwards, the Muslims, and particularly the Medinese among them, realised the need for a systematic response, and that Hassan's contribution was especially welcome. For better effect, advice and the necessary data were given by [[person/abu-bakr|Abu Bakr]]. Hassan did not take part in fighting, which the article puts down probably to advanced age and not, as is most frequently suggested, to cowardice. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292}
+
+## The delegation of Banu Tamim, as the Encyclopaedia presents it
+In 9/630, the Year of Delegations, Hassan is said to have recited poetry on behalf of the Prophet before the Tamim delegation. The article says that this visit is usually given prominence, but that its purpose is not certain, and that the suggestion that the delegates were converted on hearing Hassan's poem is doubtful. Three different sets of poems are each claimed to be the one that served the occasion, which the article takes as a sign both of the doubtful character of such poetry and of the high esteem in which Hassan was held. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292}
+
+## His later years
+According to the article, little is heard of Hassan afterwards. [[person/umar-ibn-al-khattab|Umar]] sought his expert opinion on a poem by [[person/al-hutay-ah-jarwal|al-Hutay'a]] slandering [[person/al-zibriqan-ibn-badr|al-Zibriqan ibn Badr]], and he is occasionally heard reciting his own verse. Some time later in his life he came reluctantly out of retirement to support his less able son Abd al-Rahman in a contest of slander against the poet al-Najashi. Otherwise he was growing old, content and sentimental when recalling his visits to the Ghassanids, but sad and reproving when he contrasted the dignified carousing he had known at their princely court with the unrestrained enjoyment of newly found luxury by his son and his son's companions. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292}
+
+In the revolt against Uthman, the article says, Hassan, [[person/kaab-ibn-malik|Ka'b ibn Malik]], [[person/al-numan-ibn-bashir|al-Nu'man ibn Bashir]] and others spoke loudly in support of the besieged caliph and, according to al-Tabari, even tried to dissuade the rebels. After Uthman's death they went to [[person/muawiya-ibn-abi-sufyan|Mu'awiya]], who gave Hassan and Ka'b a sum of money each and later rewarded al-Nu'man with a governorship. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292}
+
+## The date of his death
+The article says that the date of his death is uncertain and is variously given as 40/659 or before that year, 50/669 or 54/673. Because the last that is heard of Hassan comes some time before the assassination of [[person/ali-ibn-abi-talib|Ali]], it judges a date around 40/659 the most likely. This differs from the opening section of this page, which follows al-Raheeq al-Makhtum in placing his death late in Mu'awiya's reign at about a hundred and twenty. Both are reported here, with no verdict. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292}
+
+## The Diwan and the question of authenticity
+The Diwan in the recension of Ibn Habib contains 228 poems on different subjects, and the Sira of Ibn Ishaq as edited by [[person/ibn-hisham|Ibn Hisham]] has 29 more, while other poems and single lines ascribed to him are found elsewhere. See also the record of [[work/diwan-al-hassan-ibn-thabit|the Diwan]]. The article says that doubts were cast on the authenticity of this poetry at an early period, either generally or for particular poems and lines. Its author, W. Arafat, reports a detailed study of the poetry ascribed to Hassan which indicated that some 60 to 70 percent of it may be spurious. His reasons are that the Diwan shows such variety of spirit and style, and so many contradictions and anomalies, with a high proportion of inferior verse, that it cannot be the work of a single author, nor all of it by a poet of high repute. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292} {cite:encyclopaedia-of-islam-2 vol. 3 p. 293}
+
+He explains the spurious poetry against the background of the eventful century after the rise of Islam, when the same tribes who had taken part in the early struggle were again involved. Earlier verse was forgotten or overwhelmed, and replaced or supplemented by new poetry. Verse accompanied tribal, sectarian and factional disputes, but was also written to clear the reputation of persons whose early record was not complimentary, and to supplement and embellish the accounts of the campaigns. Some of it was the work of narrators or forgers, and some was ascribed to Hassan deliberately for prestige or by accident. A poem may be only partly authentic. More than 30 poems, parts of poems or single lines are ascribed by Ibn Hisham and others to Hassan's son or to other people, including some of Hassan's contemporaries. He judges from internal evidence that the long poems of boasting are by descendants of the Ansar and reflect the inferior status to which they were reduced after the battle of [[event/waqat-al-harra|al-Harra]] in 63/682. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292}
+
+The article adds that early critics noticed this, if only briefly. Ibn Sallam and Ibn al-Nadim severely censured Ibn Ishaq for including in his Sira spurious poetry ascribed to Hassan and others, although Ibn Ishaq himself pleaded good faith and a lack of the appropriate critical experience. Ibn Hisham omitted or rejected on expert authority a large number of such poems, branding some as forgeries and others as doubtful. Of 78 poems of Hassan in the Sira he rejected 15. Of those 78, 29 are not in Ibn Habib's recension of the Diwan, while 10 of the 15 he rejected are in it. The article quotes the remark of Ibn Sallam in his Tabaqat that more poetry was fathered on Hassan than on anyone else, because when Quraysh quarrelled among themselves and slandered one another they ascribed a great deal of verse to him that cannot be sifted. The article gives as the main reason that Hassan received a larger share of such poetry his higher reputation, already recognised at the advent of Islam. {cite:encyclopaedia-of-islam-2 vol. 3 p. 292} {cite:encyclopaedia-of-islam-2 vol. 3 p. 293}
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 7)
 
