@@ -590,3 +590,17 @@
 |---|---|---|---|---|
 | 543 (printed) | 166 | the nisba in the heading "الرحى" | misprint; the body reads "الرحبي" | the body reading is used; flagged |
 | 543 (printed) | 167 | the word "يفتضح" describing the splashing water | read as "يتطاير" (flies) | rendered as the water flying; flagged for revision |
+
+## Batch 77 (run microsd-books-b77, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 167–168 (full text read before writing). New draft: person/al-mustanis-bil-haqq (printed 544, sequence 545, 10/167–168; epithet-only, laqab; the name is hidden in the text). Printed 545 (Abd Allah ibn Khubayq, with sayings of Yusuf ibn Asbat, Hudhayfa al-Mar'ashi and al-Fadl) begins on 10/168 and continues onward; it is next.
+- Honorifics in the text (the form after "Abraham" and after the saints) are not typed. Held: printed 532 stays held pending the coordinator's ruling; nothing written.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 77)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 544 (printed) | 167 | the name of the place ("بالكام") | unclear in the scan | given as read, in brackets in the English |
+| 544 (printed) | 168 | the phrase in the group's description of the man ("يعطر المطر") | garbled in the scan | not given |
+| 544 (printed) | 168 | the honorific after Abraham | the museum never types honorifics | omitted |
+| 544 (printed) | 167 | the narrator's cut name at the end of the group's remark | cut in the scan | not given |
