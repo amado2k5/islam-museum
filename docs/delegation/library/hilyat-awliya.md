@@ -148,3 +148,15 @@
 | 466 | 111 | the closing clause "I do not know whether he entered the sea" | unclear in the scan | omitted |
 | 466 | 110–112 | Qur'anic verses cited | Qur'an text never typed | referred to only |
 | 467 | 112 | the chain of the Bedouin anecdote | the name of the narrator's father is not clear in the scan | described as "his father", no name given |
+
+## Batch 34 (run microsd-books-b42, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 113–115 (full text read before writing). New draft `person/shurayh-ibn-yunus` (468, complete at 10/115). The death year 235 AH is taken from 10/113 ("خمس وثلاثين ومائتين"). Qur'anic surahs referred to, not quoted.
+
+## Exclusions and garbled readings (batch 42)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 468 | 113 | the reporter's name in the dream (given in the scan as "انكشاب") | smudged in the scan | described as "Ahmad ibn al-Dahhak" with the surname omitted |
+| 468 | 113 | Shurayh's words in the dream "رحال سر بسر" | garbled in the scan | omitted |
+| 468 | 115 | the object Abd al-Muttalib was first told to dig up ("برة") | unclear in the scan | described as "a thing (the word is garbled in the scan)" |
+| 468 | 113–115 | Qur'anic surahs cited | Qur'an text never typed | referred to only |
