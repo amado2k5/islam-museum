@@ -949,3 +949,16 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 679 (printed) | 397 | the anecdote's details | the text is clear; given briefly | the anecdote is given as the notice gives it |
 | 679 (printed) | 396–397 | the hadiths and the Uhud verse | the Prophet's formula; the Qur'an text is never typed | described only; the verse by sense |
 | 679 (printed) | 397 | "لم يعرف له قرار أربعين سنة" | the sense is clear; the phrase is a report about his residence | given as reported |
+
+## Batch 102 (run microsd-books-b102, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 398 (full text read before writing). New draft: person/muhammad-ibn-marouf-al-mattar (printed 680, sequence 681, 10/398; laqab "مؤملة" recorded). No existing record of the name. Notice complete on page 398; 681 (Harun al-Ra'i, the shepherd, Abu Abd al-Rahman) follows on the same page.
+- Checked against the scan: asceticism, worship and scrupulousness; imam of the main mosque; heard from Yahya ibn Sa'id al-Qattan and Yazid ibn Harun; the mosque named after him; the chain to Abu al-Darda. The hadith carries the Prophet's formula and is described only.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 102)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 680 (printed) | 398 | the hadith from Abu al-Darda | a quoted report with the Prophet's formula | described only |
+| 680 (printed) | 398 | the Abu Umar / Muhammad ibn Abd Allah link | legible | given as read |
