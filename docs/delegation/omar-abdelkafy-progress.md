@@ -770,3 +770,19 @@ Next step: episode 18. Sensitivity: ep16 and ep17 carry sweeping generalisations
 | Calls and answers too garbled to read | ep16 00:35:00–00:44:00 (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
 | Poetry and hadith wording | ep16 00:04:30; ep17 00:08:30, 00:12:30 | Wording not typed; by sense only | Hadith rule | Open |
 | Fiqh questions the lecturer refers elsewhere (a skin condition and ablution, a fasting rule, a will on a house) | ep16 00:44:00 | Referred to fatwa programmes | Scope | Open |
+
+### albuyout-alamena, episodes 18–19 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-9)
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep18–ep19 (dazzlement with the West, leadership and civilisation; the law or customs and traditions) | about 46 min, 48 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 13 points | 9 new `about` edges (mahr, sadaqa, kasb, urf, Usama ibn Zayd, Ikrima ibn Abi Jahl, Umm Hakim bint al-Harith, Asma bint Umays, Muhammad ibn Abi Bakr, passages 17:70, 3:195) | ep18 6, ep19 5 points; engine qwen3-asr pass5, 30 s windows | 9 needs_source: ep18 cosmetics figures (00:07:00), the Montgomery story (00:12:00), the Abu Bakr and Usama accounts (00:16:00), the rug, bowl and axe report (00:22:00), stories and call text (00:26:30); ep19 Fatima's trousseau (00:10:00), Umm Hakim and Asma bint Umays (00:16:30), the private survey and Subay'a (00:24:00), call text (00:34:30) | run omar-abdelkafy-albuyout-9 |
+
+Next step: episode 20. Sensitivity: ep18 holds the lecturer's judgments on the West, rulers and civilisation, and ep19 on women and marriage customs; all are recorded as the lecturer's own.
+
+| Excluded (albuyout-alamena ep18–ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep18 00:00:00–00:00:30, 00:15:30–00:16:00, 00:31:30, 00:46:00–00:46:30; ep19 00:00:00–00:01:00, 00:15:00–00:15:30, 00:31:30–00:32:00, 00:48:00–00:48:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep18 00:20:00, 00:34:00, 00:35:30 (tail), 00:38:30, 00:40:00; ep19 00:05:00 (tail), 00:17:30, 00:18:00, 00:25:00, 00:29:00, 00:29:30, 00:39:30, 00:41:00 | Not speech | Loop check | Open |
+| Calls and answers too garbled to read | ep18 00:38:30–00:46:00 (in part); ep19 00:36:00–00:37:30, 00:40:30–00:44:00 (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Hadith and verse wording | ep18 00:22:00–00:24:30, 00:26:00; ep19 00:12:00 | Wording not typed; by sense only | Hadith rule | Open |
+| Fiqh questions referred elsewhere (woman travelling without a mahram, a second marriage in secret as to fairness) | ep19 00:37:00, 00:42:30 | Referred to fatwa programmes | Scope | Open |
