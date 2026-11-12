@@ -1,0 +1,24 @@
+id: passage/hadith-sahih-bukhari-003
+class: passage
+unit: chapter
+work: work/sahih-al-bukhari
+ref: "1115"
+label:
+  ar: "صحيح البخاري — ص 1115"
+  en: "صحيح البخاري — p. 1115"
+text: "كتاب رسول الله ولف فقرأه فإذا فيه . بسم الله الرحمن الرحيم من محمد رسول الله إلى هرقل عظيم الروم، سلام على من اتبع الهدى. أما بعد فإني أدهوك بدعاية الإسلام أسلم تسلم، وأسلم يؤتك الله أجرك مرتين، فإن توليت"
+summary:
+  ar: "مقطع من «صحيح البخاري» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «صحيح البخاري» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/heraclius, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+provenance:
+  layer: own-research
+  source: "صحيح البخاري ص 1115 — مقتطف المكاتبات — hadith"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-2
+tags: [mukatabat-browser]
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

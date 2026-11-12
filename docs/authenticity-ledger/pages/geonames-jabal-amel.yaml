@@ -1,0 +1,19 @@
+id: geonames-jabal-amel
+kind: page
+carrier: www.geonames.org
+url: https://www.geonames.org/278960/jabal-amil.html
+retrieved_on: '2026-11-11'
+used_for:
+- facts: coordinates and GeoNames id of the place for jabal-amel (GeoNames 278960, Jabal ‘Āmil, feature code MTS mountains, Nabatieh, Lebanon; 33.16667, 35.36667), recorded as an approximate, representative point for a region
+checks:
+- date: '2026-11-11'
+  type: read through the GeoNames website
+  basis: the place page at retrieval (coordinates, feature code, administrative hierarchy Lebanon > Nabatieh); last change in its history 9 February 2008
+  result: matched
+- date: '2026-11-11'
+  type: identity check
+  basis: Wikidata item Q1550572 at revision 2564585439 (region of southern Lebanon; no coordinate claim). The English, Arabic, French and German Wikipedia articles linked from the item give no coordinates either.
+  result: matched
+history:
+- date: '2026-11-11'
+  event: recorded for place/jabal-amel coordinates and GeoNames id only; they replace the placeholder coordinates [0, 0]

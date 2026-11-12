@@ -1,0 +1,17 @@
+id: passage/nasai-api-1997
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1997"
+label: { ar: "سنن النسائي 1997 — قيراط الأجر", en: "Sunan al-Nasa'i 1997 — the qirat of reward", ur: "سنن نسائی 1997 — اجر کا قیراط" }
+text: "أَخْبَرَنَا الْحَسَنُ بْنُ قَزَعَةَ، قَالَ حَدَّثَنَا مَسْلَمَةُ بْنُ عَلْقَمَةَ، قَالَ أَنْبَأَنَا دَاوُدُ، عَنْ عَامِرٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" مَنْ تَبِعَ جَنَازَةً فَصَلَّى عَلَيْهَا ثُمَّ انْصَرَفَ فَلَهُ قِيرَاطٌ مِنَ الأَجْرِ وَمَنْ تَبِعَهَا فَصَلَّى عَلَيْهَا ثُمَّ قَعَدَ حَتَّى يُفْرَغَ مِنْ دَفْنِهَا فَلَهُ قِيرَاطَانِ مِنَ الأَجْرِ كُلُّ وَاحِدٍ مِنْهُمَا أَعْظَمُ مِنْ أُحُدٍ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 1997، يذكر قيراط الأجر. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 1997 (The Book of Funerals), that speaks of the qirat of reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 1997، جس میں اجر کا قیراط کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1997 (book 21 hadith 180); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

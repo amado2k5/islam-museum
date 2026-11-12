@@ -16,6 +16,7 @@ translations:
   en: { text: "But as for those who believe and do good works, for them are the Gardens of Retreat - a welcome (in reward) for what they used to do.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جو لوگ ایمان لائے اور نیک عمل کرتے رہے اُن کے (رہنے کے) لئے باغ ہیں یہ مہمانی اُن کاموں کی جزا ہے جو وہ کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/jannat-al-mawa, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-32 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

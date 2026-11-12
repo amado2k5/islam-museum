@@ -1,0 +1,17 @@
+id: passage/abudawud-api-2498
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2498"
+label: { ar: "سنن أبي داود 2498 — مضاعفة الحسنة بعشر أمثالها", en: "Sunan Abi Dawud 2498 — the good deed multiplied tenfold and beyond", ur: "سنن ابی داؤد 2498 — نیکی کا دس گنا اور اس سے زیادہ بڑھنا" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ عَمْرِو بْنِ السَّرْحِ، حَدَّثَنَا ابْنُ وَهْبٍ، عَنْ يَحْيَى بْنِ أَيُّوبَ، وَسَعِيدِ بْنِ أَبِي أَيُّوبَ، عَنْ زَبَّانَ بْنِ فَائِدٍ، عَنْ سَهْلِ بْنِ مُعَاذٍ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِنَّ الصَّلاَةَ وَالصِّيَامَ وَالذِّكْرَ تُضَاعَفُ عَلَى النَّفَقَةِ فِي سَبِيلِ اللَّهِ بِسَبْعِمِائَةِ ضِعْفٍ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2498، يذكر مضاعفة الحسنة بعشر أمثالها. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 2498 (Jihad (Kitab Al-Jihad)), that speaks of the good deed multiplied tenfold and beyond. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2498، جس میں نیکی کا دس گنا اور اس سے زیادہ بڑھنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2498 (book 15 hadith 22); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-5065
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "5065"
+label: { ar: "سنن أبي داود 5065 — الميزان", en: "Sunan Abi Dawud 5065 — the Scale", ur: "سنن ابی داؤد 5065 — میزان" }
+text: "… يُسَبِّحُ فِي دُبُرِ كُلِّ صَلاَةٍ عَشْرًا وَيَحْمَدُ عَشْرًا وَيُكَبِّرُ عَشْرًا فَذَلِكَ خَمْسُونَ وَمِائَةٌ بِاللِّسَانِ وَأَلْفٌ وَخَمْسُمِائَةٍ فِي الْمِيزَانِ وَيُكَبِّرُ أَرْبَعًا وَثَلاَثِينَ إِذَا أَخَذَ مَضْجَعَهُ وَيَحْمَدُ ثَلاَثًا وَثَلاَثِينَ وَيُسَبِّحُ ثَلاَثًا وَثَلاَثِينَ فَذَلِكَ مِائَةٌ بِاللِّسَانِ وَأَلْفٌ فِي الْمِيزَانِ \". فَلَقَدْ رَأَيْتُ رَسُولَ اللَّهِ يَعْقِدُهَا بِيَدِهِ قَالُوا يَا رَسُولَ اللَّهِ كَيْفَ هُمَا يَسِيرٌ وَمَنْ يَعْمَلُ بِهِمَا قَلِيلٌ قَالَ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 5065، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 5065 (General Behavior (Kitab Al-Adab)), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 5065، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 5065 (book 43 hadith 293); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

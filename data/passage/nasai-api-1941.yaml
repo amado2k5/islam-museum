@@ -1,0 +1,17 @@
+id: passage/nasai-api-1941
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1941"
+label: { ar: "سنن النسائي 1941 — قيراط الأجر", en: "Sunan al-Nasa'i 1941 — the qirat of reward", ur: "سنن نسائی 1941 — اجر کا قیراط" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدٌ، قَالَ حَدَّثَنَا أَشْعَثُ، عَنِ الْحَسَنِ، عَنْ عَبْدِ اللَّهِ بْنِ الْمُغَفَّلِ، قَالَ قَالَ رَسُولُ اللَّهِ \" مَنْ تَبِعَ جَنَازَةً حَتَّى يُفْرَغَ مِنْهَا فَلَهُ قِيرَاطَانِ فَإِنْ رَجَعَ قَبْلَ أَنْ يُفْرَغَ مِنْهَا فَلَهُ قِيرَاطٌ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 1941، يذكر قيراط الأجر. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 1941 (The Book of Funerals), that speaks of the qirat of reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 1941، جس میں اجر کا قیراط کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1941 (book 21 hadith 124); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

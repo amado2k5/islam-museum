@@ -10,16 +10,18 @@ summary:
 wings:
 - place
 regions:
-- global
+- levant-iraq
 coordinates:
-- 0
-- 0
-coordinate_precision: locality
-coordinate_note: Wikidata Q1550572.
+- 33.16667
+- 35.36667
+coordinate_precision: approx
+coordinate_note: "GeoNames 278960 (Jabal ‘Āmil, mountains, Nabatieh, Lebanon), read 11 November 2026: one representative point for an upland region of southern Lebanon that has no fixed boundary. The Wikidata item Q1550572 carries no coordinates, which is why the record held the placeholder [0, 0] until then."
 external_ids:
   wikidata: Q1550572
+  geonames: "278960"
 sources:
 - source/wikidata
+- source/geonames-gazetteer
 status:
   review: draft
   completeness: 1
@@ -32,3 +34,8 @@ provenance:
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
   source: Wikidata item Q1550572 (labels, coordinates, description)
+  extensions:
+  - generated_by: Claude Code
+    model: claude-fable-5-2
+    run: place-coordinates-2026-11-11
+    source: "Coordinates and GeoNames id from GeoNames 278960 (docs/authenticity-ledger/pages/geonames-jabal-amel.yaml), replacing the placeholder [0, 0]; precision set to approx because the record is a region; region tag from the country. Labels, summary, kind and Wikidata id unchanged."

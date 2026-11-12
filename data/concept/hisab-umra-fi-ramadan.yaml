@@ -1,0 +1,49 @@
+id: concept/hisab-umra-fi-ramadan
+class: concept
+kind: doctrine
+label:
+  ar: "عمرة في رمضان تعدل حجة"
+  en: "An umra in Ramadan equals a hajj"
+  ur: "رمضان کا عمرہ حج کے برابر"
+summary:
+  ar: "قال النبي لامرأة من الأنصار فاتها الحج معه لأن بعير أهلها كان مشغولا: إذا جاء رمضان فاعتمري، فإن عمرة فيه تعدل حجة، في رواية ابن عباس عند مسلم [[passage/muslim-api-3037]]. والقصة تبيّن أن المعادلة جاءت جوابا لمن فاته العمل الأكبر بعذر."
+  en: "The Prophet said to a woman of the Ansar who had missed the hajj with him because her household's camel was in use: when Ramadan comes, perform the umra, for an umra in it equals a hajj, in Ibn Abbas's narration in Muslim [[passage/muslim-api-3037]]. The story shows that the equation came as an answer to someone who had missed the greater act for a reason."
+  ur: "نبی نے انصار کی ایک خاتون سے، جو گھر کے اونٹ کے مصروف ہونے کی وجہ سے آپ کے ساتھ حج نہ کر سکی تھیں، فرمایا: جب رمضان آئے تو عمرہ کر لینا، کیونکہ اس میں عمرہ حج کے برابر ہے، ابن عباس کی روایت میں جو مسلم میں ہے [[passage/muslim-api-3037]]۔ واقعہ بتاتا ہے کہ یہ مساوات اس کے جواب میں آئی جس سے بڑا عمل عذر کی وجہ سے رہ گیا تھا۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+order: 21
+reckoning:
+  effect: hasanat
+  unbounded: true
+  unit:
+    ar: "لكل عمرة في رمضان"
+    en: "per umra in Ramadan"
+    ur: "رمضان کے ہر عمرے پر"
+  result:
+    ar: "تعدل حجة"
+    en: "it equals a hajj"
+    ur: "حج کے برابر"
+  basis: [passage/muslim-api-3037]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+- source/hadith-api-fawazahmed0
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

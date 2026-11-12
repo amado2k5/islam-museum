@@ -1,0 +1,55 @@
+$ python3 scripts/courses/find_entity.py "al-Jazari" "الجزري" "Ibn al-Razzaz"
+searched ['al-Jazari', 'الجزري', 'Ibn al-Razzaz'] (normalised: ['jazari', 'جزري', 'razzaz'])
+REAL RECORDS: 61
+  exact  person/ibn-al-athir-al-jazri                            Ibn al-Athir al-Jazri | ابن الأثير الجزري  (degree 20, prose ar,en,ur)
+  exact  person/ibn-al-athir-izz-al-din                          Ibn al-Athir Izz al-Din | ابن الأثير عز الدين  (degree 10, prose ar,en,ur)
+  exact  person/ibn-al-athir-diya-al-din                         Ibn al-Athir Diya' al-Din | ابن الأثير ضياء الدين  (degree 8, prose ar,en,ur)
+  exact  person/ibn-al-athir-imad-al-din                         Ibn al-Athir Imad al-Din | ابن الأثير عماد الدين  (degree 4, prose ar,en,ur)
+  exact  person/ibn-al-jazari                                    Shams al-Din Ibn al-Jazari | شمس الدين ابن الجزري  (degree 4, prose ar,en,ur)
+  exact  person/ibn-al-athir-najm-al-din                         Ibn al-Athir Najm al-Din | ابن الأثير نجم الدين  (degree 2, prose ar,en,ur)
+  words  person/al-jazari-engineer                               Al-Jazari, Ismail ibn al-Razzaz | الجزري، إسماعيل بن الرزاز  (degree 22, prose ar,en,ur)
+  words  person/ibn-al-razzaz-said                                | أبو منصور بن الرزاز  (degree 6, prose ar,en,ur)
+  words  invention/jazari-double-piston-pump                     Al-Jazari's waterwheel-driven double-piston pump | مضخة الجزري المائية ذات المكبسين  (degree 4, prose ar,en,ur)
+  words  invention/jazari-peacock-washer                         Al-Jazari's peacock hand-washing design | طاووس الجزري لغسل اليدين  (degree 4, prose ar,en,ur)
+
+$ python3 scripts/courses/find_entity.py "astrolabe" "الأسطرلاب" "asturlab"
+searched ['astrolabe', 'الأسطرلاب', 'asturlab'] (normalised: ['astrolabe', 'اسطرلاب', 'asturlab'])
+REAL RECORDS: 24
+  words  invention/tusi-linear-astrolabe                         Sharaf al-Din al-Tusi's linear astrolabe | أسطرلاب شرف الدين الطوسي الخطي  (degree 2, prose ar,en,ur)
+  words  invention/universal-astrolabe-al-zarqali                Al-Zarqali's universal astrolabe plate | الصفيحة الجامعة عند الزرقالي  (degree 2, prose ar,en,ur)
+  words  work/biruni-istiab-astrolabe                            Full discussion of possible astrolabe constructions | استيعاب الوجوه الممكنة في صنعة الأسطرلاب  (degree 2, prose ar,en,ur)
+  words  work/nuzhat-al-tullab-fi-ilm-al-asturlab                Nuzhat al-tullab fi ilm al-asturlab (Umayya ibn Abi al-Salt al-Andalusi) | نزهة الطلاب في علم الأسطرلاب ⁦(أمية بن أبي الصلت)⁩  (degree 2, prose ar,en,ur)
+  words  work/risalat-al-mizzi-fi-al-asturlab                    Risalat al-Mizzi fi al-asturlab (al-Mizzi's treatise on the astrolabe) | رسالة المزي في الأسطرلاب  (degree 2, prose ar,en,ur)
+  words  work/tuhfat-al-tullab-fi-al-amal-bil-asturlab           Tuhfat al-tullab fi al-amal bil-asturlab (Ibn al-Saffar) | تحفة الطلاب في العمل بالأسطرلاب ⁦(ابن الصفار)⁩  (degree 2, prose ar,en,ur)
+  words  object/astrolabe-umar-ibn-yusuf                         Astrolabe of Umar ibn Yusuf | أسطرلاب عمر بن يوسف  (degree 0, prose ar,en,ur)
+  words  object/usturlab-farsi-1600                              Persian Astrolabe, 1600–1700 | أسطرلاب فارسي (1600–1700)  (degree 0, prose ar,en,ur)
+  words  object/usturlab-farsi-1667                              Persian Astrolabe, 1667 | أسطرلاب فارسي (1667)  (degree 0, prose ar,en,ur)
+  words  object/usturlab-farsi-17                                Persian Astrolabe, 17th c. | أسطرلاب فارسي ⁦(قرن 17)⁩  (degree 0, prose ar,en,ur)
+
+$ python3 scripts/courses/find_entity.py "Maragha observatory" "مرصد مراغة" "Maragheh" "رصد مراغة"
+searched ['Maragha observatory', 'مرصد مراغة', 'Maragheh', 'رصد مراغة'] (normalised: ['maragha observatory', 'مرصد مراغه', 'maragheh', 'رصد مراغه'])
+REAL RECORDS: 5
+  exact  exhibit/path-maragha                                    The Maragha Observatory | مرصد مراغة  (degree 0, prose ar,en,ur)
+  words  building/blue-dome-maragheh                             Blue Dome, Maragheh | القبة الزرقاء ⁦(مراغة)⁩  (degree 0, prose none)
+  words  building/ghaffariyeh-dome                               Ghaffariyeh Dome, Maragheh | قبة غفارية  (degree 0, prose none)
+  words  building/modavar-dome                                   Modavar Dome, Maragheh | قبة مدآور  (degree 0, prose none)
+  words  building/red-dome-maragheh                              Red Dome, Maragheh | القبة الحمراء ⁦(مراغة)⁩  (degree 0, prose none)
+STUBS (not records; never link a connection to one): 1
+         building/maragha-observatory
+
+$ python3 scripts/courses/find_entity.py "Kitab al-Hiyal" "كتاب الحيل" "Ingenious Devices" "Banu Musa" "بنو موسى"
+searched ['Kitab al-Hiyal', 'كتاب الحيل', 'Ingenious Devices', 'Banu Musa', 'بنو موسى'] (normalised: ['hiyal', 'كتاب حيل', 'ingenious devices', 'banu musa', 'بنو موسي'])
+REAL RECORDS: 16
+  exact  group/banu-musa                                         Banu Musa | بنو موسى  (degree 0, prose ar,en,ur)
+  words  person/musa-ibn-musa-banu-qasi                          Musa ibn Musa ibn Qasi | موسى بن موسى بن قسي  (degree 4, prose none)
+  words  work/ibtal-al-hiyal                                     Ibtal al-Hiyal | إبطال الحيل  (degree 0, prose none)
+STUBS (not records; never link a connection to one): 1
+         work/kitab-al-hiyal
+
+$ python3 scripts/courses/find_entity.py "Sultan bin Salman" "سلطان بن سلمان"
+searched ['Sultan bin Salman', 'سلطان بن سلمان'] (normalised: ['sultan salman', 'سلطان بن سلمان'])
+REAL RECORDS: 4
+  words  person/sultan-bin-salman-al-saud                        Sultan bin Salman Al Saud | سلطان بن سلمان آل سعود  (degree 2, prose ar,en,ur)
+STUBS (not records; never link a connection to one): 1
+         person/sultan-bin-salman
+

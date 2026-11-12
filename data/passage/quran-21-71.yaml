@@ -16,6 +16,7 @@ translations:
   en: { text: "And We rescued him and Lot (and brought them) to the land which We have blessed for (all) peoples.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ابراہیم اور لوط کو اس سرزمین کی طرف بچا نکالا جس میں ہم نے اہل عالم کے لئے برکت رکھی تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: place/al-sham, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-21 }
   - { type: mentions, target: person/lut, sources: [source/tanzil-quran] }
 sensitivity: sacred

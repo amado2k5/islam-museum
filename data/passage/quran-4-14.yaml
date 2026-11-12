@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جو خدا اور اس کے رسول کی نافرمانی کرے گا اور اس کی حدوں سے نکل جائے گا اس کو خدا دوزخ میں ڈالے گا جہاں وہ ہمیشہ رہے گا۔ اور اس کو ذلت کا عذاب ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
+  - { type: mentions, target: concept/hudud-allah-wal-kabair, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations, source/tafsir-tabari-shakir-v08]

@@ -1,0 +1,48 @@
+id: concept/hisab-sawm-arafa-wa-ashura
+class: concept
+kind: doctrine
+label:
+  ar: "صوم يوم عرفة ويوم عاشوراء"
+  en: "Fasting the day of Arafa and the day of Ashura"
+  ur: "یومِ عرفہ اور یومِ عاشورا کا روزہ"
+summary:
+  ar: "في حديث أبي قتادة عند مسلم أن صيام يوم عرفة يُحتسب على الله أن يكفّر السنة التي قبله والسنة التي بعده، وأن صيام يوم عاشوراء يُحتسب على الله أن يكفّر السنة التي قبله، وأن ثلاثا من كل شهر ورمضان إلى رمضان صيام الدهر كله [[passage/muslim-1162]]. والوحدة هنا زمنية: يوم بسنة أو بسنتين."
+  en: "In Abu Qatada's hadith in Muslim, the fast of the day of Arafa is hoped from God to expiate the year before it and the year after, the fast of the day of Ashura to expiate the year before it, and three days of every month with Ramadan to Ramadan are the fast of all time [[passage/muslim-1162]]. The unit here is time: a day for a year, or for two."
+  ur: "مسلم میں ابو قتادہ کی حدیث میں ہے کہ یومِ عرفہ کے روزے سے اللہ سے امید ہے کہ پچھلے اور اگلے سال کا کفارہ ہو، یومِ عاشورا کے روزے سے پچھلے سال کا، اور ہر مہینے کے تین روزے اور رمضان سے رمضان پورے زمانے کے روزے ہیں [[passage/muslim-1162]]۔ یہاں اکائی وقت ہے: ایک دن کے بدلے ایک یا دو سال۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+order: 17
+reckoning:
+  effect: erasure
+  unbounded: true
+  unit:
+    ar: "لكل يوم يُصام"
+    en: "per day fasted"
+    ur: "ہر روزے کے دن پر"
+  result:
+    ar: "عرفة: يكفّر السنة التي قبله والسنة التي بعده؛ عاشوراء: يكفّر السنة التي قبله"
+    en: "Arafa: expiates the year before it and the year after; Ashura: expiates the year before it"
+    ur: "عرفہ: پچھلے اور اگلے سال کا کفارہ؛ عاشورا: پچھلے سال کا کفارہ"
+  basis: [passage/muslim-1162]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

@@ -16,6 +16,7 @@ translations:
   en: { text: "And the dwellers in Al-Hijr denied (Our) messengers.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور (وادی) حجر کے رہنے والوں نے بھی پیغمبروں کی تکذیب کی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: place/al-hijr, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

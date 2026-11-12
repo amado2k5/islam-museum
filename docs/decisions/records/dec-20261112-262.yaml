@@ -1,0 +1,51 @@
+id: dec-20261112-262
+kind: override
+date: '2026-11-12'
+expires_at: '2027-11-12'
+question_hash: 9ea4ca597acf
+lane: place-coordinates
+class: data
+modality: repo
+domain: sources
+mode: conservative
+question: 'A place record''s own sources give no coordinates for it (its Wikidata item and Wikipedia articles carry none, and GeoNames has no entry). May the record take the coordinates of another feature, and under what condition?'
+options:
+- 'only when a cited source places that feature inside the record''s place, so the point lies on the place itself; recorded as approx with a note naming the feature'
+- 'also when sources only name the containing city or quarter, or a nearby feature; recorded as approx at that city, quarter or neighbour'
+- 'never; leave the placeholder and hold every such record for the founder'
+evidence:
+- 'data/place/al-wardya-cemetery.yaml: Wikidata Q29513771 has no coordinate claim; Arabic Wikipedia (revision 70599944) says the cemetery''s ground surrounds the mosque of Shaykh Umar al-Suhrawardi, citing the Sunni Endowment Office''s guide p. 60; the mosque''s Wikidata item Q28716432 gives 33.35055556, 44.40194444 at revision 2468638431.'
+- 'data/place/fadl-mosque.yaml, grave-of-al-ghazali.yaml, al-nawbakhti-shrine.yaml, sirwan.yaml: sources name only the quarter, the city or nearby features (the Fadl quarter; near Bab al-Sheikh and Sheikh Omar Street; between the Shorja market and al-Rashid Street; near Rayy), none of which pins the site.'
+- '1,845 place records already carry coordinate_precision approx with a coordinate_note; 55 of them say ''Approximate region-center placement; exact site unlocated''.'
+- 'AGENTS.md: never invent a fact; Wikipedia and Wikidata facts need a recorded revision and a ledger entry. docs/ai-change-gates.md section 2: stay inside the task.'
+status: decided
+step: override
+decision: 'A place record may take another feature''s coordinates only when a cited source places that feature inside the record''s place, so that the point lies on the place itself. The point is recorded with coordinate_precision approx, a coordinate_note that names the feature and says the point is not the place''s measured centre, and a ledger page for each Wikipedia or Wikidata revision read. Applied once: place/al-wardya-cemetery takes the point of the mosque of Shaykh Umar al-Suhrawardi, which stands inside the cemetery. Where the sources name only a containing city or quarter, or a nearby feature, no coordinates are recorded by the agent: place/fadl-mosque, place/grave-of-al-ghazali, place/al-nawbakhti-shrine and place/sirwan keep their records unchanged and are listed for the founder in docs/delegation/place-coordinates-held-proposal.md, with city-level placement as an option for him to approve.'
+correct_outcome: anchor-point-inside-only
+wrong_outcome: rule-external-id-failclosed
+confidence: 0.85
+reversible: true
+rationale: 'dec-238 answered with rule-external-id-failclosed, which is about omitting an identifier that cannot be confirmed. Its spirit (state the gap, do not guess) agrees with holding the four records that have no citable position, but it does not answer whether a point that a cited source places inside the record''s place may stand for it. A point inside the cemetery is a true statement about where the cemetery is, at the precision the note declares; a city centre is not a statement about where a mosque or a grave is, and four Baghdad sites stacked on one pin would read as a position no source gives. The golden set does hold records placed at a regional centre, so that option is not ruled out: it is left for the founder. The change is one edit on one record and is undone by restoring the previous coordinates.'
+supersedes: dec-20261112-238
+override_reason:
+  category: rule-false-positive
+  detail: 'rule-external-id-failclosed matched the words "Wikidata item" and "GeoNames ... entry" in a question about coordinates, not identifiers. A keyword false positive in the rule gates.'
+  overridden_by: claude-place-coordinates
+signals:
+  matched_rule_id: rule-external-id-failclosed
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: claude-place-coordinates
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: '2026-11-12'

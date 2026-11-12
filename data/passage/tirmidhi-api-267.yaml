@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-267
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "267"
+label: { ar: "جامع الترمذي 267 — مغفرة ما تقدم من الذنب", en: "Jami' al-Tirmidhi 267 — forgiveness of past sins", ur: "جامع ترمذی 267 — پچھلے گناہوں کی مغفرت" }
+text: "… قَالَ الإِمَامُ سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ. فَقُولُوا رَبَّنَا وَلَكَ الْحَمْدُ فَإِنَّهُ مَنْ وَافَقَ قَوْلُهُ قَوْلَ الْمَلاَئِكَةِ غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ. وَالْعَمَلُ عَلَيْهِ عِنْدَ بَعْضِ أَهْلِ الْعِلْمِ مِنْ أَصْحَابِ النَّبِيِّ وَمَنْ بَعْدَهُمْ أَنْ يَقُولَ الإِمَامُ سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ رَبَّنَا وَلَكَ الْحَمْدُ. وَيَقُولُ مَنْ خَلْفَ الإِمَامِ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 267، يذكر مغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 267 (The Book on Salat (Prayer)), that speaks of forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 267، جس میں پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 267 (book 2 hadith 119); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

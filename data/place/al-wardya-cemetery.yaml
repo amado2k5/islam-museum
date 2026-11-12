@@ -11,16 +11,17 @@ summary:
 wings:
 - place
 regions:
-- global
+- levant-iraq
 coordinates:
-- 0
-- 0
-coordinate_precision: locality
-coordinate_note: Wikidata Q29513771.
+- 33.35056
+- 44.40194
+coordinate_precision: approx
+coordinate_note: "The point of the mosque and mausoleum of Shaykh Umar al-Suhrawardi (Wikidata Q28716432, coordinate claim P625), which stands inside the cemetery: the Arabic Wikipedia article on the cemetery says its ground surrounds that mosque and that the cemetery is now called after Shaykh Umar. It is a point within the cemetery, not its measured centre. The cemetery's own Wikidata item Q29513771 carries no coordinates, which is why the record held the placeholder [0, 0] until 11 November 2026."
 external_ids:
   wikidata: Q29513771
 sources:
 - source/wikidata
+- source/wikipedia-al-wardya-cemetery-ar
 status:
   review: draft
   completeness: 1
@@ -34,3 +35,8 @@ provenance:
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
   source: Wikidata item Q29513771 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q29513771 (labels, coordinates, description)
+  extensions:
+  - generated_by: Claude Code
+    model: claude-fable-5-2
+    run: place-coordinates-2026-11-11
+    source: "Coordinates replace the placeholder [0, 0] with the point of the Suhrawardi mosque inside the cemetery (Wikidata Q28716432 at revision 2468638431; Arabic Wikipedia at revision 70599944 for the statement that the cemetery surrounds the mosque; ledger pages wikidata-al-wardya-cemetery and wikipedia-al-wardya-cemetery-ar; decision record dec-20261112-239); region tag from the country. Labels, summary, kind and Wikidata id unchanged."

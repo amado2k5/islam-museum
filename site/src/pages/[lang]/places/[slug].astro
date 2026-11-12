@@ -1,0 +1,132 @@
+---
+// A Sacred Places Browser subject page (docs/plan/49-places-browser.md): one place or building —
+// its summary, the Qur'an ayahs that mention it (text from the frozen Tanzil passage records,
+// never typed on the page), the sunnah reports, the seerah reports, the other harvested books,
+// and the museum records it links to. Everything is composed from the compiled graph at build
+// time through `mentioned_in` edges, so a mention in a book harvested later appears here
+// automatically.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { byId, href, labelOf, summaryRaw, stripNeedsSource } from "../../../lib/graph";
+import { renderProse, newHonState } from "../../../lib/markdown";
+import { placesItems, passagesOf, relatedOf } from "../../../lib/places";
+
+export function getStaticPaths() {
+  const seen = new Set<string>();
+  return LANGS.flatMap((lang) =>
+    placesItems.flatMap((i) => {
+      let slug = i.node.slug ?? i.node.id.split("/")[1];
+      if (seen.has(slug)) slug = `${i.node.class}-${slug}`;
+      seen.add(slug);
+      return [{ params: { lang, slug }, props: { lang, item: i } }];
+    }),
+  );
+}
+const { lang, item } = Astro.props as { lang: Lang; item: (typeof placesItems)[number] };
+const n = item.node;
+const T = ui(lang);
+const N = (T as any).places;
+const title = labelOf(n, lang);
+const ledeR = renderProse(summaryRaw(n, lang), lang, newHonState());
+// citation numbers are per-render; re-number globally and collect them for the footnote list
+const citeList: { source: string; locator?: string }[] = [];
+const citeIndex = (c: { source: string; locator?: string }) => {
+  let i = citeList.findIndex((x) => x.source === c.source && x.locator === c.locator);
+  if (i < 0) { citeList.push(c); i = citeList.length - 1; }
+  return i + 1;
+};
+const renumberR = (r: { html: string; cites: { n: number; source: string; locator?: string }[] }) => {
+  const map = new Map(r.cites.map((c) => [c.n, citeIndex(c)]));
+  return (h: string) =>
+    h.replace(/<sup class="cite"><a href="#note-(\d+)" id="cite-\d+-\d+">\d+<\/a><\/sup>/g, (_m, k) => {
+      const g = map.get(Number(k))!;
+      return `<sup class="cite"><a href="#note-${g}">${g}</a></sup>`;
+    });
+};
+const ledeHtml = renumberR(ledeR)(ledeR.html);
+const corpus = passagesOf(n.id);
+const related = relatedOf(n.id);
+const section = item.section;
+const sectionTitle = N.sections[section]?.title ?? section;
+// Ayah card: verse text + ref + the page language's translation (Arabic shows none — the text is Arabic).
+const ayah = (p: any) => ({
+  href: href(lang, p.id),
+  ref: p.data.ref,
+  text: p.data.text,
+  tr: lang === "ar" ? "" : p.data.translations?.[lang]?.text ?? p.data.translations?.en?.text ?? "",
+});
+const report = (p: any) => ({
+  href: href(lang, p.id),
+  label: p.label?.[lang] ?? p.label?.en ?? p.id,
+  summary: stripNeedsSource(p.data.summary?.[lang] ?? p.data.summary?.ar ?? ""),
+  summaryLang: (p.data.summary?.[lang] ?? p.data.summary?.ar) ? (p.data.summary?.[lang] ? lang : "ar") : lang,
+});
+const workLabel = (p: any) => (p.data.work ? labelOf(byId.get(p.data.work as string) ?? p, lang) : "");
+const reportSections = (["sunnah", "seerah", "books"] as const)
+  .map((k) => ({ id: `pc-${k}`, key: k, list: corpus[k] as any[] }))
+  .filter((s) => s.list.length > 0);
+const desc = stripNeedsSource(summaryRaw(n, lang)).replace(/\{cite:[^}]*\}/g, "").replace(/\[\[([a-z]+\/[a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_m, _id, c) => c ?? "").slice(0, 240);
+---
+<BaseLayout lang={lang} title={title} description={desc} path={`/${lang}/places/${(item.node.slug ?? n.id.split("/")[1])}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem">
+      <a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/places/`}>{N.title}</a> › {sectionTitle}
+    </nav>
+    <div data-pagefind-body>
+      <h1>{title}</h1>
+      <p class="lede" set:html={ledeHtml} />
+      <p class="ui"><a class="chip" href={href(lang, n.id)}>{N.entity_page}</a> <a class="chip" href={`/${lang}/places/#t-${section}`}>{sectionTitle}</a></p>
+    </div>
+
+    {corpus.quran.length > 0 && (
+      <section aria-labelledby="pq" style="margin-top:1.6rem">
+        <h2 id="pq">{N.corpora.quran.title} · {corpus.quran.length}</h2>
+        <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;gap:12px">
+          {corpus.quran.map((p) => { const a = ayah(p); return (
+            <li class="panel" style="padding:14px 16px">
+              <p lang="ar" dir="rtl" style="font-family:var(--ar-quran);font-size:1.35rem;line-height:2.1;margin:0">{a.text}</p>
+              {a.tr && <p class="muted" style="margin:.5rem 0 0">{a.tr}</p>}
+              <p class="ui" style="margin:.5rem 0 0;font-size:.9rem"><a href={a.href}>{N.quran_ref} {a.ref}</a></p>
+            </li>
+          ); })}
+        </ol>
+      </section>
+    )}
+
+    {reportSections.map((sec) => (
+      <section aria-labelledby={sec.id} style="margin-top:1.6rem">
+        <h2 id={sec.id}>{N.corpora[sec.key]?.title ?? sec.id} · {sec.list.length}</h2>
+        <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;gap:12px">
+          {sec.list.map((p) => { const h = report(p); return (
+            <li class="panel" style="padding:14px 16px">
+              <p style="margin:0;font-weight:600"><a href={h.href}>{h.label}</a></p>
+              <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">{workLabel(p)}{p.data.ref ? ` · ${p.data.ref}` : ""}</p>
+              {h.summary && <p class="muted" lang={h.summaryLang} style="margin:.4rem 0 0">{h.summary}</p>}
+            </li>
+          ); })}
+        </ol>
+      </section>
+    ))}
+
+    {citeList.length > 0 && (
+      <section class="sec ui" aria-labelledby="psrc" style="margin-top:1.6rem">
+        <h2 id="psrc">{T.entity.sources}</h2>
+        <ol style="padding-inline-start:1.4rem;font-size:.92rem">
+          {citeList.map((c, i) => {
+            const s = byId.get(c.source);
+            return <li id={`note-${i + 1}`}>{s ? labelOf(s as any, lang) : c.source}{c.locator ? `, ${c.locator}` : ""}</li>;
+          })}
+        </ol>
+      </section>
+    )}
+
+    {related.length > 0 && (
+      <section aria-labelledby="prel" style="margin-top:1.6rem">
+        <h2 id="prel">{N.related_title}</h2>
+        <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;list-style:none">
+          {related.map((r) => <li><a class="chip" href={href(lang, r.id)}>{labelOf(r, lang)}</a></li>)}
+        </ul>
+      </section>
+    )}
+  </div>
+</BaseLayout>
