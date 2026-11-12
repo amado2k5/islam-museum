@@ -859,3 +859,19 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 673 (printed) | 393 | the chain's narrator "أبو عبد الله" | the name is not given | recorded as "Abu Abd Allah" as in the text |
 | 673 (printed) | 393 | the verse of seeking forgiveness | Qur'an text is never typed | referred to by sense |
+
+## Batch 96 (run microsd-books-b96, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 394 (full text read before writing). New draft: person/hamid-shadhah (printed 674, sequence 675, 10/394; laqab "شادة"). No existing record of the name.
+- The name in the body reads "حامد بن المسبود/المسبور" in the scan; al-Musayyab is the likely reading and is flagged as not confirmed. The heading "حامد شادة" is used for the laqab.
+- The report on the good deed (from Muhammad ibn Abi Hurayra, with the Prophet's formula) is described, not quoted; no honorific is typed.
+- Printed 675 (Usayd ibn Asim, on 394) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 96)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 674 (printed) | 394 | the father's name "المسبود" / "المسبور" | garbled in the scan | read as al-Musayyab, flagged as likely |
+| 674 (printed) | 394 | the report on the good deed | a quoted report with an honorific | described only; not typed |
+| 674 (printed) | 394 | the closing number in the report ("سبدائة") | garbled in the scan | read as seven hundred; flagged |
