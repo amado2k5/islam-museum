@@ -16,6 +16,7 @@ translations:
   en: { text: "For them is the abode of peace with their Lord. He will be their Protecting Friend because of what they used to do.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "ان کے لیے ان کے اعمال کے صلے میں پروردگار کے ہاں سلامتی کا گھر ہے اور وہی ان کا دوستدار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/dar-al-salam, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-6 }
   - { type: mentions, target: concept/asma-al-salam, sources: [source/tanzil-quran] }
 sensitivity: sacred
