@@ -2055,3 +2055,18 @@ Next step: episode 22.
 | Repetition loops and garbled windows | ep26 00:04:00 (a very long loop of one letter in the middle of a sentence on love shown in conduct); ep27 00:03:00 (a very long loop in the Ibn Abbas story, where the lion was met is not recoverable); ep25 00:02:00 (the closing line of the Abd al-Malik anecdote is garbled), 00:03:30 (a half-clear sentence on encouraging rancour) | Not speech or not recoverable | Loop check, Clarity | Open |
 
 Resume point: ajaeb-al-kulub episode 28 (branch from origin/main).
+### al-naba-al-safi, episode 22 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-11)
+
+Episode 22 read in full (33 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 10 needs_source (unchained hadiths, sayings and accounts in sense).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep22 (between ease and hardship) | about 33 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 13 points | new `about` edges | 13 | 10 needs_source | this PR |
+
+Next step: episode 23.
+
+| Excluded (al-naba-al-safi ep22) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep22 00:00:00–00:01:00, 00:16:00–00:17:00, 00:31:00–00:33:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep22 00:06:30, 00:07:30, 00:13:30, 00:17:30, 00:22:00, 00:23:00–00:24:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep22 00:03:00–00:03:30 | Not reproduced | Sources policy | Open |
