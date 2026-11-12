@@ -526,3 +526,12 @@ First explore-list family scored against the eight criteria (verification date 9
 - Nomisma: each mint concept read live (nmo:Mint, Arabic label, geo coordinates). Applied `external_ids.nomisma` and `source/nomisma` where the mint is 3.5 km or less from the record: al-mukalla, taraz, tulaytulah (place/tulaytula), acre, al-ramlah, khoy, tustar_min_al-ahwaz, sijilmasah, rabat, constantine_algeria, amol, bukhara, termez (place/tirmidh), tehran, kashan, jayy, dar_al-marz_rasht (place/rasht), jannaba, sari, ahwaz (place/al-ahwaz), murshidabad, burhanpur, belgrade.
 - Nomisma held: tashkent (7.4 km) and mashhad (4.0 km).
 - Tour mirror: none of the 39 edited records is a tour stop; `tour/halls.yaml` unchanged.
+
+## 2026-11-12 (p30) — iDAI remainder, Nomisma remainder, manuscript-catalogue assessment
+
+- iDAI applied (distance <= 1.5 km, populated-place, name and Arabic match re-read): sabzevar 2733406, unaizah 2770740 (its GeoNames id 8394316 is not on the gazetteer entry; noted).
+- iDAI HELD: sanaa 2777018 (1 km, but the gazetteer entry is the old city, المدينة القديمة, not the city record; GeoNames differs 6940658 vs 71137). Also: harat and fes (their ids are already on herat and fez), asilah (the entry is the ancient site Zilil).
+- Nomisma applied (mint within 3.5 km): tiberias, tyre, sidon, antioch (antiocheia_syria), jabala (gabala), tarabulus-sham (tripolis_phoenicia), al-madain (ctesiphon), adana.
+- Nomisma HELD: babil (babylon, 2.2 km; mint definition is the ancient site, not clearly an Islamic-period mint); ascalon (the concept fetch failed twice; retry later).
+- Manuscript catalogues: Leiden Digital Collections has no content licence (LICENSE.txt covers the site software); robots allows; Crawl-delay 10. Chester Beatty online collections: robots disallows search and OAI; the terms URL returns 404; no licence line found. Neither qualifies under criterion 3 (a public terms page must exist). NOT registered.
+- BnF Gallica: robots.txt answers a Cloudflare challenge (403). Not reachable; deferred again.
