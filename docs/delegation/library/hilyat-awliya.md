@@ -170,3 +170,14 @@
 |---|---|---|---|---|
 | 469 | 126 | the word after "رجل" (given as "لديرانى" in the scan) | unclear | read as "a monk of the monasteries (Dayrani)" with the reading flagged as uncertain in the note |
 | 469 | 125 | a hadith on the Friday prayer, the ending of the anecdote | cut in the scan | described only as far as the text runs |
+
+## Batch 36 (run microsd-books-b44, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 128–130 (full text read before writing). New drafts: `person/ibrahim-ibn-shammas` (470, 10/128), `person/muhammad-ibn-amr-al-maghribi` (471, 10/128–130). The earlier draft of 471 had an unfinished sentence and a garbled reporter name; both were rewritten before commit, and the Moses and Aisha hadiths on 10/129–130 were added.
+
+## Exclusions and garbled readings (batch 44)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 471 | 128 | the reporter's name in the chain ("أبو د… بن حيان") | smudged in the scan | not named; the chain is not attributed |
+| 471 | 128 | the sentence after "أكلتين من غير تكلف" in Ramadan | cut in the scan | not recorded |
+| 471 | 129–130 | Qur'anic verses cited | Qur'an text never typed | none quoted; the Moses and Aisha hadiths are described |
