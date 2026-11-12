@@ -1641,3 +1641,19 @@ Next step: episode 20.
 | Openings, greetings, supplications, closing formulae | ep19 00:00:00–00:00:30, 00:24:00–00:24:30 | Not lesson content | Content rule | Open |
 | Repetition loops and garbled windows | ep19 00:03:00–00:03:30, 00:04:30–00:05:00, 00:09:30, 00:13:30–00:14:30, 00:15:00–00:15:30, 00:17:30, 00:19:00–00:20:00, 00:20:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Hadith wording | ep19 00:04:00–00:06:30, 00:12:00–00:14:30 | Wording not typed; by sense only | Hadith rule | Open |
+
+### al-manjeyat, episode 20 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-manjeyat-8)
+
+Episode 20 read in full (24 min of transcript) before writing. 8 points written (ar, en, ur); new `about` edges for the people and passages named; 6 needs_source (unchained accounts and hadiths in sense, unsourced claims and a garbled passage).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-manjeyat ep20 (praiseworthy character) | about 24 min (transcript) | ar, en, ur: work/al-manjeyat extended, 8 points | new `about` edges | 8 | 6 needs_source | this PR |
+
+Next step: episode 21.
+
+| Excluded (al-manjeyat ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, closing formulae | ep20 00:00:00–00:01:00, 00:23:00–00:23:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep20 00:13:00, 00:19:00–00:20:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Hadith and saying wording | ep20 00:05:30–00:06:30, 00:09:30–00:10:00 | Wording not typed; by sense only | Hadith rule | Open |
