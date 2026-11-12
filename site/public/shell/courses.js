@@ -61,6 +61,9 @@
         write("courses:done", done); paint();
       });
     }
+    var rail = function () { $$("a[data-cx-lesson]").forEach(function (a) { a.classList.toggle("is-done", !!done[course + "/" + a.getAttribute("data-cx-lesson")]); }); };
+    rail();
+    if (btn) btn.addEventListener("click", rail);
     var pr = $("[data-cx-print]");
     if (pr) { pr.hidden = false; pr.addEventListener("click", function () { window.print(); }); }
 

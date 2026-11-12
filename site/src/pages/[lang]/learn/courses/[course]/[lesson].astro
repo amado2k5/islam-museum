@@ -52,6 +52,7 @@ const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
       <a class="cx-btn" href={coursePath(lang, c)}>{C.course_map}</a>
     </div>
     <p class="cx-draft ui">{C.draft_note}</p>
+    <div class="cx-layout">
     <div class="cx-loop">
       <section class="cx-step" id="goal" data-cx-step>
         <h2><i aria-hidden="true">{stepN("goal")}</i> {C.goal_title}</h2>
@@ -137,6 +138,18 @@ const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
         </div>
       </section>
     </div>
+    <aside class="cx-rail no-print" aria-label={C.you_are_here}>
+      <p class="cx-rail-t ui">{C.you_are_here}</p>
+      <p class="cx-rail-c"><a href={coursePath(lang, c)}>{courseTitle}</a></p>
+      {v.strand.node && <p class="cx-rail-s">{labelOf(v.strand.node, lang)}</p>}
+      <ol class="cx-rail-l">
+        {v.strand.lessons.map((x) => (
+          <li><a href={lessonPath(lang, c, x)} data-cx-lesson={slugOf(x)} aria-current={x === l ? "page" : undefined}><span class="cx-num" aria-hidden="true">{num(c.lessons.indexOf(x) + 1, lang)}</span><span>{labelOf(x, lang)}</span></a></li>
+        ))}
+      </ol>
+      <p class="ui"><a href={coursePath(lang, c)}>{C.course_map} <span class="flip" aria-hidden="true">→</span></a></p>
+    </aside>
+    </div>
 
     <nav class="cx-nav no-print" aria-label={C.course_map}>
       {v.prev && <a class="cx-prev" href={lessonPath(lang, c, v.prev)} rel="prev"><small><span class="flip" aria-hidden="true">←</span> {C.prev}</small>{labelOf(v.prev, lang)}</a>}
@@ -151,7 +164,7 @@ const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
         <ol>{v.cites.map((n) => <li id={`note-${n.n}`}>{n.href ? <a href={n.href}>{n.label}</a> : n.label}{n.locator ? `, ${n.locator}` : ""}</li>)}</ol>
       </section>
     )}
-    <p class="ui muted no-print" style="font-size:.85rem;margin-top:18px"><a href={href(lang, l.id)}>{C.record_page}</a></p>
+    <p class="ui muted no-print cx-recordlink" style="font-size:.85rem;margin-top:18px"><a href={href(lang, l.id)}>{C.record_page}</a></p>
 
     <div class="cx-pres-bar" data-cx-presbar>
       <button type="button" class="cx-btn" data-cx-pres-prev><span class="flip" aria-hidden="true">←</span> {C.classroom_prev}</button>
