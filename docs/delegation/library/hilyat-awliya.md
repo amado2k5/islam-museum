@@ -578,3 +578,15 @@
 | 540 (printed) | 165–166 | the verses | paraphrased, not quoted | described in prose |
 | 541 (printed) | 166 | the chain's first name ("عثمان بن محمد العثماني") and the sheikh "أبو الحسن المذكر" | legible; given as read | no flag |
 | 542 (printed) | 166 | the transmitter name after "عثمان بن د" | garbled in the scan | not given |
+
+## Batch 76 (run microsd-books-b76, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 166–167 (full text read before writing). New draft, printed number kept with the sequence number noted: person/jabir-al-rahbi (printed 543, sequence 544, 10/166–167). The heading reads "الرحى" and the body reads "الرحبي"; the body is used, since the heading is a misprint of the same nisba. Printed 544 (an unnamed man "المستأنس بالحق، المستوحش من الخلق"; his name is hidden in the text) begins at the top of 10/167 and runs onward onto 10/168; it is next.
+- Held: printed 532 stays held pending the coordinator's ruling; nothing written.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 76)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 543 (printed) | 166 | the nisba in the heading "الرحى" | misprint; the body reads "الرحبي" | the body reading is used; flagged |
+| 543 (printed) | 167 | the word "يفتضح" describing the splashing water | read as "يتطاير" (flies) | rendered as the water flying; flagged for revision |
