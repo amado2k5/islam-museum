@@ -1678,6 +1678,10 @@ explore:
       title: "Paradise Browser"
       desc: "Every mention of Paradise (al-janna) in the Qur'an, the Sunnah, the seerah and every harvested book — al-Firdaws, the gardens of 'Adn, Dar al-Salam, its rivers, gates, degrees, soil and people, and every report of the Companions and Successors — with every verse and report cited."
       menu: "Browse Paradise in the Qur'an, hadith and books"
+    qiyama:
+      title: "Resurrection and Reckoning Browser"
+      desc: "Every mention of the Resurrection, the Day of Judgement and the Reckoning in the Qur'an, the Sunnah, the seerah and every harvested book — the Day's names, the Trumpet, the raising and the gathering, the terrors, the display and the records, the Scale, the Shade, the Hawd, the intercession and the Sirat — with every verse and report cited."
+      menu: "Browse the Resurrection, the Day and the Reckoning"
     islamiceconomy:
       title: "Islamic Economy Browser"
       desc: "Every mention of money and Islamic economics, deeds and covenants, and endowment in the Qur'an, the Sunnah, the seerah and every harvested book — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — with every verse and report cited."
@@ -3524,6 +3528,38 @@ janna:
     curated:
       title: "Curated records"
       desc: "The museum's own records about Paradise — its names, gates, rivers, soil, degrees and people — shared through the janna-browser tag."
+qiyama:
+  title: "Resurrection and Reckoning Browser"
+  lede: "Every mention of the Resurrection (al-ba'th), the Day of Judgement (yawm al-qiyama) and the Reckoning (al-hisab) in the museum's sources: the Day's names in the Qur'an — al-Haqqa, al-Qari'a, al-Sakhkha, al-Ghashiya, yawm al-din, yawm al-fasl — the Trumpet blasts, the raising from the graves and the gathering, the terrors and the sweat and the drawn-near sun, the display and the scrolls, the first reckoning of the servant, the Scale and the weighing, the retaliation among creatures, the Shade, the Hawd, the intercession and the Sirat — every verse and report cited, in every harvested book, growing as new texts land."
+  badge: Resurrection explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Mentions are found at build time by a guarded lexicon over the passage texts: the Day's fixed compounds («يوم القيامة»، «يوم الدين»، «يوم الفصل»، «يوم الحساب»…) and its names (الحاقة، القارعة، الصاخة، الغاشية) count directly; ambiguous lexemes — «بعث» which can mean sending a messenger, «الساعة» a clock-hour, «حساب» arithmetic, «الصراط» the straight path, «شفاعة» any mediation — count only beside a resurrection or reckoning collocation, and verified false positives are excluded by id. Every book harvested later brings its mentions here automatically once its passages land in the graph; curated records join through the qiyama-browser tag. Each passage is marked baath (raising and gathering), yawm (the Day, its names and terrors) or hisab (reckoning, scale, records and crossing). The barzakh and the grave's question stay with the Signs of the Hour browser; the signs of the Hour themselves, Paradise and the Fire have their own browsers."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter mentions
+  filter_none: No matches.
+  empty: No qiyama records in this build yet.
+  kinds:
+    baath: "Resurrection — raising and gathering"
+    yawm: "The Day — names and terrors"
+    hisab: "Reckoning — scale, records, crossing"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The Qur'anic verses of the Resurrection and the Day: its names and its fifty-thousand-year measure, the Trumpet and the two blasts, the dead coming out of the graves, the earth shining with its Lord's light, the scrolls, the Scale, «لا ظل إلا ظله» and the verses of the Hawd-less pool of Kauthar's day."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The hadiths of the two Sahihs, the Muwatta, the Arba'in and the Sunan: the long hadith of the intercession, the first thing the servant is asked about, the feet that do not move until asked, the seven shaded in His shade, the Hawd and the Sirat, and the sayings of the Companions and the Successors on the Day."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry on the Resurrection, the gathering and the reckoning — this section fills itself as new seerah passages land."
+    books:
+      title: "In the harvested books"
+      desc: "Qiyama mentions in every other harvested work — creed, exegesis, history, poetry and whatever lands next — classified by the work's genre the day its passages arrive."
+    curated:
+      title: "Curated records"
+      desc: "The museum's own records on the Day and its stations — the Trumpet, the raising, the gathering, the display, the records, the reckoning, the Scale, the retaliation, the Shade, the Hawd, the intercession and the Sirat — shared through the qiyama-browser tag."
 nar:
   title: "The Fire Browser"
   lede: "Every mention of the Fire in the museum's sources: the verses of the Fire and its names — Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya and al-Sa'ir — the reports of its torment, keepers, fuel, zaqqum and boiling water, and the bridge over it, the «اتقوا النار» formulas of the Sunnah, the sayings of the Companions and the Successors, and this world's fire on its own shelf: Ibrahim's fire, the fire of Musa's tree, and the fire of war and cooking — in every harvested book, growing as new texts land."

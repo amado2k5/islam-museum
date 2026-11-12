@@ -10,6 +10,7 @@ import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
 import { mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf } from "./mukatabat.js";
 import { narKindOf, narSignalsOf } from "./nar.js";
 import { jannaKindOf, jannaSignalsOf } from "./janna.js";
+import { qiyamaKindOf, qiyamaSignalsOf } from "./qiyama.js";
 
 const makeNode = (id: string, cls: string, data: Record<string, any> = {}, prose: Record<string, any> = {}): Node => ({
   id, class: cls, slug: id.split("/")[1], label: { ar: id, en: id, ur: id }, summary: { ar: "", en: "", ur: "" }, stub: false,
@@ -62,7 +63,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "qiyama.json", "sayyiat.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -428,6 +429,40 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(ids).not.toContain("passage/muwatta-9999"); // «العين» watering crops is not the evil eye
     expect(items.find((i) => i.id === "passage/muslim-9999")).toMatchObject({ section: "sunnah", topics: ["sihr"] });
     expect(items.find((i) => i.id === "concept/sihr")).toMatchObject({ section: "concepts", topics: ["sihr"] });
+  });
+
+  it("exports qiyama: detected passages by corpus and kind, gated ambiguous lexemes, exclusions, future-book inclusion", () => {
+    const dayAyah = makeNode("passage/quran-99-6x", "passage", { unit: "ayah", work: "work/quran", sura: 99, aya: 6, text: "يوميذ يصدر الناس أشتاتا ليروا اعمالهم" });
+    const scaleAyah = makeNode("passage/quran-101-6x", "passage", { unit: "ayah", work: "work/quran", sura: 101, aya: 6, text: "فاما من ثقلت موازينه فهو في عيشة راضية" });
+    const hashrHadith = makeNode("passage/muslim-7777x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "7777x", text: "يحشر الناس يوم القيامة حفاة عراة غرلا" });
+    const siraPassage = makeNode("passage/sira-2x", "passage", { unit: "chapter", work: "work/sira-ibn-hisham", ref: "2", text: "وذكر فيها البعث والحساب يوم القيامة" });
+    const siraWork = makeNode("work/sira-ibn-hisham", "work", { genre: ["sira"] });
+    const futureBook = makeNode("passage/futurebook-2", "passage", { unit: "chapter", work: "work/future-book", ref: "2", text: "وفي يوم الحساب توزن الاعمال بالميزان" });
+    const futureWork = makeNode("work/future-book", "work", { genre: ["fiqh"] });
+    const sendPassage = makeNode("passage/muwatta-7777x", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "7777x", text: "بعث الخليفة عاملا على المدينة فاقام فيها" });
+    const clockPassage = makeNode("passage/bukhari-7777x", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "7777x", text: "دخل المسجد والساعة عشر من النهار فصلى ركعتين" });
+    const qiyamaConcept = { ...makeNode("concept/al-hisab-x", "concept", { kind: "belief" }), tags: ["qiyama-browser"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, dayAyah, scaleAyah, hashrHadith, siraPassage, siraWork, futureBook, futureWork, sendPassage, clockPassage, qiyamaConcept] });
+    const items = data["qiyama.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-99-6x");
+    expect(ids).toContain("passage/quran-101-6x");
+    expect(ids).toContain("passage/muslim-7777x");
+    expect(ids).toContain("passage/sira-2x");
+    expect(ids).toContain("passage/futurebook-2"); // a book harvested later lands automatically
+    expect(ids).toContain("concept/al-hisab-x");
+    expect(ids).not.toContain("passage/muwatta-7777x"); // «بعث» the dispatch, no resurrection collocation
+    expect(ids).not.toContain("passage/bukhari-7777x"); // «الساعة» the clock-hour
+    expect(items.find((i) => i.id === "passage/quran-99-6x")).toMatchObject({ section: "quran" });
+    expect(items.find((i) => i.id === "passage/muslim-7777x")).toMatchObject({ section: "sunnah" });
+    expect(items.find((i) => i.id === "passage/sira-2x")).toMatchObject({ section: "seerah" });
+    expect(items.find((i) => i.id === "passage/futurebook-2")).toMatchObject({ section: "books" });
+    expect(items.find((i) => i.id === "concept/al-hisab-x")).toMatchObject({ section: "curated", qiyama_kind: null });
+    expect(featureApiData(compiled)["qiyama.json"].feature).toBe("qiyama-browser");
+    expect(qiyamaKindOf(scaleAyah as any)).toBe("hisab");
+    expect(qiyamaKindOf(hashrHadith as any)).toBe("baath");
+    expect(qiyamaSignalsOf(scaleAyah as any)).toContain("mizan-strong");
+    expect(qiyamaSignalsOf(clockPassage as any)).toEqual([]);
   });
 
   it("exports eschatology: detected passages by corpus and topic, tagged records, ambiguous-form gates", () => {
