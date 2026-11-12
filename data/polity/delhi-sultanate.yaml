@@ -5,8 +5,9 @@ label:
   ar: سلطنة دلهي
   en: Delhi Sultanate
 summary:
-  ar: سلطنة قامت سنة 1206م وانتهت سنة 1526م، وعاصمتها دلهي.
-  en: A sultanate established in 1206 CE and ended in 1526 CE; its capital was Delhi.
+  ar: "كبرى الممالك الإسلامية في شمال الهند من القرن السابع إلى القرن العاشر الهجري، وعاصمتها دهلي. قامت بعد الفتوح الغورية، وتعاقب عليها المماليك الترك والخلجيون والتغلقيون والسادات واللوديون؛ بلغت أوسع نفوذها في عهد علاء الدين الخلجي، وضعفت بعد غزو تيمور سنة 801هـ/1398م، وانتهى حكم اللوديين في باني بت سنة 932هـ/1526م."
+  en: "The principal Muslim kingdom of northern India from the thirteenth to the sixteenth century, with its capital at Delhi. It arose from the Ghurid conquests and was ruled in turn by Turkish slave commanders, Khaljis, Tughluqs, Sayyids and Lodis; it reached its widest sway under 'Ala' al-Din Khalji, was broken by Timur's invasion of 801/1398, and Lodi rule ended at Panipat in 932/1526."
+  ur: "تیرہویں سے سولہویں صدی عیسوی تک شمالی ہندوستان کی سب سے بڑی مسلم مملکت، جس کا دارالحکومت دہلی تھا۔ یہ غوری فتوحات سے وجود میں آئی اور اس پر ترک غلام سرداروں، خلجیوں، تغلقوں، سیدوں اور لودھیوں نے باری باری حکومت کی؛ علاء الدین خلجی کے عہد میں اس کا اقتدار سب سے وسیع ہوا، 801ھ/1398ء میں تیمور کے حملے نے اسے توڑ دیا، اور لودھی حکومت 932ھ/1526ء میں پانی پت میں ختم ہوئی۔"
 wings: []
 periods:
 - period/crusades-ayyubid-mamluk
@@ -17,7 +18,7 @@ start:
   calendar: gregorian
   precision: year
   status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  note: "التاريخ من ويكيداتا (CC0). The Encyclopaedia of Islam dates the establishment of the sultanate to Iltutmish, who reigned 608-633/1211-1236; 602/1206 is the year the Ghurid Mu'izz al-Din was assassinated and Aybak took power at Lahore {cite:encyclopaedia-of-islam-2 vol. 2 pp. 280-281}."
   sources:
   - source/wikidata
 end:
@@ -25,7 +26,7 @@ end:
   calendar: gregorian
   precision: day
   status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  note: "التاريخ من ويكيداتا (CC0). The Encyclopaedia of Islam gives Rajab 932/April 1526 for Babur's victory over Ibrahim Lodi at Panipat, and treats the sultanate as merging into the Mughal empire only under Akbar, after the Sur restoration {cite:encyclopaedia-of-islam-2 vol. 2 p. 285}."
   sources:
   - source/wikidata
 capitals:
@@ -34,12 +35,14 @@ external_ids:
   wikidata: Q229411
 sources:
 - source/wikidata
+- source/encyclopaedia-of-islam-2
 provenance:
   layer: cc0
   source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: polity-wikidata-1
+  canon: "Prose, summaries and date notes written from the Encyclopaedia of Islam, 2nd ed., vol. 2, DIHLI SULTANATE, PDF pp. 280-287 (P. Hardy), by Claude Code (claude-fable-5-2), run canon-cornerstones-3."
 importance: 1
 status:
   review: draft
