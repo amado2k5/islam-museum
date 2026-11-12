@@ -1091,3 +1091,21 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 688 (printed) | 405 | Abu Khallad chain | garbled in two places | described, not read in full |
 | 688 (printed) | 405 | Abu Khallad report | quoted report with the formula | described only |
 | 688 (printed) | 406 | Jesus tale | anecdote with dialogue | described in paraphrase |
+
+## Batch 111 (run microsd-books-b111, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 406–408 (full text read before writing). Printed 689 runs from page 406 through the foot of page 408 and ends with a dictation date. New draft: person/muhammad-ibn-al-husayn-al-khushani (printed 689, 10/406–408). No existing record of the name; the existing mus-ab-al-khushani, muhammad-ibn-al-harith-al-khushani and sulayman-ibn-sad-al-khushani are different men.
+- Checked against the scan: the epithets; the eloquence in discipline; the list of students and the sayings; the fear and hope saying through Asim ibn Abi al-Najud; the diviner report, described not quoted; the Syrian list on page 407; the Ibn Hayyan passage on page 408.
+- Flagged: the speaker of the closing dictation note is garbled in the scan (OCR "امراف"), so the speaker is not named; the dictation date (last Friday of Dhu al-Hijja 422 AH) is read as printed; the notice gives neither his place of residence nor his death; the region is set from the notice's Syrian context only and is flagged as a guess.
+- Leads for later records (not yet written): students Abu al-Hasan Ali ibn Ahmad ibn al-Marzuban al-Aswari, Salim ibn Abd Allah ibn al-Marzuban (Abu Bakr al-Wa'iz), Abd Allah ibn Muhammad ibn Salih, Abu Uthman ibn Abi Hurayra; Syrian ascetics Amir ibn Najiya, al-Hasan ibn Muhammad ibn Mazid, Zayd ibn Bandar, Yasar ibn Mushir, al-Hasan ibn Ali ibn Sa'id al-Sunbulani. Their records are not made in this batch.
+- The saying "من لزم الخدمة ورث منازل القربة" also appears in printed 688 (Ahmad ibn Ja'far ibn Hani); the same wording is recorded in both notices.
+- Printed 690 is not on page 408; it begins on page 409 and is to be read next.
+- Printed 532, 546 and 666 stay held.
+
+## Exclusions and garbled readings (batch 111)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 689 (printed) | 406 | the diviner report | quoted report with a formula | described only |
+| 689 (printed) | 406 | the fear and hope saying | a saying through a chain | paraphrased |
+| 689 (printed) | 408 | closing dictation note speaker | "امراف" garbled in the scan | not named |
+| 689 (printed) | 407 | Syrian list | many names, no sayings | recorded as leads, not as records |
