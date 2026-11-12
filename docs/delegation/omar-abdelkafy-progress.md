@@ -1170,3 +1170,23 @@ Next step: episode 38.
 | Private circumstances of callers | ep37 00:26:00–00:35:00 | Kept general | Privacy | Open |
 | Questions with no recorded answer | ep37 00:26:00 (fear of flying, off the subject), 00:37:00 (the book and the lost lessons, promised only), 00:38:00–00:39:00 (the lesser pilgrimage, age of the mother not heard) | The answer is not in the transcript | Clarity | Open |
 | Hadith and saying wording | ep37 00:15:00–00:16:00, 00:20:00–00:20:30 | Wording not typed; by sense only | Hadith rule | Open |
+
+### albuyout-alamena, episode 38 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-26)
+
+Episode 38 read in full (43 min of transcript) before writing. 11 points written (ar, en, ur); new `about` edges for the people and passages named; 10 needs_source (stories and sayings without a chain, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep38 (persuasion and conviction through gentleness) | about 43 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 11 points | new `about` edges | 11 | 10 needs_source | this PR |
+
+Next step: episode 39.
+
+| Excluded (albuyout-alamena ep38) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep38 00:00:00–00:00:30, 00:16:00–00:16:30, 00:28:30–00:29:00, 00:42:30–00:43:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep38 00:05:00, 00:12:00, 00:17:00–00:18:00, 00:19:30, 00:21:30, 00:23:30, 00:26:00, 00:33:00 (a looped sentence), 00:37:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep38 00:29:30–00:36:30 | Kept general | Privacy | Open |
+| Questions off the subject | ep38 00:32:00 (the lecturer's latest books) | Not lesson content | Scope | Open |
+| Verses of poetry quoted | ep38 00:22:30–00:23:30, 00:31:00–00:31:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep38 00:05:00–00:06:30, 00:14:00, 00:27:00–00:28:00 | Wording not typed; by sense only | Hadith rule | Open |
+| A remark about a man who told al-Hajjaj he had done what the Messenger did not | ep38 00:38:30–00:39:00 | Garbled and without context; not recorded | Clarity | Open |
