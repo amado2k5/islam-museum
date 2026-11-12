@@ -15,6 +15,14 @@ open a new block on top with the new version and today's date.
 
 ## v1.23.0 — 2026-11-11
 ### Added
+- **Fire Browser: متصفح النار (`/{lang}/nar/`).** A new browser over the one graph that lists every mention of the Fire in the museum's sources — the hellfire names (Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya, al-Hawiya, al-Sa'ir), its people, fuel, torment, keepers, food and drink, and the Sirat over it — in the Qur'an, the Sunnah, the seerah and every harvested book, plus a separate shelf for this world's fire (Ibrahim's fire, the tree of Musa, cooking and war fire). Passages are found at build time by a guarded lexicon in `scripts/nar.ts` that matches the passage text itself, so a book harvested later joins by itself; ambiguous words (دينار the coin, منار the lighthouse, أنار to light, الموقدة as hell's own epithet) are gated out or corrected. Cards group by corpus (Qur'an, Sunnah, seerah, books, worldly fire, curated) with hellfire/worldly kind chips, a landing card and an Explore-menu entry, `/api/v1/nar.json`, plan `docs/plan/52-nar-browser.md` and acceptance spec `docs/engineering/40-nar-browser-requirements.md` (`NAR-R..`).
+
+### Data
+- **7 curated records tagged `nar-browser`.** Jahannam, the Fire, Zaqqum, the Sirat, the Fire from Yemen, Malik keeper of Jahannam and the people of the Fire and the Garden, each with its section tag (`nar-doctrine`, `nar-dunya`, `nar-people`, `nar-sirat`) — no new record was needed; the graph already held them.
+
+### Tests
+- The feature-export test now covers the Fire Browser: detection by corpus and kind, the hellfire names, the gated دينار/منار false positives, the worldly-fire shelf, curated records and a book harvested later entering automatically.
+
 - **Ibadat and Adhkar Browser: متصفح العبادات والأذكار (`/{lang}/ibadat/`).** A new browser over the one graph that lists every act of worship and remembrance the museum's sources mention — the prayer and its pillars, sunnahs and supererogatory forms, purification by wudu, ghusl and tayammum, the fast and i'tikaf, zakat and charity, the hajj and umrah with tawaf and sa'y, the remembrance of God with its morning and evening adhkar, glorification, praise, tahlil, takbir, istighfar and blessings on the Prophet, supplication in all its formulas, the recitation of the Qur'an, repentance and ruqya — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors, and every harvested book. Passages are found at build time by a guarded lexicon in `scripts/ibadat.ts`, so a book harvested later joins by itself; supplication comes in through the Du'a Browser's own detector so the two never drift. Cards group by corpus (Qur'an, Sunnah, seerah, books, curated) with act/mention and topic chips, a landing card and an Explore-menu entry, `/api/v1/ibadat.json`, plan `docs/plan/51-ibadat-browser.md` and acceptance spec `docs/engineering/39-ibadat-browser-requirements.md` (`IBADAT-R..`).
 
 ### Data
