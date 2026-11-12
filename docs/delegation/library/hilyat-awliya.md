@@ -243,3 +243,12 @@
 |---|---|---|---|---|
 | 488 | 137 | the bracketed clause "ومن أنار اللّٰه قلبه بضوء مصابيح العبر..." | the edition marks it as an addition from another manuscript (footnote "زيادة من مغ") and the scan is unclear | not rendered; the prose says so |
 | 488 | 137 | the sentence after "ومن لم يملها لم تطفأ مصابيح عبره" | unclear in the scan ("يملها") | not rendered; the prose says so |
+
+## Batch 51 (run microsd-books-b51, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 137–138 (full text read before writing). New draft: person/abu-abd-allah-al-barani (489, 10/137–138). Notice 490 (Ahmad ibn Musa al-Thaqafi, with a poem) begins on 10/138 and is next.
+
+## Exclusions and garbled readings (batch 51)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 489 | 138 | the transmitter's name after "قال حدثني" ("حكيم بن جمة" in the scan) | unclear in the scan | given as the context reads it; the prose says so |
