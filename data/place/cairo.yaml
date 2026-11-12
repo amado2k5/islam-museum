@@ -3,14 +3,15 @@ class: place
 kind: city
 label: { en: "Cairo", ar: "القاهرة" }
 summary:
-  en: "Capital of Egypt; al-Qahira was founded by the Fatimids in 969 CE beside Fustat and became home to al-Azhar."
-  ar: "عاصمة مصر؛ أسس الفاطميون القاهرة سنة 969م بجوار الفسطاط، وفيها الأزهر، ونزل جوهر القائد مولى المعز العبيدي موضعها سنة ثمان وخمسين فاختطها وبنى دار الإمارة المعروفة بالقصرين {cite:tarikh-khulafa-minhaj-1434 p. 620-621}."
+  ar: "عاصمة مصر وأحد أهم مراكز الحياة الدينية والثقافية والسياسية في العالم الإسلامي، على ضفتي النيل جنوبي الدلتا. أسس الفاطميون القاهرة سنة 969م بجوار الفسطاط، وفيها الأزهر، ونزل جوهر القائد مولى المعز العبيدي موضعها سنة ثمان وخمسين فاختطها وبنى دار الإمارة المعروفة بالقصرين {cite:tarikh-khulafa-minhaj-1434 p. 620-621}. ونمت المدينة شمالًا في العهود الأيوبية والمملوكية والعثمانية، وتشكلت القاهرة الحديثة منذ عهد محمد علي."
+  en: "Capital of Egypt and one of the most important centres of religious, cultural and political life in the Muslim world, on both banks of the Nile south of the delta. The Fatimids founded al-Qahira in 969 CE beside Fustat, and it became home to al-Azhar. The city grew northward under the Ayyubids, Mamluks and Ottomans, and modern Cairo took shape from the reign of Muhammad Ali."
+  ur: "مصر کا دارالحکومت اور مسلم دنیا کی مذہبی، ثقافتی اور سیاسی زندگی کے اہم ترین مراکز میں سے ایک، جو ڈیلٹا کے جنوب میں نیل کے دونوں کناروں پر واقع ہے۔ فاطمیوں نے 969ء میں فسطاط کے پاس قاہرہ کی بنیاد رکھی اور یہیں الازہر واقع ہے۔ ایوبی، مملوکی اور عثمانی ادوار میں شہر شمال کی طرف بڑھتا گیا، اور جدید قاہرہ محمد علی کے دور سے تشکیل پایا۔"
 wings: [place]
 regions: [egypt-nile]
 coordinates: [30.0626, 31.2497]
 coordinate_precision: site
 external_ids: { wikidata: "Q85", geonames: "360630", pleiades: "727082", nomisma: "cairo", idai: "2042858" }
-sources: [source/khitat-maqrizi-1998, source/geonames-gazetteer, source/tarikh-khulafa-minhaj-1434, source/ahsan-al-taqasim, source/farghani-elements-astronomy, source/nomisma, source/idai-gazetteer]
+sources: [source/khitat-maqrizi-1998, source/geonames-gazetteer, source/tarikh-khulafa-minhaj-1434, source/ahsan-al-taqasim, source/farghani-elements-astronomy, source/nomisma, source/idai-gazetteer, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "أسّس الفاطميون القاهرة سنة ٩٦٩م إلى جوار الفسطاط؛ فصارت دار الأزهر وعاصمة ثلاث دول."
@@ -29,6 +30,7 @@ provenance:
   generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
   model: "claude-haiku-5-5"
   run: "showcase-prose-phase2-egypt-batch1"
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 4, article al-Kahira, PDF pages 445-465, written by Claude Sonnet 5.5, run canon-cornerstones-16"
 founded:
   edtf: "0969"
   precision: year
