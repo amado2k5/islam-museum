@@ -1,8 +1,8 @@
 ---
 id: event/sack-of-baghdad-656
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
 The sources say that the Tatars under [[person/hulagu|Hulagu]] entered [[place/baghdad|Baghdad]] in 656 AH, and that the caliph [[person/al-mustasim-billah|al-Musta'sim]] was killed. This ends the caliphate of Baghdad, by al-Suyuti's count, after about three years and a half. {cite:tarikh-khulafa-minhaj-1434 p.715-721}
@@ -14,6 +14,37 @@ The vizier then reported from Hulagu that he wished to marry his daughter to the
 
 ## Ibn Khaldun's account
 In Ibn Khaldun, Hulagu advanced toward Iraq in 652 AH after taking al-Rayy, Isfahan and Hamadhan, and went for the fortress of Alamut in 655 AH. A letter from [[person/al-alqami|Ibn al-Alqami]] reached him urging him to make for Baghdad. The Muslims were routed before Baghdad, the chief chamberlain was killed, and then al-Musta'sim and those with him came out and were killed. {cite:tarikh-ibn-khaldun-ibar p.900-901}
+
+## Baghdad on the eve of the siege
+The Encyclopaedia of Islam, in its history of Baghdad, describes the city in the last decades of the caliphate as weakened by fire, flood and quarrels between its quarters. It says the soldiers sent to restore order in 654/1256 joined crowds in pillaging the quarter of Karkh, and that the worst flood of those years came in the same year. It sums up the situation by saying that nature and man together eclipsed the city. {cite:encyclopaedia-of-islam-2 vol. 1 p. 961}
+
+The article also notes that the caliphate's last century had been a time of great religious building. It counts the colleges known as madrasas, among them the Nizamiyya and the Mustansiriyya, and the many Sufi lodges founded by caliphs and their relatives, and says the traveller Ibn Jubayr saw thirty madrasas in the eastern half of the city. The [[building/al-madrasa-al-nizamiyya-baghdad|Nizamiyya]] was founded in 459/1066, and the [[building/mustansiriyya-madrasa|Mustansiriyya]] in 631/1233; the Mustansiriyya taught the law of all four schools. {cite:encyclopaedia-of-islam-2 vol. 1 p. 961}
+
+## The surrender and the killing
+The article's account is brief. It says that two years after those events the Mongols invaded, and that on 4 Safar 656, which it converts to 10 February 1258, the caliph al-Musta'sim made an unconditional surrender. The people of the city were then put to the sword without distinction for over a week, and many country people who had crowded into Baghdad before the siege shared their fate. {cite:encyclopaedia-of-islam-2 vol. 1 p. 961} In its article on the Abbasids the encyclopaedia puts the same event in a wider frame: the Mongol general, having already conquered Persia, appeared before Baghdad in that year, and the caliph, whom it calls the last of the line, could offer no serious resistance because the successors of al-Nasir were weak and incompetent. {cite:encyclopaedia-of-islam-2 vol. 1 p. 40}
+
+## How many died
+The encyclopaedia reports that the estimates of the dead range between 800,000 and two million, and observes that the figure grows with the passing of time. It names the Fakhri, Ibn al-Fuwati, al-Dhahabi's Duwal al-Islam and Ibn Kathir's Bidaya as sources of these larger figures. {cite:encyclopaedia-of-islam-2 vol. 1 p. 961} It sets against them the Chinese traveller Ch'ang Te, who wrote in 1259 that several tens of thousands were killed and whose information the article judges to have come from Mongol sources. The author concludes that it is hard to give any figure but that the toll probably exceeded a hundred thousand. {cite:encyclopaedia-of-islam-2 vol. 1 p. 961}
+
+## Damage and first repairs
+Many quarters were ruined by the siege, by looting or by fire, according to the article, and the mosque of the caliphs, [[building/al-khulafa-mosque-baghdad|Jami' al-Khulafa']], and the shrine of Kazimayn, the [[building/al-kadhimiya-mosque|Kadhimiya shrine]], were burnt down. {cite:encyclopaedia-of-islam-2 vol. 1 p. 961} Before leaving, it says, Hulagu ordered the restoration of some public buildings. The supervisor of endowments rebuilt the Jami' al-Khulafa' and saw to it that the schools and Sufi lodges were reopened. The author adds that culture suffered much but was not uprooted, and that Baghdad became a provincial city. {cite:encyclopaedia-of-islam-2 vol. 1 p. 961} The text of the article is damaged at the point where it speaks of the devastation and of a legal opinion obtained from the scholars, so this page does not repeat that passage.
+
+## Under the Ilkhans
+According to the article, Baghdad stayed under the Ilkhanids, the line of the [[polity/ilkhanate|Ilkhanate]], until 740/1339-40, governed by a governor with a shihna, a police and garrison officer, and a military garrison. The Mongols registered the inhabitants in tens, hundreds and thousands for taxation and imposed a poll tax on everyone except the aged and children; it was levied for about two years. {cite:encyclopaedia-of-islam-2 vol. 1 p. 961}
+
+The city began to recover slowly. The article credits this to an administration entrusted mainly to Persians and in large part to the policy of [[person/ata-malik-al-juwayni|Ata Malik al-Juwayni]], governor for about twenty-three years, from 657/1258 to 681/1282. Under him the minaret of the Jami' al-Khulafa' and the market of the Nizamiyya were rebuilt, and the Mustansiriyya was repaired and given a new water system. {cite:encyclopaedia-of-islam-2 vol. 1 p. 961} {cite:encyclopaedia-of-islam-2 vol. 1 p. 962} The mosques of Shaykh Ma'ruf and of the Qamariyya were repaired. Some older schools resumed teaching, especially the Nizamiyya and the Mustansiriyya, the Bashiriyya, the Tatashiyya and the Madrasat al-Ashab, and the 'Ismatiyya school for the four schools of law, with a ribat near it, was founded. {cite:encyclopaedia-of-islam-2 vol. 1 p. 962} The article regards as probably a pious wish a message in which the Ilkhan [[person/tekuder-ahmad|Tekuder]] asked Baghdad for the return of endowments to schools and mosques as under the Abbasids. {cite:encyclopaedia-of-islam-2 vol. 1 p. 962}
+
+## Non-Muslims under Ilkhan policy
+The article says that the Ilkhans favoured Christians, exempted them from the poll tax, rebuilt churches and opened schools, and that this led to an outbreak against them in 665. Jews rose to prominence under [[person/arghun-khan|Arghun]] through his Jewish finance minister Sa'd al-Dawla, who made his brother governor of Baghdad; when Sa'd al-Dawla was killed in 690/1291, the populace in Baghdad fell on the Jews. Under [[person/ghazan-khan|Ghazan]], non-Muslims suffered through distinctions of dress, the return of the poll tax and the attitude of the mob, and many adopted Islam. {cite:encyclopaedia-of-islam-2 vol. 1 p. 962} The article adds that Uljaytu caused trouble by wavering between Shi'ism and Sunnism, and that the paper money the Ilkhans tried to introduce was so unpopular in Baghdad that Ghazan abolished it in 697/1297. {cite:encyclopaedia-of-islam-2 vol. 1 p. 962}
+
+## Travellers and geographers
+The article draws on three writers of the Mongol period. The author of the Marasid says that most of eastern Baghdad was ruined when the Tatars came, that they killed its people so that few were left, and that people from outside then came in. Ibn Battuta, visiting in 727/1327, says that the mosques and schools were very numerous but in ruins. Mustawfi, writing in 740/1339, describes the eastern wall with four gates and a circuit of 18,000 paces and the western side, Karkh, with a circuit of 12,000 paces; he found the Shafi'is and Hanbalis dominant, called the Nizamiyya the greatest of the colleges and the Mustansiriyya the most beautiful building. {cite:encyclopaedia-of-islam-2 vol. 1 p. 962}
+
+## Later centuries in brief
+The article says that Hasan Buzurg established himself in Baghdad in 740/1339 and founded the Jalayirid dynasty, which lasted until 813/1410. [[person/timur-lang|Timur]] took the city twice: in 795/1392-3 it escaped with little damage, but in 803/1401 its population was put to the sword and many Abbasid buildings and quarters were ruined, which the author calls the devastating blow to culture in Baghdad. {cite:encyclopaedia-of-islam-2 vol. 1 p. 962}
+
+## How the encyclopaedia judges the end of the caliphate
+The article on the Abbasids gives its own view, and it is the author's, not the museum's. It says the Mongol conquest of Baghdad and the destruction of the caliphate are usually described as a major catastrophe, and that they do mark the end of an epoch, in the forms of government and in Islamic civilisation itself, which after the Tatar invasions flows in new channels. But it holds that the immediate moral effects have been overrated, since the caliphate had long ceased to be an effective institution and the invasions changed little in the real organs of temporal power, except that the sultanate began to gain recognition in law. {cite:encyclopaedia-of-islam-2 vol. 1 p. 40} It also records that [[person/baybars|Baybars]] set up an Abbasid shadow caliphate in Cairo in 659/1261, the [[polity/abbasid-caliphate-cairo|Abbasid caliphate of Cairo]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 40}
 
 ## The results
 Al-Suyuti says that the last sermon given in Baghdad began with the praise of God "who has destroyed with death the lofty buildings". He says the caliphate was set up in Egypt in 659 AH. {cite:tarikh-khulafa-minhaj-1434 p.715-721}
