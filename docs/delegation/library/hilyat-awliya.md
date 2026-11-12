@@ -203,3 +203,13 @@
 | 476 | 132 | some letters of the heading (the nisba's last letters) | smudged in the scan | the nisba given as read on 10/133 |
 | 477 | 133 | the word read as "الدماء" in Mujahid's saying | smudged; likely "الدعاء" | the record renders it as supplication, the likely reading; the prose does not flag this reading, a gap to fix in revision |
 | 477 | 133 | a clause "ومانق الفقر" | garbled in the scan | omitted |
+
+## Batch 39 (run microsd-books-b47, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 133–134 (full text read before writing). New drafts: person/abu-al-abyad (478, 10/133–134), person/ahmad-al-maymuni (479, 10/134), person/ahmad-al-mawsili (480, 10/134), person/arif-al-yamani (481, 10/134). Notice 482 (Arfajah al-Kufi) begins on 10/135 and is next.
+- An earlier draft of 479 ended the hadith in an ellipsis; it was completed from the scan before commit.
+
+## Exclusions and garbled readings (batch 47)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 478 | 134 | the last sentence of Abu al-Abyad's letter after the word "أسود" | cut in the scan (the next heading follows on the same line) | not completed; the note in the prose says so |
