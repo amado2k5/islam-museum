@@ -10,6 +10,12 @@ summary:
   en: "The Arabs — the Arabic-speaking peoples originally of the Arabian Peninsula, whose genealogies and early kings al-Mas'udi gathers in Muruj al-Dhahab. Draft card from an open reference description (Wikidata); not yet checked on the source page."
 wings: [people]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: has_part, target: group/banu-hilal, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: has_part, target: group/banu-sulaym, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/conquest-of-egypt, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/hilali-into-ifriqiya-440, sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/muruj-al-dhahab, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q35323

@@ -1,0 +1,19 @@
+MEASUREMENT 13: which cornerstones the live wing pages list (production, not this branch)
+file: scripts/fable/o13_production_wings.py
+site measured: https://islam.museum
+that site's own deploy stamp: commit 8d1b0ef9d7556cc570e9e452e8cd3257e346ab1f, version 1.10.0, deployed 2026-11-10T18:33:45Z
+------------------------------------------------------------------------------
+  /en/living/  does NOT list  practice/salah
+  /en/living/  does NOT list  practice/hajj
+  /en/living/  does NOT list  practice/sawm-ramadan
+  /en/living/  does NOT list  practice/zakat
+  /en/words/  does NOT list  work/quran
+  /en/words/  does NOT list  work/sahih-al-bukhari
+  /en/words/  does NOT list  work/muwatta-malik
+  /en/time/  lists  period/prophetic-era
+  /en/time/  does NOT list  polity/abbasid-caliphate
+  /en/people/  does NOT list  group/quraysh
+  /en/people/  lists  person/muhammad
+  /en/time/  lists  event/battle-of-badr
+------------------------------------------------------------------------------
+3 of 12 probed cornerstones are listed on the wing page that should hold them (the last two are controls that should be listed)

@@ -22,6 +22,9 @@ materials:
 external_ids:
   tei: "7946"
   wikidata: Q95888174
+relations:
+- { type: made_in, target: place/cordoba, sources: [source/wikidata] }
+- { type: exemplifies, target: concept/minbar, sources: [source/wikidata] }
 sources:
 - source/wikidata
 - source/tei-epigraphie

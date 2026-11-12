@@ -27,11 +27,15 @@ Every Hijri century from the 1st to the 14th holds at least one cornerstone. The
 | polity | 34 | 12 | 0 | 19 | 32 | 34 |
 | group | 20 | 5 | 4 | 12 | 16 | 20 |
 | practice | 15 | 10 | 0 | 6 | 14 | 15 |
-| object | 12 | 5 | 0 | 11 | 10 | 0 |
+| object | 12 | 5 | 0 | 10 | 10 | 0 |
 | period | 13 | 13 | 0 | 9 | 13 | 13 |
-| **all** | **851** | **271** | **47** | **401** | **549** | **830** |
+| **all** | **851** | **271** | **47** | **400** | **549** | **830** |
 
 "Under 300 words" counts the Arabic prose file, front matter included, and includes the records with none. "No image" means no `media/` record depicts the subject; for prophets and Companions that is the rule, not a gap.
+
+## Not in the graph yet
+
+Subjects a visitor would look for that have no record. Each was searched under every spelling listed in `scripts/fable/absences.json` by a verifier whose job was to find it; an earlier version of this list named 31 subjects, and 24 of them turned out to have records under another name (`docs/fable-run/ABSENCES.md`). Twelve of those records have since entered the canon as editorial includes (the `INCLUDE` list in the script). Still absent: Firdawsi; Ibn Majid; Luqman (a stub only); Battle of Plassey; aqida (as a concept); usul al-fiqh; the Maturidi school (as a concept or group).
 
 ## The list
 
@@ -111,7 +115,7 @@ Marks after a name: ∅ no Arabic prose, ✎ under 300 words, ◌ draft, + edito
 
 ### object — importance 1 (5)
 
-`kiswa`✎ · `al-mushaf-al-azraq` · `mushaf-birmingham`✎◌ · `ardabil-carpet`✎◌ · `minbar-kutubiyya`✎◌
+`kiswa` · `al-mushaf-al-azraq` · `mushaf-birmingham`✎◌ · `ardabil-carpet`✎◌ · `minbar-kutubiyya`✎◌
 
 ### object — importance 2 (7)
 

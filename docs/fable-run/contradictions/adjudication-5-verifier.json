@@ -1,0 +1,33 @@
+[
+ {
+  "key": "A|before-birth|person/dhu-al-khuwaysira|participated_in|event/distribution-of-hunayn-spoils",
+  "status": "registered",
+  "resolution": "Re-opened by the fresh-context verifier of the fixes. An adjudicator had renamed `born: 658~` to `died`, resting on the record's prose that he was killed at al-Nahrawan. The page that prose cites (Ibn Hisham, ed. al-Saqqa, 4/139-140) has only the Hunayn episode and says nothing of his death, and 658~ is itself an unsourced value from the date-enrichment pass. The edit was reverted to the baseline. Proposed to the founder: remove the unsourced `born: 658~` from data/person/dhu-al-khuwaysira.yaml."
+ },
+ {
+  "key": "A|reign-after-death|event/mudejar-revolt-1264|person/abd-al-wahid-ii-almohad",
+  "status": "registered",
+  "resolution": "Re-opened by the fresh-context verifier of the fixes. An adjudicator had retargeted `during_reign` to al-Wathiq Abu Dabbus. The revolt is dated 1264-1266 and Abu Dabbus entered Marrakesh on 21 Muharram 665 (October 1266), so he reigned for at most its last weeks, and nothing the event cites names him. The edit silenced the detector without making the record true, and was reverted. The record's relation to al-Murtada already covers the span. Proposed to the founder: remove `during_reign -> person/abd-al-wahid-ii-almohad` from data/event/mudejar-revolt-1264.yaml."
+ },
+ {
+  "key": "A|reign-after-death|event/battle-of-telagh-1268|person/abd-al-wahid-ii-almohad",
+  "status": "registered",
+  "resolution": "Re-opened by the fresh-context verifier of the fixes. An adjudicator had retargeted `during_reign` to al-Wathiq Abu Dabbus, who did reign in 1268. But nothing the event itself cites supports the relation: the support came from the two rulers' records, and the source the edge cites (al-Bayan al-Mughrib) does not contain the Almohad section in either copy on hand. A relation is added only where the record's own cited sources support it, so the edit was reverted. Proposed to the founder: retarget to person/al-wathiq-abu-dabus once a source the event cites is read, or remove the edge."
+ },
+ {
+  "key": "A|reign-after-death|event/marinid-zayyanid-wars|person/abd-al-wahid-ii-almohad",
+  "status": "registered",
+  "resolution": "Re-opened by the fresh-context verifier of the fixes. An adjudicator had retargeted `during_reign` to al-Wathiq Abu Dabbus. The event spans 1250-1411, so the new edge was true only because that range overlaps any reign of the period, and nothing the event cites supports it. Reverted to the baseline. Proposed to the founder: remove `during_reign -> person/abd-al-wahid-ii-almohad` from data/event/marinid-zayyanid-wars.yaml; a single reign is the wrong relation for a conflict of 160 years."
+ },
+ {
+  "key": "A|reign-after-death|event/zayyanid-iberian-conflicts|person/abd-al-wahid-ii-almohad",
+  "status": "registered",
+  "resolution": "Re-opened by the fresh-context verifier of the fixes. An adjudicator had retargeted `during_reign` to al-Wathiq Abu Dabbus. The event spans 1250-1550, so the new edge was true only because that range overlaps any reign of the period, and nothing the event cites supports it. Reverted to the baseline. Proposed to the founder: remove `during_reign -> person/abd-al-wahid-ii-almohad` from data/event/zayyanid-iberian-conflicts.yaml."
+ },
+ {
+  "key": "A|reign-after-death|event/muezzin-salat-adhan-786|person/al-wathiq-umar-cairo",
+  "status": "registered",
+  "masked": "The caliph's death date was corrected from 1342 to Shawwal 788 AH (1386), soundly, from his own cited page. The event is dated about 786 AH in its record, so the detector no longer fires.",
+  "resolution": "Not fixed, although the detector is quiet. The correction of the caliph's death date (al-Suyuti, Tarikh al-Khulafa p. 763) is sound and stays. But the event's own cited page (al-Suyuti p. 761) dates the innovation to Sha'ban 791 AH, three years after this caliph died: the event record is misdated and its relation to him is false. Found by the adjudicator and confirmed by the fresh-context verifier. Re-dating needs the event's lead sections and its Urdu file, which this run may not touch. Proposed to the founder: re-date data/event/muezzin-salat-adhan-786.yaml to 791 AH and remove or retarget `during_reign -> person/al-wathiq-umar-cairo`."
+ }
+]

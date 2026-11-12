@@ -22,6 +22,11 @@ periods:
 - period/gunpowder-empires
 external_ids:
   wikidata: Q9141
+relations:
+- { type: located_in, target: place/agra, sources: [source/brookes-gardens-of-paradise-1987, source/wikidata] }
+- { type: built_by, target: person/shah-jahan-mughal, sources: [source/brookes-gardens-of-paradise-1987, source/wikidata] }
+- { type: burial_place_of, target: person/shah-jahan-mughal, sources: [source/brookes-gardens-of-paradise-1987] }
+- { type: exemplifies, target: concept/chaharbagh, sources: [source/brookes-gardens-of-paradise-1987] }
 sources:
 - source/wikidata
 - source/brookes-gardens-of-paradise-1987
@@ -36,5 +41,6 @@ provenance:
   layer: own-research
   canon: "Encyclopaedia of Islam 2nd ed., vol. 10, article Tadj Mahall, PDF pages 68-70, written by Claude Sonnet 5.5, run canon-cornerstones-16"
   extra_runs: ["worker H ocr-harvest-2026-11-04: Brookes 1987 pp.151-159 and Rezavi 2002 p.129, prose section"]
+  lead_deepened: "Lead section deepened to 150-250 words, Arabic and English, only from sources this record already cited (Grand Tour mission, run grand-tour-2026-11-11; Claude Code, claude-fable-5-2). AI text awaiting a human read; sentence-by-sentence evidence in docs/fable-run/prose-evidence/."
 location: place/agra
 patron: person/shah-jahan-mughal

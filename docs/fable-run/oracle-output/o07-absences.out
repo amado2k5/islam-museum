@@ -1,0 +1,127 @@
+ORACLE 07: the absence list is honest: every claimed absence survived an alias search (statement 7)
+file: scripts/fable/o07_absences.py
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 0
+graph artifact: .cache/graph.json; built from commit ca0886cd1d3c5330c87270ed50bc21118241b598; 56030 nodes, 133568 edges
+------------------------------------------------------------------------------
+claimed missing by the canon register at the baseline: 31 subjects (docs/canon.md, section 'Not in the graph yet', as it stood at the mission baseline e1d721298ab4b2494a4c8f04d3defcde1808b939)
+  found under another name: 24   only a stub: 1   absent after the search: 6
+
+  found      Timur                              -> person/timur-lang  (as «تمرلنك, the Arabic label, and the slug timur-lang; the record has no English label»; 30 variants searched)
+  found      Osman I                            -> person/uthman-i-uthmani  (as «عثمان بن أرطغرل, the Arabic label, and the slug uthman-i-uthmani; the English summary names him Osman I»; 20 variants searched)
+  found      Selim I                            -> person/selim-i-ottoman  (as «Selim I, the English label; السلطان سليم شاه بن عثمان, the Arabic label; alias person/salim-i-yawuz»; 18 variants searched)
+  found      Shah Jahan                         -> person/shah-jahan-mughal  (as «Shah Jahan, the English label; شاهجهان, the Arabic label»; 15 variants searched)
+  found      Aurangzeb                          -> person/aurangzeb-mughal  (as «Aurangzeb (Alamgir I), the English label; أورنكزيب عالمكير, the Arabic label»; 19 variants searched)
+  found      Abd al-Rahman III al-Nasir         -> person/abd-al-rahman-iii-al-nasir  (as «the slug abd-al-rahman-iii-al-nasir; Abd al-Rahman al-Nasir li-Din Allah al-Umawi, the English label; عبد الرحمن الناصر لدين الله الأموي, the Arabic label»; 15 variants searched)
+  found      Usman dan Fodio                    -> person/usman-dan-fodio  (as «Usman dan Fodio, the English label and the slug itself; عثمان بن فودي, the Arabic label»; 27 variants searched)
+  found      Omar al-Mukhtar                    -> person/omar-mukhtar  (as «Omar Mukhtar, the English label; عمر المختار, the Arabic label; Omar al-Mukhtar, an entry in names»; 18 variants searched)
+  found      Shah Wali Allah                    -> person/shah-waliullah-al-dahlawi  (as «Shah Waliullah Dehlawi, the English label; شاه ولي الله الدهلوي, the Arabic label»; 26 variants searched)
+  absent     Firdawsi                           31 variants searched, 10 near misses opened and rejected
+             variants: Firdawsi · Ferdowsi · Firdausi · Firdusi · Abu al-Qasim Firdawsi · Ferdosi · Firdowsi · Firdousi · Abu'l-Qasim Ferdowsi · Ferdawsi · al-Firdawsi · الفردوسي · فردوسي · أبو القاسم الفردوسي · فردوسی · ابو القاسم فردوسي · الفردوسى · Abu al-Qasim Mansur · أبو القاسم منصور · فردوسي الطوسي · الفردوسي الطوسي · Firdawsi Tusi · Hakim Firdawsi · Abu al-Qasim al-Tusi · أبو القاسم الطوسي · Firdevsi · Abul Qasim Firdausi · Ferdausi · صاحب الشاهنامة · Tusi · الطوسي
+             name fragments, with the number of records each reaches (exact matches only are counted): Tusi (14), الطوسي (15)
+             near miss building/mazar-firdawsi-tus: his mausoleum at Tus, a building; the only record that names him in its label
+             near miss person/firdevsi-i-rumi: a namesake: the sixteenth-century Ottoman author of the Suleymannama
+             near miss person/arash-ferdowsi: a namesake: the co-founder of Dropbox, born 1985
+             near miss source/wikidata-ferdowsi: the Wikidata source for Arash Ferdowsi, not for the poet
+             near miss object/baysunghur-shahnameh: a manuscript of his poem, an object; the other Shahnameh manuscripts are objects as well and none links to a person record for him
+             near miss person/shaykh-al-tusi: matched the bare nisba al-Tusi only: the Imami scholar Abu Ja'far al-Tusi, born at Tus in 385 AH. None of the persons listed under the nisba is the poet
+             near miss person/al-lalakai: shares the kunya and an ancestor's name only: Abu al-Qasim Hibat Allah ibn al-Hasan ibn Mansur al-Lalaka'i, the Shafi'i hadith master of Baghdad, died 418 AH
+             near miss person/ilisa-ibn-abi-al-qasim: shares name parts only: Abu Mansur Ilisa' ibn Abi al-Qasim, amir of the Wasulids at Sijilmasa
+             near miss person/ismael-ibn-al-jawaliqi: shares name parts only: Isma'il ibn al-Jawaliqi, Abu al-Qasim son of Abu Mansur, a Hanbali man of letters at the court of Baghdad, born 512 AH
+             near miss person/zafir-al-haddad: shares name parts only: the Alexandrian poet Zafir al-Haddad, Abu al-Mansur ibn al-Qasim ibn Mansur, died 529 AH
+  found      Hafiz                              -> person/hafiz-al-shirazi  (as «حافظ الشيرازي, the Arabic label; Hafez of Shiraz, the English label»; 24 variants searched)
+  found      Sa'di                              -> person/saadi-al-shirazi  (as «سعدي الشيرازي, the Arabic label; Saadi of Shiraz, the English label»; 27 variants searched)
+  found      al-Idrisi (geographer)             -> person/al-idrisi-muhammad-ibn-abd-allah  (as «Al-Idrisi, Muhammad ibn Abd Allah, the English label; الإدريسي محمد بن عبد الله, the Arabic label»; 23 variants searched)
+  found      Ibn al-Athir                       -> person/ibn-al-athir-izz-al-din  (as «Ibn al-Athir Izz al-Din, the English label; ابن الأثير عز الدين, the Arabic label. This is the historian: Izz al-Din Abu al-Hasan Ali ibn Muhammad al-Jazari, died 630 AH, author of al-Kamil fi al-Tarikh»; 26 variants searched)
+  found      Ibn Jubayr                         -> person/ibn-jubayr-muhammad  (as «Ibn Jubayr, Muhammad ibn Ahmad al-Kinani, the English label; ابن جبير محمد بن أحمد الكناني, the Arabic label»; 16 variants searched)
+  found      al-Junayd                          -> person/al-junayd-ibn-muhammad  (as «الجنيد بن محمد, the Arabic label; Al Junayd Ibn Muhammad, the English label. The summary names him Abu al-Qasim al-Junayd ibn Muhammad, head of the Sufis; the date note gives 215-298 AH»; 21 variants searched)
+  absent     Ibn Majid                          26 variants searched, 23 near misses opened and rejected
+             variants: Ibn Majid · Ahmad ibn Majid · Ahmad Ibn Mājid · Shihab al-Din Ahmad ibn Majid · Ibn Madjid · Ahmad b. Majid · Ibn Majid al-Najdi · Majid · Ahmed bin Majid · Lion of the Sea · ابن ماجد · أحمد بن ماجد · شهاب الدين أحمد بن ماجد · أسد البحر · ماجد · احمد ابن ماجد · ابن ماجد النجدي · al-Najdi · النجدي · Shihab al-Din Ahmad · al-Sa'di al-Najdi · المعلم · أسد البحار · ابن أبي الركائب · Ahmad al-Najdi · معلم البحر
+             name fragments, with the number of records each reaches (exact matches only are counted): Majid (20)
+             near miss person/sulayman-al-mahri: his pupil, the navigator Sulayman al-Mahri; this record and its prose are the only place Ibn Majid is named, as plain text with no link
+             near miss person/majid-bin-said: a namesake: Majid bin Said, first Sultan of Zanzibar
+             near miss work/sharh-ketab-al-fawaed: a lecture series on al-Fawa'id of Ibn Qayyim al-Jawziyya, not his navigation manual
+             near miss person/hassan-shehata: matched the bare epithet المعلم only: an Egyptian football manager who carries it as a laqab
+             near miss person/al-hafiz-fatimid: matched on the words ibn and Majid only: the Fatimid caliph al-Hafiz, Abd al-Majid ibn Muhammad
+             near miss person/majed-abdullah: a namesake by given name: the Saudi footballer Majed Abdullah, born 1959
+             near miss person/majid-al-sadiqi: a namesake by given name: Majid al-Sadiqi, a poet and hadith scholar, a draft card
+             near miss person/ghannam-al-najdi: shares the nisba al-Najdi only: a draft card for a later scholar of Najd
+             near miss person/sulayman-ibn-ali-al-najdi: shares the nisba al-Najdi only: Sulayman ibn Ali, theologian and qadi of Najd, died 1668
+             near miss person/uthman-ibn-qaid-al-najdi: shares the nisba al-Najdi only: Uthman ibn Qa'id, imam and jurist, died 1686
+             near miss person/uthman-ibn-sanad-al-basri: shares the nisba al-Najdi only: Uthman ibn Sanad al-Basri, jurist and historian, died 1242 AH
+             near miss person/ahmad-al-bashbishi: shares the laqab and given name only: Shihab al-Din Ahmad al-Bashbishi, a Shafi'i scholar of Egypt, died 1685
+             near miss person/ahmad-al-halawani-shihab-al-din: shares the laqab and given name only: Shihab al-Din Ahmad al-Halawani, a Shafi'i and Khalwati scholar of Egypt, died 1308 AH
+             near miss person/ahmad-al-kawm-al-rishi: shares the laqab and given name only: Shihab al-Din Ahmad al-Kawm al-Rishi, a Cairene astronomer and mosque timekeeper, 786-836 AH
+             near miss person/ahmad-ibn-al-hasan-al-zarkashi: shares the laqab and given name only: Shihab al-Din Ibn al-Zarkashi, a jurist
+             near miss person/al-banna-shihab-al-din-ahmad-ibn-muhammad: shares the laqab and given name only: Shihab al-Din Ahmad al-Banna of Damietta, a linguist
+             near miss person/shihab-ahmad-ibn-hilal: shares the laqab and given name only: Shihab al-Din Ahmad ibn Hilal of Aleppo, a Sufi, died 824 AH
+             near miss person/shihab-ahmad-ibn-mughli: shares the laqab and given name only: Shihab al-Din Ahmad Ibn Muflih, a Hanbali of Damascus, died 814 AH
+             near miss person/abu-talib-al-karkhi-muallim: carries al-Mu'allim as a title, the teacher: Abu Talib al-Karkhi, a Shafi'i shaykh and calligrapher of Baghdad, tutor to the children of the caliph al-Nasir
+             near miss person/ibn-al-muallim: a patronymic, son of the teacher: the head of the Shi'i theologians in Ibn al-Nadim's day, died 413 AH
+             near miss person/ibn-al-muallim-al-qurashi: a patronymic, son of the teacher: an Egyptian Qur'an reciter, Shafi'i scholar and poet, a draft card
+             near miss person/ibn-al-muallim-al-wasiti: a patronymic, son of the teacher: the lyric poet of Wasit, Najm al-Din Muhammad ibn Ali
+             near miss person/walid-al-muallem: a family name: the Syrian diplomat and foreign minister, died 2020
+  found      Piri Reis                          -> person/pir-reis-ahmad-ibn-muhyi-al-din  (as «Piri Reis, Ahmad ibn Muhyi al-Din, the English label; بيري رئيس أحمد بن محيي الدين, the Arabic label»; 23 variants searched)
+  found      the prophet Idris                  -> person/idris  (as «إدريس, the Arabic label; Idris (Enoch), the English label; the slug idris»; 16 variants searched)
+  found      the prophet Hud                    -> person/hud  (as «هود, the Arabic label; Hud, the English label; the slug hud»; 18 variants searched)
+  stub-only  Luqman                             13 variants searched, 5 near misses opened and rejected; stub person/luqman-al-hakim
+             variants: Luqman · Lukman · Luqman al-Hakim · Luqman the Wise · Lokman · Loqman · Luqman the Sage · Lokman Hekim · Luqman ibn Ba'ura · لقمان · لقمان الحكيم · لقمان بن باعوراء · لقمان بن عاد
+             near miss person/luqman-al-akbar: a different figure: Luqman ibn Ad, called Luqman the Great by al-Mas'udi, the long-lived builder of the dam of Saba; the record does not identify him with the sage of the Qur'an
+             near miss passage/quran-31: the sura named Luqman, a passage record, not the person
+             near miss person/luqman-ibn-amir-al-wasabi: a namesake: a Successor and hadith transmitter of Homs
+             near miss person/seyyid-lokman: a namesake: the sixteenth-century Ottoman court historian
+             near miss person/hakim-nabina-ansari: carries Luqman-ul-Mulk as an honorific title only: the Indian Unani physician Hakim Abdul Wahhab Ansari, 1868-1941
+  found      the Abbasid revolution             -> event/abbasid-dawa-in-khurasan  (as «الدعوة العباسية في خراسان, the Arabic label; The Abbasid da'wa in Khurasan, the English label. No record carries the words Abbasid revolution; this event, kind campaign, runs from 101 to 132 AH, sets the da'wa under Abu Muslim against the Umayyad state, and tells the rising in black and the oath to the first Abbasid caliph»; 47 variants searched)
+  found      Battle of the Zab                  -> event/battle-of-al-zab  (as «وقعة الزاب, the Arabic label; The battle of al-Zab, the English label. Dated 132 AH: the defeat of Marwan ibn Muhammad»; 16 variants searched)
+  found      Battle of Tours                    -> event/balat-al-shuhada  (as «وقعة بلاط الشهداء, the Arabic label; Battle of Balat al-Shuhada, the English label. Dated Ramadan 114 AH; the summary glosses it as the Poitiers of Frankish memory»; 22 variants searched)
+  found      Las Navas de Tolosa                -> event/al-uqab-609  (as «وقعة العقاب, the Arabic label; The battle of al-Uqab, the English label. Dated Safar 609 AH; the summary names it Las Navas de Tolosa»; 19 variants searched)
+  absent     Battle of Plassey                  15 variants searched, 3 near misses opened and rejected
+             variants: Battle of Plassey · Plassey · Palashi · Palasi · Battle of Palashi · Plasey · معركة بلاسي · بلاسي · پلاسی · بلاسى · پلاشی · معركة بلاسى · جنگ پلاسی · Palashi 1757 · وقعة بلاسي
+             near miss event/bengal-war-1756: the war the battle belongs to: a draft card for the Bengal War of 1756-65 between the East India Company and Siraj ud-Daulah. It does not name Plassey and is not the battle's record
+             near miss person/siraj-ud-daulah: the Nawab defeated there; the summary names Plassey, a person
+             near miss person/alivardi-khan: his predecessor; the prose mentions the victory at Plassey in one sentence
+  absent     aqida (as a concept)               23 variants searched, 13 near misses opened and rejected
+             variants: aqida · aqidah · aqeedah · aqa'id · creed · Islamic creed · i'tiqad · usul al-din · aqeeda · 'aqida · akida · العقيدة · عقيدة · العقيدة الإسلامية · عقائد · أصول الدين · الاعتقاد · اعتقاد · العقائد · علم العقيدة · علم التوحيد · عقیدہ · aqaid
+             near miss concept/usul-al-din: the nearest record: a term record for usul al-din, defined as what Muslims believe and hold as religion, the classical name under which creed is treated. It has no aqida label or alias, and the word appears only inside the title of the Tahawi creed, so it is not counted as the aqida record
+             near miss concept/aqidah-and-shariah: Mahmud Shaltut's division of Islam into creed and law: a record about the pair, not about aqida on its own
+             near miss concept/proof-of-belief: one question inside creed: by what proof a belief is established
+             near miss concept/iman: faith and its articles, a neighbouring concept
+             near miss concept/tawhid: the oneness of God, one article of the creed
+             near miss concept/ilm-al-kalam: speculative theology, the discipline, a neighbouring concept
+             near miss exhibit/path-creed-iman: a trail through the creed, an exhibit, not a concept record
+             near miss work/aqida-tahawiyya: a creed text, a work; several other creeds exist as works
+             near miss concept/hubb-al-sahaba: one article of the Tahawi creed: love of the Companions; matched on the word creed in its label
+             near miss concept/kalam-allah: one article of the Tahawi creed: the Qur'an as the speech of God; matched on the word creed in its label
+             near miss concept/khilafa-rashida: one article of the Tahawi creed: the rightly-guided caliphate and its order; matched on the word creed in its label
+             near miss concept/taat-wulat-al-amr: one article of the Tahawi creed: obedience to those in authority; matched on the word creed in its label
+             near miss concept/no-compulsion-in-religion: freedom of belief and compulsion in religion, as read by al-Sha'rawi; matched on the word اعتقاد in its label
+  absent     usul al-fiqh                       17 variants searched, 10 near misses opened and rejected
+             variants: usul al-fiqh · uṣūl al-fiqh · usul fiqh · principles of jurisprudence · legal theory · Islamic legal theory · usool al-fiqh · principles of Islamic jurisprudence · roots of jurisprudence · usul al fiqh · أصول الفقه · علم أصول الفقه · اصول الفقه · اصول فقہ · علم الأصول · أصول الفقه الإسلامي · Islamic jurisprudence principles
+             near miss exhibit/path-usul: an exhibit of kind trail whose label is exactly أصول الفقه and Usul al-Fiqh: a thirty-minute guided path through other records, al-Shafi'i, al-Juwayni, al-Ihkam, the maqasid and the schools. It is a tour of the subject, not the concept's own record; no concept, practice or group record carries the name
+             near miss concept/fiqh: fiqh itself, the parent concept
+             near miss concept/dalil-usul: one topic inside usul al-fiqh: evidence
+             near miss concept/tarjih-usul: one topic inside usul al-fiqh: preponderance between conflicting evidences
+             near miss concept/nahy: one topic inside usul al-fiqh: prohibition
+             near miss work/al-waraqat-fi-usul-al-fiqh: a manual of the discipline, a work; several other usul works exist as works
+             near miss concept/naskh: one topic inside usul al-fiqh: abrogation
+             near miss concept/hikma-legal-purpose: one topic inside usul al-fiqh: the purpose of a ruling
+             near miss concept/awliyya: a term used by the usulis and the jurists: priority, the more fitting case
+             near miss concept/luzum-fiqh: a legal term: binding force, with its fiqh and usul rulings
+  found      the Ash'ari school (as a concept or group) -> concept/ashariyya  (as «الأشعرية, the Arabic label; Ash'ariyya (the Ash'ari school of theology), the English label»; 25 variants searched)
+  absent     the Maturidi school (as a concept or group) 18 variants searched, 5 near misses opened and rejected
+             variants: Maturidi · Maturidism · Maturidiyya · Maturidites · Maturidi school · al-Maturidiyya · Maturidite · Maturidis · Maturidi theology · Maturidiya · الماتريدية · الماتريدي · المذهب الماتريدي · ماتريدية · ماتریدی · الماتريديه · ماتريدي · مذهب الماتريدية
+             near miss person/abu-mansur-al-maturidi: the eponym, a person; the summary says the school is traced to him
+             near miss work/kitab-al-tawhid-maturidi: his kalam manual, a work
+             near miss work/tafsir-al-maturidi: his tafsir, a work
+             near miss building/mausoleum-of-abu-mansur-al-maturidi: his mausoleum, a building
+             near miss concept/ashariyya: the sister school, which does have a concept record
+  found      the Mahdi (concept)                -> concept/al-mahdi  (as «المهدي, the Arabic label; The Mahdi, the English label; the slug al-mahdi»; 23 variants searched)
+
+[PASS] every subject was searched under at least six spellings
+[PASS] every claimed absence survives the search: no unexplained record matches any published variant
+[PASS] every subject marked found points at a real record reached by a published variant, and every stub is a stub
+[PASS] docs/canon.md no longer lists as missing any subject that has a record
+[PASS] docs/canon.md lists every subject that is still absent or only a stub
+------------------------------------------------------------------------------
+RESULT: GREEN (5 checks passed)
