@@ -1,0 +1,40 @@
+id: dec-20261112-238
+kind: "decision"
+date: "2026-11-12"
+expires_at: "2027-11-12"
+question_hash: a69902ecd7af
+lane: "microsd-books"
+class: "content"
+modality: "repo"
+domain: "safety"
+mode: "conservative"
+question: "Hilyat al-Awliya vol. 10: (a) notice 645 names Sa'id ibn Abd al-Aziz al-Halabi, a companion of al-Sari al-Saqati who settled in Damascus, while the graph already holds person/said-ibn-abd-al-aziz-al-tanukhi (the earlier Damascene jurist) — merge or keep apart; (b) notice 650 says Abu Bakr ibn Abi Sa'dan 'followed al-Shafi'i' — record that as a traditions/faith value on the new record or state it in cited prose only?"
+options:
+  - "keep the homonyms apart, write no record for notice 645 yet, and state the Shafi'i affiliation in cited prose only"
+  - "alias notice 645 to the Tanukhi record"
+  - "add a traditions value to the new record from the single Hilyat line"
+evidence:
+  - "source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/366 and 10/377"
+  - "AGENTS.md: homonyms never merge; a person's faith is recorded only with its basis, never inferred"
+status: decided
+step: rule
+decision: "a person's faith is recorded only on two independent sources attesting it for the person himself; office, headship, descent, movement membership, infobox-only values, teacher lineages and aggregator rows never count; where sources say only 'Shia' and context supports a branch, the founder's mapping gives shia-twelver documented with the mapping stated — otherwise unknown"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-faith-two-source): Method page doctrine + founder Shia-mapping rule 24 Oct 2026 + founder re-review 1 Nov 2026 ('strict two-source rule restored; branch-only attestation settles nothing')."
+rule: "Method page doctrine + founder Shia-mapping rule 24 Oct 2026 + founder re-review 1 Nov 2026 ('strict two-source rule restored; branch-only attestation settles nothing')"
+rule_id: "rule-faith-two-source"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-faith-two-source
+chain:
+  depth: 0
+  root_id: "rule:rule-faith-two-source"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "90b397badcd6b30d"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-faith-two-source"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

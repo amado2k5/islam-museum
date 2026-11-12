@@ -34,3 +34,17 @@
 ## Not done / leads
 - The notices themselves (about 600) are not mined; ~588 remain after batch 5.
 - Next high-value notices still unmined: the vol. 9–10 Sufi shaykhs (e.g. continuing from Ahmad ibn Abi al-Hawari vol.10 notice 457 onward, Sahl al-Tustari notice 546 already partially mined), and vol. 7's remaining notices 388–391 (Shu'ba, Masmar ibn Kaddam, Sufyan ibn Uyayna, al-Layth ibn Sa'd — all hadith imams, possibly better left to hadith lanes).
+
+## Batch 6 (run microsd-books-b14, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 33–44 and 366–376 (printed page = PDF page in vol. 10).
+- `person/bayazid-al-bistami` (notice 458, 10/33–42): the uncommitted draft left by the previous session was checked against the scan and rewritten. It had cite keys corrupted with an Arabic letter, a reversed meaning ("He who created it is watching you"), and near-verbatim quotation throughout; the new section is in the museum's own words with page-level citations, and adds Abu Nu'aym's note that a hadith was assembled and attached to Abu Yazid by Abu al-Fath ibn al-Himsi (10/41).
+- `person/al-shibli` (notice 646, 10/366–375) and `person/ibn-al-arabi-ahmad` (notice 647, 10/375–376): trilingual sections appended; Hilyat source added.
+- New draft records: `person/ahmad-ibn-khidruya` (459, 10/42–43), `person/ibrahim-al-harawi-sitanba` (460, 10/43–44), `person/abu-amr-al-zajjaji` (648, 10/376). No faith/tradition value (dec-20261112-237). The nickname of notice 460 is garbled in the OCR ("إستلبه", "بستذبه"); it is read as ستنبة.
+- Not mined, short notices seen on these pages: 461 Dawud al-Balkhi (10/44), 644 Ali ibn Abd al-Hamid al-Ghada'iri (10/366), 645 Sa'id ibn Abd al-Aziz al-Halabi (10/366), 649 Muhammad ibn Ulayyan al-Nasawi (10/376) — leads for a later batch.
+- Qur'an verses quoted inside the notices are described, never typed.
+
+## Batch 7 (run microsd-books-b15, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 44–45, 116–122, 291–296, 366, 377, 385–389.
+- Enriched: `person/sari-al-saqati` (notice 469, read 10/116–122; pp. 123–128 of the notice NOT yet mined), `person/amr-ibn-uthman-al-makki` (573, 10/291–296), `person/ibn-khafif` (660, 10/385–387), `work/hilyat-al-awliya` (new section on the three method statements of vol. 10: 10/41–42, 10/375, 10/387–389).
+- New draft records: `person/dawud-al-balkhi` (461, 10/44–45), `person/ali-ibn-abd-al-hamid-al-ghadairi` (644, 10/366 with 10/117 and 10/121), `person/abu-bakr-ibn-abi-sadan` (650, 10/377). No faith/tradition value; Ibn Abi Sa'dan's Shafi'i affiliation is stated in prose with its page, not as a `traditions` value.
+- Homonyms kept apart: notice 645 Sa'id ibn Abd al-Aziz al-Halabi (companion of al-Sari, 10/366) is NOT `person/said-ibn-abd-al-aziz-al-tanukhi`; no record written for him yet (lead).
