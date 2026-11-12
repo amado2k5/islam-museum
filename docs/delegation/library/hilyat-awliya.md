@@ -690,3 +690,19 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 661 (printed) | 389 | the dream's wording | the report is short; no more is given | the dream is stated as the report gives it |
 | 661 (printed) | 389 | "أبو محمد بن حيان" and "أبو عبد الله الكسائي" | legible | given as read |
+
+## Batch 84: re-reading 646 and 647 from the scan (run microsd-books-b84, Claude Code / claude-fable-5-2)
+- Printed 646 (Abu Bakr al-Shibli, person/al-shibli, pages 366–375) re-read in full from the scan and compared with the existing prose in all three languages. The existing record is the same man (Abu Bakr Dulaf ibn Jahdar al-Shibli) and its prose was largely faithful, but it omitted and misplaced material. Added as "إضافات من نص الحلية وتصحيحات" in all three languages, with citations to the pages: the vizier's exchange (10/367); the slap on Junayd's head and the foot-strike that preceded the fainting (10/367); "أحسب أني قدمت فيكم..." (10/368); the sayings on the stages of the seeker and the knower, on glance, passing thought and sign, and on being cut off and joined (10/368); love before God's love as polytheism, "تاهت الخليقة" (10/369–370); God's veiling and the student's question (10/370); keeping secrets, jealousy and drunkenness (10/371–372); Abu al-Fath ibn Shafi' and the beggar's "يا جواد" (10/373); trust, fear and hope, and bare tawhid (10/374); lowliness and honour (10/374); the dream (10/375); and the correction of the Ibn Mujahid sequence (10/373–374).
+- Printed 647 (Ibn al-A'rabi, pages 375–376) re-read in full and compared with person/ibn-al-arabi-ahmad. Two errors corrected in all three languages: the sentence on the world and Paradise had its halves reversed (the scan says the world was made pleasant by the mention of leaving it, and Paradise was not made pleasant by the mention of staying in it). Added: the chain of the socks report (Sulayman ibn Ahmad, Ibn al-A'rabi, al-Hasan ibn Ali ibn Affan, Yahya ibn Fudayl, al-Hasan ibn Salih, Abu Janab al-Kalbi, Talha ibn Musarrif, Zirr ibn Hubaysh, Safwan ibn Assal), and Abu Nu'aym's note that it is a rare report from Talha; and the saying that God gave some qualities of His friends to His enemies.
+- Printed 661 (al-Nu'man ibn Abd al-Salam) is written (batch 83). Printed 532 and 546 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 84)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 646 (printed) | 367 | the gloss "يريد الخليفة المقتدر" | the scan gives it inside the report | given as the scan's gloss, not as Abu Nu'aym's own statement |
+| 646 (printed) | 371 | "التصوف لا حال يقل ولا ساء يظل" | the words are garbled in the scan | the saying is given as the scan reads it, flagged for revision |
+| 646 (printed) | 374 | "نسيان القرى" as the definition of remembrance | "القرى" unclear in the scan | not asserted; flagged for revision |
+| 646 (printed) | 370 | the verse on the sword and "ذو الفقار" at 375 | the saying is a reported gloss | not expanded |
+| 647 (printed) | 376 | the phrase "أي الأوقات يرضى" answer's pronoun | the scan reads "عني" (me) where the prose read "عليه" | flagged; the prose keeps the meaning |
