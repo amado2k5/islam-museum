@@ -786,3 +786,19 @@ Next step: episode 20. Sensitivity: ep18 holds the lecturer's judgments on the W
 | Calls and answers too garbled to read | ep18 00:38:30–00:46:00 (in part); ep19 00:36:00–00:37:30, 00:40:30–00:44:00 (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
 | Hadith and verse wording | ep18 00:22:00–00:24:30, 00:26:00; ep19 00:12:00 | Wording not typed; by sense only | Hadith rule | Open |
 | Fiqh questions referred elsewhere (woman travelling without a mahram, a second marriage in secret as to fairness) | ep19 00:37:00, 00:42:30 | Referred to fatwa programmes | Scope | Open |
+
+### albuyout-alamena, episodes 20–21 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-10)
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep20–ep21 (where is the defect, burying ideas and opinions; the four groups of sins) | about 38 min, 37 min (transcript; the closing minutes of each are calls) | ar, en, ur: work/albuyout-alamena extended, 13 points | 14 new `about` edges (hijab, bida, tawba, hasad, kibr, hajj, Iblis, Abu Jahl, al-Shafi'i, Ahmad ibn Hanbal, Mu'adh ibn Jabal, passages 81:8-9, 2:228, 7:12, 33:59, 30:41) | ep20 7, ep21 6 points; engine qwen3-asr pass5, 30 s windows | 8 needs_source: ep20 the tyrants-history claim (00:12:30), the hijab argument and judgment (00:21:00), call text (00:26:30); ep21 the Umar and Abu Hanifa accounts (00:04:30), the al-Shafi'i, Ahmad and Umar-Mu'adh accounts (00:10:30), Abu Jahl and al-Khidr (00:18:00), the sins-earthquakes link (00:22:30), call text (00:26:30) | run omar-abdelkafy-albuyout-10 |
+
+Next step: episode 22. Sensitivity: ep20 carries a ruling on hijab and ep21 sweeping claims linking sins to earthquakes; both are recorded as the lecturer's own.
+
+| Excluded (albuyout-alamena ep20–ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep20 00:00:00–00:01:00, 00:15:30–00:16:00, 00:32:30–00:33:00; ep21 00:00:00–00:01:00, 00:15:30–00:16:00, 00:29:00–00:29:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep20 00:06:30–00:07:30 (in part), 00:18:30; ep21 00:06:00, 00:25:30, 00:30:30 | Not speech | Loop check | Open |
+| Calls and answers too garbled to read | ep20 00:37:00–end (in part); ep21 00:34:00–end (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Verse and saying wording (verse of a chief of the Arabs on not drinking, a proverb on lovers' hearts) | ep20 00:16:30–00:17:00; ep21 00:30:00 | Verbatim verse, partly garbled; given by sense | Sources policy; clarity | Open |
+| Fiqh questions the lecturer refers elsewhere (the wiping of the sock, the working in a hotel) | ep20 00:25:30; ep21 00:33:30 | Referred to fatwa programmes | Scope | Open |
