@@ -550,5 +550,5 @@ First explore-list family scored against the eight criteria (verification date 9
 - hamadhan: its only hit is 2043471, already on place/hamadan (duplicate place; flagged, not linked).
 - No populated-place within 1.5 km under the English or alternate name: Bukhara, Merv, Ghazna, Zaranj, Istakhr, Abiward, Algiers, Tashkent, Tirmidh, Sijilmasa, Muscat, Taif, Ha'il, Yanbu, Doha, Kuwait City.
 - Nomisma: no new pair passes. ankara (1.9 km) concept describes the modern city, not an Islamic-period mint: held. amorium (2.5 km) duplicates place/ammuriyya: held as a duplicate pair. samosata: concept not readable: held. Founder to review the 'ancient site' wording for the earlier links.
-- Papyri.info registered Tier 2 facts-only (source/papyri-info, registry row, attribution row, source-families row), by decision dec-20261112-265 (override of two engine false positives).
+- Papyri.info registered Tier 2 facts-only (source/papyri-info, registry row, attribution row, source-families row), by decision dec-20261112-266 (override of two engine false positives).
 - New family: none qualifies. Orient-Digital and MEGA-Jordan did not respond (no answer from the host). Perry-Castañeda maps page has no licence wording and no machine route.

@@ -805,7 +805,7 @@ function miracleApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: 
 }
 
 /**
- * The Genealogies, Peoples, Mutun and Prophets' Tree Browser's API rows (docs/plan/55):
+ * The Genealogies, Peoples, Butun and Prophets' Tree Browser's API rows (docs/plan/55):
  * passages whose matn names a lineage link, tribe, people, matn or the class terms — plus
  * canonical `mentions` edges — and the curated `ansab-browser` records; the subject index
  * carries every lineage link, tribe, people, matn and concept with per-corpus counts, so a

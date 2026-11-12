@@ -1,6 +1,6 @@
-// The Genealogies, Peoples, Mutun and Prophets' Tree Browser's shared reads
-// (docs/plan/55-ansab-browser.md): every mention of lineages, tribes, peoples, the didactic
-// mutun and the prophets' tree in the museum's sources — the Qur'an, the Sunnah, the seerah and
+// The Genealogies, Peoples, Butun and Prophets' Tree Browser's shared reads
+// (docs/plan/55-ansab-browser.md): every mention of lineages, tribes, peoples, the tribal
+// butun and the prophets' tree in the museum's sources — the Qur'an, the Sunnah, the seerah and
 // every harvested book — plus the curated records about them, all over the one graph. Passages
 // are found by the shared detector in scripts/ansab.ts at build time and joined to the canonical
 // `mentions` edges already in the graph, so a mention in a book harvested later appears here the
