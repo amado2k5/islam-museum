@@ -1,0 +1,62 @@
+id: dec-20261112-267
+kind: decision
+date: 2026-11-12
+expires_at: 2027-11-12
+question_hash: 6ef1fc1dcda1
+lane: build-deploy-performance
+class: process
+modality: repo
+domain: governance
+mode: conservative
+question: "Build and deploy speed trial (graph lookups, non-blocking R2 staging
+  upload, packed build artifact, no status file on UAT): the founder said in
+  chat on 12 November 2026 to leave production as it is, try the changes on UAT
+  first and make them on release/uat rather than main. AGENTS.md (founder rule
+  of the same day) retires release/uat and sends every pull request to main.
+  Which applies to this trial?"
+options:
+  - raise the trial pull request against release/uat as the founder instructed
+    in chat, as a one-off exception, and bring it to main by a pull request to
+    main after the UAT review
+  - raise it against main under the one-branch rule
+evidence:
+  - "founder instruction in chat, 12 November 2026: 'we can leave prod
+    deployment process as is and try all this first on uat and uat deployment,
+    also we can try to make the changes on release/uat branch not main',
+    confirmed by 'Yes, start'"
+  - "AGENTS.md, 'One branch: main (founder rule, 12 November 2026)'"
+  - .github/workflows/build.yml still builds release/**; deploy-uat.yml accepts
+    source_branch
+status: founder-docket
+step: policy-gate
+decision: deploys are founder-only (cost + control)
+confidence: n/a
+reversible: false
+rationale: ""
+gate: nd-deploy
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-deploy
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - nd-deploy
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-12
+    by: founder (in chat, 12 November 2026; recorded by Claude)
+    note: "One-off exception to the one-branch rule for the build and deploy speed
+      trial: the trial pull request goes to release/uat and is reviewed on UAT;
+      production workflows on main are unchanged until the founder has compared
+      the UAT numbers, and the changes then reach main by a pull request to
+      main."
+  founder_override: false
+  calibration_weight: 1

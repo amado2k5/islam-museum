@@ -70,7 +70,8 @@ function validateDst(dst, allowed, allowRootFiles = false) {
 const STATUS_KEY = "_r2-sync/status.json";
 const STATUS_EVERY = 100;
 
-async function writeStatus(bucket, status, log) {
+async function writeStatus(bucket, status, log, enabled = true) {
+  if (!enabled) return;
   try {
     await bucket.put(STATUS_KEY, JSON.stringify({ ...status, updated: new Date().toISOString() }, null, 2), {
       httpMetadata: { contentType: "application/json" },
@@ -82,7 +83,9 @@ async function writeStatus(bucket, status, log) {
 
 // Applies one archive. `bucket` is an R2 bucket binding (or a compatible stub).
 // `log` receives progress lines. Returns a report; throws only on a bad archive.
-export async function processArchive({ bucket, archiveKey, allowedPrefixes, allowRootFiles = false, log = console.log }) {
+// statusFile: false skips the progress file. Every invocation writes the same key (_r2-sync/status.json), and R2 allows one
+// write per second to a key (429 above that), so a publish that runs many archives at once cannot keep it anyway.
+export async function processArchive({ bucket, archiveKey, allowedPrefixes, allowRootFiles = false, statusFile = true, log = console.log }) {
   const archive = await bucket.get(archiveKey);
   if (!archive) throw new Error(`archive not found: ${archiveKey}`);
   const entries = unzipSync(new Uint8Array(await archive.arrayBuffer()));
@@ -109,7 +112,7 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, allo
     deleted: report.deleted.length,
     failed: report.failed.length,
   });
-  await writeStatus(bucket, snapshot("running", 0), log);
+  await writeStatus(bucket, snapshot("running", 0), log, statusFile);
 
   // COPY ops run COPY_CONCURRENCY at a time. A MOVE, DELETE or unknown op runs alone,
   // in manifest order, so it can never race a COPY to the same key.
@@ -173,7 +176,7 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, allo
     }
     if (Math.floor(i / STATUS_EVERY) > Math.floor(lastStatusAt / STATUS_EVERY)) {
       lastStatusAt = i;
-      await writeStatus(bucket, snapshot("running", i), log);
+      await writeStatus(bucket, snapshot("running", i), log, statusFile);
     }
   }
 
@@ -183,7 +186,7 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, allo
   } else {
     log(`[kept] ${archiveKey} kept because ${report.failed.length} operation(s) failed`);
   }
-  await writeStatus(bucket, { ...snapshot(report.failed.length === 0 ? "done" : "kept", total), finished: new Date().toISOString() }, log);
+  await writeStatus(bucket, { ...snapshot(report.failed.length === 0 ? "done" : "kept", total), finished: new Date().toISOString() }, log, statusFile);
   report.summary = {
     copied: report.copied.length,
     moved: report.moved.length,
@@ -219,6 +222,7 @@ export default {
         archiveKey: archive,
         allowedPrefixes,
         allowRootFiles: env.ALLOW_ROOT_FILES === "true",
+        statusFile: env.STATUS_FILE !== "off",
         log: (line) => console.log(line),
       });
       return json(report, report.failed.length ? 207 : 200);

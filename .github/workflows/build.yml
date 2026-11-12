@@ -138,21 +138,29 @@ jobs:
             echo
             echo "Deploy it with **Deploy islam.museum to Cloudflare** → Run workflow, build_run_id \`${{ github.run_id }}\` (or empty for the latest build)."
           } >> "$GITHUB_STEP_SUMMARY"
+      # UAT trial (12 Nov 2026): the build has about 420,000 files, and uploading them one by one took 24 minutes (run
+      # 42911617876). One zstd tar goes up as a single file. The artifact is named dist-tar, not dist, so a deploy workflow
+      # that still expects the unpacked tree refuses it at "Find the build" instead of deploying a tarball.
+      - name: Pack the built site into one file
+        run: |
+          set -euo pipefail
+          tar --use-compress-program='zstd -T0 -3' -cf dist.tar.zst dist
+          ls -l dist.tar.zst
       - name: Upload built site (the whole dist, including the R2-served directories)
         id: upload
         uses: actions/upload-artifact@v4
         with:
-          name: dist
-          path: dist
+          name: dist-tar
+          path: dist.tar.zst
+          # Already compressed by zstd.
+          compression-level: 0
           # Public repository: artifact storage is free. The keep-newest job below keeps the
           # five newest successful builds; retention is the safety net, not the mechanism,
           # and must outlast five daily builds. The artifact of a run whose tests failed
           # is deleted by keep-newest.
           retention-days: 14
           if-no-files-found: error
-          # upload-artifact v4.4+ leaves out dot-files by default, which dropped dist/.well-known/ (the
-          # RFC 9727 API catalog the homepage Link header advertises) from every deploy.
-          include-hidden-files: true
+          # The tar carries the dot-files (dist/.well-known/, the RFC 9727 API catalog) itself.
 
   # Founder's rule, 22 October 2026: the five newest successful builds' artifacts are kept
   # (rollback copies); every other dist artifact is deleted. This job runs only when both
@@ -194,7 +202,7 @@ jobs:
           # Every live dist artifact, newest run first, with the state of its run. This run's
           # own artifact is kept (its tests and build passed, which is why this job runs), and
           # a run still in progress keeps its artifact untouched until it finishes.
-          rows=$(gh api --paginate "repos/$GH_REPO/actions/artifacts?name=dist&per_page=100" \
+          rows=$(gh api --paginate "repos/$GH_REPO/actions/artifacts?name=dist-tar&per_page=100" \
             --jq '.artifacts[] | select(.expired == false) | "\(.workflow_run.id) \(.id)"' | sort -rn)
           kept=0; ids=""
           while read -r rid aid; do

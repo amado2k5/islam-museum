@@ -165,8 +165,8 @@ jobs:
           [ "$conclusion" = "success" ] || { echo "::error::Build run $id ended with \"$conclusion\", not success: its tests or build failed, so it is not deployable."; exit 1; }
           [ "$branch" = "$SOURCE_BRANCH" ] || { echo "::error::Build run $id built $branch, not $SOURCE_BRANCH."; exit 1; }
           # The artifact must still exist (retention-days in build.yml).
-          gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.name == "dist" and .expired == false) | .id' | grep -q . \
-            || { echo "::error::Build run $id has no live dist artifact (expired or never uploaded). Rebuild the commit with \"Build islam.museum\"."; exit 1; }
+          gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.name == "dist-tar" and .expired == false) | .id' | grep -q . \
+            || { echo "::error::Build run $id has no live dist-tar artifact (expired, never uploaded, or built before the packed artifact). Rebuild the commit with \"Build islam.museum\"."; exit 1; }
           {
             echo "run_id=$id"
             echo "sha=$sha"
@@ -209,10 +209,17 @@ jobs:
       - name: Download the built site
         uses: actions/download-artifact@v4
         with:
-          name: dist
-          path: dist
+          name: dist-tar
+          path: .
           run-id: ${{ steps.build.outputs.run_id }}
           github-token: ${{ github.token }}
+      - name: Unpack the built site
+        run: |
+          set -euo pipefail
+          tar --use-compress-program=unzstd -xf dist.tar.zst
+          rm dist.tar.zst
+          test -d dist/ar
+          echo "dist: $(find dist -type f | wc -l) files"
       - name: Stamp the deploy (the landing page's "Last updated" line and every page's footer version read it)
         # The only file a deploy adds to the build; it goes to R2 with the rest of api/ below.
         # `version` and `version_date` are the top release block of CANARY.md in the built commit. They are not in the pages
@@ -267,11 +274,18 @@ jobs:
       - name: Build assets-only folder for the site Worker (no R2-served directories)
         run: |
           set -euo pipefail
-          rm -rf dist-assets && cp -r dist dist-assets
-          rm -rf dist-assets/ar dist-assets/en dist-assets/ur dist-assets/api dist-assets/pagefind-ar dist-assets/pagefind-en dist-assets/pagefind-ur
+          # Copy only what is not served from R2. Copying the whole build to delete most of it took four minutes and
+          # needed room for a second 19 GB tree. This one list is the single place a new R2-served folder or root file
+          # is added (it replaces the two removal lines; the Pages step below deploys the same folder).
           # Founder rule (28 Oct 2026): data, content, maps, images and video are served from R2, not from static assets.
-          rm -rf dist-assets/media dist-assets/edu dist-assets/timeline-data dist-assets/gift-shop dist-assets/brand dist-assets/openapi
-          rm -f dist-assets/sitemap*.xml dist-assets/feed.xml dist-assets/llms*.txt dist-assets/search-synonyms.*.json dist-assets/favicon* dist-assets/apple-touch-icon.png dist-assets/.well-known/api-catalog
+          rm -rf dist-assets && mkdir dist-assets
+          rsync -a \
+            --exclude=/ar --exclude=/en --exclude=/ur --exclude=/api \
+            --exclude=/pagefind-ar --exclude=/pagefind-en --exclude=/pagefind-ur \
+            --exclude=/media --exclude=/edu --exclude=/timeline-data --exclude=/gift-shop --exclude=/brand --exclude=/openapi \
+            --exclude='/sitemap*.xml' --exclude=/feed.xml --exclude='/llms*.txt' --exclude='/search-synonyms.*.json' \
+            --exclude='/favicon*' --exclude=/apple-touch-icon.png --exclude=/.well-known/api-catalog \
+            dist/ dist-assets/
           echo "assets: $(find dist-assets -type f | wc -l) files"
           node workers/site/scripts/bundle-rules.mjs
       - name: Deploy site Worker (this environment's bucket)
@@ -305,11 +319,8 @@ jobs:
           seed=""; [ "$SEED" = "true" ] && seed="--seed"
           # shellcheck disable=SC2086
           node workers/r2-sync/batch/publish.mjs --dist dist $seed
-      - name: Strip R2-served dirs from Pages deployment
-        # Pages refuses a deployment over 100,000 files, and the HTML pages alone are about
-        # 112,000. The site Worker serves every page from R2 and the rest from the assets
-        # layer, so Pages keeps only what the Worker does not serve.
-        run: rm -rf dist/ar dist/en dist/ur dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api dist/media dist/edu dist/timeline-data dist/gift-shop dist/brand dist/openapi && rm -f dist/sitemap*.xml dist/feed.xml dist/llms*.txt dist/search-synonyms.*.json dist/favicon* dist/apple-touch-icon.png dist/.well-known/api-catalog
+      # Pages refuses a deployment over 100,000 files, and the HTML pages alone are about 180,000. The site Worker serves
+      # every page from R2 and the rest from the assets layer, so Pages gets the same assets-only folder the Worker got.
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
@@ -318,7 +329,7 @@ jobs:
           wranglerVersion: "4"
           # The checkout above is a detached HEAD, so name the production branch and the
           # built commit explicitly instead of letting wrangler read them from git.
-          command: pages deploy dist --project-name=${{ steps.env.outputs.pages_project }} --branch=main --commit-hash=${{ steps.build.outputs.sha }} --commit-dirty=false
+          command: pages deploy dist-assets --project-name=${{ steps.env.outputs.pages_project }} --branch=main --commit-hash=${{ steps.build.outputs.sha }} --commit-dirty=false
       - name: Smoke test the deployed site (informative; a non-200 is reported, not fatal)
         env:
           SITE_URL: ${{ steps.env.outputs.site_url }}
