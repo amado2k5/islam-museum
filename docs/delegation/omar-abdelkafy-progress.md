@@ -517,6 +517,7 @@ Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan progra
 | tariq-al-noor ep05-ep08 (what a person forgets; injustice and its kinds; the four states of the believer; ingratitude) | ar, en, ur: series record extended with 4 episode sections (35 points) | 23 new `about` edges to existing records (65 in total) | 9 needs_source: ep05 the unnamed righteous man; ep06 the guardian-burden claim on hijab and the garbled saying, the unnamed vizier; ep07 al-Hasan al-Basri sweet story roles, the twenty-years narrative, Kufa and the People of the Bench, the unnamed woman Companion; ep08 the unattributed saying on three calamities (reported as such), the unnamed judge | omar-abdelkafy-tariq-al-noor-2 |
 | tariq-al-noor ep09-ep12 (heedlessness and the heart; Salman al-Farisi's sayings; four traits; the truthful merchant) | ar, en, ur: series record extended with 4 episode sections (33 points) | 16 new `about` edges (81 in total) | needs_source on: ep09 the Ahmad ibn Hanbal and Shayban exchange roles, the Moses and angel-of-death narrative, the age-seventy narrative, the unattributed companion saying; ep10 the Talha narrative; ep11 the scholars' saying on liars, the forty-days saying, the Abu Hanifa nursing account; ep12 the Uthman caravan account, the Abu Hanifa cloth account | omar-abdelkafy-tariq-al-noor-3 |
 | tariq-al-noor ep13-ep15 (five things that corrupt the heart; the wise are three; self-deception and humility) | ar, en, ur: series record extended with 3 episode sections (21 points) | 15 new `about` edges (96 in total) | needs_source on: ep13 the unnamed Companion and Abu Bakr narrative, the campaigns list; ep14 Umar ibn Abd al-Aziz's last words, the verses attributed to al-Shafi'i; ep15 the speaker of the Satan saying, the Jabala account | omar-abdelkafy-tariq-al-noor-4 |
+| tariq-al-noor ep16-ep18 (what leads to a good ending; signs of wretchedness; the value of time) | ar, en, ur: series record extended with 3 episode sections (20 points) | 10 new `about` edges (106 in total) | needs_source on: ep16 the womb-writing of provision and the angel-of-death speech; ep18 the unnamed righteous man, the ranking figure 190 | omar-abdelkafy-tariq-al-noor-5 |
 
 | Excluded (tariq-al-noor ep01-ep04) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
@@ -645,3 +646,10 @@ Next step: episode 8.
 | Repetition loop | ep13 00:07:00 (inner) | Not speech | Loop check | Open |
 | Verse of the proud tribe drinking clear water | ep15 00:03:30-00:04:00 | Verse, author unnamed and garbled | Sources policy; clarity | Open |
 | Hygiene remark and the divorce-case remark | ep15 00:04:00-00:04:30 | Garbled, unclear point | Clarity | Open |
+
+| Excluded (tariq-al-noor ep16-ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, closing formulae | ep16 00:00:00, 00:09:30; ep17 00:00:00, 00:08:00-00:08:30; ep18 00:00:00, 00:09:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep16 00:02:30; ep18 00:04:00 | Not speech | Loop check | Open |
+| Question-and-answer remark on songs, music and immodest imagery | ep16 00:01:30 | Garbled, no clear statement | Clarity | Open |
+| Remarks on screens and games, and on craftsmen's delays | ep18 00:04:30-00:05:00, 00:07:30 | Partly garbled; only the clear arithmetic and points kept | Clarity | Open |
