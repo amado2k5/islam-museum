@@ -455,7 +455,6 @@ Opinions labelled as the lecturer's: group recitation in mosques, music, modern 
 | Garbled passages | ep06 00:07:30-00:10:00 (painting and art tangent), 00:13:00-00:14:00 (Bilal and Ali), 00:19:00-00:19:30, 00:32:00-00:33:00, 00:39:30-00:41:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Sign-off | ep06 00:42:00 (greeting and thanks) | Not lesson content | Content rule | Open |
 
-Resume point: episode 07 (branch from origin/main).
 
 ### Completed recordings (§8), continued
 
@@ -488,7 +487,6 @@ The lecturer's political remarks on the Jews and Jerusalem (ep08 00:17:30-00:18:
 | Garbled passages | ep07 00:04:30-00:06:00 (the story of a family and a son; sensitive and unclear), 00:12:30-00:14:00, 00:21:30-00:25:00, 00:36:30-00:37:00; ep08 00:04:00-00:05:30, 00:10:00-00:11:30, 00:14:30-00:16:00, 00:30:30-00:31:30 | Not recoverable as clear Arabic | Clarity | Open |
 | Supplications and farewell with the announcement of a three-week break | ep07 00:38:00-00:40:30; ep08 00:40:00-00:40:30 | Not lesson content | Content rule | Open |
 
-Resume point: episode 09 (branch from origin/main).
 ## Parallel writer: tariq-al-noor (11 Nov 2026, Claude Code claude-sonnet-5-5)
 
 Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan programme). Record: `work/tariq-al-noor` (draft, provenance run `omar-abdelkafy-tariq-al-noor-N`). Transcripts: `books/assabile/omar-abdelkafy/tariq-al-noor/pass5-qwen/`. Engine Qwen3-ASR pass5, 30-second windows.
