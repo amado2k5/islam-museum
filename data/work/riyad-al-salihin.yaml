@@ -3,8 +3,9 @@ class: work
 kind: book
 label: { ar: "رياض الصالحين", en: "Riyad al-Salihin" }
 summary:
-  ar: "كتاب النووي في الترغيب والترهيب والآداب، رتبه على أبواب تتصل بالسلوك، وجمع فيه أحاديث مختارة من كتب السنة."
-  en: "al-Nawawi's selection of hadiths on conduct, encouragement and warning, arranged in chapters on moral and devotional life."
+  ar: "كتاب النووي في الترغيب والترهيب والآداب، رتبه على أبواب تتصل بالسلوك، وجمع فيه أحاديث مختارة من كتب السنة. تعده دائرة المعارف الإسلامية من مؤلفاته التي ترجع إلى ميوله الصوفية وتؤرخ الفراغ منه بسنة 670هـ/1271-1272م. وتسجل طبعتي مكة 1302 و1312 هجرية وترجمة إنجليزية لمحمد ظفر الله خان، لندن 1975م."
+  en: "al-Nawawi's selection of hadiths on conduct, encouragement and warning, arranged in chapters on moral and devotional life. The Encyclopaedia of Islam lists it among the works owing to his mystical tendencies and dates its completion to 670/1271-2. It records Mecca editions of 1302 and 1312 and an English translation by Muhammad Zafrulla Khan, London 1975."
+  ur: "نووی کی کتاب جس میں سلوک، ترغیب اور تنبیہ سے متعلق احادیث ابواب کی صورت میں مرتب ہیں۔ انسائیکلوپیڈیا آف اسلام اسے ان تصانیف میں شمار کرتا ہے جو نووی کے صوفیانہ رجحان کا نتیجہ ہیں، اور اس کی تکمیل 670ھ/1271-1272ء بتاتا ہے۔ وہ مکہ کی 1302ھ اور 1312ھ کی طباعتیں اور محمد ظفر اللہ خان کا انگریزی ترجمہ، لندن 1975ء، درج کرتا ہے۔"
 genre: [hadith,ethics]
 made: { by_muslims: true, basis: documented, sources: [source/riyad-al-salihin] }
 authors: [person/al-nawawi]
@@ -12,7 +13,7 @@ language: language/arabic
 wings: [words]
 external_ids:
   wikidata: Q1806888
-sources: [source/riyad-al-salihin]
-provenance: { layer: own-research, source: "Source record in data/source (see sources); Wikidata pointer only", generated_by: "Claude Haiku 5.5 (Wikidata insertion S8)", run: "wikidata-insertion-s8" }
+sources: [source/riyad-al-salihin, source/encyclopaedia-of-islam-2]
+provenance: { layer: own-research, source: "Source record in data/source (see sources); Wikidata pointer only", generated_by: "Claude Haiku 5.5 (Wikidata insertion S8)", run: "wikidata-insertion-s8", canon: "EI2 vol. 7, article al-Nawawi, PDF pp. 1096-1097, written by Claude Sonnet 5.5, run canon-cornerstones-21" }
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Wikidata insertion S8); structure only, no quotations" }

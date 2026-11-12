@@ -1,12 +1,64 @@
 ---
 id: concept/sabr
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Overview
 Patience under harm and persecution for the sake of the call, and what steadies believers in hardship. *Al-Rahiq al-Makhtum* counts among the causes of the Companions' steadfastness faith in God, the leadership of the Prophet, a sense of responsibility, faith in the Hereafter, the Qur'an, and the good news of success. {cite:mubarakpuri-raheeq p.118}
+
+## Sabr in the Encyclopaedia of Islam
+The second edition of the Encyclopaedia of Islam, in an article by A.J. Wensinck, treats sabr as a notion that no single Western word conveys; it is usually rendered as patience, but the article stresses that the range is wider. {cite:encyclopaedia-of-islam-2 vol. 8 p. 738} The sections below follow that article and report its judgements as the author's own.
+
+## The word and its range
+The article starts from the Arabic lexicographers, who derive the root s-b-r from the sense of restraining or binding. From it comes the expression for killing someone after binding him, in which the killer is called sabir and the victim masbur. The usage is applied to martyrs and prisoners of war put to death, and in the Hadith often to animals tortured to death against the Muslim prohibition. {cite:encyclopaedia-of-islam-2 vol. 8 p. 738}
+
+A further technical use is the "oath of sabr", an oath imposed by the public authorities and therefore taken unwillingly. {cite:encyclopaedia-of-islam-2 vol. 8 p. 738}
+
+## In the Qur'an
+The article notes that derivatives of the root occur often in the Qur'an. The commonest sense is being patient: the Prophet [[person/muhammad|Muhammad]] is told to be patient like the earlier messengers, a double reward is promised to the patient, and the patient are said to receive their reward without reckoning, which the article explains as being without measure or limit. {cite:encyclopaedia-of-islam-2 vol. 8 p. 738}
+
+The notion is also applied to holy war, where it can be rendered as endurance or tenacity, and a related verbal form carries the sense of persevering in service. A third verbal form, which the article connects with dealing patiently with other people, also occurs. {cite:encyclopaedia-of-islam-2 vol. 8 p. 738}
+
+Elsewhere the word means resignation, as in the account of Joseph, where Jacob, on hearing of the death of his son, answers with a fitting resignation. Sabr is also paired with prayer, and the commentators, the article says, take it in those passages as meaning fasting, citing the name "month of sabr" given to [[concept/ramadan-month|Ramadan]]. {cite:encyclopaedia-of-islam-2 vol. 8 p. 738}
+
+The adjective sabbar is found in the Qur'an linked with shakur, grateful, and the article adds a saying reported in the Hadith that the believer is fortunate when he is resigned in misfortune and grateful in favour, and another transmitted by [[person/muslim-ibn-al-hajjaj|Muslim]] that everything is good for the believer, who is thankful in ease and patient in hardship. The article observes that sabr and [[concept/gratitude-shukr|shukr]] are linked in this way again in al-Ghazali. {cite:encyclopaedia-of-islam-2 vol. 8 p. 739}
+
+## The commentaries and four kinds of sabr
+The article says it is hard to know how far the later meanings are already inherent in the Qur'anic language. In the author's judgement the notion, with all its shades, is essentially Hellenistic, in that it includes the apatheia of the Stoic, the patience of the Christian and the self-control and renunciation of the ascetic. {cite:encyclopaedia-of-islam-2 vol. 8 p. 739}
+
+Of the commentators it quotes only [[person/fakhr-al-din-al-razi|Fakhr al-Din al-Razi]]. He distinguishes four kinds of sabr: endurance in the laborious intellectual work of dealing with matters of doctrine, such as the unity of God, justice, prophecy and the return; endurance in completing the acts that are required or recommended by law; steadfastness in refraining from forbidden acts; and resignation in calamity. He defines musabara as sabr applied to one's fellow creatures, such as neighbours and the People of the Book, which means refraining from revenge and practising the commanding of good and forbidding of evil. {cite:encyclopaedia-of-islam-2 vol. 8 p. 739}
+
+## A divine name
+The high value set on sabr is also seen, the article says, in the inclusion of [[concept/asma-al-sabur|al-Sabur]] among the beautiful names of God. According to the dictionary Lisan al-Arab, Sabur is a synonym of [[concept/asma-al-halim|Halim]], with the difference that the sinner need not fear retribution from al-Halim but cannot be sure of such leniency from al-Sabur. In the Hadith, the article adds, God's patience is raised to the highest degree in the saying that no one is more patient than He towards what wounds His hearing. {cite:encyclopaedia-of-islam-2 vol. 8 p. 739}
+
+## In the Hadith
+The article finds sabr in the Hadith first in general connections: whoever practises it will be granted it by God, and it is called the greatest gift. It is also applied to endurance in the holy war, as in the report of a man who asked Muhammad whether he would enter Paradise if he fought with his life and property and was killed patiently and resigned, advancing without fleeing; Muhammad answered yes. {cite:encyclopaedia-of-islam-2 vol. 8 p. 739}
+
+The word is used too for enduring the authorities, as in the report that after the Prophet's death Muslims would suffer things and should be patient until they met him at the heavenly pool. Here the article says the word usually has the sense of resignation. {cite:encyclopaedia-of-islam-2 vol. 8 p. 739}
+
+## Sabr in ethical and mystical writing
+The article states that what the Qur'an and Hadith say recurs in the ethical and mystical literature, where the word becomes a technical term and, in this school of thought, the cardinal virtue. It compares this with other basic notions that have many definitions, which it says often point to the fertility of imagination rather than give a full account, but which throw light on the subject like flashes of lightning. {cite:encyclopaedia-of-islam-2 vol. 8 p. 739}
+
+It then gives a collection from al-Qushayri's Risala. Examples include: swallowing bitterness without grimacing, attributed to al-Junayd; steadfastness in fitting conduct under the blows of fate, attributed to Ibn Ata; welcoming illness as if it were health, attributed to Amr ibn Uthman; steadfastness in the ordinances of the Book and the Sunna, attributed to al-Khawwas; the remark of [[person/yahya-ibn-muadh-al-razi|Yahya ibn Mu'adh]] that the sabr of the lovers is harder than that of the ascetics; refraining from complaint, attributed to [[person/ruwaym-ibn-ahmad|Ruwaym]]; seeking help with God, attributed to [[person/dhu-al-nun-al-misri|Dhu l-Nun]]; and the saying that sabr is like its name, bitter like aloes, attributed to Abu Ali al-Daqqaq. {cite:encyclopaedia-of-islam-2 vol. 8 p. 739}
+
+[[person/ibn-khafif|Ibn Khafif]] is reported as distinguishing three kinds, that of the one who makes himself patient, of the patient and of the very patient, and [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] is cited as calling sabr a steed that never stumbles. The article closes the list with al-Jurayri, for whom it is not distinguishing between the state of grace and that of trial, with calm of spirit in both. {cite:encyclopaedia-of-islam-2 vol. 8 p. 739}
+
+## Al-Ghazali on sabr
+[[person/al-ghazali-abu-hamid|Al-Ghazali]] treats sabr in the second book of the fourth part of the [[work/ihya-ulum-al-din|Ihya]], the part on the virtues that bring salvation. He discusses sabr and gratitude separately but in close connection, resting the pairing on a saying that faith has two halves, one sabr and the other shukr, which goes back to the tradition that sabr is half of faith. {cite:encyclopaedia-of-islam-2 vol. 8 p. 739}
+
+The article lists his sections: the excellence of sabr; its nature and conception; sabr as half of faith; its synonyms according to its object; kinds of sabr by strength and weakness; views on its necessity and on how a person can never do without it; and its healthfulness and the means of attaining it. It notes that Bar Hebraeus adopted this division in his Ethikon. {cite:encyclopaedia-of-islam-2 vol. 8 p. 739} {cite:encyclopaedia-of-islam-2 vol. 8 p. 740}
+
+In the account given, sabr, like every religious station, has three parts: knowledge, state and action, which the article likens to the tree, its branches and its fruit. Only man can have sabr. Animals are ruled entirely by desire, and angels are so filled with longing for God that desire has no hold on them and no sabr is needed. In man two impulses contend, that of desire, kindled by Satan, and that of religion, kindled by the angels, and sabr is adherence to the religious impulse against the sensual one. {cite:encyclopaedia-of-islam-2 vol. 8 p. 740}
+
+Sabr is of two kinds. The physical kind is endurance of bodily ills, active as in hard tasks or passive as in suffering blows, and is praiseworthy. The spiritual kind is renunciation in face of natural impulses. According to its object it takes names such as chastity, self-control, forbearance, breadth of chest, concealing a secret, asceticism and contentment. {cite:encyclopaedia-of-islam-2 vol. 8 p. 740}
+
+By strength, al-Ghazali distinguishes three classes: the very few in whom sabr has become a lasting condition, the truthful and the near ones; those in whom animal impulses prevail; and those in whom the two impulses keep struggling, the strivers. He also cites one of the gnostics, who names three kinds of the patient: those who renounce desires, the repentant; those who submit to the divine decree, the ascetics; and those who delight in whatever God sends, the truthful. {cite:encyclopaedia-of-islam-2 vol. 8 p. 740}
+
+The believer needs sabr in every circumstance: in health and prosperity, where its link with gratitude shows, and in everything else, such as performing legal obligations, refraining from forbidden things and enduring what befalls him against his will from people or by divine decree. {cite:encyclopaedia-of-islam-2 vol. 8 p. 740}
+
+Because sabr marks the struggle of the two impulses, the article explains, what helps it strengthens the religious impulse and weakens the animal one. The animal impulse is weakened by asceticism, by avoiding what feeds it, such as through withdrawal, or by practising what is permitted, such as marriage. The religious impulse is strengthened by awakening desire for the fruits of striving, for example by reading the lives of saints or prophets, and by gradually accustoming it to the struggle with its opponent. {cite:encyclopaedia-of-islam-2 vol. 8 p. 740}
 
 ## The causes of patience and steadfastness among the Muslims (al-Rahiq al-Makhtum, pp. 118–122)
 The book mentions causes of the Muslims' steadfastness under persecution: faith in God and true knowledge of Him {cite:mubarakpuri-raheeq p.118}; then the leadership of the Prophet and the perfection of his character, including what was related of his beauty and perfection {cite:mubarakpuri-raheeq p.118}; then the sense of responsibility from which no one turns aside {cite:mubarakpuri-raheeq p.120}; then faith in the Hereafter, and that this world is not worth the wing of a gnat {cite:mubarakpuri-raheeq p.121}; then the Qur'an, which steadied them and answered the obstinate {cite:mubarakpuri-raheeq p.121}; and then the good news of success, that Islam aims to remove the Jahiliyya {cite:mubarakpuri-raheeq p.122}.

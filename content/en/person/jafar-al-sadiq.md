@@ -1,8 +1,8 @@
 ---
 id: person/jafar-al-sadiq
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Overview
@@ -16,6 +16,31 @@ In another report in al-Mas'udi, he called for a lamp and set upon it the letter
 
 ## Ahmad Amin's view
 In Ahmad Amin's view he was the greatest figure of his age in Shi'i legislation, and perhaps the greatest in the different eras. He was born in 83 AH and died in 148 AH, in the caliphate of Abu Ja'far al-Mansur. His mother was Umm Farwa daughter of al-Qasim ibn Abi Bakr al-Siddiq. Amin believes he kept away from politics and applied taqiyya precisely. {cite:duha-islam p.887-888}
+
+## Life and standing among scholars
+The Encyclopaedia of Islam describes Ja'far al-Sadiq, whose epithet means the trustworthy, as a transmitter of hadith and the last imam recognised by both Twelver and Isma'ili Shi'is. It gives his birth in [[place/medina|Medina]] as 80/699-700 or 83/702-3, and says his mother, Umm Farwa, was a great-granddaughter of [[person/abu-bakr|Abu Bakr]]. He inherited the following of his father [[person/muhammad-al-baqir|Muhammad al-Baqir]] in 119/737, or 114/733 on another reckoning. In the years of transition from [[polity/umayyad-caliphate|Umayyad]] to [[polity/abbasid-caliphate|Abbasid]] power he stood at the head of those Shi'is who accepted a non-militant Fatimid imamate. {cite:encyclopaedia-of-islam-2 vol. 2 p. 399}
+
+On the Sunni side, the article says he was an authority in hadith at Medina and probably in fiqh, and that he is cited with respect in Sunni chains of transmission. It adds that he made no sharp break with the non-Shi'i majority: even a Shi'i follower of his could appear in Sunni chains, and his heir Abd Allah was later accused by Shi'is of Sunni tendencies. The article nevertheless judges that he was a serious Shi'i leader. {cite:encyclopaedia-of-islam-2 vol. 2 p. 399}
+
+On the Shi'i side, the article says he seems to have allowed his own following to regard him as the authoritative exponent of the sharia in his knowledge, and in principle as the only man entitled to rule. He also taught a wider circle who consulted him alongside other masters; [[person/abu-hanifa|Abu Hanifa]], [[person/malik-ibn-anas|Malik ibn Anas]] and [[person/wasil-ibn-ata|Wasil ibn Ata]] are alleged to have heard hadith from him. The article places the first appearance of distinctive Shi'i positions in fiqh in his time at the earliest, and says it is uncertain how far the later Twelver, Isma'ili or Zaydi systems can be ascribed to his teaching, though he is given a leading role in them. {cite:encyclopaedia-of-islam-2 vol. 2 p. 399}
+
+## In a time of upheaval
+According to the article, when [[person/zayd-ibn-ali|Zayd]] rose in 122/740, Ja'far served as the symbol of those Shi'is who refused to rise. After the death of al-Walid in 126/744, when most Shi'is expected the Alid family to come to power, the Shi'a of [[place/kufa|Kufa]] may have sought his support and possibly his candidacy at the time of the Abbasid victory. The article describes him as holding to the principle of quiescence: the true imam need not try to seize power unless the time is ripe, and may be content to teach. At the Shi'i revolt of [[person/muhammad-al-nafs-al-zakiyya|Muhammad al-Nafs al-Zakiyya]] in the Hijaz in 145/762, he was again neutral, leading the Husaynids in their passivity in a largely Hasanid affair, and [[person/al-mansur|al-Mansur]] left him in peace. {cite:encyclopaedia-of-islam-2 vol. 2 p. 399}
+
+## His circle
+The article says Ja'far drew a circle of active thinkers, most of whom lived in Kufa, some in Basra. [[person/abu-al-khattab-muhammad-ibn-abi-zaynab|Abu al-Khattab]], the most fecund leader among the early Ghulat in the article's words, seems to have been close to him, and some radical ideas were attributed to Ja'far himself, though Twelvers later rejected these as interpolations by Abu al-Khattab. Before Abu al-Khattab was killed in 138/755, Ja'far repudiated him as having gone too far, which greatly disturbed some of his associates. The article thinks it likely that Ja'far kept such radical ideas within bounds. {cite:encyclopaedia-of-islam-2 vol. 2 p. 399}
+
+More technical philosophers were also linked with him and with his son Musa, notably [[person/hisham-ibn-al-hakam|Hisham ibn al-Hakam]] and Muhammad ibn al-Nu'man, nicknamed Shaytan al-Tak. The article says they inclined to an anthropomorphist system and disputed with the early [[group/mutazila|Mu'tazilites]]. Ja'far himself is assigned, with uncertain authenticity, a position on the question of [[concept/qadar|qadar]] that claims to lie between determinism and free will. {cite:encyclopaedia-of-islam-2 vol. 2 p. 399}
+
+## Death and the succession
+He died in 148/765. The Twelver tradition says he was poisoned on the orders of al-Mansur, which the article calls unlikely. He was buried in the Baqi cemetery in Medina, where his tomb was visited, especially by Shi'is, until it was destroyed; the article names the Wahhabis. {cite:encyclopaedia-of-islam-2 vol. 2 p. 399} {cite:encyclopaedia-of-islam-2 vol. 2 p. 400}
+
+The article says he left a cohesive following with an active intellectual life, well on the way to becoming a sect, but that the differing tendencies he had usually reconciled now caused historic splits over a disputed succession. He had designated [[person/ismail-ibn-jafar|Ismail]], his eldest son, but Ismail died before his father, which troubled the faith of some followers. A considerable body held to Ismail, some maintaining that he was not dead but concealed, others passing on to his son Muhammad ibn Ismail. These formed the nucleus of the later Isma'iliyya, for whom Ja'far was the fifth imam. {cite:encyclopaedia-of-islam-2 vol. 2 p. 400}
+
+Most of his following, the article continues, accepted Abd Allah, Ismail's full brother and the eldest surviving son, on the ground that Ja'far had laid down that an imam's successor must be his eldest son; but Abd Allah died without sons a few weeks later. The majority then accepted [[person/musa-ibn-jafar-al-kazim|Musa]], whose mother Hamida was a slave and whom some, including prominent philosophers, had hailed as imam from the start. They developed into the Twelver Shi'a, for whom Ja'far was the sixth imam. A few asserted that he was not dead but absent and would return as the mahdi, and were called the Nawusiyya. Others looked to Musa's young brother Muhammad, who later became the imam of the Shumaytiyya. {cite:encyclopaedia-of-islam-2 vol. 2 p. 400}
+
+## Legacy and attributed works
+The article says that among most Shi'is Ja'far is regarded as one of the greatest of the imams and as the teacher of fiqh par excellence; the Twelvers, when they speak of themselves as a school, have called it the [[group/jafari-madhhab|Ja'fariyya]]. Numerous utterances defining Shi'i doctrine, as well as prayers and homilies, are ascribed to him. Both Sunnis and Shi'is have also ascribed to him many books, probably none of them authentic, on divination, magic and alchemy, the most famous being the mysterious Jafr, which foretells the future. He is regarded as the chief teacher of the alchemist [[person/jabir-ibn-hayyan|Jabir ibn Hayyan]], who did revere him as a religious teacher, and as a master of [[concept/tasawwuf|Sufism]]. The article judges that, especially among the Shi'a, so many sayings on all sides of every disputed question have been ascribed to him that such reports are almost useless for establishing his real opinion in a given case. {cite:encyclopaedia-of-islam-2 vol. 2 p. 400}
 
 ## In the 'Al-Mubdi'un' programme
 In an episode of his programme 'Al-Mubdi'un', Tareq al-Suwaidan presents Ja'far al-Sadiq as an imam shared by Sunnis and Shi'a alike, giving his birth as 80 AH and his death in Medina in 148 AH — a date earlier than Ahmad Amin's (83 AH) {cite:assabile-tareq-al-suwaidan al-mubdioune/ep02 00:05:00}.

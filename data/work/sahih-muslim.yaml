@@ -9,8 +9,9 @@ class: work
 kind: book
 label: { ar: "صحيح مسلم", en: "Sahih Muslim" }
 summary:
-  ar: "المسند الصحيح المختصر بنقل العدل عن العدل إلى رسول الله لمسلم بن الحجاج القشيري النيسابوري ⁦(ت 261هـ)⁩: ثاني أشهر كتب الحديث، اشتهر بجمعه طرق الحديث الواحد في موضع واحد وبمقدمته في المصطلح التي صارت نصاً تأسيسياً في علم الحديث."
-  en: "The Musnad al-Sahih of Muslim ibn al-Hajjaj al-Naysaburi (d. 261 AH): the second most celebrated hadith collection, famed for gathering the variant transmissions of each report in one place and for its introductory essay that became a founding text of hadith method."
+  ar: "المسند الصحيح المختصر بنقل العدل عن العدل إلى رسول الله لمسلم بن الحجاج القشيري النيسابوري ⁦(ت 261هـ)⁩: ثاني أشهر كتب الحديث، اشتهر بجمعه طرق الحديث الواحد في موضع واحد وبمقدمته في المصطلح التي صارت نصاً تأسيسياً في علم الحديث. وتذكر دائرة المعارف الإسلامية أن إجماع أهل الحديث من السنة يجعله مع صحيح البخاري أوثق مجموعتين، وأن ترتيب أبوابه يجعله، في رأي كاتب المقال، أنفع الكتب الستة للمؤرخين المحدثين."
+  en: "The Musnad al-Sahih of Muslim ibn al-Hajjaj al-Naysaburi (d. 261 AH): the second most celebrated hadith collection, famed for gathering the variant transmissions of each report in one place and for its introductory essay that became a founding text of hadith method. The Encyclopaedia of Islam reports that the consensus of Sunni hadith experts ranks it with al-Bukhari's Sahih as the most reliable collection, and its author judges the chapter arrangement to make it the most useful of the Six Books for modern historians."
+  ur: "مسلم بن الحجاج نیشاپوری (وفات 261ھ) کی «المسند الصحیح»: حدیث کی دوسری مشہور ترین کتاب، جو ایک حدیث کے سب طرق ایک جگہ جمع کرنے اور اپنے مقدمے کے لیے مشہور ہے جو علمِ حدیث کا بنیادی متن بنا۔ دائرۃ المعارف الاسلامیہ بتاتا ہے کہ سنی محدثین کا اجماع اسے بخاری کی صحیح کے ساتھ سب سے معتبر مجموعہ مانتا ہے، اور مضمون نگار کی رائے میں ابواب کی ترتیب اسے جدید مؤرخین کے لیے کتبِ ستہ میں سب سے مفید بناتی ہے۔"
 genre: [hadith]
 made: { by_muslims: true, basis: documented, sources: [source/sahih-muslim] }
 authors: [person/muslim-ibn-al-hajjaj]
@@ -20,9 +21,9 @@ themes: [scripture-and-its-sciences]
 regions: [arabia]
 relations:
   - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sahih-muslim] }
-provenance: { layer: own-research, source: "Sahih Muslim source record (al-Maktaba al-Rashidiyya, Delhi 1376 AH)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+provenance: { layer: own-research, source: "Sahih Muslim source record (al-Maktaba al-Rashidiyya, Delhi 1376 AH)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1", canon: "Encyclopaedia of Islam 2, vol. 7, article Muslim b. al-Hadjdjadj, PDF pp. 745-746, written by Claude Sonnet 5.5, run canon-cornerstones-21" }
 external_ids:
   wikidata: Q886659
-sources: [source/sahih-muslim, source/manhaj-tawthiq-al-sunna-azhar, source/sunnah-com, source/assabile-abu-ishaq-alheweny, source/sharh-nawawi-misriyya-1347-v1]
+sources: [source/sahih-muslim, source/manhaj-tawthiq-al-sunna-azhar, source/sunnah-com, source/assabile-abu-ishaq-alheweny, source/sharh-nawawi-misriyya-1347-v1, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }

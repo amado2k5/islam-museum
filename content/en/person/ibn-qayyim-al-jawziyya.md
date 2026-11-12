@@ -1,8 +1,8 @@
 ---
 id: person/ibn-qayyim-al-jawziyya
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Overview
@@ -12,6 +12,42 @@ The shaykh Shams al-Din Muhammad ibn Abi Bakr, Ibn Qayyim al-Jawziyya, a Hanbali
 Haji Khalifa gives his death as 751 AH. The conversion to the Gregorian calendar is derived. {cite:kashf-zunun-furqan p.518} Among his works is [[work/ilam-al-muwaqqiin|I'lam al-Muwaqqi'in]]. {cite:kashf-zunun-furqan p.518}
 
 He is counted among the teachers of [[person/ibn-rajab|Ibn Rajab]]. {cite:ibn-rajab-jami-ulum-hikam p.11}
+
+## Life and education in the Encyclopaedia of Islam
+The Encyclopaedia of Islam article on him, by F. de la Granja, calls him a Hanbali theologian and jurisconsult, born in [[place/damascus|Damascus]] on 7 Safar 691/29 January 1292 and dying there in 751/1350. He came from a humble family: his father was the superintendent, the *kayyim*, of the Jawziyya madrasa, which also served as a court for the Hanbali chief judge of Damascus. {cite:encyclopaedia-of-islam-2 vol. 3 p. 853}
+
+The article describes his education as unusually wide and sound. Among his main teachers it names the judge Sulayman ibn Hamza, who died in 711/1311, and the shaykh Abu Bakr, a son of the traditionist Ibn Abd al-Da'im, who died in 718/1318. Above all, from 713/1313 he was the most famous pupil of [[person/ibn-taymiyya|Ibn Taymiyya]]. The article says he absorbed all his master's ideas and helped to spread his work while keeping a personality of his own. {cite:encyclopaedia-of-islam-2 vol. 3 p. 853}
+
+Like his master, he was well versed in the main disciplines of the age: Qur'anic exegesis, hadith, the principles of jurisprudence and its detailed rulings. Like him he also opposed the monist school, the *ittihadiyya*, which the article says arose from the teaching of [[person/ibn-arabi-muhyi-al-din|Ibn al-Arabi]]. It adds that, unlike his master, he was strongly drawn to mysticism, and that he took a particular interest in the *Manazil* of [[person/al-ansari-al-harawi-abd-allah|al-Ansari]], a work that enjoyed great prestige under the Mamluks. {cite:encyclopaedia-of-islam-2 vol. 3 p. 853}
+
+The article contrasts the two men in manner. It presents Ibn Qayyim as much less a polemicist than Ibn Taymiyya and much more a preacher, and judges that he left a justified reputation as a writer of great talent, whose eloquence contrasts with the incisive dryness of his master's succinct prose. {cite:encyclopaedia-of-islam-2 vol. 3 p. 853}
+
+## Imprisonment, pilgrimage and public career
+In 726/1326 he was imprisoned in the citadel of Damascus at the same time as Ibn Taymiyya, and he was released only in 728/1328, after his master's death. {cite:encyclopaedia-of-islam-2 vol. 3 p. 853} {cite:encyclopaedia-of-islam-2 vol. 3 p. 854} In 731/1331-2 he made the pilgrimage to [[place/mecca|Mecca]]. The article notes, citing [[person/ibn-kathir|Ibn Kathir]], that the Syrian caravan, which left Damascus under the amir Izz al-Din Aybak, included a considerable number of jurisconsults and traditionists. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}
+
+The article describes his career as modest and hampered by the opposition that Ibn Taymiyya's neo-Hanbalism met in the governing circles of the Mamluk state. On 2 Rajab 736/15 February 1336 he delivered the sermon, the *khutba*, for the first time, in a mosque recently founded by Nadim al-Din ibn Khalikhan in the gardens of the Ghuta, outside the Bab Sharqi and Bab Tuma. On 6 Safar 743/11 July 1342 he gave his inaugural lecture at the Sadriyya madrasa, where he was to teach until his death. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}
+
+## Disagreements over points of law
+The article records two occasions on which he disagreed over points of law with [[person/taqi-al-din-al-subki|Taqi al-Din al-Subki]], the Shafi'i chief judge of Damascus, without either dispute turning into a serious quarrel. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}
+
+The first, in Muharram 746/May-June 1345, concerned whether a race or shooting contest in which each of the two competitors puts down a stake is lawful without a third competitor, called a *muhallil*, who takes part without contributing a stake. Such a third party makes lawful an arrangement that might otherwise be regarded as gambling. Expressing the ideas of Ibn Taymiyya, Ibn Qayyim held that the *muhallil* was not necessary. Summoned by the Shafi'i chief judge, he had to submit to that judge's opinion. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}
+
+The second, in 750/1349, arose because he had issued fatwas on [[concept/talaq|repudiation, talaq]] in line with the doctrine of Ibn Taymiyya. The Bedouin amir Sayf al-Din ibn Fadl reconciled him with his adversary. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}
+
+## Death and burial in the Encyclopaedia of Islam
+The article gives his death at Damascus on 23 Rajab 751/26 September 1350 and says he was buried beside his mother in the [[place/bab-al-saghir-cemetery|cemetery of Bab al-Saghir]]. His son Jamal al-Din Abd Allah, who died in 756/1355, succeeded him in teaching at the Sadriyya. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854} The day of the month differs from the one given by Ibn Hajar in the section on al-Durar al-Kamina below.
+
+## Works as the Encyclopaedia of Islam presents them
+The article calls his doctrinal and literary output considerable and points to a list of his works in the Dhayl of Ibn Rajab. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854} It singles out several titles.
+
+- [[work/madarij-al-salikin|Madarij al-Salikin]] is a commentary on the *Manazil al-Sa'irin* of al-Ansari, and the article judges it the masterpiece of Hanbali mystical literature. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}
+- [[work/ilam-al-muwaqqiin|I'lam al-Muwaqqi'in]], described as a guide for the perfect mufti, is a treatise on legal methodology that follows Ibn Taymiyya's ideas in that field. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}
+- In politics, the *Kitab al-Turuq al-Hukmiyya* rests on ideas set out by Ibn Taymiyya in his *Hisba* and his *al-Siyasa al-Shar'iyya*. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}
+- In the principles of religion, the article names the [[work/al-qasida-al-nuniyya-ibn-qayyim|Qasida Nuniyya]], an important profession of faith in verse directed mainly against the *ittihadiyya*, and a polemical treatise against the [[group/jahmiyya|Jahmiyya]], [[work/al-sawaiq-al-mursala|al-Sawa'iq al-Mursala]]. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}
+- His [[work/badai-al-fawaid|Fawa'id]] is discussed, for its place in the history of rhetoric, in the article on bayan. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}
+
+## Pupils and later reputation
+According to the article, several Mamluk-period scholars were his pupils or were influenced by him to varying degrees. It names the Shafi'i traditionist and historian Ibn Kathir, who died in 774, Zayn al-Din [[person/ibn-rajab|Ibn Rajab]], who died in 795/1397 and whom it calls the last great representative of medieval Hanbalism, and [[person/ibn-hajar-al-asqalani|Ibn Hajar al-Asqalani]], who died in 852/1449. It adds that he remains today an author highly esteemed among the Wahhabiyya, among the Salafiyya and in many circles of North African Islam. {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}
 
 ## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
 
