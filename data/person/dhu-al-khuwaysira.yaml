@@ -15,7 +15,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: critic, toward: person/muhammad, status: tradition, note: "اعترض على قسمة غنائم حنين بالجعرانة (ابن هشام 4/139–140).", sources: [source/ibn-hisham-saqqa] }
-born: { edtf: "658~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fath al-Bari" }
+died: { edtf: "658~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fath al-Bari" }
 relations:
   - { type: lived_in, target: place/al-jirana, confidence: low, note: "Associated with al-Ji'rana per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-tamim }
