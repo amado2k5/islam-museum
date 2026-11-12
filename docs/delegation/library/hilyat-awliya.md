@@ -284,3 +284,15 @@
 | 493 | 139 | the opening of the notice ("نبه صلى خدع الماجلة") | garbled in the scan; "صلى" is not a word here | the sense (renounced the world once its deception was clear) is given; the garbled words are not |
 | 493 | 139 | words inside the verses | unclear in the scan | not given; the prose says so |
 | 492 | 139 | the missing heading | no heading in the OCR | no record; see the correction above |
+
+## Batch 55 (run microsd-books-b55, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 139–140 (full text read before writing). New draft: person/hasan-al-hafari (printed 493, by sequence 494; 10/139–140). Notice 494 by sequence was Hasan; the next printed heading is "٤٩٤ - حازم الحنف" on 10/140 (Hazim al-Hanafi, printed 494, by sequence 495), then Qays ibn al-Sakan (printed 495) and al-Hakam ibn Aban (printed 496).
+- Numbering: the printed numbers now run one behind the sequence from notice 493 onward. The library and the prose keep the printed numbers and note the sequence number; whether to renumber is for the coordinator to decide. The page image has not been checked for this.
+
+## Exclusions and garbled readings (batch 55)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 493 (printed) | 139 | the bracketed name "إبراهيم بن الجنيد" and its footnote "زيادة من مغ" | the edition marks it as an addition from another manuscript | the chain is given without the bracketed name; the prose does not render the bracket |
+| 493 (printed) | 139 | "أمد عوانس مؤمني الجن" | "عوانس" unclear in the scan | rendered loosely as a support to the believing jinn; flagged for revision |
+| 493 (printed) | 139 | the nisba "الحفري" and the mosque's name | read as in the scan | kept as written |
