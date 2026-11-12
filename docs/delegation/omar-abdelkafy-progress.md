@@ -1716,3 +1716,35 @@ Next step: episode 24.
 | Openings, greetings, supplications, closing formulae | ep23 00:00:00–00:01:00, 00:23:30–00:24:00 | Not lesson content | Content rule | Open |
 | Repetition loops and garbled windows | ep23 00:08:30–00:09:00, 00:17:30–00:18:00, 00:20:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Scientific and medical figures | ep23 00:07:30–00:17:30 | Unverifiable; recorded as the lecturer's claims and marked needs_source | Sources policy | Open |
+
+### al-manjeyat, episode 24 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-manjeyat-12)
+
+Episode 24 read in full (24 min of transcript) before writing. 6 points written (ar, en, ur); new `about` edges for the people and passages named; 4 needs_source (scientific and medical figures and claims without source, a hadith in sense without a chain).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-manjeyat ep24 (thanking for favours and the body's make-up) | about 24 min (transcript) | ar, en, ur: work/al-manjeyat extended, 6 points | new `about` edges | 6 | 4 needs_source | this PR |
+
+Next step: episode 25.
+
+| Excluded (al-manjeyat ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, closing formulae | ep24 00:00:00–00:01:30, 00:23:30–00:24:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep24 00:03:00, 00:05:00–00:05:30, 00:06:00–00:06:30, 00:07:30–00:08:00, 00:22:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Scientific and medical figures | ep24 00:03:30–00:22:00 | Unverifiable and partly garbled; recorded as the lecturer's claims, mostly without figures, and marked needs_source | Sources policy | Open |
+
+### al-manjeyat, episode 25 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-manjeyat-13)
+
+Episode 25 read in full (24 min of transcript) before writing. 5 points written (ar, en, ur); new `about` edges for the people and passages named; 4 needs_source (scientific, medical and statistical claims without source, hadiths in sense, a saying without a place).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-manjeyat ep25 (managing and balance in God's favours) | about 24 min (transcript) | ar, en, ur: work/al-manjeyat extended, 5 points | new `about` edges | 5 | 4 needs_source | this PR |
+
+Next step: episode 26.
+
+| Excluded (al-manjeyat ep25) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, closing formulae | ep25 00:00:00–00:01:00, 00:23:00–00:23:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep25 00:04:30–00:05:00, 00:12:00, 00:15:30–00:16:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Scientific and medical figures | ep25 00:06:30–00:23:00 | Unverifiable; recorded as the lecturer's claims and marked needs_source | Sources policy | Open |

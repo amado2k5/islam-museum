@@ -1,5 +1,5 @@
 ---
-id: person/kilab-ibn-murra
+id: person/kilab-ibn-murrah
 lang: ar
 source_lang: ar
 translators: []

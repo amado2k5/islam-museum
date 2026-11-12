@@ -352,3 +352,16 @@
 | 505 (printed) | 144 | "فيجىً إخوانه" | the verb is unclear in the scan; "فيلقى" (meets) is the likely reading | read as "meets"; the prose gives the reading as read |
 | 505 (printed) | 144 | a word in the report | unclear in the scan | not given |
 | 506 (printed) | 144 | the names in the chain ("حمدين احد بن ممر", "على ابن أبى مريم") | garbled in the scan | the names as read are not reproduced in the prose beyond the two clearest |
+
+## Batch 60 (run microsd-books-b60, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 144–145 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/umar-al-sufi (printed 507, sequence 508, 10/144–145), person/abbas-al-majnun (printed 508, sequence 509, 10/145). Printed 509 (Shaddad al-Majdhum, a leper worshipper) begins on 10/145 and is next.
+- The poem in the notice of 508 is described in prose, not quoted. Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 60)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 507 (printed) | 145 | the names in the chain ("محمد بن أحمد", "عبد الله بن عل", "ل بن إدريس") | garbled in the scan | not given; the prose says so |
+| 508 (printed) | 145 | "مفتقة الأكمام" and "الشوع" | "الشوع" read as "الشعر" (hair cloth) | the reading given in the prose; flagged for revision |
+| 508 (printed) | 145 | the names in the chain ("محمد بن يوسف البناء", "إبراهيم الهروي") | garbled in the scan | the names as read are not reproduced beyond the two clearest |
+| 508 (printed) | 145 | a word in the description of the man | unclear in the scan | not given |
