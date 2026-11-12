@@ -1,0 +1,41 @@
+id: person/pedro-i-castile
+class: person
+label: { ar: "بيدرو الأول ملك قشتالة", en: "Pedro I of Castile", ur: "پیدرو اول، شاہِ قشتالہ" }
+names:
+  - { value: "بيدرو القاسي", kind: alternate, lang: ar }
+  - { value: "بيدرو الأول", kind: regnal, lang: ar }
+  - { value: "Pedro the Cruel", kind: alternate, lang: en }
+  - { value: "Peter the Cruel", kind: alternate, lang: en }
+  - { value: "Peter of Castile", kind: alternate, lang: en }
+  - { value: "Pedro I", kind: regnal, lang: en }
+summary:
+  ar: "بيدرو الأول ملك قشتالة، ابن ألفونسو الحادي عشر الذي مات بالطاعون سنة 1350م، وهو الذي أُرسل إليه ابن خلدون من غرناطة إلى إشبيلية في صلح سنة 765هـ. كان محمد الخامس صاحب غرناطة حليفه ودافع الجزية إليه، وقتل بيدرو في طبلادة قرب إشبيلية منافس محمد المخلوع، ثم فرّ من قشتالة سنة 1366م أمام أخيه غير الشقيق إنريكي دي طرسطمارة، وعاد سنة 1367م بمعونة الأمير الأسود، وبحسب دائرة المعارف الإسلامية قتله إنريكي قبل نهاية مارس 1369م {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} {cite:encyclopaedia-of-islam-2 vol. 3 p. 858}."
+  en: "Pedro I of Castile was the son of Alfonso XI, who died of the plague in 1350. Ibn Khaldun was sent to him at Seville on a delicate peace mission from Granada at the end of 765/1364. Muhammad V of Granada was his ally and tributary; Pedro had the deposed Muhammad VI killed at Tablada near Seville, was driven out of Castile in 1366 by his half-brother Enrique of Trastamara, returned in 1367 with the help of the Black Prince, and by the end of March 1369 was dead, killed by Enrique according to the Encyclopaedia of Islam {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} {cite:encyclopaedia-of-islam-2 vol. 3 p. 858}."
+  ur: "پیدرو اول، شاہِ قشتالہ، الفونسو یازدہم کے بیٹے تھے جو 1350ء میں طاعون سے مرے۔ ابن خلدون کو غرناطہ سے 765ھ/1364ء کے آخر میں ایک نازک صلح کی مہم پر اشبیلیہ میں ان کے پاس بھیجا گیا۔ غرناطہ کے محمد پنجم ان کے حلیف اور خراج گزار تھے؛ پیدرو نے معزول محمد ششم کو اشبیلیہ کے قریب طبلادہ میں قتل کروایا، 1366ء میں اپنے سوتیلے بھائی انریکے دی طرسطمارہ کے آگے قشتالہ سے بھاگے، 1367ء میں سیاہ شہزادے کی مدد سے لوٹے، اور مارچ 1369ء کے آخر تک مر چکے تھے، دائرۃ المعارف الاسلامیہ کے مطابق انریکے کے ہاتھوں {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} {cite:encyclopaedia-of-islam-2 vol. 3 p. 858}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+born: { edtf: "1334-08-30", hijri: "0734", calendar: julian, precision: day, status: tradition, derived: true, note: "Wikidata Q310963 (read 12 November 2026) gives 30 August 1334 in the Julian calendar; the Hijri year is derived. The Encyclopaedia of Islam articles read give no birth date." }
+died: { edtf: "1369-03-23", hijri: "0770", calendar: julian, precision: day, status: tradition, derived: true, note: "Wikidata Q310963 (read 12 November 2026) gives 23 March 1369 in the Julian calendar; the Encyclopaedia of Islam says only that he was dead by the end of March 1369 and calls Enrique II his conqueror and assassin {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078}. The Hijri year is derived." }
+relations:
+  - { type: ruler_of, target: polity/castile, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: allied_with, target: person/muhammad-v-nasrid, note: "Muhammad V paid tribute, sent cavalry in 1363, and in 1366 shifted allegiance to Enrique II; later in 1367 he rejoined Pedro's cause {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078}", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-khaldun-embassy-seville-1365, role: "ملك قشتالة المقصود بالسفارة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/seville, note: "His beloved Seville, where he fell back in 1364 {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078}", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed.: art. Nasrids and art. Ibn Khaldun"
+  generated_by: "Claude Sonnet 5.5"
+  model: "claude-sonnet-5-5"
+  run: canon-missing-1
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 7 art. Nasrids (PDF p. 1078); vol. 3 art. Ibn Khaldun (PDF p. 858); no dedicated article exists"
+sources: [source/encyclopaedia-of-islam-2]
+external_ids: { wikidata: Q310963 }
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "بيدرو الأول ملك قشتالة في القرن الرابع عشر الميلادي، تحالف مع ملوك غرناطة وأُرسل إليه ابن خلدون سفيراً."
+  en: "Pedro I was a king of Castile in the 1300s who allied with the rulers of Granada and received the famous scholar Ibn Khaldun as an envoy."
+  ur: "پیدرو اول چودہویں صدی میں قشتالہ کے بادشاہ تھے جنہوں نے غرناطہ کے حکمرانوں سے اتحاد کیا اور مشہور عالم ابن خلدون کو سفیر کے طور پر قبول کیا۔"

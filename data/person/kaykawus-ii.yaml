@@ -1,0 +1,35 @@
+id: person/kaykawus-ii
+class: person
+label: { ar: "عز الدين كيكاوس الثاني", en: "Kaykaus II", ur: "عزالدین کیکاؤس دوم" }
+names:
+  - { kind: full, lang: ar, value: "عز الدين كيكاوس بن كيخسرو" }
+aliases: [Izz al-Din Kaykaus II, Izz al-Din Kaykawus, Kaykā'ūs II, Keykavus II]
+summary:
+  ar: "عز الدين كيكاوس الثاني سلطان من سلاجقة الروم، الابن الأكبر لكيخسرو الثاني من أم رومية، حكم غرب الأناضول بينما حكم أخوه ركن الدين قلج أرسلان شرقها في ظل نفوذ المغول. هُزم وفرّ إلى القسطنطينية ثم انتهى به المطاف في القرم حيث توفي سنة 678هـ/1279-1280م، وبقي بعض الأتراك الذين تبعوه في الدوبروجة، ويرى كاتب المقال أن اسم القاغاوز تحريف لاسمه {cite:encyclopaedia-of-islam-2 vol. 4 p. 851-852}."
+  en: "Izz al-Din Kaykaus II was a Seljuk sultan of Rum, the eldest son of Kaykhusraw II by a Greek mother. He ruled western Anatolia while his brother Rukn al-Din Kilij Arslan ruled the east under Mongol influence. Defeated, he fled to Constantinople and finally to the Crimea, where he died in 678/1279-80; Turks who followed him stayed in Dobruja, where, the author says, the Gagauz name is a distortion of his own {cite:encyclopaedia-of-islam-2 vol. 4 p. 851-852}."
+  ur: "عزالدین کیکاؤس دوم سلجوقیانِ روم کا سلطان تھا، جو کیخسرو دوم کا بڑا بیٹا اور رومی ماں کی اولاد تھا۔ اس نے مغربی اناطولیہ پر حکومت کی جب کہ اس کا بھائی رکن الدین قلج ارسلان منگولوں کے زیرِ اثر مشرق پر حاکم رہا۔ شکست کے بعد وہ قسطنطنیہ بھاگ گیا اور آخرکار کریمیا پہنچا جہاں 678ھ/1279-1280ء میں فوت ہوا؛ اس کے ساتھ آنے والے ترک دوبروجہ میں رہ گئے جہاں، مضمون نگار کے بقول، گاگاؤز کا نام اسی کے نام کی بگڑی صورت ہے {cite:encyclopaedia-of-islam-2 vol. 4 p. 851-852}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+died: { edtf: "1279/1280", hijri: "0678", calendar: julian, precision: year, status: tradition, derived: true, note: "678/1279-80 per the Encyclopaedia of Islam {cite:encyclopaedia-of-islam-2 vol. 4 p. 852}; the Gregorian conversion is derived." }
+relations:
+  - { type: child_of, target: person/kaykhusraw-ii, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: ruler_of, target: polity/rum-seljuk-sultanate, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/crimea, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: traveled_to, target: place/constantinople, sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., vol. 4, article Kayka'us (Cl. Cahen), section Kayka'us II, PDF pages 851-852"
+  generated_by: "Claude Sonnet 5.5"
+  model: "claude-sonnet-5-5"
+  run: canon-missing-1
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 4, article Kaykā'ūs, section II, PDF pages 851-852"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "كيكاوس الثاني سلطان سلجوقي ضاع منه ملكه بين أخيه والمغول، فسافر بعيدًا حتى مات في القرم."
+  en: "Kaykaus II was a Seljuk sultan who lost his throne in a struggle with his brother and the Mongols, and travelled far away until he died in the Crimea."
+  ur: "کیکاؤس دوم سلجوقی سلطان تھا جو بھائی اور منگولوں کی کشمکش میں تخت کھو بیٹھا اور دور دراز سفر کرتا ہوا کریمیا میں فوت ہوا۔"

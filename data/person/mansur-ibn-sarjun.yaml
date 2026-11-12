@@ -1,0 +1,30 @@
+id: person/mansur-ibn-sarjun
+class: person
+label: { ar: "منصور بن سرجون", en: "Mansur ibn Sarjun", ur: "منصور بن سرجون" }
+aliases: ["Mansur b. Sardjun", "Mansur ibn Sargun", "Mansur the controller-general of Damascus", "منصور بن سرجون الرومي"]
+summary:
+  ar: "منصور بن سرجون وجيه نصراني من دمشق في أواخر العهد البيزنطي، تذكره دائرة المعارف الإسلامية بوصفه المراقب العام وأبا يوحنا الدمشقي، وكان مع الأسقف ضمن وجهاء المدينة الذين تفاوضوا مع المسلمين لتجنيب أهلها القتال حين حاصرها خالد بن الوليد سنة 14هـ/635م. لا تذكر المادة تاريخ ميلاده ولا وفاته {cite:encyclopaedia-of-islam-2 vol. 2 p. 293}."
+  en: "Mansur ibn Sarjun was a Christian notable of Damascus in the last years of Byzantine rule. The Encyclopaedia of Islam names him as the controller-general and the father of John of Damascus, and says that with the bishop he was among the notables who negotiated with the Muslims to spare the city useless suffering when Khalid ibn al-Walid besieged it in 14/635. The article gives no dates of birth or death {cite:encyclopaedia-of-islam-2 vol. 2 p. 293}."
+  ur: "منصور بن سرجون بازنطینی حکومت کے آخری برسوں میں دمشق کے ایک عیسائی معزز تھے۔ دائرۃ المعارف اسلامیہ انہیں مراقبِ عام اور یوحنا دمشقی کا باپ بتاتی ہے اور کہتی ہے کہ وہ بشپ کے ساتھ ان معززین میں تھے جنہوں نے 14ھ/635ء میں خالد بن الولید کے محاصرے کے وقت شہر کو بے فائدہ تکلیف سے بچانے کے لیے مسلمانوں سے بات چیت کی۔ مضمون ان کی پیدائش یا وفات کی کوئی تاریخ نہیں دیتا {cite:encyclopaedia-of-islam-2 vol. 2 p. 293}."
+gender: male
+roles: [politician]
+wings: [people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/damascus, note: "Notable and controller-general of Damascus at the time of its surrender.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/yuhanna-al-dimashqi, note: "Father of John of Damascus, per EI2.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/conquest-of-damascus-13, role: "Negotiator for the city", sources: [source/encyclopaedia-of-islam-2], confidence: medium }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., local OCR"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-1
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 2, article Dimashk, p. 293; vol. 11, article Yazid b. Mu'awiya, p. 321 (on a Sardjun whose identity with John of Damascus' father is questioned)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "منصور كان من وجهاء دمشق، وحاول مع غيره أن يحمي أهل المدينة من القتال حين وصل المسلمون."
+  en: "Mansur was an important man of Damascus who helped talk with the Muslims so that the people of the city would not be hurt."
+  ur: "منصور دمشق کے ایک معزز آدمی تھے جنہوں نے مسلمانوں سے بات چیت میں حصہ لیا تاکہ شہر کے لوگوں کو نقصان نہ پہنچے۔"

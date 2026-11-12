@@ -1,0 +1,36 @@
+id: person/yahya-ibn-adi
+class: person
+label: { ar: "يحيى بن عدي", en: "Yahya ibn Adi", ur: "یحییٰ بن عدی" }
+names:
+  - { kind: full, lang: ar, value: "يحيى بن عدي" }
+  - { kind: alternate, lang: en, value: "Yahya b. 'Adi" }
+summary:
+  ar: "يحيى بن عدي فيلسوف ولاهوتي عربي مسيحي ومترجم ومعلق على أرسطو، قدم من بلدة تكريت على دجلة وقضى حياته العملية في بغداد ناسخاً وبائع كتب، وتوفي فيها يوم 21 ذي القعدة 363هـ/13 أغسطس 974م وله من العمر 81 سنة. أخذ المنطق الأرسطي عن متى بن يونس وعن الفارابي، ونقل من السريانية أجزاء من الأرغانون ومن طبيعيات أرسطو وما بعد الطبيعة وعلّق عليها، وعدّه معاصروه رئيس الفلاسفة في زمنه، وتابعه تلاميذه المسيحيون، وبلغ أثره عبر أبي سليمان السجستاني وأبي حيان التوحيدي قراء كثيرين من أهل البلاط والعلماء حتى المتكلمين {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} {cite:encyclopaedia-of-islam-2 vol. 11 p. 256}."
+  en: "Yahya ibn Adi was a Christian Arab philosopher and theologian, a translator and commentator of Aristotle. He came from the town of Takrit on the Tigris, spent his working life in Baghdad as a copyist and bookseller, and died there on 21 Dhu l-Qa'da 363 (13 August 974) at the age of 81. He learned Aristotelian logic from Matta ibn Yunus and al-Farabi, translated from Syriac and annotated parts of the Organon and of Aristotle's physical and metaphysical works, was recognised by his contemporaries as the leading philosopher of his time, and reached a wide readership through his Christian pupils and through Abu Sulayman al-Sijistani and Abu Hayyan al-Tawhidi {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} {cite:encyclopaedia-of-islam-2 vol. 11 p. 256}."
+  ur: "یحییٰ بن عدی عیسائی عرب فلسفی اور عالمِ دین تھے، ارسطو کے مترجم اور شارح۔ وہ دجلہ کے کنارے تکریت کے قصبے سے آئے، عملی زندگی بغداد میں نسخہ نویس اور کتب فروش کے طور پر گزاری اور وہیں 21 ذی القعدہ 363ھ/13 اگست 974ء کو اکیاسی برس کی عمر میں فوت ہوئے۔ انہوں نے ارسطوئی منطق متی بن یونس اور فارابی سے سیکھی، ارغنون اور ارسطو کی طبیعیات و مابعدالطبیعیات کے حصے سریانی سے ترجمہ کر کے ان پر حواشی لکھے، ہم عصروں نے انہیں اپنے وقت کا سردارِ فلاسفہ مانا، اور ان کے اثر کو ان کے عیسائی شاگردوں نیز ابو سلیمان سجستانی اور ابو حیان توحیدی کے ذریعے وسیع قارئین ملے {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} {cite:encyclopaedia-of-islam-2 vol. 11 p. 256}."
+gender: male
+roles: [philosopher, theologian]
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+died: { edtf: "0974-08-13", hijri: "0363-11-21", calendar: julian, precision: day, status: tradition, derived: true, note: "21 Dhu l-Qa'da 363 / 13 August 974, at the age of 81, per the Encyclopaedia of Islam article; the conversion is the article's own. The al-Farabi article in the same work gives his death as 362/972 {cite:encyclopaedia-of-islam-2 vol. 2 p. 809}; the two are not reconciled here.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: student_of, target: person/matta-ibn-yunus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/al-farabi, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/baghdad, note: "Spent his active life there as a copyist and bookseller.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: influenced, target: person/abu-sulayman-al-sijistani, note: "Named by the article as a Muslim intellectual through whom his influence passed on.", sources: [source/encyclopaedia-of-islam-2], confidence: medium }
+  - { type: influenced, target: person/abu-hayyan-al-tawhidi, note: "Named by the article as a Muslim intellectual through whom his influence passed on.", sources: [source/encyclopaedia-of-islam-2], confidence: medium }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-1
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 11, article Yahya b. Adi, PDF pages 255-256 (printed 245-246)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "يحيى بن عدي كان يبيع الكتب وينسخها في بغداد، وترجم كتب أرسطو وشرحها للناس."
+  en: "Yahya ibn Adi copied and sold books in Baghdad, and he translated and explained the books of Aristotle."
+  ur: "یحییٰ بن عدی بغداد میں کتابیں نقل کرتے اور بیچتے تھے، اور انہوں نے ارسطو کی کتابوں کا ترجمہ کیا اور ان کی وضاحت کی۔"

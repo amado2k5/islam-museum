@@ -1,0 +1,29 @@
+id: person/muhammad-ibn-makhlad
+class: person
+label: { ar: "محمد بن مخلد العطار", en: "Muhammad ibn Makhlad al-Attar", ur: "محمد بن مخلد عطار" }
+aliases: ["Muhammad b. Makhlad", "Muhammad ibn Makhlad", "محمد بن مخلد", "ابن مخلد العطار"]
+summary:
+  ar: "محمد بن مخلد العطار محدّث بغدادي توفي سنة 331هـ/942 ــ 943م، ذكره الخطيب في تاريخ بغداد والذهبي في تذكرة الحفاظ، وهو من شيوخ الحديث عند اللغوي ابن خالويه الهمذاني. لا تقدم دائرة المعارف الإسلامية عنه ترجمة مستقلة، وما يُعرف هنا مستخلص من الإشارة إليه في مادة ابن خالويه {cite:encyclopaedia-of-islam-2 vol. 3 p. 856}."
+  en: "Muhammad ibn Makhlad al-Attar was a hadith transmitter of Baghdad who died in 331/942-3. Al-Khatib's History of Baghdad and al-Dhahabi's Tadhkirat al-huffaz record him, and he was one of the hadith teachers of the philologist Ibn Khalawayh of Hamadhan. The Encyclopaedia of Islam has no article on him, so what is known here comes from its mention in the Ibn Khalawayh entry {cite:encyclopaedia-of-islam-2 vol. 3 p. 856}."
+  ur: "محمد بن مخلد عطار بغداد کے ایک محدث تھے جو 331ھ/942 ــ 943ء میں فوت ہوئے۔ خطیب کی تاریخ بغداد اور ذہبی کی تذکرۃ الحفاظ میں ان کا ذکر ہے اور وہ ہمدان کے ماہرِ لغت ابن خالویہ کے حدیث کے اساتذہ میں سے تھے۔ دائرۃ المعارف اسلامیہ میں ان پر الگ مضمون نہیں، اس لیے یہاں جو معلوم ہے وہ ابن خالویہ کے مضمون میں ان کے ذکر سے ماخوذ ہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 856}."
+gender: male
+roles: [muhaddith]
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+died: { edtf: "0942~", hijri: "0331", calendar: julian, precision: year, status: tradition, derived: true, note: "EI2 gives 331/942-3 {cite:encyclopaedia-of-islam-2 vol. 3 p. 856}." }
+relations:
+  - { type: influenced, target: person/ibn-khalawayh, note: "Named by EI2 as one of Ibn Khalawayh's teachers of hadith.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., local OCR"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-1
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 3, article Ibn Khalawayh, p. 856 (mention only); vol. 1, article Abu Dawud al-Sidjistani, p. 133 (a Muhammad b. Makhlad, not identified there)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "محمد بن مخلد كان من علماء الحديث في بغداد، وتعلّم منه طلاب العلم كلام النبي كما نقله الثقات."
+  en: "Muhammad ibn Makhlad was a scholar of hadith in Baghdad whom later students learned from."
+  ur: "محمد بن مخلد بغداد کے حدیث کے عالم تھے جن سے بعد کے طلبہ نے سیکھا۔"

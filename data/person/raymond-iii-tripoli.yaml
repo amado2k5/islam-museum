@@ -1,0 +1,41 @@
+id: person/raymond-iii-tripoli
+class: person
+label: { ar: "ريموند الثالث صاحب طرابلس", en: "Raymond III of Tripoli", ur: "طرابلس کے ریموند سوم" }
+names:
+  - { value: "القمص صاحب طرابلس", kind: alternate, lang: ar }
+  - { value: "ريمند بن ريمند الصنجيلي", kind: full, lang: ar }
+  - { value: "القمص ريموند", kind: alternate, lang: ar }
+  - { value: "Raymond of Tripoli", kind: alternate, lang: en }
+  - { value: "Raymond, count of Tripoli", kind: alternate, lang: en }
+summary:
+  ar: "ريموند الثالث، الذي يسميه ابن الأثير ريمند بن ريمند الصنجيلي، قمص طرابلس وصاحب طبرية بزواجه من صاحبتها. تولى أمر الملك الصغير بعد موت الملك المجذوم ثم اختلف مع الملك الجديد فراسل صلاح الدين، لكن الفرنج ردوه إليهم، وكان في جيشهم يوم حطين سنة 583هـ/1187م ونجا من المعركة إلى صور ثم طرابلس حيث مات بعد أيام قليلة بحسب ابن الأثير. وتذكر دائرة المعارف الإسلامية أنه حذر من التقدم لنجدة طبرية، وأن نور الدين استفاد من أسره سنة 561هـ/1165م {cite:kamil-ibn-al-athir p. 141} {cite:kamil-ibn-al-athir p. 148} {cite:encyclopaedia-of-islam-2 vol. 10 p. 29} {cite:encyclopaedia-of-islam-2 vol. 8 p. 142}."
+  en: "Raymond III, whom Ibn al-Athir calls Raymond son of Raymond of Saint-Gilles, was count of Tripoli and lord of Tiberias through his marriage to its heiress. He managed affairs for the boy king after the leper king's death, then quarrelled with the new king and wrote to Saladin, but the Franks brought him back into their ranks. He was in their army at Hattin in 583/1187, escaped to Tyre and then Tripoli, and died a few days later according to Ibn al-Athir. The Encyclopaedia of Islam records that he warned against advancing to relieve Tiberias, and that Nur al-Din took advantage of his capture in 561/1165 {cite:kamil-ibn-al-athir p. 141} {cite:kamil-ibn-al-athir p. 148} {cite:encyclopaedia-of-islam-2 vol. 10 p. 29} {cite:encyclopaedia-of-islam-2 vol. 8 p. 142}."
+  ur: "ریموند سوم، جنہیں ابن الاثیر ریمند بن ریمند الصنجیلی کہتے ہیں، طرابلس کے کاؤنٹ تھے اور طبریہ کی وارثہ سے نکاح کی وجہ سے اس کے حاکم بھی۔ کوڑھی بادشاہ کی موت کے بعد انہوں نے کم سن بادشاہ کے امور سنبھالے، پھر نئے بادشاہ سے اختلاف ہوا اور صلاح الدین کو خط لکھا، مگر فرنگیوں نے انہیں اپنی صفوں میں واپس لے لیا۔ 583ھ/1187ء میں حطین میں وہ ان کی فوج میں تھے، میدان سے بچ کر صور اور پھر طرابلس پہنچے اور ابن الاثیر کے بقول چند دن بعد فوت ہو گئے۔ دائرۃ المعارف الاسلامیہ بتاتا ہے کہ انہوں نے طبریہ کی مدد کو بڑھنے سے خبردار کیا تھا، اور نور الدین نے 561ھ/1165ء میں ان کی گرفتاری سے فائدہ اٹھایا {cite:kamil-ibn-al-athir p. 141} {cite:kamil-ibn-al-athir p. 148} {cite:encyclopaedia-of-islam-2 vol. 10 p. 29} {cite:encyclopaedia-of-islam-2 vol. 8 p. 142}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born: { edtf: "1140~", calendar: gregorian, precision: year, status: tradition, derived: false, note: "Wikidata Q354389 (read 12 November 2026) gives 1140; neither Ibn al-Athir nor the Encyclopaedia of Islam gives a birth date." }
+died: { edtf: "1187", hijri: "0583", calendar: gregorian, precision: year, status: tradition, derived: true, note: "Ibn al-Athir says he died a few days after reaching Tripoli from Hattin {cite:kamil-ibn-al-athir p. 148}. Wikidata Q354389 gives 1 September 1187 at month precision and also bare 1187; the Hijri year is derived." }
+relations:
+  - { type: ruled_over, target: place/tripoli-al-sham, sources: [source/kamil-ibn-al-athir] }
+  - { type: ruled_over, target: place/tiberias, note: "By marriage to the lady of Tiberias {cite:kamil-ibn-al-athir p. 141}", sources: [source/kamil-ibn-al-athir] }
+  - { type: participated_in, target: event/battle-of-hattin-583, role: "القمص الذي نجا من المعركة", sources: [source/kamil-ibn-al-athir] }
+  - { type: allied_with, target: person/salah-al-din-yusuf-ibn-ayyub, note: "Wrote to Saladin and was promised help in 582; Ibn al-Athir adds that the Franks later brought him back to their side {cite:kamil-ibn-al-athir p. 141-142} {cite:kamil-ibn-al-athir p. 145}", sources: [source/kamil-ibn-al-athir] }
+  - { type: died_in, target: place/tripoli-al-sham, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "Ibn al-Athir, al-Kamil, years 582-583, printed pp. 141-148, 152, 175 (harvest scan kamilt00_201908); Encyclopaedia of Islam 2nd ed., art. Tabariyya and Nur al-Din"
+  generated_by: "Claude Sonnet 5.5"
+  model: "claude-sonnet-5-5"
+  run: canon-missing-1
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 10 art. Tabariyya (PDF p. 29) and vol. 8 art. Nur al-Din (PDF p. 142); no dedicated article exists, so the account rests mainly on Ibn al-Athir"
+sources: [source/encyclopaedia-of-islam-2, source/kamil-ibn-al-athir]
+external_ids: { wikidata: Q354389 }
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "ريموند الثالث أمير فرنجي حكم طرابلس وطبرية، ونصح قومه بالحذر قبل معركة حطين."
+  en: "Raymond III was a Frankish count who ruled Tripoli and Tiberias and urged his own side to be careful before the Battle of Hattin."
+  ur: "ریموند سوم ایک فرنگی کاؤنٹ تھے جو طرابلس اور طبریہ کے حاکم تھے اور انہوں نے حطین کی جنگ سے پہلے اپنے لوگوں کو احتیاط کا مشورہ دیا۔"

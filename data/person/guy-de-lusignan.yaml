@@ -1,0 +1,38 @@
+id: person/guy-de-lusignan
+class: person
+label: { ar: "غي دي لوزينيان", en: "Guy de Lusignan", ur: "گی دی لوزینیان" }
+names:
+  - { value: "كي", kind: alternate, lang: ar }
+  - { value: "كي ملك الفرنج", kind: alternate, lang: ar }
+  - { value: "Guy of Lusignan", kind: alternate, lang: en }
+summary:
+  ar: "غي دي لوزينيان فارس قدم من بلاد الفرنج إلى الشام فتزوجته ملكة بيت المقدس ونقلت إليه الملك، وهو الذي يسميه ابن الأثير كي. قاد الفرنج في وقعة حطين سنة 583هـ/1187م فأُسر هو وأخوه وأرناط صاحب الكرك، وبقي أسيراً ثم أُطلق بعد فتح بيت المقدس. وتذكر دائرة المعارف الإسلامية أنه كان مدعياً لتاج بيت المقدس حين انضم إلى ريتشارد في قبرص، وأن ريتشارد باعه الجزيرة سنة 1192م {cite:kamil-ibn-al-athir p. 141} {cite:kamil-ibn-al-athir p. 148} {cite:encyclopaedia-of-islam-2 vol. 5 p. 341}."
+  en: "Guy de Lusignan was a knight who came from the Frankish lands to Syria, married the queen of Jerusalem and received the kingdom through her; Ibn al-Athir calls him Kay. He led the Franks at Hattin in 583/1187, where he was taken prisoner with his brother and Raynald of Kerak, and was released after the fall of Jerusalem. The Encyclopaedia of Islam describes him as a claimant to the crown of Jerusalem when he joined Richard in Cyprus, and says Richard resold him the island in 1192 {cite:kamil-ibn-al-athir p. 141} {cite:kamil-ibn-al-athir p. 148} {cite:encyclopaedia-of-islam-2 vol. 5 p. 341}."
+  ur: "گی دی لوزینیان ایک فرنگی شہسوار تھے جو شام آئے، یروشلم کی ملکہ سے ان کا نکاح ہوا اور اسی کے ذریعے سلطنت ان کے حصے میں آئی؛ ابن الاثیر انہیں «کی» لکھتے ہیں۔ 583ھ/1187ء میں حطین کی جنگ میں فرنگیوں کی قیادت انہی کے پاس تھی، وہاں وہ اپنے بھائی اور کرک کے ارناط سمیت قید ہوئے اور بیت المقدس کے فتح ہونے کے بعد رہا کیے گئے۔ دائرۃ المعارف الاسلامیہ کے مطابق جب وہ قبرص میں رچرڈ سے ملے تو بیت المقدس کے تاج کے دعوے دار تھے، اور رچرڈ نے 1192ء میں جزیرہ انہیں بیچ دیا {cite:kamil-ibn-al-athir p. 141} {cite:kamil-ibn-al-athir p. 148} {cite:encyclopaedia-of-islam-2 vol. 5 p. 341}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born: { edtf: "1150~", calendar: gregorian, precision: year, status: tradition, derived: false, note: "Wikidata Q294192 (read 12 November 2026) gives 1150 and, in a second statement marked circa, 1129; the Muslim sources and the Encyclopaedia of Islam give no birth date." }
+died: { edtf: "1194-07-18", hijri: "0590", calendar: julian, precision: day, status: tradition, derived: true, note: "Wikidata Q294192 (read 12 November 2026) gives 18 July 1194; the Hijri year is derived. The Encyclopaedia of Islam says only that his brother Aimery succeeded him as lord of Cyprus in 1194 {cite:encyclopaedia-of-islam-2 vol. 5 p. 341}." }
+relations:
+  - { type: participated_in, target: event/battle-of-hattin-583, role: "ملك الفرنج الأسير", sources: [source/kamil-ibn-al-athir] }
+  - { type: fought, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+  - { type: ruled_over, target: place/jerusalem, note: "King by right of his marriage to the heiress; Ibn al-Athir p. 141, Encyclopaedia of Islam calls him claimant", sources: [source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2], confidence: medium }
+  - { type: ruled_over, target: place/famagusta, note: "The town passed to him in 1192 {cite:encyclopaedia-of-islam-2 vol. 5 p. 239}", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Ibn al-Athir, al-Kamil, year 582-584, printed pp. 141-148, 157, 180 (harvest scan kamilt00_201908); Encyclopaedia of Islam 2nd ed., art. Kubrus and Maghusha"
+  generated_by: "Claude Sonnet 5.5"
+  model: "claude-sonnet-5-5"
+  run: canon-missing-1
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 5 (Kubrus, PDF pp. 340-341; Maghusha, PDF p. 239); no dedicated article exists, so the account rests mainly on Ibn al-Athir"
+sources: [source/encyclopaedia-of-islam-2, source/kamil-ibn-al-athir]
+external_ids: { wikidata: Q294192 }
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "غي دي لوزينيان ملك فرنجي قاد جيشه في معركة حطين وأُسر فيها، ثم أُطلق وانتقل بعد ذلك إلى جزيرة قبرص."
+  en: "Guy de Lusignan was a Frankish king who led his army at the Battle of Hattin, was captured there, and was later set free and moved on to the island of Cyprus."
+  ur: "گی دی لوزینیان ایک فرنگی بادشاہ تھے جنہوں نے حطین کی جنگ میں اپنی فوج کی قیادت کی، وہاں قید ہوئے، پھر رہا ہوئے اور بعد میں قبرص کے جزیرے پہنچ گئے۔"

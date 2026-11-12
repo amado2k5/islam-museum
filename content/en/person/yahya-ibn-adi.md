@@ -1,0 +1,33 @@
+---
+id: person/yahya-ibn-adi
+lang: en
+source_lang: en
+translators: []
+---
+## Overview
+Yahya ibn Adi was a Christian Arab philosopher and theologian, and a translator and commentator of Aristotle. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} The Encyclopaedia of Islam says his contemporaries recognised him as the master of the philosophers of his time. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} He is one of the links by which Greek philosophy passed into Arabic thought in tenth-century Baghdad.
+
+## Life
+The article gives his origin as the town of Takrit ([[place/tikrit|Tikrit]]) on the Tigris. He spent his active life in [[place/baghdad|Baghdad]], where he earned his living as a copyist and bookseller. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} His contemporary [[person/ibn-al-nadim|Ibn al-Nadim]], who died in 380/990, recorded this work and drew heavily on Yahya's library for what he wrote about the Greek philosophers and their Arabic transmitters. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} Yahya died in Baghdad on 21 Dhu l-Qa'da 363, 13 August 974, aged 81. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} The article on [[person/al-farabi|al-Farabi]] in the same encyclopaedia gives an earlier death year for him, 362/972, and describes him as the main representative of the Baghdad Christian Aristotelians in the generation after [[person/matta-ibn-yunus|Matta ibn Yunus]]. {cite:encyclopaedia-of-islam-2 vol. 2 p. 809} The sources read for this record do not reconcile the two years, and they do not give his birth year beyond the stated age.
+
+## Teachers and the Aristotelian line
+According to the article, he took his teaching of Aristotelian philosophy from the Nestorian translator Matta ibn Yunus and from Matta's most eminent Muslim pupil, al-Farabi. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} Following Matta's tradition he translated from Syriac, and annotated, parts of the Organon of logic and of Aristotle's physical and metaphysical works. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} Al-Farabi's view of philosophy as a demonstrative science, resting on the principles laid down in Aristotle's Posterior Analytics, is upheld by Yahya as the universal basis of sound thinking and right action. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255}
+
+## Translations and the Organon manuscript
+Most of his surviving philosophical work concerns logic and the theory of knowledge. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} The article describes a Paris manuscript, Bibliotheque nationale ar. 2346, which preserves parts of the Organon as translated or re-translated by [[person/ishaq-ibn-hunayn|Ishaq ibn Hunayn]], [[person/abu-uthman-al-dimashqi|Abu Uthman al-Dimashqi]] and Matta ibn Yunus, together with his own version of the Sophistical Refutations and two alternative versions. He and his school compiled and annotated these texts, and his pupils and successors Isa ibn Zur'a, who died in 398/1008, and al-Hasan ibn Suwar, who died after 407/1017, copied them from his own handwritten copy. The article calls the manuscript an impressive record of the extent and standard of Aristotle reading in his school. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255}
+
+He also translated other works of Aristotle and of ancient commentators, among them the Physics and Metaphysics in part. Of these, only his translation of Themistius's paraphrase of On the Heavens has survived, and it survives in a Hebrew version. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255}
+
+## Original writings
+His own contributions deal with the traditional matters of introduction to logic and philosophical method: a commentary on the small Alpha book of Aristotle's Metaphysics, and many questions and lecture notes on the basics of knowledge, the categories, the syllogism and theoretical physics. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} He also wrote a popular compendium of ethics, The Refinement of Character (Tahdhib al-akhlaq), which, like a work of [[person/ibn-miskawayh|Miskawayh]], rests on the tripartite division of the soul into appetitive, spirited and rational parts that the article calls Platonic, after [[person/aflatun|Plato]]. After listing the virtues and vices of each part it shows the way to perfection under the rule of reason. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255}
+
+## Philosophy applied to theological questions
+The article treats as most significant his treatises on topics discussed in Islamic theology, which he handled not as theological argument but by applying demonstrative logic to the concepts. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} The topics it lists are the meaning of tawhid, the unity of God; the establishment of contingent being; a refutation of atomism; a refutation of the doctrine of acquisition (iktisab) of acts created by God, which it describes as current in contemporary Ash'arism; and a defence, following Matta ibn Yunus, of philosophical logic as the universal tool for checking correct reasoning against the claims of the Arab grammarians. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255}
+
+As a Christian theologian, the article says, he defended the Monophysite doctrine of the Incarnation against Nestorianism and used the same philosophical model in an apology for the Christian faith, in particular the doctrine of the Trinity, against Muslim polemical arguments. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} In his account God is one in substance, made up of three essential attributes, goodness, wisdom and power, called hypostases. The article relates this to a Neoplatonic triad and to the divine intellect thinking itself. {cite:encyclopaedia-of-islam-2 vol. 11 p. 255} The museum reports this as the article's description of his position and does not take a side in the theological question.
+
+## Influence
+His teaching was carried on by Christian disciples, of whom Isa ibn Zur'a was the most prominent. {cite:encyclopaedia-of-islam-2 vol. 11 p. 256} The article adds that his influence went beyond that circle: through Muslim philosophers and intellectuals such as [[person/abu-sulayman-al-sijistani|Abu Sulayman al-Sijistani]] and [[person/abu-hayyan-al-tawhidi|Abu Hayyan al-Tawhidi]], over the following generations he reached a wide readership of courtiers, scientists and even theologians of the kalam. {cite:encyclopaedia-of-islam-2 vol. 11 p. 256}
+
+## What the sources do not give
+The article does not give his birth year, the names of his parents, or a full list of his works, and its text on his origin is partly unclear in the scanned copy. It does not say which Aristotelian works he translated beyond those named above.
