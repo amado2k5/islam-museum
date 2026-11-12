@@ -1919,3 +1919,18 @@ Next step: episode 16.
 | Repetition loops, non-speech and garbled windows | ep07 00:01:00 (a long loop of one letter after a partly clear definition); ep08 00:06:30 (non-speech "Oh."), 00:03:30 (a half-clear remark on the righteous), 00:04:00 (a half-clear remark on psychological testing); ep05 00:03:00 (a half-clear remark on scholars quoting each other); ep06 00:04:00 (a half-clear sentence before the roadside tree) | Not speech or not recoverable | Loop check, Clarity | Open |
 
 Resume point: ajaeb-al-kulub episode 9 (branch from origin/main).
+### al-naba-al-safi, episode 17 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-6)
+
+Episode 17 read in full (49 min of transcript) before writing. 9 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (unchained hadiths, sayings and accounts in sense, an unsourced statistic).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep17 (hastening to good deeds and its four axes) | about 49 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 9 points | new `about` edges | 9 | 9 needs_source | this PR |
+
+Next step: episode 18.
+
+| Excluded (al-naba-al-safi ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements and the long closing prayer | ep17 00:00:00–00:00:30, 00:19:00–00:19:30, 00:34:00–00:34:30, 00:46:30–00:49:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep17 00:05:00, 00:17:00, 00:23:30, 00:36:30, 00:48:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep17 00:42:00–00:44:30 | Not reproduced | Sources policy | Open |
