@@ -3,8 +3,9 @@ class: event
 kind: battle
 label: { ar: "موقعة موهاكس وفتح بودا", en: "The battle of Mohács and the conquest of Buda" }
 summary:
-  ar: "كان ملك المجر فيلاديسلاف الثاني قد عزم على فك أي تعهدات أعطيت من قبل أسلافه لسلاطين الدولة العثمانية وذهب إلى حد قتل مبعوث السلطان سليمان إليه الذي كان يطالب بالجزية السنوية، فردّ سليمان بغزوة كبيرة ضد المجر، واستمرت المعارك حتى أحرز الأتراك انتصارهم الكبير في موقعة موهاكس عام ١٥٢٦م، ودخل سليمان القانوني بودا في ١١ سبتمبر عام ١٥٢٦م، واستمرت المقاومة الهنغارية رغم هذا وتابع السلطان ضغطه حتى بلغت جيوشه أسوار فيينا عاصمة الإمبراطورية الرومانية المقدسة عام ١٥٢٩م {cite:dawlat-uthmaniyya-salabi p. 201-202}."
-  en: "Mohács, 1526 — the Hungarian king's killing of Sulayman's tribute-envoy brought the Ottoman host that shattered Hungary in one battle and entered Buda on 11 September {cite:dawlat-uthmaniyya-salabi p. 201-202}."
+  ar: "دارت معركة موهاكس الأولى في ٢١ ذي القعدة ٩٣٢هـ، أغسطس ١٥٢٦م، بين جيش سليمان القانوني وجيش ملك المجر لويس الثاني، وهُزم فيها الجيش المجري هزيمة تامة في نحو ساعة ونصف وقُتل الملك غرقاً. ودخل سليمان بعدها بودا دون مقاومة، ولم يضم المجر لكنه عدها ملكاً له. وكانت الهزيمة منعطفاً في تاريخ المجر، إذ تلتها فوضى طويلة وانقسام البلاد ثلاث مناطق أكثر من مئة وخمسين سنة. {cite:encyclopaedia-of-islam-2 vol. 7 p. 246} {cite:encyclopaedia-of-islam-2 vol. 7 p. 247}"
+  en: "The first battle of Mohács was fought on 21 Dhu 'l-Qa'da 932 AH, August 1526, between Suleiman's army and that of the Hungarian king Louis II. The Hungarian army was completely beaten in about an hour and a half and the king drowned. Suleiman then entered Buda without resistance; he did not annex Hungary but regarded it as his own. The defeat was a turning point, followed by long anarchy and the division of the country into three zones for over 150 years. {cite:encyclopaedia-of-islam-2 vol. 7 p. 246} {cite:encyclopaedia-of-islam-2 vol. 7 p. 247}"
+  ur: "موہاچ کی پہلی جنگ ٢١ ذوالقعدہ 932ھ، اگست 1526ء کو سلیمان کے لشکر اور ہنگری کے بادشاہ لوئی ثانی کے لشکر کے درمیان لڑی گئی۔ ہنگری کا لشکر تقریباً ڈیڑھ گھنٹے میں مکمل طور پر شکست کھا گیا اور بادشاہ ڈوب کر مارا گیا۔ سلیمان پھر بغیر مزاحمت کے بودا میں داخل ہوا؛ اس نے ہنگری کو شامل نہیں کیا مگر اپنی ملکیت سمجھا۔ یہ شکست ہنگری کی تاریخ کا موڑ تھی، جس کے بعد طویل انتشار رہا اور ملک ڈیڑھ سو سال سے زیادہ تین حصوں میں بٹا رہا۔ {cite:encyclopaedia-of-islam-2 vol. 7 p. 246} {cite:encyclopaedia-of-islam-2 vol. 7 p. 247}"
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
@@ -19,6 +20,7 @@ provenance:
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 201-202"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-2
+  canon: "EI2 vol. 7, article Mohács, PDF pp. 246-247, written by Claude Sonnet 5.5, run canon-cornerstones-11"
 external_ids:
   wikidata: Q178510
 sides:
@@ -34,6 +36,6 @@ map:
   features:
     - { type: point, role: event_point, label: { ar: "موقعة موهاكس وفتح بودا", en: "The battle of Mohács and the conquest of Buda" }, at: [45.944, 18.654], precision: locality, source: source/geonames-gazetteer }
   sources: [source/geonames-gazetteer]
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
