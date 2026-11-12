@@ -421,7 +421,6 @@ Opinions labelled as the lecturer's own (record stays `sensitivity: contested`, 
 | Closing supplications, sign-offs, producer's announcement with phone number and organisation name | ep04 00:42:00; ep05 00:41:30, 00:47:30-00:48:00 | Not lesson content | Content rule | Open |
 | Question on a bank loan and one on spending zakat | ep05 00:43:00-00:44:30 | Garbled | Clarity | Open |
 
-Resume point: episode 06 (branch `agent/assabile-dar-akhera`).
 
 ### Completed recordings (§8), continued
 
@@ -456,7 +455,6 @@ Opinions labelled as the lecturer's: group recitation in mosques, music, modern 
 | Garbled passages | ep06 00:07:30-00:10:00 (painting and art tangent), 00:13:00-00:14:00 (Bilal and Ali), 00:19:00-00:19:30, 00:32:00-00:33:00, 00:39:30-00:41:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Sign-off | ep06 00:42:00 (greeting and thanks) | Not lesson content | Content rule | Open |
 
-Resume point: episode 07 (branch from origin/main).
 
 ### Completed recordings (§8), continued
 
@@ -490,6 +488,23 @@ The lecturer's political remarks on the Jews and Jerusalem (ep08 00:17:30-00:18:
 | Supplications and farewell with the announcement of a three-week break | ep07 00:38:00-00:40:30; ep08 00:40:00-00:40:30 | Not lesson content | Content rule | Open |
 
 Resume point: episode 09 (branch from origin/main).
+
+### Completed recordings (§8), continued
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| silsilat-ebadu-al-rahman ep23–ep24 (dignity: pride and the believer's honour; aspiration: resolve and high goals) | ep23 about 23 min, ep24 about 24 min (transcript) | ar, en, ur: 1 record extended, 23 points | 7 new `about` edges (verses 63:8, 3:139, 2:127; kibr, tawadu, ikhlas, himmat al-nafs; al-Sarakhsi, Abu Hanifa, al-Shafi'i, Usama ibn Zayd) | ep23 11, ep24 12 points; engine qwen3-asr pass5, 30 s windows | 6 needs_source (the odour and worms image, ep23 00:04:00; the Badr figures, ep23 00:10:00; the envoy and the low door, ep23 00:21:00; the Bedouin and the gift, ep24 00:02:30; the handkerchief story, ep24 00:07:00; al-Sarakhsi's imprisonment, ep24 00:11:00) | run omar-abdelkafy-ebadu-al-rahman-9 |
+
+Notes for ep23–ep24. Episode 23 is broken by long loops from 00:11:00 and at its close; episode 24 has garbled passages from 00:13:00. The conflicts between Muslims and their enemies in episode 23 are described only by the lecturer's words, and no military detail beyond what he states is written.
+
+| Excluded (ebadu ep23–ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, closing formulae | ep23 00:00:00, 00:14:00, 00:23:00; ep24 00:00:00, 00:12:30, 00:13:00, 00:24:00 | Not lesson content; Qur'an never typed | Content rule; Qur'an rule | Open |
+| Repetition loops and hallucinated runs | ep23 00:11:00, 00:20:30, 00:23:00; ep24 00:04:30 (tail), 00:14:30 | Not speech | Loop check | Open |
+| Recited verse on the believers' dignity (the second verse) | ep23 00:23:00 | Verbatim verse, garbled; not written | Sources policy | Open |
+| Garbled passage on the rhythm of the Qur'an, the sun and the moon | ep24 00:01:00–00:02:00 | Garbled; the eagle image is written from the clear part | Clarity | Open |
+| Two fragments of verse on the great poet and the nightingale | ep24 00:19:30–00:20:00 | Verse garbled; not reconstructed | Clarity; sources policy | Open |
+| Garbled figures of the school year and examinations | ep24 00:19:30 | Garbled | Clarity | Open |
 ## Parallel writer: tariq-al-noor (11 Nov 2026, Claude Code claude-sonnet-5-5)
 
 Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan programme). Record: `work/tariq-al-noor` (draft, provenance run `omar-abdelkafy-tariq-al-noor-N`). Transcripts: `books/assabile/omar-abdelkafy/tariq-al-noor/pass5-qwen/`. Engine Qwen3-ASR pass5, 30-second windows.
@@ -508,6 +523,56 @@ Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan progra
 | Saying about innovators and Hell | ep01 00:07:00 | Garbled wording, hadith-like, no attribution | Clarity; hadith rule | Open |
 | Short passage on Ibn Taymiyya, Ibn al-Qayyim, al-Ghazali, Abu Hanifa and Ahmad as jurists | ep04 00:03:00 | Fragmentary | Clarity | Open |
 
+
+### al-dar-al-akhera ep09 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep09 (resurrection, the gathering, the great intercession) | about 38 min (transcript) | ar, en, ur: 1 record extended | 9 new `about` edges | 18 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the lecturer's ascriptions to Ibn Majah, Ahmad, Tirmidhi and Muslim are unchecked (ep09 00:00:00, 00:03:00); the cubit arithmetic (00:09:00); the claim on a covered woman's sweat has no source (00:11:00) | run omar-abdelkafy-dar-akhera-5 |
+
+| Excluded (dar-akhera ep09) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep09 00:17:30, 00:25:30 | Not speech | Loop check | Open |
+| Garbled passages | ep09 00:01:30-00:02:30 (a story about a servant of the Prophet), 00:08:30-00:09:00, 00:12:00-00:12:30, 00:13:30-00:14:30 (remarks on the lecturer's own speech), 00:18:00-00:18:30, 00:23:30-00:24:00, 00:27:30-00:28:00, 00:31:30-00:32:30 (the dragon passage), 00:35:30-00:36:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Supplications and sign-off | ep09 00:23:00 (supplication), 00:37:30 | Not lesson content | Content rule | Open |
+
+
+### al-dar-al-akhera ep10 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep10 (events and names of the Day; abortion; the Fire) | about 41 min (transcript) | ar, en, ur: 1 record extended | 1 new `about` edge (concept/kitab-al-amal); 4 existing | 13 points; qwen3-asr pass5, 30 s windows | needs_source on all points; oil-reserve figures and the report they are ascribed to (00:06:00); the abortion rulings, sums and the ascription to the Muslim World League are his own words (00:16:30, 00:18:30); book and author names for the Day's names (00:36:30) | run omar-abdelkafy-dar-akhera-5 |
+
+The lecturer's opinion on abortion, adoption and the scientific readings of the Qur'anic signs is labelled as his; the record stays `sensitivity: contested`.
+
+| Excluded (dar-akhera ep10) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep10 00:03:30, 00:04:00, 00:11:30, 00:36:00 | Not speech | Loop check | Open |
+| Garbled passages | ep10 00:03:00 (Kaaba tawaf remark), 00:10:00-00:12:00 (the eggs, birds and trapping passage), 00:12:30-00:13:00, 00:15:00-00:16:00, 00:19:00 (partial), 00:20:30-00:21:00, 00:28:30-00:30:30 (partial, the Prophet and the Fire), 00:37:00-00:39:30 (Q&A fragments) | Not recoverable as clear Arabic | Clarity | Open |
+| Poem on the Day of Resurrection recited | ep10 00:31:00-00:33:00 | Verbatim verse, partly garbled | Sources policy; clarity | Open |
+| Supplications and sign-off | ep10 00:30:30, 00:37:00 | Not lesson content | Content rule | Open |
+
+Resume point: episode 11 (branch from origin/main).
+
+Resume point: episode 07 (branch from origin/main).
+
+### albuyout-alamena, episodes 4–5 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-2)
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep04–ep05 (the legal viewing and frankness; the start of married life, "that you may find tranquillity in them") | about 46 min, 41 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 26 points | 21 new `about` edges (khitba, mahr, hiba, zulm, Ibn Khaldun, Ibn Hazm, Ahmad ibn Hanbal, Abu Hanifa, Ibn Taymiyya, Abu Bakr, passages 21:90, 30:21, 3:123, 42:49–50) | ep04 13, ep05 13 points; engine qwen3-asr pass5, 30 s windows | 9 needs_source: ep04 call details (00:31:00), the Prophet and Aisha and al-Hasan al-Basri accounts (00:42:00), the greatest-betrayals report (00:44:00); ep05 the coma news item (00:02:30), Ibn Khaldun attribution (00:05:30), wedding-night prayer form (00:10:30), figures on divorce and assault (00:18:00), Abu Bakr's saying (00:24:00), call details (00:27:30) | run omar-abdelkafy-albuyout-2 |
+
+Next step: episode 6.
+
+| Excluded (albuyout-alamena ep04–ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep04 00:00:00–00:01:30, 00:16:00, 00:30:30–00:31:00, 00:46:00–00:46:30; ep05 00:00:00–00:00:30, 00:12:00–00:12:30, 00:26:30–00:27:00, 00:40:00–00:40:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep04 00:08:30, 00:10:00, 00:17:00, 00:18:30, 00:27:00, 00:29:00 (partial), 00:35:30; ep05 00:08:30, 00:11:00, 00:11:30, 00:16:00–00:16:30, 00:28:00, 00:34:30, 00:38:00 | Not speech | Loop check | Open |
+| Hadith and supplication wording | ep04 00:04:30, 00:15:00; ep05 00:10:30, 00:34:00 | Wording not typed; reported by sense only | Hadith rule | Open |
+| Poetry recited (the Amr ibn Kulthum boast) | ep05 00:07:00 | Verbatim verse, partly garbled | Sources policy; clarity | Open |
+| Calls and answers too garbled to read | ep04 00:31:00–00:36:30 (in part), ep05 00:27:30–00:36:00 (in part), ep05 00:38:00 | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Questions outside the episode (Qur'anic water, plastic Qur'an copies, books for children) | ep04 00:34:00–00:35:00 | Off topic; the lecturer redirects them | Scope | Open |
+| Ruling on the prohibiting oath before consummation | ep05 00:29:30–00:30:00 | Answer not clear in the recording | Clarity | Open |
 | Excluded (tariq-al-noor ep05-ep08) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
 | Openings, supplications, closing formulae | ep05 00:00:00, 00:09:00-00:09:30; ep06 00:00:00, 00:09:30-00:10:00; ep07 00:00:00, 00:09:30; ep08 00:00:00-00:00:30, 00:09:30-00:10:00 | Not lesson content | Content rule | Open |
