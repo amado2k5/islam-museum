@@ -1934,3 +1934,15 @@ Next step: episode 18.
 | Openings, greetings, supplications, break announcements and the long closing prayer | ep17 00:00:00–00:00:30, 00:19:00–00:19:30, 00:34:00–00:34:30, 00:46:30–00:49:00 | Not lesson content | Content rule | Open |
 | Repetition loops and garbled windows | ep17 00:05:00, 00:17:00, 00:23:30, 00:36:30, 00:48:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Poetry quoted | ep17 00:42:00–00:44:30 | Not reproduced | Sources policy | Open |
+
+### ajaeb-al-kulub ep09-ep12 (12 Nov 2026)
+
+32 points written for episodes 9 to 12 (ar, en, ur); 18 needs_source marks; 12 new `about` edges. Episode 11 is a near-duplicate of episode 10 (the two transcripts match almost word for word): it is written as a short repeat section with its own timestamps and flagged needs_source, the cause (duplicate recording or repeated talk) not checked by listening. Proposal for the founder, not applied: ep09 00:01:00 holds the lecturer's claim that taking anxiety medicine shows reliance has left the heart; the record stays `sensitivity: contested`, and the claim is described as his opinion, not medical advice. Quran verses referenced only through passage links (3-173, 14-37, 5-23, 65-3, 21-69, 7-146, 40-35, 16-23, 2-34); none typed.
+
+| Excluded (ajaeb-al-kulub ep09-12) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep09 00:00:00, 00:05:30 (supplication), 00:06:00; ep10 00:00:00, 00:05:30 (supplication); ep11 00:00:00, 00:05:30; ep12 00:00:00, 00:05:30 (supplication) | Not lesson content | Content rule | Open |
+| Repetition loops, non-speech and garbled windows | ep11 00:04:30 (a very long loop of one letter); ep10 00:04:30 (a short loop); ep12 00:06:00 (non-speech "Oh."), 00:02:30 (a half-clear remark on trailing garments); ep09 00:03:00 (a half-clear sentence on money and houses) | Not speech or not recoverable | Loop check, Clarity | Open |
+| Repeated stretches of episode 10 | ep11 00:00:00-00:06:00 (written once as a short repeat section) | Same content as ep10 | Duplication | Open |
+
+Resume point: ajaeb-al-kulub episode 13 (branch from origin/main).
