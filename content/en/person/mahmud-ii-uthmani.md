@@ -1,17 +1,58 @@
 ---
 id: person/mahmud-ii-uthmani
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
-
 ## Overview
-Sultan Mahmud II ibn Abd al-Hamid I, who came to the throne in 1223 AH. {cite:dawlat-uthmaniyya-salabi p.548}
+Mahmud II ibn Abd al-Hamid I reigned as [[polity/ottoman-empire|Ottoman]] sultan from 1223/1808 to 1255/1839. The Encyclopaedia of Islam, whose account this page follows together with the earlier note drawn from al-Salabi, presents him as a ruler who inherited a state close to disintegration, set about restoring the sultan's office and the authority of the centre, destroyed the Janissary corps, and built a new army and a more centralised government, while losing ground to Russia, Greece and Egypt. {cite:encyclopaedia-of-islam-2 vol. 6 p. 67} {cite:encyclopaedia-of-islam-2 vol. 6 p. 69}
+
+## Birth and accession
+He was born at Topkapi palace on 13 Ramadan 1199/20 July 1785, the youngest of twelve sons of [[person/abd-al-hamid-i-uthmani|Abd al-Hamid I]]. He came to the throne on 28 July 1808, succeeding [[person/mustafa-iv-uthmani|Mustafa IV]]. An armed coup led by the provincial governor Mustafa Bayrakdar aimed to restore the deposed [[person/selim-iii-uthmani|Selim III]]; in the course of it Selim was killed and Mustafa deposed, and Mahmud, as the only legitimate candidate left, was declared sultan. {cite:encyclopaedia-of-islam-2 vol. 6 p. 67}
+
+## An empire on the edge
+The article describes the empire at that moment as apparently on the verge of final disintegration. The central government held little authority over provinces run largely by self-appointed local rulers, a pause in the war with Russia and Britain added strain, and in [[place/istanbul|Istanbul]] power lay with extra-legitimate forces made up mainly of scholars and soldiers. The sultan's office, it says, had been reduced to political impotence. {cite:encyclopaedia-of-islam-2 vol. 6 p. 67}
+
+## Bayrakdar and the Janissary reaction
+In the first months real power was held by Bayrakdar, who made himself grand vizier and convened an assembly of provincial rulers that adopted the Deed of Agreement. The article says this document sought to change the empire's constitutional framework by limiting the sultan's sovereignty and creating a quasi-feudal system, and also aimed to revive Selim III's military reforms. In mid-November 1808 his government fell to a popular uprising led by the Janissaries of Istanbul, which the article calls the culmination of a movement against reform and against the seizure of the central government by provincial elements. The victorious Janissaries set up a reign of terror and again meddled in state affairs. {cite:encyclopaedia-of-islam-2 vol. 6 p. 67}
+
+The anarchy left the political elite divided and demoralised, and the religious and bureaucratic elites, wanting orderly government, began to look to the court. The article treats this as the foundation for restoring the court as an active centre of government, and says Mahmud used the opening to curb the Janissaries and, through his reign, to subordinate all other political forces, forming a network of advisers to carry out his policies. {cite:encyclopaedia-of-islam-2 vol. 6 p. 67}
+
+## Wars with Britain and Russia
+In January 1809 a peace was concluded with Britain, despite protests from Napoleonic France, but talks with Russia failed and war resumed in April 1809. The Ottomans lost several battles yet stopped a Russian attempt to take Shumla and cross the Balkan mountains. Facing the threat of war with France, the Russians compromised, and the Treaty of Bucharest of 28 May 1812 ceded Bessarabia to Russia while the Ottomans regained Moldavia and Wallachia. {cite:encyclopaedia-of-islam-2 vol. 6 p. 67}
+
+## Restoring the provinces
+After the war, restoring central authority over the provinces became his main concern. The article says that by 1820 Istanbul had reasserted its power over most provincial centres in Anatolia, Thrace, Macedonia and the Danube districts, replacing local notables with appointed governors. It reports that the government regarded all such notables as usurpers, so their suppression was often ruthless and indiscriminate, and the article judges that this destroyed local administrative structures and weakened the bases of Ottoman power, helping the national movements of the Serbs and Greeks to emerge. In Arabia the Wahhabis were curbed by enlisting the military services of [[person/muhammad-ali-pasha|Muhammad Ali]], the governor of Egypt, who gradually turned Egypt into a formidable state while professing loyalty. The sultan had no means of reasserting authority over Tripoli, Tunis and Algiers, though he still claimed suzerainty. {cite:encyclopaedia-of-islam-2 vol. 6 p. 67}
+
+## The Greek rising and Egypt
+The Serbs, who rose in 1804-13 and again in 1815, were granted complete autonomy under Russian pressure, a gradual process completed in 1829. Tepedelenli [[person/ali-pasha-tepelena|Ali Pasha]], the most powerful notable in Albania and Greece, aided the Greek cause. The sultan began the conflict with him in July 1820, the Peloponnese rose in March 1821, and for nearly a year Mahmud kept the main military effort against Ali, whom he thought the greater threat. Ali was defeated and executed in February 1822. War with Iran, begun in 1820, ended with peace in July 1823. Unable to advance into the Peloponnese, the sultan asked Muhammad Ali for help, promising him the governorship of Crete and the Peloponnese, and the modernised Egyptian army landed in Greece in February 1825. By April 1826 the key fortress of [[place/missolonghi|Missolonghi]] had fallen and the Greek position looked close to collapse. {cite:encyclopaedia-of-islam-2 vol. 6 p. 67} {cite:encyclopaedia-of-islam-2 vol. 6 p. 68}
 
 ## Abolition of the Janissaries
-Al-Salabi says that he managed to rid himself of the Janissaries and abolished them, and so became free to develop his army. {cite:dawlat-uthmaniyya-salabi p.548}
+The article says the Greek rising shook Muslim society, who saw it as a threat to their survival, and that the poor showing of untrained Ottoman troops beside the modernised Egyptian army shifted opinion towards military reform. Mahmud had already cautiously improved the artillery and navy. In spring 1826 he began with a gradual plan to turn part of the Janissary corps into an elite unit, after seeking the support of the religious and bureaucratic elites and the Janissary officers. On the night of 14 June the Janissaries nevertheless rose; the sultan mustered loyal troops and crushed the revolt within hours on 15 June, with much bloodshed. Two days later an imperial order abolished the corps. {cite:encyclopaedia-of-islam-2 vol. 6 p. 68}
+
+The article says the impact on Ottoman society and on Europe was hard to exaggerate, and that it was seen as the end of one era and the start of another. The government called the event the "auspicious incident", and the court historian Es'ad Efendi was charged with the official account, printed in 1828. The ease of the suppression and its public acceptance, the article adds, showed a change in the climate of opinion. {cite:encyclopaedia-of-islam-2 vol. 6 p. 68}
+
+The earlier note from al-Salabi says that he rid himself of the Janissaries and abolished them, and so became free to develop his army. {cite:dawlat-uthmaniyya-salabi p.548}
+
+## The new army
+The Janissary project was dropped for a more ambitious one: an entirely new army trained on Western models, called the Trained Victorious Troops of Muhammad, or Mansure. The article reports that it met great difficulties and by spring 1828 had only some 30,000 men, poorly organised, trained and equipped. {cite:encyclopaedia-of-islam-2 vol. 6 p. 68}
 
 ## Dress and reform
 Al-Salabi also says that he followed the path of Western civilisation, replacing the fez with the turban, dressing in European clothes, and ordering that it be the official dress of all the state's officials. {cite:dawlat-uthmaniyya-salabi p.548}
 
-Al-Salabi's own judgement describes these steps as "following" Western civilisation. No other readings are added here, and this needs an additional source.
+Al-Salabi's own judgement describes these steps as "following" Western civilisation. The Encyclopaedia of Islam article read here does not discuss dress, so this point still rests on one source.
+
+## Navarino, Edirne and the loss of Greece
+Britain, Russia and France offered mediation in Greece, and the Ottomans refused, calling the conflict an internal matter. On 20 October 1827 the European fleets destroyed the Ottoman-Egyptian fleet in the harbour of Navarino; the article counts 37 Ottoman ships and over 3,000 sailors lost, more than two thirds of the seaworthy navy. Russia attacked in May 1828; in 1829 General Diebitsch bypassed Shumla, crossed the Balkans, took [[place/edirne|Edirne]] on 20 August and threatened Istanbul. By the Treaty of Edirne of 14 September 1829 the Ottomans ceded the Danube delta and the province of Akhaltsikhe, paid a heavy indemnity and recognised the autonomy of Serbia, Moldavia, Wallachia and Greece under Russian protection. The powers later decided that Greece should be an independent monarchy, which the sultan accepted in July 1832. {cite:encyclopaedia-of-islam-2 vol. 6 p. 68}
+
+## Revolts and the Egyptian crisis
+Defeat and the seeming failure of reform revived rebellion in Bosnia, Albania, eastern Anatolia and Baghdad. The article says some were a delayed conservative reaction led by former Janissaries, but more often protests against taxes, conscription and heavy-handed centralisation; the new troops generally put them down. In October 1831 Muhammad Ali, seeking compensation for his losses in Greece and refused the governorship of Syria, invaded Syria. His army defeated two Ottoman armies, then beat a third at Konya on 21 December and occupied Kutahya on 2 February 1833. Only Russia sent a naval force to defend Istanbul. The Convention of Kutahya of 8 April gave Muhammad Ali the government of Syria and the province of Adana, and the Russian-Ottoman defensive alliance of Hunkar Iskelesi followed on 8 July. The article says this alarmed Britain and the other powers, and that the empire came under the protection of the European Concert. {cite:encyclopaedia-of-islam-2 vol. 6 p. 68}
+
+## Reorganising the administration
+In the 1830s Mahmud pursued centralisation and efficiency. In 1835 the administration was divided into three branches, the civil bureaucracy, the religious-judicial hierarchy and the military, whose heads were made equals answerable to the sultan. The article reads this as official recognition of the court as the main centre of power, at the expense of the grand vizier, whose title became chief deputy, or prime minister, in March 1838. From 1836 departments were regrouped into ministries for internal, foreign and financial affairs, and in 1838 a Supreme Council for Judicial Ordinances was set up to advise the sultan. The article calls these mere beginnings, hampered by a lack of trained staff, but says they prepared a new generation of administrators. {cite:encyclopaedia-of-islam-2 vol. 6 p. 69}
+
+## The army and its limits
+The military took about 70 percent of state revenue in his last years. Authority of the commander-in-chief of the Mansure grew until his headquarters combined a ministry of war and a general staff. A provincial militia was created in 1834, partly to bring provincial notables into the system, and by the end of the reign there were some 90,000 men in the services, apart from the militia. Foreign help came from Russian and British instructors and from a Prussian mission that grew from one officer, Helmuth von Moltke, in 1835 to twelve by 1837. The sultan also founded a military medical school in 1827 and an officer school in 1834. The article records that over a quarter of recruits died of disease and desertion was high. {cite:encyclopaedia-of-islam-2 vol. 6 p. 69}
+
+## Last years and assessment
+In May 1835 an Ottoman force occupied Tripoli in Africa. In spring 1839, expecting a Syrian uprising, Mahmud provoked another crisis; the Egyptians routed the Ottoman army at Nizib on 24 June, and he died on 1 July, probably without learning of it. The article judges that the empire kept declining relative to Europe, but that within its reduced bounds his achievements were considerable: he revived the sultan's office, rejuvenated the centre and arrested disintegration. It describes him as devoted to traditional values and to justice, noting his epithet "the Just", and suggests that the principles guiding him were Islam, autocracy and justice, while his reforms, intended or not, set Ottoman society irrevocably on the road to modernisation. {cite:encyclopaedia-of-islam-2 vol. 6 p. 69}
