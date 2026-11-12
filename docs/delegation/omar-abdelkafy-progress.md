@@ -1764,3 +1764,19 @@ Next step: episode 27.
 | Openings, greetings, supplications, closing formulae | ep26 00:00:00–00:01:30, 00:23:00–00:24:00 | Not lesson content | Content rule | Open |
 | Repetition loops and garbled windows | ep26 00:14:00, 00:07:30, 00:18:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Poetry quoted | ep26 00:18:30–00:19:00, 00:20:00 | Not reproduced | Sources policy | Open |
+
+### al-manjeyat, episode 27 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-manjeyat-15)
+
+Episode 27 read in full (24 min of transcript) before writing. 6 points written (ar, en, ur); new `about` edges for the people and passages named; 5 needs_source (scientific claims without source, unchained accounts and hadiths in sense, rulings without evidence).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-manjeyat ep27 (the biological clock and repentance) | about 24 min (transcript) | ar, en, ur: work/al-manjeyat extended, 6 points | new `about` edges | 6 | 5 needs_source | this PR |
+
+Series complete: episode 27 is the last episode of al-manjeyat.
+
+| Excluded (al-manjeyat ep27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, closing formulae | ep27 00:00:00–00:01:00, 00:23:00–00:23:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep27 00:03:30, 00:07:30–00:08:30, 00:10:30–00:11:00, 00:15:30–00:16:00, 00:16:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Hadith wording | ep27 00:18:30–00:19:30 | Wording not typed; by sense only | Hadith rule | Open |
