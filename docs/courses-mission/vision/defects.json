@@ -765,10 +765,10 @@
    "where": "lesson 1 card",
    "defect": "\"✓ Done\" sits below the tag row, pushing the first card's tags and text out of alignment with card 2 and 3.",
    "decision": "fix",
-   "confirmed_in": "round-4",
-   "verdict": "still present",
-   "seen": "en-desktop-state-map-progress-1of2.jpg: \"Done\" now sits below the tag row, but the tags of cards 1 and 2 (the cards carrying \"Done\" / \"Next up\") are at y about 928-946 while the tags of cards 3 and 4 are at y about 932-949, so the tag row is about 4 px higher than in cards 3 and 4. The same offset is in ar-desktop-state-map-progress-1of2.jpg (cards 1 and 2 about 4 px higher than 3 and 4).",
-   "status": "still present"
+   "confirmed_in": "round-5",
+   "verdict": "gone",
+   "seen": "en-desktop-state-map-progress-1of2.jpg: in row 1 the tan tag pills of all four cards start at y=932 and end at y=949 (measured with PIL). \"Done\" (card 1) and \"Next up\" (card 2) sit below the tag row, not above it, so card 1's tags line up with cards 2 to 4. Phone view en-phone-state-map-progress-1of3.jpg also shows Done below the tags.",
+   "status": "closed"
   },
   {
    "id": "EN-38",
@@ -844,10 +844,10 @@
    "where": "lesson cards",
    "defect": "Card text and tags are not aligned across a row: cards with a one-line title leave a larger gap before the description, and the tag rows sit at different heights (cards 1 to 4, 5 to 8, 9 to 12).",
    "decision": "fix",
-   "confirmed_in": "round-4",
-   "verdict": "still present (partly)",
-   "seen": "en-desktop-map-1of2.jpg: tag rows are level in every row (y about 932-949 in cards 1-4, same in 5-8, 9-12, 13-16), so the plain map is fixed. But en-desktop-state-map-progress-1of2.jpg (and the Arabic twin) still shows the 4 px tag-row offset between cards 1-2 and cards 3-4 described under EN-37.",
-   "status": "still present"
+   "confirmed_in": "round-5",
+   "verdict": "gone",
+   "seen": "en-desktop-map-1of2.jpg: pill top and bottom are identical across all four cards in every row (row 1 y=932-949, row 2 1309-1327, row 3 1686-1704, row 4 2014-2033), including rows where card titles take one or two lines and descriptions differ in length. Tags are pinned to the bottom of each card.",
+   "status": "closed"
   },
   {
    "id": "EN-45",
