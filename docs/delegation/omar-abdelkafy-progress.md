@@ -518,6 +518,7 @@ Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan progra
 | tariq-al-noor ep09-ep12 (heedlessness and the heart; Salman al-Farisi's sayings; four traits; the truthful merchant) | ar, en, ur: series record extended with 4 episode sections (33 points) | 16 new `about` edges (81 in total) | needs_source on: ep09 the Ahmad ibn Hanbal and Shayban exchange roles, the Moses and angel-of-death narrative, the age-seventy narrative, the unattributed companion saying; ep10 the Talha narrative; ep11 the scholars' saying on liars, the forty-days saying, the Abu Hanifa nursing account; ep12 the Uthman caravan account, the Abu Hanifa cloth account | omar-abdelkafy-tariq-al-noor-3 |
 | tariq-al-noor ep13-ep15 (five things that corrupt the heart; the wise are three; self-deception and humility) | ar, en, ur: series record extended with 3 episode sections (21 points) | 15 new `about` edges (96 in total) | needs_source on: ep13 the unnamed Companion and Abu Bakr narrative, the campaigns list; ep14 Umar ibn Abd al-Aziz's last words, the verses attributed to al-Shafi'i; ep15 the speaker of the Satan saying, the Jabala account | omar-abdelkafy-tariq-al-noor-4 |
 | tariq-al-noor ep16-ep18 (what leads to a good ending; signs of wretchedness; the value of time) | ar, en, ur: series record extended with 3 episode sections (20 points) | 10 new `about` edges (106 in total) | needs_source on: ep16 the womb-writing of provision and the angel-of-death speech; ep18 the unnamed righteous man, the ranking figure 190 | omar-abdelkafy-tariq-al-noor-5 |
+| tariq-al-noor ep19-ep21 (hope and mercy; kindness to parents; guarding the tongue) | ar, en, ur: series record extended with 3 episode sections (30 points) | 10 new `about` edges (116 in total) | needs_source on the identity of Muhammad al-Ghazali, Anas, the Abu Nuwas, Umar and Abu Bakr narratives, the absolute ruling on the dutiful and disobedient child, the survey figure | omar-abdelkafy-tariq-al-noor-6 |
 
 | Excluded (tariq-al-noor ep01-ep04) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
@@ -670,3 +671,10 @@ Next step: episode 10.
 | Repetition loops | ep16 00:02:30; ep18 00:04:00 | Not speech | Loop check | Open |
 | Question-and-answer remark on songs, music and immodest imagery | ep16 00:01:30 | Garbled, no clear statement | Clarity | Open |
 | Remarks on screens and games, and on craftsmen's delays | ep18 00:04:30-00:05:00, 00:07:30 | Partly garbled; only the clear arithmetic and points kept | Clarity | Open |
+
+| Excluded (tariq-al-noor ep19-ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, closing formulae | ep19 00:00:00, 00:09:30; ep20 00:00:00, 00:09:30; ep21 00:00:00, 00:09:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep19 00:02:30, 00:03:00, 00:03:30, 00:04:00, 00:07:00 (inner) | Not speech | Loop check | Open |
+| Verses of Abu Nuwas | ep19 00:08:30-00:09:00 | Verbatim verse, not reproduced | Sources policy | Open |
+| Teens' food, clothes and gifts remark | ep20 00:05:00-00:05:30 | Partly garbled, no clear point | Clarity | Open |
