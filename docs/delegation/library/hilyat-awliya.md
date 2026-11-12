@@ -124,3 +124,6 @@
 
 ## Batch 29 (run microsd-books-b37, Claude Code / claude-fable-5-2)
 - Pages read: vol. 10 pp. 83–88 (page 87 and the end of 88 read in full after a first draft had ellipses; the regenerated section was checked for ellipses and honorifics before committing). Enriched `person/al-harith-al-muhasibi` (465, to 10/88). Notice continues from 10/89 to about 110. The honorific in the source on 10/83 and 10/88 is not typed.
+
+## Batch 30 (run microsd-books-b38, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 89–94. Enriched `person/al-harith-al-muhasibi` (465, to 10/94). Notice continues from 10/95 to about 110. The hadith on humility on 10/90 is described, not quoted.
