@@ -59,4 +59,5 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "bayt", href: `/${lang}/bayt/`, ready: true },
   { key: "signs", href: `/${lang}/signs/`, ready: true },
   { key: "nubuwat", href: `/${lang}/nubuwat/`, ready: true },
+  { key: "places", href: `/${lang}/places/`, ready: true },
 ];
