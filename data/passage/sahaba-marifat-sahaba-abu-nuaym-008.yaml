@@ -1,0 +1,23 @@
+id: passage/sahaba-marifat-sahaba-abu-nuaym-008
+class: passage
+unit: chapter
+work: work/marifat-al-sahaba-abi-nuaym
+ref: "1234"
+label:
+  ar: "معرفة الصحابة — أبو نعيم — ص 1234"
+  en: "معرفة الصحابة — أبو نعيم — p. 1234"
+text: "لصحابة هذا الكتاب: ((بسم الله الرحمن الرحيم، هذا الكتاب من محمد رسول الله ه إلى زرعة ذي (١) يزن، أما بعد، فإني أحمد إليك الله الذي لا إله إلا هو ، أما بعد : فإنه وقع بنا رسلكم مقفلنا من"
+summary:
+  ar: "مقطع من «معرفة الصحابة — أبو نعيم» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «معرفة الصحابة — أبو نعيم» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/marifat-sahaba-abu-nuaym] }
+  - { type: mentions, target: person/muhammad, sources: [source/marifat-sahaba-abu-nuaym] }
+provenance:
+  layer: own-research
+  source: "معرفة الصحابة — أبو نعيم ص 1234 — مقتطف المكاتبات — sahaba"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-2
+tags: [mukatabat-browser]
+sources: [source/marifat-sahaba-abu-nuaym]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
