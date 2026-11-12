@@ -30,3 +30,30 @@ He notes al-Nawawi never married, commenting that balance and the Prophet's way 
 
 ## His life in dates
 Born in Muharram 631 (October 1233) at Nawa in the Hawran, Jawlan; brought to Damascus in 649/1251 to lodge at the Rawahiyya madrasa; made the hajj with his father in 651/1253; began writing around 655; headed the al-Ashrafiyya dar al-hadith from 665/1267 after Abu Shama's death; finished the Minhaj and Rawda in 669 and al-Tahrir fi alfaz al-Tanbih in 671; alone refused to sign the fatwa approving Sultan Baybars's exactions and was expelled from Damascus to Nawa; died in his father's house at Nawa in Rajab 676 (December 1277) {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096} {cite:al-bidaya-wal-nihaya p. 293-294} {cite:shadharat-dhahab p. 354-356}.
+
+## In the Encyclopaedia of Islam
+The Encyclopaedia of Islam, second edition, gives him as a Shafi'i jurist whose full name runs back through Sharaf, Hasan and Husayn to al-Hizami of Damascus. It notes that the boy's ability drew attention early, and that after his father brought him to the Rawahiyya madrasa in Damascus he first studied medicine and soon turned to the Islamic sciences. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}
+
+## Frugality, the sultan and the popular romance
+According to the article, his health suffered during his student years, yet he lived very frugally and even declined a salary. His reputation grew so great that he ventured to ask the Mamluk sultan [[person/baybars|Baybars]] to spare the people of Syria the war taxes laid on them and to protect madrasa teachers from a cut in their income. The request failed, and Baybars expelled him from Damascus when he alone refused to sign a fatwa approving the legality of the levies. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}
+
+The article adds that this episode is remembered in the popular romance of Baybars, printed in Cairo in 1326, where the sultan, cursed by al-Nawawi, goes blind for a time. It records that he died unmarried in his father's house at Nawa on Wednesday 24 Rajab 676, which it gives as 22 December 1277, and that his tomb there is still held in honour. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}
+
+## Hadith scholarship
+The article credits him with exceptional knowledge of Tradition and with stricter standards than later Islam. It says he admitted only five works on Tradition as canonical and set the Sunan of [[person/ibn-majah|Ibn Majah]] on a level with the Musnad of [[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]]; despite his fondness for [[work/sahih-muslim|Sahih Muslim]], it notes, he gave a higher place to [[work/sahih-al-bukhari|al-Bukhari]]. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}
+
+His principal commentary is on Sahih Muslim, first printed in Cairo in 1283. As an introduction he wrote a history of how the book was transmitted and a sketch of the science of Tradition. The commentary remarks on chains of transmission and explains the wording grammatically, then discusses the reports mainly from the theological and legal side, citing the founders of the main schools and older jurists such as [[person/al-awzai-abd-al-rahman|al-Awza'i]] and Ata. He also added chapter headings to Muslim's work. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}
+
+The article further names his much annotated Forty Hadiths, printed at Bulaq in 1294, portions of commentaries on al-Bukhari and Abu Dawud, and an extract from [[person/ibn-al-salah|Ibn al-Salah]]'s work on the hadith sciences titled al-Taqrib wa-l-tafsir, which al-Suyuti later commented on in Tadrib al-rawi. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}
+
+## Standing as a jurist
+The article suggests his importance as a jurist may be greater still. In Shafi'i circles, it says, he was regarded through his [[work/minhaj-al-talibin-nawawi|Minhaj al-Talibin]], finished in 669, as the highest authority together with al-Rafi'i. Since the tenth century AH, sixteenth CE, the two commentaries on the Minhaj, Ibn Hajar's [[work/tuhfat-al-muhtaj|Tuhfa]] and al-Ramli's [[work/nihayat-al-muhtaj|Nihaya]], have been treated almost as the law books par excellence of the school. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}
+
+It explains that the Minhaj is made of excerpts from al-Rafi'i's Muharrar and was meant by its author as a kind of commentary on it. Its standing is also linked to a line of descent through al-Rafi'i and [[person/al-ghazali-abu-hamid|al-Ghazali]] back to [[person/imam-al-haramayn-al-juwayni|Imam al-Haramayn]]. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}
+
+Also mentioned are the [[work/rawdat-al-talibin|Rawda]], finished in 669, an abridgement of al-Rafi'i's commentary on al-Ghazali's Wajiz, which has itself been often commented on; commentaries on al-Shirazi's [[work/al-muhadhdhab-fi-fiqh-al-shafii|Muhadhdhab]] and [[work/al-tanbih-fi-al-fiqh-al-shafii|Tanbih]] and on al-Ghazali's [[work/al-wasit-fil-madhhab|Wasit]]; and a collection of his fatwas assembled by his pupil Ibn al-Attar, printed in Cairo in 1352. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1097}
+
+## Biographical and devotional writings
+His biographical and linguistic studies produced the [[work/tahdhib-al-asma-wal-lughat|Tahdhib al-asma wa-l-lughat]]. Its first part, on names, was edited by Wustenfeld, while the second survives only in manuscript at Leiden; Ibn al-Attar counted it among his unfinished works and the article says it certainly has gaps. The same pages place al-Tahrir fi alfaz al-Tanbih, completed in 671. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}
+
+The article links his mystical leanings to his attending lectures on, and transmitting, al-Qushayri's [[work/al-risala-al-qushayriyya|Risala]]. To these it attributes the Kitab al-Adhkar on prayers, finished in 667, the [[work/riyad-al-salihin|Riyad al-salihin]], finished in 670, and the incomplete [[work/bustan-al-arifin|Bustan al-arifin]] on asceticism and Sufism. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1097}
