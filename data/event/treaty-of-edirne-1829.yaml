@@ -1,0 +1,39 @@
+id: event/treaty-of-edirne-1829
+class: event
+kind: treaty
+label: { ar: "معاهدة أدرنة ⁦(١٨٢٩)⁩", en: "Treaty of Edirne (Adrianople), 1829", ur: "معاہدۂ ادرنہ ⁦(١٨٢٩ء)⁩" }
+summary:
+  ar: "معاهدة السلام التي أنهت الحرب الروسية العثمانية في 14 أيلول 1829م/1245هـ بعد أن احتل الجنرال ديبيتش أدرنة. تنازلت الدولة العثمانية لروسيا عن دلتا الدانوب في أوروبا وولاية أخالتسيخه في آسيا، ودفعت تعويضاً حربياً كبيراً، وأقرت حكماً ذاتياً لصربيا والأفلاق والبغدان واليونان تحت الحماية الروسية، وخسرت ميناءي أنابا وبوتي وحقوقها في بلاد الشركس {cite:encyclopaedia-of-islam-2 vol. 6 p. 68} {cite:encyclopaedia-of-islam-2 vol. 2 p. 39}."
+  en: "The peace treaty that ended the Russo-Ottoman war on 14 September 1829 (1245 AH), after General Diebitsch's army took Edirne. The Ottomans ceded the Danube delta in Europe and the province of Akhaltsikhe in Asia to Russia, paid a heavy war indemnity, accepted autonomy for Serbia, Moldavia, Wallachia and Greece under Russian protection, and lost the Black Sea ports of Anapa and Poti and their rights in Circassia {cite:encyclopaedia-of-islam-2 vol. 6 p. 68} {cite:encyclopaedia-of-islam-2 vol. 2 p. 39}."
+  ur: "وہ صلح نامہ جس نے 14 ستمبر 1829ء/1245ھ کو روسی عثمانی جنگ ختم کی، جب جنرل ڈیبیچ کی فوج نے ادرنہ پر قبضہ کر لیا تھا۔ عثمانیوں نے یورپ میں ڈینیوب کا ڈیلٹا اور ایشیا میں اخالتسیخہ کا صوبہ روس کو دے دیا، بھاری جنگی تاوان ادا کیا، روسی سرپرستی میں سربیا، افلاق، بغدان اور یونان کی خودمختاری مانی، اور بحیرۂ اسود کی بندرگاہیں انابا اور پوتی اور چرکس علاقے پر اپنے حقوق کھو دیے {cite:encyclopaedia-of-islam-2 vol. 6 p. 68} {cite:encyclopaedia-of-islam-2 vol. 2 p. 39}۔"
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1829-09-14", hijri: "1245", calendar: gregorian, precision: day, status: historical, derived: false, note: "14 September 1829 per EI2 (Mahmud II article); the year 1245 AH is given by EI2 for the treaty in the Cerkes article.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: part_of, target: event/russo-turkish-war-1828, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/edirne, note: "named for the city where the Russian army stood and where the Ottoman delegation negotiated", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: event/battle-of-adrianople-1829, note: "the Russian occupation of Edirne that preceded the treaty", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: mentions, target: place/serbia, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: mentions, target: place/akhaltsikhe, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: mentions, target: place/anapa, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: mentions, target: place/poti, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: mentions, target: place/circassia, sources: [source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire", ur: "سلطنتِ عثمانیہ" }
+  - label: { ar: "الإمبراطورية الروسية", en: "The Russian Empire", ur: "روسی سلطنت" }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., articles Mahmud II (vol. 6), Cerkes (vol. 2), Sirb (vol. 9), Anapa and Abkhaz (vol. 1), Kafkas (vol. 5)"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-4
+  canon: "EI2 vol. 6 p. 68 (Mahmud II); vol. 2 p. 39 (Cerkes); vol. 9 p. 691 (Sirb); vol. 1 pp. 120, 504; vol. 5 p. 533; vol. 8 p. 526"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "بعد حرب مع روسيا وُقّعت معاهدة أدرنة عام 1829م، وتنازلت فيها الدولة العثمانية عن أراضٍ وموانئ وقبلت أن تنال الصرب واليونان حكماً أوسع."
+  en: "After a war with Russia, the Treaty of Edirne of 1829 made the Ottomans give up lands and ports and accept more self-rule for Serbia and Greece."
+  ur: "روس کے ساتھ جنگ کے بعد 1829ء کے معاہدۂ ادرنہ میں عثمانیوں نے زمینیں اور بندرگاہیں چھوڑیں اور سربیا اور یونان کی زیادہ خود مختاری مان لی۔"
