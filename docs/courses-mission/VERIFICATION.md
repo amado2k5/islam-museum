@@ -32,10 +32,10 @@ Written by `python3 scripts/courses/board.py` from the oracles' own last lines. 
 | **8** Ship gates at the branch head: validate prints `0 errors`; cite-check prints `0 fail` | **NOT-GREEN** | NOT-GREEN (2 failed: GATE validate prints the literal string `0 errors`; this mission's files add no validator error (no error line names a course file)) | `3c620c2858` | `scripts/courses/o08_gates.py` | `python3 scripts/courses/o08_gates.py --save` | `docs/courses-mission/oracle-output/o08-gates.out` |
 | **9** The vision pass: committed screenshots, three widths, two languages, every defect confirmed gone or registered | **GREEN** | GREEN (6 checks passed) | `3c620c2858` | `scripts/courses/o09_vision.py` | `python3 scripts/courses/defects.py && python3 scripts/courses/o09_vision.py --save` | `docs/courses-mission/oracle-output/o09-vision.out` |
 | **10** With JavaScript disabled every lesson is reachable and readable | **GREEN** | GREEN (5 checks passed) | `7c3125e96a` | `scripts/courses/o10_nojs.mjs` | `node scripts/courses/o10_nojs.mjs --save` | `docs/courses-mission/oracle-output/o10-nojs.out` |
-| **11** Boundaries held: Urdu untouched, the rest of the site renders as before, no account or tracking | **NOT-GREEN** | NOT-GREEN (1 failed: the homepage component changes only by additions (one existing line, the explorers list, is extended)) | `3c620c2858` | `scripts/courses/o11_boundaries.py` | `python3 scripts/courses/o11_boundaries.py --save` | `docs/courses-mission/oracle-output/o11-boundaries.out` |
-| **12** The baseline is frozen and concurrency is accounted for | **GREEN** | GREEN (4 checks passed) | `3c620c2858` | `scripts/courses/o12_baseline.py` | `python3 scripts/courses/o12_baseline.py --save` | `docs/courses-mission/oracle-output/o12-baseline.out` |
+| **11** Boundaries held: Urdu untouched, the rest of the site renders as before, no account or tracking | **GREEN** | GREEN (15 checks passed) | `4c088d775c` | `scripts/courses/o11_boundaries.py` | `python3 scripts/courses/o11_boundaries.py --save` | `docs/courses-mission/oracle-output/o11-boundaries.out` |
+| **12** The baseline is frozen and concurrency is accounted for | **GREEN** | GREEN (4 checks passed) | `5f358ccb05` | `scripts/courses/o12_baseline.py` | `python3 scripts/courses/o12_baseline.py --save` | `docs/courses-mission/oracle-output/o12-baseline.out` |
 
-7 of 10 oracle runs end GREEN.
+8 of 10 oracle runs end GREEN.
 
 <!-- BOARD:END -->
 
@@ -76,55 +76,49 @@ Each is a choice; a different choice gives a different number.
 
 ```
 BASELINE (origin/main when the mission began, 2026-11-11): 800467e93e2c9ef073807f6bd5c7b717b028f859
-CUT (the commit of main the final branch starts from): aec4374baf1c954cb4b60fbd10261bf594a42ef4
-now: this branch 3c620c285812bdb83ed7d0e6e3c44b84e1de2db7; origin/main af90c29e0f4ac5d3c5d036b1ee1269030617f3ac
+CUT (the commit of main the final branch starts from): 0d4084545a4059da13ce22c3b7de03399b31a6b7
+now: this branch 5f358ccb0577426abac2c0e93b4fc1f1fa70136a; origin/main bbb7c6506f19321ce78e4a7443d840e9287fa44f
   [PASS] the BASELINE is recorded in the oracles' library and is an ancestor of the branch
   (436 files of the surface on main in this span were put there by this mission's own commits, scope `(courses)` or `(course)`)
 
-main, between the BASELINE and the CUT (carried into the branch by cutting from main): 335 commits, 2957 files changed
+main, between the BASELINE and the CUT (carried into the branch by cutting from main): 362 commits, 3076 files changed
   files of the course class or the courses surface changed on main: 0 []
   shared files this mission also edits or builds on, changed on main: ['CANARY.md', 'docs/coverage.md', 'i18n/ar.yaml', 'i18n/en.yaml', 'i18n/ur.yaml', 'site/src/components/Landing.astro', 'site/src/lib/nav.ts']
   what those commits were (first 20 subjects):
-    - merge: release/uat (courses phase 2) into main; one-branch rule in AGENTS.md
-    - data(al-manjeyat): episode 18, the value of time, second recording (ar, en, ur)
-    - data(hilyat-awliya): printed notices 501-503 (vol. 10)
-    - data(al-manjeyat): episode 17, the value of time (ar, en, ur)
-    - content(work): ahl-al-hikma episodes 5-8 in ar, en, ur
-    - docs(ansab): drop stale memorisation-texts wording from api docs
-    - content(ur): bring 85 Urdu pages level with English and Arabic
-    - docs(ansab): drop stale memorisation-texts wording from api docs
-    - data(al-manjeyat): episode 16, humility (ar, en, ur)
-    - content(work): ahl-al-hikma episodes 1-4 in ar, en, ur
-    - merge main: canary v1.27.1 + status
-    - feat(madhahib): kutub section + landing copy covers the school mutun
-    - fix(i18n): ur landing card for ansab says بطون
-    - feat(ansab): butun pillar — mutun moved to madhahib kutub, 71 clan records
-    - data(hilyat-awliya): printed notices 498-500 (vol. 10)
-    - feat(ansab): rename المتون pillar to البطون — tribal subdivisions
-    - data(canon): twenty-one missing records and three enrichments (batch 3)
-    - data(canon): refresh importance and register after merging main
-    - content(work): al-dar-al-akhera episode 33 in ar, en, ur
-    - content(canon): finish the Prophet, his family and the Companions (27 records) in three languages
-
-main, since the CUT (not in the branch): 17 commits, 32 files changed
-  files of the course class or the courses surface changed on main: 0 []
-  shared files this mission also edits or builds on, changed on main: ['CANARY.md', 'docs/coverage.md']
-  what those commits were (first 20 subjects):
+    - data(al-manjeyat): episode 23, the favour of hearing (ar, en, ur)
+    - data(al-manjeyat): episode 22, reflecting on God's favours in the body (ar, en, ur)
+    - data(canon): twenty-five missing records (batch 4)
     - data(al-manjeyat): episode 21, generosity and pardon (ar, en, ur)
+    - content(work): ahl-al-hikma episodes 13-16 in ar, en, ur
     - data(hilyat-awliya): printed notices 504-506 (vol. 10)
     - data(al-manjeyat): episode 20, praiseworthy character (ar, en, ur)
     - data(al-manjeyat): episode 19, praiseworthy and blameworthy character (ar, en, ur)
     - docs: regenerate coverage on merged tree
+    - merge: release/uat (courses phase 2) into main; one-branch rule in AGENTS.md
     - content(work): ahl-al-hikma episodes 9-12 in ar, en, ur
+    - data(al-manjeyat): episode 18, the value of time, second recording (ar, en, ur)
+    - data(hilyat-awliya): printed notices 501-503 (vol. 10)
     - docs: regenerate coverage on merged tree
+    - data(al-manjeyat): episode 17, the value of time (ar, en, ur)
     - data(places,sources): iDAI qumm and qafsa; register Papyri.info Tier 2 facts-only
+    - content(work): ahl-al-hikma episodes 5-8 in ar, en, ur
+    - docs(ansab): drop stale memorisation-texts wording from api docs
+    - content(ur): bring 85 Urdu pages level with English and Arabic
+    - docs(ansab): drop stale memorisation-texts wording from api docs
 
-commits on main that this branch does not contain: 17
+main, since the CUT (not in the branch): 4 commits, 15 files changed
+  files of the course class or the courses surface changed on main: 0 []
+  shared files this mission also edits or builds on, changed on main: ['CANARY.md']
+  what those commits were (first 20 subjects):
+    - data(hilyat-awliya): printed notices 507-508 (vol. 10)
+    - data(al-manjeyat): episode 24, thanking for favours and the body's make-up (ar, en, ur)
+
+commits on main that this branch does not contain: 4
 commits on release/uat that are not on main (the Grand Tour run and the mission's first two phase merges): 0
 Grand Tour files this branch adds or changes relative to the CUT: none
   [PASS] nothing main changed since the BASELINE touches the course class or the courses surface, other than this mission's own commits
   [PASS] the branch adds or changes nothing of the Grand Tour run (main's own copy is untouched)
-  [PASS] the branch contains main as of the oracle run, or the commits it lacks touch nothing of the courses surface — 17 commits behind
+  [PASS] the branch contains main as of the oracle run, or the commits it lacks touch nothing of the courses surface — 4 commits behind
 ```
 
 <!-- CONCURRENCY:END -->
@@ -150,7 +144,7 @@ No verifier has seen the Urdu pages or the homepage section.
 ## What is not green, and why
 
 - **Statements 4 and 5.** Green for every course made by the pipeline; not green for the original pilot, where 3 of 15 connections point at stubs. The pilot was measured and left for the founder.
-- **Statement 8.** The validator does not print `0 errors`. Of 69 errors on the merged branch, 26 were this work's (un-isolated Arabic-script parentheses in course summaries) and were corrected in the following commit; 43 are in records outside this work, and `main` failed this gate at the baseline too. Cite-check prints `0 fail` over all 643 course records.
+- **Statement 8.** The validator does not print `0 errors`. Of 69 errors on the merged branch, 26 were this work's (un-isolated Arabic-script parentheses in course summaries) and were corrected in the following commit, after which the validator was not re-run to completion; 43 are in records outside this work, and `main` failed this gate at the baseline too. Cite-check prints `0 fail` over all 643 course records.
 - **Statement 11**, as first written, said Urdu was untouched. The user widened the boundary (Urdu; a homepage section; an explorer card) and the oracle checks the widened boundary.
 - **Not run on the final branch:** the full site build, and CI, on the user's instruction not to wait for them; `o03` and `o10` (taps, no-script) and the vision pass, whose rows are from the Arabic and English surface before Urdu was added.
 
