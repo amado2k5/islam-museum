@@ -902,3 +902,20 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 676 (printed) | 395 | the reports on 'Aisha | quoted reports with the Prophet's formula | described only |
 | 676 (printed) | 395 | the report from Mutarrif | legible; no formula | given in prose |
+
+## Batch 99 (run microsd-books-b99, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 396 (full text read before writing). New draft: person/ahmad-ibn-muhammad-ibn-ishaq-abu-uthman (printed 677, sequence 678, 10/396). No existing record of the name.
+- Relation noted in prose only: the notice calls him son-in-law of Ibn Raja' ibn Suhayb, i.e. Raja' ibn Suhayb of printed 670 (person/raja-ibn-suhayb). No relation field is added.
+- The father's name in the body reads "صبيب" in the scan; "صهيب" is preferred from the Raja' notice, flagged as not confirmed.
+- The hadith from 'Aisha carries the Prophet's formula; described, not quoted.
+- Printed 678 (Musa al-Khazzaz, Abu Abd al-Rahman, on 396) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 99)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 677 (printed) | 396 | the father's name in the body "صبيب" | the heading and the Raja' notice read "صهيب" | "صهيب" preferred; flagged |
+| 677 (printed) | 396 | the 'Aisha report | a quoted report with the Prophet's formula | described only |
+| 677 (printed) | 396 | "والسكرم عنه مأ أور" | garbled in the scan | read as the generosity is reported |
