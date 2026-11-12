@@ -101,3 +101,6 @@
 
 ## Batch 22 (run microsd-books-b30, Claude Code / claude-fable-5-2)
 - Pages read: vol. 10 pp. 51–55. Enriched `person/yahya-ibn-muadh-al-razi` (463, to 10/55); Hilyat source added to the record's sources. Notice continues from 10/56.
+
+## Batch 23 (run microsd-books-b31, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 56–61. Enriched `person/yahya-ibn-muadh-al-razi` (463, to 10/61). Notice continues from 10/62 to about 72.
