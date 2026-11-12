@@ -1,0 +1,37 @@
+id: person/hasanak
+class: person
+label: { ar: "حسنك الوزير", en: "Hasanak", ur: "حسنک" }
+names:
+  - { value: "Abu Ali Hasan ibn Muhammad ibn Abbas", kind: full }
+  - { value: "أبو علي حسن بن محمد بن عباس", kind: full }
+  - { value: "Hasanak the vizier", kind: alternate }
+summary:
+  ar: "حسنك، واسمه أبو علي حسن بن محمد بن عباس، آخر وزراء السلطان محمود الغزنوي. تولى ولاية خراسان صغير السن، وحجّ سنة 414هـ/1023م وقبل في عودته من القاهرة خلعة من الخليفة الفاطمي الظاهر، فاشتُبه عند الخليفة العباسي القادر في ميله إلى الفاطميين. عيّنه محمود وزيراً سنة 415هـ/1024م، وبعد وفاة محمود سنة 421هـ/1030م نُفي إلى هراة ثم حوكم واختُنق سنة 423هـ/1032م {cite:encyclopaedia-of-islam-2 vol. 3 p. 275} {cite:encyclopaedia-of-islam-2 vol. 3 p. 276}."
+  en: "Hasanak, properly Abu Ali Hasan ibn Muhammad ibn Abbas, was the last vizier of Sultan Mahmud of Ghazna. Made governor of Khurasan at an early age, he went on pilgrimage in 414/1023 and on the way home accepted a robe of honour in Cairo from the Fatimid caliph al-Zahir, which made the Abbasid caliph al-Qadir suspect him of Fatimid sympathies. Mahmud appointed him vizier in 415/1024; after Mahmud's death in 421/1030 he was banished to Herat, tried, and strangled in 423/1032 {cite:encyclopaedia-of-islam-2 vol. 3 p. 275} {cite:encyclopaedia-of-islam-2 vol. 3 p. 276}."
+  ur: "حسنک، جن کا پورا نام ابو علی حسن بن محمد بن عباس تھا، سلطان محمود غزنوی کے آخری وزیر تھے۔ وہ کم عمری میں خراسان کے گورنر بنے، 414ھ/1023ء میں حج کو گئے اور واپسی پر قاہرہ میں فاطمی خلیفہ الظاہر سے خلعت قبول کر لی، جس سے عباسی خلیفہ القادر کو ان کے فاطمیوں کی طرف مائل ہونے کا شبہ ہوا۔ محمود نے 415ھ/1024ء میں انہیں وزیر بنایا؛ محمود کی وفات 421ھ/1030ء کے بعد انہیں ہرات جلا وطن کیا گیا، مقدمہ چلا اور 423ھ/1032ء میں گلا گھونٹ کر ہلاک کیا گیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 275} {cite:encyclopaedia-of-islam-2 vol. 3 p. 276}."
+gender: male
+roles: [vizier, politician]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+died: { edtf: "1032", hijri: "0423", calendar: julian, precision: year, status: tradition, derived: true, note: "EI2 gives 28 Safar 423 and itself remarks that the equivalent it names, 14 February 1032, fell on a Monday, not the Wednesday it reports; the Gregorian conversion is therefore derived and approximate. {cite:encyclopaedia-of-islam-2 vol. 3 p. 276}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: related_to, target: person/mahmud-ghaznawi, note: "Vizier of Mahmud of Ghazna from 415/1024 until Mahmud's death.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-qadir-billah, note: "The Abbasid caliph suspected him of being a Qarmati and again pressed for his trial.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-zahir-fatimid, note: "Accepted a robe of honour from him in Cairo in 414/1023 on his way home from pilgrimage.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/masud-ibn-mahmud, note: "Accused of offending Mas'ud; EI2 says he seems to have favoured the line of Mas'ud's brother Muhammad.", sources: [source/encyclopaedia-of-islam-2] }
+aliases: ["Hasanak the vizier", "Abu Ali Hasan ibn Muhammad ibn Abbas"]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article Hasanak (B. Spuler)"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-1
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 3, article Hasanak (B. Spuler), OCR pages 275-276"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "حسنك كان وزير السلطان محمود الغزنوي، وانتهت حياته بمحاكمة في صراع على الحكم."
+  en: "Hasanak was the chief minister of Sultan Mahmud of Ghazna, and his life ended in a trial during a struggle over who would rule."
+  ur: "حسنک سلطان محمود غزنوی کے وزیر تھے اور حکومت کی کشمکش میں ایک مقدمے کے بعد ان کی زندگی کا خاتمہ ہوا۔"

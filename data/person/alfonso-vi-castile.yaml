@@ -1,0 +1,42 @@
+id: person/alfonso-vi-castile
+class: person
+label: { ar: "ألفونسو السادس ملك قشتالة وليون", en: "Alfonso VI of León and Castile", ur: "الفونسو ششم، شاہ لیون و قشتالہ" }
+names:
+  - { value: "أدفنش", kind: alternate, lang: ar }
+  - { value: "ألفونسو السادس", kind: regnal, lang: ar }
+  - { value: "Alfonso VI", kind: regnal, lang: en }
+  - { value: "Alphonso VI", kind: alternate, lang: en }
+  - { value: "Alphonse VI", kind: alternate, lang: en }
+summary:
+  ar: "ألفونسو السادس ملك قشتالة وليون، دخل طليطلة في 27 محرم 478هـ/25 مايو 1085م بعد معاهدة مع القادر بن ذي النون، وكان قبل ذلك يفرض الجزية على ملوك الطوائف ومنهم المعتمد بن عباد، وقد وصل في غارته على إشبيلية إلى طريف. استنجد ملوك الأندلس بيوسف بن تاشفين فهزمه في الزلاقة يوم الجمعة 12 رجب 479هـ/23 أكتوبر 1086م، وتصفه دائرة المعارف الإسلامية بأنه حريص على القتال في تلك المعركة {cite:encyclopaedia-of-islam-2 vol. 10 p. 656} {cite:encyclopaedia-of-islam-2 vol. 7 p. 821} {cite:encyclopaedia-of-islam-2 vol. 11 p. 444}."
+  en: "Alfonso VI, king of León and Castile, entered Toledo on 27 Muharram 478/25 May 1085 after a treaty with al-Qadir ibn Dhi al-Nun. Before that he had levied tribute on the taifa kings, among them al-Mu'tamid ibn Abbad, and in a raid on the kingdom of Seville he reached Tarifa. The Andalusian rulers called on Yusuf ibn Tashfin, who defeated him at al-Zallaqa on Friday 12 Rajab 479/23 October 1086; the Encyclopaedia of Islam describes him as eager to give battle there {cite:encyclopaedia-of-islam-2 vol. 10 p. 656} {cite:encyclopaedia-of-islam-2 vol. 7 p. 821} {cite:encyclopaedia-of-islam-2 vol. 11 p. 444}."
+  ur: "الفونسو ششم، شاہ لیون و قشتالہ، 27 محرم 478ھ/25 مئی 1085ء کو القادر بن ذی النون سے معاہدے کے بعد طلیطلہ میں داخل ہوئے۔ اس سے پہلے وہ ملوک الطوائف، جن میں المعتمد بن عباد بھی تھے، پر خراج لگاتے رہے اور اشبیلیہ کی مملکت پر ایک چڑھائی میں طریف تک پہنچ گئے۔ اندلس کے حکمرانوں نے یوسف بن تاشفین کو بلایا جنہوں نے جمعہ 12 رجب 479ھ/23 اکتوبر 1086ء کو زلاقہ میں انہیں شکست دی؛ دائرۃ المعارف الاسلامیہ بتاتا ہے کہ اس معرکے میں وہ لڑنے کے لیے بے تاب تھے {cite:encyclopaedia-of-islam-2 vol. 10 p. 656} {cite:encyclopaedia-of-islam-2 vol. 7 p. 821} {cite:encyclopaedia-of-islam-2 vol. 11 p. 444}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+born: { edtf: "1040-06", calendar: gregorian, precision: month, status: tradition, derived: false, note: "Wikidata Q235080 (read 12 November 2026) gives June 1040; the Encyclopaedia of Islam articles read give no birth date." }
+died: { edtf: "1109-07-01", hijri: "0502", calendar: gregorian, precision: day, status: tradition, derived: true, note: "Wikidata Q235080 (read 12 November 2026) gives 1 July 1109 and, in a second statement, 30 June 1109 marked estimated; the Hijri year is derived. The Encyclopaedia of Islam articles read do not give his death date." }
+relations:
+  - { type: ruler_of, target: polity/castile, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: ruler_of, target: polity/kingdom-of-leon, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: ruled_over, target: place/tulaytula, note: "Entered Toledo on 25 May 1085 {cite:encyclopaedia-of-islam-2 vol. 10 p. 656}", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/fall-of-toledo-478, role: "ملك قشتالة الذي دخل طليطلة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/zallaqa-504, role: "القائد المهزوم", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: fought, target: person/yusuf-ibn-tashfin, sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed.: art. al-Mu'tamid ibn Abbad, Abbadids, Tulaytula, Dhu 'l-Nunids, Hudids, Ibn Ammar, al-Sid, al-Murabitun, al-Zallaka, Mozarab"
+  generated_by: "Claude Sonnet 5.5"
+  model: "claude-sonnet-5-5"
+  run: canon-missing-1
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 7 art. al-Mu'tamid ibn Abbad (PDF pp. 820-821); vol. 10 art. Tulaytula (PDF p. 656); vol. 11 art. al-Zallaka (PDF p. 444); vol. 9 art. al-Sid (PDF pp. 548-549); vol. 2 art. Dhu 'l-Nunids (PDF p. 257); vol. 3 art. Hudids (PDF p. 574); no dedicated article exists"
+sources: [source/encyclopaedia-of-islam-2]
+external_ids: { wikidata: Q235080 }
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "ألفونسو السادس ملك نصراني من شمال إسبانيا، أخذ مدينة طليطلة سنة 1085م ثم هزمه المرابطون في معركة الزلاقة."
+  en: "Alfonso VI was a Christian king from northern Spain who took the city of Toledo in 1085 and was then defeated by the Almoravids at the Battle of al-Zallaqa."
+  ur: "الفونسو ششم شمالی ہسپانیہ کے ایک عیسائی بادشاہ تھے جنہوں نے 1085ء میں طلیطلہ شہر لیا اور پھر زلاقہ کی جنگ میں مرابطین کے ہاتھوں شکست کھائی۔"

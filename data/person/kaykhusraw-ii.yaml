@@ -1,0 +1,36 @@
+id: person/kaykhusraw-ii
+class: person
+label: { ar: "غياث الدين كيخسرو الثاني", en: "Kaykhusraw II", ur: "غیاث الدین کیخسرو دوم" }
+names:
+  - { kind: full, lang: ar, value: "غياث الدين كيخسرو بن كيقباد" }
+aliases: [Ghiyath al-Din Kaykhusraw II, Kay Khusraw II, Keyhüsrev II]
+summary:
+  ar: "كيخسرو الثاني سلطان سلاجقة الروم، خلف أباه علاء الدين كيقباد الأول سنة 634هـ/1237م، وانتهى حكمه بهزيمته أمام المغول في كوسه داغ بين أرزنجان وسيواس يوم 6 محرم 641هـ/26 يونيو 1243م، فتحولت السلطنة بعدها إلى التبعية للمغول. توفي في شتاء 1245-1246م وهو في نحو الأربعين، وترك أبناء قاصرين {cite:encyclopaedia-of-islam-2 vol. 4 p. 854-855}."
+  en: "Kaykhusraw II was the Seljuk sultan of Rum who succeeded his father Kaykubad I in 634/1237. His reign ended in catastrophe when the Mongols defeated him at Köse Dagh, between Erzincan and Sivas, on 6 Muharram 641/26 June 1243, and the sultanate never recovered its independence. He died in the winter of 1245-6, about forty years old, leaving only minor sons {cite:encyclopaedia-of-islam-2 vol. 4 p. 854-855}."
+  ur: "کیخسرو دوم سلجوقیانِ روم کا سلطان تھا جو اپنے والد کیقباد اول کی جگہ 634ھ/1237ء میں تخت نشین ہوا۔ 6 محرم 641ھ/26 جون 1243ء کو ارزنجان اور سیواس کے درمیان کوسہ داغ میں منگولوں کے ہاتھوں شکست کھانے سے اس کا دور تباہی پر ختم ہوا اور سلطنت پھر کبھی اپنی خودمختاری بحال نہ کر سکی۔ وہ سردیوں 1245-1246ء میں تقریباً چالیس سال کی عمر میں فوت ہوا اور صرف کم سن بیٹے چھوڑ گیا {cite:encyclopaedia-of-islam-2 vol. 4 p. 854-855}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+born: { edtf: "1206~", precision: year, status: tradition, derived: true, note: "Derived from the statement that he died about forty years old {cite:encyclopaedia-of-islam-2 vol. 4 p. 855}." }
+died: { edtf: "1245/1246", precision: year, status: tradition, derived: true, note: "Winter 1245-6 per the Encyclopaedia of Islam {cite:encyclopaedia-of-islam-2 vol. 4 p. 855}; the article gives no Hijri year or place." }
+relations:
+  - { type: child_of, target: person/kayqubad-i, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/kayqubad-i, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: ruler_of, target: polity/rum-seljuk-sultanate, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/battle-of-kose-dag-641, role: "Seljuk sultan, defeated", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., vol. 4, article Kaykhusraw (Cl. Cahen), PDF pages 854-855"
+  generated_by: "Claude Sonnet 5.5"
+  model: "claude-sonnet-5-5"
+  run: canon-missing-1
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 4, article Kaykhusraw II, PDF pages 854-855 (Kaykubad article p. 855-856 for the accession at Kaykubadiyya)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "كيخسرو الثاني كان سلطانًا على بلاد الروم السلجوقية، وفي أيامه جاء جيش المغول فهزمه في معركة كبيرة."
+  en: "Kaykhusraw II was a Seljuk sultan in Anatolia, and in his day a great Mongol army came and defeated him in a big battle."
+  ur: "کیخسرو دوم اناطولیہ کا سلجوقی سلطان تھا، اور اس کے زمانے میں منگولوں کا بڑا لشکر آیا اور ایک بڑی جنگ میں اسے ہرا دیا۔"

@@ -1,0 +1,35 @@
+id: person/burhan-al-din-muhaqqiq
+class: person
+label: { ar: "برهان الدين محقق الترمذي", en: "Burhan al-Din Muhaqqiq al-Tirmidhi", ur: "برہان الدین محقق ترمذی" }
+aliases: ["Sayyid Burhan al-Din Muhaqqiq", "Sayyid Burhan al-Din al-Husayn Muhaqqiq", "Sayyid Sirdan", "Sayyid Husayn", "السيد برهان الدين محقق", "سيد برهان الدين ترمذي"]
+summary:
+  ar: "السيد برهان الدين حسين المحقق الترمذي صوفي من أصل ترمذ على نهر جيحون، تلميذ بهاء الدين ولد وخليفته، ثم المرشد الروحي لجلال الدين الرومي في قونية، وكان الرومي يتتلمذ عليه نحو تسع سنوات. استقر بعد ذلك في قيصرية، وتتردد وفاته بين سنة 637هـ وسنة 638هـ، وتنسب إليه مقالات فارسية كبيرة تعكس سعة علمه {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}."
+  en: "Sayyid Burhan al-Din al-Husayn Muhaqqiq al-Tirmidhi was a Sufi from Tirmidh on the Oxus, a disciple and then successor of Baha al-Din Walad, and later the spiritual master of Jalal al-Din Rumi at Konya, where Rumi studied under him for about nine years. He then settled at Kayseri; his death is placed in 637 or 638 AH, and a large Persian collection of discourses is attributed to him {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}."
+  ur: "سید برہان الدین حسین محقق ترمذی دریائے آمو کے کنارے ترمذ سے تعلق رکھنے والے صوفی تھے، بہاء الدین ولد کے شاگرد اور جانشین، اور بعد میں قونیہ میں جلال الدین رومی کے روحانی مرشد، جن کے ہاں رومی نے تقریباً نو برس تعلیم پائی۔ اس کے بعد وہ قیصریہ میں رہے؛ ان کی وفات 637ھ یا 638ھ بتائی جاتی ہے اور ان سے فارسی مقالات کا ایک بڑا مجموعہ منسوب ہے {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}."
+gender: male
+roles: [mystic, teacher]
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia, anatolia-balkans]
+died: { edtf: "1240~", hijri: "0638", calendar: julian, precision: year, status: disputed, derived: true, note: "EI2 vol. 10 says he may have died in 638/1240; the Rumi article in vol. 2 says probably 637/1239-40 {cite:encyclopaedia-of-islam-2 vol. 2 p. 419}." }
+relations:
+  - { type: student_of, target: person/baha-al-din-walad, role: "تلميذ وخليفة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: influenced, target: person/jalal-al-din-rumi, note: "Spiritual master of Rumi at Konya, per EI2.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/tirmidh, note: "Originally from Tirmidh, where he already had a circle of disciples.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/kayseri, note: "Settled there; said to have died there.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: buried_in, target: place/kayseri, confidence: medium, note: "Jami places the grave at Kayseri; a tomb traditionally attributed to him also exists at Konya.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., local OCR"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-1
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 10, article Tirmidhi, Sayyid Burhan al-Din, pp. 579-580; vol. 2, article Djalal al-Din Rumi, pp. 418-419"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "برهان الدين كان معلّم الرومي الروحي، علّمه الطريق إلى الله قبل أن يصير شاعراً مشهوراً."
+  en: "Burhan al-Din was the spiritual teacher of Rumi, who guided him on the path of the heart before he became a famous poet."
+  ur: "برہان الدین رومی کے روحانی استاد تھے، جنہوں نے رومی کے مشہور شاعر بننے سے پہلے انہیں دل کے راستے کی تعلیم دی۔"
