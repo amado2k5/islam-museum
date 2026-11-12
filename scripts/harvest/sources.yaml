@@ -1147,6 +1147,17 @@ sources:
       robots_txt: none found (404) on the LMU host
       note: '13,586 documents, 4,476 full texts, 7,015 typed — pre-modern Arabic documentary evidence for Fustat and early Islamic Egypt; Trismegistos partner; cite {cite:apd <document-id>}'
     status: enabled
+  papyri-info:
+    name: Papyri.info (Duke Databank of Documentary Papyri and Heidelberg HGV metadata)
+    url: https://papyri.info
+    licence: Creative Commons Attribution 3.0 stated in the public data repository README (github.com/papyri/idp.data, read 11 Nov 2026); {cite:papyri-info <ddb-id>} is the attribution; edition text and translations never republished
+    layer: by
+    method: public EpiDoc XML data repository only (DDbDP/ and HGV_meta_EpiDoc/, raw.githubusercontent.com); the live site answers scripts with a bot challenge and is never read by script
+    limits:
+      pause_seconds: 2
+      robots_txt: 'live site: Disallow /editor/ only (read 11 Nov 2026); data repository: not applicable'
+      note: 'documentary Greek and Coptic papyri from Egypt, first Islamic century onward; cite document facts (type, date, provenance with HGV certainty, parties) by DDbDP hybrid id; registered by dec-20261112-266'
+    status: enabled
   princeton-geniza:
     name: Princeton Geniza Project
     url: https://geniza.princeton.edu
