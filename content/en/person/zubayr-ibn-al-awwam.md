@@ -1,8 +1,8 @@
 ---
 id: person/zubayr-ibn-al-awwam
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Summary
@@ -13,6 +13,41 @@ He was one of the two horsemen of the Muslim army; the Muslims had only two hors
 
 ## After Badr
 In the Sunni narration he is one of the ten given the glad tidings of Paradise. He was killed in 36 AH after leaving the Battle of the Camel {cite:tabaqat-ibn-sad}.
+
+## In the Encyclopaedia of Islam: name and family
+The Encyclopaedia of Islam entry calls al-Zubayr ibn al-Awwam ibn Khuwaylid, Abu Abd Allah al-Qurashi al-Asadi, one of the most eminent Companions. He bore the byname hawari, "disciple", of the Messenger of God. Sunni tradition counts him among [[concept/ashara-mubashshara|the ten promised Paradise]], and he was one of the members of the shura council appointed by the dying caliph [[person/umar-ibn-al-khattab|Umar]] to choose his successor. The article gives two explanations of his name, one from the lining of a well with stones and one meaning a strong man. {cite:encyclopaedia-of-islam-2 vol. 11 p. 578}
+
+His mother was [[person/safiyya-bint-abd-al-muttalib|Safiyya]], the Prophet's aunt, so that he was a cousin of [[person/muhammad|Muhammad]] and a nephew of [[person/khadija|Khadija]]. One report says that he, [[person/talha-ibn-ubaydullah|Talha]], [[person/ali-ibn-abi-talib|Ali]] and [[person/saad-ibn-abi-waqqas|Sa'd ibn Abi Waqqas]] were born in the same year. His father al-Awwam died while he was very young, and his uncle Nawfal ibn Khuwaylid took him into his care. {cite:encyclopaedia-of-islam-2 vol. 11 p. 578}
+
+## Conversion and the early years
+The article places him among the earliest converts, some saying the fourth or fifth man to accept the new religion. Reports disagree about his age. The best known says sixteen. Ibn Ishaq, it notes, has [[person/abu-bakr|Abu Bakr]] persuading him, with four other future members of the shura. The version of the Zubayris, his descendants, says he was eight when he followed Muhammad, that at twelve he drew his sword to protect him, and that he was the first to draw a sword in the way of God; a further report has him converting together with Ali. The article reads these differences as the result of debates in Muslim society about precedence in accepting Islam. {cite:encyclopaedia-of-islam-2 vol. 11 p. 578}
+
+He took part in the first emigration and came back with the first group to Mecca when rumours spread that the Meccans had been reconciled with Muhammad. Later he migrated from [[place/mecca|Mecca]] to [[place/medina|Medina]] with his mother. In the pairing of Emigrants and Helpers he was probably matched with Salama ibn Salama ibn Waqsh or with the poet Ka'b ibn Malik; earlier, in Mecca, he had been paired with [[person/abdullah-ibn-masud|Abd Allah ibn Mas'ud]]. {cite:encyclopaedia-of-islam-2 vol. 11 p. 578}
+
+## Campaigns in the Prophet's lifetime and after
+The article says he took part in most of the early battles. At [[event/battle-of-badr|Badr]] he was one of the two horsemen of the Muslim army; the Zubayris relate that Gabriel and the angels present wore yellow turbans like his. At [[event/battle-of-uhud|Uhud]] the Prophet is said to have admired his valour. At the [[event/battle-of-the-trench|Trench]] he was sent to spy on the [[group/banu-qurayza|Banu Qurayza]], and the article gives the saying that every prophet has a disciple and that his is al-Zubayr, citing al-Waqidi. After the Trench the article, citing al-Waqidi and al-Tabari, says that he and Ali carried out the killing of Banu Qurayza, the sentence having been pronounced by Sa'd ibn Mu'adh and approved by Muhammad. {cite:encyclopaedia-of-islam-2 vol. 11 p. 578}
+
+At [[event/battle-of-khaybar|Khaybar]] he distinguished himself more than any warrior except Ali. During the [[event/conquest-of-mecca|conquest of Mecca]] he commanded the left wing, and at [[event/expedition-to-tabuk|Tabuk]] he carried the Prophet's greatest banner. After Muhammad's death he fought at [[event/battle-of-yarmuk|al-Yarmuk]], and Umar sent him with four thousand reinforcements to support [[person/amr-ibn-al-as|Amr ibn al-As]] in the [[event/conquest-of-egypt|conquest of Egypt]]. A late report says he served for a time as the Prophet's secretary in recording the income from alms. {cite:encyclopaedia-of-islam-2 vol. 11 p. 578} {cite:encyclopaedia-of-islam-2 vol. 11 p. 579}
+
+## Courage and the Battle of the Camel
+Sources call him the bravest man of Quraysh, or simply the bravest man. The article adds that in a dispute over claims to nobility [[person/abdullah-ibn-abbas|Ibn Abbas]] is reported to have charged him with cowardice at the [[event/battle-of-the-camel|Battle of the Camel]], and that a pro-Alid tradition seeks to correct that impression. {cite:encyclopaedia-of-islam-2 vol. 11 p. 579}
+
+The article's account of the road to the battle runs as follows. Al-Zubayr, Talha and Ali are said to have encouraged the agitation against [[person/uthman-ibn-affan|Uthman]] in secret, each for his own reasons, and when they felt they had lost control they tried to prevent the caliph's murder and sent their children to protect him. After the murder and Ali's proclamation as caliph, al-Zubayr and Talha joined [[person/aisha|Aisha]] against Ali, declared that Uthman had been killed unjustly and held the new caliph responsible. They reached [[place/basra|Basra]], raised an army and forced Ali to fight. The battle took place near Basra in Jumada I 36, November 656. Al-Zubayr was killed and was probably buried in Wadi al-Siba', now called Baldat al-Zubayr, near Basra. Reports give his age at death variously. {cite:encyclopaedia-of-islam-2 vol. 11 p. 579}
+
+## How the different traditions judge him
+Sunni position. The article says that Sunni writers answer the criticism of al-Zubayr and other Companions by listing their virtues and by reconciling the Prophet's promise of Paradise to the ten with the hadith that warns Muslims who fight one another. In this view al-Zubayr and his partners are mujtahids, scholars striving to find what God wished, and the leaders of both camps fought in good faith and not for worldly gain. They are therefore rewarded, citing a saying that whoever strives and errs is rewarded once and whoever strives and is right is rewarded twice. To show his piety, Ibn Asakir reports that he had a thousand slaves who paid him a due, that he gave it all to the poor, and that he stopped drawing his allowance from the register after Umar's murder. {cite:encyclopaedia-of-islam-2 vol. 11 p. 579}
+
+Shi'i position. The article says that al-Zubayr, like other Companions who opposed Ali, was attacked in Shi'i literature, which includes the genre of cursing the Companions, and that Shi'i tradition names the leaders of the Camel camp with an epithet meaning those who broke their compact. Abu Mikhnaf is cited for the claim that al-Zubayr was the first leader to kill Muslim captives in cold blood. The article adds that the attacks on him are moderate compared with those on Talha, Aisha, Abu Bakr and Umar, and that favourable points are mentioned: that he supported Ali, with Banu Hashim and most of the Helpers, when Abu Bakr was chosen, and that, despite the urging of his son, he did not fight after meeting Ali. {cite:encyclopaedia-of-islam-2 vol. 11 p. 579}
+
+Academic reading. The article's author proposes that the real reason for his conduct was disappointment at falling behind Talha in the claims to the caliphate, since Aisha inclined to appoint Talha, and that al-Zubayr judged he had no chance of being elected even if his side won. This is the author's interpretation, offered beside the accounts above, and the article does not present it as settled. {cite:encyclopaedia-of-islam-2 vol. 11 p. 579}
+
+## Wealth
+After the migration al-Zubayr became one of the wealthiest Companions. The article lists al-Ghaba near Medina, al-Salila in al-Rabadha, a house and a mosque bearing his name in the market of al-Fustat, and estates in Alexandria and Kufa. Some land in Arabia was granted by the Prophet and some, especially in Iraq, by Uthman. His estate in the quarter of Banu Sulaym in Basra was vast, with markets and stores, and he is reported to have sold one house for 600,000 dirhams. One of his wives was [[person/asma-bint-abi-bakr|Asma]], daughter of Abu Bakr, known as "she of the two girdles". {cite:encyclopaedia-of-islam-2 vol. 11 p. 579}
+
+## In the hadith and his descendants
+Most hadith collections give a section to his merits, among them those of al-Bukhari, Muslim, al-Tirmidhi and Ibn Maja. He and [[person/abd-al-rahman-ibn-awf|Abd al-Rahman ibn Awf]] are said to have been allowed to wear silk because they suffered from lice or scabies. Very few traditions are attributed to him; the Zubayri transmitters explain this by his own statement that he feared misattributing words to the Prophet. {cite:encyclopaedia-of-islam-2 vol. 11 p. 579}
+
+Al-Mus'ab al-Zubayri, who died in 236/851, names ten sons and several daughters. The best known are [[person/abdullah-ibn-al-zubayr|Abd Allah]], the first child born to the Muslim community in Medina, [[person/urwa-ibn-al-zubayr|Urwa]], Hamza and [[person/musab-ibn-al-zubayr|Mus'ab]]. A later descendant, [[person/al-zubayr-ibn-bakkar|al-Zubayr ibn Bakkar]], who died in 256/870, devoted the surviving part of his genealogical work on Quraysh to al-Zubayr's offspring. Al-Zubayr is said to have named his sons after martyrs, hoping that they would die in the service of Islam. {cite:encyclopaedia-of-islam-2 vol. 11 p. 579} {cite:encyclopaedia-of-islam-2 vol. 11 p. 580}
 
 ## In the secret call (The Sealed Nectar, p.76)
 The book counts him among those who embraced Islam through the call of [[person/abu-bakr|Abu Bakr]] during the years of the [[event/al-dawa-al-sirriyya|secret call]]. He was one of the eight who came before the people and formed the first rank and vanguard of Islam {cite:mubarakpuri-raheeq p.76} {cite:ibn-hisham-sira 1/245-262}. The book names him with his Asadi lineage {cite:mubarakpuri-raheeq p.76}.

@@ -1,8 +1,8 @@
 ---
 id: person/hasan-ibn-ali
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Brief
@@ -13,11 +13,79 @@ He was born in Medina in the middle of 625 CE {cite:ibn-sad-tabaqat-bewley}. He 
 
 When Ali was assassinated in January 661 CE, the people of Kufa pledged allegiance to Hasan. Facing Mu'awiya's Syrian army, which was stronger, and reports of defections in his own camp, he negotiated a concession that year, which included an amnesty. Some accounts also mention a condition that Mu'awiya should not appoint anyone to succeed him {cite:madelung-1997}. He then withdrew to Medina, where he died around 670 CE. It is widely said that he was poisoned, but historians regard this as unestablished {cite:madelung-1997}.
 
+## Birth and childhood in the Encyclopaedia of Islam
+The Encyclopaedia of Islam, second edition, presents al-Hasan as the son of [[person/ali-ibn-abi-talib|Ali]] and [[person/fatima|Fatima]], a claimant to the caliphate until he renounced it in favour of [[person/muawiya-ibn-abi-sufyan|Muawiya]], and, in Shi'i eyes, the second imam. It dates his birth to 3 AH, in 624 or 625 CE, with the month uncertain and mid-Ramadan a possibility, and says that [[person/muhammad|Muhammad]] gave him the name al-Hasan when his father had wanted to call him Harb {cite:encyclopaedia-of-islam-2 vol. 3 p. 260}.
+
+He lived with the Prophet for only seven years, yet later recalled some of his words and acts. The article gives the example of the Prophet throwing back into the heap of charity dates one that al-Hasan had put into his mouth, since he would not eat anything from the charity {cite:encyclopaedia-of-islam-2 vol. 3 p. 260}. It adds that traditions, including those kept in Sunni collections, report phrases the Prophet used about his grandchildren and affectionate anecdotes, such as his coming down from the pulpit to lift al-Hasan after he stumbled and fell, and his letting the children climb on his back while he prayed {cite:encyclopaedia-of-islam-2 vol. 3 p. 260}.
+
+Two further reports carry weight for Shi'i argument, in the article's account: the saying that the two brothers will be masters of the young in Paradise, which Marwan ibn al-Hakam is said to have contested, and the Prophet's drawing them, with their father and mother, under his mantle and declaring them People of the House free of impurity. The article refers readers to its entries on the People of the Mantle and on Fatima for this {cite:encyclopaedia-of-islam-2 vol. 3 p. 260}.
+
+## Under the first caliphs and under Ali
+After the death of his grandfather, soon followed by that of his mother, al-Hasan and his brother [[person/husayn-ibn-ali|al-Husayn]] took no part in the major events of the caliphates of [[person/abu-bakr|Abu Bakr]], [[person/umar-ibn-al-khattab|Umar]] and [[person/uthman-ibn-affan|Uthman]]. One source says they lived in obedience to their father, and the article judges that even where they followed him in some demonstrations against Uthman they were passive, being very young {cite:encyclopaedia-of-islam-2 vol. 3 p. 260}.
+
+Their names appear in the siege of Uthman's house. According to several traditions Ali sent them to carry water to the caliph and told them to defend him as the danger grew. When al-Hasan entered the house the killing had already happened, but he saw that [[person/muhammad-ibn-abi-bakr|Muhammad ibn Abi Bakr]] had had a part in it, and from then on called him al-Fasiq, the transgressor {cite:encyclopaedia-of-islam-2 vol. 3 p. 260} {cite:encyclopaedia-of-islam-2 vol. 3 p. 261}.
+
+When Ali became caliph and [[person/talha-ibn-ubaydullah|Talha]], [[person/zubayr-ibn-al-awwam|al-Zubayr]] and [[person/aisha|Aisha]] rebelled, al-Hasan was sent with [[person/ammar-ibn-yasir|Ammar ibn Yasir]] to Kufa to win its people to his father's side and bring reinforcements. Later, in the campaign against Muawiya, he took part in the battle of [[event/battle-of-siffin|Siffin]] {cite:encyclopaedia-of-islam-2 vol. 3 p. 261}.
+
+## Allegiance after Ali
+After Ali was killed, [[person/ubaydallah-ibn-abbas|Ubayd Allah ibn Abbas]] invited the people to nominate al-Hasan, since Ali had not ventured to advise on the succession. Al-Hasan made a speech, reported in many texts, praising the merits of his family, his father and himself, and stressing his closeness to the Prophet. [[person/qays-ibn-sad|Qays ibn Sad]] was the first to pledge allegiance, and tried to attach a condition: that the pledge be on the Book of God, the Sunna of the Prophet and war against those who treat the forbidden as lawful. Al-Hasan avoided the commitment by saying the last clause was included in the first, according to al-Tabari {cite:encyclopaedia-of-islam-2 vol. 3 p. 261}.
+
+Al-Baladhuri, the article says, reports an oath to make war on those at war with al-Hasan and live in peace with those at peace with him, a formula that surprised the assembly, who wondered whether he already meant to make peace with Muawiya. The article gives al-Hasan about 40,000 former followers of Ali, whether from attachment to their cause or fear of reprisals. It reads that fear in the fact that Muawiya promised aman, safe-conduct, to all who asked and kept doing so when he entered Iraq {cite:encyclopaedia-of-islam-2 vol. 3 p. 261}.
+
+## The confrontation with Muawiya
+The article warns that, given the method of the early chroniclers, the episodes of the struggle are hard to place in order. It is clear that Muawiya soon made known, by speech and by letter, that he did not recognise al-Hasan's election, and prepared for war, calling up his commanders in Syria, Palestine and Transjordan. Letters, some in verse, passed between al-Hasan and Muawiya, and between Ubayd Allah ibn Abbas and Muawiya, about spies Muawiya had sent to Kufa and Basra. The article treats the polemical correspondence as interesting, if the letters preserved by Abu al-Faraj al-Isfahani are authentic {cite:encyclopaedia-of-islam-2 vol. 3 p. 261}.
+
+When Muawiya's war aims became clearer, he having advanced to Mosul while probably also offering a settlement by letter, al-Hasan had to prepare. His supporters at first did not answer his call, and began to enlist only when [[person/adi-ibn-hatim|Adi ibn Hatim]] urged them. Al-Hasan sent an advance force of 12,000 under Ubayd Allah ibn Abbas, telling him to consult Qays ibn Sad and another commander. The article suggests that his aim may have been to remove Qays, who stood for war to the death, because he already intended to negotiate, and cites al-Tabari as saying so expressly. He himself advanced two or three months after the election {cite:encyclopaedia-of-islam-2 vol. 3 p. 261}.
+
+## Al-Mada'in and the agreement
+At the Sabat of [[place/al-madain|al-Mada'in]] he halted and made a speech that troubled his followers. He said he would hold no rancour against any Muslim and that the reconciliation his men refused was better than the split they wanted. His soldiers asked whether he meant to make peace with Muawiya, and the reaction was violent: one group, evidently those most set on continuing Ali's policy, sacked his tent and took the carpet from under him, and his cloak was nearly torn off. He called on loyal men of Rabia and Hamdan, escaped, and rode away {cite:encyclopaedia-of-islam-2 vol. 3 p. 261}.
+
+At Muzlim Sabat a man of Kharijite opinions, al-Jarrah ibn Sinan al-Asadi, wounded him in the thigh with a dagger, shouting that he had become an unbeliever like his father. Al-Hasan was carried to al-Mada'in and cared for in the governor's house. The article says Muawiya purposely spread news of the attack, which led to desertions. Muawiya reached al-Akhnuniyya, facing the force of Ubayd Allah encamped at Maskin, while his own advance guard neared al-Mada'in {cite:encyclopaedia-of-islam-2 vol. 3 p. 261}. The negotiations, which had probably been opened earlier despite al-Husayn's opposition and continued through envoys, ended in agreement. Al-Hasan's troops did not want to fight, and each day more Iraqis joined Muawiya {cite:encyclopaedia-of-islam-2 vol. 3 p. 261}.
+
+According to the article, while Muawiya halted at al-Akhnuniyya he secretly offered Ubayd Allah ibn Abbas a million dirhams to join him, and Ubayd Allah did so without his troops knowing. The defection split the advance guard, and about 8,000 men are said to have followed their commander. Qays ibn Sad took command of the 4,000 who stayed, and spoke of the choice between obeying a misguided imam and fighting under a leader who was not an imam; the soldiers first preferred to fight but their mood changed, and Qays agreed to lay down arms. Muawiya went on to Kufa, al-Hasan joined him, and declared in the mosque that he renounced the caliphate {cite:encyclopaedia-of-islam-2 vol. 3 p. 262}.
+
+## The terms
+The article says the sources give variants of the terms that cannot be reconciled. Some accounts say Muawiya gave al-Hasan a free hand, and that al-Hasan later regretted not asking for more. The money is given as one million dirhams, possibly yearly and possibly beside a single payment of five million from the treasury of Kufa, plus the revenue of a district in Persia that al-Hasan never collected because the people of Basra claimed it as theirs {cite:encyclopaedia-of-islam-2 vol. 3 p. 261}.
+
+Other conditions are reported in some traditions, which the article suspects were added later to reduce criticism of al-Hasan and show that he had raised problems and held his ground. They are: that power return to al-Hasan after Muawiya's death; that Muawiya name no successor and leave the choice to a council; that he follow the Book of God, the Sunna and the conduct of the righteous caliphs; a general amnesty; two million dirhams for al-Husayn; and preference for the Hashimites, Alids and Abbasids, over the Umayyads in pensions and awards. The article doubts several, noting that a pre-arranged succession had not yet appeared and that the clause on the righteous caliphs, read as Ali's party read it, would imply condemning Uthman's policy {cite:encyclopaedia-of-islam-2 vol. 3 p. 261} {cite:encyclopaedia-of-islam-2 vol. 3 p. 262}.
+
+## Reactions and motives
+The abdication brought reactions. [[person/hujr-ibn-adi|Hujr ibn Adi]] told al-Hasan he would have preferred to hear that he had died before that day, and he or another follower accused him of humiliating the Muslims. Others urged him to reconsider. Some years later Shi'is who met together disapproved that he had not obtained sufficient guarantees, in particular a written undertaking from Muawiya to leave him the caliphate afterwards. To prevent future risings Muawiya moved tribes devoted to the Alids out of Kufa and replaced them with others from Syria, Basra and Mesopotamia {cite:encyclopaedia-of-islam-2 vol. 3 p. 262}.
+
+On motives, the article, by L. Veccia Vaglieri, accepts those named in the sources, love of peace, distaste for politics and its quarrels, and the wish to avoid widespread bloodshed. It adds the author's own judgement that he was probably aware his cause was lost: he may have been short of money if Ali habitually emptied the treasury to share it out, defections had been frequent in his father's last years and increased in his own, and his soldiers had little wish to fight {cite:encyclopaedia-of-islam-2 vol. 3 p. 262}.
+
+## How the abdication is read
+**Sunni position.** The article notes a hadith in al-Bukhari that is offered to show al-Hasan's lack of resistance as a great merit, in which the Prophet is reported to have said that this son of his is a lord through whom God will one day reunite two great factions of Muslims {cite:encyclopaedia-of-islam-2 vol. 3 p. 262}. The existing sections below give the Sunni reading of the year as the year of unity.
+
+**Academic view.** The article says the consequences weighed heavily on the Alids who later claimed the throne, since the argument in polemics against them that they had lost all claim through al-Hasan's renunciation was not easy to rebut {cite:encyclopaedia-of-islam-2 vol. 3 p. 262}.
+
+**Shi'i position.** The article says all Shi'is, whatever their group, have regarded and still regard al-Hasan as their second imam and affirm that his father designated him to succeed as commander of the faithful. The prerogatives they ascribe to him are those of the other imams of their line, so questions such as impeccability and infallibility do not specially concern him. His abdication, much criticised in his own time by many supporters, did not therefore invalidate his imamate, and his conduct is justified as arising from pious detachment from worldly matters {cite:encyclopaedia-of-islam-2 vol. 3 p. 262} {cite:encyclopaedia-of-islam-2 vol. 3 p. 263}.
+
+The article adds that Shi'i texts fill the lack of extraordinary qualities in the historical accounts with many miracle stories, from his birth and childhood onward, and that Shi'is hold that Muawiya tried to poison him many times and failed. It also says the Shi'is place him, with Muhammad, Ali, Fatima and al-Husayn, in the sacred group of five who share certain prerogatives, and that al-Hasan is one of the principal characters of the Persian religious dramas called taziya {cite:encyclopaedia-of-islam-2 vol. 3 p. 263}.
+
+## Return to Medina, death and burial
+On the journey back to Medina, at al-Qadisiyya, al-Hasan received a letter from Muawiya asking him to join a campaign against a Kharijite, Ibn al-Hansa al-Tai, who had begun a revolt. He replied that he had given up fighting in order to bring peace to the people and would not fight at his side. In Medina he lived quietly, at least in appearance, without engaging in politics. The article says he went from one marriage to another, that the sources give widely differing numbers of wives, and that this did not seem to attract much censure {cite:encyclopaedia-of-islam-2 vol. 3 p. 262}.
+
+He died in 49 AH, 669 to 670 CE, other dates given being 50, 48, 58 and 59, after a somewhat long illness or by poisoning. Many sources attribute the poisoning to one of his wives, a daughter of [[person/al-ashath-ibn-qays|al-Ashath]], whom Muawiya is said to have bribed with money and the promise of marriage to [[person/yazid-ibn-muawiya|Yazid]]. The article notes that al-Hasan was reluctant to tell al-Husayn his suspicions, for fear that vengeance would fall on an innocent person, and that the Shi'is regarded al-Ashath as a traitor in Muawiya's pay, so the hatred felt for him may have passed to his daughter {cite:encyclopaedia-of-islam-2 vol. 3 p. 262}.
+
+He had wished to lie beside his grandfather. [[person/marwan-ibn-al-hakam|Marwan ibn al-Hakam]] and Aisha agreed to prevent al-Husayn from carrying this out; another version says Aisha consented but Marwan stayed firm. Both sides were close to taking up arms, but al-Hasan had said he might be buried in [[place/al-baqi|al-Baqi]] if there was opposition, and [[person/abu-hurayra|Abu Hurayra]] persuaded al-Husayn to accept that. Since the exact dates of the agreement and of the ceremony at Kufa are unknown, the length of his caliphate cannot be fixed, and the sources give five months and ten days, six months and a few days, or eight months and ten days {cite:encyclopaedia-of-islam-2 vol. 3 p. 262}.
+
+The article reports that sources describe him as of mild disposition, never losing his composure, generous and pious, making many pilgrimages on foot, and that several of his speeches are preserved. It remarks that the information stops there and that praise of his intelligence, skill or bravery is absent, calling him a figure who shone with a reflected light from his grandfather and parents; that is the article's own assessment {cite:encyclopaedia-of-islam-2 vol. 3 p. 262}.
+
 ## Legacy
 His abdication is one of the founding moments in the memory of early Islam for Sunnis and Shi'is alike. The same act is read by one community as wisdom, and by another as tragedy.
 
 ## For young visitors
 Hasan was given a choice: a war he might not win, or giving up rule to keep the peace. Muslims have been debating his choice for fourteen centuries.
+
+## Birth and naming according to al-Sallabi
+The book states that al-Hasan was born in mid-Ramadan of 3 AH, that other reports place him in Sha'ban or in the fourth or fifth year, and that its author chose the fourth year [[event/birth-of-hasan-ibn-ali|the birth and naming of al-Hasan]] {cite:sallabi-ali-vol1 p. 86}. The Prophet named him Hasan after Ali had called him Harb, and [[person/fatima|Fatima]] ordered that the weight of his hair in silver be given in charity to the poor {cite:sallabi-ali-vol1 p. 86}.
+
+## His standing with the Prophet
+Abu Bakra reports that the Prophet said of al-Hasan from the pulpit: this son of mine is a master, and God may reconcile two parties of Muslims through him {cite:sallabi-ali-vol1 p. 88}. The book also relates that Anas ibn Malik said no one resembled the Prophet more than al-Hasan, and that Uqba ibn al-Harith saw Abu Bakr carrying al-Hasan and saying he was like the Prophet {cite:sallabi-ali-vol1 p. 88}.
+
+## The abdication to Muawiya according to al-Sallabi
+The book states that al-Hasan gave up his claim to the caliphate in favour of Muawiya in 41 AH, that his caliphate lasted six months, that the year was called the year of unity, and it relays Ibn Hajar's view that this is among the signs of prophecy {cite:sallabi-ali-vol1 p. 88}. His settlement is treated in [[event/treaty-of-hasan-and-muawiya|the settlement of al-Hasan and Muawiya]].
 
 ## For Sprouts
 Al-Hasan ibn Ali was the Prophet's elder grandson, son of Fatima and Ali, and one of the masters of the young of Paradise for Muslims. People made him caliph after his father in 661 CE, then he gave it up to Mu'awiya to spare Muslim lives, and lived in Medina until he died.
