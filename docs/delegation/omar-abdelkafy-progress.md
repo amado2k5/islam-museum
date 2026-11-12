@@ -678,3 +678,19 @@ Next step: episode 10.
 | Repetition loops | ep19 00:02:30, 00:03:00, 00:03:30, 00:04:00, 00:07:00 (inner) | Not speech | Loop check | Open |
 | Verses of Abu Nuwas | ep19 00:08:30-00:09:00 | Verbatim verse, not reproduced | Sources policy | Open |
 | Teens' food, clothes and gifts remark | ep20 00:05:00-00:05:30 | Partly garbled, no clear point | Clarity | Open |
+
+### albuyout-alamena, episodes 10–11 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-5)
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep10–ep11 (dazzlement with the West, disputation and submission; grace between the spouses) | about 46 min, 49 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 19 points | 17 new `about` edges (mirath, jiwar, Ibn al-Qayyim, Zayd ibn Thabit, al-Khidr, Malik, Abu Hanifa, Shurayh, Asma, Nusayba, the hijra, passages 11:32, 40:4, 4:11, 4:65, 33:36, 18:78, 49:11) | ep10 10, ep11 9 points; engine qwen3-asr pass5, 30 s windows | 10 needs_source: ep10 gradings of reports (00:04:00), inheritance counts (00:07:30), Ibn al-Qayyim and the farmer (00:16:30), figure on beatings (00:19:30), Zayd, Ibn Mas'ud and Ibn Uraqit accounts (00:25:00), al-Hasan, Malik and philosopher tales (00:29:30), call details (00:32:00), the neighbour tale (00:40:00); ep11 Shurayh tale (00:07:00), call details (00:27:00) | run omar-abdelkafy-albuyout-5 |
+
+Next step: episode 12. Sensitivity: ep10 carries strongly worded views on the West, women's rights and inheritance; all are recorded as the lecturer's own claims, with their figures marked needs_source (precedent decision in docs/decisions/inbox/assabile-albuyout-sensitivity-contested.yaml).
+
+| Excluded (albuyout-alamena ep10–ep11) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep10 00:00:00–00:01:30, 00:14:30–00:15:00, 00:29:30; ep11 00:00:00–00:01:00, 00:14:30–00:15:30, 00:26:30–00:27:00, 00:48:30–00:49:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep10 00:06:30, 00:11:00, 00:11:30, 00:17:30, 00:20:00–00:20:30, 00:24:30, 00:34:30, 00:37:30; ep11 00:02:00, 00:06:30, 00:12:00, 00:35:30, 00:37:00, 00:37:30, 00:39:00 | Not speech | Loop check | Open |
+| Calls and answers too garbled to read | ep10 00:33:00–00:36:00, 00:38:00–00:39:30; ep11 00:30:00–00:39:00 (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Verse wording (al-Mutanabbi-style lines on the eye of love) and hadith wording | ep10 00:05:30, 00:12:00; ep11 00:20:00 | Wording not typed; by sense only | Hadith rule; sources policy | Open |
+| Questions outside the episode (misyar marriage, loan for a car, bank shares details) | ep10 00:39:00; ep11 00:27:00 | Fiqh questions the lecturer refers to fatwa programmes | Scope | Open |
