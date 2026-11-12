@@ -487,7 +487,6 @@ The lecturer's political remarks on the Jews and Jerusalem (ep08 00:17:30-00:18:
 | Garbled passages | ep07 00:04:30-00:06:00 (the story of a family and a son; sensitive and unclear), 00:12:30-00:14:00, 00:21:30-00:25:00, 00:36:30-00:37:00; ep08 00:04:00-00:05:30, 00:10:00-00:11:30, 00:14:30-00:16:00, 00:30:30-00:31:30 | Not recoverable as clear Arabic | Clarity | Open |
 | Supplications and farewell with the announcement of a three-week break | ep07 00:38:00-00:40:30; ep08 00:40:00-00:40:30 | Not lesson content | Content rule | Open |
 
-Resume point: episode 09 (branch from origin/main).
 
 ### Completed recordings (§8), continued
 
@@ -559,9 +558,7 @@ The lecturer's opinion on abortion, adoption and the scientific readings of the 
 | Poem on the Day of Resurrection recited | ep10 00:31:00-00:33:00 | Verbatim verse, partly garbled | Sources policy; clarity | Open |
 | Supplications and sign-off | ep10 00:30:30, 00:37:00 | Not lesson content | Content rule | Open |
 
-Resume point: episode 11 (branch from origin/main).
 
-Resume point: episode 07 (branch from origin/main).
 
 ### albuyout-alamena, episodes 4–5 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-2)
 
@@ -863,3 +860,18 @@ Next step: episode 24.
 | Caller identities and personal circumstances of a spouse's anger | ep22 00:32:00–00:34:00 | Private and sensitive; not recorded beyond the general description | Privacy | Open |
 | Pleasantries without content | ep21 00:38:30–00:39:00, 00:40:00 | No substantive material | Content rule | Open |
 | Hadith and saying wording | ep20 00:43:00; ep21 00:41:00, 00:43:00; ep22 00:42:00, 00:43:30 | Wording not typed; by sense only | Hadith rule | Open |
+
+
+### al-dar-al-akhera ep12 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep12 (the reckoning, part 2) | about 37 min (transcript) | ar, en, ur: 1 record extended | 3 new `about` edges (concept/zulm, concept/dhikr, passage/quran-99 among 7) | 13 points; qwen3-asr pass5, 30 s windows | needs_source on every point; the order of the seven (00:01:00), Gabriel as the one at the scale (00:11:00), the backbiter hadith with no source (00:28:30), the wolf story (00:35:00) | run omar-abdelkafy-dar-akhera-7 |
+
+| Excluded (dar-akhera ep12) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep12 00:16:00, 00:18:30, 00:22:00, 00:27:00, 00:29:30 | Not speech | Loop check | Open |
+| Garbled passages | ep12 00:02:30-00:03:00, 00:09:00 (partial), 00:15:00-00:16:00, 00:17:30-00:18:00, 00:19:00-00:19:30 (the postnatal-bleeding remark), 00:26:30-00:27:30, 00:30:30-00:31:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Closing sign-off | ep12 00:36:30 | Not lesson content | Content rule | Open |
+
+Resume point: episode 13 (branch from origin/main).

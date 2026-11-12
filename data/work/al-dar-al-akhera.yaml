@@ -79,6 +79,9 @@ relations:
   - { type: about, target: person/al-hasan-al-basri, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: person/abu-ubayda-ibn-al-jarrah, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: person/yusuf, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/zulm, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/dhikr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: passage/quran-99, sources: [source/assabile-omar-abdelkafy] }
 sources: [source/assabile-omar-abdelkafy]
-provenance: { layer: copyrighted-reference, source: "Assabile, al-dar-al-akhera (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-dar-akhera-1, episodes: "01-11" }
+provenance: { layer: copyrighted-reference, source: "Assabile, al-dar-al-akhera (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-dar-akhera-1, episodes: "01-12" }
 status: { review: draft, generated_by: "Claude Code (claude-sonnet-5-5); run omar-abdelkafy-dar-akhera-1" }
