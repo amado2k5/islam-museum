@@ -1,0 +1,52 @@
+id: course/ca-on-g12-snc4m-b-2
+class: course
+kind: lesson
+label:
+  en: 'Two remedies: cupping and honey'
+  ar: 'علاجان: الحجامة والعسل'
+  ur: 'دو علاج: حجامہ اور شہد'
+summary:
+  en: Two therapies the jurists' encyclopaedia records, cupping and honey, and the question of how one would assess whether a therapy works (B1.2).
+  ar: علاجان تسجّلهما موسوعة الفقهاء، الحجامة والعسل، وسؤال كيف يُقيَّم نفع العلاج ⁦(B1.2)⁩.
+  ur: فقہا کے موسوعے میں درج دو علاج، حجامہ اور شہد، اور یہ سوال کہ کسی علاج کے مؤثر ہونے کا جائزہ کیسے لیا جائے ⁦(B1.2)⁩۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g12-snc4m-b
+expectations:
+- code: B1.2
+  text:
+    en: identify a variety of alternative technologies and therapies used to diagnose or treat human health conditions […], and assess the effectiveness of one such therapy [AI, C]
+    ar: حدّد تقنيات وعلاجات بديلة متنوعة تُستعمل في تشخيص الحالات الصحية البشرية أو علاجها […]، وقيّم فعالية أحد هذه العلاجات [AI, C]
+    ur: انسانی صحت کی کیفیات کی تشخیص یا علاج میں استعمال ہونے والی مختلف متبادل ٹیکنالوجیوں اور علاجوں کی نشاندہی کریں […]، اور ان میں سے ایک علاج کی تاثیر کا جائزہ لیں [AI, C]
+connections:
+- position: before
+  kind: reflection
+  title:
+    en: Cupping as a remedy
+    ar: الحجامة علاجًا
+    ur: علاج کے طور پر حجامہ
+  text:
+    en: Hijama is the drawing of blood by suction after the skin has been cut with a cupping instrument. It differs from fasd, which is opening a vein. Jurists classify cupping as a recommended (mustahabb) act of treatment on the basis of hadiths in the two Sahih collections; this is a legal classification, not a medical recommendation. The record reports this ruling and does not test whether cupping works. How would you test it?
+    ar: الحجامة مص الدم بعد الشرط بالمحجم، وتفترق عن الفصد، وهو شق العرق لإخراج الدم. ويصنّف الفقهاء التداوي بها مندوبًا استنادًا إلى أحاديث في الصحيحين؛ وهذا تصنيف فقهي لا توصية طبية. يعرض السجل هذا الحكم ولا يختبر هل تنفع الحجامة أم لا. فكيف تختبر ذلك أنت، وما الذي ستقيسه قبل العلاج وبعده؟
+    ur: حجامہ جلد کو آلۂ حجامہ سے چیرنے کے بعد چوس کر خون نکالنا ہے۔ یہ فصد سے مختلف ہے، جو رگ کھول کر خون نکالنا ہے۔ فقہا علاج کے لیے حجامہ کو مستحب قرار دیتے ہیں، صحیحین کی احادیث کی بنیاد پر؛ یہ فقہی درجہ بندی ہے، طبی سفارش نہیں۔ ریکارڈ یہ حکم بیان کرتا ہے اور یہ نہیں آزماتا کہ حجامہ مفید ہے یا نہیں۔ آپ اسے کیسے آزمائیں گے؟
+  entity: concept/hijama
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+- position: within
+  kind: reflection
+  title:
+    en: Honey as a remedy
+    ar: العسل علاجًا
+    ur: علاج کے طور پر شہد
+  text:
+    en: The jurists' encyclopaedia reports that, in the lexicon's wording, asal is the saliva of the bee, which God made a healing for people; the Arabs use the word for anything found sweet. It reports that using honey as medicine is permitted, and that most scholars read the Qur'anic verse as saying that honey contains healing. The record gives a ruling and no measurement. What evidence would show a remedy helps?
+    ar: تنقل الموسوعة أن العسل في اللغة، بحسب عبارة المعجم، لعاب النحل الذي جعله الله شفاء للناس، وأن العرب تسمي كل ما يُستلذ عسلًا. وتذكر أن التداوي بالعسل جائز، وأن جمهور العلماء قالوا إن في العسل شفاء للناس، وذلك في آية النحل. يقدّم السجل حكمًا ولا يقدّم قياسًا. أي دليل يبيّن أن العلاج ينفع؟
+    ur: موسوعہ نقل کرتا ہے کہ لغت کی عبارت میں عسل شہد کی مکھی کا لعاب ہے، جسے اللہ نے لوگوں کے لیے شفا بنایا؛ اور عرب ہر لذیذ چیز کو عسل کہتے ہیں۔ وہ بتاتا ہے کہ شہد سے علاج جائز ہے، اور جمہور علما کہتے ہیں کہ شہد میں لوگوں کے لیے شفا ہے، آیتِ نحل کی بنا پر۔ ریکارڈ حکم دیتا ہے، پیمائش نہیں۔ کون سا ثبوت دکھائے گا کہ کوئی علاج فائدہ دیتا ہے؟
+  entity: concept/asal
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+order: 2

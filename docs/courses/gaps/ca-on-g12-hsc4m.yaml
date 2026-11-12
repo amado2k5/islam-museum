@@ -1,0 +1,266 @@
+course: course/ca-on-g12-hsc4m
+gaps:
+- code: A1.1
+  text: explore a variety of topics related to world cultures and/or cultural groups […] to identify topics for research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: identify key concepts […] related to their selected topics
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: formulate effective questions to guide their research and inquiry
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: create appropriate research plans to investi­gate their selected topics […], ensuring that their plans follow guidelines for ethical research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: locate and select information relevant to their investigations from a variety of primary sources […] and secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.3
+  text: based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.1
+  text: assess various aspects of information gathered from primary and secondary sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.2
+  text: record and organize information and key ideas using a variety formats […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.3
+  text: analyse and interpret research information […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.4
+  text: demonstrate academic honesty by docu­menting the sources of all information generated through research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.5
+  text: synthesize findings and formulate conclu­sions […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.1
+  text: use an appropriate format […] to communicate the results of their research and inquiry effectively for a specific purpose and audience
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.2
+  text: use terms relating to world cultures and cultural groups correctly […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.3
+  text: clearly communicate the results of their inquiries […], and follow APA conventions for acknowledging sources […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.4
+  text: demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.1
+  text: demonstrate an understanding of the ele­ments of culture […] asso­ciated with various definitions of the term […]
+  why: The expectation asks the student to understand the elements of culture and its definitions (UNESCO, anthropological, sociological); the museum holds no record on the concept of culture or on those definitions.
+  searches:
+  - 'find_entity.py "culture" "ثقافة" "UNESCO definition of culture": 18 records, none on the concept of culture (a reading-and-culture concept, a youth cultural crisis, a coffee trail, a book on the art and culture of India)'
+  - 'find_entity.py "elements of culture" "عناصر الثقافة" "kinship": 11 records, all rulings and hadith on kinship ties; none defines culture'
+- code: B1.2
+  text: analyse various functions of culture […]
+  why: The expectation is about the functions of culture in general (sense of self, social norms, security); the museum holds no record on them.
+  searches:
+  - 'find_entity.py "social norms" "الأعراف الاجتماعية" "sense of community": no real record'
+  - 'find_entity.py "cultural identity" "الهوية الثقافية" "collective identity": no real record'
+- code: B1.3
+  text: describe multiple ways in which culture can influence an individual’s perceptions, attitudes, and behaviours […] and can shape social institutions and practices […]
+  why: The expectation asks for several ways culture shapes perceptions, behaviour and institutions in general; the museum’s food-rule records show one rule of one tradition, not an account of cultural influence.
+  searches:
+  - 'find_entity.py "dietary restrictions" "customs" "العادات": 10 records, all names that contain the word saadat; nothing on customs'
+  - 'find_entity.py "gender roles" "women" "المرأة": 187 records, almost all Muwatta passages and one fiqh entry on a woman’s rulings; none treats cultural influence on roles'
+- code: B2.1
+  text: demonstrate an understanding of how an individual’s cultural identity is socially constructed […]
+  why: How an individual’s cultural identity is socially constructed (family, peers, media) is a social-science topic the museum holds no record on.
+  searches:
+  - 'find_entity.py "socially constructed identity" "identity formation" "تشكل الهوية": one hit, a source (a 2025 study of social media and religious identity), not a record'
+  - 'find_entity.py "peer pressure" "family expectations" "التنشئة الاجتماعية": no real record'
+- code: B2.2
+  text: analyse how culture is acquired and main­tained within a group […]
+  why: How culture is acquired and maintained within a group (oral tradition, endogamy, institutions) is a general topic; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "oral tradition" "transmission of culture" "التراث الشفوي": no real record'
+  - 'find_entity.py "endogamy" "exogamy" "الزواج من الأقارب": no real record'
+- code: B2.4
+  text: compare the rates at which cultural change is taking place within a variety of cultures […], and analyse the fac­tors contributing to this change […]
+  why: Comparing rates of cultural change across cultures and its causes is a general topic; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "cultural change" "التغير الثقافي" "globalization": no real record'
+  - 'find_entity.py "intergenerational relationships" "rites of passage" "mass media": no real record'
+- code: B2.5
+  text: analyse various types of tensions that can occur between individuals and their collective culture […]
+  why: Tensions between individuals and their collective culture (generations, majority and minority, secular and religious views) are not the subject of any museum record.
+  searches:
+  - 'find_entity.py "intergenerational conflict" "culture clash" "صراع الأجيال": no real record'
+  - 'find_entity.py "minority culture majority culture" "secular and religious perspectives" "الأقليات": no real record'
+- code: B3.2
+  text: demonstrate an understanding of theoretical perspectives used to analyse culture […]
+  why: The expectation asks for theoretical perspectives on culture (structural functionalist, conflict, feminist, symbolic interactionist, cultural materialist); the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "structural functionalism" "conflict theory" "symbolic interactionism": one hit, a question on evolution and Islam, unrelated'
+  - 'find_entity.py "cultural materialism" "symbolic interactionism" "التفاعلية الرمزية": no real record'
+- code: B3.3
+  text: apply a range of theoretical perspectives to analyse selected cultures or cultural practices
+  why: Applying theoretical perspectives to a culture needs those perspectives, which the museum does not hold (see B3.2).
+  searches:
+  - 'find_entity.py "feminist theory" "anthropology of culture" "علم الاجتماع": no real record'
+  - 'find_entity.py "Orientalism critique" "postcolonial theory" "ما بعد الاستعمار": no real record'
+- code: C1.2
+  text: demonstrate an understanding of various secular beliefs or philosophies found within a specific culture […] and of how they relate to various aspects of that culture […]
+  why: Secular beliefs and philosophies within a culture (humanism, rationalism, Confucianism, Marxism and others) are not the subject of any museum record.
+  searches:
+  - 'find_entity.py "secular philosophy" "humanism" "rationalism": no real record'
+  - 'find_entity.py "Confucianism" "Marxism" "liberalism": one hit, a source (a podcast page), not a record'
+- code: C2.2
+  text: analyse the impact of various transformative social, economic, or political conditions or events […] on forms of cultural expression in the areas of art, philosophy, and religion/spirituality
+  why: The expectation asks how events such as the partition of India, Harlem’s changes, the Cultural Revolution or apartheid shaped cultural expression; the museum holds no record on those events and their effect on expression.
+  searches:
+  - 'find_entity.py "Partition of India" "apartheid" "Cultural Revolution": one hit, a source (a profile of an anti-apartheid activist), not a record'
+  - 'find_entity.py "Harlem" "transformative events cultural expression" "التحولات السياسية": 4 records; building/malcolm-shabazz-mosque has no prose, the others are medieval Frankish embassies and plots'
+- code: C2.3
+  text: compare similar forms of cultural expression in different cultures and/or historical periods […]
+  why: Comparing similar cultural expressions across cultures (manga, Aboriginal art, Catholicism, rap) needs paired records the museum does not hold.
+  searches:
+  - 'find_entity.py "compare cultural expression across cultures" "rap" "hip hop": no real record'
+  - 'find_entity.py "Aboriginal art" "Catholicism in Latin America" "cartoons manga": no real record'
+- code: C3.3
+  text: assess ethnocultural minority groups’ contributions to and influence on culture in Canada […]
+  why: Contributions of ethnocultural minority groups to culture in Canada are the object of the expectation; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "ethnocultural minority Canada" "heritage centre" "multicultural festival": one hit, a source (a coin-centre booklet), not a record'
+  - 'find_entity.py "mosques in Canada" "Muslims in Canada" "مسلمو كندا": 2 hits, both sources (a mosque catalogue and an archive), not records; place/canada has no prose'
+- code: C3.4
+  text: demonstrate an understanding of the ways in which Canadian individuals from various ethnocultural minority groups have contributed to and influenced Canadian culture and society […]
+  why: Canadian individuals from ethnocultural minority groups are the object of the expectation; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "Canadian ethnocultural contributions" "Rosalie Abella" "Viola Desmond": no real record'
+  - 'find_entity.py "Canadian Muslim" "Ontario" "أونتاريو": 10 records; place/ontario has no prose, the rest are the course tree itself'
+- code: D1.1
+  text: demonstrate an understanding of the dynamics of power relations within specific cultural groups […]
+  why: Power relations within specific cultural groups (caste, shadism, elders, gender roles) are not the subject of any museum record.
+  searches:
+  - 'find_entity.py "caste system" "الطبقات الاجتماعية" "hijra": 23 records, all on the Prophet’s migration (the word hijra), not on the social status the expectation names'
+  - 'find_entity.py "power relations within cultural groups" "shadism" "status of elders": no real record'
+- code: D1.2
+  text: analyse the potential impact on cultural identity and on the relations between cultural groups of cultural stereotypes, labelling, and misrepresentations found in mainstream media and popular culture […]
+  why: The expectation asks for the impact of media stereotypes and misrepresentations on cultural identity. The only related record, concept/islamufubiya, summarises a television panel’s debate and audience votes, not an account of media stereotyping, and is draft; a student text cannot be restated from it without presenting a panel’s opinions as findings.
+  searches:
+  - 'find_entity.py "media stereotypes" "الصورة النمطية" "misrepresentation of Muslims": no real record'
+  - 'find_entity.py "model minority" "terrorism stereotype" "Islamophobia": 6 records; concept/islamufubiya (a panel debate with audience votes) and event/international-day-to-combat-islamophobia, neither an account of media representation'
+- code: D1.3
+  text: analyse both the positive and negative aspects and effects of the interactions between minority and majority cultures in Canada and around the world […]
+  why: Interactions between minority and majority cultures in Canada and the world are the object of the expectation; the museum holds no record on any of the cases it names.
+  searches:
+  - 'find_entity.py "minority and majority cultures" "Uighur" "Kurds": 3 records: group/kurds (medieval accounts of origins) and two medieval clashes; none on a minority and a majority today'
+  - 'find_entity.py "Palestinians in Israel" "Romani" "Algerians in France": 4 records: a 1916 battle at Romani, a person, a fatwa on Romanian sheep and place/romania; none on these minorities'
+- code: D1.5
+  text: assess the effects of cultural imperialism on cultures around the world […]
+  why: The effects of cultural imperialism on cultures around the world are not the subject of any museum record.
+  searches:
+  - 'find_entity.py "cultural imperialism" "الاستعمار الثقافي" "cultural appropriation": no real record'
+  - 'find_entity.py "loss of language" "consumerism" "globalization": no real record'
+- code: D2.1
+  text: explain the impact of colonization on Aboriginal communities in Canada and other countries […]
+  why: The impact of colonization on Aboriginal communities in Canada and elsewhere is the object of the expectation; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "colonization of Indigenous peoples" "First Nations" "Aboriginal communities": no real record'
+  - 'find_entity.py "residential schools" "السكان الأصليين" "Inuit": one hit, concept/muwala (continuity in worship), unrelated'
+- code: D2.2
+  text: evaluate the impact on cultural groups of Canada’s immigration and refugee policies, past and present […]
+  why: Canada’s immigration and refugee policies, past and present, are the object of the expectation; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "Canada immigration policy" "refugee policy" "Komagata Maru": no real record'
+  - 'find_entity.py "Chinese Exclusion Act" "SS St. Louis" "سياسة الهجرة": no real record'
+- code: D2.3
+  text: explain systemic barriers to integration and achievement facing Canadian ethnocultural minority groups […], and assess the effectiveness of programs and strategies to overcome these bar­riers […]
+  why: Systemic barriers facing Canadian ethnocultural minority groups are the object of the expectation. concept/al-indimaj-wal-huwiyya, one preacher’s view of a believer’s integration, is used in a lesson on D1.4 and does not treat barriers or programmes in Canada.
+  searches:
+  - 'find_entity.py "systemic barriers" "racism and discrimination" "credential recognition": no real record'
+  - 'find_entity.py "newcomers integration" "language training" "الاندماج": one hit, concept/al-indimaj-wal-huwiyya, a speaker’s view of integration, not of barriers in Canada'
+- code: D2.4
+  text: analyse major past and present policies, practices, and cultural issues at the community, […]
+  why: Policies, practices and issues in Canadian communities (nativism, multiculturalism, integration versus assimilation) are the object of the expectation; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "multiculturalism" "التعددية الثقافية" "integration versus assimilation": no real record'
+  - 'find_entity.py "Quebec nationalism" "racial profiling" "nativism": no real record'
+- code: D2.5
+  text: compare the context of and approaches implicit in Canada’s policies on diversity and multiculturalism with the context, approaches, and policies of other nations […]
+  why: Comparing Canada’s diversity policy with other nations’ policies needs records on those policies. concept/al-ilmaniyya-wal-islam reports a television panel’s votes and views on secularism, and is not a record of any nation’s policy.
+  searches:
+  - 'find_entity.py "secularism in France" "laïcité" "العلمانية": one hit, concept/al-ilmaniyya-wal-islam, a television panel on secularism and Islam, not a statement of a state’s policy'
+  - 'find_entity.py "White Australia policy" "minority policy China" "Thailand hill tribes": no real record'
+- code: D3.1
+  text: identify a specific need related to cultural groups or promoting cultural diversity, and design an initiative to address this need […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D3.2
+  text: identify strategies and skills needed for gaining support for and handling potential resistance to their initiative […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D3.3
+  text: demonstrate an understanding of how to effectively evaluate social action initiatives […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D3.4
+  text: implement their initiative using appropriate planning, organizational, evaluation, and communication skills
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D3.5
+  text: reflect on the skills and strategies they used before, during, and after designing and implementing their initiative; explain which ones they found most useful in achieving their objectives; and identify what they would do differently in the future to improve …
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.4
+  text: describe various ways in which cultural minority groups address challenges to their identity from more powerful groups […]
+  why: The only record is one preacher's lecture, which shows what a preacher said, not how minority groups address challenges from more powerful groups.
+  searches:
+  - 'find_entity.py "minority identity" "الأقليات والهوية": concept/al-indimaj-wal-huwiyya was tried and removed (one preacher''s lecture on integration, an Assabile lesson, not evidence of how minority groups act)'
+  - 'entity_brief.py concept/al-indimaj-wal-huwiyya --full: gives one speaker''s view of integrating while keeping identity, with no account of the strategies minority groups use under pressure from more powerful groups'

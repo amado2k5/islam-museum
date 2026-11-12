@@ -1,0 +1,57 @@
+id: course/ca-on-g1-science-a-2
+class: course
+kind: lesson
+label:
+  en: Who has helped science and technology?
+  ar: من أسهم في العلوم والتقنية؟
+  ur: سائنس اور ٹیکنالوجی میں کس نے حصہ ڈالا؟
+summary:
+  en: Practical uses of science at home and in the community, and contributions from different communities.
+  ar: الاستخدامات العملية للعلوم في البيت والمجتمع، وإسهامات المجتمعات المختلفة.
+  ur: گھر اور برادری میں سائنس کے عملی استعمالات، اور مختلف برادریوں کی خدمات۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g1-science-a
+expectations:
+- code: A3.1
+  text:
+    en: describe practical applications of science and technology concepts in their home and community, and how these applications address real-world problems
+    ar: وصف التطبيقات العملية لمفاهيم العلوم والتقنية في بيوتهم ومجتمعهم، وكيف تعالج هذه التطبيقات مشكلات من الواقع
+    ur: اپنے گھر اور برادری میں سائنس و ٹیکنالوجی کے تصورات کے عملی استعمالات بیان کرنا، اور یہ کہ یہ استعمالات حقیقی دنیا کے مسائل کو کیسے حل کرتے ہیں
+- code: A3.3
+  text:
+    en: analyse contributions to science and technology from various communities
+    ar: تحليل إسهامات مختلف المجتمعات في العلوم والتقنية
+    ur: مختلف برادریوں کی سائنس و ٹیکنالوجی میں خدمات کا تجزیہ کرنا
+connections:
+- position: within
+  kind: scholar
+  title:
+    en: An engineer of mechanical devices
+    ar: مهندس الحيل الميكانيكية
+    ur: میکانی آلات کا انجینئر
+  text:
+    en: Al-Jazari was an engineer who wrote a book on mechanical devices. According to the TDV Islamic Encyclopaedia, its six parts cover clocks, vessels for drinking, fountains, machines for raising water and other devices, with drawings and instructions for making and assembling them. Whose work with machines does your own community remember?
+    ar: كان الجزري مهندسًا ألّف كتابًا في الحيل الميكانيكية. وبحسب موسوعة TDV الإسلامية تشمل أقسامه الستة الساعات وأواني الشراب والنوافير وآلات رفع الماء وغيرها من الأجهزة، مع رسوم وتعليمات لصنعها وتركيبها. عمل من في الآلات يذكر مجتمعك؟
+    ur: الجزری ایک انجینئر تھا جس نے میکانی آلات پر کتاب لکھی۔ TDV اسلامی انسائیکلوپیڈیا کے مطابق اس کے چھ حصوں میں گھڑیاں، پینے کے برتن، فوارے، پانی اٹھانے کی مشینیں اور دوسرے آلات شامل ہیں، ساتھ انہیں بنانے اور جوڑنے کی تصویریں اور ہدایات بھی۔ آپ کی اپنی برادری مشینوں پر کس کے کام کو یاد رکھتی ہے؟
+  entity: person/al-jazari-engineer
+  sources:
+  - source/tdv-cezeri
+- position: after
+  kind: invention
+  title:
+    en: Telling the time from a shadow
+    ar: معرفة الوقت من الظل
+    ur: سائے سے وقت معلوم کرنا
+  text:
+    en: On the northern minaret of the Umayyad Mosque in Damascus, according to David King, Ibn al-Shatir put up a large marble sundial where the time was read from the shadow of a pointer. Where in your community do people tell the time?
+    ar: على المئذنة الشمالية للجامع الأموي بدمشق أقام ابن الشاطر، بحسب وصف ديفيد كينغ، ساعة شمسية رخامية كبيرة يُقرأ الوقت فيها من ظل مؤشّر. أين يعرف الناس الوقت في مجتمعك؟
+    ur: دمشق کی جامع اموی کے شمالی مینار پر ابن الشاطر نے، ڈیوڈ کنگ کے بیان کے مطابق، ایک بڑی سنگِ مرمر کی دھوپ گھڑی بنائی جس میں وقت ایک اشارے کے سائے سے پڑھا جاتا تھا۔ آپ کی برادری میں لوگ وقت کہاں سے معلوم کرتے ہیں؟
+  entity: invention/shatir-polar-sundial
+  sources:
+  - source/king-ibn-shatir-bea
+order: 2

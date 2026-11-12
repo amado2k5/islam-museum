@@ -1,0 +1,52 @@
+id: course/ca-on-g4-math-f-1
+class: course
+kind: lesson
+label:
+  en: Earning, saving and giving
+  ar: الكسب والادخار والعطاء
+  ur: کمانا، بچانا اور دینا
+summary:
+  en: What earning, saving and donating mean, and what to weigh when deciding about each (F1.3).
+  ar: ما معنى الكسب والادخار والتبرّع، وما الذي يُوزَن عند اتخاذ القرار في كل منها ⁦(F1.3)⁩.
+  ur: کمانے، بچانے اور عطیہ دینے کا کیا مطلب ہے، اور ہر ایک کے بارے میں فیصلہ کرتے وقت کیا تولا جائے ⁦(F1.3)⁩۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g4-math-f
+expectations:
+- code: F1.3
+  text:
+    en: explain the concepts of spending, saving, earning, investing, and donating, and identify key factors to consider when making basic decisions related to each
+    ar: اشرح مفاهيم الإنفاق والادخار والكسب والاستثمار والتبرّع، وحدّد العوامل الرئيسة التي تُراعى عند اتخاذ القرارات الأساسية المتعلقة بكلٍّ منها
+    ur: خرچ کرنے، بچانے، کمانے، سرمایہ کاری اور عطیہ دینے کے تصورات واضح کریں، اور ان میں سے ہر ایک سے متعلق بنیادی فیصلے کرتے وقت غور طلب اہم عوامل کی نشاندہی کریں
+connections:
+- position: within
+  kind: reflection
+  title:
+    en: Putting something aside
+    ar: ادخار الشيء لوقت الحاجة
+    ur: ضرورت کے وقت کے لیے رکھ چھوڑنا
+  text:
+    en: The record explains that saving, idkhar, is putting a thing aside for the time of need, and that the jurists keep to this sense. What would you put money aside for?
+    ar: 'يوضح السجل أن الادخار خبء الشيء لوقت الحاجة، وأن الفقهاء لا يخرجون عن هذا المعنى. لأي غاية تدّخر أنت مالاً؟'
+    ur: ریکارڈ بتاتا ہے کہ ادخار ضرورت کے وقت کے لیے کوئی چیز محفوظ رکھنا ہے، اور فقہاء اسی معنی پر قائم رہتے ہیں۔ آپ کس مقصد کے لیے رقم بچا کر رکھیں گے؟
+  entity: concept/idkhar-fiqh
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+- position: after
+  kind: reflection
+  title:
+    en: Giving for God's sake
+    ar: العطاء ابتغاء وجه الله
+    ur: اللہ کی رضا کے لیے دینا
+  text:
+    en: The Kuwaiti encyclopaedia of jurisprudence, as the record gives it, defines sadaqa as what is given seeking nearness to God rather than human favour, covering both zakat and voluntary alms. It adds that sadaqa aids the weak, relieves the distressed, gives thanks for God's blessings, and shows the giver's faith. What could a gift of your own help someone with?
+    ar: تذكر الموسوعة الفقهية الكويتية، كما يعرضها السجل، أن الصدقة ما يُعطى على وجه التقرب إلى الله لا على وجه المكرمة، وتشمل الزكاة وصدقة التطوع. وتضيف أن الصدقة إعانة الضعيف وإغاثة اللهيف وشكر لله على نعمه ودليل على صحة إيمان مؤديها. فيمَ يمكن أن تعين هديةٌ منك إنساناً؟
+    ur: کویتی فقہی انسائیکلوپیڈیا، جیسا کہ ریکارڈ اسے پیش کرتا ہے، بتاتا ہے کہ صدقہ وہ ہے جو اللہ کی رضا کے لیے دیا جائے نہ کہ انسانی احسان کے بدلے، اور اس میں زکوٰۃ اور تطوع کا صدقہ دونوں شامل ہیں۔ وہ مزید کہتا ہے کہ صدقہ کمزور کی مدد، ستم زدہ کی اغاثت، اللہ کی نعمتوں کا شکر اور دینے والے کے ایمان کی صداقت کا ثبوت ہے۔ آپ کا اپنا کوئی عطیہ کسی کی کس چیز میں مدد کر سکتا ہے؟
+  entity: practice/sadaqa
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+order: 1

@@ -1,0 +1,58 @@
+id: course/ca-on-g6-math-e-2
+class: course
+kind: lesson
+label:
+  en: Measuring areas and surfaces
+  ar: قياس المساحات والسطوح
+  ur: رقبوں اور سطحوں کی پیمائش
+summary:
+  en: Finding areas by decomposing shapes, and the surface areas of prisms and pyramids by adding the areas of their faces.
+  ar: إيجاد المساحات بتحليل الأشكال، ومساحات سطوح المنشورات والأهرامات بجمع مساحات أوجهها.
+  ur: شکلوں کو تقسیم کر کے رقبے معلوم کرنا، اور رخوں کے رقبے جمع کر کے منشوروں اور اہراموں کے سطحی رقبے معلوم کرنا۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g6-math-e
+expectations:
+- code: E2.4
+  text:
+    en: determine the areas of trapezoids, rhombuses, kites, and composite polygons by decomposing them into shapes with known areas
+    ar: حدّد مساحات أشباه المنحرف والمعينات والطائرات الورقية والمضلعات المركّبة بتحليلها إلى أشكال معروفة المساحة
+    ur: ذوزنقہ، معین، پتنگ نما اور مرکب کثیر الاضلاع کے رقبے انہیں معلوم رقبوں والی شکلوں میں تقسیم کر کے معلوم کریں
+- code: E2.6
+  text:
+    en: determine the surface areas of prisms and pyramids by calculating the areas of their two-dimensional faces and adding them together
+    ar: حدّد مساحات سطوح المنشورات والأهرامات بحساب مساحات أوجهها ثنائية الأبعاد وجمعها معًا
+    ur: منشوروں اور اہراموں کے سطحی رقبے ان کے دو بعدی رخوں کے رقبے نکال کر اور جمع کر کے معلوم کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: One cubit by one cubit
+    ar: ذراع في ذراع
+    ur: ایک ذراع ضرب ایک ذراع
+  text:
+    ar: خصّ الخوارزمي علم المساحة بباب في كتابه يبدأ بأن معنى «واحد في واحد» إنما هو مساحة، ومعناه ذراع في ذراع. وتكسير المثلث، أي مساحته، أن تضرب عموده في نصف قاعدته، وتكسير المعيّن أن تضرب أحد القطرين في نصف الآخر. وفي مثلث أضلاعه ثلاثة عشر وأربعة عشر وخمسة عشر ذراعاً يخرج العمود اثني عشر والتكسير أربعة وثمانين. هل تستطيع أن تُري قاعدة المعيّن بتقطيعه؟
+    en: Al-Khwarizmi gave mensuration a chapter of his book, which opens by saying that "one by one" means an area, a cubit by a cubit. The area of a triangle, he says, is its height times half its base, and of a rhombus one diagonal times half the other. For a triangle with sides of thirteen, fourteen and fifteen cubits, the height comes out at twelve and the area at eighty-four. Can you show the rhombus rule by cutting the shape up?
+    ur: خوارزمی نے مساحت کے لیے اپنی کتاب میں ایک باب رکھا جو اس بات سے شروع ہوتا ہے کہ «ایک ضرب ایک» کا مطلب رقبہ ہے، یعنی ایک ذراع ضرب ایک ذراع۔ مثلث کا تکسیر یعنی رقبہ اس کا عمود ضرب نصف قاعدہ ہے، اور معین کا ایک قطر ضرب دوسرے کا نصف۔ تیرہ، چودہ اور پندرہ ذراع کے اضلاع والے مثلث میں عمود بارہ اور رقبہ چوراسی نکلتا ہے۔ کیا آپ معین کا قاعدہ اسے کاٹ کر دکھا سکتے ہیں؟
+  entity: concept/ilm-al-misaha
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+- position: after
+  kind: invention
+  title:
+    en: Adding up the surfaces of a ceiling
+    ar: جمع أسطح سقف
+    ur: سقف کی سطحوں کا جمع
+  text:
+    ar: نظم الكاشي في مفتاح الحساب قياس سطح المقرنص، وهو البناء الخلوي المتدرج الذي يربط أجزاء السقف ويزينها. يختار وحدة معيارية، ويعد الأجزاء بحسب أشكالها، ويجمع مساحات الوجوه والسقوف والعناصر الواصلة. وتنبه البطاقة إلى أنها طريقة حساب في عمارة موجودة قبله. كيف يعينك جمع مساحات الوجوه على إيجاد مساحة سطح منشور؟
+    en: In the Key to Arithmetic, al-Kashi organised the measurement of the surface of muqarnas, the tiered cellular construction that articulates and decorates ceilings. He selects a module, counts the elements by shape, and adds the surfaces of facets, roofs and connecting pieces. The record stresses that this is a calculation method within older building practice. How could adding the areas of faces help you find the surface area of a prism?
+    ur: کاشی نے مفتاح الحساب میں مقرنس کی سطح کا حساب منظم کیا، وہ تہہ دار خانے جو سقف کو جوڑتے اور سجاتے ہیں۔ پہلے معیاری اکائی منتخب، پھر شکل کے مطابق اجزا شمار، پھر رخوں، چھتوں اور ملانے والے ٹکڑوں کے رقبے جمع ہوتے ہیں۔ اندراج کہتا ہے کہ یہ پرانی معماری کے اندر حسابی طریقہ ہے۔ رخوں کے رقبے جمع کرنے سے منشور کی سطح کا رقبہ نکالنے میں کیا مدد ملتی ہے؟
+  entity: invention/kashi-muqarnas-mensuration
+  sources:
+  - source/dold-samplonius-muqarnas-1992
+  - source/kashi-mactutor
+order: 2

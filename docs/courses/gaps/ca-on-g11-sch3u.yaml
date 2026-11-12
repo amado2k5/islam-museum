@@ -1,0 +1,510 @@
+course: course/ca-on-g11-sch3u
+gaps:
+- code: A1.1
+  text: formulate relevant scientific questions about observed relationships, ideas, problems, or issues, make informed predictions, and/or formulate educated hypotheses to focus inquiries or research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: identify and locate a variety of print and electronic sources that enable them to address research topics fully and appropriately
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: apply knowledge and understanding of safe laboratory practices and procedures when planning investigations by correctly interpreting Workplace Hazardous Materials Information System (WHMIS) symbols; by using appropriate techniques for handling and storing laboratory equipment and materials and disposing of laboratory materials …
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.5
+  text: conduct inquiries, controlling relevant variables, adapting or extending procedures as required, and using appropriate materials and equipment safely, accurately, and effectively, to collect observations and data
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.6
+  text: compile accurate data from laboratory and other sources, and organize and record the data, using appropriate formats, including tables, flow charts, graphs, and/or diagrams
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.7
+  text: select, organize, and record relevant information on research topics from a variety of appropriate sources, including electronic, print, and/or human sources, using suitable formats and an accepted form of academic documentation
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.11
+  text: communicate ideas, plans, procedures, results, and conclusions orally, in writing, and/or in electronic presentations, using appropriate language and a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.12
+  text: use appropriate numeric, symbolic, and graphic modes of representation, and appropriate units of measurement […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.13
+  text: express the results of any calculations involving data accurately and precisely, to the appropriate number of decimal places or significant figures
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.1
+  text: analyse, on the basis of research, the properties of a commonly used but potentially harmful chemical substance […] and how that substance affects the environment, and propose ways to lessen the harmfulness of the substance […] or identify alternative substances that could …
+  why: The expectation asks for research on a harmful everyday chemical and its effect on the environment; the museum holds no record on any such substance or on pollution.
+  searches:
+  - 'find_entity.py "pollution" "التلوث" "environment" "bi''a": no record on pollution'
+  - 'find_entity.py "drug" "الدواء" "dawa" "pharmacology": only records of the da''wa (the call); none on drugs'
+- code: B1.2
+  text: evaluate the risks and benefits to human health of some commonly used chemical substances […] [AI, C]
+  why: The expectation asks the student to weigh health risks and benefits of everyday chemicals; the record on the 'attar (used in lesson A-4) speaks of adulterated and spoiled drugs, not of the health effects of substances, so linking it would be a stretch.
+  searches:
+  - 'find_entity.py "medicine pharmacy" "الصيدلة" "saydala" "pharmacist": no real record'
+  - 'find_entity.py "drug" "الدواء" "dawa" "pharmacology": only records of the da''wa (the call); none on drugs'
+  - 'find_entity.py "perfume" "العطور" "rose water" "attar": rulings on perfume and the ''attar (used in lesson A-4); none on the health effects of substances'
+- code: B2.1
+  text: 'use appropriate terminology related to chemical trends and chemical bonding, including, but not limited to: atomic radius, effective nuclear charge, electronegativity, ionization energy, and electron affinity [C]'
+  why: The expectation is about periodic trends and the vocabulary of the periodic table; the museum holds no record on the periodic table or on atoms.
+  searches:
+  - 'find_entity.py "periodic table" "الجدول الدوري" "element" "chemical element": no real record'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: B2.2
+  text: analyse data related to the properties of elements within a period […] to identify general trends in the periodic table [AI]
+  why: The expectation is about periodic trends and the vocabulary of the periodic table; the museum holds no record on the periodic table or on atoms.
+  searches:
+  - 'find_entity.py "periodic table" "الجدول الدوري" "element" "chemical element": no real record'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: B2.3
+  text: use an inquiry process to investigate the chemical reactions of elements […] with other substances […], and produce an activity series using the resulting data [PR, AI]
+  why: The expectation is an investigation of the reactions of metals and non-metals and an activity series; the museum holds no record on the chemical reactions of metals.
+  searches:
+  - 'find_entity.py "metal" "المعادن" "ma''adin" "metallurgy": records on mineral ownership, objects and places; none on the reactions of metals'
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "periodic table" "الجدول الدوري" "element" "chemical element": no real record'
+- code: B2.4
+  text: draw Lewis structures to represent the bonds in ionic and molecular compounds [PR, C]
+  why: The expectation is about electrons, bonds and molecular structure; the museum holds no record on atoms or bonding.
+  searches:
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+  - 'find_entity.py "periodic table" "الجدول الدوري" "element" "chemical element": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+- code: B2.5
+  text: predict the nature of a bond […], using electronegativity values of atoms [AI]
+  why: The expectation is about electrons, bonds and molecular structure; the museum holds no record on atoms or bonding.
+  searches:
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+  - 'find_entity.py "periodic table" "الجدول الدوري" "element" "chemical element": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+- code: B2.6
+  text: build molecular models, and write structural formulae, for molecular compounds containing single and multiple bonds […], and for ionic crystalline structures […] [PR, AI, C]
+  why: The expectation is about electrons, bonds and molecular structure; the museum holds no record on atoms or bonding.
+  searches:
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+  - 'find_entity.py "periodic table" "الجدول الدوري" "element" "chemical element": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+- code: B2.7
+  text: write chemical formulae of binary and polyatomic compounds, including those with multiple valences, and name the compounds using the International Union of Pure and Applied Chemistry (IUPAC) nomenclature system [AI, C]
+  why: The expectation is about chemical formulae and IUPAC naming; the museum holds no record on chemical nomenclature.
+  searches:
+  - 'find_entity.py "periodic table" "الجدول الدوري" "element" "chemical element": no real record'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: B3.1
+  text: explain the relationship between the atomic number and the mass number of an element, and the difference between isotopes and radioisotopes of an element
+  why: The expectation is about atomic number, isotopes and relative atomic mass; the museum holds no record on atoms or isotopes.
+  searches:
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+  - 'find_entity.py "periodic table" "الجدول الدوري" "element" "chemical element": no real record'
+- code: B3.2
+  text: explain the relationship between isotopic abundance of an element’s isotopes and the relative atomic mass of the element
+  why: The expectation is about atomic number, isotopes and relative atomic mass; the museum holds no record on atoms or isotopes.
+  searches:
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+  - 'find_entity.py "periodic table" "الجدول الدوري" "element" "chemical element": no real record'
+- code: B3.3
+  text: state the periodic law, and explain how patterns in the electron arrangement and forces in atoms result in periodic trends […] in the periodic table
+  why: The expectation is about periodic trends and the vocabulary of the periodic table; the museum holds no record on the periodic table or on atoms.
+  searches:
+  - 'find_entity.py "periodic table" "الجدول الدوري" "element" "chemical element": no real record'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: B3.4
+  text: explain the differences between the formation of ionic bonds and the formation of covalent bonds
+  why: The expectation is about electrons, bonds and molecular structure; the museum holds no record on atoms or bonding.
+  searches:
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+  - 'find_entity.py "periodic table" "الجدول الدوري" "element" "chemical element": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+- code: B3.5
+  text: compare and contrast the physical properties of ionic and molecular compounds […]
+  why: The expectation compares the physical properties of ionic and molecular compounds; the museum holds no record on such compounds (the only salt record is a legal one).
+  searches:
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: C1.1
+  text: analyse, on the basis of research, chemical reactions used in various industrial processes […] that can have an impact on the health and safety of local populations [IP, PR, AI, C]
+  why: The expectation asks for research on industrial chemical reactions and their effect on local populations; the museum holds no record on industrial processes in that sense (the papermaking and glass records are about the craft and its places, not the reactions).
+  searches:
+  - 'find_entity.py "paper" "الورق" "papermaking" "warraq": invention/baghdad-papermaking is about establishing the craft in Baghdad, not about its chemical reactions'
+  - 'find_entity.py "glass" "الزجاج" "zujaj" "glassmaking": records on glass types and trade (one used in lesson A-3); none on the reactions of glassmaking'
+  - 'find_entity.py "metal" "المعادن" "ma''adin" "metallurgy": records on mineral ownership, objects and places; none on the reactions of metals'
+- code: C1.2
+  text: assess the effectiveness of some applications of chemical reactions that are used to address social and environmental needs and problems [AI, C]
+  why: The expectation asks the student to assess applications of chemical reactions to social and environmental problems; the museum holds no record on such applications.
+  searches:
+  - 'find_entity.py "pollution" "التلوث" "environment" "bi''a": no record on pollution'
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "soap" "الصابون" "sabun" "saboon": concept/soap-saboon is a legal record on soap in purification; no chemistry or quantities'
+- code: C2.1
+  text: 'use appropriate terminology related to chemical reactions, including, but not limited to: neutralization, precipitate, acidic, and basic [C]'
+  why: The expectation is about types of chemical reactions and their vocabulary; the museum holds no record on reaction types, acids or bases.
+  searches:
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "qali" "alkali" "القلي" "soda": a person (al-Qali) and rulers named Quli; none on alkali chemistry'
+  - 'find_entity.py "fire combustion" "النار" "nar" "burning": concept/fire has no prose; the rest are events of burning and the Fire of the afterlife'
+- code: C2.2
+  text: write balanced chemical equations to represent synthesis, decomposition, single displacement, double displacement, and combustion reactions, using the IUPAC nomenclature system [PR, AI, C]
+  why: The expectation is about writing, testing or predicting chemical equations and single displacement reactions; the museum holds no record on these reactions.
+  searches:
+  - 'find_entity.py "metal" "المعادن" "ma''adin" "metallurgy": records on mineral ownership, objects and places; none on the reactions of metals'
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "sulfuric acid" "حمض الكبريتيك" "vitriol" "zaj": no real record'
+- code: C2.3
+  text: investigate synthesis, decomposition, single displacement, and double displacement reactions, by testing the products of each reaction […] [PR, AI]
+  why: The expectation is about writing, testing or predicting chemical equations and single displacement reactions; the museum holds no record on these reactions.
+  searches:
+  - 'find_entity.py "metal" "المعادن" "ma''adin" "metallurgy": records on mineral ownership, objects and places; none on the reactions of metals'
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "sulfuric acid" "حمض الكبريتيك" "vitriol" "zaj": no real record'
+- code: C2.4
+  text: predict the products of different types of synthesis and decomposition reactions […] [AI]
+  why: The expectation is about types of chemical reactions and their vocabulary; the museum holds no record on reaction types, acids or bases.
+  searches:
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "qali" "alkali" "القلي" "soda": a person (al-Qali) and rulers named Quli; none on alkali chemistry'
+  - 'find_entity.py "fire combustion" "النار" "nar" "burning": concept/fire has no prose; the rest are events of burning and the Fire of the afterlife'
+- code: C2.5
+  text: predict the products of single displacement reactions, using the metal activity series and the halogen series [AI]
+  why: The expectation is about writing, testing or predicting chemical equations and single displacement reactions; the museum holds no record on these reactions.
+  searches:
+  - 'find_entity.py "metal" "المعادن" "ma''adin" "metallurgy": records on mineral ownership, objects and places; none on the reactions of metals'
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "sulfuric acid" "حمض الكبريتيك" "vitriol" "zaj": no real record'
+- code: C2.6
+  text: predict the products of double displacement reactions […] [AI]
+  why: The expectation is about types of chemical reactions and their vocabulary; the museum holds no record on reaction types, acids or bases.
+  searches:
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "qali" "alkali" "القلي" "soda": a person (al-Qali) and rulers named Quli; none on alkali chemistry'
+  - 'find_entity.py "fire combustion" "النار" "nar" "burning": concept/fire has no prose; the rest are events of burning and the Fire of the afterlife'
+- code: C2.7
+  text: design an inquiry to demonstrate the difference between a complete and an incomplete combustion reaction [IP, C]
+  why: The expectation is about complete and incomplete combustion; the museum holds no record on combustion as a chemical reaction.
+  searches:
+  - 'find_entity.py "fire combustion" "النار" "nar" "burning": concept/fire has no prose; the rest are events of burning and the Fire of the afterlife'
+  - 'find_entity.py "gunpowder" "البارود" "saltpeter" "naft": period/gunpowder-empires is a political period, not chemistry'
+- code: C2.8
+  text: plan and conduct an inquiry to compare the properties of non-metal oxide solutions and metal oxide solutions […] [IP, PR, AI]
+  why: The expectation is about acid-base and oxide reactions; the museum holds no record on acids, bases or oxides.
+  searches:
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "qali" "alkali" "القلي" "soda": a person (al-Qali) and rulers named Quli; none on alkali chemistry'
+  - 'find_entity.py "sulfuric acid" "حمض الكبريتيك" "vitriol" "zaj": no real record'
+- code: C2.9
+  text: investigate neutralization reactions […] [PR]
+  why: The expectation is about acid-base and oxide reactions; the museum holds no record on acids, bases or oxides.
+  searches:
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "qali" "alkali" "القلي" "soda": a person (al-Qali) and rulers named Quli; none on alkali chemistry'
+  - 'find_entity.py "sulfuric acid" "حمض الكبريتيك" "vitriol" "zaj": no real record'
+- code: C2.10
+  text: plan and conduct an inquiry to demonstrate a single displacement reaction, using elements from the metal activity series [IP, PR]
+  why: The expectation is about writing, testing or predicting chemical equations and single displacement reactions; the museum holds no record on these reactions.
+  searches:
+  - 'find_entity.py "metal" "المعادن" "ma''adin" "metallurgy": records on mineral ownership, objects and places; none on the reactions of metals'
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "sulfuric acid" "حمض الكبريتيك" "vitriol" "zaj": no real record'
+- code: C3.1
+  text: identify various types of chemical reactions, including synthesis, decomposition, single displacement, double displacement, and combustion
+  why: The expectation is about types of chemical reactions and their vocabulary; the museum holds no record on reaction types, acids or bases.
+  searches:
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "qali" "alkali" "القلي" "soda": a person (al-Qali) and rulers named Quli; none on alkali chemistry'
+  - 'find_entity.py "fire combustion" "النار" "nar" "burning": concept/fire has no prose; the rest are events of burning and the Fire of the afterlife'
+- code: C3.2
+  text: explain the difference between a complete combustion reaction and an incomplete combustion reaction […]
+  why: The expectation is about complete and incomplete combustion; the museum holds no record on combustion as a chemical reaction.
+  searches:
+  - 'find_entity.py "fire combustion" "النار" "nar" "burning": concept/fire has no prose; the rest are events of burning and the Fire of the afterlife'
+  - 'find_entity.py "gunpowder" "البارود" "saltpeter" "naft": period/gunpowder-empires is a political period, not chemistry'
+- code: C3.3
+  text: explain the chemical reactions that result in the formation of acids and bases from metal oxides and non-metal oxides […]
+  why: The expectation is about acid-base and oxide reactions; the museum holds no record on acids, bases or oxides.
+  searches:
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "qali" "alkali" "القلي" "soda": a person (al-Qali) and rulers named Quli; none on alkali chemistry'
+  - 'find_entity.py "sulfuric acid" "حمض الكبريتيك" "vitriol" "zaj": no real record'
+- code: D1.1
+  text: analyse processes in the home, the workplace, and the environmental sector that involve the use of chemical quantities and calculations […] [AI, C]
+  why: The expectation asks for processes at home or work that use chemical quantities; the museum holds no record on such calculations (the soap record is legal).
+  searches:
+  - 'find_entity.py "soap" "الصابون" "sabun" "saboon": concept/soap-saboon is a legal record on soap in purification; no chemistry or quantities'
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+- code: D1.2
+  text: assess, on the basis of research, the importance of quantitative accuracy in industrial chemical processes and the potential impact on the environment if quantitative accuracy is not observed [IP, PR, AI, C]
+  why: The expectation asks for research on quantitative accuracy in industrial processes; the museum holds no record on industrial chemistry (the balance of wisdom concerns weighing, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "paper" "الورق" "papermaking" "warraq": invention/baghdad-papermaking is about establishing the craft in Baghdad, not about its chemical reactions'
+  - 'find_entity.py "glass" "الزجاج" "zujaj" "glassmaking": records on glass types and trade (one used in lesson A-3); none on the reactions of glassmaking'
+- code: D2.1
+  text: 'use appropriate terminology related to quantities in chemical reactions, including, but not limited to: stoichiometry, percentage yield, limiting reagent, mole, and atomic mass [C]'
+  why: The expectation is about the mole, stoichiometry and yield; the museum holds no record on these (the balance of wisdom concerns weighing metals and gems, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: D2.2
+  text: conduct an inquiry to calculate the percentage composition of a compound […] [PR, AI]
+  why: The expectation is about the mole, stoichiometry and yield; the museum holds no record on these (the balance of wisdom concerns weighing metals and gems, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: D2.3
+  text: solve problems related to quantities in chemical reactions by performing calculations involving quantities in moles, number of particles, and atomic mass [AI]
+  why: The expectation is about the mole, stoichiometry and yield; the museum holds no record on these (the balance of wisdom concerns weighing metals and gems, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: D2.4
+  text: determine the empirical formulae and molecular formulae of various chemical compounds, given molar masses and percentage composition or mass data [AI]
+  why: The expectation is about the mole, stoichiometry and yield; the museum holds no record on these (the balance of wisdom concerns weighing metals and gems, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: D2.5
+  text: calculate the corresponding mass, or quantity in moles or molecules, for any given reactant or product in a balanced chemical equation as well as for any other reactant or product in the chemical reaction [AI]
+  why: The expectation is about the mole, stoichiometry and yield; the museum holds no record on these (the balance of wisdom concerns weighing metals and gems, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: D2.6
+  text: solve problems related to quantities in chemical reactions by performing calculations involving percentage yield and limiting reagents [AI]
+  why: The expectation is about the mole, stoichiometry and yield; the museum holds no record on these (the balance of wisdom concerns weighing metals and gems, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: D2.7
+  text: conduct an inquiry to determine the actual yield, theoretical yield, and percentage yield of the products of a chemical reaction […], assess the effectiveness of the procedure, and suggest sources of experimental error [PR, AI]
+  why: The expectation is about the mole, stoichiometry and yield; the museum holds no record on these (the balance of wisdom concerns weighing metals and gems, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: D3.1
+  text: explain the law of definite proportions
+  why: The expectation is about the mole, stoichiometry and yield; the museum holds no record on these (the balance of wisdom concerns weighing metals and gems, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: D3.2
+  text: describe the relationships between Avogadro’s number, the mole concept, and the molar mass of any given substance
+  why: The expectation is about the mole, stoichiometry and yield; the museum holds no record on these (the balance of wisdom concerns weighing metals and gems, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: D3.3
+  text: explain the relationship between the empirical formula and the molecular formula of a chemical compound
+  why: The expectation is about the mole, stoichiometry and yield; the museum holds no record on these (the balance of wisdom concerns weighing metals and gems, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: D3.4
+  text: explain the quantitative relationships expressed in a balanced chemical equation, using appropriate units of measure […]
+  why: The expectation is about the mole, stoichiometry and yield; the museum holds no record on these (the balance of wisdom concerns weighing metals and gems, not reaction quantities).
+  searches:
+  - 'find_entity.py "measurement weights" "الموازين" "mizan" "balance": legal and Qur''anic mizan records and the balance of wisdom (used in lesson A-1); none on chemical quantities or the mole'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: E1.1
+  text: analyse the origins and cumulative effects of pollutants that enter our water systems […], and explain how these pollutants affect water quality [AI, C]
+  why: The expectation asks the student to analyse pollutants entering water systems; the museum holds no record on water pollution.
+  searches:
+  - 'find_entity.py "pollution" "التلوث" "environment" "bi''a": no record on pollution'
+  - 'find_entity.py "water" "الماء" "qanat" "aqueduct": records of ritual purity, the sabil (used in lesson E-1) and concept/water-of-life, which has no prose; none on water chemistry or purification'
+- code: E2.1
+  text: 'use appropriate terminology related to aqueous solutions and solubility, including, but not limited to: concentration, solubility, precipitate, ionization, dissociation, pH, dilute, solute, and solvent [C]'
+  why: The expectation is about concentration, preparing and analysing solutions; the museum holds no record on solutions.
+  searches:
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+  - 'find_entity.py "water" "الماء" "qanat" "aqueduct": records of ritual purity, the sabil (used in lesson E-1) and concept/water-of-life, which has no prose; none on water chemistry or purification'
+- code: E2.2
+  text: solve problems related to the concentration of solutions by performing calculations involving moles, and express the results in various units […] [AI, C]
+  why: The expectation is about concentration, preparing and analysing solutions; the museum holds no record on solutions.
+  searches:
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+  - 'find_entity.py "water" "الماء" "qanat" "aqueduct": records of ritual purity, the sabil (used in lesson E-1) and concept/water-of-life, which has no prose; none on water chemistry or purification'
+- code: E2.3
+  text: prepare solutions of a given concentration by dissolving a solid solute in a solvent or by diluting a concentrated solution [PR]
+  why: The expectation is about concentration, preparing and analysing solutions; the museum holds no record on solutions.
+  searches:
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+  - 'find_entity.py "water" "الماء" "qanat" "aqueduct": records of ritual purity, the sabil (used in lesson E-1) and concept/water-of-life, which has no prose; none on water chemistry or purification'
+- code: E2.4
+  text: conduct an investigation to analyse qualitative and quantitative properties of solutions […] [PR, AI]
+  why: The expectation is about concentration, preparing and analysing solutions; the museum holds no record on solutions.
+  searches:
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+  - 'find_entity.py "water" "الماء" "qanat" "aqueduct": records of ritual purity, the sabil (used in lesson E-1) and concept/water-of-life, which has no prose; none on water chemistry or purification'
+- code: E2.5
+  text: write balanced net ionic equations to represent precipitation and neutralization reactions [AI, C]
+  why: The expectation is about precipitation and net ionic equations; the museum holds no record on these.
+  searches:
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+- code: E2.6
+  text: use stoichiometry to solve problems involving solutions and solubility [AI]
+  why: The expectation is about concentration, preparing and analysing solutions; the museum holds no record on solutions.
+  searches:
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+  - 'find_entity.py "water" "الماء" "qanat" "aqueduct": records of ritual purity, the sabil (used in lesson E-1) and concept/water-of-life, which has no prose; none on water chemistry or purification'
+- code: E2.7
+  text: determine the concentration of an acid or a base in a solution […], using the acid–base titration technique [PR, AI]
+  why: The expectation is about acids and bases, titration and ionization; the museum holds no record on these.
+  searches:
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "qali" "alkali" "القلي" "soda": a person (al-Qali) and rulers named Quli; none on alkali chemistry'
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+- code: E2.8
+  text: conduct an investigation to determine the concentrations of pollutants in their local treated drinking water, and compare the results to commonly used guidelines and standards […] [PR, AI]
+  why: The expectation is an investigation of pollutants in local treated drinking water against Canadian standards; the museum holds no record on water testing or Canadian standards.
+  searches:
+  - 'find_entity.py "water" "الماء" "qanat" "aqueduct": records of ritual purity, the sabil (used in lesson E-1) and concept/water-of-life, which has no prose; none on water chemistry or purification'
+  - 'find_entity.py "pollution" "التلوث" "environment" "bi''a": no record on pollution'
+  - 'find_entity.py "irrigation" "الري" "qanat" "water supply": the city of Rayy and events; none on water supply'
+- code: E3.1
+  text: describe the properties of water […], and explain why these properties make water such a good solvent
+  why: The expectation is about the properties of water as a solvent and solubility; the museum holds no record on these (its water records concern ritual use and the sabil).
+  searches:
+  - 'find_entity.py "water" "الماء" "qanat" "aqueduct": records of ritual purity, the sabil (used in lesson E-1) and concept/water-of-life, which has no prose; none on water chemistry or purification'
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+- code: E3.2
+  text: explain the process of formation for solutions that are produced by dissolving ionic and molecular compounds […] in water, and for solutions that are produced by dissolving non-polar solutes in non-polar solvents […]
+  why: The expectation is about the properties of water as a solvent and solubility; the museum holds no record on these (its water records concern ritual use and the sabil).
+  searches:
+  - 'find_entity.py "water" "الماء" "qanat" "aqueduct": records of ritual purity, the sabil (used in lesson E-1) and concept/water-of-life, which has no prose; none on water chemistry or purification'
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+- code: E3.3
+  text: explain the effects of changes in temperature and pressure on the solubility of solids, liquids, and gases […]
+  why: The expectation is about the properties of water as a solvent and solubility; the museum holds no record on these (its water records concern ritual use and the sabil).
+  searches:
+  - 'find_entity.py "water" "الماء" "qanat" "aqueduct": records of ritual purity, the sabil (used in lesson E-1) and concept/water-of-life, which has no prose; none on water chemistry or purification'
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+- code: E3.4
+  text: identify, using a solubility table, the formation of precipitates in aqueous solutions […]
+  why: The expectation is about precipitation and net ionic equations; the museum holds no record on these.
+  searches:
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "salt" "الملح" "milh" "sodium chloride": concept/milh is a legal record on salt in purity and riba rulings, with no chemistry'
+- code: E3.5
+  text: explain the Arrhenius theory of acids and bases
+  why: The expectation is about acids and bases, titration and ionization; the museum holds no record on these.
+  searches:
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "qali" "alkali" "القلي" "soda": a person (al-Qali) and rulers named Quli; none on alkali chemistry'
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+- code: E3.6
+  text: explain the difference between strong and weak acids, and between strong and weak bases, in terms of degree of ionization
+  why: The expectation is about acids and bases, titration and ionization; the museum holds no record on these.
+  searches:
+  - 'find_entity.py "acid" "الحموضة" "hamd" "alkali": only records on praise (hamd) and an unrelated word; none on acids or bases'
+  - 'find_entity.py "qali" "alkali" "القلي" "soda": a person (al-Qali) and rulers named Quli; none on alkali chemistry'
+  - 'find_entity.py "solution dissolve" "الإذابة" "dissolving" "mixture": no real record'
+- code: F1.1
+  text: analyse the effects on air quality of some technologies and human activities […], including their own activities, and propose actions to reduce their personal carbon footprint [AI, C]
+  why: The expectation is about air quality and Canadian initiatives; the museum holds no record on air quality or on Canadian programs.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "pollution" "التلوث" "environment" "bi''a": no record on pollution'
+- code: F1.2
+  text: assess air quality conditions for a given Canadian location, using Environment Canada’s Air Quality Health Index, and report on some Canadian initiatives to improve air quality and reduce greenhouse gases […] [AI, C]
+  why: The expectation is about air quality and Canadian initiatives; the museum holds no record on air quality or on Canadian programs.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "pollution" "التلوث" "environment" "bi''a": no record on pollution'
+- code: F2.1
+  text: 'use appropriate terminology related to gases and atmospheric chemistry, including, but not limited to: standard temperature, standard pressure, molar volume, and ideal gas [C]'
+  why: The expectation is about gases and the gas laws; the museum holds no record on gases.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "kinetic motion" "الحركة" "matter" "المادة": political movements and astronomy; none on kinetic theory or states of matter'
+- code: F2.2
+  text: determine, through inquiry, the quantitative and graphical relationships between the pressure, volume, and temperature of a gas [PR, AI]
+  why: The expectation is about gases and the gas laws; the museum holds no record on gases.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "kinetic motion" "الحركة" "matter" "المادة": political movements and astronomy; none on kinetic theory or states of matter'
+- code: F2.3
+  text: solve quantitative problems by performing calculations based on Boyle’s law, Charles’s law, Gay-Lussac’s law, the combined gas law, Dalton’s law of partial pressures, and the ideal gas law [AI]
+  why: The expectation is about gases and the gas laws; the museum holds no record on gases.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "kinetic motion" "الحركة" "matter" "المادة": political movements and astronomy; none on kinetic theory or states of matter'
+- code: F2.4
+  text: use stoichiometry to solve problems related to chemical reactions involving gases […] [AI]
+  why: The expectation is about gases and the gas laws; the museum holds no record on gases.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "kinetic motion" "الحركة" "matter" "المادة": political movements and astronomy; none on kinetic theory or states of matter'
+- code: F2.5
+  text: determine, through inquiry, the molar volume or molar mass of a gas produced by a chemical reaction […] [PR, AI]
+  why: The expectation is about gases and the gas laws; the museum holds no record on gases.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "kinetic motion" "الحركة" "matter" "المادة": political movements and astronomy; none on kinetic theory or states of matter'
+- code: F3.1
+  text: identify the major and minor chemical components of Earth’s atmosphere
+  why: The expectation asks for the components of Earth's atmosphere; the museum holds no record on the atmosphere.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "pollution" "التلوث" "environment" "bi''a": no record on pollution'
+- code: F3.2
+  text: describe the different states of matter, and explain their differences in terms of the forces between atoms, molecules, and ions
+  why: The expectation is about states of matter and forces between particles; the museum holds no record on these.
+  searches:
+  - 'find_entity.py "kinetic motion" "الحركة" "matter" "المادة": political movements and astronomy; none on kinetic theory or states of matter'
+  - 'find_entity.py "atom" "الذرة" "jawhar fard" "atomism": no real record'
+- code: F3.3
+  text: use the kinetic molecular theory to explain the properties and behaviour of gases in terms of types and degrees of molecular motion
+  why: The expectation is about gases and the gas laws; the museum holds no record on gases.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "kinetic motion" "الحركة" "matter" "المادة": political movements and astronomy; none on kinetic theory or states of matter'
+- code: F3.4
+  text: describe, for an ideal gas, the quantitative relationships that exist between the variables of pressure, volume, temperature, and amount of substance
+  why: The expectation is about gases and the gas laws; the museum holds no record on gases.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "kinetic motion" "الحركة" "matter" "المادة": political movements and astronomy; none on kinetic theory or states of matter'
+- code: F3.5
+  text: explain Dalton’s law of partial pressures, Boyle’s law, Charles’s law, Gay-Lussac’s law, the combined gas law, and the ideal gas law
+  why: The expectation is about gases and the gas laws; the museum holds no record on gases.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "kinetic motion" "الحركة" "matter" "المادة": political movements and astronomy; none on kinetic theory or states of matter'
+- code: F3.6
+  text: explain Avogadro’s hypothesis and how his contribution to the gas laws has increased our understanding of the chemical reactions of gases
+  why: The expectation is about gases and the gas laws; the museum holds no record on gases.
+  searches:
+  - 'find_entity.py "air" "الهواء" "atmosphere" "gas": no record on the atmosphere or gases (the hits are a gas-field battle, a zakat ruling on gas cylinders and a mosque)'
+  - 'find_entity.py "kinetic motion" "الحركة" "matter" "المادة": political movements and astronomy; none on kinetic theory or states of matter'

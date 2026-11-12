@@ -1,0 +1,39 @@
+id: course/ca-on-g4-math-e-1
+class: course
+kind: lesson
+label:
+  en: Measuring a surface in squares
+  ar: قياس السطح بالمربعات
+  ur: سطح کو مربعوں سے ناپنا
+summary:
+  en: How the area of a rectangle is measured in rows and columns of unit squares (E2.5).
+  ar: كيف تُقاس مساحة المستطيل بصفوف وأعمدة من المربعات الوحدوية ⁦(E2.5)⁩.
+  ur: مستطیل کا رقبہ اکائی مربعوں کی قطاروں اور ستونوں سے کیسے ناپا جاتا ہے ⁦(E2.5)⁩۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g4-math-e
+expectations:
+- code: E2.5
+  text:
+    en: use the row and column structure of an array to measure the areas of rectangles and to show that the area of any rectangle can be found by multiplying its side lengths
+    ar: استعمل بنية الصفوف والأعمدة في المصفوفة لقياس مساحات المستطيلات، وبيّن أن مساحة أي مستطيل تساوي حاصل ضرب طولَي ضلعيه
+    ur: قطاروں اور ستونوں کی ترتیب استعمال کر کے مستطیلوں کا رقبہ ناپیں اور دکھائیں کہ کسی بھی مستطیل کا رقبہ اس کے اضلاع کی لمبائیوں کو ضرب دے کر نکالا جا سکتا ہے
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A cubit by a cubit
+    ar: ذراع في ذراع
+    ur: ایک ذراع ضرب ایک ذراع
+  text:
+    en: Mensuration, the record says, is the science of measuring surfaces and solids. Al-Khwarizmi gave it a chapter of his book on al-jabr and al-muqabala, which opens by saying that "one by one" means an area, that is, a cubit by a cubit. A square of side two is four times that area. How many such squares fit in a rectangle three units by four?
+    ar: يقول السجل إن المساحة علم قياس السطوح والأجسام، وقد خصّه الخوارزمي بباب في كتابه الجبر والمقابلة يبدأ بأن معنى «واحد في واحد» إنما هو مساحة، ومعناه ذراع في ذراع. والمربع المتساوي الأضلاع الذي ضلعه اثنان أربعة أمثال هذا السطح. كم مربعاً من هذه المربعات يتسع له مستطيل طوله ثلاث وحدات وعرضه أربع؟
+    ur: ریکارڈ کہتا ہے کہ مساحت سطحوں اور اجسام کی پیمائش کا علم ہے۔ خوارزمی نے اپنی کتاب الجبر والمقابلہ میں اس کے لیے ایک باب رکھا جو اس بات سے شروع ہوتا ہے کہ «ایک ضرب ایک» کا مطلب رقبہ ہے، یعنی ایک ذراع ضرب ایک ذراع۔ جس مربع کا ضلع دو ہو وہ اس رقبے کا چار گنا ہے۔ تین اکائی لمبے اور چار اکائی چوڑے مستطیل میں ایسے کتنے مربع سماتے ہیں؟
+  entity: concept/ilm-al-misaha
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+order: 1

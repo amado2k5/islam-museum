@@ -1,0 +1,65 @@
+id: course/ca-on-g11-sph3u-a-2
+class: course
+kind: lesson
+label:
+  en: What did scientists contribute?
+  ar: ماذا قدّم العلماء؟
+  ur: سائنس دانوں نے کیا دیا؟
+summary:
+  en: What scientists contributed to the fields of physics under study, and how to tell a contribution from a claim (A2.2).
+  ar: ما قدّمه العلماء في ميادين الفيزياء قيد الدراسة، وكيف نميّز الإسهام من الدعوى (A2.2).
+  ur: زیرِ مطالعہ طبیعیات کے شعبوں میں سائنس دانوں نے کیا دیا، اور خدمت کو دعوے سے کیسے الگ کریں (A2.2)۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g11-sph3u-a
+expectations:
+- code: A2.2
+  text:
+    en: describe the contributions of scientists, including Canadians […], to the fields under study
+    ar: صِف إسهامات العلماء، ومنهم الكنديون […]، في الميادين قيد الدراسة
+    ur: زیرِ مطالعہ شعبوں میں سائنس دانوں، بشمول کینیڈین سائنس دانوں […]، کی خدمات بیان کریں
+connections:
+- position: before
+  kind: scholar
+  title:
+    en: Ibn al-Haytham and his book on optics
+    ar: ابن الهيثم وكتابه في البصريات
+    ur: ابن الہیثم اور بصریات پر ان کی کتاب
+  text:
+    en: Al-Hasan ibn al-Haytham was an Arab scholar of mathematics and physics, known for his book Kitab al-Manazir on optics. The editor of the book's edition describes him as having lived in the fifth century AH. What can one book tell us about a scholar's contribution to a field?
+    ar: الحسن بن الهيثم عالم عربي في الرياضيات والفيزياء، اشتهر بكتابه «المناظر» في البصريات. يصفه محقق طبعة الكتاب بأنه عاش في القرن الخامس الهجري. ماذا يخبرنا كتاب واحد عن إسهام عالم في ميدانه؟
+    ur: الحسن ابن الہیثم ریاضی اور طبیعیات کے عرب عالم تھے، جو بصریات پر اپنی کتاب «المناظر» کے لیے معروف ہیں۔ کتاب کے ایڈیشن کے محقق انہیں پانچویں صدی ہجری کا بتاتے ہیں۔ ایک کتاب کسی عالم کے اپنے میدان میں حصے کے بارے میں ہمیں کیا بتاتی ہے؟
+  entity: person/ibn-al-haytham
+  sources:
+  - source/manazir-sabra-1983
+- position: within
+  kind: invention
+  title:
+    en: A balance for metals and gems
+    ar: ميزان للمعادن والأحجار
+    ur: دھاتوں اور جواہر کے لیے ایک ترازو
+  text:
+    en: Abd al-Rahman al-Khazini described a balance that combines weighing in air, weighing in liquid and calibrated pan positions to investigate metals and gems, as Robert E. Hall explains. The instrument has a long beam, a sensitive indicator tongue and five pans. The record says this is not weighing invented from nothing, but a refinement within a long hydrostatic-balance tradition. Is a refinement a contribution?
+    ar: وصف عبد الرحمن الخازني ميزانًا يجمع الوزن في الهواء والوزن في السائل ومواضع كفف مضبوطة ليختبر المعادن والأحجار، كما يشرح روبرت هول. وللميزان عارضة طويلة ولسان حساس وخمس كفف. ويقول السجل إن القصة ليست اختراع الوزن من الصفر، بل بلوغ تقليد طويل من الموازين المائية مرحلة أدق. هل يُعدّ التحسين إسهامًا؟
+    ur: عبد الرحمٰن الخازنی نے ایک ایسا ترازو بیان کیا جو ہوا میں تول، مائع میں تول اور پلڑوں کے ناپے ہوئے مقامات کو ملا کر دھاتوں اور جواہر کو پرکھتا ہے، جیسا کہ رابرٹ ای ہال بیان کرتے ہیں۔ آلے میں لمبی ڈنڈی، حساس زبان اور پانچ پلڑے ہیں۔ ریکارڈ کہتا ہے کہ یہ تول کی ایجاد صفر سے نہیں، بلکہ مائی ترازوؤں کی طویل روایت کا ایک زیادہ باریک مرحلہ ہے۔ کیا کسی بہتری کو بھی خدمت کہا جا سکتا ہے؟
+  entity: invention/balance-of-wisdom
+  sources:
+  - source/khazini-hall-dsb
+- position: after
+  kind: invention
+  title:
+    en: A vessel that catches displaced water
+    ar: إناء يجمع الماء المزاح
+    ur: ہٹے ہوئے پانی کو جمع کرنے والا برتن
+  text:
+    en: The Balance of Wisdom transmits a conical vessel attributed to Abu Rayhan al-Biruni, which directs displaced water through a side tube into a balance pan. Weighing that water allows sample volume and weight to be compared, but drops can remain in the tube. The record calls this a measurement refinement with operating difficulties, not the invention of buoyancy. What does a contribution look like when its difficulties are recorded too?
+    ar: ينقل «ميزان الحكمة» وصف إناء مخروطي منسوب إلى أبي الريحان البيروني، يوجه الماء المزاح عبر أنبوب جانبي إلى كفة ميزان. وبوزن ذلك الماء يمكن مقارنة حجم العينة ووزنها، لكن قطرات قد تبقى في الأنبوب. ويصفه السجل بأنه تحسين لأداة قياس وصعوبة في تشغيلها، لا اختراع الطفو. كيف يبدو الإسهام حين تُسجَّل صعوباته أيضًا؟
+    ur: «میزان الحکمہ» ایک مخروطی برتن کا بیان نقل کرتا ہے جو ابو ریحان البیرونی سے منسوب ہے اور جو ہٹائے گئے پانی کو ایک پہلو کی نالی سے ترازو کے پلڑے میں پہنچاتا ہے۔ اس پانی کو تول کر نمونے کے حجم اور وزن کا موازنہ ممکن ہے، لیکن نالی میں قطرے رہ سکتے ہیں۔ ریکارڈ اسے پیمائش کی بہتری اور اس کے چلانے کی دشواری کہتا ہے، نہ کہ طفو کی ایجاد۔ جب کسی خدمت کی دشواریاں بھی درج ہوں تو وہ کیسی نظر آتی ہے؟
+  entity: invention/biruni-displacement-vessel
+  sources:
+  - source/khazini-khanikoff-1859
+order: 2

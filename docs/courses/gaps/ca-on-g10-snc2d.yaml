@@ -1,0 +1,440 @@
+course: course/ca-on-g10-snc2d
+gaps:
+- code: A1.1
+  text: formulate scientific questions about observed relationships, ideas, problems, and/or issues, make predictions, and/or formulate hypotheses to focus inquiries or research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: select appropriate instruments […] and materials […] for particular inquiries
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: identify and locate print, electronic, and human sources that are relevant to research questions
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: apply knowledge and understanding of safe practices and procedures when planning investigations […], with the aid of appropriate support materials […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.5
+  text: conduct inquiries, controlling some variables, adapting or extending procedures as required, and using standard equipment and materials safely, accurately, and effectively, to collect observations and data
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.6
+  text: gather data from laboratory and other sources, and organize and record the data using appropriate formats, including tables, flow charts, graphs, and/or diagrams
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.7
+  text: select, organize, and record relevant information on research topics from various sources, including electronic, print, and/or human sources […], using recommended formats and an accepted form of academic documentation
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.8
+  text: analyse and interpret qualitative and/or quantitative data to determine whether the evidence supports or refutes the initial prediction or hypothesis, identifying possible sources of error, bias, or uncertainty
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.9
+  text: analyse the information gathered from research sources for reliability and bias
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.10
+  text: draw conclusions based on inquiry results and research findings, and justify their conclusions
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.11
+  text: communicate ideas, plans, procedures, results, and conclusions orally, in writing, and/or in electronic presentations, using appropriate language and a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.12
+  text: use appropriate numeric, symbolic, and graphic modes of representation, and appropriate units of measurement […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.13
+  text: express the results of any calculations involving data accurately and precisely
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.2
+  text: assess the importance to human health and/or society of medical imaging technologies […] used in Canada in diagnosing or treating abnormalities in tissues, organs, and/or systems [AI, C]
+  why: The expectation asks the student to assess the importance of medical imaging technologies used in Canada; the museum holds no record on imaging technology.
+  searches:
+  - 'find_entity.py "X-ray" "الأشعة" "medical imaging": only work/fatwa-aliftaa-jo-x-rays-while-fasting, a fatwa on X-rays and fasting in Ramadan, which does not assess imaging for health or society'
+  - 'find_entity.py "ultrasound" "MRI" "CT scan" "الرنين المغناطيسي" "التصوير الطبي": no real record'
+- code: B1.3
+  text: describe public health strategies related to systems biology […], and assess their impact on society [AI, C]
+  why: The expectation asks for public health strategies such as screening, vaccines and AIDS education; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "vaccine" "اللقاح" "immunization" "التطعيم": no record on vaccination (the hits are the word liqah, milch camels)'
+  - 'find_entity.py "vaccination" "inoculation" "variolation" "التطعيم": only work/fatwa-aliftaa-jo-forging-a-covid-vaccination-certificate, a fatwa on forging a certificate, not a public health strategy'
+  - 'find_entity.py "AIDS" "HIV" "الإيدز" "cancer screening" "الفحص": no record on a health programme (the hits are battles named Fahs and a source on assessing drugs)'
+  - 'find_entity.py "public health" "الصحة العامة" "hisba": invention/hisba, concept/hisba and work/maalim-al-qurba-fi-ahkam-al-hisba are about market supervision by their titles; none is a health programme on systems biology'
+- code: B2.1
+  text: 'use appropriate terminology related to cells, tissues, organs, and systems of living things, including, but not limited to: absorption, anaphase, capillaries, concentration, differentiation, diffusion, meristematic, mesophyll, phloem, prophase, red blood cells, regeneration, stomate, and xylem [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.2
+  text: examine cells under a microscope or similar instrument to identify the various stages of mitosis in plants and animals [PR, AI]
+  why: A microscope investigation of cells; the museum holds no record on cells or their stages.
+  searches:
+  - 'find_entity.py "mitosis" "الانقسام الخلوي" "cell division": no real record'
+  - 'find_entity.py "cell" "الخلية" "microscope" "المجهر": only unrelated records (Muwatta passages using the word khaliyya in a divorce formula, and groups with "cell" in the name); none on living cells'
+- code: B2.3
+  text: examine different plant and animal cells […] under a microscope or similar instrument, and draw labelled biological diagrams to show how the cells’ organelles differ [PR, C]
+  why: A microscope investigation of cells; the museum holds no record on cells or their stages.
+  searches:
+  - 'find_entity.py "mitosis" "الانقسام الخلوي" "cell division": no real record'
+  - 'find_entity.py "cell" "الخلية" "microscope" "المجهر": only unrelated records (Muwatta passages using the word khaliyya in a divorce formula, and groups with "cell" in the name); none on living cells'
+- code: B2.4
+  text: investigate, using a microscope or similar instrument, specialized cells in the human body or in plants, focusing on different types of cells […], and draw labelled biological diagrams to show the cells’ structural differences [PR, C]
+  why: A microscope investigation of cells; the museum holds no record on cells or their stages.
+  searches:
+  - 'find_entity.py "mitosis" "الانقسام الخلوي" "cell division": no real record'
+  - 'find_entity.py "cell" "الخلية" "microscope" "المجهر": only unrelated records (Muwatta passages using the word khaliyya in a divorce formula, and groups with "cell" in the name); none on living cells'
+- code: B2.5
+  text: investigate the rate of cell division in cancerous and non-cancerous cells, using pictures, videos, or images, and predict the impact of this rate of cell division on an organism [PR, AI]
+  why: A study of the rate of cell division in cancerous and non-cancerous cells; the museum holds no record on cell division or cancer.
+  searches:
+  - 'find_entity.py "mitosis" "الانقسام الخلوي" "cell division": no real record'
+  - 'find_entity.py "cancer" "السرطان" "tumour": only source/worldwide-cancer-network-farouk-el-baz, a source record with no prose'
+- code: B2.6
+  text: investigate, through a laboratory or computer-simulated dissection of a plant, worm, fish, or frog, the interrelationships between organ systems of a plant or an animal […] [PR, AI]
+  why: A laboratory or simulated dissection of a plant, worm, fish or frog; the museum holds no record of such a dissection. The closest, concept/anatomy, is about human anatomy and says its author did not dissect, so it does not answer the expectation.
+  searches:
+  - 'find_entity.py "dissection" "التشريح" "anatomy": concept/anatomy, in which Ibn al-Nafis says he did not dissect himself; no record of a laboratory dissection'
+  - 'find_entity.py "frog" "الضفدع" "fish dissection" "worm" "plant dissection": concept/frog (no prose) and event/frog-rain-amid-833 (a rain of frogs); no dissection'
+- code: B3.1
+  text: describe the cell cycle in plants and animals, and explain the importance of mitosis for the growth of cells and repair of tissues
+  why: The cell cycle and the role of mitosis in growth and repair; the museum holds no record on cells.
+  searches:
+  - 'find_entity.py "mitosis" "الانقسام الخلوي" "cell division": no real record'
+  - 'find_entity.py "cell" "الخلية" "microscope" "المجهر": only unrelated records (Muwatta passages using the word khaliyya in a divorce formula, and groups with "cell" in the name); none on living cells'
+- code: B3.2
+  text: explain the importance of cell division and cell specialization in generating new tissues and organs […]
+  why: Cell division and specialisation in forming tissues, stem cells and meristematic cells; the museum holds no record on either.
+  searches:
+  - 'find_entity.py "stem cell" "الخلايا الجذعية" "differentiation": no real record'
+  - 'find_entity.py "tissue" "الأنسجة" "organ system" "specialized cell": only work/fatwa-aliftaa-jo-bone-grafts-from-human-or-animal-sources, a fatwa on grafts in dental implants (by its title), not on how cells specialise'
+  - 'find_entity.py "plant" "photosynthesis" "النبات" "الفلاحة": no record on plant physiology (the hits are a hadith, a naming custom, a ruling on a sweet-scented plant and the plant-cloning fatwa already linked)'
+- code: C1.1
+  text: analyse, on the basis of research, various safety and environmental issues associated with chemical reactions and their reactants and/or product(s) […] [IP, PR, AI, C]
+  why: Safety and environmental issues of chemical reactions (cyanide in gold mining, corrosion, pool chemicals); the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "cyanide" "gold mining" "التعدين" "pollution": no real record'
+  - 'find_entity.py "media bias" "climate" "environment" "البيئة" "حماية البيئة": concept/environmental-protection-in-islam, one author''s reading of pollution and the Qur''an; it names no chemical reaction and no climate initiative'
+- code: C1.2
+  text: analyse how an understanding of the properties of chemical substances and their reactions can be applied to solve environmental challenges […] [AI, C]
+  why: Applying the chemistry of substances and reactions to environmental challenges; the museum holds no record on the chemistry or on such challenges.
+  searches:
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "media bias" "climate" "environment" "البيئة" "حماية البيئة": concept/environmental-protection-in-islam, one author''s reading of pollution and the Qur''an; it names no chemical reaction and no climate initiative'
+- code: C2.1
+  text: 'use appropriate terminology related to chemical reactions, including, but not limited to: compounds, product, and reactant [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.2
+  text: construct molecular models to illustrate the structure of molecules in simple chemical reactions […], and produce diagrams of these models [PR, C]
+  why: Molecular models, simple reactions and balanced equations; the museum holds no record that describes a reaction, a molecule or an equation.
+  searches:
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "atom" "الذرة" "element" "molecule": no record on atomic theory (the hits are hadiths on an atom''s weight of pride and concept/four-elements, the classical four elements)'
+  - 'find_entity.py "alchemy" "الكيمياء" "chemistry": concept/sinaat-al-kimiya and person/jabir-ibn-hayyan report what the alchemists claimed (via Ibn al-Nadim); neither describes a reaction'
+  - 'find_entity.py grep -rEil "vitriol|sulphuric|chemical reaction|chemistry" content/en/invention content/en/concept content/en/work: invention/razi-substance-classification, a classification of materials in six classes that the record says is not the invention of all chemistry; it describes no reaction to link'
+- code: C2.3
+  text: investigate simple chemical reactions, including synthesis, decomposition, and displacement reactions, and represent them using a variety of formats […] [PR, AI, C]
+  why: Molecular models, simple reactions and balanced equations; the museum holds no record that describes a reaction, a molecule or an equation.
+  searches:
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "atom" "الذرة" "element" "molecule": no record on atomic theory (the hits are hadiths on an atom''s weight of pride and concept/four-elements, the classical four elements)'
+  - 'find_entity.py "alchemy" "الكيمياء" "chemistry": concept/sinaat-al-kimiya and person/jabir-ibn-hayyan report what the alchemists claimed (via Ibn al-Nadim); neither describes a reaction'
+  - 'find_entity.py grep -rEil "vitriol|sulphuric|chemical reaction|chemistry" content/en/invention content/en/concept content/en/work: invention/razi-substance-classification, a classification of materials in six classes that the record says is not the invention of all chemistry; it describes no reaction to link'
+- code: C2.4
+  text: use an inquiry process to investigate the law of conservation of mass in a chemical reaction […], and account for any discrepancies [PR, AI]
+  why: The law of conservation of mass in a reaction; the museum holds no record on it or on weighing a reaction before and after.
+  searches:
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py grep -rEil "chemical change|chemical reaction|chemistry" content/en/invention content/en/concept content/en/work: invention/balance-of-wisdom, a hydrostatic balance for weighing metals and gems; its summary describes no before-and-after measurement of a reaction'
+- code: C2.5
+  text: plan and conduct an inquiry to identify the evidence of chemical change […] [IP, PR, AI]
+  why: Evidence of chemical change (gas, precipitate, colour, heat); the museum holds no record that describes a chemical change.
+  searches:
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "alchemy" "الكيمياء" "chemistry": concept/sinaat-al-kimiya and person/jabir-ibn-hayyan report what the alchemists claimed (via Ibn al-Nadim); neither describes a reaction'
+- code: C2.6
+  text: plan and conduct an inquiry to classify some common substances as acidic, basic, or neutral […] [IP, PR, AI]
+  why: Acids, bases, neutralisation and the pH scale; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "acid" "الحمض" "base" "neutralization": no record on acids and bases (the hits are the "base" of a column or a pipe and a siege)'
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "alchemy" "الكيمياء" "chemistry": concept/sinaat-al-kimiya and person/jabir-ibn-hayyan report what the alchemists claimed (via Ibn al-Nadim); neither describes a reaction'
+- code: C3.1
+  text: describe the relationships between chemical formulae, composition, and names of binary compounds […]
+  why: Chemical formulae, binary and ionic compounds and polyatomic ions; the museum holds no record on chemical compounds or formulae.
+  searches:
+  - 'find_entity.py "compound" "المركب" "formula": no record on chemical compounds (the hits are compound drugs such as the tiryaq and the basmala formula)'
+  - 'find_entity.py "atom" "الذرة" "element" "molecule": no record on atomic theory (the hits are hadiths on an atom''s weight of pride and concept/four-elements, the classical four elements)'
+  - 'find_entity.py grep -rEil "vitriol|sulphuric|chemical reaction|chemistry" content/en/invention content/en/concept content/en/work: invention/razi-substance-classification, a classification of materials in six classes that the record says is not the invention of all chemistry; it describes no reaction to link'
+- code: C3.2
+  text: explain, using the law of conservation of mass and atomic theory, the rationale for balancing chemical equations
+  why: Molecular models, simple reactions and balanced equations; the museum holds no record that describes a reaction, a molecule or an equation.
+  searches:
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "atom" "الذرة" "element" "molecule": no record on atomic theory (the hits are hadiths on an atom''s weight of pride and concept/four-elements, the classical four elements)'
+  - 'find_entity.py "alchemy" "الكيمياء" "chemistry": concept/sinaat-al-kimiya and person/jabir-ibn-hayyan report what the alchemists claimed (via Ibn al-Nadim); neither describes a reaction'
+  - 'find_entity.py grep -rEil "vitriol|sulphuric|chemical reaction|chemistry" content/en/invention content/en/concept content/en/work: invention/razi-substance-classification, a classification of materials in six classes that the record says is not the invention of all chemistry; it describes no reaction to link'
+- code: C3.3
+  text: describe the types of evidence that indicate chemical change […]
+  why: Evidence of chemical change (gas, precipitate, colour, heat); the museum holds no record that describes a chemical change.
+  searches:
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "alchemy" "الكيمياء" "chemistry": concept/sinaat-al-kimiya and person/jabir-ibn-hayyan report what the alchemists claimed (via Ibn al-Nadim); neither describes a reaction'
+- code: C3.4
+  text: write word equations and balanced chemical equations for simple chemical reactions […]
+  why: Molecular models, simple reactions and balanced equations; the museum holds no record that describes a reaction, a molecule or an equation.
+  searches:
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "atom" "الذرة" "element" "molecule": no record on atomic theory (the hits are hadiths on an atom''s weight of pride and concept/four-elements, the classical four elements)'
+  - 'find_entity.py "alchemy" "الكيمياء" "chemistry": concept/sinaat-al-kimiya and person/jabir-ibn-hayyan report what the alchemists claimed (via Ibn al-Nadim); neither describes a reaction'
+  - 'find_entity.py grep -rEil "vitriol|sulphuric|chemical reaction|chemistry" content/en/invention content/en/concept content/en/work: invention/razi-substance-classification, a classification of materials in six classes that the record says is not the invention of all chemistry; it describes no reaction to link'
+- code: C3.5
+  text: describe, on the basis of observation, the reactants in and products of a variety of chemical reactions, including synthesis, decomposition, and displacement reactions […]
+  why: Molecular models, simple reactions and balanced equations; the museum holds no record that describes a reaction, a molecule or an equation.
+  searches:
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "atom" "الذرة" "element" "molecule": no record on atomic theory (the hits are hadiths on an atom''s weight of pride and concept/four-elements, the classical four elements)'
+  - 'find_entity.py "alchemy" "الكيمياء" "chemistry": concept/sinaat-al-kimiya and person/jabir-ibn-hayyan report what the alchemists claimed (via Ibn al-Nadim); neither describes a reaction'
+  - 'find_entity.py grep -rEil "vitriol|sulphuric|chemical reaction|chemistry" content/en/invention content/en/concept content/en/work: invention/razi-substance-classification, a classification of materials in six classes that the record says is not the invention of all chemistry; it describes no reaction to link'
+- code: C3.6
+  text: describe the process of acid–base neutralization (i.e., an acid reacts with a base to form a salt and often water)
+  why: Acids, bases, neutralisation and the pH scale; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "acid" "الحمض" "base" "neutralization": no record on acids and bases (the hits are the "base" of a column or a pipe and a siege)'
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "alchemy" "الكيمياء" "chemistry": concept/sinaat-al-kimiya and person/jabir-ibn-hayyan report what the alchemists claimed (via Ibn al-Nadim); neither describes a reaction'
+- code: C3.7
+  text: describe how the pH scale is used to classify solutions as acidic, basic, or neutral […]
+  why: Acids, bases, neutralisation and the pH scale; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "acid" "الحمض" "base" "neutralization": no record on acids and bases (the hits are the "base" of a column or a pipe and a siege)'
+  - 'find_entity.py "chemical reaction" "التفاعل الكيميائي" "combustion": no real record'
+  - 'find_entity.py "alchemy" "الكيمياء" "chemistry": concept/sinaat-al-kimiya and person/jabir-ibn-hayyan report what the alchemists claimed (via Ibn al-Nadim); neither describes a reaction'
+- code: C3.8
+  text: identify simple ionic compounds […], simple compounds involving polyatomic ions […], molecular compounds […], and acids […], using the periodic table and a list of the most common polyatomic ions […], and write the formulae
+  why: Chemical formulae, binary and ionic compounds and polyatomic ions; the museum holds no record on chemical compounds or formulae.
+  searches:
+  - 'find_entity.py "compound" "المركب" "formula": no record on chemical compounds (the hits are compound drugs such as the tiryaq and the basmala formula)'
+  - 'find_entity.py "atom" "الذرة" "element" "molecule": no record on atomic theory (the hits are hadiths on an atom''s weight of pride and concept/four-elements, the classical four elements)'
+  - 'find_entity.py grep -rEil "vitriol|sulphuric|chemical reaction|chemistry" content/en/invention content/en/concept content/en/work: invention/razi-substance-classification, a classification of materials in six classes that the record says is not the invention of all chemistry; it describes no reaction to link'
+- code: D1.1
+  text: analyse current and/or potential effects, both positive and negative, of climate change on human activity and natural systems […] [AI, C]
+  why: The effects of climate change on human activity and natural systems; the museum holds no record on climate change or its effects (the flood records are historical floods).
+  searches:
+  - 'find_entity.py "climate change" "التغير المناخي" "global warming": no real record'
+  - 'find_entity.py "drought" "الجفاف" "desertification" "التصحر" "flood": concept/flood and accounts of floods at Mecca and Damascus; none concerns climate change or its effects'
+  - 'find_entity.py "glacier" "الجليد" "ice core" "sea level": no real record'
+- code: D1.2
+  text: assess, on the basis of research, the effectiveness of some current individual, regional, national, or international initiatives that address the issue of climate change […], and propose a further course of action related to one of these initiatives [PR, AI, C]
+  why: The effectiveness of initiatives that address climate change; the museum holds no record on any climate initiative.
+  searches:
+  - 'find_entity.py "climate change" "التغير المناخي" "global warming": no real record'
+  - 'find_entity.py "media bias" "climate" "environment" "البيئة" "حماية البيئة": concept/environmental-protection-in-islam, one author''s reading of pollution and the Qur''an; it names no chemical reaction and no climate initiative'
+  - 'find_entity.py "fossil fuel" "الوقود الأحفوري" "emissions" "deforestation": no real record'
+- code: D2.1
+  text: 'use appropriate terminology related to climate change, including, but not limited to: albedo, anthropogenic, atmosphere, cycles, heat sinks, and hydrosphere [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D2.2
+  text: design and build a model to illustrate the natural greenhouse effect, and use the model to explain the anthropogenic greenhouse effect [IP, PR, C]
+  why: Building a model of the natural and anthropogenic greenhouse effect; the museum holds no record on the greenhouse effect.
+  searches:
+  - 'find_entity.py "greenhouse" "الاحتباس الحراري" "carbon dioxide": no real record'
+  - 'find_entity.py "fossil fuel" "الوقود الأحفوري" "emissions" "deforestation": no real record'
+- code: D2.3
+  text: analyse different sources of scientific data […] for evidence of natural climate change and climate change influenced by human activity [PR, AI, C]
+  why: Scientific data (lake cores, tree rings, ice cores) as evidence of climate change; the museum holds no record on such data.
+  searches:
+  - 'find_entity.py "glacier" "الجليد" "ice core" "sea level": no real record'
+  - 'find_entity.py "climate change" "التغير المناخي" "global warming": no real record'
+  - 'find_entity.py "media bias" "climate" "environment" "البيئة" "حماية البيئة" (same search, second hit): it also lists source/nasa-milankovitch-cycles, a source record, not an entity with prose to restate'
+- code: D2.4
+  text: investigate a popular hypothesis on a cause-and-effect relationship having to do with climate change […], using simulations and/or time-trend data that model climate profiles […] [PR, AI, C]
+  why: Investigating a hypothesis on a cause of climate change with simulations or time-trend data; the museum holds no record on climate change.
+  searches:
+  - 'find_entity.py "climate change" "التغير المناخي" "global warming": no real record'
+  - 'find_entity.py "greenhouse" "الاحتباس الحراري" "carbon dioxide": no real record'
+- code: D2.5
+  text: investigate, through laboratory inquiry or simulations, the effects of heat transfer within the hydrosphere and atmosphere [PR, AI]
+  why: Heat transfer in the hydrosphere and atmosphere and its effects on currents; the museum holds no record on heat transfer.
+  searches:
+  - 'find_entity.py "heat transfer" "convection" "انتقال الحرارة" "wind" "الرياح": concept/wind has no prose; no record on heat transfer'
+  - 'find_entity.py "ocean current" "التيارات البحرية" "sea" "البحر": concept/sea has no prose; no record on currents'
+- code: D2.6
+  text: investigate, through laboratory inquiry or simulations, how water in its various states influences climate patterns […] [PR, AI]
+  why: How water in its states shapes climate patterns; the museum holds no record on this.
+  searches:
+  - 'find_entity.py "weather" "الطقس" "rainfall" "المطر" "temperature": concept/rain has no prose; the rest are hadith passages, accounts of rain after a prayer and work/kitab-al-matar-ibn-abi-al-dunya, a book on rain and wind, not a record of climate patterns'
+  - 'find_entity.py "glacier" "الجليد" "ice core" "sea level": no real record'
+  - 'find_entity.py "ocean current" "التيارات البحرية" "sea" "البحر": concept/sea has no prose; no record on currents'
+- code: D2.7
+  text: investigate, through research or simulations, the influence of ocean currents on local and global heat transfer and precipitation patterns [PR, AI]
+  why: The influence of ocean currents on heat transfer and precipitation; the museum holds no record on ocean currents.
+  searches:
+  - 'find_entity.py "ocean current" "التيارات البحرية" "sea" "البحر": concept/sea has no prose; no record on currents'
+  - 'find_entity.py "heat transfer" "convection" "انتقال الحرارة" "wind" "الرياح": concept/wind has no prose; no record on heat transfer'
+- code: D2.9
+  text: compare different perspectives and/or biases evident in discussions of climate change in scientific and non-scientific media […] [AI, C]
+  why: Comparing perspectives and biases in discussions of climate change in scientific and non-scientific media; the museum holds no record of such a discussion.
+  searches:
+  - 'find_entity.py "climate change" "التغير المناخي" "global warming": no real record'
+  - 'find_entity.py "media bias" "climate" "environment" "البيئة" "حماية البيئة": concept/environmental-protection-in-islam, one author''s reading of pollution and the Qur''an; it names no chemical reaction and no climate initiative'
+- code: D3.1
+  text: describe the principal components of Earth’s climate system […] and how the system works
+  why: The principal components of Earth's climate system and how it works; the museum holds no record that describes it.
+  searches:
+  - 'find_entity.py "climate" "المناخ" "climes" "الأقاليم": concept/al-aqalim-al-saba (linked in lesson d-1) and concept/athar-al-iqlim describe a division of the inhabited earth and its supposed effect on people; neither describes a climate system or climate data'
+  - 'find_entity.py "climate change" "التغير المناخي" "global warming": no real record'
+  - 'find_entity.py "weather" "الطقس" "rainfall" "المطر" "temperature": concept/rain has no prose; the rest are hadith passages, accounts of rain after a prayer and work/kitab-al-matar-ibn-abi-al-dunya, a book on rain and wind, not a record of climate patterns'
+- code: D3.2
+  text: describe and explain heat transfer in the hydrosphere and atmosphere and its effects on air and water currents
+  why: Heat transfer in the hydrosphere and atmosphere and its effects on currents; the museum holds no record on heat transfer.
+  searches:
+  - 'find_entity.py "heat transfer" "convection" "انتقال الحرارة" "wind" "الرياح": concept/wind has no prose; no record on heat transfer'
+  - 'find_entity.py "ocean current" "التيارات البحرية" "sea" "البحر": concept/sea has no prose; no record on currents'
+- code: D3.3
+  text: describe the natural greenhouse effect, explain its importance for life, and distinguish it from the anthropogenic greenhouse effect
+  why: The greenhouse effect and the sources, sinks and heat-trapping action of greenhouse gases; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "greenhouse" "الاحتباس الحراري" "carbon dioxide": no real record'
+  - 'find_entity.py "fossil fuel" "الوقود الأحفوري" "emissions" "deforestation": no real record'
+  - 'find_entity.py "climate change" "التغير المناخي" "global warming": no real record'
+- code: D3.4
+  text: identify natural phenomena […] and human activities […] known to affect climate, and describe the role of both in Canada’s contribution to climate change
+  why: Natural phenomena and human activities that affect climate, and Canada's part; the museum holds no record on climate drivers or on Canada's contribution.
+  searches:
+  - 'find_entity.py "fossil fuel" "الوقود الأحفوري" "emissions" "deforestation": no real record'
+  - 'find_entity.py "climate change" "التغير المناخي" "global warming": no real record'
+  - 'find_entity.py "ecoregion" "Ontario" "أونتاريو" "Canada" "كندا": place/canada and place/ontario hold no prose; no record on ecoregions or bioclimate'
+- code: D3.5
+  text: describe the principal sources and sinks, both natural and/or anthropogenic, of greenhouse gases […]
+  why: The greenhouse effect and the sources, sinks and heat-trapping action of greenhouse gases; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "greenhouse" "الاحتباس الحراري" "carbon dioxide": no real record'
+  - 'find_entity.py "fossil fuel" "الوقود الأحفوري" "emissions" "deforestation": no real record'
+  - 'find_entity.py "climate change" "التغير المناخي" "global warming": no real record'
+- code: D3.6
+  text: describe how different carbon and nitrogen compounds […] influence the trapping of heat in the atmosphere and hydrosphere
+  why: The greenhouse effect and the sources, sinks and heat-trapping action of greenhouse gases; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "greenhouse" "الاحتباس الحراري" "carbon dioxide": no real record'
+  - 'find_entity.py "fossil fuel" "الوقود الأحفوري" "emissions" "deforestation": no real record'
+  - 'find_entity.py "climate change" "التغير المناخي" "global warming": no real record'
+- code: D3.7
+  text: describe, in general terms, the causes and effects of the anthropogenic greenhouse effect, the depletion of stratospheric and tropospheric ozone, and the formation of ground-level ozone and smog
+  why: The anthropogenic greenhouse effect, ozone depletion, ground-level ozone and smog; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "ozone" "الأوزون" "atmosphere" "الغلاف الجوي": only source/nasa-atmosphere-ueyama, a source record with no prose'
+  - 'find_entity.py "greenhouse" "الاحتباس الحراري" "carbon dioxide": no real record'
+- code: D3.8
+  text: identify and describe indicators of global climate change […]
+  why: Indicators of global climate change (glacial ice, sea levels, wind patterns); the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "glacier" "الجليد" "ice core" "sea level": no real record'
+  - 'find_entity.py "climate change" "التغير المناخي" "global warming": no real record'
+  - 'find_entity.py "ocean current" "التيارات البحرية" "sea" "البحر": concept/sea has no prose; no record on currents'
+- code: E1.1
+  text: analyse a technological device or procedure related to human perception of light […], and evaluate its effectiveness [AI, C]
+  why: The expectation asks the student to analyse a device or procedure related to human perception of light (eyeglasses, contact lenses, laser surgery); the museum holds no record of such a device. The nearest record is a theory of vision, not a device.
+  searches:
+  - 'find_entity.py "eyeglasses" "النظارات" "spectacles" "reading stone": no real record'
+  - 'find_entity.py "magnifying glass" "العدسة المكبرة" "glass lens" "قراءة": no record on lenses (the hits are Qur''an recitation passages, qira''a)'
+  - 'find_entity.py "vision" "العين" "eye" "ophthalmology" (class invention): invention/haytham-incoming-light-vision is a theory of how we see, not a technological device or procedure'
+- code: E2.1
+  text: 'use appropriate terminology related to light and optics, including, but not limited to: angle of incidence, angle of reflection, angle of refraction, focal point, luminescence, magnification, mirage, and virtual image [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: E2.4
+  text: use an inquiry process to investigate the refraction of light as it passes through media of different refractive indices, compile data on their findings, and analyse the data to determine if there is a trend […] [PR, AI, C]
+  why: Refraction of light through media of different refractive indices; the museum holds no record on refractive index or on refraction in lenses and glass (al-Farisi's sphere, linked in lesson e-1, is about a rainbow, not about measuring refraction).
+  searches:
+  - 'find_entity.py "refraction" "الانكسار" "lens" "العدسة": only media/ammar-eye-context, a modern picture of the eye with no prose'
+  - 'find_entity.py "speed of light" "سرعة الضوء" "refractive index" "معامل الانكسار": no real record'
+- code: E2.5
+  text: predict, using ray diagrams and algebraic equations, the position and characteristics of an image produced by a converging lens, and test their predictions through inquiry [PR, AI, C]
+  why: Images formed by converging lenses, by ray diagrams and equations; the museum holds no record on lenses.
+  searches:
+  - 'find_entity.py "refraction" "الانكسار" "lens" "العدسة": only media/ammar-eye-context, a modern picture of the eye with no prose'
+  - 'find_entity.py "magnifying glass" "العدسة المكبرة" "glass lens" "قراءة": no record on lenses (the hits are Qur''an recitation passages, qira''a)'
+- code: E2.6
+  text: calculate, using the indices of refraction, the velocity of light as it passes through a variety of media, and explain the angles of refraction with reference to the variations in velocity [PR, C]
+  why: The velocity of light in different media from their indices of refraction; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "speed of light" "سرعة الضوء" "refractive index" "معامل الانكسار": no real record'
+  - 'find_entity.py "refraction" "الانكسار" "lens" "العدسة": only media/ammar-eye-context, a modern picture of the eye with no prose'
+- code: E3.1
+  text: describe and explain various types of light emissions […]
+  why: Types of light emission (chemiluminescence, bioluminescence, fluorescence and others); the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "bioluminescence" "fluorescence" "luminescence" "التلألؤ": no real record'
+  - 'find_entity.py "electromagnetic spectrum" "الطيف" "light" "الضوء": hadith passages and concept/asma-al-nur on divine light; none describes types of light emission or the spectrum'
+- code: E3.2
+  text: identify and label the visible and invisible regions of the electromagnetic spectrum
+  why: The visible and invisible regions of the electromagnetic spectrum; the museum holds no record on the spectrum.
+  searches:
+  - 'find_entity.py "electromagnetic" "الطيف الكهرومغناطيسي" "infrared" "ultraviolet": no real record'
+  - 'find_entity.py "electromagnetic spectrum" "الطيف" "light" "الضوء": hadith passages and concept/asma-al-nur on divine light; none describes types of light emission or the spectrum'
+- code: E3.4
+  text: explain the conditions required for partial reflection/refraction and for total internal reflection in lenses, and describe the reflection/refraction using labelled ray diagrams
+  why: The conditions for partial reflection or refraction and total internal reflection in lenses; the museum holds no record on lenses or on total internal reflection.
+  searches:
+  - 'find_entity.py "refraction" "الانكسار" "lens" "العدسة": only media/ammar-eye-context, a modern picture of the eye with no prose'
+  - 'find_entity.py "speed of light" "سرعة الضوء" "refractive index" "معامل الانكسار": no real record'
+- code: E3.5
+  text: describe the characteristics and positions of images formed by converging lenses […], with the aid of ray diagrams
+  why: Images formed by converging lenses, by ray diagrams and equations; the museum holds no record on lenses.
+  searches:
+  - 'find_entity.py "refraction" "الانكسار" "lens" "العدسة": only media/ammar-eye-context, a modern picture of the eye with no prose'
+  - 'find_entity.py "magnifying glass" "العدسة المكبرة" "glass lens" "قراءة": no record on lenses (the hits are Qur''an recitation passages, qira''a)'
+- code: E3.6
+  text: identify ways in which the properties of mirrors and lenses (both converging and diverging) determine their use in optical instruments […]
+  why: How the properties of mirrors and lenses fix their use in cameras, telescopes, binoculars and microscopes; the museum holds no record on such instruments (the dark room of lesson e-1 has neither mirror nor lens).
+  searches:
+  - 'find_entity.py "telescope" "microscope" "المجهر" "المنظار": no real record'
+  - 'find_entity.py "magnifying glass" "العدسة المكبرة" "glass lens" "قراءة": no record on lenses (the hits are Qur''an recitation passages, qira''a)'
+- code: E3.7
+  text: identify the factors, in qualitative and quantitative terms, that affect the refraction of light as it passes from one medium to another
+  why: Refraction of light through media of different refractive indices; the museum holds no record on refractive index or on refraction in lenses and glass (al-Farisi's sphere, linked in lesson e-1, is about a rainbow, not about measuring refraction).
+  searches:
+  - 'find_entity.py "refraction" "الانكسار" "lens" "العدسة": only media/ammar-eye-context, a modern picture of the eye with no prose'
+  - 'find_entity.py "speed of light" "سرعة الضوء" "refractive index" "معامل الانكسار": no real record'

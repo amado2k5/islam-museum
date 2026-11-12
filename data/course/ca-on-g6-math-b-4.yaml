@@ -1,0 +1,45 @@
+id: course/ca-on-g6-math-b-4
+class: course
+kind: lesson
+label:
+  en: Divisors and factors
+  ar: القواسم والعوامل
+  ur: مقسوم علیہ اور اجزائے ضربی
+summary:
+  en: Divisibility rules, and writing composite numbers as products of prime factors.
+  ar: قواعد القابلية للقسمة، وكتابة الأعداد المركّبة حاصل ضرب عوامل أولية.
+  ur: تقسیم پذیری کے قاعدے، اور مرکب اعداد کو مفرد اجزائے ضربی کے حاصلِ ضرب کی صورت میں لکھنا۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g6-math-b
+expectations:
+- code: B2.2
+  text:
+    en: understand the divisibility rules and use them to determine whether numbers are divisible by 2, 3, 4, 5, 6, 8, 9, and 10
+    ar: افهم قواعد القابلية للقسمة واستخدمها لتحديد ما إذا كانت الأعداد تقبل القسمة على 2 و3 و4 و5 و6 و8 و9 و10
+    ur: تقسیم پذیری کے قاعدے سمجھیں اور انہیں استعمال کر کے طے کریں کہ اعداد 2، 3، 4، 5، 6، 8، 9 اور 10 پر تقسیم ہوتے ہیں یا نہیں
+- code: B2.6
+  text:
+    en: represent composite numbers as a product of their prime factors, including through the use of factor trees
+    ar: مثّل الأعداد المركّبة بوصفها حاصل ضرب عواملها الأولية، ومن ذلك استخدام أشجار العوامل
+    ur: مرکب اعداد کو ان کے مفرد اجزائے ضربی کے حاصلِ ضرب کے طور پر ظاہر کریں، بشمول عوامل کے درختوں کے استعمال کے
+connections:
+- position: within
+  kind: invention
+  title:
+    en: Two numbers that give each other
+    ar: عددان يعيد كل منهما الآخر
+    ur: دو اعداد جو ایک دوسرے کو لوٹاتے ہیں
+  text:
+    ar: قد يجمع عدد قواسمه فيعطي عدداً آخر، ثم تعيد قواسم الآخر العدد الأول. يسمى العددان المختلفان متحابين، مثل 220 و284. لم يخترع كمال الدين الفارسي هذا المثال أو قاعدة ثابت بن قرة الأقدم؛ مساهمته هنا منهج جديد بالعوامل والاختيارات لإثبات القاعدة. ما قواسم 220؟
+    en: A number can yield another when its proper divisors are added, and the other's divisors can lead back to the first. Two different numbers with this property are amicable, like 220 and 284. The record says Kamal al-Din al-Farisi did not invent this example or Thabit ibn Qurra's older rule; his contribution here is a new factorization approach to proving the rule. What are the divisors of 220?
+    ur: ایک عدد کے خاص مقسوم علیہ جمع ہوں تو دوسرا عدد آئے، اور دوسرے کے مقسوم علیہ پہلے کو واپس دیں۔ دو مختلف اعداد کا ایسا جوڑا متحاب کہلاتا ہے، مثلاً 220 اور 284۔ کمال الدین فارسی نے یہ مثال یا ثابت بن قرہ کا قدیم قاعدہ ایجاد نہیں کیا؛ یہاں ان کی خدمت عوامل کے ذریعے اس قاعدے کے اثبات کا نیا طریقہ ہے۔ 220 کے مقسوم علیہ کیا ہیں؟
+  entity: invention/farisi-amicable-factorization
+  sources:
+  - source/farisi-mactutor
+  - source/weisstein-amicable-pair
+order: 4

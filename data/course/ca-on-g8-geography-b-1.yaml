@@ -1,0 +1,52 @@
+id: course/ca-on-g8-geography-b-1
+class: course
+kind: lesson
+label:
+  en: Who works for others' wellbeing?
+  ar: من يعمل لصالح غيره؟
+  ur: دوسروں کی بھلائی کے لیے کون کام کرتا ہے؟
+summary:
+  en: Groups and institutions that work to improve people's lives, and what each one focuses on, seen through two historical cases (B3.5).
+  ar: جماعات ومؤسسات تعمل على تحسين حياة الناس، وما يركّز عليه كل منها، من خلال حالتين تاريخيتين (B3.5).
+  ur: وہ گروہ اور ادارے جو لوگوں کی زندگی بہتر بنانے کے لیے کام کرتے ہیں، اور ہر ایک کی توجہ کا محور، دو تاریخی مثالوں کے ذریعے (B3.5)۔
+sources:
+- source/ontario-curriculum-sshg-2023
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g8-geography-b
+expectations:
+- code: B3.5
+  text:
+    en: identify various groups and organizations that work to improve quality of life […], and describe their focus
+    ar: حدّد جماعات ومنظمات مختلفة تعمل على تحسين جودة الحياة […]، وصِف محور عمل كل منها
+    ur: ایسے مختلف گروہوں اور تنظیموں کی نشاندہی کریں جو معیارِ زندگی بہتر بنانے کے لیے کام کرتی ہیں […] اور ان کی توجہ کا محور بیان کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A gift that keeps working
+    ar: عطاء يدوم
+    ur: ایسا عطیہ جو جاری رہتا ہے
+  text:
+    en: A waqf is an act by which an owner locks the capital of a property away from sale, gift and inheritance, and gives its yield to a good cause for ever. The TDV encyclopedia says that from the mid-eighth to the late nineteenth century this system founded and ran most of the mosques, colleges, hospitals, fountains and soup kitchens of Muslim cities. How does such a gift keep working?
+    ar: الوقف تصرّف يحبس فيه المالك أصل ماله عن البيع والهبة والإرث، ويجعل غلّته لوجه من وجوه البر على الدوام. وتقول موسوعة TDV إن الوقف صار من منتصف القرن الثامن إلى أواخر القرن التاسع عشر نظاماً يقوم عليه أكثر ما في المدن الإسلامية من مساجد ومدارس ومستشفيات وسُبل وعمارات. كيف يظل عطاء كهذا يعمل؟
+    ur: وقف ایسا تصرف ہے جس میں مالک اپنی جائیداد کا اصل بیع، ہبہ اور وراثت سے ہمیشہ کے لیے روک لیتا ہے اور اس کی آمدنی کسی نیکی کے کام کے لیے مقرر کر دیتا ہے۔ TDV کا انسائیکلوپیڈیا کہتا ہے کہ آٹھویں صدی کے وسط سے انیسویں صدی کے آخر تک یہ نظام مسلم شہروں کی اکثر مساجد، مدارس، ہسپتالوں، سبیلوں اور لنگر خانوں کو قائم کرتا اور چلاتا رہا۔ ایسا عطیہ کیسے چلتا رہتا ہے؟
+  entity: invention/waqf
+  sources:
+  - source/tdv-vakif
+- position: after
+  kind: place
+  title:
+    en: A hospital with endowments
+    ar: مارستان بأوقاف
+    ur: اوقاف والا ہسپتال
+  text:
+    en: Ibn al-Jawzi's history records the hospital built in Baghdad by the Buyid Adud al-Dawla, opened at the beginning of Rabi II 372 AH. Physicians, medicines, stewards, servants, vessels and clothing were gathered there, endowments were set for those who stayed in it, and the poor were given the clothing and vessels that left it. What kept the hospital supplied?
+    ar: يذكر ابن الجوزي البيمارستان الذي بناه عضد الدولة البويهي في بغداد وافتُتح في أول ربيع الآخر سنة 372هـ. جُمع فيه الأطباء والأدوية والقوّام والخدم والآنية والكسوة، وجُعلت أوقاف لمن يقيم فيه، وأُعطي الفقراء ما يخرج من كسوة وآنية. ما الذي أبقى المكان مزوّداً؟
+    ur: ابنِ جوزی کی تاریخ اس ہسپتال کا ذکر کرتی ہے جو بغداد میں بویہی عضدالدولہ نے بنوایا اور ربیع الآخر 372ھ کے شروع میں کھلا۔ وہاں طبیب، دوائیں، منتظم، خادم، برتن اور کپڑے جمع کیے گئے، وہاں ٹھہرنے والوں کے لیے اوقاف مقرر کیے گئے، اور غریبوں کو وہ کپڑے اور برتن دیے گئے جو وہاں سے نکلتے تھے۔ اس جگہ کو سامان کیسے ملتا رہا؟
+  entity: building/bimaristan-adudi
+  sources:
+  - source/muntazam-ibn-al-jawzi
+order: 1

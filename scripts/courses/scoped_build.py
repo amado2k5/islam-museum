@@ -5,6 +5,7 @@ The same `astro build`, config, layouts, components, styles and data as the real
 the pages the oracles look at:
     /[lang]/learn/courses/**   the courses surface
     /[lang]/learn/index        a neighbour, for the boundary oracle
+    /[lang]/ and /             the homepage, which carries the section on the courses experience
 A full build renders about 164,000 pages; this one renders a few dozen in about a minute. The method is the Grand Tour
 run's (scripts/fable/scoped-build.sh on release/uat): site/src is copied verbatim into a sibling folder at the same depth,
 so every relative import resolves as in the real tree.
@@ -20,7 +21,7 @@ import os, shutil, subprocess, sys
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 TMP = os.path.join(ROOT, ".courses-site")
 CFG = os.path.join(ROOT, "site", ".astro-courses.config.mjs")
-PAGES = ["[lang]/learn/courses", "[lang]/learn/index.astro"]
+PAGES = ["[lang]/learn/courses", "[lang]/learn/index.astro", "[lang]/index.astro", "index.astro"]
 
 
 def build(src=None, out=None):

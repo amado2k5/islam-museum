@@ -1,0 +1,63 @@
+id: course/ca-on-g10-snc2d-b-1
+class: course
+kind: lesson
+label:
+  ar: كيف تعمل أجزاء الجسم معًا
+  en: How the parts of a body work together
+  ur: جسم کے حصے مل کر کیسے کام کرتے ہیں
+summary:
+  ar: كيف صُنّفت الأعضاء، وماذا قيل عن عمل الأعضاء الرئيسة، وكيف يلتقي التنفس بالدورة الدموية، كما كتب أطباء العصر الوسيط ⁦(B3.3 وB3.4 وB3.5)⁩.
+  en: How organs were grouped, what the principal organs were said to do, and how the blood's route runs through the lungs, as medieval physicians wrote it (B3.3, B3.4, B3.5).
+  ur: اعضاء کی درجہ بندی کیسے ہوئی، بنیادی اعضاء کے بارے میں کیا کہا گیا کہ وہ کیا کرتے ہیں، اور سانس اور گردشِ خون کیسے ملتے ہیں، جیسا کہ قرونِ وسطیٰ کے اطبا نے لکھا ⁦(B3.3، B3.4 اور B3.5)⁩۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g10-snc2d-b
+expectations:
+- code: B3.3
+  text:
+    en: explain the links between specialized cells, tissues, organs, and systems in plants and animals […]
+    ar: اشرح الروابط بين الخلايا المتخصصة والأنسجة والأعضاء والأجهزة في النبات والحيوان […]
+    ur: پودوں اور جانوروں میں مخصوص خلیوں، بافتوں، اعضاء اور نظاموں کے درمیان روابط واضح کریں […]
+- code: B3.4
+  text:
+    en: explain the primary functions of a variety of systems in animals […]
+    ar: اشرح الوظائف الأساسية لمجموعة متنوعة من الأجهزة في الحيوان […]
+    ur: جانوروں کے مختلف نظاموں کے بنیادی افعال بیان کریں […]
+- code: B3.5
+  text:
+    en: explain the interaction of different systems within an organism […] and why such interactions are necessary for the organism’s survival
+    ar: اشرح تفاعل الأجهزة المختلفة داخل الكائن الحي […] ولماذا يلزم هذا التفاعل لبقاء الكائن
+    ur: کسی جاندار کے اندر مختلف نظاموں کے باہمی عمل کی وضاحت کریں […] اور یہ کہ جاندار کی بقا کے لیے یہ عمل کیوں ضروری ہے
+connections:
+- position: before
+  kind: reflection
+  title:
+    ar: أعضاء مفردة وأعضاء مركّبة
+    en: Simple organs, composite organs
+    ur: سادہ اعضاء اور مرکب اعضاء
+  text:
+    ar: 'في «القانون» يقسم ابن سينا الأعضاء إلى مفردة، كاللحم والعظم والعصب، ومركّبة، كاليد والوجه. ويعدّ من الأعضاء الرئيسة بحسب بقاء الشخص ثلاثة: القلب مبدأ قوة الحياة، والدماغ مبدأ قوة الحس والحركة، والكبد مبدأ قوة التغذية. ويذكر ابن النفيس أنه لم يباشر التشريح بنفسه. كيف يعتمد بعض الأعضاء والأجهزة على بعض؟'
+    en: 'In the Canon, Ibn Sina divides organs into simple ones, such as flesh, bone and nerve, and composite ones, such as the hand and the face. Of the principal organs he counts three: the heart, source of the power of life, the brain, of sensation and movement, and the liver, of nutrition. Ibn al-Nafis says he did not dissect himself. How do organs and systems depend on one another?'
+    ur: '«القانون» میں ابن سینا اعضاء کو سادہ میں تقسیم کرتے ہیں، جیسے گوشت، ہڈی اور عصب، اور مرکب میں، جیسے ہاتھ اور چہرہ۔ بنیادی اعضاء میں وہ فرد کی بقا کے لحاظ سے تین گنتے ہیں: دل قوتِ حیات کا مبدا، دماغ حس و حرکت کا مبدا، اور جگر تغذیہ کی قوت کا مبدا۔ ابن نفیس بتاتے ہیں کہ انہوں نے خود چیر پھاڑ نہیں کی۔ اعضاء اور نظام ایک دوسرے پر کیسے منحصر ہوتے ہیں؟'
+  entity: concept/anatomy
+  sources:
+  - source/canon-ibn-sina-print-v1
+  - source/sharh-tashrih-qanun-print
+- position: after
+  kind: invention
+  title:
+    ar: ابن النفيس ومرور الدم عبر الرئتين
+    en: Ibn al-Nafis and the blood's way through the lungs
+    ur: ابن نفیس اور پھیپھڑوں سے خون کا گزر
+  text:
+    ar: كتب الطبيب ابن النفيس في القرن السابع الهجري، في شرحه على تشريح قانون ابن سينا، أن الدم لا يعبر من البطين الأيمن إلى البطين الأيسر من مسامّ في الحاجز بينهما كما قال جالينوس، لأن الحاجز هناك مصمت؛ بل يدخل البطين الأيسر من الرئة. ويراه جون وست (2008) أول وصف معروف للدورة الدموية الرئوية. لماذا يحتاج الدم إلى المرور بالرئتين؟
+    en: In the thirteenth century the physician Ibn al-Nafis wrote, in his commentary on the anatomy of Ibn Sina's Canon, that blood does not cross from the right ventricle to the left through pores in the wall between them, as Galen had taught, because that wall is solid; it reaches the left ventricle from the lung. John West (2008) calls this the first known description of the pulmonary circulation. Why does the blood need to pass through the lungs?
+    ur: تیرھویں صدی میں طبیب ابن نفیس نے ابن سینا کے «القانون» کی تشریح پر اپنی شرح میں لکھا کہ خون دائیں بطن سے بائیں بطن میں ان کے بیچ کی دیوار کے مسامات سے نہیں گزرتا جیسا کہ جالینوس نے کہا تھا، کیونکہ وہ دیوار ٹھوس ہے؛ بلکہ وہ بائیں بطن میں پھیپھڑے سے پہنچتا ہے۔ جون ویسٹ (2008) اسے پھیپھڑوں کی دورانِ خون کا پہلا معلوم بیان قرار دیتے ہیں۔ خون کو پھیپھڑوں سے کیوں گزرنا پڑتا ہے؟
+  entity: invention/pulmonary-circulation
+  sources:
+  - source/west-2008-ibn-al-nafis
+order: 1

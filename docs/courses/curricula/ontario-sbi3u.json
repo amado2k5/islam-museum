@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-sbi3u",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "Science",
+  "url_slug": "secondary-science",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-science"
+ },
+ "course_code": "SBI3U",
+ "ministry_course_name": "SBI3U",
+ "course": "Biology",
+ "grade": [
+  "11"
+ ],
+ "retrieved_utc": "2026-11-12T06:10:08Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=521750a7-8327-4751-8a09-0b26705416a6&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2026-08-28T15:39:20.6022539Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "63c0cbabfa580c74ae99133224123f65bbd3bb0a6a2c92bbd107ee76aa0b3752",
+  "official.json": "40537625db4b01ecf0f74327c67975fe85c7e71c3bf24b7eb2ef92564aee23c1"
+ },
+ "counts": {
+  "strands": 6,
+  "overall_expectations": 17,
+  "specific_expectations": 67
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

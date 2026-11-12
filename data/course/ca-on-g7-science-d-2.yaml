@@ -1,0 +1,52 @@
+id: course/ca-on-g7-science-d-2
+class: course
+kind: lesson
+label:
+  en: Arches and domes
+  ar: العقود والقباب
+  ur: محراب اور گنبد
+summary:
+  en: Looking at two arched and domed structures and deciding whether each is solid, frame or shell (D2.1).
+  ar: النظر في منشأتين معقودتين ومقببتين والحكم هل كل منهما صلبة أم هيكلية أم قشرية، التوقع D2.1.
+  ur: دو محرابی اور گنبد دار ڈھانچوں کو دیکھنا اور فیصلہ کرنا کہ ہر ایک ٹھوس ہے، فریم ہے یا خول، توقع D2.1۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g7-science-d
+expectations:
+- code: D2.1
+  text:
+    en: classify structures as solid structures, frame structures, or shell structures
+    ar: صنِّف المنشآت إلى منشآت صلبة ومنشآت هيكلية ومنشآت قشرية
+    ur: ڈھانچوں کو ٹھوس ڈھانچوں، فریم ڈھانچوں یا خول ڈھانچوں میں درجہ بند کریں
+connections:
+- position: within
+  kind: place
+  title:
+    en: A square room under a dome
+    ar: غرفة مربعة مقببة
+    ur: گنبد تلے مربع کمرہ
+  text:
+    en: The chahartaq is a square domed chamber rising on four crossing arches; from it came stellate vaults built over cruciform domed chambers. Is it a solid, a frame or a shell structure, and why?
+    ar: الجهارطاق غرفة مربعة مقببة تقوم على تقاطع أربعة عقود، ومنها جاءت الأقبية النجمية المبنية على الغرف المقببة الصليبية. فهل هو منشأة صلبة أم هيكلية أم قشرية، ولماذا؟
+    ur: چہار طاق چار باہم کٹتی محرابوں پر قائم مربع گنبد دار کمرہ ہے؛ اسی سے صلیبی گنبد دار کمروں پر بنی ستارہ نما محرابی چھتیں نکلیں۔ کیا یہ ٹھوس، فریم یا خول ڈھانچہ ہے، اور کیوں؟
+  entity: concept/chahartaq
+  sources:
+  - source/rezavi-iranian-influence-indian-architecture-2002
+- position: after
+  kind: place
+  title:
+    en: An arch like an upturned boat
+    ar: عقد كقارب مقلوب
+    ur: الٹی کشتی جیسی محراب
+  text:
+    en: The keel arch is a pointed arch shaped like an upturned boat; it replaced the round arches of the first al-Azhar mosque. In the qibla-arcade dome of al-Azhar the dome rests on keel arches over antique columns braced by wooden tie-beams (timber beams that tie the columns together), which Yeomans sees as much lighter than the solid brick piers of Tulunid building. Which parts carry the weight here?
+    ar: العقد المنكسر عقد مدبب على هيئة قارب مقلوب، حلّ محل العقود المستديرة في الجامع الأزهر الأول. وفي قبة رواق القبلة بالجامع الأزهر، من عهد الحافظ، تقوم القبة على عقود منكسرة فوق أعمدة قديمة تربطها روابط خشبية ⁦(عوارض من الخشب تشدّ الأعمدة بعضها إلى بعض)⁩؛ ويرى يومانز أنها أخف كثيراً من دعائم الآجر الطولونية الصلبة. فأي الأجزاء يحمل الثقل هنا؟
+    ur: کشتی نما محراب ایک نوکدار محراب ہے جو الٹی کشتی کی شکل کی ہوتی ہے؛ اس نے پہلی جامع ازہر کی گول محرابوں کی جگہ لی۔ جامع ازہر کے قبلہ رواق کے گنبد میں گنبد قدیم ستونوں پر قائم کشتی نما محرابوں پر ٹکا ہے جنہیں لکڑی کی کڑیاں ⁦(لکڑی کے شہتیر جو ستونوں کو باہم باندھتے ہیں)⁩ باندھتی ہیں؛ یومانز کے نزدیک یہ طولونی ٹھوس اینٹ کے ستونوں سے کہیں ہلکی ہیں۔ یہاں وزن کون سے حصے اٹھاتے ہیں؟
+  entity: concept/keel-arch
+  sources:
+  - source/yeomans-islamic-cairo-2006
+order: 2

@@ -1,0 +1,40 @@
+id: course/ca-on-g2-math-b-1
+class: course
+kind: lesson
+label:
+  en: Numbers written in places
+  ar: الأعداد المكتوبة في خانات
+  ur: خانوں میں لکھے ہوئے اعداد
+summary:
+  en: Reading, building and breaking apart whole numbers to 200.
+  ar: قراءة الأعداد الصحيحة حتى 200 وتركيبها وتحليلها.
+  ur: 200 تک مکمل اعداد کو پڑھنا، جوڑنا اور توڑنا۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g2-math-b
+expectations:
+- code: B1.1
+  text:
+    en: read, represent, compose, and decompose whole numbers up to and including 200, using a variety of tools and strategies, and describe various ways they are used in everyday life
+    ar: اقرأ الأعداد الصحيحة حتى 200 وشاملةً لها، ومثّلها وركّبها وحلّلها، باستخدام مجموعة متنوعة من الأدوات والاستراتيجيات، وصِف طرقًا مختلفة لاستخدامها في الحياة اليومية
+    ur: 200 تک اور 200 سمیت مکمل اعداد کو مختلف اوزاروں اور حکمتِ عملیوں سے پڑھیں، ظاہر کریں، جوڑیں اور توڑیں، اور روزمرہ زندگی میں ان کے استعمال کے مختلف طریقے بیان کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: Nine numerals and a zero
+    ar: تسعة أرقام وصفر
+    ur: نو ہندسے اور ایک صفر
+  text:
+    en: 'Algorism is a way of writing and working numbers with nine numerals and a zero, in which each place takes its value from its position: units, then tens, then hundreds. Muhammad ibn Musa al-Khwarizmi wrote a book on it in Baghdad, through which the Indian numerals and the decimal system entered the Islamic world. How would you show your number as tens and ones?'
+    ar: 'الحساب الهندي طريقة في كتابة الأعداد وحسابها بتسعة أرقام وصفر، تأخذ فيها كل خانة قيمتها من موضعها: آحاد ثم عشرات ثم مئات. ألّف فيها محمد بن موسى الخوارزمي في بغداد كتابًا دخلت به الأرقام الهندية والنظام العشري إلى العالم الإسلامي. كيف تُظهر عددك عشرات وآحادًا؟'
+    ur: 'ہندی حساب اعداد کو نو ہندسوں اور ایک صفر سے لکھنے اور ان سے حساب کرنے کا طریقہ ہے، جس میں ہر خانہ اپنی قیمت اپنے مقام سے لیتا ہے: اکائیاں، پھر دہائیاں، پھر سینکڑے۔ محمد بن موسیٰ خوارزمی نے بغداد میں اس پر ایک کتاب لکھی جس کے ذریعے ہندی ہندسے اور اعشاری نظام عالمِ اسلام میں داخل ہوئے۔ آپ اپنے عدد کو دہائیوں اور اکائیوں میں کیسے دکھائیں گے؟'
+  entity: invention/algorism
+  sources:
+  - source/tdv-harizmi
+  - source/khwarizmi-jabr-cairo-1939
+order: 1

@@ -1,0 +1,58 @@
+id: course/ca-on-g8-math-b-2
+class: course
+kind: lesson
+label:
+  en: Roots, and numbers that never end
+  ar: الجذور والأعداد التي لا تنتهي
+  ur: جذر اور وہ اعداد جو ختم نہیں ہوتے
+summary:
+  en: Ordering rational and irrational numbers, and estimating and calculating square roots (B1.2, B1.3).
+  ar: ترتيب الأعداد النسبية وغير النسبية، وتقدير الجذور التربيعية وحسابها، التوقعان B1.2 وB1.3.
+  ur: ناطق اور غیر ناطق اعداد کو ترتیب دینا، اور جذر المربع کا تخمینہ لگانا اور اسے نکالنا، توقعات B1.2 اور B1.3۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g8-math-b
+expectations:
+- code: B1.2
+  text:
+    en: describe, compare, and order numbers in the real number system (rational and irrational numbers), separately and in combination, in various contexts
+    ar: صِف الأعداد في منظومة الأعداد الحقيقية ⁦(الأعداد النسبية وغير النسبية)⁩، وقارن بينها ورتّبها، منفردةً ومجتمعةً، في سياقات متنوعة
+    ur: حقیقی اعداد کے نظام ⁦(ناطق اور غیر ناطق اعداد)⁩ میں اعداد کو الگ الگ اور مل کر، مختلف سیاق میں بیان کریں، ان کا موازنہ کریں اور انہیں ترتیب دیں
+- code: B1.3
+  text:
+    en: estimate and calculate square roots, in various contexts
+    ar: قدِّر الجذور التربيعية واحسبها في سياقات متنوعة
+    ur: مختلف سیاق میں جذر المربع کا تخمینہ لگائیں اور انہیں حل کریں
+connections:
+- position: before
+  kind: invention
+  title:
+    en: Finding a number from its power
+    ar: استخراج العدد من قوته
+    ur: طاقت سے عدد نکالنا
+  text:
+    en: 'In the Key to Arithmetic, al-Kashi treated numerical extraction of roots of general orders, not only square roots. The record says root extraction reverses raising a number to a power: the positive cube root of eight is two because 2³=8, and when a number gives no whole-number answer a procedure needs an approximation and some account of what it guarantees. It calls this development of inherited computation, not the first root ever known. What should an approximation tell you?'
+    ar: 'في «مفتاح الحساب» عرض غياث الدين الكاشي حساب الجذور لمراتب عامة، لا الجذر التربيعي وحده. ويقول السجل إن استخراج الجذر يعكس رفع العدد إلى قوة: الجذر التكعيبي الموجب لثمانية هو اثنان لأن 2³=8، وحين لا يعطي العدد جواباً صحيحاً تاماً يلزم تقريب وبيان ما يضمنه. ويصف ذلك بأنه تطوير حساب موروث، لا أول جذر عرفه الإنسان. ماذا ينبغي أن يخبرك التقريب؟'
+    ur: '«مفتاح الحساب» میں غیاث الدین الکاشی نے صرف جذر المربع نہیں بلکہ عام درجوں کے جذر نکالنے کا بیان کیا۔ ریکارڈ کہتا ہے کہ جذر نکالنا عدد کو طاقت پر چڑھانے کا الٹ ہے: آٹھ کا مثبت تکعیبی جذر دو ہے کیونکہ 2³=8، اور جب عدد پورا صحیح جواب نہ دے تو طریقے کو ایک تخمینہ اور اس کی ضمانت کا بیان چاہیے۔ وہ اسے وراثت میں ملے حساب کی ترقی کہتا ہے، نہ کہ انسان کو معلوم پہلا جذر۔ تخمینہ آپ کو کیا بتائے؟'
+  entity: invention/kashi-general-root-extraction
+  sources:
+  - source/kashi-mactutor
+  - source/iranica-kashi
+- position: after
+  kind: invention
+  title:
+    en: An irrational number inside an equation
+    ar: مقدار غير ناطقة داخل معادلة
+    ur: مساوات کے اندر غیر ناطق مقدار
+  text:
+    en: 'The record says Abu Kamil''s algebra admitted irrational quantities into the coefficients of equations as well as into their solutions. It separates the two: an equation with integer coefficients such as x²=2 has an irrational positive solution, while in x²+√2·x=4 an irrational quantity sits in the coefficient itself. The second equation is the museum''s teaching example, not a line from the book. Say, for each equation, where the irrational quantity appears.'
+    ar: 'يقول السجل إن جبر أبي كامل أدخل الكميات غير الناطقة في معاملات المعادلة أيضاً، لا في حلولها وحدها. ويفرّق بين الأمرين: معادلة معاملاتها صحيحة مثل x²=2 لها حل موجب غير ناطق، أما في x²+√2·x=4 ففيها مقدار غير ناطق داخل المعامل نفسه. والمعادلة الثانية مثال تعليمي من إعداد المتحف، لا سطر من الكتاب. حدّد في كل معادلة موضع المقدار غير الناطق.'
+    ur: 'ریکارڈ کہتا ہے کہ ابو کامل کی الجبر نے غیر ناطق مقداروں کو صرف حلوں میں نہیں بلکہ مساوات کے عددی سرائب میں بھی داخل کیا۔ وہ دونوں باتوں کو الگ کرتا ہے: صحیح سرائب والی مساوات جیسے x²=2 کا مثبت حل غیر ناطق ہے، جبکہ x²+√2·x=4 میں غیر ناطق مقدار خود سرائب کے اندر ہے۔ دوسری مساوات میوزیم کی تدریسی مثال ہے، کتاب کی کوئی سطر نہیں۔ ہر مساوات میں بتائیں کہ غیر ناطق مقدار کہاں آتی ہے۔'
+  entity: invention/abu-kamil-irrational-coefficients
+  sources:
+  - source/tdv-abu-kamil
+order: 2

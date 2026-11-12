@@ -1,0 +1,59 @@
+id: course/ca-on-g5-math-b-1
+class: course
+kind: lesson
+label:
+  en: Numbers that take their value from their place
+  ar: أعداد تأخذ قيمتها من موضعها
+  ur: ایسے اعداد جو اپنی جگہ سے قدر پاتے ہیں
+summary:
+  en: How whole numbers are read and composed by place, and how decimal numbers continue place value below one (B1.1, B1.5).
+  ar: كيف تُقرأ الأعداد الصحيحة وتُركَّب بحسب الخانات، وكيف تواصل الأعداد العشرية القيمة المكانية دون الواحد، التوقعان B1.1 وB1.5.
+  ur: مکمل اعداد کیسے مقام کے لحاظ سے پڑھے اور بنائے جاتے ہیں، اور اعشاری اعداد ایک سے نیچے مقامی قدر کو کیسے آگے بڑھاتے ہیں، توقعات B1.1، B1.5۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g5-math-b
+expectations:
+- code: B1.1
+  text:
+    en: read, represent, compose, and decompose whole numbers up to and including 100 000, using appropriate tools and strategies, and describe various ways they are used in everyday life
+    ar: اقرأ الأعداد الصحيحة حتى 100 000 ضمناً، ومثّلها، وركّبها، وفكّكها، مستخدماً الأدوات والاستراتيجيات المناسبة، وصِف طرقاً متنوعة تُستعمل بها في الحياة اليومية
+    ur: 100 000 تک ⁦(بشمول)⁩ مکمل اعداد کو پڑھیں، ظاہر کریں، جوڑیں اور توڑیں، مناسب اوزار اور حکمتِ عملیاں استعمال کرتے ہوئے، اور روزمرہ زندگی میں ان کے استعمال کے مختلف طریقے بیان کریں
+- code: B1.5
+  text:
+    en: read, represent, compare, and order decimal numbers up to hundredths, in various contexts
+    ar: اقرأ الأعداد العشرية حتى أجزاء المئة، ومثّلها، وقارن بينها، ورتّبها، في سياقات متنوعة
+    ur: سوویں حصے تک اعشاری اعداد کو پڑھیں، ظاہر کریں، ان کا موازنہ کریں اور انہیں ترتیب دیں، مختلف سیاق میں
+connections:
+- position: before
+  kind: invention
+  title:
+    en: Numbers that take their value from their place
+    ar: أعداد تأخذ قيمتها من موضعها
+    ur: ایسے اعداد جو اپنی جگہ سے قدر پاتے ہیں
+  text:
+    en: 'Algorism is a way of writing and working numbers with nine numerals and a zero, in which each place takes its value from its position: units, then tens, then hundreds, then thousands. Muhammad ibn Musa al-Khwarizmi wrote a book on it in Baghdad, through which the Indian numerals and the decimal system entered the Islamic world. In the numbers 5, 50 and 500, what is the digit 5 worth in each?'
+    ar: 'الحساب الهندي طريقةٌ في كتابة الأعداد وحسابها بتسعة أرقام وصفر، تأخذ فيها كل خانة قيمتها من موضعها: آحاد ثم عشرات ثم مئات ثم ألوف. ألّف فيها محمد بن موسى الخوارزمي في بغداد كتاباً دخلت به الأرقام الهندية والنظام العشري إلى العالم الإسلامي. في الأعداد 5 و50 و500، كم تساوي الخمسة في كل منها؟'
+    ur: 'ہندی حساب اعداد کو نو ہندسوں اور صفر سے لکھنے اور ان پر عمل کرنے کا طریقہ ہے، جس میں ہر خانہ اپنی قدر اپنے مقام سے لیتا ہے: اکائیاں، پھر دہائیاں، پھر سیکڑے، پھر ہزار۔ محمد بن موسیٰ خوارزمی نے بغداد میں اس پر ایک کتاب لکھی جس کے ذریعے ہندی ہندسے اور اعشاری نظام اسلامی دنیا میں داخل ہوا۔ اعداد 5، 50 اور 500 میں ہر ایک میں ہندسہ پانچ کی قدر کیا ہے؟'
+  entity: invention/algorism
+  sources:
+  - source/tdv-harizmi
+- position: after
+  kind: invention
+  title:
+    en: Tenths and hundredths
+    ar: الأعشار والأجزاء من مئة
+    ur: دسویں اور سویں حصے
+  text:
+    en: A half can be written as five tenths, and half of that as twenty-five hundredths. A book composed by Abu al-Hasan al-Uqlidisi at Damascus in 341/952–953 contains an early direct treatment of such fractions within Indian place-value arithmetic. The record adds that this is not the invention of Indian numerals or of today's decimal point. Which place holds the five in five tenths?
+    ar: نصف الواحد يمكن أن يكتب خمسة أعشار، ونصف النصف خمسة وعشرين جزءاً من مئة. في كتاب ألّفه أبو الحسن الإقليدسي بدمشق سنة 341هـ/952–953م نجد معالجة مبكرة مباشرة لمثل هذه الكسور داخل الحساب الهندي ذي القيمة المكانية. وليست القصة اختراع الأرقام الهندية أو النقطة العشرية الحالية. في أي خانة يقع الخمسة في خمسة أعشار؟
+    ur: ایک کا نصف پانچ دسویں حصے لکھا جا سکتا ہے، اور اس کا نصف پچیس سویں حصے۔ ابو الحسن اقلیدسی نے دمشق میں 341ھ/952–953ء میں جو کتاب لکھی، اس میں ہندی مقامی قدر والے حساب کے اندر ایسے کسروں کا ایک ابتدائی براہِ راست بیان ملتا ہے۔ ریکارڈ بتاتا ہے کہ یہ ہندی ہندسوں یا آج کے اعشاری نقطے کی ایجاد نہیں۔ پانچ دسویں میں پانچ کس خانے میں آتا ہے؟
+  entity: invention/decimal-fractions-al-uqlidisi
+  sources:
+  - source/tdv-oklidisi
+  - source/uqlidisi-saidan-dsb
+  - source/uqlidisi-mactutor
+order: 1

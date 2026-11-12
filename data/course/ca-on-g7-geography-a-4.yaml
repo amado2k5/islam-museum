@@ -1,0 +1,52 @@
+id: course/ca-on-g7-geography-a-4
+class: course
+kind: lesson
+label:
+  en: Rivers in flood
+  ar: الأنهار في الفيضان
+  ur: دریا طغیانی میں
+summary:
+  en: 'Describing the patterns and physical characteristics of major rivers: the Nile''s yearly flood and a Euphrates flood (A3.4).'
+  ar: 'وصف أنماط الأنهار الكبرى وخصائصها الطبيعية: فيضان النيل السنوي وفيضان للفرات (A3.4).'
+  ur: 'بڑے دریاؤں کے نمونوں اور طبعی خصوصیات کا بیان: نیل کی سالانہ طغیانی اور فرات کی ایک طغیانی (A3.4)۔'
+sources:
+- source/ontario-curriculum-sshg-2023
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g7-geography-a
+expectations:
+- code: A3.4
+  text:
+    en: describe patterns and physical characteristics of some major water bodies and systems around the world […]
+    ar: صِف أنماط بعض المسطحات والمنظومات المائية الكبرى حول العالم وخصائصها الطبيعية […]
+    ur: دنیا کے بعض بڑے آبی ذخائر اور آبی نظاموں کے نمونوں اور طبعی خصوصیات کو بیان کریں […]
+connections:
+- position: before
+  kind: place
+  title:
+    en: Measuring the Nile's flood
+    ar: قياس فيضان النيل
+    ur: نیل کی طغیانی کی پیمائش
+  text:
+    en: On Rawda Island in Cairo stands a stone-lined pit built in 862 to measure the height of the Nile waters during the annual flood; Yeomans says its readings were essential in setting irrigation policy. Its column is divided into nineteen cubits, and the sixteenth-cubit mark stands for the ideal flood level. What does a river's yearly rise and fall mean to people who farm beside it?
+    ar: في جزيرة الروضة بالقاهرة بئر مبطنة بالحجر بُنيت سنة 862م لقياس ارتفاع ماء النيل أيام الفيضان السنوي، ويقول يومانز إن قراءاتها كانت أساسًا في تقدير سياسة الري. وعمودها مقسوم تسع عشرة ذراعًا، وعلامة الذراع السادسة عشرة هي منسوب الفيضان المثالي. ماذا يعني ارتفاع النهر وانخفاضه كل عام لمن يزرعون على ضفتيه؟
+    ur: قاہرہ کے جزیرۂ روضہ پر پتھر سے پختہ کیا ہوا ایک گڑھا 862 عیسوی میں بنایا گیا تاکہ سالانہ طغیانی کے دنوں میں نیل کے پانی کی بلندی ناپی جائے؛ یومانز کے مطابق اس کی پیمائشیں آبپاشی کی پالیسی طے کرنے کے لیے ضروری تھیں۔ اس کا ستون انیس ذراع میں تقسیم ہے اور سولہویں ذراع کا نشان مثالی طغیانی کی سطح کو ظاہر کرتا ہے۔ جو لوگ دریا کے کنارے کھیتی کرتے ہیں ان کے لیے اس کا سالانہ چڑھاؤ اور اتار کیا معنی رکھتا ہے؟
+  entity: building/nilometer-of-rawda
+  sources:
+  - source/yeomans-islamic-cairo-2006
+- position: within
+  kind: story
+  title:
+    en: When the Euphrates rose
+    ar: حين فاض الفرات
+    ur: جب فرات چڑھ آیا
+  text:
+    en: Ibn al-Jawzi records that in 329 AH the Euphrates rose eleven cubits and burst out by Anbar, sweeping villages under. The water poured toward Baghdad until Bab al-Anbar street was submerged, and the Tigris rose eighteen cubits in May and June. What does this account show about how a river in flood reaches a city?
+    ar: يسجل ابن الجوزي أن الفرات زاد سنة 329هـ أحد عشر ذراعًا وانبثق من نواحي الأنبار فاجتاح القرى وغرّقها. وصبّ الماء نحو بغداد حتى غرق شارع باب الأنبار، وزادت دجلة ثمانية عشر ذراعًا في أيار وحزيران. ماذا يُظهر هذا الخبر عن وصول نهر فائض إلى مدينة؟
+    ur: ابن الجوزی لکھتے ہیں کہ 329 ہجری میں فرات گیارہ ذراع چڑھ گیا اور انبار کی طرف سے پھٹ نکلا اور بستیوں کو ڈبو گیا۔ پانی بغداد کی طرف بہا یہاں تک کہ باب الانبار کی گلی ڈوب گئی، اور دجلہ مئی اور جون میں اٹھارہ ذراع چڑھا۔ یہ بیان ظاہر کرتا ہے کہ سیلاب زدہ دریا کسی شہر تک کیسے پہنچتا ہے؟
+  entity: event/euphrates-flood-329
+  sources:
+  - source/muntazam-ibn-al-jawzi
+order: 4

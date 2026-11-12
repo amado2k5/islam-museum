@@ -1,0 +1,65 @@
+id: course/ca-on-g12-snc4m-e-1
+class: course
+kind: lesson
+label:
+  en: Epidemics in the histories
+  ar: الأوبئة في كتب التاريخ
+  ur: تاریخوں میں وبائیں
+summary:
+  en: Three epidemics recorded in the histories, the plague of Amwas, the Black Death in Tunis in 1349, and the smallpox years of 422 to 425, and what each source says it did (E3.2).
+  ar: 'ثلاثة أوبئة سجّلتها كتب التاريخ: طاعون عمواس، والطاعون الأسود في تونس سنة 1349م، وسنوات الجدري ٤٢٢–٤٢٥هـ، وما يقوله كل مصدر عن أثرها ⁦(E3.2)⁩.'
+  ur: 'تاریخوں میں درج تین وبائیں: طاعونِ عمواس، 1349ء میں تیونس میں سیاہ موت، اور 422 تا 425 ہجری کے چیچک کے سال، اور ہر ماخذ ان کے اثر کے بارے میں کیا کہتا ہے ⁦(E3.2)⁩۔'
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g12-snc4m-e
+expectations:
+- code: E3.2
+  text:
+    en: explain how pandemics have affected humanity throughout history […]
+    ar: اشرح كيف أثّرت الجوائح في البشرية عبر التاريخ […]
+    ur: وضاحت کریں کہ وبائی امراض نے تاریخ بھر میں انسانیت کو کیسے متاثر کیا […]
+connections:
+- position: before
+  kind: story
+  title:
+    en: The plague of Amwas
+    ar: طاعون عمواس
+    ur: طاعونِ عمواس
+  text:
+    en: Al-Baladhuri, in Futuh al-Buldan, reports that the plague of Amwas was in 18 AH and that many Muslims died in it. Among them was Abu Ubayda ibn al-Jarrah, who was the commander and was fifty-eight years old, and Muadh ibn Jabal, who died at thirty-eight. How does one epidemic change who leads a community?
+    ar: يذكر البلاذري في «فتوح البلدان» أن طاعون عمواس كان سنة 18هـ، وأنه مات فيه خلق من المسلمين. منهم أبو عبيدة بن الجراح، وكان أميرًا وله ثمان وخمسون سنة، ومعاذ بن جبل، توفي وله ثمان وثلاثون سنة. كيف يغيّر وباء واحد من يقود الجماعة؟
+    ur: البلاذری «فتوح البلدان» میں ذکر کرتے ہیں کہ طاعونِ عمواس 18 ہجری میں تھا اور اس میں مسلمانوں کی بڑی تعداد فوت ہوئی۔ ان میں ابوعبیدہ بن الجراح تھے، جو امیر تھے اور اٹھاون برس کے تھے، اور معاذ بن جبل جو اڑتیس برس کی عمر میں فوت ہوئے۔ ایک وبا جماعت کی قیادت کو کیسے بدل دیتی ہے؟
+  entity: event/plague-of-amwas
+  sources:
+  - source/futuh-buldan-maarif-1407
+- position: within
+  kind: story
+  title:
+    en: The Black Death in Tunis
+    ar: الطاعون الأسود في تونس
+    ur: تیونس میں سیاہ موت
+  text:
+    en: 'In 1349 the Black Death struck Tunis and took both of Ibn Khaldun''s parents. The record adds that the family had crossed from Spain after the fall of Seville and Cordoba and settled in Tunis, and that the loss marked a turning point: Ibn Khaldun then entered the service of rulers in the Maghreb and Spain. What does one family''s loss show about an epidemic''s reach?'
+    ar: في سنة 1349م ضرب الطاعون الأسود تونس، فمات والد ابن خلدون ووالدته. وكانت أسرته قد هاجرت من الأندلس بعد سقوط إشبيلية وقرطبة، واستقرت في تونس. وكانت هذه الفاجعة بداية مرحلة جديدة في حياة ابن خلدون، إذ انتقل بعدها إلى خدمة الأمراء في المغرب والأندلس. ماذا تكشف خسارة أسرة واحدة عن اتساع أثر الوباء؟
+    ur: 1349ء میں سیاہ موت نے تیونس کو آ لیا اور ابن خلدون کے والد اور والدہ دونوں کو لے گئی۔ ان کا خاندان اشبیلیہ اور قرطبہ کے زوال کے بعد اندلس سے آ کر تیونس میں بس گیا تھا۔ یہ سانحہ ابن خلدون کی زندگی میں نئے مرحلے کا آغاز تھا، کیونکہ اس کے بعد وہ مغرب اور اندلس کے امرا کی خدمت میں چلے گئے۔ ایک خاندان کا نقصان وبا کی وسعت کے بارے میں کیا بتاتا ہے؟
+  entity: event/ibn-khaldun-parents-die-black-death-1349
+  sources:
+  - source/britannica-ibn-khaldun
+- position: after
+  kind: story
+  title:
+    en: Smallpox and the years of deaths
+    ar: الجدري وسنوات الموتان
+    ur: چیچک اور اموات کے سال
+  text:
+    en: 'Between 422 and 425 AH a run of deadly calamities struck: drought, epidemics and smallpox spread through Khurasan, al-Jabal, Iraq and Egypt. In Baghdad smallpox spread from April to October, and no house was spared. It was said that seventy thousand died in Baghdad in Dhu al-Hijja 425; these are the figures the sources give. Why do the numbers need caution?'
+    ar: 'تتابع على بلاد الإسلام بين سنتي ٤٢٢ و٤٢٥هـ موتان متلاحقان: جفاف وأوبئة وجدري عمت خراسان والجبل والعراق ومصر. وعمّ بغداد الجدري من نيسان إلى تشرين فلم يسلم بيت. وقيل إنه مات ببغداد في ذي الحجة ٤٢٥هـ سبعون ألفًا، وهي أعداد المصادر بما فيها. لماذا تحتاج الأرقام إلى حذر؟'
+    ur: '422 اور 425 ہجری کے درمیان اسلامی ممالک پر مسلسل اموات کا دور آیا: خشک سالی، وبائیں اور چیچک، جو خراسان، الجبل، عراق اور مصر میں پھیلیں۔ بغداد میں چیچک اپریل سے اکتوبر تک پھیلی اور کوئی گھر نہ بچا۔ کہا گیا کہ ذوالحجہ 425 ہجری میں بغداد میں ستر ہزار فوت ہوئے؛ یہ وہ اعداد ہیں جو ماخذ دیتے ہیں۔ اعداد کے بارے میں احتیاط کیوں ضروری ہے؟'
+  entity: event/smallpox-epidemic-423
+  sources:
+  - source/muntazam-ibn-al-jawzi
+order: 1

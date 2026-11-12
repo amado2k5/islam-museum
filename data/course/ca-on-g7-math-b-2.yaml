@@ -1,0 +1,59 @@
+id: course/ca-on-g7-math-b-2
+class: course
+kind: lesson
+label:
+  ar: القوى والجذور
+  en: Powers and roots
+  ur: قوتیں اور جذر
+summary:
+  ar: الضرب المتكرر والترميز الأسّي، والمربعات الكاملة وجذورها، في ضوء قاعدة الكرجي في ضرب القوى واستخراج الكاشي للجذور.
+  en: Repeated multiplication and exponential notation, and perfect squares and their roots, in light of al-Karaji's rule for multiplying powers and al-Kashi's extraction of roots.
+  ur: بار بار ضرب اور قوتی علامت، اور مکمل مربع اور ان کے جذر، کرجی کے قوتوں کو ضرب دینے کے قاعدے اور کاشی کے جذر نکالنے کی روشنی میں۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g7-math-b
+expectations:
+- code: B1.2
+  text:
+    en: identify and represent perfect squares, and determine their square roots, in various contexts
+    ar: حدّد المربعات الكاملة ومثّلها، واحسب جذورها التربيعية، في سياقات متنوعة
+    ur: مکمل مربعوں کی شناخت کریں اور انہیں ظاہر کریں، اور ان کے مربع جذر معلوم کریں، مختلف سیاق میں
+- code: B2.7
+  text:
+    en: evaluate and express repeated multiplication of whole numbers using exponential notation, in various contexts
+    ar: احسب الضرب المتكرر للأعداد الصحيحة الكلية وعبّر عنه بالترميز الأسّي، في سياقات متنوعة
+    ur: مکمل اعداد کے بار بار ضرب کی قیمت نکالیں اور اسے قوتی علامت میں ظاہر کریں، مختلف سیاق میں
+connections:
+- position: within
+  kind: invention
+  title:
+    ar: قوى المجهول وقاعدة ضربها
+    en: Powers of an unknown and the rule for multiplying them
+    ur: نامعلوم کی قوتیں اور ان کے ضرب کا قاعدہ
+  text:
+    ar: 'في بغداد أوائل القرن الحادي عشر جعل الكرجي القوى والمقادير المركبة موضوعاً لعمليات منظمة. تبدأ طريقته بتمييز مراتب المقدار الواحد: المجهول ثم مربعه ثم مكعبه، وضرب مرتبتين يحتاج قاعدة لتعيين المرتبة الناتجة. بلغة تعليمية حديثة يعطي ضرب x² في x³ العدد x⁵، وهذه كتابة السجل للتوضيح لا سطر من الكتاب. ماذا تعني x وx² وx³ بوصفها ضرباً متكرراً؟'
+    en: In early-eleventh-century Baghdad, al-Karaji made powers and composite expressions objects of organized operations. The starting point is distinguishing successive powers of one quantity, the unknown, its square, its cube, and multiplying two of them needs a rule that names the resulting power. In modern teaching notation, x² multiplied by x³ gives x⁵, which is the record's illustration and not a line from the book. What do x, x² and x³ mean as repeated multiplication?
+    ur: 'گیارہویں صدی کے آغاز میں بغداد میں کرجی نے قوتوں اور مرکب مقداروں کو منظم عملوں کا موضوع بنایا۔ ان کا طریقہ ایک مقدار کے مراتب میں فرق کرنے سے شروع ہوتا ہے: نامعلوم، اس کا مربع، اس کا مکعب؛ اور دو مراتب کو ضرب دینے کے لیے ایسا قاعدہ چاہیے جو حاصل مرتبہ بتائے۔ جدید تدریسی علامت میں x² کو x³ سے ضرب دینے پر x⁵ ملتا ہے، یہ ریکارڈ کی وضاحتی مثال ہے، کتاب کی سطر نہیں۔ x، x² اور x³ بار بار ضرب کے طور پر کیا معنی رکھتے ہیں؟'
+  entity: invention/karaji-polynomial-arithmetic
+  sources:
+  - source/karaji-mactutor
+  - source/tdv-kereci
+- position: after
+  kind: invention
+  title:
+    ar: استخراج الجذور في مفتاح الحساب
+    en: Extracting roots in the Key to Arithmetic
+    ur: مفتاح الحساب میں جذر نکالنا
+  text:
+    ar: 'في «مفتاح الحساب» عرض الكاشي استخراج الجذور العددية لمراتب عامة، لا الجذر التربيعي وحده. ويشرح السجل أن استخراج الجذر يعكس رفع العدد إلى قوة: الجذر التكعيبي الموجب لثمانية هو اثنان لأن 2³=8. وتصف إيرانيكا استخراج الجذور العام بأن الجذر التربيعي فيه حالة خاصة. ويؤكد السجل أن هذا تطوير لحساب موروث لا أول جذر عرفه الإنسان. كيف تتحقق من جذر تربيعي مقترح؟'
+    en: 'In the Key to Arithmetic, al-Kashi treated numerical extraction of roots of general orders, not only square roots. The record explains that root extraction reverses raising a number to a power: the positive cube root of eight is two because 2³=8. Iranica describes general root extraction with the square-root procedure as a special case. The record stresses that this developed inherited computation and was not the first root known to humanity. How could you check a proposed square root?'
+    ur: '«مفتاح الحساب» میں کاشی مختلف درجوں کے عددی جذر بیان کرتے ہیں، صرف مربع جذر نہیں۔ ریکارڈ بتاتا ہے کہ جذر نکالنا قوت اٹھانے کا الٹ سوال ہے: آٹھ کا مثبت مکعب جذر دو ہے، کیونکہ 2³=8۔ ایرانیکا عمومی استخراج جذر کو بیان کرتا ہے جس میں مربع جذر خاص صورت ہے۔ ریکارڈ زور دیتا ہے کہ یہ موروثی حساب کی ترقی ہے، انسانیت کا پہلا جذر نہیں۔ کسی مجوزہ مربع جذر کی جانچ کیسے کریں گے؟'
+  entity: invention/kashi-general-root-extraction
+  sources:
+  - source/kashi-mactutor
+  - source/iranica-kashi
+order: 2

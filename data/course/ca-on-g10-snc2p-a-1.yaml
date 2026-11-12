@@ -1,0 +1,57 @@
+id: course/ca-on-g10-snc2p-a-1
+class: course
+kind: lesson
+label:
+  en: 'Careers and scientists: a physician and an optics scholar'
+  ar: 'مهن وعلماء: طبيب وعالم بصريات'
+  ur: 'پیشے اور سائنس دان: ایک طبیب اور بصریات کا عالم'
+summary:
+  en: Careers connected to the sciences under study, the training they need, and scientists who contributed to those fields (A2.1, A2.2).
+  ar: مهن متصلة بالعلوم قيد الدراسة، والتدريب الذي تحتاجه، وعلماء أسهموا في هذه الميادين، التوقعان A2.1 وA2.2.
+  ur: زیرِ مطالعہ علوم سے متعلق پیشے، ان کے لیے درکار تربیت، اور وہ سائنس دان جنہوں نے ان شعبوں میں حصہ ڈالا، توقعات A2.1 اور A2.2۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g10-snc2p-a
+expectations:
+- code: A2.1
+  text:
+    en: identify and describe a variety of careers related to the fields of science under study […] and the education and training necessary for these careers
+    ar: تعرَّف إلى مجموعة متنوعة من المهن المتصلة بميادين العلوم قيد الدراسة […] وصِفها، وإلى التعليم والتدريب اللازمين لهذه المهن
+    ur: زیرِ مطالعہ سائنسی شعبوں سے متعلق مختلف پیشوں […] کی نشاندہی کریں اور انہیں بیان کریں، نیز ان پیشوں کے لیے ضروری تعلیم اور تربیت بیان کریں
+- code: A2.2
+  text:
+    en: identify scientists, including Canadians […], who have made a contribution to the fields of science under study
+    ar: تعرَّف إلى علماء، ومنهم كنديون […]، أسهموا في ميادين العلوم قيد الدراسة
+    ur: ان سائنس دانوں، بشمول کینیڈین […]، کی نشاندہی کریں جنہوں نے زیرِ مطالعہ سائنسی شعبوں میں حصہ ڈالا
+connections:
+- position: before
+  kind: career
+  title:
+    en: The shaykh of medicine in Egypt
+    ar: شيخ الطب بالديار المصرية
+    ur: مصر میں طب کا شیخ
+  text:
+    en: Ibn al-Imad's Shadharat al-Dhahab calls Ibn al-Nafis the shaykh of medicine in Egypt, the one to whom knowledge of medicine ultimately led. He wrote a medical book, al-Shamil, whose index suggests it would run to three hundred volumes, and he endowed his properties and his books to the Mansuri hospital. What kind of work and training does a career in medicine involve?
+    ar: تسمّي «شذرات الذهب» لابن العماد ابن النفيس شيخَ الطب بالديار المصرية، ومن انتهت إليه معرفة الطب. ألّف في الطب كتاب «الشامل» الذي تدل فهرسته على أنه يكون ثلثمائة مجلدة، ووقف أملاكه وكتبه على المارستان المنصوري. أي عمل وأي تدريب يتطلبهما العمل في الطب؟
+    ur: ابن العماد کی «شذرات الذہب» ابن نفیس کو مصر میں طب کا شیخ کہتی ہے، وہ شخص جس پر طب کا علم آ کر ختم ہوا۔ اس نے طب کی کتاب «الشامل» لکھی جس کی فہرست سے لگتا ہے کہ وہ تین سو جلدوں کی ہوتی، اور اس نے اپنی جائیدادیں اور کتابیں منصوری ہسپتال پر وقف کر دیں۔ طب کے پیشے میں کس طرح کا کام اور کس طرح کی تربیت شامل ہے؟
+  entity: person/ibn-al-nafis
+  sources:
+  - source/shadharat-dhahab
+- position: after
+  kind: scholar
+  title:
+    en: A scholar of optics
+    ar: عالم في البصريات
+    ur: بصریات کا ایک عالم
+  text:
+    en: Ibn al-Haytham was an Arab scholar of mathematics and physics, known for his book Kitab al-Manazir on optics. The editor of the book's edition describes him as having lived in the fifth century AH. Which scientists, from your own country or elsewhere, contributed to a field you are studying?
+    ar: ابن الهيثم عالم عربي في الرياضيات والفيزياء، اشتهر بكتابه «المناظر» في البصريات. يصفه محقق طبعة الكتاب بأنه عاش في القرن الخامس الهجري. فأي علماء من بلدك أو من غيره أسهموا في ميدان تدرسه أنت؟
+    ur: ابن الہیثم ریاضی اور طبیعیات کا عرب عالم تھا، جو بصریات پر اپنی کتاب «المناظر» سے مشہور ہے۔ کتاب کا مدیر اسے پانچویں صدی ہجری میں رکھتا ہے۔ آپ کے اپنے ملک یا کسی اور جگہ کے کن سائنس دانوں نے کسی ایسے شعبے میں حصہ ڈالا جو آپ پڑھ رہے ہیں؟
+  entity: person/ibn-al-haytham
+  sources:
+  - source/manazir-sabra-1983
+order: 1

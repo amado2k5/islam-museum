@@ -14,7 +14,8 @@ What is checked, and why each exists:
               equals quote_official(official text) exactly (scripts/courses/lib.py: the 40-word quotation rule).
   COVERAGE    every specific expectation of the authority's document is either in a lesson or in the gap register.
   LANGUAGE    no text is a copy of another language's text passed off as a translation. Arabic is required on
-              labels, summaries and connection texts. A language not yet translated is absent, never copied.
+              labels, summaries and connection texts; with --strict, so are English and Urdu, on those and on the
+              expectations. A language not yet translated is absent, never copied.
   MAPPING     every connection links a real record (not a stub), which the alias search can find; a Qur'an connection
               links the passage record and cites only the Tanzil source.
   PROVENANCE  every source a connection cites was already cited by its linked record at the baseline commit:
@@ -34,7 +35,13 @@ official_path = args[args.index("--official") + 1] if "--official" in args else 
 strict = "--strict" in args
 slug = sid.split("/")[1]
 o = Oracle("course", f"ingestion gate for {sid}" + (" (strict)" if strict else ""))
+o.out_dir = os.path.join(ROOT, "docs", "courses", "gates")  # a course's gate output lives with the course's other files
 cs = courses()
+import lib as _lib
+_mine = [u for u in _lib.UNPARSEABLE if u[0].startswith(slug)]
+for u in _lib.UNPARSEABLE:
+    o.note(f"course file that does not parse{' (THIS course)' if u in _mine else ' (another course; skipped)'}: {u[0]}: {u[1]}")
+o.check("every record file of this course parses", not _mine, ", ".join(u[0] for u in _mine))
 if sid not in cs or cs[sid].get("kind") != "subject":
     o.check("the subject record exists", False, sid)
     o.done(f"check-{slug}")
@@ -133,6 +140,9 @@ for i, d in recs.items():
 o.note(f"texts that are a byte copy of another language's text: {len(copies)}")
 o.check("LANGUAGE no text is a copy of another language passed off as a translation", not copies, " | ".join(copies[:6]) + (f" (+{len(copies) - 6} more)" if len(copies) > 6 else ""))
 o.check("LANGUAGE Arabic is present on every label, summary and connection", not no_ar, " | ".join(no_ar[:6]))
+if strict:
+    miss = [f"{i.split('/')[1]} {path}: no {l}" for i, d in recs.items() for path, loc in localized({k: d.get(k) for k in ("label", "summary", "subject_name", "expectations", "connections")}) for l in ("ar", "en", "ur") if l not in loc]
+    o.check("LANGUAGE (strict) every text is present in Arabic, English and Urdu", not miss, " | ".join(miss[:6]) + (f" (+{len(miss) - 6} more)" if len(miss) > 6 else ""))
 untr = sum(1 for i in lessons for e in recs[i].get("expectations", []) if "ar" not in (e.get("text") or {}))
 o.note(f"lesson expectation texts with no Arabic yet (shown in the official language, labelled): {untr}")
 
@@ -176,7 +186,7 @@ if strict:
 # ---- PROSE
 pbad = []
 for i, d in recs.items():
-    for l in ("ar", "en"):
+    for l in (("ar", "en", "ur") if strict else ("ar", "en")):
         f = os.path.join(ROOT, "content", l, i + ".md")
         if not os.path.exists(f):
             pbad.append(f"{l}/{i.split('/')[1]}: missing")
@@ -184,7 +194,7 @@ for i, d in recs.items():
         t = open(f, encoding="utf-8").read()
         if f"id: {i}" not in t or f"lang: {l}" not in t:
             pbad.append(f"{l}/{i.split('/')[1]}: front matter")
-        elif d["kind"] == "lesson" and not re.search(r"^## (Brief|موجز)\s*$", t, re.M):
+        elif d["kind"] == "lesson" and not re.search(r"^## (Brief|موجز|مختصر)\s*$", t, re.M):
             pbad.append(f"{l}/{i.split('/')[1]}: no Brief section")
-o.check("PROSE every record has Arabic and English prose with the right front matter; lessons have a Brief", not pbad, " | ".join(pbad[:8]))
+o.check("PROSE every record has prose in Arabic and English (and Urdu when strict) with the right front matter; lessons have a Brief", not pbad, " | ".join(pbad[:8]))
 o.done(f"check-{slug}")

@@ -17,7 +17,7 @@ const title = labelOf(c.subject, lang);
 const where = [c.jurisdiction && labelOf(c.jurisdiction, lang)].filter(Boolean).join(" · ");
 let i = 0;
 ---
-<BaseLayout lang={lang} title={title} description={summaryOf(c.subject, lang)} path={coursePath(lang, c)} alternates={{ ar: coursePath("ar", c), en: coursePath("en", c), ur: href("ur", c.subject.id) }}>
+<BaseLayout lang={lang} title={title} description={summaryOf(c.subject, lang)} path={coursePath(lang, c)} alternates={{ ar: coursePath("ar", c), en: coursePath("en", c), ur: coursePath("ur", c) }}>
   <div data-pagefind-body>
     <PageHeader title={title} lede={summaryOf(c.subject, lang)} crumbs={[{ label: T.nav.learn, href: `/${lang}/learn/` }, { label: T.syllabus.title, href: homePath(lang) }, { label: where }]} crumbsLabel={T.entity.breadcrumb} wing="ideas" titleAttrs={{ "data-pagefind-meta": "title" }} />
   </div>
@@ -27,7 +27,7 @@ let i = 0;
       <a class="cx-btn primary" data-cx-continue href={lessonPath(lang, c, c.lessons[0])} data-label-start={C.start} data-label-next={C.resume_go}>{C.start} <span class="flip" aria-hidden="true">→</span></a>
       <div class="cx-meter" data-cx-meter hidden>
         <div class="cx-meter-track"><span class="cx-meter-fill" data-cx-fill></span></div>
-        <p class="ui" data-cx-progress data-tpl={C.progress} data-n={c.lessons.length} data-locale={lang === "ar" ? "ar" : "en"}></p>
+        <p class="ui" data-cx-progress data-tpl={C.progress} data-n={c.lessons.length} data-locale={lang}></p>
       </div>
     </div>
     <p class="cx-draft ui">{C.draft_course}</p>

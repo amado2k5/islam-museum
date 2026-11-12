@@ -1,0 +1,260 @@
+course: course/ca-on-g7-math
+gaps:
+- code: B1.1
+  text: represent and compare whole numbers up to and including one billion, including in expanded form using powers of ten, and describe various ways they are used in everyday life
+  why: It asks for whole numbers to a billion and expanded form with powers of ten; the only record tried (algorism) treats place value up to the thousands, so no remaining record serves it.
+  searches:
+  - 'entity_brief.py invention/algorism: reckoning with nine Indian numerals and zero in a decimal place-value system, units to thousands; no numbers to a billion and no powers of ten; a Grade 4 idea (removed from b-1 at the fleet review)'
+  - 'entity_brief.py invention/decimal-fractions-al-uqlidisi: decimal fractions below the units place, with a halving sequence; no whole numbers beyond the units and no expanded form with powers of ten'
+- code: B1.4
+  text: use equivalent fractions to simplify fractions, when appropriate, in various contexts
+  why: It asks for equivalent fractions used to simplify fractions; no record states equivalent fractions.
+  searches:
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+  - 'find_entity.py "percent" "نسبة مئوية" "ratio" "تناسب" "rate": 136 loose word matches; the only mathematical record is invention/mahani-successive-quotient-ratios, a ratio theory in geometry, not percents, rates or proportional reasoning'
+- code: B1.5
+  text: generate fractions and decimal numbers between any two quantities
+  why: It asks for fractions and decimal numbers between two quantities; no record states density of numbers or places a number between two others.
+  searches:
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+  - 'find_entity.py "factor" "multiple" "greatest common" "square root" "جذر" "perfect square" "مربع": 16 records; none is about factors or multiples; invention/abu-kamil-integer-enumeration and invention/kashi-general-root-extraction (taught in b-2) are the only mathematical ones'
+- code: B1.6
+  text: round decimal numbers to the nearest tenth, hundredth, or whole number, as applicable, in various contexts
+  why: It asks for rounding decimal numbers; no record states a rounding rule.
+  searches:
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+  - 'find_entity.py "percent" "نسبة مئوية" "ratio" "تناسب" "rate": 136 loose word matches; the only mathematical record is invention/mahani-successive-quotient-ratios, a ratio theory in geometry, not percents, rates or proportional reasoning'
+- code: B1.7
+  text: convert between fractions, decimal numbers, and percents, in various contexts
+  why: It asks for conversion between fractions, decimals and percents; the museum's one percent-like record is zakat, which names portions but converts nothing (taught in b-3 under B2.2).
+  searches:
+  - 'find_entity.py "percent" "نسبة مئوية" "ratio" "تناسب" "rate": 136 loose word matches; the only mathematical record is invention/mahani-successive-quotient-ratios, a ratio theory in geometry, not percents, rates or proportional reasoning'
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+- code: B2.1
+  text: use the properties and order of operations, and the relationships between operations, to solve problems involving whole numbers, decimal numbers, fractions, ratios, rates, and percents, including those requiring multiple steps or multiple operations
+  why: It asks for the properties and order of operations in multi-step problems with whole numbers, decimals, fractions, ratios, rates and percents; no record states the order of operations.
+  searches:
+  - 'find_entity.py "percent" "نسبة مئوية" "ratio" "تناسب" "rate": 136 loose word matches; the only mathematical record is invention/mahani-successive-quotient-ratios, a ratio theory in geometry, not percents, rates or proportional reasoning'
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+- code: B2.3
+  text: use mental math strategies to increase and decrease a whole number by 1%, 5%, 10%, 25%, 50%, and 100%, and explain the strategies used
+  why: It asks for mental math strategies to increase and decrease a number by given percents; no record states such strategies.
+  searches:
+  - 'find_entity.py "percent" "نسبة مئوية" "ratio" "تناسب" "rate": 136 loose word matches; the only mathematical record is invention/mahani-successive-quotient-ratios, a ratio theory in geometry, not percents, rates or proportional reasoning'
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+- code: B2.4
+  text: use objects, diagrams, and equations to represent, describe, and solve situations involving addition and subtraction of integers
+  why: It asks for addition and subtraction of integers; no record concerns negative numbers.
+  searches:
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+  - 'find_entity.py "factor" "multiple" "greatest common" "square root" "جذر" "perfect square" "مربع": 16 records; none is about factors or multiples; invention/abu-kamil-integer-enumeration and invention/kashi-general-root-extraction (taught in b-2) are the only mathematical ones'
+- code: B2.5
+  text: add and subtract fractions, including by creating equivalent fractions, in various contexts
+  why: It asks for addition and subtraction of fractions; no record states these operations.
+  searches:
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+  - 'find_entity.py "factor" "multiple" "greatest common" "square root" "جذر" "perfect square" "مربع": 16 records; none is about factors or multiples; invention/abu-kamil-integer-enumeration and invention/kashi-general-root-extraction (taught in b-2) are the only mathematical ones'
+- code: B2.6
+  text: determine the greatest common factor for a variety of whole numbers up to 144 and the lowest common multiple for two and three whole numbers
+  why: It asks for the greatest common factor and lowest common multiple; no record concerns factors or multiples.
+  searches:
+  - 'find_entity.py "factor" "multiple" "greatest common" "square root" "جذر" "perfect square" "مربع": 16 records; none is about factors or multiples; invention/abu-kamil-integer-enumeration and invention/kashi-general-root-extraction (taught in b-2) are the only mathematical ones'
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+- code: B2.8
+  text: multiply and divide fractions by fractions, using tools in various contexts
+  why: It asks for multiplication and division of fractions; no record states these operations.
+  searches:
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+  - 'find_entity.py "factor" "multiple" "greatest common" "square root" "جذر" "perfect square" "مربع": 16 records; none is about factors or multiples; invention/abu-kamil-integer-enumeration and invention/kashi-general-root-extraction (taught in b-2) are the only mathematical ones'
+- code: B2.9
+  text: multiply and divide decimal numbers by decimal numbers, in various contexts
+  why: It asks for multiplication and division of decimal numbers; invention/decimal-fractions-al-uqlidisi (taught in b-1) records the place-value treatment of decimal fractions, not their multiplication or division.
+  searches:
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+  - 'find_entity.py "factor" "multiple" "greatest common" "square root" "جذر" "perfect square" "مربع": 16 records; none is about factors or multiples; invention/abu-kamil-integer-enumeration and invention/kashi-general-root-extraction (taught in b-2) are the only mathematical ones'
+- code: B2.10
+  text: identify proportional and non-proportional situations and apply proportional reasoning to solve problems
+  why: It asks for proportional and non-proportional situations; no record states proportional reasoning as school mathematics.
+  searches:
+  - 'find_entity.py "percent" "نسبة مئوية" "ratio" "تناسب" "rate": 136 loose word matches; the only mathematical record is invention/mahani-successive-quotient-ratios, a ratio theory in geometry, not percents, rates or proportional reasoning'
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+- code: C1.1
+  text: identify and compare a variety of repeating, growing, and shrinking patterns, including patterns found in real-life contexts, and compare linear growing patterns on the basis of their constant rates and initial values
+  why: It asks for comparing repeating, growing and shrinking patterns by constant rate and initial value; no record states such patterns.
+  searches:
+  - 'find_entity.py "pattern" "sequence" "نمط" "arithmetic progression" "متتالية": 18 records, none about number or growing patterns (the matches are personal names, a calligraphy style, a textile and a theological phrase)'
+  - 'second pass: invention/karaji-polynomial-arithmetic and concept/al-durub-al-sitta (taught in c-1) state a modern substitution check and six equation types; neither states an inequality, a pattern rule or a variable relationship between growing terms'
+- code: C1.2
+  text: create and translate repeating, growing, and shrinking patterns involving whole numbers and decimal numbers using various representations, including algebraic expressions and equations for linear growing patterns
+  why: It asks for creating and translating patterns with algebraic expressions; no record states pattern rules.
+  searches:
+  - 'find_entity.py "pattern" "sequence" "نمط" "arithmetic progression" "متتالية": 18 records, none about number or growing patterns (the matches are personal names, a calligraphy style, a textile and a theological phrase)'
+  - 'second pass: invention/karaji-polynomial-arithmetic and concept/al-durub-al-sitta (taught in c-1) state a modern substitution check and six equation types; neither states an inequality, a pattern rule or a variable relationship between growing terms'
+- code: C1.3
+  text: determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in repeating, growing, and shrinking patterns involving whole numbers and decimal numbers, and use algebraic representations of the pattern rules to solve for …
+  why: It asks for pattern rules, predictions and unknown values in patterns; no record states pattern rules.
+  searches:
+  - 'find_entity.py "pattern" "sequence" "نمط" "arithmetic progression" "متتالية": 18 records, none about number or growing patterns (the matches are personal names, a calligraphy style, a textile and a theological phrase)'
+  - 'second pass: invention/karaji-polynomial-arithmetic and concept/al-durub-al-sitta (taught in c-1) state a modern substitution check and six equation types; neither states an inequality, a pattern rule or a variable relationship between growing terms'
+- code: C1.4
+  text: create and describe patterns to illustrate relationships among integers
+  why: It asks for patterns that illustrate relationships among integers; no record concerns integers.
+  searches:
+  - 'find_entity.py "pattern" "sequence" "نمط" "arithmetic progression" "متتالية": 18 records, none about number or growing patterns (the matches are personal names, a calligraphy style, a textile and a theological phrase)'
+  - 'find_entity.py "fraction" "كسر" "decimal" "negative numbers" "integers" "billion": 25 records; concept/kasr is the fiqh word for breaking, and invention/algorism, invention/decimal-fractions-al-uqlidisi (taught in b-1) and invention/taqi-decimal-trigonometric-tables are the only number records; none is about negative numbers, integers or large numbers'
+- code: C2.4
+  text: solve inequalities that involve multiple terms and whole numbers, and verify and graph the solutions
+  why: It asks for solving and graphing inequalities; no record states an inequality.
+  searches:
+  - 'second pass: invention/karaji-polynomial-arithmetic and concept/al-durub-al-sitta (taught in c-1) state a modern substitution check and six equation types; neither states an inequality, a pattern rule or a variable relationship between growing terms'
+  - 'find_entity.py "pattern" "sequence" "نمط" "arithmetic progression" "متتالية": 18 records, none about number or growing patterns (the matches are personal names, a calligraphy style, a textile and a theological phrase)'
+- code: C3.1
+  text: solve problems and create computational representations of mathematical situations by writing and executing efficient code, including code that involves events influenced by a defined count and/or subprogram and other control structures
+  why: It asks for writing and executing code; the museum holds no record on programming.
+  searches:
+  - 'find_entity.py "algorithm" "خوارزمية" "code" "program" "automaton" "آلة": 69 records; invention/algorism is the only one about reckoning procedures; the rest are television programmes and unrelated word matches; nothing on coding, control structures or subprograms'
+  - 'second pass: invention/karaji-polynomial-arithmetic and concept/al-durub-al-sitta (taught in c-1) state a modern substitution check and six equation types; neither states an inequality, a pattern rule or a variable relationship between growing terms'
+- code: C3.2
+  text: read and alter existing code, including code that involves events influenced by a defined count and/or subprogram and other control structures, and describe how changes to the code affect the outcomes and the efficiency of the code
+  why: It asks for reading and altering existing code; the museum holds no record on programming.
+  searches:
+  - 'find_entity.py "algorithm" "خوارزمية" "code" "program" "automaton" "آلة": 69 records; invention/algorism is the only one about reckoning procedures; the rest are television programmes and unrelated word matches; nothing on coding, control structures or subprograms'
+  - 'second pass: invention/karaji-polynomial-arithmetic and concept/al-durub-al-sitta (taught in c-1) state a modern substitution check and six equation types; neither states an inequality, a pattern rule or a variable relationship between growing terms'
+- code: D1.1
+  text: explain why percentages are used to represent the distribution of a variable for a population or sample in large sets of data, and provide examples
+  why: It asks why percentages represent the distribution of a variable in large data sets; no record uses percentages for data.
+  searches:
+  - 'find_entity.py "statistics" "census" "إحصاء" "graph" "data": 359 word matches, mostly source records; the only substantive ones are event/abbasid-census-200 and event/egypt-census-837, historical counts of people and villages, with no percentages, graphs or measures of central tendency to restate'
+  - 'find_entity.py "percent" "نسبة مئوية" "ratio" "تناسب" "rate": 136 loose word matches; the only mathematical record is invention/mahani-successive-quotient-ratios, a ratio theory in geometry, not percents, rates or proportional reasoning'
+- code: D1.2
+  text: collect qualitative data and discrete and continuous quantitative data to answer questions of interest, and organize the sets of data as appropriate, including using percentages
+  why: It asks for collecting and organizing data to answer questions; no record offers data to collect or organize.
+  searches:
+  - 'find_entity.py "statistics" "census" "إحصاء" "graph" "data": 359 word matches, mostly source records; the only substantive ones are event/abbasid-census-200 and event/egypt-census-837, historical counts of people and villages, with no percentages, graphs or measures of central tendency to restate'
+  - 'find_entity.py "histogram" "average" "mean" "المتوسط" "chart" "جدول" "table of values": 29 records; the table records (invention/habash-shadow-tables, invention/ibn-yunus-solar-time-tables, invention/taqi-decimal-trigonometric-tables) are astronomical and trigonometric tables, not data sets, graphs or averages'
+- code: D1.3
+  text: select from among a variety of graphs, including circle graphs, the type of graph best suited to represent various sets of data; display the data in the graphs with proper sources, titles, and labels, and appropriate scales; and justify their …
+  why: It asks for choosing and drawing graphs; no record is about graphs.
+  searches:
+  - 'find_entity.py "statistics" "census" "إحصاء" "graph" "data": 359 word matches, mostly source records; the only substantive ones are event/abbasid-census-200 and event/egypt-census-837, historical counts of people and villages, with no percentages, graphs or measures of central tendency to restate'
+  - 'find_entity.py "histogram" "average" "mean" "المتوسط" "chart" "جدول" "table of values": 29 records; the table records (invention/habash-shadow-tables, invention/ibn-yunus-solar-time-tables, invention/taqi-decimal-trigonometric-tables) are astronomical and trigonometric tables, not data sets, graphs or averages'
+- code: D1.4
+  text: create an infographic about a data set, representing the data in appropriate ways, including in tables and circle graphs, and incorporating any other relevant information that helps to tell a story about the data
+  why: It asks for an infographic about a data set; no record offers a data set.
+  searches:
+  - 'find_entity.py "statistics" "census" "إحصاء" "graph" "data": 359 word matches, mostly source records; the only substantive ones are event/abbasid-census-200 and event/egypt-census-837, historical counts of people and villages, with no percentages, graphs or measures of central tendency to restate'
+  - 'find_entity.py "histogram" "average" "mean" "المتوسط" "chart" "جدول" "table of values": 29 records; the table records (invention/habash-shadow-tables, invention/ibn-yunus-solar-time-tables, invention/taqi-decimal-trigonometric-tables) are astronomical and trigonometric tables, not data sets, graphs or averages'
+- code: D1.5
+  text: determine the impact of adding or removing data from a data set on a measure of central tendency, and describe how these changes alter the shape and distribution of the data
+  why: It asks for the effect of adding or removing data on a measure of central tendency; no record is about measures of central tendency.
+  searches:
+  - 'find_entity.py "statistics" "census" "إحصاء" "graph" "data": 359 word matches, mostly source records; the only substantive ones are event/abbasid-census-200 and event/egypt-census-837, historical counts of people and villages, with no percentages, graphs or measures of central tendency to restate'
+  - 'find_entity.py "histogram" "average" "mean" "المتوسط" "chart" "جدول" "table of values": 29 records; the table records (invention/habash-shadow-tables, invention/ibn-yunus-solar-time-tables, invention/taqi-decimal-trigonometric-tables) are astronomical and trigonometric tables, not data sets, graphs or averages'
+- code: D1.6
+  text: analyse different sets of data presented in various ways, including in circle graphs and in misleading graphs, by asking and answering questions about the data, challenging preconceived notions, and drawing conclusions, then make convincing arguments and informed decisions
+  why: It asks for analysing data sets, circle graphs and misleading graphs; no record is about graphs or data analysis.
+  searches:
+  - 'find_entity.py "statistics" "census" "إحصاء" "graph" "data": 359 word matches, mostly source records; the only substantive ones are event/abbasid-census-200 and event/egypt-census-837, historical counts of people and villages, with no percentages, graphs or measures of central tendency to restate'
+  - 'find_entity.py "histogram" "average" "mean" "المتوسط" "chart" "جدول" "table of values": 29 records; the table records (invention/habash-shadow-tables, invention/ibn-yunus-solar-time-tables, invention/taqi-decimal-trigonometric-tables) are astronomical and trigonometric tables, not data sets, graphs or averages'
+- code: D2.1
+  text: describe the difference between independent and dependent events, and explain how their probabilities differ, providing examples
+  why: It asks for independent and dependent events and their probabilities; no record states probability.
+  searches:
+  - 'find_entity.py "probability" "احتمال" "chance" "dice" "قرعة": 13 records; concept/maysir, concept/nard and concept/qurra-in-distribution are, by their labels, about gambling, backgammon and lots in distribution; none by its label states likelihoods or compares outcomes (the three were not read in full)'
+  - 'find_entity.py "statistics" "census" "إحصاء" "graph" "data": 359 word matches, mostly source records; the only substantive ones are event/abbasid-census-200 and event/egypt-census-837, historical counts of people and villages, with no percentages, graphs or measures of central tendency to restate'
+- code: D2.2
+  text: determine and compare the theoretical and experimental probabilities of two independent events happening and of two dependent events happening
+  why: It asks for theoretical and experimental probabilities; no record states probability.
+  searches:
+  - 'find_entity.py "probability" "احتمال" "chance" "dice" "قرعة": 13 records; concept/maysir, concept/nard and concept/qurra-in-distribution are, by their labels, about gambling, backgammon and lots in distribution; none by its label states likelihoods or compares outcomes (the three were not read in full)'
+  - 'find_entity.py "statistics" "census" "إحصاء" "graph" "data": 359 word matches, mostly source records; the only substantive ones are event/abbasid-census-200 and event/egypt-census-837, historical counts of people and villages, with no percentages, graphs or measures of central tendency to restate'
+- code: E1.1
+  text: describe and classify cylinders, pyramids, and prisms according to their geometric properties, including plane and rotational symmetry
+  why: It asks for classifying cylinders, pyramids and prisms by their geometric properties, including symmetry; no record classifies solids or states their symmetry.
+  searches:
+  - 'find_entity.py "volume" "حجم" "capacity" "مكيال" "cylinder" "pyramid" "هرم": 60 records; the mathematical ones are invention/mahani-sphere-division-cubic, invention/ibn-al-haytham-fourth-power-volumes and work/mahani-sphere-cylinder-commentary, which concern spheres and solids of revolution, and invention/taqi-six-cylinder-pump, a machine; none states the volume of a prism or cylinder, nets or surface area'
+  - 'find_entity.py "symmetry" "تناظر" "reflection" "translation" "rotation" "dilation" "tessellation" "tiling": 99 records; the matches are word hits (reflection on the Qur''an, translation of texts, the earth''s rotation) and invention/ibn-al-haytham-circular-reflection, an optics method for a curved mirror, not a transformation of a shape on a plane'
+- code: E1.2
+  text: draw top, front, and side views, as well as perspective views, of objects and physical spaces, using appropriate scales
+  why: It asks for top, front, side and perspective views of objects; no record concerns views or scale drawing.
+  searches:
+  - 'find_entity.py "girih" "muqarnas" "geometric patterns" "زخرفة هندسية" "tessellation" "perspective drawing": 8 records; concept/girih, concept/muqarnas, concept/islamic-geometric-patterns and invention/kashi-muqarnas-mensuration exist, but none is about symmetry, dilations, views of objects or transformations on a Cartesian plane'
+  - 'find_entity.py "units of length" "cubit" "ذراع" "metre" "مقياس" "scale drawing": 9 records; concept/dhira-fiqh is the cubit as a unit in the rulings and concept/miqyas-al-nil a river gauge; neither converts between metric units or between perimeter, area and volume units'
+- code: E1.3
+  text: perform dilations and describe the similarity between the image and the original shape
+  why: It asks for dilations and similarity; no record concerns dilations or similar shapes.
+  searches:
+  - 'find_entity.py "symmetry" "تناظر" "reflection" "translation" "rotation" "dilation" "tessellation" "tiling": 99 records; the matches are word hits (reflection on the Qur''an, translation of texts, the earth''s rotation) and invention/ibn-al-haytham-circular-reflection, an optics method for a curved mirror, not a transformation of a shape on a plane'
+  - 'find_entity.py "girih" "muqarnas" "geometric patterns" "زخرفة هندسية" "tessellation" "perspective drawing": 8 records; concept/girih, concept/muqarnas, concept/islamic-geometric-patterns and invention/kashi-muqarnas-mensuration exist, but none is about symmetry, dilations, views of objects or transformations on a Cartesian plane'
+- code: E1.4
+  text: describe and perform translations, reflections, and rotations on a Cartesian plane, and predict the results of these transformations
+  why: It asks for translations, reflections and rotations on a Cartesian plane; no record concerns transformations on a plane.
+  searches:
+  - 'find_entity.py "symmetry" "تناظر" "reflection" "translation" "rotation" "dilation" "tessellation" "tiling": 99 records; the matches are word hits (reflection on the Qur''an, translation of texts, the earth''s rotation) and invention/ibn-al-haytham-circular-reflection, an optics method for a curved mirror, not a transformation of a shape on a plane'
+  - 'find_entity.py "girih" "muqarnas" "geometric patterns" "زخرفة هندسية" "tessellation" "perspective drawing": 8 records; concept/girih, concept/muqarnas, concept/islamic-geometric-patterns and invention/kashi-muqarnas-mensuration exist, but none is about symmetry, dilations, views of objects or transformations on a Cartesian plane'
+- code: E2.1
+  text: describe the differences and similarities between volume and capacity, and apply the relationship between millilitres (mL) and cubic centimetres (cm3) to solve problems
+  why: It asks for the difference between volume and capacity and the relation of millilitres to cubic centimetres; no record states it.
+  searches:
+  - 'find_entity.py "volume" "حجم" "capacity" "مكيال" "cylinder" "pyramid" "هرم": 60 records; the mathematical ones are invention/mahani-sphere-division-cubic, invention/ibn-al-haytham-fourth-power-volumes and work/mahani-sphere-cylinder-commentary, which concern spheres and solids of revolution, and invention/taqi-six-cylinder-pump, a machine; none states the volume of a prism or cylinder, nets or surface area'
+  - 'second pass: object/sanja-fatimi-996 and object/sanja-fatimi-1036 matched the word مكيال; by their labels they are Fatimid glass weights, not a capacity measure related to volume in millilitres and cubic centimetres'
+- code: E2.2
+  text: solve problems involving perimeter, area, and volume that require converting from one metric unit of measurement to another
+  why: It asks for problems with perimeter, area and volume that need metric unit conversion; no record converts metric units.
+  searches:
+  - 'find_entity.py "units of length" "cubit" "ذراع" "metre" "مقياس" "scale drawing": 9 records; concept/dhira-fiqh is the cubit as a unit in the rulings and concept/miqyas-al-nil a river gauge; neither converts between metric units or between perimeter, area and volume units'
+  - 'second pass: concept/ilm-al-misaha (read in full) gives the volume of a cone or pyramid as a third of its base times its height, but no rule for a prism or cylinder, no net, no surface area and no unit conversion'
+- code: E2.4
+  text: construct circles when given the radius, diameter, or circumference
+  why: It asks for constructing circles from a given radius, diameter or circumference; no record states a construction.
+  searches:
+  - 'second pass: concept/ilm-al-misaha (read in full) gives the volume of a cone or pyramid as a third of its base times its height, but no rule for a prism or cylinder, no net, no surface area and no unit conversion'
+  - 'find_entity.py "units of length" "cubit" "ذراع" "metre" "مقياس" "scale drawing": 9 records; concept/dhira-fiqh is the cubit as a unit in the rulings and concept/miqyas-al-nil a river gauge; neither converts between metric units or between perimeter, area and volume units'
+- code: E2.6
+  text: represent cylinders as nets and determine their surface area by adding the areas of their parts
+  why: It asks for cylinders as nets and their surface area; no record states nets or surface area.
+  searches:
+  - 'find_entity.py "volume" "حجم" "capacity" "مكيال" "cylinder" "pyramid" "هرم": 60 records; the mathematical ones are invention/mahani-sphere-division-cubic, invention/ibn-al-haytham-fourth-power-volumes and work/mahani-sphere-cylinder-commentary, which concern spheres and solids of revolution, and invention/taqi-six-cylinder-pump, a machine; none states the volume of a prism or cylinder, nets or surface area'
+  - 'second pass: concept/ilm-al-misaha (read in full) gives the volume of a cone or pyramid as a third of its base times its height, but no rule for a prism or cylinder, no net, no surface area and no unit conversion'
+- code: E2.7
+  text: show that the volume of a prism or cylinder can be determined by multiplying the area of its base by its height, and apply this relationship to find the area of the base, volume, and height of prisms and cylinders …
+  why: It asks for the volume of prisms and cylinders as base area times height; concept/ilm-al-misaha states only the rule for a cone or pyramid, not for a prism or cylinder.
+  searches:
+  - 'second pass: concept/ilm-al-misaha (read in full) gives the volume of a cone or pyramid as a third of its base times its height, but no rule for a prism or cylinder, no net, no surface area and no unit conversion'
+  - 'find_entity.py "volume" "حجم" "capacity" "مكيال" "cylinder" "pyramid" "هرم": 60 records; the mathematical ones are invention/mahani-sphere-division-cubic, invention/ibn-al-haytham-fourth-power-volumes and work/mahani-sphere-cylinder-commentary, which concern spheres and solids of revolution, and invention/taqi-six-cylinder-pump, a machine; none states the volume of a prism or cylinder, nets or surface area'
+- code: F1.1
+  text: identify and compare exchange rates, and convert foreign currencies to Canadian dollars and vice versa
+  why: It asks for comparing exchange rates and converting currencies; no record states an exchange rate.
+  searches:
+  - 'find_entity.py "exchange rate" "currency" "صرف" "dinar" "عملة": 61 records; concept/currency-exchange-sarf (prose in Arabic only) gives one author''s rulings on exchanging currency for currency, and person/dinar and concept/larin-currency are coin records; none states an exchange rate to compare or a conversion to carry out'
+  - 'find_entity.py "budget" "savings" "loan" "قرض" "دين" "debt": 1,533 loose matches (the Arabic دين also means religion); concept/mal-fiqh is the fiqh of property and debt; none is about budgets, savings goals or planning for a financial goal'
+- code: F1.2
+  text: identify and describe various reliable sources of information that can help with planning for and reaching a financial goal
+  why: It asks for reliable sources of information for planning to reach a financial goal; no record concerns financial planning.
+  searches:
+  - 'find_entity.py "budget" "savings" "loan" "قرض" "دين" "debt": 1,533 loose matches (the Arabic دين also means religion); concept/mal-fiqh is the fiqh of property and debt; none is about budgets, savings goals or planning for a financial goal'
+  - 'find_entity.py "exchange rate" "currency" "صرف" "dinar" "عملة": 61 records; concept/currency-exchange-sarf (prose in Arabic only) gives one author''s rulings on exchanging currency for currency, and person/dinar and concept/larin-currency are coin records; none states an exchange rate to compare or a conversion to carry out'
+- code: F1.3
+  text: create, track, and adjust sample budgets designed to meet longer-term financial goals for various scenarios
+  why: It asks for creating, tracking and adjusting sample budgets; no record concerns budgets.
+  searches:
+  - 'find_entity.py "budget" "savings" "loan" "قرض" "دين" "debt": 1,533 loose matches (the Arabic دين also means religion); concept/mal-fiqh is the fiqh of property and debt; none is about budgets, savings goals or planning for a financial goal'
+  - 'find_entity.py "exchange rate" "currency" "صرف" "dinar" "عملة": 61 records; concept/currency-exchange-sarf (prose in Arabic only) gives one author''s rulings on exchanging currency for currency, and person/dinar and concept/larin-currency are coin records; none states an exchange rate to compare or a conversion to carry out'
+- code: F1.4
+  text: identify various societal and personal factors that may influence financial decision making, and describe the effects that each might have
+  why: It asks for societal and personal factors that influence financial decisions and their effects; no record describes such effects.
+  searches:
+  - 'find_entity.py "budget" "savings" "loan" "قرض" "دين" "debt": 1,533 loose matches (the Arabic دين also means religion); concept/mal-fiqh is the fiqh of property and debt; none is about budgets, savings goals or planning for a financial goal'
+  - 'second pass: concept/zakat (taught in b-3 under B2.2) states the fixed portions of wealth; it says nothing about how such obligations influence personal financial decisions'
+- code: F1.5
+  text: explain how interest rates can impact savings, investments, and the cost of borrowing to pay for goods and services over time
+  why: It asks how interest rates affect savings, investments and the cost of borrowing; the museum's usury records give rulings, not the effect of rates.
+  searches:
+  - 'find_entity.py "interest" "riba" "ربا" "usury": 37 records; concept/riba and concept/riba-fiqh give the rulings and the authors'' views on usury (prose in Arabic only for concept/riba); neither states an interest rate, a percentage or how rates change savings or the cost of borrowing'
+  - 'find_entity.py "budget" "savings" "loan" "قرض" "دين" "debt": 1,533 loose matches (the Arabic دين also means religion); concept/mal-fiqh is the fiqh of property and debt; none is about budgets, savings goals or planning for a financial goal'
+- code: F1.6
+  text: compare interest rates and fees for different accounts and loans offered by various financial institutions, and determine the best option for different scenarios
+  why: It asks for comparing interest rates and fees across accounts and loans; the museum's usury records give rulings, not rates or fees.
+  searches:
+  - 'find_entity.py "interest" "riba" "ربا" "usury": 37 records; concept/riba and concept/riba-fiqh give the rulings and the authors'' views on usury (prose in Arabic only for concept/riba); neither states an interest rate, a percentage or how rates change savings or the cost of borrowing'
+  - 'find_entity.py "budget" "savings" "loan" "قرض" "دين" "debt": 1,533 loose matches (the Arabic دين also means religion); concept/mal-fiqh is the fiqh of property and debt; none is about budgets, savings goals or planning for a financial goal'

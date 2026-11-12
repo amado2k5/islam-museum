@@ -1,0 +1,52 @@
+id: course/ca-on-g9-snc1w-e-3
+class: course
+kind: lesson
+label:
+  en: Why the Sun and Moon go dark
+  ar: لماذا تُظلم الشمس والقمر
+  ur: سورج اور چاند کیوں تاریک ہوتے ہیں
+summary:
+  en: 'Eclipses as a phenomenon seen from Earth: how one astronomer explained their causes, and how one eclipse was seen (E2.6).'
+  ar: 'الكسوف والخسوف ظاهرةً تُرى من الأرض: كيف فسّر فلكي أسبابهما، وكيف شوهد كسوف واحد، التوقع E2.6.'
+  ur: 'گرہن زمین سے دکھائی دینے والے مظہر کے طور پر: ایک ماہرِ فلکیات نے ان کے اسباب کیسے بیان کیے، اور ایک گرہن کیسے دیکھا گیا، توقع E2.6۔'
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g9-snc1w-e
+expectations:
+- code: E2.6
+  text:
+    en: conduct investigations to explain the causes of various astronomical phenomena that can be observed from Earth
+    ar: أجرِ تجارب لتفسير أسباب مختلف الظواهر الفلكية التي يمكن رصدها من الأرض
+    ur: ایسی تحقیقات کریں جو زمین سے دیکھے جا سکنے والے مختلف فلکیاتی مظاہر کے اسباب کی وضاحت کریں
+connections:
+- position: before
+  kind: scholar
+  title:
+    en: Conjunction, opposition and the earth's shadow
+    ar: الاجتماع والمقابلة وظل الأرض
+    ur: اجتماع، مقابلہ اور زمین کا سایہ
+  text:
+    en: For al-Farghani, a solar eclipse is the moon's passing between the sun and the earth at conjunction, and a lunar eclipse is the moon's entering the earth's shadow at opposition. He adds that parallax changes what is seen, so an eclipse may appear partial from one place and total from another. What positions of sun, moon and earth does each case need?
+    ar: الكسوف عند الفرغاني اعتراض القمر بين الشمس والأرض عند الاجتماع، والخسوف دخول القمر ظل الأرض عند المقابلة. ويضيف أن اختلاف المنظر يغيّر ما يُرى، فقد يبدو الكسوف جزئيًا من موضع وكليًا من موضع آخر. ما أوضاع الشمس والقمر والأرض التي تحتاجها كل حالة؟
+    ur: الفرغانی کے نزدیک سورج گرہن چاند کا اجتماع کے وقت سورج اور زمین کے درمیان آ جانا ہے، اور چاند گرہن چاند کا مقابلے کے وقت زمین کے سائے میں داخل ہونا ہے۔ وہ مزید کہتا ہے کہ اختلافِ منظر سے جو دکھائی دیتا ہے بدل جاتا ہے، اس لیے ایک گرہن ایک جگہ سے جزوی اور دوسری جگہ سے کلی نظر آ سکتا ہے۔ ہر صورت کے لیے سورج، چاند اور زمین کے کون سے مقام ضروری ہیں؟
+  entity: concept/eclipses
+  sources:
+  - source/farghani-elements-astronomy
+- position: after
+  kind: story
+  title:
+    en: An eclipse as people saw it
+    ar: كسوف كما رآه الناس
+    ur: ایک گرہن جیسا لوگوں نے دیکھا
+  text:
+    en: Ibn al-Imad relates in Shadharat al-Dhahab that the sun was eclipsed in a great eclipse on the eighteenth of Shawwal 836 AH, from after the afternoon prayer to near sunset. The people performed the eclipse prayer and thought the sun had set eclipsed, until it cleared shortly before that. Which of the causes you have studied explains what they saw?
+    ar: يذكر ابن العماد في «شذرات الذهب» أن الشمس كسفت كسوفًا عظيمًا في الثامن عشر من شوال سنة 836هـ، من بعد العصر إلى قرب المغرب. وصلّى الناس صلاة الكسوف، وظنوا أن الشمس غربت كاسفة، ثم انجلت قبيل ذلك. أي الأسباب التي درستها تفسّر ما رأوه؟
+    ur: ابن العماد «شذرات الذہب» میں بیان کرتے ہیں کہ 18 شوال 836ھ کو سورج کو بڑا گرہن لگا، عصر کے بعد سے غروب کے قریب تک۔ لوگوں نے کسوف کی نماز پڑھی اور سمجھا کہ سورج گرہن کی حالت میں غروب ہو گیا، پھر وہ اس سے ذرا پہلے صاف ہو گیا۔ آپ نے جو اسباب پڑھے ہیں ان میں سے کون سا اس کی وضاحت کرتا ہے جو انہوں نے دیکھا؟
+  entity: event/solar-eclipse-836
+  sources:
+  - source/shadharat-dhahab
+order: 3

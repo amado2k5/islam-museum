@@ -1,0 +1,40 @@
+id: course/ca-on-g1-math-e-1
+class: course
+kind: lesson
+label:
+  en: Reading a calendar
+  ar: قراءة التقويم
+  ur: کیلنڈر پڑھنا
+summary:
+  en: Reading the date on a calendar and finding days, weeks, months, holidays and seasons (E2.3).
+  ar: قراءة التاريخ على التقويم وتحديد الأيام والأسابيع والأشهر والعطلات والفصول ⁦(E2.3)⁩.
+  ur: کیلنڈر پر تاریخ پڑھنا اور دن، ہفتے، مہینے، تعطیلات اور موسم پہچاننا ⁦(E2.3)⁩۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g1-math-e
+expectations:
+- code: E2.3
+  text:
+    en: read the date on a calendar, and use a calendar to identify days, weeks, months, holidays, and seasons
+    ar: اقرأ التاريخ على التقويم، واستخدم التقويم لتحديد الأيام والأسابيع والأشهر والعطلات والفصول
+    ur: کیلنڈر پر تاریخ پڑھیں، اور کیلنڈر کو دنوں، ہفتوں، مہینوں، تعطیلات اور موسموں کی شناخت کے لیے استعمال کریں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A calendar counted by the moon
+    ar: تقويم يُحسب بالقمر
+    ur: چاند سے گنا جانے والا کیلنڈر
+  text:
+    en: 'The Hijri calendar is a lunar calendar whose years are counted from the Prophet''s migration from Mecca to Medina, and it fixes the dates of Ramadan, the hajj and the feasts. Its year is about eleven days shorter than the solar year, so its months move through the seasons. Find one month of your own calendar: in which season does it fall?'
+    ar: 'التقويم الهجري تقويم قمري تُعدّ سنواته من هجرة النبي من مكة إلى المدينة، ويُحدَّد به موعد رمضان والحج والأعياد. وهو أقصر من السنة الشمسية بنحو أحد عشر يومًا، فتتحرك شهوره عبر الفصول. اختر شهرًا من تقويمك أنت: في أي فصل يقع؟'
+    ur: 'ہجری تقویم ایک قمری تقویم ہے جس کے سال نبی کی مکہ سے مدینہ ہجرت سے گنے جاتے ہیں، اور اسی سے رمضان، حج اور عیدوں کا وقت متعین ہوتا ہے۔ اس کا سال شمسی سال سے تقریباً گیارہ دن چھوٹا ہے، اس لیے اس کے مہینے موسموں میں گھومتے رہتے ہیں۔ اپنے کیلنڈر کا کوئی ایک مہینہ دیکھیں: وہ کس موسم میں آتا ہے؟'
+  entity: concept/hijri-calendar
+  sources:
+  - source/tarikh-khulafa-minhaj-1434
+  - source/assabile-zaghloul-el-naggar
+order: 1

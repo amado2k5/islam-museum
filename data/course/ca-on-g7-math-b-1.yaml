@@ -1,0 +1,40 @@
+id: course/ca-on-g7-math-b-1
+class: course
+kind: lesson
+label:
+  ar: من أين جاءت كسورنا العشرية؟
+  en: Where do our decimal fractions come from?
+  ur: ہمارے اعشاری کسور کہاں سے آئے؟
+summary:
+  ar: قراءة الأعداد العشرية ومقارنتها وترتيبها، في ضوء كسور الإقليدسي العشرية.
+  en: Reading, comparing and ordering decimal numbers, in light of al-Uqlidisi's decimal fractions.
+  ur: اعشاری اعداد کو پڑھنا، ان کا موازنہ کرنا اور انہیں ترتیب دینا، اقلیدسی کے اعشاری کسور کی روشنی میں۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g7-math-b
+expectations:
+- code: B1.3
+  text:
+    en: read, represent, compare, and order rational numbers, including positive and negative fractions and decimal numbers to thousandths, in various contexts
+    ar: اقرأ الأعداد النسبية ومثّلها وقارن بينها ورتّبها، ومنها الكسور الموجبة والسالبة والأعداد العشرية حتى الأجزاء من الألف، في سياقات متنوعة
+    ur: ناطق اعداد کو پڑھیں، ظاہر کریں، ان کا موازنہ کریں اور انہیں ترتیب دیں، بشمول مثبت اور منفی کسور اور ہزارویں حصے تک اعشاری اعداد، مختلف سیاق میں
+connections:
+- position: after
+  kind: invention
+  title:
+    ar: نصف الواحد خمسة أعشار
+    en: A half is five tenths
+    ur: آدھا یعنی پانچ دسویں
+  text:
+    ar: في كتاب ألّفه الإقليدسي بدمشق سنة 341هـ/952–953م معالجة مبكرة مباشرة للكسور العشرية داخل الحساب الهندي ذي القيمة المكانية. يعرض سعيدان السلسلة 13 ثم 6.5 ثم 3.25 ثم 1.625 ثم 0.8125 بالتنصيف المتكرر، ويذكر خطاً فوق منزلة الآحاد يصر المؤلف على استعماله. ويؤكد السجل أن هذا ليس اختراع الأرقام الهندية ولا النقطة العشرية الحالية. لماذا يفيد أن نعلّم منزلة الآحاد؟
+    en: A book composed by al-Uqlidisi at Damascus in 341 AH (952–953 CE) contains an early direct treatment of decimal fractions within Indian place-value arithmetic. Saidan gives the repeated-halving sequence 13, 6.5, 3.25, 1.625, 0.8125, and describes a stroke over the units position that the author insists should be used. The record stresses that this is not the invention of the Indian numerals or of today's decimal point. Why does it help to mark the units place?
+    ur: اقلیدسی کی دمشق میں سن 341ھ / 952–953ء میں لکھی ہوئی کتاب میں ہندوستانی مقامی قدر والے حساب کے اندر اعشاری کسور کا ایک ابتدائی براہِ راست بیان ملتا ہے۔ سعیدان بار بار آدھا کرنے سے 13، 6.5، 3.25، 1.625، 0.8125 کی لڑی بتاتے ہیں، اور اکائی کے مقام کے اوپر ایک لکیر کا ذکر کرتے ہیں جسے مصنف استعمال کرنے پر اصرار کرتا ہے۔ ریکارڈ زور دیتا ہے کہ یہ ہندوستانی ہندسوں یا آج کے اعشاری نقطے کی ایجاد نہیں۔ اکائی کا مقام نشان زد کرنا کیوں مددگار ہے؟
+  entity: invention/decimal-fractions-al-uqlidisi
+  sources:
+  - source/uqlidisi-saidan-dsb
+  - source/tdv-oklidisi
+order: 1

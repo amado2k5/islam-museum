@@ -1,0 +1,60 @@
+id: course/ca-on-g4-science-d-2
+class: course
+kind: lesson
+label:
+  en: Turning motion into back-and-forth motion
+  ar: تحويل الدوران إلى ذهاب وإياب
+  ur: گردشی حرکت کو آگے پیچھے کی حرکت میں بدلنا
+summary:
+  en: How mechanisms pass motion on and change it, including rotary motion (D2.3, D2.4).
+  ar: كيف تنقل الآليات الحركة وكيف تغيّرها، ومنها الحركة الدورانية، التوقعان D2.3 وD2.4.
+  ur: میکانزم حرکت کو کیسے آگے منتقل کرتے اور بدلتے ہیں، بشمول گردشی حرکت، توقعات D2.3 اور D2.4۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g4-science-d
+expectations:
+- code: D2.3
+  text:
+    en: describe how different mechanisms transmit various types of motion, including rotary motion, from one system to another
+    ar: صِف كيف تنقل آليات مختلفة أنواعًا من الحركة، ومنها الحركة الدورانية، من نظام إلى آخر
+    ur: بیان کریں کہ مختلف میکانزم حرکت کی مختلف اقسام، بشمول گردشی حرکت، ایک نظام سے دوسرے نظام تک کیسے منتقل کرتے ہیں
+- code: D2.4
+  text:
+    en: describe how mechanisms transform motion, including how they can change the geometric plane in which the motion occurs and the speed and/or direction of motion
+    ar: صِف كيف تحوّل الآليات الحركة، ومنها كيف تغيّر المستوى الهندسي الذي تحدث فيه الحركة وسرعتها و/أو اتجاهها
+    ur: بیان کریں کہ میکانزم حرکت کو کیسے بدلتے ہیں، بشمول یہ کہ وہ حرکت کی ہندسی سطح اور رفتار اور/یا سمت کو کیسے بدل سکتے ہیں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: A pump driven by a stream
+    ar: مضخة يديرها تيار
+    ur: بہتے پانی سے چلنے والا پمپ
+  text:
+    en: Al-Jazari described a pump powered by flowing water. According to the TDV encyclopedia, a stream drives a wheel and gears, and a pin with a slotted rod converts the rotation into back-and-forth motion in the arms of two pistons. Where does the motion change its kind?
+    ar: وصف الجزري مضخة يحرّكها الماء الجاري. وبحسب موسوعة TDV يدير التيار دولابًا وتروسًا، وينقل مسمار وقضيب مشقوق الدوران إلى حركة ذراعي مكبسين ذهابًا وإيابًا. أين تتغير نوعية الحركة؟
+    ur: جزری نے بہتے پانی سے چلنے والا پمپ بیان کیا۔ ٹی ڈی وی انسائیکلوپیڈیا کے مطابق ایک دھارا پہیے اور دندانوں والے پہیوں کو چلاتا ہے، اور ایک کیل اور شگاف دار ڈنڈا گردش کو دو پسٹنوں کے بازوؤں کی آگے پیچھے حرکت میں بدل دیتے ہیں۔ حرکت کی نوعیت کہاں بدلتی ہے؟
+  entity: invention/jazari-double-piston-pump
+  sources:
+  - source/tdv-cezeri
+  - source/fstc-jazari-mechanical-genius
+  - source/smg-jazari-double-pump
+- position: after
+  kind: invention
+  title:
+    en: A pin in a slot, again
+    ar: مسمار في شق مرة أخرى
+    ur: شگاف میں کیل، ایک بار پھر
+  text:
+    en: Chapter V.4 of al-Jazari's book describes a water lifter turned by an animal. Gears carry the rotation to a pin that moves inside a slot in the ladle stem, raising and lowering the scoop. The record makes no claim that he was the first, and says a folio at the Metropolitan Museum is a later copy, not a surviving machine. How is this pin and slot like the pin and slot of the pump?
+    ar: يصف الباب الخامس، الفصل الرابع، من كتاب الجزري رافعة ماء يديرها حيوان. تنقل التروس الدوران إلى مسمار يتحرك داخل شق في ساق المغرفة فيرفعها ويخفضها. ولا يدّعي السجل له أسبقية، ويقول إن ورقة المتروبوليتان نسخة متأخرة لا آلة باقية. بماذا يشبه هذا المسمار وهذا الشق مسمار المضخة وشقها؟
+    ur: جزری کی کتاب کا باب پنجم، فصل چہارم، ایک ایسے آبکش کو بیان کرتا ہے جسے جانور گھماتا ہے۔ دندانے دار پہیے گردش کو ایک کیل تک پہنچاتے ہیں جو مغرفے کے دستے کے شگاف میں چلتی ہے اور مغرفے کو اٹھاتی اور گراتی ہے۔ ریکارڈ اس کے اولین ہونے کا دعویٰ نہیں کرتا، اور کہتا ہے کہ میٹروپولیٹن میوزیم کا ورق بعد کی نقل ہے، باقی رہنے والی مشین نہیں۔ یہ کیل اور شگاف پمپ کی کیل اور شگاف سے کیسے ملتے جلتے ہیں؟
+  entity: invention/jazari-animal-scoop-water-lifter
+  sources:
+  - source/jazari-hill-1974
+  - source/met-jazari-scoop-451298
+order: 2

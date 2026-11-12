@@ -1,0 +1,172 @@
+course: course/ca-on-g11-hzb3m
+gaps:
+- code: A1.1
+  text: explore a variety of topics related to philo­sophical questions and/or issues […] to identify topics for research and inquiry
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: identify key concepts […] related to their selected topics
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: formulate effective questions to guide their research and inquiry
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: create appropriate research plans to investi­gate their selected topics […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: locate and select information relevant to their investigations from a variety of primary sources […] and secondary sources […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.3
+  text: based on preliminary research, formulate arguments and anticipate counter-arguments
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.1
+  text: assess various aspects of information gath­ered from primary and secondary sources […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.2
+  text: record and organize information and key ideas using a variety of formats […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.3
+  text: analyse and interpret research information […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.4
+  text: demonstrate academic honesty by documenting the sources of all information generated through research
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.5
+  text: synthesize findings and formulate conclu­sions […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.1
+  text: use an appropriate format […] to communicate the results of their research and inquiry effectively for a specific purpose and audience
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.2
+  text: correctly use terms relating to their chosen topics
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.3
+  text: clearly communicate the results of their inquiries […], and follow appropriate conventions for acknowledging sources […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A4.4
+  text: demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.3
+  text: compare how different philosophical tradi­tions approach the same big question […]
+  why: The expectation asks the student to compare how two philosophical traditions approach one big question. The museum's records name rival schools of Islamic theology but set out no two traditions' answers to one question side by side, and hold nothing on the traditions the curriculum lists (rationalism, empiricism, Thomism and the rest).
+  searches:
+  - 'find_entity.py "empiricism" "rationalism" "العقلانية": no real record'
+  - 'find_entity.py "Kant" "كانط" "Descartes": one record, person/rene-descartes, a biography with Arabic prose only; no tradition is set against another'
+  - 'entity_brief.py group/mutazila and concept/ashariyya, read in full: they name the schools and their rivalry but give no two answers to one question to compare'
+- code: B3.2
+  text: explain the ways in which philosophical terms and concepts used by different philoso­phers have evolved over time, and describe how these terms and concepts are understood within different philosophical traditions
+  why: The expectation asks how philosophical terms evolved over time and how they are understood in different traditions. No record traces a term across time; the records that touch the terms give one author's gloss each.
+  searches:
+  - 'find_entity.py "scepticism" "الشك" "shakk" "doubt": concept/doubt-shakk is doubt in the law of evidence and worship, not a philosophical term'
+  - 'entity_brief.py concept/hikma --full and concept/falsafa --full: hikma is one lecturer''s gloss of a verse; falsafa gives two examples from al-Zirikli; neither follows a term over time'
+  - 'find_entity.py "wisdom" "الحكمة" "hikma": 22 records, none a history of the term'
+- code: C1.1
+  text: describe the parts of an argument […], and explain how a philosophical argument differs from other communications
+  why: The expectation asks the student to describe the parts of an argument (premise, evidence, conclusion). The museum holds no record that teaches the parts of an argument; it shows arguments in use (see lesson c-1) but does not describe their structure.
+  searches:
+  - 'find_entity.py "premise" "argument" "مقدمات" "برهان": 70 word matches, all names (al-Burhan fi Usul al-Fiqh, persons named Burhan al-Din) or hadith texts; none on the parts of an argument'
+  - 'find_entity.py "logic" "منطق" "mantiq": works with no prose (work/al-mantiq-work, work/naqd-al-mantiq) and no record that describes an argument'
+- code: C1.2
+  text: describe forms of reasoning […], and explain how they are applied in philosophical arguments
+  why: The expectation asks for the forms of reasoning, deduction and induction, and how philosophical arguments apply them. No record describes them.
+  searches:
+  - 'find_entity.py "deduction" "induction" "استقراء": one record, work/logical-foundations-of-induction, with no prose'
+  - 'find_entity.py "syllogism" "قياس" "qiyas mantiqi": concept/qiyas is analogy in legal reasoning, not a form of philosophical argument'
+- code: C1.3
+  text: correctly use terminology related to logic and philosophical argumentation […]
+  why: The expectation asks for correct use of the terms of logic and philosophical argument (validity, inference, syllogism). No record defines them.
+  searches:
+  - 'find_entity.py "logic" "منطق" "mantiq": works with no prose and a book title; no record defines a logical term'
+  - 'find_entity.py "syllogism" "قياس" "qiyas mantiqi": concept/qiyas is legal analogy; no term of formal logic'
+- code: C1.4
+  text: identify some common fallacies in reasoning […], and identify examples of some of these fallacies in arguments encountered in everyday life […]
+  why: The expectation asks the student to identify common fallacies. The museum holds no record on fallacies.
+  searches:
+  - 'find_entity.py "fallacy" "مغالطة" "mughalata": no real record'
+  - 'grep -ril "fallac" content/en/concept content/ar/concept: two files; concept/ilm-al-tarikh reports Ibn Khaldun on historians who erred by relying on transmission alone, and concept/iznik-pottery uses the word of a mistaken name; neither names a fallacy of relevance, ambiguity or presumption'
+- code: C3.1
+  text: develop and defend, using philosophical reasoning and critical-thinking skills, their own response to one or more of the big questions of philosophy examined in this course
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C3.2
+  text: apply philosophical reasoning and critical-thinking skills to analyse arguments encountered in everyday life […] and to develop a response to them
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.1
+  text: explain the relevance of some of the big questions of philosophy to their own experiences in everyday life […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.3
+  text: demonstrate an understanding of how they can apply philosophical theories and skills to enhance their understanding of popular culture […]
+  why: The expectation asks the student to apply philosophical theories to popular culture. The museum's records on film and screen are about the films and the cinemas of Muslim peoples, not about applying philosophy to them.
+  searches:
+  - 'find_entity.py "popular culture" "film" "cinema": 16 records, among them screen/nussa-film-2021 and the exhibit/path-cinema-* pages, all about films and national cinemas'
+  - 'find_entity.py "music video" "talk show" "graphic novel": no real record'
+- code: D2.1
+  text: demonstrate an understanding of ways in which skills developed and used in philosophy, such as critical thinking, argumentation, and effective listening skills, can be used in other subjects […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D2.2
+  text: explain the philosophical presuppositions that are implicit in other subject areas […]
+  why: The expectation asks the student to explain the philosophical presuppositions implicit in other subjects (the nature of knowledge in science, objectivity in history). No record states such a presupposition.
+  searches:
+  - 'find_entity.py "epistemology" "knowledge" "المعرفة" "ilm": 175 word matches; concept/ilm is seeking knowledge as a duty, and no record treats the nature of knowledge in a science'
+  - 'entity_brief.py person/ibn-khaldun --full: history as a science of al-umran (Yeomans) is a claim about history, but the record does not state a presupposition about objectivity'
+- code: D2.3
+  text: explain the philosophical presuppositions that are implicit in a variety of careers […]
+  why: The expectation asks the student to explain the philosophical presuppositions implicit in careers (law, mediation, journalism, medicine). No record states such a presupposition.
+  searches:
+  - 'find_entity.py "journalism" "mediation" "arbitration" "تحكيم": 3 records; event/arbitration-of-siffin is a historical event, not a career, and the others are not on a profession'
+  - 'find_entity.py "mediation" "journalist" "صحافة" "وساطة": 9 word matches, among them person/ahmed-midhat (a writer and journalist) and concept/al-nashat-ghayr-al-tabii (intermediation in trade); no record on a career that states a philosophical presupposition'

@@ -17,16 +17,18 @@ This is the whole procedure for bringing one school course into islam.museum. An
 3. **Never invent, never stretch.** A lesson links a record only because the lesson's own expectations justify it. No record after an honest search means a gap-register entry, not a new entity and not a loose match.
 4. **Search before you say "absent".** Run the alias search with at least three spellings (English, Arabic, a transliteration or the slug) before declaring a gap. Most "missing" records exist under another name.
 5. **Everything you produce is `status.review: draft`.** You never mark anything published. Publication is a human act.
-6. **A translation is a translation.** Arabic is written first and is required. English is required. A text you have not translated is left out of the record, never copied from another language. Do not write Urdu (`ur`) at all: it is the founder's lane.
+6. **A translation is a translation.** Every text you write is written in Arabic first, then English, then Urdu, and all three are required (`ar`, `en`, `ur`). Each says the same thing in its own words. A text is never copied from one language into another: the gate fails a byte copy.
 7. **The museum's standing rules apply.** Read `AGENTS.md` and `docs/agents/content-safety.md` before writing. In particular: no typed honorifics; Qur'an text is never typed, paraphrased or completed, only referenced; a neutral docent's voice that describes and attributes; a parenthetical containing Arabic script is wrapped in U+2066 … U+2069; verbatim text from any source is at most 40 words per quotation.
 8. **Mirror the schema.** Use only the fields and values of `schema/course.schema.json` as the existing records use them. If something real cannot be expressed, write it under "Proposals" in your run log. Do not add a field.
 
 ## 0. Before you start
 
 ```bash
-git fetch origin && git status          # a clean worktree on your own branch
-npm run graph                           # builds .cache/graph.json, about one minute; the search tools read it
-date -u +%Y-%m-%dT%H:%MZ                # note the time
+git fetch origin && git status          # your own branch; untracked files of another process may be present: leave them alone
+npm run graph                           # builds .cache/graph.json; the search tools read it. It takes about two minutes:
+                                        # run it in the background or with a long timeout. If you were told the graph is
+                                        # already built for you (a fleet run), do not run it.
+date -u +%Y-%m-%dT%H:%MZ                # note the time; take every time in your log from this command, never from memory
 ```
 
 Open a run log at `docs/courses/runs/<subject-slug>.md` and write to it as you go, not afterwards: the time each step started, every command that failed, every place this runbook was unclear or wrong, every judgement call. The log is evidence, and the runbook is repaired from it.
@@ -54,7 +56,9 @@ python3 -c "import json;d=json.load(open('.cache/curricula/<slug>/official.json'
 
 ## 2. The curriculum source record
 
-Every course record cites the curriculum as a `source/` record. Look first: `ls data/source | grep -i <authority>`. If one exists for this document, use it and do not edit it. If none exists, create `data/source/<id>.yaml` in the shape of `data/source/ontario-science-tech-2022.yaml`: the title, the authority as author and publisher, the year, the authority's own URL, `status: { review: draft, completeness: 2, generated_by: "<you, the model, the date>" }`. This is the only kind of new source you may create.
+Every course record cites the curriculum as a `source/` record. **For Ontario, one command finds or makes it:** `python3 scripts/courses/ontario_source.py <archive slug>` prints the source id to cite (it reuses a record that already carries the curriculum's address, or writes one from the Ministry's manifest, the same bytes whoever runs it). Ontario's grade records `course/ca-on-g1` … `course/ca-on-g12` already exist: reuse yours, never create or edit one.
+
+For another authority, look first: `ls data/source | grep -i <authority>`. If one exists for this document, use it and do not edit it (an older source record may say the museum "quotes nothing" from the curriculum; that note predates this pipeline and is the founder's to update, not yours). If none exists, create `data/source/<id>.yaml` in the shape of `data/source/ontario-science-tech-2022.yaml`: the title, the authority as author and publisher, the year, the authority's own URL, `status: { review: draft, completeness: 2, generated_by: "<you, the model, the date>" }`. This is the only kind of new source you may create.
 
 ## 3. Plan the tree
 
@@ -64,9 +68,11 @@ Ids are `course/<slug>`; a slug is lower-case letters, digits and hyphens, and i
 |---|---|---|---|
 | School system | `jurisdiction` | `<country>-<region>-<board>` | `ca-on-english` (exists: reuse it) |
 | Grade | `grade` | `<country>-<region>-g<n>` | `ca-on-g4` |
-| Subject | `subject` | `<grade slug>-<subject>` | `ca-on-g4-social-studies` |
-| Strand | `unit` | `<grade slug>-<abbr>-<strand letter>` | `ca-on-g4-ss-a` |
-| Lesson | `lesson` | `<strand slug>-<n>` | `ca-on-g4-ss-a-1` |
+| Subject | `subject` | `<grade slug>-<subject>`; for a secondary course with a course code, `<grade slug>-<code in lower case>` | `ca-on-g4-social-studies`, `ca-on-g11-hrt3m` |
+| Strand | `unit` | `<subject slug>-<strand letter>` | `ca-on-g2-social-studies-a` |
+| Lesson | `lesson` | `<strand slug>-<n>` | `ca-on-g2-social-studies-a-1` |
+
+Every record you create below the grade begins with your subject's slug, so no two courses can ever collide. (The pilot and the proof course used shorter strand slugs, `ca-on-g6-sci-…` and `ca-on-g4-ss-…`; ids are permanent, so they stay.)
 
 Reuse a jurisdiction or grade record that already exists (`ls data/course`). Never create a second record for the same school system or grade.
 
@@ -86,7 +92,15 @@ python3 scripts/courses/entity_brief.py place/baghdad                           
 
 `find_entity.py` lists real records and, apart, stubs. **A stub is not a record: never link one.** `entity_brief.py` prints the record's facts, its prose and the sources it cites. Read the brief before choosing a record: a record with no prose and a one-line summary gives you nothing to write from, so it cannot carry a connection.
 
+`entity_brief.py` cuts long prose to its first 2,500 characters per language; add `--full` before restating anything from further down.
+
+**Adjacent is not a link.** Name the noun in the expectation that the record actually contains. "Governments consult the public" is not served by a record of a ruler consulting his advisers; "night sky" is not served by a daytime eclipse; "symmetry" is not served by a record that only says a pattern exists. If the Brief would have to say the record lacks the very thing the expectation asks for, there is no lesson.
+
 A link is honest when you can finish this sentence from the expectation's own words and the record's own text: "The expectation asks the student to ___; this record shows ___." Write that sentence in your run log for every link. If you cannot, there is no link.
+
+**When an expectation asks for more than the museum holds.** Many expectations ask the student to study "a few" or "some" things and name one the museum cannot supply (Ontario's Grade 4 asks for "a few early societies, including at least one First Nation and one Inuit society"). The museum may serve its part and only its part: the lesson links the records it honestly has, and its Brief says in plain words what the museum offers here and what the class must bring from elsewhere. That is a lesson. If the whole object of the expectation lies outside the museum (the provinces of Canada, a First Nation's governance), it is a gap. Never write as if the museum's part were the whole.
+
+**Fit the grade.** An honest link is not enough: the record's subject must suit the age of the student. In an elementary lesson (Kindergarten to Grade 8) do not link a record whose subject is slavery, concubinage or the sale of people; killing, torture, mutilation or the detail of a battle; sexual matters; or graphic disease, famine or death. It does not matter how well the record fits or how neutrally the card is worded (the fleet's first run put a record on singing slave women into Grade 2, 3 and 4 Arts lessons; it fitted the music expectation and was removed). In a secondary lesson such a record may be linked when the expectation itself reaches the subject, with the card kept to what the expectation asks. If the only fitting record is unsuitable, the expectation is a gap: say why in the register. Health and medicine need the same care at every grade: a card never reads as advice (a remedy, a diet, a ruling on what a sick person may do); it says who held a view, and when.
 
 Each lesson gets one to three connections. Aim for one `before`, one `within`, one `after` when the records support it; one good connection is better than three thin ones.
 
@@ -103,7 +117,9 @@ gaps:
   - 'find_entity.py --class place "Canada" "كندا": place/canada has no prose'
 ```
 
-At least two searches per entry, each with what it returned. A whole strand may go to the register; then that strand gets no `unit` record. Every specific expectation of the document ends in exactly one place: a lesson, or the register.
+At least two searches per entry, each with what it returned. Search by the expectation's **topic**, not only by proper names: the museum files daily life, social order and economy under concept records as well as under people and places (a fresh verifier refuted four of the proof run's gaps by searching "tribe", "kinship", "pre-Islamic" and "Jahiliyya", which the run never tried). Try the Arabic topic words too. `grep -ril "<word>" content/en/concept content/ar/concept | head` finds records the label search misses. A whole strand may go to the register; then that strand gets no `unit` record. A whole course may go to the register: then you create no record at all, write the register and the run log, and report "gap only". That is a valid, honest outcome and not a failure. Every specific expectation of the document ends in exactly one place: a lesson, or the register.
+
+Skills expectations (research, inquiry, communication, safety) name no subject matter; they go to the register with the reason "skills expectation: names no subject matter" and two searches are not needed for them: write `searches: ["none: skills expectation", "none: skills expectation"]`.
 
 Now finalise the lesson plan from what survived.
 
@@ -115,9 +131,9 @@ Now finalise the lesson plan from what survived.
 python3 -c "import sys,json;sys.path.insert(0,'scripts/courses');from lib import quote_official;d=json.load(open('.cache/curricula/<slug>/official.json'));[print(s['code'],'|',quote_official(s['text'])) for st in d['strands'] for o in st['overall'] for s in o['specific']]"
 ```
 
-It replaces each `(e.g., …)` list with `[…]` and cuts what is still over 40 words, ending it with ` …`. Paste its output as the `en` text (or the authority's language). Do not retype, tidy or shorten it yourself: the gate compares the bytes.
+It replaces each `(e.g., …)` list with `[…]` and cuts what is still over 40 words, ending it with ` …` (the `[…]` mark is not counted as a word). What is stored is the official wording with its examples omitted, not the full official text: say it that way. Paste its output as the `en` text (or the authority's language). Do not retype, tidy or shorten it yourself: the gate compares the bytes.
 
-Translate each expectation into Arabic for real, keeping `[…]` and `…` where they stand. Leave `ur` out.
+Translate each expectation into Arabic and into Urdu for real. Keep the marks: `[…]` stays where an example list stood, and a cut text ends with ` …` in every language. In Arabic and Urdu, wrap any parenthetical that contains Arabic script in U+2066 … U+2069 (write the two characters themselves, as the existing records do).
 
 **The records.** One file per record under `data/course/`, in the pilot's field order.
 
@@ -127,11 +143,13 @@ id: course/ca-on-g4-ss-a-1
 class: course
 kind: lesson
 label:
-  en: <a short title a ten-year-old understands>
+  en: <a short title a student of that grade understands>
   ar: <the same in Arabic>
+  ur: <the same in Urdu>
 summary:
   en: <one sentence: what the lesson asks, from the expectations>
   ar: <the same in Arabic>
+  ur: <the same in Urdu>
 sources:
 - source/<the curriculum source>
 status:
@@ -144,20 +162,33 @@ expectations:
   text:
     en: <quote_official output, byte for byte>
     ar: <your Arabic translation>
+    ur: <your Urdu translation>
 connections:
 - position: before            # before | within | after
   kind: place                 # reflection story scholar invention career quran hadith place object: nothing else
   title:
     en: <a title>
     ar: <the same in Arabic>
+    ur: <the same in Urdu>
   text:
     en: <40 to 80 words>
     ar: <the same in Arabic, written first>
+    ur: <the same in Urdu>
   entity: place/baghdad       # a real record, from step 4
   sources:
   - source/<a source that record cites>
 order: 1
 ```
+
+Four things that have cost earlier runs a failed gate:
+
+- **`order` is distinct among siblings.** A subject's units are `order: 1, 2, 3 …`; a unit's lessons likewise.
+- **Quote YAML scalars that contain `: `, `#`, or start with a quote, bracket or `§`.** If you generate the files with a script, dump them with a YAML library.
+- **Urdu is Arabic script.** The U+2066 … U+2069 wrap applies to Urdu parentheticals exactly as to Arabic ones.
+- **cite-check takes the ids as separate words.** The shell here is zsh, which passes a variable holding several ids as ONE word (cite-check then says `record-exists: no file`). Write them inline: `npx tsx scripts/cite-check.ts $(ls data/course | grep '^<subject slug>' | sed 's/.yaml//; s|^|course/|')`.
+- **Secondary courses are listed by their course code** (`--list HRT`), not by grade.
+- **`find_entity.py` takes 10 to 30 seconds a call** when a fleet is running: run several searches in the background or in parallel, never in a long foreground loop.
+- **The Ministry's course names are exact**, suffixes included (`SSHG - Grade 3 (2023)`, not `SSHG - Grade 3`): take the name from `--list`.
 
 A `unit` has `label`, `summary`, `sources`, `status`, `part_of` (the subject), `lessons:` (its lessons in order), `expectations:` (the strand's **overall** expectations, code and `quote_official` text, translated) and `order`. A `subject` has `subject_name`, `curriculum_ref` (the document's title and year) and `lessons:` (its units in order). A `grade` has `grade_number`, `country`, `region`. Copy the pilot's records for the exact shape.
 
@@ -165,32 +196,42 @@ A `unit` has `label`, `summary`, `sources`, `status`, `part_of` (the subject), `
 
 **Writing a connection text.**
 
-- Write the Arabic first, then the English, saying the same thing.
+- Write the Arabic first, then the English, then the Urdu, all saying the same thing.
 - Every factual clause restates a sentence in the record's brief. Keep to what that sentence says: its dates, its names, its numbers, its hedges ("it is said", "about"). No superlative ("the first", "the greatest") unless the record states it.
+- Each language follows the record's prose in that language: the Arabic text restates the Arabic record's own words, the English the English record's. If the record's Arabic and English disagree (a different verb, a missing clause), say so in your run log and write only what both say. Do not swap a term for a near-synonym the record does not use (a "ruler" is not a "sultan"; "largest" is not "greatest"; a "well" is not a "pit").
+- **Name who holds a view.** A ruling, a remedy, a judgement of worth or a cause is always attributed to the person or body that holds it, by name: "the Kuwaiti encyclopaedia of jurisprudence records that the jurists hold…", "al-Razi writes…". Never "the record says", and never in the museum's own voice. If the record itself states the view with no attribution, do not copy it: it is not a fact you can restate.
+- **A superlative needs a source that can carry it.** A record that cites only Wikidata or Wikipedia supports names, dates and places, not "the noblest", "the greatest" or "the first". (The fleet's first run copied "the most honoured of the Islamic arts" from such a record into eleven lessons.)
+- **Read the whole record before you build on it,** with `--full`, including its `needs_source` marks and anything it reports from a poll, a panel or an audience. A record that reports a television debate or a preacher's talk is evidence of what was said there, not of the subject; do not offer it beside an expectation that asks for the subject itself (a lecturer's management talks are not "major psychological theories"). A record that carries hateful or conspiratorial content, even as a reported opinion, is never linked: write it up under "Records for the founder" in your run log.
+- **A religious ruling is not a safety, health or technical standard.** A purity test is not a water-quality test; a ruling on fasting is not dietary guidance. If the expectation asks for the standard, the ruling is a gap.
+- **Cite what a reader can see.** Restate only sentences that appear in the record's prose in that language. A sentence that exists only in the data file's notes is not on the page a student opens.
+- **Check the nouns and units across your three languages** before you finish: the same thing, the same unit, the same number in each.
+- Keep the record's hedges and its separations. If the record gives one author's claim and says another author does not confirm it, do not set the two side by side as if they agreed.
+- A year in Arabic or Urdu carries its era (`م` or `هـ`), as the record writes it.
+- Do not say "the record quotes" unless the record prints a quotation; say what the record says.
 - `sources:` lists the sources the restated sentences cite in the record, and no other. They must appear under "SOURCES THIS RECORD CITES" in the brief.
 - Tie it to the lesson in one closing clause or question. That clause is yours; it states no new fact.
 - Docent's voice: describe, attribute, do not preach, do not judge.
 - **Qur'an.** A `quran` connection has `ref: '<sura>:<aya>'`, `entity: passage/quran-<sura>-<aya>`, and `sources: [source/tanzil-quran]` only. The page prints the verse from the museum's frozen text. Your text does not quote, translate or paraphrase the verse and does not say what it means: it invites the student to read it and asks a question that links it to the lesson. Use a Qur'an connection only when a record the lesson already links cites that verse.
-- **Evidence.** For every connection add a row to `docs/courses/evidence/<subject-slug>.md`: lesson, entity, each claim you made, and the sentence of the record it restates (quote at most 40 words) with its citation marker. A reviewer will check your texts against these rows and against the record pages.
+- **Evidence.** For every connection add a row to `docs/courses/evidence/<subject-slug>.md`: lesson, entity, each claim you made, and the sentence of the record it restates (quote at most 40 words) with its citation marker. A reviewer will check your texts against these rows and against the record pages. Give a row for each claim in each language: the Arabic text is checked against the Arabic record, and a quotation in this table is the record's words exactly, not your paraphrase.
 
 ## 6. Write the prose
 
-Every record needs `content/ar/course/<slug>.md` and `content/en/course/<slug>.md`, with front matter:
+Every record needs `content/ar/course/<slug>.md`, `content/en/course/<slug>.md` and `content/ur/course/<slug>.md`, with front matter:
 
 ```
 ---
 id: course/<slug>
-lang: ar            # en in the English file
+lang: ar            # en in the English file, ur in the Urdu file
 source_lang: ar     # the language you wrote first
-translators: []
+translators: []     # in the en and ur files: [<your agent name>]
 ---
 ```
 
 A lesson's prose is short and says nothing the curriculum does not:
 
-- `## Brief` (Arabic file: `## موجز`): in plain words for the student, what this lesson asks them to be able to do. Two or three sentences, from the expectations. End it with `{cite:<curriculum source slug>}`.
+- `## Brief` (Arabic file: `## موجز`; Urdu file: `## مختصر`): in plain words for the student, what this lesson asks them to be able to do. Two or three sentences, from the expectations. End it with `{cite:<curriculum source slug>}`.
 - One or two sections, each headed by a question the expectations raise, with two or three sentences on what to look for or compare. Method, not facts: do not state history, geography or science here. Facts reach the student through the connections, where they are cited.
-- `## Try this` (Arabic: `## جرّب هذا`): one activity that uses a record the lesson links, by name.
+- `## Try this` (Arabic: `## جرّب هذا`; Urdu: `## یہ آزمائیں`): one activity that uses a record the lesson links, by name.
 
 The jurisdiction, grade, subject and unit files are one `## Brief` each: what it is, in two sentences, cited to the curriculum source.
 
@@ -201,14 +242,18 @@ npm run graph
 python3 scripts/courses/check_course.py course/<subject-slug> --official .cache/curricula/<slug>/official.json --strict --save
 ```
 
+`--save` keeps the output at `docs/courses/gates/check-<subject-slug>.out`, with the course's other files. (In a fleet run, skip `npm run graph` here: the gate reads the record files directly.)
+
 Fix what fails and run it again. Each failing line names the record and the reason. The checks are: TREE, DRAFT, SOURCE, FIDELITY, COVERAGE, LANGUAGE, MAPPING, PROVENANCE, GAPS, PROSE. Never edit the checker to pass.
 
 ## 8. Run the repository's gates
 
 ```bash
 npm run validate 2>&1 | tail -3                              # must print: 0 errors
-npx tsx scripts/cite-check.ts course/<id> course/<id> …      # every record you created; must print: 0 fail
+npx tsx scripts/cite-check.ts course/<id> course/<id> …      # every record you created; its last line must contain: 0 fail
 ```
+
+The validator takes about ten minutes and covers the whole repository. In a fleet run you are told to skip it: the coordinator runs it once over everyone's work. Run cite-check always.
 
 If `validate` reports errors, read them. Errors in files you created are yours to fix. If every error is in a file you did not touch, the repository was already failing: record the error lines in your run log, state that none is in your files, and go on. Do not edit another lane's records.
 
@@ -231,7 +276,7 @@ Nothing else is needed for the course to appear. The courses home (`/[lang]/lear
 
 Record these in your run log; do not act on them.
 
-- **Connection kinds.** The closed list has no `ruler`, `state` or `event`; history courses use `story` for all three.
+- **Connection kinds.** The closed list has no `ruler`, `state`, `event`, `document` (a treaty, a covenant) or `institution` (an office, a hospital); history courses use `story`, `place`, `invention` or `career` for them.
 - **Codes.** A curriculum with no expectation codes cannot be ingested.
 - **The full official wording.** Texts over 40 words are cut. A link from each expectation to the authority's page for it would restore the rest without storing it.
 - **Pinning a card.** A `within` connection cannot name the section it follows; the page spaces them evenly.

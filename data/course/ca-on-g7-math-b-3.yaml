@@ -1,0 +1,39 @@
+id: course/ca-on-g7-math-b-3
+class: course
+kind: lesson
+label:
+  ar: 'أجزاء الزكاة: كسور ونسب مئوية'
+  en: 'The portions of zakat: fractions and percents'
+  ur: 'زکاۃ کے حصے: کسور اور فیصد'
+summary:
+  ar: تذكّر المكافئات الشائعة بين الكسور والأعداد العشرية والنسب المئوية، من خلال الأجزاء المقررة في الزكاة.
+  en: Recalling common equivalents between fractions, decimals and percents, through the fixed portions in zakat.
+  ur: کسور، اعشاری اعداد اور فیصد کے عام مساوی یاد کرنا، زکاۃ کے مقررہ حصوں کے ذریعے۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g7-math-b
+expectations:
+- code: B2.2
+  text:
+    en: understand and recall commonly used percents, fractions, and decimal equivalents
+    ar: افهم المكافئات الشائعة بين النسب المئوية والكسور والأعداد العشرية واستذكرها
+    ur: فیصد، کسور اور اعشاری اعداد کے عام مساوی کو سمجھیں اور یاد رکھیں
+connections:
+- position: within
+  kind: reflection
+  title:
+    ar: أجزاء مقررة من المال
+    en: Fixed portions of wealth
+    ur: مال کے مقررہ حصے
+  text:
+    ar: 'تعرّف الزكاة عند الفقهاء بأنها تمليك جزء مخصوص من مال مخصوص لشخص مخصوص. ويعدّد أبو الوفاء المراغي في «من قضايا المال والعمل» نصب الزكاة: نصاب الذهب عشرون مثقالًا والفضة مائتا درهم والواجب فيهما ربع العشر، وفي الزروع العشر فيما سُقي بماء المطر ونصفه فيما سُقي بالآلات، وفي المعدن والركاز الخمس. ما النسبة المئوية لكل مقدار من هذه المقادير؟'
+    en: 'The jurists define zakat as the transfer of a fixed portion of a defined wealth to a defined recipient. Abu al-Wafa al-Maraghi lists the thresholds and rates in his Qadaya: twenty mithqals of gold and two hundred dirhams of silver, at a quarter-tenth; a tenth on rain-fed crops and half of it on irrigated ones; and a fifth on minerals and buried treasure. What percent is each of these portions?'
+    ur: 'فقہاء کے نزدیک زکاۃ کسی مخصوص مال کا مقررہ حصہ کسی مخصوص شخص کو دینا ہے۔ ابو الوفاء المراغی «من قضایا المال والعمل» میں نصاب اور شرحیں گنواتے ہیں: سونا بیس مثقال اور چاندی دو سو درہم، اور دونوں میں ربع العشر؛ فصلوں میں بارش کے پانی پر عشر اور مشینوں سے سینچنے پر اس کا نصف؛ اور معدن اور رکاز میں خمس۔ ان میں سے ہر حصہ کتنے فیصد کے برابر ہے؟'
+  entity: concept/zakat
+  sources:
+  - source/min-qadaya-al-mal-wal-amal-azhar
+order: 3

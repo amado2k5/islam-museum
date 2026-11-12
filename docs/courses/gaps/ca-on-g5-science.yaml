@@ -1,0 +1,200 @@
+course: course/ca-on-g5-science
+gaps:
+- code: A1.1
+  text: use a scientific research process and associated skills to conduct investigations
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: use a scientific experimentation process and associated skills to conduct investigations
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.5
+  text: communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: write and execute code in investigations and when modelling concepts, with a focus on using different methods to store and process data for a variety of purposes
+  why: 'Skills expectation: names no subject matter (writing and running code).'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: identify and describe impacts of coding and of emerging technologies on everyday life, including skilled trades
+  why: Asks about the impacts of coding and emerging technologies on everyday life and skilled trades; the museum holds no record on coding or on such impacts.
+  searches:
+  - 'find_entity.py "coding" "programming" "البرمجة" "algorithm": two real records, invention/algorism (reckoning with Indian decimal numerals in al-Khwarizmi''s arithmetic) and source/weisstein-euclidean-algorithm (a source with no prose); nothing on writing or running code'
+  - 'find_entity.py "computer" "automaton" "emerging technology" "الحاسوب": one record, invention/jazari-musical-boat, a medieval automaton design; nothing on coding or its effects on everyday life'
+- code: A3.2
+  text: investigate how science and technology can be used with other subject areas to address real-world problems
+  why: Asks the student to investigate how science and technology combine with other subject areas to solve real-world problems; no record joins two school subjects to a real problem.
+  searches:
+  - 'find_entity.py "science and art" "scientist" "علم" "technology": 171 hits, the first ones fiqh, hadith-method and usul records with علم meaning religious knowledge and algebra; none joins science to another school subject to solve a real-world problem'
+  - 'find_entity.py "computer" "automaton" "emerging technology" "الحاسوب": one record, invention/jazari-musical-boat, a medieval automaton design; nothing that joins science or technology to another school subject'
+- code: B1.1
+  text: assess effects of a variety of social and environmental factors on human health, and describe ways in which individuals can reduce the harmful effects of these factors and take advantage of those that are beneficial
+  why: Asks for the effects of social and environmental factors on human health; the museum holds no record on such factors.
+  searches:
+  - 'find_entity.py "public health" "sanitation" "الصحة العامة" "water supply": no real record'
+  - 'find_entity.py "nutrition" "diet" "healthy eating" "التغذية" "الحمية": one record, concept/hamiyya-diet (draft); entity_brief.py --full shows a fiqh account of keeping the sick from harmful food as a lawful treatment, cited to the Kuwaiti fiqh encyclopedia, not food literacy for decisions about health'
+- code: B1.2
+  text: evaluate beneficial and harmful effects of various technologies on human health and body systems, while taking different perspectives into consideration
+  why: Asks for beneficial and harmful effects of technologies on health and body systems; no record assesses a technology's effects on health.
+  searches:
+  - 'find_entity.py "medical technology" "surgery" "الجراحة" "surgical instruments": six hits, two of them records: invention/ibn-zuhr-goat-tracheotomy-demonstration (read with entity_brief.py --full) is a reported animal recovery that its own record says is not a human trial proving safety, and a fatwa on surgery while fasting; none assesses a technology''s effects on health'
+  - 'find_entity.py "public health" "sanitation" "الصحة العامة" "water supply": no real record'
+- code: B1.3
+  text: explain how food literacy can support decisions that affect physical and mental health
+  why: Asks how food literacy supports decisions about physical and mental health; the one record on diet is a fiqh ruling on treatment, not food literacy.
+  searches:
+  - 'find_entity.py "nutrition" "diet" "healthy eating" "التغذية" "الحمية": one record, concept/hamiyya-diet (draft); entity_brief.py --full shows a fiqh account of keeping the sick from harmful food as a lawful treatment, cited to the Kuwaiti fiqh encyclopedia, not food literacy for decisions about health'
+  - 'find_entity.py "public health" "sanitation" "الصحة العامة" "water supply": no real record'
+- code: B2.1
+  text: identify systems of the human body, and describe their basic function
+  why: Asks the student to identify the body's systems and their functions; the museum has no record that names the systems of the body. Lesson b-1 serves two organs, not the systems.
+  searches:
+  - 'find_entity.py "digestive system" "nervous system" "anatomy" "التشريح" "الجهاز العصبي": concept/anatomy and work/sharh-tashrih-al-qanun exist (both drafts); entity_brief.py --full shows the commentary''s sources and that its opening sections treat the bones of the skull, jaws, teeth and spine; neither names the body''s systems or their functions'
+  - 'find_entity.py "heart" "القلب" "digestion" "الهضم": the heart hits are records on the spiritual heart (qalb), poems and hadith; invention/pulmonary-circulation is used in lesson b-1 for two organs only'
+- code: C2.1
+  text: describe matter as everything that has mass and occupies volume
+  why: Asks for matter as what has mass and takes up volume; the museum holds no record on the nature of matter.
+  searches:
+  - 'find_entity.py "states of matter" "solid liquid gas" "matter" "المادة" "الحالة الصلبة": 16 hits, none on matter in the physical sense (fiqh and question records using the word "matter", and the Grade 6 course record for Flight)'
+  - 'find_entity.py "melting" "boiling" "heat" "الحرارة" "الغليان": two hits, a record on marching in the heat and a mosque; nothing on melting, boiling or thermal energy'
+- code: C2.2
+  text: identify the states of matter, and describe characteristics and properties of solids, liquids, and gases
+  why: Asks for the states of matter and the properties of solids, liquids and gases; the museum holds no record that states them.
+  searches:
+  - 'find_entity.py "states of matter" "solid liquid gas" "matter" "المادة" "الحالة الصلبة": 16 hits, none on matter in the physical sense (fiqh and question records using the word "matter", and the Grade 6 course record for Flight)'
+  - 'entity_brief.py practice/islamic-glassmaking --full and concept/plant-ash-glass --full: where, when and with which flux glass was made; they state no physical property of the material (hardness, transparency, melting)'
+- code: C2.3
+  text: describe changes of state of matter observed at home, in the community, or in the natural environment
+  why: Asks for changes of state seen at home or in nature; the one record on distilling does not state a change of state.
+  searches:
+  - 'find_entity.py "melting" "boiling" "heat" "الحرارة" "الغليان": two hits, a record on marching in the heat and a mosque; nothing on melting, boiling or thermal energy'
+  - 'entity_brief.py concept/anbik --full: the parts of a distilling apparatus (cucurbit, cap, receiver) and its use for rose-water; it does not mention evaporation, condensation or heat, so it cannot carry a change of state'
+- code: C2.4
+  text: describe physical changes in matter as changes of the state, volume, or form of the matter that do not result in the formation of a different substance
+  why: Asks for physical changes in matter; no record describes one.
+  searches:
+  - 'find_entity.py "states of matter" "solid liquid gas" "matter" "المادة" "الحالة الصلبة": 16 hits, none on matter in the physical sense (fiqh and question records using the word "matter", and the Grade 6 course record for Flight)'
+  - 'entity_brief.py practice/islamic-glassmaking --full and concept/plant-ash-glass --full: where, when and with which flux glass was made; they state no physical property of the material (hardness, transparency, melting)'
+- code: C2.5
+  text: describe chemical changes in matter as changes that result in the formation of different substances, and identify signs that a chemical change has occurred
+  why: Asks for chemical changes and their signs; no record describes a chemical change.
+  searches:
+  - 'find_entity.py "alchemy" "الكيمياء" "chemistry": concept/sinaat-al-kimiya (the Fihrist''s alchemy chapter and its origin claims), exhibit/path-jabir-chem and work/kimiya-i-saadat; none describes a chemical change or its signs'
+  - 'entity_brief.py invention/razi-substance-classification --full: a handbook with six classes of earthy materials; no states of matter, melting or boiling, and heating procedures are deliberately not reproduced'
+- code: C2.6
+  text: explain how changes of state can occur when matter absorbs or releases thermal energy
+  why: Asks how matter absorbs or releases thermal energy in a change of state; no record explains this.
+  searches:
+  - 'find_entity.py "melting" "boiling" "heat" "الحرارة" "الغليان": two hits, a record on marching in the heat and a mosque; nothing on melting, boiling or thermal energy'
+  - 'entity_brief.py concept/anbik --full: the parts of a distilling apparatus (cucurbit, cap, receiver) and its use for rose-water; it does not mention evaporation, condensation or heat, so it cannot carry a change of state'
+- code: C2.7
+  text: explain why specific physical properties of various solids, liquids, and gases make them useful for particular applications
+  why: Asks why physical properties of solids, liquids and gases make them useful; the glass records give composition and places, not properties.
+  searches:
+  - 'entity_brief.py practice/islamic-glassmaking --full and concept/plant-ash-glass --full: where, when and with which flux glass was made; they state no physical property of the material (hardness, transparency, melting)'
+  - 'find_entity.py "states of matter" "solid liquid gas" "matter" "المادة" "الحالة الصلبة": 16 hits, none on matter in the physical sense (fiqh and question records using the word "matter", and the Grade 6 course record for Flight)'
+- code: D2.1
+  text: identify internal forces acting on a structure, and describe their effects on the structure
+  why: Asks for internal forces acting on a structure; no record names them.
+  searches:
+  - 'find_entity.py "force" "gravity" "load" "stress" "الجاذبية" "القوة": 23 hits, none in the physical sense (political strength, command, conquest by force)'
+  - 'find_entity.py "structure" "building construction" "foundation" "dome" "engineering" "الهندسة المعمارية": 55 hits, buildings and domes; grep -il for buttress|withstand|seismic over content/en/building found Hagia Sophia (used in lesson d-2) and mosque records that mention buttresses, none that names forces by type; the Hagia Sophia record says the dome is carried by four great pillars and the weight by 107 columns but does not call these forces'
+- code: D2.4
+  text: describe ways in which physical characteristics of various animal and plant species help to protect them from potentially harmful effects of forces
+  why: Asks how physical features of animals and plants protect them from forces; no record describes such a feature.
+  searches:
+  - 'find_entity.py "camel" "desert animals" "الجمل" "adaptation" "plant defences": 27 hits, camels in fiqh, battle and tribute records; concept/camel has no prose; none describes how a body or plant feature protects against a force'
+  - 'find_entity.py "force" "gravity" "load" "stress" "الجاذبية" "القوة": 23 hits, none in the physical sense (political strength, command, conquest by force)'
+- code: D2.5
+  text: describe ways in which protective equipment helps to protect humans from potentially harmful effects of forces
+  why: Asks how protective equipment protects people from forces; no record describes how any equipment protects.
+  searches:
+  - 'find_entity.py "armour" "helmet" "shield" "درع" "protective": 10 hits; event/shurayh-armor-judgment is a legal case over a coat of mail, concept/amir-silah an office, screen/al-khuwad-al-bayd-2016 a film; none describes how protective equipment protects a person from a force'
+  - 'find_entity.py "force" "gravity" "load" "stress" "الجاذبية" "القوة": 23 hits, none in the physical sense (political strength, command, conquest by force)'
+- code: E1.1
+  text: analyse long-term impacts of human uses of energy and natural resources, on society and the environment, including climate change, and suggest ways to mitigate these impacts
+  why: Asks for long-term impacts of human uses of energy and natural resources, including climate change; no record concerns energy use or climate.
+  searches:
+  - 'find_entity.py "climate change" "المناخ" "fossil fuel" "oil" "coal" "النفط": six hits, all about oil as a food or ritual substance, soap, or a battle; none on fuels, energy use or climate'
+  - 'entity_brief.py concept/environmental-protection-in-islam --full (draft): a modern author''s view that pollution of water, air and soil threatens people, with a reading of the Qur''an on the cosmos; it does not discuss uses of energy or natural resources or conservation of them'
+- code: E1.2
+  text: evaluate effects of various technologies on energy consumption, and describe ways in which individuals can use technology to reduce energy consumption
+  why: Asks for the effects of technologies on energy consumption; no record concerns energy consumption.
+  searches:
+  - 'find_entity.py "climate change" "المناخ" "fossil fuel" "oil" "coal" "النفط": six hits, all about oil as a food or ritual substance, soap, or a battle; none on fuels, energy use or climate'
+  - 'find_entity.py "energy" "الطاقة" "kinetic energy" "light energy" "sound": 21 hits, mostly "sound" in the sense of valid (a sound report, sound judgment) and the museum''s own Grade 6 course records; nothing on forms of energy'
+- code: E1.3
+  text: analyse how First Nations, Métis, and Inuit communities use their knowledges and ways of knowing to conserve energy and resources
+  why: Asks how First Nations, Métis and Inuit communities conserve energy and resources; the museum holds no record on these communities.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "Inuit" "Métis" "السكان الأصليين": one hit, concept/muwala (continuity in worship and contracts); no record on First Nations, Métis or Inuit'
+  - 'find_entity.py "conservation" "resources" "الترشيد" "hima": concept/hima and concept/hima-protected-pasture (drafts) describe land reserved for particular herds and the rules for it; entity_brief.py --full shows neither states that the reserve conserves a resource, so neither is a conservation practice the record can carry; concept/al-mawarid-al-tabiiyya (Arabic prose only, draft) is an economic view of raw materials and colonial extraction, not conservation'
+- code: E2.1
+  text: identify a variety of forms of energy, and describe how each form is used in everyday life
+  why: Asks for forms of energy and their everyday uses; no record names forms of energy.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "kinetic energy" "light energy" "sound": 21 hits, mostly "sound" in the sense of valid (a sound report, sound judgment) and the museum''s own Grade 6 course records; nothing on forms of energy'
+  - 'find_entity.py "solar" "wind power" "renewable" "الطاقة المتجددة" "water power": nine hits, the records among them astronomical or calendrical (solar tables, eclipses, apogee, calendar gearing); no record on sources of energy'
+- code: E2.2
+  text: demonstrate an understanding of the law of conservation of energy, including how energy cannot be created or destroyed but can only be transformed from one form to another
+  why: Asks for the law of conservation of energy; no record states it.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "kinetic energy" "light energy" "sound": nothing on the law of conservation of energy; the closest record, invention/jazari-double-piston-pump, was tried for E2.3 and does not state that energy is conserved or that some is lost as heat, light or sound'
+  - 'find_entity.py "energy" "الطاقة" "kinetic energy" "light energy" "sound": 21 hits, mostly "sound" in the sense of valid (a sound report, sound judgment) and the museum''s own Grade 6 course records; nothing on forms of energy'
+- code: E2.4
+  text: demonstrate an understanding that when energy is transformed from one form to another, some energy may dissipate into the environment in the form of heat, light, and/or sound energy
+  why: Asks for the dissipation of energy as heat, light or sound; no record states it.
+  searches:
+  - 'find_entity.py "energy" "الطاقة" "kinetic energy" "light energy" "sound": nothing on the law of conservation of energy; the closest record, invention/jazari-double-piston-pump, was tried for E2.3 and does not state that energy is conserved or that some is lost as heat, light or sound'
+  - 'find_entity.py "energy" "الطاقة" "kinetic energy" "light energy" "sound": 21 hits, mostly "sound" in the sense of valid (a sound report, sound judgment) and the museum''s own Grade 6 course records; nothing on forms of energy'
+- code: E2.5
+  text: identify renewable and non-renewable sources of energy
+  why: Asks the student to identify renewable and non-renewable sources of energy; no record names a source of energy.
+  searches:
+  - 'find_entity.py "solar" "wind power" "renewable" "الطاقة المتجددة" "water power": nine hits, the records among them astronomical or calendrical (solar tables, eclipses, apogee, calendar gearing); no record on sources of energy'
+  - 'find_entity.py "energy" "الطاقة" "kinetic energy" "light energy" "sound": 21 hits, mostly "sound" in the sense of valid (a sound report, sound judgment) and the museum''s own Grade 6 course records; nothing on forms of energy'
+- code: E2.6
+  text: explain how the use of energy derived from fossil fuels changes the composition of the atmosphere and how these changes contribute to climate change
+  why: Asks how fossil fuels change the atmosphere and contribute to climate change; no record concerns fossil fuels or the atmosphere.
+  searches:
+  - 'find_entity.py "climate change" "المناخ" "fossil fuel" "oil" "coal" "النفط": six hits, all about oil as a food or ritual substance, soap, or a battle; none on fuels, energy use or climate'
+  - 'find_entity.py "solar" "wind power" "renewable" "الطاقة المتجددة" "water power": nine hits, the records among them astronomical or calendrical (solar tables, eclipses, apogee, calendar gearing); no record on sources of energy'
+- code: B2.4
+  text: identify various diseases and medical disorders in humans and the organs and/or body system or systems that they affect
+  why: Asks for diseases and the organs or systems they affect; the record names signs of two diseases and no organ or system.
+  searches:
+  - 'entity_brief.py invention/al-razi-smallpox-measles --full: it lists signs of smallpox and measles (fever, red eyes, nausea, back pain) and names no organ or body system, so it does not carry B2.4'
+  - 'fleet review (docs/courses-mission/verifier/sweep-science.md): the lesson was read again and the record names signs of the two diseases, not the organs or systems they affect'
+- code: C1.2
+  text: assess how the use of specific materials in the manufacture of common products affects the environment, and identify actions that society and individuals can take to mitigate negative impacts
+  why: Asks for the environmental effect of materials and actions to reduce it; the records describe a change of flux and give no environmental effect or action.
+  searches:
+  - 'entity_brief.py concept/natron-glass --full and concept/plant-ash-glass --full: they give two fluxes and a restriction on natron extraction, and state no environmental effect and no action to reduce one, so neither carries C1.2'
+  - 'fleet review (docs/courses-mission/verifier/sweep-science.md): both records were read again; the natron restriction is linked to the end of natron glass and neither record gives an environmental effect or a mitigation'
+- code: E2.3
+  text: describe how energy is stored as potential energy and transformed in a given device or system
+  why: Asks how energy is stored and transformed; the record describes motion transmission and never mentions energy.
+  searches:
+  - 'entity_brief.py invention/jazari-double-piston-pump --full: it describes a waterwheel, gears, a slotted rod and piston rods and has no word for energy, stored energy or potential energy, so it does not carry E2.3'
+  - 'fleet review (docs/courses-mission/verifier/sweep-science.md): the lesson was read again; the record describes motion transmission, and the Brief itself left the forms of energy to the class'

@@ -1,0 +1,212 @@
+course: course/ca-on-g1-arts
+gaps:
+- code: A1.1
+  text: use movements that are part of their daily experience in a variety of ways in dance phrases […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: use dance as a language to express feelings and ideas suggested by songs, stories, and poems, with a focus on the element of body, particularly body shapes […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: create dance phrases using a variety of ways to connect movements […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: use varied and/or contrasting body shapes to communicate different types of messages […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: describe differences they observe when various movements from daily life are used as the basis or stimulus for movements in a dance phrase […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: identify and describe how the element of body is used in contrasting ways to communicate ideas in their own and others’ dance phrases, with teacher support […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.3
+  text: identify and give examples of their strengths and areas for growth as dance creators and audience members […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.1
+  text: describe, with teacher guidance, a variety of dances from different communities around the world that they have seen in the media, at live performances and social gatherings, or in the classroom […]
+  why: Asks the student to describe dances from different communities; the only record tried, practice/sama-mawlawiyya, is one Wikidata-only sentence about a session of listening to remembrance with the whirling of the Mevlevi dervishes, never calls it a dance, and its "best-known Sufi ritual" is an unattributed superlative.
+  searches:
+  - 'practice/sama-mawlawiyya: one sentence citing only Wikidata; it says whirling, never dance, and carries an unattributed superlative'
+  - 'find_entity.py "dance" "رقص": concept/raqs-fiqh (a ruling on dancing) and two films (screen/raqs-al-bismil-2020, screen/raqis-al-sahra-2014); no record of a dance of a community'
+- code: A3.2
+  text: identify and describe dance experiences in their own lives and communities […]
+  why: Asks the student to identify dance experiences in their own life and community; the object is the student's own experience, and the museum holds no record of a dance at weddings or celebrations.
+  searches:
+  - 'find_entity.py "dance" "رقص" "Mawlawi" "whirling" "سماع": concept/raqs-fiqh (rulings on dancing) and practice/sama-mawlawiyya, tried for A3.1 and removed (it is not called a dance); it is not the student''s own experience either'
+  - 'find_entity.py "folk dance" "رقصة" "celebration" "احتفال": only practice/mawlid-al-nabi, a commemoration, not a dance'
+- code: B1.1
+  text: engage in dramatic play and role play, with a focus on exploring a variety of sources from diverse communities, times, and places […]
+  why: Asks for dramatic play and role play drawn from sources of diverse communities; the only record tried, work/kalila-wa-dimna, is a bibliographic note with no tale, character or theme, and is too hard for age 6.
+  searches:
+  - 'work/kalila-wa-dimna: chapter counts, translators and a dispute over authorship (Ibn al-Nadim); no tale, role or theme to play'
+  - 'find_entity.py "drama" "tale" "حكاية" "story": place/drama is a town record and the rest are hadith narratives or rulings; no story record suited to dramatic play at age 6'
+- code: B1.2
+  text: demonstrate an understanding of the element of character by adopting thoughts, feelings, and gestures relevant to the role being played […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.3
+  text: plan and shape dramatic play by building on the ideas of others, both in and out of role […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.4
+  text: communicate feelings and ideas to a familiar audience […] using a few simple visual or technological aids to support and enhance their drama work […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.1
+  text: express feelings and ideas about a drama experience or performance in a variety of ways, making personal connections to the characters and themes in the story […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.2
+  text: demonstrate an understanding of how the element of character/role is used in shared classroom drama experiences and theatre to communicate meaning […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.3
+  text: identify and give examples of their strengths, interests, and areas for improvement as drama participants and audience members […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B3.1
+  text: identify and describe drama and theatre forms, events, and activities that they experience in their home, school, and community […]
+  why: Asks the student to identify drama and theatre forms in their own home, school and community; the museum holds no record of a drama form.
+  searches:
+  - 'find_entity.py "shadow play" "خيال الظل" "puppet" "theatre": no real record'
+  - 'find_entity.py "drama" "تمثيل" "مسرح" "play": place/drama is a town record with no prose and concept/laib-fiqh is a ruling on play; neither is a drama form'
+- code: B3.2
+  text: demonstrate an awareness of a variety of roles, themes, and subjects in dramas and stories from different communities around the world […]
+  why: Asks for roles, themes and subjects in dramas and stories from different communities; the record tried, work/kalila-wa-dimna, names no story, role or theme.
+  searches:
+  - 'work/kalila-wa-dimna: a bibliographic note (chapters, translators, authorship); missing nouns story, role, theme'
+  - 'find_entity.py "minstrel" "ashik": concept/ashik and work/alpamish are minstrelsy and a verse epic of captivity and a killing, not suitable for age 6 and not drama'
+- code: C1.1
+  text: sing songs in unison and play simple accompaniments for music from a wide variety of diverse cultures, styles, and historical periods […]
+  why: Asks the student to sing songs and play accompaniments; the museum's records on song are about an album, a film song and nasheed groups, not songs for a class to sing, and its records on instruments are not accompaniments.
+  searches:
+  - 'find_entity.py "song" "نشيد" "lullaby" "أغنية": work/night-song-nusrat (an album), work/khwaja-mere-khwaja (a film song), group/raihan-band (a nasheed group); no song for a class to sing'
+  - 'find_entity.py "drum" "طبل" "دف" "rhythm": only work/fatwa-islamweb-celebrating-a-wedding-with-the-daff-without-extravagance, a ruling on the daff at weddings'
+- code: C1.2
+  text: apply the elements of music when singing, playing, and moving […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C1.3
+  text: create compositions for a specific purpose and a familiar audience […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C1.4
+  text: use the tools and techniques of musicianship in musical performances […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C1.5
+  text: demonstrate understanding that sounds can be represented by symbols […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.1
+  text: express initial reactions and personal responses to musical performances in a variety of ways […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.2
+  text: describe ways in which the elements of music are used for different purposes in the music they perform, listen to, and create […]
+  why: Asks the student to describe how the elements of music serve different purposes (a lullaby, a march, a fanfare); no museum record describes music in those terms.
+  searches:
+  - 'find_entity.py "song" "نشيد" "lullaby" "أغنية": no record on a lullaby, a march or a fanfare'
+  - 'find_entity.py "musical instrument" "آلة موسيقية" "ney" "ناي": only question/may-musical-instruments-be-sold, a ruling on selling instruments'
+- code: C2.3
+  text: identify and give examples of their strengths and areas for growth as musical performers, creators, interpreters, and audience members […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C3.1
+  text: identify and describe musical experiences in their own lives […]
+  why: Asks the student to identify musical experiences in their own life; the object is the student's own day, which the museum does not hold.
+  searches:
+  - 'find_entity.py "wedding" "زفاف" "عرس" "feast": concept/irs and concept/walima-fiqh state the wedding rites and feast, not a student''s musical life'
+  - 'find_entity.py "song" "نشيد" "lullaby" "أغنية": records on an album, a film song and nasheed groups, none about a child''s musical experiences'
+- code: C3.2
+  text: identify a variety of musical pieces from different cultures through performing and/or listening to them […]
+  why: Asks the student to identify musical pieces from different cultures; the museum's oud and lute-bowl records show an instrument and a picture of a player, not a piece of music.
+  searches:
+  - 'find_entity.py "oud" "العود" "lute": concept/al-ud (a report on the instrument''s origin) and object/ud-shami (a museum object); no musical piece'
+  - 'find_entity.py "song" "نشيد" "lullaby" "أغنية": an album, a film song and nasheed groups; no folk song, celebration song or ceremonial piece'
+- code: D1.1
+  text: create two- and three-dimensional works of art that express feelings and ideas inspired by personal experiences […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.2
+  text: demonstrate an understanding of composition, using principles of design to create narrative art works or art works on a theme or topic […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.4
+  text: use a variety of materials, tools, and techniques to respond to design challenges […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D2.1
+  text: express their feelings and ideas about art works and art experiences […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D2.3
+  text: demonstrate an awareness of signs and symbols encountered in their daily lives and in works of art […]
+  why: Asks the student to be aware of signs and symbols in daily life and in art, such as the meanings of colours; the museum holds no record on the symbolism of colours or everyday signs.
+  searches:
+  - 'find_entity.py "colour" "لون" "symbol" "رمز": concept/lawn-fiqh is a fiqh ruling on the colour of water and concept/color-splashed-ware a pottery type; none on the meaning of colours or signs'
+  - 'find_entity.py "calligraphy" "الخط العربي" "khatt": concept/islamic-calligraphy and others are about the art of script, not signs and symbols in daily life'
+- code: D2.4
+  text: identify and document their strengths, their interests, and areas for improvement as creators of art […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D3.1
+  text: identify and describe visual art forms that they see in their home, at school, in their community, and in visual arts experiences […]
+  why: Asks the student to identify art forms in their own home, school and community; the object is the student's surroundings, though the museum has records that could illustrate textiles and painting.
+  searches:
+  - 'find_entity.py "textile" "carpet" "نسيج" "سجاد": invention/tiraz, concept/mamluk-carpets and object/qita-tiraz-9 exist, but they are not the student''s own surroundings'
+  - 'find_entity.py "painting" "miniature" "تصوير" "رسم": concept/mughal-painting and other painting records exist, but the expectation asks for art forms the student sees at home, at school and in the community'

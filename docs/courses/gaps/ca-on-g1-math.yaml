@@ -1,0 +1,187 @@
+course: course/ca-on-g1-math
+gaps:
+- code: B1.1
+  text: "read and represent whole numbers up to and including 50, and describe various ways they are used in everyday life"
+  why: "Reading and showing whole numbers to 50 is a Grade 1 counting task; the only number record (invention/algorism) is a history of Indian numerals and place value to thousands, far above a six-year-old and silent on reading or showing numbers."
+  searches:
+  - "find_entity.py \"counting\" \"العد\" \"numerals\": no record on reading or showing numbers to 50; invention/algorism was tried and removed (history of Indian numerals and place value to thousands, far above Grade 1)"
+  - "entity_brief.py invention/algorism --full: says how numerals are written by place, nothing about reading, representing or using numbers to 50"
+- code: B1.2
+  text: "compose and decompose whole numbers up to and including 50, using a variety of tools and strategies, in various contexts"
+  why: "Composing and decomposing numbers to 50 is a Grade 1 counting task; invention/algorism says nothing of putting numbers together or taking them apart and is far above a six-year-old."
+  searches:
+  - "find_entity.py \"counting\" \"العد\" \"numerals\": no record on composing or decomposing numbers; invention/algorism was tried and removed"
+  - "entity_brief.py invention/algorism --full: no sentence on putting numbers together or taking them apart"
+- code: B1.3
+  text: compare and order whole numbers up to and including 50, in various contexts
+  why: The expectation is about comparing and ordering, estimating and skip-counting whole numbers up to 50; the one number record (invention/algorism) says how numerals are written and nothing about these skills.
+  searches: &id001
+  - 'find_entity.py "counting" "العد" "hisab": concept/al-hisab is the Reckoning on the Day of Judgement and the rest are hadith passages; no record on counting, comparing or ordering numbers'
+  - 'find_entity.py "mathematics" "الرياضيات" "arithmetic": invention/algorism (offered for B1.1, B1.2, B2.1, B2.4, C3.1 and C3.2 and removed after the fleet review as not fitting) and later arithmetic works; none concerns this expectation'
+- code: B1.4
+  text: estimate the number of objects in collections of up to 50, and verify their estimates by counting
+  why: The expectation is about comparing and ordering, estimating and skip-counting whole numbers up to 50; the one number record (invention/algorism) says how numerals are written and nothing about these skills.
+  searches: *id001
+- code: B1.5
+  text: count to 50 by 1s, 2s, 5s, and 10s, using a variety of tools and strategies
+  why: The expectation is about comparing and ordering, estimating and skip-counting whole numbers up to 50; the one number record (invention/algorism) says how numerals are written and nothing about these skills.
+  searches: *id001
+- code: B1.6
+  text: use drawings to represent and solve fair-share problems that involve 2 and 4 sharers, respectively, and have remainders of 1 or 2
+  why: The expectation is about drawing equal fair shares among 2, 4 or up to 10 sharers and comparing unit fractions; no record in the museum describes equal sharing or fractions of a whole in a way a Grade 1 class could use.
+  searches: &id002
+  - 'find_entity.py "fraction" "كسر" "half": concept/kasr is breaking in law (a fiqh term); the other hits are hadith passages and a battle; nothing about fractions of a whole'
+  - 'find_entity.py "fair division" "قسمة" "sharing": events about dividing spoils, a realm and a caliphate among rulers and a book of profit-sharing; no equal-sharing problem a child could draw'
+  - 'find_entity.py "inheritance" "الميراث" "faraid": concept/mirath and concept/ilm-al-faraid exist; they record the law of inheritance shares, not the equal sharing among 2 or 4 that the expectation draws'
+- code: B1.7
+  text: recognize that one half and two fourths of the same whole are equal, in fair-sharing contexts
+  why: The expectation is about drawing equal fair shares among 2, 4 or up to 10 sharers and comparing unit fractions; no record in the museum describes equal sharing or fractions of a whole in a way a Grade 1 class could use.
+  searches: *id002
+- code: B1.8
+  text: use drawings to compare and order unit fractions representing the individual portions that result when a whole is shared by different numbers of sharers, up to a maximum of 10
+  why: The expectation is about drawing equal fair shares among 2, 4 or up to 10 sharers and comparing unit fractions; no record in the museum describes equal sharing or fractions of a whole in a way a Grade 1 class could use.
+  searches: *id002
+- code: B2.1
+  text: "use the properties of addition and subtraction, and the relationship between addition and subtraction, to solve problems and check calculations"
+  why: "The expectation asks for the properties of addition and subtraction and the relation between them; invention/algorism holds only Ibn Khaldun's definition of the four operations, not their properties or inverse relation, and drags in multiplication and division."
+  searches:
+  - "entity_brief.py invention/algorism --full: Ibn Khaldun's definition of joining and separating (and of multiplication and division); no properties of addition and subtraction, no inverse relation"
+  - "find_entity.py \"addition\" \"الجمع\" \"subtraction\": no record that states a property of addition or subtraction"
+- code: B2.2
+  text: recall and demonstrate addition facts for numbers up to 10, and related subtraction facts
+  why: The expectation is about recalling addition and subtraction facts to 10 and mental strategies to 20; invention/algorism shows written arithmetic but states no facts or mental strategies, so no honest link exists.
+  searches: &id003
+  - 'find_entity.py "mathematics" "الرياضيات" "arithmetic": invention/algorism (offered for B1.1, B1.2, B2.1, B2.4, C3.1 and C3.2 and removed after the fleet review as not fitting) and later arithmetic works; none concerns this expectation'
+  - 'find_entity.py "counting" "العد" "hisab": concept/al-hisab is the Reckoning on the Day of Judgement and the rest are hadith passages; no record on counting, comparing or ordering numbers'
+- code: B2.3
+  text: use mental math strategies, including estimation, to add and subtract whole numbers that add up to no more than 20, and explain the strategies used
+  why: The expectation is about recalling addition and subtraction facts to 10 and mental strategies to 20; invention/algorism shows written arithmetic but states no facts or mental strategies, so no honest link exists.
+  searches: *id003
+- code: B2.4
+  text: "use objects, diagrams, and equations to represent, describe, and solve situations involving addition and subtraction of whole numbers that add up to no more than 50"
+  why: "The expectation asks for modelling situations of adding and subtracting to 50 with objects, diagrams and equations; invention/algorism offers only a definition of the operations and no situation to model."
+  searches:
+  - "entity_brief.py invention/algorism --full: a definition of the operations, no situation to model with objects, diagrams or equations"
+  - "find_entity.py \"addition\" \"الجمع\" \"subtraction\": no record that describes a situation of adding or taking away"
+- code: B2.5
+  text: represent and solve equal-group problems where the total number of items is no more than 10, including problems in which each group is a half, using tools and drawings
+  why: The expectation is about equal-group problems with a total of no more than 10, including halves; Ibn Khaldun in invention/algorism names joining by multiples as multiplication, but nothing in the museum shows equal groups or halves of small totals.
+  searches:
+  - 'find_entity.py "mathematics" "الرياضيات" "arithmetic": invention/algorism (offered for B1.1, B1.2, B2.1, B2.4, C3.1 and C3.2 and removed after the fleet review as not fitting) and later arithmetic works; none concerns this expectation'
+  - 'find_entity.py "fraction" "كسر" "half": concept/kasr is breaking in law (a fiqh term); the other hits are hadith passages and a battle; nothing about fractions of a whole'
+- code: C1.1
+  text: "identify and describe the regularities in a variety of patterns, including patterns found in real-life contexts"
+  why: "The expectation asks for the regularities in patterns; the only pattern record that survives the review (concept/arabesque) gives shapes to make a pattern from, not a repeating unit or a regularity to describe."
+  searches:
+  - "entity_brief.py concept/arabesque --full: names the shapes in the networks (circles, triangles, squares) but not a regularity or repeating unit"
+  - "entity_brief.py concept/islamic-geometric-patterns --full: one sentence saying repeated patterns exist; no repeating unit or regularity"
+- code: C1.3
+  text: "determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in patterns"
+  why: "The expectation asks for pattern rules, predictions and missing elements; concept/arabesque holds no repeating unit, rule or missing element to determine."
+  searches:
+  - "entity_brief.py concept/arabesque --full: no pattern rule, prediction or missing element"
+  - "entity_brief.py concept/islamic-geometric-patterns --full: one sentence; no rule to determine or extend"
+- code: C1.4
+  text: create and describe patterns to illustrate relationships among whole numbers up to 50
+  why: The expectation is about patterns that show relationships among whole numbers up to 50; the pattern records the museum holds (arabesque, taught in lesson c-1, gives shapes for C1.2) are patterns of shapes, not of numbers.
+  searches:
+  - 'find_entity.py "pattern" "نمط" "tessellation": only hits unrelated to number patterns (a poem, a hadith passage, a cursive script) besides the art records used in lesson c-1'
+  - 'find_entity.py "mathematics" "الرياضيات" "arithmetic": invention/algorism (offered for B1.1, B1.2, B2.1, B2.4, C3.1 and C3.2 and removed after the fleet review as not fitting) and later arithmetic works; none concerns this expectation'
+- code: C2.1
+  text: identify quantities that can change and quantities that always remain the same in real-life contexts
+  why: The expectation is about what changes and what stays the same, and about equivalent addition and subtraction expressions; the museum holds invention/algebra and concept/al-durub-al-sitta (equations of al-Khwarizmi), which are far above Grade 1 equality, and the calendar record taught in e-1 says nothing about quantities that stay the same.
+  searches: &id004
+  - 'find_entity.py "mathematics" "الرياضيات" "arithmetic": invention/algorism (offered for B1.1, B1.2, B2.1, B2.4, C3.1 and C3.2 and removed after the fleet review as not fitting) and later arithmetic works; none concerns this expectation'
+  - 'find_entity.py "seasons" "الفصول" "lunar": the lunar and crescent records are taught or related only under E2.3 in lesson e-1; none speaks of quantities that change or stay the same'
+- code: C2.2
+  text: determine whether given pairs of addition and subtraction expressions are equivalent or not
+  why: The expectation is about what changes and what stays the same, and about equivalent addition and subtraction expressions; the museum holds invention/algebra and concept/al-durub-al-sitta (equations of al-Khwarizmi), which are far above Grade 1 equality, and the calendar record taught in e-1 says nothing about quantities that stay the same.
+  searches: *id004
+- code: C2.3
+  text: identify and use equivalent relationships for whole numbers up to 50, in various contexts
+  why: The expectation is about what changes and what stays the same, and about equivalent addition and subtraction expressions; the museum holds invention/algebra and concept/al-durub-al-sitta (equations of al-Khwarizmi), which are far above Grade 1 equality, and the calendar record taught in e-1 says nothing about quantities that stay the same.
+  searches: *id004
+- code: C3.1
+  text: "solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events"
+  why: "The expectation is about writing and running code with sequential events; invention/algorism has ordered steps in arithmetic and a word origin, but no code and no sequence of events."
+  searches:
+  - "entity_brief.py invention/algorism --full: ordered steps in written arithmetic and the origin of the word algorithm; no code, no sequential events to write or run"
+  - "find_entity.py \"coding\" \"البرمجة\" \"algorithm\": nothing but the word origin in invention/algorism"
+- code: C3.2
+  text: "read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes"
+  why: "The expectation is about reading and altering code with sequential events; invention/algorism has no code and no sequence of events to alter."
+  searches:
+  - "entity_brief.py invention/algorism --full: no code to read or alter"
+  - "find_entity.py \"coding\" \"البرمجة\" \"algorithm\": nothing but the word origin in invention/algorism"
+- code: D1.1
+  text: sort sets of data about people or things according to one attribute, and describe rules used for sorting
+  why: The expectation is about sorting, collecting, tallying and graphing data in a Grade 1 class; the museum holds no record on classroom data, tally tables, concrete graphs or pictographs.
+  searches: &id005
+  - 'find_entity.py "sorting classification" "تصنيف" "tally": only events of the composition of books, none about sorting or tallying'
+  - 'find_entity.py "survey census" "إحصاء" "data": two census events (200 AH and 837 AH) and unrelated source records; no record that teaches collecting or displaying data'
+- code: D1.2
+  text: collect data through observations, experiments, and interviews to answer questions of interest that focus on a single piece of information; record the data using methods of their choice; and organize the data in tally tables
+  why: The expectation is about sorting, collecting, tallying and graphing data in a Grade 1 class; the museum holds no record on classroom data, tally tables, concrete graphs or pictographs.
+  searches: *id005
+- code: D1.3
+  text: display sets of data, using one-to-one correspondence, in concrete graphs and pictographs with proper sources, titles, and labels
+  why: The expectation is about sorting, collecting, tallying and graphing data in a Grade 1 class; the museum holds no record on classroom data, tally tables, concrete graphs or pictographs.
+  searches: *id005
+- code: D1.4
+  text: order categories of data from greatest to least frequency for various data sets displayed in tally tables, concrete graphs, and pictographs
+  why: The expectation is about sorting, collecting, tallying and graphing data in a Grade 1 class; the museum holds no record on classroom data, tally tables, concrete graphs or pictographs.
+  searches: *id005
+- code: D1.5
+  text: analyse different sets of data presented in various ways, including in tally tables, concrete graphs, and pictographs, by asking and answering questions about the data and drawing conclusions, then make convincing arguments and informed decisions
+  why: The expectation is about sorting, collecting, tallying and graphing data in a Grade 1 class; the museum holds no record on classroom data, tally tables, concrete graphs or pictographs.
+  searches: *id005
+- code: D2.1
+  text: use mathematical language, including the terms “impossible”, “possible”, and “certain”, to describe the likelihood of events happening, and use that likelihood to make predictions and informed decisions
+  why: The expectation is about the words impossible, possible and certain, and about predicting frequencies in a sample; the only likelihood records are legal records on games of chance, not a fit for a Grade 1 class.
+  searches: &id006
+  - 'find_entity.py "probability" "احتمال" "chance": concept/maysir and concept/nard, legal records on gambling and games of chance; not a vehicle for describing likelihood'
+  - 'find_entity.py "mathematics" "الرياضيات" "arithmetic": invention/algorism (offered for B1.1, B1.2, B2.1, B2.4, C3.1 and C3.2 and removed after the fleet review as not fitting) and later arithmetic works; none concerns this expectation'
+- code: D2.2
+  text: make and test predictions about the likelihood that the categories in a data set from one population will have the same frequencies in data collected from a different population of the same size
+  why: The expectation is about the words impossible, possible and certain, and about predicting frequencies in a sample; the only likelihood records are legal records on games of chance, not a fit for a Grade 1 class.
+  searches: *id006
+- code: E1.1
+  text: sort three-dimensional objects and two-dimensional shapes according to one attribute at a time, and identify the sorting rule being used
+  why: The expectation is about sorting, building and describing 2-D shapes and 3-D objects, including matching halves; the museum holds no record on shapes or symmetry, and the pattern records of lesson c-1 do not state a shape property or a symmetry.
+  searches: &id007
+  - 'find_entity.py "geometry" "الهندسة" "shapes": only scholars'' optics and measurement notes and modern diagrams; no record on 2-D shapes or 3-D objects'
+  - 'find_entity.py "symmetry" "تناظر" "tessellation": no real record'
+- code: E1.2
+  text: construct three-dimensional objects, and identify two-dimensional shapes contained within structures and objects
+  why: The expectation is about sorting, building and describing 2-D shapes and 3-D objects, including matching halves; the museum holds no record on shapes or symmetry, and the pattern records of lesson c-1 do not state a shape property or a symmetry.
+  searches: *id007
+- code: E1.3
+  text: construct and describe two-dimensional shapes and three-dimensional objects that have matching halves
+  why: The expectation is about sorting, building and describing 2-D shapes and 3-D objects, including matching halves; the museum holds no record on shapes or symmetry, and the pattern records of lesson c-1 do not state a shape property or a symmetry.
+  searches: *id007
+- code: E1.4
+  text: describe the relative locations of objects or people, using positional language
+  why: The expectation is about positional language and giving and following directions between places; concept/qibla and concept/samt are legal records on facing the direction of prayer, and say nothing of positional language or of moving from one place to another.
+  searches: &id008
+  - 'find_entity.py "qibla" "القبلة" "direction": concept/qibla, concept/samt and passages on the direction of prayer; legal records, not about giving directions'
+  - 'find_entity.py "qibla direction" "اتجاه" "compass": concept/samt, a compass image record without prose; nothing on positional language'
+- code: E1.5
+  text: give and follow directions for moving from one location to another
+  why: The expectation is about positional language and giving and following directions between places; concept/qibla and concept/samt are legal records on facing the direction of prayer, and say nothing of positional language or of moving from one place to another.
+  searches: *id008
+- code: E2.1
+  text: identify measurable attributes of two-dimensional shapes and three-dimensional objects, including length, area, mass, capacity, and angle
+  why: The expectation is about naming measurable attributes (length, area, mass, capacity, angle) and comparing everyday objects; concept/mizan is the law of weights and measures (cheating in weight) and the measurement inventions are scholarly, so none serves a Grade 1 class.
+  searches: &id009
+  - 'find_entity.py "measurement" "قياس" "length": measuring the earth, a muqarnas measurement method and brick-stack reckoning; scholarly records, none about comparing everyday objects'
+  - 'find_entity.py "weights and measures" "المكاييل والموازين" "mizan": concept/mizan and concept/al-mizan, records on the legal standard of weight and measure and on cheating in measure'
+- code: E2.2
+  text: compare several everyday objects and order them according to length, area, mass, and capacity
+  why: The expectation is about naming measurable attributes (length, area, mass, capacity, angle) and comparing everyday objects; concept/mizan is the law of weights and measures (cheating in weight) and the measurement inventions are scholarly, so none serves a Grade 1 class.
+  searches: *id009
+- code: F1.1
+  text: identify the various Canadian coins up to 50¢ and coins and bills up to $50, and compare their values
+  why: The expectation is about identifying Canadian coins and bills and comparing their values; the museum holds records on early Islamic coinage (Abd al-Malik's dinars and dirhams), not on Canadian currency.
+  searches:
+  - 'find_entity.py "coin" "عملة" "sikka": only hadith passages, a fatwa on a cancelled currency and records on early Islamic coinage; no Canadian currency'
+  - 'find_entity.py "currency" "نقود" "money": concept/al-nuqud and records on Abd al-Malik''s coinage and Khwarazm coinage; none is Canadian'

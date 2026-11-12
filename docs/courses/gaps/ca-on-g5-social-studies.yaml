@@ -1,0 +1,246 @@
+course: course/ca-on-g5-social-studies
+gaps:
+- code: A1.1
+  text: "describe some of the positive and negative consequences of contact between Indigenous peoples and European explorers and settlers in what would eventually become Canada […], and analyse their significance"
+  why: "Asks for the consequences of contact between Indigenous peoples and European explorers in what became Canada; the museum holds no record of that contact."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"smallpox\" \"الجدري\" \"epidemic disease\": records on epidemics and smallpox in the Islamic world, none on contact in Canada"
+  - "find_entity.py \"alcohol\" \"الخمر\" \"wine prohibition\": concept/khamr and hadith passages on wine in Islamic law, not the introduction of alcohol in North America"
+- code: A1.2
+  text: "analyse aspects of contact between Indigenous peoples and European explorers and settlers in what would eventually become Canada to determine ways in which different parties benefited from each other […]"
+  why: "Asks how Indigenous peoples and Europeans benefited from each other in what became Canada, including the fur trade; the museum holds no record on either side."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"fur trade\" \"تجارة الفراء\" \"Hudson's Bay\": no real record"
+  - "find_entity.py \"intermarriage\" \"mixed marriage\" \"Metis\": no real record"
+- code: A1.3
+  text: "explain some of the ways in which interactions among Indigenous peoples, among European explorers and settlers, and between Indigenous and European people in what would eventually become Canada are connected to issues in present-day Canada […]"
+  why: "Asks how interactions in what became Canada connect to present-day issues of land claims, treaty rights and the environment; the museum holds no record of them."
+  searches:
+  - "find_entity.py \"land claims\" \"ملكية الأرض\" \"land ownership\": concept/land-ownership-ceiling is about ceilings on agricultural ownership, Arabic only, not land claims"
+  - "find_entity.py \"treaty\" \"معاهدة\" \"ahdnama\": 37 real records, every one an Islamic-world treaty (Hudaybiyya, Ayla, Babylon and so on); none concerns Canada or Indigenous peoples"
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+- code: A2.1
+  text: "formulate questions to guide investigations into aspects of the interactions among Indigenous peoples, among Europeans, and between Indigenous and European people in what would eventually become Canada, from the perspectives of various groups involved […]"
+  why: "Asks the student to formulate questions about interactions in what became Canada from the views of various groups; there are no records on those groups from which the museum could supply a connection."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"fur trade\" \"تجارة الفراء\" \"Hudson's Bay\": no real record"
+  - "find_entity.py \"missionary\" \"مبشر\" \"Jesuit\": concept/missionary-movement-in-muslim-lands is about missions in Muslim lands, not New France"
+- code: A2.2
+  text: "gather and organize information on interactions among Indigenous peoples, among Europeans, and between Indigenous and European people in what would eventually become Canada, using a variety of primary and secondary sources that present various perspectives […]"
+  why: "Asks the student to gather sources on interactions in what became Canada; the museum holds none of those primary or secondary sources."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"treaty\" \"معاهدة\" \"ahdnama\": 37 real records, every one an Islamic-world treaty (Hudaybiyya, Ayla, Babylon and so on); none concerns Canada or Indigenous peoples"
+  - "find_entity.py \"fur trade\" \"تجارة الفراء\" \"Hudson's Bay\": no real record"
+- code: A2.3
+  text: "analyse and construct maps as part of their investigations into interactions among Indigenous peoples, among Europeans, and between Indigenous and European people in what would eventually become Canada […]"
+  why: "Asks the student to analyse and construct maps of the interactions in what became Canada; the museum holds no map or record of that region."
+  searches:
+  - "find_entity.py \"map cartography\" \"خريطة\" \"geographer\": invention/tabula-rogeriana is al-Idrisi's world map, not a thematic map of Canada or of an issue"
+  - "find_entity.py \"Canada\" \"كندا\" \"New France\": place/canada has no prose; the other hits are source records and the course records"
+  - "find_entity.py \"fur trade\" \"تجارة الفراء\" \"Hudson's Bay\": no real record"
+- code: A2.4
+  text: "interpret and analyse information and evidence relevant to their investigations, using a variety of tools […]"
+  why: "Asks the student to interpret evidence on interactions in what became Canada, such as journals and oral histories; the museum holds none."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"missionary\" \"مبشر\" \"Jesuit\": concept/missionary-movement-in-muslim-lands is about missions in Muslim lands, not New France"
+  - "find_entity.py \"treaty\" \"معاهدة\" \"ahdnama\": 37 real records, every one an Islamic-world treaty (Hudaybiyya, Ayla, Babylon and so on); none concerns Canada or Indigenous peoples"
+- code: A2.5
+  text: "evaluate evidence and draw conclusions about aspects of the interactions among First Nations, Métis, and Inuit individuals and communities, among Europeans, and between Europeans and First Nations, Métis, and Inuit in what would eventually become Canada during this period, highlighting …"
+  why: "Asks the student to evaluate evidence on interactions among First Nations, Métis, Inuit and Europeans; the museum holds no record of these groups."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Haudenosaunee\": one real record, concept/muwala (a fiqh term, not Inuit); nothing usable"
+  - "find_entity.py \"intermarriage\" \"mixed marriage\" \"Metis\": no real record"
+- code: A2.6
+  text: "communicate the results of their inquiries, using appropriate vocabulary […] and formats […]"
+  why: "Asks the student to communicate the results of an inquiry into these interactions; it names Canadian topics and vocabulary the museum does not hold."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"fur trade\" \"تجارة الفراء\" \"Hudson's Bay\": no real record"
+  - "find_entity.py \"missionary\" \"مبشر\" \"Jesuit\": concept/missionary-movement-in-muslim-lands is about missions in Muslim lands, not New France"
+- code: A3.1
+  text: "identify major Indigenous nations that came into contact with European settlers and/or explorers prior to 1713 in what would become Canada […], and describe key characteristics of selected nations […]"
+  why: "Asks the student to identify major Indigenous nations that met Europeans before 1713 and describe selected ones; the museum holds no record on any of them."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Haudenosaunee\": one real record, concept/muwala (a fiqh term, not Inuit); nothing usable"
+  - "find_entity.py \"Mi'kmaq\" \"ميكماك\" \"Cree Ojibwe\": no real record"
+- code: A3.2
+  text: "describe some significant interactions among First Nations and between First Nations and Inuit before contact with Europeans […]"
+  why: "Asks about interactions among First Nations and Inuit before European contact; the museum holds no record on these peoples."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Haudenosaunee\": one real record, concept/muwala (a fiqh term, not Inuit); nothing usable"
+  - "find_entity.py \"treaty\" \"معاهدة\" \"ahdnama\": 37 real records, every one an Islamic-world treaty (Hudaybiyya, Ayla, Babylon and so on); none concerns Canada or Indigenous peoples"
+- code: A3.3
+  text: "describe the main motives for Europeans’ exploration of Indigenous lands that were eventually claimed by Canada and for the establishment of permanent European settlements […]"
+  why: "Asks for the motives of European exploration and settlement in what became Canada; the museum holds no record of those voyages or settlements."
+  searches:
+  - "find_entity.py \"Cartier\" \"كارتييه\" \"Jacques Cartier\": only object/cartier-hafiz, a book of poems, unrelated; find_entity \"Champlain\" \"شامبلان\" \"Samuel de Champlain\": no real record"
+  - "find_entity.py \"Cabot\" \"كابوت\" \"Vikings Norse\": only event/battle-of-shirkabut-1231, unrelated"
+  - "find_entity.py \"exploration voyages\" \"الاستكشاف\" \"Age of Discovery\": concept/istikshaf-al-qada is about discovering leaders, not voyages"
+- code: A3.4
+  text: "identify significant offices and institutions in New France […], and describe their importance to settlers in New France"
+  why: "Asks for offices and institutions of New France; the museum holds no record on New France."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"New France\": place/canada has no prose; the other hits are source records and the course records"
+  - "find_entity.py \"missionary\" \"مبشر\" \"Jesuit\": concept/missionary-movement-in-muslim-lands is about missions in Muslim lands, not New France"
+  - "find_entity.py \"government\" \"حكومة\" \"levels of government\": no record on a federal, provincial or municipal government; the hits are a hadith passage, the emirate of the Hijaz and unrelated buildings"
+- code: A3.5
+  text: "describe significant aspects of the interactions between Indigenous peoples and European explorers and settlers in what would eventually become Canada […]"
+  why: "Asks for significant aspects of interactions between Indigenous peoples and Europeans in what became Canada; the museum holds no record on either."
+  searches:
+  - "find_entity.py \"fur trade\" \"تجارة الفراء\" \"Hudson's Bay\": no real record"
+  - "find_entity.py \"smallpox\" \"الجدري\" \"epidemic disease\": records on epidemics and smallpox in the Islamic world, none on contact in Canada"
+  - "find_entity.py \"alcohol\" \"الخمر\" \"wine prohibition\": concept/khamr and hadith passages on wine in Islamic law, not the introduction of alcohol in North America"
+- code: A3.6
+  text: "describe key factors that led to the ethnogenesis of the Métis people in what would eventually become Canada, with specific attention to the Great Lakes and Mattawa regions […]"
+  why: "Asks for the factors behind the ethnogenesis of the Métis; the museum holds no record on the Métis."
+  searches:
+  - "find_entity.py \"intermarriage\" \"mixed marriage\" \"Metis\": no real record"
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"fur trade\" \"تجارة الفراء\" \"Hudson's Bay\": no real record"
+- code: A3.7
+  text: "describe some significant differences among Indigenous peoples and between selected Indigenous and European communities in what would eventually become Canada […], and identify some of the reasons for these differences […]"
+  why: "Asks for differences between Indigenous peoples and between Indigenous and European communities in what became Canada; the museum holds no record of these communities."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"colonization\" \"استعمار\" \"settler colonialism\": only period/colonial-era, a general period record, nothing on Canada"
+  - "find_entity.py \"Canada\" \"كندا\" \"New France\": place/canada has no prose; the other hits are source records and the course records"
+- code: A3.8
+  text: "describe some significant effects of European conflicts on Indigenous peoples and on what would eventually become Canada […]"
+  why: "Asks for the effects of European conflicts on Indigenous peoples and on what became Canada; the museum holds no record of these conflicts."
+  searches:
+  - "find_entity.py \"Canada\" \"كندا\" \"New France\": place/canada has no prose; the other hits are source records and the course records"
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"Cartier\" \"كارتييه\" \"Jacques Cartier\": only object/cartier-hafiz, a book of poems, unrelated; find_entity \"Champlain\" \"شامبلان\" \"Samuel de Champlain\": no real record"
+- code: B1.1
+  text: "assess the effectiveness of actions taken by one or more levels of government, including Indigenous governments, to address an issue of national, provincial/territorial, and/or local significance […]"
+  why: "Asks the student to assess actions by Canadian governments, including Indigenous governments, on an issue; the museum holds no record of any of them."
+  searches:
+  - "find_entity.py \"government\" \"حكومة\" \"levels of government\": no record on a federal, provincial or municipal government; the hits are a hadith passage, the emirate of the Hijaz and unrelated buildings"
+  - "find_entity.py \"Canada\" \"كندا\" \"New France\": place/canada has no prose; the other hits are source records and the course records"
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+- code: B1.2
+  text: "create a plan of action to address a social issue of local, provincial/territorial, and/or national significance […], specifying the actions to be taken by the appropriate government or governments, including Indigenous governments, as well as by citizens"
+  why: "Asks the student to plan action on a social issue in Canada by governments and citizens; no record describes such an issue, a government or a plan."
+  searches:
+  - "find_entity.py \"poverty homelessness\" \"الفقر\" \"social assistance\": concept/poverty-and-sufficiency-in-islam is a record on poverty in Islamic teaching; it describes no Canadian issue, government or plan of action"
+  - "find_entity.py \"government\" \"حكومة\" \"levels of government\": no record on a federal, provincial or municipal government; the hits are a hadith passage, the emirate of the Hijaz and unrelated buildings"
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+- code: B1.3
+  text: "create a plan of action to address an environmental issue of local, provincial/territorial, and/or national significance […], specifying the actions to be taken by the appropriate government or governments, including Indigenous governments, as well as by citizens"
+  why: "Asks the student to plan action on an environmental issue in Canada; the museum holds no record on such issues."
+  searches:
+  - "find_entity.py \"pollution waste\" \"التلوث\" \"environment protection\": no real record"
+  - "find_entity.py \"climate change\" \"تغير المناخ\" \"global warming\": no real record"
+  - "find_entity.py \"water supply\" \"مياه الشرب\" \"drinking water\": one fiqh record on the lip and drinking; nothing on water services"
+- code: B2.1
+  text: "formulate questions to guide investigations into social and/or environmental issues in Canada from various perspectives, including the perspective of Indigenous peoples and of the level (or levels) of government responsible for addressing the issues […]"
+  why: "Asks the student to formulate questions about Canadian social or environmental issues from various views; the museum holds no record of these issues."
+  searches:
+  - "find_entity.py \"climate change\" \"تغير المناخ\" \"global warming\": no real record"
+  - "find_entity.py \"poverty homelessness\" \"الفقر\" \"social assistance\": concept/poverty-and-sufficiency-in-islam is a record on poverty in Islamic teaching; it describes no Canadian issue, government or plan of action"
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+- code: B2.2
+  text: "gather and organize a variety of information and data that present various perspectives about Canadian social and/or environmental issues, including the perspectives of Indigenous peoples and of the level (or levels) of government responsible for addressing the issues […]"
+  why: "Asks the student to gather information on Canadian social or environmental issues; the museum holds no such information."
+  searches:
+  - "find_entity.py \"climate change\" \"تغير المناخ\" \"global warming\": no real record"
+  - "find_entity.py \"pollution waste\" \"التلوث\" \"environment protection\": no real record"
+  - "find_entity.py \"poverty homelessness\" \"الفقر\" \"social assistance\": concept/poverty-and-sufficiency-in-islam is a record on poverty in Islamic teaching; it describes no Canadian issue, government or plan of action"
+- code: B2.3
+  text: "analyse and construct maps in various formats, including digital formats, as part of their investigations into social and/or environmental issues […]"
+  why: "Asks the student to analyse and construct maps of Canadian issues; the museum holds no thematic map or Canadian record of this kind."
+  searches:
+  - "find_entity.py \"map cartography\" \"خريطة\" \"geographer\": invention/tabula-rogeriana is al-Idrisi's world map, not a thematic map of Canada or of an issue"
+  - "find_entity.py \"Canada\" \"كندا\" \"New France\": place/canada has no prose; the other hits are source records and the course records"
+  - "find_entity.py \"climate change\" \"تغير المناخ\" \"global warming\": no real record"
+- code: B2.4
+  text: "interpret and analyse information and data relevant to their investigations, using a variety of tools […]"
+  why: "Asks the student to interpret data on Canadian issues with graphs and organisers; the museum holds no data of this kind."
+  searches:
+  - "find_entity.py \"climate change\" \"تغير المناخ\" \"global warming\": no real record"
+  - "find_entity.py \"poverty homelessness\" \"الفقر\" \"social assistance\": concept/poverty-and-sufficiency-in-islam is a record on poverty in Islamic teaching; it describes no Canadian issue, government or plan of action"
+  - "find_entity.py \"recycling\" \"إعادة التدوير\" \"waste\": work/fatwa-aliftaa-jo-recycling-plastic-caps-for-charity is a fatwa on charity, not a government programme"
+- code: B2.5
+  text: "evaluate evidence and draw conclusions about social and/or environmental issues, outlining the strengths and weaknesses of different perspectives on the issues, including the perspectives of Indigenous peoples and of the level (or levels) of government responsible for addressing the issues"
+  why: "Asks the student to evaluate evidence and perspectives on Canadian issues; the museum holds no record of the issues or of the governments responsible."
+  searches:
+  - "find_entity.py \"government\" \"حكومة\" \"levels of government\": no record on a federal, provincial or municipal government; the hits are a hadith passage, the emirate of the Hijaz and unrelated buildings"
+  - "find_entity.py \"climate change\" \"تغير المناخ\" \"global warming\": no real record"
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+- code: B2.6
+  text: "communicate the results of their inquiries, using appropriate vocabulary […] and formats […]"
+  why: "Asks the student to communicate the results of an inquiry into a Canadian issue; it names Canadian offices and bodies the museum does not hold."
+  searches:
+  - "find_entity.py \"government\" \"حكومة\" \"levels of government\": no record on a federal, provincial or municipal government; the hits are a hadith passage, the emirate of the Hijaz and unrelated buildings"
+  - "find_entity.py \"municipal\" \"بلدية\" \"city council\": three place records of municipalities, none with prose"
+  - "find_entity.py \"climate change\" \"تغير المناخ\" \"global warming\": no real record"
+- code: B3.1
+  text: "describe the major rights and responsibilities associated with citizenship in Canada […]"
+  why: "Asks for the rights and responsibilities of citizens in Canada; the museum holds no record on Canadian citizenship."
+  searches:
+  - "find_entity.py \"citizenship\" \"المواطنة\" \"rights and responsibilities\": no real record"
+  - "find_entity.py \"freedom of religion\" \"حرية الدين\" \"religious tolerance\": concept/no-compulsion-in-religion is one scholar's reading of compulsion in belief; it does not describe the rights and responsibilities of citizens in Canada"
+  - "find_entity.py \"Canada\" \"كندا\" \"New France\": place/canada has no prose; the other hits are source records and the course records"
+- code: B3.2
+  text: "describe the jurisdiction of different levels of government in Canada, as well as of some other elected bodies (i.e., federal, provincial, territorial, and municipal governments; band councils; school boards), and some of the services provided by each […]"
+  why: "Asks for the jurisdiction of the levels of government in Canada and the services each provides; the museum holds no record on them."
+  searches:
+  - "find_entity.py \"government\" \"حكومة\" \"levels of government\": no record on a federal, provincial or municipal government; the hits are a hadith passage, the emirate of the Hijaz and unrelated buildings"
+  - "find_entity.py \"municipal\" \"بلدية\" \"city council\": three place records of municipalities, none with prose"
+  - "find_entity.py \"Canada\" \"كندا\" \"New France\": place/canada has no prose; the other hits are source records and the course records"
+- code: B3.3
+  text: "describe some First Nations, Métis, and Inuit governance structures that currently exist in Canada […]"
+  why: "Asks for First Nations, Métis and Inuit governance structures that exist in Canada today; the museum holds no record on any of them."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"Inuit\" \"الإنويت\" \"Haudenosaunee\": one real record, concept/muwala (a fiqh term, not Inuit); nothing usable"
+  - "find_entity.py \"Mi'kmaq\" \"ميكماك\" \"Cree Ojibwe\": no real record"
+- code: B3.4
+  text: "describe the shared responsibility of various levels of government for providing some services and for dealing with selected social and environmental issues […]"
+  why: "Asks for the shared responsibility of levels of government for services and issues in Canada; the museum holds no record on them."
+  searches:
+  - "find_entity.py \"government\" \"حكومة\" \"levels of government\": no record on a federal, provincial or municipal government; the hits are a hadith passage, the emirate of the Hijaz and unrelated buildings"
+  - "find_entity.py \"municipal\" \"بلدية\" \"city council\": three place records of municipalities, none with prose"
+  - "find_entity.py \"water supply\" \"مياه الشرب\" \"drinking water\": one fiqh record on the lip and drinking; nothing on water services"
+- code: B3.5
+  text: "describe different processes that governments can use to solicit input from the public […], and explain why it is important for all levels of government to provide opportunities for public consultation"
+  why: "Asks for the processes by which governments in Canada solicit input from the public; the museum's shura records show a ruler consulting advisers, a judge consulting jurists and a council choosing a successor, not a government consulting the public."
+  searches:
+  - "find_entity.py \"shura consultation\" \"الشورى\": concept/consultation-shura (the Prophet consulting companions, a judge consulting jurists) and concept/shura-in-islam (one author's argument about government); both are rulers consulting advisers, not a government asking the public, and a Grade 5 student would not follow the cases of Badr and the succession"
+  - "find_entity.py \"government\" \"حكومة\" \"public consultation\": no record on a federal, provincial or municipal government, a survey, a town hall or a public hearing"
+- code: B3.6
+  text: "demonstrate a basic understanding of what is meant by the federal and provincial governments’ having a duty to consult and accommodate First Nations, Métis, and Inuit communities, and describe some circumstances in which this constitutional right for Indigenous peoples might …"
+  why: "Asks for the Crown's duty to consult First Nations, Métis and Inuit communities in Canada; the museum holds no record on it."
+  searches:
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+  - "find_entity.py \"treaty\" \"معاهدة\" \"ahdnama\": 37 real records, every one an Islamic-world treaty (Hudaybiyya, Ayla, Babylon and so on); none concerns Canada or Indigenous peoples"
+  - "find_entity.py \"government\" \"حكومة\" \"levels of government\": no record on a federal, provincial or municipal government; the hits are a hadith passage, the emirate of the Hijaz and unrelated buildings"
+- code: B3.7
+  text: "describe key actions taken by governments, including Indigenous governments, to solve some significant national, provincial/territorial, and/or local issues […]"
+  why: "Asks for key actions by Canadian governments to solve issues, such as recycling programmes or language projects; the museum holds no record on them."
+  searches:
+  - "find_entity.py \"government\" \"حكومة\" \"levels of government\": no record on a federal, provincial or municipal government; the hits are a hadith passage, the emirate of the Hijaz and unrelated buildings"
+  - "find_entity.py \"recycling\" \"إعادة التدوير\" \"waste\": work/fatwa-aliftaa-jo-recycling-plastic-caps-for-charity is a fatwa on charity, not a government programme"
+  - "find_entity.py \"climate change\" \"تغير المناخ\" \"global warming\": no real record"
+- code: B3.8
+  text: "explain why different groups may have different perspectives on specific social and environmental issues […]"
+  why: "Asks why groups in Canada hold different perspectives on social and environmental issues; the museum holds no record of these issues or groups."
+  searches:
+  - "find_entity.py \"climate change\" \"تغير المناخ\" \"global warming\": no real record"
+  - "find_entity.py \"government\" \"حكومة\" \"levels of government\": no record on a federal, provincial or municipal government; the hits are a hadith passage, the emirate of the Hijaz and unrelated buildings"
+  - "find_entity.py \"Indigenous peoples\" \"السكان الأصليون\" \"First Nations\": no real record"
+- code: B3.9
+  text: "describe some different ways in which citizens can take action to address social and environmental issues […]"
+  why: "Asks for ways Canadian citizens can act on social and environmental issues; the museum holds no record of such action."
+  searches:
+  - "find_entity.py \"elections vote\" \"انتخاب\" \"bay'a\": records of bay'a (allegiance pledged to a caliph); none describes citizens acting on an issue in Canada"
+  - "find_entity.py \"court judge\" \"قضاء\" \"petition mazalim\": records of judgments and judges in early Islam; none on Canadian courts or petitions"
+  - "find_entity.py \"poverty homelessness\" \"الفقر\" \"social assistance\": concept/poverty-and-sufficiency-in-islam is a record on poverty in Islamic teaching; it describes no Canadian issue, government or plan of action"

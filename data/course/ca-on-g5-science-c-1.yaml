@@ -1,0 +1,54 @@
+id: course/ca-on-g5-science-c-1
+class: course
+kind: lesson
+label:
+  en: How paper is made, and what it changes
+  ar: كيف يُصنع الورق وماذا يغيّر
+  ur: کاغذ کیسے بنتا ہے اور کیا بدلتا ہے
+summary:
+  en: How a common product is made, step by step, and what its spread meant for a society (C1.1).
+  ar: كيف يُصنع منتج شائع خطوة بعد خطوة، وماذا عنى انتشاره لمجتمع، التوقع C1.1.
+  ur: ایک عام مصنوعہ قدم بہ قدم کیسے بنتا ہے اور اس کے پھیلنے کا ایک معاشرے کے لیے کیا مطلب تھا، توقع C1.1۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g5-science-c
+expectations:
+- code: C1.1
+  text:
+    en: assess the impacts on society and the environment of various processes used in the manufacture of common products
+    ar: قيِّم آثار عمليات متنوعة تُستخدم في تصنيع منتجات شائعة في المجتمع والبيئة
+    ur: عام مصنوعات کی تیاری میں استعمال ہونے والے مختلف عمل کے معاشرے اور ماحول پر اثرات کا جائزہ لیں
+connections:
+- position: within
+  kind: invention
+  title:
+    en: From fibres to a sheet
+    ar: من الألياف إلى الورقة
+    ur: ریشوں سے ورق تک
+  text:
+    en: 'Paper is a mat of cellulose fibres: the material is broken down in water, collected on a screen and dried into a sheet, and the fibres may come from plants, rags or old ropes. Osman Ersoy attributes the proposal for a paper workshop in Baghdad, under Harun al-Rashid, to al-Fadl ibn Yahya al-Barmaki. The record calls this the moving of a craft to a city, not the invention of paper. What would a city do with more paper?'
+    ar: 'الورق شبكة من ألياف السليلوز: تُفكك مادتها في الماء، ثم تجمع على سطح شبكي وتُجفف ورقةً، وقد تأتي الألياف من نباتات أو خرق أو حبال قديمة. وينسب عثمان أرصوي اقتراح إنشاء مصنع للورق في بغداد، في خلافة هارون الرشيد، إلى الفضل بن يحيى البرمكي. ويقول السجل إن هذه قصة انتقال صناعة إلى مدينة، لا اختراع الورق. ماذا تفعل مدينة بمزيد من الورق؟'
+    ur: 'کاغذ سیلولوز کے ریشوں کی ایک تہ ہے: اس کا مادہ پانی میں توڑا جاتا ہے، جالی پر جمع کیا جاتا ہے اور خشک کر کے ورق بنایا جاتا ہے، اور ریشے پودوں، چیتھڑوں یا پرانی رسیوں سے آ سکتے ہیں۔ عثمان ایرسوئے بغداد میں ہارون الرشید کے دور میں کاغذ کا کارخانہ بنانے کی تجویز کو فضل بن یحییٰ برمکی سے منسوب کرتا ہے۔ ریکارڈ اسے ایک صنعت کا شہر میں منتقل ہونا کہتا ہے، کاغذ کی ایجاد نہیں۔ ایک شہر زیادہ کاغذ کا کیا کرے گا؟'
+  entity: invention/baghdad-papermaking
+  sources:
+  - source/iranica-paper-i
+  - source/tdv-kagit
+- position: after
+  kind: story
+  title:
+    en: Records first, then books
+    ar: السجلات أولاً ثم الكتب
+    ur: پہلے ریکارڈ، پھر کتابیں
+  text:
+    en: Jonathan Bloom describes Iranian Muslims adopting paper at first for records and only gradually in place of parchment for copying books, Qur'an manuscripts among them. Osman Ersoy connects its abundance and spread with flourishing centres of knowledge and culture, naming Samarkand as an example. What changes for a society when writing material becomes common?
+    ar: يصف جوناثان بلوم تبني المسلمين الإيرانيين للورق أولاً في حفظ السجلات، ثم الانتقال التدريجي إلى نسخ الكتب عوضاً عن الرق، بما فيها المصاحف. ويربط عثمان أرصوي وفرته وانتشاره بازدهار مراكز العلم والثقافة، ويذكر سمرقند مثالاً. ماذا يتغير في مجتمع حين تتوافر مادة الكتابة؟
+    ur: جوناتھن بلوم بیان کرتا ہے کہ ایرانی مسلمانوں نے کاغذ کو پہلے ریکارڈ کے لیے اپنایا اور کتابوں کی نقل میں چمڑے کی جگہ آہستہ آہستہ لیا، جن میں قرآن کے نسخے بھی تھے۔ عثمان ایرسوئے اس کی کثرت اور پھیلاؤ کو علم و ثقافت کے پھلتے پھولتے مراکز سے جوڑتا ہے اور سمرقند کو مثال کے طور پر نام لیتا ہے۔ جب لکھنے کا مواد عام ہو جائے تو معاشرے میں کیا بدلتا ہے؟
+  entity: invention/baghdad-papermaking
+  sources:
+  - source/iranica-paper-i
+  - source/tdv-kagit
+order: 1

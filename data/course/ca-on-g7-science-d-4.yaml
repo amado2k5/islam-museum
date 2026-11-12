@@ -1,0 +1,52 @@
+id: course/ca-on-g7-science-d-4
+class: course
+kind: lesson
+label:
+  en: When a building falls
+  ar: حين ينهار البناء
+  ur: جب عمارت گر جاتی ہے
+summary:
+  en: Two accounts of buildings that fell, and the forces and factors a class can ask about (D2.5).
+  ar: روايتان عن أبنية سقطت، والقوى والعوامل التي يمكن لصف أن يسأل عنها، التوقع D2.5.
+  ur: گرنے والی عمارتوں کے دو بیان، اور وہ قوتیں اور عوامل جن کے بارے میں ایک جماعت سوال کر سکتی ہے، توقع D2.5۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g7-science-d
+expectations:
+- code: D2.5
+  text:
+    en: describe factors that can cause a structure to fail
+    ar: صِف العوامل التي قد تتسبب في انهيار منشأة أو فشلها
+    ur: ان عوامل کو بیان کریں جو کسی ڈھانچے کی ناکامی کا سبب بن سکتے ہیں
+connections:
+- position: within
+  kind: story
+  title:
+    en: When the ground shook and the wind blew
+    ar: حين اهتزت الأرض وهبّت الريح
+    ur: جب زمین ہلی اور آندھی چلی
+  text:
+    en: In 425 AH a black wind blew over Nisibin, knocking down a palace built of baked brick, stone and lime. Ramla was shaken and about half of it was destroyed; part of the wall of Jerusalem fell, and the minaret of the mosque of Ascalon collapsed. What forces acted on these buildings?
+    ar: في سنة خمس وعشرين وأربعمائة هبّت ريح سوداء بنصيبين فرمت قصراً مبنياً بآجر وحجارة وكلس. وزُلزلت الرملة فهُدم نحو نصفها وسقط بعض حائط بيت المقدس وسقطت منارة جامع عسقلان. فأي قوى أثّرت في هذه الأبنية؟
+    ur: 425ھ میں نصیبین میں ایک سیاہ آندھی چلی جس نے اینٹ، پتھر اور چونے سے بنے ایک محل کو گرا دیا۔ رملہ میں زلزلہ آیا تو اس کا تقریباً نصف حصہ منہدم ہو گیا، بیت المقدس کی دیوار کا کچھ حصہ گرا، اور عسقلان کی جامع مسجد کا مینار گر گیا۔ ان عمارتوں پر کون سی قوتیں عمل کر رہی تھیں؟
+  entity: event/earthquake-tsunami-425
+  sources:
+  - source/shadharat-dhahab
+- position: after
+  kind: story
+  title:
+    en: Rain and collapsing houses
+    ar: أمطار وبيوت تتساقط
+    ur: بارش اور گرتے گھر
+  text:
+    en: In Jumada I 332 the rains multiplied until houses collapsed. Bathhouses closed, and markets and mosques went idle. Why might rain bring a house down?
+    ar: في جمادى الأولى 332هـ كثرت الأمطار فتساقطت منازل الناس، وأُغلقت عدة حمامات وتعطلت أسواق ومساجد. فلماذا قد يُسقط المطر بيتاً؟
+    ur: جمادی الاولیٰ 332ھ میں بارشیں بڑھیں اور گھر زمین بوس ہوئے؛ کئی حمام بند ہوئے اور بازار اور مسجدیں بے کار پڑے رہے۔ بارش کسی گھر کو کیوں گرا سکتی ہے؟
+  entity: event/baghdad-rains-collapse-332
+  sources:
+  - source/muntazam-ibn-al-jawzi
+order: 4

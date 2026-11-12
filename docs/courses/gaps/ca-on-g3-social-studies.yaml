@@ -1,0 +1,230 @@
+course: course/ca-on-g3-social-studies
+gaps:
+- code: A1.1
+  text: describe some of the similarities and differences in various aspects of everyday life […] of selected groups and communities living in Canada between 1780 and 1850 […]
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "Black Loyalist" "Mennonite" "Loyalist": no real record'
+- code: A2.1
+  text: formulate questions to guide investigations into some of the major challenges facing various groups and communities in Canada from around 1780 to 1850 […] and measures taken to address these challenges
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It asks for questions about the challenges those communities faced.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "Black Loyalist" "Mennonite" "Loyalist": no real record'
+- code: A3.1
+  text: identify various First Nations and some Métis communities in Upper and Lower Canada from 1780 to 1850, including those living in traditional territory and those who moved or were forced to relocate to new areas in response to European settlement …
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It asks the student to locate First Nations and Métis communities on maps.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "map" "خريطة" "Idrisi": al-Idrisi and invention/tabula-rogeriana (a medieval world map, tried for B3.7 and removed on review); no record on maps of Canada or Ontario, thematic maps or reserves'
+- code: A1.2
+  text: compare what life was like between 1780 and 1850 in a few First Nations, Métis, and Inuit communities […] with the ways in which later colonial policies, including the residential school system, changed life in these communities […]
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It concerns residential schools and colonial policy in Canada.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "Mohawk" "Native American" "الهنود الحمر": no real record'
+- code: A2.2
+  text: gather and organize information on major challenges facing various groups and communities, including at least one First Nation, Métis, or Inuit community, and on measures taken to address these challenges, using a variety of primary and/or secondary sources […]
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It asks the student to gather information about those communities' challenges from primary and secondary sources.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "Black Loyalist" "Mennonite" "Loyalist": no real record'
+- code: A3.2
+  text: identify various settler communities in Canada during this period […], and locate the areas where they lived, using print, digital, and/or interactive maps or a mapping program
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It asks the student to identify and locate settler communities.
+  searches:
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "Black Loyalist" "Mennonite" "Loyalist": no real record'
+  - 'find_entity.py "settlement" "migration" "colonial": only early Islamic settlements, migrations to Abyssinia and period/colonial-era; none on Canada'
+- code: A1.3
+  text: compare some of the roles of and challenges facing people living in Canada between 1780 and 1850 with those in the present day, including people in a few First Nations, Métis, and/or Inuit communities […]
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "wampum" "treaty" "معاهدة": only treaties of the early Islamic centuries and the Ottoman era (for example event/treaty-of-hudaybiyya); none on Canada'
+- code: A2.3
+  text: analyse and construct print and digital maps, including thematic maps, as part of their investigations into challenges facing various groups and communities, including at least one First Nation, Métis, or Inuit community, in Canada during this period, and measures taken …
+  why: The expectation asks for maps of challenges facing communities in Canada, 1780 to 1850. invention/tabula-rogeriana is a twelfth-century world map and holds nothing about Canada, so it does not support this expectation (it was tried for B3.7 and removed on review).
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "map" "خريطة" "Idrisi": al-Idrisi and invention/tabula-rogeriana (a medieval world map, tried for B3.7 and removed on review); no record on maps of Canada or Ontario, thematic maps or reserves'
+- code: A3.3
+  text: identify some of the main factors that helped shape the development of settlements in Canada, including First Nations, Métis, and Inuit communities, during this period […], and describe how the physical features of the land […] and the availability of goods and …
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It concerns the fur trade and the physical features that shaped settlements.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "fur trade" "canoe" "trade routes": no real record'
+  - 'find_entity.py "settlement" "migration" "colonial": only early Islamic settlements, migrations to Abyssinia and period/colonial-era; none on Canada'
+- code: A1.4
+  text: identify some key components of identity in Canada today, including First Nations, Métis, and Inuit identity […], and describe some of the ways in which communities that were in Canada between 1780 and 1850 have had an impact on this identity […]
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It concerns identity in Canada today, treaty rights and official languages.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "wampum" "treaty" "معاهدة": only treaties of the early Islamic centuries and the Ottoman era (for example event/treaty-of-hudaybiyya); none on Canada'
+- code: A2.4
+  text: interpret and analyse information relevant to their investigations, using a variety of tools […]
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It asks the student to analyse information about those communities' challenges.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "settlement" "migration" "colonial": only early Islamic settlements, migrations to Abyssinia and period/colonial-era; none on Canada'
+- code: A3.4
+  text: describe some of the major challenges facing communities in Canada during this period, including at least one First Nation, Métis, or Inuit community […]
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It concerns the challenges those communities faced.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "settlement" "migration" "colonial": only early Islamic settlements, migrations to Abyssinia and period/colonial-era; none on Canada'
+- code: A2.5
+  text: evaluate evidence and draw conclusions about some of the major challenges facing various groups and communities in Canada, including at least one First Nation, Métis, or Inuit community, during this period, and measures taken to overcome these challenges
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It asks the student to draw conclusions about those communities' challenges.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "settlement" "migration" "colonial": only early Islamic settlements, migrations to Abyssinia and period/colonial-era; none on Canada'
+- code: A3.5
+  text: describe the impact of some different kinds of settlements […] on the natural environment and on any existing settlements
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It concerns the effects of different kinds of settlement.
+  searches:
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "fur trade" "canoe" "trade routes": no real record'
+  - 'find_entity.py "settlement" "migration" "colonial": only early Islamic settlements, migrations to Abyssinia and period/colonial-era; none on Canada'
+- code: A2.6
+  text: communicate the results of their inquiries using appropriate vocabulary […] and formats […]
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It asks the student to communicate the results of an inquiry about those communities.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "Black Loyalist" "Mennonite" "Loyalist": no real record'
+- code: A3.6
+  text: describe some key aspects of life in selected First Nations, Métis, and settler communities in Canada during this period, including the roles of men, women, and children […]
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It concerns daily life, roles and the division of labour in those communities.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "hunting" "fishing" "الصيد": rulings on hunting during pilgrimage (Muwatta); nothing on Canadian hunting, fishing or harvesting'
+- code: A3.7
+  text: identify a few key treaties relevant to Indigenous people in their region during this period, including wampum belts exchanged […], and explain how some of these agreements affected various peoples and communities in that region and beyond […]
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It concerns treaties and wampum belts relevant to Indigenous people in Ontario.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "wampum" "treaty" "معاهدة": only treaties of the early Islamic centuries and the Ottoman era (for example event/treaty-of-hudaybiyya); none on Canada'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+- code: A3.8
+  text: describe how some different communities in Canada related to each other during this period, with a focus on whether the relationships were characterized by conflict or cooperation […]
+  why: The expectation is about communities in Canada between 1780 and 1850, including First Nations, Métis and Inuit communities; the museum holds no record on them, and place/canada has no prose. It concerns cooperation and conflict between those communities.
+  searches:
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+  - 'find_entity.py "settlement" "migration" "colonial": only early Islamic settlements, migrations to Abyssinia and period/colonial-era; none on Canada'
+  - 'find_entity.py "Black Loyalist" "Mennonite" "Loyalist": no real record'
+- code: B3.1
+  text: demonstrate an understanding that Ontario is divided into different municipal or regional entities (i.e., cities, towns, townships, villages, counties, First Nations communities, Métis regions), and that local governments within these entities provide specific services and regulate development according to local …
+  why: The expectation is about the municipal, First Nations and Métis entities of Ontario and their local governments; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "municipality" "local government" "بلدية": only municipalities of the Balkans and the Caucasus and an unrelated source; nothing on Ontario'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "Indigenous" "First Nations" "السكان الأصليون": no real record'
+- code: B1.2
+  text: describe some major connections between features of the natural environment and the type of employment that is available in a region, with reference to two or more municipal regions, including First Nations communities and/or Métis regions, in Ontario […]
+  why: The expectation is about employment in two or more Ontario regions, including First Nations communities; the museum holds no record on employment or on a named Ontario region.
+  searches:
+  - 'find_entity.py "employment" "jobs" "profession" "مهنة": no record on employment; two unrelated source records'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "municipality" "local government" "بلدية": only municipalities of the Balkans and the Caucasus and an unrelated source; nothing on Ontario'
+- code: B2.2
+  text: gather and organize a variety of data and information on the environmental effects of different land and/or resource use and measures taken to reduce the negative impact of that use […]
+  why: The expectation asks the student to gather data on the environmental effects of land use in Ontario regions. concept/environmental-protection-in-islam is a general author's reading with no data on any region, so it does not support this expectation (it was tried for B2.1 and removed on review).
+  searches:
+  - 'find_entity.py --class concept "environment" "البيئة" "nature": concept/environmental-protection-in-islam (a general text, tried for B2.1 and removed on review); nothing on Ontario or on a named land use'
+  - 'find_entity.py "pollution" "deforestation" "التلوث": no real record'
+  - 'find_entity.py "mining" "forestry" "التعدين": only a fatwa on a male doctor and a source record on a physicist; nothing on mining or forestry'
+- code: B3.2
+  text: demonstrate an understanding that political maps, both print and digital, use different typographical styles to indicate different types of entities […]
+  why: The expectation is about typographical conventions on political maps. invention/tabula-rogeriana describes a medieval map but says nothing of lettering styles for countries, provinces and cities.
+  searches:
+  - 'find_entity.py "cartography" "scale" "مقياس الرسم": only hadith passages about the Scale of deeds; no record on map conventions'
+  - 'find_entity.py "map" "خريطة" "Idrisi": al-Idrisi and invention/tabula-rogeriana (a medieval world map, tried for B3.7 and removed on review); no record on maps of Canada or Ontario, thematic maps or reserves'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+- code: B1.3
+  text: identify and describe some of the main patterns in population distribution and land use in two or more municipal regions in Ontario, including First Nations communities and/or Métis regions, using mapping and globe skills […]
+  why: The expectation is about population distribution and land use in two or more Ontario regions, read from maps; the museum holds no record on population patterns or on Ontario.
+  searches:
+  - 'find_entity.py "population" "demography" "عدد السكان": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "map" "خريطة" "Idrisi": al-Idrisi and invention/tabula-rogeriana (a medieval world map, tried for B3.7 and removed on review); no record on maps of Canada or Ontario, thematic maps or reserves'
+- code: B2.3
+  text: analyse and construct print and digital maps, including thematic maps, as part of their investigations into the environmental impact of land and/or resource use in different municipal regions, including First Nations communities and/or Métis regions […]
+  why: The expectation asks for maps used to investigate the environmental effect of land use in Ontario regions; the museum holds no record on Ontario maps or on those regions.
+  searches:
+  - 'find_entity.py "map" "خريطة" "Idrisi": al-Idrisi and invention/tabula-rogeriana (a medieval world map, tried for B3.7 and removed on review); no record on maps of Canada or Ontario, thematic maps or reserves'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "municipality" "local government" "بلدية": only municipalities of the Balkans and the Caucasus and an unrelated source; nothing on Ontario'
+- code: B3.3
+  text: identify the major landform regions in Ontario […], and describe the major characteristics that make each distinct
+  why: The expectation is about the landform regions of Ontario; the museum holds no record on any of them.
+  searches:
+  - 'find_entity.py "landform" "plateau" "تضاريس": one record, place/deccan-plateau, in India'
+  - 'find_entity.py "Canadian Shield" "Great Lakes" "درع كندا": no real record'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+- code: B2.4
+  text: interpret and analyse information and data relevant to their investigations, using a variety of tools […]
+  why: The expectation asks the student to analyse data on the environmental effects of land use, with graphs and organizers; the museum holds no such data and no record on any Ontario region.
+  searches:
+  - 'find_entity.py --class concept "environment" "البيئة" "nature": concept/environmental-protection-in-islam (a general text, tried for B2.1 and removed on review); nothing on Ontario or on a named land use'
+  - 'find_entity.py "pollution" "deforestation" "التلوث": no real record'
+  - 'find_entity.py "mining" "forestry" "التعدين": only a fatwa on a male doctor and a source record on a physicist; nothing on mining or forestry'
+- code: B3.4
+  text: identify and describe the main types of employment that are available in two or more municipal regions in Ontario, including First Nations communities and/or Métis regions […]
+  why: The expectation is about types of employment in two or more Ontario regions; the museum holds no record on employment or on those regions.
+  searches:
+  - 'find_entity.py "employment" "jobs" "profession" "مهنة": no record on employment; two unrelated source records'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "municipality" "local government" "بلدية": only municipalities of the Balkans and the Caucasus and an unrelated source; nothing on Ontario'
+- code: B2.5
+  text: evaluate evidence and draw conclusions about some of the short- and long-term effects on the environment of different types of land use in municipal regions of Ontario, including First Nations communities and/or Métis regions, and about key measures to reduce …
+  why: The expectation asks the student to evaluate evidence on effects of land use in Ontario regions and on measures to reduce them; the museum holds no such evidence, only one general text on the environment.
+  searches:
+  - 'find_entity.py --class concept "environment" "البيئة" "nature": concept/environmental-protection-in-islam (a general text, tried for B2.1 and removed on review); nothing on Ontario or on a named land use'
+  - 'find_entity.py "conservation" "ecology" "حماية البيئة": concept/environmental-protection-in-islam only; no record on conservation authorities or parks'
+  - 'find_entity.py "pollution" "deforestation" "التلوث": no real record'
+- code: B2.6
+  text: communicate the results of their inquiries, using appropriate vocabulary […] and formats […]
+  why: The expectation asks the student to communicate the results of an inquiry about land use and the environment in Ontario regions; the museum holds nothing on those regions or those results.
+  searches:
+  - 'find_entity.py --class concept "environment" "البيئة" "nature": concept/environmental-protection-in-islam (a general text, tried for B2.1 and removed on review); nothing on Ontario or on a named land use'
+  - 'find_entity.py "conservation" "ecology" "حماية البيئة": concept/environmental-protection-in-islam only; no record on conservation authorities or parks'
+  - 'find_entity.py "mining" "forestry" "التعدين": only a fatwa on a male doctor and a source record on a physicist; nothing on mining or forestry'
+- code: B3.6
+  text: compare some aspects of land use in two or more municipalities, including First Nations communities and/or Métis regions […]
+  why: The expectation asks the student to compare land use in two or more Ontario municipalities; the museum holds no record on any Ontario municipality, and its land-use records (hima, farmland) are not municipal.
+  searches:
+  - 'find_entity.py "municipality" "local government" "بلدية": only municipalities of the Balkans and the Caucasus and an unrelated source; nothing on Ontario'
+  - 'find_entity.py "Canada" "كندا" "Ontario": place/canada and place/ontario exist but have no prose; the other hits are source records and course records'
+  - 'find_entity.py "population" "demography" "عدد السكان": no real record'
+- code: B1.1
+  text: "describe some major connections between features of the natural environment of a region and the type of land use and/or the type of community that is established in that region […]"
+  why: "The expectation asks how a natural feature of a region shapes the land use or kind of community there; the one record tried tells who ordered and dug a canal and quarrelled over it, and never says what community or land use the water made possible."
+  searches:
+  - "event/digging-of-nahr-al-ubulla: tried for lesson b-1 and removed on review; a canal dug at Basra by order of Umar, with distances in farsakhs and a dispute between two governors, and no land use or kind of community tied to a natural feature"
+  - "earlier searches for this register: place/canada and place/ontario exist but have no prose, and the museum holds no record on an Ontario region, so a natural feature of a region and its land use cannot be shown"
+- code: B2.1
+  text: "formulate questions to guide investigations into some of the short- and/or long-term effects on the environment of different types of land and/or resource use in two or more municipal regions of Ontario, including First Nations communities and/or Métis regions […] and …"
+  why: "The expectation asks for short- and long-term effects of named types of land or resource use; the one record tried is a single modern author's general statement that pollution threatens safety and names no land use, resource use or effect over time."
+  searches:
+  - "concept/environmental-protection-in-islam: tried for lesson b-2 and removed on review; one modern author's general statement, naming no land use, resource use or effect over time"
+  - "earlier searches for this register (\"environment\" \"البيئة\", \"pollution\" \"deforestation\" \"التلوث\"): no record on the effects of a named land use or resource use"
+- code: B3.7
+  text: "construct print and/or digital maps that show some different land uses, landform regions, and/or municipalities in Ontario, including First Nations communities and/or Métis regions, using appropriate elements of a map, including standard units of measurement […]"
+  why: "The expectation asks the student to construct maps using the elements of a map and a standard-unit scale; the one record tried is a medieval world map, with distances in miles on roads, that teaches no element of a map and no scale."
+  searches:
+  - "invention/tabula-rogeriana: tried for lesson b-4 and removed on review; it shows one old world map, not any element of a map or a scale the student can use"
+  - "earlier searches for this register: place/canada and place/ontario exist but have no prose, so there is no record to map Ontario land uses or landform regions from"

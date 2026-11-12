@@ -1,0 +1,292 @@
+course: course/ca-on-g12-sph4u
+gaps:
+- code: A1.1
+  text: formulate relevant scientific questions about observed relationships, ideas, problems, or issues, make informed predictions, and/or formulate educated hypotheses to focus inquiries or research
+  why: 'Skills expectation: names no subject matter.'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: select appropriate instruments […] and materials […], and identify appropriate methods, techniques, and procedures, for each inquiry
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.3
+  text: identify and locate a variety of print and electronic sources that enable them to address research topics fully and appropriately
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.4
+  text: apply knowledge and understanding of safe laboratory practices and procedures when planning investigations by correctly interpreting Workplace Hazardous Materials Information System (WHMIS) symbols; by using appropriate techniques for handling and storing laboratory equipment and materials and disposing of laboratory materials …
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.5
+  text: conduct inquiries, controlling relevant variables, adapting or extending procedures as required, and using appropriate materials and equipment safely, accurately, and effectively, to collect observations and data
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.6
+  text: compile accurate data from laboratory and other sources, and organize and record the data, using appropriate formats, including tables, flow charts, graphs, and/or diagrams
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.7
+  text: select, organize, and record relevant information on research topics from a variety of appropriate sources, including electronic, print, and/or human sources, using suitable formats and an accepted form of academic documentation
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.8
+  text: synthesize, analyse, interpret, and evaluate qualitative and quantitative data; solve problems involving quantitative data; determine whether the evidence supports or refutes the initial prediction or hypothesis and whether it is consistent with scientific theory; identify sources of bias and/or error …
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.9
+  text: analyse the information gathered from research sources for logic, accuracy, reliability, adequacy, and bias
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.10
+  text: draw conclusions based on inquiry results and research findings, and justify their conclusions with reference to scientific knowledge
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.11
+  text: communicate ideas, plans, procedures, results, and conclusions orally, in writing, and/or in electronic presentations, using appropriate language and a variety of formats […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.12
+  text: use appropriate numeric […], symbolic, and graphic modes of representation […]
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A1.13
+  text: express the results of any calculations involving data accurately and precisely, to the appropriate number of decimal places or significant figures
+  why: 'Skills expectation: names no subject matter.'
+  searches: *id001
+- code: A2.1
+  text: identify and describe a variety of careers related to the fields of science under study […] and the education and training necessary for these careers
+  why: The expectation asks for careers in physics and the education and training they need. The museum holds one engineer of the Islamic world, whose record documents his work and patronage and not his training, and nothing on physics careers.
+  searches:
+  - 'find_entity.py "physicist" "فيزيائي" "engineer" "مهندس" "career": 22 hits; person/al-jazari-engineer is the only physics-related person, the rest are unrelated names or career events of jurists'
+  - 'entity_brief.py person/al-jazari-engineer: records a court engineer''s service and patronage, and says it documents work and patronage, not training; no physics career or study path'
+- code: B2.1
+  text: 'use appropriate terminology related to dynamics, including, but not limited to: inertial and non-inertial frames of reference, components, centripetal, period, frequency, static friction, and kinetic friction [C]'
+  why: The expectation is about forces, vectors or circular motion, worked qualitatively and quantitatively. The museum holds no record on the dynamics of motion that a connection could restate.
+  searches: &id002
+  - 'find_entity.py "circular motion" "centrifugal" "طرد مركزي" "rotation" "دوران": only concept/earth-rotation-ship-analogy (used in lesson B3.1) and the heavens'' diurnal motion; no record on forces in circular motion'
+  - 'find_entity.py "projectile" "قذيفة" "ballistics" "mayl" "ميل": no record on projectile motion; the hits are the obliquity of the ecliptic and an unrelated question'
+- code: B2.2
+  text: solve problems related to motion, including projectile and relative motion, by adding and subtracting two-dimensional vector quantities, using vector diagrams, vector components, and algebraic methods [PR, AI, C]
+  why: The expectation is about forces, vectors or circular motion, worked qualitatively and quantitatively. The museum holds no record on the dynamics of motion that a connection could restate.
+  searches: *id002
+- code: B2.3
+  text: analyse, in qualitative and quantitative terms, the relationships between the force of gravity, normal force, applied force, force of friction, coefficient of static friction, and coefficient of kinetic friction, and solve related two-dimensional problems using free-body diagrams, vector components, and …
+  why: The expectation is about forces, vectors or circular motion, worked qualitatively and quantitatively. The museum holds no record on the dynamics of motion that a connection could restate.
+  searches: *id002
+- code: B2.4
+  text: predict, in qualitative and quantitative terms, the forces acting on systems of objects […], and plan and conduct an inquiry to test their predictions [IP, PR, AI]
+  why: The expectation is about forces, vectors or circular motion, worked qualitatively and quantitatively. The museum holds no record on the dynamics of motion that a connection could restate.
+  searches: *id002
+- code: B2.5
+  text: analyse, in qualitative and quantitative terms, the relationships between the motion of a system and the forces involved […], and use free-body diagrams and algebraic equations to solve related problems [AI, C]
+  why: The expectation is about forces, vectors or circular motion, worked qualitatively and quantitatively. The museum holds no record on the dynamics of motion that a connection could restate.
+  searches: *id002
+- code: B2.6
+  text: analyse, in qualitative and quantitative terms, the forces acting on and the acceleration experienced by an object in uniform circular motion in horizontal and vertical planes, and use free-body diagrams and algebraic equations to solve related problems [AI, C]
+  why: The expectation is about forces, vectors or circular motion, worked qualitatively and quantitatively. The museum holds no record on the dynamics of motion that a connection could restate.
+  searches: *id002
+- code: B2.7
+  text: conduct inquiries into the uniform circular motion of an object […], and analyse, in qualitative and quantitative terms, the relationships between centripetal acceleration, centripetal force, radius of orbit, period, frequency, mass, and speed [PR, AI]
+  why: The expectation is about forces, vectors or circular motion, worked qualitatively and quantitatively. The museum holds no record on the dynamics of motion that a connection could restate.
+  searches: *id002
+- code: B3.2
+  text: explain the advantages and disadvantages of static and kinetic friction in situations involving various planes […]
+  why: The expectation is about friction on planes. The museum holds no record on friction, inclined planes or forces.
+  searches:
+  - 'find_entity.py "friction" "احتكاك" "inclined plane" "pulley" "بكرة": 9 hits, people, events and a poem containing the name Bakra or the verb for early morning; no record on friction, inclined planes or pulleys'
+  - 'find_entity.py "gravitation" "الجاذبية" "Newton" "نيوتن" "falling bodies": only two source records on calculus; no record on gravity or forces'
+- code: B3.3
+  text: explain the derivation of equations for uniform circular motion that involve the variables frequency, period, radius speed, and mass
+  why: The expectation is about forces, vectors or circular motion, worked qualitatively and quantitatively. The museum holds no record on the dynamics of motion that a connection could restate.
+  searches: *id002
+- code: C1.1
+  text: analyse, with reference to the principles of energy and momentum, and propose practical ways to improve, a technology or procedure that applies these principles […] [AI, C]
+  why: The expectation is about work, energy, momentum or collisions. The museum holds no record on any of them.
+  searches: &id003
+  - 'find_entity.py "energy" "طاقة" "work" "قوة": 42 hits, none on mechanical energy (labour, power in the political sense and similar uses of the word)'
+  - 'find_entity.py "collision" "اصطدام" "momentum" "اندفاع": no real record'
+- code: C1.2
+  text: assess the impact on society and the environment of technologies or procedures that apply the principles of energy and momentum […] [AI, C]
+  why: The expectation is about work, energy, momentum or collisions. The museum holds no record on any of them.
+  searches: *id003
+- code: C2.1
+  text: 'use appropriate terminology related to energy and momentum, including, but not limited to: work, work–energy theorem, kinetic energy, gravitational potential energy, elastic potential energy, thermal energy, impulse, change in momentum–impulse theorem, elastic collision, and inelastic collision [C]'
+  why: The expectation is about work, energy, momentum or collisions. The museum holds no record on any of them.
+  searches: *id003
+- code: C2.2
+  text: analyse, in qualitative and quantitative terms, the relationship between work and energy, using the work–energy theorem and the law of conservation of energy, and solve related problems in one and two dimensions [PR, AI]
+  why: The expectation is about work, energy, momentum or collisions. The museum holds no record on any of them.
+  searches: *id003
+- code: C2.3
+  text: use an inquiry process to analyse, in qualitative and quantitative terms, situations involving work, gravitational potential energy, kinetic energy, thermal energy, and elastic potential energy, in one and two dimensions […], and use the law of conservation of energy to solve …
+  why: The expectation is about work, energy, momentum or collisions. The museum holds no record on any of them.
+  searches: *id003
+- code: C2.4
+  text: conduct a laboratory inquiry or computer simulation to test the law of conservation of energy during energy transformations that involve gravitational potential energy, kinetic energy, thermal energy, and elastic potential energy […] [PR, AI]
+  why: The expectation is about work, energy, momentum or collisions. The museum holds no record on any of them.
+  searches: *id003
+- code: C2.5
+  text: analyse, in qualitative and quantitative terms, the relationships between mass, velocity, kinetic energy, momentum, and impulse for a system of objects moving in one and two dimensions […], and solve problems involving these concepts [PR, AI]
+  why: The expectation is about work, energy, momentum or collisions. The museum holds no record on any of them.
+  searches: *id003
+- code: C2.6
+  text: analyse, in qualitative and quantitative terms, elastic and inelastic collisions in one and two dimensions, using the laws of conservation of momentum and conservation of energy, and solve related problems [PR, AI]
+  why: The expectation is about work, energy, momentum or collisions. The museum holds no record on any of them.
+  searches: *id003
+- code: C2.7
+  text: conduct laboratory inquiries or computer simulations involving collisions and explosions in one and two dimensions […] to test the laws of conservation of momentum and conservation of energy [PR, AI]
+  why: The expectation is about work, energy, momentum or collisions. The museum holds no record on any of them.
+  searches: *id003
+- code: C3.1
+  text: describe and explain Hooke’s law, and explain the relationships between that law, work, and elastic potential energy in a system of objects
+  why: The expectation is about Hooke's law and simple harmonic motion. The museum holds no record on springs, oscillation or pendulums.
+  searches: &id004
+  - 'find_entity.py "spring" "نابض" "زنبرك" "Hooke" "oscillation" "اهتزاز": 9 hits (water springs, the season, offspring, an alternation of taxes); no record on springs or oscillation'
+  - 'find_entity.py "pendulum" "رقاص" "Ibn Yunus": only invention/ibn-yunus-solar-time-tables and a jurist named Ibn Yunus; no record on pendulums or harmonic motion'
+- code: C3.2
+  text: describe and explain the simple harmonic motion (SHM) of an object, and explain the relationship between SHM, Hooke’s law, and uniform circular motion
+  why: The expectation is about Hooke's law and simple harmonic motion. The museum holds no record on springs, oscillation or pendulums.
+  searches: *id004
+- code: C3.3
+  text: distinguish between elastic and inelastic collisions
+  why: The expectation is about work, energy, momentum or collisions. The museum holds no record on any of them.
+  searches: *id003
+- code: C3.4
+  text: explain the implications of the laws of conservation of energy and conservation of momentum with reference to mechanical systems […]
+  why: The expectation is about the conservation laws or the neutrino. The museum holds no record that bears on them.
+  searches: &id005
+  - 'find_entity.py "vacuum" "خلاء" "void" "atom" "الجوهر الفرد": hits are the fiqh term for a privy and legal "void" acts; no record on conservation laws or perpetual motion'
+  - 'find_entity.py "neutrino" "particle" "جسيم" "radiation" "إشعاع" "X-ray": only a fatwa on X-rays while fasting; no record on particles or the neutrino'
+- code: C3.5
+  text: explain how the laws of conservation of energy and conservation of momentum were used to predict the existence and properties of the neutrino
+  why: The expectation is about the conservation laws or the neutrino. The museum holds no record that bears on them.
+  searches: *id005
+- code: D1.1
+  text: analyse the operation of a technological system that uses gravitational, electric, or magnetic fields […] [AI, C]
+  why: The expectation is about technologies that use gravitational, electric or magnetic fields. The museum holds no record on such a technology.
+  searches: &id006
+  - 'find_entity.py "electricity" "كهرباء" "electric" "charge" "شحنة": no record on technologies that use fields'
+  - 'find_entity.py "magnet" "مغناطيس" "compass" "بوصلة" "lodestone": only place/magnetic-temple-china, a legend that describes no technology'
+- code: D1.2
+  text: assess the impact on society and the environment of technologies that use gravitational, electric, or magnetic fields […] [AI, C]
+  why: The expectation is about technologies that use gravitational, electric or magnetic fields. The museum holds no record on such a technology.
+  searches: *id006
+- code: D2.1
+  text: 'use appropriate terminology related to fields, including, but not limited to: forces, potential energies, potential, and exchange particles [C]'
+  why: The expectation is about gravitational, electric or magnetic fields and the forces on charges and masses. The museum holds no record on fields; its one magnet record is a single-source travel tale that describes no field.
+  searches: &id007
+  - 'find_entity.py "electricity" "كهرباء" "electric" "charge" "شحنة": 20 hits, none on electricity ("charge" in the sense of commission or responsibility, and similar uses); no record on electric fields'
+  - 'find_entity.py "magnet" "مغناطيس" "compass" "بوصلة" "lodestone": only place/magnetic-temple-china, a travel tale from one source (al-Mas''udi) that the record itself says needs an additional source; it describes no field'
+- code: D2.2
+  text: analyse, and solve problems relating to, Newton’s law of universal gravitation and circular motion […] [AI]
+  why: The expectation is about gravitational, electric or magnetic fields and the forces on charges and masses. The museum holds no record on fields; its one magnet record is a single-source travel tale that describes no field.
+  searches: *id007
+- code: D2.3
+  text: analyse, and solve problems involving, electric force, field strength, potential energy, and potential as they apply to uniform and non-uniform electric fields […] [AI]
+  why: The expectation is about gravitational, electric or magnetic fields and the forces on charges and masses. The museum holds no record on fields; its one magnet record is a single-source travel tale that describes no field.
+  searches: *id007
+- code: D2.4
+  text: analyse, and solve problems involving, the force on charges moving in a uniform magnetic field […] [AI]
+  why: The expectation is about gravitational, electric or magnetic fields and the forces on charges and masses. The museum holds no record on fields; its one magnet record is a single-source travel tale that describes no field.
+  searches: *id007
+- code: D2.5
+  text: conduct a laboratory inquiry or computer simulation to examine the behaviour of a particle in a field […] [PR]
+  why: The expectation is about gravitational, electric or magnetic fields and the forces on charges and masses. The museum holds no record on fields; its one magnet record is a single-source travel tale that describes no field.
+  searches: *id007
+- code: D3.1
+  text: identify, and compare the properties of, fundamental forces that are associated with different theories and models of physics […]
+  why: The expectation is about gravitational, electric or magnetic fields and the forces on charges and masses. The museum holds no record on fields; its one magnet record is a single-source travel tale that describes no field.
+  searches: *id007
+- code: D3.2
+  text: compare and contrast the corresponding properties of gravitational, electric, and magnetic fields […]
+  why: The expectation is about gravitational, electric or magnetic fields and the forces on charges and masses. The museum holds no record on fields; its one magnet record is a single-source travel tale that describes no field.
+  searches: *id007
+- code: D3.3
+  text: use field diagrams to explain differences in the sources and directions of fields, including, but not limited to, differences between near-Earth and distant fields, parallel plates and point charges, straight line conductors and solenoids
+  why: The expectation is about gravitational, electric or magnetic fields and the forces on charges and masses. The museum holds no record on fields; its one magnet record is a single-source travel tale that describes no field.
+  searches: *id007
+- code: E1.1
+  text: analyse, with reference to the principles related to the wave nature of light, a technology that uses these principles […] [AI, C]
+  why: 'The expectation is about the wave nature of light: diffraction, interference, polarization or wave technologies. The museum''s optics records treat light by rays and hold no wave model.'
+  searches: &id008
+  - 'find_entity.py "wave" "موجة" "interference" "diffraction" "polarization" "ripple": no record on waves; the only hit is a source record whose title contains the word'
+  - 'entity_brief.py concept/optics and invention/camera-obscura: they treat straight travel, reflection and refraction by rays, with no wave model, diffraction, interference or polarization'
+- code: E1.2
+  text: assess the impact on society and the environment of technologies that use the wave nature of light […] [AI, C]
+  why: 'The expectation is about the wave nature of light: diffraction, interference, polarization or wave technologies. The museum''s optics records treat light by rays and hold no wave model.'
+  searches: *id008
+- code: E2.1
+  text: 'use appropriate terminology related to the wave nature of light, including, but not limited to: diffraction, dispersion, wave interference, nodal line, phase, oscillate, polarization, and electro- magnetic radiation [C]'
+  why: 'The expectation is about the wave nature of light: diffraction, interference, polarization or wave technologies. The museum''s optics records treat light by rays and hold no wave model.'
+  searches: *id008
+- code: E2.2
+  text: conduct inquiries involving the diffraction and interference of waves, using ripple tanks or computer simulations [PR]
+  why: 'The expectation is about the wave nature of light: diffraction, interference, polarization or wave technologies. The museum''s optics records treat light by rays and hold no wave model.'
+  searches: *id008
+- code: E2.3
+  text: conduct inquiries involving the diffraction, refraction, polarization, and interference of light waves […] [PR]
+  why: 'The expectation is about the wave nature of light: diffraction, interference, polarization or wave technologies. The museum''s optics records treat light by rays and hold no wave model.'
+  searches: *id008
+- code: E2.4
+  text: analyse diffraction and interference of water waves and light waves […], and solve related problems [PR, AI]
+  why: 'The expectation is about the wave nature of light: diffraction, interference, polarization or wave technologies. The museum''s optics records treat light by rays and hold no wave model.'
+  searches: *id008
+- code: E3.1
+  text: describe and explain the diffraction and interference of water waves in two dimensions
+  why: 'The expectation is about the wave nature of light: diffraction, interference, polarization or wave technologies. The museum''s optics records treat light by rays and hold no wave model.'
+  searches: *id008
+- code: E3.4
+  text: describe, in qualitative terms, the production of electromagnetic radiation by an oscillating electric dipole […]
+  why: The expectation is about the production of electromagnetic radiation by an oscillating dipole. The museum holds no record on electromagnetic radiation.
+  searches:
+  - 'find_entity.py "neutrino" "particle" "جسيم" "radiation" "إشعاع" "X-ray": only a fatwa on X-rays while fasting; no record on electromagnetic radiation'
+  - 'find_entity.py "electricity" "كهرباء" "electric" "charge" "شحنة": no record on oscillating charges or radio'
+- code: F1.1
+  text: analyse the development of the two major revolutions in modern physics […], and assess how they changed scientific thought [AI, C]
+  why: The expectation is about quantum mechanics, special relativity or the standard model. The museum holds no record on any of them.
+  searches: &id009
+  - 'find_entity.py "atom" "ذرة" "quantum" "relativity" "نسبية": hits are hadith passages on an atom''s weight of pride and al-Biruni''s displacement vessel; no record on quantum mechanics or relativity'
+  - 'find_entity.py "neutrino" "particle" "جسيم" "radiation" "إشعاع" "X-ray": only a fatwa on X-rays while fasting; no record on particles or radiation physics'
+- code: F1.2
+  text: assess the importance of relativity and quantum mechanics to the development of various technologies […] [AI, C]
+  why: The expectation is about quantum mechanics, special relativity or the standard model. The museum holds no record on any of them.
+  searches: *id009
+- code: F2.1
+  text: 'use appropriate terminology related to quantum mechanics and special relativity, including, but not limited to: quantum theory, photoelectric effect, matter waves, time dilation, and mass–energy transformation [C]'
+  why: The expectation is about quantum mechanics, special relativity or the standard model. The museum holds no record on any of them.
+  searches: *id009
+- code: F2.2
+  text: solve problems related to the photoelectric effect, the Compton effect, and de Broglie’s matter waves [PR, AI]
+  why: The expectation is about quantum mechanics, special relativity or the standard model. The museum holds no record on any of them.
+  searches: *id009
+- code: F2.3
+  text: solve problems related to Einstein’s theory of special relativity in order to calculate the effects of relativistic motion on time, length, and mass […] [PR, AI]
+  why: The expectation is about quantum mechanics, special relativity or the standard model. The museum holds no record on any of them.
+  searches: *id009
+- code: F2.4
+  text: conduct a laboratory inquiry or computer simulation to analyse data […] that support a scientific theory related to relativity or quantum mechanics [PR, AI]
+  why: The expectation is about quantum mechanics, special relativity or the standard model. The museum holds no record on any of them.
+  searches: *id009
+- code: F3.1
+  text: describe the experimental evidence that supports a particle model of light […]
+  why: The expectation is about quantum mechanics, special relativity or the standard model. The museum holds no record on any of them.
+  searches: *id009
+- code: F3.2
+  text: describe the experimental evidence that supports a wave model of matter […]
+  why: The expectation is about quantum mechanics, special relativity or the standard model. The museum holds no record on any of them.
+  searches: *id009
+- code: F3.3
+  text: identify Einstein’s two postulates for the theory of special relativity, and describe the evidence supporting the theory […]
+  why: The expectation is about quantum mechanics, special relativity or the standard model. The museum holds no record on any of them.
+  searches: *id009
+- code: F3.4
+  text: describe the standard model of elementary particles in terms of the characteristics of quarks, hadrons, and field particles
+  why: The expectation is about quantum mechanics, special relativity or the standard model. The museum holds no record on any of them.
+  searches: *id009
+- code: E3.3
+  text: "use the concepts of refraction, diffraction, polarization, and wave interference to explain the separation of light into colours in various situations […]"
+  why: "The museum's two records describe light as rays and give no wave model; the one record that touches colour says the attempt to explain it was unsuccessful."
+  searches:
+  - "invention/farisi-water-sphere-rainbow (tried at e-1): follows rays through a water sphere; the record says the attempt to explain colour was unsuccessful, so it cannot serve a wave explanation of colour separation"
+  - "concept/optics (tried at e-1): one sentence on three states of light (straight travel, reflection, refraction); no diffraction, polarization or interference"

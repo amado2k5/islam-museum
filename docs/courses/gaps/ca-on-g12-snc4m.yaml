@@ -1,0 +1,358 @@
+course: course/ca-on-g12-snc4m
+gaps:
+- code: A1.1
+  text: formulate relevant scientific questions about observed relationships, ideas, problems, or issues, make informed predictions, and/or formulate educated hypotheses to focus inquiries or research
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: select appropriate instruments […] and materials […], and identify appropriate methods, techniques, and procedures, for each inquiry
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: identify and locate a variety of print and electronic sources that enable them to address research topics fully and appropriately
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: apply knowledge and understanding of safe laboratory practices and procedures when planning investigations by correctly interpreting Workplace Hazardous Materials Information System (WHMIS) symbols; by using appropriate techniques for handling and storing laboratory equipment and materials and disposing of laboratory materials …
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.5
+  text: conduct inquiries, controlling relevant variables, adapting or extending procedures as required, and using appropriate materials and equipment safely, accurately, and effectively, to collect observations and data
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.6
+  text: compile accurate data from laboratory and other sources, and organize and record the data, using appropriate formats, including tables, flow charts, graphs, and/or diagrams
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.7
+  text: select, organize, and record relevant information on research topics from a variety of appropriate sources, including electronic, print, and/or human sources, using suitable formats and an accepted form of academic documentation
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.8
+  text: synthesize, analyse, interpret, and evaluate qualitative and/or quantitative data to determine whether the evidence supports or refutes the initial prediction or hypothesis and whether it is consistent with scientific theory; identify sources of bias and/or error; and suggest improvements to …
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.9
+  text: analyse the information gathered from research sources for logic, accuracy, reliability, adequacy, and bias
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.10
+  text: draw conclusions based on inquiry results and research findings, and justify their conclusions with reference to scientific knowledge
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.11
+  text: communicate ideas, plans, procedures, results, and conclusions orally, in writing, and/or in electronic presentations, using appropriate language and a variety of formats […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.12
+  text: use appropriate numeric, symbolic, and graphic modes of representation, and appropriate units of measurement […]
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.13
+  text: express the results of any calculations involving data accurately and precisely, to the appropriate number of decimal places or significant figures
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.1
+  text: assess the costs and benefits of a conventional medical technology, therapy, or device that is used to diagnose or treat a human health condition […] [AI, C]
+  why: The expectation asks for a cost-benefit assessment of a conventional medical technology; the museum holds historical instruments, none assessed for cost and benefit.
+  searches:
+  - 'find_entity.py "surgery" "الجراحة" "cautery" "الكي": Ibn Zuhr''s tracheotomy demonstration and fatwas on surgery while fasting; none assesses the costs and benefits of a conventional technology'
+  - 'find_entity.py "X-ray" "الأشعة" "ultrasound" "imaging" "التصوير الطبي": only a fatwa on X-rays while fasting (partial match); no record on imaging technology'
+- code: B2.1
+  text: 'use appropriate terminology related to medical technologies, including, but not limited to: aseptic techniques, feedback loop, biochemical, and biomechanical [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.2
+  text: use a variety of medical technologies to collect data related to blood pressure, heart rate, lung capacity, and body mass, and analyse the data […] [PR, AI]
+  why: Practical measurement of blood pressure, heart rate, lung capacity and body mass; the museum holds no record of these measurements.
+  searches:
+  - 'find_entity.py "blood pressure" "pulse" "النبض": a fatwa on fasting with chronic illness and work/risala-fi-ilm-al-nabd (no prose); no record on measuring vital signs'
+  - 'find_entity.py "body temperature" "fever" "الحمى" "الحرارة": passages on fever (Muwatta 2722, Tirmidhi 2088, Ibn Majah 3470); no record on temperature as a vital sign'
+- code: B2.3
+  text: use a microscope to investigate prepared slides of human blood, identifying blood cells by type, size, and number, and determine the ratios between different cells in the samples [PR, AI]
+  why: Microscope work on blood cells; the museum holds no record on the microscope or on blood cells.
+  searches:
+  - 'find_entity.py "microscope" "optics" "البصريات" "lens": concept/optics and Kitab al-Manazir; no record on the microscope'
+  - 'find_entity.py "blood cells" "الدم" "blood" "donation of blood": Muwatta passages on blood in law and mourning; none on blood cells'
+- code: B2.4
+  text: interpret information generated by a variety of imaging technologies […], and communicate their findings [AI, C]
+  why: Interpreting medical imaging; the museum holds no record on imaging technologies.
+  searches:
+  - 'find_entity.py "X-ray" "الأشعة" "ultrasound" "imaging" "التصوير الطبي": only a fatwa on X-rays while fasting (partial match); no record on imaging technology'
+  - 'find_entity.py "microscope" "optics" "البصريات" "lens": concept/optics and Kitab al-Manazir; no record on the microscope'
+- code: B3.1
+  text: explain the four primary vital signs in humans (i.e., body temperature, heart rate, blood pressure, respiration rate)
+  why: The four vital signs; the museum holds no record explaining them.
+  searches:
+  - 'find_entity.py "blood pressure" "pulse" "النبض": a fatwa on fasting with chronic illness and work/risala-fi-ilm-al-nabd (no prose); no record on measuring vital signs'
+  - 'find_entity.py "body temperature" "fever" "الحمى" "الحرارة": passages on fever (Muwatta 2722, Tirmidhi 2088, Ibn Majah 3470); no record on temperature as a vital sign'
+- code: B3.2
+  text: describe the normal range for various physiological and biochemical indicators […]
+  why: Normal ranges of physiological indicators; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "blood pressure" "pulse" "النبض": a fatwa on fasting with chronic illness and work/risala-fi-ilm-al-nabd (no prose); no record on measuring vital signs'
+  - 'find_entity.py "diabetes" "داء السكري" "insulin": fatwas on fasting with diabetes and on insulin injections while fasting; none on the condition itself'
+- code: B3.5
+  text: describe a recent technological development or advance in diagnosis or treatment in the health care field […]
+  why: A recent technological advance in diagnosis or treatment; the museum holds no record on modern medical technology.
+  searches:
+  - 'find_entity.py "prosthetic" "artificial limb" "الأطراف الاصطناعية" "plastic surgery": no real record'
+  - 'find_entity.py "chemotherapy" "cancer" "السرطان" "tumour": no real record (one source record only)'
+- code: C1.1
+  text: analyse, on the basis of research, the impact, both positive and negative, of scientific and technological advances intended to prevent the spread of illness and disease [IP, PR, AI, C]
+  why: Impact of scientific advances meant to prevent the spread of disease; the museum holds no record of a modern preventive advance.
+  searches:
+  - 'find_entity.py "vaccine" "لقاح" "immunization": records on milch camels only (the Arabic word also means milch camels)'
+  - 'find_entity.py "vaccination" "التطعيم" "immunization programme" "public health campaign": one fatwa on forging a COVID-19 vaccination certificate, a ruling on honesty, not a study of vaccination'
+- code: C2.1
+  text: 'use appropriate terminology related to pathogens and diseases, including, but not limited to: parasite, epidemiology, pathogenesis, and vector [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.3
+  text: analyse, using prepared slides or computer simulations, the characteristics, properties, and virulence of various bacteria [PR, AI]
+  why: Laboratory analysis of bacteria; the museum holds no record on bacteria.
+  searches:
+  - 'find_entity.py "bacteria" "الجراثيم" "microbe" "germ" "الميكروب": no real record'
+  - 'find_entity.py "microscope" "optics" "البصريات" "lens": concept/optics and Kitab al-Manazir; no record on the microscope'
+- code: C2.4
+  text: use an inquiry process to demonstrate the effect of the use of sterile techniques […] on pathogenesis [IP, PR]
+  why: Inquiry into sterile technique; the museum holds no record on sterilization.
+  searches:
+  - 'find_entity.py "sterilization" "التعقيم" "pasteurization" "sterile": no real record'
+  - 'find_entity.py "hygiene" "النظافة" "الطهارة" "cleanliness": concept/tahara, exhibit/path-tahara and concept/miyah, records on ritual purity, not on aseptic technique at work'
+- code: C3.1
+  text: describe the characteristics and life cycles, including reproductive cycles, of representative pathogens […]
+  why: Characteristics and life cycles of pathogens; the museum holds no record on pathogens.
+  searches:
+  - 'find_entity.py "virus" "الفيروس" "pathogen" "الممرض": one fatwa on a COVID-19 vaccination certificate; no record on a pathogen'
+  - 'find_entity.py "bacteria" "الجراثيم" "microbe" "germ" "الميكروب": no real record'
+- code: C3.2
+  text: describe the mode of transmission of various diseases, including those that are insect-borne […], airborne […], water-borne […], sexually transmitted […], and food-borne […]
+  why: Modes of transmission of named diseases; concept/adwa (used in lesson c-2) gives scholars' views on whether disease passes between people, not modes of transmission for diseases.
+  searches:
+  - 'find_entity.py "malaria" "الملاريا" "cholera" "الكوليرا" "tuberculosis" "السل": no usable record (one unrelated battle)'
+  - 'find_entity.py "AIDS" "الإيدز" "HIV" "sexually transmitted": no real record'
+- code: C3.3
+  text: explain how the human immune response acts as a natural defence against infection
+  why: The immune response; the museum holds no record on immunity.
+  searches:
+  - 'find_entity.py "immunity" "المناعة" "antibody" "immune system": no real record'
+  - 'find_entity.py "virus" "الفيروس" "pathogen" "الممرض": one fatwa on a COVID-19 vaccination certificate; no record on a pathogen'
+- code: C3.4
+  text: describe the role of vaccines, antibiotics, antiretrovirals, and other drug therapies and antiseptics in the control of pathogenesis
+  why: The role of vaccines, antibiotics and antiseptics in controlling disease; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "vaccine" "لقاح" "immunization": records on milch camels only (the Arabic word also means milch camels)'
+  - 'find_entity.py "sterilization" "التعقيم" "pasteurization" "sterile": no real record'
+- code: C3.6
+  text: describe some of the means used by international non-governmental organizations […] to control the spread of disease […]
+  why: Means used by international NGOs to control disease; the museum's relief-agency records do not describe disease control.
+  searches:
+  - 'find_entity.py "relief organization" "الهلال الأحمر" "Red Crescent" "humanitarian aid" "الإغاثة": relief-agency listings and group/islamic-relief; none describes means of controlling the spread of disease'
+  - 'find_entity.py "sanitation" "الصرف الصحي" "clean water" "المياه النظيفة" "sewage": one fatwa on recycled sewage water, a ruling on purity, not on disease control'
+- code: C3.7
+  text: describe aseptic techniques used in the workplace, and explain their importance in preventing the spread of pathogens […]
+  why: Aseptic techniques in the workplace; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "sterilization" "التعقيم" "pasteurization" "sterile": no real record'
+  - 'find_entity.py "hygiene" "النظافة" "الطهارة" "cleanliness": concept/tahara, exhibit/path-tahara and concept/miyah, records on ritual purity, not on aseptic technique at work'
+- code: D1.1
+  text: analyse the social and economic costs and benefits of the use of non-nutrient food additives in food preservation and food enhancement techniques […] [AI, C]
+  why: Social and economic costs and benefits of non-nutrient food additives; the museum holds no record on additives.
+  searches:
+  - 'find_entity.py "food additives" "المضافات الغذائية" "preservatives" "المواد الحافظة": no real record'
+  - 'find_entity.py "calorie" "السعرات" "energy of food" "الطاقة الغذائية": one fatwa on understating calories on a label; no record on measuring food energy'
+- code: D2.1
+  text: 'use appropriate terminology related to nutritional science, including, but not limited to: macromolecules, protein, starch, vitamin, carbohydrate, fats, lipids, pepsin, and amylase [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D2.2
+  text: plan and conduct chemical tests on a variety of foods to determine their chemical components […] [IP, PR, AI]
+  why: Chemical tests on foods; the museum holds no record on food chemistry.
+  searches:
+  - 'find_entity.py "protein" "البروتين" "carbohydrate" "vitamin" "enzyme" "الإنزيم": one fatwa on poultry fed animal protein; no record on nutrients or enzymes'
+  - 'find_entity.py "calorie" "السعرات" "energy of food" "الطاقة الغذائية": one fatwa on understating calories on a label; no record on measuring food energy'
+- code: D2.3
+  text: investigate how enzymes break down macromolecules […], and test the products of different types of digestion […] [PR]
+  why: How enzymes break down macromolecules; the museum holds no record on enzymes.
+  searches:
+  - 'find_entity.py "protein" "البروتين" "carbohydrate" "vitamin" "enzyme" "الإنزيم": one fatwa on poultry fed animal protein; no record on nutrients or enzymes'
+  - 'find_entity.py "digestion" "الهضم" "stomach" "المعدة": only concept/mabtun-fiqh, the rules for one who dies of a stomach ailment'
+- code: D2.4
+  text: investigate the process of emulsification in fats and lipids […] [PR]
+  why: Emulsification of fats; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "protein" "البروتين" "carbohydrate" "vitamin" "enzyme" "الإنزيم": one fatwa on poultry fed animal protein; no record on nutrients or enzymes'
+  - 'find_entity.py "digestive system" "الجهاز الهضمي" "liver" "الكبد" "gall bladder" "bile": unrelated names only; no record on the digestive system'
+- code: D2.5
+  text: conduct titrations to determine the effects of various antacids on hydrochloric acid [PR, AI]
+  why: Titration with antacids and hydrochloric acid; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "digestion" "الهضم" "stomach" "المعدة": only concept/mabtun-fiqh, the rules for one who dies of a stomach ailment'
+  - 'find_entity.py "protein" "البروتين" "carbohydrate" "vitamin" "enzyme" "الإنزيم": one fatwa on poultry fed animal protein; no record on nutrients or enzymes'
+- code: D2.6
+  text: plan and conduct an inquiry to determine the nutrient or energy content in selected food samples […] [IP, PR, AI]
+  why: Measuring the energy content of foods; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "calorie" "السعرات" "energy of food" "الطاقة الغذائية": one fatwa on understating calories on a label; no record on measuring food energy'
+  - 'find_entity.py "protein" "البروتين" "carbohydrate" "vitamin" "enzyme" "الإنزيم": one fatwa on poultry fed animal protein; no record on nutrients or enzymes'
+- code: D3.1
+  text: describe the basic chemical components of proteins, carbohydrates, fats and lipids, and vitamins and minerals, and explain their functions in the body
+  why: Chemical components of food and their functions in the body; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "protein" "البروتين" "carbohydrate" "vitamin" "enzyme" "الإنزيم": one fatwa on poultry fed animal protein; no record on nutrients or enzymes'
+  - 'find_entity.py "calorie" "السعرات" "energy of food" "الطاقة الغذائية": one fatwa on understating calories on a label; no record on measuring food energy'
+- code: D3.2
+  text: explain how laboratory methods are used to determine the relative energy content of food […]
+  why: Laboratory methods for the energy content of food; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "calorie" "السعرات" "energy of food" "الطاقة الغذائية": one fatwa on understating calories on a label; no record on measuring food energy'
+  - 'find_entity.py "protein" "البروتين" "carbohydrate" "vitamin" "enzyme" "الإنزيم": one fatwa on poultry fed animal protein; no record on nutrients or enzymes'
+- code: D3.4
+  text: describe the structure and function of the components of the digestive system […] with respect to physical and chemical digestion
+  why: Structure and function of the digestive system; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "digestion" "الهضم" "stomach" "المعدة": only concept/mabtun-fiqh, the rules for one who dies of a stomach ailment'
+  - 'find_entity.py "digestive system" "الجهاز الهضمي" "liver" "الكبد" "gall bladder" "bile": unrelated names only; no record on the digestive system'
+- code: D3.5
+  text: describe optimum conditions for the effective functioning of some digestive enzymes found within the human body […]
+  why: Conditions for digestive enzymes to work; the museum holds no record on enzymes.
+  searches:
+  - 'find_entity.py "protein" "البروتين" "carbohydrate" "vitamin" "enzyme" "الإنزيم": one fatwa on poultry fed animal protein; no record on nutrients or enzymes'
+  - 'find_entity.py "digestion" "الهضم" "stomach" "المعدة": only concept/mabtun-fiqh, the rules for one who dies of a stomach ailment'
+- code: E1.1
+  text: assess the impact of scientific research and technological advances on public health around the world […] [AI, C]
+  why: Impact of research and technology on public health worldwide; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "vaccination" "التطعيم" "immunization programme" "public health campaign": one fatwa on forging a COVID-19 vaccination certificate, a ruling on honesty, not a study of vaccination'
+  - 'find_entity.py "health ministry" "وزارة الصحة" "public health law" "الصحة العامة": no real record'
+- code: E1.2
+  text: assess, on the basis of research, the effectiveness of a municipal, provincial, or federal government initiative intended to protect the public health of Canadians […] [IP, PR, AI, C]
+  why: Effectiveness of a Canadian government public-health initiative; the museum holds no record on Canadian public-health programmes.
+  searches:
+  - 'find_entity.py "health ministry" "وزارة الصحة" "public health law" "الصحة العامة": no real record'
+  - 'find_entity.py "smoking" "التدخين" "tobacco" "التبغ": concept/al-tadkhin, one preacher''s view on smoking in Ramadan, not a government initiative'
+- code: E2.1
+  text: 'use appropriate terminology related to public health issues, including, but not limited to: pandemic, contamination, infectious disease, quarantine, and vaccination [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: E2.2
+  text: analyse and interpret, using a case study or research data, scientific evidence regarding the effectiveness of a public health program intended to reduce disease transmission […] [AI, C]
+  why: Evidence on the effectiveness of a public-health programme; the museum holds no record on one.
+  searches:
+  - 'find_entity.py "health ministry" "وزارة الصحة" "public health law" "الصحة العامة": no real record'
+  - 'find_entity.py "sanitation" "الصرف الصحي" "clean water" "المياه النظيفة" "sewage": one fatwa on recycled sewage water, a ruling on purity, not on disease control'
+- code: E2.3
+  text: use a research process to investigate public health strategies developed to combat a potential pandemic […] [IP, PR]
+  why: Research on strategies against a possible pandemic such as SARS; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "epidemic" "الوباء" "wabaa" "pandemic": concept/al-waba and plague and smallpox events (used in lessons e-1 and e-2); none on how pandemics are classified'
+  - 'find_entity.py "vaccination" "التطعيم" "immunization programme" "public health campaign": one fatwa on forging a COVID-19 vaccination certificate, a ruling on honesty, not a study of vaccination'
+- code: E2.4
+  text: use a research process to locate a media report on a public health issue […], summarize its arguments, and assess them from a scientific perspective [IP, PR, AI, C]
+  why: Assessing a media report on a public-health issue; the museum holds no record of one.
+  searches:
+  - 'find_entity.py "health ministry" "وزارة الصحة" "public health law" "الصحة العامة": no real record'
+  - 'find_entity.py "smoking" "التدخين" "tobacco" "التبغ": concept/al-tadkhin, one preacher''s view on smoking in Ramadan, not a government initiative'
+- code: E3.1
+  text: describe the characteristics according to which a pandemic is classified […]
+  why: How pandemics are classified; the museum's epidemic records do not classify pandemics.
+  searches:
+  - 'find_entity.py "epidemic" "الوباء" "wabaa" "pandemic": concept/al-waba and plague and smallpox events (used in lessons e-1 and e-2); none on how pandemics are classified'
+  - 'find_entity.py "virus" "الفيروس" "pathogen" "الممرض": one fatwa on a COVID-19 vaccination certificate; no record on a pathogen'
+- code: E3.3
+  text: explain the impact of various threats to public health, including infectious diseases […], chronic diseases […], and environmental factors […]
+  why: The only record is one modern author's reading that pollution threatens safety; it names no health effect, disease or exposure.
+  searches:
+  - 'concept/environmental-protection-in-islam: three sentences giving one author''s opinion that pollution of water, air and soil threatens safety; it does not treat public health, disease, exposure or impact, so it does not fit'
+  - 'fleet review sweep (docs/courses-mission/verifier/sweep-secondary-sciences.md): no other record on pollution as a public-health threat was found'
+- code: E3.4
+  text: explain a variety of social factors that can promote the rapid spread of infectious diseases […]
+  why: Social factors that promote the spread of infectious disease, such as travel and poor sanitation; the museum holds no record that analyses them.
+  searches:
+  - 'find_entity.py "sanitation" "الصرف الصحي" "clean water" "المياه النظيفة" "sewage": one fatwa on recycled sewage water, a ruling on purity, not on disease control'
+  - 'find_entity.py "epidemic" "الوباء" "wabaa" "pandemic": concept/al-waba and plague and smallpox events (used in lessons e-1 and e-2); none on how pandemics are classified'
+- code: E3.6
+  text: explain why some populations are particularly susceptible to specific health problems […]
+  why: Why some populations are susceptible to specific health problems; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "diabetes" "داء السكري" "insulin": fatwas on fasting with diabetes and on insulin injections while fasting; none on the condition itself'
+  - 'find_entity.py "malaria" "الملاريا" "cholera" "الكوليرا" "tuberculosis" "السل": no usable record (one unrelated battle)'
+- code: F2.1
+  text: 'use appropriate terminology related to biotechnology, including, but not limited to: selective breeding, hybridization, replication, mutation, genomics, and gene therapy [C]'
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: F2.2
+  text: plan and conduct an inquiry into various traditional biotechnological techniques used in the food industry […] [IP, PR]
+  why: Traditional food biotechnology such as fermentation for bread, cheese and yogurt; the museum's records on vinegar, milk and bread are rulings, not accounts of the processes.
+  searches:
+  - 'find_entity.py "fermentation" "التخمر" "vinegar" "الخل" "nabidh": concept/khall-fiqh and concept/takhlil, rulings on vinegar, not on how fermentation makes food'
+  - 'find_entity.py "bread" "الخبز" "leaven" "الخميرة": Muwatta passages and a fatwa on eating bread; nothing on how bread rises'
+  - 'find_entity.py "yogurt" "الزبادي" "laban" "cheese" "الجبن": concept/laban-fiqh, rulings on milk; nothing on making yogurt or cheese'
+- code: F2.3
+  text: investigate, through laboratory inquiry or computer simulation, a recently developed biotechnological method used in the health sector […] [PR]
+  why: A recent biotechnological method in health; the museum holds no record on one.
+  searches:
+  - 'find_entity.py "DNA" "genetics" "الوراثة" "heredity": no real record (two news-source records only)'
+  - 'find_entity.py "genetic" "الجينات" "genetic testing" "الفحص الجيني": only the IIFA resolution on modified foods (linked in lesson f-1)'
+- code: F2.4
+  text: investigate, through laboratory inquiry or computer simulation, a recently developed biotechnological method used in the field of agriculture […] [PR]
+  why: A recent biotechnological method in agriculture; the museum holds no record on one beyond the cloning ruling used in lesson f-1, which is a ruling and not an inquiry into a method.
+  searches:
+  - 'find_entity.py "agriculture" "الفلاحة" "Kitab al-Filaha" "grafting" "التطعيم": concept/agriculture-in-islam (land use) and work/filaha-nabatiyya; no record on a breeding or grafting method'
+  - 'find_entity.py "bread dough" "العجين" "yeast" "brewing" "nabidh" "النبيذ": Muwatta passages on nabidh and an object record; nothing on yeast or a food-industry process'
+- code: F3.1
+  text: explain various methods used, over time, in the field of biotechnology […]
+  why: Methods used over time in biotechnology such as selective breeding; the museum holds no record on a breeding method.
+  searches:
+  - 'find_entity.py "animal breeding" "تهجين" "crossbreeding" "selective breeding" "تربية الحيوان": no real record'
+  - 'find_entity.py "livestock" "الماشية" "camel breeding" "horse" "الخيل": concept/livestock and concept/horse have no prose; concept/khayl has no passage on breeding methods'
+  - 'find_entity.py "Ibn al-Awwam" "ابن العوام": only al-Zubayr ibn al-Awwam and unrelated names; the agricultural author has no record'
+- code: F3.2
+  text: explain the structure and functions of macromolecules […] and the synthesis of proteins […]
+  why: The structure and function of DNA and RNA and protein synthesis; the museum holds no record on them.
+  searches:
+  - 'find_entity.py "DNA" "genetics" "الوراثة" "heredity": no real record (two news-source records only)'
+  - 'find_entity.py "protein" "البروتين" "carbohydrate" "vitamin" "enzyme" "الإنزيم": one fatwa on poultry fed animal protein; no record on nutrients or enzymes'
+- code: F3.3
+  text: describe applications of biotechnology in the health […], agricultural […], and environmental sectors […]
+  why: Applications of biotechnology such as genomics and gene therapy; the museum holds no record on them beyond the two food rulings used in lesson f-1.
+  searches:
+  - 'find_entity.py "DNA" "genetics" "الوراثة" "heredity": no real record (two news-source records only)'
+  - 'find_entity.py "in vitro fertilization" "أطفال الأنابيب" "test-tube baby" "التلقيح الصناعي": no real record'

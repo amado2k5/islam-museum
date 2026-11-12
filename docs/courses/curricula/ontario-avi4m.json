@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-avi4m",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "The Arts",
+  "url_slug": "secondary-arts",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-arts"
+ },
+ "course_code": "AVI4M",
+ "ministry_course_name": "AVI4M",
+ "course": "Visual Arts",
+ "grade": [
+  "12"
+ ],
+ "retrieved_utc": "2026-11-12T06:27:33Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=c60bc8b4-15fc-4bce-8cb8-1c3d0ab09bf9&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2025-08-01T17:06:38.4087266Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "356864d9c949579245022058ec831268a1a56c68485b30a1ff0c6d605e53e947",
+  "official.json": "80c580ff61e855021796137d4992ac0a184916e69b25045840178b63bcaf30a6"
+ },
+ "counts": {
+  "strands": 3,
+  "overall_expectations": 9,
+  "specific_expectations": 27
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

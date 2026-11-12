@@ -1,0 +1,443 @@
+course: course/ca-on-g12-hzt4u
+gaps:
+- code: A1.1
+  text: explore a variety of topics related to philoso­phy […] to identify topics for research and inquiry
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: &id001
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: identify key concepts […] related to their selected topics
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A1.3
+  text: formulate effective questions to guide their research and inquiry
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A2.1
+  text: create appropriate research plans to investi­gate their selected topics […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A2.2
+  text: locate and select information relevant to their investigations from a variety of primary sources […] and secondary sources […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A2.3
+  text: based on preliminary research, formulate arguments and anticipate counter-arguments
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A3.1
+  text: assess various aspects of information gath­ered from primary and secondary sources […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A3.2
+  text: record and organize information and key ideas using a variety of formats […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A3.3
+  text: analyse and interpret research information […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A3.4
+  text: demonstrate academic honesty by documenting the sources of all information generated through research
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A3.5
+  text: synthesize findings and formulate conclu­sions […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A4.1
+  text: use an appropriate format […] to communi­cate the results of research and inquiry effec­tively for a specific purpose and audience
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A4.2
+  text: correctly use terms relating to their chosen topics
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A4.3
+  text: clearly communicate the results of their inquiries […], and follow appropriate conventions for acknowledging sources […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: A4.4
+  text: demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: B1.1
+  text: explain the main areas of philosophy […], and identify some of the big questions that arise in each area […]
+  why: Asks the student to explain the areas of philosophy and to tell philosophy from law, psychology and other fields; the museum holds no record that sets out the areas of philosophy or compares it with other disciplines.
+  searches:
+  - 'find_entity.py "philosophy" "الفلسفة" "falsafa": concept/falsafa exists, but its own text says it needs a further source to define philosophy and its history; it names no areas of philosophy'
+  - 'find_entity.py "Socrates" "سقراط": person/suqrat is a short note from Ibn al-Nadim; no record compares philosophy with law, psychology or religious studies'
+- code: B1.3
+  text: distinguish between philosophy and other areas in the social sciences and humanities […]
+  why: Asks the student to explain the areas of philosophy and to tell philosophy from law, psychology and other fields; the museum holds no record that sets out the areas of philosophy or compares it with other disciplines.
+  searches:
+  - 'find_entity.py "philosophy" "الفلسفة" "falsafa": concept/falsafa exists, but its own text says it needs a further source to define philosophy and its history; it names no areas of philosophy'
+  - 'find_entity.py "Socrates" "سقراط": person/suqrat is a short note from Ibn al-Nadim; no record compares philosophy with law, psychology or religious studies'
+- code: B2.1
+  text: demonstrate an understanding of the form and components of a philosophical argument […], including how a philosophical argument differs from other communications, and identify these components when formulating and evaluating arguments
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: B2.2
+  text: describe critical thinking skills […] and habits of mind […] that support philo­sophical reasoning, and demonstrate the ability to use them in various contexts
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: B2.3
+  text: correctly use terminology related to logic […] when formulating and analysing arguments
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: B2.4
+  text: explain common fallacies of reasoning […], and identify them when formulating and analysing arguments
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: B2.5
+  text: explain how philosophical reasoning and critical thinking skills can be applied in everyday life […], and demonstrate the ability to apply these skills in various contexts
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: C1.2
+  text: "summarize the positions of various major philosophers […] and schools of philoso­phy […] on some of the main questions in metaphysics"
+  why: "The expectation asks for the positions of philosophers and for metaphysical theories explained from classic texts. The only records that touch Aristotle's Metaphysics are two anecdotes from a television programme, which are evidence of what a presenter said and not of a philosopher's position."
+  searches:
+  - "entity_brief.py person/al-farabi --full: the virtuous-city and Metaphysics material is Tareq al-Suwaidan's television programme Al-Mubdi'un, the only source for it in the record; it sets out no position in metaphysics"
+  - "entity_brief.py person/ibn-sina --full: the forty-readings anecdote of the Metaphysics is the same presenter's account, and the record gives no position or theory of Ibn Sina's"
+- code: C2.1
+  text: "explain different metaphysical theories with reference to some classic and contemporary texts […]"
+  why: "The expectation asks for the positions of philosophers and for metaphysical theories explained from classic texts. The only records that touch Aristotle's Metaphysics are two anecdotes from a television programme, which are evidence of what a presenter said and not of a philosopher's position."
+  searches:
+  - "entity_brief.py person/al-farabi --full: the virtuous-city and Metaphysics material is Tareq al-Suwaidan's television programme Al-Mubdi'un, the only source for it in the record; it sets out no position in metaphysics"
+  - "entity_brief.py person/ibn-sina --full: the forty-readings anecdote of the Metaphysics is the same presenter's account, and the record gives no position or theory of Ibn Sina's"
+- code: C2.2
+  text: compare how different philosophers and/or schools of philosophy approach the same metaphysical questions/issues
+  why: Asks the student to compare how different philosophers approach the same metaphysical question; the records name the disagreement between Ibn Rushd and al-Ghazali but state none of the questions or positions.
+  searches:
+  - 'find_entity.py "Tahafut al-Tahafut" "تهافت التهافت": work/tahafut-al-tahafut says only that it answers al-Ghazali and counts it among Ibn Rushd''s books; it names no metaphysical question'
+  - 'entity_brief.py person/ibn-sina: records that al-Ghazali held three of his teachings to lead to unbelief, without naming them, so no comparison can be written from it'
+- code: C2.3
+  text: evaluate the strengths and weaknesses of philosophical responses to some of the main questions in metaphysics
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: C3.1
+  text: demonstrate an understanding of the influence that ideas related to metaphysics have on their everyday life
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: C3.2
+  text: explain ways in which metaphysics draws from and influences other areas of philosophy
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: C3.4
+  text: demonstrate an understanding of the influ­ence of metaphysical ideas on other subject areas […]
+  why: Asks how metaphysical ideas influence other subjects (law, physics, environmental studies); no record links an Islamic metaphysical idea to another subject.
+  searches:
+  - 'find_entity.py "metaphysics" "ما بعد الطبيعة" "الإلهيات": no real record'
+  - 'find_entity.py "cosmology" "علم الكون" "creation of the universe": concept/al-haya-al-sunniyya is a tradition-based cosmology of al-Suyuti, not linked to a question of metaphysics or to physics in any record'
+- code: C4.1
+  text: formulate and explain, using philosophical reasoning skills, their own clear and cogent responses to some of the main questions in metaphysics
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: C4.2
+  text: evaluate and defend, in philosophical exchanges with others, their own responses to some of the main questions in metaphysics, and anticipate and respond logically to counter-arguments
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: C4.3
+  text: correctly use terminology related to metaphysics […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: D1.1
+  text: "demonstrate an understanding […] of some of the main questions in ethics […]"
+  why: "The expectation asks for questions in ethics, philosophers' positions and ethical theories explained from classic texts. The museum's records of Miskawayh and of Akhlaq-i Nasiri are a biography with a list of titles and a book record that holds no detail of its contents, so neither sets out a question, a position or a theory."
+  searches:
+  - "entity_brief.py person/ibn-miskawayh --full: a biography and a list of his titles and works; it states no question in ethics and no position"
+  - "entity_brief.py work/akhlaq-i-nasiri --full: the record says it holds no further detail of the book's contents, so no theory can be restated"
+  - "find_entity.py \"ethics\" \"أخلاق\" \"akhlaq\": no record that sets out an ethical theory or a philosopher's position on a question in ethics"
+- code: D1.2
+  text: "summarize the positions of various major philosophers […] and schools of philosophy […] on some of the main questions in ethics"
+  why: "The expectation asks for questions in ethics, philosophers' positions and ethical theories explained from classic texts. The museum's records of Miskawayh and of Akhlaq-i Nasiri are a biography with a list of titles and a book record that holds no detail of its contents, so neither sets out a question, a position or a theory."
+  searches:
+  - "entity_brief.py person/ibn-miskawayh --full: a biography and a list of his titles and works; it states no question in ethics and no position"
+  - "entity_brief.py work/akhlaq-i-nasiri --full: the record says it holds no further detail of the book's contents, so no theory can be restated"
+  - "find_entity.py \"ethics\" \"أخلاق\" \"akhlaq\": no record that sets out an ethical theory or a philosopher's position on a question in ethics"
+- code: D2.1
+  text: "explain, with reference to some classic and contemporary texts, different theories in ethics […] and the ethical implica­tions underlying various religious texts […]"
+  why: "The expectation asks for questions in ethics, philosophers' positions and ethical theories explained from classic texts. The museum's records of Miskawayh and of Akhlaq-i Nasiri are a biography with a list of titles and a book record that holds no detail of its contents, so neither sets out a question, a position or a theory."
+  searches:
+  - "entity_brief.py person/ibn-miskawayh --full: a biography and a list of his titles and works; it states no question in ethics and no position"
+  - "entity_brief.py work/akhlaq-i-nasiri --full: the record says it holds no further detail of the book's contents, so no theory can be restated"
+  - "find_entity.py \"ethics\" \"أخلاق\" \"akhlaq\": no record that sets out an ethical theory or a philosopher's position on a question in ethics"
+- code: D2.2
+  text: compare how different philosophers and/or schools of philosophy approach the same questions/issues in ethics
+  why: Asks the student to compare how different philosophers approach the same ethical question; the museum's records of Miskawayh and of Akhlaq-i Nasiri name works but state no position to compare.
+  searches:
+  - 'find_entity.py "Miskawayh" "مسكويه" "Tahdhib al-Akhlaq": person/ibn-miskawayh lists his works but states no ethical position'
+  - 'find_entity.py "akhlaq" "أخلاق" "Islamic ethics": work/akhlaq-i-nasiri holds no detail of its contents, concept/akhlaq-al-harb is the ethics of war; no record sets two ethical positions side by side'
+- code: D2.3
+  text: evaluate the strengths and weaknesses of philosophical responses to some of the main questions in ethics
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: D3.1
+  text: demonstrate an understanding of the influence that ideas related to ethics have on their everyday life
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: D3.2
+  text: explain ways in which ethics draws from and influences other areas of philosophy
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: D3.3
+  text: describe forces that have helped shape the evolution of ethics over time […], and analyse their impact
+  why: Asks about forces that shaped ethics over time (for example the separation of theology and ethics) or about ethics in medicine, law and sociology; the museum holds no record on these.
+  searches:
+  - 'find_entity.py "medical ethics" "أخلاقيات الطب" "adab al-tabib": no real record'
+  - 'find_entity.py "akhlaq" "أخلاق" "Islamic ethics": only ethics of war and Akhlaq al-Muluk and similar works; none on the separation of theology and ethics, or on ethics in other subjects'
+- code: D3.4
+  text: demonstrate an understanding of the influ­ence that ideas in ethics have on other subject areas […]
+  why: Asks about forces that shaped ethics over time (for example the separation of theology and ethics) or about ethics in medicine, law and sociology; the museum holds no record on these.
+  searches:
+  - 'find_entity.py "medical ethics" "أخلاقيات الطب" "adab al-tabib": no real record'
+  - 'find_entity.py "akhlaq" "أخلاق" "Islamic ethics": only ethics of war and Akhlaq al-Muluk and similar works; none on the separation of theology and ethics, or on ethics in other subjects'
+- code: D4.1
+  text: formulate and explain, using philosophical reasoning skills, their own clear and cogent responses to some of the main questions in ethics
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: D4.2
+  text: evaluate and defend, in philosophical exchanges with others, their own responses to some of the main questions in ethics, and anticipate and respond logically to counter-arguments
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: D4.3
+  text: correctly use terminology related to ethics […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: E1.2
+  text: summarize the positions of various major Western philosophers […] and schools of philosophy […] on some of the main questions in epistemology
+  why: Asks for the positions and texts of Western epistemology (E1.2 names Western philosophers; E2.1 names Descartes, Locke, Kant, Hume), or for forces such as modern science and colonialism; the museum holds none of these records.
+  searches:
+  - 'find_entity.py "Kant" "كانط" "Descartes" "ديكارت": only person/rene-descartes, with Arabic prose and no epistemology'
+  - 'find_entity.py "Hume" "Locke" "لوك": no real record'
+  - 'find_entity.py "epistemology" "نظرية المعرفة" "theory of knowledge": no real record'
+- code: E2.1
+  text: explain different epistemological theories with reference to some classic and contempo­rary texts […]
+  why: Asks for the positions and texts of Western epistemology (E1.2 names Western philosophers; E2.1 names Descartes, Locke, Kant, Hume), or for forces such as modern science and colonialism; the museum holds none of these records.
+  searches:
+  - 'find_entity.py "Kant" "كانط" "Descartes" "ديكارت": only person/rene-descartes, with Arabic prose and no epistemology'
+  - 'find_entity.py "Hume" "Locke" "لوك": no real record'
+  - 'find_entity.py "epistemology" "نظرية المعرفة" "theory of knowledge": no real record'
+- code: E2.2
+  text: compare how different philosophers and/or schools of philosophy approach the same epistemological questions/issues
+  why: Asks for the positions and texts of Western epistemology (E1.2 names Western philosophers; E2.1 names Descartes, Locke, Kant, Hume), or for forces such as modern science and colonialism; the museum holds none of these records.
+  searches:
+  - 'find_entity.py "Kant" "كانط" "Descartes" "ديكارت": only person/rene-descartes, with Arabic prose and no epistemology'
+  - 'find_entity.py "Hume" "Locke" "لوك": no real record'
+  - 'find_entity.py "epistemology" "نظرية المعرفة" "theory of knowledge": no real record'
+- code: E2.3
+  text: evaluate the strengths and weaknesses of philosophical responses to some of the main questions in epistemology
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: E3.1
+  text: demonstrate an understanding of the influence that ideas related to epistemology have on their everyday life
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: E3.2
+  text: explain ways in which epistemology draws from and influences other areas of philosophy
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: E3.3
+  text: describe forces that have helped shape the evolution of epistemological thought over time […], and analyse their impact
+  why: Asks for the positions and texts of Western epistemology (E1.2 names Western philosophers; E2.1 names Descartes, Locke, Kant, Hume), or for forces such as modern science and colonialism; the museum holds none of these records.
+  searches:
+  - 'find_entity.py "Kant" "كانط" "Descartes" "ديكارت": only person/rene-descartes, with Arabic prose and no epistemology'
+  - 'find_entity.py "Hume" "Locke" "لوك": no real record'
+  - 'find_entity.py "epistemology" "نظرية المعرفة" "theory of knowledge": no real record'
+- code: E3.4
+  text: demonstrate an understanding of the influ­ence of epistemological ideas on other subject areas […]
+  why: Asks for the positions and texts of Western epistemology (E1.2 names Western philosophers; E2.1 names Descartes, Locke, Kant, Hume), or for forces such as modern science and colonialism; the museum holds none of these records.
+  searches:
+  - 'find_entity.py "Kant" "كانط" "Descartes" "ديكارت": only person/rene-descartes, with Arabic prose and no epistemology'
+  - 'find_entity.py "Hume" "Locke" "لوك": no real record'
+  - 'find_entity.py "epistemology" "نظرية المعرفة" "theory of knowledge": no real record'
+- code: E4.1
+  text: formulate and explain, using philosophical reasoning skills, their own clear and cogent responses to some of the main questions in epistemology
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: E4.2
+  text: valuate and defend, in philosophical exchanges with others, their own responses to some of the main questions in epistemology, and anticipate and respond logically to counter-arguments
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: E4.3
+  text: correctly use terminology related to episte­mology […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: F1.1
+  text: demonstrate an understanding […] of some of the main questions in the philoso­phy of science […]
+  why: Concerns the philosophy of science (what science is, Popper, Kuhn, the influence of religion and technology on it); the museum holds no record of the philosophy of science. Its record of Ibn Rushd tells of his trial but ties it to no question here.
+  searches:
+  - 'find_entity.py "scientific method" "المنهج العلمي" "philosophy of science": only concept/islam-and-science-renan-thesis, which is about a thesis on Islam and science, and an Oxford encyclopedia work record with no prose'
+  - 'find_entity.py "Popper" "Bacon" "Galileo" "غاليليو": only person/francis-bacon, with Arabic prose and no philosophy of science'
+  - 'find_entity.py "scientific revolution" "الثورة العلمية" "modern science": no real record'
+- code: F1.2
+  text: summarize the positions of various major philosophers […] and schools of philosophy […] on some of the main questions in the philosophy of science
+  why: Concerns the philosophy of science (what science is, Popper, Kuhn, the influence of religion and technology on it); the museum holds no record of the philosophy of science. Its record of Ibn Rushd tells of his trial but ties it to no question here.
+  searches:
+  - 'find_entity.py "scientific method" "المنهج العلمي" "philosophy of science": only concept/islam-and-science-renan-thesis, which is about a thesis on Islam and science, and an Oxford encyclopedia work record with no prose'
+  - 'find_entity.py "Popper" "Bacon" "Galileo" "غاليليو": only person/francis-bacon, with Arabic prose and no philosophy of science'
+  - 'find_entity.py "scientific revolution" "الثورة العلمية" "modern science": no real record'
+- code: F2.1
+  text: explain different theories in the philosophy of science with reference to some classic and contemporary texts […]
+  why: Concerns the philosophy of science (what science is, Popper, Kuhn, the influence of religion and technology on it); the museum holds no record of the philosophy of science. Its record of Ibn Rushd tells of his trial but ties it to no question here.
+  searches:
+  - 'find_entity.py "scientific method" "المنهج العلمي" "philosophy of science": only concept/islam-and-science-renan-thesis, which is about a thesis on Islam and science, and an Oxford encyclopedia work record with no prose'
+  - 'find_entity.py "Popper" "Bacon" "Galileo" "غاليليو": only person/francis-bacon, with Arabic prose and no philosophy of science'
+  - 'find_entity.py "scientific revolution" "الثورة العلمية" "modern science": no real record'
+- code: F2.2
+  text: compare how different philosophers and/or schools of philosophy approach the same questions/issues in the philosophy of science
+  why: Concerns the philosophy of science (what science is, Popper, Kuhn, the influence of religion and technology on it); the museum holds no record of the philosophy of science. Its record of Ibn Rushd tells of his trial but ties it to no question here.
+  searches:
+  - 'find_entity.py "scientific method" "المنهج العلمي" "philosophy of science": only concept/islam-and-science-renan-thesis, which is about a thesis on Islam and science, and an Oxford encyclopedia work record with no prose'
+  - 'find_entity.py "Popper" "Bacon" "Galileo" "غاليليو": only person/francis-bacon, with Arabic prose and no philosophy of science'
+  - 'find_entity.py "scientific revolution" "الثورة العلمية" "modern science": no real record'
+- code: F2.3
+  text: evaluate the strengths and weaknesses of philosophical responses to some of the main questions in the philosophy of science
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: F3.1
+  text: demonstrate an understanding of the influence that ideas related to the philosophy of science have on their everyday life
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: F3.2
+  text: explain ways in which the philosophy of science draws from and influences other areas of philosophy
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: F3.3
+  text: describe forces that have helped shape the evolution of the philosophy of science over time […], and analyse their impact […]
+  why: Concerns the philosophy of science (what science is, Popper, Kuhn, the influence of religion and technology on it); the museum holds no record of the philosophy of science. Its record of Ibn Rushd tells of his trial but ties it to no question here.
+  searches:
+  - 'find_entity.py "scientific method" "المنهج العلمي" "philosophy of science": only concept/islam-and-science-renan-thesis, which is about a thesis on Islam and science, and an Oxford encyclopedia work record with no prose'
+  - 'find_entity.py "Popper" "Bacon" "Galileo" "غاليليو": only person/francis-bacon, with Arabic prose and no philosophy of science'
+  - 'find_entity.py "scientific revolution" "الثورة العلمية" "modern science": no real record'
+- code: F3.4
+  text: demonstrate an understanding of the influ­ence that ideas in the philosophy of science have on other subject areas […]
+  why: Concerns the philosophy of science (what science is, Popper, Kuhn, the influence of religion and technology on it); the museum holds no record of the philosophy of science. Its record of Ibn Rushd tells of his trial but ties it to no question here.
+  searches:
+  - 'find_entity.py "scientific method" "المنهج العلمي" "philosophy of science": only concept/islam-and-science-renan-thesis, which is about a thesis on Islam and science, and an Oxford encyclopedia work record with no prose'
+  - 'find_entity.py "Popper" "Bacon" "Galileo" "غاليليو": only person/francis-bacon, with Arabic prose and no philosophy of science'
+  - 'find_entity.py "scientific revolution" "الثورة العلمية" "modern science": no real record'
+- code: F4.1
+  text: formulate and explain, using philosophical reasoning skills, their own clear and cogent responses to some of the main questions in the philosophy of science
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: F4.2
+  text: evaluate and defend, in philosophical exchanges with others, their own responses to some of the main questions in the philosophy of science, and anticipate and respond logically to counter-arguments
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: F4.3
+  text: correctly use terminology related to the phi­losophy of science […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: G1.1
+  text: demonstrate an understanding […] of some of the main questions in social and political philosophy […]
+  why: Asks about the questions and texts of social and political philosophy (state authority, the social contract, Hobbes, Locke, Rousseau) or the forces that shaped it; the museum holds none of these records, and its records of al-Farabi and Ibn Khaldun are used in the lesson on G1.2 and G3.4 only.
+  searches:
+  - 'find_entity.py "Hobbes" "Rousseau" "social contract" "العقد الاجتماعي": no real record'
+  - 'find_entity.py "just ruler" "الإمام العادل" "siyasa" "السياسة الشرعية": concept/siyasa-shariyya has Arabic prose only and concept/dawla-fiqh is the state in fiqh; neither sets out a question of social or political philosophy'
+  - 'find_entity.py "colonialism" "الاستعمار" "imperialism": no real record'
+- code: G2.1
+  text: explain different theories in social and polit­ical philosophy with reference to some classic and contemporary texts […]
+  why: Asks about the questions and texts of social and political philosophy (state authority, the social contract, Hobbes, Locke, Rousseau) or the forces that shaped it; the museum holds none of these records, and its records of al-Farabi and Ibn Khaldun are used in the lesson on G1.2 and G3.4 only.
+  searches:
+  - 'find_entity.py "Hobbes" "Rousseau" "social contract" "العقد الاجتماعي": no real record'
+  - 'find_entity.py "just ruler" "الإمام العادل" "siyasa" "السياسة الشرعية": concept/siyasa-shariyya has Arabic prose only and concept/dawla-fiqh is the state in fiqh; neither sets out a question of social or political philosophy'
+  - 'find_entity.py "colonialism" "الاستعمار" "imperialism": no real record'
+- code: G2.2
+  text: compare how different philosophers and/or schools of philosophy approach the same questions/issues in social and political philoso­phy […]
+  why: Asks about the questions and texts of social and political philosophy (state authority, the social contract, Hobbes, Locke, Rousseau) or the forces that shaped it; the museum holds none of these records, and its records of al-Farabi and Ibn Khaldun are used in the lesson on G1.2 and G3.4 only.
+  searches:
+  - 'find_entity.py "Hobbes" "Rousseau" "social contract" "العقد الاجتماعي": no real record'
+  - 'find_entity.py "just ruler" "الإمام العادل" "siyasa" "السياسة الشرعية": concept/siyasa-shariyya has Arabic prose only and concept/dawla-fiqh is the state in fiqh; neither sets out a question of social or political philosophy'
+  - 'find_entity.py "colonialism" "الاستعمار" "imperialism": no real record'
+- code: G2.3
+  text: evaluate the strengths and weaknesses of philosophical responses to some of the main questions in social and political philosophy
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: G3.1
+  text: demonstrate an understanding of the influ­ence that ideas related to social and political philosophy have on their everyday life
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: G3.2
+  text: explain ways in which social and political philosophy draws from and influences other areas of philosophy
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: G3.3
+  text: describe forces that have helped shape the evolution of social and political philosophy over time, and analyse their impact […]
+  why: Asks about the questions and texts of social and political philosophy (state authority, the social contract, Hobbes, Locke, Rousseau) or the forces that shaped it; the museum holds none of these records, and its records of al-Farabi and Ibn Khaldun are used in the lesson on G1.2 and G3.4 only.
+  searches:
+  - 'find_entity.py "Hobbes" "Rousseau" "social contract" "العقد الاجتماعي": no real record'
+  - 'find_entity.py "just ruler" "الإمام العادل" "siyasa" "السياسة الشرعية": concept/siyasa-shariyya has Arabic prose only and concept/dawla-fiqh is the state in fiqh; neither sets out a question of social or political philosophy'
+  - 'find_entity.py "colonialism" "الاستعمار" "imperialism": no real record'
+- code: G4.1
+  text: formulate and explain, using philosophical reasoning skills, their own clear and cogent responses to some of the main questions in social and political philosophy
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: G4.2
+  text: evaluate and defend, in philosophical exchanges with others, their own responses to some of the main questions in social and political philosophy, and anticipate and respond logically to counter-arguments
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: G4.3
+  text: correctly use terminology related to social and political philosophy […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: H1.1
+  text: demonstrate an understanding […] of some of the main questions in aesthetics […]
+  why: Concerns aesthetics (what art and beauty are, theories of art, the influence of religion and power on art); the museum holds no record of a theory of aesthetics.
+  searches:
+  - 'find_entity.py "aesthetics" "جماليات" "beauty": only work/hamasa-amr-ibn-madikarib-laysa-al-jamal-bi-mizar, a poem record with no prose'
+  - 'find_entity.py "philosophy of art" "فلسفة الفن" "art theory": no real record'
+  - 'find_entity.py "calligraphy" "الخط العربي" "aesthetic": concept/islamic-calligraphy calls the art noblest through its bond with writing the Qur''an; it states no aesthetic theory and asks no question about beauty'
+- code: H1.2
+  text: summarize the positions of various major philosophers […] and schools of philosophy […] on some of the main questions in aesthetics
+  why: Concerns aesthetics (what art and beauty are, theories of art, the influence of religion and power on art); the museum holds no record of a theory of aesthetics.
+  searches:
+  - 'find_entity.py "aesthetics" "جماليات" "beauty": only work/hamasa-amr-ibn-madikarib-laysa-al-jamal-bi-mizar, a poem record with no prose'
+  - 'find_entity.py "philosophy of art" "فلسفة الفن" "art theory": no real record'
+  - 'find_entity.py "calligraphy" "الخط العربي" "aesthetic": concept/islamic-calligraphy calls the art noblest through its bond with writing the Qur''an; it states no aesthetic theory and asks no question about beauty'
+- code: H2.1
+  text: explain different theories in aesthetics with reference to some classic and contemporary texts and artistic works […]
+  why: Concerns aesthetics (what art and beauty are, theories of art, the influence of religion and power on art); the museum holds no record of a theory of aesthetics.
+  searches:
+  - 'find_entity.py "aesthetics" "جماليات" "beauty": only work/hamasa-amr-ibn-madikarib-laysa-al-jamal-bi-mizar, a poem record with no prose'
+  - 'find_entity.py "philosophy of art" "فلسفة الفن" "art theory": no real record'
+  - 'find_entity.py "calligraphy" "الخط العربي" "aesthetic": concept/islamic-calligraphy calls the art noblest through its bond with writing the Qur''an; it states no aesthetic theory and asks no question about beauty'
+- code: H2.2
+  text: evaluate the strengths and weaknesses of philosophical responses to some of the main questions in aesthetics
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: H3.1
+  text: demonstrate an understanding of the influ­ence that ideas related to aesthetics have on their everyday life
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: H3.2
+  text: explain ways in which aesthetics draws from and influences other areas of philosophy
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: H3.3
+  text: describe forces that have helped shape the evolution of aesthetics over time, and analyse their impact […]
+  why: Concerns aesthetics (what art and beauty are, theories of art, the influence of religion and power on art); the museum holds no record of a theory of aesthetics.
+  searches:
+  - 'find_entity.py "aesthetics" "جماليات" "beauty": only work/hamasa-amr-ibn-madikarib-laysa-al-jamal-bi-mizar, a poem record with no prose'
+  - 'find_entity.py "philosophy of art" "فلسفة الفن" "art theory": no real record'
+  - 'find_entity.py "calligraphy" "الخط العربي" "aesthetic": concept/islamic-calligraphy calls the art noblest through its bond with writing the Qur''an; it states no aesthetic theory and asks no question about beauty'
+- code: H3.4
+  text: demonstrate an understanding of the influ­ence that ideas in aesthetics have on other sub­ject areas […]
+  why: Concerns aesthetics (what art and beauty are, theories of art, the influence of religion and power on art); the museum holds no record of a theory of aesthetics.
+  searches:
+  - 'find_entity.py "aesthetics" "جماليات" "beauty": only work/hamasa-amr-ibn-madikarib-laysa-al-jamal-bi-mizar, a poem record with no prose'
+  - 'find_entity.py "philosophy of art" "فلسفة الفن" "art theory": no real record'
+  - 'find_entity.py "calligraphy" "الخط العربي" "aesthetic": concept/islamic-calligraphy calls the art noblest through its bond with writing the Qur''an; it states no aesthetic theory and asks no question about beauty'
+- code: H4.1
+  text: formulate and explain, using philosophical reasoning skills, their own clear and cogent responses to some of the main questions in aesthetics
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: H4.2
+  text: evaluate and defend, in philosophical exchanges with others, their own responses to some of the main questions in aesthetics, and anticipate and respond logically to counter-arguments
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001
+- code: H4.3
+  text: correctly use terminology related to aesthetics […]
+  why: 'Skills, reflection or evaluation expectation: it names no subject matter, so there is nothing for a record to carry.'
+  searches: *id001

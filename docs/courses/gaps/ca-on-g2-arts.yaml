@@ -1,0 +1,206 @@
+course: course/ca-on-g2-arts
+gaps:
+- code: A1.1
+  text: develop short movement phrases inspired by a variety of activities in their community […] and incorporating different pathways […], directions […], and shapes […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: use dance as a language to represent the main ideas in poems and stories, with a focus on body and space […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: create distinct beginnings and endings for dance phrases in a variety of ways […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: use a variety of locomotor and non-locomotor movements to depict creatures and objects in the world around them […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: describe the similarities between their own dance phrases and those of others […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: identify, using dance vocabulary, the elements of dance in their own dance phrases and those of others, and describe how each element is used to communicate meaning […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.3
+  text: identify and give examples of their strengths and areas for growth as dance creators and audience members […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.1
+  text: describe, with teacher guidance, a variety of dances from communities around the world that they have seen in the media, at live performances and social gatherings, or in the classroom […]
+  why: Asks the student to describe dances from communities around the world seen in media, live or in class (folk, ceremonial, worship, theatrical, social dances); the museum holds no record of a dance form.
+  searches:
+  - 'find_entity.py "dance" "الرقص" "dabke" "folk dance" "wedding": concept/raqs-fiqh is a legal ruling on dancing, not a dance form; the wedding records (irs, walima) are feasts and rites, not dances; screen/raqis-al-sahra-2014 is a film'
+  - 'docs/courses/gaps/ca-on-g4-arts.yaml (same topic, 2026-11-12): sama and mawlawiyya checked: practice/sama-mawlawiyya rests on one Wikidata line and group/mawlawiyya never calls the whirling a dance'
+- code: A3.2
+  text: identify various reasons why people dance in daily life and various contexts in which they do so […]
+  why: Asks the student to identify why people dance in daily life (to socialize, to celebrate, to tell stories, to relate history); the museum holds no record of a dance and the reasons for it.
+  searches:
+  - 'find_entity.py "dance" "الرقص" "dabke" "folk dance" "wedding": no record of a dance form or of why people dance; concept/raqs-fiqh is a ruling on dancing'
+  - 'same search, wedding records: work/fatwa-islamweb-celebrating-a-wedding-with-the-daff-without-extravagance is a fatwa on the daff at a wedding, not a record of dance or of dancing as a custom'
+- code: B1.1
+  text: engage in dramatic play and role play, with a focus on exploring main ideas and central characters in stories from diverse communities, times, and places […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.2
+  text: demonstrate an understanding of the element of role by communicating thoughts, feelings, and perspectives appropriate to the role being played […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.3
+  text: plan and shape the direction of a dramatic play or role play, building on their own and others’ ideas both in and out of role, with support […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B1.4
+  text: communicate feelings and ideas to a familiar audience […], using several simple visual or technological aids to support and enhance their drama work […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.1
+  text: express thoughts, feelings, and ideas about drama experiences and performances in a variety of ways […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.2
+  text: identify, using drama terminology, the elements and conventions of drama used in shared drama experiences and theatre and describe how they help communicate ideas and feelings and create interest […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B2.3
+  text: identify and give examples of their strengths, interests, and areas for improvement as drama participants and audience members […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: B3.1
+  text: identify and describe a variety of drama and theatre forms they experience in their home, school, and community, and in the media […]
+  why: Asks the student to describe drama and theatre forms they meet at home, school, in the community and in the media (television, film, puppets, plays); the museum holds no record on theatre or on children's own viewing.
+  searches:
+  - 'find_entity.py "drama" "المسرح" "puppet" "shadow play" "television": place/drama is a town in Greece; the television records (work/ahaleena and others) are Islamic programmes, not a drama form; no record on puppets or shadow play'
+  - 'grep -rli "shadow play\|puppet" content/en/concept content/en/practice: one incidental mention, in concept/silhouette-ware, which is pottery'
+- code: B3.2
+  text: demonstrate an awareness of some drama and theatre traditions of communities around the world […]
+  why: Asks for drama and theatre traditions; the records tried, concept/ashik and work/alpamish, are wandering minstrelsy and a verse epic, not drama, and the epic tells of captivity and a killing, which is not suited to age 7.
+  searches:
+  - 'concept/ashik: wandering minstrels who sang and recited; the lesson Brief itself said "not staged theatre"; missing nouns drama, theatre, play'
+  - 'work/alpamish: a verse epic with no performance in drama form; a story of captivity and a killing'
+- code: C1.1
+  text: sing unison songs in tune and/or play simple melodies and accompaniments for music from a wide variety of cultures, styles, and historical periods […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C1.2
+  text: apply the elements of music when singing, playing an instrument, and moving […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C1.3
+  text: create simple compositions for a specific purpose and a familiar audience […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C1.4
+  text: use the tools and techniques of musicianship in musical performances […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C1.5
+  text: use symbols to represent sounds and sounds to represent musical symbols […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.1
+  text: express personal responses to musical performances in a variety of ways […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.2
+  text: describe ways in which the elements of music are used for different purposes in the music they perform, listen to, and create […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: C2.3
+  text: identify and give examples of their strengths and areas for growth as musical performers, creators, interpreters, and audience members […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.1
+  text: create two- and three-dimensional works of art that express feelings and ideas inspired by activities in their community or observations of nature […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.2
+  text: demonstrate an understanding of composition, using principles of design to create narrative art works or art works on a theme or topic […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.3
+  text: use elements of design in art works to communicate ideas, messages, and understandings […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D1.4
+  text: use a variety of materials, tools, and techniques to respond to design challenges […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D2.1
+  text: express their feelings and ideas about works of art […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D2.3
+  text: demonstrate an awareness of signs and symbols encountered in their daily lives and in works of art […]
+  why: Asks the student to show awareness of signs and symbols met in daily life and in art (school and travel symbols, logos, heritage crafts); the museum holds no record on signs, symbols or logos as such.
+  searches:
+  - 'find_entity.py "symbol" "رمز" "logo" "emblem" "crescent": the hits are rulings on sighting the crescent for the lunar month (concept/hilal-fiqh, concept/ruyat-hilal-fiqh), red crescent aid societies and a crescent pendant; none treats a sign or symbol in daily life'
+  - 'find_entity.py "mural" "public sculpture" "picture book" "everyday objects" "architecture": architecture works, none about signs or logos'
+- code: D2.4
+  text: identify and document their strengths, their interests, and areas for improvement as creators of art […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: D3.1
+  text: identify and describe a variety of visual art forms they see in their home, at school, in their community, and in visual arts experiences […]
+  why: Asks the student to describe visual art forms seen in the home, school and community (everyday items, picture books, murals, public sculpture, community festivals); the museum holds no record of these community art forms.
+  searches:
+  - 'find_entity.py "mural" "public sculpture" "picture book" "everyday objects" "architecture": only architecture works on Cairo, Mughal, Ottoman and Bengal buildings; no record of murals, public sculpture or picture books'
+  - 'find_entity.py "pottery" "ceramics" "الخزف" "textile" "carpet": many pottery records, but they serve D3.2 in lesson d-1; none is an art form of the student''s own home or community'

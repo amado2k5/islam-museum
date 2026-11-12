@@ -1,0 +1,39 @@
+id: course/ca-on-g9-mth1w-e-3
+class: course
+kind: lesson
+label:
+  ar: الوحدات والتحويل بينها
+  en: Units and converting between them
+  ur: اکائیاں اور ان کے درمیان تبدیلی
+summary:
+  ar: تحويل المقياس إلى الذراع في حساب الكاشي لسطح المقرنص.
+  en: Converting the module to the cubit in al-Kashi's calculation of muqarnas surface.
+  ur: مقرنص کی سطح کے کاشی کے حساب میں ماڈیول کو ذراع میں بدلنا۔
+sources:
+- source/ontario-curriculum-secondary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g9-mth1w-e
+expectations:
+- code: E1.3
+  text:
+    en: solve problems involving different units within a measurement system and between measurement systems, including those from various cultures or communities, using various representations and technology, when appropriate
+    ar: حُلَّ مسائل تتضمن وحدات مختلفة داخل نظام قياس واحد وبين أنظمة القياس، ومنها أنظمة من ثقافات أو مجتمعات متنوعة، مستعينًا بتمثيلات متنوعة وبالتقنية عند الاقتضاء
+    ur: ایک پیمائشی نظام کے اندر اور مختلف پیمائشی نظاموں کے درمیان، جن میں مختلف ثقافتوں یا برادریوں کے نظام بھی شامل ہیں، مختلف اکائیوں پر مشتمل مسائل حل کریں، مختلف نمائندگیوں اور مناسب ہونے پر ٹیکنالوجی کے ساتھ
+connections:
+- position: after
+  kind: invention
+  title:
+    ar: من المقياس إلى الذراع
+    en: From the module to the cubit
+    ur: ماڈیول سے ذراع تک
+  text:
+    ar: يبدأ حساب الكاشي لسطح المقرنص بالمقياس، وهو وحدة طول تؤخذ من قاعدة وجه معياري وتجعل قيمتها واحداً، وتحسب الأطوال والمساحات بها أولاً ثم تعاد إلى الذراع أو غيره. إذا كان الذراع يساوي b من هذه الوحدات، تقسم المساحة العددية على b² لإعطائها بالأذرع المربعة، والقسمة على b وحده خلط بين طول ومساحة. لماذا نقسم المساحة على b² لا على b؟
+    en: Al-Kashi's calculation of muqarnas surface starts with a module, a standard length taken from a facet base and assigned the value one; lengths and areas are first expressed through it, then converted to cubits or another unit. If one cubit equals b modules, the numerical area in module-squared units is divided by b² to obtain square cubits, and dividing by b only would confuse length conversion with area conversion. Why divide the area by b² and not by b?
+    ur: مقرنص کی سطح کا کاشی کا حساب ایک ماڈیول سے شروع ہوتا ہے، یعنی ایک معیاری رخ کی بنیاد سے لی گئی لمبائی جس کی قیمت ایک رکھی جاتی ہے؛ لمبائیاں اور رقبے پہلے اسی سے ظاہر کیے جاتے ہیں، پھر ذراع یا کسی اور اکائی میں بدلے جاتے ہیں۔ اگر ایک ذراع b ماڈیول کے برابر ہو تو ماڈیول مربع میں عددی رقبے کو b² پر تقسیم کر کے مربع ذراع ملتے ہیں، اور صرف b پر تقسیم کرنا لمبائی کی تبدیلی اور رقبے کی تبدیلی کو خلط ملط کرنا ہے۔ رقبے کو b پر نہیں بلکہ b² پر کیوں تقسیم کرتے ہیں؟
+  entity: invention/kashi-muqarnas-mensuration
+  sources:
+  - source/dold-samplonius-muqarnas-1992
+order: 3

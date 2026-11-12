@@ -1,0 +1,57 @@
+id: course/ca-on-g12-hsc4m-c-1
+class: course
+kind: lesson
+label:
+  en: The art of the letter and of the building
+  ar: فن الحرف وفن البناء
+  ur: حرف اور عمارت کا فن
+summary:
+  en: How a culture’s writing and architecture relate to its beliefs, its uses and its time and place (C1.1, C2.1).
+  ar: كيف ترتبط كتابة ثقافة ما وعمارتها بعقائدها واستعمالاتها وزمانها ومكانها ⁦(C1.1 وC2.1)⁩.
+  ur: کسی ثقافت کی تحریر اور عمارت اس کے عقائد، استعمالات اور زمان و مکان سے کیسے جڑی ہیں ⁦(C1.1 اور C2.1)⁩۔
+sources:
+- source/ontario-curriculum-social-sciences-humanities
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g12-hsc4m-c
+expectations:
+- code: C1.1
+  text:
+    en: describe forms of artistic expression found within a specific culture […], and explain how they relate to aspects of that culture […]
+    ar: صِف أشكال التعبير الفني الموجودة في ثقافة بعينها […]، واشرح كيف ترتبط بجوانب تلك الثقافة […]
+    ur: کسی مخصوص ثقافت میں پائے جانے والے فنی اظہار کی صورتیں بیان کریں […]، اور وضاحت کریں کہ وہ اس ثقافت کے مختلف پہلوؤں سے کیسے جڑی ہیں […]
+- code: C2.1
+  text:
+    en: analyse specific cultural expressions […] with reference to their function and the time and place with which they are associated
+    ar: حلّل تعبيرات ثقافية محددة […] بالإشارة إلى وظيفتها والزمان والمكان اللذين ترتبط بهما
+    ur: مخصوص ثقافتی اظہارات […] کا تجزیہ ان کے کام اور اس زمانے اور مقام کے حوالے سے کریں جن سے وہ وابستہ ہیں
+connections:
+- position: within
+  kind: object
+  title:
+    en: The art of the letter
+    ar: فن الحرف
+    ur: حرف کا فن
+  text:
+    en: "Islamic calligraphy is the art of writing and shaping the Arabic letter beautifully. Its scripts include Kufic, Naskh, Thuluth and Diwani. Wikidata, the record’s only source, links the art to the writing of the Qur’an. What can a script do besides carry words?"
+    ar: "الخط الإسلامي فن كتابة الحرف العربي وتشكيله جمالياً. ومن خطوطه الكوفي والنسخ والثلث والديواني. وتربط ويكيداتا، وهي مصدر السجل الوحيد، هذا الفن بكتابة القرآن. ماذا يستطيع الخط أن يفعل غير حمل الكلمات؟"
+    ur: "اسلامی خطاطی عربی حرف کو خوبصورتی سے لکھنے اور ڈھالنے کا فن ہے۔ اس کے خطوں میں کوفی، نسخ، ثلث اور دیوانی شامل ہیں۔ ویکی ڈیٹا، جو ریکارڈ کا واحد ماخذ ہے، اس فن کو قرآن کی کتابت سے جوڑتا ہے۔ خط الفاظ اٹھانے کے سوا اور کیا کر سکتا ہے؟"
+  entity: concept/islamic-calligraphy
+  sources:
+  - source/wikidata
+- position: after
+  kind: object
+  title:
+    en: Cairo’s buildings in their setting
+    ar: عمارة القاهرة في سياقها
+    ur: قاہرہ کی عمارتیں اپنے سیاق میں
+  text:
+    en: 'Richard Yeomans’s book follows the architecture and decorative arts of Cairo from the Arab conquest of 642 to the Ottoman conquest of 1517, setting the development of styles within their religious, social and political contexts. Its first chapters take Umayyad and Tulunid architecture, then Fatimid. Choose one building from the book: what was it for, and when and where was it built?'
+    ar: 'يتتبع كتاب ريتشارد يومانز عمارة القاهرة وفنونها الزخرفية من الفتح العربي سنة 642 إلى الفتح العثماني سنة 1517، واضعًا تطور الأساليب في سياقاتها الدينية والاجتماعية والسياسية. ويعالج فصلاه الأولان العمارة الأموية والطولونية ثم الفاطمية. اختر منشأة واحدة من الكتاب: لأي غرض بُنيت، ومتى وأين؟'
+    ur: 'ریچرڈ یومانز کی کتاب قاہرہ کی تعمیر اور آرائشی فنون کو سنہ 642 کی عرب فتح سے سنہ 1517 کی عثمانی فتح تک دیکھتی ہے، اور اسالیب کے ارتقا کو ان کے مذہبی، سماجی اور سیاسی سیاق میں رکھتی ہے۔ اس کے پہلے دو باب اموی اور طولونی، پھر فاطمی تعمیر کو لیتے ہیں۔ کتاب سے کوئی ایک عمارت چنیں: وہ کس مقصد کے لیے بنی، اور کب اور کہاں؟'
+  entity: work/art-and-architecture-of-islamic-cairo
+  sources:
+  - source/yeomans-islamic-cairo-2006
+order: 1

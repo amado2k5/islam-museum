@@ -1,0 +1,44 @@
+id: course/ca-on-g10-snc2p-e-1
+class: course
+kind: lesson
+label:
+  en: Where does the mirror send the light?
+  ar: أين تعكس المرآة الضوء؟
+  ur: آئینہ روشنی کہاں بھیجتا ہے؟
+summary:
+  en: The laws of reflection and how light reflects from mirrors (E2.2, E3.3).
+  ar: قوانين انعكاس الضوء وكيف ينعكس عن المرايا، التوقعان E2.2 وE3.3.
+  ur: روشنی کے انعکاس کے قوانین اور روشنی آئینوں سے کیسے منعکس ہوتی ہے، توقعات E2.2 اور E3.3۔
+sources:
+- source/ontario-curriculum-secondary-science
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g10-snc2p-e
+expectations:
+- code: E2.2
+  text:
+    en: use an inquiry process to investigate the laws of reflection; use these laws to explain the characteristics of images formed by plane, converging (concave), and diverging (convex) mirrors; and draw ray diagrams to illustrate their observations [PR, AI, C]
+    ar: استعمل عملية استقصاء للتحقق من قوانين الانعكاس؛ واستعمل هذه القوانين لتفسير خصائص الصور المتكوّنة في المرايا المستوية والمجمِّعة ⁦(المقعّرة)⁩ والمفرِّقة ⁦(المحدّبة)⁩؛ وارسم مخططات أشعة توضّح ملاحظاتك [PR, AI, C]
+    ur: انعکاس کے قوانین کی تحقیق کے لیے تفتیشی عمل استعمال کریں؛ ان قوانین سے ہموار، جمع کرنے والے ⁦(مقعر)⁩ اور پھیلانے والے ⁦(محدب)⁩ آئینوں میں بننے والی تصویروں کی خصوصیات کی وضاحت کریں؛ اور اپنے مشاہدات کی وضاحت کے لیے شعاعی خاکے بنائیں [PR, AI, C]
+- code: E3.3
+  text:
+    en: explain the laws of reflection of light, and identify ways in which light reflects from various types of mirrors […]
+    ar: اشرح قوانين انعكاس الضوء، وحدِّد طرق انعكاسه عن أنواع المرايا المختلفة […]
+    ur: روشنی کے انعکاس کے قوانین کی وضاحت کریں، اور شناخت کریں کہ روشنی مختلف قسم کے آئینوں سے کن طریقوں سے منعکس ہوتی ہے […]
+connections:
+- position: within
+  kind: invention
+  title:
+    en: Where does reflection happen?
+    ar: أين يقع الانعكاس؟
+    ur: انعکاس کہاں ہوتا ہے؟
+  text:
+    en: On a circular mirror, light reflects at a point on the rim where the angle of incidence and the angle of reflection are equal, each measured against the local normal. Ibn al-Haytham's contribution here is geometrical lemmas and applications in Book V of the Book of Optics, not the invention of the mirror or the discovery of the law of reflection from nothing. Where would you draw that normal?
+    ar: في مرآة دائرية ينعكس الضوء عند نقطة على المحيط تتساوى عندها زاويتا السقوط والانعكاس، كلتاهما بالنسبة إلى العمود المحلي. ومساهمة ابن الهيثم هنا مقدمات هندسية وتطبيقات في المقالة الخامسة من «كتاب المناظر»، لا اختراع المرآة ولا اكتشاف قانون الانعكاس من الصفر. أين ترسم هذا العمود؟
+    ur: دائروی آئینے پر روشنی کنارے کے ایک ایسے نقطے پر منعکس ہوتی ہے جہاں مقامی عمود کے لحاظ سے زاویۂ وقوع اور زاویۂ انعکاس برابر ہوں۔ ابن الہیثم کا حصہ یہاں «کتاب المناظر» کے پانچویں مقالے میں ہندسی مقدمات اور اطلاقات ہیں، نہ آئینے کی ایجاد اور نہ انعکاس کے قانون کی صفر سے دریافت۔ آپ یہ عمود کہاں کھینچیں گے؟
+  entity: invention/ibn-al-haytham-circular-reflection
+  sources:
+  - source/hogendijk-alhazen-lemmas-1996
+order: 1

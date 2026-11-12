@@ -1,0 +1,39 @@
+id: course/ca-on-g3-math-e-4
+class: course
+kind: lesson
+label:
+  en: Measuring a surface by a cubit
+  ar: قياس السطح بالذراع
+  ur: ذراع سے سطح کی پیمائش
+summary:
+  en: Measuring area with a non-standard unit, and noticing how gaps and overlaps change the count.
+  ar: قياس المساحة بوحدة غير معيارية، وملاحظة كيف تغيّر الفراغات والتداخلات العدّ.
+  ur: غیر معیاری اکائی سے رقبہ ناپنا، اور یہ دیکھنا کہ خالی جگہیں اور اوور لیپ گنتی کو کیسے بدلتے ہیں۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g3-math-e
+expectations:
+- code: E2.8
+  text:
+    en: use appropriate non-standard units to measure area, and explain the effect that gaps and overlaps have on accuracy
+    ar: استخدم وحدات غير معيارية مناسبة لقياس المساحة، واشرح أثر الفراغات والتداخلات في الدقة
+    ur: رقبہ ناپنے کے لیے مناسب غیر معیاری اکائیاں استعمال کریں، اور وضاحت کریں کہ خالی جگہوں اور اوور لیپ کا درستی پر کیا اثر پڑتا ہے
+connections:
+- position: before
+  kind: invention
+  title:
+    en: A cubit by a cubit
+    ar: ذراع في ذراع
+    ur: ایک ذراع ضرب ایک ذراع
+  text:
+    ar: المساحة علم قياس السطوح والأجسام، وقد خصّه الخوارزمي بباب في كتابه يبدأ بأن معنى «واحد في واحد» إنما هو مساحة، ومعناه ذراع في ذراع. والمربع المتساوي الأضلاع الذي ضلعه اثنان أربعة أمثال سطح الذراع في الذراع، والمربع الذي ضلعه نصف ذراع ربع ذلك السطح. بماذا تغطي سطحاً لتعدّ مساحته؟
+    en: Mensuration is the science of measuring areas and volumes. Al-Khwarizmi gave it a chapter of his book, which opens by saying that "one by one" means an area, that is, a cubit by a cubit. A square of side two is four times the cubit-by-cubit area, and a square of side half a cubit is a quarter of it. What would you cover a surface with to count its area?
+    ur: مساحت سطحوں اور اجسام کی پیمائش کا علم ہے۔ خوارزمی نے اپنی کتاب میں اس کے لیے ایک باب رکھا جو اس بات سے شروع ہوتا ہے کہ «ایک ضرب ایک» کا مطلب رقبہ ہے، یعنی ایک ذراع ضرب ایک ذراع۔ برابر اضلاع کا مربع جس کا ضلع دو ہو، ذراع ضرب ذراع والے رقبے کا چار گنا ہے، اور جس کا ضلع آدھا ذراع ہو وہ اس کا چوتھائی ہے۔ رقبہ گننے کے لیے آپ سطح کو کس چیز سے ڈھانپیں گے؟
+  entity: concept/ilm-al-misaha
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+order: 4

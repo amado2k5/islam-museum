@@ -35,3 +35,12 @@ A consequence for the ledger: each phase branch has `release/uat` merged into it
 ## Urdu
 
 Urdu is outside this mission by the founder's brief: no `/ur/` page and no Urdu string is created or edited. `AGENTS.md` asks that every new page and string ship with Urdu, or that the change say it cannot: this mission says so here and in every phase commit. New pages are built for Arabic and English only; `i18n/ur.yaml` is untouched (the string loader falls back to English for a missing key, but no Urdu page of the new surface is generated).
+
+## 12 November 2026: Ontario finished, merged to main, on hold
+
+- Ontario Grades 1 to 12: 66 courses attempted, 65 with lessons (360 lessons, 671 connections), reviewed in eight sweeps and corrected; table in `docs/courses/FLEET.md`.
+- The surface is in Arabic, English and Urdu; the homepage carries a section and an explorer card.
+- The finished work was carried onto a branch cut from `main` (`courses/ontario-main`), `main` was merged into it (it had meanwhile received the first two phases through `release/uat`), and it was merged to `main` by pull request.
+- Scale map, ledger and `PUBLISH.md` are in the same merge.
+- **On hold by the user's instruction.** British Columbia is next when asked to resume, then Quebec, Michigan, Texas, Washington, California; `SCALE-MAP.md` says what each needs.
+

@@ -1,0 +1,33 @@
+{
+ "slug": "ontario-scitech-g2",
+ "authority": "Ontario Ministry of Education",
+ "curriculum": {
+  "title": "Science and Technology",
+  "url_slug": "science-technology",
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/science-technology"
+ },
+ "course_code": "",
+ "ministry_course_name": "Sci & Tech - Grade 2",
+ "course": "Science and Technology",
+ "grade": [
+  "2"
+ ],
+ "retrieved_utc": "2026-11-12T05:57:48Z",
+ "addresses": {
+  "courses.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&language=en-CA&system.language[eq]=en-CA&depth=0",
+  "course.json": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.id=7d16aded-f365-4e89-bdff-6bbf91128a23&language=en-CA&system.language[eq]=en-CA&depth=6"
+ },
+ "human_page": "https://www.dcp.edu.gov.on.ca/en/curriculum",
+ "ministry_last_modified": "2023-03-17T14:20:47.6797163Z",
+ "sha256": {
+  "courses.json": "178bfb4249226408e78d87848e0887fc7d8b0057489a4f665afa515b80849956",
+  "course.json": "cda7e352631f95c3a3b2737de86dc40bc6b44d0435997cff329b3e1ebe81434e",
+  "official.json": "e33d80d77a9883d3676632f1ac1b8859ce191a9c7eb5946b222dd08a16dff360"
+ },
+ "counts": {
+  "strands": 5,
+  "overall_expectations": 11,
+  "specific_expectations": 41
+ },
+ "note": "Raw files are archived under .cache/curricula/<slug>/ and are not committed (docs/sources-policy.md). Re-run this script to fetch them again; official.json's hash changes only if the Ministry's text changes."
+}

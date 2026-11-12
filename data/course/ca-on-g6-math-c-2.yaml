@@ -1,0 +1,57 @@
+id: course/ca-on-g6-math-c-2
+class: course
+kind: lesson
+label:
+  en: Unknowns and equations
+  ar: المجاهيل والمعادلات
+  ur: نامعلوم اقدار اور مساواتیں
+summary:
+  en: Evaluating expressions and solving equations with several terms, and checking the solutions.
+  ar: تقييم العبارات الجبرية وحل معادلات متعددة الحدود والتحقق من الحلول.
+  ur: الجبری اظہار کی قدر نکالنا، کئی حدود والی مساواتیں حل کرنا اور حل کی تصدیق کرنا۔
+sources:
+- source/ontario-curriculum-elementary-mathematics
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline (docs/courses-mission/PIPELINE.md); 2026-11-12
+part_of: course/ca-on-g6-math-c
+expectations:
+- code: C2.2
+  text:
+    en: evaluate algebraic expressions that involve whole numbers and decimal tenths
+    ar: قيّم العبارات الجبرية التي تتضمن أعدادًا كلية وأعشارًا عشرية
+    ur: ایسے الجبری اظہار کی قدر نکالیں جن میں مکمل اعداد اور اعشاری دسویں حصے شامل ہوں
+- code: C2.3
+  text:
+    en: solve equations that involve multiple terms and whole numbers in various contexts, and verify solutions
+    ar: حلّ معادلات تتضمن حدودًا متعددة وأعدادًا كلية في سياقات متنوعة، وتحقق من الحلول
+    ur: ایسی مساواتیں حل کریں جن میں متعدد حدود اور مکمل اعداد شامل ہوں، مختلف سیاق میں، اور حل کی تصدیق کریں
+connections:
+- position: before
+  kind: invention
+  title:
+    en: Restoring and cancelling
+    ar: الجبر والمقابلة
+    ur: جبر اور مقابلہ
+  text:
+    ar: الجبر فرع من الرياضيات يحل المسائل بفرض المجهول ومعالجة المعادلات بطرق عامة، ويذكر محققا طبعة القاهرة سنة 1939 لكتابه أن اسم هذا العلم في جميع لغات العالم مشتق من الكلمة العربية «الجبر» التي جعلها الخوارزمي اسماً لكتابه. و«الجبر» في مسائله أن يُكمل ما فيه نقص أو استثناء بزيادة مثله على الطرفين، و«المقابلة» أن يُلقى المتماثل من الطرفين. أيهما تستعمل حين توازن معادلة؟
+    en: Algebra is the branch of mathematics that solves problems by positing an unknown and handling equations by general methods. The editors of the 1939 Cairo edition of his book note that the name of the science in every language comes from al-jabr, the word al-Khwarizmi used as the title of his book. In his problems al-jabr completes a quantity that has a deficiency by adding its like to both sides, and al-muqabala casts away like terms from both sides. Which of the two do you use when you balance an equation?
+    ur: الجبرا ریاضی کی وہ شاخ ہے جو مجہول فرض کر کے اور مساوات کو عمومی طریقوں سے حل کر کے مسائل نکالتی ہے، اور قاہرہ کے 1939ء کے ایڈیشن کے محققین ان کی کتاب کے بارے میں لکھتے ہیں کہ اس علم کا نام ہر زبان میں عربی لفظ «الجبر» سے نکلا ہے جسے خوارزمی نے اپنی کتاب کا نام بنایا۔ ان کے مسائل میں «الجبر» یہ ہے کہ جس مقدار میں کمی یا استثنا ہو اسے دونوں طرف اس کا مثل بڑھا کر پورا کیا جائے، اور «المقابلہ» یہ ہے کہ دونوں طرف سے یکساں حدیں گرا دی جائیں۔ مساوات کو متوازن کرتے وقت آپ ان میں سے کون سا کرتے ہیں؟
+  entity: concept/algebra
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+- position: within
+  kind: invention
+  title:
+    en: Six types of equation
+    ar: ستة ضروب من المعادلات
+    ur: مساواتوں کی چھ صورتیں
+  text:
+    ar: قسّم الخوارزمي كل ما يحتاج إليه في الجبر والمقابلة إلى ستة ضروب. من الضروب المفردة قوله «أربعة أجذار تعدل عشرين»، فالجذر خمسة والمال خمسة وعشرون. تحقّق من الجواب بوضعه في المعادلة.
+    en: Al-Khwarizmi divided everything he needed in al-jabr and al-muqabala into six types. One simple type is "four roots equal twenty", so the root is five and the square twenty-five. Check the answer by putting it back in the equation.
+    ur: خوارزمی نے جبر و مقابلہ کے حساب کی ہر ضرورت کو چھ صورتوں میں تقسیم کیا۔ مفرد صورتوں میں سے ایک «چار جذر بیس کے برابر ہیں» ہے، تو جذر پانچ اور مال پچیس۔ جواب کو مساوات میں رکھ کر جانچیں۔
+  entity: concept/al-durub-al-sitta
+  sources:
+  - source/khwarizmi-jabr-cairo-1939
+order: 2

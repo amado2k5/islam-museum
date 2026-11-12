@@ -1,0 +1,566 @@
+course: course/ca-on-g12-ses4u
+gaps:
+- code: A1.1
+  text: formulate relevant scientific questions about observed relationships, ideas, problems, or issues, make informed predictions, and/or formulate educated hypotheses to focus inquiries or research
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: select appropriate instruments […] and materials […], and identify appropriate methods, techniques, and procedures, for each inquiry
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: identify and locate a variety of print and electronic sources that enable them to address research topics fully and appropriately
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: apply knowledge and understanding of safe laboratory and field work practices and procedures when planning investigations by correctly interpreting Workplace Hazardous Materials Information System (WHMIS) symbols; by using appropriate techniques for handling and storing laboratory equipment and materials and disposing …
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.5
+  text: conduct inquiries, controlling relevant variables, and adapting or extending procedures as required, and using appropriate materials and equipment safely, accurately, and effectively, to collect observations and data
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.6
+  text: compile accurate observations and data from laboratory and other sources […], and organize and record the data, using appropriate formats, including tables, flow charts, graphs, and/or diagrams
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.7
+  text: select, organize, and record relevant information on research topics from a variety of appropriate sources, including electronic, print, and/or human sources […], using suitable formats and an accepted form of academic documentation
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.8
+  text: synthesize, analyse, interpret, and evaluate qualitative and/or quantitative data to determine whether the evidence supports or refutes the initial prediction or hypothesis and whether it is consistent with scientific theory; identify sources of bias and/or error; and suggest improvements to …
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.9
+  text: analyse the information gathered from research sources for logic, accuracy, reliability, adequacy, and bias
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.10
+  text: draw conclusions based on inquiry results and research findings, and justify their conclusions with reference to scientific knowledge
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.11
+  text: communicate ideas, plans, procedures, results, and conclusions orally, in writing, and/or in electronic presentations, using appropriate language and a variety of formats […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.12
+  text: use appropriate numeric […], symbolic, and graphic modes of representation […]
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.13
+  text: express the results of any calculations involving data accurately and precisely, to the appropriate number of decimal places or significant figures
+  why: 'Skills expectation: names no subject matter.'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: identify and describe a variety of careers related to the field of science under study […] and the education and training necessary for these careers
+  why: The expectation asks for careers in astronomy and geology and the training they need; the museum holds no record about careers or training as such.
+  searches:
+  - 'find_entity.py "astronomy" "علم الفلك" "ilm al-hay''a": records of astronomical works and concepts (the Hay''a works, the earth-rotation debate), none about a career or its training'
+  - 'grep -rli "planetarium" content/en: 1 file (concept/tasweer-images-and-picturing), unrelated to careers; "geologist" "جيولوجي" : no record about a geologist''s career'
+- code: B1.1
+  text: analyse a major milestone in astronomical knowledge or theory […], and explain how it revolutionized thinking in the scientific community [AI, C]
+  why: The expectation asks for a milestone that revolutionized scientific thinking (red shift, particle accelerators). The one record on a cosmological question, concept/earth-rotation-ship-analogy, is a medieval debate that affirms the earth's rest; it is not such a milestone, so it is not stretched into one.
+  searches:
+  - 'find_entity.py "astronomy" "علم الفلك" "ilm al-hay''a": concept/earth-rotation-ship-analogy discusses the possibility of the earth''s daily rotation while affirming its rest'
+  - 'grep -rli "red shift" content/en: 0 files; grep -rli "Kepler" content/en: 5 files that name him only in comparison; "Newton": 14 files, same'
+- code: B2.1
+  text: 'use appropriate terminology related to astronomy, including, but not limited to: Doppler effect, electromagnetic radiation, protostar, celestial equator, ecliptic, altitude and azimuth, and right ascension and declination [C]'
+  why: The expectation is about stars, galaxies, the electromagnetic spectrum or the origin of the universe; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "big bang" "الانفجار العظيم" "origin of the universe": 0 real records; "life cycle of a star" "نشأة النجوم" "supernova": 0 real records'
+  - 'find_entity.py "galaxy" "المجرة" "Milky Way": 0 real records; "spectroscopy" "الطيف" "red shift": 0 real records'
+- code: B2.3
+  text: analyse spectroscopic data mathematically or graphically to determine various properties of stars […] [AI, C]
+  why: The expectation is about stars, galaxies, the electromagnetic spectrum or the origin of the universe; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "big bang" "الانفجار العظيم" "origin of the universe": 0 real records; "life cycle of a star" "نشأة النجوم" "supernova": 0 real records'
+  - 'find_entity.py "galaxy" "المجرة" "Milky Way": 0 real records; "spectroscopy" "الطيف" "red shift": 0 real records'
+- code: B2.4
+  text: use the Hertzsprung-Russell diagram to determine the interrelationships between the properties of stars […] and to investigate their evolutionary pathways [PR, AI]
+  why: The expectation is about stars, galaxies, the electromagnetic spectrum or the origin of the universe; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "big bang" "الانفجار العظيم" "origin of the universe": 0 real records; "life cycle of a star" "نشأة النجوم" "supernova": 0 real records'
+  - 'find_entity.py "galaxy" "المجرة" "Milky Way": 0 real records; "spectroscopy" "الطيف" "red shift": 0 real records'
+- code: B2.5
+  text: investigate, in quantitative terms, properties of stars, including their distance from Earth (using the parallax method), surface temperature, absolute magnitude, and luminosity [PR, AI]
+  why: The expectation asks for stellar distance by the parallax method, and star temperature and luminosity. The museum's mentions of parallax are the moon's and the sun's (eclipses, Khwarizmi's tables), not stellar parallax.
+  searches:
+  - 'find_entity.py "galaxy" "المجرة" "Milky Way": 0 real records'
+  - 'grep -rli "parallax" content/en: 7 files, among them concept/eclipses (parallax of the moon), none on stellar distance'
+- code: B2.6
+  text: investigate, using photographs or diagrams, the basic features of different types of galaxies […], including the Milky Way [PR]
+  why: The expectation is about stars, galaxies, the electromagnetic spectrum or the origin of the universe; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "big bang" "الانفجار العظيم" "origin of the universe": 0 real records; "life cycle of a star" "نشأة النجوم" "supernova": 0 real records'
+  - 'find_entity.py "galaxy" "المجرة" "Milky Way": 0 real records; "spectroscopy" "الطيف" "red shift": 0 real records'
+- code: B3.1
+  text: describe the theoretical and evidential underpinnings of the big bang theory […] and their implications for the evolution of the universe
+  why: The expectation is about stars, galaxies, the electromagnetic spectrum or the origin of the universe; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "big bang" "الانفجار العظيم" "origin of the universe": 0 real records; "life cycle of a star" "نشأة النجوم" "supernova": 0 real records'
+  - 'find_entity.py "galaxy" "المجرة" "Milky Way": 0 real records; "spectroscopy" "الطيف" "red shift": 0 real records'
+- code: B3.2
+  text: explain the scale of distances between celestial bodies […] and the methods astronomers use to determine these distances […]
+  why: The expectation asks for the scale of distances between celestial bodies and the methods to find them; the museum holds no record on astronomical distances.
+  searches:
+  - 'find_entity.py "big bang" "الانفجار العظيم" "origin of the universe": 0 real records'
+  - 'grep -rli "parallax" content/en: 7 files, parallax of the moon and sun only; no record on light years or parsecs'
+- code: B3.3
+  text: describe the characteristics of electromagnetic radiation […] and the ways in which each region of the electromagnetic spectrum is used in making astronomical observations […]
+  why: The expectation is about the electromagnetic spectrum and its use in astronomy; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+  - 'find_entity.py "spectroscopy" "الطيف" "red shift": 0 real records'
+- code: B3.4
+  text: explain how stars are classified on the basis of their surface temperature, luminosity, and chemical composition
+  why: The expectation is about stars, galaxies, the electromagnetic spectrum or the origin of the universe; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "big bang" "الانفجار العظيم" "origin of the universe": 0 real records; "life cycle of a star" "نشأة النجوم" "supernova": 0 real records'
+  - 'find_entity.py "galaxy" "المجرة" "Milky Way": 0 real records; "spectroscopy" "الطيف" "red shift": 0 real records'
+- code: B3.5
+  text: explain, with reference to a specific star […], how astronomers use techniques to determine the properties of stars […]
+  why: The expectation names a specific star (Rigel, Sirius, Arcturus) and the techniques for its properties; the museum holds no record on any star.
+  searches:
+  - 'find_entity.py "Sirius" "الشعرى" "Rigel": no star record (the only hit with prose is the unrelated person/saada-bint-kurayz)'
+  - 'find_entity.py "Arcturus" "السماك" "star names Arabic": only unrelated persons named Simak or Sammak'
+- code: B3.6
+  text: describe the sequence of events in the life cycle of a star, from its formation to the main sequence phase and beyond, with specific reference to energy sources and forces involved
+  why: The expectation is about stars, galaxies, the electromagnetic spectrum or the origin of the universe; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "big bang" "الانفجار العظيم" "origin of the universe": 0 real records; "life cycle of a star" "نشأة النجوم" "supernova": 0 real records'
+  - 'find_entity.py "galaxy" "المجرة" "Milky Way": 0 real records; "spectroscopy" "الطيف" "red shift": 0 real records'
+- code: B3.7
+  text: explain the relationship between the type of death of a star and the star’s initial mass […]
+  why: The expectation is about stars, galaxies, the electromagnetic spectrum or the origin of the universe; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "big bang" "الانفجار العظيم" "origin of the universe": 0 real records; "life cycle of a star" "نشأة النجوم" "supernova": 0 real records'
+  - 'find_entity.py "galaxy" "المجرة" "Milky Way": 0 real records; "spectroscopy" "الطيف" "red shift": 0 real records'
+- code: C1.1
+  text: analyse political considerations related to, and economic and environmental consequences (actual and/or potential) of, exploration of the solar system […] [AI, C]
+  why: The expectation is about modern space exploration and its technologies; the museum holds no record on it. The observatories it holds (Maragha, Sharaf al-Dawla) are not space exploration.
+  searches:
+  - 'find_entity.py "space exploration" "استكشاف الفضاء" "satellite": 5 real records, the first with prose on Arab satellite television channels'
+  - 'find_entity.py "telescope" "منظار" "observatory": building/sharaf-al-dawla-observatory and exhibit/path-maragha, observatories of the Islamic world, not space exploration'
+- code: C1.2
+  text: analyse, on the basis of research, a specific technology that is used in space exploration and that has applications in other areas of research or in the environmental sector […], and communicate their findings [IP, PR, AI, C]
+  why: The expectation is about modern space exploration and its technologies; the museum holds no record on it. The observatories it holds (Maragha, Sharaf al-Dawla) are not space exploration.
+  searches:
+  - 'find_entity.py "space exploration" "استكشاف الفضاء" "satellite": 5 real records, the first with prose on Arab satellite television channels'
+  - 'find_entity.py "telescope" "منظار" "observatory": building/sharaf-al-dawla-observatory and exhibit/path-maragha, observatories of the Islamic world, not space exploration'
+- code: C2.1
+  text: 'use appropriate terminology related to planetary science, including, but not limited to: solar system, geocentric, heliocentric, geodesy, geosynchronous, eccentricity, apogee, aphelion, perigee, and perihelion [C]'
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C2.2
+  text: identify geological features and processes that are common to Earth and other bodies in the solar system […], and create a model or illustration to show these features, using data and images from satellites and space probes [PR, AI, C]
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C2.3
+  text: use an inquiry or research process to investigate the effects of various forms of radiation and high-energy particles on bodies, organisms, and devices within the solar system […] [IP, PR]
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C2.4
+  text: investigate the ways in which interactions between solid bodies have helped to shape the solar system, including Earth […] [PR]
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C2.5
+  text: investigate the properties of Earth that protect life from hazards such as radiation and collision with other bodies […] [PR]
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C2.6
+  text: investigate techniques used to study and understand objects in the solar system […] [PR]
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C3.1
+  text: explain the composition of the solar system […], and describe the characteristics of each component
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C3.2
+  text: identify and explain the classes of objects orbiting the sun […]
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C3.3
+  text: explain the formation of the solar system with reference to the fundamental forces and processes involved […]
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C3.4
+  text: identify the factors that determined the properties of bodies in the solar system […]
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C3.5
+  text: identify and explain the properties of celestial bodies within or beyond the solar system, other than Earth, that might support the existence of life […]
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C3.6
+  text: compare Earth with other objects in the solar system with respect to properties such as mass, size, composition, rotation, magnetic field, and gravitational field
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: C3.7
+  text: identify Kepler’s laws, and use them to describe planetary motions […]
+  why: The expectation asks for Kepler's or Newton's laws; the museum holds no record on either.
+  searches:
+  - 'find_entity.py "Kepler" "كبلر" "Newton": 2 real records, neither with prose'
+  - 'grep -rli "Kepler" content/en: 5 files that name him only in comparison; "Newton": 14 files, same'
+- code: C3.8
+  text: identify Newton’s laws, and use them to explain planetary motion
+  why: The expectation asks for Kepler's or Newton's laws; the museum holds no record on either.
+  searches:
+  - 'find_entity.py "Kepler" "كبلر" "Newton": 2 real records, neither with prose'
+  - 'grep -rli "Kepler" content/en: 5 files that name him only in comparison; "Newton": 14 files, same'
+- code: C3.9
+  text: describe the major external processes and phenomena that affect Earth […]
+  why: The expectation is about the bodies of the solar system, their formation or the radiation that reaches Earth; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "solar system" "المجموعة الشمسية" "planets": 6 real records, the first with prose on the planets in astrology and in the Hay''a (the conjunction scare of 582, the second motion, the temples of the planets), none on composition or formation'
+  - 'find_entity.py "radiation" "الإشعاع" "ultraviolet": 0 real records'
+- code: D1.1
+  text: analyse the relationship between climate and geology, and, using geological records, assess the impact of long-term climate change on life on Earth [AI, C]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D1.2
+  text: evaluate the significance of contributions, including Canadian contributions, to our understanding of geological time and of changes in Earth systems over time […] [AI, C]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D2.1
+  text: 'use appropriate terminology related to Earth and its geological history, including, but not limited to: Milankovitch cycles, era, epoch, period, parent isotope, hot spot, paleomagnetism, and index fossil [C]'
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D2.2
+  text: use a research process to investigate the geological history of an area in Ontario […] [IP, PR]
+  why: The expectation asks for the geological history of an area in Ontario; the museum holds no record on Ontario's geology.
+  searches:
+  - 'find_entity.py "Ontario" "أونتاريو" "Niagara": 8 real records, all course records of this pipeline, none on Ontario geology'
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records'
+- code: D2.3
+  text: investigate various types of preserved geological evidence of major changes that have taken place in Earth history […] [PR]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D2.4
+  text: produce a model or diagram to illustrate how geological time scales compare to human time scales […] [PR, C]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D2.5
+  text: produce diagrams to illustrate the development of various types of unconformities preserved in a sequence of strata […] [PR, C]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D2.6
+  text: design and build a model to represent radioactive decay and the concept of half-life determination [IP, PR]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D2.7
+  text: investigate interactions over time between physical, chemical, and biological processes, and explain how they have affected environmental conditions throughout Earth’s geological history […] [PR, AI, C]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D3.1
+  text: describe evidence for the evolution of life through the Proterozoic, Paleozoic, Mesozoic, and Cenozoic eras, using important groups of fossils that date from each era […]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D3.2
+  text: describe various kinds of evidence that life forms, climate, continental positions, and Earth’s crust have changed over time […]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D3.3
+  text: describe some processes by which fossils are produced and/or preserved […]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D3.4
+  text: compare and contrast relative and absolute dating principles and techniques as they apply to natural systems […]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D3.5
+  text: identify and describe the various methods of isotopic age determination, giving for each the name of the isotope, its half-life, its effective dating range, and some of the materials that it can be used to date […]
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D3.6
+  text: explain the influence of paradigm shifts […] in the development of geological thinking
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: D3.7
+  text: explain the different types of evidence used to determine the age of Earth […] and how this evidence has influenced our understanding of the age of the planet
+  why: The expectation is about geological time, fossils, dating or past climates; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "geological time" "الزمن الجيولوجي" "fossil": 0 real records; "radiocarbon dating" "التأريخ الإشعاعي" "age of the earth": 0 real records'
+  - 'find_entity.py "climate" "المناخ" "ice age": 4 real records, none with prose; "Ontario" "أونتاريو" "Niagara": only course records'
+- code: E1.1
+  text: assess the direct and indirect impact on local, provincial/regional, or national economies of the exploration for and extraction and refinement/processing of Earth materials […] [AI, C]
+  why: The expectation is about the economic and environmental effects of exploration, extraction and refining of Earth materials. The museum's records on mines are about their legal treatment (the grant of the Qabaliyya mines, the due on mine output), not their economic or environmental impact or technology.
+  searches:
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records; the first with prose are Muwatta passages 668 to 670 on the grant of mines and the due on their output'
+  - 'find_entity.py "mining" "التعدين" "ore": 2 real records, neither with prose'
+- code: E1.2
+  text: analyse technologies and techniques used to explore for and extract natural resources, and assess their actual or potential environmental repercussions [AI, C]
+  why: The expectation is about the economic and environmental effects of exploration, extraction and refining of Earth materials. The museum's records on mines are about their legal treatment (the grant of the Qabaliyya mines, the due on mine output), not their economic or environmental impact or technology.
+  searches:
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records; the first with prose are Muwatta passages 668 to 670 on the grant of mines and the due on their output'
+  - 'find_entity.py "mining" "التعدين" "ore": 2 real records, neither with prose'
+- code: E2.1
+  text: 'use appropriate terminology related to Earth materials, including, but not limited to: geothermal vents, porosity, permeability, cleavage, fracture, cementation, evaporite, and foliation [C]'
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E2.2
+  text: investigate the properties of various Earth materials […], and explain how these properties affect how the materials are used and what technologies and techniques are used to explore for or extract them […] [PR, AI, C]
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E2.3
+  text: conduct a series of tests […] to identify and classify common minerals […] [PR, AI]
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E2.4
+  text: investigate common igneous rocks […], using a hand lens, classify them on the basis of their texture […] and composition […], and use this information to determine their origins (i.e., extrusive or intrusive) [PR, AI]
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E2.5
+  text: investigate sedimentary rocks […], using a hand lens, classify them on the basis of their texture […] and composition […], and use this information to determine their origin […] [PR, AI]
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E2.6
+  text: investigate metamorphic rocks […], using a hand lens, and classify them on the basis of their characteristics […] in order to identify their parent rock and the temperature, pressure, and chemical conditions at their formation [PR, AI]
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E2.7
+  text: investigate a geological setting in their local area […], and identify and classify rock samples collected from that area [PR, AI]
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E2.8
+  text: plan and conduct an inquiry to investigate the factors that determine the size and form of mineral crystals […] [IP, PR]
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E3.1
+  text: identify the physical and chemical properties of selected minerals, and describe the tests used to determine these properties
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E3.2
+  text: describe the formation (i.e., intrusive or extrusive) and identify the distinguishing characteristics of igneous rocks […]
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E3.3
+  text: describe the formation of clastic and chemical sediments, and the characteristics of the corresponding sedimentary rocks […]
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E3.4
+  text: describe the different ways in which metamorphic rocks are formed (i.e., through changes in temperature, pressure, and chemical conditions) and the factors that contribute to their variety […]
+  why: The expectation is about minerals and the classification or formation of rocks; the museum holds no record on these topics. invention/razi-substance-classification says itself that its "stones" are not a present geological mineral list.
+  searches:
+  - 'find_entity.py "rock" "الصخور" "granite": 10 real records, the first with prose are the Dome of the Rock and objects named for it, none on rock types'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on mineral properties'
+- code: E3.5
+  text: describe the role of Earth materials in the safe disposal of industrial and urban waste and toxic materials […]
+  why: The expectation is about waste disposal in Earth materials; the museum holds no record on it.
+  searches:
+  - 'find_entity.py "waste disposal" "النفايات" "landfill": 0 real records'
+  - 'find_entity.py "mineral" "المعادن" "معدن": 15 real records, legal passages on mines, none on waste'
+- code: F1.1
+  text: evaluate the accuracy and reliability of technological methods of monitoring and predicting earthquakes, tsunamis, and volcanic eruptions [AI, C]
+  why: The expectation asks for the accuracy of technology that monitors and predicts earthquakes, tsunamis and eruptions; the museum holds no record on such technology. Its one tsunami record reports an event.
+  searches:
+  - 'find_entity.py "tsunami" "تسونامي" "volcanic eruption": 1 real record, event/earthquake-tsunami-425, a report of an earthquake and the sea''s recession, not monitoring'
+  - 'find_entity.py "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+- code: F1.2
+  text: analyse developments in technology […] or Earth science endeavours […] that have contributed to our understanding of Earth’s interior, crust, and surface [AI, C]
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F1.3
+  text: analyse the relationship between human activities and various geological structures and processes […], and propose ways in which the relationships can be effectively or sustainably managed [AI, C]
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F2.1
+  text: 'use appropriate terminology related to geological processes, including, but not limited to: shear forces, compression forces, liquifaction, Benioff zone, aquifer, internal plastic flow, basal slip, mid-oceanic ridge, bedding, cross-cutting, isostasy, and lithification [C]'
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F2.2
+  text: investigate the difference between weathering and erosion […], and construct models of the processes of physical, chemical, and biological weathering […] [PR]
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F2.3
+  text: produce a model showing simple sedimentary sequences […], using block diagrams or three-dimensional models […] [PR, C]
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F2.4
+  text: investigate, through laboratory inquiry or computer simulation, the main types of seismic waves, and produce a model […] to illustrate for each the nature of its propagation, the transfer of energy, and its movement through rocks [PR, C]
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F2.5
+  text: locate the epicentre of an earthquake, given the appropriate seismographic data […] [AI]
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F2.6
+  text: produce a scale model […] of the interior of Earth, differentiating between the layers and their characteristics […] [PR, C]
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F2.7
+  text: design and test models that show the types (i.e., falls, slides, or flows) and causes […] of mass wasting [IP, PR, AI]
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F2.8
+  text: analyse information from a plan view […] and sectional view […] in order to deduce the geologic history of an area [AI]
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F3.1
+  text: describe the types of boundaries (convergent, divergent, transform) between lithospheric plates, and explain the types of internal Earth processes occurring at each […]
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F3.2
+  text: describe the characteristics of the main types of seismic waves (i.e., P- and S-waves; R- and L-waves), and explain the different modes of travel, travel times, and types of motion associated with each
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F3.3
+  text: compare qualitative and quantitative methods used to measure earthquake intensity and magnitude […]
+  why: The expectation compares methods of measuring earthquake intensity and magnitude (Mercalli, Richter); the museum holds descriptions of earthquake damage but no record on a scale or measurement.
+  searches:
+  - 'find_entity.py "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "tsunami" "تسونامي" "volcanic eruption": 1 real record, a report of damage and of the sea''s recession, with no scale'
+- code: F3.4
+  text: explain how different erosional processes contribute to changing landscapes […]
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F3.5
+  text: identify and describe types of sediment transport […] and the types of load (i.e., dissolved load, suspended load, bed load) as sediment is moved by each type of transport
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F3.6
+  text: describe the landforms produced by water, wind, or ice erosion
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F3.7
+  text: describe the sedimentary structures formed by wind, water, or ice deposition
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
+- code: F3.9
+  text: explain the processes of continuous recycling of major rock types (i.e., the rock cycle) throughout Earth history
+  why: The expectation is about plate boundaries, seismic waves, weathering, erosion, sediments or the rock cycle; the museum holds no record on these topics.
+  searches:
+  - 'find_entity.py "plate tectonics" "الصفائح التكتونية" "volcano": 0 real records; "seismic waves" "الأمواج الزلزالية" "seismograph": 0 real records'
+  - 'find_entity.py "weathering" "التعرية" "erosion": 0 real records; "river sediment" "الرواسب" "glacier": 0 real records'
