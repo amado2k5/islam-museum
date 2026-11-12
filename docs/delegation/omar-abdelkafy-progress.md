@@ -1875,3 +1875,19 @@ New record work/ajaeb-al-kulub (29 episodes in the harvest, 87 files, about seve
 | Repetition loops, stray non-speech and garbled windows | ep02 00:06:00 (non-speech "Oh, oh."); ep03 00:06:00 (a basmala repeated as a loop), 00:02:00 (a long rambling sentence on ethics and faith, only the clear claim kept), 00:03:00 (a half-heard line on living among people); ep04 00:01:00 (a line on Joseph's brothers, garbled), 00:05:00 (a half-clear clause) | Not speech or not recoverable | Loop check, Clarity | Open |
 
 Resume point: ajaeb-al-kulub episode 5 (branch from origin/main).
+### al-naba-al-safi, episode 14 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-4)
+
+Episode 14 read in full (50 min of transcript) before writing. 11 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (unchained accounts, hadiths and sayings in sense, rulings without evidence, an unsourced medical claim).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep14 (Ja'far al-Sadiq's counsel to Sufyan) | about 50 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 11 points | new `about` edges | 11 | 9 needs_source | this PR |
+
+Next step: episode 15.
+
+| Excluded (al-naba-al-safi ep14) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements and the long closing prayer | ep14 00:00:00–00:00:30, 00:14:00–00:14:30, 00:32:00–00:32:30, 00:46:30–00:49:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep14 00:04:00, 00:18:00, 00:20:00, 00:30:30, 00:36:30–00:37:00, 00:39:00, 00:41:00–00:41:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep14 00:34:30–00:35:00 | Not reproduced | Sources policy | Open |
+| Question on bank home ownership | ep14 00:38:00–00:38:30 | Not answered in the recording; not recorded | Clarity | Open |
