@@ -1642,6 +1642,17 @@ Next step: episode 20.
 | Repetition loops and garbled windows | ep19 00:03:00–00:03:30, 00:04:30–00:05:00, 00:09:30, 00:13:30–00:14:30, 00:15:00–00:15:30, 00:17:30, 00:19:00–00:20:00, 00:20:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Hadith wording | ep19 00:04:00–00:06:30, 00:12:00–00:14:30 | Wording not typed; by sense only | Hadith rule | Open |
 
+### ahl-al-hikma ep13-ep16 (12 Nov 2026)
+
+19 points written for episodes 13 to 16 (ar, en, ur); needs_source on reports without a chain and on garbled stretches.
+
+| Excluded (ahl-al-hikma ep13-16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Presenter's greetings, break announcements, closing supplications and sign-offs | ep13 00:00:00-00:00:30, 00:08:30-00:09:00, 00:14:30-00:15:30; ep14 00:00:00-00:01:00, 00:08:00, 00:14:30-00:15:00; ep15 00:00:00-00:00:30, 00:07:00, 00:13:30-00:14:00; ep16 00:00:00, 00:08:00-00:08:30, 00:15:00-00:16:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep13 00:07:30-00:08:30 (a worldly aside), 00:11:00-00:12:00; ep14 00:03:30-00:04:30 (partial), 00:08:00-00:10:00 (naming children, garbled), 00:13:30-00:14:30; ep15 00:05:30-00:07:00, 00:12:30-00:13:30; ep16 00:04:30, 00:11:00-00:12:00, 00:15:00 | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ahl-al-hikma episode 17 (branch from origin/main).
+
 ### al-manjeyat, episode 20 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-manjeyat-8)
 
 Episode 20 read in full (24 min of transcript) before writing. 8 points written (ar, en, ur); new `about` edges for the people and passages named; 6 needs_source (unchained accounts and hadiths in sense, unsourced claims and a garbled passage).
