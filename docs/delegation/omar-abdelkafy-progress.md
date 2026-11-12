@@ -2162,3 +2162,16 @@ Resume point: mawkib-al-nour episode 4 (branch from origin/main).
 | A remark on the lecturer's own conduct in a past incident and a passing remark on men's marital habits | ep04 00:12:00 (anecdote), 00:41:00 (aside) | Not recoverable or incidental | Clarity | Open |
 
 Resume point: mawkib-al-nour episode 5 (branch from origin/main).
+
+### mawkib-al-nour ep05 (12 Nov 2026)
+
+35 points written for episode 5 (ar, en, ur); 23 needs_source marks; 11 new `about` edges. Quran verses referenced only through passage links (39-53, 39-54, 51-22); none typed. Proposal for the founder, not applied: the lecturer's jurisprudential statements (ep05 00:25:30-00:26:30 on postnatal bleeding and make-up fasting, 00:26:30 on oath expiation) are recorded as his and marked as needing a source; the record stays `sensitivity: contested`.
+
+| Excluded (mawkib-al-nour ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, opening supplications and the closing greeting | ep05 00:00:00-00:01:30 (recitation, Quran text never typed), 00:19:30 (a verse recited in the middle of the text), 00:39:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep05 00:03:30 (a long loop), 00:38:30 (a long loop) | Not recoverable | Clarity, Loop check | Open |
+| Jokes and asides on doctors' connections, golf clubs and phone chain messages beyond the points kept | ep05 00:09:00, 00:12:30-00:13:00 | Illustrative asides, not separate claims | Content rule | Open |
+| A call to travel in the earth and look at creation, seemingly quoting a verse | ep05 00:38:00 | Verse not identifiable from the wording, so not linked | Clarity, Quran rule | Open |
+
+Resume point: mawkib-al-nour episode 6 (branch from origin/main).
