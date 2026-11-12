@@ -4,8 +4,9 @@ kind: book
 genre: [scripture]
 label: { en: "The Qur'an", ar: القرآن }
 summary:
-  en: "The scripture of Islam, which Muslims believe was revealed to the Prophet Muhammad; 114 suras and 6,236 verses in the Hafs reading as given by the Tanzil text."
-  ar: "كتاب الإسلام المقدس، يؤمن المسلمون بأنه أُنزل على النبي محمد؛ 114 سورة و6236 آية برواية حفص كما في نص تنزيل."
+  ar: "كتاب الإسلام المقدس، يؤمن المسلمون بأنه كلام الله أُنزل على النبي محمد؛ 114 سورة و6236 آية برواية حفص كما في نص تنزيل. تعرض دائرة المعارف الإسلامية تاريخ نصه عند المسلمين، من جمعه في عهد أبي بكر وعثمان إلى القراءات السبع والعشر، وتذكر إلى جانبه آراء الباحثين الأكاديميين في الجمع والمصاحف وتأريخ السور وترقيمها، وفي أثره في حياة المسلمين وفي مسألة خلقه وإعجازه وترجمته."
+  en: "The scripture of Islam, which Muslims believe is the word of God revealed to the Prophet Muhammad; 114 suras and 6,236 verses in the Hafs reading as given by the Tanzil text. The Encyclopaedia of Islam sets out the history of the text as Muslims transmit it, from its collection under Abu Bakr and Uthman to the Seven and Ten readings, and separately reports the academic views on its collection, the Companion codices, the dating and structure of the suras, its place in Muslim life, and the questions of its creation, inimitability and translation."
+  ur: "اسلام کی مقدس کتاب، جس کے بارے میں مسلمان مانتے ہیں کہ وہ اللہ کا کلام ہے جو نبی محمد پر نازل ہوا؛ تنزیل کے متن میں حفص کی روایت کے مطابق 114 سورتیں اور 6236 آیات ہیں۔ انسائیکلوپیڈیا آف اسلام متن کی وہ تاریخ بیان کرتا ہے جو مسلمان روایت کرتے ہیں، ابوبکر اور عثمان کے زمانے کی جمع سے سات اور دس قراءتوں تک، اور الگ سے جمع، صحابہ کے مصاحف، سورتوں کی ترتیب اور ساخت، مسلم زندگی میں اس کے مقام، اور خلق، اعجاز اور ترجمے کے مسائل پر علمی آرا بیان کرتا ہے۔"
 wings: [words]
 themes: [scripture-and-its-sciences]
 regions: [arabia]
@@ -20,9 +21,9 @@ text_source:
     - { path: data/work/quran-source/tanzil-simple-clean-v1.1.txt, sha256: 1862ee63c70fbfc6285e0bb0b9587b89beb5b7891109a4d543d9d2cf8283e8c8, use: text_search }
   frozen: "2026-10-11"
   rule: "The text in passage/quran-* files must equal these files exactly; scripts/validate.ts checks it on every build."
-provenance: { layer: by, source: tanzil-quran-v1.1, generated_by: "frozen Tanzil text" }
+provenance: { layer: by, source: tanzil-quran-v1.1, generated_by: "frozen Tanzil text", canon: "Encyclopaedia of Islam 2, vol. 5.1, article Al-Kur'an, PDF pp. 438-467, written by Claude Sonnet 5.5, run canon-cornerstones-22" }
 external_ids: { wikidata: "Q428" }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "القرآن ١١٤ سورة و٦٢٣٦ آية برواية حفص كما في نص تنزيل المجمد في المستودع."

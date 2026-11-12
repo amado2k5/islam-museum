@@ -13,9 +13,9 @@ gender: male
 roles: [companion]
 traditions: [sunni]
 summary:
-  en: "One of the first band of eight; he accepted Islam at Abu Bakr's invitation during the secret call in Mecca."
-  ar: "أحد الثمانية الرعيل الأول؛ أسلم بدعوة أبي بكر الصديق في سنوات الدعوة السرية بمكة."
-  ur: "ابتدائی آٹھ مسلمانوں میں شمار کیے جاتے ہیں؛ مکہ میں خفیہ دعوت کے دوران ابو بکر کی دعوت پر اسلام قبول کیا۔ {cite:mubarakpuri-raheeq}"
+  en: "One of the first band of eight; he accepted Islam at Abu Bakr's invitation during the secret call in Mecca. The Encyclopaedia of Islam calls him the most prominent early convert from Banu Zuhra, names his original name as Abd Amr or Abd al-Kaba, and reports that he emigrated to Abyssinia and Medina, fought at Badr and commanded a force of 700 men to Dumat al-Jandal. It adds that he became very wealthy as a merchant and was one of the six of the council that chose Uthman."
+  ar: "أحد الثمانية الرعيل الأول؛ أسلم بدعوة أبي بكر الصديق في سنوات الدعوة السرية بمكة. وتصفه دائرة المعارف الإسلامية بأنه أبرز من أسلم مبكراً من بني زهرة، وتذكر أن اسمه الأصلي عبد عمرو أو عبد الكعبة، وأنه هاجر إلى الحبشة والمدينة وقاتل في بدر وقاد قوة من سبعمئة رجل إلى دومة الجندل. وتضيف أنه صار ثرياً جداً بالتجارة وكان أحد الستة في المجلس الذي اختار عثمان."
+  ur: "ابتدائی آٹھ مسلمانوں میں شمار کیے جاتے ہیں؛ مکہ میں خفیہ دعوت کے دوران ابو بکر کی دعوت پر اسلام قبول کیا۔ {cite:mubarakpuri-raheeq} اسلامی انسائیکلوپیڈیا انھیں بنو زہرہ سے ابتدائی دور کے سب سے نمایاں مسلمان قرار دیتا ہے، ان کا اصل نام عبد عمرو یا عبد الکعبہ بتاتا ہے، اور لکھتا ہے کہ انھوں نے حبشہ اور مدینہ کی ہجرت کی، بدر میں لڑے اور سات سو آدمیوں کے لشکر کی قیادت کرتے ہوئے دومۃ الجندل گئے۔ مزید لکھا ہے کہ تجارت سے وہ بہت مالدار ہوئے اور عثمان کو چننے والی چھ رکنی مجلس میں شامل تھے۔"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -33,13 +33,14 @@ relations:
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "أسلم بدعوة أبي بكر", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira, source/ibn-hisham-saqqa]}
 external_ids: { wikidata: "Q1647771" }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/assabile-mosaad-anwar, source/ibn-hajar-isaba]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/assabile-mosaad-anwar, source/ibn-hajar-isaba, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
 provenance:
   layer: own-research
   source: "source/tabaqat-ibn-sad"
   generated_by: Devin
+  canon: "Encyclopaedia of Islam 2, vol. 1, article 'Abd al-Rahman b. 'Awf, PDF page 103, written by Claude Sonnet 5.5, run canon-cornerstones-22"
   model: "unknown"
   run: "education-E3-facts-batch11"
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}

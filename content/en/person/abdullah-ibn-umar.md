@@ -1,8 +1,8 @@
 ---
 id: person/abdullah-ibn-umar
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Brief
@@ -10,6 +10,20 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## Conversion and campaigns
 He embraced Islam with his father and emigrated. He was presented to the Prophet at Badr and was judged too young; the same happened at Uhud. At the [[event/battle-of-the-trench|Trench]] he was permitted, at fifteen years old, as the Sahih establishes {cite:ibn-hajar-isaba p.917}. Ibn Hajar also cites al-Baghawi's report, from Anas and Sa'id ibn al-Musayyib, that Ibn Umar witnessed Badr. The opposing report, from al-Bara', runs: "I and Ibn Umar were presented at Badr, and he sent us back" {cite:ibn-hajar-isaba p.917}.
+
+## Standing in the Encyclopaedia of Islam
+The Encyclopaedia of Islam, second edition, describes Ibn Umar as one of the most prominent figures of the first generation of Muslims and one of the authorities most often quoted for Traditions. It says his reputation rested not only on being the caliph's son but also on moral qualities that won the admiration of his contemporaries, and that while Muslims were being drawn by their passions into civil war he kept himself apart from the conflict {cite:encyclopaedia-of-islam-2 vol. 1 p. 72}. The article adds that he followed the precepts of Islam so scrupulously that later generations took him as a pattern, to the point that reports were gathered on how he dressed and how he cut and dyed his beard. It says the biographies are full of anecdotes about his wit, piety, gentleness, modesty and self-restraint, grants that some of them may have been invented, and judges his nobility of soul beyond dispute. As a transmitter, the article says, he has been regarded as the most scrupulous in adding nothing to the hadiths he narrated and omitting nothing from them {cite:encyclopaedia-of-islam-2 vol. 1 p. 72} {cite:encyclopaedia-of-islam-2 vol. 1 p. 73}.
+
+## Campaigns and public role according to the Encyclopaedia
+The article says he was born before the hijra, on an unspecified date. It reports that the Prophet sent him back for his age when he offered himself to fight at [[event/battle-of-badr|Badr]] and at [[event/battle-of-uhud|Uhud]], and accepted him at the siege of Medina, when he was about fifteen; it notes that this later served as a precedent in similar cases {cite:encyclopaedia-of-islam-2 vol. 1 p. 73}. It then lists his later campaigns: the expedition to [[event/battle-of-mutah|Mu'ta]] in 7 AH, the [[event/conquest-of-mecca|conquest of Mecca]] in 8, the wars against the claimants to prophethood [[person/musaylima|Musaylima]] and [[person/tulayha-ibn-khuwaylid|Tulayha]] in 12, the [[event/conquest-of-egypt|Egyptian campaign]] of 18 to 21, the battle of [[event/battle-of-nihawand|Nihawand]] in 21, the expedition of 30 AH to [[place/jurjan|Jurjan]] and [[place/tabaristan|Tabaristan]], and the expedition against [[place/constantinople|Constantinople]] in 49 AH, which the article describes as Yazid's {cite:encyclopaedia-of-islam-2 vol. 1 p. 73}.
+
+In politics, the article says he first appears as an adviser to the council that was to choose the next caliph from among its own members, with no vote and no eligibility himself. At the elections of the caliphs who came to power in his lifetime, it says, he conformed to the will of the majority. It reports that he withheld allegiance to [[person/ali-ibn-abi-talib|Ali]] because he was waiting for the community to agree on the choice, and that when no agreement came and civil war broke out he stayed neutral. It adds that he refused to recognise Yazid as heir presumptive, which the article reads as disapproval of the innovation [[person/muawiya-ibn-abi-sufyan|Muawiya]] introduced into the succession, yet paid him homage after his father's death. The article says Ibn Umar held no important administrative office apart from a few missions, and relates that he declined the post of judge, fearing he might not interpret the divine law correctly {cite:encyclopaedia-of-islam-2 vol. 1 p. 73}.
+
+## The offers of the caliphate
+According to the article, the caliphate was offered to him three times: right after the death of [[person/uthman-ibn-affan|Uthman]] in 35 AH, during the negotiations of the two arbiters at [[event/arbitration-of-siffin|Siffin]] in 37 to 38 AH, and after the death of Yazid I in 64 AH. The article says he refused each time because he wanted his election to be unanimous and wished to avoid bloodshed. It notes that Lammens has suggested this refusal may reflect narrow-mindedness, leaves that question open, and itself judges that Ibn Umar lacked energy {cite:encyclopaedia-of-islam-2 vol. 1 p. 73}. The al-Hasan al-Basri report about the refusal after Uthman's death, given below from Ahmad's book, is a separate account.
+
+## His wound and death according to the Encyclopaedia
+The article says Ibn Umar died of septicaemia in 73 AH, corresponding to 693 CE, well over eighty years old. It attributes this to a wound in the foot made by a soldier of [[person/al-hajjaj-ibn-yusuf|al-Hajjaj]] with the lower end of a lance, in the crowd of pilgrims returning from [[place/arafat|Arafat]]. It relates that al-Hajjaj visited him during the illness and asked whether he knew the man who had wounded him, so that he could be punished; Ibn Umar reproached al-Hajjaj for letting his men carry arms in the holy places and so causing the injury. The article reasons that this reproach probably gave rise to the story, found in certain later sources, that al-Hajjaj commissioned an assassin to wound Ibn Umar with a poisoned lance tip {cite:encyclopaedia-of-islam-2 vol. 1 p. 73}. The sources cited earlier on this page give differing years of death.
 
 ## Transmission and its extent
 He is among the most prolific narrators from the Prophet {cite:ibn-hajar-isaba p.917}. He also narrated from Abu Bakr, Umar, Uthman, Abu Dharr, Mu'adh and Aisha. Among the Companions who narrated from him were Jabir and Ibn Abbas. His sons included Salim, Abdullah, Hamza, Bilal and Zayd. Among the senior Successors were Sa'id ibn al-Musayyib, Alqama ibn Waqqas, Abu Abd al-Rahman al-Nahdi, Masruq and Jubayr ibn Nufayr; and among their freedmen, Nafi' and Abdullah ibn Dinar {cite:ibn-hajar-isaba p.918}.
