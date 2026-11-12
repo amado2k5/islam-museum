@@ -121,7 +121,8 @@ html[lang="ar"] .cx-src { font-family: var(--ar-body); font-size: .86rem; }
 
 /* ---- lesson: the check (works with no script: radios and details) ---- */
 .cx-q { border: 1px solid var(--rule); border-radius: 14px; padding: 14px 18px; margin: 0 0 14px; background: var(--card); min-width: 0; }
-.cx-q legend, .cx-q > p:first-child { font-weight: 600; padding: 0; margin: 0 0 8px; }
+.cx-q legend { float: inline-start; width: 100%; font-weight: 600; padding: 0; margin: 0 0 8px; }
+.cx-q legend + * { clear: both; }
 .cx-opt { display: grid; grid-template-columns: auto 1fr; align-items: center; column-gap: 10px; }
 .cx-opt label { display: flex; align-items: center; min-height: 44px; padding: 6px 10px; border-radius: 10px; cursor: pointer; }
 .cx-opt label:hover { background: var(--panel); }
