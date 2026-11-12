@@ -153,3 +153,23 @@ He shows how sensory error arises for each cause. Error from the distance of an 
 Error from the position of the object lying outside its measure occurs in an object of strong, closely alike colours tilted unevenly from the middle of sight and far from the ray-line. Sight perceives it as one colour, because an oblique and uneven image is confused and its parts are not distinguished. When the ray-line is moved until it falls on the object and passes over each of its points, sight perceives the difference of its colours {cite:manazir-sabra-1983 scan-p.393} {cite:manazir-sabra-1983 scan-p.394}.
 
 He begins the account of error from light lying outside its measure with the example of the object of strong, closely alike colours seen in the light of a weak fire {cite:manazir-sabra-1983 scan-p.394}; the account continues in the following pages.
+
+## Article 3, chapter 5 (end): sensory error from light, size, density, air, time and the eye
+
+Here he sets out examples of sensory error for each cause. A body of many colours, strong and closely alike, seen in the light of a weak fire appears entirely dark, and the viewer takes it for one colour, because strong colours look dark in faint light. The cause is light lying outside its measure {cite:manazir-sabra-1983 scan-p.394} {cite:manazir-sabra-1983 scan-p.395}.
+
+Error from size: an object containing pores and marks of different colours, each extremely small, is perceived as the single colour that covers the whole, because the small parts fall below the threshold of perception through their smallness {cite:manazir-sabra-1983 scan-p.395} {cite:manazir-sabra-1983 scan-p.396}.
+
+Error from density: a very transparent object with only a slight density, such as clear crystal or thin white glass, lying with a strongly coloured body behind it, is perceived as taking the colours behind it; its whiteness and purity of colour are not sensed, and the viewer does not know the colours belong to another body. The cause is the density of the transparent object lying outside its measure {cite:manazir-sabra-1983 scan-p.396}.
+
+Error from the air: an object seen through thick smoke takes on the colour of the smoke, so that a bright-coloured object appears dark; the cause is the transparency of the air lying outside its measure {cite:manazir-sabra-1983 scan-p.396} {cite:manazir-sabra-1983 scan-p.397}.
+
+Error from time: a body of different colours in a dim place, glanced at briefly and then turned from, is seen as one colour; if the eye rests on it for a measurable time, its differences appear. The cause is the time lying outside its measure, since very faint light acts on the eye only after a certain time {cite:manazir-sabra-1983 scan-p.397}.
+
+Error from the eye itself: a viewer who gazes long at strong light and then turns to a white or bright body in moderate light sees it dark, because the strong light leaves darkness in the eye for a while before it clears; likewise an ailment that darkens the eye makes everything appear dark and turbid. The cause is the eye lying outside its measure {cite:manazir-sabra-1983 scan-p.398}.
+
+He concludes that examples of sensory error have been shown for each cause {cite:manazir-sabra-1983 scan-p.398}.
+
+## Article 3, chapter 6: the manner of errors in knowledge
+
+Chapter 6 opens with its title, "on the manner of the errors of sight that occur in knowledge according to each of the causes", and notes that the quiddity of every object is perceived through knowledge: the object's form is compared with the forms of its kind that sight already knows, and that is knowledge by kind, as the second treatise showed {cite:manazir-sabra-1983 scan-p.398}.
