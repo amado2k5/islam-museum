@@ -993,3 +993,18 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 682 (printed) | 398 | "الحلوة بالمحل المكين" | the sense is likely (sweetness of character) but the word is not certain | rendered as sweetness of character in a firm station; flagged |
 | 682 (printed) | 399–400 | the address of God to the child of Adam | a report of earlier scripture, long | described in outline only; the wording is not given |
 | 682 (printed) | 399 | the chain "عبيدة الربدى" | legible; the nisba is read as al-Rabadhi | given as read |
+
+## Batch 105 (run microsd-books-b105, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 400–401 (full text read before writing). New draft: person/zakariya-ibn-al-salt (printed 683, sequence 684, 10/400). No existing record of the name. Notice complete on page 400; 684 (the brothers Abd Allah and Hammam, sons of Muhammad ibn al-Nu'man ibn Abd al-Salam) begins on the same page.
+- Checked against the scan: the epithets; the first saying (intercession through service to the Lord of the worlds); the saying on looking at an innovator (the word "المى" is unclear; "الهدم" is the likely reading and is flagged, not asserted); the chain from Ahmad ibn Ishaq to Abu Hurayra; the note that Abd al-Ghaffar alone transmits it from Sa'id.
+- The hadith carries the Prophet's formula; described only, not quoted.
+- Printed 684 (the brothers Abd Allah and Hammam) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 105)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 683 (printed) | 400 | "أعان النظر على المى" | the word is unclear in the scan; "الهدم" is the likely reading | flagged; not asserted |
+| 683 (printed) | 400 | the hadith from Abu Hurayra | a quoted report with the Prophet's formula | described only |
