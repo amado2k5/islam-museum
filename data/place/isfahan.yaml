@@ -3,13 +3,14 @@ class: place
 kind: city
 label: { en: Isfahan, ar: أصفهان }
 summary:
-  ar: مدينة في وسط إيران قضى فيها ابن سينا سنواته الأخيرة في بلاط علاء الدولة.
-  en: Central Iranian city where Ibn Sina spent his last years at the court of Ala al-Dawla.
+  ar: "مدينة ومقاطعة في وسط إيران، قضى فيها ابن سينا سنواته الأخيرة في بلاط علاء الدولة. كانت عاصمة سلجوقية في عهد طغرل بك وملكشاه، ثم عاصمة صفوية جعلها الشاه عباس مدينة بميدان الشاه وجامعه ومساجده وقصوره. تعرضت للحصار والنهب على يد تيمور ثم الأفغان، وتحتفظ اليوم بمجمع من أهم المعالم الإسلامية المحفوظة في مدينة حديثة."
+  en: "A city and province in central Iran, where Ibn Sina spent his last years at the court of Ala al-Dawla. It was a Seljuk capital under Tughril Beg and Malikshah, then the Safavid capital that Shah Abbas replanned around the Maydan-i Shah. It suffered massacre and siege under Timur and the Afghans, and today keeps one of the most significant complexes of Islamic monuments preserved in a modern city."
+  ur: "وسطی ایران کا شہر اور صوبہ، جہاں ابن سینا نے اپنے آخری سال علاء الدولہ کے دربار میں گزارے۔ یہ طغرل بیگ اور ملک شاہ کے دور میں سلجوقی دارالحکومت رہا، پھر صفوی دارالحکومت بنا جسے شاہ عباس نے میدان شاہ کے گرد نئے سرے سے ترتیب دیا۔ اس نے تیمور اور افغانوں کے ہاتھوں قتل عام اور محاصرے سہے، اور آج ایک جدید شہر میں محفوظ اسلامی یادگاروں کے اہم ترین مجموعوں میں سے ایک رکھتا ہے۔"
 wings: [place]
 regions: [persia-central-asia]
 coordinates: [32.6546, 51.668]
 external_ids: { wikidata: Q42053, geonames: "418863", pleiades: "902990", nomisma: "isfahan", idai: "2089954" }
-sources: [source/farghani-elements-astronomy, source/nomisma, source/idai-gazetteer]
+sources: [source/farghani-elements-astronomy, source/nomisma, source/idai-gazetteer, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "أصفهان في وسط إيران قضى فيها ابن سينا سنواته الأخيرة في بلاط علاء الدولة."
@@ -28,6 +29,7 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "claude-haiku-5-5"
   run: "farghani-389-577"
+  canon: "Encyclopaedia of Islam 2nd ed. vol. 4, article Isfahan, PDF pages 106-116, written by Claude Sonnet 5.5, run canon-cornerstones-10"
 kids:
   ar: "أصبهان عاصمة الصفويين، قالوا فيها نصف الدنيا، فيها ميدان نقش جهان."
   en: "Isfahan, capital of the Safavids — so beautiful they called it half the world, with its Naqsh-e Jahan square."

@@ -1,11 +1,41 @@
 ---
 id: building/sulaymaniyya-mosque
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
-The mosque of Suleiman the Magnificent in [[place/istanbul|Istanbul]], built by Sinan in 1557 on a hill overlooking the Golden Horn; a dome 53 metres high and a complex of madrasas, a hospital and a public kitchen. {cite:wikidata}
+The mosque of [[person/sulayman-al-qanuni|Suleiman the Magnificent]] in [[place/istanbul|Istanbul]], built by [[person/mimar-sinan|Sinan]] in 1557 on a hill overlooking the Golden Horn; a dome 53 metres high and a complex of madrasas, a hospital and a public kitchen. {cite:wikidata}
+
+## What the Encyclopaedia of Islam offers
+The second edition of the Encyclopaedia of Islam has no article devoted to the mosque. The entry headed Sulaymaniyya describes the Kurdish city and region of that name in Iraq, which is a different place. {cite:encyclopaedia-of-islam-2 vol. 9 p. 855} The mosque appears instead inside other articles: the one on Istanbul, which describes the whole complex and its building site, the one on Sinan, which assesses it as architecture, and the one on the minaret, which mentions its towers. This page follows those passages, together with a single remark in the article on ceramics. {cite:encyclopaedia-of-islam-2 vol. 4 p. 245} {cite:encyclopaedia-of-islam-2 vol. 9 p. 644}
+
+## The commission
+The Istanbul article places the mosque among the building projects of Sultan Süleyman. In 946/1539 he had a complex of mosque, madrasa, hospital, hospice and school built in the name of his wife Khurrem at the Avret Pazari, in the district of Aksaray. In memory of his son Mehmed he had a complex built on the Divan Yolu, finished in 955/1548, and for another son, Cihangir, a mosque and school at Findikli. {cite:encyclopaedia-of-islam-2 vol. 4 p. 245} The Sinan article records that the death of Mehmed in 1543 gave Sinan his first major commission, the [[building/sehzade-mosque|Shehzade complex]]. {cite:encyclopaedia-of-islam-2 vol. 9 p. 644}
+
+The great complex came after these. A fire had cleared an area in the centre of the city, and Süleyman entrusted Sinan with building on a hill overlooking the harbour what the article calls the most elaborate building complex of the capital. The mosque was begun in Jumada II 957/July 1550 and completed in Dhu 'l-Hijja 964/October 1557, and the article refers to its foundation inscription. {cite:encyclopaedia-of-islam-2 vol. 4 p. 245} The Sinan article gives the same span as 957-64/1550-7. {cite:encyclopaedia-of-islam-2 vol. 9 p. 644}
+
+## The architect
+The article on Sinan says that he was born in 895/1490 and was chief Ottoman court architect from 945/1538 until his death in 996/1588. It describes him as a man of Christian Greek origin, taken into service through the [[concept/devshirme|devshirme]] levy in the reign of Selim I. It credits him with a body of work unmatched in quantity and quality, not only in Ottoman but in Islamic architecture as a whole. Late sixteenth-century sources list some 477 buildings for him; the article notes that he cannot have supervised each of them, and that for distant places he can hardly have done more than send a plan. {cite:encyclopaedia-of-islam-2 vol. 9 p. 644}
+
+It names three complexes as his largest, the Shehzade, the Süleymaniyye and the [[building/selimiye-mosque|Selimiyye at Edirne]], each a step in his maturity. In each he kept the form standard for major Ottoman mosques since the Üç Şerefeli in Edirne, a large domed chamber joined to a square or rectangular courtyard. {cite:encyclopaedia-of-islam-2 vol. 9 p. 644} Two features that the author finds in the Shehzade and in his later great mosques are a much greater number of windows than in the earlier Bayezid II mosque, made possible by thickening the supporting walls with buttresses, and a stepped, pyramidal roofline in which the square block under the dome is almost hidden. {cite:encyclopaedia-of-islam-2 vol. 9 p. 644}
+
+## The mosque
+In the Sinan article the Süleymaniyye is called the most ambitious single Ottoman complex. The mosque itself was set apart from the surrounding buildings by a garden, which the author reads as a variation on the ziyada. Standing on a hill above the harbour, it still dominates the skyline of the city. {cite:encyclopaedia-of-islam-2 vol. 9 p. 644}
+
+Sinan took up the challenge of [[building/hagia-sophia|Hagia Sophia]], whose dome was the largest in Istanbul, by reproducing its vaulting scheme of a central dome with two flanking domes on its main axis. At floor level, however, the vast interior was adjusted to the needs of Muslim worship: the aim was the greatest possible uninterrupted space, so that worshippers could pray in rows. The plan is, the article says, quite like that of the Shehzade, except that three smaller domes on the sides replace the earlier mosque's semi-dome and exedrae. {cite:encyclopaedia-of-islam-2 vol. 9 p. 644}
+
+The article on the minaret returns to the mosque's towers. It notes that in the mature Ottoman mosques of Istanbul two or more minarets are standard, and that using them in pairs, quartets or sextets seems to have signalled royal status, since apparently only a reigning sultan could build more than one. The author describes such minarets as needle-sharp lances grouped like a guard of honour around the royal dome, and gives the height of the pair flanking the Süleymaniye dome as some 70 metres each. {cite:encyclopaedia-of-islam-2 vol. 6 p. 386} The author also argues that on a sloping site in the Ottoman capital these towers became part of urban design on a very large scale. {cite:encyclopaedia-of-islam-2 vol. 6 p. 386}
+
+The article on ceramics lists the Sulaymaniyya, dated 965/1557, first among new mosques that fix the dates of large panels of tilework built into them, with the Rustam Pasha mosque, the Sokollu mosque and the Piyale mosque following. {cite:encyclopaedia-of-islam-2 vol. 4 p. 1222} A caution from the Sinan article applies to all his interiors: none of his buildings has kept its painted decoration intact without restoration, so judgements based on the architecture alone leave out part of the original effect. {cite:encyclopaedia-of-islam-2 vol. 9 p. 645}
+
+## The complex around the mosque
+The Istanbul article counts no fewer than 18 elements in the Süleymaniyye; the Sinan article speaks of some 14 buildings of various functions fitted onto the sloping site. {cite:encyclopaedia-of-islam-2 vol. 4 p. 245} {cite:encyclopaedia-of-islam-2 vol. 9 p. 644} The Istanbul article gives their layout. Within the court stand the mosque, the tombs of Süleyman and of [[person/khurram-sultan|Khurrem Sultan]] and the house of the keeper of the tombs. Outside, on two sides of the mosque, are four [[concept/madrasa|madrasas]] and the [[building/suleymaniye-darulhadis|dar al-hadith]], which the article calls the highest institutes of learning of the empire. The other large buildings include a hospital and a dar al-diyafa, a house of hospitality. The smaller ones are a college for the mülazims, students preparing to enter a madrasa, a library, a pharmacy and a children's school. {cite:encyclopaedia-of-islam-2 vol. 4 p. 245}
+
+Several houses for teachers and mosque servants, a khan, and shops in front of the madrasas that form a market complete the whole. The article adds that, according to the traveller Evliya Çelebi, the palace of the agha of the Janissaries, later the office of the Shaykh al-Islam, also belonged to the complex. {cite:encyclopaedia-of-islam-2 vol. 4 p. 245}
+
+## The building site
+The registers of expenses for the work survive and are described as valuable evidence for how so large an enterprise was run. Materials and craftsmen were gathered from Istanbul and from other parts of the empire, and the workmen were kept under strict discipline. Of the craftsmen paid over the whole period of five years and seven months, 29 per cent came from Istanbul, 14 per cent from Rumeli and the islands and 13 per cent from Anatolia; for 44 per cent no origin is recorded. Of 3,523 craftsmen, 51 per cent were Christians and 49 per cent Muslims. Builders of walls, ironworkers and sewer workers were mainly Christian; the article lists carvers, carpenters, painters, glassworkers and lead workers as mainly Muslim. Of the total workforce, 55 per cent were free men paid wages and 5 per cent were galley-slaves. {cite:encyclopaedia-of-islam-2 vol. 4 p. 245}
 
 ## Legacy
 It was the centre of Ottoman education and health; it is still the most prominent of the Istanbul mosques on the city's skyline. {cite:wikidata}
