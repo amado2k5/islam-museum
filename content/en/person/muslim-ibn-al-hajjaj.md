@@ -1,9 +1,40 @@
 ---
 id: person/muslim-ibn-al-hajjaj
 lang: en
-source_lang: ar
+source_lang: en
 translators: []
 ---
+## Overview
+Abu al-Husayn Muslim b. al-Hajjaj b. Muslim al-Qushayri al-Naysaburi, usually called simply Muslim, was one of the outstanding early collectors of Prophetic traditions. The Encyclopaedia of Islam article, by G.H.A. Juynboll, whose account this part of the page follows, describes him chiefly through his collection al-Jami' al-sahih, known as the [[work/sahih-muslim|Sahih]] for short. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745}
+
+## Birth and travels
+He was born at [[place/nishapur|Nishapur]] in 202/817, although another report gives 206/821. The article notes that the later date fits better with his reported age at death in 261/875, fifty-five lunar years, and that [[person/ibn-khallikan|Ibn Khallikan]] weighs the two dates against each other. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745} From an early age he is said to have travelled to [[place/iraq|Iraq]], the [[place/hijaz|Hijaz]], [[place/syria|Syria]] and Egypt in search of hadith, on journeys known as talab al-'ilm. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745}
+
+## Teachers
+The article says he is alleged to have heard traditions from a number of masters. The most influential, in its list, are [[person/yahya-ibn-yahya-al-tamimi|Yahya b. Yahya al-Naysaburi]], who died between 224 and 226/839 and 841, [[person/abd-allah-ibn-maslama-al-qanabi|'Abd Allah b. Maslama al-Qa'nabi]], who died in 220 or 221/835 or 836, and [[person/qutayba-ibn-said|Qutayba b. Sa'id]], who died in 240/854, all three major pupils of [[person/malik-ibn-anas|Malik b. Anas]]. It adds 'Ubayd Allah b. 'Amr al-Qawariri, Abu Kurayb Muhammad b. al-'Ala', 'Uthman b. Abi Shayba, Muhammad b. al-Muthanna and Muhammad b. Rafi'. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745}
+
+Among the masters whose own works have come down and are partly available in print, it names 'Ali b. Hujr, 'Abd b. Humayd, Abu Khaythama Zuhayr b. Harb, Abu Bakr b. Abi Shayba, [[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]], Ishaq b. Ibrahim ibn Rahawayh, Muhammad b. Bashshar Bundar and [[person/said-ibn-mansur|Sa'id b. Mansur]]. Another teacher was Harmala b. Yahya, whose own works are lost but who was the main pupil of the Egyptian collector [[person/abdallah-ibn-wahb-al-misri|'Abd Allah b. Wahb]], who died in 197/812, whose partly preserved works are among the oldest extant. The article adds that [[person/al-shafii|al-Shafi'i]] was another important master of Harmala. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745}
+
+One of his teachers is singled out as problematic. Isma'il b. Abi Uways, who died in 226 or 227/841 or 842, is called a controversial transmitter who once admitted that he settled disputes among Medinan scholars by means of some fabricated traditions. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745}
+
+## The Sahih and its standing
+According to the consensus of Sunni hadith experts, the article says, Muslim's collection forms, together with the Sahih of [[person/al-bukhari|al-Bukhari]], the most reliable collection of Prophetic traditions. For these two books, to which four more were added in time to make up the Six Books, this resulted in a prestige that the article calls commensurate with canonisation. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745}
+
+There has been some controversy over whether Muslim's work should be preferred even to al-Bukhari's. In the Maghrib, the article says, Muslim's Sahih seems at times to have been preferred, and it names [[person/ibn-hazm|Ibn Hazm]] in this context: he is alleged to have censured al-Bukhari for adding numerous ta'liqat, that is supporting traditions whose chain is interrupted, a practice Muslim very rarely used. Muslim's fourteen ta'liqat are listed in the commentary of [[person/al-nawawi|al-Nawawi]], who died in 676/1278 and who, with Qadi 'Iyad, who died in 544/1149, is called Muslim's most important commentator. Comparisons of the two collectors are given, the article notes, by al-Khatib al-Baghdadi, Ibn al-Salah, al-Nawawi and al-Suyuti. In the long run, the article concludes, it was al-Bukhari's work that took pride of place as the holiest book of Islam, immediately followed by Muslim's. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745}
+
+## Number of traditions
+Muslim is alleged to have said that he gathered 300,000 traditions from which he made his selection. Medieval scholars put the total included in the Sahih at 4,000, not counting repetitions. The modern editor, Muhammad Fu'ad 'Abd al-Baqi, counted even more repetitions and found a little over 3,000 individual traditions. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745}
+
+## Organisation and usefulness
+The article judges that Muslim's Sahih, though the second most prestigious collection, is for modern historians the most useful of the Six Books, because of how its chapters are organised. It reports that al-Bukhari's work was at first rated more highly, mostly because of its more sophisticated chapter headings, beside which Muslim's were felt to fall short, though al-Nawawi later improved them considerably. {cite:encyclopaedia-of-islam-2 vol. 7 p. 745} {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
+
+On the author's account, al-Bukhari's chapters are presumed to follow juridical content strictly but prove rather loose on closer inspection, with traditions of vaguely related or even unrelated juridical focus added, and with the same matter repeated in many chapters, each repetition with its own chain. In Muslim's Sahih, by contrast, each chapter rests on one or sometimes several main clusters, a term the author newly coins for the contents of a tradition seen as one of several facets of a basic idea, and all repetitions, with their chains, are gathered in the same chapter. This allows a quick view of how often a text occurs. The article cites a remark of 'Umar b. Raslan al-Bulqini, who died in 805/1403, that Muslim was distinguished by gathering the routes of a hadith in one place. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
+
+The article adds that Qadi 'Iyad distinguished in Muslim's collection basic items, called usul, together with further material called mutabi'at and shawahid, terms perhaps first introduced by Ibn Hibban, who died in 354/965. It reports that the isnads of the usul are more often than not of relatively late origin, whereas the accompanying mutabi'at usually show much older common links. On this basis the author judges that, unlike the other canonical collections, Muslim's Sahih is indispensable for the analysis and dating of traditions. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
+
+## The introduction and other works
+A unique feature of the Sahih, according to the article, is its introduction. Its final section deals with a controversial point, the unacceptability of mu'an'an isnads, on which Muslim is reported to have taken a somewhat more flexible position. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746} The article says he is credited with a number of other works, of which the K. al-Kuna and the K. al-munfaridat wa-l-wuhdan are quoted in Ibn Hajar's Tahdhib. {cite:encyclopaedia-of-islam-2 vol. 7 p. 746}
+
 ## In brief
 Abu al-Husayn Muslim b. al-Hajjaj b. Muslim al-Qushayri of Nishapur, the imam, memoriser, and "proof of Islam" whose compilations defined the canon; he is said to have been born in 204 AH, and his first hadith-hearing was in 218 AH, after which he transmitted widely from Yahya b. Yahya, al-Tamimi, al-Qa'nabi, Ahmad b. Yunus al-Yarbu'i, Isma'il b. Abi Uways, Sa'id b. Mansur, Ahmad b. Hanbal, and many others. {cite:tazkirat-al-huffaz j.2 p.526-527} Ibn al-Nadim lists his books including the Sahih, al-Asma' wa-l-kuna, al-Awhad, al-Mufrad, al-Tarikh, and al-Tabaqat. {cite:fihrist-ibn-al-nadim p.322}
 

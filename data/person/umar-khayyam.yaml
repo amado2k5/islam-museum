@@ -40,8 +40,9 @@ perspectives:
 born: { edtf: "1048", hijri: "0439", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "1131", hijri: "0526", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
-  ar: "رياضي وفلكي وفيلسوف وشاعر، لا يُعرف عن حياته الكثير."
-  en: "A mathematician, astronomer, philosopher and poet. Little is known of his life."
+  ar: "عالم وشاعر من العصر السلجوقي، من أهل نيسابور بحسب البيهقي، جمع بين الرياضيات والفلك والفلسفة. تذكر دائرة المعارف الإسلامية رسائله في المعادلات المكعبة وشرحه لمصادرات إقليدس ودوره في إصلاح التقويم برعاية ملكشاه. وتنسب إليه رباعيات متنازع في صحة كثير منها، وتعرض الموسوعة النزاع دون أن يحكم المتحف في أي منها."
+  en: "A scholar and poet of the Seljuk period, a native of Nishapur according to al-Bayhaqi, who combined mathematics, astronomy and philosophy. The Encyclopaedia of Islam reports his treatises on cubic equations, his commentary on Euclid's postulates and his part in the calendar reform under Malik Shah. Quatrains are attributed to him, many of disputed authenticity; the article sets out the dispute and the museum gives no verdict on any of them."
+  ur: "سلجوقی دور کے عالم اور شاعر، جو بیہقی کے مطابق نیشاپور کے تھے، اور ریاضی، فلکیات اور فلسفے کو جمع کرتے تھے۔ انسائیکلوپیڈیا آف اسلام ان کے مکعب مساواتوں کے رسالوں، اقلیدس کے مسلموں کی شرح اور ملک شاہ کے تحت تقویم کی اصلاح میں ان کے کردار کا ذکر کرتا ہے۔ ان سے رباعیات منسوب ہیں جن میں سے بہت سی کی صحت متنازع ہے؛ مقالہ تنازع بیان کرتا ہے اور میوزیم کسی پر فیصلہ نہیں دیتا۔"
 wings: [people]
 themes: [mathematics, astronomy-and-timekeeping, philosophy-and-logic]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -59,7 +60,7 @@ inventions:
   - { invention: invention/khayyam-geometric-cubics, role: improver, note: "Systematic conic treatment of fourteen cubic forms; earlier particular solutions and limits retained.", sources: [source/sep-umar-khayyam, source/khayyam-woepcke-1851] }
 external_ids:
   wikidata: Q35900
-sources: [source/mawsuat-a3lam-ulama-adaba, source/sep-umar-khayyam, source/tdv-omer-hayyam-unat, source/khayyam-mactutor, source/khayyam-woepcke-1851, source/thomann-jalali-calendar-2021, source/iranica-calendars-abdollahy, source/berlin-astronomical-tables-211, source/vahabzadeh-khayyam-mathematician]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/sep-umar-khayyam, source/tdv-omer-hayyam-unat, source/khayyam-mactutor, source/khayyam-woepcke-1851, source/thomann-jalali-calendar-2021, source/iranica-calendars-abdollahy, source/berlin-astronomical-tables-211, source/vahabzadeh-khayyam-mathematician, source/encyclopaedia-of-islam-2]
 importance: 1
 status:
   review: published
@@ -70,6 +71,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch63
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 10, article 'Umar Khayyam, PDF pages 882-889, written by Claude Sonnet 5.5, run canon-cornerstones-14"
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b73", source: "Actual Vahabzadeh selected analysis/authorpages1–4,Stanford4.2,Unatgeometry;parallels extension,not primary commentary reading. Original identity/perspectives,dates,attribution,calendar/cubic ties retained." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b51", source: "Qualified reported calendar association from actual Thomann main1–6/MacTutor, Abdollahy comparison and inspected Berlin witness; all earlier fields, cubic tie, Sunni-first identity perspectives and attribution retained." }

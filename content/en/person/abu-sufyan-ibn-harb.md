@@ -1,8 +1,8 @@
 ---
 id: person/abu-sufyan-ibn-harb
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Summary
@@ -14,6 +14,26 @@ A merchant prince of [[group/banu-umayya|Banu Umayya]], he led the caravan whose
 When Mecca could no longer hold out, he went out to the Muslims' camp and was granted safe conduct. The tradition preserves the Prophet's saying that whoever enters Abu Sufyan's house is safe. A few weeks later he fought alongside the Muslims at [[event/battle-of-hunayn|Hunayn]], and the tradition says he lost his second eye at al-Ta'if {cite:ibn-sad-tabaqat-bewley}.
 
 In the Rashidun period he was given a post, and he saw his sons placed in the new order: [[person/muawiya-ibn-abi-sufyan|Mu'awiya]] in Syria, and [[person/umm-habiba-bint-abi-sufyan|Umm Habiba]], wife of the Prophet himself. He died about 653 CE, a very old man {cite:tabari-donner-1993}.
+
+## In the Encyclopaedia of Islam
+
+The second edition of the Encyclopaedia of Islam describes Abu Sufyan ibn Harb ibn Umayya as a prominent merchant and financier of [[place/mecca|Mecca]], of the clan of [[group/banu-abd-shams|Abd Shams]] of [[group/quraysh|Quraysh]]. His name was Sakhr, and his kunya is sometimes given as Abu Hanzala. {cite:encyclopaedia-of-islam-2 vol. 1 p. 170}
+
+The article says that Abd Shams had once belonged to a political group called the Mutayyabun, which included the clan of Hashim, but that around the time of [[person/muhammad|Muhammad]] it drew away and cooperated in some matters with the rival group made up of [[group/banu-makhzum|Makhzum]], [[group/banu-jumah|Jumah]], [[group/banu-sahm|Sahm]] and others. As head of Abd Shams he joined in opposing Muhammad in the years before the hijra, though the article judges that his opposition was less violent than that of [[person/abu-jahl|Abu Jahl]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 170}
+
+He led caravans in person on several occasions. The article singles out 2 AH, 624 CE, when a caravan of a thousand camels coming back from Syria under his command was threatened by Muhammad. The Meccans sent out about a thousand men under Abu Jahl to help. By skilful leadership Abu Sufyan eluded the Muslims, but Abu Jahl was eager to fight. In the battle that followed, his son Hanzala was killed, and his wife [[person/hind-bint-utba|Hind]] lost her father Utba. {cite:encyclopaedia-of-islam-2 vol. 1 p. 170}
+
+According to the article, Abu Sufyan seems to have been in charge of the preparations to avenge Badr, and he commanded the large army sent against [[place/medina|Medina]] in 3 AH, 625 CE, probably by virtue of a hereditary privilege, the kiyada. It says he wished to attack the main settlement of Medina after Uhud but was prevented by [[person/safwan-ibn-umayya|Safwan ibn Umayya]] of Jumah, possibly out of jealousy. {cite:encyclopaedia-of-islam-2 vol. 1 p. 170}
+
+He also organised the great confederacy that besieged Medina in 5 AH, 627 CE. When this proved a failure, the article suggests, he perhaps lost heart, and resistance to Muhammad in Mecca came to be directed by the leaders of the rival group, Safwan ibn Umayya, [[person/suhayl-ibn-amr|Suhayl ibn Amr]] and [[person/ikrima-ibn-abi-jahl|Ikrima ibn Abi Jahl]]. Abu Sufyan is not mentioned in connection with the peace of [[event/treaty-of-hudaybiyya|al-Hudaybiyya]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 170}
+
+In 8 AH, 630 CE, allies of Quraysh openly broke the peace, and Abu Sufyan went to Medina to negotiate. The article says what happened is not clear but that he possibly reached some understanding with Muhammad. It adds that Muhammad's marriage to his daughter [[person/umm-habiba-bint-abi-sufyan|Umm Habiba]] may have softened his attitude, even though she had spent some fifteen years in [[place/abyssinia|Abyssinia]] as a Muslim. {cite:encyclopaedia-of-islam-2 vol. 1 p. 170}
+
+When Muhammad marched on Mecca soon afterwards, Abu Sufyan and [[person/hakim-ibn-hizam|Hakim ibn Hizam]] came out and submitted to him, apparently now becoming Muslims, and those who took refuge with Abu Sufyan were guaranteed security. The article concludes that he did much to bring about a peaceful surrender at the [[event/conquest-of-mecca|conquest of Mecca]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 170}
+
+He took part in the battle of Hunayn and the siege of [[place/taif|al-Ta'if]], where he is said to have lost an eye. The article notes that, like the other Meccans, he would have been well aware that [[group/hawazin|Hawazin]] and [[group/thaqif|Thaqif]] were as hostile to Mecca as to Muhammad. In the distribution of the spoils he and Hakim seem to have received an especially large gift in recognition of their services. After al-Ta'if submitted, Abu Sufyan, who had business and family connections there, helped to destroy the idol of [[object/al-lat|al-Lat]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 170}
+
+The article says he was appointed governor of [[place/najran|Najran]] and perhaps also of the [[place/hijaz|Hijaz]], but that it is disputed whether the appointment came from Muhammad or from [[person/abu-bakr|Abu Bakr]]. It observes that if he was in Mecca at Muhammad's death and spoke against Abu Bakr, he cannot have been governor of Najran then, and it suggests that the alleged speech, like many statements about him, may be anti-Umayyad propaganda. He was present at the battle of [[event/battle-of-yarmuk|the Yarmuk]], but the article thinks he may have done little more than exhort the younger men, since he was about seventy. He is said to have died about 32 AH, 653 CE, aged about eighty-eight. Of his sons, [[person/yazid-ibn-abi-sufyan|Yazid]] died as a Muslim general in Palestine about 18 AH, 639 CE, and Mu'awiya was the first Umayyad caliph. {cite:encyclopaedia-of-islam-2 vol. 1 p. 170}
 
 ## For young visitors
 Abu Sufyan fought the Muslims for six years. Then he made peace, joined them, and lived to see his son become a caliph.

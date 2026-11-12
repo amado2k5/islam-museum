@@ -30,6 +30,7 @@ import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatT
 import { JANNA_TAG, jannaCorpusOf, jannaKindOf, jannaSignalsOf, jannaTagSection, isJannaPassage, type JannaKind } from "./janna.js";
 import { MUKATABAT_TAG, mukatabatCorpusOf, mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf, mukatabatTagSection, mukatabatTagSender, isMukatabatPassage } from "./mukatabat.js";
 import { NAR_TAG, narKindOf, narSectionOf, narSignalsOf, narTagSection, isNarPassage } from "./nar.js";
+import { USRA_TAG, usraCorpusOf, usraSignalsOf, usraTagSection, usraTopicsOf, isUsraPassage } from "./usra.js";
 import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { PLACES_TAG, PLACE_CORPORA, placeCorpusOf, placeSectionOf, type PlaceCorpus } from "./places.js";
@@ -317,6 +318,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : jannaTagSection(n),
       janna_kind: n.class === "passage" ? jannaKindOf(n) : null,
       signals: n.class === "passage" ? jannaSignalsOf(n) : [],
+    }) },
+  { file: "usra.json", feature: "usra-browser",
+    pick: (n) => n.tags.includes(USRA_TAG) || isUsraPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? usraCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : usraTagSection(n),
+      topics: n.class === "passage" ? usraTopicsOf(n) : [],
+      signals: n.class === "passage" ? usraSignalsOf(n) : [],
     }) },
   { file: "hisab.json", feature: "hisab-browser",
     pick: (n) => n.tags.includes(HISAB_TAG) || isHisabPassage(n),
