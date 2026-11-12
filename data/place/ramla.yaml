@@ -12,7 +12,7 @@ regions: [levant-iraq]
 coordinates: [31.9275, 34.8625]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata Q221447; approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q221447" }
+external_ids: { wikidata: "Q221447", nomisma: "al-ramlah" }
 relations:
   - { type: part_of, target: place/jerusalem, note: "عاصمة جند فلسطين بعد تأسيسها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: site_of, target: event/founding-of-ramla, sources: [source/futuh-buldan-maarif-1407] }
@@ -21,6 +21,6 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 195–196"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-10
-sources: [source/futuh-buldan-maarif-1407, source/umayyad-birth-to-fall-2006, source/ahsan-al-taqasim, source/wikidata]
+sources: [source/futuh-buldan-maarif-1407, source/umayyad-birth-to-fall-2006, source/ahsan-al-taqasim, source/wikidata, source/nomisma]
 importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

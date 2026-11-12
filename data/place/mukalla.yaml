@@ -9,8 +9,8 @@ wings: [place]
 coordinates: [14.533333333333, 49.133333333333]
 coordinate_precision: locality
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q310772" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q310772", nomisma: "al-mukalla" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q310772 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
