@@ -737,3 +737,20 @@ Next step: episode 14. Sensitivity: ep12 and ep13 hold the lecturer's views on w
 | Remark on a poor sibling and a rich sibling's duty to spend | ep29 00:08:00-00:08:30 | Partly garbled | Clarity | Open |
 
 Series status: `tariq-al-noor` is complete (30 of 30 episodes written, draft). Open items for review: the listed `needs_source` marks and a listen-check of the passages flagged garbled.
+
+### albuyout-alamena, episodes 14–15 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-7)
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep14–ep15 (difference, dispute and taking oneself to account; trial and the pharmacy of hope) | about 46 min, 47 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 15 points | 19 new `about` edges (ibtila, tafaul, amal, Harun al-Rashid, Ali ibn al-Jahm, Ibn Ata Allah, Yusuf, Maryam, passages 49:14, 12:4, 28:7, 22:11, 9:40, 94:5-6) | ep14 8, ep15 7 points; engine qwen3-asr pass5, 30 s windows | 9 needs_source: ep14 the Bedouin and al-Rashid story (00:15:00), percentages (00:21:00), Khadija and the tent (00:27:00), call details (00:31:00); ep15 verse attributed to Ibn al-Qayyim (00:01:30), the woman and the child in the fire (00:11:00), stories with no source (00:16:30, 00:24:00), a tenth of the blood-money ruling (00:32:00) | run omar-abdelkafy-albuyout-7 |
+
+Next step: episode 16.
+
+| Excluded (albuyout-alamena ep14–ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep14 00:00:00–00:01:30, 00:14:30–00:15:00, 00:30:00–00:30:30, 00:44:30–00:45:00; ep15 00:00:00–00:01:30, 00:15:30–00:16:00, 00:31:30–00:32:00, 00:46:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep14 00:00:30, 00:02:30, 00:16:30, 00:24:00, 00:43:30; ep15 00:05:30, 00:12:00, 00:27:00 (tail), 00:42:00, 00:26:00 | Not speech | Loop check | Open |
+| Calls and answers too garbled to read | ep14 00:31:00–00:38:00 (in part); ep15 00:35:30–00:36:30, 00:38:30–00:43:00 (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Verse wording (the Bedouin's poem, the verse on sorrows relieved, the verse on the toothstick) | ep14 00:19:00–00:21:30; ep15 00:29:00 | Verbatim verse, partly garbled; given by sense | Sources policy; clarity | Open |
+| Hadith wording | ep14 00:25:00; ep15 00:14:00, 00:21:30 | Wording not typed; reported by sense only | Hadith rule | Open |
+| Calls on magic, possession and a medical suspicion | ep15 00:42:00–00:43:00 | Fragmentary; the lecturer's short answer only is summarised | Clarity | Open |
