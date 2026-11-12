@@ -1,0 +1,24 @@
+id: passage/tareekh-futuh-misr-003
+class: passage
+unit: chapter
+work: work/futuh-misr
+ref: "96"
+label:
+  ar: "فتوح مصر — ابن عبد الحكم — ص 96"
+  en: "فتوح مصر — ابن عبد الحكم — p. 96"
+text: "ولكنا نأمرك به ، تم قرأ الكتاب: بسم الله الرحمن الرحيم ، من محمد رسول الله إلى المقوقس. عظيم القبط ، سلام على من اتبع الهدى ، أما بعد ، فإنى أدعوك بدعاية الإسلام ، فاسلم تسلم ، , (١)"
+summary:
+  ar: "مقطع من «فتوح مصر — ابن عبد الحكم» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «فتوح مصر — ابن عبد الحكم» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/futuh-misr-amir-1999] }
+  - { type: mentions, target: person/al-muqawqis, sources: [source/futuh-misr-amir-1999] }
+  - { type: mentions, target: person/muhammad, sources: [source/futuh-misr-amir-1999] }
+provenance:
+  layer: own-research
+  source: "فتوح مصر — ابن عبد الحكم ص 96 — مقتطف المكاتبات — tareekh"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-1
+tags: [mukatabat-browser]
+sources: [source/futuh-misr-amir-1999]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

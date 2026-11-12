@@ -1,0 +1,23 @@
+id: passage/tareekh-bidaya-nihaya-012
+class: passage
+unit: chapter
+work: work/al-bidaya-wal-nihaya
+ref: "155"
+label:
+  ar: "البداية والنهاية — ابن كثير — ص 155"
+  en: "البداية والنهاية — ابن كثير — p. 155"
+text: "في اتخاذ النبي ولي خاتما من ذهب، ثم من فضة، وبعثه عمر بن الخطاب إلى كسرى، ثم دحية إلى قيصر، وإن الخاتم الذي كان في يد النبي لليف ثم في يد أبي بكر ثم في يد عمر ثم في يد"
+summary:
+  ar: "مقطع من «البداية والنهاية — ابن كثير» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «البداية والنهاية — ابن كثير» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: person/khosrow-ii, sources: [source/al-bidaya-wal-nihaya] }
+provenance:
+  layer: own-research
+  source: "البداية والنهاية — ابن كثير ص 155 — مقتطف المكاتبات — tareekh"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-1
+tags: [mukatabat-browser]
+sources: [source/al-bidaya-wal-nihaya]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
