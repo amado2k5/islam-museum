@@ -1,0 +1,57 @@
+ORACLE 01: the audit is measured: course tree, schema use and live surface (data read at 800467e93e)
+run at commit 800467e93e2c9ef073807f6bd5c7b717b028f859 on 2026-11-11 23:42 EST; baseline 800467e93e; uncommitted paths under data/ content/ site/ i18n/ scripts/courses/: 1
+
+records in data/course: 23; by kind: {'grade': 1, 'jurisdiction': 1, 'lesson': 16, 'subject': 1, 'unit': 4}
+status.review: {'draft': 23}
+tree roots (no part_of): ['course/ca-on-english']
+records whose part_of is not a course record: []
+prose files under content/<lang>/course: {'ar': 23, 'en': 23, 'ur': 23}
+
+lessons: 16; expectation entries on lessons: 29; distinct codes: 27
+PILOT DEFECT (a) lesson expectation texts whose `ar` is a byte copy of `en`: 29 of 29; with no `ar` at all: 0
+PILOT DEFECT (a) lesson expectation texts whose `ur` is a byte copy of `en`: 29 of 29; with no `ur` at all: 0
+expectation entries on units: 4: ca-on-g6-sci-biodiversity B1='Overall expectations, strand B'; ca-on-g6-sci-electricity D1='Overall expectations, strand D'; ca-on-g6-sci-flight C1='Overall expectations, strand C'; ca-on-g6-sci-space E1='Overall expectations, strand E'
+
+connections: 33 on 16 records; per lesson min/max: 1/3
+  by position: {'before': 8, 'within': 13, 'after': 12}
+  by kind: {'story': 9, 'scholar': 6, 'quran': 5, 'career': 4, 'reflection': 4, 'invention': 3, 'hadith': 1, 'place': 1}
+  with an entity link: 15; without: 18; distinct entities: 14
+  entity links that are not a record file (stub or missing): 5 ['building/maragha-observatory', 'object/astrolabe', 'person/al-jazari', 'person/sultan-bin-salman', 'work/kitab-al-hiyal']
+  connections with no source: 0 []
+  sources cited by connections: {'source/hill-1993': 23, 'source/tanzil-quran': 8, 'source/hourani-1991': 3, 'source/sahih-al-bukhari': 1, 'source/sahih-muslim': 1}
+PILOT DEFECT (provenance) entity-linked connections none of whose sources is cited by the linked record itself: 15 of 15
+    ca-on-g6-sci-bio-1 -> person/al-jahiz cites ['source/hill-1993']
+    ca-on-g6-sci-bio-1 -> work/kitab-al-hayawan cites ['source/hill-1993']
+    ca-on-g6-sci-bio-2 -> person/ibn-al-baytar cites ['source/hill-1993']
+    ca-on-g6-sci-elec-1 -> language/arabic cites ['source/hill-1993']
+    ca-on-g6-sci-elec-2 -> work/kitab-al-hiyal cites ['source/hill-1993']
+    ca-on-g6-sci-elec-2 -> person/al-jazari cites ['source/hill-1993']
+    ca-on-g6-sci-fly-1 -> person/abbas-ibn-firnas cites ['source/hourani-1991', 'source/hill-1993']
+    ca-on-g6-sci-fly-2 -> person/ibn-al-haytham cites ['source/hill-1993']
+    ca-on-g6-sci-fly-3 -> person/abbas-ibn-firnas cites ['source/hourani-1991', 'source/hill-1993']
+    ca-on-g6-sci-space-1 -> person/al-battani cites ['source/hill-1993']
+    ca-on-g6-sci-space-1 -> object/astrolabe cites ['source/hill-1993']
+    ca-on-g6-sci-space-2 -> concept/hijri-calendar cites ['source/tanzil-quran']
+    ca-on-g6-sci-space-3 -> person/ibn-al-shatir cites ['source/hill-1993']
+    ca-on-g6-sci-space-3 -> building/maragha-observatory cites ['source/hill-1993']
+    ca-on-g6-sci-space-4 -> person/sultan-bin-salman cites ['source/hourani-1991']
+  quran connections: 5; with a `ref`: 5; with an entity link to a passage record: 0
+  records with a typed honorific: 0
+
+surface source: site/src/pages/[lang]/learn/courses/index.astro: 42 lines; islands used: []
+lesson rendering: site/src/layouts/EntityLayout.astro, 11 lines mention `course`; connection card: site/src/components/ConnCard.astro (17 lines)
+pages under /learn/: ['courses', 'daily', 'facts', 'index.astro', 'parents', 'passport.astro', 'shelf.astro', 'teachers', 'trails']
+
+production stamp (200): { "deployed_at": "2026-11-10T18:33:45Z", "commit": "8d1b0ef9d7556cc570e9e452e8cd3257e346ab1f", "build_run": 42832259141, "environment": "production", "version": "1.10.0", "version_date": "2026-11-10" }
+live /ar/learn/courses/: HTTP 200, 99938 bytes, <select> controls: 3, distinct course links in the served HTML: 1 ['ca-on-g6-science']
+live /ar/course/<slug>/ pages answering 200: 23 of 23
+live /en/learn/courses/: HTTP 200, 101179 bytes, <select> controls: 3, distinct course links in the served HTML: 1 ['ca-on-g6-science']
+live /en/course/<slug>/ pages answering 200: 23 of 23
+live /ar/ subject page links to 4 units and 0 lessons directly => shortest home->lesson path today: home -> subject (1) -> unit (2) -> lesson (3)
+live /ar/ lesson bio-1: connection cards rendered: 3; next/previous-lesson link present: no; any self-check/quiz markup: no; untranslated expectation shown in Arabic page: yes
+live /en/ subject page links to 4 units and 0 lessons directly => shortest home->lesson path today: home -> subject (1) -> unit (2) -> lesson (3)
+live /en/ lesson bio-1: connection cards rendered: 3; next/previous-lesson link present: no; any self-check/quiz markup: no; untranslated expectation shown in Arabic page: n/a
+  [PASS] the tree is one rooted tree (one root, no orphan)
+  [PASS] every record is draft (pipeline output is never self-published) — {'draft': 23}
+
+RESULT: GREEN (2 checks passed)

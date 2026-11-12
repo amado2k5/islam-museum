@@ -24,7 +24,7 @@
 # with brief: true already has a short adult text the Scholar level can be cut from; brief: false means the Scholar
 # level is new text as well (the plan assumed about 60 of 100).
 #
-# Totals: 100 records (49 topic, 5 prophet, 16 era, 8 city, 22 rank); 93 already have a Brief; all 100 have prose in ar, en
+# Totals: 100 records (49 topic, 5 prophet, 16 era, 8 city, 22 rank); 85 already have a Brief; all 100 have prose in ar, en
 # and ur. By class: 25 person, 19 event, 14 place, 11 concept, 8 building, 8 practice, 6 polity, 4 period, 2 language,
 # 1 group, 1 object, 1 work.
 status: { review: draft, approval: approved, approved_by: "founder", approved_on: "2026-10-23" }
@@ -58,7 +58,7 @@ records:
     also: ["Time Machine era makkah"]
     inbound: 63
     prose: [ar, en, ur]
-    brief: true
+    brief: false
   - id: event/boycott-of-banu-hashim
     label: { ar: "مقاطعة بني هاشم في شعب أبي طالب", en: "The boycott of the Banu Hashim" }
     tier: topic
@@ -108,7 +108,7 @@ records:
     reason: "Appendix B topic 8, second record of the Badr–Uhud–Trench unit (also rank 219 inbound)."
     inbound: 219
     prose: [ar, en, ur]
-    brief: true
+    brief: false
   - id: event/battle-of-the-trench
     label: { ar: "غزوة الأحزاب (الخندق)", en: "The Battle of the Trench (al-Ahzab)" }
     tier: topic
@@ -292,7 +292,7 @@ records:
     reason: "Appendix B topic 29, the Ottomans."
     inbound: 21
     prose: [ar, en, ur]
-    brief: true
+    brief: false
   - id: period/gunpowder-empires
     label: { ar: "إمبراطوريات البارود", en: "The Gunpowder Empires" }
     tier: topic
@@ -399,7 +399,7 @@ records:
     also: ["trail catalogue city"]
     inbound: 109
     prose: [ar, en, ur]
-    brief: true
+    brief: false
   - id: concept/halal-haram
     label: { ar: "الحلال والحرام والمشتبهات", en: "The lawful, the unlawful and the doubtful" }
     tier: topic
@@ -466,7 +466,7 @@ records:
     reason: "Prophet Quest stop 5 (isa); 71 inbound."
     inbound: 71
     prose: [ar, en, ur]
-    brief: true
+    brief: false
   - id: event/building-of-the-kaaba
     label: { ar: "رفع قواعد الكعبة", en: "The Raising of the Kaaba’s Foundations" }
     tier: era
@@ -585,7 +585,7 @@ records:
     reason: "Trail catalogue city; 805 inbound, the most linked place."
     inbound: 805
     prose: [ar, en, ur]
-    brief: true
+    brief: false
   - id: place/medina
     label: { ar: "المدينة المنورة", en: "Medina" }
     tier: city
@@ -739,7 +739,7 @@ records:
     reason: "Rank: 286 inbound; the Prophet's tribe, needed by every Meccan story."
     inbound: 286
     prose: [ar, en, ur]
-    brief: true
+    brief: false
   - id: person/khalid-ibn-al-walid
     label: { ar: "خالد بن الوليد", en: "Khalid ibn al-Walid" }
     tier: rank
