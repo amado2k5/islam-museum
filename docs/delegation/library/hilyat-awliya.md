@@ -875,3 +875,17 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 674 (printed) | 394 | the father's name "المسبود" / "المسبور" | garbled in the scan | read as al-Musayyab, flagged as likely |
 | 674 (printed) | 394 | the report on the good deed | a quoted report with an honorific | described only; not typed |
 | 674 (printed) | 394 | the closing number in the report ("سبدائة") | garbled in the scan | read as seven hundred; flagged |
+
+## Batch 97 (run microsd-books-b97, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 394 (full text read before writing). New draft: person/usayd-ibn-asim (printed 675, sequence 676, 10/394). No existing record of the name.
+- The reports are described by their chains, not quoted; they carry the Prophet's honorific formula. The name "قيس بن همار" in one chain is unclear in the scan and is flagged.
+- Printed 676 (Ahmad ibn Mu'awiya ibn al-Hudhayl, Abu Ja'far al-Furyani, and his brother al-Hudhayl, on 394–395) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 97)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 675 (printed) | 394 | the name "قيس بن همار الذهني" in one chain | unclear in the scan | given as read; flagged |
+| 675 (printed) | 394 | the reports' wording | quoted reports with the Prophet's formula | described only |
