@@ -16,6 +16,7 @@ translations:
   en: { text: "O ye who believe! When the call is heard for the prayer of the day of congregation, haste unto remembrance of Allah and leave your trading. That is better for you if ye did but know.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "مومنو! جب جمعے کے دن نماز کے لئے اذان دی جائے تو خدا کی یاد (یعنی نماز) کے لئے جلدی کرو اور (خریدو) فروخت ترک کردو۔ اگر سمجھو تو یہ تمہارے حق میں بہتر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/yawm-al-jumua-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-62 }
 sensitivity: sacred

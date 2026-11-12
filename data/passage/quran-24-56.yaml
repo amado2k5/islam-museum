@@ -16,6 +16,7 @@ translations:
   en: { text: "Establish worship and pay the poor-due and obey the messenger, that haply ye may find mercy.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور نماز پڑھتے رہو اور زکوٰة دیتے رہو اور پیغمبر خدا کے فرمان پر چلتے رہو تاکہ تم پر رحمت کی جائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -21,6 +21,9 @@ translations:
     license: CC-BY-SA
 sources:
 - source/ibn-hisham-wustenfeld-1858
+relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/ibn-hisham-wustenfeld-1858] }
+
 provenance:
   layer: own-research
   source: Ibn Hisham, al-Sira, ed. Wustenfeld (Leipzig 1858), printed p. 930

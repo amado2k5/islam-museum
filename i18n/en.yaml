@@ -1693,6 +1693,10 @@ explore:
       title: "Du'a Browser"
       desc: "Every supplication mentioned in the Qur'an, the Sunnah, the seerah and every harvested book — from «ربِّ اغفر لي» to «اللهم إني أعوذ بك»، the Prophet's night prayers and the Companions' du'as — with every verse and report cited."
       menu: "Browse supplications in the Qur'an, hadith and books"
+    islamiceconomy:
+      title: "Islamic Economy Browser"
+      desc: "Every mention of money and Islamic economics, deeds and covenants, and endowment in the Qur'an, the Sunnah, the seerah and every harvested book — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — with every verse and report cited."
+      menu: "Browse money, sukuk and waqf in the Qur'an, hadith and books"
     sayyiat:
       title: "Sayyi'at Browser"
       desc: "Every mention of the sayyi'at and everything tied to them — sin, guilt, disobedience, the major and minor sins, repentance and seeking forgiveness — in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
@@ -1733,6 +1737,10 @@ explore:
       title: "Household of the Prophet Browser"
       desc: "Everything mentioned about the Prophet's household and family — the People of the House, the Prophet's clan, his wives, daughters and descendants — in the Qur'an, the Sunnah, the seerah and the harvested books."
       menu: "Browse the Prophet's household and family"
+    nubuwat:
+      title: "Prophecies and Miracles Browser"
+      desc: "Every prophecy of the Prophet, proof of prophethood, secret and marvel of the Qur'an, miracle and eschatological prediction in the Qur'an, the Sunnah, the seerah and every harvested book — with every verse and report cited."
+      menu: "Browse the Prophet's prophecies, the Qur'an's secrets and the miracles"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -3488,6 +3496,39 @@ dua:
     curated:
       title: "The records about du'a"
       desc: "The museum's curated records on supplication itself: the practice of du'a, istighfar, istikhara, vows, the supplication for one's children, and the etiquettes the tradition records."
+islamic_economy:
+  title: "Islamic Economy Browser"
+  lede: "Every mention of money and Islamic economics, deeds and covenants, and endowment in the museum's sources: the Qur'anic verses on scales and measures, usury and debt; the Prophet's reports on dinars and dirhams, partnership, salam and the market's ethics; the endowments of Uthman and Umar's pious foundations; and every economics passage in every harvested book — sourced records that grow as new texts land."
+  badge: Currency, deeds and endowment explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Money, deeds and endowment mentions are found at build time by a guarded lexicon over the passage texts — unambiguous forms match directly, and ambiguous words like «دين» (debt or religion), «وقف» (endowment or «he stopped»), «عهد» (covenant or era), «شركة» (partnership or polytheism) and «سند» (bond or isnad) count only beside their domain collocations, with the weak tokens themselves stripped before the context test so a word can never satisfy its own context; verified false positives are excluded by id, and every book harvested later brings its mentions here automatically once its passages land in the graph; curated records join through the islamic-economy-browser tag. Each record carries topic chips: money (العملات — the full scope of Islamic economics), sukuk (الصكوك — all deeds, instruments and covenants) and waqf (الوقف — endowment)."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  topics_title: The topics
+  filter_label: Filter records
+  filter_none: No matches.
+  empty: No Islamic-economy records in this build yet.
+  topics:
+    money: "Money and economics"
+    sukuk: "Deeds and covenants"
+    waqf: "Endowment"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The economics of the Qur'an: «أوفوا الكيل والميزان»، usury and «آكلو الربا»، debt and its writing, zakat and its nisab, the prohibition of usury in sale, and every verse that mentions money, contracts or endowment."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The Prophet's reports on dinars and dirhams, fair weights, partnership and mudaraba, the salam contract, market ethics — gharar, tadlis, najsh, ihtikar — the debt instruments hawala and suftaja, and every hadith on trade, wages or endowment."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of money, treaties and endowment — this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Money, deeds and endowment in every other harvested work — fiqh, history, poetry and whatever lands next — classified by the work's genre the day its passages arrive."
+    curated:
+      title: "The records on the economy"
+      desc: "The museum's curated records on money, deeds and endowment: the waqf cluster, the trade-and-finance concepts, the covenant and instrument records, waqf and treaty events, and the Islamic-finance works."
 sayyiat:
   title: "Sayyi'at Browser"
   lede: "Every mention of the sayyi'at in the museum's sources: «good deeds annul ill-deeds», the hadith of the servant who intends a sin, the Companions' and Successors' sins in the seerah, and the names of sin and disobedience in every harvested book — cited records that grow as new text lands."
@@ -3629,6 +3670,42 @@ magic:
     concepts:
       title: The records about magic
       desc: "The museum's curated records on magic and the unseen harms around it: sorcery and the sahara, soothsaying and augury, ruqyah and its rulings, the evil eye, envy, waswasah, kashf and 'irafa."
+nubuwat:
+  title: "Prophecies and Miracles Browser"
+  lede: "Every prophecy of the Prophet, proof of prophethood, secret and marvel of the Qur'an, miracle of the Prophet and eschatological prediction in the museum's sources: the Qur'anic announcements and the «من بعدي» reports, the proofs of prophethood (دلائل النبوة), the inimitability of the Qur'an and its secrets, the moon's splitting, the night journey, the multiplied food and every marvel the tradition records — sourced records that grow as new texts land."
+  badge: Prophecy explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Prophecy, prophethood, Qur'anic marvel and eschatology mentions are found at build time by a guarded lexicon over the passage texts — unambiguous forms match directly, ambiguous forms like «النبي» (the Prophet or a prophet), «المعجز» (a wonder or a wonder-worker), «السر» (a secret or a matter), «الغيب» (the unseen or the unseen realm), «الآخرة» (the Hereafter or the last of a series) count only beside their own collocations, and verified false positives are excluded by id; every book harvested later brings its prophecies and marvels here automatically once its passages land in the graph, and curated records join through the nubuwat-browser tag."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter prophecy records
+  filter_none: No matches.
+  empty: No prophecy records in this build yet.
+  topics:
+    nubuwwa: Prophethood & its proofs
+    nubuwat: Prophecies & predictions
+    muajizat: Miracles of the Prophet
+    ijaz: The Qur'an's inimitability
+    asrar: Secrets of the Qur'an
+    ilm-ghayb: Unseen knowledge
+    akhira: Signs of the Hour
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The prophecies and predictions of the revelation: the announcements of what will come, the proofs of prophethood, the inimitability of the Qur'an and its secrets, the reports of unseen knowledge, and the eschatological verses."
+    sunnah:
+      title: In the Sunnah
+      desc: "The prophecies and proofs of prophethood in the two Sahihs, the Muwatta and the Sunan: the «من بعدي» reports, the proofs of prophethood, the miracles of the Prophet, the unseen-knowledge reports, and the hadiths on the signs of the Hour."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and history books carry of prophecy, prophethood and marvel — this section fills itself as new seerah texts land."
+    books:
+      title: In the other books
+      desc: "Prophecies, proofs of prophethood, Qur'anic secrets and marvels in every harvested book beyond the Qur'an, the hadith and the seerah — poetry, history, tafsir and whatever comes next."
+    curated:
+      title: The records about prophecy
+      desc: "The museum's curated records on prophethood, prophecy and the Qur'an's marvels: the proofs of prophethood, the inimitability, the secrets, the miracles and the eschatological predictions the tradition collects."
 signs:
   title: "Signs of the Hour Browser"
   lede: "Every mention of the signs of the Hour, the Day of Judgment and all eschatology in the museum's sources: the major and minor signs (أشراط الساعة) from the coming of the Dajjal to the rising sun from the west, barzakh and the grave, resurrection and gathering, reckoning and the Scale, the Sirat and the Hawd, Paradise and Hell, and the end-times figures the Qur'an and Sunnah name — sourced records that grow as new texts land."

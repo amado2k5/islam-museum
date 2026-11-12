@@ -16,6 +16,7 @@ translations:
   en: { text: "Give full measure, and be not of those who give less (than the due).", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(دیکھو) پیمانہ پورا بھرا کرو اور نقصان نہ کیا کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

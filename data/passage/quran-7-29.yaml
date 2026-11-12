@@ -16,6 +16,7 @@ translations:
   en: { text: "Say: My Lord enjoineth justice. And set your faces upright (toward Him) at every place of worship and call upon Him, making religion pure for Him (only). As He brought you into being, so return ye (unto Him).", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کہہ دو کہ میرے پروردگار نے تو انصاف کرنے کا حکم دیا ہے۔ اور یہ کہ ہر نماز کے وقت سیدھا (قبلے کی طرف) رخ کیا کرو اور خاص اسی کی عبادت کرو اور اسی کو پکارو۔ اس نے جس طرح تم کو ابتداء میں پیدا کیا تھا اسی طرح تم پھر پیدا ہوگے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
