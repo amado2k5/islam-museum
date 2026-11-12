@@ -55,3 +55,9 @@
 - New draft records: `person/abu-abd-allah-al-saji` (450, 9/310–317), `person/ali-ibn-bakkar` (452, 9/317–322), `person/al-qasim-ibn-uthman-al-jui` (453, 9/322–325), `person/mada-ibn-isa` (454, 9/324–325).
 - OCR cautions recorded in the prose: the year in Ali ibn Bakkar's notice (9/318) reads "سنة ... ومائتين" with the units word garbled, so no death or floruit date was entered; one narrator's name on 9/318 is unreadable and is given as "a narrator".
 - Not mined on these pages: notice 449 Ahmad ibn Asim al-Antaki (9/280–310) and notice 451 (heading not legible in the OCR) — leads.
+
+## Batch 9 (run microsd-books-b17, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 45–51, 296–302, 376.
+- Enriched: `person/ruwaym-ibn-ahmad` (notice 574, 10/296–302).
+- New draft records: `person/abu-turab-al-nakhshabi` (462, 10/45–51; the notice gives no personal name and no death year, so none was entered), `person/muhammad-ibn-ulayyan-al-nasawi` (649, 10/376).
+- Next in vol. 10: 463 Yahya ibn Mu'adh (from 10/51), 465 al-Muhasibi (10/73–110), the rest of 469 al-Sari (10/123–128), 575 Ibn Ata (from 10/302), 546 Sahl al-Tustari remainder, the Isfahan ascetics 661 onward (10/389–).
