@@ -1,0 +1,22 @@
+id: person/ghalib-ibn-fihr
+tags: ["ansab-browser", "ansab-shajara"]
+class: person
+label: { ar: "غالب بن فهر", en: "Ghalib ibn Fihr" }
+gender: male
+roles: []
+summary:
+  ar: "أبو لؤي بن غالب؛ حلقة في النسب المتفق عليه بين فهر ولؤي، ومن بطونه تفرعت أولاد قريش البطاح والظواهر {cite:mubarakpuri-raheeq p.48} {cite:ibn-hisham-sira 1/1-4}."
+  en: "Father of Lu'ayy ibn Ghalib; a link in the agreed lineage between Fihr and Lu'ayy, from whose stock the clans of Quraysh of the hollows and the outskirts branch {cite:mubarakpuri-raheeq p.48} {cite:ibn-hisham-sira 1/1-4}."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/fihr-ibn-malik, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — prophetic-lineage records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }
