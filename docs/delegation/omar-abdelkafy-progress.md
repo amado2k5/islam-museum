@@ -519,4 +519,20 @@ Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan progra
 | Garbled passages | ep09 00:01:30-00:02:30 (a story about a servant of the Prophet), 00:08:30-00:09:00, 00:12:00-00:12:30, 00:13:30-00:14:30 (remarks on the lecturer's own speech), 00:18:00-00:18:30, 00:23:30-00:24:00, 00:27:30-00:28:00, 00:31:30-00:32:30 (the dragon passage), 00:35:30-00:36:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Supplications and sign-off | ep09 00:23:00 (supplication), 00:37:30 | Not lesson content | Content rule | Open |
 
-Resume point: episode 10 (branch from origin/main).
+
+### al-dar-al-akhera ep10 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep10 (events and names of the Day; abortion; the Fire) | about 41 min (transcript) | ar, en, ur: 1 record extended | 1 new `about` edge (concept/kitab-al-amal); 4 existing | 13 points; qwen3-asr pass5, 30 s windows | needs_source on all points; oil-reserve figures and the report they are ascribed to (00:06:00); the abortion rulings, sums and the ascription to the Muslim World League are his own words (00:16:30, 00:18:30); book and author names for the Day's names (00:36:30) | run omar-abdelkafy-dar-akhera-5 |
+
+The lecturer's opinion on abortion, adoption and the scientific readings of the Qur'anic signs is labelled as his; the record stays `sensitivity: contested`.
+
+| Excluded (dar-akhera ep10) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep10 00:03:30, 00:04:00, 00:11:30, 00:36:00 | Not speech | Loop check | Open |
+| Garbled passages | ep10 00:03:00 (Kaaba tawaf remark), 00:10:00-00:12:00 (the eggs, birds and trapping passage), 00:12:30-00:13:00, 00:15:00-00:16:00, 00:19:00 (partial), 00:20:30-00:21:00, 00:28:30-00:30:30 (partial, the Prophet and the Fire), 00:37:00-00:39:30 (Q&A fragments) | Not recoverable as clear Arabic | Clarity | Open |
+| Poem on the Day of Resurrection recited | ep10 00:31:00-00:33:00 | Verbatim verse, partly garbled | Sources policy; clarity | Open |
+| Supplications and sign-off | ep10 00:30:30, 00:37:00 | Not lesson content | Content rule | Open |
+
+Resume point: episode 11 (branch from origin/main).
