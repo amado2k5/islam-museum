@@ -1,22 +1,29 @@
 id: person/mudrika-ibn-ilyas
 tags: ["ansab-browser", "ansab-shajara"]
 class: person
-label: { ar: "مدركة بن إلياس", en: "Mudrika ibn Ilyas" }
-gender: male
-roles: []
+label:
+  ar: مدركة بن إلياس
+  en: Mudrika ibn Ilyas
 summary:
-  ar: "أبو خزيمة وهذيل وطابخة وقمع؛ حلقة في النسب المتفق عليه بين إلياس بن مضر وخزيمة {cite:mubarakpuri-raheeq p.48} {cite:tarikh-al-tabari}."
-  en: "Father of Khuzayma, Hudhayl, Tabikha and Qam'a; a link in the agreed lineage between Ilyas ibn Mudar and Khuzayma {cite:mubarakpuri-raheeq p.48} {cite:tarikh-al-tabari}."
-wings: [people]
-themes: [family-marriage-kinship]
-periods: [period/pre-islamic-arabia]
-regions: [arabia]
-relations:
-  - { type: child_of, target: person/ilyas-ibn-mudar, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
+  ar: عمرو بن إلياس بن مضر وهو مدركة، أخو طابخة وقمعة لخندف، منه جاء بطن كنانة بن خزيمة بن مدركة في نسب النبي {cite:muruj-al-dhahab p. 567}.
+  en: The 'Amr of Ilyas called Mudrika — Khindif's son and Kinana's forebear in the Prophet's line {cite:muruj-al-dhahab p. 567}.
+gender: male
+wings:
+- people
 provenance:
   layer: own-research
-  source: "ansab-browser lane — prophetic-lineage records"
-  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
-  run: ansab-browser-1
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }
+  source: المسعودي، مروج الذهب وأهل المعاجن
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: prose-fill-persons-batch31
+sources:
+- source/muruj-al-dhahab
+status:
+  review: published
+  completeness: 3
+relations:
+  - { type: child_of, target: person/ilyas-ibn-mudar, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
+- type: lived_in
+  target: place/hijaz
+  sources:
+  - source/muruj-al-dhahab

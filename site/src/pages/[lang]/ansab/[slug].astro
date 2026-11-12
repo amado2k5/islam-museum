@@ -53,7 +53,7 @@ const chainParents = chainIdx > 0 ? [ANSAB_PROPHET_CHAIN[chainIdx - 1]] : [];
 const chainChildren = chainIdx >= 0 && chainIdx < ANSAB_PROPHET_CHAIN.length - 1 ? [ANSAB_PROPHET_CHAIN[chainIdx + 1]] : [];
 const onDisputed = chainIdx >= 0 ? !ANSAB_PROPHET_CHAIN[chainIdx].agreed : false;
 const parents = edgesFrom(n.id).filter((e) => !e.inverse && e.type === "child_of").map((e) => byId.get(e.to)).filter((x): x is NonNullable<typeof x> => !!x && !x.stub);
-const children = edgesFrom(n.id).filter((e) => !e.inverse && e.type === "parent_of").map((e) => byId.get(e.to)).filter((x): x is NonNullable<typeof x> => !!x && !x.stub);
+const children = edgesFrom(n.id).filter((e) => e.type === "parent_of").map((e) => byId.get(e.to)).filter((x): x is NonNullable<typeof x> => !!x && !x.stub);
 const ayah = (p: any) => ({
   href: href(lang, p.id),
   ref: p.data.ref,

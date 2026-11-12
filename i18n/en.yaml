@@ -1742,6 +1742,10 @@ explore:
       title: "Ethics and Dealings Browser"
       desc: "Every mention of ethics and dealings in the Qur'an, the Sunnah, the seerah, Companion and Tabi'i reports and every harvested book — truthfulness, trustworthiness, faithfulness, patience, gratitude, humility, excellence, modesty, forbearance, pardon, sincerity, repentance, generosity, kindness to parents, kinship ties and the neighbour's right; lying, treachery, pride, ostentation, envy, miserliness, backbiting, slander, anger, injustice, disobedience to parents, hypocrisy and cheating; and sale, riba, debt, pledge, hire, bequest, inheritance, marriage, divorce, oaths, testimony, judgement, weights and measures, reconciliation, gifts, guarantees, agency, partnership, salam, transfer, loans, usurpation, pre-emption, hoarding, coercion and interdiction — every verse and report with its source."
       menu: "Browse ethics and dealings in the Qur'an, hadith and books"
+    ansab:
+      title: "The Genealogies, Peoples, Mutun and Prophets' Tree Browser"
+      desc: "Every mention of genealogies, peoples, mutun and the prophets' tree in the Qur'an, the Sunnah, the seerah and every harvested book — the Prophet's lineage in its three parts, the Arab tribes and the peoples, and the didactic texts — each report cited."
+      menu: "Browse genealogies, peoples, mutun and the prophets' tree"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -4736,3 +4740,59 @@ akhlaq:
     curated:
       title: "Records on ethics and dealings"
       desc: "The museum's curated records on the virtues, the vices and the contracts themselves: character, manners, truthfulness, trustworthiness, patience, gratitude, humility, sincerity, kindness to parents; lying, treachery, pride, backbiting, miserliness, envy, injustice and disobedience; and the contract, sale, riba, debt, pledge, hire, bequest, inheritance, marriage, divorce, oaths, testimony, judgement, scales, gifts, guarantee, agency, partnership and the rest of the dealings."
+ansab:
+  title: "The Genealogies, Peoples, Mutun and Prophets' Tree Browser"
+  lede: "Every mention of genealogies, peoples, didactic mutun and the prophets' and messengers' tree in the museum's sources: the Prophet's lineage in its three parts — the agreed-sound part down to Adnan, the disputed part to Ibrahim, and what lies above — the Arab tribes Adnani and Qahtani, the peoples (Arabs, Ajam, Rum, Habasha, Copts, Banu Isra'il), and the memorisation texts from the Ajurrumiyya to the Jazariyya and the Shatibiyya — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors, and every harvested book and every book harvested later."
+  badge: The genealogies, peoples and mutun explorer
+  status: "This build holds {n} records and {f} passages in {s} sections; texts are drafts until a person reads them."
+  method_title: How the browser works
+  method_note: "Every record here is an ordinary museum record with its sources and trilingual prose. Mentions are discovered at build time by a guarded lexicon over the passage matns: the names of the prophetic-lineage links (from Abdullah ibn Abd al-Muttalib up to Adnan, then the disputed links to Ismail and Ibrahim), the tribe and clan names (Quraysh and its clans, Aws and Khazraj, Tamim, Hawazin, Thaqif, Ghatafan, Quda'a, Kinda, Bakr, Taghlib and the rest), the peoples (Arabs, Ajam, Persians, Rum, Habasha, Copts, Turks, Berbers, Kurds, Mongols, Banu Isra'il), the mutun titles, and the class terms (nasab, tribe, clan, mutun, didactic poem, the prophets' tree); while 'aad as the verb 'returned', Tamim meaning 'complete' and matn meaning 'the back' are excluded, and documented false positives are excepted by id. Every book harvested later brings its mentions here automatically when its passages land in the graph, and curated records join through the ansab-browser tag. Each passage is labelled with its corpus (Qur'an / Sunnah / seerah / books) and its topics."
+  api: "The full set is available at"
+  tree_title: "The prophets' and messengers' tree — the Prophet's lineage"
+  tree_note: "The Prophet's lineage in the sira and genealogy scholars' three-part division: the part agreed as sound down to Adnan, the part disputed between those who suspend judgement and those who affirm it from Adnan up to Ismail ibn Ibrahim on the transmission of Ibn Ishaq, al-Tabari and Ibn Sa'd, and the part above Ibrahim which is not established with them. The whole chain is shown as requested, and the disputed links are marked with a dashed outline, not presented as certainty."
+  tree_legend: "Links outlined with a dashed border belong to the disputed part of the lineage (between Adnan and Ismail on the Ibn Ishaq/al-Tabari transmission); the solid ones are agreed as sound with the sira scholars."
+  disputed_from: "the disputed part runs from"
+  disputed_to: "to"
+  disputed_tooltip: "A link in the disputed part of the Prophet's lineage — no genealogist vouches for it"
+  sections_title: "The browser's sections"
+  filter_label: "Filter the genealogies, peoples and mutun"
+  filter_none: "No matching results."
+  empty: "No genealogy records in this build yet."
+  feed_title: "Every mention in the sources"
+  feed_note: "Every passage in which the genealogies, tribes, peoples, mutun or the prophets' tree are mentioned, classified by its source — this stream grows automatically whenever a newly harvested book lands."
+  entity_page: "Entity page"
+  on_chain: "On the prophets' tree:"
+  parent_of: "Father:"
+  children_of: "Son:"
+  disputed_link: "disputed link"
+  quran_ref: "Surah"
+  related_title: "Related records"
+  corpora:
+    quran: { title: "In the Qur'an", name: "Qur'an" }
+    sunnah: { title: "In the Sunnah", name: "Sunnah" }
+    seerah: { title: "In the Seerah", name: "Seerah" }
+    books: { title: "In the other books", name: "Books" }
+  topics:
+    nasab: "Lineage"
+    tribes: "Tribes"
+    mutun: "Mutun"
+    prophets-tree: "The prophets' tree"
+  sections:
+    shajara:
+      title: "The prophets' and messengers' tree"
+      desc: "The links of the Prophet's lineage and the prophets of Ibrahim's progeny: the agreed chain from Abdullah ibn Abd al-Muttalib up to Adnan, the disputed links from Adnan to Ismail, and the Ishaq line to Isa ibn Maryam — every link a cited record with its story."
+    tribes:
+      title: "The tribes and clans"
+      desc: "The Arab tribes and their clans as the genealogy and sira books tell them: Quraysh and its clans Hashim, Umayya, Abd Shams, Makhzum, Zuhra and al-Najjar; Aws and Khazraj; Khuza'a; Tamim, Hawazin, Thaqif, Ghatafan, Hudhayl, Sulaym, Asad, Juhayna, Muzayna, Ghifar, Ashja', al-Azd, Lakhm, Ghassan, Hamdan, Himyar, Madhhij, Quda'a, Tayy, Shayban, Bakr, Taghlib, Abd al-Qays, Kinda, Dabba, Yarbu', Kinana, Murad, Anmar, Abs and Amir; the Jewish tribes of the Hijaz — Nadir, Qaynuqa' and Qurayza; and 'Aad and Thamud of the vanished Arabs."
+    peoples:
+      title: "The peoples and nations"
+      desc: "The peoples and nations as the texts name them: the Arabs, the Ajam, the Persians, the Rum 'the sons of the Yellow', the Habasha, the Copts, the Turks, the Berbers, the Kurds, the Mongols and Banu Isra'il — of whom it was said 'no Arab is better than a non-Arab except by taqwa'."
+    mutun:
+      title: "The didactic mutun"
+      desc: "The texts students memorise in the schools and circles: the Ajurrumiyya, the Alfiyya of Ibn Malik and of al-Iraqi, Matn Ibn Ashir, the Qayrawani Risala, the Tahawiyya, Tuhfat al-Atfal, the Jazariyya, the Shatibiyya, the Rahbiyya, the Waraqat, the Bayquniyya, Nukhbat al-Fikar, Matn al-Quduri, al-Sullam al-Munawraq, Jawharat al-Tawhid, Bad' al-Amali, Qatr al-Nada, Matn Abi Shuja', al-Zubad and Safinat al-Najah — with their authors, commentaries and the places they are mentioned."
+    curated:
+      title: "Records about genealogy"
+      desc: "The genealogy concepts of the scholars: nasab and ansab, the Prophet's lineage in its three parts, the people of genealogy, stopping the lineage at Ma'add, and the joining of lineage in fiqh."
+    mentioned:
+      title: "The other mentions"
+      desc: "Records that joined automatically by being named in the passages or by carrying the browser tag — they land here whenever a new name, tribe or matn appears in a harvested book."
