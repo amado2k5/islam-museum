@@ -1058,3 +1058,22 @@ Next step: episode 32.
 | Verses of poetry quoted | ep31 00:02:00, 00:27:30–00:28:30, 00:31:00 | Not reproduced | Sources policy | Open |
 | Hadith and saying wording | ep31 00:03:00, 00:13:30, 00:26:30–00:27:00, 00:29:30, 00:43:00 | Wording not typed; by sense only | Hadith rule | Open |
 | Questions with no recorded answer | ep31 00:37:00 (obligatory knowledge) | The answer is not in the transcript | Clarity | Open |
+
+### albuyout-alamena, episode 32 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-20)
+
+Episode 32 read in full (48 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 10 needs_source (reports and sayings without a chain, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep32 (contentment in the home) | about 48 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 13 points | new `about` edges | 13 | 10 needs_source | this PR |
+
+Next step: episode 33.
+
+| Excluded (albuyout-alamena ep32) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep32 00:00:00–00:00:30, 00:09:30–00:10:00, 00:23:00–00:23:30, 00:47:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep32 00:04:00–00:04:30, 00:08:00, 00:17:30–00:18:00, 00:23:30–00:24:00, 00:25:30–00:26:00, 00:28:30–00:29:00, 00:30:30–00:31:00, 00:41:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep32 00:24:00–00:33:30 | Kept general | Privacy | Open |
+| Verses of poetry quoted | ep32 00:03:00, 00:45:00–00:45:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep32 00:07:00–00:10:00, 00:12:00–00:13:00, 00:21:00–00:22:30, 00:37:30, 00:43:00 | Wording not typed; by sense only | Hadith rule | Open |
+| Calls with no recorded answer | ep32 00:29:00 (a woman's own account), 00:34:00 (a cut line), 00:42:30 | The answer is not in the transcript | Clarity | Open |
