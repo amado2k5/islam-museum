@@ -115,3 +115,6 @@
 ## Batch 26 (run microsd-books-b34, Claude Code / claude-fable-5-2)
 - Pages read: vol. 10 pp. 70–72. New draft `person/said-ibn-al-abbas-al-razi` (464, 10/70–72). Identity: notice 464 is a real separate notice; its OCR heading number is 364, but the sequence (463 Yahya, 464 here, 465 al-Harith al-Muhasibi on 10/73) fixes it as 464. No existing record for this Sa'id was found in data/person. No death date entered: the notice gives none on these pages.
 - Notice 465 al-Harith al-Muhasibi begins on 10/73 and runs to about 110.
+
+## Batch 27 (run microsd-books-b35, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 73–77. Enriched `person/al-harith-al-muhasibi` (465, part one to 10/77); Hilyat source added to the record's sources. Notice continues from 10/78 to about 110.
