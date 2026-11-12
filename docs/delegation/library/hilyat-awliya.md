@@ -519,3 +519,20 @@
 | 530 (printed) | 160 | the editor's note "كذا بالأصلين" pointing at page 142 | an editorial note | recorded only; not asserted |
 | 530 (printed) | 161 | the word after "حملت ورجمت" | read as "حُمل ورجع" (carried back and returned) | rendered as carried back and returned |
 | 529 (printed as "5٣a") | 160 | the heading number | misprinted in the scan | read as 529 by sequence; flagged |
+
+## Batch 72 (run microsd-books-b72, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 161–162 (full text read before writing). Records:
+  - person/shibl-al-madri (printed 531, sequence 532, 10/161–162). New record. The manuscript variant in the footnote ("ل مغ: شبل الروزى") is noted and not preferred.
+  - person/musawwir-al-maghribi (printed 533, sequence 534, 10/162). New record. Written in all three languages.
+  - printed 532, Abd Allah ibn Dinar al-Ju'fi (10/162): HELD. An existing record, person/abd-allah-ibn-dinar, is a stub ("بطاقة أولية ... لم تُراجع ترجمته على الصفحة بعد", role scholar, region arabia) with no detail that identifies it. Nothing is written for 532 and nothing is merged. The coordinator is asked to decide whether the stub and the ascetic Abd Allah ibn Dinar al-Ju'fi are the same person, and whether a second notice belongs on that record.
+- Printed 534 (Faraj ibn Sa'id al-Sufi, "أبو روح") begins on 10/162 and is next, if the coordinator's ruling on 532 does not change the order.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 72)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 531 (printed) | 161–162 | the order of two fragments in the kite account | the scan's lines are out of order around "فسقط منها" | rendered in the sequence the sense gives; flagged for revision |
+| 531 (printed) | 161 | the nisba "المدري" and the manuscript variant "الروزي" | variant in the footnote | the variant is noted; the nisba as printed is used |
+| 533 (printed) | 162 | the chain name "كرد بن عنبسة" | read as "كرز بن عنبسة" | given as Kurz (Kurz ibn Anbasa); flagged |
+| 532 (printed) | 162 | the whole notice | held for the coordinator's decision on the stub | not written |
