@@ -1234,7 +1234,6 @@ Next step: episode 40.
 | Garbled passages | ep21 00:00:00-00:02:00 (the Prophet before the Fire), 00:03:00-00:03:30, 00:10:00-00:10:30 (partial), 00:17:30-00:18:00, 00:20:30-00:21:30 (the reciters who do not act), 00:28:30-00:31:30 (those who walk to mosques in the dark and a remark on Pharaoh), 00:31:30-00:34:30 (a passage on al-Husayn at Karbala whose speaker and words are not recoverable), 00:34:00-00:35:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Supplications and the producer's announcement with phone number | ep21 00:37:30-00:40:00 | Not lesson content | Content rule | Open |
 
-Resume point: episode 22 (branch from origin/main).
 ### albuyout-alamena, episode 40 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-28)
 
 Episode 40 read in full (46 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people and passages named; 7 needs_source (stories and sayings without a chain, rulings given without evidence, garbled call text).
@@ -1285,3 +1284,18 @@ Next step: episode 42.
 | Private circumstances of callers | ep41 00:25:30–00:34:00 | Kept general | Privacy | Open |
 | Verses of poetry quoted | ep41 00:04:30, 00:19:30 | Not reproduced | Sources policy | Open |
 | Hadith and saying wording | ep41 00:23:30–00:25:00 | Wording not typed; by sense only | Hadith rule | Open |
+
+
+### al-dar-al-akhera ep23 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep23 (Paradise, part 2: keys, doors, degrees) | about 43 min (transcript) | ar, en, ur: 1 record extended | 8 new `about` edges | 16 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the Israelite worshipper report and the four doors have no chain (ep23 00:01:30, 00:34:30); the prescription ascribed to Ali (00:20:30); the lizard report and the lecturer's declaring it sound (00:23:30); the ascription to al-Ghazali (00:11:00) | run omar-abdelkafy-dar-akhera-16 |
+
+| Excluded (dar-akhera ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep23 00:06:00, 00:09:30, 00:12:30, 00:13:30, 00:23:00, 00:31:00, 00:33:30, 00:37:30, 00:38:30, 00:42:00 | Not speech | Loop check | Open |
+| Garbled passages | ep23 00:00:00-00:01:00 (a man in a dream and counted deeds), 00:04:30-00:06:30 (a Successor and the night voice), 00:08:30-00:09:30, 00:11:30-00:13:00 (partial), 00:15:00-00:18:00 (the eighth-door and obstacle passages), 00:20:00, 00:26:30-00:27:30, 00:29:00-00:29:30, 00:30:00-00:31:30 (the waiting-for-graduation remark), 00:34:00-00:34:30, 00:36:30-00:37:30 (a remark on the Arabic word for the card), 00:38:00-00:39:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Supplications and the producer's announcement with phone number | ep23 00:42:30-00:43:30 | Not lesson content | Content rule | Open |
+
+Resume point: episode 24 (branch from origin/main).
