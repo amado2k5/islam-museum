@@ -9,4 +9,4 @@ Abu Muhjan ibn Habib al-Thaqafi, whom al-Baladhuri mentions in "Futuh al-Buldan"
 
 He also has verses lamenting his companions who fell at the Battle of the Bridge. {cite:futuh-buldan-maarif-1407}
 
-See also [[person/abu-mahjan-al-thaqafi|Abu Mahjan al-Thaqafi]]. That entry may be the same person; confirming it needs an additional source. The page number is not recorded in the data.
+See also [[person/abu-mihjan-al-thaqafi|Abu Mahjan al-Thaqafi]]. That entry may be the same person; confirming it needs an additional source. The page number is not recorded in the data.

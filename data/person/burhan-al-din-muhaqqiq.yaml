@@ -1,7 +1,13 @@
 id: person/burhan-al-din-muhaqqiq
 class: person
 label: { ar: "برهان الدين محقق الترمذي", en: "Burhan al-Din Muhaqqiq al-Tirmidhi", ur: "برہان الدین محقق ترمذی" }
-aliases: ["Sayyid Burhan al-Din Muhaqqiq", "Sayyid Burhan al-Din al-Husayn Muhaqqiq", "Sayyid Sirdan", "Sayyid Husayn", "السيد برهان الدين محقق", "سيد برهان الدين ترمذي"]
+names:
+  - { kind: alternate, value: "Sayyid Burhan al-Din Muhaqqiq" }
+  - { kind: alternate, value: "Sayyid Burhan al-Din al-Husayn Muhaqqiq" }
+  - { kind: alternate, value: "Sayyid Sirdan" }
+  - { kind: alternate, value: "Sayyid Husayn" }
+  - { kind: alternate, value: "السيد برهان الدين محقق" }
+  - { kind: alternate, value: "سيد برهان الدين ترمذي" }
 summary:
   ar: "السيد برهان الدين حسين المحقق الترمذي صوفي من أصل ترمذ على نهر جيحون، تلميذ بهاء الدين ولد وخليفته، ثم المرشد الروحي لجلال الدين الرومي في قونية، وكان الرومي يتتلمذ عليه نحو تسع سنوات. استقر بعد ذلك في قيصرية، وتتردد وفاته بين سنة 637هـ وسنة 638هـ، وتنسب إليه مقالات فارسية كبيرة تعكس سعة علمه {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}."
   en: "Sayyid Burhan al-Din al-Husayn Muhaqqiq al-Tirmidhi was a Sufi from Tirmidh on the Oxus, a disciple and then successor of Baha al-Din Walad, and later the spiritual master of Jalal al-Din Rumi at Konya, where Rumi studied under him for about nine years. He then settled at Kayseri; his death is placed in 637 or 638 AH, and a large Persian collection of discourses is attributed to him {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}."
@@ -12,7 +18,7 @@ wings: [people]
 themes: [spirituality-and-sufism]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia, anatolia-balkans]
-died: { edtf: "1240~", hijri: "0638", calendar: julian, precision: year, status: disputed, derived: true, note: "EI2 vol. 10 says he may have died in 638/1240; the Rumi article in vol. 2 says probably 637/1239-40 {cite:encyclopaedia-of-islam-2 vol. 2 p. 419}." }
+died: { edtf: "1240~", hijri: "0638", calendar: julian, precision: year, status: debated, derived: true, note: "EI2 vol. 10 says he may have died in 638/1240; the Rumi article in vol. 2 says probably 637/1239-40 {cite:encyclopaedia-of-islam-2 vol. 2 p. 419}." }
 relations:
   - { type: student_of, target: person/baha-al-din-walad, role: "تلميذ وخليفة", sources: [source/encyclopaedia-of-islam-2] }
   - { type: influenced, target: person/jalal-al-din-rumi, note: "Spiritual master of Rumi at Konya, per EI2.", sources: [source/encyclopaedia-of-islam-2] }

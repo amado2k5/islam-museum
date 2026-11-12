@@ -1,0 +1,35 @@
+id: person/halet-efendi
+class: person
+label: { ar: "هالت أفندي", en: "Halet Efendi", ur: "ہالت آفندی" }
+names:
+  - { kind: full, lang: tr, value: "Mehmed Said Halet Efendi" }
+  - { kind: alternate, lang: ar, value: "محمد سعيد هالت أفندي" }
+summary:
+  ar: "محمد سعيد هالت أفندي رجل دولة عثماني وُلد في إسطنبول نحو سنة 1175هـ/1761م لأب قاضٍ من القرم. عمل سفيراً في فرنسا سنة 1802م ورئيساً للكتّاب ثم ناظراً للختم، وكان له شأن غالب في السنوات الأولى من عهد السلطان محمود الثاني، ونُفي إلى قونية وخُنق فيها في صفر 1238هـ/نوفمبر 1822م بعد أن حمّله الناس تبعة ثورة المورة {cite:encyclopaedia-of-islam-2 vol. 3 p. 99} {cite:encyclopaedia-of-islam-2 vol. 3 p. 100}."
+  en: "Mehmed Said Halet Efendi was an Ottoman statesman born in Istanbul about 1175/1761, the son of a qadi from the Crimea. He served as ambassador to France in 1802, then as chief of the secretaries and keeper of the seal, held a dominant position in the early years of Mahmud II, and was exiled to Konya and strangled there in Safar 1238/November 1822, blamed for the Greek revolt in the Morea {cite:encyclopaedia-of-islam-2 vol. 3 p. 99} {cite:encyclopaedia-of-islam-2 vol. 3 p. 100}."
+  ur: "محمد سعید ہالت آفندی عثمانی سیاست دان تھے جو تقریباً 1175ھ/1761ء میں استنبول میں پیدا ہوئے اور ان کے والد کریمیا کے ایک قاضی تھے۔ وہ 1802ء میں فرانس میں سفیر رہے، پھر رئیس الکتّاب اور نشانجی بنے، سلطان محمود ثانی کے ابتدائی برسوں میں غالب حیثیت رکھتے تھے، اور صفر 1238ھ/نومبر 1822ء میں قونیہ جلاوطن کر کے وہیں گلا گھونٹ کر قتل کیے گئے، کیونکہ مورہ کی یونانی بغاوت کی ذمہ داری ان پر ڈالی گئی {cite:encyclopaedia-of-islam-2 vol. 3 p. 99} {cite:encyclopaedia-of-islam-2 vol. 3 p. 100}۔"
+gender: male
+roles: [politician, diplomat]
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+born: { edtf: "1761~", hijri: "1175", calendar: gregorian, precision: year, status: tradition, derived: false, note: "born in Istanbul ca. 1175/1761 per EI2 {cite:encyclopaedia-of-islam-2 vol. 3 p. 99}" }
+died: { edtf: "1822-11", hijri: "1238-02", calendar: gregorian, precision: month, status: tradition, derived: false, note: "exiled to Konya in Safar 1238/November 1822 and strangled there a few days later per EI2 {cite:encyclopaedia-of-islam-2 vol. 3 p. 100}" }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/mahmud-ii-uthmani, note: "Trusted adviser of Sultan Mahmud II and his keeper of the seal.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/ali-pasha-tepelena, note: "Helped bring about Ali Pasha's deposition in 1820; the expedition against him is linked in the article to the Greek revolt.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article Halet Efendi (E. Kuran), written in the museum's own words"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 3, article Halet Efendi, pages 99-100"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "هالت أفندي كان وزيراً وكاتباً كبيراً عند السلطان محمود الثاني، وسافر سفيراً إلى فرنسا."
+  en: "Halet Efendi was a powerful official of the Ottoman sultan Mahmud II, and once travelled to France as his ambassador."
+  ur: "ہالت آفندی عثمانی سلطان محمود ثانی کے طاقتور افسر تھے اور ایک بار سفیر بن کر فرانس گئے۔"

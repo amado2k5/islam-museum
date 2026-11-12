@@ -1,0 +1,33 @@
+id: person/reverter
+class: person
+label: { ar: "ريفيرتر", en: "Reverter", ur: "ریورٹر" }
+names:
+  - { kind: alternate, lang: ar, value: "الروبرتير" }
+  - { kind: alternate, lang: en, value: "al-Ruburtayr" }
+  - { kind: alternate, lang: en, value: "al-Rubertayr" }
+summary:
+  ar: "ريفيرتر قائد قطلوني مسيحي، تسميه دائرة المعارف الإسلامية في المصادر العربية الروبرتير، وكان على رأس المليشيا المسيحية في خدمة المرابطين، وقاد في عهد علي بن يوسف القوات الخفيفة المؤلفة من المرتزقة المسيحيين في المغرب. وتقول الموسوعة إنه قُتل سنة 539هـ/1145م في اشتباك مع الموحدين في شرق المغرب. ولا تذكر المقالات المقروءة ميلاده ولا أي صلة له بسرقسطة {cite:encyclopaedia-of-islam-2 vol. 1 p. 97} {cite:encyclopaedia-of-islam-2 vol. 1 p. 412}."
+  en: "Reverter was a Catalan Christian commander, called al-Ruburtayr in Arabic sources as given in the Encyclopaedia of Islam, who led the Christian militia in Almoravid service and under Ali ibn Yusuf commanded the light forces of Christian mercenaries kept in Morocco. The Encyclopaedia says he was killed in 539/1145 in a clash with the Almohads in eastern Morocco. The articles read give neither his birth nor any link between him and Zaragoza {cite:encyclopaedia-of-islam-2 vol. 1 p. 97} {cite:encyclopaedia-of-islam-2 vol. 1 p. 412}."
+  ur: "ریورٹر ایک کیٹالان مسیحی سپہ سالار تھے، جنہیں دائرۃ المعارف الاسلامیہ عربی ماخذ کے مطابق الروبرتیر لکھتی ہے؛ وہ مرابطین کی خدمت میں مسیحی فوجی دستے کے سربراہ تھے اور علی بن یوسف کے دور میں مراکش میں رکھے گئے مسیحی کرائے کے سپاہیوں کے ہلکے دستوں کی کمان کرتے تھے۔ دائرۃ المعارف کے مطابق وہ 539ھ/1145ء میں مشرقی مراکش میں موحدین سے ایک جھڑپ میں مارے گئے۔ پڑھے گئے مضامین ان کی پیدائش بتاتے ہیں نہ ان کا سرقسطہ سے کوئی تعلق {cite:encyclopaedia-of-islam-2 vol. 1 p. 97} {cite:encyclopaedia-of-islam-2 vol. 1 p. 412}."
+gender: male
+roles: [general]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb, andalus-europe]
+died: { edtf: "1145", hijri: "0539", calendar: julian, precision: year, status: tradition, derived: false, note: "Given as 539/1145 in the Encyclopaedia of Islam, vol. 1 p. 97 (article on 'Abd al-Mu'min); his birth is not given in the articles read." }
+relations:
+  - { type: related_to, target: person/ali-ibn-yusuf-al-murabiti, note: "Commanded the Christian mercenary forces in Morocco during his reign.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/morocco, note: "Killed in eastern Morocco.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed.: 'Abd al-Mu'min, 'Ali b. Yusuf b. Tashufin, al-Muwahhidun"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 1 (PDF pp. 97 and 412), vol. 7 (al-Muwahhidun, PDF p. 858)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "ريفيرتر قائد قطلوني قاد جنوداً مسيحيين في جيش المرابطين بالمغرب."
+  en: "Reverter was a Catalan commander who led Christian soldiers in the Almoravid army in Morocco."
+  ur: "ریورٹر ایک کیٹالان سپہ سالار تھے جنہوں نے مراکش میں مرابطین کی فوج میں مسیحی سپاہیوں کی قیادت کی۔"

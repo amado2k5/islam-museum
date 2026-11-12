@@ -1,0 +1,35 @@
+id: person/eugene-of-savoy
+class: person
+label: { ar: "الأمير أوجين دي سافوا", en: "Prince Eugene of Savoy", ur: "شہزادہ یوجین آف سیوائے" }
+names:
+  - { kind: alternate, lang: en, value: "Eugene of Savoy" }
+  - { kind: alternate, lang: de, value: "Prinz Eugen von Savoyen" }
+summary:
+  ar: "الأمير أوجين دي سافوا قائد الجيش الإمبراطوري النمساوي في الحروب مع العثمانيين. هزم السلطان مصطفى الثاني عند زنطة في 11 سبتمبر 1697م وأحرق سراييفو بعدها، ثم انتصر في بتروارادين وتمشوار وبلغراد في حرب 1716 إلى 1718م التي انتهت بصلح بساروفتز {cite:encyclopaedia-of-islam-2 vol. 11 p. 513} {cite:encyclopaedia-of-islam-2 vol. 8 p. 299}."
+  en: "Prince Eugene of Savoy commanded the Austrian imperial army in its wars with the Ottomans. He defeated Sultan Mustafa II at Zenta on 11 September 1697 and burned Sarajevo soon after, then won at Peterwardein, Temesvar and Belgrade in the war of 1716-18 that ended with the Peace of Passarowitz {cite:encyclopaedia-of-islam-2 vol. 11 p. 513} {cite:encyclopaedia-of-islam-2 vol. 8 p. 299}."
+  ur: "شہزادہ یوجین آف سیوائے عثمانیوں سے جنگوں میں آسٹریا کی شاہی فوج کے سپہ سالار تھے۔ انہوں نے 11 ستمبر 1697ء کو زینتا میں سلطان مصطفیٰ ثانی کو شکست دی اور اس کے فوراً بعد سراجیوو کو جلا ڈالا، پھر 1716 تا 1718ء کی اس جنگ میں پیٹروارادین، تیمیشوار اور بلغراد میں فتح پائی جو صلحِ پساروفچہ پر ختم ہوئی {cite:encyclopaedia-of-islam-2 vol. 11 p. 513} {cite:encyclopaedia-of-islam-2 vol. 8 p. 299}۔"
+gender: male
+roles: [general]
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [andalus-europe, anatolia-balkans]
+relations:
+  - { type: fought, target: polity/ottoman-empire, note: "Zenta 1697; Peterwardein, Temesvar and Belgrade 1716-17.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: polity/habsburg-monarchy, note: "Commanded the imperial army.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/battle-of-zenta-1697, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/siege-of-belgrade-1717, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/siege-of-temesvar-1716, sources: [source/encyclopaedia-of-islam-2], confidence: low, note: "The article names Temesvar among his three victories of 1716; his personal command at the siege is not stated." }
+  - { type: related_to, target: place/sarajevo, note: "His troops sacked and burned the city in September 1697.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., scattered passages (no separate article on Eugene), written in the museum's own words"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., passages in vol. 1 pp. 1224, 1331; vol. 4 p. 1007; vol. 5.1 p. 50; vol. 6 pp. 1019-1020; vol. 8 p. 299; vol. 9 pp. 39, 69; vol. 11 p. 513"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "الأمير أوجين قائد نمساوي مشهور، انتصر على الجيش العثماني في معارك كبيرة."
+  en: "Prince Eugene was a famous Austrian general who won big battles against the Ottoman army."
+  ur: "شہزادہ یوجین آسٹریا کے مشہور سپہ سالار تھے جنہوں نے عثمانی فوج کے خلاف بڑی لڑائیاں جیتیں۔"

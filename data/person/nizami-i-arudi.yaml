@@ -1,0 +1,33 @@
+id: person/nizami-i-arudi
+class: person
+label: { ar: "نظامي عروضي السمرقندي", en: "Nizami-i Arudi of Samarqand", ur: "نظامی عروضی سمرقندی" }
+names:
+  - { kind: full, value: "Nizami-i 'Arudi-i Samarqandi" }
+  - { kind: alternate, value: "Nizami Arudi Samarqandi" }
+  - { kind: alternate, value: "Nizami Aruzi" }
+  - { kind: alternate, value: "نظامی عروضی" }
+summary:
+  ar: "نظامي عروضي السمرقندي كاتب فارسي من القرن السادس الهجري، صاحب كتاب «چهار مقاله» المسمى أيضاً «مجمع النوادر»، وقد كُتب نحو سنة 551هـ/1156م. تذكر دائرة المعارف الإسلامية أنه كان في خدمة عمر الخيام سنة 506هـ/1112م، وأنه زار قبره سنة 530هـ/1135م، وأن أخباره عن الخيام ضمن فصله عن المنجمين تنم عن إعجابه بأستاذه القديم، وتصفه كذلك بأنه أوثق مصدر في أخبار الشاعر الفرخي {cite:encyclopaedia-of-islam-2 vol. 10 p. 882}. لا تتوافر في المصادر المقروءة تواريخ ميلاده ووفاته."
+  en: "Nizami-i 'Arudi of Samarqand was a Persian prose author of the 6th/12th century, writer of the Chahar maqala, also called Majma' al-nawadir, composed about 551/1156. The Encyclopaedia of Islam reports him in the service of 'Umar Khayyam in 506/1112 and visiting Khayyam's tomb in 530/1135, and notes that his accounts of Khayyam, placed in his chapter on astronomers and astrologers, reflect his admiration for his former master; elsewhere it calls him the most reliable informant on the poet Farrukhi {cite:encyclopaedia-of-islam-2 vol. 10 p. 882}. The sources read give no dates of his birth or death."
+  ur: "نظامی عروضی سمرقندی چھٹی صدی ہجری کے فارسی نثر نگار تھے، جنہوں نے «چہار مقالہ» لکھی، جسے «مجمع النوادر» بھی کہا جاتا ہے، اور جو تقریباً 551ھ/1156ء میں تحریر ہوئی۔ دائرۃ المعارف الاسلامیہ کے مطابق وہ 506ھ/1112ء میں عمر خیام کی خدمت میں تھے اور 530ھ/1135ء میں ان کی قبر کی زیارت کی، اور فلکیات و نجوم کے باب میں خیام کے بارے میں ان کے بیانات اپنے سابق استاد کی تحسین کا اظہار ہیں؛ وہی مضمون شاعر فرخی کے بارے میں انہیں سب سے قابلِ اعتماد راوی بھی قرار دیتا ہے {cite:encyclopaedia-of-islam-2 vol. 10 p. 882}۔ پڑھے گئے مآخذ میں ان کی پیدائش اور وفات کی تاریخیں نہیں ملتیں۔"
+gender: male
+roles: [writer]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+relations:
+  - { type: related_to, target: person/umar-khayyam, note: "The article places Nizami in Khayyam's service in 506/1112 and calls Khayyam his former master {cite:encyclopaedia-of-islam-2 vol. 10 p. 882}.", sources: [source/encyclopaedia-of-islam-2], confidence: medium }
+  - { type: lived_in, target: place/marw, note: "The article has him at Marw in 508/1114, when he says Khayyam's fame exceeded that of all the court astrologers {cite:encyclopaedia-of-islam-2 vol. 10 p. 882}.", sources: [source/encyclopaedia-of-islam-2], confidence: low }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., articles Umar Khayyam and Farrukhi; museum reading of the OCR text"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-2
+  canon: "EI2 vol. 10, article 'Umar Khayyam, PDF pages 882, 884; vol. 2, article Farrukhi, PDF page 839. No dedicated EI2 article on Nizami-i 'Arudi was found in the local OCR."
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "نظامي عروضي كاتب من سمرقند ألّف كتاباً فارسياً قديماً وحكى فيه عن شعراء وعلماء عرفهم."
+  en: "Nizami-i Arudi was a writer from Samarqand who wrote an old Persian book telling about poets and scholars he knew of."
+  ur: "نظامی عروضی سمرقند کے ایک مصنف تھے جنہوں نے ایک پرانی فارسی کتاب لکھی جس میں شاعروں اور عالموں کا ذکر ہے۔"
