@@ -605,3 +605,20 @@ Notes for ep25–ep26. Episode 25 is garbled in its middle sections; episode 26 
 | Wording of the sudden-death verse and examples in the cemetery passage beyond the clear points | ep10 00:06:00 | Verse garbled | Clarity | Open |
 | Hadith of the cards (full wording), Hadith on the Bedouin and the townsman | ep10 00:08:00; ep12 00:05:30-00:06:00 | Wording not typed; garbled | Hadith rule; clarity | Open |
 | Corruption and bribery remark in the heedlessness passage | ep09 00:07:30-00:08:00 | Partly garbled personal anecdote; only the clear point on backbiting kept | Clarity | Open |
+
+### albuyout-alamena, episodes 6–7 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-3)
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep06–ep07 (the pillars of the home and the winds of affection; the first year of marriage) | about 39 min, 40 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 23 points | 6 new `about` edges (al-Hakim bi-Amr Allah, the Saqifa, concept/talaq, concept/rahma, concept/kitman-al-sirr, passage 42:40) | ep06 11, ep07 12 points; engine qwen3-asr pass5, 30 s windows | 7 needs_source: ep06 the waking-for-prayer report (00:02:30), Umar and the man who did not love his wife (00:17:30), call details (00:20:30, 00:30:30); ep07 Umar and Abu Bakr at the Saqifa (00:13:00), the greatest-betrayals report (00:25:00), call details (00:19:00) | run omar-abdelkafy-albuyout-3 |
+
+Next step: episode 8.
+
+| Excluded (albuyout-alamena ep06–ep07) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep06 00:00:00–00:01:00, 00:11:30–00:12:00, 00:24:30–00:25:30, 00:38:30–00:39:00; ep07 00:00:00–00:01:00, 00:12:30, 00:25:00, 00:39:30–00:40:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep06 00:09:30, 00:17:00, 00:36:00, 00:37:30, 00:38:30; ep07 00:07:30, 00:15:00, 00:30:00, 00:31:30, 00:33:30 | Not speech | Loop check | Open |
+| Calls and answers too garbled to read | ep06 00:21:00–00:25:00 (in part), ep06 00:30:00–00:34:00 (in part); ep07 00:19:30–00:21:00, 00:44:00–00:46:00 equivalents (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Poetry and proverbs (Arabic verse on the beautiful face and the ugly soul; the 'sleeping till mid-morning' praise beyond the clear point) | ep06 00:15:30–00:16:00; ep07 00:08:00 | Verbatim verse, partly garbled | Sources policy; clarity | Open |
+| Hadith wording | ep06 00:04:30 | Wording not typed; reported by sense only | Hadith rule | Open |
+| Questions outside the episode (lost item in the street, zakat on a shop, menstruation, repeated prohibiting oath, nursing) | ep06 00:23:00–00:33:30 | Fiqh questions the lecturer refers to fatwa programmes; the clear questions are summarised only | Scope | Open |
