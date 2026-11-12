@@ -104,3 +104,6 @@
 
 ## Batch 23 (run microsd-books-b31, Claude Code / claude-fable-5-2)
 - Pages read: vol. 10 pp. 56–61. Enriched `person/yahya-ibn-muadh-al-razi` (463, to 10/61). Notice continues from 10/62 to about 72.
+
+## Batch 24 (run microsd-books-b32, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 62–67. Enriched `person/yahya-ibn-muadh-al-razi` (463, to 10/67). Notice continues from 10/68 to about 72.
