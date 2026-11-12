@@ -9,14 +9,15 @@ class: place
 kind: city
 label: { en: "Sana'a", ar: "صنعاء" }
 summary:
-  en: "Capital of Yemen, an early centre of Islam in the south of Arabia with a UNESCO-listed old city and a very old Great Mosque. The native son al-Hamdani praised it in verse as 'Sana'a of the halls and towering clay towers', the abode of kingship whose twin wonders were Ghumdan and the Qalis {cite:sifat-jazirat-al-arab pp. 220-221}."
-  ar: "عاصمة اليمن، ومركز إسلامي مبكر في جنوب الجزيرة العربية، ومدينتها القديمة مدرجة في قائمة اليونسكو، ومسجدها الكبير من أقدم المساجد. وروى المقدسي عن أبي القاسم الزجاجي أن اسمها القديم أزال فلما وافتها الحبشة قالوا هذه صنعة أي حصينة فسميت صنعاء، وعدّها من طيبات الهواء {cite:ahsan-al-taqasim p. 31}. ووصفها الهمداني، وهو ابن بلدها، في شعره بأنها «صنعاء ذات الدور والأطام» ودار الملك ومعدن حمير، وعدّ فيها غمدان والقليس آيتيها العظيمتين، وجبليها نقم وعيبان {cite:sifat-jazirat-al-arab pp. 220-221}."
+  ar: "صنعاء المدينة الرئيسة في اليمن منذ القدم وعاصمة الجمهورية اليمنية، وتقع على ارتفاع يزيد على 2200 متر بين نقم وعيبان. ترجح دائرة المعارف الإسلامية أن اسمها سبئي بمعنى المحصنة، وتذكرها نقوش ما قبل الإسلام مركزًا عسكريًا. وتداولتها بعد الإسلام اليعفريون والصليحيون وأسر همدان والأيوبيون والعثمانيون والأئمة الزيدية، وفيها مدينة قديمة من بيوت البرج وأكثر من مئة مسجد وحمامات عامة وسوق كبير ودار سك."
+  en: "Sana'a has been the chief town of Yemen since ancient times and is the capital of the Republic of Yemen, standing above 2,200 metres between Djabal Nukum and Djabal 'Ayban. The Encyclopaedia of Islam judges its name probably Sabaic, meaning well fortified, and pre-Islamic inscriptions show it as a military centre. After the coming of Islam it passed between the Yu'furids, Sulayhids, Hamdan families, Ayyubids, Ottomans and Zaydi Imams, and its old town keeps tower houses, over a hundred mosques, public baths, a large market and a mint."
+  ur: "صنعاء قدیم زمانے سے یمن کا مرکزی شہر اور جمہوریہ یمن کا دارالحکومت ہے، جو جبل نقم اور جبل عیبان کے درمیان 2200 میٹر سے زیادہ بلندی پر واقع ہے۔ انسائیکلوپیڈیا آف اسلام کی رائے میں اس کا نام غالباً سبائی ہے اور مطلب مضبوط قلعہ بند ہے، اور اسلام سے پہلے کے کتبے اسے فوجی مرکز دکھاتے ہیں۔ اسلام کے بعد یہ یعفریوں، صلیحیوں، ہمدان کی شاخوں، ایوبیوں، عثمانیوں اور زیدی ائمہ کے درمیان بدلتا رہا، اور اس کے قدیم شہر میں برج نما گھر، سو سے زیادہ مسجدیں، عوامی حمام، بڑا بازار اور ٹکسال ہیں۔"
 wings: [place]
 regions: [arabia]
 coordinates: [15.3545, 44.2065]
 coordinate_precision: site
 external_ids: { wikidata: "Q2471", geonames: "71137", nomisma: "sana'a" }
-sources: [source/geonames-gazetteer, source/ahsan-al-taqasim, source/sifat-jazirat-al-arab, source/nomisma]
+sources: [source/geonames-gazetteer, source/ahsan-al-taqasim, source/sifat-jazirat-al-arab, source/nomisma, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
 provenance:
@@ -25,3 +26,4 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch9"
+  canon: "Encyclopaedia of Islam, 2nd ed., vol. 9, article SAN'A' by G.R. Smith, PDF pp. 10-12, written by Claude Sonnet 5.5, run canon-cornerstones-9"
