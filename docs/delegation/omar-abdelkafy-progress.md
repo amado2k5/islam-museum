@@ -940,7 +940,6 @@ The hajj hadith (ep15 00:22:30) is presented as the lecturer's relating with no 
 | Garbled passages | ep14 00:03:00-00:04:00, 00:06:00-00:07:30, 00:12:30-00:14:00, 00:14:30-00:16:00, 00:18:30-00:20:30, 00:21:30-00:22:30, 00:24:00-00:25:30, 00:28:30-00:29:30 (the ant passage); ep15 00:02:30-00:03:30, 00:05:00-00:06:30, 00:12:30 (a remark on lecturing), 00:15:00-00:15:30, 00:17:30-00:19:30 (fasting numbers and a bleeding ruling), 00:20:00 (partial), 00:24:30-00:27:00, 00:31:30-00:33:00, 00:34:00-00:35:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Supplications and sign-offs | ep14 00:32:00; ep15 00:35:30-00:36:30 | Not lesson content | Content rule | Open |
 
-Resume point: episode 16 (branch from origin/main).
 ### albuyout-alamena, episode 28 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-16)
 
 Episode 28 read in full (48 min of transcript) before writing. 17 points written (ar, en, ur); new `about` edges for the people and passages named; 11 needs_source (sayings without a chain, garbled call text, rulings given without evidence).
@@ -993,3 +992,18 @@ Next step: episode 30.
 | Private circumstances of callers | ep29 00:30:00–00:41:00 | Kept general | Privacy | Open |
 | Verses of poetry quoted | ep29 00:06:30, 00:27:00 | Not reproduced | Sources policy | Open |
 | Hadith and saying wording | ep29 00:02:00–00:02:30, 00:25:00, 00:49:00 | Wording not typed; by sense only | Hadith rule | Open |
+
+
+### al-dar-al-akhera ep17-ep18 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep17-ep18 (the people of Paradise and the Fire; the Fire, part 1) | ep17 about 43 min; ep18 about 45 min (transcript) | ar, en, ur: 1 record extended | 12 new `about` edges | ep17 10, ep18 14 points; qwen3-asr pass5, 30 s windows | needs_source on every point; the Ascension report and the slaughtered death have no chain (ep17 00:26:00, 00:29:30); the names in the Iyad ibn Himar hadith (ep17 00:35:00); the Abd al-Rahman ibn Awf figures (ep18 00:10:30); Hatim al-Asamm (ep18 00:19:00); the order and names of the degrees (ep18 00:36:00) | run omar-abdelkafy-dar-akhera-11 |
+
+| Excluded (dar-akhera ep17-ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep17 00:01:30, 00:05:30, 00:12:00, 00:12:30, 00:15:30, 00:16:00, 00:19:30, 00:22:00, 00:28:00, 00:32:30, 00:34:00; ep18 00:00:30, 00:01:00, 00:09:00, 00:10:00, 00:12:30, 00:15:00, 00:16:30, 00:19:30, 00:21:00, 00:34:00, 00:37:30, 00:39:30 | Not speech | Loop check | Open |
+| Garbled passages | ep17 00:00:00-00:01:30, 00:03:30-00:04:30, 00:05:00 (a remark on the veil), 00:06:00-00:08:00, 00:10:30-00:11:00, 00:13:00 (partial), 00:14:30-00:15:30, 00:23:00 (partial), 00:25:00-00:26:00, 00:32:00-00:35:00 (the moths hadith tail), 00:38:00-00:40:30 (partial); ep18 00:00:00, 00:01:30, 00:03:30-00:04:00 (partial), 00:06:00-00:07:00, 00:12:30-00:18:00 (market and chemistry anecdotes), 00:24:00-00:24:30 (partial), 00:28:30-00:29:00, 00:31:30-00:33:00, 00:37:00-00:39:00 (groups the lecturer names under the degrees), 00:39:30-00:41:30 | Not recoverable as clear Arabic | Clarity | Open |
+| Supplications, announcements and sign-offs | ep17 00:41:30-00:42:30; ep18 00:44:00-00:44:30 (mosque lecture times) | Not lesson content | Content rule | Open |
+
+Resume point: episode 19 (branch from origin/main).

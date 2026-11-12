@@ -190,3 +190,16 @@
 | Notice | Page | Passage | Reason | Handling |
 |---|---|---|---|---|
 | 473 | 130 | the nisba in the heading (given in the scan as "إصرى") | smudged in the scan | not recorded; the record gives no place |
+
+## Batch 38 (run microsd-books-b46, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 131–133 (full text read before writing). New drafts: person/ahmad-ibn-al-ghamr (475, 10/131–132), person/bishr-ibn-bashshar-al-mujashi (476, 10/132–133), person/mujahid-al-sufi (477, 10/133). Notice 478 (Abu al-Abyad) begins on 10/133 and is next.
+- Earlier drafts of 475 contained ellipses; they were rewritten before commit, and the regenerated output was checked for ellipses and honorifics.
+
+## Exclusions and garbled readings (batch 46)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 475 | 132 | Ahmad's answer on food ("بذمن أبذره من بذر اللطيف الخير") | garbled in the scan | not recorded; the prose says so |
+| 476 | 132 | some letters of the heading (the nisba's last letters) | smudged in the scan | the nisba given as read on 10/133 |
+| 477 | 133 | the word read as "الدماء" in Mujahid's saying | smudged; likely "الدعاء" | the record renders it as supplication, the likely reading; the prose does not flag this reading, a gap to fix in revision |
+| 477 | 133 | a clause "ومانق الفقر" | garbled in the scan | omitted |

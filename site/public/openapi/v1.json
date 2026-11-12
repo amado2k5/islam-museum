@@ -853,6 +853,27 @@
           }
         }
       }
+    },
+    "/usra.json": {
+      "get": {
+        "summary": "Usra Browser — Family and Marriages dataset",
+        "description": "The Usra Browser dataset (متصفح الأسرة والزيجات): everything the museum's sources mention about the most famous marriages in Islam, Muslim families, their dwellings, livelihood, daily life and social customs in the Qur'an, Sunnah, seerah, Companion and Tabi'in reports and every harvested book — passages detected at build time by a guarded lexicon (marital-context gating on «زواج/زوج», marriage-context gating on «خطبة», divine-voice exclusion on nafaqa verbs, publisher «دار» excluded, false positives by id) plus the curated usra-browser records (36 records incl. the usra/maskan/maisha/istidhan/diyafa seeds and event/marriage-of-fatima-and-ali) — each with its section (quran, sunnah, seerah, books, curated), usra_kind, topical topics (marriages, family, homes, livelihood, daily, customs), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Usra dataset",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "usra"
+        ]
+      }
     }
   },
   "components": {
