@@ -647,6 +647,23 @@ Next step: episode 8.
 | Verse of the proud tribe drinking clear water | ep15 00:03:30-00:04:00 | Verse, author unnamed and garbled | Sources policy; clarity | Open |
 | Hygiene remark and the divorce-case remark | ep15 00:04:00-00:04:30 | Garbled, unclear point | Clarity | Open |
 
+
+### albuyout-alamena, episodes 8–9 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-4)
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep08–ep09 (the language of dialogue and obstacles to affection; living together in kindness) | about 44 min, 43 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 21 points | 15 new `about` edges (Dawud, al-Mutanabbi, Abu Nuwas, Safiyya, Iblis, mahram, dua, itikaf, nafaqa, passages 38:23-24, 5:8, 4:19) | ep08 11, ep09 10 points; engine qwen3-asr pass5, 30 s windows | 7 needs_source: ep08 newborn study (00:05:30), call details (00:24:30), last questions (00:37:00); ep09 historical claims (00:01:00), Safiyya report (00:07:00), call details (00:24:30), rulings on the past and test-tube babies (00:36:00) | run omar-abdelkafy-albuyout-4 |
+
+Next step: episode 10.
+
+| Excluded (albuyout-alamena ep08–ep09) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep08 00:00:00–00:00:30, 00:06:30, 00:25:30–00:26:00, 00:43:00–00:43:30; ep09 00:00:00–00:01:00, 00:08:30–00:09:00, 00:23:30, 00:42:30–00:43:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep08 00:03:00, 00:11:30, 00:12:00, 00:16:00, 00:30:00, 00:38:00; ep09 00:04:30, 00:06:30, 00:16:00, 00:22:00, 00:35:00 | Not speech | Loop check | Open |
+| Calls and answers too garbled to read | ep08 00:28:00–00:33:30 (in part), 00:39:00–00:40:00; ep09 00:25:00–00:35:30 (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Verse and proverb wording (poetry on the beautiful claim, Abu Nuwas and al-Mutanabbi verses) | ep08 00:12:30, 00:13:30, 00:14:00 | Verbatim verse, partly garbled; given by sense | Sources policy; clarity | Open |
+| Hadith wording | ep08 00:16:30, 00:22:00; ep09 00:11:00, 00:12:30 | Wording not typed; reported by sense only | Hadith rule | Open |
+| Questions outside the episode (bank loan for a car, stop-and-go fatwas on divorce oaths) | ep09 00:27:00 | Referred to after-programme phone; not summarised | Scope | Open |
 | Excluded (tariq-al-noor ep16-ep18) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
 | Openings, supplications, closing formulae | ep16 00:00:00, 00:09:30; ep17 00:00:00, 00:08:00-00:08:30; ep18 00:00:00, 00:09:30 | Not lesson content | Content rule | Open |
