@@ -975,3 +975,21 @@ Opinions labelled as the lecturer's own with no museum ruling: apostasy of one w
 | Announcement on distribution and pricing of the recorded series | ep16 00:36:00-00:37:00 | Logistics, not lesson content | Content rule | Open |
 
 Resume point: episode 17 (branch from origin/main).
+### albuyout-alamena, episode 29 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-17)
+
+Episode 29 read in full (51 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people, places and passages named; 13 needs_source (stories, figures and sayings without a chain or source, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep29 (hope in the home) | about 51 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 15 points | new `about` edges | 15 | 13 needs_source | this PR |
+
+Next step: episode 30.
+
+| Excluded (albuyout-alamena ep29) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep29 00:00:00–00:00:30, 00:11:00 (break), 00:28:00–00:28:30, 00:51:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep29 00:04:00, 00:07:30, 00:08:00, 00:09:00, 00:10:00, 00:17:00, 00:26:00, 00:27:30, 00:34:00, 00:39:00, 00:43:00–00:43:30, 00:46:30, 00:47:00, 00:49:00 | Not speech | Loop check | Open |
+| Garbled passages and calls | ep29 00:08:00–00:09:30 (the opening of the Kafur and Saladin stories), 00:13:00 (the opening of the Ata passage), 00:30:00–00:31:00 (the call about the son), 00:31:00 (a cut line), 00:36:00–00:37:30, 00:38:00–00:38:30, 00:39:30–00:40:30 | Garbled or fragmentary; only the clear sense is summarised | Clarity | Open |
+| Private circumstances of callers | ep29 00:30:00–00:41:00 | Kept general | Privacy | Open |
+| Verses of poetry quoted | ep29 00:06:30, 00:27:00 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep29 00:02:00–00:02:30, 00:25:00, 00:49:00 | Wording not typed; by sense only | Hadith rule | Open |
