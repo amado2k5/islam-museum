@@ -563,3 +563,18 @@
 |---|---|---|---|---|
 | 539 (printed) | 165 | "كذارمى إن حدأة" | read as "كذا رمت حدأة" (a kite threw down a piece of roast); the scan's "رمى" may be the verb | the sense given; the tense is flagged for revision |
 | 538 (printed) | 164 | the chain's second name ("محمد بن عبد الله الرازي") | legible | given as read |
+
+## Batch 75 (run microsd-books-b75, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 165–166 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/said-al-shahid (printed 540, sequence 541, 10/165–166; laqab), person/sayyar-al-nabbaji (printed 541, sequence 542, 10/166), person/ahmad-ibn-rawh (printed 542, sequence 543, 10/166). Printed 543 (Jabir al-Rahhi, "له الأحوال الرقيقة، والألطاف البديعة") begins at the foot of 10/166 and is next.
+- The honorific at the end of 540 is not typed; the prose says he was killed. The verses are paraphrased in prose, not quoted. Qur'an text: none in these notices.
+- Held: printed 532 stays held pending the coordinator's ruling; nothing written.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 75)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 540 (printed) | 166 | the honorific after the name of the slain man | the museum does not type honorifics | omitted; the prose says he was killed |
+| 540 (printed) | 165–166 | the verses | paraphrased, not quoted | described in prose |
+| 541 (printed) | 166 | the chain's first name ("عثمان بن محمد العثماني") and the sheikh "أبو الحسن المذكر" | legible; given as read | no flag |
+| 542 (printed) | 166 | the transmitter name after "عثمان بن د" | garbled in the scan | not given |
