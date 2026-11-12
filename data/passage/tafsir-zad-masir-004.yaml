@@ -1,0 +1,23 @@
+id: passage/tafsir-zad-masir-004
+class: passage
+unit: chapter
+work: work/zad-al-masir
+ref: "181"
+label:
+  ar: "زاد المسير — ابن الجوزي — ص 181"
+  en: "زاد المسير — ابن الجوزي — p. 181"
+text: "بكى صبابة إلى رسول الله واليه فبعث مكانه عبد الله بن جحش، وكتب له كتابا، وأمره ألا يقرأه إلا بمكان كذا وكذا، وقال: ((لا تكرهن أحدا من أصحابك على المسير معك))، فلما صار إلى المكان، قرأ الكتاب واسترجع، وقال: سمعا"
+summary:
+  ar: "مقطع من «زاد المسير — ابن الجوزي» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «زاد المسير — ابن الجوزي» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/zad-al-masir-maktab-islami-v1] }
+  - { type: mentions, target: person/muhammad, sources: [source/zad-al-masir-maktab-islami-v1] }
+provenance:
+  layer: own-research
+  source: "زاد المسير — ابن الجوزي ص 181 — مقتطف المكاتبات — tafsir"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-2
+tags: [mukatabat-browser]
+sources: [source/zad-al-masir-maktab-islami-v1]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
