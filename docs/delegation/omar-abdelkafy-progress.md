@@ -421,7 +421,6 @@ Opinions labelled as the lecturer's own (record stays `sensitivity: contested`, 
 | Closing supplications, sign-offs, producer's announcement with phone number and organisation name | ep04 00:42:00; ep05 00:41:30, 00:47:30-00:48:00 | Not lesson content | Content rule | Open |
 | Question on a bank loan and one on spending zakat | ep05 00:43:00-00:44:30 | Garbled | Clarity | Open |
 
-Resume point: episode 06 (branch `agent/assabile-dar-akhera`).
 
 ### Completed recordings (§8), continued
 
@@ -506,3 +505,18 @@ Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan progra
 | Repetition loops | ep02 00:03:00; ep03 00:07:00, 00:08:00 (tail), 00:08:30; ep04 00:06:00 | Not speech | Loop check | Open |
 | Saying about innovators and Hell | ep01 00:07:00 | Garbled wording, hadith-like, no attribution | Clarity; hadith rule | Open |
 | Short passage on Ibn Taymiyya, Ibn al-Qayyim, al-Ghazali, Abu Hanifa and Ahmad as jurists | ep04 00:03:00 | Fragmentary | Clarity | Open |
+
+
+### al-dar-al-akhera ep09 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep09 (resurrection, the gathering, the great intercession) | about 38 min (transcript) | ar, en, ur: 1 record extended | 9 new `about` edges | 18 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the lecturer's ascriptions to Ibn Majah, Ahmad, Tirmidhi and Muslim are unchecked (ep09 00:00:00, 00:03:00); the cubit arithmetic (00:09:00); the claim on a covered woman's sweat has no source (00:11:00) | run omar-abdelkafy-dar-akhera-5 |
+
+| Excluded (dar-akhera ep09) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep09 00:17:30, 00:25:30 | Not speech | Loop check | Open |
+| Garbled passages | ep09 00:01:30-00:02:30 (a story about a servant of the Prophet), 00:08:30-00:09:00, 00:12:00-00:12:30, 00:13:30-00:14:30 (remarks on the lecturer's own speech), 00:18:00-00:18:30, 00:23:30-00:24:00, 00:27:30-00:28:00, 00:31:30-00:32:30 (the dragon passage), 00:35:30-00:36:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Supplications and sign-off | ep09 00:23:00 (supplication), 00:37:30 | Not lesson content | Content rule | Open |
+
+Resume point: episode 10 (branch from origin/main).
