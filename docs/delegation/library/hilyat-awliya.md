@@ -111,3 +111,7 @@
 ## Batch 25 (run microsd-books-b33, Claude Code / claude-fable-5-2)
 - Pages read: vol. 10 pp. 68–70. Enriched `person/yahya-ibn-muadh-al-razi`: notice 463 complete at about 10/70. A new notice heading (OCR "٣٦٤ سعيد بن العباس الرازي", i.e. almost certainly notice 464, Sa'id ibn al-Abbas al-Razi) begins on 10/70. It is not in the queue and needs a separate lead; 10/71–72 belong to it.
 - Correction to the queue: notice 463 ends at about 10/70, not 72.
+
+## Batch 26 (run microsd-books-b34, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 70–72. New draft `person/said-ibn-al-abbas-al-razi` (464, 10/70–72). Identity: notice 464 is a real separate notice; its OCR heading number is 364, but the sequence (463 Yahya, 464 here, 465 al-Harith al-Muhasibi on 10/73) fixes it as 464. No existing record for this Sa'id was found in data/person. No death date entered: the notice gives none on these pages.
+- Notice 465 al-Harith al-Muhasibi begins on 10/73 and runs to about 110.

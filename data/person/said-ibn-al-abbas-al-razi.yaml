@@ -1,0 +1,21 @@
+id: person/said-ibn-al-abbas-al-razi
+class: person
+label: { ar: "سعيد بن العباس الرازي", en: "Sa'id ibn al-Abbas al-Razi", ur: "سعید بن عباس رازی" }
+names:
+  - { kind: full, lang: ar, value: "أبو عثمان سعيد بن العباس الرازي" }
+  - { kind: kunya, lang: ar, value: "أبو عثمان" }
+gender: male
+roles: [mystic, scholar]
+summary:
+  ar: "أبو عثمان سعيد بن العباس الرازي، صوفي من أهل الري، راسخ في علم الأصول، جافٍ عن الخوض في الفضول، ينصح المريدين ويقمع المخالفين، وتروي عنه «حلية الأولياء» وصية في الحذر من شياطين الإنس والجن ومن الدنيا، وفي فضل العلماء ورثة الأنبياء."
+  en: "Abu Uthman Sa'id ibn al-Abbas al-Razi, a Sufi of Rayy, firm in the principles of religion and averse to idle disputation, who advised disciples and checked opponents; Hilyat al-Awliya relates his admonition against the devils of humankind and of jinn and against the world, and on the scholars as heirs of the prophets."
+  ur: "ابو عثمان سعید بن عباس رازی ری کے صوفی تھے، اصولِ دین میں راسخ، فضول بحث سے دور، مریدوں کو نصیحت کرنے والے اور مخالفین کو روکنے والے۔ «حلیۃ الاولیاء» میں ان کی وصیت ہے کہ انس و جن کے شیطانوں اور دنیا سے بچو، اور علما انبیاء کے وارث ہیں۔"
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+relations:
+  - { type: lived_in, target: place/rayy, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/70-72", generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b34 }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 2 }
