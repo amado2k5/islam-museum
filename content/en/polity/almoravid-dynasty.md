@@ -1,21 +1,74 @@
 ---
 id: polity/almoravid-dynasty
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
-The Almoravid state was founded by Abd Allah ibn Yasin al-Juzuli among the veiled tribes of Lamtuna, Jaddala and Masufa. Ibn Khaldun says that he named them the Almoravids after their ribat on an island in the Nile. {cite:tarikh-ibn-khaldun-ibar}
+The Almoravid state was founded by [[person/abdallah-ibn-yasin|Abd Allah ibn Yasin]] al-Juzuli among the veiled tribes of [[group/lamtuna|Lamtuna]], Jaddala and Masufa. Ibn Khaldun says that he named them the Almoravids after their ribat on an island in the Nile. {cite:tarikh-ibn-khaldun-ibar}
+
+The Encyclopaedia of Islam, second edition, describes the dynasty, called al-Murabitun in Arabic, as a Berber dynasty that ruled North Africa and then Spain in the second half of the 5th/11th century and the first half of the 6th/12th, before another Berber dynasty, the Almohads, replaced it. {cite:encyclopaedia-of-islam-2 vol. 7 p. 637} By the name al-Murabitun the article means above all the royal dynasty founded by several branches of the nomadic, Berber-speaking [[group/sanhaja|Sanhaja]], who were gathered under a religious leader, conquered the Maghrib and then crossed into Andalusia. {cite:encyclopaedia-of-islam-2 vol. 7 p. 637}
+
+The article notes that the word was long thought to come from the warrior-monks of a ribat, a fortified convent on the frontier of Islam, and that this meaning probably holds in several cases. It adds that the Saharan Murabitun may have understood the name as a spiritual discipline rather than a place, since they saw themselves as tied at first to the Dar al-Murabitin founded by the Susi teacher [[person/wajjaj-ibn-zallu|Wajjaj ibn Zallu]] al-Lamti at Aglu, near Tiznit in southern Morocco. {cite:encyclopaedia-of-islam-2 vol. 7 p. 637}
+
+## Origins in the Sahara
+The Sanhaja groups of the western and central Sahara wore a face-muffler over the mouth and chin and were known to Arab geographers as the mulaththamun, the veiled. They lived as nomads along the routes of the salt and slave caravans. {cite:encyclopaedia-of-islam-2 vol. 7 p. 637} {cite:encyclopaedia-of-islam-2 vol. 7 p. 638}
+
+The article says the Muslim sources disagree on details, and names the oldest ones: the Madarik of Qadi Iyad, the Masalik of al-Bakri, written in 460/1068, and the lost work of Ibn al-Sayrafi, whose material later chroniclers appear to have used. {cite:encyclopaedia-of-islam-2 vol. 7 p. 638} In outline, in the first half of the 5th/11th century a pious chief or jurist of the Jaddala, called al-Jawhar ibn Sakkum in some sources and Yahya ibn Ibrahim in most, went on pilgrimage. At Kayrawan he met the Maliki teacher Abu Imran al-Fasi, who sent him to Wajjaj ibn Zallu in the Sus. Wajjaj, moved by his wish to teach his tribe Maliki orthodoxy and seeing a possible military ally, sent him back south with his chief pupil Abd Allah ibn Yasin, who had studied seven years in Cordoba. {cite:encyclopaedia-of-islam-2 vol. 7 p. 638}
+
+Ibn Yasin lived for a time among the Jaddala and came to know the princely houses of the Lamtuna. The article calls him a strict Maliki who applied the Sharia penalties to the letter, and quotes Qadi Iyad on the discipline imposed on his followers, including lashes for missing the congregational prayer. All the sources, it says, agree that the movement drew on a militant, expansionist outlook that Ibn Yasin shaped. {cite:encyclopaedia-of-islam-2 vol. 7 p. 638}
+
+Later historians place the movement's base in a hermitage on an island near the mouth of the Senegal or off the Mauritanian coast, but the article observes that neither Qadi Iyad nor al-Bakri gives such a place any weight, and suggests the later authors may have invented it to explain the word ribat. {cite:encyclopaedia-of-islam-2 vol. 7 p. 638} Ibn Yasin kept the political and financial direction of the brotherhood, and gave command of the army, with the title Amir al-Muslimin, to the Lamtuni [[person/yahya-ibn-umar-al-lamtuni|Yahya ibn Umar]]. That army met the Jaddala in a battle the article calls a costly victory, after which the Jaddala left the movement and turned hostile. {cite:encyclopaedia-of-islam-2 vol. 7 p. 638}
 
 ## The emirs
-Their emir Yahya ibn Umar conquered Sijilmasa in 445 AH. Then the rule was firmly established for Yusuf ibn Tashfin, who laid out [[place/marrakesh|Marrakesh]] in 454 AH. {cite:tarikh-ibn-khaldun-ibar}
+Their emir Yahya ibn Umar conquered [[place/sijilmasa|Sijilmasa]] in 445 AH. Then the rule was firmly established for [[person/yusuf-ibn-tashfin|Yusuf ibn Tashfin]], who laid out [[place/marrakesh|Marrakesh]] in 454 AH. {cite:tarikh-ibn-khaldun-ibar}
 
-Ibn Khaldun says that he subdued the regions of the Maghrib, and added al-Andalus after the battle of al-Zallaqa. See [[person/yusuf-ibn-tashfin|Yusuf ibn Tashfin]]. {cite:tarikh-ibn-khaldun-ibar}
+Ibn Khaldun says that he subdued the regions of the Maghrib, and added al-Andalus after the battle of al-Zallaqa. {cite:tarikh-ibn-khaldun-ibar}
+
+The Encyclopaedia of Islam lists the rulers as Yahya ibn Ibrahim al-Jaddali; Yahya ibn Umar, who died in 447 or 448 AH; Abu Bakr ibn Umar, who died in 480/1087-8; Yusuf ibn Tashfin, Amir al-Muslimin from 453 to 500/1061-1107; [[person/ali-ibn-yusuf-al-murabiti|Ali ibn Yusuf]], 500-37/1107-43; [[person/tashfin-ibn-ali|Tashfin ibn Ali]], soon deposed; Ibrahim ibn Tashfin; and Ishaq ibn Ali. {cite:encyclopaedia-of-islam-2 vol. 7 p. 640}
+
+## Conquest of Morocco
+The article gives these steps. Ibn Yasin was killed fighting the Barghawata, in 450/1058 according to the passage it quotes and in 451/1059 according to its genealogical table; the spiritual succession passed to the jurist Sulayman ibn Addu, who died in 452/1060. {cite:encyclopaedia-of-islam-2 vol. 7 p. 639} {cite:encyclopaedia-of-islam-2 vol. 7 p. 640} Before that, the Lamtuna had taken border towns such as [[place/awdaghast|Awdaghust]], nominally subject to the ruler of Ghana, and the followers of Ibn Yasin attacked Sijilmasa in 445/1053-4. {cite:encyclopaedia-of-islam-2 vol. 7 p. 639}
+
+Yahya ibn Umar fell in the battle against the rebellious Jaddala in 447-8/1055-7 and was succeeded by his brother [[person/abu-bakr-ibn-umar-al-lamtuni|Abu Bakr ibn Umar]], who marched into Morocco. After Tarudant, [[place/aghmat|Aghmat]] fell, and Abu Bakr married its widowed queen [[person/zaynab-al-nafzawiyya|Zaynab]] of the Nafzawa; coins were struck in his name, and by 452/1060 the Barghawata were subdued. {cite:encyclopaedia-of-islam-2 vol. 7 p. 639}
+
+When news came of a force marching from the Qal'a of the Banu Hammad, and of fighting among the Sanhaja in the desert, Abu Bakr went back south to restore peace and left command to Yusuf ibn Tashfin. Yusuf married Zaynab in 453/1061 and carried the conquests across the Maghrib beyond Tilimsan into the central Maghrib. When Abu Bakr returned north, Yusuf, on Zaynab's advice, loaded him with gifts and made plain that he would not give up supreme authority. Abu Bakr accepted and went back to the Western Sahara. {cite:encyclopaedia-of-islam-2 vol. 7 p. 639}
+
+Abu Bakr is often credited with the conquest and conversion of Ghana before his death in 480/1087, but the article calls that year uncertain, notes that other sources date the conquest earlier, and says the conversion of [[polity/ghana-empire|Ghana]] is now thought to have been peaceful and to have come in the early twelfth century. {cite:encyclopaedia-of-islam-2 vol. 7 p. 639}
+
+Yusuf ibn Tashfin died in 500/1106-7 and left his son Ali an empire made up of the Maghrib, part of Ifriqiya and Muslim Spain. The article says his fame was a source of pride in the East and that [[person/al-ghazali-abu-hamid|al-Ghazali]] wished to meet him, and adds the irony that al-Ghazali's books were burned publicly in Seville under Almoravid rule. {cite:encyclopaedia-of-islam-2 vol. 7 p. 639} Marrakesh, which Abu Bakr founded about 1070 and Yusuf built, was the seat of his successors. {cite:encyclopaedia-of-islam-2 vol. 7 p. 639}
+
+## The Almoravids in Spain
+The article treats al-Andalus as the main concern of the dynasty, so that an African movement became more Andalusian than Maghribi. {cite:encyclopaedia-of-islam-2 vol. 7 p. 643} Yusuf received requests for help from the petty kings of the taifas between 470/1077 and 476/1083, but the point of no return was the fall of Toledo to Alfonso VI of Castile in 1085; see [[event/fall-of-toledo-478|the fall of Toledo]]. After it the princes of Seville, Granada and Badajoz asked for his aid. {cite:encyclopaedia-of-islam-2 vol. 7 p. 643} {cite:encyclopaedia-of-islam-2 vol. 7 p. 644}
+
+On the military side it says that the news of Yusuf's crossing made Alfonso lift his siege of Saragossa, and that the victory of Zallaqa halted the great Castilian interventions; see [[event/zallaqa-504|the battle of Zallaqa]]. Later gains included Valencia in 495/1102 and a great victory at Ucles in 501/1108. Losses followed in the east: Saragossa in 512/1118, a defeat at Cutanda in 514/1120, and, despite a win at Fraga in 528/1134, the definitive loss of Tortosa, Lerida and Fraga in 544/1149. {cite:encyclopaedia-of-islam-2 vol. 7 p. 644}
+
+In its account of reform, the article describes Yusuf as strict in personal conduct, and says the regime would take no decision without a supporting fatwa, which raised the standing of the jurists. At first taxes were cut to the canonical ones. There was a short period of consensus with the petty kings, and it quotes a witness who spoke of united hearts during the campaign. {cite:encyclopaedia-of-islam-2 vol. 7 p. 644}
+
+The article judges that the regime could not field enough troops for offensive war, because of limited Maghribi recruitment and weak Andalusian cooperation, so it built a defensive system and used Christian mercenaries in the Maghrib. The cost forced heavier taxation, and many jurists lost their independence and prestige. It cites complaints of rapacity and corruption, including verses and the cautions of [[person/ibn-abdun|Ibn Abdun]], and reports al-Marrakushi's picture of a state in decay. {cite:encyclopaedia-of-islam-2 vol. 7 p. 644} It also says the atmosphere was stifling for scholars of theology, with circulars under Ali ibn Yusuf forbidding kalam and an order that al-Ghazali's works be burned. {cite:encyclopaedia-of-islam-2 vol. 7 p. 644} {cite:encyclopaedia-of-islam-2 vol. 7 p. 645}
+
+Opposition arose independently from [[person/ibn-tumart|Ibn Tumart]] in the Maghrib and from ascetic circles in southern Andalusia. Around 534/1140 a mystical atmosphere spread in Almeria, Seville and Granada, and its figures were executed or disappeared. Ali ibn Yusuf died in 532/1143; the next year the movement of the muridin of [[person/ahmad-ibn-qasi|Ibn Qasi]] began at Silves, and local rulers rebelled in Cordoba, Jaen, Granada, Evora, Jerez, Murcia and Valencia. A brief partial recovery in 540/1145 by Yahya ibn Ghaniya had no future, and in 542/1147 Alfonso VII of Castile occupied Almeria for some years. {cite:encyclopaedia-of-islam-2 vol. 7 p. 645} The Almohads first only garrisoned places where they had partisans; the Banu Ghaniya set up a neo-Almoravid state that in 580/1184 carried the struggle against the Almohads into Tunisia. {cite:encyclopaedia-of-islam-2 vol. 7 p. 645}
 
 ## The end
-Their rule continued until the Almohads took Marrakesh in 541 AH. The entity data state that Abd al-Mu'min and the Almohads killed Ishaq ibn Ali, their last king, in that year. See [[polity/almohad-caliphate|the Almohad state]]. {cite:tarikh-ibn-khaldun-ibar}
+Their rule continued until the Almohads took Marrakesh in 541 AH. The entity data state that Abd al-Mu'min and the Almohads killed Ishaq ibn Ali, their last king, in that year. See [[polity/almohad-caliphate|the Almohad state]] and [[event/almohad-conquest-of-marrakesh-1147|the conquest of Marrakesh]]. {cite:tarikh-ibn-khaldun-ibar}
+
+The Encyclopaedia of Islam gives the same event as 541/1146-7, led by [[person/abd-al-mumin-ibn-ali|Abd al-Mumin]], and says the Almohad founder Ibn Tumart had dismissed the Almoravids as masked, uncouth shepherds and anthropomorphists. The Almohad armies had entered Spain from 539/1144-5, and Almoravid authority there ended with the death of the governor of Spain in 543/1148-9. {cite:encyclopaedia-of-islam-2 vol. 7 p. 639} {cite:encyclopaedia-of-islam-2 vol. 7 p. 640}
+
+The article quotes Nevill Barbour on the reasons for the fall: the Almoravids could not hold two fronts, against the Christians in al-Andalus and against the Masmuda in southern Morocco, and had internal dissension in al-Andalus. Almoravid rule survived in the Balearic Islands and Ifriqiya under the Massufa [[polity/banu-ghaniya|Banu Ghaniya]], well into the thirteenth century. {cite:encyclopaedia-of-islam-2 vol. 7 p. 640} The article adds a further cause, a growing rivalry between the Lamtuna and the Massufa over trade routes, in which some Massufa commanders sided with the Almohads. {cite:encyclopaedia-of-islam-2 vol. 7 p. 640}
 
 ## Dates
-Ibn Yasin set out from the ribat with a thousand men around 435 AH (about 1042 CE), and the end came in 541 AH (1147 CE). The conversion to the Gregorian calendar is derived. A second source is needed for the dates. {cite:tarikh-ibn-khaldun-ibar}
+Ibn Yasin set out from the ribat with a thousand men around 435 AH, about 1042 CE, and the end came in 541 AH, 1147 CE. The conversion to the Gregorian calendar is derived. A second source is needed for the dates. {cite:tarikh-ibn-khaldun-ibar}
 
-The data also state that it succeeded the [[polity/ghana-empire|Ghana Empire]]; this needs a further source.
+The data also state that it succeeded the [[polity/ghana-empire|Ghana Empire]]; this needs a further source. The Encyclopaedia of Islam presents the contact with Ghana as uncertain in date and nature, as described above. {cite:encyclopaedia-of-islam-2 vol. 7 p. 639}
+
+## Legacy in the Maghrib
+The article contrasts two views. The older Western view, represented by a passage from Stanley Lane-Poole, saw a reign of puritans who disgusted poets and free-thinkers. Recent Western writers, it says, take a more sympathetic line and credit the Almoravids with lasting changes. {cite:encyclopaedia-of-islam-2 vol. 7 p. 640} {cite:encyclopaedia-of-islam-2 vol. 7 p. 641}
+
+Among these it lists the unification of Morocco, which they found split into small tribal principalities; a rapid assimilation of Andalusian civilisation, with Andalusian engineers and secretaries in office and writers such as Ibn Abdun in the chancellery; and architecture marked by Andalusian influence. It names the extension of the [[building/qarawiyyin|Qarawiyyin]] in [[place/fez|Fez]] and the great mosque of [[place/tlemcen|Tlemcen]], completed in 530/1136 on the model of the Great Mosque of [[place/cordoba|Cordoba]]. {cite:encyclopaedia-of-islam-2 vol. 7 p. 641}
+
+On government, it says Almoravid authority rested on the Sanhaja, above all the Lamtuna, Lamta and Massufa, who formed a military and political elite marked out by the litham, and on the authority of the jurists. Ali ibn Yusuf was the first Maghribi ruler to employ Christian mercenaries. The ruling house boasted a Himyaritic descent, and Arab judges were appointed to senior posts. {cite:encyclopaedia-of-islam-2 vol. 7 p. 641} The article judges that the study of Maliki manuals flourished while kalam was condemned and the Qur'an and the traditions were pushed into second place, and that the Almoravids came to oppose Sufism, although the thought of al-Ghazali left a mark in Fez. These are the author's assessments. {cite:encyclopaedia-of-islam-2 vol. 7 p. 641}
+
+## Legacy in the Sahara and West Africa
+The article traces a lasting legacy in Mauritania, the Niger Republic and northern Nigeria. {cite:encyclopaedia-of-islam-2 vol. 7 p. 641} It names the town of Azugi, about ten kilometres north-west of [[place/atar|Atar]], as the southern capital of the Almoravids, long called their capital. {cite:encyclopaedia-of-islam-2 vol. 7 p. 641}
+
+It adds that the epitaphs at [[place/gao|Gao]] were of Andalusian Almoravid workmanship, and quotes Bivar and Hiskett's hypothesis that Arabic literacy and authorship reached West Africa in the Almoravid period, with the dominance of Maliki fiqh in West African Islam following from it. {cite:encyclopaedia-of-islam-2 vol. 7 p. 642}
