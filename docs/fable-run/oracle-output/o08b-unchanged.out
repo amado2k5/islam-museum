@@ -1,0 +1,42 @@
+ORACLE 08b: the rest of the site renders exactly as before (statement 8, last clause)
+file: scripts/fable/o08_unchanged.py
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 0
+------------------------------------------------------------------------------
+Files under site/ and i18n/ that differ from the baseline commit:
+  M  i18n/ar.yaml
+  M  i18n/en.yaml
+  M  i18n/ur.yaml
+  A  site/public/shell/grand-tour.js
+  A  site/src/components/GrandTourRibbon.astro
+  M  site/src/components/Landing.astro
+  A  site/src/lib/grand-tour.ts
+  A  site/src/pages/[lang]/grand-tour/[stop].astro
+  A  site/src/pages/[lang]/grand-tour/complete.astro
+  A  site/src/pages/[lang]/grand-tour/index.astro
+[PASS] every added site file belongs to the Tour
+[PASS] the only existing files modified are the homepage component and the three string files
+[PASS] the homepage component gains one import and one link, on the line that already held the headline, and nothing else changes: 2 lines added, 1 replaced
+[PASS] i18n/ar.yaml gains exactly one top-level key, grand_tour, and loses nothing: removed 0; new top-level keys ['grand_tour:']
+[PASS] i18n/en.yaml gains exactly one top-level key, grand_tour, and loses nothing: removed 0; new top-level keys ['grand_tour:']
+[PASS] i18n/ur.yaml gains exactly one top-level key, grand_tour, and loses nothing: removed 0; new top-level keys ['grand_tour:']
+[PASS] no existing stylesheet, layout or shell script changed
+[PASS] the Tour adds no script to the site's bundle: its one script is a plain file under shell/
+
+branch build:   scoped build: 115 pages -> ./.cache/fable-dist, stylesheet inlined (site source ./site; repository commit ca0886cd1d; uncommitted paths under site/ data/ content/ tour/ i18n/: 1)
+baseline build: scoped build: 31 pages -> ./.cache/fable-dist-base, stylesheet inlined (site source ./.fable-base/site; repository commit ca0886cd1d; uncommitted paths under site/ data/ content/ tour/ i18n/: 1)
+  (the baseline build uses the baseline commit's site/src; scripts/, i18n/ and the data are the branch's, whose only differences under those folders are listed above)
+[PASS] both scoped builds completed
+pages rendered by the baseline's templates: 31; byte-identical under the branch's templates: 28; different: 3; missing: 0
+pages only the branch renders: 84 (84 under grand-tour/)
+[PASS] no existing page is missing from the branch build
+[PASS] every page the branch adds is under /ar/grand-tour/ or /en/grand-tour/
+[PASS] the only pages whose bytes differ are the Arabic and English homepages (the root page is the Arabic homepage): ar/index.html, en/index.html, index.html
+[PASS] the bundled script files are the same files, with the same hashed names, in both builds: 7 in the baseline build, 7 in the branch build
+[PASS] every /ur/ page is byte-identical, and no /ur/ page is added: 10 /ur/ pages compared
+[PASS] ar/index.html: with the one entry link taken out, the page is byte-identical to the baseline's: 1 entry link(s) found; 300 bytes longer
+[PASS] en/index.html: with the one entry link taken out, the page is byte-identical to the baseline's: 1 entry link(s) found; 306 bytes longer
+[PASS] index.html: with the one entry link taken out, the page is byte-identical to the baseline's: 1 entry link(s) found; 300 bytes longer
+------------------------------------------------------------------------------
+RESULT: GREEN (17 checks passed)

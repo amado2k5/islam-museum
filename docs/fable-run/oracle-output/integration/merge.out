@@ -1,0 +1,15 @@
+integration point: this branch at ca0886cd1d3c5330c87270ed50bc21118241b598 merged with main at 8bbf67844136e3ea0778d8ebfe798b3b73b3e2d8 (git merge --no-commit, never committed)
+Auto-merging CANARY.md
+CONFLICT (content): Merge conflict in CANARY.md
+Auto-merging docs/coverage.md
+CONFLICT (content): Merge conflict in docs/coverage.md
+Auto-merging i18n/ar.yaml
+Auto-merging i18n/en.yaml
+Auto-merging i18n/ur.yaml
+Auto-merging site/src/components/Landing.astro
+Automatic merge failed; fix conflicts and then commit the result.
+files in conflict:
+  CANARY.md
+  docs/coverage.md
+files main changed that this branch also changed, merged by git without conflict: i18n/ar.yaml i18n/en.yaml i18n/ur.yaml site/src/components/Landing.astro 
+RESULT: GREEN (the merge conflicts only in CANARY.md and docs/coverage.md)
