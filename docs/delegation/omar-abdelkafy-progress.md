@@ -2137,3 +2137,15 @@ Resume point: mawkib-al-nour episode 2 (branch from origin/main).
 | Garbled windows | ep02 00:03:00 (a remark on prayer-bead counters made in Asia, only the clear claim kept), 00:10:30 (a half-clear aside on grammar), 00:30:30 (a half-clear sentence on God's concealment), 00:39:30 (a half-clear remark on packaging) | Not recoverable | Clarity | Open |
 
 Resume point: mawkib-al-nour episode 3 (branch from origin/main).
+
+### mawkib-al-nour ep03 (12 Nov 2026)
+
+24 points written for episode 3 (ar, en, ur); 14 needs_source marks; 9 new `about` edges (30 in all). Quran verses referenced only through passage links (49-13, 18-62, 24-31, 38-22, 24-30); none typed. Proposal for the founder, not applied: ep03 00:11:00 holds the lecturer's political-religious claim linking unanswered prayer for al-Aqsa to doubtful money; it is described as his opinion and the record stays `sensitivity: contested`.
+
+| Excluded (mawkib-al-nour ep03) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, closing supplications and sign-offs | ep03 00:00:00 (recitation, Quran text never typed), 00:00:30-00:02:30 (greetings and recap of supplications), 00:40:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep03 00:14:00 (a long loop), 00:13:30 (a half-clear remark on dress), 00:24:30 (a half-clear aside), 00:30:30 (a half-clear remark on a song), 00:35:00 (a half-clear remark on scholars) | Not recoverable | Clarity, Loop check | Open |
+| A sentence quoting a hostile reply to a greeting | ep03 00:25:30 | Polemical wording not reproduced; the point is kept in neutral words | Content rule | Open |
+
+Resume point: mawkib-al-nour episode 4 (branch from origin/main).
