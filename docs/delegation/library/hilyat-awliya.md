@@ -889,3 +889,16 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 675 (printed) | 394 | the name "قيس بن همار الذهني" in one chain | unclear in the scan | given as read; flagged |
 | 675 (printed) | 394 | the reports' wording | quoted reports with the Prophet's formula | described only |
+
+## Batch 98 (run microsd-books-b98, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 394–396 (full text read before writing). New draft: person/ahmad-ibn-muawiya-al-furyani (printed 676, sequence 677, 10/394–396). Kept apart from person/al-faryani (Shams al-Din Muhammad ibn Ahmad al-Faryani al-Maghribi, a later figure from Fariyana near Kairouan): a different name, period and place.
+- Printed 677 (Ahmad ibn Muhammad ibn Ishaq, Abu Uthman, on 396) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 98)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 676 (printed) | 395 | the reports on 'Aisha | quoted reports with the Prophet's formula | described only |
+| 676 (printed) | 395 | the report from Mutarrif | legible; no formula | given in prose |
