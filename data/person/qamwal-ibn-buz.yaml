@@ -1,0 +1,22 @@
+id: person/qamwal-ibn-buz
+tags: ["ansab-browser", "ansab-shajara"]
+class: person
+label: { ar: "قموال بن بوز", en: "Qamwal ibn Buz" }
+gender: male
+roles: []
+summary:
+  ar: "حلقة في القسم المختلف فيه من النسب النبوي بين عدنان وإسماعيل؛ يذكره ابن إسحاق والطبري وابن سعد في سلسلة «عدنان بن أُدّ بن أدد بن الحميسع…» الصاعدة إلى قيدار بن إسماعيل {cite:ibn-hisham-sira 1/1-4} {cite:tarikh-al-tabari} {cite:tabaqat-ibn-sad}، وهو القسم الذي جمعه المنصورفوري عن الكلبي وابن سعد مع كثرة الاختلاف بين الروايات {cite:mubarakpuri-raheeq p.48-49}."
+  en: "A link in the disputed part of the Prophet's lineage between Adnan and Ismail, in the chain «Adnan ibn Udd ibn Adad ibn al-Humaysa…» up to Qaydar ibn Ismail, as transmitted by Ibn Ishaq, al-Tabari and Ibn Sa'd {cite:ibn-hisham-sira 1/1-4} {cite:tarikh-al-tabari} {cite:tabaqat-ibn-sad} — the part al-Mansurfuri compiled from al-Kalbi and Ibn Sa'd amid wide disagreement among the versions {cite:mubarakpuri-raheeq p.48-49}."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/buz-ibn-awf, sources: [source/ibn-hisham-sira, source/tarikh-al-tabari, source/tabaqat-ibn-sad, source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — prophetic-lineage records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-browser-1
+sources: [source/ibn-hisham-sira, source/tarikh-al-tabari, source/tabaqat-ibn-sad, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); ansab-browser lane" }
