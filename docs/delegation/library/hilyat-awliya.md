@@ -1057,3 +1057,21 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 686 (printed) | 403 | "عبد الله بن غير" in the chain | unclear in the scan | read as it appears, not confirmed |
 | 686 (printed) | 403 | "السندى - الأسدى" in the chain | garbled | not recorded |
 | 686 (printed) | 402 | the verse lines | verse | paraphrased, not quoted |
+
+## Batch 109 (run microsd-books-b109, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 404–405 (full text read before writing; printed 688 begins on page 405, Ahmad ibn Ja'far ibn Hani, and is not in this batch). New draft: person/ali-ibn-sahl-al-isfahani (printed 687, 10/404–405). No existing record of the name; person/ali-ibn-sahl-al-tabari is a different man.
+- Checked against the scan: the epithets; the discipline of food and night vigil; the judgement sentence (flagged, not fully read); the dream with the two palaces and the voice; the letter to al-Junayd (not given in full); the death and the word "لبيك"; the Anas report, described not quoted.
+- Flagged: the first word of the death saying ("دماء", read as in the scan, probable misprint for a word meaning call or supplication, not confirmed); the judgement sentence has words unclear in the scan; the line of verse is not quoted.
+- Chain names read as in the scan: Abu Abd Allah Ahmad ibn Ishaq al-Shammar; Sulayman ibn Ahmad; Ibn Mahdi.
+- Printed 688 (Ahmad ibn Ja'far ibn Hani) begins at the top of page 405.
+- Printed 532, 546 and 666 stay held.
+
+## Exclusions and garbled readings (batch 109)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 687 (printed) | 404 | the judgement sentence | words unclear in the scan | described, not fully read |
+| 687 (printed) | 405 | first word of the death saying | unclear in the scan | flagged, not read |
+| 687 (printed) | 404 | the line of verse in the dream | verse | not quoted |
+| 687 (printed) | 405 | the letter to al-Junayd | the letter is long | described, not given in full |
+| 687 (printed) | 405 | Anas report | quoted report | described only |

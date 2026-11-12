@@ -3600,4 +3600,4 @@ open a new block on top with the new version and today's date.
 ## v1.0.0 — 2026-10-11
 
 ### Added
-- **Public launch of islam.museum**: an Arabic-first digital museum of Islamic history with an English edition, nine wings, and a sourced knowledge graph of people, places, buildings, objects, works, passages, concepts and events — published the same day the domain was registered.
+- **Public launch of islam.museum**: an Arabic-first digital museum of Islamic history with an English edition, nine wings, and a sourced knowledge graph of people, places, buildings, objects, works, passages, concepts and events — published the same day the domain was registered.\n- Hilyat al-Awliya vol. 10, printed notice 687 (Abu al-Hasan Ali ibn Sahl al-Isfahani): a new trilingual draft person record on a disciplined Sufi, his night vigils, his dream of Paradise, his letter to al-Junayd and his death; reports described rather than quoted, with unclear words in the scan flagged.\n\n
