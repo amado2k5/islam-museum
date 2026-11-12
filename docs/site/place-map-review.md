@@ -141,7 +141,7 @@ Met: R1.1 to R1.4, R2.1 to R2.5, R3.2, R3.3, R4.1 to R4.4, R5.1 to R5.4, R6.1 to
 
 - The three Place pages, the two new files under `/shell/`, and 771 small JSON files under `/<lang>/place-map/` (3 × 257). The page names the build its data belongs to and the script adds that name to every request (`places.json?v=…`); the page asks for the script and the stylesheet by a fingerprint of their content as well (`/shell/place-map.js?v=…`). So a browser never pairs a new page with a script or files it kept from an older deploy. The cost is small and local: an edit to the map's script or styles now re-uploads the three Place pages too. **No Worker, wrangler or workflow file changes**: paths under `/ar/`, `/en/` and `/ur/` are already served from R2.
 - **No other page changes.** Compared file by file against a build of `main` at the same path: both entity pages, the courses page and the eight other wing pages are byte-identical in all three languages, and the hashed script names are the same.
-- That holds because the old Svelte component stays a build entry that no page draws. Taking it out renames the chunks it shares with the depth dial on every entity page. It should go, with the three packages only it uses (`motion`, `@floating-ui/dom`, `@lucide/svelte`), in a separate change labelled `rewrites-all-pages`. Decision dec-20261111-234.
+- That held because the old Svelte component stayed a build entry that no page drew: taking it out renames the chunks it shared with the depth dial on every entity page. So the rebuild was merged without that removal (decision dec-20261111-234), and the removal is a change of its own, below.
 
 ### Change-gate label: `submission-impacting`
 
@@ -155,6 +155,34 @@ The claims register and the evidence map are reserved files (gate 8) and have **
 
 **How to repeat the comparison** (a full build needs about 19 GB; this needs under 1 GB and about a minute a build). Copy `site/src` into a sibling folder at the same depth (so relative imports resolve), keep only the page files to compare (the wing page, the entity route cut down to two entities, the courses page: between them they carry every Svelte island), point a temporary Astro config at that folder with the real `astro.config.mjs` as its base, and run `astro build` into `.cache/`. Do it once on `main` and once on the change, **at the same path** (Astro derives hashed names from the source path), then `diff -rq` the two outputs. The first version of this method is `scripts/fable/scoped-build.sh` on the branch `fable-run/phase-7-verification`.
 
+**How to repeat the comparison** (a full build needs about 19 GB; this needs under 1 GB and about a minute a build). Copy `site/src` into a sibling folder at the same depth (so relative imports resolve), keep only the page files to compare (the wing page, the entity route cut down to two entities, the courses page: between them they carry every Svelte island), point a temporary Astro config at that folder with the real `astro.config.mjs` as its base, and run `astro build` into `.cache/`. The build reads `.cache/graph.json`, the derived files and `.cache/time-browser/`, so run the steps of `npm run prebuild` after `validate` first (an entity page fails without `time-browser/explorer.json`). Do it once on `main` and once on the change, **at the same path** (Astro derives hashed names from the source path), then `diff -rq` the two outputs. The first version of this method is `scripts/fable/scoped-build.sh` on the branch `fable-run/phase-7-verification`.
+
+### Taking the old component out (12 November 2026)
+
+After the rebuild was merged, `site/src/components/MapViewer.svelte` was deleted, with its import and the never-true expression in the wing page, the three packages only it used (`motion`, `@floating-ui/dom`, `@lucide/svelte`) and the `map.viewer` strings only it read (19 strings and eight of the nine names under `cls`; the script still reads `cls.place`). **This change re-uploads every entity page**: it is labelled `rewrites-all-pages` and is meant for the founder's weekly batch.
+
+Measured as above: `main` at `b6cf287d75` against the change, 36 pages (the nine wing pages, two entities and the courses page, in three languages) and the 771 map data files, built at the same path.
+
+| Under `_astro/` | On `main` | After |
+|---|---|---|
+| Renamed (same role, new content) | `DepthDial.B7CPdv1S.js`, `LearnPicker.DzfSPJlO.js`, `client.svelte.EtH_UJpc.js`, `attributes.CifQEj-d.js`, `render.BRXDr885.js` | `DepthDial.DvKltnZ5.js`, `LearnPicker.4bR947Me.js`, `client.svelte.Dpplluno.js`, `attributes.BAnX3AOF.js`, `render.Bzjt8KfY.js` |
+| Gone | `MapViewer.WVmvzB_e.js` (131.5 KB), `props.C9YBT8MN.js`, `branches.C8dFU8fh.js`, `if.Bm6MMWZU.js`, `snippet.Dyvup3wN.js` | their code that is still used moved into the files above |
+| Unchanged | `convert.CJs3Ra4U.js`, the timeline and today scripts, every font file | the same names |
+
+The names of `DepthDial`, `LearnPicker` and `client.svelte` depend on the folder the build runs in, so the real build gives them other names than these; `attributes.CifQEj-d.js`, `props.C9YBT8MN.js` and `render.BRXDr885.js` were the same in the earlier comparison at another path, so those are the names a deploy of `main` carries.
+
+| Kind of page | What differs | Bytes |
+|---|---|---|
+| Every entity page (`/{lang}/{class}/{slug}/`, about 160,000) | Two script names in the depth dial's tag (`component-url`, `renderer-url`); nothing else | Same size (84 characters replaced) |
+| The courses page (3) | The same two names, for the picker | Same size |
+| The eight other wing pages (24) | The old component's styles are no longer in the page's `<style>` | 11,172 fewer each |
+| The Place wing page (3) | The same styles, and the removed strings in the map's settings | English 585,690 → 573,782; Arabic 616,171 → 603,994; Urdu 616,898 → 604,734 |
+| The 771 map data files, `/shell/` files, fonts | Nothing | Identical |
+
+Removing the packages changed no built file, and removing the strings changed only the three Place pages (checked with a build after each step). Page kinds with no Svelte island (the home page, the browsers, the readers) were not in the build; they name none of the renamed files, and the scripts they do load kept their names, so no change is expected there, but that was reasoned, not measured.
+
+A reader gains a little on every entity page: the depth dial now loads 4 script files, 38.9 KB (16.0 KB compressed), where it loaded 7 files, 53.4 KB (22.1 KB compressed), because Svelte runtime code that only the old map needed is no longer in the shared files. The courses page goes from 52.5 KB to 42.8 KB of script. `_astro/` holds 8 scripts and 74 KB where it held 13 and 217 KB.
+
 ### Left, and why
 
 | What | Why it was left |
@@ -163,7 +191,6 @@ The claims register and the evidence map are reserved files (gate 8) and have **
 | Safari, Firefox, a real phone, a real screen reader | Not available on the machine this was done on. The script uses only long-standing features (pointer events, SVG, `fetch`), and markers are drawn as tiny strokes with round caps so that they do not depend on how a browser treats a zero-length line; it still needs a look. |
 | Record-to-record relation names in Urdu | The predicate registry (`schema/predicates.yaml`) has Arabic and English only; adding Urdu is a schema change for the whole site. |
 | SW-1, SW-2 | In files written into every page; a separate pull request for the founder to batch. |
-| Removing `MapViewer.svelte` and its three packages | Renames script chunks on every entity page; see "What a deploy uploads". |
 | The header of doc 19 ("MapLibre + PMTiles", `/<lang>/map`) | The founder's document; noted above rather than edited. |
 
 ### Data found on the way, for the lanes that own it

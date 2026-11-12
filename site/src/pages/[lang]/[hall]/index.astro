@@ -2,7 +2,6 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PlaceMap from "../../../components/PlaceMap.astro";
 import { assetVersion, dataVersion } from "../../../lib/place-map";
-import MapViewer from "../../../components/MapViewer.svelte";
 import PageHeader from "../../../components/PageHeader.astro";
 import ExploreBar from "../../../components/ExploreBar.astro";
 import TodayCards from "../../../components/TodayCards.astro";
@@ -44,10 +43,6 @@ const dateOf = (n: any) => {
 // land inside a link. Rendered at build time, so no-JS readers still get text.
 const short = (s: string, n = 110) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s);
 // The Place wing is the map and the index under it (components/PlaceMap.astro, docs/site/place-map-review.md).
-// The Svelte viewer it replaced is no longer drawn on any page, but it stays a build entry until the next
-// rewrites-all-pages batch: it shares hashed script chunks with the depth dial on every entity page, and taking it
-// out renames those chunks, which would re-upload all ~160,000 entity pages for nothing a reader can see.
-const RETIRED_VIEWER = false;
 // Objects hall: depict→media thumbnail index and collections grouping.
 const thumbByObject = new Map<string, { thumb: string; alt: string }>();
 if (wing === "objects") {
@@ -78,7 +73,7 @@ const collections = wing === "objects"
   >
     <p class="ui" style="color:#c9d3d6;margin:14px 0 0">{items.length ? (wing === "time" ? T.hall.coming_time : T.hall.coming) : T.hall.empty}</p>
     {wing === "time" && <p class="ui tl-legend" style="color:#c9d3d6;font-size:.9rem;margin:6px 0 0">{T.timeline.legend}</p>}
-  </PageHeader> : <>{RETIRED_VIEWER && <MapViewer items={[]} links={[]} lang={lang} client:load />}<PlaceMap lang={lang} /></>}
+  </PageHeader> : <PlaceMap lang={lang} />}
   <div class="wrap" style={wing === "place" ? "padding-block:0" : "padding-block:24px 20px"} data-pagefind-ignore>
     {wing === "time" && <HijriTimeline lang={lang} />}
     {wing === "today" && (
