@@ -2115,3 +2115,14 @@ Next step: none, the series is complete (all 24 episodes are covered on the work
 | Repetition loops and garbled windows | ep24 00:02:30–00:03:30, 00:04:00, 00:25:00, 00:28:00, 00:33:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | A passing prayer for those affected by a storm and a poem of an Arab sage | ep24 00:22:00–00:23:30 | Not lesson content; the poem is not reproduced | Content rule and sources policy | Open |
 | Private caller details | ep24 00:27:00–00:28:30, 00:31:30–00:32:30 | Generalised | Privacy | Open |
+
+### mawkib-al-nour ep01 (12 Nov 2026)
+
+New record work/mawkib-al-nour (29 episodes in the harvest, about 43 minutes and 45 to 50 KB of transcript each, six times the length of ajaeb-al-kulub episodes); episode 1 written (ar, en, ur). Decision dec-20261112-268 (sensitivity: contested). 24 points; 14 needs_source marks; 11 `about` edges. Quran verses referenced only through passage links (7-31, 17-27, 21-90, 11-111, 7-12, 3-133, 6-162); none typed. This batch holds one episode, not two to four, because of the episode length; the coordinator should consider one episode per PR or more than one worker for this series.
+
+| Excluded (mawkib-al-nour ep01) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, closing supplications and sign-offs | ep01 00:00:00-00:01:00 (a recitation, Quran text never typed), 00:02:30, 00:09:30-00:10:00 (short asides), 00:42:00-00:42:30 | Not lesson content | Content rule, Quran rule | Open |
+| Repetition loops and garbled windows | ep01 00:13:30 (a very long loop of one letter), 00:34:00 (a very long loop), 00:23:00 (a half-clear aside), 00:39:30-00:40:00 (a half-clear remark) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: mawkib-al-nour episode 2 (branch from origin/main).
