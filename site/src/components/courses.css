@@ -54,7 +54,7 @@ html[lang="ar"] .cx-btn, html[lang="ar"] .cx .ui { font-family: var(--ar-body); 
 html[lang="ar"] .cx-tag { font-family: var(--ar-body); font-size: .8rem; }
 .cx-state { font-family: var(--sans); font-size: .85rem; font-weight: 700; color: var(--gold-text); }
 html[lang="ar"] .cx-state { font-family: var(--ar-body); font-size: .95rem; }
-.cx-meet .cx-state { flex-basis: 100%; min-height: 1.5em; margin-top: 2px; }
+.cx-meet .cx-state { flex-basis: 100%; height: 1.6em; line-height: 1.6em; overflow: hidden; margin-top: 2px; }
 
 /* ---- lesson: where am I ---- */
 .cx-where { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-top: 14px; font-family: var(--sans); font-size: .9rem; color: #e6d5b8; }

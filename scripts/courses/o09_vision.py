@@ -21,8 +21,9 @@ for r in rounds:
     w = sorted({s["width"] for s in shots if s["state"] == "as loaded"})
     l = sorted({s["lang"] for s in shots})
     over = sorted({s["file"].split("-nojs-")[0] for s in shots if s["overflow_px"] > 0 and "nojs" not in s["file"]})
-    o.note(f"{r}: {len(files)} screenshots captured at commit {idx['commit'][:10]} (uncommitted paths at capture: {idx['uncommitted_paths']}); widths {w}; languages {l}; all files present: {present}; files tracked by git in the folder: {tracked}; pages with sideways scroll outside the no-script shots: {len(over)}")
-    widths_ok = widths_ok and w == [390, 820, 1280]
+    o.note(f"{r}{' (targeted: ' + idx['only'] + ')' if idx.get('only') else ''}: {len(files)} screenshots captured at commit {idx['commit'][:10]} (uncommitted paths at capture: {idx['uncommitted_paths']}); widths {w}; languages {l}; all files present: {present}; files tracked by git in the folder: {tracked}; pages with sideways scroll outside the no-script shots: {len(over)}")
+    if not idx.get("only"):  # a targeted round re-takes only the pages a fix touched
+        widths_ok = widths_ok and w == [390, 820, 1280]
     langs_ok = langs_ok and l == ["ar", "en"]
     reviews = sorted(os.path.basename(f) for f in glob.glob(os.path.join(V, r, "review*.md")) + glob.glob(os.path.join(V, r, "confirm*.md")))
     o.note(f"   reviewers' files: {reviews}")
