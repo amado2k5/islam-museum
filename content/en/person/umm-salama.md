@@ -15,6 +15,14 @@ At [[event/treaty-of-hudaybiyya]] in 628, when the pilgrims were turned back sho
 
 She outlived the Prophet by nearly five decades in Medina, answering questions of law and ritual; several hundred hadith stand in her name in the Sunni collections {cite:ibn-sad-tabaqat-bewley}.
 
+## In the Encyclopaedia of Islam
+
+The Encyclopaedia of Islam, second edition, gives Umm Salama a short entry, so this section is brief. It names her Hind, daughter of Abu Umayya, and places her in the Makhzum clan of [[group/quraysh|Quraysh]]; the article adds that most of that tribe opposed the Prophet. {cite:encyclopaedia-of-islam-2 vol. 10 p. 911} She went with her first husband, [[person/abu-salama|Abu Salama]] Abd Allah ibn Abd al-Asad, on both emigrations of Muslims to Abyssinia. {cite:encyclopaedia-of-islam-2 vol. 10 p. 911} The article describes her as one of the first Muslim women, if not the first, to join her husband in Medina, after her kin separated her from him by force and his family took away her child. She had three sons and a daughter by Abu Salama. {cite:encyclopaedia-of-islam-2 vol. 10 p. 911}
+
+After her husband died of wounds received at [[event/battle-of-uhud|Uhud]], she married the Prophet in 4/626, according to the article. Many traditions about the marriage tell how God consoled the widow by giving her another husband, even a better one. {cite:encyclopaedia-of-islam-2 vol. 10 p. 911} The sources differ on how the match came about: some say she offered herself in marriage, others that the Prophet proposed. Many report that she first declined, citing her jealous nature, her orphaned children, her age and the absence of her family. The article adds that the Prophet did not consummate the marriage until she had stopped nursing her daughter. {cite:encyclopaedia-of-islam-2 vol. 10 p. 911}
+
+On hadith, the article ranks her second only to [[person/aisha|A'isha]] among women transmitters: she passed on over 300 reports, a handful of them known from her alone. {cite:encyclopaedia-of-islam-2 vol. 10 p. 911} It says classical Muslim scholars counted her among the jurists of the female Companions and described her as intelligent and sound in judgement. {cite:encyclopaedia-of-islam-2 vol. 10 p. 911} As to her death, the article reports that she was the last of the Prophet's wives to die, and that authorities give 59/679, 60/680, or a date after the killing at [[event/battle-of-karbala|Karbala]]. {cite:encyclopaedia-of-islam-2 vol. 10 p. 911} The museum's data file records the date as debated.
+
 ## Legacy
 Her preserved reports shaped daily Muslim practice — and her role at Hudaybiyya is still cited when Muslims talk about counsel, marriage and who may advise whom.
 

@@ -7,9 +7,9 @@ gender: male
 roles: [companion]
 traditions: [sunni]
 summary:
-  en: "One of the first band of eight; he accepted Islam at Abu Bakr's invitation during the secret call in Mecca."
+  en: "A Companion of Muhammad from the clan of Taym of Quraysh and a kinsman of Abu Bakr, counted among the first eight converts and the ten promised Paradise. The Encyclopaedia of Islam reports his distinction at Uhud, his later opposition to Uthman and his death at the Battle of the Camel on 8 December 656, and notes that the report naming Marwan ibn al-Hakam as his killer is disputed among modern scholars."
   ar: "أحد الثمانية الرعيل الأول؛ أسلم بدعوة أبي بكر الصديق في سنوات الدعوة السرية بمكة. وأمه الصعبة كانت تحت أبي سفيان صخر بن حرب على ما ذكر الزبير بن بكار في أنساب قريش، ورماه مروان بن الحكم في أكحله فقتله في قنطرة قرة ووقف عليه علي وقال والله لقد كنت كارهاً لهذا، وقتل وهو ابن أربع وستين سنة وقبره ومسجده بالبصرة مشهور {cite:muruj-al-dhahab p. 658-659}"
-  ur: "ابتدائی آٹھ مسلمانوں میں شمار کیے جاتے ہیں؛ مکہ میں خفیہ دعوت کے دوران ابو بکر کی دعوت پر اسلام قبول کیا۔ {cite:sallabi-ali-vol2}"
+  ur: "طلحہ بن عبید اللہ قریش کی شاخ تیم سے محمد کے صحابی اور ابو بکر کے رشتہ دار تھے، جو پہلے آٹھ مسلمانوں اور جنت کی بشارت پانے والے دس افراد میں شمار ہوتے ہیں۔ دائرۃ المعارف اسلامیہ احد میں ان کی نمایاں شرکت، بعد میں عثمان کی مخالفت اور 8 دسمبر 656ء کو جنگِ جمل میں ان کی وفات بیان کرتا ہے، اور بتاتا ہے کہ مروان بن الحکم کو قاتل ٹھہرانے والی روایت جدید محققین کے درمیان متنازع ہے۔ {cite:sallabi-ali-vol2}"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -26,7 +26,7 @@ relations:
   - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
   - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
 external_ids: { wikidata: "Q1647787" }
-sources: [source/sallabi-ali-vol2, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/assabile-mosaad-anwar, source/ibn-hajar-isaba]
+sources: [source/sallabi-ali-vol2, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/assabile-mosaad-anwar, source/ibn-hajar-isaba, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
 
@@ -40,6 +40,7 @@ provenance:
   generated_by: Devin; al-Raheeq al-Makhtum pp. 75-76; Copilot SDK in VS Code (metadata completion)
   model: unknown
   run: explorer-next-40-subjects-2026-11-04
+  canon: "Encyclopaedia of Islam 2, vol. 10, article Talha b. Ubayd Allah, PDF pages 176-177, written by Claude Sonnet 5.5, run canon-cornerstones-22"
   localization:
     generated_by: Copilot SDK in VS Code
     model: unknown
