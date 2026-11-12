@@ -536,3 +536,18 @@
 | 531 (printed) | 161 | the nisba "المدري" and the manuscript variant "الروزي" | variant in the footnote | the variant is noted; the nisba as printed is used |
 | 533 (printed) | 162 | the chain name "كرد بن عنبسة" | read as "كرز بن عنبسة" | given as Kurz (Kurz ibn Anbasa); flagged |
 | 532 (printed) | 162 | the whole notice | held for the coordinator's decision on the stub | not written |
+
+## Batch 73 (run microsd-books-b73, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 162–164 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/faraj-ibn-said-al-sufi (printed 534, sequence 535, 10/162–163), person/abu-al-yaman (printed 535, sequence 536, 10/163; epithet-only, laqab), person/hayyan-al-aswad (printed 536, sequence 537, 10/164), person/abu-al-fadl-al-hashimi (printed 537, sequence 538, 10/164). Printed 538 (Ibrahim al-Maghribi) begins on 10/164 and is next.
+- Held: printed 532 (Abd Allah ibn Dinar al-Ju'fi) stays held pending the coordinator's ruling; nothing written.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 73)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 534 (printed) | 163 | the final phrase of Ayyub's words ("مامم القوة من دمائك") | garbled in the scan | not given; flagged for revision |
+| 534 (printed) | 163 | the narrator's name after "عثمان بن ممار" | the name reads as "عمار" | given as Uthman ibn Ammar |
+| 535 (printed) | 163 | the closing phrase of the greatest-name saying | the text is cut at the foot of page 163 | the saying is given to its end as read |
+| 536 (printed) | 164 | the name of Hayyan's transmitter ("جعفر بن محمد") | legible; the same Ja'far as in the chain | given as read |
+| 537 (printed) | 164 | the word after "ولم يُعرف له سبب" | the phrase is clear; the word is interpreted as a means of living | rendered as no known means of living |
