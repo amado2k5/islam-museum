@@ -1038,7 +1038,6 @@ Next step: episode 31. The series has 47 episodes of transcript on disk (ep01 to
 | Hallucinated non-Arabic text | ep19 00:40:30 | Not speech in any intelligible language | Clarity | Open |
 | Supplications and sign-off | ep19 00:38:30, 00:39:30 (announcement) | Not lesson content | Content rule | Open |
 
-Resume point: episode 20 (branch from origin/main).
 ### albuyout-alamena, episode 31 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-19)
 
 Episode 31 read in full (51 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 8 needs_source (stories, figures and sayings without a source, garbled call text).
@@ -1222,4 +1221,17 @@ Next step: episode 40.
 | Garbled passages | ep20 00:01:30-00:02:00, 00:07:00-00:08:00 (the brother and the neighbour dispute), 00:09:30-00:13:00 (jealousy and Umar's judge, a woman of forty-five years), 00:16:30-00:18:00 (partial), 00:21:00-00:23:00, 00:26:30-00:29:00 (the wailing woman's tail and a remark about girls), 00:32:00-00:32:30, 00:33:00-00:33:30 | Not recoverable as clear Arabic | Clarity | Open |
 | Supplications, a question on ultrasound, and the producer's announcement with phone number | ep20 00:38:30-00:40:00; 00:40:30-00:41:00 | Not lesson content | Content rule | Open |
 
-Resume point: episode 21 (branch from origin/main).
+
+### al-dar-al-akhera ep21 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep21 (the Fire, part 4: mercy and intercession) | about 40 min (transcript) | ar, en, ur: 1 record extended | 4 new `about` edges | 13 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the hadith about the Prophet's community taken to the Fire and the report with Malik have no chain (ep21 00:10:00, 00:13:30); the verse tied to the Prophet's words (00:09:00); the ascription to Abu Nuaym and Ahmad (00:37:00) | run omar-abdelkafy-dar-akhera-14 |
+
+| Excluded (dar-akhera ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep21 00:02:30, 00:13:00, 00:17:00, 00:23:00, 00:33:30 | Not speech | Loop check | Open |
+| Garbled passages | ep21 00:00:00-00:02:00 (the Prophet before the Fire), 00:03:00-00:03:30, 00:10:00-00:10:30 (partial), 00:17:30-00:18:00, 00:20:30-00:21:30 (the reciters who do not act), 00:28:30-00:31:30 (those who walk to mosques in the dark and a remark on Pharaoh), 00:31:30-00:34:30 (a passage on al-Husayn at Karbala whose speaker and words are not recoverable), 00:34:00-00:35:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Supplications and the producer's announcement with phone number | ep21 00:37:30-00:40:00 | Not lesson content | Content rule | Open |
+
+Resume point: episode 22 (branch from origin/main).
