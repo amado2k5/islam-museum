@@ -10,6 +10,11 @@ summary:
   ur: "عربی حرف کو جمالیاتی انداز میں لکھنے کا فن، جو قرآن کی کتابت سے تعلق کی وجہ سے اسلامی فنون میں سب سے شریف ہے۔ انسائیکلوپیڈیا آف اسلام کا دوسرا ایڈیشن اس کا ارتقا متوازن اموی خط سے آرائشی کوفی اور پھر ان گول خطوط تک بیان کرتا ہے جنہیں ابن مقلہ نے منظم کیا اور ابن البواب اور یاقوت مستعصمی نے عروج دیا۔ مضمون چھ اقلام کے ایران، ترکی اور ہندوستان تک پہنچنے اور تعلیق، نستعلیق اور دیوانی کے ابھرنے کو بھی دیکھتا ہے۔"
 wings: [objects]
 themes: [arts-of-the-book, scripture-and-its-sciences]
+relations:
+  - { type: has_part, target: concept/kufic-script, sources: [source/wikidata] }
+  - { type: has_part, target: concept/naskh-script, sources: [source/wikidata] }
+  - { type: has_part, target: concept/thuluth-script, sources: [source/wikidata] }
+  - { type: has_part, target: concept/divani-script, sources: [source/wikidata] }
 sources: [source/wikidata, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q656831

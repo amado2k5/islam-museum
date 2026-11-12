@@ -1005,7 +1005,6 @@ Next step: episode 30.
 | Garbled passages | ep17 00:00:00-00:01:30, 00:03:30-00:04:30, 00:05:00 (a remark on the veil), 00:06:00-00:08:00, 00:10:30-00:11:00, 00:13:00 (partial), 00:14:30-00:15:30, 00:23:00 (partial), 00:25:00-00:26:00, 00:32:00-00:35:00 (the moths hadith tail), 00:38:00-00:40:30 (partial); ep18 00:00:00, 00:01:30, 00:03:30-00:04:00 (partial), 00:06:00-00:07:00, 00:12:30-00:18:00 (market and chemistry anecdotes), 00:24:00-00:24:30 (partial), 00:28:30-00:29:00, 00:31:30-00:33:00, 00:37:00-00:39:00 (groups the lecturer names under the degrees), 00:39:30-00:41:30 | Not recoverable as clear Arabic | Clarity | Open |
 | Supplications, announcements and sign-offs | ep17 00:41:30-00:42:30; ep18 00:44:00-00:44:30 (mosque lecture times) | Not lesson content | Content rule | Open |
 
-Resume point: episode 19 (branch from origin/main).
 ### albuyout-alamena, episode 30 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-18)
 
 Episode 30 read in full (51 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people and passages named; 12 needs_source (stories and sayings without a chain, garbled call text, calls with no recorded answer).
@@ -1039,7 +1038,6 @@ Next step: episode 31. The series has 47 episodes of transcript on disk (ep01 to
 | Hallucinated non-Arabic text | ep19 00:40:30 | Not speech in any intelligible language | Clarity | Open |
 | Supplications and sign-off | ep19 00:38:30, 00:39:30 (announcement) | Not lesson content | Content rule | Open |
 
-Resume point: episode 20 (branch from origin/main).
 ### albuyout-alamena, episode 31 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-19)
 
 Episode 31 read in full (51 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 8 needs_source (stories, figures and sayings without a source, garbled call text).
@@ -1170,3 +1168,88 @@ Next step: episode 38.
 | Private circumstances of callers | ep37 00:26:00–00:35:00 | Kept general | Privacy | Open |
 | Questions with no recorded answer | ep37 00:26:00 (fear of flying, off the subject), 00:37:00 (the book and the lost lessons, promised only), 00:38:00–00:39:00 (the lesser pilgrimage, age of the mother not heard) | The answer is not in the transcript | Clarity | Open |
 | Hadith and saying wording | ep37 00:15:00–00:16:00, 00:20:00–00:20:30 | Wording not typed; by sense only | Hadith rule | Open |
+
+### albuyout-alamena, episode 38 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-26)
+
+Episode 38 read in full (43 min of transcript) before writing. 11 points written (ar, en, ur); new `about` edges for the people and passages named; 10 needs_source (stories and sayings without a chain, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep38 (persuasion and conviction through gentleness) | about 43 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 11 points | new `about` edges | 11 | 10 needs_source | this PR |
+
+Next step: episode 39.
+
+| Excluded (albuyout-alamena ep38) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep38 00:00:00–00:00:30, 00:16:00–00:16:30, 00:28:30–00:29:00, 00:42:30–00:43:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep38 00:05:00, 00:12:00, 00:17:00–00:18:00, 00:19:30, 00:21:30, 00:23:30, 00:26:00, 00:33:00 (a looped sentence), 00:37:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep38 00:29:30–00:36:30 | Kept general | Privacy | Open |
+| Questions off the subject | ep38 00:32:00 (the lecturer's latest books) | Not lesson content | Scope | Open |
+| Verses of poetry quoted | ep38 00:22:30–00:23:30, 00:31:00–00:31:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep38 00:05:00–00:06:30, 00:14:00, 00:27:00–00:28:00 | Wording not typed; by sense only | Hadith rule | Open |
+| A remark about a man who told al-Hajjaj he had done what the Messenger did not | ep38 00:38:30–00:39:00 | Garbled and without context; not recorded | Clarity | Open |
+
+### albuyout-alamena, episode 39 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-27)
+
+Episode 39 read in full (48 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (statistics, medical claims and sayings without a source, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep39 (the school year and safe homes) | about 48 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 13 points | new `about` edges | 13 | 9 needs_source | this PR |
+
+Next step: episode 40.
+
+| Excluded (albuyout-alamena ep39) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep39 00:00:00–00:00:30, 00:15:30–00:16:00, 00:33:30–00:34:00, 00:47:30–00:48:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep39 00:14:30–00:15:30, 00:17:00–00:17:30, 00:19:00–00:19:30, 00:21:00, 00:35:30, 00:37:30, 00:42:30, 00:43:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep39 00:35:00–00:42:30 | Kept general | Privacy | Open |
+| Verses of poetry quoted | ep39 00:06:00–00:07:00 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep39 00:05:30, 00:09:30–00:10:00, 00:22:00–00:22:30, 00:28:00–00:29:00 | Wording not typed; by sense only | Hadith rule | Open |
+| A remark on people who hated learning and on the Buddha | ep39 00:08:30–00:09:00, 00:11:00–00:11:30 | Contested and unsourced claims, only the first recorded as the lecturer's view | Scope | Open |
+
+
+### al-dar-al-akhera ep20 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep20 (the Fire, part 3) | about 41 min (transcript) | ar, en, ur: 1 record extended | 1 new `about` edge (concept/zaqqum) | 14 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the saying ascribed to Umar on the Kaaba (00:36:30); the valley name Habhab and the length calculation (00:32:30); the Ibn Masud report (00:35:30) | run omar-abdelkafy-dar-akhera-13 |
+
+| Excluded (dar-akhera ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep20 00:01:00, 00:04:00, 00:11:00, 00:20:00, 00:26:00, 00:26:30, 00:32:00, 00:39:30 | Not speech | Loop check | Open |
+| Garbled passages | ep20 00:01:30-00:02:00, 00:07:00-00:08:00 (the brother and the neighbour dispute), 00:09:30-00:13:00 (jealousy and Umar's judge, a woman of forty-five years), 00:16:30-00:18:00 (partial), 00:21:00-00:23:00, 00:26:30-00:29:00 (the wailing woman's tail and a remark about girls), 00:32:00-00:32:30, 00:33:00-00:33:30 | Not recoverable as clear Arabic | Clarity | Open |
+| Supplications, a question on ultrasound, and the producer's announcement with phone number | ep20 00:38:30-00:40:00; 00:40:30-00:41:00 | Not lesson content | Content rule | Open |
+
+
+### al-dar-al-akhera ep21 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep21 (the Fire, part 4: mercy and intercession) | about 40 min (transcript) | ar, en, ur: 1 record extended | 4 new `about` edges | 13 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the hadith about the Prophet's community taken to the Fire and the report with Malik have no chain (ep21 00:10:00, 00:13:30); the verse tied to the Prophet's words (00:09:00); the ascription to Abu Nuaym and Ahmad (00:37:00) | run omar-abdelkafy-dar-akhera-14 |
+
+| Excluded (dar-akhera ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep21 00:02:30, 00:13:00, 00:17:00, 00:23:00, 00:33:30 | Not speech | Loop check | Open |
+| Garbled passages | ep21 00:00:00-00:02:00 (the Prophet before the Fire), 00:03:00-00:03:30, 00:10:00-00:10:30 (partial), 00:17:30-00:18:00, 00:20:30-00:21:30 (the reciters who do not act), 00:28:30-00:31:30 (those who walk to mosques in the dark and a remark on Pharaoh), 00:31:30-00:34:30 (a passage on al-Husayn at Karbala whose speaker and words are not recoverable), 00:34:00-00:35:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Supplications and the producer's announcement with phone number | ep21 00:37:30-00:40:00 | Not lesson content | Content rule | Open |
+
+Resume point: episode 22 (branch from origin/main).
+### albuyout-alamena, episode 40 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-28)
+
+Episode 40 read in full (46 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people and passages named; 7 needs_source (stories and sayings without a chain, rulings given without evidence, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep40 (breadth of chest in the home) | about 46 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 15 points | new `about` edges | 15 | 7 needs_source | this PR |
+
+Next step: episode 41.
+
+| Excluded (albuyout-alamena ep40) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep40 00:00:00–00:00:30, 00:12:30–00:13:00, 00:26:00–00:26:30, 00:46:00–00:46:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep40 00:13:00, 00:25:00, 00:33:30–00:34:00, 00:42:00, 00:42:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep40 00:26:30–00:36:00 | Kept general | Privacy | Open |
+| A caller's dream about the lecturer | ep40 00:34:00–00:34:30 | A private, unverifiable dream; not recorded | Scope | Open |
+| Verses of poetry quoted | ep40 00:26:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep40 00:06:30–00:08:00, 00:17:00–00:18:00, 00:19:00–00:20:30, 00:24:00–00:25:00 | Wording not typed; by sense only | Hadith rule | Open |

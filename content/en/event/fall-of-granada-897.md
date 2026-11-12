@@ -5,7 +5,11 @@ source_lang: en
 translators: []
 ---
 ## Overview
-On the second of Rabi al-Awwal 897 AH the Castilians entered the Alhambra, after the last of the Nasrid sultans, [[person/boabdil-muhammad-xii|Abu Abd Allah]], handed over [[place/granada|Granada]] under documents of sixty-seven conditions. {cite:nafh-tib-maqqari p.529-531}
+On 2 Rabi al-Awwal 897 AH the Castilians entered [[building/alhambra|the Alhambra]], after the last of the Nasrid sultans, [[person/boabdil-muhammad-xii|Abu Abd Allah]], handed over [[place/granada|Granada]] under documents of sixty-seven conditions {cite:nafh-tib-maqqari p.529-531} {cite:nafh-tib-maqqari p.532}. [[person/tariq-al-suwaidan|Tareq al-Suwaidan]] dates this to 2 January 1492 CE {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep07 00:17:30}. Al-Maqqari relates that the Castilians came out with their camps to the plain of Granada in Jumada al-Akhira 896 AH and pressed the city; the fighting lasted seven months, and then hunger and high prices grew severe in the winter {cite:nafh-tib-maqqari p.528} {cite:nafh-tib-maqqari p.529}. The sultan summoned the people of the state and the counsellors, their opinion settled on taking the lesser of two harms, and the conditions were read out to the people of Granada, who submitted to them {cite:nafh-tib-maqqari p.529}.
+
+Among the conditions were the safety of young and old in their persons, families and property, the upholding of their law, the keeping of the mosques and endowments, that no one who wished to cross to the far shore be prevented, and that the lord of Rome approve them {cite:nafh-tib-maqqari p.529} {cite:nafh-tib-maqqari p.530}. The Christians secured themselves by taking about five hundred notables of Granada as pledges {cite:nafh-tib-maqqari p.529}. The sultan then moved to Andarash in the Alpujarras, crossed the sea, landed at Melilla and settled in Fez, where he died in 940 AH {cite:nafh-tib-maqqari p.531} {cite:nafh-tib-maqqari p.533}.
+
+Al-Maqqari says that the conditions were broken one after another until the Muslims were forced to convert to Christianity in 904 AH {cite:nafh-tib-maqqari p.531}. He describes Abu Abd Allah as the sultan with whose reign the kingdom of Islam in al-Andalus came to an end {cite:nafh-tib-maqqari p.532}.
 
 ## The conditions
 The sultan met with the people of the state and the counsellors, and their opinion agreed to take the lesser of two harms. The conditions were read out to the people of Granada, and they submitted to them. {cite:nafh-tib-maqqari p.529-531}

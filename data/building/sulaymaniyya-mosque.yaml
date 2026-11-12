@@ -21,6 +21,9 @@ periods:
 - period/gunpowder-empires
 external_ids:
   wikidata: Q178643
+relations:
+- { type: located_in, target: place/istanbul, sources: [source/wikidata] }
+- { type: built_by, target: person/mimar-sinan, sources: [source/wikidata] }
 sources:
 - source/wikidata
 - source/encyclopaedia-of-islam-2

@@ -6,7 +6,9 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 ---
 
 ## موجز
-[[person/umar-ibn-abd-al-aziz|عمر بن عبد العزيز]] بويع بالخلافة بعد وفاة سليمان بن عبد الملك {cite:tabari-khayyat-part2 مسح 72}، {cite:tabari-khayyat-part2 مسح 73}، وعالج في ولايته أمر الولاة والخوارج، وكان بينه وبين [[person/yazid-ibn-al-muhallab|يزيد بن المهلب]] خلاف {cite:tabari-khayyat-part2 مسح 78}.
+[[person/umar-ibn-abd-al-aziz|عمر بن عبد العزيز]] بن مروان خليفة أموي، وُلد على الراجح سنة 61هـ في [[place/medina|المدينة]]، وأمه أم عاصم بنت عاصم بن [[person/umar-ibn-al-khattab|عمر بن الخطاب]] {cite:salabi-umayyad-state-2020 p.157-161}. وولّاه [[person/al-walid-ibn-abd-al-malik|الوليد بن عبد الملك]] المدينة في ربيع الأول سنة 87هـ، فكوّن فيها مجلساً للشورى من عشرة من فقهائها {cite:salabi-umayyad-state-2020 p.168-173}. وبويع بالخلافة بعد وفاة [[person/sulayman-ibn-abd-al-malik|سليمان بن عبد الملك]] في [[place/marj-dabiq|مرج دابق]] في صفر سنة 99هـ، بعهد كتبه سليمان له {cite:tabari-khayyat-part2 مسح 72} {cite:tabari-khayyat-part2 مسح 73} {cite:muruj-al-dhahab p. 172-176}.
+
+ويذكر الصلابي أنه بدأ بنفسه في رد المظالم ثم ببني أمية، وأنه كتب إلى عامله على مصر أن يضع [[concept/jizya|الجزية]] عمن أسلم {cite:salabi-umayyad-state-2020 p.184-193} {cite:salabi-umayyad-state-2020 p.194-203}. وأمر بجمع السنن وتدوينها، فكتب إلى [[person/abu-bakr-ibn-hazm|أبي بكر بن حزم]] أن يكتب حديث النبي لأنه خاف دروس العلم، وأمر [[person/muhammad-ibn-shihab-al-zuhri|ابن شهاب الزهري]] بجمعها {cite:salabi-umayyad-state-2020 p.297-302}. وعالج في ولايته أمر الولاة و[[group/khawarij|الخوارج]]، فكتب إلى عامله على العراق أن يدعوهم إلى العمل بكتاب الله، وكان بينه وبين [[person/yazid-ibn-al-muhallab|يزيد بن المهلب]] خلاف {cite:tabari-khayyat-part2 مسح 75} {cite:tabari-khayyat-part2 مسح 78}. وتوفي بدير سمعان من أعمال [[place/homs|حمص]] في رجب سنة 101هـ، وكانت خلافته عند [[person/al-masudi|المسعودي]] سنتين وخمسة أشهر وخمسة أيام {cite:muruj-al-dhahab p. 172-176}. وينقل الصلابي أن أهل العلم عدّوه من الخلفاء الراشدين {cite:salabi-umayyad-state-2020 p.159}.
 
 ## في دائرة المعارف الإسلامية، الطبعة الثانية
 
