@@ -1946,3 +1946,20 @@ Next step: episode 18.
 | Repeated stretches of episode 10 | ep11 00:00:00-00:06:00 (written once as a short repeat section) | Same content as ep10 | Duplication | Open |
 
 Resume point: ajaeb-al-kulub episode 13 (branch from origin/main).
+
+### al-naba-al-safi, episode 18 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-7)
+
+Episode 18 read in full (49 min of transcript) before writing. 18 points written (ar, en, ur); new `about` edges for the people and passages named; 16 needs_source (unchained hadiths, sayings and accounts in sense, an unsourced statistic).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep18 (how did you rise, the eight claims in al-Shafi'i's answer) | about 49 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 18 points | new `about` edges | 18 | 16 needs_source | this PR |
+
+Next step: episode 19.
+
+| Excluded (al-naba-al-safi ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep18 00:00:00–00:00:30, 00:18:00–00:18:30, 00:33:00–00:33:30, 00:46:30–00:48:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep18 00:02:00, 00:04:30, 00:14:00, 00:22:30, 00:32:00, 00:46:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep18 00:24:30–00:25:00, 00:34:00 | Not reproduced | Sources policy | Open |
+| Private caller details and an off-topic personal question | ep18 00:39:30–00:44:30 | Generalised; the personal question was deferred by the lecturer | Privacy | Open |
