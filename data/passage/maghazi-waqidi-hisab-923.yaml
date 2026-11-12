@@ -1,0 +1,17 @@
+id: passage/maghazi-waqidi-hisab-923
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "923"
+label: { ar: "كتاب المغازي للواقدي ص 923 — محو السيئات وحط الخطايا", en: "al-Waqidi's Kitab al-Maghazi, p. 923 — bad deeds erased and sins shed", ur: "کتاب المغازی للواقدی ص 923 — برائیوں کا مٹنا" }
+text: "… اللّٰه كما يَستحي الرجل ذو الهَيْئَة من أَهله . إذا أَسأُتَ فأحسن؛ إِنَّ الحَسَناتِ يُذْهِبْنَ السَّيِّئَاتِ ذَلِكَ ذِكْرَى لِلذَّاكِرِينَ ٢ . قال : فخرج الطُّفَيل سريماً إلى قومه ، فهَدَم ذا الكَفِّين ، وجعل يحشو النار فى جوفه ويقول : …"
+summary:
+  ar: "مقطع من كتاب المغازي للواقدي، ص 923، يذكر محو السيئات وحط الخطايا؛ من النسخة المستخرجة، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Waqidi's Kitab al-Maghazi, p. 923, that speaks of bad deeds erased and sins shed; from the extracted copy, quoted within forty words per the sources policy."
+  ur: "کتاب المغازی للواقدی کے صفحہ 923 کا اقتباس جس میں برائیوں کا مٹنا کا ذکر ہے؛ نکالی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي ص 923 — صفحة معدودة العمل، مفحوصة بالكاشف ومراجعة يدويا؛ مقتطف أقل من أربعين كلمة", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "hisab-seerah-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label, summary and excerpt are the museum's own words" }

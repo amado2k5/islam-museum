@@ -1,0 +1,17 @@
+id: passage/muwatta-api-1718
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1718"
+label: { ar: "موطأ مالك 1718 — محو السيئات وحط الخطايا", en: "Muwatta Malik 1718 — bad deeds erased and sins shed", ur: "موطأ مالک 1718 — برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ يَحْيَى بْنِ سَعِيدٍ، أَنَّ رَجُلاً، جَاءَهُ الْمَوْتُ فِي زَمَانِ رَسُولِ اللَّهِ فَقَالَ رَجُلٌ هَنِيئًا لَهُ مَاتَ وَلَمْ يُبْتَلَ بِمَرَضٍ. فَقَالَ رَسُولُ اللَّهِ \" وَيْحَكَ وَمَا يُدْرِيكَ لَوْ أَنَّ اللَّهَ ابْتَلاَهُ بِمَرَضٍ يُكَفِّرُ بِهِ مِنْ سَيِّئَاتِهِ \"."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1718، يذكر محو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Muwatta Malik, no. 1718 (The Evil Eye), that speaks of bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "موطأ مالک کی حدیث نمبر 1718، جس میں برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1718 (book 50 hadith 8); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

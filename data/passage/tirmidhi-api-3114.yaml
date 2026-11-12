@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-3114
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3114"
+label: { ar: "جامع الترمذي 3114 — محو السيئات وحط الخطايا", en: "Jami' al-Tirmidhi 3114 — bad deeds erased and sins shed", ur: "جامع ترمذی 3114 — برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "… أَبِي عُثْمَانَ، عَنِ ابْنِ مَسْعُودٍ، أَنَّ رَجُلاً، أَصَابَ مِنَ امْرَأَةٍ قُبْلَةَ حَرَامٍ فَأَتَى النَّبِيَّ فَسَأَلَهُ عَنْ كَفَّارَتِهَا فَنَزَلَتْ : ( أَقِمِ الصَّلاَةَ طَرَفَيِ النَّهَارِ وَزُلَفًا مِنَ اللَّيْلِ إِنَّ الْحَسَنَاتِ يُذْهِبْنَ السَّيِّئَاتِ ) فَقَالَ الرَّجُلُ أَلِيَ هَذِهِ يَا رَسُولَ اللَّهِ فَقَالَ \" لَكَ وَلِمَنْ عَمِلَ بِهَا مِنْ أُمَّتِي \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3114، يذكر محو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 3114 (Chapters on Tafsir), that speaks of bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 3114، جس میں برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3114 (book 47 hadith 166); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

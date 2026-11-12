@@ -1,0 +1,17 @@
+id: passage/nasai-api-2210
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2210"
+label: { ar: "سنن النسائي 2210 — محو السيئات وحط الخطايا، مغفرة ما تقدم من الذنب", en: "Sunan al-Nasa'i 2210 — bad deeds erased and sins shed; forgiveness of past sins", ur: "سنن نسائی 2210 — برائیوں کا مٹنا اور خطاؤں کا جھڑنا، پچھلے گناہوں کی مغفرت" }
+text: "… بْنِ عَبْدِ الرَّحْمَنِ حَدِّثْنِي بِشَىْءٍ، سَمِعْتَهُ مِنْ، أَبِيكَ سَمِعَهُ أَبُوكَ، مِنْ رَسُولِ اللَّهِ لَيْسَ بَيْنَ أَبِيكَ وَبَيْنَ رَسُولِ اللَّهِ أَحَدٌ فِي شَهْرِ رَمَضَانَ. قَالَ نَعَمْ حَدَّثَنِي أَبِي قَالَ قَالَ رَسُولُ اللَّهِ \" إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى فَرَضَ صِيَامَ رَمَضَانَ عَلَيْكُمْ وَسَنَنْتُ لَكُمْ قِيَامَهُ فَمَنْ صَامَهُ وَقَامَهُ إِيمَانًا وَاحْتِسَابًا خَرَجَ مِنْ ذُنُوبِهِ كَيَوْمِ وَلَدَتْهُ أُمُّهُ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2210، يذكر محو السيئات وحط الخطايا، ومغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 2210 (The Book of Fasting), that speaks of bad deeds erased and sins shed, forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 2210، جس میں برائیوں کا مٹنا اور خطاؤں کا جھڑنا، پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2210 (book 22 hadith 121); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

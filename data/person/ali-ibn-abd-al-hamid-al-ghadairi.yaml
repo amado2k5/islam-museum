@@ -1,0 +1,21 @@
+id: person/ali-ibn-abd-al-hamid-al-ghadairi
+class: person
+label: { ar: "علي بن عبد الحميد الغضائري", en: "Ali ibn Abd al-Hamid al-Ghada'iri", ur: "علی بن عبد الحمید غضائری" }
+names:
+  - { kind: full, lang: ar, value: "علي بن عبد الحميد الغضائري الحلبي" }
+gender: male
+roles: [mystic]
+summary:
+  ar: "علي بن عبد الحميد الغضائري الحلبي، عابد سمع دعاء السري السقطي على بابه، وحج من حلب ماشيًا أربعين حجة، وكان يُعدّ من الأبدال بحسب «حلية الأولياء»."
+  en: "Ali ibn Abd al-Hamid al-Ghada'iri of Aleppo, a worshipper who overheard al-Sari al-Saqati's prayer at his door, made forty pilgrimages on foot from Aleppo, and was counted among the abdal according to Hilyat al-Awliya."
+  ur: "علی بن عبد الحمید غضائری حلب کے عابد تھے۔ انہوں نے سری سقطی کے دروازے پر ان کی دعا سنی۔ انہوں نے حلب سے پیدل چالیس حج کیے، اور «حلیۃ الاولیاء» کے مطابق انہیں ابدال میں شمار کیا جاتا تھا۔"
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/aleppo, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: student_of, target: person/sari-al-saqati, note: "سمع منه وروى عنه (حلية الأولياء 10/117، 10/121، 10/366).", sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/366, 10/117, 10/121", generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b15 }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 2 }

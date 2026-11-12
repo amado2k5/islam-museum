@@ -1,0 +1,17 @@
+id: passage/abudawud-api-2538
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2538"
+label: { ar: "سنن أبي داود 2538 — مضاعفة الأجر", en: "Sunan Abi Dawud 2538 — the reward doubled or multiplied", ur: "سنن ابی داؤد 2538 — اجر کا دوگنا یا کئی گنا ہونا" }
+text: "… فَقَتَلَهُ فَقَالَ أَصْحَابُ رَسُولِ اللَّهِ فِي ذَلِكَ - وَشَكُّوا فِيهِ - : رَجُلٌ مَاتَ بِسِلاَحِهِ. فَقَالَ رَسُولُ اللَّهِ : \" مَاتَ جَاهِدًا مُجَاهِدًا \". قَالَ ابْنُ شِهَابٍ : ثُمَّ سَأَلْتُ ابْنًا لِسَلَمَةَ بْنِ الأَكْوَعِ فَحَدَّثَنِي عَنْ أَبِيهِ بِمِثْلِ ذَلِكَ، غَيْرَ أَنَّهُ قَالَ فَقَالَ رَسُولُ اللَّهِ : \" كَذَبُوا مَاتَ جَاهِدًا مُجَاهِدًا فَلَهُ أَجْرُهُ مَرَّتَيْنِ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2538، يذكر مضاعفة الأجر. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 2538 (Jihad (Kitab Al-Jihad)), that speaks of the reward doubled or multiplied. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2538، جس میں اجر کا دوگنا یا کئی گنا ہونا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2538 (book 15 hadith 62); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

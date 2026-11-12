@@ -7,7 +7,7 @@ label:
 summary:
   ar: "الدولة الصفوية بإيران، أسسها الشاه إسماعيل من ذرية الشيخ صفي الدين الأردبيلي؛ يصفها الصلابي بأنها سعت لبسط المذهب الشيعي في العراق وآسيا الصغرى مما دفع الدولة العثمانية نحو المشرق، وأن إسماعيل هُزم بجالديران سنة 920هـ/1514م وفقد تبريز، وأن تحالفه اللاحق مع البرتغاليين أقرّ سيطرتهم على هرمز {cite:dawlat-uthmaniyya-salabi p. 177-184}. قامت سنة 1501م وانتهت سنة 1736م."
   en: "Safavid Iran, founded by Shah Ismail of Shaykh Safi al-Din al-Ardabili's line; al-Salabi presents its drive to spread Shi'ism in Iraq and Asia Minor as the spur that turned the Ottomans east, records Ismail's crushing defeat at Chaldiran in 920/1514 with the loss of Tabriz, and his later league with the Portuguese confirming their hold on Hormuz {cite:dawlat-uthmaniyya-salabi p. 177-184}. Established 1501, ended 1736."
-wings: []
+wings: [time]
 periods:
 - period/gunpowder-empires
 regions:
@@ -17,7 +17,7 @@ start:
   calendar: julian
   precision: year
   status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  note: "التاريخ من ويكيداتا (CC0). The Encyclopaedia of Islam dates the establishment of the state to Isma'il I's entry into Tabriz in 907/1501 {cite:encyclopaedia-of-islam-2 vol. 8 pp. 820-822}."
   sources:
   - source/wikidata
 end:
@@ -25,7 +25,7 @@ end:
   calendar: gregorian
   precision: day
   status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  note: "التاريخ من ويكيداتا (CC0). The Encyclopaedia of Islam counts the Safavids sovereign until Shah Sultan Husayn's surrender of Isfahan on 1 Muharram 1135/12 October 1722, and rulers in name only from 1142/1729 to 1148/1736 {cite:encyclopaedia-of-islam-2 vol. 8 pp. 820, 826}."
   sources:
   - source/wikidata
 relations:
@@ -40,12 +40,14 @@ sources:
 - source/wikidata
 - source/nomisma
 - source/dawlat-uthmaniyya-salabi
+- source/encyclopaedia-of-islam-2
 provenance:
   layer: cc0
   source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: polity-wikidata-1
+  canon: "Prose and date notes written from the Encyclopaedia of Islam, 2nd ed., vol. 8, SAFAWIDS, section I (dynastic, political and military history), PDF pp. 820-826 (author signature not legible in the scan), English by Claude Code (claude-fable-5-2), Arabic and Urdu translated by Claude Haiku 5.5, run canon-cornerstones-7. The existing summaries from al-Sallabi are kept unchanged."
 importance: 1
 status:
   review: draft

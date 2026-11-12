@@ -2,41 +2,39 @@ id: dec-20261112-238
 kind: "decision"
 date: "2026-11-12"
 expires_at: "2027-11-12"
-question_hash: 9ea4ca597acf
-lane: "place-coordinates"
-class: "data"
+question_hash: a69902ecd7af
+lane: "microsd-books"
+class: "content"
 modality: "repo"
-domain: "sources"
+domain: "safety"
 mode: "conservative"
-question: "A place record's own sources give no coordinates for it (its Wikidata item and Wikipedia articles carry none, and GeoNames has no entry). May the record take the coordinates of another feature, and under what condition?"
+question: "Hilyat al-Awliya vol. 10: (a) notice 645 names Sa'id ibn Abd al-Aziz al-Halabi, a companion of al-Sari al-Saqati who settled in Damascus, while the graph already holds person/said-ibn-abd-al-aziz-al-tanukhi (the earlier Damascene jurist) — merge or keep apart; (b) notice 650 says Abu Bakr ibn Abi Sa'dan 'followed al-Shafi'i' — record that as a traditions/faith value on the new record or state it in cited prose only?"
 options:
-  - "only when a cited source places that feature inside the record's place, so the point lies on the place itself; recorded as approx with a note naming the feature"
-  - "also when sources only name the containing city or quarter, or a nearby feature; recorded as approx at that city, quarter or neighbour"
-  - "never; leave the placeholder and hold every such record for the founder"
+  - "keep the homonyms apart, write no record for notice 645 yet, and state the Shafi'i affiliation in cited prose only"
+  - "alias notice 645 to the Tanukhi record"
+  - "add a traditions value to the new record from the single Hilyat line"
 evidence:
-  - "data/place/al-wardya-cemetery.yaml: Wikidata Q29513771 has no coordinate claim; Arabic Wikipedia (revision 70599944) says the cemetery's ground surrounds the mosque of Shaykh Umar al-Suhrawardi, citing the Sunni Endowment Office's guide p. 60; the mosque's Wikidata item Q28716432 gives 33.35055556, 44.40194444 at revision 2468638431."
-  - "data/place/fadl-mosque.yaml, grave-of-al-ghazali.yaml, al-nawbakhti-shrine.yaml, sirwan.yaml: sources name only the quarter, the city or nearby features (the Fadl quarter; near Bab al-Sheikh and Sheikh Omar Street; between the Shorja market and al-Rashid Street; near Rayy), none of which pins the site."
-  - "1,845 place records already carry coordinate_precision approx with a coordinate_note; 55 of them say 'Approximate region-center placement; exact site unlocated'."
-  - "AGENTS.md: never invent a fact; Wikipedia and Wikidata facts need a recorded revision and a ledger entry. docs/ai-change-gates.md section 2: stay inside the task."
+  - "source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/366 and 10/377"
+  - "AGENTS.md: homonyms never merge; a person's faith is recorded only with its basis, never inferred"
 status: decided
 step: rule
-decision: "never guess an external id: if the QID or identifier cannot be confirmed from a live source, omit the field and state the gap in provenance — the wave-1 fail-closed precedent"
+decision: "a person's faith is recorded only on two independent sources attesting it for the person himself; office, headship, descent, movement membership, infobox-only values, teacher lineages and aggregator rows never count; where sources say only 'Shia' and context supports a branch, the founder's mapping gives shia-twelver documented with the mapping stated — otherwise unknown"
 confidence: 0.9
 reversible: true
-rationale: "Answered by a standing repository rule (rule-external-id-failclosed): wave-2 commit: 'the gap is stated in the provenance rather than guessed'."
-rule: "wave-2 commit: 'the gap is stated in the provenance rather than guessed'"
-rule_id: "rule-external-id-failclosed"
+rationale: "Answered by a standing repository rule (rule-faith-two-source): Method page doctrine + founder Shia-mapping rule 24 Oct 2026 + founder re-review 1 Nov 2026 ('strict two-source rule restored; branch-only attestation settles nothing')."
+rule: "Method page doctrine + founder Shia-mapping rule 24 Oct 2026 + founder re-review 1 Nov 2026 ('strict two-source rule restored; branch-only attestation settles nothing')"
+rule_id: "rule-faith-two-source"
 review_sampled: false
 decided_by:
   agent: poc-decide
   pipeline: scripts/decisions/decide.ts
   ruleset: docs/decisions/rules.yaml
 derived_from:
-  - rule:rule-external-id-failclosed
+  - rule:rule-faith-two-source
 chain:
   depth: 0
-  root_id: "rule:rule-external-id-failclosed"
+  root_id: "rule:rule-faith-two-source"
   root_kind: "rule"
   root_expires_at: null
-  derived_rule_hash: "eaa12b9883294568"
-calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-external-id-failclosed"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
+  derived_rule_hash: "90b397badcd6b30d"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-faith-two-source"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

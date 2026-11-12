@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-1956
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1956"
+label: { ar: "سنن ابن ماجه 1956 — الأجران", en: "Sunan Ibn Majah 1956 — the double reward", ur: "سنن ابن ماجہ 1956 — دوہرا اجر" }
+text: "… اللَّهِ ـ \" مَنْ كَانَتْ لَهُ جَارِيَةٌ فَأَدَّبَهَا فَأَحْسَنَ أَدَبَهَا وَعَلَّمَهَا فَأَحْسَنَ تَعْلِيمَهَا ثُمَّ أَعْتَقَهَا وَتَزَوَّجَهَا فَلَهُ أَجْرَانِ وَأَيُّمَا رَجُلٍ مِنْ أَهْلِ الْكِتَابِ آمَنَ بِنَبِيِّهِ وَآمَنَ بِمُحَمَّدٍ فَلَهُ أَجْرَانِ وَأَيُّمَا عَبْدٍ مَمْلُوكٍ أَدَّى حَقَّ اللَّهِ عَلَيْهِ وَحَقَّ مَوَالِيهِ فَلَهُ أَجْرَانِ \". قَالَ صَالِحٌ قَالَ الشَّعْبِيُّ قَدْ أَعْطَيْتُكَهَا بِغَيْرِ شَىْءٍ. إِنْ كَانَ الرَّاكِبُ لَيَرْكَبُ فِيمَا دُونَهَا …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1956، يذكر الأجران. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 1956 (The Chapters on Marriage), that speaks of the double reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1956، جس میں دوہرا اجر کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1956 (book 9 hadith 112); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

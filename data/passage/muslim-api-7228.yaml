@@ -1,0 +1,16 @@
+id: passage/muslim-api-7228
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7228"
+label: { ar: "صحيح مسلم 7228 — الحساب", en: "Sahih Muslim 7228 — the reckoning", ur: "صحیح مسلم 7228 — حساب" }
+text: "وَحَدَّثَنِي عَبْدُ الرَّحْمَنِ بْنُ بِشْرٍ، حَدَّثَنِي يَحْيَى، - وَهُوَ الْقَطَّانُ - عَنْ عُثْمَانَ بْنِ، الأَسْوَدِ عَنِ ابْنِ أَبِي مُلَيْكَةَ، عَنْ عَائِشَةَ، عَنِ النَّبِيِّ قَالَ \" مَنْ نُوقِشَ الْحِسَابَ هَلَكَ \". ثُمَّ ذَكَرَ بِمِثْلِ حَدِيثِ أَبِي يُونُسَ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 7228، يذكر الحساب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 7228 (The Book of Paradise, its Description, its Bounties and its Inhabitants), that speaks of the reckoning. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 7228، جس میں حساب کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7228 (book 53 hadith 97); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

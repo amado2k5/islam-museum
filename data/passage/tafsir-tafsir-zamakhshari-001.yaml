@@ -1,0 +1,24 @@
+id: passage/tafsir-tafsir-zamakhshari-001
+class: passage
+unit: chapter
+work: work/al-kashshaf
+ref: "295"
+label:
+  ar: "الكشاف — الزمخشري — ص 295"
+  en: "الكشاف — الزمخشري — p. 295"
+text: "فإن الأرض نصفها لي ونصفه لك. فأجاب عليه الصلاة والسلام: «من محمد رسول الله إلى مسيلمة الكذاب، أما بعد فإن الأرض لله يورثها من يشاء من عباده والعاقبة للمتقين». فحاربه أبو بكر رضي الله عنه بجنود المسلمين وقتل على يدي"
+summary:
+  ar: "مقطع من «الكشاف — الزمخشري» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «الكشاف — الزمخشري» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
+  - { type: mentions, target: person/muhammad, sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
+  - { type: mentions, target: person/musaylima, sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
+provenance:
+  layer: own-research
+  source: "الكشاف — الزمخشري ص 295 — مقتطف المكاتبات — tafsir"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-2
+tags: [mukatabat-browser]
+sources: [source/kashshaf-dar-al-marifa-shiha-2009]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-api-655
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "655"
+label: { ar: "صحيح البخاري 655 — كتاب الأعمال والملائكة الكاتبون", en: "Sahih al-Bukhari 655 — the record of deeds and the recording angels", ur: "صحیح بخاری 655 — نامۂ اعمال اور لکھنے والے فرشتے" }
+text: "… أَنَسٍ، قَالَ قَالَ النَّبِيُّ \" يَا بَنِي سَلِمَةَ أَلاَ تَحْتَسِبُونَ آثَارَكُمْ \". وَقَالَ مُجَاهِدٌ فِي قَوْلِهِ {وَنَكْتُبُ مَا قَدَّمُوا وَآثَارَهُمْ} قَالَ خُطَاهُمْ. وَقَالَ ابْنُ أَبِي مَرْيَمَ أَخْبَرَنَا يَحْيَى بْنُ أَيُّوبَ، حَدَّثَنِي حُمَيْدٌ، حَدَّثَنِي أَنَسٌ، أَنَّ بَنِي سَلِمَةَ، أَرَادُوا أَنْ يَتَحَوَّلُوا، عَنْ مَنَازِلِهِمْ، فَيَنْزِلُوا قَرِيبًا مِنَ النَّبِيِّ قَالَ فَكَرِهَ رَسُولُ اللَّهِ أَنْ يُعْرُوا {الْمَدِينَةَ} فَقَالَ \" …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 655، يذكر كتاب الأعمال والملائكة الكاتبون. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 655, that speaks of the record of deeds and the recording angels. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 655، جس میں نامۂ اعمال اور لکھنے والے فرشتے کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 655 (book 0 hadith 0); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

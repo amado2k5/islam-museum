@@ -1,0 +1,17 @@
+id: passage/muslim-api-2731
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2731"
+label: { ar: "صحيح مسلم 2731 — عدد الحسنات، مضاعفة الحسنة بعشر أمثالها", en: "Sahih Muslim 2731 — a stated number of good deeds; the good deed multiplied tenfold and beyond", ur: "صحیح مسلم 2731 — نیکیوں کی مقررہ تعداد، نیکی کا دس گنا اور اس سے زیادہ بڑھنا" }
+text: "… بِهَذَا الإِسْنَادِ وَزَادَ فِيهِ بَعْدَ قَوْلِهِ \" مِنْ كُلِّ شَهْرٍ ثَلاَثَةَ أَيَّامٍ \" \" فَإِنَّ لَكَ بِكُلِّ حَسَنَةٍ عَشْرَ أَمْثَالِهَا فَذَلِكَ الدَّهْرُ كُلُّهُ \". وَقَالَ فِي الْحَدِيثِ قُلْتُ وَمَا صَوْمُ نَبِيِّ اللَّهِ دَاوُدَ قَالَ \" نِصْفُ الدَّهْرِ \". وَلَمْ يَذْكُرْ فِي الْحَدِيثِ مِنْ قِرَاءَةِ الْقُرْآنِ شَيْئًا وَلَمْ يَقُلْ \" وَإِنَّ لِزَوْرِكَ عَلَيْكَ حَقًّا \". وَلَكِنْ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2731، يذكر عدد الحسنات، ومضاعفة الحسنة بعشر أمثالها. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 2731 (The Book of Fasting), that speaks of a stated number of good deeds, the good deed multiplied tenfold and beyond. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 2731، جس میں نیکیوں کی مقررہ تعداد، نیکی کا دس گنا اور اس سے زیادہ بڑھنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2731 (book 13 hadith 237); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -3,17 +3,19 @@ class: place
 kind: city
 label: { ar: "شيراز", en: "Shiraz" }
 summary:
-  ar: "مدينة في جنوب إيران، مسقط رأس الشاعرين سعدي وحافظ، ومركز للعلم والأدب."
-  en: A city in southern Iran, birthplace of the poets Sa'di and Hafez, and a centre of learning and literature.
+  ar: "شيراز عاصمة إقليم فارس في جنوب إيران ولقبها دار العلم، وهي تأسيس إسلامي على موقع مأهول قديم، ربما أسسها أو جددها سنة 74هـ/693م محمد أخو الحجاج أو محمد بن القاسم. صارت مركزًا اقتصاديًا وثقافيًا في عهد عضد الدولة البويهي، ثم مرت بأيدي السلاجقة والمظفريين والتيموريين والصفويين وكريم خان زند والقاجاريين. وبلغ عدد سكانها نحو 325 ألفًا بحلول 1972م."
+  en: Shiraz, titled dar al-ilm, is the capital of Fars in southern Iran, an Islamic foundation on a long-inhabited site, probably founded or restored in 74/693 by Muhammad, brother of al-Hajjaj, or by Muhammad ibn al-Qasim. It became an economic and cultural centre under the Buyid ruler Adud al-Dawla, and later passed through Seljuk, Muzaffarid, Timurid, Safavid, Zand and Qajar rule. Its population reached about 325,000 by 1972.
+  ur: "شیراز جنوبی ایران میں فارس کا دارالحکومت اور دارالعلم کے لقب سے معروف ہے، ایک قدیم آباد مقام پر اسلامی بنیاد، جسے غالباً 74ھ/693ء میں حجاج کے بھائی محمد یا محمد بن قاسم نے قائم یا بحال کیا۔ یہ بویہی حکمران عضد الدولہ کے دور میں معاشی اور ثقافتی مرکز بنا، اور بعد میں سلجوقی، مظفری، تیموری، صفوی، زند اور قاجاری حکومتوں سے گزرا۔ 1972ء تک اس کی آبادی تقریباً 325 ہزار تھی۔"
 wings: [place]
 regions: [persia-central-asia]
 coordinates: [29.6103, 52.5311]
 coordinate_precision: site
-external_ids: { wikidata: "Q6397066", geonames: "115019", pleiades: "922706", nomisma: "shiraz" }
+external_ids: { wikidata: "Q6397066", geonames: "115019", pleiades: "922706", nomisma: "shiraz", idai: "2109666" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 546؛ الإدريسي، نزهة المشتاق (طبعة 2002) ص 405"
   generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), n–z prose enrichment"
-sources: [source/geonames-gazetteer, source/futuh-buldan-maarif-1407, source/nuzhat-al-mushtaq-2002, source/nomisma]
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 9, article SHIRAZ, PDF pages 485-491, written by Claude Sonnet 5.5, run canon-cornerstones-9"
+sources: [source/geonames-gazetteer, source/futuh-buldan-maarif-1407, source/nuzhat-al-mushtaq-2002, source/nomisma, source/idai-gazetteer, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }

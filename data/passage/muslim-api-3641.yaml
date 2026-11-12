@@ -1,0 +1,16 @@
+id: passage/muslim-api-3641
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3641"
+label: { ar: "صحيح مسلم 3641 — الميزان", en: "Sahih Muslim 3641 — the Scale", ur: "صحیح مسلم 3641 — میزان" }
+text: "… \" فَدَعْ جَمَلَكَ وَادْخُلْ فَصَلِّ رَكْعَتَيْنِ \". قَالَ فَدَخَلْتُ فَصَلَّيْتُ ثُمَّ رَجَعْتُ فَأَمَرَ بِلاَلاً أَنْ يَزِنَ لِي أُوقِيَّةً فَوَزَنَ لِي بِلاَلٌ فَأَرْجَحَ فِي الْمِيزَانِ - قَالَ - فَانْطَلَقْتُ فَلَمَّا وَلَّيْتُ قَالَ \" ادْعُ لِي جَابِرًا \". فَدُعِيتُ فَقُلْتُ الآنَ يَرُدُّ عَلَىَّ الْجَمَلَ. وَلَمْ يَكُنْ شَىْءٌ أَبْغَضَ إِلَىَّ مِنْهُ فَقَالَ \" خُذْ جَمَلَكَ وَلَكَ ثَمَنُهُ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3641، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 3641 (The Book of Suckling), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 3641، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3641 (book 17 hadith 74); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

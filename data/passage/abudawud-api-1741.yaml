@@ -1,0 +1,17 @@
+id: passage/abudawud-api-1741
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1741"
+label: { ar: "سنن أبي داود 1741 — مغفرة ما تقدم من الذنب", en: "Sunan Abi Dawud 1741 — forgiveness of past sins", ur: "سنن ابی داؤد 1741 — پچھلے گناہوں کی مغفرت" }
+text: "… عَنْ أُمِّ سَلَمَةَ، زَوْجِ النَّبِيِّ أَنَّهَا سَمِعَتْ رَسُولَ اللَّهِ يَقُولُ \" مَنْ أَهَلَّ بِحَجَّةٍ أَوْ عُمْرَةٍ مِنَ الْمَسْجِدِ الأَقْصَى إِلَى الْمَسْجِدِ الْحَرَامِ غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ وَمَا تَأَخَّرَ \". أَوْ \" وَجَبَتْ لَهُ الْجَنَّةُ \". شَكَّ عَبْدُ اللَّهِ أَيَّتَهُمَا قَالَ. قَالَ أَبُو دَاوُدَ يَرْحَمُ اللَّهُ وَكِيعًا أَحْرَمَ مِنْ بَيْتِ الْمَقْدِسِ يَعْنِي إِلَى مَكَّةَ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1741، يذكر مغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 1741 (The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)), that speaks of forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1741، جس میں پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1741 (book 11 hadith 21); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

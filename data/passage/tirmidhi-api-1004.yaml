@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-1004
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1004"
+label: { ar: "جامع الترمذي 1004 — وزر من تبع", en: "Jami' al-Tirmidhi 1004 — bearing the burden of those who follow", ur: "جامع ترمذی 1004 — پیروی کرنے والوں کا بوجھ" }
+text: "… لَيُعَذَّبُ وَإِنَّ أَهْلَهُ لَيَبْكُونَ عَلَيْهِ \". قَالَ وَفِي الْبَابِ عَنِ ابْنِ عَبَّاسٍ وَقَرَظَةَ بْنِ كَعْبٍ وَأَبِي هُرَيْرَةَ وَابْنِ مَسْعُودٍ وَأُسَامَةَ بْنِ زَيْدٍ. قَالَ أَبُو عِيسَى حَدِيثُ عَائِشَةَ حَدِيثٌ حَسَنٌ صَحِيحٌ وَقَدْ رُوِيَ مِنْ غَيْرِ وَجْهٍ عَنْ عَائِشَةَ. وَقَدْ ذَهَبَ أَهْلُ الْعِلْمِ إِلَى هَذَا وَتَأَوَّلُوا هَذِهِ الآيَةَ (ألَّا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى ) وَهُوَ قَوْلُ الشَّافِعِيِّ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1004، يذكر وزر من تبع. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 1004 (The Book on Jana''iz (Funerals)), that speaks of bearing the burden of those who follow. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 1004، جس میں پیروی کرنے والوں کا بوجھ کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1004 (book 10 hadith 40); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

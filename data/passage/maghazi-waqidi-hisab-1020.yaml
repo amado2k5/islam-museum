@@ -1,0 +1,18 @@
+id: passage/maghazi-waqidi-hisab-1020
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "1020"
+label: { ar: "كتاب المغازي للواقدي ص 1020 — كتابة الحسنات، محو السيئات وحط الخطايا", en: "al-Waqidi's Kitab al-Maghazi, p. 1020 — the writing of good deeds; bad deeds erased and sins shed", ur: "کتاب المغازی للواقدی ص 1020 — نیکیوں کا لکھا جانا، برائیوں کا مٹنا" }
+text: "… الملائكة لتُعاتبنى فى حَسّ ٤ الخيل ومَسْحها . وقال : أَخبرنى خليلى جبريل أَنَّه يُكتَب لى بكلّ جسنة أَوفيتُها إِيّاه حسنة ، وإنَّ ربِّى عزَّ وجلّ يحط. عنَّى بها سيئة . وما من امرىء من المسلمين يَربِط. فَرَساً فى سبيل …"
+summary:
+  ar: "مقطع من كتاب المغازي للواقدي، ص 1020، يذكر كتابة الحسنات، ومحو السيئات وحط الخطايا؛ من النسخة المستخرجة، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Waqidi's Kitab al-Maghazi, p. 1020, that speaks of the writing of good deeds, bad deeds erased and sins shed; from the extracted copy, quoted within forty words per the sources policy."
+  ur: "کتاب المغازی للواقدی کے صفحہ 1020 کا اقتباس جس میں نیکیوں کا لکھا جانا، برائیوں کا مٹنا کا ذکر ہے؛ نکالی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي ص 1020 — صفحة معدودة العمل، مفحوصة بالكاشف ومراجعة يدويا؛ مقتطف أقل من أربعين كلمة", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "hisab-seerah-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label, summary and excerpt are the museum's own words" }
