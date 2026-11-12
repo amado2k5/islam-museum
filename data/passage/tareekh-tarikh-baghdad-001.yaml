@@ -1,0 +1,23 @@
+id: passage/tareekh-tarikh-baghdad-001
+class: passage
+unit: chapter
+work: work/tarikh-baghdad-khatib
+ref: "17"
+label:
+  ar: "تاريخ بغداد — الخطيب البغدادي — ص 17"
+  en: "تاريخ بغداد — الخطيب البغدادي — p. 17"
+text: "ابن أبى طاهر : وكنت عنده يوما - يعنى عند على بن عبيدة - فورد عليه كتاب أم محمد ابنة المأمون ، فكتب جواب الكتاب، ثم أعطائى القرطاس فقال اقطعه ، فقلت ومالك لا تقطعه أنت ؟ ققال ما قطعت"
+summary:
+  ar: "مقطع من «تاريخ بغداد — الخطيب البغدادي» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «تاريخ بغداد — الخطيب البغدادي» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/tarikh-baghdad-khatib] }
+  - { type: mentions, target: person/abd-allah-al-mamun, sources: [source/tarikh-baghdad-khatib] }
+provenance:
+  layer: own-research
+  source: "تاريخ بغداد — الخطيب البغدادي ص 17 — مقتطف المكاتبات — tareekh"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-1
+tags: [mukatabat-browser]
+sources: [source/tarikh-baghdad-khatib]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
