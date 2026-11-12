@@ -1474,4 +1474,17 @@ Series complete: episode 47 is the last episode of albuyout-alamena.
 | Garbled passages | ep28 00:00:30, 00:02:00, 00:13:30-00:14:00 (a quoted poem, not reproduced), 00:25:00-00:25:30, 00:33:00-00:35:00, 00:35:00-00:36:00, 00:41:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Announcements about travel and the next lecture, requests for supplication | ep28 00:46:30-00:47:00 | Not lesson content | Content rule | Open |
 
-Resume point: episode 29 (branch from origin/main).
+
+### al-dar-al-akhera ep29 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep29 (scenes of Paradise in the suras) | about 43 min (transcript) | ar, en, ur: 1 record extended | 3 new `about` edges | 13 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the opening (ep29 00:00:00-00:00:30); the kindness report (00:10:30-00:11:30); the report of the dipping (00:15:30-00:18:00); the gardens of Paradise answer (00:28:00-00:29:00); the martyr extensions (00:31:00); the name of Habib (00:37:30-00:40:00) | run omar-abdelkafy-dar-akhera-22 |
+
+| Excluded (dar-akhera ep29) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep29 00:05:30, 00:10:00, 00:18:30 (partial), 00:19:30, 00:21:30, 00:22:30, 00:27:00, 00:30:00, 00:32:30, 00:33:00, 00:33:30 (partial), 00:34:30, 00:38:00, 00:41:30 | Not speech | Loop check | Open |
+| Garbled passages | ep29 00:01:00-00:02:30, 00:04:30-00:07:00, 00:08:30-00:10:00 (a quoted aside about wives), 00:18:00-00:20:30 (anecdotes), 00:29:30, 00:32:00-00:33:00, 00:36:00-00:37:00 | Not recoverable as clear Arabic | Clarity | Open |
+| A greeting to a political party, a reply to a questioner about a relative, a personal remark, and the publisher and telephone line | ep29 00:40:00-00:43:00 | Not lesson content | Content rule | Open |
+
+Resume point: episode 30 (branch from origin/main).
