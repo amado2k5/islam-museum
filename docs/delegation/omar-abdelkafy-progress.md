@@ -1599,3 +1599,19 @@ Next step: episode 18.
 | Repetition loops and garbled windows | ep17 00:04:30–00:05:00, 00:18:30–00:19:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Verses of poetry quoted | ep17 00:18:30–00:19:00 | Not reproduced | Sources policy | Open |
 | Hadith and saying wording | ep17 00:03:30–00:04:00, 00:09:00–00:11:00, 00:16:00–00:17:30, 00:21:00–00:21:30 | Wording not typed; by sense only | Hadith rule | Open |
+
+### al-manjeyat, episode 18 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-manjeyat-6)
+
+Episode 18 read in full (23 min of transcript) before writing. 4 points written (ar, en, ur); new `about` edges for the people and passages named; 4 needs_source (it is a duplicate recording and the unchained accounts and sayings of episode 17 recur).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-manjeyat ep18 (the value of time (second recording)) | about 23 min (transcript) | ar, en, ur: work/al-manjeyat extended, 4 points | new `about` edges | 4 | 4 needs_source | this PR |
+
+Next step: episode 19.
+
+| Excluded (al-manjeyat ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Whole episode as a duplicate recording | ep18 00:00:00–00:23:00 | Same lecture as episode 17 by comparison of the transcripts; the points are recorded once in summary, not re-expanded | Duplication | Open |
+| Openings, greetings, supplications, closing formulae | ep18 00:00:00–00:01:00, 00:22:30–00:23:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep18 00:04:30–00:05:00 | Not speech | Loop check | Open |
