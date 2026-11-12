@@ -130,3 +130,6 @@
 
 ## Batch 31 (run microsd-books-b39, Claude Code / claude-fable-5-2)
 - Pages read: vol. 10 pp. 95–100 (full text read before writing; the draft was rewritten in full after two earlier drafts had ellipses, and the regenerated output was checked for ellipses, honorifics and stray Latin text). Enriched `person/al-harith-al-muhasibi` (465, to 10/100). Notice continues from 10/101 to about 110. The Qur'anic verse cited on 10/99 is referred to, not quoted; the hadith on 10/99 is described.
+
+## Batch 32 (run microsd-books-b40, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 101–110. Enriched `person/al-harith-al-muhasibi` (465, complete at 10/110). Notice 466 (Ali al-Jurjani) begins on 10/110 and is not part of this entry. Qur'anic verses cited on 10/102–103 and 10/105 are referred to, not quoted. The text says "four stations" for reckoning and names three; the entry states only the three named.
