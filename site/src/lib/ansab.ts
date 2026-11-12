@@ -12,6 +12,7 @@ import {
   ansabTopicsOf, ansabCorpusOf, ansabSectionOf,
   type AnsabSection, type AnsabCorpus, type AnsabTopic,
 } from "../../../scripts/ansab";
+import { browserSlugs } from "../../../scripts/browser-slugs";
 import type { Node } from "../../../scripts/build-graph";
 
 export {
@@ -107,6 +108,13 @@ export const ansabSubjects: AnsabSubject[] = ANSAB_SUBJECTS
   });
 
 export const ansabSubjectsById = new Map(ansabSubjects.map((s) => [s.node.id, s]));
+
+/** The browser slug of each subject, keyed by node id — the one place a page URL is decided.
+ *  It is the record's own slug; when two subjects of different classes share a slug, the later
+ *  one takes its class as a prefix. The same slug serves every language, so the page routes,
+ *  the cards that link to them and the language switch all agree. A record that is not a
+ *  browser subject has no entry, and so no browser page to link to. */
+export const ansabSlugById = browserSlugs(ansabSubjects.map((s) => s.node));
 
 /** The passages that mention this subject, from the same build-time index the feed uses. */
 export function passagesOf(id: string): AnsabItem[] {
