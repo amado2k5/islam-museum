@@ -1448,4 +1448,17 @@ Series complete: episode 47 is the last episode of albuyout-alamena.
 | Garbled passages | ep26 00:05:30-00:09:00 (modern analogies), 00:11:00-00:11:30, 00:13:00-00:15:00, 00:22:30-00:31:30 (anecdotes about Ali and Fatima), 00:31:30-00:32:30, 00:33:30-00:34:00, 00:36:00-00:37:00 | Not recoverable as clear Arabic | Clarity | Open |
 | Closing remarks and personal health | ep26 00:41:30-00:42:00 | Not lesson content | Content rule | Open |
 
-Resume point: episode 27 (branch from origin/main).
+
+### al-dar-al-akhera ep27 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep27 (the servants of the Merciful, major sins) | about 44 min (transcript) | ar, en, ur: 1 record extended | 3 new `about` edges | 10 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the opening story (ep27 00:00:00-00:00:30); the man brought for drinking (00:06:30-00:07:00); the list of the tongue's sins (00:22:30-00:23:00); the hadiths on killing (00:30:00-00:32:00); the years of the poor's head start (00:40:00, 00:42:30) | run omar-abdelkafy-dar-akhera-20 |
+
+| Excluded (dar-akhera ep27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep27 00:01:00, 00:03:00, 00:06:00 (partial), 00:07:30, 00:08:00, 00:12:00, 00:16:30, 00:18:00, 00:18:30, 00:24:00, 00:25:30, 00:33:30 (partial), 00:36:00, 00:38:00, 00:39:00 | Not speech | Loop check | Open |
+| Garbled passages | ep27 00:01:30-00:04:00, 00:05:30-00:06:00, 00:08:30-00:09:00, 00:11:00-00:12:00, 00:15:00-00:16:30, 00:20:00-00:22:00, 00:24:30-00:28:00, 00:33:00-00:34:30, 00:35:00-00:38:30, 00:40:30-00:42:00 | Not recoverable as clear Arabic | Clarity | Open |
+| Supplications, thanks and publisher and telephone line | ep27 00:43:00-00:44:00 | Not lesson content | Content rule | Open |
+
+Resume point: episode 28 (branch from origin/main).
