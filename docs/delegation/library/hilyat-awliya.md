@@ -296,3 +296,18 @@
 | 493 (printed) | 139 | the bracketed name "إبراهيم بن الجنيد" and its footnote "زيادة من مغ" | the edition marks it as an addition from another manuscript | the chain is given without the bracketed name; the prose does not render the bracket |
 | 493 (printed) | 139 | "أمد عوانس مؤمني الجن" | "عوانس" unclear in the scan | rendered loosely as a support to the believing jinn; flagged for revision |
 | 493 (printed) | 139 | the nisba "الحفري" and the mosque's name | read as in the scan | kept as written |
+
+## Batch 56 (run microsd-books-b56, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 140–141 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/hazim-al-hanafi (printed 494, sequence 495, 10/140), person/qays-ibn-al-sakan (printed 495, sequence 496, 10/140), person/al-hakam-ibn-aban (printed 496, sequence 497, 10/140–141). The scan of 496 breaks off at the foot of page 141 and the notice's remaining text is not in the OCR; the prose says so. Notice 498 (Abu Karima al-Abdi, printed 498) begins on page 141 and is next; it is numbered 498 in print, so the sequence would be 499 unless the printed series is renumbered.
+- Numbering: the printed series has run one behind the sequence since the second heading 493. Kept as printed here, as the coordinator directed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 56)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 494 (printed) | 140 | "رأيته عندسليم" | the words run together in the scan | read as "عند سليم" |
+| 494 (printed) | 140 | the saying on the bleeding head | the report gives no further explanation of the practice | the report is stated as it is; no reason is supplied |
+| 495 (printed) | 140 | the words opening the notice ("جيس نفسه") | garbled in the scan | the sense (held himself and tongue as a prison) is given; the words are not |
+| 495 (printed) | 140 | the narrator "أبو يل الأشعري" | the name is unclear in the scan (possibly a different name) | left as read; a gap to verify against the page image |
+| 496 (printed) | 140–141 | the place "أهل المن" and the nisba in "أهل عوف" | unclear in the scan | rendered as in the report, with the place name not identified |
+| 496 (printed) | 141 | the notice's text after "أسبح الله مع الحيتان" | the scan breaks off at the foot of page 141 | the account stops at the cut; the prose says so |
