@@ -54,6 +54,7 @@ const browser = await chromium.launch();
 const index = [];
 async function shoot(page, name, meta, viewportOnly = false) {
   if (only && !name.includes(only)) return;
+  if (!viewportOnly) await page.evaluate(() => window.scrollTo(0, 0));
   await page.evaluate(() => document.fonts.ready);
   await page.waitForTimeout(150);
   const m = await page.evaluate(() => ({ h: document.documentElement.scrollHeight, overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth }));
@@ -81,7 +82,6 @@ for (const lang of ["ar", "en"]) {
       if (await radios.count()) await radios.first().check();
       await page.locator(".cx-tell summary").first().click().catch(() => {});
       await page.locator("[data-cx-done]").click();
-      await page.locator("#check").scrollIntoViewIfNeeded();
       await shoot(page, `${lang}-${w}-state-check-answered`, { lang, width: vw, page: "lesson-first", path: `/${lang}/${PAGES[2][1]}`, state: "first option chosen, first tell-it-back opened, lesson marked done" });
       await page.goto(`${base}/${lang}/${PAGES[1][1]}`, { waitUntil: "load" });
       await shoot(page, `${lang}-${w}-state-map-progress`, { lang, width: vw, page: "map", path: `/${lang}/${PAGES[1][1]}`, state: "one lesson done" });

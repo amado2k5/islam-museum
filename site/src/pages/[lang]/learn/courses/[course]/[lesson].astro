@@ -22,7 +22,7 @@ const v = lessonView(c, l, lang);
 const title = labelOf(l, lang);
 const courseTitle = labelOf(c.subject, lang);
 const steps = [
-  { id: "goal", label: C.step_goal, on: true },
+  { id: "goal", label: C.goal_title, on: true },
   { id: "before", label: C.step_before, on: v.before.length > 0 },
   { id: "learn", label: C.step_learn, on: v.woven.length > 0 || !!v.tryThis },
   { id: "after", label: C.step_after, on: v.after.length > 0 },
@@ -45,7 +45,7 @@ const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
   <nav class="cx-steps no-print" aria-label={C.steps_label}>
     <ol class="wrap">{steps.map((s) => <li><a href={`#${s.id}`}><i>{s.n}</i> {s.label}</a></li>)}</ol>
   </nav>
-  <div class="wrap cx" data-cx="lesson" data-cx-course={slugOf(c.subject)} data-cx-lesson={slugOf(l)} data-cx-title={`${title} · ${courseTitle}`} data-cx-href={lessonPath(lang, c, l)}>
+  <div class="wrap cx" data-cx="lesson" data-cx-course={slugOf(c.subject)} data-cx-lesson={slugOf(l)} data-cx-title={`${title} · ${courseTitle}`} data-cx-href={lessonPath(lang, c, l)} data-cx-next-href={v.next ? lessonPath(lang, c, v.next) : undefined} data-cx-next-title={v.next ? `${labelOf(v.next, lang)} · ${courseTitle}` : undefined}>
     <div class="cx-tools no-print ui">
       <button type="button" class="cx-btn" data-cx-print hidden>{C.print}</button>
       <button type="button" class="cx-btn" data-cx-present hidden>{C.classroom}</button>
@@ -127,7 +127,7 @@ const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
             <p class="ui" style="font-weight:600;margin:0 0 4px">{C.i_can}</p>
             <ul class="cx-can">
               {v.expectations.map((e, k) => (
-                <li><label for={`cx-can${k}`}><input type="checkbox" id={`cx-can${k}`} /><span><span class="cx-code ltr" dir="ltr">{e.code}</span> <span lang={e.textLang} dir={e.textLang === "ar" || e.textLang === "ur" ? "rtl" : "ltr"}>{e.text}</span></span></label></li>
+                <li><label for={`cx-can${k}`}><input type="checkbox" id={`cx-can${k}`} /><span class="cx-code ltr" dir="ltr">{e.code}</span><span style="flex:1" lang={e.textLang} dir={e.textLang === "ar" || e.textLang === "ur" ? "rtl" : "ltr"}>{e.text}</span></label></li>
               ))}
             </ul>
           </>
@@ -136,6 +136,7 @@ const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
           <button type="button" class="cx-btn primary" data-cx-done hidden data-label-do={C.mark_done} data-label-undo={C.undo_done} aria-pressed="false">{C.mark_done}</button>
           <span class="cx-state ui" data-cx-donestate data-done={`✓ ${C.done}`} role="status"></span>
         </div>
+        <noscript><p class="cx-note ui">{C.nojs_lesson}</p></noscript>
       </section>
     </div>
     <aside class="cx-rail no-print" aria-label={C.you_are_here}>
@@ -161,17 +162,17 @@ const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
     {v.cites.length > 0 && (
       <section class="cx-notes" aria-labelledby="cx-notes">
         <h2 id="cx-notes" class="ui" style="font-size:.95rem">{C.notes}</h2>
-        <ol>{v.cites.map((n) => <li id={`note-${n.n}`}>{n.href ? <a href={n.href}>{n.label}</a> : n.label}{n.locator ? `, ${n.locator}` : ""}</li>)}</ol>
+        <ol>{v.cites.map((n) => <li id={`note-${n.n}`}>{num(n.n, lang)}. {n.href ? <a href={n.href}>{n.label}</a> : n.label}{n.locator ? `, ${n.locator}` : ""}</li>)}</ol>
       </section>
     )}
     <p class="ui muted no-print cx-recordlink" style="font-size:.85rem;margin-top:18px"><a href={href(lang, l.id)}>{C.record_page}</a></p>
 
     <div class="cx-pres-bar" data-cx-presbar>
       <button type="button" class="cx-btn" data-cx-pres-prev><span class="flip" aria-hidden="true">←</span> {C.classroom_prev}</button>
-      <output data-cx-pres-pos aria-live="polite"></output>
+      <output data-cx-pres-pos aria-live="polite" dir="ltr"></output>
       <button type="button" class="cx-btn" data-cx-pres-next>{C.classroom_next} <span class="flip" aria-hidden="true">→</span></button>
       <button type="button" class="cx-btn" data-cx-pres-exit>{C.classroom_exit}</button>
-      <span>{C.classroom_hint}</span>
+      <span class="cx-pres-hint">{C.classroom_hint}</span>
     </div>
   </div>
   <script is:inline src="/shell/courses.js" defer></script>

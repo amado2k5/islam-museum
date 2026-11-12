@@ -43,9 +43,10 @@ const openAll = tree.length <= 3;
               <span class="cx-grade-n">{fmt(C.grade_label, { n: num(g.data?.grade_number, lang) })}</span>
               <ul class="cx-subjects">
                 {cs.map((c) => (
-                  <li><a class="cx-subject" href={coursePath(lang, c)} data-cx-course={slugOf(c.subject)}>
+                  <li><a class="cx-subject" href={coursePath(lang, c)} data-cx-course={slugOf(c.subject)} data-cx-lessons={c.lessons.map((x) => slugOf(x)).join(" ")}>
                     <b>{c.subject.data?.subject_name?.[lang] ?? labelOf(c.subject, lang)}</b>
                     <span>{fmt(C.lessons_n, { n: num(c.lessons.length, lang) })}</span>
+                    <span data-cx-count data-tpl={C.progress} data-locale={lang === "ar" ? "ar" : "en"} hidden></span>
                   </a></li>
                 ))}
               </ul>

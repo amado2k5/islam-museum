@@ -62,13 +62,11 @@ export function expectationView(e: any, lang: string, official: string): Expecta
   return { code: e.code, text: off, textLang: official, translated: false };
 }
 
-const plain = (s: string) => s.replace(/\{cite:[^}]*\}/g, "").replace(/\[\[[^\]|]*\|([^\]]*)\]\]/g, "$1").replace(/\s+/g, " ").trim();
-const clip = (s: string, n = 180) => (s.length <= n ? s : s.slice(0, s.lastIndexOf(" ", n)).replace(/[،,;؛:.\s]+$/, "") + "…");
 
 export interface ConnView {
   position: "before" | "within" | "after"; kind: string; kindLabel: string; title: string; text: string; ref?: string;
   /** The graph record one tap away. `stub` means the id is named but no record is written: shown, never linked. */
-  door?: { id: string; label: string; summary: string; href: string; stub: boolean };
+  door?: { id: string; label: string; classLabel: string; href: string; stub: boolean };
   /** A Qur'an reference resolved to the museum's passage record; `ayah` is the frozen Tanzil text from that record, never typed. */
   passage?: { href: string; label: string; ayah?: string };
   sources: { label: string; href?: string }[];
@@ -83,7 +81,7 @@ export function connView(c: any, lang: Lang): ConnView {
   return {
     position: c.position ?? "within", kind: c.kind, kindLabel: T.syllabus?.kinds?.[c.kind] ?? c.kind,
     title: c.title?.[lang] ?? c.title?.en ?? "", text: c.text?.[lang] ?? c.text?.en ?? "", ref: c.ref,
-    door: target && target !== pn ? { id: target.id, label: labelOf(target, lang), summary: target.stub ? "" : clip(plain(summaryOf(target, lang) ?? "")), href: href(lang, target.id), stub: !!target.stub } : undefined,
+    door: target && target !== pn ? { id: target.id, label: labelOf(target, lang), classLabel: T.class?.[target.class] ?? target.class, href: href(lang, target.id), stub: !!target.stub } : undefined,
     passage,
     sources: (c.sources ?? []).map((s: string) => { const sn = byId.get(s); return sn ? { label: labelOf(sn, lang), href: sn.stub ? undefined : href(lang, s) } : { label: s }; }),
   };
@@ -123,7 +121,7 @@ export interface Check {
 }
 const seed = (s: string) => [...s].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7);
 function buildCheck(course: Course, lesson: Node, conns: ConnView[], lang: Lang): Check {
-  const named = (cs: ConnView[]) => cs.filter((c) => c.door).map((c) => c.door!.label);
+  const named = (cs: ConnView[]) => cs.filter((c) => c.door && !c.door.stub).map((c) => c.door!.label);
   const mine = [...new Set(named(conns))];
   const others = [...new Set(course.lessons.filter((l) => l !== lesson).flatMap((l) => named((l.data?.connections ?? []).map((c: any) => connView(c, lang)))))].filter((x) => !mine.includes(x));
   let recognise: Check["recognise"];
@@ -136,7 +134,7 @@ function buildCheck(course: Course, lesson: Node, conns: ConnView[], lang: Lang)
     const r = k % 3;
     recognise = { options: [...opts.slice(r), ...opts.slice(0, r)] };
   }
-  const tellBack = conns.filter((c) => c.door || c.passage).slice(0, 2).map((c) => ({ subject: c.door?.label ?? c.passage!.label, answerTitle: c.title, answer: c.text }));
+  const tellBack = conns.filter((c) => (c.door && !c.door.stub) || c.passage).slice(0, 2).map((c) => ({ subject: c.door?.label ?? c.passage!.label, answerTitle: c.title, answer: c.text }));
   return { recognise, tellBack };
 }
 

@@ -81,6 +81,23 @@ for (const lang of ["ar", "en"]) {
   }
   await ctx.close();
 }
+// tap targets at phone width: every control of the surface is at least 44 px high (links inside running text are exempt, as in WCAG 2.5.8)
+const small = [];
+{
+  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 } });
+  const page = await ctx.newPage();
+  for (const lang of ["ar", "en"]) for (const u of [`/${lang}/learn/courses/`, `/${lang}/learn/courses/${lessons[0].subject}/`, `/${lang}/learn/courses/${lessons[0].subject}/${lessons[0].slug}/`]) {
+    await page.goto(base + u, { waitUntil: "load" });
+    const found = await page.evaluate(() => [...document.querySelectorAll(".cx a, .cx button, .cx summary, .cx label, .cx-steps a")].filter((e) => {
+      const r = e.getBoundingClientRect();
+      if (!r.width || !r.height || e.closest("[hidden]") || e.closest(".cx-pres-bar")) return false;
+      if (e.matches("a") && e.closest("p, .cx-brief, .cx-sec, .cx-notes, .cx-src, sup") && !e.matches(".cx-btn, .cx-door, .cx-subject, .cx-lesson")) return false; // a link inside running text
+      return r.height < 43.5;
+    }).map((e) => `${e.tagName.toLowerCase()}.${e.className || "-"} ${Math.round(e.getBoundingClientRect().height)}px`));
+    for (const f of found) small.push(`${u}: ${f}`);
+  }
+  await ctx.close();
+}
 await browser.close(); srv.close();
 const total = lessons.length * 2;
 o.note(`lessons in data/course: ${lessons.length}; lesson pages expected (Arabic + English): ${total}`);
@@ -89,4 +106,5 @@ o.note(`paths replayed with real taps in a fresh browser at 390 px: ${walked} of
 o.check("every lesson in the data is served by the new surface in Arabic and in English", served === total, missing.length ? `missing: ${missing.join(", ")}` : `${served} of ${total}`);
 o.check(`every lesson is at most ${LIMIT} interactions from the courses home (by search)`, far.length === 0 && worst <= LIMIT && served === total, far.join(", ") || `the most is ${worst}`);
 o.check("every shortest path was performed with real taps and landed on its lesson", walked === total, wrong.join(", ") || `${walked} of ${total}`);
+o.check("at 390 px every control of the surface is at least 44 px high (home, course map and a lesson, both languages)", small.length === 0, [...new Set(small)].slice(0, 12).join(" | "));
 o.done("o03-taps");

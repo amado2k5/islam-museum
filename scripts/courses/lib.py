@@ -89,3 +89,52 @@ class Oracle:
             with open(os.path.join(OUT, slug + ".out"), "w", encoding="utf-8") as f:
                 f.write("\n".join(self.lines) + "\n")
         sys.exit(0)
+
+
+# ---- curriculum text inside the repository's quotation limit -------------------------------------------------------
+QUOTE_WORDS = 40  # docs/sources-policy.md: verbatim text is stored at most 40 words per quotation
+
+
+def quote_official(text):
+    """The form in which an authority's expectation text is stored in a record.
+
+    The repository stores at most 40 words of any source verbatim. Official expectations are often longer, almost always
+    because of their example lists. The rule is mechanical and loses no word silently:
+      1. every parenthetical that begins "(e.g." is replaced by "[…]" (an omission mark);
+      2. if what remains is still longer than 40 words, it is cut after the 40th word and ends with " …".
+    Nothing is reworded, reordered or added. The fidelity check compares a record's text with quote_official(official text).
+    """
+    out, i, n = [], 0, len(text)
+    while i < n:
+        if text.startswith("(e.g.", i):
+            depth, j = 0, i
+            while j < n:
+                depth += text[j] == "("
+                depth -= text[j] == ")"
+                j += 1
+                if depth == 0:
+                    break
+            out.append("[…]")
+            i = j
+        else:
+            out.append(text[i])
+            i += 1
+    s = " ".join("".join(out).split())
+    s = s.replace(" [,", " [").replace("[…] ,", "[…],").replace(" ,", ",").replace(" ;", ";").replace(" .", ".")
+    words = s.split(" ")
+    real = [k for k, w in enumerate(words) if w.strip(",;.") != "[…]"]
+    if len(real) > QUOTE_WORDS:
+        s = " ".join(words[: real[QUOTE_WORDS - 1] + 1]).rstrip(",;:") + " …"
+    return s
+
+
+def entity_sources(eid, at=None):
+    """Every source id an entity's own record names (anywhere in its data file) or cites in its prose, now or at a commit."""
+    import re
+    read = (lambda p: baseline_text(p) if at == BASELINE else sh(f"git show {at}:{p}")) if at else (lambda p: open(os.path.join(ROOT, p), encoding="utf-8").read() if os.path.exists(os.path.join(ROOT, p)) else None)
+    out = set()
+    t = read(f"data/{eid}.yaml") or ""
+    out |= set(re.findall(r"source/[a-z0-9-]+", t)) | {"source/" + s for s in re.findall(r"\{cite:([a-z0-9-]+)", t)}
+    for l in ("ar", "en", "ur"):
+        out |= {"source/" + s for s in re.findall(r"\{cite:([a-z0-9-]+)", read(f"content/{l}/{eid}.md") or "")}
+    return out

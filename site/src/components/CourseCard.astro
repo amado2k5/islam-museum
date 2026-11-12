@@ -15,7 +15,7 @@ const C = ui(lang).courses;
   <p>{c.text}</p>
   {c.passage && <a class="cx-door" href={c.passage.href}><b>{c.passage.label}</b><span class="cx-go">{C.read_verse} <span class="flip" aria-hidden="true">→</span></span></a>}
   {c.door && (c.door.stub
-    ? <p class="cx-door is-stub"><b>{c.door.label}</b><span class="cx-door-sum">{C.no_record}</span></p>
-    : <a class="cx-door" href={c.door.href}><b>{c.door.label}</b>{c.door.summary && <span class="cx-door-sum">{c.door.summary}</span>}<span class="cx-go">{C.open_record} <span class="flip" aria-hidden="true">→</span></span></a>)}
+    ? <p class="cx-door is-stub"><b>{c.door.label}</b> · {C.no_record}</p>
+    : <a class="cx-door" href={c.door.href}><b>{c.door.label}</b><span class="cx-class">{c.door.classLabel}</span><span class="cx-go">{C.open_record} <span class="flip" aria-hidden="true">→</span></span></a>)}
   {c.sources.length > 0 && <p class="cx-src">{c.sources.length > 1 ? C.sources : C.source}: {c.sources.map((s, i) => <>{i > 0 && " · "}{s.href ? <a href={s.href}>{s.label}</a> : s.label}</>)}</p>}
 </aside>
