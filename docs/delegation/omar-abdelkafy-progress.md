@@ -2175,3 +2175,15 @@ Resume point: mawkib-al-nour episode 5 (branch from origin/main).
 | A call to travel in the earth and look at creation, seemingly quoting a verse | ep05 00:38:00 | Verse not identifiable from the wording, so not linked | Clarity, Quran rule | Open |
 
 Resume point: mawkib-al-nour episode 6 (branch from origin/main).
+
+### mawkib-al-nour ep06 (12 Nov 2026)
+
+38 points written for episode 6 (ar, en, ur); 22 needs_source marks; 10 new `about` edges. Quran verses referenced only through passage links (67-10, 67-11, 17-9, 104-8, 104-9, 39-22, 26-88, 26-89, 15-47, 59-10, 43-32, 7-20, 7-21, 113-1, 114-1, 64-14, 25-63, 25-64, 25-72, 30-55); none typed. Proposal for the founder, not applied: the lecturer's description of Western schools (ep06 00:07:30) and the statistics on speech (00:05:00) are unsourced and are marked, not removed; the lecturer's interpretation of the order of the human and jinn devils (00:28:30) is recorded as his own.
+
+| Excluded (mawkib-al-nour ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, opening supplications and the closing supplication | ep06 00:00:00-00:01:30 (recitation, Quran text never typed), 00:20:00 (a verse recited mid-text), 00:37:30-00:38:00 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep06 00:27:00 (a long loop), 00:37:00 (a long loop), 00:21:30 (a half-clear remark on a household example) | Not recoverable | Clarity, Loop check | Open |
+| Asides on a hospital example, a family's school-day anecdote and the lecturer's remarks on scholars' mosque habits beyond the points kept | ep06 00:16:00, 00:12:30 | Illustrative asides, not separate claims | Content rule | Open |
+
+Resume point: mawkib-al-nour episode 7 (branch from origin/main).
