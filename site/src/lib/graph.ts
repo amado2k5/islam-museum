@@ -11,9 +11,20 @@ export const graph: Compiled = JSON.parse(readFileSync(file, "utf8"));
 export const nodes: Node[] = graph.nodes;
 export const byId = new Map(nodes.map((n) => [n.id, n]));
 export const realNodes = nodes.filter((n) => !n.stub);
-export const edgesFrom = (id: string): Edge[] => graph.edges.filter((e) => e.from === id);
+// Edges grouped by their `from` id, built once, in the order of graph.edges. An entity page asks for its edges about eight
+// times; scanning every edge on each call (about 1.5 ms over 137,000 edges) was a large part of the page's render time.
+const edgesByFrom = new Map<string, Edge[]>();
+for (const e of graph.edges) {
+  const list = edgesByFrom.get(e.from);
+  if (list) list.push(e);
+  else edgesByFrom.set(e.from, [e]);
+}
+// A fresh array on every call, as the scan gave: callers may sort or splice the result.
+export const edgesFrom = (id: string): Edge[] => edgesByFrom.get(id)?.slice() ?? [];
 export const derived = <T = any>(name: string): T => JSON.parse(readFileSync(repoPath(".cache", "derived", `${name}.json`), "utf8"));
-export const related = (id: string): string[] => (derived<Record<string, string[]>>("related")[id] ?? []);
+// The related lists are read and parsed once, not once per page (the file holds a list for every connected entity).
+let relatedIndex: Record<string, string[]> | undefined;
+export const related = (id: string): string[] => ((relatedIndex ??= derived<Record<string, string[]>>("related"))[id] ?? []);
 // The commit the site was built from (null outside git); build-graph.ts records it so a build is a function of the commit, not the clock.
 export const buildCommit: string | null = graph.commit ?? null;
 // The day an entity page's content last changed: the later of its data file and the prose it shows (git commit dates,
