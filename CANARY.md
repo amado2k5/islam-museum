@@ -41,6 +41,7 @@ open a new block on top with the new version and today's date.
 - Hilyat al-Awliya vol. 10, printed notice 545 (Abd Allah ibn Khubayq): a new person record with a trilingual draft across pages 168 to 171, on truthfulness, long listening to falsehood, sayings of Hudhayfa al-Mar'ashi and Yusuf ibn Asbat, and the reports he alone transmits, described rather than quoted; no honorific is typed.
 - Hilyat al-Awliya vol. 10, pages 171 to 199: a chapter note on unnamed hidden saints in the library file, with the rain-prayer stories listed by page and flagged unattributed. No person records are created for these stories; printed notice 546 is held with the note.
 - Hilyat al-Awliya vol. 10, printed notice 575 (Ahmad ibn Muhammad ibn Ata, Abu al-Abbas): a new person record with a trilingual draft across pages 302 to 305, on manners of the righteous, the friends of God and the prophets, and on the signs of the friends of God. The Qur'an verse is referred to by sense only; the chains of the traditions are described, not quoted.
+- Hilyat al-Awliya vol. 10, printed notice 645 (Sa'id ibn Abd al-Aziz al-Halabi): a new person record with a trilingual draft, kept apart from the existing Tanukhi jurist and from the Khurasan governor of the same name, on a report about repaying a kindness to a man of the Banu Abd al-Muttalib. The wording of the report is not given.
 
 ### Fixed
 - **The Arabic courses page no longer passes English off as Arabic.** Official expectation text that has no translation is now shown in its original language and labelled so, in every language.
