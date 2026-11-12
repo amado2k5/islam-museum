@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-767
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "767"
+label: { ar: "جامع الترمذي 767 — عمل يعدل عملا أعظم منه", en: "Jami' al-Tirmidhi 767 — a deed that equals a greater one", ur: "جامع ترمذی 767 — ایک عمل جو بڑے عمل کے برابر ہے" }
+text: "… جَرِيرٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَعْبَدٍ، عَنْ أَبِي قَتَادَةَ، قَالَ قِيلَ يَا رَسُولَ اللَّهِ كَيْفَ بِمَنْ صَامَ الدَّهْرَ قَالَ \" لاَ صَامَ وَلاَ أَفْطَرَ \". أَوْ \" لَمْ يَصُمْ وَلَمْ يُ��ْطِرْ \". وَفِي الْبَابِ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو وَعَبْدِ اللَّهِ بْنِ الشِّخِّيرِ وَعِمْرَانَ بْنِ حُصَيْنٍ وَأَبِي مُوسَى. قَالَ أَبُو عِيسَى حَدِيثُ أَبِي قَتَادَةَ حَدِيثٌ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 767، يذكر عمل يعدل عملا أعظم منه. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 767 (The Book on Fasting), that speaks of a deed that equals a greater one. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 767، جس میں ایک عمل جو بڑے عمل کے برابر ہے کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 767 (book 8 hadith 86); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

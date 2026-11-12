@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-1987
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1987"
+label: { ar: "جامع الترمذي 1987 — إبدال السيئة حسنة", en: "Jami' al-Tirmidhi 1987 — a bad deed exchanged for a good one", ur: "جامع ترمذی 1987 — برائی کا نیکی سے بدل جانا" }
+text: "… بْنِ أَبِي شَبِيبٍ، عَنْ أَبِي ذَرٍّ، قَالَ قَالَ لِي رَسُولُ اللَّهِ \" اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ \". قَالَ وَفِي الْبَابِ عَنْ أَبِي هُرَيْرَةَ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ. حَدَّثَنَا مَحْمُودُ بْنُ غَيْلاَنَ، حَدَّثَنَا أَبُو أَحْمَدَ، وَأَبُو نُعَيْمٍ عَنْ سُفْيَانَ، عَنْ حَبِيبٍ، بِهَذَا الإِسْنَادِ نَحْوَهُ. قَالَ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1987، يذكر إبدال السيئة حسنة. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 1987 (Chapters on Righteousness And Maintaining Good Relations With Relatives), that speaks of a bad deed exchanged for a good one. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 1987، جس میں برائی کا نیکی سے بدل جانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1987 (book 27 hadith 93); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

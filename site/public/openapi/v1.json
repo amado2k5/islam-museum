@@ -436,6 +436,21 @@
         }
       }
     },
+    "/hisab.json": {
+      "get": {
+        "operationId": "getHisab",
+        "summary": "Hasanat and Sayyi'at Ledger dataset",
+        "description": "The Hasanat and Sayyi'at Ledger, Calculator and Counter dataset (قائمة وآلة حاسبة وعدّاد الحسنات والسيئات): every passage in the Qur'an, Sunnah, seerah and harvested books that counts, writes, multiplies, erases, weighs or reckons a good or bad deed, detected at build time, plus the curated records tagged hisab-browser. Each item has its corpus section (quran, sunnah, seerah, books, curated), hisab_kinds (hasanat, sayyiat, erasure, scale), matched signals, work, ref, text excerpt, themes, tags and edges; calculator rows carry a reckoning block with the figure a named text states for one act (hasanat, hasanat_max, sayyiat, erased, degrees, times, unbounded), the localized unit and result, and the basis passage ids.",
+        "responses": {
+          "200": {
+            "description": "Every ledger record with corpus section, ledger kinds, signals, reckoning, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/hasanats.json": {
       "get": {
         "operationId": "getHasanats",

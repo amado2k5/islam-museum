@@ -1,0 +1,17 @@
+id: passage/muwatta-api-1775
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1775"
+label: { ar: "موطأ مالك 1775 — نقص قيراط من الأجر كل يوم", en: "Muwatta Malik 1775 — a qirat lost from the reward each day", ur: "موطأ مالک 1775 — ہر روز اجر سے ایک قیراط کی کمی" }
+text: "وَحَدَّثَنِي مَالِكٌ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" مَنِ اقْتَنَى كَلْبًا إِلاَّ كَلْبًا ضَارِيًا أَوْ كَلْبَ مَاشِيَةٍ نَقَصَ مِنْ عَمَلِهِ كُلَّ يَوْمٍ قِيرَاطَانِ \"."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1775، يذكر نقص قيراط من الأجر كل يوم. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Muwatta Malik, no. 1775 (General Subjects), that speaks of a qirat lost from the reward each day. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "موطأ مالک کی حدیث نمبر 1775، جس میں ہر روز اجر سے ایک قیراط کی کمی کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1775 (book 54 hadith 13); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-2529
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2529"
+label: { ar: "جامع الترمذي 2529 — رفع الدرجات", en: "Jami' al-Tirmidhi 2529 — ranks raised", ur: "جامع ترمذی 2529 — درجات کی بلندی" }
+text: "حَدَّثَنَا عَبَّاسٌ الْعَنْبَرِيُّ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا شَرِيكٌ، عَنْ مُحَمَّدِ بْنِ جُحَادَةَ، عَنْ عَطَاءٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" فِي الْجَنَّةِ مِائَةُ دَرَجَةٍ مَا بَيْنَ كُلِّ دَرَجَتَيْنِ مِائَةُ عَامٍ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2529، يذكر رفع الدرجات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 2529 (Chapters on the description of Paradise), that speaks of ranks raised. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 2529، جس میں درجات کی بلندی کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2529 (book 38 hadith 7); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

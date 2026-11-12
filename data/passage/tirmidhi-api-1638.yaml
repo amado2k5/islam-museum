@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-1638
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1638"
+label: { ar: "جامع الترمذي 1638 — عمل يعدل عملا أعظم منه", en: "Jami' al-Tirmidhi 1638 — a deed that equals a greater one", ur: "جامع ترمذی 1638 — ایک عمل جو بڑے عمل کے برابر ہے" }
+text: "… عَنْ قَتَادَةَ، عَنْ سَالِمِ بْنِ أَبِي الْجَعْدِ، عَنْ مَعْدَانَ بْنِ أَبِي طَلْحَةَ، عَنْ أَبِي نَجِيحٍ السُّلَمِيِّ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" مَنْ رَمَى بِسَهْمٍ فِي سَبِيلِ اللَّهِ فَهُوَ لَهُ عَدْلُ مُحَرَّرٍ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ صَحِيحٌ. وَأَبُو نَجِيحٍ هُوَ عَمْرُو بْنُ عَبَسَةَ السُّلَمِيُّ وَعَبْدُ اللَّهِ بْنُ الأَزْرَقِ هُوَ عَبْدُ اللَّهِ بْنُ زَيْدٍ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1638، يذكر عمل يعدل عملا أعظم منه. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 1638 (The Book on Virtues of Jihad), that speaks of a deed that equals a greater one. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 1638، جس میں ایک عمل جو بڑے عمل کے برابر ہے کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1638 (book 22 hadith 21); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

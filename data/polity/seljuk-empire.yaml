@@ -6,9 +6,9 @@ label:
   en: Seljuk Empire
   ur: "سلجوق سلطنت"
 summary:
-  ar: إمبراطورية قامت سنة 1037م وانتهت سنة 1194م، وعاصمتها نيسابور.
-  en: An empire established in 1037 CE and ended in 1194 CE; its capital was Nishapur.
-  ur: "1037ء میں قائم ہونے والی سلطنت جو 1194ء تک برقرار رہی؛ موجودہ اندراج میں نیشاپور اس کا دارالحکومت درج ہے۔ {cite:wikidata}"
+  ar: "أسرة تركية أوغوزية حكمت في القرنين الخامس والسادس الهجريين، مباشرة أو عبر أمراء تابعين، رقعة واسعة من غربي آسيا من ما وراء النهر وخوارزم شرقًا إلى الأناضول والشام والحجاز غربًا. دخل طغرل بك بغداد سنة 447هـ/1055م فأنهى سلطان البويهيين، وبلغت الدولة ذروتها في عهد ألب أرسلان وملكشاه ووزيرهما نظام الملك، ثم أُنهكت بالنزاع على العرش وهُزم سنجر أمام القرا خطاي وأسره الغز سنة 548هـ/1153م."
+  en: "A Turkish Oghuz dynasty that in the eleventh and twelfth centuries ruled, directly or through vassals, a wide area of Western Asia from Transoxania and Khwarazm to Anatolia, Syria and the Hijaz. Tughril Beg entered Baghdad in 447/1055 and ended Buyid rule; the state reached its height under Alp Arslan, Malik Shah and their vizier Nizam al-Mulk, was worn down by succession wars, and saw Sanjar routed by the Kara Khitay and captured by the Ghuzz in 548/1153."
+  ur: "ایک ترک اوغوز خاندان جس نے پانچویں اور چھٹی صدی ہجری میں، براہ راست یا باج گزاروں کے ذریعے، ماوراء النہر اور خوارزم سے اناطولیہ، شام اور حجاز تک مغربی ایشیا کے وسیع علاقے پر حکومت کی۔ طغرل بیگ 447ھ/1055ء میں بغداد میں داخل ہوا اور آل بویہ کا اقتدار ختم کیا؛ الپ ارسلان، ملک شاہ اور ان کے وزیر نظام الملک کے عہد میں ریاست عروج کو پہنچی، پھر جانشینی کی جنگوں سے کمزور ہوئی، اور سنجر کو قرا ختائیوں نے شکست دی اور 548ھ/1153ء میں غزوں نے قید کر لیا۔"
 wings: []
 periods:
 - period/buyid-seljuk-fatimid-era
@@ -20,7 +20,7 @@ start:
   calendar: julian
   precision: year
   status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  note: "التاريخ من ويكيداتا (CC0). The Encyclopaedia of Islam dates the Great Seljuk empire of Persia and Iraq from 429/1038, when Tughril Beg took the khutba at Nishapur, and the capture of Nishapur for good to 431/1040 {cite:encyclopaedia-of-islam-2 vol. 8 pp. 1005-1006}."
   sources:
   - source/wikidata
 end:
@@ -28,7 +28,7 @@ end:
   calendar: julian
   precision: day
   status: historical
-  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  note: "التاريخ من ويكيداتا (CC0). The Encyclopaedia of Islam dates the Great Seljuk line of Persia and Iraq to 429-552/1038-1157, ending with Sanjar's death, and the line of the western sultans to 590/1194 {cite:encyclopaedia-of-islam-2 vol. 8 pp. 1006, 1009}."
   sources:
   - source/wikidata
 capitals:
@@ -37,12 +37,14 @@ external_ids:
   wikidata: Q3708094
 sources:
 - source/wikidata
+- source/encyclopaedia-of-islam-2
 provenance:
   layer: cc0
   source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: polity-wikidata-1
+  canon: "Prose, summaries and date notes written from the Encyclopaedia of Islam, 2nd ed., vol. 8, SALDJUKIDS, sections I (significance), II (origins) and III.1 (the Great Saldjuks of Persia and Iraq), PDF pp. 1002-1009 (author signature not legible in the scan), English by Claude Code, Arabic and Urdu translated by Claude Haiku 5.5, run canon-cornerstones-8. Sections on the Kirman, Syrian and Rum lines, administration, art, literature and coinage are not used."
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
 importance: 1
 status:

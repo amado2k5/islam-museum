@@ -1,0 +1,17 @@
+id: passage/nasai-api-2194
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2194"
+label: { ar: "سنن النسائي 2194 — مغفرة ما تقدم من الذنب", en: "Sunan al-Nasa'i 2194 — forgiveness of past sins", ur: "سنن نسائی 2194 — پچھلے گناہوں کی مغفرت" }
+text: "أَخْبَرَنَا الرَّبِيعُ بْنُ سُلَيْمَانَ، قَالَ حَدَّثَنَا ابْنُ وَهْبٍ، قَالَ أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، أَنَّ أَبَا هُرَيْرَةَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ فِي رَمَضَانَ \" مَنْ قَامَهُ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2194، يذكر مغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 2194 (The Book of Fasting), that speaks of forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 2194، جس میں پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2194 (book 22 hadith 105); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

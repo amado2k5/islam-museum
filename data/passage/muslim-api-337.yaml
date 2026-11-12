@@ -1,0 +1,17 @@
+id: passage/muslim-api-337
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "337"
+label: { ar: "صحيح مسلم 337 — مضاعفة الحسنة بعشر أمثالها، كتابة الحسنات", en: "Sahih Muslim 337 — the good deed multiplied tenfold and beyond; the writing of good deeds", ur: "صحیح مسلم 337 — نیکی کا دس گنا اور اس سے زیادہ بڑھنا، نیکیوں کا لکھا جانا" }
+text: "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو خَالِدٍ الأَحْمَرُ، عَنْ هِشَامٍ، عَنِ ابْنِ سِيرِينَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" مَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا كُتِبَتْ لَهُ حَسَنَةً وَمَنْ هَمَّ بِحَسَنَةٍ فَعَمِلَهَا كُتِبَتْ لَهُ عَشْرًا إِلَى سَبْعِمِائَةِ ضِعْفٍ وَمَنْ هَمَّ بِسَيِّئَةٍ فَلَمْ يَعْمَلْهَا لَمْ تُكْتَبْ وَإِنْ عَمِلَهَا كُتِبَتْ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 337، يذكر مضاعفة الحسنة بعشر أمثالها، وكتابة الحسنات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 337 (The Book of Faith), that speaks of the good deed multiplied tenfold and beyond, the writing of good deeds. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 337، جس میں نیکی کا دس گنا اور اس سے زیادہ بڑھنا، نیکیوں کا لکھا جانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 337 (book 1 hadith 244); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/maghazi-waqidi-hisab-998
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "998"
+label: { ar: "كتاب المغازي للواقدي ص 998 — مغفرة الذنب", en: "al-Waqidi's Kitab al-Maghazi, p. 998 — forgiveness of sins", ur: "کتاب المغازی للواقدی ص 998 — گناہوں کی مغفرت" }
+text: "… ، فلمّا انتهى إليهما قام على العَريشَيْن فقال : سبحان الله! رسول اللّٰه قد غُفر له ما تقدَّم من ذنبه وما تأَخَّر فى الضِّحّ١ والريح والحرّ ، يحمل سلاحه على عُنُقه ، وأَبو خَيْشَمة فى ظالالٍ باردٍ وطعامٍ مُهيَّباً وامرأتَيْن …"
+summary:
+  ar: "مقطع من كتاب المغازي للواقدي، ص 998، يذكر مغفرة الذنب؛ من النسخة المستخرجة، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Waqidi's Kitab al-Maghazi, p. 998, that speaks of forgiveness of sins; from the extracted copy, quoted within forty words per the sources policy."
+  ur: "کتاب المغازی للواقدی کے صفحہ 998 کا اقتباس جس میں گناہوں کی مغفرت کا ذکر ہے؛ نکالی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي ص 998 — صفحة معدودة العمل، مفحوصة بالكاشف ومراجعة يدويا؛ مقتطف أقل من أربعين كلمة", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "hisab-seerah-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label, summary and excerpt are the museum's own words" }

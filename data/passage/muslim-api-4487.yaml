@@ -1,0 +1,17 @@
+id: passage/muslim-api-4487
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4487"
+label: { ar: "صحيح مسلم 4487 — الأجران", en: "Sahih Muslim 4487 — the double reward", ur: "صحیح مسلم 4487 — دوہرا اجر" }
+text: "… أَخْبَرَنَا عَبْدُ الْعَزِيزِ بْنُ مُحَمَّدٍ، عَنْ يَزِيدَ بْنِ عَبْدِ، اللَّهِ بْنِ أُسَامَةَ بْنِ الْهَادِ عَنْ مُحَمَّدِ بْنِ إِبْرَاهِيمَ، عَنْ بُسْرِ بْنِ سَعِيدٍ، عَنْ أَبِي قَيْسٍ، مَوْلَى عَمْرِو بْنِ الْعَاصِ عَنْ عَمْرِو بْنِ الْعَاصِ، أَنَّهُ سَمِعَ رَسُولَ اللَّهِ قَالَ \" إِذَا حَكَمَ الْحَاكِمُ فَاجْتَهَدَ ثُمَّ أَصَابَ فَلَهُ أَجْرَانِ. وَإِذَا حَكَمَ فَاجْتَهَدَ ثُمَّ أَخْطَأَ فَلَهُ أَجْرٌ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4487، يذكر الأجران. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 4487 (The Book of Judicial Decisions), that speaks of the double reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 4487، جس میں دوہرا اجر کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4487 (book 30 hadith 18); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
