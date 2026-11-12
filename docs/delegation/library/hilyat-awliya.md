@@ -551,3 +551,15 @@
 | 535 (printed) | 163 | the closing phrase of the greatest-name saying | the text is cut at the foot of page 163 | the saying is given to its end as read |
 | 536 (printed) | 164 | the name of Hayyan's transmitter ("جعفر بن محمد") | legible; the same Ja'far as in the chain | given as read |
 | 537 (printed) | 164 | the word after "ولم يُعرف له سبب" | the phrase is clear; the word is interpreted as a means of living | rendered as no known means of living |
+
+## Batch 74 (run microsd-books-b74, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 164–165 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/ibrahim-al-maghribi (printed 538, sequence 539, 10/164), person/abu-turab-al-ramli (printed 539, sequence 540, 10/164–165). Printed 540 (Sa'id al-Shahid, a fighter in armour who charged the enemy's wings and centre and recited verses) begins at the foot of 10/165 and continues onto 10/166; it is next.
+- Held: printed 532 (Abd Allah ibn Dinar al-Ju'fi) stays held pending the coordinator's ruling; nothing written.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 74)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 539 (printed) | 165 | "كذارمى إن حدأة" | read as "كذا رمت حدأة" (a kite threw down a piece of roast); the scan's "رمى" may be the verb | the sense given; the tense is flagged for revision |
+| 538 (printed) | 164 | the chain's second name ("محمد بن عبد الله الرازي") | legible | given as read |
