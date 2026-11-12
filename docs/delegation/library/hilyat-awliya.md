@@ -620,3 +620,29 @@
 | 545 (printed) | 170 | the reports on chains ("عن الأشج", "عن أبي ذيب") | some names garbled in the scan | the reports are described; their chains are not given |
 | 545 (printed) | 171 | the words of the hadith on the trials of the last hour | the wording is a quoted report; not typed | described only |
 | 545 (printed) | 170–171 | the Prophet's honorific formulas in the reports | the museum does not type honorifics | omitted |
+
+## Batch 80: chapter note on unnamed hidden saints, vol. 10 pages 171–199 (run microsd-books-b80, Claude Code / claude-fable-5-2)
+- Status: a single chapter note, as the coordinator directed. No person records are created for these stories. Printed 546 is HELD with this note: the page-172 opening has no heading and no subject, so no record is written for it. The attribution of every story below is unattributed: each names a transmitter and a chain, but the subject is not named.
+- Printed 532 (Abd Allah ibn Dinar al-Ju'fi) stays held pending the coordinator's ruling.
+- Pages read: vol. 10 pp. 171–199, openings of every page read; the stories below are listed by their page.
+
+### Rain-prayer stories (unattributed; no named subject in the text)
+- 172–173: Muhammad ibn al-Munkadir says that at night, facing this pulpit, he heard a man near a pillar, his head covered, pray that the drought be lifted and swear to God that he would be given rain; a cloud came within the hour. Ibn al-Munkadir wanted to know him, followed him to a house, found him turning cups by hand, offered him money, which he refused, and asked not to be named while he lived. The man moved and was not seen again. Unattributed.
+- 172–173: Abd Allah ibn Ubayd ibn Umayr, with his father, lost their way; they found a man praying beside a dry trough and a dry waterskin; when his father asked him to fill the skin, the man waved that he would not, and a cloud rained until the trough was full. The villagers said he was a man whose prayer for rain is always answered. Unattributed.
+- 173–175: Malik ibn Dinar relates that rain was held back at Basra and the people went out to pray for it, and nothing came; he and a group stayed at the prayer-ground until a black man of worn appearance prayed two short units, raised his eyes and asked God for rain by his love; the sky covered them and they walked out to their knees in water. Malik asked him how he knew God loved him; he answered that God had singled him out and that the love was according to each one's measure. Unattributed.
+
+### Other stories on pages 171–199 (unattributed)
+- 171: a narration on the trials before the Hour, in which a man is faithful in the morning and faithless by evening (a report from the Prophet, not typed here).
+- 174: a man who looks for a slave to serve him, and the slave-trader presents a hundred, none suits.
+- 175: a story of Ibn al-Mubarak's journey in the year 250: a young man with neither provision nor mount is found on the road, and the narrator is taught.
+- 176–177: a youth who prays beside a man at dawn; a dialogue of two lovers in worship on whether God would punish those who love Him.
+- 178: Abu Hamza in the desert: a lion speaks to him, and he composes verses of hope.
+- 179–180: Dhu al-Nun on a voice in the desert; a request that is delayed, with a reply that the delay is because of a word spoken.
+- 181–182: on the hearts' light and God's greatness; a man repeats "Lord, how strange is he who knows You and hopes in anyone else".
+- 183–184: Abu Sulayman al-Darani on a worshipper at Arafat who calls to God; verses on grief.
+- 185–186: a visit that is refused; a dream of Abu Amir after death in a garden.
+- 187: a man cries "my longing" and falls.
+- 188: Mansur ibn Ammar, passing a street in Kufa in a dark night, hears a crier reciting a verse of warning; the sound stops.
+- 190–199: Sahl ibn Abd Allah al-Tustari's sayings (on the three ways of worship, the signs of certainty, Adam and the companions of God, intention, and the people of the world who love what God hates), with a dialogue with Adam at 194.
+
+Note: the chapter note does not name any subject for these stories; the chains are given where the text gives them, and the sayings of Sahl al-Tustari at 190–199 are attributed by the text itself.
