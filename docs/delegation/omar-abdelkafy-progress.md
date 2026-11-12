@@ -1209,3 +1209,22 @@ Next step: episode 40.
 | Verses of poetry quoted | ep39 00:06:00–00:07:00 | Not reproduced | Sources policy | Open |
 | Hadith and saying wording | ep39 00:05:30, 00:09:30–00:10:00, 00:22:00–00:22:30, 00:28:00–00:29:00 | Wording not typed; by sense only | Hadith rule | Open |
 | A remark on people who hated learning and on the Buddha | ep39 00:08:30–00:09:00, 00:11:00–00:11:30 | Contested and unsourced claims, only the first recorded as the lecturer's view | Scope | Open |
+
+### albuyout-alamena, episode 40 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-28)
+
+Episode 40 read in full (46 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people and passages named; 7 needs_source (stories and sayings without a chain, rulings given without evidence, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep40 (breadth of chest in the home) | about 46 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 15 points | new `about` edges | 15 | 7 needs_source | this PR |
+
+Next step: episode 41.
+
+| Excluded (albuyout-alamena ep40) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep40 00:00:00–00:00:30, 00:12:30–00:13:00, 00:26:00–00:26:30, 00:46:00–00:46:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep40 00:13:00, 00:25:00, 00:33:30–00:34:00, 00:42:00, 00:42:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep40 00:26:30–00:36:00 | Kept general | Privacy | Open |
+| A caller's dream about the lecturer | ep40 00:34:00–00:34:30 | A private, unverifiable dream; not recorded | Scope | Open |
+| Verses of poetry quoted | ep40 00:26:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep40 00:06:30–00:08:00, 00:17:00–00:18:00, 00:19:00–00:20:30, 00:24:00–00:25:00 | Wording not typed; by sense only | Hadith rule | Open |
