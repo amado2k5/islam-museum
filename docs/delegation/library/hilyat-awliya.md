@@ -86,3 +86,6 @@
 
 ## Batch 17 (run microsd-books-b25, Claude Code / claude-fable-5-2)
 - Pages read: vol. 9 pp. 362–368. Enriched `person/dhu-al-nun-al-misri` (456, to 9/368). The closing supplication on 9/368 is described, not quoted (Qur'an text is never typed). Notice continues from 9/369.
+
+## Batch 18 (run microsd-books-b26, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 369–375. Enriched `person/dhu-al-nun-al-misri` (456, to 9/375). Notice continues from 9/376.

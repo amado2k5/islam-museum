@@ -101,3 +101,20 @@ Abu Nu'aym continues Dhu al-Nun's sayings and anecdotes on pages 362–368 of th
 **Warning against the Arabized Nabataean.** Dhu al-Nun said he takes refuge in God from the Nabataean once he has become Arab. He reports that in the desert he saw a place with an inscription warning against freed slaves, rash youths, soldiers who make a show of devotion and Nabataeans who pass as Arabs. He was a slender man. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/367}}
 
 **Prayer and verse.** Dhu al-Nun closes with a supplication in the sense of the opening of the Qur'an, asking for guidance and steadfastness, and with a verse saying he dies with his longing not dead, and not quenched from the strife of desire toward God. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/368}}
+
+## In Hilyat al-Awliya (sixth continuation)
+Abu Nu'aym continues Dhu al-Nun's sayings and anecdotes on pages 369–375 of the ninth volume. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/369-375}}
+
+**Humility.** He said that among the noblest humility is that a person does not look at himself apart from God. When a man asked him for something, he said that the One who has undertaken your provision is not one to be suspected by you. He prayed: my Lord, all things have entered Your mercy, and only one whom doubt has led to deny You is left outside it. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/369}}
+
+**The people of Paradise.** He says that tomorrow the people of Paradise will dwell with the maidens in the high chambers, eat what their souls desire, and be looked on by God, who will lift the veil from the hidden things for them. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/370}}
+
+**Counsel to a seeker.** A man came asking for an admonition; Dhu al-Nun was brief and prayed for him, and recited verses urging a seeker of knowledge to let his tears fall and to stand when the striver stands, answering the call. Then the man went off crying out: O help of the upright, help me. The narrator said: be gentle with yourself; perhaps He will glance at you one glance and forgive you. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/371}}
+
+**The ascetic who finds no intimacy in creatures.** He relates that the ascetics whose hearts are full of longing to meet God find no intimacy in creatures and do not seek provision from those who are provided for; among people they are lowly and humbled, and before God they are great. Asked how one reaches Sam'dun, he said: set your resolve straight by casting away harm, and ask the One who governs by His management. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/372}}
+
+**The mark of a lover.** He said to someone who professes love for God: beware of humbling yourself to other than God. A sign of one who loves God is that he has no need of anyone other than God. Asked about the perfection of the intellect, he said: that you do what you are commanded and leave off straining after what you have been spared; then you are perfect in intellect. The perfection of knowledge is to cling to God in your states, not to your deeds. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/373}}
+
+**Servants who saw and acted.** He said that God has servants who saw and then looked, understood and then knew, knew and then acted, acted and then benefited; the veil was lifted between them and Him, and they looked with the sight of their hearts at what is stored for them in the hidden of the unseen; they cut off every veil, and He was their aim and their goal. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/374}}
+
+**At the Kaaba.** He tells that he was performing the circumambulation of the Kaaba when he saw a man clinging to its curtains, weeping and saying: I kept my affliction from anyone but You, I confided my secret to You, I was occupied with You over what is other than You. He then recited verses on the sweetness of union that increases longing. {{cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/375}}
