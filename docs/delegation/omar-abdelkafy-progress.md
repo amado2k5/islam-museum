@@ -514,6 +514,7 @@ Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan progra
 | Recording | Prose | New / extended | Doubts | Run |
 |---|---|---|---|---|
 | tariq-al-noor ep01-ep04 (five kinds of faith; what veils the heart; three kinds of sin; five cases where haste is praised) | ar, en, ur: new series record with 4 episode sections (32 points) | 1 work created; 42 `about` edges to existing records, none created | 9 needs_source: ep01 number of hypocrites and the mixed hypocrite/innovator categories; ep02 the imam's identity and years; ep03 the unnamed verses, Bilal's call to prayer at the conquest, the lion claim; ep04 pilgrimage by instalments, the Umar anecdote, all spinsterhood figures | omar-abdelkafy-tariq-al-noor-1 |
+| tariq-al-noor ep05-ep08 (what a person forgets; injustice and its kinds; the four states of the believer; ingratitude) | ar, en, ur: series record extended with 4 episode sections (35 points) | 23 new `about` edges to existing records (65 in total) | 9 needs_source: ep05 the unnamed righteous man; ep06 the guardian-burden claim on hijab and the garbled saying, the unnamed vizier; ep07 al-Hasan al-Basri sweet story roles, the twenty-years narrative, Kufa and the People of the Bench, the unnamed woman Companion; ep08 the unattributed saying on three calamities (reported as such), the unnamed judge | omar-abdelkafy-tariq-al-noor-2 |
 
 | Excluded (tariq-al-noor ep01-ep04) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
@@ -572,3 +573,10 @@ Next step: episode 6.
 | Calls and answers too garbled to read | ep04 00:31:00–00:36:30 (in part), ep05 00:27:30–00:36:00 (in part), ep05 00:38:00 | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
 | Questions outside the episode (Qur'anic water, plastic Qur'an copies, books for children) | ep04 00:34:00–00:35:00 | Off topic; the lecturer redirects them | Scope | Open |
 | Ruling on the prohibiting oath before consummation | ep05 00:29:30–00:30:00 | Answer not clear in the recording | Clarity | Open |
+| Excluded (tariq-al-noor ep05-ep08) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, closing formulae | ep05 00:00:00, 00:09:00-00:09:30; ep06 00:00:00, 00:09:30-00:10:00; ep07 00:00:00, 00:09:30; ep08 00:00:00-00:00:30, 00:09:30-00:10:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep06 00:03:30 (inner); ep08 00:04:30 | Not speech | Loop check | Open |
+| The Companion who would have "taken the three" and entered the fighting | ep07 00:08:30 | Garbled, no identifiable content | Clarity | Open |
+| Poem lines on death ("if when we died we were left") | ep05 00:05:30 | Verse, author unnamed and garbled | Sources policy; clarity | Open |
+| Wording of the saying on "the face of affliction" | ep06 00:07:30 | Garbled; recorded only as needs_source | Clarity | Open |
