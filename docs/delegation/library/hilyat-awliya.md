@@ -501,3 +501,21 @@
 | 525 (printed) | 159 | the footnote "(١)" | an editorial note in the edition | not reproduced |
 | 527 (printed as 537) | 159 | the heading number | misprinted as "537" | read as 527 by sequence; flagged |
 | 526 (printed) | — | no heading | none in the OCR of pages 158 to 159 | recorded as missing; no record made |
+
+## Batch 71 (run microsd-books-b71, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 159–161 (full text read before writing). Records:
+  - person/abbas-ibn-al-muammal (printed 528, sequence 529, 10/159–160). New record. The editorial note on page 159 ("كذا بالأصلين، والظاهر أنه هو الذي تقدم في ص ١٣٦") is recorded here and not acted on; the identity it suggests is not confirmed from the text.
+  - person/abu-abd-allah-al-qalansi (printed 530, sequence 531, 10/160–161). New record, not the same person as person/muayyad-ibn-al-qalansi (different name). The editorial note on page 160 suggests a page-142 entry; not confirmed, so not asserted.
+  - person/mughith-al-aswad: second notice added to the existing record (printed 529, which the scan prints as "5٣a", sequence 530, 10/160). It is a different saying from notice 502 (the monk at the monastery of the creatures), so it is a second sourced notice, not a duplicate.
+- Printed 526 was flagged in batch 70 as missing; printed 527 is Miskin (already added as a second notice). Printed 531 (Shibl al-Madri) begins on 10/161 and is next.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 71)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 528 (printed) | 159 | the editor's note "كذا بالأصلين" | an editorial note suggesting an earlier page-136 entry | recorded only; the identity is not asserted |
+| 528 (printed) | 159 | "أمر هارون بالمعروف فيسبه دهرا" | read as "فحبسه دهرا" (imprisoned a long time) | the reading as read is used |
+| 530 (printed) | 160 | the editor's note "كذا بالأصلين" pointing at page 142 | an editorial note | recorded only; not asserted |
+| 530 (printed) | 161 | the word after "حملت ورجمت" | read as "حُمل ورجع" (carried back and returned) | rendered as carried back and returned |
+| 529 (printed as "5٣a") | 160 | the heading number | misprinted in the scan | read as 529 by sequence; flagged |
