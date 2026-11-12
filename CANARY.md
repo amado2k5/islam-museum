@@ -21,6 +21,8 @@ open a new block on top with the new version and today's date.
 - **538 hadith reports that count a deed, harvested from the open hadith-api editions.** The reports of al-Bukhari, Muslim, Abu Dawud, al-Tirmidhi, al-Nasa'i, Ibn Majah and the Muwatta that state a number of good or bad deeds, an erasure, a rank, a qirat, an equivalence, the Scale, the record or the reckoning are now passage records with a matn excerpt, sources and provenance (drafts until a human reads them). They also widen the Hasanat and Sayyi'at browsers.
 - **25 new concept records for the ledger.** The article «حساب الحسنات والسيئات» with full prose in three languages, and 24 calculator rows, each explaining one counting text; the `concept` schema gains a `reckoning` block that holds the figure and the passages it is read from.
 
+- **73 seerah pages for the ledger's seerah section.** Pages of Zad al-Ma'ad, al-Bayhaqi's and Abu Nu'aym's Dala'il al-Nubuwwa, al-Waqidi's Maghazi, Ibn Hisham's Sirah, Ibn Kathir's Sira, Uyun al-Athar and al-Rawd al-Unuf that state a number, a multiple, an erasure, a rank, the Scale or the record of deeds were found in the OCR'd books, read one by one, and filed as passage records with a page number and an excerpt of at most forty words (drafts until a human reads them). The seerah section of the page is no longer empty.
+
 ### Tests
 - The feature-export test now covers the ledger: detection by corpus and kind, a calculator row, the gated false positives and a book harvested later.
 
