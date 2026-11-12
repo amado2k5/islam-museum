@@ -325,3 +325,30 @@
 | 499 (printed) | 142 | the word after "الريات" | unclear in the scan | not given |
 | 499 (printed) | 142 | "كلا العمرين" | read as "both lives"; the sense is uncertain | rendered as "both lives", flagged for revision |
 | 500 (printed) | 142 | the transmitter named after "حجاج بن" | cut in the scan | not given |
+
+## Batch 58 (run microsd-books-b58, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 142–143 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/muhammad-ibn-muawiya-al-sufi (printed 501, sequence 502, 10/142–143), person/mughith-al-aswad (printed 502, sequence 503, 10/143), person/muhammad-ibn-salih-al-taymi (printed 503, sequence 504, 10/143). Printed 504 (Ali ibn al-Hasan ibn Musa, a learned man who was a narrator of the Hakam) begins on 10/143 and is next.
+- The verse that Muhammad ibn Salih's chain recites is referred to by its sense only; the Qur'an text is never typed.
+- Numbering: the printed series remains one behind the sequence. Kept as printed here; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 58)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 501 (printed) | 142 | the names in the chain ("# بن معاوية", "عبدالله بن # بن سفيان", "# بن العباس بن #") | the names are garbled in the scan | not given; the prose says some names are unclear |
+| 502 (printed) | 143 | the chain's named authority ("حدثني شيخ من قريش") | the sheikh is unnamed in the text | given as "a man of the Quraysh", as the text reads |
+| 503 (printed) | 143 | the Qur'anic phrase in the chain | the Qur'an text is never typed | referred to by its sense only |
+| 503 (printed) | 143 | "موسومًا" and "رجم الاحتجاب" | read as in the scan; the sense is uncertain | rendered loosely, flagged for revision |
+
+## Batch 59 (run microsd-books-b59, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 143–144 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/ali-ibn-al-hasan-ibn-musa (printed 504, sequence 505, 10/143–144), person/khattab-al-abid (printed 505, sequence 506, 10/144), person/abu-jafar-al-mahwali (printed 506, sequence 507, 10/144). Printed 507 (Umar al-Sufi, who crossed the deserts alone and apologised to his master in tears) begins at the foot of 10/144 and is next.
+- Numbering: the printed series remains one behind the sequence. Kept as printed here; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 59)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 504 (printed) | 143 | the chain's wording before the saying | garbled in the scan | the saying is given; the chain names are not |
+| 505 (printed) | 144 | "فيجىً إخوانه" | the verb is unclear in the scan; "فيلقى" (meets) is the likely reading | read as "meets"; the prose gives the reading as read |
+| 505 (printed) | 144 | a word in the report | unclear in the scan | not given |
+| 506 (printed) | 144 | the names in the chain ("حمدين احد بن ممر", "على ابن أبى مريم") | garbled in the scan | the names as read are not reproduced in the prose beyond the two clearest |

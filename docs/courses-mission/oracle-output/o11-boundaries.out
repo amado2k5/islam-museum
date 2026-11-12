@@ -1,0 +1,38 @@
+ORACLE 11: boundaries held: Urdu untouched, the rest of the site renders as before, no account or tracking (statement 11)
+run at commit 7c3125e96a5b0373c7de1a56734445442187ea49 on 2026-11-12 00:38 EST; baseline 800467e93e; uncommitted paths under data/ content/ site/ i18n/ scripts/courses/: 0
+
+integration base: 841cdc52c4 (release/uat with phase 1 merged)
+Files under site/ and i18n/ that differ from the integration base:
+  M  i18n/ar.yaml
+  M  i18n/en.yaml
+  A  site/public/shell/courses.js
+  A  site/src/components/CourseCard.astro
+  A  site/src/components/CoursesLegacy.astro
+  A  site/src/components/CoursesStyle.astro
+  A  site/src/components/courses.css
+  A  site/src/lib/courses.ts
+  A  site/src/pages/[lang]/learn/courses/[course]/[lesson].astro
+  A  site/src/pages/[lang]/learn/courses/[course]/index.astro
+  M  site/src/pages/[lang]/learn/courses/index.astro
+  [PASS] every added site file belongs to the courses surface
+  [PASS] the only existing files modified are the courses home and the Arabic and English string files
+  [PASS] i18n/ar.yaml gains exactly one top-level key, courses, and loses nothing — removed 0; new top-level keys ['courses:']
+  [PASS] i18n/en.yaml gains exactly one top-level key, courses, and loses nothing — removed 0; new top-level keys ['courses:']
+  [PASS] no layout, stylesheet, existing component, island or shell script changed
+  [PASS] the surface adds no script to the site's bundle: its one script is a plain file under shell/
+  [PASS] no Urdu string file, Urdu prose file or Urdu page changed
+  [PASS] no `ur:` value in data/ was added, changed or removed — 0 lines
+
+branch build:   scoped build: 40 pages -> .cache/courses-dist, stylesheet inlined (site source site; repository commit 7c3125e96a; uncommitted paths under site/ data/ content/ i18n/: 0)
+base build:     scoped build: 6 pages -> .cache/courses-dist-base, stylesheet inlined (site source .courses-base/site; repository commit 7c3125e96a; uncommitted paths under site/ data/ content/ i18n/: 0)
+  (the base build uses the integration base's site/src; i18n/ and the data are the branch's, whose only differences under i18n/ are the added key checked above)
+  identical  /ur/learn/courses/index.html  (109703 bytes)
+  identical  /ar/learn/index.html  (108610 bytes)
+  identical  /en/learn/index.html  (103591 bytes)
+  identical  /ur/learn/index.html  (109382 bytes)
+  [PASS] the Urdu courses home and the three /learn/ hubs are byte-identical to the integration base's build — 4 of 4 identical
+  [PASS] no Urdu page of the new surface is generated (the Urdu courses folder holds only its home) — ['index.html']
+  [PASS] the added files hold no network call, cookie, third-party address, form, or storage other than localStorage
+  [PASS] the script writes only its own localStorage keys — ['courses:done', 'courses:last', 'courses:probe']
+
+RESULT: GREEN (12 checks passed)
