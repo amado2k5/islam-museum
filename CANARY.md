@@ -129,6 +129,8 @@ open a new block on top with the new version and today's date.
 ### Data
 - **«البيوت الآمنة» (Safe Homes), episode 23 completed: the sections left out earlier are now written, in three languages.** The new section covers the middle of the episode (voice and temper in the home, stages of adolescence, examples of mothers who berate or taunt, praising the good marks) and the whole second half (forgetting children's slips, the pressures on children, the callers' questions and the lecturer's answers). Each point cites episode and timestamp, the lecturer's views are marked as his, and 4 unsourced or garbled points carry `needs_source`. Adds 0 new links to existing records.
 
+### Data
+- **«البيوت الآمنة» (Safe Homes), the unwritten endings of episodes 20, 21 and 22 are now written, in three languages.** Each episode's closing calls and answers were read in full and added as a continuation section on the series page: episode 20 (a brother who puts his wife before his mother, with the lecturer's teaching that a mother's and a wife's rights are different kinds and are not weighed in one scale; the niqab as an accepted disagreement among jurists; a daughter who weeps for her mother), episode 21 (the yearly pilgrim and the poor neighbour, dealing with Christian relatives, the owner of a building, major and minor sins) and episode 22 (a wife's sensitivity to teasing, an angry husband, a mother-in-law during pregnancy, welcoming the husband at the door). The lecturer's opinions are labelled as his; 20 passages are marked needs_source (unsourced sayings and statistics, and garbled call text), and the windows that could not be read are listed in the progress file. The records are drafts awaiting a human read.
 
 ## v1.22.0 — 2026-11-11
 ### Added
