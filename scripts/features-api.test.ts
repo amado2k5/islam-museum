@@ -4,6 +4,7 @@ import { featureApiData } from "./export-api.js";
 import { duaKindOf, duaSignalsOf } from "./dua.js";
 import { sayyiatKindOf, sayyiatSignalsOf } from "./sayyiat.js";
 import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
+import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
 import { mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf } from "./mukatabat.js";
 
 const makeNode = (id: string, cls: string, data: Record<string, any> = {}, prose: Record<string, any> = {}): Node => ({
@@ -57,7 +58,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "islamic-economy.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "islamic-economy.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -406,5 +407,36 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
   it("is empty-capable", () => {
     const data = featureApiData({ ...compiled, nodes: [book], edges: [] });
     for (const body of Object.values(data)) expect(body.items).toEqual([]);
+  });
+
+  it("exports hisab: counting passages by corpus and ledger kind, calculator rows, gated false positives, future-book inclusion", () => {
+    const tenfold = makeNode("passage/quran-6-160x", "passage", { unit: "ayah", work: "work/quran", sura: 6, aya: 160, text: "من جاء بالحسنة فله عشر أمثالها ومن جاء بالسيئة فلا يجزى إلا مثلها" });
+    const tahlil = makeNode("passage/muwatta-9990", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9990", text: "كانت له عدل عشر رقاب وكتبت له مئة حسنة ومحيت عنه مئة سيئة" });
+    const vowelled = makeNode("passage/tirmidhi-9990", "passage", { unit: "hadith", work: "work/jami-al-tirmidhi", ref: "9990", text: "تُكْتَبُ لَهُ أَلْفُ حَسَنَةٍ وَتُحَطُّ عَنْهُ أَلْفُ سَيِّئَةٍ" });
+    const scale = makeNode("passage/quran-101-6x", "passage", { unit: "ayah", work: "work/quran", sura: 101, aya: 6, text: "فأما من ثقلت موازينه" });
+    const scribes = makeNode("passage/quran-82-11x", "passage", { unit: "ayah", work: "work/quran", sura: 82, aya: 11, text: "كراما كاتبين" });
+    const plainMention = makeNode("passage/quran-7-131x", "passage", { unit: "ayah", work: "work/quran", sura: 7, aya: 131, text: "فإذا جاءتهم الحسنة قالوا لنا هذه" });
+    const faithGrain = makeNode("passage/bukhari-9990", "passage", { unit: "hadith", work: "work/sahih-al-bukhari", ref: "9990", text: "أخرجوا من كان في قلبه مثقال حبة من خردل من إيمان" });
+    const ahzabDua = makeNode("passage/tirmidhi-9991", "passage", { unit: "hadith", work: "work/jami-al-tirmidhi", ref: "9991", text: "اللهم منزل الكتاب سريع الحساب اهزم الأحزاب" });
+    const futureBook = makeNode("passage/futurezuhd-1", "passage", { unit: "chapter", work: "work/future-zuhd", ref: "1", text: "قال الحسن: من صلى ركعتين غفر له ما تقدم من ذنبه" });
+    const futureWork = makeNode("work/future-zuhd", "work", { genre: ["zuhd"] });
+    const row = { ...makeNode("concept/hisab-row-x", "concept", { kind: "doctrine", reckoning: { effect: "hasanat", hasanat: 10, hasanat_max: 700, unit: { en: "per good deed" }, basis: ["passage/quran-6-160x"] } }), tags: ["hisab-browser", "hisab-calculator"] };
+    const umbrella = { ...makeNode("concept/hisab-al-hasanat-wal-sayyiat", "concept", { kind: "doctrine" }), tags: ["hisab-browser"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, tenfold, tahlil, vowelled, scale, scribes, plainMention, faithGrain, ahzabDua, futureBook, futureWork, row, umbrella] });
+    expect(data["hisab.json"].feature).toBe("hisab-browser");
+    const items = data["hisab.json"].items;
+    const ids = items.map((i) => i.id);
+    for (const id of ["passage/quran-6-160x", "passage/muwatta-9990", "passage/tirmidhi-9990", "passage/quran-101-6x", "passage/quran-82-11x", "passage/futurezuhd-1", "concept/hisab-row-x", "concept/hisab-al-hasanat-wal-sayyiat"]) expect(ids).toContain(id);
+    expect(ids).not.toContain("passage/quran-7-131x"); // a plain mention with no counting belongs to the Hasanat browser
+    expect(ids).not.toContain("passage/bukhari-9990"); // «مثقال حبة من إيمان» weighs faith, not a deed
+    expect(ids).not.toContain("passage/tirmidhi-9991"); // «سريع الحساب اهزم الأحزاب» is a supplication
+    expect(items.find((i) => i.id === "passage/quran-6-160x")).toMatchObject({ section: "quran", hisab_kinds: ["hasanat", "sayyiat"] });
+    expect(items.find((i) => i.id === "passage/muwatta-9990")).toMatchObject({ section: "sunnah", hisab_kinds: ["hasanat", "sayyiat", "erasure"] });
+    expect(items.find((i) => i.id === "passage/tirmidhi-9990")).toMatchObject({ section: "sunnah" });
+    expect(items.find((i) => i.id === "passage/quran-101-6x")).toMatchObject({ hisab_kinds: ["scale"] });
+    expect(items.find((i) => i.id === "passage/futurezuhd-1")).toMatchObject({ section: "books", hisab_kinds: ["erasure"] });
+    expect(items.find((i) => i.id === "concept/hisab-row-x")).toMatchObject({ section: "curated", hisab_kinds: ["hasanat"], reckoning: { hasanat: 10, hasanat_max: 700 } });
+    expect(items.find((i) => i.id === "concept/hisab-al-hasanat-wal-sayyiat")).toMatchObject({ section: "curated", reckoning: null });
+    expect(hisabKindsOfSignals(hisabSignalsOfText(hisabFold("صَلاَةُ الْجَمَاعَةِ أَفْضَلُ مِنْ صَلاَةِ الْفَذِّ بِسَبْعٍ وَعِشْرِينَ دَرَجَةً")))).toEqual(["hasanat"]);
   });
 });

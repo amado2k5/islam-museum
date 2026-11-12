@@ -1,0 +1,18 @@
+id: passage/tirmidhi-api-3474
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3474"
+label: { ar: "جامع الترمذي 3474 — عدد الحسنات، كتابة الحسنات", en: "Jami' al-Tirmidhi 3474 — a stated number of good deeds; the writing of good deeds", ur: "جامع ترمذی 3474 — نیکیوں کی مقررہ تعداد، نیکیوں کا لکھا جانا" }
+text: "… لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ عَشْرَ مَرَّاتٍ كُتِبَ لَهُ عَشْرُ حَسَنَاتٍ وَمُحِيَ عَنْهُ عَشْرُ سَيِّئَاتٍ وَرُفِعَ لَهُ عَشْرُ دَرَجَاتٍ وَكَانَ يَوْمَهُ ذَلِكَ فِي حِرْزٍ مِنْ كُلِّ مَكْرُوهٍ وَحَرْسٍ مِنَ الشَّيْطَانِ وَلَمْ يَنْبَغِ لِذَنْبٍ أَنْ يُدْرِكَهُ فِي ذَلِكَ الْيَوْمِ إِلاَّ الشِّرْكَ بِاللَّهِ \". قَالَ هَذَا حَدِيثٌ حَسَنٌ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3474، يذكر عدد الحسنات، وكتابة الحسنات، ورفع الدرجات، وعدد السيئات، ومحو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 3474 (Chapters on Supplication), that speaks of a stated number of good deeds, the writing of good deeds, ranks raised, a stated number of bad deeds, bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 3474، جس میں نیکیوں کی مقررہ تعداد، نیکیوں کا لکھا جانا، درجات کی بلندی، برائیوں کی تعداد، برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3474 (book 48 hadith 105); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4962
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4962"
+label: { ar: "صحيح البخاري 4962 — الميزان", en: "Sahih al-Bukhari 4962 — the Scale", ur: "صحیح بخاری 4962 — میزان" }
+text: "… أَجْرٌ، وَرَجُلٌ رَبَطَهَا تَغَنِّيًا وَتَعَفُّفًا وَلَمْ يَنْسَ حَقَّ اللَّهِ فِي رِقَابِهَا وَلاَ ظُهُورِهَا فَهْىَ لَهُ سِتْرٌ، وَرَجُلٌ رَبَطَهَا فَخْرًا وَرِئَاءً وَنِوَاءً فَهْىَ عَلَى ذَلِكَ وِزْرٌ. فَسُئِلَ رَسُولُ اللَّهِ عَنِ الْحُمُرِ. قَالَ \" مَا أَنْزَلَ اللَّهُ عَلَىَّ فِيهَا إِلاَّ هَذِهِ الآيَةَ الْفَاذَّةَ الْجَامِعَةَ {فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ * وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ}"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4962، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 4962 (Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 4962، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4962 (book 65 hadith 484); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

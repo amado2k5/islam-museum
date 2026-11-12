@@ -1,0 +1,48 @@
+id: concept/hisab-al-dalala-ala-al-huda-wal-dalala
+class: concept
+kind: doctrine
+label:
+  ar: "الدعوة إلى هدى أو ضلالة: مثل أجور وآثام من تبع"
+  en: "Calling to guidance or to error: the like of the rewards and sins of those who follow"
+  ur: "ہدایت یا گمراہی کی دعوت: پیروی کرنے والوں کے اجر اور گناہ کے برابر"
+summary:
+  ar: "من دعا إلى هدى كان له من الأجر مثل أجور من تبعه لا ينقص ذلك من أجورهم شيئا، ومن دعا إلى ضلالة كان عليه من الإثم مثل آثام من تبعه [[passage/muslim-2674]]، ومثله من سنّ في الإسلام سنة حسنة أو سنة سيئة، فله أجرها وأجر من عمل بها أو عليه وزرها ووزر من عمل بها [[passage/muslim-1017]]. وهذا حساب متصل لا ينغلق بانتهاء العمل: العدّاد يستمر ما دام هناك من يتبع، في الاتجاهين."
+  en: "Whoever calls to guidance has a reward like the rewards of those who follow him, without anything being taken from theirs, and whoever calls to error bears a sin like the sins of those who follow him [[passage/muslim-2674]]; likewise whoever sets a good or a bad practice in Islam has its reward and the reward of those who act on it, or its burden and the burden of those who act on it [[passage/muslim-1017]]. This is a running account that does not close when the act ends: the counter keeps going as long as someone follows, in both directions."
+  ur: "جو ہدایت کی طرف بلائے اسے پیروی کرنے والوں کے اجر کے برابر اجر ملتا ہے اور ان کے اجر میں کچھ کمی نہیں ہوتی، اور جو گمراہی کی طرف بلائے اس پر پیروی کرنے والوں کے گناہوں کے برابر گناہ ہوتا ہے [[passage/muslim-2674]]؛ اسی طرح جو اسلام میں اچھا یا برا طریقہ جاری کرے اسے اس کا اجر اور عمل کرنے والوں کا اجر ملتا ہے یا اس کا بوجھ اور عمل کرنے والوں کا بوجھ [[passage/muslim-1017]]۔ یہ چلتا ہوا کھاتہ ہے جو عمل ختم ہونے پر بند نہیں ہوتا: جب تک کوئی پیروی کرتا رہے گنتی دونوں سمتوں میں جاری رہتی ہے۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+order: 19
+reckoning:
+  effect: scale
+  unbounded: true
+  unit:
+    ar: "لكل من تبع أو عمل بها"
+    en: "per person who follows or acts on it"
+    ur: "ہر پیروی کرنے یا عمل کرنے والے پر"
+  result:
+    ar: "له مثل أجورهم، أو عليه مثل آثامهم، لا ينقص ذلك من أجورهم ولا آثامهم شيئا"
+    en: "he has the like of their rewards, or bears the like of their sins, without anything being taken from theirs"
+    ur: "اسے ان کے اجر کے برابر ملتا ہے، یا ان کے گناہوں کے برابر اس پر ہوتا ہے، اور ان کے حصے میں کچھ کمی نہیں ہوتی"
+  basis: [passage/muslim-2674, passage/muslim-1017]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

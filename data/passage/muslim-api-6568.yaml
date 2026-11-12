@@ -1,0 +1,17 @@
+id: passage/muslim-api-6568
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6568"
+label: { ar: "صحيح مسلم 6568 — محو السيئات وحط الخطايا", en: "Sahih Muslim 6568 — bad deeds erased and sins shed", ur: "صحیح مسلم 6568 — برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "… بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنِ الْوَلِيدِ بْنِ، كَثِيرٍ عَنْ مُحَمَّدِ بْنِ عَمْرِو بْنِ عَطَاءٍ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي سَعِيدٍ، وَأَبِي، هُرَيْرَةَ أَنَّهُمَا سَمِعَا رَسُولَ اللَّهِ يَقُولُ \" مَا يُصِيبُ الْمُؤْمِنَ مِنْ وَصَبٍ وَلاَ نَصَبٍ وَلاَ سَقَمٍ وَلاَ حَزَنٍ حَتَّى الْهَمِّ يُهَمُّهُ إِلاَّ كُفِّرَ بِهِ مِنْ سَيِّئَاتِهِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6568، يذكر محو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 6568 (The Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship), that speaks of bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 6568، جس میں برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6568 (book 45 hadith 66); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

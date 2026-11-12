@@ -27,8 +27,20 @@ export function mergeIntervals(spans: Interval[], gap = 5, max = 6): number[] {
   return out.flat();
 }
 
-/** A stored span (decimal civil years, as the graph keeps them) as whole years, both ends included. */
-export const wholeYears = (span: { earliest: number; latest: number }): Interval => [Math.floor(span.earliest + 0.01), Math.ceil(span.latest - 0.01)];
+const MS_PER_YEAR = 365.2425 * 86_400_000;
+/** The calendar year an instant falls in, from the graph's decimal year (scripts/lib.ts `msToYear`, undone exactly). */
+const yearAt = (decimal: number, nudgeMs: number) => new Date((decimal - 1970) * MS_PER_YEAR + nudgeMs).getUTCFullYear();
+/**
+ * A stored span as the calendar years it covers, both ends included. The graph keeps each bound as a decimal year
+ * computed from the first and the last millisecond of the date, so a record dated "624" ends a hair before 625.0, or
+ * a hair after it (the decimal scale drifts by up to a day and a half against the calendar). Rounding the end up
+ * therefore kept a place lit for a year after its record ended. The bound is turned back into its instant instead and
+ * the calendar year is read from that; a minute's nudge inwards keeps a bound that sits exactly on midnight in its own year.
+ */
+export const wholeYears = (span: { earliest: number; latest: number }): Interval => {
+  const first = yearAt(span.earliest, 60_000);
+  return [first, Math.max(first, yearAt(span.latest, -60_000))];
+};
 
 export const UNDATED = 0, NOT_YET = 1, EARLIER = 2, ACTIVE = 3;
 /**

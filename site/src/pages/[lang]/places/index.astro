@@ -11,7 +11,7 @@ import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
 import { placesItems, PLACES_SECTIONS } from "../../../lib/places";
-import { PLACE_CORPORA } from "../../../../scripts/places";
+import { PLACE_CORPORA } from "../../../../../scripts/places";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };

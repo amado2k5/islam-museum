@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-2598
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2598"
+label: { ar: "جامع الترمذي 2598 — الميزان", en: "Jami' al-Tirmidhi 2598 — the Scale", ur: "جامع ترمذی 2598 — میزان" }
+text: "حَدَّثَنَا سَلَمَةُ بْنُ شَبِيبٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ النَّبِيَّ قَالَ \" يُخْرَجُ مِنَ النَّارِ مَنْ كَانَ فِي قَلْبِهِ مِثْقَالُ ذَرَّةٍ مِنَ الإِيمَانِ \". قَالَ أَبُو سَعِيدٍ فَمَنْ شَكَّ فَلْيَقْرَأْ: (إِنَّ اللَّهَ لاَ يَظْلِمُ مِثْقَالَ ذَرَّةٍ ). قَالَ هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2598، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 2598 (The Book on the Description of Hellfire), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 2598، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2598 (book 39 hadith 26); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

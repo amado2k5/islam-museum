@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6536
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6536"
+label: { ar: "صحيح البخاري 6536 — الحساب", en: "Sahih al-Bukhari 6536 — the reckoning", ur: "صحیح بخاری 6536 — حساب" }
+text: "… مُوسَى، عَنْ عُثْمَانَ بْنِ الأَسْوَدِ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، عَنْ عَائِشَةَ، عَنِ النَّبِيِّ قَالَ \" مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ \". قَالَتْ قُلْتُ أَلَيْسَ يَقُولُ اللَّهُ تَعَالَى {فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا}. قَالَ \" ذَلِكِ الْعَرْضُ \". حَدَّثَنِي عَمْرُو بْنُ عَلِيٍّ، حَدَّثَنَا يَحْيَى، عَنْ عُثْمَانَ بْنِ الأَسْوَدِ، سَمِعْتُ ابْنَ أَبِي مُلَيْكَةَ، قَالَ سَمِعْتُ عَائِشَةَا ـ قَالَتْ سَمِعْتُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6536، يذكر الحساب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 6536 (To make the Heart Tender (Ar-Riqaq)), that speaks of the reckoning. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 6536، جس میں حساب کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6536 (book 81 hadith 125); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
