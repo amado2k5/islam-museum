@@ -406,6 +406,17 @@
         }
       }
     },
+    "/ibadat.json": {
+      "get": {
+        "summary": "Ibadat and Adhkar Browser dataset",
+        "description": "The Worship and Adhkar Browser dataset (متصفح العبادات والأذكار): every act of worship and remembrance mentioned or written in the Qur'an, the Sunnah, the seerah and every harvested book — prayer, purification, fasting, zakat and charity, hajj and umrah, dhikr and adhkar, du'a (via the Du'a detector), recitation, repentance and ruqya — detected at build time plus the curated records tagged ibadat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), ibadat_kind (act/mention), worship topics, matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every ibadat record with corpus section, ibadat kind, topics, work, ref, excerpt, kind, themes and edges"
+          }
+        }
+      }
+    },
     "/islamic-economy.json": {
       "get": {
         "operationId": "getIslamicEconomy",
