@@ -1007,3 +1007,21 @@ Next step: episode 30.
 | Supplications, announcements and sign-offs | ep17 00:41:30-00:42:30; ep18 00:44:00-00:44:30 (mosque lecture times) | Not lesson content | Content rule | Open |
 
 Resume point: episode 19 (branch from origin/main).
+### albuyout-alamena, episode 30 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-18)
+
+Episode 30 read in full (51 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people and passages named; 12 needs_source (stories and sayings without a chain, garbled call text, calls with no recorded answer).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep30 (the negotiating table in the home) | about 51 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 15 points | new `about` edges | 15 | 12 needs_source | this PR |
+
+Next step: episode 31. The series has 47 episodes of transcript on disk (ep01 to ep47); episodes 31 to 47 are not yet written.
+
+| Excluded (albuyout-alamena ep30) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep30 00:00:00–00:01:00, 00:15:00 (break), 00:28:30–00:29:00, 00:50:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep30 00:08:30–00:09:00, 00:31:30–00:32:00, 00:32:30, 00:34:00–00:34:30, 00:36:00, 00:37:30–00:38:00, 00:41:00, 00:50:00 | Not speech | Loop check | Open |
+| Garbled passages and calls | ep30 00:16:00 (the word-origin remark on competition), 00:34:00–00:35:00, 00:35:30–00:36:30, 00:36:30–00:37:30, 00:38:30 (the inheritance question), 00:40:00–00:41:00 | Garbled or fragmentary; only the clear sense is summarised | Clarity | Open |
+| Private circumstances of callers | ep30 00:31:00–00:41:00 | Kept general | Privacy | Open |
+| Verses of poetry quoted | ep30 00:25:00–00:25:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep30 00:07:00–00:11:00, 00:19:00, 00:44:00–00:44:30 | Wording not typed; by sense only | Hadith rule | Open |
