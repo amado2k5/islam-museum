@@ -1,0 +1,19 @@
+id: group/banu-al-harith-ibn-fihr
+tags: ["ansab-browser", "ansab-butun"]
+class: group
+kind: clan
+label: { ar: "بنو الحارث بن فهر", en: "Banu al-Harith ibn Fihr" }
+summary:
+  ar: "بطن من قريش من ولد الحارث بن فهر بن مالك، صنو قصي في العمود؛ منهم سهيل بن عمرو صاحب صلح الحديبية وأبو سفيان بن الحارث بن عبد المطلب بالولاء {cite:ibn-hisham-sira} {cite:mubarakpuri-raheeq}."
+  en: "A batn of Quraysh descended from al-Harith ibn Fihr ibn Malik, uncle-peer of Qusayy; from them Suhayl ibn Amr of the Hudaybiyya treaty {cite:ibn-hisham-sira} {cite:mubarakpuri-raheeq}."
+  ur: "قریش کا بطن، حارث بن فہر بن مالک کی اولاد — حدیبیہ کے سہیل بن عمرو اسی خاندان سے۔"
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/quraysh, sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — butun records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-butun-1
+sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1 }
