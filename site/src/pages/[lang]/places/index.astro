@@ -1,0 +1,77 @@
+---
+// The Sacred Places Browser's home (docs/plan/49-places-browser.md): every place of sanctity,
+// importance and value in Islam that the museum's sources mention — the three sanctuaries, the
+// hajj stations, the seerah sites, the places named in the Qur'an, other venerated sites, and
+// every place or building a passage mentions — grouped in six sections over the one graph.
+// Membership comes from the `places-browser` tag and from `mentioned_in` passage edges, so a
+// place named in a book harvested later appears here automatically. Counts are read from the
+// graph at build time and appear on this page only.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { labelOf, stripNeedsSource } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { placesItems, PLACES_SECTIONS } from "../../../lib/places";
+import { PLACE_CORPORA } from "../../../../scripts/places";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const N = (T as any).places;
+const label = (n: any) => labelOf(n, lang);
+const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "");
+const sectionIds = [...PLACES_SECTIONS];
+const sections = sectionIds.map((id) => ({ id, items: placesItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
+const status = fmt(N.status, { n: num(placesItems.length, lang), s: num(sections.length, lang) });
+const searchText = (i: (typeof placesItems)[number]) =>
+  [i.node.label.ar, i.node.label.en, i.node.label.ur, summaryOf(i.node)].filter(Boolean).join(" ");
+const slugOf = (i: (typeof placesItems)[number]) => i.node.slug ?? i.node.id.split("/")[1];
+const countsLine = (i: (typeof placesItems)[number]) =>
+  PLACE_CORPORA.filter((c) => i.counts[c] > 0).map((c) => `${N.corpora?.[c]?.name ?? c} · ${num(i.counts[c], lang)}`).join(" · ");
+---
+<BaseLayout lang={lang} title={N.title} description={N.lede} path={`/${lang}/places/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{N.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {N.title}</nav>
+    <div data-pagefind-body>
+      <h1>{N.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{N.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <h2 id="method-title" style="font-size:1.1rem">{N.method_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{N.method_note}</p>
+      <p class="ui muted">{N.api} <a href="/api/v1/places.json"><bdi dir="ltr">/api/v1/places.json</bdi></a></p>
+    </div>
+
+    <section aria-labelledby="sections-title" style="margin-top:2rem">
+      <h2 id="sections-title">{N.sections_title}</h2>
+      <nav aria-label={N.sections_title} class="ui" style="margin:0 0 1rem">
+        <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {sections.map((s) => <li><a class="chip" href={`#t-${s.id}`}>{N.sections[s.id]?.title ?? s.id} · {num(s.items.length, lang)}</a></li>)}
+        </ul>
+      </nav>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="places-filter">{N.filter_label}</label>
+        <input id="places-filter" type="search" data-places-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <div data-pagefind-ignore>
+        {sections.map((s) => (
+          <section data-places-section aria-labelledby={`t-${s.id}`} style="margin:1.4rem 0">
+            <h3 id={`t-${s.id}`} style="font-size:1.1rem;margin:0 0 .2rem">{N.sections[s.id]?.title ?? s.id}</h3>
+            <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{N.sections[s.id]?.desc}</p>
+            <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+              {s.items.map((i) => (
+                <li data-places-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
+                  <a href={`/${lang}/places/${slugOf(i)}/`} style="font-weight:600">{label(i.node)}</a>
+                  {countsLine(i) && <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem">{countsLine(i)}</p>}
+                  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{summaryOf(i.node)}</p>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))}
+      </div>
+      <p class="panel ui" data-places-none hidden>{N.filter_none}</p>
+      {placesItems.length === 0 && <p class="panel ui">{N.empty}</p>}
+    </section>
+  </div>
+  <script src="../../../scripts/places-filter.ts"></script>
+</BaseLayout>

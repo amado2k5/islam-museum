@@ -16,6 +16,7 @@ translations:
   en: { text: "And (the tribe of) Thamud, and the folk of Lot, and the dwellers in the wood: these were the factions.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ثمود اور لوط کی قوم اور بن کے رہنے والے بھی۔ یہی وہ گروہ ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: place/madyan, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-38 }
   - { type: mentions, target: group/thamud, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/lut, sources: [source/tanzil-quran] }
