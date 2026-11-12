@@ -1,12 +1,49 @@
 ---
 id: group/quraysh
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
-## Summary
-Quraysh was the tribe of Mecca at the time of [[person/muhammad|Muhammad]]'s mission: the guardians of the Ka'ba and the owners of its trade. Its leadership were the fiercest opponents of the call in its early years; after the conquest, the tribe became the counterpart of the new state.
+## Overview
+Quraysh was the tribe that inhabited [[place/mecca|Mecca]] in the time of [[person/muhammad|Muhammad]] and to which he belonged. It was the guardian of the [[building/kaaba|Ka'ba]] and the owner of its trade. Its leadership were the fiercest opponents of the call in its early years; after the conquest, the tribe became the counterpart of the new state. The Encyclopaedia of Islam, by W. Montgomery Watt, whose account the sections below follow, reckons Quraysh among the northern Arabs. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 472}
+
+## Name and ancestry
+The article says the name may be a nickname. It is mostly said, the article citing Ibn Hisham, to come from a word meaning coming together or association, but the article also allows, with a reference to al-Tabari, that it is the diminutive of a word for shark, which would make it a totemic name like Kalb. It notes that a man called Quraysh, other than Fihr, appears in the genealogical work Nasab Quraysh. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 472}
+
+The tribe is taken to consist of the descendants of [[person/fihr-ibn-malik|Fihr]], who is himself sometimes called Quraysh, although the name is mostly used of the tribe. Fihr's line runs back through Malik, al-Nadr and [[group/kinana|Kinana]] to Mudar, Nizar, Ma'add and Adnan. The article gives a table of the main subdivisions, which it takes from Watt's Muhammad at Mecca; among those commonly called clans it lists al-Harith, Amir, Adi, Sahm, Abd al-Dar, Nawfal, Abd Shams, Taym, Makhzum, Jumah, Zuhra, Asad, al-Muttalib and Hashim. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 472}
+
+## Qusayy and the settlement of Mecca
+Before the rise of [[person/qusayy-ibn-kilab|Qusayy]], the article says, the sanctuary and various privileges connected with it remained in the hands of the tribe of [[group/khuzaa|Khuza'a]]. There was probably little if any permanent settlement at Mecca at that period, and the descendants of Fihr lived in scattered groups among their relatives of Kinana. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 472}
+
+A change came with Qusayy, in the sixth generation from Fihr. He gathered his scattered kinsmen of Quraysh, and the article suggests this may be the occasion on which they received the name. With help from certain men of Kinana and of [[group/qudaa|Quda'a]], normally resident in Syria, he took possession of the sanctuary from Khuza'a and became virtual ruler of Mecca. He is also said to have assigned quarters of the town to the groups of Quraysh. Those around the Ka'ba were known as the Quraysh of the Bitah and included all the descendants of Ka'b ibn Lu'ayy and perhaps some others, while those on the outskirts were the Quraysh of al-Zawahir. The article judges that such an assignment of quarters, in so far as it meant permanent settlement, must have been made possible by the development of trade. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 472}
+
+## Trade and character
+By about 600 CE, the article says, the leading men of Quraysh were prosperous merchants who had obtained something like a monopoly of the trade between the Indian Ocean and East Africa on one side and the Mediterranean on the other. They organised caravans that went to [[place/yemen|Yemen]] in winter and to [[place/gaza|Gaza]] and [[place/damascus|Damascus]] in summer, and they were also involved in mining and other activities along these routes. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 472}
+
+Victory in the war of the [[event/harb-al-fijar|Fijar]] against [[group/hawazin|Hawazin]] and [[group/thaqif|Thaqif]] brought the routes of Najd under Quraysh. They gained control of the trade of [[place/taif|al-Ta'if]], which stands higher and is cooler than Mecca, and many Quraysh acquired estates there. They also kept stations in other parts of Arabia. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 472} {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 473}
+
+According to the article, Quraysh became renowned for a quality of steadiness, an absence of hotheadedness. In practice, it says, this meant that they put business interests first and kept a measure of unity despite their rivalries. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 473}
+
+## Rival blocs before Islam
+The article places the death of Qusayy probably in the first half of the sixth century CE. His powers and rights passed to [[group/banu-abd-dar|Abd al-Dar]], but after a time Abd Manaf challenged him, and Quraysh divided into two rival groups. Abd al-Dar was supported by [[group/banu-makhzum|Makhzum]], [[group/banu-sahm|Sahm]], [[group/banu-jumah|Jumah]] and [[group/banu-adi|Adi]], known as the Ahlaf, or Confederates. The opposing party, known as the Mutayyabun, or Perfumed, consisted of [[group/banu-abd-manaf|Abd Manaf]], Asad, [[group/banu-zuhra|Zuhra]], [[group/banu-taym|Taym]] and al-Harith ibn Fihr. The article says it is impossible to know how long these groups remained effective; it notes a reference to the Mutayyabun in a letter from Muhammad to some men of Khuza'a, written in 8 AH, citing al-Waqidi. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 473}
+
+Long before that, about 605 CE, the Mutayyabun had been replaced by a new confederacy, the [[event/hilf-al-fudul|Hilf al-Fudul]], whose exact meaning the article calls uncertain. It consisted of Hashim, al-Muttalib, Asad, Zuhra, Taym and perhaps al-Harith ibn Fihr. The essential change, the article says, is that Abd Manaf had split into four parts: Hashim and al-Muttalib stayed with their former allies, while [[group/banu-abd-shams|Abd Shams]] and Nawfal left them. The article suggests this may mean that Abd Shams and Nawfal had grown strong through commercial success, and observes that Abd Shams, though not fully identified with the Ahlaf, had developed close business relations with them. It adds that all the stories of the pre-Islamic period contain a legendary element, but judges that the main outline is roughly correct even if most of the dating is uncertain. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 473}
+
+## Clan loyalties after the rise of Islam
+A man did not cease to belong to his clan when he became a Muslim, the article says, and in many events of Muhammad's career, and of the period up to 132/750, the influence of old rivalries or alliances can be seen. As late as the reign of [[person/muawiya-ibn-abi-sufyan|Mu'awiya I]], [[person/husayn-ibn-ali|al-Husayn ibn Ali]], of Hashim, appealed to the Hilf al-Fudul against an injustice and received a whole-hearted response from men of Taym, Zuhra and Asad. The leaders of the revolt defeated at the [[event/battle-of-the-camel|Battle of the Camel]] in 656 were from Taym and Asad. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 473}
+
+The relative power and wealth of the clans changed. The clan of Abd Shams rose to pre-eminence through the [[polity/umayyad-caliphate|Umayyad dynasty]], since Umayya was a son of Abd Shams, while the early Shi'is and then the [[polity/abbasid-caliphate|Abbasids]] represented their old rivals, Hashim. Under the first four caliphs and the Umayyads, men of Quraysh played a very important part in organising and administering the empire; the article judges that without their skills in these fields the empire would probably not have endured. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 473}
+
+## Quraysh and the caliphate
+On the death of Muhammad, the article says, the [[group/ansar|Ansar]] wanted one of their own to head the community of Muslims, but [[person/umar-ibn-al-khattab|Umar]] persuaded them to accept [[person/abu-bakr|Abu Bakr]] as caliph, on the ground that only a man of Quraysh could hold the federation together. There are indications that the Ansar continued to feel strongly about this for some decades. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 473}
+
+A hadith that the imams are from Quraysh came to be generally accepted, and a Qur'anic verse, IX, 100/101, was also quoted in support. When the Sunni theory of the caliphate was formulated, it was generally insisted that the caliph or imam should be of Quraysh; the article names Ibn Abi Ya'la, al-Mawardi and Ibn Khaldun as examples. A few scholars, for instance [[person/dirar-ibn-amr|Dirar ibn Amr]], held otherwise, and most of the [[group/khawarij|Khawarij]] considered that a pious and upright man of any origin could be imam. The article adds that the matter caused a little difficulty in more recent times, when the caliphate was claimed by [[polity/mughal-empire|Mughal]] emperors and [[polity/ottoman-empire|Ottoman]] sultans, but that most ulama found a way around it. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 473}
+
+## Later Quraysh and the nisba
+The geographer al-Hamdani, who died in 334/945, mentions small groups of Quraysh in various parts of Arabia, possibly remnants of trading stations, and al-Ya'qubi, who died in 284/897, reports a group of Quraysh near Sayda in Lebanon. The article adds that at the time of writing many Quraysh lived as Bedouin near Mecca, and that in Mecca itself the key of the Ka'ba was held by a clan of Quraysh called Shayba. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 473}
+
+The nisba is Qurashi, but it was not much used in the heartlands of the caliphate in the early centuries; if any nisba was used it was mostly that of a clan. After a time some men seem to have prided themselves on descent from Quraysh. The article lists examples: one in Iraq in the 7th/13th century, six in Egypt and Syria between the 8th/14th and 12th/18th centuries, and two in North Africa in the 7th/13th and 9th/15th centuries. It notes that in Pakistan the name is common today in the form Qoreshi. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 473}
 
 ## History
 Quraysh trace themselves to al-Nadr ibn Kinana and branch into clans, among them Hashim, Umayya, Makhzum and Zuhra, who share with the others the honour of the charge of the House and the watering of the pilgrims {cite:ibn-ishaq-guillaume}. The biography has preserved a picture of the class that monopolised the decisions in Mecca. Its leaders, such as Abu Jahl and Abu Lahab, opposed the call of their kinsman Muhammad, and Quraysh boycotted [[group/banu-hashim|Banu Hashim]] in the shi'b for three years {cite:watt-1953-mecca}.
