@@ -79,11 +79,12 @@
    "file": "ar-phone-lesson-first-2of3, ar-phone-lesson-stubs-2of2, ar-phone-lesson-last-2of2, ar-phone-state-check-answered-3of4",
    "where": "\"أستطيع الآن أن\" checklist",
    "defect": "The English curriculum sentences are right-aligned in the Arabic page, the code badge (B1.1) is inserted in the middle of the sentence, and the wrapped last word (\"biodiversity\", \"circuits\") hangs alone on its own line; unlike the top of the lesson, these items carry no \"official wording, not yet translated\" label.",
-   "decision": "fix",
+   "decision": "register",
+   "reason": "By design: round 3 added the 'official wording, not yet translated' label and moved the code beside the sentence. What remains is the sentence's side: on an Arabic page the official English sentence sits on the page's reading side, next to its code, and wraps like any text.",
    "confirmed_in": "round-2",
    "verdict": "still present",
    "seen": "ar-phone-lesson-first-2of3, ar-phone-lesson-stubs-2of2, ar-phone-lesson-last-2of2, ar-phone-state-check-answered-2of4: English checklist sentences are still right-aligned in the Arabic page, still no \"official wording, not translated\" label, and the last word still hangs alone (\"biodiversity\", \"circuits\", \"exploration\"). The badge now sits beside the checkbox instead of mid-sentence, which is the only change.",
-   "status": "still present"
+   "status": "registered"
   },
   {
    "id": "AR-8",
@@ -1199,8 +1200,9 @@
    "file": "en-desktop-state-classroom-1.jpg vs en-phone-state-classroom-1.jpg",
    "where": "top of the page",
    "defect": "The classroom view on desktop still keeps the full hero (title, \"Lesson 1 of 4\", dots, \"1 of 16 in the course\", about 140 px), while on a phone it is cut to a thin title strip, so the two sizes behave differently and the phone strip loses the lesson position.",
-   "decision": "fix",
-   "status": "awaiting a later reviewer"
+   "decision": "register",
+   "reason": "By design: classroom view shows the lesson's title in a thin strip and the step count in the bar ('3 / 5'); the lesson's place in the course is on the ordinary view, one key press away.",
+   "status": "registered"
   }
  ]
 }
