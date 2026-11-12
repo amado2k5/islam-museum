@@ -1,0 +1,67 @@
+id: dec-20261112-265
+kind: override
+date: '2026-11-12'
+question_hash: 60ac65dc209e
+lane: web-sources
+class: process
+modality: website
+domain: sources
+mode: conservative
+question: 'Should Papyri.info (the documentary papyrology portal of the Duke Collaboratory for Classics Computing, joining the Duke Databank of Documentary Papyri texts with the Heidelberg HGV metadata,
+  stable DDbDP and Trismegistos identifiers, a public data repository under Creative Commons Attribution 3.0) be onboarded as a citable source family for dated documents of early Islamic Egypt, and at what
+  tier? Assessment 11 Nov 2026 against the eight criteria of docs/agents/source-families.md: authority excellent (Duke DC3 with the Heidelberger Gesamtverzeichnis and editorial boards per component; the
+  field''s standard corpus); citability excellent (DDbDP hybrid ids such as sb;6;9576 resolving at papyri.info/ddbdp/<id>, plus Trismegistos numbers); terms good (the data repository README states Creative
+  Commons Attribution 3.0 with attribution to the respective projects); structure good (EpiDoc XML per document in the public data repository, synchronised hourly; the live site answers scripts with a bot
+  challenge, so the repository is the only harvest channel); coverage fit moderate (Greek and Coptic documents of first-century-AH Egypt: receipts, requisitions and governors'' correspondence naming officials,
+  places and dates, feeding place and person records for Egypt and the Fustat everyday-life gap; most of the corpus is pre-Islamic and out of scope); corroboration good (contemporary dated documents, the
+  earliest written evidence for the new administration, with HGV provenance tied to Pleiades and Trismegistos place ids); language coverage weak for Arabic (texts Greek and Coptic, metadata German; the
+  Arabic documents themselves stay with the already registered Arabic Papyrology Database); longevity excellent (institutional hosting, version-controlled public data, identifiers independent of URLs).'
+options:
+- Tier 2 citable family, facts-only
+- Tier 1 citable family
+- Tier 3 pointer only
+- Do not register
+evidence:
+- 'docs/decisions/records/ (engine dry run 12 Nov 2026): the first run returned step policy-gate, gate nd-review-status, because the question contains the word "verified" (in the status escalation sense).
+  That word is an assessment word, not a request to change review status.'
+- 'The second run, with that word removed, returned step rule, rule-source-families: "independence is counted by source families". The question asks about onboarding one source family, not about counting
+  independent attestations, so that rule is also a lexical false positive on the phrase "source family".'
+- 'Live checks 11 Nov 2026: https://papyri.info/ answers scripts with a bot challenge (not read); the data repository github.com/papyri/idp.data README states Creative Commons Attribution 3.0; sample record
+  HGV_meta_EpiDoc/HGV20/19103.xml (TM 19103 = sb;6;9576) read.'
+- docs/agents/source-families.md criteria 1-8 scored in the assessment question; the same class is held at Tier 2 by source/apd (dec-20261108-214) and source/princeton-geniza (dec-20261108-218).
+status: decided
+step: override
+decision: 'Tier 2 citable family, facts-only: register source/papyri-info. Cite {cite:papyri-info <ddb-id>} for documentary facts (document type, date, provenance with HGV certainty, parties named) in the
+  museum own words. Harvest only from the public data repository (DDbDP and HGV_meta_EpiDoc EpiDoc XML), never from the challenged live site. Edition text and translations never republished.'
+correct_outcome: papyri-info-tier2-facts-only
+wrong_outcome: review-status-escalation-and-source-family-independence
+confidence: 1
+reversible: true
+rationale: The two engine decisions came from lexical matches on words in the assessment ("verified", "source family"), not from any governance, review-status or independence question. The onboarding question
+  itself is the same class as the registered Tier 2 document families. The eight criteria in source-families.md are met on the repository evidence (authority, citability, CC BY 3.0 terms, structure via
+  the public repository, coverage of early Islamic Egypt documents, corroboration, longevity). Arabic-first value is weak (texts are Greek and Coptic) and is recorded as such. Facts-only regardless.
+supersedes: null
+override_reason:
+  category: rule-false-positive
+  detail: 'nd-review-status matched the word "verified" in the assessment text; rule-source-families matched the phrase "source family" in a source-onboarding question. Same class as dec-20261108-207, dec-20261109-226/228
+    (substring false positives in assessment text). Fix candidates: scope status and independence keywords to proposed_action, or require word boundaries.'
+  overridden_by: 'agent: Claude Code (lane web-sources, Haiku 5.5)'
+signals:
+  matched_rule_id: nd-review-status
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: claude-code-web-sources-lane-b
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: '2026-11-12'
+expires_at: '2027-11-12'
