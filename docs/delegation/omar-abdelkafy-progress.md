@@ -1947,6 +1947,16 @@ Next step: episode 18.
 
 Resume point: ajaeb-al-kulub episode 13 (branch from origin/main).
 
+### ajaeb-al-kulub ep13-ep16 (12 Nov 2026)
+
+30 points written for episodes 13 to 16 (ar, en, ur); 16 needs_source marks; 13 new `about` edges. Quran verses referenced only through passage links (32-8, 5-54, 25-70, 20-84, 12-24, 26-89, 18-18); none typed.
+
+| Excluded (ajaeb-al-kulub ep13-16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep13 00:00:00, 00:06:00; ep14 00:00:00, 00:06:00 (supplication); ep15 00:00:00, 00:06:00; ep16 00:00:00 (greeting), 00:06:00 (supplication) | Not lesson content | Content rule | Open |
+| Repetition loops, non-speech and garbled windows | ep14 00:01:00 (a very long loop of one letter in the middle of the camel narration), 00:06:30 (non-speech "Oh."), 00:04:00 (a half-clear remark on the book hung on the neck); ep15 00:01:00 (a loop and a half-clear description of the first branch), 00:03:00 (an aside asking viewers to write along), 00:05:00 (a garbled clause); ep16 00:06:00 (garbled names other than Abu Lahab, including a name read as the grandfather of the Prophet, left out because the reading is unclear) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ajaeb-al-kulub episode 17 (branch from origin/main).
 ### al-naba-al-safi, episode 18 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-7)
 
 Episode 18 read in full (49 min of transcript) before writing. 18 points written (ar, en, ur); new `about` edges for the people and passages named; 16 needs_source (unchained hadiths, sayings and accounts in sense, an unsourced statistic).
