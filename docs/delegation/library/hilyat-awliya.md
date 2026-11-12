@@ -845,3 +845,17 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 672 (printed) | 393 | the report from Ibn Umar | the wording is a quoted report with an honorific formula | described only; not typed |
 | 672 (printed) | 393 | the chain's garbled name ("العباس أحمد بن #") | garbled in the scan | not given |
+
+## Batch 95 (run microsd-books-b95, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 393 (full text read before writing). New draft: person/abd-al-wahhab-ibn-al-mundhir-al-dabbi (printed 673, sequence 674, 10/393). No existing record of the name; the existing "abd-al-wahhab-al-musawwir" is another man.
+- The Qur'an verse on seeking forgiveness is referred to by sense only; no honorific is typed.
+- Printed 674 (Hamid ibn al-Musayyab, called Shadhah, the muezzin of the main mosque, on 394) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 95)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 673 (printed) | 393 | the chain's narrator "أبو عبد الله" | the name is not given | recorded as "Abu Abd Allah" as in the text |
+| 673 (printed) | 393 | the verse of seeking forgiveness | Qur'an text is never typed | referred to by sense |
