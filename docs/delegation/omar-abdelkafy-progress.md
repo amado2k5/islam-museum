@@ -2016,3 +2016,15 @@ Next step: episode 21.
 | Openings, greetings, break announcements, supplications and the long closing prayer | ep20 00:00:00–00:01:30, 00:17:30–00:18:00, 00:35:00–00:35:30, 00:47:00–00:48:30 | Not lesson content | Content rule | Open |
 | Repetition loops and garbled windows | ep20 00:02:00, 00:19:30–00:20:30, 00:24:30, 00:26:30, 00:27:30, 00:39:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Private caller details, noisy or interrupted calls and an off-topic personal question | ep20 00:37:00–00:40:00, 00:41:30–00:44:30 | Generalised or left out | Privacy | Open |
+
+### ajaeb-al-kulub ep21-ep24 (12 Nov 2026)
+
+30 points written for episodes 21 to 24 (ar, en, ur); 15 needs_source marks; 7 new `about` edges. Quran verses referenced only through passage links (49-7, 18-110, 39-53, 59-10, 59-9, 36-20, 36-26); none typed. Proposal for the founder, not applied: ep22 00:03:00 holds the lecturer's judgement that a person who misses the dawn prayer is of little worth to God; it is described as his opinion, the record stays `sensitivity: contested`.
+
+| Excluded (ajaeb-al-kulub ep21-24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep21 00:00:00 (a closing supplication belonging to the previous episode), 00:05:30; ep22 00:00:00, 00:05:00; ep23 00:00:00, 00:05:30 (supplication); ep24 00:05:30 (supplication), 00:06:00 | Not lesson content | Content rule | Open |
+| Sponsor and promotional lines naming a museum | ep21 00:04:00, 00:04:30, 00:06:00 | Sponsor line, not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep22 00:02:00 (a long loop after the remark on old age); ep23 00:01:30 (a very long loop in the middle of the Ibn al-Qayyim quotation), 00:03:00 (a half-clear sentence on prayer and worship); ep24 00:00:30 (garbled verses, not quoted), 00:05:00 (a half-clear remark) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ajaeb-al-kulub episode 25 (branch from origin/main).
