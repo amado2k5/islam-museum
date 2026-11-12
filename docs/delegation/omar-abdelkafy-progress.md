@@ -534,3 +534,23 @@ The lecturer's opinion on abortion, adoption and the scientific readings of the 
 | Supplications and sign-off | ep10 00:30:30, 00:37:00 | Not lesson content | Content rule | Open |
 
 Resume point: episode 11 (branch from origin/main).
+
+Resume point: episode 07 (branch from origin/main).
+
+### albuyout-alamena, episodes 4–5 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-2)
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep04–ep05 (the legal viewing and frankness; the start of married life, "that you may find tranquillity in them") | about 46 min, 41 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 26 points | 21 new `about` edges (khitba, mahr, hiba, zulm, Ibn Khaldun, Ibn Hazm, Ahmad ibn Hanbal, Abu Hanifa, Ibn Taymiyya, Abu Bakr, passages 21:90, 30:21, 3:123, 42:49–50) | ep04 13, ep05 13 points; engine qwen3-asr pass5, 30 s windows | 9 needs_source: ep04 call details (00:31:00), the Prophet and Aisha and al-Hasan al-Basri accounts (00:42:00), the greatest-betrayals report (00:44:00); ep05 the coma news item (00:02:30), Ibn Khaldun attribution (00:05:30), wedding-night prayer form (00:10:30), figures on divorce and assault (00:18:00), Abu Bakr's saying (00:24:00), call details (00:27:30) | run omar-abdelkafy-albuyout-2 |
+
+Next step: episode 6.
+
+| Excluded (albuyout-alamena ep04–ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep04 00:00:00–00:01:30, 00:16:00, 00:30:30–00:31:00, 00:46:00–00:46:30; ep05 00:00:00–00:00:30, 00:12:00–00:12:30, 00:26:30–00:27:00, 00:40:00–00:40:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep04 00:08:30, 00:10:00, 00:17:00, 00:18:30, 00:27:00, 00:29:00 (partial), 00:35:30; ep05 00:08:30, 00:11:00, 00:11:30, 00:16:00–00:16:30, 00:28:00, 00:34:30, 00:38:00 | Not speech | Loop check | Open |
+| Hadith and supplication wording | ep04 00:04:30, 00:15:00; ep05 00:10:30, 00:34:00 | Wording not typed; reported by sense only | Hadith rule | Open |
+| Poetry recited (the Amr ibn Kulthum boast) | ep05 00:07:00 | Verbatim verse, partly garbled | Sources policy; clarity | Open |
+| Calls and answers too garbled to read | ep04 00:31:00–00:36:30 (in part), ep05 00:27:30–00:36:00 (in part), ep05 00:38:00 | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Questions outside the episode (Qur'anic water, plastic Qur'an copies, books for children) | ep04 00:34:00–00:35:00 | Off topic; the lecturer redirects them | Scope | Open |
+| Ruling on the prohibiting oath before consummation | ep05 00:29:30–00:30:00 | Answer not clear in the recording | Clarity | Open |
