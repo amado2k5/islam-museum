@@ -8,6 +8,7 @@ Read this before you change anything under `site/`, `i18n/`, `scripts/validate.t
 | [`design-and-accessibility.md`](design-and-accessibility.md) | You touch colour, type, headings, cards, the header or the menu, or anything at phone width. |
 | [`dates-timeline-maps.md`](dates-timeline-maps.md) | You touch a date, a Hijri value, the time wing, the timeline strip, or a map. |
 | [`checks.md`](checks.md) | A build or validate step fails, or you want to add a rule. |
+| [`place-map-review.md`](place-map-review.md) | You touch the Place wing map: what was wrong with it in November 2026, what was done, what is left. |
 | [`browsers.md`](browsers.md) | You add or change a browser or explorer (Time Browser, Job Browser, Inventions, Fatwa, Khutab, Poetry, Screening Room, Modern Islam, …): the register of what each has and will have, and the graph, API and search rule with its checklist. |
 
 ## Checklist for any site or data change
@@ -66,6 +67,7 @@ Every browser or explorer is a front door over the one graph, never a dataset of
 | Timeline strip | `site/src/components/TimeStrip.astro` |
 | Feature pages `/future/` (2077 imagination) and `/world/` (the Muslim world today: dataset `site/src/data/muslim-world.json`, flags `WorldFlag.astro`, landing teasers `FutureStrip.astro`/`WorldStrip.astro`); page styles are scoped inside the page/components — never added to `global.css`, which is inlined into every page and would change every page's weight | `site/src/pages/[lang]/future/index.astro`, `site/src/pages/[lang]/world/index.astro`, `site/src/components/FutureScenes.astro` |
 | Schematic map and its basemap | `site/src/components/MiniMap.astro`, `site/src/data/basemap-mena.json`, `scripts/map/build_basemap.py` |
+| The Place wing map (`/[lang]/place/`): data model, static picture and index, fetched data files, plain script and styles | `site/src/lib/place-map.ts`, `site/src/components/PlaceMap.astro`, `site/src/pages/[lang]/place-map/[file].json.ts`, `site/public/shell/place-map.js`, `site/public/shell/place-map.css`; rules in [`dates-timeline-maps.md`](dates-timeline-maps.md) |
 | Hijri ↔ civil conversion | `scripts/hijri/convert.ts` |
 | Data and content lints | `scripts/validate.ts` |
 | Rendered-output assertions | `scripts/check-site.ts` |
