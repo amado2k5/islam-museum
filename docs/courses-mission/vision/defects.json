@@ -133,10 +133,10 @@
    "where": "Body text and bar help text",
    "defect": "Possible: body copy is about 22 px and the bar help text about 12 px, which looks small for a classroom projector; the full site title and progress header also stay visible and use space.",
    "decision": "fix",
-   "confirmed_in": "round-3",
-   "verdict": "still present",
-   "seen": "ar-desktop-state-classroom-1 and -3: the body text is now large (about 28 px) and the hero is a thin strip, but the bar help text \"استعمل مفاتيح الأسهم والأزرار. مفتاح Esc يخرج.\" is still about 12 px, small for a projector.",
-   "status": "still present"
+   "confirmed_in": "round-4",
+   "verdict": "gone",
+   "seen": "en-desktop-state-classroom-1/3.jpg and ar-desktop-state-classroom-1/3.jpg: the bar help text (\"Use the arrow keys or the buttons. Esc leaves.\" / its Arabic) is clearly readable, about the size of the button labels. The top strip is slim (about 64 px) and holds only the lesson title; no site header or progress header is visible. Body text is large.",
+   "status": "closed"
   },
   {
    "id": "AR-12",
@@ -765,9 +765,9 @@
    "where": "lesson 1 card",
    "defect": "\"✓ Done\" sits below the tag row, pushing the first card's tags and text out of alignment with card 2 and 3.",
    "decision": "fix",
-   "confirmed_in": "round-3",
+   "confirmed_in": "round-4",
    "verdict": "still present",
-   "seen": "en-desktop-state-map-progress-1of2: card 1 now has its tags and \"Done\" below, but the tag row of cards 1 and 2 sits at y about 917 while cards 3 and 4 have it at y about 945, so tags still do not line up across the row.",
+   "seen": "en-desktop-state-map-progress-1of2.jpg: \"Done\" now sits below the tag row, but the tags of cards 1 and 2 (the cards carrying \"Done\" / \"Next up\") are at y about 928-946 while the tags of cards 3 and 4 are at y about 932-949, so the tag row is about 4 px higher than in cards 3 and 4. The same offset is in ar-desktop-state-map-progress-1of2.jpg (cards 1 and 2 about 4 px higher than 3 and 4).",
    "status": "still present"
   },
   {
@@ -844,9 +844,9 @@
    "where": "lesson cards",
    "defect": "Card text and tags are not aligned across a row: cards with a one-line title leave a larger gap before the description, and the tag rows sit at different heights (cards 1 to 4, 5 to 8, 9 to 12).",
    "decision": "fix",
-   "confirmed_in": "round-3",
-   "verdict": "still present",
-   "seen": "en-desktop-map-1of2: rows 2, 3 and 4 line up, but in row 1 card 1's tag row (y about 936) is about 4 px higher than cards 2 to 4 (y about 940); in en-desktop-state-map-progress-1of2 the mismatch is larger. Description start heights differ with one-line versus two-line titles, as before.",
+   "confirmed_in": "round-4",
+   "verdict": "still present (partly)",
+   "seen": "en-desktop-map-1of2.jpg: tag rows are level in every row (y about 932-949 in cards 1-4, same in 5-8, 9-12, 13-16), so the plain map is fixed. But en-desktop-state-map-progress-1of2.jpg (and the Arabic twin) still shows the 4 px tag-row offset between cards 1-2 and cards 3-4 described under EN-37.",
    "status": "still present"
   },
   {
@@ -1227,7 +1227,21 @@
    "where": "classroom title strip, y about 15 to 45",
    "defect": "The page title (\"What is biodiversity?\" / \"ما التنوع الحيوي؟\") in the new thin strip is cut by the curved lower edge of the hero: the bottoms of the letters and the question mark are sliced off, worst in en-phone-state-classroom-1 and -3.",
    "decision": "fix",
-   "status": "awaiting a later reviewer"
+   "confirmed_in": "round-4",
+   "verdict": "gone",
+   "seen": "en-desktop-state-classroom-1/3.jpg, en-phone-state-classroom-1/3.jpg, ar-desktop-state-classroom-1/3.jpg, ar-phone-state-classroom-1/3.jpg: the title (\"What is biodiversity?\" / \"ما التنوع الحيوي؟\") sits fully inside the strip with clear space below it; no letter bottoms or question mark are cut, including on the phone images.",
+   "status": "closed"
+  },
+  {
+   "id": "NQ-1",
+   "found_in": "round-4",
+   "severity": "low",
+   "file": "en-phone-state-map-progress-1of3.jpg, ar-phone-state-map-progress-1of2.jpg, en-tablet-map-1of2.jpg, ar-tablet-map-1of2.jpg",
+   "where": "lesson cards with short text",
+   "defect": "Cards keep a large empty band under the tag row (about 40-50 px) because card height follows the tallest card or a minimum height; looks unbalanced but nothing is clipped.",
+   "decision": "register",
+   "reason": "By design: every lesson card keeps one line free under its tags for 'Done' or 'Next up', so the cards of a row stay level when progress appears (the fix for EN-37 and EN-44).",
+   "status": "registered"
   }
  ]
 }
