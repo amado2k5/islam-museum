@@ -16,6 +16,7 @@ translations:
   en: { text: "By the Mount,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(کوہ) طور کی قسم", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: place/tur-sina, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-52 }
   - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
