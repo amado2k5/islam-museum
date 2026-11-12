@@ -390,3 +390,17 @@
 | 511 (printed) | 146 | "فأولئك أولئك" | the repetition is in the scan; the sense is clear | given as the saying reads |
 | 512 (printed) | 147 | "أخا خالد" | read as the brother of Khalid, who is not otherwise named | given as read; flagged for revision |
 | 512 (printed) | 147 | the names of the chain ("إبراهيم بن محمد بن يحي", "سليمان بن موسى") | legible but some letters broken | the names given as read, the rest omitted |
+
+## Batch 63 (run microsd-books-b63, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 147–150 (full text read before writing). New draft, printed number kept with the sequence number noted: person/zuhayr-ibn-numayr-al-babi (printed 513, sequence 514, 10/147–150). The notice is long and runs to the top of page 150. Printed 514 (Muhammad ibn Ishaq al-Kufi, who guarded his hours and grieved over their loss) begins on 10/150 and is next.
+- The Qur'anic verse on the absence of lineages on the Day of Resurrection, which Zuhayr answers with, is referred to by its sense only; the Qur'an text is never typed. The poem's line is paraphrased.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 63)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 513 (printed) | 149 | the narrator of the accusation "عبد الرحمن بن ممر" | the name reads as "عمر" (the scan renders عمر as ممر elsewhere) | given as Abd al-Rahman ibn Umar; flagged for revision |
+| 513 (printed) | 148 | the couplet Zuhayr often recited | the couplet is paraphrased, not quoted | paraphrased in the prose |
+| 513 (printed) | 149 | the words "ويخطئ" and the tail of the saying about hearing a beating | cut at the foot of page 149 | the saying is given to its end on page 150 |
+| 513 (printed) | 148 | the chain between "ثم قال: حدثني ممدي" and the plague account | the narrator's name ("ممدى", maternal uncle or kinsman) is unclear | the uncle is named as the source of the plague account in the prose only as "a kinsman", with the scan's name not given |
