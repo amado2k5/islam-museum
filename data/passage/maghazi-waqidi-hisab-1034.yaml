@@ -1,0 +1,17 @@
+id: passage/maghazi-waqidi-hisab-1034
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "1034"
+label: { ar: "كتاب المغازي للواقدي ص 1034 — قيراط الأجر", en: "al-Waqidi's Kitab al-Maghazi, p. 1034 — the qirat of reward", ur: "کتاب المغازی للواقدی ص 1034 — اجر کا قیراط" }
+text: "… عليه وسلَّم. : رحم اللّٰه حَرَسَ الحَرَسِ فى سبيل الله ! قال : فلكم قيراط من الأَجر على كلّ مَن حَرَستم من الناس جميعاً أَو دابّةٍ . قالوا : وقدم نَفَرٌ من بنى سعد هُدَيم على رسول اللّه صلّى اللَّه …"
+summary:
+  ar: "مقطع من كتاب المغازي للواقدي، ص 1034، يذكر قيراط الأجر؛ من النسخة المستخرجة، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Waqidi's Kitab al-Maghazi, p. 1034, that speaks of the qirat of reward; from the extracted copy, quoted within forty words per the sources policy."
+  ur: "کتاب المغازی للواقدی کے صفحہ 1034 کا اقتباس جس میں اجر کا قیراط کا ذکر ہے؛ نکالی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "كتاب المغازي للواقدي ص 1034 — صفحة معدودة العمل، مفحوصة بالكاشف ومراجعة يدويا؛ مقتطف أقل من أربعين كلمة", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "hisab-seerah-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label, summary and excerpt are the museum's own words" }
