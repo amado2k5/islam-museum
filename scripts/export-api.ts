@@ -18,6 +18,7 @@ import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassa
 import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPassage, eschatologyTopicsOf } from "./eschatology.js";
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
 import { MIRACLES_TAG, MIRACLE_SECTIONS, MIRACLE_SUBJECTS, MIRACLE_SUBJECT_SET, MIRACLE_TOPIC_KIND, MIRACLE_TOPIC_SUBJECTS, miracleTopicsOf, miracleCorpusOf, miracleTagSection, type MiracleTopic } from "./miracles.js";
+import { QURUN_TAG, QURUN_SECTIONS, QURUN_SUBJECTS, QURUN_SUBJECT_SET, QURUN_TOPIC_KIND, QURUN_TOPIC_SUBJECTS, qurunTopicsOf, qurunCorpusOf, qurunTagSection, type QurunTopic } from "./qurun.js";
 import { DUA_TAG, duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, isDuaPassage, type DuaKind } from "./dua.js";
 import { IBADAT_TAG, ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTopicsOf, isIbadatPassage, type IbadatKind } from "./ibadat.js";
 import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNubuwatPassage, nubuwatTopicsOf } from "./nubuwat.js";
@@ -413,6 +414,8 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
   out["messengers.json"] = { generated: c.generated, feature: "messengers-browser", subjects: msg.subjects, items: msg.items };
   const muj = miracleApiData(c, edgesFrom, byId);
   out["miracles.json"] = { generated: c.generated, feature: "miracles-browser", subjects: muj.subjects, items: muj.items };
+  const qur = qurunApiData(c, edgesFrom, byId);
+  out["qurun.json"] = { generated: c.generated, feature: "qurun-browser", subjects: qur.subjects, items: qur.items };
   out["madhahib.json"] = { generated: c.generated, feature: "madhahib-browser", items: madhahibRows(c, edgesFrom) };
   out["places.json"] = { generated: c.generated, feature: "places-browser", items: placesRows(c, edgesFrom, byId) };
   return out;
@@ -752,6 +755,59 @@ function miracleApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: 
   const sectionRank = (s: unknown) => (MIRACLE_SECTIONS as readonly string[]).indexOf(String(s));
   items.sort((a, b) => sectionRank(a.section) - sectionRank(b.section) || String(a.id).localeCompare(String(b.id)));
   const subjects = MIRACLE_SUBJECTS.map((id) => {
+    const node = byId.get(id);
+    if (!node || node.stub) return null;
+    const passages = (subjectPassages.get(id) ?? []).sort((a, b) => sectionRank(a.section) - sectionRank(b.section) || a.id.localeCompare(b.id));
+    const counts = { quran: 0, sunnah: 0, seerah: 0, books: 0 };
+    for (const p of passages) if (p.section in counts) counts[p.section as keyof typeof counts]++;
+    return { id, label: node.label, summary: node.summary, status: node.data.status?.review, counts, passages: passages.map((p) => p.id) };
+  }).filter((x): x is NonNullable<typeof x> => !!x);
+  return { items, subjects };
+}
+
+/** The Centuries, Years and Months Browser's API rows: detected/class-edge passages plus curated records, and the subject index (docs/plan/54-qurun-browser.md). */
+function qurunApiData(c: Compiled, edgesFrom: Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>, byId: Map<string, Node>) {
+  const real = c.nodes.filter((n) => !n.stub);
+  const edgeSubjects = new Map<string, Set<string>>();
+  for (const e of c.edges) {
+    if (e.type !== "mentions" || !e.from.startsWith("passage/") || !QURUN_SUBJECT_SET.has(e.to)) continue;
+    const set = edgeSubjects.get(e.from) ?? new Set<string>();
+    set.add(e.to);
+    edgeSubjects.set(e.from, set);
+  }
+  const genreOf = (workId: string | undefined): string[] | undefined =>
+    workId ? (byId.get(workId)?.data.genre as string[] | undefined) : undefined;
+  const items: Record<string, unknown>[] = [];
+  const subjectPassages = new Map<string, { id: string; section: string }[]>();
+  for (const n of real) {
+    if (n.class === "passage") {
+      const corpus = qurunCorpusOf(n.data.work as string | undefined, genreOf(n.data.work as string | undefined), n.data.unit as string | undefined);
+      const detected = qurunTopicsOf(n, corpus);
+      const edges = edgeSubjects.get(n.id) ?? new Set<string>();
+      if (detected.length === 0 && edges.size === 0) continue;
+      const subjects = [...new Set([...detected.flatMap((t) => QURUN_TOPIC_SUBJECTS[t] ?? []), ...edges])];
+      const kinds = detected.map((t) => QURUN_TOPIC_KIND[t]);
+      const kind = kinds.includes("period") ? "period" : "mention";
+      const picked = Object.fromEntries(["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"].filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
+      items.push({ ...compact(n), ...picked, section: corpus, kind, subjects, topics: detected, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) });
+      for (const s of subjects) {
+        if (!QURUN_SUBJECT_SET.has(s)) continue;
+        const list = subjectPassages.get(s) ?? [];
+        list.push({ id: n.id, section: corpus });
+        subjectPassages.set(s, list);
+      }
+      continue;
+    }
+    if (n.tags.includes(QURUN_TAG)) {
+      items.push({
+        ...compact(n), kind: n.data.kind, wings: n.wings, themes: n.themes, tags: n.tags,
+        section: qurunTagSection(n), subjects: [], topics: [], kind2: undefined, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}),
+      });
+    }
+  }
+  const sectionRank = (s: unknown) => (QURUN_SECTIONS as readonly string[]).indexOf(String(s));
+  items.sort((a, b) => sectionRank(a.section) - sectionRank(b.section) || String(a.id).localeCompare(String(b.id)));
+  const subjects = QURUN_SUBJECTS.map((id) => {
     const node = byId.get(id);
     if (!node || node.stub) return null;
     const passages = (subjectPassages.get(id) ?? []).sort((a, b) => sectionRank(a.section) - sectionRank(b.section) || a.id.localeCompare(b.id));
