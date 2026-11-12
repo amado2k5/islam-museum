@@ -1678,6 +1678,10 @@ explore:
       title: "Paradise Browser"
       desc: "Every mention of Paradise (al-janna) in the Qur'an, the Sunnah, the seerah and every harvested book — al-Firdaws, the gardens of 'Adn, Dar al-Salam, its rivers, gates, degrees, soil and people, and every report of the Companions and Successors — with every verse and report cited."
       menu: "Browse Paradise in the Qur'an, hadith and books"
+    usra:
+      title: "Family and Marriages Browser"
+      desc: "The famous marriages in Islam, the Muslim family and its daily life — every mention of marriage, spouses and children, dwellings, livelihood and social customs in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
+      menu: "Browse marriages, families and daily life in the Qur'an and books"
     islamiceconomy:
       title: "Islamic Economy Browser"
       desc: "Every mention of money and Islamic economics, deeds and covenants, and endowment in the Qur'an, the Sunnah, the seerah and every harvested book — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — with every verse and report cited."
@@ -3528,6 +3532,43 @@ janna:
     curated:
       title: "Curated records"
       desc: "The museum's own records about Paradise — its names, gates, rivers, soil, degrees and people — shared through the janna-browser tag."
+usra:
+  title: "Family and Marriages Browser"
+  lede: "The famous marriages in Islam and the Muslim family in the museum's sources: the marriages of the Prophet and the Companions, the spouses and children of Muslim homes, their dwellings and rooms, their livelihood and maintenance, the details of their daily life — sleep, clothing, food and service — and their social customs — asking permission, neighbours, guests, gifts and companionship in good faith — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, the reports of the Companions and the Successors, and every harvested book — sourced records that grow as new texts land."
+  badge: Family and marriages explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Family-life mentions are found at build time by a guarded lexicon over the passage texts in six families: marriage (نكاح، زواج، زوجة، مهر، وليمة، عرس), the family and children (أسرة، عيال، بنون، أولاد، ذرية، والدين، رضاعة), dwellings (مسكن، مساكن، حجرات، بيتهم، دارهم), livelihood (معيشة، قوت، نفقة، كسوة، رزقهم), daily life (نوم، ثياب، خادم، فراش، سفرة) and social customs (استئذان، جار، ضيف، هدية، معروف، مجلس). The ambiguous words are guarded: «زوج» and «بعل» count only beside marriage vocabulary, «بيت» only in its home plural and possessive forms, «دار» only possessed, «صداق» only beside marriage words, and verified false positives are excluded by id; every book harvested later brings its family-life reports here automatically when its passages land in the graph, and curated records join through the usra-browser tag. The famous marriages are read from the graph's own spouse_of edges."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  couples_title: "The famous marriages"
+  couples_desc: "Marriage pairs from the museum's own graph: every record joined to its spouse by a cited spouse_of edge — the Prophet's marriages, the marriages of the Companions and the Successors, and the couples of the books."
+  filter_label: Filter family and marriage records
+  filter_none: No matches.
+  empty: No family records in this build yet.
+  topics:
+    zawaj: "Marriages"
+    usra: "Family"
+    maskan: "Dwellings"
+    maisha: "Livelihood"
+    yawmi: "Daily life"
+    adat: "Social customs"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Marriage, family and home in the Qur'an: «وأنكحوا الأيامى منكم»، «فانكحوا ما طاب لكم من النساء»، «لتسكنوا إليها»، «واجعل بينكم مودة ورحمة»، the verses of the mahr and the walima, the isti'dhan verses of al-Nur, «يا أيها الذين آمنوا لا تدخلوا بيوت النبي»، and the households of the prophets."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The Prophet's marriages and household in the two Sahihs, the Muwatta and the Sunan: the walima feasts, the mahr reports, the manners of the home and the family, the rights of spouses and children, hospitality and neighbours, and every report on Muslim daily life."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of marriages, households and daily life — the Prophet's weddings, the Companions' homes in Madina, the reports of living and earning — this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Family-life reports in every harvested work beyond the Qur'an, hadith and seerah — fiqh, adab, history, biography and poetry — classified by the work's genre the day its passages land."
+    curated:
+      title: "Records about the Muslim family"
+      desc: "The museum's curated records about marriage, family, dwellings, livelihood and customs themselves: nikah, mahr, walima, the aqiqa, the forms of marriage, the manners of the home and the guest."
 nar:
   title: "The Fire Browser"
   lede: "Every mention of the Fire in the museum's sources: the verses of the Fire and its names — Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya and al-Sa'ir — the reports of its torment, keepers, fuel, zaqqum and boiling water, and the bridge over it, the «اتقوا النار» formulas of the Sunnah, the sayings of the Companions and the Successors, and this world's fire on its own shelf: Ibrahim's fire, the fire of Musa's tree, and the fire of war and cooking — in every harvested book, growing as new texts land."
