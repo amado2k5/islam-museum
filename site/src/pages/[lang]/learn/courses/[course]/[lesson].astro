@@ -1,0 +1,179 @@
+---
+// One lesson as a loop (docs/courses-mission/DESIGN.md): the goal in plain words, the enrichment woven at its
+// before / within / after positions, the graph one tap from every card, and a self-check that closes the loop.
+// Complete and readable with no script: the steps are anchors, the check is radios and <details>, next and previous are links.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../../components/PageHeader.astro";
+import CoursesStyle from "../../../../../components/CoursesStyle.astro";
+import CourseCard from "../../../../../components/CourseCard.astro";
+import { ui, fmt, type Lang } from "../../../../../lib/i18n";
+import { labelOf, summaryOf, href } from "../../../../../lib/graph";
+import { num } from "../../../../../lib/nav";
+import { COURSE_LANGS, courses, coursePath, lessonPath, homePath, slugOf, lessonView, langName, type Course } from "../../../../../lib/courses";
+import type { Node } from "../../../../../../../scripts/build-graph";
+
+export function getStaticPaths() {
+  return COURSE_LANGS.flatMap((lang) => courses.flatMap((c) => c.lessons.map((l) => ({ params: { lang, course: slugOf(c.subject), lesson: slugOf(l) }, props: { lang, c, l } }))));
+}
+const { lang, c, l } = Astro.props as { lang: Lang; c: Course; l: Node };
+const T = ui(lang);
+const C = T.courses;
+const v = lessonView(c, l, lang);
+const title = labelOf(l, lang);
+const courseTitle = labelOf(c.subject, lang);
+const steps = [
+  { id: "goal", label: C.goal_title, on: true },
+  { id: "before", label: C.step_before, on: v.before.length > 0 },
+  { id: "learn", label: C.step_learn, on: v.woven.length > 0 || !!v.tryThis },
+  { id: "after", label: C.step_after, on: v.after.length > 0 },
+  { id: "check", label: C.step_check, on: true },
+].filter((s) => s.on).map((s, i) => ({ ...s, n: num(i + 1, lang) }));
+const stepN = (id: string) => steps.find((s) => s.id === id)?.n;
+const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
+---
+<BaseLayout lang={lang} title={`${title} · ${courseTitle}`} description={summaryOf(l, lang)} path={lessonPath(lang, c, l)} alternates={{ ar: lessonPath("ar", c, l), en: lessonPath("en", c, l), ur: href("ur", l.id) }}>
+  <div data-pagefind-body>
+    <PageHeader title={title} lede={summaryOf(l, lang)} crumbs={[{ label: T.syllabus.title, href: homePath(lang) }, { label: courseTitle, href: coursePath(lang, c) }, ...(v.strand.node ? [{ label: labelOf(v.strand.node, lang) }] : [])]} crumbsLabel={T.entity.breadcrumb} wing="ideas" titleAttrs={{ "data-pagefind-meta": "title" }}>
+      <p class="cx-where">
+        <span>{fmt(C.lesson_n_of, { i: num(v.strandIndex + 1, lang), n: num(v.strandTotal, lang) })}</span>
+        <span class="cx-dots" aria-hidden="true">{v.strand.lessons.map((_x, k) => <span class={`cx-dot${k <= v.strandIndex ? " on" : ""}`}></span>)}</span>
+        <span>{fmt(C.in_course, { i: num(v.index + 1, lang), n: num(v.total, lang) })}</span>
+      </p>
+    </PageHeader>
+  </div>
+  <CoursesStyle />
+  <nav class="cx-steps no-print" aria-label={C.steps_label}>
+    <ol class="wrap">{steps.map((s) => <li><a href={`#${s.id}`}><i>{s.n}</i> {s.label}</a></li>)}</ol>
+  </nav>
+  <div class="wrap cx" data-cx="lesson" data-cx-course={slugOf(c.subject)} data-cx-lesson={slugOf(l)} data-cx-title={`${title} · ${courseTitle}`} data-cx-href={lessonPath(lang, c, l)} data-cx-next-href={v.next ? lessonPath(lang, c, v.next) : undefined} data-cx-next-title={v.next ? `${labelOf(v.next, lang)} · ${courseTitle}` : undefined}>
+    <div class="cx-tools no-print ui">
+      <button type="button" class="cx-btn" data-cx-print hidden>{C.print}</button>
+      <button type="button" class="cx-btn" data-cx-present hidden>{C.classroom}</button>
+      <a class="cx-btn" href={coursePath(lang, c)}>{C.course_map}</a>
+    </div>
+    <p class="cx-draft ui">{C.draft_note}</p>
+    <div class="cx-layout">
+    <div class="cx-loop">
+      <section class="cx-step" id="goal" data-cx-step>
+        <h2><i aria-hidden="true">{stepN("goal")}</i> {C.goal_title}</h2>
+        {v.brief && <div class="cx-brief" lang={v.proseLang} dir={proseDir} set:html={v.brief} />}
+        {v.expectations.length > 0 && (
+          <>
+            <p class="cx-hint ui">{C.expectations_note}</p>
+            <ul class="cx-exp">
+              {v.expectations.map((e) => (
+                <li>
+                  <span class="cx-code ltr" dir="ltr">{e.code}</span>
+                  <span lang={e.textLang} dir={e.textLang === "ar" || e.textLang === "ur" ? "rtl" : "ltr"}>{e.text}</span>
+                  {!e.translated && <span class="cx-untr ui">{fmt(C.official_wording, { lang: langName(e.textLang, lang) })}</span>}
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+      </section>
+
+      {v.before.length > 0 && (
+        <section class="cx-step" id="before" data-cx-step>
+          <h2><i aria-hidden="true">{stepN("before")}</i> {C.before_title}</h2>
+          <p class="cx-hint">{C.before_hint}</p>
+          <div class="cx-stack">{v.before.map((k) => <CourseCard c={k} lang={lang} />)}</div>
+        </section>
+      )}
+
+      {(v.woven.length > 0 || v.tryThis) && (
+        <section class="cx-step" id="learn" data-cx-step>
+          <h2><i aria-hidden="true">{stepN("learn")}</i> {C.learn_title}</h2>
+          <div class="cx-thread">
+            {v.woven.map((w) => w.type === "section"
+              ? <div class="cx-sec" lang={v.proseLang} dir={proseDir}><h3>{w.section.heading}</h3><div set:html={w.section.html} /></div>
+              : <CourseCard c={w.conn} lang={lang} within />)}
+            {v.tryThis && <div class="cx-try" lang={v.proseLang} dir={proseDir}><h3>{C.try_title}</h3><div set:html={v.tryThis.html} /></div>}
+          </div>
+        </section>
+      )}
+
+      {v.after.length > 0 && (
+        <section class="cx-step" id="after" data-cx-step>
+          <h2><i aria-hidden="true">{stepN("after")}</i> {C.after_title}</h2>
+          <p class="cx-hint">{C.after_hint}</p>
+          <div class="cx-stack">{v.after.map((k) => <CourseCard c={k} lang={lang} />)}</div>
+        </section>
+      )}
+
+      <section class="cx-step" id="check" data-cx-step>
+        <h2><i aria-hidden="true">{stepN("check")}</i> {C.check_title}</h2>
+        <p class="cx-hint">{C.check_hint}</p>
+        {v.check.recognise && (
+          <fieldset class="cx-q">
+            <legend>{C.q_recognise}</legend>
+            {v.check.recognise.options.map((o, k) => (
+              <div class="cx-opt">
+                <input type="radio" name="cx-recognise" id={`cx-r${k}`} />
+                <label for={`cx-r${k}`}>{o.label}</label>
+                <p class={`cx-fb ${o.right ? "ok" : "no"}`} role="status">{o.right ? C.right : C.wrong}</p>
+              </div>
+            ))}
+          </fieldset>
+        )}
+        {v.check.tellBack.map((t) => (
+          <div class="cx-tell">
+            <p>{fmt(C.tell_back, { subject: t.subject })}</p>
+            <details><summary>{C.tell_back_reveal}</summary><p><b>{t.answerTitle}.</b> {t.answer}</p></details>
+          </div>
+        ))}
+        {v.expectations.length > 0 && (
+          <>
+            <p class="ui" style="font-weight:600;margin:0 0 4px">{C.i_can}</p>
+            <ul class="cx-can">
+              {v.expectations.map((e, k) => (
+                <li><label for={`cx-can${k}`}><input type="checkbox" id={`cx-can${k}`} /><span class="cx-code ltr" dir="ltr">{e.code}</span><span style="flex:1"><span style="display:block" lang={e.textLang} dir={e.textLang === "ar" || e.textLang === "ur" ? "rtl" : "ltr"}>{e.text}</span>{!e.translated && <span class="cx-untr ui">{fmt(C.official_wording, { lang: langName(e.textLang, lang) })}</span>}</span></label></li>
+              ))}
+            </ul>
+          </>
+        )}
+        <div class="cx-donebar no-print">
+          <button type="button" class="cx-btn primary" data-cx-done hidden data-label-do={C.mark_done} data-label-undo={C.undo_done} aria-pressed="false">{C.mark_done}</button>
+          <span class="cx-state ui" data-cx-donestate data-done={`✓ ${C.done}`} role="status"></span>
+        </div>
+        <noscript><p class="cx-note ui">{C.nojs_lesson}</p></noscript>
+      </section>
+    </div>
+    <aside class="cx-rail no-print" aria-label={C.you_are_here}>
+      <p class="cx-rail-t ui">{C.you_are_here}</p>
+      <p class="cx-rail-c"><a href={coursePath(lang, c)}>{courseTitle}</a></p>
+      {v.strand.node && <p class="cx-rail-s">{labelOf(v.strand.node, lang)}</p>}
+      <ol class="cx-rail-l">
+        {v.strand.lessons.map((x) => (
+          <li><a href={lessonPath(lang, c, x)} data-cx-lesson={slugOf(x)} aria-current={x === l ? "page" : undefined}><span class="cx-num" aria-hidden="true">{num(c.lessons.indexOf(x) + 1, lang)}</span><span>{labelOf(x, lang)}</span></a></li>
+        ))}
+      </ol>
+      <p class="ui"><a href={coursePath(lang, c)}>{C.course_map} <span class="flip" aria-hidden="true">→</span></a></p>
+    </aside>
+    </div>
+
+    <nav class="cx-nav no-print" aria-label={C.course_map}>
+      {v.prev && <a class="cx-prev" href={lessonPath(lang, c, v.prev)} rel="prev"><small><span class="flip" aria-hidden="true">←</span> {C.prev}</small>{labelOf(v.prev, lang)}</a>}
+      {v.next
+        ? <a class="cx-next" href={lessonPath(lang, c, v.next)} rel="next"><small>{C.next} <span class="flip" aria-hidden="true">→</span></small>{labelOf(v.next, lang)}</a>
+        : <a class="cx-next" href={coursePath(lang, c)}><small>{C.finish_course}</small>{C.back_to_map} <span class="flip" aria-hidden="true">→</span></a>}
+    </nav>
+
+    {v.cites.length > 0 && (
+      <section class="cx-notes" aria-labelledby="cx-notes">
+        <h2 id="cx-notes" class="ui" style="font-size:.95rem">{C.notes}</h2>
+        <ol>{v.cites.map((n) => <li id={`note-${n.n}`}>{num(n.n, lang)}. {n.href ? <a href={n.href}>{n.label}</a> : n.label}{n.locator ? `, ${n.locator}` : ""}</li>)}</ol>
+      </section>
+    )}
+    <p class="ui muted no-print cx-recordlink" style="font-size:.85rem;margin-top:18px"><a href={href(lang, l.id)}>{C.record_page}</a></p>
+
+    <div class="cx-pres-bar" data-cx-presbar>
+      <button type="button" class="cx-btn" data-cx-pres-prev><span class="flip" aria-hidden="true">←</span> {C.classroom_prev}</button>
+      <output data-cx-pres-pos aria-live="polite" dir="ltr"></output>
+      <button type="button" class="cx-btn" data-cx-pres-next>{C.classroom_next} <span class="flip" aria-hidden="true">→</span></button>
+      <button type="button" class="cx-btn" data-cx-pres-exit>{C.classroom_exit}</button>
+      <span class="cx-pres-hint">{C.classroom_hint}</span>
+    </div>
+  </div>
+  <script is:inline src="/shell/courses.js" defer></script>
+</BaseLayout>

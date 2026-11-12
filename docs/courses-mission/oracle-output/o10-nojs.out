@@ -1,0 +1,13 @@
+ORACLE 10: with JavaScript disabled every lesson is reachable and readable (statement 10)
+run at commit 7c3125e96a5b0373c7de1a56734445442187ea49 on 2026-11-12 05:40 UTC; baseline 800467e93e; uncommitted paths under data/ content/ site/ i18n/ scripts/courses/: 0
+
+built site: .cache/courses-dist; browser: Chromium with JavaScript disabled, 390 px wide
+lesson pages expected (Arabic + English): 32; reached from the home by links alone within 3 steps: 32; readable in full: 32
+lessons with a recognition question: 22; answering without a script shows exactly one feedback line for every option: 22
+  [PASS] every lesson is reached from the courses home with scripts off — 32 of 32
+  [PASS] every lesson page is complete with scripts off: title, every step, every card with its text, the codes, the check, the way onward — 32 of 32
+  [PASS] no control that needs a script is shown when scripts are off
+  [PASS] the self-check answers without a script — 22 of 22
+  [PASS] the pages measured carry their stylesheet
+
+RESULT: GREEN (5 checks passed)
