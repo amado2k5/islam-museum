@@ -178,7 +178,10 @@ export function qiyamaSignalsOf(n: Node): string[] {
   for (const [name, re] of STRONG) if (re.test(raw)) hits.add(name);
   for (const [name, re] of WEAK) {
     for (const m of raw.matchAll(re)) {
-      const window = raw.slice(Math.max(0, m.index! - 60), m.index! + 90);
+      // The window excludes the matched token itself so a weak lexeme that also
+      // appears in CONTEXT (الساعة, حساب, ميزان…) cannot satisfy its own gate.
+      const end = m.index! + m[0].length;
+      const window = raw.slice(Math.max(0, m.index! - 60), m.index) + " " + raw.slice(end, end + 90);
       if (CONTEXT.test(window)) {
         hits.add(name);
         break;

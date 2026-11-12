@@ -422,9 +422,9 @@
     },
     "/jannas.json": {
       "get": {
-        "operationId": "getNar",
+        "operationId": "getJannas",
         "summary": "Paradise Browser dataset",
-        "description": "The Paradise Browser dataset (متصفح الجنة): every mention of the Paradise in the museum's sources — the hellParadise names (Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya, al-Hawiya, al-Sa'ir), its people, fuel, torment, keepers, food, drink and the Sirat over it, plus worldly Paradise (Ibrahim's Paradise, Musa's tree, the Paradise of war) — detected at build time plus the curated records tagged nar-browser, each with its section (quran, sunnah, seerah, books, dunya, curated), janna_kind (hellParadise or worldly), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "description": "The Paradise Browser dataset (متصفح الجنة): every mention of Paradise in the museum's sources — its Qur'anic names (al-Janna, Firdaws, Jannat al-Na'im, Dar al-Salam, Jannat Adn, al-Ma'wa, Jannat al-Khuld, Illiyyin), its gates, levels, rivers, food, drink, garments, spouses and eternity, plus worldly gardens (Adam's garden, the people's orchards) — detected at build time plus the curated records tagged janna-browser, each with its section (quran, sunnah, seerah, books, dunya, curated), janna_kind (garden or paradise), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
         "responses": {
           "200": {
             "description": "Every Paradise mention with section, kind, signals, work, ref, excerpt, themes and edges",

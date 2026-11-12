@@ -63,7 +63,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "qiyama.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiyama.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -432,8 +432,8 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
   });
 
   it("exports qiyama: detected passages by corpus and kind, gated ambiguous lexemes, exclusions, future-book inclusion", () => {
-    const dayAyah = makeNode("passage/quran-99-6x", "passage", { unit: "ayah", work: "work/quran", sura: 99, aya: 6, text: "يوميذ يصدر الناس أشتاتا ليروا اعمالهم" });
-    const scaleAyah = makeNode("passage/quran-101-6x", "passage", { unit: "ayah", work: "work/quran", sura: 101, aya: 6, text: "فاما من ثقلت موازينه فهو في عيشة راضية" });
+    const dayAyah = makeNode("passage/quran-99-6x", "passage", { unit: "ayah", work: "work/quran", sura: 99, aya: 6, text: "ان يوم الفصل كان ميقاتا يوميذ يصدر الناس أشتاتا" });
+    const scaleAyah = makeNode("passage/quran-101-6x", "passage", { unit: "ayah", work: "work/quran", sura: 101, aya: 6, text: "فاما من فثقلت موازينه يوم القيامة فهو في عيشة راضية" });
     const hashrHadith = makeNode("passage/muslim-7777x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "7777x", text: "يحشر الناس يوم القيامة حفاة عراة غرلا" });
     const siraPassage = makeNode("passage/sira-2x", "passage", { unit: "chapter", work: "work/sira-ibn-hisham", ref: "2", text: "وذكر فيها البعث والحساب يوم القيامة" });
     const siraWork = makeNode("work/sira-ibn-hisham", "work", { genre: ["sira"] });
