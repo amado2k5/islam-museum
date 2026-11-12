@@ -89,3 +89,6 @@
 
 ## Batch 18 (run microsd-books-b26, Claude Code / claude-fable-5-2)
 - Pages read: vol. 9 pp. 369–375. Enriched `person/dhu-al-nun-al-misri` (456, to 9/375). Notice continues from 9/376.
+
+## Batch 19 (run microsd-books-b27, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 376–382. Enriched `person/dhu-al-nun-al-misri` (456, to 9/382). Notice continues from 9/383.
