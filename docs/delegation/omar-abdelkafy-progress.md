@@ -2149,3 +2149,16 @@ Resume point: mawkib-al-nour episode 3 (branch from origin/main).
 | A sentence quoting a hostile reply to a greeting | ep03 00:25:30 | Polemical wording not reproduced; the point is kept in neutral words | Content rule | Open |
 
 Resume point: mawkib-al-nour episode 4 (branch from origin/main).
+
+### mawkib-al-nour ep04 (12 Nov 2026)
+
+34 points written for episode 4 (ar, en, ur); 22 needs_source marks; 14 new `about` edges. Quran verses referenced only through passage links (3-35, 3-36, 3-37, 3-164, 21-35, 33-33, 2-286, 95-4); none typed. Proposal for the founder, not applied: the lecturer's statements on gender (ep04 00:04:30, a third sex), on women's work (00:35:30-00:37:00) and on plural marriage (00:37:30-00:38:30) are recorded as his opinions in attributed wording; the record stays `sensitivity: contested`. The founder may wish to raise a part of it to `polemical`. The 3:164 link was identified from the garbled wording at 00:08:00 and is marked.
+
+| Excluded (mawkib-al-nour ep04) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, opening supplications and the closing greeting | ep04 00:00:00-00:01:30 (recitation, Quran text never typed), 00:42:00 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep04 00:15:00 (a long loop), 00:28:30 (a long loop), 00:38:00 (a loop inside the plural-marriage passage), 00:13:00 (a half-clear remark on an incident in Laylat al-Qadr), 00:12:30 to 00:13:00 (a half-clear remark on the lecturer's own experience) | Not recoverable | Clarity, Loop check | Open |
+| Lecturer's jokes on shampoo adverts, hair and cosmetic doctors beyond the points kept | ep04 00:20:00-00:21:00, 00:33:30-00:34:30 | Illustrative asides, not separate claims; the point is kept in neutral words | Content rule | Open |
+| A remark on the lecturer's own conduct in a past incident and a passing remark on men's marital habits | ep04 00:12:00 (anecdote), 00:41:00 (aside) | Not recoverable or incidental | Clarity | Open |
+
+Resume point: mawkib-al-nour episode 5 (branch from origin/main).
