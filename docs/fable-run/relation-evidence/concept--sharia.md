@@ -23,3 +23,10 @@ Looked for and not found as records:
 
 Could have been added but the sentence does not state it in a form a registered predicate carries:
 - concept/fiqh. The sentence says «يدرّسه الفقه» ("jurisprudence teaches it"). No registered predicate says "studied by" or "taught by"; `basis_for` would be an inference. Note for the lead: concept/fiqh's own summary says fiqh is «أحد أنواع الشريعة الثلاثة مع العقائد والأخلاق» {cite:nashat-al-fiqh-al-ijtihadi-azhar p. 6}, so `part_of -> concept/sharia` could be written from the fiqh record on its own evidence. That file was not mine to edit.
+
+## Removed after verification
+
+A fresh-context verifier re-read every relation above against this record. These were taken out again because the record does not say as much as the relation does:
+
+- `has_part -> concept/madhhab` (stretched): Same sentence, second half: «وتتنوع فيه المذاهب والاجتهادات» {cite:wikidata}, 'the schools and the interpretations vary within it'. That schools differ within the Sharia is not the statement that the madhhab is a part of the Sharia; on the madhhab's page the edge would read 'part of the Sharia', which the sentence does not say.
+- `has_part -> concept/ijtihad` (stretched): Same clause, «وتتنوع فيه المذاهب والاجتهادات» {cite:wikidata}. As for madhhab; and the sentence's word is the plural, the differing opinions, while the target is ijtihad as the jurist's method.

@@ -64,5 +64,31 @@ The work is in the pull requests; a "no" to any entry is a revert of the named c
 
 ## P-9. The Urdu leads
 
-- **What the run did.** Left every file under `content/ur/` untouched, as the brief requires. The Urdu leads of the 41 Tour records are now shorter than, and in places differ from, the Arabic and English.
+- **What the run did.** Left every file under `content/ur/` untouched, as the brief requires. The Urdu leads of the 40 Tour records are now shorter than, and in places differ from, the Arabic and English.
 - **Asked of the founder.** Who translates the new leads into Urdu, and when.
+
+## P-10. A second source for the museum's record of the Qur'an
+
+- **What the run found.** `work/quran` cites one source, the Tanzil text itself. A narrative of 150 to 250 words cannot be written from it without saying things that source does not say; a verifier showed that the attempt did exactly that, and it was reverted to the baseline text. The record is a cornerstone with no room on the Tour.
+- **What the run did.** Withdrew the stop and registered the gap (`GAP-REGISTER.md`). Added no source: the brief allows deepening only from sources a record already cites.
+- **Asked of the founder.** Which source the record should cite for its own description (a history of the text's collection and transmission the museum already holds, for example), after which the narrative can be written and the stop restored by adding one line to `tour/grand-tour.yaml`.
+
+## P-11. The visible defects on older pages
+
+- **What the run found.** The fresh-context reviewers of the screenshots listed 77 defects on the homepage, the nine wing landings and the shared footer as they were before this run, and five more that come from the text of records (the counts are in `oracle-output/o08-vision.out`). One is on every page: with JavaScript off, the header menu makes the page scroll sideways on a phone (196 px on the Arabic homepage, 290 px on the English).
+- **One of them has a one-line cause.** On Arabic pages the site's forward arrows point right, back at their own label. The site mirrors them with `[dir="rtl"] .flip { transform: scaleX(-1) }` in `site/src/styles/global.css`, and a browser does not apply a transform to an inline box, so an arrow written as `<span class="flip">→</span>` in running text has never mirrored (it does inside a flex button, where the span becomes a box). Adding `display: inline-block` to that rule would fix every such arrow on the site. It is a shared stylesheet, so it is a whole-site rewrite and not this run's to make; the Tour's own arrows carry the declaration inline.
+- **What the run did.** Fixed nothing on those pages: the brief bars reworking existing pages. Each defect is in `docs/fable-run/vision/defects.json` with the screenshot it was seen in.
+- **Asked of the founder.** Whether a lane should take that list.
+
+## P-12. The release-notes block at merge
+
+- **What the run found.** This branch's entries sit under `v1.17.0` in `CANARY.md`. Main has since used that number for other work and opened a newer block.
+- **What the run did.** Left the branch's block as it is, because renumbering against a moving main would have meant rebasing mid-run, which the brief forbids. `scripts/fable/integrate.sh` shows the merge conflicts only in `CANARY.md` and the generated `docs/coverage.md`.
+- **Asked of the founder.** At merge, to place this branch's block above main's newest under the next minor number, and to regenerate `docs/coverage.md`.
+
+## P-13. Whether fame may gate the canon
+
+- **What the run found.** The canon's eligibility rule on main uses the count of Wikipedia language editions as one of its conditions. 489 of the 824 canon records need that count to be eligible; 315 qualify on the museum's own links alone. The brief for this run says outside fame may rank and never write. The oracle for statement 1 passes on the narrower reading (no record is in on fame alone; the count is never stored in a record).
+- **What the run did.** Did not re-select the canon. The count's cache is outside git and Wikidata's query service was rate-limited on the day.
+- **Asked of the founder.** Whether "rank, never write" should also mean "never gate". If so, the eligibility rule needs a structure-only form, and the canon would be re-selected (P-3 then matters: pin the input so the selection is reproducible).
+

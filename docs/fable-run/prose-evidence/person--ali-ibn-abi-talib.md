@@ -1,6 +1,6 @@
 # person/ali-ibn-abi-talib
 
-Lead before: 45 Arabic words, 64 English words. Lead after: 172 / 243.
+Lead before: 45 Arabic words, 64 English words. Lead after: 172 / 243; after the revision at the end of this file, 180 / 248.
 Sources cited in the lead: usd-al-ghaba, marifat-sahaba-abu-nuaym
 
 Local copies read on the page:
@@ -20,7 +20,7 @@ Both are Sunni biographical dictionaries, and they are the only sources the lead
 | 6 | وهو رابع الخلفاء الراشدين، بويع له | {cite:usd-al-ghaba ص881} | this record, old lead (fourth of the Rashidun caliphs; allegiance in Medina, Dhu al-Hijja 35, after the killing of Uthman) and section «الخلافة», same citation. Read on the page: p.881 («وبويع له بالمدينة في مسجد رسول الله بعد قتل عثمان، في ذي الحجة من سنة خمس وثلاثين»; on the same page Ali's own report names Abu Bakr, Umar and Uthman before him). "Fourth of the Rashidun caliphs" is the old lead's wording, kept as it stood |
 | 7 | ويذكر ابن الأثير أن جماعة من | {cite:usd-al-ghaba ص882} {cite:usd-al-ghaba ص883} | this record, section «الخلافة», same two citations. Read on the page: p.882 («تخلف عن بيعته جماعة من الصحابة ... فلم يلزمهم بالبيعة ... وتخلف عنه أهل الشام مع معاوية فلم يبايعوه وقاتلوه») |
 | 8 | ثم تعاهد ثلاثة من الخوارج على | {cite:usd-al-ghaba ص884-885} | this record, section «وفاته», same citation. Read on the page: p.885 (the three Kharijites and their pact against Ali, Mu'awiya and Amr ibn al-As; Ibn Muljam comes to Kufa; Ali struck as he goes out calling the people to the prayer) and p.886 (Ramadan of the year 40) |
-| 9 | وتوفي ليلة الأحد لإحدى عشرة ليلة | {cite:usd-al-ghaba ص886} {cite:marifat-sahaba-abu-nuaym ص2002} | this record, old lead (killed in Ramadan 40, aged sixty-three) and section «وفاته», same two citations. Read on the page: Usd al-ghaba p.886 («وبقي ليلة الأحد لإحدى عشرة بقيت من شهر رمضان من سنة أربعين وتوفي ... وصلى عليه الحسن ابنه ... وكان سنه يوم قتل ثلاثاً وستين سنة»); Abu Nu'aym scan p.2002 («قتل بالكوفة في رمضان سنة أربعين ... وهو ابن ثلاث وستين ... وصلى عليه ابنه الحسن») |
+| 9 | وتوفي ليلة الأحد لإحدى عشرة ليلة | {cite:usd-al-ghaba ص886} {cite:marifat-sahaba-abu-nuaym ص2002} | this record, old lead (killed in Ramadan 40, aged sixty-three) and section «وفاته», same two citations. Read on the page: Usd al-ghaba p.886 ⁦(«وبقي ليلة الأحد لإحدى عشرة بقيت من شهر رمضان من سنة أربعين وتوفي ... وصلى عليه الحسن ابنه»; then, at the foot of the page, «واختلفوا في عمره، فقال محمد بن الحنفية ... وكان سنه يوم قتل ثلاثاً وستين سنة. قال الواقدي: وهذا أثبت عندنا»)⁩; Abu Nu'aym scan p.2002 ⁦(«قتل بالكوفة في رمضان سنة أربعين ... وهو ابن ثلاث وستين ... وصلى عليه ابنه الحسن», with no mention of a disagreement)⁩. The lead now says that his age is disputed and gives sixty-three as the report al-Waqidi held soundest |
 
 Dropped or changed from the old lead: nothing dropped. All of its facts are kept (lineage; cousin and son-in-law; among the first to embrace Islam; fourth Rashidun caliph; allegiance in Medina in Dhu al-Hijja 35 after Uthman's killing; killed in Kufa in Ramadan 40 at sixty-three). Its single citation range ص880-886 is replaced by the page each fact is on.
 
@@ -29,3 +29,5 @@ Could not be supported and left out:
 - The report on p.881 in which Ali says he thought himself more entitled to the office and then heard and obeyed (record, section «الخلافة»): on the page, but left out of the lead; it stays in its section with its citation.
 - The merit hadiths (record, «ملاحظات للباحثين»): the record itself says it does not weigh them; left out.
 - "In the mosque of Kufa" for the attack: the record cites this to Usd al-ghaba ص884-885, but the words are Abu Nu'aym's (scan p.2002, «في مسجد الكوفة مسجدها الأعظم»). The lead says "in Kufa, as he went out to the dawn prayer", which both pages support.
+
+Revised after verification: sentence 9 gave his age, sixty-three, with no qualifier. Usd al-ghaba p.886 opens the matter with «واختلفوا في عمره» and gives sixty-three as the report al-Waqidi judged the soundest. The lead now says both, in Arabic and in English. Nothing else changed.

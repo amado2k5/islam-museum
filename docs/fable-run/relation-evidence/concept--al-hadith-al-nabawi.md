@@ -25,3 +25,10 @@ Could have been added but the record does not cite it, or no registered predicat
 - work/quran. «المصدر الثاني من مصادر الإسلام بعد القرآن ... يبيّن مجمله»: no registered predicate from a concept to a work says "explains".
 
 Note on the check script: it reports two problems for this record. Both are the `related_to` edges to person/muhammad and concept/isnad, which were in the file at HEAD (lines 13 and 14) and were not written or changed in this pass.
+
+## Removed after verification
+
+A fresh-context verifier re-read every relation above against this record. These were taken out again because the record does not say as much as the relation does:
+
+- `has_part -> concept/kutub-al-sitta` (stretched): «وقد جُمع في مصنفات مرتبة على الأبواب أو على مسانيد الرواة، وأشهرها الكتب الستة»: in the prose section «طريق وصوله» and in summary.ar this sentence has no citation. The only source list is on education.did_you_know, [sahih-al-bukhari, sahih-muslim], and those two books cannot attest a later term that counts them among six; the relation repeats that attribution. 'Gathered in compilations, the best known being the Six Books' is also not 'has the Six Books as a part'.
+- `basis_for -> concept/ibada` (stretched): «يبيّن مجمله ويقرر تفاصيل العبادة والمعاملة والسيرة والأخلاق»: predicate and target fit the words. But the prose sentence in section «مكانته» and summary.ar are uncited; the only source list is the same did_you_know one, which the clause about the Six Books shows to be the record's list carried over, not a citation of the sentence. The record's provenance calls the text «صياغة المتحف». Stretched on citation alone.

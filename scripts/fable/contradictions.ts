@@ -27,7 +27,18 @@ export function detect(graphFile = p(".cache", "graph.json")): { commit: string 
   const byId = new Map<string, any>(g.nodes.map((n: any) => [n.id, n]));
   const out = new Map<string, Finding>();
   const add = (f: Finding) => { if (!out.has(f.key)) out.set(f.key, f); };
-  const R = (d: any) => { try { return d ? dateRange(d) : undefined; } catch { return undefined; } };
+  // A date given only in the Hijri calendar is still a date: without this, writing a death as Hijri-only would hide the person
+  // from detectors A and B. The year is converted arithmetically (33 lunar years to 32 solar) and widened by a year each side.
+  const R = (d: any) => {
+    try {
+      if (!d) return undefined;
+      if (d.edtf) return dateRange(d);
+      const h = /^\s*(-?\d{1,4})/.exec(String(d.hijri ?? ""));
+      if (!h) return undefined;
+      const ce = 622 + ((Number(h[1]) - 1) * 32) / 33;
+      return { earliest: ce - 1, latest: ce + 2 };
+    } catch { return undefined; }
+  };
   const show = (d: any) => (d ? `${d.edtf ?? "?"}${d.hijri ? ` (AH ${d.hijri})` : ""}` : "none");
   const life = (id: string) => { const n = byId.get(id); return n?.class === "person" ? { born: R(n.data.born), died: R(n.data.died), n } : undefined; };
   const when = (id: string) => {

@@ -1,6 +1,6 @@
 # person/khadija
 
-Lead before: 22 Arabic words, 32 English words. Lead after: 165 / 240.
+Lead before: 22 Arabic words, 32 English words. Lead after: 152 / 214.
 Sources cited in the lead: usd-ghaba, mubarakpuri-raheeq, ibn-hisham-sira, fiqh-al-sira-al-ghazali, sahih-al-bukhari, ibn-hajar-isaba
 
 Source texts read on the page:
@@ -19,7 +19,7 @@ Source texts read on the page:
 | 7 | ويذكر ابن الأثير في «أسد الغابة» | {cite:usd-ghaba p.1502} | this record, data summary, same citation. Read on the page, Usd al-Ghaba p.1502: «وأول خلق الله أسلم بإجماع المسلمين، لم يتقدمها رجل ولا امرأة» |
 | 8 | وتوفيت في رمضان من السنة العاشرة | {cite:mubarakpuri-raheeq p.116} | this record, section «وفاتها», same citation. Read in the local copy, local p.115. The interval after Abu Talib's death is written as the page has it: «بنحو شهرين أو بثلاثة أيام على اختلاف القولين», and the age as «خمس وستون سنة على أشهر الأقوال» |
 | 9 | ودُفنت بالحجون، ولم تكن الصلاة على | {cite:ibn-hajar-isaba p.1856} | this record, data file, `died` note ("buried at al-Hujun before the funeral prayer was instituted (al-Waqidi, al-Isaba pp. 1854-1856)") and section «الأثر». Read on the page, al-Isaba p.1856 |
-| 10 | ويقول صاحب «الرحيق المختوم» إنها بقيت | {cite:mubarakpuri-raheeq p.116} | read in the local Raheeq, local p.115, the paragraph straight after her death: «بقيت معه ربع قرن … وتؤازره في أحرج أوقاته … وتواسيه بنفسها ومالها». The record has "about twenty-five years" uncited in «الحياة». The page number is the record's page for the death passage, which this paragraph follows directly; I did not see p.116 of the cited edition |
+| 10 | (removed after verification) | none | The sentence «ويقول صاحب «الرحيق المختوم» إنها بقيت معه ربع قرن ...» was new to the record. Its words are on p.115 of the local Raheeq (`20210430_20210430_0628`), but it was cited as p.116, a page of the printing the record uses that nobody here has read. It is out of both leads |
 
 Dropped or changed from the old lead:
 - "Married him around 595 CE": the year is dropped. It was uncited in the lead; the data file attaches it to `ibn-ishaq-guillaume` with no page, and that book is not on this machine. The lead gives instead the ages the Raheeq gives (she forty, he twenty-five).
@@ -33,3 +33,8 @@ Could not be supported and left out:
 Seen in the record, for the reviewer:
 - The data summary says Usd al-Ghaba "reports a group counting her" the first to embrace Islam; on p.1502 Ibn al-Athir states it in his own voice, with "by consensus of the Muslims".
 - `{cite:ibn-ishaq-guillaume}` and `{cite:ibn-sad-tabaqat-bewley}` in «الحياة» carry no page.
+
+Revised after verification:
+- Sentence 10 (the author of al-Raheeq al-Makhtum on her quarter of a century with the Prophet) was removed from both languages: it was new to the record and its page number had not been read in the cited printing (see row 10). Every Raheeq citation that remains in the lead (p.60, p.61, p.67, p.116) is a locator carried from the record's own sections.
+- Those carried locators are left as they stand. Four copies of the book are on this machine (`20210430_20210430_0628`, `2014-alraheq_almakhtom-almubarakfuri`, `Islamic_Sera_001`, `al_rahiq_al_makhtoum_20260704_20260704`); the death passage is on p.115, p.104 and p.85 of the first three, and the text layer of the fourth is a garbled font encoding that could not be read. None of the three readable copies matches the record's numbering, so the printing the record cites could not be read and its page numbers could not be corrected. The passages themselves were read in the first copy, on its pp. 60, 60, 65 and 115.
+- The verifier's second finding (the section «وفاتها» still says "two or three months" after Abu Talib's death) is outside the lead and was not changed; the lead's "about two months, or by another report three days" follows the page as read.

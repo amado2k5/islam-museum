@@ -21,3 +21,10 @@ Looked for and not found as records:
 
 Could have been added but the record does not cite it:
 - The lists under «نظرة عامة» in the prose (two polities, two persons, two works, six concepts) are generated from the `periods:` classification of those records and carry no citation; they were not used. One of them looks misplaced: polity/ghaznavid-empire (962 to 1187) is listed under a period that ends in 945.
+
+## Removed after verification
+
+A fresh-context verifier re-read every relation above against this record. These were taken out again because the record does not say as much as the relation does:
+
+- `has_part -> event/death-of-mutawakkil` (unsupported): The only words are start.note: 'Conventional start: the troubles after the murder of al-Mutawakkil; scholars place the transition differently.' The record puts the period after the murder and says the boundary is disputed; it does not say the murder belongs to the period. A data note with no citation; the prose says of the boundaries «وضعها المتحف للتنظيم وليست قطعية». The relation's sources, Hodgson and Hourani, are cited by the record only as further reading, not for this. The event record has no periods field of its own.
+- `has_part -> event/buyid-entry-baghdad-334` (stretched): end.note: 'The Buyids enter Baghdad.' The event closes the period; the record does not say it belongs to it. Uncited curatorial note, borrowed sources, as above. The event's own periods field lists only the next period, its own date is 17 January 946 while this period ends in 945, and the next period now claims the same event as a part.

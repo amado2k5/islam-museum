@@ -1,6 +1,6 @@
 # practice/salah
 
-Lead before: 28 Arabic words, 38 English words. Lead after: 174 / 243.
+Lead before: 28 Arabic words, 38 English words. Lead after: 174 / 243 (after the verification revision: 169 / 237).
 Sources cited in the lead: sahih-ibn-khuzayma, tanzil-quran, tafsir-tabari-shakir-v01
 
 Local copies read:
@@ -13,7 +13,7 @@ Local copies read:
 | 2 | ويفتتح ابن خزيمة «كتاب الصلاة» بباب | {cite:sahih-ibn-khuzayma p.186} {cite:sahih-ibn-khuzayma p.188} | 61667/pages.json, page 186, read on the page: the heading «كتاب الصلاة», chapter 1 «باب بدء فرض الصلوات الخمس», hadith 301 with the chain Qatada from Anas ibn Malik from Malik ibn Sa'sa'a. Page 188, read on the page: hadith 302, the same chain, «عن ليلة أُسري به» |
 | 3 | وفي هذا الحديث أن الصلاة فُرضت | {cite:sahih-ibn-khuzayma p.188} | 61667/pages.json, page 188, read on the page: fifty prayers each day prescribed; Moses says the community cannot bear it and tells him to ask for a lightening; "until I came back with five prayers each day" |
 | 4 | وفي حديث طلحة بن عبيد الله | {cite:sahih-ibn-khuzayma p.529} | this record, old lead and section «في الحديث», same citation. Read on the page: 61667/pages.json, page 529 (hadith 1066; the five quoted words are verbatim, and Ibn Khuzayma's own remark that what exceeds the five is voluntary) |
-| 5 | وفي القرآن الأمر بإقامة الصلاة مقروناً | {cite:tanzil-quran} | this record, section «في القرآن» (the three passage links and what the record says each verse does) and data `relations` (`based_on` the three passages, `sources: [source/tanzil-quran]`). Checked against `data/passage/quran-2-43.yaml`, `quran-4-103.yaml`, `quran-17-78.yaml`. No Qur'an wording is typed: the record's «كتاب موقوت» is paraphrased as a duty with set times |
+| 5 | وفي القرآن الأمر بإقامة الصلاة مقروناً | {cite:tanzil-quran} | this record, section «في القرآن» (the three passage links and what the record says each verse does) and data `relations` (`based_on` the three passages, `sources: [source/tanzil-quran]`). Checked against `data/passage/quran-2-43.yaml`, `quran-4-103.yaml`, `quran-17-78.yaml`. No Qur'an wording is typed: the record's «كتاب موقوت» is paraphrased as a duty with set times. Revised: the clause on al-Nisa' 103 kept two words of the verse and, in English, read as a translation of it. It is now «وربطُها بأوقات محددة» / "the prayer is tied to set times": a description of what the verse does, with no word of it |
 | 6 | ويفسّر الطبري إقامة الصلاة بأنها أداؤها | {cite:tafsir-tabari-shakir-v01 p. 241} | this record, section «في تفسير الطبري: «ويقيمون الصلاة»», same citation. Also read on the page: waqtaftab-taftab01/pages.json, page 241 |
 | 7 | وينقل عن ابن عباس أن إقامتها | {cite:tafsir-tabari-shakir-v01 p. 241} {cite:tafsir-tabari-shakir-v01 p. 242} | this record, same section, same two citations. Also read on the page: report 283 begins on page 241 and ends on page 242 |
 | 8 | ويذكر أن الصلاة في كلام العرب | {cite:tafsir-tabari-shakir-v01 p. 242} {cite:tafsir-tabari-shakir-v01 p. 243} | this record, same section, same two citations. Also read on the page: page 242 (salat is supplication in Arabic usage) and page 243 (why the obligatory prayer was so named) |
@@ -30,3 +30,5 @@ Could not be supported and left out:
 Seen in the record, outside the lead (not changed):
 - data `education.did_you_know` cites `sahih-ibn-khuzayma` and `tanzil-quran` with no page, and its first half could not be traced (see above).
 - The sections «للبراعم», «للمستكشفين» and «للدارسين» carry no citation.
+
+Revised after verification: sentence 5 only. The clause on al-Nisa' 103 is reduced to a plain description (the prayer is tied to set times), so that nothing in the lead reproduces or translates the wording of a verse. The section «في القرآن» still quotes two words of that verse, in Arabic and in English translation: outside the lead, not changed.

@@ -1,6 +1,6 @@
 # building/taj-mahal
 
-Lead before: 33 Arabic words, 48 English words. Lead after: 194 / 246.
+Lead before: 33 Arabic words, 48 English words. Lead after: 194 / 246 (after the verification revision: 194 / 246).
 Sources cited in the lead: wikidata, brookes-gardens-of-paradise-1987, rezavi-iranian-influence-indian-architecture-2002
 
 Local copies read:
@@ -10,7 +10,7 @@ Local copies read:
 
 | # | Sentence (first six words of the Arabic) | Citation | Where the fact was read |
 |---|---|---|---|
-| 1 | تاج محل ضريح في آغرة بناه | {cite:wikidata} | this record, old lead, same citation, carried unread (mausoleum at Agra, Shah Jahan for Mumtaz Mahal, 1632 to 1653, white marble dome on the Yamuna, garden crossed by channels, calligraphy and inlaid stones). The data file agrees (`built: 1632/1653`, `location: place/agra`, `patron: person/shah-jahan-mughal`). Most of it is also on the Brookes pages I read (p.151, p.152 caption, p.154); the calligraphy is on Rezavi p.131-132. The old lead's closing superlative is not carried (see below) |
+| 1 | تاج محل ضريح في آغرة بناه | {cite:wikidata} {cite:brookes-gardens-of-paradise-1987 p.152} {cite:brookes-gardens-of-paradise-1987 p.154} {cite:rezavi-iranian-influence-indian-architecture-2002 p.131} {cite:rezavi-iranian-influence-indian-architecture-2002 p.132} | this record, old lead, same citation, carried unread (mausoleum at Agra, Shah Jahan for Mumtaz Mahal, 1632 to 1653, white marble dome on the Yamuna, garden crossed by channels, calligraphy and inlaid stones). The data file agrees (`built: 1632/1653`, `location: place/agra`, `patron: person/shah-jahan-mughal`). Most of it is also on the Brookes pages I read (p.151, p.152 caption, p.154); the calligraphy is on Rezavi p.131-132. The old lead's closing superlative is not carried (see below). Revised: the description no longer rests on the database entry alone. Read on the page: Brookes p.152 (scan 28: "the swelling shape of the dome"; the caption's "river Jumna, which runs behind the white marble building of the Taj" and its main watercourse with secondary water arms running into the garden), Brookes p.154 (scan 29: the white marble, the long canal and its side arms, "the white marble inlay"), Rezavi pp.131 to 132 (PDF 6 to 7: calligraphic decoration on the facades of the Taj Mahal). "Inlaid precious stones" is not on any page read, so the closing words are now «وتطعيم بالرخام الأبيض» / "white marble inlay", which is Brookes's phrase on p.154. `wikidata` stays for the place, the patron and the years 1632 to 1653 |
 | 2 | ويذكر جون بروكس أن ممتاز محل | {cite:brookes-gardens-of-paradise-1987 p.151} {cite:brookes-gardens-of-paradise-1987 p.152} {cite:brookes-gardens-of-paradise-1987 p.154} | this record, section «البناء والبستان عند بروكس», same citations. Read on the page: scan 27, p.151 (died giving birth to her fourteenth child, three years after he came to the throne); scan 28, p.152 ("The building was begun in 1632"); scan 29, p.154 ("completed in 1654") |
 | 3 | ويراه خاتمة خيوط سابقة في العمارة | {cite:brookes-gardens-of-paradise-1987 p.152} {cite:brookes-gardens-of-paradise-1987 p.154} | this record, same section (the record cites p.154 only). Read on the page: "the logical conclusion to several strands" is on p.152 (scan 28); the minarets, the marble inlay and the tomb form are on p.154 (scan 29). p.152 added because the opening words are there |
 | 4 | ويقوم الضريح على منصة بين جناحين | {cite:brookes-gardens-of-paradise-1987 p.154} | this record, section «موضعه من البستان», same citation. Read on the page: scan 29, p.154, text and image |
@@ -26,3 +26,5 @@ Dropped or changed from the old lead:
 Could not be supported and left out:
 - Section «الأثر» also says the Taj "became the symbol of India, of love and of death alike, and an example in every book on Islamic architecture", cited to `wikidata`. A judgement on a database citation; not used.
 - The lead states both dates as their sources give them: 1632 to 1653 (wikidata, and `built` in the data file) and "completed in 1654" (Brookes p.152 caption and p.154). They disagree by a year.
+
+Revised after verification: sentence 1 now cites the Brookes and Rezavi pages that carry its description, beside `wikidata`, and its last item is "white marble inlay" (Brookes p.154) in place of "inlaid precious stones", which no page read carries.

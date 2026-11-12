@@ -31,8 +31,10 @@ const pick = (data: any, key: string) => key.split(".").reduce((o: any, k) => (o
 
 export interface Anchor { basis: "own-date" | "author" | "period" | "none"; field?: string; date?: any; ce?: number; hijri?: number; century?: number; via?: string[]; lo?: number; hi?: number }
 
+// a work's authors: the persons the graph says authored it, and the persons its own `authors` field names
 const authorsOf = new Map<string, string[]>();
 for (const e of graph.edges) if (e.type === "authored" && !e.inverse) authorsOf.set(e.to, [...(authorsOf.get(e.to) ?? []), e.from]);
+for (const n of graph.nodes) if (n.class === "work") for (const a of n.data.authors ?? []) if (typeof a === "string" && byId.has(a)) authorsOf.set(n.id, [...new Set([...(authorsOf.get(n.id) ?? []), a])]);
 
 export function anchorOf(n: Node): Anchor {
   for (const key of OWN[n.class] ?? []) {
@@ -52,7 +54,9 @@ export function anchorOf(n: Node): Anchor {
 // ---- a record's counted position in the graph ----
 const inbound = new Map<string, number>();
 const neighbours = new Map<string, Set<string>>();
+// `related_to` is the schema's fallback predicate: it is never counted here, as it is never counted in the reachability oracle
 for (const e of graph.edges) {
+  if (e.type === "related_to") continue;
   inbound.set(e.to, (inbound.get(e.to) ?? 0) + 1);
   if (!neighbours.has(e.from)) neighbours.set(e.from, new Set());
   neighbours.get(e.from)!.add(e.to);
@@ -72,7 +76,7 @@ export interface Stop {
   index: number; id: string; slug: string; node: Node; anchor: Anchor;
   /** the century the visitor stands in at this stop: the latest century reached by a dated stop so far */
   walk: number;
-  /** relations in the graph that arrive at this record (inverses included, as the graph holds them) */
+  /** relations in the graph that arrive at this record (inverses included, as the graph holds them; `related_to` never counted) */
   relations: number;
   /** distinct records directly related to it (stubs excluded) */
   linked: number;
@@ -97,6 +101,7 @@ export function sideDoors(stop: Stop, lang: Lang, n = 4): Door[] {
   const seen = new Set<string>();
   const all: Door[] = [];
   for (const g of connectionsOf(stop.id, lang)) for (const { node } of g.items) {
+    if (g.type === "related_to") continue;
     if (node.stub || stopSet.has(node.id) || seen.has(node.id)) continue;
     seen.add(node.id);
     all.push({ label: g.label, node });
@@ -119,7 +124,7 @@ export const stopLinks: [number, number][] = (() => {
   const out: [number, number][] = [];
   for (const e of graph.edges) {
     const a = idx.get(e.from), b = idx.get(e.to);
-    if (a === undefined || b === undefined || a === b) continue;
+    if (a === undefined || b === undefined || a === b || e.type === "related_to") continue;
     const k = a < b ? `${a}-${b}` : `${b}-${a}`;
     if (!seen.has(k)) { seen.add(k); out.push(a < b ? [a, b] : [b, a]); }
   }

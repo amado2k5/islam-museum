@@ -9,10 +9,6 @@ wings: [time]
 regions: [levant-iraq]
 start: { edtf: "0945", hijri: "0334", calendar: julian, precision: year, status: historical, note: "Starts when the Buyids enter Baghdad; ends with the fall of the Fatimid caliphate. Curatorial periods may overlap." }
 end: { edtf: "1171", hijri: "0567", calendar: julian, precision: year, status: historical }
-relations:
-  - { type: has_part, target: event/buyid-entry-baghdad-334, sources: [source/hodgson-1974, source/hourani-1991] }
-  - { type: has_part, target: event/abbasid-khutba-egypt-567, sources: [source/hodgson-1974, source/hourani-1991] }
-  - { type: has_part, target: group/al-fatimiyun, sources: [source/hodgson-1974, source/hourani-1991] }
 sources: [source/hodgson-1974, source/hourani-1991]
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; boundaries are curatorial and approximate" }

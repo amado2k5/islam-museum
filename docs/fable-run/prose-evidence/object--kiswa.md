@@ -1,15 +1,15 @@
 # object/kiswa
 
-Lead before: 16 Arabic words, 30 English words. Lead after: 163 / 243.
+Lead before: 16 Arabic words, 30 English words. Lead after: 163 / 243; after the revision at the end of this file, 158 / 233.
 Sources cited in the lead: wikidata, umari-masalik-1924
 
 Local copy read: `~/islam-museum-harvest/books/geography/masalik-al-absar-umari-1924/masalik-1924/pages.json` (458 scan pages, OCR text). The record and the source definition cite the scan page; printed page = scan page - 38 (scan 137 = printed 99, scan 138 = printed 100, scan 139 = printed 101). The source definition warns that the passages were read from OCR only. I checked scan pages 138 and 139 on the page images `pages-png/p0138.png` and `pages-png/p0139.png`; the words below are as printed there.
 
-`wikidata` cannot be re-read from this machine. Its citation is carried from the record as it stood.
+`wikidata`: the writer could not re-read it and carried its citation from the record as it stood. After verification a local copy of the item was found and read: `~/islam-museum-harvest/layers/cc0/wikidata-v2/chunks/` (the files `wd_entity`, `wd_label` and `wd_claim`), item Q1511204, which is the id in this record's `external_ids`, at revision 2550104714 (modified 2026-09-27).
 
 | # | Sentence (first six words of the Arabic) | Citation | Where the fact was read |
 |---|---|---|---|
-| 1 | كسوة الكعبة غطاؤها الأسود المطرّز بالذهب | {cite:wikidata} | this record, old lead, same citation, carried unread (black, embroidered with gold and silver, replaced each year in the hajj season, the old cloth given as gifts). The data file has `materials: silk, gold thread` |
+| 1 | كسوة الكعبة غطاؤها الأسود المطرّز بالذهب، | {cite:wikidata Q1511204} | this record, old lead, same source; the item id is now in the citation. Read in the local copy of the item. English description: "cloth that covers the Kaaba in Mecca, Saudi Arabia". Arabic description: «قطعة من الحرير الأسود المنقوش عليه آيات من القرآن من ماء الذهب، تكسى بها الكعبة ويتم تغييرها مرة في السنة وذلك خلال موسم الحج». Statements: instance of Q154262 and material Q649022 (the labels of those two items are not in the local copy), part of Q29466 (the Kaaba), location Q428858 (al-Masjid al-Haram), in Mecca, Saudi Arabia. That supports black, gold, the Kaaba, and replacement once a year in the hajj season. "Embroidered" ⁦(«المطرّز»)⁩ is the record's own word (data `summary.ar`; `materials: silk, gold thread`); the item's description has the gold as lettering. Silver, and the old cloth being given as gifts, are not in the item and were removed from the sentence |
 | 2 | ويجمع ابن فضل الله العمري أخبارها | {cite:umari-masalik-1924 p.139} | this record, section «في «مسالك الأبصار» للعمري», same citation (al-Azraqi from Ibn Jurayj: Tubba' the first to give the Kaaba a full covering). Read on scan p.139, text and image. "Then people covered it after him in the pre-Islamic period" is new, from the same page («ثم كساها الناس بعده فى الجاهلية») |
 | 3 | ويروي عن الأزرقي أن النبي كسا | {cite:umari-masalik-1924 p.139} | new, from the source text, scan p.139, text and image («وروى الأزرقى بأسانيد متفرّقة، أن النبىّ كسا الكعبة. ثم كساها أبو بكر. وكساها عمر ... وكساها عثمان، ومعاوية، وعبد الله بن الزبير، ومن بعدهم»). The printed text carries an honorific in brackets after «النبىّ»; it is not typed in the lead |
 | 4 | وحكى الأزرقي أن المأمون كساها ثلاث | {cite:umari-masalik-1924 p.138} | this record, same section, same citation; read on scan p.138, text and image (red brocade, Coptic cloth, white brocade; the white begun «سنة ست ومائتين») |
@@ -18,9 +18,11 @@ Local copy read: `~/islam-museum-harvest/books/geography/masalik-al-absar-umari-
 | 7 | وجرت العادة أن تُغسل الكعبة بماء | {cite:umari-masalik-1924 p.139} | this record, same section, same citation; read on scan p.139, text and image («والعادة جارية أن تغسل الكعبة المعظمة بماء زمزم فى السابع والعشرين من ذى القعدة، وتُشمّر ستورها. وتُلَبَّس يومَ الأضحى») |
 | 8 | ويروي العمري أنه تولّى بيده خلع | {cite:umari-masalik-1924 p.138} | this record, same section, same citation; read on scan p.138, text and image («ولما حججتُ سنة ثمان وثلاثين وسبعمائة ... بيدى توليتُ خلع الكسوة العتيقة عنها وتلبيسها الكسوة الجديدة») |
 
-Dropped or changed from the old lead: nothing. The old lead is sentence 1 with its citation.
+Dropped or changed from the old lead: in the first version, nothing; the old lead was sentence 1 with its citation. After verification two of its statements were removed: «والفضة» (silver in the embroidery) and «ويُوزَّع قماشها القديم هدايا» (the old cloth given as gifts). Neither is in the Wikidata item the sentence cites, and the data file lists silk and gold thread only. What became of the old kiswa in al-Umari's day is still in sentence 5, from his page.
 
 Could not be supported and left out:
 - Section «الأثر» says the kiswa "is made today at the Kiswa Factory in Umm al-Jud by two hundred craftsmen", cited to `wikidata`. A head-count of workers on a database citation that I cannot re-read; not used in the lead.
 - The disagreement over who first covered the Kaaba with brocade (scan p.137: al-Hajjaj, Ibn al-Zubayr, Khalid ibn Ja'far) is in the record's section and on the page; left out of the lead for length only.
 - The white writing on the two coverings is, on the page, verses of the Qur'an that mention the Kaaba. The lead says "white writing" and types no verse.
+
+Revised after verification: sentence 1 rested on `{cite:wikidata}` with no item, read by nobody. The item was read in the local copy (Q1511204, revision 2550104714). The sentence now says only what the item and the data file carry (black, embroidered with gold, replaced each year in the hajj season) and cites `{cite:wikidata Q1511204}`. Silver and the gift of the old cloth were removed. Not done here, because it is outside the lead: recording that revision in the authenticity ledger, which the standing rule on Wikidata asks for. The body section «الأثر» still cites `{cite:wikidata}` for the modern factory and its two hundred craftsmen; the local copy of the item has neither.

@@ -42,9 +42,8 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
     <Logo size={300} class="lhero-star" variant="mono" alt={T.name} />
     <div class="wrap" style="position:relative">
       <p class="eyebrow">{T.landing.eyebrow}</p>
-      <h1 id="hero-title" class="display">{T.landing.title_pre} <span class="hl">{T.landing.title_strong}</span> {T.landing.title_post}</h1>
+      <h1 id="hero-title" class="display">{T.landing.title_pre} <span class="hl">{T.landing.title_strong}</span> {T.landing.title_post}</h1>{TOUR_LANGS.includes(lang) && <p class="ui" style="margin:1.5rem 0 0"><a class="btn btn-lapis" style="display:inline-block;border-radius:999px;text-align:center;max-width:100%" href={tourPath(lang)}>{fmt(T.grand_tour.entry, { n: num(tourStops.length, lang) })} <span class="flip" style="display:inline-block" aria-hidden="true">→</span></a></p>}
       <TodayCards lang={lang} />
-      {TOUR_LANGS.includes(lang) && <p class="ui" style="margin:1.6rem 0 0"><a class="btn btn-lapis" href={tourPath(lang)}>{fmt(T.grand_tour.entry, { n: num(tourStops.length, lang) })} <span class="flip" aria-hidden="true">→</span></a></p>}
     </div>
   </section>
 

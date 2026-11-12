@@ -1,6 +1,6 @@
 # concept/five-pillars
 
-Lead before: 34 Arabic words, 51 English words. Lead after: 164 / 243.
+Lead before: 34 Arabic words, 51 English words. Lead after: 169 / 248.
 Sources cited in the lead: sahih-al-bukhari-bugha, sahih-ibn-khuzayma, ibn-rajab-jami-ulum-hikam
 
 The record is short, so half of the lead is the record's own cited facts and half was read on the page of the three sources it already lists:
@@ -17,7 +17,7 @@ The record is short, so half of the lead is the record's own cited facts and hal
 | 5 | ويذكر محقق طبعة البغا أن مسلماً | {cite:sahih-al-bukhari-bugha p.14} | this record, section «أصل الحديث», same citation (two sentences there). Read on the page, the note headed «تعليق مصطفى البغا» |
 | 6 | ويجعله ابن رجب ثالث أحاديث «جامع | {cite:ibn-rajab-jami-ulum-hikam p.121} | Ibn Rajab p.121, read on the page: heading «الحديث الثالث», and «هذا الحديث خرّجاه في الصحيحين». Not in the record before; the source is in the record's source list |
 | 7 | ويشرحه بأن المقصود تمثيل الإسلام ببنيان | {cite:ibn-rajab-jami-ulum-hikam p.122} | Ibn Rajab p.122, read on the page: «والمقصود تمثيل الإسلام ببنيانه ودعائم البنيان هذه الخمس، فلا يثبت البنيان بدونها، وبقية خصال الإسلام كتتمة البنيان» |
-| 8 | وفي شرحه لحديث جبريل يقسّم هذه | {cite:ibn-rajab-jami-ulum-hikam p.75} | Ibn Rajab p.75, read on the page (commentary on the hadith of Jibril): the testimony is «عمل اللسان»; then «عمل بدني: كالصلاة والصوم … عمل مالي: وهو إيتاء الزكاة … ما هو مركب منهما: كالحج». The record's «للدارسين» section and `did_you_know` state the same uncited |
+| 8 | وفي شرحه لحديث جبريل يقسّم هذه | {cite:ibn-rajab-jami-ulum-hikam p.75} | Ibn Rajab p.75, read on the page (commentary on the hadith of Jibril): the testimony is «عمل اللسان»; then «عمل بدني: كالصلاة والصوم … عمل مالي: وهو إيتاء الزكاة … ما هو مركب منهما: كالحج بالنسبة إلى البعيد عن مكة» (revised: the lead now carries Ibn Rajab's limit, the hajj for someone far from Mecca). The record's «للدارسين» section and `did_you_know` state the same uncited |
 
 Dropped or changed from the old lead:
 - The quotation is removed. The old lead gave the hadith in quotation marks and cited Ibn Khuzayma p.192, but the quoted words are not on that page: p.192 has «شهادة أن لا إله إلا الله» without «وأن محمداً رسول الله». The quoted text mixed al-Bukhari's wording of the testimony with Ibn Khuzayma's order. The lead now lists the five in al-Bukhari's wording and order, cited to al-Bukhari, and states the difference of order separately. No fact of the old lead is lost.
@@ -28,3 +28,7 @@ Could not be supported and left out:
 Seen in the record, for the reviewer:
 - Section «تفصيل الأركان» cites «شهادة أن لا إله إلا الله وأن محمداً رسول الله» to Ibn Khuzayma p.192, which does not have the second half. Section «أصل الحديث» quotes p.192 correctly.
 - The data summary lists the hajj before the fast (al-Bukhari's order); the old lead had the fast before the hajj.
+
+Revised after verification: sentence 8 said the compound deed was "such as the hajj"; Ibn Rajab's words on p.75 limit it to the hajj for someone far from Mecca, and the lead now says so in both languages («كالحج بالنسبة إلى البعيد عن مكة»).
+
+Correction to this file after verification (the lead is not affected): the statement above that Ibn Khuzayma p.192 "has «شهادة أن لا إله إلا الله» without «وأن محمداً رسول الله»" is true of hadith 308 only. Hadith 309, on the same page, has the full testimony and puts the pilgrimage before the fast. So the second half of the testimony is on p.192, and the hajj-before-fast order is on p.192 as well as on p.906. Sentence 3 of the lead (one version with the fast first, another place in the book with the hajj first, cited to p.192 and p.906) remains true.

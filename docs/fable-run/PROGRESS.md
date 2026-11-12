@@ -3,7 +3,7 @@
 This is a diary. It is evidence of nothing. The board's state is in `VERIFICATION.md`, and every
 green there comes from running that statement's oracle, never from this file.
 
-A resumed session reads this file top to bottom, then runs `npx tsx scripts/fable/board.ts`.
+A resumed session reads this file top to bottom, then runs `python3 scripts/fable/board.py --fast`.
 
 ## Frozen facts (do not change)
 
@@ -48,15 +48,27 @@ Merged is not live. Nothing on this branch, and nothing on main after `8d1b0ef9`
 
 ## Phase plan
 
-| Phase | Content | State |
-|---|---|---|
-| 1 | Baseline, canon oracles, canon coverage repairs (century floor, wings on wingless cornerstones) | done; final commit `42db751657`; branch `fable-run/phase-1-canon` |
-| 2 | Tour manifest, River, rooms, completion room, entry link, coverage oracle | built; prose not yet deepened |
-| 3 | Tour prose in Arabic and English, cite-check | next |
-| 4 | Cornerstone dead ends, three-hop reachability, hop distribution | pending |
-| 5 | Cross-record contradiction sweep | pending |
-| 6 | Canon-first search test, absence list with verifier | pending |
-| 7 | Vision pass, no-JavaScript run, integration re-run, ledger, SHOWCASE, PUBLISH | pending |
+| Phase | Content | State | PR |
+|---|---|---|---|
+| 1 | Baseline, canon oracles, century floor, wings on wingless cornerstones | on the remote | #6022 |
+| 2 | Tour manifest, River, rooms, completion room, entry link, coverage oracle | on the remote | #6023 |
+| 3 | The Tour's narratives in Arabic and English (41 written; 40 stand after verification) | on the remote | #6027 |
+| 4 | Dead-end cornerstones opened (29 down to 12 after the verifier removed 17 relations) | on the remote | #6028 |
+| 5 | Contradiction sweep: 130 found, 38 fixed, 84 registered, 8 consistent (after its re-check) | on the remote | #6029 |
+| 6 | Canon-first search test (production: 2 of 50), absence list corrected (24 of 31 found) | on the remote | #6030 |
+| 7 | Verifier fixes, vision pass, no-JavaScript run, integration re-run, ledger, SHOWCASE, PUBLISH | on the remote | #6033 |
+
+`docs/fable-run/phases.json` holds each phase's final commit and branch; `scripts/fable/o11_remote.py` checks them against the host.
+
+## Where things stand right now (for a resumed session)
+
+The mission's work is finished and on the remote as seven stacked pull requests (#6022, #6023, #6027, #6028, #6029, #6030, #6033). Nothing is merged and nothing is deployed; both are the founder's.
+
+- The board's final state is the table in `VERIFICATION.md`, written by `python3 scripts/fable/board.py`. Do not trust this file for it.
+- If anything under `data/`, `content/`, `tour/`, `schema/`, `scripts/`, `site/` or `i18n/` changes, the board is stale by its own rule (`o10_ledger.py` fails) and has to be run again in full: about fifteen minutes, most of it two site builds.
+- To re-check against a newer main: `git fetch origin main && sh scripts/fable/integrate.sh <an empty folder outside the repository> && python3 scripts/fable/concurrency.py`.
+- What is open is listed in `GAP-REGISTER.md` (what was not finished), `PROPOSALS.md` (what the founder is asked to decide), `NOTICED.md` (problems seen outside the task) and `vision/defects.json` (visible defects on older pages).
+- The temporary dev-server entry in `.claude/launch.json` was restored, the dev server stopped and the scratch checkout removed.
 
 ## Decisions taken (each also in PROPOSALS.md where it is the founder's to confirm)
 
@@ -73,17 +85,40 @@ Merged is not live. Nothing on this branch, and nothing on main after `8d1b0ef9`
 ## Dead ends
 
 - A full site build cannot run on this machine (about 12 GB free, about 19 GB needed).
-- `capture.mjs --nojs` against the dev server stalled past five minutes; the no-JavaScript run needs a built page or a different wait condition.
+- `capture.mjs --nojs` against the dev server stalled past five minutes. The no-JavaScript run uses a scoped production build instead.
+- First scoped build used symbolic links for the source tree. Astro then emitted pages with no stylesheet at all, and the no-JavaScript check ("the river is a list, not a band") passed for the wrong reason. Rebuilt from a verbatim copy; the build script now fails if the pages carry no stylesheet, and the oracle needs a positive control (with JavaScript on, the same list is a band).
+- A shell loop over an unquoted variable (zsh does not word-split) left a commit's file list empty: the relation evidence was committed without the 25 records. Fixed in the next commit; history not rewritten.
+- The absence oracle at first failed on generic search words ("belief", "jurisprudence"); the verifier separated real spellings from generic terms and explained every remaining match.
 
 ## Log
 
-- 08:11 Session start. Read charter, AGENTS.md, change gates, publication standard, site README.
-- 08:15 Graph built at baseline (1 min). Site dependencies installed.
-- 08:40 Baseline exploration done. Canon holes found: no 12th-century cornerstone; 48 wingless cornerstones; no canon record in Today or Made.
-- 09:30 Canon floor committed (`18fa4222d3`). Wings committed in two batches (`1d5a49572f`, `bc57cc83af`). Validator: 0 errors.
-- 10:10 Oracles o00 and o01 committed (`42db751657`). Phase 1 complete locally.
-- 10:40 Grand Tour section committed (`1401a5cc97`): 42 stops, River, rooms, ribbon, completion room, entry link. o00, o01, o02 green at that commit.
+Times are local (EST) and are the commit times in git, not recollections. An earlier version of this log carried times typed from memory that ran up to three hours ahead of the clock; they were replaced on reading `git log`.
+
+- 08:11 Session start (the worktree's creation time). Read the charter, AGENTS.md, the change gates, the publication standard, the site README.
+- 08:15 Graph artifact built at the baseline (one minute). Site dependencies installed.
+- 08:32 Canon century floor committed (`18fa4222d3`); wings, batch 1 (`1d5a49572f`).
+- 08:35 Wings, batch 2 (`bc57cc83af`). Validator: 0 errors.
+- 08:52 Oracles o00 and o01 (`42db751657`). Phase 1 complete.
+- 08:54 Grand Tour section (`1401a5cc97`): 42 stops, River, rooms, ribbon, completion room, entry link.
+- 08:55 First captured oracle runs (`f07d617b73`). PRs #6022 and #6023 opened.
+- 09:07 Oracles o03, o04, o05 with before-runs (`91dc7a62d3`). Fourteen subagents launched: seven prose writers, two graph editors, four adjudicators, one absence verifier.
+- 09:29 Narratives committed in two batches (`0a1dbd751e`, `6c4420f475`): 41 finished, 1 cannot be (the contemporary era).
+- 09:31 Dead-end relations (`7ddde0c7f4`, `0aca4b69f3`) and contradiction fixes (`28b8581286`). PRs #6027 to #6029.
+- 09:42 Search test and absence list (`37fb25b9ef`). PR #6030. Production search: 2 of 50.
+- 09:45 Five fresh-context verifiers launched (prose A, B, C; relations; fixes).
+- 09:51 Fixes verifier acted on (`d6abc792fe`): 5 fixes reverted, 1 marked hidden, detectors taught Hijri-only dates, 8 new findings registered.
+- 10:21 Prose verifiers acted on by three fixers (`3905338e7f`, `9d3cab2ca2`): 57 of 71 findings fixed; the Qur'an stop removed (40 stops).
+- 10:22 17 relations removed after verification (`cfadf9bcfe`). Tour script moved to a plain shell file and the /ur/ homepage made byte-identical (`37f69b054c`).
+- 10:41 Route drawing passes the accessibility scan; the no-JavaScript oracle (`933eedc1c6`). 10:43 first 90 screenshots (`efe522d7d1`). Three fresh-context vision reviewers and one numbers verifier launched.
+- 11:12 The Tour's pages revised after the vision review: 121 defects listed, the Tour's own fixed (`0569404e3f`). The numbers verifier found two "before" figures measured mid-run and a count that included a predicate the ledger excludes; all three corrected.
+- 11:20 Screenshots re-captured from the revised pages (`d646e46c83`). A second-round reviewer launched to look for every fixed defect again.
+- 11:33 to 11:36 The ledger's self-check (`o10_ledger.py`), the integration script, the vision register, the wing probe on the branch's build (`64d54dbe26`, `b1e6863229`, `6c3d35c5f2`). Three earlier pull requests given a dated correction note. PR #6033 opened.
+- 11:38 The second-round review came back: 22 of 50 earlier defects gone, 13 still there, 15 changed, 12 new. One fix called done was still visible and the Tour's Arabic arrows pointed backwards. The board run was stopped.
+- 11:41 Those fixed (`e2c16d9083`); 11:50 screenshots taken again (`200aac2918`); a third fresh look launched on the six changed rows. Both ship gates run at that commit: validator 0 errors, cite-check 40 pass and 0 fail.
+- 11:58 First integration run against main at `8bbf678441` (24 commits past the baseline): the homepages did not build, because the script skipped a preparation step. Script corrected (`ca0886cd1d`); 12:12 second run clean.
+- 12:07 Third look back: 2 of 6 gone, 3 better but not gone, 1 stands, 2 new caused by the fix. All registered. Register: 135 defects, 23 fixed and confirmed gone, 112 standing.
+- 12:12 to 12:26 Final board at `ca0886cd1d`: 11 of 13 rows green; statements 4 and 6 not green; the ledger's self-check green.
 
 ## Usage
 
-Credit consumption is not observable from inside the session so far; noted at each phase boundary if that changes.
+Credit consumption is not observable from inside the session. What the harness reported for each subagent is in `delegation.json` and summed in `NUMBERS.md`; the orchestrating session's own use is not in those figures.

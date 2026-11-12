@@ -15,3 +15,9 @@ Looked for and not found as records: a concept for classical Ottoman architectur
 Could have been added but the record does not cite it: nothing.
 
 On the predicate: the record says the mosque is Suleiman's and that Sinan built it for him. It does not say in so many words that he ordered it, so the weaker `patronized_by` is used, not `commissioned_by`.
+
+## Removed after verification
+
+A fresh-context verifier re-read every relation above against this record. These were taken out again because the record does not say as much as the relation does:
+
+- `patronized_by -> person/sulayman-al-qanuni` (stretched): The one cited sentence says «جامع سليمان القانوني ... بناه سنان»: Suleiman's mosque, built by Sinan. 'For Suleiman' appears only in summary.en, a data field with no citation. That is possession or dedication, not patronage: the record nowhere says he ordered, paid for or sponsored it, and gives no dates for him. The evidence file concedes it ('does not say in so many words that he ordered it'). Target itself is the right Suleiman.

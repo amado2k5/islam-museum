@@ -26,12 +26,14 @@ const date = dateText(s, lang);
 const second = lang === "ar" ? n.label.en : n.label.ar;
 const doors = sideDoors(s, lang);
 const title = labelOf(n, lang);
-const why = fmt(G.why_line, { r: num(s.relations, lang), d: num(s.linked, lang), p: num(s.pathways, lang) });
+// the counted line, as separate items so that no separator is left hanging at a line end
+const why = fmt(G.why_line, { r: num(s.relations, lang), d: num(s.linked, lang), p: num(s.pathways, lang) }).split(" · ");
 const path = stopHref(lang, s);
+const comma = lang === "ar" ? "، " : ", ";
 ---
 <BaseLayout lang={lang} title={`${title} · ${G.title}`} description={`${G.stop} ${index + 1} ${G.of} ${stops.length}: ${title}`} path={path} alternates={{ ar: stopHref("ar", s), en: stopHref("en", s) }}>
   <article data-gt-room={s.slug} data-pagefind-ignore>
-    <PageHeader title={title} crumbs={[{ label: G.title, href: tourPath(lang) }, { label: `${G.stop} ${num(index + 1, lang)} ${G.of} ${num(stops.length, lang)}` }]} crumbsLabel={T.entity.breadcrumb} wing={n.wings[0]}>
+    <PageHeader title={title} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: G.title, href: tourPath(lang) }, { label: `${G.stop} ${num(index + 1, lang)} ${G.of} ${num(stops.length, lang)}` }]} crumbsLabel={T.entity.breadcrumb} wing={n.wings[0]}>
       {second && <p class="gt-second" lang={lang === "ar" ? "en" : "ar"}><bdi>{second}</bdi></p>}
       <p class="gt-meta ui">
         <span class="chip">{T.class[n.class] ?? n.class}</span>
@@ -41,20 +43,24 @@ const path = stopHref(lang, s);
     </PageHeader>
     <div class="wrap gt-room">
       <GrandTourRibbon lang={lang} walk={s.walk} />
-      <div class="prose gt-narrative" set:html={r.html} />
-      <p class="panel ui gt-why"><b>{G.why}.</b> {why}</p>
-      {r.cites.length > 0 && (
-        <section class="ui gt-sources" aria-labelledby="gt-src">
-          <h2 id="gt-src">{G.sources}</h2>
-          <ol>
-            {r.cites.map((c) => { const src = byId.get(c.source); return <li id={`note-${c.n}`}>{src ? <a href={href(lang, c.source)}>{labelOf(src, lang)}</a> : c.source}{c.locator ? `, ${c.locator}` : ""}</li>; })}
-          </ol>
-        </section>
-      )}
+      <div class="gt-body">
+        <div class="prose gt-narrative" set:html={r.html} />
+        <aside class="gt-aside ui">
+          <p class="panel gt-why"><b>{G.why}</b>{why.map((w) => <span class="gt-why-i">{w}</span>)}</p>
+          {r.cites.length > 0 && (
+            <section class="gt-sources" aria-labelledby="gt-src">
+              <h2 id="gt-src">{G.sources}</h2>
+              <ol>
+                {r.cites.map((c) => { const src = byId.get(c.source); return <li id={`note-${c.n}`}>{src ? <a href={href(lang, c.source)}>{labelOf(src, lang)}</a> : c.source}{c.locator && <>{comma}<bdi dir="ltr">{c.locator}</bdi></>}</li>; })}
+              </ol>
+            </section>
+          )}
+        </aside>
+      </div>
       <nav class="ui gt-doors" aria-label={G.doors}>
         <div class="gt-onward">
-          {prev ? <a class="btn btn-outline" href={stopHref(lang, prev)} data-gt-prev rel="prev"><span class="flip" aria-hidden="true">←</span> <span><span class="gt-k">{G.prev}</span> <bdi>{labelOf(prev.node, lang)}</bdi></span></a> : <a class="btn btn-outline" href={tourPath(lang)} data-gt-prev><span class="flip" aria-hidden="true">←</span> {G.back_to_river}</a>}
-          {next ? <a class="btn btn-lapis" href={stopHref(lang, next)} data-gt-next rel="next"><span><span class="gt-k">{G.next}</span> <bdi>{labelOf(next.node, lang)}</bdi></span> <span class="flip" aria-hidden="true">→</span></a> : <a class="btn btn-lapis" href={tourPath(lang, "complete")} data-gt-next rel="next">{G.finish} <span class="flip" aria-hidden="true">→</span></a>}
+          {prev ? <a class="btn btn-outline" href={stopHref(lang, prev)} data-gt-prev rel="prev"><span class="flip" aria-hidden="true">←</span> <span><span class="gt-k">{G.prev}</span> <bdi>{labelOf(prev.node, lang)}</bdi></span></a> : <a class="btn btn-outline" href={tourPath(lang)} data-gt-prev><span class="flip" aria-hidden="true">←</span> <span><span class="gt-k">{G.title}</span> {G.back_to_river}</span></a>}
+          {next ? <a class="btn btn-lapis" href={stopHref(lang, next)} data-gt-next rel="next"><span><span class="gt-k">{G.next}</span> <bdi>{labelOf(next.node, lang)}</bdi></span> <span class="flip" aria-hidden="true">→</span></a> : <a class="btn btn-lapis" href={tourPath(lang, "complete")} data-gt-next rel="next"><span><span class="gt-k">{G.title}</span> {G.finish}</span> <span class="flip" aria-hidden="true">→</span></a>}
         </div>
         {doors.length > 0 && (
           <>
@@ -68,24 +74,32 @@ const path = stopHref(lang, s);
       </nav>
     </div>
   </article>
-  <script src="../../../scripts/grand-tour.ts"></script>
+  <script is:inline src="/shell/grand-tour.js" defer></script>
   <style is:global>
-    .gt-room { padding-block: 22px 44px; }
+    .gt-room { padding-block: 22px 36px; }
     .gt-doors .card b { display: block; margin-bottom: 2px; }
-    .gt-second { text-align: start; unicode-bidi: plaintext; margin: 0 0 8px; font-size: clamp(1.15rem, 2.6vw, 1.6rem); color: #e6d5b8; }
+    .gt-second { text-align: start; margin: 0 0 8px; font-size: clamp(1.15rem, 2.6vw, 1.6rem); color: #e6d5b8; }
     .gt-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 10px 0 0; }
     .gt-when { color: #e6d5b8; font-size: .95rem; }
     .gt-when-k { color: #c5a059; }
-    .gt-narrative { font-size: 1.12rem; line-height: 1.85; }
-    .gt-why { max-width: var(--measure); margin: 20px 0; font-size: .95rem; border-inline-start: 5px solid var(--gold); }
-    .gt-sources { max-width: var(--measure); }
-    .gt-sources h2, .gt-side-h { font-size: 1.05rem; margin: 1.4rem 0 .5rem; }
-    .gt-sources ol { padding-inline-start: 1.4rem; font-size: .9rem; margin: 0; }
+    /* The narrative keeps its reading measure; on a wide screen the counted line and the sources stand beside it. */
+    .gt-body { display: grid; gap: 22px 44px; }
+    @media (min-width: 1000px) { .gt-body { grid-template-columns: minmax(0, 42rem) minmax(260px, 1fr); align-items: start; } }
+    .gt-narrative { font-size: 1.12rem; line-height: 1.85; max-width: 42rem; }
+    .gt-narrative > :first-child { margin-top: 0; }
+    .gt-aside { max-width: 42rem; }
+    .gt-why { margin: 0 0 20px; font-size: .95rem; border-inline-start: 5px solid var(--gold); }
+    .gt-why b { display: block; margin-bottom: 4px; }
+    .gt-why-i { display: block; }
+    .gt-sources h2, .gt-side-h { font-size: 1.05rem; margin: 0 0 .5rem; }
+    .gt-side-h { margin-top: 1.6rem; }
+    .gt-sources ol { list-style: decimal; padding-inline-start: 1.6rem; font-size: .9rem; margin: 0; }
+    .gt-sources li { margin: .2rem 0; }
     .gt-doors { margin-top: 26px; }
     .gt-onward { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
     .gt-onward .btn { max-width: 100%; text-align: start; }
     .gt-k { display: block; font-size: .72rem; font-weight: 400; opacity: .85; }
     .gt-full { margin: 1.2rem 0 0; }
-    @media (max-width: 560px) { .gt-onward .btn { flex: 1 1 100%; justify-content: space-between; } }
+    @media (max-width: 560px) { .gt-onward .btn { flex: 1 1 100%; justify-content: center; } }
   </style>
 </BaseLayout>
