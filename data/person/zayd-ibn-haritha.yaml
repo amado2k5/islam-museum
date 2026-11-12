@@ -19,9 +19,9 @@ died: { edtf: "0629-09", hijri: "0008-05", calendar: julian, precision: month, s
 roles: [companion]
 traditions: [sunni]
 summary:
-  en: "A freedman of the Prophet, once adopted by him, who became one of the earliest Muslims and commanded the expedition to Mu'ta, where he was killed; the only Companion named in the Qur'an."
-  ar: "مولى النبي وقد تبنّاه يومًا، فكان من أوائل المسلمين، وقاد غزوة مؤتة التي قُتل فيها، وهو الصحابي الوحيد المذكور اسمه في القرآن."
-  ur: "نبی کے آزاد کردہ غلام اور ابتدائی مسلمانوں میں سے؛ پہلے ان کے متبنٰی تھے۔ {cite:ibn-sad-tabaqat-bewley} موتہ کی مہم میں سپہ سالار رہے اور وہیں قتل ہوئے۔ {cite:ibn-hisham-saqqa} قرآن میں نام سے مذکور واحد صحابی ہیں۔ {cite:rahma-lil-alamin}"
+  en: "A freedman of the Prophet, once adopted by him, who became one of the earliest Muslims and commanded the expedition to Mu'ta, where he was killed; the only Companion named in the Qur'an. The Encyclopaedia of Islam notes that the accounts of his capture and sale differ, and that he married Umm Ayman, Zaynab bint Jahsh and several other women."
+  ar: "مولى النبي وقد تبنّاه يومًا، فكان من أوائل المسلمين، وقاد غزوة مؤتة التي قُتل فيها، وهو الصحابي الوحيد المذكور اسمه في القرآن. وتشير دائرة المعارف الإسلامية إلى أن الروايات في أسره وبيعه مختلفة، وأنه تزوج أم أيمن وزينب بنت جحش ونساءً أخريات."
+  ur: "نبی کے آزاد کردہ غلام اور ابتدائی مسلمانوں میں سے؛ پہلے ان کے متبنٰی تھے۔ {cite:ibn-sad-tabaqat-bewley} موتہ کی مہم میں سپہ سالار رہے اور وہیں قتل ہوئے۔ {cite:ibn-hisham-saqqa} قرآن میں نام سے مذکور واحد صحابی ہیں۔ {cite:rahma-lil-alamin} دائرۃ المعارف اسلامیہ کے مطابق ان کی قید اور فروخت کی روایات مختلف ہیں، اور انہوں نے ام ایمن، زینب بنت جحش اور دوسری خواتین سے نکاح کیا۔"
 wings: [people]
 themes: [slavery-and-freedom, family-marriage-kinship, battles]
 periods: [period/prophetic-era]
@@ -45,7 +45,7 @@ relations:
   - { type: revealed_in, target: passage/quran-33-37, note: "الصحابي الوحيد المسمّى في القرآن؛ والآية تخاطب شأنه مباشرة.", sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa, source/ibn-hisham-sira]}
 external_ids: { wikidata: "Q34418" }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/ibn-hisham-sira, source/rahma-lil-alamin]
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/ibn-hisham-sira, source/rahma-lil-alamin, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 provenance:
@@ -55,3 +55,4 @@ provenance:
   model: "unknown"
   run: "education-E3-facts-batch6"
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
+  canon: "EI2 vol. 11, article Zayd b. Haritha, PDF page 494, written by Claude Sonnet 5.5, run canon-cornerstones-22"

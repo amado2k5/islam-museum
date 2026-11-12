@@ -1,8 +1,8 @@
 ---
 id: person/bilal-ibn-rabah
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Brief
@@ -18,6 +18,29 @@ Bilal stands where three histories meet: slavery and freedom, Africa and Arabia,
 
 ## For young visitors
 Bilal was an enslaved man who was tortured for his faith, and he would not stop saying "One." He became the first person to call to prayer in Islam, and his call can still be heard today.
+
+## In the Encyclopaedia of Islam
+This section follows the article on Bilal ibn Rabah in the second edition of the Encyclopaedia of Islam. The article is short, so the section is short as well. Parts of the OCR text of the article are garbled, and what could not be read has been left out.
+
+The article describes Bilal as a Companion of the Prophet, best known as his muezzin, and as a man of Ethiopian stock, adding a query about a wider African origin. It says he lived as a slave in Mecca, and that his master is sometimes given as [[person/umayya-ibn-khalaf|Umayya ibn Khalaf]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1279}
+
+### Conversion and rescue
+The article reports that he was an early convert, and that some sources count him as the second adult after [[person/abu-bakr|Abu Bakr]] to accept Islam. Because of his status he suffered heavy punishment and torture, reported especially at the hands of Umayya ibn Khalaf, and he is said to have borne it without recanting. He was finally rescued and set free by Abu Bakr, who, in the sources' accounts, either bought him or exchanged an able-bodied slave of his own, one who had not accepted Islam, for him. The article adds that, although a freedman of Abu Bakr, Bilal seems to have been in constant attendance on [[person/muhammad|the Prophet]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1279}
+
+### In Medina
+The article says he emigrated to [[place/medina|Medina]], where at first he fell ill with fever together with Abu Bakr and a number of Meccan Muslims. The Prophet established a tie of brotherhood between him and Abu Ruwayha of Khath'am. Bilal later named Abu Ruwayha as his representative for receiving his pension when he decided to campaign in Syria. According to the article, as a result of this tie [[person/umar-ibn-al-khattab|Umar]] attached the list of African pensioners to that of the tribe of Khath'am. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1279}
+
+### Muezzin and other duties
+He became the official muezzin when the call to prayer was first instituted, in the first year of the Hijra, and he accompanied the Prophet on all his military expeditions. At [[event/battle-of-badr|Badr]], the article says, he caused the deaths of Umayya ibn Khalaf and his son, who had already surrendered; their captor was powerless to defend them against the attack Bilal led. Besides serving as muezzin, the article says he was the Prophet's mace-bearer, his steward, his personal servant and, on occasion, his adjutant. The article presents the high point of his career as a muezzin as the fall of [[place/mecca|Mecca]] to the Muslims, when he called the faithful to prayer for the first time from the roof of the [[building/kaaba|Kaaba]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1279}
+
+### After the Prophet's death
+The article reports that Bilal agreed to act as muezzin for Abu Bakr but refused a similar request from Umar, and joined the campaigns in [[place/syria|Syria]], where he spent the rest of his life. It also notes that some sources say he refused to act as muezzin at all after the Prophet's death, and that he called publicly to prayer on only two later occasions: when Umar visited al-Jabiya, and when Bilal himself paid a return visit to Medina and was asked to give the call by [[person/hasan-ibn-ali|al-Hasan]] and [[person/husayn-ibn-ali|al-Husayn]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1279}
+
+### Standing among the Companions
+The article says Bilal seems to have attained high prestige in his lifetime. It reports that an Arab tribe accepted his brother as a suitor in spite of the brother's bad character. It also gives, citing al-Tabari, an episode from Syria. When Umar sent a representative to look into the source of certain donations made by [[person/khalid-ibn-al-walid|Khalid ibn al-Walid]], Bilal supported both the hesitant commander [[person/abu-ubayda-ibn-al-jarrah|Abu Ubayda]] and the caliph's representative by himself removing Khalid's turban and demanding an answer. When a satisfactory explanation was given, Bilal returned the turban to Khalid with full respect and honour. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1279}
+
+### Death and burial
+The article gives the date of his death variously as 17, 18, 20 or 21 AH, which it converts to 638, 639, 641 or 642 CE. For his burial place it names [[place/aleppo|Aleppo]] or, in its view more probably, [[place/damascus|Damascus]] or [[place/darayya|Darayya]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1279}
 
 ## In the secret call (The Sealed Nectar p. 76)
 The book mentions him among the early Muslims after the first group, and names him Bilal ibn Rabah the Abyssinian ([[event/al-dawa-al-sirriyya|the secret call]]) {cite:mubarakpuri-raheeq p. 76} {cite:ibn-hisham-sira 1/245-262}.

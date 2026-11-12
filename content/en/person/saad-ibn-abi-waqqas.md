@@ -1,8 +1,8 @@
 ---
 id: person/saad-ibn-abi-waqqas
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Brief
@@ -11,7 +11,44 @@ Sa'd ibn Abi Waqqas was one of the first Muslims, the archer of Badr, and the co
 ## Life
 A young Qurashi of [[group/banu-zuhra|Banu Zuhra]], the clan of the Prophet's own mother, Sa'd embraced Islam at the hands of [[person/abu-bakr|Abu Bakr]] while still under twenty, among the first ten believers {cite:ibn-sad-tabaqat-bewley}. He witnessed [[event/battle-of-badr|Badr]], which tradition calls the first arrow shot in the cause of Islam, and the battles of Medina after it {cite:ibn-sad-tabaqat-bewley}.
 
-In 636 CE, as commander on behalf of [[person/umar-ibn-al-khattab|Umar]], he met the Sasanian army at [[event/battle-of-qadisiyya|al-Qadisiyya]] in Iraq and defeated it in a battle lasting several days, after which all the lands of Persia opened to the Muslims {cite:tabari-donner-1993}. On Umar's command he founded the garrison city of Kufa and governed Iraq. Then he withdrew to his estate at Aqiq, near Medina, and died around 674 CE {cite:ibn-sad-tabaqat-bewley}.
+In 636 CE, as commander on behalf of [[person/umar-ibn-al-khattab|Umar]], he met the Sasanian army at [[event/battle-of-al-qadisiyya|al-Qadisiyya]] in Iraq and defeated it in a battle lasting several days, after which all the lands of Persia opened to the Muslims {cite:tabari-donner-1993}. On Umar's command he founded the garrison city of Kufa and governed Iraq. Then he withdrew to his estate at Aqiq, near Medina, and died around 674 CE {cite:ibn-sad-tabaqat-bewley}.
+
+## Name and lineage in the Encyclopaedia of Islam
+The Encyclopaedia of Islam, second edition, article on Sa'd ibn Abi Waqqas by G. R. Hawting, describes him as a leading Companion of the Prophet and commander of the Arab armies during the conquest of Iraq. His clan was the [[group/banu-zuhra|Banu Zuhra]] of Quraysh. His kunya was Abu Ishaq, and he is also listed as Sa'd ibn Malik, because his father was Malik ibn Wuhayb, also given as Uhayb, ibn Abd Manaf ibn Zuhra. The article notes that no explanation seems to exist for why Malik carried the kunya Abu Waqqas. {cite:encyclopaedia-of-islam-2 vol. 8 p. 749}
+
+A tradition has Sa'd asking the Prophet who he was and being told that he was Sa'd ibn Malik of Zuhra. Since the Prophet's mother also came from Banu Zuhra, the Prophet is said to have acknowledged Sa'd as his maternal uncle. {cite:encyclopaedia-of-islam-2 vol. 8 p. 749}
+
+## What the Sunni biographical works report
+The article says Sa'd is counted among the [[concept/ashara-mubashshara|ten Companions promised entry into paradise]]. The entries on him in the Sunni biographical works consist largely of traditions on several themes. They report his early acceptance of Islam, as the third, seventh or ninth person to accept it, at a time before prayer had become obligatory. They report his role in the revelation of certain Qur'anic verses, his being the first to shed blood for Islam and the first to shoot an arrow in the path of God, and his guarding of the Prophet on the night immediately after the [[event/hijra|hijra]]. They also report that he took part in all of the Prophet's battles. According to these works the Prophet said to him alone, or by another account to him and to [[person/zubayr-ibn-al-awwam|al-Zubayr]], that his mother and father would be a ransom for him, and the Prophet prayed that all of Sa'd's petitions be granted. {cite:encyclopaedia-of-islam-2 vol. 8 p. 749}
+
+The article adds that in Shi'i tradition the Companions of the Prophet, Sa'd among them, are generally viewed more negatively, and it refers readers to studies by Kohlberg on Zaydi and Imami views of the Companions. {cite:encyclopaedia-of-islam-2 vol. 8 p. 749}
+
+## The traditions on his illness and his will
+A group of traditions tells of a visit by the Prophet to Sa'd, who was ill and apparently dying in Mecca, at some time after the conquest of the city; the precise occasion is given in different ways. These traditions concern in part Sa'd's dislike of the prospect of dying in a place he had left in the hijra, and in part a decision attributed to the Prophet on what proportion of an estate a Muslim may bequeath before death. The article refers readers to studies by Marsden Speight and by D. S. Powers for detailed discussion. {cite:encyclopaedia-of-islam-2 vol. 8 p. 749}
+
+## Commander in Iraq
+According to the article, after the Arabs were defeated at the battle that precedes al-Qadisiyya, the caliph [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]] is reported to have sent Sa'd in command of an army to central Iraq. Sa'd had previously been the representative responsible for collecting the sadaqa tax from the [[group/hawazin|Hawazin]]. This army defeated the [[polity/sasanian-empire|Sasanians]] at [[event/battle-of-al-qadisiyya|al-Qadisiyya]]. {cite:encyclopaedia-of-islam-2 vol. 8 p. 749}
+
+The article records a report that Sa'd himself was ill at the time and took no part in the fighting, and that some sources cite verses critical of him that refer to his absence. The victory led to the expulsion of the Sasanians from Iraq and to Sa'd's occupation of [[place/al-madain|al-Mada'in]]. It was sealed by a further defeat of the Sasanians at [[event/battle-of-jalula|Jalula]], by a force that Sa'd sent under his nephew [[person/hashim-ibn-utba|Hashim ibn Utba ibn Abi Waqqas]]. The chronology of these events is uncertain, but they are generally placed in the years 14 to 19 AH, 635 to 640 CE; the article refers readers to Donner's study of the early conquests. {cite:encyclopaedia-of-islam-2 vol. 8 p. 749}
+
+## Founding Kufa and dismissal
+The conquest was accompanied by the founding of [[place/kufa|al-Kufa]] as the garrison town for the forces that had fought at al-Qadisiyya and were later quartered in al-Mada'in. The article says instructions for founding the town are said to have come from Umar himself, while Sa'd is credited with organising the settlement and became its first governor. {cite:encyclopaedia-of-islam-2 vol. 8 p. 749}
+
+Umar then removed him, apparently after complaints from the Kufans. The charges said to have been made against him included failing to lead the prayer properly, and also being unjust in his judgements, not distributing spoils fairly and failing to organise expeditions properly. The article suggests that reports about the elegance or luxury of Sa'd's house in Kufa, which Umar is said to have found objectionable and ordered burned, may also be relevant. Some accounts indicate that Sa'd later held authority over Kufa again, under Umar and possibly under [[person/uthman-ibn-affan|Uthman]], but the details are uncertain. {cite:encyclopaedia-of-islam-2 vol. 8 p. 749}
+
+## The shura and the question of the caliphate
+The article says it is widely reported that despite his dismissal Umar named Sa'd among the six Companions of the [[event/shura-council-of-uthman|shura]] appointed in 23 AH, 644 CE, to choose his successor. It notes that al-Baladhuri's Ansab explicitly denies Sa'd's membership, on the authority of al-Waqidi, Musa ibn Uqba and al-Zuhri. In a report often cited, Umar said at the time of the appointment that he had not removed Sa'd from Kufa because of any weakness or treachery, that Sa'd's selection as caliph should be accepted, and that otherwise whoever was chosen should seek Sa'd's help. {cite:encyclopaedia-of-islam-2 vol. 8 p. 749} {cite:encyclopaedia-of-islam-2 vol. 8 p. 750}
+
+## The strife between Ali and Mu'awiya
+The last important event of early Islam with which the article connects Sa'd is the struggle between [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] and [[person/muawiya-ibn-abi-sufyan|Mu'awiya ibn Abi Sufyan]]. Sa'd is said to have stayed neutral. In some reports, asked to take a side, he answered that he would do so if given a sword that could tell the believer from the unbeliever. The article says this neutrality is sometimes presented as a kind of ascetic withdrawal, and that he is said to have put forward no claim to the caliphate for himself although his standing in Islam would have justified one. {cite:encyclopaedia-of-islam-2 vol. 8 p. 750}
+
+The sources contradict one another on whether he attended the arbitration. Some reports say he did not give the oath of allegiance to Ali after the killing of Uthman, and others that he eventually gave it to Mu'awiya after the end of the fitna. The text of the article is partly unreadable at this point, so what he had done earlier is not stated here. {cite:encyclopaedia-of-islam-2 vol. 8 p. 750}
+
+## Last years and death
+Sa'd is said to have spent the last period of his life in his residence at al-Aqiq near Medina. At his death he was carried from there to Medina and buried in the cemetery of [[place/baqi-al-gharqad|al-Baqi]], and [[person/marwan-ibn-al-hakam|Marwan ibn al-Hakam]], the governor, prayed over him. Various dates between 50 AH, 670 to 671 CE, and 58 AH, 677 to 678 CE, are given for his death, and his age is given as anything from about seventy to over eighty. {cite:encyclopaedia-of-islam-2 vol. 8 p. 750}
+
+## The article's assessment of the sources
+The author judges it likely that memories of the historical Sa'd have been much elaborated and developed in the traditions. In his view the material on Sa'd probably reflects hagiographical, polemical, legal and other concerns, as well as a need for entertaining stories and speculation. The article also points to Qur'anic commentaries on three passages, in suras 6, 8 and 31, where Sa'd appears as an occasion of revelation. {cite:encyclopaedia-of-islam-2 vol. 8 p. 750}
 
 ## Legacy
 Kufa, the seat of Ali's rule, the cradle of Arabic grammar and early jurisprudence, and the base of the east, began as Sa'd's garrison camp. The saying attributed to the Prophet, "O God, make Sa'd's arrow find its mark," made him the tradition's model archer.
