@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-2384
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2384"
+label: { ar: "جامع الترمذي 2384 — الأجران", en: "Jami' al-Tirmidhi 2384 — the double reward", ur: "جامع ترمذی 2384 — دوہرا اجر" }
+text: "… يَا رَسُولَ اللَّهِ الرَّجُلُ يَعْمَلُ الْعَمَلَ فَيُسِرُّهُ فَإِذَا اطُّلِعَ عَلَيْهِ أَعْجَبَهُ ذَلِكَ قَالَ رَسُولُ اللَّهِ \" لَهُ أَجْرَانِ أَجْرُ السِّرِّ وَأَجْرُ الْعَلاَنِيَةِ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ. وَقَدْ رَوَاهُ الأَعْمَشُ وَغَيْرُهُ عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ عَنْ أَبِي صَالِحٍ عَنِ النَّبِيِّ مُرْسَلاً وَأَصْحَابُ الأَعْمَشِ لَمْ يَذْكُرُوا فِيهِ عَنْ أَبِي هُرَيْرَةَ. قَالَ أَبُو …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2384، يذكر الأجران. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 2384 (Chapters On Zuhd), that speaks of the double reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 2384، جس میں دوہرا اجر کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2384 (book 36 hadith 81); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

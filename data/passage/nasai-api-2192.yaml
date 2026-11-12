@@ -1,0 +1,17 @@
+id: passage/nasai-api-2192
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2192"
+label: { ar: "سنن النسائي 2192 — مغفرة ما تقدم من الذنب", en: "Sunan al-Nasa'i 2192 — forgiveness of past sins", ur: "سنن نسائی 2192 — پچھلے گناہوں کی مغفرت" }
+text: "… مُحَمَّدُ بْنُ جَبَلَةَ، قَالَ حَدَّثَنَا الْمُعَافَى، قَالَ حَدَّثَنَا مُوسَى، عَنْ إِسْحَاقَ بْنِ رَاشِدٍ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، أَنَّ عَائِشَةَ، زَوْجَ النَّبِيِّ أَخْبَرَتْهُ أَنَّ رَسُولَ اللَّهِ كَانَ يُرَغِّبُ النَّاسَ فِي قِيَامِ رَمَضَانَ مِنْ غَيْرِ أَنْ يَأْمُرَهُمْ بِعَزِيمَةِ أَمْرٍ فِيهِ فَيَقُولُ \" مَنْ قَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2192، يذكر مغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 2192 (The Book of Fasting), that speaks of forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 2192، جس میں پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2192 (book 22 hadith 103); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

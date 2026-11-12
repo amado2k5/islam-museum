@@ -1,0 +1,16 @@
+id: passage/muslim-api-7227
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7227"
+label: { ar: "صحيح مسلم 7227 — الحساب", en: "Sahih Muslim 7227 — the reckoning", ur: "صحیح مسلم 7227 — حساب" }
+text: "… الرَّحْمَنِ بْنُ بِشْرِ بْنِ الْحَكَمِ الْعَبْدِيُّ، حَدَّثَنَا يَحْيَى، - يَعْنِي ابْنَ سَعِيدٍ الْقَطَّانَ - حَدَّثَنَا أَبُو يُونُسَ الْقُشَيْرِيُّ، حَدَّثَنَا ابْنُ أَبِي مُلَيْكَةَ، عَنِ الْقَاسِمِ، عَنْ عَائِشَةَ، عَنِ النَّبِيِّ قَالَ \" لَيْسَ أَحَدٌ يُحَاسَبُ إِلاَّ هَلَكَ \". قُلْتُ يَا رَسُولَ اللَّهِ أَلَيْسَ اللَّهُ يَقُولُ حِسَابًا يَسِيرًا قَالَ \" ذَاكِ الْعَرْضُ وَلَكِنْ مَنْ نُوقِشَ الْحِسَابَ هَلَكَ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 7227، يذكر الحساب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 7227 (The Book of Paradise, its Description, its Bounties and its Inhabitants), that speaks of the reckoning. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 7227، جس میں حساب کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7227 (book 53 hadith 96); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

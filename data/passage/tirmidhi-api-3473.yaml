@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-3473
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3473"
+label: { ar: "جامع الترمذي 3473 — عدد الحسنات، كتابة الحسنات", en: "Jami' al-Tirmidhi 3473 — a stated number of good deeds; the writing of good deeds", ur: "جامع ترمذی 3473 — نیکیوں کی مقررہ تعداد، نیکیوں کا لکھا جانا" }
+text: "… إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ إِلَهًا وَاحِدًا أَحَدًا صَمَدًا لَمْ يَتَّخِذْ صَاحِبَةً وَلاَ وَلَدًا وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ عَشْرَ مَرَّاتٍ كَتَبَ اللَّهُ لَهُ أَرْبَعِينَ أَلْفَ أَلْفِ حَسَنَةٍ \". قَالَ هَذَا حَدِيثٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ هَذَا الْوَجْهِ. وَالْخَلِيلُ بْنُ مُرَّةَ لَيْسَ بِالْقَوِيِّ عِنْدَ أَصْحَابِ الْحَدِيثِ. قَالَ مُحَمَّدُ بْنُ إِسْمَاعِيلَ هُوَ مُنْكَرُ الْحَدِيثِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3473، يذكر عدد الحسنات، وكتابة الحسنات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 3473 (Chapters on Supplication), that speaks of a stated number of good deeds, the writing of good deeds. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 3473، جس میں نیکیوں کی مقررہ تعداد، نیکیوں کا لکھا جانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3473 (book 48 hadith 104); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,50 @@
+id: concept/hisab-al-muflis
+class: concept
+kind: doctrine
+label:
+  ar: "المفلس: المقاصة بالحسنات والسيئات"
+  en: "The bankrupt: settling wrongs in good and bad deeds"
+  ur: "مفلس: نیکیوں اور برائیوں سے حساب چکانا"
+summary:
+  ar: "سأل النبي أصحابه عن المفلس، فقالوا: من لا درهم له ولا متاع، فبيّن أن المفلس من أمته من يأتي يوم القيامة بصلاة وصيام وزكاة، وقد شتم هذا وقذف هذا وأكل مال هذا وسفك دم هذا وضرب هذا، فيُعطى هذا من حسناته وهذا من حسناته، فإن فنيت حسناته قبل أن يُقضى ما عليه أُخذ من خطاياهم فطُرحت عليه [[passage/muslim-2581]]، وعند البخاري الحثّ على التحلل من المظالم قبل يوم لا دينار فيه ولا درهم [[passage/bukhari-api-6534]]. وهو النص الذي يجعل الحسنات والسيئات عملة تُنقل بين الحسابات، ويختم به الجدول لأنه يبيّن أن الرصيد المجموع قد يُدفع لغير صاحبه."
+  en: "The Prophet asked his Companions who the bankrupt is; they said: one with no dirham and no goods. He explained that the bankrupt of his community is the one who comes on the Day of Resurrection with prayer, fasting and alms, having insulted this one, slandered that one, consumed the wealth of another, shed the blood of another and struck another; each is paid from his good deeds, and if they run out before what he owes is settled, their sins are taken and laid on him [[passage/muslim-2581]]; al-Bukhari carries the urging to settle wrongs before a day with neither dinar nor dirham [[passage/bukhari-api-6534]]. This is the text that makes good and bad deeds a currency moved between accounts, and it closes the table because it shows that a balance gathered may be paid out to someone else."
+  ur: "نبی نے صحابہ سے پوچھا کہ مفلس کون ہے؛ انہوں نے کہا: جس کے پاس نہ درہم ہو نہ سامان۔ آپ نے بتایا کہ میری امت کا مفلس وہ ہے جو قیامت کے دن نماز، روزہ اور زکوٰۃ لے کر آئے گا مگر اس نے کسی کو گالی دی، کسی پر تہمت لگائی، کسی کا مال کھایا، کسی کا خون بہایا اور کسی کو مارا ہوگا؛ ہر ایک کو اس کی نیکیوں سے دیا جائے گا، اور اگر حق ادا ہونے سے پہلے نیکیاں ختم ہو گئیں تو ان کی خطائیں لے کر اس پر ڈال دی جائیں گی [[passage/muslim-2581]]، اور بخاری میں اس دن سے پہلے زیادتیوں کی تلافی کی ترغیب ہے جس میں نہ دینار ہوگا نہ درہم [[passage/bukhari-api-6534]]۔ یہ وہ نص ہے جو نیکیوں اور برائیوں کو ایسا سکہ بناتی ہے جو کھاتوں کے درمیان منتقل ہوتا ہے، اور جدول اسی پر ختم ہوتا ہے کیونکہ یہ بتاتی ہے کہ جمع شدہ نیکیاں کسی اور کو ادا ہو سکتی ہیں۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+order: 24
+reckoning:
+  effect: scale
+  unbounded: true
+  unit:
+    ar: "لكل مظلمة"
+    en: "per wrong done to another"
+    ur: "دوسرے پر ہر زیادتی پر"
+  result:
+    ar: "يُعطى المظلوم من حسنات الظالم، فإن فنيت أُخذ من سيئات المظلوم فطُرحت عليه"
+    en: "the wronged is paid from the wrongdoer's good deeds; when they run out, the bad deeds of the wronged are laid on him"
+    ur: "مظلوم کو ظالم کی نیکیوں سے دیا جاتا ہے؛ جب وہ ختم ہو جائیں تو مظلوم کی برائیاں اس پر ڈال دی جاتی ہیں"
+  basis: [passage/muslim-2581, passage/bukhari-api-6534]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+- source/sahih-al-bukhari
+- source/hadith-api-fawazahmed0
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

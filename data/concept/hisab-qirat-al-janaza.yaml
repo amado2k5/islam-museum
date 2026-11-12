@@ -1,0 +1,50 @@
+id: concept/hisab-qirat-al-janaza
+class: concept
+kind: doctrine
+label:
+  ar: "شهود الجنازة: قيراط وقيراطان"
+  en: "Attending a funeral: one qirat and two"
+  ur: "جنازے میں شرکت: ایک قیراط اور دو قیراط"
+summary:
+  ar: "من شهد الجنازة حتى يصلى عليها فله قيراط، ومن شهدها حتى تُدفن كان له قيراطان، وسئل عن القيراطين فقيل: مثل الجبلين العظيمين، في رواية أبي هريرة [[passage/bukhari-api-1325]] [[passage/muslim-0945]]. القيراط هنا مكيال أجر لا عدد حسنات، ولذلك تعرضه الآلة نتيجة مكتوبة ولا تحوّله إلى رقم."
+  en: "Whoever attends a funeral until the prayer is said over it has one qirat, and whoever stays until the burial has two; asked about the two qirats, the answer was: like two great mountains, in Abu Hurayra's narration [[passage/bukhari-api-1325]] [[passage/muslim-0945]]. The qirat here is a measure of reward, not a number of good deeds, so the calculator shows it as a written result and does not turn it into a figure."
+  ur: "جو جنازے میں نماز پڑھے جانے تک شریک رہے اس کے لیے ایک قیراط ہے اور جو دفن تک رہے اس کے لیے دو؛ دو قیراط کے بارے میں پوچھا گیا تو جواب ملا: دو بڑے پہاڑوں کی مانند، ابو ہریرہ کی روایت میں [[passage/bukhari-api-1325]] [[passage/muslim-0945]]۔ یہاں قیراط اجر کا پیمانہ ہے، نیکیوں کی تعداد نہیں، اس لیے کیلکولیٹر اسے لکھا ہوا نتیجہ دکھاتا ہے اور عدد میں نہیں بدلتا۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+order: 12
+reckoning:
+  effect: hasanat
+  unbounded: true
+  unit:
+    ar: "لكل جنازة"
+    en: "per funeral"
+    ur: "ہر جنازے پر"
+  result:
+    ar: "قيراط لمن شهدها حتى يصلى عليها، وقيراطان لمن شهدها حتى تُدفن؛ والقيراطان مثل الجبلين العظيمين"
+    en: "one qirat for staying until the prayer, two for staying until the burial; the two qirats are like two great mountains"
+    ur: "نماز تک ٹھہرنے والے کے لیے ایک قیراط اور دفن تک ٹھہرنے والے کے لیے دو؛ دو قیراط دو بڑے پہاڑوں کی مانند ہیں"
+  basis: [passage/bukhari-api-1325, passage/muslim-0945]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-al-bukhari
+- source/hadith-api-fawazahmed0
+- source/sahih-muslim
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

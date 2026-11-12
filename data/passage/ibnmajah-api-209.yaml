@@ -1,0 +1,18 @@
+id: passage/ibnmajah-api-209
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "209"
+label: { ar: "سنن ابن ماجه 209 — عمل يعدل عملا أعظم منه، وزر من تبع", en: "Sunan Ibn Majah 209 — a deed that equals a greater one; bearing the burden of those who follow", ur: "سنن ابن ماجہ 209 — ایک عمل جو بڑے عمل کے برابر ہے، پیروی کرنے والوں کا بوجھ" }
+text: "… بْنِ عَمْرِو بْنِ عَوْفٍ الْمُزَنِيُّ، حَدَّثَنِي أَبِي، عَنْ جَدِّي، أَنَّ رَسُولَ اللَّهِ ـ قَالَ \" مَنْ أَحْيَا سُنَّةً مِنْ سُنَّتِي فَعَمِلَ بِهَا النَّاسُ كَانَ لَهُ مِثْلُ أَجْرِ مَنْ عَمِلَ بِهَا لاَ يَنْقُصُ مِنْ أُجُورِهِمْ شَيْئًا وَمَنِ ابْتَدَعَ بِدْعَةً فَعُمِلَ بِهَا كَانَ عَلَيْهِ أَوْزَارُ مَنْ عَمِلَ بِهَا لاَ يَنْقُصُ مِنْ أَوْزَارِ مَنْ عَمِلَ بِهَا شَيْئًا \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 209، يذكر عمل يعدل عملا أعظم منه، ووزر من تبع. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 209 (The Book of the Sunnah), that speaks of a deed that equals a greater one, bearing the burden of those who follow. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 209، جس میں ایک عمل جو بڑے عمل کے برابر ہے، پیروی کرنے والوں کا بوجھ کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 209 (book 0 hadith 209); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,49 @@
+id: concept/hisab-harf-al-quran
+class: concept
+kind: doctrine
+label:
+  ar: "قراءة حرف من القرآن: حسنة بعشر أمثالها"
+  en: "Reading a letter of the Qur'an: a good deed counted ten"
+  ur: "قرآن کا ایک حرف پڑھنا: دس گنا نیکی"
+summary:
+  ar: "من قرأ حرفا من كتاب الله فله به حسنة، والحسنة بعشر أمثالها، ثم يوضح الحديث وحدة العدّ: ليست فاتحة البقرة حرفا واحدا، بل الألف حرف واللام حرف والميم حرف، في رواية ابن مسعود عند الترمذي الذي ذكر أن بعضهم رفعه وبعضهم وقفه على ابن مسعود [[passage/tirmidhi-api-2910]]. وهو أوضح نص يسمّي وحدة الحساب ويضرب لها مثالا."
+  en: "Whoever reads a letter of the Book of God has a good deed for it, and the good deed counts ten; the report then fixes the unit of counting: the opening of al-Baqara is not one letter, for alif is a letter, lam a letter and mim a letter, in Ibn Mas'ud's narration in al-Tirmidhi, who notes that some transmitters raise it to the Prophet and others stop it at Ibn Mas'ud [[passage/tirmidhi-api-2910]]. It is the clearest text that names its unit of account and gives a worked example."
+  ur: "جو اللہ کی کتاب کا ایک حرف پڑھے اس کے لیے ایک نیکی ہے، اور نیکی دس گنا ہے؛ پھر حدیث شمار کی اکائی واضح کرتی ہے: سورۂ بقرہ کا آغاز ایک حرف نہیں بلکہ الف ایک حرف، لام ایک حرف اور میم ایک حرف ہے، ابن مسعود کی روایت میں جو ترمذی میں ہے، اور ترمذی نے بتایا کہ بعض نے اسے مرفوع اور بعض نے ابن مسعود پر موقوف روایت کیا [[passage/tirmidhi-api-2910]]۔ یہ سب سے واضح نص ہے جو حساب کی اکائی کا نام لیتی اور اس کی مثال دیتی ہے۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+order: 8
+reckoning:
+  effect: hasanat
+  hasanat: 10
+  unit:
+    ar: "لكل حرف يُقرأ"
+    en: "per letter read"
+    ur: "ہر پڑھے گئے حرف پر"
+  result:
+    ar: "حسنة، والحسنة بعشر أمثالها"
+    en: "one good deed, and the good deed counts ten"
+    ur: "ایک نیکی، اور نیکی دس گنا"
+  basis: [passage/tirmidhi-api-2910]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/jami-al-tirmidhi
+- source/hadith-api-fawazahmed0
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

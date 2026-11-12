@@ -21,7 +21,7 @@ evidence:
 - 'Measured: page 601 KB (was 25.3 MB), places.json 125 KB compressed, the file behind a click at most 36 KB compressed'
 status: decided
 step: override
-decision: 'Static JSON files under /<lang>/place-map/, written at build time by site/src/pages/[lang]/place-map/[file].json.ts from the one graph: places.json for every place, and 2 x 128 small files found by hashing a place''s slug or a record''s id, fetched when a reader opens one. No /api/v1/ file, Worker, wrangler or workflow file changes. The places themselves stay in the graph, the class exports and search exactly as before, so the graph, API and search rule is already met; the pull request states the privacy posture (same-origin static files, nothing stored) so the founder can label it if he reads gate 3 more strictly.'
+decision: 'Static JSON files under /<lang>/place-map/, written at build time by site/src/pages/[lang]/place-map/[file].json.ts from the one graph: places.json for every place, and 2 x 128 small files found by hashing a place''s slug or a record''s id, fetched when a reader opens one. No /api/v1/ file, Worker, wrangler or workflow file changes. The places themselves stay in the graph, the class exports and search exactly as before, so the graph, API and search rule is already met. Under docs/ai-change-gates.md section 3, which names a script and a network call, the change is labelled submission-impacting and waits for the founder''s sign-off; the reserved outreach files are edited only after it. No filed claim changes (same-origin static files, nothing stored, no third party).'
 correct_outcome: page-data-as-static-files-beside-the-page
 wrong_outcome: rule-feature-graph-api-search
 confidence: 0.9

@@ -1,0 +1,17 @@
+id: passage/muslim-api-1473
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1473"
+label: { ar: "صحيح مسلم 1473 — رفع الدرجات", en: "Sahih Muslim 1473 — ranks raised", ur: "صحیح مسلم 1473 — درجات کی بلندی" }
+text: "… حَدَّثَنَا عَبْدُ الأَعْلَى، عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ قَالَ \" تَفْضُلُ صَلاَةٌ فِي الْجَمِيعِ عَلَى صَلاَةِ الرَّجُلِ وَحْدَهُ خَمْسًا وَعِشْرِينَ دَرَجَةً \". قَالَ \" وَتَجْتَمِعُ مَلاَئِكَةُ اللَّيْلِ وَمَلاَئِكَةُ النَّهَارِ فِي صَلاَةِ الْفَجْرِ \". قَالَ أَبُو هُرَيْرَةَ اقْرَءُوا إِنْ شِئْتُمْ { وَقُرْآنَ الْفَجْرِ إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا}"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 1473، يذكر رفع الدرجات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 1473 (The Book of Mosques and Places of Prayer), that speaks of ranks raised. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 1473، جس میں درجات کی بلندی کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1473 (book 5 hadith 306); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

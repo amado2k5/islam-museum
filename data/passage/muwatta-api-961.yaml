@@ -1,0 +1,16 @@
+id: passage/muwatta-api-961
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "961"
+label: { ar: "موطأ مالك 961 — الميزان", en: "Muwatta Malik 961 — the Scale", ur: "موطأ مالک 961 — میزان" }
+text: "… وَتَعَفُّفًا وَلَمْ يَنْسَ حَقَّ اللَّهِ فِي رِقَابِهَا وَلاَ فِي ظُهُورِهَا فَهِيَ لِذَلِكَ سِتْرٌ وَرَجُلٌ رَبَطَهَا فَخْرًا وَرِيَاءً وَنِوَاءً لأَهْلِ الإِسْلاَمِ فَهِيَ عَلَى ذَلِكَ وِزْرٌ \". وَسُئِلَ رَسُولُ اللَّهِ عَنِ الْحُمُرِ فَقَالَ \" لَمْ يَنْزِلْ عَلَىَّ فِيهَا شَىْءٌ إِلاَّ هَذِهِ الآيَةُ الْجَامِعَةُ الْفَاذَّةُ {فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ }."
+summary:
+  ar: "حديث في موطأ مالك، رقم 961، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Muwatta Malik, no. 961 (Jihad), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "موطأ مالک کی حدیث نمبر 961، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 961 (book 21 hadith 3); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

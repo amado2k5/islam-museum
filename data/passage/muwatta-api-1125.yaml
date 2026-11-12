@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1125
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1125"
+label: { ar: "موطأ مالك 1125 — كتاب الأعمال والملائكة الكاتبون", en: "Muwatta Malik 1125 — the record of deeds and the recording angels", ur: "موطأ مالک 1125 — نامۂ اعمال اور لکھنے والے فرشتے" }
+text: "… عَنِ ابْنِ شِهَابٍ، عَنْ قَبِيصَةَ بْنِ ذُؤَيْبٍ، أَنَّ رَجُلاً، سَأَلَ عُثْمَانَ بْنَ عَفَّانَ عَنِ الأُخْتَيْنِ، مِنْ مِلْكِ الْيَمِينِ هَلْ يُجْمَعُ بَيْنَهُمَا فَقَالَ عُثْمَانُ أَحَلَّتْهُمَا آيَةٌ وَحَرَّمَتْهُمَا آيَةٌ فَأَمَّا أَنَا فَلاَ أُحِبُّ أَنْ أَصْنَعَ ذَلِكَ. قَالَ فَخَرَجَ مِنْ عِنْدِهِ فَلَقِيَ رَجُلاً مِنْ أَصْحَابِ رَسُولِ اللَّهِ فَسَأَلَهُ عَنْ ذَلِكَ فَقَالَ لَوْ كَانَ لِي مِنَ الأَمْرِ شَىْءٌ ثُمَّ …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 1125، يذكر كتاب الأعمال والملائكة الكاتبون. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Muwatta Malik, no. 1125 (Marriage), that speaks of the record of deeds and the recording angels. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "موطأ مالک کی حدیث نمبر 1125، جس میں نامۂ اعمال اور لکھنے والے فرشتے کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1125 (book 28 hadith 35); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
