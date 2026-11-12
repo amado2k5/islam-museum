@@ -1528,3 +1528,45 @@ Series complete: episode 47 is the last episode of albuyout-alamena.
 | Prices and quantities quoted for a perfume | ep32 00:17:00 | Unverifiable and garbled | Clarity | Open |
 
 Resume point: episode 33 (branch from origin/main). The recording ends at 00:31:00 with no closing in the transcript.
+
+### al-dar-al-akhera ep33 (12 Nov 2026)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-dar-al-akhera ep33 (the sura of the Human, a description of Paradise, the vision) | about 42 min (transcript) | ar, en, ur: 1 record extended | 3 new `about` edges | 14 points; qwen3-asr pass5, 30 s windows | needs_source on most points; the opening (ep33 00:00:00-00:01:30); the report on voluntary acts (00:07:30-00:08:00); the Sad ibn Muadh report (00:17:00-00:17:30); the unnamed text read aloud (00:28:00-00:30:30); the call to the people of Paradise and the vision (00:31:00-00:37:00) | run omar-abdelkafy-dar-akhera-26 |
+
+| Excluded (dar-akhera ep33) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops | ep33 00:02:30, 00:03:00, 00:06:30, 00:09:30, 00:11:00, 00:13:00, 00:15:00 (partial), 00:18:30, 00:19:00, 00:19:30, 00:24:00, 00:29:00, 00:33:30, 00:34:00 (partial), 00:36:00, 00:37:00 (partial), 00:38:00-00:40:30 | Not speech | Loop check | Open |
+| Garbled passages | ep33 00:02:00, 00:04:30-00:05:30, 00:08:30-00:13:00, 00:14:30-00:15:30, 00:18:00 (a letter of Umar, details unclear), 00:20:00, 00:25:30 (diacritised ASR output unrelated to speech), 00:27:30 | Not recoverable as clear Arabic | Clarity | Open |
+| Closing supplications, the publisher and telephone line | ep33 00:37:30, 00:41:00-00:42:00 | Not lesson content | Content rule | Open |
+
+Resume point: the 33 harvested episodes (01 to 33) are all written. The lecturer announces two further summary episodes in ep33 00:40:00; they are not in the harvest. Branch from origin/main for any follow-up.
+
+### ahl-al-hikma ep01-ep04 (12 Nov 2026)
+
+New record work/ahl-al-hikma (27 episodes in the harvest, 81 files); episodes 1 to 4 written (ar, en, ur). Decision dec-20261112-265 (sensitivity: contested). 31 points; needs_source on reports without a chain and on garbled stretches.
+
+| Excluded (ahl-al-hikma ep01-04) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Presenter's greetings, thanks, break announcements, closing supplications and sign-offs | ep01 00:00:00-00:02:00, 00:08:30-00:09:30, 00:16:30-00:17:30; ep02 00:06:30, 00:14:30-00:15:30; ep03 00:00:00-00:00:30, 00:09:00-00:09:30, 00:15:30-00:16:30; ep04 00:00:00-00:00:30, 00:11:30-00:12:00, 00:15:00-00:15:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep01 00:08:00, 00:12:00; ep04 00:02:00 (a long repeated letter), 00:07:00-00:08:30 (a marriage-bargaining dialogue, garbled), 00:09:30-00:10:00 | Not speech or not recoverable | Loop check, Clarity | Open |
+| A Ramadan-end prayer-time anecdote and two mosque-attendance remarks | ep04 00:11:00-00:11:30 | Garbled | Clarity | Open |
+
+Resume point: ahl-al-hikma episode 5 (branch from origin/main).
+### al-manjeyat, episode 16 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-manjeyat-4)
+
+Episode 16 read in full (23 min of transcript) before writing. 9 points written (ar, en, ur); new `about` edges for the people and passages named; 8 needs_source (unchained accounts, sayings and hadiths in sense, rulings without evidence, garbled text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-manjeyat ep16 (humility) | about 23 min (transcript) | ar, en, ur: work/al-manjeyat extended, 9 points | new `about` edges | 9 | 8 needs_source | this PR |
+
+Next step: episode 17.
+
+| Excluded (al-manjeyat ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, closing formulae | ep16 00:00:00, 00:22:30–00:23:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep16 00:13:30–00:14:00, 00:18:30–00:19:00, 00:08:00–00:08:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Verses of poetry quoted | ep16 00:09:30–00:10:00 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep16 00:02:30–00:04:30, 00:10:00–00:13:30, 00:16:00–00:18:30 | Wording not typed; by sense only | Hadith rule | Open |

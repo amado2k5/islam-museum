@@ -1,11 +1,48 @@
 ---
 id: person/yazid-ibn-muawiya
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
 Yazid ibn Mu'awiya ibn Abi Sufyan, the second caliph of the Umayyads. His mother was [[person/maysun-bint-bahdal|Maysun bint Bahdal]]. He was the son of [[person/muawiya-ibn-abi-sufyan|Mu'awiya]] of the [[group/banu-umayya|Banu Umayya]] {cite:futuh-buldan-maarif-1407} {cite:bakr-umayyad-state-1134715}.
+
+## Family and early career
+The Encyclopaedia of Islam, second edition, says that Yazid reigned from 60 to 64 AH, that is 680 to 683 CE, and that his father [[person/muawiya-ibn-abi-sufyan|Mu'awiya]] named him as successor. His mother was Maysun, a sister of the Kalbi leader Ibn Bahdal, identified in the museum as [[person/hassan-ibn-malik-ibn-bahdal|Hassan ibn Malik ibn Bahdal]]. The [[group/banu-kalb|Banu Kalb]] were strong in southern Syria, and the article notes that Mu'awiya preferred Yazid to an older half-brother, Abd Allah, whose mother was from Quraysh. {cite:encyclopaedia-of-islam-2 vol. 11 p. 320}
+
+Yazid's kunya, Abu Khalid, refers to one of his own younger sons, [[person/khalid-ibn-yazid-ibn-muawiya|Khalid ibn Yazid]]. During his father's caliphate he commanded summer expeditions against the Byzantines and took part in an attack on [[place/constantinople|Constantinople]] that the article dates to 49 or 50 AH, 669 or 670 CE, and that both Muslim and non-Muslim sources mention. He is also named as having led the pilgrimage in various years. {cite:encyclopaedia-of-islam-2 vol. 11 p. 320}
+
+The article reports that he died at Huwwarin in Rabi' I 64 AH, November 683 CE, at less than forty years of age according to the reports, while other dates and details of his birth are also given. He had apparently named his eldest son [[person/muawiya-ibn-yazid|Mu'awiya ibn Yazid]] as successor, but that son received only limited acceptance and died within months. {cite:encyclopaedia-of-islam-2 vol. 11 p. 320} {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+## The wider crisis
+According to the article, Yazid's caliphate opened the crisis commonly called the fitna, during which the Umayyads came close to losing the caliphate. They eventually re-established their hold on it, but in the person of [[person/marwan-ibn-al-hakam|Marwan I ibn al-Hakam]] and his descendants, not a member of the Sufyanid branch of the family, to which Yazid belonged. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+## Opposition and the events of 61 to 64 AH
+After his father's death in Rajab 60 AH, April 680 CE, Yazid faced the continuing refusal of [[person/abdullah-ibn-al-zubayr|Abd Allah ibn al-Zubayr]] and [[person/husayn-ibn-ali|al-Husayn ibn Ali]], then both in [[place/medina|Medina]], to give him allegiance. The article says most reports about his caliphate concern his efforts to overcome their opposition and that of others. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+Al-Husayn's attempt to make his own claim to the caliphate, in the article's wording, ended in his death at the hands of a force sent by Yazid's governor of Iraq, [[person/ubayd-allah-ibn-ziyad|Ubayd Allah ibn Ziyad]], at [[event/battle-of-karbala|Karbala]] in Muharram 61 AH, October 680 CE. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+Ibn al-Zubayr took refuge in [[place/mecca|Mecca]]. In 64 AH, 683 to 684 CE, an army sent by Yazid besieged the city and bombarded it with catapults, as described in [[event/siege-of-mecca-683|the siege of Mecca]]. The article says the Ka'ba was damaged by fire during the siege, and that there are variant accounts of how this happened and who was responsible. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+The army had been raised in 63 AH, 683 CE, mainly in response to the people of Medina, who had cast off their allegiance to Yazid, expelled the Umayyads living there and, according to some accounts, made contact with Ibn al-Zubayr. Its first commander was [[person/muslim-ibn-uqba-al-murri|Muslim ibn Uqba al-Murri]]. After defeating the Medinans at [[event/waqat-al-harra|the battle of al-Harra]], he entered the town and, it is said, sacked it, and he compelled a number of its leading men to return to their allegiance. He then set out for Mecca to force Ibn al-Zubayr, who had won the support of other opponents of Yazid, including several Kharijites, to submit. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+Muslim died on the way, and command of the Syrian army passed to [[person/al-husayn-ibn-numayr|al-Husayn ibn Numayr al-Sakuni]], who led the siege. News of Yazid's death reached him while it was under way, and after fruitless negotiations with Ibn al-Zubayr he withdrew the army to Syria. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+## Government
+In broad terms, the article says, Yazid seems to have continued the form of rule his father developed, which rested on the relationship between the caliph, his governors and the tribal notables in the provinces. His governor of Iraq, Ubayd Allah, was the son of Ziyad. A Christian, Sarjun, who had been prominent in Mu'awiya's administration, remained influential under Yazid. The article adds that Robert Hoyland has questioned whether this man, called [[person/sarjun-ibn-mansur|Sarjun ibn Mansur]] in the museum, was the father of John of Damascus, as Lammens and others had assumed. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+The custom of receiving delegations from the provinces at court, institutionalised by Mu'awiya, was less successful when Yazid tried to use it to forestall the opposition of the Medinans. The article compares the image of Mu'awiya as acting more like a tribal shaykh than a Middle Eastern despot to Yazid, and links it to a Byzantine-Arab chronicle of 741, which says he sought no glory from his royal rank and lived as a citizen among the common people. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+The article ascribes the breakdown of this system of government, which began under Yazid, partly to difficulties over the succession and more fundamentally to changes in the structure of the conquest society, which it says Patricia Crone analysed. It also reports that Yazid is often credited with creating the new military district of [[place/qinnasrin|Qinnasrin]], that he reduced the tribute owed by the Christians of [[place/najran|Najran]], suppressed privileges the Samaritans enjoyed, and took part in irrigation work. It refers readers to Henri Lammens for a full discussion, and notes a Sasanian-type coin dated to the first year of Yazid. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+## How the sources treat him
+The article explains that Yazid reigned when al-Husayn, the Prophet's grandson, was killed, when the two holy cities of Arabia were attacked and the Ka'ba burned, and that he benefited from an appointment which Muslim tradition presents as a crucial stage in the turning of the caliphate into a kingship, as in the museum's concept of [[concept/caliphate-not-kingship|caliphate versus kingship]]. For these reasons, it says, the tradition is generally hostile to him. The article reports that the tradition often mentions his fondness for drinking, singing girls, licentiousness, hunting and a tame monkey, which together present him as a frivolous libertine. These are reports of the tradition, as the article describes it, and the museum does not adopt them. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+The article also notes other strands. According to James Lindsay, some traditional material stresses Yazid's closeness to the Prophet's generation and his role in transmitting tradition. Versions of an apocalyptic tradition ascribed to [[person/abdullah-ibn-amr-ibn-al-as|Abd Allah ibn Amr ibn al-As]] place Mu'awiya and his son in a line of righteous caliphs, and Ibn Abbas is said to have pledged allegiance to Yazid and spoken favourably of him and his father. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+Modern scholars read the evidence differently. The article says Wellhausen and Lammens cited the favourable Byzantine-Arab chronicle and presented Yazid, at least after his accession, as an able ruler traduced by opponents who appealed to religion hypocritically. Lindsay has argued that the biography of Yazid by [[person/ibn-asakir|Ibn Asakir]], in his [[work/tarikh-dimashq|History of Damascus]], tries to present as sympathetic an image as possible in order to convey a moral and religious message of its own, though the Damascene scholar could draw on favourable material already in the tradition. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
+
+The article concludes that the available evidence probably does not allow a judgement of Yazid's ability or character. Any attempt, it says, must consider both the historical situation in which he ruled and the nature of the Muslim historical tradition, which took shape after the Umayyads were overthrown. The article does not set out a separate Sunni or Shi'i position, so none is stated here, and the museum gives no verdict. {cite:encyclopaedia-of-islam-2 vol. 11 p. 321}
 
 ## In al-Baladhuri's Futuh al-Buldan
 al-Baladhuri reports that when Mu'awiya died and his son Yazid succeeded, the army of Cyprus that his father had arranged closed its gate, and Yazid ordered their city demolished. Muhammad ibn Musfa transmits that he was bribed with great wealth to close it, and the people of Cyprus demolished their city and their mosques. He was also the one who imposed the land tax on the lands of Samaria in Jordan, at five dinars per head {cite:futuh-buldan-maarif-1407}. See [[event/second-raid-on-cyprus|the second raid on Cyprus]].

@@ -1,0 +1,19 @@
+id: group/banu-awf-ibn-al-khazraj
+tags: ["ansab-browser", "ansab-butun"]
+class: group
+kind: clan
+label: { ar: "بنو عوف بن الخزرج", en: "Banu Awf ibn al-Khazraj" }
+summary:
+  ar: "بطن من الخزرج بيثرب، دار السيدين سعد بن معاذ وسعد بن عبادة — سيد الأوس وسيد الخزرج اللذين بايعا النبي في العقبة واستُضيف الإسلام في دارهما؛ ومنهم أُبيّ بن كعب في القراءات {cite:ibn-hisham-sira} {cite:mubarakpuri-raheeq}."
+  en: "A batn of the Khazraj at Yathrib, the house of the two masters Sa'd ibn Mu'adh and Sa'd ibn Ubada — the chiefs who pledged at al-Aqaba and hosted Islam; among them Ubayy ibn Ka'b of the qira'at {cite:ibn-hisham-sira} {cite:mubarakpuri-raheeq}."
+  ur: "خزرج کا بطن یثرب میں — سعد بن معاذ اور سعد بن عبادہ کے سیدان کا گھرانہ، عقبہ کی بیعت والے؛ انہی میں ابی بن کعب۔"
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/al-khazraj, sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — butun records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-butun-1
+sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1 }

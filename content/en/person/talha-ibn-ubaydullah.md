@@ -1,13 +1,44 @@
 ---
 id: person/talha-ibn-ubaydullah
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 Talha ibn Ubaydullah al-Taymi al-Qurashi was one of the eight of the first vanguard. He became Muslim through the call of [[person/abu-bakr|Abu Bakr al-Siddiq]] during the years of the [[event/al-dawa-al-sirriyya|secret call]] in Mecca. {cite:mubarakpuri-raheeq}
 
 ## During the secret call (The Sealed Nectar p.76)
 The book counts him among those who became Muslim through the call of [[person/abu-bakr|Abu Bakr]] during the years of the [[event/al-dawa-al-sirriyya|secret call]]. He was one of the eight who went before the people, forming the first vanguard and the front line of Islam. {cite:mubarakpuri-raheeq p.76} {cite:ibn-hisham-sira 1/245-262}. The book refers to him by his tribal lineage, al-Taymi. {cite:mubarakpuri-raheeq p.76}.
+
+## Family and background in the Encyclopaedia of Islam
+The sections above rest on Sunni sources. The sections that follow add the article on Talha in the second edition of the Encyclopaedia of Islam, written by the modern academic W. Madelung. Where it differs from the Sunni accounts, it is labelled as the article's own account. The article counts Talha among the first eight converts to Islam and among the ten to whom the Prophet had promised Paradise. {cite:encyclopaedia-of-islam-2 vol. 10 p. 176} {cite:encyclopaedia-of-islam-2 vol. 10 p. 177}
+
+He belonged to the clan of [[group/banu-taym|Taym]] ibn Murra of [[group/quraysh|Quraysh]], so he was a kinsman of [[person/abu-bakr|Abu Bakr]], though about twenty years younger. The two were closely associated and were known as "the two mates". The article gives the prevalent explanation, that during the early persecution they were once tied together with a single rope, and a second explanation, that Talha's father made the young man a close associate of Abu Bakr. His mother was al-Sa'ba, daughter of Abd Allah ibn Imad al-Hadrami, a confederate of Harb ibn Umayya. {cite:encyclopaedia-of-islam-2 vol. 10 p. 177}
+
+## Conversion, migration and the first campaigns
+The article reports that, by his own account, a monk in [[place/busra|Busra]] told Talha of the coming of the last of the prophets. He hurried back to [[place/mecca|Mecca]], was introduced to Muhammad by Abu Bakr and accepted Islam. He kept up his caravan trade in Syria and did not join the emigration to Abyssinia. {cite:encyclopaedia-of-islam-2 vol. 10 p. 177}
+
+When Muhammad and Abu Bakr made the hijra, Talha met them at al-Kharrar as he was coming from Syria. He gave them clothes from Syria and news of the Muslims in [[place/medina|Medina]], then went on to Mecca and later escorted Abu Bakr's family, including [[person/aisha|Aisha]], to Medina. {cite:encyclopaedia-of-islam-2 vol. 10 p. 177} Just before [[event/battle-of-badr|Badr]], Muhammad sent him with [[person/said-ibn-zayd|Said ibn Zayd]] to spy on the Meccan caravan. They therefore missed the battle but were given a share of the booty. {cite:encyclopaedia-of-islam-2 vol. 10 p. 177}
+
+At [[event/battle-of-uhud|Uhud]], according to the article, he distinguished himself by shielding the Prophet in person and killed two Meccans. He received many wounds, one of which left one or two of his fingers paralysed, and the article says Muhammad promised him Paradise on that occasion for his bravery. He took part in all the later campaigns and battles of the Prophet. {cite:encyclopaedia-of-islam-2 vol. 10 p. 177}
+
+## After Muhammad, under Abu Bakr and Umar
+The article says Talha backed his kinsman Abu Bakr after Muhammad's death. It calls unreliable the isolated reports of [[person/ibn-ishaq|Ibn Ishaq]] and others that he first stayed with [[person/ali-ibn-abi-talib|Ali]] and refused to pledge allegiance to Abu Bakr. It says he played a prominent part in the battle of Dhu al-Qassa, which opened the [[event/ridda-wars|Ridda wars]]. {cite:encyclopaedia-of-islam-2 vol. 10 p. 177}
+
+The article adds that, before Abu Bakr's death, Talha is said to have protested in vain against the choice of [[person/umar-ibn-al-khattab|Umar]] as successor, complaining of Umar's harshness towards Muslims. The author considers it not impossible that Talha already aspired to the caliphate himself; this is the author's conjecture. Umar appointed Talha one of the six electors and candidates for the succession. At Umar's death Talha was away from Medina and so took no part in the election of [[person/uthman-ibn-affan|Uthman]]. On his return he voiced dissatisfaction at his exclusion, remarking that he was not a man whose views could be ignored. The article says Uthman is reported to have offered to resign so that a fresh election could be held, but Talha, having made his point, pledged allegiance. {cite:encyclopaedia-of-islam-2 vol. 10 p. 177}
+
+## Relations with Uthman, in the article's account
+This section gives the article's academic reconstruction, which is not the only account. It reports that Uthman first made special efforts to win Talha's backing with generous gifts, which Talha's son Musa put at 200,000 dinars. Uthman also let him exchange his share in the oasis of Khaybar for the lucrative estate of al-Nashtastadi near [[place/kufa|Kufa]]. Soon afterwards, the article says, Talha turned against the caliph and became his harshest critic among the major Companions. It states that he wrote to the provincial garrison towns summoning them to revolt, and that during the siege of Uthman's house in Medina he took the keys of the treasury and kept close contact with the besieging Egyptian rebels. The article concludes that he evidently shared their aim of removing Uthman and, with strong backing from Aisha, expected to be chosen as successor. {cite:encyclopaedia-of-islam-2 vol. 10 p. 177}
+
+## The caliphate of Ali and the Camel, in the article's account
+After Uthman was killed, the article says, Talha at first had some support among the Egyptian rebels and the Quraysh in Medina, but the Kufan rebels favouring Ali, backed by the great majority of the [[group/ansar|Ansar]], soon gained the upper hand. The Kufan leader [[person/malik-al-ashtar|al-Ashtar]] dragged him to the mosque to pledge allegiance to Ali against his will, though, the article adds, no physical force or threats were used in Ali's presence. Talha and [[person/zubayr-ibn-al-awwam|al-Zubayr]], who also pledged unwillingly, left for Mecca within days. There they joined Aisha in demanding vengeance for Uthman's blood and in holding Ali responsible for the killing. Together they led a Meccan army to [[place/basra|Basra]], seeking support and promising a new election once Ali was removed. The article notes an intense rivalry between Talha and al-Zubayr, since al-Zubayr, having backed Uthman loyally to the end, thought himself better entitled to the succession. {cite:encyclopaedia-of-islam-2 vol. 10 p. 177}
+
+## How Talha died: the accounts
+The Sunni accounts given above, from al-Sallabi, say Talha was struck by an arrow at the start of the [[event/battle-of-the-camel|Battle of the Camel]], and that some historians name [[person/marwan-ibn-al-hakam|Marwan ibn al-Hakam]] as the archer, a report al-Sallabi refutes. {cite:sallabi-ali-vol2 p. 95} The summary of this record also cites al-Mas'udi, who names Marwan as the man who shot him. {cite:muruj-al-dhahab p. 658-659}
+
+The article places the death in the Battle of the Camel on 15 Jumada I 36, or 8 December 656, as Ali and the Kufans were gaining the upper hand. It says Marwan, fighting in the Meccan army, hit Talha's knee with an arrow and that he bled to death, and it calls this a treacherous murder. It records that L. Caetani and other modern scholars have dismissed the reports of Marwan's act as anti-Umayyad fiction. The article answers that they are supported by the fact that Marwanid propaganda in Syria during the second civil war proudly proclaimed Marwan the first avenger of Uthman for what he had done. The accounts are set side by side here without the museum choosing among them. {cite:encyclopaedia-of-islam-2 vol. 10 p. 177}
+
+## His sons and his wealth
+Talha's eldest son Muhammad, described as pious, was also killed in the Battle of the Camel. Another son, Musa, survived the battle, was pardoned by Ali and was allowed to take possession of Talha's vast fortune for his family, including land in Iraq and in the Sarat in Arabia. The article judges that Talha's wealth seems to have been surpassed only by Uthman's among the early Companions, and that, like Uthman, he is described as a generous benefactor of the early Muslim community. {cite:encyclopaedia-of-islam-2 vol. 10 p. 177}
 
 ## For Sprouts
 Talha ibn Ubaydullah al-Taymi al-Qurashi, one of the eight who were the first band of Islam; he entered Islam at Abu Bakr al-Siddiq's invitation in the secret-call years at Mecca.

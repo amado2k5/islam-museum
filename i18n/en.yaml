@@ -1736,7 +1736,7 @@ explore:
       menu: "Browse the centuries, years, months and sacred months"
     madhahib:
       title: "Four Madhhabs Browser"
-      desc: "The four imams and the schools they founded, the salaf and the books that recorded them — every mention of the madhhabs in the Sunni books with its source."
+      desc: "The four imams and the schools they founded, the salaf, the canonical books and the school mutun that carry them — every mention of the madhhabs in the Sunni books with its source."
       menu: "Browse the four madhhabs and their mentions"
     bayt:
       title: "Household of the Prophet Browser"
@@ -1755,9 +1755,9 @@ explore:
       desc: "Every mention of ethics and dealings in the Qur'an, the Sunnah, the seerah, Companion and Tabi'i reports and every harvested book — truthfulness, trustworthiness, faithfulness, patience, gratitude, humility, excellence, modesty, forbearance, pardon, sincerity, repentance, generosity, kindness to parents, kinship ties and the neighbour's right; lying, treachery, pride, ostentation, envy, miserliness, backbiting, slander, anger, injustice, disobedience to parents, hypocrisy and cheating; and sale, riba, debt, pledge, hire, bequest, inheritance, marriage, divorce, oaths, testimony, judgement, weights and measures, reconciliation, gifts, guarantees, agency, partnership, salam, transfer, loans, usurpation, pre-emption, hoarding, coercion and interdiction — every verse and report with its source."
       menu: "Browse ethics and dealings in the Qur'an, hadith and books"
     ansab:
-      title: "The Genealogies, Peoples, Mutun and Prophets' Tree Browser"
-      desc: "Every mention of genealogies, peoples, mutun and the prophets' tree in the Qur'an, the Sunnah, the seerah and every harvested book — the Prophet's lineage in its three parts, the Arab tribes and the peoples, and the didactic texts — each report cited."
-      menu: "Browse genealogies, peoples, mutun and the prophets' tree"
+      title: "The Genealogies, Peoples, Tribal Subdivisions and Prophets' Tree Browser"
+      desc: "Every mention of genealogies, peoples, tribal subdivisions and the prophets' tree in the Qur'an, the Sunnah, the seerah and every harvested book — the Prophet's lineage in its three parts, the Arab tribes and their butun and the peoples — each report cited."
+      menu: "Browse genealogies, peoples, tribal subdivisions and the prophets' tree"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -4234,7 +4234,7 @@ qurun:
       desc: "The museum's curated records on time: the twelve months, the sacred months, the intercalation, the Hijri calendar, the Arabic year, the Persian months, the Jahiliyya names of days and months, the centuries and the named years — tagged qurun-browser."
 madhahib:
   title: "Four Madhhabs Browser"
-  lede: "The four imams — Abu Hanifa, Malik, al-Shafi'i and Ahmad — and the schools they founded, the salaf and tabi'in on whom the fiqh was built, the books that recorded the madhhabs, and everything the Sunni books say about them in history, fatwas and legal questions — gathered in one browser with its sources."
+  lede: "The four imams — Abu Hanifa, Malik, al-Shafi'i and Ahmad — and the schools they founded, the salaf and tabi'in on whom the fiqh was built, the books that recorded the madhhabs — including the school mutun from the Ajurrumiyya to the Jazariyya and the Shatibiyya — and everything the Sunni books say about them in history, fatwas and legal questions — gathered in one browser with its sources."
   badge: Legal-schools explorer
   status: "This build holds {n} records in {s} sections; texts are draft until a human reads them."
   method_title: The browser's method
@@ -4268,7 +4268,7 @@ madhahib:
       desc: "The generation on whom the fiqh was built before the schools settled: the imams of Kufah, Basra and the Hijaz among the Successors and their successors — Ibrahim al-Nakha'i, al-Sha'bi, al-Awza'i, Sufyan al-Thawri and their like."
     kutub:
       title: The books
-      desc: "The codices and treatises that established the schools or compared them: the Muwatta, the Hidayah, the Mughni, the comparative studies and the histories of the madhhabs."
+      desc: "The codices and treatises that established the schools or compared them — and the didactic mutun the students memorise: the Ajurrumiyya, the Alfiyyas, the Quduri, the Qayrawani Risala, Matn Ibn Ashir, Matn Abi Shuja', the Tahawiyya, the Waraqat, the Bayquniyya, the Jazariyya and the Shatibiyya — beside the Muwatta, the Hidayah, the Mughni, the comparative studies and the histories of the madhhabs."
     mafahim:
       title: The concepts
       desc: "The terms of fiqh and usul that turn on the schools: the madhhab itself, ijtihad, qiyas, istihsan, taqlid, ikhtilaf, the people of hadith and ra'y."
@@ -4879,12 +4879,12 @@ akhlaq:
       title: "Records on ethics and dealings"
       desc: "The museum's curated records on the virtues, the vices and the contracts themselves: character, manners, truthfulness, trustworthiness, patience, gratitude, humility, sincerity, kindness to parents; lying, treachery, pride, backbiting, miserliness, envy, injustice and disobedience; and the contract, sale, riba, debt, pledge, hire, bequest, inheritance, marriage, divorce, oaths, testimony, judgement, scales, gifts, guarantee, agency, partnership and the rest of the dealings."
 ansab:
-  title: "The Genealogies, Peoples, Mutun and Prophets' Tree Browser"
-  lede: "Every mention of genealogies, peoples, didactic mutun and the prophets' and messengers' tree in the museum's sources: the Prophet's lineage in its three parts — the agreed-sound part down to Adnan, the disputed part to Ibrahim, and what lies above — the Arab tribes Adnani and Qahtani, the peoples (Arabs, Ajam, Rum, Habasha, Copts, Banu Isra'il), and the memorisation texts from the Ajurrumiyya to the Jazariyya and the Shatibiyya — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors, and every harvested book and every book harvested later."
-  badge: The genealogies, peoples and mutun explorer
+  title: "The Genealogies, Peoples, Tribal Subdivisions and Prophets' Tree Browser"
+  lede: "Every mention of genealogies, peoples, tribal subdivisions (butun) and the prophets' and messengers' tree in the museum's sources: the Prophet's lineage in its three parts — the agreed-sound part down to Adnan, the disputed part to Ibrahim, and what lies above — the Arab tribes Adnani and Qahtani, the peoples (Arabs, Ajam, Rum, Habasha, Copts, Banu Isra'il), and the butun of the tribes from Hashim, al-Muttalib, Abd Shams, Makhzum and Zuhra to the clans of Aws, Khazraj, Hawazin and Qays — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors, and every harvested book and every book harvested later."
+  badge: The genealogies, peoples and butun explorer
   status: "This build holds {n} records and {f} passages in {s} sections; texts are drafts until a person reads them."
   method_title: How the browser works
-  method_note: "Every record here is an ordinary museum record with its sources and trilingual prose. Mentions are discovered at build time by a guarded lexicon over the passage matns: the names of the prophetic-lineage links (from Abdullah ibn Abd al-Muttalib up to Adnan, then the disputed links to Ismail and Ibrahim), the tribe and clan names (Quraysh and its clans, Aws and Khazraj, Tamim, Hawazin, Thaqif, Ghatafan, Quda'a, Kinda, Bakr, Taghlib and the rest), the peoples (Arabs, Ajam, Persians, Rum, Habasha, Copts, Turks, Berbers, Kurds, Mongols, Banu Isra'il), the mutun titles, and the class terms (nasab, tribe, clan, mutun, didactic poem, the prophets' tree); while 'aad as the verb 'returned', Tamim meaning 'complete' and matn meaning 'the back' are excluded, and documented false positives are excepted by id. Every book harvested later brings its mentions here automatically when its passages land in the graph, and curated records join through the ansab-browser tag. Each passage is labelled with its corpus (Qur'an / Sunnah / seerah / books) and its topics."
+  method_note: "Every record here is an ordinary museum record with its sources and trilingual prose. Mentions are discovered at build time by a guarded lexicon over the passage matns: the names of the prophetic-lineage links (from Abdullah ibn Abd al-Muttalib up to Adnan, then the disputed links to Ismail and Ibrahim), the tribe and clan names (Quraysh and its clans, Aws and Khazraj, Tamim, Hawazin, Thaqif, Ghatafan, Quda'a, Kinda, Bakr, Taghlib and the rest), the peoples (Arabs, Ajam, Persians, Rum, Habasha, Copts, Turks, Berbers, Kurds, Mongols, Banu Isra'il), the clan names (the butun of Quraysh, Aws, Khazraj, Hawazin and Qays), and the class terms (nasab, tribe, clan, batn, butun, fakhidh, the prophets' tree); while 'aad as the verb 'returned', Tamim meaning 'complete' and matn meaning 'the back' are excluded, and documented false positives are excepted by id. Every book harvested later brings its mentions here automatically when its passages land in the graph, and curated records join through the ansab-browser tag. Each passage is labelled with its corpus (Qur'an / Sunnah / seerah / books) and its topics."
   api: "The full set is available at"
   tree_title: "The prophets' and messengers' tree — the Prophet's lineage"
   tree_note: "The Prophet's lineage in the sira and genealogy scholars' three-part division: the part agreed as sound down to Adnan, the part disputed between those who suspend judgement and those who affirm it from Adnan up to Ismail ibn Ibrahim on the transmission of Ibn Ishaq, al-Tabari and Ibn Sa'd, and the part above Ibrahim which is not established with them. The whole chain is shown as requested, and the disputed links are marked with a dashed outline, not presented as certainty."
@@ -4893,11 +4893,11 @@ ansab:
   disputed_to: "to"
   disputed_tooltip: "A link in the disputed part of the Prophet's lineage — no genealogist vouches for it"
   sections_title: "The browser's sections"
-  filter_label: "Filter the genealogies, peoples and mutun"
+  filter_label: "Filter the genealogies, peoples and butun"
   filter_none: "No matching results."
   empty: "No genealogy records in this build yet."
   feed_title: "Every mention in the sources"
-  feed_note: "Every passage in which the genealogies, tribes, peoples, mutun or the prophets' tree are mentioned, classified by its source — this stream grows automatically whenever a newly harvested book lands."
+  feed_note: "Every passage in which the genealogies, tribes, butun, peoples or the prophets' tree are mentioned, classified by its source — this stream grows automatically whenever a newly harvested book lands."
   entity_page: "Entity page"
   on_chain: "On the prophets' tree:"
   parent_of: "Father:"
@@ -4913,7 +4913,7 @@ ansab:
   topics:
     nasab: "Lineage"
     tribes: "Tribes"
-    mutun: "Mutun"
+    butun: "Tribal subdivisions"
     prophets-tree: "The prophets' tree"
   sections:
     shajara:
@@ -4925,9 +4925,9 @@ ansab:
     peoples:
       title: "The peoples and nations"
       desc: "The peoples and nations as the texts name them: the Arabs, the Ajam, the Persians, the Rum 'the sons of the Yellow', the Habasha, the Copts, the Turks, the Berbers, the Kurds, the Mongols and Banu Isra'il — of whom it was said 'no Arab is better than a non-Arab except by taqwa'."
-    mutun:
-      title: "The didactic mutun"
-      desc: "The texts students memorise in the schools and circles: the Ajurrumiyya, the Alfiyya of Ibn Malik and of al-Iraqi, Matn Ibn Ashir, the Qayrawani Risala, the Tahawiyya, Tuhfat al-Atfal, the Jazariyya, the Shatibiyya, the Rahbiyya, the Waraqat, the Bayquniyya, Nukhbat al-Fikar, Matn al-Quduri, al-Sullam al-Munawraq, Jawharat al-Tawhid, Bad' al-Amali, Qatr al-Nada, Matn Abi Shuja', al-Zubad and Safinat al-Najah — with their authors, commentaries and the places they are mentioned."
+    butun:
+      title: "The butun — tribal subdivisions"
+      desc: "The butun of the tribes — the tier below the tribe and above the fakhidh — as the genealogy and sira books enumerate them: the clans of Quraysh — Hashim, al-Muttalib, Abd Manaf, Abd Shams, Abd al-Dar, Makhzum, Jumah, Sahm, Zuhra, Taym, Adi and Umayya; the clans of Aws and Khazraj — al-Najjar, Abd al-Ashhal, Zafar, Haritha, al-Harith, Salima, Zurayq, Bayada, Amr ibn Awf, Khatma, Waqif, Maghala, al-Ajlan, Dubayb, Sa'ida and Salul; and the clans of Hawazin and Qays — Darim, Hanzala, Fazara, Murra, Kilab, Nasr, Jusham, Uqayl and Sa'd ibn Bakr."
     curated:
       title: "Records about genealogy"
       desc: "The genealogy concepts of the scholars: nasab and ansab, the Prophet's lineage in its three parts, the people of genealogy, stopping the lineage at Ma'add, and the joining of lineage in fiqh."

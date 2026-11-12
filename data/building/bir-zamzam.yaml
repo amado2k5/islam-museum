@@ -1,22 +1,28 @@
 id: building/bir-zamzam
 class: building
 kind: other
-label:
-  ar: بئر زمزم
-  en: Zamzam Well
+label: { ar: "بئر زمزم", en: "Zamzam Well", ur: "چاہِ زمزم" }
 summary:
-  ar: "البئر داخل المسجد الحرام بمكة، يشرب منها الحجاج والمعتمرون؛ ارتبط في الذاكرة الإسلامية بقصة هاجر وإسماعيل."
-  en: "The well inside the Great Mosque of Mecca from which pilgrims drink; tied in Muslim memory to Hagar and Ishmael."
+  ar: "زمزم هي البئر المقدسة في طرف الحرم بمكة المكرمة، شرق الكعبة بجانب الجدار الذي فيه الحجر الأسود وأبعد قليلاً عن الوسط من مقام إبراهيم. وتقول دائرة المعارف الإسلامية إن الاسم من نوع محاكاة الصوت ويدل في المعاجم على الماء الكثير، وإن الروايات العباسية أدخلت البئر في خطاب أسطوري يتجاوز نص القرآن الذي لا يذكرها صراحة. ويقصدها الحجاج منذ صدر الإسلام ويعدّون ماءها بركة وشفاء {cite:encyclopaedia-of-islam-2 vol. 11 p. 457}."
+  en: "Zamzam is the sacred well at the edge of the sanctuary at Mecca, east of the Kaaba beside the wall holding the Black Stone and a little farther from the centre than the Station of Abraham. The Encyclopaedia of Islam says the name is onomatopoeic and means abundant water in the medieval dictionaries, and that Abbasid-period accounts folded the well into a mythic discourse that goes beyond the Qur'anic text, which does not refer to it directly. Pilgrims have treasured its water as blessed and curative from early Islamic times to today {cite:encyclopaedia-of-islam-2 vol. 11 p. 457}."
+  ur: "زمزم مکہ مکرمہ میں حرم کے کنارے کا مقدس کنواں ہے، کعبہ کے مشرق میں اس دیوار کے ساتھ جس میں حجر اسود نصب ہے، اور مقام ابراہیم سے مرکز کے ذرا زیادہ دور۔ دائرۃ المعارف الاسلامیہ کے مطابق یہ نام آواز کی نقل پر بنا ہے اور قدیم لغات میں کثیر پانی کے معنی میں آتا ہے، اور عباسی دور کی روایات نے کنویں کو ایک اساطیری بیانیے میں شامل کر دیا جو قرآنی متن سے آگے جاتا ہے، جو اس کا براہِ راست ذکر نہیں کرتا۔ حاجی اسلام کے ابتدائی دور سے آج تک اس کے پانی کو بابرکت اور شفا بخش سمجھتے آئے ہیں {cite:encyclopaedia-of-islam-2 vol. 11 p. 457}."
 wings: [place]
+external_ids: { wikidata: Q146038 }
+regions: [arabia]
 themes: [sacred-space-and-pilgrimage]
-external_ids:
-  wikidata: Q146038
-sources: [source/wikidata]
+coordinates: [21.4225, 39.82611]
+relations:
+  - { type: located_in, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
-  source: Wikidata + museum catalogues
-  generated_by: Devin (SWE-2 High), objects lane
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), 2026-10-16
+  source: "Encyclopaedia of Islam, 2nd ed., article Zamzam (Jacqueline Chabbi), vol. 11, PDF pages 457-459; the OCR of page 458 is unreadable, so only pages 457 and 459 were read"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-3; replaces the earlier Wikidata stub of Devin (SWE-2 High), objects lane, 2026-10-16
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 11, article Zamzam, PDF pages 457-459"
+sources: [source/encyclopaedia-of-islam-2, source/mubarakpuri-raheeq, source/wikidata]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "زمزم بئر ماء مقدسة في مكة قرب الكعبة، يشرب منها الحجاج ويحملون ماءها إلى بلادهم."
+  en: "Zamzam is a holy well in Mecca beside the Kaaba; pilgrims drink its water and carry some home."
+  ur: "زمزم مکہ میں کعبہ کے پاس مقدس کنواں ہے، حاجی اس کا پانی پیتے ہیں اور اپنے ساتھ گھر لے جاتے ہیں۔"

@@ -311,3 +311,17 @@
 | 495 (printed) | 140 | the narrator "أبو يل الأشعري" | the name is unclear in the scan (possibly a different name) | left as read; a gap to verify against the page image |
 | 496 (printed) | 140–141 | the place "أهل المن" and the nisba in "أهل عوف" | unclear in the scan | rendered as in the report, with the place name not identified |
 | 496 (printed) | 141 | the notice's text after "أسبح الله مع الحيتان" | the scan breaks off at the foot of page 141 | the account stops at the cut; the prose says so |
+
+## Batch 57 (run microsd-books-b57, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 141–142 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/abu-karima-al-abdi (printed 498, sequence 499, 10/141–142), person/ali-ibn-thabit (printed 499, sequence 500, 10/142), person/sulayman-ibn-hayyan-al-ahmar (printed 500, sequence 501, 10/142). Printed 501 (Muhammad ibn Mu'awiya al-Sufi, with a story of a wise man among young men on a meadow) begins on 10/142 and is next.
+- Numbering: the printed series remains one behind the sequence. Kept as printed here; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 57)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 498 (printed) | 141 | the name of the chain's first authority ("نريمة ..") | garbled in the scan; the context reads it as Abu Karima | the name is given as Abu Karima; the scan's own note of a break is not reproduced |
+| 498 (printed) | 141 | "المبدي" in the opening line | the nisba is read as "العبدي" | given as al-Abdi |
+| 499 (printed) | 142 | the word after "الريات" | unclear in the scan | not given |
+| 499 (printed) | 142 | "كلا العمرين" | read as "both lives"; the sense is uncertain | rendered as "both lives", flagged for revision |
+| 500 (printed) | 142 | the transmitter named after "حجاج بن" | cut in the scan | not given |

@@ -1,0 +1,19 @@
+id: group/banu-taym-allat
+tags: ["ansab-browser", "ansab-butun"]
+class: group
+kind: clan
+label: { ar: "بنو تيم اللات بن ثعلبة", en: "Banu Taym Allat ibn Tha'laba" }
+summary:
+  ar: "بطن من بكر بن وائل بن قاسط، بيت الملوك في بكر قبل الإسلام؛ منه عمرو بن هند الجبان ملك المناذرة، ومنه هانئ بن قبيصة الشيباني صاحب حادثة يوم ذي قار {cite:tarikh-al-tabari}."
+  en: "A batn of Bakr ibn Wa'il — the royal house of Bakr before Islam; from it Amr ibn Hind the tyrant king of the Lakhmid vassals and Hani ibn Qabisa of the Dhi Qar affair {cite:tarikh-al-tabari}."
+  ur: "بکر بن وائل کا بطن تیم اللات — اسلام سے پہلے بکر کا شاہی گھرانہ، ذی قار کے ہانی بن قبیصہ اسی سے۔"
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/bakr-ibn-wail, sources: [source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — butun records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-butun-1
+sources: [source/tarikh-al-tabari]
+status: { review: draft, completeness: 1 }
