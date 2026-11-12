@@ -98,3 +98,6 @@
 
 ## Batch 21 (run microsd-books-b29, Claude Code / claude-fable-5-2)
 - Pages read: vol. 9 pp. 390–395. Enriched `person/dhu-al-nun-al-misri`: notice 456 complete at about 9/395. The cosmic poem on 9/390–391 is described, not quoted. The hadith referred to on 9/394 is described, not quoted.
+
+## Batch 22 (run microsd-books-b30, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 51–55. Enriched `person/yahya-ibn-muadh-al-razi` (463, to 10/55); Hilyat source added to the record's sources. Notice continues from 10/56.
