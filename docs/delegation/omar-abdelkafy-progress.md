@@ -1615,3 +1615,14 @@ Next step: episode 19.
 | Whole episode as a duplicate recording | ep18 00:00:00–00:23:00 | Same lecture as episode 17 by comparison of the transcripts; the points are recorded once in summary, not re-expanded | Duplication | Open |
 | Openings, greetings, supplications, closing formulae | ep18 00:00:00–00:01:00, 00:22:30–00:23:00 | Not lesson content | Content rule | Open |
 | Repetition loops | ep18 00:04:30–00:05:00 | Not speech | Loop check | Open |
+
+### ahl-al-hikma ep09-ep12 (12 Nov 2026)
+
+34 points written for episodes 9 to 12 (ar, en, ur); needs_source on reports without a chain and on garbled stretches.
+
+| Excluded (ahl-al-hikma ep09-12) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Presenter's greetings, break announcements, closing supplications and sign-offs | ep09 00:00:00, 00:09:00, 00:15:00-00:16:00; ep10 00:00:00-00:01:00, 00:06:30-00:07:00, 00:16:00-00:17:00; ep11 00:00:00-00:01:00, 00:09:00-00:09:30, 00:16:00-00:17:00; ep12 00:00:00-00:00:30, 00:07:30-00:08:00, 00:15:30-00:17:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep09 00:07:30-00:09:00 (an aside on school teachers), 00:14:00-00:15:00; ep10 00:03:30-00:04:30, 00:06:00-00:06:30 (a tangent on the Throne), 00:08:00-00:09:00, 00:12:00-00:13:00; ep11 00:02:00-00:03:30, 00:07:30-00:08:00, 00:15:00-00:16:00; ep12 00:06:30 (a repeated verse), 00:12:00-00:13:30 | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ahl-al-hikma episode 13 (branch from origin/main).
