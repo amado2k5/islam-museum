@@ -36,6 +36,7 @@ open a new block on top with the new version and today's date.
 - **25 new concept records for the ledger.** The article «حساب الحسنات والسيئات» with full prose in three languages, and 24 calculator rows, each explaining one counting text; the `concept` schema gains a `reckoning` block that holds the figure and the passages it is read from.
 
 - **73 seerah pages for the ledger's seerah section.** Pages of Zad al-Ma'ad, al-Bayhaqi's and Abu Nu'aym's Dala'il al-Nubuwwa, al-Waqidi's Maghazi, Ibn Hisham's Sirah, Ibn Kathir's Sira, Uyun al-Athar and al-Rawd al-Unuf that state a number, a multiple, an erasure, a rank, the Scale or the record of deeds were found in the OCR'd books, read one by one, and filed as passage records with a page number and an excerpt of at most forty words (drafts until a human reads them). The seerah section of the page is no longer empty.
+- **Hilyat al-Awliya, volume 10: Ruwaym, Abu Turab al-Nakhshabi and Muhammad ibn Ulayyan (microsd-books batch 17).** Ruwaym ibn Ahmad (notice 574) gained a trilingual "In Hilyat al-Awliya" section built around his own treatise on why seekers go wrong: hurrying to a rank before its time and neglecting piety. Abu Turab al-Nakhshabi (462), the transmitter of Hatim al-Asamm's teaching who died in the desert between Mecca and Medina, and Muhammad ibn Ulayyan al-Nasawi (649) now have draft pages. Every paragraph cites volume and page.
 
 ### Tests
 - The feature-export test now covers the ledger: detection by corpus and kind, a calculator row, the gated false positives and a book harvested later.
