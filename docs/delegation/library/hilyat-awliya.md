@@ -377,3 +377,16 @@
 | 509 (printed) | 146 | the names in the chain ("سهل بن ماصم", "هل بن ميينة") | garbled in the scan | not given; the prose says so |
 | 510 (printed) | 146 | "الطلاوة" | read as sweetness, delight; the sense is clear from the saying | rendered as sweetness |
 | 510 (printed) | 146 | the names "عبيد الله بن زحر", "صالح المري" | legible, given as read | no further flag |
+
+## Batch 62 (run microsd-books-b62, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 146–147 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/abu-hashim-al-karim (printed 511, sequence 512, 10/146–147), person/masud-ibn-al-harith-al-jahmi (printed 512, sequence 513, 10/147). Printed 513 (Zuhayr al-Babi, on patience and certainty, with a story of Zuhayr and the blind reader) begins on 10/147 and continues onto 10/148; it is next.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 62)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 511 (printed) | 146 | most names in the chain (before "قال أبو هاشم") | garbled in the scan | not given; the prose says so |
+| 511 (printed) | 146 | "فأولئك أولئك" | the repetition is in the scan; the sense is clear | given as the saying reads |
+| 512 (printed) | 147 | "أخا خالد" | read as the brother of Khalid, who is not otherwise named | given as read; flagged for revision |
+| 512 (printed) | 147 | the names of the chain ("إبراهيم بن محمد بن يحي", "سليمان بن موسى") | legible but some letters broken | the names given as read, the rest omitted |
