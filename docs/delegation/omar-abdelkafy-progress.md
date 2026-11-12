@@ -2028,3 +2028,19 @@ Next step: episode 21.
 | Repetition loops and garbled windows | ep22 00:02:00 (a long loop after the remark on old age); ep23 00:01:30 (a very long loop in the middle of the Ibn al-Qayyim quotation), 00:03:00 (a half-clear sentence on prayer and worship); ep24 00:00:30 (garbled verses, not quoted), 00:05:00 (a half-clear remark) | Not speech or not recoverable | Loop check, Clarity | Open |
 
 Resume point: ajaeb-al-kulub episode 25 (branch from origin/main).
+### al-naba-al-safi, episode 21 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-10)
+
+Episode 21 read in full (49 min of transcript) before writing. 19 points written (ar, en, ur); new `about` edges for the people and passages named; 18 needs_source (unchained hadiths, sayings and accounts in sense).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep21 (good character and chastity in food) | about 49 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 19 points | new `about` edges | 19 | 18 needs_source | this PR |
+
+Next step: episode 22.
+
+| Excluded (al-naba-al-safi ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep21 00:00:00–00:00:30, 00:11:00–00:11:30, 00:26:30–00:27:00, 00:37:30–00:38:00, 00:46:30–00:48:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep21 00:06:30, 00:23:00, 00:27:00, 00:34:00, 00:45:00, 00:46:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| A call about a deceased relative and a call with no audible question | ep21 00:38:00–00:40:00 | Private and not lesson content | Privacy | Open |
+| Poetry-like proverb quoted | ep21 00:27:30 | Summarised in sense, not reproduced | Sources policy | Open |
