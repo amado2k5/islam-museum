@@ -1,0 +1,32 @@
+id: person/adelard-of-bath
+class: person
+label: { ar: "أديلارد الباثي", en: "Adelard of Bath", ur: "ایڈلرڈ آف باتھ" }
+names:
+  - { kind: latinized, lang: la, value: "Adelardus Bathoniensis" }
+summary:
+  ar: "أديلارد الباثي مترجم لاتيني من القرن الثاني عشر للميلاد، نقل عن العربية جداول الخوارزمي الفلكية بصيغتها التي هذّبها مسلمة المجريطي لقرطبة، وتؤرخ الموسوعة ترجمته بسنة 1126م. وتنسب إليه الأدبيات أيضاً نسخة لاتينية من أصول إقليدس مبنية على أصول عربية. ولا تذكر المراجع التي قُرئت سنة ميلاده ولا وفاته {cite:encyclopaedia-of-islam-2 vol. 3 p. 1170} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1112}."
+  en: "Adelard of Bath was a twelfth-century Latin translator who rendered into Latin al-Khwarizmi's astronomical tables in the recension Maslama al-Majriti adapted for Cordoba, a translation the Encyclopaedia of Islam dates to 1126. Scholarship also ascribes to him a Latin version of Euclid's Elements built on Arabic texts. The sources read give neither his birth nor his death {cite:encyclopaedia-of-islam-2 vol. 3 p. 1170} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1112}."
+  ur: "ایڈلرڈ آف باتھ بارہویں صدی عیسوی کے لاطینی مترجم تھے جنہوں نے خوارزمی کے فلکیاتی جدول اس صورت میں لاطینی میں منتقل کیے جو مسلمہ مجریطی نے قرطبہ کے لیے مرتب کی تھی؛ دائرۃ المعارف اس ترجمے کی تاریخ 1126ء بتاتا ہے۔ تحقیق میں ان سے اقلیدس کے اصول کا ایک لاطینی نسخہ بھی منسوب ہے جو عربی متن پر مبنی ہے۔ پڑھے گئے مآخذ میں ان کی ولادت اور وفات کا ذکر نہیں {cite:encyclopaedia-of-islam-2 vol. 3 p. 1170} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1112}."
+gender: male
+roles: [translator, scientist]
+wings: [people]
+themes: [translation-and-transmission, astronomy-and-timekeeping, mathematics]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+floruit: { edtf: "1126", calendar: julian, precision: year, status: tradition, note: "Date of his Latin translation of al-Khwarizmi's zij as given in the Encyclopaedia of Islam; his birth and death are not given in the articles read {cite:encyclopaedia-of-islam-2 vol. 3 p. 1170}." }
+relations:
+  - { type: related_to, target: person/al-khwarizmi, note: "Translated the Latin version of al-Khwarizmi's Sindhind tables.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/maslama-al-majriti, note: "Worked from the recension of the tables corrected by Maslama for Cordoba.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed.: 'Ilm al-hay'a, al-Khwarazmi, Petrus Alfonsi, Uklidis"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 3 (article 'Ilm al-hay'a, PDF pp. 1169-1170), vol. 4 (al-Khwarazmi, PDF p. 1112), vol. 8 (Petrus Alfonsi, PDF p. 323), vol. 10 (Uklidis, PDF pp. 847-848)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "أديلارد الباثي نقل إلى اللاتينية جداول الخوارزمي في النجوم، فوصلت علوم العرب إلى أوروبا."
+  en: "Adelard of Bath put al-Khwarizmi's tables of the stars into Latin, so that Arabic science reached readers in Europe."
+  ur: "ایڈلرڈ آف باتھ نے خوارزمی کے ستاروں کے جدول لاطینی میں منتقل کیے، یوں عربی علم یورپ کے قارئین تک پہنچا۔"

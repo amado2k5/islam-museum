@@ -1,0 +1,36 @@
+id: person/abu-mihjan-al-thaqafi
+class: person
+label: { ar: "أبو محجن الثقفي", en: "Abu Mihjan al-Thaqafi", ur: "ابو محجن ثقفی" }
+names:
+  - { value: "Abu Mihjan 'Abd Allah ibn Habib al-Thaqafi", kind: full, lang: en }
+  - { value: "Abu Mihdjan", kind: alternate, lang: en }
+  - { value: "أبو محجن عبد الله بن حبيب الثقفي", kind: full, lang: ar }
+summary:
+  ar: "أبو محجن عبد الله، ويقال مالك أو عمرو، بن حبيب الثقفي شاعر عربي من ثقيف عدّته دائرة المعارف الإسلامية من المخضرمين. شارك في الدفاع عن الطائف ضد محمد سنة 8هـ/630م، ثم أسلم سنة 9هـ/631-632م وقاتل في القادسية. اشتهر بخمرياته، ونفاه عمر بن الخطاب أكثر من مرة بسبب شعره في الخمر، وتذكر المقالة أنه توفي بعد نفيه الثاني سنة 16هـ/637م بقليل {cite:encyclopaedia-of-islam-2 vol. 1 p. 159}."
+  en: "Abu Mihjan 'Abd Allah (also given as Malik or 'Amr) ibn Habib al-Thaqafi was an Arab poet of the Thaqif tribe whom the Encyclopaedia of Islam counts among the mukhadramun. He took part in the defence of al-Ta'if against Muhammad in 8/630, entered Islam in 9/631-2 and fought at al-Qadisiyya. He was famous for his wine poems, and 'Umar banished him more than once because of verse that challenged the prohibition of wine; the article says he died shortly after his second banishment in 16/637 {cite:encyclopaedia-of-islam-2 vol. 1 p. 159}."
+  ur: "ابو محجن عبداللہ، جن کا نام مالک یا عمرو بھی بتایا گیا ہے، بن حبیب ثقفی قبیلۂ ثقیف کے عرب شاعر تھے جنہیں دائرۃ المعارف الاسلامیہ مخضرمین میں شمار کرتا ہے۔ انہوں نے 8ھ/630ء میں طائف کے دفاع میں محمد کے خلاف حصہ لیا، 9ھ/631-632ء میں مسلمان ہوئے اور قادسیہ میں لڑے۔ وہ اپنی شراب کی شاعری کے لیے مشہور تھے، اور عمر نے شراب کی حرمت کو چیلنج کرنے والے اشعار کی وجہ سے انہیں ایک سے زیادہ بار جلاوطن کیا؛ مضمون کے مطابق دوسری جلاوطنی کے تھوڑی دیر بعد، 16ھ/637ء میں، ان کی وفات ہوئی {cite:encyclopaedia-of-islam-2 vol. 1 p. 159}."
+gender: male
+roles: [poet]
+wings: [people]
+periods: [period/rashidun]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/thaqif, sources: [source/encyclopaedia-of-islam-2, source/muruj-al-dhahab] }
+  - { type: participated_in, target: event/battle-of-al-qadisiyya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/umar-ibn-al-khattab, note: "Banished him for his wine verse, according to the article.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/saad-ibn-abi-waqqas, note: "Imprisoned him for drunkenness before al-Qadisiyya and pardoned him afterwards, per the article's account.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article Abu Mihdjan; Masawwa' article for the 14/634 banishment"
+  generated_by: "Claude Sonnet 5.5"
+  model: "claude-sonnet-5-5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 1, article Abu Mihdjan 'Abd Allah b. Habib (OCR page 159); vol. 6 (OCR page 668)"
+sources: [source/encyclopaedia-of-islam-2, source/muruj-al-dhahab]
+aliases: [person/abu-mahjan-al-thaqafi]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "أبو محجن شاعر من الطائف قاتل في معركة القادسية وعُرف بأبياته عن الخمر."
+  en: "Abu Mihjan was a poet from al-Ta'if who fought in the battle of al-Qadisiyya and was known for his verses about wine."
+  ur: "ابو محجن طائف کے شاعر تھے جو قادسیہ کی جنگ میں لڑے اور شراب کے بارے میں اپنے اشعار کے لیے مشہور ہوئے۔"

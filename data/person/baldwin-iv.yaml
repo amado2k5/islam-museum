@@ -1,0 +1,35 @@
+id: person/baldwin-iv
+class: person
+label: { ar: "بلدوين الرابع", en: "Baldwin IV", ur: "بالڈون چہارم" }
+names:
+  - { value: "Baldwin the Leper", kind: alternate, lang: en }
+  - { value: "بلدوين الرابع المجذوم", kind: alternate, lang: ar }
+  - { value: "ملك الفرنج المجذوم", kind: alternate, lang: ar }
+summary:
+  ar: "بلدوين الرابع ملك بيت المقدس الفرنجي المصاب بالجذام. يذكر ابن الأثير أنه خلف أباه مري وهو مجذوم عاجز عن تدبير الملك، فتولى القمص ريموند صاحب طرابلس تدبيره، ويقول لاحقاً إن ملك الفرنج المجذوم أوصى بالملك لابن أخت له صغير. وتنسب دائرة المعارف الإسلامية إليه بناء حصن مخاضة يعقوب سنة 573هـ/1178م الذي هدمه صلاح الدين سنة 575هـ/1179م {cite:kamil-ibn-al-athir p. 68} {cite:kamil-ibn-al-athir p. 141} {cite:encyclopaedia-of-islam-2 vol. 2 p. 582}."
+  en: "Baldwin IV was the Frankish king of Jerusalem who suffered from leprosy. Ibn al-Athir says he succeeded his father Amalric as a leper unable to manage the kingdom, so that Raymond, count of Tripoli, directed its affairs, and later that the leper king of the Franks left the crown to a young nephew. The Encyclopaedia of Islam credits him with building the fortress at Jacob's Ford in 573/1178, which Saladin destroyed in 575/1179 {cite:kamil-ibn-al-athir p. 68} {cite:kamil-ibn-al-athir p. 141} {cite:encyclopaedia-of-islam-2 vol. 2 p. 582}."
+  ur: "بالڈون چہارم بیت المقدس کا فرنگی بادشاہ تھا جو کوڑھ کے مرض میں مبتلا تھا۔ ابن الاثیر لکھتے ہیں کہ وہ اپنے باپ مری کا جانشین بنا تو مجذوم اور سلطنت چلانے سے عاجز تھا، چنانچہ طرابلس کے کونٹ ریمنڈ نے اس کے امور سنبھالے، اور بعد میں بتاتے ہیں کہ مجذوم فرنگی بادشاہ نے اپنے ایک چھوٹے بھانجے کو تخت کی وصیت کی۔ دائرۃ المعارف الاسلامیہ اس سے 573ھ/1178ء میں مخاضۂ یعقوب کے قلعے کی تعمیر منسوب کرتا ہے جسے صلاح الدین نے 575ھ/1179ء میں تباہ کیا {cite:kamil-ibn-al-athir p. 68} {cite:kamil-ibn-al-athir p. 141} {cite:encyclopaedia-of-islam-2 vol. 2 p. 582}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: ruled_over, target: place/jerusalem, note: "Called king of the Franks by Ibn al-Athir; he is not named there.", sources: [source/kamil-ibn-al-athir], confidence: medium }
+  - { type: participated_in, target: event/death-of-amalric-569, role: "الخلَف", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/raymond-iii-tripoli, note: "Ibn al-Athir says Raymond took charge of the kingdom's affairs for the leper king.", sources: [source/kamil-ibn-al-athir] }
+  - { type: fought, target: person/salah-al-din-yusuf-ibn-ayyub, note: "The Encyclopaedia of Islam says Saladin took and destroyed his fortress at Jacob's Ford and defeated 'King Baldwin' at Marj Uyun in 575/1179.", sources: [source/encyclopaedia-of-islam-2], confidence: medium }
+provenance:
+  layer: own-research
+  source: "Ibn al-Athir, al-Kamil, printed pp. 68 and 141-142 (harvest scan kamilt00_201908); Encyclopaedia of Islam 2nd ed., art. Djisr Ya'kub and Salah al-Din"
+  generated_by: "Claude Sonnet 5.5"
+  model: "claude-sonnet-5-5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 2 (Djisr Ya'kub, OCR p. 582) and vol. 8 (Salah al-Din, OCR p. 977); no dedicated article exists, so the account rests mainly on Ibn al-Athir"
+sources: [source/encyclopaedia-of-islam-2, source/kamil-ibn-al-athir]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "بلدوين الرابع ملك فرنجي مريض بالجذام حكم القدس وبنى قلعة على نهر الأردن هدمها صلاح الدين."
+  en: "Baldwin IV was a Frankish king who was ill with leprosy, ruled Jerusalem, and built a castle on the Jordan that Saladin tore down."
+  ur: "بالڈون چہارم ایک فرنگی بادشاہ تھا جو کوڑھ کی بیماری میں مبتلا تھا، بیت المقدس پر حکومت کرتا تھا اور اس نے دریائے اردن پر ایک قلعہ بنایا جسے صلاح الدین نے گرا دیا۔"
