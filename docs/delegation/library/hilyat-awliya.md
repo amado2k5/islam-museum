@@ -962,3 +962,18 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 680 (printed) | 398 | the hadith from Abu al-Darda | a quoted report with the Prophet's formula | described only |
 | 680 (printed) | 398 | the Abu Umar / Muhammad ibn Abd Allah link | legible | given as read |
+
+## Batch 103 (run microsd-books-b103, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 398 (full text read before writing). New draft: person/harun-ibn-said-al-raai (printed 681, sequence 682, 10/398). No existing record of this man. Notice complete on page 398; 682 (Abbas ibn Isma'il al-Tamdi, "أبو الفضل") begins on the same page.
+- Checked against the scan: the epithet and nisba; the three teachers in Syria; Abu Mas'ud al-Razi's musnad and his two teachers; the chain to Ibn Abi Sa'id al-Ansari, from his father; the exegesis of Ibn Abbas.
+- The hadith carries the Prophet's formula and is described only. The Qur'an verse is referred to by sense only.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 103)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 681 (printed) | 398 | the hadith on regret | a quoted report with the Prophet's formula | described only |
+| 681 (printed) | 398 | the verse of advancing before God and His Messenger | the Qur'an text is never typed | referred to by sense; Ibn Abbas's reading given |
+| 681 (printed) | 398 | the chain link "أبو محمد بن حيان ... أبو عبد الرحمن الراعي" | legible | given as read |
