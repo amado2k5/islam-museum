@@ -1,6 +1,6 @@
-# 43 · Genealogies, Peoples, Mutun and Prophets' Tree Browser — requirements and production acceptance spec
+# 43 · Genealogies, Peoples, Butun and Prophets' Tree Browser — requirements and production acceptance spec
 
-Browser: متصفح الأنساب والأعراق والمتون وشجرة الأنبياء والمرسلين — `/{lang}/ansab/` + `/{lang}/ansab/<slug>/` + `/api/v1/ansab.json`. Plan: `docs/plan/55-ansab-browser.md`. Lane: `ansab`. Built 2026-11-19. Every requirement below is checkable in production by an AI agent or a human with curl + a browser; requirement ids are `ANS-R<n>`.
+Browser: متصفح الأنساب والأعراق والبطون وشجرة الأنبياء والمرسلين — `/{lang}/ansab/` + `/{lang}/ansab/<slug>/` + `/api/v1/ansab.json`. Plan: `docs/plan/55-ansab-browser.md`. Lane: `ansab`. Built 2026-11-19. Every requirement below is checkable in production by an AI agent or a human with curl + a browser; requirement ids are `ANS-R<n>`.
 
 ## 1 · Original request (verbatim, founder, 19 November 2026 — preserved so future agents can test against it)
 
@@ -46,17 +46,17 @@ Browser: متصفح الأنساب والأعراق والمتون وشجرة ا
 > in the end commit, push, raise PR and merge it
 > Then delete all the files and folder related to this work from the microsd
 
-**Clarifications the founder gave before implementation:** one combined browser with internal sections (not separate browsers); المتون = the didactic memorization texts (the school mutūn); the prophets' tree must show the full chain including the disputed links above Adnan — flagged as disputed, not asserted; local build/test/CI gates explicitly skipped for this pass («do not wait for build/test or ci»).
+**Clarifications the founder gave before implementation:** one combined browser with internal sections (not separate browsers); المتون originally meant the didactic memorization texts (the school mutūn) — **later renamed to البطون, the tribal subdivisions, on the founder's follow-up instruction (12 Nov 2026)**; the prophets' tree must show the full chain including the disputed links above Adnan — flagged as disputed, not asserted; local build/test/CI gates explicitly skipped for this pass («do not wait for build/test or ci»).
 
 ## 2 · Checkable requirements
 
 **Pages and navigation**
 
-- `ANS-R1` `GET /ar/ansab/`, `/en/ansab/`, `/ur/ansab/` return 200. The Arabic home carries the exact title «متصفح الأنساب والأعراق والمتون وشجرة الأنبياء والمرسلين» inside `data-pagefind-body`, with lede, build-status line, methodology note and a link to `/api/v1/ansab.json`.
+- `ANS-R1` `GET /ar/ansab/`, `/en/ansab/`, `/ur/ansab/` return 200. The Arabic home carries the exact title «متصفح الأنساب والأعراق والبطون وشجرة الأنبياء والمرسلين» inside `data-pagefind-body`, with lede, build-status line, methodology note and a link to `/api/v1/ansab.json`.
 - `ANS-R2` The home renders the prophets' tree (`ANSAB_PROPHET_CHAIN`) as a linked chain ordered Ibrahim → Ismail → (28 disputed links) → Adnan → Ma'add → … → Muhammad, oldest first. Links marked `agreed: false` (qaydar through udd-ibn-adnan) render visually distinct (dashed outline) with a disputed tooltip/legend; nothing on the page asserts the disputed segment as established.
-- `ANS-R3` Six domain sections render when populated: `shajara`, `tribes`, `peoples`, `mutun`, `curated`, `mentioned` — each with a count, an anchor `#t-<section>`, and cards linking to `/{lang}/ansab/<slug>/`.
+- `ANS-R3` Six domain sections render when populated: `shajara`, `tribes`, `peoples`, `butun`, `curated`, `mentioned` — each with a count, an anchor `#t-<section>`, and cards linking to `/{lang}/ansab/<slug>/`.
 - `ANS-R4` The mention feed groups detected passages into four corpus sections — `quran`, `sunnah`, `seerah`, `books` — each with its count. The landing page, Explore grid and navigation menus carry the browser (landing card with the tree icon; `explore.pages.ansab` in all three locales).
-- `ANS-R5` Subject pages exist for every `ANSAB_SUBJECTS` id present in the graph — lineage links (e.g. `/ar/ansab/qusayy-ibn-kilab/`, `/ar/ansab/udd-ibn-adnan/`), tribes (`/ar/ansab/quraysh/`, `/ar/ansab/al-aws/`), peoples (`/ar/ansab/al-rum/`, `/ar/ansab/banu-israil/`), mutun (`/ar/ansab/ajurrumiyya/`, `/ar/ansab/al-shatibiyya/`), nasab concepts (`/ar/ansab/nasab-al-nabi/`). Each shows the trilingual summary, its section chip, its on-chain position with parent/child links when on the tree, the «حلقة مختلَف فيها» chip when the link is disputed, mention passages grouped by corpus (Qur'an text rendered only from frozen passage records), a sources list and related records.
+- `ANS-R5` Subject pages exist for every `ANSAB_SUBJECTS` id present in the graph — lineage links (e.g. `/ar/ansab/qusayy-ibn-kilab/`, `/ar/ansab/udd-ibn-adnan/`), tribes (`/ar/ansab/quraysh/`, `/ar/ansab/al-aws/`), peoples (`/ar/ansab/al-rum/`, `/ar/ansab/banu-israil/`), butun (`/ar/ansab/ajurrumiyya/`, `/ar/ansab/al-shatibiyya/`), nasab concepts (`/ar/ansab/nasab-al-nabi/`). Each shows the trilingual summary, its section chip, its on-chain position with parent/child links when on the tree, the «حلقة مختلَف فيها» chip when the link is disputed, mention passages grouped by corpus (Qur'an text rendered only from frozen passage records), a sources list and related records.
 - `ANS-R6` The page is fully readable with JavaScript disabled; the filter input is progressive enhancement only. Alt-text/a11y: decorative SVGs carry `aria-hidden`; WCAG 2.2 AA.
 
 **Detection and future harvested books**
@@ -68,7 +68,7 @@ Browser: متصفح الأنساب والأعراق والمتون وشجرة ا
 **Data and scholarly framing**
 
 - `ANS-R10` The full requested tree is present: agreed chain Muhammad → Adnan (22 links), disputed links Adnan → Qaydar → Ismail → Ibrahim (28 links on the Ibn Ishaq/al-Tabari order), and Ibrahim's two lines to the prophets. `concept/nasab-al-nabi` and `concept/waqf-al-nasab-inda-maadd` carry the three-part scholarly framing and are browser members.
-- `ANS-R11` Every new record cites at least one registered `source/*` (al-Mubarakpuri, Ibn Hisham, al-Tabari, Ibn Sa'd, al-Mutun al-Ilmiyya, al-A'lam…) and is `status.review: draft` with a `provenance` block; Arabic prose first with en/ur draft translations; no honorifics typed; no Qur'an text typed (frozen passage records only); Arabic parentheticals wrapped in U+2066/U+2069 isolates.
+- `ANS-R11` Every new record cites at least one registered `source/*` (al-Mubarakpuri, Ibn Hisham, al-Tabari, Ibn Sa'd, al-Butun al-Ilmiyya, al-A'lam…) and is `status.review: draft` with a `provenance` block; Arabic prose first with en/ur draft translations; no honorifics typed; no Qur'an text typed (frozen passage records only); Arabic parentheticals wrapped in U+2066/U+2069 isolates.
 - `ANS-R12` The duplicate-resolution rule held: no second copies of existing richer records — `al-aws`, `al-khazraj`, `banu-qaynuqa`, `banu-qurayza`, `banu-dabba`, `banu-ghifar`, `banu-lakhm`, `banu-hamdan`, `banu-shayban`, `banu-taghlib`, `banu-tamim`, `banu-sulaym`, `maadd-ibn-adnan`, `nizar-ibn-maadd`, `mudar-ibn-nizar`, `mudrika-ibn-ilyas`, `fihr-ibn-malik`, `qusayy-ibn-kilab` are the pre-existing records tagged in place. The Ansari father of Anas is `person/malik-ibn-al-nadr-al-ansari` (distinct from the Qurashi ancestor `person/malik-ibn-al-nadr`).
 
 **API and docs**

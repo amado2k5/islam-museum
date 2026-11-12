@@ -1,0 +1,19 @@
+id: group/banu-nabit
+tags: ["ansab-browser", "ansab-butun"]
+class: group
+kind: clan
+label: { ar: "بنو النبيت", en: "Banu al-Nabit" }
+summary:
+  ar: "بطن من الأوس بيثرب، منه أبو أيوب خالد بن زيد الأنصاري الذي نزل النبي في داره حين قدم مهاجراً، ومنه أبو ليلى عبد الرحمن الأنصاري؛ من بيوت الأوس المتقدمة في الإسلام {cite:ibn-hisham-sira} {cite:mubarakpuri-raheeq}."
+  en: "A batn of Aws at Yathrib — Abu Ayyub Khalid ibn Zayd al-Ansari's house, in whose home the Prophet lodged on arriving as an emigrant; among the Aws houses foremost in Islam {cite:ibn-hisham-sira} {cite:mubarakpuri-raheeq}."
+  ur: "اوس کا بطن یثرب میں — ابو ایوب الانصاری کا گھرانہ جس کے گھر نبی مہاجر ہو کر اترے۔"
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/al-aws, sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — butun records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-butun-1
+sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1 }

@@ -1,0 +1,19 @@
+id: group/banu-thalaba-ibn-amr
+tags: ["ansab-browser", "ansab-butun"]
+class: group
+kind: clan
+label: { ar: "بنو ثعلبة بن عمرو", en: "Banu Tha'laba ibn Amr" }
+summary:
+  ar: "بطن من الأوس بيثرب، منه عبادة بن الصامت نقيب العقبة، والحارث بن الصمة، وأسيد بن حضير البدري؛ من بيوت الأوس التي بايعت ليلة العقبة وفاض خيرها في الإسلام {cite:ibn-hisham-sira} {cite:mubarakpuri-raheeq}."
+  en: "A batn of Aws at Yathrib — the house of Ubada ibn al-Samit the naqib of al-Aqaba, al-Harith ibn al-Simma and Usayd ibn Hudayr al-Badri; among the Aws houses that pledged at al-Aqaba {cite:ibn-hisham-sira} {cite:mubarakpuri-raheeq}."
+  ur: "اوس کا بطن یثرب میں — عبادہ بن صامت نقبائے عقبہ اور اسید بن حضیر بدری کا گھرانہ۔"
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/al-aws, sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — butun records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-butun-1
+sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1 }

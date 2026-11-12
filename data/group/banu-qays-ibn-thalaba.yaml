@@ -1,0 +1,19 @@
+id: group/banu-qays-ibn-thalaba
+tags: ["ansab-browser", "ansab-butun"]
+class: group
+kind: clan
+label: { ar: "بنو قيس بن ثعلبة", en: "Banu Qays ibn Tha'laba" }
+summary:
+  ar: "بطن من بكر بن وائل بن قاسط من ولد قيس بن ثعلبة، أوسع بطون بكر وأشهرها في الفتوح والإدارة؛ منه المثنى بن حارثة الشيباني فاتح العراق الأول، ومنه معظم أمراء بكر {cite:tarikh-al-tabari}."
+  en: "A batn of Bakr ibn Wa'il from Qays ibn Tha'laba — the widest and most famous Bakr clan in the conquests; from it al-Muthanna ibn Haritha, the first conqueror of Iraq, and most of Bakr's emirs {cite:tarikh-al-tabari}."
+  ur: "بکر بن وائل کا وسیع بطن قیس بن ثعلبہ — عراق کی فتح کا پہلا سردار مثنی بن حارثہ اسی خاندان سے۔"
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/bakr-ibn-wail, sources: [source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "ansab-browser lane — butun records"
+  generated_by: "Devin (SWE-2 Medium); ansab-browser lane"
+  run: ansab-butun-1
+sources: [source/tarikh-al-tabari]
+status: { review: draft, completeness: 1 }
