@@ -430,3 +430,17 @@
 | 515 (printed) | 152 | "همة الحبيز" | read as "المحبين" (the lovers) | rendered as lovers |
 | 515 (printed) | 152 | "فترة" and "فمم ذلك" | legible; the sense is clear from the answers | given as read |
 | 516 (printed) | 152 | "عثمان بن ممرو بن أبي ماصم" | read as Uthman ibn Amr ibn Abi Asim | given as read; flagged for revision |
+
+## Batch 66 (run microsd-books-b66, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 152–153 (full text read before writing). New drafts, printed numbers kept with the sequence number noted: person/al-khadim-al-makhdum (printed 517, sequence 518, 10/152–153), person/al-farrar-al-jar (printed 518, sequence 519, 10/153). Both notices are headed by an epithet, and the scan gives no name for either; the records say so and carry the epithet as the label. Printed 519 (al-Daylami, captive and crucified, whose companions cut him down) begins on 10/153 and continues onto 10/154; it is next.
+- Flag for the coordinator: two records (517, 518) are made from epithets with no name. Their slugs and labels are the epithets. Whether such entries belong in the person class, or whether the coordinator wants them held, is a decision for the coordinator; they are not dropped.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 66)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 517 (printed) | 152 | the chain's sheikh ("شيخ ابن حالم المكلى") | garbled in the scan | not given |
+| 517 (printed) | 153 | the copying young man's name | the text gives no name | the notice is kept as an epithet record; no name supplied |
+| 518 (printed) | 153 | "خوفا من المملة" | read as "الملامة" (blame) in the prose; "المملة" is the scan's reading | the prose renders the fear as of blame, a reading flagged for revision |
+| 518 (printed) | 153 | one word describing the fear | unclear in the scan | not given |
