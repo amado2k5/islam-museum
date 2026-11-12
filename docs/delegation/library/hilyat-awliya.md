@@ -706,3 +706,16 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 646 (printed) | 374 | "نسيان القرى" as the definition of remembrance | "القرى" unclear in the scan | not asserted; flagged for revision |
 | 646 (printed) | 370 | the verse on the sword and "ذو الفقار" at 375 | the saying is a reported gloss | not expanded |
 | 647 (printed) | 376 | the phrase "أي الأوقات يرضى" answer's pronoun | the scan reads "عني" (me) where the prose read "عليه" | flagged; the prose keeps the meaning |
+
+## Batch 85 (run microsd-books-b85, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 389–390 (full text read before writing). New draft: person/muhammad-ibn-yusuf-ibn-maadan (printed 662, sequence 663, 10/389–390). No existing record of the name. The "عروس الزهاد" is recorded as a laqab. The line of verse is paraphrased, not quoted.
+- Printed 663 (Amir ibn Hamdawayh al-Zahid, who lived in Musayla and transmitted questions from Sufyan) begins on 10/390 and is next.
+- Printed 532 and 546 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 85)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 662 (printed) | 390 | the verse line | a single line of verse; the museum paraphrases | described, not quoted |
+| 662 (printed) | 389–390 | "وقد تقدم ذكره" | refers to an earlier mention in the book | recorded as the book's own cross-reference |
