@@ -1,0 +1,34 @@
+id: person/abu-ishaq-al-sahili
+class: person
+label: { ar: "أبو إسحاق الساحلي", en: "Abu Ishaq al-Sahili", ur: "ابو اسحاق الساحلی" }
+names: ["Abu Ishaq Ibrahim al-Sahili", "Abu Ishaq al-Gharnati al-Sahili"]
+summary:
+  ar: "أبو إسحاق إبراهيم الساحلي الغرناطي، شاعر ومعماري أندلسي بدأ حياته موثقاً في غرناطة، ثم لقي منسا موسى في الحج وعاد معه إلى مالي مستشاراً ومهندساً. تذكر دائرة المعارف الإسلامية أنه بنى للملك قصراً في العاصمة ربما كانت نياني، وربما المسجد الجامع في تنبكتو، ويُنسب إليه إدخال الطراز المعماري السوداني. استقر في تنبكتو وتوفي فيها سنة 747هـ/1346م {cite:encyclopaedia-of-islam-2 vol. 9 p. 782; vol. 6 p. 278}."
+  en: "Abu Ishaq Ibrahim al-Sahili al-Gharnati was an Andalusian poet and architect who began as a notary in Granada, met Mansa Musa on the pilgrimage and returned with him to Mali as adviser and architect. The Encyclopaedia of Islam says he built a palace for the king in the capital, probably Niani, perhaps the great mosque of Timbuktu, and is credited with introducing the Sudanese style of architecture. He settled in Timbuktu and died there in 747/1346 {cite:encyclopaedia-of-islam-2 vol. 9 p. 782; vol. 6 p. 278}."
+  ur: "ابو اسحاق ابراہیم الساحلی الغرناطی اندلسی شاعر اور معمار تھے جنہوں نے غرناطہ میں نوٹری کے طور پر کام شروع کیا، حج کے موقع پر منسا موسیٰ سے ملے اور ان کے ساتھ مشیر اور معمار بن کر مالی گئے۔ دائرۃ المعارف الاسلامیہ کے مطابق انہوں نے بادشاہ کے لیے دارالحکومت میں، جو غالباً نیانی تھا، ایک محل بنایا، شاید تمبکتو کی جامع مسجد بھی، اور سوڈانی طرزِ تعمیر متعارف کرانے کا سہرا انہی کے سر باندھا جاتا ہے۔ وہ تمبکتو میں آباد ہوئے اور وہیں 747ھ/1346ء میں فوت ہوئے {cite:encyclopaedia-of-islam-2 vol. 9 p. 782; vol. 6 p. 278}."
+gender: male
+roles: [poet, architect]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe, west-africa-sahel]
+died: { edtf: "1346", hijri: "0747", calendar: julian, precision: year, status: tradition, derived: false, note: "EI2 vol. 9 p. 782 gives 747/1346; vol. 6 p. 278 gives 1346.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: lived_in, target: place/granada, note: "Began his career as a notary there; EI2 vol. 9 p. 782.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: traveled_to, target: place/mecca, note: "Performed the pilgrimage, where he met Mansa Musa; EI2 vol. 6 p. 443.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: traveled_to, target: place/mali, note: "Went back with Mansa Musa to Mali; EI2 vol. 6 p. 278.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/timbuktu, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/mansa-musa, note: "Confidential adviser and architect of the king; EI2 vol. 9 p. 782 and vol. 6 pp. 443-444.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., articles Mali, Mansa Musa and Sudan"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-2
+  canon: "EI2 vol. 6 p. 278 (Mali), vol. 6 pp. 443-444 (Mansa Musa), vol. 9 p. 782 (al-Sudan)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "أبو إسحاق الساحلي شاعر ومهندس من غرناطة سافر مع ملك مالي وبنى له قصراً في أفريقيا."
+  en: "Abu Ishaq al-Sahili was a poet and builder from Granada who travelled with the king of Mali and built him a palace in Africa."
+  ur: "ابو اسحاق الساحلی غرناطہ کے شاعر اور معمار تھے جو مالی کے بادشاہ کے ساتھ گئے اور افریقہ میں ان کے لیے محل بنایا۔"

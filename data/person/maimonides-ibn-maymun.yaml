@@ -1,0 +1,42 @@
+id: person/maimonides-ibn-maymun
+class: person
+label: { ar: "ابن ميمون القرطبي", en: "Maimonides (Ibn Maymun)", ur: "ابن میمون" }
+names: ["Moses Maimonides", "Musa ibn Maymun", "Abu Imran Musa ibn Ubayd Allah ibn Maymun al-Qurtubi", "Moses ben Maimon", "Rambam"]
+summary:
+  ar: "أبو عمران موسى بن عبيد الله بن ميمون القرطبي، المعروف في الغرب بموسى ميمونيدس، لاهوتي وفيلسوف وطبيب يهودي وُلد في قرطبة سنة 1135م وتوفي في الفسطاط سنة 1204م. غادر الأندلس مع أسرته نحو 1149م بسبب غزو الموحدين، ثم استقر في مصر بعد 1166م وعمل طبيباً في بلاط الملك الأفضل وترأس طائفته. ألّف بالعربية دلالة الحائرين نحو 1190م ومقالة في صناعة المنطق وكتباً طبية، وكان الفارابي أعظم مصادر إلهامه بين فلاسفة المسلمين {cite:encyclopaedia-of-islam-2 vol. 3 p. 908; vol. 3 p. 909}."
+  en: "Abu Imran Musa ibn Ubayd Allah ibn Maymun al-Qurtubi, known in the West as Moses Maimonides, was a Jewish theologian, philosopher and physician, born in Cordova in 1135 and died in Fustat in 1204. His family left al-Andalus about 1149 because of the Almohad invasion, and after 1166 he settled in Egypt, where he practised as a physician at the court of al-Malik al-Afdal and became head of his community. He wrote in Arabic the Guide of the Perplexed, about 1190, a short treatise on logic and medical works, and the article names al-Farabi as his chief inspiration among Muslim philosophers {cite:encyclopaedia-of-islam-2 vol. 3 p. 908; vol. 3 p. 909}."
+  ur: "ابو عمران موسیٰ بن عبید اللہ بن میمون القرطبی، جو مغرب میں موسیٰ میمونیڈیز کے نام سے معروف ہیں، یہودی متکلم، فلسفی اور طبیب تھے؛ وہ 1135ء میں قرطبہ میں پیدا ہوئے اور 1204ء میں فسطاط میں فوت ہوئے۔ موحدین کے حملے کے باعث ان کا خاندان تقریباً 1149ء میں اندلس سے نکلا، اور 1166ء کے بعد وہ مصر میں آباد ہوئے جہاں وہ ملک الافضل کے دربار میں طبیب رہے اور اپنی جماعت کے سربراہ بنے۔ انہوں نے عربی میں تقریباً 1190ء میں دلالۃ الحائرین، منطق پر ایک مقالہ اور طبی کتابیں لکھیں، اور مضمون کے مطابق مسلم فلسفیوں میں ان کے لیے فارابی سب سے بڑا سرچشمۂ الہام تھے {cite:encyclopaedia-of-islam-2 vol. 3 p. 908; vol. 3 p. 909}."
+gender: male
+roles: [philosopher, physician, theologian]
+faith:
+  - value: jewish
+    basis: documented
+    note: "Described by the Encyclopaedia of Islam as a Jewish theologian and philosopher and as head of the Jewish community in Egypt."
+    sources: [source/encyclopaedia-of-islam-2]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb, egypt-nile]
+born: { edtf: "1135", calendar: julian, precision: year, status: tradition, derived: false, note: "EI2 vol. 3 p. 908; no Hijri date given there.", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1204", calendar: julian, precision: year, status: tradition, derived: false, note: "EI2 vol. 3 p. 908; no Hijri date given there.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: born_in, target: place/cordoba, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/al-fustat, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/fes, note: "The family spent some ten years in the Maghrib, notably in Fes; EI2 vol. 3 p. 908.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-qadi-al-fadil, note: "Worked at first as a physician under the protection of the qadi al-Fadil; EI2 vol. 3 p. 908.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-farabi, note: "Al-Farabi was his chief source of inspiration among Muslim philosophers; EI2 vol. 3 p. 909.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/abd-al-latif-al-baghdadi, note: "The Muslim scholar, who knew him in Cairo, judged the Guide a heretical book for his co-religionists; EI2 vol. 3 p. 909.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/ibn-rushd, note: "Called his contemporary and in several respects his counterpart among Muslim thinkers; EI2 vol. 3 p. 909.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 3, article Ibn Maymun"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-2
+  canon: "EI2 vol. 3, article Ibn Maymun, PDF pages 908-909"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "ابن ميمون طبيب وفيلسوف وُلد في قرطبة وعاش في مصر، وكتب بالعربية كتاباً لمن حاروا في أسئلة الإيمان والعقل."
+  en: "Maimonides was a doctor and thinker born in Cordova who lived in Egypt and wrote in Arabic a book for people puzzled about faith and reason."
+  ur: "ابن میمون قرطبہ میں پیدا ہونے والے طبیب اور مفکر تھے جو مصر میں رہے اور عربی میں ایسی کتاب لکھی جو ایمان اور عقل کے سوالوں میں الجھے لوگوں کے لیے تھی۔"

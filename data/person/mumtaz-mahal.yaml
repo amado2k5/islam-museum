@@ -1,0 +1,35 @@
+id: person/mumtaz-mahal
+class: person
+label: { ar: "ممتاز محل", en: "Mumtaz Mahal", ur: "ممتاز محل" }
+names:
+  - { kind: birth, lang: en, value: "Arjumand Banu Begam" }
+  - { kind: variant, lang: ar, value: "أرجمند بانو بيغم" }
+  - { kind: variant, lang: ur, value: "ارجمند بانو بیگم" }
+summary:
+  ar: "ممتاز محل، واسمها أرجمند بانو بيغم، ابنة آصف خان وزوجة الإمبراطور المغولي شاه جهان المفضلة، تزوجته سنة 1612م وأنجبت له أربعة عشر ولداً بقي منهم سبعة، وماتت في برهانبور بالدكن في يونيو 1631م إثر ولادة بنت. بنى لها زوجها ضريح تاج محل في آكره {cite:encyclopaedia-of-islam-2 vol. 7 p. 611} {cite:encyclopaedia-of-islam-2 vol. 1 p. 275}."
+  en: "Mumtaz Mahal, born Arjumand Banu Begam, was the daughter of Asaf Khan and the favourite wife of the Mughal emperor Shah Jahan, whom she married in 1612. She bore him fourteen children, of whom seven grew up, and died at Burhanpur in the Deccan in June 1631 after giving birth to a daughter. Her husband built the Taj Mahal at Agra for her {cite:encyclopaedia-of-islam-2 vol. 7 p. 611} {cite:encyclopaedia-of-islam-2 vol. 1 p. 275}."
+  ur: "ممتاز محل، جن کا اصل نام ارجمند بانو بیگم تھا، آصف خان کی بیٹی اور مغل بادشاہ شاہ جہاں کی چہیتی بیوی تھیں۔ ان کی شادی 1612ء میں ہوئی، چودہ بچے پیدا ہوئے جن میں سات بڑے ہوئے، اور وہ جون 1631ء میں دکن کے شہر برہان پور میں بیٹی کی ولادت کے بعد فوت ہوئیں۔ ان کے شوہر نے ان کے لیے آگرہ میں تاج محل بنوایا {cite:encyclopaedia-of-islam-2 vol. 7 p. 611} {cite:encyclopaedia-of-islam-2 vol. 1 p. 275}۔"
+gender: female
+roles: [royal-consort]
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+died: { edtf: "1631-06", hijri: "1040", calendar: gregorian, precision: month, status: tradition, derived: false, note: "died at Burhanpur in June 1631; EI2 gives 1041/1631 in the Mumtaz Mahall article and 1040/1631 in the article on Sa'ida Gilani; both are quoted {cite:encyclopaedia-of-islam-2 vol. 1 p. 275}" }
+relations:
+  - { type: spouse_of, target: person/shah-jahan-mughal, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: parent_of, target: person/aurangzeb-mughal, note: "Aurangzeb was her third son, born 15 Dhu l-Qa'da 1027/3 November 1618 at Dohad in Malwa.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/burhanpur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: buried_in, target: building/taj-mahal, note: "Temporarily interred at Zaynabad near Burhanpur before her body was taken to Agra.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., article Mumtaz Mahall and passages in the articles Agra, Burhanpur, Shah Djahan, Awrangzib, Tadj Mahall and Hind"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 7, article Mumtaz Mahall, p. 611; vol. 1 pp. 275, 817, 1395; vol. 7 p. 360; vol. 9 p. 204; vol. 2 p. 361"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "ممتاز محل زوجة الإمبراطور شاه جهان، وبنى لها قبراً جميلاً هو تاج محل."
+  en: "Mumtaz Mahal was the beloved wife of the emperor Shah Jahan, who built the beautiful Taj Mahal as her tomb."
+  ur: "ممتاز محل بادشاہ شاہ جہاں کی پیاری بیوی تھیں، اور بادشاہ نے ان کے لیے خوبصورت تاج محل بنوایا۔"

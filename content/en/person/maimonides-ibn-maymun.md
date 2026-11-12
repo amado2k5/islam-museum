@@ -1,0 +1,26 @@
+---
+id: person/maimonides-ibn-maymun
+lang: en
+source_lang: en
+translators: []
+---
+## Overview
+Abu Imran Musa ibn Ubayd Allah ibn Maymun al-Qurtubi, usually called Moses Maimonides in English and German, was a Jewish theologian, philosopher and physician. He was born in Cordova in 1135 and died in Fustat in 1204. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908}
+
+## Life
+He came from a scholarly Jewish family long settled in Muslim Spain and received his first education in [[place/cordoba|Cordova]]. About 1149 the family left because of the Almohad invasion and the new dynasty's hostile policy toward religious minorities. They spent some ten years in the Maghrib, notably in [[place/fes|Fes]], perhaps outwardly as converts to Islam, though the article says that is far from certain. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908} The article holds that he acquired the essence of his religious and secular learning in the Muslim West, and that his writing probably began there. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908}
+
+After 1166 the family was in Egypt. Moses first earned his living in the trade in precious stones with India, but when a shipwreck cost his brother's life and endangered the business he worked as a physician, at first under the patronage of the qadi [[person/al-qadi-al-fadil|al-Fadil]], and later as court physician to al-Malik al-Afdal. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908} The article stresses that he was never physician to Saladin and that the reported invitation from Richard the Lionheart is a legend. He also became head and spokesman of his community, the nagid, a dignity that stayed in his family until the 14th century. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908}
+
+## Writings
+The article treats only the writings that bear on Islamic studies and Arabic literature. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908} The first is a short work on the art of logic, written, apparently, at sixteen. It was long known only from an incomplete Hebrew-script manuscript until Mubahat Turker found two complete copies in Arabic script and showed its close relationship to [[person/al-farabi|al-Farabi]]. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908} In medicine he wrote about twelve works, mostly dependent on Galen, and the article says experts give him an honourable place in the medicine of his day. He was much sought after as a practitioner, and the medical works circulated in Hebrew and in Arabic script. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908}
+
+## The Guide of the Perplexed
+About 1190 he wrote Dalalat al-ha'irin, the Guide of the Perplexed, for Jewish intellectuals who, through their scientific and philosophical education, were puzzled about biblical and rabbinic teaching on God, the origin of the world and the meaning of religious law. He set out a method of interpretation for anthropomorphic passages, examined the methods of kalam, and argued that neither the eternity of the world nor a law of necessity binding God was a philosophical certainty. Following a Platonic tradition repeated by al-Farabi, he justified the prophet-legislator, whose perfect example for him was Moses. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908} The Law given to Moses, though first suited to a people barely freed from paganism, is for him the most perfect possible and remains in force forever. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909}
+
+The article reads the Guide as written with deliberate contradictions, so that a careful reader would see his true views differed from a surface reading, and concludes that he probably did not reject the eternity of the world. It also finds a basic rationalism in his refusal of astrology and the occult, and notes that in his Code of Laws and Treatise on the Resurrection he played down traditional eschatology and taught the survival of the soul alone. This is the article's interpretation, and the museum attributes it to its author. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909}
+
+## Among Muslim thinkers
+The article names al-Farabi as his chief inspiration among Muslim philosophers, and also detects the influence of [[person/ibn-sina|Ibn Sina]], al-Ghazali's Tahafut and Ibn Bajja. He held [[person/ibn-rushd|Ibn Rushd]] in high esteem but knew his work only incompletely and too late for the Guide, and the article calls Ibn Rushd his contemporary and in several respects his counterpart. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909} The Muslim scholar [[person/abd-al-latif-al-baghdadi|Abd al-Latif al-Baghdadi]], who knew him in Cairo, said bluntly that he had written a heretical book for his co-religionists. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909} The article finds almost no trace of Muslim scholars using the Guide, though partial Arabic-script copies circulated among Christian intellectuals in Egypt. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909}
+
+On Islam, the article says he refused to admit the prophetic inspiration of its founder while showing a subtly qualified sympathy for its strict monotheism, rejected attempts to find Bible passages foretelling the Prophet of the Arabs, and reproached Muslims for doubting the integrity of the scriptural text. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909}

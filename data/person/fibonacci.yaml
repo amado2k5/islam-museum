@@ -1,0 +1,33 @@
+id: person/fibonacci
+class: person
+label: { ar: "فيبوناتشي", en: "Fibonacci", ur: "فبوناچی" }
+names:
+  - { kind: alternate, lang: en, value: "Leonardo of Pisa" }
+  - { kind: alternate, lang: en, value: "Leonard of Pisa" }
+summary:
+  ar: "فيبوناتشي، ويسميه الباحثون في دائرة المعارف الإسلامية ليوناردو البيزي، رياضي أوروبي ألّف سنة 1202م كتابه «ليبر أباتشي» واستعمل فيه الصيغة اللاتينية لمصطلح الجبر والمقابلة. وتقول المقالات إنه أفاد من أبي كامل ومن الهندسة العملية التي نقلها ساڤاسوردا، وإن نظام الكسور المصرية عند العرب وصل إلى أوروبا في جزء منه عن طريقه. ولم تذكر المقالات المقروءة ميلاده ولا وفاته {cite:encyclopaedia-of-islam-2 vol. 2 p. 386} {cite:encyclopaedia-of-islam-2 vol. 1 p. 152} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1112}."
+  en: "Fibonacci, called Leonardo or Leonard of Pisa in the Encyclopaedia of Islam, was a European mathematician whose Liber abaci of 1202 used the Latin form of the term for al-jabr and al-muqabala. The articles say he drew on Abu Kamil and on the practical geometry passed on through Savasorda, and that the Arab system of Egyptian fractions entered Europe partly through him. The articles read give neither his birth nor his death {cite:encyclopaedia-of-islam-2 vol. 2 p. 386} {cite:encyclopaedia-of-islam-2 vol. 1 p. 152} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1112}."
+  ur: "فبوناچی، جنہیں دائرۃ المعارف الاسلامیہ لیونارڈو یا لیونارڈ آف پیسا کہتی ہے، یورپی ریاضی دان تھے جن کی لیبر اباچی 1202ء میں لکھی گئی اور جس میں الجبر والمقابلہ کی اصطلاح کی لاطینی صورت استعمال ہوئی۔ مضامین کے مطابق انہوں نے ابو کامل اور ساوا سوردا کے ذریعے پہنچی عملی ہندسہ سے فائدہ اٹھایا، اور عربوں کا مصری کسور کا نظام جزوی طور پر ان کے ذریعے یورپ پہنچا۔ پڑھے گئے مضامین ان کی ولادت اور وفات کا ذکر نہیں کرتے {cite:encyclopaedia-of-islam-2 vol. 2 p. 386} {cite:encyclopaedia-of-islam-2 vol. 1 p. 152} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1112}."
+gender: male
+roles: [mathematician]
+wings: [people]
+themes: [mathematics, translation-and-transmission]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+floruit: { edtf: "1202", calendar: julian, precision: year, status: tradition, note: "Year of his Liber abaci as given in the Encyclopaedia of Islam, vol. 2 p. 386 and vol. 1 p. 152; his birth and death are not given in the articles read." }
+relations:
+  - { type: related_to, target: person/abu-kamil-shuja-ibn-aslam, note: "The Encyclopaedia of Islam says Abu Kamil influenced European algebra through Leonard of Pisa, who also used his geometrical treatise.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-karaji, note: "The article on al-Karaji notes that the same systems of equations appear in his al-Badi' and in Leonardo's Liber quadratorum.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed.: al-Djabr wa'l-muqabala, Abu Kamil, al-Karaji, al-Khwarazmi, Misaha, al-Riyadiyyat, 'Ilm al-handasa (Supplement)"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 2 (al-Djabr wa'l-muqabala, PDF p. 386), vol. 1 (Abu Kamil, PDF pp. 151-152), vol. 4 (al-Karaji PDF p. 637; al-Khwarazmi PDF p. 1112), vol. 7 (Misaha PDF p. 161), vol. 8 (al-Riyadiyyat PDF p. 601), vol. 12 (Supplement, 'Ilm al-handasa, PDF p. 468)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "فيبوناتشي رياضي أوروبي تعلّم من كتب الحساب والجبر العربية وكتب عنها في كتابه الشهير سنة 1202م."
+  en: "Fibonacci was a European mathematician who learned from Arabic books on arithmetic and algebra and wrote about them in his famous book of 1202."
+  ur: "فبوناچی یورپ کے ریاضی دان تھے جنہوں نے عربی حساب اور الجبرا کی کتابوں سے سیکھا اور 1202ء کی اپنی مشہور کتاب میں ان کا ذکر کیا۔"

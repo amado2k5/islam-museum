@@ -1,0 +1,31 @@
+id: person/brahmagupta
+class: person
+label: { ar: "براهماغوبتا", en: "Brahmagupta", ur: "برہم گپت" }
+names:
+  - { kind: alternate, lang: en, value: "Brahmagupta of Bhillamala" }
+summary:
+  ar: "براهماغوبتا فلكي ورياضي هندي من بهيلاملا قرب ملتان، وُلد سنة 598م بحسب دائرة المعارف الإسلامية، وكتب البراهماسفوتاسيدهانتا سنة 628م والخندكهاديكا سنة 665م. وتذكر المقالات أن كتبه كانت أساساً للتراث الهندي الذي نُقل إلى العربية، وأن قيم الحركة في جداول الخوارزمي الفلكية مأخوذة عنه {cite:encyclopaedia-of-islam-2 vol. 2 p. 603} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1169} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1112}."
+  en: "Brahmagupta was an Indian astronomer and mathematician of Bhillamala, near Multan, born in 598 according to the Encyclopaedia of Islam, who wrote the Brahmasphutasiddhanta in 628 and the Khandakhadyaka in 665. The articles say his books underlay the Indian tradition translated into Arabic and that the motion values in al-Khwarizmi's astronomical tables come from him {cite:encyclopaedia-of-islam-2 vol. 2 p. 603} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1169} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1112}."
+  ur: "برہم گپت ملتان کے قریب بھلّمال کے ہندی ماہرِ فلکیات اور ریاضی دان تھے، جو دائرۃ المعارف الاسلامیہ کے مطابق 598ء میں پیدا ہوئے، اور جنہوں نے 628ء میں برہمسپھٹسِدھانت اور 665ء میں کھنڈکھادیک لکھی۔ مضامین کے مطابق ان کی کتابیں اس ہندی روایت کی بنیاد تھیں جو عربی میں منتقل ہوئی، اور خوارزمی کے فلکیاتی جدولوں میں حرکت کی قدریں انہی سے لی گئی ہیں {cite:encyclopaedia-of-islam-2 vol. 2 p. 603} {cite:encyclopaedia-of-islam-2 vol. 3 p. 1169} {cite:encyclopaedia-of-islam-2 vol. 4 p. 1112}."
+gender: male
+roles: [astronomer, mathematician]
+wings: [people]
+themes: [astronomy-and-timekeeping, mathematics, translation-and-transmission]
+periods: [period/umayyad]
+regions: [south-asia]
+born: { edtf: "0598", calendar: julian, precision: year, status: tradition, derived: false, note: "Given as A.D. 598 in the Encyclopaedia of Islam, vol. 2 p. 603; the sources read give no death date." }
+relations:
+  - { type: influenced, target: work/zij-al-sindhind-khwarizmi, note: "The motion values in al-Khwarizmi's tables come from Brahmagupta, according to the Encyclopaedia of Islam.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed.: Djughrafiya, 'Ilm al-hay'a, al-Khwarazmi"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 2 (Djughrafiya, PDF p. 603), vol. 3 ('Ilm al-hay'a, PDF p. 1169), vol. 4 (al-Khwarazmi, PDF p. 1112)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "براهماغوبتا عالم هندي في الفلك والحساب، وصلت كتبه إلى بغداد وتعلّم منها علماء الإسلام."
+  en: "Brahmagupta was an Indian scholar of the stars and of numbers whose books reached Baghdad, where Muslim scholars learned from them."
+  ur: "برہم گپت ستاروں اور اعداد کے ہندی عالم تھے جن کی کتابیں بغداد پہنچیں اور مسلم علما نے ان سے سیکھا۔"

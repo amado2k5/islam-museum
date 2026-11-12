@@ -1,0 +1,34 @@
+id: polity/abbadids
+class: polity
+kind: dynasty
+label: { ar: "بنو عباد", en: "Abbadids (Banu Abbad)", ur: "بنو عباد" }
+names: ["Banu Abbad", "Abbadid dynasty", "Taifa of Seville"]
+summary:
+  ar: "بنو عباد أسرة عربية حكمت جنوب غرب الأندلس وعاصمتها إشبيلية أكثر القرن الخامس الهجري/الحادي عشر الميلادي، بدأها القاضي محمد بن عباد سنة 414هـ/1013م، واشتهر منها المعتضد والمعتمد، وانتهت بسقوط إشبيلية في يد المرابطين، وتعدها دائرة المعارف الإسلامية أبرز دول الطوائف وأكثرها ازدهاراً للفنون والآداب {cite:encyclopaedia-of-islam-2 vol. 1 p. 24; vol. 1 p. 26}."
+  en: "The Abbadids were an Arab dynasty who ruled the south-west of al-Andalus from Seville for most of the 5th/11th century. It began with the qadi Muhammad ibn Abbad, proclaimed ruler in 414/1013, and is best known for al-Mu'tadid and al-Mu'tamid. It ended when the Almoravids took Seville, and the Encyclopaedia of Islam counts it the most brilliant of the taifa dynasties and the one under which arts and letters shone brightest {cite:encyclopaedia-of-islam-2 vol. 1 p. 24; vol. 1 p. 26}."
+  ur: "بنو عباد ایک عرب خاندان تھا جس نے پانچویں صدی ہجری/گیارہویں صدی عیسوی کے بیشتر حصے میں اندلس کے جنوب مغرب پر اشبیلیہ سے حکومت کی۔ اس کا آغاز قاضی محمد بن عباد سے ہوا جو 414ھ/1013ء میں حکمران قرار پائے، اور معتضد و معتمد اس کے مشہور ترین حکمران ہیں۔ خاندان کا خاتمہ اشبیلیہ پر مرابطین کے قبضے سے ہوا؛ دائرۃ المعارف الاسلامیہ اسے ملوک الطوائف کا سب سے درخشاں خاندان اور وہ دور کہتی ہے جس میں اندلس کے فنون و ادب سب سے زیادہ چمکے {cite:encyclopaedia-of-islam-2 vol. 1 p. 24; vol. 1 p. 26}."
+wings: []
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+start: { edtf: "1013", hijri: "0414", calendar: julian, precision: year, status: tradition, derived: true, note: "Muhammad ibn Abbad proclaimed ruler in 414/1013 (EI2 vol. 1 p. 24); Gregorian year derived from the Hijri year.", sources: [source/encyclopaedia-of-islam-2] }
+end: { edtf: "1091~", calendar: julian, precision: year, status: tradition, derived: true, note: "EI2 vol. 1 p. 26 says the Almoravid army had taken Tarifa, Cordova, Carmona and finally Seville by the end of 1090 and that al-Mu'tamid died in captivity in 487/1095; the exact year of the fall is not stated, so 1091 is approximate.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: ruled_over, target: place/seville, note: "Capital; EI2 vol. 1 p. 24.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: ruled_over, target: place/cordoba, note: "Annexed in the second year of al-Mu'tamid's reign, lost to Ibn Ukkasha in 468/1075 and retaken in 471/1078; EI2 vol. 1 p. 25.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: fought, target: polity/zirid-dynasty, note: "War with Badis of Granada after the events of 445/1053; EI2 vol. 1 p. 25.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: fought, target: polity/almoravid-dynasty, note: "Seville conquered by the Almoravids after 1090; EI2 vol. 1 p. 26.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: polity/hammudid-dynasty, note: "Muhammad ibn Abbad first recognised the suzerainty of the Hammudid Yahya ibn Ali, a purely nominal tie; EI2 vol. 1 p. 24.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 1, article Abbadids (E. Levi-Provencal)"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-2
+  canon: "EI2 vol. 1, article 'Abbadids, PDF pages 24-26"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "بنو عباد أسرة ملكت إشبيلية قبل نحو ألف سنة، وكان ملوكها يحبون الشعر والعلماء."
+  en: "The Abbadids were a family of kings who ruled Seville about a thousand years ago and loved poetry and learning."
+  ur: "بنو عباد بادشاہوں کا وہ خاندان تھا جس نے تقریباً ہزار سال پہلے اشبیلیہ پر حکومت کی اور شاعری اور علم سے محبت رکھتا تھا۔"
