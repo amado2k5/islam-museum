@@ -1,0 +1,17 @@
+id: passage/nasai-api-2437
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2437"
+label: { ar: "سنن النسائي 2437 — عمل يعدل عملا أعظم منه", en: "Sunan al-Nasa'i 2437 — a deed that equals a greater one", ur: "سنن نسائی 2437 — ایک عمل جو بڑے عمل کے برابر ہے" }
+text: "… عَنْ مُعَاوِيَةَ بْنِ سَلاَّمٍ، عَنْ أَخِيهِ، زَيْدِ بْنِ سَلاَّمٍ أَنَّهُ أَخْبَرَهُ عَنْ جَدِّهِ أَبِي سَلاَّمٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ غَنْمٍ، أَنَّ أَبَا مَالِكٍ الأَشْعَرِيَّ، حَدَّثَهُ أَنَّ رَسُولَ اللَّهِ قَالَ \" إِسْبَاغُ الْوُضُوءِ شَطْرُ الإِيمَانِ وَالْحَمْدُ لِلَّهِ تَمْلأُ الْمِيزَانَ وَالتَّسْبِيحُ وَالتَّكْبِيرُ يَمْلأُ السَّمَوَاتِ وَالأَرْضَ وَالصَّلاَةُ نُورٌ وَالزَّكَاةُ بُرْهَانٌ وَالصَّبْرُ ضِيَاءٌ وَالْقُرْآنُ حُجَّةٌ لَكَ أَوْ عَلَيْكَ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2437، يذكر عمل يعدل عملا أعظم منه. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 2437 (The Book of Zakah), that speaks of a deed that equals a greater one. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 2437، جس میں ایک عمل جو بڑے عمل کے برابر ہے کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2437 (book 23 hadith 3); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

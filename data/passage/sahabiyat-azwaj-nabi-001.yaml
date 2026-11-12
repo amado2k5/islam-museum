@@ -1,0 +1,24 @@
+id: passage/sahabiyat-azwaj-nabi-001
+class: passage
+unit: chapter
+work: work/azwaj-al-nabi
+ref: "278"
+label:
+  ar: "أزواج النبي — عبد الرزاق البدر — ص 278"
+  en: "أزواج النبي — عبد الرزاق البدر — p. 278"
+text: "ن يحمله من رسول الله ق فقرأ فيه : بسم الله الرحمن الرحيم .. من محمد بن عبدالله إلى المقوقس عظيم مصر .. سلام على من اتبع الهدى، أما بعد . .. ٢٨١"
+summary:
+  ar: "مقطع من «أزواج النبي — عبد الرزاق البدر» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «أزواج النبي — عبد الرزاق البدر» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/azwaj-nabi] }
+  - { type: mentions, target: person/al-muqawqis, sources: [source/azwaj-nabi] }
+  - { type: mentions, target: person/muhammad, sources: [source/azwaj-nabi] }
+provenance:
+  layer: own-research
+  source: "أزواج النبي — عبد الرزاق البدر ص 278 — مقتطف المكاتبات — sahabiyat"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-2
+tags: [mukatabat-browser]
+sources: [source/azwaj-nabi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

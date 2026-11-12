@@ -14,7 +14,7 @@ export const wingCountLabel = (lang: Lang, w: Wing | string) => fmt(ui(lang).win
 /** The "{n} events" template of a counted wing, or null for a wing that shows a phrase (rendered as static text). */
 export const wingCountTemplate = (lang: Lang, w: Wing | string): string | null => { const t = ui(lang).wings.counts[w]; return typeof t === "string" && t.includes("{n}") ? t : null; };
 
-export interface ExplorePage { key: "quran" | "qudsi" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles" | "ghayb" | "companions" | "seerah" | "nature" | "angels" | "dreams" | "dua" | "sayyiat" | "hasanat" | "mukatabat" | "islamiceconomy" | "jinn-devils" | "magic" | "messengers" | "miracles" | "madhahib" | "bayt" | "signs" | "nubuwat"; href: string; ready: boolean }
+export interface ExplorePage { key: "quran" | "qudsi" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles" | "ghayb" | "companions" | "seerah" | "nature" | "angels" | "dreams" | "dua" | "sayyiat" | "hudud" | "hasanat" | "hisab" | "mukatabat" | "islamiceconomy" | "jinn-devils" | "magic" | "messengers" | "miracles" | "madhahib" | "bayt" | "signs" | "nubuwat" | "ibadat" | "places" | "nar" | "janna"; href: string; ready: boolean }
 /** The interactive explorers; `ready` flips as each phase ships, and an unfinished one links to the nearest page that exists. */
 export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "quran", href: `/${lang}/words/quran/`, ready: true },
@@ -48,7 +48,9 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "dreams", href: `/${lang}/dreams/`, ready: true },
   { key: "dua", href: `/${lang}/dua/`, ready: true },
   { key: "sayyiat", href: `/${lang}/sayyiat/`, ready: true },
+  { key: "hudud", href: `/${lang}/hudud/`, ready: true },
   { key: "hasanat", href: `/${lang}/hasanat/`, ready: true },
+  { key: "hisab", href: `/${lang}/hisab/`, ready: true },
   { key: "mukatabat", href: `/${lang}/mukatabat/`, ready: true },
   { key: "islamiceconomy", href: `/${lang}/islamic-economy/`, ready: true },
   { key: "magic", href: `/${lang}/magic/`, ready: true },
@@ -59,5 +61,8 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "bayt", href: `/${lang}/bayt/`, ready: true },
   { key: "signs", href: `/${lang}/signs/`, ready: true },
   { key: "nubuwat", href: `/${lang}/nubuwat/`, ready: true },
+  { key: "ibadat", href: `/${lang}/ibadat/`, ready: true },
   { key: "places", href: `/${lang}/places/`, ready: true },
+  { key: "nar", href: `/${lang}/nar/`, ready: true },
+  { key: "janna", href: `/${lang}/janna/`, ready: true },
 ];

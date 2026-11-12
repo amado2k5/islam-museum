@@ -1,0 +1,17 @@
+id: passage/bukhari-api-2551
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2551"
+label: { ar: "صحيح البخاري 2551 — الأجران", en: "Sahih al-Bukhari 2551 — the double reward", ur: "صحیح بخاری 2551 — دوہرا اجر" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ بُرَيْدٍ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى ـ عَنِ النَّبِيِّ قَالَ \" الْمَمْلُوكُ الَّذِي يُحْسِنُ عِبَادَةَ رَبِّهِ، وَيُؤَدِّي إِلَى سَيِّدِهِ الَّذِي لَهُ عَلَيْهِ مِنَ الْحَقِّ وَالنَّصِيحَةِ وَالطَّاعَةِ، لَهُ أَجْرَانِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2551، يذكر الأجران. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 2551 (Manumission of Slaves), that speaks of the double reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 2551، جس میں دوہرا اجر کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2551 (book 49 hadith 34); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

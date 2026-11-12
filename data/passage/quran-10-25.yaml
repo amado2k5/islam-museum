@@ -16,6 +16,7 @@ translations:
   en: { text: "And Allah summoneth to the abode of peace, and leadeth whom He will to a straight path.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور خدا سلامتی کے گھر کی طرف بلاتا ہے۔ اور جس کو چاہتا ہے سیدھا راستہ دکھاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/dar-al-salam, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-10 }
   - { type: mentions, target: concept/asma-al-salam, sources: [source/tanzil-quran] }
 sensitivity: sacred

@@ -1,0 +1,24 @@
+id: passage/tareekh-tarikh-umayyad-salabi-001
+class: passage
+unit: chapter
+work: work/al-dawla-al-umawiyya-khudari
+ref: "129"
+label:
+  ar: "الدولة الأموية — الخضري — ص 129"
+  en: "الدولة الأموية — الخضري — p. 129"
+text: "إلى ملك الروم وكتب له كتابا هذا نصه (بسم الله الرحمن الرحيم من محمد رسول الله إلى هرقل عظيم الروم، السلام على من اتبع الهدى. أما بعد، أسلم تسلم يؤتك الله أجرك مرتين وإن تتول فإن إثم الأكارين عليك) ."
+summary:
+  ar: "مقطع من «الدولة الأموية — الخضري» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «الدولة الأموية — الخضري» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/khudari-umayyad-state] }
+  - { type: mentions, target: person/heraclius, sources: [source/khudari-umayyad-state] }
+  - { type: mentions, target: person/muhammad, sources: [source/khudari-umayyad-state] }
+provenance:
+  layer: own-research
+  source: "الدولة الأموية — الخضري ص 129 — مقتطف المكاتبات — tareekh"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-1
+tags: [mukatabat-browser]
+sources: [source/khudari-umayyad-state]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

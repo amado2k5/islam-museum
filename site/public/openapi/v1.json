@@ -406,6 +406,50 @@
         }
       }
     },
+    "/ibadat.json": {
+      "get": {
+        "summary": "Ibadat and Adhkar Browser dataset",
+        "description": "The Worship and Adhkar Browser dataset (متصفح العبادات والأذكار): every act of worship and remembrance mentioned in the Qur'an, the Sunnah, the seerah and every harvested book — prayer, purification, fasting, zakat and charity, hajj and umrah, dhikr and adhkar, du'a (via the Du'a detector), recitation, repentance and ruqya — detected at build time plus the curated records tagged ibadat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), ibadat_kind (act/mention), worship topics, matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every ibadat record with corpus section, ibadat kind, topics, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/jannas.json": {
+      "get": {
+        "operationId": "getNar",
+        "summary": "Paradise Browser dataset",
+        "description": "The Paradise Browser dataset (متصفح الجنة): every mention of the Paradise in the museum's sources — the hellParadise names (Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya, al-Hawiya, al-Sa'ir), its people, fuel, torment, keepers, food, drink and the Sirat over it, plus worldly Paradise (Ibrahim's Paradise, Musa's tree, the Paradise of war) — detected at build time plus the curated records tagged nar-browser, each with its section (quran, sunnah, seerah, books, dunya, curated), janna_kind (hellParadise or worldly), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every Paradise mention with section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/nar.json": {
+      "get": {
+        "operationId": "getNar",
+        "summary": "Fire Browser dataset",
+        "description": "The Fire Browser dataset (متصفح النار): every mention of the Fire in the museum's sources — the hellfire names (Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya, al-Hawiya, al-Sa'ir), its people, fuel, torment, keepers, food, drink and the Sirat over it, plus worldly fire (Ibrahim's fire, Musa's tree, the fire of war) — detected at build time plus the curated records tagged nar-browser, each with its section (quran, sunnah, seerah, books, dunya, curated), nar_kind (hellfire or worldly), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every fire mention with section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/islamic-economy.json": {
       "get": {
         "operationId": "getIslamicEconomy",
@@ -429,6 +473,36 @@
         "responses": {
           "200": {
             "description": "Every sayyi'at record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/hudud.json": {
+      "get": {
+        "operationId": "getHudud",
+        "summary": "Hudud Allah and Kaba'ir Browser dataset",
+        "description": "The Hudud Allah and Kaba'ir Browser dataset (متصفح حدود الله والكبائر): every mention of the limits of God, the fixed penalties (stoning, flogging, the amputated hand, discretionary punishment and their crimes) and the major sins in the Qur'an, Sunnah, seerah and harvested books — detected at build time plus the curated records tagged hudud-browser, each with its corpus section (quran, sunnah, seerah, books, curated), hudud_kind (hudud or kabair), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every hudud and kaba'ir record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/hisab.json": {
+      "get": {
+        "operationId": "getHisab",
+        "summary": "Hasanat and Sayyi'at Ledger dataset",
+        "description": "The Hasanat and Sayyi'at Ledger, Calculator and Counter dataset (قائمة وآلة حاسبة وعدّاد الحسنات والسيئات): every passage in the Qur'an, Sunnah, seerah and harvested books that counts, writes, multiplies, erases, weighs or reckons a good or bad deed, detected at build time, plus the curated records tagged hisab-browser. Each item has its corpus section (quran, sunnah, seerah, books, curated), hisab_kinds (hasanat, sayyiat, erasure, scale), matched signals, work, ref, text excerpt, themes, tags and edges; calculator rows carry a reckoning block with the figure a named text states for one act (hasanat, hasanat_max, sayyiat, erased, degrees, times, unbounded), the localized unit and result, and the basis passage ids.",
+        "responses": {
+          "200": {
+            "description": "Every ledger record with corpus section, ledger kinds, signals, reckoning, work, ref, excerpt, themes and edges",
             "content": {
               "application/json": {}
             }

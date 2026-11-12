@@ -1,0 +1,18 @@
+id: passage/nasai-api-705
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "705"
+label: { ar: "سنن النسائي 705 — كتابة الحسنات، كتابة السيئات", en: "Sunan al-Nasa'i 705 — the writing of good deeds; the writing of bad deeds", ur: "سنن نسائی 705 — نیکیوں کا لکھا جانا، برائیوں کا لکھا جانا" }
+text: "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا يَحْيَى، قَالَ حَدَّثَنَا ابْنُ أَبِي ذِئْبٍ، قَالَ حَدَّثَنَا الأَسْوَدُ بْنُ الْعَلاَءِ بْنِ جَارِيَةَ الثَّقَفِيُّ، عَنْ أَبِي سَلَمَةَ، - هُوَ ابْنُ عَبْدِ الرَّحْمَنِ - عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ قَالَ \" حِينَ يَخْرُجُ الرَّجُلُ مِنْ بَيْتِهِ إِلَى مَسْجِدِهِ فَرِجْلٌ تُكْتَبُ حَسَنَةً وَرِجْلٌ تَمْحُو سَيِّئَةً \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 705، يذكر كتابة الحسنات، وكتابة السيئات، ومحو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 705 (The Book of the Masjids), that speaks of the writing of good deeds, the writing of bad deeds, bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 705، جس میں نیکیوں کا لکھا جانا، برائیوں کا لکھا جانا، برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 705 (book 8 hadith 18); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

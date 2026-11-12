@@ -1,27 +1,45 @@
 ---
 id: place/sanaa
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
+## Overview
+Sana'a is the chief town of [[place/yemen|Yemen]] from ancient times and the capital of the unified Republic of Yemen. The Encyclopaedia of Islam, whose account this page follows, gives its present population as just over half a million. It lies in the centre of the northern highlands, about 170 km in a straight line from the nearest point on the Red Sea and roughly 300 km from the Indian Ocean port of [[place/aden|Aden]]. The article describes it as a military centre in the inscriptions, a prize that Yemeni dynasties of every period tried to hold, and a city whose towers, mosques, baths and market have been the subject of detailed study. {cite:encyclopaedia-of-islam-2 vol. 9 p. 10} {cite:encyclopaedia-of-islam-2 vol. 9 p. 11}
 
-## Summary
-The capital of Yemen, and an early Islamic centre in the south of the Arabian Peninsula. Its old city is inscribed on the UNESCO list, and its great mosque is among the oldest mosques.
+## Setting and climate
+The town stands at more than 2,200 metres above sea level and is almost ringed by mountains. Djabal Nukum, at 2,892 metres, rises to the east and the town spreads at its foot. Djabal 'Ayban, at 3,194 metres, is to the west and is the highest peak in the immediate area, and the twin peaks of al-Nahdayn, at 2,513 metres, lie due south. The climate is temperate, generally very dry and mild, with a regular rainfall pattern whose heaviest falls come in March, April and May and again from July to September. {cite:encyclopaedia-of-islam-2 vol. 9 p. 10}
 
-## Location
-Its approximate coordinates are 15.3545 N and 44.2065 E {cite:geonames-gazetteer}.
+## The name and the pre-Islamic town
+The article notes a common claim that the name comes from the excellence of the town's trades and crafts, perhaps as a feminine form of the Arabic adjective asna. It judges it far more probable that the name is Sabaic and, following the basic Sabaic sense of the root, means "well fortified". In the pre-Islamic inscriptions the town appears as a military centre, in particular as the base from which the Sabaeans launched campaigns southward against [[polity/himyarite-kingdom|Himyar]], and inscriptions speak of triumphant returns to it from the wars. Besides being called a town, it was also a mahram, which one scholar interprets as a place whose access was prohibited or restricted, for religious or other reasons. The palace of [[building/ghumdan-palace|Ghumdan]] is also mentioned in the pre-Islamic texts. {cite:encyclopaedia-of-islam-2 vol. 9 p. 10}
 
-## In the museum
-The museum's material on this place includes: people who died here: 1; polities it was the capital of: 1; buildings here: 1.
+Islamic tradition reports that in the middle of the sixth century the Abyssinian king [[person/abraha|Abraha]] built a church in Sana'a, called al-Qalis, a building the museum records as [[building/al-qullays|al-Qullays]]. The inscriptions do not say when the site was first settled and do not mention the town's ancient name, Azal, which comes from al-Hamdani. The inscriptions quoted and most of the texts naming the town belong to the third century CE, but the article states that the site must have been settled much earlier. {cite:encyclopaedia-of-islam-2 vol. 9 p. 10}
 
-### People who died here
-- [[person/al-aswad-al-ansi|al-Aswad al-Ansi]]
+## The early Islamic centuries
+For the first two centuries and more of Islamic history the article says there is little beyond a list of governors sent to Yemen by the Prophet, the Rightly Guided caliphs and the [[polity/umayyad-caliphate|Umayyad]] and [[polity/abbasid-caliphate|Abbasid]] caliphs. It divides the remaining centuries to the sixteenth into six periods: the Yu'furids, 232-387/847-997; the Sulayhids; the sultans of Hamdan; the Ayyubids, 569-628/1173-1230; the Rasulids, 628-783/1230-1381; and a time when Zaydi Imams controlled the town, 783-953/1381-1546. {cite:encyclopaedia-of-islam-2 vol. 9 p. 10}
 
-### Polities it was the capital of
-- [[polity/himyarite-kingdom|The Himyarite kingdom]] (115 BCE)
+The Yu'furids, the article notes, were the first Yemeni dynasty to exercise more than purely local control over any part of the country. They descended from Himyar and saw themselves as its rightful heirs, and they moved into Sana'a from their original territory in Shibam when they sensed the weakness of the local Abbasid governors. Their rule of about 150 years ended in 387/997 and left the town in anarchy until the Fatimid-aligned [[polity/sulayhid-dynasty|Sulayhids]] arrived in 439/1047. The Sulayhid period in Sana'a was not their peak: that came after they settled at [[place/dhu-jibla|Dhu Jibla]] around 480/1087. With the death of the da'i Saba' b. Ahmad in 492/1098, Sana'a was lost. {cite:encyclopaedia-of-islam-2 vol. 9 p. 10}
 
-### Buildings here
-- [[building/al-qullays|Al-Qullays (the Yemeni Kaaba)]]
+From 492/1098 to 569/1173 Sana'a fell under three families of Hamdan from Yam, who were Isma'ilis like the Sulayhids: the Banu Hatim, the Banu al-Kubayb and the Banu Hatim again. They depended almost entirely on the forces they could muster. The article describes a repeating pattern in which the town was taken for a period, then lost, and the whole process began again after an interval; part of the scanned text here is unreadable, so the page does not say who the challengers were, except that [[place/dhamar|Dhamar]] to the south is named in that passage. {cite:encyclopaedia-of-islam-2 vol. 9 p. 10} {cite:encyclopaedia-of-islam-2 vol. 9 p. 11}
 
-## What this page covers
-This page gathers what the museum links to the place: events, people and buildings. It is not a full historical description of the place. A description of the place and its history will be added from primary sources in the coming batches.
+The article tells a similar story of the [[polity/rasulid-dynasty|Rasulid]] period. For all the brilliance of Rasulid administration and learning in the [[place/tihama|Tihama]] and the southern highlands, the dynasty never held the chief town with anything like permanence. During roughly the last 130 years of the dynasty, 723-858/1323-1454, Sana'a stayed in the orbit of the Zaydis and beyond the reach of the Rasulids and of their successors, the [[polity/tahirid-sultanate-yemen|Tahirids]], who are dated there to 858-923/1454-1517. {cite:encyclopaedia-of-islam-2 vol. 9 p. 11}
+
+## Ottomans, imams and the republic
+From about 954/1547, when the Ottoman Ozdemir Pasha advanced on Sana'a, until 1038/1629 the town was the capital of Ottoman Yemen. The article says the Imam al-Mu'ayyad delivered the final blow, but names al-Qasim b. Muhammad, called al-Qasim al-Kabir, as the real hero of the Turks' expulsion from the town and the country. Until the middle of the nineteenth century the [[group/zaydiyya|Zaydi]] Imams controlled Sana'a and the north with varying authority. Zaydi rule then declined, mainly through internal quarrels, which allowed a second [[polity/ottoman-empire|Ottoman]] occupation: Ahmad Mukhtar Pasha entered Sana'a in 1289/1872, and it lasted until about 1337/1918. {cite:encyclopaedia-of-islam-2 vol. 9 p. 11}
+
+After 1337/1918 the history of Sana'a and Yemen is that of the Zaydi Hamid al-Din house, under the Imams Yahya, Ahmad and, for a few days in 1382/1962, al-Badr. The house had risen to prominence in 1307/1890 in the person of al-Mansur bi-llah Muhammad b. Yahya Hamid al-Din. The article describes Imam Ahmad, who reigned 1367-82/1948-62, as famed for bravery and learning as much as for ruthlessness, and says he died of natural causes in September 1962. His son al-Badr was proclaimed Imam and widely recognised, but had to flee Sana'a after young army officers who had been plotting a coup attacked him, and Hamid al-Din rule ended. The new Republic needed large numbers of Egyptian troops against royalist opposition; they left only in 1967, at the time of the Six-Day War. The republican government, balanced among Zaydi and Shafi'i religious and tribal interests, the military and a new group of Western-educated technocrats, stayed in power and opened talks with the People's Democratic Republic of Yemen on union. The Republic of Yemen came into being in 1990 with Sana'a as its capital. {cite:encyclopaedia-of-islam-2 vol. 9 p. 11}
+
+## The buildings of the old town
+The old town is still largely intact, though surrounded by new development. The article points first to the traditional tower house, usually square and at least five and sometimes eight or nine storeys high. The ground floor serves for stores and domestic animals, and the top storey, called the mafradj, is a second reception room used for the daily afternoon qat-chewing gathering. {cite:encyclopaedia-of-islam-2 vol. 9 p. 11}
+
+Mosques are the other prominent feature, with over a hundred in the town; a list by al-Hadjari names about a hundred of them and is called a mine of information on their background. Perhaps the most impressive for the historian is the [[building/jami-sanaa|Great Mosque]], whose foundation the article places in the early Islamic period without doubt. One scholar suggests that its first construction was in 11/633. {cite:encyclopaedia-of-islam-2 vol. 9 p. 11}
+
+Public baths play an important part in daily life, and seventeen are still in use, some possibly pre-Islamic in origin. The fuel is human waste, collected from a drop-toilet found in every house, and the article reports that it is reputed to burn with great heat. Women have their own times at each bath, and the baths matter especially at festivals. {cite:encyclopaedia-of-islam-2 vol. 9 p. 11}
+
+## Market and mint
+The large market has been the subject of several academic studies, and the complexities of its administration and organisation are beginning to be understood. A collection of market regulations from the eighteenth century, called Qanun San'a', was published in 1964 by Husayn b. Ahmad al-Sayaghi and has since been studied at length. {cite:encyclopaedia-of-islam-2 vol. 9 p. 11}
+
+The earliest coins assignable to the Sana'a mint date from 156-8/772-4. In the ninth century the mint produced a huge output, which a numismatist cited by the article reckons as a substantial share of all the gold coined in the caliph's territories. Umayyad, Abbasid, Ayyubid, Rasulid, Ottoman and Zaydi coins were struck at Sana'a. {cite:encyclopaedia-of-islam-2 vol. 9 p. 11} {cite:encyclopaedia-of-islam-2 vol. 9 p. 12}
+
+## Further reading
+The article calls the 1983 volume edited by Serjeant and Lewcock, Sana'a, an Arabian Islamic city, essential for almost any aspect of the town's history, culture and daily life. {cite:encyclopaedia-of-islam-2 vol. 9 p. 12}

@@ -1,0 +1,17 @@
+id: passage/abudawud-api-1504
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1504"
+label: { ar: "سنن أبي داود 1504 — مغفرة ما تقدم من الذنب", en: "Sunan Abi Dawud 1504 — forgiveness of past sins", ur: "سنن ابی داؤد 1504 — پچھلے گناہوں کی مغفرت" }
+text: "… إِلاَّ مَنْ أَخَذَ بِمِثْلِ عَمَلِكَ \". قَالَ بَلَى يَا رَسُولَ اللَّهِ. قَالَ \" تُكَبِّرُ اللَّهَ عَزَّ وَجَلَّ دُبُرَ كُلِّ صَلاَةٍ ثَلاَثًا وَثَلاَثِينَ وَتَحْمَدُهُ ثَلاَثًا وَثَلاَثِينَ وَتُسَبِّحُهُ ثَلاَثًا وَثَلاَثِينَ وَتَخْتِمُهَا بِلاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ غُفِرَتْ لَهُ ذُنُوبُهُ وَلَوْ كَانَتْ مِثْلَ زَبَدِ الْبَحْرِ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1504، يذكر مغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 1504 (Prayer (Kitab Al-Salat): Detailed Injunctions about Witr), that speaks of forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1504، جس میں پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1504 (book 8 hadith 89); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

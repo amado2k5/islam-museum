@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! those who believe and do good works, theirs are the Gardens of Paradise for welcome,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جو لوگ ایمان لائے اور عمل نیک کئے ان کے لئے بہشت کے باغ مہمانی ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/firdaws, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/jannat-adn, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred

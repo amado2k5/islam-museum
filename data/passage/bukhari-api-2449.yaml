@@ -1,0 +1,17 @@
+id: passage/bukhari-api-2449
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2449"
+label: { ar: "صحيح البخاري 2449 — المقاصة بالحسنات والسيئات", en: "Sahih al-Bukhari 2449 — deeds settled between people", ur: "صحیح بخاری 2449 — نیکیوں اور برائیوں سے بدلہ چکانا" }
+text: "… وَلاَ دِرْهَمٌ، إِنْ كَانَ لَهُ عَمَلٌ صَالِحٌ أُخِذَ مِنْهُ بِقَدْرِ مَظْلَمَتِهِ، وَإِنْ لَمْ تَكُنْ لَهُ حَسَنَاتٌ أُخِذَ مِنْ سَيِّئَاتِ صَاحِبِهِ فَحُمِلَ عَلَيْهِ \". قَالَ أَبُو عَبْدِ اللَّهِ قَالَ إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ إِنَّمَا سُمِّيَ الْمَقْبُرِيَّ لأَنَّهُ كَانَ نَزَلَ نَاحِيَةَ الْمَقَابِرِ. قَالَ أَبُو عَبْدِ اللَّهِ وَسَعِيدٌ الْمَقْبُرِيُّ هُوَ مَوْلَى بَنِي لَيْثٍ، وَهُوَ سَعِيدُ بْنُ أَبِي سَعِيدٍ، …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2449، يذكر المقاصة بالحسنات والسيئات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 2449 (Oppressions), that speaks of deeds settled between people. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 2449، جس میں نیکیوں اور برائیوں سے بدلہ چکانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2449 (book 46 hadith 10); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

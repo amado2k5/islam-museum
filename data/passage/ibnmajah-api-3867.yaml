@@ -1,0 +1,18 @@
+id: passage/ibnmajah-api-3867
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3867"
+label: { ar: "سنن ابن ماجه 3867 — رفع الدرجات، عمل يعدل عملا أعظم منه", en: "Sunan Ibn Majah 3867 — ranks raised; a deed that equals a greater one", ur: "سنن ابن ماجہ 3867 — درجات کی بلندی، ایک عمل جو بڑے عمل کے برابر ہے" }
+text: "… وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ - كَانَ لَهُ عَدْلَ رَقَبَةٍ مِنْ وَلَدِ إِسْمَاعِيلَ وَحُطَّ عَنْهُ عَشْرُ خَطِيئَاتٍ وَرُفِعَ لَهُ عَشْرُ دَرَجَاتٍ وَكَانَ فِي حِرْزٍ مِنَ الشَّيْطَانِ حَتَّى يُمْسِيَ وَإِذَا أَمْسَى فَمِثْلُ ذَلِكَ حَتَّى يُصْبِحَ \". قَالَ فَرَأَى رَجُلٌ رَسُولَ اللَّهِ ـ فِيمَا يَرَى النَّائِمُ فَقَالَ يَا رَسُولَ …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3867، يذكر رفع الدرجات، وعمل يعدل عملا أعظم منه، ومحو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 3867 (Supplication), that speaks of ranks raised, a deed that equals a greater one, bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3867، جس میں درجات کی بلندی، ایک عمل جو بڑے عمل کے برابر ہے، برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3867 (book 34 hadith 41); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

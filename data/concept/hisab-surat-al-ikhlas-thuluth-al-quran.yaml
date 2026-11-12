@@ -1,0 +1,50 @@
+id: concept/hisab-surat-al-ikhlas-thuluth-al-quran
+class: concept
+kind: doctrine
+label:
+  ar: "سورة الإخلاص تعدل ثلث القرآن"
+  en: "Surat al-Ikhlas equals a third of the Qur'an"
+  ur: "سورۂ اخلاص تہائی قرآن کے برابر"
+summary:
+  ar: "أخبر النبي أصحابه أنه سيقرأ عليهم ثلث القرآن، ثم قرأ سورة الإخلاص وقال إنها تعدل ثلث القرآن، عند مسلم [[passage/muslim-api-1888]] وفي الموطأ [[passage/muwatta-1-557]]. والنص معادلة لا عدد: يساوي بين عمل قصير وعمل طويل، ولا يذكر حسنات تُجمع، ولذلك تعرضه الآلة الحاسبة نتيجة مكتوبة."
+  en: "The Prophet told his Companions that he would recite a third of the Qur'an to them, then recited Surat al-Ikhlas and said that it equals a third of the Qur'an, in Muslim [[passage/muslim-api-1888]] and in the Muwatta [[passage/muwatta-1-557]]. The text is an equation, not a number: it sets a short act equal to a long one and names no good deeds to add up, so the calculator shows it as a written result."
+  ur: "نبی نے اپنے صحابہ کو بتایا کہ وہ انہیں تہائی قرآن سنائیں گے، پھر سورۂ اخلاص پڑھی اور فرمایا کہ یہ تہائی قرآن کے برابر ہے، مسلم میں [[passage/muslim-api-1888]] اور مؤطا میں [[passage/muwatta-1-557]]۔ یہ نص ایک مساوات ہے، عدد نہیں: یہ ایک مختصر عمل کو طویل عمل کے برابر قرار دیتی ہے اور جمع ہونے والی نیکیوں کا ذکر نہیں کرتی، اس لیے کیلکولیٹر اسے لکھا ہوا نتیجہ دکھاتا ہے۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+order: 20
+reckoning:
+  effect: hasanat
+  unbounded: true
+  unit:
+    ar: "لكل قراءة للسورة"
+    en: "per reading of the sura"
+    ur: "سورت کی ہر تلاوت پر"
+  result:
+    ar: "تعدل ثلث القرآن"
+    en: "it equals a third of the Qur'an"
+    ur: "تہائی قرآن کے برابر"
+  basis: [passage/muslim-api-1888, passage/muwatta-1-557]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+- source/hadith-api-fawazahmed0
+- source/muwatta-maruf-1997
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

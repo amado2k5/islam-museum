@@ -1,0 +1,40 @@
+id: dec-20261112-240
+kind: "decision"
+date: "2026-11-12"
+expires_at: "2027-11-12"
+question_hash: 3aa20a2c1f36
+lane: "microsd-books"
+class: "content"
+modality: "repo"
+domain: "dates"
+mode: "conservative"
+question: "Hilyat al-Awliya 9/318 dates a conversation of Ali ibn Bakkar to a year whose units word is garbled in the OCR ('سنة ... ومائتين'), and one narrator's name on the same page is unreadable. Enter a floruit or death date and a reconstructed narrator name on the new record, or enter no date and describe the gap in the prose?"
+options:
+  - "enter no date and no reconstructed name; say in the prose that the units of the year cannot be read and call the narrator 'a narrator'"
+  - "enter the most likely reading as a date with status debated"
+  - "leave the notice unmined until the page image is re-read"
+evidence:
+  - "source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/318"
+  - "AGENTS.md: never invent a date, quote, page number or citation; doubt is unknown"
+status: decided
+step: rule
+decision: "harvest inclusively: any intelligible topic is included, contested windows are included as the speaker said them, opinions/rants are categorised by closest fit, garbled windows are discarded and reported — nothing silently dropped"
+confidence: 0.85
+reversible: true
+rationale: "Answered by a standing repository rule (rule-harvest-include): founder harvest rulings 25 Oct 2026 (docs(harvest) commits)."
+rule: "founder harvest rulings 25 Oct 2026 (docs(harvest) commits)"
+rule_id: "rule-harvest-include"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-harvest-include
+chain:
+  depth: 0
+  root_id: "rule:rule-harvest-include"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "576da99fff5ac1a2"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-harvest-include"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

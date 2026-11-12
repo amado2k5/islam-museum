@@ -1,0 +1,23 @@
+id: passage/tareekh-subh-asha-010
+class: passage
+unit: chapter
+work: work/subh-al-asha
+ref: "121"
+label:
+  ar: "صبح الأعشى — المقريزي — ص 121"
+  en: "صبح الأعشى — المقريزي — p. 121"
+text: "ك، قال : فاكتب لى بذلك، فكتب له : «بسم الله الرحمن الرحيم» «هذا كتاب من محد رسول الله صلى الله عليه وسلم لتميم بن أوس) «الداري ، إن له قرية حبرى وبيت عينون قريتها كلها سهلها وجبلها) «وماءها وحرتها"
+summary:
+  ar: "مقطع من «صبح الأعشى — المقريزي» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «صبح الأعشى — المقريزي» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/subh-al-asha-cairo-v1] }
+  - { type: mentions, target: person/muhammad, sources: [source/subh-al-asha-cairo-v1] }
+provenance:
+  layer: own-research
+  source: "صبح الأعشى — المقريزي ص 121 — مقتطف المكاتبات — tareekh"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-1
+tags: [mukatabat-browser]
+sources: [source/subh-al-asha-cairo-v1]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

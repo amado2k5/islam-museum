@@ -1,0 +1,17 @@
+id: passage/nasai-api-4284
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4284"
+label: { ar: "سنن النسائي 4284 — نقص قيراط من الأجر كل يوم", en: "Sunan al-Nasa'i 4284 — a qirat lost from the reward each day", ur: "سنن نسائی 4284 — ہر روز اجر سے ایک قیراط کی کمی" }
+text: "أَخْبَرَنَا سُوَيْدُ بْنُ نَصْرِ بْنِ سُوَيْدٍ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، - وَهُوَ ابْنُ الْمُبَارَكِ - عَنْ حَنْظَلَةَ، قَالَ سَمِعْتُ سَالِمًا، يُحَدِّثُ عَنِ ابْنِ عُمَرَ، قَالَ قَالَ رَسُولُ اللَّهِ \" مَنِ اقْتَنَى كَلْبًا نَقَصَ مِنْ أَجْرِهِ كُلَّ يَوْمٍ قِيرَاطَانِ إِلاَّ ضَارِيًا أَوْ صَاحِبَ مَاشِيَةٍ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4284، يذكر نقص قيراط من الأجر كل يوم. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 4284 (The Book of Hunting and Slaughtering), that speaks of a qirat lost from the reward each day. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 4284، جس میں ہر روز اجر سے ایک قیراط کی کمی کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4284 (book 42 hadith 22); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

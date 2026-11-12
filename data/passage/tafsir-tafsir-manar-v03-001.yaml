@@ -1,0 +1,24 @@
+id: passage/tafsir-tafsir-manar-v03-001
+class: passage
+unit: chapter
+work: work/tafsir-al-manar
+ref: "270"
+label:
+  ar: "تفسير المنار — محمد عبده ورشيد رضا — ص 270"
+  en: "تفسير المنار — محمد عبده ورشيد رضا — p. 270"
+text: "رقل عاهل الروم كما في رواية البخاري بسم الله الرحمن الرحيم «من محمد عبد الله ورسوله إلى هرقل عظيم الروم. سلام على من أتبع الهدى أما بعد فإني أدعوك بدعاية الإسلام أسلم تسلم يؤتك الله أجرك مرتين فإن توليت فإن"
+summary:
+  ar: "مقطع من «تفسير المنار — محمد عبده ورشيد رضا» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «تفسير المنار — محمد عبده ورشيد رضا» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/tafsir-manar-v03] }
+  - { type: mentions, target: person/heraclius, sources: [source/tafsir-manar-v03] }
+  - { type: mentions, target: person/muhammad, sources: [source/tafsir-manar-v03] }
+provenance:
+  layer: own-research
+  source: "تفسير المنار — محمد عبده ورشيد رضا ص 270 — مقتطف المكاتبات — tafsir"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-2
+tags: [mukatabat-browser]
+sources: [source/tafsir-manar-v03]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

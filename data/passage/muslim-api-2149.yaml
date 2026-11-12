@@ -1,0 +1,17 @@
+id: passage/muslim-api-2149
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2149"
+label: { ar: "صحيح مسلم 2149 — وزر من تبع", en: "Sahih Muslim 2149 — bearing the burden of those who follow", ur: "صحیح مسلم 2149 — پیروی کرنے والوں کا بوجھ" }
+text: "… الْمَيِّتَ يُعَذَّبُ بِبُكَاءِ أَحَدٍ \". وَلَكِنَّهُ قَالَ \" إِنَّ الْكَافِرَ يَزِيدُهُ اللَّهُ بِبُكَاءِ أَهْلِهِ عَذَابًا وَإِنَّ اللَّهَ لَهُوَ أَضْحَكَ وَأَبْكَى وَلاَ تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى \". قَالَ أَيُّوبُ قَالَ ابْنُ أَبِي مُلَيْكَةَ حَدَّثَنِي الْقَاسِمُ بْنُ مُحَمَّدٍ قَالَ لَمَّا بَلَغَ عَائِشَةَ قَوْلُ عُمَرَ وَابْنِ عُمَرَ قَالَتْ إِنَّكُمْ لَتُحَدِّثُونِّي عَنْ غَيْرِ كَاذِبَيْنِ وَلاَ مُكَذَّبَيْنِ وَلَكِنَّ السَّمْعَ يُخْطِئُ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2149، يذكر وزر من تبع. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 2149 (Introduction), that speaks of bearing the burden of those who follow. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 2149، جس میں پیروی کرنے والوں کا بوجھ کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2149 (book 0 hadith 0); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

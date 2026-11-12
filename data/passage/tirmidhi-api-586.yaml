@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-586
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "586"
+label: { ar: "جامع الترمذي 586 — عمل يعدل عملا أعظم منه", en: "Jami' al-Tirmidhi 586 — a deed that equals a greater one", ur: "جامع ترمذی 586 — ایک عمل جو بڑے عمل کے برابر ہے" }
+text: "… اللَّهِ \" مَنْ صَلَّى الْغَدَاةَ فِي جَمَاعَةٍ ثُمَّ قَعَدَ يَذْكُرُ اللَّهَ حَتَّى تَطْلُعَ الشَّمْسُ ثُمَّ صَلَّى رَكْعَتَيْنِ كَانَتْ لَهُ كَأَجْرِ حَجَّةٍ وَعُمْرَةٍ \". قَالَ قَالَ رَسُولُ اللَّهِ \" تَامَّةٍ تَامَّةٍ تَامَّةٍ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ. قَالَ وَسَأَلْتُ مُحَمَّدَ بْنَ إِسْمَاعِيلَ عَنْ أَبِي ظِلاَلٍ فَقَالَ هُوَ مُقَارِبُ الْحَدِيثِ. قَالَ مُحَمَّدٌ وَاسْمُهُ هِلاَلٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 586، يذكر عمل يعدل عملا أعظم منه. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 586 (The Book on Traveling), that speaks of a deed that equals a greater one. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 586، جس میں ایک عمل جو بڑے عمل کے برابر ہے کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 586 (book 6 hadith 43); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

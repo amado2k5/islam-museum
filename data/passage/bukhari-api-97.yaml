@@ -1,0 +1,17 @@
+id: passage/bukhari-api-97
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "97"
+label: { ar: "صحيح البخاري 97 — الأجران", en: "Sahih al-Bukhari 97 — the double reward", ur: "صحیح بخاری 97 — دوہرا اجر" }
+text: "… حَيَّانَ، قَالَ قَالَ عَامِرٌ الشَّعْبِيُّ حَدَّثَنِي أَبُو بُرْدَةَ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ \" ثَلاَثَةٌ لَهُمْ أَجْرَانِ رَجُلٌ مِنْ أَهْلِ الْكِتَابِ آمَنَ بِنَبِيِّهِ، وَآمَنَ بِمُحَمَّدٍ وَالْعَبْدُ الْمَمْلُوكُ إِذَا أَدَّى حَقَّ اللَّهِ وَحَقَّ مَوَالِيهِ، وَرَجُلٌ كَانَتْ عِنْدَهُ أَمَةٌ {يَطَؤُهَا} فَأَدَّبَهَا، فَأَحْسَنَ تَأْدِيبَهَا، وَعَلَّمَهَا فَأَحْسَنَ تَعْلِيمَهَا، ثُمَّ أَعْتَقَهَا فَتَزَوَّجَهَا، فَلَهُ أَجْرَانِ \". ثُمَّ قَالَ عَامِرٌ أَعْطَيْنَاكَهَا …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 97، يذكر الأجران. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 97 (Knowledge), that speaks of the double reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 97، جس میں دوہرا اجر کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 97 (book 3 hadith 39); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
