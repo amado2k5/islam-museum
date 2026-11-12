@@ -802,3 +802,18 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 669 (printed) | 392 | the chain's name "عبد الله بن "خالد" | the quotation mark is a scan artefact | given as Abd Allah ibn Khalid |
 | 669 (printed) | 392 | the words of the condemned man and of the judge | garbled in the scan ("حدا بترس"; "قاض خاكس بسر") | not given; described as unclear |
 | 669 (printed) | 392 | "فلم يربعده" | read as "فلم يبعده" (he was not sent away) | rendered as he was sent to the frontier one day |
+
+## Batch 92 (run microsd-books-b92, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 392 (full text read before writing). New draft: person/raja-ibn-suhayb (printed 670, sequence 671, 10/392). No existing record of the name.
+- The name: the heading reads "رجاء بن صهيب" and the body reads "رجاء بن حسسيب" (the scan's "حسسيب"). The heading reading is used; the body reading is flagged as a probable misprint and not asserted.
+- The place "الجروانى" is not identified; the region is set to persia-central-asia as a likely reading, flagged.
+- Printed 671 (Abd Allah ibn Dawud, "سنديلة") begins at the foot of 10/392 and continues onto 10/393; it is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 92)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 670 (printed) | 392 | the father's name in the body "حسسيب" | the heading reads "صهيب" | heading reading used; flagged |
+| 670 (printed) | 392 | the nisba "الجروانى" | not identified from the text | region set as a likely reading; flagged |
