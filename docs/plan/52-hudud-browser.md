@@ -118,7 +118,7 @@ of the revelation — a recorded judgment call, not a lexical accident.
   SVG). Register rows in `docs/site/browsers.md`, plan index,
   `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`hudud` lane),
   `docs/status.md`, `CANARY.md`.
-- `docs/engineering/39-hudud-browser-requirements.md` — the requirements
+- `docs/engineering/40-hudud-browser-requirements.md` — the requirements
   and production checklist for later validation (`HUD-R..`).
 
 ## 7. Status

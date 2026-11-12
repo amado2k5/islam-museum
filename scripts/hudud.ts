@@ -1,4 +1,4 @@
-// The Hudud Allah and Kaba'ir Browser's shared reads (docs/plan/51-hudud-browser.md): which
+// The Hudud Allah and Kaba'ir Browser's shared reads (docs/plan/52-hudud-browser.md): which
 // passage records mention or carry «حدود الله» — the limits God set and the penalties He
 // prescribed — and «الكبائر», the major sins, and which corpus section each belongs to.
 // Detection runs at build time over the compiled graph, so a hudud or kaba'ir mention in

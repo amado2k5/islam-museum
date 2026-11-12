@@ -1,5 +1,5 @@
 // Writes the Hudud Allah and Kaba'ir Browser's `mentions → concept/hudud-allah-wal-kabair`
-// edges (docs/plan/51-hudud-browser.md) into every passage record the shared detector in
+// edges (docs/plan/52-hudud-browser.md) into every passage record the shared detector in
 // scripts/hudud.ts catches, each citing the passage's own first source — the same pattern
 // the Sayyi'at Browser used for its umbrella concept. Idempotent: a passage already naming
 // the umbrella is skipped.

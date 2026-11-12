@@ -1,4 +1,4 @@
-// The Hudud Allah and Kaba'ir Browser's shared reads (docs/plan/51-hudud-browser.md): every
+// The Hudud Allah and Kaba'ir Browser's shared reads (docs/plan/52-hudud-browser.md): every
 // mention of «حدود الله» — the limits God set and the penalties He prescribed — and
 // «الكبائر», the major sins, in the Qur'an, the hadith reports, the seerah books and every
 // harvested work, plus the curated records, all over the one graph. Passages are found by

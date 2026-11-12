@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import type { Compiled, Node } from "./build-graph.js";
 import { featureApiData } from "./export-api.js";
 import { duaKindOf, duaSignalsOf } from "./dua.js";
+import { ibadatKindOf, ibadatSignalsOf, ibadatTopicsOf } from "./ibadat.js";
 import { sayyiatKindOf, sayyiatSignalsOf } from "./sayyiat.js";
 import { hududKindOf, hududSignalsOf } from "./hudud.js";
 import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
@@ -59,7 +60,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "islamic-economy.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -111,6 +112,37 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(featureApiData(compiled)["duas.json"].feature).toBe("dua-browser");
     expect(duaKindOf(duaHadith as any)).toBe("formula");
     expect(duaSignalsOf(callFp as any)).toEqual([]);
+  });
+
+
+  it("exports ibadat: detected passages by corpus and kind, worship topics, false-god and argument gates, du'a inherited", () => {
+    const salatAyah = makeNode("passage/quran-2-43x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 43, text: "وأقيموا الصلاة وآتوا الزكاة واركعوا مع الراكعين" });
+    const iyyakaAyah = makeNode("passage/quran-1-5x", "passage", { unit: "ayah", work: "work/quran", sura: 1, aya: 5, text: "إياك نعبد وإياك نستعين" });
+    const dhikrHadith = makeNode("passage/muslim-9996", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9996", text: "كان يقول سبحان الله وبحمده مائة مرة" });
+    const duaPassage = makeNode("passage/muslim-9997", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9997", text: "كان يقول: اللهم إني أعوذ بك من العجز والكسل" });
+    const idolsFp = makeNode("passage/quran-7-70x", "passage", { unit: "ayah", work: "work/quran", sura: 7, aya: 70, text: "أتعبدون الأصنام وتتركون ربكم" });
+    const argueFp = makeNode("passage/quran-2-258x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 258, text: "احتج على إبراهيم في ربه" });
+    const futureBook = makeNode("passage/futurebook-2", "passage", { unit: "hadith", work: "work/future-adhkar", ref: "2", text: "قال الشيخ: من قال لا إله إلا الله وحده لا شريك له" });
+    const ibadatPractice = { ...makeNode("practice/salah", "practice", { kind: "practice" }), tags: ["ibadat-browser"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, salatAyah, iyyakaAyah, dhikrHadith, duaPassage, idolsFp, argueFp, futureBook, ibadatPractice] });
+    const items = data["ibadat.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-2-43x");
+    expect(ids).toContain("passage/quran-1-5x");
+    expect(ids).toContain("passage/muslim-9996");
+    expect(ids).toContain("passage/muslim-9997"); // du'a inherited from the Du'a detector
+    expect(ids).toContain("practice/salah");
+    expect(ids).toContain("passage/futurebook-2"); // a book harvested later lands automatically
+    expect(ids).not.toContain("passage/quran-7-70x"); // worship of idols is out of scope
+    expect(ids).not.toContain("passage/quran-2-258x"); // احتجّ is argument, not hajj
+    expect(items.find((i) => i.id === "passage/quran-2-43x")).toMatchObject({ section: "quran", ibadat_kind: "act" });
+    expect(items.find((i) => i.id === "passage/quran-1-5x")).toMatchObject({ section: "quran", ibadat_kind: "act" });
+    expect(items.find((i) => i.id === "practice/salah")).toMatchObject({ section: "curated", ibadat_kind: null });
+    expect(ibadatTopicsOf(salatAyah as any)).toEqual(expect.arrayContaining(["salah", "zakat"]));
+    expect(ibadatTopicsOf(duaPassage as any)).toContain("dua");
+    expect(featureApiData(compiled)["ibadat.json"].feature).toBe("ibadat-browser");
+    expect(ibadatKindOf(iyyakaAyah as any)).toBe("act");
+    expect(ibadatSignalsOf(argueFp as any)).toEqual([]);
   });
 
   it("exports nubuwat: detected passages by corpus and topic, tagged records, ambiguous-form gates", () => {

@@ -4,7 +4,7 @@ _The feature requirements for «متصفح حدود الله والكبائر» 
 Kaba'ir Browser — every mention of the limits of God, the fixed penalties and
 the major sins in the Qur'an, the Sunnah, the seerah, Companion and Tabi'i
 reports and every harvested book), as requested by the founder and delivered
-in `docs/plan/51-hudud-browser.md`. Written so any person or AI agent can
+in `docs/plan/52-hudud-browser.md`. Written so any person or AI agent can
 validate each requirement against production (`https://islam.museum`,
 `https://api.islam.museum`) without reading the plan. Every requirement has
 an id (`HUD-R..`), a "how to check" line, and the artifact that proves it._
@@ -82,7 +82,7 @@ browser and not the sins theme at large — the Sayyi'at Browser owns that.
 |---|---|---|
 | HUD-R40 | `https://api.islam.museum/api/v1/hudud.json` returns every detected + tagged record with `section`, `hudud_kind`, `signals`, `work`, `ref`, `unit`, `text`, `sura`, `aya`, `kind`, `themes`, `tags`, `connections`, `prose` | `curl -s .../hudud.json \| jq '.items \| length'` ≥ 57; `feature: "hudud-browser"`; `section` ∈ {quran,sunnah,seerah,books,curated}; `hudud_kind` ∈ {hudud,kabair,null} |
 | HUD-R41 | Endpoint documented in `docs/data/README.md`, `site/public/openapi/v1.json` (`/hudud.json` path), and `llms.txt` | all three rows exist |
-| HUD-R42 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 51), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`hudud` lane), `docs/status.md`, `CANARY.md`, `docs/plan/51-hudud-browser.md`, this file | all rows present |
+| HUD-R42 | Registered in `docs/site/browsers.md` (feature + export rows), `docs/plan/00-README.md` (plan 52), `docs/plan/06-roadmap.md`, `docs/agents/lanes.md` (`hudud` lane), `docs/status.md`, `CANARY.md`, `docs/plan/52-hudud-browser.md`, this file | all rows present |
 | HUD-R43 | `features-api.test.ts` asserts `hudud.json` in the export set and its detection/classification/exclusion rules | `npm test` green |
 
 ## 5. Governance and delivery
