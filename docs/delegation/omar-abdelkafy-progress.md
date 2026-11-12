@@ -1386,3 +1386,22 @@ Next step: episode 46.
 | Numbers of scenes and percentages on channels and official reports | ep45 00:06:00–00:12:00 | Garbled and unverifiable; the claim is recorded without figures and marked needs_source | Sources policy | Open |
 | Story of Abu Hanifa's parents' marriage | ep45 00:47:30–00:48:00 | Deferred by the lecturer to a coming episode; not told here | Scope | Open |
 | Caller's question on a hadith about one light of means | ep45 00:28:30–00:29:30 | Asked and not answered in the recording | Clarity | Open |
+
+### albuyout-alamena, episode 46 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-34)
+
+Episode 46 read in full (47 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (sweeping claims on men and women, physiological and brain claims, a British statistic and unchained accounts without source, garbled call text).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep46 (the complementarity of the spouses) | about 47 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 13 points | new `about` edges | 13 | 9 needs_source | this PR |
+
+Next step: episode 47.
+
+| Excluded (albuyout-alamena ep46) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae, sponsor and website line | ep46 00:00:00–00:00:30, 00:14:30–00:15:00, 00:26:00–00:26:30, 00:46:30–00:47:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep46 00:04:30–00:05:00, 00:16:00–00:17:00, 00:23:00–00:23:30, 00:34:00–00:34:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private circumstances of callers | ep46 00:27:30–00:41:30 | Kept general | Privacy | Open |
+| Details of a mosque and schedule asked by callers | ep46 00:35:30–00:37:00 | Promotional and private; not lesson content | Content rule | Open |
+| Poetry quoted | ep46 00:09:30–00:10:00 | Not reproduced | Sources policy | Open |
+| Numbers on bodily make-up and crime | ep46 00:13:30–00:15:00, 00:26:30–00:27:30 | Unverifiable and partly garbled; claims recorded without figures and marked needs_source | Sources policy | Open |
