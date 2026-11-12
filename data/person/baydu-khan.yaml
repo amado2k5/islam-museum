@@ -1,0 +1,38 @@
+id: person/baydu-khan
+class: person
+label: { ar: "بيدو", en: "Baydu", ur: "بیدو" }
+names:
+  - { kind: alternate, lang: en, value: "Baydu Khan" }
+  - { kind: alternate, lang: ar, value: "بايدو" }
+summary:
+  ar: "بيدو، خامس الإلخانات المغول في فارس وحفيد هولاكو، حكم بضعة أشهر فقط سنة 694هـ/1295م بعد إسقاط كيخاتو. دخل في مؤامرة أمراء المغول على الإلخان، ثم دعوه إلى العرش، فعارضه ابن عمه غازان. وانتهى الأمر بلا قتال حاسم لصالح غازان بعد إسلامه بمشورة قائده نوروز، وقُتل بيدو في نخجوان وهو يحاول الفرار {cite:encyclopaedia-of-islam-2 vol. 1 p. 1189} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}."
+  en: "Baydu, a grandson of Hulagu, was the fifth Mongol Ilkhan of Persia, reigning only a few months in 694/1295 after Gaykhatu's deposition. He joined the amirs' conspiracy against the Ilkhan and was invited to the throne, where his second cousin Ghazan opposed him. The matter was settled in Ghazan's favour without bloodshed after Ghazan adopted Islam at his general Nawruz's suggestion, and Baydu was put to death at Nakhchiwan while trying to escape {cite:encyclopaedia-of-islam-2 vol. 1 p. 1189} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}."
+  ur: "بیدو ہلاکو کے پوتے اور ایران کے پانچویں منگول ایل خان تھے، اور گیخاتو کی معزولی کے بعد 694ھ/1295ء میں صرف چند ماہ حکمران رہے۔ وہ منگول امیروں کی سازش میں شریک ہوئے اور انہیں تخت کی دعوت دی گئی، مگر ان کے دور کے چچازاد غازان نے مخالفت کی۔ غازان نے اپنے سالار نوروز کے مشورے پر اسلام اختیار کیا تو معاملہ بغیر خونریزی کے غازان کے حق میں طے ہو گیا، اور بیدو نخجوان میں فرار کی کوشش کے دوران مارے گئے {cite:encyclopaedia-of-islam-2 vol. 1 p. 1189} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, levant-iraq]
+faith:
+  - { value: unknown, basis: debated, note: "EI2 says he is said to have favoured Christians, and that according to Bar Hebraeus he was himself a convert; the sentence is cut off in the OCR, so the faith is not stated {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}" }
+died: { edtf: "1295-10-05", hijri: "0694", calendar: julian, precision: day, status: historical, derived: true, note: "Put to death on Wednesday 23 Dhu al-Qa'da, given by EI2 as 5 October 1295 {cite:encyclopaedia-of-islam-2 vol. 1 p. 1189}" }
+relations:
+  - { type: ruler_of, target: polity/ilkhanate, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/gaykhatu, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: opposed, target: person/ghazan-khan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/hulagu, note: "Grandson of Hulagu, founder of the dynasty.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/nakhchivan, sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-3
+  canon: "Encyclopaedia of Islam, 2nd ed., vol. 1, article Baydu (Barthold and Boyle), pp. 1189-1190"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "بيدو حكم أشهراً قليلة فقط ثم خسر أمام ابن عمه غازان."
+  en: "Baydu ruled for only a few months before losing to his cousin Ghazan."
+  ur: "بیدو صرف چند ماہ حکمران رہے اور پھر اپنے چچازاد غازان سے ہار گئے۔"

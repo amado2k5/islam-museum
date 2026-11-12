@@ -1,0 +1,47 @@
+id: person/oljeitu
+class: person
+label: { ar: "أولجايتو", en: "Oljeitu", ur: "اولجایتو" }
+names:
+  - { kind: full, lang: en, value: "Ghiyath al-Din Muhammad Khar-Banda (later Khuda-Banda) Oljeitu Sultan" }
+  - { kind: laqab, lang: ar, value: "غياث الدين محمد خدابنده" }
+  - { kind: alternate, lang: en, value: "Uljaytu" }
+  - { kind: alternate, lang: en, value: "Muhammad Khudabanda" }
+  - { kind: alternate, lang: en, value: "Öljeitü" }
+summary:
+  ar: "أولجايتو غياث الدين محمد خدابنده، ثامن الإلخانات المغول في فارس، حكم من 704 إلى 716هـ، الموافق 1304-1316م. وُلد سنة 680هـ/1282م وكان أخاً لغازان وابناً لأرغون. اتسم عهده بالسلم نسبياً، وبقي رشيد الدين وزيراً فيه، وتنقل في دينه بين النصرانية والبوذية والإسلام السني ثم التشيع، وبنى السلطانية التي ما زال ضريحه قائماً فيها {cite:encyclopaedia-of-islam-2 vol. 8 p. 179} {cite:encyclopaedia-of-islam-2 vol. 8 p. 181}."
+  en: "Oljeitu, Ghiyath al-Din Muhammad Khar-Banda (later Khuda-Banda), was the eighth Mongol Ilkhan of Persia, reigning 704-16/1304-16. Born in 680/1282, he was a son of Arghun and a brother of Ghazan. His reign was unusually peaceful, Rashid al-Din remained wazir, his own religious path ran from Christian baptism through Buddhism and Sunni Islam to Shi'ism, and he completed the new seasonal capital Sultaniyya, where his mausoleum still stands {cite:encyclopaedia-of-islam-2 vol. 8 p. 179} {cite:encyclopaedia-of-islam-2 vol. 8 p. 181}."
+  ur: "اولجایتو، غیاث الدین محمد خربندہ، جو بعد میں خدابندہ کہلائے، ایران کے آٹھویں منگول ایل خان تھے اور 704 سے 716ھ یعنی 1304 سے 1316ء تک حکمران رہے۔ وہ 680ھ/1282ء میں پیدا ہوئے، ارغون کے بیٹے اور غازان کے بھائی تھے۔ ان کا دور نسبتاً پرامن رہا، رشید الدین وزیر رہے، اور ان کا اپنا مذہبی سفر عیسائی بپتسمہ سے بدھ مت، سنی اسلام اور پھر تشیع تک پہنچا؛ انہوں نے سلطانیہ شہر مکمل کرایا جہاں ان کا مقبرہ آج بھی کھڑا ہے {cite:encyclopaedia-of-islam-2 vol. 8 p. 179} {cite:encyclopaedia-of-islam-2 vol. 8 p. 181}."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+faith:
+  - { value: christian, basis: documented, note: "Baptised in infancy with the name Nicholas, in honour of Pope Nicholas IV {cite:encyclopaedia-of-islam-2 vol. 8 p. 181}" }
+  - { value: buddhist, basis: documented, note: "Later became a Buddhist, per EI2 {cite:encyclopaedia-of-islam-2 vol. 8 p. 181}" }
+  - { value: sunni, basis: documented, note: "Became a Sunni Muslim after Ghazan's conversion, dallying with the Hanafi and Shafi'i madhhabs {cite:encyclopaedia-of-islam-2 vol. 8 p. 181}" }
+  - { value: other, basis: documented, note: "EI2 then says he became a Shi'i, without naming a school {cite:encyclopaedia-of-islam-2 vol. 8 p. 181}" }
+born: { edtf: "1282", hijri: "0680", calendar: julian, precision: year, status: historical, derived: true, note: "Born in 680/1282 per EI2 {cite:encyclopaedia-of-islam-2 vol. 8 p. 179}" }
+died: { edtf: "1316", hijri: "0716", calendar: julian, precision: year, status: historical, derived: true, note: "End of the reign 704-16/1304-16 per EI2; the article gives the reign dates and the museum takes the year of death from the end of the reign {cite:encyclopaedia-of-islam-2 vol. 8 p. 179}" }
+relations:
+  - { type: child_of, target: person/arghun-khan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: sibling_of, target: person/ghazan-khan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: ruler_of, target: polity/ilkhanate, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/ghazan-khan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/rashid-al-din-hamadani, note: "Rashid al-Din served as wazir throughout the reign and presented him his history of the Mongols.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/abu-said-ilkhan, note: "His son and successor.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: opposed, target: polity/mamluk-sultanate, note: "Led the last Ilkhanid invasion of Mamluk territory in 712/1312-13, besieging Rahba unsuccessfully.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-3
+  canon: "Encyclopaedia of Islam, 2nd ed., vol. 8, article Oldjeytu, pp. 179 and 181"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "أولجايتو إلخان مغولي تنقل بين أديان كثيرة وبنى مدينة السلطانية."
+  en: "Oljeitu was a Mongol Ilkhan who passed through many faiths and built the city of Sultaniyya."
+  ur: "اولجایتو ایک منگول ایل خان تھے جو کئی مذاہب سے گزرے اور سلطانیہ شہر بنوایا۔"

@@ -1,0 +1,40 @@
+id: person/amalric-i
+class: person
+label: { ar: "مري ملك الفرنج", en: "Amalric I", ur: "امالرک اول" }
+names:
+  - { kind: alternate, lang: ar, value: "مري" }
+  - { kind: alternate, lang: ar, value: "عموري" }
+  - { kind: alternate, lang: en, value: "Amaury" }
+  - { kind: alternate, lang: en, value: "Amalric of Jerusalem" }
+summary:
+  ar: "مري، وهو أمالريك الأول في المصادر اللاتينية، ملك بيت المقدس الفرنجي الذي تولى الملك في ربيع الأول 558هـ/فبراير 1163م بحسب دائرة المعارف الإسلامية. وجّه حملات إلى مصر الفاطمية بين 559 و564هـ/1164 و1168م، وتنافس مع نور الدين محمود على السيطرة عليها، وتحالف مع الوزير شاور، ثم حاصر دمياط سنة 565هـ/1169م دون أن يظفر بها. ويقول ابن الأثير إنه مات في سنة 569هـ وكان أعظم ملوك الفرنج شجاعة ورأياً، وخلفه ابنه المجذوم {cite:encyclopaedia-of-islam-2 vol. 8 p. 141} {cite:kamil-ibn-al-athir p. 68}."
+  en: "Amalric I, called Mari or Amaury in the sources, was the Frankish king of Jerusalem who, according to the Encyclopaedia of Islam, came to the throne in Rabi' I 558/February 1163. He sent armies into Fatimid Egypt between 559/1164 and 564/1168 in rivalry with Nur al-Din Mahmud, allied himself with the vizier Shawar, and besieged Damietta in 565/1169 without taking it. Ibn al-Athir says he died in 569 AH, the bravest and shrewdest of the Frankish kings, and was followed by a leper son {cite:encyclopaedia-of-islam-2 vol. 8 p. 141} {cite:kamil-ibn-al-athir p. 68}."
+  ur: "مری، لاطینی ماخذ میں امالرک اول، فرنگی بیت المقدس کا بادشاہ تھا جو دائرۃ المعارف الاسلامیہ کے مطابق ربیع الاول 558ھ/فروری 1163ء میں تخت نشین ہوا۔ اس نے 559 تا 564ھ/1164 تا 1168ء کے دوران نور الدین محمود کے ساتھ مقابلے میں فاطمی مصر پر لشکر بھیجے، وزیر شاور کا حلیف بنا اور 565ھ/1169ء میں دمیاط کا محاصرہ کیا مگر اسے فتح نہ کر سکا۔ ابن اثیر کے مطابق وہ 569ھ میں فوت ہوا، فرنگی بادشاہوں میں سب سے بہادر اور دانا، اور اس کا جانشین جذام زدہ بیٹا ہوا {cite:encyclopaedia-of-islam-2 vol. 8 p. 141} {cite:kamil-ibn-al-athir p. 68}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile]
+died: { edtf: "1173/1174", hijri: "0569", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn al-Athir places his death at the start of 569 AH {cite:kamil-ibn-al-athir p. 68}; EI2 dates the death of Nur al-Din in 569/1174 {cite:encyclopaedia-of-islam-2 vol. 8 p. 482}. The Gregorian year is therefore kept as a two-year range. EI2 gives no death date for Amalric himself.", sources: [source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2] }
+story_roles:
+  - { role: ruler, toward: place/jerusalem, start: { edtf: "1163-02", hijri: "0558-03", calendar: julian, precision: month }, end: { edtf: "1173/1174", hijri: "0569", calendar: julian, precision: year }, status: historical, note: "King of the Franks of Jerusalem; accession in Rabi' I 558/February 1163 {cite:encyclopaedia-of-islam-2 vol. 8 p. 141}.", sources: [source/encyclopaedia-of-islam-2, source/kamil-ibn-al-athir] }
+  - { role: military-opponent, toward: person/nur-al-din-mahmud-ibn-zangi, start: { edtf: "1164", hijri: "0559", calendar: julian, precision: year }, end: { edtf: "1169", hijri: "0564", calendar: julian, precision: year }, status: historical, note: "Rival for control of Egypt {cite:encyclopaedia-of-islam-2 vol. 11 p. 470}.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: ruler_of, target: place/jerusalem, start: { edtf: "1163-02", hijri: "0558-03", calendar: julian, precision: month }, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: allied_with, target: person/shawar, note: "Shawar asked for Amalric's intervention against Shirkuh's forces; the two had been allies before the Frankish army encamped near Cairo in 564 {cite:encyclopaedia-of-islam-2 vol. 1 p. 216} {cite:encyclopaedia-of-islam-2 vol. 2 p. 1001}.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: fought, target: person/asad-al-din-shirkuh, note: "Armies of Amalric and of Shirkuh entered Egypt three times between 559/1164 and 564/1168 {cite:encyclopaedia-of-islam-2 vol. 11 p. 470}.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: opposed, target: person/nur-al-din-mahmud-ibn-zangi, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/siege-of-damietta-1169, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/fustat-burning-cairo-564, sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., passages naming Amalric in the articles Dirgham, Fatimids, Dimyat, Nur al-Din, Shawar and Sinan; Ibn al-Athir al-Kamil as recorded in event/death-of-amalric-569. EI2 has no article of its own on Amalric"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-3
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 1 p. 216; vol. 2 pp. 317, 343, 893-895, 1001; vol. 8 pp. 141-143, 482; vol. 11 p. 470"
+sources: [source/encyclopaedia-of-islam-2, source/kamil-ibn-al-athir]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "مري كان ملك القدس عند الفرنج، وحاول أكثر من مرة أن يدخل مصر لكنه لم ينجح."
+  en: "Amalric was the Frankish king of Jerusalem; he led armies into Egypt several times but never held it."
+  ur: "امالرک بیت المقدس کا فرنگی بادشاہ تھا، اس نے کئی بار مصر میں لشکر بھیجے مگر اسے قبضے میں نہ رکھ سکا۔"
