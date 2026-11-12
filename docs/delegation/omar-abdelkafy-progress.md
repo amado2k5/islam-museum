@@ -521,6 +521,7 @@ Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan progra
 | tariq-al-noor ep19-ep21 (hope and mercy; kindness to parents; guarding the tongue) | ar, en, ur: series record extended with 3 episode sections (30 points) | 10 new `about` edges (116 in total) | needs_source on the identity of Muhammad al-Ghazali, Anas, the Abu Nuwas, Umar and Abu Bakr narratives, the absolute ruling on the dutiful and disobedient child, the survey figure | omar-abdelkafy-tariq-al-noor-6 |
 | tariq-al-noor ep22-ep24 (silence; knowledge gatherings; trial and contentment) | ar, en, ur: series record extended with 3 episode sections (21 points) | 11 new `about` edges (127 in total) | needs_source on the listening-ratio statistic and unstable word counts (ep22), the Friday-sermon scholars claim, the cosmetic-clinic figure and the seven benefits attributed to al-Hasan (ep23), the Job and David narratives (ep24) | omar-abdelkafy-tariq-al-noor-7 |
 | tariq-al-noor ep25-ep27 (signs of happiness; what blocks answered prayer; poverty not feared for the community) | ar, en, ur: series record extended with 3 episode sections (22 points) | 7 new `about` edges (134 in total) | needs_source on the Hasan al-Basri and Umar narratives (ep25), the Hatim al-Asamm and Joseph accounts and the war-death figure (ep27), the identification of Abu Hazim and the caliph (ep27) | omar-abdelkafy-tariq-al-noor-8 |
+| tariq-al-noor ep28-ep30 (what lets light into the heart; the three loved and the three disliked; the month's harvest and closing) | ar, en, ur: series record completed with 3 episode sections (23 points); all 30 episodes now written | 9 new `about` edges (143 in total) | needs_source on the inkwell account (ep28), Abu Dharr's saying (ep28), the four marks of piety attributed to Ali (ep29), the Dubai channel name (ep30) | omar-abdelkafy-tariq-al-noor-9 |
 
 | Excluded (tariq-al-noor ep01-ep04) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
@@ -727,3 +728,12 @@ Next step: episode 14. Sensitivity: ep12 and ep13 hold the lecturer's views on w
 | A caller's question on a sensitive family matter involving a child's parentage, and the question about a will on a house | ep12 00:41:30–00:43:30 | Private and sensitive personal detail about identifiable people, partly garbled | Privacy; clarity | Open |
 | Calls and answers too garbled to read | ep12 00:27:30–00:30:00 in part, 00:33:00–00:36:00 in part; ep13 00:35:00–00:36:00, 00:38:30–00:40:00 | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
 | Fiqh questions the lecturer refers elsewhere (interest-bearing loan, wide trousers, hijab detail, will of a house) | ep12 00:36:00, 00:39:00; ep13 00:36:00 | Referred to fatwa programmes | Scope | Open |
+
+| Excluded (tariq-al-noor ep28-ep30) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, closing formulae | ep28 00:00:00, 00:08:30-00:09:30; ep29 00:00:00, 00:09:30-00:10:00; ep30 00:08:00-00:08:30, 00:09:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep29 00:02:00; ep30 00:03:00 (inner) | Not speech | Loop check | Open |
+| Passage on political parties and the grave | ep28 00:05:30-00:06:00 | Partly garbled; only the clear point kept | Clarity | Open |
+| Remark on a poor sibling and a rich sibling's duty to spend | ep29 00:08:00-00:08:30 | Partly garbled | Clarity | Open |
+
+Series status: `tariq-al-noor` is complete (30 of 30 episodes written, draft). Open items for review: the listed `needs_source` marks and a listen-check of the passages flagged garbled.
