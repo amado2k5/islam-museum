@@ -757,3 +757,20 @@ Note: the chapter note does not name any subject for these stories; the chains a
 |---|---|---|---|---|
 | 665 (printed) | 390 | the nisba "الضي" | read as "الضبي" | given as al-Dabbi |
 | 665 (printed) | 390 | the dream's wording "رؤى في المنام" | the dream report is the transmitter's report | stated as reported by Abu Muhammad ibn Hayyan |
+
+## Batch 89 (run microsd-books-b89, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 390–392 (full text read before writing).
+- Printed 666: HELD. The heading reads "محمد بن الوليد الأموي، من أهل المدينة، سمع سفيان بن عيينة" (Muhammad ibn al-Walid al-Umawi of Medina, heard Sufyan ibn Uyayna) and ends on page 390; page 391 begins mid-sentence with "بعيد من الأبدال. له الدعوة المجابة" (far from the substitutes; his prayer is answered). The scan omits everything between the two. The heading also reads as Muhammad ibn al-Walid, not "Muhammad ibn Ali" as the coordinator's message had it. Nothing is written for 666 until the page image or a second scan supplies the missing text.
+- Printed 667 (Muhammad ibn al-Nu'man ibn Abd al-Salam, pages 391): new record person/muhammad-ibn-al-numan-ibn-abd-al-salam (sequence 668, 10/391). Trilingual draft. No existing record of the name.
+- Next: printed 668 (Abd Allah ibn Khalid, on 392) is next, after 667. Printed 668 in the scan is "صالح بن مهران" on 391 (the heading "٦٦٨" is Salih ibn Mihran, who is in the scan at 391 and follows 667); so the next to read is Salih ibn Mihran (printed 668), and then Abd Allah ibn Khalid (printed 669, 392).
+- Printed 532 and 546 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 89)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 666 (printed) | 390–391 | the whole middle of the notice | the scan omits the text between "سمع سفيان بن عيينة" and "بعيد من الأبدال" | HELD; nothing invented |
+| 667 (printed) | 391 | "تفابد أهل أصبهان" (Zayd ibn Akhram's epithet) | garbled in the scan | not given |
+| 667 (printed) | 391 | "تقتصدق" in the saying on the dirham | garbled in the scan | the first saying is given; the garbled one is not |
+| 667 (printed) | 391 | "المصر لا يقبل له حمل" | unclear in the scan | not given |
