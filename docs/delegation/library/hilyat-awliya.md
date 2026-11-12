@@ -485,3 +485,19 @@
 | 524 (printed) | 157 | the name of the man who brought the letter ("واضحا") | read as Wadih, a client of Ibrahim; the spelling is uncertain | given as Wadih, flagged for revision |
 | 524 (printed) | 156 | "إبراهيم بن سعد العلوي" | the nisba is read as "العلوي" | given as read; the record uses the name only |
 | 524 (printed) | 157 | the claim that the letter is Ibrahim's own words | the letter is attributed by the report to Ibrahim | the attribution is stated as the report's, not as a verified text |
+
+## Batch 70 (run microsd-books-b70, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 158–159 (full text read before writing). Decision applied (coordinator's ruling on the two flags from batch 69):
+  - Printed 525 (Abu Muhriz) is the same person as notice 491 (Abu Mahriz al-Tufawi): the saying names "قال أبو محرز الطفاوي" and the chain is Muhammad ibn al-Husayn al-Barjalani, Awn ibn Hamara, Abu Bakr ibn Ubayd, the same as 491. It is a different notice, so it is added to person/abu-mahriz-al-tufawi as a second sourced notice (10/158–159), in all three languages. No new record was created.
+  - The heading "٥٣٧" on page 159 (printed 527, sequence 528) is Miskin ibn Ubayd al-Sufi, the same person as notice 487, with a different saying (two kinds of sorrow, transmitted through al-Mutawakkil from Ibrahim ibn Adham). It is not the same notice as 487, so it is added to person/miskin-al-sufi as a second sourced notice (10/159), in all three languages. No duplicate notice was written.
+- Printed sequence note: 525 is sequence 526; 527 (Miskin) is sequence 528; the printed number 526 has no heading in the OCR and is noted as missing.
+- The opening of the Abu Muhriz saying is not in the scan (the page turns on "وشح عليك"); the prose says so.
+
+## Exclusions and garbled readings (batch 70)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 525 (printed) | 158–159 | the opening words of the saying | the scan resumes at "وشح عليك" after the page turn | the opening is not given; the prose flags it |
+| 525 (printed) | 159 | the footnote "(١)" | an editorial note in the edition | not reproduced |
+| 527 (printed as 537) | 159 | the heading number | misprinted as "537" | read as 527 by sequence; flagged |
+| 526 (printed) | — | no heading | none in the OCR of pages 158 to 159 | recorded as missing; no record made |
