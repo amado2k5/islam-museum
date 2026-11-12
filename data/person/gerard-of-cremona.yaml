@@ -1,0 +1,37 @@
+id: person/gerard-of-cremona
+class: person
+label: { ar: "جيرارد الكريموني", en: "Gerard of Cremona", ur: "جیرارڈ آف کریمونا" }
+names:
+  - { kind: latinized, lang: la, value: "Gerardus Cremonensis" }
+summary:
+  ar: "جيرارد الكريموني عالم إيطالي عاش نحو 1114 إلى 1187م، وعدّته دائرة المعارف الإسلامية من قادة حركة الترجمة من العربية إلى اللاتينية في القرن الثاني عشر، وتقول إنه يُنسب إليه نقل أكثر من سبعين عملاً. ومن المترجَمات التي تذكرها: أصول إقليدس بشرح النيريزي، وإحصاء العلوم للفارابي، وجبر الخوارزمي، وقانون ابن سينا، ومنصوري الرازي، وزيج ابن معاذ الجياني {cite:encyclopaedia-of-islam-2 vol. 7 p. 792} {cite:encyclopaedia-of-islam-2 vol. 2 p. 386}."
+  en: "Gerard of Cremona was an Italian scholar who lived from about 1114 to 1187, and the Encyclopaedia of Islam counts him among the leaders of the twelfth-century movement translating from Arabic into Latin, saying he is credited with more than seventy works. Among the translations it names are Euclid's Elements with al-Nayrizi's commentary, al-Farabi's Survey of the Sciences, al-Khwarizmi's algebra, Ibn Sina's Canon, al-Razi's Mansuri and the Jaen tables of Ibn Mu'adh {cite:encyclopaedia-of-islam-2 vol. 7 p. 792} {cite:encyclopaedia-of-islam-2 vol. 2 p. 386}."
+  ur: "جیرارڈ آف کریمونا ایک اطالوی عالم تھے جو تقریباً 1114ء سے 1187ء تک زندہ رہے؛ دائرۃ المعارف الاسلامیہ انہیں بارہویں صدی میں عربی سے لاطینی ترجمے کی تحریک کے رہنماؤں میں شمار کرتا ہے اور کہتا ہے کہ ستر سے زیادہ کتابوں کا ترجمہ ان سے منسوب ہے۔ جن تراجم کا ذکر ہے ان میں نیریزی کی شرح کے ساتھ اقلیدس کے اصول، فارابی کی احصاء العلوم، خوارزمی کی الجبر، ابن سینا کا القانون، رازی کی المنصوری اور ابن معاذ کے جیان کے جدول شامل ہیں {cite:encyclopaedia-of-islam-2 vol. 7 p. 792} {cite:encyclopaedia-of-islam-2 vol. 2 p. 386}."
+gender: male
+roles: [translator, scientist]
+wings: [people]
+themes: [translation-and-transmission, mathematics, astronomy-and-timekeeping]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+born: { edtf: "1114~", calendar: julian, precision: year, status: tradition, derived: false, note: "Given as ca. 1114 in the Encyclopaedia of Islam, article al-Djabr wa'l-muqabala, vol. 2 p. 386, and as 1114 in the article Mustashrikun, vol. 7 p. 792; the place of birth is not stated beyond the name." }
+died: { edtf: "1187", calendar: julian, precision: year, status: tradition, derived: false, note: "Given as 1187 in the Encyclopaedia of Islam, vol. 2 p. 386 and vol. 7 p. 792." }
+relations:
+  - { type: related_to, target: person/al-nayrizi, note: "Translated al-Nayrizi's commentary on Euclid's Elements.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-farabi, note: "Translated al-Farabi's Survey of the Sciences.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-khwarizmi, note: "Made a second Latin translation of the first part of al-Khwarizmi's algebra.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/ibn-sina, note: "Translated the Canon of medicine.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-razi-abu-bakr, note: "Translated al-Razi's medical handbook the Mansuri.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-farghani, note: "Translated al-Farghani's astronomical compendium into Latin, as John of Seville also did.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed.: Mustashrikun, al-Djabr wa'l-muqabala, Uklidis, al-Farabi, Ibn Sina, al-Razi, Misaha, al-Riyadiyyat and other articles"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-2
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 7 (Mustashrikun, PDF p. 792), vol. 2 (al-Djabr wa'l-muqabala PDF p. 386; al-Farabi PDF pp. 811, 823), vol. 10 (Uklidis, PDF p. 847), vol. 3 PDF pp. 977, 994, vol. 8 PDF pp. 516, 601, vol. 11 PDF p. 521"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "جيرارد الكريموني ترجم عشرات الكتب العربية إلى اللاتينية، فقرأها علماء أوروبا."
+  en: "Gerard of Cremona translated dozens of Arabic books into Latin so that scholars across Europe could read them."
+  ur: "جیرارڈ آف کریمونا نے درجنوں عربی کتابوں کا لاطینی میں ترجمہ کیا تاکہ یورپ کے عالم انہیں پڑھ سکیں۔"

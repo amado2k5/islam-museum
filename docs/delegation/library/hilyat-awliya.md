@@ -232,3 +232,32 @@
 | Notice | Page | Passage | Reason | Handling |
 |---|---|---|---|---|
 | 485 | 136 | the last word of Mada's question and answer, read in the scan as "الأأس" | unclear in the scan; "الأنس" (intimacy) fits the answer | given as "intimacy"; the prose says the word is unclear in the scan |
+
+## Batch 50 (run microsd-books-b50, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 136–137 (full text read before writing). New drafts: person/miskin-al-sufi (487, 10/136–137), person/abu-ayyub-mawla-bani-hashim (488, 10/137). Notice 489 (Abu Abd Allah al-Barani) begins on 10/137 and continues onto 10/138; it is next.
+- An early draft of 488 rendered the saying on the lamps of admonition more freely than the scan allows; it was corrected before commit, and the regenerated output was checked for ellipses and honorifics.
+
+## Exclusions and garbled readings (batch 50)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 488 | 137 | the bracketed clause "ومن أنار اللّٰه قلبه بضوء مصابيح العبر..." | the edition marks it as an addition from another manuscript (footnote "زيادة من مغ") and the scan is unclear | not rendered; the prose says so |
+| 488 | 137 | the sentence after "ومن لم يملها لم تطفأ مصابيح عبره" | unclear in the scan ("يملها") | not rendered; the prose says so |
+
+## Batch 51 (run microsd-books-b51, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 137–138 (full text read before writing). New draft: person/abu-abd-allah-al-barani (489, 10/137–138). Notice 490 (Ahmad ibn Musa al-Thaqafi, with a poem) begins on 10/138 and is next.
+
+## Exclusions and garbled readings (batch 51)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 489 | 138 | the transmitter's name after "قال حدثني" ("حكيم بن جمة" in the scan) | unclear in the scan | given as the context reads it; the prose says so |
+
+## Batch 52 (run microsd-books-b52, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 p. 138 (full text read before writing). New draft: person/ahmad-ibn-musa-al-thaqafi (490, 10/138). Notice 491 (Abu Mahriz al-Tufawi) begins on 10/138 and is next.
+
+## Exclusions and garbled readings (batch 52)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 490 | 138 | the verses on the fool, the palace and the slave-women | several words garbled in the scan ("بدافوق السرير", "وادرما هي") | the verses are described, not quoted; garbled words are not given |

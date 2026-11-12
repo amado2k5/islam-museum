@@ -1,12 +1,56 @@
 ---
 id: concept/jinn
 lang: en
-source_lang: ar
-translators: ["Devin (SWE-2 Medium), draft translation"]
+source_lang: en
+translators: []
 ---
 
 ## Overview
 The jinn in Islamic conception are a hidden, accountable creation; Ibn Kathir reports they inhabited the earth before mankind, and that among them are disbelievers and Muslims {cite:tafsir-ibn-kathir}.
+
+The Encyclopaedia of Islam, whose article on the djinn this page also follows, describes them according to Muslim belief as bodies of vapour or flame, intelligent, imperceptible to human senses, able to take different forms and to carry out heavy labours. {cite:encyclopaedia-of-islam-2 vol. 2 p. 573} {cite:encyclopaedia-of-islam-2 vol. 2 p. 574} It arranges the subject under three heads that, it says, shade into one another: the jinn of pre-Islamic Arabia, the jinn in official Islam, and the jinn in folklore. Later sections add Turkish, Indian and Indonesian material. {cite:encyclopaedia-of-islam-2 vol. 2 p. 574}
+
+## Nature and status
+The article says the jinn were created from smokeless flame, while humankind and the angels, the other two intelligent kinds, were made of clay and of light. They are capable of salvation: Muhammad was sent to them as well as to people, and some will enter Paradise while others will be cast into hell. {cite:encyclopaedia-of-islam-2 vol. 2 p. 574}
+
+Their relation to Iblis and to the devils in general is, the article says, obscure. One Qur'anic passage describes Iblis as a jinni and another as an angel, which has produced much confusion and many competing theories, discussed by commentators such as al-Baydawi and al-Razi. {cite:encyclopaedia-of-islam-2 vol. 2 p. 574}
+
+On the word itself, the article notes that Arab lexicographers derive it from a root meaning to be hidden, but finds this etymology very difficult and does not exclude a borrowing from Latin genius. It sees in an old Roman phrase for the natural god of each place an exact description of how the jinn were tied to particular localities, and of their standing as semi-divine beings in old Arabia. The singular is jinni, and ghul, ifrit and si'lat are named as classes of jinn. {cite:encyclopaedia-of-islam-2 vol. 2 p. 574}
+
+## The jinn in pre-Islamic Arabia
+According to the article, in pre-Islamic Arabia the jinn were the nymphs and satyrs of the desert, standing for the side of nature that was still unsubdued and hostile to people. By the time of Muhammad they were already passing into vague, impersonal gods. The article reports that the Arabs of Mecca asserted a kinship between the jinn and God, made them his companions, offered sacrifices to them and sought their help. {cite:encyclopaedia-of-islam-2 vol. 2 p. 574}
+
+## The jinn in official Islam
+In official Islam, the article says, the existence of the jinn was fully accepted, as it still is, and the consequences were worked out: their legal status in all respects was discussed and fixed, and the possible relations between them and humans, especially in marriage and property, were examined. Stories of love between jinn and humans were of lasting interest; the [[work/al-fihrist|Fihrist]] gives the titles of sixteen of them, and they appear in the collections of short tales. There are also many stories of relations between saints and jinn. The article names a summary of the question by al-Shibli, who died in 769/1368, in a work on the rulings concerning the jinn. {cite:encyclopaedia-of-islam-2 vol. 2 p. 574}
+
+On doubt, the article says that few even among the [[group/mutazila|Mu'tazila]] ventured to question the existence of the jinn, their nature or their influence on the material world. Earlier philosophers, even [[person/al-farabi|al-Farabi]], tried to avoid the question through ambiguous definitions, while [[person/ibn-sina|Ibn Sina]], in defining the word, asserted flatly that there was no reality behind it. Later philosophers who were believers used exegetical and metaphysical devices; [[person/ibn-khaldun|Ibn Khaldun]], for example, counted every reference to the jinn among the Qur'anic passages whose knowledge God has kept for himself. {cite:encyclopaedia-of-islam-2 vol. 2 p. 574}
+
+## Magic and the jinn
+The article treats magic as the bridge to folklore. Muslim theology has always admitted that the jinn are used in [[concept/sihr|magic]], though it has judged the lawfulness of this in different ways. The Fihrist, the article says, traces both the approved and the disapproved kinds back to ancient times and gives Greek, Harranian, Chaldean and Indian sources. In the author's day, books on binding the jinn to the service of talismans were an important part of popular literature. {cite:encyclopaedia-of-islam-2 vol. 2 p. 574}
+
+## The jinn in folklore
+In popular stories, as distinct from the tales of professed men of letters, the jinn play a large part, above all in the [[work/alf-layla-wa-layla|Thousand and One Nights]]. The article describes the jinni there as often turning against a human out of spite: roaming the world by night, carrying a man great distances so that he loses his way, or changing him into an animal. Yet the same jinni sometimes restores the human form, protects a man wronged by another, teaches how to free a person possessed by another jinni through exorcism, or joins with fairies in doing good. A human can also defend himself by cunning, as the fisherman who shuts a jinni in a jar does, and sometimes a person harms the jinn without intending to. {cite:encyclopaedia-of-islam-2 vol. 2 p. 574}
+
+The article adds that in orally collected fairy stories the folklore of the different peoples overcomes the common Muslim atmosphere, and that these tales are more characteristic of North Africa, Egypt, Syria, Persia and Turkey than of Arabia or of Islam itself. Popular beliefs have points of contact with the official view: in Egyptian belief a man who dies violently may become an ifrit and haunt the place of his death, while in the teaching of the schools a man who dies in grave sin may be changed into a jinni in the world of [[concept/al-barzakh|al-Barzakh]]. {cite:encyclopaedia-of-islam-2 vol. 2 p. 574}
+
+## Turkish folk belief
+A section by P. N. Boratav records Turkish belief. Places said to be frequented by jinn, always at night, include mills, public baths, ruins, abandoned houses, cemeteries, deserted inns and the foot of large trees. In [[place/istanbul|Istanbul]] local tradition names a number of such places, and the home of the king of the sea jinn is said to lie off Leander's Tower in the Bosphorus. Precautions are also taken in the daytime near latrines, rubbish corners and dark enclosed spaces in houses. {cite:encyclopaedia-of-islam-2 vol. 2 p. 575}
+
+Jinn are said to appear as animals, such as a black cat, a goat, a black dog, a duck, a hen with chicks, a buffalo or a fox, or as people, whether of ordinary size, dwarfs or giants, or as a swaddled baby. Among the Africans of Turkey the snake is thought to be an animal in which jinn are embodied. Their conduct toward people is of three sorts: if people know how to avoid irritating them, they do no harm; those they favour are rewarded, in stories often with onion and garlic peel that turns to gold and silver; and the imprudent and insolent are punished with illnesses such as paralysis and twisted limbs. They may also wreck marriages, whether because a person has annoyed a jinni or because a jinni loves that person as a spouse. {cite:encyclopaedia-of-islam-2 vol. 2 p. 575} {cite:encyclopaedia-of-islam-2 vol. 2 p. 576}
+
+Precautions that anyone may take include avoiding the places jinn frequent, never fouling them, and saying the opening formula of God's name, or a word asking permission, before each action, so that the jinn may not consume what is stored. In serious cases a specialist is called, a hodja, a shaykh or an ordinary person initiated to the jinn, who is thought to have them as servants. The exorcist, called a captor of a jinni, invokes the jinni held responsible and negotiates with apologies or threats for the victim's release. The article notes that before 1920, especially in Istanbul and Izmir, Africans of Turkey formed guilds of exorcists under spiritual leaders, whose cures were also acknowledged by the wider population. {cite:encyclopaedia-of-islam-2 vol. 2 p. 576}
+
+## Jinn in India
+K. A. Nizami's section distinguishes three Indian conceptions.
+
+The traditional account, based on literal readings of the Qur'anic verses, holds the jinn to be creatures of fire, invisible and airy, a view the article says almost all Indian exegetes shared. One scholar, Inayat Ali, is reported to list four types: airy creatures without physical form, snake-like creatures, those who will undergo the same divine reckoning as humans, and creatures with animal features. Some jurists, while believing in their supernatural nature, dealt with hypothetical questions of human marriage with them. {cite:encyclopaedia-of-islam-2 vol. 2 p. 576}
+
+The popular conception holds them to be invisible and powerful, organised under a king, and the article says this was common even in educated circles in the Middle Ages. In the time of [[person/iltutmish|Iltutmish]], an area near the Hawd-i Shamsi of [[place/delhi|Delhi]] was reputed to be their abode, and a guest house he built was called the house of the jinn. A shaykh of Delhi lodged the saint Jalal al-Din Tabrizi there to test his spiritual powers, and the saint sent a servant to place a copy of the Qur'an in the house before entering. The article says this gave rise to the custom of placing a copy of the Qur'an in a new house before it is occupied. Because the jinn were believed able to harm people, religious writers dealt with incantations against them, and [[person/shah-waliullah-al-dahlawi|Shah Wali Allah]] suggested methods of expelling them from houses. {cite:encyclopaedia-of-islam-2 vol. 2 p. 576}
+
+The rationalist conception was attempted by [[person/syed-ahmad-khan|Sayyid Ahmad Khan]], who sought to remove from it all supernatural and superstitious elements. He held that the Qur'an means by the word the Bedouin and other uncultured people, and that the phrase jinn and mankind, which occurs fourteen times, means the uncultured and the cultured. Differing contexts, he explained, refer to different qualities of these people. The article says his view was criticised, but the scanned text breaks off here and the critics are not named. {cite:encyclopaedia-of-islam-2 vol. 2 p. 576}
+
+## Indonesia
+P. Voorhoeve's section says the Arabic word reached Indonesian Muslims through Arabic literature and entered several languages, including Malay, Javanese, Minangkabau and Acehnese, and even the literary language of the non-Muslim Batak. Malays use it as a polite equivalent for the word for an evil spirit. The rest of the section is cut off in the scan and is not summarised here. {cite:encyclopaedia-of-islam-2 vol. 2 p. 576} {cite:encyclopaedia-of-islam-2 vol. 2 p. 577}
 
 ## In the sources
 Ibn Kathir transmits that the jinn were on the earth before Adam's creation, and that Iblis was of them {cite:tafsir-ibn-kathir}.

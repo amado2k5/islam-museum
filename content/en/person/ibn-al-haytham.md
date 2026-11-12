@@ -1,16 +1,43 @@
 ---
 id: person/ibn-al-haytham
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 status: { review: published }
 provenance: { generated_by: "Claude Haiku 5.5 (library-expansion); Copilot SDK in VS Code extension", model: "claude-haiku-5-5; unknown for extension", run: "inventions-p3-b36", source: "Original Manazir account/translation attribution retained; Arabic dates/volume-method extension from TDV and selected Katz/Bressoud", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b50", source: "English of new Arabic circular-reflection section; all previous body/front matter and attribution retained." }] }
 ---
-## Summary
-Al-Hasan ibn al-Haytham, an Arab scholar of mathematics and physics, known for his book [[work/kitab-al-manazir|Kitab al-Manazir]] on [[concept/optics|optics]]. The editor of the book's edition describes him as having lived in the fifth century AH, and holds that his book is the most valuable thing Arab scholars produced in physics {cite:manazir-sabra-1983 p.9}.
+## Overview
+Al-Hasan ibn al-Haytham, an Arab scholar of mathematics and physics, is known for his book [[work/kitab-al-manazir|Kitab al-Manazir]] on [[concept/optics|optics]]. The editor of the book's edition describes him as having lived in the fifth century AH, and holds that his book is the most valuable thing Arab scholars produced in physics {cite:manazir-sabra-1983 p.9}.
+
+The Encyclopaedia of Islam gives his full name as Abu Ali al-Hasan, or Husayn, ibn al-Haytham al-Basri al-Misri. Towards the end of the nineteenth century he was identified with the Alhazen, Avennathan or Avenetan of medieval Latin texts. The article counts him among the principal Arab mathematicians and calls him, without any doubt, the best physicist {cite:encyclopaedia-of-islam-2 vol. 3 p. 820}.
+
+## Life
+The article stresses that his biography has numerous gaps. He was born at [[place/basra|Basra]] around 354 AH/965 {cite:encyclopaedia-of-islam-2 vol. 3 p. 820}. During the reign of the Fatimid caliph [[person/al-hakim-bi-amr-allah|al-Hakim]], 386 to 411 AH/996 to 1021, he went to Egypt and tried to regulate the flow of the Nile. He gave up the task when he realised it was impossible, despite his fear of the caliph's anger {cite:encyclopaedia-of-islam-2 vol. 3 p. 820}.
+
+After the caliph's death he returned to [[place/cairo|Cairo]], where he earned his living by copying scientific manuscripts, particularly mathematical ones. The article gives his death as 430 AH/1039 {cite:encyclopaedia-of-islam-2 vol. 3 p. 820}.
 
 ## Dates of his life
-TDV gives birth around354 AH/965 and discusses differing death reports, including an autograph dated432 AH/1040; the reports are not collapsed into a single certain date {cite:tdv-ibnul-heysem pp.82–87}. Approximate data dates remain; an activity century does not precisely date every treatise.
+TDV gives birth around354 AH/965 and discusses differing death reports, including an autograph dated432 AH/1040; the reports are not collapsed into a single certain date {cite:tdv-ibnul-heysem pp.82–87}. Approximate data dates remain; an activity century does not precisely date every treatise. The Encyclopaedia of Islam gives 430 AH/1039 for his death, a year that differs from the autograph date TDV reports {cite:encyclopaedia-of-islam-2 vol. 3 p. 820}.
+
+## Writings
+His writings number more than a hundred titles, which [[person/ibn-abi-usaybia-ahmad|Ibn Abi Usaybi'a]] listed. Most, some of them very short, deal with mathematics and physics, though he also wrote on philosophical and medical subjects. Throughout them the article sees his deep knowledge of the Greek authors, notably Ptolemy, whom he edited, studied and criticised {cite:encyclopaedia-of-islam-2 vol. 3 p. 820}.
+
+Among the works the article names as best known is a treatise on finding the direction of the [[concept/qibla|qibla]], in which he is said to have established a cotangent theorem {cite:encyclopaedia-of-islam-2 vol. 3 p. 820}. It also lists a treatise on the light of the moon, important for its ideas on light, colours and the movements of the heavens; treatises on burning mirrors, including parabolic ones; a treatise on the form of eclipses; and a work on the shadows. Others cover place, the knowns, squaring the circle and the measurement of a paraboloid solid. A treatise on twilight and the rising of clouds survives in the Latin translation of Gerard of Cremona {cite:encyclopaedia-of-islam-2 vol. 3 p. 820} {cite:encyclopaedia-of-islam-2 vol. 3 p. 821}.
+
+One short treatise shows that, of two regular polygons inscribed in the same circle, the one with more sides has both the larger surface and the larger perimeter {cite:encyclopaedia-of-islam-2 vol. 3 p. 820}. Another, on the form of an eclipse, is described as the first to set out the use of the camera obscura for observing solar eclipses {cite:encyclopaedia-of-islam-2 vol. 3 p. 821}. The article also mentions an astronomical work which, it says, strongly influenced later writers including [[person/ibn-rushd|Averroes]], [[person/al-jaghmini-mahmud-ibn-muhammad-ibn-umar|al-Jaghmini]], al-Qazwini and Peurbach; the title of that work is unreadable in the scanned text {cite:encyclopaedia-of-islam-2 vol. 3 p. 820}.
+
+## The Optics and the problem named after him
+The article lists the Kitab al-Manazir among his best-known works. [[person/kamal-al-din-al-farisi|Kamal al-Din al-Farisi]], who died around 720 AH/1320, wrote a clear commentary on it. The book was translated into Latin and published at Basle in 1572 by F. Risner under the title Thesaurus Opticus {cite:encyclopaedia-of-islam-2 vol. 3 p. 820}.
+
+In its fifth book, the article says, his mathematical genius reached its height when he resolved the problem that now bears his name. Two points are fixed in the plane of a circle, which is idealised as a mirror, and the task is to find the point on the circle where a ray from one point must be reflected to reach the other. His demonstration is very complex and leads to an equation of the fourth degree, which he solved by intersecting an equilateral hyperbola with a circle. Leonardo da Vinci later took an interest in the problem but could only solve it mechanically, for lack of mathematical means, and Christiaan Huygens gave what the article calls the most elegant and simplest solution {cite:encyclopaedia-of-islam-2 vol. 3 p. 820}.
+
+## Light, the sky and the eye
+Beyond these works, the article credits him with several findings. He established that astronomical twilight begins or ends when the sun is 19 degrees below the horizon, and from this he fixed the height of the atmosphere at 52,000 paces. He explained atmospheric refraction correctly, together with the enlargement of the apparent diameter of the sun and moon near the horizon {cite:encyclopaedia-of-islam-2 vol. 3 p. 821}.
+
+Like [[person/ibn-sina|Ibn Sina]] and [[person/al-biruni-muhammad-ibn-ahmad|al-Biruni]], he held that rays of light travel from the object to the eye, and not the reverse as Euclid, Ptolemy and [[person/al-kindi|al-Kindi]] maintained, according to the article. It adds that he discovered spherical aberration, though he did not consider the caustic curve, and that he judged the Milky Way to be very remote from the earth and outside the atmosphere because it showed no parallax {cite:encyclopaedia-of-islam-2 vol. 3 p. 821}.
+
+## Mathematics and literary criticism
+In mathematics the article says he neatly resolved a problem posed by al-Mahani, wrote a treatise on magic squares and made some contributions to commercial mathematics {cite:encyclopaedia-of-islam-2 vol. 3 p. 821}. It also mentions a treatise on the art of poetry, drawing on Greek and Arab practice, reported by Ibn Abi Usaybi'a; from it the author concludes that he probably combined Greek and Arab conceptions of literary criticism {cite:encyclopaedia-of-islam-2 vol. 3 p. 821}.
 
 ## Fourth powers and volume
 

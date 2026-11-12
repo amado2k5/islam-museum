@@ -1,11 +1,63 @@
 ---
 id: practice/sawm-ramadan
 lang: en
-source_lang: ar
+source_lang: en
 translators: []
 ---
 ## Overview
 Ramadan is the name of the known month — said to be named for the season it fell in when the month-names were transferred, coinciding with the scorching heat (ramad). The month is established by sighting its crescent, or by completing Sha'ban to thirty when sighting fails. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8986}
+
+## Fasting in law and history
+The Arabic term for fasting is sawm, also written siyam; the two are verbal nouns from the same root and are used interchangeably. The Encyclopaedia of Islam, whose article on sawm this and the following sections summarise, gives the original meaning of the word as "to be at rest", and says the sense of fasting was taken from Judaeo-Aramaic and Syriac usage once Muhammad became better acquainted with the institution in [[place/medina|Medina]]; this is the sense of the word in the Medinan suras. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103} The article calls Ramadan fasting the fourth pillar of Islam. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103}
+
+## Origin of the rite
+The article does not assume that fasting was unknown in [[place/mecca|Mecca]] before Muhammad's time, asking why the [[concept/hanif|hunafa]] should not have used the custom too. It points to a Meccan passage, sura XIX, verse 27, where sawm means a vow of silence made by [[person/maryam|Mary]], and suggests that silence as a Christian fasting practice may have been known to Muhammad. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103}
+
+According to reliable Muslim tradition, the article says, the revelation of verses 179 to 181 of sura II in the year 2/623-4 ended the obligation of the fast of [[practice/ashura|Ashura]] by instituting the fast of Ramadan. Opinions differ on why this month was chosen. The article finds most plausible the view of A. J. Wensinck, who drew attention to the particularly sacred character of Ramadan even before Islam, on account of the [[practice/laylat-al-qadr|night of power]]. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103}
+
+## What the Qur'an provides
+The first regulations on the manner of the Muslim fast are in sura II, verses 179 to 181, which the article says probably belong together, although Juynboll takes verse 181 as a later revelation and [[person/al-baydawi-abd-allah-ibn-umar|al-Baydawi]] also assumes the passage came in separate parts. The fast is mentioned elsewhere too, in suras II, IV, V and LVIII; the word sa'im, one who fasts, appears among the epithets of the devout Muslim in sura XXXIII, verse 35; and in two places of sura II the word sabr, patience, is explained as sawm. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103} The ordinances of sura II, verses 179 to 181 and 183, are the basis of the detailed regulation by the jurists, and further details were taken from Tradition. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103}
+
+## The law of fasting in the Shafi'i school
+The article gives a résumé of the law according to the [[group/shafii-madhhab|Shafi'i school]], following the treatise al-Mukhtasar fi al-fiqh by [[person/abu-shuja-al-isfahani|Abu Shuja al-Isfahani]], of the fifth Islamic century. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103} This page reports it as the article does and rules on nothing.
+
+**What the fast is.** In the legal sense it is abstinence, imsak, from the things that break the fast, the muftirat, together with a special intention, [[concept/niyya|niyya]]. The person fasting must be a Muslim in full possession of his senses and, if a woman, free from menstruation. The fast is valid under these conditions, and the obligation falls on every full-grown person who is physically able to bear it. The intention should be formed before dawn on each day of fasting; by talfiq, however, a Shafi'i may follow a school that allows one intention for the whole of Ramadan. What breaks the fast is defined by the entry into the body of material substances that can be prevented from entering, and for the fast to be broken there must be deliberate action, knowledge and free choice. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103}
+
+**Recommended conduct.** The article lists as recommended: taking the meal that ends the fast, the [[practice/iftar|iftar]] meal, as soon as one is sure the sun has set, and the meal taken after midnight, the [[practice/suhur|suhur]], as late as possible; avoiding indecent talk and slander and actions that might stimulate the passions in oneself or others; reciting the Qur'an, for oneself or for others; and observing retreat, [[practice/itikaf|itikaf]], during Ramadan. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103}
+
+## Obligation, the start of the month and making up days
+On the Shafi'i account, whoever denies the duty to fast is an unbeliever, except a recent convert or someone who has had no contact with the scholars, while whoever omits the fast without good cause but does not deny the duty may be imprisoned. The general obligation begins on 1 Ramadan, after thirty days of Sha'ban, or after twenty-nine if the judge has accepted the testimony of one trustworthy person that he saw the new moon. The beginning of the month may be announced in a way fixed by local custom, for example by a cannon, or in Java by beating the bedug drum. Days missed in Ramadan have to be made up, qada, as soon as possible, but not on forbidden days or on a day that is itself a compulsory fast. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103}
+
+The article distinguishes a major and a minor [[concept/kaffara|kaffara]], or compensation. The major one is imposed on anyone who breaks the Ramadan fast by sexual intercourse, among other cases it lists; the minor, also called fidya, is paid when a person makes use of one of the dispensations below, and in that case the question of fasting does not arise. In a great drought the imam may prescribe extraordinary ceremonies that include fasting, the three days before the prayer for rain being spent fasting. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103}
+
+## Relaxations
+The article lists these circumstances in which the law allows relaxation. {cite:encyclopaedia-of-islam-2 vol. 9 p. 103} {cite:encyclopaedia-of-islam-2 vol. 9 p. 104}
+
+- Those who have reached a certain age, given as forty for men and not exactly defined for women, and the sick with no hope of recovery, if unable to fast, may omit the fast without making it up should strength return; in compensation they give alms at the rate of one mudd for each day omitted.
+- If pregnant or nursing women fear danger from fasting, breaking the fast is obligatory for them, and making up the days is obligatory too.
+- The sick who are likely to recover, and those overcome by hunger and thirst, may break the fast on condition of making it up; where there is danger of death or of losing a limb, breaking the fast is obligatory.
+- Travellers who set out before sunrise may break the fast if necessary, but not if they begin the journey during the day; a journey of two days is the minimum, and making up the days is obligatory.
+- Those who do heavy manual labour should form the intention at night but may break the fast if need be.
+
+When the reason for the relaxation ends, the article says, it is sunna to spend the rest of that day fasting. {cite:encyclopaedia-of-islam-2 vol. 9 p. 104}
+
+## Voluntary fasting, and forbidden and disliked days
+Voluntary fasting, sawm al-tatawwu, falls in the category of what is recommended. For a woman it requires her husband's consent; it may be broken without penalty; and its intention may be formed at any time up to midday. A person who must fast three days during the [[practice/hajj|pilgrimage]] and seven afterwards is advised to choose the 7th, 8th and 9th of Dhu al-Hijja for the three. For the six voluntary days of Shawwal, the six consecutive days directly after the festival, 2 to 7 Shawwal, are preferred. The article names further days recommended for voluntary fasting: the day before Ashura and the day after it, the 27th of Rajab, and Mondays and Thursdays, which it calls a strongly confirmed sunna according to [[person/al-bajuri-ibrahim-ibn-muhammad|al-Bajuri]], as days when deeds are presented to God. {cite:encyclopaedia-of-islam-2 vol. 9 p. 104}
+
+Fasting is forbidden on the days of the two great festivals, on the tashriq days, and for a woman during menstruation, and also in the cases of danger already mentioned. It is disliked to fast on Friday, because it distracts from the Friday worship, and on Saturday or Sunday when there is no particular reason, because Jews and Christians keep those days as holy days. {cite:encyclopaedia-of-islam-2 vol. 9 p. 104}
+
+## The other schools and the Shi'i rules
+The article says the three other schools differ from the Shafi'i one on minor questions only, too tedious to list, and refers to [[person/al-sharani|al-Sha'rani]]'s Kitab al-Mizan for them. {cite:encyclopaedia-of-islam-2 vol. 9 p. 104}
+
+[[group/shia|Shi'i]] prescriptions differ from the Sunni ones on some points of detail, and the article gives examples. The intention is not counted as a pillar of the fast; smoking is not counted among the things that break it; it is forbidden to blaspheme against the Shi'i imams; and a man and woman who have sexual relations during the fast are to be flogged for a first offence. On relaxations, the sick are not required to fast unless the physician authorises it; pregnant women are excused only in the final phase of pregnancy; travellers are generally not required to fast, but compensation must be made. Voluntary fasting may begin before midday. Shi'ism also adds to the days the Sunnis recommend the great dates of Shi'i tradition: [[event/ghadir-khumm|Ghadir Khumm]], the [[concept/mubahala|mubahala]], and the anniversary of the death of [[person/husayn-ibn-ali|al-Husayn]] on 10 Muharram. {cite:encyclopaedia-of-islam-2 vol. 9 p. 104}
+
+## Al-Ghazali on the meaning of the fast
+At the start of his Kitab Asrar al-sawm in the [[work/ihya-ulum-al-din|Ihya]], [[person/al-ghazali-abu-hamid|al-Ghazali]] offers reflections on the value of fasting, pointing to well-known traditions about the high esteem in which it stands with God. The article gives two of his reasons: fasting is a passive act that no one sees except God, and it is a means of resisting Satan, whose instruments are the human passions that eating and drinking stimulate. Fasting is therefore, in his words, the gateway to the service of God. {cite:encyclopaedia-of-islam-2 vol. 9 p. 104}
+
+After listing the regulations as a jurist would, al-Ghazali declares that they are not what is essential, and distinguishes three steps in the fast. The first is that of the jurists. The third is that of the prophets, the truthful and those brought near to God, whose state separates them from worldly desires. The second, which suffices for the pious, consists in keeping the senses and limbs free from sin and from all that detracts from God. The subjection of the passions, not mere abstention, is the real object of the fast. {cite:encyclopaedia-of-islam-2 vol. 9 p. 104} The article judges that this ethical conception supplements what it calls the barren law of the jurists, and notes that Tradition already contains ethical reports on fasting which al-Ghazali quotes in support. {cite:encyclopaedia-of-islam-2 vol. 9 p. 104}
+
+## Fasting today
+The article closes by remarking that it is a very widespread opinion today that fasting, especially in Ramadan, is the most fitting expiation for offences committed during the year, which is why the law on fasting is still generally observed strongly, in varying degrees. {cite:encyclopaedia-of-islam-2 vol. 9 p. 104}
 
 ## The last ten nights
 They begin at the start of the twenty-first night and run to the end of Ramadan, complete or short — the name covers nights and days, as in "and ten nights." The jurists agree it is recommended to redouble effort in them — night prayer, alms, reciting and studying the Quran — following the Prophet who "when the ten entered would keep the night alive, wake his family, strive and tighten his belt"; and to spend freely on dependents and do good to kin and neighbours; and i'tikaf is emphatically recommended in them, the practitioner entering the mosque before sunset of the twenty-first night. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11623}

@@ -10,8 +10,8 @@ regions: [persia-central-asia]
 coordinates: [36.469722222222224, 52.350833333333334]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q331078" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q331078", nomisma: "amol" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q331078 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
