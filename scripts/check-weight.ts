@@ -31,7 +31,7 @@ export const BUDGETS: Budget[] = [
   { family: "lesson (printable)", route: "/ar/sighar/teachers/lessons/quest/", html: 200 * KB, js: 6 * KB },
   { family: "listing", route: "/ar/learn/trails/", html: 600 * KB, js: 12 * KB },
   // E2: a leveled entity page (the switcher is inline CSS and a few lines of inline script, so JS stays the layout's) and the kids' reader
-  // 12 November 2026 (proposed, awaiting the founder's sign-off): 160 -> 200 KB. The page measured 169.2 KB in build run
+  // 12 November 2026: raised from 160 to 200 KB by the founder's decision. The page measured 169.2 KB in build run
   // 43257201121 after the canon cornerstone rewrite added the Encyclopaedia of Islam sections to the Hijra prose and the
   // shared layout grew; the only way to remove the weight is to cut that prose.
   { family: "leveled reading", route: "/ar/event/hijra/", html: 200 * KB, js: 10 * KB },
@@ -49,7 +49,7 @@ export const BUDGETS: Budget[] = [
   // raised to 150 KB by the founder's decision (the page measured 121.6 KB, the shared layout had grown).
   { family: "classroom quiz", route: "/ar/learn/teachers/quiz/g11-chw3m-rise-of-islam/", html: 150 * KB, js: 15 * KB },
   // E3 step 2: the daily challenge (Century Challenge, five rounds a day) at the child-activity ceiling of plan §3
-  // 12 November 2026 (proposed, awaiting the founder's sign-off): 120 -> 150 KB for both daily-challenge routes, the same
+  // 12 November 2026: raised from 120 to 150 KB by the founder's decision for both daily-challenge routes, the same
   // step and the same cause as the classroom quiz above (the pages measured 120.7 KB in build run 43257201121; the page
   // is unchanged, the shared layout grew).
   { family: "daily challenge", route: "/ar/learn/daily/", html: 150 * KB, js: 12 * KB },
