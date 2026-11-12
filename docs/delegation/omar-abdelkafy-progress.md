@@ -514,6 +514,8 @@ Series `tariq-al-noor`, 30 short episodes (about 10 minutes each, Ramadan progra
 | Recording | Prose | New / extended | Doubts | Run |
 |---|---|---|---|---|
 | tariq-al-noor ep01-ep04 (five kinds of faith; what veils the heart; three kinds of sin; five cases where haste is praised) | ar, en, ur: new series record with 4 episode sections (32 points) | 1 work created; 42 `about` edges to existing records, none created | 9 needs_source: ep01 number of hypocrites and the mixed hypocrite/innovator categories; ep02 the imam's identity and years; ep03 the unnamed verses, Bilal's call to prayer at the conquest, the lion claim; ep04 pilgrimage by instalments, the Umar anecdote, all spinsterhood figures | omar-abdelkafy-tariq-al-noor-1 |
+| tariq-al-noor ep05-ep08 (what a person forgets; injustice and its kinds; the four states of the believer; ingratitude) | ar, en, ur: series record extended with 4 episode sections (35 points) | 23 new `about` edges to existing records (65 in total) | 9 needs_source: ep05 the unnamed righteous man; ep06 the guardian-burden claim on hijab and the garbled saying, the unnamed vizier; ep07 al-Hasan al-Basri sweet story roles, the twenty-years narrative, Kufa and the People of the Bench, the unnamed woman Companion; ep08 the unattributed saying on three calamities (reported as such), the unnamed judge | omar-abdelkafy-tariq-al-noor-2 |
+| tariq-al-noor ep09-ep12 (heedlessness and the heart; Salman al-Farisi's sayings; four traits; the truthful merchant) | ar, en, ur: series record extended with 4 episode sections (33 points) | 16 new `about` edges (81 in total) | needs_source on: ep09 the Ahmad ibn Hanbal and Shayban exchange roles, the Moses and angel-of-death narrative, the age-seventy narrative, the unattributed companion saying; ep10 the Talha narrative; ep11 the scholars' saying on liars, the forty-days saying, the Abu Hanifa nursing account; ep12 the Uthman caravan account, the Abu Hanifa cloth account | omar-abdelkafy-tariq-al-noor-3 |
 
 | Excluded (tariq-al-noor ep01-ep04) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
@@ -588,3 +590,18 @@ Notes for ep25–ep26. Episode 25 is garbled in its middle sections; episode 26 
 | Garbled passage on the names of the wives and the sack of wine | ep25 00:14:00 | Garbled | Clarity | Open |
 | Curse on women who alter their appearance | ep25 00:19:30 | Hadith wording not typed; no point written from the garbled part | Hadith rule; clarity | Open |
 | Proverb on the trader and the coin, and the joke on the donkey's burden | ep26 00:08:30 | Garbled; a joke about a named person, not written | Clarity; content rule | Open |
+| Excluded (tariq-al-noor ep05-ep08) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, closing formulae | ep05 00:00:00, 00:09:00-00:09:30; ep06 00:00:00, 00:09:30-00:10:00; ep07 00:00:00, 00:09:30; ep08 00:00:00-00:00:30, 00:09:30-00:10:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep06 00:03:30 (inner); ep08 00:04:30 | Not speech | Loop check | Open |
+| The Companion who would have "taken the three" and entered the fighting | ep07 00:08:30 | Garbled, no identifiable content | Clarity | Open |
+| Poem lines on death ("if when we died we were left") | ep05 00:05:30 | Verse, author unnamed and garbled | Sources policy; clarity | Open |
+| Wording of the saying on "the face of affliction" | ep06 00:07:30 | Garbled; recorded only as needs_source | Clarity | Open |
+
+| Excluded (tariq-al-noor ep09-ep12) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, closing formulae | ep09 00:00:00, 00:09:30-00:10:00; ep10 00:00:00, 00:09:30; ep11 00:00:00, 00:09:00-00:09:30; ep12 00:00:00, 00:08:30-00:09:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep09 00:07:00; ep11 00:03:30; ep12 00:01:00 (inner), 00:02:00, 00:05:30 (inner) | Not speech | Loop check | Open |
+| Wording of the sudden-death verse and examples in the cemetery passage beyond the clear points | ep10 00:06:00 | Verse garbled | Clarity | Open |
+| Hadith of the cards (full wording), Hadith on the Bedouin and the townsman | ep10 00:08:00; ep12 00:05:30-00:06:00 | Wording not typed; garbled | Hadith rule; clarity | Open |
+| Corruption and bribery remark in the heedlessness passage | ep09 00:07:30-00:08:00 | Partly garbled personal anecdote; only the clear point on backbiting kept | Clarity | Open |

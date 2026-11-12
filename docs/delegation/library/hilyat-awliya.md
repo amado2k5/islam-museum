@@ -74,3 +74,6 @@
 ## Batch 13 (run microsd-books-b21, Claude Code / claude-fable-5-2)
 - Pages read: vol. 9 pp. 297–309. Notice 449 ends at 9/297 (closing poem, not transcribed). New draft `person/muhammad-ibn-al-mubarak-al-suri` (451, 9/298–309): the dialogue is attributed to Abu Nu'aym's grandfather's written record, the sayings to Muhammad ibn Asbagh ibn al-Faraj. The chains on 9/304–309 are described only, not quoted.
 - Identity: 451 is Muhammad ibn al-Mubarak al-Suri, not a separate heading; no existing record for him was found (searched data/person).
+
+## Batch 14 (run microsd-books-b22, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 344–349. Enriched `person/dhu-al-nun-al-misri` (456, to 9/349). Unclear OCR at 9/344 (the woman at the crops) rendered only in its clearest sense. Notice continues from 9/350.
