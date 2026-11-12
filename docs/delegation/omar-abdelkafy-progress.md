@@ -802,3 +802,18 @@ Next step: episode 22. Sensitivity: ep20 carries a ruling on hijab and ep21 swee
 | Calls and answers too garbled to read | ep20 00:37:00–end (in part); ep21 00:34:00–end (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
 | Verse and saying wording (verse of a chief of the Arabs on not drinking, a proverb on lovers' hearts) | ep20 00:16:30–00:17:00; ep21 00:30:00 | Verbatim verse, partly garbled; given by sense | Sources policy; clarity | Open |
 | Fiqh questions the lecturer refers elsewhere (the wiping of the sock, the working in a hotel) | ep20 00:25:30; ep21 00:33:30 | Referred to fatwa programmes | Scope | Open |
+
+### albuyout-alamena, episodes 22–23 (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-11)
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep22–ep23 (keys to the personality; the start of the school year and raising children) | about 31 min, 32 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 12 points | 6 new `about` edges (Mu'awiya, Yaqub, Yusuf, tarbiya, ilm, passages 17:36, 12:8) | ep22 6, ep23 6 points; engine qwen3-asr pass5, 30 s windows | 5 needs_source: ep22 word counts (00:03:00), the zoo experiment (00:09:00), statistics and the Mu'awiya account (00:19:00), call text (00:26:30); ep23 the suicide and pregnancy statistic (00:21:30). Coverage note: ep23 00:11:00–00:21:00 and 00:31:30 to the end were not read in full; they are left for a later revision pass | run omar-abdelkafy-albuyout-11 |
+
+Next step: episode 24 (and a revision pass over ep23 00:11:00–00:21:00).
+
+| Excluded (albuyout-alamena ep22–ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep22 00:00:00–00:01:00, 00:15:30, 00:26:00; ep23 00:00:00–00:01:00, 00:08:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep22 00:12:30, 00:27:30, 00:29:30; ep23 (none noted in the read range) | Not speech | Loop check | Open |
+| Calls and answers too garbled to read | ep22 00:26:30–00:31:00 (in part); ep23 not read | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Hadith wording | ep23 00:09:00, 00:10:30 | Wording not typed; by sense only | Hadith rule | Open |
