@@ -1864,3 +1864,14 @@ Next step: episode 14.
 | Repetition loops and garbled windows | ep13 00:03:00, 00:12:00–00:12:30, 00:17:30–00:18:00, 00:30:00, 00:37:30, 00:38:00–00:38:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Remarks on a storm near the country and driving speed | ep13 00:18:00–00:19:00, 00:32:00–00:32:30 | Topical asides, not lesson content | Content rule | Open |
 | Poetry quoted | ep13 00:31:00–00:31:30 | Not reproduced | Sources policy | Open |
+
+### ajaeb-al-kulub ep01-ep04 (12 Nov 2026)
+
+New record work/ajaeb-al-kulub (29 episodes in the harvest, 87 files, about seven minutes each); episodes 1 to 4 written (ar, en, ur). Decision dec-20261112-267 (sensitivity: contested). 38 points; 13 needs_source marks on reports without a chain, statistics without a source and garbled wording. Quran verses referenced only through passage links (5-27, 12-15, 41-34, 113-1, 114-1); none typed.
+
+| Excluded (ajaeb-al-kulub ep01-04) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, announcements and closing supplications | ep01 00:00:00, 00:07:00; ep02 00:00:00, 00:05:30; ep03 00:00:00 (greeting), 00:05:30; ep04 00:00:00, 00:06:30 | Not lesson content | Content rule | Open |
+| Repetition loops, stray non-speech and garbled windows | ep02 00:06:00 (non-speech "Oh, oh."); ep03 00:06:00 (a basmala repeated as a loop), 00:02:00 (a long rambling sentence on ethics and faith, only the clear claim kept), 00:03:00 (a half-heard line on living among people); ep04 00:01:00 (a line on Joseph's brothers, garbled), 00:05:00 (a half-clear clause) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ajaeb-al-kulub episode 5 (branch from origin/main).
