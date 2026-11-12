@@ -1908,3 +1908,14 @@ Next step: episode 16.
 | Repetition loops and garbled windows | ep15 00:09:30, 00:16:30–00:17:00, 00:31:00, 00:33:30, 00:35:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Caller praise of the channel and advertising remarks | ep15 00:40:00–00:40:30, 00:45:30 | Not lesson content | Content rule | Open |
 | Remarks on publishing the lecturer's book | ep15 00:46:30 | Promotional; not recorded | Content rule | Open |
+
+### ajaeb-al-kulub ep05-ep08 (12 Nov 2026)
+
+34 points written for episodes 5 to 8 (ar, en, ur); 18 needs_source marks on reports without a chain, unattributed quotations and verses, and garbled readings; 11 new `about` edges. Quran verses referenced only through passage links (15-40, 12-24, 76-9, 3-175, 55-46, 51-50, 52-7, 3-173); none typed.
+
+| Excluded (ajaeb-al-kulub ep05-08) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep05 00:00:00, 00:06:00; ep06 00:00:00, 00:06:00; ep07 00:00:00, 00:08:00 (supplication); ep08 00:00:00, 00:06:00 | Not lesson content | Content rule | Open |
+| Repetition loops, non-speech and garbled windows | ep07 00:01:00 (a long loop of one letter after a partly clear definition); ep08 00:06:30 (non-speech "Oh."), 00:03:30 (a half-clear remark on the righteous), 00:04:00 (a half-clear remark on psychological testing); ep05 00:03:00 (a half-clear remark on scholars quoting each other); ep06 00:04:00 (a half-clear sentence before the roadside tree) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ajaeb-al-kulub episode 9 (branch from origin/main).

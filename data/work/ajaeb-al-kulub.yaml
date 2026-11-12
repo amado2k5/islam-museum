@@ -33,6 +33,17 @@ relations:
   - { type: about, target: person/yusuf, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: person/abu-bakr, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: person/umar-ibn-al-khattab, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ikhlas, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/riya, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/khawf, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/raja, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/nawafil, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/ibn-qayyim-al-jawziyya, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/ibn-taymiyya, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/ahmad-ibn-hanbal, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/ayyub-al-sakhtiyani, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: group/khawarij, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: group/murjia, sources: [source/assabile-omar-abdelkafy] }
 sources: [source/assabile-omar-abdelkafy]
-provenance: { layer: copyrighted-reference, source: "Assabile, ajaeb-al-kulub (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-ajaeb-al-kulub-1, episodes: "01-04" }
+provenance: { layer: copyrighted-reference, source: "Assabile, ajaeb-al-kulub (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-ajaeb-al-kulub-1, episodes: "01-08" }
 status: { review: draft, generated_by: "Claude Code (claude-sonnet-5-5); run omar-abdelkafy-ajaeb-al-kulub-1" }
