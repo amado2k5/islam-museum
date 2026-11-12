@@ -64,3 +64,6 @@
 
 ## Batch 10 (run microsd-books-b18, Claude Code / claude-fable-5-2)
 - Pages read: vol. 9 pp. 340–343. Enriched `person/dhu-al-nun-al-misri` (notice 456, continued). The notice continues from 9/344 onward and is not finished.
+
+## Batch 11 (run microsd-books-b19, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 280–285. New draft `person/ahmad-ibn-asim-al-antaki` (449, 9/280–284). No death date entered: the notice's opening pages give none, and none was taken from elsewhere. Notice continues to about 9/310 (not yet mined). Notice 451 (heading illegible) still to identify.
