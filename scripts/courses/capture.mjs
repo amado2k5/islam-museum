@@ -53,7 +53,7 @@ mkdirSync(out, { recursive: true });
 const browser = await chromium.launch();
 const index = [];
 async function shoot(page, name, meta, viewportOnly = false) {
-  if (only && !name.includes(only)) return;
+  if (only && !only.split(",").some((k) => name.includes(k))) return;
   if (!viewportOnly) await page.evaluate(() => window.scrollTo(0, 0));
   await page.evaluate(() => document.fonts.ready);
   await page.waitForTimeout(150);
@@ -115,7 +115,7 @@ await browser.close();
 srv.close();
 const commit = execSync("git rev-parse HEAD", { encoding: "utf8" }).trim();
 const dirty = execSync("git status --porcelain -- site data content i18n", { encoding: "utf8" }).split("\n").filter(Boolean).length;
-if (!only) writeFileSync(join(out, "index.json"), JSON.stringify({ commit, uncommitted_paths: dirty, dist: DIST.replace(resolve(".") + "/", ""), captured: new Date().toISOString(), shots: index }, null, 1) + "\n");
+writeFileSync(join(out, "index.json"), JSON.stringify({ commit, uncommitted_paths: dirty, dist: DIST.replace(resolve(".") + "/", ""), captured: new Date().toISOString(), only: only ?? undefined, shots: index }, null, 1) + "\n");
 const over = index.filter((s) => s.overflow_px > 0);
 console.log(`captured ${index.length} files into ${out} at ${commit.slice(0, 10)}; pages with sideways scroll: ${new Set(over.map((s) => s.file.replace(/-\dof\d/, ""))).size}`);
 for (const s of over) console.log(`  overflow ${s.overflow_px}px: ${s.file}`);

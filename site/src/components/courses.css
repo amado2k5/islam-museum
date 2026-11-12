@@ -54,7 +54,7 @@ html[lang="ar"] .cx-btn, html[lang="ar"] .cx .ui { font-family: var(--ar-body); 
 html[lang="ar"] .cx-tag { font-family: var(--ar-body); font-size: .8rem; }
 .cx-state { font-family: var(--sans); font-size: .85rem; font-weight: 700; color: var(--gold-text); }
 html[lang="ar"] .cx-state { font-family: var(--ar-body); font-size: .95rem; }
-.cx-meet .cx-state:not(:empty) { flex-basis: 100%; margin-top: 2px; }
+.cx-meet .cx-state { flex-basis: 100%; min-height: 1.5em; margin-top: 2px; }
 
 /* ---- lesson: where am I ---- */
 .cx-where { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-top: 14px; font-family: var(--sans); font-size: .9rem; color: #e6d5b8; }
@@ -184,11 +184,12 @@ html[lang="ar"] .cx-nav small { font-family: var(--ar-body); font-size: .86rem; 
 html.cx-present header.site, html.cx-present footer.site, html.cx-present .page-banner .crumbs, html.cx-present .cx-steps, html.cx-present .cx-tools, html.cx-present .cx-nav, html.cx-present .cx-notes, html.cx-present .cx-draft, html.cx-present .pattern, html.cx-present .cx-rail, html.cx-present .cx-recordlink, html.cx-present .page-banner .page-lede { display: none !important; }
 html.cx-present { font-size: 135%; }
 @media (min-width: 1000px) { html.cx-present { font-size: 165%; } }
-html.cx-present .page-banner { padding-block: 10px 34px; }
+html.cx-present .page-banner { padding-block: 12px 14px; }
+html.cx-present .page-banner .arch { display: none; }
 html.cx-present .page-banner::after, html.cx-present .skip { display: none; }
 html.cx-present .page-banner h1 { font-size: 1.2rem; margin: 0; }
 html.cx-present .cx-where { display: none; }
-html.cx-present .cx-pres-bar .cx-pres-hint { font-size: .62rem; }
+html.cx-present .cx-pres-bar .cx-pres-hint { font-size: .8rem; }
 html.cx-present .cx-layout { display: block; }
 html.cx-present .cx-loop { max-width: 1000px; margin-inline: auto; }
 html.cx-present .cx-step:not(.is-shown) { display: none; }

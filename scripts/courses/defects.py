@@ -59,6 +59,10 @@ REGISTER.update({
     "NAR-5": "The same as AR-16, registered there.",
     "NEN-4": PILOT + " `object/astrolabe`, `building/maragha-observatory` and `work/kitab-al-hiyal` have no record; the one-line note can wrap on a phone.",
 })
+REGISTER.update({
+    "AR-7": DESIGN + "round 3 added the 'official wording, not yet translated' label and moved the code beside the sentence. What remains is the sentence's side: on an Arabic page the official English sentence sits on the page's reading side, next to its code, and wraps like any text.",
+    "NEN-6": DESIGN + "classroom view shows the lesson's title in a thin strip and the step count in the bar ('3 / 5'); the lesson's place in the course is on the ordinary view, one key press away.",
+})
 CAPTURE = {"AR-12", "AR-13", "EN-24", "EN-25", "EN-26", "EN-27", "EN-50"}  # sticky bars drawn mid-page by the capture; the capture now shoots from the top
 
 
