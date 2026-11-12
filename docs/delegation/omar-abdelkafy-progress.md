@@ -2098,3 +2098,20 @@ Next step: episode 24.
 | Repetition loops and garbled windows | ep23 00:03:00, 00:05:00, 00:09:30, 00:14:00, 00:20:00, 00:23:30–00:24:30, 00:30:30, 00:33:00, 00:42:30, 00:45:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Interrupted or unusable calls | ep23 00:35:00–00:40:30 | No usable question was heard | Clarity | Open |
 | Poetry quoted | ep23 00:05:30–00:06:00, 00:08:30, 00:36:30 | Not reproduced | Sources policy | Open |
+
+### al-naba-al-safi, episode 24 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-13)
+
+Episode 24 read in full (37 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people and passages named; 8 needs_source (unchained hadiths, sayings and accounts in sense, an unsourced proportion).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep24 (the tree of sorrow and its remedy) | about 37 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 15 points | new `about` edges | 15 | 8 needs_source | this PR |
+
+Next step: none, the series is complete (all 24 episodes are covered on the work page).
+
+| Excluded (al-naba-al-safi ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening cut off, break announcements, supplications and the long closing prayer | ep24 00:00:00, 00:23:30–00:24:00, 00:34:00–00:37:00 | The recording begins mid-speech; breaks and prayers are not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep24 00:02:30–00:03:30, 00:04:00, 00:25:00, 00:28:00, 00:33:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| A passing prayer for those affected by a storm and a poem of an Arab sage | ep24 00:22:00–00:23:30 | Not lesson content; the poem is not reproduced | Content rule and sources policy | Open |
+| Private caller details | ep24 00:27:00–00:28:30, 00:31:30–00:32:30 | Generalised | Privacy | Open |
