@@ -1701,6 +1701,10 @@ explore:
       title: "Sayyi'at Browser"
       desc: "Every mention of the sayyi'at and everything tied to them — sin, guilt, disobedience, the major and minor sins, repentance and seeking forgiveness — in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
       menu: "Browse sayyi'at and sins across the Qur'an and books"
+    hudud:
+      title: "Hudud Allah and Kaba'ir Browser"
+      desc: "Every mention of the limits of God and the major sins — «these are the limits of God», the prescribed penalties of stoning, flogging, the amputated hand and discretionary punishment, the hadd crimes of fornication, theft, slander, wine, apostasy and brigandage, and the kaba'ir and the seven destroyers — in the Qur'an, the Sunnah, the seerah, Companion and Tabi'i reports and every harvested book, with every verse and report cited."
+      menu: "Browse hudud Allah and kaba'ir across the Qur'an and books"
     hasanat:
       title: "Hasanat Browser"
       desc: "Every mention of the good deeds (al-hasanat) in the Qur'an, the Sunnah, the seerah and every harvested book — «إن الحسنات يذهبن السيئات»، «من جاء بالحسنة فله عشر أمثالها»، the writing of the good deeds, the good loan to God and «الحسنى» — with every verse and report cited."
@@ -3568,6 +3572,37 @@ sayyiat:
     curated:
       title: "Records about sayyi'at"
       desc: "Curated museum records on the sayyi'at, sin, guilt, disobedience, repentance and seeking forgiveness themselves: the concepts of sin, guilt, minor sins, tawba and istighfar, and events such as the angels' report of the intended sin."
+hudud:
+  title: "Hudud Allah and Kaba'ir Browser"
+  lede: "Every mention of the limits of God and the major sins in the museum's sources: the verses of «these are the limits of God» and «whoever transgresses the limits of God», the hudud of fornication, theft and slander in the two Sahihs, the Muwatta and the Sunan, the carrying out of penalties in the seerah and the reports of the Companions and Successors, the lists of kaba'ir and the seven destroyers, and every mention in every harvested book — cited records that grow as new text lands."
+  badge: Hudud and kaba'ir explorer
+  status: "This build holds {n} records in {s} sections; texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and trilingual prose. Mentions are found at build time by a guarded lexicon over passage texts: «حدود الله» in every inflection, the establishing of the hadd, the fixed penalties — stoning, flogging in its punishment forms, the amputated hand and discretionary punishment — and «kaba'ir» and «mubiqat». Weak signals — ungated «hudud» and «hadd», ambiguous «jald», the hadd crimes of fornication, theft, slander, wine, apostasy and brigandage, retaliation, and ambiguous «kabira» — count only beside a strong signal, or two at a time together; verified false positives are excluded by id; every book harvested later brings its mentions here automatically when its passages land in the graph, and curated records join through the hudud-browser tag. Each passage is marked 'hudud' or 'kabair' by its signals."
+  api: "The full collection is at"
+  sections_title: The browser's sections
+  filter_label: Filter hudud and kaba'ir mentions
+  filter_none: No matching results.
+  empty: No hudud or kaba'ir records in this build yet.
+  kinds:
+    hudud: "hudud Allah and the fixed penalties"
+    kabair: "the major sins"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The limits of God and the major sins in the revelation: «these are the limits of God, so do not approach them», «whoever transgresses the limits of God has wronged himself», «the fornicatress and the fornicator — flog each», «the thief, male and female — cut off their hands», the punishment of brigandage, retaliation and the kaba'ir."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "Hadith of the two Sahihs, the Muwatta and the Sunan: «avoid the seven destroyers», carrying out the hudud on those who confessed, the stoning of Ma'iz and the Ghamidi woman, the hudud of slander, wine and theft, and the chapters of hudud in the methodical collections."
+    seerah:
+      title: "In the Seerah"
+      desc: "What the seerah and history books carry of hudud and kaba'ir mentions — the carrying out of penalties in Madina, and the Companions' and Successors' moments with the great sins — this section fills itself as new seerah text lands."
+    books:
+      title: "In other books"
+      desc: "Hudud and kaba'ir mentions in every harvested work other than the Qur'an, hadith and seerah — fiqh, zuhd, tafsir, history and poetry, and what comes after — classified by the work's genre the day its passages land."
+    curated:
+      title: "Records about hudud and kaba'ir"
+      desc: "Curated museum records on the limits of God and the major sins themselves: the concepts of hudud Allah, the fixed penalties, the kaba'ir, stoning, discretionary punishment, fornication and what connects to them."
 hasanat:
   title: "Hasanat Browser"
   lede: "Every mention of the good deeds (al-hasanat) in the museum's sources: the Qur'anic verses that write, multiply and efface them, the hadiths on the recording of intentions and deeds, the good loan to God, the goodly intercession and the «الحسنى» reward, and every mention in the seerah, the stories, the Companion and Successor reports and every harvested book — sourced records that grow as new texts land."
