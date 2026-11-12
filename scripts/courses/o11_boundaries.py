@@ -55,7 +55,7 @@ land = sh(f"git diff -U0 {BASE} HEAD -- site/src/components/Landing.astro")
 lminus = [l for l in land.splitlines() if l.startswith("-") and not l.startswith("---")]
 lplus = [l for l in land.splitlines() if l.startswith("+") and not l.startswith("+++")]
 o.note(f"homepage component: {len(lplus)} lines added, {len(lminus)} replaced")
-o.check("the homepage component changes only by additions (one existing line, the explorers list, is extended)", len(lminus) == 1 and "const EXPLORE" in lminus[0] and all(("courses" in l.lower() or "Courses" in l or l.strip().startswith("//")) for l in lplus), "; ".join(lminus)[:200])
+o.check("the homepage component changes only by additions (one existing line, the explorers list, is extended)", len(lminus) == 1 and "const EXPLORE" in lminus[0] and all(("courses" in l.lower() or l[1:].strip().startswith("//")) for l in lplus), "; ".join(lminus)[:200])
 shell = [f for f in sh(f"git diff --name-only --diff-filter=MDR {BASE} HEAD -- site/src/styles site/src/layouts site/src/islands site/src/scripts site/public/shell site/astro.config.mjs").splitlines() if not mine(f)]
 o.check("no layout, stylesheet, island or shell script changed (the surface's own script aside)", not shell, ", ".join(shell))
 comp = [f for f in sh(f"git diff --name-only --diff-filter=MDR {BASE} HEAD -- site/src/components").splitlines() if f != "site/src/components/Landing.astro" and not mine(f)]
