@@ -1,0 +1,63 @@
+id: polity/jalayirids
+class: polity
+kind: dynasty
+label:
+  ar: الجلائريون
+  en: Jalayirids
+  ur: جلایری
+summary:
+  ar: "الجلائريون أسرة حاكمة انحدرت من قبيلة مغولية، وكانت من الدول التي تقاسمت أراضي الإلخانيين بعد وفاة أبي سعيد سنة 736هـ/1335م. أسسها الحسن بزرگ، واتخذت بغداد وتبريز مركزين لها، وبلغت ذروتها في عهد أويس، ثم أضعفها الصراع بين الإخوة وغزو تيمور، وسقط آخر أمرائها في حصار الحلة نحو سنة 835هـ/1432م {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}."
+  en: "The Jalayirids were a dynasty descended from a Mongol tribe, one of the successor states that divided the lands of the Ilkhanate after Abu Said died in 736/1335. Founded by Hasan Buzurg, they ruled from Baghdad and Tabriz, reached their height under Uways, and were weakened by quarrels among brothers and by Timur's invasions; their last prince fell during the siege of Hilla in about 835/1432 {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}."
+  ur: "جلایری ایک منگول قبیلے سے نکلا ہوا حکمران خاندان تھے اور ان ریاستوں میں سے ایک تھے جنہوں نے 736ھ/1335ء میں ابو سعید کی وفات کے بعد ایل خانی سلطنت کے علاقے آپس میں بانٹ لیے۔ اس کے بانی حسن بزرگ تھے، بغداد اور تبریز ان کے مراکز رہے، اویس کے عہد میں انہیں عروج ملا، پھر بھائیوں کی کشمکش اور تیمور کے حملوں نے انہیں کمزور کیا، اور ان کا آخری شہزادہ تقریباً 835ھ/1432ء میں حلہ کے محاصرے میں مارا گیا {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}."
+wings: [time]
+periods:
+- period/mongol-post-mongol
+regions:
+- persia-central-asia
+- levant-iraq
+start:
+  edtf: "1336~"
+  hijri: "0736"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: true
+  note: "The article gives no single founding date. It dates the break-up of Ilkhanid authority to the death of Abu Said in 736/1335-6 and shows Hasan Buzurg's followers established at Baghdad by about 738-9/1338 {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}."
+  sources:
+  - source/encyclopaedia-of-islam-2
+end:
+  edtf: "1432~"
+  hijri: "0835"
+  calendar: julian
+  precision: year
+  status: historical
+  derived: true
+  note: "Husayn II, the last Jalayirid, fell during the Qara Qoyunlu siege of Hilla in 835-6/1432; Baghdad itself had fallen in 814-5/1412 {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}."
+  sources:
+  - source/encyclopaedia-of-islam-2
+relations:
+- { type: successor_of, target: polity/ilkhanate, sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: person/uways-jalayiri, note: "Ruler from 757/1356 or 759/1358; the dynasty's strongest prince {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: person/husayn-jalayir, note: "Probably the Husayn II of the article, the last Jalayirid prince, who fell in 835-6/1432; the article does not give his patronym, so the identification rests on the matching date {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}.", sources: [source/encyclopaedia-of-islam-2], confidence: low }
+- { type: related_to, target: person/ahmad-jalayir, note: "Ruler who lost Azerbaijan to the Qara Qoyunlu and was captured near Tabriz in 812-3/1410 {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: polity/muzaffarid-dynasty, note: "Rival and sometime client power in Fars and Isfahan {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: opposed, target: polity/qara-qoyunlu, note: "Contested Azerbaijan and Iraq; Qara Qoyunlu took Baghdad in 814-5/1412 {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: opposed, target: person/timur-lang, note: "Drove Ahmad from Azerbaijan and Baghdad {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: place/baghdad, note: "Seat of the dynasty; Hasan Buzurg's followers settled there {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: place/tabriz, note: "Held under Uways from 761/1360 and again under Husayn {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: polity/golden-horde, note: "Janibek of the Golden Horde briefly overthrew the Jalayirids at Baghdad in 757/1356 {cite:encyclopaedia-of-islam-2 vol. 2 p. 426}.", sources: [source/encyclopaedia-of-islam-2] }
+sources:
+- source/encyclopaedia-of-islam-2
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-4
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 2, article Djalayir, Djalayirid, pp. 426-427"
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "الجلائريون أسرة حكمت بغداد وتبريز بعد سقوط المغول الإلخانيين، وكان من أمرائها شاعر."
+  en: "The Jalayirids were a family who ruled Baghdad and Tabriz after the Ilkhans fell, and one of their princes was a poet."
+  ur: "جلایری ایک خاندان تھا جس نے ایل خانیوں کے بعد بغداد اور تبریز پر حکومت کی، اور ان کا ایک شہزادہ شاعر بھی تھا۔"

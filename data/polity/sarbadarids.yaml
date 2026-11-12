@@ -1,0 +1,59 @@
+id: polity/sarbadarids
+class: polity
+kind: dynasty
+label:
+  ar: السربداريون
+  en: Sarbadarids
+  ur: سربداری
+summary:
+  ar: "السربداريون حكام بيهق، أي ناحية سبزوار في غرب خراسان، وجزء من أتباعهم، في نحو نصف قرن بين وفاة أبي سعيد وفتح تيمور لبلاد فارس. بدأت حركتهم من باشتين قرب سبزوار في 9 شعبان 737هـ/13 آذار 1337م، وجمعت بين ملاك ريفيين وفتيان وأتباع شيوخ صوفية، وتحولت مع الزمن إلى التشيع، ويرى المقال أنها أصلح ما تُفهم محاولة حكم ذاتي لسكان غرب خراسان في وجه تفكك الحكم المغولي {cite:encyclopaedia-of-islam-2 vol. 9 p. 56} {cite:encyclopaedia-of-islam-2 vol. 9 p. 58}."
+  en: "The Sarbadarids were the rulers of Bayhaq, the Sabzawar region of western Khurasan, together with part of their followers, in the half century between the death of Abu Said and Timur's conquest of Persia. The movement began at Bashtin near Sabzawar on 9 Sha'ban 737/13 March 1337, drew together rural landowners, young men and the followers of Sufi shaykhs, and moved over time towards Shi'ism; the article judges it best seen as an attempt at self-government by the indigenous population of western Khurasan facing the disintegration of Mongol rule {cite:encyclopaedia-of-islam-2 vol. 9 p. 56} {cite:encyclopaedia-of-islam-2 vol. 9 p. 58}."
+  ur: "سربداری بیہق، یعنی مغربی خراسان کے علاقے سبزوار، کے حکمران اور ان کے پیروکاروں کا ایک حصہ تھے، جو ابو سعید کی وفات اور تیمور کی ایران پر فتح کے درمیان تقریباً نصف صدی تک رہے۔ تحریک 9 شعبان 737ھ/13 مارچ 1337ء کو سبزوار کے قریب باشتین سے شروع ہوئی، اس میں دیہی زمیندار، نوجوان اور صوفی شیوخ کے پیروکار شامل ہوئے، اور وقت کے ساتھ اس کا جھکاؤ تشیع کی طرف ہوا؛ مضمون کی رائے میں اسے مغربی خراسان کے مقامی باشندوں کی مغل حکومت کے انتشار کے سامنے خود حکمرانی کی کوشش سمجھنا زیادہ مفید ہے {cite:encyclopaedia-of-islam-2 vol. 9 p. 56} {cite:encyclopaedia-of-islam-2 vol. 9 p. 58}."
+wings: [time]
+periods:
+- period/mongol-post-mongol
+regions:
+- persia-central-asia
+start:
+  edtf: "1337-03-13"
+  hijri: "0737-08-09"
+  calendar: julian
+  precision: day
+  status: historical
+  derived: true
+  note: "The uprising began at Bashtin on 9 Sha'ban 737/13 March 1337; the article takes the dates from al-Faryumadi and al-Samarqandi {cite:encyclopaedia-of-islam-2 vol. 9 p. 56}."
+  sources:
+  - source/encyclopaedia-of-islam-2
+end:
+  edtf: "1381"
+  hijri: "0783"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: true
+  note: "Khwaja Ali, the last ruler the article follows, entered Timur's service in 783/1381, which agrees with the end year 1381 in the title of J. Masson Smith's study cited in the article; the article gives no single end date {cite:encyclopaedia-of-islam-2 vol. 9 p. 58}."
+  sources:
+  - source/encyclopaedia-of-islam-2
+relations:
+- { type: successor_of, target: polity/ilkhanate, note: "Rose against the breakdown of Mongol rule in western Khurasan {cite:encyclopaedia-of-islam-2 vol. 9 p. 56}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: place/sabzevar, note: "Their centre; the uprising began at Bashtin in the district of Sabzawar {cite:encyclopaedia-of-islam-2 vol. 9 p. 56}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: place/nishapur, note: "Mas'ud's raids culminated in its capture {cite:encyclopaedia-of-islam-2 vol. 9 p. 56}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: opposed, target: polity/kartid-dynasty, note: "The Sarbadarids sought to expand at the expense of the Karts of Herat {cite:encyclopaedia-of-islam-2 vol. 9 p. 57}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: polity/muzaffarid-dynasty, note: "Muzaffarid support enabled an invasion that captured Sabzawar in 778/1376 {cite:encyclopaedia-of-islam-2 vol. 9 p. 57}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: person/timur-lang, note: "Several Sarbadarid leaders entered his service {cite:encyclopaedia-of-islam-2 vol. 9 p. 58}.", sources: [source/encyclopaedia-of-islam-2] }
+- { type: related_to, target: person/muhammad-ibn-makki-al-amili, note: "Invited to Sabzawar by Khwaja Ali; he declined but wrote a work on Imami fiqh for him {cite:encyclopaedia-of-islam-2 vol. 9 p. 57}.", sources: [source/encyclopaedia-of-islam-2] }
+sources:
+- source/encyclopaedia-of-islam-2
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., local OCR of the printed volumes"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-missing-4
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 9, article Sarbadarids, pp. 56-58"
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "السربداريون جماعة من أهل سبزوار في خراسان أرادوا أن يحكموا أنفسهم بعد ضعف المغول."
+  en: "The Sarbadarids were people of Sabzawar in Khurasan who wanted to govern themselves after the Mongols grew weak."
+  ur: "سربداری خراسان کے شہر سبزوار کے لوگ تھے جو منگولوں کے کمزور ہونے کے بعد خود اپنی حکومت چلانا چاہتے تھے۔"

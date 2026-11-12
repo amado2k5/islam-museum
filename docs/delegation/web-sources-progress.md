@@ -542,3 +542,13 @@ First explore-list family scored against the eight criteria (verification date 9
 - ascalon: Nomisma concept `ascalon` fetched on the second try (mint at the ancient site of Ascalon in Judaea), 0.9 km from our point; linked. The concept `askalan` returns an empty body and was not used.
 - babil: Nomisma concept `babylon` (mint at the ancient site of Babylon), 2.2 km; linked on the same standard as the other ancient-site Levant and Iraq mint links. Flagged for founder review of the wording.
 - Gallica robots.txt: still a Cloudflare 403 (re-probed 12 Nov 2026); not registered.
+
+## 2026-11-12 (p32) — unlinked-city re-probe, Nomisma remainder, Papyri.info registration
+
+- iDAI re-probe of the 20 cities: linked qumm -> 2368556 (Qum, 0.2 km, Arabic قم matches) and qafsa -> 2042753 (Gafsa, 0.9 km, GeoNames 2468353 and Arabic قفصة match).
+- HELD rayy -> 2733387 (Rey, 0.01 km, GeoNames 9533872 matches, but no Arabic-script name on the gazetteer entry).
+- hamadhan: its only hit is 2043471, already on place/hamadan (duplicate place; flagged, not linked).
+- No populated-place within 1.5 km under the English or alternate name: Bukhara, Merv, Ghazna, Zaranj, Istakhr, Abiward, Algiers, Tashkent, Tirmidh, Sijilmasa, Muscat, Taif, Ha'il, Yanbu, Doha, Kuwait City.
+- Nomisma: no new pair passes. ankara (1.9 km) concept describes the modern city, not an Islamic-period mint: held. amorium (2.5 km) duplicates place/ammuriyya: held as a duplicate pair. samosata: concept not readable: held. Founder to review the 'ancient site' wording for the earlier links.
+- Papyri.info registered Tier 2 facts-only (source/papyri-info, registry row, attribution row, source-families row), by decision dec-20261112-266 (override of two engine false positives).
+- New family: none qualifies. Orient-Digital and MEGA-Jordan did not respond (no answer from the host). Perry-Castañeda maps page has no licence wording and no machine route.
