@@ -41,13 +41,9 @@ export const hisabItems: HisabItem[] = realNodes
 
 export interface HisabRow { node: Node; reckoning: Reckoning; basis: Node[] }
 
-const EFFECT_ORDER: HisabKind[] = ["hasanat", "sayyiat", "erasure", "scale"];
-/** The calculator rows: curated records with a `reckoning` block, good deeds first, numbered rows before worded ones. */
+/** The calculator rows: curated records with a `reckoning` block, in the order the records give (the rule of the count first). */
 export const hisabRows: HisabRow[] = realNodes
   .map((n) => ({ node: n, reckoning: reckoningOf(n) }))
   .filter((r): r is { node: Node; reckoning: Reckoning } => r.reckoning !== null)
   .map((r) => ({ ...r, basis: (r.reckoning.basis ?? []).map((id) => byId.get(id)).filter((b): b is Node => !!b) }))
-  .sort((a, b) =>
-    EFFECT_ORDER.indexOf(a.reckoning.effect) - EFFECT_ORDER.indexOf(b.reckoning.effect)
-    || Number(!!a.reckoning.unbounded) - Number(!!b.reckoning.unbounded)
-    || a.node.id.localeCompare(b.node.id));
+  .sort((a, b) => (Number(a.node.data.order) || 999) - (Number(b.node.data.order) || 999) || a.node.id.localeCompare(b.node.id));
