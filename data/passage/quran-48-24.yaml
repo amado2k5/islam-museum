@@ -16,6 +16,7 @@ translations:
   en: { text: "And He it is Who hath withheld men's hands from you, and hath withheld your hands from them, in the valley of Mecca, after He had made you victors over them. Allah is Seer of what ye do.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور وہی تو ہے جس نے تم کو ان (کافروں) پر فتحیاب کرنے کے بعد سرحد مکہ میں ان کے ہاتھ تم سے اور تمہارے ہاتھ ان سے روک دیئے۔ اور جو کچھ تم کرتے ہو خدا اس کو دیکھ رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: place/mecca, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/treaty-of-hudaybiyya }
   - { type: part_of, target: passage/quran-48 }
   - { type: mentions, target: place/makkah, sources: [source/tanzil-quran] }
