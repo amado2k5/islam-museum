@@ -1,5 +1,5 @@
 ---
-id: person/kilab-ibn-murra
+id: person/kilab-ibn-murrah
 lang: ur
 source_lang: ar
 translators: ["Devin (SWE-2 Medium), draft translation"]
