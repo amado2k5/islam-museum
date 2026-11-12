@@ -15,7 +15,7 @@ provenance:
   run: lib-tarikh-khulafa-batch-49
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-died: { edtf: "1342", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+died: { edtf: "1386", hijri: "0788-10", calendar: julian, precision: month, derived: true, note: "مات يوم الأربعاء تاسع عشري شوال سنة 788هـ {cite:tarikh-khulafa-minhaj-1434 p. 763}؛ السنة الميلادية مشتقة، وهي سنة نهاية خلافته في هذا السجل.", sources: [source/tarikh-khulafa-minhaj-1434] }
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-mustasim-zakariya-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }

@@ -1,0 +1,95 @@
+ORACLE 02: every Tour stop is a cornerstone; the stops span nine wings and fourteen centuries (statement 2)
+file: scripts/fable/o02_tour_coverage.py
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 876  (the numbers below describe the working tree, not HEAD)
+graph artifact: .cache/graph.json; built from commit ca0886cd1d3c5330c87270ed50bc21118241b598; 56433 nodes, 136424 edges
+------------------------------------------------------------------------------
+[PASS] the manifest lists roughly forty stops: 40 stops in tour/grand-tour.yaml
+[PASS] no stop is listed twice
+[PASS] every stop is a record in the graph
+[PASS] every stop is a cornerstone (importance 1): 40 of 40
+[PASS] every stop has Arabic and English prose
+
+The mapping (stop, record, how it is anchored, CE year, Hijri year, century, wings | relations arriving, records linked, pathways):
+   1  building/kaaba                         period   floats in 500-632 CE (pre-islamic-arabia, prophetic-era) objects        |    19    19  11
+   2  event/first-revelation                 own-date CE   610  AH   -11 (state)  century  0               time           |    16    15   3
+   3  person/khadija                         own-date CE   619  AH    -3 (arith)  century  0               people         |    32    28   5
+   4  event/hijra                            own-date CE   622  AH     1 (arith)  century  1               time           |    58    58   3
+   5  event/battle-of-badr                   own-date CE   624  AH     2 (state)  century  1               time           |   138   137   4
+   6  concept/five-pillars                   period   floats in 610-632 CE (prophetic-era)                 ideas          |    10    10   1
+   7  practice/salah                         period   floats in 610-632 CE (prophetic-era)                 living         |   419   419   4
+   8  event/conquest-of-mecca                own-date CE   630  AH     8 (state)  century  1               time           |    62    61   3
+   9  practice/hajj                          period   floats in 610-632 CE (prophetic-era)                 living         |   121   121  11
+  10  person/muhammad                        own-date CE   632  AH    11 (state)  century  1               people         |  1698  1696  19
+  11  person/abu-bakr                        own-date CE   634  AH    13 (state)  century  1               people         |   204   185  11
+  12  person/umar-ibn-al-khattab             own-date CE   644  AH    23 (state)  century  1               people         |   500   474   8
+  13  person/ali-ibn-abi-talib               own-date CE   661  AH    40 (state)  century  1               people         |   242   209  10
+  14  person/aisha                           own-date CE   678  AH    58 (state)  century  1               people         |   226   226   9
+  15  building/dome-of-the-rock              own-date CE   691  AH    72 (arith)  century  1               objects        |     7     7   7
+  16  person/umar-ibn-abd-al-aziz            own-date CE   720  AH   102 (arith)  century  2               people         |    79    77   1
+  17  place/baghdad                          own-date CE   762  AH   145 (arith)  century  2               place          |  1086   980  32
+  18  person/malik-ibn-anas                  own-date CE   795  AH   179 (state)  century  2               people         |  1651  1649   8
+  19  person/al-khwarizmi                    own-date CE   850  AH   235 (state)  century  3               people         |    10    10   5
+  20  person/al-bukhari                      own-date CE   870  AH   256 (state)  century  3               people         |    98    98   8
+  21  person/al-tabari                       own-date CE   923  AH   310 (state)  century  4               people         |    24    24   4
+  22  place/cairo                            own-date CE   969  AH   358 (arith)  century  4               place          |   587   504  25
+  23  building/al-azhar                      period   floats in 945-1517 CE (buyid-seljuk-fatimid-era, crusades-ayyubid-mamluk) objects,today  |     3     3  13
+  24  person/ibn-sina                        own-date CE  1037  AH   428 (state)  century  5               people         |    25    19   8
+  25  person/al-ghazali-abu-hamid            own-date CE  1111  AH   505 (state)  century  6               people         |    18    17   9
+  26  work/ihya-ulum-al-din                  author   CE  1111  AH   505 (state)  century  6               words,ideas    |    18    18   5
+  27  person/ibn-rushd                       own-date CE  1198  AH   595 (state)  century  6               people         |    19    16   5
+  28  event/sack-of-baghdad-656              own-date CE  1258  AH   656 (state)  century  7               time           |     6     5   4
+  29  person/baybars                         own-date CE  1277  AH   676 (state)  century  7               people         |    26    25   7
+  30  person/ibn-taymiyya                    own-date CE  1328  AH   728 (state)  century  8               people         |    35    33   2
+  31  person/ibn-battuta-muhammad            own-date CE  1374  AH   776 (state)  century  8               people         |     9     9   6
+  32  person/ibn-khaldun                     own-date CE  1406  AH   808 (state)  century  9               people         |     7     7   7
+  33  event/conquest-constantinople-857      own-date CE  1453  AH   857 (state)  century  9               time           |    15    15   2
+  34  event/fall-of-granada-897              own-date CE  1492  AH   897 (state)  century  9               time           |     4     4   2
+  35  person/sulayman-al-qanuni              own-date CE  1566  AH   974 (state)  century 10               people         |   166   157   4
+  36  building/taj-mahal                     own-date CE  1632  AH  1042 (arith)  century 11               objects        |     5     4   3
+  37  person/ahmed-iii-uthmani               own-date CE  1736  AH  1149 (arith)  century 12               people         |    53    50   0
+  38  person/mahmud-ii-uthmani               own-date CE  1839  AH  1256 (arith)  century 13               people         |   124   120   0
+  39  person/malcolm-x                       own-date CE  1965  AH  1385 (arith)  century 14               people         |     5     5   5
+  40  object/kiswa                           none     no date, no period: crosses the centuries            objects,made   |     3     3   4
+
+[PASS] the stops stand in river order (dated stops never run backwards; a stop dated by its period stands inside it)
+
+Wings, from each record's own `wings` field:
+  time      7 stops: 2, 4, 5, 8, 28, 33, 34
+  place     2 stops: 17, 22
+  people   22 stops: 3, 10, 11, 12, 13, 14, 16, 18, 19, 20, 21, 24, 25, 27, 29, 30, 31, 32, 35, 37, 38, 39
+  ideas     2 stops: 6, 26
+  objects   5 stops: 1, 15, 23, 36, 40
+  words     1 stops: 26
+  living    2 stops: 7, 9
+  today     1 stops: 23
+  made      1 stops: 40
+[PASS] the stops span all nine wings: missing: none
+[PASS] every stop sits in at least one wing
+
+Centuries, from stops with a date of their own or their author's (0 = before the Hijra, 15 = the present century):
+  century  0:  2 stops: 2, 3
+  century  1:  9 stops: 4, 5, 8, 10, 11, 12, 13, 14, 15
+  century  2:  3 stops: 16, 17, 18
+  century  3:  2 stops: 19, 20
+  century  4:  2 stops: 21, 22
+  century  5:  1 stops: 24
+  century  6:  3 stops: 25, 26, 27
+  century  7:  2 stops: 28, 29
+  century  8:  2 stops: 30, 31
+  century  9:  3 stops: 32, 33, 34
+  century 10:  1 stops: 35
+  century 11:  1 stops: 36
+  century 12:  1 stops: 37
+  century 13:  1 stops: 38
+  century 14:  1 stops: 39
+  century 15:  0 stops: -
+[PASS] the stops span all fourteen Hijri centuries: empty: none
+  stops whose century rests on the arithmetic conversion within one year of a century boundary: 4 event/hijra (AH 1 by arithmetic)
+  stops that float (counted for wings, never for centuries): 6: 1 building/kaaba; 6 concept/five-pillars; 7 practice/salah; 9 practice/hajj; 23 building/al-azhar; 40 object/kiswa
+
+Completion room: records that hang directly off this path (a relation other than related_to with at least one stop; stops and stubs excluded): 6234
+Completion room: pairs of stops with a relation between them in the graph: 27
+------------------------------------------------------------------------------
+RESULT: GREEN (9 checks passed)

@@ -36,6 +36,19 @@ person/timur-lang person/usman-dan-fodio person/shah-waliullah-al-dahlawi person
 person/idris person/hud event/battle-of-al-zab event/balat-al-shuhada event/abbasid-dawa-in-khurasan
 concept/ashariyya concept/al-mahdi
 """.split()
+# Subjects a first-time visitor would look for that have no record. Two changes met here on 11 November 2026. Main removed
+# the typed list (it matched slugs, not labels, and named subjects that exist) and took twelve of those subjects into
+# INCLUDE above. The Grand Tour mission kept the list but stopped typing it: on 11 November 2026
+# a verifier whose job was to find each claimed absence under another spelling found records for 24 of the 31 subjects the
+# earlier list named. What survived is in scripts/fable/absences.json (every spelling searched is listed there) and is
+# re-checked by scripts/fable/o07_absences.py; the readable account is docs/fable-run/ABSENCES.md.
+def wanted():
+    path = os.path.join("scripts", "fable", "absences.json")
+    if not os.path.exists(path):
+        return []
+    return [s["subject"] + (" (a stub only)" if s["status"] == "stub-only" else "") for s in json.load(open(path, encoding="utf-8"))["subjects"] if s["status"] != "found"]
+
+
 ID = re.compile(r"\b((?:person|place|event|building|concept|work|polity|group|object|practice|period|journey|invention|question)/[a-z0-9][a-z0-9-]*)")
 SKIP_SRC = {"source", "media", "screen", "listing", "dataset"}
 
@@ -241,6 +254,8 @@ def report(ents, canon, promoted=(), rank=None):
         L.append(f"| {cls} | {row['n']} | {row['t1']} | {row['nop']} | {row['short']} | {row['draft']} | {row['noimg']} |")
     L += [f"| **all** | **{tot['n']}** | **{tot['t1']}** | **{tot['nop']}** | **{tot['short']}** | **{tot['draft']}** | **{tot['noimg']}** |", "",
           "\"Under 300 words\" counts the Arabic prose file, front matter included, and includes the records with none. \"No image\" means no `media/` record depicts the subject; for prophets and Companions that is the rule, not a gap.", "",
+          "## Not in the graph yet", "",
+          "Subjects a visitor would look for that have no record. Each was searched under every spelling listed in `scripts/fable/absences.json` by a verifier whose job was to find it; an earlier version of this list named 31 subjects, and 24 of them turned out to have records under another name (`docs/fable-run/ABSENCES.md`). Twelve of those records have since entered the canon as editorial includes (the `INCLUDE` list in the script). Still absent: " + "; ".join(wanted()) + ".", "",
           "## The list", "",
           "Marks after a name: ∅ no Arabic prose, ✎ under 300 words, ◌ draft, + editorial include, ↑ raised by the century floor."]
     for cls in QUOTA:

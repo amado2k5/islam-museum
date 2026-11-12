@@ -12,6 +12,10 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-7
 external_ids: { wikidata: "Q8258" }
+relations:
+  - { type: mentioned_in, target: work/muruj-al-dhahab, sources: [source/muruj-al-dhahab] }
+  - { type: mentions, target: person/shahrazad, sources: [source/muruj-al-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: mentions, target: person/harun-al-rashid, sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); EI2 account added in ei2-b010 part 3dm (part 1 of 4)" }

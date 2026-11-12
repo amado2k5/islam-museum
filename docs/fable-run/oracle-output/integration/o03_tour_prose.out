@@ -1,0 +1,57 @@
+ORACLE 03: Tour prose meets the published standard, deepened only from already-cited sources (statement 3)
+file: scripts/fable/o03_tour_prose.py
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
+baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 876  (the numbers below describe the working tree, not HEAD)
+------------------------------------------------------------------------------
+stop | record | Arabic words | English words | sentences without a citation (ar/en) | citations outside the baseline source list
+ 1 | building/kaaba                         |  171 |  234 | 0/0 | -
+ 2 | event/first-revelation                 |  167 |  244 | 0/0 | -
+ 3 | person/khadija                         |  152 |  214 | 0/0 | -
+ 4 | event/hijra                            |  160 |  224 | 0/0 | -
+ 5 | event/battle-of-badr                   |  177 |  247 | 0/0 | -
+ 6 | concept/five-pillars                   |  169 |  248 | 0/0 | -
+ 7 | practice/salah                         |  169 |  237 | 0/0 | -
+ 8 | event/conquest-of-mecca                |  188 |  249 | 0/0 | -
+ 9 | practice/hajj                          |  166 |  249 | 0/0 | -
+10 | person/muhammad                        |  178 |  247 | 0/0 | -
+11 | person/abu-bakr                        |  204 |  249 | 0/0 | -
+12 | person/umar-ibn-al-khattab             |  163 |  244 | 0/0 | -
+13 | person/ali-ibn-abi-talib               |  180 |  248 | 0/0 | -
+14 | person/aisha                           |  172 |  249 | 0/0 | -
+15 | building/dome-of-the-rock              |  172 |  238 | 0/0 | -
+16 | person/umar-ibn-abd-al-aziz            |  159 |  236 | 0/0 | -
+17 | place/baghdad                          |  176 |  248 | 0/0 | -
+18 | person/malik-ibn-anas                  |  163 |  234 | 0/0 | -
+19 | person/al-khwarizmi                    |  156 |  222 | 0/0 | -
+20 | person/al-bukhari                      |  169 |  246 | 0/0 | -
+21 | person/al-tabari                       |  164 |  242 | 0/0 | -
+22 | place/cairo                            |  163 |  249 | 0/0 | -
+23 | building/al-azhar                      |  173 |  234 | 0/0 | -
+24 | person/ibn-sina                        |  191 |  240 | 0/0 | -
+25 | person/al-ghazali-abu-hamid            |  159 |  236 | 0/0 | -
+26 | work/ihya-ulum-al-din                  |  160 |  245 | 0/0 | -
+27 | person/ibn-rushd                       |  167 |  237 | 0/0 | -
+28 | event/sack-of-baghdad-656              |  181 |  247 | 0/0 | -
+29 | person/baybars                         |  170 |  244 | 0/0 | -
+30 | person/ibn-taymiyya                    |  168 |  247 | 0/0 | -
+31 | person/ibn-battuta-muhammad            |  171 |  241 | 0/0 | -
+32 | person/ibn-khaldun                     |  158 |  237 | 0/0 | -
+33 | event/conquest-constantinople-857      |  180 |  245 | 0/0 | -
+34 | event/fall-of-granada-897              |  157 |  245 | 0/0 | -
+35 | person/sulayman-al-qanuni              |  163 |  242 | 0/0 | -
+36 | building/taj-mahal                     |  194 |  246 | 0/0 | -
+37 | person/ahmed-iii-uthmani               |  170 |  248 | 0/0 | -
+38 | person/mahmud-ii-uthmani               |  171 |  246 | 0/0 | -
+39 | person/malcolm-x                       |  166 |  233 | 0/0 | -
+40 | object/kiswa                           |  158 |  233 | 0/0 | -
+
+[PASS] every stop has an Arabic and an English lead
+[PASS] every lead is 150 to 250 words in both languages
+[PASS] every sentence of a lead carries a citation
+[PASS] no lead cites a source the record did not already list at the baseline
+[PASS] no typed honorific or Qur'an bracket in a lead
+  cite-check: 40 pass, 0 fail of 40 record(s) — the bar is citations to defined sources plus recorded provenance (docs/agents/publication-standard.md)
+[PASS] the publication bar holds for every stop (cite-check): cite-check: 40 pass, 0 fail of 40 record(s)
+------------------------------------------------------------------------------
+RESULT: GREEN (6 checks passed)
