@@ -1830,3 +1830,20 @@ Next step: episode 5.
 | Eclipse account at the death of the Prophet's son | ep04 00:24:30–00:25:00 | Cut off by a loop; not recorded | Clarity | Open |
 | Praise of a state's equal treatment and of a channel's patron | ep04 00:26:30–00:27:30, 00:45:00–00:46:00 | Praise of a state and of a named ruler is not lesson content; not recorded | Content rule | Open |
 | Private details of callers | ep04 00:38:30–00:46:00 | Kept general | Privacy | Open |
+
+### al-naba-al-safi, episode 10 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-2)
+
+Episode 10 read in full (49 min of transcript) before writing. 12 points written (ar, en, ur); new `about` edges for the people and passages named; 8 needs_source (unchained hadiths, accounts and sayings in sense, rulings without evidence).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep10 (the road to happiness) | about 49 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 12 points | new `about` edges | 12 | 8 needs_source | this PR |
+
+Next step: episode 11.
+
+| Excluded (al-naba-al-safi ep10) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae and the long closing prayer | ep10 00:00:00–00:01:00, 00:14:00–00:14:30, 00:32:00–00:32:30, 00:46:00–00:48:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep10 00:06:00, 00:13:00, 00:20:00–00:20:30, 00:39:30–00:40:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep10 00:22:30, 00:28:00, 00:42:30 | Not reproduced | Sources policy | Open |
+| Private details of callers | ep10 00:35:30–00:45:00 | Kept general | Privacy | Open |
