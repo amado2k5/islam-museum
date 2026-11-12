@@ -1701,6 +1701,10 @@ explore:
       title: "The Fire Browser"
       desc: "Every mention of the Fire in the Qur'an, the Sunnah, the seerah and every harvested book — Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya and al-Sa'ir, its keepers, fuel, food and the bridge over it — and this world's fire too: Ibrahim's fire, Musa's burning tree and the fire of war — every verse and report cited."
       menu: "Browse the Fire in the Qur'an, hadith and books"
+    janna:
+      title: "Paradise Browser"
+      desc: "Every mention of Paradise (al-janna) in the Qur'an, the Sunnah, the seerah and every harvested book — al-Firdaws, the gardens of 'Adn, Dar al-Salam, its rivers, gates, degrees, soil and people, and every report of the Companions and Successors — with every verse and report cited."
+      menu: "Browse Paradise in the Qur'an, hadith and books"
     islamiceconomy:
       title: "Islamic Economy Browser"
       desc: "Every mention of money and Islamic economics, deeds and covenants, and endowment in the Qur'an, the Sunnah, the seerah and every harvested book — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — with every verse and report cited."
@@ -3516,6 +3520,37 @@ dua:
     curated:
       title: "The records about du'a"
       desc: "The museum's curated records on supplication itself: the practice of du'a, istighfar, istikhara, vows, the supplication for one's children, and the etiquettes the tradition records."
+janna:
+  title: "Paradise Browser"
+  lede: "Every mention and description of Paradise (al-janna) in the museum's sources: the Qur'anic names and descriptions, the hadiths about its gates, rivers, soil, degrees and people, what the seerah and history books carry, the reports of the Companions and Successors, and every mention in every harvested book — sourced records that grow as new texts land."
+  badge: Paradise explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Mentions are found at build time by a guarded lexicon over the passage texts: the unambiguous names (al-Firdaws, jannat 'Adn, Dar al-Salam, jannat al-Ma'wa and the Paradise collocations) count directly; the bare noun «الجنة/جنات/جنان» counts only beside a Paradise collocation so worldly gardens stay out; the fasting-shield matn «الصيام جنة» is masked; the jinn family is excluded by letter boundaries; and verified false positives are excluded by id. Every book harvested later brings its Paradise mentions here automatically once its passages land in the graph; curated records join through the janna-browser tag. Each passage is marked description when it paints Paradise, mention when it names it."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter Paradise records
+  filter_none: No matches.
+  empty: No Paradise records in this build yet.
+  kinds:
+    description: "Description — paints Paradise"
+    mention: "Mention — names it"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Every Qur'anic mention of Paradise: al-Firdaws, the gardens of 'Adn, jannat al-Na'im, jannat al-Khuld, jannat al-Ma'wa, Dar al-Salam, its rivers, fruits, purified spouses, chambers, the tree of Tuba and the verses where the garden is this world's."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The hadiths of the two Sahihs, the Muwatta, the Arba'in and the Sunan: the eight gates and Bab al-Rayyan, the soil of musk, the lowest degree of Paradise, the first group to enter, the houri and the rivers, and every report that describes or names the Garden."
+    seerah:
+      title: "In the seerah"
+      desc: "Every mention of Paradise in the seerah books — the promise to the martyrs, the visions, and the reports woven through the Prophet's biography — as those passages are harvested."
+    books:
+      title: "In the harvested books"
+      desc: "Every Paradise mention in every other harvested work — exegesis, history, adab, poetry — entering automatically the day its passages land."
+    curated:
+      title: "Curated records"
+      desc: "The museum's own records about Paradise — its names, gates, rivers, soil, degrees and people — shared through the janna-browser tag."
 nar:
   title: "The Fire Browser"
   lede: "Every mention of the Fire in the museum's sources: the verses of the Fire and its names — Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya and al-Sa'ir — the reports of its torment, keepers, fuel, zaqqum and boiling water, and the bridge over it, the «اتقوا النار» formulas of the Sunnah, the sayings of the Companions and the Successors, and this world's fire on its own shelf: Ibrahim's fire, the fire of Musa's tree, and the fire of war and cooking — in every harvested book, growing as new texts land."

@@ -64,3 +64,69 @@
 
 ## Batch 10 (run microsd-books-b18, Claude Code / claude-fable-5-2)
 - Pages read: vol. 9 pp. 340–343. Enriched `person/dhu-al-nun-al-misri` (notice 456, continued). The notice continues from 9/344 onward and is not finished.
+
+## Batch 11 (run microsd-books-b19, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 280–285. New draft `person/ahmad-ibn-asim-al-antaki` (449, 9/280–284). No death date entered: the notice's opening pages give none, and none was taken from elsewhere. Notice continues to about 9/310 (not yet mined). Notice 451 (heading illegible) still to identify.
+
+## Batch 12 (run microsd-books-b20, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 285–296. Enriched `person/ahmad-ibn-asim-al-antaki` (449, to 9/296). Notice continues to about 9/309 (not yet mined: 9/297–309).
+
+## Batch 13 (run microsd-books-b21, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 297–309. Notice 449 ends at 9/297 (closing poem, not transcribed). New draft `person/muhammad-ibn-al-mubarak-al-suri` (451, 9/298–309): the dialogue is attributed to Abu Nu'aym's grandfather's written record, the sayings to Muhammad ibn Asbagh ibn al-Faraj. The chains on 9/304–309 are described only, not quoted.
+- Identity: 451 is Muhammad ibn al-Mubarak al-Suri, not a separate heading; no existing record for him was found (searched data/person).
+
+## Batch 14 (run microsd-books-b22, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 344–349. Enriched `person/dhu-al-nun-al-misri` (456, to 9/349). Unclear OCR at 9/344 (the woman at the crops) rendered only in its clearest sense. Notice continues from 9/350.
+
+## Batch 15 (run microsd-books-b23, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 350–355. Enriched `person/dhu-al-nun-al-misri` (456, to 9/355). A Qur'an verse on 9/353 is referred to, not quoted (Qur'an text is never typed). Notice continues from 9/356.
+
+## Batch 16 (run microsd-books-b24, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 356–361. Enriched `person/dhu-al-nun-al-misri` (456, to 9/361). Notice continues from 9/362.
+
+## Batch 17 (run microsd-books-b25, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 362–368. Enriched `person/dhu-al-nun-al-misri` (456, to 9/368). The closing supplication on 9/368 is described, not quoted (Qur'an text is never typed). Notice continues from 9/369.
+
+## Batch 18 (run microsd-books-b26, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 369–375. Enriched `person/dhu-al-nun-al-misri` (456, to 9/375). Notice continues from 9/376.
+
+## Batch 19 (run microsd-books-b27, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 376–382. Enriched `person/dhu-al-nun-al-misri` (456, to 9/382). Notice continues from 9/383.
+
+## Batch 20 (run microsd-books-b28, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 383–389. Enriched `person/dhu-al-nun-al-misri` (456, to 9/389). The notice runs to about 9/395; 9/390–395 not yet read.
+
+## Batch 21 (run microsd-books-b29, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 390–395. Enriched `person/dhu-al-nun-al-misri`: notice 456 complete at about 9/395. The cosmic poem on 9/390–391 is described, not quoted. The hadith referred to on 9/394 is described, not quoted.
+
+## Batch 22 (run microsd-books-b30, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 51–55. Enriched `person/yahya-ibn-muadh-al-razi` (463, to 10/55); Hilyat source added to the record's sources. Notice continues from 10/56.
+
+## Batch 23 (run microsd-books-b31, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 56–61. Enriched `person/yahya-ibn-muadh-al-razi` (463, to 10/61). Notice continues from 10/62 to about 72.
+
+## Batch 24 (run microsd-books-b32, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 62–67. Enriched `person/yahya-ibn-muadh-al-razi` (463, to 10/67). Notice continues from 10/68 to about 72.
+
+## Batch 25 (run microsd-books-b33, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 68–70. Enriched `person/yahya-ibn-muadh-al-razi`: notice 463 complete at about 10/70. A new notice heading (OCR "٣٦٤ سعيد بن العباس الرازي", i.e. almost certainly notice 464, Sa'id ibn al-Abbas al-Razi) begins on 10/70. It is not in the queue and needs a separate lead; 10/71–72 belong to it.
+- Correction to the queue: notice 463 ends at about 10/70, not 72.
+
+## Batch 26 (run microsd-books-b34, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 70–72. New draft `person/said-ibn-al-abbas-al-razi` (464, 10/70–72). Identity: notice 464 is a real separate notice; its OCR heading number is 364, but the sequence (463 Yahya, 464 here, 465 al-Harith al-Muhasibi on 10/73) fixes it as 464. No existing record for this Sa'id was found in data/person. No death date entered: the notice gives none on these pages.
+- Notice 465 al-Harith al-Muhasibi begins on 10/73 and runs to about 110.
+
+## Batch 27 (run microsd-books-b35, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 73–77. Enriched `person/al-harith-al-muhasibi` (465, part one to 10/77); Hilyat source added to the record's sources. Notice continues from 10/78 to about 110.
+
+## Batch 28 (run microsd-books-b36, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 78–82. Enriched `person/al-harith-al-muhasibi` (465, to 10/82). Notice continues from 10/83. The Qur'anic verse on 10/82 is referred to, not quoted.
+
+## Batch 29 (run microsd-books-b37, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 83–88 (page 87 and the end of 88 read in full after a first draft had ellipses; the regenerated section was checked for ellipses and honorifics before committing). Enriched `person/al-harith-al-muhasibi` (465, to 10/88). Notice continues from 10/89 to about 110. The honorific in the source on 10/83 and 10/88 is not typed.
+
+## Batch 30 (run microsd-books-b38, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 89–94. Enriched `person/al-harith-al-muhasibi` (465, to 10/94). Notice continues from 10/95 to about 110. The hadith on humility on 10/90 is described, not quoted.
+
+## Batch 31 (run microsd-books-b39, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 95–100 (full text read before writing; the draft was rewritten in full after two earlier drafts had ellipses, and the regenerated output was checked for ellipses, honorifics and stray Latin text). Enriched `person/al-harith-al-muhasibi` (465, to 10/100). Notice continues from 10/101 to about 110. The Qur'anic verse cited on 10/99 is referred to, not quoted; the hadith on 10/99 is described.
