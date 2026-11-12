@@ -1,0 +1,17 @@
+id: passage/bukhari-api-2939
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2939"
+label: { ar: "صحيح البخاري — حديث 2939", en: "Sahih al-Bukhari 2939 — Fighting for the Cause of Allah (Jihaad)", ur: "صحیح بخاری — حدیث 2939" }
+text: "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم بَعَثَ بِكِتَابِهِ إِلَى كِسْرَى، فَأَمَرَهُ أَنْ يَدْفَعَهُ إِلَى عَظِيمِ الْبَحْرَيْنِ، يَدْفَعُهُ عَظِيمُ الْبَحْرَيْنِ إِلَى كِسْرَى، فَلَمَّا قَرَأَهُ كِسْرَى خَرَّقَهُ، فَحَسِبْتُ أَنَّ سَعِيدَ بْنَ الْمُسَيَّبِ قَالَ فَدَعَا عَلَيْهِمُ النَّبِيُّ صلى الله عليه وسلم أَنْ يُمَزَّقُوا كُلَّ مُمَزَّقٍ‏.‏"
+summary:
+  ar: "في صحيح البخاري؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih al-Bukhari; sending a letter or message to a party."
+  ur: "صحیح بخاری میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2939 (book 56 hadith 152); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

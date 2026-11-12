@@ -16,6 +16,7 @@ translations:
   en: { text: "Or dost thou ask of them (O Muhammad) any tribute? But the bounty of thy Lord is better, for He is Best of all who make provision.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کیا تم ان سے (تبلیغ کے صلے میں) کچھ مال مانگتے ہو، تو تمہارا پروردگار کا مال بہت اچھا ہے اور وہ سب سے بہتر رزق دینے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

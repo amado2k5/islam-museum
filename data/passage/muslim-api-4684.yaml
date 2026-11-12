@@ -1,0 +1,17 @@
+id: passage/muslim-api-4684
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4684"
+label: { ar: "صحيح مسلم — حديث 4684", en: "Sahih Muslim 4684 — The Book of Jihad and Expeditions", ur: "صحیح مسلم — حدیث 4684" }
+text: "… أَنَّ نَجْدَةَ، كَتَبَ إِلَى ابْنِ عَبَّاسٍ يَسْأَلُهُ عَنْ خَمْسِ، خِلاَلٍ ‏.‏ فَقَالَ ابْنُ عَبَّاسٍ لَوْلاَ أَنْ أَكْتُمَ، عِلْمًا مَا كَتَبْتُ إِلَيْهِ ‏.‏ كَتَبَ إِلَيْهِ نَجْدَةُ أَمَّا بَعْدُ فَأَخْبِرْنِي هَلْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَغْزُو بِالنِّسَاءِ وَهَلْ كَانَ يَضْرِبُ لَهُنَّ بِسَهْمٍ وَهَلْ كَانَ يَقْتُلُ الصِّبْيَانَ وَمَتَى يَنْقَضِي يُتْمُ الْيَتِيمِ وَعَنِ الْخُمْسِ لِمَنْ هُوَ فَكَتَبَ إِلَيْهِ ابْنُ عَبَّاسٍ كَتَبْت …"
+summary:
+  ar: "في صحيح مسلم؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih Muslim; sending a letter or message to a party."
+  ur: "صحیح مسلم میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4684 (book 32 hadith 166); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

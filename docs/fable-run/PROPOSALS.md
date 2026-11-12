@@ -79,16 +79,19 @@ The work is in the pull requests; a "no" to any entry is a revert of the named c
 - **One of them has a one-line cause.** On Arabic pages the site's forward arrows point right, back at their own label. The site mirrors them with `[dir="rtl"] .flip { transform: scaleX(-1) }` in `site/src/styles/global.css`, and a browser does not apply a transform to an inline box, so an arrow written as `<span class="flip">→</span>` in running text has never mirrored (it does inside a flex button, where the span becomes a box). Adding `display: inline-block` to that rule would fix every such arrow on the site. It is a shared stylesheet, so it is a whole-site rewrite and not this run's to make; the Tour's own arrows carry the declaration inline.
 - **What the run did.** Fixed nothing on those pages: the brief bars reworking existing pages. Each defect is in `docs/fable-run/vision/defects.json` with the screenshot it was seen in.
 - **Asked of the founder.** Whether a lane should take that list.
+- **Status on 12 November 2026, after main was merged into `release/uat`.** Main's rebuild of the Place wing map (pull request #6043) answers the seven defects the reviewers listed on that page, two of them major; they have not been looked for again on new screenshots. The rest of the list stands.
 
 ## P-12. The release-notes block at merge
 
 - **What the run found.** This branch's entries sit under `v1.17.0` in `CANARY.md`. Main has since used that number for other work and opened a newer block.
 - **What the run did.** Left the branch's block as it is, because renumbering against a moving main would have meant rebasing mid-run, which the brief forbids. `scripts/fable/integrate.sh` shows the merge conflicts only in `CANARY.md` and the generated `docs/coverage.md`.
 - **Asked of the founder.** At merge, to place this branch's block above main's newest under the next minor number, and to regenerate `docs/coverage.md`.
+- **Status on 12 November 2026.** Done on `release/uat` when main was merged into it: the block now sits above main's newest block, and `docs/coverage.md` was regenerated. The seven pull requests to main still carry the block as `v1.17.0`.
 
 ## P-13. Whether fame may gate the canon
 
 - **What the run found.** The canon's eligibility rule on main uses the count of Wikipedia language editions as one of its conditions. 489 of the 824 canon records need that count to be eligible; 315 qualify on the museum's own links alone. The brief for this run says outside fame may rank and never write. The oracle for statement 1 passes on the narrower reading (no record is in on fame alone; the count is never stored in a record).
 - **What the run did.** Did not re-select the canon. The count's cache is outside git and Wikidata's query service was rate-limited on the day.
+- **Status on 12 November 2026.** Main re-ran the selection the same day with twelve new editorial includes (840 records, 270 cornerstones; commit `cf95ef0ca0`). On `release/uat` that selection is merged with this run's century floor (271 cornerstones), and its three new cornerstones that had no wing were given one by the same class rule as P-2. The question below is unchanged.
 - **Asked of the founder.** Whether "rank, never write" should also mean "never gate". If so, the eligibility rule needs a structure-only form, and the canon would be re-selected (P-3 then matters: pin the input so the selection is reproducible).
 

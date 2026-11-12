@@ -16,6 +16,7 @@ translations:
   en: { text: "Say (unto them): If ye possessed the treasures of the mercy of my Lord, ye would surely hold them back for fear of spending, for man was ever grudging.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کہہ دو کہ اگر میرے پروردگار کی رحمت کے خزانے تمہارے ہاتھ میں ہوتے تو تم خرچ ہوجانے کے خوف سے (ان کو) بند رکھتے۔ اور انسان دل کا بہت تنگ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mal-fiqh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

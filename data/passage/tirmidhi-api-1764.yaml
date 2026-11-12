@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-1764
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1764"
+label: { ar: "جامع الترمذي — حديث 1764", en: "Jami' al-Tirmidhi 1764 — The Book on Clothing", ur: "جامع ترمذی — حدیث 1764" }
+text: "حَدَّثَنَا عَلِيُّ بْنُ حُجْرٍ، أَخْبَرَنَا الْفَضْلُ بْنُ مُوسَى، عَنْ عَبْدِ الْمُؤْمِنِ بْنِ خَالِدٍ، عَنْ عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ، عَنْ أُمِّ سَلَمَةَ، قَالَتْ كَانَ أَحَبَّ الثِّيَابِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم الْقَمِيصُ ‏.‏"
+summary:
+  ar: "في جامع الترمذي؛ ذكر ديوان أو بريد المراسلات."
+  en: "In Jami' al-Tirmidhi; mention of the chancery or the barid post."
+  ur: "جامع ترمذی میں؛ دیوآن یا بریڈ کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1764 (book 24 hadith 47); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

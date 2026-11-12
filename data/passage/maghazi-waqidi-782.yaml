@@ -1,0 +1,23 @@
+id: passage/maghazi-waqidi-782
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "782"
+label:
+  ar: "كتاب المغازي للواقدي — مراسلة قريش"
+  en: "al-Waqidi's Kitab al-Maghazi — correspondence with Quraysh"
+text: "هذا كتاب من محمد رسول اللاه لاسلم. لمن امن منهم بالله ، وشهد انه لا اله الا اللاه وان محمدا عبده ورسوله ؛ فانه امن بامان اللاه ، وله ذمة الله وذمة رسوله . وان امرنا وامركم واحد علي من دهمنا من"
+summary:
+  ar: "مقطع من كتاب المغازي للواقدي، في مراسلات قريش، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Waqidi's Kitab al-Maghazi, in the correspondence with Quraysh, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: person/muhammad, sources: [source/al-waqidi-maghazi] }
+provenance:
+  layer: own-research
+  source: "كتاب المغازي للواقدي ص 782 — مقتطف المكاتبات"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-seerah-mining-1
+tags: [mukatabat-browser]
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

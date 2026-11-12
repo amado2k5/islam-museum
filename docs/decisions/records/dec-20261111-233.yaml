@@ -1,0 +1,43 @@
+id: dec-20261111-233
+kind: "decision"
+date: "2026-11-11"
+expires_at: "2027-11-11"
+question_hash: 2a87f2a9cdde
+lane: "place-map"
+class: "process"
+modality: "repo"
+domain: "media"
+mode: "conservative"
+question: "On the Place wing map, 867 of 3,875 places could not be reached because they carry none of the twelve region ids, and 14 place records carry the coordinates [0, 0]. How should the map show them without changing any record: assign a display region by geometry and leave the [0, 0] places off the map but in the index, or leave them out, or edit the records?"
+options:
+  - "display only: a place's region on the map is its first tag among the twelve, else the region whose outline holds it (within two degrees), else Rest of the world; a place at [0, 0] is not plotted and stays in the index under the map; no record is edited"
+  - "leave untagged places off the map"
+  - "edit the records to add region tags and remove the [0, 0] coordinates"
+evidence:
+  - "AGENTS.md, golden set rule of 8 November 2026: existing content is never invalidated to suit a rule; the map adapts to the records"
+  - "data commit 79826d3aa6 of 9 November 2026 assigned regions by geometry for 324 places, the same method"
+  - "Result: 3,861 places on the map, 122 of them under Rest of the world (the Americas, Russia, southern Africa, Australia, the oceans); every one of the wing's 4,103 records is linked from the index under the map"
+  - "The 14 records at [0, 0] (jabal-amel, al-wardya-cemetery, fatimid-caliphate and others, tagged global) are listed in docs/site/place-map-review.md as a data follow-up for their lanes"
+  - "Reversible: site/src/lib/place-map.ts only; no data file is touched"
+status: decided
+step: rule
+decision: "media only from schema/enums/licenses.yaml; third-party content keeps its own licence; no figurative depictions of prophets or Companions; no AI-generated portraits"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-media-license): AGENTS.md (licences rule)."
+rule: "AGENTS.md (licences rule)"
+rule_id: "rule-media-license"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-media-license
+chain:
+  depth: 0
+  root_id: "rule:rule-media-license"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "6d596be3560bc4e6"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-media-license"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

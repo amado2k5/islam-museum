@@ -5,8 +5,9 @@ label:
   en: Granada
   ar: غرناطة
 summary:
-  en: Spanish city, capital of the Nasrid kingdom, the last Muslim state in Iberia (13th century to 1492), with the Alhambra.
-  ar: مدينة إسبانية، عاصمة مملكة بني نصر آخر الدول الإسلامية في الأندلس ⁦(من القرن الثالث عشر حتى 1492م)⁩، وفيها قصر الحمراء.
+  en: "City in the high valley of the Genil in southern al-Andalus. It displaced nearby Elvira when the Zirids made it their capital in the early eleventh century, passed to the Almoravids and Almohads, and from 635/1238 to 897/1492 was the capital of the Nasrid kingdom, the last Muslim state in Spain, and the seat of the Alhambra."
+  ar: "مدينة في أعالي وادي شنيل في جنوب الأندلس. حلت محل إلبيرة القريبة حين اتخذها بنو زيري عاصمة في أوائل القرن الخامس الهجري، ثم آلت إلى المرابطين والموحدين، وكانت من سنة 635هـ/1238م إلى سنة 897هـ/1492م عاصمة مملكة بني نصر، آخر دول المسلمين في إسبانيا، وفيها الحمراء."
+  ur: "جنوبی اندلس میں دریائے شنیل کی بالائی وادی کا شہر۔ پانچویں صدی ہجری کے اوائل میں بنو زیری نے اسے دارالحکومت بنایا تو اس نے قریبی البیرہ کی جگہ لے لی، پھر مرابطین اور موحدین کے پاس گیا، اور 635ھ/1238ء سے 897ھ/1492ء تک بنو نصر کی مملکت کا دارالحکومت رہا، جو سپین میں مسلمانوں کی آخری ریاست تھی، اور یہیں الحمراء ہے۔"
 wings:
 - place
 regions:
@@ -22,6 +23,7 @@ provenance:
   generated_by: Devin
   model: Devin (Cognition)
   run: person-place-geo-b
+  canon: "Prose and summaries written from the Encyclopaedia of Islam, 2nd ed., vol. 2, GHARNATA, PDF pp. 1054-1058 (history, then the town and its monuments; author signatures not legible in the scan), by Claude Code (claude-fable-5-2), run canon-cornerstones-4. The Alhambra section of the article (from p. 1058) is not used here."
 external_ids:
   geonames: '2517117'
   pleiades: '265921'
@@ -33,6 +35,11 @@ sources:
 - source/wikidata
 - source/nomisma
 - source/idai-gazetteer
+- source/encyclopaedia-of-islam-2
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: capital_of, target: polity/taifa-of-granada, note: "Zirid capital from the early 5th/11th century (EI2 vol. 2 p. 1054).", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: capital_of, target: polity/emirate-of-granada, note: "Nasrid capital, 635/1238 to 897/1492 (EI2 vol. 2 p. 1057).", sources: [source/encyclopaedia-of-islam-2] }
 importance: 1
 status:
   review: draft

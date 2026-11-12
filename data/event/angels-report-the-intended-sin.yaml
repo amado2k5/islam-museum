@@ -20,6 +20,8 @@ tags:
 - jinn-devils-browser
 - jd-angels
 - sayyiat-browser
+- hasanat-browser
+- hasanat-events
 sources:
 - source/ibn-rajab-jami-ulum-hikam
 relations:
@@ -41,6 +43,10 @@ relations:
   - source/ibn-rajab-jami-ulum-hikam
 - type: related_to
   target: concept/hamm
+  sources:
+  - source/ibn-rajab-jami-ulum-hikam
+- type: basis_for
+  target: concept/al-hasanat
   sources:
   - source/ibn-rajab-jami-ulum-hikam
 - type: related_to

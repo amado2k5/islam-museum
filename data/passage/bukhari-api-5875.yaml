@@ -1,0 +1,17 @@
+id: passage/bukhari-api-5875
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5875"
+label: { ar: "صحيح البخاري — حديث 5875", en: "Sahih al-Bukhari 5875 — Dress", ur: "صحیح بخاری — حدیث 5875" }
+text: "لَمَّا أَرَادَ النَّبِيُّ صلى الله عليه وسلم أَنْ يَكْتُبَ إِلَى الرُّومِ قِيلَ لَهُ إِنَّهُمْ لَنْ يَقْرَءُوا كِتَابَكَ إِذَا لَمْ يَكُنْ مَخْتُومًا‏.‏ فَاتَّخَذَ خَاتَمًا مِنْ فِضَّةٍ، وَنَقْشُهُ مُحَمَّدٌ رَسُولُ اللَّهِ‏.‏ فَكَأَنَّمَا أَنْظُرُ إِلَى بَيَاضِهِ فِي يَدِهِ‏.‏"
+summary:
+  ar: "في صحيح البخاري؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sahih al-Bukhari; sending a letter or message to a party."
+  ur: "صحیح بخاری میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5875 (book 77 hadith 92); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

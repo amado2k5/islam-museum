@@ -1,0 +1,17 @@
+id: passage/nasai-api-1341
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1341"
+label: { ar: "السنن النسائي — حديث 1341", en: "Sunan al-Nasa'i 1341 — The Book of Forgetfulness (In Prayer)", ur: "سنن النسائی — حدیث 1341" }
+text: "… مَنْصُورٍ، عَنْ سُفْيَانَ، قَالَ سَمِعْتُهُ مِنْ، عَبْدَةَ بْنِ أَبِي لُبَابَةَ وَسَمِعْتُهُ مِنْ عَبْدِ الْمَلِكِ بْنِ عُمَيْرٍ، كِلاَهُمَا سَمِعَهُ مِنْ، وَرَّادٍ، كَاتِبِ الْمُغِيرَةِ بْنِ شُعْبَةَ قَالَ كَتَبَ مُعَاوِيَةُ إِلَى الْمُغِيرَةِ بْنِ شُعْبَةَ أَخْبِرْنِي بِشَىْءٍ، سَمِعْتَهُ مِنْ، رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ فَقَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا قَضَى الصَّلاَةَ قَالَ ‏ \"‏ لاَ إِلَهَ إِلاَّ اللَّه …"
+summary:
+  ar: "في السنن النسائي؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan al-Nasa'i; sending a letter or message to a party."
+  ur: "سنن النسائی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1341 (book 13 hadith 163); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/muwatta-api-1527
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1527"
+label: { ar: "موطأ مالك — حديث 1527", en: "Muwatta Malik 1527 — Hudud", ur: "موطأ مالک — حدیث 1527" }
+text: "أَنَّ الْعَبْدَ الآبِقَ إِذَا سَرَقَ لَمْ تُقْطَعْ يَدُهُ وَأَنَّ اللَّهَ تَبَارَكَ وَتَعَالَى يَقُولُ فِي كِتَابِهِ ‏{‏وَالسَّارِقُ وَالسَّارِقَةُ فَاقْطَعُوا أَيْدِيَهُمَا جَزَاءً بِمَا كَسَبَا نَكَالاً مِنَ اللَّهِ وَاللَّهُ عَزِيزٌ حَكِيمٌ‏}‏ ‏.‏ فَإِنْ بَلَغَتْ سَرِقَتُهُ رُبُعَ دِينَارٍ فَصَاعِدًا فَاقْطَعْ يَدَهُ ‏.‏ وَحَدَّثَنِي عَنْ مَالِكٍ، أَنَّهُ بَلَغَهُ أَنَّ الْقَاسِمَ بْنَ مُحَمَّدٍ، وَسَالِمَ بْنَ عَبْدِ اللَّهِ، وَعُرْوَةَ بْنَ الزُّبَيْرِ، كَانُوا …"
+summary:
+  ar: "في موطأ مالك؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Muwatta Malik; sending a letter or message to a party."
+  ur: "موطأ مالک میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/muwatta-malik] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1527 (book 41 hadith 8); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

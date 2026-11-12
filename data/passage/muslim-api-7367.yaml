@@ -1,0 +1,17 @@
+id: passage/muslim-api-7367
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7367"
+label: { ar: "صحيح مسلم — حديث 7367", en: "Sahih Muslim 7367 — The Book of Tribulations and Portents of the Last Hour", ur: "صحیح مسلم — حدیث 7367" }
+text: "… أَحَدٌ فَلْيَأْتِ النَّهْرَ الَّذِي يَرَاهُ نَارًا وَلْيُغَمِّضْ ثُمَّ لْيُطَأْطِئْ رَأْسَهُ فَيَشْرَبَ مِنْهُ فَإِنَّهُ مَاءٌ بَارِدٌ وَإِنَّ الدَّجَّالَ مَمْسُوحُ الْعَيْنِ عَلَيْهَا ظَفَرَةٌ غَلِيظَةٌ مَكْتُوبٌ بَيْنَ عَيْنَيْهِ كَافِرٌ يَقْرَؤُهُ كُلُّ مُؤْمِنٍ كَاتِبٍ وَغَيْرِ كَاتِبٍ ‏\"‏ ‏.‏"
+summary:
+  ar: "في صحيح مسلم؛ ذكر كتابة كتاب أو إرساله."
+  en: "In Sahih Muslim; mention of writing or dispatching a letter."
+  ur: "صحیح مسلم میں؛ خط لکھنے یا بھیجنے کا ذکر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7367 (book 54 hadith 129); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

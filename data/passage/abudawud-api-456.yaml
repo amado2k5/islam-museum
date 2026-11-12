@@ -1,0 +1,17 @@
+id: passage/abudawud-api-456
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "456"
+label: { ar: "سنن أبي داود — حديث 456", en: "Sunan Abi Dawud 456 — Prayer (Kitab Al-Salat)", ur: "سنن ابی داؤد — حدیث 456" }
+text: "أَبِيهِ، سَمُرَةَ أَنَّهُ كَتَبَ إِلَى ابْنِهِ أَمَّا بَعْدُ فَإِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَأْمُرُنَا بِالْمَسَاجِدِ أَنْ نَصْنَعَهَا فِي دِيَارِنَا وَنُصْلِحَ صَنْعَتَهَا وَنُطَهِّرَهَا ‏.‏"
+summary:
+  ar: "في سنن أبي داود؛ إرسال كتاب أو رسالة إلى طرف."
+  en: "In Sunan Abi Dawud; sending a letter or message to a party."
+  ur: "سنن ابی داؤد میں؛ کسی فریق کو خط یا پیغام بھیجنا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-abi-dawud] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 456 (book 2 hadith 66); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from the hadith-api Arabic edition; label, summary and excerpt are the museum's own words" }

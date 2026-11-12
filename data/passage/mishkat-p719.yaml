@@ -1,0 +1,22 @@
+id: passage/mishkat-p719
+class: passage
+unit: hadith
+work: work/mishkat-al-masabih
+ref: "719"
+label:
+  ar: "مشكاة المصابيح 719 — السيئات والهجو"
+  en: "Mishkat al-Masabih {pg} — evil deeds and lampooning"
+text: "أما السقاية وهي معروفة ، وأما العمارة فانه كان يحمل قريشا على عمارته بالخير وترك السيئات فيه وقول الهجو ، قال مجاهد : أعتق العباس عند موته سبعين مملوكاً ، ولد قبل سنة الفيل ومات يوم الجمعة لاثنتي…"
+summary:
+  ar: "مقطع من مشكاة المصابيح للتبريزي، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Tabrizi's Mishkat al-Masabih, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/mishkat-al-masabih] }
+  - { type: mentions, target: person/muhammad, sources: [source/mishkat-al-masabih] }
+provenance:
+  layer: own-research
+  source: "مشكاة المصابيح للتبريزي — نسخة مستخرجة، ص 719"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: sayyiat-mining-2
+sources: [source/mishkat-al-masabih]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
