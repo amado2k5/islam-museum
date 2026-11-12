@@ -1,0 +1,24 @@
+id: passage/qisas-anbiya-kisai-297
+class: passage
+unit: chapter
+work: work/qisas-al-anbiya-kisai
+ref: "297"
+label:
+  ar: "قصص الأنبياء للكسائي — مراسلة بلقيس"
+  en: "al-Kisai's Qisas al-Anbiya — correspondence with Bilqis"
+text: "فلما ورد عليه كتابها قام قائما فعمد الى افخر ثياب خليسه وركب فى سادات قومه وسار فلما قرب من القصدر"
+summary:
+  ar: "مقطع من قصص الأنبياء للكسائي، في وصول كتاب بلقيس إلى سليمان، من النسخة المستخرجة؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Kisai's Qisas al-Anbiya, on Bilqis's letter reaching Sulayman, from the extracted copy; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/qisas-al-anbiya-kisai-kahana] }
+  - { type: mentions, target: person/sulayman, sources: [source/qisas-al-anbiya-kisai-kahana] }
+  - { type: mentions, target: person/bilqis, sources: [source/qisas-al-anbiya-kisai-kahana] }
+provenance:
+  layer: own-research
+  source: "قصص الأنبياء للكسائي ص 297 — مقتطف المكاتبات — الدفعة الرابعة"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-seerah-mining-4
+tags: [mukatabat-browser]
+sources: [source/qisas-al-anbiya-kisai-kahana]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }

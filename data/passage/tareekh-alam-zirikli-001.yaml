@@ -1,0 +1,23 @@
+id: passage/tareekh-alam-zirikli-001
+class: passage
+unit: chapter
+work: work/alam-al-zirikli
+ref: "128"
+label:
+  ar: "الأعلام — الزركلي — ص 128"
+  en: "الأعلام — الزركلي — p. 128"
+text: "ى المدينة ، فأسلم الإكيدر ، ورده رسول الله الى بلاده بعد أن كتب له كتابا يمنع المسلمين من التعرض لقومه ماداموا يؤدون الجزية . ولما قبض رسول الله بقض اكيدر المهد ، فأمر أبو بكر خالدا أن يسير اليه"
+summary:
+  ar: "مقطع من «الأعلام — الزركلي» يتضمن خبراً عن مكاتبة أو كتاب أو رسالة أو جواب في سياقها؛ النص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from «الأعلام — الزركلي» carrying a report of correspondence, a letter, epistle or reply in context; quoted within forty words per the sources policy."
+relations:
+  - { type: mentions, target: concept/al-mukatabat, sources: [source/alam-zirikli-1927-v2] }
+  - { type: mentions, target: person/muhammad, sources: [source/alam-zirikli-1927-v2] }
+provenance:
+  layer: own-research
+  source: "الأعلام — الزركلي ص 128 — مقتطف المكاتبات — tareekh"
+  generated_by: "Devin (SWE-2 Flash High)"
+  run: mukatabat-books-mining-1
+tags: [mukatabat-browser]
+sources: [source/alam-zirikli-1927-v2]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
