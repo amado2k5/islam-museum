@@ -496,6 +496,9 @@ open a new block on top with the new version and today's date.
 - **Al-Naba al-Safi (Omar Abdelkafy), episode 22 added to its series page, in three languages.** The episode, a video of about thirty-three minutes, is the lecturer's talk on ease and hardship: certainty that what is decreed will be, the story of Yaqub and Yusuf, not grieving over the past or worrying about the future, the supplication taught to Umm Salama and the one against worry and debt, and the bedtime glorification taught to Ali and Fatima. His opinions are labelled as his, 10 passages are marked needs_source (unchained hadiths, sayings and accounts in sense). The record is a draft awaiting a human read.
 
 ### Data
+- **Al-Naba al-Safi (Omar Abdelkafy), episode 23 added to its series page, in three languages.** The episode, a video of about forty-seven minutes, is the lecturer's talk on beautiful patience: the alternative to patience, why the predecessors were patient (understanding of trial, God's knowledge, contentment), patience without complaint, and patience between spouses and with children. His opinions are labelled as his, 10 passages are marked needs_source (unchained hadiths, sayings and accounts in sense, a number without a source). The record is a draft awaiting a human read.
+
+### Data
 - **Al-Munjiyat (Omar Abdelkafy), episode 16 added to its series page, in three languages.** The episode is the lecturer's talk on humility: the Companions' measure of character, Umar's five questions on knowing a witness, the neighbour, the character of humility and the hadiths on pride, the first degrees of humility (bowing to the truth and not opposing the transmitted with reason), Umar and the plague, and the case of the Jew and the sword. His opinions are labelled as his, 8 passages are marked needs_source (unchained accounts, sayings and hadiths in sense, rulings without evidence, garbled text). The record is a draft awaiting a human read.
 
 ### Data

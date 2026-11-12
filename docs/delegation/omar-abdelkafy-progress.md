@@ -2082,3 +2082,19 @@ Next step: episode 23.
 | Repeated stretches of episode 27 | ep28 and ep29 whole (written once each as short repeat sections) | Same content as ep27 | Duplication | Open |
 
 Resume point: none; ajaeb-al-kulub is complete (29 of 29). Branch from origin/main for any follow-up.
+### al-naba-al-safi, episode 23 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-12)
+
+Episode 23 read in full (47 min of transcript) before writing. 16 points written (ar, en, ur); new `about` edges for the people and passages named; 10 needs_source (unchained hadiths, sayings and accounts in sense, a number without a source).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep23 (beautiful patience and why the predecessors were patient) | about 47 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 16 points | new `about` edges | 16 | 10 needs_source | this PR |
+
+Next step: episode 24.
+
+| Excluded (al-naba-al-safi ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep23 00:00:00–00:00:30, 00:16:00, 00:31:30–00:32:00, 00:34:30, 00:45:30–00:47:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep23 00:03:00, 00:05:00, 00:09:30, 00:14:00, 00:20:00, 00:23:30–00:24:30, 00:30:30, 00:33:00, 00:42:30, 00:45:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Interrupted or unusable calls | ep23 00:35:00–00:40:30 | No usable question was heard | Clarity | Open |
+| Poetry quoted | ep23 00:05:30–00:06:00, 00:08:30, 00:36:30 | Not reproduced | Sources policy | Open |
