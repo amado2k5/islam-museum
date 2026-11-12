@@ -1875,3 +1875,277 @@ New record work/ajaeb-al-kulub (29 episodes in the harvest, 87 files, about seve
 | Repetition loops, stray non-speech and garbled windows | ep02 00:06:00 (non-speech "Oh, oh."); ep03 00:06:00 (a basmala repeated as a loop), 00:02:00 (a long rambling sentence on ethics and faith, only the clear claim kept), 00:03:00 (a half-heard line on living among people); ep04 00:01:00 (a line on Joseph's brothers, garbled), 00:05:00 (a half-clear clause) | Not speech or not recoverable | Loop check, Clarity | Open |
 
 Resume point: ajaeb-al-kulub episode 5 (branch from origin/main).
+### al-naba-al-safi, episode 14 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-4)
+
+Episode 14 read in full (50 min of transcript) before writing. 11 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (unchained accounts, hadiths and sayings in sense, rulings without evidence, an unsourced medical claim).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep14 (Ja'far al-Sadiq's counsel to Sufyan) | about 50 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 11 points | new `about` edges | 11 | 9 needs_source | this PR |
+
+Next step: episode 15.
+
+| Excluded (al-naba-al-safi ep14) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements and the long closing prayer | ep14 00:00:00–00:00:30, 00:14:00–00:14:30, 00:32:00–00:32:30, 00:46:30–00:49:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep14 00:04:00, 00:18:00, 00:20:00, 00:30:30, 00:36:30–00:37:00, 00:39:00, 00:41:00–00:41:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep14 00:34:30–00:35:00 | Not reproduced | Sources policy | Open |
+| Question on bank home ownership | ep14 00:38:00–00:38:30 | Not answered in the recording; not recorded | Clarity | Open |
+
+### al-naba-al-safi, episode 15 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-5)
+
+Episode 15 read in full (51 min of transcript) before writing. 11 points written (ar, en, ur); new `about` edges for the people and passages named; 10 needs_source (unchained sayings, hadiths and accounts in sense, rulings and procedures without evidence).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep15 (whoever is given four is not denied four) | about 51 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 11 points | new `about` edges | 11 | 10 needs_source | this PR |
+
+Next step: episode 16.
+
+| Excluded (al-naba-al-safi ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements and the long closing prayer | ep15 00:00:00–00:00:30, 00:18:00–00:18:30, 00:36:00–00:36:30, 00:48:00–00:50:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep15 00:09:30, 00:16:30–00:17:00, 00:31:00, 00:33:30, 00:35:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Caller praise of the channel and advertising remarks | ep15 00:40:00–00:40:30, 00:45:30 | Not lesson content | Content rule | Open |
+| Remarks on publishing the lecturer's book | ep15 00:46:30 | Promotional; not recorded | Content rule | Open |
+
+### ajaeb-al-kulub ep05-ep08 (12 Nov 2026)
+
+34 points written for episodes 5 to 8 (ar, en, ur); 18 needs_source marks on reports without a chain, unattributed quotations and verses, and garbled readings; 11 new `about` edges. Quran verses referenced only through passage links (15-40, 12-24, 76-9, 3-175, 55-46, 51-50, 52-7, 3-173); none typed.
+
+| Excluded (ajaeb-al-kulub ep05-08) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep05 00:00:00, 00:06:00; ep06 00:00:00, 00:06:00; ep07 00:00:00, 00:08:00 (supplication); ep08 00:00:00, 00:06:00 | Not lesson content | Content rule | Open |
+| Repetition loops, non-speech and garbled windows | ep07 00:01:00 (a long loop of one letter after a partly clear definition); ep08 00:06:30 (non-speech "Oh."), 00:03:30 (a half-clear remark on the righteous), 00:04:00 (a half-clear remark on psychological testing); ep05 00:03:00 (a half-clear remark on scholars quoting each other); ep06 00:04:00 (a half-clear sentence before the roadside tree) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ajaeb-al-kulub episode 9 (branch from origin/main).
+### al-naba-al-safi, episode 17 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-6)
+
+Episode 17 read in full (49 min of transcript) before writing. 9 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (unchained hadiths, sayings and accounts in sense, an unsourced statistic).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep17 (hastening to good deeds and its four axes) | about 49 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 9 points | new `about` edges | 9 | 9 needs_source | this PR |
+
+Next step: episode 18.
+
+| Excluded (al-naba-al-safi ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements and the long closing prayer | ep17 00:00:00–00:00:30, 00:19:00–00:19:30, 00:34:00–00:34:30, 00:46:30–00:49:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep17 00:05:00, 00:17:00, 00:23:30, 00:36:30, 00:48:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep17 00:42:00–00:44:30 | Not reproduced | Sources policy | Open |
+
+### ajaeb-al-kulub ep09-ep12 (12 Nov 2026)
+
+32 points written for episodes 9 to 12 (ar, en, ur); 18 needs_source marks; 12 new `about` edges. Episode 11 is a near-duplicate of episode 10 (the two transcripts match almost word for word): it is written as a short repeat section with its own timestamps and flagged needs_source, the cause (duplicate recording or repeated talk) not checked by listening. Proposal for the founder, not applied: ep09 00:01:00 holds the lecturer's claim that taking anxiety medicine shows reliance has left the heart; the record stays `sensitivity: contested`, and the claim is described as his opinion, not medical advice. Quran verses referenced only through passage links (3-173, 14-37, 5-23, 65-3, 21-69, 7-146, 40-35, 16-23, 2-34); none typed.
+
+| Excluded (ajaeb-al-kulub ep09-12) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep09 00:00:00, 00:05:30 (supplication), 00:06:00; ep10 00:00:00, 00:05:30 (supplication); ep11 00:00:00, 00:05:30; ep12 00:00:00, 00:05:30 (supplication) | Not lesson content | Content rule | Open |
+| Repetition loops, non-speech and garbled windows | ep11 00:04:30 (a very long loop of one letter); ep10 00:04:30 (a short loop); ep12 00:06:00 (non-speech "Oh."), 00:02:30 (a half-clear remark on trailing garments); ep09 00:03:00 (a half-clear sentence on money and houses) | Not speech or not recoverable | Loop check, Clarity | Open |
+| Repeated stretches of episode 10 | ep11 00:00:00-00:06:00 (written once as a short repeat section) | Same content as ep10 | Duplication | Open |
+
+Resume point: ajaeb-al-kulub episode 13 (branch from origin/main).
+
+### ajaeb-al-kulub ep13-ep16 (12 Nov 2026)
+
+30 points written for episodes 13 to 16 (ar, en, ur); 16 needs_source marks; 13 new `about` edges. Quran verses referenced only through passage links (32-8, 5-54, 25-70, 20-84, 12-24, 26-89, 18-18); none typed.
+
+| Excluded (ajaeb-al-kulub ep13-16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep13 00:00:00, 00:06:00; ep14 00:00:00, 00:06:00 (supplication); ep15 00:00:00, 00:06:00; ep16 00:00:00 (greeting), 00:06:00 (supplication) | Not lesson content | Content rule | Open |
+| Repetition loops, non-speech and garbled windows | ep14 00:01:00 (a very long loop of one letter in the middle of the camel narration), 00:06:30 (non-speech "Oh."), 00:04:00 (a half-clear remark on the book hung on the neck); ep15 00:01:00 (a loop and a half-clear description of the first branch), 00:03:00 (an aside asking viewers to write along), 00:05:00 (a garbled clause); ep16 00:06:00 (garbled names other than Abu Lahab, including a name read as the grandfather of the Prophet, left out because the reading is unclear) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ajaeb-al-kulub episode 17 (branch from origin/main).
+### al-naba-al-safi, episode 18 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-7)
+
+Episode 18 read in full (49 min of transcript) before writing. 18 points written (ar, en, ur); new `about` edges for the people and passages named; 16 needs_source (unchained hadiths, sayings and accounts in sense, an unsourced statistic).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep18 (how did you rise, the eight claims in al-Shafi'i's answer) | about 49 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 18 points | new `about` edges | 18 | 16 needs_source | this PR |
+
+Next step: episode 19.
+
+| Excluded (al-naba-al-safi ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep18 00:00:00–00:00:30, 00:18:00–00:18:30, 00:33:00–00:33:30, 00:46:30–00:48:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep18 00:02:00, 00:04:30, 00:14:00, 00:22:30, 00:32:00, 00:46:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep18 00:24:30–00:25:00, 00:34:00 | Not reproduced | Sources policy | Open |
+| Private caller details and an off-topic personal question | ep18 00:39:30–00:44:30 | Generalised; the personal question was deferred by the lecturer | Privacy | Open |
+
+### al-naba-al-safi, episode 19 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-8)
+
+Episode 19 read in full (49 min of transcript) before writing. 21 points written (ar, en, ur); new `about` edges for the people and passages named; 15 needs_source (unchained hadiths, sayings and accounts in sense, ages and a verdict without a source).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep19 (the prayer of the righteous and the reasons an answer is delayed) | about 49 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 21 points | new `about` edges | 21 | 15 needs_source | this PR |
+
+Next step: episode 20.
+
+| Excluded (al-naba-al-safi ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep19 00:00:00–00:00:30, 00:17:30, 00:35:00, 00:46:30–00:49:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep19 00:14:00, 00:20:30, 00:29:30, 00:33:00, 00:37:30, 00:44:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep19 00:14:30–00:15:30, 00:35:00–00:36:00 | Not reproduced | Sources policy | Open |
+| Private caller details, an interrupted call and an off-topic personal question | ep19 00:39:00–00:44:30 | Generalised or left out; the interrupted call has no usable content | Privacy | Open |
+
+### ajaeb-al-kulub ep17-ep20 (12 Nov 2026)
+
+30 points written for episodes 17 to 20 (ar, en, ur); 17 needs_source marks; 12 new `about` edges. Quran verses referenced only through passage links (41-30, 24-15, 34-13, 2-152, 34-15, 14-7); none typed. A supplication the lecturer attributes to the Prophet at al-Ta'if (ep19) is described, not quoted, and flagged needs_source (no chain, partly garbled).
+
+| Excluded (ajaeb-al-kulub ep17-20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep17 00:00:00, 00:05:30 (supplication); ep18 00:00:00, 00:05:30; ep19 00:00:00, 00:04:30 (supplication); ep20 00:00:00, 00:05:00 (supplication) | Not lesson content | Content rule | Open |
+| Repetition loops, non-speech and garbled windows | ep18 00:06:00 (a long run of non-speech "oh"); ep19 00:03:00 (a long loop of one letter after the supplication), 00:05:00 (non-speech); ep17 00:01:30 (a half-clear sentence on avoiding a former companion in the street); ep20 00:03:00 (a half-clear anecdote on a man's health at fifty or sixty) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ajaeb-al-kulub episode 21 (branch from origin/main).
+### al-naba-al-safi, episode 20 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-9)
+
+Episode 20 read in full (48 min of transcript) before writing. 20 points written (ar, en, ur); new `about` edges for the people and passages named; 16 needs_source (unchained hadiths, sayings and accounts in sense).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep20 (four things that make what you miss of the world not matter, trust and truthful speech) | about 48 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 20 points | new `about` edges | 20 | 16 needs_source | this PR |
+
+Next step: episode 21.
+
+| Excluded (al-naba-al-safi ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep20 00:00:00–00:01:30, 00:17:30–00:18:00, 00:35:00–00:35:30, 00:47:00–00:48:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep20 00:02:00, 00:19:30–00:20:30, 00:24:30, 00:26:30, 00:27:30, 00:39:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Private caller details, noisy or interrupted calls and an off-topic personal question | ep20 00:37:00–00:40:00, 00:41:30–00:44:30 | Generalised or left out | Privacy | Open |
+
+### ajaeb-al-kulub ep21-ep24 (12 Nov 2026)
+
+30 points written for episodes 21 to 24 (ar, en, ur); 15 needs_source marks; 7 new `about` edges. Quran verses referenced only through passage links (49-7, 18-110, 39-53, 59-10, 59-9, 36-20, 36-26); none typed. Proposal for the founder, not applied: ep22 00:03:00 holds the lecturer's judgement that a person who misses the dawn prayer is of little worth to God; it is described as his opinion, the record stays `sensitivity: contested`.
+
+| Excluded (ajaeb-al-kulub ep21-24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep21 00:00:00 (a closing supplication belonging to the previous episode), 00:05:30; ep22 00:00:00, 00:05:00; ep23 00:00:00, 00:05:30 (supplication); ep24 00:05:30 (supplication), 00:06:00 | Not lesson content | Content rule | Open |
+| Sponsor and promotional lines naming a museum | ep21 00:04:00, 00:04:30, 00:06:00 | Sponsor line, not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep22 00:02:00 (a long loop after the remark on old age); ep23 00:01:30 (a very long loop in the middle of the Ibn al-Qayyim quotation), 00:03:00 (a half-clear sentence on prayer and worship); ep24 00:00:30 (garbled verses, not quoted), 00:05:00 (a half-clear remark) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ajaeb-al-kulub episode 25 (branch from origin/main).
+### al-naba-al-safi, episode 21 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-10)
+
+Episode 21 read in full (49 min of transcript) before writing. 19 points written (ar, en, ur); new `about` edges for the people and passages named; 18 needs_source (unchained hadiths, sayings and accounts in sense).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep21 (good character and chastity in food) | about 49 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 19 points | new `about` edges | 19 | 18 needs_source | this PR |
+
+Next step: episode 22.
+
+| Excluded (al-naba-al-safi ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep21 00:00:00–00:00:30, 00:11:00–00:11:30, 00:26:30–00:27:00, 00:37:30–00:38:00, 00:46:30–00:48:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep21 00:06:30, 00:23:00, 00:27:00, 00:34:00, 00:45:00, 00:46:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| A call about a deceased relative and a call with no audible question | ep21 00:38:00–00:40:00 | Private and not lesson content | Privacy | Open |
+| Poetry-like proverb quoted | ep21 00:27:30 | Summarised in sense, not reproduced | Sources policy | Open |
+
+### ajaeb-al-kulub ep25-ep27 (12 Nov 2026)
+
+23 points written for episodes 25 to 27 (ar, en, ur); 13 needs_source marks; 10 new `about` edges. Quran verses referenced only through passage links (3-134, 43-32, 28-68, 109-1, 112-1, 3-31, 5-54, 1-5); none typed.
+
+| Excluded (ajaeb-al-kulub ep25-27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep25 00:00:00, 00:05:00 (supplication); ep26 00:00:00 (greeting), 00:05:30; ep27 00:00:00, 00:05:00 (supplication), 00:05:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep26 00:04:00 (a very long loop of one letter in the middle of a sentence on love shown in conduct); ep27 00:03:00 (a very long loop in the Ibn Abbas story, where the lion was met is not recoverable); ep25 00:02:00 (the closing line of the Abd al-Malik anecdote is garbled), 00:03:30 (a half-clear sentence on encouraging rancour) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: ajaeb-al-kulub episode 28 (branch from origin/main).
+### al-naba-al-safi, episode 22 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-11)
+
+Episode 22 read in full (33 min of transcript) before writing. 13 points written (ar, en, ur); new `about` edges for the people and passages named; 10 needs_source (unchained hadiths, sayings and accounts in sense).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep22 (between ease and hardship) | about 33 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 13 points | new `about` edges | 13 | 10 needs_source | this PR |
+
+Next step: episode 23.
+
+| Excluded (al-naba-al-safi ep22) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep22 00:00:00–00:01:00, 00:16:00–00:17:00, 00:31:00–00:33:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep22 00:06:30, 00:07:30, 00:13:30, 00:17:30, 00:22:00, 00:23:00–00:24:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted | ep22 00:03:00–00:03:30 | Not reproduced | Sources policy | Open |
+
+### ajaeb-al-kulub ep28-ep29 (12 Nov 2026) - series complete
+
+9 points written for episodes 28 and 29 (ar, en, ur); 6 needs_source marks. Episodes 28 and 29 are near-duplicates of episode 27 (the three transcripts match almost word for word): they are written as short repeat sections with their own timestamps and flagged needs_source, the cause (duplicate recordings or a repeated talk) not checked by listening. Series total: 29 episodes, 226 points, 116 needs_source marks, 67 `about` edges, record `work/ajaeb-al-kulub` (status draft, sensitivity contested, decision dec-20261112-267). Three episodes (11, 28, 29) are repeats and may point to mislabelled archive entries; the founder may wish the archive page checked.
+
+| Excluded (ajaeb-al-kulub ep28-29) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, closing supplications and sign-offs | ep28 00:00:00, 00:05:00 (supplication), 00:05:30; ep29 00:00:00, 00:05:00 (supplication), 00:05:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep28 00:02:30 (a very long loop of one syllable), 00:03:00 (a very long loop in the Ibn Abbas story); ep29 00:03:30 (a very long loop of one letter) | Not speech or not recoverable | Loop check, Clarity | Open |
+| Repeated stretches of episode 27 | ep28 and ep29 whole (written once each as short repeat sections) | Same content as ep27 | Duplication | Open |
+
+Resume point: none; ajaeb-al-kulub is complete (29 of 29). Branch from origin/main for any follow-up.
+### al-naba-al-safi, episode 23 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-12)
+
+Episode 23 read in full (47 min of transcript) before writing. 16 points written (ar, en, ur); new `about` edges for the people and passages named; 10 needs_source (unchained hadiths, sayings and accounts in sense, a number without a source).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep23 (beautiful patience and why the predecessors were patient) | about 47 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 16 points | new `about` edges | 16 | 10 needs_source | this PR |
+
+Next step: episode 24.
+
+| Excluded (al-naba-al-safi ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, break announcements, supplications and the long closing prayer | ep23 00:00:00–00:00:30, 00:16:00, 00:31:30–00:32:00, 00:34:30, 00:45:30–00:47:00 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep23 00:03:00, 00:05:00, 00:09:30, 00:14:00, 00:20:00, 00:23:30–00:24:30, 00:30:30, 00:33:00, 00:42:30, 00:45:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Interrupted or unusable calls | ep23 00:35:00–00:40:30 | No usable question was heard | Clarity | Open |
+| Poetry quoted | ep23 00:05:30–00:06:00, 00:08:30, 00:36:30 | Not reproduced | Sources policy | Open |
+
+### al-naba-al-safi, episode 24 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-13)
+
+Episode 24 read in full (37 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people and passages named; 8 needs_source (unchained hadiths, sayings and accounts in sense, an unsourced proportion).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep24 (the tree of sorrow and its remedy) | about 37 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 15 points | new `about` edges | 15 | 8 needs_source | this PR |
+
+Next step: none, the series is complete (all 24 episodes are covered on the work page).
+
+| Excluded (al-naba-al-safi ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening cut off, break announcements, supplications and the long closing prayer | ep24 00:00:00, 00:23:30–00:24:00, 00:34:00–00:37:00 | The recording begins mid-speech; breaks and prayers are not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep24 00:02:30–00:03:30, 00:04:00, 00:25:00, 00:28:00, 00:33:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| A passing prayer for those affected by a storm and a poem of an Arab sage | ep24 00:22:00–00:23:30 | Not lesson content; the poem is not reproduced | Content rule and sources policy | Open |
+| Private caller details | ep24 00:27:00–00:28:30, 00:31:30–00:32:30 | Generalised | Privacy | Open |
+
+### mawkib-al-nour ep01 (12 Nov 2026)
+
+New record work/mawkib-al-nour (29 episodes in the harvest, about 43 minutes and 45 to 50 KB of transcript each, six times the length of ajaeb-al-kulub episodes); episode 1 written (ar, en, ur). Decision dec-20261112-268 (sensitivity: contested). 24 points; 14 needs_source marks; 11 `about` edges. Quran verses referenced only through passage links (7-31, 17-27, 21-90, 11-111, 7-12, 3-133, 6-162); none typed. This batch holds one episode, not two to four, because of the episode length; the coordinator should consider one episode per PR or more than one worker for this series.
+
+| Excluded (mawkib-al-nour ep01) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, closing supplications and sign-offs | ep01 00:00:00-00:01:00 (a recitation, Quran text never typed), 00:02:30, 00:09:30-00:10:00 (short asides), 00:42:00-00:42:30 | Not lesson content | Content rule, Quran rule | Open |
+| Repetition loops and garbled windows | ep01 00:13:30 (a very long loop of one letter), 00:34:00 (a very long loop), 00:23:00 (a half-clear aside), 00:39:30-00:40:00 (a half-clear remark) | Not speech or not recoverable | Loop check, Clarity | Open |
+
+Resume point: mawkib-al-nour episode 2 (branch from origin/main).
+
+### mawkib-al-nour ep02 (12 Nov 2026)
+
+24 points written for episode 2 (ar, en, ur); 16 needs_source marks; 10 new `about` edges (21 in all). Quran verses referenced only through passage links (50-18, 23-60, 11-111, 14-34, 68-11); none typed. One episode per PR because of the episode length (about 42 minutes).
+
+| Excluded (mawkib-al-nour ep02) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, closing supplications and sign-offs | ep02 00:00:00 (recitation, Quran text never typed), 00:00:30-00:01:00 (supplications), 00:40:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows | ep02 00:03:00 (a remark on prayer-bead counters made in Asia, only the clear claim kept), 00:10:30 (a half-clear aside on grammar), 00:30:30 (a half-clear sentence on God's concealment), 00:39:30 (a half-clear remark on packaging) | Not recoverable | Clarity | Open |
+
+Resume point: mawkib-al-nour episode 3 (branch from origin/main).
+
+### mawkib-al-nour ep03 (12 Nov 2026)
+
+24 points written for episode 3 (ar, en, ur); 14 needs_source marks; 9 new `about` edges (30 in all). Quran verses referenced only through passage links (49-13, 18-62, 24-31, 38-22, 24-30); none typed. Proposal for the founder, not applied: ep03 00:11:00 holds the lecturer's political-religious claim linking unanswered prayer for al-Aqsa to doubtful money; it is described as his opinion and the record stays `sensitivity: contested`.
+
+| Excluded (mawkib-al-nour ep03) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, closing supplications and sign-offs | ep03 00:00:00 (recitation, Quran text never typed), 00:00:30-00:02:30 (greetings and recap of supplications), 00:40:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep03 00:14:00 (a long loop), 00:13:30 (a half-clear remark on dress), 00:24:30 (a half-clear aside), 00:30:30 (a half-clear remark on a song), 00:35:00 (a half-clear remark on scholars) | Not recoverable | Clarity, Loop check | Open |
+| A sentence quoting a hostile reply to a greeting | ep03 00:25:30 | Polemical wording not reproduced; the point is kept in neutral words | Content rule | Open |
+
+Resume point: mawkib-al-nour episode 4 (branch from origin/main).
