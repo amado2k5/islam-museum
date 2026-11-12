@@ -1,0 +1,33 @@
+ORACLE 00: baseline frozen, concurrency accounted for (statement 12)
+file: scripts/fable/o00_baseline.py
+HEAD: 1401a5cc979ae87eb47e1cf7534a59695858025f
+baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 0
+graph artifact: .cache/graph.json; built from commit 1401a5cc979ae87eb47e1cf7534a59695858025f; 56030 nodes, 133438 edges
+------------------------------------------------------------------------------
+Three states, kept distinct:
+  production (what visitors see): 8d1b0ef9d7556cc570e9e452e8cd3257e346ab1f
+  baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939
+  this artifact: built from 1401a5cc979ae87eb47e1cf7534a59695858025f
+
+Headline counts of this artifact:
+    54,135  records (stubs excluded)
+     1,895  stubs
+   133,438  relations (edges, inverses included)
+    66,719  relations as authored (inverses excluded)
+    35,436  records in review state draft
+    18,699  records in review state published
+       824  canon records (importance 1 or 2)
+       271  cornerstones (importance 1)
+    26,336  records with no authored outgoing relation
+    22,056  records with no relation in either direction
+        95  cornerstones with no authored outgoing relation
+         0  cornerstones with no wing
+       300  exhibit records whose id starts path- (pathways)
+
+[PASS] the frozen baseline is an ancestor of HEAD
+[PASS] no merge commit since the baseline (main was never merged into the branch mid-run): 0 merge commits
+  commits on this branch since the baseline: 5
+  origin/main as last fetched: e1d721298ab4b2494a4c8f04d3defcde1808b939 (0 commits past the baseline; informational, not chased)
+------------------------------------------------------------------------------
+RESULT: GREEN (2 checks passed)

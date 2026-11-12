@@ -817,3 +817,16 @@ Next step: episode 24 (and a revision pass over ep23 00:11:00–00:21:00).
 | Repetition loops | ep22 00:12:30, 00:27:30, 00:29:30; ep23 (none noted in the read range) | Not speech | Loop check | Open |
 | Calls and answers too garbled to read | ep22 00:26:30–00:31:00 (in part); ep23 not read | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
 | Hadith wording | ep23 00:09:00, 00:10:30 | Wording not typed; by sense only | Hadith rule | Open |
+
+### albuyout-alamena, episode 23 completion (11 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-12)
+
+Closes the gap noted for ep23 (00:11:00–00:21:00 and everything after 00:31:30), read in full. 7 points written in a continuation section (ar, en, ur); {n} new `about` edges; 4 needs_source (the claim about the scholars never scolding 00:11:00, the minutes statistic and the Prophet-and-fruit report 00:18:30, call text 00:35:30, Umar's saying 00:43:00).
+
+| Excluded (albuyout-alamena ep23 continuation) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, break announcements, closing formulae | ep23 00:17:30, 00:35:00–00:35:30, 00:51:30–00:52:00 | Not lesson content | Content rule | Open |
+| Repetition loops | ep23 00:14:00 (tail), 00:46:00, 00:37:00 (tail) | Not speech | Loop check | Open |
+| Garbled call windows | ep23 00:36:00–00:36:30 (line dropped), 00:38:00–00:38:30, 00:46:30–00:48:30 (in part) | Garbled or fragmentary; only the clear question is summarised | Clarity | Open |
+| Hadith wording | ep23 00:19:30–00:20:30, 00:42:00 | Wording not typed; by sense only | Hadith rule | Open |
+
+Rule from now on (coordinator, 11 Nov 2026): every episode is read in full; any window too garbled is recorded here with its reason.

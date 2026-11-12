@@ -1,0 +1,34 @@
+# person/aisha
+
+Lead before: 23 Arabic words, 38 English words. Lead after: 161 / 246.
+Sources cited in the lead: fadail-sahaba-ahmad-wasi-allah-1999, encyclopaedia-of-islam-2, ibn-sad-tabaqat-bewley
+
+Local copies read on the page:
+
+- `fadail-sahaba-ahmad-wasi-allah-1999`: `~/islam-museum-harvest/books/sahaba/fadail-sahaba-ahmad/Nader.Al-Imam.Al-Mahdi/pages.json`, pp. 1097–1100 (printed page = PDF page, as the source record says).
+- `encyclopaedia-of-islam-2`: `~/islam-museum-harvest/books/encyclopaedia-of-islam-2/Encyclopaedia_of_Islam_vol_1_A-B/pages.json`, PDF pp. 329–330 (the record's «vol. 1 p. 329/330»).
+- `ibn-sad-tabaqat-bewley` is not on this machine; the one clause that leans on it is carried from the record.
+
+Order of views: the Sunni source (Ahmad's Fada'il al-Sahaba and its editor) is cited first in sentences 1–3 and again in 5 and 10; the Encyclopaedia of Islam is named as the source of what it says. No verdict is stated and no statement of faith or school is added.
+
+| # | Sentence (first six words of the Arabic) | Citation | Where the fact was read |
+|---|---|---|---|
+| 1 | عائشة بنت أبي بكر، الخليفة الأول، | {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1097} {cite:encyclopaedia-of-islam-2 vol. 1 p. 329} {cite:encyclopaedia-of-islam-2 vol. 1 p. 330} | this record, old lead (daughter of the first caliph, wife of the Prophet) and section «حساب موسوعة الإسلام» (born at Mecca about 614). Read on the page: Fada'il p.1097, editor's note 1 («بنت أبي بكر الصديق ... ولدت بمكة قبل الهجرة»); EI2 p.329 («wife of the Prophet, was born at Mecca about 614»); EI2 p.330 («For two years her father was caliph, and then for ten 'Umar ... 'Uthman, the third caliph»), which is where "first caliph" rests |
+| 2 | وتُجلّها السنة أماً للمؤمنين ومن أهم | {cite:ibn-sad-tabaqat-bewley} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1097} | first clause: this record, `data/person/aisha.yaml`, perspectives → sunni (summary.ar «تُجِلّها السنة أمًّا للمؤمنين ... ومن أهم رواة الحديث», sources: ibn-sad-tabaqat-bewley), citation carried as it stands, without a page; not re-read. Second clause: this record, section «في «فضائل الصحابة» لأحمد بن حنبل», same citation; read on the page, Fada'il p.1097, chapter heading («فضائل عائشة أم المؤمنين») and editor's note 1 («أفقه نساء المسلمين ... وكان فقهاء الصحابة يرجعون إليها في المعضلات والمسائل») |
+| 3 | ويروي أحمد في باب فضائلها حديث | {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1099} | this record, section «في «فضائل الصحابة» لأحمد بن حنبل», same citation. Read on the page: hadith 1628 begins on p.1098 and its text is on p.1099 («فضل عائشة على النساء كفضل الثريد على الطعام»), quoted, eight words |
+| 4 | وتذكر مقالة موسوعة الإسلام أنها تخلّفت | {cite:encyclopaedia-of-islam-2 vol. 1 p. 329} {cite:encyclopaedia-of-islam-2 vol. 1 p. 330} | this record, section «حساب موسوعة الإسلام», same citations. Read on the page: EI2 p.329 (return from the expedition against Banu 'l-Mustaliq, 5/627; left behind; «Gossip was magnified») and p.330 («a revelation ... implying her innocence») |
+| 5 | ويعدّ محقق الفضائل نزول الآيات في | {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1097} | new to the record, read on the page: Fada'il p.1097, editor's note 1 («من فضائلها أنها نزلت الآيات في تبرئتها»). No verse is quoted |
+| 6 | ومرّضت النبي في حجرتها ودُفن فيها، | {cite:encyclopaedia-of-islam-2 vol. 1 p. 330} | this record, section «حساب موسوعة الإسلام» (cited there to p. 329). Read on the page: the passage is on EI2 p.330 («She nursed him ... his grave was made in the floor of her chamber ... left a childless widow about the age of 18»), so p.330 is cited |
+| 7 | وبعد مقتل عثمان خرجت إلى البصرة | {cite:encyclopaedia-of-islam-2 vol. 1 p. 330} | this record, section «حساب موسوعة الإسلام», same citation. Read on the page: EI2 p.330 («left Mecca for Basra ... professing to be taking vengeance for 'Uthman ... joined by Talha and al-Zubayr ... December 656 ... the Battle of the Camel ... 'Ali was victorious ... treated with respect») |
+| 8 | ثم عاشت في المدينة أكثر من | {cite:encyclopaedia-of-islam-2 vol. 1 p. 330} | this record, section «حساب موسوعة الإسلام», same citation. Read on the page: EI2 p.330 («lived quietly in Medina for over twenty years ... became reconciled to 'Ali») |
+| 9 | وتذكر المقالة أن أكثر من ألف | {cite:encyclopaedia-of-islam-2 vol. 1 p. 330} | read on the page: EI2 p.330 («It is said that I210 traditions were related on her authority, but barely 300 of these were retained by al-Bukhari and Muslim»; the OCR prints 1 as I throughout this page, e.g. «I937», so the figure is 1210). The record's section says "more than two thousand" for this article; the page does not, so the sentence says "more than a thousand" |
+| 10 | وتؤرخ وفاتها برمضان سنة 58هـ، ويذكر | {cite:encyclopaedia-of-islam-2 vol. 1 p. 330} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1097} | this record, sections «حساب موسوعة الإسلام» (Ramadan 58) and «في «فضائل الصحابة» لأحمد بن حنبل» (57 AH, or 58), same citations. Read on the page: EI2 p.330 («She died in Ramadan 58/July 678»); Fada'il p.1097 («وتوفيت في سنة سبع وخمسين وقيل: ثمان وخمسين») |
+
+Dropped or changed from the old lead: nothing dropped. The old lead had no citation. "Daughter of the first caliph and wife of the Prophet" is sentence 1; "counted by Sunnis among the greatest transmitters of hadith and the most learned women" is sentence 2, in the words of the record's own Sunni perspective and of the Fada'il's editor (who says "most learned in law of the Muslim women", not "of the first Islamic century").
+
+Could not be supported and left out:
+- Her age at betrothal and marriage: the record's sources disagree (six and nine in the Raheeq section and in the Fada'il editor's note, p.1097; "nine or so" in the EI2 section; the `spouse_of` note in the data file says engaged at nine and married at thirteen). Left out of the lead.
+- "More than two thousand hadith" (record, sections «الحياة» and «حساب موسوعة الإسلام»): not what EI2 p.330 says; see sentence 9.
+- The Hijri date of the Battle of the Camel: the record has Jumada II 36; the OCR of EI2 p.330 reads «Djumada II 35/December 656». Only the year 656 CE, on which both agree, is given.
+- The Twelver Shia view in the data file's `perspectives` cites `momen-1985`, which is not in the record's source list, so it could not be cited and is not stated. The lead states no verdict on the Battle of the Camel.
+- The author of the EI2 article is not named: see the report.

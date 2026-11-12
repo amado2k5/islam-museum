@@ -20,7 +20,7 @@ text_source:
     - { path: data/work/quran-source/tanzil-simple-clean-v1.1.txt, sha256: 1862ee63c70fbfc6285e0bb0b9587b89beb5b7891109a4d543d9d2cf8283e8c8, use: text_search }
   frozen: "2026-10-11"
   rule: "The text in passage/quran-* files must equal these files exactly; scripts/validate.ts checks it on every build."
-provenance: { layer: by, source: tanzil-quran-v1.1, generated_by: "frozen Tanzil text" }
+provenance: { layer: by, source: tanzil-quran-v1.1, generated_by: "frozen Tanzil text", lead_deepened: "Lead section deepened to 150-250 words, Arabic and English, only from sources this record already cited (Grand Tour mission, run grand-tour-2026-11-11; Claude Code, claude-fable-5-2). AI text awaiting a human read; sentence-by-sentence evidence in docs/fable-run/prose-evidence/." }
 external_ids: { wikidata: "Q428" }
 sources: [source/tanzil-quran]
 education:

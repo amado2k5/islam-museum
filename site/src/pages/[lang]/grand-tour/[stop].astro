@@ -1,0 +1,91 @@
+---
+// One room of the Grand Tour. Everything here is read from the record and the graph: the narrative is the lead section
+// of the record's own prose, the "why this stop matters" line is counted from the graph, the doors are its own relations.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import GrandTourRibbon from "../../../components/GrandTourRibbon.astro";
+import { ui, fmt, wingHref, type Lang, type Wing } from "../../../lib/i18n";
+import { byId, labelOf, href } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { renderProse, newHonState } from "../../../lib/markdown";
+import { TOUR_LANGS, stops, tourPath, stopHref, recordHref, dateText, leadOf, sideDoors } from "../../../lib/grand-tour";
+
+export function getStaticPaths() {
+  return TOUR_LANGS.flatMap((lang) => stops.map((s) => ({ params: { lang, stop: s.slug }, props: { lang, index: s.index } })));
+}
+const { lang, index } = Astro.props as { lang: Lang; index: number };
+const T = ui(lang);
+const G = T.grand_tour;
+const s = stops[index];
+const n = s.node;
+const prev = stops[index - 1], next = stops[index + 1];
+const lead = leadOf(s, lang);
+if (!lead) throw new Error(`grand tour: ${s.id} has no ${lang} prose`);
+const r = renderProse(lead.markdown, lang, newHonState());
+const date = dateText(s, lang);
+const second = lang === "ar" ? n.label.en : n.label.ar;
+const doors = sideDoors(s, lang);
+const title = labelOf(n, lang);
+const why = fmt(G.why_line, { r: num(s.relations, lang), d: num(s.linked, lang), p: num(s.pathways, lang) });
+const path = stopHref(lang, s);
+---
+<BaseLayout lang={lang} title={`${title} · ${G.title}`} description={`${G.stop} ${index + 1} ${G.of} ${stops.length}: ${title}`} path={path} alternates={{ ar: stopHref("ar", s), en: stopHref("en", s) }}>
+  <article data-gt-room={s.slug} data-pagefind-ignore>
+    <PageHeader title={title} crumbs={[{ label: G.title, href: tourPath(lang) }, { label: `${G.stop} ${num(index + 1, lang)} ${G.of} ${num(stops.length, lang)}` }]} crumbsLabel={T.entity.breadcrumb} wing={n.wings[0]}>
+      {second && <p class="gt-second" lang={lang === "ar" ? "en" : "ar"}><bdi>{second}</bdi></p>}
+      <p class="gt-meta ui">
+        <span class="chip">{T.class[n.class] ?? n.class}</span>
+        {n.wings.map((w) => <a class="chip" href={wingHref(lang, w as Wing)}>{T.wings[w]?.title ?? w}</a>)}
+        <span class="gt-when">{date.kind === "none" ? G.timeless : <><span class="gt-when-k">{G.anchor[date.kind === "period" ? "period" : (date.field ?? "date").replace("date.start", "date")] ?? G.anchor.date}:</span> <bdi>{date.text}</bdi></>}</span>
+      </p>
+    </PageHeader>
+    <div class="wrap gt-room">
+      <GrandTourRibbon lang={lang} walk={s.walk} />
+      <div class="prose gt-narrative" set:html={r.html} />
+      <p class="panel ui gt-why"><b>{G.why}.</b> {why}</p>
+      {r.cites.length > 0 && (
+        <section class="ui gt-sources" aria-labelledby="gt-src">
+          <h2 id="gt-src">{G.sources}</h2>
+          <ol>
+            {r.cites.map((c) => { const src = byId.get(c.source); return <li id={`note-${c.n}`}>{src ? <a href={href(lang, c.source)}>{labelOf(src, lang)}</a> : c.source}{c.locator ? `, ${c.locator}` : ""}</li>; })}
+          </ol>
+        </section>
+      )}
+      <nav class="ui gt-doors" aria-label={G.doors}>
+        <div class="gt-onward">
+          {prev ? <a class="btn btn-outline" href={stopHref(lang, prev)} data-gt-prev rel="prev"><span class="flip" aria-hidden="true">←</span> <span><span class="gt-k">{G.prev}</span> <bdi>{labelOf(prev.node, lang)}</bdi></span></a> : <a class="btn btn-outline" href={tourPath(lang)} data-gt-prev><span class="flip" aria-hidden="true">←</span> {G.back_to_river}</a>}
+          {next ? <a class="btn btn-lapis" href={stopHref(lang, next)} data-gt-next rel="next"><span><span class="gt-k">{G.next}</span> <bdi>{labelOf(next.node, lang)}</bdi></span> <span class="flip" aria-hidden="true">→</span></a> : <a class="btn btn-lapis" href={tourPath(lang, "complete")} data-gt-next rel="next">{G.finish} <span class="flip" aria-hidden="true">→</span></a>}
+        </div>
+        {doors.length > 0 && (
+          <>
+            <h2 class="gt-side-h">{G.side_doors}</h2>
+            <ul class="grid-cards">
+              {doors.map((d) => <li><a class="card" href={href(lang, d.node.id)}><b>{labelOf(d.node, lang)}</b><span>{d.label}</span></a></li>)}
+            </ul>
+          </>
+        )}
+        <p class="gt-full"><a class="chip" style="border:1px solid var(--gold)" href={recordHref(lang, s)}>{G.full_record} <span class="flip" aria-hidden="true">→</span></a></p>
+      </nav>
+    </div>
+  </article>
+  <script src="../../../scripts/grand-tour.ts"></script>
+  <style is:global>
+    .gt-room { padding-block: 22px 44px; }
+    .gt-doors .card b { display: block; margin-bottom: 2px; }
+    .gt-second { text-align: start; unicode-bidi: plaintext; margin: 0 0 8px; font-size: clamp(1.15rem, 2.6vw, 1.6rem); color: #e6d5b8; }
+    .gt-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 10px 0 0; }
+    .gt-when { color: #e6d5b8; font-size: .95rem; }
+    .gt-when-k { color: #c5a059; }
+    .gt-narrative { font-size: 1.12rem; line-height: 1.85; }
+    .gt-why { max-width: var(--measure); margin: 20px 0; font-size: .95rem; border-inline-start: 5px solid var(--gold); }
+    .gt-sources { max-width: var(--measure); }
+    .gt-sources h2, .gt-side-h { font-size: 1.05rem; margin: 1.4rem 0 .5rem; }
+    .gt-sources ol { padding-inline-start: 1.4rem; font-size: .9rem; margin: 0; }
+    .gt-doors { margin-top: 26px; }
+    .gt-onward { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+    .gt-onward .btn { max-width: 100%; text-align: start; }
+    .gt-k { display: block; font-size: .72rem; font-weight: 400; opacity: .85; }
+    .gt-full { margin: 1.2rem 0 0; }
+    @media (max-width: 560px) { .gt-onward .btn { flex: 1 1 100%; justify-content: space-between; } }
+  </style>
+</BaseLayout>
