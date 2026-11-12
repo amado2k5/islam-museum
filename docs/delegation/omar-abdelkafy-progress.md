@@ -1077,3 +1077,21 @@ Next step: episode 33.
 | Verses of poetry quoted | ep32 00:03:00, 00:45:00–00:45:30 | Not reproduced | Sources policy | Open |
 | Hadith and saying wording | ep32 00:07:00–00:10:00, 00:12:00–00:13:00, 00:21:00–00:22:30, 00:37:30, 00:43:00 | Wording not typed; by sense only | Hadith rule | Open |
 | Calls with no recorded answer | ep32 00:29:00 (a woman's own account), 00:34:00 (a cut line), 00:42:30 | The answer is not in the transcript | Clarity | Open |
+
+### albuyout-alamena, episode 33 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-albuyout-21)
+
+Episode 33 read in full (44 min of transcript) before writing. 15 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (stories and sayings without a chain, generalisations without a source).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| albuyout-alamena ep33 (mutual respect in the home) | about 44 min (transcript) | ar, en, ur: work/albuyout-alamena extended, 15 points | new `about` edges | 15 | 9 needs_source | this PR |
+
+Next step: episode 34.
+
+| Excluded (albuyout-alamena ep33) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep33 00:00:00–00:01:00, 00:15:30–00:16:00, 00:31:30–00:32:00, 00:43:00–00:44:30 | Not lesson content | Content rule | Open |
+| Repetition loops | ep33 00:30:00–00:31:30, 00:37:00–00:37:30, 00:41:30–00:42:00 | Not speech | Loop check | Open |
+| Garbled passages | ep33 00:16:00 (the opening of the al-Jahiz story), 00:36:30 (the sentence on husbands who blame wives), 00:39:30–00:40:00 | Garbled; only the clear sense is summarised | Clarity | Open |
+| Verses of poetry quoted | ep33 00:10:00–00:10:30 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep33 00:09:30, 00:13:30, 00:18:30, 00:19:00–00:19:30, 00:32:00–00:33:00 | Wording not typed; by sense only | Hadith rule | Open |
