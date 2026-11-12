@@ -39,6 +39,7 @@ open a new block on top with the new version and today's date.
 - Hilyat al-Awliya vol. 10, printed notice 543 (Jabir al-Rahbi): a new person record with a trilingual draft, on a race across a bridge in which he walked on water and called the other man righteous. The heading misprint of the nisba is flagged in the library file.
 - Hilyat al-Awliya vol. 10, printed notice 544 (an epithet-only entry, al-Mustanis bil-Haqq): a new laqab record with a trilingual draft, on a man who thought he had fled from creation and then was found to be a liar in his station, and a group who called themselves the seven substitutes. The name is hidden in the text; no honorific is typed.
 - Hilyat al-Awliya vol. 10, printed notice 545 (Abd Allah ibn Khubayq): a new person record with a trilingual draft across pages 168 to 171, on truthfulness, long listening to falsehood, sayings of Hudhayfa al-Mar'ashi and Yusuf ibn Asbat, and the reports he alone transmits, described rather than quoted; no honorific is typed.
+- Hilyat al-Awliya vol. 10, pages 171 to 199: a chapter note on unnamed hidden saints in the library file, with the rain-prayer stories listed by page and flagged unattributed. No person records are created for these stories; printed notice 546 is held with the note.
 
 ### Fixed
 - **The Arabic courses page no longer passes English off as Arabic.** Official expectation text that has no translation is now shown in its original language and labelled so, in every language.
