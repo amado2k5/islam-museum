@@ -1,0 +1,21 @@
+id: person/abu-bakr-ibn-abi-sadan
+class: person
+label: { ar: "أبو بكر بن أبي سعدان", en: "Abu Bakr ibn Abi Sa'dan", ur: "ابو بکر بن ابی سعدان" }
+names:
+  - { kind: full, lang: ar, value: "أبو بكر أحمد بن محمد بن أبي سعدان البغدادي" }
+  - { kind: kunya, lang: ar, value: "أبو بكر" }
+gender: male
+roles: [mystic, scholar]
+summary:
+  ar: "أبو بكر أحمد بن محمد بن أبي سعدان، بغدادي الأصل، من أعلام علوم الشرع وينتحل مذهب الشافعي، أقام بطرسوس مدة وبُعث رسولًا إلى الروم بحسب «حلية الأولياء»."
+  en: "Abu Bakr Ahmad ibn Muhammad ibn Abi Sa'dan, of Baghdadi origin, a leading figure in the sciences of the law who followed al-Shafi'i; he lived for a time in Tarsus and was sent as an envoy to the Byzantines according to Hilyat al-Awliya."
+  ur: "ابو بکر احمد بن محمد بن ابی سعدان اصل میں بغداد کے تھے۔ وہ علومِ شریعت کے نمایاں عالم اور شافعی مذہب کے پیرو تھے۔ «حلیۃ الاولیاء» کے مطابق وہ کچھ مدت طرسوس میں رہے اور رومیوں کی طرف سفیر بنا کر بھیجے گئے۔"
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/tarsus, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/377", generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b15 }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 2 }
