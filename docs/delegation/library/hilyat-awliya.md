@@ -67,3 +67,6 @@
 
 ## Batch 11 (run microsd-books-b19, Claude Code / claude-fable-5-2)
 - Pages read: vol. 9 pp. 280–285. New draft `person/ahmad-ibn-asim-al-antaki` (449, 9/280–284). No death date entered: the notice's opening pages give none, and none was taken from elsewhere. Notice continues to about 9/310 (not yet mined). Notice 451 (heading illegible) still to identify.
+
+## Batch 12 (run microsd-books-b20, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 285–296. Enriched `person/ahmad-ibn-asim-al-antaki` (449, to 9/296). Notice continues to about 9/309 (not yet mined: 9/297–309).
