@@ -1847,3 +1847,20 @@ Next step: episode 11.
 | Repetition loops and garbled windows | ep10 00:06:00, 00:13:00, 00:20:00–00:20:30, 00:39:30–00:40:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
 | Poetry quoted | ep10 00:22:30, 00:28:00, 00:42:30 | Not reproduced | Sources policy | Open |
 | Private details of callers | ep10 00:35:30–00:45:00 | Kept general | Privacy | Open |
+
+### al-naba-al-safi, episode 13 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-3)
+
+Episode 13 read in full (47 min of transcript) before writing. 8 points written (ar, en, ur); new `about` edges for the people and passages named; 7 needs_source (unchained sayings, accounts and hadiths in sense, an unsourced statistic).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep13 (grief and worry, their degrees and cure) | about 47 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 8 points | new `about` edges | 8 | 7 needs_source | this PR |
+
+Next step: episode 14.
+
+| Excluded (al-naba-al-safi ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements and the long closing prayer | ep13 00:00:00–00:01:00, 00:16:00–00:16:30, 00:32:30–00:33:00, 00:43:30–00:46:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep13 00:03:00, 00:12:00–00:12:30, 00:17:30–00:18:00, 00:30:00, 00:37:30, 00:38:00–00:38:30 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Remarks on a storm near the country and driving speed | ep13 00:18:00–00:19:00, 00:32:00–00:32:30 | Topical asides, not lesson content | Content rule | Open |
+| Poetry quoted | ep13 00:31:00–00:31:30 | Not reproduced | Sources policy | Open |
