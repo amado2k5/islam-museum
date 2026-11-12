@@ -3,8 +3,9 @@ class: event
 kind: migration
 label: { en: The Hijra, ar: الهجرة النبوية }
 summary:
-  en: The migration of the Prophet Muhammad and his followers from Mecca to Medina in 622 CE, the event from which the Islamic calendar is counted.
+  en: The migration of the Prophet Muhammad and his followers from Mecca to Medina in 622 CE, the event from which the Islamic calendar is counted. The Encyclopaedia of Islam links it to the loss of clan protection after the death of Abu Talib and to the agreement made at al-Aqaba during the pilgrimage of 622. Muhammad slipped out of Mecca with Abu Bakr, spent three days in a cave, and reached Quba near Medina, while his followers had already left in small parties.
   ar: هجرة النبي محمد وأصحابه من مكة إلى المدينة سنة 622م، وهي الحدث الذي يبدأ منه التقويم الهجري. وضبط المسعودي تواريخها فكانت سنة اثنتين وثلاثين من ملك كسرى أبرويز وسنة تسع من ملك هرقل وسنة تسعمائة وثلاث وثلاثين من ملك الإسكندر المقدوني، ودخل المدينة يوم الاثنين لاثنتي عشرة ليلة مضت من ربيع الأول {cite:muruj-al-dhahab p. 577}
+  ur: نبی محمد اور ان کے پیروکاروں کی 622ء میں مکہ سے مدینہ کی طرف ہجرت، وہ واقعہ جس سے اسلامی کیلنڈر شمار ہوتا ہے۔ انسائیکلوپیڈیا آف اسلام اسے ابو طالب کی وفات کے بعد قبیلے کی حفاظت کے خاتمے اور 622ء کے حج میں عقبہ کے معاہدے سے جوڑتا ہے۔ محمد ابوبکر کے ساتھ چپکے سے مکہ سے نکلے، غار میں تین دن رہے اور مدینہ کے قریب قباء پہنچے، جبکہ ان کے پیروکار پہلے ہی چھوٹی ٹولیوں میں جا چکے تھے۔
 wings: [time]
 themes: [refugees-migrants-diaspora, sacred-time]
 periods: [period/prophetic-era]
@@ -41,7 +42,7 @@ relations:
   - { type: mentioned_in, target: passage/quran-66-4, note: "نزوله أثناء التكبير عند استقبال بني عمرو بن عوف على رواية ابن القيم (الرحيق ص171؛ زاد المعاد 2/54)", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
   - { type: has_part, target: journey/hijra-route }
 external_ids: { wikidata: Q180226 }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/assabile-omar-abdelkafy]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/assabile-omar-abdelkafy, source/encyclopaedia-of-islam-2]
 education:
   did_you_know:
     ar: "اختبأ النبي وصاحبه ثلاث ليالٍ في غار ثور، ودخل المدينةَ يومَ جمعة، فأقام أول جمعةٍ في بني سالم."
@@ -53,4 +54,4 @@ education:
   provenance: { generated_by: "Claude Code", model: "Claude Fable 5.1 (claude-fable-5-1)", run: "education-E2-fixtures", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review (Urdu flagged)." }
 importance: 1
 status: { review: draft, completeness: 3, generated_by: "Claude Sonnet 5.5 (scaffold); QID to be verified; upgraded by Devin from al-Raheeq al-Makhtum pp. 161-174" }
-provenance: { layer: own-research, source: "al-Raheeq al-Makhtum pp. 161-174; Assabile, Tafsir Al Quran Al Qareem ep04 (added for cite-check)", generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin" }
+provenance: { canon: "EI2 vol. 3 article Hidjra pp. 386-387 and vol. 7 article Muhammad pp. 417-419, written by Claude Sonnet 5.5, run canon-cornerstones-17", layer: own-research, source: "al-Raheeq al-Makhtum pp. 161-174; Assabile, Tafsir Al Quran Al Qareem ep04 (added for cite-check)", generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin" }
