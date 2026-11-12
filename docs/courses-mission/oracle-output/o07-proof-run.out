@@ -1,0 +1,16 @@
+ORACLE 07: the proof course was ingested by a fresh-context agent using only PIPELINE.md (statement 7)
+run at commit 3c620c285812bdb83ed7d0e6e3c44b84e1de2db7 on 2026-11-12 03:07 EST; baseline 800467e93e; uncommitted paths under data/ content/ site/ i18n/ scripts/courses/: 0
+
+  [PASS] the run log exists
+run log: 192 lines; UTC times written in it: 12 (first 32:30Z, last 06:05Z)
+  [PASS] the log carries times for its steps
+  [PASS] the runbook the agent read is a committed version — commit 8abde83fd4, 237 lines
+runbook edits since the run: 1 file changed, 66 insertions(+), 21 deletions(-)
+  [PASS] the runbook was repaired after the run
+records of the proof course: 9; new on this branch: 9
+  [PASS] the proof course's records exist and are new on this branch
+the gate's captured last line for the course: RESULT: GREEN (24 checks passed)
+  [PASS] the ingestion gate ends GREEN for the proof course
+  [PASS] the proof-run report quotes the launch prompt, gives the timing and lists the runbook edits the run forced
+
+RESULT: GREEN (7 checks passed)
