@@ -63,7 +63,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "tafsir.json", "usra.json"])
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -529,6 +529,30 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(ids).not.toContain("passage/book-x-2"); // a bare staff in a book is not a miracle mention
     expect(items.find((i) => i.id === "passage/quran-26-63x")).toMatchObject({ section: "quran", kind: "event" });
     expect((data["miracles.json"] as any).subjects.map((s: any) => s.id)).toContain("person/musa");
+  });
+
+  it("exports qurun: detected topics, corpus sections, kind, subjects and the subject index", () => {
+    const twelveMonths = makeNode("passage/quran-9-36x", "passage", { unit: "ayah", work: "work/quran", sura: 9, aya: 36, text: "إن عدة الشهور عند الله اثنا عشر شهرا في كتاب الله يوم خلق السماوات والأرض منها أربعة حرم" });
+    const ramadanAyah = makeNode("passage/quran-2-185x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 185, text: "شهر رمضان الذي أنزل فيه القرآن" });
+    const sunnahFp = makeNode("passage/muslim-0003x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "3x", text: "من رغب عن سنتي فليس مني" });
+    const bookYears = makeNode("passage/book-x-9", "passage", { unit: "page", work: "work/book-x", ref: "p9", text: "ولد عام الفيل وتوفيت أمه في سنين صباه وكانت العرب تعد الشهور على الهلال" });
+    const bookPlain = makeNode("passage/book-x-10", "passage", { unit: "page", work: "work/book-x", ref: "p10", text: "وضرب الرجل بعصاه الأرض" });
+    const hurum = makeNode("concept/al-ashhur-al-hurum", "concept", { kind: "term" });
+    const data = featureApiData({
+      ...compiled,
+      nodes: [...compiled.nodes, twelveMonths, ramadanAyah, sunnahFp, bookYears, bookPlain, hurum],
+    });
+    const items = data["qurun.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-9-36x");
+    expect(ids).toContain("passage/quran-2-185x");
+    expect(ids).toContain("passage/book-x-9");
+    expect(ids).not.toContain("passage/muslim-0003x"); // «سنتي» the sunnah sense is not a year
+    expect(ids).not.toContain("passage/book-x-10");
+    expect(items.find((i) => i.id === "passage/quran-9-36x")).toMatchObject({ section: "quran", kind: "period" });
+    expect(items.find((i) => i.id === "passage/quran-2-185x")).toMatchObject({ section: "quran", topics: expect.arrayContaining(["ramadan"]) });
+    expect(items.find((i) => i.id === "passage/book-x-9")).toMatchObject({ section: "books", topics: expect.arrayContaining(["named-years"]) });
+    expect((data["qurun.json"] as any).subjects.map((s: any) => s.id)).toContain("concept/al-ashhur-al-hurum");
   });
 
   it("exports bayt: detected passages by corpus, tagged records by section tag, gated false positives", () => {

@@ -1726,6 +1726,10 @@ explore:
       title: "Divine and Prophetic Miracles Browser"
       desc: "Every mention of the divine miracles and the prophets' miracles in the Qur'an, the Sunnah, the seerah and every harvested book — the miracle of the Qur'an, the moon-split, the Isra' and Mi'raj, the staff, the sea, the she-camel, the ark, the fire, the clay bird, the cradle speech, the heavenly table, Sulayman's signs, the dreams, the annunciation and the covenant chest, with every verse and report cited."
       menu: "Browse the divine and prophetic miracles"
+    qurun:
+      title: "Centuries, Years and Months Browser"
+      desc: "Every mention of the centuries, the years, the important months and the sacred months in the Qur'an, the Sunnah, the seerah and every harvested book — the named years of the seerah, the twelve lunar months, the four sacred months and the intercalation — with every verse and report cited."
+      menu: "Browse the centuries, years, months and sacred months"
     madhahib:
       title: "Four Madhhabs Browser"
       desc: "The four imams and the schools they founded, the salaf and the books that recorded them — every mention of the madhhabs in the Sunni books with its source."
@@ -4135,6 +4139,63 @@ miracles:
     curated:
       title: Curated records
       desc: "The museum's curated records on the miracles: the concepts and events that gather them — the inimitability of the Qur'an, the cosmic signs, the karamat, the moon-split, the Isra' and Mi'raj, the descent — tagged miracles-browser."
+qurun:
+  title: "Centuries, Years and Months Browser"
+  lede: "Every mention of the centuries and generations, the years and the named years, the important months and the sacred months in the museum's sources: the qurun and the generations, the named years of the seerah — the Year of the Elephant, the Year of Sorrow, the Year of the Delegations, the Year of al-Ramada — the twelve lunar months from Muharram to Dhu al-Hijja, the four sacred months and the intercalation (al-Nasi'), the days of Tashriq, the day of 'Arafa, the Night of Power and the last ten nights, the Jahiliyya month-names and the Persian months, and every book that discusses them — sourced records that grow as new texts land."
+  badge: Centuries and Months Explorer
+  status: "This build holds {n} records in {s} sections and {p} subject pages; texts stay draft until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Mentions of the centuries, years and months are found at build time by a guarded lexicon over the passage texts — the singular «سنة» never counts where it is the sunnah/practice rather than the year, «عام» counts only in the named-year formulas or beside time collocations, «قرون» beside oxen and cattle is horns not generations, «صفر» the digit, «رجب» the man's name and «محرم» the legal term count only beside their month collocations, and verified false positives are excluded by id; passages already linked by explicit mentions edges into the time subjects enter too; every book harvested later brings its month and year mentions here automatically once its passages land in the graph, and curated records join through the qurun-browser tag."
+  api: "The whole set is available at"
+  subjects_title: "Month and year subject pages"
+  subjects_note: "Each lunar month, time concept and recorded year in the museum has a subject page that gathers its verses, reports and stories from every section."
+  feed_title: "Every mention in the sources"
+  mentions_count: "{n} mentions"
+  sections_title: "The browser's sections"
+  filter_label: "Filter the time records"
+  filter_none: "No matches."
+  empty: "No time records in this build yet."
+  entity_page: "Museum record"
+  quran_title: "In the Qur'an"
+  sunnah_title: "In the Sunnah"
+  seerah_title: "In the seerah"
+  books_title: "In the other books"
+  curated_title: "Curated records"
+  quran_ref: "Qur'an"
+  related_title: "Also in the museum"
+  topics:
+    qurun: "The centuries and generations"
+    sunnin: "Years and seasons"
+    named-years: "The named years of the seerah"
+    shuhur: "The months and their count"
+    sacred: "The sacred months"
+    jahiliyya-time: "Jahiliyya time and the Persian months"
+    muharram: "Muharram"
+    safar: "Safar"
+    rabi: "Rabi' al-Awwal and al-Akhir"
+    jumada: "Jumada al-Ula and al-Akhira"
+    rajab: "Rajab"
+    shaban: "Sha'ban"
+    ramadan: "Ramadan"
+    shawwal: "Shawwal"
+    dhul-qada: "Dhu al-Qa'da"
+    dhul-hijja: "Dhu al-Hijja"
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The centuries, years and months in the Revelation: the twelve months of which four are sacred, the Nasi', the month of Ramadan and the Night of Power, the known months, Yusuf's seven years and the Cave-dwellers' three hundred years, the day as a thousand and as fifty thousand years, and the generations God destroyed."
+    sunnah:
+      title: In the Sunnah
+      desc: "The hadiths of the two Sahihs, the Muwatta, the Arba'in and the Sunan that carry the months and years — Ramadan, Sha'ban, Shawwal, 'Ashura, 'Arafa, the days of Tashriq, the ten of Dhu al-Hijja, the sacred months, the named years and the reports of the Companions and Tabi'in."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and history books carry of the months and named years and their stories — the Year of the Elephant, the Year of Sorrow, the Year of the Delegations, the Year of al-Ramada — this section fills itself as new seerah texts with their time mentions land."
+    books:
+      title: In the other books
+      desc: "The centuries, years and months in every harvested book beyond the Qur'an, the hadith and the seerah — tafsir, fiqh, history, poetry and whatever comes next, where the time vocabulary marks the mention."
+    curated:
+      title: Curated records
+      desc: "The museum's curated records on time: the twelve months, the sacred months, the intercalation, the Hijri calendar, the Arabic year, the Persian months, the Jahiliyya names of days and months, the centuries and the named years — tagged qurun-browser."
 madhahib:
   title: "Four Madhhabs Browser"
   lede: "The four imams — Abu Hanifa, Malik, al-Shafi'i and Ahmad — and the schools they founded, the salaf and tabi'in on whom the fiqh was built, the books that recorded the madhhabs, and everything the Sunni books say about them in history, fatwas and legal questions — gathered in one browser with its sources."

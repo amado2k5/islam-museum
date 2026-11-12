@@ -677,6 +677,21 @@
         }
       }
     },
+    "/qurun.json": {
+      "get": {
+        "operationId": "getQurun",
+        "summary": "Centuries, Years and Months Browser dataset",
+        "description": "The Centuries, Years and Months Browser dataset (متصفح القرون والسنين والشهور الهامة والأشهر الحرم): every mention of the centuries and generations, the years and the named years, the important months and the sacred months in the Qur'an, Sunnah, seerah and harvested books — the qurun, the named years of the seerah (the Year of the Elephant, the Year of Sorrow, the Year of the Delegations, the Year of al-Ramada), the twelve lunar months from Muharram to Dhu al-Hijja, the four sacred months, the intercalation (al-Nasi'), the days of Tashriq, the day of 'Arafa, the Night of Power, the Jahiliyya month-names and the Persian months — detected at build time and joined to the canonical mentions edges, plus the curated qurun-browser records and the subjects index, each with its corpus section (quran, sunnah, seerah, books, curated), kind (period/mention), subjects/topics chips, work, ref, text excerpt and edges.",
+        "responses": {
+          "200": {
+            "description": "Every time-mention record with corpus section, kind, subjects, topics, work, ref, excerpt and edges, plus the subjects index",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/madhahib.json": {
       "get": {
         "operationId": "getMadhahib",
