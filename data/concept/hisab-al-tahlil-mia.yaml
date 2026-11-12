@@ -1,0 +1,51 @@
+id: concept/hisab-al-tahlil-mia
+class: concept
+kind: doctrine
+label:
+  ar: "التهليل مائة مرة في اليوم"
+  en: "The tahlil a hundred times in a day"
+  ur: "دن میں سو بار تہلیل"
+summary:
+  ar: "من قال «لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير» في يوم مائة مرة كانت له عدل عشر رقاب، وكُتبت له مائة حسنة، ومُحيت عنه مائة سيئة، وكانت له حرزا من الشيطان يومه ذلك حتى يمسي، في رواية مالك عن أبي هريرة [[passage/muwatta-1-560]] وعند البخاري [[passage/bukhari-api-6403]]. وهو من النصوص القليلة التي تذكر العمودين معا بعدد واحد: مائة تُكتب ومائة تُمحى."
+  en: "Whoever says \"There is no god but God alone, without partner; His is the dominion and His the praise, and He has power over all things\" a hundred times in a day has the equal of freeing ten slaves, a hundred good deeds written for him and a hundred bad deeds erased, and a guard from Satan that day until evening, in Malik's narration from Abu Hurayra [[passage/muwatta-1-560]] and in al-Bukhari [[passage/bukhari-api-6403]]. It is one of the few texts that names both columns with one figure: a hundred written and a hundred wiped out."
+  ur: "جو دن میں سو بار «لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير» کہے اسے دس غلام آزاد کرنے کے برابر ملتا ہے، اس کے لیے سو نیکیاں لکھی جاتی ہیں، سو برائیاں مٹائی جاتی ہیں اور شام تک شیطان سے حفاظت رہتی ہے، مالک کی ابو ہریرہ سے روایت میں [[passage/muwatta-1-560]] اور بخاری میں [[passage/bukhari-api-6403]]۔ یہ ان چند نصوص میں سے ہے جو دونوں کالم ایک ہی عدد سے بیان کرتی ہیں: سو لکھی جاتی ہیں اور سو مٹائی جاتی ہیں۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+reckoning:
+  effect: hasanat
+  hasanat: 100
+  erased: 100
+  times: 100
+  unit:
+    ar: "لكل مائة تهليلة في يوم"
+    en: "per hundred tahlils in a day"
+    ur: "دن میں ہر سو تہلیل پر"
+  result:
+    ar: "مائة حسنة، ومحو مائة سيئة، وعدل عشر رقاب، وحرز من الشيطان يومه ذلك"
+    en: "a hundred good deeds, a hundred bad deeds erased, the equal of freeing ten slaves, and a guard from Satan that day"
+    ur: "سو نیکیاں، سو برائیوں کا مٹنا، دس غلام آزاد کرنے کے برابر، اور اس دن شیطان سے حفاظت"
+  basis: [passage/muwatta-1-560, passage/bukhari-api-6403]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/muwatta-maruf-1997] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/muwatta-maruf-1997
+- source/sahih-al-bukhari
+- source/hadith-api-fawazahmed0
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

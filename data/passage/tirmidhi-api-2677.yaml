@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-2677
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2677"
+label: { ar: "جامع الترمذي 2677 — وزر من تبع", en: "Jami' al-Tirmidhi 2677 — bearing the burden of those who follow", ur: "جامع ترمذی 2677 — پیروی کرنے والوں کا بوجھ" }
+text: "… مَنْ عَمِلَ بِهَا مِنْ غَيْرِ أَنْ يَنْقُصَ مِنْ أُجُورِهِمْ شَيْئًا وَمَنِ ابْتَدَعَ بِدْعَةَ ضَلاَلَةٍ لاَ يَرْضَاهَا اللَّهُ وَرَسُولُهُ كَانَ عَلَيْهِ مِثْلُ آثَامِ مَنْ عَمِلَ بِهَا لاَ يَنْقُصُ ذَلِكَ مِنْ أَوْزَارِ النَّاسِ شَيْئًا \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ. وَمُحَمَّدُ بْنُ عُيَيْنَةَ هُوَ مِصِّيصِيٌّ شَامِيٌّ وَكَثِيرُ بْنُ عَبْدِ اللَّهِ هُوَ ابْنُ عَمْرِو بْنِ عَوْفٍ الْمُزَنِيُّ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2677، يذكر وزر من تبع. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 2677 (Chapters on Knowledge), that speaks of bearing the burden of those who follow. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 2677، جس میں پیروی کرنے والوں کا بوجھ کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2677 (book 41 hadith 33); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

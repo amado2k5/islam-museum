@@ -1,0 +1,17 @@
+id: passage/bukhari-api-5083
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5083"
+label: { ar: "صحيح البخاري 5083 — الأجران", en: "Sahih al-Bukhari 5083 — the double reward", ur: "صحیح بخاری 5083 — دوہرا اجر" }
+text: "… اللَّهِ \" أَيُّمَا رَجُلٍ كَانَتْ عِنْدَهُ وَلِيدَةٌ فَعَلَّمَهَا فَأَحْسَنَ تَعْلِيمَهَا، وَأَدَّبَهَا فَأَحْسَنَ تَأْدِيبَهَا، ثُمَّ أَعْتَقَهَا وَتَزَوَّجَهَا فَلَهُ أَجْرَانِ، وَأَيُّمَا رَجُلٍ مِنْ أَهْلِ الْكِتَابِ آمَنَ بِنَبِيِّهِ وَآمَنَ بِي فَلَهُ أَجْرَانِ، وَأَيُّمَا مَمْلُوكٍ أَدَّى حَقَّ مَوَالِيهِ وَحَقَّ رَبِّهِ فَلَهُ أَجْرَانِ \". قَالَ الشَّعْبِيُّ خُذْهَا بِغَيْرِ شَىْءٍ قَدْ كَانَ الرَّجُلُ يَرْحَلُ فِيمَا دُونَهُ إِلَى الْمَدِينَةِ. وَقَالَ أَبُو بَكْرٍ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5083، يذكر الأجران. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 5083 (Wedlock, Marriage (Nikaah)), that speaks of the double reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 5083، جس میں دوہرا اجر کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5083 (book 67 hadith 21); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-866
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "866"
+label: { ar: "جامع الترمذي 866 — محو السيئات وحط الخطايا، مغفرة ما تقدم من الذنب", en: "Jami' al-Tirmidhi 866 — bad deeds erased and sins shed; forgiveness of past sins", ur: "جامع ترمذی 866 — برائیوں کا مٹنا اور خطاؤں کا جھڑنا، پچھلے گناہوں کی مغفرت" }
+text: "… اللَّهِ بْنِ سَعِيدِ بْنِ جُبَيْرٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَالَ رَسُولُ اللَّهِ \" مَنْ طَافَ بِالْبَيْتِ خَمْسِينَ مَرَّةً خَرَجَ مِنْ ذُنُوبِهِ كَيَوْمِ وَلَدَتْهُ أُمُّهُ \". قَالَ وَفِي الْبَابِ عَنْ أَنَسٍ وَابْنِ عُمَرَ. قَالَ أَبُو عِيسَى حَدِيثُ ابْنِ عَبَّاسٍ حَدِيثٌ غَرِيبٌ. سَأَلْتُ مُحَمَّدًا عَنْ هَذَا الْحَدِيثِ فَقَالَ إِنَّمَا يُرْوَى هَذَا عَنِ ابْنِ عَبَّاسٍ قَوْلُهُ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 866، يذكر محو السيئات وحط الخطايا، ومغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 866 (The Book on Hajj), that speaks of bad deeds erased and sins shed, forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 866، جس میں برائیوں کا مٹنا اور خطاؤں کا جھڑنا، پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 866 (book 9 hadith 59); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,49 @@
+id: concept/hisab-khuruj-al-khataya-bil-wudu
+class: concept
+kind: doctrine
+label:
+  ar: "الوضوء: خروج الخطايا مع الماء"
+  en: "Ablution: sins leaving with the water"
+  ur: "وضو: پانی کے ساتھ خطاؤں کا نکل جانا"
+summary:
+  ar: "إذا توضأ العبد المسلم فغسل وجهه خرج من وجهه كل خطيئة نظر إليها بعينيه مع الماء أو مع آخر قطر الماء، وكذلك اليدان والرجلان، حتى يخرج نقيا من الذنوب، في رواية أبي هريرة عند مسلم [[passage/muslim-api-577]] وبمعناه في الموطأ [[passage/muwatta-1-066]]. والنص يوزّع المحو على الأعضاء عضوا عضوا، من غير أن يعدّه برقم."
+  en: "When a Muslim servant performs ablution and washes his face, every sin he looked at with his eyes leaves his face with the water or with its last drop, and so with the hands and the feet, until he comes out clean of sins, in Abu Hurayra's narration in Muslim [[passage/muslim-api-577]], with its sense in the Muwatta [[passage/muwatta-1-066]]. The text spreads the erasure over the limbs one by one without giving it a figure."
+  ur: "جب مسلمان بندہ وضو کرتا ہے اور چہرہ دھوتا ہے تو اس کے چہرے سے ہر وہ خطا جو اس نے آنکھوں سے دیکھی پانی یا پانی کے آخری قطرے کے ساتھ نکل جاتی ہے، اسی طرح ہاتھ اور پاؤں، یہاں تک کہ وہ گناہوں سے پاک نکلتا ہے، ابو ہریرہ کی روایت میں جو مسلم میں ہے [[passage/muslim-api-577]] اور اسی معنی میں مؤطا میں [[passage/muwatta-1-066]]۔ نص مٹنے کو اعضا پر ایک ایک کر کے تقسیم کرتی ہے اور اسے کسی عدد میں نہیں گنتی۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+reckoning:
+  effect: erasure
+  unbounded: true
+  unit:
+    ar: "لكل وضوء"
+    en: "per ablution"
+    ur: "ہر وضو پر"
+  result:
+    ar: "تخرج خطايا كل عضو مع الماء أو مع آخر قطر الماء حتى يخرج نقيا من الذنوب"
+    en: "the sins of each limb leave with the water or with its last drop, until he comes out clean of sins"
+    ur: "ہر عضو کی خطائیں پانی یا پانی کے آخری قطرے کے ساتھ نکل جاتی ہیں یہاں تک کہ وہ گناہوں سے پاک نکلتا ہے"
+  basis: [passage/muslim-api-577, passage/muwatta-1-066]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+- source/hadith-api-fawazahmed0
+- source/muwatta-maruf-1997
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

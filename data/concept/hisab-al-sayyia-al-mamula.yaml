@@ -1,0 +1,48 @@
+id: concept/hisab-al-sayyia-al-mamula
+class: concept
+kind: doctrine
+label:
+  ar: "السيئة المعمولة: سيئة واحدة"
+  en: "A bad deed done: one bad deed"
+  ur: "کی ہوئی برائی: ایک ہی برائی"
+summary:
+  ar: "من همّ بسيئة فعملها كتبها الله سيئة واحدة [[passage/muslim-0131]]، والقرآن يقرر أن من جاء بالسيئة لا يجزى إلا مثلها [[passage/quran-6-160]] [[passage/quran-40-40]]. فكفة السيئات تُعدّ بالواحد، وكفة الحسنات تبدأ من العشر: هذا هو الفرق الذي تبني عليه الآلة الحاسبة عمودَيها."
+  en: "Whoever intends a bad deed and does it, God writes it as one bad deed [[passage/muslim-0131]], and the Qur'an states that whoever brings a bad deed is repaid only its like [[passage/quran-6-160]] [[passage/quran-40-40]]. The bad-deed side is counted in ones while the good-deed side starts at ten: this is the asymmetry on which the calculator builds its two columns."
+  ur: "جو برائی کا ارادہ کرے اور اسے کر لے، اللہ اسے ایک ہی برائی لکھتا ہے [[passage/muslim-0131]]، اور قرآن بتاتا ہے کہ جو برائی لائے اسے اسی کے برابر بدلہ ملتا ہے [[passage/quran-6-160]] [[passage/quran-40-40]]۔ برائیوں کا پلڑا ایک ایک سے گنا جاتا ہے اور نیکیوں کا دس سے شروع ہوتا ہے: یہی وہ فرق ہے جس پر کیلکولیٹر اپنے دو کالم بناتا ہے۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+reckoning:
+  effect: sayyiat
+  sayyiat: 1
+  unit:
+    ar: "لكل سيئة عُملت"
+    en: "per bad deed done"
+    ur: "ہر کی ہوئی برائی پر"
+  result:
+    ar: "سيئة واحدة، لا تضاعف"
+    en: "one bad deed, never multiplied"
+    ur: "ایک برائی، جو بڑھائی نہیں جاتی"
+  basis: [passage/muslim-0131, passage/quran-6-160, passage/quran-40-40]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+- source/tanzil-quran
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

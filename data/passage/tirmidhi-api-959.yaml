@@ -1,0 +1,18 @@
+id: passage/tirmidhi-api-959
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "959"
+label: { ar: "جامع الترمذي 959 — كتابة الحسنات، عمل يعدل عملا أعظم منه", en: "Jami' al-Tirmidhi 959 — the writing of good deeds; a deed that equals a greater one", ur: "جامع ترمذی 959 — نیکیوں کا لکھا جانا، ایک عمل جو بڑے عمل کے برابر ہے" }
+text: "… مِنْ أَصْحَابِ النَّبِيِّ يُزَاحِمُ عَلَيْهِ. فَقَالَ إِنْ أَفْعَلْ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" إِنَّ مَسْحَهُمَا كَفَّارَةٌ لِلْخَطَايَا \". وَسَمِعْتُهُ يَقُولُ \" مَنْ طَافَ بِهَذَا الْبَيْتِ أُسْبُوعًا فَأَحْصَاهُ كَانَ كَعِتْقِ رَقَبَةٍ \". وَسَمِعْتُهُ يَقُولُ \" لاَ يَضَعُ قَدَمًا وَلاَ يَرْفَعُ أُخْرَى إِلاَّ حَطَّ اللَّهُ عَنْهُ بِهَا خَطِيئَةً وَكَتَبَ لَهُ بِهَا حَسَنَةً \". قَالَ أَبُو عِيسَى …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 959، يذكر كتابة الحسنات، وعمل يعدل عملا أعظم منه، ومحو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 959 (The Book on Hajj), that speaks of the writing of good deeds, a deed that equals a greater one, bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 959، جس میں نیکیوں کا لکھا جانا، ایک عمل جو بڑے عمل کے برابر ہے، برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 959 (book 9 hadith 153); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

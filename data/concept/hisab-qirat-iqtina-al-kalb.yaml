@@ -1,0 +1,48 @@
+id: concept/hisab-qirat-iqtina-al-kalb
+class: concept
+kind: doctrine
+label:
+  ar: "اقتناء الكلب لغير حاجة: قيراط ينقص كل يوم"
+  en: "Keeping a dog without need: a qirat lost each day"
+  ur: "بلا ضرورت کتا پالنا: ہر روز ایک قیراط کی کمی"
+summary:
+  ar: "من أمسك كلبا فإنه ينقص كل يوم من عمله قيراط، إلا كلب حرث أو ماشية، في رواية أبي هريرة [[passage/bukhari-api-2322]]، وفي رواية ابن عمر: قيراطان، مع استثناء كلب الصيد والماشية [[passage/bukhari-api-5481]]. وهو مثال على عدّاد يجري في الاتجاه المعاكس: نقص يومي من الرصيد لا سيئة تُكتب، والقائمة تعرض الروايتين كما وردتا."
+  en: "Whoever keeps a dog loses a qirat from his deeds each day, except a dog for farming or herding, in Abu Hurayra's narration [[passage/bukhari-api-2322]]; in Ibn Umar's narration it is two qirats, with the hunting and herding dog excepted [[passage/bukhari-api-5481]]. It is an example of a counter that runs the other way: a daily deduction from the balance rather than a bad deed written, and the ledger shows both narrations as they came."
+  ur: "جو کتا پالے اس کے عمل سے ہر روز ایک قیراط کم ہوتا ہے، سوائے کھیتی یا مویشی کے کتے کے، ابو ہریرہ کی روایت میں [[passage/bukhari-api-2322]]، اور ابن عمر کی روایت میں دو قیراط، شکار اور مویشی کے کتے کے استثنا کے ساتھ [[passage/bukhari-api-5481]]۔ یہ اس گنتی کی مثال ہے جو الٹی سمت چلتی ہے: لکھی جانے والی برائی نہیں بلکہ جمع شدہ اجر میں سے روزانہ کمی، اور فہرست دونوں روایتیں جیسی آئی ہیں ویسی دکھاتی ہے۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+reckoning:
+  effect: sayyiat
+  unbounded: true
+  unit:
+    ar: "لكل يوم"
+    en: "per day"
+    ur: "ہر دن پر"
+  result:
+    ar: "ينقص من عمله كل يوم قيراط، وفي رواية قيراطان، إلا كلب حرث أو ماشية أو صيد"
+    en: "a qirat is taken from his deeds each day, two in another narration, except a dog for farming, herding or hunting"
+    ur: "اس کے عمل سے ہر روز ایک قیراط کم ہوتا ہے، ایک روایت میں دو، سوائے کھیتی، مویشی یا شکار کے کتے کے"
+  basis: [passage/bukhari-api-2322, passage/bukhari-api-5481]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-al-bukhari
+- source/hadith-api-fawazahmed0
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

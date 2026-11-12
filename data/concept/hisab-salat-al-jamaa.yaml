@@ -1,0 +1,50 @@
+id: concept/hisab-salat-al-jamaa
+class: concept
+kind: doctrine
+label:
+  ar: "صلاة الجماعة: سبع وعشرون درجة"
+  en: "Prayer in congregation: twenty-seven ranks"
+  ur: "باجماعت نماز: ستائیس درجے"
+summary:
+  ar: "صلاة الجماعة أفضل من صلاة الفذّ بسبع وعشرين درجة في رواية ابن عمر [[passage/muslim-0650]] [[passage/muwatta-1-341]]، وبخمس وعشرين في رواية أبي سعيد عند البخاري [[passage/bukhari-api-646]]. يعرض هذا السطر الروايتين معا ولا يرجّح بينهما، وتحسب الآلة بالسبع والعشرين وتذكر الخمس والعشرين في النتيجة."
+  en: "Prayer in congregation is better than the prayer of a man alone by twenty-seven ranks in Ibn Umar's narration [[passage/muslim-0650]] [[passage/muwatta-1-341]], and by twenty-five in Abu Sa'id's narration in al-Bukhari [[passage/bukhari-api-646]]. This row shows both narrations and does not choose between them; the calculator counts with twenty-seven and names twenty-five in the result."
+  ur: "باجماعت نماز اکیلے کی نماز سے ابن عمر کی روایت میں ستائیس درجے افضل ہے [[passage/muslim-0650]] [[passage/muwatta-1-341]]، اور ابو سعید کی روایت میں جو بخاری میں ہے پچیس درجے [[passage/bukhari-api-646]]۔ یہ سطر دونوں روایتیں دکھاتی ہے اور ان میں ترجیح نہیں دیتی؛ کیلکولیٹر ستائیس سے حساب کرتا ہے اور نتیجے میں پچیس کا ذکر کرتا ہے۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+reckoning:
+  effect: hasanat
+  degrees: 27
+  unit:
+    ar: "لكل صلاة في جماعة"
+    en: "per prayer in congregation"
+    ur: "ہر باجماعت نماز پر"
+  result:
+    ar: "تفضل صلاة الفذّ بسبع وعشرين درجة، وفي رواية بخمس وعشرين"
+    en: "better than praying alone by twenty-seven ranks; in another narration, twenty-five"
+    ur: "اکیلے کی نماز سے ستائیس درجے افضل؛ ایک روایت میں پچیس"
+  basis: [passage/muslim-0650, passage/muwatta-1-341, passage/bukhari-api-646]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+- source/muwatta-maruf-1997
+- source/sahih-al-bukhari
+- source/hadith-api-fawazahmed0
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

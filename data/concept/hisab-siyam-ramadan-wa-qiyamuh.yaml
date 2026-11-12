@@ -1,0 +1,48 @@
+id: concept/hisab-siyam-ramadan-wa-qiyamuh
+class: concept
+kind: doctrine
+label:
+  ar: "صيام رمضان وقيامه وقيام ليلة القدر"
+  en: "Fasting Ramadan, standing its nights and the Night of Decree"
+  ur: "رمضان کے روزے، اس کا قیام اور شبِ قدر کا قیام"
+summary:
+  ar: "ثلاثة نصوص متوالية في صحيح البخاري بلفظ واحد للنتيجة: من صام رمضان إيمانا واحتسابا غُفر له ما تقدم من ذنبه [[passage/bukhari-api-38]]، ومن قام رمضان كذلك [[passage/bukhari-api-37]]، ومن قام ليلة القدر كذلك [[passage/bukhari-api-35]]. النتيجة هنا تصفير لما مضى لا عدد يُطرح، فتعرضها الآلة الحاسبة مكتوبة."
+  en: "Three consecutive texts in Sahih al-Bukhari share one wording for the result: whoever fasts Ramadan with faith and hope of reward has his past sins forgiven [[passage/bukhari-api-38]], likewise whoever stands its nights in prayer [[passage/bukhari-api-37]], and likewise whoever stands the Night of Decree [[passage/bukhari-api-35]]. The result is a clearing of what went before, not a number subtracted, so the calculator shows it in words."
+  ur: "صحیح بخاری کی تین مسلسل نصوص نتیجے کے ایک ہی الفاظ رکھتی ہیں: جو ایمان اور ثواب کی امید سے رمضان کے روزے رکھے اس کے پچھلے گناہ بخش دیے جاتے ہیں [[passage/bukhari-api-38]]، اسی طرح جو رمضان کا قیام کرے [[passage/bukhari-api-37]]، اور اسی طرح جو شبِ قدر کا قیام کرے [[passage/bukhari-api-35]]۔ یہاں نتیجہ گزشتہ کا صاف ہو جانا ہے، کوئی عدد نہیں جو گھٹایا جائے، اس لیے کیلکولیٹر اسے الفاظ میں دکھاتا ہے۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+reckoning:
+  effect: erasure
+  unbounded: true
+  unit:
+    ar: "لكل رمضان يُصام أو يُقام إيمانا واحتسابا"
+    en: "per Ramadan fasted or stood in prayer with faith and hope of reward"
+    ur: "ایمان اور ثواب کی امید سے ہر رمضان کے روزے یا قیام پر"
+  result:
+    ar: "غُفر له ما تقدم من ذنبه"
+    en: "his past sins are forgiven"
+    ur: "اس کے پچھلے گناہ بخش دیے جاتے ہیں"
+  basis: [passage/bukhari-api-38, passage/bukhari-api-37, passage/bukhari-api-35]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-al-bukhari
+- source/hadith-api-fawazahmed0
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

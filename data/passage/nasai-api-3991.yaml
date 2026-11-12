@@ -1,0 +1,16 @@
+id: passage/nasai-api-3991
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3991"
+label: { ar: "سنن النسائي 3991 — الحساب", en: "Sunan al-Nasa'i 3991 — the reckoning", ur: "سنن نسائی 3991 — حساب" }
+text: "أَخْبَرَنَا سَرِيعُ بْنُ عَبْدِ اللَّهِ الْوَاسِطِيُّ الْخَصِيُّ، قَالَ حَدَّثَنَا إِسْحَاقُ بْنُ يُوسُفَ الأَزْرَقُ، عَنْ شَرِيكٍ، عَنْ عَاصِمٍ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ \" أَوَّلُ مَا يُحَاسَبُ بِهِ الْعَبْدُ الصَّلاَةُ وَأَوَّلُ مَا يُقْضَى بَيْنَ النَّاسِ فِي الدِّمَاءِ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3991، يذكر الحساب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 3991 (The Book of Fighting [The Prohibition of Bloodshed]), that speaks of the reckoning. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 3991، جس میں حساب کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3991 (book 37 hadith 26); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

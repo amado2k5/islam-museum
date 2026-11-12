@@ -1,0 +1,50 @@
+id: concept/hisab-al-shawka-wal-musiba
+class: concept
+kind: doctrine
+label:
+  ar: "الشوكة فما فوقها: درجة أو خطيئة"
+  en: "A thorn-prick or more: a rank or a sin"
+  ur: "کانٹا یا اس سے بڑی تکلیف: ایک درجہ یا ایک خطا"
+summary:
+  ar: "ما يصيب المؤمن من شوكة فما فوقها إلا رفعه الله بها درجة أو حطّ عنه بها خطيئة، في رواية عائشة عند مسلم [[passage/muslim-api-6562]]، وعند البخاري من رواية ابن مسعود أن الله يكفّر بها سيئاته كما تحطّ الشجرة ورقها [[passage/bukhari-api-5648]]. فالحساب لا يقتصر على ما يفعله الإنسان، بل يدخل فيه ما يصيبه، وأصغر وحدة يسميها النص شوكة."
+  en: "Nothing afflicts the believer, a thorn-prick or more, without God raising him a rank by it or shedding a sin from him by it, in A'isha's narration in Muslim [[passage/muslim-api-6562]], and in al-Bukhari, in Ibn Mas'ud's narration, God remits his bad deeds by it as a tree sheds its leaves [[passage/bukhari-api-5648]]. The account is not limited to what a person does; what befalls him enters it too, and the smallest unit the text names is a thorn."
+  ur: "مومن کو جو بھی تکلیف پہنچتی ہے، کانٹا یا اس سے بڑی، اللہ اس سے اس کا ایک درجہ بلند کرتا ہے یا ایک خطا مٹاتا ہے، عائشہ کی روایت میں جو مسلم میں ہے [[passage/muslim-api-6562]]، اور بخاری میں ابن مسعود کی روایت میں ہے کہ اللہ اس سے اس کی برائیاں ایسے مٹاتا ہے جیسے درخت اپنے پتے جھاڑتا ہے [[passage/bukhari-api-5648]]۔ حساب صرف انسان کے کیے تک محدود نہیں بلکہ جو اسے پہنچے وہ بھی اس میں داخل ہے، اور سب سے چھوٹی اکائی جس کا نص نام لیتی ہے کانٹا ہے۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+reckoning:
+  effect: erasure
+  erased: 1
+  degrees: 1
+  unit:
+    ar: "لكل مصيبة تصيب المؤمن"
+    en: "per affliction that befalls the believer"
+    ur: "مومن کو پہنچنے والی ہر تکلیف پر"
+  result:
+    ar: "رفعه الله بها درجة أو حطّ عنه بها خطيئة"
+    en: "God raises him a rank by it or sheds a sin from him by it"
+    ur: "اللہ اس سے اس کا ایک درجہ بلند کرتا ہے یا ایک خطا مٹاتا ہے"
+  basis: [passage/muslim-api-6562, passage/bukhari-api-5648]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+- source/hadith-api-fawazahmed0
+- source/sahih-al-bukhari
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-747
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "747"
+label: { ar: "جامع الترمذي 747 — كتاب الأعمال والملائكة الكاتبون", en: "Jami' al-Tirmidhi 747 — the record of deeds and the recording angels", ur: "جامع ترمذی 747 — نامۂ اعمال اور لکھنے والے فرشتے" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى، حَدَّثَنَا أَبُو عَاصِمٍ، عَنْ مُحَمَّدِ بْنِ رِفَاعَةَ، عَنْ سُهَيْلِ بْنِ أَبِي صَالِحٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" تُعْرَضُ الأَعْمَالُ يَوْمَ الاِثْنَيْنِ وَالْخَمِيسِ فَأُحِبُّ أَنْ يُعْرَضَ عَمَلِي وَأَنَا صَائِمٌ \". قَالَ أَبُو عِيسَى حَدِيثُ أَبِي هُرَيْرَةَ فِي هَذَا الْبَابِ حَدِيثٌ حَسَنٌ غَرِيبٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 747، يذكر كتاب الأعمال والملائكة الكاتبون. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 747 (The Book on Fasting), that speaks of the record of deeds and the recording angels. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 747، جس میں نامۂ اعمال اور لکھنے والے فرشتے کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 747 (book 8 hadith 66); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

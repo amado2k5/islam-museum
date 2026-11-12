@@ -1,0 +1,17 @@
+id: passage/muslim-api-387
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "387"
+label: { ar: "صحيح مسلم 387 — مضاعفة الأجر، الأجران", en: "Sahih Muslim 387 — the reward doubled or multiplied; the double reward", ur: "صحیح مسلم 387 — اجر کا دوگنا یا کئی گنا ہونا، دوہرا اجر" }
+text: "… الشَّعْبِيُّ حَدَّثَنِي أَبُو بُرْدَةَ بْنُ أَبِي مُوسَى عَنْ أَبِيهِ أَنَّ رَسُولَ اللَّهِ قَالَ \" ثَلاَثَةٌ يُؤْتَوْنَ أَجْرَهُمْ مَرَّتَيْنِ رَجُلٌ مِنْ أَهْلِ الْكِتَابِ آمَنَ بِنَبِيِّهِ وَأَدْرَكَ النَّبِيَّ فَآمَنَ بِهِ وَاتَّبَعَهُ وَصَدَّقَهُ فَلَهُ أَجْرَانِ وَعَبْدٌ مَمْلُوكٌ أَدَّى حَقَّ اللَّهِ تَعَالَى وَحَقَّ سَيِّدِهِ فَلَهُ أَجْرَانِ وَرَجُلٌ كَانَتْ لَهُ أَمَةٌ فَغَذَاهَا فَأَحْسَنَ غِذَاءَهَا ثُمَّ أَدَّبَهَا فَأَحْسَنَ أَدَبَهَا ثُمَّ أَعْتَقَهَا …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 387، يذكر مضاعفة الأجر، والأجران. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 387 (The Book of Faith), that speaks of the reward doubled or multiplied, the double reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 387، جس میں اجر کا دوگنا یا کئی گنا ہونا، دوہرا اجر کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 387 (book 1 hadith 293); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

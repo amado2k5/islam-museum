@@ -1,0 +1,18 @@
+id: passage/nasai-api-849
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "849"
+label: { ar: "سنن النسائي 849 — عدد الحسنات، رفع الدرجات", en: "Sunan al-Nasa'i 849 — a stated number of good deeds; ranks raised", ur: "سنن نسائی 849 — نیکیوں کی مقررہ تعداد، درجات کی بلندی" }
+text: "… وَمَا مِنْ عَبْدٍ مُسْلِمٍ يَتَوَضَّأُ فَيُحْسِنُ الْوُضُوءَ ثُمَّ يَمْشِي إِلَى صَلاَةٍ إِلاَّ كَتَبَ اللَّهُ عَزَّ وَجَلَّ لَهُ بِكُلِّ خُطْوَةٍ يَخْطُوهَا حَسَنَةً أَوْ يَرْفَعُ لَهُ بِهَا دَرَجَةً أَوْ يُكَفِّرُ عَنْهُ بِهَا خَطِيئَةً وَلَقَدْ رَأَيْتُنَا نُقَارِبُ بَيْنَ الْخُطَا وَلَقَدْ رَأَيْتُنَا وَمَا يَتَخَلَّفُ عَنْهَا إِلاَّ مُنَافِقٌ مَعْلُومٌ نِفَاقُهُ وَلَقَدْ رَأَيْتُ الرَّجُلَ يُهَادَى بَيْنَ الرَّجُلَيْنِ حَتَّى يُقَامَ فِي الصَّفِّ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 849، يذكر عدد الحسنات، ورفع الدرجات، ومحو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 849 (The Book of Leading the Prayer (Al-Imamah)), that speaks of a stated number of good deeds, ranks raised, bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 849، جس میں نیکیوں کی مقررہ تعداد، درجات کی بلندی، برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 849 (book 10 hadith 73); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

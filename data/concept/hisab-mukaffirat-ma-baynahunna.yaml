@@ -1,0 +1,49 @@
+id: concept/hisab-mukaffirat-ma-baynahunna
+class: concept
+kind: doctrine
+label:
+  ar: "الصلوات الخمس والجمعة ورمضان: مكفرات ما بينهن"
+  en: "The five prayers, Friday and Ramadan: expiations for what lies between"
+  ur: "پانچ نمازیں، جمعہ اور رمضان: درمیانی گناہوں کے کفارے"
+summary:
+  ar: "الصلوات الخمس، والجمعة إلى الجمعة، ورمضان إلى رمضان، مكفرات ما بينهن إذا اجتُنبت الكبائر، في رواية أبي هريرة عند مسلم [[passage/muslim-api-552]]. والنص يضع للمحو شرطا صريحا هو اجتناب الكبائر، وهو قيد توافقه آية النساء في تكفير السيئات لمن اجتنب كبائر ما نُهي عنه [[passage/quran-4-31]]."
+  en: "The five prayers, Friday to Friday and Ramadan to Ramadan are expiations for what lies between them when the major sins are avoided, in Abu Hurayra's narration in Muslim [[passage/muslim-api-552]]. The text sets an explicit condition on the erasure, the avoiding of major sins, a limit matched by the verse of al-Nisa' on the remission of bad deeds for those who avoid the gravest of what is forbidden [[passage/quran-4-31]]."
+  ur: "پانچ نمازیں، جمعے سے جمعہ اور رمضان سے رمضان درمیانی گناہوں کے کفارے ہیں جب کبیرہ گناہوں سے بچا جائے، ابو ہریرہ کی روایت میں جو مسلم میں ہے [[passage/muslim-api-552]]۔ نص مٹنے کے لیے ایک صریح شرط رکھتی ہے، یعنی کبائر سے بچنا، اور یہ قید سورۂ نساء کی اس آیت کے مطابق ہے جو بڑے ممنوعات سے بچنے والوں کی برائیاں مٹانے کا ذکر کرتی ہے [[passage/quran-4-31]]۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+reckoning:
+  effect: erasure
+  unbounded: true
+  unit:
+    ar: "من صلاة إلى صلاة، ومن جمعة إلى جمعة، ومن رمضان إلى رمضان"
+    en: "from prayer to prayer, Friday to Friday, Ramadan to Ramadan"
+    ur: "نماز سے نماز، جمعے سے جمعہ اور رمضان سے رمضان تک"
+  result:
+    ar: "مكفرات ما بينهن إذا اجتُنبت الكبائر"
+    en: "expiations for what lies between them, when the major sins are avoided"
+    ur: "درمیانی گناہوں کے کفارے، جب کبیرہ گناہوں سے بچا جائے"
+  basis: [passage/muslim-api-552]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+- source/hadith-api-fawazahmed0
+- source/tanzil-quran
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

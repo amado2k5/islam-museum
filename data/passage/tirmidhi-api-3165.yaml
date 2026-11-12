@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3165
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3165"
+label: { ar: "جامع الترمذي 3165 — الميزان", en: "Jami' al-Tirmidhi 3165 — the Scale", ur: "جامع ترمذی 3165 — میزان" }
+text: "… فَتَنَحَّى الرَّجُلُ فَجَعَلَ يَبْكِي وَيَهْتِفُ فَقَالَ رَسُولُ اللَّهِ \" أَمَا تَقْرَأُ كِتَابَ اللَّهِ : ( ونَضَعُ الْمَوَازِينَ الْقِسْطَ لِيَوْمِ الْقِيَامَةِ فَلاَ تُظْلَمُ نَفْسٌ شَيْئًا وَإِنْ كَانَ مِثْقَالَ ) الآيَةَ. فَقَالَ الرَّجُلُ وَاللَّهِ يَا رَسُولَ اللَّهِ مَا أَجِدُ لِي وَلِهَؤُلاَءِ شَيْئًا خَيْرًا مِنْ مُفَارَقَتِهِمْ أُشْهِدُكُمْ أَنَّهُمْ أَحْرَارٌ كُلَّهُمْ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ غَرِيبٌ لاَ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3165، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 3165 (Chapters on Tafsir), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 3165، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3165 (book 47 hadith 217); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

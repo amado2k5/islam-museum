@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-2892
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2892"
+label: { ar: "جامع الترمذي 2892 — عدد الحسنات", en: "Jami' al-Tirmidhi 2892 — a stated number of good deeds", ur: "جامع ترمذی 2892 — نیکیوں کی مقررہ تعداد" }
+text: "… أَبُو الزُّبَيْرِ إِنَّمَا أَخْبَرَنِيهِ صَفْوَانُ أَوِ ابْنُ صَفْوَانَ وَكَأَنَّ زُهَيْرًا أَنْكَرَ أَنْ يَكُونَ هَذَا الْحَدِيثَ عَنْ أَبِي الزُّبَيْرِ عَنْ جَابِرٍ. حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ لَيْثٍ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، عَنِ النَّبِيِّ نَحْوَهُ. حَدَّثَنَا هُرَيْمٌ بن مِسْعَرٍ، قَالَ حَدَّثَنَا فُضَيْلٌ، عَنْ لَيْثٍ، عَنْ طَاوُسٍ، قَالَ تَفْضُلاَنِ عَلَى كُلِّ سُورَةٍ مِنَ الْقُرْآنِ بِسَبْعِينَ حَسَنَةً."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2892، يذكر عدد الحسنات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 2892 (Chapters on The Virtues of the Qur'an), that speaks of a stated number of good deeds. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 2892، جس میں نیکیوں کی مقررہ تعداد کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2892 (book 45 hadith 18); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

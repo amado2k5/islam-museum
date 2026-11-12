@@ -1,0 +1,50 @@
+id: concept/hisab-al-hasana-al-mamula
+class: concept
+kind: doctrine
+label:
+  ar: "الحسنة المعمولة بعشر أمثالها إلى سبعمائة ضعف"
+  en: "A good deed done: ten to seven hundred"
+  ur: "کیا ہوا نیک عمل: دس سے سات سو گنا"
+summary:
+  ar: "أصل العدّ كله: من همّ بحسنة فعملها كُتبت له عشر حسنات إلى سبعمائة ضعف إلى أضعاف كثيرة، كما في الحديث القدسي الذي يرويه ابن عباس [[passage/muslim-0131]] [[passage/bukhari-6491]]، وهو موافق لآية الأنعام التي تجعل للحسنة عشر أمثالها [[passage/quran-6-160]]. فالعشر حدّ أدنى مكتوب، وما فوقها إلى السبعمائة وما بعدها فضل لا يحدّه النص بعدد. ولذلك تعرض الآلة الحاسبة هذا السطر مدى بين عشر وسبعمائة، لا رقما واحدا."
+  en: "The root of the whole count: whoever intends a good deed and does it has ten good deeds written for him, up to seven hundred times, up to many times more, in the hadith qudsi related by Ibn Abbas [[passage/muslim-0131]] [[passage/bukhari-6491]]; it agrees with the verse of al-An'am that gives a good deed ten like it [[passage/quran-6-160]]. Ten is the written minimum; what lies above it, to seven hundred and beyond, is a bounty the text does not cap. The calculator therefore shows this row as a range from ten to seven hundred, never as a single figure."
+  ur: "سارے شمار کی بنیاد: جو نیکی کا ارادہ کرے اور اسے کر لے اس کے لیے دس نیکیاں لکھی جاتی ہیں، سات سو گنا تک اور اس سے بھی کئی گنا، جیسا کہ ابن عباس کی روایت کردہ حدیثِ قدسی میں ہے [[passage/muslim-0131]] [[passage/bukhari-6491]]، اور یہ سورۂ انعام کی اس آیت کے مطابق ہے جو نیکی کے لیے دس گنا بتاتی ہے [[passage/quran-6-160]]۔ دس لکھی ہوئی کم از کم حد ہے؛ اس سے اوپر سات سو اور اس کے بعد کا فضل نص نے کسی عدد میں بند نہیں کیا۔ اسی لیے کیلکولیٹر اس سطر کو دس سے سات سو کی حد کے طور پر دکھاتا ہے، ایک عدد کے طور پر نہیں۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+reckoning:
+  effect: hasanat
+  hasanat: 10
+  hasanat_max: 700
+  unit:
+    ar: "لكل حسنة عُملت"
+    en: "per good deed done"
+    ur: "ہر کیے ہوئے نیک عمل پر"
+  result:
+    ar: "عشر حسنات إلى سبعمائة ضعف إلى أضعاف كثيرة"
+    en: "ten good deeds, up to seven hundred times, up to many times more"
+    ur: "دس نیکیاں، سات سو گنا تک، اور اس سے بھی کئی گنا"
+  basis: [passage/muslim-0131, passage/bukhari-6491, passage/quran-6-160]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+- source/sahih-al-bukhari
+- source/tanzil-quran
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

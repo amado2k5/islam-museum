@@ -1,0 +1,49 @@
+id: concept/hisab-al-khuta-ila-al-masjid
+class: concept
+kind: doctrine
+label:
+  ar: "الخطوة إلى المسجد: درجة تُرفع وخطيئة تُحطّ"
+  en: "A step to the mosque: a rank raised and a sin shed"
+  ur: "مسجد کی طرف ایک قدم: ایک درجہ بلند، ایک خطا معاف"
+summary:
+  ar: "إذا توضأ الرجل فأحسن الوضوء ثم خرج إلى المسجد لا يخرجه إلا الصلاة، لم يخطُ خطوة إلا رُفعت له بها درجة وحُطّ عنه بها خطيئة، ثم لا تزال الملائكة تصلي عليه ما دام في مصلاه، في رواية أبي هريرة عند البخاري [[passage/bukhari-api-647]] [[passage/bukhari-api-477]]. وهذا من النصوص التي تجعل العدّاد حرفيا: خطوة بخطوة."
+  en: "When a man performs ablution well and then goes out to the mosque for nothing but the prayer, he takes no step without a rank being raised for him and a sin shed from him by it, and the angels keep praying for him as long as he stays in his place of prayer, in Abu Hurayra's narration in al-Bukhari [[passage/bukhari-api-647]] [[passage/bukhari-api-477]]. It is one of the texts that make the counter literal: step by step."
+  ur: "جب آدمی اچھی طرح وضو کرے پھر صرف نماز کے لیے مسجد کی طرف نکلے تو وہ کوئی قدم نہیں اٹھاتا مگر اس سے اس کا ایک درجہ بلند ہوتا ہے اور ایک خطا مٹتی ہے، پھر جب تک وہ اپنی جائے نماز میں رہے فرشتے اس کے لیے دعا کرتے رہتے ہیں، ابو ہریرہ کی روایت میں جو بخاری میں ہے [[passage/bukhari-api-647]] [[passage/bukhari-api-477]]۔ یہ ان نصوص میں سے ہے جو گنتی کو لفظی بنا دیتی ہیں: قدم بہ قدم۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+reckoning:
+  effect: erasure
+  erased: 1
+  degrees: 1
+  unit:
+    ar: "لكل خطوة إلى المسجد بعد إحسان الوضوء"
+    en: "per step to the mosque after a careful ablution"
+    ur: "اچھی طرح وضو کے بعد مسجد کی طرف ہر قدم پر"
+  result:
+    ar: "رُفعت له بها درجة وحُطّ عنه بها خطيئة"
+    en: "a rank is raised for him by it and a sin is shed from him by it"
+    ur: "اس سے ایک درجہ بلند ہوتا ہے اور ایک خطا جھڑتی ہے"
+  basis: [passage/bukhari-api-647, passage/bukhari-api-477]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-al-bukhari
+- source/hadith-api-fawazahmed0
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

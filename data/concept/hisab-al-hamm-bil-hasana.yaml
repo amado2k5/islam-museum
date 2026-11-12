@@ -1,0 +1,47 @@
+id: concept/hisab-al-hamm-bil-hasana
+class: concept
+kind: doctrine
+label:
+  ar: "الهمّ بالحسنة: حسنة كاملة"
+  en: "A good deed intended and not done: one full good deed"
+  ur: "نیکی کا ارادہ جو پورا نہ ہوا: ایک پوری نیکی"
+summary:
+  ar: "من همّ بحسنة فلم يعملها كتبها الله عنده حسنة كاملة [[passage/muslim-0131]]، وفي رواية أبي هريرة أن الملائكة تؤمر بكتابتها حسنة ما لم يعملها [[passage/muslim-0128]]. فالنية الصادقة وحدها تدخل الدفتر بواحدة، والعمل يرفعها إلى العشر."
+  en: "Whoever intends a good deed and does not do it, God writes it with Him as one full good deed [[passage/muslim-0131]]; in Abu Hurayra's narration the angels are told to write it as a good deed so long as he has not done it [[passage/muslim-0128]]. A sincere intention alone enters the ledger as one, and doing the deed raises it to ten."
+  ur: "جو نیکی کا ارادہ کرے اور اسے نہ کر سکے، اللہ اسے اپنے ہاں ایک پوری نیکی لکھتا ہے [[passage/muslim-0131]]، اور ابو ہریرہ کی روایت میں فرشتوں کو حکم ہے کہ جب تک وہ اسے نہ کرے ایک نیکی لکھیں [[passage/muslim-0128]]۔ سچی نیت اکیلی کھاتے میں ایک بن کر داخل ہوتی ہے اور عمل اسے دس تک پہنچاتا ہے۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+reckoning:
+  effect: hasanat
+  hasanat: 1
+  unit:
+    ar: "لكل حسنة هُمّ بها ولم تُعمل"
+    en: "per good deed intended and not done"
+    ur: "ہر اس نیکی پر جس کا ارادہ ہوا اور وہ نہ ہو سکی"
+  result:
+    ar: "حسنة كاملة"
+    en: "one full good deed"
+    ur: "ایک پوری نیکی"
+  basis: [passage/muslim-0131, passage/muslim-0128]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]
