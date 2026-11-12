@@ -1,0 +1,23 @@
+id: person/ibrahim-al-harawi-sitanba
+class: person
+label: { ar: "إبراهيم الهروي", en: "Ibrahim al-Harawi", ur: "ابراہیم ہروی" }
+names:
+  - { kind: full, lang: ar, value: "أبو إسحاق إبراهيم الهروي، يعرف بستنبة" }
+  - { kind: kunya, lang: ar, value: "أبو إسحاق" }
+gender: male
+roles: [mystic]
+summary:
+  ar: "أبو إسحاق إبراهيم الهروي، يعرف بستنبة، صحب إبراهيم بن أدهم وكان من أقران أبي يزيد البسطامي، مذكور بالتوكل والتجريد، وتوفي بقزوين بحسب «حلية الأولياء»."
+  en: "Abu Ishaq Ibrahim al-Harawi, known as Sitanba, a companion of Ibrahim ibn Adham and a peer of Abu Yazid al-Bistami, noted for trust in God and detachment; he died in Qazvin according to Hilyat al-Awliya."
+  ur: "ابو اسحاق ابراہیم ہروی، جو ستنبہ کے نام سے معروف ہیں، ابراہیم بن ادہم کے ساتھی اور ابو یزید بسطامی کے ہم عصر تھے۔ وہ توکل اور تجرید میں مشہور تھے، اور «حلیۃ الاولیاء» کے مطابق قزوین میں فوت ہوئے۔"
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+relations:
+  - { type: student_of, target: person/ibn-adham-ibrahim, note: "صحب إبراهيم بن أدهم (حلية الأولياء 10/43).", sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: lived_in, target: place/herat, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: died_in, target: place/qazvin, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/43-44", generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b14 }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 2 }

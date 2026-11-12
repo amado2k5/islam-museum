@@ -16,6 +16,8 @@ translations:
   en: { text: "Our Lord! Lo! I have settled some of my posterity in an uncultivable valley near unto Thy holy House, our Lord! that they may establish proper worship; so incline some hearts of men that they may yearn toward them, and provide Thou them with fruits in order that they may be thankful.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اے پروردگار میں نے اپنی اولاد کو میدان (مکہ) میں جہاں کھیتی نہیں تیرے عزت (وادب) والے گھر کے پاس لابسائی ہے۔ اے پروردگار تاکہ یہ نماز پڑھیں تو لوگوں کے دلوں کو ایسا کر دے کہ ان کی طرف جھکے رہیں اور ان کو میوؤں سے روزی دے تاکہ (تیرا) شکر کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: building/masjid-al-haram, sources: [source/tanzil-quran] }
+  - { type: mentions, target: place/mecca, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-14 }
   - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
 sensitivity: sacred

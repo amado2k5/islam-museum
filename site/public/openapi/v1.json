@@ -376,6 +376,21 @@
         }
       }
     },
+    "/places.json": {
+      "get": {
+        "operationId": "getPlaces",
+        "summary": "Sacred Places Browser dataset",
+        "description": "The Sacred Places Browser dataset (متصفح الأماكن المقدسة والهامة وذات القيمة في الإسلام): every place and building of sanctity, importance and value in Islam — tagged places-browser records plus every record a passage mentions — each with its sanctity section (sanctuaries, hajj, seerah, quran, sacred, mentioned), per-corpus mention counts (quran, sunnah, seerah, books), kind, coordinates, regions, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every sacred or mentioned place/building record with section, mention counts, kind, coordinates and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/duas.json": {
       "get": {
         "operationId": "getDuas",

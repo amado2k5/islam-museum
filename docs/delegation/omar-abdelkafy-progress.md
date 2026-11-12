@@ -255,3 +255,28 @@ New series record `work/al-manjeyat` (Ramadan programme on Dubai TV, 27 episodes
 | Excluded (al-manjeyat ep06–ep09): openings and closing supplications; the imam left without followers ep06 00:05:30, the sparrow story ep06 00:10:00, the man carrying his mother ep07 00:10:00, the zakat-auditor remark ep07 00:18:00 (garbled); loops ep06 00:18:30, ep09 00:11:00, 00:19:30 | ep06–ep09 | Garbled, formulae, loops | Clarity; content rule; loop check | Open |
 | al-manjeyat ep10–ep12 (Episodes 10–12) | about 24 min each | ar, en, ur: 11 records extended | 4 concepts, 3 practices, 5 persons extended | ep10 36, ep11 41, ep12 36 | none new | run omar-abdelkafy-al-manjeyat-3 |
 | Excluded (al-manjeyat ep10–ep12): openings and closing supplications; diabetes in Arab countries ep10 00:21:30 and the heavy iftar ep10 00:22:00 (fragmentary); al-Shafi'i's adab ep11 00:07:30 (garbled); loops ep10 00:08:00, ep12 00:11:30 | ep10–ep12 | Fragmentary, garbled, loops | Clarity; loop check | Open |
+
+## silsilat-ebadu-al-rahman, episodes 3 onward (from 11 Nov 2026, Claude Code claude-fable-5-2)
+
+Series record `work/silsilat-ebadu-al-rahman` (28 lessons; episodes 1–2 written on 9 Nov 2026). Transcripts: `books/assabile/omar-abdelkafy/silsilat-ebadu-al-rahman/pass5-qwen/` (Qwen3-ASR, 30-second windows). Batch specs and the appender (`apply_eps.py`, which generates the cite anchors so the three languages carry the same ones, and checks timestamps, wikilinks, honorifics, Urdu script and YAML) live in the same harvest folder under `batches/`. The record's provenance carries an `extended` list naming this model and run for the episodes it wrote; its review state is left as it was.
+
+Trust criteria used (recorded for reuse): a point is written only from windows that read as clear Arabic in context; Qur'an verses are linked only when the lecturer names the sura (verses 25:63–64, the series' own text), otherwise given by sense without a link; hadith are given by sense and attributed to the lecturer's citation; a figure or count the lecturer gives is recorded as his; a saying attributed to a named person is kept as "he attributes", with `needs_source` when the attribution itself is doubtful.
+
+### Completed recordings (§8)
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| silsilat-ebadu-al-rahman ep03–ep05 (affection; "they say: peace" and forbearance; the night prayer) | about 21–23 min each (transcript) | ar, en, ur: 1 record extended (work/silsilat-ebadu-al-rahman), 43 points | 16 new `about` edges (2 passages, 10 concepts and practices, 4 persons) | ep03 14, ep04 15, ep05 14 points; engine qwen3-asr pass5, 30 s windows | 4 needs_source (Ibn Umar's turban, ep03 00:01:30; hadith attributed to al-Bukhari, ep03 00:13:30; Bernard Shaw saying, ep03 00:14:30; the scholar and "whoever saw the Prophet", ep04 00:07:00) | run omar-abdelkafy-ebadu-al-rahman-2 |
+
+### Excluded items
+
+| Item | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, supplications, break jingles (recited verses 25:63–64), closing formulae | ebadu ep03 00:00:00–00:00:30, 00:11:00–00:12:00, 00:20:30–00:21:00; ep04 00:00:00–00:01:00, 00:14:30, 00:22:30–00:23:00; ep05 00:00:00–00:01:00, 00:15:00–00:15:30, 00:22:30–00:23:00 | Not lesson content; Qur'an never typed | Content rule; Qur'an rule | Open |
+| Repetition loops | ebadu ep03 00:04:00 (tail); ep04 00:14:00; ep05 00:20:00 | Not speech | Loop check | Open |
+| Household anecdote of the child whose sleep is a relief | ebadu ep03 00:03:00 | Partly garbled; only the clear point used | Clarity | Open |
+| Verses of poetry (the hard stone; advice given freely; the "would that You were sweet" lines) | ebadu ep03 00:09:00, 00:20:00; ep04 00:09:00–00:09:30, 00:12:30 | Verbatim verse, partly garbled; given by sense or left out | Sources policy; clarity | Open |
+| Saying on a time when the reminder of God is hated more than a carcass | ebadu ep03 00:20:00 | Hadith-like wording with no attribution in the lesson | Accuracy | Open |
+| Naming Nuh as the prophet called "an insolent liar" | ebadu ep04 00:13:00 | Likely a slip or mis-transcription; the point is written without the name | Accuracy | Open |
+| Figures "46 parts" and "13 hours" for the day's half-hours | ebadu ep05 00:13:00 | Garbled figures; the half-hour programme is written without them | Clarity | Open |
+| Hadith alluded to on Satan and the one who sleeps through the prayer | ebadu ep05 00:08:30 | Hadith wording not typed; only the lecturer's contrast is written | Hadith rule | Open |
