@@ -1,8 +1,37 @@
 ---
 id: concept/umma
 lang: en
-source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+source_lang: en
+translators: []
 ---
 ## Overview
-The single community of believers that transcends races and lands; a central concept in the Qur'an and in Islamic political unity. {cite:wikidata}
+Umma, plural umam, means "people" or "community". In the history of Muslim usage it almost always means the Muslim community as a whole, while allowing regional, essentially non-political uses, such as a reference to Muslims of one country. The Encyclopaedia of Islam, whose article by F. M. Denny this page follows, traces the word through the [[work/quran|Qur'an]], the hadith, the arrangement at Medina and later Muslim thought. In modern usage the plural umam has come to mean "nations", which is distinct from the Islamic sense of the singular. {cite:encyclopaedia-of-islam-2 vol. 10 p. 914} {cite:encyclopaedia-of-islam-2 vol. 10 p. 917}
+
+## The word and its range
+The article says the word is possibly derived from Hebrew umma or Aramaic umetha, and ultimately from Akkadian ummatu, citing Horovitz and Jeffery. It lists further senses drawn from the Arabic root amma: a mode of acting, which it compares with sunna, a morally exemplary person, and a person's tallness, beauty and justice of stature. {cite:encyclopaedia-of-islam-2 vol. 10 p. 914} {cite:encyclopaedia-of-islam-2 vol. 10 p. 917}
+
+## In the Qur'an
+The article counts about sixty-two occurrences in the sense of a religious community. The word also appears for a fixed term, and for communities of animals that resemble human groups. It is also applied to the patriarch [[person/ibrahim|Ibrahim]] as a model of righteousness. The Qur'an teaches, in the article's account, that each umma, perhaps meaning a generation sharing a belief and a value system, has an appointed term, and that a messenger was sent to every community and judgement between them will be just. {cite:encyclopaedia-of-islam-2 vol. 10 p. 917}
+
+In both Meccan and Medinan passages the phrase umma wahida, "a single umma", can refer to an archetypal or potential unity of mankind and of prophetic religion. The fellowship of the messengers is called a single umma, and mankind is described as one umma before messengers were sent with the Book and before it differed. In one passage the word is equivalent to milla, the traditional religion of a people, and by extension a guidance, however inferior to divine prophecy. The author sees in such passages a foreshadowing of Islam as the restorer of the original spiritual and moral unity of humans. {cite:encyclopaedia-of-islam-2 vol. 10 p. 917}
+
+The article describes a chronological development from generic reference to religious communities toward a more focused reference to the emerging Muslim community. It argues that the meaning was progressively augmented rather than changed, since even in the Medinan period the word keeps its more inclusive sense of humanity with its potential to become Muslim. The Qur'an therefore does not apply umma exclusively to Muslims, but by Medinan times it holds the term up as one that may refer only to the godly part of a religious community. {cite:encyclopaedia-of-islam-2 vol. 10 p. 917}
+
+Several passages are singled out. One speaks of a hoped-for mature group of believers who strive after righteousness. Another acknowledges that Jews and Christians have a "rightly balanced" community among them, though many others pursue evil. In a prayer of Ibrahim and [[person/ismail|Isma'il]] after raising the [[concept/kaaba|Ka'ba]], they ask for a people submissive to God, umma muslima. The article calls the grounding of historical Islam in the archetypal religion of Ibrahim a characteristically Medinan representation, which also validates the restoration of ancient Ka'ba-oriented rites within a recovered monotheistic context. It warns that umma muslima should not be loaded with the meaning the phrase acquired after Islam became institutionalised. {cite:encyclopaedia-of-islam-2 vol. 10 p. 917}
+
+The climactic use for Muslims, in the article's reading, is the passage that calls them, in comparison with the People of the Book, the best umma evolved for mankind, enjoining the right and forbidding the wrong. Finally the Muslim umma is established as a midmost community, usually understood as justly balanced and mediating, so that it may be a witness over mankind with the Messenger a witness over it; see also [[concept/ummat-wasat|ummat wasat]]. The same passage closes with the appointing of the [[concept/qibla|qibla]], the direction of the Sacred Mosque, as the ritual centre that marks the community off from other peoples and unifies it from all directions. The article adds that the direction of prayer and the pilgrimage have continued to mark off the global Muslim community and sustain its unity across racial, ethnic, cultural and national differences. {cite:encyclopaedia-of-islam-2 vol. 10 p. 917}
+
+## An academic account of the Medinan umma
+W. M. Watt, in a study the article cites, analysed the Medinan umma as an innovative, theocratic politico-social order. It resembled in some ways the Israelites under Moses, though not intentionally modelled on them, and it transcended tribalism by resting on common faith rather than kinship. In his account God is the head and director of the umma, and all who take part enjoy divine security and protection, dhimma. This is an academic reading, set beside the Qur'anic material above and not part of it. See [[person/montgomery-watt|Montgomery Watt]]. {cite:encyclopaedia-of-islam-2 vol. 10 p. 917}
+
+## In hadith
+The article notes that the hadith literature lacks the range of meanings found in the Qur'an, but the word is frequent there and most often means the Muslim community. It calls perhaps the most fateful tradition one saying that the umma will never agree together on an error, which it cites from the Sunan of Ibn Maja, and which it describes as a "voice of the people" formulation that has played an important part in Sunni jurisprudence under the heading of consensus, [[concept/ijma|ijma]], as a source of law. A tradition cited from al-Bukhari holds that every member of the umma will enter the Garden except one who rejects the Prophet. Other traditions speculate whether the Muslim umma will make up a quarter, a third or a half of Paradise, and one in Ibn Maja puts it at a third, with the remainder from the other ummas. {cite:encyclopaedia-of-islam-2 vol. 10 p. 917}
+
+## The umma at Medina
+According to the article, the umma's establishment as a community with political authority and autonomy, as well as religious and social features, took place at Medina. A document contemporary with the Qur'an, widely known as the [[event/constitution-of-medina|Constitution of Medina]], describes the Medinan community as a whole as an umma, with the Jews there forming an umma alongside the main body. Mutual defence and security were crucial elements of the arrangement. {cite:encyclopaedia-of-islam-2 vol. 10 p. 918}
+
+## Later history and modern thought
+Other concepts relate to the understanding of umma, such as [[concept/dar-al-islam|dar al-Islam]] against dar al-harb, the caliphate and the jama'a. The article says that throughout Islamic history the umma has usually been thought to hold final authority, under God, in overseeing the leadership of the Muslims, and that the consensus has favoured a unified umma as an ideal that transcends the limits and divisions of any one period. It adds that the challenge of colonialism provoked a great renewal of awareness of the umma, and that modern Muslim thinkers since the nineteenth century have sustained a variety of discourses on its political and other meanings, including the question whether and to what extent it contains democratic principles. {cite:encyclopaedia-of-islam-2 vol. 10 p. 918}
+
+## Earlier note in the museum
+The museum's first summary of this record, from Wikidata, described the umma as the single community of believers that transcends races and lands, a central concept in the Qur'an and in Islamic political unity. {cite:wikidata}

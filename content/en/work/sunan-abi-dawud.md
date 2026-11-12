@@ -1,8 +1,8 @@
 ---
 id: work/sunan-abi-dawud
 lang: en
-source_lang: ar
-translators: ["Claude Code (OCR-harvest worker K), claude-opus-5-5, translation from the Arabic, run ocr-harvest-2026-11-04"]
+source_lang: en
+translators: []
 status: { review: published }
 provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "Sunan Abi Dawud, Dar Ibn Hazm 1997 vol. 1 pp. 1–14, 15, 17, 43–46, 85–86, 140, 195, 437, 493–508; first card from the Kanpur/Deoband edition and sunnah.com" }
 ---
@@ -33,6 +33,21 @@ The notice of the author in this edition gathers judgements on the book:
 
 ## Its transmission
 The editors name [[person/ibn-dasa|Muhammad ibn Abi Bakr ibn 'Abd al-Razzaq ibn Dasa al-Tammar]] and [[person/abu-ali-al-lului|Abu 'Ali Muhammad ibn Ahmad al-Lu'lu'i]] as the two through whom the book is transmitted from Abu Dawud. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 10} Among the authors of the other collections who transmitted from Abu Dawud were [[person/al-tirmidhi-muhammad-ibn-isa|al-Tirmidhi]] and [[person/al-nasai|al-Nasa'i]]. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 10}
+
+## In the Encyclopaedia of Islam
+The article of the Encyclopaedia of Islam, second edition, on [[person/abu-dawud-al-sijistani|Abu Dawud]] describes the Sunan as his principal work and one of the six canonical books of tradition accepted by Sunnis. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} The article adds that he is said to have submitted it to [[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]], who approved it. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} It also notes that the author was born in 202 AH, travelled widely in search of knowledge and settled at [[place/basra|Basra]]. According to the article, this led some to hold wrongly that his name al-Sijistani comes from a village near Basra, when it comes from the province of [[place/sijistan|Sijistan]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} It gives his death as Shawwal 275 AH. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
+
+### Size and grades of the reports
+The article repeats the account of [[person/ibn-dasa|Ibn Dasa]], that Abu Dawud said he drew 4,800 reports from a mass of 500,000, and that the book holds reports that are sound, reports that seem to be so, and reports that come near to it. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} It quotes a further saying of the author: where a report carries great weakness he has made it clear, and where he has said nothing the report is acceptable, some being sounder than others. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} This refers to the notes he often adds to a report to give his view of its worth. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
+
+### Place in the criticism of hadith
+The article observes that [[work/sahih-muslim|Muslim]] prefaced his Sahih with a discussion of general questions of criticism, but that Abu Dawud was the first to give such detailed notes on individual reports. In its view this prepared the way for the more systematic criticism found in the collection of his pupil [[person/al-tirmidhi-muhammad-ibn-isa|al-Tirmidhi]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} It adds that Abu Dawud cites transmitters absent from the two Sahihs, his principle being that a transmitter counts as trustworthy unless there is formal proof against him. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} The work deals mainly with matters that the law commands, permits or forbids. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
+
+### Praise and criticism
+The article records two judgements of praise. Abu Sa'id ibn al-A'rabi said that a man who knew only the Qur'an and this book would have sufficient knowledge, and Muhammad ibn Makhlad said that the traditionists accepted it without question, as they accepted the Qur'an. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} The article finds it surprising that, although many in the fourth century AH praised the book, the Fihrist does not mention it and names Abu Dawud only as the father of his son. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} It also reports later criticism: [[person/abd-al-azim-al-mundhiri|al-Mundhiri]], who made a summary of the Sunan, criticized some reports left without notes, and [[person/ibn-qayyim-al-jawziyya|Ibn al-Jawziyya]] added further criticisms. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} The article concludes that, whatever faults have been found, the work keeps an honoured place. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
+
+### Transmission and related work
+The article states that the Sunan was transmitted by several lines, some versions said to hold material absent from others, and that the version of [[person/abu-ali-al-lului|al-Lu'lu'i]] has found most favour. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} It notes that many editions have been printed in the East. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133} It also mentions a small collection of mursal reports by Abu Dawud, the [[work/kitab-al-marasil|Kitab al-Marasil]], published in Cairo in 1310 AH/1892 CE. {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}
 
 ## Commentaries and editions
 - Its oldest known commentary is [[work/maalim-al-sunan|Ma'alim al-Sunan]] by al-Khattabi (319–388 AH), printed in the footnotes of the Dar Ibn Hazm edition. {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 1} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 8}
