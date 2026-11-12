@@ -977,3 +977,19 @@ Note: the chapter note does not name any subject for these stories; the chains a
 | 681 (printed) | 398 | the hadith on regret | a quoted report with the Prophet's formula | described only |
 | 681 (printed) | 398 | the verse of advancing before God and His Messenger | the Qur'an text is never typed | referred to by sense; Ibn Abbas's reading given |
 | 681 (printed) | 398 | the chain link "أبو محمد بن حيان ... أبو عبد الرحمن الراعي" | legible | given as read |
+
+## Batch 104 (run microsd-books-b104, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 398–400 (full text read before writing). New draft: person/abbas-ibn-ismail-al-tamdi (printed 682, sequence 683, 10/398–400). No existing record of this man. Notice complete at the top of page 400; 683 (Zakariya ibn al-Salt, "له الورع الوثيق") begins there.
+- Checked against the scan: the nisba "الطامدي"; "الحلوة بالمحل المكين" read as sweetness of character in a firm station (the sense is likely, flagged); the grief at thirty lost khatmas a month; Ibn al-Mubarak's saying through Husayn ibn al-Faraj, recorded by Abd Allah ibn Kawthar at Mecca; the chain to Muhammad ibn Ka'b al-Qurazi through Makki ibn Ibrahim al-Rabadhi.
+- The long address of God to the child of Adam is a report of earlier scripture, described in outline and not quoted. No honorific is typed.
+- Printed 683 (Zakariya ibn al-Salt) is next.
+- Printed 532, 546 and 666 stay held.
+- Numbering: the printed series remains one behind the sequence; kept as printed; the page image has not been checked.
+
+## Exclusions and garbled readings (batch 104)
+
+| Notice | Page | Passage | Reason | Handling |
+|---|---|---|---|---|
+| 682 (printed) | 398 | "الحلوة بالمحل المكين" | the sense is likely (sweetness of character) but the word is not certain | rendered as sweetness of character in a firm station; flagged |
+| 682 (printed) | 399–400 | the address of God to the child of Adam | a report of earlier scripture, long | described in outline only; the wording is not given |
+| 682 (printed) | 399 | the chain "عبيدة الربدى" | legible; the nisba is read as al-Rabadhi | given as read |
