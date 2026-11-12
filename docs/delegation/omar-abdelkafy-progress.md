@@ -1812,3 +1812,21 @@ Resume point: ahl-al-hikma episode 21 (branch from origin/main).
 | Repetition loops and garbled windows | ep25 00:04:30 (loop), 00:09:30 (loop); ep26 00:05:30-00:06:00 (loop), 00:11:00-00:11:30 (loop), 00:14:00 (partial loop); ep27 00:01:30 (long loop), 00:03:30 (partial loop), 00:05:00 (partial loop), 00:09:00 (loop), 00:14:30 (loop) | Not speech or not recoverable | Loop check, Clarity | Open |
 | Repeated stretches already written in episode 24 | ep25 00:02:00-00:08:30 (parts), 00:11:30-00:14:30 | Same content as ep24, not duplicated beyond the repeat section | Duplication | Open |
 | National-pride aside on the Egyptian army | ep27 00:11:00-00:11:30 | Not a lesson claim | Content rule | Open |
+
+### al-naba-al-safi, episode 4 (12 Nov 2026, Claude Code claude-sonnet-5-5, run omar-abdelkafy-al-naba-al-safi-1)
+
+Episode 4 read in full (50 min of transcript) before writing. 12 points written (ar, en, ur); new `about` edges for the people and passages named; 9 needs_source (unchained hadiths, sayings and accounts in sense, rulings and the ruqya procedure without evidence).
+
+| Recording | Duration | Prose | Entities | Claims | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-naba-al-safi ep4 (the trust of the word and divination channels) | about 50 min (transcript) | ar, en, ur: work/al-naba-al-safi extended, 12 points | new `about` edges | 12 | 9 needs_source | this PR |
+
+Next step: episode 5.
+
+| Excluded (al-naba-al-safi ep4) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Openings, greetings, supplications, break announcements, closing formulae | ep04 00:00:00–00:01:00, 00:22:00–00:22:30, 00:32:30–00:33:30, 00:49:00–00:49:30 | Not lesson content | Content rule | Open |
+| Repetition loops and garbled windows | ep04 00:25:00–00:26:00, 00:35:30–00:36:30, 00:22:00 | Not speech, or garbled; only the clear sense is summarised | Loop check and clarity | Open |
+| Eclipse account at the death of the Prophet's son | ep04 00:24:30–00:25:00 | Cut off by a loop; not recorded | Clarity | Open |
+| Praise of a state's equal treatment and of a channel's patron | ep04 00:26:30–00:27:30, 00:45:00–00:46:00 | Praise of a state and of a named ruler is not lesson content; not recorded | Content rule | Open |
+| Private details of callers | ep04 00:38:30–00:46:00 | Kept general | Privacy | Open |
