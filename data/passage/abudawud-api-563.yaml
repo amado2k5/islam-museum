@@ -1,0 +1,18 @@
+id: passage/abudawud-api-563
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "563"
+label: { ar: "سنن أبي داود 563 — كتابة الحسنات، محو السيئات وحط الخطايا", en: "Sunan Abi Dawud 563 — the writing of good deeds; bad deeds erased and sins shed", ur: "سنن ابی داؤد 563 — نیکیوں کا لکھا جانا، برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "… يَقُولُ \" إِذَا تَوَضَّأَ أَحَدُكُمْ فَأَحْسَنَ الْوُضُوءَ ثُمَّ خَرَجَ إِلَى الصَّلاَةِ لَمْ يَرْفَعْ قَدَمَهُ الْيُمْنَى إِلاَّ كَتَبَ اللَّهُ عَزَّ وَجَلَّ لَهُ حَسَنَةً وَلَمْ يَضَعْ قَدَمَهُ الْيُسْرَى إِلاَّ حَطَّ اللَّهُ عَزَّ وَجَلَّ عَنْهُ سَيِّئَةً فَلْيُقَرِّبْ أَحَدُكُمْ أَوْ لِيُبَعِّدْ فَإِنْ أَتَى الْمَسْجِدَ فَصَلَّى فِي جَمَاعَةٍ غُفِرَ لَهُ فَإِنْ أَتَى الْمَسْجِدَ وَقَدْ صَلَّوْا بَعْضًا وَبَقِيَ بَعْضٌ صَلَّى مَا …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 563، يذكر كتابة الحسنات، ومحو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 563 (Prayer (Kitab Al-Salat)), that speaks of the writing of good deeds, bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 563، جس میں نیکیوں کا لکھا جانا، برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 563 (book 2 hadith 173); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

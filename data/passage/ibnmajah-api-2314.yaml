@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-2314
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2314"
+label: { ar: "سنن ابن ماجه 2314 — الأجران", en: "Sunan Ibn Majah 2314 — the double reward", ur: "سنن ابن ماجہ 2314 — دوہرا اجر" }
+text: "… عَنْ بُسْرِ بْنِ سَعِيدٍ، عَنْ أَبِي قَيْسٍ، - مَوْلَى عَمْرِو بْنِ الْعَاصِ - عَنْ عَمْرِو بْنِ الْعَاصِ، أَنَّهُ سَمِعَ رَسُولَ اللَّهِ يَقُولُ \" إِذَا حَكَمَ الْحَاكِمُ فَاجْتَهَدَ فَأَصَابَ فَلَهُ أَجْرَانِ وَإِذَا حَكَمَ فَاجْتَهَدَ فَأَخْطَأَ فَلَهُ أَجْرٌ \". قَالَ يَزِيدُ فَحَدَّثْتُ بِهِ أَبَا بَكْرِ بْنَ عَمْرِو بْنِ حَزْمٍ، فَقَالَ هَكَذَا حَدَّثَنِيهِ أَبُو سَلَمَةَ، عَنْ أَبِي هُرَيْرَة.َ"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2314، يذكر الأجران. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 2314 (The Chapters on Rulings), that speaks of the double reward. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2314، جس میں دوہرا اجر کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2314 (book 13 hadith 7); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,18 @@
+id: passage/tirmidhi-api-965
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "965"
+label: { ar: "جامع الترمذي 965 — رفع الدرجات، محو السيئات وحط الخطايا", en: "Jami' al-Tirmidhi 965 — ranks raised; bad deeds erased and sins shed", ur: "جامع ترمذی 965 — درجات کی بلندی، برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "… عَنِ الأَسْوَدِ، عَنْ عَائِشَةَ، قَالَتْ قَالَ رَسُولُ اللَّهِ \" لاَ يُصِيبُ الْمُؤْمِنَ شَوْكَةٌ فَمَا فَوْقَهَا إِلاَّ رَفَعَهُ اللَّهُ بِهَا دَرَجَةً وَحَطَّ عَنْهُ بِهَا خَطِيئَةً \". قَالَ وَفِي الْبَابِ عَنْ سَعْدِ بْنِ أَبِي وَقَّاصٍ وَأَبِي عُبَيْدَةَ بْنِ الْجَرَّاحِ وَأَبِي هُرَيْرَةَ وَأَبِي أُمَامَةَ وَأَبِي سَعِيدٍ وَأَنَسٍ وَعَبْدِ اللَّهِ بْنِ عَمْرٍو وَأَسَدِ بْنِ كُرْزٍ وَجَابِرِ بْنِ عَبْدِ اللَّهِ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 965، يذكر رفع الدرجات، ومحو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Jami' al-Tirmidhi, no. 965 (The Book on Jana''iz (Funerals)), that speaks of ranks raised, bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "جامع ترمذی کی حدیث نمبر 965، جس میں درجات کی بلندی، برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 965 (book 10 hadith 1); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

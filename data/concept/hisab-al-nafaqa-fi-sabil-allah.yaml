@@ -1,0 +1,50 @@
+id: concept/hisab-al-nafaqa-fi-sabil-allah
+class: concept
+kind: doctrine
+label:
+  ar: "النفقة في سبيل الله بسبعمائة ضعف"
+  en: "Spending in the way of God: seven hundred times"
+  ur: "اللہ کی راہ میں خرچ: سات سو گنا"
+summary:
+  ar: "من أنفق نفقة في سبيل الله كُتبت له بسبعمائة ضعف، في رواية خُريم بن فاتك عند الترمذي وقد حسّنه [[passage/tirmidhi-api-1625]]. ويوافقه مثل الحبة في سورة البقرة التي تنبت سبع سنابل في كل سنبلة مائة حبة، ثم تذكر الآية أن الله يضاعف لمن يشاء [[passage/quran-2-261]]، فالسبعمائة هنا عدد مكتوب وما بعده مفتوح."
+  en: "Whoever spends in the way of God has it written for him seven hundred times over, in Khuraym ibn Fatik's narration in al-Tirmidhi, who grades it sound [[passage/tirmidhi-api-1625]]. It matches the parable of the grain in al-Baqara that grows seven ears with a hundred grains in each, after which the verse adds that God multiplies for whom He wills [[passage/quran-2-261]]: seven hundred is the written figure, and what follows it is left open."
+  ur: "جو اللہ کی راہ میں کچھ خرچ کرے اس کے لیے سات سو گنا لکھا جاتا ہے، خریم بن فاتک کی روایت میں جو ترمذی میں ہے اور ترمذی نے اسے حسن کہا [[passage/tirmidhi-api-1625]]۔ اس کی تائید سورۂ بقرہ کی دانے کی مثال کرتی ہے جو سات بالیاں اگاتا ہے اور ہر بالی میں سو دانے، پھر آیت بتاتی ہے کہ اللہ جس کے لیے چاہے بڑھاتا ہے [[passage/quran-2-261]]: سات سو لکھا ہوا عدد ہے اور اس کے بعد کا معاملہ کھلا ہے۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+order: 18
+reckoning:
+  effect: hasanat
+  hasanat: 700
+  unit:
+    ar: "لكل نفقة في سبيل الله"
+    en: "per act of spending in the way of God"
+    ur: "اللہ کی راہ میں ہر خرچ پر"
+  result:
+    ar: "كُتبت له بسبعمائة ضعف"
+    en: "written for him seven hundred times over"
+    ur: "اس کے لیے سات سو گنا لکھا جاتا ہے"
+  basis: [passage/tirmidhi-api-1625, passage/quran-2-261]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/jami-al-tirmidhi
+- source/hadith-api-fawazahmed0
+- source/tanzil-quran
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

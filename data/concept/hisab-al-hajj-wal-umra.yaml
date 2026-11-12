@@ -1,0 +1,50 @@
+id: concept/hisab-al-hajj-wal-umra
+class: concept
+kind: doctrine
+label:
+  ar: "الحج بلا رفث ولا فسوق، والعمرة إلى العمرة"
+  en: "Hajj without lewdness or wrongdoing, and umra to umra"
+  ur: "بے حیائی اور نافرمانی کے بغیر حج، اور عمرے سے عمرے تک"
+summary:
+  ar: "من حجّ لله فلم يرفث ولم يفسق رجع كيوم ولدته أمه، في رواية أبي هريرة عند البخاري [[passage/bukhari-api-1521]]، والعمرة إلى العمرة كفارة لما بينهما، والحج المبرور ليس له جزاء إلا الجنة، عند مسلم [[passage/muslim-1349]]. الأول تصفير كامل للسجل، والثاني محو لما بين عملين."
+  en: "Whoever performs the hajj for God without lewdness or wrongdoing returns as on the day his mother bore him, in Abu Hurayra's narration in al-Bukhari [[passage/bukhari-api-1521]]; and umra to umra is an expiation for what lies between them, while the accepted hajj has no reward but Paradise, in Muslim [[passage/muslim-1349]]. The first is a full clearing of the record; the second wipes out what falls between two acts."
+  ur: "جو اللہ کے لیے حج کرے اور بے حیائی اور نافرمانی نہ کرے وہ ایسے لوٹتا ہے جیسے اس دن تھا جب اس کی ماں نے اسے جنا، ابو ہریرہ کی روایت میں جو بخاری میں ہے [[passage/bukhari-api-1521]]، اور عمرے سے عمرہ درمیانی گناہوں کا کفارہ ہے اور حجِ مبرور کی جزا جنت کے سوا کچھ نہیں، مسلم میں [[passage/muslim-1349]]۔ پہلا نامۂ اعمال کا مکمل صاف ہو جانا ہے اور دوسرا دو عملوں کے درمیان کا مٹ جانا۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+parent_concept: concept/hisab-al-hasanat-wal-sayyiat
+order: 15
+reckoning:
+  effect: erasure
+  unbounded: true
+  unit:
+    ar: "لكل حجة أو عمرة"
+    en: "per hajj or umra"
+    ur: "ہر حج یا عمرے پر"
+  result:
+    ar: "رجع كيوم ولدته أمه؛ والعمرة إلى العمرة كفارة لما بينهما"
+    en: "he returns as on the day his mother bore him; umra to umra is an expiation for what lies between them"
+    ur: "وہ ایسے لوٹتا ہے جیسے اس دن تھا جب اس کی ماں نے اسے جنا؛ عمرے سے عمرہ درمیانی گناہوں کا کفارہ ہے"
+  basis: [passage/bukhari-api-1521, passage/muslim-1349]
+relations:
+- { type: part_of, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-al-bukhari
+- source/hadith-api-fawazahmed0
+- source/sahih-muslim
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser, hisab-calculator]

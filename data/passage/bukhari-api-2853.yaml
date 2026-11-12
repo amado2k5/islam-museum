@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2853
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2853"
+label: { ar: "صحيح البخاري 2853 — الميزان", en: "Sahih al-Bukhari 2853 — the Scale", ur: "صحیح بخاری 2853 — میزان" }
+text: "حَدَّثَنَا عَلِيُّ بْنُ حَفْصٍ، حَدَّثَنَا ابْنُ الْمُبَارَكِ، أَخْبَرَنَا طَلْحَةُ بْنُ أَبِي سَعِيدٍ، قَالَ سَمِعْتُ سَعِيدًا الْمَقْبُرِيَّ، يُحَدِّثُ أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ ـ يَقُولُ قَالَ النَّبِيُّ \" مَنِ احْتَبَسَ فَرَسًا فِي سَبِيلِ اللَّهِ إِيمَانًا بِاللَّهِ وَتَصْدِيقًا بِوَعْدِهِ، فَإِنَّ شِبَعَهُ وَرِيَّهُ وَرَوْثَهُ وَبَوْلَهُ فِي مِيزَانِهِ يَوْمَ الْقِيَامَةِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2853، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 2853 (Fighting for the Cause of Allah (Jihaad)), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 2853، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2853 (book 56 hadith 69); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

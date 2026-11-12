@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-3788
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3788"
+label: { ar: "سنن ابن ماجه 3788 — عمل يعدل عملا أعظم منه", en: "Sunan Ibn Majah 3788 — a deed that equals a greater one", ur: "سنن ابن ماجہ 3788 — ایک عمل جو بڑے عمل کے برابر ہے" }
+text: "حَدَّثَنَا الْحَسَنُ بْنُ عَلِيٍّ الْخَلاَّلُ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، عَنْ جَرِيرِ بْنِ حَازِمٍ، عَنْ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" {قُلْ هُوَ اللَّهُ أَحَدٌ} تَعْدِلُ ثُلُثَ الْقُرْآنِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3788، يذكر عمل يعدل عملا أعظم منه. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Ibn Majah, no. 3788 (Etiquette), that speaks of a deed that equals a greater one. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3788، جس میں ایک عمل جو بڑے عمل کے برابر ہے کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3788 (book 33 hadith 132); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

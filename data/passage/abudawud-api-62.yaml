@@ -1,0 +1,17 @@
+id: passage/abudawud-api-62
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "62"
+label: { ar: "سنن أبي داود 62 — عدد الحسنات، كتابة الحسنات", en: "Sunan Abi Dawud 62 — a stated number of good deeds; the writing of good deeds", ur: "سنن ابی داؤد 62 — نیکیوں کی مقررہ تعداد، نیکیوں کا لکھا جانا" }
+text: "… يَحْيَى، أَتْقَنُ - عَنْ غُطَيْفٍ، - وَقَالَ مُحَمَّدٌ عَنْ أَبِي غُطَيْفٍ الْهُذَلِيِّ، - قَالَ كُنْتُ عِنْدَ عَبْدِ اللَّهِ بْنِ عُمَرَ فَلَمَّا نُودِيَ بِالظُّهْرِ تَوَضَّأَ فَصَلَّى فَلَمَّا نُودِيَ بِالْعَصْرِ تَوَضَّأَ فَقُلْتُ لَهُ فَقَالَ كَانَ رَسُولُ اللَّهِ يَقُولُ \" مَنْ تَوَضَّأَ عَلَى طُهْرٍ كَتَبَ اللَّهُ لَهُ عَشْرَ حَسَنَاتٍ \". قَالَ أَبُو دَاوُدَ وَهَذَا حَدِيثُ مُسَدَّدٍ وَهُوَ أَتَمُّ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 62، يذكر عدد الحسنات، وكتابة الحسنات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan Abi Dawud, no. 62 (Purification (Kitab Al-Taharah)), that speaks of a stated number of good deeds, the writing of good deeds. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن ابی داؤد کی حدیث نمبر 62، جس میں نیکیوں کی مقررہ تعداد، نیکیوں کا لکھا جانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 62 (book 1 hadith 62); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

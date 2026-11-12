@@ -1,0 +1,18 @@
+id: passage/muslim-api-1506
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1506"
+label: { ar: "صحيح مسلم 1506 — رفع الدرجات، محو السيئات وحط الخطايا", en: "Sahih Muslim 1506 — ranks raised; bad deeds erased and sins shed", ur: "صحیح مسلم 1506 — درجات کی بلندی، برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "… الْوُضُوءَ ثُمَّ أَتَى الْمَسْجِدَ لاَ يَنْهَزُهُ إِلاَّ الصَّلاَةُ لاَ يُرِيدُ إِلاَّ الصَّلاَةَ فَلَمْ يَخْطُ خَطْوَةً إِلاَّ رُفِعَ لَهُ بِهَا دَرَجَةٌ وَحُطَّ عَنْهُ بِهَا خَطِيئَةٌ حَتَّى يَدْخُلَ الْمَسْجِدَ فَإِذَا دَخَلَ الْمَسْجِدَ كَانَ فِي الصَّلاَةِ مَا كَانَتِ الصَّلاَةُ هِيَ تَحْبِسُهُ وَالْمَلاَئِكَةُ يُصَلُّونَ عَلَى أَحَدِكُمْ مَا دَامَ فِي مَجْلِسِهِ الَّذِي صَلَّى فِيهِ يَقُولُونَ اللَّهُمَّ امَّ اغْفِرْ لَهُ اللَّهُمَّ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 1506، يذكر رفع الدرجات، ومحو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 1506 (The Book of Mosques and Places of Prayer), that speaks of ranks raised, bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 1506، جس میں درجات کی بلندی، برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1506 (book 5 hadith 339); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

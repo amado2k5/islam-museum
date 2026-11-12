@@ -1,0 +1,18 @@
+id: passage/bukhari-api-647
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "647"
+label: { ar: "صحيح البخاري 647 — رفع الدرجات، محو السيئات وحط الخطايا", en: "Sahih al-Bukhari 647 — ranks raised; bad deeds erased and sins shed", ur: "صحیح بخاری 647 — درجات کی بلندی، برائیوں کا مٹنا اور خطاؤں کا جھڑنا" }
+text: "… سُوقِهِ خَمْسًا وَعِشْرِينَ ضِعْفًا، وَذَلِكَ أَنَّهُ إِذَا تَوَضَّأَ فَأَحْسَنَ الْوُضُوءَ، ثُمَّ خَرَجَ إِلَى الْمَسْجِدِ لاَ يُخْرِجُهُ إِلاَّ الصَّلاَةُ، لَمْ يَخْطُ خَطْوَةً إِلاَّ رُفِعَتْ لَهُ بِهَا دَرَجَةٌ، وَحُطَّ عَنْهُ بِهَا خَطِيئَةٌ، فَإِذَا صَلَّى لَمْ تَزَلِ الْمَلاَئِكَةُ تُصَلِّي عَلَيْهِ مَا دَامَ فِي مُصَلاَّهُ اللَّهُمَّ صَلِّ عَلَيْهِ، اللَّهُمَّ ارْحَمْهُ. وَلاَ يَزَالُ أَحَدُكُمْ فِي صَلاَةٍ مَا انْتَظَرَ الصَّلاَةَ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 647، يذكر رفع الدرجات، ومحو السيئات وحط الخطايا. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 647 (Call to Prayers (Adhaan)), that speaks of ranks raised, bad deeds erased and sins shed. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 647، جس میں درجات کی بلندی، برائیوں کا مٹنا اور خطاؤں کا جھڑنا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-hasanat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 647 (book 10 hadith 44); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

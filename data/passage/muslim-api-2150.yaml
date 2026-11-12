@@ -1,0 +1,17 @@
+id: passage/muslim-api-2150
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2150"
+label: { ar: "صحيح مسلم 2150 — وزر من تبع", en: "Sahih Muslim 2150 — bearing the burden of those who follow", ur: "صحیح مسلم 2150 — پیروی کرنے والوں کا بوجھ" }
+text: "… مَا حَدَّثَ رَسُولُ اللَّهِ \" إِنَّ اللَّهَ يُعَذِّبُ الْمُؤْمِنَ بِبُكَاءِ أَحَدٍ \". وَلَكِنْ قَالَ \" إِنَّ اللَّهَ يَزِيدُ الْكَافِرَ عَذَابًا بِبُكَاءِ أَهْلِهِ عَلَيْهِ \" قَالَ وَقَالَتْ عَائِشَةُ حَسْبُكُمُ الْقُرْآنُ { وَلاَ تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى} قَالَ وَقَالَ ابْنُ عَبَّاسٍ عِنْدَ ذَلِكَ وَاللَّهُ أَضْحَكَ وَأَبْكَى. قَالَ ابْنُ أَبِي مُلَيْكَةَ فَوَاللَّهِ مَا قَالَ ابْنُ عُمَرَ مِنْ شَىْءٍ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2150، يذكر وزر من تبع. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih Muslim, no. 2150 (Introduction), that speaks of bearing the burden of those who follow. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح مسلم کی حدیث نمبر 2150، جس میں پیروی کرنے والوں کا بوجھ کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2150 (book 0 hadith 0); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

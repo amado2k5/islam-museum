@@ -1,0 +1,16 @@
+id: passage/nasai-api-3563
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3563"
+label: { ar: "سنن النسائي 3563 — الميزان", en: "Sunan al-Nasa'i 3563 — the Scale", ur: "سنن نسائی 3563 — میزان" }
+text: "… حَقَّ اللَّهِ عَزَّ وَجَلَّ فِي رِقَابِهَا وَلاَ ظُهُورِهَا فَهِيَ لِذَلِكَ سَتْرٌ وَرَجُلٌ رَبَطَهَا فَخْرًا وَرِيَاءً وَنِوَاءً لأَهْلِ الإِسْلاَمِ فَهِيَ عَلَى ذَلِكَ وِزْرٌ \". وَسُئِلَ النَّبِيُّ عَنِ الْحَمِيرِ فَقَالَ \" لَمْ يَنْزِلْ عَلَىَّ فِيهَا شَىْءٌ إِلاَّ هَذِهِ الآيَةُ الْجَامِعَةُ الْفَاذَّةُ { فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ * وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ } \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3563، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 3563 (The Book of Horses, Races and Shooting), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 3563، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3563 (book 28 hadith 3); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

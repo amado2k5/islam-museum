@@ -1,0 +1,50 @@
+id: concept/hisab-al-hasanat-wal-sayyiat
+class: concept
+kind: doctrine
+label:
+  ar: "حساب الحسنات والسيئات"
+  en: "The reckoning of good and bad deeds"
+  ur: "حسنات اور سیئات کا حساب"
+summary:
+  ar: "حساب الحسنات والسيئات هو ما تذكره النصوص من عدّ الأعمال وكتابتها ومضاعفتها ومحوها ووزنها، وهو موضوع «قائمة وآلة حاسبة وعدّاد الحسنات والسيئات». قاعدته حديث قدسي: الحسنة المعمولة تُكتب عشرا إلى سبعمائة ضعف، والهمّ بها يُكتب حسنة، والسيئة المعمولة تُكتب واحدة، والمتروكة تُكتب حسنة [[passage/muslim-0131]]، ويوافقه القرآن في أن للحسنة عشر أمثالها وأن السيئة لا تُجزى إلا بمثلها [[passage/quran-6-160]]. ثم تأتي نصوص تسمّي أعدادا لأعمال بعينها، ونصوص تمحو، ونصوص تزن بمكاييل ليست أعدادا كالقيراط والدرجة، ونصوص تصف الكتبة والكتاب والميزان [[passage/quran-82-11]] [[passage/quran-21-47]]. والسجل يصف ما في النصوص ولا يحسب مصير أحد: القبول والإخلاص والشروط كلها خارج العدد."
+  en: "The reckoning of good and bad deeds is what the texts say about how deeds are counted, written, multiplied, erased and weighed; it is the subject of the Hasanat and Sayyi'at Ledger, Calculator and Counter. Its rule is a hadith qudsi: a good deed done is written as ten up to seven hundred times, a good deed intended is written as one, a bad deed done is written as one, and a bad deed left is written as a good deed [[passage/muslim-0131]]; the Qur'an agrees that a good deed has ten like it and a bad deed is repaid only its like [[passage/quran-6-160]]. Other texts then name figures for particular acts, others erase, others weigh in measures that are not numbers, such as the qirat and the rank, and others describe the scribes, the record and the Scale [[passage/quran-82-11]] [[passage/quran-21-47]]. The record describes what the texts contain and computes no one's outcome: acceptance, sincerity and every condition lie outside the number."
+  ur: "حسنات اور سیئات کا حساب وہ ہے جو نصوص اعمال کے گنے جانے، لکھے جانے، بڑھائے جانے، مٹائے جانے اور تولے جانے کے بارے میں بتاتی ہیں؛ یہی «حسنات و سیئات کی فہرست، کیلکولیٹر اور گنتی» کا موضوع ہے۔ اس کا قاعدہ ایک حدیثِ قدسی ہے: کی ہوئی نیکی دس سے سات سو گنا تک لکھی جاتی ہے، نیکی کا ارادہ ایک نیکی، کی ہوئی برائی ایک، اور چھوڑی ہوئی برائی ایک نیکی لکھی جاتی ہے [[passage/muslim-0131]]، اور قرآن اس سے متفق ہے کہ نیکی کے لیے دس گنا ہے اور برائی کا بدلہ اسی کے برابر [[passage/quran-6-160]]۔ پھر کچھ نصوص خاص اعمال کے اعداد بتاتی ہیں، کچھ مٹاتی ہیں، کچھ ایسے پیمانوں سے تولتی ہیں جو عدد نہیں جیسے قیراط اور درجہ، اور کچھ لکھنے والوں، نامۂ اعمال اور میزان کا بیان کرتی ہیں [[passage/quran-82-11]] [[passage/quran-21-47]]۔ یہ ریکارڈ نصوص کا بیان ہے اور کسی کے انجام کا حساب نہیں لگاتا: قبولیت، اخلاص اور تمام شرطیں عدد سے باہر ہیں۔"
+wings: [ideas]
+themes:
+- worship-and-the-pillars
+- ethics-and-character
+periods:
+- period/prophetic-era
+regions:
+- global
+relations:
+- { type: related_to, target: concept/al-hasanat, sources: [source/sahih-muslim] }
+- { type: related_to, target: concept/al-sayyiat, sources: [source/sahih-muslim] }
+- { type: related_to, target: concept/al-hisab, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/al-mizan, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/kitab-al-amal, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/kiraman-katibin, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/kaffara, sources: [source/sahih-muslim] }
+- { type: related_to, target: concept/tawba, sources: [source/tanzil-quran] }
+provenance:
+  layer: own-research
+  source: "نصوص المصحف والسنن المدرجة في data/passage (tanzil، الصحيحان، السنن، الموطأ، hadith-api)؛ كل عدد مقروء من سجل النص المذكور في reckoning.basis"
+  generated_by: "Claude (claude-fable-5-2)"
+  model: claude-fable-5-2
+  run: hisab-browser-1
+sources:
+- source/sahih-muslim
+- source/tanzil-quran
+- source/sahih-al-bukhari
+- source/jami-al-tirmidhi
+- source/hadith-api-fawazahmed0
+- source/muwatta-maruf-1997
+- source/sunan-al-nasai
+- source/sunan-ibn-majah
+- source/arbaun-nawawi
+- source/sunan-abi-dawud
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude (claude-fable-5-2); every figure and wording checked against the cited passage records on 11 Nov 2026"
+tags: [hisab-browser]

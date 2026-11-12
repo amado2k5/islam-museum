@@ -1,0 +1,17 @@
+id: passage/bukhari-api-781
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "781"
+label: { ar: "صحيح البخاري 781 — مغفرة ما تقدم من الذنب", en: "Sahih al-Bukhari 781 — forgiveness of past sins", ur: "صحیح بخاری 781 — پچھلے گناہوں کی مغفرت" }
+text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ ـ أَنَّ رَسُولَ اللَّهِ قَالَ \" إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَقَالَتِ الْمَلاَئِكَةُ فِي السَّمَاءِ آمِينَ. فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 781، يذكر مغفرة ما تقدم من الذنب. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sahih al-Bukhari, no. 781 (Call to Prayers (Adhaan)), that speaks of forgiveness of past sins. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "صحیح بخاری کی حدیث نمبر 781، جس میں پچھلے گناہوں کی مغفرت کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 781 (book 10 hadith 176); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/nasai-api-3582
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3582"
+label: { ar: "سنن النسائي 3582 — الميزان", en: "Sunan al-Nasa'i 3582 — the Scale", ur: "سنن نسائی 3582 — میزان" }
+text: "قَالَ الْحَارِثُ بْنُ مِسْكِينٍ قِرَاءَةً عَلَيْهِ وَأَنَا أَسْمَعُ، عَنِ ابْنِ وَهْبٍ، حَدَّثَنِي طَلْحَةُ بْنُ أَبِي سَعِيدٍ، أَنَّ سَعِيدًا الْمَقْبُرِيَّ، حَدَّثَهُ عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ قَالَ \" مَنِ احْتَبَسَ فَرَسًا فِي سَبِيلِ اللَّهِ إِيمَانًا بِاللَّهِ وَتَصْدِيقًا لِوَعْدِ اللَّهِ كَانَ شِبَعُهُ وَرِيُّهُ وَبَوْلُهُ وَرَوْثُهُ حَسَنَاتٍ فِي مِيزَانِهِ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3582، يذكر الميزان. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
+  en: "A report in Sunan al-Nasa'i, no. 3582 (The Book of Horses, Races and Shooting), that speaks of the Scale. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
+  ur: "سنن نسائی کی حدیث نمبر 3582، جس میں میزان کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3582 (book 28 hadith 22); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

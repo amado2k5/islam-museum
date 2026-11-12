@@ -39,9 +39,30 @@ describe("place map: spans of years", () => {
   it("drops spans that are not numbers or run backwards", () => {
     expect(mergeIntervals([[Number.NaN, 5], [10, 2], [7, 9]])).toEqual([7, 9]);
   });
-  it("reads the graph's decimal years as whole years", () => {
-    expect(wholeYears({ earliest: 761.9998357255795, latest: 762.9991717830987 })).toEqual([762, 763]);
-    expect(wholeYears({ earliest: 570.0004, latest: 632.4968 })).toEqual([570, 633]);
+  // The graph's decimal year for an instant, as scripts/lib.ts `msToYear` computes it.
+  const decimal = (y: number, m: number, d: number, endOfDay = false) => { const t = new Date(0); t.setUTCFullYear(y, m - 1, d); t.setUTCHours(endOfDay ? 23 : 0, endOfDay ? 59 : 0, endOfDay ? 59 : 0, endOfDay ? 999 : 0); return 1970 + t.getTime() / (365.2425 * 86_400_000); };
+  const yearSpan = (a: number, b = a) => ({ earliest: decimal(a, 1, 1), latest: decimal(b, 12, 31, true) });
+  it("reads a record dated to a year as that year only, never the next one as well", () => {
+    // two spans exactly as the graph holds them (Baghdad's founding, al-Qata'i): each end sits a hair before or after the next year's start
+    expect(wholeYears({ earliest: 761.9998357255795, latest: 762.9991717830987 })).toEqual([762, 762]);
+    expect(wholeYears({ earliest: 870.0020534302553, latest: 871.0013894877743 })).toEqual([870, 870]);
+    for (const y of [-200, 1, 99, 624, 700, 900, 1000, 1258, 1582, 1900, 2000, 2027]) expect(wholeYears(yearSpan(y)), String(y)).toEqual([y, y]);
+  });
+  it("keeps the last days of December and the first days of January in their own years", () => {
+    expect(wholeYears({ earliest: decimal(624, 12, 30), latest: decimal(624, 12, 31, true) })).toEqual([624, 624]);
+    expect(wholeYears({ earliest: decimal(625, 1, 1), latest: decimal(625, 1, 2, true) })).toEqual([625, 625]);
+    expect(wholeYears({ earliest: decimal(624, 12, 31), latest: decimal(625, 1, 1, true) })).toEqual([624, 625]);
+    expect(wholeYears({ earliest: decimal(632, 6, 8), latest: decimal(632, 6, 8, true) })).toEqual([632, 632]);
+  });
+  it("covers every year of a longer span, and never ends before it starts", () => {
+    expect(wholeYears(yearSpan(570, 632))).toEqual([570, 632]);
+    expect(wholeYears(yearSpan(750, 1258))).toEqual([750, 1258]);
+    expect(wholeYears({ earliest: decimal(800, 3, 1), latest: decimal(800, 2, 1) })).toEqual([800, 800]);
+  });
+  it("so a place lit by a record of 624 is no longer lit in 625", () => {
+    const iv = mergeIntervals([wholeYears(yearSpan(624))], 0);
+    expect(activityState(iv, 624)).toBe(ACTIVE);
+    expect(activityState(iv, 625)).toBe(EARLIER);
   });
 });
 
@@ -107,7 +128,9 @@ describe("place map: the browser script agrees with the build", () => {
 describe("place map: what the script does on a reader's device", () => {
   it("fetches only the page's own static JSON files", () => {
     const calls = [...script.matchAll(/\bfetch\(([^)]*)\)/g)].map((m) => m[1]);
-    expect(calls).toEqual(['C.base + name + ".json"']);
+    // one request shape only: a file beside the page, stamped with the page's own data version
+    expect(calls).toEqual(['C.base + name + ".json" + VER']);
+    expect(script).toContain('var VER = C.v ? "?v=" + C.v : "";');
     // the only address in the file is the SVG namespace, which names a format and is never requested
     expect(script.replaceAll("http://www.w3.org/2000/svg", "")).not.toMatch(/XMLHttpRequest|WebSocket|EventSource|sendBeacon|https?:\/\//);
   });
@@ -122,6 +145,21 @@ describe("place map: what the script does on a reader's device", () => {
     expect(script).toContain("prefers-reduced-motion");
     expect(styles).toMatch(/:root\[data-theme="dark"\] \.pm/);
     expect(styles).toMatch(/@media \(prefers-color-scheme: dark\)/);
+  });
+});
+
+describe("place map: a page, its script, its styles and its data come from one build", () => {
+  const component = readFileSync(new URL("../site/src/components/PlaceMap.astro", import.meta.url), "utf8");
+  const wingPage = readFileSync(new URL("../site/src/pages/[lang]/[hall]/index.astro", import.meta.url), "utf8");
+  it("asks for the script and the stylesheet by a fingerprint of their content", () => {
+    expect(component).toContain('src={`/shell/place-map.js?v=${assetVersion("place-map.js")}`}');
+    expect(wingPage).toContain('href={`/shell/place-map.css?v=${assetVersion("place-map.css")}`}');
+    // never by the bare name: a browser may still hold an older copy under it
+    expect(component + wingPage).not.toMatch(/["'`]\/shell\/place-map\.(js|css)["'`]/);
+  });
+  it("names the data's version in the page and preloads the very address the script will ask for", () => {
+    expect(component).toContain("v: dataVersion(lang)");
+    expect(wingPage).toContain("place-map/places.json?v=${dataVersion(lang)}");
   });
 });
 
