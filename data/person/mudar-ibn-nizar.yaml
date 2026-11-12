@@ -36,7 +36,7 @@ provenance:
   run: lib-nihayat-vol3-proverbs-2
 relations:
   - { type: child_of, target: person/nizar-ibn-maadd, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tarikh-al-tabari] }
-- type: lived_in
-  target: place/hijaz
-  sources:
-  - source/nihayat-al-arab-nuwayri-vol3-scan
+  - type: lived_in
+    target: place/hijaz
+    sources:
+    - source/nihayat-al-arab-nuwayri-vol3-scan
