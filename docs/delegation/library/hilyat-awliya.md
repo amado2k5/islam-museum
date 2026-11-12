@@ -48,3 +48,19 @@
 - Enriched: `person/sari-al-saqati` (notice 469, read 10/116–122; pp. 123–128 of the notice NOT yet mined), `person/amr-ibn-uthman-al-makki` (573, 10/291–296), `person/ibn-khafif` (660, 10/385–387), `work/hilyat-al-awliya` (new section on the three method statements of vol. 10: 10/41–42, 10/375, 10/387–389).
 - New draft records: `person/dawud-al-balkhi` (461, 10/44–45), `person/ali-ibn-abd-al-hamid-al-ghadairi` (644, 10/366 with 10/117 and 10/121), `person/abu-bakr-ibn-abi-sadan` (650, 10/377). No faith/tradition value; Ibn Abi Sa'dan's Shafi'i affiliation is stated in prose with its page, not as a `traditions` value.
 - Homonyms kept apart: notice 645 Sa'id ibn Abd al-Aziz al-Halabi (companion of al-Sari, 10/366) is NOT `person/said-ibn-abd-al-aziz-al-tanukhi`; no record written for him yet (lead).
+
+## Batch 8 (run microsd-books-b16, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 310–339 (in vol. 9 the citations give PDF pages; on these pages printed = PDF).
+- Enriched: `person/mansur-ibn-ammar` (notice 455, 9/325–331), `person/dhu-al-nun-al-misri` (notice 456, read 9/331–339 only; the notice runs to about p. 395 and the rest is NOT yet mined).
+- New draft records: `person/abu-abd-allah-al-saji` (450, 9/310–317), `person/ali-ibn-bakkar` (452, 9/317–322), `person/al-qasim-ibn-uthman-al-jui` (453, 9/322–325), `person/mada-ibn-isa` (454, 9/324–325).
+- OCR cautions recorded in the prose: the year in Ali ibn Bakkar's notice (9/318) reads "سنة ... ومائتين" with the units word garbled, so no death or floruit date was entered; one narrator's name on 9/318 is unreadable and is given as "a narrator".
+- Not mined on these pages: notice 449 Ahmad ibn Asim al-Antaki (9/280–310) and notice 451 (heading not legible in the OCR) — leads.
+
+## Batch 9 (run microsd-books-b17, Claude Code / claude-fable-5-2)
+- Pages read: vol. 10 pp. 45–51, 296–302, 376.
+- Enriched: `person/ruwaym-ibn-ahmad` (notice 574, 10/296–302).
+- New draft records: `person/abu-turab-al-nakhshabi` (462, 10/45–51; the notice gives no personal name and no death year, so none was entered), `person/muhammad-ibn-ulayyan-al-nasawi` (649, 10/376).
+- Next in vol. 10: 463 Yahya ibn Mu'adh (from 10/51), 465 al-Muhasibi (10/73–110), the rest of 469 al-Sari (10/123–128), 575 Ibn Ata (from 10/302), 546 Sahl al-Tustari remainder, the Isfahan ascetics 661 onward (10/389–).
+
+## Batch 10 (run microsd-books-b18, Claude Code / claude-fable-5-2)
+- Pages read: vol. 9 pp. 340–343. Enriched `person/dhu-al-nun-al-misri` (notice 456, continued). The notice continues from 9/344 onward and is not finished.

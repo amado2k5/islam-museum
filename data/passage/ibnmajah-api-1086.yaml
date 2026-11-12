@@ -12,6 +12,7 @@ summary:
 relations:
   - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/al-sayyiat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/hudud-allah-wal-kabair, sources: [source/sunan-ibn-majah] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1086 (book 5 hadith 284); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }
 sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
 status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

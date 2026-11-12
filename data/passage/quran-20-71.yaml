@@ -17,6 +17,7 @@ translations:
   ur: { text: "(فرعون) بولا کہ پیشتر اس کے میں تمہیں اجازت دوں تم اس پر ایمان لے آئے۔ بےشک وہ تمہارا بڑا (یعنی استاد) ہے جس نے تم کو جادو سکھایا ہے۔ سو میں تمہارے ہاتھ اور پاؤں (جانب) خلاف سے کٹوا دوں گا اور کھجور کے تنوں پر سولی چڑھوا دوں گا (اس وقت) تم کو معلوم ہوگا کہ ہم میں سے کس کا عذاب زیادہ سخت اور دیر تک رہنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
+  - { type: mentions, target: concept/hudud-allah-wal-kabair, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

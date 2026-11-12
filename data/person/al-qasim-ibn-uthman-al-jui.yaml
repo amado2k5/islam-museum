@@ -1,0 +1,21 @@
+id: person/al-qasim-ibn-uthman-al-jui
+class: person
+label: { ar: "القاسم بن عثمان الجوعي", en: "al-Qasim ibn Uthman al-Ju'i", ur: "قاسم بن عثمان جوعی" }
+names:
+  - { kind: full, lang: ar, value: "القاسم بن عثمان الجوعي" }
+gender: male
+roles: [mystic]
+summary:
+  ar: "القاسم بن عثمان الجوعي، زاهد لُقّب بالجوعي لصبره على ترك الطعام، يروي عنه أحمد بن أبي الحواري كلامًا في المحبة والمعرفة، وروى الحديث عن سفيان بن عيينة وغيره بحسب «حلية الأولياء»."
+  en: "Al-Qasim ibn Uthman al-Ju'i, an ascetic nicknamed al-Ju'i (\"the hungry\") for his indifference to food; Ahmad ibn Abi al-Hawari relates his sayings on love and knowledge of God, and he transmitted hadith from Sufyan ibn Uyayna and others according to Hilyat al-Awliya."
+  ur: "قاسم بن عثمان جوعی ایک زاہد تھے۔ کھانا چھوڑنے پر صبر کی وجہ سے انہیں جوعی کہا گیا۔ احمد بن ابی الحواری ان سے محبت اور معرفت کے اقوال نقل کرتے ہیں۔ «حلیۃ الاولیاء» کے مطابق انہوں نے سفیان بن عیینہ اور دوسروں سے حدیث روایت کی۔"
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: related_to, target: person/ahmad-ibn-abi-al-hawari, note: "يروي أحمد بن أبي الحواري عنه سماعًا (حلية الأولياء 9/323).", sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: student_of, target: person/sufyan-ibn-uyayna, note: "روى عنه حديثًا (حلية الأولياء 9/324).", sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/322-325", generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16 }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 2 }
