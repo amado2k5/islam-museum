@@ -1,0 +1,17 @@
+id: passage/zad-maad-hisab-123
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "123"
+label: { ar: "زاد المعاد لابن القيم ص 123 — مغفرة الذنب", en: "Ibn al-Qayyim's Zad al-Ma'ad, p. 123 — forgiveness of sins", ur: "زاد المعاد، ابن القیم ص 123 — گناہوں کی مغفرت" }
+text: "… بَدا له، ولَمْ يُؤْذِ أحداً ، ثُمَّ أَنْصَتَ إذا خَرَج إمامُه حتَّى يُصَلِّيَ، كانت كَفَّارَةً لما بينهما [حسن: أحمد: ٠[٢٣٥٧١ وفي سنن أبي داود»، عن عبد اللّه بن سلام. أنه سمع رسول اللّه وَلِفِ يقول على المِنبَر في يَوْم الجُمُعة: …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، ص 123، يذكر مغفرة الذنب؛ من النسخة المستخرجة، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, p. 123, that speaks of forgiveness of sins; from the extracted copy, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم کے صفحہ 123 کا اقتباس جس میں گناہوں کی مغفرت کا ذکر ہے؛ نکالی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/al-sayyiat, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "زاد المعاد لابن القيم ص 123 — صفحة معدودة العمل، مفحوصة بالكاشف ومراجعة يدويا؛ مقتطف أقل من أربعين كلمة", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "hisab-seerah-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label, summary and excerpt are the museum's own words" }
