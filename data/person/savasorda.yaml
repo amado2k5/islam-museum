@@ -1,0 +1,36 @@
+id: person/savasorda
+class: person
+label: { ar: "سافاسوردا", en: "Savasorda", ur: "ساواسورڈا" }
+names:
+  - { kind: full, lang: he, value: "Abraham bar Hiyya" }
+  - { kind: alternate, lang: en, value: "Abraham b. Hiyya" }
+  - { kind: alternate, lang: en, value: "Abraham Savasorda" }
+  - { kind: alternate, lang: la, value: "Abraham bar Chijja Savasorda" }
+summary:
+  ar: "سافاسوردا هو إبراهيم بن حيا، عالم يهودي من الغرب الإسلامي بحسب مقالة المساحة في دائرة المعارف الإسلامية، وكتابه كتاب المساحات، المعروف في اللاتينية باسم ليبر إمبادوروم، هو الوحيد بين مصنفات المساحة الذي يورد براهين منطقية كثيرة، وقد اعتمد عليه ليوناردو البيزي في هندسته العملية. وتنسبه المقالات أيضاً إلى ترجمة أحكام المواليد لأبي علي الخياط وكتاب اختيارات العمراني إلى اللاتينية مع أفلاطون التيفولي، ولا تذكر ميلاده ولا وفاته {cite:encyclopaedia-of-islam-2 vol. 7 p. 160} {cite:encyclopaedia-of-islam-2 vol. 7 p. 161} {cite:encyclopaedia-of-islam-2 vol. 8 p. 118}."
+  en: "Savasorda, that is Abraham bar Hiyya, was a Jewish scholar whom the Encyclopaedia of Islam's article on mensuration reckons among the western Arabs. His Liber embadorum is the only book of its kind that gives logically worked-out proofs in any number, and Leonardo of Pisa's Practica geometrica depended closely on it. The articles also name him with Plato of Tivoli as a Latin translator of Abu Ali al-Khayyat's book on nativities and of al-Imrani's book on choosing times. No birth or death is given {cite:encyclopaedia-of-islam-2 vol. 7 p. 160} {cite:encyclopaedia-of-islam-2 vol. 7 p. 161} {cite:encyclopaedia-of-islam-2 vol. 8 p. 118}."
+  ur: "ساواسورڈا، یعنی ابراہام بن حیا، ایک یہودی عالم تھے جنہیں دائرۃ المعارف الاسلامیہ کا مقالہ پیمائش مغربی عربوں میں شمار کرتا ہے۔ ان کی Liber embadorum اپنی نوع کی واحد کتاب ہے جس میں بڑی تعداد میں منطقی طور پر مرتب دلائل دیے گئے ہیں، اور لیوناردو پیزائی کی عملی ہندسہ ان پر قریبی طور پر منحصر تھی۔ مقالات انہیں افلاطون تیولی کے ساتھ ابو علی خیاط کی کتابِ مواليد اور عمرانی کی انتخابِ اوقات پر کتاب کے لاطینی مترجم کے طور پر بھی نام لیتے ہیں۔ ولادت یا وفات کی کوئی تاریخ نہیں دی گئی {cite:encyclopaedia-of-islam-2 vol. 7 p. 160} {cite:encyclopaedia-of-islam-2 vol. 7 p. 161} {cite:encyclopaedia-of-islam-2 vol. 8 p. 118}."
+gender: male
+roles: [mathematician, translator, writer]
+wings: [people]
+themes: [translation-and-transmission, mathematics, astronomy-and-timekeeping, islam-and-judaism]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+relations:
+  - { type: related_to, target: person/plato-of-tivoli, note: "Named with Plato of Tivoli as translator of al-Khayyat's Kitab al-Mawalid and of al-Imrani's book on choosing times; Plato also translated the Liber embadorum.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/fibonacci, note: "Leonardo of Pisa's Practica geometrica depended closely on Savasorda.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/abu-ali-al-khayyat, note: "Named as a Latin translator of al-Khayyat's Kitab al-Mawalid.", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/john-of-seville, note: "Both translated al-Imrani's book on choosing times, in separate Latin versions.", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed.: Misaha; al-Nudjum (Ahkam); al-Battani"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-5
+  canon: "Encyclopaedia of Islam 2nd ed., vol. 7 pp. 160-161 (Misaha); vol. 8 pp. 118-119 (al-Nudjum); vol. 1 p. 1165 (al-Battani, bibliography)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "سافاسوردا كتب كتاباً عن قياس الأراضي والأشكال مع براهين، فتعلم منه علماء أوروبا."
+  en: "Savasorda wrote a book on measuring land and shapes, with proofs, and scholars in Europe learned from it."
+  ur: "ساواسورڈا نے زمین اور شکلوں کی پیمائش پر دلائل کے ساتھ کتاب لکھی، اور یورپ کے علما نے اس سے سیکھا۔"

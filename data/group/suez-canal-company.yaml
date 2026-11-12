@@ -1,0 +1,33 @@
+id: group/suez-canal-company
+class: group
+kind: organization
+label: { ar: "شركة قناة السويس", en: "Suez Canal Company", ur: "نہرِ سویز کمپنی" }
+summary:
+  ar: "الشركة التي بنت قناة السويس وملكتها وأدارتها حتى تأميمها. تأسست في باريس سنة 1858 بدعم من نابليون الثالث بعد ثلاث سنوات من جمع الأموال والخلافات السياسية، واشترى مستثمرون فرنسيون أكثر من نصف أسهمها، وكان سعيد باشا قد أخذ في الأصل 21 في المئة منها. بلغت كلفة الحفر نحو 19 مليون جنيه إسترليني حين افتُتحت القناة في 1869م، وكان في بورسعيد مقرها. وباع الخديوي إسماعيل أسهمه لبريطانيا، وأممت الحكومة المصرية القناة في 26 تموز 1956م {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}."
+  en: "The company that built, owned and ran the Suez Canal until its nationalisation. Founded in Paris in 1858 with Napoleon III's support after three years of fund-raising and political quarrels, it came to be more than half owned by French investors; Sa'id Pasha had originally taken 21 per cent of the shares. Digging cost about 19 million pounds sterling when the canal opened in 1869, and its headquarters stood in Port Said. Khedive Isma'il was forced to sell his shares to the British government, and the Egyptian government nationalised the canal on 26 July 1956 {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}."
+  ur: "وہ کمپنی جس نے نہرِ سویز بنائی اور قومیائے جانے تک اس کی مالک اور منتظم رہی۔ یہ 1858ء میں پیرس میں نپولین سوم کی حمایت سے تین سال کی چندہ جمع کرنے اور سیاسی کشمکش کے بعد قائم ہوئی؛ اس کے آدھے سے زیادہ حصص فرانسیسی سرمایہ کاروں نے خرید لیے، جب کہ سعید پاشا نے اصلاً اکیس فیصد لیے تھے۔ 1869ء میں نہر کھلنے تک کھدائی پر تقریباً 19 ملین پاؤنڈ خرچ ہوئے، اور اس کا صدر دفتر بورسعید میں تھا۔ خدیو اسماعیل کو اپنے حصص برطانوی حکومت کو بیچنا پڑے، اور مصری حکومت نے 26 جولائی 1956ء کو نہر قومیا لی {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}۔"
+wings: [today]
+periods: [period/modern-era]
+scope: international
+countries: [fr, eg]
+active_regions: [egypt-nile]
+founded: { edtf: "1858", hijri: "1274", calendar: gregorian, precision: year, status: historical, derived: true, note: "founded in Paris in 1858 per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 9 p. 938}", sources: [source/encyclopaedia-of-islam-2] }
+headquarters: place/port-said
+relations:
+  - { type: related_to, target: person/ferdinand-de-lesseps, note: "obtained the concession on which the company was founded", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/said-pasha, note: "granted the concession and took 21 per cent of the shares", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/khedive-ismail, note: "forced by financial problems to sell his shares to the British government", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/suez-canal, note: "built, owned and operated the canal", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., articles al-Suways (R. Schulze) and Port Said"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-5
+  canon: "EI2 vol. 9 PDF pp. 938-939 (al-Suways); vol. 8 PDF pp. 353-354 (Port Said); the encyclopaedia has no separate article on the company"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "شركة قناة السويس هي الشركة التي حفرت القناة وظلت تديرها إلى أن أصبحت القناة ملكاً لمصر."
+  en: "The Suez Canal Company was the company that dug the canal and ran it until the canal became Egypt's own."
+  ur: "نہرِ سویز کمپنی وہ کمپنی تھی جس نے نہر کھودی اور اسے چلاتی رہی یہاں تک کہ نہر مصر کی اپنی ہو گئی۔"

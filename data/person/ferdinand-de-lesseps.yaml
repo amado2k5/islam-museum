@@ -1,0 +1,36 @@
+id: person/ferdinand-de-lesseps
+class: person
+label: { ar: "فرديناند دي لسبس", en: "Ferdinand de Lesseps", ur: "فرڈیننڈ دی لیسپس" }
+names:
+  - { kind: full, lang: en, value: "Ferdinand de Lesseps" }
+  - { kind: full, lang: ar, value: "فرديناند دي لسبس" }
+  - { kind: alternate, lang: en, value: "de Lesseps" }
+summary:
+  ar: "فرديناند دي لسبس، دبلوماسي فرنسي عاش بين سنتي 1805 و1894، وهو صاحب امتياز قناة السويس. درس في أربعينيات القرن التاسع عشر إمكان شق قناة بين المتوسط والأحمر، وعرض مشروعه على سعيد باشا والي مصر، فنال الامتياز ثم أُسست شركة القناة في باريس سنة 1858 بدعم نابليون الثالث. واختار موقع بورسعيد مع فريق من المهندسين، ونُصب له تمثال عند مدخل القناة أُزيل في حرب 1956 {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} {cite:encyclopaedia-of-islam-2 vol. 8 p. 353} {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}."
+  en: "Ferdinand de Lesseps, a French diplomat who lived from 1805 to 1894, was the grantee of the Suez Canal concession. In the early 1840s he studied the possibility of a canal between the Mediterranean and the Red Sea and put his proposal to Sa'id Pasha, the wali of Egypt; he obtained the concession, and the Suez Canal Company was founded in Paris in 1858 with Napoleon III's support. He chose the site of Port Said with a party of engineers, and a statue of him stood at the canal entrance until it was destroyed in the war of 1956 {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} {cite:encyclopaedia-of-islam-2 vol. 8 p. 353} {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}."
+  ur: "فرڈیننڈ دی لیسپس، فرانسیسی سفارت کار جو 1805ء سے 1894ء تک زندہ رہے، نہرِ سویز کے امتیازی اجازت نامے کے حامل تھے۔ انہوں نے 1840ء کی دہائی کے اوائل میں بحیرۂ روم اور بحیرۂ احمر کے درمیان نہر کے امکان کا مطالعہ کیا اور مصر کے والی سعید پاشا کو اپنی تجویز پیش کی؛ انہیں امتیاز ملا اور 1858ء میں نپولین سوم کی حمایت سے پیرس میں نہر کی کمپنی قائم ہوئی۔ انہوں نے انجینئروں کی ایک ٹولی کے ساتھ بورسعید کی جگہ چنی، اور ان کا مجسمہ نہر کے دہانے پر کھڑا رہا یہاں تک کہ 1956ء کی جنگ میں تباہ ہو گیا {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} {cite:encyclopaedia-of-islam-2 vol. 8 p. 353} {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}۔"
+gender: male
+roles: [diplomat, entrepreneur]
+wings: [people]
+periods: [period/modern-era]
+regions: [egypt-nile]
+born: { edtf: "1805", hijri: "1220", calendar: gregorian, precision: year, status: historical, derived: true, note: "year only, per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 9 p. 938}", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1894", hijri: "1311", calendar: gregorian, precision: year, status: historical, derived: true, note: "year only, per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 9 p. 938}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: related_to, target: person/said-pasha, note: "received the Suez Canal concession from him", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/suez-canal, note: "grantee of the concession and promoter of the canal", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: group/suez-canal-company, note: "the company took over the concession he had obtained", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: place/port-said, note: "chose the harbour site with a party of engineers", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed., articles al-Suways (R. Schulze), Port Said, Sa'id Pasha and Misr; the encyclopaedia has no article on de Lesseps himself"
+  generated_by: "Claude Sonnet 5.5"
+  run: canon-missing-5
+  canon: "EI2 vol. 9 PDF pp. 938-939 (al-Suways); vol. 8 PDF pp. 353-354 (Port Said) and 924-925 (Sa'id Pasha); vol. 7 PDF p. 206 (Misr)"
+sources: [source/encyclopaedia-of-islam-2]
+importance: 2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5" }
+kids:
+  ar: "فرديناند دي لسبس مهندس ودبلوماسي فرنسي فكّر في حفر قناة السويس وأقنع حاكم مصر بالموافقة."
+  en: "Ferdinand de Lesseps was a Frenchman who dreamed of digging the Suez Canal and persuaded the ruler of Egypt to agree."
+  ur: "فرڈیننڈ دی لیسپس ایک فرانسیسی تھے جنہوں نے نہرِ سویز کھودنے کا خواب دیکھا اور مصر کے حکمران کو راضی کیا۔"
