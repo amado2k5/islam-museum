@@ -213,6 +213,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 201): trilingual draft prose on difference, the joining of meanings and proportion as causes of beauty, cited to scan pages 312–315.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 completed in draft (batch 202): trilingual draft prose on proportion, ugliness, likeness and difference, and the summary of the perception of particular attributes, cited to scan pages 315–318.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 4 opened in draft (batch 203): trilingual draft prose on compounded images, subtle meanings, the perception by immediacy and by contemplation, and verification by the central part of sight, cited to scan pages 318–321.
+- **"Mudhakkirat Iblis", episode 3 added.** The barrier between the servant and his Lord: seeing causes and the One who causes (the puppet theatre), reflection against mere thinking, knowing God against knowing everything else, the pleasure of God's love, the black box of past grievances, pride as Iblis's inheritance, and the lecturer's definition of piety. Reports without a chain, stories without a named speaker and unattributed verse are marked as needing a source; the lecturer's opinions are labelled as his; Quran verses are linked, never typed.
 
 
 ### Fixed
