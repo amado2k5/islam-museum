@@ -2395,3 +2395,15 @@ Resume point: mawkib-al-nour episode 22 (branch from origin/main).
 | Remarks on touch screens and the sense of touch in children, on a ruling on divorce by text message and on kissing a wife's hand, all partly garbled; an aside on how the Jews regard David and Solomon | ep22 00:26:30-00:28:30, 00:30:00-00:30:30, 00:32:00-00:32:30 | Garbled, partly unreadable, and a sweeping remark about a group | Clarity, Content rule | Open; proposal for the founder to decide |
 
 Resume point: mawkib-al-nour episode 23 (branch from origin/main).
+
+### mawkib-al-nour ep23 (12 Nov 2026)
+
+18 points written for episode 23 (ar, en, ur); 11 needs_source marks per language file (ar 11, en 11, ur 11); 8 new `about` edges. Quran verses referenced only through passage links (7-14, 7-15, 7-16, 7-17, 33-41, 33-42, 33-43, 14-45, 14-46, 23-97, 23-98, 2-143, 17-27, 4-171, 63-8, 31-15, 2-195, 24-31); none typed. Proposal for the founder, not applied: the division of the remembrance of the limbs (ep23 00:03:30), the verses credited to Amr ibn Kulthum (00:24:00) and the account of Muawiya meeting Umar (00:38:00) are recorded as his with no source.
+
+| Excluded (mawkib-al-nour ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and supplication, and the closing prayer | ep23 00:00:00-00:01:00 (supplication; recitation, Quran text never typed), 00:40:30-00:41:00 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep23 00:14:00 (a long repeated syllable), 00:26:30 (a long repeated syllable), 00:34:00-00:34:30 (a long repeated syllable), 00:38:30 (a long repeated syllable), 00:39:30-00:40:00 (a long repeated syllable) | Not recoverable | Clarity, Loop check | Open |
+| An account of a French mayor said to have taken his own life on the day he was to sign a same-sex marriage certificate, a claim of a march of a million people in a city, a partly garbled discussion of an intersex condition and a ruling on its inheritance, and an anecdote of a state celebration with figures for peacocks | ep23 00:13:00-00:16:30, 00:39:00-00:39:30 | Unsourced reports about named kinds of people and a possibly real person's death, figures that cannot be checked, and a garbled legal passage; excluded rather than repeated | Accuracy, Content rule, Clarity | Open; proposal for the founder to decide |
+
+Resume point: mawkib-al-nour episode 24 (branch from origin/main).
