@@ -2553,3 +2553,15 @@ Resume point: modakirate-iblis episode 6 (branch from origin/main).
 | A garbled stretch on the divine legislation of the church and the middle ages, and a loop | ep06 00:08:00-00:08:30 | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 7 (branch from origin/main).
+
+### modakirate-iblis ep07 (12 Nov 2026)
+
+13 points written for episode 7 (ar, en, ur); 6 needs_source marks in each language file; 5 new `about` edges. Quran verses referenced only through passage links (4-59, 14-27, 41-31); none typed. Proposal for the founder, not applied: the lecturer's remark that a person ready for money accepts whatever ruling suits him (00:07:00) and his reference to the councils of jurists on bank interest are recorded only as his analogy and not as a position on the question.
+
+| Excluded (modakirate-iblis ep07) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break trailer (a programme advert and a sponsor notice), and the closing prayer | ep07 00:00:00, 00:11:30-00:13:00, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| A garbled aside on carpet manufacture and a long loop | ep07 00:01:30-00:02:00, 00:07:00 (end), 00:14:30-00:15:30 | Not recoverable | Clarity, Loop check | Open |
+| The remark on bank interest and the councils of jurists | ep07 00:07:00-00:07:30 | Half-clear, no ruling given | Clarity | Open |
+
+Resume point: modakirate-iblis episode 8 (branch from origin/main). Episode 8 is a short transcript (7,476 bytes against about 24,000 to 31,000 for the others) and is probably truncated: read it fully before writing, and write only what the transcript holds.
