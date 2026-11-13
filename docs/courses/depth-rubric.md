@@ -58,6 +58,21 @@ Approved by the founder on 13 November 2026 for the World Religions courses (`hr
 
 The page teaches about a religion and never teaches the religion: no sentence instructs, recommends or says what a reader should believe or do, and no sentence judges a belief true or false. "Think about it" asks the student to compare, to explain how a practice expresses a belief its adherents state, or to weigh sources; it never asks the student to judge the faith or to take a religious position. "Why they did it" is not used in this lens, except for a named historian or scholar whose purpose a record reports. The Qur'an and hadith rules of section 5 apply in full: a verse is never typed, translated, paraphrased or explained; a hadith is given only as the record reports it, with its collection.
 
+### 2.5 The arts: what the maker and the patron meant the work to do
+
+Approved by the founder on 13 November 2026 for the Arts, Visual Arts and Music courses. An object, a building, a script or a piece of music is described through what its maker and its patron meant it to do, what its inscription says, and how it was made, each on the word of a named source. Ask of the records:
+
+- **Who made it, who paid for it, and for what use?** A signature, a foundation inscription, a patron named by a chronicler or an art historian. Where the records name no maker, the lesson says so.
+- **How was it made?** Materials, tools, steps and training, as the record gives them from a treatise, a conservator's study or a named scholar.
+- **What does it say?** The words of an inscription only as the record reports them.
+- **How do historians read it, and where do they differ?** Each reading attributed by name.
+
+No sentence in the museum's voice says what a form "means" (that a pattern stands for infinity, that a dome stands for heaven): a meaning is stated only as a named author's reading. The avoidance of figures is reported as named jurists and named art historians describe it, with no verdict, and never as a rule in the museum's voice. Superlatives ("the finest", "the most honoured art") appear only where a record attributes them to a source that can carry them.
+
+**Music.** The jurists' disagreement about music is always given as "Two views", by school and scholar as the record names them, beside the historical practice the record documents (who played, where, for whom, on what instrument). The lesson never says that music is permitted or forbidden. Where the records a lesson links carry no juristic view at all, the lesson does not supply one and does not raise the question.
+
+"Why they did it" is used for a named maker, patron or musician whose purpose a record reports; otherwise the lesson says the records preserve none and gives what they show. The grade-fit rule of section 5 holds: an elementary lesson draws nothing from a record's passages on slavery, and a secondary lesson that links a record on enslaved performers keeps to what its expectation asks.
+
 ## 3. The sections
 
 The depth layer is a set of sections in the lesson's prose files (`content/ar/course/<slug>.md` first, then `content/en/course/<slug>.md`), placed after the lesson's existing question sections and before "Try this". The headings are fixed, because the page finds the sections by them (`DEPTH` in `site/src/lib/courses.ts`) and shows them after the lesson's cards.

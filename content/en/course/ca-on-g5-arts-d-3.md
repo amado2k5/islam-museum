@@ -14,5 +14,16 @@ For each example ask what this art writes or decorates, and what the choice of s
 ## How does a style's place change over time?
 Follow Kufic from one setting to another, and ask what changed at what time and why that matters.
 
+## Go deeper
+Norah Titley traces illumination to the simple decoration of two things in Qur'ans written by Arab calligraphers in the seventh and eighth centuries: the vowel marks, and the circles that separated the verses {cite:titley-persian-miniature-painting-1983 p. 228}. By the fourteenth century palmettes and sunbursts decorated the borders of Qur'ans {cite:titley-persian-miniature-painting-1983 p. 228}. Maryam Ekhtiar says the earliest dinars, dated 76 AH, bear Qur'anic verses in an early formal Kufic {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23}. Later, Kufic was kept for ornament, such as sura headings {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 24}.
+
+## Think about it
+Titley says illumination began with decorated vowel marks and verse circles, and later reached the borders. If you were decorating a book of your own, which part would you decorate first, and why?
+
+## Into the museum
+- [[practice/manuscript-illumination-tazhib|Manuscript illumination]]: from the verse circles to the schools of Shiraz and Herat.
+- [[concept/kufic-script|Kufic script]]: from the first dated dinars to the headings of the suras.
+- [[building/dome-of-the-rock|The Dome of the Rock]]: the building with the dated Kufic inscription that the Kufic record names.
+
 ## Try this
 Read about [[practice/manuscript-illumination-tazhib|manuscript illumination]] and [[concept/kufic-script|the kufic script]]. Choose a picture of a manuscript page from a book your class has, and name what in it is writing and what is decoration.
