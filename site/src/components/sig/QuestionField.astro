@@ -1,0 +1,209 @@
+---
+// "What people ask about" — the signature view of the Fatwa Explorer (site/src/pages/[lang]/fatwa/index.astro).
+// A packed-circle field drawn at build time from site/src/lib/fatwa.ts: one circle for each of the most-asked subjects (the
+// concept and practice records the fatwas' own `about` edges name), its area proportional to the number of fatwas about it,
+// packed by a small deterministic routine (site/src/lib/sig/question-field.ts). A thin ring on each circle splits its fatwas
+// by the issuing source, in the order of the legend. Every circle is a real link to the subject's page. The script
+// (site/src/scripts/sig-fatwa.ts) adds the readout, cloned from the list under the drawing, and the source toggles.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { fatwaSources, fatwaSubjects, sourceOf } from "../../lib/fatwa";
+import { packCircles, fitLabel } from "../../lib/sig/question-field";
+import { textWidth } from "../../lib/sig/four-schools";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const rtl = lang !== "en";
+const F = (ui(lang) as any).fatwa;
+const V = F.viz;
+
+// the most-asked subjects, whole ties only: never a cut through a group of subjects with the same number of fatwas
+const TOP_MAX = 44, TONES = 8, VBW = 760, PHONE_PX = 343, MIN_FS = 13, RING_MAX = 9;
+if (fatwaSources.length > TONES) throw new Error(`Question field: ${fatwaSources.length} issuing sources, but the view has tones for ${TONES}; add a tone`);
+let cut = Math.min(TOP_MAX, fatwaSubjects.length);
+while (cut > 0 && cut < fatwaSubjects.length && fatwaSubjects[cut].list.length === fatwaSubjects[cut - 1].list.length) cut--;
+if (cut === 0) cut = Math.min(TOP_MAX, fatwaSubjects.length);
+const drawn = fatwaSubjects.slice(0, cut);
+const rest = fatwaSubjects.length - drawn.length;
+const minFatwas = drawn.length ? drawn[drawn.length - 1].list.length : 0;
+const srcIndex = new Map(fatwaSources.map((s, i) => [s.sid, i]));
+const srcName = (i: number) => {
+  const s = fatwaSources[i];
+  return (s.node ? labelOf(s.node, lang) : s.sid).replace(/\s*⁦?\(.*$/, "").trim();
+};
+const shortName = (n: Parameters<typeof labelOf>[0]) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").replace(/\s*[:：].*$/, "").trim();
+
+// ---- layout: unit space (radius = sqrt of the count), then scaled to one drawing width
+const GAP_UNITS = 0.22;
+const packed = drawn.length ? packCircles(drawn.map((s) => Math.sqrt(s.list.length)), GAP_UNITS, 1.35) : [];
+const minX = Math.min(...packed.map((c) => c.x - c.r)), maxX = Math.max(...packed.map((c) => c.x + c.r));
+const minY = Math.min(...packed.map((c) => c.y - c.r)), maxY = Math.max(...packed.map((c) => c.y + c.r));
+const MARGIN = 6;
+const S = (VBW - 2 * MARGIN) / (maxX - minX);
+const VBH = Math.ceil((maxY - minY) * S + 2 * MARGIN);
+const f = (n: number) => String(Math.round(n * 10) / 10);
+const BIG_FS = Math.ceil((12 * VBW) / PHONE_PX);
+
+// two subjects can share a short name (the same word with a different gloss): they keep the gloss, so no two circles read alike
+const shorts = drawn.map((s) => shortName(s.node));
+const fullName = (n: Parameters<typeof labelOf>[0]) => labelOf(n, lang).replace(/\s*[:：].*$/, "").trim();
+const circles = drawn.map((s, i) => {
+  const c = packed[i];
+  const r = c.r * S - 1; // one unit of breathing room is already in the gap
+  const cx = (c.x - minX) * S + MARGIN, cy = (c.y - minY) * S + MARGIN;
+  const bySrc = new Array(fatwaSources.length).fill(0);
+  for (const n of s.list) bySrc[srcIndex.get(sourceOf(n))!]++;
+  const ring = Math.min(RING_MAX, Math.max(4.5, r * 0.13));
+  const name = shorts.filter((x) => x === shorts[i]).length > 1 ? fullName(s.node) : shorts[i];
+  const inner = r - ring - 3;
+  const countFs = (fs: number) => Math.max(MIN_FS, Math.round(fs * 0.72));
+  // the name, with the count under it; when the name does not fit, the count alone
+  const maxFs = Math.min(30, (r - ring) * 0.42);
+  const withCount = fitLabel(name, inner, MIN_FS, maxFs, (fs) => countFs(fs) * 1.25);
+  const fit = withCount ?? fitLabel(name, inner, MIN_FS, maxFs);
+  const lone = fit ? 0 : Math.min(34, Math.floor(inner * 0.62));
+  return { s, r, cx: S ? cx : 0, cy, bySrc, ring, name, fit, lone, cfs: withCount ? countFs(withCount.fs) : 0, present: bySrc.map((v, k) => (v ? k : -1)).filter((k) => k >= 0) };
+});
+
+// ring segments: clockwise from the top, in the legend's order; a thin gap between neighbours
+const arcPath = (rr: number, a0: number, a1: number) => {
+  const p = (a: number) => `${f(rr * Math.cos(a - Math.PI / 2))} ${f(rr * Math.sin(a - Math.PI / 2))}`;
+  return `M${p(a0)} A${f(rr)} ${f(rr)} 0 ${a1 - a0 > Math.PI ? 1 : 0} 1 ${p(a1)}`;
+};
+const segments = (c: (typeof circles)[number]) => {
+  const total = c.s.list.length;
+  const rr = c.r - c.ring / 2 - 1;
+  if (c.present.length === 1) return [{ k: c.present[0], circle: true as const, rr, d: "" }];
+  const out: { k: number; circle: false; rr: number; d: string }[] = [];
+  let a = 0;
+  const gap = 0.045;
+  for (const k of c.present) {
+    const sweep = (c.bySrc[k] / total) * Math.PI * 2;
+    out.push({ k, circle: false, rr, d: arcPath(rr, a + gap / 2, a + sweep - gap / 2) });
+    a += sweep;
+  }
+  return out as any[];
+};
+const lineH = (fs: number) => fs * 1.18;
+// a label is shown only where it stays at least 12 px on screen: the tier says from which screen width
+const tierOf = (fs: number) => (fs >= BIG_FS ? "big" : fs >= 15 ? "t1" : "t2");
+// a fatwa's own title can be a whole question: the readout shows its first words, the fatwa's page the rest
+const clipTitle = (t: string) => (t.length > 80 ? `${t.slice(0, 80).replace(/\s+\S*$/, "")}…` : t);
+const counted = (n: number) => fmt(F.count, { n: num(n, lang) });
+---
+<section aria-labelledby="sg-field-title" class="sgf" data-sgf style="margin-top:1.4rem">
+  <div data-pagefind-body>
+    <h2 id="sg-field-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{V.note} {fmt(V.drawn, { n: num(drawn.length, lang), k: num(minFatwas, lang) })}</p>
+  </div>
+  <ul class="sgf-legend ui" aria-label={V.legend_title}>
+    {fatwaSources.map((src, i) => (
+      <li class={`s${i}`}>
+        <button type="button" class="sgf-tog" data-src={i} aria-pressed="false" aria-label={fmt(V.toggle, { s: srcName(i) })} hidden><i class="sgf-sw" aria-hidden="true"></i></button>
+        <i class="sgf-sw sgf-sw-static" aria-hidden="true"></i>
+        <span><a href={`/${lang}/fatwa/source/${src.slug}/`}>{srcName(i)}</a> <span class="muted" style="white-space:nowrap">{counted(src.list.length)}</span></span>
+      </li>
+    ))}
+  </ul>
+  <p class="ui muted sgf-tip" data-sgf-tip hidden>{V.toggle_hint}</p>
+  <p class="ui muted sgf-hint">{V.hint}</p>
+  <div class="sgf-wrap">
+    <figure class="sgf-figure">
+      <svg class="sgf-svg" viewBox={`0 0 ${VBW} ${VBH}`} role="group" aria-labelledby="sg-field-title" direction={rtl ? "rtl" : "ltr"}>
+        {circles.map((c) => (
+          <a class="sgf-c" href={`/${lang}/fatwa/subject/${c.s.slug}/`} data-id={c.s.slug} data-src={c.present.join(" ")} aria-label={`${c.name}, ${counted(c.s.list.length)}`} transform={`translate(${f(c.cx)} ${f(c.cy)})`}>
+            <circle class="sgf-disc" r={f(c.r)} />
+            {segments(c).map((g: any) => g.circle
+              ? <circle class={`sgf-seg s${g.k}`} stroke-width={f(c.ring)} r={f(g.rr)} />
+              : <path class={`sgf-seg s${g.k}`} stroke-width={f(c.ring)} d={g.d} />)}
+            {c.fit && (
+              <text class={`sgf-name ${tierOf(c.fit.fs)}`} style={`font-size:${c.fit.fs}px`} text-anchor="middle">
+                {c.fit.lines.map((ln, k) => <tspan x="0" y={f((k - (c.fit!.lines.length - 1) / 2) * lineH(c.fit!.fs) - c.cfs * 0.62)} dominant-baseline="central">{ln}</tspan>)}
+              </text>
+            )}
+            {c.fit && c.cfs > 0 && <text class={`sgf-count ${tierOf(c.cfs)}`} style={`font-size:${c.cfs}px`} text-anchor="middle" x="0" y={f((c.fit.lines.length * lineH(c.fit.fs)) / 2 + c.cfs * 0.15)} dominant-baseline="central">{num(c.s.list.length, lang)}</text>}
+            {!c.fit && c.lone >= MIN_FS && <text class={`sgf-count lone ${tierOf(c.lone)}`} style={`font-size:${c.lone}px`} text-anchor="middle" x="0" y="0" dominant-baseline="central">{num(c.s.list.length, lang)}</text>}
+          </a>
+        ))}
+      </svg>
+    </figure>
+    <aside class="sgf-panel panel" data-sgf-panel aria-live="polite" hidden>
+      <p class="ui muted sgf-phint" data-sgf-hint>{V.hint}</p>
+      <div data-sgf-body></div>
+      <button type="button" class="ui sgf-close" data-sgf-close hidden>{V.close}</button>
+    </aside>
+  </div>
+  {rest > 0 && <p class="sgf-more ui"><a href="#fatwa-by-subject">{fmt(V.more, { n: num(rest, lang) })}</a></p>}
+  <details class="sgf-outline">
+    <summary class="ui">{V.outline_title}</summary>
+    <ul role="list">
+      {circles.map((c) => (
+        <li data-sgf-card={c.s.slug}>
+          <h4><a href={`/${lang}/fatwa/subject/${c.s.slug}/`}>{c.name}</a> <span class="ui muted">{counted(c.s.list.length)}</span></h4>
+          <ul class="sgf-split ui">
+            {c.present.map((k) => <li class={`s${k}`}><i class="sgf-sw" aria-hidden="true"></i>{srcName(k)} · {num(c.bySrc[k], lang)}</li>)}
+          </ul>
+          <ul class="sgf-titles">
+            {c.s.list.slice(0, 3).map((n) => <li><a href={href(lang, n.id)}>{clipTitle(labelOf(n, lang))}</a></li>)}
+          </ul>
+          <p class="ui"><a class="sgf-open" href={`/${lang}/fatwa/subject/${c.s.slug}/`}>{V.open}</a></p>
+        </li>
+      ))}
+    </ul>
+  </details>
+</section>
+<style is:inline>
+  .sgf { --sgf-s0: var(--gold); --sgf-s1: var(--link); --sgf-s2: color-mix(in srgb, var(--fg) 72%, var(--bg)); --sgf-s3: color-mix(in srgb, var(--gold) 55%, var(--fg) 45%); --sgf-s4: color-mix(in srgb, var(--gold) 50%, var(--link) 50%); --sgf-s5: color-mix(in srgb, var(--link) 38%, var(--bg) 62%); --sgf-s6: color-mix(in srgb, var(--fg) 38%, var(--bg) 62%); --sgf-s7: color-mix(in srgb, var(--gold) 45%, var(--fg) 55%); }
+  .sgf-legend { display: flex; flex-wrap: wrap; gap: 4px 18px; list-style: none; padding: 0; margin: 0 0 .6rem; font-size: .86rem; }
+  .sgf-legend li { display: inline-flex; align-items: center; gap: 7px; min-height: 28px; }
+  .sgf-sw { display: inline-block; width: 14px; height: 14px; border-radius: 50%; background: var(--c); border: 1.5px solid color-mix(in srgb, var(--fg) 30%, transparent); flex: none; }
+  .sgf-tog { display: none; width: 32px; height: 32px; padding: 0; margin: -4px; border: 0; border-radius: 50%; background: transparent; cursor: pointer; align-items: center; justify-content: center; }
+  .sgf-tog:not([hidden]) { display: inline-flex; }
+  .sgf-tog:not([hidden]) + .sgf-sw-static { display: none; }
+  .sgf-tog .sgf-sw { width: 18px; height: 18px; }
+  .sgf-tog[aria-pressed="true"] .sgf-sw { box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--fg); }
+  .sgf-tog:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
+  .sgf-tip { margin: 0 0 .6rem; font-size: .84rem; }
+  .sgf-wrap { display: grid; gap: 16px; align-items: start; }
+  .sgf-figure { margin: 0; min-width: 0; border: 1px solid var(--line); border-radius: 18px; padding: 6px; background: radial-gradient(90% 80% at 50% 50%, color-mix(in srgb, var(--gold) 9%, transparent), transparent 75%); }
+  .sgf-svg { display: block; width: 100%; height: auto; max-width: 760px; margin-inline: auto; font-family: inherit; overflow: visible; }
+  .sgf-c { cursor: pointer; text-decoration: none; transition: opacity .25s; }
+  .sgf-disc { fill: var(--card); stroke: color-mix(in srgb, var(--gold) 45%, var(--line)); stroke-width: 1.2px; transition: fill .2s; }
+  .sgf-seg { fill: none; stroke: var(--c); }
+  .s0 { --c: var(--sgf-s0); } .s1 { --c: var(--sgf-s1); } .s2 { --c: var(--sgf-s2); } .s3 { --c: var(--sgf-s3); } .s4 { --c: var(--sgf-s4); } .s5 { --c: var(--sgf-s5); } .s6 { --c: var(--sgf-s6); } .s7 { --c: var(--sgf-s7); }
+  .sgf-name { fill: var(--fg); font-weight: 600; pointer-events: none; }
+  .sgf-count { fill: var(--muted); font-weight: 500; pointer-events: none; }
+  .sgf-count.lone { fill: var(--fg); font-weight: 600; }
+  .sgf-c:hover .sgf-disc, .sgf-c.is-sel .sgf-disc { fill: color-mix(in srgb, var(--gold) 20%, var(--card)); stroke: var(--fg); stroke-width: 2.4px; }
+  .sgf-c:focus-visible { outline: none; }
+  .sgf-c:focus-visible .sgf-disc { stroke: var(--focus); stroke-width: 4px; }
+  .sgf-svg.sgf-js .sgf-c.is-dim { opacity: .2; }
+  @media (max-width: 759px) { .sgf-name.t2, .sgf-count.t2 { display: none; } }
+  @media (max-width: 639px) { .sgf-name.t1, .sgf-count.t1 { display: none; } }
+  .sgf-more { margin: .8rem 0 0; font-size: .95rem; }
+  .sgf-panel { position: sticky; bottom: 10px; border: 1px solid var(--gold); box-shadow: 0 8px 28px rgba(10, 37, 51, .18); padding: 12px 16px; max-height: 44vh; overflow: auto; }
+  .sgf-panel h4 { margin: 0 0 .25rem; font-size: 1.15rem; }
+  .sgf-panel p { margin: .3rem 0 0; }
+  .sgf-hint { margin: 0 0 .5rem; font-size: .88rem; }
+  .sgf-phint { margin: 0 !important; font-size: .9rem; }
+  @media (min-width: 1100px) { .sgf-hint { display: none; } }
+  .sgf-split, .sgf-titles { list-style: none; padding: 0; margin: .3rem 0 0; }
+  .sgf-split li { display: flex; align-items: center; gap: 8px; font-size: .88rem; }
+  .sgf-titles li { margin: .25rem 0 0; font-size: .92rem; }
+  .sgf-open { display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.1rem; border-radius: 999px; background: var(--gold); color: #0a2533; font-weight: 700; text-decoration: none; }
+  .sgf-close { margin-top: .5rem; min-height: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; }
+  @media (max-width: 899px) { .sgf-panel { max-height: 40vh; padding: 10px 14px; } }
+  .sgf-outline { margin-top: 1rem; }
+  .sgf-outline summary { cursor: pointer; min-height: 44px; display: inline-flex; align-items: center; }
+  .sgf-outline > ul { list-style: none; padding: 0; margin: .6rem 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+  .sgf-outline > ul > li { border-inline-start: 3px solid var(--gold); padding: 2px 12px; }
+  .sgf-outline h4 { margin: 0; font-size: 1rem; }
+  .sgf-outline .sgf-open { min-height: 36px; padding: 0 .9rem; font-size: .85rem; }
+  @media (min-width: 1100px) {
+    .sgf-wrap.has-panel { grid-template-columns: minmax(0, 1fr) 300px; }
+    .sgf-wrap.has-panel .sgf-panel { top: 132px; bottom: auto; max-height: calc(100vh - 150px); }
+  }
+  @media (prefers-reduced-motion: reduce) { .sgf-c, .sgf-disc { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-fatwa.ts"></script>
