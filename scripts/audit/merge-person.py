@@ -6,7 +6,8 @@
 What it does, and nothing else (docs/agents/workflow.md section 5, "Duplicates"):
   - the canonical record gains `aliases: [person/<duplicate>]`, so the old id still resolves;
   - facts the duplicate holds and the canonical lacks are carried over unchanged: external ids, sources, relations
-    (by type and target), names (the duplicate's labels become alternate names), and a birth or death date when the canonical has none and the duplicate's is not a
+    (by type and target), names (the duplicate's labels become alternate names), every other field the canonical
+    lacks (roles, regions, periods, gender, faith and the like, word for word), and a birth or death date when the canonical has none and the duplicate's is not a
     date-enrichment graft;
   - the duplicate's prose sections are appended to the canonical's prose in each language under a heading that names
     the duplicate's source, word for word;
@@ -102,7 +103,17 @@ if new_names:
 for k in ("born", "died"):
     if k not in c and k in d and "Date-enrichment pass" not in str(d[k].get("note", "")):
         lines = t.split("\n"); lines[len(lines) - 1:len(lines) - 1] = [f"{k}: {flow(d[k])}"]; t = "\n".join(lines); log.append(f"{k} carried")
+# every other field only the duplicate holds (roles, regions, periods, gender, faith, story_roles, education, ...),
+# word for word: a merge must not lose a fact because the kept record never had that field
+HANDLED = ("id", "aliases", "label", "summary", "sources", "relations", "external_ids", "names", "born", "died")
+carried = [k for k in d if k not in c and k not in HANDLED]
+for k in carried:
+    b = top_block(dt, k)
+    if b is None: raise SystemExit(f"{did}: cannot find the block of '{k}': merge by hand")
+    t = t.rstrip("\n") + "\n" + "\n".join(dt.split("\n")[b[0]:b[1]]) + "\n"
+if carried: log.append(f"fields carried +{carried}")
 after = yaml.safe_load(t)
+for k in carried: assert after[k] == d[k], k
 assert after["aliases"] == list(c.get("aliases", [])) + [did]
 for s in new_sources: assert s in after["sources"], s
 for r in new_rel: assert any(x["type"] == r["type"] and x["target"] == r["target"] for x in after["relations"]), r

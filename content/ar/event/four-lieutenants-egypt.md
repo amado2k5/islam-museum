@@ -10,7 +10,7 @@ translators: []
 ## الموجَّهون
 وجّه [[person/abdullah-ibn-hudhafa-al-sahmi|عبد الله بن حذافة السهمي]] إلى [[place/ayn-shams|عين شمس]]. ووجّه [[person/kharija-ibn-hudhafa-al-adawi|خارجة بن حذافة العدوي]] إلى [[place/al-fayyum|الفيوم]] والأشمونين وإخميم وقرى الصعيد. {cite:futuh-buldan-maarif-1407 p.304-305}
 
-ووجّه [[person/umayr-ibn-wahb|عمير بن وهب الجمحي]] إلى [[place/tinnis|تنيس]] و[[place/dimyat|دمياط]] وتونة ودميرة وشطا ودقهلة. ووجّه [[person/utba-ibn-amir-al-juhani|عتبة بن عامر الجهني]] إلى سائر قرى أسفل الأرض، ويقال بل وردان مولاه. {cite:futuh-buldan-maarif-1407 p.304-305}
+ووجّه [[person/umayr-ibn-wahb-al-jumahi|عمير بن وهب الجمحي]] إلى [[place/tinnis|تنيس]] و[[place/dimyat|دمياط]] وتونة ودميرة وشطا ودقهلة. ووجّه [[person/utba-ibn-amir-al-juhani|عتبة بن عامر الجهني]] إلى سائر قرى أسفل الأرض، ويقال بل وردان مولاه. {cite:futuh-buldan-maarif-1407 p.304-305}
 
 ## النتيجة
 استجمع عمرو فتح مصر، فصارت أرضها أرض خراج. {cite:futuh-buldan-maarif-1407 p.304-305}

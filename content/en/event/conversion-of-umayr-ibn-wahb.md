@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
 ## Summary
-After Quraysh's defeat at Badr, [[person/umayr-ibn-wahb|Umayr ibn Wahb al-Jumahi]] sat with [[person/safwan-ibn-umayya|Safwan ibn Umayya]] at the Hijr in Mecca, recalling Quraysh's loss and their captives — Umayr's own son being a captive in Medina in Muslim hands. {cite:mubarakpuri-raheeq p. 233}
+After Quraysh's defeat at Badr, [[person/umayr-ibn-wahb-al-jumahi|Umayr ibn Wahb al-Jumahi]] sat with [[person/safwan-ibn-umayya|Safwan ibn Umayya]] at the Hijr in Mecca, recalling Quraysh's loss and their captives — Umayr's own son being a captive in Medina in Muslim hands. {cite:mubarakpuri-raheeq p. 233}
 
 ## The plot at the Hijr
 Umayr said to Safwan: "were it not for a debt I cannot pay and dependants I fear would be lost after me, I would ride to Muhammad and kill him." Safwan took on all his debts and guaranteed the upkeep of his dependants for as long as they lived; Umayr sharpened his sword, poisoned it and set out secretly for [[place/medina|Medina]]. {cite:mubarakpuri-raheeq p. 233} {cite:ibn-hisham-sira 1/661}
