@@ -2211,3 +2211,17 @@ Resume point: mawkib-al-nour episode 8 (branch from origin/main).
 | Asides on poetry about youth, football coaches' skills, grain measures and a surgery anecdote beyond the points kept | ep08 00:07:30, 00:22:30-00:23:30, 00:28:30, 00:27:30 | Illustrative asides, not separate claims | Content rule | Open |
 
 Resume point: mawkib-al-nour episode 9 (branch from origin/main).
+
+### mawkib-al-nour ep09 (12 Nov 2026)
+
+(Correction to the ep08 note above: the episode 8 text carries 16 needs_source marks, not 15.)
+
+30 points written for episode 9 (ar, en, ur); 27 needs_source marks; 10 new `about` edges. Quran verses referenced only through passage links (76-8, 76-9, 76-10, 49-10, 12-86, 18-94, 18-95, 18-96); none typed. Proposal for the founder, not applied: the statements attributed to the Hanbalis on liability for blood-money (ep09 00:02:00), the statistic on billionaires (00:32:00) and the attribution to Marie Antoinette (00:22:30) have no source and are marked, not removed; the lecturer's reading of "the captive" as a non-Muslim prisoner (00:24:30) is recorded as his own.
+
+| Excluded (mawkib-al-nour ep09) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and the closing supplication | ep09 00:00:00-00:01:00 (recitation, Quran text never typed), 00:39:30-00:40:00 (closing and a hallucinated tail of repeated syllables) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep09 00:08:00 (a long loop), 00:13:30 (a long loop), 00:32:30-00:33:00 (a loop of repeated particles) | Not recoverable | Clarity, Loop check | Open |
+| Asides on nutrition and germs, a French-revolution anecdote, an aid-agency broadcast and a reference to Hasan's palate beyond the points kept | ep09 00:10:30, 00:23:00, 00:29:00 | Illustrative asides, not separate claims | Content rule | Open |
+
+Resume point: mawkib-al-nour episode 10 (branch from origin/main).
