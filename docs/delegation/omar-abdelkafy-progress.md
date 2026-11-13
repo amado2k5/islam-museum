@@ -2187,3 +2187,15 @@ Resume point: mawkib-al-nour episode 6 (branch from origin/main).
 | Asides on a hospital example, a family's school-day anecdote and the lecturer's remarks on scholars' mosque habits beyond the points kept | ep06 00:16:00, 00:12:30 | Illustrative asides, not separate claims | Content rule | Open |
 
 Resume point: mawkib-al-nour episode 7 (branch from origin/main).
+
+### mawkib-al-nour ep07 (12 Nov 2026)
+
+35 points written for episode 7 (ar, en, ur); 17 needs_source marks; 15 new `about` edges. Quran verses referenced only through passage links (6-125, 12-103, 34-13, 43-54, 28-4, 7-12, 33-72, 43-51, 28-38, 40-26, 61-4, 28-78, 28-81, 17-4, 17-7, 55-1, 55-2, 55-3, 3-134, 74-3, 3-133, 76-19, 1-6, 6-153, 42-13, 33-36, 4-65); none typed. Proposal for the founder, not applied: the lecturer's opinions on dress and the veil (ep07 00:29:30-00:34:30), on a generalisation about the Egyptians (00:04:30), on the closing of ijtihad (00:06:30) and the figure he gives for al-Hajjaj's killings (00:20:00) are recorded as his and marked or labelled; the record stays `sensitivity: contested`. The founder may wish to review the Egyptians generalisation and the Hajjaj figure.
+
+| Excluded (mawkib-al-nour ep07) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and the closing supplication | ep07 00:00:00-00:01:00 (recitation, Quran text never typed), 00:42:30-00:43:00 (closing and a hallucinated tail of repeated syllables) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep07 00:07:30 (a long loop), 00:10:30 (a long loop), 00:13:30 (a long loop), 00:15:00 (a loop), 00:26:30 (a loop) | Not recoverable | Clarity, Loop check | Open |
+| Asides on a salary dispute, a dress anecdote at an office and a housing-investment example beyond the points kept | ep07 00:12:30-00:13:00, 00:30:00-00:32:00, 00:34:00 | Illustrative asides, not separate claims | Content rule | Open |
+
+Resume point: mawkib-al-nour episode 8 (branch from origin/main).
