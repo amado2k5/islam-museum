@@ -25,7 +25,8 @@ done
 if [ -n "$IDS" ]; then
   mkdir -p "$T/src/pages/[lang]/[class]"
   # the real entity route, with its node list cut down to the ids asked for
-  sed "s#nodes.map((n) => ({ params#nodes.filter((n) => process.env.IDS.split(/\\\\s+/).includes(n.id)).map((n) => ({ params#" "$SRC/src/pages/[lang]/[class]/[slug].astro" > "$T/src/pages/[lang]/[class]/[slug].astro"
+  # (the route reads `sample(nodes, ...)` since the sample-build change, and `nodes.map(` before it: both are handled)
+  sed -e "s#sample(nodes, #sample(nodes.filter((n) => process.env.IDS.split(/\\\\s+/).includes(n.id)), #" -e "s#nodes.map((n) => ({ params#nodes.filter((n) => process.env.IDS.split(/\\\\s+/).includes(n.id)).map((n) => ({ params#" "$SRC/src/pages/[lang]/[class]/[slug].astro" > "$T/src/pages/[lang]/[class]/[slug].astro"
   grep -q "process.env.IDS" "$T/src/pages/[lang]/[class]/[slug].astro" || { echo "scoped build FAILED: could not scope the entity route"; exit 1; }
 fi
 ln -s "$ROOT/site/node_modules" "$T/node_modules"
