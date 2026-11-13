@@ -1180,6 +1180,17 @@ sources:
       robots_txt: 'wildcard allows records; disallows /image/, /options, /var/, /logout and a few view routes (read 12 Nov 2026)'
       note: 'manuscript and print metadata (shelfmark, repository, language, script, colophon, provenance, date); collection leans to Christian manuscripts, Arabic-Islamic share unmeasured; separate from the hmml entry'
     status: enabled
+  louvre-collections:
+    name: Louvre collections website (Musée du Louvre)
+    url: https://collections.louvre.fr
+    licence: textual content of entries is public information under the Etalab Open Licence (article 4.1.2 of the Terms of Use, read 12 Nov 2026), credit the Musée du Louvre with the date of last update; photographs are NOT open (article 4.1.1) and are never fetched; {cite:louvre-collections <ark-id>} is the attribution
+    layer: by
+    method: single-record JSON (ARK address plus .json), text fields only, one request at a time; /search/export is never used; no image requests; ADAGP-repertory works skipped
+    limits:
+      pause_seconds: 3
+      robots_txt: 'User-agent * disallows /search/export; named AI crawlers blocked from image paths (read 12 Nov 2026)'
+      note: 'object records incl. the Islamic Arts department: inventory numbers, dates, materials, inscriptions, provenance, bibliography; record text French or English; cite by ARK id'
+    status: enabled
   princeton-geniza:
     name: Princeton Geniza Project
     url: https://geniza.princeton.edu
