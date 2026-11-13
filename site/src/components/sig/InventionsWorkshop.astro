@@ -1,0 +1,195 @@
+---
+// The workshop of centuries (signature view of the Inventions Browser, docs/inventions/README.md): a swimlane timeline.
+// One lane per domain in use (the busiest first), the Hijri years across with the Gregorian year beneath each century line,
+// one mark per invention at the date its record gives for the first attestation. The mark's shape and tone say what became
+// of the invention (era.status_today); a thin bar under a mark shows a date known only to a span (a century, two centuries).
+// Where a record's precursors or dependents name another invention record, the script draws an arc between the two marks,
+// from the earlier to the later, on hover, focus or selection. Everything is read at build time from lib/inventions.ts; the
+// marks are links, and the script (site/src/scripts/sig-inventions.ts) only adds the readout, the arcs and arrow keys.
+import { ui, fmt, NUM_LOCALE, type Lang } from "../../lib/i18n";
+import { href, labelOf, byId } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { formatAH, ERA } from "../../lib/dates";
+import { hijriToCivil } from "../../../../scripts/hijri/convert";
+import { INVENTION_DOMAINS, INVENTION_STATUS_TODAY, inventionDomainLabel, inventionNodes, inventionWhen, inventionLinks, makerIds } from "../../lib/inventions";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const V = T.inventions.viz;
+const era = ERA[lang];
+
+// One shape and tone for each status_today the museum records; the build stops when an invention carries another one.
+const SHAPES: Record<string, string> = { living: "s-tri", transformed: "s-dot", replaced: "s-ring", extinct: "s-dia" };
+const PLOT_MIN = 1000, LANE_W = 116, PAD = 26, PITCH = 28;
+
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const plain = (n: number) => new Intl.NumberFormat(NUM_LOCALE[lang], { useGrouping: false }).format(n);
+const f4 = (n: number) => Math.round(n * 10000) / 10000;
+
+const rows = inventionNodes.map((n) => {
+  const w = inventionWhen(n);
+  if (!w) throw new Error(`The workshop timeline cannot place ${n.id}: no readable era.first_attested.edtf`);
+  const st = n.data.era?.status_today;
+  if (!SHAPES[st]) throw new Error(`The workshop timeline has no mark for status_today "${st}" (${n.id})`);
+  if (!INVENTION_DOMAINS.includes(n.data.domain)) throw new Error(`The workshop timeline has no lane for domain "${n.data.domain}" (${n.id})`);
+  return { n, w, st };
+});
+for (const s of INVENTION_STATUS_TODAY) if (!SHAPES[s]) throw new Error(`No mark for ${s}`);
+
+const dateText = (r: (typeof rows)[number]) => {
+  const w = r.w;
+  const ce = w.ceFrom === null ? `${plain(w.ceTo!)} ${era.ce}` : w.ceFrom === w.ceTo ? `${w.approx ? era.approx : ""}${plain(w.ceFrom)} ${era.ce}` : `${plain(w.ceFrom)}–${plain(w.ceTo!)} ${era.ce}`;
+  const fa = r.n.data.era.first_attested;
+  const lo = Math.floor(w.from), hi = Math.floor(w.to);
+  const ah = w.hijriStored ? formatAH(String(fa.hijri), lang) : (lo === hi ? `${w.approx ? era.approx : ""}${plain(lo)} ${era.ah}†` : `${plain(lo)}–${plain(hi)} ${era.ah}†`);
+  const both = `${ah} · ${ce}`;
+  return w.open ? fmt(V.latest, { d: both }) : both;
+};
+const makersOf = (n: any) => {
+  const names = makerIds(n).map((id) => byId.get(id)).filter(Boolean).map((p: any) => short(p));
+  const sep = lang === "en" ? ", " : "، ";
+  return names.length > 3 ? `${names.slice(0, 3).join(sep)} ${fmt(V.more_makers, { n: num(names.length - 3, lang) })}` : names.join(sep);
+};
+
+// ---- the axis: whole Hijri centuries around the data
+const lo = Math.min(...rows.map((r) => r.w.from)), hi = Math.max(...rows.map((r) => r.w.to));
+const MIN = Math.floor(lo / 100) * 100, MAX = Math.max(MIN + 100, Math.ceil(hi / 100) * 100);
+const RANGE = MAX - MIN;
+const frac = (y: number) => f4((y - MIN) / RANGE);
+const ticks: number[] = [];
+for (let y = MIN; y <= MAX; y += 100) ticks.push(y);
+const ceOf = (ah: number) => hijriToCivil({ y: Math.max(1, ah), m: 1, d: 1 }).date.y;
+
+// ---- the lanes, busiest first (ties in the order of the domain list)
+const lanes = INVENTION_DOMAINS
+  .map((d, i) => ({ d, i, items: rows.filter((r) => r.n.data.domain === d).sort((a, b) => a.w.at - b.w.at || a.n.id.localeCompare(b.n.id)) }))
+  .filter((l) => l.items.length > 0)
+  .sort((a, b) => b.items.length - a.items.length || a.i - b.i);
+
+// stack the marks of a lane into sub-rows so that neighbours at the narrowest plot are one mark apart
+const GAP = (PITCH * RANGE) / (PLOT_MIN - LANE_W - 2 * PAD);
+const laneInfo = lanes.map((l, li) => {
+  const last: number[] = [];
+  const marks = l.items.map((r) => {
+    let sub = last.findIndex((x) => r.w.at - x >= GAP);
+    if (sub === -1) { sub = last.length; last.push(r.w.at); } else last[sub] = r.w.at;
+    return { r, sub };
+  });
+  return { ...l, marks, subs: last.length };
+});
+// the DOM order is lane by lane, so the index of a mark is its position in that order
+let k = 0;
+const indexOf = new Map<string, number>();
+for (const l of laneInfo) for (const m of l.marks) { indexOf.set(m.r.n.id, k); k++; }
+const rel = new Map<number, number[]>();
+const linkable = inventionLinks.filter(([a, b]) => indexOf.has(a) && indexOf.has(b));
+for (const [a, b] of linkable) {
+  const i = indexOf.get(a)!, j = indexOf.get(b)!;
+  (rel.get(i) ?? rel.set(i, []).get(i)!).push(j);
+  (rel.get(j) ?? rel.set(j, []).get(j)!).push(i);
+}
+if (k !== inventionNodes.length) throw new Error(`The workshop timeline drew ${k} marks for ${inventionNodes.length} inventions`);
+const statusUsed = INVENTION_STATUS_TODAY.filter((s) => rows.some((r) => r.st === s));
+const spans = rows.filter((r) => r.w.to - r.w.from >= 15).length;
+const AXIS_H = 52;
+---
+<div class="sg-iv" data-sg-iv data-t-hint={V.hint} data-t-open={V.open} data-t-from={V.arc_from} data-t-to={V.arc_to}>
+  <section aria-labelledby="sg-iv-title" style="margin-top:2rem">
+    <div data-pagefind-body>
+      <h2 id="sg-iv-title">{V.title}</h2>
+      <p class="muted" style="max-width:var(--measure);margin:0 0 .5rem">{fmt(V.note, { n: num(k, lang), d: num(lanes.length, lang), s: num(spans, lang), a: num(linkable.length, lang) })}</p>
+    </div>
+    <ul class="sg-iv-legend ui" aria-label={V.legend_title}>
+      {statusUsed.map((s) => <li><i class={`sg-iv-shape ${SHAPES[s]}`} aria-hidden="true"></i>{V.today[s]} <span class="muted">{num(rows.filter((r) => r.st === s).length, lang)}</span></li>)}
+      <li><i class="sg-iv-key" aria-hidden="true"></i>{V.span_key}</li>
+    </ul>
+    <p class="ui muted sg-iv-swipe">{V.scroll_hint}</p>
+    <div class="sg-iv-scroll" role="region" aria-label={V.scroll_label} tabindex="0">
+      <div class="sg-iv-plot" role="group" aria-label={V.group_label} style={`min-width:${PLOT_MIN}px;--lw:${LANE_W}px;--pad:${PAD}px`}>
+        <div class="sg-iv-grid" aria-hidden="true" style={`bottom:${AXIS_H}px`}>
+          {ticks.map((y) => <i style={`--f:${frac(y)}`}></i>)}
+        </div>
+        {laneInfo.map((l) => (
+          <div class="sg-iv-lane" style={`height:${Math.max(1, l.subs) * PITCH + 14}px`}>
+            <div class="sg-iv-lname ui"><b>{inventionDomainLabel(l.d, lang)}</b> <span>{num(l.marks.length, lang)}</span></div>
+            <div class="sg-iv-track">
+              {l.marks.filter((m) => m.r.w.to - m.r.w.from >= 15).map((m) => (
+                <i class="sg-iv-span" aria-hidden="true" style={`--f:${frac(m.r.w.from)};--w:${f4((m.r.w.to - m.r.w.from) / RANGE)};--sub:${m.sub}`}></i>
+              ))}
+              {l.marks.map((m) => {
+                const i = indexOf.get(m.r.n.id)!;
+                const label = [short(m.r.n), inventionDomainLabel(l.d, lang), dateText(m.r), V.today[m.r.st], makersOf(m.r.n)].filter(Boolean).join(" · ");
+                return (
+                  <a class={`sg-iv-mark ${SHAPES[m.r.st]}${m.r.w.open ? " is-open" : ""}`} href={href(lang, m.r.n.id)} aria-label={label}
+                    data-i={i} data-at={f4(m.r.w.at)} data-lane={laneInfo.indexOf(l)} data-rel={rel.get(i)?.join(" ")}
+                    style={`--f:${frac(m.r.w.at)};--sub:${m.sub}`}></a>
+                );
+              })}
+            </div>
+          </div>
+        ))}
+        <div class="sg-iv-axis" style={`height:${AXIS_H}px`}>
+          <div class="sg-iv-axname ui muted"><span>{era.ah}</span><span>{era.ce}</span></div>
+          <div class="sg-iv-axticks" aria-hidden="true">
+            {ticks.filter((y) => y >= 100).map((y) => (
+              <span class="sg-iv-tick ui" style={`--f:${frac(y)}`}><b>{plain(y)}</b><em>{plain(ceOf(y))}</em></span>
+            ))}
+          </div>
+        </div>
+        <svg class="sg-iv-arcs" aria-hidden="true" focusable="false"><defs><marker id="sg-iv-head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L10 5 L0 9 z" fill="currentColor"></path></marker></defs></svg>
+      </div>
+    </div>
+    <div class="sg-iv-read ui" aria-live="polite">
+      <p class="sg-iv-line" data-sg-line>{V.hint}</p>
+    </div>
+    <p class="ui muted" style="margin:.2rem 0 0;max-width:var(--measure);font-size:.86rem">{V.derived_note}</p>
+  </section>
+</div>
+<style is:inline>
+  .sg-iv h2 { margin-bottom: .3rem; }
+  .sg-iv-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; padding: 0; margin: 0 0 .8rem; font-size: .88rem; color: var(--fg); }
+  .sg-iv-legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .sg-iv-swipe { display: none; margin: 0 0 .4rem; font-size: .85rem; }
+  .sg-iv-shape, .sg-iv-mark::before { content: ""; display: inline-block; width: 14px; height: 14px; box-sizing: border-box; flex: none; --c: var(--gold-text); }
+  .sg-iv-shape.s-dot, .sg-iv-mark.s-dot::before { background: var(--c); border-radius: 50%; }
+  .sg-iv-shape.s-ring, .sg-iv-mark.s-ring::before { border: 3px solid var(--c); border-radius: 50%; background: var(--card); }
+  .sg-iv-shape.s-tri, .sg-iv-mark.s-tri::before { background: var(--link); clip-path: polygon(50% 2%, 98% 92%, 2% 92%); }
+  .sg-iv-shape.s-dia, .sg-iv-mark.s-dia::before { background: var(--fg); clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
+  .sg-iv-key { display: inline-block; width: 22px; height: 0; border-top: 3px solid color-mix(in srgb, var(--gold-text) 45%, transparent); border-radius: 2px; }
+  .sg-iv-scroll { overflow-x: auto; overflow-y: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--card); scrollbar-color: var(--gold-text) var(--panel); }
+  .sg-iv-scroll:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-iv-plot { position: relative; }
+  .sg-iv-grid { position: absolute; top: 0; inset-inline: calc(var(--lw) + var(--pad)) var(--pad); pointer-events: none; }
+  .sg-iv-grid i { position: absolute; top: 0; bottom: 0; inset-inline-start: calc(var(--f) * 100%); width: 1px; background: var(--line); }
+  .sg-iv-lane { min-height: 68px; display: grid; grid-template-columns: var(--lw) 1fr; border-top: 1px solid var(--line); position: relative; }
+  .sg-iv-grid + .sg-iv-lane { border-top: 0; }
+  .sg-iv-lname { position: sticky; inset-inline-start: 0; z-index: 3; width: var(--lw); box-sizing: border-box; padding: 8px 10px; background: var(--card); border-inline-end: 1px solid var(--line); font-size: .78rem; line-height: 1.25; color: var(--fg); display: flex; flex-direction: column; justify-content: center; gap: 2px; }
+  .sg-iv-lname b { font-weight: 600; }
+  .sg-iv-lname span { color: var(--muted); }
+  .sg-iv-track { position: relative; margin-inline: var(--pad); }
+  .sg-iv-span { position: absolute; top: calc(7px + var(--sub) * 28px + 14px); inset-inline-start: calc(var(--f) * 100%); width: calc(var(--w) * 100%); height: 0; border-top: 3px solid color-mix(in srgb, var(--gold-text) 38%, transparent); border-radius: 2px; pointer-events: none; z-index: 0; }
+  .sg-iv-mark { position: absolute; z-index: 1; top: calc(7px + var(--sub) * 28px); inset-inline-start: calc(var(--f) * 100%); translate: -50% 0; width: 28px; height: 28px; display: grid; place-items: center; border-radius: 8px; text-decoration: none; }
+  :dir(rtl) .sg-iv-mark { translate: 50% 0; }
+  .sg-iv-mark::before { width: 16px; height: 16px; transition: transform .15s; }
+  .sg-iv-mark.is-open::before { opacity: .6; }
+  .sg-iv-mark:hover::before, .sg-iv-mark.is-on::before { transform: scale(1.35); }
+  .sg-iv-mark.is-on, .sg-iv-mark.is-rel { background: color-mix(in srgb, var(--gold) 28%, transparent); z-index: 2; }
+  .sg-iv-mark.is-rel { background: color-mix(in srgb, var(--gold) 16%, transparent); }
+  .sg-iv-mark:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; z-index: 2; }
+  .sg-iv-axis { display: grid; grid-template-columns: var(--lw) 1fr; border-top: 1px solid var(--muted); }
+  .sg-iv-axname { position: sticky; inset-inline-start: 0; z-index: 3; background: var(--card); border-inline-end: 1px solid var(--line); display: flex; flex-direction: column; justify-content: center; gap: 4px; padding: 0 10px; font-size: .78rem; width: var(--lw); box-sizing: border-box; }
+  .sg-iv-axticks { position: relative; margin-inline: var(--pad); }
+  .sg-iv-tick { position: absolute; top: 8px; inset-inline-start: calc(var(--f) * 100%); translate: -50% 0; display: flex; flex-direction: column; align-items: center; gap: 4px; white-space: nowrap; font-size: .78rem; line-height: 1; }
+  :dir(rtl) .sg-iv-tick { translate: 50% 0; }
+  .sg-iv-tick b { font-weight: 600; color: var(--fg); }
+  .sg-iv-tick em { font-style: normal; color: var(--muted); }
+  .sg-iv-arcs { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; z-index: 4; color: var(--gold-text); }
+  .sg-iv-arc { fill: none; stroke: currentColor; stroke-width: 1.8; }
+  .sg-iv-read { margin-top: .7rem; min-height: 2.6em; max-width: 80ch; }
+  .sg-iv-line { margin: 0; font-weight: 600; color: var(--fg); }
+  .sg-iv-line a { margin-inline-start: .6rem; font-weight: 500; }
+  @media (max-width: 720px) { .sg-iv-swipe { display: block; } .sg-iv-scroll { overflow-x: scroll; } }
+  @media (prefers-reduced-motion: reduce) { .sg-iv-mark::before { transition: none; } .sg-iv-mark:hover::before, .sg-iv-mark.is-on::before { transform: none; } }
+</style>
+<script src="../../scripts/sig-inventions.ts"></script>

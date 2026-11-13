@@ -1,0 +1,70 @@
+---
+// "The ascent" (Ghayb Browser home, in the Night Journey section): the stops of journey/isra-and-miraj-route, read from
+// its `waypoints` in the record's own order, drawn as the rungs of a ladder from the bottom up; the heavens concepts
+// the browser lists above them follow in the order the page has always printed them. Nothing is added to the record's
+// stops. Each rung links to its place or concept; a rung is a plain disc, no figure. It replaces the plain list this
+// section used to print, with every link kept (the list's stops were text; here the stops that name a place link to it).
+import { ui, type Lang } from "../../lib/i18n";
+import { byId, href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).ghayb;
+const V = G.viz;
+
+const JOURNEY = "journey/isra-and-miraj-route";
+/** The heavens concepts of the section, in the order the page prints them after the journey's own stops. */
+const HEAVENS = ["concept/al-samawat-al-sab", "concept/sidrat-al-muntaha", "concept/bayt-al-mamur"];
+const journey = byId.get(JOURNEY);
+if (!journey) throw new Error(`GhaybAscent: ${JOURNEY} is not in the graph`);
+const waypoints = (journey.data.waypoints ?? []) as { place?: string; title?: Record<string, string> }[];
+if (waypoints.length === 0) throw new Error(`GhaybAscent: ${JOURNEY} holds no waypoints`);
+const nameOf = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+type Rung = { kind: "stop" | "concept"; name: string; sub?: string; to?: string };
+const rungs: Rung[] = [
+  ...waypoints.map((w): Rung => {
+    const place = w.place ? byId.get(w.place) : undefined;
+    const title = w.title?.[lang] ?? w.title?.ar;
+    if (!place && !title) throw new Error(`GhaybAscent: a waypoint of ${JOURNEY} has neither a place nor a title`);
+    return { kind: "stop", name: place ? nameOf(place) : (title as string), sub: place ? title : undefined, to: place ? href(lang, place.id) : undefined };
+  }),
+  ...HEAVENS.map((id): Rung => {
+    const n = byId.get(id);
+    if (!n) throw new Error(`GhaybAscent: ${id} is not in the graph`);
+    return { kind: "concept", name: nameOf(n), to: href(lang, id) };
+  }),
+];
+---
+<section class="sg-ga" style="margin-top:1rem">
+  <p class="muted" style="max-width:var(--measure);margin:0 0 1rem">{V.ascent_note}</p>
+  <ol class="sg-ga-lad ui" role="list" aria-label={V.ascent_region}>
+    {rungs.map((r, k) => (
+      <li class={`sg-ga-rung ${r.kind}`}>
+        {/* only the journey record's own stops are numbered: the record gives their order; the heavens concepts carry no order of their own */}
+        <span class="sg-ga-no" aria-hidden="true">{r.kind === "stop" ? num(k + 1, lang) : "·"}</span>
+        <span class="sg-ga-txt">
+          {r.to ? <a href={r.to}>{r.name}</a> : <span class="sg-ga-name">{r.name}</span>}
+          {r.sub && <span class="sg-ga-sub">{r.sub}</span>}
+          <span class="sg-ga-kind">{r.kind === "stop" ? V.ascent_stop : V.ascent_concept}</span>
+        </span>
+      </li>
+    ))}
+  </ol>
+  <p class="muted ui sg-ga-cap">{V.ascent_caption} <a href={href(lang, JOURNEY)}>{V.ascent_open}</a></p>
+</section>
+<style is:inline>
+  .sg-ga-lad { list-style: none; margin: 0; padding: 0; max-inline-size: 36rem; display: flex; flex-direction: column-reverse; gap: 0; position: relative; }
+  .sg-ga-lad::before, .sg-ga-lad::after { content: ""; position: absolute; inset-block: 14px; inline-size: 4px; border-radius: 2px; background: var(--gold); }
+  .sg-ga-lad::before { inset-inline-start: 6px; }
+  .sg-ga-lad::after { inset-inline-start: 62px; }
+  .sg-ga-rung { position: relative; display: flex; align-items: center; gap: 16px; min-block-size: 64px; padding-inline-start: 0; }
+  .sg-ga-rung::before { content: ""; position: absolute; inset-inline-start: 8px; inline-size: 56px; block-size: 3px; background: color-mix(in srgb, var(--gold) 70%, var(--card)); inset-block-start: 50%; translate: 0 -50%; }
+  .sg-ga-no { position: relative; flex: none; margin-inline-start: 24px; display: grid; place-items: center; inline-size: 32px; block-size: 32px; border-radius: 50%; background: var(--card); border: 3px solid var(--gold); font: 700 .85rem/1 var(--sans); }
+  .sg-ga-rung.concept .sg-ga-no { background: var(--gold); color: #0a2533; }
+  .sg-ga-txt { display: flex; flex-direction: column; gap: 1px; padding-inline-start: 4px; min-inline-size: 0; }
+  .sg-ga-txt a, .sg-ga-name { font-weight: 700; font-size: 1.02rem; display: inline-block; min-block-size: 28px; line-height: 28px; }
+  .sg-ga-sub { font-size: .88rem; color: var(--fg); }
+  .sg-ga-kind { font-size: .78rem; color: var(--muted); }
+  .sg-ga-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+</style>

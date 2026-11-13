@@ -1,0 +1,140 @@
+---
+// "The road of the signs" (Signs of the Hour Browser home): a drawn road with one milestone per step, in the customary
+// order of SIGN_STEPS (the creed books' arrangement; no text fixes it, and the caption says so). A milestone shows the
+// step's name and two counts (the museum's own records; the passages that mention it) and links to the step's section of
+// the page. Along the road, before each milestone, every curated record of that step is a small waymark that links to
+// the record. Everything is read from site/src/lib/eschatology.ts at build time; the script (site/src/scripts/sig-signs.ts)
+// fills the read-out from the markup. Desktop winds across, a phone runs down; the same links serve both (CSS positions).
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { signSteps, SIGN_STEPS } from "../../lib/eschatology";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).signs;
+const V = G.viz;
+const rtl = lang !== "en";
+
+if (signSteps.map((s) => s.id).join() !== [...SIGN_STEPS].join()) throw new Error(`SignsRoad: the road is drawn for the steps ${SIGN_STEPS.join(", ")}, the data holds ${signSteps.map((s) => s.id).join(", ")}`);
+for (const s of signSteps) if (!G.steps[s.id]) throw new Error(`SignsRoad: step ${s.id} has no title under signs.steps`);
+
+type P = { x: number; y: number };
+const bez = (a: P, b: P, c: P, d: P, t: number): P => {
+  const u = 1 - t;
+  return { x: u * u * u * a.x + 3 * u * u * t * b.x + 3 * u * t * t * c.x + t * t * t * d.x, y: u * u * u * a.y + 3 * u * u * t * b.y + 3 * u * t * t * c.y + t * t * t * d.y };
+};
+// The road as a chain of cubic segments (start -> milestone 0 -> ... -> milestone 4); the waymarks of step k are spread
+// by arc length along the segment that ends at milestone k, away from the milestones themselves.
+function layout(W: number, H: number, start: P, stops: P[], vertical: boolean) {
+  const mx = (x: number) => (rtl && !vertical ? W - x : x);
+  const pts = [start, ...stops].map((p) => ({ x: mx(p.x), y: p.y }));
+  let d = `M${pts[0].x} ${pts[0].y}`;
+  const marks: P[][] = [];
+  for (let i = 1; i < pts.length; i++) {
+    const a = pts[i - 1], b = pts[i];
+    const c1 = vertical ? { x: a.x, y: (a.y + b.y) / 2 } : { x: (a.x + b.x) / 2, y: a.y };
+    const c2 = vertical ? { x: b.x, y: (a.y + b.y) / 2 } : { x: (a.x + b.x) / 2, y: b.y };
+    d += `C${c1.x} ${c1.y} ${c2.x} ${c2.y} ${b.x} ${b.y}`;
+    const n = signSteps[i - 1].curated.length;
+    const samples = Array.from({ length: 41 }, (_, k) => bez(a, c1, c2, b, k / 40));
+    const cum = [0]; for (let k = 1; k < samples.length; k++) cum.push(cum[k - 1] + Math.hypot(samples[k].x - samples[k - 1].x, samples[k].y - samples[k - 1].y));
+    const total = cum[cum.length - 1];
+    const lanes = (total * 0.74) / Math.max(n, 1) < 28;
+    const at = (f: number, off: number): P => {
+      const s = f * total; let k = 1; while (k < cum.length - 1 && cum[k] < s) k++;
+      const r = (s - cum[k - 1]) / ((cum[k] - cum[k - 1]) || 1);
+      const p = { x: samples[k - 1].x + (samples[k].x - samples[k - 1].x) * r, y: samples[k - 1].y + (samples[k].y - samples[k - 1].y) * r };
+      const tx = samples[k].x - samples[k - 1].x, ty = samples[k].y - samples[k - 1].y, tl = Math.hypot(tx, ty) || 1;
+      return { x: p.x - (ty / tl) * off, y: p.y + (tx / tl) * off };
+    };
+    marks.push(Array.from({ length: n }, (_, j) => at(0.13 + (0.74 * (j + 0.5)) / n, lanes ? (j % 2 ? 15 : -15) : 0)));
+  }
+  return { d, stops: pts.slice(1), marks };
+}
+const DW = 1000, DH = 400, MW = 360, MH = 800;
+const desk = layout(DW, DH, { x: 16, y: 200 }, [{ x: 215, y: 285 }, { x: 380, y: 125 }, { x: 550, y: 285 }, { x: 720, y: 125 }, { x: 890, y: 285 }], false);
+const phone = layout(MW, MH, { x: 180, y: 10 }, [{ x: 70, y: 140 }, { x: 290, y: 290 }, { x: 70, y: 440 }, { x: 290, y: 590 }, { x: 70, y: 740 }], true);
+const pc = (v: number, of: number) => `${Math.round((v / of) * 10000) / 100}%`;
+const countsOf = (s: (typeof signSteps)[number]) => fmt(V.counts, { r: num(s.curated.length, lang), p: num(s.passages.length, lang) });
+const nameOf = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+---
+<section aria-labelledby="sg-sr-title" class="sg-sr" data-sg-sr data-go={V.go} data-records={V.records_title} data-none={V.none} style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="sg-sr-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.note}</p>
+  </div>
+  <div class="sg-sr-road" role="group" aria-label={V.region}>
+    <svg class="sg-sr-svg d" viewBox={`0 0 ${DW} ${DH}`} aria-hidden="true" focusable="false"><path class="b" d={desk.d} /><path class="c" d={desk.d} /></svg>
+    <svg class="sg-sr-svg m" viewBox={`0 0 ${MW} ${MH}`} aria-hidden="true" focusable="false"><path class="b" d={phone.d} /><path class="c" d={phone.d} /></svg>
+    <ol class="sg-sr-list" role="list">
+      {signSteps.map((s, k) => {
+        const ds = desk.stops[k], ps = phone.stops[k];
+        return (
+          <li style="display:contents">
+            <a class={`sg-sr-st ${ds.y > DH / 2 ? "dn" : "up"} ${ps.x < MW / 2 ? "ml" : "mr"}`} href={`#t-${s.id}`} data-step={s.id} data-desc={G.steps[s.id].desc} data-counts={countsOf(s)}
+              style={`--dx:${pc(ds.x, DW)};--dy:${pc(ds.y, DH)};--px:${pc(ps.x, MW)};--py:${pc(ps.y, MH)}`}>
+              <span class="sg-sr-disc" aria-hidden="true">{num(k + 1, lang)}</span>
+              <span class="sg-sr-lab"><b>{G.steps[s.id].title}</b>{countsOf(s).split(" · ").map((c) => <span>{c}</span>)}</span>
+            </a>
+            {s.curated.map((i, j) => {
+              const a = desk.marks[k][j], b = phone.marks[k][j];
+              return <a class="sg-sr-way" href={href(lang, i.node.id)} data-for={s.id} aria-label={nameOf(i.node)} style={`--dx:${pc(a.x, DW)};--dy:${pc(a.y, DH)};--px:${pc(b.x, MW)};--py:${pc(b.y, MH)}`}><i></i></a>;
+            })}
+          </li>
+        );
+      })}
+    </ol>
+  </div>
+  <div class="sg-sr-panel panel ui" data-sg-srpanel aria-live="polite" hidden>
+    <p class="muted sg-sr-hint" data-sg-srhint>{V.hint}</p>
+    <div data-sg-srbody></div>
+    <button type="button" class="sg-sr-close ui" data-sg-srclose hidden>{V.close}</button>
+  </div>
+  <p class="muted ui sg-sr-cap">{V.caption}</p>
+</section>
+<style is:inline>
+  .sg-sr-road { position: relative; inline-size: 100%; max-inline-size: 1040px; margin-inline: auto; aspect-ratio: 1000 / 400; }
+  .sg-sr-svg { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; overflow: visible; }
+  .sg-sr-svg.m { display: none; }
+  .sg-sr-svg path { fill: none; stroke-linecap: round; }
+  .sg-sr-svg .b { stroke: color-mix(in srgb, var(--fg) 11%, var(--card)); stroke-width: 34; }
+  .sg-sr-svg .c { stroke: var(--gold); stroke-width: 2.5; stroke-dasharray: 2 9; }
+  .sg-sr-list { list-style: none; margin: 0; padding: 0; }
+  .sg-sr-st, .sg-sr-way { position: absolute; left: var(--dx); top: var(--dy); text-decoration: none; color: var(--fg); }
+  .sg-sr-st { inline-size: 46px; block-size: 46px; margin: -23px 0 0 -23px; border-radius: 50%; display: block; }
+  .sg-sr-disc { display: grid; place-items: center; inline-size: 46px; block-size: 46px; border-radius: 50%; background: var(--card); border: 3px solid var(--gold); color: var(--fg); font: 700 1.05rem/1 var(--sans); box-shadow: 0 0 0 5px color-mix(in srgb, var(--fg) 11%, var(--card)); transition: transform .15s ease, background-color .15s ease; }
+  .sg-sr-lab { position: absolute; inline-size: 168px; display: grid; gap: 2px; text-align: center; left: 50%; margin-inline-start: -84px; font-size: .9rem; line-height: 1.3; pointer-events: none; }
+  .sg-sr-lab b { font-weight: 700; }
+  .sg-sr-lab span { font-size: .8rem; color: var(--muted); }
+  .sg-sr-st.dn .sg-sr-lab { top: 62px; }
+  .sg-sr-st.up .sg-sr-lab { bottom: 62px; }
+  .sg-sr-way { inline-size: 28px; block-size: 28px; margin: -14px 0 0 -14px; border-radius: 50%; display: grid; place-items: center; }
+  .sg-sr-way i { display: block; inline-size: 14px; block-size: 14px; border-radius: 50%; background: var(--gold); border: 2px solid var(--card); box-shadow: 0 0 0 1.5px var(--gold-text); transition: transform .15s ease; }
+  .sg-sr-way:hover i, .sg-sr-way:focus-visible i { transform: scale(1.5); }
+  .sg-sr-st:hover .sg-sr-disc, .sg-sr-st:focus-visible .sg-sr-disc, .sg-sr-st[aria-current="true"] .sg-sr-disc { transform: scale(1.12); background: var(--gold); color: #0a2533; }
+  .sg-sr-st:focus-visible, .sg-sr-way:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; box-shadow: none; }
+  .sg-sr-road.on .sg-sr-way:not(.hl) i { opacity: .35; }
+  .sg-sr-way.hl i { transform: scale(1.35); background: var(--gold-text); }
+  .sg-sr-panel { margin-block: 1rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 5rem; }
+  .sg-sr-panel h3 { margin: 0 0 .3rem; font-size: 1.05rem; }
+  .sg-sr-panel p { margin: 0 0 .4rem; }
+  .sg-sr-panel ul { list-style: none; padding: 0; margin: .2rem 0 .4rem; display: grid; gap: 0 24px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
+  .sg-sr-panel li a, .sg-sr-go { display: inline-block; min-block-size: 28px; line-height: 28px; }
+  .sg-sr-panel a:focus-visible, .sg-sr-close:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-sr-close { min-block-size: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; margin-inline-start: .8rem; }
+  .sg-sr-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+  @media (max-width: 720px) {
+    .sg-sr-road { aspect-ratio: 360 / 800; max-inline-size: 420px; }
+    .sg-sr-svg.d { display: none; }
+    .sg-sr-svg.m { display: block; }
+    .sg-sr-svg .b { stroke-width: 26; }
+    .sg-sr-st, .sg-sr-way { left: var(--px); top: var(--py); }
+    .sg-sr-lab { inline-size: min(176px, 52vw); top: 50% !important; bottom: auto !important; transform: translateY(-50%); }
+    .sg-sr-st.ml .sg-sr-lab { left: 100%; margin-inline-start: 14px; text-align: left; }
+    .sg-sr-st.mr .sg-sr-lab { left: auto; right: 100%; margin-inline-start: 0; margin-inline-end: 14px; text-align: right; }
+    .sg-sr-lab span { font-size: .84rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-sr-disc, .sg-sr-way i { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-signs.ts"></script>

@@ -1,0 +1,191 @@
+---
+// "A vocabulary of the forbidden arts" (Magic Browser home): a co-occurrence wheel. The topics that hold at least one
+// record are arcs of a circle, each as long as its number of records (a record with two topics counts in both); chords
+// inside the circle join two topics for the records that carry both, as wide as the number they share; a thin outer ring
+// splits each arc by the section the records sit in. Topics with no record are listed beneath, not drawn. Everything is
+// computed here at build time from lib/magic.ts. The legend rows are the keyboard and touch route to every arc; the
+// script (site/src/scripts/sig-magic.ts) fills the read-out panel from the outline below (the text alternative).
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { magicItems, MAGIC_TOPICS, MAGIC_SECTIONS } from "../../lib/magic";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).magic;
+const V = G.viz;
+
+// ---- the build fails when the data holds a topic or section the wheel cannot name
+const topicName = (t: string) => { const s = G.topics?.[t]; if (!s) throw new Error(`MagicWheel: topic ${t} has no name under magic.topics`); return (s as string).replace(/\s*\u2066?\(.*$/, "").trim(); };
+const secName = (s: string) => { const t = G.sections?.[s]?.title; if (!t) throw new Error(`MagicWheel: section ${s} has no title`); return t as string; };
+for (const i of magicItems) {
+  for (const t of i.topics) if (!(MAGIC_TOPICS as readonly string[]).includes(t)) throw new Error(`MagicWheel: ${i.node.id} carries unknown topic ${t}`);
+  if (!(MAGIC_SECTIONS as readonly string[]).includes(i.section)) throw new Error(`MagicWheel: ${i.node.id} sits in unknown section ${i.section}`);
+}
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+
+const topics = MAGIC_TOPICS
+  .map((t, o) => ({ t, o, items: magicItems.filter((i) => i.topics.includes(t)) }))
+  .filter((x) => x.items.length > 0)
+  .sort((a, b) => b.items.length - a.items.length || a.o - b.o);
+const empty = MAGIC_TOPICS.filter((t) => !topics.some((x) => x.t === t));
+const sum = topics.reduce((t, x) => t + x.items.length, 0);
+const untopiced = magicItems.filter((i) => i.topics.length === 0).length;
+
+// ---- chords: every pair of topics on one record
+const pairs = new Map<string, { a: string; b: string; n: number }>();
+for (const i of magicItems) {
+  const ts = [...i.topics].sort((p, q) => topics.findIndex((x) => x.t === p) - topics.findIndex((x) => x.t === q));
+  for (let p = 0; p < ts.length; p++) for (let q = p + 1; q < ts.length; q++) {
+    const k = `${ts[p]}|${ts[q]}`;
+    pairs.set(k, { a: ts[p], b: ts[q], n: (pairs.get(k)?.n ?? 0) + 1 });
+  }
+}
+const chords = [...pairs.values()].sort((x, y) => y.n - x.n || `${x.a}${x.b}`.localeCompare(`${y.a}${y.b}`));
+
+// ---- geometry (degrees clockwise from twelve o'clock)
+const GAP = 2.5, CX = 280, CY = 280, R_CH = 168, R_A0 = 176, R_A1 = 202, R_S0 = 208, R_S1 = 217, R_LAB = 236;
+const degPer = (360 - GAP * topics.length) / Math.max(1, sum);
+let cur = GAP / 2;
+const arcs = topics.map((x) => { const a0 = cur, span = x.items.length * degPer; cur += span + GAP; return { ...x, a0, a1: a0 + span, span }; });
+const rad = (d: number) => (d * Math.PI) / 180;
+const P = (r: number, d: number) => `${(CX + r * Math.sin(rad(d))).toFixed(1)} ${(CY - r * Math.cos(rad(d))).toFixed(1)}`;
+const sector = (r0: number, r1: number, a0: number, a1: number) => {
+  const big = a1 - a0 > 180 ? 1 : 0;
+  return `M${P(r1, a0)}A${r1} ${r1} 0 ${big} 1 ${P(r1, a1)}L${P(r0, a1)}A${r0} ${r0} 0 ${big} 0 ${P(r0, a0)}Z`;
+};
+// slots of each arc handed to the chords that touch it, scaled to fit when a record has three topics
+const used = new Map<string, number>();
+const slotOf = (t: string, n: number) => {
+  const arc = arcs.find((x) => x.t === t)!;
+  const need = chords.filter((c) => c.a === t || c.b === t).reduce((s, c) => s + c.n, 0);
+  const k = Math.min(1, arc.items.length / need);
+  const from = arc.a0 + (used.get(t) ?? 0);
+  const w = n * degPer * k;
+  used.set(t, (used.get(t) ?? 0) + w);
+  return [from, from + w] as const;
+};
+const ribbons = chords.map((c) => {
+  const [a0, a1] = slotOf(c.a, c.n), [b0, b1] = slotOf(c.b, c.n);
+  const C = `${CX} ${CY}`;
+  const d = `M${P(R_CH, a0)}A${R_CH} ${R_CH} 0 0 1 ${P(R_CH, a1)}Q${C} ${P(R_CH, b0)}A${R_CH} ${R_CH} 0 0 1 ${P(R_CH, b1)}Q${C} ${P(R_CH, a0)}Z`;
+  return { ...c, d };
+});
+const splitOf = (items: typeof magicItems) => MAGIC_SECTIONS.map((s) => ({ s, n: items.filter((i) => i.section === s).length })).filter((x) => x.n > 0);
+const ringSegs = arcs.flatMap((x) => {
+  let a = x.a0;
+  return splitOf(x.items).map((p) => { const a0 = a; a += p.n * degPer; return { t: x.t, s: p.s, d: sector(R_S0, R_S1, a0, a), }; });
+});
+const labelled = arcs.filter((x) => x.span >= 16).map((x) => {
+  const m = (x.a0 + x.a1) / 2, sx = Math.sin(rad(m));
+  return { t: x.t, left: ((CX + R_LAB * sx) / 560) * 100, top: ((CY - R_LAB * Math.cos(rad(m))) / 560) * 100, side: sx > 0.25 ? "r" : sx < -0.25 ? "l" : "c" };
+});
+const pick = (items: typeof magicItems) => [...items].sort((a, b) => Number(b.node.class !== "passage") - Number(a.node.class !== "passage") || a.node.id.localeCompare(b.node.id)).slice(0, 3);
+const f = (n: number) => String(Math.round(n * 10) / 10);
+const sep = lang === "en" ? ", " : "، ";
+---
+<section aria-labelledby="magic-wheel-title" class="sg-m" data-sg-m data-t-apply={V.apply} style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="magic-wheel-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .5rem">{fmt(V.caption, { n: num(magicItems.length - untopiced, lang), u: num(untopiced, lang) })}</p>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{chords.length > 0 ? fmt(V.chords_note, { c: num(chords.length, lang) }) : V.no_chords}</p>
+  </div>
+  <div class="sg-m-grid">
+    <div class="sg-m-wheelbox">
+      <div class="sg-m-wheel">
+        <svg viewBox="0 0 560 560" aria-hidden="true" focusable="false" class="sg-m-svg">
+          <circle cx={CX} cy={CY} r={R_CH + 3} class="sg-m-disc"></circle>
+          {ribbons.map((r) => <path class="sg-m-ch" d={r.d} data-ch={`${r.a}|${r.b}`}></path>)}
+          {arcs.map((x, i) => (
+            <a href="#magic-filter" tabindex="-1" data-t={x.t}><path class={`sg-m-arc a${i % 2}`} d={sector(R_A0, R_A1, x.a0, x.a1)}></path></a>
+          ))}
+          {ringSegs.map((s) => <path class={`sg-m-sp s-${s.s}`} d={s.d}></path>)}
+        </svg>
+        {labelled.map((l) => <span class={`sg-m-lab ${l.side}`} aria-hidden="true" style={`left:${f(l.left)}%;top:${f(l.top)}%`}>{topicName(l.t)}</span>)}
+      </div>
+    </div>
+    <div class="sg-m-side">
+      <ul class="sg-m-legend ui" role="list" aria-label={V.legend_topics}>
+        {arcs.map((x, i) => (
+          <li><a href="#magic-filter" data-t={x.t}><i class={`sg-m-chip a${i % 2}`} aria-hidden="true"></i><span class="sg-m-nm">{topicName(x.t)}</span><b>{num(x.items.length, lang)}</b></a></li>
+        ))}
+      </ul>
+      <ul class="sg-m-seclegend ui" role="list" aria-label={V.legend_sections}>
+        {MAGIC_SECTIONS.filter((s) => magicItems.some((i) => i.section === s && i.topics.length > 0)).map((s) => <li><i class={`sg-m-sw s-${s}`} aria-hidden="true"></i>{secName(s)}</li>)}
+      </ul>
+      {empty.length > 0 && <p class="muted ui sg-m-empty">{fmt(V.empty, { list: empty.map(topicName).join(sep) })}</p>}
+      <div class="sg-m-panel panel ui" data-sg-mpanel aria-live="polite" hidden>
+        <p class="muted sg-m-hint" data-sg-mhint>{V.hint}</p>
+        <div data-sg-mbody></div>
+      </div>
+    </div>
+  </div>
+  <details class="sg-m-outline">
+    <summary class="ui">{V.outline}</summary>
+    {chords.length > 0 && (
+      <ul role="list" class="sg-m-chlist">
+        {chords.map((c) => <li data-sg-chord={`${c.a}|${c.b}`}>{fmt(V.pair, { a: topicName(c.a), b: topicName(c.b), n: num(c.n, lang) })}</li>)}
+      </ul>
+    )}
+    <ul role="list" class="sg-m-cards">
+      {arcs.map((x) => (
+        <li data-sg-card={x.t}>
+          <h3>{topicName(x.t)} <span class="muted">· {fmt(V.count, { n: num(x.items.length, lang) })}</span></h3>
+          <p class="muted">{splitOf(x.items).map((p) => `${secName(p.s)} ${num(p.n, lang)}`).join(sep)}</p>
+          <ul role="list" class="sg-m-items">
+            {pick(x.items).map((i) => <li><a href={href(lang, i.node.id)}>{short(i.node)}</a></li>)}
+          </ul>
+        </li>
+      ))}
+    </ul>
+  </details>
+</section>
+<style is:inline>
+  .sg-m { --r1: color-mix(in srgb, var(--fg) 90%, var(--card)); --r2: color-mix(in srgb, var(--fg) 68%, var(--card)); --r3: color-mix(in srgb, var(--fg) 48%, var(--card)); --r4: color-mix(in srgb, var(--fg) 32%, var(--card)); --r5: color-mix(in srgb, var(--fg) 18%, var(--card)); }
+  .sg-m .s-quran { fill: var(--r1); background: var(--r1); } .sg-m .s-sunnah { fill: var(--r2); background: var(--r2); } .sg-m .s-seerah { fill: var(--r3); background: var(--r3); }
+  .sg-m .s-books { fill: var(--r4); background: var(--r4); } .sg-m .s-concepts { fill: var(--r5); background: var(--r5); }
+  .sg-m-grid { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: 20px 24px; align-items: center; border: 1px solid var(--line); border-radius: 16px; background: var(--card); padding: 18px; }
+  .sg-m-wheelbox { padding-inline: 8.5rem; }
+  .sg-m-wheel { position: relative; inline-size: 100%; aspect-ratio: 1; }
+  .sg-m-svg { display: block; inline-size: 100%; block-size: 100%; overflow: visible; }
+  .sg-m-disc { fill: color-mix(in srgb, var(--gold) 6%, var(--card)); stroke: var(--line); }
+  .sg-m-arc { transition: opacity .15s ease; cursor: pointer; }
+  .sg-m-arc.a0, .sg-m-chip.a0 { fill: var(--gold); background: var(--gold); }
+  .sg-m-arc.a1, .sg-m-chip.a1 { fill: var(--link); background: var(--link); }
+  .sg-m-ch { fill: color-mix(in srgb, var(--gold-text) 55%, transparent); stroke: var(--gold-text); stroke-width: 1; cursor: pointer; transition: opacity .15s ease; }
+  .sg-m-ch:hover, .sg-m-ch.on { fill: color-mix(in srgb, var(--gold-text) 85%, transparent); }
+  .sg-m-svg a:focus-visible path { stroke: var(--focus); stroke-width: 3; }
+  .sg-m.dim .sg-m-arc:not(.on), .sg-m.dim .sg-m-ch:not(.on) { opacity: .28; }
+  .sg-m-lab { position: absolute; font-size: .85rem; line-height: 1.2; inline-size: max-content; max-inline-size: 8rem; color: var(--fg); pointer-events: none; font-weight: 600; }
+  .sg-m-lab.r { transform: translate(0, -50%); } .sg-m-lab.l { transform: translate(-100%, -50%); text-align: end; } .sg-m-lab.c { transform: translate(-50%, -50%); }
+  .sg-m-legend { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0 14px; }
+  .sg-m-legend a { display: flex; align-items: center; gap: 8px; min-block-size: 36px; padding-inline: 8px; border-radius: 8px; color: var(--fg); text-decoration: none; }
+  .sg-m-legend a:hover, .sg-m-legend a.on { background: color-mix(in srgb, var(--gold) 18%, var(--card)); }
+  .sg-m-legend a:focus-visible, .sg-m-apply:focus-visible, .sg-m-panel a:focus-visible, .sg-m-outline a:focus-visible, .sg-m-outline summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-m-chip { flex: none; inline-size: 12px; block-size: 12px; border-radius: 50%; }
+  .sg-m-nm { flex: 1; min-inline-size: 0; font-size: .92rem; }
+  .sg-m-legend b { font-size: .85rem; color: var(--gold-text); }
+  .sg-m-seclegend { list-style: none; padding: 0; margin: .7rem 0 0; display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: .8rem; color: var(--muted); }
+  .sg-m-seclegend li { display: inline-flex; align-items: center; gap: 6px; }
+  .sg-m-sw { display: inline-block; inline-size: 14px; block-size: 7px; border-radius: 2px; }
+  .sg-m-empty { margin: .6rem 0 0; font-size: .85rem; }
+  .sg-m-panel { margin-block: .8rem 0; border: 1px solid var(--gold); padding: 10px 14px; min-block-size: 5.4rem; }
+  .sg-m-panel h3 { margin: 0 0 .15rem; font-size: 1.02rem; }
+  .sg-m-panel p { margin: 0; font-size: .88rem; }
+  .sg-m-items { list-style: none; padding: 0; margin: .2rem 0 0; }
+  .sg-m-panel .sg-m-items a, .sg-m-outline .sg-m-items a { display: inline-block; min-block-size: 28px; line-height: 28px; }
+  .sg-m-apply { min-block-size: 40px; padding: 0 .9rem; margin-block-start: .5rem; border-radius: 999px; border: 1px solid var(--gold-text); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; }
+  .sg-m-panel .sg-m-apply { display: inline-flex; align-items: center; }
+  .sg-m-outline { margin-block-start: 1rem; }
+  .sg-m-outline summary { cursor: pointer; min-block-size: 44px; display: inline-flex; align-items: center; }
+  .sg-m-chlist { list-style: none; padding: 0; margin: .4rem 0 .8rem; font-size: .92rem; }
+  .sg-m-cards { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px 18px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .sg-m-cards > li { border-inline-start: 3px solid var(--gold); padding: 2px 12px; }
+  .sg-m-cards h3 { margin: 0 0 .1rem; font-size: 1rem; }
+  .sg-m-cards p { margin: 0; font-size: .85rem; }
+  @media (max-width: 1100px) { .sg-m-wheelbox { padding-inline: 0; } .sg-m-lab { display: none; } .sg-m-grid { grid-template-columns: minmax(0, 1fr); } .sg-m-wheel { max-inline-size: 460px; margin-inline: auto; } }
+  @media (min-width: 1101px) and (max-width: 1280px) { .sg-m-wheelbox { padding-inline: 8rem; } }
+  @media (max-width: 640px) { .sg-m-grid { padding: 10px; } .sg-m-legend { grid-template-columns: 1fr 1fr; gap: 0 6px; } .sg-m-legend a { padding-inline: 4px; gap: 6px; } .sg-m-nm { font-size: .82rem; } }
+  @media (prefers-reduced-motion: reduce) { .sg-m-arc, .sg-m-ch { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-magic.ts"></script>

@@ -1,0 +1,46 @@
+---
+// The ten major signs of the Ghayb Browser (GHAYB_SIGNS_ORDER, the museum's list in its own order). The constant names one
+// concept three times in a row; this draws each concept once, with the places it holds on the list marked (positions
+// and the repeat count are read from the constant's own repetition, which is left as it is). Every concept is a link.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { GHAYB_SIGNS_ORDER } from "../../lib/ghayb";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const V = (ui(lang) as any).ghayb.viz;
+
+type Run = { slug: string; from: number; to: number };
+const runs: Run[] = [];
+GHAYB_SIGNS_ORDER.forEach((slug, i) => {
+  const last = runs[runs.length - 1];
+  if (last && last.slug === slug) last.to = i + 1; else runs.push({ slug, from: i + 1, to: i + 1 });
+});
+const nameOf = (slug: string) => {
+  const n = byId.get(`concept/${slug}`);
+  if (!n) throw new Error(`GhaybSigns: concept/${slug} is not in the graph`);
+  return { n, name: labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim() };
+};
+---
+<ol class="sg-gs ui" role="list" aria-label={V.ten_region}>
+  {runs.map((r) => {
+    const { n, name } = nameOf(r.slug);
+    const times = r.to - r.from + 1;
+    return (
+      <li class="sg-gs-i">
+        <span class="sg-gs-pos">{times > 1 ? fmt(V.ten_range, { a: num(r.from, lang), b: num(r.to, lang) }) : fmt(V.ten_pos, { a: num(r.from, lang) })}{times > 1 && <b class="sg-gs-rep"> {fmt(V.ten_repeat, { n: num(times, lang) })}</b>}</span>
+        <a href={href(lang, n.id)}>{name}</a>
+        {times > 1 && <span class="sg-gs-note">{fmt(V.ten_note, { n: num(times, lang) })}</span>}
+      </li>
+    );
+  })}
+</ol>
+<style is:inline>
+  .sg-gs { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 156px), 1fr)); gap: 14px 12px; max-inline-size: 60rem; }
+  .sg-gs-i { position: relative; display: flex; flex-direction: column; gap: 2px; padding: 12px 14px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); border-block-start: 4px solid var(--gold); }
+  .sg-gs-pos { font-size: .8rem; color: var(--gold-text); font-weight: 600; }
+  .sg-gs-rep { color: var(--fg); }
+  .sg-gs-i a { font-weight: 700; display: inline-block; min-block-size: 28px; line-height: 28px; }
+  .sg-gs-note { font-size: .78rem; color: var(--muted); line-height: 1.35; }
+</style>

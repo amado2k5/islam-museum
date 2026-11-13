@@ -1,0 +1,197 @@
+---
+// "The supplications, by where they are found" (Du'a Browser home): a string of lamps. The Qur'an's 114 surahs hang in
+// Mushaf order along draped strands; a lamp is lit when the museum records at least one supplication formula in that
+// surah, and its glow grows with the count (square root, clamped). Beneath, one lamp for each hadith collection that
+// holds such passages. A toggle switches the count between formulas and all mentions. A lit lamp links to the first
+// ayah (or the collection's page); the readout lists references only. Everything is computed here from site/src/lib/dua.ts
+// and the surah records; the script (site/src/scripts/sig-dua.ts) adds the toggle and the readout.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf, byId } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { duaItems } from "../../lib/dua";
+import { surahs } from "../../lib/tafsir";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const V = (ui(lang) as any).dua.viz;
+const rtl = lang !== "en";
+
+// ---- the build fails if the graph no longer matches what the strands assume
+if (surahs.length !== 114 || surahs.some((s, i) => s.data.sura !== i + 1)) throw new Error("LampStrings: the surah nodes are not suras 1..114");
+const passages = duaItems.filter((i) => i.node.class === "passage");
+const qur = passages.filter((i) => i.section === "quran");
+for (const i of qur) { const s = i.node.data.sura as number, a = i.node.data.aya as number; if (!(s >= 1 && s <= 114) || !(a >= 1)) throw new Error(`LampStrings: ${i.node.id} has no sura and aya`); }
+const hadith = passages.filter((i) => i.section === "sunnah");
+for (const i of hadith) if (!byId.get(String(i.node.data.work))) throw new Error(`LampStrings: ${i.node.id} names a work that is not in the graph`);
+const isF = (i: (typeof passages)[number]) => i.kind === "formula";
+
+// ---- lamps
+// A Qur'an passage's page address is a template over its sura and aya; the build checks it reproduces every real address
+const QURL = href(lang, "passage/quran-9999-9999").replace("9999-9999", "{s}-{a}");
+for (const i of qur) if (QURL.replace("{s}", String(i.node.data.sura)).replace("{a}", String(i.node.data.aya)) !== href(lang, i.node.id)) throw new Error(`LampStrings: ${i.node.id} does not follow the Qur'an passage address template`);
+const short = (n: any) => labelOf(n, lang).replace(/^\s*(Sura|Surah)\s*\d+\s*:\s*/i, "").replace(/\s*⁦?\(.*$/, "").trim();
+const byAya = (a: any, b: any) => (a.node.data.aya as number) - (b.node.data.aya as number) || a.node.id.localeCompare(b.node.id);
+interface Lamp { key: string; name: string; label: string; f: number; a: number; hf: string; refs: (string | number)[][] }
+const surahLamps: Lamp[] = surahs.map((s) => {
+  const n = s.data.sura as number;
+  const its = qur.filter((i) => i.node.data.sura === n).sort(byAya);
+  const first = (l: typeof its) => (l[0] ? href(lang, l[0].node.id) : "");
+  return {
+    key: `s${n}`, name: short(s), label: `${num(n, lang)} ${short(s)}`,
+    f: its.filter(isF).length, a: its.length, hf: first(its.filter(isF)) || first(its),
+    refs: its.map((i) => [`${i.node.data.sura}:${i.node.data.aya}`, isF(i) ? 1 : 0]),
+  };
+});
+const works = [...new Set(hadith.map((i) => String(i.node.data.work)))];
+const byRef = (a: any, b: any) => (parseInt(String(a.node.data.ref)) || 0) - (parseInt(String(b.node.data.ref)) || 0) || a.node.id.localeCompare(b.node.id);
+const workLamps: Lamp[] = works.map((w) => {
+  const node = byId.get(w)!;
+  const its = hadith.filter((i) => String(i.node.data.work) === w).sort(byRef);
+  return {
+    key: `w${w.replace(/^work\//, "")}`, name: short(node), label: short(node),
+    f: its.filter(isF).length, a: its.length, hf: href(lang, w),
+    refs: its.map((i) => [String(i.node.data.ref ?? i.node.id.split("-").pop()), isF(i) ? 1 : 0, href(lang, i.node.id)]),
+  };
+}).sort((x, y) => y.f - x.f || y.a - x.a || x.name.localeCompare(y.name));
+if (new Set(workLamps.map((l) => l.key)).size !== workLamps.length) throw new Error("LampStrings: two collections share a key");
+const litSurahs = surahLamps.filter((l) => l.f > 0).length;
+if (litSurahs === 0) throw new Error("LampStrings: no surah holds a supplication formula");
+
+// ---- geometry: each strand is a quadratic curve whose lamps sit at equal steps; glow by clamped square root
+const G0 = 8, GK = 4.2, GMAX = 30;
+const glow = (c: number) => Math.min(GMAX, G0 + GK * Math.sqrt(c));
+const SW = 480, SH = 100, Y0 = 33, SAG = 24;
+const f1 = (x: number) => Math.round(x * 10) / 10;
+const strandsOf = <T,>(items: T[], per: number) => { const out: T[][] = []; for (let i = 0; i < items.length; i += per) out.push(items.slice(i, i + per)); return out; };
+const place = (k: number, n: number) => {
+  const t = (k + 0.5) / n;
+  const x = rtl ? SW - (SW * t) : SW * t;
+  return { x, y: Y0 + 4 * SAG * t * (1 - t) };
+};
+const curve = `M0 ${Y0}Q${SW / 2} ${Y0 + 2 * SAG} ${SW} ${Y0}`;
+const SURAH_PER = Math.ceil(114 / 6);
+const surahStrands = strandsOf(surahLamps, SURAH_PER);
+const workStrands = strandsOf(workLamps, 10);
+const data: Record<string, any> = {};
+for (const l of [...surahLamps, ...workLamps]) if (l.a > 0) data[l.key] = { n: l.name, f: num(l.f, lang), a: num(l.a, lang), r: l.refs };
+---
+<section aria-labelledby="sg-du-title" class="sg-du" data-sg-du data-qurl={QURL} data-g0={G0} data-gk={GK} data-gmax={GMAX} style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="sg-du-title">{V.title}</h2>
+    <p class="sg-du-head ui"><strong class="sg-du-big">{num(litSurahs, lang)}</strong> <span>{fmt(V.headline, { total: num(114, lang) })}</span></p>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.caption}</p>
+  </div>
+  <p class="sg-du-tools ui" data-sg-tools hidden>
+    <span class="muted">{V.mode_label}</span>
+    <button type="button" class="sg-du-mode" data-mode="f" aria-pressed="true">{V.mode_f}</button>
+    <button type="button" class="sg-du-mode" data-mode="a" aria-pressed="false">{V.mode_a}</button>
+  </p>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+    <radialGradient id="sg-du-glow"><stop offset="0" stop-color="#e6d5b8" stop-opacity=".95" /><stop offset=".3" stop-color="#c5a059" stop-opacity=".75" /><stop offset="1" stop-color="#c5a059" stop-opacity="0" /></radialGradient>
+  </defs></svg>
+  <div class="sg-du-stage">
+    <h3 class="sg-du-h3 ui">{V.surahs_title}</h3>
+    <div class="sg-du-strands" role="group" aria-label={V.surahs_title}>
+      {surahStrands.map((st, si) => (
+        <svg viewBox={`0 0 ${SW} ${SH}`} class="sg-du-svg" focusable="false">
+          <path d={curve} class="sg-du-string" />
+          {st.map((l, k) => {
+            const p = place(k, st.length), g = glow(l.f);
+            const o = si * SURAH_PER + k + 1;
+            const ends = k === 0 || k === st.length - 1;
+            return (
+              <>
+                {l.a > 0
+                  ? <a class={`sg-du-l${l.f > 0 ? "" : " is-off"}`} href={l.hf} data-k={l.key} data-f={l.f} data-a={l.a} aria-label={l.label} tabindex={l.f > 0 ? undefined : -1} aria-hidden={l.f > 0 ? undefined : "true"}><circle class="gl" cx={f1(p.x)} cy={f1(p.y)} r={l.f > 0 ? f1(g) : 0} fill="url(#sg-du-glow)" /><circle class="co" cx={f1(p.x)} cy={f1(p.y)} /></a>
+                  : <circle class="co off" cx={f1(p.x)} cy={f1(p.y)} />}
+                {ends && <text x={f1(p.x)} y={SH - 4} text-anchor="middle" class="sg-du-n" aria-hidden="true">{num(o, lang)}</text>}
+              </>
+            );
+          })}
+        </svg>
+      ))}
+    </div>
+    <h3 class="sg-du-h3 sg-du-h3b ui">{V.works_title}</h3>
+    <div class="sg-du-strands sg-du-works" role="group" aria-label={V.works_title}>
+      {workStrands.map((st, si) => (
+        <svg viewBox={`0 0 ${SW} ${SH}`} class="sg-du-svg" focusable="false">
+          <path d={curve} class="sg-du-string" />
+          {st.map((l, k) => {
+            const p = place(k, 10), g = glow(l.f);
+            const idx = si * 10 + k + 1;
+            return (
+              <>
+                <a class={`sg-du-l${l.f > 0 ? "" : " is-off"}`} href={l.hf} data-k={l.key} data-f={l.f} data-a={l.a} aria-label={l.label} tabindex={l.f > 0 ? undefined : -1} aria-hidden={l.f > 0 ? undefined : "true"}><circle class="gl" cx={f1(p.x)} cy={f1(p.y)} r={l.f > 0 ? f1(g) : 0} fill="url(#sg-du-glow)" /><circle class="co" cx={f1(p.x)} cy={f1(p.y)} /></a>
+                <text x={f1(p.x)} y={SH - 4} text-anchor="middle" class="sg-du-n" aria-hidden="true">{num(idx, lang)}</text>
+              </>
+            );
+          })}
+        </svg>
+      ))}
+    </div>
+    <ol class="sg-du-key ui" aria-label={V.works_key}>
+      {workLamps.map((l, i) => <li data-k={l.key}><b>{num(i + 1, lang)}</b> {l.name}</li>)}
+    </ol>
+    <ul class="sg-du-legend ui" aria-label={V.legend_title}>
+      <li><i class="sg-du-k on" aria-hidden="true"></i>{V.legend_lit}</li>
+      <li><i class="sg-du-k" aria-hidden="true"></i>{V.legend_unlit}</li>
+    </ul>
+  </div>
+  <div class="sg-du-readout ui panel" data-sg-readout aria-live="polite" hidden
+       data-t-f={V.formulas_n} data-t-a={V.all_n} data-t-of={V.of_which} data-t-refs={V.refs_title}>
+    <p class="muted sg-du-hint" data-sg-hint>{V.hint}</p>
+    <div data-sg-detail hidden>
+      <p class="sg-du-rname"><strong data-f="name"></strong></p>
+      <p data-f="count"></p>
+      <p class="muted sg-du-rt" data-f="rt"></p>
+      <ul class="sg-du-refs" data-f="refs"></ul>
+    </div>
+  </div>
+  <p class="muted ui sg-du-cap">{V.note}</p>
+  <script type="application/json" data-sg-json set:html={JSON.stringify(data).replace(/</g, "\\u003c")}></script>
+</section>
+<style is:inline>
+  .sg-du-head { margin: 0 0 .3rem; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+  .sg-du-big { font-size: 2.6rem; line-height: 1; color: var(--gold-text); font-weight: 700; }
+  .sg-du-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 0 0 .7rem; }
+  .sg-du-mode { min-block-size: 44px; padding: 0 1.1rem; border-radius: 999px; border: 1px solid var(--gold); background: transparent; color: var(--fg); font: inherit; font-size: .9rem; cursor: pointer; }
+  .sg-du-mode[aria-pressed="true"] { background: var(--gold); color: #0a2533; font-weight: 700; }
+  .sg-du-mode:focus-visible, .sg-du-readout a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-du-stage { background: var(--lapis); color: var(--ivory); border-radius: 14px; padding: 14px 16px 16px; border: 1px solid var(--gold); }
+  .sg-du-h3 { font-size: .92rem; font-weight: 600; margin: .2rem 0 .3rem; color: var(--sand); font-family: inherit; }
+  .sg-du-h3b { margin-block-start: 1.2rem; }
+  .sg-du-strands { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; }
+  @media (min-width: 760px) { .sg-du-strands { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 22px; } }
+  .sg-du-svg { display: block; inline-size: 100%; block-size: auto; overflow: visible; font-family: inherit; }
+  .sg-du-string { fill: none; stroke: var(--sand); stroke-opacity: .45; stroke-width: 1.5; }
+  .sg-du-l { outline: none; cursor: pointer; }
+  .sg-du-svg .co { r: 5px; }
+  .sg-du-l .co { fill: var(--gold); stroke: var(--sand); stroke-width: 1.5; transition: r .15s; }
+  .sg-du-l.is-off .co, .co.off { fill: var(--lapis); stroke: var(--sand); stroke-opacity: .5; stroke-width: 1.5; }
+  .co.off { pointer-events: none; }
+  .sg-du-l.is-off { cursor: default; pointer-events: none; }
+  .sg-du-l .gl { pointer-events: all; transition: r .25s, opacity .2s; }
+  .sg-du-l:hover .co, .sg-du-l.is-sel .co { fill: var(--ivory); r: 7; }
+  .sg-du-l:focus-visible .co { stroke: var(--ivory); stroke-width: 3; r: 7; }
+  .sg-du-l:focus-visible .gl { opacity: 1; }
+  .sg-du-n { font-size: 18px; fill: var(--sand); }
+  .sg-du-key { list-style: none; columns: 14rem; column-gap: 18px; margin: .6rem 0 .6rem; padding: 0; font-size: .86rem; color: var(--ivory); }
+  .sg-du-key li { break-inside: avoid; padding-block: 2px; }
+  .sg-du-key li.is-sel { text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+  .sg-du-key b { color: var(--gold); font-variant-numeric: tabular-nums; }
+  .sg-du-legend { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0; padding: 0; font-size: .84rem; color: var(--sand); }
+  .sg-du-legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .sg-du-k { display: inline-block; inline-size: 12px; block-size: 12px; border-radius: 50%; border: 1.5px solid var(--sand); background: var(--lapis); }
+  .sg-du-k.on { background: var(--gold); box-shadow: 0 0 9px 3px color-mix(in srgb, var(--gold) 70%, transparent); }
+  .sg-du-readout { margin-block: .8rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 6.5rem; }
+  .sg-du-readout.is-on { position: sticky; inset-block-end: 8px; z-index: 5; box-shadow: 0 6px 24px rgba(0, 0, 0, .22); }
+  .sg-du-readout p { margin: .2rem 0; }
+  .sg-du-rname { font-size: 1.15rem; }
+  .sg-du-rt { font-size: .82rem; margin-block-start: .4rem !important; }
+  .sg-du-refs { list-style: none; display: flex; flex-wrap: wrap; gap: 0 14px; margin: 0; padding: 0; max-block-size: 8.5rem; overflow: auto; }
+  .sg-du-refs a { display: inline-flex; align-items: center; min-block-size: 32px; font-variant-numeric: tabular-nums; }
+  .sg-du-refs li.m a { opacity: .75; }
+  .sg-du-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+  @media (prefers-reduced-motion: reduce) { .sg-du-l .co, .sg-du-l .gl { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-dua.ts"></script>

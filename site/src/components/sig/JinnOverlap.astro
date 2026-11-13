@@ -1,0 +1,160 @@
+---
+// "Four circles that overlap" (Jinn & Devils Browser home): an UpSet-style overlap chart of the four sections. One
+// column per combination of sections that actually occurs in the data (computed, largest first); the bar above a column
+// counts the records tagged with exactly that combination, stacked by what the record is (lib/jinn-devils.ts groupOf);
+// the dots below mark which sections the combination includes; the bars at the side give each section's whole total.
+// Every number is computed here at build time. Each column is a button; with the script (site/src/scripts/sig-jinn.ts)
+// it fills the panel from the outline below, which is also the text alternative and holds each record once as a link.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { jinnDevilsItems, JD_SECTIONS, JD_GROUPS, groupOf } from "../../lib/jinn-devils";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const J = (ui(lang) as any)["jinn-devils"];
+const V = J.viz;
+
+// ---- the build fails when the data holds a section or group the chart does not know
+const known = new Set<string>(JD_SECTIONS);
+for (const i of jinnDevilsItems) for (const s of i.sections) if (!known.has(s)) throw new Error(`JinnOverlap: ${i.node.id} sits in section ${s}, which is not in JD_SECTIONS`);
+const secs = JD_SECTIONS.filter((s) => jinnDevilsItems.some((i) => i.sections.includes(s)));
+const secTitle = (s: string) => { const t = J.sections[s]?.title; if (!t) throw new Error(`JinnOverlap: section ${s} has no title`); return t as string; };
+const grpTitle = (g: string) => { const t = J.groups[g]?.title; if (!t) throw new Error(`JinnOverlap: group ${g} has no title`); return t as string; };
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+
+const keyOf = (sections: string[]) => secs.filter((s) => sections.includes(s)).join("+");
+const byKey = new Map<string, typeof jinnDevilsItems>();
+for (const i of jinnDevilsItems) { const k = keyOf(i.sections); byKey.set(k, [...(byKey.get(k) ?? []), i]); }
+const combos = [...byKey.entries()]
+  .map(([k, items]) => ({ k, set: k.split("+"), items }))
+  .sort((a, b) => b.items.length - a.items.length || a.set.length - b.set.length || a.k.localeCompare(b.k));
+if (combos.reduce((t, c) => t + c.items.length, 0) !== jinnDevilsItems.length) throw new Error("JinnOverlap: the combinations do not add up to the records");
+const groupsIn = JD_GROUPS.filter((g) => jinnDevilsItems.some((i) => groupOf(i.node) === g));
+const countG = (c: { items: typeof jinnDevilsItems }, g: string) => c.items.filter((i) => groupOf(i.node) === g).length;
+const maxC = Math.max(1, ...combos.map((c) => c.items.length));
+const totals = secs.map((s) => jinnDevilsItems.filter((i) => i.sections.includes(s)).length);
+const maxT = Math.max(1, ...totals);
+const comboName = (c: { set: string[] }) => c.set.map(secTitle).join(" · ");
+const f = (n: number) => Math.round(n * 100) / 100;
+const ROW = 44, HBAR = 190; // px: a matrix row, and the room for the tallest bar and its number
+---
+<section aria-labelledby="jinn-overlap-title" class="sg-j" data-sg-j style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="jinn-overlap-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.caption}</p>
+  </div>
+  <ul class="sg-j-legend ui" aria-label={V.legend_title}>
+    {groupsIn.map((g) => <li><i class={`sg-j-sw g-${g}`} aria-hidden="true"></i>{grpTitle(g)}</li>)}
+  </ul>
+  <div class="sg-j-chart" role="group" aria-label={V.region} style={`--row:${ROW}px;--hbar:${HBAR}px`}>
+    <div class="sg-j-labs">
+      <p class="sg-j-axis ui muted">{V.axis}</p>
+      {secs.map((s, si) => (
+        <div class="sg-j-lab">
+          <a href={`#t-${s}`}>{secTitle(s)}</a>
+          <span class="sg-j-tot ui"><b>{num(totals[si], lang)}</b><i aria-hidden="true" style={`--w:${f((100 * totals[si]) / maxT)}%`}></i></span>
+        </div>
+      ))}
+    </div>
+    <div class="sg-j-cols">
+      {combos.map((c) => {
+        const first = secs.findIndex((s) => c.set.includes(s)), last = secs.length - 1 - [...secs].reverse().findIndex((s) => c.set.includes(s));
+        return (
+          <button type="button" class="sg-j-col" data-k={c.k} aria-label={fmt(V.col, { sets: comboName(c), n: num(c.items.length, lang) })}>
+            <span class="sg-j-top"><b>{num(c.items.length, lang)}</b>
+              <span class="sg-j-bar" style={`--f:${f(c.items.length / maxC)}`}>
+                {groupsIn.filter((g) => countG(c, g) > 0).map((g) => <i class={`sg-j-seg g-${g}`} style={`flex:${countG(c, g)}`}></i>)}
+              </span>
+            </span>
+            <span class="sg-j-dots" aria-hidden="true">
+              {secs.map((s) => <i class={c.set.includes(s) ? "d on" : "d"}></i>)}
+              {c.set.length > 1 && <u style={`inset-block-start:${first * ROW + ROW / 2}px;block-size:${(last - first) * ROW}px`}></u>}
+            </span>
+          </button>
+        );
+      })}
+    </div>
+  </div>
+  <div class="sg-j-panel panel ui" data-sg-jpanel aria-live="polite" hidden>
+    <p class="muted sg-j-hint" data-sg-jhint>{V.hint}</p>
+    <div data-sg-jbody></div>
+    <button type="button" class="sg-j-close ui" data-sg-jclose hidden>{V.close}</button>
+  </div>
+  <details class="sg-j-outline">
+    <summary class="ui">{V.outline}</summary>
+    <ul role="list">
+      {combos.map((c) => (
+        <li data-sg-card={c.k}>
+          <h3>{comboName(c)} <span class="muted">· {fmt(V.count, { n: num(c.items.length, lang) })}</span></h3>
+          {groupsIn.filter((g) => countG(c, g) > 0).map((g) => (
+            <div>
+              <h4 class="ui">{grpTitle(g)} <span class="muted">· {num(countG(c, g), lang)}</span></h4>
+              <ul role="list" class="sg-j-list">
+                {c.items.filter((i) => groupOf(i.node) === g).map((i) => <li><a href={href(lang, i.node.id)}>{short(i.node)}</a></li>)}
+              </ul>
+            </div>
+          ))}
+        </li>
+      ))}
+    </ul>
+  </details>
+</section>
+<style is:inline>
+  .sg-j { --t-events: var(--gold); --t-teachings: var(--link); --t-figures: color-mix(in srgb, var(--fg) 62%, var(--card)); --t-beings: var(--gold-text); --t-questions: color-mix(in srgb, var(--gold) 45%, var(--card)); --t-works: color-mix(in srgb, var(--link) 45%, var(--card)); }
+  .sg-j .g-events { background: var(--t-events); } .sg-j .g-teachings { background: var(--t-teachings); } .sg-j .g-figures { background: var(--t-figures); }
+  .sg-j .g-beings { background: var(--t-beings); } .sg-j .g-questions { background: var(--t-questions); } .sg-j .g-works { background: var(--t-works); }
+  .sg-j-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; list-style: none; padding: 0; margin: 0 0 .8rem; font-size: .84rem; color: var(--muted); }
+  .sg-j-legend li { display: inline-flex; align-items: center; gap: 6px; }
+  .sg-j-sw { display: inline-block; inline-size: 12px; block-size: 12px; border-radius: 3px; }
+  .sg-j-chart { display: flex; align-items: flex-start; border: 1px solid var(--line); border-radius: 16px; background: var(--card); padding: 12px 10px 10px; gap: 6px; }
+  .sg-j-labs { flex: none; inline-size: 210px; }
+  .sg-j-axis { block-size: var(--hbar); margin: 0; display: flex; align-items: flex-end; font-size: .78rem; line-height: 1.3; padding-block-end: 8px; padding-inline-end: 10px; }
+  .sg-j-lab { block-size: var(--row); display: flex; flex-direction: column; justify-content: center; border-block-start: 1px solid var(--line); padding-inline-end: 10px; }
+  .sg-j-lab > a { font-size: .9rem; font-weight: 600; color: var(--fg); line-height: 1.2; min-block-size: 24px; display: inline-flex; align-items: center; }
+  .sg-j-lab > a:hover { color: var(--gold-text); }
+  .sg-j-tot { display: flex; align-items: center; gap: 8px; }
+  .sg-j-tot b { font-size: .78rem; min-inline-size: 2ch; }
+  .sg-j-tot i { display: block; block-size: 6px; border-radius: 3px; inline-size: calc(var(--w) * .55); background: var(--gold); }
+  .sg-j-cols { flex: 1; min-inline-size: 0; display: flex; gap: 4px; justify-content: flex-start; }
+  .sg-j-col { flex: 1 1 0; min-inline-size: 28px; max-inline-size: 76px; display: flex; flex-direction: column; padding: 0; margin: 0; border: 0; border-radius: 10px; background: transparent; cursor: pointer; color: var(--fg); font: inherit; }
+  .sg-j-top { block-size: var(--hbar); display: flex; flex-direction: column; justify-content: flex-end; align-items: center; padding-block-end: 6px; }
+  .sg-j-top b { font-size: .8rem; line-height: 1.6; }
+  .sg-j-bar { inline-size: 62%; max-inline-size: 38px; display: flex; flex-direction: column-reverse; min-block-size: 3px; border-radius: 3px 3px 0 0; overflow: hidden; --maxh: calc(var(--hbar) - 36px); }
+  .sg-j-top .sg-j-bar { block-size: calc(var(--maxh) * var(--f, 1)); }
+  .sg-j-seg { display: block; min-block-size: 2px; border-block-start: 1px solid var(--card); }
+  .sg-j-dots { position: relative; display: flex; flex-direction: column; align-items: center; }
+  .sg-j-dots .d { display: grid; place-items: center; block-size: var(--row); inline-size: 100%; border-block-start: 1px solid var(--line); }
+  .sg-j-dots .d::after { content: ""; position: relative; z-index: 2; inline-size: 10px; block-size: 10px; border-radius: 50%; background: var(--line); }
+  .sg-j-dots .d.on::after { background: var(--fg); inline-size: 15px; block-size: 15px; box-shadow: 0 0 0 3px var(--card); }
+  .sg-j-dots u { position: absolute; inset-inline-start: 50%; inline-size: 3px; margin-inline-start: -1.5px; background: var(--fg); text-decoration: none; z-index: 1; }
+  .sg-j-col:hover, .sg-j-col:focus-visible, .sg-j-col[aria-pressed="true"] { background: color-mix(in srgb, var(--gold) 16%, var(--card)); }
+  .sg-j-col[aria-pressed="true"] { box-shadow: inset 0 0 0 2px var(--gold-text); }
+  .sg-j-col:focus-visible, .sg-j-close:focus-visible, .sg-j-panel a:focus-visible, .sg-j-lab a:focus-visible, .sg-j-outline a:focus-visible, .sg-j-outline summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-j-panel { margin-block: .8rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 4.5rem; }
+  .sg-j-panel h3 { margin: 0 0 .3rem; font-size: 1.05rem; }
+  .sg-j-panel h4 { margin: .6rem 0 .1rem; font-size: .92rem; }
+  .sg-j-panel p { margin: 0; }
+  .sg-j-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0 24px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
+  .sg-j-panel .sg-j-list a, .sg-j-outline .sg-j-list a { display: inline-block; min-block-size: 28px; line-height: 28px; }
+  .sg-j-close { margin-block-start: .6rem; min-block-size: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; }
+  .sg-j-outline { margin-block-start: 1rem; }
+  .sg-j-outline summary { cursor: pointer; min-block-size: 44px; display: inline-flex; align-items: center; }
+  .sg-j-outline > ul { list-style: none; padding: 0; margin: .6rem 0 0; display: grid; gap: 14px; }
+  .sg-j-outline > ul > li { border-inline-start: 3px solid var(--gold); padding: 2px 12px; }
+  .sg-j-outline h3 { margin: 0 0 .2rem; font-size: 1rem; }
+  .sg-j-outline h4 { margin: .5rem 0 0; font-size: .88rem; }
+  @media (max-width: 720px) {
+    .sg-j-chart { padding: 10px 6px; gap: 2px; }
+    .sg-j-labs { inline-size: 94px; }
+    .sg-j-axis { font-size: .72rem; padding-inline-end: 4px; }
+    .sg-j-lab { padding-inline-end: 4px; }
+    .sg-j-lab > a { font-size: .78rem; line-height: 1.15; }
+    .sg-j-tot i { inline-size: calc(var(--w) * .3); }
+    .sg-j-cols { gap: 1px; }
+    .sg-j-col { min-inline-size: 26px; }
+    .sg-j-top b { font-size: .72rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-j-col { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-jinn.ts"></script>

@@ -1,0 +1,133 @@
+---
+// The reel of decades (signature view of the Screening Room, docs/plan/12-screen-index.md): a film strip whose frames are the
+// decades, in order, each holding one small tile per title released in it, toned and shaped by the format's family. Titles with no
+// release year are counted in one trailing frame and never placed. In a sparse frame every tile is a link to the title (24 px
+// targets); in a dense frame the tiles are plain marks and the frame header opens a panel listing that decade's titles as links, so
+// no target is smaller than 24 px. The titles' own cards in the list below carry the same information, so the strip adds no
+// second list: the script (site/src/scripts/sig-screen.ts) reads a tile's title, year, format and countries, and fills the
+// decade panel, from those cards. Everything is read at build time from lib/screen.ts.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { NUM_LOCALE } from "../../lib/i18n";
+import { screenItems, releasedYear, decadeOf, FORMAT_FAMILY, SCREEN_FAMILIES, countriesText } from "../../lib/screen";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const V = T.screen.viz;
+const FV = T.screen.format_values;
+
+for (const n of screenItems) if (!FORMAT_FAMILY[n.data.format]) throw new Error(`The reel of decades has no family for format "${n.data.format}" (${n.id})`);
+const FAMILY_SHAPE: Record<string, string> = { film: "f-sq", series: "f-ci", documentary: "f-di", animation: "f-ri" };
+for (const f of SCREEN_FAMILIES) if (!FAMILY_SHAPE[f]) throw new Error(`No shape for family ${f}`);
+
+const plain = (n: number) => new Intl.NumberFormat(NUM_LOCALE[lang], { useGrouping: false }).format(n);
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+// a frame with more titles than this is dense: its tiles are marks and its header is the target
+const DENSE = 24;
+
+const rows = screenItems.map((n, i) => ({ n, i, year: releasedYear(n), fam: FORMAT_FAMILY[n.data.format] }));
+const dated = rows.filter((r) => r.year !== undefined);
+const undated = rows.filter((r) => r.year === undefined);
+if (dated.length + undated.length !== screenItems.length) throw new Error("The reel of decades lost a title");
+const decades = [...new Set(dated.map((r) => decadeOf(r.year!)))].sort((a, b) => a - b);
+const frames = decades.map((d) => {
+  const items = dated.filter((r) => decadeOf(r.year!) === d);
+  const dense = items.length > DENSE;
+  const cols = dense ? Math.min(10, Math.ceil(Math.sqrt(items.length * 1.6))) : items.length <= 4 ? items.length : Math.ceil(Math.sqrt(items.length * 1.4));
+  return { d, items, dense, cols };
+});
+const famMembers = (f: string) => [...new Set(screenItems.filter((n) => FORMAT_FAMILY[n.data.format] === f).map((n) => n.data.format as string))].map((x) => FV[x] ?? x);
+const families = SCREEN_FAMILIES.filter((f) => famMembers(f).length > 0);
+const sep = lang === "en" ? ", " : "، ";
+---
+<div class="sg-sc" data-sg-sc data-t-hint={V.hint} data-t-open={V.open} data-t-close={V.close} data-t-panel={V.panel_title}>
+  <section aria-labelledby="sg-sc-title" style="margin-top:1.6rem">
+    <div data-pagefind-body>
+      <h2 id="sg-sc-title">{V.title}</h2>
+      <p class="muted" style="max-width:var(--measure);margin:0 0 .5rem">{fmt(V.note, { n: num(dated.length, lang), a: plain(Math.min(...dated.map((r) => r.year!))), b: plain(Math.max(...dated.map((r) => r.year!))), u: num(undated.length, lang) })}</p>
+    </div>
+    <ul class="sg-sc-legend ui" aria-label={V.legend_title}>
+      {families.map((f) => <li><i class={`sg-sc-mark ${FAMILY_SHAPE[f]}`} aria-hidden="true"></i><b>{V.families[f]}</b> <span class="muted">{famMembers(f).join(sep)}</span></li>)}
+    </ul>
+    <p class="ui muted sg-sc-swipe">{V.scroll_hint}</p>
+    <div class="sg-sc-scroll" role="region" aria-label={V.scroll_label} tabindex="0">
+      <div class="sg-sc-strip" role="group" aria-label={V.group_label}>
+        {frames.map((f) => (
+          <div class={`sg-sc-frame${f.dense ? " is-dense" : ""}`} data-d={f.d} style={`--cols:${f.cols}`}>
+            <h3 class="sg-sc-fh ui"><span>{fmt(V.decade, { d: plain(f.d) })}</span> <em>{num(f.items.length, lang)}</em></h3>
+            <div class="sg-sc-tiles">
+              {f.items.map((r) => f.dense
+                ? <i class={`sg-sc-mark ${FAMILY_SHAPE[r.fam]}`} data-n={r.i}></i>
+                : <a class="sg-sc-link" href={href(lang, r.n.id)} aria-label={`${short(r.n)} · ${plain(r.year!)}`} data-n={r.i}><i class={`sg-sc-mark ${FAMILY_SHAPE[r.fam]}`}></i></a>)}
+            </div>
+          </div>
+        ))}
+        {undated.length > 0 && (
+          <div class="sg-sc-frame is-undated" style="--cols:1">
+            <h3 class="sg-sc-fh ui"><span>{V.undated}</span> <em>{num(undated.length, lang)}</em></h3>
+            <p class="sg-sc-un ui">{V.undated_note}</p>
+          </div>
+        )}
+      </div>
+    </div>
+    <div class="sg-sc-read ui" aria-live="polite">
+      <p class="sg-sc-line" data-sg-line>{V.hint}</p>
+    </div>
+    <div class="sg-sc-panel panel" data-sg-panel hidden tabindex="-1">
+      <div class="sg-sc-ph ui"><b data-sg-ptitle></b><button type="button" data-sg-close class="ui">{V.close}</button></div>
+      <ul role="list" class="ui" data-sg-plist></ul>
+    </div>
+  </section>
+</div>
+<style is:inline>
+  .sg-sc h2 { margin-bottom: .3rem; }
+  .sg-sc-legend { display: flex; flex-wrap: wrap; gap: 6px 22px; list-style: none; padding: 0; margin: 0 0 .8rem; font-size: .88rem; color: var(--fg); }
+  .sg-sc-legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .sg-sc-swipe { display: none; margin: 0 0 .4rem; font-size: .85rem; }
+  .sg-sc-mark { display: inline-block; width: 14px; height: 14px; box-sizing: border-box; flex: none; vertical-align: middle; }
+  .sg-sc-mark.f-sq { background: var(--gold-text); border-radius: 2px; }
+  .sg-sc-mark.f-ci { background: var(--link); border-radius: 50%; }
+  .sg-sc-mark.f-di { background: var(--fg); clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
+  .sg-sc-mark.f-ri { border: 3px solid var(--gold-text); border-radius: 50%; }
+  .sg-sc-scroll { overflow-x: auto; border-radius: 12px; border: 1px solid var(--line); background: var(--lapis); scrollbar-color: var(--gold) var(--lapis); }
+  .sg-sc-scroll:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-sc-strip { --hole: color-mix(in srgb, var(--sand) 82%, var(--lapis)); display: flex; align-items: stretch; gap: 8px; width: max-content; min-width: 100%; box-sizing: border-box; padding: 26px 14px; position: relative;
+    background-image: linear-gradient(90deg, transparent 0 5px, var(--hole) 5px 13px, transparent 13px 22px), linear-gradient(90deg, transparent 0 5px, var(--hole) 5px 13px, transparent 13px 22px);
+    background-size: 22px 10px, 22px 10px; background-position: 0 8px, 0 calc(100% - 8px); background-repeat: repeat-x, repeat-x; }
+  .sg-sc-frame { box-sizing: border-box; flex: none; min-width: 96px; padding: 8px 9px 10px; background: var(--card); color: var(--fg); border-radius: 3px; }
+  .sg-sc-frame.is-undated { background: transparent; color: var(--sand); border: 1.5px dashed color-mix(in srgb, var(--sand) 60%, transparent); width: 132px; }
+  .sg-sc-fh { margin: 0 0 8px; font-size: .82rem; line-height: 1.2; font-weight: 700; display: flex; align-items: baseline; justify-content: space-between; gap: 8px; font-family: inherit; }
+  .sg-sc-fh em { font-style: normal; font-weight: 400; color: var(--muted); }
+  .sg-sc-frame.is-undated .sg-sc-fh em { color: var(--sand); }
+  .sg-sc-fh button { all: unset; box-sizing: border-box; cursor: pointer; display: flex; align-items: baseline; justify-content: space-between; gap: 8px; width: 100%; min-height: 28px; padding: 2px 4px; margin: -2px -4px; border-radius: 6px; font: inherit; color: inherit; }
+  .sg-sc-fh button:hover, .sg-sc-fh button[aria-expanded="true"] { background: color-mix(in srgb, var(--gold) 30%, transparent); }
+  .sg-sc-fh button:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
+  .sg-sc-un { margin: 0; font-size: .8rem; line-height: 1.35; color: var(--sand); }
+  .sg-sc-tiles { display: grid; grid-template-columns: repeat(var(--cols), var(--p)); }
+  .sg-sc-frame { --p: 26px; }
+  .sg-sc-frame.is-dense { --p: 17px; }
+  .sg-sc-tiles > * { width: var(--p); height: var(--p); display: grid; place-items: center; }
+  .sg-sc-link { border-radius: 6px; text-decoration: none; }
+  .sg-sc-link:hover, .sg-sc-link.is-on, .sg-sc-tiles > i.is-on { background: color-mix(in srgb, var(--gold) 34%, transparent); }
+  .sg-sc-link:focus-visible { outline: 3px solid var(--focus); outline-offset: -1px; }
+  .sg-sc-link:hover .sg-sc-mark, .sg-sc-link.is-on .sg-sc-mark { transform: scale(1.25); }
+  .sg-sc-frame.is-dense .sg-sc-mark { width: 12px; height: 12px; margin: auto; }
+  .sg-sc-frame.is-dense .sg-sc-mark.f-ri { border-width: 2.5px; }
+  .sg-sc-read { margin-top: .7rem; min-height: 2.6em; max-width: 80ch; }
+  .sg-sc-line { margin: 0; font-weight: 600; color: var(--fg); }
+  .sg-sc-line a { margin-inline-start: .6rem; font-weight: 500; }
+  .sg-sc-panel { margin-top: .8rem; max-width: 70ch; }
+  .sg-sc-panel:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-sc-ph { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: .5rem; }
+  .sg-sc-ph button { font: inherit; min-height: 32px; padding: 2px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--fg); cursor: pointer; }
+  .sg-sc-ph button:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-sc-panel { max-height: 60vh; overflow-y: auto; }
+  .sg-sc-panel ul { list-style: none; padding: 0; margin: 0; columns: 2 220px; column-gap: 24px; }
+  .sg-sc-panel li { padding: 3px 0; break-inside: avoid; }
+  .sg-sc-panel li span { color: var(--muted); font-size: .85rem; margin-inline-start: .4rem; }
+  @media (max-width: 720px) { .sg-sc-swipe { display: block; } .sg-sc-scroll { overflow-x: scroll; } }
+  @media (prefers-reduced-motion: reduce) { .sg-sc-link:hover .sg-sc-mark, .sg-sc-link.is-on .sg-sc-mark { transform: none; } }
+</style>
+<script src="../../scripts/sig-screen.ts"></script>

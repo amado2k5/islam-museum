@@ -9,6 +9,7 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PagedNav from "../../../components/PagedNav.astro";
 import FullFilter from "../../../components/FullFilter.astro";
+import MiraclesLoom from "../../../components/sig/MiraclesLoom.astro";
 import { pagedStaticPaths, pageView, renderedHeadline, curatedFirst, type PagedProps } from "../../../lib/paged";
 import DraftMark from "../../../components/DraftMark.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
@@ -64,6 +65,8 @@ const searchText = (i: (typeof miracleItems)[number]) =>
       <p class="muted" style="max-width:var(--measure)">{G.method_note}</p>
       <p class="ui muted">{G.api} <a href="/api/v1/miracles.json"><bdi dir="ltr">/api/v1/miracles.json</bdi></a></p>
     </div>
+
+    {paged.landing && <MiraclesLoom lang={lang} />}
 
     <section aria-labelledby="subjects-title" style="margin-top:2rem">
       <h2 id="subjects-title">{G.subjects_title}</h2>

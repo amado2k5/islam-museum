@@ -12,6 +12,7 @@ import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
 import { natureItems, NATURE_SECTIONS } from "../../../lib/nature";
+import NatureStrata from "../../../components/sig/NatureStrata.astro";
 
 export function getStaticPaths() {
   // the landing, and a sub-page for every page of rows of each section longer than the landing shows (site/src/lib/paged.ts)
@@ -45,6 +46,8 @@ const slugOf = (id: string) => id.split("/")[1];
       <p class="muted" style="max-width:var(--measure)">{N.method_note}</p>
       <p class="ui muted">{N.api} <a href="/api/v1/nature.json"><bdi dir="ltr">/api/v1/nature.json</bdi></a></p>
     </div>
+
+    {paged.landing && <NatureStrata lang={lang} />}
 
     <DraftMark lang={lang} legend />
     <section aria-labelledby="sections-title" style="margin-top:2rem">

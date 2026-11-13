@@ -1,0 +1,171 @@
+---
+// "Dreams the sources relate" (Dream Browser home): a small, quiet night sky. Each record is a star, placed in the
+// constellation of its section (DREAM_SECTIONS). Inside the Qur'an's constellation the stars of one sura are joined in
+// ayah order and the group is named by the sura; in the Sunnah, the books and the seerah the stars of one collection
+// or work are joined the same way; the curated concepts form a ring. A star has no size or colour of its own, because the
+// records carry no magnitude. Everything is computed at build time from site/src/lib/dreams.ts; every star is a real
+// link. The script (site/src/scripts/sig-dreams.ts) adds the read-out.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, labelOf, summaryOf, href } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { dreamItems, DREAM_SECTIONS, type DreamItem, type DreamSection } from "../../lib/dreams";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).dreams;
+const V = G.viz;
+const rtl = lang === "ar" || lang === "ur";
+const X = (x: number) => (rtl ? 100 - x : x);
+const f1 = (n: number) => Math.round(n * 10) / 10;
+const short = (s: string) => s.replace(/\s*⁦?\(.*$/, "").trim();
+const natural = (a: DreamItem, b: DreamItem) => a.node.id.localeCompare(b.node.id, "en", { numeric: true });
+
+for (const i of dreamItems) if (!DREAM_SECTIONS.includes(i.section)) throw new Error(`DreamsSky: ${i.node.id} is in a section outside DREAM_SECTIONS`);
+
+// ---- text of a star
+const surahName = (n: number) => {
+  const node = byId.get(`passage/quran-${n}`);
+  if (!node) throw new Error(`DreamsSky: sura ${n} has no record`);
+  return short(labelOf(node, lang).replace(/^\s*(Sura|Surah)\s*\d+\s*:\s*/i, "").replace(/^\s*سورة\s+/, ""));
+};
+const isAyah = (i: DreamItem) => i.node.data.sura != null && i.node.data.aya != null;
+const workName = (i: DreamItem) => (i.work ? short(labelOf(i.work, lang)) : "");
+const whereOf = (i: DreamItem) =>
+  isAyah(i) ? `${surahName(Number(i.node.data.sura))} ${num(Number(i.node.data.sura), lang)}:${num(Number(i.node.data.aya), lang)}`
+  : i.section === "concepts" ? V.where_concept
+  : [workName(i), i.node.data.ref ? String(i.node.data.ref) : ""].filter(Boolean).join(" · ");
+const sentenceOf = (i: DreamItem) => {
+  if (isAyah(i)) return ""; // a Qur'an star shows where it is, never the verse
+  const s = summaryOf(i.node, lang).replace(/\s+/g, " ").trim();
+  const m = s.match(/^.*?[.!?؟۔](?=\s+[^\d\sa-z]|\s*$)/);
+  const one = (m ? m[0] : s).trim();
+  return one.length > 190 ? `${one.slice(0, 187).trimEnd()}…` : one;
+};
+
+// ---- constellations
+interface Group { key: string; name: string; items: DreamItem[]; w: number }
+const groupsOf = (sec: DreamSection): Group[] => {
+  const map = new Map<string, DreamItem[]>();
+  for (const i of dreamItems.filter((x) => x.section === sec)) {
+    const k = isAyah(i) ? `s${String(i.node.data.sura).padStart(3, "0")}` : `w${i.node.data.work ?? i.node.id}`;
+    map.set(k, [...(map.get(k) ?? []), i]);
+  }
+  return [...map.entries()].map(([key, its]) => {
+    const sorted = its.sort(isAyah(its[0]) ? (a, b) => Number(a.node.data.aya) - Number(b.node.data.aya) : natural);
+    const name = isAyah(sorted[0]) ? `${surahName(Number(sorted[0].node.data.sura))} · ${num(Number(sorted[0].node.data.sura), lang)}` : workName(sorted[0]) || labelOf(sorted[0].node, lang);
+    return { key, name, items: sorted, w: Math.max(2, Math.min(6, sorted.length)) };
+  }).sort((a, b) => b.items.length - a.items.length || a.key.localeCompare(b.key));
+};
+const ROWH = 112, CAP = 6;
+interface Star { item: DreamItem; x: number; y: number; g: string }
+interface Sky { id: DreamSection; ring: boolean; rows: number; stars: Star[]; lines: { g: string; pts: string }[]; labels: { x: number; y: number; text: string; g: string }[] }
+const skyOf = (sec: DreamSection): Sky => {
+  if (sec === "concepts") {
+    const items = dreamItems.filter((i) => i.section === sec).sort(natural);
+    const n = items.length;
+    const stars = items.map((item, k) => { const a = (2 * Math.PI * k) / n; return { item, x: f1(50 + 36 * Math.sin(a)), y: f1(50 - 36 * Math.cos(a)), g: "ring" }; });
+    return { id: sec, ring: true, rows: 0, stars, lines: [], labels: [] };
+  }
+  const rows: Group[][] = [];
+  for (const g of groupsOf(sec)) { const r = rows.find((row) => row.reduce((t, x) => t + x.w, 0) + g.w <= CAP); if (r) r.push(g); else rows.push([g]); }
+  const H = rows.length * ROWH;
+  const py = (v: number) => f1((v / H) * 100);
+  const stars: Star[] = [], lines: Sky["lines"] = [], labels: Sky["labels"] = [];
+  rows.forEach((row, ri) => {
+    const used = row.reduce((t, g) => t + g.w, 0);
+    let x0 = (100 - (used / CAP) * 100) / 2; // a short row is centred
+    for (const g of row) {
+      const cw = (g.w / CAP) * 100, cx = x0 + cw / 2, m = g.items.length, span = cw * 0.8;
+      const pts: string[] = [];
+      g.items.forEach((item, k) => {
+        const dx = m === 1 ? 0 : -span / 2 + (span * k) / (m - 1);
+        const dy = m === 1 ? 0 : m > 8 ? (k % 2 ? 1 : -1) * 0.11 * ROWH + 0.05 * ROWH * Math.sin(k * 0.9) : 0.14 * ROWH * Math.sin(k * 1.7 + 0.6);
+        const x = f1(X(cx + dx)), y = py(ri * ROWH + 0.36 * ROWH + dy);
+        stars.push({ item, x, y, g: g.key });
+        pts.push(`${x},${y}`);
+      });
+      if (m > 1) lines.push({ g: g.key, pts: pts.join(" ") });
+      labels.push({ x: f1(X(cx)), y: py(ri * ROWH + 0.68 * ROWH), text: g.name, g: g.key });
+      x0 += cw;
+    }
+  });
+  return { id: sec, ring: false, rows: rows.length, stars, lines, labels };
+};
+const skies = DREAM_SECTIONS.map(skyOf).filter((s) => s.stars.length > 0);
+const placed = skies.reduce((t, s) => t + s.stars.length, 0);
+if (placed !== dreamItems.length) throw new Error(`DreamsSky: ${placed} stars placed for ${dreamItems.length} records`);
+const secTitle = (id: string) => G.sections?.[id]?.title ?? id;
+---
+<section aria-labelledby="dreams-sky-title" class="sg-dr" data-sg-dr style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="dreams-sky-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{fmt(V.note, { n: num(dreamItems.length, lang) })}</p>
+  </div>
+  <div class="sg-dr-grid">
+    {skies.map((s) => (
+      <section class={`sg-dr-c c-${s.id}`} aria-labelledby={`sg-dr-h-${s.id}`}>
+        <h3 id={`sg-dr-h-${s.id}`} class="ui">{secTitle(s.id)} <span class="muted">· {num(s.stars.length, lang)}</span></h3>
+        <div class={`sg-dr-box${s.ring ? " orb" : ""}`} style={s.ring ? undefined : `block-size:calc(${s.rows} * var(--h))`}>
+          <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            {s.ring && <circle class="sg-dr-orbit" cx="50" cy="50" r="36" />}
+            {s.lines.map((l) => <polyline class="sg-dr-line" data-g={l.g} points={l.pts} />)}
+          </svg>
+          <ul role="list" class="sg-dr-stars">
+            {s.stars.map((t) => (
+              <li style={`left:${t.x}%;top:${t.y}%`}>
+                <a class="sg-dr-s" href={href(lang, t.item.node.id)} aria-label={labelOf(t.item.node, lang)} data-g={t.g} data-w={whereOf(t.item)} data-s={sentenceOf(t.item) || undefined}><i aria-hidden="true"></i></a>
+              </li>
+            ))}
+          </ul>
+          {s.labels.map((l) => <span class="sg-dr-name ui" data-g={l.g} style={`left:${l.x}%;top:${l.y}%`}>{l.text}</span>)}
+        </div>
+      </section>
+    ))}
+  </div>
+  <div class="sg-dr-panel panel ui" data-sg-drpanel aria-live="polite" hidden>
+    <p class="muted" data-sg-drhint>{V.hint}</p>
+    <div data-sg-drbody hidden>
+      <h3 data-f="name"></h3>
+      <p class="muted" data-f="where"></p>
+      <p data-f="line"></p>
+      <a data-f="open" class="sg-dr-open">{V.open}</a>
+    </div>
+  </div>
+  <p class="muted ui sg-dr-cap">{V.caption}</p>
+</section>
+<style is:inline>
+  .sg-dr { --h: 112px; }
+  .sg-dr-grid { display: grid; gap: 1.4rem 2.2rem; grid-template-columns: 1fr; }
+  .sg-dr-c { min-inline-size: 0; }
+  .sg-dr-c h3 { margin: 0 0 .5rem; font-size: .95rem; font-weight: 600; padding-block-end: .35rem; border-block-end: 1px solid var(--line); }
+  .sg-dr-box { position: relative; }
+  .sg-dr-box { margin-inline: 16px; margin-block-end: 14px; }
+  .sg-dr-box.orb { aspect-ratio: 1; max-inline-size: 340px; margin-inline: auto; }
+  .sg-dr-box svg { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; overflow: visible; }
+  .sg-dr-line { fill: none; stroke: var(--gold-text); stroke-opacity: .5; stroke-width: 1px; vector-effect: non-scaling-stroke; stroke-linejoin: round; transition: stroke-opacity .15s; }
+  .sg-dr-line.on { stroke-opacity: 1; stroke-width: 1.6px; }
+  .sg-dr-orbit { fill: none; stroke: var(--gold); stroke-opacity: .35; stroke-width: 1px; stroke-dasharray: 2 6; vector-effect: non-scaling-stroke; }
+  .sg-dr-stars { list-style: none; margin: 0; padding: 0; position: absolute; inset: 0; }
+  .sg-dr-stars li { position: absolute; transform: translate(-50%, -50%); }
+  .sg-dr-s { display: grid; place-items: center; inline-size: 28px; block-size: 28px; border-radius: 50%; text-decoration: none; }
+  .sg-dr-s i { display: block; inline-size: 9px; block-size: 9px; border-radius: 50%; background: var(--gold-text); box-shadow: 0 0 0 4px color-mix(in srgb, var(--gold) 24%, transparent), 0 0 16px 4px color-mix(in srgb, var(--gold) 34%, transparent); transition: transform .15s ease, box-shadow .15s ease; }
+  .sg-dr-s:hover i, .sg-dr-s.is-sel i { transform: scale(1.4); box-shadow: 0 0 0 5px color-mix(in srgb, var(--gold) 36%, transparent), 0 0 22px 7px color-mix(in srgb, var(--gold) 46%, transparent); }
+  .sg-dr-s:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
+  .sg-dr-name { position: absolute; transform: translate(-50%, 0); max-inline-size: 31%; text-align: center; font-size: .8rem; line-height: 1.25; color: var(--muted); overflow-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; pointer-events: none; }
+  .sg-dr-panel { margin-block: 1.1rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 7.2rem; }
+  .sg-dr-panel h3 { margin: 0 0 .1rem; font-size: 1.1rem; }
+  .sg-dr-panel p { margin: .15rem 0; }
+  .sg-dr-open { display: inline-flex; align-items: center; min-block-size: 44px; font-weight: 600; }
+  .sg-dr-open:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-dr-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+  @media (min-width: 900px) {
+    .sg-dr-grid { grid-template-columns: 1.25fr 1fr 1fr; grid-template-rows: auto auto 1fr; grid-template-areas: "q s c" "q r c" "q b c"; align-items: start; }
+    .sg-dr-c.c-quran { grid-area: q; }
+    .sg-dr-c.c-sunnah { grid-area: s; }
+    .sg-dr-c.c-seerah { grid-area: r; }
+    .sg-dr-c.c-books { grid-area: b; }
+    .sg-dr-c.c-concepts { grid-area: c; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-dr-s i, .sg-dr-line { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-dreams.ts"></script>

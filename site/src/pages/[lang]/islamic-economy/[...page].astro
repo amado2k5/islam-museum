@@ -11,6 +11,7 @@ import PagedNav from "../../../components/PagedNav.astro";
 import FullFilter from "../../../components/FullFilter.astro";
 import { pagedStaticPaths, pageView, renderedHeadline, curatedFirst, type PagedProps } from "../../../lib/paged";
 import DraftMark from "../../../components/DraftMark.astro";
+import IeLedgers from "../../../components/sig/IeLedgers.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
@@ -66,6 +67,8 @@ const searchText = (i: (typeof ieItems)[number]) =>
       <p class="muted" style="max-width:var(--measure)">{G.method_note}</p>
       <p class="ui muted">{G.api} <a href="/api/v1/islamic-economy.json"><bdi dir="ltr">/api/v1/islamic-economy.json</bdi></a></p>
     </div>
+
+{paged.landing && <IeLedgers lang={lang} />}
 
     <DraftMark lang={lang} legend />
     <section aria-labelledby="sections-title" style="margin-top:2rem">

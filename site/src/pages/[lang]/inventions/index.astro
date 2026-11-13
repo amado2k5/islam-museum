@@ -5,6 +5,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { href, labelOf } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
+import InventionsWorkshop from "../../../components/sig/InventionsWorkshop.astro";
 import { INVENTION_DOMAINS, inventionDomainLabel, inventionNodes, hasInventionArticle, inventionMakers } from "../../../lib/inventions";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
@@ -29,6 +30,8 @@ const status = fmt(I.status, { inventions: count(inventionNodes.length), article
       <p style="font-size:1.2rem;max-width:var(--measure)">{I.lede}</p>
       <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
     </div>
+
+    <InventionsWorkshop lang={lang} />
 
     <section aria-labelledby="domains-title" style="margin-top:2rem">
       <h2 id="domains-title">{I.domains_title}</h2>

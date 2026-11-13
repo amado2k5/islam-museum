@@ -11,6 +11,7 @@ import PagedNav from "../../../components/PagedNav.astro";
 import FullFilter from "../../../components/FullFilter.astro";
 import { pagedStaticPaths, pageView, renderedHeadline, type PagedProps } from "../../../lib/paged";
 import DraftMark from "../../../components/DraftMark.astro";
+import AnsabTribes from "../../../components/sig/AnsabTribes.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { labelOf, stripNeedsSource, byId, href } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
@@ -81,6 +82,8 @@ const lastDisputed = chain.map((l, i) => (!l.agreed ? i : -1)).reduce((a, b) => 
         {firstDisputed >= 0 && <> — {N.disputed_from} {label(chain[firstDisputed].node)} {N.disputed_to} {label(chain[lastDisputed].node)}</>}
       </p>
     </section>
+
+    {paged.landing && <AnsabTribes lang={lang} />}
 
     <DraftMark lang={lang} legend />
     <section aria-labelledby="sections-title" style="margin-top:2rem">

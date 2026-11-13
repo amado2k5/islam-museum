@@ -1,0 +1,162 @@
+---
+// "The Day, along the order of revelation" (Resurrection and Reckoning browser): three bands, one per kind of passage the
+// browser marks (resurrection, the Day, the reckoning), over one axis of the 114 surahs in the order they were revealed.
+// In each band a dot per surah, sized by the number of ayahs of that kind the browser holds in it, so the visitor sees where
+// in the course of revelation each theme is dense. Everything is computed here from the graph (site/src/lib/qiyama.ts,
+// sig-sura.ts); every dot is a real link to the first ayah it counts, so it works without JavaScript. The script
+// (site/src/scripts/sig-qiyama-revelation.ts) adds the cursor, the readout and the Mushaf-order toggle. A fourth panel
+// gives the same three kinds for the Sunnah as three numbers.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, href } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { qiyamaItems } from "../../lib/qiyama";
+import { surahNodes, checkSurahs, surahShort, ayahsBySurah, ayahId } from "../../lib/sig-sura";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const V = (ui(lang) as any).qiyama.viz;
+
+/** The three bands, top to bottom. The build fails when the browser's detector marks a passage with any other kind. */
+const KINDS = ["baath", "yawm", "hisab"] as const;
+
+// ---- the build fails if the graph no longer matches what the chart assumes
+checkSurahs("QiyamaRevelation");
+const stray = qiyamaItems.filter((i) => i.node.class === "passage" && i.kind && !(KINDS as readonly string[]).includes(i.kind));
+if (stray.length) throw new Error(`QiyamaRevelation: ${stray.length} passages carry a kind outside ${KINDS.join("/")}`);
+const perKind = KINDS.map((k) => ayahsBySurah(qiyamaItems, (i) => i.kind === k));
+for (const m of perKind) for (const [s, list] of m) for (const a of list) if (!byId.has(ayahId(s, a))) throw new Error(`QiyamaRevelation: ${ayahId(s, a)} is counted but has no passage page`);
+const peak = Math.max(0, ...perKind.flatMap((m) => [...m.values()].map((l) => l.length)));
+if (peak === 0) throw new Error("QiyamaRevelation: the browser holds no Qur'an ayah");
+const diam = (c: number) => Math.round(7 + 23 * Math.sqrt(c / peak));
+
+const sunnah = KINDS.map((k) => qiyamaItems.filter((i) => i.section === "sunnah" && i.node.class === "passage" && i.kind === k).length);
+const placeName = (p: string) => (p === "meccan" ? V.meccan : V.medinan);
+const rows = surahNodes.map((sn) => {
+  const s = sn.data.sura as number;
+  const c = perKind.map((m) => m.get(s)?.length ?? 0);
+  const a = perKind.map((m) => m.get(s)?.[0] ?? 0);
+  return { s, rev: sn.data.revelation_order as number, place: sn.data.revelation_place as string, name: surahShort(sn, lang), c, a };
+});
+const withTheme = rows.filter((r) => r.c.some((x) => x > 0)).length;
+const byRev = [...rows].sort((x, y) => x.rev - y.rev);
+const ticks = [1, ...Array.from({ length: Math.floor(rows.length / 10) }, (_, i) => (i + 1) * 10)];
+const digits = Array.from({ length: 10 }, (_, d) => num(d, lang)).join("");
+const ayahBase = href(lang, "passage/quran-").replace(/\/$/, "");
+const kindName = (k: string) => V[`k_${k}`];
+---
+<section aria-labelledby="qiyama-rev-title" class="sg-qr" data-sg-qr style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="qiyama-rev-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.note}</p>
+  </div>
+  <p class="sg-qr-head ui"><strong class="sg-qr-big">{num(withTheme, lang)}</strong> <span>{fmt(V.headline, { total: num(rows.length, lang) })}</span></p>
+  <ul class="sg-qr-legend ui" aria-label={V.legend_title}>
+    <li><i class="sg-qr-key dot" aria-hidden="true"></i>{V.legend_dot}</li>
+    <li><i class="sg-qr-key m" aria-hidden="true"></i>{V.meccan}</li>
+    <li><i class="sg-qr-key d" aria-hidden="true"></i>{V.medinan}</li>
+  </ul>
+  <p class="sg-qr-tools ui"><button type="button" class="sg-qr-toggle" data-sg-toggle aria-pressed="false" hidden>{V.toggle}</button><span class="muted" data-sg-order aria-live="polite">{V.order_rev}</span></p>
+  <div class="sg-qr-scroll" role="group" aria-label={V.title}>
+    <div class="sg-qr-stage" data-sg-stage
+         data-ayah={ayahBase} data-digits={digits} data-t-rev={V.order_rev} data-t-mush={V.order_mushaf}
+         data-t-info={V.read_info} data-t-count={V.n_ayahs} data-t-none={V.none}
+         data-t-k0={kindName("baath")} data-t-k1={kindName("yawm")} data-t-k2={kindName("hisab")}
+         data-t-meccan={V.meccan} data-t-medinan={V.medinan}>
+      {KINDS.map((k, ki) => (
+        <div class="sg-qr-band">
+          <p class="sg-qr-bl ui">{kindName(k)}</p>
+          <div class="sg-qr-row" data-sg-row>
+            {byRev.filter((r) => r.c[ki] > 0).map((r) => (
+              <a class="sg-qr-dot" href={href(lang, ayahId(r.s, r.a[ki]))} data-r={r.rev} data-m={r.s}
+                 aria-label={`${num(r.s, lang)} ${r.name} · ${placeName(r.place)} · ${kindName(k)}: ${fmt(V.n_ayahs, { n: num(r.c[ki], lang) })}`}
+                 style={`--r:${r.rev};--m:${r.s};--d:${diam(r.c[ki])}`}><i></i></a>
+            ))}
+          </div>
+        </div>
+      ))}
+      <ol class="sg-qr-axis" data-sg-axis role="list" aria-hidden="true">
+        {byRev.map((r) => (
+          <li class={r.place === "meccan" ? "m" : "d"} data-r={r.rev} data-m={r.s} data-name={r.name} data-p={r.place === "meccan" ? "m" : "d"}
+              data-c={r.c.join(",")} data-a={r.a.join(",")} style={`--r:${r.rev};--m:${r.s}`}></li>
+        ))}
+      </ol>
+      <ol class="sg-qr-ticks ui" role="list" aria-hidden="true">
+        {ticks.map((t) => <li style={`--t:${t}`}>{num(t, lang)}</li>)}
+      </ol>
+      <i class="sg-qr-cursor" aria-hidden="true"></i>
+    </div>
+  </div>
+  <p class="muted ui sg-qr-swipe">{V.swipe}</p>
+  <div class="sg-qr-readout ui panel" data-sg-readout aria-live="polite" hidden>
+    <p class="muted" data-sg-hint>{V.hint}</p>
+    <div data-sg-detail hidden>
+      <p class="sg-qr-rname"><strong data-f="name"></strong> <span class="muted" data-f="place"></span></p>
+      <p class="muted" data-f="info"></p>
+      <ul class="sg-qr-lines" role="list">
+        {KINDS.map((k) => <li data-f={`l-${k}`}><span class="sg-qr-lt"></span> <span class="sg-qr-lc"></span> <span class="sg-qr-lr"></span></li>)}
+      </ul>
+    </div>
+  </div>
+  <section class="sg-qr-sun panel ui" aria-labelledby="qiyama-sun-title">
+    <h3 id="qiyama-sun-title" style="font-size:1.05rem;margin:0 0 .2rem">{V.sun_title}</h3>
+    <p class="muted" style="margin:0 0 .6rem;max-width:var(--measure)">{V.sun_note}</p>
+    <ul class="sg-qr-sunl" role="list">
+      {KINDS.map((k, ki) => (
+        <li><a href={`/${lang}/qiyama/#t-sunnah`}><strong>{num(sunnah[ki], lang)}</strong> <span>{kindName(k)}</span></a></li>
+      ))}
+    </ul>
+  </section>
+  <p class="muted ui sg-qr-cap">{V.caption}</p>
+</section>
+<style is:inline>
+  .sg-qr { --w: 0px; --bh: 70px; --n: 114; }
+  @media (max-width: 760px) { .sg-qr { --w: 25px; } }
+  .sg-qr-head { margin: 0 0 .5rem; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+  .sg-qr-big { font-size: 2.6rem; line-height: 1; color: var(--gold-text); font-weight: 700; }
+  .sg-qr-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; padding: 0; margin: 0 0 .7rem; font-size: .86rem; color: var(--muted); }
+  .sg-qr-legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .sg-qr-key { display: inline-block; flex: none; }
+  .sg-qr-key.dot { inline-size: 14px; block-size: 14px; border-radius: 50%; background: color-mix(in srgb, var(--gold) 55%, var(--card)); border: 1.5px solid var(--gold-text); }
+  .sg-qr-key.m, .sg-qr-key.d { inline-size: 24px; block-size: 10px; border-radius: 2px; }
+  .sg-qr-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 .7rem; }
+  .sg-qr-toggle { min-block-size: 44px; padding: 0 1.1rem; border-radius: 999px; border: 1px solid var(--gold); background: transparent; color: var(--fg); font: inherit; font-size: .9rem; cursor: pointer; }
+  .sg-qr-toggle[aria-pressed="true"] { background: var(--gold); color: #0a2533; font-weight: 700; }
+  .sg-qr-toggle:focus-visible, .sg-qr a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-qr-scroll { overflow-x: auto; overflow-y: hidden; padding-block-end: 4px; }
+  .sg-qr-stage { position: relative; min-inline-size: calc(var(--n) * var(--w)); touch-action: pan-x pan-y; }
+  .sg-qr-band { margin-block-end: 8px; background: var(--card); border: 1px solid var(--line); border-radius: 8px; position: relative; }
+  .sg-qr-bl { position: sticky; inset-inline-start: 8px; z-index: 3; inline-size: max-content; max-inline-size: calc(100vw - 48px); margin: 0; padding: 6px 10px 0; font-size: .85rem; font-weight: 600; line-height: 1.3; color: var(--fg); }
+  .sg-qr-row { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); block-size: var(--bh); margin-block-start: -12px; }
+  .sg-qr-row::before { content: ""; position: absolute; inset-inline: 0; inset-block-end: calc(var(--bh) / 2); border-block-start: 1px dashed var(--line); pointer-events: none; }
+  .sg-qr-dot { position: relative; grid-row: 1; grid-column: var(--r); display: block; text-decoration: none; z-index: 1; }
+  .sg-qr-dot i { position: absolute; inset-inline-start: 50%; inset-block-start: 50%; inline-size: calc(var(--d) * 1px); block-size: calc(var(--d) * 1px); margin-block-start: calc(var(--d) * -.5px); margin-inline-start: calc(var(--d) * -.5px); border-radius: 50%; background: color-mix(in srgb, var(--gold) 52%, var(--card)); border: 1.5px solid var(--gold-text); }
+  .sg-qr-dot:hover i, .sg-qr-dot:focus-visible i { background: var(--gold); }
+  .sg-qr-mush .sg-qr-dot { grid-column: var(--m); }
+  .sg-qr-axis { list-style: none; margin: 4px 0 0; padding: 0; display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); }
+  .sg-qr-axis li { grid-row: 1; grid-column: var(--r); block-size: 10px; }
+  .sg-qr-mush .sg-qr-axis li { grid-column: var(--m); }
+  .sg-qr-axis li.m { background: color-mix(in srgb, var(--link) 60%, var(--bg)); }
+  .sg-qr-axis li.d { background: color-mix(in srgb, var(--gold) 70%, var(--bg)) repeating-linear-gradient(135deg, transparent 0 3px, color-mix(in srgb, var(--gold-text) 60%, transparent) 3px 4px); }
+  .sg-qr-key.m { background: color-mix(in srgb, var(--link) 60%, var(--bg)); }
+  .sg-qr-key.d { background: color-mix(in srgb, var(--gold) 70%, var(--bg)) repeating-linear-gradient(135deg, transparent 0 3px, color-mix(in srgb, var(--gold-text) 60%, transparent) 3px 4px); }
+  .sg-qr-ticks { list-style: none; margin: 2px 0 0; padding: 0; display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); font-size: .75rem; line-height: 1.4; color: var(--muted); }
+  .sg-qr-ticks li { grid-column: var(--t); grid-row: 1; justify-self: center; white-space: nowrap; }
+  .sg-qr-cursor { position: absolute; inset-block: 0; inset-inline-start: calc((var(--i, 0) - .5) / var(--n) * 100%); margin-inline-start: -1px; inline-size: 2px; background: var(--fg); opacity: 0; pointer-events: none; z-index: 2; }
+  .sg-qr-stage.has-cursor .sg-qr-cursor { opacity: .55; }
+  .sg-qr-swipe { display: none; margin: .3rem 0 0; font-size: .85rem; }
+  @media (max-width: 760px) { .sg-qr-swipe { display: block; } }
+  .sg-qr-readout { margin-block: .9rem 0; border: 1px solid var(--gold); min-block-size: 9rem; padding: 12px 16px; }
+  .sg-qr-readout p { margin: .2rem 0; }
+  .sg-qr-rname { font-size: 1.15rem; }
+  .sg-qr-lines { list-style: none; margin: .4rem 0 0; padding: 0; }
+  .sg-qr-lines li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; padding-block: 2px; }
+  .sg-qr-lt { font-weight: 700; color: var(--gold-text); }
+  .sg-qr-lines a { display: inline-flex; align-items: center; min-block-size: 24px; padding-inline: 6px; }
+  .sg-qr-sun { margin-block-start: 1rem; padding: 14px 16px; }
+  .sg-qr-sunl { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 12px; }
+  .sg-qr-sunl a { display: inline-flex; align-items: baseline; gap: 8px; min-block-size: 44px; padding: 6px 14px; border: 1px solid var(--gold); border-radius: 999px; text-decoration: none; color: var(--fg); background: var(--card); }
+  .sg-qr-sunl strong { font-size: 1.4rem; color: var(--gold-text); }
+  .sg-qr-sunl a:hover { background: color-mix(in srgb, var(--gold) 20%, var(--card)); }
+  .sg-qr-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+</style>
+<script src="../../scripts/sig-qiyama-revelation.ts"></script>
