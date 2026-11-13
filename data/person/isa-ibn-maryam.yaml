@@ -13,6 +13,7 @@ periods: [period/pre-islamic-arabia]
 story_roles:
   - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
 relations:
+  - { type: child_of, target: person/maryam, note: "ابن مريم بنص القرآن: آل عمران 45 ومريم 34.", sources: [source/tanzil-quran] }
   - { type: born_in, target: place/herodian-kingdom-of-judea, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: "own-research"
