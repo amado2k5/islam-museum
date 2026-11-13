@@ -1,0 +1,129 @@
+---
+// The Battles Browser's first signature view: a stacked histogram of the browser's dated records by Hijri century,
+// the stack split by five families of the eleven engagement kinds (lib/battles.ts, centuryHistogram). Drawn at build
+// time from the graph; the legend names the kinds of each family from the browser's own kind labels. A column is not a
+// link (no era page maps to a century) but it is a focusable button: the script shows its counts, and the same counts
+// are in a table below for readers without it.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { num } from "../../lib/nav";
+import { KIND_FAMILIES, battleNodes, centuryHistogram } from "../../lib/battles";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const B = (ui(lang) as any).battles;
+const V = B.viz;
+const { bins, unplaced, placed } = centuryHistogram();
+if (placed + unplaced !== battleNodes.length) throw new Error("battles: the century histogram does not account for every record");
+if (bins.reduce((s, b) => s + b.total, 0) !== placed) throw new Error("battles: the century bins do not add up to the dated records");
+const max = Math.max(...bins.map((b) => b.total));
+const list = new Intl.ListFormat(lang, { type: "conjunction" });
+const famLabel = (id: string) => {
+  const f = KIND_FAMILIES.find((x) => x.id === id)!;
+  const s = list.format(f.kinds.map((k) => B.kinds_plural[k] ?? B.kinds[k] ?? k));
+  return s.charAt(0).toLocaleUpperCase(lang) + s.slice(1);
+};
+const centuryName = (b: { century: number }) => fmt(V.cent_century, { n: num(b.century, lang) });
+const beginsText = (b: { startCE: number }) => fmt(V.cent_begins, { y: num(b.startCE, lang).replace(/[,٬،]/g, "") });
+const totalText = (n: number) => fmt(V.cent_total, { n: num(n, lang) });
+const ariaOf = (b: (typeof bins)[number]) => `${centuryName(b)}, ${beginsText(b)}: ${totalText(b.total)}. ` + KIND_FAMILIES.map((f) => `${famLabel(f.id)} ${num(b.byFamily[f.id], lang)}`).join("; ");
+---
+<section class="sg-bc" data-sg-bc aria-labelledby="sg-bc-title" style="margin-top:2rem">
+  <div data-pagefind-body>
+    <h2 id="sg-bc-title">{V.cent_title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{fmt(V.cent_caption, { placed: num(placed, lang), unplaced: num(unplaced, lang), total: num(battleNodes.length, lang) })}</p>
+  </div>
+  <ul class="sg-bc-legend ui" aria-label={V.cent_legend}>
+    {KIND_FAMILIES.map((f) => <li><i class={`sg-bc-sw ${f.id}`} aria-hidden="true"></i>{famLabel(f.id)}</li>)}
+  </ul>
+  <div class="sg-bc-chart" data-sg-bc-chart>
+    <ol class="sg-bc-cols" role="group" aria-label={V.cent_group}>
+      {bins.map((b) => (
+        <li>
+          <button type="button" class="sg-bc-col" data-c={b.century} aria-label={ariaOf(b)}>
+            <span class="sg-bc-plot" aria-hidden="true">
+              <span class="sg-bc-tot">{num(b.total, lang)}</span>
+              <span class="sg-bc-bar" style={`--p:${(b.total / max).toFixed(4)}`}>
+                {KIND_FAMILIES.map((f) => b.byFamily[f.id] > 0 && <span class={`sg-bc-seg ${f.id}`} style={`flex-grow:${b.byFamily[f.id]}`}></span>)}
+              </span>
+            </span>
+            <span class="sg-bc-ah" aria-hidden="true">{num(b.century, lang)}</span>
+            <span class="sg-bc-ce" aria-hidden="true">{num(b.startCE, lang).replace(/[,٬،]/g, "")}</span>
+          </button>
+        </li>
+      ))}
+    </ol>
+    <p class="ui muted sg-bc-axis">{V.cent_axis}</p>
+    <div class="sg-bc-read ui" aria-live="polite" data-sg-bc-read><p class="muted" data-sg-bc-hint style="margin:0">{V.cent_hint}</p></div>
+    {bins.map((b) => (
+      <div class="sg-bc-card" hidden data-sg-bc-card={b.century}>
+        <p class="sg-bc-head"><strong>{centuryName(b)}</strong> · {beginsText(b)} · {totalText(b.total)}</p>
+        <ul>
+          {KIND_FAMILIES.map((f) => <li><i class={`sg-bc-sw ${f.id}`} aria-hidden="true"></i><span>{famLabel(f.id)}</span><b>{num(b.byFamily[f.id], lang)}</b></li>)}
+        </ul>
+      </div>
+    ))}
+  </div>
+  <details class="sg-bc-table ui">
+    <summary>{V.cent_table}</summary>
+    <div class="sg-bc-scroll" tabindex="0" role="region" aria-label={V.cent_table}>
+      <table>
+        <thead><tr><th scope="col">{V.th_century}</th><th scope="col">{V.th_begins}</th>{KIND_FAMILIES.map((f) => <th scope="col">{famLabel(f.id)}</th>)}<th scope="col">{V.th_total}</th></tr></thead>
+        <tbody>
+          {bins.map((b) => (
+            <tr><th scope="row">{num(b.century, lang)}</th><td>{num(b.startCE, lang).replace(/[,٬،]/g, "")}</td>{KIND_FAMILIES.map((f) => <td>{num(b.byFamily[f.id], lang)}</td>)}<td>{num(b.total, lang)}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </details>
+</section>
+<style is:inline>
+  .sg-bc { --sg-f1: var(--link); --sg-f2: var(--gold); --sg-f3: color-mix(in srgb, var(--link) 38%, var(--card)); }
+  .sg-bc-sw { display: inline-block; flex: none; width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--line); }
+  .sg-bc-sw.f1, .sg-bc-seg.f1 { background: var(--sg-f1); }
+  .sg-bc-sw.f2, .sg-bc-seg.f2 { background: var(--sg-f2); }
+  .sg-bc-sw.f3, .sg-bc-seg.f3 { background: var(--sg-f3); }
+  .sg-bc-sw.f4, .sg-bc-seg.f4 { background: repeating-linear-gradient(45deg, var(--muted) 0 2px, var(--card) 2px 5px); }
+  .sg-bc-sw.f5, .sg-bc-seg.f5 { background: repeating-linear-gradient(-45deg, var(--gold) 0 2px, var(--card) 2px 5px); }
+  .sg-bc-legend { list-style: none; padding: 0; margin: 0 0 .8rem; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .85rem; }
+  .sg-bc-legend li { display: inline-flex; align-items: center; gap: 7px; }
+  .sg-bc-chart { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 10px 14px; }
+  .sg-bc-cols { list-style: none; margin: 0; padding: 0; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 2px; }
+  .sg-bc-cols li { min-width: 0; }
+  .sg-bc-col { display: flex; flex-direction: column; align-items: stretch; width: 100%; padding: 0; margin: 0; border: 0; background: none; color: var(--fg); font: inherit; cursor: pointer; border-radius: 6px; text-align: center; }
+  .sg-bc-plot { display: flex; flex-direction: column; justify-content: flex-end; height: 230px; border-bottom: 2px solid var(--line); }
+  .sg-bc-tot { display: none; height: 18px; font-size: .75rem; line-height: 18px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .sg-bc-bar { display: flex; flex-direction: column-reverse; height: calc((100% - 18px) * var(--p)); margin-inline: 2px; border-radius: 4px 4px 0 0; overflow: hidden; transition: filter .15s ease; }
+  .sg-bc-seg { flex-basis: 0; flex-shrink: 1; min-height: 0; box-shadow: 0 -1px 0 var(--card); }
+  .sg-bc-ah { margin-top: 6px; font-size: .8rem; font-weight: 700; line-height: 1.3; }
+  .sg-bc-ce { font-size: .75rem; color: var(--muted); line-height: 1.3; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .sg-bc-cols li:not(:nth-child(3n+1)) .sg-bc-ce { visibility: hidden; }
+  .sg-bc-col:hover .sg-bc-bar, .sg-bc-col:focus-visible .sg-bc-bar { filter: brightness(1.12) saturate(1.2); }
+  .sg-bc-col:hover .sg-bc-plot, .sg-bc-col:focus-visible .sg-bc-plot { border-bottom-color: var(--gold-text); }
+  .sg-bc-col:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-bc-col.is-sel .sg-bc-plot { border-bottom: 3px solid var(--gold-text); }
+  .sg-bc-col.is-sel .sg-bc-ah { color: var(--gold-text); text-decoration: underline; text-underline-offset: 3px; }
+  .sg-bc-chart.has-sel .sg-bc-col:not(.is-sel) .sg-bc-bar { opacity: .5; }
+  .sg-bc-axis { margin: .7rem 0 0; font-size: .82rem; }
+  .sg-bc-read { margin-top: .8rem; padding: 12px 14px; border-radius: 10px; background: var(--panel); min-height: 3.2rem; }
+  .sg-bc-head { margin: 0 0 .5rem; }
+  .sg-bc-read ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px 24px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+  .sg-bc-read li { display: flex; align-items: center; gap: 8px; font-size: .9rem; }
+  .sg-bc-read li span { flex: 1; min-width: 0; }
+  .sg-bc-read li b { font-variant-numeric: tabular-nums; }
+  .sg-bc-table { margin-top: .8rem; }
+  .sg-bc-table summary { cursor: pointer; min-height: 44px; display: inline-flex; align-items: center; }
+  .sg-bc-scroll { overflow-x: auto; }
+  .sg-bc-table table { border-collapse: collapse; font-size: .85rem; min-width: 100%; }
+  .sg-bc-table th, .sg-bc-table td { padding: 5px 10px; border-bottom: 1px solid var(--line); text-align: start; vertical-align: top; }
+  .sg-bc-table td { font-variant-numeric: tabular-nums; }
+  @media (min-width: 700px) {
+    .sg-bc-chart { padding: 22px 18px 16px; }
+    .sg-bc-cols { gap: 8px; }
+    .sg-bc-tot { display: block; }
+    .sg-bc-cols li:not(:nth-child(3n+1)) .sg-bc-ce { visibility: visible; }
+    .sg-bc-plot { height: 280px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-bc-bar { transition: none; } }
+</style>
+<script src="../../scripts/sig-battles-centuries.ts"></script>

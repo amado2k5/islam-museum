@@ -4,6 +4,7 @@
 // this page only; no shared layout carries a number (docs/site/README.md).
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import CompanionList from "../../../components/CompanionList.astro";
+import CompanionsGeneration from "../../../components/sig/CompanionsGeneration.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
@@ -31,6 +32,8 @@ const facet = (path: string, id: string, n: number, text = label(id)) => ({ path
       <p style="font-size:1.2rem;max-width:var(--measure)">{C.lede}</p>
       <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
     </div>
+
+    <CompanionsGeneration lang={lang} />
 
     {companions.ten.length > 0 && (
       <section aria-labelledby="ten-title" style="margin-top:2rem">

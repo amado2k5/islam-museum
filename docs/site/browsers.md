@@ -121,3 +121,7 @@ Pagefind indexes what sits inside `data-pagefind-body`. Entity pages carry it on
 ## 5. Adding a browser or explorer
 
 The checklist is `docs/engineering/10-extensibility.md` §2.7. In short: a plan document and a row in the plan index; records as classes and kinds in the graph (schema through `npm run schema`, predicates registered, validator rules, tests); the pages under `site/src/pages/[lang]/<feature>/` reading the compiled graph, readable without JavaScript, trilingual in the same commit, with the Pagefind header block; the feature's API export and its three documentation lines; the Explore menu entry and the landing card when the home is ready; the lane row, the status row, this register and the canary entry; the founder deploys.
+
+## Signature views
+
+Each browser's own opening view (the Prophets' Tree, the ninety-nine beads, the river of reigns and the rest) is registered, with its data source and build check, in [`docs/site/signature-views.md`](signature-views.md). A browser's row here is not complete until its view is listed there.

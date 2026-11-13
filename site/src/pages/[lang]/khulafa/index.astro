@@ -6,6 +6,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { labelOf, summaryOf } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
+import KhulafaRiver from "../../../components/sig/KhulafaRiver.astro";
 import { khulafaNodes, politySections, claimSections, reignOf, CLAIM_POLITIES } from "../../../lib/khulafa";
 const CLAIM_SET = new Set<string>(CLAIM_POLITIES);
 
@@ -28,6 +29,8 @@ const span = (n: any) => { const r = reignOf(n)!; return `${r.start ?? ""}–${r
       <p class="panel" style="max-width:var(--measure);border:1px solid var(--gold)">{K.note}</p>
       <p class="panel ui" style="max-width:var(--measure)">{status}</p>
     </div>
+
+    <KhulafaRiver lang={lang} />
 
     <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:1.5rem 0">
       <label for="khulafa-filter">{K.filter_label}</label>

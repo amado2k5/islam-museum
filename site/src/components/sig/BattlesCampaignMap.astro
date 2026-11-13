@@ -1,0 +1,153 @@
+---
+// The Battles Browser's second signature view: the Prophet's campaigns (the ghazawat and saraya the browser derives,
+// lib/battles.ts) drawn on a map of Arabia. A dot is a campaign whose place record has coordinates, numbered along the
+// timeline order; the ordered list beside the map carries every campaign, located or not, with its number, name and
+// date, and highlights with the dot. Land from the same self-hosted outline MiniMap draws (lib/sig-map.ts); events at
+// one place are fanned out around it so each dot can be seen, which the caption says.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { formatAH, formatDate, startOf } from "../../lib/dates";
+import { propheticCampaignPoints } from "../../lib/battles";
+import { makeFrame } from "../../lib/sig-map";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const B = (ui(lang) as any).battles;
+const V = B.viz;
+const short = (id: string, n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const items = propheticCampaignPoints().map((p, i) => ({ ...p, i: i + 1 }));
+const located = items.filter((p) => p.at);
+if (located.length < 2) throw new Error("battles: fewer than two prophetic campaigns have a located place; the map has nothing to draw");
+const frame = makeFrame(located.map((p) => p.at!), { width: 600, pad: 0.06, minAspect: 0.8, maxAspect: 1.5, minSpan: 6 });
+const f = (n: number) => Math.round(n * 10) / 10;
+
+// Campaigns at or near one place would hide each other, so they are grouped (places within CLUSTER map units, about 50 km
+// at this scale, join one group) and a group's events fan out around its centre in date order: one in the middle, then rings of six, twelve and eighteen.
+const CLUSTER = 18, RINGS = [1, 6, 12, 18, 24], RING_R = [0, 18, 35, 53, 70];
+const slot = (k: number): [number, number] => {
+  let start = 0;
+  for (let r = 0; r < RINGS.length; r++) {
+    if (k < start + RINGS[r]) { const a = ((k - start) / RINGS[r]) * 2 * Math.PI - Math.PI / 2; return r === 0 ? [0, 0] : [Math.cos(a) * RING_R[r], Math.sin(a) * RING_R[r]]; }
+    start += RINGS[r];
+  }
+  throw new Error("battles: a place group holds more campaigns than the fan has room for; widen RINGS in BattlesCampaignMap.astro");
+};
+const pos = located.map((p) => [frame.X(p.at![1]), frame.Y(p.at![0])]);
+const grp = located.map((_, i) => i);
+const rootOf = (i: number): number => (grp[i] === i ? i : (grp[i] = rootOf(grp[i])));
+for (let i = 0; i < located.length; i++) for (let j = 0; j < i; j++) if (Math.hypot(pos[i][0] - pos[j][0], pos[i][1] - pos[j][1]) < CLUSTER) grp[rootOf(i)] = rootOf(j);
+const clusters = new Map<number, number[]>();
+located.forEach((_, i) => clusters.set(rootOf(i), [...(clusters.get(rootOf(i)) ?? []), i]));
+const dots: ((typeof located)[number] & { x: number; y: number })[] = [];
+const cands: { text: string; cx: number; cy: number; reach: number; size: number }[] = [];
+for (const members of clusters.values()) {
+  const cx = members.reduce((s, i) => s + pos[i][0], 0) / members.length, cy = members.reduce((s, i) => s + pos[i][1], 0) / members.length;
+  members.forEach((i, k) => { const [dx, dy] = slot(k); dots.push({ ...located[i], x: f(cx + dx), y: f(cy + dy) }); });
+  if (members.length >= 2) {
+    // the group is named after the place most of its campaigns happened at
+    const tally = new Map<string, number>();
+    for (const i of members) tally.set(located[i].place!.id, (tally.get(located[i].place!.id) ?? 0) + 1);
+    const top = [...tally.entries()].sort((a, b) => b[1] - a[1])[0][0];
+    const reach = members.length > 37 ? 70 : members.length > 19 ? 53 : members.length > 7 ? 35 : members.length > 1 ? 18 : 0;
+    cands.push({ text: short(top, located[members.find((i) => located[i].place!.id === top)!].place), cx, cy, reach: reach + 9, size: members.length });
+  }
+}
+// a printed name goes below its group, else above, else beside it, wherever it covers no dot and no name already placed
+type Box = { x0: number; y0: number; x1: number; y1: number };
+const taken: Box[] = dots.map((d) => ({ x0: d.x - 9, y0: d.y - 9, x1: d.x + 9, y1: d.y + 9 }));
+const hit = (b: Box) => b.x0 < 0 || b.y0 < 0 || b.x1 > frame.width || b.y1 > frame.height || taken.some((o) => b.x0 < o.x1 && b.x1 > o.x0 && b.y0 < o.y1 && b.y1 > o.y0);
+const names: { text: string; x: number; y: number }[] = [];
+for (const c of cands.sort((a, b) => b.size - a.size)) {
+  const w = c.text.length * 6.6 + 4;
+  const tries = [0, 12, 26, 44].flatMap((o) => [[0, c.reach + 12 + o, "m"], [0, -c.reach - 4 - o, "m"], [c.reach + 4 + o, 4, "s"], [-c.reach - 4 - o, 4, "e"]] as const);
+  for (const [dx, dy, anchor] of tries) {
+    const x = c.cx + dx, y = c.cy + dy;
+    const x0 = anchor === "m" ? x - w / 2 : anchor === "s" ? x : x - w;
+    const box = { x0, y0: y - 12, x1: x0 + w, y1: y + 4 };
+    if (hit(box)) continue;
+    taken.push(box);
+    names.push({ text: c.text, x: f(anchor === "m" ? x : x), y: f(y), anchor: anchor === "m" ? "middle" : anchor === "s" ? "start" : "end" } as any);
+    break;
+  }
+}
+dots.sort((a, b) => a.i - b.i);
+const dateOf = (n: any) => { const s = startOf(n.data); return s?.hijri ? formatAH(s.hijri, lang) : formatDate(s, lang).text; };
+const rest = items.length - located.length;
+---
+<section class="sg-bm" data-sg-bm aria-labelledby="sg-bm-title" style="margin-top:2.4rem">
+  <div data-pagefind-body>
+    <h2 id="sg-bm-title">{V.map_title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{fmt(V.map_caption, { located: num(located.length, lang), total: num(items.length, lang), rest: num(rest, lang) })}</p>
+  </div>
+  <ul class="sg-bm-legend ui" aria-label={V.map_legend}>
+    <li><svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><circle cx="10" cy="10" r="8" class="sg-bm-dot ghazwa" /></svg>{B.ghazwa_tag}</li>
+    <li><svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><circle cx="10" cy="10" r="8" class="sg-bm-dot sariya" /></svg>{B.sariya_tag}</li>
+  </ul>
+  <div class="sg-bm-wrap">
+    <svg class="sg-bm-svg" viewBox={`0 0 ${frame.width} ${frame.height}`} role="group" aria-label={V.map_aria} direction="ltr">
+      <path d={frame.landD} class="sg-bm-land" />
+      {names.map((n) => <text x={n.x} y={n.y} text-anchor={(n as any).anchor} class="sg-bm-place" aria-hidden="true">{n.text}</text>)}
+      {dots.map((p) => (
+        <a href={href(lang, p.node.id)} class="sg-bm-pt" data-i={p.i}>
+          <title>{`${num(p.i, lang)}. ${short(p.node.id, p.node)}`}</title>
+          <circle cx={p.x} cy={p.y} r="12" class="sg-bm-hit" />
+          <circle cx={p.x} cy={p.y} r="7.5" class={`sg-bm-dot ${p.ghazwa ? "ghazwa" : "sariya"}`} />
+          <text x={p.x} y={p.y} class={`sg-bm-n ${p.ghazwa ? "ghazwa" : "sariya"}`} text-anchor="middle" dominant-baseline="central">{num(p.i, lang)}</text>
+        </a>
+      ))}
+    </svg>
+    <div class="sg-bm-listbox">
+      <h3 class="ui sg-bm-listtitle">{V.map_list}</h3>
+      <ol class="sg-bm-list ui" data-sg-bm-list>
+        {items.map((p) => (
+          <li data-i={p.i} class={p.at ? "" : "is-off"}>
+            <a href={href(lang, p.node.id)}>
+              <span class="sg-bm-num">{num(p.i, lang)}</span>
+              <span class="sg-bm-nm">{short(p.node.id, p.node)}<small class="muted">{dateOf(p.node)}{p.at ? "" : ` · ${V.map_nopoint}`}</small></span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </div>
+</section>
+<style is:inline>
+  .sg-bm-legend { list-style: none; padding: 0; margin: 0 0 .8rem; display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: .88rem; }
+  .sg-bm-legend li { display: inline-flex; align-items: center; gap: 7px; }
+  .sg-bm-wrap { display: grid; gap: 16px; align-items: start; }
+  .sg-bm-svg { display: block; width: 100%; height: auto; background: var(--panel); border-radius: 14px; border: 1px solid var(--line); direction: ltr; }
+  .sg-bm-land { fill: var(--fg); fill-opacity: .12; stroke: var(--fg); stroke-opacity: .35; stroke-width: 1; }
+  .sg-bm-place { font-size: 13px; fill: var(--muted); paint-order: stroke; stroke: var(--panel); stroke-width: 3px; stroke-linejoin: round; font-style: italic; }
+  .sg-bm-hit { fill: transparent; }
+  .sg-bm-dot.ghazwa { fill: var(--gold); stroke: var(--fg); stroke-width: 1.2; }
+  .sg-bm-dot.sariya { fill: var(--card); stroke: var(--gold-text); stroke-width: 2.2; }
+  .sg-bm-n { font-size: 9px; font-weight: 700; pointer-events: none; font-family: inherit; }
+  .sg-bm-n.ghazwa { fill: var(--lapis); }
+  .sg-bm-n.sariya { fill: var(--fg); }
+  .sg-bm-pt { cursor: pointer; outline: none; }
+  .sg-bm-pt .sg-bm-dot { transition: transform .15s ease; transform-box: fill-box; transform-origin: center; }
+  .sg-bm-pt:hover .sg-bm-dot, .sg-bm-pt.is-hot .sg-bm-dot { transform: scale(1.5); stroke: var(--focus); stroke-width: 2.4; }
+  .sg-bm-pt:focus-visible .sg-bm-dot { transform: scale(1.5); stroke: var(--focus); stroke-width: 3; }
+  .sg-bm-pt:hover, .sg-bm-pt.is-hot { isolation: isolate; }
+  .sg-bm-svg.has-hot .sg-bm-pt:not(.is-hot) { opacity: .45; }
+  .sg-bm-listbox { min-width: 0; }
+  .sg-bm-listtitle { margin: 0 0 .4rem; font-size: .95rem; }
+  .sg-bm-list { list-style: none; margin: 0; padding: 0; max-height: 360px; overflow-y: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
+  .sg-bm-list li + li { border-top: 1px solid var(--line); }
+  .sg-bm-list a { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 5px 12px; text-decoration: none; color: var(--fg); }
+  .sg-bm-list a:hover, .sg-bm-list li.is-hot a { background: var(--panel); }
+  .sg-bm-list a:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
+  .sg-bm-num { flex: none; min-width: 2.1em; height: 2.1em; border-radius: 999px; display: inline-flex; align-items: center; justify-content: center; background: var(--gold); color: var(--lapis); font-size: .8rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .sg-bm-list li.is-off .sg-bm-num { background: transparent; border: 1px dashed var(--line); color: var(--muted); }
+  .sg-bm-nm { display: flex; flex-direction: column; min-width: 0; line-height: 1.35; }
+  .sg-bm-nm small { font-size: .78rem; }
+  .sg-bm-list li.is-hot .sg-bm-nm { font-weight: 700; }
+  @media (min-width: 900px) {
+    .sg-bm-wrap { grid-template-columns: minmax(0, 1.5fr) minmax(280px, 1fr); }
+    .sg-bm-list { max-height: 560px; }
+  }
+  @media (max-width: 640px) { .sg-bm-n { display: none; } }
+  @media (prefers-reduced-motion: reduce) { .sg-bm-pt .sg-bm-dot { transition: none; } }
+</style>
+<script src="../../scripts/sig-battles-map.ts"></script>

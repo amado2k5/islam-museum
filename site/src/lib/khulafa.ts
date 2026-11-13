@@ -4,6 +4,7 @@
 // inverse of during_reign. Counts are read at build time on the browser's pages only.
 import { realNodes, edgesFrom, byId } from "./graph";
 import type { Node } from "../../../scripts/build-graph";
+import { civilToHijri } from "../../../scripts/hijri/convert";
 
 /** Caliphates in display order; the three claim polities come last. */
 export const CALIPHATES = [
@@ -36,9 +37,13 @@ export function reignOf(n: Node): Reign | null {
   return { role: r.role, toward: r.toward, start: r.start?.edtf, end: r.end?.edtf };
 }
 
+/** The year (and month) of an EDTF start or end ("0632", "661", "0661-08~"): a number, so unpadded years sort with padded ones. */
+const edtfParts = (s?: string) => { const m = String(s ?? "").match(/^(-?\d{1,4})(?:-(\d{2}))?/); return m ? { y: Number(m[1]), m: m[2] ? Number(m[2]) : undefined } : null; };
+const startYearOf = (n: Node) => edtfParts(reignOf(n)!.start)?.y ?? Infinity;
+
 export const khulafaNodes: Node[] = realNodes
   .filter((n) => n.class === "person" && reignOf(n))
-  .sort((a, b) => String(reignOf(a)!.start ?? "").localeCompare(String(reignOf(b)!.start ?? "")));
+  .sort((a, b) => startYearOf(a) - startYearOf(b));
 
 export const khulafaBySlug = new Map(khulafaNodes.map((n) => [n.slug, n]));
 
@@ -90,4 +95,49 @@ export function realmPlacesOf(personId: string): Node[] {
     if (t?.class === "place" && (t.data as any).lat != null) out.push(t);
   }
   return out;
+}
+
+// ---- The river of reigns (site/src/components/sig/KhulafaRiver.astro): every reign as a span on one Hijri axis.
+/** A CE year (and month, when the record gives one) as a decimal Hijri year, by the museum's own converter. A year-only date is read at mid-year. */
+export function ceToAH(y: number, m?: number): number {
+  const cal = y < 1582 ? "julian" : "gregorian";
+  const h = civilToHijri(cal, { y, m: m ?? 7, d: m ? 15 : 1 }).date;
+  return h.y + (h.m - 1) / 12 + (h.d - 1) / 354;
+}
+
+export interface ReignSpan {
+  node: Node; polity: string; claim: boolean;
+  /** CE years as recorded; the end is the next caliph's accession when the record has none ("next"), or missing ("none"). */
+  startCE: number; endCE: number | null; endBasis: "recorded" | "next" | "none";
+  /** Decimal Hijri years, derived from the CE years. */
+  s: number; e: number | null;
+  lengthYears: number | null;
+}
+export interface ReignLane { polity: Node; claim: boolean; spans: ReignSpan[] }
+
+/** One lane per caliphate (the lib's order, claims last) with its reigns on the Hijri axis. Throws when a chain member has no reign start. */
+export function reignLanes(): ReignLane[] {
+  const lanes: ReignLane[] = [];
+  for (const [list, claim] of [[politySections, false], [claimSections, true]] as const) {
+    for (const { polity, caliphs } of list) {
+      const starts = caliphs.map((n) => {
+        const p = edtfParts(reignOf(n)!.start);
+        if (!p) throw new Error(`The river of reigns: ${n.id} has no reign start in the ${polity.id} chain`);
+        return p;
+      });
+      const spans = caliphs.map((n, i): ReignSpan => {
+        const r = reignOf(n)!;
+        const endP = edtfParts(r.end);
+        let endCE: number | null = endP ? endP.y : null;
+        let endBasis: ReignSpan["endBasis"] = endP ? "recorded" : "none";
+        let endM = endP?.m;
+        if (!endP && starts[i + 1]) { endCE = starts[i + 1].y; endM = starts[i + 1].m; endBasis = "next"; }
+        const s = ceToAH(starts[i].y, starts[i].m);
+        const e = endCE != null ? Math.max(s, ceToAH(endCE, endM)) : null;
+        return { node: n, polity: polity.id, claim, startCE: starts[i].y, endCE, endBasis, s, e, lengthYears: endCE != null ? Math.max(0, endCE - starts[i].y) : null };
+      });
+      lanes.push({ polity, claim, spans });
+    }
+  }
+  return lanes;
 }
