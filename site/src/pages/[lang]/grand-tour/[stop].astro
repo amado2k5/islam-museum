@@ -22,6 +22,8 @@ const prev = stops[index - 1], next = stops[index + 1];
 const lead = leadOf(s, lang);
 if (!lead) throw new Error(`grand tour: ${s.id} has no ${lang} prose`);
 const r = renderProse(lead.markdown, lang, newHonState());
+// The narrative is AI text until a human reads it; the record says so in its data and the room repeats it.
+const aiNarrative = !!(n.data.status?.ai_unread || (n.data as any).provenance?.lead_deepened);
 const date = dateText(s, lang);
 const second = lang === "ar" ? n.label.en : n.label.ar;
 const doors = sideDoors(s, lang);
@@ -44,7 +46,10 @@ const comma = lang === "ar" ? "، " : ", ";
     <div class="wrap gt-room">
       <GrandTourRibbon lang={lang} walk={s.walk} />
       <div class="gt-body">
-        <div class="prose gt-narrative" set:html={r.html} />
+        <div class="gt-narrative-col">
+          <div class="prose gt-narrative" set:html={r.html} />
+          {aiNarrative && <p class="draft-note ui muted" role="note" style="font-size:.9rem;max-width:42rem">{T.status.ai_narrative}</p>}
+        </div>
         <aside class="gt-aside ui">
           <p class="panel gt-why"><b>{G.why}</b>{why.map((w) => <span class="gt-why-i">{w}</span>)}</p>
           {r.cites.length > 0 && (

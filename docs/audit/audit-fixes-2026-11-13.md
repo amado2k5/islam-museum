@@ -286,3 +286,19 @@ Each line is an address and what to do there. Arabic and English behave alike; c
 The founder approved merging the pairs that are the same person. Both records of every pair were read before merging: **51 merged** (`scripts/audit/merge-person.py`, which now also adds to an existing alias list), **24 left as different people** (pairs 1, 9, 12, 16, 20, 21, 28, 33, 40, 51, 52, 53, 54, 55, 56, 59, 61, 63, 64, 69, 70, 72, 74, 76), **2 undecided** (26, the two Umayr ibn Wahb al-Jumahi records; 71, al-Harith ibn Badr and Haritha ibn Badr al-Ghudani). The verdicts rest on the names, dates and summaries the records carry, not on a fresh reading of the biographical dictionaries. Pair numbers are the order of `docs/audit/data/s7-candidates.json`. In pair 11 the record kept is `person/dawud-al-zahiri`, the canon member, so the canon register is unchanged. The merge script carries sources, relations, names, identifiers and prose; 83 further fields that only the removed record held (roles, regions, periods, gender, faith with its basis, story roles, one "did you know" fact and the like) were carried over word for word in a second pass, checked field by field. A birth or death date held only by the removed record was not carried in five pairs (17, 27, 42, 43, 66), by the script's rule for dates from the date-enrichment pass. The same check on the 15 pairs merged earlier in this run found 9 fields left behind on 7 of them (faith, periods, themes, occupations); they were carried over the same way. The script itself still carries only the kinds named in its header: run the field check after it.
 
 Pairs 26 and 71 were settled the same day and merged on the founder's word: for 26, a companion biography compilation (sahaba.rasoolona.com, entry for Umayr ibn Wahb ibn Khalaf al-Jumahi) carries both the Tabuk report and the reinforcement to Egypt; for 71, al-Tabari on 5:34 (reports 11879 to 11881, read on quran.ksu.edu.sa) tells the story of Haritha ibn Badr, whom the editor's note identifies as al-Ghudani. Kept: `person/umayr-ibn-wahb-al-jumahi` (the published record) and `person/haritha-ibn-badr`. `merge-person.py` now carries every field only the removed record held, so the separate field check is no longer needed. Final count for the 77 pairs: 53 merged, 24 different people.
+
+## Founder decisions on Part VI, 13 November 2026
+
+Recorded in `docs/decisions/inbox/audit-part-vi-founder-choices-2026-11-13.yaml`. A second model (Gemini) was asked for research and for advice on the choices; its research was checked against the pages it cited before use, and its advice was overruled on three points.
+
+| Item | Decision | State |
+|---|---|---|
+| AI text on published records (items 1, 13; the Kiswa) | Label the text; records stay published; wing counts unchanged | Done: `status.ai_passages`, `status.ai_narrative`, `tafsir.ai_note`; marker `provenance.lead_deepened` or `status.ai_unread` |
+| Tafsir digests (item 11) | One sentence inside the Tafsir section of the verse pages that have a digest | Done |
+| Beings filed as persons (item 7) | Optional `being` on persons; Jibril and Mika'il typed as angels from al-Tabari on 2:98; the four disputed beings untyped | Done |
+| Untestable dates (item 8) | Compare with Wikidata where there is an id; the rest leave timelines and sorted lists and stay on the page, marked unverified | To do |
+| Connectedness (item 9) | Measure subject records only; count the sources nothing cites beside it | To do |
+| S2 | Write the two missing digests from al-Tabari, al-Turki edition, vol. 19 pp. 466-469 and vol. 24 pp. 727-730 | To do |
+| S24 | Build the Du'a occasions axis from al-Nawawi's al-Adhkar (structure checked on Shamela) | To do |
+| The Signs door (item 6) | Not raised; stays as built | |
+
