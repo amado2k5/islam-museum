@@ -1,0 +1,136 @@
+---
+// "The two abodes, surah by surah" (Janna and Fire browsers): the 114 surahs along one axis in Mushaf order, an upward bar for
+// the ayahs the Paradise browser holds in the surah and a downward bar for the Fire browser's, drawn on both landings.
+// Only the Qur'an section of each browser is counted, so the Fire browser's shelf of this world's fire never enters. Every
+// number, order and link is computed here from the graph (site/src/lib/janna.ts, nar.ts, sig-sura.ts); every bar is a real
+// link to the first ayah it counts, so the chart works without JavaScript. The script (site/src/scripts/sig-two-abodes.ts)
+// adds the readout and the full-tone toggle. Sober on purpose: abstract bars, no imagery of either abode.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, href } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { jannaItems } from "../../lib/janna";
+import { narItems } from "../../lib/nar";
+import { surahNodes, checkSurahs, surahShort, ayahsBySurah, ayahId } from "../../lib/sig-sura";
+
+interface Props { lang: Lang; focus: "janna" | "nar" }
+const { lang, focus } = Astro.props;
+const V = (ui(lang) as any)[focus].viz;
+const other = focus === "janna" ? "nar" : "janna";
+
+// ---- the build fails if the graph no longer matches what the chart assumes
+checkSurahs("TwoAbodes");
+const J = ayahsBySurah(jannaItems);
+const N = ayahsBySurah(narItems, (i) => i.kind !== "worldly"); // worldly fire is a separate shelf and never counted here
+for (const m of [J, N]) for (const [s, list] of m) for (const a of list) if (!byId.has(ayahId(s, a))) throw new Error(`TwoAbodes: ${ayahId(s, a)} is counted but has no passage page`);
+if (![...J.values(), ...N.values()].some((l) => l.length > 0)) throw new Error("TwoAbodes: neither browser holds a Qur'an ayah");
+
+const counts = surahNodes.map((s) => ({ n: s.data.sura as number, j: J.get(s.data.sura)?.length ?? 0, k: N.get(s.data.sura)?.length ?? 0 }));
+const peak = Math.max(...counts.map((c) => Math.max(c.j, c.k)));
+const both = counts.filter((c) => c.j > 0 && c.k > 0).length;
+const onlyJ = counts.filter((c) => c.j > 0 && c.k === 0).length;
+const onlyN = counts.filter((c) => c.j === 0 && c.k > 0).length;
+const neither = counts.filter((c) => c.j === 0 && c.k === 0).length;
+if (both + onlyJ + onlyN + neither !== surahNodes.length) throw new Error("TwoAbodes: the four groups do not add up to the surahs");
+const totalJ = counts.reduce((t, c) => t + c.j, 0);
+const totalN = counts.reduce((t, c) => t + c.k, 0);
+
+const side = (s: number, who: "j" | "n", name: string) => `${num(s, lang)} ${name} · ${who === "j" ? V.j_name : V.n_name}`;
+const cells = surahNodes.map((sn) => {
+  const s = sn.data.sura as number;
+  const name = surahShort(sn, lang);
+  const ja = J.get(s) ?? [], na = N.get(s) ?? [];
+  const pct = (c: number) => Math.round((100 * c) / peak);
+  return {
+    s, name, ja, na, both: ja.length > 0 && na.length > 0,
+    jl: ja.length ? { href: href(lang, ayahId(s, ja[0])), v: pct(ja.length), aria: `${side(s, "j", name)}: ${fmt(V.n_ayahs, { n: num(ja.length, lang) })}` } : null,
+    nl: na.length ? { href: href(lang, ayahId(s, na[0])), v: pct(na.length), aria: `${side(s, "n", name)}: ${fmt(V.n_ayahs, { n: num(na.length, lang) })}` } : null,
+  };
+});
+const digits = Array.from({ length: 10 }, (_, d) => num(d, lang)).join("");
+const ayahBase = href(lang, "passage/quran-").replace(/\/$/, "");
+---
+<section aria-labelledby="two-abodes-title" class="sg-ta" data-sg-ta data-focus={focus} style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="two-abodes-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .9rem">{V.note}</p>
+  </div>
+  <dl class="sg-ta-stats ui" aria-label={fmt(V.stats_label, { n: num(surahNodes.length, lang) })}>
+    <div><dt>{V.s_both}</dt><dd>{num(both, lang)}</dd></div>
+    <div><dt>{V.s_j}</dt><dd>{num(onlyJ, lang)}</dd></div>
+    <div><dt>{V.s_n}</dt><dd>{num(onlyN, lang)}</dd></div>
+    <div><dt>{V.s_none}</dt><dd>{num(neither, lang)}</dd></div>
+  </dl>
+  <ul class="sg-ta-legend ui" aria-label={V.legend_title}>
+    <li><i class="sg-ta-key j" aria-hidden="true"></i>{V.j_name}: {V.legend_up} <span class="muted">· {fmt(V.n_ayahs, { n: num(totalJ, lang) })}</span></li>
+    <li><i class="sg-ta-key n" aria-hidden="true"></i>{V.n_name}: {V.legend_down} <span class="muted">· {fmt(V.n_ayahs, { n: num(totalN, lang) })}</span></li>
+    <li><i class="sg-ta-key tie" aria-hidden="true"></i>{V.legend_tie}</li>
+  </ul>
+  <p class="sg-ta-tools ui"><button type="button" class="sg-ta-toggle" data-sg-toggle aria-pressed="false" hidden>{V.toggle}</button></p>
+  <ol class="sg-ta-grid" data-sg-grid role="list" aria-label={V.title}
+      data-ayah={ayahBase} data-digits={digits} data-other={`/${lang}/${other}/`}
+      data-t-j={V.j_name} data-t-n={V.n_name} data-t-count={V.n_ayahs} data-t-none={V.none} data-t-other={V.open_other}>
+    {cells.map((c) => (
+      <li class={`sg-ta-c${c.both ? " both" : ""}`} data-s={c.s} data-name={c.name} data-j={c.ja.slice(0, 2).join(",")} data-k={c.na.slice(0, 2).join(",")} data-cj={c.ja.length} data-ck={c.na.length}>
+        {c.jl ? <a class="u j" href={c.jl.href} aria-label={c.jl.aria} style={`--v:${c.jl.v}`}><i></i></a> : <span class="u"></span>}
+        <b class="ax" aria-hidden="true">{num(c.s, lang)}</b>
+        {c.nl ? <a class="d n" href={c.nl.href} aria-label={c.nl.aria} style={`--v:${c.nl.v}`}><i></i></a> : <span class="d"></span>}
+      </li>
+    ))}
+  </ol>
+  <div class="sg-ta-readout ui panel" data-sg-readout aria-live="polite" hidden>
+    <p class="muted sg-ta-hint" data-sg-hint>{V.hint}</p>
+    <div data-sg-detail hidden>
+      <p class="sg-ta-rname"><strong data-f="name"></strong></p>
+      <p class="sg-ta-line j"><span class="sg-ta-tag" data-f="jt"></span> <span data-f="jc"></span> <span data-f="jr"></span></p>
+      <p class="sg-ta-line n"><span class="sg-ta-tag" data-f="nt"></span> <span data-f="nc"></span> <span data-f="nr"></span></p>
+      <p><a data-f="other"></a></p>
+    </div>
+  </div>
+  <p class="muted ui sg-ta-cap">{V.caption}</p>
+</section>
+<style is:inline>
+  .sg-ta { --c: 38; --hh: 54px; }
+  @media (max-width: 960px) { .sg-ta { --c: 19; } }
+  @media (max-width: 640px) { .sg-ta { --c: 14; --hh: 46px; } }
+  .sg-ta-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px 14px; margin: 0 0 1rem; max-inline-size: 46rem; }
+  .sg-ta-stats > div { border-inline-start: 3px solid var(--gold); padding-inline-start: 10px; }
+  .sg-ta-stats dt { font-size: .86rem; color: var(--muted); line-height: 1.3; }
+  .sg-ta-stats dd { margin: 0; font-size: 2.1rem; line-height: 1.1; font-weight: 700; color: var(--gold-text); }
+  @media (max-width: 560px) { .sg-ta-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .sg-ta-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; padding: 0; margin: 0 0 .7rem; font-size: .86rem; }
+  .sg-ta-legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .sg-ta-key { display: inline-block; inline-size: 14px; block-size: 14px; border-radius: 2px; }
+  .sg-ta-key.j { background: var(--link); }
+  .sg-ta-key.n { background: var(--gold-text); }
+  .sg-ta-key.tie { inline-size: 22px; block-size: 14px; border-radius: 999px; background: color-mix(in srgb, var(--gold) 45%, var(--bg)); box-shadow: inset 0 0 0 1.5px var(--gold-text); }
+  .sg-ta-tools { margin: 0 0 .8rem; }
+  .sg-ta-toggle { min-block-size: 44px; padding: 0 1.1rem; border-radius: 999px; border: 1px solid var(--gold); background: transparent; color: var(--fg); font: inherit; font-size: .9rem; cursor: pointer; }
+  .sg-ta-toggle[aria-pressed="true"] { background: var(--gold); color: #0a2533; font-weight: 700; }
+  .sg-ta-toggle:focus-visible, .sg-ta a:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
+  .sg-ta-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(var(--c), minmax(0, 1fr)); row-gap: 14px; font-family: inherit; }
+  .sg-ta-c { position: relative; display: grid; grid-template-rows: var(--hh) 18px var(--hh); min-inline-size: 0; }
+  .sg-ta-c::after { content: ""; position: absolute; inset-inline: 0; inset-block-start: calc(var(--hh) + 9px); border-block-start: 1px solid var(--line); pointer-events: none; }
+  .sg-ta-c .u, .sg-ta-c .d { position: relative; z-index: 1; display: flex; justify-content: center; color: var(--link); }
+  .sg-ta-c .u { align-items: flex-end; }
+  .sg-ta-c .d { align-items: flex-start; color: var(--gold-text); }
+  .sg-ta-c a.u, .sg-ta-c a.d { text-decoration: none; }
+  .sg-ta-c i { display: block; inline-size: min(62%, 22px); block-size: max(3px, calc(var(--v) * 1%)); background: currentColor; border-radius: 2px 2px 0 0; }
+  .sg-ta-c .d i { border-radius: 0 0 2px 2px; }
+  .sg-ta-c .ax { position: relative; z-index: 2; display: block; justify-self: center; align-self: center; min-inline-size: 70%; text-align: center; font-size: .75rem; line-height: 18px; font-weight: 600; color: var(--fg); background: var(--bg); border-radius: 999px; font-family: var(--sans, inherit); }
+  .sg-ta-c.both .ax { background: color-mix(in srgb, var(--gold) 50%, var(--bg)); box-shadow: 0 0 0 2px var(--gold-text); font-weight: 700; }
+  /* the side the visitor is not on is drawn as an outline until they ask for both in full */
+  .sg-ta[data-focus="janna"]:not(.all) .d i, .sg-ta[data-focus="nar"]:not(.all) .u i { background: color-mix(in srgb, currentColor 18%, transparent); box-shadow: inset 0 0 0 1.5px currentColor; }
+  .sg-ta-c:hover, .sg-ta-c.is-sel { background: color-mix(in srgb, var(--gold) 16%, transparent); border-radius: 4px; }
+  .sg-ta-c.is-sel .u i, .sg-ta-c.is-sel .d i { background: currentColor; box-shadow: none; }
+  .sg-ta-readout { margin-block: .9rem 0; border: 1px solid var(--gold); min-block-size: 7rem; padding: 12px 16px; }
+  .sg-ta-readout p { margin: .25rem 0; }
+  .sg-ta-rname { font-size: 1.15rem; }
+  .sg-ta-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; }
+  .sg-ta-tag { font-weight: 700; }
+  .sg-ta-line.j .sg-ta-tag { color: var(--link); }
+  .sg-ta-line.n .sg-ta-tag { color: var(--gold-text); }
+  .sg-ta-line a { display: inline-flex; align-items: center; min-block-size: 24px; padding-inline: 6px; }
+  .sg-ta-readout > div > p:last-child a { min-block-size: 44px; }
+  .sg-ta-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+</style>
+<script src="../../scripts/sig-two-abodes.ts"></script>

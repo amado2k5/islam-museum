@@ -12,6 +12,7 @@ import FullFilter from "../../../components/FullFilter.astro";
 import { pagedStaticPaths, pageView, renderedHeadline, curatedFirst, type PagedProps } from "../../../lib/paged";
 import DraftMark from "../../../components/DraftMark.astro";
 import EschScope from "../../../components/EschScope.astro";
+import TwoAbodes from "../../../components/sig/TwoAbodes.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
@@ -67,6 +68,7 @@ const searchText = (i: (typeof narItems)[number]) =>
       <p class="ui muted">{G.api} <a href="/api/v1/nar.json"><bdi dir="ltr">/api/v1/nar.json</bdi></a></p>
     </div>
 
+    {paged.landing && <TwoAbodes lang={lang} focus="nar" />}
     <DraftMark lang={lang} legend />
     <section aria-labelledby="sections-title" style="margin-top:2rem">
       <h2 id="sections-title">{G.sections_title}</h2>
