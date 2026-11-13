@@ -173,6 +173,7 @@ open a new block on top with the new version and today's date.
 - **"Mawkib al-Nour", episode 21 added.** The opened chest and the hardened heart: the lecturer on the causes of each, the few forbidden things and the many permitted, the two sons of Adam, a sin that outlives its doer, Umar's garment, arrogance and desire, the five ways to soften a hard heart, and preparing the heart for prayer. Reports without a chain and unattributed lines are marked as needing a source; the lecturer's opinions are labelled as his; Quran verses are linked, never typed.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 176): trilingual draft prose on the image compounded of light and colour and the quiddity of colour and light, cited to scan pages 233–236.
 - **"Mawkib al-Nour", episode 22 added.** The last two verses of Surat al-Tawba on the compassionate Messenger: the lecturer on the Prophet as the easiest of jurists, patience, the Qur'an likened to fruits, government as revelation joined to awareness, the withholding of zakat and the expedition of Usama, David and Solomon on the sheep in the field, and the voice of David and Abu Musa. Reports without a chain and unattributed lines are marked as needing a source; the lecturer's opinions are labelled as his; Quran verses are linked, never typed.
+- Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 177): trilingual draft prose on colour perceived as colour before its quiddity, and on intrinsic and accidental light, cited to scan pages 236–239.
 
 
 ### Fixed
