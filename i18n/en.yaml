@@ -4004,6 +4004,21 @@ sayyiat:
     curated:
       title: "Records about sayyi'at"
       desc: "Curated museum records on the sayyi'at, sin, guilt, disobedience, repentance and seeking forgiveness themselves: the concepts of sin, guilt, minor sins, tawba and istighfar, and events such as the angels' report of the intended sin."
+  viz:
+    title: "Where misdeeds are named"
+    caption: "The passages in the museum's sources that name misdeeds, counted by where they occur. Each bar is a surah, as tall as the number of its ayahs here, laid out in the order of revelation recorded on the surah records, a conventional list rather than an agreed one. The strip under the axis shows where each surah is recorded as revealed. {n} passages are drawn here; {e} more, from the seerah, other books and curated records, are in the lists below."
+    meccan: "Meccan"
+    medinan: "Medinan"
+    toggle: "Mushaf order"
+    axis_rev: "Axis: order of revelation."
+    axis_mushaf: "Axis: order of the Mushaf."
+    chart_label: "Ayahs in each surah that name misdeeds, along the order of revelation or of the Mushaf"
+    swipe: "Drag a finger along the stream to read about each surah."
+    hint: "Hover, focus or tap a bar or a collection to see where it leads."
+    sunnah_title: "The Sunnah, by collection"
+    sunnah_note: "{n} hadith collections have a passage here, the fullest first."
+    count_in: "{n} passages"
+    count_split: "{n} passages: {a} with the word, {r} on the wider theme"
 hudud:
   title: "Hudud Allah and Kaba'ir Browser"
   lede: "Every mention of the limits of God and the major sins in the museum's sources: the verses of «these are the limits of God» and «whoever transgresses the limits of God», the hudud of fornication, theft and slander in the two Sahihs, the Muwatta and the Sunan, the carrying out of penalties in the seerah and the reports of the Companions and Successors, the lists of kaba'ir and the seven destroyers, and every mention in every harvested book — cited records that grow as new text lands."
@@ -4107,6 +4122,16 @@ hasanat:
     curated:
       title: "The records about good deeds"
       desc: "The museum's curated records on الحسنات itself: the concept of the good deeds, the good loan to God, the book of deeds, the records of intention and resolve, and the reports where good deeds are weighed, multiplied or erase sins."
+  viz:
+    title: "Where good deeds are named"
+    caption: "The passages in the museum's sources that name good deeds, counted by where they occur: the Qur'an by surah and the hadith by collection. Each shelf is scaled to its tallest spine. {n} passages stand on the two shelves; {e} more, from the seerah, other books and curated records, are in the lists below."
+    how: "Choose a word form to colour the spines by that form only; choose it again to see them all."
+    hint: "Hover, focus or tap a spine to see where it leads."
+    quran_title: "The Qur'an, in Mushaf order"
+    quran_note: "{n} of the {total} surahs have a passage that names good deeds; empty spines are faint."
+    sunnah_title: "The Sunnah, by collection"
+    sunnah_note: "{n} hadith collections have a passage here, the fullest first."
+    count_in: "{n} passages"
 mukatabat:
   title: "Mukatabat Browser"
   lede: "Every mention of correspondence in the museum's sources: the letters the Prophet sent to kings and emperors and the letters, replies and reports that came back, the letters of the caliphs to their governors and the reports written to them, Sulayman's letter to the Queen of Sheba in the Qur'an, and every correspondence mention in the seerah, the hadith books and every harvested book — sourced records that grow as new texts land."
@@ -5475,6 +5500,18 @@ hisab:
     curated:
       title: Curated records
       desc: "The article of the subject and the rows of the calculator: each record explains one counting text and names its source."
+  viz:
+    title: "The ladder of multiplication"
+    caption: "Each rung is ten times the one below it. A good deed the cited texts multiply sits at its recorded figure, a range is a bar, and a reward a text states without a number ends in an open arrow, never in a figure. Bad deeds stand across the rail at their recorded value. The figures are the ones the cited texts give, as recorded in the museum; the ladder adds nothing."
+    ladder_label: "Logarithmic ladder of the figures the texts state for good deeds and bad deeds"
+    unbounded: "Without limit"
+    lane_good: "Good deeds written"
+    lane_bad: "Bad deeds written"
+    count: "{g} rows of good deeds and {s} of bad deeds on the ladder; {t} rows beside it."
+    side_title: "Rows with no multiplier"
+    side_note: "These texts erase, weigh or raise ranks rather than multiply, so they have no place on the ladder. Each is shown with the figures its record gives."
+    hint: "Hover, focus or tap a mark to read what the text states and the texts it rests on."
+    basis: "Texts:"
 akhlaq:
   title: "Ethics and Dealings Browser"
   lede: "Every mention of ethics and dealings in the museum's sources: the Qur'an's virtues from truthfulness, trustworthiness, justice and excellence to kindness to parents and kinship ties, and its vices from lying, treachery, pride, backbiting and injustice; the hadiths 'I was sent to perfect noble character' and 'a Muslim is one from whose tongue and hand the Muslims are safe'; and the dealings between people from sale, riba, debt and pledge to marriage, divorce, oaths, testimony, judgement and the scales — and every report of the Companions and the Successors, what the seerah books carry, and every harvested book — sourced records that grow as new texts land."

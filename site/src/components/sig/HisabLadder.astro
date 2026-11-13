@@ -1,0 +1,204 @@
+---
+// "The ladder of multiplication" (Hasanat and Sayyi'at Ledger home): a vertical logarithmic ladder on which every
+// curated reckoning row with a stated number of good deeds is a mark at its value (a range is a bar, a result the text
+// states without a number ends in an open arrow), bad deeds sit across the rail at their recorded value, and the rows
+// that erase or weigh, which have no multiplier, wait beside it as tokens. Everything is computed here from
+// `hisabRows` (site/src/lib/hisab.ts); each mark is a real link. The script (site/src/scripts/sig-hisab.ts) adds the readout.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { hisabRows, type Reckoning } from "../../lib/hisab";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).hisab;
+const V = G.viz;
+const loc = (v: Record<string, string> | undefined) => v?.[lang] ?? v?.ar ?? v?.en ?? "";
+const short = (s: string) => s.replace(/\s*⁦?\(.*$/, "").replace(/\s+[—–]\s+.*$/, "").trim();
+
+// ---- the build fails when a recorded figure is not a positive finite number (the ladder is logarithmic)
+const good = (v: unknown, what: string, id: string): number | undefined => {
+  if (v === undefined) return undefined;
+  if (typeof v !== "number" || !Number.isFinite(v) || v <= 0) throw new Error(`HisabLadder: ${id} has ${what} = ${String(v)}, not a positive finite number`);
+  return v;
+};
+const figures = (r: Reckoning) => {
+  const parts: string[] = [];
+  if (r.hasanat !== undefined) parts.push(r.hasanat_max ? fmt(G.fig.hasanat_range, { a: num(r.hasanat, lang), b: num(r.hasanat_max, lang) }) : fmt(G.fig.hasanat, { n: num(r.hasanat, lang) }));
+  if (r.sayyiat !== undefined) parts.push(fmt(G.fig.sayyiat, { n: num(r.sayyiat, lang) }));
+  if (r.erased !== undefined) parts.push(fmt(G.fig.erased, { n: num(r.erased, lang) }));
+  if (r.degrees !== undefined) parts.push(fmt(G.fig.degrees, { n: num(r.degrees, lang) }));
+  return parts.join(" · ");
+};
+
+interface Row { basis: any[]; i: number; id: string; name: string; r: Reckoning; fig: string; lo?: number; hi?: number; open: boolean; side: "g" | "s" | "t" }
+const rows: Row[] = hisabRows.map((x, k) => {
+  const r = x.reckoning, id = x.node.id;
+  const lo = good(r.hasanat, "hasanat", id), hi = good(r.hasanat_max, "hasanat_max", id), sy = good(r.sayyiat, "sayyiat", id);
+  good(r.erased, "erased", id); good(r.degrees, "degrees", id); good(r.times, "times", id);
+  if (hi !== undefined && (lo === undefined || hi < lo)) throw new Error(`HisabLadder: ${id} has hasanat_max without a smaller hasanat`);
+  const open = r.unbounded === true;
+  let side: Row["side"] = "t";
+  let a = lo, b = hi;
+  if (r.effect === "hasanat" && (lo !== undefined || open)) side = "g";
+  else if (r.effect === "sayyiat" && (sy !== undefined || open)) { side = "s"; a = sy; b = undefined; }
+  return { basis: x.basis, i: k + 1, id, name: labelOf(x.node, lang), r, fig: figures(r), lo: a, hi: b, open, side };
+});
+
+const placed = rows.filter((w) => w.side !== "t");
+const top = Math.max(1, ...placed.flatMap((w) => [w.lo ?? 1, w.hi ?? 1]));
+let K = 1;
+while (10 ** K < top) K++;
+const anyOpen = placed.some((w) => w.open);
+
+const PXD = 112, PAD_BOT = 30, PAD_TOP = 16, OPEN = 100, HIT = 26, COLW = 34;
+const HT = PAD_BOT + K * PXD + PAD_TOP + (anyOpen ? OPEN : 0);
+const yOf = (v: number) => PAD_BOT + Math.log10(v) * PXD;
+const yTop = PAD_BOT + K * PXD;
+
+// each placed row is a span of the ladder [from, to] in px; rows that overlap go to the next column of their side
+interface Mark { w: Row; kind: "mark" | "bar" | "arrow"; from: number; to: number; col: number }
+const marks: Mark[] = placed.map((w) => {
+  const from = w.lo !== undefined ? yOf(w.lo) : yTop;
+  if (w.open) return { w, kind: "arrow" as const, from, to: HT, col: 0 };
+  if (w.hi !== undefined && w.hi > (w.lo as number)) return { w, kind: "bar" as const, from, to: yOf(w.hi), col: 0 };
+  return { w, kind: "mark" as const, from, to: from, col: 0 };
+});
+const packed = (side: "g" | "s") => {
+  const ends: number[] = [];
+  for (const m of marks.filter((x) => x.w.side === side).sort((a, b) => a.from - b.from || a.w.i - b.w.i)) {
+    let c = ends.findIndex((e) => e < m.from - HIT / 2 - 3);
+    if (c < 0) c = ends.length;
+    ends[c] = m.to + HIT / 2;
+    m.col = c;
+  }
+  return Math.max(1, ends.length);
+};
+const nG = packed("g"), nS = packed("s");
+const tokens = rows.filter((w) => w.side === "t");
+const groups = [...new Set(tokens.map((w) => w.r.effect))].map((e) => ({ e, list: tokens.filter((w) => w.r.effect === e) }));
+const rungs = Array.from({ length: K + 1 }, (_, k) => ({ k, v: 10 ** k, y: yOf(10 ** k) }));
+const aria = (w: Row) => [w.name, w.fig || (w.open ? V.unbounded : "")].filter(Boolean).join(" · ");
+const nGood = placed.filter((w) => w.side === "g").length, nBad = placed.filter((w) => w.side === "s").length;
+---
+<section aria-labelledby="sg-hl-title" class="sg-hl" data-sg-hl style="margin-top:1.8rem">
+  <div data-pagefind-body>
+    <h2 id="sg-hl-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .9rem">{V.caption}</p>
+  </div>
+  <div class="sg-hl-wrap">
+    <div class="sg-hl-ladder">
+      <div class="sg-hl-plot" data-sg-plot role="group" aria-label={V.ladder_label} style={`--ht:${HT}px;--lw:${nS * COLW + 8}px;--rw:${nG * COLW + 8}px`}>
+        {anyOpen && <div class="sg-hl-open" aria-hidden="true" style={`block-size:${HT - yTop}px`}></div>}
+        {rungs.map((g) => <div class="sg-hl-rule" aria-hidden="true" style={`inset-block-end:${g.y.toFixed(1)}px`}></div>)}
+        <div class="sg-hl-lane">
+          {marks.filter((m) => m.w.side === "s").map((m) => (
+            <a class={`sg-hl-m s ${m.kind}`} href={href(lang, m.w.id)} data-i={m.w.i} aria-label={aria(m.w)}
+               style={`--c:${m.col};--b:${(m.from - HIT / 2).toFixed(1)}px;--h:${(m.to - m.from + HIT).toFixed(1)}px`}><i aria-hidden="true"></i></a>
+          ))}
+        </div>
+        <div class="sg-hl-rail">
+          {anyOpen && <span class="sg-hl-inf">{V.unbounded}</span>}
+          {rungs.map((g) => <span class="sg-hl-rung" aria-hidden="true" style={`inset-block-end:${g.y.toFixed(1)}px`}>{num(g.v, lang)}</span>)}
+        </div>
+        <div class="sg-hl-lane">
+          {marks.filter((m) => m.w.side === "g").map((m) => (
+            <a class={`sg-hl-m g ${m.kind}`} href={href(lang, m.w.id)} data-i={m.w.i} aria-label={aria(m.w)}
+               style={`--c:${m.col};--b:${(m.from - HIT / 2).toFixed(1)}px;--h:${(m.to - m.from + HIT).toFixed(1)}px`}><i aria-hidden="true"></i></a>
+          ))}
+        </div>
+      </div>
+      <ul class="sg-hl-legend ui" role="list">
+        <li><i class="k g" aria-hidden="true"></i>{V.lane_good}</li>
+        <li><i class="k s" aria-hidden="true"></i>{V.lane_bad}</li>
+        {anyOpen && <li><i class="k o" aria-hidden="true"></i>{V.unbounded}</li>}
+      </ul>
+      <p class="muted ui sg-hl-count">{fmt(V.count, { g: num(nGood, lang), s: num(nBad, lang), t: num(tokens.length, lang) })}</p>
+    </div>
+    <div class="sg-hl-side">
+      <div class="sg-hl-readout ui panel" data-sg-readout aria-live="polite" hidden>
+        <p class="muted sg-hl-hint" data-sg-hint>{V.hint}</p>
+        <div data-sg-detail hidden></div>
+      </div>
+      {tokens.length > 0 && (
+        <div class="sg-hl-tokens ui">
+          <h3>{V.side_title}</h3>
+          <p class="muted">{V.side_note}</p>
+          {groups.map((g) => (
+            <div>
+              <h4>{G.kinds[g.e]}</h4>
+              <ul role="list">
+                {g.list.map((w) => (
+                  <li><a class="sg-hl-tok" href={href(lang, w.id)} data-i={w.i}><span>{w.name}</span>{w.fig && <small class="muted">{w.fig}</small>}</a></li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+  <div data-sg-store hidden>
+    {rows.map((w) => (
+      <div data-d={w.i}>
+        <p class="sg-hl-dn"><a href={href(lang, w.id)}>{w.name}</a></p>
+        <p class="sg-hl-df">{w.fig || (w.open ? V.unbounded : "")}{w.fig && w.open ? ` · ${V.unbounded}` : ""}</p>
+        {loc(w.r.unit) && <p class="muted">{loc(w.r.unit)}</p>}
+        {loc(w.r.result) && <p dir="auto">{loc(w.r.result)}</p>}
+        {w.basis.length > 0 && (
+          <p class="sg-hl-db"><span class="muted">{V.basis}</span> {w.basis.map((n) => <a href={href(lang, n.id)}><bdi>{short(labelOf(n, lang))}</bdi></a>)}</p>
+        )}
+      </div>
+    ))}
+  </div>
+</section>
+<style is:inline>
+  .sg-hl-wrap { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.4rem; align-items: start; }
+  @media (min-width: 900px) { .sg-hl-wrap { grid-template-columns: minmax(0, 440px) minmax(0, 1fr); gap: 2.2rem; } }
+  .sg-hl-plot { position: relative; display: grid; grid-template-columns: var(--lw) 92px var(--rw); justify-content: center; block-size: var(--ht); }
+  .sg-hl-lane, .sg-hl-rail { position: relative; }
+  .sg-hl-rail::before { content: ""; position: absolute; inset-block: 0; inset-inline-start: 50%; border-inline-start: 2px solid var(--line); }
+  .sg-hl-open { position: absolute; inset-block-start: 0; inset-inline: 0; background: linear-gradient(to bottom, color-mix(in srgb, var(--gold) 20%, transparent), transparent); border-block-end: 1px dashed var(--gold); pointer-events: none; }
+  .sg-hl-rule { position: absolute; inset-inline: 0; border-block-start: 1px dashed var(--line); pointer-events: none; }
+  .sg-hl-rung { position: absolute; inset-inline: 0; margin-inline: auto; inline-size: max-content; transform: translateY(50%); background: var(--bg); color: var(--fg); border: 1px solid var(--line); border-radius: 999px; padding: 0 10px; font-size: .86rem; font-weight: 600; line-height: 1.7; white-space: nowrap; }
+  .sg-hl-inf { position: absolute; inset-block-start: 8px; inset-inline: 0; margin-inline: auto; inline-size: max-content; background: var(--bg); color: var(--gold-text); border: 1px solid var(--gold); border-radius: 999px; padding: 2px 10px; font-size: .86rem; font-weight: 700; line-height: 1.5; text-align: center; white-space: nowrap; }
+  .sg-hl-m { position: absolute; inset-block-end: var(--b); block-size: var(--h); inline-size: 26px; display: block; text-decoration: none; border-radius: 13px; }
+  .sg-hl-m.g { inset-inline-start: calc(var(--c) * 34px + 6px); }
+  .sg-hl-m.s { inset-inline-end: calc(var(--c) * 34px + 6px); }
+  .sg-hl-m i { position: absolute; inset-inline: 4px; inset-block: 4px; border-radius: 999px; background: var(--gold); border: 2px solid var(--gold-text); }
+  .sg-hl-m.mark i { inset-block: 4px; }
+  .sg-hl-m.bar i { background: color-mix(in srgb, var(--gold) 72%, var(--card)); }
+  .sg-hl-m.s i { background: var(--fg); border-color: var(--fg); border-radius: 3px; inset-inline: 6px; inset-block: 6px; transform: rotate(45deg); }
+  .sg-hl-m.s.arrow i { transform: none; }
+  .sg-hl-m.arrow i { inset-block-start: 14px; inset-block-end: 4px; inset-inline: 9px; border: 0; border-radius: 3px; background: linear-gradient(to top, var(--gold) 0, var(--gold) 45%, color-mix(in srgb, var(--gold) 35%, transparent) 100%); }
+  .sg-hl-m.s.arrow i { background: linear-gradient(to top, var(--fg) 0, var(--fg) 45%, color-mix(in srgb, var(--fg) 30%, transparent) 100%); }
+  .sg-hl-m.arrow::before { content: ""; position: absolute; inset-block-start: 1px; inset-inline-start: 5px; border-inline: 8px solid transparent; border-block-end: 14px solid var(--gold); }
+  .sg-hl-m.s.arrow::before { border-block-end-color: var(--fg); }
+  .sg-hl-m.arrow::after { content: ""; position: absolute; inset-block-end: 2px; inset-inline-start: 4px; inline-size: 18px; block-size: 18px; border-radius: 50%; background: var(--gold); border: 2px solid var(--gold-text); }
+  .sg-hl-m.s.arrow::after { background: var(--fg); border-color: var(--fg); border-radius: 3px; inline-size: 14px; block-size: 14px; inset-inline-start: 6px; inset-block-end: 6px; transform: rotate(45deg); }
+  .sg-hl-m:hover i, .sg-hl-m.is-sel i { box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px var(--fg); }
+  .sg-hl-m.arrow:hover::after, .sg-hl-m.arrow.is-sel::after { box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px var(--fg); }
+  .sg-hl-m:focus-visible, .sg-hl-tok:focus-visible, .sg-hl-readout a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-hl-plot.has-sel .sg-hl-m:not(.is-sel) { opacity: .55; }
+  .sg-hl-legend { list-style: none; margin: .8rem 0 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; font-size: .86rem; }
+  .sg-hl-legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .sg-hl-legend .k { display: inline-block; inline-size: 14px; block-size: 14px; background: var(--gold); border: 2px solid var(--gold-text); border-radius: 50%; }
+  .sg-hl-legend .k.s { background: var(--fg); border-color: var(--fg); border-radius: 2px; transform: scale(.82) rotate(45deg); }
+  .sg-hl-legend .k.o { inline-size: 8px; block-size: 18px; border: 0; border-radius: 2px; background: linear-gradient(to top, var(--gold), color-mix(in srgb, var(--gold) 30%, transparent)); }
+  .sg-hl-count { text-align: center; font-size: .86rem; margin: .7rem 0 0; }
+  .sg-hl-side { display: grid; gap: 1.2rem; }
+  .sg-hl-readout { border: 1px solid var(--gold); block-size: 17rem; overflow-y: auto; padding: 12px 16px; }
+  .sg-hl-readout p { margin: .25rem 0; }
+  .sg-hl-readout .sg-hl-dn { font-size: 1.12rem; font-weight: 700; }
+  .sg-hl-readout .sg-hl-df { font-size: 1.3rem; font-weight: 700; color: var(--gold-text); }
+  .sg-hl-readout .sg-hl-db { display: flex; flex-wrap: wrap; gap: 2px 14px; align-items: center; }
+  .sg-hl-readout .sg-hl-db a, .sg-hl-readout .sg-hl-dn a { display: inline-flex; align-items: center; min-block-size: 32px; }
+  .sg-hl-tokens h3 { font-size: 1.05rem; margin: 0 0 .2rem; }
+  .sg-hl-tokens > p { margin: 0 0 .5rem; font-size: .9rem; }
+  .sg-hl-tokens h4 { font-size: .86rem; font-weight: 600; margin: .8rem 0 .35rem; color: var(--gold-text); }
+  .sg-hl-tokens ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .sg-hl-tok { display: inline-flex; flex-direction: column; justify-content: center; min-block-size: 44px; padding: 4px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: var(--fg); text-decoration: none; font-size: .9rem; line-height: 1.35; }
+  .sg-hl-tok small { font-size: .78rem; }
+  .sg-hl-tok:hover, .sg-hl-tok.is-sel { border-color: var(--fg); box-shadow: 0 0 0 2px var(--gold); }
+</style>
+<script src="../../scripts/sig-hisab.ts"></script>

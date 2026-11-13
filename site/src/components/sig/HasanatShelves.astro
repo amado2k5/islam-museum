@@ -1,0 +1,134 @@
+---
+// "Where good deeds are named" (Hasanat Browser home): two shelves. The Qur'an shelf has one spine for each of the 114
+// surahs in Mushaf order, gold and as tall as the number of this browser's ayahs in it, faint when there are none; the
+// Sunnah shelf has one spine for each hadith collection that has passages here. Three counters, one per word form, act
+// as toggles that colour the spines by that form only. Everything is computed here from `hasanatItems`
+// (site/src/lib/hasanat.ts); each spine is a real link. The script (site/src/scripts/sig-hasanat.ts) adds the readout and the toggles.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { hasanatItems } from "../../lib/hasanat";
+import { quranSurahs, suraOf, surahName, workShortName, ayaOf } from "../../lib/sig-quran";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).hasanat;
+const V = G.viz;
+const KINDS = ["hasana", "hasanat", "husna"] as const;
+
+// ---- the build fails when the graph no longer matches what the shelves assume
+if (quranSurahs.length !== 114 || quranSurahs.some((s, i) => s.data.sura !== i + 1)) throw new Error("HasanatShelves: the surah records are not suras 1..114");
+for (const k of KINDS) if (!G.kinds?.[k]) throw new Error(`HasanatShelves: hasanat.kinds has no ${k}`);
+
+const quranItems = hasanatItems.filter((i) => i.section === "quran");
+const sunnahItems = hasanatItems.filter((i) => i.section === "sunnah");
+if (quranItems.some((i) => suraOf(i.node) === null)) throw new Error("HasanatShelves: a Qur'an item has no sura number");
+if (sunnahItems.some((i) => !i.work)) throw new Error("HasanatShelves: a Sunnah item has no work record");
+const onShelves = quranItems.length + sunnahItems.length;
+const elsewhere = hasanatItems.length - onShelves;
+
+const short = (n: any) => labelOf(n, lang).replace(/\s*\u2066?\(.*$/, "").replace(/\s+[—–]\s+.*$/, "").trim();
+const kindCounts = (list: typeof hasanatItems) => KINDS.map((k) => list.filter((i) => i.kind === k).length);
+
+interface Spine { key: string; name: string; label: string; items: typeof hasanatItems; k: number[]; href: string }
+const quranBy = new Map<number, typeof hasanatItems>();
+for (const i of quranItems) { const s = suraOf(i.node)!; quranBy.set(s, [...(quranBy.get(s) ?? []), i]); }
+const quran: Spine[] = quranSurahs.map((s) => {
+  const n = s.data.sura as number;
+  const items = (quranBy.get(n) ?? []).sort((a, b) => ayaOf(a.node) - ayaOf(b.node));
+  return { key: String(n), name: surahName(s, lang), label: num(n, lang), items, k: kindCounts(items), href: items.length ? href(lang, items[0].node.id) : "" };
+});
+const workBy = new Map<string, typeof hasanatItems>();
+for (const i of sunnahItems) workBy.set(i.work!.id, [...(workBy.get(i.work!.id) ?? []), i]);
+const sunnah: Spine[] = [...workBy.entries()]
+  .map(([id, items]) => ({ key: id, name: short(items[0].work), label: "", items, k: kindCounts(items), href: href(lang, id) }))
+  .sort((a, b) => b.items.length - a.items.length || a.key.localeCompare(b.key));
+
+const maxQ = Math.max(1, ...quran.map((s) => s.items.length));
+const maxS = Math.max(1, ...sunnah.map((s) => s.items.length));
+const quranNamed = quran.filter((s) => s.items.length > 0).length;
+const totals = KINDS.map((_, j) => [...quran, ...sunnah].reduce((t, s) => t + s.k[j], 0));
+
+// the readout reads this: one entry per linked spine, [title, count text, [[label, href], ...up to three]]
+const info: Record<string, [string, string, [string, string][]]> = {};
+const spineId = (shelf: string, s: Spine) => `${shelf}${s.key.replace(/\W/g, "")}`;
+for (const [shelf, list] of [["q", quran], ["s", sunnah]] as const)
+  for (const s of list) if (s.items.length)
+    info[spineId(shelf, s)] = [shelf === "q" ? `${s.label} · ${s.name}` : s.name, fmt(V.count_in, { n: num(s.items.length, lang) }),
+      s.items.slice(0, 3).map((i) => [short(i.node), href(lang, i.node.id)] as [string, string])];
+
+const spineAria = (s: Spine, label: boolean) => `${label ? `${s.label} · ` : ""}${s.name} · ${fmt(V.count_in, { n: num(s.items.length, lang) })}`;
+---
+<section aria-labelledby="sg-hn-title" class="sg-hn" data-sg-hn style="margin-top:1.8rem">
+  <div data-pagefind-body>
+    <h2 id="sg-hn-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 1rem">{fmt(V.caption, { n: num(onShelves, lang), e: num(elsewhere, lang) })}</p>
+  </div>
+  <p class="ui muted sg-hn-how" id="sg-hn-how">{V.how}</p>
+  <div class="sg-hn-counters ui" role="group" aria-labelledby="sg-hn-how">
+    {KINDS.map((k, j) => (
+      <button type="button" class="sg-hn-c" data-kind={j} aria-pressed="false" disabled>
+        <strong>{num(totals[j], lang)}</strong><span>{G.kinds[k]}</span>
+      </button>
+    ))}
+  </div>
+  <div class="sg-hn-readout ui panel" data-sg-readout aria-live="polite" hidden>
+    <p class="muted sg-hn-hint" data-sg-hint>{V.hint}</p>
+    <div data-sg-detail hidden>
+      <p class="sg-hn-rn"><strong data-f="name"></strong> <span class="muted" data-f="count"></span></p>
+      <ul class="sg-hn-rl" data-f="list"></ul>
+    </div>
+  </div>
+  <h3 class="sg-hn-shelf-t">{V.quran_title}</h3>
+  <p class="muted ui sg-hn-shelf-n">{fmt(V.quran_note, { n: num(quranNamed, lang), total: num(114, lang) })}</p>
+  <ol class="sg-hn-shelf q" role="list" aria-label={V.quran_title} style={`--max:${maxQ}`}>
+    {quran.map((s) => s.items.length ? (
+      <li><a class="sg-hn-s" href={s.href} data-id={spineId("q", s)} data-k={s.k.join(",")} data-t={s.items.length} aria-label={spineAria(s, true)} style={`--f:${(s.items.length / maxQ).toFixed(3)}`}><span class="z"><i></i></span><b aria-hidden="true">{s.label}</b></a></li>
+    ) : (
+      <li aria-hidden="true"><span class="sg-hn-s e"><span class="z"><i class="e"></i></span><b>{s.label}</b></span></li>
+    ))}
+  </ol>
+  <h3 class="sg-hn-shelf-t">{V.sunnah_title}</h3>
+  <p class="muted ui sg-hn-shelf-n">{fmt(V.sunnah_note, { n: num(sunnah.length, lang) })}</p>
+  <ol class="sg-hn-shelf s" role="list" aria-label={V.sunnah_title} style={`--max:${maxS}`}>
+    {sunnah.map((s) => (
+      <li><a class="sg-hn-s" href={s.href} data-id={spineId("s", s)} data-k={s.k.join(",")} data-t={s.items.length} aria-label={spineAria(s, false)} style={`--f:${(s.items.length / maxS).toFixed(3)}`}><span class="z"><i></i></span><span class="nm" aria-hidden="true">{s.name}</span><b aria-hidden="true">{num(s.items.length, lang)}</b></a></li>
+    ))}
+  </ol>
+  <script type="application/json" data-sg-json set:html={JSON.stringify(info).replace(/</g, "\\u003c")}></script>
+</section>
+<style is:inline>
+  .sg-hn { --hz: 76px; }
+  .sg-hn-shelf.s { --hz: 60px; }
+  @media (max-width: 640px) { .sg-hn { --hz: 56px; } .sg-hn-shelf.s { --hz: 48px; } }
+  .sg-hn-how { margin: 0 0 .5rem; font-size: .9rem; }
+  .sg-hn-counters { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin: 0 0 1rem; }
+  .sg-hn-c { text-align: start; font: inherit; color: var(--fg); background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; display: grid; gap: 2px; cursor: pointer; min-block-size: 44px; }
+  .sg-hn-c:disabled { cursor: default; color: var(--fg); opacity: 1; }
+  .sg-hn-c strong { font-size: 2.4rem; line-height: 1.05; color: var(--gold-text); }
+  .sg-hn-c span { font-size: .92rem; line-height: 1.4; }
+  .sg-hn-c[aria-pressed="true"] { background: var(--gold); border-color: var(--gold-text); color: #0a2533; }
+  .sg-hn-c[aria-pressed="true"] strong { color: #0a2533; }
+  .sg-hn-c:focus-visible, .sg-hn-s:focus-visible, .sg-hn-readout a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-hn-readout { border: 1px solid var(--gold); block-size: 12.5rem; overflow-y: auto; padding: 12px 16px; margin-block-end: 1.2rem; }
+  .sg-hn-readout p { margin: .2rem 0; }
+  .sg-hn-rn { font-size: 1.15rem; }
+  .sg-hn-rl { list-style: none; margin: .4rem 0 0; padding: 0; display: grid; gap: 2px; }
+  .sg-hn-rl a { display: inline-flex; align-items: center; min-block-size: 32px; }
+  .sg-hn-shelf-t { margin: 1.4rem 0 .1rem; font-size: 1.1rem; }
+  .sg-hn-shelf-n { margin: 0 0 .7rem; font-size: .88rem; }
+  .sg-hn-shelf { list-style: none; margin: 0; padding: 0; display: grid; row-gap: .6rem; }
+  .sg-hn-shelf.q { grid-template-columns: repeat(auto-fill, minmax(26px, 1fr)); }
+  .sg-hn-shelf.s { grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); row-gap: 1rem; }
+  .sg-hn-s { display: flex; flex-direction: column; align-items: center; text-decoration: none; color: var(--fg); min-inline-size: 0; border-radius: 4px; }
+  .sg-hn-s .z { display: flex; justify-content: center; align-items: flex-end; inline-size: 100%; block-size: var(--hz); border-block-end: 4px solid color-mix(in srgb, var(--gold-text) 55%, transparent); }
+  .sg-hn-s .z i { display: block; inline-size: 72%; max-inline-size: 30px; block-size: max(calc(var(--f) * 100%), 8px); background: linear-gradient(to top, var(--gold) var(--p, 100%), color-mix(in srgb, var(--gold) 20%, var(--card)) var(--p, 100%)); border: 1px solid var(--gold-text); border-block-end: 0; border-start-start-radius: 4px; border-start-end-radius: 4px; }
+  .sg-hn-s .z i.e { block-size: 5px; background: var(--line); border-color: transparent; }
+  .sg-hn-s b { font-size: .75rem; font-weight: 600; line-height: 1.8; }
+  .sg-hn-s.e { color: var(--muted); opacity: .6; }
+  .sg-hn-shelf.s .nm { padding-block-start: 6px; text-align: center; font-size: .82rem; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .sg-hn-shelf.s b { font-size: .95rem; color: var(--gold-text); }
+  .sg-hn-s:hover .z i, .sg-hn-s.is-sel .z i { box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--fg); }
+  .sg-hn-s.dim { opacity: .4; }
+</style>
+<script src="../../scripts/sig-hasanat.ts"></script>

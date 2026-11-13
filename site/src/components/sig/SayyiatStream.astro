@@ -1,0 +1,201 @@
+---
+// "Where misdeeds are named, and what follows" (Sayyi'at Browser home): a revelation stream. The 114 surahs lie along
+// an axis in order of revelation, each a bar as tall as the number of this browser's ayahs in it, split into the two
+// kinds (the word itself, and the wider theme); a strip under the axis tints each surah by where it was revealed, and
+// where the places form one Meccan run and one Medinan run the boundary is drawn. A toggle puts the axis in Mushaf order.
+// Beside it, the hadith collections as horizontal bars. Everything is computed here from `sayyiatItems`
+// (site/src/lib/sayyiat.ts) and the surah records; each mark is a real link. The script (site/src/scripts/sig-sayyiat.ts)
+// adds the readout and the toggle.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { sayyiatItems } from "../../lib/sayyiat";
+import { quranSurahs, suraOf, surahName, ayaOf } from "../../lib/sig-quran";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).sayyiat;
+const V = G.viz;
+
+// ---- the build fails when the graph no longer matches what the stream assumes
+if (quranSurahs.length !== 114 || quranSurahs.some((s, i) => s.data.sura !== i + 1)) throw new Error("SayyiatStream: the surah records are not suras 1..114");
+const orders = quranSurahs.map((s) => Number(s.data.revelation_order)).sort((a, b) => a - b);
+if (orders.some((o, i) => o !== i + 1)) throw new Error("SayyiatStream: revelation_order is not a permutation of 1..114");
+const placeOf = (s: any) => String(s.data.revelation_place);
+if (quranSurahs.some((s) => placeOf(s) !== "meccan" && placeOf(s) !== "medinan")) throw new Error("SayyiatStream: a surah has no meccan/medinan revelation_place");
+const quranItems = sayyiatItems.filter((i) => i.section === "quran");
+const sunnahItems = sayyiatItems.filter((i) => i.section === "sunnah");
+if (quranItems.some((i) => suraOf(i.node) === null)) throw new Error("SayyiatStream: a Qur'an item has no sura number");
+if (quranItems.some((i) => i.kind !== "sayyi" && i.kind !== "related")) throw new Error("SayyiatStream: a Qur'an item has no kind");
+if (sunnahItems.some((i) => !i.work)) throw new Error("SayyiatStream: a Sunnah item has no work record");
+if (!G.kinds?.sayyi || !G.kinds?.related) throw new Error("SayyiatStream: sayyiat.kinds lacks sayyi or related");
+
+type Item = (typeof sayyiatItems)[number];
+const short = (n: any) => labelOf(n, lang).replace(/\s*\u2066?\(.*$/, "").replace(/\s+[—–]\s+.*$/, "").trim();
+const split = (list: Item[]) => ({ a: list.filter((i) => i.kind === "sayyi").length, r: list.filter((i) => i.kind === "related").length });
+
+const by = new Map<number, Item[]>();
+for (const i of quranItems) { const s = suraOf(i.node)!; by.set(s, [...(by.get(s) ?? []), i]); }
+const surahs = quranSurahs
+  .map((s) => {
+    const n = s.data.sura as number;
+    const items = (by.get(n) ?? []).sort((a, b) => ayaOf(a.node) - ayaOf(b.node));
+    return { n, rev: Number(s.data.revelation_order), place: placeOf(s), name: surahName(s, lang), items, ...split(items) };
+  })
+  .sort((x, y) => x.rev - y.rev);
+
+// places: one Meccan run followed by one Medinan run, or interleaved (then only the strip tells)
+let runs = 1;
+for (let i = 1; i < surahs.length; i++) if (surahs[i].place !== surahs[i - 1].place) runs++;
+const boundary = runs === 2 ? surahs.findIndex((s, i) => i > 0 && s.place !== surahs[0].place) : -1;
+
+const M = Math.max(1, ...surahs.map((s) => s.items.length));
+const step = M <= 6 ? 1 : M <= 12 ? 2 : M <= 30 ? 5 : 10;
+const top = Math.ceil(M / step) * step;
+const H = 200;
+const px = (n: number) => ((n / top) * H).toFixed(1);
+const grid = Array.from({ length: Math.floor(top / step) }, (_, k) => (k + 1) * step);
+const ticks = [1, ...Array.from({ length: 11 }, (_, k) => (k + 1) * 10)];
+
+const sunnahBy = new Map<string, Item[]>();
+for (const i of sunnahItems) sunnahBy.set(i.work!.id, [...(sunnahBy.get(i.work!.id) ?? []), i]);
+const sunnah = [...sunnahBy.entries()]
+  .map(([id, items]) => ({ id, name: short(items[0].work), items, ...split(items) }))
+  .sort((a, b) => b.items.length - a.items.length || a.id.localeCompare(b.id));
+const MS = Math.max(1, ...sunnah.map((s) => s.items.length));
+const plotted = [...quranItems, ...sunnahItems];
+const nA = split(plotted).a, nR = split(plotted).r;
+const elsewhere = sayyiatItems.length - plotted.length;
+
+const info: Record<string, [string, string, [string, string][]]> = {};
+const countText = (n: number, a: number, r: number) => fmt(V.count_split, { n: num(n, lang), a: num(a, lang), r: num(r, lang) });
+const three = (list: Item[]) => list.slice(0, 3).map((i) => [short(i.node), href(lang, i.node.id)] as [string, string]);
+for (const s of surahs) if (s.items.length) info[`q${s.n}`] = [`${num(s.n, lang)} · ${s.name}`, countText(s.items.length, s.a, s.r), three(s.items)];
+sunnah.forEach((s, k) => { info[`s${k}`] = [s.name, countText(s.items.length, s.a, s.r), three(s.items)]; });
+const aria = (head: string, n: number) => `${head} · ${fmt(V.count_in, { n: num(n, lang) })}`;
+---
+<section aria-labelledby="sg-sy-title" class="sg-sy" data-sg-sy style="margin-top:1.8rem">
+  <div data-pagefind-body>
+    <h2 id="sg-sy-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .9rem">{fmt(V.caption, { n: num(plotted.length, lang), e: num(elsewhere, lang) })}</p>
+  </div>
+  <ul class="sg-sy-legend ui" role="list">
+    <li><i class="k a" aria-hidden="true"></i>{G.kinds.sayyi} · {num(nA, lang)}</li>
+    <li><i class="k r" aria-hidden="true"></i>{G.kinds.related} · {num(nR, lang)}</li>
+    <li><i class="k m" aria-hidden="true"></i>{V.meccan}</li>
+    <li><i class="k d" aria-hidden="true"></i>{V.medinan}</li>
+  </ul>
+  <p class="sg-sy-tools ui"><button type="button" class="sg-sy-toggle" data-sg-toggle aria-pressed="false" hidden>{V.toggle}</button><span class="muted" data-sg-axis aria-live="polite" data-rev={V.axis_rev} data-mush={V.axis_mushaf}>{V.axis_rev}</span></p>
+  <div>
+    <div class="sg-sy-plot" style={`--H:${H}px;--n:114`} role="group" aria-label={V.chart_label}>
+      <div class="sg-sy-grid" aria-hidden="true">
+        {grid.map((g) => <div style={`inset-block-end:${px(g)}px`}><span>{num(g, lang)}</span></div>)}
+      </div>
+      {boundary > 0 && (
+        <div class="sg-sy-split" data-sg-split aria-hidden="true" style={`--at:${((boundary / 114) * 100).toFixed(3)}%`}><span class="sl">{V.meccan}</span><span class="sr">{V.medinan}</span></div>
+      )}
+      <ol class="sg-sy-bars" data-sg-bars role="list">
+        {surahs.map((s) => s.items.length ? (
+          <li style={`--m:${s.n}`}>
+            <a class={`sg-sy-b ${s.place === "meccan" ? "m" : "d"}`} href={href(lang, s.items[0].node.id)} data-id={`q${s.n}`} aria-label={aria(`${num(s.n, lang)} · ${s.name}`, s.items.length)}>
+              <span class="col" style={`--a:${px(s.a)}px;--r:${px(s.r)}px`}></span><span class="pl"></span>
+            </a>
+          </li>
+        ) : (
+          <li style={`--m:${s.n}`} aria-hidden="true"><span class={`sg-sy-b e ${s.place === "meccan" ? "m" : "d"}`}><span class="col"></span><span class="pl"></span></span></li>
+        ))}
+      </ol>
+      <div class="sg-sy-axis" aria-hidden="true">
+        {ticks.map((t) => <span class={t % 20 === 10 ? "o" : undefined} style={`inset-inline-start:${(((t - 0.5) / 114) * 100).toFixed(3)}%`}><b>{num(t, lang)}</b></span>)}
+      </div>
+    </div>
+  </div>
+  <p class="muted ui sg-sy-swipe">{V.swipe}</p>
+  <div class="sg-sy-low">
+    <div class="sg-sy-readout ui panel" data-sg-readout aria-live="polite" hidden>
+      <p class="muted sg-sy-hint" data-sg-hint>{V.hint}</p>
+      <div data-sg-detail hidden>
+        <p class="sg-sy-rn"><strong data-f="name"></strong></p>
+        <p class="muted" data-f="count"></p>
+        <ul class="sg-sy-rl" data-f="list"></ul>
+      </div>
+    </div>
+    <div class="sg-sy-sun ui">
+      <h3>{V.sunnah_title}</h3>
+      <p class="muted">{fmt(V.sunnah_note, { n: num(sunnah.length, lang) })}</p>
+      <ol role="list">
+        {sunnah.map((s, k) => (
+          <li><a href={href(lang, s.id)} data-id={`s${k}`}>
+            <span class="nm">{s.name}</span>
+            <span class="bar" aria-hidden="true"><i class="a" style={`inline-size:${((s.a / MS) * 100).toFixed(2)}%`}></i><i class="r" style={`inline-size:${((s.r / MS) * 100).toFixed(2)}%`}></i></span>
+            <b>{num(s.items.length, lang)}</b>
+          </a></li>
+        ))}
+      </ol>
+    </div>
+  </div>
+  <script type="application/json" data-sg-json set:html={JSON.stringify(info).replace(/</g, "\\u003c")}></script>
+</section>
+<style is:inline>
+  .sg-sy { --kA: var(--link); --kR: color-mix(in srgb, var(--link) 38%, var(--card)); --kM: color-mix(in srgb, var(--fg) 55%, transparent); --kD: var(--gold); }
+  .sg-sy-legend { list-style: none; margin: 0 0 .7rem; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .88rem; }
+  .sg-sy-legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .sg-sy-legend .k { display: inline-block; inline-size: 16px; block-size: 12px; border-radius: 2px; }
+  .sg-sy-legend .k.a, .sg-sy .a { background: var(--kA); }
+  .sg-sy-legend .k.r, .sg-sy .r { background: var(--kR); }
+  .sg-sy-legend .k.m, .sg-sy .m .pl { background: var(--kM); }
+  .sg-sy-legend .k.d, .sg-sy .d .pl { background: var(--kD); }
+  .sg-sy-legend .k.m, .sg-sy-legend .k.d { block-size: 5px; }
+  .sg-sy-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 .8rem; }
+  .sg-sy-toggle { min-block-size: 44px; padding: 0 1.2rem; border-radius: 999px; border: 1px solid var(--link); background: transparent; color: var(--fg); font: inherit; font-size: .92rem; cursor: pointer; }
+  .sg-sy-toggle[aria-pressed="true"] { background: var(--link); color: var(--bg); font-weight: 700; }
+  .sg-sy-toggle:focus-visible, .sg-sy-b:focus-visible, .sg-sy-sun a:focus-visible, .sg-sy-readout a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-sy-plot { position: relative; margin-inline-start: 34px; padding-block-start: 22px; padding-block-end: 30px; }
+  .sg-sy-grid { position: absolute; inset-inline: 0; inset-block-start: 22px; block-size: var(--H); pointer-events: none; }
+  .sg-sy-grid div { position: absolute; inset-inline: 0; border-block-start: 1px dashed var(--line); }
+  .sg-sy-grid span { position: absolute; inset-inline-end: 100%; padding-inline-end: 6px; transform: translateY(-50%); font-size: .78rem; color: var(--muted); }
+  .sg-sy-split { position: absolute; inset-block: 0 30px; inset-inline-start: var(--at); border-inline-start: 2px dashed var(--gold-text); pointer-events: none; }
+  .sg-sy-split span { position: absolute; inset-block-start: 0; font-size: .8rem; font-weight: 600; color: var(--gold-text); white-space: nowrap; }
+  .sg-sy-split .sl { inset-inline-end: 6px; }
+  .sg-sy-split .sr { inset-inline-start: 6px; }
+  .sg-sy.is-mushaf .sg-sy-split { display: none; }
+  .sg-sy-bars { list-style: none; margin: 0; padding: 0; display: flex; gap: 1px; position: relative; }
+  .sg-sy-bars li { flex: 1 1 0; min-inline-size: 0; }
+  .sg-sy-bars li.moving { transition: transform .6s cubic-bezier(.2, .8, .2, 1); }
+  .sg-sy-b { display: block; border-radius: 2px; text-decoration: none; }
+  .sg-sy-b .col { display: block; block-size: var(--H); background: linear-gradient(to top, var(--kA) var(--a, 0px), var(--kR) var(--a, 0px) calc(var(--a, 0px) + var(--r, 0px)), transparent 0); }
+  .sg-sy-b .pl { display: block; block-size: 6px; margin-block-start: 2px; border-radius: 1px; }
+  .sg-sy-b.e { opacity: .5; }
+  .sg-sy-b.e .col { background: linear-gradient(to top, var(--line) 2px, transparent 0); }
+  a.sg-sy-b:hover, a.sg-sy-b.is-sel { background: color-mix(in srgb, var(--gold) 28%, transparent); box-shadow: 0 0 0 1px var(--gold-text); }
+  .sg-sy-axis { position: relative; block-size: 20px; margin-block-start: 2px; }
+  .sg-sy-axis span { position: absolute; inset-block-start: 0; inline-size: 0; display: flex; justify-content: center; }
+  .sg-sy-axis b { font-size: .78rem; font-weight: 500; color: var(--muted); white-space: nowrap; }
+  .sg-sy-swipe { display: none; margin: .3rem 0 0; font-size: .86rem; }
+  .sg-sy-low { display: grid; gap: 1.4rem; margin-block-start: 1.2rem; align-items: start; }
+  @media (min-width: 900px) { .sg-sy-low { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 2.2rem; } .sg-sy-readout { position: sticky; inset-block-start: 90px; } }
+  .sg-sy-readout { border: 1px solid var(--link); block-size: 12.5rem; overflow-y: auto; padding: 12px 16px; }
+  .sg-sy-readout p { margin: .2rem 0; }
+  .sg-sy-rn { font-size: 1.15rem; }
+  .sg-sy-rl { list-style: none; margin: .4rem 0 0; padding: 0; display: grid; gap: 2px; }
+  .sg-sy-rl a { display: inline-flex; align-items: center; min-block-size: 32px; }
+  .sg-sy-sun h3 { font-size: 1.05rem; margin: 0 0 .1rem; }
+  .sg-sy-sun > p { margin: 0 0 .6rem; font-size: .88rem; }
+  .sg-sy-sun ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+  .sg-sy-sun a { display: grid; grid-template-columns: minmax(8rem, 13rem) minmax(0, 1fr) 2.4rem; gap: 10px; align-items: center; min-block-size: 32px; padding-inline: 6px; border-radius: 6px; text-decoration: none; color: var(--fg); }
+  .sg-sy-sun .nm { font-size: .88rem; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .sg-sy-sun .bar { display: flex; block-size: 14px; }
+  .sg-sy-sun .bar i { display: block; block-size: 100%; }
+  .sg-sy-sun b { font-size: .88rem; text-align: end; }
+  .sg-sy-sun a:hover, .sg-sy-sun a.is-sel { background: color-mix(in srgb, var(--gold) 28%, transparent); }
+  @media (max-width: 760px) {
+    .sg-sy-plot { margin-inline-start: 26px; }
+    .sg-sy-bars { touch-action: pan-y; }
+    .sg-sy-bars li { flex-basis: 0; }
+    .sg-sy-axis span.o { display: none; }
+    .sg-sy-swipe { display: block; }
+    .sg-sy-sun a { grid-template-columns: minmax(6rem, 8.5rem) minmax(0, 1fr) 2rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-sy-bars li.moving { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-sayyiat.ts"></script>

@@ -11,6 +11,7 @@ import PagedNav from "../../../components/PagedNav.astro";
 import FullFilter from "../../../components/FullFilter.astro";
 import { pagedStaticPaths, pageView, renderedHeadline, curatedFirst, type PagedProps } from "../../../lib/paged";
 import DraftMark from "../../../components/DraftMark.astro";
+import SayyiatStream from "../../../components/sig/SayyiatStream.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
@@ -65,6 +66,7 @@ const searchText = (i: (typeof sayyiatItems)[number]) =>
       <p class="ui muted">{G.api} <a href="/api/v1/sayyiat.json"><bdi dir="ltr">/api/v1/sayyiat.json</bdi></a></p>
     </div>
 
+    {paged.landing && <SayyiatStream lang={lang} />}
     <DraftMark lang={lang} legend />
     <section aria-labelledby="sections-title" style="margin-top:2rem">
       <h2 id="sections-title">{G.sections_title}</h2>
