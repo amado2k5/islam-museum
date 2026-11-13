@@ -1,0 +1,65 @@
+---
+// One letter of a long class listing, a page of names at a time (../index.astro): /<lang>/browse/<class>/all/<letter>/
+// and /<lang>/browse/<class>/all/<letter>/<n>/. Every record of the class is on exactly one of these pages.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../../components/PageHeader.astro";
+import ExploreBar from "../../../../../components/ExploreBar.astro";
+import DraftMark from "../../../../../components/DraftMark.astro";
+import { ui, fmt, LANGS, type Lang } from "../../../../../lib/i18n";
+import { labelOf, href } from "../../../../../lib/graph";
+import { BROWSE_CLASSES, browseSegment, entriesOf, CLASS_WHOLE, CLASS_PAGE } from "../../../../../lib/browse";
+import { letterGroups } from "../../../../../lib/halls";
+import { pageWindow } from "../../../../../lib/paged";
+import { num } from "../../../../../lib/nav";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => BROWSE_CLASSES.filter((c) => entriesOf(c).length > CLASS_WHOLE).flatMap((cls) =>
+    letterGroups(entriesOf(cls), lang).flatMap((g) => Array.from({ length: Math.ceil(g.items.length / CLASS_PAGE) }, (_x, k) => ({
+      params: { lang, class: browseSegment(cls), page: k === 0 ? g.id : `${g.id}/${k + 1}` },
+      props: { lang, cls, groupId: g.id, pageNo: k + 1 },
+    })))));
+}
+const { lang, cls, groupId, pageNo } = Astro.props as { lang: Lang; cls: (typeof BROWSE_CLASSES)[number]; groupId: string; pageNo: number };
+const T = ui(lang);
+const P = (T as any).paged;
+const groups = letterGroups(entriesOf(cls), lang);
+const group = groups.find((g) => g.id === groupId)!;
+const pages = Math.ceil(group.items.length / CLASS_PAGE);
+const from = (pageNo - 1) * CLASS_PAGE;
+const items = group.items.slice(from, from + CLASS_PAGE);
+const base = `/${lang}/browse/${browseSegment(cls)}/`;
+const url = (id: string, n = 1) => (n <= 1 ? `${base}all/${id}/` : `${base}all/${id}/${n}/`);
+const letter = (g: { id: string; label: string }) => (g.id === "other" ? T.hall.other : g.label);
+const title = `${T.class[cls]} · ${letter(group)}${pageNo > 1 ? ` · ${pageNo}` : ""}`;
+const range = fmt(P.range, { from: num(from + 1, lang), to: num(from + items.length, lang), total: num(group.items.length, lang) });
+---
+<BaseLayout lang={lang} title={title} description={T.browse.lede} path={url(groupId, pageNo)}>
+  <PageHeader title={title} lede={range} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.browse.title, href: `/${lang}/browse/` }, { label: T.class[cls], href: base }, { label: letter(group) }]} crumbsLabel={T.entity.breadcrumb} />
+  <div class="wrap" style="padding-block:24px 20px" data-pagefind-ignore>
+    <nav aria-label={T.hall.index_title} class="ui" style="margin:0 0 1rem">
+      <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+        {groups.map((g) => <li>{g.id === groupId
+          ? <a class="chip" aria-current="true" style="border:1px solid var(--gold)" href={url(g.id)}>{letter(g)} · {num(g.items.length, lang)}</a>
+          : <a class="chip" href={url(g.id)}>{letter(g)} · {num(g.items.length, lang)}</a>}</li>)}
+      </ul>
+    </nav>
+    {items.some((n) => n.data.status?.review === "draft" && n.class !== "passage") && <DraftMark lang={lang} legend />}
+    <ul class="ui" style="columns:16rem;line-height:1.9">
+      {items.map((n) => <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a><DraftMark lang={lang} node={n} /></li>)}
+    </ul>
+    <nav class="ui paged-nav" aria-label={P.nav_label} style="margin:1.2rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px">
+      <span class="muted">{range}</span>
+      {pageNo > 1 && <a class="chip" rel="prev" href={url(groupId, pageNo - 1)}>{P.prev}</a>}
+      {pages > 1 && (
+        <span style="display:inline-flex;flex-wrap:wrap;gap:4px">
+          {pageWindow(pageNo, pages).map((n) => n === pageNo
+            ? <span class="chip" aria-current="page" style="border:1px solid var(--gold)">{num(n, lang)}</span>
+            : <a class="chip" href={url(groupId, n)} aria-label={fmt(P.page_n, { n: num(n, lang) })}>{num(n, lang)}</a>)}
+        </span>
+      )}
+      {pageNo < pages && <a class="chip" rel="next" href={url(groupId, pageNo + 1)}>{P.next}</a>}
+      <a href={`${base}#class-index`}>{P.back}</a>
+    </nav>
+  </div>
+  <ExploreBar lang={lang} />
+</BaseLayout>

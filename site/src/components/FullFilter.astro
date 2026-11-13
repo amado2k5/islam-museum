@@ -1,0 +1,14 @@
+---
+// The whole-list results of a paginated browser's filter box (site/src/lib/paged.ts). A page shows one page of
+// rows; this lists the matches from every page, fetched on the first keystroke (/shell/list-filter.js). It sits
+// directly after the paragraph that holds the filter input. Without JavaScript the box filters nothing and every
+// row is reached through the page links.
+import { ui, type Lang } from "../lib/i18n";
+interface Props { lang: Lang; slug: string }
+const { lang, slug } = Astro.props;
+const P = (ui(lang) as any).paged;
+---
+<div class="ui full-filter" data-full-filter={`/${lang}/list-index/${slug}.json`} data-base={`/${lang}/`}
+  data-t-matches={P.filter_matches} data-t-more={P.filter_more} data-t-loading={P.filter_loading} data-t-failed={P.filter_failed} data-t-title={P.filter_all}
+  role="region" aria-label={P.filter_all} aria-live="polite" hidden style="margin:0 0 1.2rem;padding:12px 14px;border:1px solid var(--line);border-radius:10px"></div>
+<script is:inline src="/shell/list-filter.js" defer></script>

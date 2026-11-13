@@ -1,0 +1,104 @@
+---
+// The Angels Browser's home (docs/plan/34-angels-browser.md): the museum's records on the angelic
+// world in the Qur'an, the hadith and the tradition — land animals, birds, insects, sea creatures,
+// plants and trees, and the phenomena of creation — grouped in six sections over the one graph.
+// Counts are read from the graph at build time and appear on this page only.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PagedNav from "../../../components/PagedNav.astro";
+import FullFilter from "../../../components/FullFilter.astro";
+import { pagedStaticPaths, pageView, renderedHeadline, type PagedProps } from "../../../lib/paged";
+import DraftMark from "../../../components/DraftMark.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { href, labelOf, stripNeedsSource } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { angelsItems, ANGELS_SECTIONS } from "../../../lib/angels";
+
+export function getStaticPaths() {
+  // the landing, and a sub-page for every page of rows of each section longer than the landing shows (site/src/lib/paged.ts)
+  const ids = [...ANGELS_SECTIONS, ...new Set(angelsItems.map((i) => i.section).filter((s) => !ANGELS_SECTIONS.includes(s)))];
+  return pagedStaticPaths(LANGS, ids.map((id) => ({ id: String(id), count: angelsItems.filter((i) => i.section === id).length })));
+}
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const A = (T as any).angels;
+const label = (n: any) => labelOf(n, lang);
+const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "");
+const sectionIds = [...ANGELS_SECTIONS, ...new Set(angelsItems.map((i) => i.section).filter((s) => !ANGELS_SECTIONS.includes(s)))];
+const sections = sectionIds.map((id) => ({ id, items: angelsItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
+const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/angels/`);
+const pagedLabel = (s: { id: string }) => A.sections[s.id]?.title ?? s.id;
+const pagedTitle = paged.landing ? A.title : `${A.title} · ${pagedLabel(paged.sections[0])}${paged.pager && paged.pager.pageNo > 1 ? ` · ${paged.pager.pageNo}` : ""}`;
+const status = fmt(A.status, { n: num(renderedHeadline("angels", sections, [], angelsItems), lang), s: num(sections.length, lang) });
+const searchText = (i: (typeof angelsItems)[number]) =>
+  [i.node.label.ar, i.node.label.en, i.node.label.ur, summaryOf(i.node)].filter(Boolean).join(" ");
+const slugOf = (id: string) => id.split("/")[1];
+---
+<BaseLayout lang={lang} title={pagedTitle} description={A.lede} path={paged.path}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{A.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {A.title}</nav>
+    <div data-pagefind-body={paged.landing || undefined}>
+      <h1>{A.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{A.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <h2 id="method-title" style="font-size:1.1rem">{A.method_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{A.method_note}</p>
+      <p class="ui muted">{A.api} <a href="/api/v1/angels.json"><bdi dir="ltr">/api/v1/angels.json</bdi></a></p>
+    </div>
+
+    <DraftMark lang={lang} legend />
+    <section aria-labelledby="sections-title" style="margin-top:2rem">
+      <h2 id="sections-title">{A.sections_title}</h2>
+      <nav aria-label={A.sections_title} class="ui" style="margin:0 0 1rem">
+        <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {sections.map((s) => <li><a class="chip" href={`${paged.home}#t-${s.id}`}>{A.sections[s.id]?.title ?? s.id} · {num(s.items.length, lang)}</a></li>)}
+        </ul>
+      </nav>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="angels-filter">{A.filter_label}</label>
+        <input id="angels-filter" type="search" data-angels-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <FullFilter lang={lang} slug="angels" />
+      <div data-pagefind-ignore>
+        {paged.sections.map((s) => (
+          <section data-angels-section aria-labelledby={`t-${s.id}`} style="margin:1.4rem 0">
+            <h3 id={`t-${s.id}`} style="font-size:1.1rem;margin:0 0 .2rem">{A.sections[s.id]?.title ?? s.id}</h3>
+            <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{A.sections[s.id]?.desc}</p>
+            <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+              {s.items.map((i) => (
+                <li data-angels-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
+                  <a href={`/${lang}/angels/${slugOf(i.node.id)}/`} style="font-weight:600">{label(i.node)}</a><DraftMark lang={lang} node={i.node} />
+                  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem">{summaryOf(i.node)}</p>
+                </li>
+              ))}
+            </ol>
+            <PagedNav lang={lang} paged={paged} section={s} label={pagedLabel(s)} />
+          </section>
+        ))}
+      </div>
+      <p class="panel ui" data-angels-none hidden>{A.filter_none}</p>
+      {angelsItems.length === 0 && <p class="panel ui">{A.empty}</p>}
+    </section>
+  </div>
+</BaseLayout>
+
+<script>
+  // Progressive enhancement: filter the cards as the visitor types. The page reads fully without it.
+  const input = document.querySelector<HTMLInputElement>("[data-angels-filter]");
+  const rows = [...document.querySelectorAll<HTMLElement>("[data-angels-row]")];
+  const sections = [...document.querySelectorAll<HTMLElement>("[data-angels-section]")];
+  const none = document.querySelector<HTMLElement>("[data-angels-none]");
+  if (input) input.addEventListener("input", () => {
+    const q = input.value.trim().toLowerCase();
+    let shown = 0;
+    for (const r of rows) {
+      const hit = !q || (r.dataset.search ?? "").toLowerCase().includes(q);
+      r.hidden = !hit;
+      if (hit) shown++;
+    }
+    for (const s of sections) {
+      s.hidden = ![...s.querySelectorAll<HTMLElement>("[data-angels-row]")].some((r) => !r.hidden);
+    }
+    if (none) none.hidden = shown > 0;
+  });
+</script>

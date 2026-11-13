@@ -16,6 +16,21 @@
     }
   ],
   "paths": {
+    "/index.json": {
+      "get": {
+        "operationId": "getIndex",
+        "summary": "API front door",
+        "description": "What this API holds: its top-level files and folders, the licences, and where its OpenAPI description is. Written from the list of files the build produced.",
+        "responses": {
+          "200": {
+            "description": "API front door",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/meta/index.json": {
       "get": {
         "operationId": "getMetaIndex",
@@ -921,6 +936,81 @@
         "tags": [
           "usra"
         ]
+      }
+    },
+    "/openapi.json": {
+      "get": {
+        "operationId": "getOpenApi",
+        "summary": "This document",
+        "description": "The OpenAPI description of the API, served beside the data.",
+        "responses": {
+          "200": {
+            "description": "This document",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/chains.json": {
+      "get": {
+        "operationId": "getChains",
+        "summary": "Succession chains",
+        "description": "Every successor_of relation of the graph with its sources (edges), and the maximal runs in which each link has one predecessor and one successor, earliest first (chains). Nothing is inferred. The caliphate chains and the invention dependency chains are separate files named in see_also.",
+        "responses": {
+          "200": {
+            "description": "Succession chains",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/meta/counts.json": {
+      "get": {
+        "operationId": "getCounts",
+        "summary": "Site-wide counts",
+        "description": "wings: records of each wing's own class (what the menu's noun counts); halls: records tagged with each wing, drafts included (what the hall lists); entities: every record with a page. definitions says which population each key counts.",
+        "responses": {
+          "200": {
+            "description": "Site-wide counts",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/meta/search-canon.{lang}.json": {
+      "get": {
+        "operationId": "getSearchCanon",
+        "summary": "Canon-first search index",
+        "description": "keys maps a normalised name to an index into records (id, title, summary), one entry per canon record. lang is ar, en or ur.",
+        "parameters": [
+          {
+            "name": "lang",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ar",
+                "en",
+                "ur"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The index",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     }
   },

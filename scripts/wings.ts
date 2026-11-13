@@ -13,7 +13,7 @@ export function wingCounts(nodes: Iterable<{ class: string }>): Record<string, n
   return out;
 }
 
-export interface FeaturedNode { id: string; class: string; wings?: readonly string[]; label: Record<string, string | undefined>; summary: Record<string, string | undefined>; prose?: Record<string, unknown>; data?: { status?: { review?: string; completeness?: number } } }
+export interface FeaturedNode { scaffold?: boolean; id: string; class: string; wings?: readonly string[]; label: Record<string, string | undefined>; summary: Record<string, string | undefined>; prose?: Record<string, unknown>; data?: { status?: { review?: string; completeness?: number } } }
 
 const fnv1a = (s: string) => { let h = 0x811c9dc5; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; } return h; };
 const DRAFT_CARD = /^(Draft card|بطاقة أولية)/;
@@ -27,7 +27,8 @@ export function featuredPool<T extends FeaturedNode>(nodes: Iterable<T>, wing: s
   for (const x of nodes) {
     if (!(classes ? classes.includes(x.class) : (x.wings ?? []).includes(wing))) continue;
     const sum = x.summary[lang] ?? "";
-    if (!x.label[lang] || sum.length < 60 || DRAFT_CARD.test(sum)) continue;
+    // a record filed as a draft card is not featured, whether its summary still carries the frame or the graph took it off
+    if (!x.label[lang] || sum.length < 60 || DRAFT_CARD.test(sum) || x.scaffold) continue;
     const st = x.data?.status ?? {};
     ((st.review === "published" || (st.completeness ?? 0) >= 2) && x.prose?.[lang] ? rich : plain).push({ h: fnv1a(x.id), x });
   }

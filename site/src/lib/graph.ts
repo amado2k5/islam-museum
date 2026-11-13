@@ -39,7 +39,25 @@ export const updatedOn = (n: Pick<Node, "updated" | "prose">, lang: Lang): strin
 };
 
 // A title in the page language, else the other language (an honest interim), never the slug.
-export const labelOf = (n: Pick<Node, "label" | "slug">, lang: Lang) => n.label[lang] ?? n.label.ar ?? n.label.en ?? "";
+// The best label a page can show. In its own language when the record has one. Failing that: an English page shows a
+// Latin-script name the record carries, or the name spelled by the record's own id ("al-zamakhshari" -> "Al-Zamakhshari"),
+// and never an Arabic-script label in the middle of an English list (audit of 13 November 2026, S17: Grand Tour stops,
+// caliph headings and connection lists did). An Arabic or Urdu page shows the Arabic label, then the English one.
+// The records still missing a label are listed in /api/v1/meta/label-gaps.json.
+const PARTICLES = new Set(["al", "ibn", "bint", "bin", "abi", "abu", "umm", "of", "the", "and", "wa", "li", "bi", "fi"]);
+export const slugTitle = (slug: string) => {
+  const words = slug.split("-").filter(Boolean);
+  const out: string[] = [];
+  for (let i = 0; i < words.length; i++) {
+    const w = words[i];
+    if (w === "al" && words[i + 1]) { out.push(`${i === 0 ? "Al" : "al"}-${words[i + 1][0].toUpperCase()}${words[i + 1].slice(1)}`); i++; continue; }
+    out.push(i > 0 && PARTICLES.has(w) ? w : /^\d+$/.test(w) ? w : `${w[0].toUpperCase()}${w.slice(1)}`);
+  }
+  return out.join(" ");
+};
+const latinName = (n: { data?: any }) => ((n.data?.names ?? []) as { value?: string }[]).map((x) => x.value ?? "").find((v) => /^[\x20-\x7e\u00c0-\u024f\u1e00-\u1eff‘’ʿʾ]+$/.test(v) && /[A-Za-z]/.test(v));
+export const labelOf = (n: Pick<Node, "label" | "slug"> & { data?: any }, lang: Lang) =>
+  n.label[lang] ?? (lang === "en" ? (latinName(n) ?? (n.slug ? slugTitle(n.slug) : undefined)) : n.label.ar) ?? n.label.ar ?? n.label.en ?? "";
 // The raw summary keeps its {cite:…} markers and [[wiki-links]]; entity pages pass it through
 // renderProse so citations become footnotes. For plain-text contexts (cards, meta descriptions,
 // feeds) this strips the markers and resolves links to their label text.

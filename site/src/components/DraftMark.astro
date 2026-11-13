@@ -1,0 +1,16 @@
+---
+// The museum's one presentation for a record no human editor has read yet (audit of 13 November 2026, S13): the
+// word "Draft" as a badge on a card, and the badge with one plain sentence where there is room for it (a record's own
+// page, the head of a listing). The words live once, in i18n `status.draft` and `status.draft_note`. Nothing here
+// reads or changes a record's review state; it only shows it the same way everywhere.
+import { ui, type Lang } from "../lib/i18n";
+interface Props { lang: Lang; node?: { class?: string; stub?: boolean; data: { status?: { review?: string } } }; note?: boolean; legend?: boolean }
+const { lang, node, note = false, legend = false } = Astro.props;
+const T = ui(lang);
+// A passage (a verse, a hadith) is the source's own text, kept as the source gives it: its review state is about the
+// notes on its page, so the badge that says "written with AI help" is not put on it.
+const draft = legend || (!!node && !node.stub && (node as any).class !== "passage" && node.data.status?.review === "draft");
+---
+{draft && (note || legend
+  ? <p class="draft-note ui" role="note" style="font-size:.9rem;margin:.6rem 0;max-width:var(--measure)"><span class="chip draft-mark" style="border:1px solid var(--gold);font-size:.75rem;margin-inline-end:8px">{T.status.draft}</span>{T.status.draft_note}</p>
+  : <span class="chip ui draft-mark" style="border:1px solid var(--gold);font-size:.7rem;margin-inline-start:6px;vertical-align:middle">{T.status.draft}</span>)}

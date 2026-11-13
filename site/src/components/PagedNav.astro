@@ -1,0 +1,30 @@
+---
+// The links that keep a paginated listing whole (site/src/lib/paged.ts): on the landing, "All N in this section";
+// on a sub-page, where you are, previous and next, the numbered pages, and the way back. Plain anchors: no script.
+import { ui, fmt, type Lang } from "../lib/i18n";
+import { num } from "../lib/nav";
+import { pageWindow, type Paged, type PagedSection } from "../lib/paged";
+interface Props { lang: Lang; paged: Paged<unknown>; section: PagedSection<unknown>; label: string }
+const { lang, paged, section, label } = Astro.props;
+const P = (ui(lang) as any).paged;
+const pg = paged.pager;
+const pageUrl = (n: number) => (n <= 1 ? `${paged.home}all/${section.id}/` : `${paged.home}all/${section.id}/${n}/`);
+---
+{paged.landing && section.all && (
+  <p class="ui paged-more" style="margin:.8rem 0 0"><a class="chip" style="border:1px solid var(--gold)" href={section.all}>{fmt(P.all, { n: num(section.total, lang), section: label })} <span class="flip" aria-hidden="true">→</span></a></p>
+)}
+{!paged.landing && pg && (
+  <nav class="ui paged-nav" aria-label={P.nav_label} style="margin:1rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px">
+    <span class="muted">{fmt(P.range, { from: num(pg.from, lang), to: num(pg.to, lang), total: num(pg.total, lang) })}</span>
+    {pg.prev ? <a class="chip" rel="prev" href={pg.prev}>{P.prev}</a> : null}
+    {pg.pages > 1 && (
+      <span style="display:inline-flex;flex-wrap:wrap;gap:4px">
+        {pageWindow(pg.pageNo, pg.pages).map((n) => n === pg.pageNo
+          ? <span class="chip" aria-current="page" style="border:1px solid var(--gold)">{num(n, lang)}</span>
+          : <a class="chip" href={pageUrl(n)} aria-label={fmt(P.page_n, { n: num(n, lang) })}>{num(n, lang)}</a>)}
+      </span>
+    )}
+    {pg.next ? <a class="chip" rel="next" href={pg.next}>{P.next}</a> : null}
+    <a href={`${paged.home}#t-${section.id}`}>{P.back}</a>
+  </nav>
+)}

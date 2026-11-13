@@ -1,5 +1,7 @@
 // Compiles data/ + content/ into a graphology graph and writes .cache/graph.json.
 // Inverse edges are computed, dates normalised to numeric [earliest, latest] years, prose attached.
+import { stripScaffold, stripScaffoldProse } from "./scaffold.js";
+import { execSync } from "node:child_process";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { MultiDirectedGraph } from "graphology";
@@ -19,6 +21,8 @@ export interface ProseDoc { sections: { heading: string; markdown: string }[]; f
 export interface Node {
   id: string; class: string; slug: string; label: Localized; summary: Localized;
   stub: boolean; wings: string[]; regions: string[]; periods: string[]; tags: string[]; aliases: string[]; themes: string[];
+  /** True when the record's summary was filed inside the pipeline's "Draft card for …" frame (scripts/scaffold.ts): the frame is taken off `summary` here. */
+  scaffold?: boolean;
   span?: Range; display?: { start?: any; end?: any };
   coordinates?: [number, number];
   data: Record<string, any>;
@@ -29,7 +33,7 @@ export interface Node {
   updated: string;
 }
 /** `generated` and `commit` come from the HEAD commit, so the same commit compiles to the same graph (the clock only when there is no git). */
-export interface Compiled { generated: string; commit: string | null; nodes: Node[]; edges: Edge[]; coverage: Coverage }
+export interface Compiled { generated: string; commit: string | null; repo?: { commits: number; pulls: number } | null; nodes: Node[]; edges: Edge[]; coverage: Coverage }
 export interface Coverage {
   entities: number; stubs: number;
   byClass: Record<string, number>; byWing: Record<string, number>; byPeriod: Record<string, number>; byRegion: Record<string, number>; byTheme: Record<string, number>; emptyThemes: string[];
@@ -169,6 +173,26 @@ export function deriveHonourEdges(
   return [...edges.values()];
 }
 
+/**
+ * The repository's own history, counted at build time (audit of 13 November 2026, S16: Backstage printed 17,314 commits
+ * and 4,388 pull requests, typed into a string weeks before). `commits` is every commit reachable from HEAD. `pulls` is
+ * the distinct pull-request numbers named by a merge commit ("Merge pull request #N") or a squash subject ("… (#N)").
+ * A checkout without history (a shallow clone, an archive) gives null and the pages leave the sentence out.
+ */
+export function repoStats(): { commits: number; pulls: number } | null {
+  try {
+    const run = (args: string) => execSync(`git ${args}`, { cwd: ROOT, encoding: "utf8", maxBuffer: 256 * 1024 * 1024, stdio: ["ignore", "pipe", "ignore"] });
+    if (run("rev-parse --is-shallow-repository").trim() === "true") return null;
+    const commits = Number(run("rev-list --count HEAD").trim());
+    const pulls = new Set<string>();
+    for (const line of run("log --format=%s").split("\n")) {
+      const m = line.match(/^Merge pull request #(\d+)/) ?? line.match(/\(#(\d+)\)\s*$/);
+      if (m) pulls.add(m[1]);
+    }
+    return Number.isFinite(commits) && commits > 0 ? { commits, pulls: pulls.size } : null;
+  } catch { return null; }
+}
+
 export function compile(): Compiled {
   const predicates = loadPredicates();
   const loaded = loadEntities();
@@ -185,8 +209,12 @@ export function compile(): Compiled {
   for (const { entity: e, file } of loaded) {
     const { span, display } = entitySpan(e);
     const { relations, label, summary, wings, regions, periods, tags, aliases, themes, id, class: cls, ...rest } = e;
+    // the pipeline's frame around a summary ("Draft card for …; not yet checked on the page") never leaves the data file
+    const clean: Record<string, string> = {};
+    let scaffold = false;
+    for (const [l, t] of Object.entries((summary ?? {}) as Record<string, string>)) { const r = stripScaffold(t, l); clean[l] = r.text; scaffold ||= r.scaffold; }
     const node: Node = {
-      id, class: cls, slug: id.split("/")[1], label, summary, stub: false,
+      id, class: cls, slug: id.split("/")[1], label, summary: clean, stub: false, ...(scaffold ? { scaffold } : {}),
       wings: wings ?? [], regions: regions ?? [], periods: periods ?? [], tags: tags ?? [], aliases: aliases ?? [], themes: themes ?? [],
       span, display, coordinates: e.coordinates, data: rest, prose: {}, degree: 0, contemporaries: [], updated: dates.dateOf(rel(file)),
     };
@@ -199,6 +227,22 @@ export function compile(): Compiled {
   const aliasOwner = new Map<string, string>();
   for (const e of entities) for (const a of e.aliases ?? []) if (!nodes.has(a)) aliasOwner.set(a, e.id);
   const canon = (id: string) => aliasOwner.get(id) ?? id;
+  // Events that share a title are told apart by their year (audit of 13 November 2026, S17: four records titled
+  // "Battle of Marash", of 694, 953, 1164 and 1920, stood side by side; 73 English and 33 Arabic event titles are shared).
+  // Where two or more event records carry the same label in a language, each one that has a start year and does not
+  // already show a year gets it in brackets, here in the compiled graph; the data files are not rewritten.
+  {
+    const yearOf = (n: Node): string | null => { const m = String(n.data.date?.start?.edtf ?? "").match(/^(\d{3,4})/); return m ? String(Number(m[1])) : null; };
+    const hasYear = (t: string) => /[0-9\u0660-\u0669\u06f0-\u06f9]{3,4}/.test(t);
+    for (const lang of LANGS) {
+      const byLabel = new Map<string, Node[]>();
+      for (const n of nodes.values()) { const t = n.class === "event" ? (n.label as any)?.[lang] : undefined; if (t) (byLabel.get(t) ?? byLabel.set(t, []).get(t)!).push(n); }
+      for (const [t, group] of byLabel) {
+        if (group.length < 2 || hasYear(t)) continue;
+        for (const n of group) { const y = yearOf(n); if (y) n.label = { ...n.label, [lang]: lang === "en" ? `${t} (${y})` : `${t} \u2066(${y})\u2069` }; }
+      }
+    }
+  }
   for (const s of stubs) {
     if (!s.id) continue;
     if (nodes.has(s.id) || aliasOwner.has(s.id)) continue;
@@ -210,7 +254,11 @@ export function compile(): Compiled {
   }
   for (const pr of prose) {
     const n = nodes.get(pr.id);
-    if (n) n.prose[pr.lang] = splitSections(pr, dates.dateOf(rel(pr.file)));
+    if (n) {
+      const doc = splitSections(pr, dates.dateOf(rel(pr.file)));
+      for (const sec of doc.sections) sec.markdown = stripScaffoldProse(sec.markdown, pr.lang);
+      n.prose[pr.lang] = doc;
+    }
   }
   for (const n of nodes.values()) g.addNode(n.id);
 
@@ -250,7 +298,7 @@ export function compile(): Compiled {
   }
 
   const list = [...nodes.values()].sort((a, b) => a.id.localeCompare(b.id));
-  return { generated: dates.committed ?? new Date().toISOString(), commit: dates.commit, nodes: list, edges: [...edges.values()], coverage: coverage(list, entities) };
+  return { generated: dates.committed ?? new Date().toISOString(), commit: dates.commit, repo: repoStats(), nodes: list, edges: [...edges.values()], coverage: coverage(list, entities) };
 }
 
 function tally<T>(items: T[], key: (t: T) => string[]): Record<string, number> {

@@ -3,6 +3,7 @@
 // jinn, devils and demons, angels, and the dreams that carry them — grouped in four sections over
 // the one graph. Counts are read from the graph at build time and appear on this page only.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import DraftMark from "../../../components/DraftMark.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
@@ -39,6 +40,7 @@ const searchText = (i: (typeof jinnDevilsItems)[number]) =>
       <p class="ui muted">{J.api} <a href="/api/v1/jinn-devils.json"><bdi dir="ltr">/api/v1/jinn-devils.json</bdi></a></p>
     </div>
 
+    <DraftMark lang={lang} legend />
     <section aria-labelledby="sections-title" style="margin-top:2rem">
       <h2 id="sections-title">{J.sections_title}</h2>
       <nav aria-label={J.sections_title} class="ui" style="margin:0 0 1rem">
@@ -63,7 +65,7 @@ const searchText = (i: (typeof jinnDevilsItems)[number]) =>
                 <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
                   {g.items.map((i) => (
                     <li data-jinn-devils-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
-                      <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a>
+                      <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a><DraftMark lang={lang} node={i.node} />
                       <p class="muted" style="margin:.3rem 0 0;font-size:.92rem">{summaryOf(i.node)}</p>
                     </li>
                   ))}

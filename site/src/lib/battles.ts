@@ -97,3 +97,6 @@ export function parentOf(n: Node): Node | undefined {
   }
   return undefined;
 }
+
+/** Cards on one page of a kind or era listing (audit of 13 November 2026, S18). */
+export const BATTLE_PAGE = 200;

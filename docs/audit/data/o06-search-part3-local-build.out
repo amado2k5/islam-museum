@@ -1,0 +1,59 @@
+ORACLE 06: canon-first search, a fixed query set against a built site (statement 6)
+file: scripts/fable/o06_search.mjs (queries: scripts/fable/search-queries.json)
+HEAD: 3e11ee479c4af31e673dc7d3c6c42a812584e07d
+site measured: http://localhost:4390
+that site's own deploy stamp: none (a local build)
+------------------------------------------------------------------------------
+[PASS] ar "محمد"  first result: /ar/person/muhammad/
+[PASS] ar "أبو بكر"  first result: /ar/person/abu-bakr/
+[PASS] ar "عمر بن الخطاب"  first result: /ar/person/umar-ibn-al-khattab/
+[PASS] ar "علي بن أبي طالب"  first result: /ar/person/ali-ibn-abi-talib/
+[PASS] ar "عائشة"  first result: /ar/person/aisha/
+[PASS] ar "خديجة"  first result: /ar/person/khadija/
+[PASS] ar "مكة"  first result: /ar/place/mecca/
+[PASS] ar "المدينة المنورة"  first result: /ar/place/medina/
+[PASS] ar "بغداد"  first result: /ar/place/baghdad/
+[PASS] ar "القاهرة"  first result: /ar/place/cairo/
+[PASS] ar "غزوة بدر"  first result: /ar/event/battle-of-badr/
+[PASS] ar "الهجرة"  first result: /ar/event/hijra/
+[PASS] ar "الكعبة"  first result: /ar/building/kaaba/
+[PASS] ar "الصلاة"  first result: /ar/practice/salah/
+[PASS] ar "الحج"  first result: /ar/practice/hajj/
+[PASS] ar "القرآن"  first result: /ar/work/quran/
+[PASS] ar "البخاري"  first result: /ar/person/al-bukhari/
+[PASS] ar "الغزالي"  first result: /ar/person/al-ghazali-abu-hamid/
+[PASS] ar "ابن سينا"  first result: /ar/person/ibn-sina/
+[PASS] ar "ابن خلدون"  first result: /ar/person/ibn-khaldun/
+[PASS] ar "ابن بطوطة"  first result: /ar/person/ibn-battuta-muhammad/
+[PASS] ar "صلاح الدين"  first result: /ar/person/salah-al-din-yusuf-ibn-ayyub/
+[PASS] ar "الأزهر"  first result: /ar/building/al-azhar/
+[PASS] ar "قبة الصخرة"  first result: /ar/building/dome-of-the-rock/
+[PASS] ar "تاج محل"  first result: /ar/building/taj-mahal/
+[PASS] en "Muhammad"  first result: /en/person/muhammad/
+[PASS] en "Abu Bakr"  first result: /en/person/abu-bakr/
+[PASS] en "Umar ibn al-Khattab"  first result: /en/person/umar-ibn-al-khattab/
+[PASS] en "Ali ibn Abi Talib"  first result: /en/person/ali-ibn-abi-talib/
+[PASS] en "Aisha"  first result: /en/person/aisha/
+[PASS] en "Khadija"  first result: /en/person/khadija/
+[PASS] en "Mecca"  first result: /en/place/mecca/
+[PASS] en "Medina"  first result: /en/place/medina/
+[PASS] en "Baghdad"  first result: /en/place/baghdad/
+[PASS] en "Cairo"  first result: /en/place/cairo/
+[PASS] en "Battle of Badr"  first result: /en/event/battle-of-badr/
+[PASS] en "Hijra"  first result: /en/event/hijra/
+[PASS] en "Kaaba"  first result: /en/building/kaaba/
+[PASS] en "prayer"  first result: /en/practice/salah/
+[PASS] en "Hajj"  first result: /en/practice/hajj/
+[PASS] en "Quran"  first result: /en/work/quran/
+[PASS] en "Bukhari"  first result: /en/person/al-bukhari/
+[PASS] en "Ghazali"  first result: /en/person/al-ghazali-abu-hamid/
+[PASS] en "Avicenna"  first result: /en/person/ibn-sina/
+[PASS] en "Ibn Khaldun"  first result: /en/person/ibn-khaldun/
+[PASS] en "Ibn Battuta"  first result: /en/person/ibn-battuta-muhammad/
+[PASS] en "Saladin"  first result: /en/person/salah-al-din-yusuf-ibn-ayyub/
+[PASS] en "Al-Azhar"  first result: /en/building/al-azhar/
+[PASS] en "Dome of the Rock"  first result: /en/building/dome-of-the-rock/
+[PASS] en "Taj Mahal"  first result: /en/building/taj-mahal/
+------------------------------------------------------------------------------
+50 of 50 queries return the canon record first; 0 do not; 0 could not be run
+RESULT: GREEN (50 of 50) for the site measured: http://localhost:4390

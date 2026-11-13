@@ -1,4 +1,5 @@
 ---
+import { NUMBERS, numbersFor } from "../../../lib/numbers";
 // Backstage: how the museum is made — the founder, the fleet of AI agents, the lanes and the
 // gates, and everything else the project produces (the promo film, the cartoon trailer, the
 // comic, the music suite, the social videos), ending with the agents' own guest book.
@@ -16,6 +17,9 @@ const T = ui(lang);
 const B = T.backstage;
 // Counts are graph-derived at build time and re-read client-side from /api/v1/meta/counts.json +
 // meta/deploy.json (the single counts sources) so they can never drift from the homepage's numbers.
+// every figure in the paragraph below is computed at build time (site/src/lib/numbers.ts): records, record pages (the
+// one definition of "pages" the homepage states), pathways, and the repository's commits and merged pull requests
+const NB = numbersFor(lang);
 const entries = num(realNodes.length, lang);
 // Entity pages are nodes × languages; the deploy stamp's exact HTML count replaces this at view time.
 const pagesEstimate = num(nodes.length * LANGS.length, lang);
@@ -57,7 +61,7 @@ const guests: { id: string; name: string; body?: string; sign?: string }[] = [
           {s.body.map((t) => <p>{t}</p>)}
           {s.id === "intro" && (
             <p>
-              {B.intro_2a}<span data-bs-entities>{entries}</span>{B.intro_2b}<span data-bs-pages>{pagesEstimate}</span>{B.intro_2c}<span>{num(pagesCount, lang)}</span>{B.intro_2d}
+              {B.intro_2a}<span>{NB.records}</span>{B.intro_2b}<span>{NB.pages}</span>{B.intro_2c}<span>{NB.pathways}</span>{fmt(B.intro_2d, { repo: NUMBERS.commits ? fmt(B.repo_stats, NB) : "" })}
             </p>
           )}
           {s.id === "intro" && (

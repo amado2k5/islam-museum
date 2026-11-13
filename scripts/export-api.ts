@@ -41,11 +41,45 @@ import { canonSearchIndex } from "./search-canon.js";
 import { buildSynonyms } from "./derive.js";
 
 const OUT = p("site", "public", "api", "v1");
+/** Every file written, relative to /api/v1/: the API's own index (index.json) is this list, so it cannot name a file that does not exist. */
+const written: string[] = [];
+// Transcript-mining markers ("(needs_source: …)", isolate-wrapped or not) are notes for editors. They stay in the data
+// files and never ship: not on a page (site/src/lib/graph.ts stripNeedsSource) and, since the audit of 13 November 2026
+// (S17), not in any API file. A marker sits inside a JSON string, so taking the parenthetical out keeps the JSON valid.
+const NEEDS_SOURCE_JSON = /\s*\u2066?\(\s*needs_source(?:[^()"\\]|\\.|\([^()"\\]*\))*\)\u2069?|[;,]?\s*\bneeds_source\b:?[^"\\]*/g;
 const write = (rel: string, body: string) => {
   const f = `${OUT}/${rel}`;
   mkdirSync(dirname(f), { recursive: true });
-  writeFileSync(f, body);
+  const clean = body.includes("needs_source") ? body.replace(NEEDS_SOURCE_JSON, "") : body;
+  if (clean.includes("needs_source")) throw new Error(`api/v1/${rel} would ship a needs_source marker`);
+  writeFileSync(f, clean);
+  written.push(rel);
 };
+
+/**
+ * Succession chains from the graph's own `successor_of` edges (audit S19): every such edge, and the maximal runs in
+ * which each link has one predecessor and one successor, earliest first. A record that several succeed, or that
+ * succeeds several, ends a run; those branch points are all in `edges`. Nothing is inferred: no edge, no link.
+ */
+export function successionChains(c: Compiled) {
+  const real = new Set(c.nodes.filter((n) => !n.stub).map((n) => n.id));
+  const edges = c.edges.filter((e) => !e.inverse && e.type === "successor_of" && real.has(e.from) && real.has(e.to))
+    .map((e) => ({ successor: e.from, predecessor: e.to, sources: (e as any).sources ?? [] }))
+    .sort((a, b) => a.predecessor.localeCompare(b.predecessor) || a.successor.localeCompare(b.successor));
+  const next = new Map<string, string[]>(), prev = new Map<string, string[]>();
+  for (const e of edges) { (next.get(e.predecessor) ?? next.set(e.predecessor, []).get(e.predecessor)!).push(e.successor); (prev.get(e.successor) ?? prev.set(e.successor, []).get(e.successor)!).push(e.predecessor); }
+  const linear = (id: string) => (next.get(id)?.length ?? 0) === 1 && (prev.get(next.get(id)![0])?.length ?? 0) === 1;
+  const chains: string[][] = [];
+  const starts = [...new Set(edges.map((e) => e.predecessor))].filter((id) => !((prev.get(id)?.length ?? 0) === 1 && linear(prev.get(id)![0]))).sort();
+  for (const s of starts) for (const first of next.get(s) ?? []) {
+    const run = [s, first];
+    const seen = new Set(run);
+    while (linear(run[run.length - 1]) && (prev.get(run[run.length - 1])?.length ?? 0) === 1) { const n = next.get(run[run.length - 1])![0]; if (seen.has(n)) break; run.push(n); seen.add(n); }
+    chains.push(run);
+  }
+  return { generated: c.generated, feature: "succession-chains", predicate: "successor_of", edge_count: edges.length, chain_count: chains.length, chains, edges,
+    see_also: { caliphates: "/api/v1/khulafa/chains.json", inventions: "/api/v1/inventions/chains.json" } };
+}
 
 const compact = (n: Node) => ({
   id: n.id, class: n.class, label: n.label, summary: n.summary, wings: n.wings, regions: n.regions,
@@ -456,15 +490,22 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
   }
   const out: Record<string, { generated: string; feature: string; items: Record<string, unknown>[]; [key: string]: unknown }> = {};
   for (const spec of FEATURE_EXPORTS) {
-    const items = real.filter(spec.pick).sort((a, b) => a.id.localeCompare(b.id)).map((n) => {
+    // A record linked to nothing in the graph, in either direction, is not passed off as an ordinary entry of a feed
+    // (audit of 13 November 2026, S17: concept/al-sahara and concept/al-tatayyur in jinn-devils.json): its row says
+    // `unconnected: true` and the feed lists such ids under `unconnected`. It stays in `items`, because a feed is the
+    // record of what its browser shows. A passage is an entry by its own text and is never marked.
+    const picked_ = real.filter(spec.pick).sort((a, b) => a.id.localeCompare(b.id));
+    const unconnected = picked_.filter((n) => n.class !== "passage" && n.degree === 0).map((n) => n.id);
+    const items = picked_.map((n) => {
       const picked = Object.fromEntries(spec.fields.filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
       const row: Record<string, unknown> = { ...compact(n), ...picked, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) };
+      if (n.class !== "passage" && n.degree === 0) row.unconnected = true;
       if (spec.extra) Object.assign(row, spec.extra(n, edgesFrom as any, byId));
       if (n.class === "job") row.holders = (holders.get(n.id) ?? []).sort();
       if (spec.file === "qudsi.json") Object.assign(row, { hadith: n.tags.find((t) => t.startsWith("qudsi-"))?.slice(6) ?? null, tags: n.tags, themes: n.themes });
       return row;
     });
-    out[spec.file] = { generated: c.generated, feature: spec.feature, items };
+    out[spec.file] = { generated: c.generated, feature: spec.feature, items, ...(unconnected.length ? { unconnected } : {}) };
   }
   out["companions.json"] = { generated: c.generated, feature: "companions-browser", items: companionRows(c, edgesFrom) };
   const msg = messengerApiData(c, edgesFrom, byId);
@@ -654,7 +695,18 @@ export function exportApi(c: Compiled) {
   // Site-wide totals that every page's header shows (docs/site/README.md, "site-wide numbers"): one small file, fetched by a
   // few lines of client script, so the numbers are never baked into the 100k+ static pages and a content commit leaves them untouched.
   // No `generated` field: the file changes only when a count does.
-  write("meta/counts.json", JSON.stringify({ wings: wingCounts(real), entities: real.length }));
+  // `wings` counts the records of each wing's own class (what the menu's noun counts: "{n} people", "{n} passages");
+  // `halls` counts the records that carry the wing's tag, drafts included (what the wing's hall lists). The two are
+  // different populations and were printed under one name (audit S15); `definitions` says which is which.
+  write("meta/counts.json", JSON.stringify({
+    wings: wingCounts(real), entities: real.length,
+    halls: Object.fromEntries(["time", "place", "people", "ideas", "objects", "words", "living", "today", "made"].map((w) => [w, real.filter((n) => n.wings.includes(w)).length])),
+    definitions: {
+      wings: "Records of the wing's own class: time = events, place = places, people = persons, ideas = concepts, objects = objects and buildings, words = passages (verses and reports). Drafts included. This is a class count shown beside the wing's name in the menu.",
+      halls: "Records tagged with the wing, whatever their class, drafts included: the set the wing's hall lists.",
+      entities: "Every record with a page of its own, drafts included, stubs excluded.",
+    },
+  }));
   // Canon-first search (scripts/search-canon.ts): per language, the names that stand for a canon record. The search
   // page fetches its language's file once and shows the record a query names above Pagefind's results. No `generated`
   // field: the file changes only when a canon record's names do.
@@ -683,10 +735,31 @@ export function exportApi(c: Compiled) {
   if (existsSync(timeBrowserIndex)) {
     write("time-browser/index.json", JSON.stringify({ generated: c.generated, feature: "time-browser", subjects: JSON.parse(readFileSync(timeBrowserIndex, "utf8")) }, null, 1));
   }
+  // Records a page has to name in another language than its own (audit S17): published persons with no English
+  // label (an English page spells their id instead), and how many records of each class have no Arabic label.
+  write("meta/label-gaps.json", JSON.stringify({
+    published_persons_without_english_label: real.filter((n) => n.class === "person" && n.data.status?.review === "published" && !n.label.en).map((n) => n.id).sort(),
+    records_without_english_label: real.filter((n) => !n.label.en).length,
+    records_without_arabic_label_by_class: Object.fromEntries(Object.entries(real.filter((n) => !n.label.ar).reduce((a: Record<string, number>, n) => { a[n.class] = (a[n.class] ?? 0) + 1; return a; }, {})).sort()),
+  }, null, 1));
+  // The chains the Developers page promised at /api/v1/chains.json, and the API's own description beside the data.
+  write("chains.json", JSON.stringify(successionChains(c), null, 1));
+  const openapi = p("site", "public", "openapi", "v1.json");
+  if (existsSync(openapi)) write("openapi.json", rf(openapi, "utf8"));
   write("meta/index.json", JSON.stringify({
     version: "v1", generated: c.generated, classes: CLASSES.filter((k) => k === "invention" || k === "award" || real.some((n) => n.class === k)),
     docs: "https://github.com/amado2k5/islam-museum/blob/main/docs/plan/09-ai-content-pipeline.md",
     license: { prose: "CC BY-SA 4.0", data: "CC0 1.0" },
+  }, null, 1));
+  // The front door: /api/v1/index.json names what is here, from the list of files this run wrote.
+  const top = [...new Set(written.map((f) => (f.includes("/") ? `${f.split("/")[0]}/` : f)))].sort();
+  write("index.json", JSON.stringify({
+    name: "islam.museum static JSON API", version: "v1", generated: c.generated,
+    description: "Read-only JSON files built from the museum's knowledge graph. Every response is a static file.",
+    openapi: "/api/v1/openapi.json", meta: "/api/v1/meta/index.json", counts: "/api/v1/meta/counts.json",
+    license: { prose: "CC BY-SA 4.0", data: "CC0 1.0" },
+    files: top.filter((f) => !f.endsWith("/")).map((f) => `/api/v1/${f}`),
+    folders: top.filter((f) => f.endsWith("/")).map((f) => `/api/v1/${f}`),
   }, null, 1));
   return real.length;
 }

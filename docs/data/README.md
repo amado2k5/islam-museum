@@ -26,6 +26,11 @@ The static JSON API repeats the licence of each record in a `license` field. Att
    | `https://api.islam.museum/api/v1/meta/index.json` | API version, generation date, list of classes, licences |
    | `https://api.islam.museum/api/v1/meta/coverage.json` | Counts by class, wing, period, region, review status |
    | `https://api.islam.museum/api/v1/meta/search-canon.<lang>.json` (`ar`, `en`, `ur`) | Canon-first search: `keys` maps a normalised name to an index into `records` (`id`, `title`, `summary`), one entry per canon record. The search page reads it to show the record a query names first (`scripts/search-canon.ts`) |
+   | `https://api.islam.museum/api/v1/index.json` | The front door: the API's top-level files and folders (written from what the build produced), its licences, and where its OpenAPI description is |
+   | `https://api.islam.museum/api/v1/openapi.json` | The OpenAPI description of the API, served beside the data |
+   | `https://api.islam.museum/api/v1/chains.json` | Succession chains: every `successor_of` relation with its sources (`edges`) and the maximal runs they form (`chains`); nothing inferred |
+   | `https://api.islam.museum/api/v1/meta/counts.json` | Site-wide counts with their definitions: `wings` (records of the wing's own class), `halls` (records tagged with the wing, drafts included), `entities` |
+   | `https://api.islam.museum/api/v1/meta/label-gaps.json` | Records a page has to name in another language than its own: published persons without an English label, and counts of records without an Arabic label by class |
    | `https://api.islam.museum/api/v1/<class>/index.json` | Compact rows for every record of a class (id, labels, summaries, dates, coordinates, Wikidata id, review status) |
    | `https://api.islam.museum/api/v1/<class>/<slug>.json` | Full record: all data fields, resolved labels, outgoing `connections`, computed `related` list, licences |
    | `https://api.islam.museum/api/v1/graph/nodes.ndjson` | Every node, one compact JSON object per line |
@@ -149,3 +154,5 @@ Markdown with YAML front matter: `id`, `lang`, `source_lang` (the language the t
 ## 8. Citing and giving feedback
 
 Cite a record by its page URL or its id. A monthly graph export with a DOI is planned (`docs/plan/03-architecture.md` §11) but not yet in place. Errors, missing sources and reuse questions: the "Report an error" issue form, GitHub Discussions, or discover@islam.museum.
+
+Feeds: a record linked to nothing in the graph stays in its feed's `items` with `unconnected: true` and is listed under the feed's `unconnected` key. No API file carries a `needs_source` editor's marker: the export strips it and fails if one would ship. A summary filed inside the pipeline's "Draft card for …" frame is exported without the frame (`scripts/scaffold.ts`); the record's `status` says whether it is a draft.

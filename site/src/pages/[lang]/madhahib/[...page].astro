@@ -1,0 +1,109 @@
+---
+// The Four Madhhabs Browser's home (docs/plan/39-madhahib-browser.md): «متصفح المذاهب الأربعة» — the
+// four imams and schools, the other schools, the salaf forebears, the canonical books, the
+// fiqh/usul concepts, and every work, passage or question whose `mentions` edge names a madhhab,
+// over the one graph. Membership is computed at build time by scripts/madhahib.ts: tags place
+// curated records, `mentions` edges to a madhhab target place everything the sources say about
+// the schools, so a book harvested later appears here the day its edges land. Counts are read
+// from the graph at build time and appear on this page only.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PagedNav from "../../../components/PagedNav.astro";
+import FullFilter from "../../../components/FullFilter.astro";
+import { pagedStaticPaths, pageView, renderedHeadline, type PagedProps } from "../../../lib/paged";
+import DraftMark from "../../../components/DraftMark.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { madhahibItems, MADHABIB_SECTIONS, type MadhahibSection } from "../../../lib/madhahib";
+import type { Node } from "../../../../scripts/build-graph";
+
+export function getStaticPaths() {
+  // the landing, and a sub-page for every page of rows of each section longer than the landing shows (site/src/lib/paged.ts)
+  const ids = [...MADHABIB_SECTIONS];
+  return pagedStaticPaths(LANGS, ids.map((id) => ({ id: String(id), count: madhahibItems.filter((i) => i.sections[0] === id).length })));
+}
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const M = (T as any).madhahib;
+const label = (n: Node) => labelOf(n, lang);
+const summaryText = (n: Node) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? n.summary?.en ?? "");
+const EXCERPT = 220;
+const excerptOf = (n: Node) => {
+  const raw = n.class === "passage" ? String(n.data.text_search ?? n.data.text ?? "") : summaryText(n);
+  const clean = stripNeedsSource(raw).replace(/\s+/g, " ").trim();
+  return clean.length > EXCERPT ? `${clean.slice(0, EXCERPT)}…` : clean;
+};
+const workLabel = (n: Node) => (n.data.work ? labelOf(byId.get(n.data.work as string) ?? n, lang) : "");
+const refOf = (n: Node) => {
+  if (n.data.sura && n.data.aya) return `${n.data.sura}:${n.data.aya}`;
+  return n.data.ref ? String(n.data.ref) : (n.data.unit ? String(n.data.unit) : "");
+};
+const className = (n: Node) => (T as any).class?.[n.class] ?? n.class;
+const sectionIds: MadhahibSection[] = [...MADHABIB_SECTIONS];
+const sections = sectionIds.map((id) => ({ id, items: madhahibItems.filter((i) => i.sections[0] === id) })).filter((s) => s.items.length > 0);
+const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/madhahib/`);
+const pagedLabel = (s: { id: string }) => M.sections[s.id]?.title ?? s.id;
+const pagedTitle = paged.landing ? M.title : `${M.title} · ${pagedLabel(paged.sections[0])}${paged.pager && paged.pager.pageNo > 1 ? ` · ${paged.pager.pageNo}` : ""}`;
+const status = fmt(M.status, { n: num(renderedHeadline("madhahib", sections, [], madhahibItems), lang), s: num(sections.length, lang) });
+const searchText = (i: (typeof madhahibItems)[number]) =>
+  [
+    i.node.label.ar, i.node.label.en, i.node.label.ur,
+    summaryText(i.node), excerptOf(i.node), workLabel(i.node), className(i.node),
+  ].filter(Boolean).join(" ");
+---
+<BaseLayout lang={lang} title={pagedTitle} description={M.lede} path={paged.path}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{M.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {M.title}</nav>
+    <div data-pagefind-body={paged.landing || undefined}>
+      <h1>{M.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{M.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <h2 id="method-title" style="font-size:1.1rem">{M.method_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{M.method_note}</p>
+      <p class="ui muted">{M.api} <a href="/api/v1/madhahib.json"><bdi dir="ltr">/api/v1/madhahib.json</bdi></a></p>
+    </div>
+
+    <DraftMark lang={lang} legend />
+    <section aria-labelledby="sections-title" style="margin-top:2rem">
+      <h2 id="sections-title">{M.sections_title}</h2>
+      <nav aria-label={M.sections_title} class="ui" style="margin:0 0 1rem">
+        <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {sections.map((s) => <li><a class="chip" href={`${paged.home}#t-${s.id}`}>{M.sections[s.id]?.title ?? s.id} · {num(s.items.length, lang)}</a></li>)}
+        </ul>
+      </nav>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="madhahib-filter">{M.filter_label}</label>
+        <input id="madhahib-filter" type="search" data-madhahib-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <FullFilter lang={lang} slug="madhahib" />
+      <div data-pagefind-ignore>
+        {paged.sections.map((s) => (
+          <section data-madhahib-section aria-labelledby={`t-${s.id}`} style="margin:1.4rem 0">
+            <h3 id={`t-${s.id}`} style="font-size:1.1rem;margin:0 0 .2rem">{M.sections[s.id]?.title ?? s.id}</h3>
+            <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{M.sections[s.id]?.desc}</p>
+            <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+              {s.items.map((i) => (
+                <li data-madhahib-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
+                  <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a><DraftMark lang={lang} node={i.node} />
+                  {/* a record stands once, in its first section; the other sections it belongs to are named, not repeated (audit S14) */}
+                  {i.sections.length > 1 && <p class="ui muted" style="margin:.15rem 0 0;font-size:.8rem">{M.also_under} {i.sections.slice(1).map((x) => M.sections[x]?.title ?? x).join(lang === "en" ? ", " : "، ")}</p>}
+                  <p class="ui muted" style="margin:.15rem 0 0;font-size:.78rem">
+                    {className(i.node)}{i.node.class === "passage" && (
+                      <span> · {workLabel(i.node)}{refOf(i.node) ? <bdi> · {refOf(i.node)}</bdi> : null}</span>
+                    )}
+                  </p>
+                  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{excerptOf(i.node)}</p>
+                </li>
+              ))}
+            </ol>
+            <PagedNav lang={lang} paged={paged} section={s} label={pagedLabel(s)} />
+          </section>
+        ))}
+      </div>
+      <p class="panel ui" data-madhahib-none hidden>{M.filter_none}</p>
+      {madhahibItems.length === 0 && <p class="panel ui">{M.empty}</p>}
+    </section>
+  </div>
+  <script src="../../../scripts/madhahib-filter.ts"></script>
+</BaseLayout>

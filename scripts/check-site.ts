@@ -17,6 +17,10 @@ export function scan(files: Iterable<{ path: string; html: string }>): { errors:
     if (html.includes("�")) errors.push(`${file}: contains U+FFFD (replacement character)`);
     if (html.includes("ق.م هـ")) errors.push(`${file}: renders the garbled "ق.م هـ"`);
     if (/\d{4}-\d{2}-\dX/.test(html)) errors.push(`${file}: renders a date with a placeholder digit`);
+    // Audit of 13 November 2026, S13: the pipeline's scaffolding is not content. "Draft card for …" and "has not been
+    // written yet" must not be printed on any page; a draft record carries the designed badge and sentence instead.
+    // The changelog quotes both phrases when it tells this story, inside its own page only.
+    if (!/\/changelog\//.test(file) && /Draft card for|has not been written yet|بطاقة أولية ل[^ا]|لم يُكتب النص المطوّل/.test(html)) errors.push(`${file}: prints pipeline scaffolding ("Draft card for" or "has not been written yet")`);
     // Transcript-mining markers are data annotations, never prose: the parenthesised marker form
     // ((needs_source), (needs_source: …), isolate-wrapped) must not reach a published page. Prose that
     // merely names the mechanism ("needs_source flags", `needs_source` in backticks) is allowed —

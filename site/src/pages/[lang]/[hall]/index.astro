@@ -5,8 +5,13 @@ import { assetVersion, dataVersion } from "../../../lib/place-map";
 import PageHeader from "../../../components/PageHeader.astro";
 import ExploreBar from "../../../components/ExploreBar.astro";
 import TodayCards from "../../../components/TodayCards.astro";
+import DraftMark from "../../../components/DraftMark.astro";
+import HallCard from "../../../components/HallCard.astro";
+import FullFilter from "../../../components/FullFilter.astro";
+import { hallItems, hallGroups, hallCornerstones, hallPromised, hallIndexHref } from "../../../lib/halls";
+import { num } from "../../../lib/nav";
 import HijriTimeline from "../../../components/HijriTimeline.astro";
-import { ui, LANGS, WINGS, WING_PATH, type Lang, type Wing } from "../../../lib/i18n";
+import { ui, fmt, LANGS, WINGS, WING_PATH, type Lang, type Wing } from "../../../lib/i18n";
 import { WING_CLASSES } from "../../../../../scripts/wings";
 import { href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
 import { formatDate, timelineKey } from "../../../lib/dates";
@@ -16,23 +21,15 @@ export function getStaticPaths() {
 }
 const { lang, wing } = Astro.props as { lang: Lang; wing: Wing };
 const T = ui(lang);
-const items = realNodes.filter((n) => n.wings.includes(wing));
-if (wing === "time") {
-  // Chronological by start date (see timelineKey); the build fails if the rendered sequence is not non-decreasing.
-  const keyed = items.map((n) => ({ n, ...timelineKey(n) })).sort((a, b) => (a.key === b.key ? a.ord - b.ord : a.key < b.key ? -1 : 1));
-  for (let i = 1; i < keyed.length; i++) {
-    if (keyed[i].key < keyed[i - 1].key) throw new Error(`time wing out of order: ${keyed[i - 1].n.id} before ${keyed[i].n.id}`);
-  }
-  // Undated entries (datasets, buildings) sort last: Infinity keys are non-decreasing.
-  items.splice(0, items.length, ...keyed.map((k) => k.n));
-}
-// Each hall lists its own class first: the graph sorts nodes by class, so without this /people/
-// opened on the concepts and events cross-listed into the wing before its 11,000 persons.
-const primaryClasses = WING_CLASSES[wing];
-if (wing !== "time" && primaryClasses) {
-  const primary = new Set(primaryClasses);
-  items.sort((a, b) => Number(!primary.has(a.class)) - Number(!primary.has(b.class)));
-}
+// the wing's records in the hall's order (time order in Time, the wing's own class first elsewhere), and its index groups
+const items = wing === "place" ? realNodes.filter((n) => n.wings.includes(wing)) : hallItems(wing, lang);
+const groups = wing === "place" ? [] : hallGroups(wing, lang);
+const cornerstones = wing === "place" ? [] : hallCornerstones(wing, lang);
+const promised = wing === "place" ? [] : hallPromised(wing, lang);
+// the headline of the index is the set the index pages render: every record is on exactly one of them
+const indexed = groups.reduce((k, g) => k + g.items.length, 0);
+if (wing !== "place" && indexed !== new Set(items.map((n) => n.id)).size) throw new Error(`${wing} hall: the index pages hold ${indexed} records but the wing lists ${items.length}`);
+const groupLabel = (g: { id: string; label: string }) => (g.id === "other" ? T.hall.other : g.id === "undated" ? T.hall.undated : g.id === "bce" ? T.hall.bce : g.label);
 const dateOf = (n: any) => {
   const d = n.data;
   return formatDate(d.born ?? d.date?.start ?? d.start, lang).text;
@@ -130,11 +127,36 @@ const collections = wing === "objects"
     )}
     {wing === "objects" && <h2 class="ui" style="font-size:1.15rem;margin:1.8rem 0 0">{T.hall.index}</h2>}
     {wing !== "place" && items.some((n) => formatDate(n.data.born ?? n.data.date?.start ?? n.data.start, lang).derived) && <p class="ui muted" style="font-size:.85rem;margin:1.2rem 0 0">{T.entity.dagger}</p>}
-    {wing !== "place" && <ul class="grid-cards" style="margin-top:1.5rem">
-      {items.filter((n) => labelOf(n, lang)).map((n) => (
-        <li><a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><h2 class="card-title">{labelOf(n, lang)}</h2>{n.wings.filter((w) => WINGS.includes(w as Wing)).length > 1 && <span class="ui" style="display:block;font-size:.8rem">{WINGS.filter((w) => n.wings.includes(w)).map((w) => T.nav[w]).join(" · ")}</span>}{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{short(summaryOf(n, lang))}</span></a></li>
-      ))}
-    </ul>}
+    {/* One pattern for every hall (site/src/lib/halls.ts): what the wing promises first, then the full index by pages. */}
+    {wing !== "place" && promised.length > 0 && (
+      <section aria-labelledby="hall-promise">
+        <h2 id="hall-promise" class="ui" style="font-size:1.15rem;margin:1.8rem 0 .6rem">{T.hall.promise[wing]}</h2>
+        <ul class="grid-cards">{promised.map((n) => <li><HallCard lang={lang} node={n} wing={wing} heading="h3" /></li>)}</ul>
+      </section>
+    )}
+    {wing !== "place" && cornerstones.length > 0 && (
+      <section aria-labelledby="hall-lead">
+        <h2 id="hall-lead" class="ui" style="font-size:1.15rem;margin:1.8rem 0 .6rem">{T.hall.lead_title}</h2>
+        <ul class="grid-cards">{cornerstones.map((n) => <li><HallCard lang={lang} node={n} wing={wing} heading="h3" /></li>)}</ul>
+      </section>
+    )}
+    {wing !== "place" && items.length > 0 && (
+      <section aria-labelledby="hall-index">
+        <h2 id="hall-index" class="ui" style="font-size:1.15rem;margin:1.8rem 0 .3rem">{T.hall.index_title} <span class="muted" style="font-weight:400">· {fmt(T.hall.index_count, { n: num(indexed, lang) })}</span></h2>
+        <p class="muted ui" style="max-width:var(--measure);margin:0 0 .8rem">{wing === "time" ? T.hall.index_note_time : T.hall.index_note}</p>
+        {items.some((n) => n.data.status?.review === "draft" && n.class !== "passage") && <DraftMark lang={lang} legend />}
+        <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+          <label for="hall-filter">{T.hall.filter_label}</label>
+          <input id="hall-filter" type="search" autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+        </p>
+        <FullFilter lang={lang} slug={`hall-${wing}`} />
+        <nav aria-label={T.hall.index_title} class="ui">
+          <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+            {groups.map((g) => <li><a class="chip" href={hallIndexHref(lang, WING_PATH[wing], g.id)}>{groupLabel(g)} · {num(g.items.length, lang)}</a></li>)}
+          </ul>
+        </nav>
+      </section>
+    )}
 
   </div>
   {wing !== "place" && <ExploreBar lang={lang} />}

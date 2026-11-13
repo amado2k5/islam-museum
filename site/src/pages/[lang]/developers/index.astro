@@ -4,21 +4,25 @@
 // code, URLs and JSON are language-neutral literals, shown LTR on every edition.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../components/PageHeader.astro";
-import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { ui, fmt, LANGS, type Lang } from "../../../lib/i18n";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const D = T.developers;
+// every figure this page prints is computed from this build's data (site/src/lib/numbers.ts)
+const NB = numbersFor(lang);
+import { NUMBERS, numbersFor } from "../../../lib/numbers";
 const API = "https://api.islam.museum/api/v1";
 
 const endpoints: { url: string; desc: string }[] = [
+  { url: `${API}/index.json`, desc: D.ep0 },
   { url: `${API}/meta/index.json`, desc: D.ep1 },
   { url: `${API}/meta/coverage.json`, desc: D.ep2 },
   { url: `${API}/{class}/index.json`, desc: D.ep3 },
   { url: `${API}/{class}/{slug}.json`, desc: D.ep4 },
-  { url: `${API}/graph/nodes.ndjson`, desc: D.ep5 },
-  { url: `${API}/graph/edges.ndjson`, desc: D.ep6 },
+  { url: `${API}/graph/nodes.ndjson`, desc: fmt(D.ep5, NB) },
+  { url: `${API}/graph/edges.ndjson`, desc: fmt(D.ep6, NB) },
   { url: `https://islam.museum/{lang}/embed/fact/ · /{lang}/embed/trail-of-the-week/`, desc: D.ep7 },
   { url: "https://doi.org/10.5281/zenodo.23692511", desc: D.ep8 },
 ];
@@ -96,7 +100,7 @@ def lines(url):
             if raw.strip():
                 yield json.loads(raw)
 
-# 49,570 records and 38,862 sourced connections
+# ${NUMBERS.nodeLines} records and stubs, ${NUMBERS.edgeLines} sourced connections
 nodes = {n["id"]: n for n in lines(f"{BASE}/graph/nodes.ndjson")}
 edges = list(lines(f"{BASE}/graph/edges.ndjson"))
 
@@ -173,7 +177,7 @@ the data file is downloaded, use no tracking, and credit
     <article class="reading ui-body">
       <p>{D.intro_1}</p>
       <p>{D.intro_2}</p>
-      <p class="ui muted">{D.live_stats}</p>
+      <p class="ui muted">{fmt(D.live_stats, NB)}</p>
 
       <section aria-labelledby="unique-h" class="p-sec">
         <h2 id="unique-h">{D.unique_title}</h2>
@@ -291,7 +295,7 @@ the data file is downloaded, use no tracking, and credit
 
       <section aria-labelledby="roadmap-h" class="p-sec">
         <h2 id="roadmap-h">{D.roadmap_title}</h2>
-        <p>{D.roadmap_1}</p>
+        <p>{fmt(D.roadmap_1, NB)}</p>
         <p>{D.roadmap_2}</p>
         <p>{D.roadmap_3}</p>
       </section>
