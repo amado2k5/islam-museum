@@ -2463,3 +2463,17 @@ Resume point: mawkib-al-nour episode 27 (branch from origin/main).
 | A passage (ep27 00:25:30-00:27:00) on the founding of the Zionist movement, a prediction credited to its founder, a named financier said to have bribed a government, and the claim that the leaders of the movement have no tie to Judaism; and a story about a man who would not divorce a difficult wife and a joke on remarriage | ep27 00:25:30-00:27:00, 00:17:30-00:18:30 | Unsourced claims about named kinds of people and a financier, including a conspiratorial claim; garbled joke; the theological statement on Judaism and the Torah at 00:27:00 is kept | Accuracy, Content rule | Open; proposal for the founder to decide |
 
 Resume point: mawkib-al-nour episode 28 (branch from origin/main). Episode 29 in the harvest is byte-identical in transcript and audio hash to episode 28 and is not written as a second episode.
+
+### mawkib-al-nour ep28 (12 Nov 2026)
+
+18 points written for episode 28 (ar, en, ur); 15 needs_source marks per language file (ar 15, en 15, ur 15); 3 new `about` edges. Quran verses referenced only through passage links (29-60, 40-3, 40-60, 2-186, 3-110, 78-31, 9-51, 51-22, 51-23, 9-111); none typed. Proposal for the founder, not applied: the statistic reducing seven billion people to a hundred and the figures with it (ep28 00:15:00-00:18:00) are recorded as his with no source; his statements on the embryo's oxygen and waste (00:10:00), the rule on dutifulness to parents and the fire (00:14:00), the story of Rib'i ibn Amir and Rustam with its numbers (00:27:00), and the sayings credited to Umar and Ibn Ata (00:18:30) have no source.
+
+**Episode 29 is the same recording as episode 28.** The two transcripts in `pass5-qwen` (`ep28.txt` and `ep29.txt`, 48,891 bytes each) are byte-identical, and the `input_sha256` of the audio in `ep28.meta.json` and `ep29.meta.json` is the same (843a9c87485e5e075144cad1261df7a1a4884daaf030df50da9c401e0512f30f), with the same duration of 2474.1 seconds. Episode 29 is therefore a duplicate download and is not written as a second episode; the harvest needs the real audio of episode 29 fetched again before it can be mined.
+
+| Excluded (mawkib-al-nour ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings and supplication, and the closing prayer | ep28 00:00:00-00:01:30 (supplication; recitation, Quran text never typed), 00:41:00-00:41:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep28 00:07:00 (a long repeated letter), 00:09:30-00:10:00 (a long repeated word), 00:15:00-00:15:30 (a long repeated letter), 00:26:00 (a long repeated word), 00:31:00 (a long repeated syllable) | Not recoverable | Clarity, Loop check | Open |
+| An aside on a hospital-style description of who deserves the dormant accounts, a remark on how a person reaches the state, and a partly garbled passage about perfume testing and a child tasting dates in a shop | ep28 00:05:30-00:06:30, 00:13:30-00:14:00, 00:39:30-00:40:00 | Garbled or illustrative | Clarity | Open |
+
+Resume point: none; episodes 1 to 28 of mawkib-al-nour are written. Episode 29 needs a new recording.
