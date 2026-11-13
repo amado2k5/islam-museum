@@ -34,7 +34,7 @@ relations:
   - { type: participated_in, target: event/ibn-rushd-caliphal-physician-1182, role: "طبيب الخليفة", sources: [source/britannica-averroes] }
   - { type: participated_in, target: event/tahafut-al-tahafut-written-575, role: "المصنف", sources: [source/britannica-averroes] }
   - { type: participated_in, target: event/ibn-rushd-exiled-to-lucena-591, role: "المنفي", sources: [source/britannica-averroes] }
-sources: [source/al-aalam, source/min-al-falsafa-al-yunaniyya-azhar, source/britannica-averroes, source/bidaya-hallaq-v1, source/bidaya-bakri-bayt-al-afkar, source/encyclopaedia-of-islam-2]
+sources: [source/al-aalam, source/min-al-falsafa-al-yunaniyya-azhar, source/britannica-averroes, source/bidaya-hallaq-v1, source/bidaya-bakri-bayt-al-afkar, source/encyclopaedia-of-islam-2, source/biblissima]
 provenance:
   layer: own-research
   source: "الأعلام لخير الدين الزركلي (ط2) — باب محمد، ص849"
@@ -46,7 +46,7 @@ provenance:
   lead_deepened: "Lead section deepened to 150-250 words, Arabic and English, only from sources this record already cited (Grand Tour mission, run grand-tour-2026-11-11; Claude Code, claude-fable-5-2). AI text awaiting a human read; sentence-by-sentence evidence in docs/fable-run/prose-evidence/."
 importance: 1
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker L) from two editions of Bidayat al-Mujtahid" }
-external_ids: { wikidata: Q39837 }
+external_ids: { wikidata: Q39837, biblissima: Q2016 }
 kids:
   ar: "ابن رشد قاضي قرطبة وشارح أرسطو، لقّبه الغرب بالشارح الأعظم، وكتب بداية المجتهد."
   en: "Ibn Rushd (Averroes), judge of Cordoba and the great commentator on Aristotle in the West — he also wrote the jurists' manual Bidayat al-Mujtahid."

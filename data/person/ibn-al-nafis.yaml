@@ -38,7 +38,7 @@ relations:
   - { type: participated_in, target: event/ibn-al-nafis-theologus-670, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/mansuri-maristan-683, role: "الموقِف عليه", sources: [source/tarikh-islam-dhahabi] }
   - { type: participated_in, target: event/death-ibn-al-nafis-687, role: "المتوفى", sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/al-aalam, source/assabile-tareq-al-suwaidan, source/assabile-zaghloul-el-naggar, source/west-2008-ibn-al-nafis]
+sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/al-aalam, source/assabile-tareq-al-suwaidan, source/assabile-zaghloul-el-naggar, source/west-2008-ibn-al-nafis, source/biblissima]
 importance: 2
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium)" }
 provenance:
@@ -47,7 +47,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: explorer-ibn-al-nafis-1
-external_ids: { wikidata: Q319146 }
+external_ids: { wikidata: Q319146, biblissima: Q16852 }
 occupations:
   - job: job/physician
     kind: secondary
