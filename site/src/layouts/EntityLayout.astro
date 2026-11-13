@@ -128,6 +128,9 @@ for (const b of tafsirSplit?.blocks ?? []) {
   g.blocks.push({ heading: b.heading ? plainHeading(b.heading) : null, html: renumberR(r)(r.html) });
 }
 const X = T.tafsir;
+// A published record that carries AI-written passages no human has read says so (founder decision of 13 November 2026).
+// A draft record already says it through DraftMark, so the sentence is not printed twice.
+const aiUnread = !n.stub && n.data.status?.review !== "draft" && !!(n.data.status?.ai_unread || (n.data as any).provenance?.lead_deepened);
 const listSep = lang === "en" ? ", " : "، ";
 const suraNo: number | undefined = isAyah || isSura ? d.sura : undefined;
 const suraCovered = suraNo ? coveredIn(suraNo).length : 0;
@@ -202,6 +205,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
 
     <div class="wrap" style="padding-block:24px 20px">
       <div style="max-width:920px;margin:0 auto"><DraftMark lang={lang} node={n} note /></div>
+      {aiUnread && <p class="draft-note ui" role="note" style="font-size:.9rem;margin:.6rem auto;max-width:920px">{T.status.ai_passages}</p>}
       <div class="no-print" style="display:flex;justify-content:flex-end;gap:10px;max-width:920px;margin:0 auto 12px">
         <button type="button" class="chip" data-tour-add={n.id} data-save={T.mytour.save} data-saved={T.mytour.saved} aria-pressed="false">{T.mytour.save}</button>
         <DepthDial client:load labels={T.depth} />
@@ -318,6 +322,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
             {tafsirGroups.length > 0 ? (
               <>
                 <p class="ui muted" style="font-size:.92rem">{X.section_note}</p>
+                <p class="ui muted draft-note" role="note" style="font-size:.92rem">{X.ai_note}</p>
                 {tafsirGroups.map((g) => (
                   <div class="tafsir-group">
                     {g.work && (
