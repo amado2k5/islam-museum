@@ -603,3 +603,11 @@ Scoring uses the eight criteria of docs/agents/source-families.md (authority, ci
 | Louvre collections | 5 good or better, 1 weak, 2 moderate | open (text notices); photographs excluded | pilot, text fields only, Islamic objects |
 
 Nothing is registered this turn. Each registration needs the three-part commit in source-families.md (registry row, source entity with reliability_note, attribution row), plus a decision record for the founder.
+
+## 2026-11-12 (p34, Lane B) — Biblissima registered Tier 2 facts-only
+
+- Founder approved onboarding four pilot sources (Al-Thurayya, vHMML, Biblissima, Louvre); EpiHub stays deferred. One pull request per source.
+- Terms re-read on the provider's own pages, 12 Nov 2026: data.biblissima.fr/w/Licence states the Licence Ouverte / Open Licence 2.0 (Etalab); the wiki's rights field says the same; the project documents the JSON API at doc.biblissima.fr/api and invites reuse. No robots.txt is served (404). SPARQL answers 401 and is not used. No terms forbid reuse or automated access through the API.
+- Registered: data/source/biblissima.yaml, scripts/harvest/sources.yaml, docs/attribution.md, docs/agents/source-families.md (Tier 2 row), CANARY. Draft-tier source entity (AI-written), no decision-ledger id invented; the approval is the founder's in chat.
+- Remaining: the 10-person pilot via wbsearchentities / wbgetentities (not run in this PR); Arabic-label share still unmeasured.
+
