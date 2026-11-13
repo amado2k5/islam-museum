@@ -1,4 +1,5 @@
 id: person/abu-said-uthman-marinid
+aliases: [person/abu-said-uthman-ii-marinid]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: السلطان أبو سعيد عثمان المريني
@@ -24,11 +25,13 @@ relations:
   target: person/abu-al-rabi-sulayman-marinid
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- {confidence: low, note: 'From text: of Fez', sources: [source/bosworth-new-islamic-dynasties-1996], target: place/fez, type: lived_in}
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [maghreb, andalus-europe]
 sources:
 - source/tarikh-ibn-khaldun-ibar
+- source/bosworth-new-islamic-dynasties-1996
 provenance:
   layer: own-research
   source: ابن خلدون، العبر — دولة السلطان أبي سعيد، ص1951-1952 (المجلد السادس، طبعة هيليوبوليس)
@@ -39,3 +42,7 @@ status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
+external_ids: {wikidata: Q335335}
+names:
+  - {kind: alternate, value: أبو سعيد عثمان الثاني المريني}
+  - {kind: alternate, value: 'Abu Said Uthman II, Marinid sultan'}

@@ -12,3 +12,8 @@ Midlaj ibn Amr al-Sulami, an ally of the Banu Abd Shams. Al-Baladhuri says that 
 Al-Baladhuri relays from some people of knowledge that he set out from Kufa toward [[event/conquest-of-hit|Hit]] and the fortresses beyond it, took charge of its conquest, and built al-Hadītha on the Euphrates. {cite:futuh-buldan-maarif-1407 p.246}
 
 His son settled in Hit, and among them remained a man known as Abu Harun. It is said that he came from the side of Sa'd ibn Amr ibn Haram. {cite:futuh-buldan-maarif-1407 p.246}
+
+## In al-Alam — al-Zirikli
+Midlaj ibn Amr al-Sulami, an ally of Banu Abd Shams. He witnessed Badr with his brothers Malik and Thaqf and every later battle with the Prophet, and died in 50 AH.
+
+{cite:isti-ab-ibn-abd-al-barr p.703}

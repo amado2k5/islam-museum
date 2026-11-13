@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-بلاذری کے مطابق آرمینیا کے باشندوں نے [[person/al-hasan-ibn-qahtaba|حسن بن قحطبہ الطائی]] کی ولایت میں بغاوت کی، اور ان کا سردار [[person/mushayil-al-armani|موشائیل آرمنی]] تھا۔ {cite:futuh-buldan-maarif-1407 p.295}
+بلاذری کے مطابق آرمینیا کے باشندوں نے [[person/hasan-ibn-qahtaba|حسن بن قحطبہ الطائی]] کی ولایت میں بغاوت کی، اور ان کا سردار [[person/mushayil-al-armani|موشائیل آرمنی]] تھا۔ {cite:futuh-buldan-maarif-1407 p.295}
 
 ## واقعہ
 یہ بغاوت ابن اسید اور بکار بن مسلم العقیلی کی معزولی کے بعد ہوئی۔ اس پر [[person/al-mansur|منصور]] نے کمک بھیجی، جس کی کمان عامر بن اسماعیل کے پاس تھی۔ حسن اور موشائیل کا مقابلہ ہوا جس میں موشائیل مارا گیا اور اس کا لشکر منتشر ہو گیا، اور یوں حالات حسن کے قابو میں آ گئے۔ {cite:futuh-buldan-maarif-1407 p.295}

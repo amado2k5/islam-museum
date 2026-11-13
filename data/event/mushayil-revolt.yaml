@@ -15,7 +15,7 @@ relations:
   - { type: occurred_at, target: place/baylaqan }
   - { type: occurred_at, target: place/bardhaa }
   - { type: related_to, target: person/mushayil-al-armani, role: "رئيس المنتقضين المقتول", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-hasan-ibn-qahtaba, role: "الوالي وقاهر الانتقاضة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hasan-ibn-qahtaba, role: "الوالي وقاهر الانتقاضة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mansur, role: "باعث الأمداد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/amir-ibn-ismail, role: "على الأمداد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
@@ -27,7 +27,7 @@ provenance:
   run: lib-futuh-buldan-batch-18
 sides:
   - label: { ar: "جيش الحسن بن قحطبة الطائي", en: "al-Hasan ibn Qahtaba al-Ta'i's army" }
-    commanders: [person/al-hasan-ibn-qahtaba]
+    commanders: [person/hasan-ibn-qahtaba]
   - label: { ar: "أرمينية", en: "Armenia" }
 map:
   kind: campaign

@@ -14,5 +14,16 @@ Take one structure named in the accounts. Say which part gave way and what kind 
 ## What would you compare before and after?
 List what you would look at in a town before and after an earthquake in order to compare the damage fairly.
 
+## Go deeper
+The chronicle Shadharat al-Dhahab records [[event/earthquake-tsunami-425|the earthquake of 425 AH]]. Ramla was shaken, and about half of it was destroyed. Part of the wall of Jerusalem fell, and the minaret of the mosque of Ascalon collapsed {cite:shadharat-dhahab p. 228}. A second record says that the earthquake of 1033 devastated Jerusalem, and that the Fatimid caliph al-Zahir had [[event/aqsa-fatimid-rebuild|al-Aqsa]] rebuilt between 1034 and 1036 {cite:encyclopaedia-of-islam-2 vol. 6 p. 734-735}. The new mosque was smaller than its predecessor, with seven aisles instead of fifteen {cite:encyclopaedia-of-islam-2 vol. 6 p. 734-735}.
+
+## Think about it
+The museum's record does not say why the new mosque was smaller, with seven aisles instead of fifteen. What reason could you suggest for building smaller after an earthquake, and why would it make sense?
+
+## Into the museum
+- [[event/earthquake-tsunami-425|The earthquake of 425 AH]]: what fell in Ramla, Jerusalem and Ascalon, and how the sea drew back.
+- [[event/aqsa-fatimid-rebuild|The rebuilding of al-Aqsa]]: what the Fatimid caliph's builders made after the earthquake.
+- [[event/damascus-flood-683|The Damascus flood of 683 AH]]: a night flood that broke the locks and the bridge of a gate.
+
 ## Try this
 Read about [[event/damascus-flood-683|the Damascus flood of 683 AH]] and [[event/earthquake-tsunami-425|the earthquake of 425 AH]]. List the structures they name and what happened to each.

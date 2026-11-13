@@ -1,4 +1,5 @@
 id: person/ubayd-ibn-shariya
+aliases: [person/ubayd-ibn-sharya]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "عبيد بن شرية الجرهمي", en: "Ubayd ibn Shariya" }
 summary:
@@ -16,8 +17,11 @@ provenance:
 died: { edtf: "687~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist (Ibn al-Nadim)" }
 relations:
   - { type: traveled_to, target: place/damascus, sources: [source/muruj-al-dhahab] }
-sources: [source/muruj-al-dhahab]
+  - {confidence: low, note: The only place named in the record; specific residence or role there is assumed from context but not separately documented., sources: [source/umayyad-birth-to-fall-2006], target: place/yemen, type: lived_in}
+sources: [source/muruj-al-dhahab, source/umayyad-birth-to-fall-2006]
 status:
   review: published
   completeness: 3
-
+names:
+  - {kind: alternate, value: عبيد بن شرية}
+regions: [arabia]

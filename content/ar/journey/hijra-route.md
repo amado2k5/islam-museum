@@ -14,5 +14,5 @@ translators: []
 ويروي ابن إسحاق المواضع بترتيبها: أسفل مكة، فالساحل إلى أسفل عسفان، فأسفل أمج، فبعد قديد، فالخرار، فثنية المرة، فلقف، فمدلجة لقف، فمدلجة مجاح، فمرجح محاج، فمرجح ذي الغضوين، فبطن ذي كشر، فالجداجد، فالأجرد، فذا سلم، فالعبابيد، فالفاجة، فالعرج، فثنية العائر عن يمين ركوبة، فبطن رئم، فقباء {cite:mubarakpuri-raheeq p.167} {cite:ibn-hisham-sira}.
 
 ## في الطريق
-لحق بهما [[person/suraqa-ibn-malik|سراقة بن مالك]] فساخت يدا فرسه فاستأمنهم ورجع يصرف عنهم الطلب {cite:mubarakpuri-raheeq pp.168-169}. ومرّوا بخيمة [[person/umm-mabad|أم معبد]] فحلب النبي شاتها العاجزة {cite:mubarakpuri-raheeq p.169}. ولقيهما [[person/abu-burayda-al-aslami|أبو بريدة]] فأسلم مع سبعين من قومه {cite:mubarakpuri-raheeq p.170}. ولقيهما [[person/zubayr-ibn-al-awwam|الزبير]] في ركب تجار قافلين من الشام فكساهما ثياباً بيضاء {cite:mubarakpuri-raheeq p.170}.
+لحق بهما [[person/suraqa-ibn-malik|سراقة بن مالك]] فساخت يدا فرسه فاستأمنهم ورجع يصرف عنهم الطلب {cite:mubarakpuri-raheeq pp.168-169}. ومرّوا بخيمة [[person/umm-maabad|أم معبد]] فحلب النبي شاتها العاجزة {cite:mubarakpuri-raheeq p.169}. ولقيهما [[person/abu-burayda-al-aslami|أبو بريدة]] فأسلم مع سبعين من قومه {cite:mubarakpuri-raheeq p.170}. ولقيهما [[person/zubayr-ibn-al-awwam|الزبير]] في ركب تجار قافلين من الشام فكساهما ثياباً بيضاء {cite:mubarakpuri-raheeq p.170}.
 

@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-مقلد بن مسیب عقیلی، جن کا لقب حسام الدولہ تھا، [[group/banu-uqayl|بنو عقیل]] کے ایک امیر تھے جنہوں نے [[polity/uqaylid-dynasty|عقیلی سلطنت]] کے تحت موصل پر حکومت کی۔ وہ [[person/muhammad-ibn-al-musayyib|محمد بن مسیب]] کے جانشین اور [[person/qirwash-ibn-al-muqallad|قرواش]] کے والد تھے۔ {cite:tarikh-ibn-khaldun-ibar}
+مقلد بن مسیب عقیلی، جن کا لقب حسام الدولہ تھا، [[group/banu-uqayl|بنو عقیل]] کے ایک امیر تھے جنہوں نے [[polity/uqaylid-dynasty|عقیلی سلطنت]] کے تحت موصل پر حکومت کی۔ وہ [[person/muhammad-ibn-al-musayyib|محمد بن مسیب]] کے جانشین اور [[person/qarwash-ibn-al-muqallad|قرواش]] کے والد تھے۔ {cite:tarikh-ibn-khaldun-ibar}
 
 ## موصل
 ابن خلدون بیان کرتے ہیں کہ انہوں نے موصل میں دیلم کو اپنی طرف مائل کیا، اور بہاء الدولہ کو لکھا کہ وہ شہر کا ہر سال دو ملین درہم ادا کرنے کے ضامن ہیں، چنانچہ انہوں نے اس پر قبضہ کر لیا۔ پھر خلیفہ القادر باللہ نے ان کے لیے مجلس بٹھائی، انہیں حسام الدولہ کا لقب دیا، اور موصل، کوفہ، قصر اور دونوں جامعات انہیں جاگیر میں دے دیں۔ {cite:tarikh-ibn-khaldun-ibar}

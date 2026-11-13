@@ -11,3 +11,15 @@ Al-Baladhuri names him among the commanders who appointed Abu Ubayda ibn al-Jarr
 
 ## In al-Isaba
 Ibn Hajar gives him his own entry in al-Isaba, no. 4509: "Amir ibn Abi Waqqas al-Zuhri: he is Amir ibn Malik. Discussed above" — fixing his name as Amir ibn Malik and referring back to his earlier entry. {cite:ibn-hajar-isaba p.763}
+
+## In al-Sira al-Nabawiyya — Ibn Hisham, al-Saqqa edition (1355/1936)
+A Companion of Banu Zuhra; he emigrated to Abyssinia and arrived in the two ships. {cite:ibn-hisham-saqqa 4/5}
+
+## In al-Sira al-Nabawiyya — Ibn Hisham, al-Saqqa edition (1355/1936): In the Abyssinian emigrants chapter
+Ibn Ishaq names him with Utba ibn Mas'ud of Banu Zuhra, writing him "Amir ibn Abi Waqqas". {cite:ibn-hisham-saqqa 4/5} The text gives no more of his lineage than his father's name.
+
+## In al-Sira al-Nabawiyya — Ibn Hisham, al-Saqqa edition (1355/1936): Tribe
+He belongs, per Ibn Ishaq, to [[group/banu-zuhra|Banu Zuhra]] {cite:ibn-hisham-saqqa 4/5}
+
+## In al-Sira al-Nabawiyya — Ibn Hisham, al-Saqqa edition (1355/1936): Source notes and markers of doubt
+- The museum's file identifier is "Amir ibn al-Waqqas"; the printed text writes "Amir ibn Abi Waqqas" (p. 5) — the text's form is given in the full name.

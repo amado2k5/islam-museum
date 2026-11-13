@@ -1,4 +1,5 @@
 id: person/abdallah-ibn-budayl
+aliases: [person/abdullah-ibn-budayl]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "عبد الله بن بديل", en: "Abdallah ibn Budayl" }
 summary:
@@ -12,8 +13,14 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 434–439"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-44
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/sallabi-ali-vol2]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
 relations:
   - { type: lived_in, target: place/al-yahudiyya, note: "From text: أهل بلده فوفى وأخذ اليهودية و", sources: [source/futuh-buldan-maarif-1407], confidence: low }
+  - {confidence: medium, note: Killed commanding Ali's right wing at Siffin on the second day., sources: [source/sallabi-ali-vol2], target: place/siffin, type: traveled_to}
+  - {role: قائد الميمنة في اليوم الثاني، استُشهد, sources: [source/sallabi-ali-vol2], target: event/battle-of-siffin, type: participated_in}
+names:
+  - {kind: alternate, value: عبد الله بن بديل الخزاعي}
+  - {kind: alternate, value: Abd Allah ibn Budayl al-Khuza'i}
+gender: male

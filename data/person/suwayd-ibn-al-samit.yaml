@@ -1,4 +1,5 @@
 id: person/suwayd-ibn-al-samit
+aliases: [person/suwayd-ibn-samit]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "سويد بن الصامت", en: "Suwayd ibn al-Samit" }
 summary:
@@ -9,9 +10,25 @@ wings: [people]
 died: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: traveled_to, target: place/medina, sources: [source/samhudi-wafa-al-wafa], confidence: low, note: "In Ibn Ishaq's account preserved by al-Samhudi he was of Banu 'Amr ibn 'Awf of the Aws, called 'al-Kamil' for " }
-sources: [source/futuh-buldan-maarif-1407, source/samhudi-wafa-al-wafa]
+  - {target: place/medina, type: born_in}
+  - {target: group/aws, type: member_of}
+sources: [source/futuh-buldan-maarif-1407, source/samhudi-wafa-al-wafa, source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+  source: "the record's cited sources (source/futuh-buldan-maarif-1407; source/samhudi-wafa-al-wafa; source/mubarakpuri-raheeq; source/ibn-hisham-sira); field added 13 November 2026 when a duplicate record was merged into this one"
+names:
+  - {kind: full, lang: ar, value: سويد بن الصامت بن عطية الأوسي}
+  - {kind: laqab, lang: ar, value: الكامل}
+  - {kind: alternate, value: Suwayd ibn Samit}
+  - {kind: alternate, value: سويد بن صامت}
+gender: male
+roles: [poet, notable]
+themes: [literature]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, start: { edtf: "0620~" }, status: tradition, note: "عرض عليه النبي الإسلام فأعجب بالقرآن (الرحيق ص132-133).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, note: "لقي النبي وأعجب بالقرآن ثم قتل ببعاث." }

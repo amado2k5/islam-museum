@@ -13,3 +13,12 @@ At the building of Malatya in 140 AH he was in the army of Abd al-Wahhab ibn Ibr
 Al-Mahdi sent him on campaign in 162 AH. He travelled in the lands of the Byzantines and chose the site of the city of al-Hadath, and spoke to al-Mahdi about building it and the building of Tarsus ([[event/founding-of-al-hadath|the founding of al-Hadath]]). {cite:futuh-buldan-maarif-1407}
 
 The years of his birth and death are not recorded in the museum's data, and need an additional source.
+
+## In Futuh al-Buldan — al-Baladhuri (Mu'assasat al-Ma'arif edition)
+Al-Hasan ibn Qahtaba al-Ta'i al-Kufi, a commander from the army of Khurasan and a summoner of the Abbasid state. {cite:futuh-buldan-maarif-1407 p.231}
+
+## In Futuh al-Buldan — al-Baladhuri (Mu'assasat al-Ma'arif edition): The raid on the Byzantines
+Al-Baladhuri says that he raided the lands of the Byzantines in 162 AH with the people of Khurasan, Mosul and Syria, with reinforcements from Yemen and volunteers from Iraq and the Hijaz. He fought well and subdued the land of the Byzantines, so that they called him "the devil". With him were Mandal al-Anazi of Kufa and Mu'tajir ibn Sulayman of Basra. {cite:futuh-buldan-maarif-1407 p.231-232}
+
+## In Futuh al-Buldan — al-Baladhuri (Mu'assasat al-Ma'arif edition): Tarsus
+On his expedition he camped at the plain of Tarsus, went round its ruined city, and estimated its population at a hundred thousand. He described it to [[person/al-mahdi|al-Mahdi]], who was encouraged to rebuild it. Al-Baladhuri considers this the origin of its building. {cite:futuh-buldan-maarif-1407 p.231-232} See [[event/founding-of-tarsus|the founding of Tarsus]].

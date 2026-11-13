@@ -15,3 +15,8 @@ Adi reports that he saw a litter approaching him, and it was his sister. When sh
 
 ## From the commentary of the editors
 "The delegate" is the visitor; "the litter" is the woman in her howdah; "insahalat" means she began to reproach him and went on at it in earnest; "the enclosure" is similar to the pen made for camels and sheep. {cite:ibn-hisham-saqqa 4/225} {cite:ibn-hisham-saqqa 4/226}
+
+## In al-Alam — al-Zirikli
+Saffana bint Hatim al-Ta'iyya, sister of Adi ibn Hatim. Taken in the Tayy captives and brought before the Prophet, she rose to him saying her father had perished and her kinsman was absent; he freed her, clothed and mounted her and gave her provision until she reached her brother. She embraced Islam and counselled Adi to join the Prophet.
+
+{cite:ibn-hajar-isaba p.1894}

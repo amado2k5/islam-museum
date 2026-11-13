@@ -10,7 +10,7 @@ Ibn Ishaq lists this clan among the Abyssinian emigrants under the lineage "Zuhr
 
 ## Of this clan in the Abyssinian emigrants chapter
 **Carried in the two ships:**
-- [[person/amer-ibn-al-waqqas|Amir ibn al-Waqqas]] {cite:ibn-hisham-saqqa 4/5}
+- [[person/amir-ibn-abi-waqqas|Amir ibn al-Waqqas]] {cite:ibn-hisham-saqqa 4/5}
 - [[person/utba-ibn-masoud|Utba ibn Mas'ud]] {cite:ibn-hisham-saqqa 4/5}
 
 **From the rest of the Abyssinian emigrants:**

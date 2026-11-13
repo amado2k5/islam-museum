@@ -1,4 +1,5 @@
 id: person/washmakir-ibn-ziyar
+aliases: [person/vushmgir]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: وشمكير بن زيار
@@ -32,11 +33,13 @@ relations:
 - { type: ruler_of, target: place/jurjan, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'وشمكير بن زيار، أخو مرداويج بن زيار من الجيل إخوة الديلم؛ بعث عنه مرداويج من بلاد كيلان سنة 320هـ فاستظهر" }
 - { type: ruler_of, target: place/tabaristan, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'وشمكير بن زيار، أخو مرداويج بن زيار من الجيل إخوة الديلم؛ بعث عنه مرداويج من بلاد كيلان سنة 320هـ فاستظهر" }
 - { type: ruled_over, target: place/jurjan, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "en: 'Washmakir ibn Ziyar, brother of Mardawij ibn Ziyar of the Gilanite brothers of the Daylam; summoned from " }
+- {sources: [source/kamil-ibn-al-athir], target: place/tabaristan, type: ruled_over}
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia]
 sources:
 - source/tarikh-ibn-khaldun-ibar
+- source/kamil-ibn-al-athir
 provenance:
   layer: own-research
   source: ابن خلدون، العبر — دولة وشمكير وبنيه، ص1222-1223 (طبعة هيليوبوليس)
@@ -47,3 +50,5 @@ status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
+names:
+  - {kind: alternate, value: وُشمگير بن زيار}

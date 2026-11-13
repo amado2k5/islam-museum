@@ -1,4 +1,5 @@
 id: person/ali-ibn-abdallah-ibn-al-abbas
+aliases: [person/ali-ibn-abdallah-al-abbasi]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "علي بن عبد الله بن العباس", en: "'Ali ibn 'Abd Allah ibn al-'Abbas" }
 summary:
@@ -16,7 +17,13 @@ born: { edtf: "660", calendar: gregorian, precision: year, derived: true, note: 
 died: { edtf: "736", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / Siyar" }
 relations:
   - { type: lived_in, target: place/medina, note: "Ibn Abbas's son, present at the Harra near Medina.", sources: [source/muruj-al-dhahab], confidence: medium }
-sources: [source/muruj-al-dhahab]
+  - {confidence: low, note: Abbasid family seat at al-Humayma in southern Jordan; flagged., sources: [source/futuh-buldan-maarif-1407], target: place/jordan, type: lived_in}
+sources: [source/muruj-al-dhahab, source/futuh-buldan-maarif-1407]
 status:
   review: published
   completeness: 3
+names:
+  - {kind: alternate, value: علي بن عبد الله العباسي}
+  - {kind: alternate, value: Ali ibn Abdallah al-Abbasi}
+periods: [period/abbasid-early]
+regions: [levant-iraq]

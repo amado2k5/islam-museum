@@ -1,4 +1,5 @@
 id: person/al-fadl-ibn-nawbakht
+aliases: [person/al-fadl-ibn-naubakht]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: أبو سهل الفضل بن نوبخت
@@ -10,7 +11,7 @@ roles: [scholar]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/al-aalam, source/wikidata]
 provenance:
   layer: own-research
   source: "أحمد أمين، ضحى الإسلام ج3 ص80، عن الفهرست ص284 والقفطي"
@@ -21,3 +22,9 @@ status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Qifti (Tarikh al-Hukama)" }
 relations:
   - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name (الفارسي); denotes association, not proven residence.", sources: [source/duha-islam], confidence: low }
+  - {confidence: medium, note: Wikidata Q12536 (P27); corroboration recommended., sources: [source/wikidata], target: place/abbasid-caliphate, type: lived_in}
+external_ids: {wikidata: Q4702360}
+names:
+  - {kind: alternate, value: الفضل بن نوبخت}
+  - {kind: alternate, value: al-Fadl ibn Naubakht}
+gender: male

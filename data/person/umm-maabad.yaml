@@ -1,9 +1,12 @@
 id: person/umm-maabad
+aliases: [person/umm-mabad]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "أم معبد الخزاعية", en: "Umm Ma'bad al-Khuza'iyya" }
 names:
   - { kind: full, lang: ar, value: "عاتكة بنت خالد الخزاعية، أم معبد" }
   - { kind: kunya, lang: ar, value: "أم معبد" }
+  - {kind: alternate, lang: ar, value: عاتكة بنت خالد الخزاعية}
+  - {kind: alternate, value: Umm Ma'bad}
 gender: female
 roles: [host]
 summary:
@@ -19,11 +22,16 @@ relations:
   - { type: member_of, target: group/khuzaa, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/hijra-journey-to-medina, role: "أطعمت النبي وحلبت له الشاة", sources: [source/mubarakpuri-raheeq] }
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Her dwelling stood on the Mecca-Medina route where the Prophet's hijra passed (regions: arabia).", sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari] }
+  - {role: صاحبة مشهد الشاة في الطريق, sources: [source/mubarakpuri-raheeq, source/zad-al-maad], target: event/hijra, type: participated_in}
+  - {note: زوجها أبو معبد واسمه أكثم بن أبي الجون الخزاعي؛ هاجرا معاً إلى المدينة وأسلما وبايعا (نساء حول الرسول ص219-222)., sources: [source/nisa-hawl-alrasul], target: person/aktham-ibn-abi-al-jawn, type: spouse_of}
 provenance:
   layer: own-research
   source: "الرحيق المختوم ص167–174 نقلاً عن ابن هشام 1/491–494 وزاد المعاد 2/53–55 وصحيح البخاري 1/510–589 ورحمة للعالمين 1/95–106"
   generated_by: "Claude Code"
   model: "claude-haiku-5-5"
   run: "raheeq-prose-batch-12b"
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari, source/nisa-hawl-alrasul]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 169–170" }
+themes: [refugees-migrants-diaspora]
+faith:
+  - { value: arabian-polytheism, basis: tradition, note: "لم يذكر الكتاب إسلامها في هذا الموضع؛ كانت مع زوجها على دين قومهما.", sources: [source/mubarakpuri-raheeq] }

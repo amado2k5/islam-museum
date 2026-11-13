@@ -1,9 +1,11 @@
 id: person/dawud-al-zahiri
+aliases: [person/dawud-ibn-ali-al-isbahani]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 tags: [madhahib-browser, mh-ukhra]
 label: { ar: "داود الظاهري" }
 names:
   - { kind: full, lang: ar, value: "داود بن علي الأصبهاني" }
+  - {kind: alternate, value: Dawud ibn Ali al-Isbahani}
 gender: male
 roles: [jurist, scholar]
 born: { edtf: "0815~", hijri: "0200~", calendar: julian, precision: year, status: tradition, sources: [source/duha-islam], note: "وُلد بالكوفة نحو سنة ٢٠٠هـ." }
@@ -21,8 +23,11 @@ relations:
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/al-chunizia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: founder_of, target: group/zahiri-madhhab, sources: [source/duha-islam] }
+  - {confidence: low, note: Associated with الظاهر per the record's own summary text; relation type pending review., sources: [source/fihrist-ibn-al-nadim], target: place/daher, type: lived_in}
+  - {role: أخذ العلم عن إسحاق بن راهويه (PDF ص49), sources: [source/tabaqat-fuqaha-abbas-1981], target: person/ishaq-ibn-rahwayh, type: student_of}
+  - {role: أخذ العلم عن أبي ثور (PDF ص49), sources: [source/tabaqat-fuqaha-abbas-1981], target: person/abu-thawr-al-kalbi, type: student_of}
 external_ids: { wikidata: "Q3196955" }
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: own-research
   source: "ضحى الإسلام لأحمد أمين ص 567-568"
@@ -36,3 +41,9 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/duha-islam]
+education:
+  did_you_know:
+    ar: "داود بن علي الأصبهاني أول من استعمل قول الظاهر وأخذ بالكتاب والسنة وألغى ما سواهما من الرأي والقياس؛ توفي ببغداد."
+    en: "Dawud ibn Ali al-Isbahani was the first to employ the literalist method — holding to the Book and the Sunna and dropping all opinion and analogy beside them; he died in Baghdad."
+    ur: "داؤد بن علی اصفہانی پہلے شخص تھے جنھوں نے ظاہری طریق اپنایا — کتاب و سنت پر قائم رہے اور اس کے سوا رائے اور قیاس کو ترک کیا؛ بغداد میں فوت ہوئے۔"
+    sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2]

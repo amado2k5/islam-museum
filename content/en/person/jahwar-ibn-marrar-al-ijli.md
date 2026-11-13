@@ -13,3 +13,8 @@ Jahwar advanced with his army toward Sunbadh, met him between Hamadhan and Rayy,
 
 ## Notes for researchers
 - The entry is based on Taqqush's summary of *Tarikh al-Dawla al-Abbasiyya*. We have not yet gone back to the primary sources that give details of his command.
+
+## In Futuh al-Buldan — al-Baladhuri (Mu'assasat al-Ma'arif edition)
+Jahwar ibn Marrar al-Mujalli, called "al-Marar" in Ibn Duraid. Umar ibn al-Ala' sent the butcher of Rayy to al-Mansur, and al-Mansur honoured him and gave him a rank. {cite:futuh-buldan-maarif-1407}
+
+The museum's data hold no other information about him. It needs an additional source.

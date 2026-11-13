@@ -11,7 +11,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 In [[work/bidayat-al-mujtahid|Bidayat al-Mujtahid]], [[person/ibn-rushd|Ibn Rushd]] opens the chapter on the acts of [[practice/wudu|ablution]] with the question of [[concept/niyya-fiqh|intention]], the first of twelve well-known questions that serve as the "mothers" of the chapter. {cite:bidaya-bakri-bayt-al-afkar p. 22} He says the jurists of the great cities differed over whether intention is a condition of a valid ablution, after agreeing that intention is a condition in acts of worship, because of the verse on sincere devotion and the hadith "actions are only by intentions". {cite:bidaya-bakri-bayt-al-afkar p. 22}
 
 ## The views
-- **It is a condition**: the school of [[person/al-shafii|al-Shafi'i]], [[person/malik-ibn-anas|Malik]], [[person/ahmad-ibn-hanbal|Ahmad]], [[person/abu-thawr|Abu Thawr]] and [[person/dawud-al-zahiri|Dawud]]. {cite:bidaya-bakri-bayt-al-afkar p. 23} {cite:bidaya-hallaq-v1 p. 36}
+- **It is a condition**: the school of [[person/al-shafii|al-Shafi'i]], [[person/malik-ibn-anas|Malik]], [[person/ahmad-ibn-hanbal|Ahmad]], [[person/abu-thawr-al-kalbi|Abu Thawr]] and [[person/dawud-al-zahiri|Dawud]]. {cite:bidaya-bakri-bayt-al-afkar p. 23} {cite:bidaya-hallaq-v1 p. 36}
 - **It is not a condition**: the school of [[person/abu-hanifa|Abu Hanifa]] and [[person/sufyan-al-thawri|al-Thawri]]. {cite:bidaya-bakri-bayt-al-afkar p. 23}
 
 ## The cause of disagreement, as Ibn Rushd sees it

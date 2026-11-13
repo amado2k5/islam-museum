@@ -10,3 +10,11 @@ al-Qadi Abu Yaʿla Muhammad ibn al-Husayn ibn Khalaf ibn Ahmad ibn al-Farraʾ, s
 
 ## The scene
 He was an imam in jurisprudence and wrote many fine works in the school of Ahmad ibn Hanbal. He combined leadership, shrewdness, truthfulness, good character, devotion, asceticism, humility, a dignified bearing and the following of the early predecessors (al-salaf). He owned some works that were unique to him, among them *al-Zahir* by Ibn al-Anbari and *al-Matar* by Ibn Durayd, and he was the last to narrate from Abu al-Qasim Musa al-Sarraj. He died on the night of Monday and was buried on the twentieth of Ramadan 458 AH, aged seventy-eight. al-Sharif Abu Jaʿfar washed him, by his bequest to him. His will was that nothing be buried with him except the cloth he had spun for himself, and that no mourning gathering be held. A countless crowd gathered, the markets were closed, and the chief judge al-Damghani walked in his funeral procession with a group of jurists, judges and witnesses, and the Naqib of the Hashimites. His grave is prominent in the cemetery of Bab Harb. {cite:muntazam-ibn-al-jawzi j.8 p.585-586}
+
+## In Kashf al-Zunun an Asami al-Kutub wa'l-Funun — Hajji Khalifa (Furqan ed.)
+Abu Ya'la Muhammad ibn al-Husayn ibn al-Farra al-Hanbali, the shaykh and imam, who died in Baghdad in 458 AH. {cite:kashf-zunun-furqan p.214}
+
+## In Kashf al-Zunun an Asami al-Kutub wa'l-Funun — Hajji Khalifa (Furqan ed.): His works
+He is the author of [[work/al-ahkam-al-sultaniyya-abu-yala|al-Ahkam al-Sultaniyya]]. {cite:kashf-zunun-furqan p.214}
+
+The Gregorian date of his death (about 1066 CE) is calculated from the Hijri date and is not stated in the source.

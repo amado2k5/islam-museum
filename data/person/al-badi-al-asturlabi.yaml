@@ -1,8 +1,12 @@
 id: person/al-badi-al-asturlabi
+aliases: [person/al-badi-al-astarlabi]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "البديع الأسترلابي", en: "al-Badi' al-Asturlabi" }
 names:
   - { value: "هبة الله بن الحسن بن يوسف البديع الأسترلابي البغدادي", kind: full }
+  - {kind: full, lang: ar, value: أبو القاسم هبة الله بن الحسين بن يوسف البغدادي}
+  - {kind: alternate, value: البديع الأسطرلابي}
+  - {kind: alternate, value: Al-Badi' al-Astarlabi}
 summary:
   ar: "هبة الله بن الحسن بن يوسف المعروف بالبديع الأسترلابي؛ صاحب الترجمة شاعراً مشهوراً وأحد الأدباء الفضلاء، وكان وحيد زمانه في عمل الآلات الفلكية متقناً لهذه الصناعة وحصل له من جهة عملها مال جزيل في خلافة المسترشد، وذكره العماد الكاتب في الخريدة وأثنى عليه وأورد له مقاطيع من شعره، وقال ابن خلّكان كان كثير الخلاعة ظريفاً في جميع حركاته؛ توفي بعلة الفالج سنة ثلاث وثلاثين وخمسمائة ودفن بمقبرة الوردية من بغداد {cite:shadharat-dhahab p. 583-584}."
   en: "Hibatallah ibn al-Hasan, known as al-Badi' al-Asturlabi; a translator, famed poet and eminent littérateur, and the unique master of his age in making astronomical instruments — a craft that earned him a large fortune in al-Mustarshid's caliphate; al-Imad al-Katib praises him in the Kharida, and Ibn Khallikan calls him witty in all his movements though much given to ribaldry; d. of paralysis in 533, buried at Baghdad's Wardiyya cemetery {cite:shadharat-dhahab p. 583-584}."
@@ -21,13 +25,14 @@ died:
   note: "توفي بعلة الفالج سنة ثلاث وثلاثين وخمسمائة ودفن بمقبرة الوردية {cite:shadharat-dhahab p. 584}؛ التحويل مشتق."
 relations:
   - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - {note: 'From text: native of Baghdad', sources: [source/mawsuat-a3lam-ulama-adaba], target: place/baghdad, type: lived_in}
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch102
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published
   completeness: 3
@@ -37,3 +42,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
+traditions: [sunni]
+themes: [astronomy-and-timekeeping, mathematics]
+story_roles:
+  - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }

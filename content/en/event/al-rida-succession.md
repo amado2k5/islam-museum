@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-In 201 AH [[person/abd-allah-al-mamun|al-Ma'mun]] removed his brother al-Mu'tamin from the succession and made [[person/ali-al-ridha|Ali al-Rida]] ibn Musa al-Kazim heir apparent. {cite:tarikh-khulafa-minhaj-1434 p. 486-487}
+In 201 AH [[person/abd-allah-al-mamun|al-Ma'mun]] removed his brother al-Mu'tamin from the succession and made [[person/ali-al-rida|Ali al-Rida]] ibn Musa al-Kazim heir apparent. {cite:tarikh-khulafa-minhaj-1434 p. 486-487}
 
 ## What al-Ma'mun did
 al-Suyuti says that al-Ma'mun wrote about this to all regions, gave Ali the title al-Rida, struck dirhams in his name, and married him to his daughter. He ordered that black be abandoned and green worn. {cite:tarikh-khulafa-minhaj-1434 p. 486-487}

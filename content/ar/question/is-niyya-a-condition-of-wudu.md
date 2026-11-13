@@ -11,7 +11,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 يفتتح [[person/ibn-rushd|ابن رشد]] في «[[work/bidayat-al-mujtahid|بداية المجتهد]]» باب أفعال [[practice/wudu|الوضوء]] بمسألة [[concept/niyya-fiqh|النية]]، ويعدّها أولى المسائل الاثنتي عشرة المشهورة التي تجري مجرى الأمهات في هذا الباب. {cite:bidaya-bakri-bayt-al-afkar p. 22} ويقول إن علماء الأمصار اختلفوا: هل النية شرط في صحة الوضوء أم لا؟ بعد اتفاقهم على اشتراط النية في العبادات، للآية في إخلاص الدين وحديث «إنما الأعمال بالنيات». {cite:bidaya-bakri-bayt-al-afkar p. 22}
 
 ## الأقوال
-- **أنها شرط**: مذهب [[person/al-shafii|الشافعي]] و[[person/malik-ibn-anas|مالك]] و[[person/ahmad-ibn-hanbal|أحمد]] و[[person/abu-thawr|أبي ثور]] و[[person/dawud-al-zahiri|داود]]. {cite:bidaya-bakri-bayt-al-afkar p. 23} {cite:bidaya-hallaq-v1 p. 36}
+- **أنها شرط**: مذهب [[person/al-shafii|الشافعي]] و[[person/malik-ibn-anas|مالك]] و[[person/ahmad-ibn-hanbal|أحمد]] و[[person/abu-thawr-al-kalbi|أبي ثور]] و[[person/dawud-al-zahiri|داود]]. {cite:bidaya-bakri-bayt-al-afkar p. 23} {cite:bidaya-hallaq-v1 p. 36}
 - **أنها ليست بشرط**: مذهب [[person/abu-hanifa|أبي حنيفة]] و[[person/sufyan-al-thawri|الثوري]]. {cite:bidaya-bakri-bayt-al-afkar p. 23}
 
 ## سبب الخلاف كما يراه ابن رشد

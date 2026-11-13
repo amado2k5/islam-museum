@@ -1,8 +1,11 @@
 id: person/ghalib-ibn-abdullah-al-laythi
+aliases: [person/ghalib-ibn-abd-allah-al-laythi]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "غالب بن عبد الله الليثي الكلبي", en: "Ghalib ibn Abdullah al-Laythi", ur: "غالب بن عبد الله الليثي الكلبي" }
 names:
   - { kind: full, lang: ar, value: "غالب بن عبد الله الليثي الكلبي" }
+  - {kind: alternate, value: غالب بن عبد الله الليثي}
+  - {kind: alternate, value: Ghalib ibn Abd Allah al-Laythi}
 gender: male
 roles: [companion, commander]
 summary:
@@ -20,13 +23,16 @@ relations:
   - { type: participated_in, target: event/raid-of-ghalib-on-banu-murra, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/kinana, note: "من كلب بن عوف بن ليث", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - {confidence: medium, note: Place link from Wikidata; pending a second source., sources: [source/wikidata], target: place/mecca, type: born_in}
+  - {note: sent ahead at the conquest to clear the way (al-Istiab p. 595), sources: [source/isti-ab-ibn-abd-al-barr], target: event/conquest-of-mecca, type: participated_in}
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 257-259, 271"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch113
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/al-aalam, source/isti-ab-ibn-abd-al-barr]
 status:
   review: published
   completeness: 3
+external_ids: {wikidata: Q12229376}
