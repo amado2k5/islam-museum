@@ -184,10 +184,14 @@ def check_lesson(cs, lid, evidence_rows):
 
 def evidence(subject_slug):
     t = read(f"docs/courses/evidence/{subject_slug}.md") or ""
-    if "## Depth layer" not in t:
-        return []
+    body = t.split("## Depth layer", 1)[1] if "## Depth layer" in t else ""
+    # while several writers share one course, each keeps its rows in a file of its own and names it here; a coordinator
+    # moves the rows into the evidence file before the course is shipped
+    extra = os.environ.get("DEPTH_EVIDENCE_EXTRA")
+    if extra and os.path.exists(extra):
+        body += "\n" + open(extra, encoding="utf-8").read()
     rows = []
-    for line in t.split("## Depth layer", 1)[1].splitlines():
+    for line in body.splitlines():
         if line.startswith("|") and not re.match(r"^\|\s*(Lesson|-+)\s*\|", line):
             cells = [c.strip() for c in re.split(r"(?<!\\)\|", line.strip().strip("|"))]
             if len(cells) >= 5:

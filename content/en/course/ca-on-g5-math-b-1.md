@@ -14,5 +14,16 @@ Write a number with the same digit in several places and say what each one is wo
 ## What happens to place value below one?
 Look at how each place to the right is worth less than the one before it. Compare two decimal numbers place by place, starting from the largest place.
 
+## Go deeper
+Start with 13 and halve it again and again. The historian Saidan describes the list 13, 6.5, 3.25, 1.625, 0.8125, and says the steps can be undone by multiplying by two {cite:uqlidisi-saidan-dsb decimal-fraction discussion}. The record writes the numbers with our modern dot, not as [[person/al-uqlidisi-ahmad-ibn-ibrahim|al-Uqlidisi]] drew them: he put a line over the units place and insisted that it be used {cite:uqlidisi-saidan-dsb decimal-fraction discussion}. Keeping the units place marked is what lets us read the places below one, instead of mistaking small parts for a large whole number {cite:uqlidisi-saidan-dsb decimal-fraction discussion}.
+
+## Think about it
+Each time you halve 13 the number gets smaller and needs more places. Why would a writer need to mark where the ones place is before writing 0.8125, and what could go wrong without a mark?
+
+## Into the museum
+- [[invention/decimal-fractions-al-uqlidisi|al-Uqlidisi's decimal-fraction methods]]: the halving list and the units mark, with the historians' disagreement about them.
+- [[invention/algorism|Algorism]]: the nine numerals and the zero that give each place its value.
+- [[person/al-uqlidisi-ahmad-ibn-ibrahim|al-Uqlidisi]]: what is known of the author, and what is not.
+
 ## Try this
 Read about [[invention/decimal-fractions-al-uqlidisi|al-Uqlidisi's decimal-fraction methods]]. Write a half, a quarter and a tenth of a unit as tenths and hundredths.

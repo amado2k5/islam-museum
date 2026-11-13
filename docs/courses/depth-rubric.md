@@ -128,6 +128,8 @@ python3 scripts/courses/check_depth.py course/<subject-slug>          # one cour
 python3 scripts/courses/check_depth.py --all-enriched                 # every course that has a depth layer
 ```
 
+When several writers work on lessons of one course at once, each keeps its evidence rows in a file of its own and names it with `DEPTH_EVIDENCE_EXTRA=<file>`; the coordinator moves the rows into the course's evidence file before shipping.
+
 It prints `DEPTH: GREEN` or the failing lines. It checks, for each lesson and each of the two languages: the required sections for the grade band are present and no band-forbidden section is; the headings are the fixed ones and Arabic and English carry the same sections; every `[[link]]` is a real record with prose; every `{cite:…}` in the depth layer is a source cited by a record linked in the same file or by one of the lesson's connections; no quotation runs over 40 words; "Think about it" ends in a question; no block quote, honorific or Qur'an bracket; and every evidence fragment is found in the prose of the record it names. The checker cannot judge whether a question needs reasoning or whether an attribution is fair: a reader does that (section 9).
 
 Then the repository's gates, as always: `npm run validate` must print `0 errors` and `npx tsx scripts/cite-check.ts <ids>` must print `0 fail`.
