@@ -152,6 +152,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Article 3, chapter 7, scan pages 502–505): the errors of roughness, transparency, density, shadow and darkness in fog and dust, of beauty, ugliness, likeness and difference in thick air, and the opening of the error of inference from the time of seeing; page 505 is read to its first 1,000 characters.
 - **"Mawkib al-Nour", episode 14 added.** The support God gives His messengers and believers in this life and on the Day the witnesses stand: the believer of Pharaoh's household, the lecturer's account of why the messages of earlier prophets ended with them, Joseph's brothers and the idea of building righteousness on wrongdoing, humility as the full ear of wheat, and what the curse on the wrongdoers means. Reports without a chain and unattributed lines are marked as needing a source; the lecturer's opinions are labelled as his; Quran verses are linked, never typed.
 - Kitab al-Manazir (Ibn al-Haytham), Article 3 chapter 7 continued (batch 165): trilingual draft prose on the errors of position, shape, magnitude and stillness that come from the time of seeing, cited to scan pages 505–508.
+- Kitab al-Manazir (Ibn al-Haytham), Article 3 chapter 7 continued (batch 166): trilingual draft prose on the errors of separation, continuity, number, motion and stillness from the time of seeing, cited to scan pages 509–512.
 
 
 ### Fixed
