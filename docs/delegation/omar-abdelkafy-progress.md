@@ -2529,3 +2529,15 @@ Resume point: modakirate-iblis episode 4 (branch from origin/main).
 | The fractions he gives for the daughters' and the paternal uncle's shares | ep04 00:20:00-00:20:30 | Garbled in the transcript, shares not restated | Clarity | Open |
 
 Resume point: modakirate-iblis episode 5 (branch from origin/main).
+
+### modakirate-iblis ep05 (12 Nov 2026)
+
+13 points written for episode 5 (ar, en, ur); 9 needs_source marks in each language file; 5 new `about` edges. Quran verses referenced only through passage links (42-49, 2-228, 4-19, 2-229); none typed. Proposal for the founder, not applied: the lecturer's statements about the sale of a woman in London, the slave ships of a British queen and segregation signs in America (00:19:00 to 00:20:30) are unsourced figures; they are kept as his statements with needs_source marks and may be dropped if the founder prefers.
+
+| Excluded (modakirate-iblis ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, break trailer and closing prayer | ep05 00:00:00, 00:11:00-00:13:00, 00:24:00-00:24:30 | Not lesson content | Content rule | Open |
+| A loop of repeated syllables and a stretch about missionaries on slave ships | ep05 00:11:00, 00:20:00 (second half) | Not recoverable | Clarity, Loop check | Open |
+| A garbled stretch on the woman's hadith about two suitors (the second suitor's fault) | ep05 00:18:00-00:18:30 (part) | Garbled, only the clear sense used | Clarity | Open |
+
+Resume point: modakirate-iblis episode 6 (branch from origin/main).
