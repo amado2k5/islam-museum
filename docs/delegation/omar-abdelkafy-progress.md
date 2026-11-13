@@ -2623,3 +2623,15 @@ Resume point: modakirate-iblis episode 12 (branch from origin/main).
 | A garbled stretch of poetry about the fortunes of the learned and the ignorant | ep12 00:05:30-00:06:00 | Garbled | Clarity | Open |
 
 Resume point: modakirate-iblis episode 13 (branch from origin/main).
+
+### modakirate-iblis ep13 (12 Nov 2026)
+
+13 points written for episode 13 (ar, en, ur); 10 needs_source marks in each language file for this episode; 9 new `about` edges. Quran verses referenced only through passage links (1-2, 1-4, 1-5, 6-162, 64-14, 26-78 to 26-80, 18-82); none typed.
+
+| Excluded (modakirate-iblis ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer, and the closing prayer and outro chant | ep13 00:00:00, 00:11:00-00:12:00, 00:22:30-00:23:30 | Not lesson content | Content rule | Open |
+| A garbled stretch with an anatomical claim about the word for prayer and the spine | ep13 00:02:30-00:03:00 | Garbled, unsourced | Clarity | Open |
+| Garbled and looping stretches on loving what God hates and on the Prophet as a mount of love | ep13 00:09:00 (part), 00:18:00-00:19:00 (part), 00:19:00-00:19:30, 00:22:00 (part) | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 14 (branch from origin/main).
