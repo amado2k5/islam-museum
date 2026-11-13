@@ -1,15 +1,17 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
+import { href, labelOf, summaryOf } from "../../../lib/graph";
 import { formatDate } from "../../../lib/dates";
+import ScreenReel from "../../../components/sig/ScreenReel.astro";
+import { screenItems, formatsOf, relevancesOf, releasedYear, countriesText } from "../../../lib/screen";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
-const items = realNodes.filter((n) => n.class === "screen").sort((a, b) => (a.span?.earliest ?? 0) - (b.span?.earliest ?? 0));
-const formats = [...new Set(items.map((n) => n.data.format))];
-const relevances = ["primary", "substantial", "setting"].filter((r) => items.some((n) => n.data.relevance === r));
+const items = screenItems;
+const formats = formatsOf(items);
+const relevances = relevancesOf(items);
 ---
 <BaseLayout lang={lang} title={T.screen.title} description={T.screen.lede} path={`/${lang}/screen/`}>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
@@ -19,17 +21,18 @@ const relevances = ["primary", "substantial", "setting"].filter((r) => items.som
     </div>
     {items.length === 0 ? <p class="panel ui">{T.screen.empty}</p> : (
       <>
+        <ScreenReel lang={lang} />
         <form class="ui no-print" id="filters" style="display:flex;flex-wrap:wrap;gap:10px;margin:1rem 0" aria-label={T.screen.filter}>
           <label>{T.screen.format} <select name="format"><option value="">{T.screen.all}</option>{formats.map((f) => <option value={f}>{T.screen.format_values[f] ?? f}</option>)}</select></label>
           <label>{T.screen.relevance} <select name="relevance"><option value="">{T.screen.all}</option>{relevances.map((r) => <option value={r}>{T.screen.relevance_values[r]}</option>)}</select></label>
         </form>
         <ul class="grid-cards" id="list">
           {items.map((n) => (
-            <li data-format={n.data.format} data-relevance={n.data.relevance}>
+            <li data-format={n.data.format} data-relevance={n.data.relevance} data-year={releasedYear(n)}>
               <a class="card" href={href(lang, n.id)}>
                 <span class="ui kicker">{T.screen.format_values[n.data.format] ?? n.data.format}</span>
                 <h2 class="card-title">{labelOf(n, lang)}</h2>
-                <span class="ui" style="display:block;font-size:.85rem">{formatDate(n.data.released, lang).text} · {(n.data.countries ?? []).map((c: string) => c.toUpperCase()).join(" ")}</span>
+                <span class="ui" style="display:block;font-size:.85rem">{formatDate(n.data.released, lang).text} · {countriesText(n)}</span>
                 <span>{summaryOf(n, lang)}</span>
               </a>
             </li>

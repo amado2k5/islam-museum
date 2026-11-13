@@ -1175,6 +1175,25 @@ screen:
     recitation-or-lecture: recitation or lecture
     critical: critical
     polemical: polemical
+  viz:
+    title: "The reel of decades"
+    note: "One tile for each of the {n} titles with a recorded release year, placed in the decade it came out, from {a} to {b}. A tile's shape and tone give the kind of title. The {u} titles with no recorded year are counted in the last frame, not placed. In the busiest decades the tiles are marks only: press the decade to list its titles."
+    legend_title: "Kinds of title"
+    families:
+      film: "Films"
+      series: "Series and programmes"
+      documentary: "Documentaries"
+      animation: "Animation and children's"
+    decade: "{d}s"
+    undated: "Undated"
+    undated_note: "No release year is recorded for these titles; they are in the list below."
+    scroll_hint: "Swipe sideways along the decades."
+    scroll_label: "Strip of titles by decade of release, scrollable sideways"
+    group_label: "Titles by decade of release"
+    hint: "Hover, focus or tap a tile to read it here."
+    open: "Open the title"
+    close: "Close"
+    panel_title: "Titles of the"
 story:
   title: Place in the story
   others: How others named them
@@ -4796,6 +4815,23 @@ jobs:
     leather: "Leather"
     parchment: "Parchment"
     bronze: "Bronze"
+  viz:
+    title: "The market street"
+    note: "Each block is a domain of work and each tile a job. A tile's area is the number of people the museum records in that occupation, {n} in all across {j} jobs: it counts records in the museum, not how common the work was in history. A tile is never drawn smaller than a size you can touch, so jobs with only a few holders, or none yet ({z} of them), share that minimum."
+    legend_title: "How to read the street"
+    key_area: "Area is people recorded"
+    key_none: "No holder recorded yet"
+    key_craft: "A craft"
+    group_label: "Jobs grouped by domain, sized by the people recorded in each"
+    domain_n: "{n} people recorded"
+    none_short: "none yet"
+    none_yet: "No holder recorded yet"
+    holders_n: "{n} people recorded"
+    holders_dated: "Earliest by date:"
+    holders_order: "First in the museum's order:"
+    hint: "Hover, focus or tap a tile to read it here."
+    open: "Open the job"
+    outline_title: "The same street as a list"
 career:
   heading: "Career"
   no_dates: "These posts have no recorded dates, so they are listed here in words."
@@ -5028,6 +5064,26 @@ inventions:
     after: "Built on it"
     none: "None recorded in the sources read"
     ah: " AH"
+  viz:
+    title: "The workshop of centuries"
+    note: "Each mark is one of the {n} inventions, in {d} domains, placed at the date its record gives for the first attestation: Hijri years across, with the Gregorian year beneath each century line. The shape says what became of it. A thin bar under a mark means the record gives a span of years, not one year ({s} of them). Hover or focus a mark to see who made it and, where the record names an earlier or later invention that is also drawn here, an arc joins the two ({a} links)."
+    legend_title: "What became of each invention"
+    today:
+      living: "Still in use"
+      transformed: "Carried on in changed form"
+      replaced: "Replaced by later methods"
+      extinct: "No longer practised"
+    span_key: "A span of years"
+    scroll_hint: "Swipe sideways along the centuries."
+    scroll_label: "Timeline of the inventions by Hijri year, scrollable sideways"
+    group_label: "Inventions by domain and Hijri year"
+    hint: "Hover, focus or tap a mark to read it here."
+    open: "Open the invention"
+    latest: "no later than {d}"
+    more_makers: "and {n} more"
+    arc_from: "Builds on:"
+    arc_to: "Leads to:"
+    derived_note: "† The Hijri year is converted from the Gregorian date the record gives. A faded mark: the record gives only the latest date it can be placed."
 tafsir:
   title: "Tafsir Browser"
   lede: "What the Qur'an commentaries held by the museum say, verse by verse: choose a surah, choose a verse, read the commentary."

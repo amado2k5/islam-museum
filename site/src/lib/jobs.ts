@@ -7,6 +7,7 @@ import { realNodes } from "./graph";
 import { repoPath } from "./paths";
 import type { Node } from "../../../scripts/build-graph";
 import type { Lang } from "./i18n";
+import { timelineKey } from "./dates";
 
 export interface Domain { id: string; label: Record<Lang, string> }
 /** The fourteen domains, in the order of schema/enums/job-domains.yaml. */
@@ -36,3 +37,51 @@ export const hasArticle = (n: Node): boolean => Object.keys(n.prose ?? {}).lengt
 
 /** The headings that mark a job article's "not yet covered" section, in the three languages it is written in. */
 export const JOB_NOT_YET = ["Not yet covered", "ما لم يُستوفَ بعد", "ابھی تحریر نہیں ہوا"];
+
+// ---- the street of stalls (site/src/components/sig/JobsStreet.astro) ----------------------------------------------------
+export interface Rect { x: number; y: number; w: number; h: number }
+/**
+ * Squarified treemap (Bruls, Huizing and van Wijk): lays the items out in `rect`, each with an area proportional to its value.
+ * Items must be in descending order of value; the rectangles come back in the same order. Deterministic, no randomness.
+ */
+export function squarify<T extends { v: number }>(items: T[], rect: Rect): (T & Rect)[] {
+  const total = items.reduce((s, i) => s + i.v, 0);
+  const k = total > 0 ? (rect.w * rect.h) / total : 0;
+  const out: (T & Rect)[] = [];
+  let { x, y, w, h } = rect;
+  let rest = items.map((i) => ({ i, a: i.v * k }));
+  const worst = (row: { a: number }[], side: number) => {
+    const s = row.reduce((t, r) => t + r.a, 0);
+    const max = Math.max(...row.map((r) => r.a)), min = Math.min(...row.map((r) => r.a));
+    return Math.max((side * side * max) / (s * s), (s * s) / (side * side * min));
+  };
+  while (rest.length) {
+    const side = Math.min(w, h);
+    const row = [rest[0]];
+    let n = 1;
+    while (n < rest.length && worst([...row, rest[n]], side) <= worst(row, side)) row.push(rest[n++]);
+    const s = row.reduce((t, r) => t + r.a, 0);
+    const thick = side > 0 ? s / side : 0;
+    let off = 0;
+    for (const r of row) {
+      const len = s > 0 ? (r.a / s) * side : 0;
+      out.push(w >= h ? { ...r.i, x, y: y + off, w: thick, h: len } : { ...r.i, x: x + off, y, w: len, h: thick });
+      off += len;
+    }
+    if (w >= h) { x += thick; w -= thick; } else { y += thick; h -= thick; }
+    rest = rest.slice(n);
+  }
+  return out;
+}
+
+/**
+ * Up to `limit` holders of a job for the readout. When any holder carries a date (born, floruit...) the earliest by date come
+ * first (undated holders after them) and `byDate` is true; otherwise the lib's own order is kept and `byDate` is false.
+ */
+export function holdersShown(jobId: string, limit = 5): { people: Node[]; byDate: boolean } {
+  const all = holdersOf(jobId);
+  const keyed = all.map((p, i) => ({ p, i, k: timelineKey(p as any).key }));
+  const byDate = keyed.some((x) => Number.isFinite(x.k));
+  if (byDate) keyed.sort((a, b) => (Number.isFinite(a.k) ? a.k : Infinity) - (Number.isFinite(b.k) ? b.k : Infinity) || a.i - b.i);
+  return { people: keyed.slice(0, limit).map((x) => x.p), byDate };
+}
