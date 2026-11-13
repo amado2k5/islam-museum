@@ -252,7 +252,7 @@ Phase 1 has run for a few weeks and the churn report shows that shell days are s
 - **Content-addressed packs with ranged reads** (kvant-solver pattern) if the Class A count on shell days still
   matters after Phases 1 and 2. It would also remove the per-object storage of 370k keys, but adds a shard lookup and a
   ranged read per uncached page and re-uploads whole packs on a shell day.
-- **Trim the deploy job itself** regardless: the "Build assets-only folder" step copies the 20 GB artifact (5 minutes)
+- **Trim the deploy job itself** (done on 13 November 2026, with the non-blocking staging upload: [doc 45](45-build-deploy-review.md)) regardless: the "Build assets-only folder" step copies the 20 GB artifact (5 minutes)
   to delete most of it; a `rsync --exclude` or a direct listing of the 77 asset files avoids the copy. The reconcile
   listing before a large publish (≈350 LIST calls, 5 minutes) becomes unnecessary once large publishes are rare.
 

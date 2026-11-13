@@ -19,7 +19,7 @@ workflow files in `.github/workflows/`._
 
 Adding a new data or media folder: add it to `R2_DATA_DIRS` (`workers/site/src/route.js`), the publish list (`workers/r2-sync/batch/publish.mjs`), `run_worker_first` (`workers/site/wrangler.production.toml`) and the exclude list of the assets-only step in `deploy-env.yml` (one `rsync` list since 13 November 2026; it replaced the two `rm -rf` lines). A new root-level data file: add its pattern to `R2_ROOT_FILES` (`route.js`) and `ROOT_FILES` (`publish.mjs`), to `run_worker_first`, and to both `rm -f` lines in `deploy.yml`. Only `robots.txt`, the search-engine verification files, `_headers` and `_redirects` stay at the root on Pages, because they are configuration.
 | Search + API | R2 bucket `islam-museum-search`; `api.islam.museum` custom domain; public R2 URL for pagefind base | r2-sync worker in `deploy.yml` |
-| Fallback mirror | GitHub Pages | `deploy.yml` |
+| Fallback for a Cloudflare outage | None live: the site is rebuilt from git if ever needed (founder's decision, 13 November 2026, section 5a) | none |
 | CI checks | GitHub Actions `validate.yml` | every PR |
 | Local preview | `npm run dev` (graph+derive+api, then Astro dev), `npm run build` for prod-like output | developer |
 
@@ -31,7 +31,6 @@ sequenceDiagram
     participant GA as GitHub Actions (deploy.yml)
     participant R2 as Cloudflare R2
     participant CFP as Cloudflare Pages
-    participant GP as GitHub Pages
 
     F->>GA: workflow_dispatch (≈ daily, when enough has landed)
     GA->>GA: validate → test → build-graph → derive → astro → pagefind → export-api
@@ -43,7 +42,6 @@ sequenceDiagram
     end
     GA->>GA: strip dist/pagefind-* dist/api
     GA->>CFP: wrangler v4 pages deploy dist
-    GA->>GP: mirror update (fallback)
     GA->>GA: IndexNow notify changed URLs
 ```
 
@@ -72,6 +70,28 @@ A deploy uploads every file whose bytes changed. Until 6 November that was 174,0
 The compiled stylesheet is still inlined into every page, so a stylesheet edit still rewrites the whole site: linking
 it was measured to fail the Lighthouse gate. The measurements, the alternatives considered and what was left for later
 (including the fix for this) are in [`16-deploy-churn-proposal.md`](16-deploy-churn-proposal.md).
+
+### What the two workflows do, and how long they take (since 13 November 2026)
+
+The diagram above predates the move of the HTML pages to R2 (28 October 2026). The steps today, with the times of UAT
+build run 43300358009 and deploy run 43334841849 ([45 · Build and deploy review](45-build-deploy-review.md)):
+
+| Workflow | Step | Time |
+|---|---|---|
+| `build.yml` | unit tests (own job, in parallel; a failure cancels the run) | 8 min |
+| | `npm run build`: validate, graph, derive, API, Astro, Pagefind, site checks | 1 h 13 min |
+| | `check:static` | 6 min |
+| | pack `dist/` into one zstd tar and upload it as the artifact `dist-tar` | under 3 min |
+| `deploy-env.yml` | download and unpack the artifact (a plain `dist` artifact of an older build is accepted too) | 4 min |
+| | deploy the seven R2 sync Workers | 41 s |
+| | build the assets-only folder (one `rsync` exclude list) and deploy the site Worker | 22 s |
+| | publish to R2 through the sync Workers (a full rewrite; a small day is minutes) | 42 min |
+| | deploy the same assets-only folder to Cloudflare Pages; smoke test | 20 s |
+
+A deploy waits for a free runner like any other job; when many pull-request builds are running it can wait hours
+(doc 45 §7.2).
+
+There is no fallback mirror: no workflow publishes one, and GitHub Pages could not hold the site (section 5a).
 
 ## 3. Secrets and variables (GitHub repo settings)
 
@@ -108,7 +128,46 @@ and review keep it that way.
 | Bad content build | Revert the commit on `main` via PR, founder re-runs `deploy.yml`; CF Pages also keeps prior deployments for instant rollback |
 | Broken deploy workflow | Site keeps serving last good build — deploys are additive |
 | R2 desync | Re-run r2-sync (manifest is the source of truth; re-seed via `r2-seed.yml` if the bucket is empty) |
-| Cloudflare outage / account issue | GitHub Pages fallback mirror |
+| Cloudflare outage / account issue | No live fallback (section 5a). A short outage is waited out. For a long one or the loss of the account: build from `main` (about an hour and a half) and publish `dist/` to another host, then move the DNS |
+
+## 5a. Fallback for a Cloudflare outage: the decision, and the options to revisit
+
+**Decision (founder, 13 November 2026; decision record `dec-20261113-270`): accept the risk.** There is no live copy of
+the site outside Cloudflare. If Cloudflare or the Cloudflare account is unavailable, `islam.museum` is down until it
+returns, or until the site is rebuilt from git and published elsewhere. Nothing is lost in either case: every record,
+every page source and the whole history are in the public repository, and a build takes about an hour and a half.
+
+**Why this came up.** The documents named a "GitHub Pages fallback mirror". The review of November 2026
+([doc 45](45-build-deploy-review.md) §5) found that it does not exist as described: the GitHub Pages site of the
+repository (`amado2k5.github.io/islam-museum/`) was last deployed on 18 October 2026, the day the site moved to
+Cloudflare; no workflow has published to it since; and it cannot be brought up to date, because GitHub Pages allows a
+published site of 1 GB and a deployment of ten minutes, and the site is about 19 GB and 456,000 files. That snapshot is
+also under another address and path, so it would not work as `islam.museum` without a rebuild.
+
+**What a Cloudflare outage takes down.** The DNS, the site Worker, the R2 bucket with every page, the search indexes and
+the API are all Cloudflare. There is no second place to point the domain today.
+
+**The options, kept for the day this is revisited:**
+
+| # | Option | What it gives | What it costs |
+|---|---|---|---|
+| 1 | **Accept the risk** (chosen) | Nothing to run. The repository is the backup; recovery is a rebuild and a publish to another host | Downtime for as long as the outage lasts, or the hours it takes to stand the site up elsewhere, and a DNS that must be movable (see below) |
+| 2 | A reduced mirror on GitHub Pages | A small site that stays up: the home pages, the browsers' landing pages and a notice with the open-data links, under 1 GB, refreshed by a workflow | A second build target to keep working; most entity pages absent; the domain must still be repointed by hand |
+| 3 | A full copy with a second provider | A real fallback: the same `dist/` synced to another object store with a CDN in front on every deploy | Storage and transfer fees, a second publish step in every deploy (the full site is about 360,000 writes), a second set of credentials, and a routing layer that does what the site Worker does (redirects, headers, trailing slashes, aliases) |
+
+**Revisit when** any of these becomes true:
+
+- an outage of Cloudflare, or a problem with the account, takes the site down for more than a few hours;
+- a partner, a funder or a submission (the DPGA or UNESCO files) asks for a stated availability or a recovery plan;
+- the site becomes something others depend on at run time (a school using it in class, an app reading the API);
+- the build can no longer be reproduced from git in a couple of hours;
+- the full site becomes small or cheap enough to copy that option 3 is no longer a second system to maintain.
+
+**What makes option 1 safe enough, and must stay true:** the repository is public and complete (no page depends on
+anything outside git except the media files, which are in the media repository); the build runs on any machine with
+Node (`14-local-development.md`); and `dist/` is plain static files that any static host can serve. Not yet checked, and
+worth checking before relying on it: that the domain's registrar and DNS can be moved away from Cloudflare without
+access to the Cloudflare account.
 
 ## 6. Agent procedure around deployment
 
