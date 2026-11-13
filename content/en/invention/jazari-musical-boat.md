@@ -98,6 +98,6 @@ Make a paper-only event strip: “wait,” “burst,” “movement,” “sound
 
 ## References
 
-- [[source/jazari-hill-1974|Donald Hill1974]], CategoryII, chapter4,107–109; critical commentary256: assembly and gaps, not whole-book or1979 Arabic reading.
+- [[source/jazari-hill-1974|Donald Hill1974]], CategoryII, chapter 4,107–109; critical commentary 256: assembly and gaps, not whole-book or 1979 Arabic reading.
 - [[source/tdv-cezeri|Sadettin Ökten, al-Jazari]],505–506: context, identity, inheritance and documentary dating.
 - [[source/freer-jazari-musical-boat|Freer F1930.73 and Commons metadata]]:1315 folio, calligrapher, acquisition and reproduction rights.

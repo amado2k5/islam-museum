@@ -26,7 +26,7 @@ Planetary calculators also formed a varied instrument tradition, including al-Za
 
 ## The story
 
-Schmidl dates the first Nuzhat al-hadaiq text to10 February1416 at Kashan and its revision to June1426 at Samarkand; Okten gives the same years and distinguishes the locations. These are dates of a text and its description, not a workshop certificate recording metal cut or a machine first operated. The record uses an open latest documentary bound of1426, not an invented birthday for the design or a guessed Hijri equivalent {cite:schmidl-kashi-bea Nuzha} {cite:tdv-kashi-okten work5}.
+Schmidl dates the first Nuzhat al-hadaiq text to 10 February1416 at Kashan and its revision to June1426 at Samarkand; Okten gives the same years and distinguishes the locations. These are dates of a text and its description, not a workshop certificate recording metal cut or a machine first operated. The record uses an open latest documentary bound of 1426, not an invented birthday for the design or a guessed Hijri equivalent {cite:schmidl-kashi-bea Nuzha} {cite:tdv-kashi-okten work5}.
 
 Al-Kashi worked under Ulugh Beg's patronage at [[place/samarqand|Samarkand]], participating in its observatory and calculations. Schmidl and Iranica differ in estimating his arrival; that difference need not be concealed to describe the plate. Samarkand in this record marks the documented revision context, not proof that the idea never existed at Kashan or that an observatory team jointly invented every detail {cite:schmidl-kashi-bea life} {cite:iranica-kashi life}.
 
@@ -38,13 +38,13 @@ MacTutor explicitly identifies al-Kashi as an Islamic mathematician, the individ
 
 ## How it works
 
-Schmidl describes the plate as a mechanical application of elementary geometry performing linear interpolation. Our modern explanation begins with two imaginary longitude differences: at hour6 the difference is plus2degrees, and at hour18 it is minus1degree. These are teaching choices, not planetary observations or numbers transcribed from al-Kashi's manuscript. We seek the zero between the two endpoints {cite:schmidl-kashi-bea Nuzha}.
+Schmidl describes the plate as a mechanical application of elementary geometry performing linear interpolation. Our modern explanation begins with two imaginary longitude differences: at hour6 the difference is plus2degrees, and at hour 18 it is minus1degree. These are teaching choices, not planetary observations or numbers transcribed from al-Kashi's manuscript. We seek the zero between the two endpoints {cite:schmidl-kashi-bea Nuzha}.
 
-Assume the difference changes linearly over the interval. Its total change is three degrees across twelve hours; reaching zero from plus2 requires two-thirds of that interval, eight hours. The estimate is hour14 on our imaginary clock. Modern notation expresses this as t=t0+(t1−t0)*(−d0)/(d1−d0). This follows from proportional parts; neither the Latin symbols nor this operation order is certified as the plate's engraving {cite:schmidl-kashi-bea elementary-geometry}.
+Assume the difference changes linearly over the interval. Its total change is three degrees across twelve hours; reaching zero from plus2 requires two-thirds of that interval, eight hours. The estimate is hour 14 on our imaginary clock. Modern notation expresses this as t=t0+(t1−t0)*(−d0)/(d1−d0). This follows from proportional parts; neither the Latin symbols nor this operation order is certified as the plate's engraving {cite:schmidl-kashi-bea elementary-geometry}.
 
 Interchange the two bodies and the differences become minus2 and plus1. The zero still occurs two-thirds through the interval. Rescaling both differences into a common new unit likewise leaves the result unchanged. Equal endpoint values, however, make the denominator zero: two nonzero equal values have no crossing in this model; two zero values fail to single out one instant. These are boundaries of our model, not recovered historical operating instructions {cite:schmidl-kashi-bea linear-interpolation}.
 
-Angles also wrap around360degrees. Readings359 and1 may describe a two-degree forward movement rather than a backward358-degree sweep. A continuous angular representation must be selected before interpolation. Curved motion creates another limitation: an endpoint chord only approximates the intermediate change. Correct endpoints alone do not guarantee an exact intermediate event time. We are not claiming to recover the plate's wrap-handling procedure or measure its error {cite:schmidl-kashi-bea linear-interpolation}.
+Angles also wrap around 360 degrees. Readings359 and 1 may describe a two-degree forward movement rather than a backward 358-degree sweep. A continuous angular representation must be selected before interpolation. Curved motion creates another limitation: an endpoint chord only approximates the intermediate change. Correct endpoints alone do not guarantee an exact intermediate event time. We are not claiming to recover the plate's wrap-handling procedure or measure its error {cite:schmidl-kashi-bea linear-interpolation}.
 
 ## The spread
 
@@ -78,7 +78,7 @@ Its historical interest is not a race against today's computer. It lies in under
 
 ## Who invented it?
 
-Schmidl and Okten attribute the specific plate to al-Kashi, so the record treats this as an original named design, not absolute priority for interpolation. “Plate” does not merge it with the plate of heavens: the reference explicitly describes two instruments and different functions. The1426 revision is likewise not a fixed date of first conception, only our safe latest documentary bound {cite:schmidl-kashi-bea Nuzha} {cite:tdv-kashi-okten work5}.
+Schmidl and Okten attribute the specific plate to al-Kashi, so the record treats this as an original named design, not absolute priority for interpolation. “Plate” does not merge it with the plate of heavens: the reference explicitly describes two instruments and different functions. The 1426 revision is likewise not a fixed date of first conception, only our safe latest documentary bound {cite:schmidl-kashi-bea Nuzha} {cite:tdv-kashi-okten work5}.
 
 The material read supplies no documented attribution dispute requiring an invented contest between names. Not manufacturing controversy is different from proving global priority. “Original” is bounded by the adjacent written claim. A new witness could refine that claim through explicit evidence; the inventor label should never expand beyond what its sources support {cite:schmidl-kashi-bea Nuzha}.
 
@@ -102,7 +102,7 @@ This case encourages distinguishing people, institutions and works. Al-Kashi mad
 
 ## For young readers
 
-Draw a paper timeline from6 to18, write plus2 above the first endpoint and minus1 above the second. State clearly that these are imaginary numbers, not sky observations. With uniform change, where is zero? Split twelve into three equal pieces and take two; you arrive at14. This is our modern ratio exercise, not a transcription of original plate operations {cite:schmidl-kashi-bea elementary-geometry}.
+Draw a paper timeline from 6 to 18, write plus2 above the first endpoint and minus1 above the second. State clearly that these are imaginary numbers, not sky observations. With uniform change, where is zero? Split twelve into three equal pieces and take two; you arrive at 14. This is our modern ratio exercise, not a transcription of original plate operations {cite:schmidl-kashi-bea elementary-geometry}.
 
 Reverse both signs and check that the time is unchanged. Then try two equal nonzero values: why can you not select a crossing? The exercise requires neither solar viewing nor going outside at night, and is not fortune-telling. Discovering the information's limits is as valuable as finding an answer; describing an old instrument differs from reproducing it on paper {cite:schmidl-kashi-bea linear-interpolation}.
 
@@ -111,4 +111,4 @@ Reverse both signs and check that the time is unchanged. Then try two equal nonz
 - Petra Schmidl, Kashi, Biographical Encyclopedia of Astronomers,2007,613–615; complete actual ISMI text read {cite:schmidl-kashi-bea full-entry}.
 - Sadettin Okten, KASI, TDV encyclopedia, instruments and work5 {cite:tdv-kashi-okten instruments-and-work5}.
 - Iranica and MacTutor for computational context, biography and inferential limits; cited original works not read here {cite:iranica-kashi full-entry} {cite:kashi-mactutor biography}.
-- Modern triangle metadata, public-domain release and original2007 history {cite:commons-trigonometry-triangle licensing-and-history}.
+- Modern triangle metadata, public-domain release and original 2007 history {cite:commons-trigonometry-triangle licensing-and-history}.

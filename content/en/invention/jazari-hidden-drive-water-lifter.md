@@ -26,7 +26,7 @@ The exhibit concerns integration of a recognizable element into an arrangement h
 
 The author first presents what the spectator sees: an attractive pool, pillar, cow, wheel, silk cords and coloured jars, before explaining the lower chamber and transmission {cite:jazari-hill-1974 p.182}. Moving from appearance to what it conceals is part of the engineering story. The exhibited drawing is not a photograph of a garden or a witness's record of attending a working site.
 
-The text mentions another machine in the installation; Hill notes that it is not described. Its mechanism is not supplied from guesswork or counted as a second invention {cite:jazari-hill-1974 pp.182,265}. The book's date remains1204 or1206 in Hill against1205 in TDV, within Artuqid service at [[place/amid|Amid]], not a construction date for this particular pool {cite:jazari-hill-1974 introduction-life} {cite:tdv-cezeri pp.505–506}.
+The text mentions another machine in the installation; Hill notes that it is not described. Its mechanism is not supplied from guesswork or counted as a second invention {cite:jazari-hill-1974 pp.182,265}. The book's date remains 1204 or 1206 in Hill against 1205 in TDV, within Artuqid service at [[place/amid|Amid]], not a construction date for this particular pool {cite:jazari-hill-1974 introduction-life} {cite:tdv-cezeri pp.505–506}.
 
 ## The maker(s)
 
@@ -88,9 +88,9 @@ No working original or modern model was examined for this entry. No power test o
 
 ## Surviving examples
 
-We actually readV.3 primary182–183 and commentary265, visually inspecting all three pages in the shared reader. Page266, initially opened, covered other material; the reference was corrected before writing {cite:jazari-hill-1974 pp.182–183,265}. We do not claim full manuscript collation or reading the whole book. The reused illustration is not Hill's modern page.
+We actually readV.3 primary 182–183 and commentary 265, visually inspecting all three pages in the shared reader. Page266, initially opened, covered other material; the reference was corrected before writing {cite:jazari-hill-1974 pp.182–183,265}. We do not claim full manuscript collation or reading the whole book. The reused illustration is not Hill's modern page.
 
-The888×1088 image and500×613 derivative were inspected with the PD-Art statement: faithful reproduction of historical two-dimensional public-domain art {cite:commons-jazari-hidden-drive image,rights}. Metadata attributes AhmedIII3472 and an unnamed thirteenth-century artist; exact folio and copying year were not independently established {cite:commons-jazari-hidden-drive description}. Upload date16 January2024 is not creation or invention date, and naming the textual author does not authenticate the illustrator's hand.
+The 888×1088 image and 500×613 derivative were inspected with the PD-Art statement: faithful reproduction of historical two-dimensional public-domain art {cite:commons-jazari-hidden-drive image,rights}. Metadata attributes AhmedIII3472 and an unnamed thirteenth-century artist; exact folio and copying year were not independently established {cite:commons-jazari-hidden-drive description}. Upload date 16 January2024 is not creation or invention date, and naming the textual author does not authenticate the illustrator's hand.
 
 ## In culture
 
@@ -106,6 +106,6 @@ Draw separate arrows for incoming driving water, lifted water and drainage. Put 
 
 ## References
 
-- [[source/jazari-hill-1974|Donald Hill's1974 translation]],V.3,182–183 and commentary265; actual reading and page inspection, not reproduction.
+- [[source/jazari-hill-1974|Donald Hill's1974 translation]],V.3,182–183 and commentary 265; actual reading and page inspection, not reproduction.
 - [[source/tdv-cezeri|Sadettin Ökten, CEZERÎ]], TDV, vol.7,1993,505–506; biography and individual identity basis.
 - [[source/commons-jazari-hidden-drive|Water-lifter manuscript metadata and rights]], image attributed to AhmedIII3472 and public-domain statement; dating and catalogue limits retained.

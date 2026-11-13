@@ -14,7 +14,7 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 This is an alchemical book, belonging to an older art whose aims and explanations do not coincide with present chemistry; Ferrario examines its ingredients, apparatus and operations in that setting {cite:ferrario-razi-pseudorazi-2024 pp.24–29}. Valuing knowledge organization does not validate every explanation or certify successful transmutation. We distinguish what a text says, how its author arranges it, and whether its contents are correct by current knowledge. Answering the second question does not settle the third.
 
-Here we read Arabic opening pages1–3 in the Tehran1964 volume, not an autograph or an independent collation of every manuscript {cite:razi-asrar-danishpazhuh-1964 pp.1–3}. Despite its usefulness in making the text accessible, Ferrario warns that this edition cannot be considered a reliable critical restitution {cite:ferrario-razi-pseudorazi-2024 p.25}. Uncertain readings and differences between lists therefore remain visible rather than being silently corrected into a modern textbook.
+Here we read Arabic opening pages 1–3 in the Tehran1964 volume, not an autograph or an independent collation of every manuscript {cite:razi-asrar-danishpazhuh-1964 pp.1–3}. Despite its usefulness in making the text accessible, Ferrario warns that this edition cannot be considered a reliable critical restitution {cite:ferrario-razi-pseudorazi-2024 p.25}. Uncertain readings and differences between lists therefore remain visible rather than being silently corrected into a modern textbook.
 
 ## The world before it
 
@@ -54,7 +54,7 @@ The handbook's next step is not an endless addition of names. It introduces inst
 
 ## The spread
 
-Ferrario records Arabic copies in European and Indian libraries and Gerard of Cremona's twelfth-century Latin translation of the first two sections, preserved in Paris manuscript6514 {cite:ferrario-razi-pseudorazi-2024 p.25}. That is specific partial transmission, not a demonstrated translation of every recipe or measured influence in every workshop. We have not inspected the Paris manuscript ourselves; the scholar's report is not presented as our own examination.
+Ferrario records Arabic copies in European and Indian libraries and Gerard of Cremona's twelfth-century Latin translation of the first two sections, preserved in Paris manuscript 6514 {cite:ferrario-razi-pseudorazi-2024 p.25}. That is specific partial transmission, not a demonstrated translation of every recipe or measured influence in every workshop. We have not inspected the Paris manuscript ourselves; the scholar's report is not presented as our own examination.
 
 Textual circulation also differs from the circulation of a famous name. Ferrario discusses how most witnesses of *On Alums and Salts* do not name al-Razi, despite the association in some Latin transmission {cite:ferrario-razi-pseudorazi-2024 pp.29–30}. Fame in another language does not authenticate every later attribution. A handbook's organization may help readers even without a famous author's name: a question about knowledge use rather than national competition.
 
@@ -98,9 +98,9 @@ The enduring lesson concerns knowledge organization: a category may change with 
 
 ## Surviving examples
 
-Columbia's catalogue and NYU's Arabic Collections Online provide a modern printed volume: Arabic1–3 correspond to PDF images29–31, while later pagination resets {cite:razi-asrar-danishpazhuh-1964 catalogue,pp.1–3}. Image numbers are not a universal page-number offset. An absent searchable text layer did not mean absent content, and English-only OCR output was not treated as an Arabic reading.
+Columbia's catalogue and NYU's Arabic Collections Online provide a modern printed volume: Arabic1–3 correspond to PDF images 29–31, while later pagination resets {cite:razi-asrar-danishpazhuh-1964 catalogue,pp.1–3}. Image numbers are not a universal page-number offset. An absent searchable text layer did not mean absent content, and English-only OCR output was not treated as an Arabic reading.
 
-The displayed photograph is Fayum halite in Brigham Young University's collection, photographed by Andrew Silver for USGS; the specimen was collected in1989 {cite:commons-halite-egypt-usgs description}. It is a modern comparison, not al-Razi's cabinet sample or proof of a historical name's identity. Explicit public-domain status and credit are retained; specimen collection year is not assigned to the photographic exposure {cite:commons-halite-egypt-usgs license,description}.
+The displayed photograph is Fayum halite in Brigham Young University's collection, photographed by Andrew Silver for USGS; the specimen was collected in 1989 {cite:commons-halite-egypt-usgs description}. It is a modern comparison, not al-Razi's cabinet sample or proof of a historical name's identity. Explicit public-domain status and credit are retained; specimen collection year is not assigned to the photographic exposure {cite:commons-halite-egypt-usgs license,description}.
 
 ## In culture
 

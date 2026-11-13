@@ -20,7 +20,7 @@ Keeping the flesh of sacrificial animals for more than three days is permitted i
 ## Saving of necessities by the state
 When the state expects a calamity such as a plague, drought or war, it must save for the Muslims enough food and necessities to meet their needs. It cites the story of Joseph with the king of Egypt, which the Qur'an relates without disapproval. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1999} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2000}
 ## Releasing stored goods in time of need
-Jurists agree that one who has stored some staple food for himself or his household, and another is in dire need of it, must give it to him if he does not need it at once, since harm is not removed by harm; he sins by withholding it when he can spare it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2000}
+One who has stored staple food beyond his need, and another then comes to be in dire need of it, must give it to him, since harm is not removed by harm; he sins by withholding it when he can spare it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2000}
 The basis is a hadith that whoever has surplus provision should give it to whoever has none, and the account of the detachment led by Abu Ubayda, who pooled their provisions and shared them equally. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2000}
 ## Saving of goods other than staples
 Saving things other than basic staples is lawful by agreement, such as household goods and vessels. The state should save what may become necessary at some time, such as horses and arms in war, and give it to those in need when they are in need. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2000}

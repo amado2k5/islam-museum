@@ -27,9 +27,9 @@ An earlier pair does not make six simply a renamed device, but neither does ever
 
 ## The story
 
-Al-Hasan's preface identifies Chester Beatty manuscript5232 and considers its beginning and ending evidence of the author's handwriting. That is his assessment, not our independent palaeography. He reports959AH paired with1551 and a reader's examination in960AH. A reading date does not become a second invention or documented operating year {cite:taqi-turuq-hasan-1976 pp5–6}.
+Al-Hasan's preface identifies Chester Beatty manuscript 5232 and considers its beginning and ending evidence of the author's handwriting. That is his assessment, not our independent palaeography. He reports 959 AH paired with 1551 and a reader's examination in 960 AH. A reading date does not become a second invention or documented operating year {cite:taqi-turuq-hasan-1976 pp5–6}.
 
-The2021 study summarizes1551 and1552 and reproduces pages36–38. Our record uses a documentary horizon, not the year a well or workshop was built. Al-Hasan published text, study and facsimile in1976; TDV names another2000 edition we have not read. Composition, copying, reading and republication are separate layers, not one exact day {cite:cabeza-pump-2021 pp1–2} {cite:tdv-takiyyuddin-er-rasid work15}.
+The 2021 study summarizes 1551 and 1552 and reproduces pages 36–38. Our record uses a documentary horizon, not the year a well or workshop was built. Al-Hasan published text, study and facsimile in 1976; TDV names another 2000 edition we have not read. Composition, copying, reading and republication are separate layers, not one exact day {cite:cabeza-pump-2021 pp1–2} {cite:tdv-takiyyuddin-er-rasid work15}.
 
 ## The maker(s)
 
@@ -45,9 +45,9 @@ The modern study explains rising motion lowering cylinder pressure, admitting wa
 
 The modern model distributes six cams sixty degrees apart for successive operation. However, the printed historical wording apparently shifts from the first to the third hand; we do not silently correct that into an authenticated exact firing order. The drawing conveys an arrangement, not a fully dimensioned manufacturing plan or measured timing for each valve {cite:taqi-turuq-hasan-1976 pp48–49} {cite:cabeza-pump-2021 section3.2}.
 
-Our modern arithmetic example assumes one square centimetre of piston area and ten centimetres of travel: ten cubic centimetres, or ten millilitres, per ideal delivery stroke. Six identical units yield sixty millilitres per full revolution if each delivers once. Two revolutions per minute give a theoretical average of120millilitres per minute. These are neither the author's dimensions nor the2021 model's measured output; leakage, air and pressure losses are excluded.
+Our modern arithmetic example assumes one square centimetre of piston area and ten centimetres of travel: ten cubic centimetres, or ten millilitres, per ideal delivery stroke. Six identical units yield sixty millilitres per full revolution if each delivers once. Two revolutions per minute give a theoretical average of 120 millilitres per minute. These are neither the author's dimensions nor the 2021 model's measured output; leakage, air and pressure losses are excluded.
 
-Phasing does not multiply river energy freely. Draw six paper time windows beginning at0,60,120,180,240,300degrees. Twenty-degree delivery windows leave gaps; wider windows overlap. Equal start spacing alone therefore proves no perfectly steady instantaneous flow. This is a simplified timing illustration, not recovery of a historical cam profile.
+Phasing does not multiply river energy freely. Draw six paper time windows beginning at 0,60,120,180,240,300 degrees. Twenty-degree delivery windows leave gaps; wider windows overlap. Equal start spacing alone therefore proves no perfectly steady instantaneous flow. This is a simplified timing illustration, not recovery of a historical cam profile.
 
 The author allows one tube, prefers at least three for smoother delivery, and says two can achieve the purpose. Preference is not a physical limit prohibiting all pumping with fewer than three. Likewise, the instruction to exceed the lifted water's weight is not a complete modern calculation: piston area, lift height, losses and time to return before the next cycle also matter {cite:taqi-turuq-hasan-1976 pp48–50} {cite:cabeza-pump-2021 section4.1}.
 
@@ -85,17 +85,17 @@ Modeling also separates a promising proposal from a long-lived machine. The stud
 
 Attribution rests on the published design and the editor's assessment of the author's copy. Universal first-cylinder-block and direct-engine-ancestor formulations belong to that editor, not our independent census. We register a specific improvement with inherited components and machines, not a modern patent or ownership of every underlying principle {cite:taqi-turuq-hasan-1976 pp5–6,47–50}.
 
-Fair attribution keeps al-Jazari, Heron and Chinese references visible where the source names them, while al-Hasan and the2021 team retain their modern work. It also separates success of a teaching model from proof that the author built his design. Text author, editor and model designer are different roles rather than competitors for one identity {cite:taqi-turuq-hasan-1976 pp49–50} {cite:cabeza-pump-2021 sections3–5}.
+Fair attribution keeps al-Jazari, Heron and Chinese references visible where the source names them, while al-Hasan and the 2021 team retain their modern work. It also separates success of a teaching model from proof that the author built his design. Text author, editor and model designer are different roles rather than competitors for one identity {cite:taqi-turuq-hasan-1976 pp49–50} {cite:cabeza-pump-2021 sections3–5}.
 
 ## Today
 
-The museum image shows a blue cam, red flat follower and green hub, with CAM and FOLLOWER labels. Enl public's2013 licensed archived original is used, not the2026 crop. Its follower translates horizontally: it is not the pump's oscillating rocker, a manuscript or Taqi al-Din reconstruction {cite:commons-flat-cam Description licence and history}.
+The museum image shows a blue cam, red flat follower and green hub, with CAM and FOLLOWER labels. Enl public's2013 licensed archived original is used, not the 2026 crop. Its follower translates horizontally: it is not the pump's oscillating rocker, a manuscript or Taqi al-Din reconstruction {cite:commons-flat-cam Description licence and history}.
 
 The accompanying text conveys the relationship without requiring colour discrimination. A changing rotating surface organizes contact and motion; this modern cam's shape does not establish an Ottoman projection's exact profile or timing. Modern mock-ups are interpretations in dialogue with a text, not artifacts filling every gap in earlier documentation {cite:cabeza-pump-2021 sections3–5}.
 
 ## Surviving examples
 
-We read and visually inspected edited47–50, title and preface, not the entire book or Chester Beatty manuscript firsthand. Small reproductions of36–38 in the2021 paper do not constitute a fresh critical edition. Our evidence is selected edited transcription and modern scholarship, not observation of an old workshop machine {cite:taqi-turuq-hasan-1976 pp5–6,47–50} {cite:cabeza-pump-2021 p2}.
+We read and visually inspected edited 47–50, title and preface, not the entire book or Chester Beatty manuscript firsthand. Small reproductions of 36–38 in the 2021 paper do not constitute a fresh critical edition. Our evidence is selected edited transcription and modern scholarship, not observation of an old workshop machine {cite:taqi-turuq-hasan-1976 pp5–6,47–50} {cite:cabeza-pump-2021 p2}.
 
 The source scan remains outside the repository, not reproduced in full. Survival of a book does not establish survival of pump wood or valves, and a plastic mock-up does not change the document's age. Distinguishing evidence types prevents a visitor from mistaking a recent image for a centuries-old object {cite:cabeza-pump-2021 sections2,5}.
 

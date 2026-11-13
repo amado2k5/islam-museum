@@ -29,7 +29,7 @@ A table and a method for extracting a basic value are different things. One oper
 
 The biographies place al-Kashi in [[place/samarqand|Samarkand]]'s scholarly environment under Ulugh Beg: books, calculations, instruments and discussions. Letters to his father offer his judgements of colleagues, not a neutral ranking the museum endorses. Attending the same meeting does not establish co-authorship, and supporting an institution does not give a patron authorship of every result {cite:kashi-mactutor Samarkand and letters} {cite:iranica-kashi Life}.
 
-MacTutor calls the Chord and Sine his last work, possibly unfinished at his death and completed by Qadi Zada. Iranica includes its title in the introduction's work list of the1427 Key to Arithmetic. A listed title does not settle whether every part was complete. Our open date ends at al-Kashi's1429 lifetime bound, not an invented composition year or a date for later commentary {cite:kashi-mactutor final treatise} {cite:iranica-kashi work list}.
+MacTutor calls the Chord and Sine his last work, possibly unfinished at his death and completed by Qadi Zada. Iranica includes its title in the introduction's work list of the 1427 Key to Arithmetic. A listed title does not settle whether every part was complete. Our open date ends at al-Kashi's1429 lifetime bound, not an invented composition year or a date for later commentary {cite:kashi-mactutor final treatise} {cite:iranica-kashi work list}.
 
 ## The maker(s)
 
@@ -45,7 +45,7 @@ Rearrange this as `x=(a+4*x*x*x)/3`. With an approximate input `a`, start at `x0
 
 Our modern computation takes `a≈0.05233595624294383` from a software trigonometric function. It starts near `0.017445318748`, then gives `0.017452397806`, then `0.017452406427`. Displayed values are rounded, not cells read from a historical table. Using a ready-made function tests this illustration; it does not reconstruct how an earlier mathematician obtained the input.
 
-Why do these steps help here? Between zero and0.02 the derivative of the right-hand side, `4*x*x`, is at most0.0016. Output changes are much smaller than estimate changes. Our modern check verifies the transformation stays in this small interval and successive differences shrink. This concerns the chosen interval, not a promise that every cubic and starting guess converges.
+Why do these steps help here? Between zero and 0.02 the derivative of the right-hand side, `4*x*x`, is at most0.0016. Output changes are much smaller than estimate changes. Our modern check verifies the transformation stays in this small interval and successive differences shrink. This concerns the chosen interval, not a promise that every cubic and starting guess converges.
 
 The cubic has other roots; we want the small positive one appropriate to a one-degree acute angle. Root selection is part of solving, not decoration after writing an equation. Fast iteration cannot repair a wrong input: changing `a` changes the problem. More output digits cannot erase initial approximation or arithmetic-rounding error.
 
@@ -53,7 +53,7 @@ Historical precision remains reported through scholarship, not proved by this li
 
 ## The spread
 
-TDV lists Qadi Zada's commentary, a Tehran printing numbered1299 and a Russian translation. We report that bibliographical statement without guessing a calendar conversion or claiming to have inspected the printing. A commentary or translation documents attention as described by a scholar, not a census of students or proof that all witnesses are identical {cite:tdv-kashi-okten work8}.
+TDV lists Qadi Zada's commentary, a Tehran printing numbered 1299 and a Russian translation. We report that bibliographical statement without guessing a calendar conversion or claiming to have inspected the printing. A commentary or translation documents attention as described by a scholar, not a census of students or proof that all witnesses are identical {cite:tdv-kashi-okten work8}.
 
 MacTutor says these achievements remained long unknown in Europe and were studied in the nineteenth and twentieth centuries. Resemblance to a modern method does not establish direct transmission. A documented route requires copies, readings and citations, not merely two dates and an assumption that an earlier author necessarily supplied every later one {cite:kashi-mactutor conclusion}.
 

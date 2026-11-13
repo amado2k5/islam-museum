@@ -15,7 +15,7 @@ We record a computational tool, not invention of time, the first sundial or a pe
 
 ## What it is
 
-The tool has two arguments: solar altitude and solar longitude, yielding quantities such as time since sunrise, time remaining to midday, or azimuth. Solar longitude is a position on the ecliptic, not the user's geographical longitude. King describes three principal sets, each exceeding10,000 entries in the surviving corpus; these are not10,000 individually documented observations by Ibn Yunus {cite:ibn-yunus-king-bea main tables}.
+The tool has two arguments: solar altitude and solar longitude, yielding quantities such as time since sunrise, time remaining to midday, or azimuth. Solar longitude is a position on the ecliptic, not the user's geographical longitude. King describes three principal sets, each exceeding 10,000 entries in the surviving corpus; these are not10,000 individually documented observations by Ibn Yunus {cite:ibn-yunus-king-bea main tables}.
 
 “Spherical” means the calculation concerns the geometry of the sky seen from a terrestrial location. The accompanying plane triangle cannot represent every variable. Tabulating results changes the user's computational work but does not remove the need to identify arguments, units and conventions.
 
@@ -27,9 +27,9 @@ Observational lists and planetary computation are not automatically the same as 
 
 ## The story
 
-King and Dizer regard the birth date as unknown, despite MacTutor's header displaying950. He lived in Fustat, witnessed the Fatimid conquest and Cairo's foundation as a young man in969, and received support from al-Aziz and later al-Hakim. Recorded observations continued until1003; he died in1009 {cite:ibn-yunus-king-bea biography} {cite:tdv-ibn-yunus-dizer biography} {cite:ibn-yunus-mactutor biography}.
+King and Dizer regard the birth date as unknown, despite MacTutor's header displaying 950. He lived in Fustat, witnessed the Fatimid conquest and Cairo's foundation as a young man in 969, and received support from al-Aziz and later al-Hakim. Recorded observations continued until 1003; he died in 1009 {cite:ibn-yunus-king-bea biography} {cite:tdv-ibn-yunus-dizer biography} {cite:ibn-yunus-mactutor biography}.
 
-The record's open lifetime endpoint dates only his individual contribution, not the entire surviving corpus with13th- and14th-century additions. The maker's earlier death record remains unchanged. Neither a later copy nor a modern edition's year becomes the original tables' composition date.
+The record's open lifetime endpoint dates only his individual contribution, not the entire surviving corpus with 13th- and 14th-century additions. The maker's earlier death record remains unchanged. Neither a later copy nor a modern edition's year becomes the original tables' composition date.
 
 ## The maker(s)
 
@@ -41,15 +41,15 @@ His role is improver and contributor. TDV assigns some later tables to al-Maqsi,
 
 Our explanation is modern, not a claim that the author derived this symbolic equation. Let phi be latitude, delta solar declination, h solar altitude, and H angular distance from the meridian. In our spherical model, `sin(h)=sin(phi)sin(delta)+cos(phi)cos(delta)cos(H)`. Geographical latitude, solar declination and height above the horizon are different quantities.
 
-Choose latitude30degrees, matching a historical corpus parameter reported by King, and choose zero declination for teaching. In this simplified equinoctial case, `cos(H)=sin(h)/cos(30°)`. We assume an ideal horizon and exclude atmospheric refraction and the Sun's disk size. This is neither an observing procedure nor a usable daily timetable {cite:ibn-yunus-king-bea corpus parameters}.
+Choose latitude 30 degrees, matching a historical corpus parameter reported by King, and choose zero declination for teaching. In this simplified equinoctial case, `cos(H)=sin(h)/cos(30°)`. We assume an ideal horizon and exclude atmospheric refraction and the Sun's disk size. This is neither an observing procedure nor a usable daily timetable {cite:ibn-yunus-king-bea corpus parameters}.
 
-On the morning branch, altitude30degrees gives `cos(H)=1/sqrt(3)`, so H is approximately54.736degrees. At15degrees per equal solar hour, about3.649hours remain until noon. Our equinoctial half-day is six hours, leaving about2.351hours since sunrise. These are independently checked modern values, not cells read from a manuscript.
+On the morning branch, altitude 30 degrees gives `cos(H)=1/sqrt(3)`, so H is approximately 54.736 degrees. At15 degrees per equal solar hour, about 3.649 hours remain until noon. Our equinoctial half-day is six hours, leaving about 2.351 hours since sunrise. These are independently checked modern values, not cells read from a manuscript.
 
-At altitude45degrees, `cos(H)=sqrt(2/3)`: about2.351hours remain and3.649hours have passed. At noon H is zero and altitude60degrees, not90. This shows latitude's role. Altitude is not simply hours elapsed, and the Sun is not overhead for every observer at noon.
+At altitude 45 degrees, `cos(H)=sqrt(2/3)`: about 2.351 hours remain and 3.649 hours have passed. At noon H is zero and altitude 60 degrees, not90. This shows latitude's role. Altitude is not simply hours elapsed, and the Sun is not overhead for every observer at noon.
 
 The same altitude can occur before and after noon, so a branch must be selected. A changing solar declination changes daylight duration and altitude limits at the same place. Civil-clock conversion introduces further conventions, including time zone and apparent versus mean solar time. Our model does not silently perform those conversions.
 
-MacTutor reports that the tables' accuracy led King to suggest nonlinear interpolation. That is a scholar's inference, not proof we have recovered Ibn Yunus's algorithm. Neither King's original1973 paper nor the manuscript grid was read here; choosing a modern interpolation rule would not establish it as his {cite:ibn-yunus-mactutor solar-time-table discussion}.
+MacTutor reports that the tables' accuracy led King to suggest nonlinear interpolation. That is a scholar's inference, not proof we have recovered Ibn Yunus's algorithm. Neither King's original 1973 paper nor the manuscript grid was read here; choosing a modern interpolation rule would not establish it as his {cite:ibn-yunus-mactutor solar-time-table discussion}.
 
 ## The spread
 
@@ -59,7 +59,7 @@ Manuscripts differ in ordering and selection. Different order does not make ever
 
 ## What it was built on
 
-The calculation requires spherical quantities, time and position conventions, tables and parameters. King reports Cairo latitude30degrees and obliquity23degrees35minutes for the corpus. These are historical parameters, not recommended modern coordinates for every neighbourhood {cite:ibn-yunus-king-bea corpus parameters}.
+The calculation requires spherical quantities, time and position conventions, tables and parameters. King reports Cairo latitude 30 degrees and obliquity23 degrees 35 minutes for the corpus. These are historical parameters, not recommended modern coordinates for every neighbourhood {cite:ibn-yunus-king-bea corpus parameters}.
 
 Obliquity is not solar declination on every day: it helps define the annual range of that changing quantity. Choosing delta zero does not erase the historical obliquity; it selects a school example. Making assumptions explicit matters more than displaying many unexplained digits.
 
@@ -67,7 +67,7 @@ Obliquity is not solar declination on every day: it helps define the annual rang
 
 King describes subsidiary spherical tables, some relating to the five daily prayers. TDV explains that Ghayat al-intifa was a later title for a compilation incorporating Ibn Yunus's tables and others. The [[work/cairo-solar-time-corpus|corpus is therefore recorded as layered]], not a single book entirely in his hand {cite:ibn-yunus-king-bea subsidiary tables} {cite:tdv-ibn-yunus-dizer work1}.
 
-The Hakimi Zij is broader, covering observations, planets and calendars. MacTutor's separately discussed lunar tables, with more than34,000 entries and uncertain attribution, are another subject. Their count must not migrate into the time tables. Different applications also do not justify splitting one example into inflated invention totals {cite:ibn-yunus-mactutor lunar-table discussion}.
+The Hakimi Zij is broader, covering observations, planets and calendars. MacTutor's separately discussed lunar tables, with more than 34,000 entries and uncertain attribution, are another subject. Their count must not migrate into the time tables. Different applications also do not justify splitting one example into inflated invention totals {cite:ibn-yunus-mactutor lunar-table discussion}.
 
 ## Impact on daily life
 
@@ -91,13 +91,13 @@ Nor do we claim global priority in every time calculation. This record identifie
 
 Modern programs return time and azimuth quickly, but this proves neither direct descent from the corpus nor identical definitions of time. A modern example helps readers understand inputs before looking at output. We do not calculate refraction, a real horizon or time zone and hide those differences.
 
-The image is TheOtherJesse's modern plane right triangle, released into the public domain in2007. It recalls sides and angles but does not depict a complete spherical triangle, Ibn Yunus's table page or an equipped observatory {cite:commons-trigonometry-triangle Description and licensing}.
+The image is TheOtherJesse's modern plane right triangle, released into the public domain in 2007. It recalls sides and angles but does not depict a complete spherical triangle, Ibn Yunus's table page or an equipped observatory {cite:commons-trigonometry-triangle Description and licensing}.
 
 ## Surviving examples
 
 King points to important Dublin and Cairo corpus manuscripts alongside many witnesses with different selections and arrangements. These are distinct from the Hakimi Zij fragments in Leiden, Oxford and Paris. Naming repositories does not mean we opened their manuscripts or compared row values {cite:ibn-yunus-king-bea corpus manuscripts and Hakimi fragments}.
 
-The timekeeping manuscripts and original1973 study were not read here. Our defined sources are King's scholarly biography, Dizer's entry and MacTutor, each read completely. We claim no direct inspection that did not occur and do not date every layer from a late copy.
+The timekeeping manuscripts and original 1973 study were not read here. Our defined sources are King's scholarly biography, Dizer's entry and MacTutor, each read completely. We claim no direct inspection that did not occur and do not date every layer from a late copy.
 
 ## In culture
 
@@ -107,7 +107,7 @@ King and Dizer caution against the familiar “well-equipped observatory” pict
 
 ## For young readers
 
-Imagine cards asking two different questions: “How long since sunrise?” and “How long until noon?” In our12-hour-day example the morning answers sum to six hours. Do not subtract one from24 or compare it directly with a phone clock: meanings and reference points differ.
+Imagine cards asking two different questions: “How long since sunrise?” and “How long until noon?” In our12-hour-day example the morning answers sum to six hours. Do not subtract one from 24 or compare it directly with a phone clock: meanings and reference points differ.
 
 Read each column's title before its number. Ask whether the model is for a chosen place and day or everywhere. Wanting to know time is never permission to look at the Sun or test eyesight. Paper is enough. Sources support the history; neat handwriting does not turn our school numbers into ancient evidence.
 

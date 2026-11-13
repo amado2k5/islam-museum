@@ -1,0 +1,5 @@
+question: "Mukatabat Browser signature view: the design called for a map of letters with an arc from the sender's place to each recipient's place. The curated letter records carry only an occurred_at place and had_participant edges, with no pair of sender place and recipient place. Draw the map or not?"
+class: "engineering"
+lane: "signature-views"
+options: ["omit the map and say so in the register, until the records carry both places (chosen)", "draw arcs from Medina to each named recipient's known seat from general knowledge", "draw one dot per letter at its occurred_at place"]
+evidence: ["site/src/components/sig/MukatabatFlow.astro", "docs/site/signature-views.md known limits", "the implementer's count on 13 November 2026: 14 curated letter events, zero sender-place to recipient-place pairs"]

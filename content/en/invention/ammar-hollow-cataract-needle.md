@@ -26,7 +26,7 @@ Their article also discusses the possibility of aspiration attempts since antiqu
 
 ## The story
 
-Baltaci assigns al-Muntakhab to Egypt under al-Hakim,996–1020. That reign supplies the record's textual horizon, not proof that Ammar lived to its end or the exact date of manufacture or treatment. Meyerhof suggests composition around1010 using a judge named in one manuscript introduction. His historical estimate and Baltaci's reported400/1010 death should not be forced into an invented precise chronology {cite:tdv-ammar-b-ali pp74-75} {cite:meyerhof-ammar-1937 pp8-10}.
+Baltaci assigns al-Muntakhab to Egypt under al-Hakim,996–1020. That reign supplies the record's textual horizon, not proof that Ammar lived to its end or the exact date of manufacture or treatment. Meyerhof suggests composition around 1010 using a judge named in one manuscript introduction. His historical estimate and Baltaci's reported 400/1010 death should not be forced into an invented precise chronology {cite:tdv-ammar-b-ali pp74-75} {cite:meyerhof-ammar-1937 pp8-10}.
 
 In the case preceding his device description, Ammar says he conceived and made a hollow needle and recounts treating a Christian man, then claims previous use and success in Egypt and elsewhere. Meyerhof's note records Tiberias/Baghdad variants for the setting. We retain the variation rather than drawing a certain itinerary from one selected witness. The patient's religion is explicitly reported in the account, not inferred from a name {cite:meyerhof-ammar-1937 pp19-20}.
 
@@ -44,7 +44,7 @@ Description is also different from demonstrated efficacy. Ammar says his patient
 
 ## The spread
 
-Evidence of the book's transmission is clearer than evidence of repeated use of the needle. Baltaci names later readers, Nathan ha-Meathi's Hebrew translation and the1905 German translation. Meyerhof discusses divergent Arabic manuscripts and using a Hebrew witness to supply a case missing from his main exemplar. Words and reported experiences crossed languages; identical instruments need not have crossed clinics with them {cite:tdv-ammar-b-ali pp74-75} {cite:meyerhof-ammar-1937 pp9-11}.
+Evidence of the book's transmission is clearer than evidence of repeated use of the needle. Baltaci names later readers, Nathan ha-Meathi's Hebrew translation and the 1905 German translation. Meyerhof discusses divergent Arabic manuscripts and using a Hebrew witness to supply a case missing from his main exemplar. Words and reported experiences crossed languages; identical instruments need not have crossed clinics with them {cite:tdv-ammar-b-ali pp74-75} {cite:meyerhof-ammar-1937 pp9-11}.
 
 No count of adopting surgeons or continuous geographic distribution is supplied. Ammar's statement about Cairo and elsewhere remains his testimony, not an independently verified map. An instrument's name surviving in a European book does not establish that an object displayed today is its direct engineering copy {cite:meyerhof-ammar-1937 p20} {cite:leffler-cataract-aspiration-2017 introduction}.
 
@@ -56,7 +56,7 @@ The craft also required vocabulary distinguishing solid and hollow tools and des
 
 ## What was built on it
 
-Leffler and colleagues separate Ammar's narrative from later evidence, including Philadelphia1815: a patient's testimony, newspapers and an instrument attributed to Physick. These support a different historical episode; the displayed object is not Ammar's surviving needle. Their nineteenth-century examples and later1967 development do not establish an uninterrupted chain of teachers or transfer of every technical detail {cite:leffler-cataract-aspiration-2017 evidence-and-postscript}.
+Leffler and colleagues separate Ammar's narrative from later evidence, including Philadelphia1815: a patient's testimony, newspapers and an instrument attributed to Physick. These support a different historical episode; the displayed object is not Ammar's surviving needle. Their nineteenth-century examples and later 1967 development do not establish an uninterrupted chain of teachers or transfer of every technical detail {cite:leffler-cataract-aspiration-2017 evidence-and-postscript}.
 
 Textual influence and a manufactured device's ancestry are distinct. Translation can preserve an idea for centuries, and functions can resemble each other without proven direct contact. The hollow needle does not become a modern phacoemulsification machine, nor its author the inventor of an artificial lens he did not describe. The spaces between documented connections are part of understanding innovation {cite:leffler-cataract-aspiration-2017 introduction-and-postscript} {cite:nei-cataracts treatment}.
 
@@ -76,7 +76,7 @@ The modern discussion shows why medical history is more than a list of firsts. E
 
 **Sunni museum frame: attributed authorial account and Baltaci's assessment.** Ammar describes conception and manufacture and claims no predecessor with this needle; Baltaci regards the method as significant. This attributes a statement and its favorable reception, not a religious judgement about doctors or a museum seal on worldwide priority. “Described” in this record's title is deliberate {cite:meyerhof-ammar-1937 pp19-20} {cite:tdv-ammar-b-ali pp74-75}.
 
-**Academic reading: limits of practice and priority.** Leffler and colleagues discuss possible earlier attempts and later skepticism, quoting Emilie Savage-Smith's caution about reading case histories as evidence of success. We read their quotation, not her original2000 study independently. The museum gives no final verdict between claim and caveat, and does not misrepresent the disagreement as competing opinions about the author's religion {cite:leffler-cataract-aspiration-2017 introduction}.
+**Academic reading: limits of practice and priority.** Leffler and colleagues discuss possible earlier attempts and later skepticism, quoting Emilie Savage-Smith's caution about reading case histories as evidence of success. We read their quotation, not her original 2000 study independently. The museum gives no final verdict between claim and caveat, and does not misrepresent the disagreement as competing opinions about the author's religion {cite:leffler-cataract-aspiration-2017 introduction}.
 
 ## Today
 
@@ -86,7 +86,7 @@ Contemporary outcome figures must not be projected into the eleventh century. Mo
 
 ## Surviving examples
 
-Our directly consulted witness is the1937 edition's Spanish introduction7–11 and pages19–21; printed11 and19–21 were visually inspected. We do not claim Arabic manuscript collation or autograph access. Meyerhof explains divergent readings, omissions and supplementation from Hebrew on9–10. Recording that mediation is part of identifying the evidence actually available {cite:meyerhof-ammar-1937 pp9-10}.
+Our directly consulted witness is the 1937 edition's Spanish introduction7–11 and pages 19–21; printed 11 and 19–21 were visually inspected. We do not claim Arabic manuscript collation or autograph access. Meyerhof explains divergent readings, omissions and supplementation from Hebrew on 9–10. Recording that mediation is part of identifying the evidence actually available {cite:meyerhof-ammar-1937 pp9-10}.
 
 The needle is a descriptive witness here, not an authenticated original inspected in a museum. The accompanying eye image is a modern diagram with English labels, not Ammar's patient or manufacturing drawing. Physick's instrument in the later article belongs centuries later; its physical survival cannot stand in for survival of the eleventh-century device {cite:commons-eye-schematic description} {cite:leffler-cataract-aspiration-2017 figure4}.
 
@@ -94,7 +94,7 @@ The needle is a descriptive witness here, not an authenticated original inspecte
 
 Translation shows Arabic, Jewish and European readers participating in preservation and criticism of medical knowledge. Sources name Nathan ha-Meathi, German translators and Meyerhof. A translator does not become the needle's inventor, but omitting translators hides why comparison is possible today. This is linguistic and textual cooperation, not a sealed national ownership story {cite:tdv-ammar-b-ali pp74-75} {cite:meyerhof-ammar-1937 pp9-11}.
 
-The accompanying Rhcastilhos/Jmarchn drawing dates to2007 and carries CC BY-SA3.0, with both creators credited and the unmodified original linked. Its lens, iris, retina and optic nerve form modern anatomical context, not an operation scene. Colourful detail should not lend false precision to a historical reconstruction the museum has not made {cite:commons-eye-schematic metadata}.
+The accompanying Rhcastilhos/Jmarchn drawing dates to 2007 and carries CC BY-SA3.0, with both creators credited and the unmodified original linked. Its lens, iris, retina and optic nerve form modern anatomical context, not an operation scene. Colourful detail should not lend false precision to a historical reconstruction the museum has not made {cite:commons-eye-schematic metadata}.
 
 ## For young readers
 

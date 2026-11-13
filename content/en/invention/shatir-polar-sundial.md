@@ -10,7 +10,7 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 On the northern minaret of [[building/umayyad-mosque|Damascus's Umayyad Mosque]], [[person/ibn-al-shatir|Ibn al-Shatir]] erected a large horizontal marble sundial with curves for multiple time readings and a gnomon directed towards the celestial pole, according to David A. King. This is not invention of shadows or the world's first clock, but a specific refinement within a long history of astronomical measurement and timekeeping manufacture {cite:king-ibn-shatir-bea sundial} {cite:tdv-gunes-saati-cam historical-survey}.
 
-Muammer Dizer dates construction773AH/1371–1372, distinguishing the original from a nineteenth-century copy; King locates original fragments in a Damascus museum garden. A modern exterior photograph is therefore not a photograph of the original dial face, and the later copy is not the marble worked by Ibn al-Shatir {cite:tdv-ibn-shatir-dizer instruments} {cite:king-ibn-shatir-bea sundial}.
+Muammer Dizer dates construction 773 AH/1371–1372, distinguishing the original from a nineteenth-century copy; King locates original fragments in a Damascus museum garden. A modern exterior photograph is therefore not a photograph of the original dial face, and the later copy is not the marble worked by Ibn al-Shatir {cite:tdv-ibn-shatir-dizer instruments} {cite:king-ibn-shatir-bea sundial}.
 
 ## What it is
 
@@ -28,7 +28,7 @@ The survey discusses horizontal, vertical and cylindrical instruments, writings 
 
 A timekeeper connects celestial phenomena with local schedules. Ibn al-Shatir studied instruments and tables alongside theory, and his biography places this dial within that instrument-making work, not as an automatic consequence of his [[invention/ibn-al-shatir-lunar-model|lunar double epicycle]]. Nothing read here establishes a chain in which a lunar radius generates these marble hour lines {cite:king-ibn-shatir-bea timekeeping-and-instruments}.
 
-Dizer gives773AH/1371–1372; Cam summarises the date as1372. We retain the construction horizon and distinguish it from the older mosque's construction and the later replacement.773AH does not date every instrument by this maker, nor should the date of the smaller Aleppo dial be reassigned to the monumental Damascus instrument {cite:tdv-ibn-shatir-dizer instruments} {cite:tdv-gunes-saati-cam surviving-dials}.
+Dizer gives 773 AH/1371–1372; Cam summarises the date as1372. We retain the construction horizon and distinguish it from the older mosque's construction and the later replacement.773 AH does not date every instrument by this maker, nor should the date of the smaller Aleppo dial be reassigned to the monumental Damascus instrument {cite:tdv-ibn-shatir-dizer instruments} {cite:tdv-gunes-saati-cam surviving-dials}.
 
 ## The maker(s)
 
@@ -42,9 +42,9 @@ A polar gnomon is aligned with the apparent celestial rotation axis, and its sha
 
 In the modern example, let phi be latitude, h the Sun's hour angle from the meridian, and X the hour-line angle from noon. For a horizontal dial, X is the arctangent of sin(phi) multiplied by tan(h). Using local apparent solar hours, h equals fifteen degrees times hours after noon and is negative before noon {cite:bss-sundial-equations pp39–41}.
 
-We choose latitude30degrees purely for teaching, not as Damascus's coordinates or a historical measurement. One, two and three hours after apparent noon give h of15,30 and45degrees and line angles approximately7.63074,16.10211 and26.56505degrees. The increments are unequal: equal hours do not justify horizontal marks at uniform fifteen-degree intervals {cite:bss-sundial-equations p41}.
+We choose latitude 30 degrees purely for teaching, not as Damascus's coordinates or a historical measurement. One, two and three hours after apparent noon give h of 15,30 and 45 degrees and line angles approximately7.63074,16.10211 and 26.56505 degrees. The increments are unequal: equal hours do not justify horizontal marks at uniform fifteen-degree intervals {cite:bss-sundial-equations p41}.
 
-The reference limits this branch to hour angles greater than−90 and less than90degrees; other cases require the appropriate branch. An arctangent is not used without direction conventions. Nor is this30degree example a universal construction plan or artifact-restoration recipe. These are conditions of the modern reference, not limitations to conceal {cite:bss-sundial-equations p41}.
+The reference limits this branch to hour angles greater than−90 and less than 90 degrees; other cases require the appropriate branch. An arctangent is not used without direction conventions. Nor is this 30 degree example a universal construction plan or artifact-restoration recipe. These are conditions of the modern reference, not limitations to conceal {cite:bss-sundial-equations p41}.
 
 ## The spread
 
@@ -102,14 +102,14 @@ Prayer-time references here describe a historical function rather than offering 
 
 ## For young readers
 
-Draw a noon line on paper and add the modern example's7.63,16.10 and26.57degree lines. Compare the gaps: they differ although the intervals represent one, two and three hours after apparent noon. This teaches projection, not a ready-made historical sundial or an invitation to install equipment on an artifact {cite:bss-sundial-equations p41}.
+Draw a noon line on paper and add the modern example's7.63,16.10 and 26.57 degree lines. Compare the gaps: they differ although the intervals represent one, two and three hours after apparent noon. This teaches projection, not a ready-made historical sundial or an invitation to install equipment on an artifact {cite:bss-sundial-equations p41}.
 
-Recalculate for another imaginary latitude and notice the change. At30degrees, hour angle45degrees gives one-half as the tangent input and a line angle near26.565degrees. There is no need to look at the Sun, use a telescope or climb a minaret. Paper and calculation suffice, with the modern example kept separate from the historical original {cite:bss-sundial-equations p41}.
+Recalculate for another imaginary latitude and notice the change. At30 degrees, hour angle 45 degrees gives one-half as the tangent input and a line angle near 26.565 degrees. There is no need to look at the Sun, use a telescope or climb a minaret. Paper and calculation suffice, with the modern example kept separate from the historical original {cite:bss-sundial-equations p41}.
 
 ## References
 
 - King, monumental dial, compendium and reception passages, reread {cite:king-ibn-shatir-bea sundial-and-reception}.
 - Dizer, instruments, construction date and later copy {cite:tdv-ibn-shatir-dizer instruments}.
-- Cam, complete1996 survey of types, history and witnesses {cite:tdv-gunes-saati-cam complete-entry}.
-- British Sundial Society, cover and selected39–41; printed41 visually inspected {cite:bss-sundial-equations pp39–41}.
+- Cam, complete 1996 survey of types, history and witnesses {cite:tdv-gunes-saati-cam complete-entry}.
+- British Sundial Society, cover and selected 39–41; printed 41 visually inspected {cite:bss-sundial-equations pp39–41}.
 - Commons, Gagnon2010, actual photo metadata/CC BY-SA3.0 and visual inspection {cite:commons-minaret-bride-gagnon description-and-rights}.

@@ -26,7 +26,7 @@ Spink and Lewis judge this kind of scaling absent from the classical writings th
 
 Al-Zahrawi was associated with Cordoba and *al-Tasrif*, placed by TDV around 390 AH/1000, although early evidence for his life is sparse {cite:tdv-zehravi pp.189–191} {cite:tdv-tasrif-zehravi pp.132–133}. This approximate compilation date is not a verified date for making the first scraper set or treating its first patient. Understanding the contribution does not require inventing a particular caliph, palace or clinic where the evidence identifies none.
 
-The chapter's location matters. Surgery forms the encyclopaedia's thirtieth book; within the surgical work's own divisions, the passage is Book Two, chapter twenty-nine {cite:tdv-tasrif-zehravi pp.132–133} {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. It is not the twenty-ninth book of the entire encyclopaedia. The neighbouring chapter twenty-eight in Leclerc concerns another gum condition, so search results calling the scraper passage “chapter28” should not replace the actual heading {cite:zahrawi-leclerc-chirurgie-1861 p.97}.
+The chapter's location matters. Surgery forms the encyclopaedia's thirtieth book; within the surgical work's own divisions, the passage is Book Two, chapter twenty-nine {cite:tdv-tasrif-zehravi pp.132–133} {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. It is not the twenty-ninth book of the entire encyclopaedia. The neighbouring chapter twenty-eight in Leclerc concerns another gum condition, so search results calling the scraper passage “chapter 28” should not replace the actual heading {cite:zahrawi-leclerc-chirurgie-1861 p.97}.
 
 ## The maker(s)
 
@@ -38,7 +38,7 @@ Al-Zahrawi's recorded role is describer: the text differentiates the instruments
 
 The principle we can safely explain is matching form to position. The text explicitly separates inner surfaces, outer surfaces and spaces between teeth rather than treating them as one location reached by an identical instrument {cite:zahrawi-leclerc-chirurgie-1861 ch.29 p.98}. This describes a design relationship in an old source, not how readers should touch a tooth or gum. The account stops at classification and comparison, without reproducing working movements, treatment sequence or repetition.
 
-The image on page275 of the 1973 edition shows the Marsh manuscript's family: relatively long shafts and heads with different outlines, including broader, hooked and angular forms {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 p.275}. Without a trustworthy scale, the picture does not establish actual size. Nor does black reproduction establish a particular metal for every part. The illustration enables comparison of shape; it cannot replace examination of an object's material or wear.
+The image on page 275 of the 1973 edition shows the Marsh manuscript's family: relatively long shafts and heads with different outlines, including broader, hooked and angular forms {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 p.275}. Without a trustworthy scale, the picture does not establish actual size. Nor does black reproduction establish a particular metal for every part. The illustration enables comparison of shape; it cannot replace examination of an object's material or wear.
 
 The commentary contrasts Huntington's thick, fluted or serrated handles with Marsh's thin, smooth ones while identifying the same instrument family {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 p.272 commentary}. Copies therefore do not preserve every visual detail identically. Function can help interpret differing drawings, but every decorative line need not record a manufactured feature, and a drawing difference alone does not demonstrate a separate new invention.
 
@@ -80,7 +80,7 @@ The group can be read as historical evidence of instrument specialization by pos
 
 ## Surviving examples
 
-Our evidence is a printed text and manuscript-derived pictures, not original metal instruments. Leclerc's page98 visibly refers to figure54; the 1973 edition labels the scraper collection figure65 {cite:zahrawi-leclerc-chirurgie-1861 ch.29 p.98} {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. The 1861 plate itself was not located in this reading, so it is not claimed as inspected or replaced with an uncertain OCR guess.
+Our evidence is a printed text and manuscript-derived pictures, not original metal instruments. Leclerc's page 98 visibly refers to figure 54; the 1973 edition labels the scraper collection figure 65 {cite:zahrawi-leclerc-chirurgie-1861 ch.29 p.98} {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. The 1861 plate itself was not located in this reading, so it is not claimed as inspected or replaced with an uncertain OCR guess.
 
 The accompanying public-domain contextual image shows five other instruments and Arabic writing in a later copy; these have not been identified as the chapter's scrapers {cite:commons-zahrawi-instruments description}. It illustrates the book's practice of instrument drawing, not the identity of every tool in our subject. The 1973 image read during research is not republished here as freely licensed media: edition rights remain distinct from the text's age. Our teaching diagram is conceptual, not a copy of that plate.
 
@@ -94,8 +94,8 @@ On paper only, draw imaginary geometric forms: a rounded head, an angular one an
 
 ## References
 
-- [[source/zahrawi-spink-lewis-1973|Spink and Lewis1973]], Book2, chapter29,272–275/commentary: specialization, manuscript differences and bounded originality assessment.
-- [[source/zahrawi-leclerc-chirurgie-1861|Leclerc1861]], chapter29,97–98: actual translation and inspected reference to figure54, not the plate.
+- [[source/zahrawi-spink-lewis-1973|Spink and Lewis1973]], Book2, chapter 29,272–275/commentary: specialization, manuscript differences and bounded originality assessment.
+- [[source/zahrawi-leclerc-chirurgie-1861|Leclerc1861]], chapter 29,97–98: actual translation and inspected reference to figure 54, not the plate.
 - [[source/tdv-zehravi|Esin Kahya, al-Zahrawi]],189–191; [[source/tdv-tasrif-zehravi|al-Tasrif]],132–133: context and transmission.
-- [[source/alzahrawi-stones-abdelhalim-2003|Abdel-Halim and colleagues2003]],1283–1284,1288–1289: identity basis and distinct earlier contribution.
+- [[source/alzahrawi-stones-abdelhalim-2003|Abdel-Halim and colleagues 2003]],1283–1284,1288–1289: identity basis and distinct earlier contribution.
 - [[source/commons-zahrawi-instruments|Contextual-image metadata]]: public-domain rights and identification limits.

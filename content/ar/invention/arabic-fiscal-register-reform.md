@@ -66,7 +66,7 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 ## المراجع
 - البلاذري، ترجمة فيليب حتي،1916،المجلد الأول،301و465–466، مع فصل الحواشي عن الرواية {cite:baladhuri-hitti-1916 p.301,p.465–466}.
-- عبد العزيز الدوري،موسوعةTDV،القسم الأول من «الديوان»،فقرة التعريب والمراحل {cite:tdv-divan-duri Arabicization}.
-- حقي دورسون يلدز،ترجمة عبد الملك،1988،الإدارة والتعلم الشخصي {cite:tdv-abdulmelik-yildiz}.
-- السيوطي،دارالمنهاج،356،أساس العبادة والفقه المنسوبان {cite:tarikh-khulafa-minhaj-1434 p.356}.
+- عبد العزيز الدوري، موسوعةTDV،القسم الأول من «الديوان»،فقرة التعريب والمراحل {cite:tdv-divan-duri Arabicization}.
+- حقي دورسون يلدز، ترجمة عبد الملك،1988،الإدارة والتعلم الشخصي {cite:tdv-abdulmelik-yildiz}.
+- السيوطي، دارالمنهاج،356،أساس العبادة والفقه المنسوبان {cite:tarikh-khulafa-minhaj-1434 p.356}.
 - بيانات وصورةPERF558الوجه،PD،سياق سابق لا سجل الإصلاح {cite:commons-perf-558-recto}.

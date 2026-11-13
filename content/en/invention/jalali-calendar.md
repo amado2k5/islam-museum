@@ -28,7 +28,7 @@ That movement mattered socially. Reform narratives complain about tax payments f
 
 Thomann describes Malik Shah's summons to astronomers from Khurasan and the observing work surrounding the project. Yet the Nawrūznāma, attributed to Khayyam but probably not his work in the historian's assessment, says intercalation was not completed. A historical account discussed alongside it distinguishes reform from observatory construction and the end of observations after the sultan's death {cite:thomann-jalali-calendar-2021 secs.3–4}.
 
-We therefore invent neither a founding meeting with recoverable dialogue nor an original calendar notebook completed on a known day. The witnesses Thomann discusses contain1076 and1079 epochs, with a later tradition preferring the latter. Iranica interprets468 differently, as a fiscal-year number rather than the same Hijri year. The disagreement over how to read a number belongs in the history, not in a silently harmonized chronology {cite:thomann-jalali-calendar-2021 sec.4} {cite:iranica-calendars-abdollahy Jalali subsection}.
+We therefore invent neither a founding meeting with recoverable dialogue nor an original calendar notebook completed on a known day. The witnesses Thomann discusses contain 1076 and 1079 epochs, with a later tradition preferring the latter. Iranica interprets 468 differently, as a fiscal-year number rather than the same Hijri year. The disagreement over how to read a number belongs in the history, not in a silently harmonized chronology {cite:thomann-jalali-calendar-2021 sec.4} {cite:iranica-calendars-abdollahy Jalali subsection}.
 
 ## The maker(s)
 
@@ -40,17 +40,17 @@ We therefore invent neither a founding meeting with recoverable dialogue nor an 
 
 Begin by separating event from count. The equinox is an astronomical event; the day is a calendrical unit, and a written calendar year has a whole number of days. Connecting the beginning to the event requires a rule for choosing the day and accounting for common and leap years. Calling something “accurate” without specifying the epoch, months, added days and version tells us too little {cite:iranica-calendars-abdollahy Jalali subsection}.
 
-In our modern paper model, not assigned to a particular manuscript, twelve30-day months make360 days; five extra days make365. Eight added days over33 years give365×33+8=12053 days, averaging365+8/33. This illustrates addition and distribution, not a securely recovered Khayyam algorithm.
+In our modern paper model, not assigned to a particular manuscript, twelve 30-day months make 360 days; five extra days make 365. Eight added days over 33 years give 365×33+8=12053 days, averaging 365+8/33. This illustrates addition and distribution, not a securely recovered Khayyam algorithm.
 
-Compare a model adding one day every four years: its average365.25 yields12053.25 days over33 years, a quarter-day more than the other model. Arithmetic difference alone does not establish perpetual agreement with the sky. Iranica presents differing later witnesses and rules, including four/five-year intervals, not a warrant to collapse all of them into one fixed original cycle {cite:iranica-calendars-abdollahy Jalali subsection}.
+Compare a model adding one day every four years: its average 365.25 yields 12053.25 days over 33 years, a quarter-day more than the other model. Arithmetic difference alone does not establish perpetual agreement with the sky. Iranica presents differing later witnesses and rules, including four/five-year intervals, not a warrant to collapse all of them into one fixed original cycle {cite:iranica-calendars-abdollahy Jalali subsection}.
 
-Indeed, its listed five-year-interval years include a transition from163 to192: a gap of29, not33. Readers can check the subtraction to see why “33-year cycles occur” is not equivalent to “every cycle is always33.” Historical conversion needs a dated text and a specified rule before it becomes an algorithm {cite:iranica-calendars-abdollahy Jalali subsection}.
+Indeed, its listed five-year-interval years include a transition from 163 to 192: a gap of 29, not33. Readers can check the subtraction to see why “33-year cycles occur” is not equivalent to “every cycle is always 33.” Historical conversion needs a dated text and a specified rule before it becomes an algorithm {cite:iranica-calendars-abdollahy Jalali subsection}.
 
 ## The spread
 
 A description in astronomical tables does not prove use in every administrative office. Thomann looks for inscriptions, coins and documents; his Jalali examples occur particularly in astronomical/astrological materials, challenging the picture of comprehensive administrative replacement. This is a scholar's conclusion from his evidence, not proof that every unobserved use was impossible {cite:thomann-jalali-calendar-2021 secs.5–6}.
 
-In fragments dated1182/1183, he infers an equinox-anchored year while older Persian dates remain inside the table. An Ottoman example from1450 has a separate Jalali column rather than one exclusive date system. Here circulation concerns neighboring ways to count time: a calendar can travel within a specialized practice without erasing others {cite:thomann-jalali-calendar-2021 sec.5}.
+In fragments dated 1182/1183, he infers an equinox-anchored year while older Persian dates remain inside the table. An Ottoman example from 1450 has a separate Jalali column rather than one exclusive date system. Here circulation concerns neighboring ways to count time: a calendar can travel within a specialized practice without erasing others {cite:thomann-jalali-calendar-2021 sec.5}.
 
 ## What it was built on
 
@@ -62,7 +62,7 @@ Observations and tables formed the working environment, but their presence does 
 
 Later astronomical tables discussed its epoch, intercalation and conversion with varying formulae. Iranica describes stages of this treatment and modern changes to the chosen era, month names and month lengths. Historical continuity does not mean every rule stayed identical across centuries {cite:iranica-calendars-abdollahy Jalali and Solar-Hijri subsections}.
 
-It associates1925 with changed Solar Hijri month lengths: six months of31 days, five of30, and a final29 or30. We do not transplant this structure into1079, or present the article's historical formulae as current legal conversion software. Calendar, era and particular version must be distinguished before two dates can be compared responsibly {cite:iranica-calendars-abdollahy Solar-Hijri subsection}.
+It associates 1925 with changed Solar Hijri month lengths: six months of 31 days, five of 30, and a final 29 or 30. We do not transplant this structure into 1079, or present the article's historical formulae as current legal conversion software. Calendar, era and particular version must be distinguished before two dates can be compared responsibly {cite:iranica-calendars-abdollahy Solar-Hijri subsection}.
 
 ## Impact on daily life
 
@@ -80,7 +80,7 @@ The programme/implementation distinction also teaches us how to read innovation.
 
 **Reported attribution:** MacTutor gives Khayyam a familiar association with the project, but the reform is collective and Malik Shah the patron. This supports neither sole invention of all solar calendars nor ownership of every later leap rule {cite:khayyam-mactutor calendar}.
 
-**Historical question:** Thomann questions how observing narratives establish Khayyam's role. We do not replace popular certainty with opposite certainty excluding him. Sources also agree on1079 while differing over the earlier epoch and Hijri day:9 Ramadan in Iranica versus10 in Thomann. The record uses471 and Julian1079 as the preferred later epoch, not a verified invention day {cite:thomann-jalali-calendar-2021 sec.4} {cite:iranica-calendars-abdollahy Jalali subsection}.
+**Historical question:** Thomann questions how observing narratives establish Khayyam's role. We do not replace popular certainty with opposite certainty excluding him. Sources also agree on 1079 while differing over the earlier epoch and Hijri day:9 Ramadan in Iranica versus 10 in Thomann. The record uses 471 and Julian1079 as the preferred later epoch, not a verified invention day {cite:thomann-jalali-calendar-2021 sec.4} {cite:iranica-calendars-abdollahy Jalali subsection}.
 
 ## Today
 
@@ -90,7 +90,7 @@ Tables still invite verification: which era, an old or Jalali month, and which l
 
 ## Surviving examples
 
-The displayed image is folio1r of Berlin's astronomical-table manuscript Ms.or.quart.211, dated1804 by the institution. We inspected its original image: red ruling, entries in black/red/green, and library stamps. The institution records six Arabic leaves and Public Domain Mark1.0; this is not an original leaf in Khayyam's hand {cite:berlin-astronomical-tables-211 metadata,canvas1r,image,rights}.
+The displayed image is folio 1r of Berlin's astronomical-table manuscript Ms.or.quart.211, dated 1804 by the institution. We inspected its original image: red ruling, entries in black/red/green, and library stamps. The institution records six Arabic leaves and Public Domain Mark1.0; this is not an original leaf in Khayyam's hand {cite:berlin-astronomical-tables-211 metadata,canvas1r,image,rights}.
 
 Thomann identifies seven parallel calendars in this example, explaining that the original first leaf is missing and the date is established astronomically. We follow his column interpretation, not a claim to decipher the complete manuscript independently. Conversely, an astrolabe he discusses from an older description has no known present location; we do not claim it is on display in a visitable gallery {cite:thomann-jalali-calendar-2021 sec.5 fig.5.1}.
 
@@ -102,10 +102,10 @@ Nor should Khayyam's poetic image authenticate a technical account. Stanford's d
 
 ## For young readers
 
-Write365 spaces for a paper year and distribute eight additional days across33 year cards. Work out the total and average, then move the additions: an identical average does not uniquely determine which years are leap years. This is a modern arithmetic activity, not a recovered ancient table or a rule for dating religious observances.
+Write365 spaces for a paper year and distribute eight additional days across 33 year cards. Work out the total and average, then move the additions: an identical average does not uniquely determine which years are leap years. This is a modern arithmetic activity, not a recovered ancient table or a rule for dating religious observances.
 
 Look at the Berlin image: why might one page contain several calendars? Try writing today's date in two systems your family knows, naming each system. No sun-gazing or observing apparatus is needed; the aim is to understand how different counting conventions can share one document {cite:thomann-jalali-calendar-2021 sec.5 fig.5.1}.
 
 ## References
 
-Thomann2021, actual accepted-version main sections1–6, not all appendices; Reza Abdollahy's Iranica Jalali/Solar Hijri subsections; MacTutor for reported participation and Stanford for identity context; institutional Berlin metadata, folio1r and rights. No source manuscript or protected text is republished, and not every listed original was independently read {cite:thomann-jalali-calendar-2021 secs.1–6} {cite:iranica-calendars-abdollahy Jalali and Solar-Hijri subsections} {cite:khayyam-mactutor calendar} {cite:sep-umar-khayyam sec.2.7} {cite:berlin-astronomical-tables-211 metadata,image,rights}.
+Thomann2021, actual accepted-version main sections1–6, not all appendices; Reza Abdollahy's Iranica Jalali/Solar Hijri subsections; MacTutor for reported participation and Stanford for identity context; institutional Berlin metadata, folio 1r and rights. No source manuscript or protected text is republished, and not every listed original was independently read {cite:thomann-jalali-calendar-2021 secs.1–6} {cite:iranica-calendars-abdollahy Jalali and Solar-Hijri subsections} {cite:khayyam-mactutor calendar} {cite:sep-umar-khayyam sec.2.7} {cite:berlin-astronomical-tables-211 metadata,image,rights}.

@@ -26,7 +26,7 @@ Conversely, we do not adopt the nineteenth-century editor's “first example” 
 
 Abu al-Wafa belongs to the scholarly setting of [[place/baghdad|Baghdad]], but locating the city does not locate a workshop or lesson for every construction {cite:britannica-abu-al-wafa biography}. Woepcke describes his base as a Persian translation of an Arabic text apparently collecting the scholar's lessons through a pupil, perhaps also abridged. These are layers of redaction and translation, not an unmediated autograph notebook {cite:abu-wafa-woepcke-constructions-1855 pp.218–219}. The story includes those who preserved the knowledge and the limits of what we know about them.
 
-Raynaud discusses a possible993–1008 compilation window from the patron's titles, with a possible993–998 authorial window and an alternative posthumous-redaction reading {cite:raynaud-abu-wafa-latinus-2012 sec.1 note2}. We use the interval as a compilation discussion, not each construction's invention date; no convenient single year or fabricated Hijri equivalent is supplied. Chapter counts also depend on version: twelve in the Persian extract, thirteen announced and eleven surviving in Raynaud's account {cite:abu-wafa-woepcke-constructions-1855 pp.319–321} {cite:raynaud-abu-wafa-latinus-2012 sec.1 note3}.
+Raynaud discusses a possible 993–1008 compilation window from the patron's titles, with a possible 993–998 authorial window and an alternative posthumous-redaction reading {cite:raynaud-abu-wafa-latinus-2012 sec.1 note2}. We use the interval as a compilation discussion, not each construction's invention date; no convenient single year or fabricated Hijri equivalent is supplied. Chapter counts also depend on version: twelve in the Persian extract, thirteen announced and eleven surviving in Raynaud's account {cite:abu-wafa-woepcke-constructions-1855 pp.319–321} {cite:raynaud-abu-wafa-latinus-2012 sec.1 note3}.
 
 ## The maker(s)
 
@@ -36,7 +36,7 @@ Britannica explicitly calls Abu al-Wafa himself a Muslim mathematician and astro
 
 ## How it works
 
-In the introduction's first construction, take the endpoints of a segment as centers of two circles with the same opening, then join their intersections. The resulting line is perpendicular to the segment. The first problem of chapter1 reuses it to bisect a segment or suitable arc {cite:abu-wafa-woepcke-constructions-1855 pp.321–322}. The second circle is not a retracing of the first: its center changes while its radius stays fixed. New information comes from intersecting figures, not measuring out a ready-made right angle with a protractor.
+In the introduction's first construction, take the endpoints of a segment as centers of two circles with the same opening, then join their intersections. The resulting line is perpendicular to the segment. The first problem of chapter 1 reuses it to bisect a segment or suitable arc {cite:abu-wafa-woepcke-constructions-1855 pp.321–322}. The second circle is not a retracing of the first: its center changes while its radius stays fixed. New information comes from intersecting figures, not measuring out a ready-made right angle with a protractor.
 
 Explain this using modern coordinates, not the author's symbols: `A=(0,0)`, `B=(L,0)`, radius`r`. Intersections satisfy `x²+y²=r²` and `(x−L)²+y²=r²`; subtracting gives `x=L/2`. Their joining line therefore passes through the segment's midpoint, and their vertical coordinates are `y=±√(r²−L²/4)`. This is a teaching rewrite of the translated construction, not a claim that the text used coordinate algebra {cite:abu-wafa-woepcke-constructions-1855 pp.321–322}.
 
@@ -76,11 +76,11 @@ The contribution established is organization/development of constrained solution
 
 ## Today
 
-The photograph shows a modern drafting compass and attachments, photographed by Radomil in2005 under a share-alike licence. It is not Abu al-Wafa's tool or proof that its mechanism prevents opening changes {cite:commons-compass-radomil history and licensing}. It illustrates the two points and the distance between them. Compare that with the paper problem's constraint while distinguishing an adjustable instrument from the decision to hold its opening during a solution. No archaeological or reconstruction claim is needed.
+The photograph shows a modern drafting compass and attachments, photographed by Radomil in 2005 under a share-alike licence. It is not Abu al-Wafa's tool or proof that its mechanism prevents opening changes {cite:commons-compass-radomil history and licensing}. It illustrates the two points and the distance between them. Compare that with the paper problem's constraint while distinguishing an adjustable instrument from the decision to hold its opening during a solution. No archaeological or reconstruction claim is needed.
 
 ## Surviving examples
 
-The image of printed321 in the1855 publication was checked and specified analysis/extract passages read; no independent Arabic collation, complete article reading or original Persian manuscript inspection is claimed {cite:abu-wafa-woepcke-constructions-1855 pp.218–219,321–324}. Raynaud lists Arabic copies and differences in surviving chapters; we read those reports in his paper, not all manuscripts listed {cite:raynaud-abu-wafa-latinus-2012 sec.1 notes1–3}. A publication image witnesses a published text, not the age of the sheet on which a lesson was first recorded.
+The image of printed 321 in the 1855 publication was checked and specified analysis/extract passages read; no independent Arabic collation, complete article reading or original Persian manuscript inspection is claimed {cite:abu-wafa-woepcke-constructions-1855 pp.218–219,321–324}. Raynaud lists Arabic copies and differences in surviving chapters; we read those reports in his paper, not all manuscripts listed {cite:raynaud-abu-wafa-latinus-2012 sec.1 notes1–3}. A publication image witnesses a published text, not the age of the sheet on which a lesson was first recorded.
 
 ## In culture
 
@@ -92,6 +92,6 @@ Imagine keeping your compass opening while drawing circles from two centers: an 
 
 ## References
 
-- Woepcke1855, selections218–220,224–227,319–324;321 image checked. French based on Persian, not complete article reading {cite:abu-wafa-woepcke-constructions-1855 selected passages}.
-- Raynaud2012, abstract,1/notes,2.1–2.2 and11; not all appendices read or all tests independently reproduced {cite:raynaud-abu-wafa-latinus-2012 secs.1,2,11}.
+- Woepcke1855, selections 218–220,224–227,319–324;321 image checked. French based on Persian, not complete article reading {cite:abu-wafa-woepcke-constructions-1855 selected passages}.
+- Raynaud2012, abstract,1/notes,2.1–2.2 and 11; not all appendices read or all tests independently reproduced {cite:raynaud-abu-wafa-latinus-2012 secs.1,2,11}.
 - Individual biography, geometry context and licensed photograph {cite:britannica-abu-al-wafa biography} {cite:abu-wafa-youschkevitch-dsb geometry} {cite:abu-wafa-mactutor geometry} {cite:commons-compass-radomil licensing}.

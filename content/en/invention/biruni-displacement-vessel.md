@@ -26,7 +26,7 @@ Ansari shows that transmitted tables can express the weight of displaced water, 
 
 Our evidence is not an autograph construction report dated to a particular day. It is a nineteenth-century publication of passages from al-Khazini's later book; the publisher explicitly acknowledges a deficient, erroneous manuscript and offers passages he can explain {cite:khazini-khanikoff-1859 pp.53–54}. That mediation belongs beside the attractive drawing, not outside the story.
 
-Ansari says the Beirut manuscript of al-Biruni's treatise and Cheikho's communication were unavailable to him, so this part of his preliminary study relies on Wiedemann {cite:ansari-biruni-physics-1975 p.199}. We do not present his1975 article as direct inspection of every original. Our broad eleventh-century setting and Ghazna location are biographical context, not a verified construction year or workshop {cite:britannica-al-biruni biography}. An unknown year cannot acquire an invented Hijri equivalent.
+Ansari says the Beirut manuscript of al-Biruni's treatise and Cheikho's communication were unavailable to him, so this part of his preliminary study relies on Wiedemann {cite:ansari-biruni-physics-1975 p.199}. We do not present his 1975 article as direct inspection of every original. Our broad eleventh-century setting and Ghazna location are biographical context, not a verified construction year or workshop {cite:britannica-al-biruni biography}. An unknown year cannot acquire an invented Hijri equivalent.
 
 ## The maker(s)
 
@@ -46,7 +46,7 @@ In modern notation, with sample mass `M` and completely collected displaced-wate
 
 Collected displaced-water weight must also be distinguished from an object's apparent immersed weight. If air weight is `A` and apparent immersed weight `B`, hydrostatic comparison gives `A/(A-B)`, not `A/B`. In the collecting vessel, the denominator is already the displaced water's weight; it is not an immersed weight to subtract again. Ansari's distinctions between representations matter to this comparison {cite:ansari-biruni-physics-1975 pp.201–202}. Mixing the denominators changes the answer.
 
-Consider our invented teaching example, not al-Biruni's measurements: a hypothetical84g sample displaces20g of water, giving4.2. Collecting only19.5g gives about4.30769, about2.56% too high. Losing water from the denominator raises the calculated relative density; it does not physically make the sample heavier. A drop retained in the tube is therefore not decorative detail.
+Consider our invented teaching example, not al-Biruni's measurements: a hypothetical84g sample displaces20g of water, giving4.2. Collecting only 19.5g gives about 4.30769, about 2.56% too high. Losing water from the denominator raises the calculated relative density; it does not physically make the sample heavier. A drop retained in the tube is therefore not decorative detail.
 
 The transmitted text itself reports water remaining in the tube and dripping slowly, followed by a drainage refinement; this is not proof of a complete modern theory of capillarity {cite:khazini-khanikoff-1859 p.54}. The next page connects a narrow neck to sensitivity in water-level change but notes the difficulty of removing objects through a smaller opening {cite:khazini-khanikoff-1859 p.55}. Sensitive reading and convenient handling can compete.
 
@@ -66,7 +66,7 @@ We do not infer dependence on al-Biruni's Earth measurement merely because the s
 
 ## What was built on it
 
-After the device description, page55 discusses “our author” experimenting with Abu Rayhan's instrument: in this publication that means al-Khazini. His repeated trials and the following table must not automatically become al-Biruni's own observations {cite:khazini-khanikoff-1859 pp.55–56}. Distinguishing designer and later experimenter prevents one person's figures from becoming another's precision certificate.
+After the device description, page 55 discusses “our author” experimenting with Abu Rayhan's instrument: in this publication that means al-Khazini. His repeated trials and the following table must not automatically become al-Biruni's own observations {cite:khazini-khanikoff-1859 pp.55–56}. Distinguishing designer and later experimenter prevents one person's figures from becoming another's precision certificate.
 
 Yassi and Yassi describe modern IROST reconstruction, with photographs of a vessel and ordinary balance {cite:yassi-hydrostatic-balances-2023 pp.140–141}. This is modern experimental research, not excavated original hardware or proof that every historical condition was recreated. Results concern the replica, its materials and adjustment, even when they illuminate the underlying principle.
 
@@ -98,9 +98,9 @@ The exhibit is not a gem-testing laboratory. Dissolving, absorbent or air-trappi
 
 ## Surviving examples
 
-Our image is printed page54 of Khanikoff's publication, with vessel, neck, handle, outlet, balance pan and bilingual key; it is neither an original surviving object nor an autograph drawing {cite:khazini-khanikoff-1859 p.54}. Commons explicitly gives expired-copyright public-domain status in the United States and1859/60 volume metadata; publication date is not instrument-construction date {cite:khazini-khanikoff-1859 Commons-license}.
+Our image is printed page 54 of Khanikoff's publication, with vessel, neck, handle, outlet, balance pan and bilingual key; it is neither an original surviving object nor an autograph drawing {cite:khazini-khanikoff-1859 p.54}. Commons explicitly gives expired-copyright public-domain status in the United States and 1859/60 volume metadata; publication date is not instrument-construction date {cite:khazini-khanikoff-1859 Commons-license}.
 
-The2023 article's reconstructed apparatus witnesses modern construction, not survival from the eleventh century {cite:yassi-hydrostatic-balances-2023 pp.140–141}. One image transmits a manuscript diagram through print; the other documents a newly made device. They cannot substitute for one another in an evidential chain.
+The 2023 article's reconstructed apparatus witnesses modern construction, not survival from the eleventh century {cite:yassi-hydrostatic-balances-2023 pp.140–141}. One image transmits a manuscript diagram through print; the other documents a newly made device. They cannot substitute for one another in an evidential chain.
 
 ## In culture
 
@@ -110,7 +110,7 @@ Admiring a solution need not turn it into the discovery of gravity or superiorit
 
 ## For young readers
 
-The description sends water through a side outlet towards a weighing pan, while some can remain on the way {cite:khazini-khanikoff-1859 p.54}. On paper only, divide84 by20 and then by19.5. Why does the second answer grow? We changed the water counted as collected, not the object's actual weight. This is our modern example, not a school experiment copied from the manuscript. Use words and numbers, not unknown substances or hazardous metals; ask what was measured and what never reached the pan.
+The description sends water through a side outlet towards a weighing pan, while some can remain on the way {cite:khazini-khanikoff-1859 p.54}. On paper only, divide 84 by 20 and then by 19.5. Why does the second answer grow? We changed the water counted as collected, not the object's actual weight. This is our modern example, not a school experiment copied from the manuscript. Use words and numbers, not unknown substances or hazardous metals; ask what was measured and what never reached the pan.
 
 ## References
 

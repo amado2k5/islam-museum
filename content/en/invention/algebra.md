@@ -82,4 +82,4 @@ About twelve hundred years ago a scholar in Baghdad named al-Khwarizmi wrote a b
 - Muhammad ibn Musa al-Khwarizmi, Kitab al-Jabr wal-Muqabala, ed. Ali Mustafa Mosharafa and Muhammad Mursi Ahmad, Cairo 1939: editors' introduction, scan pp. 13–26; author's preface and text, scan pp. 29–43, 51–53. {cite:khwarizmi-jabr-cairo-1939 pp. 13–53}
 - Abd al-Rahman ibn Khaldun, al-Muqaddima, pp. 495–496, section "al-Jabr wal-muqabala". {cite:muqaddima-ibn-khaldun pp. 495–496}
 - İhsan Fazlıoğlu, "CEBİR", TDV Encyclopedia of Islam, vol. 7 (1993), pp. 195–201, online edition. {cite:tdv-cebir pp. 195–201}
-- Wikimedia Commons, "Bodleian MS. Huntington 214 roll332 frame36.jpg", public domain, Bodleian Libraries. {cite:wikimedia-commons}
+- Wikimedia Commons, "Bodleian MS. Huntington 214 roll 332 frame 36.jpg", public domain, Bodleian Libraries. {cite:wikimedia-commons}

@@ -27,9 +27,9 @@ Francois Charette describes Habash learning Indian and Persian traditions, then 
 
 ## The story
 
-His work is better documented than his personal life. TDV reports Baghdad observations between829 and864, a long life and a possible death between864 and874. Charette discusses observations as late as868, places completion of the zij after869, and tentatively estimates a lifespan around796–894. We do not splice these estimates into certain birth and death dates {cite:tdv-habash-fazlioglu biography} {cite:habash-charette-bea chronology}.
+His work is better documented than his personal life. TDV reports Baghdad observations between 829 and 864, a long life and a possible death between 864 and 874. Charette discusses observations as late as868, places completion of the zij after 869, and tentatively estimates a lifespan around 796–894. We do not splice these estimates into certain birth and death dates {cite:tdv-habash-fazlioglu biography} {cite:habash-charette-bea chronology}.
 
-The record places the table contribution broadly in the ninth century. MacTutor's statement about Arabic shadow tables around860 is not an individual composition date. Court connections also do not establish formal membership in Ma'mun's observational team: Charette and TDV distinguish contact and benefit from participation that the evidence does not securely demonstrate {cite:mactutor-trigonometric-functions shadow discussion} {cite:habash-charette-bea mumtahan discussion}.
+The record places the table contribution broadly in the ninth century. MacTutor's statement about Arabic shadow tables around 860 is not an individual composition date. Court connections also do not establish formal membership in Ma'mun's observational team: Charette and TDV distinguish contact and benefit from participation that the evidence does not securely demonstrate {cite:mactutor-trigonometric-functions shadow discussion} {cite:habash-charette-bea mumtahan discussion}.
 
 ## The maker(s)
 
@@ -41,11 +41,11 @@ His role here is computational improver. We do not assign every contemporary ast
 
 Draw a model on paper only: a vertical heighth, a horizontal lengths, and a hypotenuse representing a straight ray elevated by anglea above the horizontal. In the ideal right triangle, `s/h=cot(a)` and `h/s=tan(a)`. Specifying angle and denominator prevents reversing the meaning when the drawing changes. These are our modern teaching equations, not symbols claimed to occur in Habash's zij.
 
-At45degrees the two legs are equal, so the ratio is1. Choosing a teaching height of12units gives a shadow of12units. Twelve is our convenient choice, not a recovered historical gnomon height or table base. Doubling both lengths preserves their ratio: ratios distinguish shape from size.
+At45 degrees the two legs are equal, so the ratio is 1. Choosing a teaching height of 12 units gives a shadow of 12 units. Twelve is our convenient choice, not a recovered historical gnomon height or table base. Doubling both lengths preserves their ratio: ratios distinguish shape from size.
 
-At30degrees, `s/h=sqrt(3)`; at60degrees, `s/h=1/sqrt(3)`. For our height12 the corresponding lengths are `12sqrt(3)` and `4sqrt(3)`. We retain exact radicals or explicitly label an approximation. Modern calculator places are not printed as purported manuscript entries. The accompanying modern triangle cannot establish the author's historical scaling convention.
+At30 degrees, `s/h=sqrt(3)`; at 60 degrees, `s/h=1/sqrt(3)`. For our height 12 the corresponding lengths are `12sqrt(3)` and `4sqrt(3)`. We retain exact radicals or explicitly label an approximation. Modern calculator places are not printed as purported manuscript entries. The accompanying modern triangle cannot establish the author's historical scaling convention.
 
-A table makes numerical lookup possible, but equal angle increments do not produce equal shadow increments. From30to45degrees the ratio changes from square root of3 to1; from45to60 it changes from1 to the reciprocal of square root of3. These changes differ. This checks nonlinearity without borrowing unseen historical cells.
+A table makes numerical lookup possible, but equal angle increments do not produce equal shadow increments. From 30 to 45 degrees the ratio changes from square root of 3 to 1; from 45 to 60 it changes from 1 to the reciprocal of square root of 3. These changes differ. This checks nonlinearity without borrowing unseen historical cells.
 
 Solar altitude therefore does not directly equal hours since sunrise. Converting altitude into time requires astronomical geometry, including location, season and position on the daily path. We do not turn a descriptive modern paragraph into a linear law. At the ideal horizon the shadow ratio has no finite value; the overhead case has its own limit. Division by zero must not be presented as an ordinary table value.
 
@@ -59,7 +59,7 @@ Reception of the whole handbook does not prove that every reader copied the same
 
 The explanation rests on right-triangle geometry and earlier shadow measurement. Scholarship situates Habash within movement from Indian and Persian models to a Ptolemaic arrangement revised with observations. Charette emphasizes close adherence to many Ptolemaic models and procedures alongside improved parameters and computational methods. Following a tradition and improving it are not necessarily opposites {cite:habash-charette-bea Ptolemaic-zij discussion}.
 
-Sine, tangent and versed sine must remain distinct. TDV discusses sine tables and terminology for sine and versine, but this does not license copying damaged electronic formulas mixing a radius60 scale with normalization to1. We preserve the distinction between functions and give a consistently scaled modern example, rather than repairing historical mathematics by guessing {cite:tdv-habash-fazlioglu trigonometry}.
+Sine, tangent and versed sine must remain distinct. TDV discusses sine tables and terminology for sine and versine, but this does not license copying damaged electronic formulas mixing a radius 60 scale with normalization to 1. We preserve the distinction between functions and give a consistently scaled modern example, rather than repairing historical mathematics by guessing {cite:tdv-habash-fazlioglu trigonometry}.
 
 ## What was built on it
 
@@ -81,7 +81,7 @@ The work's value is not a compressed national priority contest. It formed part o
 
 ## Who invented it?
 
-TDV's strongest specific priority statement is attributed to Sarton, not a judgement we reached after comparing every surviving manuscript. We retain that attribution and use “improvement” in the record. MacTutor gives a general date around860 for Arabic shadow tables, not an individual author for every table in that paragraph {cite:tdv-habash-fazlioglu trigonometry} {cite:mactutor-trigonometric-functions shadow discussion}.
+TDV's strongest specific priority statement is attributed to Sarton, not a judgement we reached after comparing every surviving manuscript. We retain that attribution and use “improvement” in the record. MacTutor gives a general date around 860 for Arabic shadow tables, not an individual author for every table in that paragraph {cite:tdv-habash-fazlioglu trigonometry} {cite:mactutor-trigonometric-functions shadow discussion}.
 
 Three layers remain separate: older shadow computation, scholarship assigning tables to Habash, and a universal first-ever claim. This reading supports the middle layer sufficiently to explain the contribution and presents the third as a source's claim rather than transforming incomplete priority research into certainty.
 
@@ -89,13 +89,13 @@ Three layers remain separate: older shadow computation, scholarship assigning ta
 
 A calculator can now supply a trigonometric function while concealing angle and unit conventions. Our paper example makes them visible: is the angle measured from horizontal or vertical? Is the answer a length or a ratio? Are inputs degrees or radians? These are modern teaching questions, not quotations from a zij introduction.
 
-The image is a modern right triangle made by TheOtherJesse and released into the public domain in2007. It distinguishes opposite side, adjacent side and hypotenuse. It is not a surviving gnomon, Habash's table or an illustration of a Samarra workshop, and supplies no historical scale {cite:commons-trigonometry-triangle Description and licensing}.
+The image is a modern right triangle made by TheOtherJesse and released into the public domain in 2007. It distinguishes opposite side, adjacent side and hypotenuse. It is not a surviving gnomon, Habash's table or an illustration of a Samarra workshop, and supplies no historical scale {cite:commons-trigonometry-triangle Description and licensing}.
 
 ## Surviving examples
 
 Charette distinguishes an Istanbul witness closer to the original from a Berlin recension containing later material, and argues that four titles denote one surviving Ptolemaic zij. TDV treats the names and the relationship between Dimashqi and Mumtahan in more differentiated discussion. We expose this interpretive difference instead of manufacturing four certain books from four names {cite:habash-charette-bea manuscripts and titles} {cite:tdv-habash-fazlioglu works2–5}.
 
-Neither witness nor Debarnot's survey was inspected here. A statement written in2007 cannot certify the current publication situation. The [[work/zij-habash-al-hasib|zij record]] provides context for the tabular programme, not an original folio containing our teaching values. No folio number, row or gnomon height has been invented.
+Neither witness nor Debarnot's survey was inspected here. A statement written in 2007 cannot certify the current publication situation. The [[work/zij-habash-al-hasib|zij record]] provides context for the tabular programme, not an original folio containing our teaching values. No folio number, row or gnomon height has been invented.
 
 ## In culture
 
@@ -105,7 +105,7 @@ The museum can tell a quieter story: a scholar reads inherited work, revises obs
 
 ## For young readers
 
-Draw a right triangle on paper with equal legs. Their ratio is1 whether each measures2or4units. Enlarge the drawing without changing its shape and notice that size changes while ratio does not. This is our modern example, not a page from Habash.
+Draw a right triangle on paper with equal legs. Their ratio is 1 whether each measures2 or 4 units. Enlarge the drawing without changing its shape and notice that size changes while ratio does not. This is our modern example, not a page from Habash.
 
 Then read the source card: are we seeing an old table or a modern account of it? Both can teach us something, but they are different evidence. No outdoor gnomon or looking towards the Sun is needed. Paper is enough; solar observation stays outside this activity.
 

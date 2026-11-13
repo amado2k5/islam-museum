@@ -32,7 +32,7 @@ The detailed witness read here is later: Carra de Vaux's1895 edition of passages
 
 ## The maker(s)
 
-This is Sharaf al-Din al-Muzaffar al-Tusi, not Nasir al-Din al-Tusi of the Maragha observatory. The1895 editor explicitly corrects an earlier addition of Nasir's name. Ibn Yunus's later teaching of Nasir does not transfer his own teacher's instrument to his pupil. A shared geographical surname is not an identity record {cite:carra-vaux-linear-astrolabe-1895 p465} {cite:sharaf-tusi-mactutor biography}.
+This is Sharaf al-Din al-Muzaffar al-Tusi, not Nasir al-Din al-Tusi of the Maragha observatory. The 1895 editor explicitly corrects an earlier addition of Nasir's name. Ibn Yunus's later teaching of Nasir does not transfer his own teacher's instrument to his pupil. A shared geographical surname is not an identity record {cite:carra-vaux-linear-astrolabe-1895 p465} {cite:sharaf-tusi-mactutor biography}.
 
 MacTutor identifies the individual as an Islamic mathematician. That supplies the Muslim identity basis rather than an inference from name, residence or patron. Sunni is separately the museum's declared default frame; no personal legal school was established by these readings. Ozel attributes improvement to Ibn Yunus and later description to al-Marrakushi, distinguishing invention, modification and exposition rather than absorbing every participant into one maker {cite:sharaf-tusi-mactutor summary} {cite:tdv-sharaf-tusi-ozel astrolabe}.
 
@@ -40,13 +40,13 @@ MacTutor identifies the individual as an Islamic mathematician. That supplies th
 
 Threads turn a geometrical configuration into lengths; scales translate suitable lengths back into angular information. The construction distinguishes functions for arcs, horizon-related quantities, stars and shadows. Colours and separate lines help distinguish marks. This is a distribution of calculation between a prepared object and an informed operator, not a staff that supplies an answer independently of its markings or the selected problem {cite:carra-vaux-linear-astrolabe-1895 p467} {cite:carra-vaux-linear-astrolabe-1895 pp498-505}.
 
-A modern paper example illustrates only the chord principle. Two equal sides of length R enclosing angle θ have opposite side c=2R sin(θ/2). With R=10 units, θ=60 degrees gives c=10; θ=120 degrees gives about17.32, not20. Splitting the isosceles triangle into two right triangles proves the relation. This is independently derived teaching geometry, not a recovered historical calibration, a transcription of the staff's tables or its complete operating algorithm. A changing thread length or moving knot would change this idealized reading; no error measurements from an original instrument are available here.
+A modern paper example illustrates only the chord principle. Two equal sides of length R enclosing angle θ have opposite side c=2R sin(θ/2). With R=10 units, θ=60 degrees gives c=10; θ=120 degrees gives about 17.32, not20. Splitting the isosceles triangle into two right triangles proves the relation. This is independently derived teaching geometry, not a recovered historical calibration, a transcription of the staff's tables or its complete operating algorithm. A changing thread length or moving knot would change this idealized reading; no error measurements from an original instrument are available here.
 
 ## The spread
 
 Ozel supplies a bounded reception route: Ibn Yunus's improvement, al-Marrakushi's description, and manuscript copies listed in collections. That establishes reported textual and scholarly reception, not a count of manufactured instruments or widespread household ownership. A surviving treatise is not automatically a surviving wooden staff, and the listed manuscripts were not independently inspected in this research {cite:tdv-sharaf-tusi-ozel astrolabe} {cite:tdv-sharaf-tusi-ozel works4}.
 
-The1895 publication creates another identifiable episode: French-language study of the instrument. Its editor considered, but doubted, derivation of Jacob's staff from it. The same word “staff” does not establish a manufacturing connection. We therefore do not draw a verified route from Sharaf's design to all European navigation staffs {cite:carra-vaux-linear-astrolabe-1895 pp464-468}.
+The 1895 publication creates another identifiable episode: French-language study of the instrument. Its editor considered, but doubted, derivation of Jacob's staff from it. The same word “staff” does not establish a manufacturing connection. We therefore do not draw a verified route from Sharaf's design to all European navigation staffs {cite:carra-vaux-linear-astrolabe-1895 pp464-468}.
 
 ## What it was built on
 
@@ -56,7 +56,7 @@ The text also discusses crowded markings and alternative locations for informati
 
 ## What was built on it
 
-The pupil's modification and the later description belong to the idea's reception, as reported by Ozel. They do not prove that every surviving detail was present on the first staff. The1895 editor notes that al-Marrakushi sometimes depends on an unnamed author and does not confidently identify that author. We do not fill the gap with a guessed attribution {cite:tdv-sharaf-tusi-ozel astrolabe} {cite:carra-vaux-linear-astrolabe-1895 p467}.
+The pupil's modification and the later description belong to the idea's reception, as reported by Ozel. They do not prove that every surviving detail was present on the first staff. The 1895 editor notes that al-Marrakushi sometimes depends on an unnamed author and does not confidently identify that author. We do not fill the gap with a guessed attribution {cite:tdv-sharaf-tusi-ozel astrolabe} {cite:carra-vaux-linear-astrolabe-1895 p467}.
 
 Likewise, a comparison with a calculating rule is not a documented genealogy of modern slide rules. It is useful to compare ways of distributing knowledge among scales and movable elements, but conceptual resemblance and historical transmission need different evidence. The accompanying chain represents antecedent practice, this adaptation and textual reception, not every later mechanical computer {cite:carra-vaux-linear-astrolabe-1895 pp467-468}.
 
@@ -92,7 +92,7 @@ Ozel lists treatises and copies in collections including Topkapi and the British
 
 ## In culture
 
-“Staff of al-Tusi” preserves a personal association while showing how a name can mislead. The1895 correction distinguishes two Tusis; the teaching biography connects them through Ibn Yunus without merging them. Knowledge can travel through pupils, but responsibility for a particular work still requires evidence. Fame and a shared place-name do not automatically settle authorship {cite:carra-vaux-linear-astrolabe-1895 p465} {cite:sharaf-tusi-mactutor biography}.
+“Staff of al-Tusi” preserves a personal association while showing how a name can mislead. The 1895 correction distinguishes two Tusis; the teaching biography connects them through Ibn Yunus without merging them. Knowledge can travel through pupils, but responsibility for a particular work still requires evidence. Fame and a shared place-name do not automatically settle authorship {cite:carra-vaux-linear-astrolabe-1895 p465} {cite:sharaf-tusi-mactutor biography}.
 
 Stars, shadows and religious time appear together in the use chapters. Describing afternoon prayer-time, ascensions and zodiac signs records historical content; it is neither a religious ruling nor an endorsement of predictive astrology. Serving a practical religious problem also does not by itself establish the maker's personal denomination. Individual Muslim identification and the declared Sunni museum frame remain distinct {cite:carra-vaux-linear-astrolabe-1895 pp511-514} {cite:sharaf-tusi-mactutor summary}.
 
@@ -100,11 +100,11 @@ Stars, shadows and religious time appear together in the use chapters. Describin
 
 Imagine a map filled with circles and a designer asking which information could fit on a ruler. The answer is not simply to shrink the whole picture: selected marks and movable threads can preserve selected relationships. This is a teaching analogy for the editor's account, not a quotation of a conversation Sharaf actually had. Ask where a length appears, where an angle appears, and whether doubling one must double the other {cite:carra-vaux-linear-astrolabe-1895 p467}.
 
-Our paper example gives a counterexample: equal sides10 units long enclose60 degrees and span10 units, but120 degrees spans only about17.32. Nothing needs to be pointed at the sky. No staff, cord near the face, telescope or solar observation is required. The lesson is that unequal spacings can store a relationship, and that a simple-looking object can carry extensive thought. This is modern independent geometry, not an archaeological experiment.
+Our paper example gives a counterexample: equal sides 10 units long enclose 60 degrees and span 10 units, but120 degrees spans only about 17.32. Nothing needs to be pointed at the sky. No staff, cord near the face, telescope or solar observation is required. The lesson is that unequal spacings can store a relationship, and that a simple-looking object can carry extensive thought. This is modern independent geometry, not an archaeological experiment.
 
 ## References
 
-- {cite:sharaf-tusi-mactutor biography-and-linear-astrolabe} O'Connor and Robertson,complete biography,July1999.
-- {cite:tdv-sharaf-tusi-ozel pp445-446} Ahmet Ozel,biography and works,2012.
-- {cite:carra-vaux-linear-astrolabe-1895 pp464-468} Editorial introduction; {cite:carra-vaux-linear-astrolabe-1895 pp498-514} selected French translation;no Arabic manuscript collation.
+- {cite:sharaf-tusi-mactutor biography-and-linear-astrolabe} O'Connor and Robertson, complete biography, July1999.
+- {cite:tdv-sharaf-tusi-ozel pp445-446} Ahmet Ozel, biography and works,2012.
+- {cite:carra-vaux-linear-astrolabe-1895 pp464-468} Editorial introduction; {cite:carra-vaux-linear-astrolabe-1895 pp498-514} selected French translation; no Arabic manuscript collation.
 - {cite:commons-trigonometry-triangle original2007} Modern public-domain geometry context.
