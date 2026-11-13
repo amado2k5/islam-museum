@@ -55,7 +55,7 @@ set bind every view listed here.
 | Jinn & Devils | Four circles that overlap: an overlap chart of the section combinations that occur | `sig/JinnOverlap.astro` | `jinnDevilsItems`, `groupOf` | combinations sum to the records |
 | Magic | A vocabulary of terms: a wheel of topics with chords for records that carry two | `sig/MagicWheel.astro` | `magicItems`, `MAGIC_TOPICS` | every topic and section named |
 | Akhlaq | Virtues and vices, face to face: a butterfly chart, dealings apart | `sig/ButterflyVirtues.astro` | `akhlaqItems`, `AKHLAQ_TOPIC_KINDS` | every topic has a kind and a label |
-| Ibadat | The acts of worship: a rosette of petals by passages, beads for the practice records by obligation | `sig/RoseWindow.astro` | `ibadatItems`, practice records | every grouped id is a practice record |
+| Ibadat | The acts of worship: a rosette of petals by passages, beads for the practice records by obligation | `sig/RoseWindow.astro` | `ibadatItems`, the practice records' `ibadat-<topic>` tags | every topic has a label; bead rings clear the labels |
 | Du'a | The supplications by where they are found: 114 lamps, lit where a formula is recorded | `sig/LampStrings.astro` | `duaItems`, `surahs` | surahs 1 to 114; every item has its place |
 | Miracles | Signs, prophet by prophet: a loom of prophets and themes | `sig/MiraclesLoom.astro` | `miracleItems`, `MIRACLE_TOPIC_SUBJECTS`, `MESSENGERS_TREE` order | every linked person has a subject page |
 | Nubuwat | Seven threads: a seven-axis chart, one outline per corpus | `sig/NubuwatStar.astro` | `nubuwatItems`, `NUBUWAT_TOPICS` | corpus counts sum to each theme's total |
@@ -81,9 +81,8 @@ programme. A browser added later gets its view, and its row here, in the commit 
   and which months are sacred is recorded only in prose, so no sacred band is drawn.
 - Qiyama, Sayyi'at, Du'a and the Ibadat beads: marks narrower than a 24 px target on some screens; the arrow keys,
   a drag along the Sayyi'at stream, and the links in each read-out give the same access.
-- Ibadat: practice records carry no worship-family field, so the beads are grouped by a table in the component
-  (`PRACTICE_FAMILY`), overridden by a `<topic>-practices` tag. The proper home of that grouping is a tag on each
-  practice record; when the records carry it, the table goes.
+- Ibadat: a practice bead stands at the worship family its own record names with an `ibadat-<topic>` tag
+  (`ibadatTagTopics` in `scripts/ibadat.ts`); a practice whose record names none is listed under the rosette.
 - Mukatabat: no map of letters is drawn, because the letter records hold no pair of sender place and recipient place.
 - Household: Banu al-Muttalib has no `member_of` edge from anyone on the chart; six people of the section have no
   kinship edge and are listed as not yet linked. Usra and Household add about 83 KB and 72 KB.
