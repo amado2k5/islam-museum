@@ -201,6 +201,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 196): trilingual draft prose on the perception of separation, contiguity, touching, number and motion, cited to scan pages 296–301.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 197): trilingual draft prose on the motion of a thing upon itself, the time in which motion is perceived, and the speed and equality of motions, cited to scan pages 301–303.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 198): trilingual draft prose on the perception of stillness, roughness, smoothness and polish, cited to scan pages 303–306.
+- Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 199): trilingual draft prose on transparency, density, shadow, darkness and the kinds of beauty, cited to scan pages 306–309.
 
 
 ### Fixed
