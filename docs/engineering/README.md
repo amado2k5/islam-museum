@@ -29,6 +29,7 @@ a Canadian of Egyptian origin, resident in Oakville, Ontario (`@amado2k5`).
 | [Authenticity](authenticity.md) | The authenticity ledger and its check | Developers, reviewers |
 | [Browsers and explorers](../site/browsers.md) | The register of every browser and explorer: routes, status, what each has and will have, its API export and search exposure; the graph, API and search rule | Everyone |
 | [16 · Deploy churn proposal](16-deploy-churn-proposal.md) | Why a deploy re-uploads ~180k files to R2, measurements, prior art, and the phased proposal (awaiting the founder's decision) | Founder, maintainers, ops |
+| [45 · Build and deploy review](45-build-deploy-review.md) | The November 2026 review of the stack, CI, build and deploy: measurements before and after, what was changed and why, the Cloudflare and GitHub limits it was checked against, and what is left open | Founder, maintainers, ops |
 | [Diagrams](diagrams.md) | All Mermaid diagrams in one place | Everyone |
 | [Executive deck](../presentation/executive-deck.md) | Marp slide deck for developers | New joiners |
 | [19 · Education Browser requirements](19-education-browser-requirements.md) | The School Syllabus Browser spec: student flow, connection cards, trilingual rule, and a production verification checklist any agent can run | Everyone, QA agents |
