@@ -2249,3 +2249,17 @@ Resume point: mawkib-al-nour episode 11 (branch from origin/main).
 | Asides on a cooking show, a salad recipe, a potato recipe, seats in malls and a half-clear comparison of Ramadan terms | ep11 00:36:30-00:38:00, 00:39:00-00:40:00 | Illustrative asides, not separate claims | Content rule | Open |
 
 Resume point: mawkib-al-nour episode 12 (branch from origin/main).
+
+### mawkib-al-nour ep12 (12 Nov 2026)
+
+(Correction to the ep11 note above: the episode 11 text carries 10 needs_source marks, not 12.)
+
+24 points written for episode 12 (ar, en, ur); 15 needs_source marks; 5 new `about` edges. Quran verses referenced only through passage links (15-97, 15-98, 15-99, 38-5, 15-6, 69-41, 69-42, 68-2, 28-76, 28-79, 28-81, 18-6, 18-7, 18-8, 39-68, 40-16, 36-51, 36-52, 21-47, 18-18, 28-56); none typed. Proposal for the founder, not applied: the lecturer's account of the death of Abu Talib (ep12 00:36:30) and the sequence of events at the trumpet (00:29:30) are given by him without chains and are marked, not removed; the statement about Khosrow and Umar (00:04:30) is unsourced.
+
+| Excluded (mawkib-al-nour ep12) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, opening supplications and the closing supplication | ep12 00:00:00-00:01:30 (recitation, Quran text never typed), 00:38:30-00:39:00 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep12 00:03:30 (a long loop), 00:05:30 (a long loop), 00:23:00 (a long loop), 00:29:00 (a loop), 00:32:00 (a loop), 00:33:00 (a loop) | Not recoverable | Clarity, Loop check | Open |
+| Asides on an airline passenger, a shop joke on selling shrouds and the description of a bugle at morning parades beyond the points kept | ep12 00:20:30, 00:27:30 | Illustrative asides, not separate claims | Content rule | Open |
+
+Resume point: mawkib-al-nour episode 13 (branch from origin/main).
