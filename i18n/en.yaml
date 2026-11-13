@@ -3572,6 +3572,13 @@ dreams:
     concepts:
       title: The science of dreams
       desc: "The museum's curated records on dreams: the books of dreams in hadith, their interpretation and rulings, the bad dream and ihtilam, and the glad tidings."
+  viz:
+    title: "Dreams the sources relate"
+    note: "Each of the {n} records is a star, set in the constellation of its section. In the Qur'an's constellation the stars of one sura are joined in ayah order and named by the sura; in the Sunnah, the books and the seerah the stars of one collection or work are joined the same way; the curated records form a ring. Stars have no size, because the records have no measure of their own."
+    where_concept: "Curated record"
+    hint: "Hover, focus or tap a star to see where it comes from."
+    open: "Open the record"
+    caption: "Lines join records of the same sura or the same collection, in the order of their numbers. A Qur'an star shows only where the ayah sits, never its text; read it on its record page."
 dua:
   title: "Du'a Browser"
   lede: "Every supplication mentioned in the museum's sources: the Qur'anic prayers from Adam's «ربنا» to the Prophet's «اللهم» formulas, the du'as of the two Sahihs, the Muwatta and the Sunan, the supplications of the Companions and the Successors, what the seerah and every harvested book carry — sourced records that grow as new texts land."
@@ -4021,6 +4028,24 @@ nubuwat:
     curated:
       title: The records about prophecy
       desc: "The museum's curated records on prophethood, prophecy and the Qur'an's marvels: the proofs of prophethood, the inimitability, the secrets, the miracles and the eschatological predictions the tradition collects."
+  viz:
+    title: "Seven threads"
+    note: "Each of the seven axes is a theme. Along an axis, a mark shows how many records of one corpus carry that theme: the further from the centre, the more, on a square-root scale so that the small corpora stay visible. Each corpus joins its marks into its own outline. Pale chords between the axes join two themes that mark the same record; the thicker the chord, the more records. Hover, focus or tap an axis to read it."
+    legend_title: "Corpora; press one to show it alone"
+    keys_title: "The seven themes"
+    hint: "Hover, focus or tap an axis to read its counts."
+    caption: "Counted from the browser's records: a record counts once in its corpus for every theme it carries, so a record with two themes sits on two axes. Press a theme to filter the records below."
+    outline: "The same chart as a list"
+    total_line: "Records carrying this theme: {n}"
+    mate_line: "Most often together with {name}: {n} records"
+    h_items: "Some of its records"
+    filter: "Filter the records below by this theme"
+    corpora:
+      quran: "Qur'an"
+      sunnah: "Sunnah"
+      seerah: "Seerah"
+      books: "Other books"
+      curated: "Curated"
 places:
   title: "Sacred Places Browser"
   lede: "Every place of sanctity, importance and value in Islam that the museum's sources mention: the three sanctuaries of Mecca, Medina and Jerusalem, the stations of the hajj, the sites of the seerah and the battles, the places the Qur'an names and the nations it recounts, other venerated sites, and every place or building a passage in the Qur'an, the Sunnah, the seerah, the Companions' and Successors' stories, or a harvested book names — each with every verse and report cited."
@@ -4372,6 +4397,18 @@ miracles:
     curated:
       title: Curated records
       desc: "The museum's curated records on the miracles: the concepts and events that gather them — the inimitability of the Qur'an, the cosmic signs, the karamat, the moon-split, the Isra' and Mi'raj, the descent — tagged miracles-browser."
+  viz:
+    title: "Signs, prophet by prophet"
+    note: "Prophets on one side, the themes of the signs on the other, in the order of the Prophets' Tree. A thread joins a prophet to a theme whose passages the browser links to him, and a thicker thread means more passages carrying that theme. {p} prophets, {t} themes, {k} threads."
+    col_prophets: "Prophets"
+    col_themes: "Themes of the signs"
+    prophet_line: "Passages: {n} · Themes: {k}"
+    topic_line: "Passages: {n} · Prophets: {k}"
+    h_topics: "Themes linked to this prophet"
+    h_prophets: "Prophets linked to this theme"
+    loose: "Themes that belong to no single prophet: the miracle in general, the inimitability of the Qur'an, the cosmic signs and others. Press one to filter the records below."
+    hint: "Hover, focus or tap a prophet or a theme to see its threads."
+    caption: "Counted from the browser's passages: the number beside a prophet is the passages on his page, and the number beside a theme is the passages that carry it. One passage can sit under several themes. Press a theme to filter the records below."
 qurun:
   title: "Centuries, Years and Months Browser"
   lede: "Every mention of the centuries and generations, the years and the named years, the important months and the sacred months in the museum's sources: the qurun and the generations, the named years of the seerah — the Year of the Elephant, the Year of Sorrow, the Year of the Delegations, the Year of al-Ramada — the twelve lunar months from Muharram to Dhu al-Hijja, the four sacred months and the intercalation (al-Nasi'), the days of Tashriq, the day of 'Arafa, the Night of Power and the last ten nights, the Jahiliyya month-names and the Persian months, and every book that discusses them — sourced records that grow as new texts land."

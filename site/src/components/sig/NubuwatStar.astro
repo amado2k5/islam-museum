@@ -1,0 +1,221 @@
+---
+// "Seven threads" (Nubuwat Browser home): a star chart. One axis per theme (NUBUWAT_TOPICS, clockwise from the top;
+// mirrored for right-to-left languages); on each axis a mark at a distance given by the number of records of one corpus
+// (Qur'an, Sunnah, seerah, books, curated) that carry the theme, on a square-root scale so the small corpora stay
+// visible. The marks of one corpus are joined into one closed outline. Between the axes, pale chords join two themes
+// that mark the same record, thicker for more records. Computed at build time from site/src/lib/nubuwat.ts. The
+// outline below is the text alternative; the script (site/src/scripts/sig-nubuwat.ts) adds the read-out and the
+// corpus toggles.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { nubuwatItems, NUBUWAT_TOPICS, NUBUWAT_SECTIONS, type NubuwatSection, type NubuwatTopic } from "../../lib/nubuwat";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).nubuwat;
+const V = G.viz;
+const rtl = lang === "ar" || lang === "ur";
+
+// ---- counts: corpus x theme, and theme x theme
+const K = NUBUWAT_TOPICS.length;
+const sections = [...NUBUWAT_SECTIONS] as NubuwatSection[];
+const total = (t: NubuwatTopic) => nubuwatItems.filter((i) => i.topics.includes(t)).length;
+const cnt = (s: NubuwatSection, t: NubuwatTopic) => nubuwatItems.filter((i) => i.section === s && i.topics.includes(t)).length;
+for (const i of nubuwatItems) {
+  if (!sections.includes(i.section)) throw new Error(`NubuwatStar: ${i.node.id} is in a section outside NUBUWAT_SECTIONS`);
+  for (const t of i.topics) if (!NUBUWAT_TOPICS.includes(t)) throw new Error(`NubuwatStar: ${i.node.id} carries an unknown theme ${t}`);
+}
+for (const t of NUBUWAT_TOPICS) if (sections.reduce((x, s) => x + cnt(s, t), 0) !== total(t)) throw new Error(`NubuwatStar: the corpus counts of ${t} do not add up`);
+const co = (a: NubuwatTopic, b: NubuwatTopic) => nubuwatItems.filter((i) => i.topics.includes(a) && i.topics.includes(b)).length;
+const pairs: { a: number; b: number; n: number }[] = [];
+for (let a = 0; a < K; a++) for (let b = a + 1; b < K; b++) { const n = co(NUBUWAT_TOPICS[a], NUBUWAT_TOPICS[b]); if (n > 0) pairs.push({ a, b, n }); }
+const maxPair = Math.max(1, ...pairs.map((p) => p.n));
+const M = Math.max(1, ...NUBUWAT_TOPICS.flatMap((t) => sections.map((s) => cnt(s, t))));
+
+// ---- geometry (a 100 x 100 plane; the labels are HTML placed in the same percentages)
+const W = 112, H = 100, CX = 56, CY = 50, R = 34, LR = 40;
+const f1 = (n: number) => Math.round(n * 10) / 10;
+const ang = (i: number) => (2 * Math.PI * i) / K;
+const sx = rtl ? -1 : 1;
+const pt = (i: number, r: number): [number, number] => [CX + sx * r * Math.sin(ang(i)), CY - r * Math.cos(ang(i))];
+const rOf = (v: number) => R * Math.sqrt(v / M);
+const nice = (v: number) => { const e = 10 ** Math.floor(Math.log10(v)); return [1, 2, 5, 10].map((m) => m * e).reduce((best, c) => (Math.abs(Math.log(c / v)) < Math.abs(Math.log(best / v)) ? c : best)); };
+const ringVals = [...new Set([0.0625, 0.25, 0.5625].map((x) => nice(M * x)).filter((v) => v < M && v >= 1).concat([M]))].sort((a, b) => a - b);
+const ringPos = (v: number): [number, number] => { const th = ang(0) - Math.PI / K; return [CX + sx * (rOf(v) + 0.2) * Math.sin(th), CY - rOf(v) * Math.cos(th)]; };
+
+const poly = (s: NubuwatSection) => NUBUWAT_TOPICS.map((t, i) => pt(i, rOf(cnt(s, t))).map(f1).join(",")).join(" ");
+const mark = (s: NubuwatSection, x: number, y: number) => {
+  const u = 0.95;
+  const k = sections.indexOf(s);
+  const g = (a: number, b: number) => `${f1(x + a)} ${f1(y + b)}`;
+  if (k === 0) return `M${g(-u, 0)}a${u} ${u} 0 1 0 ${2 * u} 0a${u} ${u} 0 1 0 ${-2 * u} 0z`;
+  if (k === 1) return `M${g(-u, -u)}h${2 * u}v${2 * u}h${-2 * u}z`;
+  if (k === 2) return `M${g(0, -u * 1.2)}L${g(u * 1.15, u * 0.9)}L${g(-u * 1.15, u * 0.9)}z`;
+  if (k === 3) return `M${g(0, -u * 1.3)}L${g(u * 1.3, 0)}L${g(0, u * 1.3)}L${g(-u * 1.3, 0)}z`;
+  return `M${g(-u, -u * 0.35)}h${u * 0.65}v${-u * 0.65}h${u * 0.7}v${u * 0.65}h${u * 0.65}v${u * 0.7}h${-u * 0.65}v${u * 0.65}h${-u * 0.7}v${-u * 0.65}h${-u * 0.65}z`;
+};
+const drawOrder = [3, 1, 0, 2, 4].filter((i) => i < sections.length).map((i) => sections[i]);
+
+// ---- text
+const topicName = (t: NubuwatTopic) => { const x = G.topics?.[t]; if (!x) throw new Error(`NubuwatStar: no label for the theme ${t}`); return x as string; };
+const corpusName = (s: NubuwatSection) => { const x = V.corpora?.[s]; if (!x) throw new Error(`NubuwatStar: no short name for the section ${s}`); return x as string; };
+const sep = lang === "en" ? ", " : "، ";
+const cards = NUBUWAT_TOPICS.map((t, i) => {
+  const mates = NUBUWAT_TOPICS.map((u, j) => ({ j, u, n: j === i ? 0 : co(t, u) })).filter((x) => x.n > 0).sort((a, b) => b.n - a.n || a.j - b.j);
+  const ordered = ["curated", "sunnah", "quran", "seerah", "books"].filter((s) => sections.includes(s as NubuwatSection)) as NubuwatSection[];
+  const picked: typeof nubuwatItems = [];
+  for (const s of ordered) {
+    const best = nubuwatItems.filter((it) => it.section === s && it.topics.includes(t)).sort((a, b) => b.topics.length - a.topics.length || a.node.id.localeCompare(b.node.id))[0];
+    if (best && picked.length < 3) picked.push(best);
+  }
+  return { t, i, total: total(t), mate: mates[0], picked };
+});
+---
+<section aria-labelledby="nubuwat-star-title" class="sg-nb" data-sg-nb style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="nubuwat-star-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.note}</p>
+  </div>
+  <ul class="sg-nb-legend ui" aria-label={V.legend_title}>
+    {sections.map((s, k) => (
+      <li data-s={k}>
+        <svg viewBox="0 0 34 12" aria-hidden="true" focusable="false"><path class={`sg-nb-ln s${k}`} d="M1 6H33" /><path class={`sg-nb-mk s${k}`} d={mark(s, 17, 6)} /></svg>
+        <span class="sg-nb-lname">{corpusName(s)}</span>
+      </li>
+    ))}
+  </ul>
+  <div class="sg-nb-chart" data-sg-chart>
+    <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby="nubuwat-star-title" focusable="false">
+      <title>{V.title}</title>
+      {ringVals.map((v) => <circle class="sg-nb-ring" cx={CX} cy={CY} r={f1(rOf(v))} />)}
+      {pairs.map((p) => {
+        const [x1, y1] = pt(p.a, R), [x2, y2] = pt(p.b, R);
+        const qx = CX + (x1 + x2 - 2 * CX) * 0.22, qy = CY + (y1 + y2 - 2 * CY) * 0.22;
+        return <path class="sg-nb-chord" data-a={p.a} data-b={p.b} d={`M${f1(x1)} ${f1(y1)}Q${f1(qx)} ${f1(qy)} ${f1(x2)} ${f1(y2)}`} stroke-width={f1(0.7 + 5 * Math.sqrt(p.n / maxPair))} />;
+      })}
+      {NUBUWAT_TOPICS.map((_, i) => { const [x, y] = pt(i, R + 1); return <line class="sg-nb-axis" data-a={i} x1={CX} y1={CY} x2={f1(x)} y2={f1(y)} />; })}
+      {drawOrder.map((s) => <polygon class={`sg-nb-pg s${sections.indexOf(s)}`} data-s={sections.indexOf(s)} points={poly(s)} />)}
+      {drawOrder.map((s) => (
+        <g class={`sg-nb-ms s${sections.indexOf(s)}`} data-s={sections.indexOf(s)}>
+          {NUBUWAT_TOPICS.map((t, i) => { const v = cnt(s, t); if (v === 0) return null; const [x, y] = pt(i, rOf(v)); return <path class={`sg-nb-mk s${sections.indexOf(s)}`} d={mark(s, x, y)} />; })}
+        </g>
+      ))}
+    </svg>
+    {ringVals.map((v) => { const [x, y] = ringPos(v); return <span class="sg-nb-rv ui" aria-hidden="true" style={`left:${f1((x / W) * 100)}%;top:${f1((y / H) * 100)}%`}>{num(v, lang)}</span>; })}
+    {NUBUWAT_TOPICS.map((t, i) => {
+      const [x, y] = pt(i, LR);
+      const s = sx * Math.sin(ang(i)), c = Math.cos(ang(i));
+      const tx = s > 0.3 ? 0 : s < -0.3 ? -100 : -50, ty = c > 0.5 ? -100 : c < -0.5 ? 0 : -50;
+      const mw = s > 0.3 ? ((W - x) / W) * 100 - 1 : s < -0.3 ? (x / W) * 100 - 1 : 34;
+      return (
+        <a class="sg-nb-ax ui" href="#nubuwat-filter" data-a={i} data-q={topicName(t)} aria-label={`${topicName(t)} · ${num(total(t), lang)}`}
+           style={`left:${f1((x / W) * 100)}%;top:${f1((y / H) * 100)}%;--tx:${tx};--ty:${ty};max-inline-size:${f1(mw)}%`}>
+          <span class="sg-nb-n" aria-hidden="true">{num(i + 1, lang)}</span><span class="sg-nb-nm" aria-hidden="true">{topicName(t)}</span><b class="sg-nb-ct" aria-hidden="true">{num(total(t), lang)}</b>
+        </a>
+      );
+    })}
+  </div>
+  <ol class="sg-nb-keys ui" aria-label={V.keys_title}>
+    {NUBUWAT_TOPICS.map((t, i) => <li><a href="#nubuwat-filter" data-a={i} data-q={topicName(t)}><span class="sg-nb-n" aria-hidden="true">{num(i + 1, lang)}</span> {topicName(t)} <b>{num(total(t), lang)}</b></a></li>)}
+  </ol>
+  <div class="sg-nb-panel panel ui" data-sg-nbpanel aria-live="polite" hidden>
+    <p class="muted" data-sg-nbhint>{V.hint}</p>
+    <div data-sg-nbbody hidden></div>
+  </div>
+  <p class="muted ui sg-nb-cap">{V.caption}</p>
+  <details class="sg-nb-outline">
+    <summary class="ui">{V.outline}</summary>
+    <ul role="list">
+      {cards.map((c) => (
+        <li data-sg-card={c.i}>
+          <h3>{topicName(c.t)}</h3>
+          <p>{fmt(V.total_line, { n: num(c.total, lang) })}</p>
+          <ul role="list" class="sg-nb-cc">
+            {sections.map((s, k) => <li data-s={k}><i class={`sg-nb-sw s${k}`} aria-hidden="true"></i>{corpusName(s)} <b>{num(cnt(s, c.t), lang)}</b></li>)}
+          </ul>
+          {c.mate && <p class="muted">{fmt(V.mate_line, { name: topicName(c.mate.u), n: num(c.mate.n, lang) })}</p>}
+          <p class="muted sg-nb-lh">{V.h_items}</p>
+          <ul role="list" class="sg-nb-items">
+            {c.picked.map((it) => <li><a href={href(lang, it.node.id)}>{labelOf(it.node, lang)}</a></li>)}
+          </ul>
+          <p class="sg-nb-go"><a href="#nubuwat-filter" data-q={topicName(c.t)}>{V.filter}</a></p>
+        </li>
+      ))}
+    </ul>
+  </details>
+</section>
+<style is:inline>
+  .sg-nb-legend { display: flex; flex-wrap: wrap; gap: 4px 18px; list-style: none; padding: 0; margin: 0 0 .5rem; font-size: .86rem; color: var(--muted); }
+  .sg-nb-legend li { display: inline-flex; align-items: center; gap: 8px; min-block-size: 28px; }
+  .sg-nb-legend svg { inline-size: 34px; block-size: 12px; flex: none; }
+  .sg-nb-key { display: inline-flex; align-items: center; gap: 8px; min-block-size: 36px; padding: 0 10px; border: 1px solid transparent; border-radius: 999px; background: transparent; color: inherit; font: inherit; cursor: pointer; }
+  .sg-nb-key[aria-pressed="true"] { border-color: var(--gold-text); color: var(--fg); background: color-mix(in srgb, var(--gold) 20%, transparent); }
+  .sg-nb-key:focus-visible, .sg-nb-ax:focus-visible, .sg-nb-keys a:focus-visible, .sg-nb-panel a:focus-visible, .sg-nb-outline a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-nb-chart { position: relative; max-inline-size: 780px; margin-inline: auto; aspect-ratio: 112 / 100; background: var(--card); border: 1px solid var(--line); border-radius: 18px; }
+  .sg-nb-chart svg { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; overflow: visible; }
+  .sg-nb-ring { fill: none; stroke: var(--line); stroke-width: .25; }
+  .sg-nb-ring:last-of-type { stroke-width: .4; }
+  .sg-nb-axis { stroke: var(--line); stroke-width: .3; transition: stroke .15s; }
+  .sg-nb-axis.on { stroke: var(--gold-text); stroke-width: .6; }
+  .sg-nb-chord { fill: none; stroke: var(--gold); stroke-opacity: .26; vector-effect: non-scaling-stroke; stroke-linecap: round; transition: stroke-opacity .15s; }
+  .sg-nb-chart.has-sel .sg-nb-chord { stroke-opacity: .07; }
+  .sg-nb-chart.has-sel .sg-nb-chord.on { stroke-opacity: .85; stroke: var(--gold-text); }
+  .sg-nb-pg { fill: none; stroke-linejoin: round; vector-effect: non-scaling-stroke; transition: opacity .15s; }
+  .sg-nb-pg.s0, .sg-nb-ln.s0 { stroke: var(--gold-text); stroke-width: 2.4px; fill: color-mix(in srgb, var(--gold) 16%, transparent); }
+  .sg-nb-pg.s1, .sg-nb-ln.s1 { stroke: var(--link); stroke-width: 2px; stroke-dasharray: 8 4; }
+  .sg-nb-pg.s2, .sg-nb-ln.s2 { stroke: var(--fg); stroke-width: 2.2px; stroke-dasharray: 1 5; stroke-linecap: round; }
+  .sg-nb-pg.s3, .sg-nb-ln.s3 { stroke: var(--muted); stroke-width: 2px; stroke-dasharray: 10 3 2 3; }
+  .sg-nb-pg.s4, .sg-nb-ln.s4 { stroke: var(--gold); stroke-width: 2px; stroke-dasharray: 3 2; }
+  .sg-nb-ln { fill: none; }
+  .sg-nb-legend .sg-nb-ln.s0 { fill: none; }
+  .sg-nb-mk { stroke: none; }
+  .sg-nb-mk.s0 { fill: var(--gold-text); }
+  .sg-nb-mk.s1 { fill: var(--link); }
+  .sg-nb-mk.s2 { fill: var(--fg); }
+  .sg-nb-mk.s3 { fill: var(--muted); }
+  .sg-nb-mk.s4 { fill: var(--gold); stroke: var(--gold-text); stroke-width: .3px; }
+  .sg-nb-chart.iso [data-s]:not(.keep) { opacity: .08; }
+  .sg-nb-chart.iso ~ .sg-nb-panel .sg-nb-cc li:not(.keep) { opacity: .4; }
+  .sg-nb-rv { position: absolute; transform: translate(-50%, -50%); font-size: .7rem; line-height: 1; padding: 1px 4px; border-radius: 4px; background: var(--card); color: var(--muted); pointer-events: none; font-family: var(--sans, inherit); }
+  .sg-nb-ax { position: absolute; transform: translate(calc(var(--tx) * 1%), calc(var(--ty) * 1%)); display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: 0 6px; min-block-size: 28px; padding: 2px 6px; border-radius: 10px; color: var(--fg); text-decoration: none; font-size: .9rem; line-height: 1.2; box-sizing: border-box; text-align: start; }
+  .sg-nb-ax .sg-nb-n { display: none; }
+  .sg-nb-ct { font-size: .76rem; color: var(--gold-text); font-weight: 600; font-family: var(--sans, inherit); }
+  .sg-nb-ax:hover .sg-nb-nm, .sg-nb-ax.on .sg-nb-nm { text-decoration: underline; text-underline-offset: 3px; }
+  .sg-nb-ax.on, .sg-nb-keys a.on { background: color-mix(in srgb, var(--gold) 22%, transparent); }
+  .sg-nb-keys { display: none; list-style: none; padding: 0; margin: .8rem 0 0; gap: 2px 14px; grid-template-columns: 1fr; font-size: .92rem; }
+  .sg-nb-keys a { display: flex; align-items: center; gap: 8px; min-block-size: 36px; padding: 0 6px; border-radius: 8px; color: var(--fg); text-decoration: none; }
+  .sg-nb-keys b { margin-inline-start: auto; color: var(--gold-text); font-size: .8rem; }
+  .sg-nb-keys .sg-nb-n, .sg-nb-ax .sg-nb-n { display: inline-grid; place-items: center; inline-size: 24px; block-size: 24px; border-radius: 50%; background: var(--gold); color: #0a2533; font: 700 .76rem/1 var(--sans, inherit); flex: none; }
+  .sg-nb-panel { margin-block: .9rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 15rem; }
+  .sg-nb-panel h3, .sg-nb-outline h3 { margin: 0 0 .2rem; font-size: 1.1rem; }
+  .sg-nb-panel p, .sg-nb-outline p { margin: .2rem 0; }
+  .sg-nb-cc { list-style: none; padding: 0; margin: .3rem 0 .4rem; display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .9rem; }
+  .sg-nb-cc li { display: inline-flex; align-items: center; gap: 6px; }
+  .sg-nb-cc b { color: var(--gold-text); font-family: var(--sans, inherit); }
+  .sg-nb-sw { display: inline-block; inline-size: 18px; block-size: 0; border-block-start: 3px solid var(--gold-text); }
+  .sg-nb-sw.s1 { border-block-start: 3px dashed var(--link); }
+  .sg-nb-sw.s2 { border-block-start: 3px dotted var(--fg); }
+  .sg-nb-sw.s3 { border-block-start: 3px dashed var(--muted); }
+  .sg-nb-sw.s4 { border-block-start: 3px dashed var(--gold); }
+  .sg-nb-lh { font-size: .82rem; margin-block-start: .5rem !important; }
+  .sg-nb-items { list-style: none; padding: 0; margin: .1rem 0 0; }
+  .sg-nb-items li { padding: 0; }
+  .sg-nb-items a, .sg-nb-go a { display: inline-flex; align-items: center; min-block-size: 32px; }
+  .sg-nb-go { margin-block-start: .2rem !important; }
+  .sg-nb-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+  .sg-nb-outline { margin-block-start: 1rem; }
+  .sg-nb-outline summary { cursor: pointer; min-block-size: 44px; display: inline-flex; align-items: center; }
+  .sg-nb-outline > ul { list-style: none; padding: 0; margin: .6rem 0 0; display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+  .sg-nb-outline > ul > li { border-inline-start: 3px solid var(--gold); padding: 2px 12px; }
+  @media (max-width: 640px) {
+    .sg-nb-chart { border-radius: 14px; }
+    .sg-nb-ax { transform: translate(-50%, -50%); padding: 0; min-block-size: 28px; min-inline-size: 28px; justify-content: center; max-inline-size: none !important; }
+    .sg-nb-ax .sg-nb-n { display: inline-grid; }
+    .sg-nb-ax .sg-nb-nm, .sg-nb-ax .sg-nb-ct { display: none; }
+    .sg-nb-keys { display: grid; }
+    .sg-nb-rv { font-size: .64rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-nb-chord, .sg-nb-pg, .sg-nb-axis { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-nubuwat.ts"></script>

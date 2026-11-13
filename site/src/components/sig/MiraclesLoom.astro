@@ -1,0 +1,147 @@
+---
+// "Signs, prophet by prophet" (Miracles Browser home): a two-column loom. On one side the prophets whose pages the
+// browser keeps, in the order they stand on the Prophets' Tree; on the other the miracle themes that link to at least
+// one of them (MIRACLE_TOPIC_SUBJECTS), ordered by the mean position of the prophets they touch so that threads cross
+// as little as a single pass allows. A thread joins a prophet to a theme exactly where the map says so; its width is the
+// number of passages that carry that theme. Themes with no prophet are listed as chips under the loom. Everything is
+// computed at build time from site/src/lib/miracles.ts. Every label is a real link; the script
+// (site/src/scripts/sig-miracles.ts) adds the highlighting and the read-out.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { miracleItems, miracleSubjects, MIRACLE_TOPICS, MIRACLE_TOPIC_SUBJECTS, type MiracleTopic } from "../../lib/miracles";
+import { MESSENGERS_TREE } from "../../../../scripts/messengers-tree";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).miracles;
+const V = G.viz;
+
+// ---- the prophets: persons among the subjects, in the order of the tree (those off the tree follow, in the lib's order)
+const persons = miracleSubjects.filter((s) => s.node.id.startsWith("person/"));
+if (persons.length === 0) throw new Error("MiraclesLoom: the browser has no person subjects");
+const rank = (id: string) => { const i = [...MESSENGERS_TREE].sort((a, b) => a.r - b.r).findIndex((n) => n.id === id); return i < 0 ? 1e6 : i; };
+const prophets = persons.map((s, i) => ({ s, i })).sort((a, b) => rank(a.s.node.id) - rank(b.s.node.id) || a.i - b.i).map((x) => x.s);
+const pIndex = new Map(prophets.map((p, i) => [p.node.id, i]));
+for (const t of MIRACLE_TOPICS) for (const id of MIRACLE_TOPIC_SUBJECTS[t] ?? []) {
+  if (id.startsWith("person/") && !pIndex.has(id)) throw new Error(`MiraclesLoom: ${t} points at ${id}, which has no subject page`);
+}
+
+// ---- the themes: passages per theme, linked prophets, the barycentre order
+const topicCount = new Map<MiracleTopic, number>(MIRACLE_TOPICS.map((t) => [t, miracleItems.filter((i) => i.topics.includes(t)).length]));
+const linked = (t: MiracleTopic) => (MIRACLE_TOPIC_SUBJECTS[t] ?? []).filter((id) => pIndex.has(id)).map((id) => pIndex.get(id)!).sort((a, b) => a - b);
+const bary = (t: MiracleTopic) => { const l = linked(t); return l.reduce((x, y) => x + y, 0) / l.length; };
+const woven = MIRACLE_TOPICS.filter((t) => linked(t).length > 0 && (topicCount.get(t) ?? 0) > 0)
+  .sort((a, b) => bary(a) - bary(b) || MIRACLE_TOPICS.indexOf(a) - MIRACLE_TOPICS.indexOf(b));
+const loose = MIRACLE_TOPICS.filter((t) => linked(t).length === 0 && (topicCount.get(t) ?? 0) > 0);
+const tIndex = new Map(woven.map((t, i) => [t, i]));
+const topicName = (t: MiracleTopic) => { const x = G.topics?.[t]; if (!x) throw new Error(`MiraclesLoom: no label for the theme ${t}`); return x as string; };
+const short = (s: string) => s.replace(/\s*⁦?\(.*$/, "").trim();
+const prophetName = (i: number) => short(labelOf(prophets[i].node, lang));
+
+const maxCount = Math.max(1, ...woven.map((t) => topicCount.get(t) ?? 0));
+const P = prophets.length, T = woven.length, SPAN = 1000;
+const yP = (i: number) => ((i + 0.5) / P) * SPAN;
+const yT = (i: number) => ((i + 0.5) / T) * SPAN;
+const f1 = (n: number) => Math.round(n * 10) / 10;
+const threads = woven.flatMap((t) => linked(t).map((p) => ({
+  p, t: tIndex.get(t)!, w: f1(1.2 + 8 * Math.sqrt((topicCount.get(t) ?? 0) / maxCount)),
+  d: `M0 ${f1(yP(p))}C55 ${f1(yP(p))} 45 ${f1(yT(tIndex.get(t)!))} 100 ${f1(yT(tIndex.get(t)!))}`,
+})));
+const threadTotal = threads.length;
+const slugOf = (id: string) => id.split("/")[1];
+---
+<section aria-labelledby="miracles-loom-title" class="sg-ml" data-sg-ml style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="miracles-loom-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{fmt(V.note, { p: num(P, lang), t: num(T, lang), k: num(threadTotal, lang) })}</p>
+  </div>
+  <p class="sg-ml-heads ui muted" aria-hidden="true"><span>{V.col_prophets}</span><span></span><span>{V.col_themes}</span></p>
+  <div class="sg-ml-loom ui" data-sg-loom style={`--p:${P};--t:${T}`}
+    data-t-prophet={V.prophet_line} data-t-topic={V.topic_line} data-h-topics={V.h_topics} data-h-prophets={V.h_prophets}>
+    <ol class="sg-ml-col sg-ml-ps" role="list" aria-label={V.col_prophets}>
+      {prophets.map((p, i) => (
+        <li><a class="sg-ml-l" href={`/${lang}/miracles/${slugOf(p.node.id)}/`} data-p={i} data-links={threads.filter((x) => x.p === i).map((x) => x.t).join(" ")}><span class="sg-ml-nm">{prophetName(i)}</span><b>{num(p.passages.length, lang)}</b></a></li>
+      ))}
+    </ol>
+    <div class="sg-ml-mid" aria-hidden="true">
+      <svg class="sg-ml-svg" viewBox={`0 0 100 ${SPAN}`} preserveAspectRatio="none" focusable="false">
+        {threads.map((x) => <path class="sg-ml-th" d={x.d} stroke-width={x.w} data-p={x.p} data-t={x.t} />)}
+      </svg>
+    </div>
+    <ol class="sg-ml-col sg-ml-ts" role="list" aria-label={V.col_themes}>
+      {woven.map((t, i) => (
+        <li><a class="sg-ml-l" href="#miracles-filter" data-t={i} data-q={topicName(t)} data-links={threads.filter((x) => x.t === i).map((x) => x.p).join(" ")}><span class="sg-ml-nm">{topicName(t)}</span><b>{num(topicCount.get(t) ?? 0, lang)}</b></a></li>
+      ))}
+    </ol>
+  </div>
+  {loose.length > 0 && (
+    <div class="sg-ml-loose ui">
+      <p class="muted">{V.loose}</p>
+      <ul role="list">
+        {loose.map((t) => <li><a class="chip" href="#miracles-filter" data-q={topicName(t)}>{topicName(t)} <b>{num(topicCount.get(t) ?? 0, lang)}</b></a></li>)}
+      </ul>
+    </div>
+  )}
+  <div class="sg-ml-panel panel ui" data-sg-mlpanel aria-live="polite" hidden>
+    <p class="muted" data-sg-mlhint>{V.hint}</p>
+    <div data-sg-mlbody hidden>
+      <h3 data-f="name"></h3>
+      <p data-f="line"></p>
+      <p class="muted sg-ml-lh" data-f="head"></p>
+      <ul role="list" class="sg-ml-links" data-f="links"></ul>
+      <a class="sg-ml-open" data-f="open"></a>
+    </div>
+  </div>
+  <p class="muted ui sg-ml-cap">{V.caption}</p>
+</section>
+<style is:inline>
+  .sg-ml { --row: 31px; }
+  .sg-ml-heads { display: grid; grid-template-columns: .75fr 32% 1.1fr; margin: 0 0 .3rem; font-size: .8rem; letter-spacing: .02em; }
+  .sg-ml-heads span:last-child { text-align: end; }
+  .sg-ml-loom { display: grid; grid-template-columns: minmax(0, .75fr) 32% minmax(0, 1.1fr); align-items: stretch; grid-template-rows: minmax(0, 1fr); block-size: calc(var(--t) * var(--row)); padding: 6px 0; border-block: 1px solid var(--line); }
+  .sg-ml-mid { position: relative; min-block-size: 0; }
+  html[dir="rtl"] .sg-ml-svg { transform: scaleX(-1); }
+  .sg-ml-col { list-style: none; margin: 0; padding: 0; display: grid; }
+  .sg-ml-ps { grid-template-rows: repeat(var(--p), 1fr); }
+  .sg-ml-ts { grid-template-rows: repeat(var(--t), 1fr); }
+  .sg-ml-col li { display: flex; align-items: center; min-block-size: 0; }
+  .sg-ml-l { display: flex; align-items: center; gap: 8px; inline-size: 100%; min-block-size: 24px; padding: 1px 6px; border-radius: 8px; color: var(--fg); text-decoration: none; font-size: .9rem; line-height: 1.15; }
+  .sg-ml-ts .sg-ml-l { justify-content: flex-start; }
+  .sg-ml-nm { flex: 1 1 auto; min-inline-size: 0; overflow-wrap: anywhere; }
+  .sg-ml-l b { flex: none; font-weight: 600; font-size: .76rem; color: var(--gold-text); font-family: var(--sans, inherit); }
+  .sg-ml-l::before { content: ""; flex: none; inline-size: 7px; block-size: 7px; border-radius: 50%; background: var(--gold); order: 3; }
+  .sg-ml-ps .sg-ml-l::before { order: 3; }
+  .sg-ml-ts .sg-ml-l::before { order: -1; }
+  .sg-ml-l:hover .sg-ml-nm, .sg-ml-l.on .sg-ml-nm { text-decoration: underline; text-underline-offset: 3px; }
+  .sg-ml-l.on { background: color-mix(in srgb, var(--gold) 22%, transparent); }
+  .sg-ml-l:focus-visible, .sg-ml-panel a:focus-visible, .sg-ml-loose a:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
+  .sg-ml-svg { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; display: block; overflow: visible; }
+  .sg-ml-th { fill: none; stroke: var(--gold); stroke-opacity: .42; vector-effect: non-scaling-stroke; stroke-linecap: round; transition: stroke-opacity .15s ease; }
+  .sg-ml-loom.has-sel .sg-ml-th { stroke-opacity: .1; }
+  .sg-ml-loom.has-sel .sg-ml-th.on { stroke-opacity: .95; stroke: var(--gold-text); }
+  .sg-ml-loom.has-sel .sg-ml-l:not(.on) { opacity: .62; }
+  .sg-ml-loose { margin-block-start: .9rem; }
+  .sg-ml-loose p { margin: 0 0 .4rem; font-size: .88rem; }
+  .sg-ml-loose ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .sg-ml-loose .chip { min-block-size: 30px; font-size: .86rem; }
+  .sg-ml-loose .chip b { color: var(--gold-text); font-size: .78rem; }
+  .sg-ml-panel { margin-block: .9rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 7.5rem; }
+  .sg-ml-panel h3 { margin: 0 0 .15rem; font-size: 1.1rem; }
+  .sg-ml-panel p { margin: .15rem 0; }
+  .sg-ml-lh { font-size: .82rem; margin-block-start: .5rem !important; }
+  .sg-ml-links { list-style: none; padding: 0; margin: .2rem 0 0; display: flex; flex-wrap: wrap; gap: 4px 6px; }
+  .sg-ml-links a { display: inline-flex; align-items: center; min-block-size: 30px; padding: 0 11px; border-radius: 999px; background: color-mix(in srgb, var(--gold) 18%, var(--card)); color: var(--fg); text-decoration: none; font-size: .86rem; }
+  .sg-ml-links a:hover { outline: 1px solid var(--gold); }
+  .sg-ml-open { display: inline-flex; align-items: center; min-block-size: 44px; margin-block-start: .3rem; font-weight: 600; }
+  .sg-ml-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+  @media (max-width: 640px) {
+    .sg-ml { --row: 37px; }
+    .sg-ml-heads { grid-template-columns: .8fr 14% 1.2fr; }
+    .sg-ml-loom { grid-template-columns: minmax(0, .8fr) 14% minmax(0, 1.2fr); }
+    .sg-ml-l { font-size: .8rem; gap: 4px; padding: 1px 3px; }
+    .sg-ml-l b { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-ml-th { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-miracles.ts"></script>
