@@ -28,3 +28,4 @@ born: { edtf: "1320", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1380", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: DSB" }
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/shadharat-dhahab] }
+  - {type: wrote_about, target: concept/qibla, sources: [source/encyclopaedia-of-islam-2], note: 'The qibla record''s own prose: al-Khalili of Damascus compiled a table giving the qibla for each degree of latitude and longitude difference (EI2 vol. 5 p. 105). Audit S12, 13 Nov 2026.'}

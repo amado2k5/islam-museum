@@ -14,7 +14,7 @@ const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/,
 <BaseLayout lang={lang} title={T.search.title} path={`/${lang}/search/`} noindex>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
     <h1 id="search-title">{T.search.title}</h1>
-    <div class="search-wrap" data-empty="1" role="search"><div id="search" dir={T.dir}></div>
+    <div class="search-wrap" data-empty="1" role="search"><div id="search" dir={T.dir} data-canon-label={T.search.canon_label} data-lang={lang}></div>
     <p class="search-hint ui muted">{T.search.hint} {T.search.examples.map((q: string, i: number) => <><a href={`/${lang}/search/?q=${encodeURIComponent(q)}`}>{q}</a>{i < T.search.examples.length - 1 ? " · " : ""}</>)}</p></div>
     <p id="search-fallback" class="panel ui" hidden>{T.search.needs_build}</p>
     {/* homework topics strip (E3 step 7): appears when a query returned nothing, nudging pupils to a topic that exists */}
@@ -55,8 +55,11 @@ const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/,
           var ui = new PagefindUI({ element: "#search", bundlePath: pagefindBase + "/pagefind-" + lang + "/", baseUrl: "/", showSubResults: true, showImages: false, translations: { placeholder: placeholder, zero_results: zeroResults },
             processTerm: function (term) {
               var whole = syn.whole[norm(term)];
-              if (whole && whole.length) return whole[0];
-              return term.split(/\s+/).map(function (w) { return syn.words[norm(w)] || w; }).join(" ");
+              var out = whole && whole.length ? whole[0] : term.split(/\s+/).map(function (w) { return syn.words[norm(w)] || w; }).join(" ");
+              // canon-first (/shell/search-canon.js): the typed term and its expanded spelling, for the canon lookup
+              window.imSearchTerm = { raw: term, processed: out };
+              document.dispatchEvent(new Event("im-search-term"));
+              return out;
             } });
           // axe label-title-only: point the generated input at the visible heading.
           var inp = document.querySelector("#search input");
@@ -90,5 +93,6 @@ const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/,
         document.head.appendChild(s);
       })();
     </script>
+    <script is:inline src="/shell/search-canon.js" defer></script>
   </div>
 </BaseLayout>

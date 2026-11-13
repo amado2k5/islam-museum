@@ -25,6 +25,7 @@ The static JSON API repeats the licence of each record in a `license` field. Att
    |---|---|
    | `https://api.islam.museum/api/v1/meta/index.json` | API version, generation date, list of classes, licences |
    | `https://api.islam.museum/api/v1/meta/coverage.json` | Counts by class, wing, period, region, review status |
+   | `https://api.islam.museum/api/v1/meta/search-canon.<lang>.json` (`ar`, `en`, `ur`) | Canon-first search: `keys` maps a normalised name to an index into `records` (`id`, `title`, `summary`), one entry per canon record. The search page reads it to show the record a query names first (`scripts/search-canon.ts`) |
    | `https://api.islam.museum/api/v1/<class>/index.json` | Compact rows for every record of a class (id, labels, summaries, dates, coordinates, Wikidata id, review status) |
    | `https://api.islam.museum/api/v1/<class>/<slug>.json` | Full record: all data fields, resolved labels, outgoing `connections`, computed `related` list, licences |
    | `https://api.islam.museum/api/v1/graph/nodes.ndjson` | Every node, one compact JSON object per line |
