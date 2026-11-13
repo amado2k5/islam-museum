@@ -47,7 +47,7 @@ relations:
   - { type: participated_in, target: event/ibn-al-haytham-summoned-to-cairo, role: "العالم المستدعى", sources: [source/britannica-ibn-al-haytham] }
   - { type: participated_in, target: event/kitab-al-manazir-composed, role: "المؤلف", sources: [source/britannica-ibn-al-haytham] }
   - { type: authored, target: work/kitab-al-manazir, sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham] }
-sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham, source/tdv-ibnul-heysem, source/katz-calculus-islam-india-1995, source/bressoud-calculus-before-newton-i, source/bressoud-calculus-before-newton-iii, source/hogendijk-alhazen-lemmas-1996, source/mathworld-alhazen-problem, source/commons-alhazen-problem-hb, source/smith-alhacen-visual-perception-2001, source/haytham-mactutor, source/weisstein-wilson-theorem, source/encyclopaedia-of-islam-2]
+sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham, source/tdv-ibnul-heysem, source/katz-calculus-islam-india-1995, source/bressoud-calculus-before-newton-i, source/bressoud-calculus-before-newton-iii, source/hogendijk-alhazen-lemmas-1996, source/mathworld-alhazen-problem, source/commons-alhazen-problem-hb, source/smith-alhacen-visual-perception-2001, source/haytham-mactutor, source/weisstein-wilson-theorem, source/encyclopaedia-of-islam-2, source/biblissima]
 provenance:
   layer: own-research
   canon: "EI2 vol. 3, article Ibn al-Haytham, PDF pp. 820-821, written by Claude Sonnet 5.5, run canon-cornerstones-20"
@@ -71,7 +71,7 @@ education:
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 importance: 1
 status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5 (library-expansion)" }
-external_ids: { wikidata: Q11104 }
+external_ids: { wikidata: Q11104, biblissima: Q23414 }
 born: { edtf: "0965~", precision: year, status: historical, sources: [source/britannica-ibn-al-haytham], note: "Born c. 965 at Basra (Britannica biography)." }
 died: { edtf: "1040~", precision: year, status: historical, sources: [source/britannica-ibn-al-haytham], note: "Died c. 1040 at Cairo (Britannica biography)." }
 kids:
