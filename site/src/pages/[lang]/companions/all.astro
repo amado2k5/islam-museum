@@ -1,0 +1,13 @@
+---
+// The Companions Browser's A-to-Z roll: every Companion record, by name in the page's language, with the name filter.
+// It was the last section of the landing until 13 November 2026; it has its own page so the landing stays within its
+// page-weight budget (scripts/check-weight.ts).
+import CompanionFacetPage from "../../../components/CompanionFacetPage.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { companions, collatedBy } from "../../../lib/companions";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const C = ui(lang).companions;
+---
+<CompanionFacetPage lang={lang} title={C.az_title} note={C.az_note} path={`/${lang}/companions/all/`} ids={[...companions.ids].sort(collatedBy(lang))} />
