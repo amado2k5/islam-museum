@@ -1,0 +1,157 @@
+---
+// The Journeys landing's signature view: every journey as one route on one map. A route joins its stations in order
+// (lib/journeys.ts stationsOf: the waypoints, or the legs' places when there are no waypoints) with straight lines, not
+// the roads travelled; the extent is computed from the places' coordinates and the land is the self-hosted outline MiniMap
+// draws (lib/sig-map.ts). The kinds differ by tone and by dash pattern. All routes are drawn faintly; the script brings
+// one forward with its numbered stations, and filters by kind. Without the script the whole map and the lists are complete.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { journeys, JOURNEY_KINDS, stationsOf } from "../../lib/journeys";
+import { makeFrame } from "../../lib/sig-map";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const J = T.journeys;
+const V = J.viz;
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const f = (n: number) => Math.round(n * 10) / 10;
+
+const all = journeys.map((n) => {
+  const ids = stationsOf(n);
+  const located: { id: string; name: string; at: [number, number] }[] = [];
+  for (const id of ids) {
+    const p = byId.get(id);
+    const c = p && !p.stub ? p.coordinates : undefined;
+    if (c && located[located.length - 1]?.id !== id) located.push({ id, name: short(p), at: [c[0], c[1]] });
+  }
+  return { n, kind: (n.data.kind ?? "travel") as string, total: ids.length, located };
+});
+const drawn = all.filter((j) => j.located.length >= 2);
+const off = all.filter((j) => j.located.length < 2);
+if (drawn.length < 2) throw new Error("journeys: fewer than two journeys have two located stations; the map has nothing to draw");
+for (const j of all) if (!(JOURNEY_KINDS as readonly string[]).includes(j.kind)) throw new Error(`journeys: ${j.n.id} has kind ${j.kind}, which JourneysMap does not style`);
+const frame = makeFrame(drawn.flatMap((j) => j.located.map((s) => s.at)), { width: 1000, pad: 0.05, minAspect: 0.5, maxAspect: 0.8, minSpan: 6 });
+const groups = JOURNEY_KINDS.map((kind) => ({ kind, drawn: drawn.filter((j) => j.kind === kind), off: off.filter((j) => j.kind === kind) })).filter((g) => g.drawn.length + g.off.length > 0);
+const kindName = (k: string) => J.kinds[k] ?? k;
+const xy = (s: { at: [number, number] }) => `${f(frame.X(s.at[1]))},${f(frame.Y(s.at[0]))}`;
+---
+<section class="sg-jm" data-sg-jm aria-labelledby="sg-jm-title" style="margin-top:1.4rem;margin-bottom:2rem">
+  <div data-pagefind-body>
+    <h2 id="sg-jm-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{fmt(V.caption, { drawn: num(drawn.length, lang), total: num(all.length, lang) })}</p>
+  </div>
+  <ul class="sg-jm-legend ui" aria-label={V.legend} data-sg-jm-legend>
+    {groups.filter((g) => g.drawn.length).map((g) => (
+      <li><svg viewBox="0 0 44 12" width="44" height="12" aria-hidden="true" focusable="false"><line x1="2" y1="6" x2="42" y2="6" class={`sg-jm-line k-${g.kind}`} /></svg>{kindName(g.kind)} · {num(g.drawn.length, lang)}</li>
+    ))}
+  </ul>
+  <div class="sg-jm-filters ui" role="group" aria-label={V.filter_label} data-sg-jm-filters hidden>
+    {groups.filter((g) => g.drawn.length).map((g) => (
+      <button type="button" class="sg-jm-chip" data-kind={g.kind} aria-pressed="false"><svg viewBox="0 0 44 12" width="44" height="12" aria-hidden="true" focusable="false"><line x1="2" y1="6" x2="42" y2="6" class={`sg-jm-line k-${g.kind}`} /></svg>{kindName(g.kind)} · {num(g.drawn.length, lang)}</button>
+    ))}
+  </div>
+  <div class="sg-jm-wrap">
+    <div class="sg-jm-mapbox">
+      <svg class="sg-jm-svg" viewBox={`0 0 ${frame.width} ${frame.height}`} role="group" aria-label={V.map_aria} data-sg-jm-svg direction="ltr">
+        <path d={frame.landD} class="sg-jm-land" />
+        <g class="sg-jm-routes">
+          {drawn.map((j) => {
+            const pts = j.located.map(xy).join(" ");
+            return (
+              <a href={href(lang, j.n.id)} class={`sg-jm-route k-${j.kind}`} data-j={j.n.id} data-kind={j.kind}>
+                <title>{labelOf(j.n, lang)}</title>
+                <polyline points={pts} class="sg-jm-hit" />
+                <polyline points={pts} class={`sg-jm-line k-${j.kind}`} />
+              </a>
+            );
+          })}
+        </g>
+        <g class="sg-jm-front" data-sg-jm-front aria-hidden="true"></g>
+      </svg>
+      <div class="sg-jm-read ui" aria-live="polite" data-sg-jm-read><p class="muted" data-sg-jm-hint style="margin:0">{V.hint}</p></div>
+      {drawn.map((j) => (
+        <div hidden data-sg-jm-card={j.n.id}>
+          <p class="sg-jm-head"><a href={href(lang, j.n.id)}><strong>{labelOf(j.n, lang)}</strong></a> · {kindName(j.kind)} · {j.total === j.located.length ? fmt(V.stations_n, { n: num(j.total, lang) }) : fmt(V.stations_some, { n: num(j.total, lang), m: num(j.located.length, lang) })}</p>
+          <ol>{j.located.map((s) => <li>{s.name}</li>)}</ol>
+        </div>
+      ))}
+    </div>
+    <div class="sg-jm-listbox">
+      <h3 class="ui sg-jm-listtitle">{V.list_title}</h3>
+      <div class="sg-jm-list ui" data-sg-jm-list>
+        {groups.filter((g) => g.drawn.length).map((g) => (
+          <section data-kind={g.kind}>
+            <h4><svg viewBox="0 0 44 12" width="36" height="12" aria-hidden="true" focusable="false"><line x1="2" y1="6" x2="42" y2="6" class={`sg-jm-line k-${g.kind}`} /></svg>{kindName(g.kind)}</h4>
+            <ul>{g.drawn.map((j) => <li><a href={href(lang, j.n.id)} data-j={j.n.id}>{labelOf(j.n, lang)}</a></li>)}</ul>
+          </section>
+        ))}
+        {off.length > 0 && (
+          <section class="sg-jm-off">
+            <h4>{V.off_title} · {num(off.length, lang)}</h4>
+            <p class="muted">{fmt(V.off_note, { n: num(off.length, lang) })}</p>
+            <ul>{off.map((j) => <li><a href={href(lang, j.n.id)}>{labelOf(j.n, lang)}</a></li>)}</ul>
+          </section>
+        )}
+      </div>
+    </div>
+  </div>
+</section>
+<style is:inline>
+  .sg-jm { --sg-k1: var(--link); --sg-k2: var(--gold); --sg-k3: color-mix(in srgb, var(--gold) 55%, var(--fg)); --sg-k4: var(--fg); --sg-k5: var(--muted); --sg-k6: color-mix(in srgb, var(--link) 45%, var(--gold)); }
+  .sg-jm .k-migration { stroke: var(--sg-k1); stroke-dasharray: none; }
+  .sg-jm .k-travel { stroke: var(--sg-k2); stroke-dasharray: 11 6; }
+  .sg-jm .k-pilgrimage_route { stroke: var(--sg-k3); stroke-dasharray: 2 5; stroke-linecap: round; }
+  .sg-jm .k-trade_route { stroke: var(--sg-k4); stroke-dasharray: 14 5 2 5; }
+  .sg-jm .k-diffusion { stroke: var(--sg-k5); stroke-dasharray: 5 4; }
+  .sg-jm .k-military_campaign { stroke: var(--sg-k6); stroke-dasharray: 9 4 2 4 2 4; }
+  .sg-jm-line { fill: none; stroke-width: 2.4px; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+  .sg-jm-legend { list-style: none; padding: 0; margin: 0 0 .8rem; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .85rem; }
+  .sg-jm-legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .sg-jm-filters { margin: 0 0 .8rem; flex-wrap: wrap; gap: 6px 8px; }
+  .sg-jm-filters:not([hidden]) { display: flex; }
+  .sg-jm-chip { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; }
+  .sg-jm-chip:hover { border-color: var(--gold-text); }
+  .sg-jm-chip[aria-pressed="true"] { background: var(--panel); border-color: var(--gold-text); box-shadow: inset 0 0 0 1px var(--gold-text); font-weight: 700; }
+  .sg-jm-chip:focus-visible, .sg-jm-route:focus-visible, .sg-jm-list a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-jm-wrap { display: grid; gap: 18px; align-items: start; }
+  .sg-jm-mapbox { min-width: 0; }
+  .sg-jm-svg { display: block; width: 100%; height: auto; background: var(--panel); border-radius: 14px; border: 1px solid var(--line); direction: ltr; touch-action: manipulation; }
+  .sg-jm-land { fill: var(--fg); fill-opacity: .12; stroke: var(--fg); stroke-opacity: .35; stroke-width: 1; vector-effect: non-scaling-stroke; }
+  .sg-jm-route { outline: none; cursor: pointer; }
+  .sg-jm-route .sg-jm-line { opacity: .5; transition: opacity .2s ease; }
+  .sg-jm-hit { fill: none; stroke: transparent; stroke-width: 14px; vector-effect: non-scaling-stroke; pointer-events: stroke; }
+  .sg-jm-svg.has-active .sg-jm-route .sg-jm-line { opacity: .14; }
+  .sg-jm-svg.has-kind .sg-jm-route:not(.is-kind) .sg-jm-line { opacity: .07; }
+  .sg-jm-svg.has-kind .sg-jm-route.is-kind .sg-jm-line { opacity: .8; }
+  .sg-jm-svg.has-kind .sg-jm-route:not(.is-kind) .sg-jm-hit { pointer-events: none; }
+  .sg-jm-front .sg-jm-line { opacity: 1; stroke-width: 4.6px; }
+  .sg-jm-st circle { fill: var(--card); stroke: var(--fg); stroke-width: 1.6px; }
+  .sg-jm-st text { font-family: inherit; fill: var(--fg); }
+  .sg-jm-st .sg-jm-n { font-size: 12px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+  .sg-jm-st .sg-jm-nm { font-size: 13px; paint-order: stroke; stroke: var(--panel); stroke-width: 4px; stroke-linejoin: round; }
+  .sg-jm-read { margin-top: .8rem; padding: 12px 14px; border-radius: 10px; background: var(--panel); min-height: 3.2rem; }
+  .sg-jm-head { margin: 0 0 .4rem; }
+  .sg-jm-read ol { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 4px 6px; counter-reset: st; font-size: .88rem; }
+  .sg-jm-read li { counter-increment: st; display: inline-flex; align-items: center; gap: 5px; }
+  .sg-jm-read li::before { content: counter(st); display: inline-flex; align-items: center; justify-content: center; min-width: 1.7em; height: 1.7em; border-radius: 999px; background: var(--gold); color: var(--lapis); font-size: .75rem; font-weight: 700; }
+  .sg-jm-read li:not(:last-child)::after { content: "→"; color: var(--muted); margin-inline-start: 2px; }
+  .sg-jm-read:lang(ar) li:not(:last-child)::after, .sg-jm-read:lang(ur) li:not(:last-child)::after { content: "←"; }
+  .sg-jm-listbox { min-width: 0; }
+  .sg-jm-listtitle { margin: 0 0 .4rem; font-size: .95rem; }
+  .sg-jm-list { max-height: 420px; overflow-y: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--card); padding: 6px 12px 10px; }
+  .sg-jm-list h4 { display: flex; align-items: center; gap: 8px; margin: .8rem 0 .2rem; font-size: .88rem; color: var(--gold-text); }
+  .sg-jm-list ul { list-style: none; padding: 0; margin: 0; }
+  .sg-jm-list a { display: flex; align-items: center; min-height: 32px; padding: 3px 8px; border-radius: 8px; color: var(--fg); text-decoration: none; font-size: .9rem; line-height: 1.35; }
+  .sg-jm-list a:hover, .sg-jm-list a.is-hot { background: var(--panel); text-decoration: underline; }
+  .sg-jm-list a.is-hot { font-weight: 700; }
+  .sg-jm-list section.is-dim { opacity: .4; }
+  .sg-jm-off p { margin: 0 0 .3rem; font-size: .82rem; }
+  @media (min-width: 1000px) {
+    .sg-jm-wrap { grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); }
+    .sg-jm-list { max-height: 520px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-jm-route .sg-jm-line { transition: none; } }
+</style>
+<script src="../../scripts/sig-journeys-map.ts"></script>

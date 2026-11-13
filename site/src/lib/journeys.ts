@@ -12,6 +12,16 @@ export const routeOf = (n: Node): string[] => {
   for (const w of (n.data.waypoints ?? []) as { place?: string }[]) if (w.place && out[out.length - 1] !== w.place) out.push(w.place);
   return out;
 };
+/** A journey's stations in order, as place ids: its waypoints when it has any, else the places its legs join
+ *  (each leg's from then its to, a place repeated in a row counted once). The Journeys landing's map draws these. */
+export const stationsOf = (n: Node): string[] => {
+  const viaWaypoints = routeOf(n);
+  if (viaWaypoints.length) return viaWaypoints;
+  const out: string[] = [];
+  const push = (id?: string) => { if (id && out[out.length - 1] !== id) out.push(id); };
+  for (const l of (n.data.legs ?? []) as { from?: string; to?: string }[]) { push(l.from); push(l.to); }
+  return out;
+};
 /** Up to `k` other journeys of the same kind, for a journey page's onward links: those sharing a station first. */
 export function siblingJourneys(n: Node, k = 6): Node[] {
   const mine = new Set(routeOf(n));
