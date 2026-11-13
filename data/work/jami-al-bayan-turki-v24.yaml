@@ -1,0 +1,23 @@
+id: work/jami-al-bayan-turki-v24
+class: work
+kind: tafsir-volume
+label:
+  ar: "جامع البيان عن تأويل آي القرآن، الجزء ٢٤ ⁦(طبعة التركي)⁩"
+  en: "Jami' al-Bayan, vol. 24 (al-Turki edition)"
+  ur: "جامع البیان، جلد 24 ⁦(الترکی کی تحقیق)⁩"
+summary:
+  ar: "الجزء ٢٤ من تفسير الطبري «جامع البيان» في طبعة عبد الله بن عبد المحسن التركي. تستشهد به سجلات المتحف الآن في موضع واحد: 112:1."
+  en: "Volume 24 of al-Tabari's Jami' al-Bayan in the al-Turki edition. The museum's verse records cite this volume for one verse position so far: 112:1."
+  ur: "طبری کی جامع البیان کی الترکی طبعہ کی جلد 24۔ میوزیم کے آیت ریکارڈ اب تک اس جلد کے ایک مقام، 112:1، کا حوالہ دیتے ہیں۔"
+relations:
+  - { type: part_of, target: work/jami-al-bayan, sources: [source/tafsir-tabari-turki-v24] }
+  - { type: about, target: passage/quran-112-1, sources: [source/tafsir-tabari-turki-v24] }
+wings: []
+sources: [source/tafsir-tabari-turki-v24]
+provenance:
+  layer: own-research
+  source: "Coverage: the passage records that cite source/tafsir-tabari-turki-v24 (cite lines in content/ar/passage/quran-*.md), listed as about relations; the page numbers are in those cite lines"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: audit-tafsir-s2-2026-11-13
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-2)" }
