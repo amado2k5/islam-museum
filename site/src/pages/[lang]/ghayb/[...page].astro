@@ -11,8 +11,10 @@ import DraftMark from "../../../components/DraftMark.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { href, labelOf } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
-import { ghaybItems, GHAYB_SECTIONS, ghaybSignItems, GHAYB_SIGNS_ORDER } from "../../../lib/ghayb";
-import { realNodes } from "../../../lib/graph";
+import { ghaybItems, GHAYB_SECTIONS, ghaybSignItems } from "../../../lib/ghayb";
+import GhaybDoors from "../../../components/sig/GhaybDoors.astro";
+import GhaybAscent from "../../../components/sig/GhaybAscent.astro";
+import GhaybSigns from "../../../components/sig/GhaybSigns.astro";
 
 export function getStaticPaths() {
   // the landing, and a sub-page for every page of rows of each section longer than the landing shows (site/src/lib/paged.ts)
@@ -30,9 +32,6 @@ const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/ghayb/`);
 const pagedLabel = (s: { id: string }) => G.sections[s.id]?.title ?? s.id;
 const pagedTitle = paged.landing ? G.title : `${G.title} · ${pagedLabel(paged.sections[0])}${paged.pager && paged.pager.pageNo > 1 ? ` · ${paged.pager.pageNo}` : ""}`;
 const status = fmt(G.status, { n: num(renderedHeadline("ghayb", sections, [], ghaybItems), lang), s: num(sections.length, lang) });
-const mirajJourney = realNodes.find((n) => n.id === "journey/isra-and-miraj-route");
-const mirajWaypoints = (mirajJourney?.data.waypoints ?? []) as { title?: { ar?: string; en?: string; ur?: string }; place?: string }[];
-const mirajHeavens = ["concept/al-samawat-al-sab","concept/sidrat-al-muntaha","concept/bayt-al-mamur"].map((id) => realNodes.find((n) => n.id === id)).filter(Boolean);
 const searchText = (i: (typeof ghaybItems)[number]) =>
   [i.node.label.ar, i.node.label.en, i.node.label.ur, summaryOf(i.node)].filter(Boolean).join(" ");
 ---
@@ -50,6 +49,7 @@ const searchText = (i: (typeof ghaybItems)[number]) =>
     </div>
 
     <DraftMark lang={lang} legend />
+    {paged.landing && <GhaybDoors lang={lang} home={paged.home} />}
     <section aria-labelledby="sections-title" style="margin-top:2rem">
       <h2 id="sections-title">{G.sections_title}</h2>
       <nav aria-label={G.sections_title} class="ui" style="margin:0 0 1rem">
@@ -83,27 +83,18 @@ const searchText = (i: (typeof ghaybItems)[number]) =>
       {ghaybItems.length === 0 && <p class="panel ui">{G.empty}</p>}
     </section>
 
-    {G.miraj_title && (
+    {paged.landing && (
       <section aria-labelledby="miraj-title" data-pagefind-ignore style="margin-top:2.2rem">
-        <h2 id="miraj-title">{G.miraj_title}</h2>
-        <p class="muted" style="max-width:var(--measure)">{G.miraj_desc}</p>
-        <ol role="list" style="list-style:none;padding:0;margin:1rem 0;border-inline-start:3px solid #8e5aa8;padding-inline-start:1rem;display:grid;gap:10px;max-width:var(--measure)">
-          {mirajWaypoints.map((w: any) => <li class="panel" style="padding:10px 14px">{w.title?.[lang] ?? w.title?.ar ?? w.place}</li>)}
-          {mirajHeavens.map((n: any) => n && <li class="panel" style="padding:10px 14px"><a href={href(lang, n.id)}>{labelOf(n, lang)}</a></li>)}
-        </ol>
+        <h2 id="miraj-title">{G.viz.ascent_title}</h2>
+        <GhaybAscent lang={lang} />
       </section>
     )}
 
-    {G.signs_title && ghaybSignItems.length > 0 && (
+    {paged.landing && ghaybSignItems.length > 0 && (
       <section aria-labelledby="signs-title" data-pagefind-ignore style="margin-top:2.2rem">
-        <h2 id="signs-title">{G.signs_title}</h2>
-        <p class="muted" style="max-width:var(--measure)">{G.signs_desc}</p>
-        <ol style="max-width:var(--measure);display:grid;gap:8px">
-          {GHAYB_SIGNS_ORDER.map((slug) => {
-            const n = realNodes.find((x) => x.id === `concept/${slug}`);
-            return n ? <li class="panel" style="padding:10px 14px"><a href={href(lang, n.id)}>{labelOf(n, lang)}</a></li> : null;
-          })}
-        </ol>
+        <h2 id="signs-title">{G.viz.ten_title}</h2>
+        <p class="muted" style="max-width:var(--measure)">{G.viz.ten_desc}</p>
+        <GhaybSigns lang={lang} />
       </section>
     )}
   </div>
