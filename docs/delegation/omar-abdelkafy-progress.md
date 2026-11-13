@@ -2407,3 +2407,17 @@ Resume point: mawkib-al-nour episode 23 (branch from origin/main).
 | An account of a French mayor said to have taken his own life on the day he was to sign a same-sex marriage certificate, a claim of a march of a million people in a city, a partly garbled discussion of an intersex condition and a ruling on its inheritance, and an anecdote of a state celebration with figures for peacocks | ep23 00:13:00-00:16:30, 00:39:00-00:39:30 | Unsourced reports about named kinds of people and a possibly real person's death, figures that cannot be checked, and a garbled legal passage; excluded rather than repeated | Accuracy, Content rule, Clarity | Open; proposal for the founder to decide |
 
 Resume point: mawkib-al-nour episode 24 (branch from origin/main).
+
+(Correction to the ep23 note above: the episode 23 text added 6 new `about` edges, not 8.)
+
+### mawkib-al-nour ep24 (12 Nov 2026)
+
+12 points written for episode 24 (ar, en, ur); 12 needs_source marks per language file (ar 12, en 12, ur 12); 6 new `about` edges. Quran verses referenced only through passage links (23-97, 23-98, 6-153, 15-29, 7-26, 4-58, 7-12, 18-39, 71-10, 71-11, 71-12, 66-10); none typed. Proposal for the founder, not applied: the list of six kinds of women to avoid, credited to unnamed scholars (ep24 00:29:30), is recorded as his, with the descriptions his own and no source; the sayings credited to al-Hasan al-Basri and Ali (00:02:30, 00:14:00) and the claim on Islamic banks in the crisis of 2008 (00:08:30) have no source.
+
+| Excluded (mawkib-al-nour ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening supplication and greetings, and the closing prayer | ep24 00:00:00-00:01:00 (supplication; recitation, Quran text never typed), 00:36:00 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep24 00:11:30 (a long repeated syllable), 00:21:00-00:21:30 (a long repeated syllable), 00:24:30-00:25:00 (a long repeated syllable) | Not recoverable | Clarity, Loop check | Open |
+| A joke about a miser and a wolf, a remark that removing eyebrow hair kills memory cells, and a few lines on how the women described are to be recognised | ep24 00:16:00-00:17:30, 00:32:30-00:33:00 | A joke, an unsourced scientific remark and a sweeping description of a group of women; left out | Content rule, Accuracy | Open |
+
+Resume point: mawkib-al-nour episode 25 (branch from origin/main).
