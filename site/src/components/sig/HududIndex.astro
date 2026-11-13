@@ -1,0 +1,142 @@
+---
+// "Limits and grave sins, as the sources name them" (Hudud Browser home): a sober two-panel index and nothing more. One panel
+// holds the words and phrases of the browser's lexicon (the detector's signals, scripts/hudud.ts) that matched a passage under
+// "the limits"; the other those that matched under "the grave sins". Each row is one term with a thin bar for its number of
+// passages and, under it, the passages as references (surah:ayah, or work and number), each a real link to its record. The
+// passages that matched terms of both panels are also listed in a strip between them. Nothing but references is shown: never
+// a passage's text, never a ruling, a ranking or a description of any penalty. Everything is computed at build time from
+// lib/hudud.ts; site/src/scripts/sig-hudud.ts only adds the corpus toggles, the highlight of one passage's copies, the faint
+// lines from the "both" strip, and the readout.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, href, labelOf, summaryOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { hududItems, hududSignals } from "../../lib/hudud";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const V = T.hudud.viz;
+
+// ---- the fixed lexicon sides; the build throws when the detector yields a term this view does not know, or a kind that disagrees
+const HUDUD_SIDE = ["hudud-allah", "hududuhu", "iqama", "rajm", "tazir", "qat-yad", "jald", "jald-bare", "hudud", "hadd", "qadhf", "zina", "sariq", "khamr", "ridda", "hiraba", "qisas"];
+const KABAIR_SIDE = ["kabair", "mubiqat", "kabira", "ithm-kabir"];
+const CORPORA = ["quran", "sunnah", "seerah", "books"] as const;
+const known = new Set([...HUDUD_SIDE, ...KABAIR_SIDE]);
+const passages = hududItems.filter((i) => i.node.class === "passage" && i.kind !== null).map((i) => ({ i, sig: hududSignals(i.node) }));
+for (const p of passages) {
+  if (p.sig.length === 0) throw new Error(`HududIndex: ${p.i.node.id} matched no term`);
+  for (const s of p.sig) if (!known.has(s)) throw new Error(`HududIndex: the detector yields a term this view has no side for: ${s}`);
+  const onlyKabair = p.sig.every((s) => KABAIR_SIDE.includes(s));
+  if ((p.i.kind === "kabair") !== onlyKabair) throw new Error(`HududIndex: the kind of ${p.i.node.id} disagrees with its terms`);
+  if (!(CORPORA as readonly string[]).includes(p.i.section)) throw new Error(`HududIndex: ${p.i.node.id} is in the section ${p.i.section}`);
+}
+for (const s of known) if (!V.terms[s]) throw new Error(`HududIndex: no label for the term ${s}`);
+if (passages.length === 0) throw new Error("HududIndex: no passage to index");
+const curated = hududItems.filter((i) => i.node.class !== "passage").length;
+
+// ---- references and sort order
+const natural = new Intl.Collator("en", { numeric: true });
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").split(/\s[—–-]\s|:/)[0].trim();
+const refOf = (n: any) => (n.data.sura && n.data.aya ? `${n.data.sura}:${n.data.aya}` : String(n.data.ref ?? ""));
+const workName = (n: any) => { const w = byId.get(n.data.work as string); return w ? short(w) : ""; };
+const chipText = (n: any) => (n.data.sura && n.data.aya ? refOf(n) : `${workName(n)} ${refOf(n)}`.trim());
+const sortKey = (p: (typeof passages)[number]) => `${CORPORA.indexOf(p.i.section as any)}|${p.i.node.id}`;
+const sorted = [...passages].sort((a, b) => natural.compare(sortKey(a), sortKey(b)));
+const bothIds = sorted.filter((p) => p.sig.some((s) => HUDUD_SIDE.includes(s)) && p.sig.some((s) => KABAIR_SIDE.includes(s)));
+
+const rowsOf = (ids: string[]) => ids
+  .map((id) => ({ id, ps: sorted.filter((p) => p.sig.includes(id)) }))
+  .filter((r) => r.ps.length > 0)
+  .sort((a, b) => b.ps.length - a.ps.length || ids.indexOf(a.id) - ids.indexOf(b.id));
+const panels = [
+  { id: "hudud", title: V.panel_hudud, rows: rowsOf(HUDUD_SIDE), n: sorted.filter((p) => p.sig.some((s) => HUDUD_SIDE.includes(s))).length },
+  { id: "kabair", title: V.panel_kabair, rows: rowsOf(KABAIR_SIDE), n: sorted.filter((p) => p.sig.some((s) => KABAIR_SIDE.includes(s))).length },
+];
+const maxN = Math.max(...panels.flatMap((p) => p.rows.map((r) => r.ps.length)));
+const corporaPresent = CORPORA.filter((c) => passages.some((p) => p.i.section === c));
+for (const c of corporaPresent) if (!V[`sec_${c}`]) throw new Error(`HududIndex: no label for the corpus ${c}`);
+
+// ---- the readout: reference, work, and the first sentence of the record's summary when it has one
+const first = (s: string) => { const t = s.split(/(?<=[.!?؟۔])\s+/)[0] ?? ""; return t.length > 240 ? `${t.slice(0, 237)}…` : t; };
+const info: Record<string, { r: string; w: string; s: string; h: string }> = {};
+for (const p of sorted) {
+  const n = p.i.node;
+  info[n.id] = { r: chipText(n), w: p.i.work ? labelOf(p.i.work, lang).replace(/\s*⁦?\(.*$/, "").trim() : "", s: first(summaryOf(n, lang)), h: href(lang, n.id) };
+}
+const numbers = Array.from({ length: Math.max(maxN, sorted.length) + 1 }, (_, k) => num(k, lang));
+const rtl = lang !== "en";
+const chip = (p: (typeof sorted)[number]) => (
+  `<a class="sg-hd-chip c-${p.i.section}" href="${href(lang, p.i.node.id)}" data-id="${p.i.node.id}" data-c="${p.i.section}"><bdi>${chipText(p.i.node).replace(/&/g, "&amp;").replace(/</g, "&lt;")}</bdi></a>`
+);
+---
+<section aria-labelledby="sg-hd-title" class={`sg-hd${rtl ? " is-rtl" : ""}`} data-sg-hd data-max={maxN} style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="sg-hd-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{fmt(V.note, { curated: num(curated, lang) })}</p>
+  </div>
+  <div class="sg-hd-filter ui" role="group" aria-label={V.filter}>
+    <span class="muted">{V.filter}</span>
+    {corporaPresent.map((c) => <button type="button" class={`sg-hd-tg c-${c}`} aria-pressed="true" data-c={c}>{V[`sec_${c}`]} · {num(sorted.filter((p) => p.i.section === c).length, lang)}</button>)}
+  </div>
+  <div class={`sg-hd-grid${bothIds.length ? " has-both" : ""}`} role="group" aria-label={V.region} data-sg-hd-grid>
+    <svg class="sg-hd-lines" aria-hidden="true" focusable="false" data-sg-hd-lines></svg>
+    {panels.map((pn, pi) => (
+      <section class="sg-hd-panel" aria-labelledby={`sg-hd-p-${pn.id}`} style={bothIds.length ? `grid-column:${pi === 0 ? 1 : 3}` : undefined}>
+        <h3 id={`sg-hd-p-${pn.id}`}>{pn.title} <span class="muted ui">· {fmt(V.passages, { n: num(pn.n, lang) })}</span></h3>
+        <p class="muted ui sg-hd-sub">{V.terms_note}</p>
+        <ol role="list" class="sg-hd-rows">
+          {pn.rows.map((r) => (
+            <li class="sg-hd-row" data-n={r.ps.length}>
+              <div class="sg-hd-line"><b class="sg-hd-term" dir="auto">{V.terms[r.id]}</b><span class="sg-hd-n ui" data-sg-hd-n>{num(r.ps.length, lang)}</span></div>
+              <i class="sg-hd-bar" aria-hidden="true"><i style={`inline-size:${Math.round((1000 * r.ps.length) / maxN) / 10}%`} data-sg-hd-fill></i></i>
+              <div class="sg-hd-chips ui" role="group" aria-label={`${V.terms[r.id]} · ${fmt(V.passages, { n: num(r.ps.length, lang) })}`} set:html={r.ps.map(chip).join(" ")}></div>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+    {bothIds.length > 0 && (
+      <section class="sg-hd-both" aria-labelledby="sg-hd-both-t" style="grid-column:2;grid-row:1">
+        <h3 id="sg-hd-both-t">{V.both_title}</h3>
+        <p class="muted ui sg-hd-sub">{V.both_note}</p>
+        <div class="sg-hd-chips ui" data-both set:html={bothIds.map(chip).join(" ")}></div>
+      </section>
+    )}
+  </div>
+  <div class="sg-hd-read panel ui" aria-live="polite" data-sg-hd-read><p class="muted" data-sg-hd-hint style="margin:0">{V.hint}</p></div>
+  <script type="application/json" data-sg-hd-data set:html={JSON.stringify({ info, numbers, ref: V.ref, work: V.work }).replace(/</g, "\\u003c")}></script>
+</section>
+<style is:inline>
+  .sg-hd { --cq: var(--gold); --cs: var(--link); --cr: var(--muted); --cb: color-mix(in srgb, var(--gold) 45%, var(--fg)); }
+  .sg-hd-filter { display: none; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 0 0 .8rem; font-size: .86rem; }
+  .sg-hd.js .sg-hd-filter { display: flex; }
+  .sg-hd-tg { font: inherit; font-size: .84rem; min-block-size: 32px; padding: 2px 12px 2px 10px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; border-inline-start: 5px solid var(--cq); }
+  .sg-hd-tg.c-sunnah { border-inline-start-color: var(--cs); } .sg-hd-tg.c-seerah { border-inline-start-color: var(--cr); } .sg-hd-tg.c-books { border-inline-start-color: var(--cb); }
+  .sg-hd-tg[aria-pressed="false"] { opacity: .5; text-decoration: line-through; }
+  .sg-hd-tg:focus-visible, .sg-hd-chip:focus-visible, .sg-hd-read a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-hd-grid { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; border-block: 1px solid var(--line); padding-block: 16px 8px; }
+  .sg-hd-grid.has-both { grid-template-columns: minmax(0, 1fr) minmax(150px, 210px) minmax(0, 1fr); }
+  .sg-hd-lines { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; pointer-events: none; overflow: visible; z-index: 0; }
+  .sg-hd-lines path { fill: none; stroke: var(--gold-text); stroke-width: 1.5; opacity: .45; }
+  .sg-hd-panel, .sg-hd-both { position: relative; z-index: 1; min-inline-size: 0; }
+  .sg-hd-grid h3 { margin: 0 0 .1rem; font-size: 1.15rem; }
+  .sg-hd-sub { margin: 0 0 .6rem; font-size: .82rem; }
+  .sg-hd-rows { list-style: none; margin: 0; padding: 0; }
+  .sg-hd-row { padding-block: 9px 7px; border-block-start: 1px solid var(--line); }
+  .sg-hd-line { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .sg-hd-term { font-weight: 600; font-size: .98rem; } .sg-hd-n { color: var(--gold-text); font-weight: 700; font-size: .92rem; }
+  .sg-hd-bar { display: block; block-size: 4px; margin-block: 4px 7px; background: color-mix(in srgb, var(--fg) 9%, transparent); border-radius: 2px; }
+  .sg-hd-bar > i { display: block; block-size: 100%; background: var(--gold-text); border-radius: 2px; min-inline-size: 3px; transition: inline-size .2s ease; }
+  .sg-hd-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  .sg-hd-chip { display: inline-flex; align-items: center; min-block-size: 26px; padding: 1px 9px; border: 1px solid var(--line); border-inline-start: 4px solid var(--cq); border-radius: 6px; color: var(--fg); text-decoration: none; font-size: .8rem; line-height: 1.25; background: var(--card); }
+  .sg-hd-chip.c-sunnah { border-inline-start-color: var(--cs); } .sg-hd-chip.c-seerah { border-inline-start-color: var(--cr); } .sg-hd-chip.c-books { border-inline-start-color: var(--cb); }
+  .sg-hd-chip:hover, .sg-hd-chip:focus-visible, .sg-hd-chip.is-on { background: color-mix(in srgb, var(--gold) 26%, var(--card)); }
+  .sg-hd-chip.is-gone { display: none; }
+  .sg-hd-both { align-self: start; padding-inline: 14px; border-inline: 1px solid var(--line); }
+  .sg-hd-read { margin-block: .8rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 5.6rem; }
+  .sg-hd-read h3 { margin: 0 0 .15rem; font-size: 1.05rem; } .sg-hd-read p { margin: 0 0 .3rem; }
+  .sg-hd-read a { display: inline-block; min-block-size: 28px; line-height: 28px; }
+  @media (max-width: 820px) { .sg-hd-grid, .sg-hd-grid.has-both { grid-template-columns: 1fr; } .sg-hd-grid > section { grid-column: 1 !important; grid-row: auto !important; } .sg-hd-both { border-inline: 0; border-block: 1px solid var(--line); padding: 12px 0; margin-block: 8px 16px; } .sg-hd-panel { margin-block-end: 12px; } .sg-hd-both { order: 1; } .sg-hd-panel:nth-of-type(2) { order: 2; } }
+  @media (prefers-reduced-motion: reduce) { .sg-hd-bar > i { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-hudud.ts"></script>
