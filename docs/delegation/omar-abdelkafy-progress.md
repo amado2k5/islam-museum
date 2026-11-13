@@ -2369,3 +2369,15 @@ Resume point: mawkib-al-nour episode 20 (branch from origin/main).
 | An aside on a cinema in America showing a film of orange groves, a verse on graves read in a garbled stretch, and a comparison of a mother and daughter that ends in a judgement on who would receive the Prophet's greeting | ep20 00:22:00-00:22:30, 00:26:00-00:26:30, 00:40:30-00:41:00 | Garbled or a speculation on how the Prophet would judge named kinds of people | Clarity, Content rule | Open |
 
 Resume point: mawkib-al-nour episode 21 (branch from origin/main).
+
+### mawkib-al-nour ep21 (12 Nov 2026)
+
+20 points written for episode 21 (ar, en, ur); 10 needs_source marks per language file (ar 10, en 10, ur 10); 5 new `about` edges. Quran verses referenced only through passage links (39-22, 39-71, 39-73, 2-35, 35-5, 5-30, 5-31, 9-32, 24-35, 88-21, 45-13, 45-23, 83-1, 107-4, 107-5); none typed. Proposal for the founder, not applied: his claim that adulterated religiosity is more dangerous than open atheism (ep21 00:18:30) and the sayings credited to Ibn al-Qayyim, Umar, Abu Bakr and Ibn Abbas (00:27:00, 00:31:00, 00:37:30) are recorded as his with no source; the motive he gives for the first killing (00:10:00) is not in the verse.
+
+| Excluded (mawkib-al-nour ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and supplication, and the closing prayer | ep21 00:00:00-00:02:00 (recitation, Quran text never typed; supplication), 00:41:00-00:42:00 (closing and a looping prayer) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep21 00:15:30-00:16:00 (a long repeated syllable), 00:19:00-00:19:30 (a long repeated syllable), 00:41:30 (a looping prayer) | Not recoverable | Clarity, Loop check | Open |
+| Garbled passages on a government raid analogy, an exchange about a workplace salary, and a passage on a pill taken in a game | ep21 00:16:00-00:16:30, 00:39:30-00:40:00 | Garbled, partly unreadable | Clarity | Open |
+
+Resume point: mawkib-al-nour episode 22 (branch from origin/main).
