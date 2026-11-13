@@ -24,7 +24,7 @@ const courseTitle = labelOf(c.subject, lang);
 const steps = [
   { id: "goal", label: C.goal_title, on: true },
   { id: "before", label: C.step_before, on: v.before.length > 0 },
-  { id: "learn", label: C.step_learn, on: v.woven.length > 0 || !!v.tryThis },
+  { id: "learn", label: C.step_learn, on: v.woven.length > 0 || v.depth.length > 0 || !!v.tryThis },
   { id: "after", label: C.step_after, on: v.after.length > 0 },
   { id: "check", label: C.step_check, on: true },
 ].filter((s) => s.on).map((s, i) => ({ ...s, n: num(i + 1, lang) }));
@@ -81,13 +81,14 @@ const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
         </section>
       )}
 
-      {(v.woven.length > 0 || v.tryThis) && (
+      {(v.woven.length > 0 || v.depth.length > 0 || v.tryThis) && (
         <section class="cx-step" id="learn" data-cx-step>
           <h2><i aria-hidden="true">{stepN("learn")}</i> {C.learn_title}</h2>
           <div class="cx-thread">
             {v.woven.map((w) => w.type === "section"
               ? <div class="cx-sec" lang={v.proseLang} dir={proseDir}><h3>{w.section.heading}</h3><div set:html={w.section.html} /></div>
               : <CourseCard c={w.conn} lang={lang} within />)}
+            {v.depth.map((d) => <div class="cx-sec" lang={v.proseLang} dir={proseDir}><h3>{d.heading}</h3><div set:html={d.html} /></div>)}
             {v.tryThis && <div class="cx-try" lang={v.proseLang} dir={proseDir}><h3>{C.try_title}</h3><div set:html={v.tryThis.html} /></div>}
           </div>
         </section>

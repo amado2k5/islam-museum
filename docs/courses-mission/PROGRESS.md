@@ -44,3 +44,7 @@ Urdu is outside this mission by the founder's brief: no `/ur/` page and no Urdu 
 - Scale map, ledger and `PUBLISH.md` are in the same merge.
 - **On hold by the user's instruction.** British Columbia is next when asked to resume, then Quebec, Michigan, Texas, Washington, California; `SCALE-MAP.md` says what each needs.
 
+
+## The depth layer (13 November 2026)
+
+After an Ontario educator's review ("very surface level"), a depth layer was added to the lessons of every Science and Social Studies course: 143 of 147 lessons, Arabic and English, written only from the linked records and checked by `scripts/courses/check_depth.py` (`DEPTH: GREEN`). The standard is `docs/courses/depth-rubric.md`; what is done, what is next and what was found on the way is `docs/courses/depth-rollout.md`. The course tree, the cards, the expectation texts and the draft label were not touched; Urdu was not touched. The lesson page shows the layer after the woven cards (`DEPTH` in `site/src/lib/courses.ts`).
