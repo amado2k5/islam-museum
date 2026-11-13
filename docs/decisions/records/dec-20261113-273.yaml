@@ -1,0 +1,55 @@
+id: dec-20261113-273
+kind: override
+date: 2026-11-13
+question_hash: d2981520b9f2
+lane: signature-views
+class: engineering
+modality: repo
+domain: content
+mode: conservative
+question: "Signature views of the browsers (docs/site/signature-views.md): how does a view treat a record that has no date, no coordinates or no edge, when the drawing places records by date, place or
+  relation?"
+options:
+  - leave it off the drawing, count it in the caption and keep it reachable from the lists below (chosen)
+  - place it at an estimated date or position
+  - drop it from the page
+evidence:
+  - docs/site/signature-views.md rules 1 and 2
+  - "AGENTS.md: never invent a date, quote, page number or citation"
+  - "merged in amado2k5/islam-museum pull requests 6528 and 6531 on 13 November 2026: 151 undated battles, 39 Companions with no death year, 754 undated economy records, 59 unlinked tribal groups are
+    counted and not placed"
+  - 'engine dry run, 13 November 2026: step safe-default: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"'
+status: decided
+step: override
+decision: A record with no date, coordinates or edge is left off the drawing, counted in the view's caption and kept reachable from the lists below it. No view estimates a date or position.
+correct_outcome: unplaced-records-counted-not-placed
+wrong_outcome: generic-safe-default-hold-on-an-applied-choice
+confidence: 1
+reversible: true
+rationale: "The engine held at safe-default: no rule states what a view does with a record it cannot place. Placing it at a guessed date or position would invent a fact (AGENTS.md, Sources). Dropping
+  it from the page would hide a record. Counting it keeps the drawing true and the record findable. Stated as rule 2 of docs/site/signature-views.md."
+supersedes: null
+override_reason:
+  category: rule-missing
+  detail: "Safe-default hold on a question no rule covers. Candidate rule: views count what they cannot place."
+  overridden_by: "agent: Claude Code (signature views, Fable 5.2)"
+signals:
+  matched_rule_id: null
+  question_domain: dates
+  expected_domain: content
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: claude-code-signature-views
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: 2026-11-13
+    note: merged in amado2k5/islam-museum pull requests 6528 and 6531
+expires_at: 2027-11-13

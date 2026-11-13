@@ -72,6 +72,7 @@ open a new block on top with the new version and today's date.
 - **The Modern Islam Browser's headline reconciles on its page**: the section counts, their sum, and why the sum exceeds the number of distinct records.
 - **Searching says it is searching.** The search page shows "Searching…" from the first keystroke until an answer arrives.
 - The Place hall's index is headed as the index of the places on the map, which is what it lists.
+- **The judgement calls behind the browsers' new views are on the decision ledger.** Five records (dec-20261113-272 to 276) state what was chosen and why: the Prophets' Tree draws only lineage the graph holds; a record a view cannot place is counted, not placed; no map of letters is drawn until the records carry both places; only an order a record states is numbered on the Ghayb ascent; and a practice's worship family is a tag on its record. Each names the engine's own answer and why it was overridden.
 
 ### Fixed
 - **The Hadith Library no longer holds chapters of other books.** A page under `/{lang}/words/hadith/<work>/<chapter>/` was built for every chapter record in the museum, and only 107 of the 2,218 belong to hadith collections. The other 2,111 are chapter digests of 203 other books (commentaries, histories, law), and each had a breadcrumb to a collection page that does not exist. Those pages are no longer built; every one of those chapters keeps its own record page, and nothing else on the site linked to them. The chapters of the hadith collections are unchanged.

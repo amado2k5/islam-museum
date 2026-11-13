@@ -1,0 +1,54 @@
+id: dec-20261113-275
+kind: override
+date: 2026-11-13
+question_hash: fde23f8f45b0
+lane: signature-views
+class: engineering
+modality: repo
+domain: content
+mode: conservative
+question: "Ghayb Browser, the ascent: journey/isra-and-miraj-route holds two waypoints in order (Mecca, then Jerusalem). The page's old code followed them with three heavens concepts (the seven
+  heavens, Sidrat al-Muntaha, al-Bayt al-Ma'mur) in a fixed order of its own. May the view number those three as steps of the ascent?"
+options:
+  - number only the journey record's own waypoints and show the three concepts unnumbered, as the section's concepts (chosen)
+  - number all five as one sequence
+  - remove the three concepts from the ascent
+evidence:
+  - site/src/components/sig/GhaybAscent.astro
+  - data/journey/isra-and-miraj-route.yaml waypoints
+  - the order of the three concepts is a constant in the page's code and is not stated by any record
+  - 'engine dry run, 13 November 2026: step safe-default: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"'
+status: decided
+step: override
+decision: Only the journey record's own waypoints are numbered on the ascent. The three heavens concepts are shown after them, unnumbered, as concepts of the browser's heavens section.
+correct_outcome: only-recorded-order-is-numbered
+wrong_outcome: generic-safe-default-hold-on-an-applied-choice
+confidence: 1
+reversible: true
+rationale: The engine held at safe-default. The order of the three concepts was a constant in the page's code and is stated by no record; numbering them as steps of the ascent would assert a sequence
+  without a source. The journey record's waypoints carry their own order, so they keep their numbers.
+supersedes: null
+override_reason:
+  category: rule-missing
+  detail: "Safe-default hold on a question no rule covers. Same candidate rule as the unplaced-records decision: an order shown must be an order recorded."
+  overridden_by: "agent: Claude Code (signature views, Fable 5.2)"
+signals:
+  matched_rule_id: null
+  question_domain: engineering
+  expected_domain: content
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: claude-code-signature-views
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: 2026-11-13
+    note: merged in amado2k5/islam-museum pull request 6531
+expires_at: 2027-11-13

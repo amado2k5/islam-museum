@@ -1,0 +1,56 @@
+id: dec-20261113-272
+kind: override
+date: 2026-11-13
+question_hash: 48f3cf2c0601
+lane: messengers
+class: engineering
+modality: repo
+domain: content
+mode: conservative
+question: "Prophets' Tree on the Messengers Browser: which lines may be drawn as lineage when the graph records only a few father-and-son edges between the prophets?"
+options:
+  - draw the classical chart's full lineages from memory
+  - draw only graph edges and the Ansab chain as lineage, mark every other place as order or progeny (chosen)
+  - draw no tree until the graph holds every lineage
+evidence:
+  - docs/plan/41-messengers-browser.md section 8
+  - scripts/messengers-tree.ts checkMessengersTree
+  - docs/plan/00-founders-charter.md (the graph is the foundation, the site its application)
+  - AGENTS.md (never invent a date, quote or citation; a person's lineage needs its source)
+  - 'engine dry run, 13 November 2026: step safe-default: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"'
+status: decided
+step: override
+decision: "Draw only what the graph holds as lineage: a solid branch for a child_of edge, the Ismail-to-Muhammad vine from ANSAB_PROPHET_CHAIN with its disputed part dashed, a dashed twig for a
+  prophet the detector finds named in the cited ayah of al-An'am 84 to 86, and every other place marked as order of mention. checkMessengersTree fails the build when a drawn line has no edge. The
+  classical chart's fuller lineages enter the tree when they enter the graph with their sources."
+correct_outcome: tree-drawn-from-graph-edges-only
+wrong_outcome: generic-safe-default-hold-on-an-applied-choice
+confidence: 1
+reversible: true
+rationale: "No rule or precedent addressed how a drawn lineage may relate to the graph, so the engine held at safe-default. The Founder's Charter makes the graph the foundation and the site its
+  application, and AGENTS.md forbids inventing a fact or citation; a lineage typed into a layout would be both. Reversible: a branch is promoted by adding the sourced edge."
+supersedes: null
+override_reason:
+  category: rule-missing
+  detail: "Safe-default hold on a question no rule covers. Candidate rule: a drawn relation in any view must be backed by a graph edge or be labelled as not a relation."
+  overridden_by: "agent: Claude Code (signature views, Fable 5.2)"
+signals:
+  matched_rule_id: null
+  question_domain: content
+  expected_domain: content
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: claude-code-signature-views
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: 2026-11-13
+    note: merged in amado2k5/islam-museum pull request 6527
+expires_at: 2027-11-13

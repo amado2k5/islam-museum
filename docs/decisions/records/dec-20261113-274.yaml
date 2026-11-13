@@ -1,0 +1,56 @@
+id: dec-20261113-274
+kind: override
+date: 2026-11-13
+question_hash: e0aff8f02f34
+lane: signature-views
+class: engineering
+modality: repo
+domain: content
+mode: conservative
+question: "Mukatabat Browser signature view: the design called for a map of letters with an arc from the sender's place to each recipient's place. The curated letter records carry only an occurred_at
+  place and had_participant edges, with no pair of sender place and recipient place. Draw the map or not?"
+options:
+  - omit the map and say so in the register, until the records carry both places (chosen)
+  - draw arcs from Medina to each named recipient's known seat from general knowledge
+  - draw one dot per letter at its occurred_at place
+evidence:
+  - site/src/components/sig/MukatabatFlow.astro
+  - docs/site/signature-views.md known limits
+  - "the implementer's count on 13 November 2026: 14 curated letter events, zero sender-place to recipient-place pairs"
+  - 'engine dry run, 13 November 2026: step rule, rule-media-license: "media only from schema/enums/licenses.yaml; third-party content keeps its own licence; no figurative depictions of prophets or
+    Companions; no AI-generated portraits"'
+status: decided
+step: override
+decision: No map of letters is drawn. The Mukatabat view is the flow from sender class to kind to corpus only, and the register records the omission. The map becomes possible when the letter records
+  carry both a sender place and a recipient place.
+correct_outcome: map-omitted-until-records-carry-both-places
+wrong_outcome: media-licence-rule-applied-to-a-drawing-question
+confidence: 1
+reversible: true
+rationale: "The engine answered with rule-media-license, matched on the words map and draw; the question is about whether the records support arcs between places, not about media or licences. Drawing
+  arcs to recipients' seats from general knowledge would state places the records do not hold. Reversible: the map is added when the data exists."
+supersedes: null
+override_reason:
+  category: rule-false-positive
+  detail: "rule-media-license matched lexically on 'map' and 'draw' in a question about data sufficiency. Fix candidate: scope the media-licence keywords to media and image nouns with word boundaries."
+  overridden_by: "agent: Claude Code (signature views, Fable 5.2)"
+signals:
+  matched_rule_id: rule-media-license
+  question_domain: money-outreach
+  expected_domain: content
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: claude-code-signature-views
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: 2026-11-13
+    note: merged in amado2k5/islam-museum pull request 6531
+expires_at: 2027-11-13
