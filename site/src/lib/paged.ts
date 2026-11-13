@@ -81,3 +81,17 @@ export const CORPUS_SECTIONS = ["quran", "sunnah", "seerah", "books"];
  * The order inside each of the two groups is kept as the browser defines it.
  */
 export const curatedFirst = <T extends string>(ids: T[]): T[] => [...ids.filter((id) => !CORPUS_SECTIONS.includes(id)), ...ids.filter((id) => CORPUS_SECTIONS.includes(id))];
+
+/**
+ * The other-language addresses of one index page (the header's language switch and the hreflang alternates). The group
+ * keys are letters of each language's own alphabet, so a page's twin often does not exist: `/ar/…/all/u0627/` has no
+ * `/en/…/all/u0627/`, and a letter both languages have can run to fewer pages in one of them. Where the same key and
+ * page number exist in the other language the twin is kept ("other", a letter Arabic and Urdu share, a century of the
+ * Time wing); otherwise the link goes to that language's landing page of the same listing, never to a page that is not built.
+ * `pagesOf(l)` gives each group's page count in language `l`.
+ */
+export function indexAlternates(langs: readonly Lang[], pagesOf: (l: Lang) => Map<string, number>, groupId: string, pageNo: number, pageHref: (l: Lang) => string, landingHref: (l: Lang) => string): Partial<Record<Lang, string>> {
+  return Object.fromEntries(langs.map((l) => [l, (pagesOf(l).get(groupId) ?? 0) >= pageNo ? pageHref(l) : landingHref(l)]));
+}
+/** Each group's page count, for `indexAlternates`. */
+export const groupPages = (groups: { id: string; items: unknown[] }[], perPage: number): Map<string, number> => new Map(groups.map((g) => [g.id, Math.ceil(g.items.length / perPage)]));
