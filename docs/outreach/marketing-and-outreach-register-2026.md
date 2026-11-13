@@ -67,7 +67,7 @@ back for the founder's decision are named as held, never as sent.
 | 23 Oct | Email | Oakville municipal-election candidates (13 candidates) | Islamophobia on the campaign trail, and the museum as a free local resource | One candidate replied; the founder wrote to her personally on 24 Oct |
 | 23 Oct | Email | A Milton/Oakville imam whose Friday congregation the founder attends | Introduction from a congregant | Sent; no reply recorded |
 | 23–24 Oct | Social post (drafted) | Three WhatsApp parent communities (an Oakville Islamic-school parents' chat and two Arab-parent school-support communities, ≈1,550 members combined) | A fellow-parent introduction post | Drafted; posting not confirmed in the record |
-| 26 Oct | Email | A prominent historian of the Silk Roads (Oxford) | Introduction | Replied; the founder's thank-you sent 26 Oct |
+| 22–26 Oct | Email | A prominent historian of the Silk Roads (Oxford) | Introduction | Replied, politely declining to endorse (he may evaluate for a UNESCO judging panel) — do not ask him for an endorsement; the founder's thank-you sent 26 Oct |
 | 27 Oct | Email | Reviews in Digital Humanities (journal) | Project overview submitted for review consideration | **Submitted 27 Oct** (verified in Sent; an earlier workspace note wrongly recorded it as never submitted). A suggested-reviewers field is still open; no decision yet |
 | 27 Oct | Email | Digital Orientalist | Guest-post pitch — the knowledge graph, the CC0 dataset, the right-to-left problems | Sent; no reply recorded |
 | 27 Oct | Email | H-Islamart editors (H-Net) | Online Digital Resources announcement | Sent; the network joins completed 10–11 Nov and a refreshed announcement was submitted 12 Nov (below) |
