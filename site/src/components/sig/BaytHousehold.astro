@@ -1,0 +1,375 @@
+---
+// "The household" — the signature view of the Bayt al-Nubuwwa Browser (site/src/pages/[lang]/bayt).
+// A family chart centred on the Prophet, drawn at build time from the graph's own kinship edges: a line is drawn only
+// where an edge exists (`child_of` and `spouse_of` as written; `sibling_of` appears on selection). Generations come from
+// the longest `child_of` path and the order inside a generation from a barycentre sweep (site/src/lib/sig/bayt-chart.ts),
+// nothing is placed by hand. The people are the browser's "ahl" section plus the Prophet, his recorded parents and
+// grandparents (three generations up), his descendants (two down) and every spouse edge of his. Each person's
+// `member_of` edges to the four household groups colour the foot of the pill. The build throws when the anchor loses a
+// parent, a child or a spouse edge, or a group record is missing. Every pill is a real link; the script
+// (site/src/scripts/sig-bayt.ts) adds highlighting, group toggles and the readout, cloned from the outline below.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, graph, href, labelOf, summaryOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { formatCE, formatDate } from "../../lib/dates";
+import { baytItems } from "../../lib/bayt";
+import { layoutChart, type FamEdge, type FamType } from "../../lib/sig/bayt-chart";
+import { textWidth, clip } from "../../lib/sig/four-schools";
+import type { Node } from "../../../../scripts/build-graph";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const rtl = lang !== "en";
+const V = (ui(lang) as any).bayt.viz;
+
+// ---- fixed choices (the build checks them against the data)
+const ANCHOR = "person/muhammad";
+const GROUPS = ["group/banu-hashim", "group/banu-al-muttalib", "group/ahl-al-bayt", "group/mothers-of-the-believers"] as const;
+const UP = 3, DOWN = 2; // generations of parents and of descendants taken from the anchor
+const PW = 120, GAP = 8, PH = 58, RG = 64, LINE_GAP = 16, MAXW = 1130, TRUNK = 18;
+
+const fwd = graph.edges.filter((e) => !e.inverse);
+const anchorNode = byId.get(ANCHOR);
+if (!anchorNode || anchorNode.stub) throw new Error(`Household view: ${ANCHOR} is missing from the graph`);
+for (const g of GROUPS) if (!byId.get(g) || byId.get(g)!.stub) throw new Error(`Household view: ${g} is missing from the graph`);
+const isPerson = (id: string) => id.startsWith("person/") && !!byId.get(id) && !byId.get(id)!.stub;
+const parentsOf = (id: string) => fwd.filter((e) => e.type === "child_of" && e.from === id && isPerson(e.to)).map((e) => e.to);
+const childrenOf = (id: string) => fwd.filter((e) => e.type === "child_of" && e.to === id && isPerson(e.from)).map((e) => e.from);
+
+const ahl = baytItems.filter((i) => i.node.class === "person" && i.section === "ahl").map((i) => i.node.id);
+const S = new Set<string>([ANCHOR]);
+let frontier = [ANCHOR];
+for (let d = 0; d < UP; d++) { const nx: string[] = []; for (const x of frontier) for (const p of parentsOf(x)) if (!S.has(p)) { S.add(p); nx.push(p); } frontier = nx; }
+frontier = [ANCHOR];
+for (let d = 0; d < DOWN; d++) { const nx: string[] = []; for (const x of frontier) for (const c of childrenOf(x)) if (!S.has(c)) { S.add(c); nx.push(c); } frontier = nx; }
+for (const e of fwd) if (e.type === "spouse_of" && (e.from === ANCHOR || e.to === ANCHOR)) { const o = e.from === ANCHOR ? e.to : e.from; if (isPerson(o)) S.add(o); }
+for (const a of ahl) S.add(a);
+
+const KINDS: FamType[] = ["child_of", "spouse_of", "sibling_of"];
+const edges: FamEdge[] = fwd
+  .filter((e) => KINDS.includes(e.type as FamType) && S.has(e.from) && S.has(e.to) && e.from !== e.to)
+  .map((e) => ({ type: e.type as FamType, from: e.from, to: e.to, start: e.start, sources: e.sources, note: e.note }));
+const touched = new Set(edges.flatMap((e) => [e.from, e.to]));
+const ids = [...S].filter((i) => touched.has(i));
+const unlinked = ahl.filter((i) => !touched.has(i)).sort();
+if (!parentsOf(ANCHOR).some((p) => touched.has(p))) throw new Error("Household view: the Prophet has no child_of edge to a parent");
+if (!childrenOf(ANCHOR).some((c) => touched.has(c))) throw new Error("Household view: the Prophet has no child with a child_of edge");
+if (!edges.some((e) => e.type === "spouse_of" && (e.from === ANCHOR || e.to === ANCHOR))) throw new Error("Household view: the Prophet has no spouse_of edge");
+// every drawn line is one of the graph's own forward edges
+const edgeKey = new Set(fwd.map((e) => `${e.type}|${e.from}|${e.to}`));
+for (const e of edges) if (!edgeKey.has(`${e.type}|${e.from}|${e.to}`)) throw new Error(`Household view: the line ${e.type} ${e.from} ${e.to} has no edge in the graph`);
+
+// ---- layout
+const L = layoutChart({ anchor: ANCHOR, ids, edges, w: PW, gap: GAP });
+const step = PW + GAP;
+const flowIds = [...L.rows.values()].flat();
+const rightFlow = Math.max(...flowIds.map((i) => L.x.get(i)! + PW));
+const blockLeft = L.x.get(ANCHOR)! + PW + TRUNK * 2;
+const cols = Math.max(3, Math.floor((MAXW - blockLeft + GAP) / step));
+const nLines = Math.ceil(L.block.length / cols);
+const blockH = nLines * PH + (nLines - 1) * LINE_GAP;
+const W = Math.max(rightFlow, blockLeft + Math.min(cols, L.block.length) * step - GAP) + 8;
+const tops = new Map<number, number>();
+{
+  let y = 10;
+  for (const l of L.levels) { tops.set(l, y); y += (l === 0 ? Math.max(PH, blockH) : PH) + RG; }
+}
+const H = Math.max(...[...tops.entries()].map(([l, t]) => t + (l === 0 ? Math.max(PH, blockH) : PH))) + 14;
+interface Box { id: string; x: number; y: number; line: number; col: number; block: boolean }
+const box = new Map<string, Box>();
+for (const id of flowIds) box.set(id, { id, x: L.x.get(id)!, y: tops.get(L.level.get(id)!)!, line: 0, col: 0, block: false });
+L.block.forEach((id, k) => { const line = Math.floor(k / cols), col = k % cols; box.set(id, { id, x: blockLeft + col * step, y: tops.get(0)! + line * (PH + LINE_GAP), line, col, block: true }); });
+const f = (n: number) => String(Math.round(n * 10) / 10);
+const mx = (x: number) => (rtl ? W - x : x); // a logical x (inline-start based) to a physical x
+const mrect = (x: number, w: number) => (rtl ? W - x - w : x);
+
+// ---- the words
+const shortName = (n: Node) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const nameOf = (id: string) => shortName(byId.get(id) as Node);
+const marriageOf = (e: FamEdge) => (e.start?.edtf ? formatCE(String(e.start.edtf), lang) : "");
+const anchorSpouseEdge = new Map<string, FamEdge>();
+for (const e of edges) if (e.type === "spouse_of" && (e.from === ANCHOR || e.to === ANCHOR)) anchorSpouseEdge.set(e.from === ANCHOR ? e.to : e.from, e);
+const wrap = (s: string, maxW: number, maxLines = 3): string[] => {
+  const words = s.split(/\s+/);
+  const wd = (i: number, j: number) => textWidth(words.slice(i, j).join(" "), 12);
+  const cap = Math.min(maxLines, words.length);
+  const best = (i: number, k: number): { w: number; cuts: number[] } => {
+    if (k === 1) return { w: wd(i, words.length), cuts: [] };
+    let r = { w: Infinity, cuts: [] as number[] };
+    for (let j = i + 1; j <= words.length - (k - 1); j++) { const rest = best(j, k - 1); const w = Math.max(wd(i, j), rest.w); if (w < r.w) r = { w, cuts: [j, ...rest.cuts] }; }
+    return r;
+  };
+  for (let n = 1; n <= cap; n++) {
+    const r = best(0, n);
+    if (r.w <= maxW || n === cap) {
+      const cuts = [0, ...r.cuts, words.length];
+      return cuts.slice(0, -1).map((c, k) => clip(words.slice(c, cuts[k + 1]).join(" "), maxW));
+    }
+  }
+  return [s];
+};
+const firstSentence = (s: string) => { const m = s.match(/^(.+?(?<![\s(][A-Za-z])[.؟!۔])(\s|$)/); const t = (m ? m[1] : s).trim(); return t.length > 220 ? `${t.slice(0, 217)}…` : t; };
+const joinList = (xs: string[]) => xs.join(lang === "en" ? ", " : "، ");
+
+// ---- the household groups, from `member_of` edges
+const memberOf = new Map<string, number[]>();
+for (const e of fwd) if (e.type === "member_of") { const gi = (GROUPS as readonly string[]).indexOf(e.to); if (gi >= 0 && S.has(e.from)) (memberOf.get(e.from) ?? memberOf.set(e.from, []).get(e.from)!).push(gi); }
+for (const [, v] of memberOf) v.sort();
+const groupName = GROUPS.map((g) => shortName(byId.get(g) as Node));
+const groupN = GROUPS.map((_, gi) => [...memberOf.values()].filter((v) => v.includes(gi)).length);
+if (groupN.every((n) => n === 0)) throw new Error("Household view: no person of the chart has a member_of edge to any household group");
+// a group with no member edge in the chart is listed with its count of 0 and has no toggle (the record holds no member of it)
+
+// ---- the lines
+const cxOf = (id: string) => box.get(id)!.x + PW / 2;
+const childLines: { c: string; p: string; d: string; far: boolean }[] = [];
+{
+  const byRow = new Map<number, string[]>();
+  for (const e of edges) if (e.type === "child_of") { const l = L.level.get(e.from)!; const ps = byRow.get(l) ?? byRow.set(l, []).get(l)!; if (!ps.includes(e.to)) ps.push(e.to); }
+  for (const [, ps] of byRow) ps.sort((a, b) => cxOf(a) - cxOf(b) || a.localeCompare(b));
+  for (const e of edges) {
+    if (e.type !== "child_of") continue;
+    const c = box.get(e.from)!, p = box.get(e.to)!;
+    const lc = L.level.get(e.from)!, lp = L.level.get(e.to)!;
+    const px = mx(p.x + PW / 2), pb = p.y + PH, cx = mx(c.x + PW / 2), ct = c.y;
+    let d: string;
+    if (lc - lp === 1) {
+      const slot = byRow.get(lc)!.indexOf(e.to);
+      const by = tops.get(lc)! - 14 - slot * 5;
+      d = `M${f(px)} ${f(pb)}V${f(by)}H${f(cx)}V${f(ct)}`;
+    } else {
+      const my = (pb + ct) / 2;
+      d = `M${f(px)} ${f(pb)}C${f(px)} ${f(my)} ${f(cx)} ${f(my)} ${f(cx)} ${f(ct)}`;
+    }
+    childLines.push({ c: e.from, p: e.to, d, far: lc - lp !== 1 });
+  }
+}
+const spouseLines: { a: string; b: string; d: string }[] = [];
+{
+  const a0 = box.get(ANCHOR)!;
+  const trunkX = blockLeft - TRUNK;
+  const cy0 = a0.y + PH / 2;
+  const seen = new Set<string>();
+  for (const e of edges) {
+    if (e.type !== "spouse_of") continue;
+    const key = [e.from, e.to].sort().join("|");
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const A = box.get(e.from)!, B = box.get(e.to)!;
+    let d: string;
+    if (A.block || B.block) {
+      const w = A.block ? A : B;
+      if (w.line === 0) d = `M${f(mx(a0.x + PW))} ${f(cy0)}H${f(mx(w.x))}`;
+      else {
+        const rail = w.y - LINE_GAP / 2;
+        d = `M${f(mx(a0.x + PW))} ${f(cy0)}H${f(mx(trunkX))}V${f(rail)}H${f(mx(w.x + PW / 2))}V${f(w.y)}`;
+      }
+    } else if (A.y === B.y) {
+      const [l, r] = A.x < B.x ? [A, B] : [B, A];
+      d = `M${f(mx(l.x + PW))} ${f(l.y + PH / 2)}H${f(mx(r.x))}`;
+    } else {
+      const [u, v] = A.y < B.y ? [A, B] : [B, A];
+      const my = (u.y + PH + v.y) / 2;
+      d = `M${f(mx(u.x + PW / 2))} ${f(u.y + PH)}C${f(mx(u.x + PW / 2))} ${f(my)} ${f(mx(v.x + PW / 2))} ${f(my)} ${f(mx(v.x + PW / 2))} ${f(v.y)}`;
+    }
+    spouseLines.push({ a: e.from, b: e.to, d });
+  }
+}
+const sibLines: { a: string; b: string; d: string }[] = [];
+{
+  const perRow = new Map<number, number>();
+  for (const e of edges) {
+    if (e.type !== "sibling_of") continue;
+    const A = box.get(e.from)!, B = box.get(e.to)!;
+    const l = L.level.get(e.from)!;
+    const rank = perRow.get(l) ?? 0;
+    perRow.set(l, rank + 1);
+    const y = A.y + PH + 7 + (rank % 5) * 4;
+    sibLines.push({ a: e.from, b: e.to, d: `M${f(mx(A.x + PW / 2))} ${f(A.y + PH)}V${f(y)}H${f(mx(B.x + PW / 2))}V${f(B.y + PH)}` });
+  }
+}
+
+// ---- the relations of each person, for the readout and the text alternative
+const relOf = (id: string) => {
+  const parents = edges.filter((e) => e.type === "child_of" && e.from === id).map((e) => e.to);
+  const kids = edges.filter((e) => e.type === "child_of" && e.to === id).map((e) => e.from);
+  const sibs = edges.filter((e) => e.type === "sibling_of" && (e.from === id || e.to === id)).map((e) => (e.from === id ? e.to : e.from));
+  const spouses = edges.filter((e) => e.type === "spouse_of" && (e.from === id || e.to === id)).map((e) => ({ id: e.from === id ? e.to : e.from, when: marriageOf(e) }));
+  return { parents, kids, sibs, spouses };
+};
+const cardPeople = [...ids, ...unlinked].sort((a, b) => (L.level.get(a) ?? 99) - (L.level.get(b) ?? 99) || a.localeCompare(b));
+const counts = { child: childLines.length, spouse: spouseLines.length, sib: sibLines.length };
+const orderedAnchorWives = L.block.filter((b) => anchorSpouseEdge.get(b)?.start?.edtf).length;
+
+// ---- the dated moments of the household
+const events = baytItems.filter((i) => i.section === "mawaqif" && i.node.class === "event").map((i) => i.node);
+const datedEvents = events.filter((n) => n.display?.start && n.span).sort((a, b) => a.span!.earliest - b.span!.earliest || a.id.localeCompare(b.id));
+const undatedEvents = events.filter((n) => !(n.display?.start && n.span)).sort((a, b) => a.id.localeCompare(b.id));
+const legendLines = [["child", V.lg_child], ["spouse", V.lg_spouse], ["sib", V.lg_sib]] as const;
+---
+<section aria-labelledby="sgb-title" class="sgb-wrap" data-sgb style="margin-top:2rem">
+  <div data-pagefind-body>
+    <h2 id="sgb-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{fmt(V.note, { n: num(ids.length, lang), c: num(counts.child, lang), s: num(counts.spouse, lang), b: num(counts.sib, lang), w: num(L.block.length, lang), d: num(orderedAnchorWives, lang) })}</p>
+  </div>
+  <ul class="sgb-legend ui" aria-label={V.legend_title}>
+    {legendLines.map(([k, text]) => (
+      <li>
+        <svg viewBox="0 0 30 12" width="30" height="12" aria-hidden="true" focusable="false"><path class={`sgb-ico ${k}`} d="M2 6H28" /></svg>
+        {text}
+      </li>
+    ))}
+  </ul>
+  <ul class="sgb-groups ui" aria-label={V.groups_title} data-sgb-groups>
+    {GROUPS.map((g, gi) => (
+      <li data-g={groupN[gi] > 0 ? gi : undefined}>
+        <span class="sgb-sw" style={`--gc:var(--sgb-g${gi})`} aria-hidden="true"></span>
+        <a href={href(lang, g)}>{groupName[gi]}</a> <span class="muted">· {num(groupN[gi], lang)}</span>
+      </li>
+    ))}
+  </ul>
+  <p class="ui muted sgb-hint">{V.hint}</p>
+  <p class="ui muted sgb-swipe">{V.swipe}</p>
+  <div class="sgb-scroll">
+    <svg class="sgb-svg" viewBox={`0 0 ${f(W)} ${f(H)}`} width={f(W)} role="group" aria-labelledby="sgb-title" direction={rtl ? "rtl" : "ltr"}>
+      <g aria-hidden="true">
+        {sibLines.map((s) => <path class="sgb-e sgb-sib" data-a={s.a} data-b={s.b} d={s.d} />)}
+        {childLines.map((s) => <path class={`sgb-e sgb-child${s.far ? " far" : ""}`} data-a={s.c} data-b={s.p} d={s.d} />)}
+        {spouseLines.map((s) => <path class="sgb-e sgb-spouse" data-a={s.a} data-b={s.b} d={s.d} />)}
+      </g>
+      {[...box.values()].map((b) => {
+        const date = b.block ? marriageOf(anchorSpouseEdge.get(b.id)!) : "";
+        const lines = wrap(nameOf(b.id), PW - 14, date ? 2 : 3);
+        const rows = lines.length + (date ? 1 : 0);
+        const y0 = (PH - 8 - rows * 14) / 2 + 11;
+        const gs = memberOf.get(b.id) ?? [];
+        const slotW = (PW - 20) / 4;
+        return (
+          <a class={`sgb-p ${b.id === ANCHOR ? "is-anchor" : ""}`} href={href(lang, b.id)} data-id={b.id} data-g={gs.join(" ")} aria-label={nameOf(b.id)}>
+            <rect class="sgb-card" x={f(mrect(b.x, PW))} y={f(b.y)} width={PW} height={PH} rx="10" />
+            {lines.map((t, k) => <text class="sgb-name" x={f(mx(b.x + PW / 2))} y={f(b.y + y0 + k * 14)} text-anchor="middle">{t}</text>)}
+            {date && <text class="sgb-date" x={f(mx(b.x + PW / 2))} y={f(b.y + y0 + lines.length * 14)} text-anchor="middle">{clip(date, PW - 10)}</text>}
+            {gs.map((gi) => <rect class="sgb-gb" style={`--gc:var(--sgb-g${gi})`} x={f(mrect(b.x + 10 + gi * slotW + 2, slotW - 4))} y={f(b.y + PH - 8)} width={f(slotW - 4)} height="4" rx="2" />)}
+          </a>
+        );
+      })}
+    </svg>
+  </div>
+  {unlinked.length > 0 && (
+    <div class="sgb-unlinked">
+      <h3 class="ui">{fmt(V.unlinked, { n: num(unlinked.length, lang) })}</h3>
+      <ul role="list">
+        {unlinked.map((id) => <li><a class="chip" href={href(lang, id)} data-sgb-u={id}>{nameOf(id)}</a></li>)}
+      </ul>
+    </div>
+  )}
+  <aside class="sgb-panel panel" data-sgb-panel aria-live="polite" hidden>
+    <div data-sgb-body></div>
+    <button type="button" class="ui sgb-close" data-sgb-close hidden>{V.close}</button>
+  </aside>
+  {datedEvents.length + undatedEvents.length > 0 && (
+    <div class="sgb-events">
+      <h3 class="ui">{V.events_title}</h3>
+      <ol role="list">
+        {datedEvents.map((n) => (
+          <li><a href={href(lang, n.id)}><span class="sgb-ev-dot" aria-hidden="true"></span><span class="sgb-ev-name">{shortName(n)}</span><span class="sgb-ev-date ui">{formatDate(n.display!.start, lang).text}</span></a></li>
+        ))}
+      </ol>
+      {undatedEvents.length > 0 && (
+        <p class="ui muted sgb-undated">{fmt(V.events_undated, { n: num(undatedEvents.length, lang) })} {undatedEvents.map((n, k) => <><a href={href(lang, n.id)}>{shortName(n)}</a>{k < undatedEvents.length - 1 ? (lang === "en" ? ", " : "، ") : ""}</>)}</p>
+      )}
+    </div>
+  )}
+  <details class="sgb-outline">
+    <summary class="ui">{V.outline_title}</summary>
+    <ul role="list">
+      {cardPeople.map((id) => {
+        const r = relOf(id);
+        const n = byId.get(id) as Node;
+        const gs = memberOf.get(id) ?? [];
+        const sum = firstSentence(summaryOf(n, lang));
+        return (
+          <li data-sgb-card={id}>
+            <h4><a href={href(lang, id)}>{nameOf(id)}</a></h4>
+            {sum && <p class="sgb-sum" dir="auto">{sum}</p>}
+            {r.parents.length > 0 && <p class="ui"><b>{V.r_parents}</b> {r.parents.map((p, k) => <><a href={href(lang, p)}>{nameOf(p)}</a>{k < r.parents.length - 1 ? (lang === "en" ? ", " : "، ") : ""}</>)}</p>}
+            {r.spouses.length > 0 && <p class="ui"><b>{V.r_spouses}</b> {r.spouses.map((p, k) => <><a href={href(lang, p.id)}>{nameOf(p.id)}</a>{p.when ? <span class="muted"> <bdi>{p.when}</bdi></span> : null}{k < r.spouses.length - 1 ? (lang === "en" ? ", " : "، ") : ""}</>)}</p>}
+            {r.kids.length > 0 && <p class="ui"><b>{V.r_children}</b> {r.kids.map((p, k) => <><a href={href(lang, p)}>{nameOf(p)}</a>{k < r.kids.length - 1 ? (lang === "en" ? ", " : "، ") : ""}</>)}</p>}
+            {r.sibs.length > 0 && <p class="ui"><b>{V.r_siblings}</b> {r.sibs.map((p, k) => <><a href={href(lang, p)}>{nameOf(p)}</a>{k < r.sibs.length - 1 ? (lang === "en" ? ", " : "، ") : ""}</>)}</p>}
+            {gs.length > 0 && <p class="ui"><b>{V.r_groups}</b> {joinList(gs.map((g) => groupName[g]))}</p>}
+            {gs.length === 0 && r.parents.length + r.spouses.length + r.kids.length + r.sibs.length === 0 && <p class="ui muted">{V.r_none}</p>}
+            <p class="ui"><a class="sgb-open" href={href(lang, id)}>{V.open}</a></p>
+          </li>
+        );
+      })}
+    </ul>
+  </details>
+</section>
+<style is:inline>
+  .sgb-wrap { --sgb-g0: var(--gold); --sgb-g1: var(--link); --sgb-g2: color-mix(in srgb, var(--fg) 58%, var(--bg)); --sgb-g3: color-mix(in srgb, var(--gold) 45%, var(--link) 55%); }
+  .sgb-legend, .sgb-groups { display: flex; flex-wrap: wrap; gap: 4px 20px; list-style: none; padding: 0; margin: 0 0 .6rem; font-size: .88rem; color: var(--muted); }
+  .sgb-legend li, .sgb-groups li { display: inline-flex; align-items: center; gap: 6px; min-height: 28px; }
+  .sgb-ico { fill: none; stroke-width: 2px; }
+  .sgb-ico.child { stroke: var(--fg); stroke-opacity: .6; }
+  .sgb-ico.spouse { stroke: var(--gold-text); stroke-width: 2.6px; }
+  .sgb-ico.sib { stroke: var(--fg); stroke-opacity: .55; stroke-dasharray: 2 3; }
+  .sgb-sw { display: inline-block; width: 18px; height: 6px; border-radius: 3px; background: var(--gc); }
+  .sgb-g { font: inherit; display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--fg); cursor: pointer; }
+  .sgb-g[aria-pressed="true"] { border-color: var(--gold-text); background: color-mix(in srgb, var(--gold) 22%, var(--card)); font-weight: 700; }
+  .sgb-g:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sgb-hint { margin: 0 0 .4rem; font-size: .88rem; }
+  .sgb-swipe { display: none; margin: 0 0 .4rem; font-size: .85rem; }
+  .sgb-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 18px; padding: 10px; background: radial-gradient(120% 60% at 50% 0%, color-mix(in srgb, var(--gold) 8%, transparent), transparent 70%); }
+  .sgb-svg { display: block; width: 100%; min-width: 1000px; height: auto; font-family: inherit; }
+  @media (max-width: 1100px) { .sgb-swipe { display: block; } }
+  .sgb-e { fill: none; stroke-linejoin: round; }
+  .sgb-child { stroke: var(--fg); stroke-opacity: .42; stroke-width: 1.5px; transition: stroke-opacity .2s; }
+  .sgb-child.far { stroke-opacity: .3; stroke-width: 1.2px; }
+  .sgb-spouse { stroke: var(--gold-text); stroke-opacity: .85; stroke-width: 2px; }
+  .sgb-sib { stroke: var(--fg); stroke-opacity: .6; stroke-width: 1.4px; stroke-dasharray: 2 3; display: none; }
+  .sgb-svg.sgb-js .sgb-sib.is-on { display: inline; }
+  .sgb-svg.sgb-js .sgb-e:not(.is-on).is-quiet { stroke-opacity: .1; }
+  .sgb-e.is-on { stroke-opacity: 1; stroke-width: 2.6px; }
+  .sgb-child.is-on { stroke: var(--fg); }
+  .sgb-p { cursor: pointer; text-decoration: none; }
+  .sgb-card { fill: var(--card); stroke: var(--line); stroke-width: 1.2px; transition: fill .2s, stroke .2s, opacity .2s; }
+  .sgb-p.is-anchor .sgb-card { fill: var(--gold); stroke: var(--gold-text); stroke-width: 2px; }
+  .sgb-name { font-size: 12px; fill: var(--fg); pointer-events: none; font-family: inherit; }
+  .sgb-p.is-anchor .sgb-name { fill: #0a2533; font-weight: 700; }
+  .sgb-date { font-size: 12px; fill: var(--muted); pointer-events: none; font-family: inherit; }
+  .sgb-gb { fill: var(--gc); pointer-events: none; }
+  .sgb-p:hover .sgb-card, .sgb-p.is-sel .sgb-card { stroke: var(--fg); stroke-width: 2.2px; }
+  .sgb-p.is-rel .sgb-card { stroke: var(--gold-text); stroke-width: 2.2px; fill: color-mix(in srgb, var(--gold) 16%, var(--card)); }
+  .sgb-p:focus-visible { outline: none; }
+  .sgb-p:focus-visible .sgb-card { stroke: var(--focus); stroke-width: 3px; }
+  .sgb-p.is-dim { opacity: .28; }
+  .sgb-unlinked { margin-top: 1rem; }
+  .sgb-unlinked h3 { margin: 0 0 .4rem; font-size: .95rem; font-weight: 600; }
+  .sgb-unlinked ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .sgb-unlinked .chip { display: inline-flex; align-items: center; min-height: 36px; }
+  .sgb-panel { position: sticky; bottom: 10px; margin: 12px auto 0; max-width: 640px; border: 1px solid var(--gold); box-shadow: 0 8px 28px rgba(10, 37, 51, .18); padding: 12px 16px; max-height: 40vh; overflow: auto; }
+  .sgb-panel h4 { margin: 0 0 .15rem; font-size: 1.15rem; }
+  .sgb-panel p { margin: .3rem 0 0; }
+  .sgb-open { display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.1rem; border-radius: 999px; background: var(--gold); color: #0a2533; font-weight: 700; text-decoration: none; }
+  .sgb-close { margin-top: .5rem; min-height: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; }
+  .sgb-events { margin-top: 1.4rem; }
+  .sgb-events h3 { margin: 0 0 .5rem; font-size: .95rem; font-weight: 600; }
+  .sgb-events ol { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0 12px; }
+  .sgb-events li { border-block-start: 2px solid var(--gold); margin-block-start: 8px; }
+  .sgb-events li a { display: block; position: relative; padding: 16px 0 10px; text-decoration: none; color: var(--fg); min-height: 44px; }
+  .sgb-ev-dot { position: absolute; inset-block-start: -7px; inset-inline-start: 0; width: 12px; height: 12px; border-radius: 50%; background: var(--card); border: 3px solid var(--gold); }
+  .sgb-ev-name { display: block; font-weight: 600; font-size: .92rem; line-height: 1.3; }
+  .sgb-ev-date { display: block; font-size: .8rem; color: var(--muted); margin-top: 2px; }
+  .sgb-events li a:hover .sgb-ev-name, .sgb-events li a:focus-visible .sgb-ev-name { text-decoration: underline; }
+  .sgb-undated { margin: .6rem 0 0; font-size: .85rem; }
+  .sgb-outline { margin-top: 1rem; }
+  .sgb-outline summary { cursor: pointer; min-height: 44px; display: inline-flex; align-items: center; }
+  .sgb-outline ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+  .sgb-outline li { border-inline-start: 3px solid var(--gold); padding: 2px 10px; }
+  .sgb-outline h4 { margin: 0; font-size: 1rem; }
+  .sgb-outline p { margin: .2rem 0 0; font-size: .88rem; }
+  .sgb-outline .sgb-sum { color: var(--muted); }
+  .sgb-outline .sgb-open { min-height: 36px; padding: 0 .9rem; font-size: .85rem; }
+  @media (prefers-reduced-motion: reduce) { .sgb-card, .sgb-child { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-bayt.ts"></script>
