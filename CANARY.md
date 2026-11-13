@@ -187,6 +187,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 182): trilingual draft prose on the estimation of distance by conjecture and resemblance, and the recognition of familiar visible things at familiar distances, cited to scan pages 252–255.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 183): trilingual draft prose on the kinds of position, the direction of a visible thing and facing, the parallel in hearing, and mirrors, cited to scan pages 255–258.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 184): trilingual draft prose on the image of a visible thing and facing, and on the positions of surfaces and lines by facing and inclination, cited to scan pages 258–261.
+- Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 185): trilingual draft prose on excessive and slight inclination and the verification of the positions of surfaces by the distances of their ends, cited to scan pages 261–264.
 
 
 ### Fixed
