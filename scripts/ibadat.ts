@@ -262,6 +262,19 @@ export function ibadatCorpusOf(workId: string | undefined, genre: string[] | und
   return "books";
 }
 
+/** Every worship family, in the order of the type. */
+export const IBADAT_TOPIC_IDS: readonly IbadatTopic[] = ["ibada", "salah", "tahara", "sawm", "zakat", "hajj", "dhikr", "dua", "tilawa", "tawba", "ruqya"];
+
+/**
+ * The worship families a curated record is filed under: its `ibadat-<topic>` tags (`ibadat-salah`, `ibadat-tahara`…).
+ * A passage gets its families from the detector; a curated record, which has no matn to read, states them on itself.
+ */
+export function ibadatTagTopics(n: Node): IbadatTopic[] {
+  return n.tags
+    .filter((t) => t.startsWith("ibadat-") && (IBADAT_TOPIC_IDS as readonly string[]).includes(t.slice(7)))
+    .map((t) => t.slice(7) as IbadatTopic);
+}
+
 /** The section tag of a curated record: `ibadat-<section>` when present, else `curated`. */
 export function ibadatTagSection(n: Node): IbadatSection {
   const tag = n.tags.find((t) => t.startsWith("ibadat-") && t !== IBADAT_TAG);

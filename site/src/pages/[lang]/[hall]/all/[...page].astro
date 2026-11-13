@@ -10,7 +10,7 @@ import DraftMark from "../../../../components/DraftMark.astro";
 import { ui, fmt, LANGS, WINGS, WING_PATH, type Lang, type Wing } from "../../../../lib/i18n";
 import { num } from "../../../../lib/nav";
 import { hallGroups, hallIndexHref, HALL_PAGE } from "../../../../lib/halls";
-import { pageWindow } from "../../../../lib/paged";
+import { pageWindow, indexAlternates, groupPages } from "../../../../lib/paged";
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => WINGS.filter((w) => w !== "place").flatMap((wing) =>
@@ -31,8 +31,10 @@ const items = group.items.slice(from, from + HALL_PAGE);
 const groupLabel = (g: { id: string; label: string }) => (g.id === "other" ? T.hall.other : g.id === "undated" ? T.hall.undated : g.id === "bce" ? T.hall.bce : g.label);
 const title = `${T.wings[wing].title} · ${groupLabel(group)}${pageNo > 1 ? ` · ${pageNo}` : ""}`;
 const path = hallIndexHref(lang, hall, groupId, pageNo);
+// The letters differ by language: the switch and the alternates go to the twin page only where it is built (lib/paged.ts).
+const alternates = indexAlternates(LANGS, (l) => groupPages(hallGroups(wing, l), HALL_PAGE), groupId, pageNo, (l) => hallIndexHref(l, hall, groupId, pageNo), (l) => `/${l}/${hall}/`);
 ---
-<BaseLayout lang={lang} title={title} description={T.wings[wing].blurb} path={path}>
+<BaseLayout lang={lang} title={title} description={T.wings[wing].blurb} path={path} alternates={alternates}>
   <PageHeader
     title={title}
     lede={fmt(P.range, { from: num(from + 1, lang), to: num(from + items.length, lang), total: num(group.items.length, lang) })}

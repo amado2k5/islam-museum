@@ -9,28 +9,13 @@ import { ui, fmt, type Lang } from "../../lib/i18n";
 import { href, labelOf } from "../../lib/graph";
 import { num } from "../../lib/nav";
 import { ibadatItems } from "../../lib/ibadat";
+import { ibadatTagTopics } from "../../../../scripts/ibadat";
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const G = (ui(lang) as any).ibadat;
 const V = G.viz;
 
-/** A practice record carries no worship-family field, so the museum's own grouping is declared here (a layout constant,
- *  like MESSENGERS_TREE): a `<topic>-practices` tag on the record wins; otherwise this table; a practice in neither is
- *  listed under the rosette, not placed. The build fails if an id below is not a practice record or names a topic with no label. */
-const PRACTICE_FAMILY: Record<string, string> = {
-  "practice/salah": "salah", "practice/salat-al-janaza": "salah", "practice/salat-al-jumua": "salah", "practice/salat-al-khawf": "salah",
-  "practice/salat-al-kusuf": "salah", "practice/salat-al-istisqa": "salah", "practice/salat-al-witr": "salah", "practice/salat-al-duha": "salah",
-  "practice/qiyam-al-layl": "salah", "practice/tahajjud": "salah", "practice/taraweeh": "salah", "practice/sujud-al-sahw": "salah",
-  "practice/raf-al-yadayn-fil-salah": "salah", "practice/adhan": "salah", "practice/khutba": "salah", "practice/sujud-tilawa": "salah",
-  "practice/wudu": "tahara", "practice/ghusl-al-janaba": "tahara", "practice/ghusl-al-janaza": "tahara", "practice/tayammum": "tahara",
-  "practice/istinja": "tahara", "practice/mash-ala-al-khuffayn": "tahara", "practice/miswak": "tahara",
-  "practice/sawm-ramadan": "sawm", "practice/itikaf": "sawm", "practice/iftar": "sawm", "practice/suhur": "sawm", "practice/laylat-al-qadr": "sawm",
-  "practice/zakat": "zakat", "practice/zakat-al-fitr": "zakat", "practice/sadaqa": "zakat",
-  "practice/hajj": "hajj", "practice/umrah": "hajj", "practice/tawaf": "hajj", "practice/sai": "hajj",
-  "practice/dhikr": "dhikr", "practice/dua": "dua", "practice/istikhara": "dua",
-  "practice/hifz-al-quran": "tilawa", "practice/khatm-al-quran": "tilawa", "practice/tajwid": "tilawa",
-};
 const CORPORA = ["quran", "sunnah", "seerah", "books", "curated"] as const;
 const OBL = ["obligatory", "recommended", "cultural", "unstated"] as const;
 
@@ -55,14 +40,9 @@ if (petals.length < 3) throw new Error("RoseWindow: fewer than three petals");
 // ---- practices
 const practices = ibadatItems.filter((i) => i.node.class === "practice").map((i) => i.node);
 const practiceIds = new Set(practices.map((p) => p.id));
-for (const [id, t] of Object.entries(PRACTICE_FAMILY)) {
-  if (!practiceIds.has(id)) throw new Error(`RoseWindow: ${id} in PRACTICE_FAMILY is not a worship practice record`);
-  topicName(t);
-}
-const familyOf = (n: any): string | undefined => {
-  const tag = (n.tags as string[]).map((x) => x.match(/^(.+)-practices$/)?.[1]).find((x) => x && G.topics[x] && petals.some((p) => p.t === x));
-  return tag ?? PRACTICE_FAMILY[n.id];
-};
+// A practice's worship family is the one its own record states with an `ibadat-<topic>` tag (scripts/ibadat.ts
+// ibadatTagTopics); a practice whose record states none is listed under the rosette, not placed.
+const familyOf = (n: any): string | undefined => ibadatTagTopics(n).find((t) => petals.some((p) => p.t === t));
 const oblOf = (n: any) => ((OBL as readonly string[]).includes(n.data.obligation) ? n.data.obligation : "unstated") as (typeof OBL)[number];
 const whenOf = (n: any) => { const w = n.data.when; return w ? String(w[lang] ?? w.ar ?? "") : ""; };
 const placed = practices.map((n) => ({ n, fam: familyOf(n) })).filter((x) => x.fam && petals.some((p) => p.t === x.fam));

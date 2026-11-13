@@ -9,17 +9,25 @@ import { ui, fmt, LANGS, type Lang } from "../../../../../lib/i18n";
 import { labelOf, href } from "../../../../../lib/graph";
 import { BROWSE_CLASSES, browseSegment, entriesOf, CLASS_WHOLE, CLASS_PAGE } from "../../../../../lib/browse";
 import { letterGroups } from "../../../../../lib/halls";
-import { pageWindow } from "../../../../../lib/paged";
+import { pageWindow, indexAlternates, groupPages } from "../../../../../lib/paged";
 import { num } from "../../../../../lib/nav";
 
 export function getStaticPaths() {
-  return LANGS.flatMap((lang) => BROWSE_CLASSES.filter((c) => entriesOf(c).length > CLASS_WHOLE).flatMap((cls) =>
-    letterGroups(entriesOf(cls), lang).flatMap((g) => Array.from({ length: Math.ceil(g.items.length / CLASS_PAGE) }, (_x, k) => ({
-      params: { lang, class: browseSegment(cls), page: k === 0 ? g.id : `${g.id}/${k + 1}` },
-      props: { lang, cls, groupId: g.id, pageNo: k + 1 },
-    })))));
+  return BROWSE_CLASSES.filter((c) => entriesOf(c).length > CLASS_WHOLE).flatMap((cls) => {
+    // The letters differ by language: the switch and the alternates go to the twin page only where it is built (lib/paged.ts).
+    const byLang = new Map(LANGS.map((l) => [l, letterGroups(entriesOf(cls), l)]));
+    const pages = new Map(LANGS.map((l) => [l, groupPages(byLang.get(l)!, CLASS_PAGE)]));
+    const seg = browseSegment(cls);
+    return LANGS.flatMap((lang) => byLang.get(lang)!.flatMap((g) => Array.from({ length: Math.ceil(g.items.length / CLASS_PAGE) }, (_x, k) => ({
+      params: { lang, class: seg, page: k === 0 ? g.id : `${g.id}/${k + 1}` },
+      props: {
+        lang, cls, groupId: g.id, pageNo: k + 1,
+        alternates: indexAlternates(LANGS, (l) => pages.get(l)!, g.id, k + 1, (l) => (k === 0 ? `/${l}/browse/${seg}/all/${g.id}/` : `/${l}/browse/${seg}/all/${g.id}/${k + 1}/`), (l) => `/${l}/browse/${seg}/`),
+      },
+    }))));
+  });
 }
-const { lang, cls, groupId, pageNo } = Astro.props as { lang: Lang; cls: (typeof BROWSE_CLASSES)[number]; groupId: string; pageNo: number };
+const { lang, cls, groupId, pageNo, alternates } = Astro.props as { lang: Lang; cls: (typeof BROWSE_CLASSES)[number]; groupId: string; pageNo: number; alternates: Partial<Record<Lang, string>> };
 const T = ui(lang);
 const P = (T as any).paged;
 const groups = letterGroups(entriesOf(cls), lang);
@@ -33,7 +41,7 @@ const letter = (g: { id: string; label: string }) => (g.id === "other" ? T.hall.
 const title = `${T.class[cls]} · ${letter(group)}${pageNo > 1 ? ` · ${pageNo}` : ""}`;
 const range = fmt(P.range, { from: num(from + 1, lang), to: num(from + items.length, lang), total: num(group.items.length, lang) });
 ---
-<BaseLayout lang={lang} title={title} description={T.browse.lede} path={url(groupId, pageNo)}>
+<BaseLayout lang={lang} title={title} description={T.browse.lede} path={url(groupId, pageNo)} alternates={alternates}>
   <PageHeader title={title} lede={range} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.browse.title, href: `/${lang}/browse/` }, { label: T.class[cls], href: base }, { label: letter(group) }]} crumbsLabel={T.entity.breadcrumb} />
   <div class="wrap" style="padding-block:24px 20px" data-pagefind-ignore>
     <nav aria-label={T.hall.index_title} class="ui" style="margin:0 0 1rem">
