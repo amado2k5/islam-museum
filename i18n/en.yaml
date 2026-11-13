@@ -4501,6 +4501,20 @@ qudsi:
     images-and-figural-art: "Image-making"
     literature: "Poetry"
     other: "Other themes"
+  viz:
+    title: "Themes across the collections"
+    note: "Each row is a theme and each column a collection. A disc's area is the number of hadiths of that theme narrated in that collection; select a disc to list them."
+    legend_title: "Collections"
+    region: "Matrix of themes by collection; it scrolls sideways if the screen is narrow"
+    col_theme: "Theme"
+    col_total: "Hadiths"
+    cell: "{theme}, {work}: {n} hadiths"
+    foot: "Narrated in the collection"
+    caption: "Rows are ordered by the number of distinct hadiths in the theme, the figure at the row's end. A hadith narrated in several collections counts once in each of those columns, so the column totals add up to more than the number of hadiths; the last figure of the foot is the number of distinct hadiths."
+    hint: "Select a disc to list the hadiths of that theme in that collection."
+    close: "Close"
+    outline: "The same lists as text, theme by collection"
+    count: "{n} hadiths"
 companions:
   title: 'Companions Browser'
   lede: 'The generation that met the Prophet believing in him: who they were kin to, which circle they belonged to, which events they took part in, and when they died. Every name opens the museum''s record.'
@@ -4827,6 +4841,27 @@ tafsir:
   section_none: "No commentary on this verse has been filed yet. The museum's catalogue holds {n} Qur'an commentaries; so far it reads {names} verse by verse, and that reading has not reached this verse."
   section_surah_link: "Verses of this surah that carry commentary"
   section_browse: "Open the Tafsir Browser"
+  viz:
+    title: "The Mushaf, and how far the commentary has reached"
+    headline: "verses of {total} carry a commentary digest in the museum, across {surahs} surahs"
+    note: "The Qur'an laid out in Mushaf order, one block for each surah. A gold fill marks the verses for which the museum holds a commentary digest, at their own place inside the surah."
+    caption: "Each block is as wide as its surah has verses, with a minimum width so the shortest surahs stay easy to select. Covered means that at least one volume files a digest for the verse; it says nothing about the commentary's quality or completeness. Hover, focus or tap a block to read about it; on a touch screen, tap twice to open it. The Meccan and Medinan classification follows the Cairo edition (1924) as carried by Tanzil: a well-known ordering, not a unanimous one."
+    legend_title: "Key"
+    legend_cov: "Verses with a commentary digest"
+    legend_none: "Verses without one"
+    meccan: "Meccan"
+    medinan: "Medinan"
+    legend_meccan: "Meccan: solid top edge"
+    legend_medinan: "Medinan: dotted top edge"
+    toggle: "Order by revelation"
+    order_mushaf: "Shown in Mushaf order."
+    order_rev: "Shown in order of revelation."
+    n_ayahs: "{n} verses"
+    cov_of: "{k} of {n} verses covered, {p}"
+    cov_none: "No verse covered yet"
+    hint: "Hover, focus or tap a surah to see its details."
+    read: "Read the commentary"
+    open: "Open the surah's page"
 
 qurandoor:
   title: "The Qur'an in the museum"

@@ -1,0 +1,172 @@
+---
+// "Themes across the collections" (Hadith Qudsi Browser home): a matrix of themes (rows, by number of hadiths) against
+// the seven collections (columns, in QUDSI_WORKS order). A disc's area is the number of hadiths of that theme narrated
+// in that collection; a hadith narrated in three collections counts once in each of the three columns. Everything is
+// computed at build time from site/src/lib/qudsi.ts. Every cell is a link to the theme's section of the page; the
+// script (site/src/scripts/sig-qudsi.ts) fills a panel from the outline below, which is also the text alternative.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf, byId } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { qudsiHadiths, qudsiTitle, narrationName, QUDSI_WORKS, QUDSI_THEMES } from "../../lib/qudsi";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const Q = (ui(lang) as any).qudsi;
+const V = Q.viz;
+
+// ---- the matrix, from the hadiths and nothing else
+const themeIds = [...new Set(qudsiHadiths.map((h) => h.theme))];
+const themeName = (id: string) => { const t = Q.themes[id]; if (!t) throw new Error(`QudsiMatrix: theme ${id} has no label under qudsi.themes`); return t as string; };
+const workOf = (n: any) => String(n.data.work);
+for (const h of qudsiHadiths) for (const n of h.narrations) if (!QUDSI_WORKS.includes(workOf(n))) throw new Error(`QudsiMatrix: ${n.id} is in a collection outside QUDSI_WORKS`);
+const cellHadiths = (t: string, w: string) => qudsiHadiths.filter((h) => h.theme === t && h.narrations.some((n) => workOf(n) === w));
+const rows = themeIds
+  .map((id) => ({ id, total: qudsiHadiths.filter((h) => h.theme === id).length, cells: QUDSI_WORKS.map((w) => cellHadiths(id, w)) }))
+  .sort((a, b) => b.total - a.total || (QUDSI_THEMES.indexOf(a.id) + 99) % 99 - (QUDSI_THEMES.indexOf(b.id) + 99) % 99);
+const colTotals = QUDSI_WORKS.map((_, i) => rows.reduce((t, r) => t + r.cells[i].length, 0));
+if (rows.reduce((t, r) => t + r.total, 0) !== qudsiHadiths.length) throw new Error("QudsiMatrix: the row totals do not add up to the hadiths");
+const maxCell = Math.max(1, ...rows.flatMap((r) => r.cells.map((c) => c.length)));
+const maxRow = Math.max(1, ...rows.map((r) => r.total));
+
+const workNode = (w: string) => { const n = byId.get(w); if (!n) throw new Error(`QudsiMatrix: ${w} is not in the graph`); return n; };
+const longName = (w: string) => labelOf(workNode(w), lang).replace(/\s*⁦?\(.*$/, "").trim();
+// the short column name is the last word of the work's name ("Sahih al-Bukhari" -> "Bukhari")
+const shortOf = (w: string) => longName(w).split(/\s+/).pop() as string;
+const shorts = QUDSI_WORKS.map(shortOf);
+if (new Set(shorts).size !== shorts.length) throw new Error(`QudsiMatrix: the short collection names are not unique (${shorts.join(", ")})`);
+
+const f = (n: number) => Math.round(n * 1000) / 1000;
+const sep = lang === "en" ? ", " : "، ";
+const cid = (r: number, c: number) => `${r}-${c}`;
+---
+<section aria-labelledby="qudsi-matrix-title" class="sg-q" data-sg-q style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="qudsi-matrix-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.note}</p>
+  </div>
+  <ul class="sg-q-legend ui" aria-label={V.legend_title}>
+    {QUDSI_WORKS.map((w, i) => <li><b>{shorts[i]}</b> {longName(w)}</li>)}
+  </ul>
+  <div class="sg-q-scroll" role="region" aria-label={V.region} tabindex="0">
+    <table class="sg-q-t ui">
+      <caption class="sg-q-vh">{V.title}</caption>
+      <thead>
+        <tr>
+          <th scope="col" class="sg-q-corner"><span class="sg-q-vh">{V.col_theme}</span></th>
+          {QUDSI_WORKS.map((w, i) => <th scope="col" class="sg-q-col" data-c={i} title={longName(w)}><span class="sg-q-colname">{shorts[i]}</span></th>)}
+          <th scope="col" class="sg-q-totalh"><span>{V.col_total}</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r, ri) => (
+          <tr data-r={ri}>
+            <th scope="row" class="sg-q-row"><a href={`#t-${r.id}`}>{themeName(r.id)}</a></th>
+            {r.cells.map((hs, ci) => {
+              const d = Math.sqrt(hs.length / maxCell);
+              const label = fmt(V.cell, { theme: themeName(r.id), work: longName(QUDSI_WORKS[ci]), n: num(hs.length, lang) });
+              return (
+                <td data-c={ci}>
+                  {hs.length > 0
+                    ? <a class="sg-q-cell" href={`#t-${r.id}`} aria-label={label} title={label} data-cell={cid(ri, ci)} data-r={ri} data-c={ci}>
+                        <i class={`sg-q-disc${d >= 0.43 ? " big" : ""}${d >= 0.7 ? " huge" : ""}`} style={`--d:${f(Math.max(d, 0.14))}`}><b aria-hidden="true">{num(hs.length, lang)}</b></i>
+                      </a>
+                    : <span class="sg-q-nil" role="img" aria-label={label}></span>}
+                </td>
+              );
+            })}
+            <td class="sg-q-total" data-r={ri}>
+              <span class="sg-q-n">{num(r.total, lang)}</span>
+              <span class="sg-q-bar" aria-hidden="true" style={`--w:${f((100 * r.total) / maxRow)}%`}></span>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row" class="sg-q-row">{V.foot}</th>
+          {colTotals.map((t, ci) => <td data-c={ci} class="sg-q-foot">{num(t, lang)}</td>)}
+          <td class="sg-q-total"><span class="sg-q-n">{num(qudsiHadiths.length, lang)}</span></td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <p class="muted ui sg-q-cap">{V.caption}</p>
+  <div class="sg-q-panel panel ui" data-sg-qpanel aria-live="polite" hidden>
+    <p class="muted sg-q-hint" data-sg-qhint>{V.hint}</p>
+    <div data-sg-qbody></div>
+    <button type="button" class="sg-q-close ui" data-sg-qclose hidden>{V.close}</button>
+  </div>
+  <details class="sg-q-outline">
+    <summary class="ui">{V.outline}</summary>
+    <ul role="list">
+      {rows.map((r, ri) => r.cells.map((hs, ci) => hs.length > 0 && (
+        <li data-sg-card={cid(ri, ci)}>
+          <h3><a href={`#t-${r.id}`}>{themeName(r.id)}</a> <span class="muted">· {longName(QUDSI_WORKS[ci])} · {fmt(V.count, { n: num(hs.length, lang) })}</span></h3>
+          <ul role="list" class="sg-q-list">
+            {hs.map((h) => {
+              const nar = h.narrations.find((n) => workOf(n) === QUDSI_WORKS[ci])!;
+              return <li><a href={href(lang, nar.id)}>{qudsiTitle(h, labelOf(h.lead, lang))}</a> <span class="muted">· {narrationName(labelOf(nar, lang))}</span></li>;
+            })}
+          </ul>
+        </li>
+      )))}
+    </ul>
+  </details>
+</section>
+<style is:inline>
+  .sg-q { --cell: 46px; }
+  .sg-q-vh { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .sg-q-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; list-style: none; padding: 0; margin: 0 0 .8rem; font-size: .86rem; color: var(--muted); }
+  .sg-q-legend b { color: var(--gold-text); }
+  .sg-q-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
+  .sg-q-scroll:focus-visible, .sg-q-cell:focus-visible, .sg-q-close:focus-visible, .sg-q-panel a:focus-visible, .sg-q-row a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-q-t { border-collapse: separate; border-spacing: 0; inline-size: 100%; min-inline-size: 100%; table-layout: fixed; }
+  .sg-q-t th, .sg-q-t td { padding: 0; text-align: center; border-block-end: 1px solid var(--line); }
+  .sg-q-t tbody tr:last-child th, .sg-q-t tbody tr:last-child td { border-block-end: 0; }
+  .sg-q-row { text-align: start !important; inline-size: 26%; position: sticky; inset-inline-start: 0; z-index: 1; background: var(--card); padding: 6px 12px !important; font-weight: 500; font-size: .92rem; line-height: 1.3; }
+  .sg-q-row a { color: var(--fg); text-decoration: none; }
+  .sg-q-row a:hover { text-decoration: underline; color: var(--gold-text); }
+  .sg-q-corner { background: var(--card); position: sticky; inset-inline-start: 0; z-index: 2; }
+  .sg-q-col, .sg-q-totalh { font-weight: 600; font-size: .85rem; padding: 8px 2px !important; color: var(--gold-text); vertical-align: bottom; }
+  .sg-q-totalh { color: var(--muted); font-weight: 500; font-size: .8rem; inline-size: 11%; }
+  .sg-q-cell { display: grid; place-items: center; inline-size: 100%; block-size: var(--cell); min-block-size: 28px; text-decoration: none; }
+  .sg-q-nil { display: block; inline-size: 100%; block-size: var(--cell); position: relative; }
+  .sg-q-nil::after { content: ""; position: absolute; inset: 50% auto auto 50%; inline-size: 4px; block-size: 4px; margin: -2px 0 0 -2px; border-radius: 50%; background: var(--line); }
+  .sg-q-disc { display: grid; place-items: center; inline-size: calc(var(--d) * (var(--cell) - 6px)); block-size: calc(var(--d) * (var(--cell) - 6px)); min-inline-size: 7px; min-block-size: 7px; border-radius: 50%; background: var(--gold); color: #0a2533; transition: transform .15s ease, box-shadow .15s ease; }
+  .sg-q-disc b { font: 700 .78rem/1 var(--sans, inherit); display: none; }
+  .sg-q-disc.big b { display: block; }
+  .sg-q-cell:hover .sg-q-disc, .sg-q-cell:focus-visible .sg-q-disc, .sg-q-cell[aria-current="true"] .sg-q-disc { transform: scale(1.12); box-shadow: 0 0 0 2px var(--card), 0 0 0 4px var(--fg); }
+  .sg-q-t td.hl, .sg-q-t th.hl, .sg-q-t tr.hl > td, .sg-q-t tr.hl > th { background: color-mix(in srgb, var(--gold) 14%, var(--card)); }
+  .sg-q-t td.hl.hl, .sg-q-t tr.hl > td.hl { background: color-mix(in srgb, var(--gold) 26%, var(--card)); }
+  .sg-q-total { padding: 4px 8px !important; text-align: start; }
+  .sg-q-n { display: block; font-weight: 600; font-size: .85rem; line-height: 1.2; }
+  .sg-q-bar { display: block; block-size: 6px; border-radius: 3px; inline-size: var(--w); min-inline-size: 3px; background: var(--gold); margin-block-start: 3px; }
+  .sg-q-foot { font-weight: 600; font-size: .88rem; padding: 8px 0 !important; }
+  .sg-q-t tfoot th, .sg-q-t tfoot td { border-block-start: 2px solid var(--line); border-block-end: 0; }
+  .sg-q-cap { max-inline-size: var(--measure); margin-block: .7rem 0; font-size: .86rem; }
+  .sg-q-panel { margin-block: .8rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 5rem; }
+  .sg-q-panel h3 { margin: 0 0 .4rem; font-size: 1.05rem; }
+  .sg-q-panel p { margin: 0; }
+  .sg-q-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 2px 24px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
+  .sg-q-list li { padding: 2px 0; }
+  .sg-q-panel .sg-q-list a, .sg-q-outline .sg-q-list a { display: inline-block; min-block-size: 28px; line-height: 28px; }
+  .sg-q-close { margin-block-start: .5rem; min-block-size: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; }
+  .sg-q-outline { margin-block-start: 1rem; }
+  .sg-q-outline summary { cursor: pointer; min-block-size: 44px; display: inline-flex; align-items: center; }
+  .sg-q-outline > ul { list-style: none; padding: 0; margin: .6rem 0 0; display: grid; gap: 12px; }
+  .sg-q-outline > ul > li { border-inline-start: 3px solid var(--gold); padding: 2px 12px; }
+  .sg-q-outline h3 { margin: 0 0 .2rem; font-size: 1rem; }
+  @media (max-width: 640px) {
+    .sg-q { --cell: 30px; }
+    .sg-q-t { min-inline-size: 330px; }
+    .sg-q-row { inline-size: 30%; padding: 4px 6px !important; font-size: .78rem; line-height: 1.25; }
+    .sg-q-col { block-size: 78px; padding: 4px 0 !important; font-size: .78rem; }
+    .sg-q-colname { writing-mode: vertical-rl; transform: rotate(180deg); display: inline-block; white-space: nowrap; }
+    .sg-q-totalh { inline-size: 13%; font-size: .72rem; padding: 4px 0 !important; }
+    .sg-q-total { padding: 2px 4px !important; }
+    .sg-q-disc.big b { display: none; }
+    .sg-q-disc.huge b { display: block; font-size: .72rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-q-disc { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-qudsi.ts"></script>
