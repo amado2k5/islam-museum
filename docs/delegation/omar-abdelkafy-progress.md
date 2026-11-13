@@ -2599,3 +2599,15 @@ Resume point: modakirate-iblis episode 10 (branch from origin/main).
 | A loop and garbled stretches (the husband's father's name, a verse of poetry on beauty, phone-number talk) | ep10 00:03:30-00:04:30, 00:07:30-00:08:00, 00:14:00-00:14:30, 00:22:00 | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 11 (branch from origin/main).
+
+### modakirate-iblis ep11 (12 Nov 2026)
+
+13 points written for episode 11 (ar, en, ur); 7 needs_source marks in each language file; 4 new `about` edges. Quran verses referenced only through passage links (14-7, 9-60, 34-15, 7-157, 9-51, 27-40, 38-35, 51-56, 12-24); none typed.
+
+| Excluded (modakirate-iblis ep11) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break trailers and the closing prayer | ep11 00:00:00, 00:11:00-00:12:00, 00:22:30-00:23:00 | Not lesson content | Content rule | Open |
+| A claim that a named country imports butter worth seven billion dollars, with a reference to a cartoon controversy | ep11 00:02:30-00:03:30 | Unsourced figure about a country and a political incident | Sourcing | Open |
+| A garbled loop of one vowel and a stretch on the smokers' habits and urban rules | ep11 00:09:30, 00:14:30-00:15:00 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 12 (branch from origin/main).
