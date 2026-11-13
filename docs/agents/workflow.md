@@ -107,7 +107,7 @@ Devin sessions orchestrate and keep progress; the founder's Mac supplies the loc
 
 ## 10. Deploying to Cloudflare: manual, founder only
 
-**Where files go (founder rule, 28 Oct 2026).** Cloudflare Pages holds code and logic only. Data, content, maps, images, pictures and video go to Cloudflare R2, served by the site Worker. A new folder of data or media is added to `R2_DATA_DIRS` in `workers/site/src/route.js`, the publish list in `workers/r2-sync/batch/publish.mjs`, `run_worker_first` in `workers/site/wrangler.production.toml` and both `rm -rf` lines in `.github/workflows/deploy.yml`; never leave it on Pages. Details: `docs/engineering/06-deployment.md` "What goes where".
+**Where files go (founder rule, 28 Oct 2026).** Cloudflare Pages holds code and logic only. Data, content, maps, images, pictures and video go to Cloudflare R2, served by the site Worker. A new folder of data or media is added to `R2_DATA_DIRS` in `workers/site/src/route.js`, the publish list in `workers/r2-sync/batch/publish.mjs`, `run_worker_first` in `workers/site/wrangler.production.toml` and the exclude list of the assets-only step in `.github/workflows/deploy-env.yml`; never leave it on Pages. Details: `docs/engineering/06-deployment.md` "What goes where".
 
 Since 21 October 2026 a push to `main` publishes nothing. Two workflows share the work:
 

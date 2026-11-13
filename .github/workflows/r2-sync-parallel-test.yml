@@ -54,8 +54,8 @@ jobs:
           [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
           echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
           exit 1
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: Install Worker dependencies
@@ -106,8 +106,8 @@ jobs:
           [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
           echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
           exit 1
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: Install Worker dependencies

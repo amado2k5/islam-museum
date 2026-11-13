@@ -25,7 +25,7 @@ name: Deploy islam.museum (reusable, one environment)
 # islam-museum-search, islam-museum-site, the production sync Workers or the islam-museum Pages
 # project; production is deployed only by deploy.yml, which is the founder's alone.
 #
-# A deploy does not build: it downloads the `dist` artifact of a build run. Empty build_run_id
+# A deploy does not build: it downloads the build artifact (`dist-tar`, or `dist` for older builds) of a build run. Empty build_run_id
 # means the latest successful build of the source branch (main unless the caller names a
 # release branch); a run id redeploys that build (nothing is sent to R2 twice: the manifest
 # diff finds no change but the deploy stamp, api/v1/meta/deploy.json). A non-main source
@@ -165,10 +165,14 @@ jobs:
           [ "$conclusion" = "success" ] || { echo "::error::Build run $id ended with \"$conclusion\", not success: its tests or build failed, so it is not deployable."; exit 1; }
           [ "$branch" = "$SOURCE_BRANCH" ] || { echo "::error::Build run $id built $branch, not $SOURCE_BRANCH."; exit 1; }
           # The artifact must still exist (retention-days in build.yml).
-          gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.name == "dist-tar" and .expired == false) | .id' | grep -q . \
-            || { echo "::error::Build run $id has no live dist-tar artifact (expired, never uploaded, or built before the packed artifact). Rebuild the commit with \"Build islam.museum\"."; exit 1; }
+          # A build keeps the site either packed (artifact dist-tar: one zstd tar, builds since 13 November 2026) or as
+          # the plain tree (artifact dist: older builds, kept so the rollback copies stay deployable).
+          artifact=$(gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '[.artifacts[] | select(.expired == false) | .name] | if index("dist-tar") then "dist-tar" elif index("dist") then "dist" else "" end')
+          test -n "$artifact" \
+            || { echo "::error::Build run $id has no live dist-tar or dist artifact (expired or never uploaded). Rebuild the commit with \"Build islam.museum\"."; exit 1; }
           {
             echo "run_id=$id"
+            echo "artifact=$artifact"
             echo "sha=$sha"
             echo "created=$created"
             echo "title=$title"
@@ -180,7 +184,7 @@ jobs:
             echo "- Commit: \`$sha\` — $title"
           } >> "$GITHUB_STEP_SUMMARY"
       - name: Checkout the built commit (Worker code and publish scripts of the same build)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: ${{ steps.build.outputs.sha }}
       - name: The built commit must know this wrangler environment
@@ -201,23 +205,28 @@ jobs:
               || { echo "::error::Build $RUN_ID (commit $SHA) has no [env.$WRANGLER_ENV] in $f: it predates the $WRANGLER_ENV configuration. Wait for a build of a newer commit of the source branch, then deploy that run id."; exit 1; }
           done
           echo "both wrangler configs define [env.$WRANGLER_ENV]"
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: workers/r2-sync/package-lock.json
       - name: Download the built site
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
-          name: dist-tar
-          path: .
+          name: ${{ steps.build.outputs.artifact }}
+          # The packed artifact is one file, unpacked below into dist/; the plain one is the tree itself.
+          path: ${{ steps.build.outputs.artifact == 'dist-tar' && '.' || 'dist' }}
           run-id: ${{ steps.build.outputs.run_id }}
           github-token: ${{ github.token }}
       - name: Unpack the built site
+        env:
+          ARTIFACT: ${{ steps.build.outputs.artifact }}
         run: |
           set -euo pipefail
-          tar --use-compress-program=unzstd -xf dist.tar.zst
-          rm dist.tar.zst
+          if [ "$ARTIFACT" = "dist-tar" ]; then
+            tar --use-compress-program=unzstd -xf dist.tar.zst
+            rm dist.tar.zst
+          fi
           test -d dist/ar
           echo "dist: $(find dist -type f | wc -l) files"
       - name: Stamp the deploy (the landing page's "Last updated" line and every page's footer version read it)
@@ -322,7 +331,7 @@ jobs:
       # Pages refuses a deployment over 100,000 files, and the HTML pages alone are about 180,000. The site Worker serves
       # every page from R2 and the rest from the assets layer, so Pages gets the same assets-only folder the Worker got.
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -370,7 +379,7 @@ jobs:
       contents: read
     steps:
       - name: Check out the deployed commit
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: ${{ needs.deploy.outputs.sha }}
           # The previous commit is the cut-off for "changed".
