@@ -1,0 +1,212 @@
+---
+// "Marriages on record" — the signature view of the Usra Browser (site/src/pages/[lang]/usra).
+// A knot diagram drawn at build time from the graph's own `spouse_of` edges (`usraCouples`): a person is a small labelled
+// node, a marriage an arc between two nodes. Connected households are laid out as separate clusters, the largest first
+// (the person with most recorded marriages at the centre, partners on a ring, partners of partners outward; site/src/lib/
+// sig/usra-knots.ts), and every household of exactly two people is a small two-node knot in a grid after them. Nothing is
+// placed by hand: the build throws when a couple is left out or a person is drawn twice. Each node links to the person's
+// page; each arc is focusable and the script (site/src/scripts/sig-usra.ts) shows its readout, with the sources and the
+// note written on the edge. The couples list below on the page stays the text alternative.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, graph, href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { usraCouples } from "../../lib/usra";
+import { households, type Pair } from "../../lib/sig/usra-knots";
+import { textWidth, clip } from "../../lib/sig/four-schools";
+import type { Node } from "../../../../scripts/build-graph";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const rtl = lang !== "en";
+const V = (ui(lang) as any).usra.viz;
+
+if (usraCouples.length === 0) throw new Error("Marriages view: the graph has no spouse_of edge between two records");
+const pairs: Pair[] = usraCouples.map((c) => ({ a: c.a.id, b: c.b.id }));
+const H = households(pairs);
+
+// ---- every person is drawn once and every marriage once
+const key = (a: string, b: string) => [a, b].sort().join("|");
+const people: string[] = [];
+const index = new Map<string, number>();
+const add = (id: string) => { if (index.has(id)) throw new Error(`Marriages view: ${id} is drawn twice`); index.set(id, people.length); people.push(id); };
+for (const h of H.big) for (const id of [...h.ids].sort((x, y) => (x === h.root ? -1 : y === h.root ? 1 : x.localeCompare(y)))) add(id);
+for (const p of H.pairs) { add(p.a); add(p.b); }
+const drawn = new Set<string>([...H.big.flatMap((h) => [...h.tree, ...h.extra]), ...H.pairs].map((p) => key(p.a, p.b)));
+for (const c of usraCouples) if (!drawn.has(key(c.a.id, c.b.id))) throw new Error(`Marriages view: the marriage ${c.a.id} and ${c.b.id} is not drawn`);
+if (drawn.size !== usraCouples.length) throw new Error("Marriages view: the drawn marriages differ from the graph's spouse_of edges");
+const coupleOf = new Map(usraCouples.map((c) => [key(c.a.id, c.b.id), c]));
+
+// ---- words
+const shortName = (n: Node) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const nm = (id: string) => shortName(byId.get(id) as Node);
+const sourceLabel = (sid: string) => { const n = byId.get(sid); return n ? shortName(n) : sid.split("/")[1]; };
+const tone = (id: string) => { const g = byId.get(id)?.data.gender; return g === "male" ? "m" : g === "female" ? "f" : "n"; };
+const f = (n: number) => String(Math.round(n * 10) / 10);
+const wrap2 = (s: string, maxW: number): string[] => {
+  if (textWidth(s, 12) <= maxW) return [s];
+  const words = s.split(/\s+/);
+  if (words.length < 2) return [clip(s, maxW)];
+  let best = 1, bs = Infinity;
+  for (let k = 1; k < words.length; k++) { const sc = Math.max(textWidth(words.slice(0, k).join(" "), 12), textWidth(words.slice(k).join(" "), 12)); if (sc < bs) { bs = sc; best = k; } }
+  return [clip(words.slice(0, best).join(" "), maxW), clip(words.slice(best).join(" "), maxW)];
+};
+const srcTable: string[] = []; // the source labels, written once; an arc names its sources by position
+const arcAttrs = (a: string, b: string) => {
+  const c = coupleOf.get(key(a, b))!;
+  return { s: c.sources.map((sid) => { let k = srcTable.indexOf(sid); if (k < 0) k = srcTable.push(sid) - 1; return k; }).join(",") };
+};
+// the note written on the edge itself (the lib's couples carry the sources only)
+const noteOf = new Map<string, string>();
+for (const e of graph.edges) if (e.type === "spouse_of" && !e.inverse && e.note) noteOf.set(key(e.from, e.to), e.note);
+const edgeNote = (a: string, b: string): string => noteOf.get(key(a, b)) ?? "";
+
+// ---- the households' geometry
+const LABW = 96, PAD = 30, NODE = 7;
+interface Drawn { h: (typeof H.big)[number]; w: number; h2: number; dx: number; dy: number; mxs: (x: number) => number }
+const clusters = H.big.map((h) => {
+  let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
+  for (const [id, p] of h.pos) {
+    const lw = Math.min(LABW, Math.max(...wrap2(nm(id), LABW).map((t) => textWidth(t, 12)))) / 2 + 4;
+    x0 = Math.min(x0, p.x - Math.max(lw, NODE)); x1 = Math.max(x1, p.x + Math.max(lw, NODE));
+    y0 = Math.min(y0, p.y - NODE); y1 = Math.max(y1, p.y + NODE + 34);
+  }
+  const w = x1 - x0 + 2 * PAD, hh = y1 - y0 + 2 * PAD;
+  const dx = PAD - x0, dy = PAD - y0;
+  return { h, w, hh, dx, dy, X: (x: number) => (rtl ? w - (x + dx) : x + dx), Y: (y: number) => y + dy };
+});
+const arcPath = (ax: number, ay: number, bx: number, by: number, bow: number) => {
+  const mx = (ax + bx) / 2, my = (ay + by) / 2, dx = bx - ax, dy = by - ay;
+  const len = Math.hypot(dx, dy) || 1;
+  return `M${f(ax)} ${f(ay)}Q${f(mx - (dy / len) * len * bow)} ${f(my + (dx / len) * len * bow)} ${f(bx)} ${f(by)}`;
+};
+
+// ---- the caption's counts
+const deg = new Map<string, number>();
+for (const p of pairs) { deg.set(p.a, (deg.get(p.a) ?? 0) + 1); deg.set(p.b, (deg.get(p.b) ?? 0) + 1); }
+const top = [...deg.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0];
+const genderKnown = people.filter((id) => tone(id) !== "n").length;
+const legend = [["m", V.lg_m], ["f", V.lg_f], ["n", V.lg_n]] as const;
+const COLS_NOTE = H.pairs.length;
+---
+<section aria-labelledby="sgu-title" class="sgu-wrap" data-sgu style="margin-top:2rem" data-lang={lang}>
+  <div data-pagefind-body>
+    <h2 id="sgu-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{fmt(V.note, { n: num(usraCouples.length, lang), p: num(people.length, lang), c: num(H.big.length, lang), k: num(COLS_NOTE, lang), m: num(top[1], lang), name: nm(top[0]) })}</p>
+  </div>
+  <ul class="sgu-legend ui" aria-label={V.legend_title}>
+    {legend.map(([k, text]) => <li><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><circle cx="8" cy="8" r="6" class={`sgu-dot ${k}`} /></svg>{text}</li>)}
+    <li><svg viewBox="0 0 30 16" width="30" height="16" aria-hidden="true" focusable="false"><path d="M3 12Q15 -2 27 12" class="sgu-ico-arc" /></svg>{V.lg_arc}</li>
+  </ul>
+  <p class="ui muted sgu-hint">{V.hint}</p>
+  <div class="sgu-clusters">
+    {clusters.map((c) => (
+      <figure class="sgu-cl" data-wide={c.w > 420 ? "1" : undefined}>
+        <figcaption class="ui"><span class="muted">{V.centre}</span> {nm(c.h.root)} <span class="muted">· {fmt(V.cl_count, { n: num(c.h.edges, lang), p: num(c.h.ids.length, lang) })}</span></figcaption>
+        <svg viewBox={`0 0 ${f(c.w)} ${f(c.hh)}`} width={f(c.w)} height={f(c.hh)} role="group" aria-label={fmt(V.cl_label, { name: nm(c.h.root) })} direction={rtl ? "rtl" : "ltr"}>
+          <g>
+            {[...c.h.tree, ...c.h.extra].map((p) => {
+              const a = c.h.pos.get(p.a)!, b = c.h.pos.get(p.b)!;
+              const isTree = c.h.tree.includes(p);
+              const d = arcPath(c.X(a.x), c.Y(a.y), c.X(b.x), c.Y(b.y), isTree ? 0.14 : 0.32);
+              const at = arcAttrs(p.a, p.b);
+              return (
+                <g class="sgu-arc" tabindex="0" role="button" aria-label={`${nm(p.a)} ⇄ ${nm(p.b)}`} data-a={index.get(p.a)} data-b={index.get(p.b)} data-s={at.s} data-n={edgeNote(p.a, p.b) || undefined}>
+                  <path class="sgu-hit" d={d} />
+                  <path class="sgu-line" d={d} />
+                </g>
+              );
+            })}
+          </g>
+          <g>
+            {[...c.h.ids].map((id) => {
+              const p = c.h.pos.get(id)!;
+              const lines = wrap2(nm(id), LABW);
+              const X = c.X(p.x), Y = c.Y(p.y);
+              return (
+                <a class={`sgu-n ${id === c.h.root ? "is-root" : ""}`} href={href(lang, id)} data-k={index.get(id)}>
+                  <circle class={`sgu-dot ${tone(id)}`} cx={f(X)} cy={f(Y)} r={id === c.h.root ? 9 : NODE} />
+                  {lines.map((t, k) => <text x={f(X)} y={f(Y + 24 + k * 13)} text-anchor="middle">{t}</text>)}
+                </a>
+              );
+            })}
+          </g>
+        </svg>
+      </figure>
+    ))}
+  </div>
+  {H.pairs.length > 0 && (
+    <>
+      <h3 class="ui sgu-pairs-title">{fmt(V.pairs_title, { n: num(H.pairs.length, lang) })}</h3>
+      <ul class="sgu-pairs" role="list">
+        {H.pairs.map((p) => {
+          const at = arcAttrs(p.a, p.b);
+          const px = rtl ? 22 : 6;
+          return (
+            <li>
+              <svg class="sgu-arc sgu-pairsvg" viewBox="0 0 28 46" width="28" height="46" tabindex="0" role="button" aria-label={`${nm(p.a)} ⇄ ${nm(p.b)}`} data-a={index.get(p.a)} data-b={index.get(p.b)} data-s={at.s} data-n={edgeNote(p.a, p.b) || undefined}>
+                <path class="sgu-line" d={`M${px} 9Q${rtl ? 2 : 26} 23 ${px} 37`} />
+                <circle class={`sgu-dot ${tone(p.a)}`} cx={px} cy="9" r="5.5" />
+                <circle class={`sgu-dot ${tone(p.b)}`} cx={px} cy="37" r="5.5" />
+              </svg>
+              <span class="sgu-names">
+                <a class="sgu-n" href={href(lang, p.a)} data-k={index.get(p.a)}>{nm(p.a)}</a>
+                <a class="sgu-n" href={href(lang, p.b)} data-k={index.get(p.b)}>{nm(p.b)}</a>
+              </span>
+            </li>
+          );
+        })}
+      </ul>
+    </>
+  )}
+  <aside class="sgu-panel panel" data-sgu-panel aria-live="polite" hidden>
+    <div data-sgu-body></div>
+    <button type="button" class="ui sgu-close" data-sgu-close hidden>{V.close}</button>
+  </aside>
+  <template data-sgu-labels data-sources={V.sources} data-note={V.note_label} data-and={V.and} data-table={srcTable.map(sourceLabel).join("|")} data-sep={lang === "en" ? "; " : "؛ "}></template>
+</section>
+<style is:inline>
+  .sgu-wrap { --sgu-m: var(--link); --sgu-f: var(--gold); --sgu-n: color-mix(in srgb, var(--fg) 45%, var(--bg)); }
+  .sgu-legend { display: flex; flex-wrap: wrap; gap: 4px 20px; list-style: none; padding: 0; margin: 0 0 .6rem; font-size: .88rem; color: var(--muted); }
+  .sgu-legend li { display: inline-flex; align-items: center; gap: 6px; min-height: 28px; }
+  .sgu-ico-arc { fill: none; stroke: var(--gold-text); stroke-width: 2px; }
+  .sgu-hint { margin: 0 0 .6rem; font-size: .88rem; }
+  .sgu-dot { stroke: var(--card); stroke-width: 1.5px; }
+  .sgu-dot.m { fill: var(--sgu-m); }
+  .sgu-dot.f { fill: var(--sgu-f); stroke: var(--gold-text); stroke-width: 1px; }
+  .sgu-dot.n { fill: var(--sgu-n); }
+  .sgu-clusters { display: flex; flex-wrap: wrap; gap: 14px 16px; align-items: flex-start; }
+  .sgu-cl { margin: 0; border: 1px solid var(--line); border-radius: 18px; background: radial-gradient(120% 70% at 50% 0%, color-mix(in srgb, var(--gold) 7%, transparent), transparent 70%); max-width: 100%; overflow-x: auto; }
+  .sgu-cl figcaption { padding: 10px 14px 0; font-size: .88rem; }
+  .sgu-cl svg { display: block; max-width: none; font-family: inherit; }
+  @media (min-width: 900px) { .sgu-cl svg { max-width: 100%; height: auto; } }
+  .sgu-n text { font-size: 12px; fill: var(--fg); font-family: inherit; paint-order: stroke; stroke: color-mix(in srgb, var(--bg) 70%, transparent); stroke-width: 3px; stroke-linejoin: round; }
+  .sgu-n { cursor: pointer; text-decoration: none; }
+  .sgu-n circle { stroke-width: 18px; stroke-opacity: 0; paint-order: fill; transition: fill .2s; }
+  .sgu-n.is-root circle { stroke: transparent; }
+  .sgu-n:hover text, .sgu-n:focus-visible text, .sgu-n.is-rel text { font-weight: 700; }
+  .sgu-n:focus-visible { outline: none; }
+  .sgu-n:focus-visible circle { stroke: var(--focus); stroke-opacity: 1; stroke-width: 3px; }
+  .sgu-arc { cursor: pointer; outline: none; }
+  .sgu-hit { fill: none; stroke: transparent; stroke-width: 18px; }
+  .sgu-line { fill: none; stroke: var(--gold-text); stroke-opacity: .55; stroke-width: 1.8px; stroke-linecap: round; transition: stroke-opacity .2s, stroke-width .2s; }
+  .sgu-arc:hover .sgu-line, .sgu-arc.is-sel .sgu-line, .sgu-arc.is-rel .sgu-line, .sgu-arc:focus-visible .sgu-line { stroke-opacity: 1; stroke-width: 3.2px; }
+  .sgu-arc:focus-visible .sgu-line { stroke: var(--focus); }
+  .sgu-pairsvg:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+  .sgu-pairs-title { margin: 1.4rem 0 .5rem; font-size: .95rem; font-weight: 600; }
+  .sgu-pairs { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px 14px; }
+  .sgu-pairs li { display: flex; align-items: center; gap: 6px; min-height: 50px; }
+  .sgu-pairs .sgu-pairsvg { flex: none; width: 28px; height: 46px; overflow: visible; }
+  .sgu-names { display: flex; flex-direction: column; min-width: 0; font-size: .88rem; line-height: 1.35; }
+  .sgu-names a { color: var(--fg); text-decoration: none; padding-block: 3px; overflow-wrap: anywhere; }
+  .sgu-names a:hover, .sgu-names a:focus-visible { text-decoration: underline; font-weight: 700; }
+  .sgu-names a.is-rel { font-weight: 700; }
+  @media (max-width: 1100px) { .sgu-pairs { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  @media (max-width: 760px) { .sgu-pairs { grid-template-columns: repeat(3, minmax(0, 1fr)); } .sgu-cl { width: 100%; } }
+  @media (max-width: 560px) { .sgu-pairs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .sgu-panel { position: sticky; bottom: 10px; margin: 12px auto 0; max-width: 640px; border: 1px solid var(--gold); box-shadow: 0 8px 28px rgba(10, 37, 51, .18); padding: 12px 16px; max-height: 40vh; overflow: auto; }
+  .sgu-panel h4 { margin: 0 0 .15rem; font-size: 1.1rem; }
+  .sgu-panel p { margin: .3rem 0 0; }
+  .sgu-close { margin-top: .5rem; min-height: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; }
+  @media (prefers-reduced-motion: reduce) { .sgu-line, .sgu-n circle { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-usra.ts"></script>

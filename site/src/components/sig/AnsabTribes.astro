@@ -1,0 +1,209 @@
+---
+// "The tree of tribes" — the signature view of the Genealogies, Peoples and Butun Browser (site/src/pages/[lang]/ansab).
+// An indented dendrogram of the browser's group subjects, drawn at build time from the graph's own edges and nothing else:
+// a group hangs under the group it is `part_of` or a `member_of`, under the group its record names as its founder
+// (`founder_of`, group to group), and a person who is the `founder_of` a group hangs under it as its eponym. Roots are the
+// groups with no recorded parent. A circle's area follows the group's mentions in the museum's sources (square root,
+// clamped); its tone is the browser section. Groups with no edge to another subject are not forced into the tree: they
+// stand below, by section, with their counts. The prophets' lineage chain is not redrawn here (the page draws it).
+// The build throws when fewer than FLOOR groups are joined by edges (a thin tree would mislead), when a group has two
+// parents, when the edges loop, and when a drawn connector has no edge. Every node is a real link to the subject's page;
+// the script (site/src/scripts/sig-ansab.ts) adds the readout.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, graph, href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { ansabSubjects, ansabSlugById, ANSAB_CORPORA, ANSAB_SECTIONS, type AnsabSubject } from "../../lib/ansab";
+import { textWidth, clip } from "../../lib/sig/four-schools";
+import type { Node } from "../../../../scripts/build-graph";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const rtl = lang !== "en";
+const N = (ui(lang) as any).ansab;
+const V = N.viz;
+const FLOOR = 15;
+const TONES = ["tribes", "peoples", "butun"] as const;
+
+const total = (s: AnsabSubject) => ANSAB_CORPORA.reduce((a, c) => a + s.counts[c], 0);
+const subj = new Map(ansabSubjects.map((s) => [s.node.id, s]));
+const groups = ansabSubjects.filter((s) => s.node.class === "group");
+for (const g of groups) if (!(TONES as readonly string[]).includes(g.section)) throw new Error(`Tribes view: the group ${g.node.id} is in the section "${g.section}", which has no tone`);
+const gset = new Set(groups.map((g) => g.node.id));
+const fwd = graph.edges.filter((e) => !e.inverse);
+
+// ---- the hierarchy, from edges only
+interface Link { child: string; parent: string; type: string }
+const links: Link[] = [];
+for (const e of fwd) {
+  if ((e.type === "part_of" || e.type === "member_of") && gset.has(e.from) && gset.has(e.to)) links.push({ child: e.from, parent: e.to, type: e.type });
+  else if (e.type === "founder_of" && gset.has(e.from) && gset.has(e.to)) links.push({ child: e.to, parent: e.from, type: "founder_of" });
+  else if (e.type === "founder_of" && gset.has(e.to) && subj.has(e.from) && byId.get(e.from)!.class === "person") links.push({ child: e.from, parent: e.to, type: "founder_of" });
+}
+const parentOf = new Map<string, Link>();
+for (const l of links) {
+  if (parentOf.has(l.child)) throw new Error(`Tribes view: ${l.child} has two parents (${parentOf.get(l.child)!.parent} and ${l.parent})`);
+  parentOf.set(l.child, l);
+}
+const kidsOf = new Map<string, string[]>();
+for (const l of links) (kidsOf.get(l.parent) ?? kidsOf.set(l.parent, []).get(l.parent)!).push(l.child);
+const inTree = new Set(links.flatMap((l) => [l.child, l.parent]));
+const treeGroups = groups.filter((g) => inTree.has(g.node.id));
+if (treeGroups.length < FLOOR) throw new Error(`Tribes view: only ${treeGroups.length} groups are joined by edges (fewer than ${FLOOR}); draw the mentions field instead`);
+const roots = treeGroups.filter((g) => !parentOf.has(g.node.id)).map((g) => g.node.id);
+const edgeKey = new Set(fwd.map((e) => `${e.type}|${e.from}|${e.to}`));
+for (const l of links) {
+  const ok = l.type === "founder_of" ? (edgeKey.has(`founder_of|${l.parent}|${l.child}`) || edgeKey.has(`founder_of|${l.child}|${l.parent}`)) : edgeKey.has(`${l.type}|${l.child}|${l.parent}`);
+  if (!ok) throw new Error(`Tribes view: the connector ${l.child} to ${l.parent} has no ${l.type} edge`);
+}
+const mentions = (id: string) => (subj.get(id) ? total(subj.get(id)!) : 0);
+const shortName = (n: Node) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const nm = (id: string) => shortName(byId.get(id) as Node);
+const sortKids = (ids: string[]) => [...ids].sort((a, b) => Number(byId.get(b)!.class === "person") - Number(byId.get(a)!.class === "person") || mentions(b) - mentions(a) || nm(a).localeCompare(nm(b)) || a.localeCompare(b));
+
+// ---- rows, preorder; reject a loop
+interface Row { id: string; depth: number; y: number; idx: number; tuft: number }
+const index = new Map<string, number>();
+const tufts: Row[][] = [];
+const visiting = new Set<string>();
+const walk = (id: string, depth: number, out: Row[]) => {
+  if (visiting.has(id)) throw new Error(`Tribes view: the edges loop at ${id}`);
+  visiting.add(id);
+  index.set(id, index.size);
+  out.push({ id, depth, y: 0, idx: index.get(id)!, tuft: tufts.length });
+  for (const k of sortKids(kidsOf.get(id) ?? [])) walk(k, depth + 1, out);
+  visiting.delete(id);
+};
+const sizeOf = (id: string): number => 1 + (kidsOf.get(id) ?? []).reduce((a, k) => a + sizeOf(k), 0);
+for (const r of [...roots].sort((a, b) => sizeOf(b) - sizeOf(a) || mentions(b) - mentions(a) || a.localeCompare(b))) { const out: Row[] = []; walk(r, 0, out); tufts.push(out); }
+const drawnIds = tufts.flat().map((r) => r.id);
+if (new Set(drawnIds).size !== drawnIds.length) throw new Error("Tribes view: a subject is drawn twice");
+const maxM = Math.max(1, ...drawnIds.map(mentions));
+const radius = (id: string) => 4 + 9 * Math.sqrt(Math.min(1, mentions(id) / maxM));
+
+// ---- geometry of one tuft
+const TW = 320, RH = 30, IND = 22, X0 = 16;
+const f = (n: number) => String(Math.round(n * 10) / 10);
+const mx = (x: number) => (rtl ? TW - x : x);
+for (const t of tufts) t.forEach((r, i) => { r.y = 8 + i * RH + RH / 2; });
+const rowOf = new Map(tufts.flat().map((r) => [r.id, r]));
+const cxOf = (r: Row) => X0 + r.depth * IND;
+const connector = (l: Link) => {
+  const c = rowOf.get(l.child)!, p = rowOf.get(l.parent)!;
+  return `M${f(mx(cxOf(p)))} ${f(p.y + radius(l.parent))}V${f(c.y)}H${f(mx(cxOf(c) - radius(l.child) - 2))}`;
+};
+const tuftLinks = (i: number) => links.filter((l) => rowOf.get(l.parent)?.tuft === i);
+const diamond = (cx: number, cy: number, r: number) => `M${f(cx)} ${f(cy - r - 1)}L${f(cx + r + 1)} ${f(cy)}L${f(cx)} ${f(cy + r + 1)}L${f(cx - r - 1)} ${f(cy)}Z`;
+
+// ---- the groups with no edge to another subject
+const unlinked = groups.filter((g) => !inTree.has(g.node.id));
+const unlinkedBySection = TONES.map((sec) => ({ sec, items: unlinked.filter((g) => g.section === sec).sort((a, b) => total(b) - total(a) || nm(a.node.id).localeCompare(nm(b.node.id)) || a.node.id.localeCompare(b.node.id)) })).filter((s) => s.items.length > 0);
+const sectionName = (s: string) => N.sections[s]?.title ?? s;
+const subjectHref = (id: string) => { const s = ansabSlugById.get(id); return s ? `/${lang}/ansab/${s}/` : href(lang, id); };
+const corpusName = (c: string) => N.corpora?.[c]?.name ?? c;
+const founderCount = links.filter((l) => l.type === "founder_of" && byId.get(l.child)!.class === "person").length;
+const treeCount = treeGroups.length;
+const legendTones = TONES.map((t) => [t, sectionName(t)] as const);
+---
+<section aria-labelledby="sga-title" class="sga-wrap" data-sga style="margin-top:2rem">
+  <div data-pagefind-body>
+    <h2 id="sga-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{fmt(V.note, { n: num(treeCount, lang), t: num(groups.length, lang), u: num(unlinked.length, lang), r: num(roots.length, lang), e: num(links.length, lang) })}</p>
+  </div>
+  <ul class="sga-legend ui" aria-label={V.legend_title}>
+    {legendTones.map(([t, text]) => <li><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="9" cy="9" r="7" class={`sga-c ${t}`} /></svg>{text}</li>)}
+    <li><svg viewBox="0 0 30 12" width="30" height="12" aria-hidden="true" focusable="false"><path d="M2 6H28" class="sga-ico" /></svg>{V.lg_part}</li>
+    <li><svg viewBox="0 0 30 12" width="30" height="12" aria-hidden="true" focusable="false"><path d="M2 6H28" class="sga-ico dash" /></svg>{V.lg_founder}</li>
+    {founderCount > 0 && <li><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9 2L16 9L9 16L2 9Z" class="sga-c person" /></svg>{V.lg_person}</li>}
+  </ul>
+  <p class="ui muted sga-hint">{V.hint}</p>
+  <div class="sga-tufts">
+    {tufts.map((rows, ti) => (
+      <figure class="sga-tuft">
+        <svg viewBox={`0 0 ${TW} ${f(8 + rows.length * RH + 6)}`} width={TW} role="group" aria-label={fmt(V.tuft_label, { name: nm(rows[0].id), n: num(rows.length - 1, lang) })} direction={rtl ? "rtl" : "ltr"}>
+          <g class="sga-conn" aria-hidden="true">
+            {tuftLinks(ti).map((l) => <path class={l.type === "founder_of" ? "dash" : undefined} d={connector(l)} />)}
+          </g>
+          {rows.map((r) => {
+            const s = subj.get(r.id)!;
+            const cx = cxOf(r), rad = radius(r.id), m = mentions(r.id);
+            const person = byId.get(r.id)!.class === "person";
+            const tone = person ? "person" : s.section;
+            const labX = cx + rad + 8;
+            const avail = TW - labX - (m > 0 ? 40 : 8);
+            const p = parentOf.get(r.id);
+            return (
+              <a class={`sga-n ${r.depth === 0 ? "is-root" : ""}`} href={subjectHref(r.id)} data-k={r.idx} data-p={p ? index.get(p.parent) : undefined} data-sec={tone} data-c={ANSAB_CORPORA.map((c) => s.counts[c]).join(",")} aria-label={nm(r.id)}>
+                <rect class="sga-hit" y={f(r.y - RH / 2)} width={TW} height={RH} />
+                {person ? <path class="sga-c person" d={diamond(mx(cx), r.y, rad)} /> : <circle class={`sga-c ${tone}`} cx={f(mx(cx))} cy={f(r.y)} r={f(rad)} />}
+                <text class="sga-lab" x={f(mx(labX))} y={f(r.y)} text-anchor="start" dominant-baseline="central">{clip(nm(r.id), avail)}</text>
+                {m > 0 && <text class="sga-cnt" x={f(mx(TW - 8))} y={f(r.y)} text-anchor="end" dominant-baseline="central">{num(m, lang)}</text>}
+              </a>
+            );
+          })}
+        </svg>
+      </figure>
+    ))}
+  </div>
+  {unlinked.length > 0 && (
+    <div class="sga-unlinked">
+      <h3 class="ui">{fmt(V.unlinked_title, { n: num(unlinked.length, lang) })}</h3>
+      <p class="ui muted">{V.unlinked_note}</p>
+      {unlinkedBySection.map((s) => (
+        <div class="sga-ugroup">
+          <h4 class="ui"><span class={`sga-sw ${s.sec}`} aria-hidden="true"></span>{sectionName(s.sec)} · {num(s.items.length, lang)}</h4>
+          <ul role="list">
+            {s.items.map((g) => <li><a class="chip" href={subjectHref(g.node.id)}>{nm(g.node.id)}{total(g) > 0 ? <span class="muted"> · {num(total(g), lang)}</span> : null}</a></li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+  )}
+  <aside class="sga-panel panel" data-sga-panel aria-live="polite" hidden>
+    <div data-sga-body></div>
+    <button type="button" class="ui sga-close" data-sga-close hidden>{V.close}</button>
+  </aside>
+  <template data-sga-labels data-parent={V.r_parent} data-children={V.r_children} data-mentions={V.r_mentions} data-none={V.r_none} data-open={V.open} data-sep={lang === "en" ? ", " : "، "} data-corpora={ANSAB_CORPORA.map(corpusName).join("|")} data-sections={[...TONES.map(sectionName), V.lg_person].join("|")} data-tones={[...TONES, "person"].join("|")}></template>
+</section>
+<style is:inline>
+  .sga-wrap { --sga-tribes: var(--gold); --sga-peoples: var(--link); --sga-butun: color-mix(in srgb, var(--fg) 50%, var(--bg)); --sga-person: var(--card); }
+  .sga-legend { display: flex; flex-wrap: wrap; gap: 4px 20px; list-style: none; padding: 0; margin: 0 0 .6rem; font-size: .88rem; color: var(--muted); }
+  .sga-legend li { display: inline-flex; align-items: center; gap: 6px; min-height: 28px; }
+  .sga-ico { fill: none; stroke: var(--fg); stroke-opacity: .6; stroke-width: 2px; }
+  .sga-ico.dash, .sga-conn .dash { stroke-dasharray: 3 3; }
+  .sga-hint { margin: 0 0 .6rem; font-size: .88rem; }
+  .sga-c { stroke: var(--card); stroke-width: 1.4px; transition: fill .2s; }
+  .sga-c.tribes { fill: var(--sga-tribes); stroke: var(--gold-text); stroke-width: 1px; }
+  .sga-c.peoples { fill: var(--sga-peoples); }
+  .sga-c.butun { fill: var(--sga-butun); }
+  .sga-c.person { fill: var(--sga-person); stroke: var(--fg); stroke-width: 2px; stroke-opacity: .7; }
+  .sga-tufts { column-width: 330px; column-gap: 18px; }
+  .sga-tuft { margin: 0 0 16px; break-inside: avoid; border: 1px solid var(--line); border-radius: 16px; padding: 4px 0; background: radial-gradient(120% 60% at 50% 0%, color-mix(in srgb, var(--gold) 7%, transparent), transparent 70%); }
+  .sga-tuft svg { display: block; width: 100%; height: auto; max-width: 100%; font-family: inherit; }
+  .sga-conn path { fill: none; stroke: var(--fg); stroke-opacity: .42; stroke-width: 1.5px; stroke-linejoin: round; }
+  .sga-hit { fill: transparent; }
+  .sga-n { cursor: pointer; text-decoration: none; }
+  .sga-lab { font-size: 13px; fill: var(--fg); font-family: inherit; pointer-events: none; }
+  .sga-n.is-root .sga-lab { font-weight: 700; }
+  .sga-cnt { font-size: 12px; fill: var(--muted); font-family: inherit; pointer-events: none; }
+  .sga-n:hover .sga-hit, .sga-n.is-sel .sga-hit { fill: color-mix(in srgb, var(--gold) 14%, transparent); }
+  .sga-n:hover .sga-lab, .sga-n.is-sel .sga-lab, .sga-n:focus-visible .sga-lab { font-weight: 700; }
+  .sga-n.is-rel .sga-hit { fill: color-mix(in srgb, var(--gold) 9%, transparent); }
+  .sga-n:focus-visible { outline: none; }
+  .sga-n:focus-visible .sga-hit { stroke: var(--focus); stroke-width: 2.5px; fill: color-mix(in srgb, var(--gold) 14%, transparent); }
+  .sga-unlinked { margin-top: 1.4rem; }
+  .sga-unlinked h3 { margin: 0 0 .2rem; font-size: 1rem; font-weight: 600; }
+  .sga-unlinked > p { margin: 0 0 .6rem; font-size: .88rem; max-width: var(--measure); }
+  .sga-ugroup { margin: .8rem 0; }
+  .sga-ugroup h4 { margin: 0 0 .35rem; font-size: .92rem; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+  .sga-sw { display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 1px solid var(--line); }
+  .sga-sw.tribes { background: var(--sga-tribes); } .sga-sw.peoples { background: var(--sga-peoples); } .sga-sw.butun { background: var(--sga-butun); }
+  .sga-ugroup ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .sga-ugroup .chip { display: inline-flex; align-items: center; min-height: 36px; }
+  .sga-panel { position: sticky; bottom: 10px; margin: 12px auto 0; max-width: 640px; border: 1px solid var(--gold); box-shadow: 0 8px 28px rgba(10, 37, 51, .18); padding: 12px 16px; max-height: 40vh; overflow: auto; }
+  .sga-panel h4 { margin: 0 0 .15rem; font-size: 1.15rem; }
+  .sga-panel p { margin: .3rem 0 0; }
+  .sga-open { display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.1rem; border-radius: 999px; background: var(--gold); color: #0a2533; font-weight: 700; text-decoration: none; }
+  .sga-close { margin-top: .5rem; min-height: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; }
+  @media (prefers-reduced-motion: reduce) { .sga-c { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-ansab.ts"></script>
