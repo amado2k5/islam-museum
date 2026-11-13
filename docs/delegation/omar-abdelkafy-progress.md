@@ -2330,3 +2330,18 @@ Resume point: mawkib-al-nour episode 17 (branch from origin/main).
 | A passage making a sweeping generalisation about Jews, set beside a complaint about Muslims and Arabs, partly garbled | ep17 00:33:00-00:33:30 | A generalisation about a group, partly garbled; the sentence about Muslims and Arabs is kept as his opinion | Content rule, Clarity | Open; proposal for the founder to decide |
 
 Resume point: mawkib-al-nour episode 18 (branch from origin/main).
+
+(Correction to the ep17 note above: the episode 17 text added 6 new `about` edges, not 7.)
+
+### mawkib-al-nour ep18 (12 Nov 2026)
+
+27 points written for episode 18 (ar, en, ur); 17 needs_source marks per language file (ar 17, en 17, ur 17); 5 new `about` edges. Quran verses referenced only through passage links (25-25, 25-26, 25-27, 25-28, 25-29, 39-68, 4-28, 17-14, 17-15, 17-16, 27-34, 6-153, 12-108, 80-34, 80-35, 80-36, 80-37, 2-166, 2-167, 16-25, 33-41, 33-42, 33-43, 39-22, 83-29, 83-30, 83-31, 9-51, 53-42, 9-40, 42-50, 2-85); none typed. Proposal for the founder, not applied: the story of an unnamed group meeting a communist leader in 1969 (ep18 00:14:00) is recorded as his anecdote with no chain and no names; the dialogue between Ayyub and Iblis (00:25:30) has no chain; the claims about pesticides and hormones in food and the count of television serials (00:34:00-00:37:00) are unsourced.
+
+| Excluded (mawkib-al-nour ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and supplication, and the closing prayer | ep18 00:00:00-00:01:30 (recitation, Quran text never typed; the opening supplication), 00:41:30-00:42:00 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep18 00:20:30 (a long repeated word), 00:29:30-00:30:00 (a long repeated syllable), 00:37:30 (a long repeated syllable), 00:38:00 (a long repeated syllable), 00:41:00 (a long repeated syllable) | Not recoverable | Clarity, Loop check | Open |
+| An aside on a claim about an East Asian leader and a dissolved raptor-eating remark and a garbled remark on altering God's creation | ep18 00:37:00-00:37:30 | Garbled, partly unreadable | Clarity | Open |
+| A garbled remark that a speaker called the Mao-era delegation by an unreadable name and a passage on the ear and the pause of the heart | ep18 00:03:30, 00:20:30 | Garbled | Clarity | Open |
+
+Resume point: mawkib-al-nour episode 19 (branch from origin/main).
