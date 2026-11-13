@@ -1,0 +1,58 @@
+id: dec-20261113-276
+kind: override
+date: 2026-11-13
+question_hash: 5fe1b1dcc641
+lane: signature-views
+class: engineering
+modality: repo
+domain: content
+mode: conservative
+question: "Ibadat Browser rosette: the practice records carried no worship family, and the view grouped 41 of them from a table typed into the component. Where should the grouping live, and what
+  happens to a practice whose record names no family (for example practice/nadhr, which had been placed under supplication only through the Du'a Browser's section tag)?"
+options:
+  - an ibadat-<topic> tag on each practice record, read by ibadatTagTopics; a practice whose record names no family is listed under the rosette, not placed (chosen, on the founder's instruction in
+    chat on 13 November 2026 to add a tag to each practice record and remove the table)
+  - keep the table in the component
+  - leave every practice ungrouped
+evidence:
+  - "founder in chat, 13 November 2026: add a tag to each practice record and remove the table"
+  - amado2k5/islam-museum pull request 6536
+  - scripts/ibadat.ts ibadatTagTopics
+  - "eleven practices name no family and await classification from sources: aqiqa, ashura, dafn, eid-al-adha, eid-al-fitr, kaffarat-al-yamin, khitan, mawlid-al-nabi, nadhr, udhiyya, ziyarat-al-qubur"
+  - 'engine dry run, 13 November 2026: step safe-default: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"'
+status: decided
+step: override
+decision: The worship family of a practice is an ibadat-<topic> tag on the practice record, read by ibadatTagTopics; 41 records carry it and the table in the component is removed. A practice whose
+  record names no family is listed under the rosette, not placed; eleven await classification from sources.
+correct_outcome: grouping-on-the-record-not-in-the-view
+wrong_outcome: generic-safe-default-hold-on-an-applied-choice
+confidence: 1
+reversible: true
+rationale: The founder instructed in chat on 13 November 2026 to add a tag to each practice record and remove the table. The engine held at safe-default, having no rule for where a view's grouping
+  lives. practice/nadhr had been placed under supplication only through the Du'a Browser's section tag, which is not a statement about its worship family, so it joins the unplaced row until its record
+  names one.
+supersedes: null
+override_reason:
+  category: founder-verdict
+  detail: "Founder instruction in chat, 13 November 2026: 'add a tag to each practice record and remove the table'. Enacted as an override of the safe-default hold."
+  overridden_by: "agent: Claude Code (signature views, Fable 5.2)"
+signals:
+  matched_rule_id: null
+  question_domain: content
+  expected_domain: content
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: claude-code-signature-views
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: 2026-11-13
+    note: merged in amado2k5/islam-museum pull request 6536
+expires_at: 2027-11-13
