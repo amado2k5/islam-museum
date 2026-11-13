@@ -28,31 +28,31 @@ King notes that works by Maragha scholars appear in the introduction to Ibn al-S
 
 Ibn al-Shatir worked in [[place/damascus|Damascus]] as head timekeeper at the Umayyad Mosque, combining instruments, tables and theory. King distinguishes his importance in planetary theory from his timekeeping work, comparing the latter with his colleague al-Khalili's. Excellence in one subject does not require surpassing every contemporary in every other subject {cite:king-ibn-shatir-bea opening-and-timekeeping}.
 
-Roberts studied a microfilm of Bodleian Marsh139, reporting that it was copied in768AH, paired with1366. This attests to the book by that time, not an exact invention date. The record therefore uses an open-start bound ending in1366; it does not turn a witness's copying date into a day of composition, observation or discovery {cite:roberts-shatir-1957 p428}.
+Roberts studied a microfilm of Bodleian Marsh139, reporting that it was copied in 768 AH, paired with 1366. This attests to the book by that time, not an exact invention date. The record therefore uses an open-start bound ending in 1366; it does not turn a witness's copying date into a day of composition, observation or discovery {cite:roberts-shatir-1957 p428}.
 
 ## The maker(s)
 
 **Sunni frame:** King explicitly identifies Ibn al-Shatir himself as Muslim, providing an individual basis for Muslim identity. Sunni is the separately declared museum default, not this source's testimony to his personal legal school. The record does not infer religious identity from his name, city or employment alone {cite:king-ibn-shatir-bea opening}.
 
-Birth accounts remain distinct: the existing museum biography reports Ibn Hajar's Rabi al-Awwal704AH, Dizer gives Shaban705AH/March1306, and King writes circa1305. This article neither replaces the earlier text nor invents a calendrical reconciliation. It attributes the alternatives; understanding the lunar construction does not depend on resolving the birth date {cite:durar-kamina-jil-1993 3/8} {cite:tdv-ibn-shatir-dizer biography} {cite:king-ibn-shatir-bea heading}.
+Birth accounts remain distinct: the existing museum biography reports Ibn Hajar's Rabi al-Awwal704 AH, Dizer gives Shaban705 AH/March1306, and King writes circa 1305. This article neither replaces the earlier text nor invents a calendrical reconciliation. It attributes the alternatives; understanding the lunar construction does not depend on resolving the birth date {cite:durar-kamina-jil-1993 3/8} {cite:tdv-ibn-shatir-dizer biography} {cite:king-ibn-shatir-bea heading}.
 
 ## How it works
 
-Roberts gives a carrying-circle radius of60 normalized units and epicycle radii of6;35 and1;25. The semicolon separates the integer from sexagesimal fractions:6;35 means six plus thirty-five sixtieths, not decimal6.35. These are ratios within the model's presentation, not modern distances in kilometres {cite:roberts-shatir-1957 p431}.
+Roberts gives a carrying-circle radius of 60 normalized units and epicycle radii of 6;35 and 1;25. The semicolon separates the integer from sexagesimal fractions:6;35 means six plus thirty-five sixtieths, not decimal6.35. These are ratios within the model's presentation, not modern distances in kilometres {cite:roberts-shatir-1957 p431}.
 
-In our teaching arithmetic, the small radii become395/60 and85/60. Their sum is480/60, or8; their difference is310/60, or5;10. Aligning or opposing two arrows changes their resultant length between those limits. This is a modern consistency check on printed numbers, not fractional notation claimed to come from the author's manuscript {cite:roberts-shatir-1957 pp431–432}.
+In our teaching arithmetic, the small radii become 395/60 and 85/60. Their sum is 480/60, or 8; their difference is 310/60, or 5;10. Aligning or opposing two arrows changes their resultant length between those limits. This is a modern consistency check on printed numbers, not fractional notation claimed to come from the author's manuscript {cite:roberts-shatir-1957 pp431–432}.
 
-Roberts associates mean conjunction and opposition with an apparent epicycle radius of5;10 and quadratures with a limit of8. Conjunction and opposition concern relative solar and lunar longitudes; quadrature is a quarter-turn separation. This does not turn a dated true phase into an independent measurement of every circle: coordinated motions, not arrow lengths alone, govern the complete model {cite:roberts-shatir-1957 p431}.
+Roberts associates mean conjunction and opposition with an apparent epicycle radius of 5;10 and quadratures with a limit of 8. Conjunction and opposition concern relative solar and lunar longitudes; quadrature is a quarter-turn separation. This does not turn a dated true phase into an independent measurement of every circle: coordinated motions, not arrow lengths alone, govern the complete model {cite:roberts-shatir-1957 p431}.
 
-Comparing60 with5;10 gives54;50 and65;10; comparing it with8 gives52 and68. The ratio68/52 is17/13, approximately1.30769. These are checks on published magnitudes, not a reimplementation of the tables or a certificate that the model's error against modern observations equals a particular number {cite:roberts-shatir-1957 pp431–432}.
+Comparing60 with 5;10 gives 54;50 and 65;10; comparing it with 8 gives 52 and 68. The ratio 68/52 is 17/13, approximately1.30769. These are checks on published magnitudes, not a reimplementation of the tables or a certificate that the model's error against modern observations equals a particular number {cite:roberts-shatir-1957 pp431–432}.
 
-Dizer prints43;50 as the lower conjunction/opposition bound, whereas Roberts's printed page432, visually inspected, gives54;50. We retain the disagreement rather than silently correcting the source. Roberts also distinguishes the mean angular diameter taken from the text from the extremes he calculated himself; the modern scholar's entire calculation must not be reassigned to the historical author {cite:tdv-ibn-shatir-dizer lunar-model} {cite:roberts-shatir-1957 p432}.
+Dizer prints 43;50 as the lower conjunction/opposition bound, whereas Roberts's printed page 432, visually inspected, gives 54;50. We retain the disagreement rather than silently correcting the source. Roberts also distinguishes the mean angular diameter taken from the text from the extremes he calculated himself; the modern scholar's entire calculation must not be reassigned to the historical author {cite:tdv-ibn-shatir-dizer lunar-model} {cite:roberts-shatir-1957 p432}.
 
 ## The spread
 
 King reports that Ibn al-Shatir's handbook was used, commented on and adapted in Damascus and Cairo for centuries, while instrument treatises remained popular in Syria, Egypt and Turkey. Circulation of tables or instrument manuals does not establish that all their users adopted the theoretical lunar construction or retested its distances. The source distinguishes practical calculation's reception from interest in the models {cite:king-ibn-shatir-bea reception}.
 
-European transmission remains attributed: Roberts in1957 leaves the question open and allows independent solutions; King later regards the reappearance of model details as evidence of some transmission. The museum does not combine these into an undocumented travel story. No named translator or particular Latin witness connecting this lunar theory with Copernicus has been established here {cite:roberts-shatir-1957 p432} {cite:king-ibn-shatir-bea reception}.
+European transmission remains attributed: Roberts in 1957 leaves the question open and allows independent solutions; King later regards the reappearance of model details as evidence of some transmission. The museum does not combine these into an undocumented travel story. No named translator or particular Latin witness connecting this lunar theory with Copernicus has been established here {cite:roberts-shatir-1957 p432} {cite:king-ibn-shatir-bea reception}.
 
 ## What it was built on
 
@@ -76,7 +76,7 @@ Readers can nevertheless see the importance of a better question: not only where
 
 Modern study revealed that astronomy before Copernicus was not simply repeated copying of one unchanged construction. Roberts presents a particular surviving Arabic work, investigates its mathematics and states the limits of what he can conclude about influence. That historical value does not require an absolute-priority slogan or an imagined competition between modern nations {cite:roberts-shatir-1957 pp428,431–432}.
 
-King dates the investigation of Ibn al-Shatir's planetary theory to the1950s and describes research into sources and influence as still preliminary in his account. The dates of scholarship should therefore be read alongside the dates of the models. A1957 conclusion and a later biographer's interpretation are not identical witnesses or a definitive inventory of everything subsequently discovered {cite:king-ibn-shatir-bea opening-and-reception}.
+King dates the investigation of Ibn al-Shatir's planetary theory to the 1950s and describes research into sources and influence as still preliminary in his account. The dates of scholarship should therefore be read alongside the dates of the models. A1957 conclusion and a later biographer's interpretation are not identical witnesses or a definitive inventory of everything subsequently discovered {cite:king-ibn-shatir-bea opening-and-reception}.
 
 ## Who invented it?
 
@@ -92,7 +92,7 @@ The visible image is modern and generic: arrows join Earth to a near and a far p
 
 ## Surviving examples
 
-In1957 Roberts listed five witnesses: four at the Bodleian and one at Leiden, using Marsh139 for his study. This is an inventory dated to the article, not a present worldwide census or evidence that the museum inspected every copy. A manuscript copied within the author's lifetime, as described by Roberts, is not thereby an autograph {cite:roberts-shatir-1957 p428}.
+In 1957 Roberts listed five witnesses: four at the Bodleian and one at Leiden, using Marsh139 for his study. This is an inventory dated to the article, not a present worldwide census or evidence that the museum inspected every copy. A manuscript copied within the author's lifetime, as described by Roberts, is not thereby an autograph {cite:roberts-shatir-1957 p428}.
 
 King distinguishes the surviving theoretical treatise and new handbook from the observational work with no known copy. These are different layers of survival and transmission. A surviving table does not fill the gap of a missing observational book, and an original instrument by the same maker does not turn every mathematical theory into a diagram engraved on that instrument {cite:king-ibn-shatir-bea planetary-works-and-instruments}.
 
@@ -106,11 +106,11 @@ Ibn al-Shatir should not be reduced to someone who preceded a European name. His
 
 Make two paper arrows, one longer than the other, and place the second's beginning at the first's end. Pointing in the same direction gives their summed length; opposing them gives the difference. Intermediate positions change the distance to the final point. This teaches a resultant, not a historical machine or every aspect of lunar movement {cite:roberts-shatir-1957 p431}.
 
-Choose lengths8 and3 in paper units: their sum is11 and difference5. Draw intermediate positions and notice that the endpoint is not always equally far away. Keep this miniature example separate from Roberts's published radii, and ask of each image whether it is historical evidence or modern explanation. No solar viewing or optical instrument is needed {cite:roberts-shatir-1957 pp431–432} {cite:commons-apogee-psf description-and-history}.
+Choose lengths8 and 3 in paper units: their sum is 11 and difference5. Draw intermediate positions and notice that the endpoint is not always equally far away. Keep this miniature example separate from Roberts's published radii, and ask of each image whether it is historical evidence or modern explanation. No solar viewing or optical instrument is needed {cite:roberts-shatir-1957 pp431–432} {cite:commons-apogee-psf description-and-history}.
 
 ## References
 
-- Roberts1957, complete article428–432; printed Figure2 and numbers431–432 visually inspected {cite:roberts-shatir-1957 pp428–432}.
+- Roberts1957, complete article 428–432; printed Figure2 and numbers 431–432 visually inspected {cite:roberts-shatir-1957 pp428–432}.
 - King, complete biography and bibliography: identity, works and reception {cite:king-ibn-shatir-bea complete-entry}.
 - Dizer2000, complete entry; numerical disagreement retained, not silently corrected {cite:tdv-ibn-shatir-dizer lunar-model}.
 - Earlier museum Ibn Hajar and Kashf al-zunun citations; originals not reread for this article {cite:durar-kamina-jil-1993 3/8} {cite:kashf-zunun-furqan pp570–571}.

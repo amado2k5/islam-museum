@@ -19,7 +19,7 @@ The default is that materials are lawful unless a text forbids them, as silk is 
 
 ## Colours
 - White is recommended and used for shrouds, following the report of Samura ibn Jundab. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3270}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3271}
-- Red: some Hanafis and Hanbalis disliked pure red for men; others allowed it if not dyed with saffron or safflower, citing a red garment the Prophet wore on feast days. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3271}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3272}
+- Red: some Hanafis and Hanbalis disliked pure red for men; others allowed it if not dyed with saffron or safflower, citing that the Prophet wore a red garment (hulla). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3271}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3272}
 - Black: permitted to men and women without dislike. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3272}
 - Yellow: permitted unless dyed with safflower or saffron. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3272}
 - Green: some jurists recommended it, citing the green garments of the people of Paradise in the Qur'an. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3273}

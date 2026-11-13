@@ -15,7 +15,7 @@ provenance:
 ---
 ## Summary
 
-In al-Andalus, [[person/al-zarqali|Ibrahim ibn Yahya al-Zarqali]] developed an independent equatorium, an instrument representing planetary geometry to assist computation of positions {cite:zarqali-puig-bea pp. 1258–1260}. Deferents and associated circles occupy both sides of one plate, epicycles a second; Roser Puig dates construction and use treatises approximately1080/1081 and1081/1082 {cite:zarqali-puig-bea pp. 1258–1260}. Ibn al-Samh had an earlier equatorium: this is not planetary computation invented from nothing {cite:zarqali-puig-bea pp. 1258–1260}. It differs from his [[invention/universal-astrolabe-al-zarqali|universal astrolabe plate]], and our photograph depicts a much later object, not his own handiwork {cite:zarqali-puig-bea pp. 1258–1260} {cite:commons-liverpool-equatorium Description}.
+In al-Andalus, [[person/al-zarqali|Ibrahim ibn Yahya al-Zarqali]] developed an independent equatorium, an instrument representing planetary geometry to assist computation of positions {cite:zarqali-puig-bea pp. 1258–1260}. Deferents and associated circles occupy both sides of one plate, epicycles a second; Roser Puig dates construction and use treatises approximately 1080/1081 and 1081/1082 {cite:zarqali-puig-bea pp. 1258–1260}. Ibn al-Samh had an earlier equatorium: this is not planetary computation invented from nothing {cite:zarqali-puig-bea pp. 1258–1260}. It differs from his [[invention/universal-astrolabe-al-zarqali|universal astrolabe plate]], and our photograph depicts a much later object, not his own handiwork {cite:zarqali-puig-bea pp. 1258–1260} {cite:commons-liverpool-equatorium Description}.
 
 ## What it is
 
@@ -23,11 +23,11 @@ An equatorium is a geometrical calculating instrument, not a telescope enlarging
 
 ## The world before it
 
-Astronomers were not waiting for al-Zarqali to discover calculation or instrument making: Puig identifies Ibn al-Samh's equatorium, circa1025/1026, as a specific predecessor {cite:zarqali-puig-bea pp. 1258–1260}. Al-Zarqali's own environment combined making instruments, observation and astronomical tables organising data and calculations {cite:zarqali-puig-bea pp. 1258–1260}. The useful historical question is therefore how he rearranged an existing means of modelling planets, not who first knew that planets existed {cite:zarqali-puig-bea pp. 1258–1260}.
+Astronomers were not waiting for al-Zarqali to discover calculation or instrument making: Puig identifies Ibn al-Samh's equatorium, circa 1025/1026, as a specific predecessor {cite:zarqali-puig-bea pp. 1258–1260}. Al-Zarqali's own environment combined making instruments, observation and astronomical tables organising data and calculations {cite:zarqali-puig-bea pp. 1258–1260}. The useful historical question is therefore how he rearranged an existing means of modelling planets, not who first knew that planets existed {cite:zarqali-puig-bea pp. 1258–1260}.
 
 ## The story
 
-The scholarly biography places al-Zarqali between metalworking, study and observation, describing work around [[place/tulaytula|Toledo]] and a move to [[place/cordoba|Cordoba]] at an uncertain point between1081 and1085 {cite:zarqali-puig-bea pp. 1258–1260}. His equatorium treatises are dedicated to al-Mu'tamid, not the Abbasid al-Mamun: this is the patronage setting of the Andalusi kingdoms {cite:zarqali-puig-bea pp. 1258–1260}. These clues do not establish the design workshop's precise city, so the record names al-Andalus without an unjustifiably exact construction point on a map {cite:zarqali-puig-bea pp. 1258–1260}.
+The scholarly biography places al-Zarqali between metalworking, study and observation, describing work around [[place/tulaytula|Toledo]] and a move to [[place/cordoba|Cordoba]] at an uncertain point between 1081 and 1085 {cite:zarqali-puig-bea pp. 1258–1260}. His equatorium treatises are dedicated to al-Mu'tamid, not the Abbasid al-Mamun: this is the patronage setting of the Andalusi kingdoms {cite:zarqali-puig-bea pp. 1258–1260}. These clues do not establish the design workshop's precise city, so the record names al-Andalus without an unjustifiably exact construction point on a map {cite:zarqali-puig-bea pp. 1258–1260}.
 
 The two treatises distinguish construction from use: describing where circles belong differs from explaining what an operator does with them {cite:zarqali-puig-bea pp. 1258–1260}. Their approximate dates are not a documented invention day or the date of surviving original hardware {cite:zarqali-puig-bea pp. 1258–1260}.
 
@@ -54,7 +54,7 @@ Puig identifies a named theoretical work on Mercury: al-Zarqali's lost treatise 
 
 MacTutor reports a pine-nut comparison for the oval path of Mercury's epicycle centre in a work on the seven planets {cite:zarqali-mactutor Mercury discussion}. The analogy conveys non-circular geometry but supplies neither axis lengths, foci nor a complete position equation {cite:zarqali-mactutor Mercury discussion}. MacTutor also criticizes a modern headline claiming discovery of elliptical planetary orbits before Kepler, distinguishing an epicycle centre in an older model from a planet's orbit around the Sun {cite:zarqali-mactutor Mercury discussion}. That distinction limits the object described rather than dismissing its significance.
 
-For the computational context, Puig describes the Toledan Tables as a team project led by Said al-Andalusi, with al-Zarqali a prominent member; material from al-Khwarizmi and al-Battani was adapted to Toledo, while mean-motion tables used the team's observations {cite:zarqali-puig-bea pp.1258–1260}. Completion before Said's Tabaqat in1068bounds the collective tables, not construction of the two-plate instrument {cite:zarqali-puig-bea pp.1258–1260}. An author's involvement in tables and instruments does not make the instrument a printed table or all team members makers of its parts.
+For the computational context, Puig describes the Toledan Tables as a team project led by Said al-Andalusi, with al-Zarqali a prominent member; material from al-Khwarizmi and al-Battani was adapted to Toledo, while mean-motion tables used the team's observations {cite:zarqali-puig-bea pp.1258–1260}. Completion before Said's Tabaqat in 1068 bounds the collective tables, not construction of the two-plate instrument {cite:zarqali-puig-bea pp.1258–1260}. An author's involvement in tables and instruments does not make the instrument a printed table or all team members makers of its parts.
 
 The biography separately describes a variable-eccentricity solar model, al-Zarqali's account of solar-apogee motion, and its later astronomical influence {cite:zarqali-puig-bea pp.1258–1260}. This theoretical work is not evidence that every improvement became a physical component of the equatorium: theory concerns the relationships represented, while the plates organize circles and their readable positions {cite:zarqali-puig-bea pp.1258–1260}. Three layers can thus be distinguished: observation and location-specific tables, discussion of geometric models, and an instrument organizing their representation. Their documented context is not a proven lineage for every unread detail.
 
@@ -79,7 +79,7 @@ This example shows that innovation can rearrange elements without replacing an e
 
 ## Today
 
-Our photograph shows a later World Museum Liverpool instrument, described as circa1600 and possibly French; plates, arms and small circles overlap a graduated disc {cite:commons-liverpool-equatorium Description; image}. Reptonix's photograph is CC BY3.0, not a reconstruction of al-Zarqali's instrument {cite:commons-liverpool-equatorium Licensing}. Cambridge's simulation helps explain another instrument: its reported accuracy is not assigned to the Andalusi design, which the project account read does not test {cite:cambridge-equatorie-project project account}.
+Our photograph shows a later World Museum Liverpool instrument, described as circa 1600 and possibly French; plates, arms and small circles overlap a graduated disc {cite:commons-liverpool-equatorium Description; image}. Reptonix's photograph is CC BY3.0, not a reconstruction of al-Zarqali's instrument {cite:commons-liverpool-equatorium Licensing}. Cambridge's simulation helps explain another instrument: its reported accuracy is not assigned to the Andalusi design, which the project account read does not test {cite:cambridge-equatorie-project project account}.
 
 ## Surviving examples
 
@@ -95,7 +95,7 @@ Imagine a diagram helping you follow a planet's position: al-Zarqali gathered la
 
 ## References
 
-- [[source/zarqali-puig-bea|Roser Puig, al-Zarqali biography]], pp1258–1260, equatorium paragraph and selected references.
+- [[source/zarqali-puig-bea|Roser Puig, al-Zarqali biography]], pp 1258–1260, equatorium paragraph and selected references.
 - [[source/zarqali-mactutor|MacTutor]], summary, complete Mercury paragraph and closing paragraphs.
 - [[source/bibalex-astrolabe-949|Bibliotheca Alexandrina]], Muslim-astronomers section.
 - [[source/cambridge-equatorie-project|Cambridge project]], comparative institutional account, not al-Zarqali's manuscript.

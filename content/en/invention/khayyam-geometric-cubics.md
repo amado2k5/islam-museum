@@ -24,7 +24,7 @@ For cubics, the entry names al-Mahani's reduction of an Archimedean problem to a
 
 ## The story
 
-MacTutor associates Khayyam's move to [[place/samarqand|Samarkand]] in1070 with Abu Tahir's support and the algebra treatise; we use this as approximate composition context, not a day of first discovery or construction {cite:khayyam-mactutor Samarkand and algebra}. Organization by equation type allowed a question beyond a single example: what happens when the combination of terms changes, and can an intersection provide the required magnitude? His systematic treatment makes that broader question visible {cite:sep-umar-khayyam sec.4.1}.
+MacTutor associates Khayyam's move to [[place/samarqand|Samarkand]] in 1070 with Abu Tahir's support and the algebra treatise; we use this as approximate composition context, not a day of first discovery or construction {cite:khayyam-mactutor Samarkand and algebra}. Organization by equation type allowed a question beyond a single example: what happens when the combination of terms changes, and can an intersection provide the required magnitude? His systematic treatment makes that broader question visible {cite:sep-umar-khayyam sec.4.1}.
 
 Stanford also describes an early geometric problem involving division of a quadrant, leading in modern notation to a cubic treated with a circle and hyperbola; that problem should not be confused with the circle/parabola case explained below {cite:sep-umar-khayyam sec.4.1}. Different curve pairs are part of the method, not an inconsistency to hide behind one attractive diagram. A city marker does not establish the exact room or writing surface used.
 
@@ -40,7 +40,7 @@ Take one case from the French translation, in which a cube and linear terms equa
 
 Substituting for `y` gives `x⁴/a² = xb/a² − x²`, hence `x(x³ + a²x − b) = 0`. Care is essential: the origin lies on both curves but does not solve the original cubic when `b` is positive. We choose the positive, nonzero intersection; dividing out `x` then shows that its horizontal coordinate meets the requirement. This is a mathematical condition, not an optional visual detail.
 
-For a modern example chosen here for teaching, not numbers claimed from Khayyam's text, set `a=2`, `b=16`: the cubic is `x³+4x=16`, the parabola `y=x²/2`, and the circle has center `(2,0)` and radius2. Both pass through `(2,2)`, giving the horizontal length `x=2`; verification is direct: `8+8=16`. The translated text instead proves the result with lengths and proportions: page33 names the parabola, semicircle and perpendicular projections, not this modern numerical example {cite:khayyam-woepcke-1851 pp.32–34}.
+For a modern example chosen here for teaching, not numbers claimed from Khayyam's text, set `a=2`, `b=16`: the cubic is `x³+4x=16`, the parabola `y=x²/2`, and the circle has center `(2,0)` and radius2. Both pass through `(2,2)`, giving the horizontal length `x=2`; verification is direct: `8+8=16`. The translated text instead proves the result with lengths and proportions: page 33 names the parabola, semicircle and perpendicular projections, not this modern numerical example {cite:khayyam-woepcke-1851 pp.32–34}.
 
 This example does not prove that Khayyam's treatment encompassed everything now known about roots: MacTutor and Stanford explain limits in his handling of multiple positive solutions, and positive geometric lengths are not a theory of complex numbers {cite:khayyam-mactutor algebra} {cite:sep-umar-khayyam sec.4.1}. We preserve both the construction's achievement and its limits rather than sacrificing either to an easier story.
 
@@ -88,9 +88,9 @@ Modern notation serves explanation while the text's date and location remain exp
 
 ## Surviving examples
 
-The specific witness read is Woepcke's1851 translation, particularly32–34 and the construction associated with figure17; page33's image was checked in the public reader for its parabola and semicircle wording {cite:khayyam-woepcke-1851 pp.32–34}. This is inspection of a printed translated witness, not identification of an autograph or independent collation of the entire Arabic.
+The specific witness read is Woepcke's1851 translation, particularly 32–34 and the construction associated with figure 17; page 33's image was checked in the public reader for its parabola and semicircle wording {cite:khayyam-woepcke-1851 pp.32–34}. This is inspection of a printed translated witness, not identification of an autograph or independent collation of the entire Arabic.
 
-The coloured diagram witnesses modern teaching, dated2011 in its upload history, not the first eleventh-century construction {cite:commons-khayyam-cubic-kuiper upload history}. Maintaining that difference prevents a picture's date being mistaken for an idea's date, or every museum illustration being taken for an object from its subject's lifetime.
+The coloured diagram witnesses modern teaching, dated 2011 in its upload history, not the first eleventh-century construction {cite:commons-khayyam-cubic-kuiper upload history}. Maintaining that difference prevents a picture's date being mistaken for an idea's date, or every museum illustration being taken for an object from its subject's lifetime.
 
 ## In culture
 
@@ -106,8 +106,8 @@ In our modern example2 meets `2³+4×2=16`. Zero does not, even though both curv
 
 ## References
 
-- Woepcke1851, French algebra translation32–34, figure17 construction; page33 visually checked, no independent Arabic collation. {cite:khayyam-woepcke-1851 pp.32–34}
-- Stanford Encyclopedia, revised2023,2.7 and4.1: philosophical identity, classification, predecessors and limits. {cite:sep-umar-khayyam secs.2.7,4.1}
+- Woepcke1851, French algebra translation 32–34, figure 17 construction; page 33 visually checked, no independent Arabic collation. {cite:khayyam-woepcke-1851 pp.32–34}
+- Stanford Encyclopedia, revised 2023,2.7 and 4.1: philosophical identity, classification, predecessors and limits. {cite:sep-umar-khayyam secs.2.7,4.1}
 - Unat, TDV34(2007),66–68: scientific section, not the separate literary contribution. {cite:tdv-omer-hayyam-unat pp.66–68}
 - O'Connor and Robertson, MacTutor, July1999 update: biography, Samarkand, algebraic limits and schoolfriend legend. {cite:khayyam-mactutor}
 - Commons, Kuiper diagram/Koot colour edit: upload history and PD dedication. {cite:commons-khayyam-cubic-kuiper description and upload history}

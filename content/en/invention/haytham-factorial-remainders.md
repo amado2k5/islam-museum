@@ -8,13 +8,13 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 ---
 ## Summary
 
-MacTutor presents [[person/ibn-al-haytham|Ibn al-Haytham]] considering a number that leaves remainder1 on division by2,3,4,5 and6, but is divisible by7. It explains a construction multiplying the consecutive integers and adding one:6!+1=721. This is a particular number-theoretic contribution, not the invention of every remainder problem or every set of simultaneous conditions {cite:haytham-mactutor number-theory}.
+MacTutor presents [[person/ibn-al-haytham|Ibn al-Haytham]] considering a number that leaves remainder1 on division by 2,3,4,5 and 6, but is divisible by 7. It explains a construction multiplying the consecutive integers and adding one:6!+1=721. This is a particular number-theoretic contribution, not the invention of every remainder problem or every set of simultaneous conditions {cite:haytham-mactutor number-theory}.
 
-The account invokes what is now called Wilson's theorem and reports a second method giving all solutions, without reproducing its details. We distinguish that report from the museum's independent modern family301+420j. Nor is721 the least positive answer:301 is smaller and meets exactly the same conditions {cite:haytham-mactutor number-theory} {cite:weisstein-wilson-theorem eq1}.
+The account invokes what is now called Wilson's theorem and reports a second method giving all solutions, without reproducing its details. We distinguish that report from the museum's independent modern family 301+420j. Nor is 721 the least positive answer:301 is smaller and meets exactly the same conditions {cite:haytham-mactutor number-theory} {cite:weisstein-wilson-theorem eq1}.
 
 ## What it is
 
-A remainder is what remains after removing a whole number of multiples of the divisor. Saying that721 leaves1 on division by6 means721=6×120+1, not that its quotient is1. The problem requires several conditions at once. Meeting one condition alone is not a fully checked solution {cite:haytham-mactutor number-theory}.
+A remainder is what remains after removing a whole number of multiples of the divisor. Saying that 721 leaves1 on division by 6 means 721=6×120+1, not that its quotient is 1. The problem requires several conditions at once. Meeting one condition alone is not a fully checked solution {cite:haytham-mactutor number-theory}.
 
 Factorial is our modern shorthand for multiplying successive positive integers:6!=1×2×3×4×5×6=720. The exclamation mark is mathematical notation, not punctuation copied from Ibn al-Haytham's original. We explain the relationship in language accessible today while keeping the reported historical construction separate from our way of checking it {cite:weisstein-wilson-theorem definition}.
 
@@ -38,15 +38,15 @@ Wilson is the modern name attached to the arithmetic result. MathWorld discusses
 
 ## How it works
 
-Every integer from2 through6 is a factor of720. Division of720 by any of them leaves0, so division of721 leaves1. That alone does not establish divisibility by7. The result now called Wilson's theorem supplies the prime condition: for primep, the number(p−1)!+1 is divisible byp. Here721=7×103 {cite:weisstein-wilson-theorem eq1} {cite:haytham-mactutor number-theory}.
+Every integer from 2 through6 is a factor of 720. Division of 720 by any of them leaves0, so division of 721 leaves1. That alone does not establish divisibility by 7. The result now called Wilson's theorem supplies the prime condition: for primep, the number(p−1)!+1 is divisible byp. Here721=7×103 {cite:weisstein-wilson-theorem eq1} {cite:haytham-mactutor number-theory}.
 
-This does not make721 prime: its factors7 and103 show the opposite. The prime condition concernsp, not the constructed answer. Nor can7 be replaced silently by an arbitrary composite: for4, the construction3!+1 gives7, which is not divisible by4. A formula valid under a hypothesis cannot be used after that hypothesis is discarded {cite:weisstein-wilson-theorem definition-and-composite-exception}.
+This does not make 721 prime: its factors7 and 103 show the opposite. The prime condition concernsp, not the constructed answer. Nor can7 be replaced silently by an arbitrary composite: for 4, the construction3!+1 gives 7, which is not divisible by 4. A formula valid under a hypothesis cannot be used after that hypothesis is discarded {cite:weisstein-wilson-theorem definition-and-composite-exception}.
 
-Here is an independent modern derivation of all positive answers, not a recovery of the historical second method. The least common multiple of2 through6 is60, soN=60k+1. Since60 leaves remainder4 on division by7, we need4k+1 divisible by7. This requiresk=5+7j, givingN=301+420j.
+Here is an independent modern derivation of all positive answers, not a recovery of the historical second method. The least common multiple of 2 through6 is 60, soN=60k+1. Since 60 leaves remainder4 on division by 7, we need4k+1 divisible by 7. This requiresk=5+7j, givingN=301+420j.
 
-Takej as a nonnegative integer for positive answers. The first are301,721 and1141. For example,301=5×60+1=7×43, while721=12×60+1=7×103. Listing a few answers does not alone prove completeness. Here completeness comes from reducing the conditions toN=60k+1 and solving the remaining condition modulo7, rather than stopping a search at an attractive number.
+Takej as a nonnegative integer for positive answers. The first are 301,721 and 1141. For example,301=5×60+1=7×43, while 721=12×60+1=7×103. Listing a few answers does not alone prove completeness. Here completeness comes from reducing the conditions toN=60k+1 and solving the remaining condition modulo7, rather than stopping a search at an attractive number.
 
-The increment420 explains repetition: it is divisible by60 and7, preserving every required remainder. Adding only7 to721 gives728, still divisible by7 but leaving2 rather than1 on division by6. Adding60 preserves the earlier conditions, not automatically the condition for7. An arbitrary increment therefore does not produce another answer. This checks the common period in our modern solution, not a list found in a manuscript or proof that our formulation reproduces the historical second method. Preserving one constraint differs from preserving the whole system.
+The increment 420 explains repetition: it is divisible by 60 and 7, preserving every required remainder. Adding only 7 to 721 gives 728, still divisible by 7 but leaving2 rather than 1 on division by 6. Adding60 preserves the earlier conditions, not automatically the condition for 7. An arbitrary increment therefore does not produce another answer. This checks the common period in our modern solution, not a list found in a manuscript or proof that our formulation reproduces the historical second method. Preserving one constraint differs from preserving the whole system.
 
 ## The spread
 
@@ -56,9 +56,9 @@ Reporting a second method also does not establish its adoption in every school o
 
 ## What it was built on
 
-The immediate ingredients are multiplying the integers and adding one, together with a particular condition for the final divisor. Without that final condition, answers of the form60k+1 remain, rather than a unique number. Repeated factors make720 a suitable common multiple, but not the least common multiple. Multiplying everything is not always the shortest construction {cite:haytham-mactutor number-theory}.
+The immediate ingredients are multiplying the integers and adding one, together with a particular condition for the final divisor. Without that final condition, answers of the form60k+1 remain, rather than a unique number. Repeated factors make 720 a suitable common multiple, but not the least common multiple. Multiplying everything is not always the shortest construction {cite:haytham-mactutor number-theory}.
 
-We use60 in the modern explanation because it combines the conditions for divisors2 through6. Those divisors are not pairwise coprime:2,4 and6 have common factors. We must not silently apply a formula restricted to pairwise-coprime moduli. Identifying the actual structure matters more than invoking the broad theorem's name.
+We use60 in the modern explanation because it combines the conditions for divisors2 through6. Those divisors are not pairwise coprime:2,4 and 6 have common factors. We must not silently apply a formula restricted to pairwise-coprime moduli. Identifying the actual structure matters more than invoking the broad theorem's name.
 
 ## What was built on it
 
@@ -70,13 +70,13 @@ For teaching, one can multiply step by step while retaining only the current rem
 
 The consulted passages record no merchants' time savings or contracts applying this example. The supported contribution belongs to research on simultaneous numerical conditions and multiple solutions. We invent no commercial anecdote to make the arithmetic an ancient everyday device; a question does not need a measured financial return to deserve explanation {cite:haytham-mactutor number-theory}.
 
-Today's reader gains a clear lesson: a correct answer need not be the smallest, and one answer is not every answer. A constructive method can produce a large, easily checked number while reformulating the conditions gives a shorter description of the entire family. That is a lesson from301 and721, not evidence of the author's personal economic motive.
+Today's reader gains a clear lesson: a correct answer need not be the smallest, and one answer is not every answer. A constructive method can produce a large, easily checked number while reformulating the conditions gives a shorter description of the entire family. That is a lesson from 301 and 721, not evidence of the author's personal economic motive.
 
 ## How it changed history
 
 The problem makes the author's non-optical mathematics visible: integers under simultaneous constraints, not only mirrors and eyes. Yet the fame of the Optics does not prove priority in every other subject. Attribution here remains bounded to a particular construction described in the historical account {cite:haytham-mactutor number-theory}.
 
-It also separates construction, verification and completeness. One can construct721, check each condition, then ask for smaller answers and the whole family. Those are different tasks. Reporting a second method shows that the historical account does not stop with producing the first number. We do not fill its missing details with a modern proof and conceal the substitution {cite:haytham-mactutor Opuscula}.
+It also separates construction, verification and completeness. One can construct 721, check each condition, then ask for smaller answers and the whole family. Those are different tasks. Reporting a second method shows that the historical account does not stop with producing the first number. We do not fill its missing details with a modern proof and conceal the substitution {cite:haytham-mactutor Opuscula}.
 
 ## Who invented it?
 
@@ -86,15 +86,15 @@ It also separates construction, verification and completeness. One can construct
 
 ## Today
 
-The image has two grey clocks labelled0,3,6,9, with+4h between them. The hand moves from9 to1:9+4=13, which leaves1 modulo12. This is a modern analogy for cyclic arithmetic, not Ibn al-Haytham's clock or a manuscript illustration. Nor is it the prime7 problem itself:12 is composite {cite:commons-clock-group-spindled current-image}.
+The image has two grey clocks labelled0,3,6,9, with+4h between them. The hand moves from 9 to 1:9+4=13, which leaves1 modulo 12. This is a modern analogy for cyclic arithmetic, not Ibn al-Haytham's clock or a manuscript illustration. Nor is it the prime7 problem itself:12 is composite {cite:commons-clock-group-spindled current-image}.
 
-Congruence does not mean13=1 as ordinary integers. It means that they leave the same remainder on division by12. Remainder arithmetic is not erasing the difference between numbers. The picture helps explain the vocabulary, not prove every prime-number property needed by the factorial construction {cite:commons-clock-group-spindled description}.
+Congruence does not mean 13=1 as ordinary integers. It means that they leave the same remainder on division by 12. Remainder arithmetic is not erasing the difference between numbers. The picture helps explain the vocabulary, not prove every prime-number property needed by the factorial construction {cite:commons-clock-group-spindled description}.
 
 ## Surviving examples
 
 We read the specified MacTutor passages and MathWorld's definition, first formula and historical paragraph. We did not read the original Opuscula or Rashed's full edition, and do not infer an Arabic manuscript ID from that label. Not creating a new work record here preserves that boundary; it does not assert that the author wrote nothing about the problem {cite:haytham-mactutor Opuscula}.
 
-The actual Commons image and rights were inspected. Spindled made the original upload on19October2006; the current version includes a2008 text-alignment correction and carries CC BY-SA3.0. The current original SVG is published unmodified. Upload dates do not date the ancient mathematics or prove a surviving historical clock of this appearance {cite:commons-clock-group-spindled description-rights}.
+The actual Commons image and rights were inspected. Spindled made the original upload on 19October2006; the current version includes a2008 text-alignment correction and carries CC BY-SA3.0. The current original SVG is published unmodified. Upload dates do not date the ancient mathematics or prove a surviving historical clock of this appearance {cite:commons-clock-group-spindled description-rights}.
 
 ## In culture
 
@@ -104,9 +104,9 @@ The explanation needs neither an imaginary portrait nor a fictional teaching gat
 
 ## For young readers
 
-Write721 and divide by2,3,4,5,6, then7. Record remainders, not only quotients. Repeat with301. The smaller number also meets the conditions. Do not stop at the first correct answer or call it smallest without a search or proof.
+Write721 and divide by 2,3,4,5,6, then7. Record remainders, not only quotients. Repeat with 301. The smaller number also meets the conditions. Do not stop at the first correct answer or call it smallest without a search or proof.
 
-Now try7, obtained from3!+1: is it divisible by4? No. Ask which hypothesis differs from the original prime7 example. The modern clock was not necessarily in the author's hands; it is only a remainder analogy. Historical evidence and today's arithmetic meet without becoming the same thing {cite:weisstein-wilson-theorem eq1} {cite:haytham-mactutor number-theory}.
+Now try7, obtained from 3!+1: is it divisible by 4? No. Ask which hypothesis differs from the original prime7 example. The modern clock was not necessarily in the author's hands; it is only a remainder analogy. Historical evidence and today's arithmetic meet without becoming the same thing {cite:weisstein-wilson-theorem eq1} {cite:haytham-mactutor number-theory}.
 
 ## References
 

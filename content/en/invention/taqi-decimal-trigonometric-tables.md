@@ -27,9 +27,9 @@ Conversely, an earlier author is not automatically a directly documented predece
 
 ## The story
 
-Taqi al-Din received religious and mathematical education, taught and served as a judge in Egypt, and returned to [[place/istanbul|Istanbul]] in1570 before becoming head astronomer in1571, according to Fazlioglu. The biography describes books and instruments reaching him and encouragement to pursue mathematics and astronomy. The tables thus belong to a scientific life involving institutions and relationships rather than an idea detached from work {cite:taqi-fazlioglu-bea biography}.
+Taqi al-Din received religious and mathematical education, taught and served as a judge in Egypt, and returned to [[place/istanbul|Istanbul]] in 1570 before becoming head astronomer in 1571, according to Fazlioglu. The biography describes books and instruments reaching him and encouragement to pursue mathematics and astronomy. The tables thus belong to a scientific life involving institutions and relationships rather than an idea detached from work {cite:taqi-fazlioglu-bea biography}.
 
-The passages used here do not establish an exact composition date for the Jarida. Our open interval ends at1585, the death year in the biography, not an assertion that the invention occurred then. A modern edition's publication date cannot become the old book's composition date, and no unverified Hijri equivalent is added. Observatory chronologies also differ: Tekeli gives1575, TDV describes use from1577, and Fazlioglu reports a building edict in early1579. We do not turn these into one date for the table {cite:tekeli-trigonometry-1986 p.249} {cite:tdv-takiyyuddin-er-rasid biography} {cite:taqi-fazlioglu-bea biography}.
+The passages used here do not establish an exact composition date for the Jarida. Our open interval ends at 1585, the death year in the biography, not an assertion that the invention occurred then. A modern edition's publication date cannot become the old book's composition date, and no unverified Hijri equivalent is added. Observatory chronologies also differ: Tekeli gives 1575, TDV describes use from 1577, and Fazlioglu reports a building edict in early 1579. We do not turn these into one date for the table {cite:tekeli-trigonometry-1986 p.249} {cite:tdv-takiyyuddin-er-rasid biography} {cite:taqi-fazlioglu-bea biography}.
 
 ## The maker(s)
 
@@ -39,17 +39,17 @@ Nor does a list of teachers and patrons become a list of joint inventors of the 
 
 ## How it works
 
-We use explicitly modern teaching examples, not numbers purportedly transcribed from the Jarida. Half a degree is0.5degree and30arcminutes; half an arcminute is instead one120th of a degree. A degree contains60arcminutes and an arcminute60arcseconds. Changing notation never licenses dropping the unit. This explains the meaning of the biography's discussion of decimal angular parts and calculations, but does not establish a particular manuscript row {cite:taqi-fazlioglu-bea decimal-zij discussion}.
+We use explicitly modern teaching examples, not numbers purportedly transcribed from the Jarida. Half a degree is 0.5degree and 30 arcminutes; half an arcminute is instead one120th of a degree. A degree contains 60 arcminutes and an arcminute 60 arcseconds. Changing notation never licenses dropping the unit. This explains the meaning of the biography's discussion of decimal angular parts and calculations, but does not establish a particular manuscript row {cite:taqi-fazlioglu-bea decimal-zij discussion}.
 
-Likewise, the same teaching quantity can be written0.25 or one quarter, and0.75 or three quarters. The notation here is contemporary. TDV says that Taqi al-Din expressed fractional places verbally without the modern decimal separator. We must not add a point in a new drawing and then present it as his invention. Decimal structure and the printed symbol familiar today are different matters {cite:tdv-takiyyuddin-er-rasid arithmetic discussion}.
+Likewise, the same teaching quantity can be written0.25 or one quarter, and 0.75 or three quarters. The notation here is contemporary. TDV says that Taqi al-Din expressed fractional places verbally without the modern decimal separator. We must not add a point in a new drawing and then present it as his invention. Decimal structure and the printed symbol familiar today are different matters {cite:tdv-takiyyuddin-er-rasid arithmetic discussion}.
 
-In a right triangle, our modern image explains the ratio between opposite side and hypotenuse. This is a classroom explanation of sine, not a reconstruction of the Jarida's table scale. We do not assume its radius was one, ten or sixty: those details require the relevant text. The inspected passages of Tekeli describe diameter120 and radius60 in the Sidra, and define sine as half the chord subtending twice the arc. But the Sidra is not the Jarida {cite:tekeli-trigonometry-1986 pp.250,257–258}.
+In a right triangle, our modern image explains the ratio between opposite side and hypotenuse. This is a classroom explanation of sine, not a reconstruction of the Jarida's table scale. We do not assume its radius was one, ten or sixty: those details require the relevant text. The inspected passages of Tekeli describe diameter 120 and radius 60 in the Sidra, and define sine as half the chord subtending twice the arc. But the Sidra is not the Jarida {cite:tekeli-trigonometry-1986 pp.250,257–258}.
 
 That distinction is essential. Fazlioglu explicitly describes sexagesimal trigonometric functions in the Sidra before discussing the Jarida and Tashil in a decimal context. Not every book by Taqi al-Din was decimal, and the existence of the project does not mean every star-table entry was replaced. We do not fill absent rows using a modern computer and label the output as the author's numbers {cite:taqi-fazlioglu-bea Sidra and decimal-zij discussions}.
 
 ## The spread
 
-TDV records Remzi Demir's study of the Jarida in a1991 dissertation and publication of that study with a Turkish translation in2000. This establishes modern scholarly reception, not circulation of every copy in every country during the sixteenth century. That edition was not read for this record; it is identified as a known route to the text, not primary evidence personally inspected here {cite:tdv-takiyyuddin-er-rasid work3}.
+TDV records Remzi Demir's study of the Jarida in a1991 dissertation and publication of that study with a Turkish translation in 2000. This establishes modern scholarly reception, not circulation of every copy in every country during the sixteenth century. That edition was not read for this record; it is identified as a known route to the text, not primary evidence personally inspected here {cite:tdv-takiyyuddin-er-rasid work3}.
 
 Comparison with Simon Stevin in the history of decimals does not prove that either read the other. Chronological priority, similarity of a system and transmission of a particular book are separate questions. This record neither invents a route to Europe nor denies exchanges it has not investigated. It identifies what the sources actually read establish.
 
@@ -85,7 +85,7 @@ The point or separator in our examples is not evidence of symbolic priority. TDV
 
 ## Today
 
-The topic can teach source reading and mathematics together. What does the zij description actually say? Which book is meant by “decimal table”? Is the number an angle or a function value? The museum uses TheOtherJesse's modern2007 public-domain drawing to explain triangle sides, not as evidence of an Ottoman page's appearance {cite:commons-trigonometry-triangle Description and licensing}.
+The topic can teach source reading and mathematics together. What does the zij description actually say? Which book is meant by “decimal table”? Is the number an angle or a function value? The museum uses TheOtherJesse's modern 2007 public-domain drawing to explain triangle sides, not as evidence of an Ottoman page's appearance {cite:commons-trigonometry-triangle Description and licensing}.
 
 The accompanying chain is conceptual: earlier arithmetic and trigonometry followed by Taqi al-Din's application. It is not a manuscript plate, restored facsimile or precise instrumental measurement. A modern image cannot recover the Jarida's missing row count or accuracy.
 
@@ -103,7 +103,7 @@ Visitors deserve the limits of our knowledge beside the achievement. Naming pred
 
 ## For young readers
 
-Write “half a degree,” then0.5degree and30arcminutes beside it. Circle the unit each time. Next compare0.25 with one quarter, and0.75 with three quarters. This is a number-representation game, not an astronomical experiment or reconstruction of the Jarida.
+Write “half a degree,” then0.5degree and 30 arcminutes beside it. Circle the unit each time. Next compare0.25 with one quarter, and 0.75 with three quarters. This is a number-representation game, not an astronomical experiment or reconstruction of the Jarida.
 
 Imagine two lists arranging the same quantities differently. Before copying, what information is necessary? The unit, place meaning and numerical scale. Do not look at the Sun or build an observing instrument, and do not attribute your paper's numbers to the author. Pencil and paper are enough to understand the question.
 

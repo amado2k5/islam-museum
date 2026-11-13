@@ -29,7 +29,7 @@ The Filaha Texts Project notes that his book does not cite earlier agronomic wri
 
 The author is [[person/ibn-bassal|Abu Abd Allah Muhammad ibn Ibrahim ibn Bassal]], associated with Toledo and then Seville. Ozel connects the larger *Diwan al-filaha* with al-Mamun's Toledan court and uses the ruler's1075 death to place its composition earlier. This is a bound for the compendium, not a discovery day for each observation or a certain date for the abridgement read today {cite:tdv-ibn-bassal work}.
 
-Both sources distinguish the larger work from *Al-Qasd wa-l-bayan*. Their relocation chronology differs: Ozel places the move after Toledo's1085 fall, whereas the project says before it. We retain the discrepancy rather than assemble a dated itinerary from accounts disagreeing about the same event {cite:tdv-ibn-bassal biography} {cite:ibn-bassal-filaha-profile biography}.
+Both sources distinguish the larger work from *Al-Qasd wa-l-bayan*. Their relocation chronology differs: Ozel places the move after Toledo's 1085 fall, whereas the project says before it. We retain the discrepancy rather than assemble a dated itinerary from accounts disagreeing about the same event {cite:tdv-ibn-bassal biography} {cite:ibn-bassal-filaha-profile biography}.
 
 In Seville, the accounts connect him with a garden for al-Mutamid and a community of agronomists. This is a setting for work, teaching and exchange, not measured yields for each field or proof that every farm implemented every recommendation {cite:tdv-ibn-bassal biography}.
 
@@ -53,7 +53,7 @@ Soft land, for example, is described through open pores admitting air and water;
 
 ## The spread
 
-Ozel describes later agronomists' quotations and reports273 references to Ibn Bassal in Ibn al-Awwam. This is the reference's count, not our own manuscript tally. Some quotations are absent from the available abridgement, a reason to distinguish what a later reader knew of the larger work from what survives in this shorter witness {cite:tdv-ibn-bassal reception}.
+Ozel describes later agronomists' quotations and reports 273 references to Ibn Bassal in Ibn al-Awwam. This is the reference's count, not our own manuscript tally. Some quotations are absent from the available abridgement, a reason to distinguish what a later reader knew of the larger work from what survives in this shorter witness {cite:tdv-ibn-bassal reception}.
 
 The biography also reports a thirteenth-century Castilian translation, not automatically a Latin one. A book's travel does not establish implementation of every passage or descent of every later European agricultural classification. A named quotation remains stronger evidence than a general spread story identifying neither text nor reader {cite:ibn-bassal-filaha-profile biography}.
 
@@ -65,7 +65,7 @@ The explanation employs natures and temperaments to understand plants and land. 
 
 ## What was built on it
 
-The contents place water and land before planting, grafting, vegetables and flowers. Sixteen chapters let a reader connect a plant discussion with questions about site, water and cultivation. Our reading covers the contents, two complete chapters and the opening of chapter10, not every chapter or fruit description {cite:ibn-bassal-qasd-filaha contents-chs.1–2}.
+The contents place water and land before planting, grafting, vegetables and flowers. Sixteen chapters let a reader connect a plant discussion with questions about site, water and cultivation. Our reading covers the contents, two complete chapters and the opening of chapter 10, not every chapter or fruit description {cite:ibn-bassal-qasd-filaha contents-chs.1–2}.
 
 The project identifies a transmission gap: cereals occur in headings, but the witnesses discussed lack an expected treatment of all principal cereals, and part of the Castilian text is missing. We do not fill omissions from a later book and attribute the result to this abridgement. Later quotations remain evidence needing their own examination {cite:ibn-bassal-filaha-profile biography-and-chs.10–12-synopsis}.
 
@@ -95,7 +95,7 @@ We reproduce no waste quantities or handling instructions, and invite no child t
 
 ## Surviving examples
 
-The direct witness is the Filaha project's Arabic text, revised from Millas Vallicrosa and Muhammad Aziman's Tetuan1955 edition. It is not a manuscript image or our own collation of every witness. The contents show37–38; visible markers in the read chapters include40 and42–48. We cite a chapter where a page number is not itself rendered, rather than infer one from expected sequence {cite:ibn-bassal-qasd-filaha contents-chs.1–2}.
+The direct witness is the Filaha project's Arabic text, revised from Millas Vallicrosa and Muhammad Aziman's Tetuan1955 edition. It is not a manuscript image or our own collation of every witness. The contents show 37–38; visible markers in the read chapters include 40 and 42–48. We cite a chapter where a page number is not itself rendered, rather than infer one from expected sequence {cite:ibn-bassal-qasd-filaha contents-chs.1–2}.
 
 The image is a modern USDA teaching drawing,236×288, showing O/A/B/C vertical horizons and approximate inch depths. It is neither a photograph nor Ibn Bassal's figure, and these horizons are not his ten classes. Commons declares public domain;2004 is upload date, not creation of a drawing whose individual artist is unknown {cite:commons-usda-soil-profile description-and-history}.
 
@@ -113,7 +113,7 @@ Then draw a surface with an empty space beneath it. Do we know whether the groun
 
 ## References
 
-- Ibn Bassal, *Al-Qasd wa-l-bayan*, revised online Arabic: contents, complete chapters1–2 and chapter10 opening only, not a complete manuscript reading {cite:ibn-bassal-qasd-filaha contents-chs.1–2}.
+- Ibn Bassal, *Al-Qasd wa-l-bayan*, revised online Arabic: contents, complete chapters 1–2 and chapter 10 opening only, not a complete manuscript reading {cite:ibn-bassal-qasd-filaha contents-chs.1–2}.
 - Filaha Texts Project, biography/read chapter synopses; pilgrimage, abridgement and transmission limits attributed {cite:ibn-bassal-filaha-profile biography-and-synopsis}.
 - Ahmet Ozel, TDV2020 revised EK-1,587–589; actual article/metadata, not all referenced works {cite:tdv-ibn-bassal biography-and-work}.
 - Commons, actual USDA drawing description, rights and upload history {cite:commons-usda-soil-profile description-and-history}.

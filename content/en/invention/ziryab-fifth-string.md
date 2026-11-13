@@ -39,7 +39,7 @@ Maqqari begins with a four-string oud corresponding to four bodily temperaments;
 
 ## The story
 
-The TDV biography connects Ziryab with Baghdad, Kairouan and [[place/cordoba|Cordoba]], dating his arrival at Abd al-Rahman II's court to822. It does not establish that as the year the string was added {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}. Maqqari recounts a meeting with Harun al-Rashid, refusal to use the teacher's oud, preference for an instrument made by his own hands, westward departure and generous Andalusi patronage {cite:nafh-tib-maqqari v.3 pp.122–125}.
+The TDV biography connects Ziryab with Baghdad, Kairouan and [[place/cordoba|Cordoba]], dating his arrival at Abd al-Rahman II's court to 822. It does not establish that as the year the string was added {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}. Maqqari recounts a meeting with Harun al-Rashid, refusal to use the teacher's oud, preference for an instrument made by his own hands, westward departure and generous Andalusi patronage {cite:nafh-tib-maqqari v.3 pp.122–125}.
 
 The attractive narrative needs a distinction between storyteller and witness. Maqqari wrote much later; Reynolds's comparison reveals multiple, sometimes contradictory sources behind the Ibn Hayyan material he used {cite:reynolds-ziryab-2008 pp.155–158}. The record consequently gives a broad ninth-century setting, not an invented year, day or court session for the modification {cite:nafh-tib-maqqari v.3 p.126}.
 
@@ -98,7 +98,7 @@ TDV phrases priority more categorically. Its authors' attribution remains visibl
 Cleveland describes the oud as still prominent, recognizable by its pear-shaped body, fretless fingerboard and angled pegbox {cite:cleveland-oud-1918-350 catalogue}. Continuity of the name does not make every present-day oud preserve Ziryab's reported arrangement. Nor can the visible string count in a modern photograph settle a ninth-century question {cite:cleveland-oud-1918-350 catalogue} {cite:nafh-tib-maqqari v.3 p.126}.
 
 ## Surviving examples
-Cleveland's accompanying oud illustrates a later instrument, not Ziryab's: its overall dimensions are81.3by33.7centimetres, and the catalogue describes a pegbox angled45to90degrees to the neck {cite:cleveland-oud-1918-350 dimensions and catalogue}. These belong to the catalogued object, not an assumed ninth-century instrument; a later pictured string cannot date its first addition or establish colors in the older narrative {cite:cleveland-oud-1918-350 catalogue}.
+Cleveland's accompanying oud illustrates a later instrument, not Ziryab's: its overall dimensions are 81.3 by 33.7centimetres, and the catalogue describes a pegbox angled 45 to 90 degrees to the neck {cite:cleveland-oud-1918-350 dimensions and catalogue}. These belong to the catalogued object, not an assumed ninth-century instrument; a later pictured string cannot date its first addition or establish colors in the older narrative {cite:cleveland-oud-1918-350 catalogue}.
 
 The catalogue mentions al-Farabi's Great Book of Music and its explanation of the Arabic modal system {cite:cleveland-oud-1918-350 catalogue}. This connects the instrument with theoretical musical writing, not proof that al-Farabi saw Ziryab's oud or transmitted his fifth string. Instrument family, theoretical description and evidence for one improvement are distinct matters {cite:cleveland-oud-1918-350 catalogue}.
 
@@ -115,8 +115,8 @@ Imagine someone telling you that a small part was added to an old instrument. As
 
 ## References
 
-- Maqqari, *Nafh al-Tib*, Ihsan Abbas edition3:122–129, especially126; actual Shamela text, not an independent original Ibn Hayyan reading. {cite:nafh-tib-maqqari v.3 pp.122–129}
+- Maqqari, *Nafh al-Tib*, Ihsan Abbas edition3:122–129, especially 126; actual Shamela text, not an independent original Ibn Hayyan reading. {cite:nafh-tib-maqqari v.3 pp.122–129}
 - Fazli Arslan and Fatih Erkocoglu, TDV44(2013),464–465. {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}
-- Dwight Reynolds,2008,155–168; selected portions used155–156 and158–166. {cite:reynolds-ziryab-2008 pp.155–156,158–166}
+- Dwight Reynolds,2008,155–168; selected portions used 155–156 and 158–166. {cite:reynolds-ziryab-2008 pp.155–156,158–166}
 - Al Jazeera,14 June2022, biographical introduction and Muslim Scholars series classification; film not claimed as watched. {cite:aljazeera-ziryab-2022 introduction}
 - Cleveland Museum of Art,1918.350, actual catalogue/API and inspected photograph. {cite:cleveland-oud-1918-350 catalogue and API}

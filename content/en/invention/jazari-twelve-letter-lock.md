@@ -8,7 +8,7 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 ---
 ## Summary
 
-Four visible circles do not mean only four letters. [[person/al-jazari-engineer|Al-Jazari]] describes a chest whose shared closure becomes ready to open through twelve letter settings, three in each circular group {cite:jazari-hill-1974 pp.199–201}. This is CategoryVI chapter3, not a claim to invent every coded lock. The author explicitly acknowledges earlier makers of two-, four- and six-letter locks {cite:jazari-hill-1974 p.199}. This entry brings together the assembly, drawing limitations and a separate teaching calculation, not a security certification. More letters do not make a chest impossible to open by means outside its intended operation.
+Four visible circles do not mean only four letters. [[person/al-jazari-engineer|Al-Jazari]] describes a chest whose shared closure becomes ready to open through twelve letter settings, three in each circular group {cite:jazari-hill-1974 pp.199–201}. This is CategoryVI chapter 3, not a claim to invent every coded lock. The author explicitly acknowledges earlier makers of two-, four- and six-letter locks {cite:jazari-hill-1974 p.199}. This entry brings together the assembly, drawing limitations and a separate teaching calculation, not a security certification. More letters do not make a chest impossible to open by means outside its intended operation.
 
 ## What it is
 
@@ -26,7 +26,7 @@ The comparison places the author in an existing craft before he presents his arr
 
 The chapter moves from the lid's appearance to nested discs and shafts, then the internal plate and closure: from what the hand encounters to what the exterior conceals {cite:jazari-hill-1974 pp.199–201}. This order explains why text and drawing must be read together. An attractive surface with four controls cannot alone establish the number of internal conditions or how they combine.
 
-Hill's introduction gives1204 or1206 for the book from differing witnesses, while TDV dates completion to1205 within Artuqid service at [[place/amid|Amid]] {cite:jazari-hill-1974 introduction-life} {cite:tdv-cezeri pp.505–506}. These are documentary and composition dates, not the day of the first chest's manufacture. They are not converted into a certain installation date or an invented invention-specific Hijri equivalent.
+Hill's introduction gives 1204 or 1206 for the book from differing witnesses, while TDV dates completion to 1205 within Artuqid service at [[place/amid|Amid]] {cite:jazari-hill-1974 introduction-life} {cite:tdv-cezeri pp.505–506}. These are documentary and composition dates, not the day of the first chest's manufacture. They are not converted into a certain installation date or an invented invention-specific Hijri equivalent.
 
 ## The maker(s)
 
@@ -42,7 +42,7 @@ Beneath the lid these settings connect to three discs with peripheral notches. T
 
 The closure is shared, not four separate chests. A divided plate and central handle connect the settings to retaining or releasing the chest's latch {cite:jazari-hill-1974 pp.201,268}. Function is explained without component dimensions or disassembly steps. Hill's discussion of changing the selected letters concerns owner-controlled maintenance, not an experiment proposed on existing locks {cite:jazari-hill-1974 p.269}.
 
-Mathematically, assuming sixteen independent choices per position gives4096 arrangements for three positions and16^12 for twelve. This is a modern teaching derivation from the described count, not a number quoted from the author or a measurement of examined hardware {cite:jazari-hill-1974 pp.199,201,269}. No guessing time or protection guarantee follows. Material quality, assembly and closure structure are separate questions; Hill himself notes a physical-protection limitation {cite:jazari-hill-1974 p.269}.
+Mathematically, assuming sixteen independent choices per position gives 4096 arrangements for three positions and 16^12 for twelve. This is a modern teaching derivation from the described count, not a number quoted from the author or a measurement of examined hardware {cite:jazari-hill-1974 pp.199,201,269}. No guessing time or protection guarantee follows. Material quality, assembly and closure structure are separate questions; Hill himself notes a physical-protection limitation {cite:jazari-hill-1974 p.269}.
 
 ## The spread
 
@@ -88,9 +88,9 @@ The photograph helps the eye notice four circles on a chest exterior, but differ
 
 ## Surviving examples
 
-We actually read VI.3 primary199–201 and Hill's commentary268–269, visually checking199,201 and268 in the shared reader; this is neither full manuscript collation nor inspection of an original machine {cite:jazari-hill-1974 pp.199–201,268–269}. The editor notes a drawn handle differing from the text, missing details and inconsistent sizes that cannot be treated as manufacturing measurements {cite:jazari-hill-1974 p.268}.
+We actually read VI.3 primary 199–201 and Hill's commentary 268–269, visually checking 199,201 and 268 in the shared reader; this is neither full manuscript collation nor inspection of an original machine {cite:jazari-hill-1974 pp.199–201,268–269}. The editor notes a drawn handle differing from the text, missing details and inconsistent sizes that cannot be treated as manufacturing measurements {cite:jazari-hill-1974 p.268}.
 
-Rheinpaul's modern comparative photograph was uploaded on3 September2026 with an explicit CC0 dedication; its960px version and licence were inspected {cite:commons-jazari-lock-context history,rights}. Photograph and upload dates are not invention dates. The uploader's location, dating and maker association are not treated as independently authenticated. Rights come from the photographer's dedication, not the assumption that an old object makes every photograph free.
+Rheinpaul's modern comparative photograph was uploaded on 3 September2026 with an explicit CC0 dedication; its 960px version and licence were inspected {cite:commons-jazari-lock-context history,rights}. Photograph and upload dates are not invention dates. The uploader's location, dating and maker association are not treated as independently authenticated. Rights come from the photographer's dedication, not the assumption that an old object makes every photograph free.
 
 ## In culture
 
@@ -100,12 +100,12 @@ The comparative image shows pale surfaces, elaborate metal decoration and four v
 
 ## For young readers
 
-On paper only, draw four groups of three spaces: twelve in total, explaining the chapter rather than reducing it to four spaces {cite:jazari-hill-1974 pp.199,201}. Give each space two simple game symbols, circle or square. Three spaces make eight arrangements; four such groups make4096. This is a modern two-symbol counting game, not the lock's sixteen letters or its historical total.
+On paper only, draw four groups of three spaces: twelve in total, explaining the chapter rather than reducing it to four spaces {cite:jazari-hill-1974 pp.199,201}. Give each space two simple game symbols, circle or square. Three spaces make eight arrangements; four such groups make 4096. This is a modern two-symbol counting game, not the lock's sixteen letters or its historical total.
 
 Choose a drawn pattern, marking each group that matches it. The story is complete only when all four agree. Change one symbol to distinguish one condition from their conjunction, without claiming to model metal friction or security. No real locks, tools, keys or force, and no experimenting with other people's property: paper is enough.
 
 ## References
 
-- [[source/jazari-hill-1974|Donald Hill's1974 translation]], VI.3,199–201 and specific commentary268–269; actual reading and199/201/268 inspection, not page reproduction.
+- [[source/jazari-hill-1974|Donald Hill's1974 translation]], VI.3,199–201 and specific commentary 268–269; actual reading and 199/201/268 inspection, not page reproduction.
 - [[source/tdv-cezeri|Sadettin Ökten, CEZERÎ]], TDV, vol.7,1993,505–506; biography and individual identity basis.
 - [[source/commons-jazari-lock-context|Comparative chest photograph metadata and rights]], Rheinpaul photograph and CC0 dedication; not authentication of an al-Jazari connection.

@@ -28,13 +28,13 @@ The same account reports human wounds healing before this experiment. Observing 
 
 The translated account begins with an early stage of the author's training and his reading of disputed opinions. It then describes an experiment and observed recovery. The excerpt gives no day, farm or named assistants, and a general reference to training cannot establish an exact date {cite:abdel-halim-ibn-zuhr-surgery-2005 p.1335}.
 
-The2005study actually read here translates from Michel Khuri's1983edition; reference42identifies page149. We did not independently read that original page or collate manuscripts. We visually inspected article page1335to verify the passage and context. Reading a translation and examining the original are explicitly separated in the source record {cite:abdel-halim-ibn-zuhr-surgery-2005 pp.1334–1335,1338}.
+The 2005 study actually read here translates from Michel Khuri's1983 edition; reference 42 identifies page 149. We did not independently read that original page or collate manuscripts. We visually inspected article page 1335 to verify the passage and context. Reading a translation and examining the original are explicitly separated in the source record {cite:abdel-halim-ibn-zuhr-surgery-2005 pp.1334–1335,1338}.
 
 ## The maker(s)
 
 The medical source explicitly calls him a Muslim physician, while Mahmut Kaya records Maliki legal study and piety. The Sunni frame is declared, not a personal school inferred from tribe or family service at court. Kaya also reports and rejects a conversion-to-Judaism story; the judgement remains attributed to its writer rather than becoming an identity narrative we invent {cite:abdel-halim-ibn-zuhr-surgery-2005 pp.1333–1334} {cite:tdv-ibn-zuhr-kaya target-biography}.
 
-The author is Abu Marwan Abd al-Malik, not his father Abu al-Ala or son Abu Bakr, called the grandson. Similar family names do not merge works or experiments. The biography's earlier birth variants remain; the study gives1093, Kaya1091or1094. We do not settle them by selecting a date convenient for the experiment's story {cite:tdv-ibn-zuhr-kaya family-and-target-biography} {cite:abdel-halim-ibn-zuhr-surgery-2005 p.1334}.
+The author is Abu Marwan Abd al-Malik, not his father Abu al-Ala or son Abu Bakr, called the grandson. Similar family names do not merge works or experiments. The biography's earlier birth variants remain; the study gives 1093, Kaya1091 or 1094. We do not settle them by selecting a date convenient for the experiment's story {cite:tdv-ibn-zuhr-kaya family-and-target-biography} {cite:abdel-halim-ibn-zuhr-surgery-2005 p.1334}.
 
 ## How it works
 
@@ -42,7 +42,7 @@ The reasoning, not operative steps, moves from a testable question to a reported
 
 Three levels must be separated: existence of a written report, the event as its author describes it, and a general outcome for every patient. Reading establishes that an account is available in a particular translation; it gives us no independent observation of the event. Even accepting the animal's result as reported does not automatically supply human success or complication rates.
 
-In a modern logical illustration, one reported success can fit a series whose remainder is unknown: another success or another failure does not itself contradict the reported case. Thus one out of one in an excerpt cannot become100%human safety. This is not a statistic attributed to Ibn Zuhr, but a distinction between the cases mentioned and the population of cases.
+In a modern logical illustration, one reported success can fit a series whose remainder is unknown: another success or another failure does not itself contradict the reported case. Thus one out of one in an excerpt cannot become 100%human safety. This is not a statistic attributed to Ibn Zuhr, but a distinction between the cases mentioned and the population of cases.
 
 If a hypothetical statement said recovery was impossible in every animal, a reliable contrary case would challenge that universal. Saying every human will recover is a different universal, not derived from the same observation. These are modern reasoning examples, not quotations from Ibn Zuhr or a statistical theory assigned to him.
 
@@ -54,7 +54,7 @@ Moving from animal to human is another inferential step, not changing a name in 
 
 The study describes Hebrew and Latin transmission of al-Taysir and printing with Ibn Rushd's Generalities. That traces circulation of a book, not a list of people repeating the goat experiment or using it in every hospital. Textual reach is not substituted for demonstrated practice {cite:abdel-halim-ibn-zuhr-surgery-2005 p.1334}.
 
-The numbers differ: the study lists eight Latin editions between1490and1554; Kaya lists ten between1490and1574. Both periods and counts remain attributed, without assuming identical counting criteria or choosing the larger number to imply greater influence {cite:abdel-halim-ibn-zuhr-surgery-2005 p.1334} {cite:tdv-ibn-zuhr-kaya work1}.
+The numbers differ: the study lists eight Latin editions between 1490 and 1554; Kaya lists ten between 1490 and 1574. Both periods and counts remain attributed, without assuming identical counting criteria or choosing the larger number to imply greater influence {cite:abdel-halim-ibn-zuhr-surgery-2005 p.1334} {cite:tdv-ibn-zuhr-kaya work1}.
 
 ## What it was built on
 
@@ -94,7 +94,7 @@ The sources' composition stories show why this matters. Abdel-Halim supports the
 
 ## Surviving examples
 
-What we directly read is a published translation referring to149of the1983edition, plus another source's discussion of author and work. We claim no inspection of an experimental manuscript, the animal's remains or an original case register. Variant life dates cannot become a precise experiment date {cite:abdel-halim-ibn-zuhr-surgery-2005 pp.1334–1335,1338} {cite:tdv-ibn-zuhr-kaya target-biography}.
+What we directly read is a published translation referring to 149 of the 1983 edition, plus another source's discussion of author and work. We claim no inspection of an experimental manuscript, the animal's remains or an original case register. Variant life dates cannot become a precise experiment date {cite:abdel-halim-ibn-zuhr-surgery-2005 pp.1334–1335,1338} {cite:tdv-ibn-zuhr-kaya target-biography}.
 
 Martin Vorel's photograph is modern CC0material retained unchanged: brown/dark face, outstretched ears and tag, grass at the mouth. It identifies neither Ibn Zuhr's animal's sex or breed nor the experiment's location. It is not evidence for any of those claims {cite:commons-brown-goat-vorel description-and-rights}.
 
@@ -112,6 +112,6 @@ Learn the difference by reading statements, not experimenting on a living creatu
 
 ## References
 
-- Abdel-Halim2005:selected1333–1336and1337–1338references read;1335visually inspected. Primary149of1983edition is a transmitted reference, not independently read {cite:abdel-halim-ibn-zuhr-surgery-2005}.
+- Abdel-Halim2005:selected 1333–1336 and 1337–1338 references read;1335 visually inspected. Primary149 of 1983 edition is a transmitted reference, not independently read {cite:abdel-halim-ibn-zuhr-surgery-2005}.
 - Mahmut Kaya: target Abu Marwan Abd al-Malik/work1; identity and composition/printing disagreements declared {cite:tdv-ibn-zuhr-kaya}.
 - Commons: Vorel's modern image/CC0rights, not the experimental animal {cite:commons-brown-goat-vorel}.

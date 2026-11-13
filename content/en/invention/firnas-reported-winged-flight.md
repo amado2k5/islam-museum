@@ -29,7 +29,7 @@ Bird imitation is present within the account's feathers, wings and landing expla
 
 Ibn Firnas grew up and studied in [[place/cordoba|Cordoba]], associated with its Umayyad courts as a scholar, poet and practitioner of several crafts {cite:tdv-abbas-firnas-kirbiyik biography}. Maqqari places flight beside timekeeping, a representation of the heavens and poetry, among stories of ingenuity rather than in a specialized flight-observation notebook {cite:nafh-tib-maqqari v.3 pp.374–375}.
 
-Lienhard supplies875 and a tower, neither specified by the inspected Arabic passage;875 is accordingly uncertain, attributed modern chronology, not a contemporary witness date {cite:lienhard-firnas-1910 narrative and postscript} {cite:nafh-tib-maqqari v.3 p.374}. TDV's death date274 AH/887 does not establish a jump date or prove that flight injuries caused death {cite:tdv-abbas-firnas-kirbiyik biography}.
+Lienhard supplies 875 and a tower, neither specified by the inspected Arabic passage;875 is accordingly uncertain, attributed modern chronology, not a contemporary witness date {cite:lienhard-firnas-1910 narrative and postscript} {cite:nafh-tib-maqqari v.3 p.374}. TDV's death date 274 AH/887 does not establish a jump date or prove that flight injuries caused death {cite:tdv-abbas-firnas-kirbiyik biography}.
 
 ## The maker(s)
 TDV places his birth in a village of Takurunna near Ronda, describes Berber origin without a precise birth year, and connects his career to al-Hakam I, Abd al-Rahman II and Muhammad I {cite:tdv-abbas-firnas-kirbiyik biography}. This service does not establish one patron commissioning the wings: the flight report names neither commissioner nor financier {cite:nafh-tib-maqqari v.3 p.374}. The biography warns against confusion with the poet Abbas ibn Nasih, so a similar name cannot transfer another person's poetry or work {cite:tdv-abbas-firnas-kirbiyik biography}.
@@ -80,18 +80,18 @@ Modern retelling shows how the name became a symbol of aspiring to fly: the univ
 :::perspectives
 - **Sunni: declared frame and Maqqari's account**: feathers, wings, injury and the missing-tail explanation remain attributed to the narrator, not a measured priority report {cite:nafh-tib-maqqari v.3 p.374}.
 - **Academic: Hasan Ibrahim Hasan**: describes a glider, ascent and unharmed survival; this differs from injury and is not silently merged into that account {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}.
-- **Academic: John Lienhard**: gives875, then adds a caveat about the Firman story's weakness and possible confused details. The correction accompanies the story rather than disappearing from it {cite:lienhard-firnas-1910 narrative and postscript}.
+- **Academic: John Lienhard**: gives 875, then adds a caveat about the Firman story's weakness and possible confused details. The correction accompanies the story rather than disappearing from it {cite:lienhard-firnas-1910 narrative and postscript}.
 :::
 
 ## Today
 
-The modern night photograph shows Cordoba's Abbas Ibn Firnas Bridge, taken by Edmundo Sáez on21 February2014, not historical wings or a reconstructed apparatus {cite:commons-firnas-bridge-saez Description and date}. The bridge carries the name in modern memory; proving a machine's performance requires different evidence, and its arches do not disclose the shape of Ibn Firnas's wings {cite:commons-firnas-bridge-saez Description} {cite:nafh-tib-maqqari v.3 p.374}.
+The modern night photograph shows Cordoba's Abbas Ibn Firnas Bridge, taken by Edmundo Sáez on 21 February2014, not historical wings or a reconstructed apparatus {cite:commons-firnas-bridge-saez Description and date}. The bridge carries the name in modern memory; proving a machine's performance requires different evidence, and its arches do not disclose the shape of Ibn Firnas's wings {cite:commons-firnas-bridge-saez Description} {cite:nafh-tib-maqqari v.3 p.374}.
 
 ## Surviving examples
 TDV reports crystal-cutting and celestial representation among his other activities, and poetic fragments transmitted by Ibn Hayyan {cite:tdv-abbas-firnas-kirbiyik biography}. Al-Maqqari also associates glass-making, prosody and music with his crafts {cite:nafh-tib-maqqari v.3 pp.374–375}. These are different textual traces of a versatile person, not authenticated wing materials; crystal-working cannot make the wings crystal, nor can every craft become a stage of one flight project {cite:tdv-abbas-firnas-kirbiyik biography} {cite:nafh-tib-maqqari v.3 pp.374–375}.
 
 
-The inspected textual witness is Maqqari, Ihsan Abbas edition3:374–375 through Shamela. The editor references al-Mughrib1:333 and al-Muqtabis fol256b; their original flight passages were not independently read as separate witnesses {cite:nafh-tib-maqqari v.3 pp.374–375 and note}. Hasan's printed378 is PDF scan382: distinguishing them corrects an older citation without changing his unharmed-survival statement {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}.
+The inspected textual witness is Maqqari, Ihsan Abbas edition3:374–375 through Shamela. The editor references al-Mughrib1:333 and al-Muqtabis fol256b; their original flight passages were not independently read as separate witnesses {cite:nafh-tib-maqqari v.3 pp.374–375 and note}. Hasan's printed 378 is PDF scan 382: distinguishing them corrects an older citation without changing his unharmed-survival statement {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}.
 
 ## In culture
 
@@ -105,8 +105,8 @@ Ask what each account says about the wings and the ending: one reports injury, a
 - [[source/nasa-glenn-gliding|Gliding and flight forces — NASA Glenn]]
 
 
-- Maqqari, Nafh al-Tib, Ihsan Abbas edition3:374–375, entry160 in the actual digital text {cite:nafh-tib-maqqari v.3 pp.374–375}.
-- Hasan Ibrahim Hasan, volume four, printed378/PDF scan382; title and1416/1996 edition images inspected {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}.
+- Maqqari, Nafh al-Tib, Ihsan Abbas edition3:374–375, entry 160 in the actual digital text {cite:nafh-tib-maqqari v.3 pp.374–375}.
+- Hasan Ibrahim Hasan, volume four, printed 378/PDF scan 382; title and 1416/1996 edition images inspected {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}.
 - Kasım Kırbıyık, TDV1 (1988),24 {cite:tdv-abbas-firnas-kirbiyik article}.
-- Lienhard, episode1910 and8 July2009 postscript; Islamweb's attributed identity discussion {cite:lienhard-firnas-1910 episode and postscript} {cite:islamweb-firnas-406804 Ibn Firnas discussion}.
+- Lienhard, episode 1910 and 8 July2009 postscript; Islamweb's attributed identity discussion {cite:lienhard-firnas-1910 episode and postscript} {cite:islamweb-firnas-406804 Ibn Firnas discussion}.
 - Sáez photograph, CC BY-SA4.0: modern bridge, not historical apparatus {cite:commons-firnas-bridge-saez Description and Licensing}.

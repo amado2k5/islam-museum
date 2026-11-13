@@ -8,7 +8,7 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 ---
 ## Overview
 
-Abu al-Hasan Ali ibn Nafi, Ziryab, was a musician associated with Baghdad, Kairouan and [[place/cordoba|Cordoba]]. Accounts attribute singing instruction and oud refinements to him; his wider portrait needs older reports distinguished from later idealization {cite:tdv-ziryab-arslan-erkocoglu pp.464–465} {cite:reynolds-ziryab-2008 pp.155–158,166}. TDV leaves his birthplace/date uncertain, gives arrival822 and death238 AH/852. This page does not repeat the former uncited children's text's exact birth year {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}.
+Abu al-Hasan Ali ibn Nafi, Ziryab, was a musician associated with Baghdad, Kairouan and [[place/cordoba|Cordoba]]. Accounts attribute singing instruction and oud refinements to him; his wider portrait needs older reports distinguished from later idealization {cite:tdv-ziryab-arslan-erkocoglu pp.464–465} {cite:reynolds-ziryab-2008 pp.155–158,166}. TDV leaves his birthplace/date uncertain, gives arrival 822 and death 238 AH/852. This page does not repeat the former uncited children's text's exact birth year {cite:tdv-ziryab-arslan-erkocoglu pp.464–465}.
 
 ## Training and travel
 

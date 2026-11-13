@@ -67,13 +67,13 @@ Our own reading has layers too: an older Arabic report, a selected translation, 
 
 Pormann draws further examples of numerical reasoning and prediction limits from other writings by al-Razi. He explicitly notes, however, that al-Razi does not supply a theoretical discussion highlighting the group concept. Scattered examples do not license us to reconstruct a lost experimental-design textbook or statistical theory unreported by the historian {cite:razi-pormann-uncertainty-2013 p.371}.
 
-From *Doubts about Galen*, Pormann reports an approximate number: about300 of2000 patients developed contrary to expectation. These are not automatically the bloodletting comparison's participants. Nor are they necessarily identical with the “more than2000” surviving observations discussed elsewhere in the paper. Similar numbers alone do not merge two groups or documentary claims {cite:razi-pormann-uncertainty-2013 pp.370–372}.
+From *Doubts about Galen*, Pormann reports an approximate number: about 300 of 2000 patients developed contrary to expectation. These are not automatically the bloodletting comparison's participants. Nor are they necessarily identical with the “more than 2000” surviving observations discussed elsewhere in the paper. Similar numbers alone do not merge two groups or documentary claims {cite:razi-pormann-uncertainty-2013 pp.370–372}.
 
 ## Impact on daily life
 
 These accounts make the patient more than a convenient example supporting an established rule. A course can agree or disagree with expectation, and disagreement can enter the record. This is an epistemic value in describing practice, not a numerical estimate of improvement in a city's population health caused by the passage {cite:razi-pormann-uncertainty-2013 pp.370–372}.
 
-Three hundred divided by two thousand is approximately15%, because the historical count is itself approximate. It does not establish that85% recovered, that the remainder died, or that a medicine achieved a particular effectiveness. “Contrary to expectation” describes a course relative to prediction; it cannot replace a definition of recovery, harm or observation time. The example shows both what numbers permit and what they do not.
+Three hundred divided by two thousand is approximately 15%, because the historical count is itself approximate. It does not establish that 85% recovered, that the remainder died, or that a medicine achieved a particular effectiveness. “Contrary to expectation” describes a course relative to prediction; it cannot replace a definition of recovery, harm or observation time. The example shows both what numbers permit and what they do not.
 
 ## How it changed history
 
@@ -95,7 +95,7 @@ Useful questions include: where are the group sizes? How were people selected? A
 
 ## Surviving examples
 
-Our read witness is Tibi's selected translation and commentary, alongside Pormann's2013 paper,370–372. Tibi's references identify Oxford Marsh156, fol167a, lines6–12, and Hyderabad volume15, page122; Pormann's web introduction instead gives volumeI, page122. We record this volume discrepancy rather than choose a definitive locator without collating editions. The Arabic image returned403 and was not inspected; the complete underlying primary works were not read {cite:tibi-razi-comparison-jll references} {cite:razi-pormann-uncertainty-2013 introduction}.
+Our read witness is Tibi's selected translation and commentary, alongside Pormann's2013 paper,370–372. Tibi's references identify Oxford Marsh156, fol167a, lines 6–12, and Hyderabad volume 15, page 122; Pormann's web introduction instead gives volumeI, page 122. We record this volume discrepancy rather than choose a definitive locator without collating editions. The Arabic image returned 403 and was not inspected; the complete underlying primary works were not read {cite:tibi-razi-comparison-jll references} {cite:razi-pormann-uncertainty-2013 introduction}.
 
 The accompanying image is the title of Greenhill's1848 smallpox/measles translation, not a *Hawi* page or experiment scene. Wellcome's manifest establishes its book identity and Public Domain Mark. It supplies context for reception of al-Razi's works only {cite:wellcome-razi-greenhill-1848 metadata}.
 
@@ -103,7 +103,7 @@ The accompanying image is the title of Greenhill's1848 smallpox/measles translat
 
 A catchy “first clinical trial” label removes the questions that make the account interesting: who entered the comparison, what was recorded, and how did the text travel? Tibi foregrounds comparison, while Pormann adds numbers and uncertainty rather than exception-proof praise {cite:tibi-razi-comparison-jll conclusion} {cite:razi-pormann-uncertainty-2013 pp.371–372}.
 
-Even a separate account of three cures and one milder, earlier dropsy outcome requires care. Pormann explains a difficult textual reading and revision of an earlier interpretation. It is not converted here into a verified four-person trial or75% effectiveness. Scrutinizing wording preserves the story better than an easy promotional statistic {cite:razi-pormann-uncertainty-2013 pp.371–372}.
+Even a separate account of three cures and one milder, earlier dropsy outcome requires care. Pormann explains a difficult textual reading and revision of an earlier interpretation. It is not converted here into a verified four-person trial or 75% effectiveness. Scrutinizing wording preserves the story better than an easy promotional statistic {cite:razi-pormann-uncertainty-2013 pp.371–372}.
 
 ## For young readers
 
@@ -113,7 +113,7 @@ A second lesson is that “I do not know” is useful when the notebook supplies
 
 ## References
 
-- Pormann, “Qualifying and quantifying medical uncertainty in10th-century Baghdad: Abu Bakr al-Razi,” *JRSM*106(9),2013,370–372; actual commentary and paper read, not all underlying primary works {cite:razi-pormann-uncertainty-2013 pp.370–372}.
+- Pormann, “Qualifying and quantifying medical uncertainty in 10th-century Baghdad: Abu Bakr al-Razi,” *JRSM*106(9),2013,370–372; actual commentary and paper read, not all underlying primary works {cite:razi-pormann-uncertainty-2013 pp.370–372}.
 - Selma Tibi, James Lind Library commentary and selected *Hawi* translation, including caution and references; no Arabic collation claimed {cite:tibi-razi-comparison-jll comparison-conclusion-and-references}.
 - Britannica, Adamson and Kaya: an individual identity basis and visible disagreement, not a museum verdict {cite:britannica-al-razi biography} {cite:sep-abu-bakr-al-razi sec.5} {cite:tdv-razi-ebu-bekir pp.479–485}.
 - Wellcome's1848 manifest and public-domain conditions; image contextualizes a different book {cite:wellcome-razi-greenhill-1848 metadata}.

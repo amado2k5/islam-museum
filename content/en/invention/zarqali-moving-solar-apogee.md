@@ -30,11 +30,11 @@ The biography distinguishes years spent observing from the later work summarisin
 
 ## The story
 
-Al-Zarqali appears in the historical accounts as an instrument maker and engraver working in [[place/tulaytula|Toledo]]. Puig reports Marrakushi's testimony that he observed there in1061 and Ibn al-Ha'im's attribution of twenty-five years of solar observations; these are reports conveyed by the modern biography, not an observation notebook inspected here {cite:zarqali-puig-bea pp.1258–1260}.
+Al-Zarqali appears in the historical accounts as an instrument maker and engraver working in [[place/tulaytula|Toledo]]. Puig reports Marrakushi's testimony that he observed there in 1061 and Ibn al-Ha'im's attribution of twenty-five years of solar observations; these are reports conveyed by the modern biography, not an observation notebook inspected here {cite:zarqali-puig-bea pp.1258–1260}.
 
-Puig probably dates the lost solar work to approximately1075–1080 and gives alternative titles, *On the Solar Year* or *A Comprehensive Epistle on the Sun*. Its contents are known through Arabic and Latin secondary sources, so the museum does not select a certain title and imply that a surviving original is available {cite:zarqali-puig-bea pp.1258–1260}.
+Puig probably dates the lost solar work to approximately 1075–1080 and gives alternative titles, *On the Solar Year* or *A Comprehensive Epistle on the Sun*. Its contents are known through Arabic and Latin secondary sources, so the museum does not select a certain title and imply that a surviving original is available {cite:zarqali-puig-bea pp.1258–1260}.
 
-This is not his separate fixed-star-motion treatise, dated approximately1084–1085 and surviving in Hebrew translation. Similar astronomical subjects do not make the survival history of one text evidence for the survival of the other {cite:zarqali-puig-bea pp.1258–1260}.
+This is not his separate fixed-star-motion treatise, dated approximately 1084–1085 and surviving in Hebrew translation. Similar astronomical subjects do not make the survival history of one text evidence for the survival of the other {cite:zarqali-puig-bea pp.1258–1260}.
 
 ## The maker(s)
 
@@ -44,11 +44,11 @@ Puig attributes the solar work to him while placing his career within patronage,
 
 ## How it works
 
-The central distinction is between calculating a body's changing position and allowing the element defining the apogee's direction to change. Puig gives the apogee its own motion of about one degree in279 Julian years, alongside variable eccentricity; the biography supplies neither the lost treatise's full equations nor an executable reconstruction {cite:zarqali-puig-bea pp.1258–1260}.
+The central distinction is between calculating a body's changing position and allowing the element defining the apogee's direction to change. Puig gives the apogee its own motion of about one degree in 279 Julian years, alongside variable eccentricity; the biography supplies neither the lost treatise's full equations nor an executable reconstruction {cite:zarqali-puig-bea pp.1258–1260}.
 
-The reported unit can be checked with modern paper arithmetic. One degree contains sixty arcminutes and each arcminute sixty arcseconds, making3600 arcseconds. Dividing3600 by279 gives approximately12.9032 arcseconds per year, or0.00358423 degrees annually: a modern conversion of the reported rate, not a decimal notation attributed to the author {cite:zarqali-puig-bea solar-work paragraph}.
+The reported unit can be checked with modern paper arithmetic. One degree contains sixty arcminutes and each arcminute sixty arcseconds, making 3600 arcseconds. Dividing3600 by 279 gives approximately 12.9032 arcseconds per year, or 0.00358423 degrees annually: a modern conversion of the reported rate, not a decimal notation attributed to the author {cite:zarqali-puig-bea solar-work paragraph}.
 
-Multiplying the unrounded rate by279 returns3600 arcseconds. By contrast, the12.04 arcseconds/year repeated in the museum's older biography corresponds to approximately299.003 years per degree. These quantities are not numerically interchangeable; this check does not resolve the historical discrepancy or establish what the lost text actually said {cite:zarqali-puig-bea solar-work paragraph}.
+Multiplying the unrounded rate by 279 returns 3600 arcseconds. By contrast, the 12.04 arcseconds/year repeated in the museum's older biography corresponds to approximately 299.003 years per degree. These quantities are not numerically interchangeable; this check does not resolve the historical discrepancy or establish what the lost text actually said {cite:zarqali-puig-bea solar-work paragraph}.
 
 An arcsecond is an angular unit, not one second of elapsed clock time. “Per year” describes how that angle changes with time; confusing the two types of second changes the meaning even when every written numeral is copied correctly {cite:zarqali-puig-bea solar-work paragraph}.
 
@@ -84,7 +84,7 @@ This article has not measured the errors of every model prediction against moder
 
 ## Who invented it?
 
-The narrow answer is that Puig attributes the apogee's own motion and a variable-eccentricity solar model to al-Zarqali. MacTutor repeats the lost-work account and one-degree-in279-years rate; neither contribution needs a headline claiming that he first knew everything about an orbit {cite:zarqali-puig-bea pp.1258–1260} {cite:zarqali-mactutor solar-work paragraph}.
+The narrow answer is that Puig attributes the apogee's own motion and a variable-eccentricity solar model to al-Zarqali. MacTutor repeats the lost-work account and one-degree-in 279-years rate; neither contribution needs a headline claiming that he first knew everything about an orbit {cite:zarqali-puig-bea pp.1258–1260} {cite:zarqali-mactutor solar-work paragraph}.
 
 Writing about the Sun also does not make him the author of Kepler's laws. MacTutor cautions against a comparable exaggeration concerning Mercury, a separate subject; this account keeps solar theory, the equatorium's Mercury geometry and modern orbital explanation distinct {cite:zarqali-mactutor Mercury discussion}.
 
@@ -104,7 +104,7 @@ The accompanying image is modern Pearson Scott Foresman educational art declared
 
 “The apogee has its own motion” may sound less spectacular than inventing the Sun or anticipating every modern science, but it more accurately represents the modelling contribution attributed to al-Zarqali. The value of the story lies in defining the question whose answer changed, not magnifying every detail of his career {cite:zarqali-puig-bea pp.1258–1260}.
 
-Unit conversion also gives visitors a modest role in assessing a report. One need not master all astronomical history to notice that a degree in279 years is not12.04 arcseconds annually; the result checks a numerical statement, not the authority of every historical transmitter or a lost text {cite:zarqali-puig-bea solar-work paragraph}.
+Unit conversion also gives visitors a modest role in assessing a report. One need not master all astronomical history to notice that a degree in 279 years is not12.04 arcseconds annually; the result checks a numerical statement, not the authority of every historical transmitter or a lost text {cite:zarqali-puig-bea solar-work paragraph}.
 
 ## For young readers
 
@@ -112,7 +112,7 @@ Draw an exaggerated oval on paper, place an Earth point away from its centre, an
 
 Copy the direction joining the positions onto a transparent sheet and turn it a little. Turning that line is different from moving a dot along a fixed path; the activity explains a distinction, not a historical experiment or a real annual amount of precession {cite:zarqali-puig-bea solar-work paragraph}.
 
-For a paper calculation, divide3600 by279 and multiply the unrounded answer by279. Returning to3600 checks that the units survived; no telescope or direct view of the Sun is needed, and this is not an observing procedure {cite:zarqali-puig-bea solar-work paragraph}.
+For a paper calculation, divide 3600 by 279 and multiply the unrounded answer by 279. Returning to 3600 checks that the units survived; no telescope or direct view of the Sun is needed, and this is not an observing procedure {cite:zarqali-puig-bea solar-work paragraph}.
 
 ## References
 

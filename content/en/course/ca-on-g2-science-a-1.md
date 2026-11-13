@@ -15,10 +15,10 @@ Look at the first expectation. Name a real problem, the two subjects used on it,
 The second expectation asks you to analyse contributions from various communities. For each contribution, ask who made it, for whom, and what it made possible.
 
 ## Go deeper
-Muhammad, Ahmad and al-Hasan were the sons of Musa ibn Shakir, the Banu Musa. Ibn al-Nadim describes them as among those who pursued the ancient sciences to the utmost. They sent to the land of the Romans for someone to bring them books, and brought copyists from distant regions with generous pay. The sciences that dominated them were geometry, mechanical devices, motion, music and astronomy {cite:fihrist-ibn-al-nadim p. 378-379}. The record gives no reason in their own words, but it shows that they spent generously on books.
+Muhammad, Ahmad and al-Hasan were the sons of Musa ibn Shakir, the Banu Musa. Ibn al-Nadim describes them as among those who pursued the ancient sciences to the utmost. They sent to the land of the Romans for someone to bring them books, and brought translators from distant regions with generous pay. The sciences that dominated them were geometry, mechanical devices, motion, music and astronomy {cite:fihrist-ibn-al-nadim p. 378-379}. The record gives no reason in their own words, but it shows that they spent generously on books.
 
 ## Think about it
-The Banu Musa paid generously for books and for copyists. Why does that help the people who come after them to learn?
+The Banu Musa paid generously for books and for translators. Why does that help the people who come after them to learn?
 
 ## Into the museum
 - [[group/banu-musa|The Banu Musa]]: three sons of Musa ibn Shakir, whose books include Ahmad's "Mechanical Devices".

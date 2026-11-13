@@ -113,7 +113,7 @@ The elephant's decoration is not turned into a story of one people's or religion
 Imagine a machine telling you half an hour has passed: figures move, a ball falls and a gong sounds. In the museum's description you count balls to know the elapsed time {cite:met-elephant-clock-575123 Catalogue Entry}. The elephant is a machine's shape in al-Jazari's book, and the picture a later copy, not a living animal or a photograph of his original clock {cite:met-elephant-clock-575123 Overview}.
 
 ## References
-- [[source/jazari-hill-1974|Al-Jazari — Donald Hill translation1974]]
+- [[source/jazari-hill-1974|Al-Jazari — Donald Hill translation 1974]]
 
 - Sadettin Ökten, “CEZERÎ, İsmâil b. Rezzâz”, TDV Encyclopedia of Islam, vol. 7, 1993, pp. 505–506. {cite:tdv-cezeri pp. 505–506}
 - Metropolitan Museum of Art, “The Elephant Clock”, accession 57.51.23; metadata and overview, and Francesca Leoni's entry in Ekhtiar, Soucek, Canby and Haidar 2011, under Catalogue Entry. {cite:met-elephant-clock-575123 Catalogue Entry}

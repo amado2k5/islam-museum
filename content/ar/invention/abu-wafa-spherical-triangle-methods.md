@@ -95,4 +95,4 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 - كارا دي فو، *مجسطي أبي الوفاء*،1892: المقاطع المقروءة413–414 و421–425، خاصة البرهان423–424؛ لا ادعاء قراءة المقال كاملاً {cite:abu-wafa-carra-almageste-1892 pp.413–414,421–425}.
 - يوشكيفيتش، السيرة العلمية، قسم المثلثات والأعمال؛ نسخة الجامعة المعاد تنسيقها بلا إحالة إلى صفحات الطبعة الأصلية {cite:abu-wafa-youschkevitch-dsb trigonometry and works}.
 - بريتانيكا؛ آيدن348–349؛ ماكتوتر لأبي الوفاء والخجندي {cite:britannica-abu-al-wafa biography} {cite:tdv-ebul-vefa-buzcani pp.348–349} {cite:abu-wafa-mactutor biography} {cite:khujandi-mactutor sine theorem}.
-- الموسوعة الإسلامية،ج1 ص178؛ كومنز للرسم الحديث وترخيصه {cite:encyclopaedia-of-islam-2 vol.1 p.178} {cite:commons-spherical-triangle licensing}.
+- الموسوعة الإسلامية، ج1 ص178؛ كومنز للرسم الحديث وترخيصه {cite:encyclopaedia-of-islam-2 vol.1 p.178} {cite:commons-spherical-triangle licensing}.
