@@ -1,0 +1,171 @@
+---
+// "Virtues and vices, face to face" (Ethics and Dealings Browser home): a butterfly chart. The centre line is a spine;
+// virtue topics are bars growing toward the inline-start side, vice topics toward the inline-end side, each as long as
+// the number of passages that carry the topic. Each side is sorted by its own count, so a row's two bars are not related.
+// Below, the dealings (mu'amalat) topics are a lollipop list, because they are neither virtue nor vice. A topic's kind
+// is the kind the detector's own signal table (scripts/akhlaq.ts, AKHLAQ_TOPIC_KINDS) gives it. Everything is computed
+// here from site/src/lib/akhlaq.ts; the script (site/src/scripts/sig-akhlaq.ts) adds the readout and the list filter.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { akhlaqItems, AKHLAQ_TOPIC_KINDS, type AkhlaqKind } from "../../lib/akhlaq";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).akhlaq;
+const V = G.viz;
+const TAIL = 8; // rows per side that stay visible on a phone before "show all"
+const CORPORA = ["quran", "sunnah", "seerah", "books"] as const;
+
+// ---- topics from the passages, and the kind each topic is declared with
+const passages = akhlaqItems.filter((i) => i.node.class === "passage");
+const byTopic = new Map<string, typeof passages>();
+for (const p of passages) for (const t of p.topics) { const l = byTopic.get(t); if (l) l.push(p); else byTopic.set(t, [p]); }
+const kindOfTopic = (t: string): { kind: AkhlaqKind; shared: boolean } => {
+  const kinds = AKHLAQ_TOPIC_KINDS[t];
+  if (!kinds?.length) throw new Error(`ButterflyVirtues: topic ${t} has no kind in the signal table (scripts/akhlaq.ts)`);
+  if (kinds.length === 1) return { kind: kinds[0], shared: false };
+  const tally = new Map<AkhlaqKind, number>();
+  for (const p of byTopic.get(t) ?? []) if (p.kind && kinds.includes(p.kind)) tally.set(p.kind, (tally.get(p.kind) ?? 0) + 1);
+  return { kind: [...tally].sort((a, b) => b[1] - a[1])[0]?.[0] ?? kinds[0], shared: true };
+};
+const topicName = (t: string) => { const n = G.topics?.[t]; if (!n) throw new Error(`ButterflyVirtues: topic ${t} has no label under akhlaq.topics`); return n as string; };
+const corpusName = (c: string) => { const n = V.corpus?.[c]; if (!n) throw new Error(`ButterflyVirtues: corpus ${c} has no label under akhlaq.viz.corpus`); return n as string; };
+const shortLabel = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+
+interface Row { t: string; name: string; kind: AkhlaqKind; shared: boolean; n: number; c: number[]; ps: any[] }
+const rows: Row[] = [...byTopic].map(([t, ps]) => {
+  const { kind, shared } = kindOfTopic(t);
+  const c = CORPORA.map((s) => ps.filter((p) => p.section === s).length);
+  if (c.reduce((a, b) => a + b, 0) !== ps.length) throw new Error(`ButterflyVirtues: topic ${t} has a passage outside the four corpora`);
+  return { t, name: topicName(t), kind, shared, n: ps.length, c, ps };
+}).sort((a, b) => b.n - a.n || a.t.localeCompare(b.t));
+const side = (k: AkhlaqKind) => rows.filter((r) => r.kind === k);
+const virtues = side("virtue"), vices = side("vice"), dealings = side("dealing"), general = side("mention");
+if (!virtues.length || !vices.length) throw new Error("ButterflyVirtues: a side of the butterfly is empty");
+const maxSide = Math.max(...virtues.map((r) => r.n), ...vices.map((r) => r.n));
+const maxDeal = Math.max(1, ...dealings.map((r) => r.n));
+const generalN = new Set(general.flatMap((r) => r.ps.map((p) => p.node.id))).size;
+
+// ---- three passages for the readout: one from each corpus in turn, then the rest
+const pick = (r: Row) => {
+  const out: any[] = [];
+  for (const s of CORPORA) { const p = r.ps.find((x) => x.section === s); if (p) out.push(p); if (out.length === 3) break; }
+  for (const p of r.ps) { if (out.length >= 3) break; if (!out.includes(p)) out.push(p); }
+  return out.slice(0, 3).map((p) => [href(lang, p.node.id), shortLabel(p.node)]);
+};
+const data: Record<string, any> = {};
+for (const r of rows) {
+  if (r.kind === "mention") continue;
+  data[r.t] = { k: V.kind[r.kind], n: num(r.n, lang), c: r.c.map((x, i) => (x ? [corpusName(CORPORA[i]), num(x, lang), +((x / r.n) * 100).toFixed(1), i] : null)).filter(Boolean), p: pick(r), s: r.shared ? 1 : 0 };
+}
+const bar = (r: Row, max: number) => ((r.n / max) * 100).toFixed(1);
+---
+<section aria-labelledby="sg-akh-title" class="sg-akh" data-sg-akh style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="sg-akh-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{fmt(V.caption, { topics: num(virtues.length + vices.length + dealings.length, lang), passages: num(passages.length, lang) })}</p>
+  </div>
+  <div class="sg-akh-wings">
+    <div class="sg-akh-head ui" aria-hidden="true">
+      <span class="sg-akh-hv">{V.virtues} · {fmt(V.topics_n, { n: num(virtues.length, lang) })}</span>
+      <span class="sg-akh-hx">{V.vices} · {fmt(V.topics_n, { n: num(vices.length, lang) })}</span>
+    </div>
+    <div class="sg-akh-body">
+      <ol class="sg-akh-side sg-akh-virtue" role="list" aria-label={`${V.virtues} · ${fmt(V.topics_n, { n: num(virtues.length, lang) })}`}>
+        {virtues.map((r, i) => (
+          <li data-tail={i >= TAIL ? "" : undefined}><a class="sg-akh-r" href="#akhlaq-filter" data-t={r.t}><span class="sg-akh-l">{r.name}</span><span class="sg-akh-bl"><span class="sg-akh-bar" style={`--w:${bar(r, maxSide)}`}></span><span class="sg-akh-n">{num(r.n, lang)}</span></span></a></li>
+        ))}
+      </ol>
+      <ol class="sg-akh-side sg-akh-vice" role="list" aria-label={`${V.vices} · ${fmt(V.topics_n, { n: num(vices.length, lang) })}`}>
+        {vices.map((r, i) => (
+          <li data-tail={i >= TAIL ? "" : undefined}><a class="sg-akh-r" href="#akhlaq-filter" data-t={r.t}><span class="sg-akh-l">{r.name}</span><span class="sg-akh-bl"><span class="sg-akh-bar" style={`--w:${bar(r, maxSide)}`}></span><span class="sg-akh-n">{num(r.n, lang)}</span></span></a></li>
+        ))}
+      </ol>
+    </div>
+  </div>
+  <h3 class="sg-akh-h3">{V.dealings} · {fmt(V.topics_n, { n: num(dealings.length, lang) })}</h3>
+  <p class="muted ui sg-akh-sub">{V.dealings_note}</p>
+  <ol class="sg-akh-lol" role="list" aria-label={V.dealings}>
+    {dealings.map((r, i) => (
+      <li data-tail={i >= TAIL ? "" : undefined}><a class="sg-akh-r" href="#akhlaq-filter" data-t={r.t}><span class="sg-akh-top"><span class="sg-akh-l">{r.name}</span><span class="sg-akh-n">{num(r.n, lang)}</span></span><span class="sg-akh-stem" style={`--w:${bar(r, maxDeal)}`}></span></a></li>
+    ))}
+  </ol>
+  <p class="ui sg-akh-more"><button type="button" class="sg-akh-btn" data-sg-more aria-pressed="false" hidden data-t-all={V.show_all} data-t-less={V.show_fewer}>{V.show_all}</button></p>
+  <div class="sg-akh-readout ui panel" data-sg-readout aria-live="polite" hidden
+       data-t-passages={V.passages_n} data-t-list={V.show_in_list} data-t-open={V.sample}>
+    <p class="muted sg-akh-hint" data-sg-hint>{V.hint}</p>
+    <div data-sg-detail hidden>
+      <div class="sg-akh-ra">
+        <p class="sg-akh-rname"><strong data-f="name"></strong> <span class="sg-akh-chip" data-f="kind"></span> <span class="muted" data-f="count"></span></p>
+        <span class="sg-akh-split" data-f="split" aria-hidden="true"></span>
+        <ul class="sg-akh-legend" data-f="legend"></ul>
+      </div>
+      <div class="sg-akh-rb">
+        <p class="sg-akh-ptitle muted" data-f="ptitle"></p>
+        <ul class="sg-akh-pass" data-f="pass"></ul>
+        <p><button type="button" class="sg-akh-btn" data-f="filter"></button></p>
+      </div>
+    </div>
+  </div>
+  <p class="muted ui sg-akh-cap">{generalN > 0 ? fmt(V.general_note, { n: num(generalN, lang) }) : ""} {V.no_pairs}</p>
+  <script type="application/json" data-sg-json set:html={JSON.stringify(data).replace(/</g, "\\u003c")}></script>
+</section>
+<style is:inline>
+  .sg-akh { --sg-q: var(--gold); --sg-s: var(--link); --sg-e: color-mix(in srgb, var(--fg) 55%, var(--card)); --sg-b: color-mix(in srgb, var(--gold) 38%, var(--card)); }
+  .sg-akh-wings { margin-block: .4rem .6rem; }
+  .sg-akh-head { display: grid; grid-template-columns: 1fr 1fr; column-gap: 24px; font-size: .86rem; font-weight: 600; color: var(--fg); padding-block-end: 6px; }
+  .sg-akh-hv { text-align: end; } .sg-akh-hx { text-align: start; }
+  :dir(rtl) .sg-akh-hv, :dir(rtl) .sg-akh-hx { unicode-bidi: plaintext; }
+  .sg-akh-body { position: relative; display: grid; grid-template-columns: 1fr 1fr; column-gap: 24px; align-items: start; }
+  .sg-akh-body::before { content: ""; position: absolute; inset-block: 0; inset-inline-start: 50%; inline-size: 2px; margin-inline-start: -1px; background: var(--gold); border-radius: 1px; }
+  .sg-akh-side, .sg-akh-lol { list-style: none; margin: 0; padding: 0; font-family: inherit; }
+  .sg-akh-side li, .sg-akh-lol li { margin: 0; }
+  .sg-akh-r { display: block; padding-block: 4px 3px; text-decoration: none; color: var(--fg); border-radius: 4px; }
+  .sg-akh-top { display: flex; align-items: baseline; gap: 8px; }
+  .sg-akh-bl { display: flex; align-items: center; gap: 6px; margin-block-start: 3px; }
+  .sg-akh-virtue .sg-akh-bl { flex-direction: row-reverse; }
+  .sg-akh-side .sg-akh-l { display: block; }
+  .sg-akh-l { font-size: .84rem; line-height: 1.25; min-inline-size: 0; overflow-wrap: anywhere; }
+  .sg-akh-virtue .sg-akh-l { text-align: end; }
+  .sg-akh-n { font-size: .78rem; color: var(--muted); font-variant-numeric: tabular-nums; flex: none; }
+  .sg-akh-bar { display: block; flex: none; block-size: 10px; min-inline-size: 3px; inline-size: calc(var(--w) * .74%); border-radius: 2px; background: var(--link); }
+  .sg-akh-vice .sg-akh-bar { background: var(--gold-text); }
+  .sg-akh-r:hover .sg-akh-bar, .sg-akh-r.is-sel .sg-akh-bar { outline: 2px solid var(--gold); outline-offset: 1px; }
+  .sg-akh-r:hover .sg-akh-l, .sg-akh-r.is-sel .sg-akh-l { text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+  .sg-akh-r:focus-visible, .sg-akh-btn:focus-visible, .sg-akh-readout a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-akh-h3 { font-size: 1.05rem; margin: 1.6rem 0 .1rem; }
+  .sg-akh-sub { margin: 0 0 .5rem; font-size: .86rem; max-inline-size: var(--measure); }
+  .sg-akh-lol { column-width: 17rem; column-gap: 28px; }
+  .sg-akh-lol li { break-inside: avoid; }
+  .sg-akh-stem { display: block; position: relative; block-size: 12px; margin-block-start: 2px; }
+  .sg-akh-stem::before { content: ""; position: absolute; inset-inline-start: 0; inset-block-start: 5px; block-size: 2px; inline-size: calc((100% - 12px) * var(--w) / 100); background: var(--gold-text); }
+  .sg-akh-stem::after { content: ""; position: absolute; inset-block-start: 0; inset-inline-start: calc((100% - 12px) * var(--w) / 100); inline-size: 12px; block-size: 12px; border-radius: 50%; background: var(--gold); border: 2px solid var(--gold-text); box-sizing: border-box; }
+  .sg-akh-r.is-sel .sg-akh-stem::after, .sg-akh-r:hover .sg-akh-stem::after { background: var(--fg); }
+  .sg-akh-more { margin: .6rem 0 0; }
+  .sg-akh-btn { min-block-size: 44px; padding: 0 1.1rem; border-radius: 999px; border: 1px solid var(--gold); background: transparent; color: var(--fg); font: inherit; font-size: .9rem; cursor: pointer; }
+  .sg-akh-btn:hover { background: var(--gold); color: #0a2533; }
+  .sg-akh-readout { margin-block: .8rem 0; border: 1px solid var(--gold); min-block-size: 7rem; padding: 12px 16px; }
+  .sg-akh-readout p { margin: .2rem 0; }
+  .sg-akh-readout.is-on { position: sticky; inset-block-end: 8px; z-index: 5; box-shadow: 0 6px 24px rgba(0, 0, 0, .22); }
+  .sg-akh-readout [data-sg-detail]:not([hidden]) { display: grid; grid-template-columns: 1fr; gap: 0 28px; }
+  @media (min-width: 760px) { .sg-akh-readout [data-sg-detail]:not([hidden]) { grid-template-columns: 1fr 1fr; } }
+  .sg-akh-rname { font-size: 1.1rem; }
+  .sg-akh-chip { font-size: .78rem; border: 1px solid var(--line); border-radius: 999px; padding: 1px 10px; color: var(--muted); }
+  .sg-akh-split { display: flex; block-size: 10px; border-radius: 5px; overflow: hidden; margin-block: .35rem; background: var(--line); }
+  .sg-akh-split i { display: block; block-size: 100%; }
+  .sg-akh-legend { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0 0 .3rem; padding: 0; font-size: .86rem; }
+  .sg-akh-legend li { display: inline-flex; align-items: center; gap: 6px; }
+  .sg-akh-legend i { display: inline-block; inline-size: 12px; block-size: 12px; border-radius: 3px; border: 1px solid var(--line); }
+  .sg-akh-ptitle { font-size: .82rem; margin-block-start: .5rem !important; }
+  .sg-akh-pass { list-style: none; display: flex; flex-wrap: wrap; gap: 0 16px; font-size: .92rem; margin: 0; padding: 0; }
+  .sg-akh-pass a { display: inline-flex; align-items: center; min-block-size: 32px; }
+  .sg-akh-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+  .sg-akh [data-c="0"] { background: var(--sg-q); } .sg-akh [data-c="1"] { background: var(--sg-s); } .sg-akh [data-c="2"] { background: var(--sg-e); } .sg-akh [data-c="3"] { background: var(--sg-b); }
+  @media (max-width: 640px) {
+    .sg-akh-head, .sg-akh-body { column-gap: 14px; }
+    .sg-akh-l { font-size: .78rem; }
+    .sg-akh.is-cut li[data-tail] { display: none; }
+  }
+</style>
+<script src="../../scripts/sig-akhlaq.ts"></script>

@@ -13,7 +13,7 @@ import {
 } from "../../../scripts/akhlaq";
 import type { Node } from "../../../scripts/build-graph";
 
-export { AKHLAQ_SECTIONS, type AkhlaqKind, type AkhlaqSection, type AkhlaqTrack } from "../../../scripts/akhlaq";
+export { AKHLAQ_SECTIONS, AKHLAQ_TOPIC_KINDS, type AkhlaqKind, type AkhlaqSection, type AkhlaqTrack } from "../../../scripts/akhlaq";
 
 export interface AkhlaqItem {
   node: Node;

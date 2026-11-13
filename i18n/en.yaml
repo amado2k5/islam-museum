@@ -3573,6 +3573,25 @@ dreams:
       title: The science of dreams
       desc: "The museum's curated records on dreams: the books of dreams in hadith, their interpretation and rulings, the bad dream and ihtilam, and the glad tidings."
 dua:
+  viz:
+    title: "The supplications, by where they are found"
+    headline: "surahs hold at least one supplication formula recorded here, of the Qur'an's {total}"
+    caption: "Each lamp is one surah, in Mushaf order, along six hanging strings; the numbers mark where a string begins and ends. A lamp is lit when the museum has recorded at least one supplication formula in the surah, and its glow grows with the count. The second set of strings has one lamp for each hadith collection that holds such passages."
+    mode_label: "Count"
+    mode_f: "Formulas"
+    mode_a: "All mentions"
+    surahs_title: "The Qur'an's surahs"
+    works_title: "The hadith collections"
+    works_key: "Hadith collections, in the order of the lamps"
+    legend_title: "Key"
+    legend_lit: "Lit: at least one passage recorded"
+    legend_unlit: "Unlit: none recorded"
+    hint: "Hover, focus or touch a lamp to see its count and the references of its passages. A second touch opens the first passage."
+    formulas_n: "{n} supplication formulas recorded"
+    all_n: "{n} passages recorded, formulas and mentions"
+    of_which: "{n} of them carry the wording of a supplication"
+    refs_title: "References; mentions are shown fainter"
+    note: "A formula is a passage that carries the wording of a supplication; a mention is a passage that speaks about supplication. The Qur'an's references are surah and ayah; a collection's are its hadith numbers. The lamps count passages recorded in this museum, not every supplication in the sources."
   title: "Du'a Browser"
   lede: "Every supplication mentioned in the museum's sources: the Qur'anic prayers from Adam's «ربنا» to the Prophet's «اللهم» formulas, the du'as of the two Sahihs, the Muwatta and the Sunan, the supplications of the Companions and the Successors, what the seerah and every harvested book carry — sourced records that grow as new texts land."
   badge: Supplication explorer
@@ -3771,6 +3790,31 @@ islamic_economy:
       title: "The records on the economy"
       desc: "The museum's curated records on money, deeds and endowment: the waqf cluster, the trade-and-finance concepts, the covenant and instrument records, waqf and treaty events, and the Islamic-finance works."
 ibadat:
+  viz:
+    title: "The acts of worship"
+    caption: "A rose of {families} worship families. Each petal's area is the number of passages in the museum's sources that carry the family, in bands: the Qur'an nearest the centre, then the Sunnah, the seerah and other books. A passage can belong to several families, so the petals add up to more than the {passages} passages. Around the rose, one bead for each of {practices} curated practice records."
+    centre: "passages"
+    corpus_title: "Where the passages are found"
+    corpus:
+      quran: "Qur'an"
+      sunnah: "Sunnah"
+      seerah: "Seerah"
+      books: "Books"
+      curated: "Curated records"
+    obl_title: "Obligation, as each practice record states it"
+    obl:
+      obligatory: "Obligatory"
+      recommended: "Recommended"
+      cultural: "Cultural"
+      unstated: "Not stated"
+    families: "Worship families, by number of passages"
+    passages_n: "{n} passages"
+    none_yet: "No passage yet: {names}."
+    hint: "Hover, focus or touch a petal or a bead to see its family, where its passages are found and its practices. A second touch on a petal, or Enter, filters the list below; a bead opens its practice."
+    show_in_list: "Show these in the list below"
+    practices: "Practices of this family"
+    loose_title: "Practices not placed on a petal"
+    note: "Obligation labels are as each practice record states them from its sources; the museum issues no ruling. Petals count passages by the words the detector finds, so a count describes the sources, not the practice. Practices are grouped by worship family in the museum's own table; those it does not group stand below the rosette."
   title: "Worship and Adhkar Browser"
   lede: "Every act of worship and remembrance in the museum's sources: the prayer with its pillars, sunnahs and supererogatory forms, purification by wudu, ghusl and tayammum, the fast of Ramadan and i'tikaf, zakat and charity, hajj and umrah with tawaf and sa'y, the remembrance of God with its morning and evening adhkar, glorification, praise, tahlil, takbir, istighfar and blessings on the Prophet, supplication in all its formulas, the recitation of the Qur'an, repentance and turning back, and ruqya — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, the reports of the Companions and the Successors, and every harvested book — sourced records that grow as new texts land."
   badge: Worship and adhkar explorer
@@ -5149,6 +5193,31 @@ hisab:
       title: Curated records
       desc: "The article of the subject and the rows of the calculator: each record explains one counting text and names its source."
 akhlaq:
+  viz:
+    title: "Virtues and vices, face to face"
+    caption: "Each bar is the number of passages in the museum's sources that carry one topic, across {passages} passages and {topics} topics. Virtues grow to one side of the spine and vices to the other, each side sorted by its own count. Hover, focus or touch a bar to see where its passages are found."
+    virtues: "Virtues"
+    vices: "Vices"
+    dealings: "Dealings between people"
+    dealings_note: "Contracts, debts, family and judgement are neither virtue nor vice, so they stand apart; the length of each stem is its number of passages."
+    topics_n: "{n} topics"
+    show_all: "Show all topics"
+    show_fewer: "Show fewer"
+    hint: "Hover, focus or touch a bar to read its topic, its count by corpus and three of its passages. A second touch, or Enter, filters the list below."
+    kind:
+      virtue: "Virtue"
+      vice: "Vice"
+      dealing: "Dealing"
+    corpus:
+      quran: "Qur'an"
+      sunnah: "Sunnah"
+      seerah: "Seerah"
+      books: "Books"
+    passages_n: "{n} passages"
+    show_in_list: "Show these in the list below"
+    sample: "Three of its passages"
+    general_note: "{n} more passages speak of ethics or dealings in general words and are not placed on a side."
+    no_pairs: "The two sides of a row are unrelated: no virtue is set against a particular vice."
   title: "Ethics and Dealings Browser"
   lede: "Every mention of ethics and dealings in the museum's sources: the Qur'an's virtues from truthfulness, trustworthiness, justice and excellence to kindness to parents and kinship ties, and its vices from lying, treachery, pride, backbiting and injustice; the hadiths 'I was sent to perfect noble character' and 'a Muslim is one from whose tongue and hand the Muslims are safe'; and the dealings between people from sale, riba, debt and pledge to marriage, divorce, oaths, testimony, judgement and the scales — and every report of the Companions and the Successors, what the seerah books carry, and every harvested book — sourced records that grow as new texts land."
   badge: Ethics and Dealings Explorer
