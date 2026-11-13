@@ -15,3 +15,4 @@ tei: { pattern: "^[0-9]+(,[0-9]+)*$", url: "https://www.epigraphie-islamique.uli
 idai: { pattern: "^[0-9]+$", url: "https://gazetteer.dainst.org/place/{id}" }
 biblissima: { pattern: "^Q[1-9][0-9]*$", url: "https://data.biblissima.fr/entity/{id}" }
 louvre: { pattern: "^cl[0-9]+$", url: "https://collections.louvre.fr/ark:/53355/{id}" }
+althurayya: { pattern: "^[A-Z0-9_]+$", url: "https://github.com/althurayya/althurayya.github.io/blob/master/places/{id}.geojson" }
