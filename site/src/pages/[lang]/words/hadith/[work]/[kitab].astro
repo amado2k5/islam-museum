@@ -6,11 +6,13 @@ import PageHeader from "../../../../../components/PageHeader.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../../../lib/i18n";
 import { byId, graph, href, labelOf, realNodes } from "../../../../../lib/graph";
 import { sunnahCollection, sunnahReport } from "../../../../../lib/sunnah";
+import { sample } from "../../../../../lib/sample";
 
 export function getStaticPaths() {
   const kitabs = realNodes.filter((n) => n.class === "passage" && n.data.unit === "chapter");
   return LANGS.flatMap((lang) =>
-    kitabs.map((k) => ({
+    // A pull request's sample build keeps some of the chapters (site/src/lib/sample.ts); a full build keeps them all.
+    sample(kitabs, 20, (k) => `/${lang}/words/hadith/${(k.data.work as string).split("/")[1]}/${k.slug.replace(/^muwatta-/, "")}/`).map((k) => ({
       params: { lang, work: (k.data.work as string).split("/")[1], kitab: k.slug.replace(/^muwatta-/, "") },
       props: { lang, kitabNode: k },
     })),

@@ -200,6 +200,10 @@ What follows from them:
 
 Each of these needs its own proposal (`docs/ai-change-gates.md` section 1).
 
+**Update, 13 November 2026:** 7.1, 7.2 and 7.3 were proposed, approved by the founder and implemented the same day:
+[46 · CI flow proposal](46-ci-flow-proposal.md) has the changes and the measured result. The required status check of
+7.1 stays a question for the founder.
+
 ### 7.1 CI gives its answer late, and `main` breaks silently
 
 - A pull request's Validate run does the full build. Before this change that was three hours, and agents merge without
