@@ -2477,3 +2477,19 @@ Resume point: mawkib-al-nour episode 28 (branch from origin/main). Episode 29 in
 | An aside on a hospital-style description of who deserves the dormant accounts, a remark on how a person reaches the state, and a partly garbled passage about perfume testing and a child tasting dates in a shop | ep28 00:05:30-00:06:30, 00:13:30-00:14:00, 00:39:30-00:40:00 | Garbled or illustrative | Clarity | Open |
 
 Resume point: none; episodes 1 to 28 of mawkib-al-nour are written. Episode 29 needs a new recording.
+
+## modakirate-iblis (Mudhakkirat Iblis), episodes 1 onward (12 Nov 2026, Claude Code claude-sonnet-5-5)
+
+Lane C. Series record `work/modakirate-iblis` created (no earlier record existed). Source folder: `books/assabile/omar-abdelkafy/modakirate-iblis/pass5-qwen`, 30 episodes (ep01 to ep30). Size check at start: ep08 is 7,476 bytes against 24,000 to 31,000 for the others, so it is likely truncated (read it before writing it); no byte-identical pairs were found by checksum.
+
+### modakirate-iblis ep01 (12 Nov 2026)
+
+21 points written for episode 1 (ar, en, ur); 13 needs_source marks in each language file; 11 `about` edges. Quran verses referenced only through passage links (7-16, 7-17, 11-75, 23-60); none typed. Proposal for the founder, not applied: the lecturer's account of the devils of mankind as having surpassed Iblis (00:06:00) and the unsourced claims about how long Iblis lives (00:04:00) are recorded as his statements.
+
+| Excluded (modakirate-iblis ep01) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break trailer, and the closing prayer | ep01 00:00:00, 00:11:30-00:13:30, 00:25:30 | Not lesson content (a trailer for another programme and closing supplication) | Content rule | Open |
+| A garbled loop of repeated syllables | ep01 00:22:30 (the second half of the window) | Not recoverable | Clarity, Loop check | Open |
+| A remark that the English word for covering sounds like the Arabic word, in the explanation of kufr | ep01 00:19:30 (part) | Garbled and unreliable | Clarity | Open |
+
+Resume point: modakirate-iblis episode 2 (branch from origin/main).
