@@ -2517,3 +2517,15 @@ Resume point: modakirate-iblis episode 3 (branch from origin/main).
 | A garbled stretch of the Bedouin story with unclear diacritics | ep03 00:04:30 (the opening words) | Partly garbled, only the clear sense used | Clarity | Open |
 
 Resume point: modakirate-iblis episode 4 (branch from origin/main).
+
+### modakirate-iblis ep04 (12 Nov 2026)
+
+14 points written for episode 4 (ar, en, ur); 7 needs_source marks in each language file; 4 new `about` edges. Quran verses referenced only through passage links (2-65, 2-67, 2-71, 2-73, 6-153, 2-181); none typed. Proposal for the founder, not applied: the lecturer's rulings and criticisms in this episode (the hijab as he describes it, cosmetic practices, wills in favour of daughters, the deferred dower) are recorded only as his opinion, with no perspectives block added; the series record stays `sensitivity: contested`.
+
+| Excluded (modakirate-iblis ep04) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Break trailer and closing prayer | ep04 00:10:00-00:11:30, 00:22:30-00:23:00 | Not lesson content | Content rule | Open |
+| An anecdote about a named living billionaire and his fiancee, the engagement gift and a charitable foundation, with remarks on jewellers and gold coins | ep04 00:16:00-00:17:30 | Unverified claim about a named living person; garbled in parts | Sourcing, Clarity | Open |
+| The fractions he gives for the daughters' and the paternal uncle's shares | ep04 00:20:00-00:20:30 | Garbled in the transcript, shares not restated | Clarity | Open |
+
+Resume point: modakirate-iblis episode 5 (branch from origin/main).
