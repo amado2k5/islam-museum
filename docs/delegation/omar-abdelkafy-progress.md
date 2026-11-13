@@ -2565,3 +2565,14 @@ Resume point: modakirate-iblis episode 7 (branch from origin/main).
 | The remark on bank interest and the councils of jurists | ep07 00:07:00-00:07:30 | Half-clear, no ruling given | Clarity | Open |
 
 Resume point: modakirate-iblis episode 8 (branch from origin/main). Episode 8 is a short transcript (7,476 bytes against about 24,000 to 31,000 for the others) and is probably truncated: read it fully before writing, and write only what the transcript holds.
+
+### modakirate-iblis ep08 (12 Nov 2026)
+
+7 points written for episode 8 (ar, en, ur); 4 needs_source marks in each language file; 2 new `about` edges. Quran verses referenced only through passage links (7-23, 6-164, 17-13, 17-14, 28-15, 28-16, 9-118, 40-60); none typed. Source note: the audio is 866.6 seconds, but the transcript ends at 00:06:30 (about seven minutes), so roughly half of the recording is missing from the transcript, and the transcript starts mid-sentence. Only what the transcript holds was written.
+
+| Excluded (modakirate-iblis ep08) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| A repeated phrase loop and a garbled aside on the Prophet's changing of dress | ep08 00:00:30-00:01:00, 00:05:30 | Not recoverable | Clarity, Loop check | Open |
+| The second half of the recording | ep08 after 00:07:00 | Not in the transcript (transcript ends mid-sentence) | Source completeness | Open |
+
+Resume point: modakirate-iblis episode 9 (branch from origin/main).
