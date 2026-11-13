@@ -618,3 +618,10 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - No dataset was downloaded (founder permission for the 3 MB listing was not given in this task). Schema read from the schema page only.
 - Remaining: the founder may permit the 3 MB CSV listing so the Arabic-Islamic share can be counted; then a 10-record pilot on works already in the graph. The Arabic share is unmeasured.
 
+## 2026-11-12 (p34, Lane B) — Louvre collections registered Tier 2 (text open, photographs excluded)
+
+- Terms re-read on the Terms of Use page (collections.louvre.fr/en/page/cgu), 12 Nov 2026: art. 4.1.2 puts the textual content of entries under the Etalab Open Licence with credit to the Musée du Louvre and the date of last update; art. 4.1.1 restricts photographs; the ADAGP clause forbids data mining of titles and authors of ADAGP-repertory works (modern artists), recorded as a skip rule. The terms contain no ban on automated reading of records. robots.txt disallows /search/export and blocks image paths for named AI crawlers: both respected.
+- One record JSON fetched to confirm the structure (ark:/53355/cl010062323, a painting, not Islamic); fields include inscriptions, provenance, acquisition, collection. No other records read, no image requested.
+- Registered: data/source/louvre-collections.yaml, registry, attribution, source-families, CANARY.
+- Remaining: find the Islamic Arts department's record ids (no bulk route; search pages must be read by hand or via a Wikidata Louvre-id crosswalk) and run the 10-object text-only pilot. Share of the 490-object backlog is unmeasured.
+
