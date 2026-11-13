@@ -1169,6 +1169,17 @@ sources:
       robots_txt: 'none published (404, read 12 Nov 2026)'
       note: 'authority records for persons, works and institutions of the manuscript world, Arab and Islamic authors included; cite by Wikibase item id (for example Q499); pilot of 10 persons'
     status: enabled
+  vhmml:
+    name: vHMML Reading Room and Data Portal (Hill Museum & Manuscript Library)
+    url: https://www.vhmml.org
+    licence: Creative Commons Attribution 4.0 for Reading Room and Museum metadata, stated at vhmml.org/terms and vhmml.org/dataPortal/dataset (read 12 Nov 2026); images are NOT open (partner libraries retain rights, HMML-owned images CC BY-NC 4.0) and are never fetched; {cite:vhmml <HMML project number>} is the attribution
+    layer: by
+    method: public record pages and Data Portal search; bulk datasets (weekly JSON/CSV) documented but not downloaded without the founder's separate permission; no login, no account, no image fetches
+    limits:
+      pause_seconds: 3
+      robots_txt: 'wildcard allows records; disallows /image/, /options, /var/, /logout and a few view routes (read 12 Nov 2026)'
+      note: 'manuscript and print metadata (shelfmark, repository, language, script, colophon, provenance, date); collection leans to Christian manuscripts, Arabic-Islamic share unmeasured; separate from the hmml entry'
+    status: enabled
   princeton-geniza:
     name: Princeton Geniza Project
     url: https://geniza.princeton.edu

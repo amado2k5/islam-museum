@@ -611,3 +611,10 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Registered: data/source/biblissima.yaml, scripts/harvest/sources.yaml, docs/attribution.md, docs/agents/source-families.md (Tier 2 row), CANARY. Draft-tier source entity (AI-written), no decision-ledger id invented; the approval is the founder's in chat.
 - Remaining: the 10-person pilot via wbsearchentities / wbgetentities (not run in this PR); Arabic-label share still unmeasured.
 
+## 2026-11-12 (p34, Lane B) — vHMML registered Tier 2 (metadata open, images excluded)
+
+- Terms re-read on the provider's pages, 12 Nov 2026: vhmml.org/terms and /dataPortal/dataset state CC BY 4.0 for Reading Room and Museum metadata; images stay with partner libraries (HMML-owned images CC BY-NC 4.0). robots.txt allows records and disallows /image/. Nothing forbids automated reading of metadata.
+- Registered as `source/vhmml`, separate from the existing `source/hmml` (hmml.org catalogue, facts-only): same institution, different platform and licence statement. The two entries cross-refer in the reliability note.
+- No dataset was downloaded (founder permission for the 3 MB listing was not given in this task). Schema read from the schema page only.
+- Remaining: the founder may permit the 3 MB CSV listing so the Arabic-Islamic share can be counted; then a 10-record pilot on works already in the graph. The Arabic share is unmeasured.
+
