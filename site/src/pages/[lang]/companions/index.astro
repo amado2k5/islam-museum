@@ -1,6 +1,6 @@
 ---
 // The Companions Browser's home: the Ten, the circles, the women Companions, the clans, the events, the deaths by Hijri
-// decade and the A-to-Z list of every Companion record. Counts are read from the graph at build time and appear on
+// decade and the door to the A-to-Z list of every Companion record (./all.astro). Counts are read from the graph at build time and appear on
 // this page only; no shared layout carries a number (docs/site/README.md).
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import CompanionList from "../../../components/CompanionList.astro";
@@ -8,6 +8,7 @@ import CompanionsGeneration from "../../../components/sig/CompanionsGeneration.a
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
+import { LANDING_ROWS } from "../../../lib/paged";
 import { companions, companionNodes, hasArticle, clanFacets, eventFacets, decadeFacets, groupMembers, decadeLabel, collatedBy, CIRCLES, TEN_TRAIL, TEN_CONCEPT } from "../../../lib/companions";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
@@ -17,7 +18,7 @@ const C = T.companions;
 const count = (n: number) => num(n, lang);
 const label = (id: string) => labelOf(byId.get(id)!, lang);
 const status = fmt(C.status, { n: count(companions.ids.length), women: count(companions.women.length), articles: count(companionNodes.filter(hasArticle).length) });
-const everyone = [...companions.ids].sort(collatedBy(lang));
+const firstNames = [...companions.ids].sort(collatedBy(lang)).slice(0, LANDING_ROWS);
 const circles = CIRCLES.filter((c) => byId.has(c));
 const base = `/${lang}/companions`;
 // the Ten are the concept record's own cited list (scripts/companions.ts); a section that shows another count fails the build
@@ -91,11 +92,11 @@ const facet = (path: string, id: string, n: number, text = label(id)) => ({ path
     <section aria-labelledby="az-title" style="margin-top:2rem">
       <h2 id="az-title">{C.az_title}</h2>
       <p class="muted" style="max-width:var(--measure)">{C.az_note}</p>
-      <CompanionList lang={lang} ids={everyone} filter id="companions-az" />
-      <p class="ui muted">{C.derived_mark}</p>
+      {/* The first names only, as on the paged listings (lib/paged.ts); the whole roll and its name filter are on ./all.astro. With the roll and the generation chart the landing was 530 KB, over its 400 KB budget. */}
+      <CompanionList lang={lang} ids={firstNames} id="companions-az" />
+      <p class="ui"><a class="chip" href={`${base}/all/`}>{C.az_title} · {fmt(C.count, { n: count(companions.ids.length) })}</a></p>
     </section>
   </div>
-  <script src="../../../scripts/companions-filter.ts"></script>
 </BaseLayout>
 <style>
   .chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 1rem 0; list-style: none; }
