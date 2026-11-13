@@ -285,6 +285,17 @@ KIND_BY_SIGNAL.set("dayn_bare", "dealing"); TOPIC_BY_SIGNAL.set("dayn_bare", "da
 KIND_BY_SIGNAL.set("uquq_qatia", "vice"); TOPIC_BY_SIGNAL.set("uquq_qatia", "uquq");
 KIND_BY_SIGNAL.set("idda", "dealing"); TOPIC_BY_SIGNAL.set("idda", "talaq");
 
+/** The kind(s) each topic is declared with in the signal table above (read by the signature view of the landing page; a topic whose signals declare different kinds lists them all). */
+export const AKHLAQ_TOPIC_KINDS: Record<string, AkhlaqKind[]> = (() => {
+  const out: Record<string, AkhlaqKind[]> = {};
+  for (const [sig, topic] of TOPIC_BY_SIGNAL) {
+    const kind = KIND_BY_SIGNAL.get(sig)!;
+    const list = (out[topic] ??= []);
+    if (!list.includes(kind)) list.push(kind);
+  }
+  return out;
+})();
+
 /** The kinds a passage carries: `virtue`, `vice`, `dealing` and/or `mention` (a sorted set). */
 export function akhlaqKindsOf(n: Node): AkhlaqKind[] {
   const kinds = new Set<AkhlaqKind>();

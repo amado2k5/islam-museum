@@ -1,0 +1,262 @@
+---
+// "The acts of worship" (Worship and Adhkar Browser home): a rose window. One petal per worship topic that has passages,
+// in order of count from the top, clockwise. A petal's AREA is the number of passages that carry the topic, and its bands
+// are the corpus shares (area again): Qur'an innermost, then Sunnah, seerah, books. An outer ring of beads holds the
+// museum's curated practice records, each at the petal of its worship family and filled by the obligation the record states.
+// A passage can carry several topics, so petal counts add up to more than the passages. Everything is computed here
+// from site/src/lib/ibadat.ts and the graph; the script (site/src/scripts/sig-ibadat.ts) adds the centre text and readout.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { ibadatItems } from "../../lib/ibadat";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).ibadat;
+const V = G.viz;
+
+/** A practice record carries no worship-family field, so the museum's own grouping is declared here (a layout constant,
+ *  like MESSENGERS_TREE): a `<topic>-practices` tag on the record wins; otherwise this table; a practice in neither is
+ *  listed under the rosette, not placed. The build fails if an id below is not a practice record or names a topic with no label. */
+const PRACTICE_FAMILY: Record<string, string> = {
+  "practice/salah": "salah", "practice/salat-al-janaza": "salah", "practice/salat-al-jumua": "salah", "practice/salat-al-khawf": "salah",
+  "practice/salat-al-kusuf": "salah", "practice/salat-al-istisqa": "salah", "practice/salat-al-witr": "salah", "practice/salat-al-duha": "salah",
+  "practice/qiyam-al-layl": "salah", "practice/tahajjud": "salah", "practice/taraweeh": "salah", "practice/sujud-al-sahw": "salah",
+  "practice/raf-al-yadayn-fil-salah": "salah", "practice/adhan": "salah", "practice/khutba": "salah", "practice/sujud-tilawa": "salah",
+  "practice/wudu": "tahara", "practice/ghusl-al-janaba": "tahara", "practice/ghusl-al-janaza": "tahara", "practice/tayammum": "tahara",
+  "practice/istinja": "tahara", "practice/mash-ala-al-khuffayn": "tahara", "practice/miswak": "tahara",
+  "practice/sawm-ramadan": "sawm", "practice/itikaf": "sawm", "practice/iftar": "sawm", "practice/suhur": "sawm", "practice/laylat-al-qadr": "sawm",
+  "practice/zakat": "zakat", "practice/zakat-al-fitr": "zakat", "practice/sadaqa": "zakat",
+  "practice/hajj": "hajj", "practice/umrah": "hajj", "practice/tawaf": "hajj", "practice/sai": "hajj",
+  "practice/dhikr": "dhikr", "practice/dua": "dua", "practice/istikhara": "dua",
+  "practice/hifz-al-quran": "tilawa", "practice/khatm-al-quran": "tilawa", "practice/tajwid": "tilawa",
+};
+const CORPORA = ["quran", "sunnah", "seerah", "books", "curated"] as const;
+const OBL = ["obligatory", "recommended", "cultural", "unstated"] as const;
+
+const topicName = (t: string) => { const n = G.topics?.[t]; if (!n) throw new Error(`RoseWindow: topic ${t} has no label under ibadat.topics`); return n as string; };
+const corpusName = (c: string) => { const n = V.corpus?.[c]; if (!n) throw new Error(`RoseWindow: corpus ${c} has no label under ibadat.viz.corpus`); return n as string; };
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+
+// ---- petals: topics with passages, by count
+const passages = ibadatItems.filter((i) => i.node.class === "passage");
+const petals = Object.keys(G.topics)
+  .map((t) => {
+    const ps = passages.filter((p) => p.topics.includes(t as any));
+    return { t, name: topicName(t), n: ps.length, c: CORPORA.map((s) => ps.filter((p) => p.section === s).length) };
+  })
+  .filter((p) => p.n > 0)
+  .sort((a, b) => b.n - a.n || a.t.localeCompare(b.t));
+const unused = Object.keys(G.topics).filter((t) => !petals.some((p) => p.t === t)).map(topicName);
+for (const p of petals) if (p.c.reduce((a, b) => a + b, 0) !== p.n) throw new Error(`RoseWindow: topic ${p.t} has a passage outside the corpora`);
+for (const i of passages) for (const t of i.topics) if (!G.topics[t]) throw new Error(`RoseWindow: passage topic ${t} has no label under ibadat.topics`);
+if (petals.length < 3) throw new Error("RoseWindow: fewer than three petals");
+
+// ---- practices
+const practices = ibadatItems.filter((i) => i.node.class === "practice").map((i) => i.node);
+const practiceIds = new Set(practices.map((p) => p.id));
+for (const [id, t] of Object.entries(PRACTICE_FAMILY)) {
+  if (!practiceIds.has(id)) throw new Error(`RoseWindow: ${id} in PRACTICE_FAMILY is not a worship practice record`);
+  topicName(t);
+}
+const familyOf = (n: any): string | undefined => {
+  const tag = (n.tags as string[]).map((x) => x.match(/^(.+)-practices$/)?.[1]).find((x) => x && G.topics[x] && petals.some((p) => p.t === x));
+  return tag ?? PRACTICE_FAMILY[n.id];
+};
+const oblOf = (n: any) => ((OBL as readonly string[]).includes(n.data.obligation) ? n.data.obligation : "unstated") as (typeof OBL)[number];
+const whenOf = (n: any) => { const w = n.data.when; return w ? String(w[lang] ?? w.ar ?? "") : ""; };
+const placed = practices.map((n) => ({ n, fam: familyOf(n) })).filter((x) => x.fam && petals.some((p) => p.t === x.fam));
+const loose = practices.filter((n) => !placed.some((x) => x.n === n));
+
+// ---- geometry (viewBox units; angles clockwise from the top)
+const W = 800, H = 700, cx = 400, cy = 350, R0 = 44, RMAX = 205, RING0 = 224, PITCH = 19, BR = 7.5, RLAB = 300;
+const N = petals.length, slot = (2 * Math.PI) / N, half = slot / 2 - 0.03;
+const nmax = Math.max(...petals.map((p) => p.n));
+const f = (x: number) => Math.round(x * 10) / 10;
+const P = (r: number, a: number) => [cx + r * Math.sin(a), cy - r * Math.cos(a)] as const;
+const sector = (r1: number, r2: number, a1: number, a2: number) => {
+  const [x1, y1] = P(r2, a1), [x2, y2] = P(r2, a2), [x3, y3] = P(r1, a2), [x4, y4] = P(r1, a1);
+  return `M${f(x1)} ${f(y1)}A${f(r2)} ${f(r2)} 0 0 1 ${f(x2)} ${f(y2)}L${f(x3)} ${f(y3)}A${f(r1)} ${f(r1)} 0 0 0 ${f(x4)} ${f(y4)}Z`;
+};
+const wrap = (s: string, max = 12) => {
+  const out: string[] = [];
+  for (const w of s.split(/\s+/)) { const last = out[out.length - 1]; if (last && (last + " " + w).length <= max) out[out.length - 1] = last + " " + w; else out.push(w); }
+  return out;
+};
+const rosette = petals.map((p, k) => {
+  const mid = k * slot;
+  const rt = Math.sqrt(R0 * R0 + (p.n / nmax) * (RMAX * RMAX - R0 * R0));
+  let cum = 0;
+  const bands = p.c.map((c, ci) => {
+    if (!c) return null;
+    const a = Math.sqrt(R0 * R0 + (cum / p.n) * (rt * rt - R0 * R0));
+    cum += c;
+    const b = Math.sqrt(R0 * R0 + (cum / p.n) * (rt * rt - R0 * R0));
+    return { ci, d: sector(a, b, mid - half, mid + half) };
+  }).filter(Boolean) as { ci: number; d: string }[];
+  // beads: rings filled in turn, each centred on the petal's axis
+  const mine = placed.filter((x) => x.fam === p.t).map((x) => x.n).sort((a, b) => a.id.localeCompare(b.id));
+  const beads: { n: any; x: number; y: number }[] = [];
+  let left = [...mine], ring = 0;
+  while (left.length) {
+    const r = RING0 + ring * PITCH;
+    const cap = Math.max(1, Math.floor((r * (slot - 0.1)) / PITCH));
+    const row = left.splice(0, cap);
+    row.forEach((n, j) => { const a = mid + (j - (row.length - 1) / 2) * (PITCH / r); const [x, y] = P(r, a); beads.push({ n, x, y }); });
+    ring++;
+  }
+  const lines = wrap(p.name);
+  const halfw = Math.max(...lines.map((l) => l.length)) * 17 * 0.3;
+  const [lx, ly] = P(RLAB + Math.abs(Math.sin(mid)) * halfw + Math.abs(Math.cos(mid)) * (lines.length * 9), mid);
+  const [nx, ny] = P(RLAB - 8, mid);
+  return { ...p, k, mid, rt, bands, beads, rings: ring, lines, lx, ly, nx, ny };
+});
+const maxRing = Math.max(...rosette.map((r) => r.rings));
+if (RING0 + Math.max(0, maxRing - 1) * PITCH + BR + 8 > RLAB - 8) throw new Error("RoseWindow: the bead rings reach the labels; raise RLAB");
+
+// ---- readout data
+const data: Record<string, any> = {};
+for (const r of rosette) {
+  data[r.t] = {
+    n: num(r.n, lang),
+    c: r.c.map((x, i) => (x ? [corpusName(CORPORA[i]), num(x, lang), +((x / r.n) * 100).toFixed(1), i] : null)).filter(Boolean),
+    p: r.beads.map((b) => [href(lang, b.n.id), short(b.n), oblOf(b.n), V.obl[oblOf(b.n)], whenOf(b.n)]),
+  };
+}
+const corporaPresent = CORPORA.filter((_, i) => petals.some((p) => p.c[i] > 0));
+---
+<section aria-labelledby="sg-ib-title" class="sg-ib" data-sg-ib style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="sg-ib-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{fmt(V.caption, { families: num(petals.length, lang), passages: num(passages.length, lang), practices: num(placed.length, lang) })}</p>
+  </div>
+  <div class="sg-ib-grid">
+    <div class="sg-ib-art">
+      <svg viewBox={`0 0 ${W} ${H}`} role="group" aria-label={V.title} class="sg-ib-svg" data-sg-svg>
+        <g class="sg-ib-spokes" aria-hidden="true">
+          {rosette.map((r) => { const [x1, y1] = P(R0, r.mid + slot / 2), [x2, y2] = P(RLAB - 24, r.mid + slot / 2); return <line x1={f(x1)} y1={f(y1)} x2={f(x2)} y2={f(y2)} />; })}
+          <circle cx={cx} cy={cy} r={RMAX + 6} class="sg-ib-guide" />
+        </g>
+        {rosette.map((r) => (
+          <a href="#ibadat-filter" class="sg-ib-petal" data-t={r.t} aria-label={`${r.name} · ${fmt(V.passages_n, { n: num(r.n, lang) })}`}>
+            {r.bands.map((b) => <path d={b.d} class={`sg-ib-b${b.ci}`} />)}
+          </a>
+        ))}
+        {rosette.map((r) => r.beads.map((b) => (
+          <a href={href(lang, b.n.id)} class="sg-ib-bead" data-t={r.t} aria-label={`${short(b.n)} · ${V.obl[oblOf(b.n)]}`}>
+            <circle cx={f(b.x)} cy={f(b.y)} r={BR} class={`sg-ob-${oblOf(b.n)}`} />
+          </a>
+        )))}
+        <g class="sg-ib-labs" aria-hidden="true">
+          {rosette.map((r) => <text x={f(r.lx)} y={f(r.ly - ((r.lines.length - 1) * 10))} text-anchor="middle" class="sg-ib-lab">{r.lines.map((l, i) => <tspan x={f(r.lx)} dy={i === 0 ? 0 : 20}>{l}</tspan>)}</text>)}
+          {rosette.map((r) => <text x={f(r.nx)} y={f(r.ny)} text-anchor="middle" dominant-baseline="central" class="sg-ib-num">{num(r.k + 1, lang)}</text>)}
+        </g>
+        <g class="sg-ib-centre" aria-hidden="true">
+          <circle cx={cx} cy={cy} r={R0 - 3} class="sg-ib-hub" />
+          <text x={cx} y={cy - 2} text-anchor="middle" class="sg-ib-ctot" data-sg-ctot>{num(passages.length, lang)}</text>
+          <text x={cx} y={cy + 15} text-anchor="middle" class="sg-ib-csub" data-sg-csub>{V.centre}</text>
+        </g>
+      </svg>
+    </div>
+    <div class="sg-ib-side ui">
+      <ul class="sg-ib-key" aria-label={V.corpus_title}>
+        {corporaPresent.map((c) => <li><i class="sg-ib-sw" data-c={CORPORA.indexOf(c)} aria-hidden="true"></i>{corpusName(c)}</li>)}
+      </ul>
+      <ul class="sg-ib-key" aria-label={V.obl_title}>
+        {OBL.map((o) => <li><i class={`sg-ib-dot sg-ob-${o}`} aria-hidden="true"></i>{V.obl[o]}</li>)}
+      </ul>
+      <ol class="sg-ib-list" role="list" aria-label={V.families}>
+        {rosette.map((r) => <li><a href="#ibadat-filter" data-t={r.t}><b>{num(r.k + 1, lang)}</b><span class="sg-ib-ln">{r.name}</span><span class="sg-ib-lc">{num(r.n, lang)}</span></a></li>)}
+      </ol>
+      {unused.length > 0 && <p class="muted sg-ib-none">{fmt(V.none_yet, { names: unused.join(lang === "en" ? ", " : "، ") })}</p>}
+      <div class="sg-ib-readout panel" data-sg-readout aria-live="polite" hidden data-t-passages={V.passages_n} data-t-list={V.show_in_list} data-t-pr={V.practices}>
+        <p class="muted sg-ib-hint" data-sg-hint>{V.hint}</p>
+        <div data-sg-detail hidden>
+          <p class="sg-ib-rname"><strong data-f="name"></strong> <span class="muted" data-f="count"></span></p>
+          <span class="sg-ib-split" data-f="split" aria-hidden="true"></span>
+          <ul class="sg-ib-key sg-ib-rleg" data-f="legend"></ul>
+          <p class="muted sg-ib-ptitle" data-f="ptitle"></p>
+          <ul class="sg-ib-pr" data-f="pr"></ul>
+          <p><button type="button" class="sg-ib-btn" data-f="filter"></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {loose.length > 0 && (
+    <div class="sg-ib-loose ui">
+      <p class="muted">{V.loose_title}</p>
+      <ul>{loose.map((n) => <li><a href={href(lang, n.id)}><i class={`sg-ib-dot sg-ob-${oblOf(n)}`} aria-hidden="true"></i>{short(n)}</a></li>)}</ul>
+    </div>
+  )}
+  <p class="muted ui sg-ib-cap">{V.note}</p>
+  <script type="application/json" data-sg-json set:html={JSON.stringify(data).replace(/</g, "\\u003c")}></script>
+</section>
+<style is:inline>
+  .sg-ib { --sg-q: var(--gold); --sg-s: var(--link); --sg-e: color-mix(in srgb, var(--fg) 55%, var(--card)); --sg-b: color-mix(in srgb, var(--gold) 38%, var(--card)); --sg-c: color-mix(in srgb, var(--link) 40%, var(--card)); }
+  .sg-ib-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px 32px; align-items: start; }
+  @media (min-width: 900px) { .sg-ib-grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); } }
+  .sg-ib-art { overflow: hidden; }
+  .sg-ib-svg { display: block; inline-size: 132%; margin-inline: -16%; block-size: auto; font-family: inherit; }
+  @media (min-width: 640px) { .sg-ib-svg { inline-size: 100%; margin-inline: 0; } }
+  .sg-ib-spokes line { stroke: var(--line); stroke-width: 1; }
+  .sg-ib-guide { fill: none; stroke: var(--line); stroke-dasharray: 3 5; }
+  .sg-ib-petal path { stroke: var(--card); stroke-width: 1.5; stroke-linejoin: round; transition: opacity .2s; }
+  .sg-ib-b0 { fill: var(--sg-q); } .sg-ib-b1 { fill: var(--sg-s); } .sg-ib-b2 { fill: var(--sg-e); } .sg-ib-b3 { fill: var(--sg-b); } .sg-ib-b4 { fill: var(--sg-c); }
+  .sg-ib-petal { cursor: pointer; outline: none; }
+  .sg-ib-svg.has-sel .sg-ib-petal:not(.is-sel) path { opacity: .45; }
+  .sg-ib-petal.is-sel path { stroke: var(--fg); stroke-width: 2; }
+  .sg-ib-petal:focus-visible path { stroke: var(--focus); stroke-width: 3; }
+  .sg-ib-bead { outline: none; }
+  .sg-ib-bead circle { stroke-width: 2; transition: r .15s; }
+  .sg-ib-bead:hover circle, .sg-ib-bead.is-sel circle { r: 10; }
+  .sg-ib-bead:focus-visible circle { r: 10; stroke: var(--focus); stroke-width: 3; }
+  .sg-ob-obligatory { fill: var(--fg); stroke: var(--gold); }
+  .sg-ob-recommended { fill: var(--gold); stroke: var(--fg); }
+  .sg-ob-cultural { fill: color-mix(in srgb, var(--gold) 30%, var(--card)); stroke: var(--gold); stroke-dasharray: 3 2; }
+  .sg-ob-unstated { fill: var(--card); stroke: var(--muted); stroke-dasharray: 2 2; }
+  .sg-ib-lab { font-size: 17px; fill: var(--fg); }
+  .sg-ib-num { font-size: 26px; fill: var(--fg); font-weight: 700; display: none; }
+  @media (max-width: 639px) { .sg-ib-lab { display: none; } .sg-ib-num { display: inline; } }
+  .sg-ib-hub { fill: var(--card); stroke: var(--gold); stroke-width: 2; }
+  .sg-ib-ctot { font-size: 23px; font-weight: 700; fill: var(--fg); }
+  .sg-ib-csub { font-size: 13px; fill: var(--muted); }
+  .sg-ib-side { display: grid; grid-template-columns: minmax(0, 1fr); gap: .7rem; align-content: start; }
+  .sg-ib-key { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0; padding: 0; font-size: .86rem; color: var(--muted); }
+  .sg-ib-key li { display: inline-flex; align-items: center; gap: 6px; }
+  .sg-ib-sw { display: inline-block; inline-size: 14px; block-size: 14px; border-radius: 3px; border: 1px solid var(--line); }
+  .sg-ib-dot { display: inline-block; inline-size: 14px; block-size: 14px; border-radius: 50%; border-width: 2px; border-style: solid; box-sizing: border-box; flex: none; }
+  .sg-ib-dot.sg-ob-obligatory { background: var(--fg); border-color: var(--gold); }
+  .sg-ib-dot.sg-ob-recommended { background: var(--gold); border-color: var(--fg); }
+  .sg-ib-dot.sg-ob-cultural { background: color-mix(in srgb, var(--gold) 30%, var(--card)); border: 2px dashed var(--gold); }
+  .sg-ib-dot.sg-ob-unstated { background: var(--card); border: 2px dashed var(--muted); }
+  .sg-ib-list { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 18px; }
+  .sg-ib-list li { break-inside: avoid; }
+  .sg-ib-list a { display: grid; grid-template-columns: 1.6em 1fr auto; gap: 6px; align-items: baseline; min-block-size: 36px; padding-block: 5px; text-decoration: none; color: var(--fg); border-block-end: 1px solid var(--line); }
+  .sg-ib-list b { color: var(--gold-text); font-size: .85rem; }
+  .sg-ib-ln { font-size: .92rem; } .sg-ib-lc { font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .sg-ib-list a:hover .sg-ib-ln, .sg-ib-list a.is-sel .sg-ib-ln { text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+  .sg-ib-list a:focus-visible, .sg-ib-btn:focus-visible, .sg-ib-readout a:focus-visible, .sg-ib-loose a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-ib-none { margin: 0; font-size: .86rem; }
+  .sg-ib-readout { border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 6rem; }
+  .sg-ib-readout.is-on { position: sticky; inset-block-end: 8px; z-index: 5; box-shadow: 0 6px 24px rgba(0, 0, 0, .22); }
+  .sg-ib-readout p { margin: .2rem 0; }
+  .sg-ib-rname { font-size: 1.1rem; }
+  .sg-ib-split { display: flex; block-size: 10px; border-radius: 5px; overflow: hidden; margin-block: .35rem; background: var(--line); }
+  .sg-ib-split i { display: block; block-size: 100%; }
+  .sg-ib-rleg { margin-block-end: .2rem; }
+  .sg-ib-ptitle { font-size: .82rem; margin-block-start: .5rem !important; }
+  .sg-ib-pr { list-style: none; margin: 0; padding: 0; max-block-size: 11rem; overflow: auto; }
+  .sg-ib-pr li { display: grid; grid-template-columns: 14px 1fr; gap: 0 8px; align-items: baseline; padding-block: 3px; font-size: .9rem; }
+  .sg-ib-pr .sg-ib-pm { grid-column: 2; font-size: .78rem; color: var(--muted); }
+  .sg-ib-pr li.is-sel a { text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 2px; }
+  .sg-ib-btn { min-block-size: 44px; padding: 0 1.1rem; border-radius: 999px; border: 1px solid var(--gold); background: transparent; color: var(--fg); font: inherit; font-size: .9rem; cursor: pointer; }
+  .sg-ib-btn:hover { background: var(--gold); color: #0a2533; }
+  .sg-ib [data-c="0"] { background: var(--sg-q); } .sg-ib [data-c="1"] { background: var(--sg-s); } .sg-ib [data-c="2"] { background: var(--sg-e); } .sg-ib [data-c="3"] { background: var(--sg-b); } .sg-ib [data-c="4"] { background: var(--sg-c); }
+  .sg-ib-loose { margin-block-start: .6rem; }
+  .sg-ib-loose p { margin: 0 0 .2rem; font-size: .86rem; }
+  .sg-ib-loose ul { list-style: none; display: flex; flex-wrap: wrap; gap: 2px 14px; margin: 0; padding: 0; }
+  .sg-ib-loose a { display: inline-flex; align-items: center; gap: 6px; min-block-size: 32px; font-size: .9rem; }
+  .sg-ib-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+  @media (prefers-reduced-motion: reduce) { .sg-ib-petal path, .sg-ib-bead circle { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-ibadat.ts"></script>
