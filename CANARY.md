@@ -193,6 +193,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 188): trilingual draft prose on the outline shape and surface configuration of visible things, and the opening of the perception of magnitude, cited to scan pages 271–275.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 189): trilingual draft prose on equal persons and figures at differing distances, and on the perception of magnitude by the part of sight that receives the image, cited to scan pages 275–278.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 190): trilingual draft prose on the imagined cone and its base in the perception of magnitude, and the hand that hides a wall, cited to scan pages 278–281.
+- Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 191): trilingual draft prose on the intervening parts of the ground and the measure of distance by the human body, cited to scan pages 282–285.
 
 
 ### Fixed
