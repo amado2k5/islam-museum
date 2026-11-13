@@ -1,0 +1,31 @@
+id: dec-20261113-271
+kind: "decision"
+date: "2026-11-13"
+expires_at: "2027-11-13"
+question_hash: 7bcd0baf3e63
+lane: "build-deploy-performance"
+class: "process"
+modality: "repo"
+domain: "governance"
+mode: "conservative"
+question: "CI flow for pull requests (docs/engineering/46-ci-flow-proposal.md): the founder approved the proposal as written in chat on 13 November 2026. Its implementation left choices to the agent: how large the sample of record pages is, whether the release notes bump the site version, and whether the new full link check of main may fail a build run. What applies?"
+options:
+  - "100 records per class and 20 hadith chapters, evenly spaced by id, plus the pinned and the changed records; release notes under the current version with no bump (a bump rewrites every page for a change no reader sees); the full link check in its own workflow, so it never changes which build a deploy takes"
+  - "a larger sample, a patch version bump, and the link check as a step of build.yml that fails the build run"
+evidence:
+  - "founder in chat, 13 November 2026: 'Approve as written' (docs/engineering/46-ci-flow-proposal.md)"
+  - "build run 43425447215: the entity page and the hadith chapter page are 186,672 of 202,274 pages and 1,240 of 1,400 seconds of rendering"
+  - "probe runs 43442771303, 43442860707, 43442884031, 43442910935: concurrency.queue accepts an expression; with three pushes one build ran, the middle one was cancelled while waiting, the newest waited"
+  - "docs/engineering/15-release-notes-and-versioning.md; AGENTS.md 'Keep deploys small'"
+status: founder-docket
+step: founder-reserved
+decision: "the question reserves this decision to the founder"
+confidence: n/a
+reversible: false
+rationale: ""
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":0,"rule_ids_fired":[],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

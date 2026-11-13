@@ -14,7 +14,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const J = (T as any)["jinn-devils"];
 const label = (n: any) => labelOf(n, lang);
-const summaryOf = (n: any) => stripNeedsSource(n.data.summary?.[lang] ?? n.data.summary?.ar ?? "");
+const summaryOf = (n: any) => stripNeedsSource(n.data.summary?.[lang] ?? n.data.summary?.ar ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\s+([.,؛،])/g, "$1"); // citation markers belong to the entity page's footnotes
 const sectionIds = [...JD_SECTIONS, ...new Set(jinnDevilsItems.flatMap((i) => i.sections).filter((s) => !JD_SECTIONS.includes(s)))];
 const sections = sectionIds.map((id) => {
   const items = jinnDevilsItems.filter((i) => i.sections.includes(id));

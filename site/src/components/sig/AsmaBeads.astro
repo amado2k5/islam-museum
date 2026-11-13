@@ -1,0 +1,147 @@
+---
+// "The ninety-nine beads" — the Asma ul Husna Browser's signature view (docs/plan/29-asma-browser.md). The 99 names are
+// drawn at build time as 99 beads on one string wound three turns round a centre, in the Tirmidhi enumeration order
+// (data.order), starting at the top, with a gold ring on the bead that closes each thirty-three. Every bead is a real
+// link to the name's page; how much of the bead is lit is the number of Qur'an passages the graph links to the name
+// (sectionsOf), on a clamped square-root scale. The script (site/src/scripts/sig-asma.ts) only adds the readout in the
+// centre, the arrow keys and the select-then-open tap. The grid of cards below on the page is the text alternative.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { labelOf, summaryOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { asmaNodes, sectionsOf } from "../../lib/asma";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const V = (ui(lang) as any).asma.viz;
+const rtl = lang !== "en";
+
+// ---- the build-time check: the enumeration must be exactly 1..99
+const orders = asmaNodes.map((n) => Number(n.data.order));
+if (orders.length !== 99 || orders.some((o, i) => o !== i + 1)) {
+  throw new Error(`The ninety-nine beads need the divine-name records numbered exactly 1..99 in order; found ${orders.join(",")}`);
+}
+const GROUP = 33;
+
+// ---- geometry (viewBox units; the stage scales to the page). One Archimedean spiral of three turns, beads at equal arc length.
+const SIZE = 360, C = SIZE / 2, R0 = 92, PITCH = 24, TURNS = 3, BEAD = 9.5, HIT = 12;
+const B = PITCH / (2 * Math.PI);
+const dir = rtl ? -1 : 1; // the string runs clockwise on an LTR page and anticlockwise on an RTL page, so it reads from the reader's start
+const thetaMax = TURNS * 2 * Math.PI;
+const pointAt = (t: number) => {
+  const r = R0 + B * t;
+  const a = -Math.PI / 2 + dir * t;
+  return { x: C + r * Math.cos(a), y: C + r * Math.sin(a), r };
+};
+// arc length by small steps, then invert for equal spacing
+const steps = 6000, ts: number[] = [], ls: number[] = [];
+let acc = 0, prev = pointAt(0);
+for (let i = 0; i <= steps; i++) {
+  const t = (i / steps) * thetaMax, p = pointAt(t);
+  acc += i === 0 ? 0 : Math.hypot(p.x - prev.x, p.y - prev.y);
+  ts.push(t); ls.push(acc); prev = p;
+}
+const total = acc;
+const tAtLength = (s: number) => {
+  let lo = 0, hi = steps;
+  while (lo < hi) { const m = (lo + hi) >> 1; if (ls[m] < s) lo = m + 1; else hi = m; }
+  return ts[lo];
+};
+const f = (n: number) => Math.round(n * 10) / 10;
+const spacing = total / (asmaNodes.length - 1);
+
+const mentions = asmaNodes.map((n) => sectionsOf(n.id).quran.length);
+const maxMentions = Math.max(1, ...mentions);
+const glow = (c: number) => (c > 0 ? 1.6 + (BEAD - 3.4) * Math.sqrt(c / maxMentions) : 0);
+
+// the meaning is the summary's first sentence, without the transliteration it repeats ("al-Ghafur — The Forgiving.")
+const meaningOf = (n: any, translit: string) => {
+  const first = summaryOf(n, lang).split(/(?<=[.۔؟!])\s/)[0].trim().replace(/[.۔]$/, "");
+  return translit && first.startsWith(translit) ? first.slice(translit.length).replace(/^\s*[—–:-]\s*/, "") : first;
+};
+const beads = asmaNodes.map((n, i) => {
+  const t = tAtLength(spacing * i), p = pointAt(t);
+  const short = labelOf(n as any, lang).replace(/\s*⁦?\(.*$/, "").replace(/\s+[—–-]\s+.*$/, "").trim();
+  return {
+    n, i, x: f(p.x), y: f(p.y), count: mentions[i], core: f(glow(mentions[i])),
+    summary: meaningOf(n, String(n.data.name_meta?.transliteration ?? "")), order: Number(n.data.order), divider: (i + 1) % GROUP === 0, short,
+    translit: String(n.data.name_meta?.transliteration ?? ""), root: String(n.data.name_meta?.root ?? ""),
+  };
+});
+const string = (() => {
+  const pts: string[] = [];
+  for (let i = 0; i <= 240; i++) { const p = pointAt((i / 240) * thetaMax); pts.push(`${i ? "L" : "M"}${f(p.x)} ${f(p.y)}`); }
+  return pts.join("");
+})();
+const mentionText = (c: number) => fmt(V.mentions, { n: num(c, lang) });
+---
+<figure class="sg-asma" data-sg-asma data-rtl={rtl ? "1" : "0"} style="margin:1.6rem 0 0">
+  <div data-pagefind-body>
+    <h2 class="sg-asma-title">{V.title}</h2>
+    <p class="sg-asma-cap">{V.caption}</p>
+  </div>
+  <div class="sg-asma-stage">
+    <svg class="sg-asma-svg" viewBox={`0 0 ${SIZE} ${SIZE}`} role="group" aria-label={V.label} focusable="false">
+      <path class="sg-asma-string" d={string} />
+      {beads.map((b) => (
+        <a href={`/${lang}/asma/${b.n.slug}/`} class={b.divider ? "sg-asma-bead is-divider" : "sg-asma-bead"} data-i={b.i} transform={`translate(${b.x} ${b.y})`}>
+          <title>{`${num(b.order, lang)}. ${b.n.label.ar}${b.short && b.short !== b.n.label.ar ? ` · ${b.short}` : ""} · ${mentionText(b.count)}`}</title>
+          <circle class="sg-asma-hit" r={HIT} />
+          <circle class="sg-asma-body" r={BEAD} />
+          {b.core > 0 && <circle class="sg-asma-core" r={b.core} />}
+          {b.divider && <circle class="sg-asma-ring" r={BEAD + 2.2} />}
+        </a>
+      ))}
+    </svg>
+    <div class="sg-asma-centre" aria-live="polite" aria-atomic="true">
+      <div data-sg-idle>
+        <span class="sg-asma-big">{num(asmaNodes.length, lang)}</span>
+        <span class="sg-asma-small">{V.idle_sub}</span>
+      </div>
+      <div data-sg-live hidden>
+        <span class="sg-asma-no" data-sg-no></span>
+        <span class="sg-asma-ar" lang="ar" dir="rtl" data-sg-ar></span>
+        <span class="sg-asma-tr" data-sg-tr></span>
+        <span class="sg-asma-meaning" data-sg-meaning></span>
+      </div>
+    </div>
+  </div>
+  <p class="sg-asma-line" data-sg-line>
+    <span data-sg-hint>{V.hint}</span>
+    <span data-sg-detail hidden>
+      <span class="sg-asma-sum" data-sg-sum></span>
+      <span data-sg-count></span> · <span class="sg-asma-root" hidden>{V.root} <bdi lang="ar" dir="rtl" data-sg-root></bdi> · </span><a data-sg-open href="#">{V.open}</a>
+    </span>
+  </p>
+  <script type="application/json" data-sg-data is:inline set:html={JSON.stringify(beads.map((b) => ({ o: num(b.order, lang), a: b.n.label.ar, t: b.translit || b.short, r: b.root, c: mentionText(b.count), m: b.summary })))} />
+</figure>
+<style is:inline>
+  .sg-asma { --sg-bead: var(--panel); }
+  .sg-asma-title { margin: 0 0 .3rem; font-size: 1.5rem; }
+  .sg-asma-cap { margin: 0 0 1rem; max-width: var(--measure); color: var(--muted); }
+  .sg-asma-stage { position: relative; width: min(100%, 640px); margin-inline: auto; container-type: inline-size; }
+  .sg-asma-svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .sg-asma-string { fill: none; stroke: var(--line); stroke-width: 1.4; stroke-linecap: round; }
+  .sg-asma-bead { cursor: pointer; outline: none; }
+  .sg-asma-hit { fill: transparent; stroke: transparent; stroke-width: 2.6; }
+  .sg-asma-body { fill: var(--sg-bead); stroke: var(--line); stroke-width: 1.2; transition: stroke .15s, fill .15s; }
+  .sg-asma-core { fill: var(--gold); pointer-events: none; }
+  .sg-asma-ring { fill: none; stroke: var(--gold); stroke-width: 2; pointer-events: none; }
+    .sg-asma-bead:hover .sg-asma-body, .sg-asma-bead.is-on .sg-asma-body { stroke: var(--gold-text); fill: var(--card); stroke-width: 2; }
+  .sg-asma-bead:focus-visible .sg-asma-hit, .sg-asma-bead.is-on .sg-asma-hit { stroke: var(--focus); }
+  .sg-asma-centre { position: absolute; inset: 50% auto auto 50%; width: 44%; transform: translate(-50%, -50%); text-align: center; display: grid; place-items: center; pointer-events: none; }
+  .sg-asma-centre > div { display: grid; gap: .1em; justify-items: center; }
+  .sg-asma-centre [hidden] { display: none; }
+  .sg-asma-big { font-size: 15cqw; line-height: 1; color: var(--gold-text); font-weight: 600; }
+  .sg-asma-small, .sg-asma-no { font-size: max(12px, 3.6cqw); color: var(--muted); }
+  .sg-asma-ar { font-size: 9.5cqw; line-height: 1.25; color: var(--fg); font-weight: 600; }
+  .sg-asma-tr { font-size: max(13px, 4cqw); color: var(--fg); }
+  .sg-asma-meaning { font-size: 3.1cqw; line-height: 1.4; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .sg-asma-sum { display: none; margin-bottom: .35rem; color: var(--fg); }
+  @media (max-width: 640px) { .sg-asma-meaning { display: none; } .sg-asma-sum { display: block; } }
+  .sg-asma-line { min-height: 2.8em; margin: .9rem auto 0; max-width: 640px; text-align: center; font-size: .95rem; color: var(--muted); }
+  .sg-asma-line [hidden] { display: none; }
+  .sg-asma-line a { font-weight: 600; }
+  @media (max-width: 480px) { .sg-asma-stage { width: calc(100% + 28px); margin-inline: -14px; } }
+  @media (prefers-reduced-motion: no-preference) { .sg-asma-body { transition: stroke .15s, fill .15s; } }
+</style>
+<script src="../../scripts/sig-asma.ts"></script>

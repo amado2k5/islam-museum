@@ -6,6 +6,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../components/PageHeader.astro";
 import DraftMark from "../../../components/DraftMark.astro";
 import ExploreBar from "../../../components/ExploreBar.astro";
+import JourneysMap from "../../../components/sig/JourneysMap.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, summaryOf } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
@@ -26,6 +27,7 @@ const arrow = lang === "en" ? " → " : " ← ";
   <PageHeader title={J.title} lede={J.lede} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: J.title }]} crumbsLabel={T.entity.breadcrumb} wing="place" />
   <div class="wrap" style="padding-block:24px 20px">
     <p class="panel ui" style="max-width:var(--measure)" data-pagefind-ignore>{fmt(J.status, { n: num(listed, lang), k: num(groups.length, lang) })}</p>
+    <JourneysMap lang={lang} />
     <nav aria-label={J.title} class="ui" style="margin:0 0 1rem" data-pagefind-ignore>
       <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
         {groups.map((g) => <li><a class="chip" href={`#k-${g.kind}`}>{J.kinds[g.kind] ?? g.kind} · {num(g.items.length, lang)}</a></li>)}

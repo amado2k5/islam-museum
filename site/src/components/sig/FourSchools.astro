@@ -1,0 +1,367 @@
+---
+// "Four schools, side by side in time" — the signature view of the Four Madhhabs Browser (site/src/pages/[lang]/madhahib).
+// One inline SVG drawn at build time from the browser's own records (site/src/lib/madhahib.ts) and the graph: four columns,
+// one per school, share one vertical time axis in Hijri centuries. At the head of each column stands the school's imam (found
+// through his `founder_of` edge to the school's group record); below him every dated scholar of the school is a lifespan bar
+// from his own `born` and `died` dates, and every book whose author is known and dated is a diamond at the author's death
+// year. Arcs are drawn only for `student_of` / `teacher_of` edges between drawn scholars. Nothing is placed by hand: the
+// build fails when the records no longer give one imam per school. Every bar is a real link; the script
+// (site/src/scripts/sig-madhahib.ts) adds the readout, which is cloned from the list under the drawing.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, graph, href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { ERA } from "../../lib/dates";
+import { madhahibItems, MADHABIB_SECTIONS } from "../../lib/madhahib";
+import { SCHOOL_GROUPS, lifeDate, packColumn, textWidth, clip, LABEL_H, type PackItem, type LifeDate } from "../../lib/sig/four-schools";
+import { hijriToCivil } from "../../../../scripts/hijri/convert";
+import type { Node } from "../../../../scripts/build-graph";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const rtl = lang !== "en";
+const M = (ui(lang) as any).madhahib;
+const V = M.viz;
+const E = ERA[lang];
+const CE_SHORT = lang === "ur" ? "ء" : E.ce; // the axis margin is narrow: Urdu abbreviates the Gregorian-era mark there
+
+// ---- the four schools, in the browser's own section order, and each one's imam
+const SCHOOLS = (MADHABIB_SECTIONS as readonly string[]).filter((s) => s in SCHOOL_GROUPS);
+if (SCHOOLS.length !== Object.keys(SCHOOL_GROUPS).length) throw new Error("Four schools view: the browser's sections no longer include every school of SCHOOL_GROUPS");
+const forward = graph.edges.filter((e) => !e.inverse);
+const imamOf = new Map<string, Node>();
+for (const s of SCHOOLS) {
+  const group = SCHOOL_GROUPS[s];
+  if (!byId.get(group) || byId.get(group)!.stub) throw new Error(`Four schools view: ${group} is missing from the graph`);
+  const found = madhahibItems.filter((i) => i.node.class === "person" && i.sections.includes("aima")
+    && forward.some((e) => e.type === "founder_of" && e.from === i.node.id && e.to === group));
+  if (found.length !== 1) throw new Error(`Four schools view: expected exactly one imam of the "aima" section with a founder_of edge to ${group}, found ${found.length}`);
+  imamOf.set(s, found[0].node);
+}
+const schoolOfSections = (sections: string[]) => sections.find((x) => SCHOOLS.includes(x));
+const shortName = (n: Node) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const schoolTitle = (s: string) => M.sections[s]?.title ?? s;
+
+// ---- the scholars: every person of a school with at least one of the two dates
+interface Person {
+  node: Node; id: string; col: number; name: string; b: LifeDate | null; d: LifeDate | null; imam: boolean; also: number[]; sections: string[];
+  y1: number; y2: number; x: number; label: number | null; lw: number; side: "end" | "start"; cap: string;
+}
+const persons: Person[] = [];
+let undatedScholars = new Array(SCHOOLS.length).fill(0);
+let schoolScholars = new Array(SCHOOLS.length).fill(0);
+for (const i of madhahibItems) {
+  if (i.node.class !== "person") continue;
+  const s = schoolOfSections(i.sections);
+  if (!s) continue;
+  const col = SCHOOLS.indexOf(s);
+  schoolScholars[col]++;
+  const b = lifeDate(i.node.data.born), d = lifeDate(i.node.data.died);
+  if (!b && !d) { undatedScholars[col]++; continue; }
+  persons.push({
+    node: i.node, id: i.node.id, col, name: shortName(i.node), b, d, imam: imamOf.get(s)!.id === i.node.id,
+    also: i.sections.filter((x) => x !== s && SCHOOLS.includes(x)).map((x) => SCHOOLS.indexOf(x)), sections: i.sections,
+    y1: 0, y2: 0, x: 0, label: null, lw: 0, side: "end", cap: "",
+  });
+}
+for (const s of SCHOOLS) if (!persons.some((p) => p.imam && p.col === SCHOOLS.indexOf(s))) throw new Error(`Four schools view: the imam of ${s} has no birth or death date to draw`);
+const personById = new Map(persons.map((p) => [p.id, p]));
+
+// ---- the books: a work of a school whose author is known and dated joins the author's death year
+interface Book { node: Node; id: string; col: number; also: number[]; author: Node | null; d: LifeDate | null; cy: number; x: number; }
+const authorsOf = new Map<string, string[]>();
+for (const e of forward) {
+  if (e.type === "authored") (authorsOf.get(e.to) ?? authorsOf.set(e.to, []).get(e.to)!).push(e.from);
+  else if (e.type === "authored_by") (authorsOf.get(e.from) ?? authorsOf.set(e.from, []).get(e.from)!).push(e.to);
+}
+const books: Book[] = [];
+const undatedBooks = new Array(SCHOOLS.length).fill(0);
+const schoolBooks = new Array(SCHOOLS.length).fill(0);
+for (const i of madhahibItems) {
+  if (i.node.class !== "work") continue;
+  const own = i.sections.filter((x) => SCHOOLS.includes(x));
+  if (!own.length) continue;
+  const authors = (authorsOf.get(i.node.id) ?? []).map((a) => byId.get(a)).filter((a): a is Node => !!a && !a.stub);
+  const dated = authors.map((a) => ({ a, d: lifeDate(a.data.died) })).find((x) => x.d);
+  // a book stands once, as on the page's own lists: in its author's school when the book's sections include it, else in its first school
+  const authorSchool = dated && personById.get(dated.a.id) ? SCHOOLS[personById.get(dated.a.id)!.col] : undefined;
+  const s = authorSchool && own.includes(authorSchool) ? authorSchool : own[0];
+  const col = SCHOOLS.indexOf(s);
+  schoolBooks[col]++;
+  if (!dated) { undatedBooks[col]++; continue; }
+  books.push({ node: i.node, id: i.node.id, col, also: own.filter((x) => x !== s).map((x) => SCHOOLS.indexOf(x)), author: dated.a, d: dated.d, cy: 0, x: 0 });
+}
+
+// ---- teacher and student edges between drawn scholars (written once; inverses are not read)
+const teaches = new Map<string, Set<string>>(); // teacher -> students
+const addTie = (teacher: string, student: string) => {
+  if (!personById.has(teacher) || !personById.has(student) || teacher === student) return;
+  (teaches.get(teacher) ?? teaches.set(teacher, new Set()).get(teacher)!).add(student);
+};
+for (const e of forward) { if (e.type === "student_of") addTie(e.to, e.from); else if (e.type === "teacher_of") addTie(e.from, e.to); }
+const ties: { t: string; s: string }[] = [];
+for (const [t, set] of teaches) for (const s of set) ties.push({ t, s });
+ties.sort((a, b) => a.t.localeCompare(b.t) || a.s.localeCompare(b.s));
+
+// ---- geometry
+const COLW = 260, GUTTER = 58, COLINNER = 248, AW = COLINNER - GUTTER, TOTAL = COLW * SCHOOLS.length;
+const PPY = 1.0, TOP = 100, BW = 12, IMAM_BW = 14, DIA = 14, TICK = 22;
+const allAH = [...persons.flatMap((p) => [p.b?.ah, p.d?.ah]), ...books.map((b) => b.d!.ah)].filter((v): v is number => typeof v === "number");
+const ahMin = Math.floor((Math.min(...allAH) - 10) / 50) * 50, ahMax = Math.ceil(Math.max(...allAH) / 100) * 100;
+const Y = (ah: number) => TOP + (ah - ahMin) * PPY;
+const PLOT_BOTTOM = Y(ahMax);
+const f = (n: number) => String(Math.round(n * 10) / 10);
+const L = (x: number, w = 0) => (rtl ? TOTAL - x - w : x); // physical left edge of a logical (inline-start based) rectangle
+const P = (x: number) => (rtl ? TOTAL - x : x); // physical x of a logical inline-start text position
+
+for (const p of persons) {
+  if (p.b && p.d) { p.y1 = Y(p.b.ah); p.y2 = Math.max(Y(p.d.ah), p.y1 + 14); p.cap = "life"; }
+  else if (p.d) { p.y2 = Y(p.d.ah); p.y1 = p.y2 - TICK; p.cap = "death"; }
+  else { p.y1 = Y(p.b!.ah); p.y2 = p.y1 + TICK; p.cap = "birth"; }
+}
+for (const b of books) b.cy = Y(b.d!.ah);
+
+const LABEL_MAX = 106;
+const colOrigin = (c: number) => c * COLW + GUTTER;
+SCHOOLS.forEach((_, c) => {
+  const mine = persons.filter((p) => p.col === c).sort((a, b) => Number(b.imam) - Number(a.imam) || a.y1 - b.y1 || a.id.localeCompare(b.id));
+  const labelText = (p: Person) => clip(p.name, LABEL_MAX);
+  const items: PackItem[] = [
+    ...mine.map((p) => ({ id: p.id, kind: "bar" as const, y1: p.y1, y2: p.y2, bw: p.imam ? IMAM_BW : BW, labelWs: p.imam ? [] : [...new Set([Math.ceil(textWidth(labelText(p), 12)) + 2, 84, 60].filter((w, k, a) => k === 0 || w < a[0]))] })),
+    ...books.filter((b) => b.col === c).sort((a, b) => a.cy - b.cy || a.id.localeCompare(b.id)).map((b) => ({ id: b.id, kind: "dia" as const, y1: b.cy, y2: b.cy, bw: DIA, labelWs: [], near: b.author && personById.get(b.author.id)?.col === c ? b.author.id : undefined })),
+  ];
+  const packed = packColumn(items, AW);
+  for (const pk of packed) {
+    const p = personById.get(pk.id);
+    if (p) { p.x = colOrigin(c) + pk.x; p.label = pk.label; p.lw = pk.lw; p.side = pk.side; continue; }
+    const bk = books.find((b) => b.id === pk.id)!;
+    bk.x = colOrigin(c) + pk.x;
+  }
+});
+
+// ---- the words
+const years = (b: LifeDate | null, d: LifeDate | null): string => {
+  if (b && d) return `${num(b.ah, lang)}–${num(d.ah, lang)} ${E.ah} · ${num(b.ce, lang)}–${num(d.ce, lang)} ${E.ce}`;
+  if (d) return fmt(V.died, { ah: `${num(d.ah, lang)} ${E.ah}`, ce: `${num(d.ce, lang)} ${E.ce}` });
+  return fmt(V.born, { ah: `${num(b!.ah, lang)} ${E.ah}`, ce: `${num(b!.ce, lang)} ${E.ce}` });
+};
+const nameOf = (id: string) => personById.get(id)?.name ?? shortName(byId.get(id) as Node);
+const joinList = (xs: string[]) => xs.join(lang === "en" ? ", " : "، ");
+const schoolsOf = (col: number, also: number[]) => joinList([col, ...also].map((c) => schoolTitle(SCHOOLS[c])));
+const studiedWith = (id: string) => ties.filter((t) => t.s === id).map((t) => nameOf(t.t));
+const taught = (id: string) => ties.filter((t) => t.t === id).map((t) => nameOf(t.s));
+const bookYears = (b: Book) => `${num(b.d!.ah, lang)} ${E.ah} · ${num(b.d!.ce, lang)} ${E.ce}`;
+const personAria = (p: Person) => `${p.name}, ${years(p.b, p.d)}`;
+
+// ---- the axis
+const centuries: { ah: number; ce: number }[] = [];
+for (let c = Math.max(100, Math.ceil(ahMin / 100) * 100); c <= ahMax; c += 100) centuries.push({ ah: c, ce: hijriToCivil({ y: c, m: 1, d: 1 }).date.y });
+const H = PLOT_BOTTOM + 96;
+
+// ---- arcs
+const diamondPath = (cx: number, cy: number, r: number) => `M${f(cx)} ${f(cy - r)} L${f(cx + r)} ${f(cy)} L${f(cx)} ${f(cy + r)} L${f(cx - r)} ${f(cy)} Z`;
+const arcs = ties.map((t) => {
+  const T = personById.get(t.t)!, S = personById.get(t.s)!;
+  const tw = T.imam ? IMAM_BW : BW, sw = S.imam ? IMAM_BW : BW;
+  const y1 = Math.min(Math.max(S.y1, T.y1), T.y2), y2 = S.y1;
+  const x1 = P(T.x + tw / 2), x2 = P(S.x + sw / 2);
+  const dx = x2 - x1, dy = y2 - y1;
+  const d = Math.abs(dx) >= Math.abs(dy)
+    ? `M${f(x1)} ${f(y1)} C${f(x1 + dx / 2)} ${f(y1)} ${f(x2 - dx / 2)} ${f(y2)} ${f(x2)} ${f(y2)}`
+    : `M${f(x1)} ${f(y1)} C${f(x1)} ${f(y1 + dy / 2)} ${f(x2)} ${f(y2 - dy / 2)} ${f(x2)} ${f(y2)}`;
+  return { ...t, d, always: T.imam && S.imam };
+});
+
+// ---- the outline (text alternative, and the readout's content)
+const sortPersons = (c: number) => persons.filter((p) => p.col === c).sort((a, b) => (a.b ?? a.d)!.ah - (b.b ?? b.d)!.ah || a.id.localeCompare(b.id));
+const outsideChips = (["ukhra", "salaf"] as const).map((id) => ({ id, title: schoolTitle(id), n: madhahibItems.filter((i) => i.sections[0] === id).length })).filter((c) => c.n > 0);
+const legend = [["life", V.lg_life], ["death", V.lg_death], ["book", V.lg_book], ["teacher", V.lg_teacher]] as const;
+---
+<section aria-labelledby="sg-schools-title" class="sg-wrap" data-sg style="margin-top:2rem">
+  <div data-pagefind-body>
+    <h2 id="sg-schools-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{V.note}</p>
+  </div>
+  <ul class="sg-legend ui" aria-label={V.legend_title}>
+    {legend.map(([k, text]) => (
+      <li>
+        <svg viewBox="0 0 28 22" width="28" height="22" aria-hidden="true" focusable="false">
+          {k === "life" && <rect class="sg-ico-bar" x="10" y="2" width="8" height="18" rx="3" />}
+          {k === "death" && <rect class="sg-ico-bar" x="10" y="9" width="8" height="11" rx="3" />}
+          {k === "book" && <path class="sg-ico-bar" d="M14 4 L21 11 L14 18 L7 11 Z" />}
+          {k === "teacher" && <path class="sg-ico-arc" d="M3 17 C12 17 16 5 25 5" marker-end="url(#sg-ico-head)" />}
+        </svg>
+        {text}
+      </li>
+    ))}
+  </ul>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><defs><marker id="sg-ico-head" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L8 4 L0 8 Z" class="sg-head" /></marker></defs></svg>
+  {outsideChips.length > 0 && (
+    <p class="sg-outside ui">
+      <span class="muted">{V.outside}</span>
+      {outsideChips.map((c) => <a class="chip" href={`#t-${c.id}`}>{c.title} · {num(c.n, lang)}</a>)}
+    </p>
+  )}
+  <p class="ui muted sg-hint">{V.hint}</p>
+  <p class="ui muted sg-swipe">{V.swipe}</p>
+  <div class="sg-scroll">
+    <svg class="sg-svg" viewBox={`0 0 ${TOTAL} ${f(H)}`} width={TOTAL} role="group" aria-labelledby="sg-schools-title" direction={rtl ? "rtl" : "ltr"}>
+      <defs>
+        <marker id="sg-head-on" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L8 4 L0 8 Z" class="sg-head" /></marker>
+      </defs>
+      <g class="sg-grid" aria-hidden="true">
+        {centuries.map((c) => <line x1="0" x2={TOTAL} y1={f(Y(c.ah))} y2={f(Y(c.ah))} />)}
+      </g>
+      <g aria-hidden="true">
+        {SCHOOLS.map((_, c) => <rect class="sg-colbg" x={f(L(c * COLW, COLINNER))} y="0" width={COLINNER} height={f(H - 8)} rx="14" />)}
+      </g>
+      <g class="sg-arcs" aria-hidden="true">
+        {arcs.map((a) => <path class={`sg-arc ${a.always ? "always" : ""}`} data-t={a.t} data-s={a.s} d={a.d} marker-end="url(#sg-head-on)" />)}
+      </g>
+      {SCHOOLS.map((s, c) => {
+        const imam = imamOf.get(s)!;
+        const ip = personById.get(imam.id)!;
+        const cx = c * COLW;
+        return (
+          <g class="sg-col" style={`--tn:var(--sg-t${c})`}>
+            <text class="sg-school" x={f(P(cx + 16))} y="28">{schoolTitle(s)}</text>
+            <rect class="sg-schoolbar" x={f(L(cx + 16, 34))} y="38" width="34" height="3" rx="1.5" aria-hidden="true" />
+            <text class="sg-imamlab" x={f(P(cx + 16))} y="62">{V.imam}</text>
+            <a class="sg-imam" href={href(lang, imam.id)} aria-label={`${V.imam}: ${personAria(ip)}`}>
+              <rect class="sg-hit" x={f(L(cx + 10, COLINNER - 20))} y="68" width={COLINNER - 20} height="28" />
+              <text x={f(P(cx + 16))} y="83" dominant-baseline="central">{clip(ip.name, COLINNER - 32, 14)}</text>
+            </a>
+            {centuries.map((cn) => (
+              <g class="sg-tick" aria-hidden="true">
+                <text x={f(P(cx + 6))} y={f(Y(cn.ah) - 4)}>{num(cn.ah, lang)} {E.ah}</text>
+                <text class="sg-ce" x={f(P(cx + 6))} y={f(Y(cn.ah) + 11)}>{num(cn.ce, lang)} {CE_SHORT}</text>
+              </g>
+            ))}
+            {persons.filter((p) => p.col === c).map((p) => {
+              const bw = p.imam ? IMAM_BW : BW;
+              const shown = p.label === null ? "" : clip(p.name, p.lw - 2);
+              const lw = p.label === null ? 0 : Math.ceil(textWidth(shown, 12)) + 4;
+              const bh = p.y2 - p.y1, hh = Math.max(bh, 24), hy = p.y1 - (hh - bh) / 2;
+              const lx0 = p.side === "start" ? p.x - 4 - lw : p.x + bw + 2;
+              return (
+                <a class={`sg-it sg-b ${p.imam ? "is-imam" : ""} cap-${p.cap}`} href={href(lang, p.id)} data-id={p.id} aria-label={personAria(p)}>
+                  <rect class="sg-hit" x={f(L(p.x - 2, bw + 4))} y={f(hy)} width={bw + 4} height={f(hh)} />
+                  {p.label !== null && <rect class="sg-hit" x={f(L(lx0, lw + 2))} y={f(p.label - 9)} width={f(lw + 2)} height="18" />}
+                  <rect class="sg-bar" x={f(L(p.x, bw))} y={f(p.y1)} width={bw} height={f(p.y2 - p.y1)} rx={bw / 2 - 1} />
+                  {p.cap !== "life" && <rect class="sg-cap" x={f(L(p.x, bw))} y={f(p.cap === "death" ? p.y2 - 3 : p.y1)} width={bw} height="3" rx="1.5" />}
+                  {p.also.map((o, k) => <circle class="sg-also" style={`--tn2:var(--sg-t${o})`} cx={f(P(p.x + bw) + (rtl ? 1 : -1) * 0)} cy={f(p.y1 + 4 + k * 8)} r="3.4" />)}
+                  {p.label !== null && <text class="sg-name" x={f(P(p.side === "start" ? p.x - 4 : p.x + bw + 4))} y={f(p.label)} text-anchor={p.side === "start" ? "end" : "start"} dominant-baseline="central">{shown}</text>}
+                </a>
+              );
+            })}
+            {books.filter((b) => b.col === c).map((b) => (
+              <a class="sg-it sg-k" href={href(lang, b.id)} data-id={b.id} aria-label={`${shortName(b.node)}, ${bookYears(b)}`}>
+                <rect class="sg-hit" x={f(L(b.x - 5, DIA + 10))} y={f(b.cy - 12)} width={DIA + 10} height="24" />
+                <path class="sg-dia" d={diamondPath(P(b.x + DIA / 2), b.cy, DIA / 2)} />
+                {b.also.map((o, k) => <circle class="sg-also" style={`--tn2:var(--sg-t${o})`} cx={f(P(b.x + DIA - 1))} cy={f(b.cy - DIA / 2 + k * 7)} r="3.2" />)}
+              </a>
+            ))}
+            <g class="sg-foot ui">
+              <text class="sg-foot1" x={f(P(cx + 16))} y={f(PLOT_BOTTOM + 28)}>{fmt(V.foot, { n: num(schoolScholars[c], lang), m: num(schoolBooks[c], lang) })}</text>
+              {undatedScholars[c] > 0 && <text x={f(P(cx + 16))} y={f(PLOT_BOTTOM + 48)}>{fmt(V.foot_people, { n: num(undatedScholars[c], lang) })}</text>}
+              {undatedBooks[c] > 0 && <text x={f(P(cx + 16))} y={f(PLOT_BOTTOM + (undatedScholars[c] > 0 ? 66 : 48))}>{fmt(V.foot_books, { n: num(undatedBooks[c], lang) })}</text>}
+            </g>
+          </g>
+        );
+      })}
+    </svg>
+  </div>
+  <aside class="sg-panel panel" data-sg-panel aria-live="polite" hidden>
+    <div data-sg-body></div>
+    <button type="button" class="ui sg-close" data-sg-close hidden>{V.close}</button>
+  </aside>
+  <details class="sg-outline">
+    <summary class="ui">{V.outline_title}</summary>
+    {SCHOOLS.map((s, c) => (
+      <section aria-labelledby={`sg-o-${s}`}>
+        <h3 id={`sg-o-${s}`}>{schoolTitle(s)} <span class="ui muted">{fmt(V.foot, { n: num(schoolScholars[c], lang), m: num(schoolBooks[c], lang) })}</span></h3>
+        <ul role="list">
+          {sortPersons(c).map((p) => (
+            <li data-sg-card={p.id}>
+              <h4><a href={href(lang, p.id)}>{p.name}</a>{p.imam && <span class="ui sg-tag"> · {V.imam}</span>}</h4>
+              <p class="ui muted"><bdi>{years(p.b, p.d)}</bdi></p>
+              <p class="ui muted">{V.school} {schoolsOf(p.col, p.also)}</p>
+              {studiedWith(p.id).length > 0 && <p class="ui">{V.studied} {joinList(studiedWith(p.id))}</p>}
+              {taught(p.id).length > 0 && <p class="ui">{V.taught} {joinList(taught(p.id))}</p>}
+              <p class="ui"><a class="sg-open" href={href(lang, p.id)}>{V.open}</a></p>
+            </li>
+          ))}
+          {books.filter((b) => b.col === c).sort((a, b) => a.d!.ah - b.d!.ah).map((b) => (
+            <li data-sg-card={b.id}>
+              <h4><a href={href(lang, b.id)}>{shortName(b.node)}</a> <span class="ui sg-tag">· {V.book}</span></h4>
+              <p class="ui muted">{fmt(V.book_at, { a: shortName(b.author!) })} <bdi>{bookYears(b)}</bdi></p>
+              <p class="ui muted">{V.school} {schoolsOf(b.col, b.also)}</p>
+              <p class="ui"><a class="sg-open" href={href(lang, b.id)}>{V.open}</a></p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </details>
+</section>
+<style is:inline>
+  .sg-wrap { --sg-t0: var(--link); --sg-t1: var(--gold); --sg-t2: color-mix(in srgb, var(--link) 45%, var(--gold) 55%); --sg-t3: color-mix(in srgb, var(--fg) 62%, var(--bg)); }
+  .sg-legend { display: flex; flex-wrap: wrap; gap: 4px 20px; list-style: none; padding: 0; margin: 0 0 .8rem; font-size: .84rem; color: var(--muted); }
+  .sg-legend li { display: inline-flex; align-items: center; gap: 6px; }
+  .sg-legend svg { flex: none; overflow: visible; }
+  .sg-ico-bar { fill: var(--gold); stroke: var(--gold-text); stroke-width: 1px; }
+  .sg-ico-arc { fill: none; stroke: var(--gold-text); stroke-width: 1.6px; }
+  .sg-head { fill: var(--gold-text); }
+  .sg-outside { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 0 0 .8rem; font-size: .9rem; }
+  .sg-swipe { display: none; margin: 0 0 .4rem; font-size: .85rem; }
+  .sg-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 18px; padding: 6px; background: radial-gradient(120% 60% at 50% 0%, color-mix(in srgb, var(--gold) 8%, transparent), transparent 70%); }
+  .sg-svg { display: block; width: 100%; min-width: 1040px; height: auto; font-family: inherit; }
+  @media (max-width: 1100px) { .sg-swipe { display: block; } }
+  .sg-colbg { fill: color-mix(in srgb, var(--panel) 38%, transparent); stroke: var(--line); stroke-width: 1px; }
+  .sg-grid line { stroke: var(--line); stroke-width: 1px; stroke-dasharray: 2 5; }
+  .sg-school { font-size: 17px; font-weight: 700; fill: var(--fg); }
+  .sg-schoolbar { fill: var(--tn); }
+  .sg-imamlab { font-size: 12px; fill: var(--muted); }
+  .sg-imam text { font-size: 14px; font-weight: 700; fill: var(--gold-text); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--gold-text) 40%, transparent); text-underline-offset: 3px; }
+  .sg-tick text { font-size: 11.5px; fill: var(--muted); }
+  .sg-tick .sg-ce { font-size: 11px; opacity: .85; }
+  .sg-hit { fill: transparent; stroke: none; }
+  .sg-it { cursor: pointer; text-decoration: none; }
+  .sg-bar { fill: var(--tn); fill-opacity: .82; stroke: var(--tn); stroke-width: 1px; transition: fill-opacity .2s; }
+  .sg-cap { fill: var(--fg); fill-opacity: .55; }
+  .sg-b.cap-death .sg-bar, .sg-b.cap-birth .sg-bar { fill-opacity: .55; }
+  .sg-b.is-imam .sg-bar { fill-opacity: 1; stroke: var(--gold-text); stroke-width: 2px; }
+  .sg-name { font-size: 12px; fill: var(--fg); pointer-events: none; paint-order: stroke; stroke: color-mix(in srgb, var(--panel) 55%, var(--bg)); stroke-width: 3.5px; stroke-linejoin: round; }
+  .sg-b.is-imam .sg-name { font-size: 13px; font-weight: 700; }
+  .sg-dia { fill: var(--card); stroke: var(--tn); stroke-width: 2.2px; transition: fill .2s; }
+  .sg-also { fill: var(--tn2); stroke: var(--card); stroke-width: 1.2px; pointer-events: none; }
+  .sg-it:hover .sg-bar, .sg-it.is-sel .sg-bar, .sg-it.is-rel .sg-bar { fill-opacity: 1; stroke: var(--fg); stroke-width: 1.6px; }
+  .sg-it:hover .sg-dia, .sg-it.is-sel .sg-dia, .sg-it.is-rel .sg-dia { fill: var(--tn); stroke: var(--fg); }
+  .sg-it:hover .sg-name, .sg-it.is-sel .sg-name { font-weight: 700; }
+  .sg-it:focus-visible { outline: none; }
+  .sg-it:focus-visible .sg-hit, .sg-imam:focus-visible .sg-hit { stroke: var(--focus); stroke-width: 2.5px; rx: 6px; }
+  .sg-imam { outline: none; }
+  .sg-foot text { font-size: 12.5px; fill: var(--muted); }
+  .sg-foot .sg-foot1 { fill: var(--fg); font-weight: 600; }
+  .sg-arc { fill: none; stroke: var(--gold-text); stroke-width: 1.5px; opacity: .9; }
+  .sg-arc.always { stroke-width: 2.2px; }
+  .sg-svg.sg-js .sg-arc:not(.always) { opacity: 0; transition: opacity .2s; }
+  .sg-svg.sg-js .sg-arc.is-on { opacity: 1; }
+  .sg-panel { position: sticky; bottom: 10px; margin: 12px auto 0; max-width: 640px; border: 1px solid var(--gold); box-shadow: 0 8px 28px rgba(10, 37, 51, .18); padding: 12px 16px; max-height: 40vh; overflow: auto; }
+  .sg-panel h4 { margin: 0 0 .15rem; font-size: 1.15rem; }
+  .sg-panel p { margin: .3rem 0 0; }
+  .sg-hint { margin: 0 0 .4rem; font-size: .88rem; }
+  .sg-tag { color: var(--gold-text); font-weight: 600; font-size: .85rem; }
+  .sg-open { display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.1rem; border-radius: 999px; background: var(--gold); color: #0a2533; font-weight: 700; text-decoration: none; }
+  .sg-close { margin-top: .5rem; min-height: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; }
+  .sg-outline { margin-top: 1rem; }
+  .sg-outline summary { cursor: pointer; min-height: 44px; display: inline-flex; align-items: center; }
+  .sg-outline section { margin: .8rem 0; }
+  .sg-outline h3 { margin: 0 0 .4rem; font-size: 1.05rem; }
+  .sg-outline ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+  .sg-outline li { border-inline-start: 3px solid var(--gold); padding: 2px 10px; }
+  .sg-outline h4 { margin: 0; font-size: 1rem; }
+  .sg-outline p { margin: .15rem 0 0; font-size: .88rem; }
+  .sg-outline .sg-open { min-height: 36px; padding: 0 .9rem; font-size: .85rem; }
+  @media (prefers-reduced-motion: reduce) { .sg-bar, .sg-dia, .sg-arc { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-madhahib.ts"></script>

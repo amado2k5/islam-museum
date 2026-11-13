@@ -16,6 +16,7 @@ import { labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
 import { placesItems, placesSlugOf, PLACES_SECTIONS } from "../../../lib/places";
 import { PLACE_CORPORA } from "../../../../../scripts/places";
+import PlacesGeography from "../../../components/sig/PlacesGeography.astro";
 
 export function getStaticPaths() {
   // the landing, and a sub-page for every page of rows of each section longer than the landing shows (site/src/lib/paged.ts)
@@ -26,7 +27,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const N = (T as any).places;
 const label = (n: any) => labelOf(n, lang);
-const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "");
+const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\s+([.,؛،])/g, "$1"); // citation markers belong to the entity page's footnotes
 const sectionIds = [...PLACES_SECTIONS];
 const sections = sectionIds.map((id) => ({ id, items: placesItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
 const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/places/`);
@@ -52,6 +53,8 @@ const countsLine = (i: (typeof placesItems)[number]) =>
       <p class="ui muted">{N.api} <a href="/api/v1/places.json"><bdi dir="ltr">/api/v1/places.json</bdi></a></p>
     </div>
 
+    {paged.landing && <PlacesGeography lang={lang} />}
+
     <DraftMark lang={lang} legend />
     <section aria-labelledby="sections-title" style="margin-top:2rem">
       <h2 id="sections-title">{N.sections_title}</h2>
@@ -72,7 +75,7 @@ const countsLine = (i: (typeof placesItems)[number]) =>
             <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{N.sections[s.id]?.desc}</p>
             <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
               {s.items.map((i) => (
-                <li data-places-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
+                <li data-places-row id={`place-${slugOf(i)}`} data-search={searchText(i)} class="panel" style="padding:14px 16px">
                   <a href={`/${lang}/places/${slugOf(i)}/`} style="font-weight:600">{label(i.node)}</a><DraftMark lang={lang} node={i.node} />
                   {countsLine(i) && <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem">{countsLine(i)}</p>}
                   <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{summaryOf(i.node)}</p>

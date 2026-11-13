@@ -1,0 +1,117 @@
+---
+// "The Mushaf, and how far the commentary has reached" (Tafsir Browser home): the 114 surahs as one band in Mushaf
+// order, each block as wide as its verse count (with a minimum), filled where the museum holds a commentary digest.
+// Everything is computed here from the graph (site/src/lib/tafsir.ts); each block is a real link, so the band works
+// without JavaScript. The script (site/src/scripts/sig-tafsir.ts) adds the readout and the order-of-revelation toggle.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { surahs, ayahsOf, coveredIn, coveredSurahs, coveredCount, surahHref, runs } from "../../lib/tafsir";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const V = (ui(lang) as any).tafsir.viz;
+
+// ---- the build fails if the graph no longer matches what the band assumes
+const order = surahs.map((s) => s.data.revelation_order as number).sort((a, b) => a - b);
+if (surahs.length !== 114 || surahs.some((s, i) => s.data.sura !== i + 1)) throw new Error("MushafBand: the surah nodes are not suras 1..114");
+if (order.some((o, i) => o !== i + 1)) throw new Error("MushafBand: revelation_order is not a permutation of 1..114");
+const place = (s: any) => String(s.data.revelation_place);
+if (surahs.some((s) => place(s) !== "meccan" && place(s) !== "medinan")) throw new Error("MushafBand: a surah has no meccan/medinan revelation_place");
+if (surahs.some((s) => ayahsOf(s.data.sura).length === 0)) throw new Error("MushafBand: a surah has no ayah nodes");
+
+const total = surahs.reduce((t, s) => t + ayahsOf(s.data.sura).length, 0);
+const coveredTotal = surahs.reduce((t, s) => t + coveredIn(s.data.sura).length, 0);
+if (coveredTotal !== coveredCount) throw new Error(`MushafBand: covered verses per surah (${coveredTotal}) disagree with coveredCount (${coveredCount})`);
+const pctText = (k: number, n: number) => { const p = (100 * k) / n; return `${p > 0 && p < 1 ? "<1" : Math.round(p)}%`; };
+const shortName = (s: any) => labelOf(s, lang).replace(/^\s*(Sura|Surah)\s*\d+\s*:\s*/i, "").replace(/\s*⁦?\(.*$/, "").trim();
+const placeName = (p: string) => (p === "meccan" ? V.meccan : V.medinan);
+const unit = (100 / total).toFixed(6); // percent of the band's width per verse, per row
+
+const blocks = surahs.map((s) => {
+  const n = s.data.sura as number;
+  const verses = ayahsOf(n).length;
+  const cov = coveredIn(n);
+  const k = cov.length;
+  const name = shortName(s);
+  const p = place(s);
+  const spans = runs(cov).map(([a, b]) => ({ left: ((a - 1) / verses) * 100, width: ((b - a + 1) / verses) * 100 }));
+  const read = coveredSurahs.includes(n) ? surahHref(lang, n) : "";
+  const open = href(lang, s.id);
+  const aria = [`${num(n, lang)} ${name}`, placeName(p), fmt(V.n_ayahs, { n: num(verses, lang) }), k > 0 ? fmt(V.cov_of, { k: num(k, lang), n: num(verses, lang), p: pctText(k, verses) }) : V.cov_none].join(" · ");
+  return { n, verses, k, name, p, rev: s.data.revelation_order as number, spans, read, open, aria };
+});
+---
+<section aria-labelledby="mushaf-band-title" class="sg-taf" data-sg-taf style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="mushaf-band-title">{V.title}</h2>
+    <p class="sg-taf-head ui"><strong class="sg-taf-big">{num(coveredTotal, lang)}</strong> <span class="sg-taf-of">{fmt(V.headline, { total: num(total, lang), surahs: num(coveredSurahs.length, lang) })}</span></p>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.note}</p>
+  </div>
+  <ul class="sg-taf-legend ui" aria-label={V.legend_title}>
+    <li><i class="sg-taf-key cov" aria-hidden="true"></i>{V.legend_cov}</li>
+    <li><i class="sg-taf-key" aria-hidden="true"></i>{V.legend_none}</li>
+    <li><i class="sg-taf-rule meccan" aria-hidden="true"></i>{V.legend_meccan}</li>
+    <li><i class="sg-taf-rule medinan" aria-hidden="true"></i>{V.legend_medinan}</li>
+  </ul>
+  <p class="sg-taf-tools ui"><button type="button" class="sg-taf-toggle" data-sg-toggle aria-pressed="false" hidden>{V.toggle}</button><span class="muted" data-sg-order aria-live="polite">{V.order_mushaf}</span></p>
+  <ol class="sg-taf-band" data-sg-band role="list" aria-label={V.title}
+      data-t-name={V.n_ayahs} data-t-cov={V.cov_of} data-t-none={V.cov_none} data-t-rev={V.order_rev} data-t-mush={V.order_mushaf}>
+    {blocks.map((b) => (
+      <li class="sg-taf-cell" style={`--o:${b.rev};flex:${b.verses} 1 max(24px, calc(${b.verses} * ${unit} * var(--sg-rows) * 1%))`}>
+        <a class={`sg-taf-b ${b.p}`} href={b.read || b.open} aria-label={b.aria}
+           data-name={b.name} data-place={placeName(b.p)} data-verses={num(b.verses, lang)} data-k={b.k} data-kk={num(b.k, lang)}
+           data-pct={pctText(b.k, b.verses)} data-read={b.read} data-open={b.open} data-num={num(b.n, lang)}>
+          {b.spans.map((s) => <span class="sg-taf-fill" aria-hidden="true" style={`inset-inline-start:${s.left.toFixed(2)}%;inline-size:${s.width.toFixed(2)}%`}></span>)}
+          <span class="sg-taf-num" aria-hidden="true">{num(b.n, lang)}</span>
+        </a>
+      </li>
+    ))}
+  </ol>
+  <div class="sg-taf-readout ui panel" data-sg-readout aria-live="polite" hidden>
+    <p class="muted sg-taf-hint" data-sg-hint>{V.hint}</p>
+    <div data-sg-detail hidden>
+      <p class="sg-taf-rname"><strong data-f="name"></strong> <span class="muted" data-f="place"></span></p>
+      <p data-f="ayahs"></p>
+      <p data-f="cov"></p>
+      <p class="sg-taf-ract"><a class="sg-taf-go" data-f="read" hidden>{V.read}</a> <a data-f="open">{V.open}</a></p>
+    </div>
+  </div>
+  <p class="muted ui sg-taf-cap">{V.caption}</p>
+</section>
+<style is:inline>
+  .sg-taf { --sg-rows: 6; }
+  @media (max-width: 640px) { .sg-taf { --sg-rows: 16; } }
+  .sg-taf-head { margin: 0 0 .3rem; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+  .sg-taf-big { font-size: 2.6rem; line-height: 1; color: var(--gold-text); font-weight: 700; }
+  .sg-taf-of { font-size: 1.05rem; color: var(--fg); }
+  .sg-taf-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; padding: 0; margin: 0 0 .7rem; font-size: .86rem; color: var(--muted); }
+  .sg-taf-legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .sg-taf-key { display: inline-block; inline-size: 22px; block-size: 14px; border: 1px solid var(--line); border-radius: 3px; background: var(--card); }
+  .sg-taf-key.cov { background: color-mix(in srgb, var(--gold) 55%, var(--card)); border-color: var(--gold); }
+  .sg-taf-rule { display: inline-block; inline-size: 22px; block-size: 0; border-block-start: 3px solid var(--gold-text); }
+  .sg-taf-rule.medinan { border-block-start: 3px dotted var(--link); }
+  .sg-taf-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 .7rem; }
+  .sg-taf-toggle { min-block-size: 44px; padding: 0 1.1rem; border-radius: 999px; border: 1px solid var(--gold); background: transparent; color: var(--fg); font: inherit; font-size: .9rem; cursor: pointer; }
+  .sg-taf-toggle[aria-pressed="true"] { background: var(--gold); color: #0a2533; font-weight: 700; }
+  .sg-taf-toggle:focus-visible, .sg-taf-b:focus-visible, .sg-taf-readout a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-taf-band { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px; font-family: inherit; }
+  .sg-taf-cell { min-inline-size: 0; }
+  .sg-taf-cell.moving { transition: transform .6s cubic-bezier(.2, .8, .2, 1); }
+  .sg-taf-b { position: relative; display: block; block-size: 40px; overflow: hidden; background: var(--card); border: 1px solid var(--line); border-block-start: 4px solid var(--gold-text); border-radius: 4px; text-decoration: none; color: var(--fg); }
+  .sg-taf-b.medinan { border-block-start: 4px dotted var(--link); }
+  .sg-taf-fill { position: absolute; inset-block: 0; background: color-mix(in srgb, var(--gold) 58%, var(--card)); border-block-end: 4px solid var(--gold); min-inline-size: 2px; }
+  .sg-taf-num { position: relative; display: grid; place-items: center; block-size: 100%; font-size: .78rem; font-weight: 600; font-family: var(--sans, inherit); line-height: 1; }
+  .sg-taf-b:hover, .sg-taf-b.is-sel { border-color: var(--fg); box-shadow: 0 0 0 2px var(--gold); }
+  .sg-taf-band.has-sel .sg-taf-b:not(.is-sel) { opacity: .8; }
+  .sg-taf-readout { margin-block: .8rem 0; border: 1px solid var(--gold); min-block-size: 8.2rem; padding: 12px 16px; }
+  .sg-taf-readout p { margin: .2rem 0; }
+  .sg-taf-rname { font-size: 1.15rem; }
+  .sg-taf-ract { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-block-start: .5rem !important; }
+  .sg-taf-ract a { display: inline-flex; align-items: center; min-block-size: 44px; }
+  .sg-taf-ract .sg-taf-go { padding: 0 1.1rem; border-radius: 999px; background: var(--gold); color: #0a2533; font-weight: 700; text-decoration: none; }
+  .sg-taf-ract .sg-taf-go[hidden] { display: none; }
+  .sg-taf-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+  @media (prefers-reduced-motion: reduce) { .sg-taf-cell.moving { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-tafsir.ts"></script>

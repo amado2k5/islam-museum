@@ -1,0 +1,47 @@
+name: Site checks (links of the full build)
+
+# The full link check of the whole site, on the build of main (docs/engineering/46-ci-flow-proposal.md, section 2).
+# A pull request builds a sample of the pages (validate.yml), so a broken link on a record page outside the sample is
+# found here, after the merge. It starts when a build of main succeeds, downloads that build's artifact and checks every
+# internal link. It reports red or green on its own: it is not part of the build run, so it never changes which build a
+# deploy takes, and it touches nothing on Cloudflare.
+on:
+  workflow_run:
+    workflows: ["Build islam.museum"]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+  # Download the artifact of the build run.
+  actions: read
+
+# Only the newest build matters: a newer one replaces a check that is still running.
+concurrency:
+  group: site-checks
+  cancel-in-progress: true
+
+jobs:
+  links:
+    if: github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download the built site
+        uses: actions/download-artifact@v8
+        with:
+          name: dist-tar
+          path: .
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+      - name: Unpack the built site
+        run: |
+          set -euo pipefail
+          tar --use-compress-program=unzstd -xf dist.tar.zst
+          rm dist.tar.zst
+          test -d dist/ar
+          echo "Build run ${{ github.event.workflow_run.id }}, commit \`${{ github.event.workflow_run.head_sha }}\`: $(find dist -name '*.html' | wc -l) pages." >> "$GITHUB_STEP_SUMMARY"
+      - name: Link check (internal, every page)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --no-progress --root-dir "${{ github.workspace }}/dist" "dist/**/*.html"
+          fail: true

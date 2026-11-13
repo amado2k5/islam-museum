@@ -22,7 +22,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const A = (T as any).angels;
 const label = (n: any) => labelOf(n, lang);
-const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "");
+const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\s+([.,؛،])/g, "$1"); // citation markers belong to the entity page's footnotes
 const sectionIds = [...ANGELS_SECTIONS, ...new Set(angelsItems.map((i) => i.section).filter((s) => !ANGELS_SECTIONS.includes(s)))];
 const sections = sectionIds.map((id) => ({ id, items: angelsItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
 const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/angels/`);
