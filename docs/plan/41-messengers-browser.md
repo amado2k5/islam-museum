@@ -136,3 +136,37 @@ core names ambiguous:
 - The seerah section fills itself as seerah passages are harvested.
 - All AI-authored records stay `status.review: draft` until a human reads
   them; nothing is live until the founder deploys.
+
+## 8. The Prophets' Tree (added 13 November 2026)
+
+The home opens with a drawn tree of the prophets (`site/src/components/ProphetsTree.astro`,
+layout and rules in `scripts/messengers-tree.ts`, interaction in
+`site/src/scripts/prophets-tree.ts`). It is an application of the graph, not a second
+source of lineage, and it draws five kinds of line, each with its own meaning:
+
+| Line | Meaning | Where it comes from |
+|---|---|---|
+| Solid gold branch | father and son | a `child_of` edge in the graph |
+| Beaded vine, solid or dashed | descent across generations, agreed or disputed | `ANSAB_PROPHET_CHAIN` (plan 55), Ismail to Adnan disputed, Adnan to Muhammad agreed |
+| Dashed twig | counted among the progeny, no chain of fathers recorded | the ayah cited on the node (al-An'am 84 to 86), which the detector must find the prophet named in |
+| Dotted trunk, stem and twigs | order of mention only | the order of `MESSENGER_SUBJECTS` |
+| Dotted tie | kinship or companionship | a `sibling_of` or `related_to` edge |
+
+`checkMessengersTree` verifies every drawn line against the graph and the build throws on a
+mismatch, so a branch cannot outlive its edge. To promote a prophet from a dotted or dashed
+place to a solid branch, add the sourced `child_of` edge to his record and change his `kind`
+in `MESSENGERS_TREE`; never the reverse.
+
+Design decisions: the root is at the bottom and the tree grows upward, as the classical
+charts do; one layout serves phone and desktop (a 560-unit-wide drawing, leaves at least
+24 px tall at 375 px); leaves carry the short name without its parenthetical gloss; every
+leaf is a real link and the detail card is cloned from the text outline below the drawing,
+so the tree reads and navigates without JavaScript; the growth animation is skipped under
+`prefers-reduced-motion`. Lut and Adnan are drawn although they are not browser subjects
+(their leaves link to their entity pages). The tree is not exported separately in the API:
+every line it draws is already an edge in `/api/v1/` or the chain in `/api/v1/ansab.json`.
+
+Known limits: most prophets hang on dashed or dotted lines because the graph does not yet
+record their lineages; the classical charts' fuller lines (Hud and Salih to Sam, Musa to
+Lawi, and so on) enter the tree when they enter the graph with their sources.
+
