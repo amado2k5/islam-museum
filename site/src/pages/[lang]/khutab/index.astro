@@ -3,19 +3,15 @@
 // Jamharat Khutab al-'Arab, and the recorded lesson series (durus), each linked to its own page and its source.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { href, labelOf, summaryOf, realNodes, byId } from "../../../lib/graph";
+import { href, labelOf, summaryOf } from "../../../lib/graph";
+import { sermons, series, speakerOf, seriesGroups } from "../../../lib/khutab";
+import KhutabMinbar from "../../../components/sig/KhutabMinbar.astro";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const K = T.khutab;
-const works = realNodes.filter((n: any) => n.class === "work");
-const hijriYear = (n: any) => { const h = String(n.data.composed?.hijri ?? ""); return h ? parseInt(h.split("-")[0], 10) : 99999; };
-const sermons = works.filter((n: any) => n.data.kind === "sermon")
-  .sort((a: any, b: any) => hijriYear(a) - hijriYear(b) || String(a.id).localeCompare(String(b.id)));
-const series = works.filter((n: any) => n.data.kind === "lecture-series");
 const count = (n: number) => K.count.replace("{n}", String(n));
-const speakerOf = (n: any) => { const id = n.data.delivered?.by ?? n.data.authors?.[0]; return id ? byId.get(id) : undefined; };
 const typeLabel = (n: any) => (n.data.sermon_type && K.types[n.data.sermon_type]) || "";
 const dateLabel = (n: any) => {
   const c = n.data.composed; if (!c?.hijri) return "";
@@ -24,11 +20,7 @@ const dateLabel = (n: any) => {
   return K.date.replace("{h}", String(y)).replace("{g}", g || "?");
 };
 const status = (n: any) => (n.data.delivery_date_status === "uploaded" ? K.uploaded : "");
-// series grouped by speaker, largest group first
-const bySpeaker = new Map<string, any[]>();
-for (const n of series) { const sp = speakerOf(n); const k = sp ? sp.id : "_none"; (bySpeaker.get(k) ?? bySpeaker.set(k, []).get(k)!).push(n); }
-const groups = [...bySpeaker.entries()].map(([k, items]) => ({ id: k, speaker: k === "_none" ? undefined : byId.get(k), items: items.sort((a: any, b: any) => labelOf(a, lang).localeCompare(labelOf(b, lang), lang)) }))
-  .sort((a, b) => b.items.length - a.items.length || String(a.id).localeCompare(String(b.id)));
+const groups = seriesGroups(lang);
 const speakerCount = groups.filter((g) => g.speaker).length;
 ---
 <BaseLayout lang={lang} title={K.title} description={K.lede} path={`/${lang}/khutab/`}>
@@ -47,6 +39,8 @@ const speakerCount = groups.filter((g) => g.speaker).length;
         <a href="/api/v1/khutab.json" rel="nofollow">{K.api_link}</a>
       </p>
     </section>
+
+    <KhutabMinbar lang={lang} />
 
     <section aria-labelledby="khutab-sermons">
       <h2 id="khutab-sermons">{K.sermons} <span class="ui muted">{count(sermons.length)}</span></h2>
