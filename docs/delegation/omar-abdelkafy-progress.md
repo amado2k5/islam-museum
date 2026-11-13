@@ -2278,3 +2278,17 @@ Resume point: mawkib-al-nour episode 13 (branch from origin/main).
 | Asides on Egyptian television presenters, an English-speaking relative, Quran reading skill and street clothing beyond the points kept | ep13 00:27:00-00:27:30, 00:36:30-00:37:00 | Illustrative asides, not separate claims | Content rule | Open |
 
 Resume point: mawkib-al-nour episode 14 (branch from origin/main).
+
+### mawkib-al-nour ep14 (12 Nov 2026)
+
+(Correction to the ep13 note above: the episode 13 text carries 17 needs_source marks, not 20.)
+
+23 points written for episode 14 (ar, en, ur); 10 needs_source marks; 7 new `about` edges. Quran verses referenced only through passage links (40-51, 40-52, 40-28, 40-29, 38-5, 2-275, 54-10, 12-8, 12-9, 12-80, 12-90, 5-32, 43-32, 2-143, 26-54, 26-55); none typed. Proposal for the founder, not applied: the lecturer's reading that the Umayyad, Abbasid and Ottoman states fell when cut from the Book and the Sunna (ep14 00:01:00) is recorded as his opinion; the attribution of lines on honour to al-Shafi'i (00:37:30) has no source.
+
+| Excluded (mawkib-al-nour ep14) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and the closing supplication | ep14 00:00:00 (recitation, Quran text never typed), 00:39:00-00:39:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep14 00:10:30 (a long loop), 00:16:30 (a long loop), 00:26:00 (a long loop), 00:36:00 (a long loop) | Not recoverable | Clarity, Loop check | Open |
+| A half-clear verse of poetry about dignity in the pre-Islamic manner, which the lecturer says he does not endorse, and asides on a hammer and a mallet | ep14 00:38:30-00:39:00, 00:28:30 | Poetry the lecturer disclaims; illustrative aside | Content rule | Open |
+
+Resume point: mawkib-al-nour episode 15 (branch from origin/main).
