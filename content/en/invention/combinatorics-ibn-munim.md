@@ -29,7 +29,7 @@ Al-Karaji's earlier algebra supplied an arithmetic triangle. That is distinct fr
 
 Abd al-Aziz al-Naqr's biography describes a man from Denia in al-Andalus settling and teaching at the Mansuriyya in [[place/marrakesh|Marrakech]]. Arrival is undated; a caliphal invitation is a reported scholarly suggestion. Djebbar's earlier report could not establish composition place. We distinguish that report's knowledge from an updated biography's use of older biographical evidence {cite:arrabita-ibn-munim-naqr section3} {cite:djebbar-ibn-munim-combinatoire p8}.
 
-Djebbar tentatively dates the book1207–1212 from dedication and praise of al-Nasir, not a dated colophon. Our record uses broad thirteenth-century placement and attributes the narrower suggestion. His analysis also reports application tables added after copies circulated among students. This was teaching and developing exposition, not a single perfectly dated moment of inspiration {cite:djebbar-ibn-munim-combinatoire pp7–8,12}.
+Djebbar tentatively dates the book 1207–1212 from dedication and praise of al-Nasir, not a dated colophon. Our record uses broad thirteenth-century placement and attributes the narrower suggestion. His analysis also reports application tables added after copies circulated among students. This was teaching and developing exposition, not a single perfectly dated moment of inspiration {cite:djebbar-ibn-munim-combinatoire pp7–8,12}.
 
 ## The maker(s)
 
@@ -39,7 +39,7 @@ The separate Sunni frame is the museum's declared default, not personal Maliki a
 
 ## How it works
 
-Djebbar presents ten silk colours made into tufts of one colour, two and so on to ten, counting selections of each size. The first line has ten single-colour cases. To form pairs, fix a later colour and join it to every earlier one, avoiding a second count when their order reverses. We visually checked printed19–20: a modern analytical account, not the author's manuscript {cite:djebbar-ibn-munim-combinatoire pp19–20}.
+Djebbar presents ten silk colours made into tufts of one colour, two and so on to ten, counting selections of each size. The first line has ten single-colour cases. To form pairs, fix a later colour and join it to every earlier one, avoiding a second count when their order reverses. We visually checked printed 19–20: a modern analytical account, not the author's manuscript {cite:djebbar-ibn-munim-combinatoire pp19–20}.
 
 In our notation, ten colours give `1+2+...+9=45` pairs and `C(10,3)=120` triples. Here `C(n,k)` selects `k` different objects from `n`, ignoring order. Grouping cases by their largest selected element turns one large problem into smaller sums. Not counting one selection twice is a correctness condition, not just a shortcut.
 
@@ -47,7 +47,7 @@ Our smaller modern example chooses two different cards from five in ten ways. Di
 
 A modern explanation splits selections according to whether the final card is included. This gives `C(n,k)=C(n-1,k)+C(n-1,k-1)`, with `C(n,0)=1` and `C(n,n)=1`. Our convention counts one empty selection, although the tuft problem starts with one colour. We do not attribute that boundary statement to an unread original line.
 
-The recurrence constructs row `1,5,10,10,5,1` for five and `1,10,45,120,210,252,210,120,45,10,1` for ten. The latter sums to1024, giving1023 nonempty selections. We independently checked these by enumeration and recurrence. They are not a photograph of the original table or proof that the author identified every entry with a binomial coefficient.
+The recurrence constructs row `1,5,10,10,5,1` for five and `1,10,45,120,210,252,210,120,45,10,1` for ten. The latter sums to 1024, giving 1023 nonempty selections. We independently checked these by enumeration and recurrence. They are not a photograph of the original table or proof that the author identified every entry with a binomial coefficient.
 
 Repetition needs another distinction. LettersA,A,B give three distinct strings, not six; swapping identicalA copies creates no new writing. The linguistic project adds signs and pronunciation restrictions. Multiplying everything by four per letter fails if the model excludes some states. Djebbar describes repetition, recursive reasoning and tables, not software that knows lexical meaning {cite:djebbar-ibn-munim-combinatoire pp11–13}.
 
@@ -91,13 +91,13 @@ The mathematician remains separate from his Sicilian namesake and similarly name
 
 Current programs can check small cases by enumeration and recurrence. That is our modern verification, not Ibn Munim's program. Independently count ordered pairs, then divide by two for two different objects: five gives ten. ButA,A is not a different-object pair; transferring the same division to another case without changing assumptions breaks the reasoning.
 
-Rohieb's2016 CC0 image has eight rows indexed zero through seven. Modern digits and triangular arrangement do not depict Fiqh al-hisab or silk tufts. The final row is1,7,21,35,35,21,7,1. Relationships are also explained in text: readers need not extract them from an image alone {cite:commons-pascal-small-rohieb Description and licence}.
+Rohieb's2016 CC0 image has eight rows indexed zero through seven. Modern digits and triangular arrangement do not depict Fiqh al-hisab or silk tufts. The final row is 1,7,21,35,35,21,7,1. Relationships are also explained in text: readers need not extract them from an image alone {cite:commons-pascal-small-rohieb Description and licence}.
 
 ## Surviving examples
 
-Arrabita describes a copy in collection416, pages214–419, copied in Tunis by Hasan al-Rabai in958AH/1551, found by Idriss Lamrabet in1981 and edited in2005. These details come through the article, not firsthand inspection. Its sole-known-copy statement in the edition's context is not a current worldwide library census {cite:arrabita-fiqh-hisab manuscript and edition}.
+Arrabita describes a copy in collection 416, pages 214–419, copied in Tunis by Hasan al-Rabai in 958 AH/1551, found by Idriss Lamrabet in 1981 and edited in 2005. These details come through the article, not firsthand inspection. Its sole-known-copy statement in the edition's context is not a current worldwide library census {cite:arrabita-fiqh-hisab manuscript and edition}.
 
-We read selected parts of Djebbar's study and inspected printed19–20, not all131pages or its Arabic reproduction. Modern editorial symbols are not necessarily manuscript letters. Separating layers lets readers assess what an image, secondary analysis or unknown text establishes. A downloadable file is not permission to put the source book into Git.
+We read selected parts of Djebbar's study and inspected printed 19–20, not all131 pages or its Arabic reproduction. Modern editorial symbols are not necessarily manuscript letters. Separating layers lets readers assess what an image, secondary analysis or unknown text establishes. A downloadable file is not permission to put the source book into Git.
 
 ## In culture
 

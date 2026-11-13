@@ -14,7 +14,7 @@ How can we measure a volume whose boundary is neither a box nor a cylinder? [[pe
 
 The contribution is a calculating and proving method, not a surviving machine. A fourth power multiplies a number by itself four times: two to the fourth is sixteen. Adding consecutive fourth powers differs from raising the sum of those numbers to the fourth power {cite:dennis-addington-alhazen-summation-2009 pp.2–4}. Geometry requires both an explanation of why squaring the section's radius introduces fourth powers, and a way to calculate their sum without enumerating endlessly many layers {cite:katz-calculus-islam-india-1995 pp.167–168}.
 
-The solid is not the ordinary paraboloid bowl obtained by rotating a parabola about its own axis. Here the rotation axis is perpendicular to the parabola's axis and lies at the boundary of the specified region {cite:bressoud-calculus-before-newton-i pp.2–3}. The8/15 ratio therefore does not apply to every bowl or dome called parabolic. Our comparison image shows the earlier ordinary axial solid, not the new dome.
+The solid is not the ordinary paraboloid bowl obtained by rotating a parabola about its own axis. Here the rotation axis is perpendicular to the parabola's axis and lies at the boundary of the specified region {cite:bressoud-calculus-before-newton-i pp.2–3}. The 8/15 ratio therefore does not apply to every bowl or dome called parabolic. Our comparison image shows the earlier ordinary axial solid, not the new dome.
 
 ## The world before it
 
@@ -78,11 +78,11 @@ The attribution is an extension of volume methods using fourth powers, not the i
 
 ## Today
 
-The example teaches the difference between a finite sum and an exact volume, and between numerical verification and proof. Steven Baltakatei Sandoval's modern share-alike diagram shows the ordinary axial bowl with diameter and height: it is a comparison with the earlier problem, not an image of the8/15 dome {cite:commons-paraboloid-dh image and licensing}. Mentally changing the rotation axis changes the object itself, not just the camera angle.
+The example teaches the difference between a finite sum and an exact volume, and between numerical verification and proof. Steven Baltakatei Sandoval's modern share-alike diagram shows the ordinary axial bowl with diameter and height: it is a comparison with the earlier problem, not an image of the 8/15 dome {cite:commons-paraboloid-dh image and licensing}. Mentally changing the rotation axis changes the object itself, not just the camera angle.
 
 ## Surviving examples
 
-Our inspected witnesses are the modern paper, including printed167–168 images, and Bressoud's exposition—not an autograph manuscript {cite:katz-calculus-islam-india-1995 pp.167–168} {cite:bressoud-calculus-before-newton-i pp.2–4}. Katz refers to Rashed's study of the paraboloid; that is a research lead, not permission to cite unread pages {cite:katz-calculus-islam-india-1995 p.174}. The licensed illustration is neither a historical instrument nor a newly discovered medieval sheet.
+Our inspected witnesses are the modern paper, including printed 167–168 images, and Bressoud's exposition—not an autograph manuscript {cite:katz-calculus-islam-india-1995 pp.167–168} {cite:bressoud-calculus-before-newton-i pp.2–4}. Katz refers to Rashed's study of the paraboloid; that is a research lead, not permission to cite unread pages {cite:katz-calculus-islam-india-1995 p.174}. The licensed illustration is neither a historical instrument nor a newly discovered medieval sheet.
 
 ## In culture
 
@@ -94,6 +94,6 @@ Imagine a tower of disks narrowing upward. A narrow tower stays inside a curved 
 
 ## References
 
-- Katz1995, selected163–168,174 read;167–168 images checked. Not the full article or original Arabic treatise {cite:katz-calculus-islam-india-1995 selected passages}.
+- Katz1995, selected 163–168,174 read;167–168 images checked. Not the full article or original Arabic treatise {cite:katz-calculus-islam-india-1995 selected passages}.
 - Bressoud I1–4 and III1–3, actual articles rather than platform AI summaries {cite:bressoud-calculus-before-newton-i pp.1–4} {cite:bressoud-calculus-before-newton-iii pp.1–3}.
 - Dennis/Addington notes, existing individualized identity basis and modern image metadata {cite:dennis-addington-alhazen-summation-2009 pp.1–5} {cite:manazir-sabra-1983 scan-p.60} {cite:tdv-ibnul-heysem pp.82–87} {cite:commons-paraboloid-dh licensing}.

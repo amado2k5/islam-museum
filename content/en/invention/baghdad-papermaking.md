@@ -6,7 +6,7 @@ translators: ["Copilot SDK in VS Code (model unknown), from Arabic"]
 ---
 ## Summary
 
-This is the story of moving a craft to a city, not inventing paper again: its Chinese origin precedes Islam by centuries, and Central Asia was part of its westward spread {cite:iranica-paper-i early history}. Osman Ersoy attributes the proposal for a paper workshop in [[place/baghdad|Baghdad]] in178 AH/794–795 to [[person/al-fadl-ibn-yahya-al-barmaki|al-Fadl ibn Yahya al-Barmaki]], under [[person/harun-al-rashid|Harun al-Rashid]] {cite:tdv-kagit Baghdad paragraph}. Jonathan Bloom supports manufacture in Baghdad by the late eighth century without independently confirming that year or proposer {cite:iranica-paper-i early history}. The browser records al-Fadl's specific act of transmission and proposal, not the first sheet of paper or machinery undescribed in the sources read {cite:tdv-kagit Baghdad paragraph}.
+This is the story of moving a craft to a city, not inventing paper again: its Chinese origin precedes Islam by centuries, and Central Asia was part of its westward spread {cite:iranica-paper-i early history}. Osman Ersoy attributes the proposal for a paper workshop in [[place/baghdad|Baghdad]] in 178 AH/794–795 to [[person/al-fadl-ibn-yahya-al-barmaki|al-Fadl ibn Yahya al-Barmaki]], under [[person/harun-al-rashid|Harun al-Rashid]] {cite:tdv-kagit Baghdad paragraph}. Jonathan Bloom supports manufacture in Baghdad by the late eighth century without independently confirming that year or proposer {cite:iranica-paper-i early history}. The browser records al-Fadl's specific act of transmission and proposal, not the first sheet of paper or machinery undescribed in the sources read {cite:tdv-kagit Baghdad paragraph}.
 
 ## What it is
 
@@ -22,9 +22,9 @@ In Bloom's account, Buddhist monks and missionaries carried paper through parts 
 
 ## The story
 
-In TDV, Ersoy places the Baghdad workshop under Harun, gives178 AH/794–795, and says it was founded at the suggestion of al-Fadl ibn Yahya, the Barmakid governor of Khurasan {cite:tdv-kagit Baghdad paragraph}. This identifies a proposal and transfer, rather than equating everything during Harun's reign with the caliph's personal invention {cite:tdv-kagit Baghdad paragraph}.
+In TDV, Ersoy places the Baghdad workshop under Harun, gives 178 AH/794–795, and says it was founded at the suggestion of al-Fadl ibn Yahya, the Barmakid governor of Khurasan {cite:tdv-kagit Baghdad paragraph}. This identifies a proposal and transfer, rather than equating everything during Harun's reign with the caliph's personal invention {cite:tdv-kagit Baghdad paragraph}.
 
-In Iranica, Bloom places Baghdad manufacture by the late eighth century within paper's movement from Central Asia to Iran and the wider Islamic lands {cite:iranica-paper-i early history}. The references agree on the broad setting, but the second paragraph neither names al-Fadl nor supplies178 AH; that agreement is not two independent witnesses to every workshop detail {cite:tdv-kagit Baghdad paragraph} {cite:iranica-paper-i early history}.
+In Iranica, Bloom places Baghdad manufacture by the late eighth century within paper's movement from Central Asia to Iran and the wider Islamic lands {cite:iranica-paper-i early history}. The references agree on the broad setting, but the second paragraph neither names al-Fadl nor supplies 178 AH; that agreement is not two independent witnesses to every workshop detail {cite:tdv-kagit Baghdad paragraph} {cite:iranica-paper-i early history}.
 
 No contemporary foundation document or workshop accounts were read for this article: the proposal and date are reported from the identified modern reference, not a document the museum claims to have inspected {cite:tdv-kagit Baghdad paragraph}.
 
@@ -32,7 +32,7 @@ No contemporary foundation document or workshop accounts were read for this arti
 
 Al-Fadl was an Abbasid administrator, the son of [[person/yahya-ibn-khalid-al-barmaki|Yahya ibn Khalid]] of the [[group/barmakids|Barmakids]] and Harun's foster-brother; his biography records eastern governorships and responsibility for al-Amin's education {cite:tdv-bermekiler al-Fadl career}. Hakki Dursun Yildiz describes his work in Khurasan, including irrigation canals, his return to Baghdad and his changing administrative position before the family's fall {cite:tdv-bermekiler al-Fadl career}. None makes him the craftsperson who built the molds: his role here is the proposer credited with establishing the industry {cite:tdv-kagit Baghdad paragraph}.
 
-**Museum Sunni frame and identity basis:** Yildiz personally names al-Fadl in the802 pilgrimage party and associates him with Ramadan mosque lighting; this is biographical evidence for Muslim identity, not an inference from name, ancestry or office {cite:tdv-bermekiler pilgrimage and mosque lighting}. His record makes the default Sunni frame and evidential limits explicit, without inventing a personal legal-school declaration, and displays the family allegations reported by Yildiz without adopting them {cite:tdv-bermekiler allegations discussion}.
+**Museum Sunni frame and identity basis:** Yildiz personally names al-Fadl in the 802 pilgrimage party and associates him with Ramadan mosque lighting; this is biographical evidence for Muslim identity, not an inference from name, ancestry or office {cite:tdv-bermekiler pilgrimage and mosque lighting}. His record makes the default Sunni frame and evidential limits explicit, without inventing a personal legal-school declaration, and displays the family allegations reported by Yildiz without adopting them {cite:tdv-bermekiler allegations discussion}.
 
 The paragraph read does not name Baghdad's working papermakers; that gap is not filled with invented names of prisoners or artisans {cite:tdv-kagit Baghdad paragraph}.
 
@@ -61,7 +61,7 @@ Earlier communities and crafts remain named where the reference identifies them:
 
 ## What was built on it
 
-Wider paper use supported copying, administration and preparation of the page, but the movement from records to books was gradual in Bloom's account {cite:iranica-paper-i early manuscripts}. He identifies a paper Qur'an manuscript dated361 AH/971–972 and later Iranian books and copies: a later surviving witness is neither the first paper used everywhere nor automatically a product of al-Fadl's workshop {cite:iranica-paper-i early manuscripts}.
+Wider paper use supported copying, administration and preparation of the page, but the movement from records to books was gradual in Bloom's account {cite:iranica-paper-i early manuscripts}. He identifies a paper Qur'an manuscript dated 361 AH/971–972 and later Iranian books and copies: a later surviving witness is neither the first paper used everywhere nor automatically a product of al-Fadl's workshop {cite:iranica-paper-i early manuscripts}.
 
 Ersoy reports paper types from the *Fihrist*, including Ja'fari, Talhi and Tahiri; a type named after someone does not prove that person invented its material or every manufacturing step {cite:tdv-kagit paper types paragraph}. Sizing, burnishing, calligraphy and illumination extend the story as uses and treatments, not one patent stretching from Baghdad to every later page {cite:tdv-kagit sizing and burnishing}.
 
@@ -69,7 +69,7 @@ Ersoy reports paper types from the *Fihrist*, including Ja'fari, Talhi and Tahir
 
 Bloom's clearest distinction is paper's adoption for records and then books: the material belongs within the history of scribal work and book production {cite:iranica-paper-i early manuscripts}. Ersoy connects its abundance and diffusion with flourishing centers of knowledge and culture, naming Samarkand as an example {cite:tdv-kagit diffusion discussion}.
 
-Use extended beyond books: Ersoy reports Nasir Khusraw's mention of paper among materials for wrapping goods in Egypt as evidence of diverse use and plentiful production {cite:tdv-kagit Nasir Khusraw paragraph}. That supplies neither Baghdad prices in794 nor a literacy rate; an example of wrapping from another period cannot become an economic statistic for the earlier workshop {cite:tdv-kagit Baghdad and Nasir Khusraw paragraphs}.
+Use extended beyond books: Ersoy reports Nasir Khusraw's mention of paper among materials for wrapping goods in Egypt as evidence of diverse use and plentiful production {cite:tdv-kagit Nasir Khusraw paragraph}. That supplies neither Baghdad prices in 794 nor a literacy rate; an example of wrapping from another period cannot become an economic statistic for the earlier workshop {cite:tdv-kagit Baghdad and Nasir Khusraw paragraphs}.
 
 ## How it changed history
 
@@ -112,6 +112,6 @@ When asking “Who made it?”, ask another question: the first paper, or bringi
 ## References
 
 - Osman Ersoy, “KÂĞIT,” TDV24,2001, pp.163–166: materials, manufacture, diffusion, Baghdad and surface preparation {cite:tdv-kagit}.
-- Jonathan M. Bloom, “PAPER i,” Iranica,2017, updated2018: definition, early history, manuscripts and paper professions {cite:iranica-paper-i}.
+- Jonathan M. Bloom, “PAPER i,” Iranica,2017, updated 2018: definition, early history, manuscripts and paper professions {cite:iranica-paper-i}.
 - Hakki Dursun Yildiz, “BERMEKÎLER,” TDV5,1992, pp.517–520: al-Fadl's career, pilgrimage and reported allegations {cite:tdv-bermekiler}.
 - Enric, Meros workshop photograph,5 April2018; actual Commons metadata and CC BY-SA4.0 licence {cite:commons-konigil-paper-enric}.

@@ -11,4 +11,4 @@ The judge of Damascus, Shams al-Din Muhammad ibn Abd al-Awwal al-Ja'fari al-Tabr
 
 ## Context
 
-Coffee had appeared in Damascus about twelve years earlier, when Shaykh Sa'd al-Din ibn Iraq made its drinking known during his stay there, and from that time its shops multiplied. His father had been among those who denounced it, and his house was ruined in Mecca. The first permission did not last long before it met formal jurisprudential opposition that ended in this sultanic order, before the matter later settled on its permission. {cite:shadharat-dhahab p. 337-338}.
+Coffee had appeared in Damascus about twelve years earlier, when Shaykh Sa'd al-Din ibn Iraq made its drinking known during his stay there, and from that time its shops multiplied. His father had been among those who denounced it, and had its house in Mecca torn down. The first permission did not last long before it met formal jurisprudential opposition that ended in this sultanic order, before the matter later settled on its permission. {cite:shadharat-dhahab p. 337-338}.

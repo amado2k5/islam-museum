@@ -8,7 +8,7 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 ---
 ## Summary
 
-An astronomer calculating on a sphere cannot simply use a straight-sided triangle drawn on paper: the boundaries are great-circle arcs, and the problem connects their lengths with the angles at which they meet. The contribution presented here is [[person/abu-al-wafa-al-buzjani|Abu al-Wafa al-Buzjani]]'s simplification of these relationships, including a proof of the general sine relation and methods for right spherical triangles—not the invention of all trigonometry {cite:abu-wafa-youschkevitch-dsb trigonometry}. The French publication of1892 places the proof beside an explicit priority dispute; both remain in our story {cite:abu-wafa-carra-almageste-1892 pp.423–424}.
+An astronomer calculating on a sphere cannot simply use a straight-sided triangle drawn on paper: the boundaries are great-circle arcs, and the problem connects their lengths with the angles at which they meet. The contribution presented here is [[person/abu-al-wafa-al-buzjani|Abu al-Wafa al-Buzjani]]'s simplification of these relationships, including a proof of the general sine relation and methods for right spherical triangles—not the invention of all trigonometry {cite:abu-wafa-youschkevitch-dsb trigonometry}. The French publication of 1892 places the proof beside an explicit priority dispute; both remain in our story {cite:abu-wafa-carra-almageste-1892 pp.423–424}.
 
 ## What it is
 
@@ -24,9 +24,9 @@ Nor should improved solution methods be confused with introducing every trigonom
 
 ## The story
 
-Born in Buzjan, Abu al-Wafa moved to Iraq and lived in [[place/baghdad|Baghdad]]; Aydin records the move in348/959, teachers from his family, and contacts with contemporary scholars {cite:tdv-ebul-vefa-buzcani pp.348–349}. Britannica describes observing work and cooperation with [[person/al-biruni-muhammad-ibn-ahmad|al-Biruni]], placing calculation among questions about sky, position and time rather than in an isolated biography {cite:britannica-abu-al-wafa biography}. These reports do not identify the desk where he wrote his proof or the day he completed it.
+Born in Buzjan, Abu al-Wafa moved to Iraq and lived in [[place/baghdad|Baghdad]]; Aydin records the move in 348/959, teachers from his family, and contacts with contemporary scholars {cite:tdv-ebul-vefa-buzcani pp.348–349}. Britannica describes observing work and cooperation with [[person/al-biruni-muhammad-ibn-ahmad|al-Biruni]], placing calculation among questions about sky, position and time rather than in an isolated biography {cite:britannica-abu-al-wafa biography}. These reports do not identify the desk where he wrote his proof or the day he completed it.
 
-The translated preface distinguishes geometrical proof from calculation, emphasizes numerical problems, and discusses corrected tables: a broader scientific and teaching program than the slogan “discovered a law” {cite:abu-wafa-carra-almageste-1892 pp.413–414}. The record's tenth-century date is a broad activity frame, not an invented year of composition. Death reports differ between997 and998; we turn neither into an exact proof date or a fabricated Hijri conversion {cite:britannica-abu-al-wafa biography} {cite:tdv-ebul-vefa-buzcani pp.348–349}.
+The translated preface distinguishes geometrical proof from calculation, emphasizes numerical problems, and discusses corrected tables: a broader scientific and teaching program than the slogan “discovered a law” {cite:abu-wafa-carra-almageste-1892 pp.413–414}. The record's tenth-century date is a broad activity frame, not an invented year of composition. Death reports differ between 997 and 998; we turn neither into an exact proof date or a fabricated Hijri conversion {cite:britannica-abu-al-wafa biography} {cite:tdv-ebul-vefa-buzcani pp.348–349}.
 
 ## The maker(s)
 
@@ -42,13 +42,13 @@ For `C=90°`, the relations in this convention include `sin(a)=sin(c)sin(A)`, `t
 
 Try a modern example created for this explanation, not historical numbers from Abu al-Wafa's book: `a=30°`, `b=45°`, `C=90°`. The cosine relation gives `c≈52.238756°`; the tangent relations give `A≈39.231520°` and `B≈63.434949°`. Substitution makes all three sine ratios approximately`0.790569415`, providing a numerical check. This verifies our example in the stated notation, not an independent reconstruction of every step of the translated proof {cite:abu-wafa-carra-almageste-1892 pp.423–424}.
 
-Notice that our example's angles total more than180 degrees: we do not force a spherical triangle to obey the plane triangle's rule. For surface distance on a sphere of radius`R`, multiply the arc angle in radians by`R`; a sine value alone is not kilometers. Inverting sine also requires attention to angle choice and context, so the formula is not a promise of a unique solution for arbitrary input. These are modern geometrical explanations of the relationships read, not a claim that the author used calculator language {cite:abu-wafa-carra-almageste-1892 pp.423–424}.
+Notice that our example's angles total more than 180 degrees: we do not force a spherical triangle to obey the plane triangle's rule. For surface distance on a sphere of radius`R`, multiply the arc angle in radians by`R`; a sine value alone is not kilometers. Inverting sine also requires attention to angle choice and context, so the formula is not a promise of a unique solution for arbitrary input. These are modern geometrical explanations of the relationships read, not a claim that the author used calculator language {cite:abu-wafa-carra-almageste-1892 pp.423–424}.
 
 The translated proof does not merely announce a ready-made ratio: it begins with great-circle arcs bounding a triangle, introduces arcs associated with poles, then perpendicular projections to establish the proportionality {cite:abu-wafa-carra-almageste-1892 pp.423–424}. This distinguishes checking a particular number from proving a general relationship. Our numerical example can reveal the mistake of using a side angle instead of its sine, but cannot replace the geometrical construction. Agreement among three numbers in one example does not by itself prove a law for every triangle.
 
 ## The spread
 
-One traceable witness is Carra's publication of translated selections in a scholarly journal in1892, followed by discussion in modern encyclopedias and scientific biographies {cite:abu-wafa-carra-almageste-1892 pp.408–471} {cite:abu-wafa-youschkevitch-dsb bibliography}. This establishes the text's presence in modern history of science, not the route of every manuscript or use of the same copy in every school. We therefore do not draw arrows from Baghdad to every trading city merely because spherical calculation is useful for travel.
+One traceable witness is Carra's publication of translated selections in a scholarly journal in 1892, followed by discussion in modern encyclopedias and scientific biographies {cite:abu-wafa-carra-almageste-1892 pp.408–471} {cite:abu-wafa-youschkevitch-dsb bibliography}. This establishes the text's presence in modern history of science, not the route of every manuscript or use of the same copy in every school. We therefore do not draw arrows from Baghdad to every trading city merely because spherical calculation is useful for travel.
 
 The priority discussion itself shows transmission of reports: MacTutor recounts al-Tusi's attribution to al-Khujandi and claims associated with Abu al-Wafa and Abu Nasr {cite:khujandi-mactutor sine theorem}. We read the historians' account here, not every original claim text. A direct translated passage remains distinct from a report of another author's judgment.
 
@@ -70,7 +70,7 @@ The point is not that astronomy changed overnight on a known date, but that a ca
 
 ## Who invented it?
 
-**Sunni—claim boundary:** the contribution established here is improvement of Abu al-Wafa's solution apparatus, not ownership of all trigonometry. His documented Muslim identity is separate from priority for each theorem {cite:britannica-abu-al-wafa biography}. **Academic account:** Carra explicitly names the dispute with Abu Nasr on423; MacTutor adds al-Khujandi and al-Tusi without turning the available evidence into a final verdict {cite:abu-wafa-carra-almageste-1892 p.423} {cite:khujandi-mactutor sine theorem}. The museum does not decide what the research read has not settled.
+**Sunni—claim boundary:** the contribution established here is improvement of Abu al-Wafa's solution apparatus, not ownership of all trigonometry. His documented Muslim identity is separate from priority for each theorem {cite:britannica-abu-al-wafa biography}. **Academic account:** Carra explicitly names the dispute with Abu Nasr on 423; MacTutor adds al-Khujandi and al-Tusi without turning the available evidence into a final verdict {cite:abu-wafa-carra-almageste-1892 p.423} {cite:khujandi-mactutor sine theorem}. The museum does not decide what the research read has not settled.
 
 We also exclude the lunar-variation discovery claim. Britannica and the encyclopedia reject it; it cannot decorate the biography of a different mathematical improvement {cite:britannica-abu-al-wafa biography} {cite:encyclopaedia-of-islam-2 vol.1 p.178}. Separating claims prevents a famous erroneous story from becoming evidence for a sound one.
 
@@ -80,7 +80,7 @@ The modern diagram shows a sphere, a triangle right-angled at`C`, and center`O`;
 
 ## Surviving examples
 
-Our direct textual witness is a published selected translation with proof, figure and commentary. The image of printed423 was visually checked in the public scan, and the proof's continuation on424 read in the transcription {cite:abu-wafa-carra-almageste-1892 pp.423–424}. We claim neither an independent Arabic collation, inspection of an autograph, nor reading the entire article. Scientific biographies expand the context of surviving and lost works; the survival of another book does not make every calculation here a direct reading of that book {cite:abu-wafa-youschkevitch-dsb works and bibliography}.
+Our direct textual witness is a published selected translation with proof, figure and commentary. The image of printed 423 was visually checked in the public scan, and the proof's continuation on 424 read in the transcription {cite:abu-wafa-carra-almageste-1892 pp.423–424}. We claim neither an independent Arabic collation, inspection of an autograph, nor reading the entire article. Scientific biographies expand the context of surviving and lost works; the survival of another book does not make every calculation here a direct reading of that book {cite:abu-wafa-youschkevitch-dsb works and bibliography}.
 
 ## In culture
 
@@ -92,7 +92,7 @@ Draw a triangle on paper, then imagine one on a ball: the lines become arcs, and
 
 ## References
 
-- Carra de Vaux, *L'Almageste d'Abu'l-Wefa*,1892: selections413–414 and421–425, especially proof423–424; not a claim to have read the complete article {cite:abu-wafa-carra-almageste-1892 pp.413–414,421–425}.
+- Carra de Vaux, *L'Almageste d'Abu'l-Wefa*,1892: selections 413–414 and 421–425, especially proof 423–424; not a claim to have read the complete article {cite:abu-wafa-carra-almageste-1892 pp.413–414,421–425}.
 - Youschkevitch, scientific biography, trigonometry/works; university-hosted reflowed text, not original-edition pagination {cite:abu-wafa-youschkevitch-dsb trigonometry and works}.
 - Britannica; Aydin348–349; MacTutor Abu al-Wafa and al-Khujandi biographies {cite:britannica-abu-al-wafa biography} {cite:tdv-ebul-vefa-buzcani pp.348–349} {cite:abu-wafa-mactutor biography} {cite:khujandi-mactutor sine theorem}.
 - Encyclopaedia of Islam, volume1,178; Commons modern diagram/licence {cite:encyclopaedia-of-islam-2 vol.1 p.178} {cite:commons-spherical-triangle licensing}.

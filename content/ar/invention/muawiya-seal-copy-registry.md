@@ -72,5 +72,5 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 - السيوطي، طبعة دار المنهاج،332: نقل العسكري عن التأسيس والموظف والتغيير {cite:tarikh-khulafa-minhaj-1434 p.332}.
 - عبد العزيز الدوري، أول مقالات الديوان فيTDV: فقرة العصر الأموي المبكر {cite:tdv-divan-duri early-Umayyad}.
 - عرفان آيقان، ترجمة معاوية،TDV،بيانات الطبعة الحالية2020،330–332 {cite:tdv-muaviye-aycan}.
-- ابن حجر، أساس السيرة القديمة وأخبار اختلاف زمن الإسلام،محفوظة دون محو {cite:ibn-hajar-isaba p.1431–1432}.
-- سيمون أويغستر،الصورة الحديثة21أكتوبر2016،رخصةCC BY-SA3.0،الأصل غير معدل {cite:commons-sealing-wax-eugster}.
+- ابن حجر، أساس السيرة القديمة وأخبار اختلاف زمن الإسلام، محفوظة دون محو {cite:ibn-hajar-isaba p.1431–1432}.
+- سيمون أويغستر، الصورة الحديثة21أكتوبر2016،رخصةCC BY-SA3.0،الأصل غير معدل {cite:commons-sealing-wax-eugster}.

@@ -26,7 +26,7 @@ The work connects an Archimedean question with algebraic treatment in its new se
 
 ## The story
 
-Little is known about his life. MacTutor gives birth about820; more firmly dated evidence concerns observations between853 and866 reported by Ibn Yunus. TDV places him in Baghdad around860. An observation date is not a documented invention day, and a working city does not establish a particular room in which the sphere problem was formulated {cite:mahani-mactutor biography} {cite:tdv-mahani-fazlioglu biography}.
+Little is known about his life. MacTutor gives birth about 820; more firmly dated evidence concerns observations between 853 and 866 reported by Ibn Yunus. TDV places him in Baghdad around 860. An observation date is not a documented invention day, and a working city does not establish a particular room in which the sphere problem was formulated {cite:mahani-mactutor biography} {cite:tdv-mahani-fazlioglu biography}.
 
 The sources describe a [[work/mahani-sphere-cylinder-commentary|Sphere and Cylinder commentary]] and related fragments or commentary witnesses in Leiden. The clearest report of the unfinished solution comes through Khayyam as presented by modern scholars. We distinguish a later author's report, a scholar's manuscript description and an original reading we have not undertaken {cite:tdv-mahani-fazlioglu work5} {cite:dold-samplonius-mahani-dsb cubic}.
 
@@ -34,19 +34,19 @@ The sources describe a [[work/mahani-sphere-cylinder-commentary|Sphere and Cylin
 
 MacTutor explicitly identifies Abu Abd Allah Muhammad ibn Isa al-Mahani as an Islamic mathematician; TDV places him among early Islamic mathematician-astronomers. This provides individual evidence, not an inference from name or birthplace. The separately declared Sunni museum frame is not a personal denominational certificate supplied by the consulted biographies {cite:mahani-mactutor summary} {cite:tdv-mahani-fazlioglu biography}.
 
-Death remains about880, with TDV explicitly questioning the267/880 pairing. Uncertainty is not republished as an exact day. Three roles remain distinct: Archimedes supplied the inherited problem, al-Mahani its algebraic reduction, and al-Khazin a later conic solution. Al-Khazin must not be confused with al-Khazini of the Balance of Wisdom {cite:tdv-mahani-fazlioglu biography-and-algebra}.
+Death remains about 880, with TDV explicitly questioning the 267/880 pairing. Uncertainty is not republished as an exact day. Three roles remain distinct: Archimedes supplied the inherited problem, al-Mahani its algebraic reduction, and al-Khazin a later conic solution. Al-Khazin must not be confused with al-Khazini of the Balance of Wisdom {cite:tdv-mahani-fazlioglu biography-and-algebra}.
 
 ## How it works
 
 This is a modern museum explanation, not a reconstruction of every original step. Let R be the sphere's radius and h the cap height measured from its pole to the cutting plane. The cap volume is V=πh²(3R−h)/3; the whole sphere has volume4πR³/3. The cut-circle radius satisfies a²=h(2R−h). These are three-dimensional volumes, not disk or dome surface areas {cite:weisstein-spherical-cap eqs2-6}.
 
-Set t=h/R and let q be the cap's share of the entire sphere volume. Cancelling units gives q=t²(3−t)/4, hence t³+4q=3t². A cube, squares and a number have appeared from geometry. The physical interval is0≤t≤2: endpoints are an empty cap and a whole sphere, while two positive pieces require0<q<1. The normalization is ours, not a transcription of al-Mahani {cite:weisstein-spherical-cap eq6}.
+Set t=h/R and let q be the cap's share of the entire sphere volume. Cancelling units gives q=t²(3−t)/4, hence t³+4q=3t². A cube, squares and a number have appeared from geometry. The physical interval is 0≤t≤2: endpoints are an empty cap and a whole sphere, while two positive pieces require0<q<1. The normalization is ours, not a transcription of al-Mahani {cite:weisstein-spherical-cap eq6}.
 
-Our independent example t=1/2 gives q=5/32. The cap-to-remainder ratio is5:27, not5:32; the latter compares cap to whole. Substitution gives t³+4q=1/8+5/8=3/4, also3t²=3/4. These numbers check the formulation, not a claim that al-Mahani used them or completed the historical solution.
+Our independent example t=1/2 gives q=5/32. The cap-to-remainder ratio is 5:27, not5:32; the latter compares cap to whole. Substitution gives t³+4q=1/8+5/8=3/4, also3t²=3/4. These numbers check the formulation, not a claim that al-Mahani used them or completed the historical solution.
 
-For half the volume, q=1/2, the modern equation becomes t³−3t²+2=0, factorized as(t−1)(t²−2t−2)=0. Its roots are1,1+√3 and1−√3. Only1 lies in the physical cap interval. Not every algebraic root represents a possible cut, and choosing an easy central-section example does not solve the original problem for every prescribed ratio.
+For half the volume, q=1/2, the modern equation becomes t³−3t²+2=0, factorized as(t−1)(t²−2t−2)=0. Its roots are 1,1+√3 and 1−√3. Only1 lies in the physical cap interval. Not every algebraic root represents a possible cut, and choosing an easy central-section example does not solve the original problem for every prescribed ratio.
 
-In the modern check, the derivative of q with respect to t is3t(2−t)/4, positive between0 and2. Increasing cap height therefore increases its volume share, with one interior height for each interior share. Other polynomial roots do not multiply the physical cuts. This proves a property of our modern model, not that al-Mahani used differential calculus or that his lost reasoning has been recovered {cite:weisstein-spherical-cap eq6}.
+In the modern check, the derivative of q with respect to t is 3t(2−t)/4, positive between 0 and 2. Increasing cap height therefore increases its volume share, with one interior height for each interior share. Other polynomial roots do not multiply the physical cuts. This proves a property of our modern model, not that al-Mahani used differential calculus or that his lost reasoning has been recovered {cite:weisstein-spherical-cap eq6}.
 
 ## The spread
 
@@ -86,7 +86,7 @@ The sources also retain different confidence about witnesses: TDV attributes a l
 
 ## Today
 
-Comparing t with2−t gives complementary caps whose volume shares sum to1. For t=3/2, q=27/32 and the cap-to-remainder ratio is27:5. This independently checked modern example reverses the viewpoint on the same cutting plane; it is not the discovery of a second historical example used by al-Mahani.
+Comparing t with 2−t gives complementary caps whose volume shares sum to 1. For t=3/2, q=27/32 and the cap-to-remainder ratio is 27:5. This independently checked modern example reverses the viewpoint on the same cutting plane; it is not the discovery of a second historical example used by al-Mahani.
 
 In the illustration, r is sphere radius, h cap height and a cut-circle radius; our explanation uses R for sphere radius. The picture's a is not the coefficient carrying that letter in TDV's general cubic. A violet cap and blue sphere are modern illustration, not evidence about the author's physical apparatus {cite:commons-spherical-cap-pbroks current-image}.
 
@@ -106,7 +106,7 @@ A history of knowledge can show a question opening a path without creating a her
 
 Draw a circle standing for a cross-section of a sphere and a line near its top. The small area on paper suggests a three-dimensional cap, but is not itself that cap's volume. No real ball or sharp cutting tool is needed. You can draw different plane positions and ask how volume changes rather than measuring coloured area alone.
 
-Choosing h=R/2 in our example gives5/32 of the entire volume, not half. Al-Mahani did not necessarily choose these numbers; we chose them to teach the question. Formulation was one step, solution another. When reading an invention title, ask what its maker achieved and what remained for later investigators {cite:weisstein-spherical-cap eq6} {cite:mahani-mactutor cubic}.
+Choosing h=R/2 in our example gives 5/32 of the entire volume, not half. Al-Mahani did not necessarily choose these numbers; we chose them to teach the question. Formulation was one step, solution another. When reading an invention title, ask what its maker achieved and what remained for later investigators {cite:weisstein-spherical-cap eq6} {cite:mahani-mactutor cubic}.
 
 ## References
 

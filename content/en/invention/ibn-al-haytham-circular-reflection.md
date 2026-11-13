@@ -38,7 +38,7 @@ For our modern teaching example only, take the unit circle centered at(0,0), obj
 
 ## The spread
 
-A specific reception witness is al-Mu'taman's Istikmal. Hogendijk compares its sequence with that of the Optics and regards the correspondence as evidence of use, although al-Mu'taman does not name his sources {cite:hogendijk-alhazen-lemmas-1996 pp.59–61}. Attribution of the simplifications is historical inference, not a signed declaration claiming every alteration {cite:hogendijk-alhazen-lemmas-1996 pp.60–61}. The study also mentions the medieval Latin translation and its1572 printing as textual witnesses; that printing date is not the problem's birth {cite:hogendijk-alhazen-lemmas-1996 pp.59–61}. These are bounded traces of reception, not a complete list of everyone who read the book or studied each proof.
+A specific reception witness is al-Mu'taman's Istikmal. Hogendijk compares its sequence with that of the Optics and regards the correspondence as evidence of use, although al-Mu'taman does not name his sources {cite:hogendijk-alhazen-lemmas-1996 pp.59–61}. Attribution of the simplifications is historical inference, not a signed declaration claiming every alteration {cite:hogendijk-alhazen-lemmas-1996 pp.60–61}. The study also mentions the medieval Latin translation and its 1572 printing as textual witnesses; that printing date is not the problem's birth {cite:hogendijk-alhazen-lemmas-1996 pp.59–61}. These are bounded traces of reception, not a complete list of everyone who read the book or studied each proof.
 
 ## What it was built on
 
@@ -68,7 +68,7 @@ The problem remains educational, with modern formulations and equivalents involv
 
 ## Surviving examples
 
-We read pages59–75 of Hogendijk's1996 study from the author's hosted copy and inspected images59–65. This was not reading the entire paper, an Optics manuscript or the complete Sabra1982 article {cite:hogendijk-alhazen-lemmas-1996 pp.59–75}. The study translates al-Mu'taman's lemmas; his adaptations must not become quotations from Ibn al-Haytham. The museum's previously defined Arabic Optics source covers Books1–3, not BookV: it preserves biographical evidence here, not a claim to have read material absent from that edition {cite:manazir-sabra-1983 reliability note}. HB's modern illustration poses the question through a question mark beside a circle, candle and stylized eye. It is not a solved ray trace or the author's historical drawing {cite:commons-alhazen-problem-hb description,image,licence}.
+We read pages 59–75 of Hogendijk's1996 study from the author's hosted copy and inspected images 59–65. This was not reading the entire paper, an Optics manuscript or the complete Sabra1982 article {cite:hogendijk-alhazen-lemmas-1996 pp.59–75}. The study translates al-Mu'taman's lemmas; his adaptations must not become quotations from Ibn al-Haytham. The museum's previously defined Arabic Optics source covers Books1–3, not BookV: it preserves biographical evidence here, not a claim to have read material absent from that edition {cite:manazir-sabra-1983 reliability note}. HB's modern illustration poses the question through a question mark beside a circle, candle and stylized eye. It is not a solved ray trace or the author's historical drawing {cite:commons-alhazen-problem-hb description,image,licence}.
 
 ## In culture
 

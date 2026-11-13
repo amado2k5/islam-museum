@@ -14,7 +14,7 @@ A candle whose top does not simply sink as it shortens: instead it rises toward 
 
 A candle holder carries a long sheath, a falcon near its foot and a seated sword figure near its top. Inside are candle, supporting dish, weight, cords and a row of ball chambers. A falling ball links the falcon's signal to the figure's movement {cite:jazari-hill-1974 pp.83–86}. The exterior conceals mechanical relationships that an explanatory image partly opens to the reader.
 
-This entry covers the complete chapter7 assembly, not every candle clock in subsequent chapters or a separate invention for every ball, pulley and cap {cite:jazari-hill-1974 pp.83–86,252–253}. Calibration relates consumption of this candle to a reference duration; it does not mean drawing equal marks on any modern candle. The museum has not tested reconstructed hardware or its precision.
+This entry covers the complete chapter 7 assembly, not every candle clock in subsequent chapters or a separate invention for every ball, pulley and cap {cite:jazari-hill-1974 pp.83–86,252–253}. Calibration relates consumption of this candle to a reference duration; it does not mean drawing equal marks on any modern candle. The museum has not tested reconstructed hardware or its precision.
 
 ## The world before it
 
@@ -26,13 +26,13 @@ He says he considered making something like the reported device before describin
 
 The account moves from the nighttime display to a uniform-section candle and measurement of its consumption during an independently measured hour. The working length is divided into fourteen periods, with two further divisions reserved in the arrangement {cite:jazari-hill-1974 pp.83–84}. Preparing the timekeeping material is part of the design, rather than assuming every wax and wick burns at the same rate.
 
-The author reports repeated arrangement, calculation and trials to perfect the ball-receiving pouch's movement {cite:jazari-hill-1974 p.86}. This is his account, not an experiment repeated here. TDV places his writing within Artuqid service at [[place/amid|Amid]]. Hill's1204 or1206 from manuscript differences remains alongside TDV's1205: a book-date disagreement, not a verified installation date for this clock {cite:tdv-cezeri pp.505–506} {cite:jazari-hill-1974 introduction-life}.
+The author reports repeated arrangement, calculation and trials to perfect the ball-receiving pouch's movement {cite:jazari-hill-1974 p.86}. This is his account, not an experiment repeated here. TDV places his writing within Artuqid service at [[place/amid|Amid]]. Hill's1204 or 1206 from manuscript differences remains alongside TDV's1205: a book-date disagreement, not a verified installation date for this clock {cite:tdv-cezeri pp.505–506} {cite:jazari-hill-1974 introduction-life}.
 
 ## The maker(s)
 
 Al-Jazari is recorded as describer of an integrated improvement, not inventor of candles or all time measurement. His text explains relationships and acknowledges earlier hearsay; TDV identifies an engineer and mechanical author {cite:jazari-hill-1974 pp.83–86} {cite:tdv-cezeri pp.505–506}. Unnamed craftspeople are not supplied from guesswork, and copyist and translator work is not reassigned to the original maker.
 
-**Sunni frame:** TDV calls the named al-Jazari an Islamic scholar, the individual identity basis, not inference from name, court or origin {cite:tdv-cezeri pp.505–506}. His biography's explicit Sunni default is the museum's frame here, not a new personal-school declaration. Farruq ibn Abd al-Latif is catalogued as calligrapher of the1315 copy, not clock inventor or certainly the painter of every colour {cite:freer-jazari-candle-clock catalogue}.
+**Sunni frame:** TDV calls the named al-Jazari an Islamic scholar, the individual identity basis, not inference from name, court or origin {cite:tdv-cezeri pp.505–506}. His biography's explicit Sunni default is the museum's frame here, not a new personal-school declaration. Farruq ibn Abd al-Latif is catalogued as calligrapher of the 1315 copy, not clock inventor or certainly the painter of every colour {cite:freer-jazari-candle-clock catalogue}.
 
 ## How it works
 
@@ -60,7 +60,7 @@ Comparison with the [[invention/jazari-castle-clock|castle clock]] distinguishes
 
 Hill draws a modern cutaway interpretation to expose mechanisms concealed by an exterior view, explicitly making the candle thicker than its real proportions {cite:jazari-hill-1974 p.252}. That image is not a ruler for measuring historical hardware. He also chooses one of two sheath lengths supplied by the text: an interpretive choice, not a measurement agreed across all witnesses.
 
-He notes insufficient weight travel and excessive ball height in Oxford manuscript figure74, comparing other drawings {cite:jazari-hill-1974 p.253}. His reading of the cap as an insertion-and-turn, or bayonet, fitting interprets wording he acknowledges as obscure; it does not establish worldwide priority for every similar locking joint {cite:jazari-hill-1974 pp.84-note,253}.
+He notes insufficient weight travel and excessive ball height in Oxford manuscript figure 74, comparing other drawings {cite:jazari-hill-1974 p.253}. His reading of the cap as an insertion-and-turn, or bayonet, fitting interprets wording he acknowledges as obscure; it does not establish worldwide priority for every similar locking joint {cite:jazari-hill-1974 pp.84-note,253}.
 
 ## Impact on daily life
 
@@ -88,7 +88,7 @@ No original machine or modern reconstruction was examined for this entry. No hom
 
 ## Surviving examples
 
-We read Hill's I.7 translation83–86 and specific commentary252–253, visually checking83,86 and253 in the shared reader {cite:jazari-hill-1974 pp.83–86,252–253}. These are actual selected readings, not full manuscript collation or inspection of every translation. The modern page read is not the public-domain picture reused here.
+We read Hill's I.7 translation 83–86 and specific commentary 252–253, visually checking 83,86 and 253 in the shared reader {cite:jazari-hill-1974 pp.83–86,252–253}. These are actual selected readings, not full manuscript collation or inspection of every translation. The modern page read is not the public-domain picture reused here.
 
 Freer F1930.71 preserves Arabic text and a clock illustration in a1315 folio credited to calligrapher Farruq ibn Abd al-Latif: paper, ink, pigments and gold, not a metal machine {cite:freer-jazari-candle-clock catalogue}. A seated sword figure, candle, balls, cords, weight and falcon are visible, not al-Jazari's portrait. Reuse relies on Commons' faithful public-domain2D reproduction statement, not an assumed institution-wide image licence {cite:freer-jazari-candle-clock image,rights}.
 
@@ -100,12 +100,12 @@ The reported movement trims the wick and marks a period, rather than simply disp
 
 ## For young readers
 
-Use paper only: draw14 circles for possible signals, then cross out one after each imaginary step. After5 steps,9 remain:14 minus5 equals9. At step14 the counter ends, rather than continuing forever. The capacity comes from the account; steps and the choice of5 are a modern teaching example {cite:jazari-hill-1974 pp.84,86}.
+Use paper only: draw 14 circles for possible signals, then cross out one after each imaginary step. After 5 steps,9 remain:14 minus5 equals 9. At step 14 the counter ends, rather than continuing forever. The capacity comes from the account; steps and the choice of 5 are a modern teaching example {cite:jazari-hill-1974 pp.84,86}.
 
 Draw a strip covering the circles, revealing one level per step without real balls, pulleys or weights. Equal game steps are not certification of historical precision. Make one story-step longer and notice that signal counting alone does not establish equal intervals. No wax, flame, blade or hot object is involved.
 
 ## References
 
-- [[source/jazari-hill-1974|Donald Hill's1974 translation]], I.7,83–86 and specific commentary252–253; actual reading and83/86/253 inspection, not page reproduction.
+- [[source/jazari-hill-1974|Donald Hill's1974 translation]], I.7,83–86 and specific commentary 252–253; actual reading and 83/86/253 inspection, not page reproduction.
 - [[source/tdv-cezeri|Sadettin Ökten, CEZERÎ]], TDV, vol.7,1993,505–506; biography and individual identity basis.
-- [[source/freer-jazari-candle-clock|Freer F1930.71 and Commons metadata]], institutional1315 folio catalogue, inspected image and PD-Art rights.
+- [[source/freer-jazari-candle-clock|Freer F1930.71 and Commons metadata]], institutional 1315 folio catalogue, inspected image and PD-Art rights.

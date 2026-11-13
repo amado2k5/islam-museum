@@ -104,6 +104,6 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 ## المراجع
 
-- {cite:sharaf-tusi-mactutor equations-and-derivative-discussion} أُوكونر وروبرتسن،السيرة الكاملة،1999.
-- {cite:tdv-sharaf-tusi-ozel pp445-446} أحمد أوزل،السيرة والتحليل والأعمال،2012.
-- {cite:commons-polynomialdeg3 description-and-history} رسم حديث مختلف،ملك عام؛لا قراءة أصلية لطبعات المعادلات أو دراسات الخلاف.
+- {cite:sharaf-tusi-mactutor equations-and-derivative-discussion} أُوكونر وروبرتسن، السيرة الكاملة،1999.
+- {cite:tdv-sharaf-tusi-ozel pp445-446} أحمد أوزل، السيرة والتحليل والأعمال،2012.
+- {cite:commons-polynomialdeg3 description-and-history} رسم حديث مختلف، ملك عام؛ لا قراءة أصلية لطبعات المعادلات أو دراسات الخلاف.

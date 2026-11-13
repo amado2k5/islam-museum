@@ -30,7 +30,7 @@ The paper explicitly calls him a Muslim surgeon: that is the identity basis, not
 
 ## Suture material and the experimental qualification
 
-Surgical chapter87 describes [[invention/zahrawi-intestinal-suture|animal-intestinal filaments for internal suturing]]. Leclerc's translated page211 explicitly says that this approach and the neighbouring ant-closure account remain experimental {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}. Earlier discussion draws on Galen's suturing knowledge, so the contribution does not make al-Zahrawi the inventor of suturing from nothing {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.207–208}. Majeed credits catgut among his surgical developments, but the editorial is not a worldwide-priority investigation or pedigree of every later medical thread {cite:majeed-islam-medicine-2005 pp.1486–1487}. The witness used here is an actual French translation with its page image, not independent Arabic collation or modern clinical validation.
+Surgical chapter 87 describes [[invention/zahrawi-intestinal-suture|animal-intestinal filaments for internal suturing]]. Leclerc's translated page 211 explicitly says that this approach and the neighbouring ant-closure account remain experimental {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}. Earlier discussion draws on Galen's suturing knowledge, so the contribution does not make al-Zahrawi the inventor of suturing from nothing {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.207–208}. Majeed credits catgut among his surgical developments, but the editorial is not a worldwide-priority investigation or pedigree of every later medical thread {cite:majeed-islam-medicine-2005 pp.1486–1487}. The witness used here is an actual French translation with its page image, not independent Arabic collation or modern clinical validation.
 
 ## The book after its author
 
@@ -38,13 +38,13 @@ TDV discusses Gerard of Cremona's Latin surgical translation, later European edi
 
 ## Differentiated dental scrapers
 
-Book Two of the surgery, chapter29, distinguishes [[invention/zahrawi-dental-scrapers|dental scrapers]] for inner, outer and interdental surfaces; Spink and Lewis present forms from the manuscript tradition {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. Leclerc's corresponding97–98 visibly references figure54 on98, whereas the1973 collection is figure65: the editions' numbers must not be conflated {cite:zahrawi-leclerc-chirurgie-1861 ch.29 pp.97–98} {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. This documents specialization, not worldwide priority for all tooth cleaning or a clinical specification; the1973 originality assessment remains the editors' interpretation {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 p.272 commentary}.
+Book Two of the surgery, chapter 29, distinguishes [[invention/zahrawi-dental-scrapers|dental scrapers]] for inner, outer and interdental surfaces; Spink and Lewis present forms from the manuscript tradition {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. Leclerc's corresponding 97–98 visibly references figure 54 on 98, whereas the 1973 collection is figure 65: the editions' numbers must not be conflated {cite:zahrawi-leclerc-chirurgie-1861 ch.29 pp.97–98} {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 pp.272–275}. This documents specialization, not worldwide priority for all tooth cleaning or a clinical specification; the 1973 originality assessment remains the editors' interpretation {cite:zahrawi-spink-lewis-1973 bk.2 ch.29 p.272 commentary}.
 
 ## References
 
 - [[source/tdv-zehravi|Esin Kahya, al-Zahrawi]], pp 189–191: biography, witnesses and court-service limits.
 - [[source/tdv-tasrif-zehravi|Esin Kahya, al-Tasrif]], pp 132–133: structure and translations.
 - [[source/alzahrawi-stones-abdelhalim-2003|Abdel-Halim and colleagues]], pp 1283–1291: translation and commentary, not independent manuscript examination.
-- [[source/zahrawi-leclerc-chirurgie-1861|Leclerc1861]], chapter87,207–211: inherited suturing, filaments and experimental caveat.
+- [[source/zahrawi-leclerc-chirurgie-1861|Leclerc1861]], chapter 87,207–211: inherited suturing, filaments and experimental caveat.
 - [[source/majeed-islam-medicine-2005|Majeed2005]],1486–1487: modern medical-history summary.
-- [[source/zahrawi-spink-lewis-1973|Spink and Lewis1973]], Book2, chapter29,272–275: scrapers and commentary; Leclerc97–98 for the corresponding chapter.
+- [[source/zahrawi-spink-lewis-1973|Spink and Lewis1973]], Book2, chapter 29,272–275: scrapers and commentary; Leclerc97–98 for the corresponding chapter.

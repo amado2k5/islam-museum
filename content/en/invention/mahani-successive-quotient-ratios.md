@@ -38,15 +38,15 @@ Dold-Samplonius notes a reference to Thabit ibn Qurra and a later similar develo
 
 ## How it works
 
-Here is an independent modern example using positive commensurable quantities. In the same unit, take17 and7. Then17=2×7+3;7=2×3+1;3=3×1+0. The ordered quotients are2,2,3, and the last nonzero remainder is1. MathWorld explains the quotient-remainder iteration and preservation of common divisors; these particular numbers are not attributed to al-Mahani {cite:weisstein-euclidean-algorithm eqs1-3}.
+Here is an independent modern example using positive commensurable quantities. In the same unit, take 17 and 7. Then17=2×7+3;7=2×3+1;3=3×1+0. The ordered quotients are 2,2,3, and the last nonzero remainder is 1. MathWorld explains the quotient-remainder iteration and preservation of common divisors; these particular numbers are not attributed to al-Mahani {cite:weisstein-euclidean-algorithm eqs1-3}.
 
-Double both lengths to34 and14. The remainders become6,2,0, while the quotients remain2,2,3. The common measure changes from1 to2, but34/14=17/7. Equality of ratios therefore cannot mean merely equality of greatest common divisors. Nor is having three steps enough: it is the ordered quotient values that our example compares.
+Double both lengths to 34 and 14. The remainders become6,2,0, while the quotients remain2,2,3. The common measure changes from 1 to 2, but34/14=17/7. Equality of ratios therefore cannot mean merely equality of greatest common divisors. Nor is having three steps enough: it is the ordered quotient values that our example compares.
 
-Using modern notation, write[2;2,3], meaning2+1/(2+1/3)=17/7. The entries after the semicolon are not decimal digits or separate lengths. They describe nested operations. If the first positive quantity is smaller, a first quotient of0 is possible; silently reversing the ratio would change the comparison {cite:weisstein-simple-continued-fraction eqs1-3}.
+Using modern notation, write[2;2,3], meaning2+1/(2+1/3)=17/7. The entries after the semicolon are not decimal digits or separate lengths. They describe nested operations. If the first positive quantity is smaller, a first quotient of 0 is possible; silently reversing the ratio would change the comparison {cite:weisstein-simple-continued-fraction eqs1-3}.
 
-However,5/2=[2;2] is not17/7=[2;2,3], despite a shared beginning. Cross multiplication gives5×7=35 but2×17=34. A finite matching prefix is not enough. We also fix the Euclidean termination convention at remainder0: an alternative expression ending in1 after splitting the last entry must not be confused with the algorithm's canonical terminating record.
+However,5/2=[2;2] is not17/7=[2;2,3], despite a shared beginning. Cross multiplication gives 5×7=35 but2×17=34. A finite matching prefix is not enough. We also fix the Euclidean termination convention at remainder0: an alternative expression ending in 1 after splitting the last entry must not be confused with the algorithm's canonical terminating record.
 
-For example,[2;2,2,1] represents the same number because its final nested2+1/1 equals3. It is another writing, not another measured ratio. We therefore specify the terminating record produced by division, rather than any chosen symbolic list. Reversing the lengths gives7/17=[0;2,2,3], not17/7. The changed first quotient reflects a changed question. These are modern teaching details for positive examples, not evidence about the original treatise's notation or the independence of its reported title forms {cite:weisstein-simple-continued-fraction eqs1-3}.
+For example,[2;2,2,1] represents the same number because its final nested2+1/1 equals 3. It is another writing, not another measured ratio. We therefore specify the terminating record produced by division, rather than any chosen symbolic list. Reversing the lengths gives 7/17=[0;2,2,3], not17/7. The changed first quotient reflects a changed question. These are modern teaching details for positive examples, not evidence about the original treatise's notation or the independence of its reported title forms {cite:weisstein-simple-continued-fraction eqs1-3}.
 
 ## The spread
 
@@ -62,7 +62,7 @@ Scaling both lengths together preserves the rational example's quotients while c
 
 ## What was built on it
 
-Dold-Samplonius says that al-Mahani and al-Nayrizi did not establish the connection between their definition and Euclid's; Ibn al-Haytham did so later. The ease of checking17/7 against34/14 does not erase that limit. Two integer examples are not a proof covering every magnitude addressed by ratio theory {cite:dold-samplonius-mahani-dsb ratio}.
+Dold-Samplonius says that al-Mahani and al-Nayrizi did not establish the connection between their definition and Euclid's; Ibn al-Haytham did so later. The ease of checking 17/7 against 34/14 does not erase that limit. Two integer examples are not a proof covering every magnitude addressed by ratio theory {cite:dold-samplonius-mahani-dsb ratio}.
 
 Continued-fraction notation offers a modern explanatory tool, not a certificate that al-Mahani anticipated every convergence theorem or computer application. Comparing procedures does not demonstrate a direct lineage. This record supplies no invented transmission chain from his treatise to every cryptographic use of greatest common divisors {cite:weisstein-simple-continued-fraction definition-and-notation}.
 
@@ -88,25 +88,25 @@ This contribution differs from al-Mahani's unfinished cubic attempt. One concern
 
 Positive integer remainders decrease until termination, whereas an irrational magnitude comparison need not terminate in that way. Different quantities can share early steps. We therefore do not offer a procedure that reads five quotients and declares any two magnitudes equal: the scope of our commensurable numerical illustration must remain explicit {cite:weisstein-euclidean-algorithm termination}.
 
-The image belongs to a modern1071-and462 example, not numbers read in the treatise. A black rectangle contains two large orange blocks, three violet upper blocks and smaller green and red regions. There are no visible number labels. Our description invents neither labels nor an original diagram drawn by al-Mahani {cite:commons-euclid-tiling-proteins current-image}.
+The image belongs to a modern 1071-and 462 example, not numbers read in the treatise. A black rectangle contains two large orange blocks, three violet upper blocks and smaller green and red regions. There are no visible number labels. Our description invents neither labels nor an original diagram drawn by al-Mahani {cite:commons-euclid-tiling-proteins current-image}.
 
 ## Surviving examples
 
 We read the reproduced Dold-Samplonius biography, TDV's work list, MacTutor's al-Nayrizi biography and selected modern MathWorld definitions and formulas. We did not inspect ratio manuscripts or the Plooij and Becker studies named in the bibliography. TDV reports witnesses and title forms; that report does not settle textual independence through guesswork {cite:tdv-mahani-fazlioglu work1} {cite:dold-samplonius-mahani-dsb bibliography}.
 
-The image is by Proteins, dated17April2009 and licensed CC BY-SA3.0. Its static image and rights were inspected, including a white-background inspection copy kept outside git. The published asset remains the unmodified original SVG, not that inspection copy or an animation from the series. A modern series is not an ancient manuscript witness {cite:commons-euclid-tiling-proteins description-rights}.
+The image is by Proteins, dated 17April2009 and licensed CC BY-SA3.0. Its static image and rights were inspected, including a white-background inspection copy kept outside git. The published asset remains the unmodified original SVG, not that inspection copy or an animation from the series. A modern series is not an ancient manuscript witness {cite:commons-euclid-tiling-proteins description-rights}.
 
 ## In culture
 
 This history distinguishes asking what a relationship means from asking only for one division result. A commentator becomes an investigator by examining a definition and its reasons, not merely by changing a printed symbol. That is an interpretation of the described work, not an invented quotation attributed to al-Mahani {cite:dold-samplonius-mahani-dsb ratio}.
 
-The story needs no imaginary Baghdad competition scene. A reported treatise with limits to our knowledge is enough. Readers should recognize the difference between the author's century and an image dated2009. Juxtaposing those times is an openly declared teaching device, not an attempt to age a modern illustration.
+The story needs no imaginary Baghdad competition scene. A reported treatise with limits to our knowledge is enough. Readers should recognize the difference between the author's century and an image dated 2009. Juxtaposing those times is an openly declared teaching device, not an attempt to age a modern illustration.
 
 ## For young readers
 
-Write17 and7 on paper, recording the quotient and remainder at each step. Repeat with34 and14. Look for what changes and what stays the same, not just how many lines you wrote. You do not need an ancient instrument to try the arithmetic, and should not call these al-Mahani's own examples.
+Write17 and 7 on paper, recording the quotient and remainder at each step. Repeat with 34 and 14. Look for what changes and what stays the same, not just how many lines you wrote. You do not need an ancient instrument to try the arithmetic, and should not call these al-Mahani's own examples.
 
-Then compare5/2 and17/7: their beginnings resemble each other, but the ratios differ. Do not stop at the first similarity. Ask what the headline claims: invention of all division, or a particular way of understanding ratios? Our example helps formulate the question without solving the entire theory of magnitudes {cite:weisstein-euclidean-algorithm eq3} {cite:dold-samplonius-mahani-dsb ratio}.
+Then compare5/2 and 17/7: their beginnings resemble each other, but the ratios differ. Do not stop at the first similarity. Ask what the headline claims: invention of all division, or a particular way of understanding ratios? Our example helps formulate the question without solving the entire theory of magnitudes {cite:weisstein-euclidean-algorithm eq3} {cite:dold-samplonius-mahani-dsb ratio}.
 
 ## References
 

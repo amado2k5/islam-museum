@@ -26,9 +26,9 @@ NIST's historical page places mechanical tower clocks in fourteenth-century Ital
 
 ## The story
 
-The biography separates the1559 treatise from later Istanbul observational work. Topdemir dates observatory use from1577, while Fazlioglu mentions an early1579 construction edict; another reference context preserved in the maker record gives1575. We do not synthesize an invented single date or equate writing with manufacture of every clock. The record uses an open latest bound of1580 for the application before the observatory's interruption {cite:tdv-takiyyuddin-er-rasid observatory} {cite:taqi-fazlioglu-bea observatory}.
+The biography separates the 1559 treatise from later Istanbul observational work. Topdemir dates observatory use from 1577, while Fazlioglu mentions an early 1579 construction edict; another reference context preserved in the maker record gives 1575. We do not synthesize an invented single date or equate writing with manufacture of every clock. The record uses an open latest bound of 1580 for the application before the observatory's interruption {cite:tdv-takiyyuddin-er-rasid observatory} {cite:taqi-fazlioglu-bea observatory}.
 
-Both accounts place its destruction on22 January1580, with explanations involving politics, prognostications and patronage disputes. Those explanations are attributed, not converted into a museum judgement on a creed or a slogan about science and religion. Institutional destruction proves neither extinction of every idea nor completion of every book; Fazlioglu describes an unfinished observational programme {cite:taqi-fazlioglu-bea observatory-and-Sidra} {cite:tdv-takiyyuddin-er-rasid closure}.
+Both accounts place its destruction on 22 January1580, with explanations involving politics, prognostications and patronage disputes. Those explanations are attributed, not converted into a museum judgement on a creed or a slogan about science and religion. Institutional destruction proves neither extinction of every idea nor completion of every book; Fazlioglu describes an unfinished observational programme {cite:taqi-fazlioglu-bea observatory-and-Sidra} {cite:tdv-takiyyuddin-er-rasid closure}.
 
 ## The maker(s)
 
@@ -40,9 +40,9 @@ The attribution here concerns refinement and application, not certification that
 
 In general, time measurement needs repetition, counting and reading, as NIST explains. This does not identify a particular balance, pendulum or spring in the specific observation clock. The biographies discuss European-clock access, geometrical treatment of clocks and seconds indication. We do not manufacture a detailed mechanism from a modern image or a book title {cite:nist-clock-components clock-elements} {cite:taqi-fazlioglu-bea mechanical-clocks} {cite:tdv-takiyyuddin-er-rasid clock-paragraph}.
 
-Consider a modern teaching example chosen by the museum.12:34:56 is45296seconds after an imaginary midnight when an hour is3600seconds and a minute60. That does not mean the author used our number or civil-time standard. Recording the reading to the nearest ten seconds produces12:35:00: four seconds of difference caused by rounding alone {cite:nist-clock-components time-display}.
+Consider a modern teaching example chosen by the museum.12:34:56 is 45296 seconds after an imaginary midnight when an hour is 3600 seconds and a minute 60. That does not mean the author used our number or civil-time standard. Recording the reading to the nearest ten seconds produces 12:35:00: four seconds of difference caused by rounding alone {cite:nist-clock-components time-display}.
 
-Now suppose a reference reads12:35:06 while the clock reads12:35:00. Minus six seconds is an offset at that instant, not a complete judgement of rate. If the difference remains constant an hour later, the two rates may match during the example; if it becomes minus eight seconds, the clock has lost another two seconds relative to the reference during that hour. These are hypothetical calibration ideas, not an Ottoman performance log {cite:nist-clock-components clock-regulation}.
+Now suppose a reference reads 12:35:06 while the clock reads 12:35:00. Minus six seconds is an offset at that instant, not a complete judgement of rate. If the difference remains constant an hour later, the two rates may match during the example; if it becomes minus eight seconds, the clock has lost another two seconds relative to the reference during that hour. These are hypothetical calibration ideas, not an Ottoman performance log {cite:nist-clock-components clock-regulation}.
 
 Initial error, drift and display resolution can coincide or differ. Smooth-looking hands do not establish stable rate, and dense dial markings do not eliminate friction or changing drive force in the general mechanical-clock context. None of this yields a numerical error for Taqi al-Din's clock. It explains why “shows seconds” alone cannot certify one-second or half-second accuracy {cite:nist-clock-components mechanical-clock-regulation}.
 
@@ -102,13 +102,13 @@ This is also a story of institutions, patronage and knowledge crossing regions. 
 
 ## For young readers
 
-Write an imaginary clock's12:35:00 beside a reference's12:35:06. Is your clock early or late, and by how much? An hour later write13:35:00 and13:35:08: what changed? These are invented teaching values, not an experiment on a museum instrument. No opening a clock, manipulating gears or looking at the Sun is needed to distinguish a small reading from a small error {cite:nist-clock-components time-display-and-regulation}.
+Write an imaginary clock's12:35:00 beside a reference's12:35:06. Is your clock early or late, and by how much? An hour later write 13:35:00 and 13:35:08: what changed? These are invented teaching values, not an experiment on a museum instrument. No opening a clock, manipulating gears or looking at the Sun is needed to distinguish a small reading from a small error {cite:nist-clock-components time-display-and-regulation}.
 
-Try rounding12:34:56 to the nearest ten seconds. Displaying12:35:00 does not erase the real fifty-six seconds; it reflects the recording method. Compare the examples without judging an uninspected old clock. Ask whether an image is a symbol or original, and whether a number on its face divides readings or measures demonstrated accuracy {cite:nist-clock-components clock-elements} {cite:commons-clock-simple description}.
+Try rounding 12:34:56 to the nearest ten seconds. Displaying12:35:00 does not erase the real fifty-six seconds; it reflects the recording method. Compare the examples without judging an uninspected old clock. Ask whether an image is a symbol or original, and whether a number on its face divides readings or measures demonstrated accuracy {cite:nist-clock-components clock-elements} {cite:commons-clock-simple description}.
 
 ## References
 
 - Ihsan Fazlioglu, Taqi al-Din, Biographical Encyclopedia of Astronomers; actual complete text read {cite:taqi-fazlioglu-bea biography-and-clocks}.
-- Huseyin Gazi Topdemir, TAKIYYUDDIN er-RASID, TDV2010,454–456; clocks paragraph and work14 {cite:tdv-takiyyuddin-er-rasid clocks-and-work14}.
+- Huseyin Gazi Topdemir, TAKIYYUDDIN er-RASID, TDV2010,454–456; clocks paragraph and work 14 {cite:tdv-takiyyuddin-er-rasid clocks-and-work14}.
 - NIST archived historical pages: clock elements and earlier mechanical-clock context; museum numerical examples are not historical performance data {cite:nist-clock-components selected-sections}.
 - Mothmolevna modern icon metadata, rights and upload history {cite:commons-clock-simple licensing-and-history}.

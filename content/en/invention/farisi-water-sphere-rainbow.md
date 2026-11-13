@@ -26,13 +26,13 @@ In the earlier explanation discussed by MacTutor, a cloud reflected sunlight tow
 
 ## The story
 
-Russell reports that al-Farisi came to [[place/tabriz|Tabriz]] to study with al-Shirazi, possibly before1290. Dissatisfied with answers to questions about refraction, he consulted his teacher. Al-Shirazi remembered a substantial book by Ibn al-Haytham and obtained a copy from a distant country. This is the scholar's account of the Tanqih's introduction, not a manuscript scene independently inspected by the museum {cite:russell-faresi-iranica biography}.
+Russell reports that al-Farisi came to [[place/tabriz|Tabriz]] to study with al-Shirazi, possibly before 1290. Dissatisfied with answers to questions about refraction, he consulted his teacher. Al-Shirazi remembered a substantial book by Ibn al-Haytham and obtained a copy from a distant country. This is the scholar's account of the Tanqih's introduction, not a manuscript scene independently inspected by the museum {cite:russell-faresi-iranica biography}.
 
-The completion date is disputed: one interpretation puts it before1290, another after1302 and before the teacher's death in1311. The record therefore retains a thirteenth-to-fourteenth-century horizon instead of choosing an unsupported exact1309. A later copy's date is not automatically the date of the experiment or its discovery {cite:russell-faresi-iranica dating}.
+The completion date is disputed: one interpretation puts it before 1290, another after 1302 and before the teacher's death in 1311. The record therefore retains a thirteenth-to-fourteenth-century horizon instead of choosing an unsupported exact 1309. A later copy's date is not automatically the date of the experiment or its discovery {cite:russell-faresi-iranica dating}.
 
 ## The maker(s)
 
-MacTutor explicitly identifies al-Farisi as an Islamic mathematician, providing individual evidence for Muslim identity. The museum's separately declared Sunni frame is not a personal denominational certificate inferred from nationality, name or teacher. The biography gives birth about1260 and death about1320 at Tabriz; these remain approximate, without an invented Hijri equivalent or exact day {cite:farisi-mactutor summary-and-dates}.
+MacTutor explicitly identifies al-Farisi as an Islamic mathematician, providing individual evidence for Muslim identity. The museum's separately declared Sunni frame is not a personal denominational certificate inferred from nationality, name or teacher. The biography gives birth about 1260 and death about 1320 at Tabriz; these remain approximate, without an invented Hijri equivalent or exact day {cite:farisi-mactutor summary-and-dates}.
 
 The teacher's part in securing the book and encouraging revision is visible. Priority is another matter. MacTutor reports Boyer's preference for discovery by the teacher and elaboration by the pupil, alongside Rashed's objection to that attribution. We retain the disagreement rather than manufacture either an uncontested solitary inventor or a precisely divided joint project {cite:farisi-mactutor attribution}.
 

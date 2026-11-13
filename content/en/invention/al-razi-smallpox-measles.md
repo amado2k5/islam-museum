@@ -12,7 +12,7 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 ## What it is
 
-The specialized work *Smallpox and Measles* circulated in several translations; Britannica mentions Latin, Byzantine Greek and modern languages {cite:britannica-al-razi biography}. Here we read selections from William Alexander Greenhill's English translation, printed in London in1848, not an independently collated Arabic original or all its manuscripts. The displayed English title does not make English al-Razi's language of composition {cite:wellcome-razi-greenhill-1848 catalogue}.
+The specialized work *Smallpox and Measles* circulated in several translations; Britannica mentions Latin, Byzantine Greek and modern languages {cite:britannica-al-razi biography}. Here we read selections from William Alexander Greenhill's English translation, printed in London in 1848, not an independently collated Arabic original or all its manuscripts. The displayed English title does not make English al-Razi's language of composition {cite:wellcome-razi-greenhill-1848 catalogue}.
 
 “Clinical comparison” here means organizing descriptions of patients and disease courses, not a modern laboratory result. The text discusses signs before the eruption and employs relative differences and exceptions rather than one universally decisive sign {cite:razi-greenhill-smallpox-1848 pp.34–35}. These limits belong to the contribution: removing them makes the author more categorical than his text.
 
@@ -56,7 +56,7 @@ The translation itself warns about terminology. Greenhill notes that two Arabic 
 
 The biography records Latin, Byzantine Greek and modern-language translations. Greenhill describes an Arabic-to-Syriac-to-Greek route while acknowledging unknown translators and dates {cite:britannica-al-razi biography} {cite:razi-greenhill-smallpox-1848 pp.3–4}. Known links remain distinct from unknown ones; no translator or year is invented to complete the chain.
 
-The1848 edition witnesses much later European reading, not the date when the observation arose. Greenhill distinguishes the1766 Arabic-text edition from preceding translations; dates of editions and transmission are not all invention dates {cite:razi-greenhill-smallpox-1848 p.4}.
+The 1848 edition witnesses much later European reading, not the date when the observation arose. Greenhill distinguishes the 1766 Arabic-text edition from preceding translations; dates of editions and transmission are not all invention dates {cite:razi-greenhill-smallpox-1848 p.4}.
 
 ## What it was built on
 
@@ -68,7 +68,7 @@ Nor do we draw a dependency on another museum invention merely because of chrono
 
 Multiple translations establish continuing interest, not that every later physician directly borrowed the comparison {cite:britannica-al-razi biography}. His name does not become an automatic bridge from ancient medicine to every modern diagnostic method.
 
-In particular, this record does not credit the treatise with vaccines or smallpox eradication. WHO dates eradication to1980 and describes present-day measles as viral and vaccine-preventable: different historical layers from the humoral explanation read here {cite:who-smallpox-overview eradication} {cite:who-measles-overview overview}. Distinguishing comparison from modern prevention clarifies the contribution rather than diminishing it.
+In particular, this record does not credit the treatise with vaccines or smallpox eradication. WHO dates eradication to 1980 and describes present-day measles as viral and vaccine-preventable: different historical layers from the humoral explanation read here {cite:who-smallpox-overview eradication} {cite:who-measles-overview overview}. Distinguishing comparison from modern prevention clarifies the contribution rather than diminishing it.
 
 ## Impact on daily life
 
@@ -100,7 +100,7 @@ The treatise remains useful for knowledge history: observation, comparison and a
 
 The displayed image is Greenhill's1848 translation title: al-Razi, translator, London and the Sydenham Society, not an autograph manuscript or patient photograph {cite:wellcome-razi-greenhill-1848 canvas0007}. The Wellcome catalogue and manifest explicitly apply Public Domain Mark; the scan binary stays outside the text repository.
 
-Printed34, containing chapterIII, and the author's preface opening23 were visually checked. Marginal numbers refer to Channing's edition and must not be confused with Greenhill's printed pagination {cite:razi-greenhill-smallpox-1848 pp.23,34}. This later printed copy witnesses transmission, not a surviving object from al-Razi's hospital.
+Printed34, containing chapterIII, and the author's preface opening 23 were visually checked. Marginal numbers refer to Channing's edition and must not be confused with Greenhill's printed pagination {cite:razi-greenhill-smallpox-1848 pp.23,34}. This later printed copy witnesses transmission, not a surviving object from al-Razi's hospital.
 
 ## In culture
 
@@ -114,7 +114,7 @@ Al-Razi thought two illnesses could look alike and still deserve careful compari
 
 ## References
 
-- Greenhill1848: translator3–4, author23–28, chapters32–35 {cite:razi-greenhill-smallpox-1848 pp.3–4,23–28,32–35}.
+- Greenhill1848: translator3–4, author 23–28, chapters 32–35 {cite:razi-greenhill-smallpox-1848 pp.3–4,23–28,32–35}.
 - Individual biography and medical works/translations {cite:britannica-al-razi biography}.
 - Kaya's medical history and differing religious interpretation {cite:tdv-razi-ebu-bekir pp.479–485}.
 - Adamson on life/religion/prophecy {cite:sep-abu-bakr-al-razi secs.1,5}.

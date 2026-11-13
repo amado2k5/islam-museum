@@ -104,7 +104,7 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 ## المراجع
 
-- {cite:sharaf-tusi-mactutor biography-and-linear-astrolabe} أُوكونر وروبرتسن،سيرة كاملة،يوليو1999.
-- {cite:tdv-sharaf-tusi-ozel pp445-446} أحمد أوزل،السيرة والأعمال،2012.
-- {cite:carra-vaux-linear-astrolabe-1895 pp464-468} المقدمة؛ {cite:carra-vaux-linear-astrolabe-1895 pp498-514} مختارات الترجمة الفرنسية؛لا مقابلة للمخطوط العربي.
-- {cite:commons-trigonometry-triangle original2007} سياق هندسي حديث،ملك عام.
+- {cite:sharaf-tusi-mactutor biography-and-linear-astrolabe} أُوكونر وروبرتسن، سيرة كاملة، يوليو1999.
+- {cite:tdv-sharaf-tusi-ozel pp445-446} أحمد أوزل، السيرة والأعمال،2012.
+- {cite:carra-vaux-linear-astrolabe-1895 pp464-468} المقدمة؛ {cite:carra-vaux-linear-astrolabe-1895 pp498-514} مختارات الترجمة الفرنسية؛ لا مقابلة للمخطوط العربي.
+- {cite:commons-trigonometry-triangle original2007} سياق هندسي حديث، ملك عام.

@@ -42,9 +42,9 @@ The reader takes the row whose arc is below the required arc, retains its value 
 
 For increasing values, a modern unpacking uses starting value `y0`, preceding and following increases `Dprev` and `Dnext`, and fraction of a table interval `t`. The resulting instruction reads `y0+t*((1-t)*Dprev+t*Dnext)` {cite:qanun-masudi-jundi-v1 scan pp.322–323,339–340}. These are our teaching symbols, not the author's notation or the standard Newton rule that necessarily fits all three samples. Multiplication by the residual occurs twice, making the expression nonlinear.
 
-Take an invented teaching table with values1,2,2.5 at positions−1,0,1. The preceding increase is1 and the following increase0.5. At half the next interval this procedure gives2.375, while linear interpolation gives2.25. Nothing in those samples alone tells us the actual intermediate value. This is not numerical data from the Qanun or proof of universally superior accuracy; it shows what changed in the instructions.
+Take an invented teaching table with values1,2,2.5 at positions−1,0,1. The preceding increase is 1 and the following increase0.5. At half the next interval this procedure gives 2.375, while linear interpolation gives 2.25. Nothing in those samples alone tells us the actual intermediate value. This is not numerical data from the Qanun or proof of universally superior accuracy; it shows what changed in the instructions.
 
-Units also matter. The four minutes in the primary instruction are the sexagesimal number1/15, standing for division by the fifteen arcminutes in a quarter-degree interval, not a new angle of four degrees {cite:qanun-masudi-jundi-v1 scan p.323}. Inverse lookup receives its own procedure; the inverse of an approximation is not automatically the true inverse function {cite:qanun-masudi-jundi-v1 scan pp.322,324}.
+Units also matter. The four minutes in the primary instruction are the sexagesimal number 1/15, standing for division by the fifteen arcminutes in a quarter-degree interval, not a new angle of four degrees {cite:qanun-masudi-jundi-v1 scan p.323}. Inverse lookup receives its own procedure; the inverse of an approximation is not automatically the true inverse function {cite:qanun-masudi-jundi-v1 scan pp.322,324}.
 
 Returning from sine to arc deserves separate attention: the author starts with the nearest smaller sine, retains its arc and uses the remaining sine and differences to obtain an arc increment {cite:qanun-masudi-jundi-v1 scan p.322}. Simply swapping column headings while preserving every operation is not sufficient, because the known quantity and required residual have changed. Nor is the preceding difference zero merely because a reader's displayed window starts at the current row. A particular neighbour is required. Display limits are not historical table boundaries; no rule for a missing endpoint or silent replacement value is invented. This explains the instructions' requirements, not new software attributed to the author.
 
@@ -92,9 +92,9 @@ Agreement at the endpoints does not guarantee knowledge between them or superior
 
 ## Surviving examples
 
-We read selected Arabic passages and inspected scans301,322,323,340, corresponding to printed300,321,322,339. New citations explicitly use scan pages; the printed number is one lower {cite:qanun-masudi-jundi-v1 scan pp.301,322–323,340}. This is not manuscript collation or reading every table, many of which are garbled in extracted text.
+We read selected Arabic passages and inspected scans 301,322,323,340, corresponding to printed 300,321,322,339. New citations explicitly use scan pages; the printed number is one lower {cite:qanun-masudi-jundi-v1 scan pp.301,322–323,340}. This is not manuscript collation or reading every table, many of which are garbled in extracted text.
 
-The displayed picture is DaBler's modern7 March2010 illustration, explicitly released into the public domain; its960×720 rendering was inspected {cite:commons-quadratic-interpolation description,rights,image}. It shows a parabola through three samples, a marked maximum and a lower difference/slope panel. It is a conceptual comparison, not this rule's exact weights or evidence that al-Biruni drew a modern derivative {cite:commons-quadratic-interpolation code}. Scans, extracted text and original binaries stay outside the repository.
+The displayed picture is DaBler's modern7 March2010 illustration, explicitly released into the public domain; its 960×720 rendering was inspected {cite:commons-quadratic-interpolation description,rights,image}. It shows a parabola through three samples, a marked maximum and a lower difference/slope panel. It is a conceptual comparison, not this rule's exact weights or evidence that al-Biruni drew a modern derivative {cite:commons-quadratic-interpolation code}. Scans, extracted text and original binaries stay outside the repository.
 
 ## In culture
 
@@ -104,7 +104,7 @@ The modern illustration employs blue, red and plotted axes, a much later instruc
 
 ## For young readers
 
-Write positions−1,0,1 on paper, with values1,2,2.5 below. The first increase is1, the next0.5. Halfway between the middle and last positions, the linear estimate is2.25. Blend the two increases equally to get0.75, take half and add it to2: the result is2.375. These invented game numbers illustrate the instruction sequence, not historical measurements {cite:qanun-masudi-jundi-v1 scan pp.339–340}.
+Write positions−1,0,1 on paper, with values1,2,2.5 below. The first increase is 1, the next0.5. Halfway between the middle and last positions, the linear estimate is 2.25. Blend the two increases equally to get0.75, take half and add it to 2: the result is 2.375. These invented game numbers illustrate the instruction sequence, not historical measurements {cite:qanun-masudi-jundi-v1 scan pp.339–340}.
 
 Keep the unknown intermediate value hidden and do not choose a winner: the cards alone do not give it. Try equal increases and notice agreement. Pen and paper suffice; do not observe the Sun or point a telescope at it. Ask not which number looks nicer, but what assumption led to it.
 

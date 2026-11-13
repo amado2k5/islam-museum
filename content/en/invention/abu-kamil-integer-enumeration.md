@@ -28,7 +28,7 @@ MacTutor reports Sesiano's arguments about Abu Kamil's place among Arabic mathem
 
 Aydin separates the Taraif from a listed Book of Birds whose contents he calls unknown. We do not merge them because a problem happens to contain birds, or because a modern abstract uses that title. Nor do we make the arithmetic problems identical with the algebra or measurement book; each work needs its own evidence {cite:tdv-abu-kamil work2-and-conclusion}.
 
-MacTutor emphasizes the scarcity of biographical information and gives approximate dates around850 and930. A late ninth-/early tenth-century horizon is therefore context, not a dated invention ceremony. An Egyptian author's identity does not establish a particular Cairo market, workshop, or place of composition for every problem {cite:abu-kamil-mactutor biography}.
+MacTutor emphasizes the scarcity of biographical information and gives approximate dates around 850 and 930. A late ninth-/early tenth-century horizon is therefore context, not a dated invention ceremony. An Egyptian author's identity does not establish a particular Cairo market, workshop, or place of composition for every problem {cite:abu-kamil-mactutor biography}.
 
 ## The maker(s)
 
@@ -38,15 +38,15 @@ Aydin discusses knowledge of Indian problems while retaining disagreement over k
 
 ## How it works
 
-This is the modern illustration presented in ProofWiki, not an original table we inspected:100 birds for100 coins, with five unit prices2,1,1/2,1/3,1/4. Write their quantities as x,y,z,w,v. Then x+y+z+w+v=100 and2x+y+z/2+w/3+v/4=100. These symbols and this presentation are modern teaching devices {cite:proofwiki-abu-kamil-birds prices}.
+This is the modern illustration presented in ProofWiki, not an original table we inspected:100 birds for 100 coins, with five unit prices2,1,1/2,1/3,1/4. Write their quantities as x,y,z,w,v. Then x+y+z+w+v=100 and 2x+y+z/2+w/3+v/4=100. These symbols and this presentation are modern teaching devices {cite:proofwiki-abu-kamil-birds prices}.
 
-Multiply the cost equation by12:24x+12y+6z+4w+3v=1200. Subtract twelve times the count equation to obtain12x=6z+8w+9v; then y=100−x−z−w−v. Enumerate z,w,v within the total, accepting an integral x and a positive y. This is the museum's independent way to check the model, not recovered lines of the historical algorithm.
+Multiply the cost equation by 12:24x+12y+6z+4w+3v=1200. Subtract twelve times the count equation to obtain12x=6z+8w+9v; then y=100−x−z−w−v. Enumerate z,w,v within the total, accepting an integral x and a positive y. This is the museum's independent way to check the model, not recovered lines of the historical algorithm.
 
-The tuple(4,90,1,3,2) works: its count is100 and its cost8+90+1/2+1+1/2=100. Another is(7,83,1,3,6). Their average(5.5,86.5,1,3,4) satisfies both equations but is not a purchase of whole birds. Satisfying equations alone does not remove the integer requirement.
+The tuple(4,90,1,3,2) works: its count is 100 and its cost8+90+1/2+1+1/2=100. Another is(7,83,1,3,6). Their average(5.5,86.5,1,3,4) satisfies both equations but is not a purchase of whole birds. Satisfying equations alone does not remove the integer requirement.
 
-Requiring every kind gives2678 positive solutions in our enumeration; permitting zero gives3727 nonnegative solutions. The latter includes(0,100,0,0,0): only the kind priced at1. These are answers to differently constrained questions, not rival answers to one question. Agreement with a reported historical total does not independently certify its manuscript origin.
+Requiring every kind gives 2678 positive solutions in our enumeration; permitting zero gives 3727 nonnegative solutions. The latter includes(0,100,0,0,0): only the kind priced at 1. These are answers to differently constrained questions, not rival answers to one question. Agreement with a reported historical total does not independently certify its manuscript origin.
 
-The reduced equation supplies two preliminary restrictions: v must be even, because the other terms are even; w must be divisible by3, by considering remainders modulo3. Write w=3b and v=2c to get2x=z+4b+3c, so z+c must also be even. These are deductions within our model, not rules attributed to an unread manuscript. Divisibility is still insufficient: the total bound and a positive y must also be checked.
+The reduced equation supplies two preliminary restrictions: v must be even, because the other terms are even; w must be divisible by 3, by considering remainders modulo3. Write w=3b and v=2c to get2x=z+4b+3c, so z+c must also be even. These are deductions within our model, not rules attributed to an unread manuscript. Divisibility is still insufficient: the total bound and a positive y must also be checked.
 
 ## The spread
 
@@ -64,7 +64,7 @@ He describes verbal unknown names such as thing, dinar, fals, and ring, with num
 
 A modern reader can explore how two equations with several unknowns interact with bounds, integrality, and positivity. This comparison does not make all modern linear programming an invention of Abu Kamil. A present-day tool can check a problem without proving direct historical descent for every optimization application.
 
-Our check uses two independent enumeration procedures, scaling cost by12 to avoid decimal rounding. Printing2678 is not enough: every tuple must satisfy both constraints, appear once, and agree with the complete independently generated set. These are modern checking standards, not a claim that the historical author used a computer or our notation.
+Our check uses two independent enumeration procedures, scaling cost by 12 to avoid decimal rounding. Printing2678 is not enough: every tuple must satisfy both constraints, appear once, and agree with the complete independently generated set. These are modern checking standards, not a claim that the historical author used a computer or our notation.
 
 ## Impact on daily life
 
@@ -82,11 +82,11 @@ This also differs from extending algebra to irrational coefficients: one contrib
 
 **Declared Sunni frame:** the existing documented individual Muslim basis remains separate from priority. **Academic account:** Aydin retains precedents and disputed dependence on Indian methods; MacTutor reports Sesiano's arguments qualified by the texts known. The museum gives neither an absolute first-in-world verdict nor a proven direct route for every procedure {cite:abu-kamil-mactutor summary-and-rare-things} {cite:tdv-abu-kamil work2}.
 
-Even a historical answer count cannot be settled by choosing a convenient number online. ProofWiki prints2696 and reports variants2676,2678,2698 in modern accounts. Our precisely constrained enumeration explains a model, not what each copyist wrote or why every witness differs {cite:proofwiki-abu-kamil-birds variant-counts}.
+Even a historical answer count cannot be settled by choosing a convenient number online. ProofWiki prints 2696 and reports variants 2676,2678,2698 in modern accounts. Our precisely constrained enumeration explains a model, not what each copyist wrote or why every witness differs {cite:proofwiki-abu-kamil-birds variant-counts}.
 
 ## Today
 
-Comparing2678 with3727 exposes the effect of an apparently small condition: may a kind be absent? Two programs cannot be compared fairly if that rule changes between them. The tuple counts quantities by kind, not birds arranged in a line; swapping individuals of the same kind does not create another solution.
+Comparing2678 with 3727 exposes the effect of an apparently small condition: may a kind be absent? Two programs cannot be compared fairly if that rule changes between them. The tuple counts quantities by kind, not birds arranged in a line; swapping individuals of the same kind does not create another solution.
 
 The contextual photograph shows one modern grey pigeon facing left, with an orange-red eye, white cere, and iridescent neck. It is not100 birds or proof of the identification of every medieval bird word. Resemblance to the example does not transform a modern photograph into a recorded event from the author's life {cite:commons-pigeon-portrait-dori current-image}.
 
@@ -94,7 +94,7 @@ The contextual photograph shows one modern grey pigeon facing left, with an oran
 
 We read MacTutor and Aydin, not original manuscripts, Saidan's1986 edition, or the complete Sesiano study. Aydin mentions one surviving manuscript in one passage but later reports Leiden and Paris witnesses. We preserve that reported tension rather than deciding the manuscript census through a collation we did not perform {cite:tdv-abu-kamil work2-witnesses}.
 
-Dori's photograph is dated28March2008, Santa Barbara, and licensed CC BY-SA3.0US; the original JPG is used unchanged. The actual image and rights were inspected, not silently replaced by an unported licence. Its rights and subject are separate questions from authenticating a book or counting its solutions {cite:commons-pigeon-portrait-dori description-rights}.
+Dori's photograph is dated 28March2008, Santa Barbara, and licensed CC BY-SA3.0US; the original JPG is used unchanged. The actual image and rights were inspected, not silently replaced by an unported licence. Its rights and subject are separate questions from authenticating a book or counting its solutions {cite:commons-pigeon-portrait-dori description-rights}.
 
 ## In culture
 
@@ -110,7 +110,7 @@ Do not split a bird in half to simplify the answer. Money may be fractional whil
 
 ## References
 
-- Aydin:work, integer solutions, witnesses {cite:tdv-abu-kamil work2}.
-- MacTutor:biography and reported Sesiano argument {cite:abu-kamil-mactutor rare-things}.
-- ProofWiki:modern prices and count variants {cite:proofwiki-abu-kamil-birds historical-note}.
+- Aydin: work, integer solutions, witnesses {cite:tdv-abu-kamil work2}.
+- MacTutor: biography and reported Sesiano argument {cite:abu-kamil-mactutor rare-things}.
+- ProofWiki: modern prices and count variants {cite:proofwiki-abu-kamil-birds historical-note}.
 - Commons:Dori photograph and rights {cite:commons-pigeon-portrait-dori description-rights}.

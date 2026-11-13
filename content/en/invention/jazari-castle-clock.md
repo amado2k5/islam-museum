@@ -24,9 +24,9 @@ Nor does a transmitted attribution authenticate Archimedes's authorship: TDV ide
 
 ## The story
 
-TDV places the commissioned book under Artuqid patronage at Amid and dates completion to1205 {cite:tdv-cezeri pp.505–506}. Hill's introduction derives1204 or1206 from variant service chronologies {cite:jazari-hill-1974 introduction-life}. Our1204/1206 range therefore represents differing documentary dates, not three years of construction or a verified inauguration.
+TDV places the commissioned book under Artuqid patronage at Amid and dates completion to 1205 {cite:tdv-cezeri pp.505–506}. Hill's introduction derives 1204 or 1206 from variant service chronologies {cite:jazari-hill-1974 introduction-life}. Our1204/1206 range therefore represents differing documentary dates, not three years of construction or a verified inauguration.
 
-We read selected passages of Hill's1974 translation and commentary, not an autograph or a fresh collation of every manuscript {cite:jazari-hill-1974 edition}. Preserved instructions are not daily operating logs. Our illustration is a1354 manuscript painting, neither contemporary with composition nor the distinct1315 copy represented by the elephant-clock image {cite:mfa-castle-clock-14533 metadata}.
+We read selected passages of Hill's1974 translation and commentary, not an autograph or a fresh collation of every manuscript {cite:jazari-hill-1974 edition}. Preserved instructions are not daily operating logs. Our illustration is a1354 manuscript painting, neither contemporary with composition nor the distinct 1315 copy represented by the elephant-clock image {cite:mfa-castle-clock-14533 metadata}.
 
 ## The maker(s)
 
@@ -36,13 +36,13 @@ The book attributes description, experiments and adjustments to al-Jazari; TDV p
 
 ## How it works
 
-First, reconsider “hour.” The design divides daylight into twelve portions and darkness into twelve, although their lengths change seasonally; a seasonal hour is not always sixty minutes {cite:jazari-hill-1974 pp.17–18,editor-notes-I.1}. In our invented example, a15-hour day gives75-minute portions and a9-hour night45-minute portions. These are not claimed as a historical date or location.
+First, reconsider “hour.” The design divides daylight into twelve portions and darkness into twelve, although their lengths change seasonally; a seasonal hour is not always sixty minutes {cite:jazari-hill-1974 pp.17–18,editor-notes-I.1}. In our invented example, a15-hour day gives 75-minute portions and a9-hour night 45-minute portions. These are not claimed as a historical date or location.
 
 Behind the screen, a reservoir float descends with the water and transmits movement through ropes and pulleys {cite:jazari-hill-1974 pp.20–22,editor-notes-I.1}. But falling water level in an unregulated tank changes the outflow conditions. A separate chamber has another float and conical plug: rising water closes the inlet, falling water permits replenishment, maintaining its level approximately {cite:jazari-hill-1974 pp.21–22,24}.
 
 These are not one float performing every task. One provides motion through descent; the other regulates the feeding chamber. A further regulator changes outlet position for the required duration {cite:jazari-hill-1974 pp.20–22,24–25}. The second float can be understood as hydraulic feedback, but modern control terminology does not make the machine a computer program or the first regulator in history.
 
-Seasonal hours have a numerical consequence. Emptying the same hypothetical total volume in15 hours and then9 requires the second average flow to be15/9 times the first. In our paper example,600 volume units divided by15 gives40 per hour, while division by9 gives about66.67. Those quantities and units are ours, not apparatus specifications or measured historical performance.
+Seasonal hours have a numerical consequence. Emptying the same hypothetical total volume in 15 hours and then9 requires the second average flow to be 15/9 times the first. In our paper example,600 volume units divided by 15 gives 40 per hour, while division by 9 gives about 66.67. Those quantities and units are ours, not apparatus specifications or measured historical performance.
 
 A circular scale alone does not ensure the required ratios. The author reports failed geometric divisions, then measures water discharged in a fixed hour and establishes scale positions through calculation and experiment before engraving them {cite:jazari-hill-1974 pp.17–18,24–25}. Geometry serves calibration rather than replacing it. The operator chooses the relevant setting; the machine does not independently sense tomorrow's daylight duration.
 
@@ -52,7 +52,7 @@ At night, illuminated roundels indicate the passing divisions, while the operato
 
 ## The spread
 
-The documented transmission here is textual and pictorial: the later Boston folio preserves the facade, while TDV identifies the1974 English translation and1979 Arabic edition {cite:mfa-castle-clock-14533 metadata} {cite:tdv-cezeri pp.505–506}. Many copies would not automatically mean many working clocks; a reader can copy a drawing without a reservoir or workshop.
+The documented transmission here is textual and pictorial: the later Boston folio preserves the facade, while TDV identifies the 1974 English translation and 1979 Arabic edition {cite:mfa-castle-clock-14533 metadata} {cite:tdv-cezeri pp.505–506}. Many copies would not automatically mean many working clocks; a reader can copy a drawing without a reservoir or workshop.
 
 These selections give no adoption count for towns or households. A verifiable path of transmission is better than an invented diffusion map. A book's arrival at a place does not prove installation of every machine it describes.
 
@@ -96,7 +96,7 @@ Three tasks remain distinct: regulating water level, choosing an appropriate flo
 
 ## Surviving examples
 
-Boston14.533 is catalogued as an anonymous1354 painting: zodiac arch above two door rows, falcons, vessels and musicians {cite:mfa-castle-clock-14533 metadata}. It represents later book transmission, not an autograph or certainty about every component's actual material.
+Boston14.533 is catalogued as an anonymous 1354 painting: zodiac arch above two door rows, falcons, vessels and musicians {cite:mfa-castle-clock-14533 metadata}. It represents later book transmission, not an autograph or certainty about every component's actual material.
 
 Commons identifies a faithful reproduction of public-domain two-dimensional art with the Public Domain Mark; we credit the museum, Google Art Project and Commons {cite:mfa-castle-clock-14533 Commons-rights}. Hill's modern text has separate copyright: we read and explain in our own words, rather than treating all printed illustrations as public domain.
 
@@ -108,10 +108,10 @@ The solitary-genius image can conceal people not named by our sources: attendant
 
 ## For young readers
 
-On paper, divide a hypothetical900-minute day into12 boxes, then a540-minute night into12. The results are75 and45 minutes, not60 in both cases. This invented example explains the text's twelve seasonal divisions of day and night {cite:jazari-hill-1974 pp.17–18,editor-notes-I.1}. Colour successive boxes instead of building a tank or lighting a lamp. Then ask who returns them to the start: in the described clock, a person resets the apparatus {cite:jazari-hill-1974 pp.39–41}.
+On paper, divide a hypothetical 900-minute day into 12 boxes, then a540-minute night into 12. The results are 75 and 45 minutes, not60 in both cases. This invented example explains the text's twelve seasonal divisions of day and night {cite:jazari-hill-1974 pp.17–18,editor-notes-I.1}. Colour successive boxes instead of building a tank or lighting a lamp. Then ask who returns them to the start: in the described clock, a person resets the apparatus {cite:jazari-hill-1974 pp.39–41}.
 
 ## References
 
 - Selected Hill translation and engineering commentary {cite:jazari-hill-1974 pp.17–22,24–25,39–41,editor-notes-I.1}.
-- Official MFA-via-Google catalogue and1354 image metadata/rights {cite:mfa-castle-clock-14533 catalogue,metadata,Commons-rights}.
+- Official MFA-via-Google catalogue and 1354 image metadata/rights {cite:mfa-castle-clock-14533 catalogue,metadata,Commons-rights}.
 - Sadettin Ökten on identity, engineering context and editions {cite:tdv-cezeri pp.505–506}.

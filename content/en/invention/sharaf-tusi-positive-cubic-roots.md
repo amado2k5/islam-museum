@@ -38,7 +38,7 @@ MacTutor explicitly identifies the individual as an Islamic mathematician. That 
 
 ## How it works
 
-MacTutor explains that bx−x³ reaches its maximum at t=√(b/3), with maximum2(b/3)^(3/2). A positive solution in the example therefore requires a not to exceed that bound. Since a is positive, a root must also lie between0 and√b. “No solution” in this setting means no requested positive root, not an assertion that all negative or complex roots disappear {cite:sharaf-tusi-mactutor equations}.
+MacTutor explains that bx−x³ reaches its maximum at t=√(b/3), with maximum2(b/3)^(3/2). A positive solution in the example therefore requires a not to exceed that bound. Since a is positive, a root must also lie between 0 and√b. “No solution” in this setting means no requested positive root, not an assertion that all negative or complex roots disappear {cite:sharaf-tusi-mactutor equations}.
 
 Here is an independent modern proof without differentiation. Put b=3t². Then2t³−(bx−x³)=(x−t)²(x+2t). For x nonnegative and t positive, the right side is nonnegative, vanishing only at x=t. This proves a global bound on that domain, not merely the largest value among sampled guesses. It is our algebraic demonstration, not a claimed reconstruction of the manuscript's proof sequence.
 
@@ -56,7 +56,7 @@ In our modern example choose b=3. Then3x−x³ has maximum2 at x=1. Choosing a=1
 
 ## What was built on it
 
-For a=1, our example has two distinct positive roots: one between0 and1, another between1 and√3. This modern conclusion follows from continuity and the rise then fall of3x−x³ on the relevant positive domain. It does not claim Sharaf used a later formal intermediate-value theorem. Bracketing and narrowing a root here are explanatory computations, not recovered rows of an omitted table.
+For a=1, our example has two distinct positive roots: one between 0 and 1, another between 1 and√3. This modern conclusion follows from continuity and the rise then fall of 3x−x³ on the relevant positive domain. It does not claim Sharaf used a later formal intermediate-value theorem. Bracketing and narrowing a root here are explanatory computations, not recovered rows of an omitted table.
 
 At a=2, x³−3x+2 factors as(x−1)²(x+2). There is one distinct positive root,1, with multiplicity two, and a negative root−2 outside the positive-root question. At a=3 there is no positive root because the maximum2 cannot reach3, although a negative real root remains. Distinguishing distinct roots from multiplicity prevents an apparent contradiction in counting solutions.
 
@@ -86,7 +86,7 @@ The displayed image is a different modern polynomial, with roots−4,−1,2 and 
 
 ## Surviving examples
 
-The textual witness described by the biographies is an abridgement without the numerical tables. Ozel discusses comparison with another work to assess the abridgement. We know that through the reference, not a collation performed here. Reports of1986 and1998 editions do not license invented page citations to unread volumes or the attribution of modern calculations to the uninspected manuscript {cite:tdv-sharaf-tusi-ozel works1}.
+The textual witness described by the biographies is an abridgement without the numerical tables. Ozel discusses comparison with another work to assess the abridgement. We know that through the reference, not a collation performed here. Reports of 1986 and 1998 editions do not license invented page citations to unread volumes or the attribution of modern calculations to the uninspected manuscript {cite:tdv-sharaf-tusi-ozel works1}.
 
 A mathematical method does not need a surviving industrial artifact to count as knowledge. The image and chain are explanatory media; the historical evidence concerns the text and reception. A modern plot presented as an original page would change the evidence's meaning. That is why the graph's authorship and different equation remain visible, alongside the source-reading limits {cite:commons-polynomialdeg3 description} {cite:tdv-sharaf-tusi-ozel works1}.
 
@@ -98,12 +98,12 @@ Knowledge also passed through pupils, abridgers, commentators and editors. Prese
 
 ## For young readers
 
-Start with a smaller question: for positive x, can3x−x³ equal3? Our modern identity shows that it cannot exceed2. You do not need a thousand guesses to answer. Asking for1 allows two crossings; asking for2 reaches the top at one distinct positive value. These are paper numbers, not a measurement experiment or a claim that a historical table contained our choices.
+Start with a smaller question: for positive x, can3x−x³ equal3? Our modern identity shows that it cannot exceed2. You do not need a thousand guesses to answer. Asking for 1 allows two crossings; asking for 2 reaches the top at one distinct positive value. These are paper numbers, not a measurement experiment or a claim that a historical table contained our choices.
 
 The larger lesson is to check whether a target is possible before hunting for its location. Positive and negative answers have different relationships to the question's conditions, not different moral worth. Do not copy the accompanying graph as our example: its stated polynomial is different. Distinguishing the picture, the historical claim and the modern explanation makes a more careful reader, not merely a collector of invention names {cite:commons-polynomialdeg3 description}.
 
 ## References
 
-- {cite:sharaf-tusi-mactutor equations-and-derivative-discussion} O'Connor and Robertson,complete biography,1999.
-- {cite:tdv-sharaf-tusi-ozel pp445-446} Ahmet Ozel,biography,analysis and works,2012.
-- {cite:commons-polynomialdeg3 description-and-history} Different modern public-domain graph;original equation editions and interpretation papers not independently read.
+- {cite:sharaf-tusi-mactutor equations-and-derivative-discussion} O'Connor and Robertson, complete biography,1999.
+- {cite:tdv-sharaf-tusi-ozel pp445-446} Ahmet Ozel, biography, analysis and works,2012.
+- {cite:commons-polynomialdeg3 description-and-history} Different modern public-domain graph; original equation editions and interpretation papers not independently read.

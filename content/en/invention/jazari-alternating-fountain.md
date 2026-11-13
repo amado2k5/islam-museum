@@ -8,7 +8,7 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 ---
 ## Summary
 
-Water rises in a single column, then the view changes to six curving jets without somebody redirecting the nozzle at each change. This is the fountain [[person/al-jazari-engineer|al-Jazari]] describes in CategoryIV, chapter1, assigning one constant hour to each display while water continues to arrive {cite:jazari-hill-1974 pp.157–158}. Behind the spectacle are two buckets, a tilting pipe and two tanks: filling a bucket switches the supply. This is a particular assembly within an older fountain tradition, not the invention of flowing water, the first automatic fountain, or a machine supplying its own energy {cite:jazari-hill-1974 pp.157–158,263}.
+Water rises in a single column, then the view changes to six curving jets without somebody redirecting the nozzle at each change. This is the fountain [[person/al-jazari-engineer|al-Jazari]] describes in CategoryIV, chapter 1, assigning one constant hour to each display while water continues to arrive {cite:jazari-hill-1974 pp.157–158}. Behind the spectacle are two buckets, a tilting pipe and two tanks: filling a bucket switches the supply. This is a particular assembly within an older fountain tradition, not the invention of flowing water, the first automatic fountain, or a machine supplying its own energy {cite:jazari-hill-1974 pp.157–158,263}.
 
 ## What it is
 
@@ -26,7 +26,7 @@ His criticism is not a complete trial of earlier engineers. One account seems to
 
 The problem is not simply to produce motion but to let viewers see its effect. Al-Jazari considers a change at every vane revolution too rapid for the display to appear fully {cite:jazari-hill-1974 p.157}. His arrangement keeps display water flowing while a small branch accumulates timing water. The functions meet when the bucket tips, rather than tying every change directly to rapid rotation.
 
-TDV places the author in Artuqid service at [[place/amid|Amid]], writing his book at Nasir al-Din Mahmud's request {cite:tdv-cezeri pp.505–506}. This is the author's setting, not a surviving fountain site examined here. Hill's introduction derives1204 or1206 from manuscript differences, against TDV's1205; the book-date disagreement remains, without inventing this fountain's inauguration year or a Hijri date {cite:jazari-hill-1974 introduction-life} {cite:tdv-cezeri pp.505–506}.
+TDV places the author in Artuqid service at [[place/amid|Amid]], writing his book at Nasir al-Din Mahmud's request {cite:tdv-cezeri pp.505–506}. This is the author's setting, not a surviving fountain site examined here. Hill's introduction derives 1204 or 1206 from manuscript differences, against TDV's1205; the book-date disagreement remains, without inventing this fountain's inauguration year or a Hijri date {cite:jazari-hill-1974 introduction-life} {cite:tdv-cezeri pp.505–506}.
 
 ## The maker(s)
 
@@ -58,7 +58,7 @@ Comparison with the [[invention/jazari-musical-boat|musical boat]] highlights a 
 
 ## What was built on it
 
-Hill interprets the mechanism in a modern diagram, using later chapters to supply bucket projections missing from figure121. He also identifies axle bearings drawn in the wrong plane {cite:jazari-hill-1974 p.263}. These are declared interpretive interventions, not parts discovered in archaeological hardware or details all visible in the original illustration.
+Hill interprets the mechanism in a modern diagram, using later chapters to supply bucket projections missing from figure 121. He also identifies axle bearings drawn in the wrong plane {cite:jazari-hill-1974 p.263}. These are declared interpretive interventions, not parts discovered in archaeological hardware or details all visible in the original illustration.
 
 He stresses that his diagram is not proportional and that dimensions depend on the site {cite:jazari-hill-1974 p.263}. It is therefore not a ready-made plan for any scale. Similar switching displays in modern fountains do not alone demonstrate an industrial transmission chain from this chapter to electric valves or contemporary software.
 
@@ -88,9 +88,9 @@ The analytical lesson is simpler than building hardware: fixed outlets can produ
 
 ## Surviving examples
 
-We read selected Hill translation passages in the category opening and chapter1,157–158, and the specific commentary263; the chapter opening and158 with figure121 were visually inspected in the shared reader {cite:jazari-hill-1974 pp.157–158,263}. This is limited reading, not collation of every manuscript or a claim to have read every edition and language.
+We read selected Hill translation passages in the category opening and chapter 1,157–158, and the specific commentary 263; the chapter opening and 158 with figure 121 were visually inspected in the shared reader {cite:jazari-hill-1974 pp.157–158,263}. This is limited reading, not collation of every manuscript or a claim to have read every edition and language.
 
-The displayed picture is a separate public-domain reproduction, not Hill's modern page. A feed arm, two buckets and tanks, and central outlet are visible {cite:commons-jazari-water-device image,rights}. Commons supplies1315 and Süleymaniye, but we supply no independently verified shelfmark or claim that this is the identical witness to figure121. The historical artist is unnamed; the image is neither an author portrait nor surviving metalwork measurable from paper.
+The displayed picture is a separate public-domain reproduction, not Hill's modern page. A feed arm, two buckets and tanks, and central outlet are visible {cite:commons-jazari-water-device image,rights}. Commons supplies 1315 and Süleymaniye, but we supply no independently verified shelfmark or claim that this is the identical witness to figure 121. The historical artist is unnamed; the image is neither an author portrait nor surviving metalwork measurable from paper.
 
 ## In culture
 
@@ -100,12 +100,12 @@ Writing and drawing together show a water machine as something to see and explai
 
 ## For young readers
 
-Try a museum-made paper activity, not a historical experiment. Draw two cards: one column and six arcs. Imagine a timing bucket holding6 units, receiving2 per step. After3 steps change the card and reset the counter. Repeat for the second state: a complete cycle takes6 steps. These are invented teaching quantities, not Baghdadi ratls or measurements of al-Jazari's machine.
+Try a museum-made paper activity, not a historical experiment. Draw two cards: one column and six arcs. Imagine a timing bucket holding6 units, receiving2 per step. After 3 steps change the card and reset the counter. Repeat for the second state: a complete cycle takes 6 steps. These are invented teaching quantities, not Baghdadi ratls or measurements of al-Jazari's machine.
 
-Now give the second side only1 unit per step: it needs6 steps, making a9-step cycle. Equal capacities do not ensure equal times when inflow differs. The paper lesson relates to the calibrated outlets in the account, not to measured historical performance {cite:jazari-hill-1974 pp.157–158}. No water, pressure, glass, weights or machine-building is involved.
+Now give the second side only 1 unit per step: it needs6 steps, making a9-step cycle. Equal capacities do not ensure equal times when inflow differs. The paper lesson relates to the calibrated outlets in the account, not to measured historical performance {cite:jazari-hill-1974 pp.157–158}. No water, pressure, glass, weights or machine-building is involved.
 
 ## References
 
-- [[source/jazari-hill-1974|Donald Hill's1974 translation]], CategoryIV opening/chapter1,157–158, figures120–121, and specific commentary263; selected actual reading, not page reproduction.
+- [[source/jazari-hill-1974|Donald Hill's1974 translation]], CategoryIV opening/chapter 1,157–158, figures 120–121, and specific commentary 263; selected actual reading, not page reproduction.
 - [[source/tdv-cezeri|Sadettin Ökten, CEZERÎ]], TDV, vol.7,1993,505–506; biography, individual identity basis and book context.
 - [[source/commons-jazari-water-device|Commons water-device image]], description, file history and PD-Art rights; picture inspected, exact chapter/shelfmark not independently verified.

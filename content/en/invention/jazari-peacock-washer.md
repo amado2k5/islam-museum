@@ -109,7 +109,7 @@ The leaf combines a coloured peacock, small figure and component letters, joinin
 Imagine water collecting in a vessel and raising a float: one figure offers soap, then another a towel, and used water drains through a spigot, as the museum explains {cite:cleveland-jazari-peacock verso catalogue}. These are machine figures, not people hiding inside. The museum preserves picture and text but does not know for certain whether the device was built {cite:cleveland-jazari-peacock recto catalogue}.
 
 ## References
-- [[source/jazari-hill-1974|Al-Jazari — Donald Hill translation1974]]
+- [[source/jazari-hill-1974|Al-Jazari — Donald Hill translation 1974]]
 
 - Cleveland Museum of Art, 1945.383, recto and verso catalogues, images and Open Access API. {cite:cleveland-jazari-peacock recto and verso catalogues}
 - Sadettin Ökten, “CEZERÎ, İsmâil b. Rezzâz”, TDV Encyclopedia of Islam, vol. 7, 1993, pp. 505–506. {cite:tdv-cezeri pp. 505–506}

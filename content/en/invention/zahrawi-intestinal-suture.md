@@ -49,9 +49,9 @@ Page210 distinguishes intestine from omentum, relating the latter's discussion t
 A first-person case concerns a man wounded in the abdomen whose wound discharged fecal matter and gas; the author did not expect recovery but reports healing and return to eating, drinking, bathing and normal movement {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.210–211}. It neither compares suture materials nor explicitly attributes recovery to the displayed thread: it is an individual clinical narrative about a changing expectation, not a controlled experiment or calculated success rate {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.210–211}. Personal experience and a proposed material are different kinds of evidence.
 
 
-The passage belongs to chapter87, following an extended discussion of abdominal wounds and treatment limits, not a separate inventor's card or celebratory discovery anecdote {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.202–203,207–211}. On page211 the filament description follows an account attributed to physicians of the empirical school involving ants; an experimental qualification then applies to both approaches {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}.
+The passage belongs to chapter 87, following an extended discussion of abdominal wounds and treatment limits, not a separate inventor's card or celebratory discovery anecdote {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.202–203,207–211}. On page 211 the filament description follows an account attributed to physicians of the empirical school involving ants; an experimental qualification then applies to both approaches {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}.
 
-That arrangement matters: the text compares alternatives while marking limits to what has been established. Not everything preserved in a medical encyclopaedia is a settled result {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}. TDV places completion of *al-Tasrif* around390 AH/1000. This approximately dates the book, not a first operation, invention year or photographed specimen {cite:tdv-tasrif-zehravi pp.132–133}.
+That arrangement matters: the text compares alternatives while marking limits to what has been established. Not everything preserved in a medical encyclopaedia is a settled result {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211}. TDV places completion of *al-Tasrif* around 390 AH/1000. This approximately dates the book, not a first operation, invention year or photographed specimen {cite:tdv-tasrif-zehravi pp.132–133}.
 
 ## The maker(s)
 
@@ -72,7 +72,7 @@ TDV records Gerard of Cremona's Latin surgical translation and later editions an
 The chapter's explicit inheritance is wound-suturing knowledge and discussion attributed to Galen, followed by an animal-derived material in a particular context {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.207–211}. The teaching diagram connects that inheritance only to this description. It does not arbitrarily link the urinary drill or another browser invention. Innovation can be read within existing knowledge without erasing predecessors.
 
 ## What was built on it
-Leclerc's footnote on page211 reports Guy de Chauliac's rejection of the ant method {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211 footnote}. This later surgeon's judgment is known here through the translator, not independent reading of his original; it concerns ants, not testing intestinal thread {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211 footnote}. Adjacent alternatives therefore cannot automatically share one endorsement or rejection.
+Leclerc's footnote on page 211 reports Guy de Chauliac's rejection of the ant method {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211 footnote}. This later surgeon's judgment is known here through the translator, not independent reading of his original; it concerns ants, not testing intestinal thread {cite:zahrawi-leclerc-chirurgie-1861 ch.87 p.211 footnote}. Adjacent alternatives therefore cannot automatically share one endorsement or rejection.
 
 Several voices coexist: the author classifies, relates experience and cites others; the translator adds a note; modern historians summarize the thread as catgut {cite:zahrawi-leclerc-chirurgie-1861 ch.87 pp.202–211} {cite:majeed-islam-medicine-2005 medicine discussion}. They are not independent examinations of every Arabic witness. Each provides a different kind of evidence without making the French edition an original Andalusian manuscript or a medical summary a material analysis {cite:zahrawi-leclerc-chirurgie-1861 title and ch.87 p.211}.
 
@@ -97,7 +97,7 @@ The published translation makes it possible to read the witness alongside a mode
 
 ## Surviving examples
 
-The specific witness is a French edition dated June1861 on its title page, containing printed page211; title and passage were checked against scan images {cite:zahrawi-leclerc-chirurgie-1861 title and ch.87 p.211}. No thread surviving from al-Zahrawi's lifetime or author autograph is presented. Dogmonster published the licensed photograph, and Hohum later removed its background. This explicitly modern material comparison is not an archaeological surgical specimen {cite:commons-catgut-dogmonster upload history}.
+The specific witness is a French edition dated June1861 on its title page, containing printed page 211; title and passage were checked against scan images {cite:zahrawi-leclerc-chirurgie-1861 title and ch.87 p.211}. No thread surviving from al-Zahrawi's lifetime or author autograph is presented. Dogmonster published the licensed photograph, and Hohum later removed its background. This explicitly modern material comparison is not an archaeological surgical specimen {cite:commons-catgut-dogmonster upload history}.
 
 ## In culture
 
@@ -109,8 +109,8 @@ A new idea may concern what something is made from, not only its shape. Al-Zahra
 
 ## References
 
-- Leclerc's1861 French translation, chapter87, especially207–211; not an independent collation of Arabic. {cite:zahrawi-leclerc-chirurgie-1861 title and ch.87 pp.207–211}
+- Leclerc's1861 French translation, chapter 87, especially 207–211; not an independent collation of Arabic. {cite:zahrawi-leclerc-chirurgie-1861 title and ch.87 pp.207–211}
 - Azeem Majeed, BMJ331(7531),2005,1486–1487: historical editorial, not a global-priority study. {cite:majeed-islam-medicine-2005 pp.1486–1487}
 - Esin Kahya's TDV entries: biography, work structure, chronology and translation history. {cite:tdv-zehravi pp.189–191} {cite:tdv-tasrif-zehravi pp.132–133}
-- Abdel-Halim and colleagues2003,1283: named Muslim classification, not the filament evidence used here. {cite:alzahrawi-stones-abdelhalim-2003 p.1283}
+- Abdel-Halim and colleagues 2003,1283: named Muslim classification, not the filament evidence used here. {cite:alzahrawi-stones-abdelhalim-2003 p.1283}
 - Commons, Catgut.jpg: description, upload history and public-domain dedication. {cite:commons-catgut-dogmonster description and upload history}

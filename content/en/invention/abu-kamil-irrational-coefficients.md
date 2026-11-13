@@ -11,23 +11,23 @@ provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "in
 
 [[person/abu-kamil-shuja-ibn-aslam|Abu Kamil Shuja ibn Aslam]] did more than obtain a radical at the end of a solution. Cengiz Aydin explains that [[work/abu-kamil-al-jabr|his algebra]] admitted irrational quantities into equation coefficients as well as solutions. This enlarged what algebra could handle; it was not invention of all algebra or discovery of the first length that cannot be written as a ratio of integers {cite:tdv-abu-kamil work1}.
 
-We record a refinement within an inherited tradition. Melek Dosay presents radical problems including a product containing square roots of3 and2. We read that example on an actual image of the modern paper, not in Abu Kamil's manuscript. The level of evidence must remain visible {cite:dosay-abu-kamil-1990 p.66}.
+We record a refinement within an inherited tradition. Melek Dosay presents radical problems including a product containing square roots of 3 and 2. We read that example on an actual image of the modern paper, not in Abu Kamil's manuscript. The level of evidence must remain visible {cite:dosay-abu-kamil-1990 p.66}.
 
 ## What it is
 
-A coefficient is a quantity multiplying an unknown or one of its powers: it may be2, one half, or in this topic a quantity such as the square root of2. “Root” itself needs care: a square root of a number and a solution of an equation are related but different meanings. An equation having an irrational solution is not the same as an equation having an irrational coefficient. Aydin distinguishes these positions when describing the refinement {cite:tdv-abu-kamil work1}.
+A coefficient is a quantity multiplying an unknown or one of its powers: it may be 2, one half, or in this topic a quantity such as the square root of 2. “Root” itself needs care: a square root of a number and a solution of an equation are related but different meanings. An equation having an irrational solution is not the same as an equation having an irrational coefficient. Aydin distinguishes these positions when describing the refinement {cite:tdv-abu-kamil work1}.
 
 In modern teaching notation, `x²=2` has integer coefficients and an irrational positive solution. In `x²+sqrt(2)x=4`, an irrational quantity appears in the coefficient itself. This second equation is our teaching example, not a purported line from the book. The difference concerns the problem's structure before its answer, not the length of the printed symbol.
 
 ## The world before it
 
-MacTutor records Abu Kamil acknowledging [[person/al-khwarizmi|al-Khwarizmi]]'s algebraic authority; Aydin connects his work with earlier algebra and Euclidean geometry. The maker's older record also preserves the1939 Cairo editors' references to that acknowledgement. The story does not begin in a world without unknown quantities or geometry without irrational magnitudes {cite:abu-kamil-mactutor biography} {cite:tdv-abu-kamil work1} {cite:khwarizmi-jabr-cairo-1939 pp.24–25}.
+MacTutor records Abu Kamil acknowledging [[person/al-khwarizmi|al-Khwarizmi]]'s algebraic authority; Aydin connects his work with earlier algebra and Euclidean geometry. The maker's older record also preserves the 1939 Cairo editors' references to that acknowledgement. The story does not begin in a world without unknown quantities or geometry without irrational magnitudes {cite:abu-kamil-mactutor biography} {cite:tdv-abu-kamil work1} {cite:khwarizmi-jabr-cairo-1939 pp.24–25}.
 
 Radicals in geometry predate this application, but making a geometric quantity act as a factor in algebra raises a different question from drawing it. We neither reduce all predecessors to one person nor assume that every Greek or Arabic inheritance reached the author by an identical route.
 
 ## The story
 
-Very little personal information survives. MacTutor gives an Egyptian setting and approximate life dates850–930; TDV cautions about modern career claims and places him after al-Khwarizmi and before al-Imrani's commentary on his book. We therefore do not turn a late suggestion into a confirmed shipbuilding job or court appointment {cite:abu-kamil-mactutor biography} {cite:tdv-abu-kamil biography}.
+Very little personal information survives. MacTutor gives an Egyptian setting and approximate life dates 850–930; TDV cautions about modern career claims and places him after al-Khwarizmi and before al-Imrani's commentary on his book. We therefore do not turn a late suggestion into a confirmed shipbuilding job or court appointment {cite:abu-kamil-mactutor biography} {cite:tdv-abu-kamil biography}.
 
 The record places the work in a tenth-century activity context, not a known invention day. We have not read a manuscript colophon dating composition and cannot turn a copy date or modern edition date into the year these equations were developed. The maker's existing approximate floruit remains unchanged, rather than being adjusted to make the inventions list easier to sort. Missing an exact day does not prevent explaining a documented contribution; it prevents inventing precision.
 
@@ -43,13 +43,13 @@ Dosay p66 presents, in modern symbolic notation, `(x+sqrt(3))(x+sqrt(2))=20`. We
 
 Our modern expansion gives `x²+(sqrt(3)+sqrt(2))x+sqrt(6)=20`. An irrational quantity appears in the coefficient ofx and another in the constant term. They are not temporary marks waiting to collapse into integers: calculation must continue with them accurately. This expansion checks the published problem; it is not a quotation of Abu Kamil's method or a solution we claim Dosay supplied.
 
-Our simpler example, `x²+sqrt(2)x=4`, can be checked by substituting the square root of2 forx: its square is2 and its product with the square root of2 is2, giving4. This does not claim to find every solution or solve all equations of every degree. It demonstrates an irrational coefficient and an irrational solution in one example.
+Our simpler example, `x²+sqrt(2)x=4`, can be checked by substituting the square root of 2 forx: its square is 2 and its product with the square root of 2 is 2, giving4. This does not claim to find every solution or solve all equations of every degree. It demonstrates an irrational coefficient and an irrational solution in one example.
 
-One cannot add radicals merely by adding their radicands: the square root of2 plus the square root of3 is not the square root of5, because squaring the sum introduces `2sqrt(6)`. Multiplying these two positive radicals does give the square root of6. These are modern explanations we verify, not rules purportedly copied from an uninspected folio.
+One cannot add radicals merely by adding their radicands: the square root of 2 plus the square root of 3 is not the square root of 5, because squaring the sum introduces `2sqrt(6)`. Multiplying these two positive radicals does give the square root of 6. These are modern explanations we verify, not rules purportedly copied from an uninspected folio.
 
 Exact and approximate values must also remain distinct. Decimal replacements can help with an approximate check, but rounded output is not the exact expression. Modern calculator digits do not become Abu Kamil's documented precision, and an algebraic solution does not automatically qualify as a positive geometric length.
 
-To read the example in stages, distribute the multiplication, collect the two terms containing the unknown, and then inspect the resulting coefficient. The constant square root of6 does not vanish when the unknown terms are collected; moving it across the equality changes its sign. This lets a reader check each equality against the starting expression without attributing our school notation or sequence to a manuscript page. We are illustrating the meaning of the coefficient described by scholarship, not recovering a missing text {cite:dosay-abu-kamil-1990 p.66}.
+To read the example in stages, distribute the multiplication, collect the two terms containing the unknown, and then inspect the resulting coefficient. The constant square root of 6 does not vanish when the unknown terms are collected; moving it across the equality changes its sign. This lets a reader check each equality against the starting expression without attributing our school notation or sequence to a manuscript page. We are illustrating the meaning of the coefficient described by scholarship, not recovering a missing text {cite:dosay-abu-kamil-1990 p.66}.
 
 ## The spread
 
@@ -91,7 +91,7 @@ Where scholarship uses “first” for a higher power or indeterminate problem, 
 
 Students can distinguish `sqrt(2)+sqrt(3)` from `sqrt(5)` and then expand a product that generates an irrational coefficient. The lesson does not require portraying older algebra as an incomplete computer: it had languages, purposes and reasoning methods described by the scholarship {cite:tdv-abu-kamil work1}.
 
-The accompanying image is a modern right triangle released to the public domain by TheOtherJesse in2007. It explains sides and an angle, not Abu Kamil's drawing or an assumed isosceles example with sides1 and1. Its appearance supplies no historical proof about coefficients or the algebra book {cite:commons-trigonometry-triangle Description and licensing}.
+The accompanying image is a modern right triangle released to the public domain by TheOtherJesse in 2007. It explains sides and an angle, not Abu Kamil's drawing or an assumed isosceles example with sides1 and 1. Its appearance supplies no historical proof about coefficients or the algebra book {cite:commons-trigonometry-triangle Description and licensing}.
 
 ## Surviving examples
 
@@ -107,14 +107,14 @@ The formulas missing from extracted article text also show why digital research 
 
 ## For young readers
 
-Draw a square and label its side “square root of2” and its area2. No cutting or exact measurement is necessary: these are symbolic cards. The square root of2 is not half of2; its square is2.
+Draw a square and label its side “square root of 2” and its area2. No cutting or exact measurement is necessary: these are symbolic cards. The square root of 2 is not half of 2; its square is 2.
 
-Now compare cards marked “square root of2” and “square root of3.” Combining the cards does not mean adding numbers inside the radical. If you know expansion, square their sum and find the additional product term. These are modern pencil activities, not manuscript reconstruction or a claim that the accompanying triangle depicts this square.
+Now compare cards marked “square root of 2” and “square root of 3.” Combining the cards does not mean adding numbers inside the radical. If you know expansion, square their sum and find the additional product term. These are modern pencil activities, not manuscript reconstruction or a claim that the accompanying triangle depicts this square.
 
 ## References
 
 - O'Connor and Robertson, complete actual MacTutor biography {cite:abu-kamil-mactutor biography}.
 - Cengiz Aydin, TDV1994,10:172–174, actual main text and author metadata {cite:tdv-abu-kamil work1}.
-- Melek Dosay1990, selected pp57–60,66–68; p66 image inspected {cite:dosay-abu-kamil-1990 pp.57–60,66–68}.
+- Melek Dosay1990, selected pp 57–60,66–68; p66 image inspected {cite:dosay-abu-kamil-1990 pp.57–60,66–68}.
 - Earlier source preserved in the maker record, not newly read in this run {cite:khwarizmi-jabr-cairo-1939 pp.24–25}.
 - Modern triangle metadata {cite:commons-trigonometry-triangle Description and licensing}.

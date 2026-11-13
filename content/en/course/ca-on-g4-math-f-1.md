@@ -12,10 +12,10 @@ This lesson asks you to explain what spending, saving, earning, investing and do
 For one of the three ideas, list two things a person might consider before deciding. Say which of them the record names and which you added yourself.
 
 ## Go deeper
-The Kuwaiti encyclopaedia of jurisprudence records that [[concept/idkhar-fiqh|saving (idkhar)]] is putting a thing aside for the time of need, and that the jurists keep to this sense {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1995}. It records that the jurists agree on one case: if a person has stored staple food for himself or his household, and another is in dire need of it, he must give it to him if he does not need it at once {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2000}. On giving, it says that [[practice/sadaqa|sadaqa]] transfers the thing itself and admits no taking back, while a loaned object must return to its owner {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10296}.
+The Kuwaiti encyclopaedia of jurisprudence records that [[concept/idkhar-fiqh|saving (idkhar)]] is putting a thing aside for the time of need, and that the jurists keep to this sense {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1995}. It records one case: if a person has stored staple food beyond his need, and another then comes to be in dire need of it, he must give it to him {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2000}. On giving, it says that [[practice/sadaqa|sadaqa]] transfers the thing itself and admits no taking back, while a loaned object must return to its owner {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10296}.
 
 ## Think about it
-The record says saving is putting a thing aside for a time of need, and that stored food goes to someone in dire need if its owner does not need it at once. Why might a town need both people who save and a rule about sharing what is saved, and not only one of them?
+The record says saving is putting a thing aside for a time of need, and that food stored beyond a person's need goes to someone in dire need. Why might a town need both people who save and a rule about sharing what is saved, and not only one of them?
 
 ## Into the museum
 - [[concept/idkhar-fiqh|Saving (idkhar)]]: what saving meant to the jurists, for a person and for the state.

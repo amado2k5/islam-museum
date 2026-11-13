@@ -110,7 +110,7 @@ Al-Hassani presents the pump alongside clocks and banquet devices in his public 
 Imagine flowing water turning a wheel. Its teeth drive another gear, and a pin with a slotted rod converts rotation into back-and-forth movement in the pump rods, as the reference explains {cite:tdv-cezeri pp. 505–506}. Al-Jazari described the idea in his book; the Science Museum's model is a reconstruction that helps explain it, not an original from his lifetime {cite:smg-jazari-double-pump catalogue}.
 
 ## References
-- [[source/jazari-hill-1974|Al-Jazari — Donald Hill translation1974]]
+- [[source/jazari-hill-1974|Al-Jazari — Donald Hill translation 1974]]
 
 - Sadettin Ökten, “CEZERÎ, İsmâil b. Rezzâz”, TDV Encyclopedia of Islam, vol. 7, 1993, pp. 505–506, especially the final pump paragraph. {cite:tdv-cezeri pp. 505–506}
 - Salim al-Hassani, “Al-Jazari: The Mechanical Genius”, pump discussion and figure 6–7 captions. {cite:fstc-jazari-mechanical-genius pump discussion}
