@@ -297,8 +297,20 @@ Recorded in `docs/decisions/inbox/audit-part-vi-founder-choices-2026-11-13.yaml`
 | Tafsir digests (item 11) | One sentence inside the Tafsir section of the verse pages that have a digest | Done |
 | Beings filed as persons (item 7) | Optional `being` on persons; Jibril and Mika'il typed as angels from al-Tabari on 2:98; the four disputed beings untyped | Done |
 | Untestable dates (item 8) | Compare with Wikidata where there is an id; the rest leave timelines and sorted lists and stay on the page, marked unverified | To do |
-| Connectedness (item 9) | Measure subject records only; count the sources nothing cites beside it | To do |
+| Connectedness (item 9) | Measure subject records only; count the sources nothing cites beside it | Done: `scripts/audit/subject-reach.py` |
 | S2 | Write the two missing digests from al-Tabari, al-Turki edition, vol. 19 pp. 466-469 and vol. 24 pp. 727-730 | Done: S2 is GREEN for the two verses the brief named; the pages were read on Shamela through a fetch, not on a printed copy |
 | S24 | Build the Du'a occasions axis from al-Nawawi's al-Adhkar (structure checked on Shamela) | To do |
 | The Signs door (item 6) | Not raised; stays as built | |
 
+### Connectedness, restated (founder decision, 13 November 2026)
+
+The Grand Tour's target (60% of all published records within three relation-hops of a cornerstone) is out of reach by construction, because 47% of published records are sources and a citation is not a relation. That oracle and its baseline are left as they are. The measure the museum reports from now on is over published subject records (everything but sources), with two numbers beside it, from `python3 scripts/audit/subject-reach.py` on the tree of 13 November 2026:
+
+| Measure | Value |
+|---|---|
+| Published subject records within three hops of a cornerstone | 7,138 of 9,833 (72.6%) |
+| The Grand Tour's measure, for comparison | 7,138 of 18,679 (38.2%) |
+| Source records that no record cites | 107 of 9,211 |
+| Published subject records with no relation at all | 1,654 (passages 671, media 222, works 162, buildings 116, concepts 100, listings 79, groups 76, places 72) |
+
+The 74.3% quoted in the Part III section was measured before the duplicate merges and the day's other changes on `main`. The Grand Tour's own numbers file (`docs/fable-run/NUMBERS.md`) carries a similar figure that also leaves out media and dataset records (73.9%); this one leaves out sources only. No target is set here: the last row is the work list.
