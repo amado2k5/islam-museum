@@ -2588,3 +2588,14 @@ Resume point: modakirate-iblis episode 9 (branch from origin/main).
 | A garbled stretch on what the angels say in the grave and on the wife's qualifications | ep09 00:05:00 | Loop, nothing safely restated | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 10 (branch from origin/main).
+
+### modakirate-iblis ep10 (12 Nov 2026)
+
+12 points written for episode 10 (ar, en, ur); 7 needs_source marks in each language file; 5 new `about` edges. Quran verses referenced only through passage links (49-12, 24-59); none typed. Proposal for the founder, not applied: the lecturer's opinions on marriage between relatives and on honest employees as recipients of almsgiving (00:06:00 to 00:07:00) are recorded as his opinions only.
+
+| Excluded (modakirate-iblis ep10) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break (a relief-organisation appeal for Syria and an advert for a charity evening), and the closing prayer | ep10 00:00:00, 00:11:30-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| A loop and garbled stretches (the husband's father's name, a verse of poetry on beauty, phone-number talk) | ep10 00:03:30-00:04:30, 00:07:30-00:08:00, 00:14:00-00:14:30, 00:22:00 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 11 (branch from origin/main).
