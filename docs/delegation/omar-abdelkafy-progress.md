@@ -2505,3 +2505,15 @@ Resume point: modakirate-iblis episode 2 (branch from origin/main).
 | A garbled stretch about the Companions reaching a percentage of what the Prophet wanted | ep02 00:20:30-00:21:00 (part) | Garbled and unreliable | Clarity | Open |
 
 Resume point: modakirate-iblis episode 3 (branch from origin/main).
+
+### modakirate-iblis ep03 (12 Nov 2026)
+
+15 points written for episode 3 (ar, en, ur); 7 needs_source marks in each language file; 5 new `about` edges. Quran verses referenced only through passage links (22-38, 16-128, 36-82, 38-42, 49-13, 20-18); none typed. The lecturer's call to reflect on the Qur'an (00:03:30) is not linked because the transcript does not say which verse.
+
+| Excluded (modakirate-iblis ep03) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break trailer and the closing prayer | ep03 00:00:00, 00:11:30, 00:23:00-00:24:00 | Not lesson content | Content rule | Open |
+| A long loop of repeated syllables | ep03 00:09:00 (part), 00:20:00 (part) | Not recoverable | Clarity, Loop check | Open |
+| A garbled stretch of the Bedouin story with unclear diacritics | ep03 00:04:30 (the opening words) | Partly garbled, only the clear sense used | Clarity | Open |
+
+Resume point: modakirate-iblis episode 4 (branch from origin/main).
