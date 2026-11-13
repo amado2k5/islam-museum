@@ -2225,3 +2225,15 @@ Resume point: mawkib-al-nour episode 9 (branch from origin/main).
 | Asides on nutrition and germs, a French-revolution anecdote, an aid-agency broadcast and a reference to Hasan's palate beyond the points kept | ep09 00:10:30, 00:23:00, 00:29:00 | Illustrative asides, not separate claims | Content rule | Open |
 
 Resume point: mawkib-al-nour episode 10 (branch from origin/main).
+
+### mawkib-al-nour ep10 (12 Nov 2026)
+
+31 points written for episode 10 (ar, en, ur); 20 needs_source marks; 10 new `about` edges. Quran verses referenced only through passage links (17-18, 17-19, 17-20, 17-13, 17-14, 6-75, 72-8, 72-9, 6-162, 6-163, 16-97, 20-124, 20-125, 20-126, 18-29, 18-65); none typed. Proposal for the founder, not applied: at ep10 00:29:00 the lecturer speaks of young people eager to die in a fight against occupiers; the passage is not reproduced and the point is kept in neutral words (dying versus living in God's way), in line with the content-safety rule. The lecturer's figures on the zakat due on oil (00:07:00), on the share of Muslims among the world's poor (00:06:30) and on the number of non-believers (00:14:30) are unsourced and marked, not removed. His account of guidance and free will (00:35:00) is a theological explanation recorded as his own; the record stays `sensitivity: contested`.
+
+| Excluded (mawkib-al-nour ep10) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and the closing supplication | ep10 00:00:00-00:01:00 (recitation, Quran text never typed), 00:21:00 (a verse recited mid-text), 00:42:00-00:42:30 (closing and a hallucinated tail of repeated syllables) | Not lesson content | Content rule, Quran rule | Open |
+| References to a fight against occupiers and the praise of dying in it | ep10 00:29:00 | Modern-conflict framing dropped under the content-safety rule; the lesson point is kept in neutral words | Content-safety rule | Open |
+| Asides on football pools, a bank-clerk dialogue, a wedding-fashion example and other jokes beyond the points kept | ep10 00:09:00, 00:22:00, 00:25:00 | Illustrative asides, not separate claims | Content rule | Open |
+
+Resume point: mawkib-al-nour episode 11 (branch from origin/main).
