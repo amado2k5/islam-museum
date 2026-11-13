@@ -1,0 +1,62 @@
+id: dec-20261113-269
+kind: decision
+date: 2026-11-13
+expires_at: 2027-11-13
+question_hash: 4748315ee7f9
+lane: build-deploy-performance
+class: process
+modality: repo
+domain: governance
+mode: conservative
+question: "Build and deploy speed changes (graph lookups, non-blocking R2
+  staging upload, packed build artifact, no shared status file): the founder
+  said in chat on 12 November 2026 to leave production as it is, try the changes
+  on UAT first and make them on release/uat rather than main, although AGENTS.md
+  (founder rule of the same day) retires release/uat. After the UAT build and
+  deploy of 13 November he said to open the pull request to main and to fix the
+  /ar redirect and the action versions with it. Which branch applies to the
+  trial, and may the changes then go to main?"
+options:
+  - trial on release/uat as a one-off exception (pull request 6343), then bring
+    the reviewed changes to main by a pull request to main
+  - raise everything against main from the start under the one-branch rule
+evidence:
+  - "founder instruction in chat, 12 November 2026: 'we can leave prod
+    deployment process as is and try all this first on uat and uat deployment,
+    also we can try to make the changes on release/uat branch not main'"
+  - "founder in chat, 13 November 2026: 'Yes, open it' (the pull request to
+    main) and 'can we fix the two issues you noticed'"
+  - UAT build run 43300358009 (1 h 22 min) and UAT deploy run 43334841849 (47
+    min, 0 failed operations); 400 sampled pages byte-identical to production
+  - "AGENTS.md, 'One branch: main (founder rule, 12 November 2026)'"
+status: founder-docket
+step: policy-gate
+decision: deploys are founder-only (cost + control)
+confidence: n/a
+reversible: false
+rationale: ""
+gate: nd-deploy
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-deploy
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - nd-deploy
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-13
+    by: founder (in chat, 12 and 13 November 2026; recorded by Claude)
+    note: One-off exception to the one-branch rule for the trial on release/uat
+      (pull request 6343); after the UAT build and deploy the founder asked for
+      the pull request to main.
+  founder_override: false
+  calibration_weight: 1

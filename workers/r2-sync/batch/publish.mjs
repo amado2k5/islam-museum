@@ -10,7 +10,7 @@
 import { readFileSync, readdirSync, statSync, writeFileSync, mkdtempSync, existsSync, rmSync, appendFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
-import { execFileSync } from "node:child_process";
+import { execFileSync, spawn } from "node:child_process";
 import { join, relative, sep, resolve as resolvePath } from "node:path";
 import { tmpdir } from "node:os";
 import { packArchives } from "./pack.mjs";
@@ -301,15 +301,28 @@ function describeError(err) {
   return err?.message || err?.name || String(err);
 }
 
+// Runs a command without blocking the event loop; rejects when it cannot start or exits non-zero.
+export function runCommand(cmd, cmdArgs, options = { stdio: "inherit" }) {
+  return new Promise((resolve, reject) => {
+    const child = spawn(cmd, cmdArgs, options);
+    child.on("error", reject);
+    child.on("close", (code, signal) => {
+      if (code === 0) resolve();
+      else reject(new Error(`${cmd} ${cmdArgs.slice(0, 2).join(" ")} ended with ${signal ?? `exit code ${code}`}`));
+    });
+  });
+}
+
 async function applyArchive(archive, dir, workerUrl, progress) {
   const started = Date.now();
   const file = join(dir, archive.name);
   writeFileSync(file, archive.bytes);
   const stagedKey = `${STAGING_PREFIX}${archive.name}`;
   try {
-    await withRetry(archive.name, "staging upload", () => {
-      execFileSync("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
-    });
+    // Not execFileSync: a blocking upload stops every other runner, so the archives went up one at a time (about four
+    // seconds each, 1,763 archives in two hours on 10 November 2026) whatever PARALLEL said.
+    await withRetry(archive.name, "staging upload", () =>
+      runCommand("aws", ["s3", "cp", file, `s3://${bucket}/${stagedKey}`, "--endpoint-url", endpoint, "--only-show-errors"]));
   } finally {
     // The Worker reads the staged copy, so the local zip is not needed once it is uploaded.
     rmSync(file, { force: true });
