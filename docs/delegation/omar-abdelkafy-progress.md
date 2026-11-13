@@ -2292,3 +2292,16 @@ Resume point: mawkib-al-nour episode 14 (branch from origin/main).
 | A half-clear verse of poetry about dignity in the pre-Islamic manner, which the lecturer says he does not endorse, and asides on a hammer and a mallet | ep14 00:38:30-00:39:00, 00:28:30 | Poetry the lecturer disclaims; illustrative aside | Content rule | Open |
 
 Resume point: mawkib-al-nour episode 15 (branch from origin/main).
+
+### mawkib-al-nour ep15 (12 Nov 2026)
+
+25 points written for episode 15 (ar, en, ur); 17 needs_source marks per language file (ar 17, en 17, ur 17); 10 new `about` edges. The recording is complete (it ends with the closing greeting at 00:31:30) and is shorter than the others, not truncated. Quran verses referenced only through passage links (67-10, 67-11, 2-44, 23-10, 23-11, 10-23, 113-1, 113-5, 33-72, 40-19, 11-111, 66-10, 83-6, 23-97, 23-98, 9-40, 6-103, 7-198, 21-69, 76-13, 37-107, 28-7, 37-143, 37-144, 5-27, 6-54); none typed. Proposal for the founder, not applied: the list of five kinds of people from whom blessing is lifted (ep15 00:04:30) and the division of the roots of evil into three "according to the scholars" (00:08:00) are recorded as his, with no source; the story of Ibn Tulun and the ascetic (00:23:30) has no chain.
+
+| Excluded (mawkib-al-nour ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and the closing supplication | ep15 00:00:00-00:01:30 (recitation, Quran text never typed; the opening supplication), 00:31:00-00:31:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep15 00:06:00 (a garbled passage on a pledge), 00:07:30-00:08:00 (garbled), 00:11:00 (garbled), 00:19:30 (a repeated sentence), 00:30:30 (garbled derivation of the word for Satan) | Not recoverable | Clarity, Loop check | Open |
+| A story of a mother weeping over a young man whom al-Hajjaj wished to kill, and a garbled remark on the marriage of the two sons of Adam | ep15 00:26:00-00:26:30 | Garbled, cannot be traced to a chain | Clarity | Open |
+| An aside on a half-clear saying about drinking from the sea | ep15 00:09:30 | Illustrative aside, partly garbled | Clarity | Open |
+
+Resume point: mawkib-al-nour episode 16 (branch from origin/main).
