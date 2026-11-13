@@ -1,0 +1,62 @@
+id: dec-20261113-270
+kind: decision
+date: 2026-11-13
+expires_at: 2027-11-13
+question_hash: 53beb9931314
+lane: build-deploy-performance
+class: process
+modality: repo
+domain: governance
+mode: conservative
+question: "Hosting fallback: the documents name a GitHub Pages fallback mirror
+  for a Cloudflare outage, but no workflow publishes it (last GitHub Pages
+  deployment 18 October 2026) and GitHub Pages cannot hold the site (1 GB limit;
+  the site is about 19 GB and 456,000 files). What is the fallback for a
+  Cloudflare outage?"
+options:
+  - "accept the risk: no live fallback, rebuild from git and publish elsewhere
+    if ever needed"
+  - keep a reduced mirror on GitHub Pages (under 1 GB, refreshed by a workflow)
+  - keep a full copy with a second provider, synced on every deploy
+evidence:
+  - "founder in chat, 13 November 2026: 'for now the decision is 1, but please
+    add these options and decisions to be revisited in the future anytime and
+    document it'"
+  - GitHub Pages limits (published site at most 1 GB, deployment timeout 10
+    minutes), docs.github.com, read 12 November 2026
+  - "GitHub API: the repository's github-pages environment was last deployed
+    2026-10-18"
+  - docs/engineering/06-deployment.md section 5a records the options and the
+    triggers for revisiting
+status: founder-docket
+step: policy-gate
+decision: deploys are founder-only (cost + control)
+confidence: n/a
+reversible: false
+rationale: ""
+gate: nd-deploy
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-deploy
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - nd-deploy
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-13
+    by: founder (in chat, 13 November 2026; recorded by Claude)
+    note: "Option 1 for now: accept the risk, no live fallback mirror. The three
+      options and the triggers for revisiting are kept in
+      docs/engineering/06-deployment.md section 5a; the decision may be reopened
+      at any time."
+  founder_override: false
+  calibration_weight: 1

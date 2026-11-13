@@ -22,15 +22,25 @@ entities, "on this day", share cards, maps) is precomputed in CI.
 
 ## 3. Build performance
 
-- Full pipeline ≈ 35 min on GitHub Actions (validate + test parallel to
-  build; deploy waits).
-- Pages deploy stays under the CF Pages file limit by **stripping**
-  `dist/pagefind-*` and `dist/api` before `wrangler pages deploy` — those go
-  to R2 instead. (This file-count pressure, not bandwidth, is why the host
-  moved from GitHub Pages to CF Pages on 18 Oct 2026.)
-- R2 sync is manifest-diffed: only changed chunks are uploaded (typically
-  hundreds of PUTs), and sync is skipped entirely when `data/`+`content/`
-  are unchanged.
+Measured on 13 November 2026 (58,128 entities, 202,253 pages); the full account is
+[45 · Build and deploy review](45-build-deploy-review.md).
+
+- A build run takes about 1 h 22 min on a GitHub runner: validate, graph, derive
+  and API export 8 min; Astro page rendering 27 to 43 min depending on the runner;
+  Pagefind 5.5 min; `check:site` and `check:static` about 12 min; packing and
+  uploading the artifact under 3 min. Before 13 November it took about 3 h 34 min.
+- A job is killed at six hours, so build time is a hard constraint, not a comfort.
+- **A page template must never scan the graph or read a file.** The entity template
+  runs 180,000 times; two such lookups (`edgesFrom` scanning every edge, `related`
+  re-parsing a 7.6 MB file) cost 2 h 20 min of every build until they were indexed
+  once in `site/src/lib/graph.ts`. Build an index at module level and look up in it.
+- The build is kept as one compressed artifact (`dist-tar`, 1.15 GB). A deploy
+  unpacks it; it never copies the whole `dist/` (19 GB, more than the runner's
+  documented 14 GB disk).
+- The HTML pages, search indexes, API and media are published to R2, not to
+  Cloudflare Pages: Pages and Workers static assets both stop at 100,000 files.
+  The publish is manifest-diffed, so only changed files are sent; a full rewrite
+  (about 360,000 files) takes about 42 minutes at 175 operations a second.
 - Validation is total, not incremental — deliberately: correctness beats
   build speed.
 
@@ -38,7 +48,7 @@ entities, "on this day", share cards, maps) is precomputed in CI.
 
 | Pressure | State / mitigation |
 |---|---|
-| Entity growth (~36k files and climbing) | Build time grows linearly; watch Astro build; per-language builds could parallelise if needed |
+| Entity growth (58,128 entities, 202,253 pages on 13 Nov 2026) | Render time is pages × milliseconds per page (7.5 ms for an entity page); watch both, and the build run against the six-hour job limit. Next costs and options: doc 45 §7.4 |
 | Pagefind chunk count | Already mitigated by passage exclusion; a Worker+D1 FTS5 fallback is documented as the upgrade path if indexes get too heavy (plan 03 §7) |
 | 3 languages now, more later | Pagefind runs per language; each language multiplies index and page count — language additions are phased (plan 06 Phase 4) |
 | Media (maps, illustrations, thumbnails) | Rendered offline on the Mac, committed as static files, served from `site/public/media/` and the media repo/R2 |

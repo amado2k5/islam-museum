@@ -16,7 +16,6 @@ flowchart LR
     CI[GitHub Actions<br/>validate · test · build]
     CF[Cloudflare Pages<br/>islam.museum]
     R2[(R2: pagefind + api/v1)]
-    GP[GitHub Pages mirror]
     V([Visitors])
     C([API consumers])
 
@@ -24,10 +23,8 @@ flowchart LR
     HV -->|draft candidates via PR| R
     R -->|workflow_dispatch, founder only| CI
     CI --> CF & R2
-    CI -.-> GP
     CF --> V
     R2 --> V & C
-    GP -.-> V
 ```
 
 ## 2. Build pipeline flow
@@ -156,13 +153,11 @@ sequenceDiagram
     participant W as deploy.yml
     participant R2
     participant P as CF Pages
-    participant G as GitHub Pages
 
     F->>W: workflow_dispatch
     W->>W: validate, test, build
     W->>W: diff data/+content/ — changed?
     W->>R2: manifest sync (pagefind, api)
     W->>P: pages deploy (stripped dist)
-    W->>G: fallback mirror
     W->>W: IndexNow notify
 ```
