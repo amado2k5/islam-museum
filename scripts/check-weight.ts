@@ -85,6 +85,40 @@ export const BUDGETS: Budget[] = [
   { family: "teen map", route: "/ar/shabab/journey/", html: 170 * KB, js: 10 * KB },
 ];
 
+/** The listing pages (audit of 13 November 2026, S18), kept apart from the education table above, whose routes a test maps to source files. */
+export const LISTING_BUDGETS: Budget[] = [
+  // Audit of 13 November 2026, S18: no listing page ships more than 500 KB of HTML. These pages printed their whole corpus
+  // (ibadat 4,985 KB, people 4,021 KB, mukatabat 3,615 KB, signs 3,527 KB, akhlaq 3,504 KB, messengers 2,241 KB, objects
+  // 2,202 KB, time 2,046 KB, ansab 1,744 KB, hisab 1,547 KB, islamic-economy 1,512 KB, miracles 1,268 KB, wander 8,281 KB,
+  // the battle kind 1,483 cards) and are now a landing plus linked sub-pages (site/src/lib/paged.ts, halls.ts). The ceiling
+  // is checked on each landing and on the heaviest sub-page of each kind. It may only stay or fall.
+  { family: "listing (audit S18)", route: "/ar/ibadat/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/people/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/mukatabat/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/signs/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/signs/all/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/akhlaq/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/messengers/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/objects/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/time/", html: 500 * KB, js: 30 * KB },   // the Hijri timeline script, as before
+  { family: "listing (audit S18)", route: "/ar/ansab/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/hisab/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/islamic-economy/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/miracles/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/ideas/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/living/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/made/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/words/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/browse/person/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/battles/kind/battle/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/wander/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/ibadat/all/sunnah/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/akhlaq/all/curated/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/people/all/u0645/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/time/all/c06/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/browse/person/all/u0645/", html: 500 * KB, js: 24 * KB },
+];
+
 export interface Measure { route: string; html: number; js: number; scripts: string[] }
 // `scripts` lists the page's own hashed files; chunks they import are counted in `js` but not listed.
 export function measure(dist: string, route: string): Measure | null {
@@ -136,7 +170,7 @@ export function check(dist: string, budgets = BUDGETS): { rows: string[]; errors
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   const dist = p("dist");
   if (!existsSync(dist)) { console.error("dist/ not found: run npm run build first"); process.exit(2); }
-  const { rows, errors } = check(dist);
+  const { rows, errors } = check(dist, [...BUDGETS, ...LISTING_BUDGETS]);
   for (const r of rows) console.log(r);
   for (const e of errors) console.log("ERROR " + e);
   console.log(`check-weight: ${rows.length} routes, ${errors.length} over budget`);

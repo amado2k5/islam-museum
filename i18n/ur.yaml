@@ -109,7 +109,7 @@ landing:
   widget_none: عجائب گھر میں اس دن کی تاریخ والا ابھی کوئی اندراج نہیں۔
   widget_fail: اس براؤزر میں تبدیلی نہیں ہو سکی۔
   widget_or: 'یا کہانی کے سب سے مشہور سفر سے آغاز کریں:'
-  stats: '{items} اندراجات · {pages} صفحات · 300 راستے'
+  stats: '{items} اندراجات · {pages} ریکارڈ صفحات، ہر اندراج کا ایک صفحہ عربی، انگریزی اور اردو میں · {pathways} راستے'
   honest: ہم خلا چھپانے کے بجائے دکھاتے ہیں
   honest_link: احاطہ دیکھیں
   art_title: آرٹ گیلری سے
@@ -155,6 +155,18 @@ wings:
     today: جہاں کیلنڈر ملتے ہیں
     made: آج مسلمانوں کی تخلیقات
 hall:
+  promise:
+    living: "عبادات، تہوار، کھانا، لباس اور موسیقی"
+    made: "کتب خانے، ناشر، ایپس، اسٹوڈیو، برانڈ اور خیراتی ادارے"
+  lead_title: "اس ونگ کے بنیادی ریکارڈ"
+  index_title: "مکمل فہرست"
+  index_count: "{n} اندراجات"
+  index_note: "ونگ کا ہر اندراج، پہلے حرف کے اعتبار سے۔ کوئی حرف چنیں، یا نام لکھیں۔"
+  index_note_time: "ونگ کا ہر اندراج زمانی ترتیب میں، عیسوی صدی کے اعتبار سے۔ کوئی صدی چنیں، یا نام لکھیں۔"
+  filter_label: "نام سے تلاش کریں"
+  other: "دیگر"
+  undated: "بغیر تاریخ"
+  bce: "قبل مسیح"
   coming: 'اب تک اس پہلو میں یہ ہے:'
   coming_time: اب تک اس پہلو میں، وقت کی ترتیب سے؛ اوپر کا ہجری زمانی خاکہ انہیں ایک محور پر جمع کرتا ہے۔
   empty: ابھی یہاں کچھ نہیں۔ یہ پہلو مجموعے کے بڑھنے کے ساتھ کھلے گا۔
@@ -204,7 +216,7 @@ entity:
   perspectives: نقطہ ہائے نظر
   not_translated: یہ صفحہ ابھی اردو میں دستیاب نہیں۔ دستیاب متن دکھایا جا رہا ہے۔
   help_translate: ترجمے میں مدد کریں
-  no_prose: اس اندراج کا تفصیلی متن ابھی نہیں لکھا گیا۔ نیچے کے حقائق اور تعلقات عجائب گھر کے ڈیٹا سے آتے ہیں۔
+  no_prose: یہ اندراج ابھی تک صرف ایک ریکارڈ ہے، مضمون کے بغیر۔ نیچے کے حقائق اور تعلقات عجائب گھر کے ڈیٹا سے آتے ہیں۔
   stub_title: ابھی عجائب گھر میں نہیں
   stub_body: یہ اندراج دوسرے صفحات میں حوالہ دیا گیا ہے اور ہماری مطلوبہ فہرست میں ہے۔ یہ ابھی تک نہیں لکھا گیا۔
   stub_help: اس اندراج کی تجویز دیں یا لکھیں
@@ -237,6 +249,7 @@ depth:
   deep: تفصیلی
 status:
   draft: مسودہ
+  draft_note: "یہ اندراج اپنے حوالہ کردہ مآخذ سے اے آئی کی مدد سے لکھا گیا، اور ابھی کسی انسانی مدیر نے نہیں پڑھا۔"
   reviewed: جائزہ شدہ
   verified: تصدیق شدہ
 claim:
@@ -863,7 +876,7 @@ coverage:
   entities: اندراجات
   wanted: مطلوب
   by_class: قسم کے لحاظ سے
-  by_wing: پہلو کے لحاظ سے
+  by_wing: "پہلو کے لحاظ سے ⁦(پہلو سے ٹیگ شدہ اندراجات، مسودوں سمیت)⁩"
   by_review: جائزے کی حیثیت کے لحاظ سے
   prose: زبان کے لحاظ سے تفصیلی متن
   sources_avg: فی اندراج اوسط ماخذ
@@ -1500,7 +1513,8 @@ backstage:
   intro_2a: 'اس صفحے کے لکھے جانے تک، عجائب گھر میں '
   intro_2b: ' اندراج ہیں جن سے عربی، انگریزی اور اردو میں '
   intro_2c: ' صفحات بنتے ہیں، اور '
-  intro_2d: ' رہنما راستے ہیں۔ اس کے پیچھے کھلا ذخیرہ 49,760 ریکارڈ رکھتا ہے، جو 17,314 کمٹ (commit) اور 4,388 ضم شدہ پل ریکویسٹ (pull request) سے بنا۔ عجائب گھر کا ڈیٹا CC0 کے تحت شائع ہے اور اس کی نثر CC BY-SA 4.0 کے تحت؛ سب کچھ ایک عوامی API کے ذریعے دستیاب ہے، اور ڈیٹا سیٹ کی ایک نقل Zenodo پر مستقل شناخت کنندہ (DOI: 10.5281/zenodo.23692511) کے ساتھ محفوظ ہے — تاکہ کوئی بھی پورا عجائب گھر ڈاؤن لوڈ کر کے اس صفحے کا ہر عدد خود جانچ سکے۔'
+  repo_stats: 'اس کے پیچھے کھلا ذخیرہ {commits} کمٹ (commit) اور {pulls} ضم شدہ پل ریکویسٹ (pull request) سے بنا ہے۔ '
+  intro_2d: ' رہنما راستے ہیں۔ {repo}عجائب گھر کا ڈیٹا CC0 کے تحت شائع ہے اور اس کی نثر CC BY-SA 4.0 کے تحت؛ سب کچھ ایک عوامی API کے ذریعے دستیاب ہے، اور ڈیٹا سیٹ کی ایک نقل Zenodo پر مستقل شناخت کنندہ (DOI: 10.5281/zenodo.23692511) کے ساتھ محفوظ ہے — تاکہ کوئی بھی پورا عجائب گھر ڈاؤن لوڈ کر کے اس صفحے کا ہر عدد خود جانچ سکے۔'
   repo_cta: 'GitHub پر کھلا ذخیرہ'
   how_cta: 'یہ کیسے بنا — دستے کی اپنی زبانی'
   build_title: 'تعمیر: لینیں، لہریں اور دروازے'
@@ -1694,7 +1708,7 @@ developers:
   lede: 'Build on the museum: an open, sourced graph of Islamic history — as links, as widgets, and as data your systems can read. No key, no fee, no permission to ask.'
   intro_1: 'Everything the museum publishes for readers is also published for machines. Every record — person, place, building, work, event — has a permanent web page and a JSON twin at a stable address, and the whole collection is served as one connected graph: records (nodes) and the sourced relationships between them (edges).'
   intro_2: 'There is no API key, no account and no rate card. The underlying data is CC0 1.0 — public domain, yours to download, keep and build on. The written articles are CC BY-SA 4.0, as with Wikipedia. If your system can open a web address, it can read the museum.'
-  live_stats: 'The living collection, right now: 52,576 records · 56,597 sourced connections · 24 record classes · 1,987 records still stubs, growing into full entries.'
+  live_stats: 'اس نسخے میں زندہ مجموعہ: {records} ریکارڈ · {edges} مستند تعلقات · ریکارڈ کی {classes} اقسام · {stubs} اسٹب، جن کا دوسرے ریکارڈ ذکر کرتے ہیں اور جو ابھی لکھے نہیں گئے۔'
   quickstart_title: 'Three ways in, from an afternoon to a platform'
   quickstart_intro: 'Choose the depth that suits your institution. Each level includes everything above it.'
   level1_title: 'Level 1 — Link it'
@@ -1704,15 +1718,16 @@ developers:
   level3_title: 'Level 3 — Build on the data'
   level3_body: 'Download the graph itself — every record and every sourced connection as plain JSON files — and build your own search, exhibits, school resources or research tools on top. CC0 means the copy is yours outright; the living source keeps growing and correcting, and you can re-sync whenever you like.'
   endpoints_title: 'Endpoints'
-  endpoints_intro: 'Base address: https://api.islam.museum/api/v1/ — the same paths on islam.museum redirect here. Plain HTTPS GET requests; responses are JSON, or NDJSON (one JSON object per line) for the two graph files, so they can be processed as a stream. CORS is open (Access-Control-Allow-Origin: *), so browsers may call the API directly.'
+  endpoints_intro: 'ہر پتہ https://api.islam.museum/api/v1/ سے شروع ہوتا ہے — یہ سابقہ خود کوئی صفحہ نہیں؛ داخلی دروازہ https://api.islam.museum/api/v1/index.json ہے۔ The same paths on islam.museum redirect here. Plain HTTPS GET requests; responses are JSON, or NDJSON (one JSON object per line) for the two graph files, so they can be processed as a stream. CORS is open (Access-Control-Allow-Origin: *), so browsers may call the API directly.'
   col_endpoint: 'Endpoint'
   col_returns: 'What it returns'
   ep1: 'The API index: version, the 22 record classes, and the licences in machine-readable form.'
   ep2: 'Live totals: how many records exist, and how many per class.'
   ep3: 'Every record of one class in a single JSON array — for example all 10,884 people.'
   ep4: 'One complete record: labels and summaries in three languages, its structured data, its sources, and its precomputed connections.'
-  ep5: 'The whole graph''s records, one JSON object per line (49,570 lines).'
-  ep6: 'Every connection between records, one per line (38,862) — each carries the sources it rests on.'
+  ep0: "داخلی دروازہ: اس API میں کون سی فائلیں اور فولڈر ہیں، اور اس کی OpenAPI تفصیل کہاں ہے۔"
+  ep5: 'پورے گراف کے ریکارڈ اور اسٹب، ہر سطر میں ایک JSON آبجیکٹ ⁦({nodeLines} سطریں)⁩۔'
+  ep6: 'ریکارڈوں کے درمیان ہر تعلق، ہر سطر میں ایک ({edgeLines}) — اور ہر تعلق کے ساتھ وہ مآخذ جن پر وہ قائم ہے۔'
   ep7: 'Embeddable widgets for your own pages: a fact card and the trail of the week, in Arabic, English or Urdu.'
   ep8: 'The archived dataset on Zenodo, with a permanent DOI for citation: 10.5281/zenodo.23692511.'
   examples_title: 'Example queries, with real results'
@@ -1751,7 +1766,7 @@ developers:
   agents_title: 'Start with an AI agent'
   agents_intro: 'Hand one of these prompts to your coding assistant — Claude, Devin, Copilot, or any other — together with this page''s address. Each prompt is self-contained: it names the endpoints, the licence, and the result to produce. The prompts are given in English, as working text.'
   roadmap_title: 'How much remains — why the living source matters'
-  roadmap_1: 'Of the 47,718 records already ingested, only about a quarter (11,907) are published; the rest are drafts still being enriched, and 1,852 are stubs awaiting their full build. A download today is a photograph of a workshop, not the finished shelves.'
+  roadmap_1: 'Of the {records} records in this build, {published} are published; the other {drafts} are drafts still being enriched, and {stubs} more are stubs awaiting their full build. A download today is a photograph of a workshop, not the finished shelves.'
   roadmap_2: 'Beyond that, the museum''s own gap map names the corpora not yet harvested: the Turkish DİA encyclopaedia (~16,800 articles, so far used only for single records), Nadwi''s 57-volume dictionary of women hadith scholars (~9,000–10,000 teachers, almost none yet in the museum), the great narrator dictionaries behind the hadith transmitter graph, the Encyclopaedia of Islam backlog, a census of manuscripts and the libraries that hold them, and regional sweeps across Southeast Asia, Africa, China and the Americas that have barely begun. Three named dictionaries alone hold roughly 36,000 more entries than the museum has records today.'
   roadmap_3: 'So take the data — that is what it is for. But build against the living source where you can: it corrects errors as scholars report them, adds thousands of records a month, and keeps one canonical address for everything. The copy is a snapshot; the museum is the garden.'
   honesty_title: 'What is not here yet'
@@ -1793,7 +1808,7 @@ support:
   lede: یہ عجائب گھر مفت اور کھلا ہے، اس میں کوئی اشتہار نہیں اور کوئی ٹریکنگ نہیں۔ اگر یہ آپ کے لیے مفید ہے تو آپ کی مدد اسے ایسا ہی رکھتی ہے اور اسے تیزی سے آگے
     بڑھاتی ہے۔
   why_title: مدد کیوں کریں؟
-  why_body: 'سب کے لیے مفت — مگر بانی کے لیے نہیں۔ یہ عجائب گھر اپنے زائرین سے کچھ نہیں لیتا — کوئی اکاؤنٹ نہیں، کوئی اشتہار نہیں، کوئی ٹریکنگ نہیں، کوئی پے وال نہیں — اور اس کے اخراجات اس کے بانی ماہ بہ ماہ ادا کرتے ہیں۔ حالیہ ایک مہینے میں یہ جاری اخراجات تقریباً 1,900 کینیڈین ڈالر رہے۔ سب سے بڑا حصہ، تقریباً 900 کینیڈین ڈالر، AI معاونین کا تھا — Claude، ChatGPT، Devin، Grok، Google کی AI اور Muse، وہ ذاتی ایجنٹ جو پورے بیڑے کے کام کو مربوط کرتا ہے — جو مواد کی تحقیق، مسودہ سازی، ترجمے اور اس کے دستاویزی ماخذ کے مقابل تصدیق کے لیے استعمال ہوتے ہیں۔ ویڈیو سازی کے اوزار Runway، Artlist اور Veo عجائب گھر کی فلمیں بناتے ہیں؛ ElevenLabs انہیں عربی، انگریزی اور اردو میں بیان کرتا ہے؛ اور GitHub کوڈ کی میزبانی کرتا ہے۔ Cloudflare، تقریباً 90 کینیڈین ڈالر ماہانہ، میزبانی اور ذخیرے کے ساتھ مل کر تقریباً 99,000 صفحات کو تیز اور محفوظ رکھتا ہے، اور ڈومین رجسٹریشن عجائب گھر کے نام اسی کے نام رکھتی ہے۔ اور بلند ترین درجات — Claude Ultra اور Devin Max — بھی مہینہ ختم ہونے سے پہلے ختم ہو جاتے ہیں: اکتوبر اور نومبر کے آغاز میں صرف اووریج اور ٹاپ اپ چارجز نے سبسکرپشنز کے اوپر تقریباً 730 کینیڈین ڈالر کا اضافہ کیا۔ اور استعمال ناپا ہوا اور درج ہے، اندازہ نہیں: Copilot Max نے پانچ دنوں میں اپنی 20,000 ماہانہ AI کریڈٹس میں سے 18,525 استعمال کیے، Devin کا ہفتہ وار کوٹہ لگاتار دو ہفتے 100 فیصد پر رہا، اور Claude Ultra اپنے ہفتے کے 84 فیصد پر تھا جب کہ اس کی تجدید میں دن باقی تھے۔ یہ ماہانہ جاری اخراجات ہیں، سالانہ اعداد نہیں۔ ہر تعاون براہِ راست انہی پر جاتا ہے — اور اس سے کچھ خریدا نہیں جاتا: نہ رسائی، نہ سامان، نہ مواد پر کوئی اختیار۔ اور عجائب گھر خود بھی لینے کے لیے مفت ہے: کوئی بھی اس کا ڈیٹا (CC0) اور کوڈ (MIT) ڈاؤن لوڈ کر کے اسے مقامی طور پر چلا سکتا ہے، اسے بطور نمونہ آگے بڑھا سکتا ہے، یا اس کی عوامی API استعمال کر سکتا ہے — سب کے لیے مفت۔'
+  why_body: 'سب کے لیے مفت — مگر بانی کے لیے نہیں۔ یہ عجائب گھر اپنے زائرین سے کچھ نہیں لیتا — کوئی اکاؤنٹ نہیں، کوئی اشتہار نہیں، کوئی ٹریکنگ نہیں، کوئی پے وال نہیں — اور اس کے اخراجات اس کے بانی ماہ بہ ماہ ادا کرتے ہیں۔ حالیہ ایک مہینے میں یہ جاری اخراجات تقریباً 1,900 کینیڈین ڈالر رہے۔ سب سے بڑا حصہ، تقریباً 900 کینیڈین ڈالر، AI معاونین کا تھا — Claude، ChatGPT، Devin، Grok، Google کی AI اور Muse، وہ ذاتی ایجنٹ جو پورے بیڑے کے کام کو مربوط کرتا ہے — جو مواد کی تحقیق، مسودہ سازی، ترجمے اور اس کے دستاویزی ماخذ کے مقابل تصدیق کے لیے استعمال ہوتے ہیں۔ ویڈیو سازی کے اوزار Runway، Artlist اور Veo عجائب گھر کی فلمیں بناتے ہیں؛ ElevenLabs انہیں عربی، انگریزی اور اردو میں بیان کرتا ہے؛ اور GitHub کوڈ کی میزبانی کرتا ہے۔ Cloudflare، تقریباً 90 کینیڈین ڈالر ماہانہ، میزبانی اور ذخیرے کے ساتھ مل کر {pages} ریکارڈ صفحات کو تیز اور محفوظ رکھتا ہے، اور ڈومین رجسٹریشن عجائب گھر کے نام اسی کے نام رکھتی ہے۔ اور بلند ترین درجات — Claude Ultra اور Devin Max — بھی مہینہ ختم ہونے سے پہلے ختم ہو جاتے ہیں: اکتوبر اور نومبر کے آغاز میں صرف اووریج اور ٹاپ اپ چارجز نے سبسکرپشنز کے اوپر تقریباً 730 کینیڈین ڈالر کا اضافہ کیا۔ اور استعمال ناپا ہوا اور درج ہے، اندازہ نہیں: Copilot Max نے پانچ دنوں میں اپنی 20,000 ماہانہ AI کریڈٹس میں سے 18,525 استعمال کیے، Devin کا ہفتہ وار کوٹہ لگاتار دو ہفتے 100 فیصد پر رہا، اور Claude Ultra اپنے ہفتے کے 84 فیصد پر تھا جب کہ اس کی تجدید میں دن باقی تھے۔ یہ ماہانہ جاری اخراجات ہیں، سالانہ اعداد نہیں۔ ہر تعاون براہِ راست انہی پر جاتا ہے — اور اس سے کچھ خریدا نہیں جاتا: نہ رسائی، نہ سامان، نہ مواد پر کوئی اختیار۔ اور عجائب گھر خود بھی لینے کے لیے مفت ہے: کوئی بھی اس کا ڈیٹا (CC0) اور کوڈ (MIT) ڈاؤن لوڈ کر کے اسے مقامی طور پر چلا سکتا ہے، اسے بطور نمونہ آگے بڑھا سکتا ہے، یا اس کی عوامی API استعمال کر سکتا ہے — سب کے لیے مفت۔'
   ways_title: مدد کرنے کے طریقے
   patreon_title: Patreon پر شامل ہوں
   patreon_body: ایک اختیاری ماہانہ رکنیت جو اس کام کو جاری رکھنے میں مدد دیتی ہے اور آپ کو اس کی پیش رفت کی پیروی کا موقع دیتی ہے۔
@@ -4278,6 +4293,7 @@ qurun:
       title: منتخب ریکارڈ
       desc: "زمانہ پر عجائب گھر کا منتخب ریکارڈ: بارہ مہینے، حرمت والے مہینے، نسیء، ہجری تقویم، عربی برس، فارسی مہینے، جاہلیت میں دنوں اور مہینوں کے نام، صدریوں اور نامور برس — qurun-browser ٹیگ شدہ۔"
 madhahib:
+  also_under: "یہ بھی دیکھیں:"
   title: "چاروں فقہی مذاہب کا براؤزر"
   lede: "چاروں ائمہ — ابو حنیفہ، مالک، شافعی اور احمد — اور انہوں نے جن مذاہب کی بنیاد رکھی، وہ سلف اور تابعین جن پر فقہ قائم ہوئی، مذاہب کو درج کرنے والی کتابیں اور علمی متون آجرومیہ سے جزریہ و شاطبیہ تک، اور سنی کتابوں میں تاریخ، فتویٰ اور فقہی سوالات میں مذاہب کا ہر ذکر — اپنے مآخذ کے ساتھ ایک براؤزر میں۔"
   badge: "فقہی مذاہب کا متلاشی"
@@ -5164,3 +5180,18 @@ courses:
     ar: عربی
     fr: فرانسیسی
     ur: اردو
+
+paged:
+  all: "«{section}» کے تمام {n}"
+  nav_label: "اس فہرست کے صفحات"
+  range: "{total} میں سے {from}–{to}"
+  prev: "پچھلا"
+  next: "اگلا"
+  page_n: "صفحہ {n}"
+  back: "مجموعی جائزے پر واپس"
+  first_note: "یہاں ہر حصے کے پہلے {n} دکھائے گئے ہیں؛ ہر حصہ مکمل کھلتا ہے۔"
+  filter_all: "پوری فہرست میں تلاش کریں"
+  filter_matches: "پوری فہرست میں {n} نتائج"
+  filter_more: "پہلے {n} نتائج دکھائے جا رہے ہیں؛ مزید لکھ کر محدود کریں۔"
+  filter_loading: "پوری فہرست میں تلاش جاری ہے…"
+  filter_failed: "مکمل فہرست لوڈ نہ ہو سکی۔ اس صفحے کی سطریں اب بھی چھانٹی جا رہی ہیں۔"

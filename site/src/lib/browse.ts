@@ -16,3 +16,7 @@ const counts = new Map<string, number>();
 for (const n of realNodes) counts.set(n.class, (counts.get(n.class) ?? 0) + 1);
 export const countOf = (c: string) => counts.get(c) ?? 0;
 export const entriesOf = (c: string) => realNodes.filter((n) => n.class === c);
+/** A class with at most this many records is listed whole on its page; a longer one is listed by letter pages (audit S18). */
+export const CLASS_WHOLE = 1500;
+/** Names on one letter page of a long class listing. */
+export const CLASS_PAGE = 1200;

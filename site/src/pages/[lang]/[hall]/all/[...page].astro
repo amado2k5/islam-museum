@@ -1,0 +1,70 @@
+---
+// A wing hall's full index, one page of cards at a time (site/src/lib/halls.ts): /<lang>/<hall>/all/<letter>/ and
+// /<lang>/<hall>/all/<letter>/<n>/ (in the Time wing the groups are centuries). Every record of the wing is on
+// exactly one of these pages; plain links lead from the hall, between the letters and between the pages.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../components/PageHeader.astro";
+import ExploreBar from "../../../../components/ExploreBar.astro";
+import HallCard from "../../../../components/HallCard.astro";
+import DraftMark from "../../../../components/DraftMark.astro";
+import { ui, fmt, LANGS, WINGS, WING_PATH, type Lang, type Wing } from "../../../../lib/i18n";
+import { num } from "../../../../lib/nav";
+import { hallGroups, hallIndexHref, HALL_PAGE } from "../../../../lib/halls";
+import { pageWindow } from "../../../../lib/paged";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => WINGS.filter((w) => w !== "place").flatMap((wing) =>
+    hallGroups(wing, lang).flatMap((g) => Array.from({ length: Math.ceil(g.items.length / HALL_PAGE) }, (_x, k) => ({
+      params: { lang, hall: WING_PATH[wing], page: k === 0 ? g.id : `${g.id}/${k + 1}` },
+      props: { lang, wing, groupId: g.id, pageNo: k + 1 },
+    })))));
+}
+const { lang, wing, groupId, pageNo } = Astro.props as { lang: Lang; wing: Wing; groupId: string; pageNo: number };
+const T = ui(lang);
+const P = (T as any).paged;
+const hall = WING_PATH[wing];
+const groups = hallGroups(wing, lang);
+const group = groups.find((g) => g.id === groupId)!;
+const pages = Math.ceil(group.items.length / HALL_PAGE);
+const from = (pageNo - 1) * HALL_PAGE;
+const items = group.items.slice(from, from + HALL_PAGE);
+const groupLabel = (g: { id: string; label: string }) => (g.id === "other" ? T.hall.other : g.id === "undated" ? T.hall.undated : g.id === "bce" ? T.hall.bce : g.label);
+const title = `${T.wings[wing].title} · ${groupLabel(group)}${pageNo > 1 ? ` · ${pageNo}` : ""}`;
+const path = hallIndexHref(lang, hall, groupId, pageNo);
+---
+<BaseLayout lang={lang} title={title} description={T.wings[wing].blurb} path={path}>
+  <PageHeader
+    title={title}
+    lede={fmt(P.range, { from: num(from + 1, lang), to: num(from + items.length, lang), total: num(group.items.length, lang) })}
+    crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.wings[wing].title, href: `/${lang}/${hall}/` }, { label: T.hall.index_title, href: `/${lang}/${hall}/#hall-index` }, { label: groupLabel(group) }]}
+    crumbsLabel={T.entity.breadcrumb}
+    wing={wing}
+  />
+  <div class="wrap" style="padding-block:24px 20px" data-pagefind-ignore>
+    <nav aria-label={T.hall.index_title} class="ui" style="margin:0 0 1rem">
+      <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+        {groups.map((g) => <li>{g.id === groupId
+          ? <a class="chip" aria-current="true" style="border:1px solid var(--gold)" href={hallIndexHref(lang, hall, g.id)}>{groupLabel(g)} · {num(g.items.length, lang)}</a>
+          : <a class="chip" href={hallIndexHref(lang, hall, g.id)}>{groupLabel(g)} · {num(g.items.length, lang)}</a>}</li>)}
+      </ul>
+    </nav>
+    {items.some((n) => n.data.status?.review === "draft" && n.class !== "passage") && <DraftMark lang={lang} legend />}
+    <ul class="grid-cards" style="margin-top:1rem">
+      {items.map((n) => <li><HallCard lang={lang} node={n} wing={wing} /></li>)}
+    </ul>
+    <nav class="ui paged-nav" aria-label={P.nav_label} style="margin:1.2rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px">
+      <span class="muted">{fmt(P.range, { from: num(from + 1, lang), to: num(from + items.length, lang), total: num(group.items.length, lang) })}</span>
+      {pageNo > 1 && <a class="chip" rel="prev" href={hallIndexHref(lang, hall, groupId, pageNo - 1)}>{P.prev}</a>}
+      {pages > 1 && (
+        <span style="display:inline-flex;flex-wrap:wrap;gap:4px">
+          {pageWindow(pageNo, pages).map((n) => n === pageNo
+            ? <span class="chip" aria-current="page" style="border:1px solid var(--gold)">{num(n, lang)}</span>
+            : <a class="chip" href={hallIndexHref(lang, hall, groupId, n)} aria-label={fmt(P.page_n, { n: num(n, lang) })}>{num(n, lang)}</a>)}
+        </span>
+      )}
+      {pageNo < pages && <a class="chip" rel="next" href={hallIndexHref(lang, hall, groupId, pageNo + 1)}>{P.next}</a>}
+      <a href={`/${lang}/${hall}/#hall-index`}>{P.back}</a>
+    </nav>
+  </div>
+  <ExploreBar lang={lang} />
+</BaseLayout>

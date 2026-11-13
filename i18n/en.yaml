@@ -94,7 +94,7 @@ landing:
   widget_none: No entry in the museum is dated to this day yet.
   widget_fail: This browser could not do the conversion.
   widget_or: 'Or start with the most famous journey in the story:'
-  stats: '{items} entries · {pages} pages · 300 pathways'
+  stats: '{items} entries · {pages} record pages, one for each entry in Arabic, English and Urdu · {pathways} pathways'
   honest: We show the gaps rather than hide them
   honest_link: see the coverage
   give_title: Donate and support us
@@ -155,6 +155,18 @@ wings:
     today: Where the calendars meet
     made: Made by Muslims today
 hall:
+  promise:
+    living: "Practices, festivals, food, dress and music"
+    made: "Bookshops, publishers, apps, studios, brands and charities"
+  lead_title: "Cornerstones of this wing"
+  index_title: "The full index"
+  index_count: "{n} entries"
+  index_note: "Every entry of the wing, by first letter. Choose a letter, or type a name."
+  index_note_time: "Every entry of the wing in time order, by century of the Common Era. Choose a century, or type a name."
+  filter_label: "Find by name"
+  other: "Other"
+  undated: "Undated"
+  bce: "Before the Common Era"
   coming: 'What is in this wing so far:'
   coming_time: What is in this wing so far, in time order; the Hijri timeline above gathers it on one axis.
   empty: Nothing here yet. This wing opens as the collection grows.
@@ -204,9 +216,9 @@ entity:
   perspectives: Perspectives
   not_translated: This page is not yet available in English. Showing the available text.
   help_translate: Help translate
-  no_prose: The long-form text for this entry has not been written yet. The facts and connections below come from the museum's data.
+  no_prose: This entry is a record so far, without an article. The facts and connections below come from the museum's data.
   stub_title: Not yet in the museum
-  stub_body: This entry is referenced by other pages and is on our wanted list. It has not been written yet.
+  stub_body: This entry is referenced by other pages and is on our wanted list. It is still to be written.
   stub_help: Suggest or write this entry
   derived: Derived by calendar conversion; sources may differ by a day or two.
   born: Born
@@ -237,6 +249,7 @@ depth:
   deep: Deep
 status:
   draft: Draft
+  draft_note: "Written with AI help from the sources it cites, and not yet read by a human editor."
   reviewed: Reviewed
   verified: Verified
 claim:
@@ -912,7 +925,7 @@ coverage:
   entities: Entries
   wanted: Wanted
   by_class: By class
-  by_wing: By wing
+  by_wing: "By wing (entries tagged with the wing, drafts included)"
   by_review: By review status
   prose: Prose by language
   sources_avg: Average sources per entry
@@ -1058,7 +1071,7 @@ themes:
   family: Family
   entries: Entries on this theme
   guide: Guide
-  no_guide: The curated guide for this theme has not been written yet.
+  no_guide: This theme has no curated guide so far.
   empty: No entries are tagged with this theme yet. The cell is shown empty on purpose.
   missing: What is missing? Tell us
   minimum: A theme is open when it has a reviewed guide, 10 questions, 25 entries across 5 classes, and voices from several traditions and regions.
@@ -2236,7 +2249,8 @@ backstage:
   intro_2a: 'As this page is written, the museum holds '
   intro_2b: ' entries generating '
   intro_2c: ' pages in Arabic, English and Urdu, with '
-  intro_2d: ' guided pathways. The open repository behind it holds 49,760 records, built through 17,314 commits and 4,388 merged pull requests. The museum''s data is published under CC0 and its prose under CC BY-SA 4.0, everything is served through a public API, and a snapshot of the dataset is archived at Zenodo under a permanent identifier (DOI: 10.5281/zenodo.23692511) — so anyone can download the whole museum and check every number on this page.'
+  repo_stats: 'The open repository behind it has been built through {commits} commits and {pulls} merged pull requests. '
+  intro_2d: ' guided pathways. {repo}The museum''s data is published under CC0 and its prose under CC BY-SA 4.0, everything is served through a public API, and a snapshot of the dataset is archived at Zenodo under a permanent identifier (DOI: 10.5281/zenodo.23692511) — so anyone can download the whole museum and check every number on this page.'
   repo_cta: The open repository on GitHub
   how_cta: 'How it was built — the fleet''s own account'
   build_title: 'The build: lanes, waves and gates'
@@ -2430,7 +2444,7 @@ developers:
   lede: 'Build on the museum: an open, sourced graph of Islamic history — as links, as widgets, and as data your systems can read. No key, no fee, no permission to ask.'
   intro_1: 'Everything the museum publishes for readers is also published for machines. Every record — person, place, building, work, event — has a permanent web page and a JSON twin at a stable address, and the whole collection is served as one connected graph: records (nodes) and the sourced relationships between them (edges).'
   intro_2: 'There is no API key, no account and no rate card. The underlying data is CC0 1.0 — public domain, yours to download, keep and build on. The written articles are CC BY-SA 4.0, as with Wikipedia. If your system can open a web address, it can read the museum.'
-  live_stats: 'The living collection, right now: 52,576 records · 56,597 sourced connections · 24 record classes · 1,987 records still stubs, growing into full entries.'
+  live_stats: 'The living collection in this build: {records} records · {edges} sourced connections · {classes} record classes · {stubs} stubs, named by other records and not yet written.'
   quickstart_title: 'Three ways in, from an afternoon to a platform'
   quickstart_intro: 'Choose the depth that suits your institution. Each level includes everything above it.'
   level1_title: 'Level 1 — Link it'
@@ -2440,15 +2454,16 @@ developers:
   level3_title: 'Level 3 — Build on the data'
   level3_body: 'Download the graph itself — every record and every sourced connection as plain JSON files — and build your own search, exhibits, school resources or research tools on top. CC0 means the copy is yours outright; the living source keeps growing and correcting, and you can re-sync whenever you like.'
   endpoints_title: 'Endpoints'
-  endpoints_intro: 'Base address: https://api.islam.museum/api/v1/ — the same paths on islam.museum redirect here. Plain HTTPS GET requests; responses are JSON, or NDJSON (one JSON object per line) for the two graph files, so they can be processed as a stream. CORS is open (Access-Control-Allow-Origin: *), so browsers may call the API directly.'
+  endpoints_intro: 'Every address begins with https://api.islam.museum/api/v1/ — that prefix is not a page of its own; the front door is https://api.islam.museum/api/v1/index.json. The same paths on islam.museum redirect here. Plain HTTPS GET requests; responses are JSON, or NDJSON (one JSON object per line) for the two graph files, so they can be processed as a stream. CORS is open (Access-Control-Allow-Origin: *), so browsers may call the API directly.'
   col_endpoint: 'Endpoint'
   col_returns: 'What it returns'
   ep1: 'The API index: version, the 22 record classes, and the licences in machine-readable form.'
   ep2: 'Live totals: how many records exist, and how many per class.'
   ep3: 'Every record of one class in a single JSON array — for example all 10,884 people.'
   ep4: 'One complete record: labels and summaries in three languages, its structured data, its sources, and its precomputed connections.'
-  ep5: 'The whole graph''s records, one JSON object per line (49,570 lines).'
-  ep6: 'Every connection between records, one per line (38,862) — each carries the sources it rests on.'
+  ep0: "The front door: what this API holds, its files and folders, and where its OpenAPI description is."
+  ep5: 'The whole graph''s records and stubs, one JSON object per line ({nodeLines} lines).'
+  ep6: 'Every connection between records, one per line ({edgeLines}) — each carries the sources it rests on.'
   ep7: 'Embeddable widgets for your own pages: a fact card and the trail of the week, in Arabic, English or Urdu.'
   ep8: 'The archived dataset on Zenodo, with a permanent DOI for citation: 10.5281/zenodo.23692511.'
   examples_title: 'Example queries, with real results'
@@ -2487,7 +2502,7 @@ developers:
   agents_title: 'Start with an AI agent'
   agents_intro: 'Hand one of these prompts to your coding assistant — Claude, Devin, Copilot, or any other — together with this page''s address. Each prompt is self-contained: it names the endpoints, the licence, and the result to produce. The prompts are given in English, as working text.'
   roadmap_title: 'How much remains — why the living source matters'
-  roadmap_1: 'Of the 47,718 records already ingested, only about a quarter (11,907) are published; the rest are drafts still being enriched, and 1,852 are stubs awaiting their full build. A download today is a photograph of a workshop, not the finished shelves.'
+  roadmap_1: 'Of the {records} records in this build, {published} are published; the other {drafts} are drafts still being enriched, and {stubs} more are stubs awaiting their full build. A download today is a photograph of a workshop, not the finished shelves.'
   roadmap_2: 'Beyond that, the museum''s own gap map names the corpora not yet harvested: the Turkish DİA encyclopaedia (~16,800 articles, so far used only for single records), Nadwi''s 57-volume dictionary of women hadith scholars (~9,000–10,000 teachers, almost none yet in the museum), the great narrator dictionaries behind the hadith transmitter graph, the Encyclopaedia of Islam backlog, a census of manuscripts and the libraries that hold them, and regional sweeps across Southeast Asia, Africa, China and the Americas that have barely begun. Three named dictionaries alone hold roughly 36,000 more entries than the museum has records today.'
   roadmap_3: 'So take the data — that is what it is for. But build against the living source where you can: it corrects errors as scholars report them, adds thousands of records a month, and keeps one canonical address for everything. The copy is a snapshot; the museum is the garden.'
   honesty_title: 'What is not here yet'
@@ -2528,7 +2543,7 @@ support:
   title: Support the museum
   lede: This museum is free and open, with no ads and no tracking. If it is useful to you, your support keeps it that way and helps it grow faster.
   why_title: Why support us?
-  why_body: "Free for everyone — not free for the founder. islam.museum charges its visitors nothing: no accounts, no ads, no tracking, no paywall — and its costs are paid, month by month, by its founder. In a recent month running costs came to roughly CA$1,900. The largest share, roughly CA$900, was AI assistants — Claude, ChatGPT, Devin, Grok, Google AI and Muse, the personal agent that orchestrates the fleet's work — used to research, draft, translate and check entries against their cited sources. Video generation (Runway, Artlist and Veo) makes the museum's films; ElevenLabs narrates them in Arabic, English and Urdu; GitHub hosts the code. Cloudflare (about CA$90 a month) keeps 99,000 pages fast and safe, alongside hosting and storage, and domain registrations keep the museum's names its own. Even the top tiers — Claude Ultra, Devin Max — run out before the month does: in October and early November, overages and top-ups alone added roughly CA$730 on top of the subscriptions. The usage is metered, not guessed: Copilot Max used 18,525 of its 20,000 monthly AI credits in five days, Devin's weekly quota ran at 100% two weeks running, and Claude Ultra stood at 84% of its week with days still to go. These are monthly running costs, not annual figures. Every contribution goes directly to them — and buys nothing: no access, no goods, no say over content. And the museum itself is free to take: anyone can download its data (CC0) and code (MIT), run it locally, build on it as a template, or use its public API — free, for anyone."
+  why_body: "Free for everyone — not free for the founder. islam.museum charges its visitors nothing: no accounts, no ads, no tracking, no paywall — and its costs are paid, month by month, by its founder. In a recent month running costs came to roughly CA$1,900. The largest share, roughly CA$900, was AI assistants — Claude, ChatGPT, Devin, Grok, Google AI and Muse, the personal agent that orchestrates the fleet's work — used to research, draft, translate and check entries against their cited sources. Video generation (Runway, Artlist and Veo) makes the museum's films; ElevenLabs narrates them in Arabic, English and Urdu; GitHub hosts the code. Cloudflare (about CA$90 a month) keeps {pages} record pages fast and safe, alongside hosting and storage, and domain registrations keep the museum's names its own. Even the top tiers — Claude Ultra, Devin Max — run out before the month does: in October and early November, overages and top-ups alone added roughly CA$730 on top of the subscriptions. The usage is metered, not guessed: Copilot Max used 18,525 of its 20,000 monthly AI credits in five days, Devin's weekly quota ran at 100% two weeks running, and Claude Ultra stood at 84% of its week with days still to go. These are monthly running costs, not annual figures. Every contribution goes directly to them — and buys nothing: no access, no goods, no say over content. And the museum itself is free to take: anyone can download its data (CC0) and code (MIT), run it locally, build on it as a template, or use its public API — free, for anyone."
   ways_title: Ways to support
   patreon_title: Join on Patreon
   patreon_body: An optional monthly membership that helps keep this work going and lets you follow its progress.
@@ -4301,6 +4316,7 @@ qurun:
       title: Curated records
       desc: "The museum's curated records on time: the twelve months, the sacred months, the intercalation, the Hijri calendar, the Arabic year, the Persian months, the Jahiliyya names of days and months, the centuries and the named years — tagged qurun-browser."
 madhahib:
+  also_under: "Also under:"
   title: "Four Madhhabs Browser"
   lede: "The four imams — Abu Hanifa, Malik, al-Shafi'i and Ahmad — and the schools they founded, the salaf and tabi'in on whom the fiqh was built, the books that recorded the madhhabs — including the school mutun from the Ajurrumiyya to the Jazariyya and the Shatibiyya — and everything the Sunni books say about them in history, fatwas and legal questions — gathered in one browser with its sources."
   badge: Legal-schools explorer
@@ -5186,3 +5202,18 @@ courses:
     ar: Arabic
     fr: French
     ur: Urdu
+
+paged:
+  all: "All {n} in “{section}”"
+  nav_label: "Pages of this list"
+  range: "{from}–{to} of {total}"
+  prev: "Previous"
+  next: "Next"
+  page_n: "Page {n}"
+  back: "Back to the overview"
+  first_note: "The first {n} of each section are shown here; each section opens in full."
+  filter_all: "Search the whole list"
+  filter_matches: "{n} matches in the whole list"
+  filter_more: "Showing the first {n}; type more to narrow."
+  filter_loading: "Searching the whole list…"
+  filter_failed: "The full list could not be loaded. The rows on this page are still filtered."

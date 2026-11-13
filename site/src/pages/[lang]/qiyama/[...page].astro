@@ -1,0 +1,112 @@
+---
+// The Qiyama Browser's home (docs/plan/56-qiyama-browser.md): every mention of the
+// Resurrection (البعث), the Day of Judgement (يوم القيامة) and the Reckoning (الحساب) the
+// museum's sources carry — Qur'an verses, hadith reports, seerah books and every harvested
+// work — plus the curated records on the Day and its stations, over the one graph.
+// Passages are found at build time by the shared detector in scripts/qiyama.ts, so a qiyama
+// mention in a book harvested later appears here the day its passage record lands; curated
+// records join through the `qiyama-browser` tag. Counts are read from the graph at build
+// time and appear on this page only.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PagedNav from "../../../components/PagedNav.astro";
+import FullFilter from "../../../components/FullFilter.astro";
+import { pagedStaticPaths, pageView, renderedHeadline, type PagedProps } from "../../../lib/paged";
+import DraftMark from "../../../components/DraftMark.astro";
+import EschScope from "../../../components/EschScope.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { qiyamaItems, QIYAMA_SECTIONS, type QiyamaKind, type QiyamaSection } from "../../../lib/qiyama";
+import type { Node } from "../../../../scripts/build-graph";
+
+export function getStaticPaths() {
+  // the landing, and a sub-page for every page of rows of each section longer than the landing shows (site/src/lib/paged.ts)
+  const ids = [...QIYAMA_SECTIONS];
+  return pagedStaticPaths(LANGS, ids.map((id) => ({ id: String(id), count: qiyamaItems.filter((i) => i.section === id).length })));
+}
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const G = (T as any).qiyama;
+const label = (n: Node) => labelOf(n, lang);
+const summaryText = (n: Node) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? n.summary?.en ?? "");
+const EXCERPT = 220;
+const excerptOf = (n: Node) => {
+  const raw = n.class === "passage" ? String(n.data.text_search ?? n.data.text ?? "") : summaryText(n);
+  const clean = stripNeedsSource(raw).replace(/\s+/g, " ").trim();
+  return clean.length > EXCERPT ? `${clean.slice(0, EXCERPT)}…` : clean;
+};
+const workLabel = (n: Node) => (n.data.work ? labelOf(byId.get(n.data.work as string) ?? n, lang) : "");
+const refOf = (n: Node) => {
+  if (n.data.sura && n.data.aya) return `${n.data.sura}:${n.data.aya}`;
+  return n.data.ref ? String(n.data.ref) : (n.data.unit ? String(n.data.unit) : "");
+};
+const kindLabel = (k: QiyamaKind | null) => (k ? G.kinds?.[k] : null);
+const sectionIds: QiyamaSection[] = [...QIYAMA_SECTIONS];
+const sections = sectionIds.map((id) => ({ id, items: qiyamaItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
+const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/qiyama/`);
+const pagedLabel = (s: { id: string }) => G.sections[s.id]?.title ?? s.id;
+const pagedTitle = paged.landing ? G.title : `${G.title} · ${pagedLabel(paged.sections[0])}${paged.pager && paged.pager.pageNo > 1 ? ` · ${paged.pager.pageNo}` : ""}`;
+const status = fmt(G.status, { n: num(renderedHeadline("qiyama", sections, [], qiyamaItems), lang), s: num(sections.length, lang) });
+const searchText = (i: (typeof qiyamaItems)[number]) =>
+  [
+    i.node.label.ar, i.node.label.en, i.node.label.ur,
+    summaryText(i.node), excerptOf(i.node), workLabel(i.node),
+    kindLabel(i.kind) ?? "",
+  ].filter(Boolean).join(" ");
+---
+<BaseLayout lang={lang} title={pagedTitle} description={G.lede} path={paged.path}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{G.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {G.title}</nav>
+    <div data-pagefind-body={paged.landing || undefined}>
+      <h1>{G.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{G.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <EschScope lang={lang} current="qiyama" />
+      <h2 id="method-title" style="font-size:1.1rem">{G.method_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{G.method_note}</p>
+      <p class="ui muted">{G.api} <a href="/api/v1/qiyama.json"><bdi dir="ltr">/api/v1/qiyama.json</bdi></a></p>
+    </div>
+
+    <DraftMark lang={lang} legend />
+    <section aria-labelledby="sections-title" style="margin-top:2rem">
+      <h2 id="sections-title">{G.sections_title}</h2>
+      <nav aria-label={G.sections_title} class="ui" style="margin:0 0 1rem">
+        <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {sections.map((s) => <li><a class="chip" href={`${paged.home}#t-${s.id}`}>{G.sections[s.id]?.title ?? s.id} · {num(s.items.length, lang)}</a></li>)}
+        </ul>
+      </nav>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="qiyama-filter">{G.filter_label}</label>
+        <input id="qiyama-filter" type="search" data-qiyama-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <FullFilter lang={lang} slug="qiyama" />
+      <div data-pagefind-ignore>
+        {paged.sections.map((s) => (
+          <section data-qiyama-section aria-labelledby={`t-${s.id}`} style="margin:1.4rem 0">
+            <h3 id={`t-${s.id}`} style="font-size:1.1rem;margin:0 0 .2rem">{G.sections[s.id]?.title ?? s.id}</h3>
+            <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{G.sections[s.id]?.desc}</p>
+            <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+              {s.items.map((i) => (
+                <li data-qiyama-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
+                  <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a><DraftMark lang={lang} node={i.node} />
+                  {i.node.class === "passage" && (
+                    <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">
+                      {workLabel(i.node)}{refOf(i.node) ? <bdi> · {refOf(i.node)}</bdi> : null}
+                      {kindLabel(i.kind) ? <> · <span class="chip" style="font-size:.75rem;padding:1px 8px">{kindLabel(i.kind)}</span></> : null}
+                    </p>
+                  )}
+                  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{excerptOf(i.node)}</p>
+                </li>
+              ))}
+            </ol>
+            <PagedNav lang={lang} paged={paged} section={s} label={pagedLabel(s)} />
+          </section>
+        ))}
+      </div>
+      <p class="panel ui" data-qiyama-none hidden>{G.filter_none}</p>
+      {qiyamaItems.length === 0 && <p class="panel ui">{G.empty}</p>}
+    </section>
+  </div>
+  <script src="../../../scripts/qiyama-filter.ts"></script>
+</BaseLayout>

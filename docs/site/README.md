@@ -27,6 +27,13 @@ Read this before you change anything under `site/`, `i18n/`, `scripts/validate.t
 6. **Record the change** in the relevant document here if it changes a rule, a token, a check, or a convention. Add one line to `docs/status.md` only if the change matters to the project's live state.
 7. Attribution trailers on the commit (`AI-Agent`, `AI-Model`, `AI-Editor`), as `docs/agents/workflow.md` requires.
 
+## Listings are paginated, numbers are computed, drafts are marked (audit of 13 November 2026)
+
+- **No listing prints its whole corpus.** A section-style browser is a `[...page].astro` file: the landing shows the first 24 rows of each section and `/all/<section>/[<n>/]` holds the rest, 75 rows a page (`site/src/lib/paged.ts`, `PagedNav.astro`). A hall is its landing (`[hall]/index.astro`: what the wing promises, its cornerstones, the index by letter or century) plus `[hall]/all/[...page].astro` (`site/src/lib/halls.ts`). A class listing longer than 1,500 records is a letter index (`browse/[class]/`). The filter box of a paginated page searches the whole list through `/<lang>/list-index/<slug>.json` (`FullFilter.astro`, `/shell/list-filter.js`, `site/src/lib/browser-registry.ts`). `scripts/check-weight.ts` `LISTING_BUDGETS` holds the 500 KB ceiling; add a new listing to it, never raise it.
+- **A headline count is the set the page renders.** Use `renderedHeadline()` from `site/src/lib/paged.ts`; it fails the build when a counted record is in no section.
+- **A public number is never typed into a string.** Use a placeholder and `numbersFor(lang)` from `site/src/lib/numbers.ts`. "Pages" means record pages (records and stubs × three languages) wherever it is printed.
+- **A draft record is marked one way.** `DraftMark.astro`: the badge on a card, the badge and sentence on the record's page and once at the head of a listing. The pipeline's "Draft card for …" frame is taken off summaries and prose in `scripts/build-graph.ts` (`scripts/scaffold.ts`); `check-site` fails on it.
+
 ## Renamed or merged entities: aliases become redirects
 
 Since 13 November 2026 a former id also resolves inside the build: `scripts/build-graph.ts` points a relation whose target is a former id at the surviving record (it used to drop the edge without a word, while `validate.ts` accepted the target), builds no stub page for a former id, and `site/src/lib/graph.ts` looks a former id up to the surviving record so a `[[former-id|label]]` link in prose is a link again. A merge is done with `scripts/audit/merge-person.py`, which repoints the references it finds; the rule that a merge always adds the alias is unchanged.

@@ -14,6 +14,7 @@ import JobSections from "../components/JobSections.astro";
 import InventionSections from "../components/InventionSections.astro";
 import CareerStrip from "../components/CareerStrip.astro";
 import ModernStrips from "../components/ModernStrips.astro";
+import DraftMark from "../components/DraftMark.astro";
 import { JOB_NOT_YET } from "../lib/jobs";
 import { splitTafsir, commentaries as tafsirCatalogue, wiredCommentaries, commentaryOf, authorsOf, volumeHref, surahHref, coveredIn, ayahsOf } from "../lib/tafsir";
 import { byId, href, labelOf, summaryOf, summaryRaw, stripNeedsSource, related, updatedOn, REPO, SITE, SEGMENT, nodes } from "../lib/graph";
@@ -59,13 +60,17 @@ const machineDate = (d: any): string | undefined => {
 const dateLine = (() => {
   const pair = (a: any, b: any) => {
     const s = formatDate(a, lang), e = formatDate(b, lang);
-    const parts = [{ text: s.text, dt: machineDate(a) }, { text: e.text, dt: machineDate(b) }].filter((p) => p.text);
-    return { parts, derived: s.derived || e.derived };
+    let parts = [{ text: s.text, dt: machineDate(a) }, { text: e.text, dt: machineDate(b) }].filter((p) => p.text);
+    // an event that begins and ends on the same date is one date, not a range "X – X" (audit of 13 November 2026, S17)
+    if (parts.length === 2 && parts[0].text === parts[1].text) parts = [parts[0]];
+    // formatDate already marks a derived Hijri date with its dagger: the line adds one only when no part carries it
+    const marked = parts.some((p) => p.text.includes("†"));
+    return { parts, derived: s.derived || e.derived, marked };
   };
   if (n.class === "person") return pair(d.born, d.died);
   if (n.class === "event") return pair(d.date?.start, d.date?.end);
   if (n.class === "period" || n.class === "polity") return pair(d.start, d.end);
-  return { parts: [], derived: false };
+  return { parts: [], derived: false, marked: false };
 })();
 
 const places = placesOf(n.id);
@@ -188,13 +193,14 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
         ))}</p>
       )}
       {second &&<p class="display" lang={lang === "ar" ? "en" : "ar"} dir={lang === "ar" ? "ltr" : "rtl"} style={`font-size:clamp(1.3rem,3vw,1.9rem);margin:0 0 6px;font-family:${lang === "ar" ? "var(--serif)" : "var(--ar-display)"};color:#e6d5b8`} data-pagefind-ignore>{second}</p>}
-      {dateLine.parts.length > 0 && <p class="ui" style="margin:0 0 6px;color:#e6d5b8">{dateLine.parts.map((p, i) => <>{i > 0 && " – "}{p.dt ? <time datetime={p.dt}>{p.text}</time> : p.text}</>)}{dateLine.derived && <span title={T.entity.derived}> †</span>}</p>}
+      {dateLine.parts.length > 0 && <p class="ui" style="margin:0 0 6px;color:#e6d5b8">{dateLine.parts.map((p, i) => <>{i > 0 && " – "}{p.dt ? <time datetime={p.dt}>{p.text}</time> : p.text}</>)}{dateLine.derived && !dateLine.marked && <span title={T.entity.derived}> †</span>}</p>}
       {dateLine.derived && <p class="ui" style="margin:0 0 6px;font-size:.85rem;color:#c9d3d6">{T.entity.dagger}</p>}
       {places.length > 0 && <p class="ui" style="margin:0 0 10px">{places.map((p, i) => <><a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>{i < places.length - 1 ? " → " : ""}</>)}</p>}
       {ledeHtml && <p class="page-lede" data-pagefind-meta="summary" set:html={ledeHtml} />}
     </PageHeader>
 
     <div class="wrap" style="padding-block:24px 20px">
+      <div style="max-width:920px;margin:0 auto"><DraftMark lang={lang} node={n} note /></div>
       <div class="no-print" style="display:flex;justify-content:flex-end;gap:10px;max-width:920px;margin:0 auto 12px">
         <button type="button" class="chip" data-tour-add={n.id} data-save={T.mytour.save} data-saved={T.mytour.saved} aria-pressed="false">{T.mytour.save}</button>
         <DepthDial client:load labels={T.depth} />

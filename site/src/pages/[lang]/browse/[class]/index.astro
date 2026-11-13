@@ -1,10 +1,16 @@
 ---
+// A class listing (every person, every place, …). Small classes are listed whole; a class too long for one page
+// (audit of 13 November 2026, S18: the person listing was 2 MB) shows its count, a find-by-name box and the letters,
+// and its records live on linked letter pages (./all/[...page].astro), every one reachable without JavaScript.
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../../components/PageHeader.astro";
 import ExploreBar from "../../../../components/ExploreBar.astro";
+import DraftMark from "../../../../components/DraftMark.astro";
+import FullFilter from "../../../../components/FullFilter.astro";
 import { ui, LANGS, type Lang } from "../../../../lib/i18n";
 import { labelOf, href } from "../../../../lib/graph";
-import { BROWSE_CLASSES, browseSegment, entriesOf } from "../../../../lib/browse";
+import { BROWSE_CLASSES, browseSegment, entriesOf, CLASS_WHOLE } from "../../../../lib/browse";
+import { letterGroups } from "../../../../lib/halls";
 import { num } from "../../../../lib/nav";
 
 export function getStaticPaths() {
@@ -12,16 +18,40 @@ export function getStaticPaths() {
 }
 const { lang, cls } = Astro.props as { lang: Lang; cls: (typeof BROWSE_CLASSES)[number] };
 const T = ui(lang);
-const items = entriesOf(cls).slice().sort((a, b) => labelOf(a, lang).localeCompare(labelOf(b, lang), lang));
+const all = entriesOf(cls);
+const items = all.slice().sort((a, b) => labelOf(a, lang).localeCompare(labelOf(b, lang), lang));
+const whole = items.length <= CLASS_WHOLE;
+const groups = whole ? [] : letterGroups(items, lang);
+// the headline is the set the listing renders, here or on its letter pages
+const listed = whole ? items.length : groups.reduce((k, g) => k + g.items.length, 0);
+if (listed !== all.length) throw new Error(`browse/${cls}: the listing renders ${listed} records but the class holds ${all.length}`);
 const title = T.class[cls];
+const base = `/${lang}/browse/${browseSegment(cls)}/`;
+const anyDraft = items.some((n) => n.data.status?.review === "draft" && n.class !== "passage");
 ---
-<BaseLayout lang={lang} title={title} description={T.browse.lede} path={`/${lang}/browse/${browseSegment(cls)}/`}>
-  <PageHeader title={title} lede={`${num(items.length, lang)} ${T.browse.count}`} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.browse.title, href: `/${lang}/browse/` }, { label: title }]} crumbsLabel={T.entity.breadcrumb} />
+<BaseLayout lang={lang} title={title} description={T.browse.lede} path={base}>
+  <PageHeader title={title} lede={`${num(listed, lang)} ${T.browse.count}`} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.browse.title, href: `/${lang}/browse/` }, { label: title }]} crumbsLabel={T.entity.breadcrumb} />
   <div class="wrap" style="padding-block:24px 20px">
-    {items.length === 0 ? <p class="panel ui">{T.hall.empty}</p> : (
+    {items.length === 0 ? <p class="panel ui">{T.hall.empty}</p> : whole ? (
+      <>{anyDraft && <DraftMark lang={lang} legend />}
       <ul class="ui" style="columns:16rem;line-height:1.9">
-        {items.map((n) => <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a></li>)}
-      </ul>
+        {items.map((n) => <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a><DraftMark lang={lang} node={n} /></li>)}
+      </ul></>
+    ) : (
+      <section aria-labelledby="class-index">
+        <h2 id="class-index" class="ui" style="font-size:1.15rem;margin:0 0 .3rem">{T.hall.index_title}</h2>
+        <p class="muted ui" style="max-width:var(--measure);margin:0 0 .8rem">{T.hall.index_note}</p>
+        <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+          <label for="class-filter">{T.hall.filter_label}</label>
+          <input id="class-filter" type="search" autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+        </p>
+        <FullFilter lang={lang} slug={`class-${cls}`} />
+        <nav aria-label={T.hall.index_title} class="ui">
+          <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+            {groups.map((g) => <li><a class="chip" href={`${base}all/${g.id}/`}>{g.id === "other" ? T.hall.other : g.label} · {num(g.items.length, lang)}</a></li>)}
+          </ul>
+        </nav>
+      </section>
     )}
   </div>
   <ExploreBar lang={lang} />

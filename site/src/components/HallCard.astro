@@ -1,0 +1,17 @@
+---
+// One record's card in a wing hall or on a hall's index page: the same card wherever a wing lists a record.
+import DraftMark from "./DraftMark.astro";
+import { ui, WINGS, type Lang, type Wing } from "../lib/i18n";
+import { href, labelOf, summaryOf } from "../lib/graph";
+import { formatDate } from "../lib/dates";
+import type { Node } from "../../../scripts/build-graph";
+interface Props { lang: Lang; node: Node; wing: Wing; heading?: "h2" | "h3" }
+const { lang, node: n, wing, heading = "h2" } = Astro.props;
+const T = ui(lang);
+const H = heading;
+const short = (s: string, k = 110) => (s.length > k ? s.slice(0, k).replace(/\s+\S*$/, "") + "…" : s);
+const d = n.data;
+const date = formatDate(d.born ?? d.date?.start ?? d.start, lang).text;
+const wings = WINGS.filter((w) => n.wings.includes(w));
+---
+<a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><H class="card-title">{labelOf(n, lang)}<DraftMark lang={lang} node={n} /></H>{wings.length > 1 && <span class="ui" style="display:block;font-size:.8rem">{wings.map((w) => T.nav[w]).join(" · ")}</span>}{date && <span class="ui" style="display:block;font-size:.85rem">{date}</span>}<span>{short(summaryOf(n, lang))}</span></a>

@@ -1,0 +1,220 @@
+---
+// The Hasanat and Sayyi'at Ledger's home (docs/plan/50-hisab-browser.md): «قائمة وآلة حاسبة
+// وعدّاد للحسنات والسيئات». Three parts over the one graph: the calculator reads the
+// `reckoning` block of the curated records (what a text states for one deed), the counter is a
+// tally kept in the visitor's own browser, and the list is every passage that counts, writes,
+// erases, weighs or reckons a deed — found at build time by scripts/hisab.ts, so a book
+// harvested later brings its counting texts here the day its passage records land. The table
+// and the list are complete without JavaScript; the script only adds the sums, the tally and
+// the filter.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PagedNav from "../../../components/PagedNav.astro";
+import FullFilter from "../../../components/FullFilter.astro";
+import { pagedStaticPaths, pageView, renderedHeadline, type PagedProps } from "../../../lib/paged";
+import DraftMark from "../../../components/DraftMark.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { hisabItems, hisabRows, HISAB_SECTIONS, HISAB_KINDS, type HisabKind, type HisabSection, type Reckoning } from "../../../lib/hisab";
+import type { Node } from "../../../../scripts/build-graph";
+
+export function getStaticPaths() {
+  // the landing, and a sub-page for every page of rows of each section longer than the landing shows (site/src/lib/paged.ts)
+  const ids = [...HISAB_SECTIONS];
+  return pagedStaticPaths(LANGS, ids.map((id) => ({ id: String(id), count: hisabItems.filter((i) => i.section === id).length })));
+}
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const G = (T as any).hisab;
+const label = (n: Node) => labelOf(n, lang);
+const loc = (v: Record<string, string> | undefined) => v?.[lang] ?? v?.ar ?? v?.en ?? "";
+const summaryText = (n: Node) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? n.summary?.en ?? "").replace(/\s*\[\[[^\]]+\]\]/g, "");
+const EXCERPT = 220;
+const excerptOf = (n: Node) => {
+  const raw = n.class === "passage" ? String(n.data.text_search ?? n.data.text ?? "") : summaryText(n);
+  const clean = stripNeedsSource(raw).replace(/\s+/g, " ").trim();
+  return clean.length > EXCERPT ? `${clean.slice(0, EXCERPT)}…` : clean;
+};
+const workLabel = (n: Node) => (n.data.work ? labelOf(byId.get(n.data.work as string) ?? n, lang) : "");
+const refOf = (n: Node) => {
+  if (n.data.sura && n.data.aya) return `${n.data.sura}:${n.data.aya}`;
+  return n.data.ref ? String(n.data.ref) : "";
+};
+const basisLabel = (n: Node) => (refOf(n) ? `${workLabel(n)} ${refOf(n)}` : label(n));
+const sectionIds: HisabSection[] = [...HISAB_SECTIONS];
+const sections = sectionIds.map((id) => ({ id, items: hisabItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
+const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/hisab/`);
+const pagedLabel = (s: { id: string }) => G.sections[s.id]?.title ?? s.id;
+const pagedTitle = paged.landing ? G.title : `${G.title} · ${pagedLabel(paged.sections[0])}${paged.pager && paged.pager.pageNo > 1 ? ` · ${paged.pager.pageNo}` : ""}`;
+const kindCount = (k: HisabKind) => hisabItems.filter((i) => i.kinds.includes(k)).length;
+const status = fmt(G.status, { n: num(renderedHeadline("hisab", sections, [], hisabItems), lang), r: num(hisabRows.length, lang), s: num(sections.length, lang) });
+/** The stated figures of a row, as one readable line. */
+const figures = (r: Reckoning) => {
+  const parts: string[] = [];
+  if (r.hasanat !== undefined) parts.push(r.hasanat_max ? fmt(G.fig.hasanat_range, { a: num(r.hasanat, lang), b: num(r.hasanat_max, lang) }) : fmt(G.fig.hasanat, { n: num(r.hasanat, lang) }));
+  if (r.sayyiat !== undefined) parts.push(fmt(G.fig.sayyiat, { n: num(r.sayyiat, lang) }));
+  if (r.erased !== undefined) parts.push(fmt(G.fig.erased, { n: num(r.erased, lang) }));
+  if (r.degrees !== undefined) parts.push(fmt(G.fig.degrees, { n: num(r.degrees, lang) }));
+  return parts.join(" · ");
+};
+const searchText = (i: (typeof hisabItems)[number]) =>
+  [i.node.label.ar, i.node.label.en, i.node.label.ur, summaryText(i.node), excerptOf(i.node), workLabel(i.node), ...i.kinds.map((k) => G.kinds[k])].filter(Boolean).join(" ");
+const tallyRows = hisabRows.filter((r) => r.reckoning.times);
+const cell = "padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:start";
+const btn = "font:inherit;min-height:44px;padding:8px 16px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg);cursor:pointer";
+---
+<BaseLayout lang={lang} title={pagedTitle} description={G.lede} path={paged.path}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{G.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {G.title}</nav>
+    <div data-pagefind-body={paged.landing || undefined}>
+      <h1>{G.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{G.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <h2 id="caveat-title" style="font-size:1.1rem">{G.caveat_title}</h2>
+      <p style="max-width:var(--measure)">{G.caveat}</p>
+      <h2 id="method-title" style="font-size:1.1rem">{G.method_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{G.method_note}</p>
+      <p class="ui muted">{G.api} <a href="/api/v1/hisab.json"><bdi dir="ltr">/api/v1/hisab.json</bdi></a></p>
+      <nav aria-label={G.parts_title} class="ui">
+        <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          <li><a class="chip" href="#calculator">{G.calc_title}</a></li>
+          <li><a class="chip" href="#counter">{G.counter_title}</a></li>
+          <li><a class="chip" href="#list">{G.list_title} · {num(hisabItems.length, lang)}</a></li>
+          <li><a class="chip" href={href(lang, "concept/hisab-al-hasanat-wal-sayyiat")}>{G.read_more}</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section id="calculator" aria-labelledby="calc-title" style="margin-top:2.2rem" data-hisab-calc data-pagefind-ignore>
+      <h2 id="calc-title">{G.calc_title}</h2>
+      <p style="max-width:var(--measure)">{G.calc_intro}</p>
+      <div style="overflow-x:auto">
+        <table style="border-collapse:collapse;width:100%;min-width:720px">
+          <caption class="sr-only">{G.calc_title}</caption>
+          <thead>
+            <tr class="ui">
+              <th scope="col" style={cell}>{G.cols.deed}</th>
+              <th scope="col" style={cell}>{G.cols.unit}</th>
+              <th scope="col" style={cell}>{G.cols.states}</th>
+              <th scope="col" style={cell}>{G.cols.texts}</th>
+              <th scope="col" style={cell}>{G.cols.count}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {hisabRows.map((r, i) => (
+              <tr data-hisab-row data-effect={r.reckoning.effect}
+                data-h={r.reckoning.hasanat ?? 0} data-hmax={r.reckoning.hasanat_max ?? r.reckoning.hasanat ?? 0}
+                data-s={r.reckoning.sayyiat ?? 0} data-e={r.reckoning.erased ?? 0} data-d={r.reckoning.degrees ?? 0}
+                data-worded={r.reckoning.unbounded || (!r.reckoning.hasanat && !r.reckoning.sayyiat && !r.reckoning.erased && !r.reckoning.degrees) ? "1" : "0"}
+                data-name={label(r.node)} data-result={loc(r.reckoning.result)}>
+                <th scope="row" style={`${cell};font-weight:600`}>
+                  <a href={href(lang, r.node.id)}>{label(r.node)}</a>
+                  <span class="chip" style="font-size:.75rem;padding:1px 8px;margin-inline-start:6px">{G.kinds[r.reckoning.effect]}</span>
+                </th>
+                <td style={cell} class="muted">{loc(r.reckoning.unit)}</td>
+                <td style={cell}>
+                  {figures(r.reckoning) && <strong style="display:block">{figures(r.reckoning)}</strong>}
+                  <span dir="auto">{loc(r.reckoning.result)}</span>
+                </td>
+                <td style={cell} class="ui">
+                  <ul style="list-style:none;padding:0;margin:0">
+                    {r.basis.map((b) => <li><a href={href(lang, b.id)}><bdi>{basisLabel(b)}</bdi></a></li>)}
+                  </ul>
+                </td>
+                <td style={cell}>
+                  <label class="sr-only" for={`hisab-n-${i}`}>{G.cols.count}: {label(r.node)}</label>
+                  <input id={`hisab-n-${i}`} type="number" min="0" step="1" inputmode="numeric" value="0" data-hisab-n disabled
+                    style="font:inherit;width:6.5em;min-height:44px;padding:6px 10px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <noscript><p class="panel ui">{G.calc_nojs}</p></noscript>
+      <div class="panel" style="margin-top:1rem;border:1px solid var(--gold)" aria-live="polite" data-hisab-totals hidden>
+        <h3 style="margin:0 0 .5rem;font-size:1.05rem">{G.total_title}</h3>
+        <dl class="ui" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:0">
+          <div><dt class="muted">{G.totals.hasanat}</dt><dd style="margin:0;font-size:1.5rem;font-weight:700" data-hisab-out="hasanat">0</dd></div>
+          <div><dt class="muted">{G.totals.sayyiat}</dt><dd style="margin:0;font-size:1.5rem;font-weight:700" data-hisab-out="sayyiat">0</dd></div>
+          <div><dt class="muted">{G.totals.erased}</dt><dd style="margin:0;font-size:1.5rem;font-weight:700" data-hisab-out="erased">0</dd></div>
+          <div><dt class="muted">{G.totals.degrees}</dt><dd style="margin:0;font-size:1.5rem;font-weight:700" data-hisab-out="degrees">0</dd></div>
+        </dl>
+        <div data-hisab-worded hidden>
+          <h4 style="margin:.9rem 0 .3rem;font-size:1rem">{G.worded_title}</h4>
+          <ul data-hisab-worded-list style="margin:0;padding-inline-start:1.2rem"></ul>
+        </div>
+        <p class="muted" style="margin:.8rem 0 0;font-size:.92rem">{G.total_note}</p>
+        <p style="margin:.6rem 0 0"><button type="button" data-hisab-reset style={btn}>{G.calc_reset}</button></p>
+      </div>
+    </section>
+
+    <section id="counter" aria-labelledby="counter-title" style="margin-top:2.4rem" data-hisab-counter data-pagefind-ignore
+      data-reached={G.counter_reached} data-free={G.counter_free}>
+      <h2 id="counter-title">{G.counter_title}</h2>
+      <p style="max-width:var(--measure)">{G.counter_intro}</p>
+      <noscript><p class="panel ui">{G.counter_nojs}</p></noscript>
+      <div class="panel" style="max-width:560px" data-hisab-counter-ui hidden>
+        <p class="ui" style="display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin:0 0 .8rem">
+          <label for="hisab-what">{G.counter_what}</label>
+          <select id="hisab-what" data-hisab-what style="font:inherit;min-height:44px;padding:6px 10px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg);max-width:100%">
+            <option value="free" data-target="0">{G.counter_free}</option>
+            {tallyRows.map((r) => <option value={r.node.id} data-target={r.reckoning.times} data-result={loc(r.reckoning.result)} data-href={href(lang, r.node.id)}>{label(r.node)}</option>)}
+          </select>
+        </p>
+        <p aria-live="polite" style="margin:0;font-size:3.2rem;font-weight:700;line-height:1.1"><span data-hisab-tally>0</span><span class="muted" style="font-size:1.2rem" data-hisab-target></span></p>
+        <p style="display:flex;flex-wrap:wrap;gap:8px;margin:.8rem 0 0">
+          <button type="button" data-hisab-add style={`${btn};min-width:9em;min-height:64px;font-size:1.2rem;font-weight:700;border-color:var(--gold)`}>{G.counter_add}</button>
+          <button type="button" data-hisab-undo style={btn}>{G.counter_undo}</button>
+          <button type="button" data-hisab-zero style={btn}>{G.counter_reset}</button>
+        </p>
+        <p class="panel ui" style="margin:.8rem 0 0;border:1px solid var(--gold)" data-hisab-reached hidden></p>
+        <p class="muted" style="margin:.8rem 0 0;font-size:.92rem">{G.counter_saved}</p>
+      </div>
+    </section>
+
+    <section id="list" aria-labelledby="list-title" style="margin-top:2.4rem">
+      <h2 id="list-title">{G.list_title}</h2>
+      <p style="max-width:var(--measure)">{G.list_intro}</p>
+      <nav aria-label={G.sections_title} class="ui" style="margin:0 0 1rem">
+        <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {sections.map((s) => <li><a class="chip" href={`${paged.home}#t-${s.id}`}>{G.sections[s.id]?.title ?? s.id} · {num(s.items.length, lang)}</a></li>)}
+        </ul>
+      </nav>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 .6rem">
+        <label for="hisab-filter">{G.filter_label}</label>
+        <input id="hisab-filter" type="search" data-hisab-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <FullFilter lang={lang} slug="hisab" />
+      <p class="ui" role="group" aria-label={G.kinds_label} style="display:flex;flex-wrap:wrap;gap:6px;margin:0 0 1rem" data-hisab-kinds hidden>
+        <button type="button" class="chip" data-hisab-kind="" aria-pressed="true" style="cursor:pointer;min-height:44px">{G.kinds_all} · {num(hisabItems.length, lang)}</button>
+        {HISAB_KINDS.map((k) => <button type="button" class="chip" data-hisab-kind={k} aria-pressed="false" style="cursor:pointer;min-height:44px">{G.kinds[k]} · {num(kindCount(k), lang)}</button>)}
+      </p>
+      <div data-pagefind-ignore>
+        {paged.sections.map((s) => (
+          <section data-hisab-section aria-labelledby={`t-${s.id}`} style="margin:1.4rem 0">
+            <h3 id={`t-${s.id}`} style="font-size:1.1rem;margin:0 0 .2rem">{G.sections[s.id]?.title ?? s.id}</h3>
+            <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{G.sections[s.id]?.desc}</p>
+            <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+              {s.items.map((i) => (
+                <li data-hisab-item data-kinds={i.kinds.join(" ")} data-search={searchText(i)} class="panel" style="padding:14px 16px">
+                  <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a><DraftMark lang={lang} node={i.node} />
+                  <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">
+                    {i.node.class === "passage" && <>{workLabel(i.node)}{refOf(i.node) ? <bdi> · {refOf(i.node)}</bdi> : null} </>}
+                    {i.kinds.map((k) => <span class="chip" style="font-size:.75rem;padding:1px 8px;margin-inline-end:4px">{G.kinds[k]}</span>)}
+                  </p>
+                  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{excerptOf(i.node)}</p>
+                </li>
+              ))}
+            </ol>
+            <PagedNav lang={lang} paged={paged} section={s} label={pagedLabel(s)} />
+          </section>
+        ))}
+      </div>
+      <p class="panel ui" data-hisab-none hidden>{G.filter_none}</p>
+      {hisabItems.length === 0 && <p class="panel ui">{G.empty}</p>}
+    </section>
+  </div>
+  <script src="../../../scripts/hisab.ts"></script>
+</BaseLayout>

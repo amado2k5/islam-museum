@@ -4,6 +4,7 @@
 // Dajjal, Yajuj and Majuj, the Hour), curated records before passages at every step. The rest of the eschatology
 // corpus is the business of the Resurrection, Paradise and Fire browsers; the full index by source is at ./all/.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import DraftMark from "../../../components/DraftMark.astro";
 import EschScope from "../../../components/EschScope.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
@@ -50,6 +51,7 @@ const searchText = (i: (typeof signItems)[number]) =>
       <p class="ui muted">{G.api} <a href="/api/v1/eschatology.json"><bdi dir="ltr">/api/v1/eschatology.json</bdi></a></p>
     </div>
 
+    <DraftMark lang={lang} legend />
     <section aria-labelledby="path-title" style="margin-top:2rem">
       <h2 id="path-title">{G.path_title}</h2>
       <p class="muted" style="max-width:var(--measure)">{G.path_note}</p>
@@ -73,7 +75,7 @@ const searchText = (i: (typeof signItems)[number]) =>
                 <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
                   {g.items.map((i) => (
                     <li data-signs-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
-                      <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a>
+                      <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a><DraftMark lang={lang} node={i.node} />
                       {i.node.class === "passage" && (
                         <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">
                           {workLabel(i.node)}{refOf(i.node) ? <bdi> · {refOf(i.node)}</bdi> : null}
