@@ -1,8 +1,11 @@
 id: person/majd-al-din-ibn-taymiyya
+aliases: [person/abd-al-salam-ibn-taymiyya]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "مجد الدين بن تيمية", en: "Majd al-Din Ibn Taymiyya" }
 names:
   - { value: "شيخ الإسلام مجد الدين أبو البركات عبد السلام بن عبد الله بن أبي القاسم الخضر بن محمد بن علي بن تيمية الحراني الحنبلي", kind: full }
+  - {kind: alternate, value: مجد الدين ابن تيمية}
+  - {kind: alternate, value: Abd al-Salam ibn Abdallah Ibn Taymiyya}
 born: { edtf: "1194~", hijri: "0590~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة تسعين وخمسمائة تقريباً بحران {cite:shadharat-dhahab p. 265}." }
 died: { edtf: "1255-01~", hijri: "0653-01~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي يوم عيد الفطر بعد صلاة الجمعة بحران، وأوردت ترجمته في أموات 652؛ وتوفيت زوجته بدرة بنت فخر الدين بن تيمية قبله بيوم واحد {cite:shadharat-dhahab p. 266}." }
 summary:
@@ -21,7 +24,7 @@ relations:
   - { type: related_to, target: person/ibn-taymiyya, sources: [source/shadharat-dhahab] }
   - { type: born_in, target: place/harran, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/harran, sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/al-aalam, source/wikidata]
 status:
   review: published
   completeness: 3
@@ -42,3 +45,4 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
+external_ids: {wikidata: Q6534991}

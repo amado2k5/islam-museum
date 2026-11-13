@@ -12,8 +12,6 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
 sources: [source/al-aalam]
-born: { edtf: "1111", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Amili (A'yan al-Shi'a)" }
-died: { edtf: "1180", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Amili (A'yan al-Shi'a)" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Buyid-era scholar (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
 external_ids:

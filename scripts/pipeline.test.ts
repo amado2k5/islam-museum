@@ -242,6 +242,30 @@ describe("published UI languages (docs/language.md)", () => {
   });
 });
 
+describe("a death year in the summary agrees with the structured date (audit of 13 November 2026, S8)", () => {
+  const person = (died: any, ar: string, en = "") => ({ class: "person", died, summary: { ar, en } });
+  it("reports a grafted namesake's date", async () => {
+    const { summaryDeathYearMismatch } = await import("./validate.js");
+    expect(summaryDeathYearMismatch(person({ edtf: "802" }, "حافظ بغدادي؛ توفي سنة 271هـ ⁦(884م)⁩.", "A hafiz (d. 271/884)."))).toMatch(/disagrees with died.edtf 802/);
+    expect(summaryDeathYearMismatch(person({ edtf: "1748" }, "كاتب عثماني.", "Draft card for X, the Ottoman writer, d. 1711."))).toMatch(/d\. 1711/);
+  });
+  it("accepts agreement in either calendar, within two years, and wider for approximate dates", async () => {
+    const { summaryDeathYearMismatch } = await import("./validate.js");
+    expect(summaryDeathYearMismatch(person({ edtf: "0884", hijri: "0271" }, "توفي سنة 271هـ.", "d. 271/884"))).toBeNull();
+    expect(summaryDeathYearMismatch(person({ edtf: "0885" }, "توفي سنة 271.", ""))).toBeNull();
+    expect(summaryDeathYearMismatch(person({ edtf: "0890~" }, "", "He died in 884."))).toBeNull();
+    expect(summaryDeathYearMismatch(person({ edtf: "0884" }, "", "He died c. 890."))).toBeNull();
+  });
+  it("stays silent without a claim, for another person's death, for a bound and for a day of the month", async () => {
+    const { summaryDeathYearMismatch } = await import("./validate.js");
+    expect(summaryDeathYearMismatch(person({ edtf: "0884" }, "حافظ بغدادي.", "A hafiz of Baghdad."))).toBeNull();
+    expect(summaryDeathYearMismatch(person({ edtf: "0884" }, "", "His father died in 589 and he took the office."))).toBeNull();
+    expect(summaryDeathYearMismatch(person({ edtf: "0680" }, "", "He died before 75 AH."))).toBeNull();
+    expect(summaryDeathYearMismatch(person({ edtf: "2022-05-13" }, "توفي في 13 مايو 2022.", ""))).toBeNull();
+    expect(summaryDeathYearMismatch({ class: "event", died: { edtf: "802" }, summary: { en: "d. 1200" } })).toBeNull();
+  });
+});
+
 describe("content quality guards (docs/agents/content-standards.md)", () => {
   it("rejects honorifics typed into a summary or label (ﷺ and the spelled-out formulas)", () => {
     const i = run(base("event", "t-honorific", { summary: { ar: "أمر النبي ﷺ جيشه", en: "t" } }));

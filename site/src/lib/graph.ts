@@ -10,6 +10,9 @@ if (!existsSync(file)) throw new Error("Missing .cache/graph.json. Run `npm run 
 export const graph: Compiled = JSON.parse(readFileSync(file, "utf8"));
 export const nodes: Node[] = graph.nodes;
 export const byId = new Map(nodes.map((n) => [n.id, n]));
+// a former id (rename, merged duplicate) looks up the record that lists it under `aliases`; link to it with the
+// record's own id (`href(lang, node.id)`), never the former one
+for (const n of nodes) for (const a of n.aliases ?? []) if (!byId.has(a)) byId.set(a, n);
 export const realNodes = nodes.filter((n) => !n.stub);
 // Edges grouped by their `from` id, built once, in the order of graph.edges. An entity page asks for its edges about eight
 // times; scanning every edge on each call (about 1.5 ms over 137,000 edges) was a large part of the page's render time.

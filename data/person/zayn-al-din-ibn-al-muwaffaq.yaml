@@ -12,8 +12,6 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
 sources: [source/al-aalam]
-born: { edtf: "1217", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam (al-Dhahabi)" }
-died: { edtf: "1292", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam (al-Dhahabi)" }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Ayyubid/Mamluk-era figure of the Anatolian milieu (regions: anatolia-balkans).", sources: [source/al-aalam] }
 external_ids:

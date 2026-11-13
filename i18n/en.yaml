@@ -3976,7 +3976,7 @@ places:
       desc: "Every other place or building a passage mentions — the automatic shelf that grows on its own the day a new harvested book names a place."
 signs:
   title: "Signs of the Hour Browser"
-  lede: "Every mention of the signs of the Hour, the Day of Judgment and all eschatology in the museum's sources: the major and minor signs (أشراط الساعة) from the coming of the Dajjal to the rising sun from the west, barzakh and the grave, resurrection and gathering, reckoning and the Scale, the Sirat and the Hawd, Paradise and Hell, and the end-times figures the Qur'an and Sunnah name — sourced records that grow as new texts land."
+  lede: "The signs of the Hour ⁦(أشراط الساعة)⁩ in the museum's sources, read in order: the signs in general, the Mahdi, the Dajjal, Yajuj and Majuj, and the Hour itself. The Day of Judgment, Paradise and the Fire have browsers of their own."
   badge: Eschatology explorer
   status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
   method_title: The browser's method
@@ -3986,6 +3986,47 @@ signs:
   filter_label: Filter signs records
   filter_none: No matches.
   empty: No signs records in this build yet.
+  signs_status: "This build holds {n} records about the signs of the Hour in {s} steps, out of {all} eschatology records in all; the texts are drafts until a human reads them."
+  path_title: The signs in order
+  path_note: "The order below is the customary arrangement of the creed books: the signs in general, then the figures the sources name, then the Hour. No text fixes this sequence, and the museum does not rule on which sign comes first. At each step the museum's own records come first and the passages that mention the sign follow."
+  steps:
+    ashrat:
+      title: The signs in general
+      desc: "The portents of the Hour as a subject: the lesser and greater signs, the trials and the great battles, the Beast, and the sun rising from the west."
+    mahdi:
+      title: The Mahdi
+      desc: "What the sources report of the Mahdi."
+    dajjal:
+      title: The Dajjal
+      desc: "The Dajjal, his trial and his coming out."
+    yajuj-majuj:
+      title: Yajuj and Majuj
+      desc: "Yajuj and Majuj and the barrier."
+    saa:
+      title: The Hour itself
+      desc: "The Hour, its nearness and the end of time, with the descent of Isa as the records place it."
+  groups:
+    curated: The museum's records
+    passages: Passages that mention it
+  all:
+    title: "All eschatology records, by source"
+    lede: "The full index behind the four hereafter browsers: every record on the signs of the Hour, the Day of Judgment, Paradise and the Fire, arranged by the source it comes from."
+  scope:
+    title: Four browsers, four subjects
+    signs:
+      title: Signs of the Hour
+      text: "what comes before the Hour: its portents, the Mahdi, the Dajjal, Yajuj and Majuj."
+    qiyama:
+      title: Resurrection and Reckoning
+      text: "the Day itself: the Trumpet, the raising and the gathering, the reckoning, the Scale, the Sirat and the Basin."
+    janna:
+      title: Paradise
+      text: "the Garden: its names, gates, rivers, ranks and people."
+    nar:
+      title: The Fire
+      text: "the Fire: its names, keepers, torment and people."
+    all_note: "Every record of all four, arranged by source, is in"
+    all_link: "the full eschatology index"
   topics:
     ashrat: Signs of the Hour
     saa: The Hour & end-times
@@ -4030,7 +4071,7 @@ jinn-devils:
   badge: Unseen beings explorer
   status: "This build holds {n} records in {s} sections; texts are draft until a human reads them."
   method_title: The browser's method
-  method_note: "Every record here is an ordinary museum record — cited, trilingual — grouped by the tags jinn-devils-browser and jd-<section> inside the one graph, not in a side table; angel records the Angels Browser also carries appear here under the angels section. The Qur'an text is the frozen Tanzil text, shown on the subject pages by reference only, and the hadith cards link to the reports' own pages. Future harvested books join the browser automatically once their records carry the tag."
+  method_note: "Every record here is an ordinary museum record — cited, trilingual — grouped by the tags jinn-devils-browser and jd-<section> inside the one graph, not in a side table; angel records the Angels Browser also carries appear here under the angels section. The Qur'an text is the frozen Tanzil text, shown on the subject pages by reference only, and the hadith cards link to the reports' own pages. Future harvested books join the browser automatically once their records carry the tag. Inside each topic the records are listed by what they are, read from each record's own class and kind: the beings themselves, teachings, events, named figures, questions and works."
   api: "The whole dataset is at"
   sections_title: The browser's sections
   filter_label: Filter topics
@@ -4041,6 +4082,28 @@ jinn-devils:
   hadith_title: "In the hadith"
   quran_ref: "Qur'an"
   related_title: "Also in the museum"
+  elsewhere:
+    angels: "The angels have a browser of their own: open the Angels Browser."
+    dreams: "Dreams have a browser of their own: open the Dreams Browser."
+  groups:
+    beings:
+      title: The beings themselves
+      note: "Records that are themselves an angel, a jinn or a devil."
+    teachings:
+      title: Teachings and terms
+      note: ""
+    events:
+      title: Events and encounters
+      note: ""
+    figures:
+      title: Named figures in these accounts
+      note: "Every record of the person class tied to these accounts: the angels and devils the sources name one by one, and beside them the prophets, Companions, narrators and others who appear in the reports. A human listed here is part of the account; the museum classes no human as an angel, a jinn or a devil."
+    questions:
+      title: Questions
+      note: ""
+    works:
+      title: Books and rulings
+      note: ""
   sections:
     jinn:
       title: The jinn
@@ -4352,7 +4415,7 @@ companions:
   lede: 'The generation that met the Prophet believing in him: who they were kin to, which circle they belonged to, which events they took part in, and when they died. Every name opens the museum''s record.'
   status: 'Companions in this build: {n}, of whom {women} are women and {articles} have an article. Counts are computed from the records at build time.'
   ten_title: 'The Ten promised Paradise'
-  ten_note: 'The ten Companions named in the trail of the same name; the doctrine and its sources are on the concept page.'
+  ten_note: 'The ten Companions as the museum''s record of the doctrine names them, from al-Tahawi''s creed; the doctrine and its sources are on the concept page.'
   ten_trail: 'Walk the trail'
   ten_concept: 'About the Ten'
   circles_title: 'Circles'

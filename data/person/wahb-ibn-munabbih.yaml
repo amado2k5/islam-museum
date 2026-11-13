@@ -13,8 +13,6 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch42
 external_ids: { wikidata: "Q439374" }
-born: { edtf: "654~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal" }
-died: { edtf: "732~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal" }
 relations:
   - { type: born_in, target: place/dhamar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q955523)" }
   - { type: died_in, target: place/sanaa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2471)" }

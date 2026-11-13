@@ -7,10 +7,10 @@
 // eschatology mention in a book harvested later appears here the day its passage record
 // lands; curated records join through the `eschatology-browser` tag. There is no side list.
 import { byId, realNodes } from "./graph";
-import { eschCorpusOf, eschTagSection, eschTagTopics, ESCH_TAG, eschatologyTopicsOf, type EschSection, type EschTopic } from "../../../scripts/eschatology";
+import { eschCorpusOf, eschTagSection, eschTagTopics, ESCH_TAG, eschatologyTopicsOf, signStepOf, SIGN_STEPS, type EschSection, type EschTopic, type SignStep } from "../../../scripts/eschatology";
 import type { Node } from "../../../scripts/build-graph";
 
-export { ESCH_SECTIONS, ESCH_TOPICS, type EschSection, type EschTopic } from "../../../scripts/eschatology";
+export { ESCH_SECTIONS, ESCH_TOPICS, SIGN_STEPS, type EschSection, type EschTopic, type SignStep } from "../../../scripts/eschatology";
 
 export interface EschItem {
   node: Node;
@@ -38,3 +38,13 @@ export const eschItems: EschItem[] = realNodes
     const r = a.section.localeCompare(b.section);
     return r || a.node.id.localeCompare(b.node.id);
   });
+
+/** The records about the signs of the Hour, each at its step; curated records lead each step, passages follow in mushaf and book order. */
+export const signItems: (EschItem & { step: SignStep })[] = eschItems
+  .map((i) => ({ ...i, step: signStepOf(i.topics) }))
+  .filter((i): i is EschItem & { step: SignStep } => i.step !== null);
+export const signSteps = SIGN_STEPS.map((id) => {
+  const items = signItems.filter((i) => i.step === id);
+  return { id, curated: items.filter((i) => i.node.class !== "passage"), passages: items.filter((i) => i.node.class === "passage") };
+}).filter((s) => s.curated.length + s.passages.length > 0);
+

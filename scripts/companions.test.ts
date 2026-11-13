@@ -55,4 +55,34 @@ describe("Companions Browser selection and facets (docs/plan/29-companions-brows
     expect(idx.decades.get("11")).toEqual(["person/a"]);
     expect(idx.decades.get("31")).toEqual(["person/b"]);
   });
+
+  it("takes the Ten from the concept record's own list, resolving aliases, and counts what the list names", () => {
+    const concept = node("concept/ashara-mubashshara");
+    (concept as any).prose = { ar: { sections: [
+      { heading: "Summary", markdown: "A sentence. {cite:x p. 1}" },
+      { heading: "Names", markdown: "- [[person/a|A]]\n- [[person/old-b|B]]\n- [[person/c|C]]" },
+    ] } };
+    const b = node("person/b", { roles: ["companion"] }); (b as any).aliases = ["person/old-b"];
+    const nodes = [node("person/a", { roles: ["companion"] }), b, node("person/c"), concept,
+      node("exhibit/path-ashara", { rooms: [{ features: ["person/a"] }] })];
+    const idx = companionIndex(nodes, []);
+    expect(idx.ten).toEqual(["person/a", "person/b", "person/c"]);
+    expect(idx.tenListed).toBe(3);
+  });
+
+  it("refuses a list of the Ten that names something that is not a person record", () => {
+    const concept = node("concept/ashara-mubashshara");
+    (concept as any).prose = { ar: { sections: [{ heading: "Names", markdown: "- [[person/a|A]]\n- [[person/ghost|G]]" }] } };
+    expect(() => companionIndex([node("person/a", { roles: ["companion"] }), concept], [])).toThrow(/person\/ghost/);
+  });
+
+  it("the museum's own graph lists ten", async () => {
+    const { existsSync, readFileSync } = await import("node:fs");
+    if (!existsSync(".cache/graph.json")) return;
+    const g = JSON.parse(readFileSync(".cache/graph.json", "utf8"));
+    const idx = companionIndex(g.nodes, g.edges);
+    expect(idx.tenListed).toBe(10);
+    expect(idx.ten).toHaveLength(10);
+    expect(idx.ten).toContain("person/saad-ibn-abi-waqqas");
+  });
 });

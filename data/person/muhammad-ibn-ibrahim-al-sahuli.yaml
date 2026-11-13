@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
-died: { edtf: "1650", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
 relations:
   - { type: born_in, target: place/tarim, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1014010)" }
   - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }

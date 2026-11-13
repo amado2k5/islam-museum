@@ -1,4 +1,5 @@
 id: person/sulayman
+aliases: [person/sulayman-ibn-dawud]   # the same prophet filed twice (the Fihrist harvest); merged 13 Nov 2026, the id still resolves. Its lived_in place/fars edge is not carried: the Persian nisba in the Fihrist text is the scribe al-Hurmuzaz's
 tags: [ansab-browser, ansab-shajara, jinn-devils-browser, jd-jinn]
 class: person
 label: { ar: "سليمان", en: "Sulayman (Solomon)" }
@@ -21,7 +22,10 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch121
-sources: [source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-muhammad-metwally-al-shaarawy]
+  enriched_by:
+    - { generated_by: "Devin (SWE-2 High)", run: unknown, source: "الفهرست لابن النديم، ص 430-431: the record person/sulayman-ibn-dawud (draft tier), merged into this one" }
+    - { generated_by: "Claude Code (audit run, Part II)", model: claude-fable-5-2, run: audit-fixes-2026-11-13, source: "Merge of the duplicate person/sulayman-ibn-dawud: its three Fihrist sections are carried over unchanged under their own heading and its source added; its lived_in place/fars edge (source: wikidata, low confidence) is dropped as a misreading of the text" }
+sources: [source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-muhammad-metwally-al-shaarawy, source/fihrist-ibn-al-nadim]
 importance: 2
 status:
   review: published

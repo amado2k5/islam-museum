@@ -1,8 +1,11 @@
 id: person/yusuf-al-bayyasi
+aliases: [person/abu-al-hajjaj-al-biyasi]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "يوسف البياسي" }
 names:
   - { value: "أبو الحجاج يوسف بن محمد بن إبراهيم الأنصاري البياسي", kind: full }
+  - {kind: alternate, value: أبو الحجاج البياسي}
+  - {kind: alternate, value: Abu al-Hajjaj al-Biyasi}
 gender: male
 roles: [adib, hafiz, historian]
 born: { edtf: "1177~", hijri: "0573", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد يوم الخميس الرابع عشر من ربيع الأول سنة ٥٧٣هـ {cite:wafayat-ayan p. 242}." }
@@ -18,7 +21,8 @@ relations:
   - { type: authored, target: work/al-ilam-bil-hurub, sources: [source/wafayat-ayan] }
 
   - { type: lived_in, target: place/baeza, confidence: low, note: "Association inferred from the nisba 'البياسي'; specific birthplace or residence is not individually documented.", sources: [source/wafayat-ayan] }
-sources: [source/wafayat-ayan]
+  - {sources: [source/shadharat-dhahab], target: place/tunis, type: died_in}
+sources: [source/wafayat-ayan, source/shadharat-dhahab]
 provenance:
   layer: own-research
   source: "وفيات الأعيان — ابن خلكان (حرف الياء) ص 238-242"

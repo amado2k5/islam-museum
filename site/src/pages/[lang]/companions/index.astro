@@ -19,6 +19,8 @@ const status = fmt(C.status, { n: count(companions.ids.length), women: count(com
 const everyone = [...companions.ids].sort(collatedBy(lang));
 const circles = CIRCLES.filter((c) => byId.has(c));
 const base = `/${lang}/companions`;
+// the Ten are the concept record's own cited list (scripts/companions.ts); a section that shows another count fails the build
+if (companions.ten.length !== companions.tenListed) throw new Error(`companions: the Ten section holds ${companions.ten.length} but its source list names ${companions.tenListed}`);
 const facet = (path: string, id: string, n: number, text = label(id)) => ({ path, text, n });
 ---
 <BaseLayout lang={lang} title={C.title} description={C.lede} path={`${base}/`}>

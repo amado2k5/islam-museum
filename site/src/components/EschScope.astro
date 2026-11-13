@@ -1,0 +1,20 @@
+---
+// What each of the four hereafter browsers holds and how they differ (audit of 13 November 2026, S10), shown on all
+// four landings so a visitor can tell them apart from any one of them. The one the visitor is on is marked.
+import { ui, type Lang } from "../lib/i18n";
+interface Props { lang: Lang; current: "signs" | "qiyama" | "janna" | "nar" }
+const { lang, current } = Astro.props;
+const S = (ui(lang) as any).signs.scope;
+const rows = (["signs", "qiyama", "janna", "nar"] as const).map((id) => ({ id, href: `/${lang}/${id}/`, title: S[id].title, text: S[id].text }));
+---
+<section class="panel ui" aria-labelledby="esch-scope" style="max-width:var(--measure);margin-block:1rem">
+  <h2 id="esch-scope" style="font-size:1rem;margin:0 0 .5rem">{S.title}</h2>
+  <ul style="margin:0;padding-inline-start:1.2rem">
+    {rows.map((r) => (
+      <li style="margin-block:.3rem">
+        {r.id === current ? <strong aria-current="page">{r.title}</strong> : <a href={r.href}>{r.title}</a>}: {r.text}
+      </li>
+    ))}
+  </ul>
+  <p class="muted" style="margin:.6rem 0 0;font-size:.9rem">{S.all_note} <a href={`/${lang}/signs/all/`}>{S.all_link}</a>.</p>
+</section>

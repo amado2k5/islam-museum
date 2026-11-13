@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
-born: { edtf: "788", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
-died: { edtf: "880", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: born_in, target: place/nishapur, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q131350)" }
 sources: [source/al-aalam]

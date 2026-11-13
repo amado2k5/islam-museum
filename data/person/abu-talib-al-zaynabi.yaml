@@ -23,8 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1003", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
-died: { edtf: "1088", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
 relations:
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: buried_in, target: place/al-khaisaran-cemetery, note: "Wikidata Q12244626 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }

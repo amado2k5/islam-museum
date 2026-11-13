@@ -22,8 +22,6 @@ regions:
 - anatolia-balkans
 periods:
 - period/gunpowder-empires
-born: { edtf: "1592", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Mustafa I); TDV Islam Ansiklopedisi" }
-died: { edtf: "1639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Mustafa I); TDV Islam Ansiklopedisi" }
 relations:
 - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
 - { type: successor_of, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }

@@ -46,12 +46,29 @@ export const decadeOrder = (key: string): number => (key === "bh" ? -1 : Number(
 export interface CompanionIndex {
   ids: string[];
   ten: string[];
+  /** How many names the source list of the Ten carries; a page or feed that shows another number is wrong. */
+  tenListed: number;
   circles: Map<string, string[]>;
   clans: Map<string, string[]>;
   events: Map<string, { id: string; role?: string }[]>;
   decades: Map<string, string[]>;
   women: string[];
   death: Map<string, { year: number; derived: boolean }>;
+}
+
+/**
+ * A membership list kept in a record's own prose: the first section that is nothing but a bullet list of person
+ * links (`- [[person/slug|label]]`). Returns the ids as written, in order, or null when the record has no such list.
+ * The Arabic prose is read first: it is the canonical text and its translations carry the same list.
+ */
+export function proseNameList(n: Node | undefined): string[] | null {
+  const doc = n?.prose?.ar ?? Object.values(n?.prose ?? {})[0];
+  for (const s of doc?.sections ?? []) {
+    const lines = s.markdown.split("\n").map((l) => l.trim()).filter(Boolean);
+    const ids = lines.map((l) => l.match(/^[-*]\s+\[\[(person\/[a-z0-9-]+)(?:\|[^\]]*)?\]\]\.?$/)?.[1]);
+    if (lines.length >= 2 && ids.every(Boolean)) return ids as string[];
+  }
+  return null;
 }
 
 /** Group the Companions of a compiled graph. Lists keep the order of `nodes`; callers sort for display. */
@@ -85,10 +102,27 @@ export function companionIndex(nodes: Node[], edges: Edge[]): CompanionIndex {
     const d = deathAH(n.data);
     if (d) { death.set(n.id, d); push(decades, decadeKey(d.year), n.id); }
   }
-  const trail = byId.get(TEN_TRAIL);
-  const ten = [...new Set<string>((trail?.data?.rooms ?? []).flatMap((r: any) => r?.features ?? []))].filter((id) => isSet.has(id));
+  // The Ten are the names the concept record itself lists, each cited there (audit of 13 November 2026: a hand-kept
+  // trail listed nine and the section showed nine). An id written under an alias resolves to its record. A name that
+  // resolves to no person record fails the build here, and the page and the feed compare `ten` with `tenListed`.
+  // A graph without the concept's list (a fixture, an early build) falls back to the trail's Companions.
+  const listed = proseNameList(byId.get(TEN_CONCEPT));
+  let ten: string[];
+  if (listed) {
+    const aliasOf = new Map<string, string>();
+    for (const n of nodes) for (const a of n.aliases ?? []) aliasOf.set(a, n.id);
+    ten = [...new Set(listed.map((id) => {
+      // an alias wins over a node of the same id: a retired id may still stand in the graph as a stub
+      const t = byId.get(aliasOf.get(id) ?? id);
+      if (!t || t.stub || t.class !== "person") throw new Error(`${TEN_CONCEPT} lists ${id}, which is not a person record: the Ten cannot be derived`);
+      return t.id;
+    }))];
+  } else {
+    const trail = byId.get(TEN_TRAIL);
+    ten = [...new Set<string>((trail?.data?.rooms ?? []).flatMap((r: any) => r?.features ?? []))].filter((id) => isSet.has(id));
+  }
   return {
-    ids: companions.map((n) => n.id), ten, circles, clans, events, decades, death,
+    ids: companions.map((n) => n.id), ten, tenListed: listed ? listed.length : ten.length, circles, clans, events, decades, death,
     women: companions.filter((n) => n.data?.gender === "female").map((n) => n.id),
   };
 }

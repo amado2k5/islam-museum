@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Amili (A'yan al-Shi'a)" }
-died: { edtf: "1812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Amili (A'yan al-Shi'a)" }
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
 sources: [source/al-aalam]

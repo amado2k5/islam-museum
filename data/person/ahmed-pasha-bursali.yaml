@@ -1,4 +1,5 @@
 id: person/ahmed-pasha-bursali
+aliases: [person/ahmad-pasha-bursali]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 
 label: { ar: "أحمد باشا البرسوي", en: "Ahmed Pasha of Bursa", ur: "احمد پاشا بورسوی" }
@@ -7,6 +8,8 @@ names:
   - { value: "Ahmed Paşa", kind: full }
   - { value: "أحمد باشا", kind: full }
   - { value: "Bursalı Ahmed Paşa", kind: alternate }
+  - {kind: alternate, value: أحمد باشا البورصوي}
+  - {kind: alternate, value: 'Ahmad Pasha Bursali (Ottoman poet, d. 1496–97)'}
 
 gender: male
 
@@ -60,6 +63,7 @@ sources:
   - source/wikipedia-ahmed-pasha-fa
   - source/tdv-ahmed-pasa-bursali
   - source/wikidata-ahmed-pasha
+  - source/encyclopaedia-of-islam-2
 
 provenance:
   layer: own-research
