@@ -2199,3 +2199,15 @@ Resume point: mawkib-al-nour episode 7 (branch from origin/main).
 | Asides on a salary dispute, a dress anecdote at an office and a housing-investment example beyond the points kept | ep07 00:12:30-00:13:00, 00:30:00-00:32:00, 00:34:00 | Illustrative asides, not separate claims | Content rule | Open |
 
 Resume point: mawkib-al-nour episode 8 (branch from origin/main).
+
+### mawkib-al-nour ep08 (12 Nov 2026)
+
+25 points written for episode 8 (ar, en, ur); 15 needs_source marks; 7 new `about` edges. Quran verses referenced only through passage links (52-48, 12-18, 15-85, 73-10, 20-39, 28-10, 2-251, 22-40, 88-21, 7-199, 2-216, 34-10, 34-11, 51-22, 40-60, 29-45); none typed. Proposal for the founder, not applied: the scientific claim on melatonin and sleep (ep08 00:17:00) and the account of a patient who outlived a cancer prognosis (00:31:00) are unsourced and are marked, not removed.
+
+| Excluded (mawkib-al-nour ep08) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, supplications for the Muslims' lands and the closing supplication | ep08 00:00:00-00:01:30 (recitation, Quran text never typed), 00:19:00 (a verse recited mid-text), 00:39:00-00:39:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep08 00:11:00 (a long loop), 00:12:00 (a long loop), 00:30:30 (a long loop), 00:32:30 (a long loop), 00:35:30 (a long loop), 00:36:00 (a long loop) | Not recoverable | Clarity, Loop check | Open |
+| Asides on poetry about youth, football coaches' skills, grain measures and a surgery anecdote beyond the points kept | ep08 00:07:30, 00:22:30-00:23:30, 00:28:30, 00:27:30 | Illustrative asides, not separate claims | Content rule | Open |
+
+Resume point: mawkib-al-nour episode 9 (branch from origin/main).
