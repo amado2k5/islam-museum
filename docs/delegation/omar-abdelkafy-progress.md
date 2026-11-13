@@ -2381,3 +2381,17 @@ Resume point: mawkib-al-nour episode 21 (branch from origin/main).
 | Garbled passages on a government raid analogy, an exchange about a workplace salary, and a passage on a pill taken in a game | ep21 00:16:00-00:16:30, 00:39:30-00:40:00 | Garbled, partly unreadable | Clarity | Open |
 
 Resume point: mawkib-al-nour episode 22 (branch from origin/main).
+
+(Correction to the ep21 note above: episode 21 added 2 new `about` edges, not 5; the third excluded row for episode 21 covers garbled stretches at 00:16:00-00:16:30 and 00:39:30-00:40:00 whose subjects (a workplace salary exchange and a sports warm-up remark) could not be recovered.)
+
+### mawkib-al-nour ep22 (12 Nov 2026)
+
+19 points written for episode 22 (ar, en, ur); 15 needs_source marks per language file (ar 15, en 15, ur 15); 2 new `about` edges. Quran verses referenced only through passage links (9-128, 9-129, 55-29, 74-7, 1-6, 1-7, 4-69, 25-72, 48-29, 24-55, 2-3, 9-103, 21-78, 21-79, 34-10); none typed. Proposal for the founder, not applied: the lecturer's judgement that the Prophet was the easiest jurist in history (ep22 00:02:30) and his call for governments half revelation and half awareness (00:10:00) are recorded as his; the numbers and ages he gives for the Ridda armies and Usama's expedition (00:19:00-00:23:00), Solomon's age and ruling (00:24:30) and the water stopping at David's voice (00:30:30) have no source.
+
+| Excluded (mawkib-al-nour ep22) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and supplication, and the closing prayer | ep22 00:00:00-00:01:30 (recitation, Quran text never typed; supplication), 00:33:00-00:33:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep22 00:05:30 (a long repeated syllable), 00:13:30-00:14:00 (a long repeated syllable), 00:23:30-00:24:00 (a long repeated syllable), 00:26:00 (a long repeated syllable), 00:26:30-00:27:30 (a long repeated syllable) | Not recoverable | Clarity, Loop check | Open |
+| Remarks on touch screens and the sense of touch in children, on a ruling on divorce by text message and on kissing a wife's hand, all partly garbled; an aside on how the Jews regard David and Solomon | ep22 00:26:30-00:28:30, 00:30:00-00:30:30, 00:32:00-00:32:30 | Garbled, partly unreadable, and a sweeping remark about a group | Clarity, Content rule | Open; proposal for the founder to decide |
+
+Resume point: mawkib-al-nour episode 23 (branch from origin/main).
