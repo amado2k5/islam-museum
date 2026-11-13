@@ -8,7 +8,7 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PagedNav from "../../../components/PagedNav.astro";
 import FullFilter from "../../../components/FullFilter.astro";
-import { pagedStaticPaths, pageView, renderedHeadline, type PagedProps } from "../../../lib/paged";
+import { pagedStaticPaths, pageView, renderedHeadline, curatedFirst, type PagedProps } from "../../../lib/paged";
 import DraftMark from "../../../components/DraftMark.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
@@ -37,7 +37,7 @@ const refOf = (n: Node) => {
   if (n.data.sura && n.data.aya) return `${n.data.sura}:${n.data.aya}`;
   return n.data.ref ? String(n.data.ref) : (n.data.unit ? String(n.data.unit) : "");
 };
-const sectionIds: DreamSection[] = [...DREAM_SECTIONS];
+const sectionIds: DreamSection[] = curatedFirst([...DREAM_SECTIONS]);
 const sections = sectionIds.map((id) => ({ id, items: dreamItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
 const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/dreams/`);
 const pagedLabel = (s: { id: string }) => G.sections[s.id]?.title ?? s.id;

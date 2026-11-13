@@ -15,6 +15,7 @@ import InventionSections from "../components/InventionSections.astro";
 import CareerStrip from "../components/CareerStrip.astro";
 import ModernStrips from "../components/ModernStrips.astro";
 import DraftMark from "../components/DraftMark.astro";
+import { siblingJourneys } from "../lib/journeys";
 import { JOB_NOT_YET } from "../lib/jobs";
 import { splitTafsir, commentaries as tafsirCatalogue, wiredCommentaries, commentaryOf, authorsOf, volumeHref, surahHref, coveredIn, ayahsOf } from "../lib/tafsir";
 import { byId, href, labelOf, summaryOf, summaryRaw, stripNeedsSource, related, updatedOn, REPO, SITE, SEGMENT, nodes } from "../lib/graph";
@@ -244,6 +245,15 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
         </div>
 
         {n.class === "journey" && d.waypoints && <JourneyPlayer node={n} lang={lang} />}
+        {n.class === "journey" && (
+          <nav class="sec ui" aria-labelledby="journeys-onward" style="margin-block:1.2rem">
+            <h2 id="journeys-onward" style="font-size:1rem;margin:0 0 8px">{T.journeys.onward_title}</h2>
+            <p style="display:flex;flex-wrap:wrap;gap:6px 8px;margin:0">
+              <a class="chip" style="border:1px solid var(--gold)" href={`/${lang}/journeys/`}>{T.journeys.onward_all}</a>
+              {siblingJourneys(n).map((m) => <a class="chip" href={href(lang, m.id)}>{labelOf(m, lang)}</a>)}
+            </p>
+          </nav>
+        )}
         {n.class === "exhibit" && (d.rooms?.length ?? 0) > 0 && <Pathway node={n} lang={lang} />}
         <script src="../scripts/mytour.ts"></script>
         <Extras node={n} lang={lang} />

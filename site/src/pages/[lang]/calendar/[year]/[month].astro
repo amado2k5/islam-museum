@@ -1,0 +1,69 @@
+---
+// One Hijri month at its own address (audit of 13 November 2026, S28): the month's days with their Gregorian twins,
+// its observances, and plain links to the month before and after. No script: this is the page to share or to crawl.
+// The interactive calendar and the converter stay at /calendar/.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { href } from "../../../../lib/graph";
+import { hijriToCivil } from "../../../../../../scripts/hijri/convert";
+import { OBS, obsFor, hijriJDN, monthLen, gregDay, wdOf, staticYears, hasStatic, monthHref, yearHref, prevMonth, nextMonth } from "../../../../lib/hijri-cal";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => staticYears.flatMap((y) => Array.from({ length: 12 }, (_x, k) => ({ params: { lang, year: String(y), month: String(k + 1) }, props: { lang, y, m: k + 1 } }))));
+}
+const { lang, y, m } = Astro.props as { lang: Lang; y: number; m: number };
+const T = ui(lang);
+const C = T.calendar;
+const len = monthLen(y, m);
+const start = wdOf(hijriJDN(y, m, 1));
+const obs = OBS.filter((o) => o.m === m);
+const [py, pm] = prevMonth(y, m), [ny, nm] = nextMonth(y, m);
+const title = `${C.months[m - 1]} ${y}`;
+const span = `${gregDay(y, m, 1)} — ${gregDay(y, m, len)}`;
+const link = (yy: number, mm: number) => (hasStatic(yy) ? monthHref(lang, yy, mm) : `/${lang}/calendar/`);
+---
+<BaseLayout lang={lang} title={`${title} · ${C.title}`} description={`${title}: ${span}`} path={monthHref(lang, y, m)}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/calendar/`}>{C.title}</a> › <a href={yearHref(lang, y)}>{y}</a> › {C.months[m - 1]}</nav>
+    <div data-pagefind-body>
+      <h1>{title}</h1>
+      <p class="ui muted">{span} · {y >= 1318 && y <= 1500 ? C.umalqura : C.approx}</p>
+    </div>
+    <nav class="ui" aria-label={C.months_index} style="display:flex;flex-wrap:wrap;gap:8px 12px;margin:0 0 1rem">
+      <a class="chip" rel="prev" href={link(py, pm)}>‹ {C.months[pm - 1]} {py}</a>
+      <a class="chip" href={yearHref(lang, y)}>{C.months_of.replace("{year}", String(y))}</a>
+      <a class="chip" rel="next" href={link(ny, nm)}>{C.months[nm - 1]} {ny} ›</a>
+      <a class="chip" href={`/${lang}/calendar/`}>{C.open_calendar}</a>
+    </nav>
+    <section class="panel" aria-label={title} style="max-width:var(--measure);padding:14px">
+      <table class="ui" style="width:100%;border-collapse:collapse;text-align:center;table-layout:fixed">
+        <thead><tr>{C.weekday_names.map((w: string) => <th scope="col" style="font-size:.75rem;color:var(--muted);padding:4px 0;font-weight:400">{w}</th>)}</tr></thead>
+        <tbody>
+          {Array.from({ length: Math.ceil((start + len) / 7) }, (_r, row) => (
+            <tr>
+              {Array.from({ length: 7 }, (_c, col) => {
+                const d = row * 7 + col - start + 1;
+                if (d < 1 || d > len) return <td />;
+                const c = hijriToCivil({ y, m, d });
+                const marks = obsFor(m, d);
+                return (
+                  <td style={`padding:6px 2px;border:1px solid color-mix(in srgb, var(--gold) 20%, transparent);${marks.length ? "border-bottom:3px solid var(--gold)" : ""}`} title={marks.map((o) => C.obs[o.key]).join(" · ") || undefined}>
+                    <span style="display:block;font-weight:700">{d}</span>
+                    <span style="display:block;font-size:.65rem;color:var(--muted)">{c.calendar === "gregorian" ? `${c.date.d}/${c.date.m}` : ""}</span>
+                    {marks.length > 0 && <span class="sr-only">{marks.map((o) => C.obs[o.key]).join(" · ")}</span>}
+                  </td>
+                );
+              })}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+    <section aria-labelledby="month-obs" style="max-width:var(--measure);margin-top:1rem">
+      <h2 id="month-obs" style="font-size:1.05rem">{C.observances}</h2>
+      {obs.length > 0 ? (
+        <p class="ui" style="display:flex;flex-wrap:wrap;gap:6px">{obs.map((o) => { const days = o.days.length > 1 ? `${o.days[0]}–${o.days[o.days.length - 1]}` : String(o.days[0]); return o.link ? <a class="chip" href={href(lang, o.link)}>{C.obs[o.key]} · {days}</a> : <span class="chip">{C.obs[o.key]} · {days}</span>; })}</p>
+      ) : <p class="ui muted">{C.obs_none}</p>}
+    </section>
+  </div>
+</BaseLayout>

@@ -1,0 +1,58 @@
+---
+// The Journeys landing (audit of 13 November 2026, S29). The Explore menu opened one journey, the Hijra, and the
+// other forty-nine were reachable only through the generic class listing. This lists every journey record by its
+// kind, each with its route (its stations in order, as the record gives them) and its summary.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import DraftMark from "../../../components/DraftMark.astro";
+import ExploreBar from "../../../components/ExploreBar.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { byId, href, labelOf, summaryOf } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { journeys, JOURNEY_KINDS, routeOf } from "../../../lib/journeys";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const J = (T as any).journeys;
+const groups = JOURNEY_KINDS.map((kind) => ({ kind, items: journeys.filter((n) => (n.data.kind ?? "travel") === kind) })).filter((g) => g.items.length > 0);
+// the headline is the set the page lists
+const listed = groups.reduce((k, g) => k + g.items.length, 0);
+if (listed !== journeys.length) throw new Error(`journeys: the landing lists ${listed} journeys but the museum holds ${journeys.length}`);
+const short = (s: string, k = 180) => (s.length > k ? s.slice(0, k).replace(/\s+\S*$/, "") + "…" : s);
+const arrow = lang === "en" ? " → " : " ← ";
+---
+<BaseLayout lang={lang} title={J.title} description={J.lede} path={`/${lang}/journeys/`}>
+  <PageHeader title={J.title} lede={J.lede} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: J.title }]} crumbsLabel={T.entity.breadcrumb} wing="place" />
+  <div class="wrap" style="padding-block:24px 20px">
+    <p class="panel ui" style="max-width:var(--measure)" data-pagefind-ignore>{fmt(J.status, { n: num(listed, lang), k: num(groups.length, lang) })}</p>
+    <nav aria-label={J.title} class="ui" style="margin:0 0 1rem" data-pagefind-ignore>
+      <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+        {groups.map((g) => <li><a class="chip" href={`#k-${g.kind}`}>{J.kinds[g.kind] ?? g.kind} · {num(g.items.length, lang)}</a></li>)}
+      </ul>
+    </nav>
+    {journeys.some((n) => n.data.status?.review === "draft") && <DraftMark lang={lang} legend />}
+    <div data-pagefind-ignore>
+      {groups.map((g) => (
+        <section aria-labelledby={`k-${g.kind}`} style="margin:1.6rem 0">
+          <h2 id={`k-${g.kind}`} style="font-size:1.2rem">{J.kinds[g.kind] ?? g.kind} <span class="ui muted" style="font-weight:400">· {num(g.items.length, lang)}</span></h2>
+          <ul class="grid-cards" style="list-style:none;margin:0;padding:0">
+            {g.items.map((n) => {
+              const route = routeOf(n).map((id) => byId.get(id)).filter(Boolean).map((p) => labelOf(p!, lang));
+              return (
+                <li>
+                  <a class="card" href={href(lang, n.id)}>
+                    <h3 class="card-title">{labelOf(n, lang)}<DraftMark lang={lang} node={n} /></h3>
+                    {route.length > 1 && <span class="ui" style="display:block;font-size:.85rem">{route.length > 6 ? [...route.slice(0, 3), "…", ...route.slice(-2)].join(arrow) : route.join(arrow)}</span>}
+                    <span>{short(summaryOf(n, lang))}</span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </div>
+  <ExploreBar lang={lang} />
+</BaseLayout>

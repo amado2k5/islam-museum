@@ -21,7 +21,7 @@ const craftDomains = DOMAINS.filter((d) => crafts.some((c) => c.data.domain === 
 const everyJob = [...jobNodes].sort(byLabel);
 // the A-to-Z search text: every language's label, so a visitor finds a job by its name in any of them
 const searchText = (n: any) => [n.label.ar, n.label.en, n.label.ur].filter(Boolean).join(" ");
-const status = fmt(J.status, { jobs: num(jobNodes.length, lang), articles: num(jobNodes.filter(hasArticle).length, lang), holders: num(peopleWithJobs.length, lang) });
+const status = fmt(J.status, { jobs: num(jobNodes.length, lang), articles: num(jobNodes.filter(hasArticle).length, lang), holders: num(peopleWithJobs.length, lang), empty: num(jobNodes.filter((j) => holdersOf(j.id).length === 0).length, lang) });
 const count = (n: number) => num(n, lang);
 ---
 <BaseLayout lang={lang} title={J.title} description={J.lede} path={`/${lang}/jobs/`}>
@@ -83,7 +83,7 @@ const count = (n: number) => num(n, lang);
           <li data-job-row data-search={searchText(j)} style="display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;padding:10px 0;border-bottom:1px solid var(--line)">
             <a href={href(lang, j.id)} style="font-weight:600">{label(j)}</a>
             <span class="chip">{domainLabel(j.data.domain, lang)}</span>
-            <span class="ui muted">{J.count_holders.replace("{n}", count(holdersOf(j.id).length))}</span>
+            <span class="ui muted">{holdersOf(j.id).length === 0 ? J.holders_none : J.count_holders.replace("{n}", count(holdersOf(j.id).length))}</span>
           </li>
         ))}
       </ul>

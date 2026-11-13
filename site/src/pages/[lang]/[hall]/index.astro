@@ -73,6 +73,7 @@ const collections = wing === "objects"
   </PageHeader> : <PlaceMap lang={lang} />}
   <div class="wrap" style={wing === "place" ? "padding-block:0" : "padding-block:24px 20px"} data-pagefind-ignore>
     {wing === "time" && <HijriTimeline lang={lang} />}
+    {wing === "time" && <p class="ui muted" style="max-width:var(--measure);margin:.8rem 0 0">{T.hall.other_timeline} <a href={`/${lang}/time-browser/`}>{T.explore.pages.timeexplorer.title}</a>.</p>}
     {wing === "today" && (
       <section class="today-page" aria-labelledby="today-h">
         <TodayCards lang={lang} full={true} />
@@ -150,6 +151,19 @@ const collections = wing === "objects"
           <input id="hall-filter" type="search" autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
         </p>
         <FullFilter lang={lang} slug={`hall-${wing}`} />
+        {wing === "time" && (
+          <form class="ui" data-year-jump data-base={`/${lang}/time/all/`} data-groups={groups.map((g) => g.id).join(" ")} data-t-invalid={T.hall.year_invalid} data-t-none={T.hall.year_none}
+            style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem" action={`/${lang}/time/`}>
+            <label for="year-jump">{T.hall.year_label}</label>
+            <input id="year-jump" name="year" type="number" min="1" max="2100" inputmode="numeric" required style="font:inherit;min-height:44px;width:7em;padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+            <select name="era" aria-label={T.hall.year_era} style="font:inherit;min-height:44px;padding:6px 8px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)">
+              <option value="ah">{T.hall.year_ah}</option>
+              <option value="ce">{T.hall.year_ce}</option>
+            </select>
+            <button type="submit" class="chip" style="min-height:44px;border:1px solid var(--gold)">{T.hall.year_go}</button>
+            <span role="alert" data-year-msg hidden style="flex-basis:100%;color:var(--gold)"></span>
+          </form>
+        )}
         <nav aria-label={T.hall.index_title} class="ui">
           <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
             {groups.map((g) => <li><a class="chip" href={hallIndexHref(lang, WING_PATH[wing], g.id)}>{groupLabel(g)} · {num(g.items.length, lang)}</a></li>)}
@@ -159,5 +173,6 @@ const collections = wing === "objects"
     )}
 
   </div>
+  {wing === "time" && <script is:inline src="/shell/year-jump.js" defer></script>}
   {wing !== "place" && <ExploreBar lang={lang} />}
 </BaseLayout>

@@ -1,0 +1,28 @@
+---
+// The fatwas distilled from one source: a fatwa collection or an institution's fatwa site (the by-institution view
+// the explorer always had, one source to a page since the audit of 13 November 2026).
+// The museum records fatwas as history and attributes them; it never issues a ruling.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import FatwaList from "../../../../components/FatwaList.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { href, labelOf } from "../../../../lib/graph";
+import { fatwaSources } from "../../../../lib/fatwa";
+
+export function getStaticPaths() { return LANGS.flatMap((lang) => fatwaSources.map((s) => ({ params: { lang, slug: s.slug }, props: { lang, slug: s.slug } }))); }
+const { lang, slug } = Astro.props as { lang: Lang; slug: string };
+const T = ui(lang);
+const F = T.fatwa;
+const s = fatwaSources.find((x) => x.slug === slug)!;
+const name = s.node ? labelOf(s.node, lang) : s.sid;
+---
+<BaseLayout lang={lang} title={`${name} · ${F.title}`} description={F.disclaimer} path={`/${lang}/fatwa/source/${slug}/`}>
+  <div class="wrap" style="padding-block:10px 24px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/fatwa/`}>{F.title}</a> › {name}</nav>
+    <section data-pagefind-body>
+      <h1>{s.node ? <a href={href(lang, s.sid)}>{name}</a> : name} <span class="ui muted">{F.count.replace("{n}", String(s.list.length))}</span></h1>
+      <p class="panel ui" role="note" style="max-width:var(--measure)">{F.disclaimer}</p>
+    </section>
+    <section data-pagefind-ignore><FatwaList lang={lang} list={s.list} /></section>
+    <p class="ui"><a href={`/${lang}/fatwa/#fatwa-by-source`}>{F.back}</a></p>
+  </div>
+</BaseLayout>
