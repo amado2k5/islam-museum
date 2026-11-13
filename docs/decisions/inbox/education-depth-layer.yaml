@@ -1,0 +1,5 @@
+question: "Education Explorer depth layer (13 November 2026): the depth layer was written as fixed-heading sections in the lessons' Arabic and English prose rather than as new connection cards in the data records, so the Urdu pages stay byte-identical (the run's instruction was not to touch /ur/) and the course records, URLs and expectation mappings are unchanged. Geography 7-8 was counted with Social Studies; the Arts were not attempted because they need a lens of their own. Confirm, or ask for the layer to be moved into the records with Urdu."
+class: "process"
+lane: "education"
+options: ["keep in prose (ar/en), add Urdu in a later pass", "move into data connections with ar/en/ur", "revert"]
+evidence: ["docs/courses/depth-rubric.md", "docs/courses/depth-rollout.md", "scripts/courses/check_depth.py"]
