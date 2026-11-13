@@ -163,6 +163,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 3 chapter 7 continued (batch 170): trilingual draft prose on errors of shape, separation, continuity and number from weak sight and squint, cited to scan pages 520–522.
 - Kitab al-Manazir (Ibn al-Haytham), Article 3 chapter 7 continued (batch 171): trilingual draft prose on the error of motion after rapid turning and dizziness, stillness from weak sight, and the millstone, cited to scan pages 522–525.
 - **"Mawkib al-Nour", episode 17 added.** God's promise to the weak of the land that He will make them leaders and inheritors: the lecturer on caring for the orphan, the widow and the elderly, mercy toward trees and enemies, the earth belonging to God, being wronged rather than wronging, counting blessings, the story of Qarun, what accompanies the dead to the grave, and his statement on siding with a wrongdoer. Reports without a chain and unattributed lines are marked as needing a source; the lecturer's opinions are labelled as his; Quran verses are linked, never typed.
+- Kitab al-Manazir (Ibn al-Haytham), Article 3 chapter 7 continued (batch 172): trilingual draft prose on weak-sight errors of roughness, transparency, shadow, beauty and likeness, cited to scan pages 525–528.
 
 
 ### Fixed
