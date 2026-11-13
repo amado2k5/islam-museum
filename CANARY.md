@@ -189,6 +189,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 184): trilingual draft prose on the image of a visible thing and facing, and on the positions of surfaces and lines by facing and inclination, cited to scan pages 258–261.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 185): trilingual draft prose on excessive and slight inclination and the verification of the positions of surfaces by the distances of their ends, cited to scan pages 261–264.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 186): trilingual draft prose on the distances between separated visible things, and on the positions and order of the parts of a visible thing, cited to scan pages 264–267.
+- Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 187): trilingual draft prose on the perception of solidity through the bending of surfaces, and the two kinds of shape, cited to scan pages 268–271.
 
 
 ### Fixed
