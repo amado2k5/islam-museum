@@ -4389,6 +4389,19 @@ qurun:
     curated:
       title: Curated records
       desc: "The museum's curated records on time: the twelve months, the sacred months, the intercalation, the Hijri calendar, the Arabic year, the Persian months, the Jahiliyya names of days and months, the centuries and the named years — tagged qurun-browser."
+  viz:
+    title: "The wheel of the Hijri year"
+    caption: "The twelve lunar months round the year, the first at the top. The gold bar of each month grows with the square root of the number of passages in the museum that mention it, measured against the month with the most. Rabi' and Jumada are each one record for two months, as the sources treat them. The passages on the sacred months are counted together in the centre."
+    label: "A wheel of the Hijri months with the number of passages that mention each"
+    sacred_sub: "passages on the sacred months"
+    hint: "Hover, focus or tap a month to read it; tap it again to open its page. The arrow keys move round the wheel."
+    month_of: "Month {o} of {t}"
+    months_of: "Months {o} of {t}"
+    passages: "{n} passages"
+    open: "Open the month's page"
+    months_nav: "The months of the year"
+    sacred_note: "Counted in the centre:"
+    years_title: "Named years"
 madhahib:
   also_under: "Also under:"
   title: "Four Madhhabs Browser"
@@ -4671,6 +4684,15 @@ asma:
   order_label: "No. {n} in the enumeration"
   record_link: "The museum record for this name"
   enumeration_label: "Enumerations"
+  viz:
+    title: "The ninety-nine beads"
+    caption: "The ninety-nine names strung in the order of al-Tirmidhi's enumeration, from the top; a gold ring closes each thirty-three. The lit core of a bead grows with the square root of the number of Qur'an passages the museum links to the name, measured against the name with the most."
+    label: "The ninety-nine names as beads on a string, in the order of al-Tirmidhi's enumeration"
+    idle_sub: "names"
+    hint: "Hover, focus or tap a bead to read it; tap it again to open its page. The arrow keys move along the string."
+    mentions: "{n} linked Qur'an passages"
+    root: "Root"
+    open: "Open the name's page"
 khulafa:
   title: "The Caliphs Browser"
   lede: "The caliphs of Islam, grouped by the caliphate they ruled — Rashidun, Umayyad, Cordoba, Abbasid Baghdad and Cairo, Fatimid, Almohad, Ottoman and Sokoto — each with his reign, his place in the succession, the events his reign saw and the sources that say so."
