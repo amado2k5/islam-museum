@@ -195,6 +195,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 190): trilingual draft prose on the imagined cone and its base in the perception of magnitude, and the hand that hides a wall, cited to scan pages 278–281.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 191): trilingual draft prose on the intervening parts of the ground and the measure of distance by the human body, cited to scan pages 282–285.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 192): trilingual draft prose on acquisition by imagination and bounded measures, measuring a distance by the ray, and the certainty and obscurity of distance, cited to scan pages 285–288.
+- Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 193): trilingual draft prose on verifying the magnitude of distance by contemplation and on measuring distance by the angle in familiar visible things, cited to scan pages 288–291.
 
 
 ### Fixed
