@@ -13,6 +13,23 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.29.0 — 2026-11-13
+### Added
+- **The Tafsir Browser starts from the verse.** The page used to open with two lists, "Commentaries, 23 entries" and "Volumes, 16 entries", and the sixteen volumes were one work in one edition. It now opens with "Read by verse": the surahs that carry commentary, each with its count (al-Baqara: 284 of 286 verses), then the verses of the surah, then the commentary on the verse. From the landing to al-Tabari on 2:255 is two clicks. The surahs the digests have not reached are named as such. New pages: `/{lang}/tafsir/surah/<n>/` for the 14 surahs covered today.
+- **Every verse page has a Tafsir section.** The 1,715 verses with a digest of al-Tabari had it inside "Place in the museum", unlabelled. The same paragraphs, unchanged, now stand under the heading Tafsir, with the commentator, the work and the volume cited, each a link. A verse with no digest says so in one sentence: how many commentaries the catalogue holds, which one is read verse by verse so far, and that it has not reached this verse. Nothing is borrowed from another verse.
+- **Surah pages lead to their commentary.** The surah's record page and its surah map both carry "Tafsir on this surah" with the count of verses covered and a link to them.
+- **`/{lang}/quran/` opens.** It answered "page not found". It is now a short door to the Mushaf, the Surah maps, the Tafsir Browser and the order of revelation. The Mushaf and the Surah maps each say in one sentence what the other is for.
+
+### Changed
+- **A volume page explains itself.** It names the commentary and the commentator it belongs to, with links, lists its coverage surah by surah in words ("Sura 2: Al-Baqara — verses 1–2, 4–43") and states a gap inside its range as a gap ("2:3 — not yet covered") instead of leaving the number out.
+- **The catalogue is labelled for what it is.** The volume list is headed "The volumes of Jami' al-Bayan in this edition — 16", each commentary is marked "read verse by verse" or "catalogue entry", and `/api/v1/tafsir.json` gives every row a `role` (commentary or volume), the commentary a volume belongs to (`volume_of`) and its `verses_covered`.
+
+### Data
+- **Four volume records of Jami' al-Bayan caught up with the verses that cite them.** Volumes 10, 12, 13 and 14 listed 37, 107, 149 and 146 verses while the verse records citing them numbered 78, 136, 151 and 157 (83 verses between them, among them 5:43–5:94 and 9:119–9:129). The missing `about` relations are added from the same cite lines the records were built from,  The count line of the Arabic, English and Urdu summaries is restated to match (figures only; no other word of the Urdu summaries is changed).
+
+### Tests
+- `scripts/tafsir.test.ts` checks, over every verse and language, that lifting the commentary out of the prose loses no text and leaves no tafsir citation behind; `scripts/check-site.ts` checks the verse-first landing, the Tafsir section on 2:255, the fallback on a verse without commentary, and `/quran/`.
+
 ## v1.28.0 — 2026-11-12
 ### Performance
 - **The build takes about an hour and twenty minutes instead of three and a half hours, and a full deploy about forty-seven minutes instead of three hours and a quarter.** Tried on UAT first (build run 43300358009, deploy run 43334841849, 13 November) against the production build and deploy of the same content the day before. Four changes. (1) Each entity page looked up its connections by scanning every edge of the graph about eight times and re-read the whole list of related entities from disk; both are now prepared once per build. Rendering the 202,253 pages fell from 3 h 6 min to 43 min, and 400 pages sampled across the sitemap are byte for byte the same on UAT and production. (2) The publisher uploaded its archives with a call that blocked everything else, so they went up one at a time whatever the parallel setting said; it no longer blocks. A full publish went from 99 minutes for 307,693 operations with 678 retries to 42 minutes for 441,087 operations with 13. (3) The sync Workers no longer write one shared progress file that up to 42 of them wrote at once, against R2's limit of one write a second to a key. (4) The build is stored as one compressed file of 1.15 GB instead of 456,000 separate files (the upload took 24 minutes, now under three), and the deploy copies only the 95 files the Worker serves itself instead of the whole build (six minutes, now sixteen seconds). Builds made before this change stay deployable: the deploy accepts both forms.

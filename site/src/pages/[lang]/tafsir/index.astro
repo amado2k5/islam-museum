@@ -1,20 +1,26 @@
 ---
-// The Tafsir Browser (docs/plan/27-tafsir-browser.md): a separate wing of Qur'an commentaries.
-// The commentary is a work; each printed volume is a work of kind tafsir-volume, part_of the commentary.
+// The Tafsir Browser (docs/plan/27-tafsir-browser.md), verse first: a visitor chooses a surah, then a verse, and reads
+// what the commentators in the museum say about it. The catalogue of commentaries follows, labelled for what it is:
+// a commentary is a work; each printed volume is a work of kind tafsir-volume, part_of its commentary.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { href, labelOf, summaryOf, realNodes, edgesFrom } from "../../../lib/graph";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { href, labelOf, summaryOf } from "../../../lib/graph";
+import { commentaries, volumes, commentaryOf, wiredCommentaries, surahs, ayahsOf, coveredIn, coveredSurahs, coveredCount, surahHref, volumeHref } from "../../../lib/tafsir";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const X = (T as any).tafsir;
-const works = realNodes.filter((n: any) => n.class === "work");
-const commentaries = works.filter((n: any) => n.id === "work/jami-al-bayan" || n.data.kind === "tafsir");
-const volumes = works
-  .filter((n: any) => n.data.kind === "tafsir-volume")
-  .sort((a: any, b: any) => String(a.id).localeCompare(String(b.id), "en", { numeric: true }));
+const sep = lang === "en" ? ", " : "، ";
 const count = (n: number) => X.count.replace("{n}", String(n));
+const covered = surahs.filter((s) => coveredSurahs.includes(s.data.sura));
+const notYet = surahs.filter((s) => !coveredSurahs.includes(s.data.sura));
+// the volumes grouped under the commentary they belong to, so a list of one work's volumes is never read as a list of works
+const volumeGroups = commentaries
+  .map((c) => ({ work: c, vols: volumes.filter((v) => commentaryOf(v) === c) }))
+  .filter((g) => g.vols.length > 0);
+const orphanVolumes = volumes.filter((v) => !commentaryOf(v));
+const wiredNames = wiredCommentaries.map((c) => labelOf(c, lang)).join(sep);
 ---
 <BaseLayout lang={lang} title={X.title} description={X.lede} path={`/${lang}/tafsir/`}>
   <div class="wrap" style="padding-block:10px 24px">
@@ -24,25 +30,63 @@ const count = (n: number) => X.count.replace("{n}", String(n));
       <p>{X.lede}</p>
     </section>
 
+    <section aria-labelledby="tafsir-by-verse" data-pagefind-ignore>
+      <h2 id="tafsir-by-verse">{X.by_verse}</h2>
+      <p class="muted">{fmt(X.by_verse_note, { covered: String(coveredCount), surahs: String(covered.length) })}</p>
+      {covered.length === 0 ? <p class="muted">{X.empty}</p> : (
+        <ol class="grid-cards" style="list-style:none;margin:0;padding:0">
+          {covered.map((s) => (
+            <li>
+              <a class="card" href={surahHref(lang, s.data.sura)}>
+                <h3 class="card-title">{labelOf(s, lang)}</h3>
+                <span class="ui">{fmt(X.surah_cov, { k: String(coveredIn(s.data.sura).length), n: String(ayahsOf(s.data.sura).length) })}</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      )}
+      {notYet.length > 0 && (
+        <details style="margin-top:1rem">
+          <summary class="ui" style="cursor:pointer;font-weight:600;padding:6px 0">{X.not_yet} <span class="muted">({notYet.length})</span></summary>
+          <p class="muted">{X.not_yet_note}</p>
+          <p class="ui" style="display:flex;flex-wrap:wrap;gap:6px 8px">
+            {notYet.map((s) => <a class="chip" href={href(lang, s.id)}>{labelOf(s, lang)}</a>)}
+          </p>
+        </details>
+      )}
+    </section>
+
     <section aria-labelledby="tafsir-commentaries">
       <h2 id="tafsir-commentaries">{X.commentaries} <span class="ui muted">{count(commentaries.length)}</span></h2>
+      {wiredNames && <p class="muted">{fmt(X.catalogue_note, { names: wiredNames })}</p>}
       {commentaries.length === 0 ? <p class="muted">{X.empty}</p> : (
         <ul role="list">
           {commentaries.map((n: any) => (
-            <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a><p class="muted">{summaryOf(n, lang)}</p></li>
+            <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a> <span class="chip ui" style="font-size:.78rem">{wiredCommentaries.includes(n) ? X.wired : X.catalogue_only}</span><p class="muted">{summaryOf(n, lang)}</p></li>
           ))}
         </ul>
       )}
     </section>
 
     <section aria-labelledby="tafsir-volumes" data-pagefind-ignore>
-      <h2 id="tafsir-volumes">{X.volumes} <span class="ui muted">{count(volumes.length)}</span></h2>
-      {volumes.length === 0 ? <p class="muted">{X.empty}</p> : (
-        <ul role="list">
-          {volumes.map((n: any) => (
-            <li><a href={`/${lang}/tafsir/${n.id.replace("work/", "")}/`}>{labelOf(n, lang)}</a><p class="muted">{summaryOf(n, lang)}</p></li>
-          ))}
-        </ul>
+      {volumeGroups.map((g, i) => (
+        <>
+          <h2 id={i === 0 ? "tafsir-volumes" : undefined}>{fmt(X.volumes_of, { work: labelOf(g.work, lang) })} <span class="ui muted">— {g.vols.length}</span></h2>
+          <ul role="list">
+            {g.vols.map((n: any) => (
+              <li><a href={volumeHref(lang, n)}>{labelOf(n, lang)}</a><p class="muted">{summaryOf(n, lang)}</p></li>
+            ))}
+          </ul>
+        </>
+      ))}
+      {volumeGroups.length === 0 && <><h2 id="tafsir-volumes">{X.volumes}</h2><p class="muted">{X.empty}</p></>}
+      {orphanVolumes.length > 0 && (
+        <>
+          <h2>{X.volumes} <span class="ui muted">— {orphanVolumes.length}</span></h2>
+          <ul role="list">
+            {orphanVolumes.map((n: any) => <li><a href={volumeHref(lang, n)}>{labelOf(n, lang)}</a><p class="muted">{summaryOf(n, lang)}</p></li>)}
+          </ul>
+        </>
       )}
     </section>
   </div>

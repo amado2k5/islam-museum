@@ -1,11 +1,12 @@
 ---
-// One volume of a commentary in the Tafsir Browser (docs/plan/27-tafsir-browser.md): the volume's verses in order.
+// One volume of a commentary in the Tafsir Browser (docs/plan/27-tafsir-browser.md): which work and edition it belongs
+// to, then its coverage surah by surah in words, with the gaps inside its range named as gaps, then the verse links.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { href, labelOf, summaryOf, realNodes, edgesFrom } from "../../../lib/graph";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { href, labelOf, summaryOf } from "../../../lib/graph";
+import { volumes, commentaryOf, authorsOf, versesOf, volumeSurahs, runsText, surahHref } from "../../../lib/tafsir";
 
 export function getStaticPaths() {
-  const volumes = realNodes.filter((n: any) => n.class === "work" && n.data.kind === "tafsir-volume");
   return LANGS.flatMap((lang) =>
     volumes.map((n: any) => ({ params: { lang, volume: n.id.replace("work/", "") }, props: { lang, node: n } })),
   );
@@ -13,34 +14,54 @@ export function getStaticPaths() {
 const { lang, node } = Astro.props as { lang: Lang; node: any };
 const T = ui(lang);
 const X = (T as any).tafsir;
-const verses = edgesFrom(node.id)
-  .filter((e: any) => e.type === "about" && String(e.to).startsWith("passage/quran-"))
-  .map((e: any) => String(e.to))
-  .sort((a: string, b: string) => {
-    const [sa, aa] = a.replace("passage/quran-", "").split("-").map(Number);
-    const [sb, ab] = b.replace("passage/quran-", "").split("-").map(Number);
-    return sa - sb || aa - ab;
-  });
-const first = verses[0]?.replace("passage/quran-", "").replace("-", ":") ?? "";
-const last = verses[verses.length - 1]?.replace("passage/quran-", "").replace("-", ":") ?? "";
-const covers = X.covers.replace("{n}", String(verses.length)).replace("{first}", first).replace("{last}", last);
+const sep = lang === "en" ? ", " : "، ";
+const verses = versesOf(node);
+const ref = (a: any) => `${a.data.sura}:${a.data.aya}`;
+const covers = verses.length ? fmt(X.covers, { n: String(verses.length), first: ref(verses[0]), last: ref(verses[verses.length - 1]) }) : X.empty;
+const bySurah = volumeSurahs(node);
+const anyGap = bySurah.some((s) => s.gaps.length > 0);
+const work = commentaryOf(node);
+const authors = work ? authorsOf(work) : [];
+// "This volume is part of {work}, the commentary of {author}." with both names as links
+const belongs = (() => {
+  if (!work) return null;
+  const tpl: string = authors.length ? X.belongs : X.belongs_work;
+  return tpl.split(/(\{work\}|\{author\})/).filter(Boolean);
+})();
 ---
 <BaseLayout lang={lang} title={labelOf(node, lang)} description={summaryOf(node, lang)} path={`/${lang}/tafsir/${node.id.replace("work/", "")}/`}>
   <div class="wrap" style="padding-block:10px 24px">
     <section data-pagefind-body>
       <p class="ui"><a href={`/${lang}/tafsir/`}>{X.back}</a></p>
       <h1>{labelOf(node, lang)}</h1>
+      {belongs && work && (
+        <p>{belongs.map((part) =>
+          part === "{work}" ? <a href={href(lang, work.id)}>{labelOf(work, lang)}</a>
+          : part === "{author}" ? authors.map((a: any, k: number) => <>{k > 0 && sep}<a href={href(lang, a.id)}>{labelOf(a, lang)}</a></>)
+          : part)}</p>
+      )}
       <p>{summaryOf(node, lang)}</p>
       <p class="muted">{covers}</p>
     </section>
 
     <section aria-labelledby="tafsir-verses" data-pagefind-ignore>
       <h2 id="tafsir-verses">{X.verses}</h2>
-      <ul role="list">
-        {verses.map((id: string) => (
-          <li><a href={href(lang, id)}>{id.replace("passage/quran-", "").replace("-", ":")}</a></li>
-        ))}
-      </ul>
+      {bySurah.map((s) => (
+        <div style="margin-block:0 1.2rem">
+          <h3 style="margin-bottom:.3rem"><a href={surahHref(lang, s.sura)}>{labelOf(s.node, lang)}</a> <span class="ui muted" style="font-weight:400">— {fmt(X.vol_range, { ranges: runsText(s.covered) })}</span></h3>
+          {s.gaps.length > 0 && (
+            <ul class="muted" style="margin:.2rem 0 .5rem">
+              {s.gaps.map((a) => <li>{fmt(X.vol_gap, { ref: `${s.sura}:${a}` })}</li>)}
+            </ul>
+          )}
+          <ul role="list" class="ui" style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 8px">
+            {s.covered.map((a) => (
+              <li><a class="chip" href={`${href(lang, `passage/quran-${s.sura}-${a}`)}#tafsir`}>{s.sura}:{a}</a></li>
+            ))}
+          </ul>
+        </div>
+      ))}
+      {anyGap && <p class="muted">{X.gaps_note}</p>}
     </section>
   </div>
 </BaseLayout>

@@ -8,6 +8,7 @@ import SurahMap, { type SurahMapPayload } from "../../../components/SurahMap.ast
 import { listSurahMaps, loadSurahMap } from "../../../lib/surah-maps";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, labelOf, realNodes } from "../../../lib/graph";
+import { coveredIn, surahHref } from "../../../lib/tafsir";
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) =>
@@ -35,6 +36,8 @@ const payload: SurahMapPayload = {
     kids: (s.children ?? []).map((k) => ({ t: L(k.title), a: k.range[0], b: k.range[1] })),
   })),
 };
+const tafsirCovered = coveredIn(file.surah).length;
+const TX = (T as any).tafsir;
 const title = fmt(SM.map_title, { name });
 const desc = fmt(SM.map_lede, { n: String(total) });
 ---
@@ -77,6 +80,11 @@ const desc = fmt(SM.map_lede, { n: String(total) });
           </li>
         ))}
       </ol>
+    </section>
+    <section style="margin-top:28px" aria-labelledby="surah-tafsir">
+      <h2 class="ui" id="surah-tafsir" style="font-size:1.1rem">{TX.block_title}</h2>
+      <p class="ui" style="font-size:.92rem">{tafsirCovered > 0 ? fmt(TX.block_some, { k: String(tafsirCovered), n: String(total) }) : TX.block_none}{" "}
+        <a href={tafsirCovered > 0 ? surahHref(lang, file.surah) : `/${lang}/tafsir/`}>{tafsirCovered > 0 ? TX.block_link : TX.section_browse}</a></p>
     </section>
   </div>
 </BaseLayout>

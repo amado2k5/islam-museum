@@ -6,9 +6,9 @@ label:
   en: "Jami' al-Bayan, vol. 14 (Shakir edition)"
   ur: "جامع البیان، جلد ۱۴ ⁦(شاکر کی تحقیق)⁩"
 summary:
-  ar: "الجزء ١٤ من تفسير الطبري «جامع البيان» في طبعة أحمد محمد شاكر ومحمود محمد شاكر. يغطي الآيات التي تستشهد بهذا الجزء سجلات المتحف الآن: 146 موضعا، من 8:48 إلى 9:118."
-  en: "Volume 14 of al-Tabari's Jami' al-Bayan in the Shakir edition. The museum's verse records cite this volume for 146 verse positions, from 8:48 to 9:118."
-  ur: "طبری کی جامع البیان کی شاکر طبعہ کی جلد ۱۴۔ میوزیم کے آیت ریکارڈ اس جلد کے 146 مقامات، 8:48 سے 9:118 تک، کا حوالہ دیتے ہیں۔"
+  ar: "الجزء ١٤ من تفسير الطبري «جامع البيان» في طبعة أحمد محمد شاكر ومحمود محمد شاكر. يغطي الآيات التي تستشهد بهذا الجزء سجلات المتحف الآن: 157 موضعا، من 8:48 إلى 9:129."
+  en: "Volume 14 of al-Tabari's Jami' al-Bayan in the Shakir edition. The museum's verse records cite this volume for 157 verse positions, from 8:48 to 9:129."
+  ur: "طبری کی جامع البیان کی شاکر طبعہ کی جلد ۱۴۔ میوزیم کے آیت ریکارڈ اس جلد کے 157 مقامات، 8:48 سے 9:129 تک، کا حوالہ دیتے ہیں۔"
 relations:
   - { type: part_of, target: work/jami-al-bayan, sources: [source/tafsir-tabari-shakir-v14] }
   - { type: about, target: passage/quran-8-48, sources: [source/tafsir-tabari-shakir-v14] }
@@ -157,6 +157,17 @@ relations:
   - { type: about, target: passage/quran-9-116, sources: [source/tafsir-tabari-shakir-v14] }
   - { type: about, target: passage/quran-9-117, sources: [source/tafsir-tabari-shakir-v14] }
   - { type: about, target: passage/quran-9-118, sources: [source/tafsir-tabari-shakir-v14] }
+  - { type: about, target: passage/quran-9-119, sources: [source/tafsir-tabari-shakir-v14] }
+  - { type: about, target: passage/quran-9-120, sources: [source/tafsir-tabari-shakir-v14] }
+  - { type: about, target: passage/quran-9-121, sources: [source/tafsir-tabari-shakir-v14] }
+  - { type: about, target: passage/quran-9-122, sources: [source/tafsir-tabari-shakir-v14] }
+  - { type: about, target: passage/quran-9-123, sources: [source/tafsir-tabari-shakir-v14] }
+  - { type: about, target: passage/quran-9-124, sources: [source/tafsir-tabari-shakir-v14] }
+  - { type: about, target: passage/quran-9-125, sources: [source/tafsir-tabari-shakir-v14] }
+  - { type: about, target: passage/quran-9-126, sources: [source/tafsir-tabari-shakir-v14] }
+  - { type: about, target: passage/quran-9-127, sources: [source/tafsir-tabari-shakir-v14] }
+  - { type: about, target: passage/quran-9-128, sources: [source/tafsir-tabari-shakir-v14] }
+  - { type: about, target: passage/quran-9-129, sources: [source/tafsir-tabari-shakir-v14] }
 wings: []
 sources: [source/tafsir-tabari-shakir-v14]
 provenance:
@@ -165,4 +176,6 @@ provenance:
   generated_by: "Claude Code (tafsir lane, volume coverage)"
   model: claude-haiku-5-5
   run: tafsir-volumes-2026-11-07
+  enriched_by:
+    - { generated_by: "Claude Code (audit run, Part I)", model: claude-fable-5-2, run: audit-fixes-2026-11-13, source: "about relations and the count line brought in step with the passage records that cite this volume's source (cite lines in content/ar/passage/quran-*.md); no reading of the volume" }
 status: { review: published, completeness: 2, generated_by: "Claude Code (tafsir lane, volume coverage)" }
