@@ -46,6 +46,7 @@ const readOf = (n: any) => {
 };
 
 // ---- the axis, from the data: whole quarter-centuries around the dated sermons
+// (the Hijri calendar has no year 0: a tick at the axis's start is labelled year 1, scripts/check-site.ts)
 const STEP = 25, PAD = 26, MIN_W = 640, ROW = 30;
 const at = datedSermons.map((n) => composedHijri(n)!.at);
 const MIN = at.length ? Math.floor(Math.min(...at) / STEP) * STEP : 0;
@@ -96,7 +97,7 @@ const rings = groups.map((g) => {
           {ticks.map((y) => <i style={`--f:${frac(y)}`}></i>)}
         </div>
         <div class="sg-kt-axis" aria-hidden="true">
-          {ticks.map((y) => <span class="sg-kt-tick ui" style={`--f:${frac(y)}`}>{plain(y)} {era.ah}</span>)}
+          {ticks.map((y) => <span class="sg-kt-tick ui" style={`--f:${frac(y)}`}>{plain(Math.max(1, y))} {era.ah}</span>)}
         </div>
         {marks.map((m) => (
           <a class={`sg-kt-mark`} href={href(lang, m.n.id)} aria-label={m.read} title={m.read} data-read={m.read} data-at={f4(m.d.at)} data-row={m.row}
