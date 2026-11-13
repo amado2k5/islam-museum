@@ -1,7 +1,9 @@
 # 46 · CI flow proposal: a fast answer for pull requests (November 2026)
 
-**Status: proposal, awaiting the founder's approval.** Nothing in it is implemented. It covers the open items 7.1, 7.2 and
-7.3 of [45 · Build and deploy review](45-build-deploy-review.md) and follows `docs/ai-change-gates.md` section 1.
+**Status: approved by the founder in chat on 13 November 2026 ("Approve as written") and implemented the same day in
+pull request 6526. Section 9 has the measured result.** It covers the open items 7.1, 7.2 and 7.3 of
+[45 · Build and deploy review](45-build-deploy-review.md) and follows `docs/ai-change-gates.md` section 1. Decision
+record: `docs/decisions/records/dec-20261113-271.yaml`.
 
 **Risk label: `non-impacting`** (section 3 of the gates). It changes when and how checks run. It changes no page, no
 record, no licence, no hosting, no API route and no document a submission links to. A full build of `main` produces the
@@ -190,3 +192,52 @@ Nothing in this proposal depends on the answer.
 One pull request against `main` with the changes above, a `CANARY.md` entry, `npm run validate` at 0 errors, `npm test`
 passing, a local sample build, and the measured time of that pull request's own Validate run set beside the 54 to 89
 minutes of today.
+
+## 9. Result (13 November 2026, pull request 6526)
+
+Measured on the pull request's own run, 43443214491, against the runs of the same day before it.
+
+| | Before | After |
+|---|---|---|
+| First answer (content validation) | at the end of the build, 54 to 89 min | 2 min 14 s after the job started (validation itself 104 s) |
+| `test` job (validation, then unit tests) | 7 to 10 min (unit tests only) | 10 min 27 s |
+| Build step (validate, graph, derive, API export, Astro, Pagefind, page checks) | 2,819 to 3,879 s | 964 s |
+| `check:static` | 244 to 408 s | 17 s |
+| Link check | 665 to 770 s | 95 s (plus 21 s to write the placeholders) |
+| `build` job up to the end of the link check | 62 to 85 min | 18 min 53 s |
+| Pages built | 202,274 | 26,089 |
+
+Locally the sample rendered in 250 s, and `check:site` (26,101 pages, 0 errors) and `check:weight` (71 routes, 0 over
+budget) passed on it.
+
+**The run is red, and rightly.** It is the first run in days to reach the link check, and the check found 2,054 broken
+links. All of them are on `main` already and none comes from sampling (every one is on a listing sub-page, which the
+sample builds in full): on the paged sub-pages of the listings (`/browse/<class>/all/<key>/`, `/people/all/<key>/` and
+the like, audit S18 of the same day) the language switch points to the same section key in the other language, and the
+keys are letters of each language's own alphabet, so `/en/browse/building/all/u0627/` does not exist. Because the link
+check stopped the job, axe and Lighthouse did not run; from the estimate in section 2 they add about five minutes, so a
+green run should take about 24 minutes. That last figure is not measured yet.
+
+Two faults of `main` therefore keep every pull request red until each has its own fix:
+
+1. the language switch on the paged listing sub-pages (2,054 links);
+2. axe on `/en/`: `label-content-name-mismatch` on the element `.cxp-card` of the home page (found by `npm run axe` on
+   a local full build).
+
+Other checks made:
+
+- **A full build is unchanged.** The sample was built locally, then the whole site (206,410 pages) from the same commit
+  with `SAMPLE_BUILD` unset: all 25,115 sample pages larger than 1 KB are byte-identical in the two builds.
+- **The queue expression works.** A temporary workflow on the branch carried the same `concurrency` block: GitHub
+  accepted the expression in `queue` (run 43442771303), and of three pushes in a row the first ran (43442860707), the
+  second was cancelled while it waited (43442884031) and the newest waited its turn (43442910935). The fallback of
+  section 4 was not needed. The `queue: max` side (a build started by hand) cannot be tried from a branch; it uses the
+  documented value that `build.yml` already had.
+- **`site-checks.yml` has not run yet.** A `workflow_run` workflow runs only from the default branch, so its first run
+  follows the first successful build of `main` after the merge. It will be red until fault 1 above is fixed.
+- `npm run validate`: 0 errors (148,378 files read by the new check, none with U+FFFD). `npm test`: 41 files, 539
+  tests, all pass.
+
+One slip to record: the edits to `validate.yml`, `build.yml`, `package.json` and the two page templates were committed
+inside the commit "temporary probe push 1" by a `git commit -a`, against the rule of explicit paths. The content is as
+proposed; only the commit title misleads.
