@@ -16,7 +16,7 @@ A static site with no backend has a small attack surface. The real risks are
 | Sacred-text corruption | low | very high | Qur'an passages only from frozen Tanzil files; committed sha256; validator re-verifies every ayah byte-for-byte; ﴿ ﴾ banned in prose |
 | Privacy regression (cookies/forms/3rd-party JS) | low | medium | `check-static.ts` audits built output; Cloudflare NEL and email-obfuscation disabled deliberately; cookieless analytics only |
 | DDoS / bandwidth exhaustion | low | low | Cloudflare edge cache absorbs; static origin; no dynamic endpoints |
-| Account/host loss | low | medium | Entire site + history reproducible from the public repo; GitHub Pages fallback mirror; ADR 0001 durability argument |
+| Account/host loss | low | medium | Entire site + history reproducible from the public repo; no live fallback mirror by decision (`06-deployment.md` §5a); ADR 0001 durability argument |
 
 ## 2. Identity and access
 
