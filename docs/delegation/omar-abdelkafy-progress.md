@@ -2421,3 +2421,17 @@ Resume point: mawkib-al-nour episode 24 (branch from origin/main).
 | A joke about a miser and a wolf, a remark that removing eyebrow hair kills memory cells, and a few lines on how the women described are to be recognised | ep24 00:16:00-00:17:30, 00:32:30-00:33:00 | A joke, an unsourced scientific remark and a sweeping description of a group of women; left out | Content rule, Accuracy | Open |
 
 Resume point: mawkib-al-nour episode 25 (branch from origin/main).
+
+(Correction to the ep24 note above: the episode 24 text added 4 new `about` edges, not 6.)
+
+### mawkib-al-nour ep25 (12 Nov 2026)
+
+15 points written for episode 25 (ar, en, ur); 12 needs_source marks per language file (ar 12, en 12, ur 12); 4 new `about` edges. Quran verses referenced only through passage links (10-105, 10-106, 7-144, 22-78, 55-1, 55-2, 55-3, 55-4, 2-36, 17-70, 7-33, 111-1, 2-9); none typed. Proposal for the founder, not applied: his account of Freud, Darwin and the church (ep25 00:05:30-00:11:30), the counts of occurrences in the Qur'an (00:08:00), the claim that a named institution wishes to take people from God's religion (00:26:00) and his statement that the Prophet asked Umar about his mind (00:25:00) are recorded as his, with no source; the transcript renders jahiliyya in several places as an unclear word and the text there follows the context.
+
+| Excluded (mawkib-al-nour ep25) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings and the closing prayer | ep25 00:00:00-00:00:30 (greetings), 00:29:00-00:29:30 (closing) | Not lesson content | Content rule | Open |
+| Garbled windows and loops | ep25 00:12:00-00:12:30 (a long repeated syllable), 00:15:00-00:15:30 (a long repeated word), 00:17:00 (a long repeated word), 00:26:30 (a long repeated letter), 00:27:00 (a long repeated word) | Not recoverable | Clarity, Loop check | Open |
+| A hypothetical dialogue imagining Abu Jahl asking Umm Jamil to dance, partly garbled, and a remark on the stones used as a hearth and then worshipped, and a wedding-invitation aside with a cousin | ep25 00:20:00-00:21:00, 00:26:00-00:26:30 | An imagined dialogue and garbled asides | Clarity, Content rule | Open |
+
+Resume point: mawkib-al-nour episode 26 (branch from origin/main).
