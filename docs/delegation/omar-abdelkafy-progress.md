@@ -2576,3 +2576,15 @@ Resume point: modakirate-iblis episode 8 (branch from origin/main). Episode 8 is
 | The second half of the recording | ep08 after 00:07:00 | Not in the transcript (transcript ends mid-sentence) | Source completeness | Open |
 
 Resume point: modakirate-iblis episode 9 (branch from origin/main).
+
+### modakirate-iblis ep09 (12 Nov 2026)
+
+15 points written for episode 9 (ar, en, ur); 7 needs_source marks in each language file; 5 new `about` edges. Quran verses referenced only through passage links (72-18, 3-97, 12-28, 27-34, 4-76, 55-29, 40-29, 26-88, 26-89); none typed. Proposal for the founder, not applied: the lecturer's reading that the governor's words (12-28) are a man's statement and not the Quran's verdict on women is recorded as his view only.
+
+| Excluded (modakirate-iblis ep09) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break (a repeated jingle), and the closing prayer | ep09 00:00:00, 00:11:00-00:11:30, 00:22:30 | Not lesson content | Content rule | Open |
+| A long loop of a repeated jingle line | ep09 00:11:00 | Not recoverable | Clarity, Loop check | Open |
+| A garbled stretch on what the angels say in the grave and on the wife's qualifications | ep09 00:05:00 | Loop, nothing safely restated | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 10 (branch from origin/main).
