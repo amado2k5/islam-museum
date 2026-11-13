@@ -1,0 +1,207 @@
+---
+// "Coin, deed and endowment through time" (Islamic Economy Browser home): three ledgers, one per topic of the browser
+// (money, deeds and covenants, endowment), side by side on one vertical time axis in Hijri centuries with the CE year of
+// each century beside it. Down a ledger stand that topic's DATED records, a mark each (shape by class of record), every one
+// a real link to its record. Under each ledger the topic's undated material is counted by corpus section, each count a
+// link to that section on the page. A record with two topics stands in both ledgers and is tied across them on hover.
+// Dates are read from the record (the stored Hijri date, else the CE date converted); marks that fall close in time are
+// fanned apart sideways and, when they must, a little down (never up), so a mark can sit a little under its exact year:
+// the caption says so and the readout gives the date. Everything comes from lib/islamic-economy.ts at build time;
+// site/src/scripts/sig-ie.ts only adds the readout and the ties.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf, summaryOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { formatDate, hijriParts, startOf } from "../../lib/dates";
+import { ieItems, IE_SECTIONS, IE_TOPICS, type IeTopic } from "../../lib/islamic-economy";
+import { civilToHijri, hijriToCivil } from "../../../../scripts/hijri/convert";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const G = T.islamic_economy;
+const V = G.viz;
+
+// ---- the fixed vocabulary; the build throws when the data steps outside it
+const EMBLEM: Record<IeTopic, string> = {
+  money: `<circle cx="20" cy="20" r="16"/><circle cx="20" cy="20" r="9"/>`,
+  sukuk: `<path d="M9 5h16l7 7v23H9z"/><path d="M25 5v7h7"/>`,
+  waqf: `<path d="M7 35V21a13 13 0 0 1 26 0v14"/><path d="M14 35V22a6 6 0 0 1 12 0v13"/>`,
+};
+const SHAPE: Record<string, string> = { event: "ev", work: "wk", building: "bd", concept: "cn", group: "gr" };
+for (const t of IE_TOPICS) if (!EMBLEM[t] || !G.topics[t]) throw new Error(`IeLedgers: topic ${t} has no emblem or no label`);
+const topics = IE_TOPICS.filter((t) => ieItems.some((i) => i.topics.includes(t)));
+if (topics.length === 0) throw new Error("IeLedgers: no topic holds a record");
+
+// ---- the year of a record: the stored Hijri year (with its month), else the CE year converted; undefined when undated
+const yearOf = (n: any): number | undefined => {
+  const s = startOf(n.data);
+  const h = hijriParts(s?.hijri);
+  if (h) return h[0] + (h[1] - 1) / 12;
+  const m = typeof s?.edtf === "string" ? s.edtf.replace(/X/g, "0").match(/^(-?\d{1,4})(?:-(\d{2}))?(?:-(\d{2}))?/) : null;
+  if (!m) return undefined;
+  const y = Number(m[1]);
+  if (y < 622) return Math.floor(((y - 622) * 33) / 32) + 1;
+  const hy = civilToHijri(s.calendar ?? (y < 1583 ? "julian" : "gregorian"), { y, m: Number(m[2] ?? 6), d: Number(m[3] ?? 15) }).date;
+  return hy.y + (hy.m - 1) / 12;
+};
+const dated = ieItems.map((i) => ({ i, y: yearOf(i.node) })).filter((x): x is { i: (typeof ieItems)[number]; y: number } => x.y !== undefined);
+const placed = dated.filter((x) => x.i.topics.length > 0);
+if (placed.length === 0) throw new Error("IeLedgers: no dated record to place");
+for (const x of placed) if (!SHAPE[x.i.node.class]) throw new Error(`IeLedgers: no shape for the class ${x.i.node.class} of ${x.i.node.id}`);
+const total = ieItems.length;
+const noTopic = ieItems.filter((i) => i.topics.length === 0).length;
+const clsLabel = (c: string) => { const l = V[`cls_${c}`]; if (!l) throw new Error(`IeLedgers: no label for class ${c}`); return l as string; };
+
+// ---- the axis: pixels per year, the first year shown, the Hijri-century ticks
+const lastY = Math.max(...placed.map((x) => x.y));
+const firstY = Math.min(...placed.map((x) => x.y), 1);
+const lo = firstY < 1 ? Math.floor(firstY / 25) * 25 : 1;
+const PAD = 22;
+const PXY = Math.min(0.55, 800 / (lastY - lo));
+const Y = (y: number) => Math.round((y - lo) * PXY + PAD);
+const HT = Y(lastY) + 40;
+const lastC = Math.floor((lastY - 1) / 100) + 1;
+const ticks = Array.from({ length: lastC }, (_, k) => k + 1).map((c) => ({ c, y: Y((c - 1) * 100 + 1), ce: hijriToCivil({ y: (c - 1) * 100 + 1, m: 1, d: 1 }).date.y }));
+const plain = (n: number) => String(n);
+const pre = lo < 1;
+
+// ---- marks: greedy placement per ledger, three lanes, never moving a mark up
+const LANES = 3, STEP = 26;
+const order = [1, 0, 2];
+interface Mark { id: string; href: string; top: number; lane: number; shape: string; topic: IeTopic; aria: string }
+const marks = new Map<IeTopic, Mark[]>();
+const info: Record<string, { t: string; d: string; k: string; s: string; also: string[]; h: string }> = {};
+const first = (s: string) => { const t = s.split(/(?<=[.!?؟۔])\s+/)[0] ?? ""; return t.length > 240 ? `${t.slice(0, 237)}…` : t; };
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+for (const t of topics) {
+  const last = new Array(LANES).fill(-1e9);
+  const out: Mark[] = [];
+  for (const x of placed.filter((p) => p.i.topics.includes(t)).sort((a, b) => a.y - b.y || a.i.node.id.localeCompare(b.i.node.id))) {
+    const ideal = Y(x.y);
+    let best = -1, bestTop = 1e9;
+    for (const l of order) { const top = Math.max(ideal, last[l] + STEP); if (top < bestTop) { bestTop = top; best = l; } }
+    last[best] = bestTop;
+    const date = formatDate(startOf(x.i.node.data), lang).text;
+    const name = short(x.i.node);
+    out.push({ id: x.i.node.id, href: href(lang, x.i.node.id), top: bestTop, lane: best, shape: SHAPE[x.i.node.class], topic: t, aria: fmt(V.mark, { name, date }) });
+    info[x.i.node.id] ??= { t: name, d: date, k: clsLabel(x.i.node.class), s: first(summaryOf(x.i.node, lang)), also: x.i.topics.map((u) => G.topics[u]), h: href(lang, x.i.node.id) };
+  }
+  marks.set(t, out);
+}
+const plotH = Math.max(HT, ...[...marks.values()].flat().map((m) => m.top + 34));
+
+// ---- the undated material of each ledger, by corpus section
+const datedIds = new Set(placed.map((x) => x.i.node.id));
+const secs = IE_SECTIONS.filter((s) => ieItems.some((i) => i.section === s));
+const undated = new Map<IeTopic, Map<string, number>>();
+for (const t of topics) {
+  const m = new Map<string, number>();
+  for (const i of ieItems) if (i.topics.includes(t) && !datedIds.has(i.node.id)) m.set(i.section, (m.get(i.section) ?? 0) + 1);
+  undated.set(t, m);
+}
+const maxUn = Math.max(1, ...[...undated.values()].flatMap((m) => [...m.values()]));
+for (const s of secs) if (!V[`sec_${s}`]) throw new Error(`IeLedgers: no short label for section ${s}`);
+const topicN = (t: IeTopic) => ieItems.filter((i) => i.topics.includes(t)).length;
+const classes = [...new Set(placed.map((x) => x.i.node.class))].sort((a, b) => Object.keys(SHAPE).indexOf(a) - Object.keys(SHAPE).indexOf(b));
+const rtl = lang !== "en";
+---
+<section aria-labelledby="sg-ie-title" class={`sg-ie${rtl ? " is-rtl" : ""}`} data-sg-ie style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="sg-ie-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .5rem">{fmt(V.note, { dated: num(placed.length, lang), total: num(total, lang), undated: num(total - placed.length, lang) })}{noTopic > 0 ? ` ${fmt(V.no_topic, { n: num(noTopic, lang) })}` : ""}</p>
+  </div>
+  <ul class="sg-ie-legend ui" aria-label={V.legend}>
+    {classes.map((c) => <li><i class={`sg-ie-sw ${SHAPE[c]}`} aria-hidden="true"></i>{clsLabel(c)}</li>)}
+  </ul>
+  <div class="sg-ie-fig" role="group" aria-label={V.region} style={`--n:${topics.length}`}>
+    <div class="sg-ie-heads">
+      <span class="sg-ie-axh ui">{V.axis_ah} · {V.axis_ce}</span>
+      {topics.map((t) => (
+        <div class="sg-ie-head">
+          <svg viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" focusable="false" set:html={EMBLEM[t]} />
+          <h3>{G.topics[t]}</h3>
+          <p class="ui"><b>{num(topicN(t), lang)}</b> <span class="muted">{fmt(V.dated, { n: num(marks.get(t)!.length, lang) })}</span></p>
+        </div>
+      ))}
+    </div>
+    <div class="sg-ie-plot" data-sg-ie-plot style={`height:${plotH}px`}>
+      <svg class="sg-ie-ties" aria-hidden="true" focusable="false" data-sg-ie-ties></svg>
+      <div class="sg-ie-axis" aria-hidden="true">
+        {pre && <span class="sg-ie-pre ui" style={`top:${Y(lo) - 4}px`}>{V.before}</span>}
+        {ticks.map((k) => <span class="sg-ie-tk ui" style={`top:${k.y}px`}><b>{num(k.c, lang)}</b> <small>{plain(k.ce)}</small></span>)}
+      </div>
+      {ticks.map((k) => <i class={`sg-ie-gl${k.c === 1 ? " hijra" : ""}`} style={`top:${k.y}px`} aria-hidden="true"></i>)}
+      {topics.map((t, ti) => (
+        <div class="sg-ie-col" style={`grid-column:${ti + 2}`} role="list" aria-label={G.topics[t]}>
+          {marks.get(t)!.map((m) => <a role="listitem" class={`sg-ie-m ${m.shape}`} style={`top:${m.top}px;--l:${m.lane}`} href={m.href} data-id={m.id} aria-label={m.aria}></a>)}
+        </div>
+      ))}
+    </div>
+    <div class="sg-ie-un">
+      <span class="sg-ie-axh ui">{V.undated_title}</span>
+      {topics.map((t) => (
+        <ul class="sg-ie-blocks ui" role="list">
+          {secs.map((s) => {
+            const n = undated.get(t)!.get(s) ?? 0;
+            return n === 0 ? <li class="nil" aria-hidden="true"></li> : (
+              <li>
+                <a href={`#t-${s}`} aria-label={fmt(V.section_n, { name: V[`sec_${s}`], n: num(n, lang) })}>
+                  <i class="sg-ie-bar" style={`--w:${Math.max(3, Math.round((100 * n) / maxUn))}%`} aria-hidden="true"></i>
+                  <span aria-hidden="true">{V[`sec_${s}`]} <b>{num(n, lang)}</b></span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      ))}
+    </div>
+  </div>
+  <div class="sg-ie-read panel ui" aria-live="polite" data-sg-ie-read><p class="muted" data-sg-ie-hint style="margin:0">{V.hint}</p></div>
+  <script type="application/json" data-sg-ie-data set:html={JSON.stringify({ info, also: V.also }).replace(/</g, "\\u003c")}></script>
+</section>
+<style is:inline>
+  .sg-ie { --axw: 54px; }
+  .sg-ie-legend { display: flex; flex-wrap: wrap; gap: 4px 18px; list-style: none; padding: 0; margin: 0 0 .8rem; font-size: .86rem; color: var(--muted); }
+  .sg-ie-legend li { display: inline-flex; align-items: center; gap: 6px; }
+  .sg-ie-sw { display: inline-block; inline-size: 13px; block-size: 13px; background: var(--gold-text); }
+  .sg-ie-fig { border: 1px solid var(--line); border-radius: 14px; background: var(--card); padding: 14px 8px 12px; }
+  .sg-ie-heads, .sg-ie-plot, .sg-ie-un { display: grid; grid-template-columns: var(--axw) repeat(var(--n), minmax(0, 1fr)); column-gap: 0; }
+  .sg-ie-axh { font-size: .74rem; color: var(--muted); line-height: 1.25; align-self: end; padding-inline-end: 4px; }
+  .sg-ie-head { text-align: center; padding: 0 4px 6px; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+  .sg-ie-head svg { stroke: var(--gold-text); fill: none; stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; }
+  .sg-ie-head h3 { margin: 2px 0 0; font-size: .95rem; line-height: 1.2; }
+  .sg-ie-head p { margin: 0; font-size: .85rem; line-height: 1.3; } .sg-ie-head b { color: var(--gold-text); font-size: 1rem; }
+  .sg-ie-plot { position: relative; border-block-start: 1px solid var(--line); }
+  .sg-ie-axis { position: absolute; inset-block: 0; inset-inline-start: 0; inline-size: var(--axw); pointer-events: none; }
+  .sg-ie-tk { position: absolute; inset-inline-start: 0; inline-size: calc(var(--axw) - 6px); transform: translateY(-.7em); line-height: 1.1; text-align: start; font-size: .78rem; }
+  .sg-ie-tk b { color: var(--fg); font-size: .85rem; } .sg-ie-tk small { display: block; color: var(--muted); font-size: .75rem; }
+  .sg-ie-pre { position: absolute; inset-inline-start: 0; inline-size: calc(var(--axw) - 6px); font-size: .75rem; color: var(--muted); line-height: 1.1; }
+  .sg-ie-gl { position: absolute; inset-inline: var(--axw) 0; block-size: 0; border-block-start: 1px dashed var(--line); pointer-events: none; }
+  .sg-ie-gl.hijra { border-block-start: 1.5px solid color-mix(in srgb, var(--gold-text) 55%, transparent); }
+  .sg-ie-col { position: relative; grid-row: 1; border-inline-start: 1px solid var(--line); }
+  .sg-ie-ties { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; pointer-events: none; overflow: visible; z-index: 1; }
+  .sg-ie-ties path { fill: none; stroke: var(--gold-text); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: .7; }
+  .sg-ie-m { position: absolute; inset-inline-start: calc(50% + (var(--l) - 1) * 26px - 12px); inline-size: 24px; block-size: 24px; margin-block-start: -12px; z-index: 2; display: grid; place-items: center; text-decoration: none; }
+  .sg-ie-m::before { content: ""; inline-size: 13px; block-size: 13px; background: var(--gold-text); transition: transform .12s ease; }
+  .sg-ie-m.ev::before, .sg-ie-sw.ev { border-radius: 50%; }
+  .sg-ie-m.bd::before, .sg-ie-sw.bd { clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
+  .sg-ie-m.cn::before, .sg-ie-sw.cn { clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+  .sg-ie-m.gr::before, .sg-ie-sw.gr { border-radius: 50%; background: transparent; box-shadow: inset 0 0 0 2.5px var(--gold-text); }
+  .sg-ie-m:hover::before, .sg-ie-m:focus-visible::before, .sg-ie-m.is-on::before { transform: scale(1.5); }
+  .sg-ie-m.is-mate::before { transform: scale(1.35); }
+  .sg-ie-m:focus-visible { outline: 3px solid var(--focus); outline-offset: -2px; border-radius: 6px; }
+  .sg-ie-un { margin-block-start: 10px; padding-block-start: 10px; border-block-start: 1px solid var(--line); align-items: start; }
+  .sg-ie-blocks li { min-block-size: 40px; }
+  .sg-ie-blocks { list-style: none; margin: 0; padding: 0 6px; display: grid; gap: 4px; }
+  .sg-ie-blocks a { display: block; text-decoration: none; color: var(--fg); min-block-size: 24px; padding-block: 2px; font-size: .78rem; line-height: 1.25; }
+  .sg-ie-blocks a:hover span, .sg-ie-blocks a:focus-visible span { text-decoration: underline; }
+  .sg-ie-blocks a:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; border-radius: 4px; }
+  .sg-ie-bar { display: block; block-size: 8px; inline-size: var(--w); background: var(--gold-text); border-radius: 2px; margin-block-end: 2px; }
+  .sg-ie-blocks b { color: var(--gold-text); }
+  .sg-ie-read { margin-block: .8rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 6.2rem; }
+  .sg-ie-read h3 { margin: 0 0 .15rem; font-size: 1.05rem; } .sg-ie-read p { margin: 0 0 .3rem; }
+  .sg-ie-read a { display: inline-block; min-block-size: 28px; line-height: 28px; } .sg-ie-read a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  @media (max-width: 640px) { .sg-ie { --axw: 46px; } .sg-ie-head h3 { font-size: .82rem; } .sg-ie-head p { font-size: .78rem; } .sg-ie-fig { padding-inline: 4px; } .sg-ie-blocks { padding-inline: 3px; } .sg-ie-blocks a { font-size: .75rem; } .sg-ie-blocks li { min-block-size: 52px; } }
+  @media (prefers-reduced-motion: reduce) { .sg-ie-m::before { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-ie.ts"></script>

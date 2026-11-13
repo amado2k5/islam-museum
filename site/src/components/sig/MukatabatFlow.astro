@@ -1,0 +1,211 @@
+---
+// "Letters and their senders" (Mukatabat Browser home): a two-stage flow drawn at build time from lib/mukatabat.ts.
+// Left to right (mirrored in Arabic and Urdu): who sent the correspondence (the detector's four sender classes, and the
+// records that have none as a grey stream) -> what the record is (a letter's text, a mention of one, or a curated record)
+// -> which corpus section the museum found it in. A ribbon is as wide as the number of records it carries. Every block is
+// a real link to its filter or section on the page; site/src/scripts/sig-mukatabat.ts only adds the highlight, the readout
+// and the hand-off to the page's own filters. The counts are also in a table (the text alternative of the ribbons).
+// The curated letter records carry `occurred_at` and `had_participant` edges but no sender-place/recipient-place
+// pair, so there is no "letters on the map": nothing is drawn that the edges do not say.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { mukatabatItems, MUKATABAT_SECTIONS, type MukatabatSection } from "../../lib/mukatabat";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const G = T.mukatabat;
+const V = G.viz;
+
+// ---- the fixed vocabulary of the view; the build throws when the data steps outside it
+const SENDERS = ["prophetic", "caliphal", "royal", "other", "none"] as const;
+const KINDS = ["letter", "record", "mention"] as const; // top to bottom
+type SenderKey = (typeof SENDERS)[number];
+type KindKey = (typeof KINDS)[number];
+const senderOf = (i: (typeof mukatabatItems)[number]): SenderKey => {
+  const s = (i.sender ?? "none") as SenderKey;
+  if (!SENDERS.includes(s)) throw new Error(`MukatabatFlow: unknown sender class ${String(i.sender)} on ${i.node.id}`);
+  return s;
+};
+const kindOf = (i: (typeof mukatabatItems)[number]): KindKey => {
+  if (i.kind === "letter" || i.kind === "mention") return i.kind;
+  if (i.kind === null && i.node.class !== "passage") return "record";
+  throw new Error(`MukatabatFlow: ${i.node.id} has no kind the flow knows`);
+};
+for (const i of mukatabatItems) if (!(MUKATABAT_SECTIONS as readonly string[]).includes(i.section)) throw new Error(`MukatabatFlow: unknown section ${i.section}`);
+const total = mukatabatItems.length;
+if (total === 0) throw new Error("MukatabatFlow: no records to draw");
+
+const rows = mukatabatItems.map((i) => ({ i, s: senderOf(i), k: kindOf(i), c: i.section }));
+const sName = (s: SenderKey) => (s === "none" ? V.unclassified : G.senders[s]);
+const kName = (k: KindKey) => V[`kind_${k}`];
+const cName = (c: MukatabatSection) => V[`sec_${c}`];
+for (const s of SENDERS) if (s !== "none" && !G.senders[s]) throw new Error(`MukatabatFlow: no label for sender ${s}`);
+for (const c of MUKATABAT_SECTIONS) if (!V[`sec_${c}`]) throw new Error(`MukatabatFlow: no short label for section ${c}`);
+
+// ---- geometry (px; the stage has a fixed height, the width follows the page)
+const H = 440, GAP = 14, MINH = 4, LAB = 42, MINT = 1.2;
+const count = (f: (r: (typeof rows)[number]) => boolean) => rows.filter(f).length;
+const col1 = SENDERS.map((id) => ({ id, key: `s:${id}`, n: count((r) => r.s === id) })).filter((n) => n.n > 0);
+const col2 = KINDS.map((id) => ({ id, key: `k:${id}`, n: count((r) => r.k === id) })).filter((n) => n.n > 0);
+const flow1 = new Map<string, number>(), flow2 = new Map<string, number>();
+for (const r of rows) {
+  flow1.set(`${r.s}|${r.k}`, (flow1.get(`${r.s}|${r.k}`) ?? 0) + 1);
+  flow2.set(`${r.k}|${r.c}`, (flow2.get(`${r.k}|${r.c}`) ?? 0) + 1);
+}
+// the sections are ordered by the weighted middle of the kinds that feed them, so the ribbons cross as little as they can
+const kindMid = new Map<string, number>(); { let acc = 0; for (const k of col2) { kindMid.set(k.id, acc + k.n / 2); acc += k.n; } }
+const secBary = (c: string) => { let w = 0, s = 0; for (const k of col2) { const f = flow2.get(`${k.id}|${c}`) ?? 0; w += f; s += f * (kindMid.get(k.id) ?? 0); } return w ? s / w : 0; };
+const col3 = [...MUKATABAT_SECTIONS].map((id) => ({ id, key: `c:${id}`, n: count((r) => r.c === id) })).filter((n) => n.n > 0).sort((a, b) => secBary(a.id) - secBary(b.id) || a.id.localeCompare(b.id));
+if (col1.reduce((t, n) => t + n.n, 0) !== total || col2.reduce((t, n) => t + n.n, 0) !== total || col3.reduce((t, n) => t + n.n, 0) !== total) throw new Error("MukatabatFlow: a column does not add up to the records");
+
+let k = (H - GAP * 4) / total;
+type Node = { id: string; key: string; n: number; y: number; h: number; tOut: number; tIn: number };
+const build = (kk: number) => {
+  const t = (f: number) => Math.max(f * kk, MINT);
+  const mk = (col: { id: string; key: string; n: number }[], outF: (id: string) => number[], inF: (id: string) => number[]) => {
+    let y = 0;
+    return col.map((c): Node => {
+      const tOut = outF(c.id).reduce((a, f) => a + t(f), 0), tIn = inF(c.id).reduce((a, f) => a + t(f), 0);
+      const n: Node = { ...c, y, h: Math.max(MINH, tOut, tIn), tOut, tIn };
+      y += n.h + GAP;
+      return n;
+    });
+  };
+  const A = mk(col1, (id) => col2.map((q) => flow1.get(`${id}|${q.id}`) ?? 0).filter(Boolean), () => []);
+  const B = mk(col2, (id) => col3.map((q) => flow2.get(`${id}|${q.id}`) ?? 0).filter(Boolean), (id) => col1.map((q) => flow1.get(`${q.id}|${id}`) ?? 0).filter(Boolean));
+  const C = mk(col3, () => [], (id) => col2.map((q) => flow2.get(`${q.id}|${id}`) ?? 0).filter(Boolean));
+  const tall = Math.max(...[A, B, C].map((c) => c[c.length - 1].y + c[c.length - 1].h));
+  return { A, B, C, tall, t };
+};
+let L = build(k);
+for (let g = 0; L.tall > H && g < 60; g++) { k *= 0.97; L = build(k); }
+const { A, B, C, t } = L;
+
+// ribbons: each node's outgoing ribbons are stacked top-down in the order of their targets, its incoming in the order of their sources
+interface Ribbon { a: string; b: string; n: number; d: string; stage: 1 | 2; tone?: string }
+const ribbons: Ribbon[] = [];
+const f2 = (x: number) => Math.round(x * 100) / 100;
+const lay = (from: Node[], to: Node[], flows: Map<string, number>, x0: number, x1: number, stage: 1 | 2) => {
+  const outCur = new Map(from.map((n) => [n.id, n.y])), inCur = new Map(to.map((n) => [n.id, n.y]));
+  for (const f of from) for (const g of to) {
+    const n = flows.get(`${f.id}|${g.id}`) ?? 0;
+    if (!n) continue;
+    const th = t(n);
+    const ya = outCur.get(f.id)!, yb = inCur.get(g.id)!;
+    outCur.set(f.id, ya + th); inCur.set(g.id, yb + th);
+    const xm = (x0 + x1) / 2;
+    ribbons.push({ a: f.key, b: g.key, n, stage, d: `M${x0},${f2(ya)}C${xm},${f2(ya)} ${xm},${f2(yb)} ${x1},${f2(yb)}L${x1},${f2(yb + th)}C${xm},${f2(yb + th)} ${xm},${f2(ya + th)} ${x0},${f2(ya + th)}Z` });
+  }
+};
+lay(A, B, flow1, 0, 500, 1);
+lay(B, C, flow2, 500, 1000, 2);
+
+// labels: at the middle of their block, nudged apart so two never overlap
+const labelTops = (col: Node[]) => {
+  const ys = col.map((n) => Math.max(0, n.y + n.h / 2 - LAB / 2));
+  for (let i = 1; i < ys.length; i++) ys[i] = Math.max(ys[i], ys[i - 1] + LAB);
+  const over = ys.length ? ys[ys.length - 1] + LAB - Math.max(H, ...col.map((n) => n.y + n.h)) : 0;
+  if (over > 0) for (let i = ys.length - 1; i >= 0; i--) { ys[i] -= over; if (i && ys[i] < ys[i - 1] + LAB) ys[i - 1] = ys[i] - LAB; }
+  return ys.map((y) => Math.max(0, Math.round(y)));
+};
+const topsA = labelTops(A), topsB = labelTops(B), topsC = labelTops(C);
+
+// ---- samples and links
+const pick = (f: (r: (typeof rows)[number]) => boolean) => rows.filter(f).slice(0, 3).map((r) => [href(lang, r.i.node.id), labelOf(r.i.node, lang)]);
+const nodeHref = (key: string) => {
+  const [t0, id] = key.split(":");
+  if (t0 === "s") return id === "none" ? "#sections-title" : "#sender-label";
+  if (t0 === "k") return id === "record" ? "#t-curated" : "#mukatabat-filter";
+  return `#t-${id}`;
+};
+const nameOf = (key: string) => { const [t0, id] = key.split(":"); return t0 === "s" ? sName(id as SenderKey) : t0 === "k" ? kName(id as KindKey) : cName(id as MukatabatSection); };
+const matcher = (key: string) => { const [t0, id] = key.split(":"); return (r: (typeof rows)[number]) => (t0 === "s" ? r.s === id : t0 === "k" ? r.k === id : r.c === id); };
+const data: Record<string, { t: string; n: number; s: string[][]; o?: string }> = {};
+for (const n of [...A, ...B, ...C]) data[n.key] = { t: nameOf(n.key), n: n.n, s: pick(matcher(n.key)), o: nodeHref(n.key) };
+for (const r of ribbons) data[`${r.a}>${r.b}`] = { t: `${nameOf(r.a)} · ${nameOf(r.b)}`, n: r.n, s: pick((x) => matcher(r.a)(x) && matcher(r.b)(x)) };
+const nums: Record<string, string> = {};
+for (const key of Object.keys(data)) nums[key] = fmt(V.count, { n: num(data[key].n, lang), total: num(total, lang) });
+const blockLabel = (key: string, n: number) => fmt(V.block, { name: nameOf(key), n: num(n, lang) });
+const rtl = lang !== "en";
+const tables = [
+  { from: A, to: B, flows: flow1 },
+  { from: B, to: C, flows: flow2 },
+];
+---
+<section aria-labelledby="sg-mk-title" class={`sg-mk${rtl ? " is-rtl" : ""}`} data-sg-mk style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="sg-mk-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{fmt(V.note, { n: num(total, lang) })}</p>
+  </div>
+  <div class="sg-mk-fig" role="group" aria-label={V.region}>
+    <div class="sg-mk-heads ui" aria-hidden="true"><span>{V.col_sender}</span><span>{V.col_kind}</span><span>{V.col_section}</span></div>
+    <div class="sg-mk-stage" style={`height:${H}px`}>
+      <svg class="sg-mk-svg" viewBox={`0 0 1000 ${H}`} preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        {ribbons.map((r) => <path class={`sg-mk-rb t-${r.a.slice(2)} s${r.stage}`} d={r.d} data-a={r.a} data-b={r.b} />)}
+      </svg>
+      {A.map((n) => <i class={`sg-mk-bar c1 t-${n.id}`} style={`top:${f2(n.y)}px;height:${f2(n.h)}px`} data-bar={n.key} aria-hidden="true"></i>)}
+      {B.map((n) => <i class={`sg-mk-bar c2 t-${n.id}`} style={`top:${f2(n.y)}px;height:${f2(n.h)}px`} data-bar={n.key} aria-hidden="true"></i>)}
+      {C.map((n) => <i class="sg-mk-bar c3" style={`top:${f2(n.y)}px;height:${f2(n.h)}px`} data-bar={n.key} aria-hidden="true"></i>)}
+      {A.map((n, i) => <a class="sg-mk-lab c1" style={`top:${topsA[i]}px`} href={nodeHref(n.key)} data-key={n.key} data-sender={n.id === "none" ? undefined : n.id} aria-label={blockLabel(n.key, n.n)}><b>{nameOf(n.key)}</b><span>{num(n.n, lang)}</span></a>)}
+      {B.map((n, i) => <a class="sg-mk-lab c2" style={`top:${topsB[i]}px`} href={nodeHref(n.key)} data-key={n.key} data-kind={n.id} aria-label={blockLabel(n.key, n.n)}><b>{nameOf(n.key)}</b><span>{num(n.n, lang)}</span></a>)}
+      {C.map((n, i) => <a class="sg-mk-lab c3" style={`top:${topsC[i]}px`} href={nodeHref(n.key)} data-key={n.key} aria-label={blockLabel(n.key, n.n)}><b>{nameOf(n.key)}</b><span>{num(n.n, lang)}</span></a>)}
+    </div>
+  </div>
+  <div class="sg-mk-read panel ui" aria-live="polite" data-sg-mk-read>
+    <p class="muted" data-sg-mk-hint style="margin:0">{V.hint}</p>
+  </div>
+  <script type="application/json" data-sg-mk-data set:html={JSON.stringify({ d: data, c: nums, samples: V.samples, open: V.open, kinds: { letter: G.kinds.letter, mention: G.kinds.mention } }).replace(/</g, "\\u003c")}></script>
+  <details class="sg-mk-table ui">
+    <summary>{V.table}</summary>
+    <div class="sg-mk-scroll" tabindex="0" role="region" aria-label={V.table}>
+      <table>
+        <thead><tr><th scope="col">{V.th_from}</th><th scope="col">{V.th_to}</th><th scope="col">{V.th_n}</th></tr></thead>
+        <tbody>
+          {tables.flatMap((tb) => tb.from.flatMap((f) => tb.to.map((g) => ({ f, g, n: tb.flows.get(`${f.id}|${g.id}`) ?? 0 })).filter((x) => x.n > 0).map((x) => (
+            <tr><td>{nameOf(x.f.key)}</td><td>{nameOf(x.g.key)}</td><td>{num(x.n, lang)}</td></tr>
+          ))))}
+        </tbody>
+      </table>
+    </div>
+  </details>
+</section>
+<style is:inline>
+  .sg-mk { --gut: 150px; --c-prophetic: var(--gold); --c-caliphal: var(--link); --c-royal: color-mix(in srgb, var(--fg) 62%, transparent); --c-other: color-mix(in srgb, var(--gold) 45%, var(--fg)); --c-none: color-mix(in srgb, var(--muted) 55%, var(--bg)); --c-letter: var(--gold); --c-record: var(--link); --c-mention: color-mix(in srgb, var(--muted) 55%, var(--bg)); }
+  .sg-mk-fig { border: 1px solid var(--line); border-radius: 14px; background: var(--card); padding: 14px var(--gut) 18px; }
+  .sg-mk-heads { display: flex; justify-content: space-between; align-items: end; gap: 8px; font-size: .8rem; color: var(--gold-text); font-weight: 600; margin: 0 calc(-1 * var(--gut)) 10px; padding-inline: 10px; line-height: 1.2; }
+  .sg-mk-heads span { flex: 0 1 30%; } .sg-mk-heads span:nth-child(2) { text-align: center; } .sg-mk-heads span:nth-child(3) { text-align: end; }
+  .sg-mk-stage { position: relative; }
+  .sg-mk-svg { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; overflow: visible; }
+  .sg-mk.is-rtl .sg-mk-svg { transform: scaleX(-1); }
+  .sg-mk-rb { fill: var(--c-prophetic); opacity: .4; transition: opacity .15s ease; }
+  .sg-mk-rb.s1.t-prophetic { fill: var(--c-prophetic); } .sg-mk-rb.s1.t-caliphal { fill: var(--c-caliphal); } .sg-mk-rb.s1.t-royal { fill: var(--c-royal); } .sg-mk-rb.s1.t-other { fill: var(--c-other); } .sg-mk-rb.s1.t-none { fill: var(--c-none); }
+  .sg-mk-rb.s2.t-letter { fill: var(--c-letter); } .sg-mk-rb.s2.t-record { fill: var(--c-record); } .sg-mk-rb.s2.t-mention { fill: var(--c-mention); }
+  .sg-mk-rb:hover { opacity: .85; }
+  .sg-mk-svg.has-hot .sg-mk-rb { opacity: .1; }
+  .sg-mk-svg.has-hot .sg-mk-rb.is-hot { opacity: .88; }
+  .sg-mk-bar { position: absolute; inline-size: 14px; border-radius: 3px; background: var(--fg); opacity: .8; }
+  .sg-mk-bar.c1 { inset-inline-start: 0; } .sg-mk-bar.c2 { inset-inline-start: calc(50% - 7px); } .sg-mk-bar.c3 { inset-inline-end: 0; background: var(--gold-text); }
+  .sg-mk-bar.t-prophetic, .sg-mk-bar.t-letter { background: var(--gold); opacity: 1; } .sg-mk-bar.t-caliphal, .sg-mk-bar.t-record { background: var(--c-caliphal); opacity: 1; }
+  .sg-mk-bar.t-royal { background: var(--c-royal); opacity: 1; } .sg-mk-bar.t-other { background: var(--c-other); opacity: 1; } .sg-mk-bar.t-none, .sg-mk-bar.t-mention { background: var(--c-none); opacity: 1; }
+  .sg-mk-bar.is-hot { outline: 2px solid var(--fg); outline-offset: 1px; }
+  .sg-mk-lab { position: absolute; display: flex; flex-direction: column; justify-content: center; min-block-size: 36px; box-sizing: border-box; padding: 2px 8px; text-decoration: none; color: var(--fg); line-height: 1.2; font-size: .82rem; border-radius: 8px; }
+  .sg-mk-lab b { font-weight: 600; } .sg-mk-lab span { color: var(--gold-text); font-weight: 600; }
+  .sg-mk-lab.c1 { inset-inline-start: calc(-1 * var(--gut)); inline-size: calc(var(--gut) - 10px); text-align: end; }
+  .sg-mk-lab.c3 { inset-inline-end: calc(-1 * var(--gut)); inline-size: calc(var(--gut) - 10px); text-align: start; }
+  .sg-mk-lab.c2 { inset-inline-start: 50%; transform: translateX(-50%); inline-size: max-content; max-inline-size: 104px; text-align: center; background: color-mix(in srgb, var(--card) 88%, transparent); border: 1px solid var(--line); }
+  .sg-mk.is-rtl .sg-mk-lab.c2 { transform: translateX(50%); }
+  .sg-mk-lab:hover, .sg-mk-lab:focus-visible, .sg-mk-lab.is-hot { background: color-mix(in srgb, var(--gold) 22%, var(--card)); }
+  .sg-mk-lab:focus-visible, .sg-mk-read a:focus-visible, .sg-mk-scroll:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-mk-read { margin-block: .8rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 8.6rem; }
+  .sg-mk-read h3 { margin: 0 0 .15rem; font-size: 1.05rem; } .sg-mk-read p { margin: 0 0 .4rem; }
+  .sg-mk-read ul { list-style: none; padding: 0; margin: 0 0 .4rem; display: grid; gap: 0 24px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
+  .sg-mk-read li a { display: inline-block; min-block-size: 28px; line-height: 28px; }
+  .sg-mk-table { margin-block-start: 1rem; } .sg-mk-table summary { cursor: pointer; min-block-size: 44px; display: inline-flex; align-items: center; }
+  .sg-mk-scroll { overflow-x: auto; max-inline-size: 100%; } .sg-mk-table table { border-collapse: collapse; min-inline-size: 300px; }
+  .sg-mk-table th, .sg-mk-table td { text-align: start; padding: 4px 14px 4px 0; border-block-end: 1px solid var(--line); font-size: .88rem; }
+  @media (max-width: 640px) { .sg-mk { --gut: 98px; } .sg-mk-lab { font-size: .76rem; padding-inline: 4px; } .sg-mk-lab.c2 { max-inline-size: 78px; }  .sg-mk-heads { font-size: .75rem; } }
+  @media (prefers-reduced-motion: reduce) { .sg-mk-rb { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-mukatabat.ts"></script>
