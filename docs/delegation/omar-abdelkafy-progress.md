@@ -2345,3 +2345,15 @@ Resume point: mawkib-al-nour episode 18 (branch from origin/main).
 | A garbled remark that a speaker called the Mao-era delegation by an unreadable name and a passage on the ear and the pause of the heart | ep18 00:03:30, 00:20:30 | Garbled | Clarity | Open |
 
 Resume point: mawkib-al-nour episode 19 (branch from origin/main).
+
+### mawkib-al-nour ep19 (12 Nov 2026)
+
+18 points written for episode 19 (ar, en, ur); 15 needs_source marks per language file (ar 15, en 15, ur 15); 3 new `about` edges. Quran verses referenced only through passage links (33-56, 3-31, 2-34, 59-21, 21-107, 68-4, 43-81, 33-43, 40-7, 2-30, 13-24, 21-104, 27-24, 27-25, 27-18, 27-19); none typed. Proposal for the founder, not applied: the claim attributed to unnamed orientalists (ep19 00:04:00) is recorded as his report with no names; the account of the bridge over Hell, the stages of its kindling and the speeds of crossing (00:19:00-00:25:00) is recorded as his, with the reports by sense and without a chain; his preference for one wording of prayer on the Prophet (00:26:00) has no source.
+
+| Excluded (mawkib-al-nour ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and supplication, and the closing farewell | ep19 00:00:00-00:01:30 (recitation, Quran text never typed; supplication), 00:37:30-00:38:00 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep19 00:04:00 (a long repeated syllable), 00:08:30 (a long repeated syllable), 00:19:30 (a long repeated syllable), 00:35:30 (a long repeated syllable) | Not recoverable | Clarity, Loop check | Open |
+| A garbled passage on blessing and the poor and a garbled remark on the pause in the pulse of speech | ep19 00:03:30-00:04:00, 00:24:00 | Garbled, partly unreadable | Clarity | Open |
+
+Resume point: mawkib-al-nour episode 20 (branch from origin/main).
