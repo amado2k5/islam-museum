@@ -2611,3 +2611,15 @@ Resume point: modakirate-iblis episode 11 (branch from origin/main).
 | A garbled loop of one vowel and a stretch on the smokers' habits and urban rules | ep11 00:09:30, 00:14:30-00:15:00 | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 12 (branch from origin/main).
+
+### modakirate-iblis ep12 (12 Nov 2026)
+
+14 points written for episode 12 (ar, en, ur); 7 needs_source marks in each language file; 6 new `about` edges. Quran verses referenced only through passage links (14-24, 14-25, 14-26, 43-32, 42-38, 59-10, 15-47, 39-53); none typed.
+
+| Excluded (modakirate-iblis ep12) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break trailer (a relief-organisation appeal and a charity-evening advert), and the closing prayer | ep12 00:00:00, 00:11:30-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| A garbled stretch on ablution and a prayer after it, and a loop | ep12 00:22:00-00:22:30 (part), 00:11:00 (part), 00:18:30-00:19:00 | Not recoverable | Clarity, Loop check | Open |
+| A garbled stretch of poetry about the fortunes of the learned and the ignorant | ep12 00:05:30-00:06:00 | Garbled | Clarity | Open |
+
+Resume point: modakirate-iblis episode 13 (branch from origin/main).
