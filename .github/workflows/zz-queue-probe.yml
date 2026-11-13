@@ -1,0 +1,15 @@
+name: zz queue probe (temporary, removed before merge)
+on:
+  push:
+    branches: ["claude/great-edison-2686ee"]
+permissions:
+  contents: read
+concurrency:
+  group: probe-${{ github.ref }}-${{ github.event_name == 'workflow_dispatch' && 'manual' || 'push' }}
+  cancel-in-progress: false
+  queue: ${{ github.event_name == 'workflow_dispatch' && 'max' || 'single' }}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "queue expression accepted"
