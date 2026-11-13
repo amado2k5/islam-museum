@@ -31,8 +31,9 @@ export const jinnDevilsItems: JinnDevilsItem[] = realNodes
  * What a record IS, read from its own class and kind (audit of 13 November 2026). The four topics say which accounts a
  * record belongs to; they never said what the record is, and a Companion who narrates a report about devils stood in
  * a list headed "Devils". Inside each topic the records are now listed by kind: the beings themselves (a concept whose
- * kind is angel, jinn or devil), teachings and terms, events, named figures (every person-class record: the angels and
- * devils the sources name one by one stand there beside the prophets, Companions and narrators of the accounts),
+ * kind is angel, jinn or devil, or a person-class record typed by its `being` field: Jibril and Mika'il), teachings
+ * and terms, events, named figures (every other person-class record: the prophets, Companions and narrators of the
+ * accounts, and the four beings whose nature the sources dispute, Iblis, Harut, Marut and Bidukh),
  * questions and works.
  */
 export const JD_GROUPS = ["beings", "teachings", "events", "figures", "questions", "works"] as const;
@@ -40,7 +41,8 @@ export type JdGroup = (typeof JD_GROUPS)[number];
 export const BEING_KINDS = ["angel", "jinn", "devil"];
 export const groupOf = (n: Node): JdGroup =>
   n.class === "concept" ? (BEING_KINDS.includes(String(n.data.kind)) ? "beings" : "teachings")
-  : n.class === "person" ? "figures"
+  // a person-class record the sources call an angel or a jinn without dispute carries `being` and stands with the beings
+  : n.class === "person" ? ((n.data as any).being?.kind ? "beings" : "figures")
   : n.class === "question" ? "questions"
   : n.class === "work" || n.class === "source" ? "works"
   : n.class === "event" || n.class === "journey" ? "events"

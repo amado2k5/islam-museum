@@ -166,6 +166,9 @@ const base = {
         review: enm(review), completeness: { type: "integer", minimum: 0, maximum: 5 },
         last_reviewed: { type: "string", format: "date" }, reviewers: strs,
         generated_by: str,
+        // AI-written passages on a record whose review state is `published`, which no human has read yet: what they are,
+        // in a sentence. The site prints a notice on the page (founder decision of 13 November 2026); it changes no state.
+        ai_unread: str,
       },
     },
     sensitivity: enm(sensitivity),
@@ -377,6 +380,10 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
       born: D, died: D, floruit: D, roles: strs, traditions: { type: "array", items: enm(traditions) },
       disciplines: entityRefs, languages: entityRefs, ...actorExtras,
       occupations: { type: "array", items: occupation },
+      // A person-class record that is not a human being (founder decision of 13 November 2026): typed only where the
+      // sources do not dispute what the being is. Iblis, Harut, Marut and Bidukh stay untyped: the sources differ.
+      being: { type: "object", additionalProperties: false, required: ["kind", "sources"],
+        properties: { kind: enm(["angel", "jinn"]), note: str, sources: sourcesReq } },
     },
   },
   group: {

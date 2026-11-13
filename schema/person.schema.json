@@ -376,6 +376,32 @@
         }
       }
     },
+    "being": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "sources"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "angel",
+            "jinn"
+          ]
+        },
+        "note": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
     "inventions": {
       "type": "array",
       "items": {
