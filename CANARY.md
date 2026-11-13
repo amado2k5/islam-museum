@@ -199,6 +199,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 194): trilingual draft prose on the magnitudes sight perceives when facing visible things, the perception of size by the angle and distance, and the movement of the ray over the parts of a visible thing, cited to scan pages 291–294.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 195): trilingual draft prose on the lengths of the lines of the rays, the inclined and facing magnitudes, and the verification of size, cited to scan pages 294–296.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 196): trilingual draft prose on the perception of separation, contiguity, touching, number and motion, cited to scan pages 296–301.
+- Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 197): trilingual draft prose on the motion of a thing upon itself, the time in which motion is perceived, and the speed and equality of motions, cited to scan pages 301–303.
 
 
 ### Fixed
