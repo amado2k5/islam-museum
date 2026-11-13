@@ -2317,3 +2317,16 @@ Resume point: mawkib-al-nour episode 16 (branch from origin/main).
 | A garbled saying on the intimate friend and the thin garment, a garbled passage on a named man and a dog on the road, and an unclear closing phrase about a sun | ep16 00:10:00-00:10:30, 00:21:30-00:22:00, 00:40:30 | Garbled | Clarity | Open |
 
 Resume point: mawkib-al-nour episode 17 (branch from origin/main).
+
+### mawkib-al-nour ep17 (12 Nov 2026)
+
+24 points written for episode 17 (ar, en, ur); 16 needs_source marks per language file (ar 16, en 16, ur 16); 7 new `about` edges. Quran verses referenced only through passage links (28-5, 21-107, 7-88, 7-128, 4-97, 17-81, 23-10, 23-11, 28-40, 25-3, 4-49, 4-53, 35-13, 17-18, 17-19, 17-20, 2-245, 35-15, 102-8, 14-34, 28-76, 28-79, 28-80, 28-81, 28-82, 28-83, 28-6); none typed. Proposal for the founder, not applied: the lecturer's ruling that whoever sides with a wrongdoer knowing him to be one has left the religion (ep17 00:39:00) is recorded as his, with no source and no school named; the claim that archaeologists proved Ramesses II died by drowning (00:19:00) and the figures on the Crusader occupation of Jerusalem (00:11:30) are unsourced statistics; the saying credited to Ibn Taymiyya (00:38:00) has no source.
+
+| Excluded (mawkib-al-nour ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation and supplication, and the closing prayer | ep17 00:00:00-00:01:30 (recitation, Quran text never typed), 00:39:30-00:40:00 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep17 00:03:00 (a long repeated syllable), 00:05:00 (a long repeated syllable), 00:37:00 (a long repeated syllable), 00:08:00 and 00:16:00 and 00:29:30 (partly garbled) | Not recoverable | Clarity, Loop check | Open |
+| A claim about an East Asian ruler who is said to have ordered an execution of a woman for not weeping at a leader's death | ep17 00:09:00-00:09:30 | Garbled, unnamed and unsourced report about a living-memory event | Clarity, Accuracy | Open |
+| A passage making a sweeping generalisation about Jews, set beside a complaint about Muslims and Arabs, partly garbled | ep17 00:33:00-00:33:30 | A generalisation about a group, partly garbled; the sentence about Muslims and Arabs is kept as his opinion | Content rule, Clarity | Open; proposal for the founder to decide |
+
+Resume point: mawkib-al-nour episode 18 (branch from origin/main).
