@@ -4,7 +4,7 @@ import "../styles/global.css";
 import { ui, LANGS, WINGS, wingHref, ARABIC_SCRIPT, OG_LOCALE, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
 import { truncateDesc } from "../lib/meta";
-import { wingCountTemplate, explorePages } from "../lib/nav";
+import { wingCountTemplate, exploreGroups } from "../lib/nav";
 import { SHOP } from "../lib/links";
 import { BROWSE_CLASSES, browseSegment } from "../lib/browse";
 import Logo from "../components/Logo.astro";
@@ -30,7 +30,7 @@ const fonts = ARABIC_SCRIPT.includes(lang) ? [naskh400, amiri400] : [serif400, i
 // content commit (docs/site/README.md, "site-wide numbers"). The HTML carries the template ("{n} events"), the client fills the
 // number from /api/v1/meta/counts.json when the menu is first opened; without JavaScript the menu shows the names and blurbs.
 const wingCount = (w: string) => wingCountTemplate(lang, w);
-const EXPLORE = explorePages(lang);
+const EXPLORE = exploreGroups(lang);
 ---
 <!doctype html>
 <html lang={lang} dir={T.dir}>
@@ -116,7 +116,13 @@ const EXPLORE = explorePages(lang);
           <details class="dd" data-dd>
             <summary>{T.nav.explore_menu}</summary>
             <ul class="dd-menu" role="list">
-              {EXPLORE.map((x) => <li><a href={x.href}><span class="t">{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon">{T.landing.in_progress}</span>}</span><span class="d">{T.explore.pages[x.key].menu}</span></a></li>)}
+              {EXPLORE.map((g) => (
+                <>
+                  <li class="dd-group" role="presentation"><span class="ui" style="display:block;font-size:.72rem;letter-spacing:.06em;color:var(--gold);padding:10px 12px 2px">{T.explore.groups[g.id]}</span></li>
+                  {g.pages.map((x) => <li><a href={x.href}><span class="t">{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon">{T.landing.in_progress}</span>}</span><span class="d">{T.explore.pages[x.key].menu}</span></a></li>)}
+                </>
+              ))}
+              <li class="dd-group" role="presentation"><span class="ui" style="display:block;font-size:.72rem;letter-spacing:.06em;color:var(--gold);padding:10px 12px 2px">{T.explore.groups.more}</span></li>
               <li><a href={`/${lang}/wander/`}><span class="t">{T.explore.pages.wander.title}</span><span class="d">{T.explore.pages.wander.menu}</span></a></li>
               <li><a href={`/${lang}/time-machine/`}><span class="t">{T.explore.pages.timemachine.title}</span><span class="d">{T.explore.pages.timemachine.menu}</span></a></li>
               <li><a href={`/${lang}/learn/`}><span class="t">{T.nav.learn}</span></a></li>

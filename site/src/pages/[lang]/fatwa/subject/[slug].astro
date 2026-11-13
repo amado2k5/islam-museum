@@ -1,0 +1,29 @@
+---
+// The fatwas about one subject (audit S23): the subject is a concept or practice record that the fatwas' own `about`
+// relations name. The museum records fatwas as history and attributes them; it never issues a ruling.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import FatwaList from "../../../../components/FatwaList.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { href, labelOf } from "../../../../lib/graph";
+import { fatwaSubjects } from "../../../../lib/fatwa";
+
+export function getStaticPaths() { return LANGS.flatMap((lang) => fatwaSubjects.map((s) => ({ params: { lang, slug: s.slug }, props: { lang, slug: s.slug } }))); }
+const { lang, slug } = Astro.props as { lang: Lang; slug: string };
+const T = ui(lang);
+const F = T.fatwa;
+const s = fatwaSubjects.find((x) => x.slug === slug)!;
+const name = labelOf(s.node, lang);
+const title = fmt(F.subject_title, { subject: name });
+---
+<BaseLayout lang={lang} title={title} description={F.disclaimer} path={`/${lang}/fatwa/subject/${slug}/`}>
+  <div class="wrap" style="padding-block:10px 24px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/fatwa/`}>{F.title}</a> › {name}</nav>
+    <section data-pagefind-body>
+      <h1>{title} <span class="ui muted">{F.count.replace("{n}", String(s.list.length))}</span></h1>
+      <p class="panel ui" role="note" style="max-width:var(--measure)">{F.disclaimer}</p>
+      <p class="ui"><a href={href(lang, s.node.id)}>{fmt(F.subject_record, { subject: name })}</a></p>
+    </section>
+    <section data-pagefind-ignore><FatwaList lang={lang} list={s.list} /></section>
+    <p class="ui"><a href={`/${lang}/fatwa/#fatwa-by-subject`}>{F.back}</a></p>
+  </div>
+</BaseLayout>

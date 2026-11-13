@@ -13,6 +13,23 @@
   var stripArticle = function (k) { return k.split(" ").map(function (w, i) { return i === 0 ? w.replace(/^ال(?=.{3,})/, "") : w; }).join(" ").replace(/^(the|al|an|a) /, ""); };
   var lookup = function (q) { if (!index || !q) return null; var k = norm(q); var i = index.keys[k]; if (i === undefined) i = index.keys[stripArticle(k)]; return i === undefined ? null : index.records[i]; };
   var hrefOf = function (id) { var p = id.split("/"); return "/" + lang + "/" + (SEG[p[0]] || p[0]) + "/" + p[1] + "/"; };
+  // Audit S36: between a keystroke (or a ?q= arrival) and the first answer, the page says it is searching.
+  var busyEl = document.getElementById("search-busy");
+  var answered = function () { var m = host.querySelector(".pagefind-ui__message"); return !!(m && m.textContent && m.textContent.trim()) || !!host.querySelector(".pagefind-ui__result"); };
+  var waiting = function (on) { if (busyEl) busyEl.hidden = !on; };
+  var waitTimer = 0;
+  var startWaiting = function () {
+    var input = host.querySelector("input");
+    if (!input || !input.value) return waiting(false);
+    waiting(true);
+    clearInterval(waitTimer);
+    var tries = 0;
+    waitTimer = setInterval(function () { if (answered() || ++tries > 300) { waiting(false); clearInterval(waitTimer); } }, 100);
+  };
+  document.addEventListener("input", function (e) { if (e.target && e.target.matches && e.target.matches("#search input")) startWaiting(); });
+  if (new URLSearchParams(location.search).get("q")) waiting(true);
+  var poll = setInterval(function () { if (host.querySelector("input")) { clearInterval(poll); startWaiting(); } }, 150);
+  setTimeout(function () { clearInterval(poll); }, 15000);
   var busy = false;
   var place = function () {
     if (busy || !index) return;

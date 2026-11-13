@@ -38,6 +38,80 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-graph]")) {
   let only = onlyParam();
   let current: Data | null = null;
 
+  // --- audit of 13 November 2026, S25 and S36: a name finds the centre, what happens is said at the control, the
+  // centres visited stay in view with a way back, and a filter that outlives a change of centre is badged.
+  const msg = page.querySelector<HTMLElement>("[data-gx-msg]");
+  const say = (text: string) => { if (!msg) return; msg.textContent = text; msg.hidden = !text; };
+  const suggest = page.querySelector<HTMLElement>("[data-gx-suggest]");
+  const trailNav = page.querySelector<HTMLElement>("[data-gx-trail]");
+  const trailList = page.querySelector<HTMLElement>("[data-gx-trail-list]");
+  const badge = page.querySelector<HTMLElement>("[data-gx-badge]");
+  const badgeText = page.querySelector<HTMLElement>("[data-gx-badge-text]");
+  page.querySelector<HTMLButtonElement>("[data-gx-badge-clear]")?.addEventListener("click", () => setOnly(new Set()));
+  const norm = (t: string) => t.normalize("NFKD").replace(/[\u0300-\u036f\u064b-\u065f\u0670\u0640]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي").replace(/ؤ/g, "و").replace(/ئ/g, "ي").toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()\/,.:«»"]/g, " ").replace(/\s+/g, " ").trim();
+  // the names a visitor can type: the canon's index (scripts/search-canon.ts), fetched the first time the box is used
+  interface Canon { keys: Record<string, number>; records: { id: string; title: string }[] }
+  let canon: Canon | null = null, canonLoad: Promise<void> | null = null;
+  const needCanon = () => (canonLoad ??= fetch(`/api/v1/meta/search-canon.${lang}.json`).then((r) => (r.ok ? r.json() : null)).then((j) => { canon = j; }).catch(() => { canon = null; }));
+  const named = (q: string): string | null => { if (!canon) return null; const k = norm(q); const i = canon.keys[k] ?? canon.keys[k.replace(/^(the|al) /, "")]; return i === undefined ? null : canon.records[i].id; };
+  const matches = (q: string) => {
+    if (!canon) return [];
+    const k = norm(q), seen = new Set<number>(), out: { id: string; title: string }[] = [];
+    const exact = canon.keys[k];
+    if (exact !== undefined) { seen.add(exact); out.push(canon.records[exact]); }
+    for (const key of Object.keys(canon.keys)) { if (out.length >= 8) break; if (!key.startsWith(k)) continue; const i = canon.keys[key]; if (!seen.has(i)) { seen.add(i); out.push(canon.records[i]); } }
+    for (let i = 0; i < canon.records.length && out.length < 8; i++) if (!seen.has(i) && norm(canon.records[i].title).includes(k)) { seen.add(i); out.push(canon.records[i]); }
+    return out;
+  };
+  const closeSuggest = () => { if (suggest) { suggest.hidden = true; suggest.textContent = ""; } input?.setAttribute("aria-expanded", "false"); };
+  const openSuggest = (q: string) => {
+    if (!suggest || !input) return;
+    const list = q.trim().length < 2 || q.includes("/") ? [] : matches(q);
+    suggest.textContent = "";
+    for (const r of list) {
+      const li = document.createElement("li"); li.setAttribute("role", "option");
+      const b = document.createElement("button"); b.type = "button"; b.textContent = r.title; b.dataset.id = r.id;
+      b.style.cssText = "display:block;width:100%;text-align:start;font:inherit;padding:8px 10px;min-height:44px;border:0;border-radius:8px;background:transparent;color:var(--fg);cursor:pointer";
+      b.addEventListener("click", () => { closeSuggest(); load(r.id, true); });
+      li.appendChild(b); suggest.appendChild(li);
+    }
+    suggest.hidden = list.length === 0;
+    input.setAttribute("aria-expanded", String(list.length > 0));
+  };
+  input?.addEventListener("focus", () => { needCanon(); });
+  input?.addEventListener("input", () => { say(""); needCanon().then(() => openSuggest(input.value)); });
+  input?.addEventListener("keydown", (ev) => {
+    if (ev.key === "Escape") closeSuggest();
+    if (ev.key === "ArrowDown" && suggest && !suggest.hidden) { ev.preventDefault(); suggest.querySelector<HTMLButtonElement>("button")?.focus(); }
+  });
+  suggest?.addEventListener("keydown", (ev) => {
+    const items = [...suggest.querySelectorAll<HTMLButtonElement>("button")], i = items.indexOf(document.activeElement as HTMLButtonElement);
+    if (ev.key === "ArrowDown") { ev.preventDefault(); items[Math.min(items.length - 1, i + 1)]?.focus(); }
+    if (ev.key === "ArrowUp") { ev.preventDefault(); if (i <= 0) input?.focus(); else items[i - 1].focus(); }
+    if (ev.key === "Escape") { closeSuggest(); input?.focus(); }
+  });
+  document.addEventListener("click", (ev) => { if (suggest && !suggest.hidden && !(ev.target as HTMLElement).closest?.("[data-gx-form]")) closeSuggest(); });
+  // the centres visited, oldest first; choosing one goes back to it
+  let trail: { id: string; label: string }[] = [];
+  const drawTrail = () => {
+    if (!trailNav || !trailList) return;
+    trailList.textContent = "";
+    trail.forEach((t, i) => {
+      const li = document.createElement("li");
+      if (i > 0) { const sep = document.createElement("span"); sep.setAttribute("aria-hidden", "true"); sep.textContent = "› "; li.appendChild(sep); }
+      if (i === trail.length - 1) { const s = document.createElement("span"); s.setAttribute("aria-current", "true"); s.style.fontWeight = "600"; s.textContent = t.label; li.appendChild(s); }
+      else { const b = document.createElement("button"); b.type = "button"; b.className = "gx-mini"; b.textContent = t.label; b.addEventListener("click", () => { trail = trail.slice(0, i + 1); load(t.id, true); }); li.appendChild(b); }
+      trailList.appendChild(li);
+    });
+    trailNav.hidden = trail.length < 2;
+  };
+  const visit = (id: string, label: string) => {
+    const at = trail.findIndex((t) => t.id === id);
+    if (at >= 0) trail = trail.slice(0, at + 1); else trail.push({ id, label });
+    if (trail.length > 8) trail = trail.slice(-8);
+    drawTrail();
+  };
+
   // keep only the chosen types; a second-hop entry stays only if it still hangs from a visible first-hop entry
   function filtered(d: Data, types = only): Data {
     if (!types.size) return d;
@@ -62,6 +136,8 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-graph]")) {
     root.classList.toggle("is-filtered", only.size > 0);
     page.querySelector(".gx-legend")?.classList.toggle("is-filtered", only.size > 0);
     if (allBtn) allBtn.hidden = !only.size;
+    // a filter that is still on is said beside the search box, with its clear button, so it never works unseen
+    if (badge && badgeText) { badge.hidden = !only.size; badgeText.textContent = p.t.filter_on.replace("{types}", [...only].map((c) => p.classes[c] ?? c).join(" · ")); }
   }
 
   function render() {
@@ -174,24 +250,42 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-graph]")) {
     void hover;
   }
 
-  async function load(id: string, push: boolean) {
+  async function load(id: string, push: boolean, typed?: string) {
     const [c, s] = id.split("/");
     if (!c || !s) return;
     status.textContent = p.t.loading;
+    say(p.t.loading);
+    closeSuggest();
     try {
       const res = await fetch(`/api/v1/graph/${c}/${s}.json`);
       if (!res.ok) throw new Error(String(res.status));
-      current = await res.json();
+      const next: Data = await res.json();
+      current = next;
       render();
-      if (input) input.value = id;
+      const centre = next.nodes.find((n) => n.hop === 0);
+      if (input) input.value = centre ? labelOf(centre) : id;
+      visit(id, centre ? labelOf(centre) : id);
+      say("");
       if (push) history.pushState({ from: id }, "", urlFor(id));
     } catch {
-      status.textContent = p.t.failed;
+      // said at the control that caused it; the chart keeps the last centre that did load
+      status.textContent = "";
+      say(p.t.notfound.replace("{q}", typed ?? id));
+      input?.focus();
     }
+  }
+  // what was typed, turned into a centre: an id as it is; a name through the canon's index; failing that, the old guess
+  async function submitTyped(v: string) {
+    if (v.includes("/")) return load(v, true, v);
+    say(p.t.loading);
+    await needCanon();
+    const id = named(v) ?? matches(v)[0]?.id;
+    if (id) return load(id, true, v);
+    return load(`person/${v.trim().toLowerCase().replace(/\s+/g, "-")}`, true, v);
   }
 
   const fromParam = () => { const q = new URLSearchParams(location.search).get("from") ?? ""; return q.includes("/") ? q : q ? `person/${q}` : root.dataset.default!; };
-  form?.addEventListener("submit", (e) => { e.preventDefault(); const v = (input?.value ?? "").trim(); if (v) load(v.includes("/") ? v : `person/${v}`, true); });
+  form?.addEventListener("submit", (e) => { e.preventDefault(); const v = (input?.value ?? "").trim(); if (v) submitTyped(v); });
   window.addEventListener("popstate", () => { only = onlyParam(); load(fromParam(), false); });
   load(fromParam(), false);
   void rtl;

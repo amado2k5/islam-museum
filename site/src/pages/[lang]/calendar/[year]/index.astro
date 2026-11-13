@@ -1,0 +1,43 @@
+---
+// One Hijri year: its twelve months, each a link to its own page, with the Gregorian days each month spans and the
+// observances in it (audit of 13 November 2026, S28). No script.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { OBS, monthLen, gregDay, staticYears, hasStatic, monthHref, yearHref } from "../../../../lib/hijri-cal";
+
+export function getStaticPaths() { return LANGS.flatMap((lang) => staticYears.map((y) => ({ params: { lang, year: String(y) }, props: { lang, y } }))); }
+const { lang, y } = Astro.props as { lang: Lang; y: number };
+const T = ui(lang);
+const C = T.calendar;
+const title = C.months_of.replace("{year}", String(y));
+---
+<BaseLayout lang={lang} title={`${title} · ${C.title}`} description={`${title}: ${gregDay(y, 1, 1)} — ${gregDay(y, 12, monthLen(y, 12))}`} path={yearHref(lang, y)}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/calendar/`}>{C.title}</a> › {y}</nav>
+    <div data-pagefind-body>
+      <h1>{title}</h1>
+      <p class="ui muted">{gregDay(y, 1, 1)} — {gregDay(y, 12, monthLen(y, 12))}</p>
+    </div>
+    <nav class="ui" aria-label={C.months_index} style="display:flex;flex-wrap:wrap;gap:8px 12px;margin:0 0 1rem">
+      {hasStatic(y - 1) && <a class="chip" rel="prev" href={yearHref(lang, y - 1)}>‹ {y - 1}</a>}
+      {hasStatic(y + 1) && <a class="chip" rel="next" href={yearHref(lang, y + 1)}>{y + 1} ›</a>}
+      <a class="chip" href={`/${lang}/calendar/`}>{C.open_calendar}</a>
+    </nav>
+    <ol class="grid-cards" style="list-style:none;margin:0;padding:0">
+      {C.months.map((name: string, k: number) => {
+        const m = k + 1, len = monthLen(y, m);
+        const obs = OBS.filter((o) => o.m === m);
+        return (
+          <li>
+            <a class="card" href={monthHref(lang, y, m)}>
+              <span class="ui kicker">{m}</span>
+              <h2 class="card-title">{name} {y}</h2>
+              <span class="ui">{gregDay(y, m, 1)} — {gregDay(y, m, len)}</span>
+              {obs.length > 0 && <span class="ui" style="display:block;font-size:.85rem">{obs.map((o) => C.obs[o.key]).join(" · ")}</span>}
+            </a>
+          </li>
+        );
+      })}
+    </ol>
+  </div>
+</BaseLayout>

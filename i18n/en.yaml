@@ -155,6 +155,14 @@ wings:
     today: Where the calendars meet
     made: Made by Muslims today
 hall:
+  year_label: "Go to a year"
+  year_era: "Calendar"
+  year_ah: "AH"
+  year_ce: "CE"
+  year_go: "Go"
+  year_invalid: "Type a year as a number, for example 656."
+  year_none: "The wing has no entry dated in the century of {year} CE yet."
+  other_timeline: "This is the whole axis: every dated entry, year by year. To follow one person, one era or one city stop by stop instead, open the"
   promise:
     living: "Practices, festivals, food, dress and music"
     made: "Bookshops, publishers, apps, studios, brands and charities"
@@ -403,9 +411,10 @@ modernSports:
   esports: 'Esports'
   paralympic: 'Paralympic'
 modern:
+  sections_reconcile: "The sections below hold {sum} places between them for {records} distinct records: a record that belongs to two sections is counted in each."
   title: 'Modern Islam Browser'
   lede: 'The last fifty years of Islam and Muslims, from 1 Muharram 1396 (3 January 1976) to today and into what comes next: nineteen sections over the museum''s one graph, every record sourced, every number computed at build.'
-  badge: 'Growing'
+  badge: "Modern Islam explorer"
   status: 'Records in the browser''s window in this build: {records}, across {sections} sections with at least one record. The pilot adds one sourced record to every section; waves follow. Counts are as of the last build.'
   listed_note: 'Listed is not endorsed: the museum records what is documented and links to the source. It ranks nothing by taste.'
   ribbon_title: 'Year by year'
@@ -672,6 +681,7 @@ inventionDomains:
   modern-technology: Modern technology
   modern-medicine: Modern medicine and biotechnology
 search:
+  searching: "Searching…"
   canon_label: "Museum cornerstone"
   title: Search
   placeholder: Search the museum
@@ -724,12 +734,18 @@ journey:
   prev: Previous station
   next: Next station
 graph:
+  search_placeholder: "A name, for example Saladin"
+  suggestions: "Entries that match"
+  suggest_none: "No entry of that name in the museum's canon. You can also type an id, such as person/abu-bakr."
+  notfound: "“{q}” could not be drawn: no entry of that name or id has connections recorded. Try another name."
+  trail: "Centres visited"
+  filter_on: "Showing only: {types}"
   title: Connections explorer
   lede: 'People, events and places drawn as a constellation: one entry at the centre, what connects to it directly around it, then what connects to those. Click a
     star to make it the centre.'
   from_label: Entry at the centre
   go: Show
-  hint: 'Entry id: class/slug, e.g. person/abu-bakr'
+  hint: 'Type a name and choose from the list; an id such as person/abu-bakr works too.'
   legend: Legend
   neighbours: Connections
   centre: Centre
@@ -1221,6 +1237,13 @@ map:
     panel_show: Show the panel
     panel_hide: Hide the panel
     regions_h: Regions
+    time_note: "The year bar lights the places that have dated records in the chosen year and names the era of each region. It does not filter a place's own list."
+    year_typed: "Go to year"
+    year_calendar: "Calendar"
+    year_ah_short: "AH"
+    year_ce_short: "CE"
+    year_go: "Go"
+    year_range: "The map covers {from} to {to} AH."
     regions_lede: Pick a region from this list or from the map, or find a place by name, then move the year bar to see where history was being written.
     region_count: 'Places: {n}'
     elsewhere: Rest of the world
@@ -1255,7 +1278,7 @@ map:
     index_h: Index of places
     index_lede: 'All {n} places of the museum that are on the map, by region and then by name.'
     index_others: Other records in this wing
-    to_index: 'Index of all {n} places'
+    to_index: 'Index of the {n} places on the map'
     nojs: The interactive map needs JavaScript. The picture above is static, and every place is in the index below.
     credit: 'Map: Natural Earth, public domain · positions from the museum records'
     links_h: Links
@@ -1442,6 +1465,10 @@ pathway:
   pk_hard_question: hard questions
   pk_starter: start here
 calendar:
+  months_index: "Months and years"
+  months_of: "The months of {year} AH"
+  static_note: "Every month of {from}–{to} AH has a page of its own. Other years open in the calendar above."
+  open_calendar: "Calendar and converter"
   title: Hijri calendar
   lede: The Islamic year as a month you can browse — Hijri days with their Gregorian twins, the year's observances linked to their museum pages, and a two-way converter.
     Dates before 1318 AH or after 1500 AH use the tabular calendar and may differ by a day or two from other reckonings.
@@ -1556,6 +1583,14 @@ foundation:
   license: 'Licence: text CC BY-SA 4.0 · data CC0 · code MIT'
   breadcrumb: Museum
 explore:
+  groups:
+    texts: "Texts"
+    people: "People"
+    places: "Places and time"
+    unseen: "The unseen"
+    conduct: "Worship, conduct and making"
+    tools: "Tools"
+    more: "More ways in"
   label: Explore tools
   wings: Wings
   share: Share
@@ -1579,23 +1614,23 @@ explore:
       desc: "Commentaries on the Qur'an, volume by volume: al-Tabari's Jami' al-Bayan first, with every volume linked to the verses it covers and to its source, and the other tafsirs in the museum."
       menu: Read the Qur'an commentaries
     quran:
-      title: Quran explorer
+      title: "The Mushaf"
       desc: The whole Quran for continuous reading, surah by surah — the frozen Tanzil text, every verse a door to its museum page.
       menu: Read the Quran, surah by surah
     hadith:
-      title: Hadith explorer
+      title: "The Hadith Library"
       desc: The hadith collections in the museum — browse each work by book and report, with links out to Sunnah.com.
       menu: Browse the hadith collections
     timeline:
-      title: Hijri timeline
+      title: "Time"
       desc: Fourteen centuries on an interactive Hijri axis, with the Gregorian as a second reading.
-      menu: Fourteen centuries on a Hijri axis
+      menu: "The whole axis: every dated entry, by year and century"
     calendar:
       title: Hijri calendar
       desc: 'Browse the Hijri year month by month: every day with its Gregorian twin, the observances, a converter and an .ics download.'
       menu: Browse the Hijri year month by month
     journeys:
-      title: Interactive journeys
+      title: "Journeys"
       desc: 'Walk the Hijra route day by day: the stations, distances and nights.'
       menu: Walk the Hijra route day by day
     graph:
@@ -1603,7 +1638,7 @@ explore:
       desc: People, events and places drawn as a constellation of relations.
       menu: Relations between people, events and places
     map:
-      title: The Islam map
+      title: "Place"
       desc: 'The Islamic world as an interactive map through time: regions, then cities, then the people and events tied to each place, on a Hijri time slider.'
       menu: The interactive map through time
     revelation:
@@ -1625,7 +1660,7 @@ explore:
     timeexplorer:
       title: "Timeline Explorer"
       desc: "Walk a person's, an era's or a city's story stop by stop on an interactive timeline."
-      menu: "Walk a story through time"
+      menu: "Guided walks: one person's, era's or city's story, stop by stop"
     khutab:
       title: "Khutab and Durus Explorer"
       desc: "Historical sermons from the khutab collections and recorded lesson series, each linked to its text and its source."
@@ -1642,10 +1677,10 @@ explore:
       menu: "Browse the sacred hadiths (hadith qudsi)"
     jobs:
       title: "Job Browser"
-      desc: "The jobs people held in Islamic history, from the judge and the scribe to the craftsman: each job with the people who held it and the places where it was done."
+      desc: "The jobs people held in Islamic history, from the judge and the scribe to the craftsman: each job with the people the museum has so far recorded in it. Many jobs have none recorded yet, and each says so."
       menu: "Browse jobs and crafts through history"
     inventions:
-      title: "Muslim Inventions Browser"
+      title: "Inventions Browser"
       desc: "Sourced inventions and discoveries, from their makers and settings to the work built on them."
       menu: "Browse inventions and their chains"
     modern:
@@ -1657,7 +1692,7 @@ explore:
       desc: 'The Companions of the Prophet as a web of people: the Ten, the Muhajirun and the Ansar, the Prophet''s household, the women Companions, their clans, the events they stood in, and when they died.'
       menu: 'Browse the Companions'
     asma:
-      title: "Asma ul Husna Browser"
+      title: "The Most Beautiful Names Browser"
       desc: "The ninety-nine names of God, each with its meaning and the stories the museum's records carry for it."
       menu: "Browse the ninety-nine names and their stories"
     khulafa:
@@ -1673,7 +1708,7 @@ explore:
       desc: "Animals, birds, insects, sea creatures, plants and the phenomena of creation in the Qur'an and the hadith — every verse and report with its source."
       menu: "Browse nature in the Qur'an and hadith"
     angels:
-      title: "The Angels Browser"
+      title: "Angels Browser"
       desc: "Every mention of the angels in the Qur'an, the hadith, the Seerah and the Sunni books — Gabriel, Michael, Israfil, the recording scribes, the angels of Badr and Hunayn — grouped by role with every verse and report cited."
       menu: "Browse the angels and their mentions"
     dreams:
@@ -3010,6 +3045,7 @@ storycards:
   all_cards: All twelve cards
   sources: The books this story is told from
 time_browser:
+  other_timeline: "These are guided walks: one person's, era's or city's story, stop by stop. To reach a year, or to see every dated entry on one axis, open the"
   title: Time Browser
   lede: Move through the museum by date. Each stop is one record from the museum, shown in time order; drafts are labelled.
   draft: draft
@@ -3326,6 +3362,14 @@ world:
       u: "https://www.oic-oci.org/"
 
 fatwa:
+  disclaimer: "The museum records these fatwas as history, attributed to those who issued them; it issues no ruling and advises no one."
+  filter_label: "Find a fatwa by its question or subject"
+  by_subject: "By subject"
+  by_subject_note: "The subjects the fatwas are about, as each fatwa's own record names them. Choose a subject to read what was asked and who answered."
+  no_subject: "{n} fatwas name no subject in their record; they are listed under their source."
+  subject_title: "Fatwas on {subject}"
+  subject_record: "The museum's record of {subject}"
+  back: "Back to the Fatwa Explorer"
   title: "Fatwa Explorer"
   lede: "Fatwas from fatwa collections and from official and well-known fatwa websites, grouped by source. The museum records these fatwas as history, attributed to those who issued them; it issues no ruling and advises no one."
   note: "Summaries are in the museum's words; the full text and its author are on the original page."
@@ -4463,9 +4507,9 @@ companions:
   empty: 'No Companion is recorded here yet.'
 jobs:
   title: "Job Browser"
-  lede: "What people did for a living in Islamic history, from the judge and the scribe to the physician, the builder and the weaver: each job with the people who held it and the places where it was done."
-  badge: "In the making"
-  status: "The browser grows as records are researched. Job records in this build: {jobs}, of which {articles} have an article. People with a job recorded: {holders}. Counts are as of the last build."
+  lede: "What people did for a living in Islamic history, from the judge and the scribe to the physician, the builder and the weaver: each job with the people the museum has so far recorded in it. Many jobs have none recorded yet, and each says so."
+  badge: "Jobs explorer"
+  status: "The browser grows as records are researched. Job records in this build: {jobs}, of which {articles} have an article. People with a job recorded: {holders}. Jobs with no person recorded yet: {empty}. Counts are as of the last build."
   domains_title: "Browse by domain"
   domains_note: "Each job belongs to one domain. Each card lists the job records in it and the people recorded in them."
   crafts_title: "Crafts shelf"
@@ -4536,7 +4580,7 @@ career:
 battles:
   title: "Battles, Wars and Conquests Browser"
   lede: "The expeditions, battles, sieges, conquests and wars of Islamic history — from Badr to the modern era — each with its date in both calendars, its place, its commanders and its sources."
-  badge: "In the making"
+  badge: "Battles explorer"
   status: "This build holds {battles} military events across {kinds} kinds and {eras} eras, including {ghazwa} ghazawat and {sariya} saraya of the Prophet's time. Every card leads to the museum's fully cited record."
   status_ghazawat: "This build holds the events of the Prophet's time: {ghazwa} ghazawat and {sariya} saraya, in chronological order."
   note: "A ghazwa is an expedition the Prophet joined or led himself; a sariya is one he sent without joining. The grouping is derived from the records' relations and completes as they do."
@@ -4600,7 +4644,7 @@ asma:
 khulafa:
   title: "The Caliphs Browser"
   lede: "The caliphs of Islam, grouped by the caliphate they ruled — Rashidun, Umayyad, Cordoba, Abbasid Baghdad and Cairo, Fatimid, Almohad, Ottoman and Sokoto — each with his reign, his place in the succession, the events his reign saw and the sources that say so."
-  badge: "In the making"
+  badge: "Caliphs explorer"
   status: "Caliphs recorded in this build: {caliphs}. Every card's reign and chain is drawn from the museum's cited records and grows as the graph does."
   note: "Claim lines — the Zubayrid, Hammudid and Sharifian counter-caliphates — are shown last and labelled as claims. The museum describes each accession as its sources do; it does not rule on legitimacy."
   filter_label: "Filter by name"
@@ -4621,7 +4665,7 @@ khulafa:
 inventions:
   title: "Inventions Browser"
   lede: "Inventions and discoveries from Islamic civilization, each with the people who made it, what came before it, what was built on it, and the sources that say so."
-  badge: "In the making"
+  badge: "Inventions explorer"
   status: "The browser grows one sourced record at a time. Invention records in this build: {inventions}, of which {articles} have an article. Makers recorded: {makers}. Counts are as of the last build."
   domains_title: "Browse by domain"
   domains_note: "Each invention belongs to one domain. A domain with no record yet is listed so the shape of the whole is visible."
@@ -5217,3 +5261,17 @@ paged:
   filter_more: "Showing the first {n}; type more to narrow."
   filter_loading: "Searching the whole list…"
   filter_failed: "The full list could not be loaded. The rows on this page are still filtered."
+
+journeys:
+  title: "Journeys"
+  lede: "Every journey the museum records: migrations, travels, pilgrim roads, trade routes and campaigns, each with its stations in order."
+  status: "This build holds {n} journeys of {k} kinds."
+  kinds:
+    migration: "Migrations"
+    travel: "Travels"
+    pilgrimage_route: "Pilgrim roads"
+    trade_route: "Trade routes"
+    diffusion: "Roads an idea or a craft travelled"
+    military_campaign: "Campaigns and expeditions"
+  onward_title: "More journeys"
+  onward_all: "All journeys"

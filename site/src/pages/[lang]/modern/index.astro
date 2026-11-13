@@ -53,6 +53,8 @@ const base = `/${lang}/modern`;
     <section aria-labelledby="sections-title" style="margin-top:2rem">
       <h2 id="sections-title">{M.sections_title}</h2>
       <p class="muted" style="max-width:var(--measure)">{M.sections_note}</p>
+      {/* audit S35: the headline reconciles on the page: the sections' own counts, their sum, and why the sum can exceed the total */}
+      <p class="ui muted" style="max-width:var(--measure)">{fmt(M.sections_reconcile, { sum: count(SECTION_IDS.reduce((k, s) => k + (sectionCounts[s] ?? 0), 0)), records: count(modernEntries.length) })}</p>
       <ul class="grid-cards" role="list" style="margin:1rem 0 2rem">
         {SECTION_IDS.map((s) => (
           <li data-modern-section={s}>

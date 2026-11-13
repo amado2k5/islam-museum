@@ -24,7 +24,7 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "tafsir", href: `/${lang}/tafsir/`, ready: true },
   { key: "timeline", href: `/${lang}/time/`, ready: true },
   { key: "calendar", href: `/${lang}/calendar/`, ready: true },
-  { key: "journeys", href: `/${lang}/journey/hijra-route/`, ready: true },
+  { key: "journeys", href: `/${lang}/journeys/`, ready: true },
   { key: "graph", href: `/${lang}/graph/`, ready: true },
   { key: "map", href: `/${lang}/place/`, ready: true },
   { key: "revelation", href: `/${lang}/words/revelation/`, ready: true },
@@ -72,3 +72,24 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "ansab", href: `/${lang}/ansab/`, ready: true },
   { key: "qurun", href: `/${lang}/qurun/`, ready: true },
 ];
+
+/**
+ * The Explore menu in groups (audit of 13 November 2026, S34): fifty-odd destinations in one column are now read by
+ * kind. Every destination of explorePages stands in exactly one group, in this order; the build fails if one is
+ * left out or named twice. No destination is removed or renamed by the grouping.
+ */
+export const EXPLORE_GROUPS: { id: "texts" | "people" | "places" | "unseen" | "conduct" | "tools"; keys: ExplorePage["key"][] }[] = [
+  { id: "texts", keys: ["quran", "hadith", "qudsi", "tafsir", "surahmaps", "revelation", "poetry", "khutab", "fatwa", "dua", "mukatabat"] },
+  { id: "people", keys: ["seerah", "companions", "khulafa", "messengers", "nubuwat", "bayt", "usra", "ansab", "madhahib", "qurun", "jobs", "modern"] },
+  { id: "places", keys: ["timeline", "timeexplorer", "calendar", "map", "places", "journeys", "battles"] },
+  { id: "unseen", keys: ["ghayb", "angels", "jinn-devils", "dreams", "magic", "miracles", "asma", "signs", "qiyama", "janna", "nar"] },
+  { id: "conduct", keys: ["ibadat", "akhlaq", "hasanat", "sayyiat", "hudud", "hisab", "islamiceconomy", "nature", "inventions"] },
+  { id: "tools", keys: ["graph", "cards", "sighar"] },
+];
+export function exploreGroups(lang: Lang): { id: string; pages: ExplorePage[] }[] {
+  const pages = explorePages(lang);
+  const grouped = EXPLORE_GROUPS.flatMap((g) => g.keys);
+  if (grouped.length !== new Set(grouped).size || grouped.length !== pages.length || pages.some((p) => !grouped.includes(p.key)))
+    throw new Error("nav: every Explore destination must stand in exactly one menu group");
+  return EXPLORE_GROUPS.map((g) => ({ id: g.id, pages: g.keys.map((k) => pages.find((p) => p.key === k)!) }));
+}

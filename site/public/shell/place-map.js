@@ -389,6 +389,30 @@
     if (st.level === "world") {
       panelTitle.textContent = T.regions_h;
       body.appendChild(h("p", null, T.regions_lede));
+      // Audit of 13 November 2026, S26: the year can be typed, in either calendar, and the panel says what the year
+      // bar does: it lights the places that have dated records in that year and names each region's era. It does not
+      // filter a place's own list of records.
+      if (T.time_note) {
+        body.appendChild(h("p", "pm-timenote", T.time_note));
+        var yf = h("form", "pm-yearform"); yf.style.cssText = "display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:0 0 12px";
+        var yl = h("label", null, T.year_typed); yl.htmlFor = "pm-year-typed";
+        var yi = h("input"); yi.id = "pm-year-typed"; yi.type = "number"; yi.inputMode = "numeric"; yi.required = true; yi.value = String(st.ah); yi.dataset.key = "yeartyped";
+        yi.style.cssText = "font:inherit;width:6em;min-height:44px;padding:4px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg)";
+        var ys = h("select"); ys.setAttribute("aria-label", T.year_calendar); ys.style.cssText = "font:inherit;min-height:44px;padding:4px 6px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg)";
+        [["ah", T.year_ah_short], ["ce", T.year_ce_short]].forEach(function (o) { var op = h("option", null, o[1]); op.value = o[0]; ys.appendChild(op); });
+        var yb = h("button", "pm-btn", T.year_go); yb.type = "submit"; yb.style.cssText = "min-height:44px;padding:0 12px;width:auto";
+        var ym = h("span"); ym.setAttribute("role", "alert"); ym.style.cssText = "flex-basis:100%;font-size:.85rem";
+        yf.addEventListener("submit", function (ev) {
+          ev.preventDefault();
+          var v = parseInt(yi.value, 10), ah = v;
+          if (!isFinite(v)) return;
+          if (ys.value === "ce") { ah = null; for (var k = 0; k < C.ce.length; k++) if (C.ce[k] >= v) { ah = C.ahMin + k; break; } }
+          if (ah == null || ah < C.ahMin || ah > C.ahMax) { ym.textContent = tpl(T.year_range, { from: String(C.ahMin), to: String(C.ahMax) }); return; }
+          ym.textContent = ""; stopPlay(); setYear(ah, false);
+        });
+        [yl, yi, ys, yb, ym].forEach(function (e) { yf.appendChild(e); });
+        body.appendChild(yf);
+      }
       var ul = h("ul", "pm-rows");
       C.regions.forEach(function (r, i) { if (r.count) ul.appendChild(row({ text: r.name, sub: i === ELSE ? "" : eraOf(i, year), n: r.count, go: function () { goRegion(i); }, key: "r" + i })); });
       body.appendChild(ul);

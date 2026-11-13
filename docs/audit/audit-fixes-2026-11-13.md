@@ -24,6 +24,7 @@ line and requires `: 0 errors,` in it, then runs cite-check over every data reco
 | II | `validated 58120 entities, 90072 prose files: 0 errors, 4605 warnings` | `cite-check: 571 pass, 0 fail of 571 record(s)` (two records the date removal touched had no `provenance.source` on `main` and failed; the field now states what each record's own `extraction_flow` and sources say) | 37 files, 524 tests passed |
 | III | `validated 58120 entities, 90072 prose files: 0 errors, 4605 warnings` | `cite-check: 581 pass, 0 fail of 581 record(s)` | 38 files, 529 tests passed |
 | IV | `validated 58120 entities, 90072 prose files: 0 errors, 4605 warnings` | `cite-check: 581 pass, 0 fail of 581 record(s)` | 39 files, 533 tests passed |
+| V | `validated 58120 entities, 90072 prose files: 0 errors, 4605 warnings` | `cite-check: 581 pass, 0 fail of 581 record(s)` | 39 files, 533 tests passed |
 
 Part I was also built in full (`npm run build` in a separate worktree at `38ac9a6f10`): 202,331 pages, `check-site` 0 errors and 2 warnings, `check-weight` 46 routes and 0 over budget.
 
@@ -150,3 +151,132 @@ Rows per sub-page: 75 in the browsers, 300 cards in the halls, 1,200 names in th
 
 - Event titles still shared after year-qualifying, which look like one event filed twice: `event/battle-of-bathys-ryax` and `-872`; `event/conquest-of-kirman` and `event/kirman-conquest`; `event/conquest-of-emesa-636` and `event/conquest-of-hims`; `event/death-of-qutayba-ibn-muslim` and `event/qutayba-death`; `event/ghazwat-banu-qaynuqa` and `event/siege-of-banu-qaynuqa`; `event/siege-of-acre-1831` and `event/siege-of-akka-1831`. Untouched: the person merges of S7 were the mandate, not events.
 - The Urdu strings of the Developers page are English text. The sentences this run changed there are now Urdu; the rest of that block is not translated.
+
+## Part V: explorer repairs
+
+| | State | Evidence |
+|---|---|---|
+| S22 Hadith Library | **NOT GREEN: diagnosed, not repaired** | The "books" under Bukhari and several other collections are passage records of unit `chapter` that are page-numbered excerpts ("… p. 3"), with no report records filed under them and no topic title in their data; the Muwatta's are real books with reports. Titles cannot be given where the records carry none, and topic and narrator access across collections needs a model the records do not have yet. Nothing was changed. This is the largest item left. |
+| S23 Fatwa Explorer | GREEN | Find box over all 345 fatwas (whole-list index); "By subject": 183 subjects from the fatwas' own `about` relations (331 of 345 name one; the 14 that do not are said to be listed under their source), one page each; by source, one page each (7). The disclaimer sentence is on the landing and on every subject and source page. Landing 644 KB → 110 KB; largest sub-page 496 KB. |
+| S24 passage browsers | **Half GREEN** | Order: in 21 browsers the museum's own records lead and passages follow (Paradise: 22 records, then 201 passages). **Not done:** the axes the intros promise (occasions in Du'a, virtues and vices in Akhlaq, acts of worship in Ibadat). Sections are still by source after the lead section, and the intros were not rewritten. |
+| S25 Graph Explorer | GREEN | `scripts/audit/e2e-graph.mjs`, 11 of 11: a typed name offers suggestions and becomes the centre (Saladin); a star click re-centres; the list's "Make it the centre" re-centres; visited centres are shown with a way back; a filter in force is badged at the box with one-click clear; an unknown name is reported at the box, in view; no script error. On this tree the star click and the centre button already worked; the name search, the trail, the badge and the message at the control are new. |
+| S26 the map's time control | **Half GREEN** | The year can be typed in either calendar (656 AH and 1258 CE both move the bar to 656 AH · 1258 CE) and the panel says what the bar does: it lights the places with dated records in that year and names each region's era, and does not filter a place's own list. **Not done:** filtering a selected place's records by year, and a starting year chosen from what is on screen (it still opens at 11 AH). |
+| S27 two timelines | GREEN | Menu lines tell them apart; each page names the other in one sentence; the Time wing has a typed year box (AH or CE) that opens the century's page, and the century pages (`/time/all/c06/` …) are static and linkable. |
+| S28 addressable calendar | GREEN within a stated window | `/calendar/<year>/<month>/` and `/calendar/<year>/` for 1438 to 1458 AH (ten years either side of the build's Hijri year): 252 month pages and 21 year pages per language, no script, real previous and next links; the calendar page links them. Years outside the window open in the interactive calendar; the page says so. |
+| S29 Journeys front door | GREEN | `/journeys/` lists all 50 journeys by kind with their stations; the menu opens it; every journey page links the index and up to six journeys of its kind. |
+| S30 Battles search | GREEN | Find box on the landing over every battle record; kind and era listings are 200 cards a page (S18). |
+| S31 Ideas hall furniture | GREEN | Done with S32: find box, letter navigation and a count that is the rendered set. |
+| S32 one hall pattern | GREEN, with two residues | Every hall: what the wing promises (Living: its 45 practice records first; Made: its listings), the wing's cornerstones, then the paginated index. Place: the index is headed "Index of the N places on the map". **Residue:** the Today wing's cards are still computed for the build's day and corrected to the visitor's day by script; without JavaScript the date shown is the build's, unlabelled as such. |
+| S33 Jobs honesty | GREEN | The introduction and the menu line promise what is there; the status line counts the jobs with no person recorded; each such job says so in the list and on its page. |
+| S34 names, eyebrows, menu | GREEN, one eyebrow left | `scripts/audit/s34-names.ts`: menu label = H1 = title for 53 of 53 destinations in English and in Arabic (8 and 7 mismatches before). Five "in the making" eyebrows replaced; the Asma browser's is left, since the brief did not name it as finished. Menu grouped in six groups plus "More ways in". Ghayb's Arabic title is «متصفح عالم الغيب». |
+| S35 Modern's headline | GREEN; **baseline partly not reproduced** | The section cards already carried their counts on this tree. Added: one line reconciling them with the headline (2,307 places for 2,304 distinct records). |
+| S36 loading and error states | GREEN for Search and Graph; the Map already had them | Search: "Searching…" from the first keystroke. Graph: loading and failure are said at the box. Map: `place-map.js` already shows a loading line and a retry on failure. The whole-list filter of the paginated browsers says when it is searching and when it failed. |
+
+## The closing ledger: S1 to S36
+
+| | State | In one line |
+|---|---|---|
+| S1 | GREEN | Verse-first landing; two clicks to al-Tabari on 2:255. |
+| S2 | **NOT GREEN as written** | Section on every verse page; 36:58 and 112:1 have no commentary in the repository and show the honest fallback. |
+| S3 | GREEN | "Tafsir on this surah" on surah records and surah maps. |
+| S4 | GREEN | Coverage in words, gaps stated, work and commentator linked. |
+| S5 | GREEN | Volumes labelled as one work's volumes; `/quran/` answers. |
+| S6 | **NOT GREEN in part** | No human among the beings; topic membership still from tags; six person-class beings untyped. |
+| S7 | GREEN, candidates reported | 15 pairs merged; alias resolution repaired; 77 pairs left untouched. |
+| S8 | **NOT GREEN in part** | 544 grafted dates removed; validator check added; 3,790 untestable dates remain. |
+| S9 | GREEN | The Ten are ten, from the doctrine record's own list, with a build check. |
+| S10 | GREEN | Signs scoped and ordered; no door changed. |
+| S11 | GREEN on the built site | 50 of 50 in the rendered oracle on a full local build; production was 2 of 50 and changes at deploy. |
+| S12 | **NOT GREEN** | 38.3% within three hops (target 60%); dead ends 14 → 7; the ceiling without sources is 52.7%. |
+| S13 | GREEN | Zero scaffolding phrases; one badge and sentence; passages excepted by decision. |
+| S14 | GREEN | Headlines from rendered sets, with a build check. |
+| S15 | GREEN as labelling | Both populations named and defined; no published-only count introduced. |
+| S16 | GREEN, small residue | Public numbers computed; one meaning of "pages"; "300 pathways" still typed in four strings. |
+| S17 | GREEN except (b) | (b) did not reproduce: the sections are in server HTML on this tree. |
+| S18 | GREEN for the named pages | 13 other pages still over 500 KB, listed. |
+| S19 | GREEN | `index.json`, `chains.json`, `openapi.json`. |
+| S20 | Diagnosed | The notes were never written; counts per family reported; nothing fabricated. |
+| S21 | GREEN | Verified on the live UAT site. |
+| S22 | **NOT GREEN** | Diagnosed only. |
+| S23 | GREEN | Find box and subject axis. |
+| S24 | **Half GREEN** | Order done; promised axes not done. |
+| S25 | GREEN | 11 of 11 end-to-end checks. |
+| S26 | **Half GREEN** | Typed year and an honest label; no per-place year filter. |
+| S27 | GREEN | Names, cross-references, year access. |
+| S28 | GREEN within 1438–1458 AH | Static month and year pages. |
+| S29 | GREEN | Journeys landing. |
+| S30 | GREEN | Battles find box; paginated listings. |
+| S31 | GREEN | Ideas hall has its furniture. |
+| S32 | GREEN, residue | One hall pattern; "today" without JavaScript still the build's day. |
+| S33 | GREEN | Jobs say what they hold. |
+| S34 | GREEN | 53 of 53 labels match in English and Arabic. |
+| S35 | GREEN | Reconciliation line added; counts were already there. |
+| S36 | GREEN | Loading and error states at the control. |
+
+Count: 26 GREEN (some with a stated residue), 3 half GREEN (S24, S26, and S15 as a labelling answer), 6 NOT GREEN in whole or part (S2, S6, S8, S12, S20 as a diagnosis, S22).
+
+## Scorecard: every explorer named in the brief
+
+| Explorer | Sweep baseline | After this run |
+|---|---|---|
+| Tafsir Browser | Volume shelf; one of 23 commentaries wired; grids of numbers | Verse first; Tafsir on every verse page; volumes explain themselves. Fixed. |
+| Mushaf and Surah maps | `/quran/` 404; two instruments unexplained | Door added; each explains the other. Fixed. |
+| Jinn & Devils | Humans listed as devils and angels | Grouped by what records are; six beings still untyped. Mostly fixed. |
+| Angels Browser | 34 records, sound | Unchanged; linked from Jinn & Devils. |
+| Companions Browser | The Ten listed nine | Ten, derived, checked. Fixed. |
+| Signs, Qiyama, Janna, Nar | Signs a superset of the other three | Signs scoped and ordered; all four say how they differ; own records first. Fixed. |
+| Search | 2 of 50 canon-first on production | 50 of 50 on the built site. Fixed pending deploy. |
+| Graph Explorer | Name search dead, errors below the fold, invisible filters | Name search, trail, badge, errors at the box, end-to-end check. Fixed. |
+| People hall and the other halls | 4 MB pages; draft-card text on 2,905 cards; no two alike | One pattern, paginated index, one draft badge. Fixed. |
+| Ideas hall | No filter, letters or count | All three. Fixed. |
+| Living and Made halls | Alphabetical dumps contradicting their wing cards | Open with what the wing promises. Fixed. |
+| Place hall and map | Time control appears to do nothing; "all 3,873" over 3,891 | Typed year, honest label, index relabelled; no per-place year filter; page still 607 KB. Partly fixed. |
+| Time hall and Timeline Explorer | Indistinguishable names; no year access | Told apart, cross-referenced, year box, century pages. Fixed. |
+| Calendar | Months not addressable | Month and year pages for 21 years. Fixed within the window. |
+| Journeys | One journey in the menu, 49 hidden | Landing with all 50. Fixed. |
+| Battles | No name search; 1,483 cards on one page | Find box; 200 a page. Fixed. |
+| Hadith Library | Empty book pages dressed as content | Diagnosed only. Not fixed. |
+| Fatwa Explorer | No filter, institution only | Find box and 183 subjects. Fixed. |
+| Du'a, Akhlaq, Ibadat | Sections do not match the axes their intros promise | Own records first; axes not built. Partly fixed. |
+| Miracles, Messengers | Headline under-counts the page | Headline is the rendered set. Fixed. |
+| Madhahib | 331 slots for 168 records | One place each, others named. Fixed. |
+| Jobs | Promise of holders not kept | Says what it holds. Fixed. |
+| Modern | Headline not checkable | Reconciles on the page. Fixed. |
+| Khulafa, Inventions, Asma | "In the making" eyebrows; Arabic labels on English pages; name drift | Eyebrows replaced (Asma's left), label fallback, names aligned. Fixed. |
+| Ghayb | Arabic title "metaphysics" | «متصفح عالم الغيب». Fixed. |
+| Developers, Backstage, Support, Coverage, homepage | Typed, stale, disagreeing numbers; API front door 404 | Computed numbers, one meaning of pages, `index.json`. Fixed; the bare `/api/v1/` address depends on the host. |
+| Nature pages | Summaries with no notes | Diagnosed: 117 of 119 have no article. Not fixed (nothing to restore). |
+| Wander (not in the brief) | 8.3 MB page | 98 KB. Fixed. |
+
+## Retest list for the founder's reviewer, after merge and deploy
+
+Each line is an address and what to do there. Arabic and English behave alike; check both where a line says so.
+
+1. `/en/tafsir/` → "Sura 2: Al-Baqara" → `2:255`: the Tafsir section opens with al-Tabari, Jami' al-Bayan, vol. 5. Two clicks.
+2. `/en/passage/quran-1-1/` and `/ar/passage/quran-2-255/`: a section headed Tafsir (تفسير) with commentator, work and volume linked.
+3. `/en/passage/quran-36-58/` and `/en/passage/quran-112-1/`: the fallback sentence (23 commentaries, Jami' al-Bayan, not yet reached). No empty heading.
+4. `/en/tafsir/jami-al-bayan-shakir-v01/`: "Sura 2: Al-Baqara — verses 1–2, 4–43" and "2:3 — not yet covered".
+5. `/en/quran/` and `/ar/quran/`: a page, four doors. `/en/words/quran/` and `/en/surah/`: one sentence each naming the other.
+6. `/en/companions/`: ten chips under "The Ten promised Paradise", Sa'd ibn Abi Waqqas among them.
+7. `/en/jinn-devils/`: under Devils, Ibn Abbas and Umm Salama stand under "Named figures in these accounts"; no person under "The beings themselves". `/ar/jinn-devils/`: title «متصفح الجن والشياطين».
+8. `/en/person/abagha-khan/` redirects to `/en/person/abaga-ibn-hulagu/`; that page lists "Parent of: Arghun Khan, Gaykhatu". `/en/person/sulayman-ibn-dawud/` redirects to `/en/person/sulayman/`; no "Lived in: Fars".
+9. `/en/person/abaza-muhammad-pasha/`: no 1576–1634 above the 1769 summary. `/en/person/abbas-ibn-muhammad/`: 884 CE · 271 AH.
+10. `/en/signs/`: 114 records in five numbered steps; `/en/signs/all/`: the full index; `/en/qiyama/`, `/en/janna/`, `/en/nar/`: the "Four browsers, four subjects" block.
+11. `/en/search/?q=Muhammad`, `Saladin`, `Baghdad`, `Quran`, `Kaaba`, `Ibn Sina`: the first result is the record, marked "Museum cornerstone". Then `node scripts/fable/o06_search.mjs https://islam.museum`.
+12. `/en/people/`: about 110 KB; "Cornerstones of this wing", then "The full index" with letters; open a letter, then page 2. No "Draft card for" anywhere; draft cards carry the badge "Draft".
+13. `/en/ibadat/`, `/en/akhlaq/`, `/en/mukatabat/`: under 500 KB; "All N in …" opens the section's pages; type in the filter box and the matches from the whole list appear under it.
+14. View source of any page and of `/api/v1/person/index.json`: no "Draft card for", no "has not been written yet", no `needs_source`.
+15. `/en/miracles/`, `/en/messengers/`: the headline number equals the records listed. `/en/madhahib/`: each record once, with "Also under".
+16. `/en/developers/`, `/en/backstage/`, `/en/support/`, `/en/`: the record count is the same on all four; "record pages" is the same number wherever pages are counted.
+17. `https://api.islam.museum/api/v1/index.json`, `/chains.json`, `/openapi.json`, `/meta/counts.json` (keys `wings`, `halls`, `definitions`). Also try the bare `https://api.islam.museum/api/v1/`: if it still answers 404, that is the host's configuration, not the build.
+18. `/en/event/battle-of-marash/`, `-694/`, `-953/`, `-1920/`: four different titles, each with its year; the 694 page shows one date.
+19. `/en/graph/`: type "Saladin", choose it; click a star; use "Centres visited" to go back; click a legend type and clear it from the badge; type "zzzz". Then `node scripts/audit/e2e-graph.mjs https://islam.museum`.
+20. `/en/place/`: in the panel, "Go to year" 656 AH, then 1258 CE; the year bar moves; the note says what the bar does.
+21. `/en/time/`: "Go to a year" 656 AH opens the 13th-century page; the sentence under the axis links the Timeline Explorer, and `/en/time-browser/` links back.
+22. `/en/calendar/1447/9/`, `/en/calendar/1447/`, `/en/calendar/1448/6/`: pages; previous and next are links; try with JavaScript off.
+23. `/en/journeys/`: fifty journeys; `/en/journey/hijra-route/`: "More journeys".
+24. `/en/battles/`: the find box finds Yarmuk; `/en/battles/kind/battle/` is paged.
+25. `/en/fatwa/`: the find box; "By subject" → Zakat; the disclaimer on that page.
+26. `/en/jobs/`: the introduction and the count of jobs with no person recorded. `/en/modern/`: the reconciliation line.
+27. The Explore menu: six groups and "More ways in"; every label equals the heading of the page it opens.
+28. Any phone-width check of items 12, 19, 20 and 25: no sideways scroll.

@@ -1,0 +1,19 @@
+---
+// A list of fatwas, the same wherever the Fatwa Explorer lists them.
+import DraftMark from "./DraftMark.astro";
+import { ui, type Lang } from "../lib/i18n";
+import { href, labelOf, summaryOf } from "../lib/graph";
+import type { Node } from "../../../scripts/build-graph";
+interface Props { lang: Lang; list: Node[] }
+const { lang, list } = Astro.props;
+const F = ui(lang).fatwa;
+---
+<ul role="list">
+  {list.map((n) => (
+    <li>
+      <a href={href(lang, n.id)}>{labelOf(n, lang)}</a><DraftMark lang={lang} node={n} />
+      <p class="muted">{summaryOf(n, lang)}</p>
+      {n.data.url && <p class="ui"><a href={n.data.url} rel="noopener" hreflang={(n.data.languages ?? [])[0]}>{F.original}</a></p>}
+    </li>
+  ))}
+</ul>

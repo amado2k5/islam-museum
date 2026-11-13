@@ -43,6 +43,7 @@ const index = JSON.stringify(all.map((s) => ({ href: subjectHref(lang, s.id), la
     <div data-pagefind-body>
       <h1>{B.x_name}</h1>
       <p class="tbs-lede">{B.x_lede}</p>
+      <p class="ui muted" style="max-width:var(--measure)">{B.other_timeline} <a href={`/${lang}/time/`}>{T.explore.pages.timeline.title}</a>.</p>
     </div>
 
     <form role="search" class="tbs-search" onsubmit="return false">

@@ -72,3 +72,12 @@ export function renderedHeadline(name: string, sections: { items: { node: { id: 
   for (const c of claimed) if (!ids.has(c.node.id)) throw new Error(`${name}: ${c.node.id} is counted in the headline but no section lists it`);
   return ids.size;
 }
+
+/** The four corpora a detector reads passages from: a section with one of these ids lists passage mentions. */
+export const CORPUS_SECTIONS = ["quran", "sunnah", "seerah", "books"];
+/**
+ * Answers first (audit of 13 November 2026, S24): a browser's own records about its subject lead, and the passages
+ * that mention the subject follow. Paradise opened with 201 passages before its 22 records; Resurrection 507 before 36.
+ * The order inside each of the two groups is kept as the browser defines it.
+ */
+export const curatedFirst = <T extends string>(ids: T[]): T[] => [...ids.filter((id) => !CORPUS_SECTIONS.includes(id)), ...ids.filter((id) => CORPUS_SECTIONS.includes(id))];

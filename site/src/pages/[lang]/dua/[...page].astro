@@ -8,7 +8,7 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PagedNav from "../../../components/PagedNav.astro";
 import FullFilter from "../../../components/FullFilter.astro";
-import { pagedStaticPaths, pageView, renderedHeadline, type PagedProps } from "../../../lib/paged";
+import { pagedStaticPaths, pageView, renderedHeadline, curatedFirst, type PagedProps } from "../../../lib/paged";
 import DraftMark from "../../../components/DraftMark.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
@@ -38,7 +38,7 @@ const refOf = (n: Node) => {
   return n.data.ref ? String(n.data.ref) : (n.data.unit ? String(n.data.unit) : "");
 };
 const kindLabel = (k: DuaKind | null) => (k ? G.kinds?.[k] : null);
-const sectionIds: DuaSection[] = [...DUA_SECTIONS];
+const sectionIds: DuaSection[] = curatedFirst([...DUA_SECTIONS]);
 const sections = sectionIds.map((id) => ({ id, items: duaItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
 const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/dua/`);
 const pagedLabel = (s: { id: string }) => G.sections[s.id]?.title ?? s.id;
