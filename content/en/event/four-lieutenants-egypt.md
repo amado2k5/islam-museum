@@ -10,7 +10,7 @@ Al-Baladhuri reports from a group who witnessed the conquest of Egypt that [[per
 ## Those sent
 He sent [[person/abdullah-ibn-hudhafa-al-sahmi|Abd Allah ibn Hudhafa al-Sahmi]] to [[place/ayn-shams|Ayn Shams]]. He sent [[person/kharija-ibn-hudhafa-al-adawi|Kharija ibn Hudhafa al-Adawi]] to [[place/al-fayyum|al-Fayyum]], al-Ashmunayn, Akhmim and the villages of Upper Egypt. {cite:futuh-buldan-maarif-1407 p.304-305}
 
-He sent [[person/umayr-ibn-wahb|Umayr ibn Wahb al-Jumahi]] to [[place/tinnis|Tinnis]], [[place/dimyat|Damietta]], Tuna, Dumayra, Shata and Daqhaliya. He sent [[person/utba-ibn-amir-al-juhani|Utba ibn Amir al-Juhani]] to all the villages of the lower land; it is also said it was his client Wardan. {cite:futuh-buldan-maarif-1407 p.304-305}
+He sent [[person/umayr-ibn-wahb-al-jumahi|Umayr ibn Wahb al-Jumahi]] to [[place/tinnis|Tinnis]], [[place/dimyat|Damietta]], Tuna, Dumayra, Shata and Daqhaliya. He sent [[person/utba-ibn-amir-al-juhani|Utba ibn Amir al-Juhani]] to all the villages of the lower land; it is also said it was his client Wardan. {cite:futuh-buldan-maarif-1407 p.304-305}
 
 ## The outcome
 Amr brought together the conquest of Egypt, and its land became land of tribute. {cite:futuh-buldan-maarif-1407 p.304-305}

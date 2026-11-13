@@ -1,4 +1,5 @@
 id: person/umayr-ibn-wahb-al-jumahi
+aliases: [person/umayr-ibn-wahb]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "عمير بن وهب الجمحي ⁦(صاحب تبوك)⁩", en: "Umayr ibn Wahb al-Jumahi (of Tabuk)" }
 summary:
@@ -11,11 +12,20 @@ died: { edtf: "644~", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: traveled_to, target: place/tabuk, sources: [source/ibn-hisham-saqqa, source/rijal-hawl-al-rasul-muqattam-1994] }
   - { type: member_of, target: group/banu-jumah, sources: [source/ibn-hisham-saqqa] }
+  - {role: في جيش الزبير, sources: [source/futuh-buldan-maarif-1407], target: event/conquest-of-egypt, type: participated_in}
+  - {role: موجّه تنيس ودمياط والبحري, sources: [source/futuh-buldan-maarif-1407], target: event/four-lieutenants-egypt, type: participated_in}
+  - {role: المسلم, target: event/conversion-of-umayr-ibn-wahb, type: participated_in}
+  - {confidence: low, note: 'ar: ''عمير بن وهب الجمحي؛ كان في جيش الزبير بن العوام المعزّز إلى مصر ووجّهه عمرو بن العاص بعد فتح الفسطاط إلى ', sources: [source/wikidata], target: place/al-fustat, type: ruled_over}
+  - {confidence: low, note: 'ar: ''عمير بن وهب الجمحي؛ كان في جيش الزبير بن العوام المعزّز إلى مصر ووجّهه عمرو بن العاص بعد فتح الفسطاط إلى ', sources: [source/wikidata], target: place/dimyat, type: ruled_over}
+  - {confidence: low, note: 'ar: ''عمير بن وهب الجمحي؛ كان في جيش الزبير بن العوام المعزّز إلى مصر ووجّهه عمرو بن العاص بعد فتح الفسطاط إلى ', sources: [source/wikidata], target: place/dumyra, type: ruled_over}
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on his chapter in Khalid Muhammad Khalid's Rijal Hawl al-Rasul, source/rijal-hawl-al-rasul-muqattam-1994 PDF pp. 323-331"
   layer: own-research
   source: "سيرة ابن إسحاق (سقا) ج4 ص164؛ مقابلة person/umayr-ibn-wahb المعروف"
   generated_by: "Devin (SWE-2 High) — data stub for existing prose"
   run: lib-futuh-buldan-batch-19
-sources: [source/ibn-hisham-saqqa, source/rijal-hawl-al-rasul-muqattam-1994]
+sources: [source/ibn-hisham-saqqa, source/rijal-hawl-al-rasul-muqattam-1994, source/futuh-buldan-maarif-1407]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+names:
+  - {kind: alternate, value: عمير بن وهب الجمحي}
+  - {kind: alternate, value: Umayr ibn Wahb al-Jumahi}

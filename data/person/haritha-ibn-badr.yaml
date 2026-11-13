@@ -1,4 +1,5 @@
 id: person/haritha-ibn-badr
+aliases: [person/harith-ibn-badr]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "حارثة بن بدر الغداني", en: "Haritha ibn Badr al-Ghudani" }
 summary:
@@ -9,9 +10,15 @@ periods: [period/umayyad]
 died: { edtf: "684", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
 relations:
   - { type: lived_in, target: place/basra, confidence: low, note: "Associated with البصرة per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
-sources: [source/futuh-buldan-maarif-1407]
+  - {confidence: low, note: Highwayman who repented before Ali at Kufa per the record's own summary., sources: [source/sallabi-ali-vol1], target: place/kufa, type: lived_in}
+sources: [source/futuh-buldan-maarif-1407, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+  source: "the record's cited sources (source/futuh-buldan-maarif-1407; source/sallabi-ali-vol1); field added 13 November 2026 when a duplicate record was merged into this one"
+names:
+  - {kind: alternate, value: الحارث بن بدر}
+  - {kind: alternate, value: al-Harith ibn Badr}
+gender: male
