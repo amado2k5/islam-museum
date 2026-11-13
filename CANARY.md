@@ -191,6 +191,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 186): trilingual draft prose on the distances between separated visible things, and on the positions and order of the parts of a visible thing, cited to scan pages 264–267.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 187): trilingual draft prose on the perception of solidity through the bending of surfaces, and the two kinds of shape, cited to scan pages 268–271.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 188): trilingual draft prose on the outline shape and surface configuration of visible things, and the opening of the perception of magnitude, cited to scan pages 271–275.
+- Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 189): trilingual draft prose on equal persons and figures at differing distances, and on the perception of magnitude by the part of sight that receives the image, cited to scan pages 275–278.
 
 
 ### Fixed
