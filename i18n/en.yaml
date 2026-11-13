@@ -3508,6 +3508,14 @@ nature:
     cosmos:
       title: The created world
       desc: "Rain, mountains, thunder, winds, night and day, sun, moon and stars, water, earth and heavens — the signs spread before those who reflect."
+  viz:
+    title: "Six habitats"
+    caption: "A cross-section of the world: the heavens above, the sea below. Each hexagon is one of the {n} concepts of the explorer, placed in its habitat and sized by the number of Qur'an ayahs and hadith passages that mention it (square-root scale, one scale for all six bands). The {z} concepts that no passage in the museum mentions yet are drawn smallest and unnumbered."
+    region: "The six habitats: concepts as hexagons, each a link to its record"
+    q: "Qur'an: {n}"
+    h: "Hadith: {n}"
+    open: "Open the record"
+    hint: "Point at or select a hexagon to read its name, habitat and the passages that mention it."
 angels:
   title: Angels Browser
   lede: "The angels in the Qur'an, the hadith, the Seerah and the Sunni books: Gabriel and Michael, Israfil and Malik, Ridwan and the two of the grave, the noble scribes, and the angels of Badr and Hunayn — every mention with its source."
@@ -3985,6 +3993,19 @@ magic:
     concepts:
       title: The records about magic
       desc: "The museum's curated records on magic and the unseen harms around it: sorcery and the sahara, soothsaying and augury, ruqyah and its rulings, the evil eye, envy, waswasah, kashf and 'irafa."
+  viz:
+    title: "A vocabulary of the forbidden arts"
+    caption: "These are the terms the sources themselves use, recorded as the sources treat them, with no instruction. Each arc is a topic as long as its number of records, a record that carries two topics counting in both; the thin ring outside splits each arc by the section its records sit in. {n} records carry at least one topic and are drawn; {u} carry none and are not placed."
+    chords_note: "A chord joins two topics for the records that carry both, as wide as the number they share: {c} pairs occur."
+    no_chords: "No record carries two topics, so the wheel has no chords."
+    legend_topics: "Topics, clockwise from the top"
+    legend_sections: "Sections of the thin outer ring"
+    empty: "No passage yet: {list}."
+    hint: "Point at an arc or a name to see its count, its sections and some of its records; point at a chord to see the pair it joins."
+    pair: "{a} and {b}, shared records: {n}"
+    count: "{n} records"
+    outline: "Topics and shared records as an outline"
+    apply: "Filter the list below by this topic"
 nubuwat:
   title: "Prophecies and Miracles Browser"
   lede: "Every prophecy of the Prophet, proof of prophethood, secret and marvel of the Qur'an, miracle of the Prophet and eschatological prediction in the museum's sources: the Qur'anic announcements and the «من بعدي» reports, the proofs of prophethood (دلائل النبوة), the inimitability of the Qur'an and its secrets, the moon's splitting, the night journey, the multiplied food and every marvel the tradition records — sourced records that grow as new texts land."
@@ -4217,6 +4238,17 @@ jinn-devils:
     dreams:
       title: Dreams and visions
       desc: "The dream-science of the tradition: true dreams, nightmares, dream interpretation, and the dream reports that carry unseen beings."
+  viz:
+    title: "Four circles that overlap"
+    caption: "Each column is one combination of sections that occurs in the records, largest first: the bar counts the records in exactly that combination, coloured by what the record is, and the dots below mark which sections it includes. A record counted in a column belongs to exactly those sections in the museum's tagging; the bars beside the section names count every record of the section, so a record that sits in two sections is counted in both."
+    legend_title: "What the record is"
+    region: "Overlap chart of the four sections: one column per combination"
+    axis: "Records in exactly this combination"
+    col: "{sets}: {n} records"
+    hint: "Select a column to list the records of that combination, grouped by what they are."
+    close: "Close the list"
+    outline: "All combinations as an outline"
+    count: "{n} records"
 messengers:
   title: "Messengers and Prophets Browser"
   lede: "Every mention of the messengers and prophets in the museum's sources: the named prophets and messengers in the Qur'an, the Sunnah and the seerah, the bearers of stories, lineages and missions, the prophets who are not named, and every mention of the messengers and prophets in every harvested book — sourced records that grow as new texts land."
