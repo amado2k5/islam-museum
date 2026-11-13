@@ -2237,3 +2237,15 @@ Resume point: mawkib-al-nour episode 10 (branch from origin/main).
 | Asides on football pools, a bank-clerk dialogue, a wedding-fashion example and other jokes beyond the points kept | ep10 00:09:00, 00:22:00, 00:25:00 | Illustrative asides, not separate claims | Content rule | Open |
 
 Resume point: mawkib-al-nour episode 11 (branch from origin/main).
+
+### mawkib-al-nour ep11 (12 Nov 2026)
+
+23 points written for episode 11 (ar, en, ur); 12 needs_source marks; 5 new `about` edges. Quran verses referenced only through passage links (64-14, 59-19, 30-55, 23-112, 23-113, 2-245, 39-42, 78-10, 78-11, 17-85, 2-172, 4-58); none typed. Proposal for the founder, not applied: the lecturer's description of what happens to the spirit during sleep (ep11 00:17:00-00:21:00) and his account of genetically modified chickens (00:40:30) have no source and are marked, not removed.
+
+| Excluded (mawkib-al-nour ep11) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, opening supplications and the closing supplication | ep11 00:00:00-00:01:00 (greetings and supplications), 00:43:00-00:43:30 (closing and a stray non-Arabic token) | Not lesson content | Content rule | Open |
+| Garbled windows and loops | ep11 00:15:30 (a long loop), 00:18:00 (a long loop), 00:28:00 (a long loop), 00:29:30 (a long loop), 00:36:00 (a loop), 00:38:00 (a loop) | Not recoverable | Clarity, Loop check | Open |
+| Asides on a cooking show, a salad recipe, a potato recipe, seats in malls and a half-clear comparison of Ramadan terms | ep11 00:36:30-00:38:00, 00:39:00-00:40:00 | Illustrative asides, not separate claims | Content rule | Open |
+
+Resume point: mawkib-al-nour episode 12 (branch from origin/main).
