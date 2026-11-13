@@ -259,6 +259,8 @@ open a new block on top with the new version and today's date.
 ### Content
 
 - **Urdu pages brought level with English and Arabic.** 85 Urdu pages of the cornerstone records (people, events, places, buildings, concepts, practices, works) were missing Overview paragraphs, citations, links or whole sections that the English and Arabic pages already had. They were completed by faithful translation, so Urdu readers now get the same sourced text. Markers match across the three languages except where the English or Arabic file itself carries stray pasted lines (several al-Nawawi event pages). Draft translations, `status.review: draft` unchanged.
+### Added
+- **The museum's marketing and outreach register is written down.** A new document (`docs/outreach/marketing-and-outreach-register-2026.md`) logs every outreach attempt from the project's public start in October 2026 to 13 November 2026 — 118 register rows covering the prize and directory submissions, the press, scholar and library letters, the country packs, the community posts and social campaigns, and what each one earned back: the replies, the warm referrals, the declines and the bounces. It also records the standing rules the outreach runs under (a non-profit project, not a business; the founder sends most email himself; no target is ever pitched twice; the Sent folder is searched before every send) and the standing do-not-contact list, so no closed door is ever knocked on again. It was compiled from the master send checklist, the project's daily logs and a full sweep of the Sent folder, which corrected several "drafted, not sent" notes. Documentation only; the site itself is unchanged.
 
 ## v1.27.1 — 2026-11-19
 ### Fixed
