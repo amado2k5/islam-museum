@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-عند البلاذري انتقض أهل أرمينية في ولاية [[person/al-hasan-ibn-qahtaba|الحسن بن قحطبة الطائي]]، وكان رئيسهم [[person/mushayil-al-armani|موشائيل الأرمني]]. {cite:futuh-buldan-maarif-1407 p.295}
+عند البلاذري انتقض أهل أرمينية في ولاية [[person/hasan-ibn-qahtaba|الحسن بن قحطبة الطائي]]، وكان رئيسهم [[person/mushayil-al-armani|موشائيل الأرمني]]. {cite:futuh-buldan-maarif-1407 p.295}
 
 ## الخبر
 جاء ذلك بعد عزل ابن أسيد وبكار بن مسلم العقيلي. فبعث [[person/al-mansur|المنصور]] الأمداد وعليهم عامر بن إسماعيل. وواقع الحسن موشائيل فقُتل وتفرقت جموعه، واستقامت له الأمور. {cite:futuh-buldan-maarif-1407 p.295}

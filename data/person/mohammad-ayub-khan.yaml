@@ -1,4 +1,5 @@
 id: person/mohammad-ayub-khan
+aliases: [person/ayyub-khan-afghan]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: "محمد أيوب خان"
@@ -14,6 +15,9 @@ names:
   - { value: "Ayub Khan", kind: alternate }
   - { value: "Victor of Maiwand", kind: laqab }
   - { value: "the Afghan Prince Charlie", kind: laqab }
+  - {kind: alternate, value: أيوب خان}
+  - {kind: alternate, value: Ayyub Khan (Afghanistan)}
+  - {kind: alternate, value: ایوب خان}
 gender: male
 born:
   edtf: "1857"
@@ -36,6 +40,7 @@ wings: [people]
 regions: [persia-central-asia]
 relations:
   - { type: born_in, target: place/kabul, sources: [source/wikipedia-mohammad-ayub-khan-en, source/wikipedia-mohammad-ayub-khan-ar] }
+  - {note: 'From text: خان في كابل', sources: [source/encyclopaedia-of-islam-2], target: place/kabul, type: ruler_of}
 faith:
   - value: unknown
     basis: unknown
@@ -44,6 +49,7 @@ faith:
 sources:
   - source/wikipedia-mohammad-ayub-khan-en
   - source/wikipedia-mohammad-ayub-khan-ar
+  - source/encyclopaedia-of-islam-2
 status:
   review: published
 provenance:

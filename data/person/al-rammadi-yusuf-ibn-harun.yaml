@@ -1,4 +1,5 @@
 id: person/al-rammadi-yusuf-ibn-harun
+aliases: [person/al-ramadi]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "يوسف بن هارون الرمادي", en: "Yusuf ibn Harun al-Rammadi" }
 died: { edtf: "1012~", hijri: "0403", calendar: julian, precision: year, status: tradition, derived: true, note: "مات سنة ثلاث وأربعمائة يوم العنصرة فقيراً معدماً {cite:wafayat-ayan}." }
@@ -14,9 +15,14 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch99
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/nafh-tib-maqqari]
 status:
   review: published
   completeness: 3
 relations:
   - { type: lived_in, target: place/cordoba, note: "From text: أهل قرطبة المشهور المقدم على ", sources: [source/wafayat-ayan], confidence: low }
+names:
+  - {kind: alternate, value: يوسف بن هرون الرمادي}
+  - {kind: alternate, value: Yusuf ibn Harun al-Ramadi}
+roles: [poet]
+regions: [andalus-europe]

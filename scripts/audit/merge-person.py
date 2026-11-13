@@ -46,8 +46,12 @@ def flow(v):
 t = ct.rstrip("\n") + "\n"
 # aliases
 if "aliases" in c:
-    raise SystemExit(f"{cid} already has aliases: merge by hand")
-t = re.sub(r"(?m)^(id: person/[a-z0-9-]+)[ \t]*$", lambda m: f"{m.group(1)}\naliases: [{did}]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves", t, count=1)
+    # a record already merged into once: add to its one-line alias list
+    if not re.search(r"(?m)^aliases: \[[^\]\n]*\]", t):
+        raise SystemExit(f"{cid} has aliases in a shape this script does not edit: merge by hand")
+    t = re.sub(r"(?m)^aliases: \[([^\]\n]*)\]", lambda m: f"aliases: [{m.group(1)}, {did}]", t, count=1)
+else:
+  t = re.sub(r"(?m)^(id: person/[a-z0-9-]+)[ \t]*$", lambda m: f"{m.group(1)}\naliases: [{did}]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves", t, count=1)
 # sources
 new_sources = [s for s in d.get("sources", []) if s not in c.get("sources", [])]
 if new_sources:
@@ -99,12 +103,12 @@ for k in ("born", "died"):
     if k not in c and k in d and "Date-enrichment pass" not in str(d[k].get("note", "")):
         lines = t.split("\n"); lines[len(lines) - 1:len(lines) - 1] = [f"{k}: {flow(d[k])}"]; t = "\n".join(lines); log.append(f"{k} carried")
 after = yaml.safe_load(t)
-assert after["aliases"] == [did]
+assert after["aliases"] == list(c.get("aliases", [])) + [did]
 for s in new_sources: assert s in after["sources"], s
 for r in new_rel: assert any(x["type"] == r["type"] and x["target"] == r["target"] for x in after["relations"]), r
 for k, v in new_ext.items(): assert after["external_ids"][k] == v
 for k in c:
-    if k not in ("sources", "relations", "external_ids", "names"): assert after[k] == c[k], k
+    if k not in ("sources", "relations", "external_ids", "names", "aliases"): assert after[k] == c[k], k
 for n in new_names: assert any(x.get("value") == n["value"] for x in after["names"]), n
 
 # prose

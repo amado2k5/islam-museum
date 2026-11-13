@@ -1,4 +1,5 @@
 id: person/al-khirit-ibn-rashid
+aliases: [person/al-kharit-ibn-rashid]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "الخرّيت بن راشد الناجي", en: "al-Khirit ibn Rashid al-Naji" }
 summary:
@@ -9,13 +10,21 @@ died: { edtf: "659", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: traveled_to, target: place/al-ahwaz, note: "Khariji of Banu Najiya who rallied the Najiya and Ahwaz tax-resisters and fought there after Nahrawan.", sources: [source/kamil-ibn-al-athir], confidence: medium }
   - { type: member_of, target: group/khawarij, sources: [source/kamil-ibn-al-athir] }
+  - {confidence: medium, note: Wikidata Q170366 (P20); corroboration recommended., sources: [source/wikidata], target: place/al-ahwaz, type: died_in}
+  - {sources: [source/al-aalam], target: group/sahaba, type: member_of}
+  - {note: fought with Ali then left him when the arbitration was agreed; Ali sent Ma'qil al-Riyahi against his people (al-Isaba p. 390), sources: [source/ibn-hajar-isaba], target: event/arbitration-of-siffin, type: participated_in}
 wings: [people]
 periods: [period/rashidun]
 regions: [levant-iraq]
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/al-aalam, source/wikidata, source/ibn-hajar-isaba]
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح 02-163053، ص 715-716"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-vol2-16
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+external_ids: {wikidata: Q12186975}
+names:
+  - {kind: alternate, value: الخريت بن راشد}
+  - {kind: alternate, value: al-Kharit ibn Rashid}
+roles: [companion]

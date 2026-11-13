@@ -12,3 +12,6 @@ He came to Baghdad in the year 515 AH, and held a session of preaching at the Ni
 
 ## Death
 His death overtook him at Bamiyan, between Herat and Baghshur, in Rabi' al-Awwal of the year 535 AH. He was buried, and then moved to [[place/merv|Marw]] {cite:wafayat-ayan p.79-80}.
+
+## In Shadharat al-Dhahab — Ibn al-Imad al-Hanbali
+Abu Ya'qub Yusuf b. Ayyub al-Hamadhani, shaykh of the sufis at Marw; he read fiqh at Baghdad under Abu Ishaq al-Shirazi and heard much hadith, and in 505 was enrolled for preaching at the Nizamiyya. He died in Rabi' I at ninety-four. {cite:shadharat-dhahab p. 587-588}

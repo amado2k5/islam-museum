@@ -1,4 +1,5 @@
 id: person/said-ibn-salih-al-hajib
+aliases: [person/said-al-hajib]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "سعيد بن صالح الحاجب", en: "Sa'id al-Hajib" }
 summary:
@@ -15,8 +16,11 @@ provenance:
 died: { edtf: "866", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
 relations:
   - { type: ruled_over, target: place/al-qatul, sources: [source/muruj-al-dhahab], confidence: low, note: "ar: 'حاجب بعثه المعتز في شهر رمضان سنة اثنتين وخمسين ومائتين ليلقى المستعين المحمول من واسط فلقيه قرب القاطول " }
-sources: [source/muruj-al-dhahab]
+  - {confidence: low, note: Abbasid court chamberlain (Tarikh al-khulafa); Baghdad milieu., sources: [source/tarikh-khulafa-minhaj-1434], target: place/baghdad, type: lived_in}
+sources: [source/muruj-al-dhahab, source/tarikh-khulafa-minhaj-1434]
 status:
   review: published
   completeness: 3
-
+names:
+  - {kind: alternate, value: سعيد الحاجب}
+periods: [period/abbasid-early]

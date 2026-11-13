@@ -8,3 +8,8 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 Al-Mundhir ibn Amr, one of the scribes of the Ansar, that is, of those who wrote when Islam came. {cite:futuh-buldan-maarif-1407}
 
 The data hold nothing beyond this sentence, and the rest of his life needs an additional source.
+
+## In al-Alam — al-Zirikli
+An Ansari Companion known as Sayf al-Badr; he commanded the expedition of Bi'r Ma'una and was martyred there.
+
+{cite:al-aalam}

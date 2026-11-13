@@ -1,10 +1,13 @@
 id: person/husayn-ibn-abd-al-rahman-al-ahdal
+aliases: [person/al-husayn-ibn-abd-al-rahman-al-ahdal]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "حسين بن عبد الرحمن الأهدل", en: "Husayn ibn Abd al-Rahman al-Ahdal" }
 names:
   - { kind: full, lang: ar, value: "حسين بن عبد الرحمن بن محمد الأهدل الحسيني" }
   - { kind: kunya, lang: ar, value: "أبو عبد الرحمن" }
   - { kind: laqab, lang: ar, value: "بدر الدين" }
+  - {kind: alternate, value: الحسين بن عبد الرحمن الأهدل}
+  - {kind: alternate, value: al-Husayn ibn Abd al-Rahman al-Ahdal (Ibn al-Ahdal)}
 gender: male
 roles: [historian, scholar]
 traditions: [sunni]
@@ -21,7 +24,7 @@ story_roles:
   - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
   - { type: lived_in, target: place/yemen, confidence: low, note: "Associated with اليمن per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/al-aalam]
 status:
   review: published
   completeness: 3
@@ -31,3 +34,4 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch56
+external_ids: {wikidata: Q139499123}

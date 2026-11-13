@@ -1,4 +1,5 @@
 id: person/al-numan-ibn-muqarrin
+aliases: [person/al-numan-ibn-muqrin]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "النعمان بن مقرن", en: "al-Nu'man ibn Muqarrin" }
 summary:
@@ -12,8 +13,15 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 425"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-41
-sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }
+  - {confidence: low, note: Only the record-level region (arabia) is attested; broad-region edge flagged for review., sources: [source/kamil-ibn-al-athir], target: place/jazirat-al-arab, type: lived_in}
+external_ids: {wikidata: Q3299880}
+names:
+  - {kind: alternate, value: النعمان بن مقرن المزني}
+  - {kind: alternate, value: al-Nu'man ibn Muqrin}
+roles: [military]
+gender: male

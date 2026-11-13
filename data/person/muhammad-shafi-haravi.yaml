@@ -1,4 +1,5 @@
 id: person/muhammad-shafi-haravi
+aliases: [person/mohammad-shafi-heravi]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "محمد شفيع الهروي «شفيعا»", en: "Muhammad Shafi' Haravi (Shafi'a)", ur: "محمد شفیع ہروی «شفیعا»" }
 summary:
@@ -16,7 +17,8 @@ relations:
   - { type: student_of, target: person/morteza-qoli-khan-shamlu, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: lived_in, target: place/herat, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: exemplifies, target: concept/shikasta-script, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
-sources: [source/salim-tarikh-khatt-o-khattatin-2001]
+  - {confidence: medium, note: Place link from Wikidata; pending a second source., sources: [source/wikidata], target: place/mashhad, type: died_in}
+sources: [source/salim-tarikh-khatt-o-khattatin-2001, source/al-aalam]
 provenance:
   layer: own-research
   source: "source/salim-tarikh-khatt-o-khattatin-2001 scan pp. 152, 265"
@@ -24,3 +26,13 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
 status: { review: published, completeness: 2 }
+external_ids: {wikidata: Q5953269}
+names:
+  - {kind: alternate, value: محمد شافع الهروي}
+  - {kind: alternate, value: Mohammad Shafi Heravi}
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

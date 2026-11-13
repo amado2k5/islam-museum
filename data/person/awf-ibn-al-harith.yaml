@@ -1,4 +1,5 @@
 id: person/awf-ibn-al-harith
+aliases: [person/auf-ibn-al-harith]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: عوف بن الحارث ⁦(ابن عفراء)⁩
@@ -8,6 +9,8 @@ names:
 - kind: full
   lang: ar
   value: عوف بن الحارث بن رفاعة بن الحارث بن سواد النجاري الأنصاري
+- {kind: alternate, value: عوف بن الحارث}
+- {kind: alternate, value: Auf ibn al-Harith}
 gender: male
 roles:
 - companion
@@ -54,6 +57,9 @@ relations:
   target: event/battle-of-badr
   sources:
   - source/ibn-hajar-isaba
+- {sources: [source/al-aalam], target: group/sahaba, type: member_of}
+- {note: al-Isaba p. 1156, sources: [source/ibn-hajar-isaba], target: group/banu-al-najjar, type: member_of}
+- {note: al-Isaba p. 1156, sources: [source/ibn-hajar-isaba], target: group/banu-al-najjar, type: member_of}
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 6861، ص 1156
@@ -62,6 +68,8 @@ provenance:
   run: prose-fill-persons-batch46
 sources:
 - source/ibn-hajar-isaba
+- source/al-aalam
 status:
   review: published
   completeness: 3
+external_ids: {wikidata: Q12228812}

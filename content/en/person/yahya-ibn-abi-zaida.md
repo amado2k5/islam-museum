@@ -19,3 +19,9 @@ Yahya ibn Abi Za'ida was a Kufan scholar and memoriser whom the leading critics 
 - Taqrib al-Tahdhib entry t. 7548 (Majmu'at al-Kutub scan, p. 660).
 - Two death-year reports in the same text: 183 or 184 AH; al-Ijli's ascription specifies 183 AH.
 - "Knowledge ended with him after al-Thawri" is quoted from Ibn al-Madini in Kashif al-Dhahabi — the book's own attestation, not the museum's verdict.
+
+## In al-Fihrist of Ibn al-Nadim
+Yahya ibn Zakariyya ibn Abi Za'ida, known by the kunya Abu Sa'id. He was a judge in al-Mada'in and died there in the year 183 AH, and he has the "Book of the Sunan" {cite:fihrist-ibn-al-nadim p. 316}.
+
+## In al-Fihrist of Ibn al-Nadim: Notes
+- No other details about him are given on the page. The entry needs an additional source.

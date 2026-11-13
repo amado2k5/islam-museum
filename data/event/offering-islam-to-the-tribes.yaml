@@ -14,7 +14,7 @@ relations:
   - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/banu-kalb, role: "عُرض عليهم فلم يقبلوا", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/suwayd-ibn-samit, role: "أسلم بعد أن تلا عليه النبي القرآن", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/suwayd-ibn-al-samit, role: "أسلم بعد أن تلا عليه النبي القرآن", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/iyas-ibn-muadh, role: "عرض عليه النبي الإسلام ومات بعد ذلك", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]

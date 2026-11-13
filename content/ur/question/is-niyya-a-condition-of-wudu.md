@@ -11,7 +11,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 «[[work/bidayat-al-mujtahid|بدایۃ المجتہد]]» میں [[person/ibn-rushd|ابن رشد]] [[practice/wudu|وضو]] کے افعال کا باب [[concept/niyya-fiqh|نیت]] کے مسئلے سے شروع کرتے ہیں، جو اس باب کے بارہ مشہور بنیادی مسائل میں پہلا ہے۔ {cite:bidaya-bakri-bayt-al-afkar p. 22} وہ کہتے ہیں کہ فقہائے امصار نے اس میں اختلاف کیا کہ کیا نیت وضو کے صحیح ہونے کی شرط ہے، جبکہ عبادات میں نیت کی شرط پر ان کا اتفاق ہے، اخلاص کی آیت اور حدیث «اعمال کا دار و مدار نیتوں پر ہے» کی بنا پر۔ {cite:bidaya-bakri-bayt-al-afkar p. 22}
 
 ## اقوال
-- **نیت شرط ہے**: [[person/al-shafii|شافعی]]، [[person/malik-ibn-anas|مالک]]، [[person/ahmad-ibn-hanbal|احمد]]، [[person/abu-thawr|ابو ثور]] اور [[person/dawud-al-zahiri|داود]] کا مذہب۔ {cite:bidaya-bakri-bayt-al-afkar p. 23} {cite:bidaya-hallaq-v1 p. 36}
+- **نیت شرط ہے**: [[person/al-shafii|شافعی]]، [[person/malik-ibn-anas|مالک]]، [[person/ahmad-ibn-hanbal|احمد]]، [[person/abu-thawr-al-kalbi|ابو ثور]] اور [[person/dawud-al-zahiri|داود]] کا مذہب۔ {cite:bidaya-bakri-bayt-al-afkar p. 23} {cite:bidaya-hallaq-v1 p. 36}
 - **نیت شرط نہیں**: [[person/abu-hanifa|ابو حنیفہ]] اور [[person/sufyan-al-thawri|ثوری]] کا مذہب۔ {cite:bidaya-bakri-bayt-al-afkar p. 23}
 
 ## ابن رشد کے نزدیک سببِ اختلاف

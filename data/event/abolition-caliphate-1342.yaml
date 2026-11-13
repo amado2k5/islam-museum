@@ -13,8 +13,8 @@ date:
 relations:
   - { type: occurred_at, target: place/istanbul }
   - { type: had_participant, target: person/mustafa-kemal-ataturk, role: "المقرر", sources: [source/dawlat-uthmaniyya-salabi] }
-  - { type: had_participant, target: person/abd-al-majid-ii, role: "الخليفة المنفي", sources: [source/dawlat-uthmaniyya-salabi] }
-  - { type: during_reign, target: person/abd-al-majid-ii, sources: [source/sicill-i-osmani] }
+  - { type: had_participant, target: person/abdulmecid-ii, role: "الخليفة المنفي", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/abdulmecid-ii, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 329، 472-473"

@@ -1,8 +1,12 @@
 id: person/al-hasan-ibn-muhammad-al-zafarani
+aliases: [person/al-zafarani]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "الحسن بن محمد الزعفراني", en: "al-Hasan ibn Muhammad al-Za'farani" }
 names:
   - { kind: full, lang: ar, value: "أبو علي الحسن بن محمد بن الصباح الزعفراني البغدادي" }
+  - {kind: full, lang: ar, value: الحسن بن محمد بن الصباح البغدادي، أبو علي الزعفراني}
+  - {kind: alternate, value: الزعفراني}
+  - {kind: alternate, value: Al-Za'farani}
 gender: male
 roles: [jurist]
 traditions: [sunni]
@@ -14,8 +18,9 @@ wings: [people]
 relations:
   - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي البغداديين (PDF ص53)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - {note: 'From text: درّس فيه الشيرازي', sources: [source/tabaqat-shafiiyya-subki], target: place/shiraz, type: lived_in}
 external_ids: { wikidata: "Q22685179" }
-sources: [source/tabaqat-fuqaha-abbas-1981]
+sources: [source/tabaqat-fuqaha-abbas-1981, source/tabaqat-shafiiyya-subki]
 provenance:
   layer: "own-research"
   source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53"
@@ -31,3 +36,8 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/tabaqat-fuqaha-abbas-1981]
+born: {calendar: julian, derived: true, edtf: '0771', hijri: '0154', note: مولده سنة 154هـ (السبكي). التحويل مشتق., precision: year, sources: [source/tabaqat-shafiiyya-subki], status: tradition}
+tags: [madhahib-browser, mh-shafii]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
