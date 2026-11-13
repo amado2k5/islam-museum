@@ -1,0 +1,169 @@
+---
+// The market street (signature view of the Job Browser, docs/jobs/site.md): a treemap of stalls. Each domain is a block, each
+// job a tile inside its domain's block, and a tile's area is the number of people the museum records in that occupation
+// (a person counts once per job, however many stints the record lists). It is a count of records, not of historical
+// prevalence. A tile is never smaller than a touchable minimum, so jobs with few or no recorded holders share that minimum size;
+// above it, area is proportional. A job with no holder is drawn as an outlined tile and named as such. Crafts (hirfa) carry a
+// corner mark. Two layouts of the same data are built (wide and tall) and CSS shows one. Everything is read at build time from
+// lib/jobs.ts; the script (site/src/scripts/sig-jobs.ts) only fills the readout panel from the outline list under the street.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { DOMAINS, domainLabel, jobNodes, holdersOf, holdersShown, squarify } from "../../lib/jobs";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const V = T.jobs.viz;
+
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const f2 = (n: number) => Math.round(n * 100) / 100;
+const collator = new Intl.Collator(lang, { sensitivity: "base" });
+
+for (const j of jobNodes) if (!DOMAINS.some((d) => d.id === j.data.domain)) throw new Error(`The market street has no block for domain "${j.data.domain}" (${j.id})`);
+const jobs = jobNodes.map((n) => ({ n, id: n.id, held: holdersOf(n.id).length, craft: n.data.hirfa === true, domain: n.data.domain as string, name: short(n) }));
+const total = jobs.reduce((s, j) => s + j.held, 0);
+const domains = DOMAINS.filter((d) => jobs.some((j) => j.domain === d.id));
+
+// Two canvases of the same street: a wide one for screens and a tall one for phones. Minimum sizes are in px at the canvas size.
+const CANVAS = {
+  wide: { W: 1000, H: 540, minJob: 3600, minDom: 15000 },
+  tall: { W: 340, H: 760, minJob: 3200, minDom: 9500 },
+};
+const BAND = 32, PAD = 3;
+function street(c: { W: number; H: number; minJob: number; minDom: number }) {
+  const area = c.W * c.H;
+  // the floors are a share of the whole drawn area, and the whole grows by the floors: settle it by iteration
+  let S = total, floorJ = 0, blocks: { d: (typeof domains)[number]; js: typeof jobs; v: number }[] = [];
+  for (let i = 0; i < 12; i++) {
+    floorJ = (S * c.minJob * 1.3) / area;
+    const floorD = (S * c.minDom) / area;
+    blocks = domains.map((d) => {
+      const js = jobs.filter((j) => j.domain === d.id).sort((a, b) => b.held - a.held || collator.compare(a.name, b.name) || a.id.localeCompare(b.id));
+      return { d, js, v: Math.max(floorD, js.reduce((t, j) => t + Math.max(j.held, floorJ), 0)) };
+    });
+    S = blocks.reduce((t, b) => t + b.v, 0);
+  }
+  blocks.sort((a, b) => b.v - a.v || a.d.id.localeCompare(b.d.id));
+  return squarify(blocks, { x: 0, y: 0, w: c.W, h: c.H }).map((b) => {
+    const iw = Math.max(1, b.w - 2 * PAD), ih = Math.max(1, b.h - BAND - PAD);
+    const tiles = squarify(b.js.map((j) => ({ ...j, v: Math.max(j.held, floorJ) })), { x: 0, y: 0, w: iw, h: ih });
+    return { ...b, tiles, iw, ih };
+  });
+}
+const layouts = { wide: street(CANVAS.wide), tall: street(CANVAS.tall) };
+for (const l of Object.values(layouts)) {
+  const drawn = l.reduce((s, b) => s + b.tiles.length, 0);
+  if (drawn !== jobNodes.length) throw new Error(`The market street drew ${drawn} tiles for ${jobNodes.length} jobs`);
+}
+const empty = jobs.filter((j) => j.held === 0).length;
+const crafts = jobs.filter((j) => j.craft).length;
+
+const holderLine = (j: (typeof jobs)[number]) => {
+  const { people, byDate } = holdersShown(j.id);
+  return { people, label: byDate ? V.holders_dated : V.holders_order };
+};
+---
+<div class="sg-jb" data-sg-jb data-t-hint={V.hint} data-t-open={V.open}>
+  <section aria-labelledby="sg-jb-title" style="margin-top:2rem">
+    <div data-pagefind-body>
+      <h2 id="sg-jb-title">{V.title}</h2>
+      <p class="muted" style="max-width:var(--measure);margin:0 0 .5rem">{fmt(V.note, { n: num(total, lang), j: num(jobNodes.length, lang), z: num(empty, lang) })}</p>
+    </div>
+    <ul class="sg-jb-legend ui" aria-label={V.legend_title}>
+      <li><i class="sg-jb-key is-full" aria-hidden="true"></i>{V.key_area}</li>
+      <li><i class="sg-jb-key is-none" aria-hidden="true"></i>{V.key_none} <span class="muted">{num(empty, lang)}</span></li>
+      <li><i class="sg-jb-key is-craft" aria-hidden="true"></i>{V.key_craft} <span class="muted">{num(crafts, lang)}</span></li>
+    </ul>
+    {(["wide", "tall"] as const).map((k) => (
+      <div class={`sg-jb-map is-${k}`} style={`aspect-ratio:${CANVAS[k].W}/${CANVAS[k].H}`} role="group" aria-label={V.group_label}>
+        {layouts[k].map((b) => (
+          <div class="sg-jb-dom" role="group" aria-label={`${domainLabel(b.d.id, lang)}, ${fmt(V.domain_n, { n: num(b.js.reduce((s, j) => s + j.held, 0), lang) })}`}
+            style={`left:${f2((b.x / CANVAS[k].W) * 100)}%;top:${f2((b.y / CANVAS[k].H) * 100)}%;width:${f2((b.w / CANVAS[k].W) * 100)}%;height:${f2((b.h / CANVAS[k].H) * 100)}%`}>
+            <b class="sg-jb-dn ui" aria-hidden="true"><span>{domainLabel(b.d.id, lang)}</span></b>
+            <div class="sg-jb-in">
+              {b.tiles.map((t) => (
+                <a class={`sg-jb-t${t.craft ? " is-craft" : ""}${t.held === 0 ? " is-none" : ""}`} href={href(lang, t.id)} data-j={t.id}
+                  style={`left:${f2((t.x / b.iw) * 100)}%;top:${f2((t.y / b.ih) * 100)}%;width:${f2((t.w / b.iw) * 100)}%;height:${f2((t.h / b.ih) * 100)}%`}>
+                  <span class="sg-jb-n ui">{t.name}</span><span class="sg-jb-c ui">{t.held === 0 ? V.none_short : num(t.held, lang)}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    ))}
+    <div class="sg-jb-read ui" aria-live="polite" data-sg-read>
+      <p class="sg-jb-line" data-sg-line>{V.hint}</p>
+    </div>
+    <details class="sg-jb-outline">
+      <summary class="ui">{V.outline_title}</summary>
+      {domains.map((d) => (
+        <section>
+          <h3 class="ui">{domainLabel(d.id, lang)}</h3>
+          <ul role="list" class="ui">
+            {jobs.filter((j) => j.domain === d.id).sort((a, b) => b.held - a.held || collator.compare(a.name, b.name)).map((j) => {
+              const hs = holderLine(j);
+              return (
+                <li data-j={j.id}>
+                  <a href={href(lang, j.id)} data-sg-job>{j.name}</a>{" "}
+                  <span data-sg-count>{j.held === 0 ? V.none_yet : fmt(V.holders_n, { n: num(j.held, lang) })}{j.craft ? ` · ${V.key_craft}` : ""}</span>
+                  {hs.people.length > 0 && (
+                    <span data-sg-who><span class="muted">{hs.label}</span>{" "}
+                      {hs.people.map((p, i) => <><a href={href(lang, p.id)}>{short(p)}</a>{i < hs.people.length - 1 ? (lang === "en" ? ", " : "، ") : ""}</>)}
+                    </span>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ))}
+    </details>
+  </section>
+</div>
+<style is:inline>
+  .sg-jb h2 { margin-bottom: .3rem; }
+  .sg-jb-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; padding: 0; margin: 0 0 .8rem; font-size: .88rem; color: var(--fg); }
+  .sg-jb-legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .sg-jb-key { position: relative; display: inline-block; width: 22px; height: 16px; box-sizing: border-box; border-radius: 3px; flex: none; }
+  .sg-jb-key.is-full { background: color-mix(in srgb, var(--gold) 34%, var(--card)); border: 1px solid var(--gold-text); }
+  .sg-jb-key.is-none { border: 1.5px dashed var(--muted); background: transparent; }
+  .sg-jb-key.is-craft { background: color-mix(in srgb, var(--gold) 34%, var(--card)); border: 1px solid var(--gold-text); }
+  .sg-jb-key.is-craft::after, .sg-jb-t.is-craft::after { content: ""; position: absolute; top: 0; inset-inline-end: 0; width: 11px; height: 11px; background: var(--fg); clip-path: polygon(0 0, 100% 0, 100% 100%); }
+  :dir(rtl) .sg-jb-key.is-craft::after, :dir(rtl) .sg-jb-t.is-craft::after { clip-path: polygon(0 0, 100% 0, 0 100%); }
+  .sg-jb-map { position: relative; width: 100%; border: 1px solid var(--line); border-radius: 12px; background: var(--card); overflow: hidden; }
+  .sg-jb-map.is-tall { display: none; }
+  .sg-jb-map.is-wide { min-height: 480px; }
+  @media (max-width: 720px) { .sg-jb-map.is-wide { display: none; } .sg-jb-map.is-tall { display: block; } }
+  .sg-jb-dom { position: absolute; box-sizing: border-box; padding: 32px 3px 3px; border: 1px solid var(--line); background: var(--panel); }
+  .sg-jb-dn { position: absolute; top: 0; inset-inline: 0; height: 32px; padding: 0 8px; display: flex; align-items: center; font-size: .74rem; line-height: 1.1; font-weight: 700; color: var(--fg); overflow: hidden; }
+  .sg-jb-dn span { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .sg-jb-in { position: relative; width: 100%; height: 100%; }
+  .sg-jb-t { position: absolute; box-sizing: border-box; container-type: size; padding: 5px 7px; border: 1px solid color-mix(in srgb, var(--gold-text) 60%, transparent); background: color-mix(in srgb, var(--gold) 38%, var(--card)); color: var(--fg); text-decoration: none; display: flex; flex-direction: column; gap: 2px; overflow: hidden; line-height: 1.2; transition: background .15s; }
+  .sg-jb-t.is-none { background: var(--card); border: 1.5px dashed var(--muted); }
+  .sg-jb-t .sg-jb-n { font-size: .8rem; font-weight: 600; overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .sg-jb-t .sg-jb-c { font-size: .76rem; color: var(--fg); opacity: .85; }
+  .sg-jb-t:hover, .sg-jb-t.is-on { background: color-mix(in srgb, var(--gold) 58%, var(--card)); }
+  .sg-jb-t.is-none:hover, .sg-jb-t.is-none.is-on { background: color-mix(in srgb, var(--gold) 18%, var(--card)); }
+  .sg-jb-t:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; z-index: 2; }
+  .sg-jb-t.is-on { outline: 2px solid var(--gold-text); outline-offset: -2px; z-index: 1; }
+  .sg-jb-t.is-craft::after { top: 0; }
+  /* a tile too small for its text keeps the text for screen readers only */
+  @container (max-width: 74px) { .sg-jb-n, .sg-jb-c { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; } }
+  @container (max-height: 44px) { .sg-jb-c { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; } .sg-jb-n { -webkit-line-clamp: 1; } }
+  @container (max-height: 28px) { .sg-jb-n { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; } }
+  .sg-jb-read { margin-top: .7rem; min-height: 3.2em; max-width: 80ch; }
+  .sg-jb-line { margin: 0; font-weight: 600; color: var(--fg); }
+  .sg-jb-line a { margin-inline-start: .6rem; font-weight: 500; }
+  .sg-jb-line [data-sg-who] { display: block; font-weight: 400; margin-top: 2px; }
+  .sg-jb-line [data-sg-count] { font-weight: 400; margin-inline-start: .5rem; }
+  .sg-jb-outline { margin-top: 1rem; }
+  .sg-jb-outline summary { cursor: pointer; min-height: 32px; display: flex; align-items: center; }
+  .sg-jb-outline h3 { font-size: 1rem; margin: 1rem 0 .3rem; }
+  .sg-jb-outline ul { list-style: none; padding: 0; margin: 0; }
+  .sg-jb-outline li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .sg-jb-outline li [data-sg-who] { display: block; font-size: .9rem; margin-top: 2px; }
+  @media (prefers-reduced-motion: reduce) { .sg-jb-t { transition: none; } }
+</style>
+<script src="../../scripts/sig-jobs.ts"></script>
