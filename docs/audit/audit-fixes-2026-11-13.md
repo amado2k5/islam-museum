@@ -298,7 +298,7 @@ Recorded in `docs/decisions/inbox/audit-part-vi-founder-choices-2026-11-13.yaml`
 | Beings filed as persons (item 7) | Optional `being` on persons; Jibril and Mika'il typed as angels from al-Tabari on 2:98; the four disputed beings untyped | Done |
 | Untestable dates (item 8) | Compare with Wikidata where there is an id; the rest leave timelines and sorted lists and stay on the page, marked unverified | To do |
 | Connectedness (item 9) | Measure subject records only; count the sources nothing cites beside it | To do |
-| S2 | Write the two missing digests from al-Tabari, al-Turki edition, vol. 19 pp. 466-469 and vol. 24 pp. 727-730 | To do |
+| S2 | Write the two missing digests from al-Tabari, al-Turki edition, vol. 19 pp. 466-469 and vol. 24 pp. 727-730 | Done: S2 is GREEN for the two verses the brief named; the pages were read on Shamela through a fetch, not on a printed copy |
 | S24 | Build the Du'a occasions axis from al-Nawawi's al-Adhkar (structure checked on Shamela) | To do |
 | The Signs door (item 6) | Not raised; stays as built | |
 
