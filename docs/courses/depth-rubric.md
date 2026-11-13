@@ -12,7 +12,7 @@ A practising Ontario educator, who runs an Islamic school from Junior Kindergart
 
 The pipeline's lessons were built to be honest and short: a Brief, one or two method questions, an activity, and one to three cards. A card says what a record is. The depth layer says what a student can *think with*: a scene or a source, a reason, a disagreement, a question that needs judgement, and doors into the graph.
 
-## 2. The three lenses
+## 2. The lenses
 
 Every depth layer is written through the lens of its subject. A lens is a question the writer asks of the linked records. It is never a licence to add what the records do not say.
 
@@ -46,6 +46,17 @@ For every major scientist a lesson features, give the motive **the sources prese
 3. If the sources preserve no motive, say so in one plain sentence, then say what the sources do show: who paid for the work, which practical problem it solved, where the scientist was employed (a mosque timekeeper, a court physician). Leave it there.
 
 Never invent a quotation or a motive. Never infer piety from a name, a patron or an employer. A record's own statement of what it does not know ("the sources read say nothing about…") is good material: use it.
+
+### 2.4 World religions: beliefs and practices as their adherents hold them
+
+Approved by the founder on 13 November 2026 for the World Religions courses (`hrt3m`, `hrf3o`). A belief or practice is described as its adherents hold it, attributed to named sources, in the order of `AGENTS.md`: the Sunni position or positions first, then the academic view, then any other view, each labelled before it is stated, with no verdict. Ask of the records:
+
+- **What is held or done, and on whose word?** The creed text, the jurists' encyclopaedia, the hadith collection the record names. "Muslims believe…" is never the museum's sentence: "the creed text of al-Tahawi states…", "the jurists hold…", "the Encyclopaedia of Islam describes…".
+- **Where do adherents differ?** Between the schools of law, between Sunni and other traditions where the record gives them, each named. This is the natural "Two views".
+- **What does an outside scholar say?** The academic account, attributed, set beside the adherents' own, neither correcting the other.
+- **How does the text or practice reach us?** Who transmitted it, when it was written down, what the record says is disputed or unknown ("How do we know?").
+
+The page teaches about a religion and never teaches the religion: no sentence instructs, recommends or says what a reader should believe or do, and no sentence judges a belief true or false. "Think about it" asks the student to compare, to explain how a practice expresses a belief its adherents state, or to weigh sources; it never asks the student to judge the faith or to take a religious position. "Why they did it" is not used in this lens, except for a named historian or scholar whose purpose a record reports. The Qur'an and hadith rules of section 5 apply in full: a verse is never typed, translated, paraphrased or explained; a hadith is given only as the record reports it, with its collection.
 
 ## 3. The sections
 
