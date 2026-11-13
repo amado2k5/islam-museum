@@ -41,9 +41,27 @@ Group 6: the Arts. `ca-on-g1-arts` … `ca-on-g8-arts` (31), Visual Arts `avi1o`
 
 Thin or weak records met: `concept/girih`, `concept/islamic-geometric-patterns`, `concept/oriental-carpets-renaissance`, `concept/muqarnas` and `event/fez-sacred-music-festival` rest on Wikidata alone (names, places and dates only; the lessons lean on neighbouring records, and the Grade 3 festival lesson is short); the Doha museum, Nusrat Fateh Ali Khan, Abida Parveen, Night Song, Kun Faya Kun and Raihan records rest on Wikipedia (no praise, and "How do we know?" says so). Record faults: `person/abida-parvin` (Arabic renders "urs" as weddings); `concept/al-ud` ("frets" in English, pegs in Arabic); `practice/persian-painting-pigments-and-gold` (crimson in Arabic, vermilion in English); `concept/tasweer-images-and-picturing` (an Arabic clause the English lacks); `job/calligrapher` (an English sentence the Arabic lacks); several calligraphers and architects named in the records have no prose of their own (Hayreddin, Davud Ağa, Mir Ali Heravi, Hafiz Osman), and the Nizamuddin shrine record has none.
 
+## Done in the eighth run (13 November 2026): the programme is complete
+
+Groups 7 and 8: `hfa4u` Nutrition and Health (9), `hnb4m` The World of Fashion (6), and International Languages Levels 1 to 3 (15). All 30 lessons carry the layer. **356 of the Explorer's 360 lessons now have a depth layer in Arabic and English**; the four without one are the Grade 6 Science pilot lessons listed below.
+
+- **Nutrition and Health** was written under the strictest brief of the programme: nothing reads as dietary, medical or religious guidance. Each lesson reports who ruled what, by name and school, says what kind of source it is reading, and ends its source note by saying that such texts witness what was ruled or reported and not what a food or a fast does in a body. The justice lens (2.1) carried famine, land and water, and hoarding; the beliefs-and-practices lens (2.4) carried halal and haram, fasting, and slaughter. The lesson on fasting while pregnant or nursing reports one fatwa body's published answer and the Encyclopaedia of Islam's résumé of two traditions, each attributed, and should be the first one a human reader checks.
+- **Fashion** used the arts lens (2.5) for the textile lessons and the justice lens for rank, work and markets.
+- **International Languages** has no natural lens: each lesson is one closely seen cultural scene, with how we know. The lessons teach no Arabic from outside the records.
+
+Record faults met: `concept/dhabaih-fiqh` and `concept/tadhkiya-slaughter` appear to contradict each other on the Shafi'i view of naming God at slaughter (the lesson avoids the point; the card of `hfa4u-e-1` relies on the first record); `concept/rida-garment`, `concept/albisa`, `invention/tiraz` and `concept/rada-suckling-fiqh` differ between Arabic and English in one clause each; `concept/breastfeeding-and-weaning` paraphrases a verse in its English prose; `practice/greeting-salam` is mostly a preacher's lecture, with one usable encyclopaedia paragraph; `language/arabic` cites only Wikidata; `person/al-khwarizmi` carries dates in its data that neither the Encyclopaedia of Islam nor the Cairo editors give (the Level 3 lesson sets the three side by side); `event/green-turban-ashraf-773` is two sentences and names no ruler in its prose.
+
+### What remains after the programme
+
+1. **A human reading** of the 356 lessons, the educator first for Grades 1 to 8 (rubric section 9). Everything is still `status.review: draft`.
+2. **Urdu**: the depth layer in `content/ur/`, with the Urdu headings added to `DEPTH` and to the checker.
+3. **The Grade 6 Science pilot**: re-ingest `ca-on-g6-science` through the pipeline, so that its four lessons without a layer can be deepened and its cards corrected.
+4. **The record faults** listed in each run above: each is a small fix to a record, not to a lesson. After a record's English prose changes, run `check_depth.py`: it names every evidence row to update.
+5. **Motives the records do not yet hold** (the table below): a cited reading of each preface, added to the person or work record.
+
 ## The rest, in the proposed order
 
-39 courses, 213 lessons when the first run ended; group 1 is now done, and group 2 after it, then group 3, then group 4, then group 5, then group 6, leaving 5 courses and 30 lessons. The order puts first the courses where the educator's three directions apply without a new decision, and last the ones that need a new lens or carry the most risk for the least depth.
+39 courses, 213 lessons when the first run ended; group 1 is now done, and group 2 after it, then group 3, then group 4, then group 5, then group 6, then groups 7 and 8: every group is done. The order puts first the courses where the educator's three directions apply without a new decision, and last the ones that need a new lens or carry the most risk for the least depth.
 
 | # | Courses | Lessons | Lens | Why here | New decision needed first |
 |---|---|---|---|---|---|
@@ -53,8 +71,8 @@ Thin or weak records met: `concept/girih`, `concept/islamic-geometric-patterns`,
 | 4 (done) | Mathematics: `ca-on-g1-math` … `ca-on-g8-math` (45), `mth1w` (8) | 53 | Motivation (2.3) | "Why did they do it" has strong material here (the record of algorism reports al-Khwarizmi's own preface; inheritance shares, the direction of prayer and the calendar as problems mathematics served). | None. Expect many lessons with only the three required sections: the museum's mathematics records are few. |
 | 5 (done) | `lvv4u` Classical Civilization | 7 | Source criticism (rubric section 3, "How do we know?") | Transmission and translation of Greek learning: the Grades 9–12 band fits as written. | None. |
 | 6 (done) | The Arts: `ca-on-g1-arts` … `ca-on-g8-arts` (31); Visual Arts `avi1o`, `avi2o`, `avi3m`, `avi3o`, `avi4e`, `avi4m` (34); Music `amu3m`, `amu4m` (8) | 73 | An arts lens | Not done in the first run on purpose: the three lenses do not transfer. A lesson on a mosque lamp or a muqarnas vault needs its own questions (what the maker and the patron meant the object to do, what the inscription says, how historians read the avoidance of figures), and those are new decisions. | Done: the arts lens and the music rule, approved by the founder on 13 November 2026, are rubric section 2.5. |
-| 7 | `hfa4u` Nutrition and Health (9), `hnb4m` The World of Fashion (6) | 15 | Justice and morality (2.1) for fashion and labour; none natural for nutrition | Low depth for the risk: food and health records report rulings and remedies, and the rule that nothing reads as advice leaves little to deepen. | None, but review every nutrition lesson by hand. |
-| 8 | International Languages, Levels 1–3 | 15 | None of the three | The expectations ask for cultural knowledge of a language's regions; depth here is a "Go deeper" scene and links. | None. Lowest priority. |
+| 7 (done) | `hfa4u` Nutrition and Health (9), `hnb4m` The World of Fashion (6) | 15 | Justice and morality (2.1) for fashion and labour; none natural for nutrition | Low depth for the risk: food and health records report rulings and remedies, and the rule that nothing reads as advice leaves little to deepen. | None, but review every nutrition lesson by hand. |
+| 8 (done) | International Languages, Levels 1–3 | 15 | None of the three | The expectations ask for cultural knowledge of a language's regions; depth here is a "Go deeper" scene and links. | None. Lowest priority. |
 
 ## Across all courses
 

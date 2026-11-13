@@ -64,6 +64,9 @@ export const BUDGETS: Budget[] = [
   // under the 700 KB ceiling the budget table allows. JS is the shared layout plus the name filter.
   { family: "browser home", route: "/ar/companions/", html: 400 * KB, js: 14 * KB },
   { family: "browser listing", route: "/ar/companions/women/", html: 200 * KB, js: 14 * KB },
+  // The A-to-Z roll, moved off the home on 13 November 2026: 291 KB for 604 Companions, about 0.32 KB a row. 350 KB leaves room
+  // for some 180 more; when it is reached the roll is cut into letter pages (site/src/lib/paged.ts), the budget is not raised.
+  { family: "browser listing", route: "/ar/companions/all/", html: 350 * KB, js: 14 * KB },
   { family: "browser home", route: "/ar/modern/", html: 170 * KB, js: 14 * KB },
   { family: "browser listing", route: "/ar/modern/figures/", html: 700 * KB, js: 14 * KB },
   { family: "browser section", route: "/ar/modern/film/", html: 400 * KB, js: 14 * KB },
