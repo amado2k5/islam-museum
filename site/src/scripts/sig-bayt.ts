@@ -12,6 +12,13 @@ if (root && svg && panel) {
   const body = panel.querySelector<HTMLElement>("[data-sgb-body]")!;
   const close = panel.querySelector<HTMLButtonElement>("[data-sgb-close]")!;
   let selected: SVGAElement | null = null;
+  // on a narrow screen the chart is wider than its box: open it centred on the person the chart is built around
+  const scroller = root.querySelector<HTMLElement>(".sgb-scroll");
+  const anchor = svg.querySelector<SVGAElement>("a.sgb-p.is-anchor");
+  if (scroller && anchor && scroller.scrollWidth > scroller.clientWidth) {
+    const a = anchor.getBoundingClientRect(), s = scroller.getBoundingClientRect();
+    scroller.scrollLeft += a.left + a.width / 2 - (s.left + s.width / 2);
+  }
   let touch = false;
 
   const show = (node: SVGAElement | null) => {

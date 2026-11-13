@@ -135,8 +135,8 @@ const COLS_NOTE = H.pairs.length;
     ))}
   </div>
   {H.pairs.length > 0 && (
-    <>
-      <h3 class="ui sgu-pairs-title">{fmt(V.pairs_title, { n: num(H.pairs.length, lang) })}</h3>
+    <details class="sgu-pairs-box">
+      <summary class="ui sgu-pairs-title">{fmt(V.pairs_title, { n: num(H.pairs.length, lang) })}</summary>
       <ul class="sgu-pairs" role="list">
         {H.pairs.map((p) => {
           const at = arcAttrs(p.a, p.b);
@@ -156,7 +156,7 @@ const COLS_NOTE = H.pairs.length;
           );
         })}
       </ul>
-    </>
+    </details>
   )}
   <aside class="sgu-panel panel" data-sgu-panel aria-live="polite" hidden>
     <div data-sgu-body></div>
@@ -192,7 +192,8 @@ const COLS_NOTE = H.pairs.length;
   .sgu-arc:hover .sgu-line, .sgu-arc.is-sel .sgu-line, .sgu-arc.is-rel .sgu-line, .sgu-arc:focus-visible .sgu-line { stroke-opacity: 1; stroke-width: 3.2px; }
   .sgu-arc:focus-visible .sgu-line { stroke: var(--focus); }
   .sgu-pairsvg:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
-  .sgu-pairs-title { margin: 1.4rem 0 .5rem; font-size: .95rem; font-weight: 600; }
+  .sgu-pairs-box { margin-top: 1.2rem; }
+  .sgu-pairs-title { margin: 0 0 .5rem; font-size: .95rem; font-weight: 600; cursor: pointer; min-height: 44px; display: inline-flex; align-items: center; }
   .sgu-pairs { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px 14px; }
   .sgu-pairs li { display: flex; align-items: center; gap: 6px; min-height: 50px; }
   .sgu-pairs .sgu-pairsvg { flex: none; width: 28px; height: 46px; overflow: visible; }

@@ -41,7 +41,8 @@ const rungs: Rung[] = [
   <ol class="sg-ga-lad ui" role="list" aria-label={V.ascent_region}>
     {rungs.map((r, k) => (
       <li class={`sg-ga-rung ${r.kind}`}>
-        <span class="sg-ga-no" aria-hidden="true">{num(k + 1, lang)}</span>
+        {/* only the journey record's own stops are numbered: the record gives their order; the heavens concepts carry no order of their own */}
+        <span class="sg-ga-no" aria-hidden="true">{r.kind === "stop" ? num(k + 1, lang) : "·"}</span>
         <span class="sg-ga-txt">
           {r.to ? <a href={r.to}>{r.name}</a> : <span class="sg-ga-name">{r.name}</span>}
           {r.sub && <span class="sg-ga-sub">{r.sub}</span>}
