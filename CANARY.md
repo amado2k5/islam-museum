@@ -183,6 +183,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 179): trilingual draft prose on the sensing organ's affection by the image, the instant at which an image first arises on sight, and the first part of the perception of distance, cited to scan pages 243–245.
 - **"Mawkib al-Nour", episode 28 added.** Provision for every creature: the lecturer on God as the Provider before the creation of one who needs provision, the embryo, supplication as a sign that God wishes to give, a statistic on the distribution of wealth, Umar and the four notables, Rib'i ibn Amir and Rustam, victory and a righteous child as provision, and God's purchase of the believers. Reports without a chain and unattributed lines are marked as needing a source; the lecturer's opinions are labelled as his; Quran verses are linked, never typed. Episode 29 of the harvest is the same recording as episode 28 and is not added as a second episode.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 180): trilingual draft prose on the perception of distance by discrimination, the quantity of distance, and clouds between mountains, cited to scan pages 246–249.
+- Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 181): trilingual draft prose on the test with a hole in a wall, the distances between visible things, and the kinds of visible thing by whether their distance is verified, cited to scan pages 249–252.
 
 
 ### Fixed
