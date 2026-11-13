@@ -14,5 +14,16 @@ Use play coins to make 50 cents in as many ways as you can, and record each way 
 ## Is it the same amount?
 Take two of your ways and check that they are worth the same. Say how you know, without counting everything again.
 
+## Go deeper
+Malik ibn Anas compiled a book in the city of Medina. It is the [[work/muwatta-malik|Muwatta]] {cite:muwatta-maruf-1997}. In [[passage/muwatta-22-2131|one passage]] Malik says: I do not think anyone should swear on the pulpit over less than a quarter of a dinar, which is three dirhams {cite:muwatta-maruf-1997 p.271}. Look at how he names the money. He says the amount in two ways: a quarter of a dinar, and three dirhams {cite:muwatta-maruf-1997 p.271}.
+
+## Think about it
+In your class you make one amount with different sets of coins. Why is it useful to know that two different sets of coins can be worth the same amount?
+
+## Into the museum
+- [[passage/muwatta-22-2131|Muwatta 2131]]: the sentence of Malik about a quarter of a dinar and three dirhams.
+- [[work/muwatta-malik|The Muwatta]]: the book Malik compiled in Medina.
+- [[person/malik-ibn-anas|Malik ibn Anas]]: the man who wrote the book.
+
 ## Try this
 Read the record on Muwatta 2131. Write an amount you like in cents, and find two different sets of coins that make it.
