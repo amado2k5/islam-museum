@@ -2541,3 +2541,15 @@ Resume point: modakirate-iblis episode 5 (branch from origin/main).
 | A garbled stretch on the woman's hadith about two suitors (the second suitor's fault) | ep05 00:18:00-00:18:30 (part) | Garbled, only the clear sense used | Clarity | Open |
 
 Resume point: modakirate-iblis episode 6 (branch from origin/main).
+
+### modakirate-iblis ep06 (12 Nov 2026)
+
+13 points written for episode 6 (ar, en, ur); 7 needs_source marks in each language file; 4 new `about` edges. Quran verses referenced only through passage links (24-31, 4-34, 83-1, 4-1, 6-153); none typed. Proposal for the founder, not applied: the lecturer's remarks on same-sex marriage and on girls who imitate boys are recorded only as his view, briefly and without his anecdotes.
+
+| Excluded (modakirate-iblis ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, break trailers and closing prayer | ep06 00:00:00-00:00:30, 00:11:00-00:12:30, 00:23:30-00:24:00 | Not lesson content (the trailer is for a history programme by another speaker) | Content rule | Open |
+| An anecdote of a municipal official in France who is said to have killed himself, and a claim about an unnamed imam in Europe said to have opened a mosque to a particular prayer | ep06 00:05:30-00:06:30 | Unverified claims about unnamed or private persons; partly garbled | Sourcing, Clarity | Open |
+| A garbled stretch on the divine legislation of the church and the middle ages, and a loop | ep06 00:08:00-00:08:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 7 (branch from origin/main).
