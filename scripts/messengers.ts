@@ -77,7 +77,7 @@ export function normalizeMessengerArabic(s: string): string {
 /** Phrases that mean mankind, not Adam the prophet, removed before person matching. */
 const NOT_ADAM = /ابن آدم|بني آدم|ابناء آدم|ذريه آدم|نسل آدم|امتها آدم|نسل آدم|يا ابن آدم/g;
 /** The collector's names «أبو داود» and «أبو عيسى» are not the prophets Dawud and Isa. */
-const NOT_DAWUD = /ابو داود/g;
+const NOT_DAWUD = /ابو داوو?د/g;
 const NOT_ISA = /ابو عيسي|ابن عيسي/g;
 
 const BOUNDARY = String.raw`(?=\s|$|[،,.;:!؟?()\[\]{}«»"'\-ـ])`;
@@ -106,7 +106,7 @@ const SUBJECT_PATTERNS: Partial<Record<MessengerSubjectId, RegExp[]>> = {
   "person/ayyub": [tok("ايوب")],
   "person/musa": [tok("موسي")],
   "person/harun": [tok("هارون")],
-  "person/dawud": [tok("داود")],
+  "person/dawud": [tok("داود"), tok("داوود")], // the Qur'an text writes «داوود» with two waws
   "person/sulayman": [tok("سليمان")],
   "person/ilyas": [tok("الياس")],
   "person/al-yasa": [tok("اليسع")],

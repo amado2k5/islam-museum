@@ -4204,6 +4204,36 @@ messengers:
   unnamed_title: "Unnamed prophets and messengers"
   unnamed_note: "Places that speak of a prophet, messenger or envoy without naming them — shown as they are, without guessing the identity."
   generic_title: "Collective mentions of the prophets and messengers"
+  tree:
+    title: "The Prophets' Tree"
+    note: "A tree drawn from the museum's own graph, with Adam at the root and Muhammad at the crown. A solid branch is drawn only where the graph records a father and a son; the vine from Ismail to Muhammad is the Genealogies Browser's chain, with its agreed and its disputed parts; everything else is dashed or dotted, a place in the order or a count among the progeny, not a settled line of descent. Choose a prophet to light his way down to the root."
+    legend_title: "Key to the lines"
+    legend:
+      child: "Father and son, an edge in the graph"
+      vine: "Agreed chain of descent"
+      vine_disputed: "Disputed chain of descent"
+      progeny: "Counted among the progeny in the ayahs of al-An'am; no chain of fathers recorded"
+      order: "Order of mention, not a recorded lineage"
+      tie: "Recorded kinship or companionship"
+    hint: "Choose a prophet on the tree: his way to the root lights up and his card appears here."
+    close: "Close the card"
+    open: "Open his page"
+    outline_title: "Read the tree as text"
+    parents: "Parents recorded in the graph:"
+    tie_sibling: "Brother of {p}, an edge in the graph"
+    tie_related: "Recorded tie with {p}"
+    chain_link: "The chain, name by name, in the Genealogies Browser"
+    vine_agreed: "{n} agreed forefathers"
+    vine_disputed: "{n} disputed names"
+    basis:
+      root: "The root of the tree"
+      child: "Son of {p}, a father-and-son edge in the museum's graph"
+      progeny: "Counted among the progeny; no chain of fathers is recorded for him in the museum. The ayah:"
+      kin: "Joined to the tree by a recorded tie, not by a drawn lineage"
+      lineage_agreed: "Descended from {p}, with {n} forefathers between them that the genealogists agree on"
+      lineage_disputed: "Descended from {p}, with {n} names between them that the genealogists dispute"
+      order: "Placed after {p} by the order of mention, not by a recorded lineage"
+      order_stem: "Placed on the stem by the order of mention, not by a recorded lineage"
   topics:
     prophets: The prophets
     messengers: The messengers
