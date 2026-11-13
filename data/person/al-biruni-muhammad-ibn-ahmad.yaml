@@ -52,6 +52,7 @@ relations:
   - { type: authored, target: work/jala-al-adhhan-fi-zij-al-battani, sources: [source/nallino-albatenii-opus-astronomicum] }
   - { type: student_of, target: person/abu-nasr-mansur-ibn-iraq, sources: [source/qanun-masudi-jundi-v1] }
   - { type: lived_in, target: place/jurjan, sources: [source/qanun-masudi-jundi-v1] }
+  - {type: wrote_about, target: concept/qibla, sources: [source/encyclopaedia-of-islam-2], note: 'The qibla record''s own prose: al-Biruni proposed several methods of finding the qibla in his work on mathematical geography (EI2 vol. 5 pp. 103-104). Audit S12, 13 Nov 2026.'}
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 inventions:

@@ -37,6 +37,8 @@ import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf,
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { PLACES_TAG, PLACE_CORPORA, placeCorpusOf, placeSectionOf, type PlaceCorpus } from "./places.js";
 import { existsSync, readdirSync } from "node:fs";
+import { canonSearchIndex } from "./search-canon.js";
+import { buildSynonyms } from "./derive.js";
 
 const OUT = p("site", "public", "api", "v1");
 const write = (rel: string, body: string) => {
@@ -653,6 +655,10 @@ export function exportApi(c: Compiled) {
   // few lines of client script, so the numbers are never baked into the 100k+ static pages and a content commit leaves them untouched.
   // No `generated` field: the file changes only when a count does.
   write("meta/counts.json", JSON.stringify({ wings: wingCounts(real), entities: real.length }));
+  // Canon-first search (scripts/search-canon.ts): per language, the names that stand for a canon record. The search
+  // page fetches its language's file once and shows the record a query names above Pagefind's results. No `generated`
+  // field: the file changes only when a canon record's names do.
+  for (const lang of ["ar", "en", "ur"] as const) write(`meta/search-canon.${lang}.json`, JSON.stringify(canonSearchIndex(c, lang, buildSynonyms(c, lang === "en" ? "en" : "ar").whole)));
   const inventionData = inventionApiData(c);
   write("inventions.json", JSON.stringify(inventionData.inventions, null, 1));
   write("inventions/chains.json", JSON.stringify(inventionData.chains, null, 1));

@@ -22,6 +22,7 @@ line and requires `: 0 errors,` in it, then runs cite-check over every data reco
 |---|---|---|---|
 | I | `validated 58135 entities, 90102 prose files: 0 errors, 4587 warnings` | `cite-check: 4 pass, 0 fail of 4 record(s)` | 37 files, 518 tests passed |
 | II | `validated 58120 entities, 90072 prose files: 0 errors, 4605 warnings` | `cite-check: 571 pass, 0 fail of 571 record(s)` (two records the date removal touched had no `provenance.source` on `main` and failed; the field now states what each record's own `extraction_flow` and sources say) | 37 files, 524 tests passed |
+| III | `validated 58120 entities, 90072 prose files: 0 errors, 4605 warnings` | `cite-check: 581 pass, 0 fail of 581 record(s)` | 38 files, 529 tests passed |
 
 Part I was also built in full (`npm run build` in a separate worktree at `38ac9a6f10`): 202,331 pages, `check-site` 0 errors and 2 warnings, `check-weight` 46 routes and 0 over budget.
 
@@ -75,3 +76,26 @@ Every browser of this family reads its members from a browser tag plus a build-t
 ### Submission-impacting (docs/ai-change-gates.md §3)
 
 Merging 15 records lowers the record count from 58,135 to 58,120 and the person class by 15. The claims register and the evidence map under `docs/outreach/` are reserved to the founder and were not edited.
+
+## Part III: search and reachability
+
+| | State | Evidence |
+|---|---|---|
+| S11 canon-first search | GREEN in the build's test; **rendered test pending a deploy** | Baseline on production (the Grand Tour run's own capture, `docs/fable-run/oracle-output/o06-search-production.out`): 2 of 50. The test set is the frozen 50-query file `scripts/fable/search-queries.json` (names, places, events, practices, buildings, works; Arabic and English). `scripts/search-canon.ts` builds, per language, a map from names to the canon record they name (918 records; 8,014 Arabic and 8,143 English keys; about 350 KB each); the search page shows the record a query names as the first result and Pagefind's results follow. `scripts/search-canon.test.ts` runs the 50 queries through the same index and the same spelling expansion the page uses: 50 of 50, and the five named queries (Muhammad, Saladin, Baghdad, Quran, Kaaba) each return their record. Canon membership and the fame gate are untouched. The rendered oracle (`node scripts/fable/o06_search.mjs <site>`) needs a built site with its search index; its result on this branch's full build is recorded below when run. |
+| S12 reachability | **NOT GREEN** | Published records within three relation-hops of a cornerstone: 7,149 of 18,690 (38.3%), against 38.1% in the Grand Tour ledger and a target of 60%. Cornerstone dead ends: 14 on this tree before (the canon grew since the ledger's 12), 7 after ten sourced edges. |
+
+### S12: who remains far, and why
+
+- **8,846 of the 11,541 uncovered published records are source records.** A source attaches to the records that cite it by citation, and the oracle's own definition says a citation is not a relation. Sources are 47% of everything published, so without them the measure cannot pass 52.7% whatever else is done: **60% is out of reach for any set of honest edges between subject records.**
+- Without the reference apparatus the measure is 7,149 of 9,622 published subject records (74.3%). The remaining 2,473: persons 805, passages 673, works 287, concepts 133, buildings 131, and smaller classes; 10,500 of all uncovered records have no relation at all in the graph.
+- **Five of the seven remaining dead ends are period records.** The era a record belongs to is the `periods` field on the record, which the site shows and links, but it is not a relation in the graph.
+- Two modelling choices would move the number, and the run made neither, because each turns one field into tens of thousands of edges at once, which is the padding the brief forbids. Their size, from `scripts/audit/s12-what-if.py`:
+
+| Choice | Within three hops | Cornerstone dead ends |
+|---|---|---|
+| As the graph stands | 7,149 of 18,690 (38.3%) | 7 |
+| A. the era field counted as a relation | 8,090 (43.3%) | 2 |
+| B. citations counted as relations | 12,868 (68.8%) | 1 |
+| A and B together | 14,405 (77.1%) | 1 |
+
+Both are put to the founder (Part VI, item 9). The ten edges added are listed in the commit; each names the page of the source its sentence cites.
