@@ -625,3 +625,11 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Registered: data/source/louvre-collections.yaml, registry, attribution, source-families, CANARY.
 - Remaining: find the Islamic Arts department's record ids (no bulk route; search pages must be read by hand or via a Wikidata Louvre-id crosswalk) and run the 10-object text-only pilot. Share of the 490-object backlog is unmeasured.
 
+## 2026-11-12 (p34, Lane B) — al-Thurayya registered Tier 2 (anchor decision made)
+
+- Terms read from the repository, 12 Nov 2026: DATA-LICENSE.md grants CC BY 4.0 to original project data (place records, coordinates, identifiers, transliterations, metadata) and excludes source-derived and third-party material; code Apache-2.0. Nothing forbids reading the public repository.
+- The note of 12 Nov (p33) held back registration for a stable-anchor decision. Decision taken here and recorded on the source entity: the anchor is the places/ file stem (the record's own `cornu_URI`, for example ABADHA_526E311N_S), cited with the Arabic toponym and the reading date; it is a repository path, not an authority id, and the entity says so.
+- Because `cornuData` comes from Cornu's copyrighted atlas and the Shamela matches from other works, only identity, name, region and type are taken in the museum's words; coordinates are approximate and never override GeoNames or iDAI.
+- One place file fetched to confirm the structure (ABADHA_526E311N_S). No pilot records were enriched in this PR.
+- Remaining: the 10-place pilot against the early-period place backlog, with per-record checks; the project's web domain still did not answer.
+

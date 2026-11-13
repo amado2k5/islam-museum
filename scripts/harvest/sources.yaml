@@ -1191,6 +1191,17 @@ sources:
       robots_txt: 'User-agent * disallows /search/export; named AI crawlers blocked from image paths (read 12 Nov 2026)'
       note: 'object records incl. the Islamic Arts department: inventory numbers, dates, materials, inscriptions, provenance, bibliography; record text French or English; cite by ARK id'
     status: enabled
+  althurayya-gazetteer:
+    name: al-Ṯurayyā Gazetteer (Leipzig; origin Tufts / Perseus)
+    url: https://github.com/althurayya/althurayya.github.io
+    licence: original project data CC BY 4.0 (DATA-LICENSE.md, read 12 Nov 2026); source-derived material (Cornu's atlas, Shamela titles) and third-party data are excluded from that grant; code Apache-2.0; {cite:althurayya-gazetteer <file-stem>} with the recommended credit is the attribution
+    layer: by
+    method: public GitHub repository only (raw.githubusercontent.com, places/*.geojson, single files); the project's own web domain did not answer and is not used; no copying of source-derived fields
+    limits:
+      pause_seconds: 3
+      robots_txt: 'not applicable (raw GitHub files)'
+      note: 'ninth and tenth century CE places of the Islamic world, 2,000+ toponyms with Arabic names; anchor is the places/ file stem (cornu_URI), not an authority id; coordinates approximate, never override GeoNames or iDAI; working version, last push 22 Sep 2026'
+    status: enabled
   princeton-geniza:
     name: Princeton Geniza Project
     url: https://geniza.princeton.edu
