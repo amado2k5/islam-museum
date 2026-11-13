@@ -2305,3 +2305,15 @@ Resume point: mawkib-al-nour episode 15 (branch from origin/main).
 | An aside on a half-clear saying about drinking from the sea | ep15 00:09:30 | Illustrative aside, partly garbled | Clarity | Open |
 
 Resume point: mawkib-al-nour episode 16 (branch from origin/main).
+
+### mawkib-al-nour ep16 (12 Nov 2026)
+
+26 points written for episode 16 (ar, en, ur); 23 needs_source marks per language file (ar 23, en 23, ur 23); 10 new `about` edges. Quran verses referenced only through passage links (16-90, 16-97, 3-195, 4-32, 9-105, 34-13, 5-54, 49-10, 2-276, 2-279, 17-70, 28-77, 7-56, 28-4, 5-78, 5-79); none typed. Proposal for the founder, not applied: the lecturer's statements on women and on work in pre-Islamic Arabia (ep16 00:02:30, 00:04:00), the rule on testimony between relatives (00:11:30) and the closing hopes for listeners in named countries (00:37:30) are recorded as his, with the rule and the hopes carrying no source; the figure of four hundred brain cells (00:17:30) is an unsourced statistic. The recording ends with a closing prayer after 00:40:30.
+
+| Excluded (mawkib-al-nour ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and supplication, and the closing prayer and farewell | ep16 00:00:00-00:01:00 (recitation, Quran text never typed), 00:40:30-00:41:00 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep16 00:11:30-00:12:00 (a long repeated syllable), 00:16:00 (a long repeated syllable), 00:25:30 (a long repeated phrase), 00:19:30-00:20:00 (a garbled quotation of the believer of Pharaoh's household), 00:14:00 (the start is garbled) | Not recoverable | Clarity, Loop check | Open |
+| A garbled saying on the intimate friend and the thin garment, a garbled passage on a named man and a dog on the road, and an unclear closing phrase about a sun | ep16 00:10:00-00:10:30, 00:21:30-00:22:00, 00:40:30 | Garbled | Clarity | Open |
+
+Resume point: mawkib-al-nour episode 17 (branch from origin/main).
