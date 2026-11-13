@@ -45,7 +45,7 @@ if (root) {
       s.classList.toggle("is-cross", cross);
       if (cross) crossing.push(s);
     }
-    line.replaceChildren(document.createTextNode(seg.dataset.read ?? ""));
+    line.replaceChildren(document.createTextNode(seg.getAttribute("aria-label") ?? ""));
     const open = document.createElement("a");
     open.href = seg.href;
     open.textContent = d.tOpen ?? "";

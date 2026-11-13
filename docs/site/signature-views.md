@@ -50,6 +50,6 @@ here in the same commit that mounts the view.
   short and adjacent; the arrow keys and the lists below give the same access.
 - Sacred Places and the campaign map: marks that share a point are fanned apart, and the caption
   says so; a few marks in the densest clusters are under 24 px on a phone.
-- Companions: the view adds about 108 KB of HTML (567 linked dots and the outline of names).
+- Companions: the view adds about 180 KB to the landing (567 linked dots, the outline of 606 names, style and script), which takes the page to about 540 KB, over the 500 KB guide in `site/src/lib/paged.ts`; a lighter encoding of the dots is the open improvement.
 - Qurun: the data has ten month topics (the two Rabi's and the two Jumadas are one topic each),
   and which months are sacred is recorded only in prose, so no sacred band is drawn.

@@ -95,8 +95,8 @@ const hairId = "sg-kh-title";
           </div>
           <div class={`sg-kh-lane ${L.lane.claim ? "is-claim" : ""}`} style={`grid-row:${li + 2}`}>
             {L.segs.map((g) => (
-              <a class={`sg-kh-seg t${g.tone}`} href={`/${lang}/khulafa/${g.sp.node.slug}/`} aria-label={g.read} title={g.read}
-                data-s={f4(g.sp.s)} data-e={g.sp.e == null ? "" : f4(g.sp.e)} data-lane={li} data-read={g.read} data-name={short(g.sp.node)} data-pol={L.name}
+              <a class={`sg-kh-seg t${g.tone}`} href={`/${lang}/khulafa/${g.sp.node.slug}/`} aria-label={g.read}
+                data-s={f4(g.sp.s)} data-e={g.sp.e == null ? "" : f4(g.sp.e)} data-lane={li} data-name={short(g.sp.node)} data-pol={L.name}
                 style={`--f:${frac(g.hl)};--w:${f4((g.hr - g.hl) / RANGE)}`}>
                 <span class="sg-kh-bar" style={`inset-inline-start:${g.barL}%;width:${g.barW}%`}></span>
               </a>
