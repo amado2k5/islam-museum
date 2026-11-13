@@ -13,6 +13,23 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.29.0 — 2026-11-13
+### Added
+- **The Tafsir Browser starts from the verse.** The page used to open with two lists, "Commentaries, 23 entries" and "Volumes, 16 entries", and the sixteen volumes were one work in one edition. It now opens with "Read by verse": the surahs that carry commentary, each with its count (al-Baqara: 284 of 286 verses), then the verses of the surah, then the commentary on the verse. From the landing to al-Tabari on 2:255 is two clicks. The surahs the digests have not reached are named as such. New pages: `/{lang}/tafsir/surah/<n>/` for the 14 surahs covered today.
+- **Every verse page has a Tafsir section.** The 1,715 verses with a digest of al-Tabari had it inside "Place in the museum", unlabelled. The same paragraphs, unchanged, now stand under the heading Tafsir, with the commentator, the work and the volume cited, each a link. A verse with no digest says so in one sentence: how many commentaries the catalogue holds, which one is read verse by verse so far, and that it has not reached this verse. Nothing is borrowed from another verse.
+- **Surah pages lead to their commentary.** The surah's record page and its surah map both carry "Tafsir on this surah" with the count of verses covered and a link to them.
+- **`/{lang}/quran/` opens.** It answered "page not found". It is now a short door to the Mushaf, the Surah maps, the Tafsir Browser and the order of revelation. The Mushaf and the Surah maps each say in one sentence what the other is for.
+
+### Changed
+- **A volume page explains itself.** It names the commentary and the commentator it belongs to, with links, lists its coverage surah by surah in words ("Sura 2: Al-Baqara — verses 1–2, 4–43") and states a gap inside its range as a gap ("2:3 — not yet covered") instead of leaving the number out.
+- **The catalogue is labelled for what it is.** The volume list is headed "The volumes of Jami' al-Bayan in this edition — 16", each commentary is marked "read verse by verse" or "catalogue entry", and `/api/v1/tafsir.json` gives every row a `role` (commentary or volume), the commentary a volume belongs to (`volume_of`) and its `verses_covered`.
+
+### Data
+- **Four volume records of Jami' al-Bayan caught up with the verses that cite them.** Volumes 10, 12, 13 and 14 listed 37, 107, 149 and 146 verses while the verse records citing them numbered 78, 136, 151 and 157 (83 verses between them, among them 5:43–5:94 and 9:119–9:129). The missing `about` relations are added from the same cite lines the records were built from,  The count line of the Arabic, English and Urdu summaries is restated to match (figures only; no other word of the Urdu summaries is changed).
+
+### Tests
+- `scripts/tafsir.test.ts` checks, over every verse and language, that lifting the commentary out of the prose loses no text and leaves no tafsir citation behind; `scripts/check-site.ts` checks the verse-first landing, the Tafsir section on 2:255, the fallback on a verse without commentary, and `/quran/`.
+
 ## v1.28.0 — 2026-11-12
 ### Added
 - **The engineering record of the Fable 5.2 run and the build and deploy speed work is written down.** A new engineering document (`docs/engineering/45-fable-5-2-improvements.md`) gathers in one place, with the source of every number, what the Fable 5.2 run changed in the museum — the Grand Tour, the canon repairs, the contradiction sweep, and the two statements its own ledger marks NOT GREEN — the independent production tests taken before and after it, and the measured speed work that was tried on UAT and brought to `main` on 13 November (page rendering 3 h 6 min to 43 min, a build run of about 3 h 34 min to 1 h 22 min, a deploy of 3 h 13 min to 47 min). Documentation only; the site itself is unchanged, and the speed changes go live at the founder's next deploy, as the entry above records.

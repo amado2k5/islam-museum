@@ -22,6 +22,7 @@ const cards = maps.map(({ n, slug }) => {
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
     <h1>{SM.title}</h1>
     <p style="font-size:1.2rem;max-width:var(--measure)">{SM.lede}</p>
+    <p class="ui muted" style="max-width:var(--measure)">{(T as any).qurandoor.maps_see_mushaf} <a href={`/${lang}/words/quran/`}>{T.reader.title}</a>.</p>
     <ul class="grid-cards">
       {cards.map((c) => (
         <li>

@@ -1,0 +1,56 @@
+---
+// One surah in the Tafsir Browser: its verses in order, each covered verse a link to the Tafsir section of its own
+// page. Built only for surahs with at least one covered verse; the landing names the others as not yet reached.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { byId, href, labelOf } from "../../../../lib/graph";
+import { ayahsOf, coveredIn, coveredSurahs, runsText, volumesOn, commentaryOf, authorsOf, volumeHref } from "../../../../lib/tafsir";
+import { listSurahMaps } from "../../../../lib/surah-maps";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => coveredSurahs.map((sura) => ({ params: { lang, sura: String(sura) }, props: { lang, sura } })));
+}
+const { lang, sura } = Astro.props as { lang: Lang; sura: number };
+const T = ui(lang);
+const X = (T as any).tafsir;
+const sep = lang === "en" ? ", " : "، ";
+const node = byId.get(`passage/quran-${sura}`)!;
+const name = labelOf(node, lang);
+const verses = ayahsOf(sura);
+const covered = coveredIn(sura);
+const missing = verses.map((a) => a.data.aya as number).filter((a) => !covered.includes(a));
+const vols = [...new Set(verses.flatMap((a) => volumesOn(a.id)))];
+const works = [...new Set(vols.map((v) => commentaryOf(v)).filter(Boolean))] as any[];
+const map = listSurahMaps().find((m) => m.n === sura);
+const title = fmt(X.surah_title, { name });
+const lede = fmt(X.surah_lede, { k: String(covered.length), n: String(verses.length) });
+---
+<BaseLayout lang={lang} title={title} description={lede} path={`/${lang}/tafsir/surah/${sura}/`}>
+  <div class="wrap" style="padding-block:10px 24px">
+    <section data-pagefind-body>
+      <p class="ui"><a href={`/${lang}/tafsir/`}>{X.back}</a></p>
+      <h1>{title}</h1>
+      <p>{lede}</p>
+    </section>
+
+    <section data-pagefind-ignore>
+      {works.length > 0 && (
+        <p>{X.surah_from} {works.map((w, i) => (
+          <>{i > 0 && sep}<a href={href(lang, w.id)}>{labelOf(w, lang)}</a>{authorsOf(w).length > 0 && <> ({authorsOf(w).map((a, k) => <>{k > 0 && sep}<a href={href(lang, a.id)}>{labelOf(a, lang)}</a></>)})</>}</>
+        ))}{vols.length > 0 && <> — {vols.map((v, i) => <>{i > 0 && sep}<a href={volumeHref(lang, v)}>{labelOf(v, lang)}</a></>)}</>}</p>
+      )}
+      <h2 id="tafsir-verses">{X.surah_covered}</h2>
+      <ol class="ui" style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 8px">
+        {verses.filter((a) => covered.includes(a.data.aya)).map((a) => (
+          <li><a class="chip" href={`${href(lang, a.id)}#tafsir`} aria-label={fmt(X.verse_n, { n: String(a.data.aya) })}>{sura}:{a.data.aya}</a></li>
+        ))}
+      </ol>
+      <p class="muted" style="margin-top:1rem">{missing.length > 0 ? fmt(X.surah_missing, { ranges: runsText(missing) }) : X.surah_complete}</p>
+      <p class="ui" style="display:flex;flex-wrap:wrap;gap:6px 12px">
+        <a href={`/${lang}/words/quran/${sura}/`}>{X.read_mushaf}</a>
+        {map && <a href={`/${lang}/surah/${map.slug}/`}>{X.open_map}</a>}
+        <a href={href(lang, node.id)}>{name}</a>
+      </p>
+    </section>
+  </div>
+</BaseLayout>

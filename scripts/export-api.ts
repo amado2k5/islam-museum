@@ -213,7 +213,14 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
   { file: "khutab.json", feature: "khutab-durus-explorer", pick: (n) => n.class === "work" && ["sermon", "lecture", "lecture-series"].includes(n.data.kind),
     fields: ["kind", "delivered", "host", "occasion", "audience", "order", "composed", "delivery_date_status", "book_studied", "sermon_type", "language", "genre", "duration"] },
   { file: "tafsir.json", feature: "tafsir-browser", pick: (n) => n.class === "work" && (n.data.kind === "tafsir-volume" || n.data.kind === "tafsir" || n.id === "work/jami-al-bayan"),
-    fields: ["kind"] },
+    fields: ["kind"],
+    // a volume is one printed part of one commentary, never a commentary of its own: say so in the row, so a list of
+    // sixteen volumes is not read as sixteen works (`role`), and name the commentary it belongs to (`volume_of`)
+    extra: (n, ef) => ({
+      role: n.data.kind === "tafsir-volume" ? "volume" : "commentary",
+      volume_of: n.data.kind === "tafsir-volume" ? ((ef.get(n.id) ?? []).find((e) => e.type === "part_of")?.to ?? null) : null,
+      verses_covered: (ef.get(n.id) ?? []).filter((e) => e.type === "about" && /^passage\/quran-\d+-\d+$/.test(e.to)).length,
+    }) },
   { file: "poetry.json", feature: "poetry", pick: (n) => n.class === "work" && ["poem", "diwan"].includes(n.data.kind),
     fields: ["kind", "authors", "language", "languages", "genre", "metre", "composed"] },
   { file: "asma.json", feature: "asma-browser", pick: (n) => n.class === "concept" && n.data.kind === "divine-name",

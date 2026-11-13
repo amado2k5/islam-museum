@@ -46,6 +46,7 @@ for (const [s, a] of JUZ) {
   />
   <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
     <p class="ui muted" style="max-width:var(--measure);margin:0 0 16px">{R.index_note}</p>
+    <p class="ui muted" style="max-width:var(--measure);margin:0 0 16px">{(T as any).qurandoor.mushaf_see_maps} <a href={`/${lang}/surah/`}>{T.surahmap.title}</a>.</p>
     <nav class="ui" aria-label={R.juz_nav} style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 20px">
       {JUZ.map(([s, a], i) => (
         <a class="chip" href={`/${lang}/words/quran/${s}/#v${a}`} title={`${fmt(R.juz_starts, { n: String(i + 1) })} ${s}:${a}`}>{fmt(R.juz_n, { n: String(i + 1) })}</a>

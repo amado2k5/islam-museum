@@ -169,6 +169,19 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     const notFound = p("dist", lang, "404", "index.html");
     if (!existsSync(notFound) || !readFileSync(notFound, "utf8").includes(`<html lang="${lang}"`)) errors.push(`${lang}/404/ is missing or not in its language`);
   }
+  // audit of 13 November 2026, Part I: the Tafsir Browser is verse first, a verse page presents its commentary as
+  // commentary, a verse without one says so, and /{lang}/quran/ answers
+  for (const lang of ["ar", "en"]) {
+    const read = (...seg: string[]) => { const f = p("dist", lang, ...seg, "index.html"); return existsSync(f) ? readFileSync(f, "utf8") : null; };
+    if (!read("quran")) errors.push(`missing page: ${lang}/quran/index.html`);
+    const landing = read("tafsir");
+    if (!landing?.includes('id="tafsir-by-verse"') || !landing.includes(`href="/${lang}/tafsir/surah/2/"`)) errors.push(`${lang}/tafsir/ does not lead with the verse-first picker`);
+    if (!read("tafsir", "surah", "2")?.includes(`href="/${lang}/passage/quran-2-255/#tafsir"`)) errors.push(`${lang}/tafsir/surah/2/ does not link 2:255's Tafsir section`);
+    const covered = read("passage", "quran-2-255");
+    if (!covered || !/<section[^>]*\sid="tafsir"/.test(covered) || !covered.includes('class="tafsir-group"') || !covered.includes(`href="/${lang}/work/jami-al-bayan/"`)) errors.push(`${lang}/passage/quran-2-255/ has no Tafsir section naming its commentary`);
+    const bare = read("passage", "quran-114-6");
+    if (!bare || !/<section[^>]*\sid="tafsir"/.test(bare) || bare.includes('class="tafsir-group"') || !bare.includes(`href="/${lang}/tafsir/"`)) errors.push(`${lang}/passage/quran-114-6/ does not show the honest "not yet covered" Tafsir fallback`);
+  }
   for (const w of warns) console.log("warn  " + w);
   for (const e of errors) console.log("ERROR " + e);
   console.log(`checked ${paths.length} pages: ${errors.length} errors, ${warns.length} warnings`);

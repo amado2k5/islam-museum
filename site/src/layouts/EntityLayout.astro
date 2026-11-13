@@ -15,6 +15,7 @@ import InventionSections from "../components/InventionSections.astro";
 import CareerStrip from "../components/CareerStrip.astro";
 import ModernStrips from "../components/ModernStrips.astro";
 import { JOB_NOT_YET } from "../lib/jobs";
+import { splitTafsir, commentaries as tafsirCatalogue, wiredCommentaries, commentaryOf, authorsOf, volumeHref, surahHref, coveredIn, ayahsOf } from "../lib/tafsir";
 import { byId, href, labelOf, summaryOf, summaryRaw, stripNeedsSource, related, updatedOn, REPO, SITE, SEGMENT, nodes } from "../lib/graph";
 import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
@@ -77,7 +78,12 @@ const hon = newHonState(); // one honorific state per article, so the first ment
 const ledeR = renderProse(summaryRaw(n, lang), lang, hon);
 // leveled reading sections (edu/levels.yaml) leave the article flow and go to the switcher; the rest render as before
 const levelSecs = (prose?.sections ?? []).filter((s) => proseLang && levelOf(s.heading, proseLang));
-const sections = (prose?.sections ?? []).filter((s) => !levelSecs.includes(s)).map((s) => ({ ...s, role: sectionRole(s.heading), r: renderProse(s.markdown, lang, hon) }));
+// A verse's commentary digest leaves the generic prose flow and is presented as commentary, in a Tafsir section of its
+// own (docs/plan/27-tafsir-browser.md): the same paragraphs, moved, never rewritten.
+const isAyah = n.class === "passage" && d.unit === "ayah";
+const isSura = n.class === "passage" && d.unit === "sura";
+const tafsirSplit = isAyah ? splitTafsir(prose?.sections ?? []) : null;
+const sections = (tafsirSplit ? tafsirSplit.rest : prose?.sections ?? []).filter((s) => !levelSecs.includes(s)).map((s) => ({ ...s, role: sectionRole(s.heading), r: renderProse(s.markdown, lang, hon) }));
 // citation numbers are per-section in renderProse; re-number globally for the footnote list
 const citeList: { source: string; locator?: string }[] = [];
 const citeIndex = (c: { source: string; locator?: string }) => {
@@ -104,6 +110,22 @@ const jobNotYet = n.class === "job" ? sectionHtml.find((s) => JOB_NOT_YET.includ
 // each level is read on its own, so each gets its own honorific state; its citations join the page's footnote list
 const levelHtml = levelSecs.map((s) => { const r = renderProse(s.markdown, lang, newHonState()); return { id: levelOf(s.heading, proseLang!)!.id, heading: s.heading, html: renumberR(r)(r.html) }; });
 const kidsReadHref = d.education?.flagged_for_kids ? `/${lang}/sighar/read/${SEGMENT[n.class] ?? n.class}/${n.slug}/` : undefined;
+// the Tafsir section: each block under its commentator and work; rendered after the prose so its notes number after it
+const plainHeading = (h: string) => h.replace(/\[\[[a-z]+\/[a-z0-9-]+\|([^\]]*)\]\]/g, "$1").replace(/\[\[([a-z]+\/[a-z0-9-]+)\]\]/g, (_m, id: string) => { const t = byId.get(id); return t ? labelOf(t, lang) : id; });
+const tafsirGroups: { work: Node | undefined; authors: Node[]; volumes: Node[]; blocks: { heading: string | null; html: string }[] }[] = [];
+for (const b of tafsirSplit?.blocks ?? []) {
+  const r = renderProse(b.markdown, lang, hon);
+  const work = b.volumes[0] ? commentaryOf(b.volumes[0]) : undefined;
+  let g = tafsirGroups[tafsirGroups.length - 1];
+  if (!g || g.work !== work) { g = { work, authors: work ? authorsOf(work) : [], volumes: [], blocks: [] }; tafsirGroups.push(g); }
+  for (const v of b.volumes) if (!g.volumes.includes(v)) g.volumes.push(v);
+  g.blocks.push({ heading: b.heading ? plainHeading(b.heading) : null, html: renumberR(r)(r.html) });
+}
+const X = T.tafsir;
+const listSep = lang === "en" ? ", " : "، ";
+const suraNo: number | undefined = isAyah || isSura ? d.sura : undefined;
+const suraCovered = suraNo ? coveredIn(suraNo).length : 0;
+const suraTotal = suraNo ? ayahsOf(suraNo).length : 0;
 const proseSources = [...new Set(citeList.map((c) => c.source))];
 const ownSources = [...new Set([...(d.sources ?? []), ...proseSources])].map((id) => byId.get(id)).filter(Boolean) as Node[];
 const refChip = (id: string) => { const n = byId.get(id); return n ? { id, label: labelOf(n, lang), url: href(lang, id), stub: !!n.stub } : null; };
@@ -273,6 +295,46 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
           ))}
           </LevelSwitcher>
         </div>
+
+        {isAyah && (
+          <section data-role="main" class="sec" id="tafsir" aria-labelledby="tafsir-h" lang={tafsirGroups.length ? (proseLang ?? lang) : lang} dir={(tafsirGroups.length ? (proseLang ?? lang) : lang) === "en" ? "ltr" : "rtl"}>
+            <h2 id="tafsir-h">{X.section_title}</h2>
+            {tafsirGroups.length > 0 ? (
+              <>
+                <p class="ui muted" style="font-size:.92rem">{X.section_note}</p>
+                {tafsirGroups.map((g) => (
+                  <div class="tafsir-group">
+                    {g.work && (
+                      <p class="ui" style="margin:1rem 0 .4rem;font-weight:600">
+                        {g.authors.map((a, k) => <>{k > 0 && listSep}<a href={href(lang, a.id)}>{labelOf(a, lang)}</a></>)}{g.authors.length > 0 && " — "}<a href={href(lang, g.work.id)}>{labelOf(g.work, lang)}</a>
+                        {g.volumes.length > 0 && <span class="muted" style="font-weight:400"> · {X.section_cited} {g.volumes.map((v, k) => <>{k > 0 && listSep}<a href={volumeHref(lang, v)}>{labelOf(v, lang)}</a></>)}</span>}
+                      </p>
+                    )}
+                    <div class="prose">
+                      {g.blocks.map((b) => <>{b.heading && <h3>{b.heading}</h3>}<div set:html={b.html} /></>)}
+                    </div>
+                  </div>
+                ))}
+              </>
+            ) : (
+              <>
+                <p>{fmt(X.section_none, { n: String(tafsirCatalogue.length), names: wiredCommentaries.map((c) => labelOf(c, lang)).join(listSep) })}</p>
+                <p class="ui" style="display:flex;flex-wrap:wrap;gap:6px 12px">
+                  {suraNo && suraCovered > 0 && <a href={surahHref(lang, suraNo)}>{X.section_surah_link}</a>}
+                  <a href={`/${lang}/tafsir/`}>{X.section_browse}</a>
+                </p>
+              </>
+            )}
+          </section>
+        )}
+
+        {isSura && suraNo && (
+          <section data-role="main" class="sec ui" id="tafsir" aria-labelledby="tafsir-h">
+            <h2 id="tafsir-h">{X.block_title}</h2>
+            <p>{suraCovered > 0 ? fmt(X.block_some, { k: String(suraCovered), n: String(suraTotal) }) : X.block_none}</p>
+            <p><a href={suraCovered > 0 ? surahHref(lang, suraNo) : `/${lang}/tafsir/`}>{suraCovered > 0 ? X.block_link : X.section_browse}</a></p>
+          </section>
+        )}
 
         {n.class === "course" && connCards("after").length > 0 && (
           <div style="display:grid;gap:14px;margin-block:1.5rem">{connCards("after").map((c: any) => <ConnCard c={c} lang={lang} />)}</div>

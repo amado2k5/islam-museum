@@ -6,9 +6,9 @@ label:
   en: "Jami' al-Bayan, vol. 13 (Shakir edition)"
   ur: "جامع البیان، جلد ۱۳ ⁦(شاکر کی تحقیق)⁩"
 summary:
-  ar: "الجزء ١٣ من تفسير الطبري «جامع البيان» في طبعة أحمد محمد شاكر ومحمود محمد شاكر. يغطي الآيات التي تستشهد بهذا الجزء سجلات المتحف الآن: 149 موضعا، من 7:101 إلى 8:47."
-  en: "Volume 13 of al-Tabari's Jami' al-Bayan in the Shakir edition. The museum's verse records cite this volume for 149 verse positions, from 7:101 to 8:47."
-  ur: "طبری کی جامع البیان کی شاکر طبعہ کی جلد ۱۳۔ میوزیم کے آیت ریکارڈ اس جلد کے 149 مقامات، 7:101 سے 8:47 تک، کا حوالہ دیتے ہیں۔"
+  ar: "الجزء ١٣ من تفسير الطبري «جامع البيان» في طبعة أحمد محمد شاكر ومحمود محمد شاكر. يغطي الآيات التي تستشهد بهذا الجزء سجلات المتحف الآن: 151 موضعا، من 7:101 إلى 8:47."
+  en: "Volume 13 of al-Tabari's Jami' al-Bayan in the Shakir edition. The museum's verse records cite this volume for 151 verse positions, from 7:101 to 8:47."
+  ur: "طبری کی جامع البیان کی شاکر طبعہ کی جلد ۱۳۔ میوزیم کے آیت ریکارڈ اس جلد کے 151 مقامات، 7:101 سے 8:47 تک، کا حوالہ دیتے ہیں۔"
 relations:
   - { type: part_of, target: work/jami-al-bayan, sources: [source/tafsir-tabari-shakir-v13] }
   - { type: about, target: passage/quran-7-101, sources: [source/tafsir-tabari-shakir-v13] }
@@ -110,6 +110,8 @@ relations:
   - { type: about, target: passage/quran-7-197, sources: [source/tafsir-tabari-shakir-v13] }
   - { type: about, target: passage/quran-7-198, sources: [source/tafsir-tabari-shakir-v13] }
   - { type: about, target: passage/quran-7-199, sources: [source/tafsir-tabari-shakir-v13] }
+  - { type: about, target: passage/quran-7-200, sources: [source/tafsir-tabari-shakir-v13] }
+  - { type: about, target: passage/quran-7-201, sources: [source/tafsir-tabari-shakir-v13] }
   - { type: about, target: passage/quran-7-202, sources: [source/tafsir-tabari-shakir-v13] }
   - { type: about, target: passage/quran-7-203, sources: [source/tafsir-tabari-shakir-v13] }
   - { type: about, target: passage/quran-7-204, sources: [source/tafsir-tabari-shakir-v13] }
@@ -168,4 +170,6 @@ provenance:
   generated_by: "Claude Code (tafsir lane, volume coverage)"
   model: claude-haiku-5-5
   run: tafsir-volumes-2026-11-07
+  enriched_by:
+    - { generated_by: "Claude Code (audit run, Part I)", model: claude-fable-5-2, run: audit-fixes-2026-11-13, source: "about relations and the count line brought in step with the passage records that cite this volume's source (cite lines in content/ar/passage/quran-*.md); no reading of the volume" }
 status: { review: published, completeness: 2, generated_by: "Claude Code (tafsir lane, volume coverage)" }
