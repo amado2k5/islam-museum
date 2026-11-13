@@ -1244,3 +1244,39 @@ That these particular attributes by themselves produce beauty, I mean by produci
 Colour also produces beauty. Each of the bright colours, such as purple, the deep purple of the shellfish, the green of the sown fields, rose and the colour of the finch, and their like, pleases the viewer, and sight takes delight in looking at them. Likewise manufactured cloths, carpets and implements are admired, and flowers, blossoms and gardens are admired; so colour by itself produces beauty {cite:manazir-sabra-1983 scan-p.309}.
 
 Distance also produces beauty incidentally. For among beautiful images, some have tattoos, wrinkles and pores in them that spoil the image and disorder its beauty; when they are at a great distance from sight, a slight distance at which these subtle meanings are hidden {cite:manazir-sabra-1983 scan-p.309}.
+
+## Article 2, chapter 3 (continued): the kinds of beauty by particular attribute, from distance and arrangement to likeness
+
+Distance also produces beauty incidentally. For among beautiful images, some have tattoos, wrinkles and pores in them that spoil the image and disorder its beauty; when such a distance from sight is great that these subtle meanings are hidden, the beauty of the image appears because those meanings are hidden. Likewise many beautiful images have subtle meanings in them on account of which the image is beautiful, such as fine engravings, delineations and arrangement; many of these meanings are hidden from sight at many moderate distances, and when the image is brought near enough to sight, those subtle meanings appear to sight and the beauty of the image appears to sight. So increase of distance and decrease of distance may show beauty; and distance by itself may produce beauty {cite:manazir-sabra-1983 scan-p.309} {cite:manazir-sabra-1983 scan-p.310}.
+
+Arrangement also produces beauty, and many things are admired for arrangement and position alone. All engravings are admired for their arrangement, and beautiful writing is admired for its arrangement; for the beauty of a script comes from the correct shaping of letter forms and their composition one with another. If the composition and arrangement of the letters is not orderly and proportioned, the script is not beautiful, even if the forms of its letters are correct and well shaped taken singly; and a script may be admired when its composition is orderly, even if its letters are not perfectly shaped. Likewise many images of visible things are beautiful and pleasing because of the composition of their parts and the arrangement of some of them with respect to others {cite:manazir-sabra-1983 scan-p.310}.
+
+Solidity produces beauty, and for that reason the well-filled bodies of human figures and of many animals are admired {cite:manazir-sabra-1983 scan-p.310} {cite:manazir-sabra-1983 scan-p.311}.
+
+Shape produces beauty, and for that reason the crescent moon is admired; and the beautiful images of human figures, of many animals, of trees and of plants are admired for their shapes and the shapes of the parts of the image {cite:manazir-sabra-1983 scan-p.311}.
+
+Magnitude produces beauty, and for that reason the moon became more beautiful than any one of the stars, and the large stars became more beautiful than the small stars {cite:manazir-sabra-1983 scan-p.311}.
+
+Separation produces beauty, and for that reason scattered stars became more beautiful than smudges and than the Milky Way. For the same reason scattered lamps and candles are more beautiful than a continuous and massed fire; and for the same reason, scattered flowers and blossoms in gardens are more beautiful than those massed together and packed {cite:manazir-sabra-1983 scan-p.310} {cite:manazir-sabra-1983 scan-p.311}.
+
+Continuity produces beauty, and for that reason gardens of continuous, thickly growing plants are more beautiful than those interrupted and scattered. And if gardens are admired for their colours, the continuous ones are more beautiful; and the added beauty that is in the continuous ones is produced by continuity alone {cite:manazir-sabra-1983 scan-p.311}.
+
+Number produces beauty, and for that reason places in the sky where stars are many are more beautiful than places where they are few; and for the same reason lamps and candles are admired when a great number of them is gathered in one place {cite:manazir-sabra-1983 scan-p.311}.
+
+Motion produces beauty, and for that reason dancing and the movements of the dancer are admired, and many gestures and the movements of a person in his speech and actions {cite:manazir-sabra-1983 scan-p.311}.
+
+Stillness produces beauty, and for that reason dignity and bearing are admired {cite:manazir-sabra-1983 scan-p.311}.
+
+Roughness produces beauty, and for that reason the rough texture of many garments and carpets is admired; and many goldsmith's works are made more beautiful by roughening and engraving their surfaces {cite:manazir-sabra-1983 scan-p.311}.
+
+Smoothness produces beauty, and for that reason polish in garments and implements is admired {cite:manazir-sabra-1983 scan-p.311}.
+
+Transparency produces beauty, and for that reason transparent jewels and transparent vessels are admired {cite:manazir-sabra-1983 scan-p.311}.
+
+Density produces beauty, because colours, lights, shapes, delineations and all the beautiful meanings that appear in the images of visible things are perceived by sight only because of density {cite:manazir-sabra-1983 scan-p.311}.
+
+Shadow may show beauty. For many images of visible things have tattoos, wrinkles and fine pores in them that spoil them and obscure their beauty; when they are in the sunlight and in strong lights, the tattoos and pores in them appear and their beauty is hidden; when they are in shade and in weak lights, the tattoos, wrinkles and pores that spoil them are hidden and their beauty appears. Likewise the streaks that appear in the plumage of animals, and in the kind called the chameleon, appear only in shade and in refracted lights; when they are in sunlight and in strong lights, the streaks and the beauty that appear in them when they are in shade and in refracted lights are hidden {cite:manazir-sabra-1983 scan-p.311} {cite:manazir-sabra-1983 scan-p.312}.
+
+Darkness shows beauty; for the beauty of the stars appears only in the darkness, and likewise lamps, candles and fires show their beauty only in the blackness of night and in dark places, and their beauty does not appear in daylight and in strong lights. The stars are more beautiful on dark nights than on moonlit nights {cite:manazir-sabra-1983 scan-p.312}.
+
+Likeness produces beauty; for the matching organs of an animal are not beautiful unless they are alike. If the two eyes differ in shape, one round and the other elongated, they are extremely ugly; likewise if one is kohl-coloured and the other blue, they are ugly; likewise if one is larger than the other. Likewise, if the two cheeks are one protruding and the other sunken, they are extremely ugly; likewise if one eyebrow is thick and the other thin they are extremely ugly; and likewise if one is long and the other short, they are ugly. So all matching organs of an animal are beautiful only when they are alike; and likewise engravings and letters of script are beautiful only when their matching letters and their matching parts are alike {cite:manazir-sabra-1983 scan-p.312}.
