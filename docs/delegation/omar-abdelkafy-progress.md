@@ -2263,3 +2263,18 @@ Resume point: mawkib-al-nour episode 12 (branch from origin/main).
 | Asides on an airline passenger, a shop joke on selling shrouds and the description of a bugle at morning parades beyond the points kept | ep12 00:20:30, 00:27:30 | Illustrative asides, not separate claims | Content rule | Open |
 
 Resume point: mawkib-al-nour episode 13 (branch from origin/main).
+
+### mawkib-al-nour ep13 (12 Nov 2026)
+
+(Correction to the ep12 note above: the episode 12 text carries 14 needs_source marks, not 15.)
+
+24 points written for episode 13 (ar, en, ur); 20 needs_source marks; 7 new `about` edges. Quran verses referenced only through passage links (28-1 to 28-6, 7-128, 28-83, 3-188, 17-4, 27-31, 49-12, 74-4); none typed. Proposal for the founder, not applied: the lecturer's statements on what a woman must cover (ep13 00:35:30-00:38:00) are recorded as his own on a disputed matter and attributed to unnamed jurists without a source; his two accounts of how scholars treat remembering a repented sin (00:28:00) are recorded as he gives them.
+
+| Excluded (mawkib-al-nour ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings, opening supplications and the closing greeting | ep13 00:00:00-00:01:30 (recitation, Quran text never typed), 00:42:00 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| An unsourced quotation attributed to a named political figure about two bombs dropped on Japan | ep13 00:20:00-00:20:30 | Polemical attribution about a named person with no source; not reproduced | Content rule, Source rule | Open |
+| Garbled windows and loops | ep13 00:13:30 (a long loop), 00:26:00 (a long loop), 00:37:00 (a long loop) | Not recoverable | Clarity, Loop check | Open |
+| Asides on Egyptian television presenters, an English-speaking relative, Quran reading skill and street clothing beyond the points kept | ep13 00:27:00-00:27:30, 00:36:30-00:37:00 | Illustrative asides, not separate claims | Content rule | Open |
+
+Resume point: mawkib-al-nour episode 14 (branch from origin/main).
