@@ -2449,3 +2449,17 @@ Resume point: mawkib-al-nour episode 26 (branch from origin/main).
 | Remarks on a young man mocking scholars, an aside on the pronunciation of two names and on the names themselves, a remark on a dress worn to the university, and an aside on a woman's dress described in detail | ep26 00:06:30-00:07:00, 00:19:30-00:20:00, 00:21:30-00:23:00 | Garbled or a lesson on pronunciation and dress | Clarity | Open |
 
 Resume point: mawkib-al-nour episode 27 (branch from origin/main).
+
+(Correction to the ep26 note above: the episode 26 text added 2 new `about` edges, not 7.)
+
+### mawkib-al-nour ep27 (12 Nov 2026)
+
+21 points written for episode 27 (ar, en, ur); 11 needs_source marks per language file (ar 11, en 11, ur 11); 9 new `about` edges. Quran verses referenced only through passage links (3-64, 16-125, 109-6, 34-25, 42-13, 8-63, 4-35, 19-43, 19-47, 41-1, 74-18, 74-24, 74-25, 2-285, 2-85, 7-163, 49-17); none typed. Proposal for the founder, not applied: the juristic statements on zakat (ep27 00:37:00) are recorded as his, with no school named; the account of Aisha and Abu Bakr as arbiter (00:16:00), the story of Abu Sufyan and Umm Habiba (00:08:00) and the sayings credited to Muhammad al-Ghazali and Umar (00:25:00) have no source.
+
+| Excluded (mawkib-al-nour ep27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings and the closing prayer | ep27 00:00:00-00:00:30 (greetings; recitation, Quran text never typed), 00:41:00-00:41:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep27 00:03:30 (a long repeated syllable), 00:07:00 (a long repeated letter), 00:09:30-00:10:00 (a long repeated syllable), 00:26:30-00:27:00 (a long repeated word), 00:31:30 (a long repeated letter), 00:40:30-00:41:00 (a long repeated letter) | Not recoverable | Clarity, Loop check | Open |
+| A passage (ep27 00:25:30-00:27:00) on the founding of the Zionist movement, a prediction credited to its founder, a named financier said to have bribed a government, and the claim that the leaders of the movement have no tie to Judaism; and a story about a man who would not divorce a difficult wife and a joke on remarriage | ep27 00:25:30-00:27:00, 00:17:30-00:18:30 | Unsourced claims about named kinds of people and a financier, including a conspiratorial claim; garbled joke; the theological statement on Judaism and the Torah at 00:27:00 is kept | Accuracy, Content rule | Open; proposal for the founder to decide |
+
+Resume point: mawkib-al-nour episode 28 (branch from origin/main). Episode 29 in the harvest is byte-identical in transcript and audio hash to episode 28 and is not written as a second episode.
