@@ -1,0 +1,210 @@
+---
+// "Offices of the angels" (Angels Browser home): a ring of the browser's own sections. The first section of ANGELS_SECTIONS
+// (creed and creation) is the central disc, with its label and its count; each of the five others is a sector of the ring,
+// patterned and toned apart, and holds its records as plain discs along its arc, each with a name outside the ring and a
+// leader line. In the events sector the dated events run in time order along the arc (their display dates are in the
+// read-out), the undated records follow, in the page's own order, and are marked undated. On a phone the ring becomes five
+// bands. Everything is read from site/src/lib/angels.ts and the graph at build time; the script (sig-angels.ts) fills the
+// read-out from the markup. No figure is drawn: a record is a disc.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { summaryOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { formatDate, startOf, timelineKey } from "../../lib/dates";
+import { angelsItems, ANGELS_SECTIONS } from "../../lib/angels";
+import { labelOf } from "../../lib/graph";
+
+interface Props { lang: Lang; home: string }
+const { lang, home } = Astro.props;
+const A = (ui(lang) as any).angels;
+const V = A.viz;
+const rtl = lang !== "en";
+
+if (ANGELS_SECTIONS[0] !== "doctrine" || ANGELS_SECTIONS.length !== 6) throw new Error(`AngelsRing: the ring is drawn for doctrine at the centre and five offices, ANGELS_SECTIONS is ${ANGELS_SECTIONS.join(", ")}`);
+for (const i of angelsItems) if (!ANGELS_SECTIONS.includes(i.section)) throw new Error(`AngelsRing: ${i.node.id} sits in a section outside ANGELS_SECTIONS`);
+for (const id of ANGELS_SECTIONS) if (!A.sections[id]?.title) throw new Error(`AngelsRing: section ${id} has no title under angels.sections`);
+
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const firstSentence = (n: any) => {
+  const t = summaryOf(n, lang).replace(/\s+/g, " ");
+  const m = t.match(/^.*?[.!?؟۔](?=\s|$)/);
+  const s = (m ? m[0] : t);
+  return s.length > 220 ? `${s.slice(0, 217).trimEnd()}…` : s;
+};
+const dateOf = (n: any): string => (n.class === "event" ? formatDate(startOf(n.data), lang).text : "");
+const slugOf = (id: string) => id.split("/")[1];
+const linkOf = (n: any) => `/${lang}/angels/${slugOf(n.id)}/`;
+const secTitle = (id: string) => A.sections[id].title as string;
+
+const centre = ANGELS_SECTIONS[0];
+const centreCount = angelsItems.filter((i) => i.section === centre).length;
+const sectors = ANGELS_SECTIONS.slice(1).map((id, k) => {
+  let items = angelsItems.filter((i) => i.section === id);
+  if (items.length === 0) throw new Error(`AngelsRing: section ${id} holds no records`);
+  if (id === "events") {
+    // dated events in time order, then the undated records in the page's own order
+    const dated = items.filter((i) => i.node.class === "event" && timelineKey(i.node).key !== Infinity);
+    dated.sort((a, b) => timelineKey(a.node).key - timelineKey(b.node).key || timelineKey(a.node).ord - timelineKey(b.node).ord);
+    items = [...dated, ...items.filter((i) => !dated.includes(i))];
+  }
+  return { id, k, items };
+});
+
+// ---- geometry (user units of a 1200 x 640 drawing; mirrored for right-to-left languages)
+const W = 1200, H = 640, CX = 600, CY = 320, R_IN = 116, R_OUT = 262, R_DISC = 98, GAP = 2.2;
+const mx = (x: number) => (rtl ? W - x : x);
+const rad = (deg: number) => (deg * Math.PI) / 180;
+const pt = (r: number, deg: number) => ({ x: mx(CX + r * Math.cos(rad(deg))), y: CY + r * Math.sin(rad(deg)) });
+const f1 = (n: number) => Math.round(n * 10) / 10;
+const wedge = (a0: number, a1: number) => {
+  const p0 = pt(R_OUT, a0), p1 = pt(R_OUT, a1), q1 = pt(R_IN, a1), q0 = pt(R_IN, a0);
+  const sweep = rtl ? 0 : 1;
+  return `M${f1(p0.x)} ${f1(p0.y)}A${R_OUT} ${R_OUT} 0 0 ${sweep} ${f1(p1.x)} ${f1(p1.y)}L${f1(q1.x)} ${f1(q1.y)}A${R_IN} ${R_IN} 0 0 ${1 - sweep} ${f1(q0.x)} ${f1(q0.y)}Z`;
+};
+const SPAN = 72;
+// the ring is turned so that the sector with the most records is centred on the side of the drawing where its labels can spread
+const biggest = sectors.reduce((b, s) => (s.items.length > sectors[b].items.length ? s.k : b), 0);
+const START = 180 - SPAN * biggest - SPAN / 2;
+const nodes = sectors.flatMap((s) => {
+  const a0 = START + SPAN * s.k + GAP, span = SPAN - 2 * GAP;
+  const two = s.items.length > 6;
+  return s.items.map((it, j) => {
+    const a = a0 + (span * (j + 0.5)) / s.items.length;
+    const r = two ? (j % 2 ? 217 : 163) : 190;
+    const p = pt(r, a), edge = pt(R_OUT + 14, a);
+    const seq = s.id === "events" && dateOf(it.node) ? s.items.slice(0, j + 1).filter((x) => dateOf(x.node)).length : 0;
+    return { s, it, j, p, edge, seq, side: p.x > CX ? 1 : -1 };
+  });
+});
+// label rows, one column each side: ordered by the leader's start so the lines do not cross, at least 18 units apart
+const LAB = 17.5;
+for (const side of [1, -1]) {
+  const col = nodes.filter((n) => n.side === side).sort((a, b) => a.edge.y - b.edge.y);
+  let prev = 10;
+  const ly = col.map((n) => (prev = Math.max(n.edge.y, prev + LAB)));
+  for (let i = ly.length - 1; i >= 0; i--) { const cap = (i === ly.length - 1 ? H - 10 : ly[i + 1] - LAB); if (ly[i] > cap) ly[i] = cap; }
+  col.forEach((n, i) => ((n as any).ly = ly[i]));
+}
+const COL = R_OUT + 52;
+const clip = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1).trimEnd()}…` : s);
+const wrap = (s: string, n: number) => { const out: string[] = []; let cur = ""; for (const w of s.split(/\s+/)) { if (cur && (cur + " " + w).length > n) { out.push(cur); cur = w; } else cur = cur ? `${cur} ${w}` : w; } if (cur) out.push(cur); return out.slice(0, 3); };
+const centreLines = wrap(secTitle(centre), 14);
+const secLabel = (id: string) => `${secTitle(id)} · ${fmt(V.count, { n: num(angelsItems.filter((i) => i.section === id).length, lang) })}`;
+---
+<section aria-labelledby="sg-ar-title" class="sg-ar" data-sg-ar data-open={V.open} data-undated={V.undated} data-tpl-date={V.date} data-tpl-sec={V.section} style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="sg-ar-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.note}</p>
+  </div>
+  <ul class="sg-ar-leg ui" aria-label={V.region}>
+    <li><i class="sg-ar-sw c" aria-hidden="true"></i><a href={`${home}#t-${centre}`}>{secLabel(centre)}</a></li>
+    {sectors.map((s) => <li><i class={`sg-ar-sw t${s.k}`} aria-hidden="true"></i><a href={`${home}#t-${s.id}`}>{secLabel(s.id)}</a></li>)}
+  </ul>
+  <div class="sg-ar-ring">
+    <svg viewBox={`0 0 ${W} ${H}`} role="group" aria-label={V.region} class="sg-ar-svg">
+      <defs>
+        <pattern id="sg-ar-p0" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M-1 9L9-1M-1 1L1-1M7 9L9 7" /></pattern>
+        <pattern id="sg-ar-p1" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="4.5" cy="4.5" r="1.5" /></pattern>
+        <pattern id="sg-ar-p2" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M-1 10L10-1M-1 -1L10 10" /></pattern>
+        <pattern id="sg-ar-p3" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 4H8" /></pattern>
+        <pattern id="sg-ar-p4" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M4 0V8M0 4H8" /></pattern>
+      </defs>
+      {sectors.map((s) => {
+        const a0 = START + SPAN * s.k + GAP, a1 = START + SPAN * (s.k + 1) - GAP;
+        return <path class={`sg-ar-w t${s.k}`} data-sec={s.id} d={wedge(a0, a1)} style={`fill:url(#sg-ar-p${s.k})`} />;
+      })}
+      <g class="sg-ar-lines" aria-hidden="true">
+        {nodes.map((n) => <polyline class={`t${n.s.k}`} points={`${f1(n.p.x)},${f1(n.p.y)} ${f1(n.edge.x)},${f1(n.edge.y)} ${f1(CX + n.side * (COL - 8))},${f1((n as any).ly)}`} />)}
+      </g>
+      <a href={`${home}#t-${centre}`} class="sg-ar-c" aria-label={secLabel(centre)}>
+        <circle cx={CX} cy={CY} r={R_DISC} />
+        <text x={CX} y={CY - 6 - 9 * (centreLines.length - 1)} class="big">{num(centreCount, lang)}</text>
+        {centreLines.map((l, i) => <text x={CX} y={CY + 26 + 19 * i - 9 * (centreLines.length - 1)} class="sm">{l}</text>)}
+      </a>
+      {nodes.map((n) => (
+        <a href={linkOf(n.it.node)} class={`sg-ar-n t${n.s.k}`} aria-label={short(n.it.node)} data-sec={n.s.id} data-st={secTitle(n.s.id)} data-first={firstSentence(n.it.node)} data-date={dateOf(n.it.node)}>
+          <circle class="hit" cx={f1(n.p.x)} cy={f1(n.p.y)} r={n.s.items.length > 6 ? "12" : "17"} />
+          <circle class="dot" cx={f1(n.p.x)} cy={f1(n.p.y)} r={n.seq ? "10.5" : "8.5"} />
+          {n.seq > 0 && <text class="num" x={f1(n.p.x)} y={f1(n.p.y + 4)} aria-hidden="true">{num(n.seq, lang)}</text>}
+          <text class="lab" x={f1(CX + n.side * COL)} y={f1((n as any).ly + 5)} text-anchor={n.side > 0 ? "start" : "end"}>{clip(short(n.it.node), 30)}</text>
+        </a>
+      ))}
+    </svg>
+  </div>
+  <div class="sg-ar-bands">
+    {sectors.map((s) => (
+      <section class={`sg-ar-band t${s.k}`}>
+        <h3 class="ui"><i class={`sg-ar-sw t${s.k}`} aria-hidden="true"></i><a href={`${home}#t-${s.id}`}>{secLabel(s.id)}</a></h3>
+        <ul class="ui" role="list">
+          {s.items.map((it) => {
+            const d = dateOf(it.node);
+            return <li><a href={linkOf(it.node)}><i class={`sg-ar-dd t${s.k}`} aria-hidden="true"></i>{short(it.node)}</a>{s.id === "events" && <span class="sg-ar-dt">{d || V.undated}</span>}</li>;
+          })}
+        </ul>
+      </section>
+    ))}
+  </div>
+  <div class="sg-ar-panel panel ui" data-sg-arpanel aria-live="polite" hidden>
+    <p class="muted sg-ar-hint" data-sg-arhint>{V.hint}</p>
+    <div data-sg-arbody></div>
+    <button type="button" class="sg-ar-close ui" data-sg-arclose hidden>{V.close}</button>
+  </div>
+  <p class="muted ui sg-ar-cap">{V.caption}</p>
+</section>
+<style is:inline>
+  .sg-ar { --t0: var(--gold-text); --t1: var(--link); --t2: color-mix(in srgb, var(--fg) 72%, var(--card)); --t3: color-mix(in srgb, var(--gold-text) 55%, var(--link)); --t4: color-mix(in srgb, var(--gold) 75%, var(--fg)); }
+  .sg-ar .t0 { --tone: var(--t0); } .sg-ar .t1 { --tone: var(--t1); } .sg-ar .t2 { --tone: var(--t2); } .sg-ar .t3 { --tone: var(--t3); } .sg-ar .t4 { --tone: var(--t4); }
+  .sg-ar-leg { list-style: none; margin: 0 0 .6rem; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: .88rem; }
+  .sg-ar-leg li { display: inline-flex; align-items: center; gap: 7px; }
+  .sg-ar-leg a, .sg-ar-band h3 a { color: var(--fg); min-block-size: 28px; display: inline-flex; align-items: center; }
+  .sg-ar-sw { display: inline-block; flex: none; inline-size: 18px; block-size: 18px; border-radius: 4px; border: 1.5px solid var(--tone, var(--gold)); background-color: color-mix(in srgb, var(--tone, var(--gold)) 14%, var(--card)); }
+  .sg-ar-sw.c { border-radius: 50%; border-color: var(--gold); background: var(--card); }
+  .sg-ar-sw.t0, .sg-ar-dd.t0 { background-image: repeating-linear-gradient(45deg, var(--tone) 0 1.2px, transparent 1.2px 5px); }
+  .sg-ar-sw.t1 { background-image: radial-gradient(var(--tone) 1.3px, transparent 1.6px); background-size: 6px 6px; }
+  .sg-ar-sw.t2 { background-image: repeating-linear-gradient(45deg, var(--tone) 0 1px, transparent 1px 5px), repeating-linear-gradient(-45deg, var(--tone) 0 1px, transparent 1px 5px); }
+  .sg-ar-sw.t3 { background-image: repeating-linear-gradient(0deg, var(--tone) 0 1.2px, transparent 1.2px 5px); }
+  .sg-ar-sw.t4 { background-image: repeating-linear-gradient(0deg, var(--tone) 0 1px, transparent 1px 5px), repeating-linear-gradient(90deg, var(--tone) 0 1px, transparent 1px 5px); }
+  .sg-ar-ring { inline-size: 100%; max-inline-size: 1180px; margin-inline: auto; }
+  .sg-ar-svg { display: block; inline-size: 100%; block-size: auto; direction: ltr; font-family: inherit; overflow: visible; }
+  .sg-ar-svg pattern path { stroke: currentColor; stroke-width: 1.3; fill: none; }
+  .sg-ar-svg pattern circle { fill: currentColor; }
+  .sg-ar-svg #sg-ar-p0 { color: var(--t0); } .sg-ar-svg #sg-ar-p1 { color: var(--t1); } .sg-ar-svg #sg-ar-p2 { color: var(--t2); } .sg-ar-svg #sg-ar-p3 { color: var(--t3); } .sg-ar-svg #sg-ar-p4 { color: var(--t4); }
+  .sg-ar-w { stroke: var(--tone); stroke-width: 1.6; transition: opacity .15s ease; }
+  .sg-ar-w { fill-opacity: .75; }
+  .sg-ar-lines polyline { fill: none; stroke: var(--tone); stroke-width: 1; opacity: .55; }
+  .sg-ar-c circle { fill: var(--card); stroke: var(--gold); stroke-width: 3; }
+  .sg-ar-c text { text-anchor: middle; fill: var(--fg); unicode-bidi: plaintext; }
+  .sg-ar-c .big { font: 700 44px/1 var(--sans); }
+  .sg-ar-c .sm { font-size: 16px; font-weight: 600; }
+  .sg-ar-c:hover circle, .sg-ar-c:focus-visible circle { fill: color-mix(in srgb, var(--gold) 18%, var(--card)); }
+  .sg-ar-n { cursor: pointer; }
+  .sg-ar-n .hit { fill: transparent; }
+  .sg-ar-n .dot { fill: var(--tone); stroke: var(--card); stroke-width: 2.4; transition: r .12s ease; }
+  .sg-ar-n .num { font: 700 11.5px/1 var(--sans); fill: var(--card); text-anchor: middle; pointer-events: none; }
+  .sg-ar-n .lab { font-size: 15px; fill: var(--fg); unicode-bidi: plaintext; }
+  .sg-ar-n:hover .dot, .sg-ar-n:focus-visible .dot, .sg-ar-n[aria-current="true"] .dot { r: 11; stroke: var(--fg); }
+  .sg-ar-n:hover .lab, .sg-ar-n:focus-visible .lab, .sg-ar-n[aria-current="true"] .lab { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .sg-ar-n:focus-visible, .sg-ar-c:focus-visible { outline: none; }
+  .sg-ar-n:focus-visible .hit { stroke: var(--focus); stroke-width: 3; }
+  .sg-ar-c:focus-visible circle { stroke: var(--focus); stroke-width: 5; }
+  .sg-ar-bands { display: none; }
+  .sg-ar-band { margin-block: 0 14px; border-inline-start: 4px solid var(--tone); padding-inline-start: 12px; }
+  .sg-ar-band h3 { display: flex; align-items: center; gap: 8px; margin: 0 0 4px; font-size: .98rem; }
+  .sg-ar-band ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+  .sg-ar-band li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; }
+  .sg-ar-band li a { display: inline-flex; align-items: center; gap: 9px; min-block-size: 32px; font-size: .94rem; }
+  .sg-ar-dd { display: inline-block; flex: none; inline-size: 13px; block-size: 13px; border-radius: 50%; background-color: var(--tone); border: 2px solid var(--card); box-shadow: 0 0 0 1.5px var(--tone); }
+  .sg-ar-dt { font-size: .8rem; color: var(--muted); }
+  .sg-ar-panel { margin-block: 1rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 5rem; }
+  .sg-ar-panel h3 { margin: 0 0 .2rem; font-size: 1.05rem; }
+  .sg-ar-panel p { margin: 0 0 .4rem; }
+  .sg-ar-go { display: inline-block; min-block-size: 28px; line-height: 28px; }
+  .sg-ar-panel a:focus-visible, .sg-ar-close:focus-visible, .sg-ar-leg a:focus-visible, .sg-ar-band a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-ar-close { min-block-size: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; margin-inline-start: .8rem; }
+  .sg-ar-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+  @media (max-width: 899px) {
+    .sg-ar-ring, .sg-ar-leg, .sg-ar-panel { display: none; }
+    .sg-ar-bands { display: block; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-ar-n .dot, .sg-ar-w { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-angels.ts"></script>

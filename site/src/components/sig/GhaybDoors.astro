@@ -1,0 +1,84 @@
+---
+// "The eight doors" (Ghayb Browser home): the browser's eight sections (GHAYB_SECTIONS) as eight arched doorways in a row,
+// two rows of four on a phone. Each doorway names its section, counts its records and holds every one of them as a link
+// (all of ghaybItems, so a section longer than the landing's page of cards is still reachable here). The doorway's name
+// links to its section on this page; with the script (site/src/scripts/sig-ghayb.ts) choosing it opens its description in
+// the read-out instead, with the link to the section inside. Counts are read from the graph at build time.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { ghaybItems, GHAYB_SECTIONS } from "../../lib/ghayb";
+
+interface Props { lang: Lang; home: string }
+const { lang, home } = Astro.props;
+const G = (ui(lang) as any).ghayb;
+const V = G.viz;
+
+if (GHAYB_SECTIONS.length !== 8) throw new Error(`GhaybDoors: the view draws eight doors, GHAYB_SECTIONS holds ${GHAYB_SECTIONS.length}`);
+const doors = GHAYB_SECTIONS.map((id) => {
+  if (!G.sections[id]?.title) throw new Error(`GhaybDoors: section ${id} has no title under ghayb.sections`);
+  const items = ghaybItems.filter((i) => i.section === id);
+  if (items.length === 0) throw new Error(`GhaybDoors: section ${id} holds no records`);
+  return { id, items };
+});
+if (doors.reduce((t, d) => t + d.items.length, 0) !== ghaybItems.length) throw new Error("GhaybDoors: a record sits in a section outside GHAYB_SECTIONS");
+const nameOf = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const countOf = (n: number) => fmt(V.count, { n: num(n, lang) });
+---
+<section aria-labelledby="sg-gd-title" class="sg-gd" data-sg-gd data-go={V.go} style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="sg-gd-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 1rem">{V.note}</p>
+  </div>
+  <ol class="sg-gd-row" role="list" aria-label={V.region}>
+    {doors.map((d, k) => (
+      <li class="sg-gd-door">
+        <a class="sg-gd-head ui" href={`${home}#t-${d.id}`} data-door={d.id} data-desc={G.sections[d.id].desc} data-count={countOf(d.items.length)}>
+          <span class="sg-gd-no" aria-hidden="true">{num(k + 1, lang)}</span>
+          <b>{G.sections[d.id].title}</b>
+          <span class="sg-gd-n">{countOf(d.items.length)}</span>
+        </a>
+        <ul class="sg-gd-pills ui" role="list">
+          {d.items.map((i) => <li><a href={href(lang, i.node.id)}>{nameOf(i.node)}</a></li>)}
+        </ul>
+      </li>
+    ))}
+  </ol>
+  <div class="sg-gd-panel panel ui" data-sg-gdpanel aria-live="polite" hidden>
+    <p class="muted sg-gd-hint" data-sg-gdhint>{V.hint}</p>
+    <div data-sg-gdbody></div>
+    <button type="button" class="sg-gd-close ui" data-sg-gdclose hidden>{V.close}</button>
+  </div>
+  <p class="muted ui sg-gd-cap">{V.caption}</p>
+</section>
+<style is:inline>
+  .sg-gd-row { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 12px; align-items: stretch; }
+  .sg-gd-door { position: relative; display: flex; flex-direction: column; border: 2px solid var(--gold); border-radius: 999px 999px 10px 10px; background: var(--card); padding: 0 8px 12px; min-inline-size: 0; transition: background-color .15s ease; }
+  .sg-gd-door::before { content: ""; position: absolute; inset: 5px; border: 1px solid var(--line); border-radius: 999px 999px 6px 6px; pointer-events: none; }
+  .sg-gd-door.on { background: color-mix(in srgb, var(--gold) 14%, var(--card)); }
+  .sg-gd-head { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2px; padding: 38px 4px 10px; color: var(--fg); text-decoration: none; min-block-size: 44px; border-block-end: 1px solid var(--line); margin-block-end: 8px; }
+  .sg-gd-head b { font-size: .95rem; line-height: 1.25; font-weight: 700; }
+  .sg-gd-no { position: absolute; inset-block-start: 10px; left: 50%; translate: -50% 0; display: grid; place-items: center; inline-size: 26px; block-size: 26px; border-radius: 50%; background: var(--gold); color: #0a2533; font: 700 .8rem/1 var(--sans); }
+  .sg-gd-n { font-size: .8rem; color: var(--muted); }
+  .sg-gd-head:hover b, .sg-gd-head:focus-visible b { text-decoration: underline; text-decoration-color: var(--gold-text); text-underline-offset: 3px; }
+  .sg-gd-head:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 40px 40px 0 0; }
+  .sg-gd-pills { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; position: relative; }
+  .sg-gd-pills a { display: block; min-block-size: 28px; padding: 3px 7px; border-radius: 14px; background: color-mix(in srgb, var(--gold) 13%, var(--card)); border: 1px solid color-mix(in srgb, var(--gold) 35%, var(--card)); color: var(--fg); font-size: .78rem; line-height: 1.3; text-decoration: none; overflow-wrap: break-word; hyphens: auto; display: flex; align-items: center; }
+  .sg-gd-pills a:hover { background: var(--gold); color: #0a2533; border-color: var(--gold); }
+  .sg-gd-pills a:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
+  .sg-gd-panel { margin-block: 1rem 0; border: 1px solid var(--gold); padding: 12px 16px; min-block-size: 5rem; }
+  .sg-gd-panel h3 { margin: 0 0 .3rem; font-size: 1.05rem; }
+  .sg-gd-panel p { margin: 0 0 .4rem; }
+  .sg-gd-go { display: inline-block; min-block-size: 28px; line-height: 28px; }
+  .sg-gd-panel a:focus-visible, .sg-gd-close:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-gd-close { min-block-size: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; margin-inline-start: .8rem; }
+  .sg-gd-cap { max-inline-size: var(--measure); margin-block: .8rem 0; font-size: .86rem; }
+  @media (max-width: 1099px) { .sg-gd-row { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  @media (max-width: 720px) {
+    .sg-gd-row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .sg-gd-door { padding: 0 6px 10px; }
+    .sg-gd-pills a { font-size: .78rem; padding: 3px 8px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-gd-door { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-ghayb.ts"></script>

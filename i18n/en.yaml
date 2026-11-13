@@ -3491,6 +3491,29 @@ ghayb:
     signs:
       title: Signs of the Hour
       desc: "The major signs: the Dajjal, Isa's descent, Ya'juj and Ma'juj, the sun from the west, and what comes before and after."
+  viz:
+    title: "The eight doors"
+    note: "The browser's eight sections drawn as eight doorways, each holding its own records as links. Choose a doorway's name to read what its section covers."
+    region: "The eight sections of the unseen browser, each with its records"
+    count: "{n} records"
+    hint: "Choose a doorway's name to read its description. Every record inside a doorway is a link."
+    close: "Close"
+    go: "Go to this section"
+    caption: "What is counted: the museum's records tagged to each section of this browser. The grouping is the browser's own; each record's page gives its sources."
+    ascent_title: "The ascent"
+    ascent_note: "The stops of the Night Journey and the Ascent in the order the journey record holds them, from the starting point upward, followed by the heavens concepts the browser lists."
+    ascent_region: "The stops of the Ascent as a ladder, bottom to top"
+    ascent_stop: "Stop in the journey record"
+    ascent_concept: "Concept of the heavens section"
+    ascent_open: "Open the journey record"
+    ascent_caption: "The stops are the journey record's own list of waypoints and nothing is added to it; the heavens concepts are those this browser lists under its heavens section. The ladder shows sequence, not distance."
+    ten_title: "The ten major signs"
+    ten_desc: "The museum's list of the ten major signs, in its own order. An entry the list repeats is drawn once, with its places marked."
+    ten_region: "The ten major signs in the order of the list the museum holds"
+    ten_pos: "Place {a}"
+    ten_range: "Places {a} to {b}"
+    ten_repeat: "×{n}"
+    ten_note: "The list gives this entry {n} places, so it is drawn once with its places marked."
 nature:
   title: Nature Explorer
   lede: "The natural world in the Qur'an, the hadith and the tradition: the animals Solomon heard and the ones the Prophet protected, the birds of the Elephant and the whale of Jonah, the palm and the olive, and the heavens, seas, winds and rain that are among God's signs — every verse and report with its source."
@@ -3571,6 +3594,20 @@ angels:
     events:
       title: Appearances and encounters
       desc: "Every meeting between angels and people: Ibrahim's guests, Zakariya's callers, Maryam's angel, the Prophet's encounters, and the angels of aid."
+  viz:
+    title: "Offices of the angels"
+    note: "The browser's six sections as a ring: creed and creation at the centre, five offices around it, each record a disc on its sector's arc. In the sector of appearances, the dated events carry numbers in time order and the undated ones follow."
+    region: "Ring of the five offices of the angels around the creed, with the records of each"
+    centre: "Centre"
+    count: "{n} records"
+    hint: "Hover, focus or tap a disc to read the record. Every disc is a link to its page."
+    close: "Close"
+    open: "Open the record"
+    section: "Section: {s}"
+    date: "Date: {d}"
+    undated: "Undated"
+    list_region: "The five offices of the angels as bands, each with its records"
+    caption: "The grouping is the browser's own sections. The names and roles are as the cited sources give them on each record's page."
 dreams:
   title: Dream Browser
   lede: "Every vision and dream mentioned in the museum's sources: the Qur'anic verses from the story of Joseph to the dream of Badr, the dream hadiths of the two Sahihs, the Muwatta and the Sunan, what the seerah books carry, and every dream in every harvested book — sourced records that grow as new texts land."
@@ -4267,6 +4304,17 @@ signs:
     concepts:
       title: The records about the signs
       desc: "The museum's curated records on the signs of the Hour and the Day of Judgment: the major and minor signs, the end-times figures, the Day's stations and the eschatological events."
+  viz:
+    title: "The road of the signs"
+    note: "Five milestones in the customary order of the creed books. The small marks before each milestone are the museum's own records of that step; each one links to its page."
+    region: "The road of the signs of the Hour: five milestones with the museum's records along the way"
+    counts: "Museum records: {r} · passages: {p}"
+    hint: "Hover, focus or tap a milestone to read what the step holds. Every milestone and every mark is also a link."
+    close: "Close"
+    records_title: "The museum's own records at this step"
+    none: "At this step the museum holds passages only; they are listed in the section below."
+    go: "Go to this step's section"
+    caption: "What is counted: the museum's own records about each step, and the passages that mention it. The order is the customary arrangement of the creed books; no text fixes it, and the museum does not rule on which comes first."
 jinn-devils:
   title: "Jinn & Devils Browser"
   lede: "Jinn, devils and demons, angels, and the dreams that carry them — every being, encounter and report the Qur'an, the hadith, the seerah and the harvested books record, gathered in one browser with its sources."
