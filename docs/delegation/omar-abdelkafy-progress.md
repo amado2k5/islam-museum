@@ -2493,3 +2493,15 @@ Lane C. Series record `work/modakirate-iblis` created (no earlier record existed
 | A remark that the English word for covering sounds like the Arabic word, in the explanation of kufr | ep01 00:19:30 (part) | Garbled and unreliable | Clarity | Open |
 
 Resume point: modakirate-iblis episode 2 (branch from origin/main).
+
+### modakirate-iblis ep02 (12 Nov 2026)
+
+18 points written for episode 2 (ar, en, ur); 8 needs_source marks in each language file; 7 new `about` edges. Quran verses referenced only through passage links (2-45, 9-40, 20-46, 26-78, 26-79, 26-80, 63-8); none typed.
+
+| Excluded (modakirate-iblis ep02) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break trailer, and the closing prayer | ep02 00:00:00, 00:11:00-00:13:00, 00:24:00-00:25:00 | Not lesson content (trailer for other programmes, closing supplication, a sung ending) | Content rule | Open |
+| A long loop of repeated syllables | ep02 00:06:00 | Not recoverable | Clarity, Loop check | Open |
+| A garbled stretch about the Companions reaching a percentage of what the Prophet wanted | ep02 00:20:30-00:21:00 (part) | Garbled and unreliable | Clarity | Open |
+
+Resume point: modakirate-iblis episode 3 (branch from origin/main).
