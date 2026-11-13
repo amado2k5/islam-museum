@@ -2435,3 +2435,17 @@ Resume point: mawkib-al-nour episode 25 (branch from origin/main).
 | A hypothetical dialogue imagining Abu Jahl asking Umm Jamil to dance, partly garbled, and a remark on the stones used as a hearth and then worshipped, and a wedding-invitation aside with a cousin | ep25 00:20:00-00:21:00, 00:26:00-00:26:30 | An imagined dialogue and garbled asides | Clarity, Content rule | Open |
 
 Resume point: mawkib-al-nour episode 26 (branch from origin/main).
+
+(Correction to the ep25 note above: the episode 25 text added 2 new `about` edges, not 4.)
+
+### mawkib-al-nour ep26 (12 Nov 2026)
+
+18 points written for episode 26 (ar, en, ur); 12 needs_source marks per language file (ar 12, en 12, ur 12); 7 new `about` edges. Quran verses referenced only through passage links (3-8, 3-9, 45-23, 67-10, 21-69, 21-103); none typed. Proposal for the founder, not applied: his enumeration of seven roots of swerving after guidance (ep26 00:03:00; the seventh is unreadable in the transcript), his remark that a woman who prays but does not veil follows her desire and his statement about theses on the headscarf (00:08:00) are recorded as his; the sayings credited to Ibn Khaldun and Ibn Taymiyya (00:13:00) and the story of the ship (00:24:30) have no source.
+
+| Excluded (mawkib-al-nour ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening supplication and greetings, and the closing prayer | ep26 00:00:00-00:01:00 (supplication; recitation, Quran text never typed), 00:31:30-00:32:00 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep26 00:04:30 (a long repeated letter), 00:06:00-00:06:30 (a long repeated syllable), 00:16:30 (a long repeated letter), 00:19:00-00:19:30 (a long repeated letter), 00:30:30 (a long repeated word), 00:32:00 (a long repeated English syllable) | Not recoverable | Clarity, Loop check | Open |
+| Remarks on a young man mocking scholars, an aside on the pronunciation of two names and on the names themselves, a remark on a dress worn to the university, and an aside on a woman's dress described in detail | ep26 00:06:30-00:07:00, 00:19:30-00:20:00, 00:21:30-00:23:00 | Garbled or a lesson on pronunciation and dress | Clarity | Open |
+
+Resume point: mawkib-al-nour episode 27 (branch from origin/main).
