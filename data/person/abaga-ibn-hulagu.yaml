@@ -1,4 +1,5 @@
 id: person/abaga-ibn-hulagu
+aliases: [person/abagha-khan]   # the same Ilkhan filed twice (Ibn Khaldun and Shadharat al-Dhahab harvests); merged 13 Nov 2026, the id still resolves
 class: person
 label:
   ar: أبغا بن هلاكو
@@ -6,22 +7,13 @@ label:
 summary:
   ar: "أبغا بن هلاكو، ثاني إيلخانات بني هلاكو بالعراق؛ ولي بعد أبيه سنة 663هـ، وزحف سنة 680هـ إلى بلاد الشام في مظاهرة منكوتمر ملك الدست بالشمال فنازل حماة مع أخيه منكوتمر وزحف إليهم المنصور قلاوون ملك مصر والشام من دمشق فلقيهم بظاهر حمص وكانت الدائرة على ملوك التتر وهلك خلق من عساكرهم وأسر آخرون، وأجفل أبغا من منازلة الرحبة ورجع إلى بلاده منهزماً."
   en: "Abaga ibn Hulagu, second Ilkhan of the Hulaguid line in Iraq; succeeding his father in 663 AH he marched on Syria in 680 in concert with Mengu-Timur, king of the northern Dasht, camped at Hama with his brother Mongke-Timur, and al-Mansur Qalawun of Egypt and Syria met them outside Homs — the day went against the Tatar kings, many were slain and captured, and Abaga fled from the Rahba camping-ground back to his lands defeated."
+names:
+  - { value: "أبغا ملك التتار ابن ملكهم هولاكو بن قاآن بن جنكز خان", kind: full }
 gender: male
 roles: [ruler]
-died:
-  edtf: "1282~"
-  hijri: "0680~"
-  calendar: julian
-  precision: decade
-  status: debated
-  derived: true
-  note: هزيمة حمص سنة 681هـ في أواخر أيامه؛ سنة الوفاة تحتاج توثيقاً.
+born: { edtf: "1234~", hijri: "0632~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات وله نحو خمسين سنة سنة ثمانين وستمائة {cite:shadharat-dhahab p. 643}." }
+died: { edtf: "1282~", hijri: "0680", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بنواحي همدان بين العيدين سنة ثمانين وستمائة {cite:shadharat-dhahab p. 643}." }
 relations:
-- type: lived_in
-  target: place/misr
-  note: "From text: of Egypt"
-  confidence: low
-  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: child_of
   target: person/hulagu
   sources:
@@ -34,17 +26,25 @@ relations:
   target: person/qalawun
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- type: died_in
+  target: place/hamadan
+  note: "From text: مات بنواحي همدان بين العيدين سنة ثم"
+  sources: [source/shadharat-dhahab]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia, levant-iraq]
 sources:
 - source/tarikh-ibn-khaldun-ibar
+- source/shadharat-dhahab
 provenance:
   layer: own-research
   source: ابن خلدون، العبر — دولة التتر، وقعة حمص، ص1539 (طبعة هيليوبوليس)
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch46
+  enriched_by:
+    - { generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: prose-fill-persons-batch98, source: "شذرات الذهب — ابن العماد (ج7، سنة 680)، قراءة آبل فيجن: the record person/abagha-khan, merged into this one" }
+    - { generated_by: "Claude Code (audit run, Part II)", model: claude-fable-5-2, run: audit-fixes-2026-11-13, source: "Merge of the duplicate person/abagha-khan: its full name, birth estimate, year of death, place of death, source and two prose sections are carried over unchanged; nothing new is stated. The low-confidence lived_in place/misr edge (note 'From text: of Egypt') is removed: in the record's own text Egypt is Qalawun's, 'al-Mansur Qalawun of Egypt and Syria'" }
 status:
   review: published
   completeness: 3

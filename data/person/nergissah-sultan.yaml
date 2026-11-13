@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-born: { edtf: "1536~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ottoman Imperial Dynasty genealogy" }
-died: { edtf: "1592~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ottoman Imperial Dynasty genealogy" }
 relations:
   - { type: born_in, target: place/manisa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q147089)" }
   - { type: died_in, target: place/ottoman-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q12560)" }

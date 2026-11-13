@@ -12,4 +12,4 @@ This lesson asks you to identify and describe ways in which drama and theatre co
 Look at the expectation: it asks about contributions to social, cultural and economic life. Choose a play or a theatre tradition you know and ask who gains from it, and in what way.
 
 ## Try this
-Read [[person/mirza-fath-ali-akhundzada|Mirza Fath Ali Akhund-zada]]. Write two sentences: what his plays were about, and who first performed them in their original language.
+Read [[person/mirza-fatali-akhundov|Mirza Fath Ali Akhund-zada]]. Write two sentences: what his plays were about, and who first performed them in their original language.

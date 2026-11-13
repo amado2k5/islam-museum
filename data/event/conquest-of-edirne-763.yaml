@@ -14,10 +14,10 @@ date:
 relations:
   - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/murad-i-uthmani, role: "السلطان الذي تم الفتح في عهده", sources: [source/encyclopaedia-of-islam-2] }
-  - { type: had_participant, target: person/lala-shahin-pasha, role: "قائد الجيش الفاتح", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/lala-shahin, role: "قائد الجيش الفاتح", sources: [source/encyclopaedia-of-islam-2] }
 sides:
   - label: { ar: "جيش مراد الأول", en: "Murad I's army" }
-    commanders: [person/murad-i-uthmani, person/lala-shahin-pasha]
+    commanders: [person/murad-i-uthmani, person/lala-shahin]
   - label: { ar: "أدرنة", en: "Edirne" }
 map:
   kind: campaign

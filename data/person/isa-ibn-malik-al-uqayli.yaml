@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "790~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
-died: { edtf: "810~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 relations:
   - { type: died_in, target: place/jerusalem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

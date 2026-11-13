@@ -65,6 +65,58 @@ export function hijriCeMismatch(date: { edtf?: string; hijri?: string; calendar?
   return Math.abs(jdnH - jdnE) > 800 ? `Hijri "${date.hijri}" and EDTF "${date.edtf}" are more than ~2 years apart` : null;
 }
 
+/**
+ * A summary that states a death year must agree with the structured death year (audit of 13 November 2026, S8: a
+ * date-enrichment pass had grafted namesakes' dates onto 550 records whose own text said otherwise, and nothing noticed).
+ * Reads summary.ar and summary.en for an explicit death claim ("d. 271/884", "died in 1634", "توفي سنة 271هـ",
+ * "(ت 271هـ)") and compares it with `died.edtf`.
+ * Tolerance: 2 years (Hijri years straddle two Gregorian ones, and sources differ by a year); 10 for an approximate
+ * date (`~`, decade precision, or "c."/"about"/"نحو" in the text); 100 for century precision. An unmarked year is tried
+ * both as Gregorian and as Hijri. A claim about someone else ("his father died in ...") or a bound ("died before ...")
+ * is skipped. The record agrees when any claim agrees. Returns the message, or null. Reported as a warning: the check
+ * reads prose, so it reports and a person decides.
+ */
+export function summaryDeathYearMismatch(entity: { class?: string; died?: any; summary?: Record<string, string> }): string | null {
+  const edtf: string | undefined = entity.died?.edtf;
+  if (entity.class !== "person" || !edtf || !/^\d{3,4}(-\d{2}){0,2}[~?%]?$/.test(edtf)) return null;
+  const year = Number(edtf.slice(0, 4).replace(/\D.*$/, ""));
+  const approx = /[~?%]$/.test(edtf);
+  let tol = entity.died.precision === "century" ? 100 : entity.died.precision === "decade" || approx ? 10 : 2;
+  const toCE = (ah: number) => Math.round(ah * 0.970224 + 621.57);
+  const digits = (t: string) => t.replace(/[٠-٩]/g, (d) => String(d.charCodeAt(0) - 0x660)).replace(/[۰-۹]/g, (d) => String(d.charCodeAt(0) - 0x6f0)).replace(/[\u2066-\u2069\u064B-\u0652]/g, "");
+  const OTHER = /(father|mother|brother|sister|son|daughter|uncle|nephew|teacher|wife|husband|grandfather|master|predecessor|successor|whose|who)\W+(\w+\W+){0,3}$|(أبوه|أبيه|أباه|والده|أخوه|أخيه|أخاه|ابنه|شيخه|عمه|جده|زوجته|زوجها|الذي|التي)\s+(\S+\s+){0,3}$/i;
+  const BOUND = /^\s*(before|after|by|قبل|بعد)/i;
+  const claims: { text: string; years: number[]; loose: boolean }[] = [];
+  const add = (m: RegExpMatchArray, src: string, a: string, mark: string | undefined, b: string | undefined, loose: boolean) => {
+    const before = src.slice(Math.max(0, m.index! - 40), m.index!);
+    if (OTHER.test(before)) return;
+    const n = Number(a);
+    const years: number[] = [];
+    const isH = /^(AH|H|هـ|ه)$/i.test(mark ?? ""), isC = /^(CE|AD|م)$/i.test(mark ?? "");
+    if (b) years.push(toCE(n), Number(b));            // "271/884": Hijri then Gregorian
+    else if (isH) years.push(toCE(n));
+    else if (n < 100) return;                         // a day of the month, not a year
+    else if (isC || n > 1500) years.push(n);
+    else if (n >= 100) years.push(n, toCE(n));        // unmarked: either calendar
+    else return;                                      // a bare number under 100 is not a year claim
+    claims.push({ text: m[0].trim(), years, loose });
+  };
+  for (const lang of ["ar", "en"]) {
+    const src = digits(String(entity.summary?.[lang] ?? "")).replace(/\{cite:[^}]*\}/g, " ");
+    if (lang === "en")
+      for (const m of src.matchAll(/\b(?:d\.|died|killed|executed|martyred|assassinated)(?! before| after| by)\s*(?:in |on |at [A-Z][\w'-]+ in )?(c\. ?|circa |about |around |c )?(\d{2,4})(?:\s*(AH|CE|AD|H)\b)?(?:\s*\/\s*(\d{3,4}))?/g)) add(m, src, m[2], m[3], m[4], !!m[1]);
+    else
+      for (const m of src.matchAll(/(?:توفي|توفيت|المتوفى|المتوفاة|وفاته|وفاتها|استشهد|قُتل|قتل|مات|\(ت\.?)\s*(?!قبل|بعد)(?:في\s+)?(?:سنة\s+|عام\s+)?(نحو\s+|حوالي\s+)?(\d{2,4})\s*(هـ|ه|م)?(?![\d\u0621-\u064A])(?:\s*\/\s*(\d{3,4}))?/g)) {
+        if (BOUND.test(src.slice(m.index! + m[0].length))) continue;
+        add(m, src, m[2], m[3], m[4], !!m[1]);
+      }
+  }
+  if (!claims.length) return null;
+  if (claims.some((c) => c.loose)) tol = Math.max(tol, 10);
+  if (claims.some((c) => c.years.some((y) => Math.abs(y - year) <= tol))) return null;
+  return `summary states a death year ("${claims[0].text}") that disagrees with died.edtf ${edtf} by more than ${tol} years: correct the date from the record's source, or remove it`;
+}
+
 function* walkDates(node: any, path = ""): Generator<[string, any]> {
   if (!node || typeof node !== "object") return;
   if (Array.isArray(node)) { for (let i = 0; i < node.length; i++) yield* walkDates(node[i], `${path}[${i}]`); return; }
@@ -401,6 +453,8 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
       if (v && !known.has(v)) err(file, `media.${f}: ${v} does not exist`);
     }
     for (const t of entity.perspectives ?? []) for (const s of t.sources ?? []) if (!known.has(s)) err(file, `perspective source ${s} does not exist`);
+    // a death year stated in the summary agrees with the structured one (audit of 13 November 2026, S8)
+    { const m = summaryDeathYearMismatch(entity); if (m) warn(file, m); }
     // traditions[] counts a person as a member of a tradition (docs/agents/content-standards.md 13b): a recorded faith with no Muslim value contradicts a Sunni tag
     if (entity.class === "person" && (entity.traditions ?? []).some((t: string) => String(t).startsWith("sunni")) && (entity.faith ?? []).length > 0) {
       const muslim = (v: string) => /^(sunni|shia|ibadi|sufi|ahmadiyya|quranist)/.test(String(v));

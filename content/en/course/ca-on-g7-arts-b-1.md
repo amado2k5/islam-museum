@@ -12,4 +12,4 @@ This lesson asks you to compare and contrast how social values are communicated 
 The expectation asks you to compare. Think about what a spectator at a comedy is given: characters and a plot. Decide what a spectator of another form would be given, and what you would look for in each, before you read.
 
 ## Try this
-Read about [[person/mirza-fath-ali-akhundzada|Mirza Fath 'Ali Akhund-zada]]. Make two columns, one for him and one for a drama form your class brings, and write who is listening and what each form lets the performer say about how people behave.
+Read about [[person/mirza-fatali-akhundov|Mirza Fath 'Ali Akhund-zada]]. Make two columns, one for him and one for a drama form your class brings, and write who is listening and what each form lets the performer say about how people behave.

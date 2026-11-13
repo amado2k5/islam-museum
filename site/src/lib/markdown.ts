@@ -122,7 +122,7 @@ export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
         .replace(/\[\[([a-z]+\/[a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_x, id: string, custom?: string) => {
           const n = byId.get(id);
           if (!n) return custom ?? id;
-          return `<a href="${href(lang, id)}"${n.stub ? ' class="stub-link"' : ""}>${custom ?? esc(labelOf(n, lang))}</a>`;
+          return `<a href="${href(lang, n.id)}"${n.stub ? ' class="stub-link"' : ""}>${custom ?? esc(labelOf(n, lang))}</a>`;
         })
         .replace(/\{cite:([a-z0-9-]+)(?:\s+([^}]*))?\}/g, (_x, source: string, locator?: string) => {
           let c = cites.find((k) => k.source === `source/${source}` && k.locator === locator);

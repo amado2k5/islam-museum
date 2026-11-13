@@ -1,4 +1,5 @@
 id: person/lala-shahin
+aliases: [person/lala-shahin-pasha]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: "لاله شاهين باشا"
@@ -17,6 +18,8 @@ relations:
   - { type: lived_in, target: place/mascara, confidence: low, note: "Associated with معسكر per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/battle-of-maritsa-763, role: "القائد العثماني", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: related_to, target: person/murad-i-uthmani, role: "قائده", sources: [source/dawlat-uthmaniyya-salabi] }
+  - {confidence: medium, note: Place link from Wikidata; pending a second source., sources: [source/wikidata], target: place/mustafakemalpa-a-district, type: born_in}
+  - {confidence: medium, note: Place link from Wikidata; pending a second source., sources: [source/wikidata], target: place/kazanlak, type: died_in}
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
@@ -25,3 +28,7 @@ provenance:
   model: "SWE-2 Medium"
   run: lib-salabi-uthmani-batch-3
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+external_ids: {wikidata: Q1531115}
+names:
+  - {kind: alternate, value: لالا شاهين باشا}
+  - {kind: alternate, value: Lala Shahin Pasha}

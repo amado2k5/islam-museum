@@ -1,8 +1,11 @@
 id: person/kamal-al-din-ibn-yunus
+aliases: [person/kamal-al-din-ibn-yunis]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "كمال الدين ابن يونس", en: "Kamal al-Din Ibn Yunus" }
 names:
   - { value: "أبو الفتح موسى بن يونس بن محمد بن منعة بن مالك الموصلي الشافعي", kind: full }
+  - {kind: alternate, value: كمال الدين بن يونس}
+  - {kind: alternate, value: Kamal al-Din ibn Yunus}
 born: { edtf: "1156", hijri: "0551", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة إحدى وخمسين بالموصل {cite:shadharat-dhahab p. 206}." }
 died: { edtf: "1242", hijri: "0639-08-14", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بالموصل رابع عشر شعبان سنة تسع وثلاثين وستمائة {cite:shadharat-dhahab p. 207}.", sources: [source/shadharat-dhahab] }
 summary:
@@ -18,7 +21,8 @@ faith:
     basis: tradition
 relations:
   - { type: died_in, target: place/mosul, sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
+  - {confidence: medium, note: Place link from Wikidata; pending a second source., sources: [source/wikidata], target: place/mosul, type: born_in}
+sources: [source/shadharat-dhahab, source/al-aalam]
 status:
   review: published
   completeness: 3
@@ -28,3 +32,4 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch85
+external_ids: {wikidata: Q26215542}

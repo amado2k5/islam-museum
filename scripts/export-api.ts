@@ -15,7 +15,7 @@ import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dre
 import { madhahibMembers } from "./madhahib.js";
 import { BAYT_TAG, baytCorpusOf, baytTagSection, isBaytPassage } from "./bayt.js";
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
-import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPassage, eschatologyTopicsOf } from "./eschatology.js";
+import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPassage, eschatologyTopicsOf, signStepOf } from "./eschatology.js";
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
 import { ANSAB_TAG, ANSAB_SECTIONS, ANSAB_SUBJECTS, ANSAB_SUBJECT_SET, ansabTopicsOf, ansabCorpusOf, ansabSectionOf, type AnsabTopic } from "./ansab.js";
 import { QURUN_TAG, QURUN_SECTIONS, QURUN_SUBJECTS, QURUN_SUBJECT_SET, QURUN_TOPIC_KIND, QURUN_TOPIC_SUBJECTS, qurunTopicsOf, qurunCorpusOf, qurunTagSection, type QurunTopic } from "./qurun.js";
@@ -369,8 +369,17 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       topics: n.class === "passage" ? magicTopicsOf(n) : magicTagTopics(n),
     }) },
   { file: "jinn-devils.json", feature: "jinn-devils-browser",
-    pick: (n) => n.tags.includes("jinn-devils-browser") || n.tags.includes("angels-browser"),
-    fields: ["kind", "wings", "themes", "tags"] },
+    // the same records the page shows (site/src/lib/jinn-devils.ts), each saying which accounts it belongs to (`sections`)
+    // and what it is by its own class and kind (`group`: a Companion in a report about devils is a figure, not a devil)
+    pick: (n) => n.tags.includes("jinn-devils-browser") || n.tags.includes("angels-browser") || n.tags.includes("dream-browser"),
+    fields: ["kind", "wings", "themes", "tags"],
+    extra: (n) => ({
+      sections: [...new Set([...n.tags.filter((t) => t.startsWith("jd-")).map((t) => t.slice(3)),
+        ...(n.tags.includes("angels-browser") ? ["angels"] : []), ...(n.tags.includes("dream-browser") ? ["dreams"] : [])])],
+      group: n.class === "concept" ? (["angel", "jinn", "devil"].includes(String(n.data.kind)) ? "beings" : "teachings")
+        : n.class === "person" ? "figures" : n.class === "question" ? "questions"
+        : n.class === "work" || n.class === "source" ? "works" : n.class === "event" || n.class === "journey" ? "events" : "teachings",
+    }) },
   { file: "eschatology.json", feature: "eschatology-browser",
     pick: (n) => n.tags.includes(ESCH_TAG) || isEschatologyPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
@@ -379,6 +388,8 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         ? eschCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
         : eschTagSection(n),
       topics: n.class === "passage" ? eschatologyTopicsOf(n) : eschTagTopics(n),
+      // the step of the Signs Browser this record stands at, or null when it is about the hereafter and not the signs
+      sign_step: signStepOf(n.class === "passage" ? eschatologyTopicsOf(n) : eschTagTopics(n)),
     }) },
   { file: "bayt.json", feature: "bayt-browser",
     pick: (n) => n.tags.includes(BAYT_TAG) || isBaytPassage(n),
@@ -513,6 +524,7 @@ function companionRows(c: Compiled, edgesFrom: Map<string, { type: string; to: s
   const idx = companionIndex(c.nodes, c.edges);
   const byId = new Map(c.nodes.map((n) => [n.id, n]));
   const ten = new Set(idx.ten);
+  if (ten.size !== idx.tenListed) throw new Error(`companions.json: the Ten number ${ten.size} but their source list names ${idx.tenListed}`);
   const groupsOf = new Map<string, string[]>();
   for (const m of [idx.circles, idx.clans]) for (const [g, ids] of m) for (const id of ids) groupsOf.set(id, [...(groupsOf.get(id) ?? []), g]);
   const eventsOf = new Map<string, string[]>();

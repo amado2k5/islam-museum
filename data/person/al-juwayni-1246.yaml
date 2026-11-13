@@ -23,8 +23,6 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Djuwayni' / J. A. Boyle; Tarikh-i Jahangushay author)" }
-died: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Djuwayni' / J. A. Boyle; Tarikh-i Jahangushay author)" }
 relations:
   - { type: lived_in, target: place/khurasan, note: "From text: shaykh of Khurasan", sources: [source/al-aalam] }
   - { type: died_in, target: place/iraq, note: "From text: died in Iraq.", sources: [source/al-aalam] }

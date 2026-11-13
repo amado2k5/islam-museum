@@ -19,3 +19,9 @@ He used his office to serve learning, sheltering Yaqut al-Hamawi, who had fled t
 Of the twenty-six titles known for him only two survive: Ikhbar al-Ulama bi-Akhbar al-Hukama, the Tarikh al-Hukama — preserved in al-Zawzani's epitome — with 414 lives of physicians, philosophers and astronomers including quotations from Greek works lost in the original; and Inbah al-Ruwat with about a thousand biographies of scholars. Lost works include a history of Egypt to Salah al-Din's dynasty in six volumes and histories of the Seljuks, the Mirdasids, the Buyids and the Yemen {cite:encyclopaedia-of-islam-2 vol. 3 p. 872} {cite:tarikh-islam-dhahabi p. 325}.
 
 He was dignified and scrupulous, collected a library no one had matched, loved nothing of this world but books, and kept neither house nor wife. He died in Ramadan 646/1248 and bequeathed his books — worth fifty thousand dinars — to al-Malik al-Nasir of Aleppo {cite:shadharat-dhahab p. 236} {cite:tarikh-islam-dhahabi pp. 325-326}.
+
+## In Shadharat al-Dhahab — Ibn al-Imad al-Hanbali
+'Ali al-Qifti, vizier of Aleppo known as the Generous Qadi; one of the outstanding katibs in prose and verse, versed in lugha, grammar, fiqh, hadith, the sciences of the Qur'an, usul, logic, wisdom, astronomy, geometry and history — dignified, composed, of complete honour. {cite:shadharat-dhahab p. 244}
+
+## In Shadharat al-Dhahab — Ibn al-Imad al-Hanbali: Books and works
+He gathered books as none had gathered; he loved nothing of the world but books and had neither house nor wife. He authored *al-Durr al-thamin* on the converts' news, a correction of al-Jawhari's *Sihah*, remarks on Sahih al-Bukhari, *Nuzhat al-nazir* and *Nuzhat al-khatir* among others. {cite:shadharat-dhahab p. 244}

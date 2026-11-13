@@ -33,7 +33,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
-died: { edtf: "955", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ansab" }
 relations:
   - { type: died_in, target: place/taif, note: "From text: مات بالطائف", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
   - { type: ruler_of, target: place/nishapur, note: "From text: حاكم في تاريخ نيسابور فوصفه بالفقه وال", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

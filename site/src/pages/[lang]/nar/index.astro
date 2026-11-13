@@ -7,6 +7,7 @@
 // records join through the `nar-browser` tag. Counts are read from the graph at build time and
 // appear on this page only.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import EschScope from "../../../components/EschScope.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
@@ -49,6 +50,7 @@ const searchText = (i: (typeof narItems)[number]) =>
       <h1>{G.title}</h1>
       <p style="font-size:1.2rem;max-width:var(--measure)">{G.lede}</p>
       <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <EschScope lang={lang} current="nar" />
       <h2 id="method-title" style="font-size:1.1rem">{G.method_title}</h2>
       <p class="muted" style="max-width:var(--measure)">{G.method_note}</p>
       <p class="ui muted">{G.api} <a href="/api/v1/nar.json"><bdi dir="ltr">/api/v1/nar.json</bdi></a></p>

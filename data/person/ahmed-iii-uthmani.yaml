@@ -1,8 +1,12 @@
 id: person/ahmed-iii-uthmani
+aliases: [person/ahmad-iii-uthmani]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "أحمد الثالث", en: "Ahmed III" }
 names:
   - { kind: full, lang: ar, value: "أحمد الثالث بن محمد الرابع" }
+  - {kind: full, lang: ar, value: أحمد خان الثالث بن محمد الرابع}
+  - {kind: alternate, value: السلطان أحمد الثالث}
+  - {kind: alternate, value: Sultan Ahmed III}
 gender: male
 roles: [ruler, caliph]
 summary:
@@ -19,8 +23,8 @@ relations:
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2], confidence: low }
   - { type: child_of, target: person/mehmed-iv-uthmani, sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2] }
   - { type: successor_of, target: person/mustafa-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2] }
-external_ids: { wikidata: "Q199482" }
-sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
+external_ids: { wikidata: "Q199482" , nomisma: ahmed_iii }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2, source/nomisma]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 310-311"

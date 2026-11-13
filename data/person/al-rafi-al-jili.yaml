@@ -23,7 +23,5 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1144", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat)" }
-died: { edtf: "1215", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

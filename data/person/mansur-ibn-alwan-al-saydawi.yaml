@@ -11,7 +11,6 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-died: { edtf: "1328", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
 relations:
   - { type: born_in, target: place/sidon, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

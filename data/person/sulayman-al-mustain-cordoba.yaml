@@ -1,4 +1,5 @@
 id: person/sulayman-al-mustain-cordoba
+aliases: [person/sulayman-al-mustain-andalusi]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: سليمان المستعين بالله الأموي
@@ -31,12 +32,16 @@ relations:
   target: place/cordoba
   sources:
   - source/kamil-ibn-al-athir
+- {confidence: low, note: Association inferred from the nisba in the name ''; specific residence not individually documented., sources: [source/nafh-tib-maqqari], target: place/al-andalus, type: lived_in}
 sources:
 - source/kamil-ibn-al-athir
 - source/nomisma
+- source/nafh-tib-maqqari
 status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High)
 external_ids:
   nomisma: sulayman_al-musta'in_billah
+names:
+  - {kind: alternate, value: سليمان المستعين الأندلسي}

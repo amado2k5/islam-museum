@@ -29,6 +29,8 @@ Read this before you change anything under `site/`, `i18n/`, `scripts/validate.t
 
 ## Renamed or merged entities: aliases become redirects
 
+Since 13 November 2026 a former id also resolves inside the build: `scripts/build-graph.ts` points a relation whose target is a former id at the surviving record (it used to drop the edge without a word, while `validate.ts` accepted the target), builds no stub page for a former id, and `site/src/lib/graph.ts` looks a former id up to the surviving record so a `[[former-id|label]]` link in prose is a link again. A merge is done with `scripts/audit/merge-person.py`, which repoints the references it finds; the rule that a merge always adds the alias is unchanged.
+
 Ids are immutable (`AGENTS.md`): a rename or a merge keeps the old id in the surviving entity's `aliases`. The site Worker turns every alias into a 301 in all three languages at deploy time (`workers/site/scripts/bundle-rules.mjs` reads `data/**/*.yaml`, `aliasTarget` in `workers/site/src/route.js` answers `/ar/person/old-slug/` with `/ar/person/new-slug/`), so a cited URL never breaks and nothing has to be added to `site/public/_redirects` for a rename. `_redirects` stays for cross-class moves, non-entity paths and the Pages fallback. An entity deleted without an alias leaves its old URL as a 404: on 21 October 2026 six merged entities shipped that way, which is why the Worker now reads the aliases itself; when you merge, always add the alias.
 
 ## Deploying (manual, founder only)

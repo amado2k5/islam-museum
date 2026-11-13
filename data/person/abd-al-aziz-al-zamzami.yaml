@@ -29,7 +29,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
-born: { edtf: "1494", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tal'i (al-Shawkani); al-A'lam (al-Zirikli: 900–963 AH)" }
-died: { edtf: "1556", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tal'i (al-Shawkani); al-A'lam (al-Zirikli: 900–963 AH)" }
 relations:
   - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name (الحجازي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

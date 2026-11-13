@@ -50,6 +50,20 @@ export const ESCH_TOPICS = [
 ] as const;
 export type EschTopic = (typeof ESCH_TOPICS)[number];
 
+/**
+ * The signs of the Hour inside the eschatology corpus (audit of 13 November 2026, S10). The Signs Browser held all
+ * eschatology and so was a silent superset of the Resurrection, Paradise and Fire browsers. A record is about the
+ * signs when it carries one of these topics; everything else in the corpus belongs to the hereafter itself.
+ * The steps are the order the Signs Browser reads them in: the signs in general, then the three the sources name by
+ * figure, then the Hour. That order is the customary arrangement of the creed books; no text fixes it, and the page
+ * says so.
+ */
+export const SIGN_STEPS = ["ashrat", "mahdi", "dajjal", "yajuj-majuj", "saa"] as const;
+export type SignStep = (typeof SIGN_STEPS)[number];
+/** The step a record stands at: a named figure first, then the signs in general, then the Hour; null when it is not about the signs. */
+export const signStepOf = (topics: readonly string[]): SignStep | null =>
+  (["mahdi", "dajjal", "yajuj-majuj", "ashrat", "saa"] as const).find((t) => topics.includes(t)) ?? null;
+
 // ---------------------------------------------------------------------------
 // Arabic vocabulary — strong (unambiguous) forms
 // ---------------------------------------------------------------------------

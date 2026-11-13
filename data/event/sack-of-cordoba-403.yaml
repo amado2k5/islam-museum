@@ -11,7 +11,7 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1013~", hijri: "0403", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ثلاث وأربعمائة عند المقري؛ مشتق {cite:nafh-tib-maqqari p. 465}." }
 relations:
-  - { type: had_participant, target: person/sulayman-al-mustain-andalusi, role: "قائد الداخلين", sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/sulayman-al-mustain-cordoba, role: "قائد الداخلين", sources: [source/nafh-tib-maqqari] }
   - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
   - { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
   - { type: during_reign, target: person/sulayman-al-mustain, sources: [source/bayan-mughrib-idhari] }

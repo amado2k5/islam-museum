@@ -182,6 +182,21 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     const bare = read("passage", "quran-114-6");
     if (!bare || !/<section[^>]*\sid="tafsir"/.test(bare) || bare.includes('class="tafsir-group"') || !bare.includes(`href="/${lang}/tafsir/"`)) errors.push(`${lang}/passage/quran-114-6/ does not show the honest "not yet covered" Tafsir fallback`);
   }
+  // audit of 13 November 2026, Part II: the Ten are ten; no person stands in a list of beings; Signs is scoped and the
+  // four hereafter browsers say how they differ; a merged record's old id builds no page of its own
+  for (const lang of ["ar", "en", "ur"]) {
+    const read = (...seg: string[]) => { const f = p("dist", lang, ...seg, "index.html"); return existsSync(f) ? readFileSync(f, "utf8") : null; };
+    const companions = read("companions") ?? "";
+    const tenAt = companions.indexOf('id="ten-title"');
+    const ten = tenAt < 0 ? [] : [...companions.slice(tenAt).split("</ul>")[0].matchAll(/class="chip" href="\/[a-z]+\/person\/[^"]+"/g)];
+    if (ten.length !== 10) errors.push(`${lang}/companions/ lists ${ten.length} of the Ten promised Paradise`);
+    const jd = read("jinn-devils") ?? "";
+    if (!jd.includes('data-jd-group="figures"')) errors.push(`${lang}/jinn-devils/ does not group its records by what they are`);
+    for (const m of jd.matchAll(/data-jd-group="beings"[\s\S]*?<\/ol>/g)) if (/href="\/[a-z]+\/person\//.test(m[0])) errors.push(`${lang}/jinn-devils/ lists a person-class record among the beings themselves`);
+    for (const b of ["signs", "qiyama", "janna", "nar"]) if (!read(b)?.includes('id="esch-scope"')) errors.push(`${lang}/${b}/ does not say how the four hereafter browsers differ`);
+    if (!read("signs", "all")) errors.push(`missing page: ${lang}/signs/all/index.html (the full eschatology index)`);
+    for (const gone of ["abagha-khan", "sulayman-ibn-dawud"]) if (read("person", gone)) errors.push(`${lang}/person/${gone}/ is built although the record is merged: its id should resolve to the surviving record`);
+  }
   for (const w of warns) console.log("warn  " + w);
   for (const e of errors) console.log("ERROR " + e);
   console.log(`checked ${paths.length} pages: ${errors.length} errors, ${warns.length} warnings`);

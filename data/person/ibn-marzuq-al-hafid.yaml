@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1365", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nayl al-Ibtihaj" }
-died: { edtf: "1439", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nayl al-Ibtihaj" }
 relations:
   - { type: lived_in, target: place/tlemcen, confidence: low, note: "Associated with تلمسان per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

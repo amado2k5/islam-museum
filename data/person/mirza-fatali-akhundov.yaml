@@ -1,4 +1,5 @@
 id: person/mirza-fatali-akhundov
+aliases: [person/mirza-fath-ali-akhundzada]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "ميرزا فتح علي أخوندوف", en: "Mirza Fatali Akhundov", ur: "میرزا فتح علی آخوندزادہ" }
 names:
@@ -7,6 +8,8 @@ names:
   - { value: "Mirza Fatali Akhundzade", kind: alternate }
   - { value: "Mirza Fath-Ali Akhundzadeh", kind: alternate }
   - { value: "Sabuhi", kind: pen }
+  - {kind: alternate, value: ميرزا فتح علي آخوندزاده}
+  - {kind: alternate, value: 'Mirza Fath ''Ali Akhund-zada (dramatist, 1812–1878)'}
 gender: male
 summary:
   ar: "كاتب مسرحي وفيلسوف وناقد أذربيجاني من أصل إيراني (1812–1878)، مؤسس الدراما الأذربيجانية والنقد الأدبي الحديث، وصاحب «رسائل كمال الدولة» الناقدة للدين؛ عُرف بوصفه من أوائل الملحدين الصرحاء في العالم الإسلامي، ودعا إلى استبدال الأبجدية العربية بأبجدية لاتينية."
@@ -37,13 +40,14 @@ relations:
   - { type: born_in, target: place/shaki, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-fatali-akhundov] }
   - { type: died_in, target: place/tiflis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-fatali-akhundov] }
   - { type: buried_in, target: place/pantheon-of-azeri-figures, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-fatali-akhundov] }
+  - {confidence: low, note: Associated with الروسية per the record's own summary text; relation type pending review., sources: [source/encyclopaedia-of-islam-2], target: place/russia, type: lived_in}
 faith:
   - value: atheist-or-sceptic
     basis: documented
     note: "Two independent scholarly traditions attest unbelief for Akhundov himself. The Encyclopaedia Iranica entry (Hamid Algar), quoted in full in the English article, calls him 'one of the earliest and most outspoken atheists to appear in the Islamic world', and the English article's lead likewise names him an atheist; the Persian article repeats the Iranica description in Persian. Independently, the Russian article's account of his philosophical views states that his outlook was bound up with his atheistic views and that, being an atheist, he later criticised all religions, above all the dogmas of Islam, citing Azerbaijani philosophical scholarship (Mamedov, 1962); his own Letters of Kamal al-Dowleh (1865) are a published attack on religion. The Soviet-era characterisations do not stand alone: the Iranica attestation is independent of them and rests on his own writings. The Russian article also records, from a single testimony dated 1832, that the young Akhundov, then being groomed for the clergy by his uncle, professed Shia Islam: one testimony about his youth, preserved here but not recorded as a faith segment under the two-source rule. His recorded sympathy for Zoroastrianism and correspondence with the Parsi scholar Maneckji Hataria (Zia-Ebrahimi, cited in the English article) are sympathy, not a conversion attested by any source."
     sources: [source/wikipedia-mirza-fatali-akhundov-en, source/wikipedia-mirza-fatali-akhundov-ru, source/wikipedia-mirza-fatali-akhundov-fa]
 external_ids: { wikidata: "Q315158" }
-sources: [source/wikipedia-mirza-fatali-akhundov-en, source/wikipedia-mirza-fatali-akhundov-az, source/wikipedia-mirza-fatali-akhundov-ru, source/wikipedia-mirza-fatali-akhundov-fa, source/wikipedia-mirza-fatali-akhundov-ar, source/wikipedia-mirza-fatali-akhundov-ur, source/wikidata-mirza-fatali-akhundov]
+sources: [source/wikipedia-mirza-fatali-akhundov-en, source/wikipedia-mirza-fatali-akhundov-az, source/wikipedia-mirza-fatali-akhundov-ru, source/wikipedia-mirza-fatali-akhundov-fa, source/wikipedia-mirza-fatali-akhundov-ar, source/wikipedia-mirza-fatali-akhundov-ur, source/wikidata-mirza-fatali-akhundov, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Mirza Fatali Akhundov' (revision 1375015926), Azerbaijani Wikipedia 'Mirzə Fətəli Axundov' (9076641), Russian Wikipedia 'Ахундов, Мирза Фатали' (153079327), Persian Wikipedia 'میرزا فتحعلی آخوندزاده' (44626000), Arabic (74722471) and Urdu (12041216) stubs, all read on 26 October 2026, with Wikidata item Q315158. The queue lists him in the 1826–1925 section with the years 1812–1878, confirmed by all sources. His atheism is recorded documented on the Encyclopaedia Iranica attestation plus the independent Russian-article attestation, as the faith note sets out; the single 1832 testimony of a youthful Shia profession is preserved in the note only. His death date is a genuine split (10 March in the Russian tradition and Wikidata, 9 March in the English and Persian articles) and is recorded debated."

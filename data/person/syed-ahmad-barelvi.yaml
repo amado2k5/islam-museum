@@ -1,4 +1,5 @@
 id: person/syed-ahmad-barelvi
+aliases: [person/sayyid-ahmad-barelwi]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "أحمد بن عرفان البريلوي", en: "Syed Ahmad Barelvi", ur: "سید احمد بریلوی" }
 names:
@@ -7,6 +8,9 @@ names:
   - { value: "Sayyid Ahmad Shahid", kind: alternate }
   - { value: "Shaheed-e-Balakot", kind: laqab }
   - { value: "Imam-ul-Mujahidin", kind: laqab }
+  - {kind: full, lang: ar, value: السيد أحمد بن محمد عرفان البريلوي}
+  - {kind: alternate, value: السيد أحمد البريلوي}
+  - {kind: alternate, value: 'Sayyid Ahmad Barelwi (militant reformer of India, 1786–1831)'}
 gender: male
 summary:
   ar: "عالم مصلح هندي وقائد عسكري (1786–1831)، وُلد في رائي بريلي وتتلمذ على الشاه عبد العزيز الدهلوي، وقاد حركة «الطريقة المحمدية» الإصلاحية التي حاربت تقديس الأولياء والعادات المتأثرة بالشيعة. بعد حجه (1821–1823) قاد المجاهدين إلى وادي بيشاور، وبويع إمامًا وخليفة في يناير 1827، وحارب إمبراطورية السيخ حتى قُتل في بالاكوت في 6 مايو 1831؛ ويُعدّ شهيدًا وسلفًا لحركتي أهل الحديث وديوبند."
@@ -36,6 +40,7 @@ died:
 relations:
   - { type: student_of, target: person/shah-abd-al-aziz-dihlawi, sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur] }
   - { type: lived_in, target: place/delhi, sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar] }
+  - {confidence: low, note: He studied at Delhi under Shah 'Abd al-'Aziz and served in the army of Amir Khan of Tonk., sources: [source/wikidata], target: place/delhi, type: died_in}
 faith:
   - value: sunni-hanafi
     basis: documented
@@ -46,7 +51,7 @@ faith:
     note: "Independent article texts attest his personal Sufi standing as both disciple and murshid. The English article's lead calls him a 'Naqshbandi Sufi murshid', and its text (Metcalf 1982; Gaborieau 2021; Ziad 2021) says he was a Sufi saint and guide who initiated his followers into the traditional Sufi orders — the Chishtiyya, Qadiriyya, Naqshbandiyya and Naqshbandiyya-Mujaddidiyya — that his Mujaddidi credentials were well established, and that he was a disciple of Shah Abdul Aziz Dehlvi. The Arabic article records that he gave bay'ah to Shah Abdul Aziz and took the tariqa from him. The Urdu article calls him a Sufi in its lead and prints his spiritual chain (silsila) running from him through Shah Abdul Aziz and Shah Waliullah back to Ahmad Sirhindi. On those texts his personal Sufi affiliation is documented."
     sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur]
 external_ids: { wikidata: "Q4165463" }
-sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur, source/wikidata-syed-ahmad-barelvi]
+sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur, source/wikidata-syed-ahmad-barelvi, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Syed Ahmad Barelvi' (revision 1381617371), Arabic Wikipedia 'Ahmad Irfan' (revision 75793247), Urdu Wikipedia 'Syed Ahmad Barelvi' (revision 12014865) and Wikidata item Q4165463 (item revision 2557349202), read via the MediaWiki API on 26 October 2026. He is not the museum's ahmed-raza-khan-barelvi (Ahmed Raza Khan, 1856–1921) and not syed-ahmad-khan (Sir Syed Ahmad Khan, 1817–1898): the English article itself carries a distinguish note against both, and the biographies are entirely distinct. The queue line's dates (1820–1880) are wrong in both years, and its parenthetical '(Legacy Movement)' is a gloss; this record is built for Syed Ahmad Barelvi himself on the sources' dates, 1786–1831. Rae Bareli and Balakot have no place entities in the museum yet, so no born_in or died_in relation is written."

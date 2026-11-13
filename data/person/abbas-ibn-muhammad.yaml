@@ -9,8 +9,9 @@ summary:
   ar: "العباس بن محمد الدوري، حافظ بغدادي ثقة، روى «الرجال» عن يحيى بن معين؛ توفي سنة 271هـ ⁦(884م)⁩."
   en: "Al-'Abbas ibn Muhammad al-Duri (d. 271/884), Baghdadi hafiz, transmitter of Yahya ibn Ma'in's Rijal."
 wings: [people]
-regions: [persia-central-asia]
-periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "0884", hijri: "0271", calendar: julian, precision: year, status: historical, note: "As the record's own summary gives it from al-A'lam: died 271 AH (884 CE).", sources: [source/al-aalam] }
+regions: [levant-iraq]
+periods: [period/abbasid-fragmentation]
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q124749020
@@ -20,10 +21,10 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch7
+  enriched_by:
+    - { generated_by: "Claude Code (audit run, Part II)", model: claude-fable-5-2, run: audit-fixes-2026-11-13, source: "Dates 738-802 written by the date-enrichment pass of 9 November 2026 were another man's (its note read 120-186 AH) and are removed; the death year, era and region now follow the record's own summary: died 271 AH (884 CE), a Baghdadi hafiz (al-A'lam v.3 p.264)" }
 status:
   review: published
   completeness: 3
-born: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: 120–186 AH)" }
-died: { edtf: "802", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: 120–186 AH)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (بغدادي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

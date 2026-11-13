@@ -1,18 +1,14 @@
 ---
-// The Signs-of-the-Hour Browser's home (docs/plan/42-eschatology-browser.md): every mention
-// of the signs of the Hour, the Day of Judgment and all eschatology in the museum's sources
-// — the major and minor signs, barzakh and the grave, resurrection and gathering, reckoning
-// and the Scale, the Sirat and the Hawd, Paradise and Hell, and the named end-times figures —
-// plus the curated records about them, over the one graph. Passages are found at build time
-// by the shared detector in scripts/eschatology.ts, so an eschatology mention in a book
-// harvested later appears here the day its passage record lands; curated records join
-// through the `eschatology-browser` tag. Counts are read from the graph at build time and
-// appear on this page only.
+// The Signs-of-the-Hour Browser's home (docs/plan/42-eschatology-browser.md), scoped to its subject since the audit of
+// 13 November 2026: the records about the signs of the Hour, read in order (the signs in general, the Mahdi, the
+// Dajjal, Yajuj and Majuj, the Hour), curated records before passages at every step. The rest of the eschatology
+// corpus is the business of the Resurrection, Paradise and Fire browsers; the full index by source is at ./all/.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import EschScope from "../../../components/EschScope.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
-import { eschItems, ESCH_SECTIONS, type EschSection, type EschTopic } from "../../../lib/eschatology";
+import { eschItems, signItems, signSteps, type EschTopic } from "../../../lib/eschatology";
 import type { Node } from "../../../../scripts/build-graph";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
@@ -33,15 +29,12 @@ const refOf = (n: Node) => {
   return n.data.ref ? String(n.data.ref) : (n.data.unit ? String(n.data.unit) : "");
 };
 const topicLabel = (t: EschTopic) => G.topics?.[t] ?? t;
-const sectionIds: EschSection[] = [...ESCH_SECTIONS];
-const sections = sectionIds.map((id) => ({ id, items: eschItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
-const status = fmt(G.status, { n: num(eschItems.length, lang), s: num(sections.length, lang) });
-const searchText = (i: (typeof eschItems)[number]) =>
-  [
-    i.node.label.ar, i.node.label.en, i.node.label.ur,
-    summaryText(i.node), excerptOf(i.node), workLabel(i.node),
-    ...i.topics.map(topicLabel),
-  ].filter(Boolean).join(" ");
+// the headline is the set the page renders: every record listed below, counted once
+const rendered = new Set(signSteps.flatMap((s) => [...s.curated, ...s.passages]).map((i) => i.node.id));
+if (rendered.size !== signItems.length) throw new Error(`signs: the page renders ${rendered.size} records but the signs set holds ${signItems.length}`);
+const status = fmt(G.signs_status, { n: num(rendered.size, lang), s: num(signSteps.length, lang), all: num(eschItems.length, lang) });
+const searchText = (i: (typeof signItems)[number]) =>
+  [i.node.label.ar, i.node.label.en, i.node.label.ur, summaryText(i.node), excerptOf(i.node), workLabel(i.node), ...i.topics.map(topicLabel)].filter(Boolean).join(" ");
 ---
 <BaseLayout lang={lang} title={G.title} description={G.lede} path={`/${lang}/signs/`}>
   <div class="wrap" style="padding-block:10px 20px">
@@ -51,50 +44,52 @@ const searchText = (i: (typeof eschItems)[number]) =>
       <h1>{G.title}</h1>
       <p style="font-size:1.2rem;max-width:var(--measure)">{G.lede}</p>
       <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <EschScope lang={lang} current="signs" />
       <h2 id="method-title" style="font-size:1.1rem">{G.method_title}</h2>
       <p class="muted" style="max-width:var(--measure)">{G.method_note}</p>
       <p class="ui muted">{G.api} <a href="/api/v1/eschatology.json"><bdi dir="ltr">/api/v1/eschatology.json</bdi></a></p>
     </div>
 
-    <section aria-labelledby="sections-title" style="margin-top:2rem">
-      <h2 id="sections-title">{G.sections_title}</h2>
-      <nav aria-label={G.sections_title} class="ui" style="margin:0 0 1rem">
-        <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
-          {sections.map((s) => <li><a class="chip" href={`#t-${s.id}`}>{G.sections[s.id]?.title ?? s.id} · {num(s.items.length, lang)}</a></li>)}
-        </ul>
+    <section aria-labelledby="path-title" style="margin-top:2rem">
+      <h2 id="path-title">{G.path_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{G.path_note}</p>
+      <nav aria-label={G.path_title} class="ui" style="margin:0 0 1rem">
+        <ol style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {signSteps.map((s, k) => <li><a class="chip" href={`#t-${s.id}`}>{k + 1}. {G.steps[s.id].title} · {num(s.curated.length + s.passages.length, lang)}</a></li>)}
+        </ol>
       </nav>
       <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
         <label for="signs-filter">{G.filter_label}</label>
         <input id="signs-filter" type="search" data-signs-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
       </p>
       <div data-pagefind-ignore>
-        {sections.map((s) => (
-          <section data-signs-section aria-labelledby={`t-${s.id}`} style="margin:1.4rem 0">
-            <h3 id={`t-${s.id}`} style="font-size:1.1rem;margin:0 0 .2rem">{G.sections[s.id]?.title ?? s.id}</h3>
-            <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{G.sections[s.id]?.desc}</p>
-            <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
-              {s.items.map((i) => (
-                <li data-signs-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
-                  <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a>
-                  {i.node.class === "passage" && (
-                    <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">
-                      {workLabel(i.node)}{refOf(i.node) ? <bdi> · {refOf(i.node)}</bdi> : null}
-                    </p>
-                  )}
-                  {i.topics.length > 0 && (
-                    <p class="ui muted" style="margin:.25rem 0 0;font-size:.78rem" dir="auto">
-                      {i.topics.map((t) => topicLabel(t)).join(" · ")}
-                    </p>
-                  )}
-                  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{excerptOf(i.node)}</p>
-                </li>
-              ))}
-            </ol>
+        {signSteps.map((s, k) => (
+          <section data-signs-section aria-labelledby={`t-${s.id}`} style="margin:1.6rem 0">
+            <h3 id={`t-${s.id}`} style="font-size:1.15rem;margin:0 0 .2rem">{k + 1}. {G.steps[s.id].title}</h3>
+            <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{G.steps[s.id].desc}</p>
+            {[{ id: "curated", items: s.curated }, { id: "passages", items: s.passages }].filter((g) => g.items.length > 0).map((g) => (
+              <div data-signs-section>
+                <h4 class="ui" style="font-size:.95rem;margin:.8rem 0 .4rem">{G.groups[g.id]} <span class="muted" style="font-weight:400">· {num(g.items.length, lang)}</span></h4>
+                <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+                  {g.items.map((i) => (
+                    <li data-signs-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
+                      <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a>
+                      {i.node.class === "passage" && (
+                        <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">
+                          {workLabel(i.node)}{refOf(i.node) ? <bdi> · {refOf(i.node)}</bdi> : null}
+                        </p>
+                      )}
+                      <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{excerptOf(i.node)}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
           </section>
         ))}
       </div>
       <p class="panel ui" data-signs-none hidden>{G.filter_none}</p>
-      {eschItems.length === 0 && <p class="panel ui">{G.empty}</p>}
+      {signItems.length === 0 && <p class="panel ui">{G.empty}</p>}
     </section>
   </div>
   <script src="../../../scripts/signs-filter.ts"></script>

@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1280", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
-died: { edtf: "1339", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]

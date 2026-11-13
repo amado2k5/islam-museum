@@ -1,8 +1,11 @@
 id: person/al-sakhawi-alam
+aliases: [person/ilm-al-din-al-sakhawi]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "علم الدين السخاوي المقريء", en: "Alam al-Din al-Sakhawi" }
 names:
   - { value: "علم الدين أبو الحسن علي بن محمد بن عبد الصمد بن عبد الأحد الهمداني السخاوي المقريء النحوي الشافعي", kind: full }
+  - {kind: alternate, value: علم الدين السخاوي}
+  - {kind: alternate, value: Ilm al-Din al-Sakhawi}
 born: { edtf: "1164~", hijri: "0559~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد قبل الستين وخمسمائة بسخاو {cite:shadharat-dhahab p. 230}." }
 died: { edtf: "1245-11~", hijri: "0643-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الآخرة سنة ثلاث وأربعين وستمائة ودفن بقاسيون {cite:shadharat-dhahab p. 230}." }
 summary:
@@ -19,7 +22,8 @@ faith:
 relations:
   - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
   - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
+  - {confidence: medium, note: Place link from Wikidata; pending a second source., sources: [source/wikidata], target: place/xois, type: born_in}
+sources: [source/shadharat-dhahab, source/al-aalam]
 status:
   review: published
   completeness: 3
@@ -35,3 +39,4 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
+external_ids: {wikidata: Q12190429}

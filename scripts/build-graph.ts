@@ -192,9 +192,16 @@ export function compile(): Compiled {
     };
     nodes.set(id, node);
   }
+  // A former id (a rename, a merged duplicate) stands for the record that lists it under `aliases`. Until the audit of
+  // 13 November 2026 nothing resolved it here: a relation whose target was a former id was dropped without a word
+  // (validate.ts accepts such a target), and a stub page was built for the former id. Now a former id that is not itself
+  // a record resolves to its owner, for every edge below, and gets no stub.
+  const aliasOwner = new Map<string, string>();
+  for (const e of entities) for (const a of e.aliases ?? []) if (!nodes.has(a)) aliasOwner.set(a, e.id);
+  const canon = (id: string) => aliasOwner.get(id) ?? id;
   for (const s of stubs) {
     if (!s.id) continue;
-    if (nodes.has(s.id)) continue;
+    if (nodes.has(s.id) || aliasOwner.has(s.id)) continue;
     const [cls, slug] = s.id.split("/");
     nodes.set(s.id, {
       id: s.id, class: cls, slug, label: s.label ?? { en: slug }, summary: {}, stub: true, wings: [], regions: [], periods: [],
@@ -212,10 +219,11 @@ export function compile(): Compiled {
   const add = (e: Edge) => { const k = `${e.from}|${e.to}|${e.type}`; if (!edges.has(k)) edges.set(k, e); };
   for (const e of entities) {
     for (const r of e.relations ?? []) {
-      const rp = resolvePredicate(predicates, r.type, e.class, String(r.target ?? "").split("/")[0]);
-      if (!rp || !nodes.has(r.target)) continue; // validate.ts reports these
+      const target = canon(String(r.target ?? ""));
+      const rp = resolvePredicate(predicates, r.type, e.class, target.split("/")[0]);
+      if (!rp || !nodes.has(target) || target === e.id) continue; // validate.ts reports a target that does not exist
       if (rp.pred.derived) continue;
-      const [src, dst] = rp.reversed ? [r.target, e.id] : [e.id, r.target];
+      const [src, dst] = rp.reversed ? [target, e.id] : [e.id, target];
       const { type: _t, target: _g, ...meta } = r;
       add({ from: src, to: dst, type: rp.canonical, inverse: false, ...meta });
       add({ from: dst, to: src, type: rp.pred.inverse, inverse: true, ...meta });

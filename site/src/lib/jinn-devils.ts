@@ -27,6 +27,25 @@ export const jinnDevilsItems: JinnDevilsItem[] = realNodes
   .filter((i) => i.sections.length > 0)
   .sort((a, b) => a.node.id.localeCompare(b.node.id));
 
+/**
+ * What a record IS, read from its own class and kind (audit of 13 November 2026). The four topics say which accounts a
+ * record belongs to; they never said what the record is, and a Companion who narrates a report about devils stood in
+ * a list headed "Devils". Inside each topic the records are now listed by kind: the beings themselves (a concept whose
+ * kind is angel, jinn or devil), teachings and terms, events, named figures (every person-class record: the angels and
+ * devils the sources name one by one stand there beside the prophets, Companions and narrators of the accounts),
+ * questions and works.
+ */
+export const JD_GROUPS = ["beings", "teachings", "events", "figures", "questions", "works"] as const;
+export type JdGroup = (typeof JD_GROUPS)[number];
+export const BEING_KINDS = ["angel", "jinn", "devil"];
+export const groupOf = (n: Node): JdGroup =>
+  n.class === "concept" ? (BEING_KINDS.includes(String(n.data.kind)) ? "beings" : "teachings")
+  : n.class === "person" ? "figures"
+  : n.class === "question" ? "questions"
+  : n.class === "work" || n.class === "source" ? "works"
+  : n.class === "event" || n.class === "journey" ? "events"
+  : "teachings";
+
 /** Flat lookup for subject pages: one entry per node id. */
 export const jinnDevilsById = new Map(jinnDevilsItems.map((i) => [i.node.id, i]));
 

@@ -1,8 +1,11 @@
 id: person/yusuf-al-hamadhani
+aliases: [person/yusuf-al-hamdani]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "يوسف الهمذاني" }
 names:
   - { value: "يوسف بن أيوب بن يوسف بن الحسين بن وهرة أبو يعقوب الهمذاني", kind: full }
+  - {kind: alternate, value: يوسف الهمداني}
+  - {kind: alternate, value: Yusuf al-Hamdani}
 gender: male
 roles: [jurist, sufi]
 born: { edtf: "1048~", hijri: "0440", calendar: julian, precision: year, status: debated, derived: true, note: "مولده تقديراً لا تحقيقاً سنة أربعين أو إحدى وأربعين وأربعمائة ببوزنجرد قرية من قرى همذان مما يلي الري {cite:wafayat-ayan p. 80}." }
@@ -18,7 +21,8 @@ relations:
   - { type: born_in, target: place/hamadan, sources: [source/wafayat-ayan] }
   - { type: died_in, target: place/merv, sources: [source/wafayat-ayan] }
   - { type: born_in, target: place/hamadhan, sources: [source/wafayat-ayan] }
-sources: [source/wafayat-ayan]
+  - {confidence: low, note: Association inferred from the nisba 'الهمداني'; specific birthplace or residence is not individually documented., sources: [source/al-aalam], target: place/hamadan, type: lived_in}
+sources: [source/wafayat-ayan, source/al-aalam]
 provenance:
   layer: own-research
   source: "وفيات الأعيان — ابن خلكان (حرف الياء) ص 78-80"
@@ -32,3 +36,4 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wafayat-ayan]
+external_ids: {wikidata: Q3180903}

@@ -9,8 +9,6 @@ roles: [jurist, scholar]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia]
 themes: [law-and-courts]
-born: { edtf: "1150~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
-died: { edtf: "1200~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
 relations:
   - { type: died_in, target: place/jurjan, sources: [source/wikidata], confidence: low, note: "توفي بجرجانية خوارزم سنة خمس وأربعين وستمائة بحسب الكتاب." }
   - { type: died_in, target: place/khwarizm, sources: [source/wikidata], confidence: low, note: "توفي بجرجانية خوارزم سنة خمس وأربعين وستمائة بحسب الكتاب." }

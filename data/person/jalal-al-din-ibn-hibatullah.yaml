@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1168", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wafayat al-A'yan / Ibn Khallikan" }
-died: { edtf: "1250", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wafayat al-A'yan / Ibn Khallikan" }
 relations:
   - { type: born_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

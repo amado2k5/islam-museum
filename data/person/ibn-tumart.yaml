@@ -1,4 +1,5 @@
 id: person/ibn-tumart
+aliases: [person/muhammad-ibn-tumart]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: "محمد بن تومرت"
@@ -18,7 +19,10 @@ died: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/igiliz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tinmel, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+  - {confidence: low, note: وفي شذرات الذهب هو المصمودي البربري المدعي أنه علوي حسني وأنه المهدي رحل إلى المشرق ولقي الغزالي وطائفة وحصل ف, sources: [source/shadharat-dhahab], target: place/bejaia, type: ruled_over}
+  - {confidence: low, note: 'ar: ''إمام المصامدة وصاحب دولة الموحدين المشتهر بالمهدي، أصله من هرغة؛ نزل تلمسان وحج ودخل العراق ولقي جلة العل', sources: [source/tarikh-ibn-khaldun-ibar], target: place/bejaia, type: lived_in}
+  - {confidence: low, note: 'ar: ''إمام المصامدة وصاحب دولة الموحدين المشتهر بالمهدي، أصله من هرغة؛ نزل تلمسان وحج ودخل العراق ولقي جلة العل', sources: [source/tarikh-ibn-khaldun-ibar], target: place/iraq, type: lived_in}
+sources: [source/tarikh-islam-hasan-ibrahim, source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q455925
 provenance:

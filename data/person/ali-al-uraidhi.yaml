@@ -23,8 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "748~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
-died: { edtf: "825~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
 relations:
   - { type: born_in, target: place/medina, note: "Wikidata Q35484 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/medina, note: "Wikidata Q35484 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
