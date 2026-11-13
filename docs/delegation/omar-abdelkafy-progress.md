@@ -2357,3 +2357,15 @@ Resume point: mawkib-al-nour episode 19 (branch from origin/main).
 | A garbled passage on blessing and the poor and a garbled remark on the pause in the pulse of speech | ep19 00:03:30-00:04:00, 00:24:00 | Garbled, partly unreadable | Clarity | Open |
 
 Resume point: mawkib-al-nour episode 20 (branch from origin/main).
+
+### mawkib-al-nour ep20 (12 Nov 2026)
+
+23 points written for episode 20 (ar, en, ur); 16 needs_source marks per language file (ar 16, en 16, ur 16); 6 new `about` edges. Quran verses referenced only through passage links (35-8, 2-85, 2-286, 4-65, 12-53, 75-2, 89-27, 111-1, 12-17, 12-18, 15-85, 73-10, 18-6, 88-21, 88-22, 8-32, 28-57, 7-172); none typed. Proposal for the founder, not applied: the ruling that arrogance is refusing part of the religion (ep20 00:04:00) and the application to the headscarf (00:07:00) are recorded as his opinion; the claim that Abu Bakr led the first expedition after the Hijra (00:12:00), the count of Companions buried in Mecca and Medina (00:25:30) and the statistic attributed to Germany (00:27:30) are unsourced and are for the founder to decide on.
+
+| Excluded (mawkib-al-nour ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and supplication, and the closing prayer | ep20 00:00:00-00:02:00 (recitation, Quran text never typed; supplication), 00:44:00-00:44:30 (closing) | Not lesson content | Content rule, Quran rule | Open |
+| Garbled windows and loops | ep20 00:03:30 (a long repeated syllable), 00:17:00-00:17:30 (a long repeated syllable), 00:22:30 (a long repeated syllable), 00:29:30-00:30:00 (a long repeated phrase), 00:30:00-00:30:30 (a long repeated phrase) | Not recoverable | Clarity, Loop check | Open |
+| An aside on a cinema in America showing a film of orange groves, a verse on graves read in a garbled stretch, and a comparison of a mother and daughter that ends in a judgement on who would receive the Prophet's greeting | ep20 00:22:00-00:22:30, 00:26:00-00:26:30, 00:40:30-00:41:00 | Garbled or a speculation on how the Prophet would judge named kinds of people | Clarity, Content rule | Open |
+
+Resume point: mawkib-al-nour episode 21 (branch from origin/main).
