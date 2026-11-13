@@ -27,7 +27,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const N = (T as any).places;
 const label = (n: any) => labelOf(n, lang);
-const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "");
+const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\s+([.,؛،])/g, "$1"); // citation markers belong to the entity page's footnotes
 const sectionIds = [...PLACES_SECTIONS];
 const sections = sectionIds.map((id) => ({ id, items: placesItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
 const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/places/`);

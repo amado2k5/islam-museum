@@ -158,8 +158,9 @@ const cid = (r: number, c: number) => `${r}-${c}`;
   .sg-q-outline h3 { margin: 0 0 .2rem; font-size: 1rem; }
   @media (max-width: 640px) {
     .sg-q { --cell: 30px; }
-    .sg-q-t { min-inline-size: 330px; }
-    .sg-q-row { inline-size: 30%; padding: 4px 6px !important; font-size: .78rem; line-height: 1.25; }
+    .sg-q-t { min-inline-size: 500px; }
+    .sg-q-corner, .sg-q-row { inline-size: 136px; }
+    .sg-q-row { padding: 4px 8px !important; font-size: .8rem; line-height: 1.25; overflow-wrap: break-word; }
     .sg-q-col { block-size: 78px; padding: 4px 0 !important; font-size: .78rem; }
     .sg-q-colname { writing-mode: vertical-rl; transform: rotate(180deg); display: inline-block; white-space: nowrap; }
     .sg-q-totalh { inline-size: 13%; font-size: .72rem; padding: 4px 0 !important; }
