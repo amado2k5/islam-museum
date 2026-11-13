@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1185", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mu'jib fi Talkhis Akhbar al-Maghrib; EI2 (581–647 AH)" }
-died: { edtf: "1250", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mu'jib fi Talkhis Akhbar al-Maghrib; EI2 (581–647 AH)" }
+born: { edtf: "1185", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mu'jib fi Talkhis Akhbar al-Maghrib; EI2 (581–647 AH) Confirmed on 13 November 2026 against Wikidata Q4664888 (P569, a statement with a reference), item revision 2549392733.", sources: [source/wikidata] }
+died: { edtf: "1250", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mu'jib fi Talkhis Akhbar al-Maghrib; EI2 (581–647 AH) Confirmed on 13 November 2026 against Wikidata Q4664888 (P570, a statement with a reference), item revision 2549392733.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/marrakesh, note: "Place association from the person's nisba/name (المراكشي); denotes association, not proven residence.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }

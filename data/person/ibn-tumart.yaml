@@ -14,8 +14,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/buyid-seljuk-fatimid-era]
-born: { edtf: "1080~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
-died: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q455925 (P570, a statement with a reference), item revision 2558176343.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/igiliz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tinmel, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

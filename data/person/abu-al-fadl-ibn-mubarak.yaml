@@ -25,7 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1551", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Abul-Fazl (Akbarnama)" }
-died: { edtf: "1602", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Abul-Fazl (Akbarnama)" }
+born: { edtf: "1551", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Abul-Fazl (Akbarnama) Confirmed on 13 November 2026 against Wikidata Q334752 (P569, a statement with a reference), item revision 2562784023.", sources: [source/wikidata] }
+died: { edtf: "1602", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Abul-Fazl (Akbarnama) Confirmed on 13 November 2026 against Wikidata Q334752 (P570, a statement with a reference), item revision 2562784023.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/india, note: "Only the record-level region (south-asia) is attested; broad-region edge flagged for review.", sources: [source/tarikh-islam-hasan-ibrahim], confidence: low }

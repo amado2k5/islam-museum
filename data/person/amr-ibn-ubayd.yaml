@@ -19,8 +19,8 @@ sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/mizan-itid
 status:
   review: published
   completeness: 3
-born: { edtf: "699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
-died: { edtf: "761", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
+born: { edtf: "699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat) Confirmed on 13 November 2026 against Wikidata Q1048593 (P569, a statement with a reference), item revision 2533307057.", sources: [source/wikidata] }
+died: { edtf: "761", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat) Confirmed on 13 November 2026 against Wikidata Q1048593 (P570, a statement with a reference), item revision 2533307057.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/balkh, note: "Wikidata Q182159 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

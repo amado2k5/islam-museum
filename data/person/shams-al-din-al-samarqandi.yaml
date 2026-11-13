@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: DSB" }
-died: { edtf: "1310~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: DSB" }
+born: { edtf: "1250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: DSB Confirmed on 13 November 2026 against Wikidata Q2031579 (P569, a statement with a reference), item revision 2568210597.", sources: [source/wikidata] }
+died: { edtf: "1310~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: DSB Confirmed on 13 November 2026 against Wikidata Q2031579 (P570, a statement with a reference), item revision 2568210597.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/samarqand, confidence: low, note: "Association inferred from the nisba 'السمرقندي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

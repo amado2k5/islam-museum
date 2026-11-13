@@ -11,8 +11,8 @@ gender: male
 wings: [people]
 periods: [period/modern-era]
 external_ids: { wikidata: "Q471046" }
-born: { edtf: "1865", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Rashid Rida)" }
-died: { edtf: "1935", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Rashid Rida)" }
+born: { edtf: "1865", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Rashid Rida) Confirmed on 13 November 2026 against Wikidata Q471046 (P569, a statement with a reference), item revision 2567909834.", sources: [source/wikidata] }
+died: { edtf: "1935", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Rashid Rida) Confirmed on 13 November 2026 against Wikidata Q471046 (P570, a statement with a reference), item revision 2567909834.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/qalamun, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4703072)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
@@ -21,6 +21,7 @@ sources: [source/stoddard-arslan-hadir-1923, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 1 }
 provenance:
+  source: "the record's cited sources (source/stoddard-arslan-hadir-1923; source/encyclopaedia-of-islam-2); field added 13 November 2026"
   layer: own-research
   generated_by: "Claude Haiku 5.5"
   extraction_flow: "Apple Vision OCR (text layer) -> manual reading of scan pages 301-303 -> summary in own words"

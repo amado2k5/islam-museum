@@ -24,6 +24,6 @@ status:
   review: draft
   completeness: 1
 born: { edtf: "1934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary obituaries" }
-died: { edtf: "2023", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary obituaries" }
+died: { edtf: "2023", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary obituaries Confirmed on 13 November 2026 against Wikidata Q12227889 (P570, a statement with a reference), item revision 2534209413.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

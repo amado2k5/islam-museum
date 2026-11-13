@@ -17,6 +17,6 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch20
 born: { edtf: "910~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; Walker (Abu Ya'qub al-Sijistani)" }
-died: { edtf: "971~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; Walker (Abu Ya'qub al-Sijistani)" }
+died: { edtf: "971~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; Walker (Abu Ya'qub al-Sijistani) Confirmed on 13 November 2026 against Wikidata Q1188700 (P570, a statement with a reference), item revision 2492243787.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/sijistan, note: "Place association from the person's nisba/name (السجستاني); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

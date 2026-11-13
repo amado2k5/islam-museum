@@ -23,8 +23,8 @@ external_ids: { wikidata: "Q335443", nomisma: "al-mu'izz_li-din_allah" }
 sources: [source/khitat-maqrizi-1998, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/nomisma]
 importance: 2
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the Ramadan 362 AH inscription and the naming of al-Qahira are read from al-Maqrizi's Khitat (local scan, pp. 1067, 2174); the Suyuti and Ibn al-Athir sentences keep their own citations" }
-born: { edtf: "931", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'izz li-Din Allah' / Heinz Halm; 319–365 AH)" }
-died: { edtf: "975", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'izz li-Din Allah' / Heinz Halm; 319–365 AH)" }
+born: { edtf: "931", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'izz li-Din Allah' / Heinz Halm; 319–365 AH) Confirmed on 13 November 2026 against Wikidata Q335443 (P569, a statement with a reference), item revision 2539118353.", sources: [source/wikidata] }
+died: { edtf: "975", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'izz li-Din Allah' / Heinz Halm; 319–365 AH) Confirmed on 13 November 2026 against Wikidata Q335443 (P570, a statement with a reference), item revision 2539118353.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
   - { type: successor_of, target: person/al-mansur-ubaydi, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

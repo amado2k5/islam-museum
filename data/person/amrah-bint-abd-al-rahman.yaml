@@ -23,7 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "649", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
-died: { edtf: "724", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "724", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal Confirmed on 13 November 2026 against Wikidata Q16124047 (P570, a statement with a reference), item revision 2494375542.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/medina, note: "From text: of Medina", sources: [source/al-aalam], confidence: low }

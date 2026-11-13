@@ -24,7 +24,7 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "1145", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kubra); TDV Islam Ansiklopedisi" }
+born: { edtf: "1145", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kubra); TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q1797377 (P569, a statement with a reference), item revision 2531201052.", sources: [source/wikidata] }
 died: { edtf: "1221", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kubra); TDV Islam Ansiklopedisi" }
 relations:
   - { type: lived_in, target: place/khwarizm, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/shadharat-dhahab] }

@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1493", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabaqat al-Kubra; EI2 ('Sha'rani': 898–973 AH)" }
-died: { edtf: "1565", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabaqat al-Kubra; EI2 ('Sha'rani': 898–973 AH)" }
+born: { edtf: "1493", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabaqat al-Kubra; EI2 ('Sha'rani': 898–973 AH) Confirmed on 13 November 2026 against Wikidata Q3594808 (P569, a statement with a reference), item revision 2568056550.", sources: [source/wikidata] }
+died: { edtf: "1565", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabaqat al-Kubra; EI2 ('Sha'rani': 898–973 AH) Confirmed on 13 November 2026 against Wikidata Q3594808 (P570, a statement with a reference), item revision 2568056550.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: Egyptian (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

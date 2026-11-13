@@ -7,7 +7,7 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 external_ids: { wikidata: "Q5666131" }
-died: { edtf: "685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Azarika); al-Tabari" }
+died: { edtf: "685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Azarika); al-Tabari Confirmed on 13 November 2026 against Wikidata Q5666131 (P570, a statement with a reference), item revision 2533380609.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/najd, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q208154)" }
   - { type: died_in, target: place/al-ahwaz, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q170366)" }

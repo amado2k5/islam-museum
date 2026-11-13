@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1359", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
-died: { edtf: "1426", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+born: { edtf: "1359", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q9006619 (P569, a statement with a reference), item revision 2557019831.", sources: [source/wikidata] }
+died: { edtf: "1426", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q9006619 (P570, a statement with a reference), item revision 2557019831.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/granada, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/granada, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

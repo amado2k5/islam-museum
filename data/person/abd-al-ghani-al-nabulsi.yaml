@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Silk al-Durar (al-Muradi: 1050–1143 AH)" }
-died: { edtf: "1731", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Silk al-Durar (al-Muradi: 1050–1143 AH)" }
+born: { edtf: "1641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Silk al-Durar (al-Muradi: 1050–1143 AH) Confirmed on 13 November 2026 against Wikidata Q4164547 (P569, a statement with a reference), item revision 2568798336.", sources: [source/wikidata] }
+died: { edtf: "1731", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Silk al-Durar (al-Muradi: 1050–1143 AH) Confirmed on 13 November 2026 against Wikidata Q4164547 (P570, a statement with a reference), item revision 2568798336.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/nablus, note: "Place association from the person's nisba/name (النابلسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

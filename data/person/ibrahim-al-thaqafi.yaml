@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-died: { edtf: "896", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+died: { edtf: "896", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a Confirmed on 13 November 2026 against Wikidata Q12181560 (P570, a statement with a reference), item revision 2520576942.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/isfahan-province, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

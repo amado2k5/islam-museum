@@ -63,7 +63,7 @@ importance: 1
 status:
   review: published
   completeness: 3
-born: { edtf: "801~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kindi" }
-died: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kindi" }
+born: { edtf: "801~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kindi Confirmed on 13 November 2026 against Wikidata Q179759 (P569, a statement with a reference), item revision 2567640918.", sources: [source/wikidata] }
+died: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kindi Confirmed on 13 November 2026 against Wikidata Q179759 (P570, a statement with a reference), item revision 2567640918.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/farghana, note: "Place association from the person's nisba/name (farghani); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/kindi-cryptanalysis-1987, source/tdv-muamma, source/tdv-kindi-kaya, source/kindi-drug-degrees-prioreschi-2002], confidence: low }

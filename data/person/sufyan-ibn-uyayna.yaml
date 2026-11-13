@@ -8,7 +8,7 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 born: { edtf: "725", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "814", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "814", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q7634669 (P570, a statement with a reference), item revision 2563887589.", sources: [source/wikidata] }
 relations:
   - { type: participated_in, target: event/fuqaha-consulta-on-cyprus, role: "أفتى بأن الناقض لا ذمة له", sources: [source/futuh-buldan-maarif-1407] }
   - { type: born_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q186234)" }

@@ -126,6 +126,8 @@ Twenty-four classes: `person`, `group`, `polity`, `event`, `period`, `journey`, 
 
 A date is an object (`schema/_base.schema.json`, `$defs.date`) so that nothing is lost in conversion: an [EDTF](https://www.loc.gov/standards/datetime/) string (`edtf`), the Hijri date as written in the sources (`hijri`), the calendar the source used (`calendar`: `julian` or `gregorian`), the `precision` (`day`, `month`, `year`, `decade`, `century`), a claim `status` (`scriptural`, `tradition`, `historical`, `debated`, `legend`), and the `sources` of the date itself. Conversions are marked `derived: true`. Details and the Hijri anchor tests: `docs/site/dates-timeline-maps.md` and `scripts/hijri/`.
 
+**Unverified dates.** In the API and the compiled graph a person record may carry `unverified_dates` (`born`, `died`, each a date object). These are years an automated pass recorded and no source has yet confirmed: they are kept out of `born` and `died`, so nothing that reads those fields places the person in time by them. The data file itself still holds them under `born`/`died` with the note "Date-enrichment pass" and no `sources`.
+
 ### Collection context
 
 Records are harvested from classical Arabic sources first (sira, hadith collections, tabaqat, chronicles, geographers) and from modern reference works, by human contributors and by AI-assisted pipelines working under `docs/agents/`. Every record names its sources; the provenance block says who or what wrote it. All records are currently in `draft` review status: nothing is marked `reviewed` until a person has checked it against its sources, and `docs/coverage.md` (regenerated on every content commit) reports the counts by review status. Read the data as a cited draft reference, not as a verified corpus.

@@ -7,8 +7,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe, maghreb]
-born: { edtf: "1076", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Bashkuwal, al-Sila; al-Dhahabi, Siyar" }
-died: { edtf: "1148", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Bashkuwal, al-Sila; al-Dhahabi, Siyar" }
+born: { edtf: "1076", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Bashkuwal, al-Sila; al-Dhahabi, Siyar Confirmed on 13 November 2026 against Wikidata Q918471 (P569, a statement with a reference), item revision 2567378504.", sources: [source/wikidata] }
+died: { edtf: "1148", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Bashkuwal, al-Sila; al-Dhahabi, Siyar Confirmed on 13 November 2026 against Wikidata Q918471 (P570, a statement with a reference), item revision 2567378504.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/mughila, note: "From text: توفي بمغيلة قرية من مدينة فاس ودفن ب", sources: [source/nafh-tib-maqqari] }
   - { type: buried_in, target: place/fez, note: "From text: buried at Fez", sources: [source/nafh-tib-maqqari] }

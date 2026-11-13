@@ -41,6 +41,22 @@ export interface Coverage {
   avgSourcesPerEntity: number; womenShare: number | null; wanted: string[];
 }
 
+/** A date the date-enrichment pass wrote and no source has confirmed since (a confirmed one carries `sources`). */
+export const unverifiedDate = (d: any): boolean =>
+  !!d && typeof d === "object" && /Date-enrichment pass/.test(String(d.note ?? "")) && !(Array.isArray(d.sources) && d.sources.length);
+/** Whether a record's own summary states the year of a date (in CE, or the Hijri year it corresponds to, give or take
+ *  one for the calendars' overlap): a date its own cited text repeats is tested, and is not held back. */
+export function yearStatedIn(d: any, texts: string[]): boolean {
+  const m = /^(-?)0*(\d+)/.exec(String(d?.edtf ?? ""));
+  if (!m || m[1]) return false;
+  const ce = Number(m[2]);
+  const ah = Math.round((ce - 622) * 1.0307);
+  const want = new Set([ce, ...(ah > 0 ? [ah - 1, ah, ah + 1] : [])]);
+  const digits = (t: string) => t.replace(/[\u0660-\u0669]/g, (c) => String(c.charCodeAt(0) - 0x660)).replace(/[\u06f0-\u06f9]/g, (c) => String(c.charCodeAt(0) - 0x6f0));
+  for (const t of texts) for (const x of digits(t).match(/\d{2,4}/g) ?? []) if (want.has(Number(x))) return true;
+  return false;
+}
+
 /** Primary time extent of an entity for timelines. */
 export function entitySpan(e: Entity): { span?: Range; display?: { start?: any; end?: any } } {
   const pick = (a?: any, b?: any) => {
@@ -206,7 +222,19 @@ export function compile(): Compiled {
   const stubFiles = [p("data", "_stubs.yaml"), ...listFiles(p("data", "_stubs.d"), ".yaml")].map((f) => dates.dateOf(rel(f)));
   const stubsUpdated = stubFiles.length ? stubFiles.sort().at(-1)! : dates.dateOf("data");
 
-  for (const { entity: e, file } of loaded) {
+  for (const { entity: e0, file } of loaded) {
+    // A birth or death year written by the date-enrichment pass of 9 November 2026 that no source confirms (founder
+    // decision of 13 November 2026), and that the record's own summary does not state either: it stays in the data file
+    // and is shown on the person's own page, marked, but it
+    // places nobody on a timeline, in a sorted list, in JSON-LD or among contemporaries. So it leaves `born`/`died`
+    // here and travels as `unverified_dates`; nothing else in the build has to know.
+    let e = e0;
+    if (e.class === "person") {
+      const held: Record<string, any> = {};
+      const own = Object.values((e.summary ?? {}) as Record<string, string>).map(String);
+      for (const k of ["born", "died"] as const) if (unverifiedDate((e as any)[k]) && !yearStatedIn((e as any)[k], own)) held[k] = (e as any)[k];
+      if (Object.keys(held).length) { e = { ...e, unverified_dates: held } as any; for (const k of Object.keys(held)) delete (e as any)[k]; }
+    }
     const { span, display } = entitySpan(e);
     const { relations, label, summary, wings, regions, periods, tags, aliases, themes, id, class: cls, ...rest } = e;
     // the pipeline's frame around a summary ("Draft card for …; not yet checked on the page") never leaves the data file

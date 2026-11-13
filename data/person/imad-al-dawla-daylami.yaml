@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-born: { edtf: "892~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
-died: { edtf: "949", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+born: { edtf: "892~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q912259 (P569, a statement with a reference), item revision 2565484812.", sources: [source/wikidata] }
+died: { edtf: "949", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q912259 (P570, a statement with a reference), item revision 2565484812.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/lahijan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/istakhr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

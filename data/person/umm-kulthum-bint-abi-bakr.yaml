@@ -14,7 +14,6 @@ provenance:
   run: lib-wafayat-batch-15
 external_ids: { wikidata: "Q7881640" }
 born: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal; al-Tabaqat al-Kubra" }
-died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal; al-Tabaqat al-Kubra" }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 sources: [source/wafayat-ayan, source/ibn-hajar-isaba]

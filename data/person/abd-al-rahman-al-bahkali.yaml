@@ -23,7 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1787", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Ud; al-A'lam (al-Zirikli: 1202–1248 AH)" }
-died: { edtf: "1832", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Ud; al-A'lam (al-Zirikli: 1202–1248 AH)" }
+died: { edtf: "1832", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Ud; al-A'lam (al-Zirikli: 1202–1248 AH) Confirmed on 13 November 2026 against Wikidata Q117832004 (P570, a statement with a reference), item revision 2492232503.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

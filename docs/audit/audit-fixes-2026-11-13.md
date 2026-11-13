@@ -296,7 +296,7 @@ Recorded in `docs/decisions/inbox/audit-part-vi-founder-choices-2026-11-13.yaml`
 | AI text on published records (items 1, 13; the Kiswa) | Label the text; records stay published; wing counts unchanged | Done: `status.ai_passages`, `status.ai_narrative`, `tafsir.ai_note`; marker `provenance.lead_deepened` or `status.ai_unread` |
 | Tafsir digests (item 11) | One sentence inside the Tafsir section of the verse pages that have a digest | Done |
 | Beings filed as persons (item 7) | Optional `being` on persons; Jibril and Mika'il typed as angels from al-Tabari on 2:98; the four disputed beings untyped | Done |
-| Untestable dates (item 8) | Compare with Wikidata where there is an id; the rest leave timelines and sorted lists and stay on the page, marked unverified | To do |
+| Untestable dates (item 8) | Compare with Wikidata where there is an id; the rest leave timelines and sorted lists and stay on the page, marked unverified | Done, see below |
 | Connectedness (item 9) | Measure subject records only; count the sources nothing cites beside it | Done: `scripts/audit/subject-reach.py` |
 | S2 | Write the two missing digests from al-Tabari, al-Turki edition, vol. 19 pp. 466-469 and vol. 24 pp. 727-730 | Done: S2 is GREEN for the two verses the brief named; the pages were read on Shamela through a fetch, not on a printed copy |
 | S24 | Build the Du'a occasions axis from al-Nawawi's al-Adhkar (structure checked on Shamela) | To do |
@@ -314,3 +314,19 @@ The Grand Tour's target (60% of all published records within three relation-hops
 | Published subject records with no relation at all | 1,654 (passages 671, media 222, works 162, buildings 116, concepts 100, listings 79, groups 76, places 72) |
 
 The 74.3% quoted in the Part III section was measured before the duplicate merges and the day's other changes on `main`. The Grand Tour's own numbers file (`docs/fable-run/NUMBERS.md`) carries a similar figure that also leaves out media and dataset records (73.9%); this one leaves out sources only. No target is set here: the last row is the work list.
+
+### The dates of the enrichment pass, checked against Wikidata (13 November 2026)
+
+2,597 person records carry both a date from the pass and a Wikidata id: 3,904 date fields. Each item was fetched once (birth and death statements, last revision id); a year counts as agreeing when it is within one year of the record's.
+
+| Outcome | Dates | What was done |
+|---|---|---|
+| Agrees with a Wikidata statement that carries a reference (other than "imported from Wikipedia") | 1,407 | Kept; the date gains `sources: [source/wikidata]` and its note names the item, the property and the revision |
+| Wikidata gives a different year, up to a century away | 461 (157 against a referenced statement, 304 against an unreferenced one) | Removed; the removed line is in the ledger |
+| Wikidata gives a year more than a century away | 117 | Left untested: the Wikidata id on the record is probably another person's, which is a finding of its own |
+| Agrees with a Wikidata statement that carries no reference | 1,197 | Left untested: the museum's rule accepts a Wikidata fact only when the statement cites a source |
+| Wikidata has no such date, or the item could not be read | 722 | Left untested |
+
+**What "untested" now means on the site.** At graph build, a date from the pass that has no source, and whose year the record's own summary does not state (in CE or the corresponding Hijri year), is moved out of `born`/`died` into `unverified_dates`. Everything that places people in time reads `born`/`died` or the span computed from them, so those dates leave timelines, sorted lists, hall cards, contemporaries and JSON-LD at once; the person's own page prints them in a line that begins "Unverified". Today: 4,830 date fields on 3,723 persons (1,285 of them published), of whom about 3,250 have no dated position left. The data files keep every date; reversing this is deleting eleven lines in `scripts/build-graph.ts`.
+
+**Not done.** The 48 records whose Wikidata item is not a human being, and the 117 with a century's disagreement, should have their Wikidata ids checked. Ten records that this change touched lacked `provenance.source`; it was added from each record's own source list.

@@ -13,8 +13,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1615", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
-died: { edtf: "1659", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+born: { edtf: "1615", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q604647 (P569, a statement with a reference), item revision 2567398936.", sources: [source/wikidata] }
+died: { edtf: "1659", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q604647 (P570, a statement with a reference), item revision 2567398936.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/ajmer, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -14,7 +14,7 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1550", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Radhey Shyam (Kingdom of Ahmadnagar)" }
-died: { edtf: "1599", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Radhey Shyam (Kingdom of Ahmadnagar)" }
+died: { edtf: "1599", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Radhey Shyam (Kingdom of Ahmadnagar) Confirmed on 13 November 2026 against Wikidata Q468192 (P570, a statement with a reference), item revision 2563962627.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/ahmadnagar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/ahmadnagar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

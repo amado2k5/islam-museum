@@ -11,7 +11,6 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
-born: { edtf: "1021", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Nafh al-Tib" }
 died: { edtf: "1035", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Nafh al-Tib" }
 relations:
   - { type: died_in, target: place/qarmuna, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q63092)" }

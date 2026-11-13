@@ -39,7 +39,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
-died: { edtf: "1180", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+born: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q1821848 (P569, a statement with a reference), item revision 2563697604.", sources: [source/wikidata] }
+died: { edtf: "1180", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q1821848 (P570, a statement with a reference), item revision 2563697604.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/sezgin-gas-v-mathematik, source/samawal-mactutor, source/samawal-dsb, source/karaji-mactutor], confidence: low }

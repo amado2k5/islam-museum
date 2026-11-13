@@ -29,6 +29,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
-died: { edtf: "1638", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ata'i (Hada'iq)" }
+died: { edtf: "1638", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ata'i (Hada'iq) Confirmed on 13 November 2026 against Wikidata Q25475435 (P570, a statement with a reference), item revision 2422418325.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

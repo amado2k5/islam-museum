@@ -23,7 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "1837", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; al-Bitar, Hilyat al-Bashar" }
-died: { edtf: "1906", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; al-Bitar, Hilyat al-Bashar" }
+born: { edtf: "1837", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; al-Bitar, Hilyat al-Bashar Confirmed on 13 November 2026 against Wikidata Q123663751 (P569, a statement with a reference), item revision 2533517062.", sources: [source/wikidata] }
+died: { edtf: "1906", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; al-Bitar, Hilyat al-Bashar Confirmed on 13 November 2026 against Wikidata Q123663751 (P570, a statement with a reference), item revision 2533517062.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (دمشقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

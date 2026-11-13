@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-died: { edtf: "1748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q1584086 (P570, a statement with a reference), item revision 2562649663.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/tokat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q183651)" }
   - { type: died_in, target: place/diyarbak-r, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q83387)" }

@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1678", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar); al-Zirikli" }
-died: { edtf: "1759", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar); al-Zirikli" }
+born: { edtf: "1678", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q105277177 (P569, a statement with a reference), item revision 2528265137.", sources: [source/wikidata] }
+died: { edtf: "1759", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q105277177 (P570, a statement with a reference), item revision 2528265137.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -11,8 +11,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [persia-central-asia, levant-iraq]
-born: { edtf: "849", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
-died: { edtf: "934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
+born: { edtf: "849", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q335516 (P569, a statement with a reference), item revision 2568098774.", sources: [source/wikidata] }
+died: { edtf: "934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q335516 (P570, a statement with a reference), item revision 2568098774.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/balkh, note: "Place association from the person's nisba/name (البلخي); denotes association, not proven residence.", sources: [source/duha-islam, source/muqaddasi-ahsan-taqasim-bga-1877], confidence: low }
   - { type: student_of, target: person/al-kindi, sources: [source/duha-islam] }

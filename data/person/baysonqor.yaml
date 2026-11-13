@@ -12,8 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [education]
-born: { edtf: "1397", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Baysongor)" }
-died: { edtf: "1433", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Baysongor)" }
+born: { edtf: "1397", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Baysongor) Confirmed on 13 November 2026 against Wikidata Q2669775 (P569, a statement with a reference), item revision 2554232644.", sources: [source/wikidata] }
+died: { edtf: "1433", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Baysongor) Confirmed on 13 November 2026 against Wikidata Q2669775 (P570, a statement with a reference), item revision 2554232644.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

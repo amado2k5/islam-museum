@@ -25,7 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1571", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; EI2" }
-died: { edtf: "1640", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; EI2" }
+born: { edtf: "1571", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; EI2 Confirmed on 13 November 2026 against Wikidata Q2010955 (P569, a statement with a reference), item revision 2567370372.", sources: [source/wikidata] }
+died: { edtf: "1640", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; EI2 Confirmed on 13 November 2026 against Wikidata Q2010955 (P570, a statement with a reference), item revision 2567370372.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/shiraz, confidence: low, note: "Association inferred from the nisba 'الشيرازي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

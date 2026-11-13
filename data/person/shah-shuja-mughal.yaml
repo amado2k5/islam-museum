@@ -12,7 +12,7 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1616", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
-died: { edtf: "1661", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1661", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q1645415 (P570, a statement with a reference), item revision 2568365323.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/ajmer, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q200049)" }
 sources: [source/al-aalam]

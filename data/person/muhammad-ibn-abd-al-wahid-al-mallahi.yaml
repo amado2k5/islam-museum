@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1154", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marrakushi" }
-died: { edtf: "1222", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marrakushi" }
+born: { edtf: "1154", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marrakushi Confirmed on 13 November 2026 against Wikidata Q57693362 (P569, a statement with a reference), item revision 2535232863.", sources: [source/wikidata] }
+died: { edtf: "1222", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marrakushi Confirmed on 13 November 2026 against Wikidata Q57693362 (P570, a statement with a reference), item revision 2535232863.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/granada, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8810)" }
 sources: [source/al-aalam]

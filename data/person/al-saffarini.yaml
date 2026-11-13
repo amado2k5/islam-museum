@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1702", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
-died: { edtf: "1774", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+born: { edtf: "1702", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q12240064 (P569, a statement with a reference), item revision 2539576250.", sources: [source/wikidata] }
+died: { edtf: "1774", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q12240064 (P570, a statement with a reference), item revision 2539576250.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/nablus, note: "From text: فقيه حنبلي نابلس في القرن الثا", sources: [source/al-aalam], confidence: low }

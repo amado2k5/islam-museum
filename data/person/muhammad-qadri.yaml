@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/colonial-era]
-born: { edtf: "1821", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
-died: { edtf: "1888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+born: { edtf: "1821", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q12240921 (P569, a statement with a reference), item revision 2533516530.", sources: [source/wikidata] }
+died: { edtf: "1888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q12240921 (P570, a statement with a reference), item revision 2533516530.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/mallawi, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q393498)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }

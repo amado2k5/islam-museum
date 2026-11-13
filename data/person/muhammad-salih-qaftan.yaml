@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-born: { edtf: "1890", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / Kahhala" }
-died: { edtf: "1968", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / Kahhala" }
 relations:
   - { type: born_in, target: place/al-hay, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2350519)" }
   - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }

@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ilm Usul al-Fiqh; al-A'lam (al-Zirikli: 1305–1375 AH)" }
-died: { edtf: "1956", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ilm Usul al-Fiqh; al-A'lam (al-Zirikli: 1305–1375 AH)" }
+born: { edtf: "1888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ilm Usul al-Fiqh; al-A'lam (al-Zirikli: 1305–1375 AH) Confirmed on 13 November 2026 against Wikidata Q12224128 (P569, a statement with a reference), item revision 2563108017.", sources: [source/wikidata] }
+died: { edtf: "1956", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ilm Usul al-Fiqh; al-A'lam (al-Zirikli: 1305–1375 AH) Confirmed on 13 November 2026 against Wikidata Q12224128 (P570, a statement with a reference), item revision 2563108017.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

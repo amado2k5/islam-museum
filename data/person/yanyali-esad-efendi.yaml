@@ -12,7 +12,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 born: { edtf: "1685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
-died: { edtf: "1730", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1730", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q136099509 (P570, a statement with a reference), item revision 2462226321.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/ioannina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q183199)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }

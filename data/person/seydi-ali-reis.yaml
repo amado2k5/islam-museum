@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans, south-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1498", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+born: { edtf: "1498", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q2672296 (P569, a statement with a reference), item revision 2526133671.", sources: [source/wikidata] }
 died: { edtf: "1563", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: born_in, target: place/galata, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q501817)" }

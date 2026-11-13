@@ -25,7 +25,7 @@ provenance:
 status:
   review: published
   completeness: 3
-died: { edtf: "1517", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib)" }
+died: { edtf: "1517", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib) Confirmed on 13 November 2026 against Wikidata Q12222083 (P570, a statement with a reference), item revision 2533515577.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

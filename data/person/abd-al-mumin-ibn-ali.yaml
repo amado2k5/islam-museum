@@ -19,8 +19,8 @@ external_ids: { wikidata: "Q307312" }
 sources: [source/tarikh-ibn-khaldun-ibar, source/encyclopaedia-of-islam-2]
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "en label draft (Claude Haiku 5.5, batch 1); Devin (SWE-2 High)" }
-born: { edtf: "1094", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: Almohad Caliph" }
-died: { edtf: "1163", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: Almohad Caliph" }
+born: { edtf: "1094", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: Almohad Caliph Confirmed on 13 November 2026 against Wikidata Q307312 (P569, a statement with a reference), item revision 2567428605.", sources: [source/wikidata] }
+died: { edtf: "1163", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: Almohad Caliph Confirmed on 13 November 2026 against Wikidata Q307312 (P570, a statement with a reference), item revision 2567428605.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
   - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name ⁦(القمي)⁩; denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar, source/encyclopaedia-of-islam-2], confidence: low }

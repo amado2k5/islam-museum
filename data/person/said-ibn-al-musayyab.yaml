@@ -11,10 +11,10 @@ sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/salabi
 importance: 2
 status: { review: draft, completeness: 3 }
 provenance:
+  source: "the record's cited sources (source/futuh-buldan-maarif-1407; source/muruj-al-dhahab; source/salabi-umayyad-state-2020; source/mubarakpuri-raheeq; source/taqrib-al-tahdhib); field added 13 November 2026"
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
-born: { edtf: "637", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q4115160 (P570, a statement with a reference), item revision 2564336470.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/salabi-umayyad-state-2020, source/mubarakpuri-raheeq] }

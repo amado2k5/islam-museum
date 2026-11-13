@@ -19,7 +19,7 @@ inventions:
     role: commissioner
     sources: [source/tdv-bimaristan]
 born: { edtf: "766", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
-died: { edtf: "809", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+died: { edtf: "809", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam Confirmed on 13 November 2026 against Wikidata Q131002 (P570, a statement with a reference), item revision 2565548951.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-hadi, sources: [source/tarikh-khulafa-minhaj-1434] }

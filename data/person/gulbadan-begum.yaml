@@ -13,8 +13,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1523", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Beveridge (History of Humayun)" }
-died: { edtf: "1603", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Beveridge (History of Humayun)" }
+born: { edtf: "1523", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Beveridge (History of Humayun) Confirmed on 13 November 2026 against Wikidata Q2041521 (P569, a statement with a reference), item revision 2568866135.", sources: [source/wikidata] }
+died: { edtf: "1603", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Beveridge (History of Humayun) Confirmed on 13 November 2026 against Wikidata Q2041521 (P570, a statement with a reference), item revision 2568866135.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/kabul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

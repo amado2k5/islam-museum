@@ -23,7 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "1329", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw')" }
-died: { edtf: "1414", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw')" }
+born: { edtf: "1329", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw') Confirmed on 13 November 2026 against Wikidata Q4115262 (P569, a statement with a reference), item revision 2556813729.", sources: [source/wikidata] }
+died: { edtf: "1414", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw') Confirmed on 13 November 2026 against Wikidata Q4115262 (P570, a statement with a reference), item revision 2556813729.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab], confidence: low }

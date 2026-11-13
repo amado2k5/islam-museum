@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1430", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam)" }
-died: { edtf: "1508", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam)" }
+born: { edtf: "1430", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam) Confirmed on 13 November 2026 against Wikidata Q16117724 (P569, a statement with a reference), item revision 2559356700.", sources: [source/wikidata] }
+died: { edtf: "1508", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam) Confirmed on 13 November 2026 against Wikidata Q16117724 (P570, a statement with a reference), item revision 2559356700.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/fez, note: "From text: of Fez", sources: [source/al-aalam], confidence: low }

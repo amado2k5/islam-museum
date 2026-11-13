@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1279", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi / Ibn Hajar (al-Durar al-Kamina 3/209; d. 741 AH)" }
-died: { edtf: "1341", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi / Ibn Hajar (al-Durar al-Kamina 3/209; d. 741 AH)" }
+born: { edtf: "1279", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi / Ibn Hajar (al-Durar al-Kamina 3/209; d. 741 AH) Confirmed on 13 November 2026 against Wikidata Q17521123 (P569, a statement with a reference), item revision 2567800821.", sources: [source/wikidata] }
+died: { edtf: "1341", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi / Ibn Hajar (al-Durar al-Kamina 3/209; d. 741 AH) Confirmed on 13 November 2026 against Wikidata Q17521123 (P570, a statement with a reference), item revision 2567800821.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

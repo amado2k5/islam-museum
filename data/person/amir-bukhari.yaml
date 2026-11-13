@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1444", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDVIA / Mawsu'at al-Tasawwuf" }
-died: { edtf: "1516", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDVIA / Mawsu'at al-Tasawwuf" }
+born: { edtf: "1444", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDVIA / Mawsu'at al-Tasawwuf Confirmed on 13 November 2026 against Wikidata Q136331890 (P569, a statement with a reference), item revision 2490410523.", sources: [source/wikidata] }
+died: { edtf: "1516", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDVIA / Mawsu'at al-Tasawwuf Confirmed on 13 November 2026 against Wikidata Q136331890 (P570, a statement with a reference), item revision 2490410523.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (بخاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

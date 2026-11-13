@@ -12,7 +12,6 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
 born: { edtf: "1664", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
-died: { edtf: "1716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: born_in, target: place/adana, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/belgrade, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

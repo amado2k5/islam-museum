@@ -7,8 +7,7 @@ summary:
 gender: male
 wings: [people]
 regions: [maghreb]
-born: { edtf: "1435", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam)" }
-died: { edtf: "1490", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam)" }
+died: { edtf: "1490", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam) Confirmed on 13 November 2026 against Wikidata Q3478584 (P570, a statement with a reference), item revision 2568804294.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/kashf-zunun-furqan], confidence: low }
   - { type: authored, target: work/umm-al-barahin, sources: [source/kashf-zunun-furqan] }

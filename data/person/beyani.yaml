@@ -12,7 +12,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 born: { edtf: "1542", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Beyani Mustafa Efendi)" }
-died: { edtf: "1597", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Beyani Mustafa Efendi)" }
+died: { edtf: "1597", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Beyani Mustafa Efendi) Confirmed on 13 November 2026 against Wikidata Q136101793 (P570, a statement with a reference), item revision 2462226629.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/ruse, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

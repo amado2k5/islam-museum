@@ -13,8 +13,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1750", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam (EI2)" }
-died: { edtf: "1799", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam (EI2)" }
+born: { edtf: "1750", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam (EI2) Confirmed on 13 November 2026 against Wikidata Q10088 (P569, a statement with a reference), item revision 2564627532.", sources: [source/wikidata] }
+died: { edtf: "1799", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam (EI2) Confirmed on 13 November 2026 against Wikidata Q10088 (P570, a statement with a reference), item revision 2564627532.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/devanahalli, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2087756)" }
   - { type: lived_in, target: place/karnataka, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q1185)" }

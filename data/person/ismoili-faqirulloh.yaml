@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/contemporary-era]
-born: { edtf: "1677", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
-died: { edtf: "1760", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/jazirat-ibn-umar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/jazirat-ibn-umar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

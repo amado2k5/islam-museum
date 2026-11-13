@@ -11,8 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1238", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
-died: { edtf: "1280", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+born: { edtf: "1238", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a Confirmed on 13 November 2026 against Wikidata Q97258688 (P569, a statement with a reference), item revision 2547935646.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

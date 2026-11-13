@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1259", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Tufi); al-Durar al-Kamina" }
-died: { edtf: "1316", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Tufi); al-Durar al-Kamina" }
+born: { edtf: "1259", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Tufi); al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q15446588 (P569, a statement with a reference), item revision 2567907694.", sources: [source/wikidata] }
+died: { edtf: "1316", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Tufi); al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q15446588 (P570, a statement with a reference), item revision 2567907694.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
   - { type: died_in, target: place/al-khalil, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q168225)" }

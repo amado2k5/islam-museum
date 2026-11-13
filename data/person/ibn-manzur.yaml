@@ -12,7 +12,7 @@ wings: [people]
 regions: [maghreb, egypt-nile]
 periods: [period/mongol-post-mongol]
 born: { edtf: "1232", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
-died: { edtf: "1311", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1311", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q1397028 (P570, a statement with a reference), item revision 2567379146.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/kashf-zunun-furqan] }
 sources: [source/kashf-zunun-furqan, source/al-aalam, source/durar-kamina-jil-1993]

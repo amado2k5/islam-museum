@@ -43,7 +43,7 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "1135", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: DSB" }
-died: { edtf: "1213", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: DSB" }
+born: { edtf: "1135", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: DSB Confirmed on 13 November 2026 against Wikidata Q2342579 (P569, a statement with a reference), item revision 2554146622.", sources: [source/wikidata] }
+died: { edtf: "1213", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: DSB Confirmed on 13 November 2026 against Wikidata Q2342579 (P570, a statement with a reference), item revision 2554146622.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/tus, confidence: low, note: "Association inferred from the nisba 'الطوسي'; specific birthplace or residence is not individually documented.", sources: [source/sezgin-gas-v-mathematik, source/sharaf-tusi-mactutor, source/tdv-sharaf-tusi-ozel, source/carra-vaux-linear-astrolabe-1895] }

@@ -23,8 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "951", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Bashkuwal (al-Sila)" }
-died: { edtf: "1038", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Bashkuwal (al-Sila)" }
+born: { edtf: "951", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Bashkuwal (al-Sila) Confirmed on 13 November 2026 against Wikidata Q5473850 (P569, a statement with a reference), item revision 2512613637.", sources: [source/wikidata] }
+died: { edtf: "1038", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Bashkuwal (al-Sila) Confirmed on 13 November 2026 against Wikidata Q5473850 (P570, a statement with a reference), item revision 2512613637.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/majrit, note: "Wikidata Q2807 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/talamanca, note: "Wikidata Q16738 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

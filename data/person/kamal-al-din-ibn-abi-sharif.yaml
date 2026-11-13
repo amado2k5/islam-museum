@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1419", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami'" }
-died: { edtf: "1501", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami'" }
+born: { edtf: "1419", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami' Confirmed on 13 November 2026 against Wikidata Q25450198 (P569, a statement with a reference), item revision 2559988600.", sources: [source/wikidata] }
+died: { edtf: "1501", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami' Confirmed on 13 November 2026 against Wikidata Q25450198 (P570, a statement with a reference), item revision 2559988600.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/jerusalem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/jerusalem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

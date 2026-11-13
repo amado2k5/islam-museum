@@ -26,8 +26,8 @@ importance: 2
 status:
   review: draft
   completeness: 1
-born: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
-died: { edtf: "842", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+born: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Confirmed on 13 November 2026 against Wikidata Q284550 (P569, a statement with a reference), item revision 2568061096.", sources: [source/wikidata] }
+died: { edtf: "842", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Confirmed on 13 November 2026 against Wikidata Q284550 (P570, a statement with a reference), item revision 2568061096.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }

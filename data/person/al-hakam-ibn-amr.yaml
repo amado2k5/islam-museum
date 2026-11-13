@@ -10,9 +10,10 @@ external_ids: { wikidata: "Q20384169" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
+  source: "the record's cited sources (source/futuh-buldan-maarif-1407); field added 13 November 2026"
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
-died: { edtf: "670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 2/474; d. 50 AH)" }
+died: { edtf: "670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 2/474; d. 50 AH) Confirmed on 13 November 2026 against Wikidata Q20384169 (P570, a statement with a reference), item revision 2563437510.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/saghaniyan, note: "From text: of the Saghaniyan", sources: [source/futuh-buldan-maarif-1407], confidence: low }

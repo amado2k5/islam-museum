@@ -12,7 +12,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
 born: { edtf: "1931", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Syrian Scholars Obituary Records" }
-died: { edtf: "2016", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Syrian Scholars Obituary Records" }
+died: { edtf: "2016", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Syrian Scholars Obituary Records Confirmed on 13 November 2026 against Wikidata Q112749027 (P570, a statement with a reference), item revision 2559718722.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/al-amara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4702182)" }
   - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }

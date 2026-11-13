@@ -12,7 +12,7 @@ summary:
 wings: [people]
 regions: [arabia, levant-iraq]
 periods: [period/prophetic-era, period/rashidun]
-died: { edtf: "672", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
+died: { edtf: "672", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi Confirmed on 13 November 2026 against Wikidata Q6008261 (P570, a statement with a reference), item revision 2550258735.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - {confidence: low, note: Associated with البصرة per the record's own summary text; relation type pending review., sources: [source/futuh-buldan-maarif-1407], target: place/basra, type: lived_in}

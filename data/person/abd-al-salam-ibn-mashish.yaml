@@ -24,7 +24,6 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1159", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli: 554–625 AH)" }
-died: { edtf: "1227", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli: 554–625 AH)" }
+died: { edtf: "1227", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli: 554–625 AH) Confirmed on 13 November 2026 against Wikidata Q308115 (P570, a statement with a reference), item revision 2555346583.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/morocco, note: "From text: Moroccan (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

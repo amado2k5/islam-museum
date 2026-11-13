@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "784", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Tahdhib al-Kamal" }
-died: { edtf: "860", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Tahdhib al-Kamal" }
+born: { edtf: "784", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Tahdhib al-Kamal Confirmed on 13 November 2026 against Wikidata Q12178725 (P569, a statement with a reference), item revision 2564405792.", sources: [source/wikidata] }
+died: { edtf: "860", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Tahdhib al-Kamal Confirmed on 13 November 2026 against Wikidata Q12178725 (P570, a statement with a reference), item revision 2564405792.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/baghdad, note: "From text: محدث بغداد القرن التاسع", sources: [source/al-aalam], confidence: low }

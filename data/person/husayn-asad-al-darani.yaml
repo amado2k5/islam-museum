@@ -11,8 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-born: { edtf: "1931", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Syrian Muhaddith Directory" }
-died: { edtf: "2016", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Syrian Muhaddith Directory" }
+born: { edtf: "1931", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Syrian Muhaddith Directory Confirmed on 13 November 2026 against Wikidata Q109335700 (P569, a statement with a reference), item revision 2558746216.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/darayya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/alexandria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

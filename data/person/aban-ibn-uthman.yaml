@@ -11,10 +11,11 @@ sources: [source/futuh-buldan-maarif-1407, source/sahih-sira-umari-ulum-hikam-19
 importance: 2
 status: { review: published, completeness: 1 }
 provenance:
+  source: "the record's cited sources (source/futuh-buldan-maarif-1407; source/sahih-sira-umari-ulum-hikam-1994); field added 13 November 2026"
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on al-Umari's assessment in al-Sira al-Nabawiyya al-Sahiha, source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 53"
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
-died: { edtf: "723", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: d. 105 AH)" }
+died: { edtf: "723", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: d. 105 AH) Confirmed on 13 November 2026 against Wikidata Q4165460 (P570, a statement with a reference), item revision 2544525411.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/medina, note: "From text: من فقهاء المدينة وكان عليها يوماً", sources: [source/futuh-buldan-maarif-1407, source/sahih-sira-umari-ulum-hikam-1994], confidence: low }

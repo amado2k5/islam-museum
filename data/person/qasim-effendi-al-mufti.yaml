@@ -12,7 +12,6 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 born: { edtf: "1804", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'lam al-Iraq (al-Durubi)" }
-died: { edtf: "1883", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'lam al-Iraq (al-Durubi)" }
 relations:
   - { type: born_in, target: place/anah-district, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4119699)" }
 sources: [source/al-aalam]

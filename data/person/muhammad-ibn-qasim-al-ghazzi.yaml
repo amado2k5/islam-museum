@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-born: { edtf: "1455", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi / al-Zirikli (al-A'lam)" }
+born: { edtf: "1455", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi / al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q25454625 (P569, a statement with a reference), item revision 2568154883.", sources: [source/wikidata] }
 died: { edtf: "1512", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi / al-Zirikli (al-A'lam)" }
 relations:
   - { type: born_in, target: place/gaza, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q47492)" }

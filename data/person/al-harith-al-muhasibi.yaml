@@ -9,7 +9,7 @@ external_ids: { wikidata: "Q4116044" }
 sources: [source/fihrist-ibn-al-nadim, source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
 importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-born: { edtf: "781~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhasibi' / J. van Ess); al-Khatib al-Baghdadi" }
-died: { edtf: "857", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhasibi' / J. van Ess); al-Khatib al-Baghdadi" }
+born: { edtf: "781~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhasibi' / J. van Ess); al-Khatib al-Baghdadi Confirmed on 13 November 2026 against Wikidata Q4116044 (P569, a statement with a reference), item revision 2568193398.", sources: [source/wikidata] }
+died: { edtf: "857", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhasibi' / J. van Ess); al-Khatib al-Baghdadi Confirmed on 13 November 2026 against Wikidata Q4116044 (P570, a statement with a reference), item revision 2568193398.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

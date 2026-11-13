@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1229", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj al-Mudhahhab" }
-died: { edtf: "1285", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj al-Mudhahhab" }
+born: { edtf: "1229", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj al-Mudhahhab Confirmed on 13 November 2026 against Wikidata Q7496464 (P569, a statement with a reference), item revision 2568784960.", sources: [source/wikidata] }
+died: { edtf: "1285", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj al-Mudhahhab Confirmed on 13 November 2026 against Wikidata Q7496464 (P570, a statement with a reference), item revision 2568784960.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/al-aalam], confidence: low }

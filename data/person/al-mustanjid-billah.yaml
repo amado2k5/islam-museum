@@ -17,8 +17,8 @@ external_ids: { wikidata: "Q293448" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/wikidata]
 importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-born: { edtf: "1116", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
-died: { edtf: "1170", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+born: { edtf: "1116", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Confirmed on 13 November 2026 against Wikidata Q293448 (P569, a statement with a reference), item revision 2553833662.", sources: [source/wikidata] }
+died: { edtf: "1170", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Confirmed on 13 November 2026 against Wikidata Q293448 (P570, a statement with a reference), item revision 2553833662.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }

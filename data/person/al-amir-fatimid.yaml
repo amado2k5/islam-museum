@@ -31,8 +31,8 @@ status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High)
-born: { edtf: "1096", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Amir)" }
-died: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Amir)" }
+born: { edtf: "1096", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Amir) Confirmed on 13 November 2026 against Wikidata Q285678 (P569, a statement with a reference), item revision 2568216075.", sources: [source/wikidata] }
+died: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Amir) Confirmed on 13 November 2026 against Wikidata Q285678 (P570, a statement with a reference), item revision 2568216075.", sources: [source/wikidata] }
 relations:
 - { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 - { type: successor_of, target: person/al-mustali-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

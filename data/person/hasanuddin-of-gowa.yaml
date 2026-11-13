@@ -12,7 +12,7 @@ wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1631", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Indonesian National Biography" }
-died: { edtf: "1670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Indonesian National Biography" }
+died: { edtf: "1670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Indonesian National Biography Confirmed on 13 November 2026 against Wikidata Q1616295 (P570, a statement with a reference), item revision 2568275835.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/makassar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/makassar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

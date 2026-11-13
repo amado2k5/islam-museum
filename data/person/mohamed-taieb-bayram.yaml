@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/modern-era]
-born: { edtf: "1881", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Ifta fi Tunis" }
-died: { edtf: "1943", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Ifta fi Tunis" }
+born: { edtf: "1881", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Ifta fi Tunis Confirmed on 13 November 2026 against Wikidata Q3318846 (P569, a statement with a reference), item revision 2527887183.", sources: [source/wikidata] }
+died: { edtf: "1943", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Ifta fi Tunis Confirmed on 13 November 2026 against Wikidata Q3318846 (P570, a statement with a reference), item revision 2527887183.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

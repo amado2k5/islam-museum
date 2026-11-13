@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1001", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar A'lam al-Nubala" }
-died: { edtf: "1090", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar A'lam al-Nubala" }
+born: { edtf: "1001", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar A'lam al-Nubala Confirmed on 13 November 2026 against Wikidata Q12177684 (P569, a statement with a reference), item revision 2556026357.", sources: [source/wikidata] }
+died: { edtf: "1090", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar A'lam al-Nubala Confirmed on 13 November 2026 against Wikidata Q12177684 (P570, a statement with a reference), item revision 2556026357.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

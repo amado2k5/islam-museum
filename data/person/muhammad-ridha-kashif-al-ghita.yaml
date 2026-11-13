@@ -11,8 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-born: { edtf: "1873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Amili (A'yan al-Shi'a)" }
-died: { edtf: "1947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Amili (A'yan al-Shi'a)" }
+died: { edtf: "1947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Amili (A'yan al-Shi'a) Confirmed on 13 November 2026 against Wikidata Q108559898 (P570, a statement with a reference), item revision 2562695198.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168193)" }
   - { type: died_in, target: place/bayrut, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3820)" }

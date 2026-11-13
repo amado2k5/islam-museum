@@ -6,8 +6,7 @@ summary:
 wings: [people]
 gender: male
 external_ids: { wikidata: "Q5954929" }
-born: { edtf: "725", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (Abu al-Faraj al-Isfahani)" }
-died: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (Abu al-Faraj al-Isfahani)" }
+died: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (Abu al-Faraj al-Isfahani) Confirmed on 13 November 2026 against Wikidata Q5954929 (P570, a statement with a reference), item revision 2533406502.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/sijistan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q757169)" }
   - { type: buried_in, target: place/imamzadeh-yahya-gonbad-e-kavus, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q101852477)" }

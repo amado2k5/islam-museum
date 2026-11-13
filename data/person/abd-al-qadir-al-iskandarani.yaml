@@ -23,7 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli: 1290–1362 AH)" }
-died: { edtf: "1943", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli: 1290–1362 AH)" }
+died: { edtf: "1943", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli: 1290–1362 AH) Confirmed on 13 November 2026 against Wikidata Q25451311 (P570, a statement with a reference), item revision 2542225690.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/alexandria, note: "Place association from the person's nisba/name (iskandarani); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

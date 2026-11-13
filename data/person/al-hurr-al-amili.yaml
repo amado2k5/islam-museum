@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hurr al-Amili' / Brunner; 1033–1104 AH)" }
-died: { edtf: "1693", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hurr al-Amili' / Brunner; 1033–1104 AH)" }
+born: { edtf: "1624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hurr al-Amili' / Brunner; 1033–1104 AH) Confirmed on 13 November 2026 against Wikidata Q3777119 (P569, a statement with a reference), item revision 2556559268.", sources: [source/wikidata] }
+died: { edtf: "1693", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hurr al-Amili' / Brunner; 1033–1104 AH) Confirmed on 13 November 2026 against Wikidata Q3777119 (P570, a statement with a reference), item revision 2556559268.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -11,7 +11,6 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1288", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 died: { edtf: "1417", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/beylik-of-karasi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

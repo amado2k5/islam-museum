@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Nafais al-Ulwiyya; EI2 ('al-Haddad': 1044–1132 AH)" }
-died: { edtf: "1720", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Nafais al-Ulwiyya; EI2 ('al-Haddad': 1044–1132 AH)" }
+born: { edtf: "1634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Nafais al-Ulwiyya; EI2 ('al-Haddad': 1044–1132 AH) Confirmed on 13 November 2026 against Wikidata Q6003118 (P569, a statement with a reference), item revision 2567052878.", sources: [source/wikidata] }
+died: { edtf: "1720", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Nafais al-Ulwiyya; EI2 ('al-Haddad': 1044–1132 AH) Confirmed on 13 November 2026 against Wikidata Q6003118 (P570, a statement with a reference), item revision 2567052878.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/hadramawt, note: "From text: عالم حضرموت وشيخ الطريقة العلو", sources: [source/al-aalam], confidence: low }

@@ -9,7 +9,7 @@ roles: [caliph]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
-died: { edtf: "1018", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqqari (Nafh al-Tib)" }
+died: { edtf: "1018", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqqari (Nafh al-Tib) Confirmed on 13 November 2026 against Wikidata Q1273086 (P570, a statement with a reference), item revision 2532175368.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/hammudid-caliphate, sources: [source/bayan-mughrib-idhari] }
   - { type: ruler_of, target: place/cordoba, note: "From text: caliph of Cordoba", sources: [source/nafh-tib-maqqari] }

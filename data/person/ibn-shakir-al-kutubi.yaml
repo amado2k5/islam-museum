@@ -12,7 +12,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
 born: { edtf: "1287~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
-died: { edtf: "1363", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1363", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q6536330 (P570, a statement with a reference), item revision 2568510028.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/darayya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

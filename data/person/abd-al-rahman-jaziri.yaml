@@ -23,8 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fiqh ala al-Madhahib al-Arba'a; al-A'lam (1300–1360 AH)" }
-died: { edtf: "1941", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fiqh ala al-Madhahib al-Arba'a; al-A'lam (1300–1360 AH)" }
+born: { edtf: "1882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fiqh ala al-Madhahib al-Arba'a; al-A'lam (1300–1360 AH) Confirmed on 13 November 2026 against Wikidata Q12222674 (P569, a statement with a reference), item revision 2566779198.", sources: [source/wikidata] }
+died: { edtf: "1941", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fiqh ala al-Madhahib al-Arba'a; al-A'lam (1300–1360 AH) Confirmed on 13 November 2026 against Wikidata Q12222674 (P570, a statement with a reference), item revision 2566779198.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/hulwan, note: "Wikidata Q771345 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/ottoman-empire, note: "Wikidata Q12560 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

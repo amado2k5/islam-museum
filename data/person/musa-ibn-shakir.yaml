@@ -12,7 +12,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 born: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Banu Musa)" }
-died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Banu Musa)" }
+died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Banu Musa) Confirmed on 13 November 2026 against Wikidata Q4675911 (P570, a statement with a reference), item revision 2562900276.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/khorasan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2352322)" }
 sources: [source/al-aalam]

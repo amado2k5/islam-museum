@@ -23,8 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Shatti (Mukhtasar Tabaqat al-Hanabila); al-Zirikli" }
-died: { edtf: "1776", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Shatti (Mukhtasar Tabaqat al-Hanabila); al-Zirikli" }
+born: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Shatti (Mukhtasar Tabaqat al-Hanabila); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12184530 (P569, a statement with a reference), item revision 2477854021.", sources: [source/wikidata] }
+died: { edtf: "1776", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Shatti (Mukhtasar Tabaqat al-Hanabila); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12184530 (P570, a statement with a reference), item revision 2477854021.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

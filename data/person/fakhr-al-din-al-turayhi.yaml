@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1571", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
-died: { edtf: "1675", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+born: { edtf: "1571", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q5942448 (P569, a statement with a reference), item revision 2533544997.", sources: [source/wikidata] }
+died: { edtf: "1675", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q5942448 (P570, a statement with a reference), item revision 2533544997.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/najaf, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/alrmahih, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

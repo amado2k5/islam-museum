@@ -14,7 +14,7 @@ provenance:
   run: lib-fihrist-batch
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-born: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat al-A'yan)" }
-died: { edtf: "812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat al-A'yan)" }
+born: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat al-A'yan) Confirmed on 13 November 2026 against Wikidata Q3147461 (P569, a statement with a reference), item revision 2568714521.", sources: [source/wikidata] }
+died: { edtf: "812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat al-A'yan) Confirmed on 13 November 2026 against Wikidata Q3147461 (P570, a statement with a reference), item revision 2568714521.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

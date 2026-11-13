@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1206", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam); al-Durar al-Kamina" }
-died: { edtf: "1295", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam); al-Durar al-Kamina" }
+born: { edtf: "1206", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam); al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q25451822 (P569, a statement with a reference), item revision 2561318448.", sources: [source/wikidata] }
+died: { edtf: "1295", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam); al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q25451822 (P570, a statement with a reference), item revision 2561318448.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/humdan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

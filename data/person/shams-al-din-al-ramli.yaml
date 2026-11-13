@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1513", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
-died: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+born: { edtf: "1513", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q60843105 (P569, a statement with a reference), item revision 2565617946.", sources: [source/wikidata] }
+died: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q60843105 (P570, a statement with a reference), item revision 2565617946.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/ramla, confidence: low, note: "Association inferred from the nisba in the name 'Shams al-Din al-Ramli'; specific residence not individually documented.", sources: [source/al-aalam] }

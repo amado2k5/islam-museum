@@ -19,7 +19,7 @@ status:
   review: draft
   completeness: 1
   generated_by: Claude Haiku 5.5 (Wikidata insertion, slice S9)
-born: { edtf: "940~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor; EI2" }
-died: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor; EI2" }
+born: { edtf: "940~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor; EI2 Confirmed on 13 November 2026 against Wikidata Q335313 (P569, a statement with a reference), item revision 2554078356.", sources: [source/wikidata] }
+died: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor; EI2 Confirmed on 13 November 2026 against Wikidata Q335313 (P570, a statement with a reference), item revision 2554078356.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name (فارسي); denotes association, not proven residence.", sources: [source/sezgin-gas-v-mathematik], confidence: low }

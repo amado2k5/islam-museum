@@ -20,7 +20,6 @@ story_roles:
   - { role: companion, start: { edtf: "0621~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0621~" }, note: "صحابي بدري ونقيب وفقيه الأنصار." }
-born: { edtf: "583", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 died: { edtf: "0655", hijri: "0034", calendar: julian, precision: year, status: debated, derived: true, note: "Died at al-Ramla, 34 AH (al-Mada'ini and Khalifa), though some say Bayt al-Maqdis and others have him live into Mu'awiya's caliphate or to 45 (al-Isaba p. 770); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: participated_in, target: event/sariyya-of-abu-ubayda-to-sif-al-bahr, role: "راوي الخبر", sources: [source/ibn-hisham-saqqa] }

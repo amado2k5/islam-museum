@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
-born: { edtf: "1865", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd" }
-died: { edtf: "1932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd" }
+born: { edtf: "1865", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd Confirmed on 13 November 2026 against Wikidata Q78753088 (P569, a statement with a reference), item revision 1307798104.", sources: [source/wikidata] }
+died: { edtf: "1932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd Confirmed on 13 November 2026 against Wikidata Q78753088 (P570, a statement with a reference), item revision 1307798104.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/unaizah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q27138)" }
 sources: [source/al-aalam]

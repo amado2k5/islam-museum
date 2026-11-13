@@ -12,8 +12,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
 themes: [geography-and-cartography]
-born: { edtf: "1292~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
-died: { edtf: "1349", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1349", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q5984176 (P570, a statement with a reference), item revision 2553100069.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/maarrat-al-numan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

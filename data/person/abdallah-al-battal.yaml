@@ -8,7 +8,7 @@ gender: male
 wings: [people]
 periods: [period/umayyad]
 regions: [anatolia-balkans]
-died: { edtf: "740", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh) / al-Zirikli (al-A'lam)" }
+died: { edtf: "740", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh) / al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q576613 (P570, a statement with a reference), item revision 2533544856.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }
   - { type: participated_in, target: event/hisham-conquests, role: "فاتح خنجرة", sources: [source/tarikh-khulafa-minhaj-1434] }

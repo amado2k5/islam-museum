@@ -43,8 +43,8 @@ importance: 2
 status:
   review: published
   completeness: 2
-born: { edtf: "787", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
-died: { edtf: "813", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+born: { edtf: "787", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari Confirmed on 13 November 2026 against Wikidata Q293495 (P569, a statement with a reference), item revision 2553832822.", sources: [source/wikidata] }
+died: { edtf: "813", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari Confirmed on 13 November 2026 against Wikidata Q293495 (P570, a statement with a reference), item revision 2553832822.", sources: [source/wikidata] }
 relations:
 - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: successor_of, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }

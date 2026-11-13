@@ -12,7 +12,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 born: { edtf: "1514", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mustakimzade (Tuhfe)" }
-died: { edtf: "1611", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mustakimzade (Tuhfe)" }
+died: { edtf: "1611", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mustakimzade (Tuhfe) Confirmed on 13 November 2026 against Wikidata Q135263781 (P570, a statement with a reference), item revision 2462222374.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

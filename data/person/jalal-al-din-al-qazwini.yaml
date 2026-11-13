@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1268", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina / Ibn Hajar" }
-died: { edtf: "1338", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina / Ibn Hajar" }
+born: { edtf: "1268", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina / Ibn Hajar Confirmed on 13 November 2026 against Wikidata Q12187054 (P569, a statement with a reference), item revision 2542007759.", sources: [source/wikidata] }
+died: { edtf: "1338", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina / Ibn Hajar Confirmed on 13 November 2026 against Wikidata Q12187054 (P570, a statement with a reference), item revision 2542007759.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/mosul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

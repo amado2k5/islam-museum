@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/modern-era]
-born: { edtf: "1933", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Deoband archives" }
-died: { edtf: "2017", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Deoband archives" }
 relations:
   - { type: born_in, target: place/gangoh, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1654816)" }
 sources: [source/al-aalam]

@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tarikh Baghdad" }
-died: { edtf: "894", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tarikh Baghdad" }
+born: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tarikh Baghdad Confirmed on 13 November 2026 against Wikidata Q12224360 (P569, a statement with a reference), item revision 2539565410.", sources: [source/wikidata] }
+died: { edtf: "894", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tarikh Baghdad Confirmed on 13 November 2026 against Wikidata Q12224360 (P570, a statement with a reference), item revision 2539565410.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/harat, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

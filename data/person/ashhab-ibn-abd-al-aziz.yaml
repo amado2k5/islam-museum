@@ -10,7 +10,7 @@ external_ids: { wikidata: "Q12179848" }
 sources: [source/fihrist-ibn-al-nadim, source/tabaqat-fuqaha-abbas-1981]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 born: { edtf: "757", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
-died: { edtf: "819", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "819", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q12179848 (P570, a statement with a reference), item revision 2533183855.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: Egyptian (nationality adjective); broad association, flagged for review.", sources: [source/fihrist-ibn-al-nadim], confidence: low }
   - {sources: [source/tabaqat-fuqaha-abbas-1981], target: person/malik-ibn-anas, type: student_of}

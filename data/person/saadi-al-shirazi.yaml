@@ -25,7 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1210~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Sa'di)" }
-died: { edtf: "1291~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Sa'di)" }
+born: { edtf: "1210~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Sa'di) Confirmed on 13 November 2026 against Wikidata Q170302 (P569, a statement with a reference), item revision 2563189702.", sources: [source/wikidata] }
+died: { edtf: "1291~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Sa'di) Confirmed on 13 November 2026 against Wikidata Q170302 (P570, a statement with a reference), item revision 2563189702.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/shiraz, confidence: low, note: "Association inferred from the nisba 'الشيرازي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

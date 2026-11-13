@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-born: { edtf: "1947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary obituaries" }
-died: { edtf: "2020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary obituaries" }
+born: { edtf: "1947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary obituaries Confirmed on 13 November 2026 against Wikidata Q100319926 (P569, a statement with a reference), item revision 2521916659.", sources: [source/wikidata] }
+died: { edtf: "2020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary obituaries Confirmed on 13 November 2026 against Wikidata Q100319926 (P570, a statement with a reference), item revision 2521916659.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/amiri-hospital, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/imam-husayn-shrine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

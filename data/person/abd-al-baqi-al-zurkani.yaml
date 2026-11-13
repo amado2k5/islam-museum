@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1611", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khulasat al-Athar (al-Muhibbi: 1020–1099 AH)" }
-died: { edtf: "1688", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khulasat al-Athar (al-Muhibbi: 1020–1099 AH)" }
+born: { edtf: "1611", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khulasat al-Athar (al-Muhibbi: 1020–1099 AH) Confirmed on 13 November 2026 against Wikidata Q4664516 (P569, a statement with a reference), item revision 2544815466.", sources: [source/wikidata] }
+died: { edtf: "1688", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khulasat al-Athar (al-Muhibbi: 1020–1099 AH) Confirmed on 13 November 2026 against Wikidata Q4664516 (P570, a statement with a reference), item revision 2544815466.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/al-aalam], confidence: low }

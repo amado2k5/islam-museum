@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/modern-era]
-born: { edtf: "1916", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Mu'allifin" }
-died: { edtf: "1988", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Mu'allifin" }
 relations:
   - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
 sources: [source/al-aalam]

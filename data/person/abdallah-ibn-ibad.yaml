@@ -12,7 +12,7 @@ wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
 themes: [sects-and-schools]
-died: { edtf: "705", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "705", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q307643 (P570, a statement with a reference), item revision 2533528190.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: member_of, target: group/ibadiyya, sources: [source/duha-islam] }

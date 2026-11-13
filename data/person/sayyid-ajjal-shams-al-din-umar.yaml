@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [china-east-asia, persia-central-asia]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1211", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Yuan history / EI2" }
-died: { edtf: "1279", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Yuan history / EI2" }
+born: { edtf: "1211", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Yuan history / EI2 Confirmed on 13 November 2026 against Wikidata Q1386208 (P569, a statement with a reference), item revision 2561056170.", sources: [source/wikidata] }
+died: { edtf: "1279", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Yuan history / EI2 Confirmed on 13 November 2026 against Wikidata Q1386208 (P570, a statement with a reference), item revision 2561056170.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/bukhara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5764)" }
   - { type: died_in, target: place/yunnan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q43194)" }

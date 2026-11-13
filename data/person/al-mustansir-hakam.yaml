@@ -16,6 +16,6 @@ external_ids: { wikidata: "Q284531", nomisma: "al-hakam_ii_al-mustansir_billah" 
 sources: [source/tarikh-khulafa-minhaj-1434, source/nafh-tib-maqqari, source/nomisma]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 born: { edtf: "915", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib" }
-died: { edtf: "976", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib" }
+died: { edtf: "976", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib Confirmed on 13 November 2026 against Wikidata Q284531 (P570, a statement with a reference), item revision 2567405645.", sources: [source/wikidata] }
 relations:
   - { type: ruler_of, target: place/cordoba, note: "From text: caliph of Cordoba", sources: [source/tarikh-khulafa-minhaj-1434, source/nafh-tib-maqqari] }

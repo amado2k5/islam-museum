@@ -11,7 +11,6 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/contemporary-era]
-born: { edtf: "1957", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hanbali Biographical Registry" }
 died: { edtf: "2021", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hanbali Biographical Registry" }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }

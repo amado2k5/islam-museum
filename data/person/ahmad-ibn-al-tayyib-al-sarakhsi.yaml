@@ -17,7 +17,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
-born: { edtf: "835~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rosenthal (Ahmad b. at-Tayyib as-Sarahsi); EI2" }
-died: { edtf: "899", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rosenthal (Ahmad b. at-Tayyib as-Sarahsi); EI2" }
+died: { edtf: "899", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rosenthal (Ahmad b. at-Tayyib as-Sarahsi); EI2 Confirmed on 13 November 2026 against Wikidata Q4117210 (P570, a statement with a reference), item revision 2551443575.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/sarakhs, note: "Place association from the person's nisba/name (السرخسي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

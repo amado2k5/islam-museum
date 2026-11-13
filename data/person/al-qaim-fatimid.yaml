@@ -16,8 +16,8 @@ provenance:
 external_ids: { wikidata: "Q293549", nomisma: "al-qa'im_bi-amr_allah" }
 sources: [source/tarikh-ibn-khaldun-ibar, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/nomisma]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-born: { edtf: "893", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa" }
-died: { edtf: "946", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa" }
+born: { edtf: "893", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa Confirmed on 13 November 2026 against Wikidata Q293549 (P569, a statement with a reference), item revision 2553831590.", sources: [source/wikidata] }
+died: { edtf: "946", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa Confirmed on 13 November 2026 against Wikidata Q293549 (P570, a statement with a reference), item revision 2553831590.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
   - { type: successor_of, target: person/ubayd-allah-al-mahdi, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

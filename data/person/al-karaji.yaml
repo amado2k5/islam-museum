@@ -23,8 +23,8 @@ faith:
     basis: documented
     note: "Muslim basis: Ataie-Ashtiani and Simmons2020 explicitly identify the named mathematician as Muslim on printed p762, section2. Not inferred from name, Persian origin, 'Islamic mathematician' or Buyid patronage. Sunni is separately the museum default of docs/scope.md for the documented Abbasid/Baghdad milieu, not an attested personal school. Sources read name no contrary personal affiliation; the Buyid context is retained, not labelled Sunni."
     sources: [source/karaji-ataie-simmons-2020, source/tdv-kereci, source/karaji-mactutor]
-born: { edtf: "953~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor History of Mathematics; EI2 ('al-Karadji' / R. Rashed)" }
-died: { edtf: "1029~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor History of Mathematics; EI2 ('al-Karadji' / R. Rashed)" }
+born: { edtf: "953~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor History of Mathematics; EI2 ('al-Karadji' / R. Rashed) Confirmed on 13 November 2026 against Wikidata Q461062 (P569, a statement with a reference), item revision 2554077170.", sources: [source/wikidata] }
+died: { edtf: "1029~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor History of Mathematics; EI2 ('al-Karadji' / R. Rashed) Confirmed on 13 November 2026 against Wikidata Q461062 (P570, a statement with a reference), item revision 2554077170.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/karaji-mactutor, source/tdv-kereci] }
 inventions:

@@ -12,7 +12,6 @@ wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
 born: { edtf: "1573", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Brunschvig" }
-died: { edtf: "1574", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Brunschvig" }
 relations:
   - { type: died_in, target: place/constantinople, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q16869)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]

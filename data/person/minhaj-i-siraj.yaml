@@ -13,8 +13,8 @@ summary:
 wings: [people]
 regions: [south-asia, persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1193", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
-died: { edtf: "1260~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+born: { edtf: "1193", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Confirmed on 13 November 2026 against Wikidata Q657968 (P569, a statement with a reference), item revision 2554063829.", sources: [source/wikidata] }
+died: { edtf: "1260~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Confirmed on 13 November 2026 against Wikidata Q657968 (P570, a statement with a reference), item revision 2554063829.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/ghor-province, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/firozkoh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

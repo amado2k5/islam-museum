@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-died: { edtf: "1528", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1528", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q7448746 (P570, a statement with a reference), item revision 2553349270.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/mytilene, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q189059)" }
   - { type: died_in, target: place/aden, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q131694)" }

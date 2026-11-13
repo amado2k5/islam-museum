@@ -5,7 +5,7 @@ summary:
   ar: "محمد بن الأشعث بن قيس الكندي؛ ولاه عبيد الله بن زياد طبرستان فصالحهم وعقد لهم عقداً فأمهلوا له حتى دخل ثم أخذوا عليه المضايق وقتلوا ابنه أبا بكر وفضخوه ونجا هو. وعند المسعودي سأله ابن زياد عن مسلم بن عقيل عند هانئ بن عروة فأنكره، ثم أعطاه الأمان حين قاتل وحده وسلبه سيفه وسلاحه، وفيه قال الشاعر وتركت عمك أن تقاتل دونه فشلاً وقتلت وافد آل بيت محمد وسلبت أسيافاً له ودروعاً {cite:muruj-al-dhahab p. 56-57}"
   en: "Muhammad ibn al-Ash'ath ibn Qays al-Kindi; Ubaydallah ibn Ziyad's governor of Tabaristan — he treated and covenanted, they let him in, seized the narrows, killed his son Abu Bakr and crushed his skull, and he escaped."
 periods: [period/umayyad]
-died: { edtf: "686", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "686", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari Confirmed on 13 November 2026 against Wikidata Q124771497 (P570, a statement with a reference), item revision 2487348304.", sources: [source/wikidata] }
 relations:
   - { type: participated_in, target: event/ibn-al-ashath-tabaristan-campaign }
   - { type: ruler_of, target: place/tabaristan, sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715] }
@@ -14,6 +14,7 @@ sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-u
 status: { review: draft, completeness: 1 }
 external_ids: { wikidata: "Q124771497" }
 provenance:
+  source: "the record's cited sources (source/futuh-buldan-maarif-1407; source/muruj-al-dhahab; source/bakr-umayyad-state-1134715); field added 13 November 2026"
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"

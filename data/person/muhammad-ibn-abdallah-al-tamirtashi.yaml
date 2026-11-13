@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1532", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
-died: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+born: { edtf: "1532", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q60844562 (P569, a statement with a reference), item revision 2567773403.", sources: [source/wikidata] }
+died: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q60844562 (P570, a statement with a reference), item revision 2567773403.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/gaza, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q47492)" }
 sources: [source/shadharat-dhahab]

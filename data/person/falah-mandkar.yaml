@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/modern-era]
-born: { edtf: "1950", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kuwaiti scholarly obituaries" }
-died: { edtf: "2020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kuwaiti scholarly obituaries" }
+born: { edtf: "1950", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kuwaiti scholarly obituaries Confirmed on 13 November 2026 against Wikidata Q105078440 (P569, a statement with a reference), item revision 2545844330.", sources: [source/wikidata] }
+died: { edtf: "2020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kuwaiti scholarly obituaries Confirmed on 13 November 2026 against Wikidata Q105078440 (P570, a statement with a reference), item revision 2545844330.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/kuwait, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/kuwait, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

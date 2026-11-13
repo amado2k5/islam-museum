@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1196", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Tarikh al-Islam; Encyclopaedia of Islam 2nd Ed." }
-died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Tarikh al-Islam; Encyclopaedia of Islam 2nd Ed." }
+born: { edtf: "1196", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Tarikh al-Islam; Encyclopaedia of Islam 2nd Ed. Confirmed on 13 November 2026 against Wikidata Q2704613 (P569, a statement with a reference), item revision 2533525261.", sources: [source/wikidata] }
+died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Tarikh al-Islam; Encyclopaedia of Islam 2nd Ed. Confirmed on 13 November 2026 against Wikidata Q2704613 (P570, a statement with a reference), item revision 2533525261.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

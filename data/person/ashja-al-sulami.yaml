@@ -15,7 +15,7 @@ provenance:
   run: lib-muruj-dhahab-batch-81
 sources: [source/muruj-al-dhahab, source/encyclopaedia-of-islam-2, source/wikidata]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); EI2 section added by Claude Code" }
-died: { edtf: "810~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "810~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q27517424 (P570, a statement with a reference), item revision 2533525429.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/al-yamama, note: "Wikidata Q2551267 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
