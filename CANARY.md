@@ -203,6 +203,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 198): trilingual draft prose on the perception of stillness, roughness, smoothness and polish, cited to scan pages 303–306.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 199): trilingual draft prose on transparency, density, shadow, darkness and the kinds of beauty, cited to scan pages 306–309.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 200): trilingual draft prose on the kinds of beauty by particular attribute, from distance and arrangement to likeness, cited to scan pages 309–312.
+- **"Mudhakkirat Iblis" (Memoirs of Iblis), new series record and episode 1 added.** A new work record for Omar Abdelkafy's Ramadan programme in which he imagines Iblis writing his memoirs, with episode 1 in Arabic, English and Urdu: the plan of the programme, the devils of mankind against the bound devils of the jinn, whispers in prayer, and the sound heart against the sick heart (servitude to God alone, judging by His Messenger, the natural disposition, loving and giving for God). Reports without a chain and unattributed lines are marked as needing a source; the lecturer's opinions are labelled as his; Quran verses are linked, never typed.
 
 
 ### Fixed

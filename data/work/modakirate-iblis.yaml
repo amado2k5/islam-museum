@@ -1,0 +1,33 @@
+id: work/modakirate-iblis
+class: work
+kind: lecture-series
+label:
+  ar: "برنامج مذكرات إبليس"
+  en: "Mudhakkirat Iblis (Memoirs of Iblis) programme"
+  ur: "پروگرام مذکرات ابلیس"
+summary:
+  ar: "برنامج رمضاني لعمر عبد الكافي يتخيل فيه الإنسان إبليس يكتب مذكراته، ليكشف من لسانه مداخله إلى النفس وحيله وما يغري به الناس، ثم يعرض سبل الوقاية منه، وفق تسجيلات أسبابيل."
+  en: "A Ramadan programme by Omar Abdelkafy that imagines Iblis writing his memoirs, as a device for exposing the ways he approaches the soul and the tricks he uses, and then sets out how to guard against them, as recorded in the Assabile archive."
+  ur: "عمر عبد الکافی کا رمضان کا پروگرام جس میں وہ ابلیس کے اپنی یادداشتیں لکھنے کا تصور باندھتے ہیں تاکہ اس کی زبان سے نفس میں اس کے داخل ہونے کے راستے اور اس کی چالیں سامنے آئیں، پھر ان سے بچاؤ کی راہیں بیان کرتے ہیں، اسابیل کے ذخیرے کے مطابق۔"
+wings: [ideas]
+themes: [spirituality-and-sufism, ethics-and-character]
+regions: [global]
+authors: [person/omar-abdelkafy]
+delivered: { by: person/omar-abdelkafy }
+language: language/arabic
+sensitivity: contested
+relations:
+  - { type: about, target: person/iblis, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/qalb-salim, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/al-waswasa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/fitra, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/kufr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/shukr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/al-wala-wal-bara, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/shayatin-al-ins-wal-jinn, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ramadan-month, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/khawf, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/raja, sources: [source/assabile-omar-abdelkafy] }
+sources: [source/assabile-omar-abdelkafy]
+provenance: { layer: copyrighted-reference, source: "Assabile, modakirate-iblis (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-modakirate-iblis-1, episodes: "1" }
+status: { review: draft, generated_by: "Claude Code (claude-sonnet-5-5); run omar-abdelkafy-modakirate-iblis-1" }
