@@ -38,7 +38,7 @@ for (const c of courses) { for (const l of c.lessons) { const k = (l.data?.conne
       <p class="cxp-stats ui">{fmt(C.promo_stats, { systems: num(jurisdictions.length, lang), courses: num(courses.length, lang), lessons: num(nLessons, lang), cards: num(nConns, lang) })}</p>
     </div>
     {sample && (
-      <a class="cxp-card" href={lessonPath(lang, sample.course, sample.lesson)} aria-label={`${C.promo_sample}: ${labelOf(sample.lesson, lang)}`}>
+      <a class="cxp-card" href={lessonPath(lang, sample.course, sample.lesson)}>
         <span class="cxp-from ui">{labelOf(sample.course.subject, lang)} · {labelOf(sample.lesson, lang)}</span>
         <span class="cxp-kind ui">{sample.conn.kindLabel} · {C.within_label}</span>
         <b>{sample.conn.title}</b>
