@@ -1,0 +1,199 @@
+---
+// The signature view of the Companions Browser (docs/plan/29-companions-browser.md): "A generation, year by year", a dot
+// plot of the whole roll. The horizontal axis is the Hijri decade of death (scripts/companions.ts: decadeKey, decadeOrder),
+// and above each decade one dot stands for each Companion the museum records as dying in it. Every dot is a link to the
+// Companion's page; every decade column is a link to its decade page, and with the script a tap on a column fills a panel
+// under the chart with that decade's Companions as plain text links, cloned from the outline rendered below. The outline
+// lists every Companion once, grouped by decade, and the ones with no death year recorded, so the chart reads and
+// navigates without JavaScript. The circle buttons (the script) light the members of one circle in gold, dim the rest and
+// show the lit count per decade. The Ten are always ringed. Nothing here is typed in: the build fails when a circle has no
+// key in CIRCLE_KEYS or when the dots do not add up to the Companions with a recorded death.
+import { ui, fmt, NUM_LOCALE, type Lang } from "../../lib/i18n";
+import { byId, href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { companions, CIRCLES, byDeath, decadeLabel } from "../../lib/companions";
+import { decadeOrder } from "../../../../scripts/companions";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const C = ui(lang).companions;
+const V = C.viz;
+const rtl = lang !== "en";
+
+/** One letter per circle; the button and the dot carry the same letter. A circle the lib adds and this list lacks fails the build. */
+const CIRCLE_KEYS: Record<string, string> = {
+  "group/muhajirun": "m", "group/ansar": "a", "group/ahl-al-bayt": "h", "group/mothers-of-the-believers": "o",
+};
+const circles = CIRCLES.filter((c) => byId.has(c));
+for (const c of CIRCLES) if (!CIRCLE_KEYS[c]) throw new Error(`The generation chart has no key for the circle ${c}; add it to CIRCLE_KEYS`);
+
+const nameOf = (id: string) => labelOf(byId.get(id)!, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const letters = new Map<string, string>();
+const addLetter = (id: string, l: string) => letters.set(id, (letters.get(id) ?? "") + l);
+for (const c of circles) for (const id of companions.circles.get(c) ?? []) addLetter(id, CIRCLE_KEYS[c]);
+for (const id of companions.women) addLetter(id, "w");
+for (const id of companions.ten) addLetter(id, "t");
+const tenSet = new Set(companions.ten);
+
+// ---- the axis: every Hijri decade from the earliest to the latest recorded, so a decade with nobody in it is still shown
+const present = [...companions.decades.keys()].sort((a, b) => decadeOrder(a) - decadeOrder(b));
+const numeric = present.filter((k) => k !== "bh").map(Number);
+const keys: string[] = [];
+if (present.includes("bh")) keys.push("bh");
+if (numeric.length) for (let y = Math.min(...numeric); y <= Math.max(...numeric); y += 10) keys.push(String(y));
+const labelsFor = byDeath(lang);
+const members = (k: string) => (companions.decades.get(k) ?? []).slice().sort(labelsFor);
+const placed = keys.reduce((s, k) => s + members(k).length, 0);
+if (placed !== companions.death.size) throw new Error(`The generation chart places ${placed} Companions but the roll records ${companions.death.size} with a death year`);
+const undated = companions.ids.filter((id) => !companions.death.has(id)).sort(labelsFor);
+const derived = [...companions.death.values()].filter((d) => d.derived).length;
+
+// ---- the dots: hexagonally packed rows, filled from the baseline up in order of death
+const VW = 780, COL = VW / keys.length, R = 4.6, PITCH = 11, ROWH = 9.6, PER_ROW = Math.max(1, Math.floor((COL - 10) / PITCH));
+const maxRows = Math.max(...keys.map((k) => Math.ceil(members(k).length / PER_ROW)));
+const CH = Math.ceil(maxRows * ROWH + R * 2 + 14);
+const f = (n: number) => Math.round(n * 10) / 10;
+const colX = (i: number) => (rtl ? VW - (i + 0.5) * COL : (i + 0.5) * COL);
+const columns = keys.map((k, i) => {
+  const ids = members(k);
+  const dots = ids.map((id, j) => {
+    const row = Math.floor(j / PER_ROW), col = j % PER_ROW;
+    const inRow = Math.min(PER_ROW, ids.length - row * PER_ROW);
+    const shift = row % 2 ? PITCH / 2 : 0;
+    const width = (inRow - 1) * PITCH + shift;
+    return { id, x: f(colX(i) - width / 2 + col * PITCH + shift), y: f(CH - R - 8 - row * ROWH) };
+  });
+  return { k, i, ids, dots, label: decadeLabel(k, lang), hasPage: ids.length > 0, x0: f(i * COL) };
+});
+
+const circleButtons = [
+  ...circles.map((c) => ({ key: CIRCLE_KEYS[c], text: nameOf(c) })),
+  { key: "w", text: V.women }, { key: "t", text: V.ten },
+].map((b) => ({ ...b, n: [...letters.entries()].filter(([id, l]) => l.includes(b.key) && companions.death.has(id)).length }));
+const nf = NUM_LOCALE[lang];
+const caption = fmt(V.caption, { n: num(placed, lang), x: num(undated.length, lang) });
+const base = `/${lang}/companions`;
+---
+<section aria-labelledby="sg-dc-title" class="sg-dc" data-sg-dc data-nf={nf} data-open={V.open_decade} style="margin-top:2rem">
+  <div data-pagefind-body>
+    <h2 id="sg-dc-title">{V.title}</h2>
+    <p class="muted sg-dc-cap">{caption}{derived > 0 && <>{" "}{fmt(V.caption_derived, { n: num(derived, lang) })}</>}</p>
+  </div>
+  <div class="sg-dc-toggles ui" role="group" aria-label={V.toggles_title} data-sg-dc-toggles hidden>
+    {circleButtons.map((b) => (
+      <button type="button" class="sg-dc-btn" data-g={b.key} aria-pressed="false">{b.text} · {num(b.n, lang)}</button>
+    ))}
+  </div>
+  <p class="ui sg-dc-key" aria-live="polite" data-sg-dc-live>
+    <svg viewBox="-10 -10 20 20" width="20" height="20" aria-hidden="true" focusable="false"><circle class="sg-dc-d" r="4.6" /><circle class="sg-dc-ring" r="8" /></svg>
+    <span>{V.ring_legend}</span>
+    <span class="sg-dc-lit" data-sg-dc-lit></span>
+  </p>
+  <div class="sg-dc-plot" dir={rtl ? "rtl" : "ltr"}>
+    <ol class="sg-dc-counts ui" aria-hidden="true" style={`--n:${keys.length}`}>
+      {columns.map((c) => <li data-k={c.k} data-n={c.ids.length}>{num(c.ids.length, lang)}</li>)}
+    </ol>
+    <figure class="sg-dc-figure">
+      <svg class="sg-dc-svg" viewBox={`0 0 ${VW} ${CH}`} role="group" aria-label={V.chart_label} direction="ltr">
+        <path class="sg-dc-base" d={`M0 ${CH - 3}H${VW}`} />
+        <g class="sg-dc-cols">
+          {columns.filter((c) => c.hasPage).map((c) => (
+            <a href={`${base}/decade/${c.k}/`} data-dc={c.k} tabindex="-1" aria-hidden="true"><rect class="sg-dc-col" x={f(c.x0 + 1)} y="0" width={f(COL - 2)} height={CH} rx="6" /></a>
+          ))}
+        </g>
+        {columns.map((c) => (
+          <g data-d={c.k}>
+            {c.dots.map((d) => (
+              <a href={href(lang, d.id)} data-g={letters.get(d.id) || undefined} class="sg-dc-dot">
+                <title>{nameOf(d.id)}</title>
+                <circle class="sg-dc-d" cx={d.x} cy={d.y} r={R} />
+                {tenSet.has(d.id) && <circle class="sg-dc-ring" cx={d.x} cy={d.y} r={R + 3.4} />}
+              </a>
+            ))}
+          </g>
+        ))}
+      </svg>
+    </figure>
+    <ol class="sg-dc-axis ui" style={`--n:${keys.length}`}>
+      {columns.map((c) => (
+        <li>{c.hasPage ? <a href={`${base}/decade/${c.k}/`} data-dc={c.k} aria-label={`${c.label}: ${fmt(C.count, { n: num(c.ids.length, lang) })}`}><bdi dir="ltr">{c.label}</bdi></a> : <span class="sg-dc-nolink"><bdi dir="ltr">{c.label}</bdi></span>}</li>
+      ))}
+    </ol>
+  </div>
+  <div class="sg-dc-panel panel" data-sg-dc-panel aria-live="polite" hidden>
+    <p class="ui muted sg-dc-hint" data-sg-dc-hint>{V.hint}</p>
+    <div data-sg-dc-body></div>
+  </div>
+  <details class="sg-dc-outline">
+    <summary class="ui">{V.outline_title}</summary>
+    {columns.filter((c) => c.hasPage).map((c) => (
+      <section data-sg-dc-sec={c.k} aria-labelledby={`sg-dc-h-${c.k}`}>
+        <h3 id={`sg-dc-h-${c.k}`}><a href={`${base}/decade/${c.k}/`}><bdi dir="ltr">{c.label}</bdi></a> · {fmt(C.count, { n: num(c.ids.length, lang) })}</h3>
+        <ul role="list" class="sg-dc-names">
+          {c.ids.map((id) => <li data-g={letters.get(id) || undefined}><a href={href(lang, id)}>{nameOf(id)}</a></li>)}
+        </ul>
+      </section>
+    ))}
+    {undated.length > 0 && (
+      <section aria-labelledby="sg-dc-h-none">
+        <h3 id="sg-dc-h-none">{V.no_death} · {fmt(C.count, { n: num(undated.length, lang) })}</h3>
+        <ul role="list" class="sg-dc-names">
+          {undated.map((id) => <li data-g={letters.get(id) || undefined}><a href={href(lang, id)}>{nameOf(id)}</a></li>)}
+        </ul>
+      </section>
+    )}
+  </details>
+</section>
+<style is:inline>
+  .sg-dc-plot { max-width: 980px; margin: .6rem auto 0; background: radial-gradient(120% 70% at 50% 100%, color-mix(in srgb, var(--gold) 9%, transparent), transparent 70%); border: 1px solid var(--line); border-radius: 18px; padding: 10px 8px 8px; }
+  .sg-dc-figure { margin: 0; }
+  .sg-dc-svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .sg-dc-base { stroke: var(--muted); stroke-width: 2px; fill: none; }
+  .sg-dc-col { fill: transparent; stroke: none; transition: fill .15s; cursor: pointer; }
+  .sg-dc-cols a:hover .sg-dc-col, .sg-dc-cols a.is-sel .sg-dc-col { fill: color-mix(in srgb, var(--gold) 16%, transparent); }
+  .sg-dc-d { fill: var(--link); stroke: var(--card); stroke-width: .8px; transition: opacity .2s, fill .2s; }
+  .sg-dc-ring { fill: none; stroke: var(--gold-text); stroke-width: 1.6px; }
+  .sg-dc-dot { cursor: pointer; }
+  .sg-dc-dot:hover .sg-dc-d { fill: var(--gold); stroke: var(--fg); stroke-width: 1.4px; }
+  .sg-dc-dot:focus-visible { outline: none; box-shadow: none; }
+  .sg-dc-dot:focus-visible .sg-dc-d { fill: var(--gold); stroke: var(--focus); stroke-width: 2.2px; }
+  .sg-dc-svg.has-lit .sg-dc-dot .sg-dc-d { opacity: .2; }
+  .sg-dc-svg.has-lit .sg-dc-dot.is-lit .sg-dc-d { opacity: 1; fill: var(--gold); stroke: var(--gold-text); stroke-width: 1px; }
+  .sg-dc-svg.has-lit .sg-dc-dot:not(.is-lit) .sg-dc-ring { opacity: .45; }
+  .sg-dc-counts, .sg-dc-axis { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); list-style: none; padding: 0; margin: 0; text-align: center; }
+  .sg-dc-counts { font-size: .8rem; color: var(--muted); margin-bottom: 4px; font-variant-numeric: tabular-nums; min-height: 1.4em; }
+  .sg-dc-counts li.is-lit { color: var(--gold-text); font-weight: 700; }
+  .sg-dc-counts li.is-zero { opacity: .45; }
+  .sg-dc-axis { margin-top: 2px; }
+  .sg-dc-axis li { min-width: 0; }
+  .sg-dc-axis a, .sg-dc-nolink { display: flex; align-items: flex-start; justify-content: center; min-height: 44px; padding: 6px 1px 4px; font-size: .78rem; line-height: 1.25; color: var(--link); text-align: center; border-radius: 8px; overflow-wrap: anywhere; }
+  .sg-dc-nolink { color: var(--muted); }
+  .sg-dc-axis a:hover, .sg-dc-axis a.is-sel { background: color-mix(in srgb, var(--gold) 18%, transparent); color: var(--fg); }
+  .sg-dc-axis a.is-sel { font-weight: 700; }
+  @media (max-width: 639px) {
+    .sg-dc-axis a, .sg-dc-nolink { min-height: 110px; writing-mode: vertical-rl; transform: rotate(180deg); align-items: center; justify-content: flex-start; font-size: .8rem; padding: 4px 6px; white-space: nowrap; }
+    .sg-dc-axis a, .sg-dc-nolink { margin-inline: auto; }
+  }
+  .sg-dc-toggles { display: flex; flex-wrap: wrap; gap: 8px; margin: .6rem 0 .2rem; }
+  .sg-dc-toggles[hidden] { display: none; }
+  .sg-dc-btn { font: inherit; font-size: .88rem; color: var(--fg); background: var(--card); border: 1px solid var(--line); border-radius: 999px; min-height: 44px; padding: 0 1rem; cursor: pointer; }
+  .sg-dc-btn:hover { border-color: var(--gold); }
+  .sg-dc-btn[aria-pressed="true"] { border-color: var(--gold); background: color-mix(in srgb, var(--gold) 24%, var(--card)); box-shadow: inset 0 0 0 1px var(--gold); font-weight: 700; }
+  .sg-dc-key { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin: .4rem 0 0; font-size: .84rem; color: var(--muted); }
+  .sg-dc-key svg { flex: none; overflow: visible; }
+  .sg-dc-lit { color: var(--gold-text); font-weight: 700; }
+  .sg-dc-lit:not(:empty)::before { content: "·"; margin-inline-end: 8px; color: var(--muted); font-weight: 400; }
+  .sg-dc-panel { margin-top: 12px; border: 1px solid var(--gold); padding: 14px 16px; max-height: 60vh; overflow: auto; }
+  .sg-dc-panel h3 { margin: 0 0 .5rem; font-size: 1.2rem; }
+  .sg-dc-hint { margin: 0 !important; font-size: .88rem; }
+  .sg-dc-names { list-style: none; padding: 0; margin: .4rem 0 0; column-width: 11.5rem; column-gap: 1.2rem; }
+  .sg-dc-names li { break-inside: avoid; padding-block: 3px; }
+  .sg-dc-names li[data-g].is-lit a { font-weight: 700; color: var(--gold-text); }
+  .sg-dc-open { display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.1rem; border-radius: 999px; background: var(--gold); color: #0a2533; font-weight: 700; text-decoration: none; }
+  .sg-dc-outline { margin-top: 1rem; }
+  .sg-dc-outline summary { cursor: pointer; min-height: 44px; display: inline-flex; align-items: center; }
+  .sg-dc-outline section { margin-top: 1rem; border-inline-start: 3px solid var(--gold); padding-inline-start: 12px; }
+  .sg-dc-outline h3 { margin: 0; font-size: 1.05rem; }
+  @media (prefers-reduced-motion: reduce) { .sg-dc-col, .sg-dc-d { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-companions.ts"></script>

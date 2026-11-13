@@ -4034,6 +4034,20 @@ places:
     mentioned:
       title: Mentioned in the sources
       desc: "Every other place or building a passage mentions — the automatic shelf that grows on its own the day a new harvested book names a place."
+  viz:
+    title: "The sacred geography"
+    caption: "Each mark is a place or building the museum's sources mention. Its shape and colour give its section, and its size grows with the square root of the number of passages that mention it, from {min} to {max}. At this scale the surroundings of Mecca and of Medina fall on a single point, so each is magnified in a lens below, drawn from the places within about {km} km of the city; places that share a point are spread slightly apart."
+    not_located: "Not yet located on the map:"
+    legend_title: "Sections of the map"
+    map_label: "Map of the sacred places, with magnified lenses on Mecca and Medina"
+    hint: "Touch or hover over a mark to read about the place. Press a section above to dim the others."
+    close: "Clear selection"
+    open: "Open the page"
+    no_mentions: "No passage in the museum's sources mentions it yet"
+    lens_title: "Around {city}"
+    lens_sub: "places within about {km} km"
+    km: "{n} km"
+    outline_title: "The places in text"
 signs:
   title: "Signs of the Hour Browser"
   lede: "The signs of the Hour ⁦(أشراط الساعة)⁩ in the museum's sources, read in order: the signs in general, the Mahdi, the Dajjal, Yajuj and Majuj, and the Hour itself. The Day of Judgment, Paradise and the Fire have browsers of their own."
@@ -4535,6 +4549,19 @@ companions:
   died_bh: 'd. {y} BH'
   back: 'All Companions'
   empty: 'No Companion is recorded here yet.'
+  viz:
+    title: "A generation, year by year"
+    caption: "One dot is one Companion recorded in the museum, placed by the Hijri decade of death the record gives: {n} are placed here, and {x} have no death year recorded, so they are listed below and not placed. Tap a decade to list its Companions; a dot opens the Companion's page."
+    caption_derived: "{n} of the years are converted from the Gregorian date on the record."
+    toggles_title: "Highlight a circle"
+    women: "Women"
+    ten: "The Ten"
+    ring_legend: "A ring marks one of the Ten promised Paradise."
+    chart_label: "Dot plot of the Companions by Hijri decade of death"
+    hint: "Choose a decade to list its Companions here."
+    open_decade: "Open the decade's page"
+    no_death: "No death year recorded"
+    outline_title: "The Companions in text, by decade of death"
 jobs:
   title: "Job Browser"
   lede: "What people did for a living in Islamic history, from the judge and the scribe to the physician, the builder and the weaver: each job with the people the museum has so far recorded in it. Many jobs have none recorded yet, and each says so."
