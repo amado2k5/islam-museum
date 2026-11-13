@@ -633,3 +633,12 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - One place file fetched to confirm the structure (ABADHA_526E311N_S). No pilot records were enriched in this PR.
 - Remaining: the 10-place pilot against the early-period place backlog, with per-record checks; the project's web domain still did not answer.
 
+## 2026-11-12 (p35, Lane B) — Biblissima pilot: 10 persons linked
+
+- Method: public Wikibase JSON API only (wbsearchentities, wbgetentities), one request at a time, 3 s pause, no SPARQL, no login. Fifteen classical Arab-Islamic authors were searched; all fifteen had a record.
+- Identity check: Biblissima's own Wikidata statement (P112) was compared with the Wikidata id on our record. For the 11 records of ours that carry a Wikidata id (the ten linked plus al-battani) the two ids are identical; years of birth and death agree with ours within the approximate markers, apart from the differences listed below.
+- Linked (external_ids.biblissima + source/biblissima): ibn-sina Q2018, al-farabi Q12167, ibn-rushd Q2016, al-khwarizmi Q295, thabit-ibn-qurra Q271, ibn-al-haytham Q23414, al-kindi Q16688, al-tabari Q23653, ibn-khaldun Q16838, ibn-al-nafis Q16852. New `biblissima` key in schema/external-id-patterns.yaml.
+- Left unlinked, with reason: al-battani (Q12154, ids match, our birth date empty; a spare, not needed for the ten); al-zahrawi, hunayn-ibn-ishaq and yuhanna-ibn-masawayh (our records carry no Wikidata id, so the crosswalk cannot confirm identity; not linked); al-razi and ibn-zuhr were not tested against a graph entry.
+- Measured Arabic share: 0 of 15 records carry an Arabic-script label (labels are French with transliteration, for example "Avicenne (0980-1037)"). Biblissima here adds identifiers and life dates, not Arabic names.
+- Date differences noticed, NOT changed (no change to our dates without a book source): al-farabi birth 0878~ (ours) vs 0870? (Biblissima); thabit-ibn-qurra birth 826 vs 831; al-kindi death 873 vs 867?; ibn-al-nafis birth 1210~ vs 1208?; ibn-al-haytham death 1040~ vs 1039.
+
