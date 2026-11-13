@@ -185,6 +185,7 @@ open a new block on top with the new version and today's date.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 180): trilingual draft prose on the perception of distance by discrimination, the quantity of distance, and clouds between mountains, cited to scan pages 246–249.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 181): trilingual draft prose on the test with a hole in a wall, the distances between visible things, and the kinds of visible thing by whether their distance is verified, cited to scan pages 249–252.
 - Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 182): trilingual draft prose on the estimation of distance by conjecture and resemblance, and the recognition of familiar visible things at familiar distances, cited to scan pages 252–255.
+- Kitab al-Manazir (Ibn al-Haytham), Article 2 chapter 3 continued (batch 183): trilingual draft prose on the kinds of position, the direction of a visible thing and facing, the parallel in hearing, and mirrors, cited to scan pages 255–258.
 
 
 ### Fixed
