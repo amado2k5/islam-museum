@@ -14,18 +14,21 @@ on:
 permissions:
   contents: read
 
-# One active build per branch, and every run waits its turn (founder, 22 October 2026).
-# A running build is never cancelled by a later one, and with queue: max no waiting run
-# is cancelled either: pushes and builds started by hand line up in the order they
-# arrived (up to 100) and each runs to its end. So a build the founder starts by hand is
-# never replaced or stopped by a push that follows it. The price is that every push
-# queues a full build, so after many pushes the newest artifact arrives hours later; the
-# deploy still takes the latest successful build. Only a failed test job (below) or a
-# person cancels a run.
+# Two queues per branch (docs/engineering/46-ci-flow-proposal.md, section 4). A running build is never cancelled by a
+# later one, in either queue.
+# - Builds started by hand: every run waits its turn (founder, 22 October 2026). With queue: max no waiting run is
+#   cancelled; they line up in the order they arrived (up to 100) and each runs to its end. A push never replaces or
+#   stops a build the founder started.
+# - Builds started by a push: one runs and the newest one waits. A push that arrives while another is waiting takes its
+#   place, and the older waiting run is cancelled (it shows as "cancelled"; the deploy never selects such a run). Until
+#   13 November 2026 every push queued a full build, so after many merges the newest artifact arrived hours later and
+#   238 runs were cancelled by hand on 12 November.
+# A hand-started build and a push build may run at the same time. Besides the queue, only a failed test job (below) or
+# a person cancels a run.
 concurrency:
-  group: build-${{ github.ref }}
+  group: build-${{ github.ref }}-${{ github.event_name == 'workflow_dispatch' && 'manual' || 'push' }}
   cancel-in-progress: false
-  queue: max
+  queue: ${{ github.event_name == 'workflow_dispatch' && 'max' || 'single' }}
 
 jobs:
   test:

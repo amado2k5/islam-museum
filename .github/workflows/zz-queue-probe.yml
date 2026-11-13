@@ -12,4 +12,5 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "queue expression accepted"
+      - run: sleep 75
+# 1

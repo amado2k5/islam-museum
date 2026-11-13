@@ -6,8 +6,20 @@ on:
 permissions:
   contents: read
 
-# Two jobs run side by side: the unit tests, and the content build with its checks.
-# Neither waits for the other, so the run takes as long as the slower job, not both added up.
+# One run per pull request: a new push to the branch stops the run of the older push, which nobody will read
+# (docs/engineering/46-ci-flow-proposal.md; on 13 November 2026 27 of 28 busy runners were Validate runs).
+concurrency:
+  group: validate-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+# Two jobs run side by side: the fast one (content validation, then the unit tests) and the sample build with its
+# checks. Neither waits for the other, so the run takes as long as the slower job, not both added up.
+#
+# A pull request builds a SAMPLE of the site, not all 202,000 pages (docs/engineering/46-ci-flow-proposal.md): every
+# page template in full except the entity page and the hadith chapter page, and of those two the records a check opens
+# by name, the records this pull request changed, and an even spread of each class (site/src/lib/sample.ts). A fault
+# on a record page outside the sample is found by the full build of main (build.yml), and a broken link there by
+# site-checks.yml. A pull request labelled `full-build` before its push builds the whole site instead (about an hour).
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -21,13 +33,22 @@ jobs:
             package-lock.json
             site/package-lock.json
       - run: npm ci && npm ci --prefix site
+      # First, so a content error answers in about two minutes instead of after the build.
+      - name: Validate the content
+        run: npm run validate
       - name: Unit tests
         run: npm test
 
   build:
     runs-on: ubuntu-latest
+    env:
+      # Read by site/src/lib/sample.ts inside `npm run build`. "0" is a full build.
+      SAMPLE_BUILD: ${{ contains(github.event.pull_request.labels.*.name, 'full-build') && '0' || '1' }}
     steps:
       - uses: actions/checkout@v7
+        with:
+          # The checkout is the merge commit; its first parent is the base, so HEAD^1..HEAD is what merging would change.
+          fetch-depth: 2
       - uses: actions/setup-node@v7
         with:
           node-version: 22
@@ -36,11 +57,19 @@ jobs:
             package-lock.json
             site/package-lock.json
       - run: npm ci && npm ci --prefix site
+      - name: Records this pull request changed (built in the three languages)
+        if: env.SAMPLE_BUILD == '1'
+        run: npm run sample:routes -- --base HEAD^1 --head HEAD
       # `npm run build` runs `validate` first (prebuild), so content errors still stop the job before Astro starts.
-      - name: Validate, compile and build
+      - name: Validate, compile and build (a sample of the pages unless labelled full-build)
         run: npm run build
       - name: No runtime AI or compute (guard)
         run: npm run check:static
+      # After the checks that read real pages, before the link check: a link to a record page the sample left out is
+      # not a broken link, a link to a record that does not exist still is.
+      - name: Placeholder pages for the routes the sample left out
+        if: env.SAMPLE_BUILD == '1'
+        run: npm run sample:stubs
       - name: Link check (internal)
         uses: lycheeverse/lychee-action@v2
         with:
