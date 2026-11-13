@@ -1,0 +1,21 @@
+id: source/biblissima
+class: source
+kind: reference_data
+type: database
+label:
+  ar: "مراجع الأعلام والأعمال في بيبليسيما ⁦(Biblissima)⁩"
+  en: "Biblissima authority referentials (data.biblissima.fr)"
+  ur: "بیبلیسیما کے اتھارٹی ریکارڈ (data.biblissima.fr)"
+summary:
+  ar: "قاعدة ويكيبيس مفتوحة تنشرها البنية البحثية الفرنسية بيبليسيما، وفيها سجلات مرجعية للأعلام والمؤسسات والأعمال والمخطوطات في العالم الوسيط، منها مؤلفون عرب وإسلاميون بأسمائهم العربية وتواريخ حياتهم. تنشر مراجعها برخصة «الرخصة المفتوحة ٢٫٠» الفرنسية ⁦(Etalab)⁩، وللسجل الواحد معرّف ثابت مثل Q499."
+  en: "An open Wikibase published by the French research infrastructure Biblissima: authority records for persons, institutions, works and manuscripts of the medieval world, including Arab and Islamic authors with Arabic-script names and life dates. Its referentials are published under the French Open Licence 2.0 (Etalab), and every record has a stable identifier such as Q499."
+  ur: "فرانسیسی تحقیقی ادارے بیبلیسیما کا کھلا ویکی بیس۔ اس میں قرونِ وسطیٰ کی شخصیات، اداروں، تصانیف اور مخطوطات کے اتھارٹی ریکارڈ ہیں۔ ان میں عربی اور اسلامی مصنفین بھی ہیں جن کے عربی نام اور سنینِ حیات درج ہیں۔ یہ ریکارڈ فرانسیسی کھلے اجازت نامے ۲٫۰ ⁦(ایٹالاب)⁩ کے تحت شائع ہوتے ہیں، اور ہر ریکارڈ کا ایک مستقل شناختی نمبر ہے، جیسے Q499۔"
+title: "Biblissima authority referentials"
+publisher: "Biblissima+ (French national research infrastructure; Campus Condorcet)"
+URL: "https://data.biblissima.fr"
+language: multilingual
+reliability_note: "Authority records for persons, works and institutions of the manuscript world, curated by a French national research infrastructure (Biblissima+); each record carries identifiers that cross-reference BnF, VIAF, IdRef and Wikidata where known. Licence: the wiki's Licence page and its site rights field state the Licence Ouverte / Open Licence 2.0 (Etalab), compatible with CC BY 2.0 and ODC-BY (data.biblissima.fr/w/Licence, read 12 Nov 2026); the museum's {cite:biblissima <Q-id>} is the attribution. Anchor: the Wikibase item id (for example Q499, which resolves at data.biblissima.fr/entity/Q499). Harvest channel: the public MediaWiki and Wikibase JSON API at data.biblissima.fr/w/api.php only (wbsearchentities, wbgetentities), one request at a time with a pause; the API is documented by the project at doc.biblissima.fr/api. The SPARQL endpoints answer 401 Unauthorized to anonymous clients, so they are not used and no login is attempted. data.biblissima.fr serves no robots.txt (404, read 12 Nov 2026), so no crawl restriction is published; the museum still reads item by item and never bulk-crawls. Posture: facts-only by lane rule for the pilot. Identity, life dates, name forms and identifiers are restated in the museum's own words; labels in the French-language form of the wiki are not republished as prose. Citable for who a person or what a work is and when, never as the sole basis for a biographical claim that a book source would carry. Records may carry only a French label; Arabic-script labels exist for part of the Arabic authors and are checked per record. Tier 2. Assessment: web-sources lane, 12 Nov 2026; registered on the founder's approval of four pilot sources, 12 Nov 2026."
+sources: [source/biblissima]
+open_access: true
+provenance: { layer: own-research, source: "web-sources lane assessment 2026-11-12 (progress note p33); registered 2026-11-12 on the founder's approval of the four pilot sources", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: web-sources-pilots-biblissima-2026-11-12 }
+status: { review: draft, generated_by: "Claude Code (claude-sonnet-5-5)" }
