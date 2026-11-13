@@ -91,6 +91,8 @@ export interface LessonSection { heading: string; html: string }
 export interface LessonView {
   course: Course; lesson: Node; strand: Strand; index: number; total: number; strandIndex: number; strandTotal: number;
   prev?: Node; next?: Node; brief?: string; sections: LessonSection[]; tryThis?: LessonSection;
+  /** The depth layer, after the woven thread and before "Try this" (see DEPTH). */
+  depth: LessonSection[];
   expectations: ExpectationView[]; before: ConnView[]; after: ConnView[];
   /** The teaching sections with the "within" connections placed between them (see weave()). */
   woven: ({ type: "section"; section: LessonSection } | { type: "conn"; conn: ConnView })[];
@@ -140,6 +142,12 @@ function buildCheck(course: Course, lesson: Node, conns: ConnView[], lang: Lang)
 
 const BRIEF = /^(brief|موجز|مختصر)$/i;
 const TRY = /^(try this|جرّب هذا|جرب هذا|یہ آزماؤ|یہ آزمائیں)$/i;
+/**
+ * The depth layer (docs/courses/depth-rubric.md): sections a lesson's prose may carry under these fixed headings. They are
+ * shown after the lesson's own sections and cards, in the order written, so a student meets a record's card before reading
+ * further into it. A lesson with none of them renders exactly as before.
+ */
+export const DEPTH = /^(go deeper|why they did it|two views|often misunderstood|how do we know\?|think about it|into the museum|تعمّق|لماذا فعلوا ذلك؟|رأيان|خطأ شائع|كيف نعرف؟|فكّر في هذا|إلى المتحف)$/i;
 
 export function lessonView(course: Course, lesson: Node, lang: Lang): LessonView {
   const strand = course.strands.find((s) => s.lessons.includes(lesson))!;
@@ -163,14 +171,16 @@ export function lessonView(course: Course, lesson: Node, lang: Lang): LessonView
   const briefSec = raw.find((s) => BRIEF.test(s.heading.trim()));
   const trySec = raw.find((s) => TRY.test(s.heading.trim()));
   const brief = briefSec ? render(briefSec.markdown) : undefined;
-  const sections = raw.filter((s) => s !== briefSec && s !== trySec).map((s) => ({ heading: s.heading, html: render(s.markdown) }));
+  const isDepth = (s: { heading: string }) => DEPTH.test(s.heading.trim());
+  const sections = raw.filter((s) => s !== briefSec && s !== trySec && !isDepth(s)).map((s) => ({ heading: s.heading, html: render(s.markdown) }));
+  const depth = raw.filter((s) => s !== briefSec && s !== trySec && isDepth(s)).map((s) => ({ heading: s.heading, html: render(s.markdown) }));
   const tryThis = trySec ? { heading: trySec.heading, html: render(trySec.markdown) } : undefined;
   for (const c of cites) { const sn = byId.get(c.label); c.href = sn && !sn.stub ? href(lang, sn.id) : undefined; c.label = sn ? labelOf(sn, lang) : c.label; }
   const conns: ConnView[] = (lesson.data?.connections ?? []).map((c: any) => connView(c, lang));
   const off = officialLang(course);
   return {
     course, lesson, strand, index, total: course.lessons.length, strandIndex: strand.lessons.indexOf(lesson), strandTotal: strand.lessons.length,
-    prev: course.lessons[index - 1], next: course.lessons[index + 1], brief, sections, tryThis,
+    prev: course.lessons[index - 1], next: course.lessons[index + 1], brief, sections, depth, tryThis,
     expectations: (lesson.data?.expectations ?? []).map((e: any) => expectationView(e, lang, off)),
     before: conns.filter((c) => c.position === "before"), after: conns.filter((c) => c.position === "after"),
     woven: weave(sections, conns.filter((c) => c.position === "within")),
