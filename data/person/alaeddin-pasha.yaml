@@ -13,7 +13,6 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
-died: { edtf: "1331", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Finkel (Osman's Dream)" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/uthman-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }

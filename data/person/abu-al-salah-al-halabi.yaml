@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "984", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi, Rijal al-Najashi; al-Hurr al-Amili, Amal al-Amil" }
-died: { edtf: "1055", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi, Rijal al-Najashi; al-Hurr al-Amili, Amal al-Amil" }
+born: { edtf: "984", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi, Rijal al-Najashi; al-Hurr al-Amili, Amal al-Amil Confirmed on 13 November 2026 against Wikidata Q5963182 (P569, a statement with a reference), item revision 2528397801.", sources: [source/wikidata] }
+died: { edtf: "1055", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi, Rijal al-Najashi; al-Hurr al-Amili, Amal al-Amil Confirmed on 13 November 2026 against Wikidata Q5963182 (P570, a statement with a reference), item revision 2528397801.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/aleppo, note: "Place association from the person's nisba/name (الحلبي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

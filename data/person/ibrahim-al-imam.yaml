@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/umayyad, period/abbasid-early]
-born: { edtf: "701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+born: { edtf: "701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q3827910 (P569, a statement with a reference), item revision 2509029931.", sources: [source/wikidata] }
+died: { edtf: "749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q3827910 (P570, a statement with a reference), item revision 2509029931.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/humayma, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/buhran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

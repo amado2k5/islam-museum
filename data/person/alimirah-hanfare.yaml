@@ -23,7 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1915", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Aethiopica" }
-died: { edtf: "2011", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Aethiopica" }
+died: { edtf: "2011", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Aethiopica Confirmed on 13 November 2026 against Wikidata Q2836293 (P570, a statement with a reference), item revision 2537931008.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/east-africa, note: "Only the record-level region (east-africa) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1160", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat)" }
-died: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat)" }
+born: { edtf: "1160", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat) Confirmed on 13 November 2026 against Wikidata Q12177809 (P569, a statement with a reference), item revision 2567996829.", sources: [source/wikidata] }
+died: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat) Confirmed on 13 November 2026 against Wikidata Q12177809 (P570, a statement with a reference), item revision 2567996829.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/qazwin, note: "Place association from the person's nisba/name (القزويني); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

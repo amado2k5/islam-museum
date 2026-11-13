@@ -15,7 +15,7 @@ regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
 born: { edtf: "591~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); Ibn Sa'd" }
-died: { edtf: "627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); Ibn Sa'd" }
+died: { edtf: "627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); Ibn Sa'd Confirmed on 13 November 2026 against Wikidata Q12239307 (P570, a statement with a reference), item revision 2533516366.", sources: [source/wikidata] }
 relations:
   - { type: traveled_to, target: place/badr, sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam] }

@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
-born: { edtf: "1566", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mercer (Spanish Morocco); EI2" }
-died: { edtf: "1621", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mercer (Spanish Morocco); EI2" }
+born: { edtf: "1566", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mercer (Spanish Morocco); EI2 Confirmed on 13 November 2026 against Wikidata Q6933935 (P569, a statement with a reference), item revision 2566403745.", sources: [source/wikidata] }
+died: { edtf: "1621", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mercer (Spanish Morocco); EI2 Confirmed on 13 November 2026 against Wikidata Q6933935 (P570, a statement with a reference), item revision 2566403745.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/marrakesh, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q101625)" }
   - { type: died_in, target: place/vigevano, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q40832)" }

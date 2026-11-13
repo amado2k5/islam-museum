@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1599", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safwa (al-Ifrani); al-A'lam (al-Zirikli: 1007–1091 AH)" }
-died: { edtf: "1680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safwa (al-Ifrani); al-A'lam (al-Zirikli: 1007–1091 AH)" }
+born: { edtf: "1599", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safwa (al-Ifrani); al-A'lam (al-Zirikli: 1007–1091 AH) Confirmed on 13 November 2026 against Wikidata Q4116828 (P569, a statement with a reference), item revision 2567464582.", sources: [source/wikidata] }
+died: { edtf: "1680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safwa (al-Ifrani); al-A'lam (al-Zirikli: 1007–1091 AH) Confirmed on 13 November 2026 against Wikidata Q4116828 (P570, a statement with a reference), item revision 2567464582.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/fez, note: "Place association from the person's nisba/name (الفاسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

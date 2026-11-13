@@ -10,10 +10,10 @@ external_ids: { wikidata: "Q2177228" }
 sources: [source/futuh-buldan-maarif-1407, source/taqrib-al-tahdhib, source/wikidata]
 status: { review: draft, completeness: 3 }
 provenance:
+  source: "the record's cited sources (source/futuh-buldan-maarif-1407; source/taqrib-al-tahdhib; source/wikidata); field added 13 November 2026"
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
-born: { edtf: "580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: born_in, target: place/mecca, note: "Wikidata Q5806 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }

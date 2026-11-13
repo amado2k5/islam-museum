@@ -27,7 +27,7 @@ importance: 2
 status:
   review: draft
   completeness: 1
-born: { edtf: "853~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); EI2" }
-died: { edtf: "944~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); EI2" }
+born: { edtf: "853~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); EI2 Confirmed on 13 November 2026 against Wikidata Q12827721 (P569, a statement with a reference), item revision 2567382480.", sources: [source/wikidata] }
+died: { edtf: "944~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); EI2 Confirmed on 13 November 2026 against Wikidata Q12827721 (P570, a statement with a reference), item revision 2567382480.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/samarqand, note: "Place association from the person's nisba/name (السمرقندي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

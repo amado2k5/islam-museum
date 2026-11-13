@@ -23,7 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "1286", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
-died: { edtf: "1347", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+born: { edtf: "1286", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q6718226 (P569, a statement with a reference), item revision 2556815367.", sources: [source/wikidata] }
+died: { edtf: "1347", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q6718226 (P570, a statement with a reference), item revision 2556815367.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

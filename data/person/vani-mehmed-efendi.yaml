@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-died: { edtf: "1685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; Sicill-i Osmani" }
+died: { edtf: "1685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; Sicill-i Osmani Confirmed on 13 November 2026 against Wikidata Q124432996 (P570, a statement with a reference), item revision 2462187852.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/van, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q83061)" }
   - { type: died_in, target: place/bursa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q40738)" }

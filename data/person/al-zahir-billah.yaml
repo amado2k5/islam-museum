@@ -40,8 +40,8 @@ status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High)
-born: { edtf: "1176", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
-died: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
+born: { edtf: "1176", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa Confirmed on 13 November 2026 against Wikidata Q293450 (P569, a statement with a reference), item revision 2553922392.", sources: [source/wikidata] }
+died: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa Confirmed on 13 November 2026 against Wikidata Q293450 (P570, a statement with a reference), item revision 2553922392.", sources: [source/wikidata] }
 relations:
 - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: successor_of, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }

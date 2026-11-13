@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1436", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw al-Lami (al-Sakhawi)" }
-died: { edtf: "1503", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw al-Lami (al-Sakhawi)" }
+born: { edtf: "1436", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw al-Lami (al-Sakhawi) Confirmed on 13 November 2026 against Wikidata Q60842460 (P569, a statement with a reference), item revision 2554037374.", sources: [source/wikidata] }
+died: { edtf: "1503", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw al-Lami (al-Sakhawi) Confirmed on 13 November 2026 against Wikidata Q60842460 (P570, a statement with a reference), item revision 2554037374.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

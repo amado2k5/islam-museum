@@ -13,7 +13,7 @@ regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [medicine]
 born: { edtf: "1390", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wellcome Library catalogue" }
-died: { edtf: "1422", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wellcome Library catalogue" }
+died: { edtf: "1422", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wellcome Library catalogue Confirmed on 13 November 2026 against Wikidata Q2387551 (P570, a statement with a reference), item revision 2566763093.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

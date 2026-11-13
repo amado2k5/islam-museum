@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/abbasid-fragmentation]
-born: { edtf: "976", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hazm (Jamharat Ansab al-Arab)" }
-died: { edtf: "1025", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hazm (Jamharat Ansab al-Arab)" }
+born: { edtf: "976", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hazm (Jamharat Ansab al-Arab) Confirmed on 13 November 2026 against Wikidata Q919001 (P569, a statement with a reference), item revision 2553830564.", sources: [source/wikidata] }
+died: { edtf: "1025", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hazm (Jamharat Ansab al-Arab) Confirmed on 13 November 2026 against Wikidata Q919001 (P570, a statement with a reference), item revision 2553830564.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/cordoba, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5818)" }
   - { type: died_in, target: place/ucl-s, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q959012)" }

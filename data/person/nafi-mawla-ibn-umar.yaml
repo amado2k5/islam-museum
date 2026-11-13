@@ -15,7 +15,7 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch50
-died: { edtf: "735", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nafi'); al-Dhahabi (Siyar)" }
+died: { edtf: "735", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nafi'); al-Dhahabi (Siyar) Confirmed on 13 November 2026 against Wikidata Q115039 (P570, a statement with a reference), item revision 2551157692.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 sources: [source/wafayat-ayan, source/taqrib-al-tahdhib]

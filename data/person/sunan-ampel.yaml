@@ -12,7 +12,7 @@ wings: [people]
 regions: [southeast-asia]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1401", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Babad Tanah Jawi / Ricklefs" }
-died: { edtf: "1481", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Babad Tanah Jawi / Ricklefs" }
+died: { edtf: "1481", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Babad Tanah Jawi / Ricklefs Confirmed on 13 November 2026 against Wikidata Q6684511 (P570, a statement with a reference), item revision 2561321999.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/champa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q216786)" }
   - { type: buried_in, target: place/sunan-ampel-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q56229615)" }

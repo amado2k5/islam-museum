@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1242", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Shuyukh (al-Dhahabi)" }
-died: { edtf: "1332", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Shuyukh (al-Dhahabi)" }
+born: { edtf: "1242", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Shuyukh (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q12181566 (P569, a statement with a reference), item revision 2507781324.", sources: [source/wikidata] }
+died: { edtf: "1332", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Shuyukh (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q12181566 (P570, a statement with a reference), item revision 2507781324.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/qal-at-ja-bar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/al-khalil, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

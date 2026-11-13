@@ -9,7 +9,7 @@ summary:
 wings: [people]
 story_roles:
   - { role: companion, status: tradition, sources: [source/sahih-al-bukhari] }
-born: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 1–43 AH)" }
+born: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 1–43 AH) Confirmed on 13 November 2026 against Wikidata Q22688793 (P569, a statement with a reference), item revision 2533522417.", sources: [source/wikidata] }
 died: { edtf: "0664", hijri: "0043", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn Hibban gives 43 AH (al-Isaba p. 785); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (قرشي); denotes association, not proven residence.", sources: [source/sahih-al-bukhari], confidence: low }

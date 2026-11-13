@@ -19,7 +19,7 @@ provenance:
 external_ids: { wikidata: "Q335620" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-born: { edtf: "1297", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-Ibar)" }
+born: { edtf: "1297", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-Ibar) Confirmed on 13 November 2026 against Wikidata Q335620 (P569, a statement with a reference), item revision 2553830606.", sources: [source/wikidata] }
 died: { edtf: "1351", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-Ibar)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/nafh-tib-maqqari], confidence: low }

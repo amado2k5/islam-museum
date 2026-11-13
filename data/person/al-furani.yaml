@@ -23,7 +23,6 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "998", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat)" }
-died: { edtf: "1069", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat)" }
+died: { edtf: "1069", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat) Confirmed on 13 November 2026 against Wikidata Q16126688 (P570, a statement with a reference), item revision 2521917512.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/merv, note: "From text: of Merv", sources: [source/al-aalam], confidence: low }

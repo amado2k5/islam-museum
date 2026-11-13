@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1247", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
-died: { edtf: "1338", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+born: { edtf: "1247", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam Confirmed on 13 November 2026 against Wikidata Q28716578 (P569, a statement with a reference), item revision 2533393407.", sources: [source/wikidata] }
+died: { edtf: "1338", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam Confirmed on 13 November 2026 against Wikidata Q28716578 (P570, a statement with a reference), item revision 2533393407.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/hama, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/hama, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

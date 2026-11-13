@@ -13,8 +13,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1394", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
-died: { edtf: "1453", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+born: { edtf: "1394", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Confirmed on 13 November 2026 against Wikidata Q19629001 (P569, a statement with a reference), item revision 2568209944.", sources: [source/wikidata] }
+died: { edtf: "1453", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Confirmed on 13 November 2026 against Wikidata Q19629001 (P570, a statement with a reference), item revision 2568209944.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/soum-a, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q68169767)" }
   - { type: born_in, target: place/th-nia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2225013)" }

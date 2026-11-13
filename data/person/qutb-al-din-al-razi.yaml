@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1295", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
-died: { edtf: "1365", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+born: { edtf: "1295", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q5934574 (P569, a statement with a reference), item revision 2566860170.", sources: [source/wikidata] }
+died: { edtf: "1365", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q5934574 (P570, a statement with a reference), item revision 2566860170.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/rayy, confidence: low, note: "Association inferred from the nisba in the name 'Qutb al-Din al-Razi'; specific residence not individually documented.", sources: [source/al-aalam] }

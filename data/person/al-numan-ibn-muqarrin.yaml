@@ -15,7 +15,7 @@ provenance:
   run: lib-futuh-buldan-batch-41
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba Confirmed on 13 November 2026 against Wikidata Q3299880 (P570, a statement with a reference), item revision 2567442188.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }
   - {confidence: low, note: Only the record-level region (arabia) is attested; broad-region edge flagged for review., sources: [source/kamil-ibn-al-athir], target: place/jazirat-al-arab, type: lived_in}

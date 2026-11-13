@@ -12,8 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 sources: [source/al-aalam]
-born: { edtf: "759", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
-died: { edtf: "841", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+born: { edtf: "759", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi) Confirmed on 13 November 2026 against Wikidata Q12251700 (P569, a statement with a reference), item revision 2553316343.", sources: [source/wikidata] }
+died: { edtf: "841", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi) Confirmed on 13 November 2026 against Wikidata Q12251700 (P570, a statement with a reference), item revision 2553316343.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Early-Abbasid hadith figure (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
 external_ids:

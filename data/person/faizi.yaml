@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1547", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bada'uni (Muntakhab)" }
-died: { edtf: "1595", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bada'uni (Muntakhab)" }
+born: { edtf: "1547", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bada'uni (Muntakhab) Confirmed on 13 November 2026 against Wikidata Q336120 (P569, a statement with a reference), item revision 2533528678.", sources: [source/wikidata] }
+died: { edtf: "1595", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bada'uni (Muntakhab) Confirmed on 13 November 2026 against Wikidata Q336120 (P570, a statement with a reference), item revision 2533528678.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

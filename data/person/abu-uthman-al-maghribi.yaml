@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "857", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sulami (Tabaqat al-Sufiyya); al-Dhahabi" }
-died: { edtf: "983", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sulami (Tabaqat al-Sufiyya); al-Dhahabi" }
+born: { edtf: "857", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sulami (Tabaqat al-Sufiyya); al-Dhahabi Confirmed on 13 November 2026 against Wikidata Q2822181 (P569, a statement with a reference), item revision 2525225388.", sources: [source/wikidata] }
+died: { edtf: "983", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sulami (Tabaqat al-Sufiyya); al-Dhahabi Confirmed on 13 November 2026 against Wikidata Q2822181 (P570, a statement with a reference), item revision 2525225388.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

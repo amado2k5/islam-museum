@@ -57,8 +57,8 @@ status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High)
-born: { edtf: "1158", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
-died: { edtf: "1225", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+born: { edtf: "1158", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Confirmed on 13 November 2026 against Wikidata Q284750 (P569, a statement with a reference), item revision 2553916148.", sources: [source/wikidata] }
+died: { edtf: "1225", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Confirmed on 13 November 2026 against Wikidata Q284750 (P570, a statement with a reference), item revision 2553916148.", sources: [source/wikidata] }
 relations:
 - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: successor_of, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }

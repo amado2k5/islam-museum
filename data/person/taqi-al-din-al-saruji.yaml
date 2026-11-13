@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1230", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tal'i (al-Shawkani)" }
-died: { edtf: "1294", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tal'i (al-Shawkani)" }
+born: { edtf: "1230", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tal'i (al-Shawkani) Confirmed on 13 November 2026 against Wikidata Q28713255 (P569, a statement with a reference), item revision 2533246762.", sources: [source/wikidata] }
+died: { edtf: "1294", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tal'i (al-Shawkani) Confirmed on 13 November 2026 against Wikidata Q28713255 (P570, a statement with a reference), item revision 2533246762.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/suru, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q917836)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }

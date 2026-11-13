@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "761", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar)" }
-died: { edtf: "823", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar)" }
+born: { edtf: "761", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar) Confirmed on 13 November 2026 against Wikidata Q106956225 (P569, a statement with a reference), item revision 2533405579.", sources: [source/wikidata] }
+died: { edtf: "823", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar) Confirmed on 13 November 2026 against Wikidata Q106956225 (P570, a statement with a reference), item revision 2533405579.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/tinnis, confidence: low, note: "Association inferred from the nisba 'التنيسي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

@@ -29,7 +29,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
-born: { edtf: "1815", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khattatan-i Shahir / Inal" }
-died: { edtf: "1896", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khattatan-i Shahir / Inal" }
+born: { edtf: "1815", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khattatan-i Shahir / Inal Confirmed on 13 November 2026 against Wikidata Q108327215 (P569, a statement with a reference), item revision 2435894220.", sources: [source/wikidata] }
+died: { edtf: "1896", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khattatan-i Shahir / Inal Confirmed on 13 November 2026 against Wikidata Q108327215 (P570, a statement with a reference), item revision 2435894220.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

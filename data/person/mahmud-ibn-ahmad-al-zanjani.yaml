@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1177", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
-died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
+born: { edtf: "1177", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q28713119 (P569, a statement with a reference), item revision 2512613991.", sources: [source/wikidata] }
+died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q28713119 (P570, a statement with a reference), item revision 2512613991.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/zanjan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -8,8 +8,8 @@ gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
-born: { edtf: "1287", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
-died: { edtf: "1366", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+born: { edtf: "1287", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q1655892 (P569, a statement with a reference), item revision 2559051738.", sources: [source/wikidata] }
+died: { edtf: "1366", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q1655892 (P570, a statement with a reference), item revision 2559051738.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

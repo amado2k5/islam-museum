@@ -7,7 +7,6 @@ summary:
 periods: [period/rashidun]
 wings: [people]
 external_ids: { wikidata: "Q12228405" }
-born: { edtf: "623~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 died: { edtf: "702", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: born_in, target: place/kingdom-of-aksum, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q139377)" }
@@ -15,6 +14,7 @@ relations:
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
+  source: "the record's cited sources (source/futuh-buldan-maarif-1407); field added 13 November 2026"
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"

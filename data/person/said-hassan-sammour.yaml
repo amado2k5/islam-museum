@@ -11,7 +11,6 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/contemporary-era]
-born: { edtf: "1953", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
 relations:
   - { type: born_in, target: place/tulkarm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q985531)" }
   - { type: died_in, target: place/amman, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3805)" }

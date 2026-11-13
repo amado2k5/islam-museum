@@ -42,7 +42,6 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-born: { edtf: "594~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 died: { edtf: "0671", hijri: "0051", calendar: julian, precision: year, status: debated, derived: true, note: "Ya'qub ibn Sufyan fixes 51 AH — the soundest; other reports give 63 or 66, both unproven (al-Isaba p. 1965); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

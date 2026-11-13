@@ -12,7 +12,6 @@ wings: [people]
 regions: [maghreb]
 periods: [period/modern-era]
 born: { edtf: "1718", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
-died: { edtf: "1800", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: born_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

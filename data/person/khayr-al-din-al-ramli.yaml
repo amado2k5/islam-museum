@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1585", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
-died: { edtf: "1671", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+born: { edtf: "1585", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q6401098 (P569, a statement with a reference), item revision 2566394025.", sources: [source/wikidata] }
+died: { edtf: "1671", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q6401098 (P570, a statement with a reference), item revision 2566394025.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/ramla, confidence: low, note: "Associated with الرملة per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

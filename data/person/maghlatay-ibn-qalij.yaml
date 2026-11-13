@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1290", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
-died: { edtf: "1361", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+born: { edtf: "1290", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q12244433 (P569, a statement with a reference), item revision 2533365555.", sources: [source/wikidata] }
+died: { edtf: "1361", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q12244433 (P570, a statement with a reference), item revision 2533365555.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

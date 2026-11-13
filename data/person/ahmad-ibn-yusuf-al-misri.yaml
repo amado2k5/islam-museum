@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "835", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim / EI2" }
-died: { edtf: "912", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim / EI2" }
+born: { edtf: "835", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim / EI2 Confirmed on 13 November 2026 against Wikidata Q2198528 (P569, a statement with a reference), item revision 2563046430.", sources: [source/wikidata] }
+died: { edtf: "912", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim / EI2 Confirmed on 13 November 2026 against Wikidata Q2198528 (P570, a statement with a reference), item revision 2563046430.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (misri); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

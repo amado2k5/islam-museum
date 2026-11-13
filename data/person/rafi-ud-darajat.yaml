@@ -14,7 +14,7 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Later Mughals (William Irvine)" }
-died: { edtf: "1719", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Later Mughals (William Irvine)" }
+died: { edtf: "1719", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Later Mughals (William Irvine) Confirmed on 13 November 2026 against Wikidata Q3236324 (P570, a statement with a reference), item revision 2526868677.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/mughal-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q33296)" }
   - { type: died_in, target: place/agra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q42941)" }

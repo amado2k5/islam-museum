@@ -11,8 +11,6 @@ roles: [caliph, ruler]
 wings: [people]
 periods: [period/umayyad]
 regions: [andalus-europe, maghreb]
-born: { edtf: "959", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib" }
-died: { edtf: "1036", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib" }
 relations:
 - { type: ruled_over, target: polity/hammudid-caliphate, sources: [source/bayan-mughrib-idhari] }
 - { type: successor_of, target: person/ali-ibn-hammud-al-nasir, sources: [source/bayan-mughrib-idhari] }

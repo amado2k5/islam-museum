@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-born: { edtf: "1592~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nargisi); TDV Islam Ansiklopedisi" }
-died: { edtf: "1635", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nargisi); TDV Islam Ansiklopedisi" }
+born: { edtf: "1592~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nargisi); TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q1977944 (P569, a statement with a reference), item revision 2516749096.", sources: [source/wikidata] }
+died: { edtf: "1635", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nargisi); TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q1977944 (P570, a statement with a reference), item revision 2516749096.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/sarajevo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q11194)" }
   - { type: died_in, target: place/gebze, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q206116)" }

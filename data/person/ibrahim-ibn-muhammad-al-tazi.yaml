@@ -11,7 +11,6 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
-died: { edtf: "1492", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nayl al-Ibtihaj" }
 relations:
   - { type: born_in, target: place/taza, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/wahran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

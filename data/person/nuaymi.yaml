@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-born: { edtf: "1441", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Nu'aymi); al-A'lam" }
-died: { edtf: "1521", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Nu'aymi); al-A'lam" }
+born: { edtf: "1441", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Nu'aymi); al-A'lam Confirmed on 13 November 2026 against Wikidata Q136109190 (P569, a statement with a reference), item revision 2555999486.", sources: [source/wikidata] }
+died: { edtf: "1521", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Nu'aymi); al-A'lam Confirmed on 13 November 2026 against Wikidata Q136109190 (P570, a statement with a reference), item revision 2555999486.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
 sources: [source/al-aalam]

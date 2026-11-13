@@ -11,8 +11,8 @@ summary:
   ar: "كبير معماري البلاط العثماني من سنة 945هـ/1538م إلى وفاته سنة 996هـ/1588م. أُخذ في الدوشرمة وتمرّس في الحملات العسكرية، وتنسب إليه ثلاث قوائم من القرن السادس عشر نحو 477 بناء؛ ومجمعاته الثلاثة الكبرى شهزاده والسليمانية في إسطنبول والسليمية في أدرنة."
   ur: "945ھ/1538ء سے 996ھ/1588ء میں وفات تک عثمانی دربار کے معمار اعلیٰ۔ دیوشرمہ کے تحت لیے گئے اور فوجی مہموں میں تربیت پائی؛ سولہویں صدی کی تین فہرستیں تقریباً 477 عمارتیں ان سے منسوب کرتی ہیں۔ ان کے تین بڑے مجموعے استنبول کے شہزادہ اور سلیمانیہ اور ادرنہ کا سلیمیہ ہیں۔"
 wings: [people]
-born: { edtf: "1489~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV. The Encyclopaedia of Islam gives 895/1490 {cite:encyclopaedia-of-islam-2 vol. 9 p. 644}." }
-died: { edtf: "1588", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+born: { edtf: "1489~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV. The Encyclopaedia of Islam gives 895/1490 {cite:encyclopaedia-of-islam-2 vol. 9 p. 644}. Confirmed on 13 November 2026 against Wikidata Q5600 (P569, a statement with a reference), item revision 2568841721.", sources: [source/wikidata] }
+died: { edtf: "1588", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q5600 (P570, a statement with a reference), item revision 2568841721.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: built, target: building/sehzade-mosque, note: "950-5/1543-8; his first major commission", sources: [source/encyclopaedia-of-islam-2] }

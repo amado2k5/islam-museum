@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/colonial-era]
-born: { edtf: "1835", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
-died: { edtf: "1908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+born: { edtf: "1835", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q312952 (P569, a statement with a reference), item revision 2531047200.", sources: [source/wikidata] }
+died: { edtf: "1908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q312952 (P570, a statement with a reference), item revision 2531047200.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/qadian, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/lahore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

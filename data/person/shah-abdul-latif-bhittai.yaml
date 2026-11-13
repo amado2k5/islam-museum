@@ -12,8 +12,8 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 themes: [spirituality-and-sufism]
-born: { edtf: "1689", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
-died: { edtf: "1752", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+born: { edtf: "1689", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q1396312 (P569, a statement with a reference), item revision 2568858215.", sources: [source/wikidata] }
+died: { edtf: "1752", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q1396312 (P570, a statement with a reference), item revision 2568858215.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/halla, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3250492)" }
   - { type: died_in, target: place/bhit, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q4901833)" }

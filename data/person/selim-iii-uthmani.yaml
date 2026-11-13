@@ -11,8 +11,8 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [anatolia-balkans]
-born: { edtf: "1761", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
-died: { edtf: "1808", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+born: { edtf: "1761", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q199633 (P569, a statement with a reference), item revision 2568329472.", sources: [source/wikidata] }
+died: { edtf: "1808", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q199633 (P570, a statement with a reference), item revision 2568329472.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: successor_of, target: person/abd-al-hamid-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }

@@ -7,8 +7,8 @@ summary:
   en: "The celebrated barefoot ascetic of Merv — dead at Baghdad in 227 {cite:muruj-al-dhahab p. 453}."
 gender: male
 wings: [people]
-born: { edtf: "767", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
-died: { edtf: "841", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+born: { edtf: "767", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Confirmed on 13 November 2026 against Wikidata Q2261664 (P569, a statement with a reference), item revision 2551261296.", sources: [source/wikidata] }
+died: { edtf: "841", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Confirmed on 13 November 2026 against Wikidata Q2261664 (P570, a statement with a reference), item revision 2551261296.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

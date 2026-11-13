@@ -11,7 +11,6 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-died: { edtf: "1540", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib al-Sa'ira / al-Ghazzi" }
 relations:
   - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

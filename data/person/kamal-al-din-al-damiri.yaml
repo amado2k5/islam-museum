@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1341", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / al-Durar al-Kamina" }
+born: { edtf: "1341", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q330616 (P569, a statement with a reference), item revision 2567872568.", sources: [source/wikidata] }
 died: { edtf: "1405", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / al-Durar al-Kamina" }
 relations:
   - { type: born_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

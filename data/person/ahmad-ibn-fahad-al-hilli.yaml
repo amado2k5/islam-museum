@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1356", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Hurr al-Amili (Amal al-Amil); al-Zirikli" }
-died: { edtf: "1437", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Hurr al-Amili (Amal al-Amil); al-Zirikli" }
+born: { edtf: "1356", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Hurr al-Amili (Amal al-Amil); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q6419118 (P569, a statement with a reference), item revision 2550119730.", sources: [source/wikidata] }
+died: { edtf: "1437", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Hurr al-Amili (Amal al-Amil); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q6419118 (P570, a statement with a reference), item revision 2550119730.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/hilla, note: "From text: فقيه الحلة في القرن الخامس عشر", sources: [source/al-aalam], confidence: low }

@@ -21,7 +21,7 @@ importance: 1
 status:
   review: published
   completeness: 3
-born: { edtf: "671~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hajar (Tahdhib al-Tahdhib)" }
-died: { edtf: "742", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hajar (Tahdhib al-Tahdhib)" }
+born: { edtf: "671~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hajar (Tahdhib al-Tahdhib) Confirmed on 13 November 2026 against Wikidata Q3791575 (P569, a statement with a reference), item revision 2562785671.", sources: [source/wikidata] }
+died: { edtf: "742", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hajar (Tahdhib al-Tahdhib) Confirmed on 13 November 2026 against Wikidata Q3791575 (P570, a statement with a reference), item revision 2562785671.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/marj-dabiq, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab, source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020, source/tabaqat-ibn-sad-qism-mutammim-mansur-1987] }

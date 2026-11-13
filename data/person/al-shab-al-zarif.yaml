@@ -23,7 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "1263", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
+born: { edtf: "1263", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi) Confirmed on 13 November 2026 against Wikidata Q12188728 (P569, a statement with a reference), item revision 2555440949.", sources: [source/wikidata] }
 died: { edtf: "1289", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
 relations:
   - { type: lived_in, target: place/tlemcen, note: "Place association from the person's nisba/name (التلمساني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

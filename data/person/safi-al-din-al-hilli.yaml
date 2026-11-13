@@ -23,7 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "1278", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
-died: { edtf: "1349", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+born: { edtf: "1278", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q12220068 (P569, a statement with a reference), item revision 2533233872.", sources: [source/wikidata] }
+died: { edtf: "1349", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q12220068 (P570, a statement with a reference), item revision 2533233872.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/hilla, confidence: low, note: "Association inferred from the nisba in the name 'Safi al-Din al-Hilli'; specific residence not individually documented.", sources: [source/al-aalam] }

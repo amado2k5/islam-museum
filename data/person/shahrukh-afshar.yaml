@@ -14,7 +14,7 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1734", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
-died: { edtf: "1796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Confirmed on 13 November 2026 against Wikidata Q197884 (P570, a statement with a reference), item revision 2554003687.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/mashhad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q121157)" }
   - { type: died_in, target: place/damghan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q720053)" }

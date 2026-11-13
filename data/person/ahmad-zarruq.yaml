@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1442", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ahmad Baba (Nayl al-Ibtihaj)" }
-died: { edtf: "1493", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ahmad Baba (Nayl al-Ibtihaj)" }
+born: { edtf: "1442", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ahmad Baba (Nayl al-Ibtihaj) Confirmed on 13 November 2026 against Wikidata Q2827457 (P569, a statement with a reference), item revision 2553408787.", sources: [source/wikidata] }
+died: { edtf: "1493", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ahmad Baba (Nayl al-Ibtihaj) Confirmed on 13 November 2026 against Wikidata Q2827457 (P570, a statement with a reference), item revision 2553408787.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -17,7 +17,7 @@ story_roles:
   - { role: ally, start: { edtf: "0622" }, end: { edtf: "0622" }, status: tradition, note: "حصل على كتاب أمن وصرف الطلب عنهما (الرحيق ص169).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "على دين قومه وقت المطاردة؛ إسلامه اللاحق خارج نطاق هذا القسم.", sources: [source/mubarakpuri-raheeq] }
-died: { edtf: "645", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
+died: { edtf: "645", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar) Confirmed on 13 November 2026 against Wikidata Q7645423 (P570, a statement with a reference), item revision 2562951464.", sources: [source/wikidata] }
 relations:
   - { type: member_of, target: group/banu-mudlij }
   - { type: participated_in, target: event/hijra, role: "طارد ثم استأمن وصرف الطلب عنهما", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }

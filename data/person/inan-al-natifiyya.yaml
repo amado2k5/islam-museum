@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-died: { edtf: "841", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani / Abu al-Faraj al-Isfahani" }
+died: { edtf: "841", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani / Abu al-Faraj al-Isfahani Confirmed on 13 November 2026 against Wikidata Q11926586 (P570, a statement with a reference), item revision 2544688209.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/iraq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/misr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

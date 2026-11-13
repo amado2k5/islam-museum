@@ -15,8 +15,8 @@ provenance:
 external_ids: { wikidata: "Q286592" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-born: { edtf: "1353", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Ashraf Shaban)" }
-died: { edtf: "1377", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Ashraf Shaban)" }
+born: { edtf: "1353", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Ashraf Shaban) Confirmed on 13 November 2026 against Wikidata Q286592 (P569, a statement with a reference), item revision 2567846458.", sources: [source/wikidata] }
+died: { edtf: "1377", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Ashraf Shaban) Confirmed on 13 November 2026 against Wikidata Q286592 (P570, a statement with a reference), item revision 2567846458.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/cairo, note: "Wikidata Q85 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/cairo, note: "Wikidata Q85 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -8,7 +8,7 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 born: { edtf: "765", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
-died: { edtf: "860", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "860", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad Confirmed on 13 November 2026 against Wikidata Q6412209 (P570, a statement with a reference), item revision 2555712330.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/iraq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: related_to, target: person/al-mutasim-abi-ishaq, sources: [source/tarikh-khulafa-minhaj-1434] }

@@ -12,8 +12,8 @@ wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
 themes: [mathematics]
-born: { edtf: "1437", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
-died: { edtf: "1513", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+born: { edtf: "1437", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q10299689 (P569, a statement with a reference), item revision 2559356682.", sources: [source/wikidata] }
+died: { edtf: "1513", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q10299689 (P570, a statement with a reference), item revision 2559356682.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

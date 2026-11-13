@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali" }
-died: { edtf: "1668", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali" }
+born: { edtf: "1639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali Confirmed on 13 November 2026 against Wikidata Q44955292 (P569, a statement with a reference), item revision 2567224329.", sources: [source/wikidata] }
+died: { edtf: "1668", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali Confirmed on 13 November 2026 against Wikidata Q44955292 (P570, a statement with a reference), item revision 2567224329.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/sanaa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/sanaa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -20,7 +20,6 @@ story_roles:
   - { role: official, toward: person/muhammad, start: { edtf: "0628" }, status: historical, note: "سفير النبي إلى ملك الغساسنة بدمشق (الرحيق ص360).", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0612~" }, note: "صحابي بدري ومهاجري وسفير النبي." }
-died: { edtf: "629", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: member_of, target: group/muhajirun }
   - { type: participated_in, target: event/letters-to-rulers-and-kings, role: "سفير النبي إلى الغساسنة", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }

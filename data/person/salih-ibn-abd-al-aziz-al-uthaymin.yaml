@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
-born: { edtf: "1854", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd" }
-died: { edtf: "1914", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd" }
 relations:
   - { type: born_in, target: place/burayda, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q259253)" }
   - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }

@@ -23,7 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "1493", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib al-Sa'ira)" }
-died: { edtf: "1545", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib al-Sa'ira)" }
+born: { edtf: "1493", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib al-Sa'ira) Confirmed on 13 November 2026 against Wikidata Q57849599 (P569, a statement with a reference), item revision 2566778619.", sources: [source/wikidata] }
+died: { edtf: "1545", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib al-Sa'ira) Confirmed on 13 November 2026 against Wikidata Q57849599 (P570, a statement with a reference), item revision 2566778619.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

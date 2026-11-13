@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1043", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
-died: { edtf: "1118", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+born: { edtf: "1043", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q116817416 (P569, a statement with a reference), item revision 2555430180.", sources: [source/wikidata] }
+died: { edtf: "1118", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q116817416 (P570, a statement with a reference), item revision 2555430180.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/isfahan, sources: [source/al-aalam] }
 sources: [source/al-aalam]

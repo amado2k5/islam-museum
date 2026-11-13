@@ -19,7 +19,6 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition }
-born: { edtf: "611", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 died: { edtf: "0633", hijri: "0012", calendar: julian, precision: year, status: debated, derived: true, note: "Killed at al-Yamama in Abu Bakr's caliphate, the report al-Bukhari preferred (al-Isti'ab's '15 AH' is an error for 11/12); Ibn Sa'd has him die in the Jordan country under Umar (al-Isaba p. 1198); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/arafat, note: "From text: from Arafat", sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari], confidence: low }

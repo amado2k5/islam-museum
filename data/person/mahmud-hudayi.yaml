@@ -13,8 +13,8 @@ wings: [people]
 themes: [spirituality-and-sufism]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-born: { edtf: "1541", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
-died: { edtf: "1628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+born: { edtf: "1541", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q724488 (P569, a statement with a reference), item revision 2566874003.", sources: [source/wikidata] }
+died: { edtf: "1628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q724488 (P570, a statement with a reference), item revision 2566874003.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/erefliko-hisar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/sk-dar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

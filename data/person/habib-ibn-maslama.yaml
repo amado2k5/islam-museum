@@ -20,7 +20,7 @@ regions:
 - arabia
 - levant-iraq
 born: { edtf: "617", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
-died: { edtf: "662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Confirmed on 13 November 2026 against Wikidata Q6022379 (P570, a statement with a reference), item revision 2563390189.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/armenia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

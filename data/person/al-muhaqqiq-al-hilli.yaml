@@ -23,7 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "1205", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hilli' / R. Strothmann; 602–676 AH)" }
-died: { edtf: "1277", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hilli' / R. Strothmann; 602–676 AH)" }
+born: { edtf: "1205", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hilli' / R. Strothmann; 602–676 AH) Confirmed on 13 November 2026 against Wikidata Q6932995 (P569, a statement with a reference), item revision 2555898252.", sources: [source/wikidata] }
+died: { edtf: "1277", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hilli' / R. Strothmann; 602–676 AH) Confirmed on 13 November 2026 against Wikidata Q6932995 (P570, a statement with a reference), item revision 2555898252.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/hilla, note: "From text: توفي بالحلة سنة 676هـ ⁦(1277م)⁩", sources: [source/shadharat-dhahab] }

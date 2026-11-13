@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-born: { edtf: "1095", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
-died: { edtf: "1192", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+born: { edtf: "1095", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a Confirmed on 13 November 2026 against Wikidata Q6419128 (P569, a statement with a reference), item revision 2550428614.", sources: [source/wikidata] }
+died: { edtf: "1192", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a Confirmed on 13 November 2026 against Wikidata Q6419128 (P570, a statement with a reference), item revision 2550428614.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/sari, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -35,8 +35,8 @@ status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High)
-born: { edtf: "1029", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa (al-Maqrizi)" }
-died: { edtf: "1094", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa (al-Maqrizi)" }
+born: { edtf: "1029", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa (al-Maqrizi) Confirmed on 13 November 2026 against Wikidata Q284619 (P569, a statement with a reference), item revision 2559088085.", sources: [source/wikidata] }
+died: { edtf: "1094", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa (al-Maqrizi) Confirmed on 13 November 2026 against Wikidata Q284619 (P570, a statement with a reference), item revision 2559088085.", sources: [source/wikidata] }
 relations:
 - { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 - { type: successor_of, target: person/al-zahir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

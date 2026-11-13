@@ -12,8 +12,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [spirituality-and-sufism]
-born: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
-died: { edtf: "1312", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+born: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q3043486 (P569, a statement with a reference), item revision 2567774086.", sources: [source/wikidata] }
+died: { edtf: "1312", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q3043486 (P570, a statement with a reference), item revision 2567774086.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/karaman, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q262579)" }
   - { type: died_in, target: place/konya, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q79857)" }

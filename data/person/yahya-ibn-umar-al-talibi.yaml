@@ -13,7 +13,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch45
 external_ids: { wikidata: "Q129579066" }
-died: { edtf: "864", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (Abu al-Faraj al-Isfahani)" }
+died: { edtf: "864", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (Abu al-Faraj al-Isfahani) Confirmed on 13 November 2026 against Wikidata Q129579066 (P570, a statement with a reference), item revision 2515486966.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }
 sources: [source/muruj-al-dhahab]

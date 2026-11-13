@@ -23,7 +23,6 @@ provenance:
 status:
   review: published
   completeness: 3
-born: { edtf: "722", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
-died: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+born: { edtf: "722", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal Confirmed on 13 November 2026 against Wikidata Q121224733 (P569, a statement with a reference), item revision 2533513655.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (المدني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

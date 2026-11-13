@@ -12,7 +12,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 sources: [source/al-aalam]
-died: { edtf: "863", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "863", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal Confirmed on 13 November 2026 against Wikidata Q22689685 (P570, a statement with a reference), item revision 2535303588.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Early-Abbasid figure (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
 external_ids:

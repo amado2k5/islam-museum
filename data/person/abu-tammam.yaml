@@ -13,8 +13,7 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
-born: { edtf: "796~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Siyar)" }
-died: { edtf: "845", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Siyar)" }
+died: { edtf: "845", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Siyar) Confirmed on 13 November 2026 against Wikidata Q1750054 (P570, a statement with a reference), item revision 2557593690.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/jasim, note: "Wikidata Q4116040 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/mosul, note: "Wikidata Q83317 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

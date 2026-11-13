@@ -25,7 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1506", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ahmad Gran); Pankhurst (The Ethiopians)" }
-died: { edtf: "1543", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ahmad Gran); Pankhurst (The Ethiopians)" }
+born: { edtf: "1506", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ahmad Gran); Pankhurst (The Ethiopians) Confirmed on 13 November 2026 against Wikidata Q335728 (P569, a statement with a reference), item revision 2553925306.", sources: [source/wikidata] }
+died: { edtf: "1543", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ahmad Gran); Pankhurst (The Ethiopians) Confirmed on 13 November 2026 against Wikidata Q335728 (P570, a statement with a reference), item revision 2553925306.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/east-africa, note: "Only the record-level region (east-africa) is attested; broad-region edge flagged for review.", sources: [source/tarikh-islam-hasan-ibrahim], confidence: low }

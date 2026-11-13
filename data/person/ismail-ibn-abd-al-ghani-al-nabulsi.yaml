@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/colonial-era]
-born: { edtf: "1608", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar / al-Muhibbi" }
-died: { edtf: "1652", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar / al-Muhibbi" }
 relations:
   - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

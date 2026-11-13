@@ -12,7 +12,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/contemporary-era]
 born: { edtf: "1909", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
-died: { edtf: "2005", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "2005", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q6100040 (P570, a statement with a reference), item revision 2507879148.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/erzurum, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q122803)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }

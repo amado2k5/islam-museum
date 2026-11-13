@@ -11,8 +11,6 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-born: { edtf: "1940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iraqi Biographical Directory" }
-died: { edtf: "2010", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iraqi Biographical Directory" }
 relations:
   - { type: born_in, target: place/tikrit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tikrit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -15,7 +15,7 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: "claude-haiku-5-5"
   run: "omar-abdelkafy-al-dinu-al-qayem-person-extension"
-born: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "896", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+born: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q1153185 (P569, a statement with a reference), item revision 2555646490.", sources: [source/wikidata] }
+died: { edtf: "896", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q1153185 (P570, a statement with a reference), item revision 2555646490.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/tustar, confidence: low, note: "Association inferred from the nisba 'التستري'; specific birthplace or residence is not individually documented.", sources: [source/fihrist-ibn-al-nadim, source/assabile-omar-abdelkafy] }

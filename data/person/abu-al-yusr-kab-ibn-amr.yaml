@@ -14,7 +14,6 @@ wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam, source/assabile-abu-ishaq-alheweny, source/isti-ab-ibn-abd-al-barr]
-born: { edtf: "602", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr, al-Isti'ab; Ibn Hajar, al-Isaba" }
 died: { edtf: "0675", hijri: "0055", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at Medina, 55 AH (al-Istiab p. 866); CE year converted from the Hijri", sources: [source/isti-ab-ibn-abd-al-barr] }
 relations:
  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam, source/assabile-abu-ishaq-alheweny], confidence: low }

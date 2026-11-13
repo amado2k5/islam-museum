@@ -13,7 +13,7 @@ regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 external_ids: { wikidata: "Q299215" }
 born: { edtf: "1626", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Scholem,  Sabbatai Sevi: The Mystical Messiah" }
-died: { edtf: "1676", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Scholem,  Sabbatai Sevi: The Mystical Messiah" }
+died: { edtf: "1676", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Scholem,  Sabbatai Sevi: The Mystical Messiah Confirmed on 13 November 2026 against Wikidata Q299215 (P570, a statement with a reference), item revision 2568763964.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/izmir, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35997)" }
   - { type: died_in, target: place/ulcinj, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q189969)" }

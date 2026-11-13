@@ -12,7 +12,7 @@ wings: [people]
 regions: [anatolia-balkans, persia-central-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1457~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
-died: { edtf: "1520", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1520", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q343494 (P570, a statement with a reference), item revision 2561677588.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/bitlis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

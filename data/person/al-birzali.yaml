@@ -23,7 +23,7 @@ provenance:
 status:
   review: published
   completeness: 1
-born: { edtf: "1267", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
-died: { edtf: "1339", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
+born: { edtf: "1267", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi) Confirmed on 13 November 2026 against Wikidata Q11904608 (P569, a statement with a reference), item revision 2533338117.", sources: [source/wikidata] }
+died: { edtf: "1339", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi) Confirmed on 13 November 2026 against Wikidata Q11904608 (P570, a statement with a reference), item revision 2533338117.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/damascus, note: "From text: محدث دمشق القرن الرابع عشر صاح", sources: [source/al-aalam, source/durar-kamina-jil-1993], confidence: low }

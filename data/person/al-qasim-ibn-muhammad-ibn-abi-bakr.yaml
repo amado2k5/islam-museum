@@ -23,7 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "653", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
-died: { edtf: "726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Confirmed on 13 November 2026 against Wikidata Q2617033 (P570, a statement with a reference), item revision 2554655780.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/medina, note: "From text: فقيه المدينة من السبعة وناقل ا", sources: [source/al-aalam], confidence: low }

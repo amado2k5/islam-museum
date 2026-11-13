@@ -14,8 +14,8 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch43
 external_ids: { wikidata: "Q228203" }
-born: { edtf: "728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
-died: { edtf: "775", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+born: { edtf: "728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi) Confirmed on 13 November 2026 against Wikidata Q228203 (P569, a statement with a reference), item revision 2553961666.", sources: [source/wikidata] }
+died: { edtf: "775", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi) Confirmed on 13 November 2026 against Wikidata Q228203 (P570, a statement with a reference), item revision 2553961666.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
   - { type: born_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q186234)" }

@@ -25,7 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1668", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
-died: { edtf: "1726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+born: { edtf: "1668", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q446965 (P569, a statement with a reference), item revision 2558710624.", sources: [source/wikidata] }
+died: { edtf: "1726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q446965 (P570, a statement with a reference), item revision 2558710624.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/isfahan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tarikh-islam-hasan-ibrahim] }

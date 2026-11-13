@@ -29,7 +29,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
-born: { edtf: "1289", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Rajab, Dhayl Tabaqat al-Hanabila; al-Dhahabi, al-Mu'jam" }
-died: { edtf: "1349", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Rajab, Dhayl Tabaqat al-Hanabila; al-Dhahabi, al-Mu'jam" }
+born: { edtf: "1289", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Rajab, Dhayl Tabaqat al-Hanabila; al-Dhahabi, al-Mu'jam Confirmed on 13 November 2026 against Wikidata Q35367928 (P569, a statement with a reference), item revision 2504052833.", sources: [source/wikidata] }
+died: { edtf: "1349", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Rajab, Dhayl Tabaqat al-Hanabila; al-Dhahabi, al-Mu'jam Confirmed on 13 November 2026 against Wikidata Q35367928 (P570, a statement with a reference), item revision 2504052833.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

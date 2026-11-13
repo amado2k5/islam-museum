@@ -12,7 +12,6 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
 born: { edtf: "1859", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
-died: { edtf: "1915", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 sources: [source/al-aalam]

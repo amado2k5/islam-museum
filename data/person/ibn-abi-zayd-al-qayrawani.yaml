@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/abbasid-early]
-born: { edtf: "922", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "996", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+born: { edtf: "922", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q5984167 (P569, a statement with a reference), item revision 2567372055.", sources: [source/wikidata] }
+died: { edtf: "996", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q5984167 (P570, a statement with a reference), item revision 2567372055.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/qayrawan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/qayrawan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

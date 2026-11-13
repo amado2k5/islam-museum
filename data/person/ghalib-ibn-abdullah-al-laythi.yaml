@@ -16,7 +16,6 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 born: { edtf: "628~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
-died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/al-kudayd, confidence: low, note: "Associated with al-Kudayd per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-ghalib-on-banu-al-mulawwah, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }

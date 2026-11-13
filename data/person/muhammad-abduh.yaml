@@ -11,8 +11,8 @@ gender: male
 wings: [people]
 periods: [period/modern-era]
 external_ids: { wikidata: "Q311826" }
-born: { edtf: "1849", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
-died: { edtf: "1905", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+born: { edtf: "1849", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q311826 (P569, a statement with a reference), item revision 2567290208.", sources: [source/wikidata] }
+died: { edtf: "1905", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q311826 (P570, a statement with a reference), item revision 2567290208.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/shubra-khit, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5600888)" }
   - { type: born_in, target: place/beheira-governorate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q30630)" }

@@ -8,8 +8,8 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim, source/siyar-alam-nubala-abyari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-born: { edtf: "665", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari (Ghayat al-Nihaya)" }
-died: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari (Ghayat al-Nihaya)" }
+born: { edtf: "665", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari (Ghayat al-Nihaya) Confirmed on 13 November 2026 against Wikidata Q5674734 (P569, a statement with a reference), item revision 2562044089.", sources: [source/wikidata] }
+died: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari (Ghayat al-Nihaya) Confirmed on 13 November 2026 against Wikidata Q5674734 (P570, a statement with a reference), item revision 2562044089.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (makki); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }
 external_ids: {wikidata: Q5674734}

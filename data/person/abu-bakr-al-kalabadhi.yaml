@@ -25,6 +25,6 @@ status:
   review: draft
   completeness: 1
 born: { edtf: "910~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; Encyclopaedia of Islam 2nd Ed." }
-died: { edtf: "990", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; Encyclopaedia of Islam 2nd Ed." }
+died: { edtf: "990", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; Encyclopaedia of Islam 2nd Ed. Confirmed on 13 November 2026 against Wikidata Q334857 (P570, a statement with a reference), item revision 2567767094.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

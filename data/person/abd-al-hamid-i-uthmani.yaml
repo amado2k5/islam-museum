@@ -11,8 +11,8 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
-born: { edtf: "1725", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('I. Abdülhamid')" }
-died: { edtf: "1789", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('I. Abdülhamid')" }
+born: { edtf: "1725", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('I. Abdülhamid') Confirmed on 13 November 2026 against Wikidata Q170707 (P569, a statement with a reference), item revision 2565496482.", sources: [source/wikidata] }
+died: { edtf: "1789", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('I. Abdülhamid') Confirmed on 13 November 2026 against Wikidata Q170707 (P570, a statement with a reference), item revision 2565496482.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }

@@ -14,7 +14,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1405", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
-died: { edtf: "1468", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
+died: { edtf: "1468", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica Confirmed on 13 November 2026 against Wikidata Q160614 (P570, a statement with a reference), item revision 2558238902.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/lezh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/lezh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
