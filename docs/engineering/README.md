@@ -33,6 +33,7 @@ a Canadian of Egyptian origin, resident in Oakville, Ontario (`@amado2k5`).
 | [Diagrams](diagrams.md) | All Mermaid diagrams in one place | Everyone |
 | [Executive deck](../presentation/executive-deck.md) | Marp slide deck for developers | New joiners |
 | [19 · Education Browser requirements](19-education-browser-requirements.md) | The School Syllabus Browser spec: student flow, connection cards, trilingual rule, and a production verification checklist any agent can run | Everyone, QA agents |
+| [45 · The Fable 5.2 run and the build/deploy speed work](45-fable-5-2-improvements.md) | The engineering record of November 2026: what the Fable 5.2 run changed in the application (11 of 13 statements GREEN, 2 NOT GREEN), the independent before/after production tests, and the measured build/deploy speed work trialled on UAT and brought to main (PR #6343, PR #6496) | Everyone, maintainers |
 
 ## Reading order
 
