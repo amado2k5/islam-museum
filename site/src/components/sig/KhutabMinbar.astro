@@ -1,0 +1,190 @@
+---
+// The minbar timeline and the voices (signature view of the Khutab and Durus Explorer, docs/plan/25-khutab-durus-explorer.md).
+// Part one: the dated sermons on a Hijri axis, one mark each (shape and tone by sermon_type), stacked where years are close,
+// every mark a link to the sermon's page; sermons without a recorded year wait in a tray and are never placed on the axis.
+// Part two: the lecture series as rings, one per speaker, ring area proportional to the number of series records the museum
+// holds, each linking to that speaker's group in the list below. Everything is read at build time from lib/khutab.ts; the
+// script (site/src/scripts/sig-khutab.ts) only adds the readout and arrow keys, and opens the group a ring points to.
+import { ui, fmt, NUM_LOCALE, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { formatAH, formatCE, ERA } from "../../lib/dates";
+import { composedHijri, datedSermons, undatedSermons, series, speakerOf, seriesGroups } from "../../lib/khutab";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const K = T.khutab;
+const V = K.viz;
+const era = ERA[lang];
+
+// A mark for every sermon_type the museum defines; the build stops when a sermon carries a type with no mark.
+const MARKS: Record<string, { shape: "circle" | "diamond" | "square" | "triangle" | "ring"; tone: 0 | 1 }> = {
+  "jumu'a": { shape: "circle", tone: 0 },
+  occasion: { shape: "diamond", tone: 1 },
+  "eid-al-fitr": { shape: "square", tone: 0 },
+  "eid-al-adha": { shape: "square", tone: 1 },
+  istisqa: { shape: "triangle", tone: 0 },
+  kusuf: { shape: "triangle", tone: 1 },
+  "hajj-arafa": { shape: "circle", tone: 1 },
+  nikah: { shape: "diamond", tone: 0 },
+  farewell: { shape: "ring", tone: 1 },
+  other: { shape: "ring", tone: 0 },
+};
+const typeOf = (n: any): string => n.data.sermon_type ?? "other";
+for (const n of [...datedSermons, ...undatedSermons]) {
+  if (!MARKS[typeOf(n)]) throw new Error(`The minbar timeline has no mark for sermon_type "${typeOf(n)}" (${n.id})`);
+}
+
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const plain = (n: number) => new Intl.NumberFormat(NUM_LOCALE[lang], { useGrouping: false }).format(n);
+const f4 = (n: number) => Math.round(n * 10000) / 10000;
+const dateText = (n: any) => [n.data.composed?.hijri ? formatAH(n.data.composed.hijri, lang) : "", n.data.composed?.edtf ? formatCE(n.data.composed.edtf, lang) : ""].filter(Boolean).join(" · ");
+const readOf = (n: any) => {
+  const sp = speakerOf(n);
+  return [short(n), K.types[typeOf(n)] ?? "", sp ? `${K.speaker}: ${short(sp)}` : "", dateText(n)].filter(Boolean).join(" · ");
+};
+
+// ---- the axis, from the data: whole quarter-centuries around the dated sermons
+const STEP = 25, PAD = 26, MIN_W = 640, ROW = 30;
+const at = datedSermons.map((n) => composedHijri(n)!.at);
+const MIN = at.length ? Math.floor(Math.min(...at) / STEP) * STEP : 0;
+const MAX = at.length ? Math.max(MIN + STEP, Math.ceil((Math.max(...at) + 0.01) / STEP) * STEP) : STEP;
+const RANGE = MAX - MIN;
+const frac = (y: number) => f4((y - MIN) / RANGE);
+const ticks: number[] = [];
+for (let y = MIN; y <= MAX; y += STEP) ticks.push(y);
+
+// stack marks into rows so that neighbours at the narrowest plot are at least one mark (28 px) apart
+const GAP = (ROW * RANGE) / (MIN_W - 2 * PAD);
+const lastX: number[] = [];
+const marks = datedSermons.map((n) => {
+  const d = composedHijri(n)!;
+  let row = lastX.findIndex((x) => d.at - x >= GAP);
+  if (row === -1) { row = lastX.length; lastX.push(d.at); } else lastX[row] = d.at;
+  return { n, d, row, ...MARKS[typeOf(n)], read: readOf(n) };
+});
+const ROWS = Math.max(1, lastX.length);
+const usedTypes = [...new Set([...marks.map((m) => typeOf(m.n))])];
+
+// ---- the voices: one ring per speaker, area proportional to the number of series records
+const groups = seriesGroups(lang);
+const maxN = Math.max(1, ...groups.map((g) => g.items.length));
+const DMAX = 132;
+const rings = groups.map((g) => {
+  const n = g.items.length;
+  const d = Math.round(DMAX * Math.sqrt(n / maxN));
+  return { g, n, d, name: g.speaker ? short(g.speaker) : K.unattributed, anchor: g.speaker ? `s-${g.speaker.slug}` : "s-unattributed" };
+});
+---
+<div class="sg-kt-wrap" data-sg-kt data-num={NUM_LOCALE[lang]} data-t-hint={V.hint} data-t-open={V.open}>
+  <section aria-labelledby="sg-kt-title" class="sg-kt" style="margin-top:2rem">
+    <div data-pagefind-body>
+      <h2 id="sg-kt-title">{V.title}</h2>
+      <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{V.note}</p>
+    </div>
+    <ul class="sg-kt-legend ui" aria-label={V.legend_title}>
+      {usedTypes.map((t) => (
+        <li><i class={`sg-kt-shape m-${MARKS[t].shape} tone${MARKS[t].tone}`} aria-hidden="true"></i>{K.types[t]}</li>
+      ))}
+    </ul>
+    <p class="ui muted sg-kt-swipe">{V.scroll_hint}</p>
+    <div class="sg-kt-scroll" role="region" aria-label={V.scroll_label} tabindex="0">
+      <div class="sg-kt-plot" role="group" aria-label={V.group_label} style={`height:${ROWS * ROW + 62}px`}
+        data-min={MIN} data-max={MAX}>
+        <div class="sg-kt-grid" aria-hidden="true">
+          {ticks.map((y) => <i style={`--f:${frac(y)}`}></i>)}
+        </div>
+        <div class="sg-kt-axis" aria-hidden="true">
+          {ticks.map((y) => <span class="sg-kt-tick ui" style={`--f:${frac(y)}`}>{plain(y)} {era.ah}</span>)}
+        </div>
+        {marks.map((m) => (
+          <a class={`sg-kt-mark`} href={href(lang, m.n.id)} aria-label={m.read} title={m.read} data-read={m.read} data-at={f4(m.d.at)} data-row={m.row}
+            style={`--f:${frac(m.d.at)};--row:${m.row}`}>
+            <i class={`sg-kt-shape m-${m.shape} tone${m.tone}${m.d.approx ? " is-approx" : ""}`} aria-hidden="true"></i>
+          </a>
+        ))}
+      </div>
+    </div>
+    <div class="sg-kt-read ui" aria-live="polite">
+      <p class="sg-kt-line" data-sg-line>{V.hint}</p>
+    </div>
+    {undatedSermons.length > 0 && (
+      <div class="sg-kt-undated">
+        <h3>{V.undated_title} <span class="ui muted">{fmt(K.count, { n: num(undatedSermons.length, lang) })}</span></h3>
+        <p class="muted ui" style="margin:0 0 .5rem;max-width:var(--measure)">{V.undated_note}</p>
+        <ul role="list" class="ui">
+          {undatedSermons.map((n) => (
+            <li><a href={href(lang, n.id)}><i class={`sg-kt-shape m-${MARKS[typeOf(n)].shape} tone${MARKS[typeOf(n)].tone}`} aria-hidden="true"></i>{short(n)}</a></li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </section>
+
+  <section aria-labelledby="sg-kv-title" class="sg-kv" style="margin-top:2.4rem">
+    <div data-pagefind-body>
+      <h2 id="sg-kv-title">{V.voices_title}</h2>
+      <p class="muted" style="max-width:var(--measure);margin:0 0 .9rem">{fmt(V.voices_note, { n: num(series.length, lang) })}</p>
+    </div>
+    <ul class="sg-kv-rings" role="list">
+      {rings.map((r) => (
+        <li style={`--d:${r.d}px`}>
+          <a href={`#${r.anchor}`} class={`sg-kv-ring ${r.g.speaker ? "" : "is-none"}`} aria-label={`${r.name}, ${fmt(V.series_n, { n: num(r.n, lang) })}`}>
+            <span class="sg-kv-circle" aria-hidden="true"><b class="ui">{num(r.n, lang)}</b></span>
+            <span class="sg-kv-name ui" aria-hidden="true">{r.name}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</div>
+<style is:inline>
+  .sg-kt-wrap { --sg-a: var(--gold-text); --sg-b: var(--link); --pad: 26px; }
+  .sg-kt-wrap h2 { margin-bottom: .3rem; }
+  .sg-kt-wrap h3 { margin: 1.4rem 0 .3rem; font-size: 1.05rem; }
+  .sg-kt-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; padding: 0; margin: 0 0 .8rem; font-size: .88rem; color: var(--muted); }
+  .sg-kt-legend li { display: inline-flex; align-items: center; gap: 8px; }
+  .sg-kt-swipe { display: none; margin: 0 0 .4rem; font-size: .85rem; }
+  .sg-kt-shape { display: inline-block; width: 14px; height: 14px; flex: none; box-sizing: border-box; vertical-align: middle; }
+  .sg-kt-shape.tone0 { --c: var(--sg-a); } .sg-kt-shape.tone1 { --c: var(--sg-b); }
+  .sg-kt-shape.m-circle { border-radius: 50%; background: var(--c); }
+  .sg-kt-shape.m-square { background: var(--c); border-radius: 2px; }
+  .sg-kt-shape.m-diamond { background: var(--c); transform: rotate(45deg) scale(.82); border-radius: 2px; }
+  .sg-kt-shape.m-triangle { background: var(--c); clip-path: polygon(50% 4%, 98% 92%, 2% 92%); }
+  .sg-kt-shape.m-ring { border: 3px solid var(--c); border-radius: 50%; }
+  .sg-kt-shape.is-approx { opacity: .62; }
+  .sg-kt-scroll { overflow-x: auto; overflow-y: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--card); scrollbar-color: var(--gold-text) var(--panel); }
+  .sg-kt-scroll:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-kt-plot { position: relative; min-width: 640px; }
+  .sg-kt-grid i { position: absolute; top: 0; bottom: 36px; inset-inline-start: calc(var(--pad) + (100% - 2 * var(--pad)) * var(--f)); width: 1px; background: var(--line); }
+  .sg-kt-axis { position: absolute; inset-inline: 0; bottom: 0; height: 36px; border-top: 1px solid var(--muted); }
+  .sg-kt-tick { position: absolute; top: 8px; inset-inline-start: calc(var(--pad) + (100% - 2 * var(--pad)) * var(--f)); translate: -50% 0; font-size: .8rem; line-height: 1; white-space: nowrap; color: var(--fg); }
+  :dir(rtl) .sg-kt-tick, :dir(rtl) .sg-kt-mark { translate: 50% 0; }
+  .sg-kt-tick::before { content: ""; position: absolute; top: -9px; inset-inline-start: 50%; width: 1px; height: 6px; background: var(--fg); }
+  .sg-kt-mark { position: absolute; bottom: calc(40px + var(--row) * 30px); inset-inline-start: calc(var(--pad) + (100% - 2 * var(--pad)) * var(--f)); translate: -50% 0; width: 30px; height: 30px; display: grid; place-items: center; border-radius: 8px; text-decoration: none; }
+  .sg-kt-mark .sg-kt-shape { width: 16px; height: 16px; transition: transform .15s; }
+  .sg-kt-mark .m-diamond { transform: rotate(45deg) scale(.8); }
+  .sg-kt-mark:hover .sg-kt-shape, .sg-kt-mark.is-on .sg-kt-shape { transform: scale(1.35); }
+  .sg-kt-mark:hover .m-diamond, .sg-kt-mark.is-on .m-diamond { transform: rotate(45deg) scale(1.1); }
+  .sg-kt-mark.is-on { background: color-mix(in srgb, var(--gold) 28%, transparent); }
+  .sg-kt-mark:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
+  .sg-kt-read { margin-top: .7rem; min-height: 2.6em; max-width: 80ch; }
+  .sg-kt-line { margin: 0; font-weight: 600; color: var(--fg); }
+  .sg-kt-line a { margin-inline-start: .6rem; font-weight: 500; }
+  .sg-kt-undated ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  .sg-kt-undated li a { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--fg); text-decoration: none; font-size: .9rem; }
+  .sg-kt-undated li a:hover { border-color: var(--gold-text); }
+  .sg-kv-rings { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 22px 26px; }
+  .sg-kv-rings li { width: max(var(--d), 96px); }
+  .sg-kv-ring { display: flex; flex-direction: column; align-items: center; gap: 8px; text-decoration: none; color: var(--fg); text-align: center; }
+  .sg-kv-circle { display: grid; place-items: center; width: var(--d); height: var(--d); border-radius: 50%; border: 3px solid var(--gold-text); background: color-mix(in srgb, var(--gold) 14%, var(--card)); transition: background .15s, transform .15s; }
+  .sg-kv-circle b { font-size: .95rem; color: var(--fg); }
+  .sg-kv-ring.is-none .sg-kv-circle { border-style: dashed; }
+  .sg-kv-ring:hover .sg-kv-circle { background: color-mix(in srgb, var(--gold) 34%, var(--card)); transform: translateY(-2px); }
+  .sg-kv-ring:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-radius: 8px; }
+  .sg-kv-name { font-size: .86rem; line-height: 1.25; min-height: 2.5em; }
+  @media (max-width: 720px) { .sg-kt-swipe { display: block; } .sg-kt-scroll { overflow-x: scroll; } }
+  @media (prefers-reduced-motion: reduce) { .sg-kt-mark .sg-kt-shape, .sg-kv-circle { transition: none; } .sg-kv-ring:hover .sg-kv-circle { transform: none; } }
+</style>
+<script src="../../scripts/sig-khutab.ts"></script>

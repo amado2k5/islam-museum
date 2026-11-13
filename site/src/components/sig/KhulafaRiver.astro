@@ -1,0 +1,166 @@
+---
+// The river of reigns (signature view of the Caliphs Browser, docs/plan/30-khulafa-browser.md): one lane per caliphate, the
+// horizontal axis is time in both calendars (Hijri centuries as the primary ticks, CE centuries beneath), and every caliph is
+// one segment from reign start to reign end, a real link to his page. Lanes that overlap in time show the simultaneity of
+// caliphates, which is the point of the chart. Rival-claim lines are thinner dashed lanes labelled with the data's own word.
+// Everything is drawn at build time from lib/khulafa.ts (reignLanes, which throws when a chain member has no reign start);
+// site/src/scripts/sig-khulafa.ts only adds the readout, the vertical hairline and arrow-key movement.
+// Small screens: the chart scrolls sideways inside its own container (lane labels stay put) instead of being squeezed:
+// a vertical chart would lose the one thing it shows, who reigned at the same time.
+import { ui, fmt, NUM_LOCALE, type Lang } from "../../lib/i18n";
+import { labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { reignLanes, ceToAH, type ReignSpan } from "../../lib/khulafa";
+import { ERA } from "../../lib/dates";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const V = T.khulafa.viz;
+const era = ERA[lang];
+
+const lanes = reignLanes();
+const spans = lanes.flatMap((l) => l.spans);
+if (spans.length === 0) throw new Error("The river of reigns has no reigns to draw");
+
+// ---- the axis, from the data: whole Hijri centuries around every reign
+const lastAH = Math.max(...spans.map((s) => s.e ?? s.s));
+const MIN = Math.max(0, Math.floor(Math.min(...spans.map((s) => s.s)) / 100) * 100);
+const MAX = Math.ceil(lastAH / 100) * 100;
+const RANGE = MAX - MIN;
+const plain = (n: number) => new Intl.NumberFormat(NUM_LOCALE[lang], { useGrouping: false }).format(n);
+const f4 = (n: number) => Math.round(n * 10000) / 10000;
+const frac = (ah: number) => f4((ah - MIN) / RANGE);
+const ahTicks: number[] = [];
+for (let c = MIN; c <= MAX; c += 100) ahTicks.push(c);
+const ceTicks: { y: number; f: number }[] = [];
+for (let y = 600; y <= 2100; y += 100) { const a = ceToAH(y, 1); if (a >= MIN && a <= MAX) ceTicks.push({ y, f: frac(a) }); }
+
+// ---- geometry in years: a bar is at least about 3 px wide and a link at least 24 px wide, at the narrowest plot, about 700 px
+const PX = RANGE / 700;
+const MIN_BAR = 3 * PX;
+const MIN_HIT = 24 * PX;
+const short = (n: { label: any; slug: string }) => labelOf(n as any, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const yearsText = (a: number, b: number | null, unit: string) => (b == null || b === a ? `${num(a, lang)} ${unit}` : `${num(a, lang)}–${num(b, lang)} ${unit}`);
+
+interface Seg { sp: ReignSpan; hl: number; hr: number; barL: number; barW: number; read: string; tone: number }
+const lanesDrawn = lanes.map((lane) => {
+  const polityName = short(lane.polity);
+  const vis = lane.spans.map((sp) => ({ sp, a: sp.s, b: Math.max(sp.e ?? sp.s, sp.s + MIN_BAR) }));
+  const segs: Seg[] = vis.map(({ sp, a, b }, i) => {
+    const c = (a + b) / 2;
+    const prev = vis[i - 1] ? (vis[i - 1].a + vis[i - 1].b) / 2 : -Infinity;
+    const next = vis[i + 1] ? (vis[i + 1].a + vis[i + 1].b) / 2 : Infinity;
+    const hl = Math.min(a, Math.max(c - MIN_HIT / 2, (prev + c) / 2));
+    const hr = Math.max(b, Math.min(c + MIN_HIT / 2, (c + next) / 2));
+    const ceText = yearsText(sp.startCE, sp.endCE, era.ce);
+    const ahText = yearsText(Math.floor(sp.s), sp.e != null ? Math.floor(sp.e) : null, era.ah);
+    const len = sp.lengthYears == null ? V.end_missing : sp.lengthYears < 1 ? V.length_under : fmt(V.length, { n: num(sp.lengthYears, lang) });
+    const note = sp.endBasis === "next" ? V.end_next : "";
+    const read = [short(sp.node), polityName, ceText, ahText, len, note].filter(Boolean).join(" · ");
+    return { sp, hl, hr, barL: f4(((a - hl) / (hr - hl)) * 100), barW: f4(((b - a) / (hr - hl)) * 100), read, tone: i % 2 };
+  });
+  return { lane, name: polityName, segs };
+});
+
+const hairId = "sg-kh-title";
+---
+<section class="sg-kh" data-sg-kh aria-labelledby={hairId} style="margin-top:2rem"
+  data-min={MIN} data-max={MAX} data-num={NUM_LOCALE[lang]} data-era={era.ah}
+  data-t-others={V.others} data-t-none={V.others_none} data-t-open={V.open} data-t-hint={V.hint}>
+  <div data-pagefind-body>
+    <h2 id={hairId}>{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{V.note}</p>
+  </div>
+  <p class="ui muted sg-kh-swipe">{V.scroll_hint}</p>
+  <div class="sg-kh-scroll" role="region" aria-label={V.scroll_label} tabindex="0">
+    <div class="sg-kh-inner" role="group" aria-label={V.group_label}>
+      <div class="sg-kh-corner" aria-hidden="true">
+        <span class="sg-kh-axname sg-kh-axname-ah ui">{V.axis_ah}</span>
+        <span class="sg-kh-axname sg-kh-axname-ce ui">{V.axis_ce}</span>
+      </div>
+      <div class="sg-kh-axis" aria-hidden="true">
+        {ahTicks.map((c) => <span class="sg-kh-tick sg-kh-tick-ah ui" style={`--f:${frac(c)}`}>{c > 0 ? plain(c) : ""}</span>)}
+        {ceTicks.map((t) => <span class="sg-kh-tick sg-kh-tick-ce ui" style={`--f:${t.f}`}>{plain(t.y)}</span>)}
+      </div>
+      <div class="sg-kh-grid" aria-hidden="true" style={`grid-row:1 / span ${lanes.length + 1}`}>
+        {ahTicks.map((c) => <i style={`--f:${frac(c)}`}></i>)}
+      </div>
+      <div class="sg-kh-hair" data-sg-hair aria-hidden="true" hidden style={`grid-row:1 / span ${lanes.length + 1}`}></div>
+      {lanesDrawn.map((L, li) => (
+        <>
+          <div class={`sg-kh-lab ui ${L.lane.claim ? "is-claim" : ""}`} style={`grid-row:${li + 2}`}>
+            <a href={`#sec-${L.lane.polity.slug}`}>{L.name}</a>
+            {L.lane.claim && <small>{T.khulafa.claim_label}</small>}
+          </div>
+          <div class={`sg-kh-lane ${L.lane.claim ? "is-claim" : ""}`} style={`grid-row:${li + 2}`}>
+            {L.segs.map((g) => (
+              <a class={`sg-kh-seg t${g.tone}`} href={`/${lang}/khulafa/${g.sp.node.slug}/`} aria-label={g.read}
+                data-s={f4(g.sp.s)} data-e={g.sp.e == null ? "" : f4(g.sp.e)} data-lane={li} data-name={short(g.sp.node)} data-pol={L.name}
+                style={`--f:${frac(g.hl)};--w:${f4((g.hr - g.hl) / RANGE)}`}>
+                <span class="sg-kh-bar" style={`inset-inline-start:${g.barL}%;width:${g.barW}%`}></span>
+              </a>
+            ))}
+          </div>
+        </>
+      ))}
+    </div>
+  </div>
+  <div class="sg-kh-read ui" aria-live="polite">
+    <p class="sg-kh-line" data-sg-line>{V.hint}</p>
+    <p class="sg-kh-others muted" data-sg-others></p>
+  </div>
+</section>
+<style is:inline>
+  .sg-kh { --sg-a: var(--gold-text); --sg-b: color-mix(in srgb, var(--gold-text) 42%, var(--bg)); --pad: 26px; }
+  .sg-kh h2 { margin-bottom: .3rem; }
+  .sg-kh-swipe { display: none; margin: 0 0 .4rem; font-size: .85rem; }
+  .sg-kh-scroll { overflow-x: auto; overflow-y: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--card);
+    /* edge shadows that show there is more to scroll */
+    background-image: linear-gradient(to right, var(--card), var(--card)), linear-gradient(to right, var(--card), var(--card)),
+      linear-gradient(to right, rgba(0,0,0,.18), transparent), linear-gradient(to left, rgba(0,0,0,.18), transparent);
+    background-position: left center, right center, left center, right center; background-repeat: no-repeat; background-size: 24px 100%, 24px 100%, 14px 100%, 14px 100%;
+    background-attachment: local, local, scroll, scroll; scrollbar-width: auto; scrollbar-color: var(--gold-text) var(--panel); }
+  .sg-kh-scroll:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sg-kh-inner { position: relative; display: grid; grid-template-columns: 8.2rem minmax(0, 1fr); grid-auto-rows: minmax(46px, auto); min-width: 900px; }
+  .sg-kh-corner, .sg-kh-lab { grid-column: 1; position: sticky; inset-inline-start: 0; z-index: 4; background: var(--card); border-inline-end: 1px solid var(--line); }
+  .sg-kh-corner { grid-row: 1; height: 62px; border-bottom: 1px solid var(--line); }
+  .sg-kh-axis { grid-column: 2; grid-row: 1; position: relative; height: 62px; border-bottom: 1px solid var(--line); }
+  .sg-kh-tick { position: absolute; inset-inline-start: calc(var(--pad) + (100% - 2 * var(--pad)) * var(--f)); translate: -50% 0; font-size: .78rem; line-height: 1; white-space: nowrap; color: var(--muted); }
+  .sg-kh-tick-ah { top: 20px; font-weight: 700; color: var(--fg); font-size: .82rem; }
+  .sg-kh-tick-ce { top: 42px; }
+  .sg-kh-tick-ce::before { content: ""; position: absolute; inset-inline-start: 50%; top: -9px; width: 1px; height: 6px; background: var(--muted); }
+  .sg-kh-tick-ah::before { content: ""; position: absolute; inset-inline-start: 50%; top: 14px; width: 1px; height: 6px; background: var(--fg); }
+  :dir(rtl) .sg-kh-tick { translate: 50% 0; }
+  .sg-kh-axname { position: absolute; inset-inline-start: 10px; font-size: .78rem; color: var(--muted); line-height: 1; }
+  .sg-kh-axname-ah { top: 20px; font-weight: 700; color: var(--fg); } .sg-kh-axname-ce { top: 42px; }
+  .sg-kh-grid { grid-column: 2; position: relative; pointer-events: none; z-index: 0; }
+  .sg-kh-grid i { position: absolute; top: 0; bottom: 0; inset-inline-start: calc(var(--pad) + (100% - 2 * var(--pad)) * var(--f)); width: 1px; background: var(--line); }
+  .sg-kh-hair { grid-column: 2; position: relative; pointer-events: none; z-index: 3; --f: 0; }
+  .sg-kh-hair[hidden] { display: none; }
+  .sg-kh-hair::before { content: ""; position: absolute; top: 0; bottom: 0; inset-inline-start: calc(var(--pad) + (100% - 2 * var(--pad)) * var(--f)); width: 2px; margin-inline-start: -1px; background: var(--fg); opacity: .85; }
+  .sg-kh-lab { display: flex; flex-direction: column; justify-content: center; gap: 2px; padding: 4px 10px; font-size: .82rem; line-height: 1.2; border-bottom: 1px solid var(--line); }
+  .sg-kh-lab a { color: var(--fg); text-decoration: none; font-weight: 600; display: inline-block; padding-block: 2px; }
+  .sg-kh-lab a:hover { text-decoration: underline; }
+  .sg-kh-lab small { font-size: .78rem; color: var(--gold-text); font-style: italic; }
+  .sg-kh-lab.is-claim a { font-weight: 500; }
+  .sg-kh-lane { grid-column: 2; position: relative; z-index: 1; border-bottom: 1px solid var(--line); }
+  .sg-kh-seg { position: absolute; top: 0; bottom: 0; inset-inline-start: calc(var(--pad) + (100% - 2 * var(--pad)) * var(--f)); width: calc((100% - 2 * var(--pad)) * var(--w)); display: block; text-decoration: none; }
+  .sg-kh-bar { position: absolute; top: 50%; height: 22px; margin-top: -11px; border-radius: 3px; background: var(--sg-a); transition: opacity .15s, outline-color .15s; }
+  .sg-kh-seg.t1 .sg-kh-bar { background: var(--sg-b); box-shadow: inset 0 0 0 1px var(--sg-a); }
+  .sg-kh-lane.is-claim .sg-kh-bar, .sg-kh-lane.is-claim .sg-kh-seg.t1 .sg-kh-bar { height: 12px; margin-top: -6px; background: transparent; box-shadow: none; border: 2px dashed var(--sg-a); border-radius: 2px; box-sizing: border-box; min-width: 6px; }
+  .sg-kh-seg:hover .sg-kh-bar, .sg-kh-seg.is-on .sg-kh-bar { outline: 2px solid var(--fg); outline-offset: 1px; }
+  .sg-kh-seg:focus-visible { outline: 3px solid var(--focus); outline-offset: 0; border-radius: 4px; z-index: 2; }
+  .sg-kh-seg.is-cross .sg-kh-bar { outline: 2px solid var(--link); outline-offset: 1px; }
+  .sg-kh.has-moment .sg-kh-seg:not(.is-cross):not(.is-on) .sg-kh-bar { opacity: .35; }
+  .sg-kh-read { margin-top: .7rem; min-height: 5.2em; max-width: 80ch; }
+  .sg-kh-line { margin: 0; font-size: 1rem; font-weight: 600; color: var(--fg); }
+  .sg-kh-line a { margin-inline-start: .6rem; font-weight: 500; }
+  .sg-kh-others { margin: .3rem 0 0; font-size: .92rem; }
+  .sg-kh-others:empty { display: none; }
+  @media (max-width: 960px) { .sg-kh-swipe { display: block; } .sg-kh-scroll { overflow-x: scroll; } }
+  @media (max-width: 640px) { .sg-kh-inner { min-width: 1200px; } }
+  @media (max-width: 520px) { .sg-kh-inner { grid-template-columns: 6.6rem minmax(0, 1fr); } .sg-kh-lab { padding-inline: 8px; font-size: .8rem; } .sg-kh-lab small { font-size: .76rem; } }
+  @media (prefers-reduced-motion: reduce) { .sg-kh-bar { transition: none; } }
+</style>
+<script src="../../scripts/sig-khulafa.ts"></script>

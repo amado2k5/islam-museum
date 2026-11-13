@@ -1,0 +1,486 @@
+---
+// The signature view of the Sacred Places Browser (docs/plan/49-places-browser.md): "The sacred geography", one inline
+// SVG drawn at build time from the places the browser already lists (site/src/lib/places.ts) and the land outline the
+// site's MiniMap uses (site/src/data/basemap-mena.json, public domain). Every located place is a mark whose shape and
+// colour give its section and whose size gives the number of passages that mention it. The surroundings of Mecca and
+// of Medina collapse into a single point at the scale of the whole map, so each is magnified in a lens frame computed
+// from the places within LENS_KM of the city's own coordinates. Every mark is a real link to the place's page, so the
+// map reads and navigates without JavaScript; the script (site/src/scripts/sig-places.ts) adds the readout card, the
+// section toggles and the matching highlight in the page's list. The numbers, the extent and the lens frames all come
+// from the data: the build fails if either anchor city is missing.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { labelOf, summaryOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { placesItems, placesSlugOf, PLACES_SECTIONS, type PlacesItem, type PlaceSection } from "../../lib/places";
+import { PLACE_CORPORA } from "../../../../scripts/places";
+import basemap from "../../data/basemap-mena.json";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const N = (ui(lang) as any).places;
+const V = N.viz;
+
+/** The two cities whose surroundings are magnified, found by id; the build fails if either is missing. */
+const ANCHOR_IDS = ["place/mecca", "place/medina"] as const;
+/** A place belongs to a lens when it lies within this distance of the city's own coordinates. */
+const LENS_KM = 40;
+const W = 1000;
+const f = (n: number) => Math.round(n * 10) / 10;
+const km = (a: [number, number], b: [number, number]) => {
+  const rad = Math.PI / 180;
+  const dLat = (b[0] - a[0]) * rad, dLon = (b[1] - a[1]) * rad;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a[0] * rad) * Math.cos(b[0] * rad) * Math.sin(dLon / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(h));
+};
+
+const coordsOf = (i: PlacesItem): [number, number] | undefined => {
+  const c = (i.node as any).coordinates;
+  return Array.isArray(c) && c.length === 2 && c.every((x: any) => Number.isFinite(x)) ? [c[0], c[1]] : undefined;
+};
+const located = placesItems.filter((i) => coordsOf(i));
+const unlocated = placesItems.filter((i) => !coordsOf(i));
+const anchors = ANCHOR_IDS.map((id) => {
+  const it = located.find((i) => i.node.id === id);
+  if (!it) throw new Error(`The sacred geography needs ${id} with coordinates to draw its lens; it is missing from the Places Browser`);
+  return it;
+});
+
+// ---- marks: one per located place, sized by the passages that mention it (clamped square-root scale, stated in the caption)
+const nameOf = (i: PlacesItem) => labelOf(i.node, lang).replace(/\s*⁦?\(.*$/, "").trim();
+const totalOf = (i: PlacesItem) => PLACE_CORPORA.reduce((s, c) => s + i.counts[c], 0);
+const R_MIN = 6.5, R_MAX = 19;
+const radiusOf = (n: number) => Math.min(R_MAX, Math.max(R_MIN, 6 + 1.4 * Math.sqrt(n)));
+const totals = located.map(totalOf);
+const minTotal = Math.min(...totals), maxTotal = Math.max(...totals);
+
+interface Mark { it: PlacesItem; id: string; slug: string; name: string; total: number; r: number; lon: number; lat: number; x: number; y: number; section: PlaceSection }
+const toMark = (it: PlacesItem): Mark => {
+  const [lat, lon] = coordsOf(it)!;
+  const total = totalOf(it);
+  return { it, id: it.node.id, slug: placesSlugOf(it), name: nameOf(it), total, r: radiusOf(total), lon, lat, x: 0, y: 0, section: it.section };
+};
+
+// ---- projections: equirectangular, longitude scaled by the cosine of the middle latitude
+interface Proj { X: (lon: number) => number; Y: (lat: number) => number; s: number; k: number }
+const fit = (minLon: number, maxLon: number, minLat: number, maxLat: number, bw: number, bh: number | undefined): Proj & { w: number; h: number } => {
+  const k = Math.cos(((minLat + maxLat) / 2) * Math.PI / 180);
+  const lonSpan = Math.max(maxLon - minLon, 1e-6) * k, latSpan = Math.max(maxLat - minLat, 1e-6);
+  const s = bh === undefined ? bw / lonSpan : Math.min(bw / lonSpan, bh / latSpan);
+  const w = lonSpan * s, h = latSpan * s;
+  const ox = (bw - w) / 2, oy = bh === undefined ? 0 : (bh - h) / 2;
+  return { X: (lon) => ox + (lon - minLon) * k * s, Y: (lat) => oy + (maxLat - lat) * s, s, k, w, h };
+};
+
+const allLon = located.map((i) => coordsOf(i)![1]), allLat = located.map((i) => coordsOf(i)![0]);
+const main = fit(Math.min(...allLon) - 2.5, Math.max(...allLon) + 2.5, Math.min(...allLat) - 2, Math.max(...allLat) + 2, W, undefined);
+const H0 = main.h;
+
+// ---- lenses: the places within LENS_KM of each anchor, in a frame below the map
+const FW = 440, PAD = 14, TITLE = 64;
+const lensSets = anchors.map((a) => {
+  const c = coordsOf(a)!;
+  return { anchor: a, members: located.filter((i) => km(c, coordsOf(i)!) <= LENS_KM) };
+});
+const lensGeo = lensSets.map((l) => {
+  const ms = l.members.map(toMark);
+  const lons = ms.map((m) => m.lon), lats = ms.map((m) => m.lat);
+  const midLat = (Math.min(...lats) + Math.max(...lats)) / 2;
+  const k = Math.cos(midLat * Math.PI / 180);
+  // a frame of at least 10 per cent beyond the outermost place, and never thinner than the cluster's own spread of 0.01 degree
+  const dLon = Math.max(Math.max(...lons) - Math.min(...lons), 0.01), dLat = Math.max(Math.max(...lats) - Math.min(...lats), 0.01);
+  const padLon = dLon * 0.2, padLat = dLat * 0.2;
+  return { ...l, marks: ms, box: [Math.min(...lons) - padLon, Math.max(...lons) + padLon, Math.min(...lats) - padLat, Math.max(...lats) + padLat] as [number, number, number, number], k };
+});
+const needH = lensGeo.map((l) => {
+  const lonSpan = (l.box[1] - l.box[0]) * l.k, latSpan = l.box[3] - l.box[2];
+  return (FW - 2 * PAD) * latSpan / lonSpan + TITLE + PAD;
+});
+const FH = Math.round(Math.min(430, Math.max(310, ...needH)));
+const GAP = 120;
+const FY = Math.round(H0 + GAP);
+const H = FY + FH + 10;
+// the western anchor takes the left frame, so the lens lines do not cross
+const order = lensGeo.map((l, i) => ({ l, i, x: main.X(coordsOf(l.anchor)![1]) })).sort((a, b) => a.x - b.x);
+const frames = order.map(({ l }, slot) => {
+  const fx = slot === 0 ? 10 : W - 10 - FW;
+  const P = fit(l.box[0], l.box[1], l.box[2], l.box[3], FW - 2 * PAD, FH - TITLE - PAD);
+  return { ...l, fx, fy: FY, P, ox: PAD, oy: TITLE };
+});
+
+// ---- land: the basemap's rings, clipped to a frame and simplified in screen space (as MiniMap does)
+const rings = basemap.rings as number[][][];
+const rdp = (pts: number[][], eps: number) => {
+  if (pts.length < 4) return pts;
+  const keep = new Uint8Array(pts.length); keep[0] = keep[pts.length - 1] = 1;
+  const stack: number[][] = [[0, pts.length - 1]];
+  while (stack.length) {
+    const [a, b] = stack.pop()!;
+    let dmax = 0, idx = -1;
+    const [ax, ay] = pts[a], [bx, by] = pts[b];
+    const dx = bx - ax, dy = by - ay, len = Math.hypot(dx, dy) || 1;
+    for (let i = a + 1; i < b; i++) {
+      const d = Math.abs(dy * pts[i][0] - dx * pts[i][1] + bx * ay - by * ax) / len;
+      if (d > dmax) { dmax = d; idx = i; }
+    }
+    if (dmax > eps && idx > 0) { keep[idx] = 1; stack.push([a, idx], [idx, b]); }
+  }
+  return pts.filter((_, i) => keep[i]);
+};
+// Sutherland–Hodgman against the frame (grown a little, so the clipped edge falls outside the frame's own clip)
+const clipRing = (pts: number[][], x0: number, y0: number, x1: number, y1: number): number[][] => {
+  const edges: [(p: number[]) => boolean, (a: number[], b: number[]) => number[]][] = [
+    [(p) => p[0] >= x0, (a, b) => [x0, a[1] + ((b[1] - a[1]) * (x0 - a[0])) / (b[0] - a[0])]],
+    [(p) => p[0] <= x1, (a, b) => [x1, a[1] + ((b[1] - a[1]) * (x1 - a[0])) / (b[0] - a[0])]],
+    [(p) => p[1] >= y0, (a, b) => [a[0] + ((b[0] - a[0]) * (y0 - a[1])) / (b[1] - a[1]), y0]],
+    [(p) => p[1] <= y1, (a, b) => [a[0] + ((b[0] - a[0]) * (y1 - a[1])) / (b[1] - a[1]), y1]],
+  ];
+  let out = pts;
+  for (const [inside, cut] of edges) {
+    const src = out;
+    out = [];
+    for (let i = 0; i < src.length; i++) {
+      const cur = src[i], prev = src[(i + src.length - 1) % src.length];
+      if (inside(cur)) { if (!inside(prev)) out.push(cut(prev, cur)); out.push(cur); } else if (inside(prev)) out.push(cut(prev, cur));
+    }
+    if (!out.length) break;
+  }
+  return out;
+};
+const landPath = (X: (lon: number) => number, Y: (lat: number) => number, w: number, h: number, eps: number): string => {
+  const m = 25;
+  const out: string[] = [];
+  for (const rg of rings) {
+    const projected = rg.map(([lon, lat]) => [X(lon), Y(lat)]);
+    let lx = Infinity, hx = -Infinity, ly = Infinity, hy = -Infinity;
+    for (const [x, y] of projected) { if (x < lx) lx = x; if (x > hx) hx = x; if (y < ly) ly = y; if (y > hy) hy = y; }
+    if (hx < -m || lx > w + m || hy < -m || ly > h + m) continue;
+    // a ring starts and ends on one point, which rdp cannot use as a chord: simplify its two halves apart
+    const mid = projected.length >> 1;
+    const r = clipRing([...rdp(projected.slice(0, mid + 1), eps), ...rdp(projected.slice(mid), eps).slice(1)], -m, -m, w + m, h + m);
+    if (r.length > 2) out.push("M" + r.map(([x, y]) => `${Math.round(x)},${Math.round(y)}`).join("L") + "Z");
+  }
+  return out.join("");
+};
+const inside = (rg: number[][], lon: number, lat: number) => {
+  let c = false;
+  for (let i = 0, j = rg.length - 1; i < rg.length; j = i++) {
+    const [xi, yi] = rg[i], [xj, yj] = rg[j];
+    if ((yi > lat) !== (yj > lat) && lon < ((xj - xi) * (lat - yi)) / (yj - yi) + xi) c = !c;
+  }
+  return c;
+};
+const mainLand = landPath(main.X, main.Y, W, H0, 1.4);
+const frameLand = frames.map((fr) => {
+  const cLon = (fr.box[0] + fr.box[1]) / 2, cLat = (fr.box[2] + fr.box[3]) / 2;
+  const w = FW - 2 * PAD, h = FH - TITLE - PAD;
+  const d = landPath(fr.P.X, fr.P.Y, w, h, 0.6);
+  return { d, wholly: rings.some((rg) => inside(rg, cLon, cLat)) };
+});
+
+// ---- marks in place: the main map shows every located place outside the lenses and each anchor city; the lenses hold the rest
+const lensIds = new Set(lensGeo.flatMap((l) => l.members.map((m) => m.node.id)));
+const anchorSet = new Set<string>(ANCHOR_IDS);
+const mainMarks = located.filter((i) => !lensIds.has(i.node.id) || anchorSet.has(i.node.id)).map(toMark);
+for (const m of mainMarks) { m.x = main.X(m.lon); m.y = main.Y(m.lat); }
+for (const fr of frames) for (const m of fr.marks) { m.x = fr.P.X(m.lon); m.y = fr.P.Y(m.lat); }
+
+/** Marks that overlap are pushed apart along the line between them (places on one point, in a fixed order), so each can be touched; the caption says so. */
+const spread = (ms: Mark[]) => {
+  const sorted = [...ms].sort((a, b) => a.id.localeCompare(b.id));
+  for (let it = 0; it < 80; it++) {
+    let moved = false;
+    for (let i = 0; i < sorted.length; i++) for (let j = i + 1; j < sorted.length; j++) {
+      const a = sorted[i], b = sorted[j];
+      const want = a.r + b.r + 3;
+      let dx = b.x - a.x, dy = b.y - a.y;
+      let d = Math.hypot(dx, dy);
+      if (d >= want) continue;
+      if (d < 0.01) { const t = ((i * 7 + j * 3) % 12) * (Math.PI / 6); dx = Math.cos(t); dy = Math.sin(t); d = 1; }
+      const push = (want - d) / 2 + 0.2;
+      a.x -= (dx / d) * push; a.y -= (dy / d) * push; b.x += (dx / d) * push; b.y += (dy / d) * push;
+      moved = true;
+    }
+    if (!moved) break;
+  }
+};
+spread(mainMarks);
+for (const fr of frames) spread(fr.marks);
+/** The touch target of a mark: up to 35 units round it (24 px on a phone), but never past half the way to its nearest neighbour, so no two overlap. */
+const hits = new Map<string, number>();
+for (const group of [mainMarks, ...frames.map((fr) => fr.marks)]) {
+  for (const m of group) {
+    const nearest = Math.min(...group.filter((o) => o !== m).map((o) => Math.hypot(o.x - m.x, o.y - m.y)), 1e9);
+    hits.set(m.id + (group === mainMarks ? "" : "#"), Math.round(Math.max(m.r + 1, Math.min(35, nearest / 2))));
+  }
+}
+
+// ---- permanent labels: the most-mentioned places of each scale, each in the first free spot, never over another label or mark
+const FONT = 35, LABELS = 8;
+interface Spot { x: number; y: number; anchor: "start" | "middle" | "end"; lead?: string }
+const labelSpots = (ms: Mark[], w: number, h: number): Map<string, Spot> => {
+  const boxes = ms.map((m) => ({ x0: m.x - m.r - 1, y0: m.y - m.r - 1, x1: m.x + m.r + 1, y1: m.y + m.r + 1 }));
+  const hit = (b: { x0: number; y0: number; x1: number; y1: number }) => boxes.some((o) => b.x0 < o.x1 && b.x1 > o.x0 && b.y0 < o.y1 && b.y1 > o.y0);
+  const out = new Map<string, Spot>();
+  for (const m of [...ms].sort((a, b) => b.total - a.total || a.id.localeCompare(b.id))) {
+    if (out.size >= LABELS || m.total === 0) break;
+    const tw = [...m.name].length * FONT * 0.58 + 6;
+    const tries: Spot[] = [];
+    for (const extra of [0, 22, 44]) {
+      const g = m.r + 6 + extra, d = g * 0.72;
+      tries.push(
+        { x: m.x + g, y: m.y + FONT * 0.32, anchor: "start" }, { x: m.x - g, y: m.y + FONT * 0.32, anchor: "end" },
+        { x: m.x, y: m.y - g - 4, anchor: "middle" }, { x: m.x, y: m.y + g + FONT * 0.85, anchor: "middle" },
+        { x: m.x + d, y: m.y - d, anchor: "start" }, { x: m.x - d, y: m.y - d, anchor: "end" },
+        { x: m.x + d, y: m.y + d + FONT * 0.7, anchor: "start" }, { x: m.x - d, y: m.y + d + FONT * 0.7, anchor: "end" },
+      );
+    }
+    for (const t of tries) {
+      const x0 = t.anchor === "start" ? t.x : t.anchor === "end" ? t.x - tw : t.x - tw / 2;
+      const b = { x0, y0: t.y - FONT * 0.95, x1: x0 + tw, y1: t.y + FONT * 0.3 };
+      if (b.x0 < 2 || b.x1 > w - 2 || b.y0 < 2 || b.y1 > h - 2 || hit(b)) continue;
+      boxes.push(b);
+      // a label set apart from its mark is tied to it by a thin line, from the mark's edge to the nearest edge of the text
+      const tx = t.anchor === "start" ? t.x - 2 : t.anchor === "end" ? t.x + 2 : t.x, ty = t.y - FONT * 0.3;
+      const nx = Math.max(b.x0, Math.min(b.x1, m.x)), ny = Math.max(b.y0, Math.min(b.y1, m.y));
+      const dd = Math.hypot(nx - m.x, ny - m.y);
+      if (dd > m.r + 14) t.lead = `M${f(m.x + ((nx - m.x) / dd) * m.r)} ${f(m.y + ((ny - m.y) / dd) * m.r)}L${f(nx)} ${f(ny)}`;
+      out.set(m.id, t); break;
+    }
+  }
+  return out;
+};
+const mainLabels = labelSpots(mainMarks, W, H0);
+const frameLabels = frames.map((fr) => labelSpots(fr.marks, FW - 2 * PAD, FH - TITLE - PAD));
+
+// ---- shapes: one per section, so colour is never the only cue
+const SHAPE: Record<PlaceSection, string> = { sanctuaries: "circle", hajj: "square", seerah: "diamond", quran: "triangle", sacred: "hexagon", mentioned: "ring" };
+const shape = (sec: PlaceSection, r: number): { tag: "circle" | "path"; d?: string } => {
+  const p = (pts: [number, number][]) => ({ tag: "path" as const, d: "M" + pts.map(([x, y]) => `${f(x)} ${f(y)}`).join("L") + "Z" });
+  switch (SHAPE[sec]) {
+    case "square": { const a = r * 0.9; return p([[-a, -a], [a, -a], [a, a], [-a, a]]); }
+    case "diamond": { const a = r * 1.25; return p([[0, -a], [a, 0], [0, a], [-a, 0]]); }
+    case "triangle": { const a = r * 1.3; return p([[0, -a], [a * 0.87, a * 0.5], [-a * 0.87, a * 0.5]]); }
+    case "hexagon": { const a = r * 1.08; return p([0, 1, 2, 3, 4, 5].map((i) => [a * Math.cos(Math.PI / 3 * i), a * Math.sin(Math.PI / 3 * i)] as [number, number])); }
+    default: return { tag: "circle" };
+  }
+};
+const legendSections = PLACES_SECTIONS.filter((id) => located.some((i) => i.section === id));
+
+// ---- the text of each place: the readout card is cloned from this outline, which is also the text alternative
+const firstSentence = (s: string) => { const m = s.match(/^(.+?[.!?؟۔])(?:\s|$)/); const t = (m ? m[1] : s).trim(); return t.length > 260 ? `${t.slice(0, 257).trimEnd()}…` : t; };
+const countsLine = (i: PlacesItem) => PLACE_CORPORA.filter((c) => i.counts[c] > 0).map((c) => `${N.corpora?.[c]?.name ?? c} · ${num(i.counts[c], lang)}`).join(" · ");
+const sectionTitle = (id: string) => N.sections[id]?.title ?? id;
+const cards = placesItems.map((i) => ({ it: i, slug: placesSlugOf(i), name: nameOf(i), total: totalOf(i), line: countsLine(i), first: firstSentence(summaryOf(i.node, lang)), isLocated: !!coordsOf(i) }));
+
+const kmText = (n: number) => fmt(V.km, { n: num(n, lang) });
+const caption = fmt(V.caption, { min: num(minTotal, lang), max: num(maxTotal, lang), km: num(LENS_KM, lang) });
+const scaleKm = (fr: (typeof frames)[number]) => {
+  // a scale bar of 1, 2 or 5 (times a power of ten) kilometres that fits in a third of the frame's width
+  const kmPerUnit = 111.32 / fr.P.s * 1;
+  const target = ((FW - 2 * PAD) / 3) * kmPerUnit;
+  const pow = 10 ** Math.floor(Math.log10(target));
+  const step = [5, 2, 1].map((m) => m * pow).find((v) => v <= target) ?? pow;
+  return { km: step, len: step / kmPerUnit };
+};
+const lensLines = frames.map((fr) => {
+  const a = fr.anchor;
+  const c = coordsOf(a)!;
+  const x1 = main.X(fr.box[0]), x2 = main.X(fr.box[1]);
+  const y1 = main.Y(fr.box[3]), y2 = main.Y(fr.box[2]);
+  const cx = (x1 + x2) / 2, cy = (y1 + y2) / 2;
+  const hw = Math.max((x2 - x1) / 2, 15) + 5, hh = Math.max((y2 - y1) / 2, 11) + 5;
+  const r = { x0: cx - hw, y0: cy - hh, x1: cx + hw, y1: cy + hh };
+  return { r, cone: `M${f(r.x0)} ${f(r.y1)}L${f(fr.fx)} ${f(fr.fy)}L${f(fr.fx + FW)} ${f(fr.fy)}L${f(r.x1)} ${f(r.y1)}Z`, c };
+});
+---
+<section aria-labelledby="sg-pl-title" class="sg-pl" data-sg-pl style="margin-top:2rem">
+  <div data-pagefind-body>
+    <h2 id="sg-pl-title">{V.title}</h2>
+    <p class="muted sg-pl-cap">{caption}{unlocated.length > 0 && <>{" "}{V.not_located}{" "}{unlocated.map((i, n) => <>{n > 0 && (lang === "en" ? ", " : "، ")}<a href={`/${lang}/places/${placesSlugOf(i)}/`}>{nameOf(i)}</a></>)}.</>}</p>
+  </div>
+  <ul class="sg-pl-legend ui" aria-label={V.legend_title}>
+    {legendSections.map((id) => {
+      const sh = shape(id, 7);
+      return (
+        <li data-sg-pl-sec={id}>
+          <span class="sg-pl-legi">
+            <svg viewBox="-12 -12 24 24" width="22" height="22" aria-hidden="true" focusable="false" class={`sg-pl-s-${id}`}>
+              {sh.tag === "circle" ? <circle class={`sg-pl-shape ${id === "mentioned" ? "ring" : ""}`} r="7.5" /> : <path class="sg-pl-shape" d={sh.d} />}
+            </svg>
+            <span>{sectionTitle(id)} · {num(located.filter((i) => i.section === id).length, lang)}</span>
+          </span>
+        </li>
+      );
+    })}
+  </ul>
+  <div class="sg-pl-wrap">
+    <figure class="sg-pl-figure">
+      <svg class="sg-pl-svg" viewBox={`0 0 ${W} ${Math.round(H)}`} role="group" aria-label={V.map_label} direction="ltr">
+        <defs>
+          <clipPath id="sg-pl-clip-main"><rect width={W} height={f(H0)} rx="14" /></clipPath>
+          {frames.map((fr, i) => <clipPath id={`sg-pl-clip-${i}`}><rect width={FW - 2 * PAD} height={FH - TITLE - PAD} /></clipPath>)}
+        </defs>
+        <rect class="sg-pl-sea" width={W} height={f(H0)} rx="14" />
+        <path class="sg-pl-land" d={mainLand} clip-path="url(#sg-pl-clip-main)" />
+        <g aria-hidden="true">
+          {lensLines.map((l) => <path class="sg-pl-cone" d={l.cone} />)}
+          {lensLines.map((l) => <rect class="sg-pl-lensrect" x={f(l.r.x0)} y={f(l.r.y0)} width={f(l.r.x1 - l.r.x0)} height={f(l.r.y1 - l.r.y0)} rx="4" />)}
+        </g>
+        <g class="sg-pl-marks">
+          {[...mainMarks].sort((a, b) => b.r - a.r).map((m) => {
+            const sh = shape(m.section, m.r);
+            return (
+              <a class={`sg-pl-m sg-pl-s-${m.section}`} href={`/${lang}/places/${m.slug}/`} data-p={m.slug} data-s={m.section} transform={`translate(${f(m.x)} ${f(m.y)})`}>
+                <title>{m.name}</title>
+                <circle class="sg-pl-hit" r={hits.get(m.id)} />
+                {sh.tag === "circle" ? <circle class={`sg-pl-shape ${m.section === "mentioned" ? "ring" : ""}`} r={f(m.r)} /> : <path class="sg-pl-shape" d={sh.d} />}
+              </a>
+            );
+          })}
+        </g>
+        <g class="sg-pl-labels" aria-hidden="true">
+          {mainMarks.filter((m) => mainLabels.get(m.id)?.lead).map((m) => <path class="sg-pl-lead" d={mainLabels.get(m.id)!.lead} />)}
+          {mainMarks.filter((m) => mainLabels.has(m.id)).map((m) => { const s = mainLabels.get(m.id)!; return <text class="sg-pl-lab" x={f(s.x)} y={f(s.y)} text-anchor={s.anchor}>{m.name}</text>; })}
+        </g>
+        {frames.map((fr, fi) => {
+          const sc = scaleKm(fr);
+          const w = FW - 2 * PAD, h = FH - TITLE - PAD;
+          return (
+            <g class="sg-pl-frame" transform={`translate(${fr.fx} ${fr.fy})`}>
+              <rect class="sg-pl-fbox" width={FW} height={FH} rx="14" />
+              <text class="sg-pl-ftitle" x={PAD + 4} y="30">{fmt(V.lens_title, { city: nameOf(fr.anchor) })}</text>
+              <text class="sg-pl-fsub" x={PAD + 4} y="58">{fmt(V.lens_sub, { km: num(LENS_KM, lang) })}</text>
+              <g transform={`translate(${PAD} ${TITLE})`}>
+                <rect class="sg-pl-sea" width={w} height={h} rx="8" />
+                {frameLand[fi].wholly && <rect class="sg-pl-land" width={w} height={h} rx="8" />}
+                {!frameLand[fi].wholly && frameLand[fi].d && <path class="sg-pl-land" d={frameLand[fi].d} clip-path={`url(#sg-pl-clip-${fi})`} />}
+                <g class="sg-pl-marks">
+                  {[...fr.marks].sort((a, b) => b.r - a.r).map((m) => {
+                    const sh = shape(m.section, m.r);
+                    return (
+                      <a class={`sg-pl-m sg-pl-s-${m.section}`} href={`/${lang}/places/${m.slug}/`} data-p={m.slug} data-s={m.section} transform={`translate(${f(m.x)} ${f(m.y)})`}>
+                        <title>{m.name}</title>
+                        <circle class="sg-pl-hit" r={hits.get(m.id + "#")} />
+                        {sh.tag === "circle" ? <circle class={`sg-pl-shape ${m.section === "mentioned" ? "ring" : ""}`} r={f(m.r)} /> : <path class="sg-pl-shape" d={sh.d} />}
+                      </a>
+                    );
+                  })}
+                </g>
+                <g class="sg-pl-labels" aria-hidden="true">
+                  {fr.marks.filter((m) => frameLabels[fi].get(m.id)?.lead).map((m) => <path class="sg-pl-lead" d={frameLabels[fi].get(m.id)!.lead} />)}
+                  {fr.marks.filter((m) => frameLabels[fi].has(m.id)).map((m) => { const s = frameLabels[fi].get(m.id)!; return <text class="sg-pl-lab" x={f(s.x)} y={f(s.y)} text-anchor={s.anchor}>{m.name}</text>; })}
+                </g>
+                <g aria-hidden="true">
+                  <path class="sg-pl-scale" d={`M8 ${f(h - 14)}h${f(sc.len)}m0 -7v14m${f(-sc.len)} -14v14`} />
+                  <text class="sg-pl-fsub" x={f(14 + sc.len)} y={f(h - 8)}>{kmText(sc.km)}</text>
+                </g>
+              </g>
+            </g>
+          );
+        })}
+        <text class="sg-pl-lab sg-pl-tip" aria-hidden="true" text-anchor="middle" x="0" y="0" visibility="hidden"></text>
+      </svg>
+    </figure>
+    <aside class="sg-pl-panel panel" data-sg-pl-panel aria-live="polite" hidden>
+      <p class="ui muted sg-pl-hint" data-sg-pl-hint>{V.hint}</p>
+      <div data-sg-pl-body></div>
+      <button type="button" class="ui sg-pl-close" data-sg-pl-close hidden>{V.close}</button>
+    </aside>
+  </div>
+  <details class="sg-pl-outline">
+    <summary class="ui">{V.outline_title}</summary>
+    <ul role="list">
+      {cards.map((c) => (
+        <li>
+          <div data-sg-pl-card={c.slug}>
+            <h3><a href={`/${lang}/places/${c.slug}/`}>{c.name}</a></h3>
+            <p class="sg-pl-basis ui">{sectionTitle(c.it.section)}</p>
+            {c.line ? <p class="ui muted sg-pl-counts">{c.line}</p> : <p class="ui muted sg-pl-counts">{V.no_mentions}</p>}
+            {c.first && <p class="sg-pl-first" dir="auto">{c.first}</p>}
+            <p class="ui sg-pl-actions"><a class="sg-pl-open" href={`/${lang}/places/${c.slug}/`}>{V.open}</a></p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </details>
+</section>
+<style is:inline>
+  .sg-pl-wrap { display: grid; gap: 16px; align-items: start; }
+  .sg-pl-figure { margin: 0; min-width: 0; background: radial-gradient(120% 70% at 50% 0%, color-mix(in srgb, var(--gold) 10%, transparent), transparent 70%); border: 1px solid var(--line); border-radius: 18px; padding: 6px; }
+  .sg-pl-svg { display: block; width: 100%; height: auto; max-width: 780px; margin-inline: auto; font-family: inherit; overflow: visible; }
+  .sg-pl-sea { fill: var(--card); stroke: var(--line); stroke-width: 1.5px; }
+  .sg-pl-land { fill: color-mix(in srgb, var(--fg) 12%, transparent); stroke: color-mix(in srgb, var(--fg) 38%, transparent); stroke-width: 1px; stroke-linejoin: round; }
+  .sg-pl-cone { fill: color-mix(in srgb, var(--gold) 7%, transparent); stroke: color-mix(in srgb, var(--gold) 70%, transparent); stroke-width: 1.6px; stroke-dasharray: 3 5; }
+  .sg-pl-lensrect { fill: none; stroke: var(--gold-text); stroke-width: 2.2px; }
+  .sg-pl-fbox { fill: color-mix(in srgb, var(--gold) 8%, var(--card)); stroke: var(--gold); stroke-width: 2px; }
+  .sg-pl-ftitle { font-size: 30px; font-weight: 700; fill: var(--fg); }
+  .sg-pl-fsub { font-size: 24px; fill: var(--muted); }
+  .sg-pl-scale { fill: none; stroke: var(--fg); stroke-width: 2.4px; }
+  .sg-pl-lab { font-weight: 600; fill: var(--fg); paint-order: stroke; stroke: var(--card); stroke-width: 6px; stroke-linejoin: round; pointer-events: none; }
+  .sg-pl-lead { fill: none; stroke: var(--fg); stroke-width: 1.6px; }
+  .sg-pl-labels, .sg-pl-tip { transition: opacity .2s; }
+  /* the sections: shape and colour together, with an outline so a pale mark still reads on pale land */
+  .sg-pl-s-sanctuaries { --c: var(--gold); }
+  .sg-pl-s-hajj { --c: var(--link); }
+  .sg-pl-s-seerah { --c: color-mix(in srgb, var(--fg) 78%, var(--gold)); }
+  .sg-pl-s-quran { --c: color-mix(in srgb, var(--gold) 55%, var(--link)); }
+  .sg-pl-s-sacred { --c: color-mix(in srgb, var(--fg) 45%, var(--card)); }
+  .sg-pl-s-mentioned { --c: var(--muted); }
+  .sg-pl-shape { fill: var(--c); stroke: var(--fg); stroke-width: 1.8px; stroke-linejoin: round; transition: opacity .2s, stroke-width .15s; }
+  .sg-pl-shape.ring { fill: var(--card); stroke: var(--c); stroke-width: 3.4px; }
+  .sg-pl-m { cursor: pointer; text-decoration: none; }
+  .sg-pl-m { transition: opacity .2s; }
+  .sg-pl-hit { fill: transparent; stroke: none; }
+  .sg-pl-m:hover .sg-pl-shape, .sg-pl-m.is-on .sg-pl-shape { stroke-width: 4px; }
+  .sg-pl-m:hover .sg-pl-shape.ring, .sg-pl-m.is-on .sg-pl-shape.ring { stroke-width: 5px; }
+  .sg-pl-m.is-sel .sg-pl-shape { stroke: var(--focus); stroke-width: 5px; }
+  .sg-pl-m:focus-visible { outline: none; box-shadow: none; }
+  .sg-pl-m:focus-visible .sg-pl-shape { stroke: var(--focus); stroke-width: 6px; }
+  .sg-pl-m:focus-visible .sg-pl-hit { stroke: var(--focus); stroke-width: 3px; stroke-dasharray: 5 4; }
+  .sg-pl-m.is-dim { opacity: .14; }
+  .sg-pl-svg.has-dim .sg-pl-lab.is-dim { opacity: .2; }
+  .sg-pl-legend { display: flex; flex-wrap: wrap; gap: 6px 10px; list-style: none; padding: 0; margin: 0 0 1rem; font-size: .88rem; color: var(--fg); }
+  .sg-pl-legi, .sg-pl-leg { display: inline-flex; align-items: center; gap: 8px; min-height: 24px; }
+  .sg-pl-legend .sg-pl-shape { fill: var(--c); stroke: var(--fg); stroke-width: 1.6px; }
+  .sg-pl-legend .sg-pl-shape.ring { fill: var(--card); stroke: var(--c); stroke-width: 3px; }
+  .sg-pl-leg { font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px 6px 10px; min-height: 44px; cursor: pointer; }
+  .sg-pl-leg[aria-pressed="true"] { border-color: var(--gold); background: color-mix(in srgb, var(--gold) 22%, var(--card)); box-shadow: inset 0 0 0 1px var(--gold); font-weight: 700; }
+  .sg-pl-leg:hover { border-color: var(--gold); }
+  .sg-pl-panel { position: sticky; bottom: 10px; border: 1px solid var(--gold); box-shadow: 0 8px 28px rgba(10, 37, 51, .18); padding: 14px 16px; max-height: 46vh; overflow: auto; }
+  .sg-pl-panel h3 { margin: 0 0 .25rem; font-size: 1.25rem; }
+  .sg-pl-panel p { margin: .35rem 0 0; }
+  .sg-pl-hint { margin: 0 !important; font-size: .88rem; }
+  .sg-pl-basis { font-size: .9rem; color: var(--gold-text); font-weight: 600; }
+  .sg-pl-counts { font-size: .84rem; }
+  .sg-pl-first { font-size: .95rem; }
+  .sg-pl-actions { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+  .sg-pl-open { display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.1rem; border-radius: 999px; background: var(--gold); color: #0a2533; font-weight: 700; text-decoration: none; }
+  .sg-pl-close { margin-top: .6rem; min-height: 44px; padding: 0 1rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--fg); font: inherit; font-size: .85rem; cursor: pointer; }
+  .sg-pl-outline { margin-top: 1rem; }
+  .sg-pl-outline summary { cursor: pointer; min-height: 44px; display: inline-flex; align-items: center; }
+  .sg-pl-outline ul { list-style: none; padding: 0; margin: .6rem 0 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  .sg-pl-outline li > div { border-inline-start: 3px solid var(--gold); padding: 4px 12px; }
+  .sg-pl-outline h3 { margin: 0; font-size: 1.05rem; }
+  .sg-pl-outline p { margin: .25rem 0 0; }
+  .sg-pl-hl { outline: 3px solid var(--gold); outline-offset: 2px; }
+  .sg-pl-lab { font-size: 24px; stroke-width: 5px; }
+  @media (min-width: 900px) {
+    .sg-pl-wrap.has-panel { grid-template-columns: minmax(0, 780px) minmax(260px, 1fr); }
+    .sg-pl-panel { top: 132px; bottom: auto; max-height: calc(100vh - 150px); }
+  }
+  @media (max-width: 599px) {
+    .sg-pl-lab { font-size: 35px; stroke-width: 8px; }
+    .sg-pl-ftitle { font-size: 36px; }
+    .sg-pl-fsub { font-size: 31px; }
+    .sg-pl-legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .sg-pl-leg { width: 100%; border-radius: 14px; text-align: start; padding: 6px 10px; font-size: .84rem; }
+  }
+  @media (max-width: 899px) {
+    .sg-pl-panel:not(.has-card) { position: static; }
+    .sg-pl-panel { max-height: 40vh; padding: 10px 14px; }
+    .sg-pl-panel .sg-pl-first { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .sg-pl-panel .sg-pl-close { margin-top: .4rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sg-pl-m, .sg-pl-shape, .sg-pl-labels { transition: none !important; } }
+</style>
+<script src="../../scripts/sig-places.ts"></script>

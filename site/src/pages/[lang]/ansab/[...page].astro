@@ -28,7 +28,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const N = (T as any).ansab;
 const label = (n: any) => labelOf(n, lang);
-const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "");
+const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\s+([.,؛،])/g, "$1"); // citation markers belong to the entity page's footnotes
 const sections = ANSAB_SECTIONS
   .map((id) => ({ id, items: ansabSubjects.filter((s) => s.section === id) }))
   .filter((s) => s.items.length > 0);

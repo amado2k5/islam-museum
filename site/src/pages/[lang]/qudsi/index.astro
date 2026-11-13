@@ -3,6 +3,7 @@
 // Muwatta, one row per hadith with its narrations, in theme sections. Counts are read from the graph at build time and
 // appear on this page only; no shared layout carries a number (docs/site/README.md, site-wide numbers).
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import QudsiMatrix from "../../../components/sig/QudsiMatrix.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { href, labelOf } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
@@ -33,6 +34,8 @@ const searchText = (h: (typeof qudsiHadiths)[number]) =>
       <p class="muted" style="max-width:var(--measure)">{Q.method_note}</p>
       <p class="ui muted">{Q.api} <a href="/api/v1/qudsi.json"><bdi dir="ltr">/api/v1/qudsi.json</bdi></a></p>
     </div>
+
+    <QudsiMatrix lang={lang} />
 
     <section aria-labelledby="themes-title" style="margin-top:2rem">
       <h2 id="themes-title">{Q.themes_title}</h2>

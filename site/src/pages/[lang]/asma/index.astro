@@ -8,6 +8,7 @@ import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { labelOf, summaryOf } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
 import { asmaNodes } from "../../../lib/asma";
+import AsmaBeads from "../../../components/sig/AsmaBeads.astro";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
@@ -27,6 +28,8 @@ const searchText = (n: any) => [n.label.ar, n.label.en, n.label.ur, n.data?.name
       <p class="panel" style="max-width:var(--measure);border:1px solid var(--gold)">{A.hadith_note}</p>
       <p class="panel ui" style="max-width:var(--measure)">{status}</p>
     </div>
+
+    <AsmaBeads lang={lang} />
 
     <section aria-labelledby="grid-title" style="margin-top:2rem">
       <h2 id="grid-title" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">{A.sort_canonical}</h2>

@@ -13,6 +13,7 @@ story_roles:
   - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran] }
 sources: [source/tanzil-quran]
 relations:
+  - { type: child_of, target: person/zakariyya, note: "ابن زكريا بنص القرآن في بشارته به: مريم 7 وآل عمران 39.", sources: [source/tanzil-quran] }
   - { type: lived_in, target: place/palestine, confidence: low, note: "John, son of Zechariah, of the Judaean-Jordanian milieu per the Islamic and biblical tradition.", sources: [source/tanzil-quran] }
 external_ids: { wikidata: "Q2422313" }
 provenance:

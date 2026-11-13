@@ -3,6 +3,7 @@
 // what the commentators in the museum say about it. The catalogue of commentaries follows, labelled for what it is:
 // a commentary is a work; each printed volume is a work of kind tafsir-volume, part_of its commentary.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import MushafBand from "../../../components/sig/MushafBand.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { href, labelOf, summaryOf } from "../../../lib/graph";
 import { commentaries, volumes, commentaryOf, wiredCommentaries, surahs, ayahsOf, coveredIn, coveredSurahs, coveredCount, surahHref, volumeHref } from "../../../lib/tafsir";
@@ -29,6 +30,8 @@ const wiredNames = wiredCommentaries.map((c) => labelOf(c, lang)).join(sep);
       <h1>{X.title}</h1>
       <p>{X.lede}</p>
     </section>
+
+    <MushafBand lang={lang} />
 
     <section aria-labelledby="tafsir-by-verse" data-pagefind-ignore>
       <h2 id="tafsir-by-verse">{X.by_verse}</h2>

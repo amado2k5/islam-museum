@@ -6,6 +6,7 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import FullFilter from "../../../components/FullFilter.astro";
 import DraftMark from "../../../components/DraftMark.astro";
+import QuestionField from "../../../components/sig/QuestionField.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { labelOf } from "../../../lib/graph";
 import { fatwas, fatwaSources, fatwaSubjects, fatwasWithoutSubject } from "../../../lib/fatwa";
@@ -30,6 +31,7 @@ if (listed !== fatwas.length) throw new Error(`fatwa: the sources list ${listed}
 
     {fatwas.length === 0 ? <p class="muted">{F.empty}</p> : (
       <>
+        {fatwaSubjects.length > 0 && <QuestionField lang={lang} />}
         <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:1rem 0">
           <label for="fatwa-filter">{F.filter_label}</label>
           <input id="fatwa-filter" type="search" autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />

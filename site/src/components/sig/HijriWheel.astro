@@ -1,0 +1,203 @@
+---
+// "The wheel of the Hijri year" — the Centuries, Years and Months Browser's signature view (docs/plan/56-qurun-browser.md).
+// The twelve lunar months are drawn at build time as a ring in calendar order, the first at the top, and each month's
+// segment carries a gold bar whose length is the square root of the number of passages the browser holds for it
+// (qurunItems, the month topics of scripts/qurun.ts), set against the longest month. Rabi' and Jumada are one topic in
+// the museum's sources for two months each, so each is one double-width segment. The four sacred months are NOT marked:
+// the records name them only in prose, so the wheel shows the sacred topic's own count in the centre instead. A segment
+// links to its month's subject page. The script (site/src/scripts/sig-qurun.ts) adds the centre readout, the arrow keys
+// and the select-then-open tap. Below the wheel, the month links and the named years are the text alternative.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { qurunItems, qurunSubjectsById, QURUN_TOPICS, QURUN_TOPIC_SUBJECTS, type QurunTopic } from "../../lib/qurun";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).qurun;
+const V = G.viz;
+const rtl = lang !== "en";
+
+// ---- the calendar's order: month topics with the months (1-based) each covers. Fixed by the Hijri calendar itself.
+const WHEEL: { topic: QurunTopic; from: number; to: number }[] = [
+  { topic: "muharram", from: 1, to: 1 }, { topic: "safar", from: 2, to: 2 }, { topic: "rabi", from: 3, to: 4 },
+  { topic: "jumada", from: 5, to: 6 }, { topic: "rajab", from: 7, to: 7 }, { topic: "shaban", from: 8, to: 8 },
+  { topic: "ramadan", from: 9, to: 9 }, { topic: "shawwal", from: 10, to: 10 }, { topic: "dhul-qada", from: 11, to: 11 },
+  { topic: "dhul-hijja", from: 12, to: 12 },
+];
+// ---- the build-time checks: the browser's topics still hold these ten months in this order, with a subject page each
+const monthTopics = QURUN_TOPICS.filter((t) => WHEEL.some((w) => w.topic === t));
+const problems: string[] = [];
+if (monthTopics.join() !== WHEEL.map((w) => w.topic).join()) problems.push(`the month topics are ${monthTopics.join(",")}`);
+WHEEL.forEach((w, i) => { if (w.from !== (i ? WHEEL[i - 1].to + 1 : 1)) problems.push(`${w.topic} does not follow the month before it`); });
+if (WHEEL[WHEEL.length - 1].to !== 12) problems.push("the wheel does not close at month 12");
+for (const w of WHEEL) {
+  const sid = QURUN_TOPIC_SUBJECTS[w.topic]?.[0];
+  if (!sid || !qurunSubjectsById.has(sid)) problems.push(`${w.topic} has no subject page`);
+  if (!G.topics?.[w.topic]) problems.push(`${w.topic} has no name in the UI strings`);
+}
+if (!QURUN_TOPICS.includes("sacred")) problems.push("the sacred topic is gone");
+if (problems.length) throw new Error(`The wheel of the Hijri year disagrees with the Centuries, Years and Months Browser:\n- ${problems.join("\n- ")}`);
+
+// ---- counts, computed from the items
+const SECTIONS = ["quran", "sunnah", "seerah", "books"] as const;
+const tally = (topic: QurunTopic) => {
+  const by: Record<(typeof SECTIONS)[number], number> = { quran: 0, sunnah: 0, seerah: 0, books: 0 };
+  let total = 0;
+  for (const it of qurunItems) if (it.topics.includes(topic) && (SECTIONS as readonly string[]).includes(it.section)) { by[it.section as (typeof SECTIONS)[number]]++; total++; }
+  return { total, by };
+};
+const months = WHEEL.map((w) => ({ ...w, ...tally(w.topic) }));
+const sacred = tally("sacred");
+const max = Math.max(1, ...months.map((m) => m.total));
+
+// ---- geometry (viewBox units). Months run clockwise on an LTR page and anticlockwise on an RTL page; month 1 starts at the top.
+const W = 560, H = 440, CX = W / 2, CY = H / 2;
+const R_RING_IN = 72, R_RING_OUT = 100, R_BAR_IN = 104, R_BAR_MAX = 190, R_LABEL = 202;
+const dir = rtl ? -1 : 1;
+const GAP = 1.6; // degrees
+const f = (n: number) => Math.round(n * 10) / 10;
+const pt = (r: number, deg: number) => { const a = (dir * deg * Math.PI) / 180; return [CX + r * Math.sin(a), CY - r * Math.cos(a)] as const; };
+const sector = (r1: number, r2: number, d1: number, d2: number) => {
+  const [ax, ay] = pt(r2, d1), [bx, by] = pt(r2, d2), [cx, cy] = pt(r1, d2), [dx, dy] = pt(r1, d1);
+  const sw = dir > 0 ? 1 : 0;
+  return `M${f(ax)} ${f(ay)}A${r2} ${r2} 0 0 ${sw} ${f(bx)} ${f(by)}L${f(cx)} ${f(cy)}A${r1} ${r1} 0 0 ${1 - sw} ${f(dx)} ${f(dy)}Z`;
+};
+const ordinal = (m: { from: number; to: number }) => (m.from === m.to ? num(m.from, lang) : `${num(m.from, lang)}–${num(m.to, lang)}`);
+const guide = (r: number) => {
+  const [ax, ay] = pt(r, 0), [bx, by] = pt(r, 180);
+  return `M${f(ax)} ${f(ay)}A${r} ${r} 0 1 1 ${f(bx)} ${f(by)}A${r} ${r} 0 1 1 ${f(ax)} ${f(ay)}`;
+};
+
+const segs = months.map((m, i) => {
+  const d1 = (m.from - 1) * 30 + GAP / 2, d2 = m.to * 30 - GAP / 2, mid = ((m.from - 1) * 30 + m.to * 30) / 2;
+  const len = m.total > 0 ? Math.max(3, (R_BAR_MAX - R_BAR_IN) * Math.sqrt(m.total / max)) : 0;
+  const [tx, ty] = pt((R_RING_IN + R_RING_OUT) / 2, mid), [lx, ly] = pt(R_LABEL, mid);
+  // in an RTL page SVG text-anchor start/end are mirrored, so the two sides swap
+  const side = Math.abs(lx - CX) < 24 ? "middle" : (lx > CX) !== rtl ? "start" : "end";
+  const subject = qurunSubjectsById.get(QURUN_TOPIC_SUBJECTS[m.topic]![0])!;
+  const name = G.topics[m.topic] as string;
+  const counts = SECTIONS.map((s) => `${G[`${s}_title`]} · ${num(m.by[s], lang)}`).join("  |  ");
+  return {
+    ...m, i, name, counts, side, len,
+    href: `/${lang}/qurun/${subject.node.slug}/`,
+    hit: sector(R_RING_IN, R_BAR_MAX + 4, d1, d2),
+    ring: sector(R_RING_IN, R_RING_OUT, d1, d2),
+    bar: len > 0 ? sector(R_BAR_IN, R_BAR_IN + len, d1 + 1.2, d2 - 1.2) : sector(R_BAR_IN, R_BAR_IN + 2.2, d1 + 1.2, d2 - 1.2),
+    tx: f(tx), ty: f(ty), lx: f(lx), ly: f(ly),
+    ord: ordinal(m),
+    ofText: fmt(m.from === m.to ? V.month_of : V.months_of, { o: ordinal(m), t: num(12, lang) }),
+  };
+});
+
+// ---- the named years: the subjects the named-years topic maps to, in the order the data gives them
+const years = (QURUN_TOPIC_SUBJECTS["named-years"] ?? []).map((id) => qurunSubjectsById.get(id)).filter((s): s is NonNullable<typeof s> => !!s);
+const short = (s: string) => s.replace(/\s*⁦?\(.*$/, "").trim();
+const sacredSubject = qurunSubjectsById.get(QURUN_TOPIC_SUBJECTS.sacred![0]);
+const passages = (n: number) => fmt(V.passages, { n: num(n, lang) });
+---
+<figure class="sg-q" data-sg-q data-rtl={rtl ? "1" : "0"} style="margin:1.6rem 0 0">
+  <div data-pagefind-body>
+    <h2 class="sg-q-title">{V.title}</h2>
+    <p class="sg-q-cap">{V.caption}</p>
+  </div>
+  <div class="sg-q-clip">
+    <div class="sg-q-stage">
+      <svg class="sg-q-svg" viewBox={`0 0 ${W} ${H}`} role="group" aria-label={V.label} focusable="false">
+        <path class="sg-q-guide" d={guide(R_BAR_MAX)} />
+        <path class="sg-q-guide sg-q-guide-in" d={guide(R_BAR_IN)} />
+        {segs.map((s) => (
+          <a href={s.href} class="sg-q-seg" data-i={s.i} data-name={s.name} data-of={s.ofText} data-total={passages(s.total)}
+             data-split={s.counts} aria-label={`${s.name}. ${s.ofText}. ${passages(s.total)}`}>
+            <title>{`${s.name} · ${s.ofText} · ${passages(s.total)}`}</title>
+            <path class="sg-q-hit" d={s.hit} />
+            <path class="sg-q-ring" d={s.ring} />
+            <path class={`sg-q-bar${s.total === 0 ? " is-empty" : ""}`} d={s.bar} />
+            <text class="sg-q-ord" x={s.tx} y={s.ty} text-anchor="middle" dominant-baseline="central">{s.ord}</text>
+            <text class="sg-q-lab" x={s.lx} y={s.ly} text-anchor={s.side} dominant-baseline="central" aria-hidden="true">{s.name}</text>
+            <path class="sg-q-focus" d={s.hit} />
+          </a>
+        ))}
+      </svg>
+      <div class="sg-q-centre" aria-live="polite" aria-atomic="true">
+        <div data-sg-idle>
+          <span class="sg-q-big">{num(sacred.total, lang)}</span>
+          <span class="sg-q-small">{V.sacred_sub}</span>
+        </div>
+        <div data-sg-live hidden>
+          <span class="sg-q-small" data-sg-of></span>
+          <span class="sg-q-name" data-sg-name></span>
+          <span class="sg-q-num" data-sg-total></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="sg-q-line">
+    <span data-sg-hint>{V.hint}</span>
+    <span data-sg-detail hidden><span data-sg-split></span> · <a data-sg-open href="#">{V.open}</a></span>
+  </p>
+  <nav class="sg-q-months" aria-label={V.months_nav}>
+    <ol role="list">
+      {segs.map((s) => <li><a class="chip" href={s.href}>{s.name} · {num(s.total, lang)}</a></li>)}
+    </ol>
+    {sacredSubject && <p class="sg-q-sacred">{V.sacred_note} <a href={`/${lang}/qurun/${sacredSubject.node.slug}/`}>{short(labelOf(sacredSubject.node, lang))}</a> · {passages(sacred.total)}</p>}
+  </nav>
+  {years.length > 0 && (
+    <nav class="sg-q-years" aria-label={V.years_title}>
+      <h3>{V.years_title}</h3>
+      <ul role="list">
+        {years.map((y) => <li><a class="chip" href={`/${lang}/qurun/${y.node.slug}/`}>{short(labelOf(y.node, lang))} · {num(y.passages.length, lang)}</a></li>)}
+      </ul>
+    </nav>
+  )}
+</figure>
+<style is:inline>
+  .sg-q-title { margin: 0 0 .3rem; font-size: 1.5rem; }
+  .sg-q-cap { margin: 0 0 1rem; max-width: var(--measure); color: var(--muted); }
+  .sg-q-clip { overflow-x: clip; }
+  .sg-q-stage { position: relative; width: min(100%, 700px); margin-inline: auto; container-type: inline-size; }
+  .sg-q-svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .sg-q-guide { fill: none; stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 5; }
+  .sg-q-guide-in { stroke-dasharray: none; }
+  .sg-q-seg { cursor: pointer; outline: none; }
+  .sg-q-hit { fill: transparent; }
+  .sg-q-ring { fill: var(--panel); stroke: var(--line); stroke-width: 1; transition: fill .15s; }
+  .sg-q-bar { fill: var(--gold); opacity: .88; transition: opacity .15s; }
+  .sg-q-bar.is-empty { opacity: .35; }
+  .sg-q-ord { font-size: 13px; fill: var(--fg); font-weight: 600; pointer-events: none; }
+  .sg-q-lab { font-size: 15px; fill: var(--fg); pointer-events: none; }
+  .sg-q-focus { fill: none; stroke: transparent; stroke-width: 2.2; pointer-events: none; }
+  .sg-q-seg:hover .sg-q-ring, .sg-q-seg.is-on .sg-q-ring { fill: var(--card); stroke: var(--gold-text); stroke-width: 2; }
+  .sg-q-seg:hover .sg-q-bar, .sg-q-seg.is-on .sg-q-bar { opacity: 1; }
+  .sg-q-seg:hover .sg-q-lab, .sg-q-seg.is-on .sg-q-lab { fill: var(--gold-text); font-weight: 700; }
+  .sg-q-seg:focus-visible .sg-q-focus, .sg-q-seg.is-on .sg-q-focus { stroke: var(--focus); }
+  .sg-q-centre { position: absolute; inset: 50% auto auto 50%; width: 22%; transform: translate(-50%, -50%); text-align: center; display: grid; place-items: center; pointer-events: none; }
+  .sg-q-centre > div { display: grid; gap: .15em; justify-items: center; }
+  .sg-q-centre [hidden] { display: none; }
+  .sg-q-big { font-size: 8.4cqw; line-height: 1; color: var(--gold-text); font-weight: 600; }
+  .sg-q-small { font-size: max(12px, 1.9cqw); color: var(--muted); line-height: 1.3; }
+  .sg-q-name { font-size: max(15px, 2.6cqw); font-weight: 600; line-height: 1.2; color: var(--fg); }
+  .sg-q-num { font-size: max(12px, 2cqw); color: var(--gold-text); font-weight: 600; }
+  .sg-q-line { min-height: 2.8em; margin: .9rem auto 0; max-width: 700px; text-align: center; font-size: .95rem; color: var(--muted); }
+  .sg-q-line [hidden] { display: none; }
+  .sg-q-line a { font-weight: 600; }
+  .sg-q-months ol, .sg-q-years ul { display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 0; list-style: none; }
+  .sg-q-months { margin-top: 1rem; }
+  .sg-q-months ol { justify-content: center; }
+  .sg-q-sacred { text-align: center; margin: .8rem 0 0; font-size: .95rem; color: var(--muted); }
+  .sg-q-years { margin-top: 1.2rem; }
+  .sg-q-years h3 { margin: 0 0 .5rem; font-size: 1rem; }
+  .sg-q-years a, .sg-q-months a { min-height: 24px; }
+  /* narrow: the wheel alone fills the width; the outside names are cropped (the month links below carry them) */
+  @media (max-width: 640px) {
+    .sg-q-stage { width: 140%; margin-inline: -20%; }
+    .sg-q-lab { display: none; }
+    .sg-q-centre { width: 26%; }
+    .sg-q-big { font-size: 7.6cqw; }
+    .sg-q-small { font-size: max(12px, 2.1cqw); }
+    .sg-q-name { font-size: max(14px, 3.2cqw); }
+    .sg-q-num { font-size: max(12px, 2.5cqw); }
+    .sg-q-ord { font-size: 16px; }
+  }
+</style>
+<script src="../../scripts/sig-qurun.ts"></script>
