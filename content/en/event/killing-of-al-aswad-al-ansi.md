@@ -13,7 +13,7 @@ Al-Baladhuri says that al-Aswad ibn Ka'b al-Ansi practised soothsaying and claim
 He then entered Sanaa and took control of it, and expelled the Prophet's agent there. He harmed the "sons", the Persian families whom Khosrow had sent to Yemen. He married the wife of their king, Badhan. The transmitters differ on the name of the agent who was expelled. {cite:futuh-buldan-maarif-1407}
 
 ## Planning the killing
-The Prophet sent [[person/qays-ibn-hubayra|Qays ibn Hubayra]] to win over the sons, and sent [[person/farwa-ibn-musayk|Farwa ibn Musayk]] with him. When they reached Yemen, news of the Prophet's death reached them. Qays showed his agreement with al-Aswad until he entered Sanaa, then he won over [[person/fayruz-al-daylami|Fayruz al-Daylami]] from the sons, and they agreed to kill him. The wife of al-Aswad, who disliked him, informed the plotters and showed them an entrance to his house. {cite:futuh-buldan-maarif-1407}
+The Prophet sent [[person/qays-ibn-makshuh|Qays ibn Hubayra]] to win over the sons, and sent [[person/farwa-ibn-musayk|Farwa ibn Musayk]] with him. When they reached Yemen, news of the Prophet's death reached them. Qays showed his agreement with al-Aswad until he entered Sanaa, then he won over [[person/fayruz-al-daylami|Fayruz al-Daylami]] from the sons, and they agreed to kill him. The wife of al-Aswad, who disliked him, informed the plotters and showed them an entrance to his house. {cite:futuh-buldan-maarif-1407}
 
 ## The killing
 They entered on him before dawn while he was asleep and drunk, and Qays slaughtered him. Then he climbed the city wall and shouted the takbir; when al-Aswad's followers gathered, he threw down his head to them and they dispersed. {cite:futuh-buldan-maarif-1407}

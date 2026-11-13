@@ -9,7 +9,7 @@ translators: []
 
 ## من هذا البطن في فصل مهاجرة الحبشة
 **من حُمل في السفينتين:**
-- [[person/amer-ibn-al-waqqas|عامر بن الوَقاص]] {cite:ibn-hisham-saqqa 4/5}
+- [[person/amir-ibn-abi-waqqas|عامر بن الوَقاص]] {cite:ibn-hisham-saqqa 4/5}
 - [[person/utba-ibn-masoud|عتبة بن مسعود]] {cite:ibn-hisham-saqqa 4/5}
 
 **من سائر مهاجرة الحبشة:**

@@ -1,4 +1,5 @@
 id: person/harun-al-shari
+aliases: [person/harun-al-sari]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "هارون الشاري" }
 summary:
@@ -8,7 +9,9 @@ gender: male
 died: { edtf: "896", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/humdan, confidence: low, note: "Associated with حمدان per the record's own summary text; relation type pending review.", sources: [source/tabari-tarikh-abu-al-fadl] }
-sources: [source/tabari-tarikh-abu-al-fadl, source/muntazam-ibn-al-jawzi]
+  - {confidence: low, note: Associated with الموصل per the record's own summary text; relation type pending review., sources: [source/wikidata], target: place/mosul, type: lived_in}
+  - {sources: [source/tarikh-ibn-khaldun-ibar], target: group/khawarij, type: member_of}
+sources: [source/tabari-tarikh-abu-al-fadl, source/muntazam-ibn-al-jawzi, source/tarikh-ibn-khaldun-ibar]
 provenance:
   layer: own-research
   source: "ابن الجوزي، المنتظم في تاريخ الملوك والأمم؛ الطبري، تاريخ الرسل والملوك"
@@ -18,4 +21,10 @@ provenance:
 status:
   review: published
   completeness: 3
-
+names:
+  - {kind: alternate, value: هارون الساري البجلي}
+  - {kind: alternate, value: Harun al-Sari al-Bajali}
+roles: [rebel]
+traditions: [other]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]

@@ -41,3 +41,12 @@ provenance:
   run: explorer-al-qifti-1
 sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/kashf-zunun-furqan]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+faith:
+  - value: sunni
+    basis: tradition
+occupations:
+  - job: job/vizier
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

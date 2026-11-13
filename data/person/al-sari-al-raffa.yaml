@@ -1,4 +1,5 @@
 id: person/al-sari-al-raffa
+aliases: [person/sari-al-raffa]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: "السري الرفاء"
@@ -11,7 +12,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/fihrist-ibn-al-nadim]
 external_ids:
   wikidata: Q12188361
 provenance:
@@ -25,3 +26,6 @@ status:
   completeness: 3
 relations:
   - { type: lived_in, target: place/baghdad, note: "From text: أقام ببغداد", sources: [source/al-aalam] }
+names:
+  - {kind: alternate, value: السري الرفا}
+  - {kind: alternate, value: Sari Al Raffa}

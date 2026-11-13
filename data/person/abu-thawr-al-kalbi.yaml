@@ -1,4 +1,5 @@
 id: person/abu-thawr-al-kalbi
+aliases: [person/abu-thawr]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "أبو ثور الكلبي", en: "Abu Thawr al-Kalbi" }
 summary:
@@ -17,9 +18,29 @@ relations:
   - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: student_of, target: person/al-shafii, role: "أخذ الفقه عن الشافعي (PDF ص49)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - {note: 'From text: تفقه بالرأي فلما قدم الشافعي بغداد ا', sources: [source/tabaqat-shafiiyya-subki], target: place/baghdad, type: lived_in}
 external_ids: { wikidata: "Q4670395" }
-sources: [source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981, source/wikidata]
+sources: [source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981, source/wikidata, source/tabaqat-shafiiyya-subki]
 status:
   review: published
   completeness: 3
-
+names:
+  - {kind: full, lang: ar, value: إبراهيم بن خالد بن اليمان، أبو ثور الكلبي البغدادي}
+  - {kind: alternate, value: أبو ثور}
+  - {kind: alternate, value: Abu Thawr}
+roles: [jurist, hadith-scholar]
+traditions: [sunni]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-shafiiyya-subki]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-shafiiyya-subki]

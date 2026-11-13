@@ -1,4 +1,5 @@
 id: person/al-mundhir-ibn-amr
+aliases: [person/al-mundhir-ibn-amr-companion]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "المنذر بن عمرو", en: "al-Mundhir ibn Amr" }
 summary:
@@ -9,9 +10,18 @@ wings: [people]
 died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isabah 6/219; leader at Bir Ma'una 4 AH)" }
 relations:
   - { type: lived_in, target: place/medina, note: "One of the literate Ansar of Medina.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
-sources: [source/futuh-buldan-maarif-1407]
+  - {sources: [source/al-aalam], target: group/sahaba, type: member_of}
+  - {sources: [source/al-aalam], target: group/ansar, type: member_of}
+sources: [source/futuh-buldan-maarif-1407, source/al-aalam]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+  source: "the record's cited sources (source/futuh-buldan-maarif-1407; source/al-aalam); field added 13 November 2026 when a duplicate record was merged into this one"
+external_ids: {wikidata: Q12193843}
+names:
+  - {kind: alternate, value: المنذر بن عمرو الأنصاري}
+roles: [companion]
+gender: male
+regions: [arabia]

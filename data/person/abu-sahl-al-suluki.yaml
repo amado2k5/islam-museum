@@ -1,8 +1,11 @@
 id: person/abu-sahl-al-suluki
+aliases: [person/abu-sahl-al-saluki]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "أبو سهل الصعلوكي الحنفي محمد بن سليمان", en: "Abu Sahl al-Su'luki al-Hanafi Muhammad ibn Sulayman" }
 names:
   - { kind: full, lang: ar, value: "أبو سهل محمد بن سليمان بن هارون الصعلوكي الحنفي" }
+  - {kind: alternate, value: أبو سهل الصعلوكي}
+  - {kind: alternate, value: Abu Sahl al-Saluki}
 gender: male
 roles: [jurist, scholar]
 traditions: [sunni]
@@ -14,7 +17,8 @@ wings: [people]
 relations:
   - { type: lived_in, target: place/merv, note: "Place association from the person's nisba/name (المروزي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/abu-ishaq-ibrahim-al-marwazi, role: "صاحب أبي إسحاق المروزي (PDF ص60)", sources: [source/tabaqat-fuqaha-abbas-1981] }
-sources: [source/tabaqat-fuqaha-abbas-1981]
+  - {confidence: low, note: Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review., sources: [source/al-aalam], target: place/iran, type: lived_in}
+sources: [source/tabaqat-fuqaha-abbas-1981, source/al-aalam]
 provenance:
   layer: "own-research"
   source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61"
@@ -30,3 +34,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/tabaqat-fuqaha-abbas-1981]
+external_ids: {wikidata: Q25453527}
+regions: [persia-central-asia]
+periods: [period/abbasid-fragmentation]

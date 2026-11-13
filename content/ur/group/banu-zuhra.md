@@ -9,7 +9,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## مہاجرینِ حبشہ کے اس فصل میں اس بطن کے افراد
 **جو دونوں کشتیوں میں سوار ہوئے:**
-- [[person/amer-ibn-al-waqqas|عامر بن وقاص]] {cite:ibn-hisham-saqqa 4/5}
+- [[person/amir-ibn-abi-waqqas|عامر بن وقاص]] {cite:ibn-hisham-saqqa 4/5}
 - [[person/utba-ibn-masoud|عتبہ بن مسعود]] {cite:ibn-hisham-saqqa 4/5}
 
 **باقی مہاجرینِ حبشہ میں سے:**

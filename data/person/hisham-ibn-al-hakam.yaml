@@ -1,4 +1,5 @@
 id: person/hisham-ibn-al-hakam
+aliases: [person/hisham-ibn-hakam]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "هشام بن الحكم", en: "Hisham ibn al-Hakam" }
 summary:
@@ -9,13 +10,31 @@ wings: [people]
 died: { edtf: "795", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with الكوفة per the record's own summary text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
+  - {confidence: medium, note: Place link from Wikidata; pending a second source., sources: [source/wikidata], target: place/wasit, type: born_in}
+  - {confidence: medium, note: Place link from Wikidata; pending a second source., sources: [source/wikidata], target: place/kufa, type: born_in}
+  - {confidence: medium, note: Place link from Wikidata; pending a second source., sources: [source/wikidata], target: place/kufa, type: died_in}
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 183–184"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch42
-sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/sallabi-ali-vol2]
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/sallabi-ali-vol2, source/al-aalam]
 status:
   review: published
   completeness: 3
+external_ids: {wikidata: Q97259765}
+names:
+  - {kind: alternate, value: هشام بن الحكم الكوفي}
+  - {kind: alternate, value: Hisham ibn Hakam}
+roles: [theologian, muhaddith]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+faith:
+  - { value: shia-twelver, basis: tradition }
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

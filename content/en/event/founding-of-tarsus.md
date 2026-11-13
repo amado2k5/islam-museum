@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-Al-Baladhuri, from al-Waqidi, reports that [[person/al-hasan-ibn-qahtaba|al-Hasan ibn Qahtaba]] raided the land of the Romans in 162 AH, and informed [[person/al-mahdi|al-Mahdi]] of the value of building and fortifying [[place/tarsus|Tarsus]]. {cite:futuh-buldan-maarif-1407 p.231-233}
+Al-Baladhuri, from al-Waqidi, reports that [[person/hasan-ibn-qahtaba|al-Hasan ibn Qahtaba]] raided the land of the Romans in 162 AH, and informed [[person/al-mahdi|al-Mahdi]] of the value of building and fortifying [[place/tarsus|Tarsus]]. {cite:futuh-buldan-maarif-1407 p.231-233}
 
 ## Exploration
 Al-Hasan distinguished himself in that raid, so that they called him "the devil". When he left the land of the Romans, he looked at the city and it was in ruins, and he estimated the number of those who would live in it at a hundred thousand. Al-Mahdi ordered him to begin with the city of al-Hadath, and advised that Tarsus be built. {cite:futuh-buldan-maarif-1407}

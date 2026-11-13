@@ -1,4 +1,5 @@
 id: person/imran-ibn-husayn
+aliases: [person/imran-ibn-al-husayn]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: "عمران بن حصين"
@@ -14,7 +15,8 @@ periods: [period/prophetic-era, period/rashidun]
 died: { edtf: "672", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
 relations:
   - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/rijal-hawl-al-rasul-muqattam-1994]
+  - {confidence: low, note: Associated with البصرة per the record's own summary text; relation type pending review., sources: [source/futuh-buldan-maarif-1407], target: place/basra, type: lived_in}
+sources: [source/al-aalam, source/rijal-hawl-al-rasul-muqattam-1994, source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q6008261
 provenance:
@@ -26,3 +28,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+names:
+  - {kind: alternate, value: عمران بن الحصين}
+  - {kind: alternate, value: Imran ibn al-Husayn}

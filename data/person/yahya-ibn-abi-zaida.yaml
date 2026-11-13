@@ -1,4 +1,5 @@
 id: person/yahya-ibn-abi-zaida
+aliases: [person/yahya-ibn-zakariya-ibn-abi-zaida]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: "يحيى بن زكريا بن أبي زائدة"
@@ -11,11 +12,12 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/taqrib-al-tahdhib]
+sources: [source/al-aalam, source/taqrib-al-tahdhib, source/fihrist-ibn-al-nadim]
 born: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 died: { edtf: "799", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Kufan qadi and traditionist (al-Taqrib; regions: levant-iraq).", sources: [source/al-aalam, source/taqrib-al-tahdhib] }
+  - {confidence: low, note: The only place named in the record; specific residence or role there is assumed from context but not separately documented., sources: [source/fihrist-ibn-al-nadim], target: place/al-madain, type: lived_in}
 external_ids:
   wikidata: Q31305124
 provenance:
@@ -27,3 +29,6 @@ provenance:
 status:
   review: draft
   completeness: 3
+names:
+  - {kind: alternate, value: يحيى بن زكرياء بن أبي زائدة}
+  - {kind: alternate, value: Yahya Ibn Zakariya Ibn Abi Zaida}

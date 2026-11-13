@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-سنہ 201ھ میں [[person/abd-allah-al-mamun|مأمون]] نے اپنے بھائی المؤتمن کو ولایت عہد سے ہٹایا، اور ولی عہد [[person/ali-al-ridha|علی الرضا]] بن موسیٰ الکاظم کو بنایا۔ {cite:tarikh-khulafa-minhaj-1434 p. 486-487}
+سنہ 201ھ میں [[person/abd-allah-al-mamun|مأمون]] نے اپنے بھائی المؤتمن کو ولایت عہد سے ہٹایا، اور ولی عہد [[person/ali-al-rida|علی الرضا]] بن موسیٰ الکاظم کو بنایا۔ {cite:tarikh-khulafa-minhaj-1434 p. 486-487}
 
 ## مأمون کے اقدامات
 سیوطی ذکر کرتے ہیں کہ مأمون نے یہ فیصلہ اطراف کو لکھ کر بھیجا، علی کو الرضا کا لقب دیا، ان کے نام کے دراہم ڈھالے، اور اپنی بیٹی ان کے نکاح میں دی۔ اور اس نے سیاہ لباس ترک کرنے اور سبز پہننے کا حکم دیا۔ {cite:tarikh-khulafa-minhaj-1434 p. 486-487}

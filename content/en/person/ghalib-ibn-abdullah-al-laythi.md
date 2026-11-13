@@ -13,3 +13,8 @@ It is reported by Jundub ibn Makith al-Juhani: they set out until at al-Kudayd t
 
 ## The raid on the land of the Banu Murra
 Ibn Ishaq counts for him a second expedition to the land of the [[group/banu-murra|Banu Murra]], in which Mirdas ibn Nuhayk, their ally from Juhayna, was struck. He was killed by Usama ibn Zayd and a man of the Ansar after he had pronounced the testimony of faith. See [[event/raid-of-ghalib-on-banu-murra|the expedition]]. {cite:ibn-hisham-saqqa 4/271}
+
+## In al-Alam — al-Zirikli
+Ghalib ibn Abdallah al-Laythi. The Prophet sent him with sixty riders against Banu al-Mulawwih at al-Kadid in 5 AH, and sent him again in the year of the conquest to clear the way.
+
+{cite:isti-ab-ibn-abd-al-barr p.595}

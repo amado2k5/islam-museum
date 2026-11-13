@@ -1,10 +1,12 @@
 id: person/ali-al-rida
+aliases: [person/ali-al-ridha]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: "علي الرضا"
   en: "Ali al-Rida"
 names:
   - { kind: full, lang: ar, value: "علي بن موسى بن جعفر الرضا" }
+  - {kind: alternate, value: علي بن موسى الرضا}
 roles: [imam]
 gender: male
 traditions: [shia-twelver]
@@ -14,7 +16,7 @@ summary:
 wings: [people]
 regions: [arabia, persia-central-asia]
 periods: [period/abbasid-early]
-sources: [source/wafayat-ayan, source/kamil-ibn-al-athir]
+sources: [source/wafayat-ayan, source/kamil-ibn-al-athir, source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
 external_ids:
   wikidata: Q25105
 provenance:
@@ -30,6 +32,9 @@ born: { edtf: "765", calendar: gregorian, precision: year, derived: true, note: 
 died: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/wafayat-ayan, source/kamil-ibn-al-athir], confidence: low }
+  - {confidence: high, note: Died poisoned at Tus and buried there per al-Masudi., sources: [source/muruj-al-dhahab], target: place/tus, type: died_in}
+  - {confidence: high, note: Buried at Tus., sources: [source/muruj-al-dhahab], target: place/tus, type: buried_in}
+  - {confidence: low, note: Made heir-apparent at al-Mamun's court at Marw., sources: [source/tarikh-khulafa-minhaj-1434, source/tabari-tarikh-abu-al-fadl], target: place/merv, type: traveled_to}
 tags:
 - bayt-browser
 - bayt-ahl

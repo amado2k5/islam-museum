@@ -1,4 +1,5 @@
 id: person/abd-allah-ibn-muhammad-cordova
+aliases: [person/abdallah-ibn-muhammad-andalusi]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "عبد الله بن محمد الأموي ⁦(أمير قرطبة)⁩", en: "Abd Allah ibn Muhammad (Umayyad amir of Cordova)", ur: "عبداللہ بن محمد ⁦(قرطبہ کا اموی امیر)⁩" }
 summary:
@@ -24,7 +25,7 @@ died:
   status: historical
   derived: false
   note: "EI gives 1 Rabi I 300/16 October 912."
-sources: [source/encyclopaedia-of-islam-2]
+sources: [source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari]
 provenance:
   layer: own-research
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 68; read from Apple Vision OCR"
@@ -33,3 +34,10 @@ provenance:
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
 relations:
   - { type: lived_in, target: place/damascus, note: "Court/dynasty seat inferred from dynastic affiliation in record; flagged for review.", sources: [source/encyclopaedia-of-islam-2], confidence: low }
+  - {sources: [source/nafh-tib-maqqari], target: place/cordoba, type: ruled_over}
+external_ids: {wikidata: Q307680}
+names:
+  - {kind: alternate, value: عبد الله بن محمد الأموي}
+  - {kind: alternate, value: Abdallah ibn Muhammad al-Umawi}
+periods: [period/abbasid-early]
+regions: [andalus-europe]

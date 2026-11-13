@@ -1,4 +1,5 @@
 id: person/hajjaj-ibn-artah
+aliases: [person/al-hajjaj-ibn-artat]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label:
   ar: "حجاج بن أرطاة"
@@ -14,7 +15,8 @@ periods: [period/abbasid-early]
 died: { edtf: "762", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with الكوفة per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+  - {note: 'From text: travelled to Rayy', sources: [source/futuh-buldan-maarif-1407], target: place/rayy, type: traveled_to}
+sources: [source/al-aalam, source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q107380598
 provenance:
@@ -26,3 +28,6 @@ provenance:
 status:
   review: published
   completeness: 3
+names:
+  - {kind: alternate, value: الحجاج بن أرطاة}
+  - {kind: alternate, value: al-Hajjaj ibn Artat}
