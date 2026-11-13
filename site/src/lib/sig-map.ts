@@ -8,6 +8,8 @@ export interface Frame {
   width: number; height: number;
   X: (lon: number) => number; Y: (lat: number) => number;
   landD: string;
+  /** the rectangle the land is drawn over: the frame, or `world` when given (a view can ease out to it) */
+  world: { x: number; y: number; w: number; h: number };
 }
 
 const rdp = (pts: number[][], eps: number) => {
@@ -29,7 +31,7 @@ const rdp = (pts: number[][], eps: number) => {
 };
 
 /** points: [lat, lon] pairs. The frame is `width` units wide; its height follows the extent, kept between minAspect and maxAspect of the width. */
-export function makeFrame(points: [number, number][], opts: { width?: number; pad?: number; minAspect?: number; maxAspect?: number; minSpan?: number } = {}): Frame {
+export function makeFrame(points: [number, number][], opts: { width?: number; pad?: number; minAspect?: number; maxAspect?: number; minSpan?: number; world?: [number, number][]; eps?: number } = {}): Frame {
   const width = opts.width ?? 1000, pad = opts.pad ?? 0.08, minAspect = opts.minAspect ?? 0.5, maxAspect = opts.maxAspect ?? 0.9, minSpan = opts.minSpan ?? 8;
   const lats = points.map((p) => p[0]), lons = points.map((p) => p[1]);
   let minLat = Math.min(...lats), maxLat = Math.max(...lats), minLon = Math.min(...lons), maxLon = Math.max(...lons);
@@ -48,13 +50,17 @@ export function makeFrame(points: [number, number][], opts: { width?: number; pa
   const X = (lon: number) => (lon - x0) * kx * s;
   const Y = (lat: number) => (y1 - lat) * s;
   // Sutherland-Hodgman clip of each ring to the frame (a little beyond it, so no clipped edge shows), then RDP in screen space.
-  const margin = width * 0.05;
+  const margin = width * (opts.world ? 0.25 : 0.05);
+  const wp = (opts.world ?? []).map(([lat, lon]) => [X(lon), Y(lat)]);
+  const R = wp.length
+    ? { x0: Math.min(0, ...wp.map((p) => p[0])) - margin, x1: Math.max(width, ...wp.map((p) => p[0])) + margin, y0: Math.min(0, ...wp.map((p) => p[1])) - margin, y1: Math.max(height, ...wp.map((p) => p[1])) + margin }
+    : { x0: -margin, x1: width + margin, y0: -margin, y1: height + margin };
   const clip = (poly: number[][]) => {
     const edges: [(p: number[]) => boolean, (a: number[], b: number[]) => number[]][] = [
-      [(p) => p[0] >= -margin, (a, b) => { const t = (-margin - a[0]) / (b[0] - a[0]); return [-margin, a[1] + t * (b[1] - a[1])]; }],
-      [(p) => p[0] <= width + margin, (a, b) => { const t = (width + margin - a[0]) / (b[0] - a[0]); return [width + margin, a[1] + t * (b[1] - a[1])]; }],
-      [(p) => p[1] >= -margin, (a, b) => { const t = (-margin - a[1]) / (b[1] - a[1]); return [a[0] + t * (b[0] - a[0]), -margin]; }],
-      [(p) => p[1] <= height + margin, (a, b) => { const t = (height + margin - a[1]) / (b[1] - a[1]); return [a[0] + t * (b[0] - a[0]), height + margin]; }],
+      [(p) => p[0] >= R.x0, (a, b) => { const t = (R.x0 - a[0]) / (b[0] - a[0]); return [R.x0, a[1] + t * (b[1] - a[1])]; }],
+      [(p) => p[0] <= R.x1, (a, b) => { const t = (R.x1 - a[0]) / (b[0] - a[0]); return [R.x1, a[1] + t * (b[1] - a[1])]; }],
+      [(p) => p[1] >= R.y0, (a, b) => { const t = (R.y0 - a[1]) / (b[1] - a[1]); return [a[0] + t * (b[0] - a[0]), R.y0]; }],
+      [(p) => p[1] <= R.y1, (a, b) => { const t = (R.y1 - a[1]) / (b[1] - a[1]); return [a[0] + t * (b[0] - a[0]), R.y1]; }],
     ];
     let out = poly;
     for (const [inside, cut] of edges) {
@@ -70,8 +76,8 @@ export function makeFrame(points: [number, number][], opts: { width?: number; pa
   const rings = (basemap.rings as number[][][]).map((ring) => {
     const projected = ring.map(([lon, lat]) => [X(lon), Y(lat)]);
     const clipped = clip(projected);
-    return clipped.length > 2 ? rdp(clipped, width / 900) : [];
+    return clipped.length > 2 ? rdp(clipped, opts.eps ?? width / 900) : [];
   });
   const landD = rings.filter((r) => r.length > 2).map((r) => "M" + r.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join("L") + "Z").join("");
-  return { width, height, X, Y, landD };
+  return { width, height, X, Y, landD, world: { x: R.x0, y: R.y0, w: R.x1 - R.x0, h: R.y1 - R.y0 } };
 }

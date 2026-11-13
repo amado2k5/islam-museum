@@ -39,18 +39,26 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-sg-jm]")) {
     };
     raf = requestAnimationFrame(step);
   };
+  const [wx, wy, ww, wh] = (svg.dataset.world ?? "").split(" ").map(Number);
+  const world = ww ? { x: wx, y: wy, w: ww, h: wh } : full;
   const frameFor = (pts: number[][]) => {
     const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
     const cx = (Math.min(...xs) + Math.max(...xs)) / 2, cy = (Math.min(...ys) + Math.max(...ys)) / 2;
-    let w = Math.max(Math.max(...xs) - Math.min(...xs), (Math.max(...ys) - Math.min(...ys)) * (full.w / full.h)) * 1.5 + 60;
+    const ratio = full.h / full.w;
+    let w = Math.max(Math.max(...xs) - Math.min(...xs), (Math.max(...ys) - Math.min(...ys)) / ratio) * 1.35 + 60;
     w = Math.max(w, 260);
-    if (w > full.w * 0.7) return { ...full };
-    const h = w * (full.h / full.w);
-    return { x: Math.min(Math.max(cx - w / 2, 0), full.w - w), y: Math.min(Math.max(cy - h / 2, 0), full.h - h), w, h };
+    // a route that sits inside the default frame and fills most of it keeps the default frame; one that leaves it eases out to its whole
+    const inside = Math.min(...xs) >= full.x && Math.max(...xs) <= full.x + full.w && Math.min(...ys) >= full.y && Math.max(...ys) <= full.y + full.h;
+    if (inside && w > full.w * 0.7) return { ...full };
+    w = Math.min(w, world.w);
+    const h = w * ratio;
+    // keep the view inside the land where it can be; a long, flat route needs more height than the land has, so it is centred and the band beyond is bare
+    const fit = (c: number, len: number, lo: number, size: number) => (len >= size ? lo + size / 2 - len / 2 : Math.min(Math.max(c - len / 2, lo), lo + size - len));
+    return { x: fit(cx, w, world.x, world.w), y: fit(cy, h, world.y, world.h), w, h };
   };
   let hover: string | null = null, pinned: string | null = null, touched = false, shown: string | null = null, hoverZoom = true;
 
-  const render = () => {
+  const render =() => {
     const id = hover ?? pinned;
     if (id === shown && id === null) return;
     shown = id;

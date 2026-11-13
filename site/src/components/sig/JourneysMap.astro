@@ -32,7 +32,39 @@ const drawn = all.filter((j) => j.located.length >= 2);
 const off = all.filter((j) => j.located.length < 2);
 if (drawn.length < 2) throw new Error("journeys: fewer than two journeys have two located stations; the map has nothing to draw");
 for (const j of all) if (!(JOURNEY_KINDS as readonly string[]).includes(j.kind)) throw new Error(`journeys: ${j.n.id} has kind ${j.kind}, which JourneysMap does not style`);
-const frame = makeFrame(drawn.flatMap((j) => j.located.map((s) => s.at)), { width: 1000, pad: 0.05, minAspect: 0.5, maxAspect: 0.8, minSpan: 6 });
+// The default frame is the central mass of the stations (the 5th to 95th percentile of latitude and of longitude, padded), not
+// their full extent, so one far journey does not shrink the rest; the land is drawn over the full extent, so a journey that leaves the
+// frame can be eased out to whole.
+const PCT = 0.05;
+const allPts = drawn.flatMap((j) => j.located.map((s) => s.at));
+const quant = (v: number[], q: number) => { const a = [...v].sort((x, y) => x - y); return a[Math.round(q * (a.length - 1))]; };
+const core: [number, number][] = [
+  [quant(allPts.map((p) => p[0]), PCT), quant(allPts.map((p) => p[1]), PCT)],
+  [quant(allPts.map((p) => p[0]), 1 - PCT), quant(allPts.map((p) => p[1]), 1 - PCT)],
+];
+const frame = makeFrame(core, { width: 1000, pad: 0.07, minAspect: 1.25, maxAspect: 1.25, minSpan: 6, world: allPts, eps: 4.5 });
+const inFrame = (x: number, y: number) => x >= 0 && x <= frame.width && y >= 0 && y <= frame.height;
+const proj = (s: { at: [number, number] }) => [frame.X(s.at[1]), frame.Y(s.at[0])];
+const beyond = drawn.filter((j) => j.located.some((s) => { const [x, y] = proj(s); return !inFrame(x, y); }));
+// a small arrowhead where a route crosses the frame edge: the route continues beyond it
+const cues: { kind: string; pts: string }[] = [];
+for (const j of drawn) {
+  const P = j.located.map(proj);
+  for (let i = 0; i + 1 < P.length; i++) {
+    const [a, b] = [P[i], P[i + 1]];
+    const ia = inFrame(a[0], a[1]), ib = inFrame(b[0], b[1]);
+    if (ia === ib) continue;
+    const [inn, out] = ia ? [a, b] : [b, a];
+    // the crossing: the largest t along inn -> out that is still inside
+    let lo = 0, hi = 1;
+    for (let k = 0; k < 30; k++) { const m = (lo + hi) / 2; if (inFrame(inn[0] + (out[0] - inn[0]) * m, inn[1] + (out[1] - inn[1]) * m)) lo = m; else hi = m; }
+    const ex = inn[0] + (out[0] - inn[0]) * lo, ey = inn[1] + (out[1] - inn[1]) * lo;
+    const d = Math.hypot(out[0] - inn[0], out[1] - inn[1]) || 1, ux = (out[0] - inn[0]) / d, uy = (out[1] - inn[1]) / d;
+    const L = 26, W = 11;
+    const tip = [ex - ux * 2, ey - uy * 2], bx = tip[0] - ux * L, by = tip[1] - uy * L;
+    cues.push({ kind: j.kind, pts: [tip, [bx - uy * W, by + ux * W], [bx + uy * W, by - ux * W]].map((p) => `${f(p[0])},${f(p[1])}`).join(" ") });
+  }
+}
 const groups = JOURNEY_KINDS.map((kind) => ({ kind, drawn: drawn.filter((j) => j.kind === kind), off: off.filter((j) => j.kind === kind) })).filter((g) => g.drawn.length + g.off.length > 0);
 const kindName = (k: string) => J.kinds[k] ?? k;
 const xy = (s: { at: [number, number] }) => `${f(frame.X(s.at[1]))},${f(frame.Y(s.at[0]))}`;
@@ -40,7 +72,7 @@ const xy = (s: { at: [number, number] }) => `${f(frame.X(s.at[1]))},${f(frame.Y(
 <section class="sg-jm" data-sg-jm aria-labelledby="sg-jm-title" style="margin-top:1.4rem;margin-bottom:2rem">
   <div data-pagefind-body>
     <h2 id="sg-jm-title">{V.title}</h2>
-    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{fmt(V.caption, { drawn: num(drawn.length, lang), total: num(all.length, lang) })}</p>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{fmt(V.caption, { drawn: num(drawn.length, lang), total: num(all.length, lang), out: num(beyond.length, lang) })}</p>
   </div>
   <ul class="sg-jm-legend ui" aria-label={V.legend} data-sg-jm-legend>
     {groups.filter((g) => g.drawn.length).map((g) => (
@@ -54,7 +86,7 @@ const xy = (s: { at: [number, number] }) => `${f(frame.X(s.at[1]))},${f(frame.Y(
   </div>
   <div class="sg-jm-wrap">
     <div class="sg-jm-mapbox">
-      <svg class="sg-jm-svg" viewBox={`0 0 ${frame.width} ${frame.height}`} role="group" aria-label={V.map_aria} data-sg-jm-svg direction="ltr">
+      <svg class="sg-jm-svg" viewBox={`0 0 ${frame.width} ${frame.height}`} role="group" aria-label={V.map_aria} data-sg-jm-svg data-world={`${f(frame.world.x)} ${f(frame.world.y)} ${f(frame.world.w)} ${f(frame.world.h)}`} direction="ltr">
         <path d={frame.landD} class="sg-jm-land" />
         <g class="sg-jm-routes">
           {drawn.map((j) => {
@@ -67,6 +99,9 @@ const xy = (s: { at: [number, number] }) => `${f(frame.X(s.at[1]))},${f(frame.Y(
               </a>
             );
           })}
+        </g>
+        <g class="sg-jm-cues" aria-hidden="true">
+          {cues.map((c) => <polygon points={c.pts} class={`sg-jm-cue k-${c.kind}`} />)}
         </g>
         <g class="sg-jm-front" data-sg-jm-front aria-hidden="true"></g>
       </svg>
@@ -100,12 +135,14 @@ const xy = (s: { at: [number, number] }) => `${f(frame.X(s.at[1]))},${f(frame.Y(
 </section>
 <style is:inline>
   .sg-jm { --sg-k1: var(--link); --sg-k2: var(--gold); --sg-k3: color-mix(in srgb, var(--gold) 55%, var(--fg)); --sg-k4: var(--fg); --sg-k5: var(--muted); --sg-k6: color-mix(in srgb, var(--link) 45%, var(--gold)); }
-  .sg-jm .k-migration { stroke: var(--sg-k1); stroke-dasharray: none; }
-  .sg-jm .k-travel { stroke: var(--sg-k2); stroke-dasharray: 11 6; }
-  .sg-jm .k-pilgrimage_route { stroke: var(--sg-k3); stroke-dasharray: 2 5; stroke-linecap: round; }
-  .sg-jm .k-trade_route { stroke: var(--sg-k4); stroke-dasharray: 14 5 2 5; }
-  .sg-jm .k-diffusion { stroke: var(--sg-k5); stroke-dasharray: 5 4; }
-  .sg-jm .k-military_campaign { stroke: var(--sg-k6); stroke-dasharray: 9 4 2 4 2 4; }
+  .sg-jm .k-migration { --c: var(--sg-k1); stroke: var(--sg-k1); stroke-dasharray: none; }
+  .sg-jm .k-travel { --c: var(--sg-k2); stroke: var(--sg-k2); stroke-dasharray: 11 6; }
+  .sg-jm .k-pilgrimage_route { --c: var(--sg-k3); stroke: var(--sg-k3); stroke-dasharray: 2 5; stroke-linecap: round; }
+  .sg-jm .k-trade_route { --c: var(--sg-k4); stroke: var(--sg-k4); stroke-dasharray: 14 5 2 5; }
+  .sg-jm .k-diffusion { --c: var(--sg-k5); stroke: var(--sg-k5); stroke-dasharray: 5 4; }
+  .sg-jm .k-military_campaign { --c: var(--sg-k6); stroke: var(--sg-k6); stroke-dasharray: 9 4 2 4 2 4; }
+  .sg-jm .sg-jm-cue { fill: var(--c); stroke: none; stroke-dasharray: none; opacity: .75; }
+  .sg-jm .sg-jm-svg.has-kind .sg-jm-cue, .sg-jm .sg-jm-svg.has-active .sg-jm-cue { opacity: .15; }
   .sg-jm-line { fill: none; stroke-width: 2.4px; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
   .sg-jm-legend { list-style: none; padding: 0; margin: 0 0 .8rem; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .85rem; }
   .sg-jm-legend li { display: inline-flex; align-items: center; gap: 8px; }
@@ -116,7 +153,7 @@ const xy = (s: { at: [number, number] }) => `${f(frame.X(s.at[1]))},${f(frame.Y(
   .sg-jm-chip[aria-pressed="true"] { background: var(--panel); border-color: var(--gold-text); box-shadow: inset 0 0 0 1px var(--gold-text); font-weight: 700; }
   .sg-jm-chip:focus-visible, .sg-jm-route:focus-visible, .sg-jm-list a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
   .sg-jm-wrap { display: grid; gap: 18px; align-items: start; }
-  .sg-jm-mapbox { min-width: 0; }
+  .sg-jm-mapbox { min-width: 0; max-width: 620px; }
   .sg-jm-svg { display: block; width: 100%; height: auto; background: var(--panel); border-radius: 14px; border: 1px solid var(--line); direction: ltr; touch-action: manipulation; }
   .sg-jm-land { fill: var(--fg); fill-opacity: .12; stroke: var(--fg); stroke-opacity: .35; stroke-width: 1; vector-effect: non-scaling-stroke; }
   .sg-jm-route { outline: none; cursor: pointer; }
@@ -149,8 +186,8 @@ const xy = (s: { at: [number, number] }) => `${f(frame.X(s.at[1]))},${f(frame.Y(
   .sg-jm-list section.is-dim { opacity: .4; }
   .sg-jm-off p { margin: 0 0 .3rem; font-size: .82rem; }
   @media (min-width: 1000px) {
-    .sg-jm-wrap { grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); }
-    .sg-jm-list { max-height: 520px; }
+    .sg-jm-wrap { grid-template-columns: minmax(0, 620px) minmax(260px, 1fr); }
+    .sg-jm-list { max-height: 640px; }
   }
   @media (prefers-reduced-motion: reduce) { .sg-jm-route .sg-jm-line { transition: none; } }
 </style>
