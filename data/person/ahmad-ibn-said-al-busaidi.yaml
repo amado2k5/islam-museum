@@ -3,27 +3,29 @@ class: person
 label:
   ar: "أحمد بن سعيد البوسعيدي"
   en: "Ahmad ibn Said al-Busaidi"
-roles: [ruler]
+roles: [ruler, imam]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن سعيد البوسعيدي، إمام عُمان ومؤسس دولة آل بو سعيد الذي انتُخب سنة ١٧٤٤م بعد طرد الفرس، توفي سنة ١٧٨٣م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Said al-Busaidi, the imam of Oman and founder of the Al Bu Said dynasty elected in 1744 after expelling the Persians, d. 1783; the dynastic handbook entry is not yet checked on the page."
+  ar: "أحمد بن سعيد البوسعيدي الأزدي العماني، المتلقب بالمتوكل على الله، مؤسس الدولة البوسعيدية في عمان وإمامها المبايع سنة 1167 هـ بعد قتل بلعرب بن حمير، وملوكها إباضيو المذهب؛ توفي سنة 1196 هـ."
+  en: "Ahmad ibn Said al-Busaidi al-Azdi al-Umani, titled al-Mutawakkil ala Allah, founder of the Busaidi state of Oman, who drove out the Persians, was given allegiance as imam in 1167 AH, and whose dynasty is of the Ibadi school; died 1196 AH (1782)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/bosworth-new-islamic-dynasties-1996, source/wikidata]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q400949
   viaf: "7189150033005711180009"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0022
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1783", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wilkinson (Imamate of Oman)" }
+  completeness: 3
+died: { edtf: "1782", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam vol. 1 p. 111 gives 1196 AH = 1782; the card's earlier 1783 (from Wilkinson) is replaced by the entry's year.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/oman, note: "From text: imam of Oman", sources: [source/bosworth-new-islamic-dynasties-1996] }
+  - { type: ruler_of, target: place/oman, note: "al-Zirikli, al-A'lam, vol. 1 p. 111: rule of Oman and Muscat came to him", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/sohar, note: "al-Zirikli, al-A'lam, vol. 1 p. 111: governor of Sohar, where he stayed", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

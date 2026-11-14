@@ -7,24 +7,24 @@ roles: [scholar]
 gender: male
 themes: [astronomy-and-timekeeping]
 summary:
-  ar: "بطاقة أولية لعبد الرحمن الفاسي، فلكي ومؤرخ فاس القرن السابع عشر، توفي سنة ١٦٨٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahman al-Fasi, the seventeenth-century astronomer, musician and historian of Fez, d. 1685; the biographical entry is not yet checked on the page."
+  ar: "عبد الرحمن بن عبد القادر بن علي، أبو زيد الفاسي، فقيه باحث متفنن من أهل فاس نعته ابن زيدان بسيوطي زمانه، لازم المولى الرشيد وصنف نيفا وسبعين كتابا منها مفتاح الشفاء وأزهار البستانين؛ 1040 إلى 1096 هـ."
+  en: "Abd al-Rahman ibn Abd al-Qadir al-Fasi, Abu Zayd, a jurist and polymath of Fez whom Ibn Zaydan called the al-Suyuti of his age, companion of Mawlay al-Rashid and author of more than seventy books, among them Miftah al-Shifa and Azhar al-Basatin; 1040 to 1096 AH (1631 to 1685)."
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4664587
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0046
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1631", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani; al-A'lam (al-Zirikli: 1040–1096 AH) Confirmed on 13 November 2026 against Wikidata Q4664587 (P569, a statement with a reference), item revision 2555245612.", sources: [source/wikidata] }
-died: { edtf: "1685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani; al-A'lam (al-Zirikli: 1040–1096 AH) Confirmed on 13 November 2026 against Wikidata Q4664587 (P570, a statement with a reference), item revision 2555245612.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1631", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani; al-A'lam (al-Zirikli: 1040–1096 AH) Confirmed on 13 November 2026 against Wikidata Q4664587 (P569, a statement with a reference), item revision 2555245612. al-A'lam gives 1040 AH = 1631, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani; al-A'lam (al-Zirikli: 1040–1096 AH) Confirmed on 13 November 2026 against Wikidata Q4664587 (P570, a statement with a reference), item revision 2555245612. al-A'lam gives 1096 AH = 1685, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/fez, note: "Place association from the person's nisba/name (الفاسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

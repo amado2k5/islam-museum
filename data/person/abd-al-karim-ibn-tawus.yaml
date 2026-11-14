@@ -6,25 +6,27 @@ label:
 roles: [genealogist, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الكريم ابن طاووس، فقيه ونسابة وأديب عراقي القرن الثالث عشر، توفي سنة ١٢٩٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Karim ibn Tawus, the thirteenth-century Iraqi jurist, genealogist and man of letters, d. 1294; the biographical entry is not yet checked on the page."
+  ar: "عبد الكريم بن أحمد بن موسى ابن طاووس العلوي الحسني، فقيه نسابة إمامي، ولد في الحائر ونشأ ببغداد وتوفي في الكاظمية، من كتبه الشمل المنظوم في مصنفي العلوم وفرحة الغري؛ 648 إلى 693 هـ."
+  en: "Abd al-Karim ibn Ahmad ibn Tawus al-Alawi al-Hasani, an Imami (Twelver Shi'i) jurist and genealogist, born in al-Ha'ir, raised in Baghdad and died in al-Kazimiyya, author of al-Shaml al-Manzum fi Musannafi al-Ulum and Farhat al-Ghari; 648 to 693 AH (1250 to 1294)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q56669064
   viaf: "41702341"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0071
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1250", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Riyad al-Ulama (al-Afandi: Ghiyath al-Din Confirmed on 13 November 2026 against Wikidata Q56669064 (P569, a statement with a reference), item revision 2568232628.", sources: [source/wikidata] }
-died: { edtf: "1294", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Riyad al-Ulama (al-Afandi: Ghiyath al-Din Confirmed on 13 November 2026 against Wikidata Q56669064 (P570, a statement with a reference), item revision 2568232628.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1250", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Riyad al-Ulama (al-Afandi: Ghiyath al-Din Confirmed on 13 November 2026 against Wikidata Q56669064 (P569, a statement with a reference), item revision 2568232628. al-A'lam gives 648 AH = 1250, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1294", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Riyad al-Ulama (al-Afandi: Ghiyath al-Din Confirmed on 13 November 2026 against Wikidata Q56669064 (P570, a statement with a reference), item revision 2568232628. al-A'lam gives 693 AH = 1294, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: died_in, target: place/kadhimiya, note: "al-Zirikli, al-A'lam, vol. 4 p. 10: died in al-Kazimiyya", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 4 p. 10: grew up in Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
