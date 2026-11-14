@@ -1,4 +1,5 @@
 id: person/tahir-ibn-al-husayn
+external_ids: { wikidata: "Q1814900" }
 class: person
 label: { ar: "طاهر بن الحسين" }
 summary:
@@ -9,6 +10,6 @@ born: { edtf: "775", calendar: gregorian, precision: year, derived: true, note: 
 died: { edtf: "822", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
 relations:
   - { type: ruled_over, target: place/baghdad, sources: [source/tabari-tarikh-abu-al-fadl], confidence: medium, note: "ar: 'قائد عباسي، استولى على بغداد في سنة ثمان وتسعين ومائة {cite:tabari-tarikh-abu-al-fadl j.8 p.472}، وولي خر" }
-sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab]
+sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/wikidata-tahir-ibn-al-husayn]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 5", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }

@@ -1,4 +1,5 @@
 id: person/salman-ibn-rabi-a
+external_ids: { wikidata: "Q7405430" }
 aliases: [person/sulayman-ibn-rabia-al-bahili]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
 label: { ar: "سلمان بن ربيعة الباهلي", en: "Salman ibn Rabi'a al-Bahili" , ur: "سلمان بن ربیعہ الباہلی"}
@@ -21,7 +22,7 @@ relations:
   - { type: lived_in, target: place/balanjar, sources: [source/wikidata], confidence: low, note: "ar: 'سلمان بن ربيعة الباهلي؛ عند البلاذري ص 361: غزا الشام مع أبي أمامة الصدي بن عجلان الباهلي فشهد مشاهد المس" }
   - { type: lived_in, target: place/kufa, sources: [source/wikidata], confidence: low, note: "ar: 'سلمان بن ربيعة الباهلي؛ عند البلاذري ص 361: غزا الشام مع أبي أمامة الصدي بن عجلان الباهلي فشهد مشاهد المس" }
   - {confidence: low, note: Early Arabian figure of the Bahila tribe (Muruj al-dhahab)., sources: [source/muruj-al-dhahab], target: place/jazirat-al-arab, type: lived_in}
-sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/wikidata-salman-ibn-rabi-a]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 names:
   - {kind: alternate, value: سليمان بن ربيعة الباهلي}
