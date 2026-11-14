@@ -6,8 +6,8 @@ label:
   en: Arabian Peninsula
   ur: جزیرہ نما عرب
 summary:
-  ar: موقع في الإمارات العربية المتحدة.
-  en: Arabian Peninsula; a place linked to persons via Wikidata claims.
+  ar: "جزيرة العرب: الإقليم الذي تحيط به البحار والأنهار من أطرافه، وقسّمه العرب إلى تهامة والحجاز ونجد والعروض واليمن، كما يعرضه ياقوت الحموي في معجم البلدان. {cite:mujam-al-buldan-sader-1995 2 p.137}"
+  en: "The Arabian Peninsula (Jazirat al-Arab): the land ringed by seas and rivers that the Arabs divided into Tihama, Hijaz, Najd, al-Arud and Yemen, as Yaqut presents it in the Mu'jam al-Buldan. {cite:mujam-al-buldan-sader-1995 2 p.137}"
 wings:
 - place
 regions:
@@ -22,12 +22,14 @@ external_ids:
   geonames: '6957697'
 sources:
 - source/wikidata
+- source/mujam-al-buldan-sader-1995
 status:
   review: draft
   completeness: 1
 provenance:
   layer: own-research
   generated_by: Devin
+  model: claude-sonnet-5-5
   run: person-place-geo-merge
   merged_from:
   - person-place-geo-a

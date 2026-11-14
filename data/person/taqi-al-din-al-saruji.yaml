@@ -1,30 +1,64 @@
 id: person/taqi-al-din-al-saruji
 class: person
 label:
-  ar: "تقي الدين السروجي"
-  en: "Taqi al-Din al-Saruji"
-roles: [poet]
+  ar: تقي الدين السروجي
+  en: Taqi al-Din al-Saruji
+roles:
+- poet
 gender: male
 summary:
-  ar: "بطاقة أولية لتقي الدين السروجي، شاعر القرن الثالث عشر، توفي سنة ١٢٩٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Taqi al-Din al-Saruji, the thirteenth-century poet, d. 1294; the biographical entry is not yet checked on the page."
-wings: [people]
-regions: [levant-iraq]
-periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1230", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tal'i (al-Shawkani) Confirmed on 13 November 2026 against Wikidata Q28713255 (P569, a statement with a reference), item revision 2533246762.", sources: [source/wikidata] }
-died: { edtf: "1294", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tal'i (al-Shawkani) Confirmed on 13 November 2026 against Wikidata Q28713255 (P570, a statement with a reference), item revision 2533246762.", sources: [source/wikidata] }
+  ar: عبد الله بن علي بن منجد السروجي، تقي الدين، شاعر في سيرته فضل وأدب، ولد في سروج وتوفي بالقاهرة سنة 693 هـ الموافقة 1294 م، وله أبيات مطلعها «أنعم بوصلك لي فهذا وقته».
+  en: Abd Allah ibn Ali ibn Munjid al-Saruji, Taqi al-Din, a poet of merit and literary culture, born in Saruj and died in Cairo in 693 AH (1294 CE); author of verses beginning «أنعم بوصلك لي فهذا وقته».
+wings:
+- people
+regions:
+- levant-iraq
+periods:
+- period/crusades-ayyubid-mamluk
+born:
+  edtf: '1230'
+  hijri: '0627'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: al-Badr al-Tal''i (al-Shawkani) Confirmed on 13 November 2026 against Wikidata Q28713255 (P569, a statement with a reference), item revision 2533246762. al-Zirikli, al-A''lam, entry heading prints 627 - 693 AH = 1230 - 1294 CE; conversion as printed.'
+  sources:
+  - source/wikidata
+  - source/alam-zirikli-dar-al-ilm-2002
+died:
+  edtf: '1294'
+  hijri: '0693'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: al-Badr al-Tal''i (al-Shawkani) Confirmed on 13 November 2026 against Wikidata Q28713255 (P570, a statement with a reference), item revision 2533246762. al-Zirikli, al-A''lam, entry heading prints 627 - 693 AH = 1230 - 1294 CE; conversion as printed.'
+  sources:
+  - source/wikidata
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
-  - { type: born_in, target: place/suru, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q917836)" }
-  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/al-aalam]
+- type: born_in
+  target: place/suru
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+  confidence: high
+  note: 'al-Zirikli, al-A''lam, vol. 4 p. 105: born in Saruj'
+- type: died_in
+  target: place/cairo
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+  confidence: high
+  note: 'al-Zirikli, al-A''lam, vol. 4 p. 105: died in Cairo'
+sources:
+- source/al-aalam
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q28713255
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0061
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
