@@ -4551,6 +4551,24 @@ Resume point: alwaad-alhaq episode 30 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 39 (branch from origin/main).
 
+### alwaad-alhaq ep30 (14 Nov 2026)
+
+25 points written for episode 30 (ar, en, ur); 21 needs_source marks for this episode in each language file; the sheikh's reports on Umar ibn Abd al-Aziz, Abu Hazim and Abu Ayyub marked as told without chain. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep30) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Story of Ata ibn Abi Rabah in the market and the trader's offer | ep30 00:18:30-00:20:00 | Garbled in the Qwen pass, the central line is unreadable | Clarity | Open |
+| Remark on the number nineteen of the keepers of the Fire and what commentators made of it | ep30 00:30:00-00:30:30 | Garbled and the figures are unclear | Clarity | Open |
+| Story of a son asking his father about the sultan and Ibn Taymiyya | ep30 00:42:30-00:43:00 | Garbled, speakers and quotation cannot be told apart | Clarity | Open |
+| Football player transfer analogy and the lecture on predestination, happiness and wretchedness | ep30 00:52:30-00:54:30 | Garbled and loops, the argument cannot be recovered | Clarity, Loop check | Open |
+| Remarks on Adam's disobedience, covering women and marrying daughters to suitors | ep30 01:00:30-01:01:30 | Garbled and sweeping | Clarity, Voice rule | Open |
+| Remark on the hijab and 'the quran was for 1,426 years' | ep30 01:03:00-01:03:30 | Garbled, claim unclear | Clarity | Open |
+| Loops and filler repeated phrases | ep30 00:08:30, 00:12:30, 00:15:00-00:16:00, 00:17:00, 00:26:00, 00:41:30-00:44:00, 00:53:00, 01:11:30, 01:15:30 | Repeated filler in the Qwen pass | Clarity, Loop check | Open |
+
+Resume point: alwaad-alhaq episode 31 (branch from origin/main).
+GEMINI: alwaad-alhaq ep30 (00:36:30-00:37:30): the transcript has "Abu Hazim" calling the ruler "the hired man" before Muawiya; the better-known report is of Abu Hazim al-A'raj with a Umayyad caliph (possibly Sulayman ibn Abd al-Malik); source needed to settle which caliph and which Abu Hazim.
+GEMINI: alwaad-alhaq ep30 (00:16:30-00:17:00): the exchange about piety as walking in thorny land is garbled ("Abu Ghar"?); it is usually told of Umar and Ubayy ibn Ka'b; a primary source (e.g. Ibn Abi al-Dunya or Tafsir al-Tabari on al-Baqara 2) would settle the speakers.
+GEMINI: alwaad-alhaq ep30 (00:48:30-00:49:30): the dream of Abu Ayyub about a man in Paradise who gathered orphans on Friday nights; the transcript is garbled and the report's source is unknown.
 ### sharh-saheeh-al-bukhare ep39 (14 Nov 2026)
 
 29 points written for episode 39 (ar, en, ur); 16 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (33-72, 22-46, 33-36, 15-6); none typed. Contested: He holds that taking only the pleasing parts of the Qur'an is forbidden, that remembering the afterlife marks the believer from the hypocrite, and that jihad reduced to earning a living falls short; these are his views, and the report on the lightened punishment of Abu Talib and the Monday report are given as reports quoted without a chain. Checked line by line against the transcript by a second reader before merge.
