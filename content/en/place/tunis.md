@@ -60,3 +60,6 @@ Tunis, capital of Tunisia today, which Ibn Battuta passed on his way from the Ma
 
 ## For Scholars
 Tunis, capital of Tunisia today, which Ibn Battuta passed on his way from the Maghreb to the Mashriq. The source says Hassan ibn al-Nu'man founded it in 82 AH as a naval base to bar repeated Byzantine attacks on Carthage, digging a canal joining it to the sea; and that Abd al-Malik sent it two thousand skilled Copts from Egypt to establish the shipbuilding craft.
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's iDAI.gazetteer (no. 2042783) records this place under the preferred name «Tunis», typed as a populated place. It sits under «Tūnis (Wilāyat)» in the gazetteer's hierarchy, and among the names it records are «Tunis», «Túnez». {cite:idai-gazetteer 2042783}
