@@ -2660,3 +2660,28 @@ Resume point: modakirate-iblis episode 15 (branch from origin/main).
 | A passing address to the people of Syria and the oppressed, in the account of the unseen world | ep15 00:19:30-00:20:00 (part) | Modern conflict aside, held for the founder to decide under the content-safety rule | Content rule | Open |
 
 Resume point: modakirate-iblis episode 16 (branch from origin/main).
+
+### modakirate-iblis ep16 (14 Nov 2026)
+
+17 points written for episode 16 (ar, en, ur); 10 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (7-12, 39-22, 17-19, 17-20, 78-10, 78-11, 51-18, 37-143, 37-144, 21-87, 17-45); none typed.
+
+| Excluded (modakirate-iblis ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (a relief-organisation appeal for Syria with an evening broadcast advert), and the closing prayer | ep16 00:00:00, 00:10:30-00:12:30, 00:24:00 | Not lesson content | Content rule | Open |
+| A loop and a garbled stretch on a poem about the hard heart | ep16 00:04:00-00:04:30, 00:05:30 (part), 00:09:30-00:10:00 | Not recoverable | Clarity, Loop check | Open |
+| A passing remark about the marriage proposal and the dawn prayer | ep16 00:18:30-00:19:00 | Garbled | Clarity | Open |
+
+Resume point: modakirate-iblis episode 17 (branch from origin/main).
+
+### modakirate-iblis ep17 (14 Nov 2026)
+
+14 points written for episode 17 (ar, en, ur); 3 new `about` edges; 4 needs_source marks in each language file for this episode; Quran verse referenced only through a passage link (2-189), none typed. Sensitivity stays contested: the lecturer's views on mixed settings, schooling and sex education are labelled as his, and the unsourced historical and statistical claims are marked as needing a source.
+
+| Excluded (modakirate-iblis ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and the closing prayer | ep17 00:00:00, 00:11:00-00:11:30, 00:23:00-00:23:30 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (a broken comparison with the time of Uthman, a loop of a spoken name list, a stretch on newsreaders) | ep17 00:02:00-00:03:30 (part), 00:04:30, 00:06:00, 00:07:00-00:08:00, 00:10:00-00:10:30, 00:12:30 | Not recoverable | Clarity, Loop check | Open |
+| A long run of digits in the account of the nurse's sentence | ep17 00:13:30 (part) | Loop | Loop check | Open |
+| Lament over the loss of Jerusalem, Andalusia, Iraq and the Levant and the Muslim world's dependence | ep17 00:18:30-00:19:30 | Modern political aside outside the lesson; held for the founder to decide | Content rule | Open |
+
+Resume point: modakirate-iblis episode 18 (branch from origin/main).
