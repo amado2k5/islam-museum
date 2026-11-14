@@ -10,8 +10,8 @@ regions: [maghreb]
 coordinates: [34.5975, 5.103055555555556]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q3037852" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q3037852", pleiades: "334540" }
+sources: [source/wikidata, source/pleiades]
 provenance:
   layer: own-research
   source: "Wikidata item Q3037852 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."

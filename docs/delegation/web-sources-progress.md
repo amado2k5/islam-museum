@@ -896,3 +896,8 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Linked (Biblissima ids): zati Q16755, ibn-al-mulaqqin Q106028, ibn-hisham-al-ansari Q16816, molla-fenari Q317098, ahmedi-poet Q540, jalal-al-din-al-qazwini Q12207, al-sakhawi-alam Q411079, taj-al-din-al-subki Q317214, taqi-al-din-al-subki Q106025, safi-al-din-al-hilli Q16847, taskopruzade Q518, latifi Q218, al-khazin-al-baghdadi Q16866, burhan-al-din-al-marghinani Q16853, ibn-abi-zayd-al-qayrawani Q106011. Dates agree with ours (partial dates in Biblissima agree on the year given).
 - FOR THE FOUNDER, matched by id and left unlinked: terken-khatun (Biblissima holds no dates), abd-al-malik-ibn-habib (birth 790 ours, 796? Biblissima; death 853 on both), and ibrahim-al-halabi (already listed, 1460 and 1401). Together with the earlier lists 31 stay unlinked.
 - Date differences noticed, not changed: al-sakhawi-alam birth 1164 and 1163?; al-khazin-al-baghdadi birth 1279 and 1280.
+
+## 2026-11-14 (p59, Lane B worker B1) — Pleiades batch 2: 25 more places linked
+
+- Approval: dec-20261114-277. Same rule as p55 (point within 0.8 km, title or slash-part equals our English label, city, town, site or island). Linked: larissa, lucena, nazareth, shahrisabz, istakhr, ephesus, vila, th-nia, plo-nik, peshawar, itea, doucen, ain-zara, babadag, mu, abusir, pre-ov, ptolemais-hermiou, ancona, mystras, siraf, al-aqsa-mosque, acropolis-of-athens, sardarapat, bato-ina. Identifier links only, no prose.
+- Left: apamea (several places called Apamea; left for a hand check), hulwan and abadan (duplicate pairs), ascalon (founder-held), thebasa ("?" in the title), qalhat kept from p55.
