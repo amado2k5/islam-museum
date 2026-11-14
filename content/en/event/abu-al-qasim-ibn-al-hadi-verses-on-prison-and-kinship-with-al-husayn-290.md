@@ -1,0 +1,11 @@
+---
+id: event/abu-al-qasim-ibn-al-hadi-verses-on-prison-and-kinship-with-al-husayn-290
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+On p. 262 Abu al-Qasim says to his opponents "kill if you wish or take captive", that in the Garden of eternity there is a compensation, that he stood only certain of obedience to God, that he is not frightened of riding to death after the hardship, and that they should not be deceived at seeing him behind a prison in iron {cite:sira-hadi-ila-al-haqq p.262}. On p. 263 a piece begins "have you not seen that I am lodged in prison", in which he says that he is dejected in the iron yet content of eye, from knowing God's duty, and that if they find fault with what he is tried by, they should find the same fault with al-Husayn, with his grandfather at Uhud over the defeat and the killing of the two armies, and with Hamza; and that destruction came down on people who made war on the Prophet at Hunayn {cite:sira-hadi-ila-al-haqq p.263}. In a piece after it he says that those who do not know their worth suppose he shrank from the matter in war, and that if that were so he would not know the oneness of his Lord and His justice and would have come to the saying of the Nawasib on compulsion {cite:sira-hadi-ila-al-haqq p.263}.
+
+## Detail
+Uhud and Hunayn are linked to their records because the lines name them. For al-Husayn the lines give only the name and the museum links no record; the probable reading is the Prophet's grandson, which it does not assert. Abu Ishaq in the line saying that a mourner would come to him is not identified in the book and is held as a question. The creedal line is the poet's; the term for opponents in it is his and the museum does not adopt it. Before this are [[event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290|the earlier pieces of the same section]]. The museum does not reproduce the lines nor the words of insult in them and gives only their sense as the book has it; the book ascribes the verse to Abu al-Qasim and the museum has not checked the attribution. The praise and the epithets in the lines are the poet's, given as the book gives them, with no verdict in the museum's voice.
