@@ -3267,3 +3267,23 @@ Resume point: min-kunuz-al-sunnah episode 25 (branch from origin/main).
 | Garbled phrases on typing and writing media | ep25 00:11:30-00:12:00 | Words unclear (kept only the general point on generations) | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 26 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep26 (14 Nov 2026)
+
+14 points written for episode 26 (ar, en, ur); 12 needs_source marks in each language file for this episode; 2 new `about` edges. Quran verses referenced only through passage links (17-70, 28-77); none typed. Contested: He attributes new diseases to neglect of the Sunna, claims veterinary findings on stressed animals, tells an unreferenced Second World War story about a British commander, and presents reward figures for killing pests; all are his views and unsourced.
+
+| Excluded (min-kunuz-al-sunnah ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting, praise and salutations | ep26 00:00:00-00:00:30 | Greeting formula, no teaching | Content rule | Open |
+| Stretch of repeated vowel sounds | ep26 00:01:30-00:02:00 | Loop of one syllable, nothing recoverable | Clarity, Loop check | Open |
+| Break join and closing prayer of first part | ep26 00:08:30-00:09:00 | Break announcement and farewell | Content rule | Open |
+| Repeated vowel loop after the break | ep26 00:09:00-00:09:30 | Loop of one letter, nothing recoverable | Clarity, Loop check | Open |
+| Repeated syllable loop | ep26 00:12:00-00:12:30 | Loop, no content | Clarity, Loop check | Open |
+| Sweeping stereotypes of wives and husbands and a spider comparison | ep26 00:11:30-00:13:30 | Demeaning generalisations about women and men, kept only as a neutral point about harm in marriage | Voice rule | Open |
+| Break join, welcome back and restart of the hadith | ep26 00:16:30-00:17:30 | Welcome back and repetition of the opening hadith | Content rule | Open |
+| Anecdote of a painting in a museum and sweeping remarks on colonial peoples | ep26 00:20:30-00:21:00 | Unreferenced, garbled, sweeping claim about a people | Voice rule, Clarity | Open |
+| Repeated syllable loop in the blind cat section | ep26 00:23:00-00:23:30 | Loop, no content | Clarity, Loop check | Open |
+| Fish and whale disease speculation | ep26 00:15:30-00:16:00 | Too garbled to recover | Clarity | Open |
+| Garbled sentences on the sheep and on naming God at slaughter | ep26 00:07:30-00:08:30 | Partly unrecoverable wording, kept only the clear sense | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 27 (branch from origin/main).
