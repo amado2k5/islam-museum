@@ -3164,3 +3164,14 @@ Resume point: min-kunuz-al-sunnah episode 19 (branch from origin/main).
 | Looped repetitions in the dua of the Arab and provision section | ep19 00:06:30-00:07:00 | Repeated phrases, only the core recovered | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 20 (branch from origin/main).
+
+### alwaad-alhaq ep05 (14 Nov 2026)
+
+19 points written for episode 5 (ar, en, ur); 16 needs_source marks for this episode in each language file; edges to discretionary punishment, hijab, Gog and Magog and the splitting of the moon. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| A story of a wolf and a man called Ahban, kept only with a needs_source mark | ep05 00:43:00 | told without a chain and the transcript is garbled; kept as a marked report | needs_source | Open |
+| ASR passages at 00:25:00 to 00:26:30 and 00:30:30 to 00:32:30 not written | ep05 00:25:00 | transcript is unintelligible or looped, no claim can be checked | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 6 (branch from origin/main).
