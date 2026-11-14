@@ -1,0 +1,18 @@
+id: concept/canon-oil-immersion-and-sprinkling-the-face
+class: concept
+kind: scientific
+label: { ar: "الاستنقاع في الأدهان ورش الماء على الوجه عند ابن سينا", en: "Soaking in oils and sprinkling water on the face in the Canon", ur: "تیلوں میں بیٹھنا اور چہرے پر پانی چھڑکنا، قانون کے مطابق" }
+summary:
+  ar: "يختم ابن سينا الفصل التاسع عشر بأن الاستنقاع في الزيت ينفع أصحاب الإعياء، وأن طبخ ثعلب أو ضبع فيه على ما سيصفه أفضل علاج لأصحاب أوجاع المفاصل والنقرس، وأن بل الوجه ورش الماء عليه ينعش القوة المسترخية {cite:canon-ibn-sina-print-v1 p.143}."
+  en: "Ibn Sina closes chapter 19 by saying that soaking in oil helps people with fatigue, that cooking a fox or a hyena in it, as he will describe, is the best treatment for pains of the joints and gout, and that wetting the face and sprinkling water on it revives a slackened power {cite:canon-ibn-sina-print-v1 p.143}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2, chapter 19 on baths, sun, sand and oils, and part 2 chapters 1 to 18 on the causes of bodily symptoms (scan pages 140 to 147), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-ch19-jumla2-ch18
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
