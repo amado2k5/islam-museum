@@ -1,0 +1,18 @@
+id: concept/canon-gum-and-jaw-swellings-in-infants
+class: concept
+kind: scientific
+label: { ar: "ورم اللثة والتشنج عند اللحيين في الصبيان عند ابن سينا", en: "Gum swellings and jaw spasm in infants in the Canon", ur: "قانون میں بچوں کے مسوڑھوں کی سوجن اور جبڑوں کا تشنج" }
+summary:
+  ar: "يذكر ابن سينا أورام اللثة عند نبات الأسنان وأوراماً وتشنجاً عند أوتار اللحيين في الصبيان، وعلاجها بغمز الإصبع الرفيق والتمريخ بالدهنيات ومضمضة العسل، ونطول للرأس {cite:canon-ibn-sina-print-v1 p.211}."
+  en: "Ibn Sina mentions swellings of the gum at teething and swellings with spasm at the tendons of the jaws in infants, and their treatment by gentle pressure with the finger, anointing with the oils named, a honey rinse and a head douche {cite:canon-ibn-sina-print-v1 p.211}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 1 on upbringing, chapters 3 and 4 (scan pages 211 to 220), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p211
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

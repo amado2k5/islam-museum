@@ -8,8 +8,8 @@ names:
 roles: [sultan]
 gender: male
 summary:
-  ar: "بطاقة أولية لجهانكير، رابع ملوك دولة المغول في الهند، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Jahangir, fourth Mughal emperor, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+  ar: "جهانكير، رابع ملوك المغول في الهند، وُلد سنة 977 هـ الموافقة 1569 م في فتحبور سيكري وتوفي في 27 صفر 1037 هـ الموافق 1627 م؛ قرئت ترجمته في دائرة المعارف الإسلامية وكتبت له ترجمة بالعربية والإنجليزية والأردية."
+  en: "Jahangir, fourth Mughal emperor of India, born 977 AH (1569 CE) at Fathpur Sikri and died 27 Safar 1037 AH (28 October 1627); his Encyclopaedia of Islam article has been read and a cited biography written in Arabic, English and Urdu."
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
@@ -19,17 +19,17 @@ relations:
   - { type: born_in, target: place/fatehpur-sikri, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/rajauri, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/jahangir-tomb, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q83653
   viaf: "38320916"
 provenance:
   layer: own-research
-  source: "Wikidata Q83653 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0002
+  source: "Encyclopaedia of Islam, 2nd ed., article Djahangir, vol. 2 pp. 404-406, read in full from the local OCR copy"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-ei2-2026-11-14
 importance: 2
 status:
   review: draft
-  completeness: 1
+  completeness: 3

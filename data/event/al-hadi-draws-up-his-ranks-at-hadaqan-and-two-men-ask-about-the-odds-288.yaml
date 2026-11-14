@@ -1,0 +1,53 @@
+id: event/al-hadi-draws-up-his-ranks-at-hadaqan-and-two-men-ask-about-the-odds-288
+class: event
+kind: other
+label:
+  ar: "الهادي يعبئ عسكره بحدقان ويأتيه يزيد الشاكري وأبو رفاعة، محرم 288هـ"
+  en: "Al-Hadi draws up his ranks at Hadaqan and two men come to him, Muharram 288 AH"
+  ur: "ہادی حدقان میں اپنی صفیں آراستہ کرتے ہیں اور دو آدمی ان کے پاس آتے ہیں، محرم 288ھ"
+summary:
+  ar: "يعبئ الهادي عسكره ميمنة وميسرة وقلباً بحدقان، وأصحابه نحو مائة وخمسين فارساً وستمائة راجل بحسب الراوي، ويذكر المحقق عن غاية الأماني نحو سبعمائة وخمسين، فيأتيه يزيد بن علي بن جميل الشاكري ورجل خثعمي يقال له أبو رفاعة ويقولان له يا بن، وينقطع الخبر عند آخر الصفحة."
+  en: "Al-Hadi draws up his army in right, left and centre at Hadaqan, about a hundred and fifty horse and six hundred foot by the narrator's count (the editor quotes Ghayat al-Amani for about seven hundred and fifty in all), and Yazid ibn Ali ibn Jamil al-Shakiri and a Khath'ami called Abu Rifa'a come to him and begin to speak, the account breaking off at the foot of the page."
+  ur: "ہادی حدقان میں اپنے لشکر کو دائیں، بائیں اور قلب میں آراستہ کرتے ہیں، راوی کی گنتی میں تقریباً ڈیڑھ سو سوار اور چھ سو پیادے، اور مدیر غایۃ الامانی سے مجموعی طور پر قریب ساڑھے سات سو نقل کرتا ہے؛ یزید بن علی بن جمیل شاکری اور خثعم کا ایک آدمی ابو رفاعہ ان کے پاس آ کر بات شروع کرتے ہیں اور صفحے کے آخر میں بیان ٹوٹ جاتا ہے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-12"
+    hijri: "0288-01"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "محرم سنة 288هـ؛ عند نزول الهادي حدقان؛ الدقة شهرية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/hadaqan-sanaa-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/yazid-ibn-ali-ibn-jamil-al-shakiri
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص205 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-24
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 205

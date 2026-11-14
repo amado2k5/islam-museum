@@ -1,0 +1,69 @@
+id: event/abu-al-atahiya-writes-to-al-hadi-and-sends-the-jafatim-and-al-tarif-to-an-ambush-at-al-sirr-288
+class: event
+kind: other
+label:
+  ar: "أبو العتاهية يكتب إلى الهادي ويرسل الجفاتم وآل طريف إلى كمين بالسر، محرم 288هـ"
+  en: "Abu al-Atahiya writes to al-Hadi and sends the Jafatim and Al Tarif to an ambush post at al-Sirr, Muharram 288 AH"
+  ur: "ابو العتاہیہ ہادی کو لکھتے ہیں اور جفاتم اور آل طریف کو السر کے کمین گاہ پر بھیجتے ہیں، محرم 288ھ"
+summary:
+  ar: "يورد الراوي ما بلغه عن إبراهيم بن خلف وعن الجفاتم وأخذهم الأموال عنوة، ثم يقول إن أبا العتاهية كتب إلى الهادي بصعدة يريد التخلص من الأمر وتسليمه إليه، فلما صار الهادي إلى حدقان أمر الجفاتم ونفراً من آل طريف فيهم عبد الله بن جراح بالمسير إلى موضع يقال له السر ليكونوا كميناً، وظنوا أن ذلك حق."
+  en: "The narrator sets down reports that reached him of Ibrahim ibn Khalaf and the Jafatim and their seizing of property by force, then says Abu al-Atahiya wrote to al-Hadi at Sa'da that he wished to be rid of the matter and hand it over; when al-Hadi reached Hadaqan, Abu al-Atahiya ordered the Jafatim and some of Al Tarif, including Abdullah ibn Jarrah, to a place called al-Sirr to lie in ambush, and they took it for true."
+  ur: "راوی ابراہیم بن خلف اور جفاتم کے بارے میں اپنے تک پہنچی ہوئی خبریں اور ان کے زبردستی مال لینے کا ذکر کرتا ہے، پھر کہتا ہے کہ ابو العتاہیہ نے ہادی کو صعدہ میں لکھا کہ وہ اس معاملے سے نجات اور اسے ان کے سپرد کرنا چاہتے ہیں؛ جب ہادی حدقان پہنچے تو ابو العتاہیہ نے جفاتم اور آل طریف کے چند افراد بشمول عبداللہ بن جراح کو السر نامی جگہ کمین بن کر جانے کا حکم دیا اور انہوں نے اسے سچ سمجھا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-12"
+    hijri: "0288-01"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "محرم سنة 288هـ؛ عند وصول الهادي إلى حدقان؛ الدقة شهرية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/hadaqan-sanaa-yemen
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-jarrah-of-al-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-jafatim-sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص204-205 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-24
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 204-205

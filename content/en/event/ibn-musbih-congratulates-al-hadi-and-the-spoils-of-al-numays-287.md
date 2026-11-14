@@ -1,0 +1,11 @@
+---
+id: event/ibn-musbih-congratulates-al-hadi-and-the-spoils-of-al-numays-287
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+At [[place/allaf-yemen|Allaf]] [[person/muhammad-ibn-musbih-al-yarsami|Muhammad ibn Musbih al-Yarsami]] came to [[person/al-hadi-yahya-al-rassi|al-Hadi]] and, in the narrator's report, said: may I be your ransom, praise to God who gave you victory over your enemy; we had not thought you would gain from him what you gained, and we had thought the plan you took in fighting them mistaken, but you see a plan we think mistaken and God confirms you in it and affairs come out as you chose. {cite:sira-hadi-ila-al-haqq p.195} {cite:sira-hadi-ila-al-haqq p.196} The narrator then tells what he calls a report that, when the Akilis fled their fort, some of them said to [[person/ahmad-ibn-abbad-al-akili|Ahmad ibn Abbad al-Akili]] that he had promised much but sat with the women when the fighting came, and that he was said to have been among the women in the houses that day; it is hearsay set down by the imam's follower and the museum gives no verdict on it. {cite:sira-hadi-ila-al-haqq p.196}
+
+## Detail
+When the enemy left Allaf and al-Hadi had taken it, pulled it down, burned it and ordered it plundered, his men took a great quantity of furniture, arms and goods from al-Numays, and he ordered the vines cut, and they were cut; a note in the margin of the original manuscript reads that he ordered the plunder and the cutting of the vines. {cite:sira-hadi-ila-al-haqq p.196} The imam stayed at Allaf until the afternoon prayer and then went back unharmed, in the narrator's words by the grace of God. {cite:sira-hadi-ila-al-haqq p.196} The narrator adds that in his charge on the Akilis and the [[group/banu-kulayb-saada|Kulaybis]] twenty arrows struck his coat of mail and horse armour, not counting those people pulled out, because Banu Kulayb are among the best archers of Yemen, hard in war and fine in shooting. {cite:sira-hadi-ila-al-haqq p.196} It is a Zaydi account in the voice of the imam's followers; the praise is the narrator's. It follows [[event/the-ascent-of-allaf-and-the-fall-of-al-numays-287]] and leads into [[event/banu-kulayb-ask-al-hadi-for-safety-and-the-akili-crops-are-cut-287]].

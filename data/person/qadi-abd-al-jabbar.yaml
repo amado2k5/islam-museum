@@ -3,30 +3,31 @@ class: person
 label:
   ar: "القاضي عبد الجبار"
   en: "Qadi Abd al-Jabbar"
-roles: [scholar]
+roles: [qadi, theologian, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية للقاضي عبد الجبار بن أحمد الهمذاني، متكلم المعتزلة وقاضي الري صاحب «المغني في أبواب التوحيد والعدل»، توفي سنة ١٠٢٥م؛ تذكره كتب الوفيات ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Qadi Abd al-Jabbar ibn Ahmad al-Hamadhani, the Mu'tazili theologian and qadi of Rayy author of al-Mughni, d. 1025; the biographical entry is not yet checked on the page."
+  ar: "عبد الجبار بن أحمد الهمذاني الأسدابادي، قاضي القضاة، متكلم وأصولي على مذهب المعتزلة ⁦(وهو مذهب كلامي غير السني الذي يعتمده المتحف إطاراً أصلياً)⁩، ولي قضاء الري وتوفي فيها سنة 415 هـ ⁦(1025 م)⁩ عند الزركلي و414 أو 415 هـ عند الصفدي؛ صاحب «المغني في أبواب التوحيد والعدل» و«شرح الأصول الخمسة»."
+  en: "Abd al-Jabbar ibn Ahmad al-Hamadhani al-Asadabadi, the Qadi al-Qudat, a Mu'tazili theologian and legal theorist (a school of kalam distinct from the Sunni creed that is the museum's default frame); judge of Rayy, where he died in 415 AH (1025 CE) per al-Zirikli, or 414 or 415 per al-Safadi; author of al-Mughni fi Abwab al-Tawhid wa-l-Adl and Sharh al-Usul al-Khamsa."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [sects-and-schools, creed]
-sources: [source/wafayat-ayan, source/wikidata]
+sources: [source/wafayat-ayan, source/wikidata, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q3773706
   viaf: "69321697"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn Khallikan, Wafayat al-A'yan — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0017
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002 (vol. 3 p. 273) and al-Safadi, al-Wafi bi-l-Wafayat (vol. 18 pp. 20-22), entries read in full from the local OpenITI texts; Wikidata candidate Q3773706"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 importance: 2
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "935~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Qadi Abd al-Djabbar) Confirmed on 13 November 2026 against Wikidata Q3773706 (P569, a statement with a reference), item revision 2561084763.", sources: [source/wikidata] }
-died: { edtf: "1025", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Qadi Abd al-Djabbar)" }
+died: { edtf: "1025", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Qadi Abd al-Djabbar). al-A'lam gives 415 AH = 1025, agreeing with the card; al-Safadi gives 414 AH, some say 415.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
   - { type: lived_in, target: place/rayy, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wafayat-ayan] }
+  - { type: died_in, target: place/rayy, confidence: high, note: "al-Zirikli, al-A'lam, vol. 3 p. 273: he held the judgeship of Rayy and died there", sources: [source/alam-zirikli-dar-al-ilm-2002] }
