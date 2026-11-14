@@ -3,26 +3,30 @@ class: person
 label:
   ar: "بهاء الدين الإخميمي"
   en: "Baha' al-Din al-Ikhmimi"
-roles: [scholar]
+roles: [faqih, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لبهاء الدين الإخميمي، متكلم وفقيه القرن الرابع عشر، توفي سنة ١٣٦٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Baha' al-Din al-Ikhmimi, the fourteenth-century theologian and jurist, d. 1363; the biographical entry is not yet checked on the page."
+  ar: "عبد الوهاب بن عبد الرحمن بن عبد الولي بن عبد السلام، بهاء الدين الإخميمي المراغي، فقيه مصري شافعي أصولي، تعلم بالقاهرة واستوطن دمشق وتوفي فيها في الطاعون سنة 764 هـ، اشتهر بكتابه في علم الكلام «المنقذ من الزلل في العلم والعمل»."
+  en: "Abd al-Wahhab ibn Abd al-Rahman ibn Abd al-Wali ibn Abd al-Salam, Baha' al-Din al-Ikhmimi al-Maraghi, an Egyptian Shafi'i jurist and usuli who studied in Cairo, settled in Damascus and died there in the plague in 764 AH (1363); known for his theology book al-Munqidh min al-Zalal fi al-Ilm wa-l-Amal."
 wings: [people]
-regions: [egypt-nile]
+regions: [egypt-nile, levant-iraq]
 periods: [period/mongol-post-mongol]
-died: { edtf: "1363", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q12199709 (P570, a statement with a reference), item revision 2537604473.", sources: [source/wikidata] }
-relations:
-  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+born: { edtf: "1300", hijri: "0700", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 4 p. 183, prints 700 AH = 1300 CE", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1363", hijri: "0764", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam). al-A'lam vol. 4 p. 183 prints 764 AH = 1363 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12199709
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0066
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region is attested for Egypt; kept from the earlier card, see the Cairo edge", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/cairo, note: "al-Zirikli, al-A'lam, vol. 4 p. 183: he studied in Cairo", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 4 p. 183: he settled in Damascus", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 4 p. 183: he died in Damascus in the plague", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
