@@ -4,11 +4,12 @@ label:
   ar: يحيى بن عمر بن يوسف الكناني
   en: Yahya ibn Omar al-Kinani
 roles:
+- faqih
 - scholar
 gender: male
 summary:
-  ar: بطاقة أولية ليحيى بن عمر بن يوسف الكناني؛ لم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Yahya ibn Omar al-Kinani; the entry is not yet checked on the page.
+  ar: يحيى بن عمر بن يوسف الكناني الأندلسي الجياني، أبو زكريا، فقيه مالكي عالم بالحديث، من موالي بني أمية، نشأ بقرطبة وسكن القيروان ورحل إلى المشرق ثم استوطن سوسة وبها قبره، توفي سنة 289 هـ الموافقة 902 م، وله نحو أربعين جزءا من المصنفات.
+  en: Yahya ibn Umar ibn Yusuf al-Kinani al-Andalusi al-Jayyani, Abu Zakariya, a Maliki jurist learned in hadith, a client of the Banu Umayya; grew up in Cordoba, lived in Qayrawan, travelled east, and settled in Sousse where he is buried; died 289 AH (902 CE); author of writings in about forty parts.
 wings:
 - people
 regions:
@@ -17,21 +18,60 @@ periods:
 - period/umayyad
 sources:
 - source/al-aalam
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q6390217
 provenance:
   layer: own-research
-  source: Wikidata candidate; entry not yet read on the page in a book source
-  generated_by: Devin (SWE-2 High)
-  model: SWE-2 High
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "828", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik (Qadi Iyad) Confirmed on 13 November 2026 against Wikidata Q6390217 (P569, a statement with a reference), item revision 2510386459.", sources: [source/wikidata] }
-died: { edtf: "902", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik (Qadi Iyad) Confirmed on 13 November 2026 against Wikidata Q6390217 (P570, a statement with a reference), item revision 2510386459.", sources: [source/wikidata] }
+  completeness: 3
+born:
+  edtf: '828'
+  hijri: '0213'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: Tartib al-Madarik (Qadi Iyad) Confirmed on 13 November 2026 against Wikidata Q6390217 (P569, a statement with a reference), item revision 2510386459. al-Zirikli, al-A''lam, entry heading prints 213 - 289 AH = 828 - 902 CE; conversion as printed.'
+  sources:
+  - source/wikidata
+  - source/alam-zirikli-dar-al-ilm-2002
+died:
+  edtf: '902'
+  hijri: '0289'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: Tartib al-Madarik (Qadi Iyad) Confirmed on 13 November 2026 against Wikidata Q6390217 (P570, a statement with a reference), item revision 2510386459. al-Zirikli, al-A''lam, entry heading prints 213 - 289 AH = 828 - 902 CE; conversion as printed.'
+  sources:
+  - source/wikidata
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
 - type: lived_in
   target: place/al-andalus
   sources:
-  - source/al-aalam
+  - source/alam-zirikli-dar-al-ilm-2002
+  confidence: medium
+  note: 'al-Zirikli, al-A''lam, vol. 8 p. 160: Andalusi, of Jaen; grew up in Cordoba'
+- type: lived_in
+  target: place/qayrawan
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+  confidence: high
+  note: 'al-Zirikli, al-A''lam, vol. 8 p. 160: lived in Qayrawan'
+- type: lived_in
+  target: place/sousse
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+  confidence: high
+  note: 'al-Zirikli, al-A''lam, vol. 8 p. 160: settled in Sousse'
+- type: buried_in
+  target: place/sousse
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+  confidence: high
+  note: 'al-Zirikli, al-A''lam, vol. 8 p. 160: his grave is in Sousse'

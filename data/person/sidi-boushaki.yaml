@@ -8,36 +8,37 @@ names:
 roles: [scholar, jurist, theologian]
 gender: male
 summary:
-  ar: "بطاقة أولية لسيدي بوسحاقي إبراهيم بن فائد الزواوي، فقيه زواوة ونحويها ومفسرها، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Sidi Boushaki (Ibrahim ibn Fa'id al-Zawawi), jurist, grammarian and exegete of the Zawawa, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+  ar: "إبراهيم بن فائد بن موسى الزواوي القسنطيني المعروف بسيدي بوسحاقي، فقيه مالكي جزائري ولد في جبل جرجر وتعلم في بجاية وتونس واستقر في قسنطينة، من كتبه تفسير القرآن وتسهيل السبيل في شرح مختصر خليل، توفي سنة 857 هـ."
+  en: "Ibrahim ibn Fa'id ibn Musa al-Zawawi al-Qusantini, known as Sidi Boushaki, an Algerian Maliki jurist born in the Jurjura mountains, educated in Bejaia and Tunis and settled in Constantine; author of a Qur'anic exegesis and of Tashil al-Sabil, a commentary on the Mukhtasar of Khalil; died 857 AH (1453)."
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1394", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Confirmed on 13 November 2026 against Wikidata Q19629001 (P569, a statement with a reference), item revision 2568209944.", sources: [source/wikidata] }
-died: { edtf: "1453", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Confirmed on 13 November 2026 against Wikidata Q19629001 (P570, a statement with a reference), item revision 2568209944.", sources: [source/wikidata] }
+born: { edtf: "1394", hijri: "0796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Confirmed on 13 November 2026 against Wikidata Q19629001 (P569, a statement with a reference), item revision 2568209944. al-Zirikli prints 796 AH = 1394 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 57}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1453", hijri: "0857", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Confirmed on 13 November 2026 against Wikidata Q19629001 (P570, a statement with a reference), item revision 2568209944. al-Zirikli prints 857 AH = 1453 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 57}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/soum-a, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q68169767)" }
+  - { type: born_in, target: place/soum-a, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q68169767); al-Zirikli says only that he was born in Jabal Jurjur, vol. 1 p. 57" }
   - { type: born_in, target: place/th-nia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2225013)" }
   - { type: buried_in, target: place/zawiyet-sidi-boushaki, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q43033365)" }
-  - { type: lived_in, target: place/bejaia, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q59975)" }
+  - { type: lived_in, target: place/bejaia, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P551 residence (Wikidata Q59975); al-Zirikli, al-A'lam, vol. 1 p. 57: he studied in Bejaia" }
+  - { type: lived_in, target: place/tunis, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P937 work location (Wikidata Q948); al-Zirikli, al-A'lam, vol. 1 p. 57: he studied in Tunis" }
+  - { type: lived_in, target: place/constantine, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 1 p. 57: he settled in Constantine" }
   - { type: lived_in, target: place/algeria, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q262)" }
-  - { type: lived_in, target: place/tunis, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q948)" }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q19629001
   viaf: "90056312"
 provenance:
   layer: own-research
-  source: "Wikidata Q19629001 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0009
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: secondary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+    note: "bootstrap from roles, 1 Nov 2026 merge map; al-Zirikli, vol. 1 p. 57, calls him a Maliki jurist"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]

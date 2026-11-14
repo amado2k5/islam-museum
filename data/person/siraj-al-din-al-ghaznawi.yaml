@@ -3,27 +3,28 @@ class: person
 label:
   ar: "سراج الدين الغزنوي"
   en: "Siraj al-Din al-Ghaznawi"
-roles: [scholar]
+roles: [scholar, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي حفص سراج الدين الغزنوي، فقيه حنفي ومتكلم القرن الرابع عشر؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Hafs Siraj al-Din al-Ghaznawi, the fourteenth-century Hanafi jurist and theologian; the biographical entry is not yet checked on the page."
+  ar: "عمر بن إسحاق بن أحمد الهندي الغزنوي، أبو حفص، سراج الدين، فقيه من كبار الأحناف، من كتبه التوشيح في شرح الهداية والغرة المنيفة في ترجيح مذهب أبي حنيفة وشرح عقيدة الطحاوي، توفي سنة 773 هـ."
+  en: "Umar ibn Ishaq ibn Ahmad al-Hindi al-Ghaznawi, Abu Hafs, Siraj al-Din, a jurist counted among the major Hanafis; author of al-Tawshih, a commentary on al-Hidaya, al-Ghurra al-Munifa on preferring the school of Abu Hanifa, and a commentary on the creed of al-Tahawi; died 773 AH (1372)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q54875387
   viaf: "90053178"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0062
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1372", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+  completeness: 3
+born: { edtf: "1304", hijri: "0704", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli prints 704 AH = 1304 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 42}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1372", hijri: "0773", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar. al-Zirikli prints 773 AH = 1372 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 42}, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/ghazna, confidence: low, note: "Association inferred from the nisba 'الغزنوي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
+  - { type: lived_in, target: place/ghazna, confidence: low, note: "Association inferred from the nisba 'al-Ghaznawi' (the entry gives the nisba al-Hindi al-Ghaznawi and no residence); specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

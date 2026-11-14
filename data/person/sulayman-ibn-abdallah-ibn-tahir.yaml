@@ -6,23 +6,24 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لسليمان بن عبد الله بن طاهر، والي طبرستان وصاحب شرطة بغداد الطاهري في القرن التاسع، توفي سنة ٨٧٩م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sulayman ibn Abdallah ibn Tahir, the ninth-century Tahirid governor of Tabaristan and Baghdad police chief, d. 879; the source entry is not yet checked on the page."
+  ar: "سليمان بن عبد الله بن طاهر بن الحسين، أبو أيوب الخزاعي، من آل طاهر، ولي شرطة بغداد والسواد على ما نقل الصفدي عن الطبري، وكان أديبا شاعرا روى عنه المبرد، توفي سنة 266 هـ."
+  en: "Sulayman ibn Abdallah ibn Tahir ibn al-Husayn, Abu Ayyub al-Khuza'i, of the Tahirid family; appointed to the police of Baghdad and the Sawad according to al-Safadi's report from al-Tabari; a man of letters and a poet from whom al-Mubarrad narrated; died 266 AH (879)."
 wings: [people]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/abbasid-early]
-died: { edtf: "879", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "879", hijri: "0266", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari. al-Safadi prints 266 AH {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}, which converts to 879 CE, agreeing with the card.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
-  - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }
-sources: [source/kamil-ibn-al-athir]
+  - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530); al-Safadi, al-Wafi, vol. 15 pp. 242-243, does not name the place of death" }
+  - { type: child_of, target: person/abd-allah-ibn-tahir, sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: high, note: "al-Safadi, al-Wafi, vol. 15 p. 242: Sulayman ibn Abdallah ibn Tahir ibn al-Husayn" }
+sources: [source/kamil-ibn-al-athir, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q22947790
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Athir, al-Kamil — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0031
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, ed. al-Arna'ut and Mustafa, 2000, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
