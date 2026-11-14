@@ -42,6 +42,23 @@ describe("extremism hard block: names that must be caught", () => {
     "Jund al-Aqsa",
     "جند الأقصى",
     "تنظيم حراس الدين",
+    "Ansarallah took Sana'a",
+    "the Houthis captured the capital",
+    "الحوثيون سيطروا على صنعاء",
+    "he commanded the IRGC",
+    "the Islamic Revolutionary Guard Corps announced",
+    "الحرس الثوري الإسلامي",
+    "سپاہ پاسداران انقلاب اسلامی",
+    "Ansar Dine ruled Timbuktu in 2012",
+    "Ansar Eddine in northern Mali",
+    "أنصار الدين في مالي",
+    "he founded Hizb ut-Tahrir in 1953",
+    "a Hizbut Tahrir Indonesia activist",
+    "حزب التحرير الإسلامي",
+    "an assassination attempt by Ansar al-Islam",
+    "انصار الاسلام",
+    "the Sudanese Muslim Brotherhood",
+    "الإخوان المسلمون في السودان",
   ])("blocks %s", (t) => expect(blocked(t)).toBe(true));
 });
 
@@ -65,6 +82,12 @@ describe("extremism hard block: non-matches that must pass", () => {
     "مرج دابق",
     "the quietists (al-qa'ida)",
     "the isis of the Nile goddess cult",
+    "the Sepahsalar Mosque in Tehran",
+    "Haïdara founded the Ançar Dine movement in 1991",
+    "كان من أنصار الإسلام الأرثوذكسي",
+    "كونوا أنصار الله",
+    "Hasan al-Banna founded the Muslim Brotherhood in Egypt",
+    "the Ansar-Ud-Deen Society of Nigeria",
   ])("allows %s", (t) => expect(blocked(t)).toBe(false));
 });
 

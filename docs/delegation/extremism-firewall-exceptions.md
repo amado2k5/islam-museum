@@ -137,3 +137,37 @@ On 7 November 2026 the founder reviewed every record touched by the firewall cle
 - `source/wikipedia-ramadan-al-bouti-en`
 - `source/wikipedia-salima-mazari-en`
 - `work/alf-shams-satia`
+
+## Additions of 14 November 2026 — the seven fully designated names
+
+On 14 November 2026 the founder ruled the seven designated-but-unpatterned names of the 14 November expansion (`docs/agents/content-safety.md` section 2) **fully designated**, with a total ban on propaganda material about them, supporting them or from them in any record, existing or future, and their patterns were added to `scripts/lib/extremism.ts`. Every existing record was audited first: **no record contains propaganda material of any of the seven** — no statement, publication or material of theirs is quoted, linked, reproduced or promoted anywhere. The mentions that survive are the dispassionate biographical and historical references below, which the founder's ruling keeps as exceptions (a record listed here is exempt from the automatic check for the name stated); and two homonyms — Chérif Ousmane Madani Haïdara's Sufi movement Ançar Dine and Nigeria's Ansar-Ud-Deen Society — which are not the designated organisation at all. The two records already listed above for other names, `person/tawakkol-karman` and `person/hamza-tzortzis`, also carry mentions of the Houthis and of Hizb ut-Tahrir respectively and are covered for those names by this section. One name, Al-Andalus Media, has no entry here: its single existing mention (`person/abd-al-hayy-yusuf`) is an ambiguous company name the founder is still to rule on, so its pattern is not yet enabled.
+
+- `source/wikipedia-tawakkol-karman-en` — Ansarallah/the Houthis: the reliability note records her exile in Istanbul after the Houthi takeover of Sana'a; biographical fact, no Houthi material reproduced.
+- `event/al-jawf-offensive-2020` — Ansarallah/the Houthis: a draft event stub naming the Houthis solely as the capturing force in the 2020 al-Jawf offensive, a plain historical fact.
+- `exhibit/path-zaydi` — Ansarallah/the Houthis: the pathway's "Today" step is titled "The Houthis and heritage: Zaydism today"; a heading about Zaydi heritage today, not Houthi material.
+- `person/hossein-salami` — IRGC: Salami commanded the Islamic Revolutionary Guard Corps from 2019 until his death in 2025; the Corps is named only as his command in a cited military biography. No IRGC statement is reproduced.
+- `source/wikipedia-hossein-salami-en` — IRGC: the source record's summary of the same cited biography.
+- `person/mehdi-taremi` — IRGC: names the IRGC Navy only as the unit with which the footballer performed his 2010–2012 military service.
+- `person/mahdi-rasuli` — IRGC: names the Corps only in two cited biographical facts (his father's Iran–Iraq War brigade; the IRGC Aerospace Force commander's letter of appreciation). No IRGC material is reproduced.
+- `person/abdolreza-helali` — IRGC: names the IRGC's intelligence organisation only as the body that arrested the subject in 2017, as reported by the cited encyclopaedias.
+- `person/mahmoud-ahmadinejad` — IRGC: the letters occur only in the record's provenance note, recording that three of his bodyguards were killed in the 2026 strike on his house; not in the record's prose.
+- `person/ousmane-madani-haidara` — homonym: Ansar/Ançar Dine here is Haïdara's Sufi movement (founded 1991, southern Mali), expressly distinguished in the record from the northern armed group of the same name; the designated organisation is not its subject.
+- `source/holder-ansar-dine-2012` — homonym: a peer-reviewed study of Haïdara's movement; the name is the article's subject.
+- `source/raineri-sahel-brief-2024` — homonym: names Haïdara's movement with the explicit parenthesis "not to be confused with the homonymous terrorist organization".
+- `source/fassoactu-haidara-2026` — homonym: reports his 1991 founding of Ançar Dine, Haïdara's movement.
+- `source/wikipedia-ousmane-madani-haidara-en` — homonym: the source record quotes the article's own disambiguation, "not to be confused with the terrorist organization Ansar Dine operating in the north of Mali".
+- `source/wikipedia-ousmane-madani-haidara-fr` — homonym: the French source record for the same biography of Haïdara's movement.
+- `person/moshood-abiola` — homonym: جمعية أنصار الدين in the Arabic prose is Nigeria's Ansar-Ud-Deen Society, a Lagos-founded educational and religious society of which Abiola was a member; not the Malian designated organisation.
+- `screen/timbuktu-2014` — Ansar Dine: the film *Timbuktu* (2014) depicts and condemns Ansar Dine's 2012 rule of the city; the group is named only as the film's historical subject.
+- `person/taqi-al-din-al-nabhani` — Hizb ut-Tahrir: al-Nabhani founded the party in 1953; it is named only as that documented historical fact in his biography.
+- `source/wikipedia-taqi-al-din-al-nabhani-en` — Hizb ut-Tahrir: the source record's summary and reliability note for the same biography.
+- `source/wikipedia-taqi-al-din-al-nabhani-ar` — Hizb ut-Tahrir: the Arabic source record for the same biography.
+- `person/felix-siauw` — Hizb ut-Tahrir: Hizbut Tahrir Indonesia is named only in the documented facts of his 2002 conversion and later preaching association, from the cited Wikipedia article.
+- `source/wikipedia-felix-siauw-en` — Hizb ut-Tahrir: the source record's reliability note for the same facts.
+- `person/dalia-mogahed` — Hizb ut-Tahrir: named only as the affiliation of a television host whose 2009 interview with her she afterwards disavowed; the passage criticises the movement.
+- `person/yusuf-al-nabhani` — Hizb ut-Tahrir: the name occurs only in the provenance note, to distinguish Yusuf al-Nabhani from his grandson Taqi al-Din, the party's founder.
+- `person/barham-salih` — Ansar al-Islam: named only as the perpetrator of the 2 April 2002 assassination attempt on Barham Salih, a cited historical fact.
+- `source/wikipedia-abdel-rahman-swar-al-dahab-ar` — Sudanese Muslim Brotherhood: the reliability note names it only to record that the source article's allegation of the subject's 1950s membership was introduced as an allegation and was not used; the allegation appears in no record's prose.
+- `source/wikipedia-hossein-salami-ar` — IRGC: the Arabic source record for Salami's biography; its English summary names him commander-in-chief of Iran's Revolutionary Guard Corps, the same cited fact as the English source record above.
+- `person/ahmad-domocao-alonto` — homonym: the «أنصار الإسلام» he co-founded in 1968, after the Jabidah massacre, is a Philippine Muslim movement in Mindanao, led by a man the record describes as preaching non-violence and peaceful Muslim–Christian coexistence; founded three decades before, and unrelated to, the Iraqi organisation of the same name designated in 2003–2004.
+- `source/wikipedia-ahmad-domocao-alonto-en` — homonym: the source record's summary of the same Philippine movement's 1968 founding.
