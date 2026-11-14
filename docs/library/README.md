@@ -69,7 +69,22 @@ GEMINI: hadith-json-v1-2-0 (datasets): the exact GitHub URL and licence of the v
 GEMINI: princeton-geniza-pgp-metadata-v1-2 (datasets): the Zenodo record URL for deposit 22663982 and its licence line are not recorded in a ledger.
 
 ## Wrap-up queue
-(Maintained from the register: every partly mined or nearly complete book, ranked by share of pages
-mined, highest first, with what remains: pages left, held pages, OCR gaps, zip needed, and whether a
-founder-held item blocks it. Filled after the book segment merges. Founder rule, 14 November 2026:
-finish and clean up partly done books before starting new ones.)
+Founder rule, 14 November 2026: finish and clean up partly done books before starting new ones.
+Ranked by share mined, highest first (first pass from the books segment, 14 November 2026; refresh
+from the register). "Active" means another worker is mining it: skip until they finish. Every book
+below also needs its OCR zip verified before any deletion.
+
+| # | Book id | Share mined | Remaining | Blocked or active |
+|---|---|---|---|---|
+| 1 | futuh-buldan | text 100 percent (pp. 1-665 of 768, rest is the index) | OCR zip | no |
+| 2 | muruj-dhahab, shadharat-dhahab, tarikh-khulafa, jami-ulum-hikam, nisa-hawl-rasul | about 100 percent per ledgers | OCR zip; nisa-hawl-rasul has no PR recorded | no |
+| 3 | kamil-tarikh | essentially complete per ledger | OCR zip; no source id or PR found | no |
+| 4 | sira-hadi-ila-al-haqq | about 62 percent (printed pp. 1-285 of 461) | pp. 286 to end | ACTIVE; tax-ruling concepts held |
+| 5 | ibn-haytham-manazir | about 66 percent | scan pp. 372-533 | founder-held pp. 532, 546, 666 |
+| 6 | canon-ibn-sina-print-v1 (v2, v3) | about 41 percent | Book II onward, v2, v3 | ACTIVE |
+| 7 | zij-sabi-harrani | unknown | revision pass | ACTIVE |
+| 8 | tabaqat-fuqaha | about 10 percent | PDF p. 64 onward | no |
+| 9 | fiqh-mawsua-kuwaitiyya | about 8 percent | the rest | no |
+| 10 | hilyat-awliya | volume 10 to printed p. 689 | ruling on queue vs next volume | held pp. 532, 546, 666 |
+| 11 | tafsir-tabari-shakir | volume 1 complete | later volumes | no |
+
