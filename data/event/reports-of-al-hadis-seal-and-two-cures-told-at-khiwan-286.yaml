@@ -1,0 +1,73 @@
+id: event/reports-of-al-hadis-seal-and-two-cures-told-at-khiwan-286
+class: event
+kind: other
+label:
+  ar: أخبار خاتم الهادي والشفاء به يرويها رجلان من السبيع وحجور في خيوان، شعبان 286هـ
+  en: Reports of al-Hadi's seal and two cures, told by men of al-Subay' and Hajur at Khiwan, Sha'ban 286 AH
+  ur: ہادی کی مہر اور شفا کی دو خبریں، جو سبیع اور حجور کے دو آدمی خیوان میں سناتے ہیں، شعبان 286ھ
+summary:
+  ar: يروي أبو جعفر محمد بن سليمان أنه بقي في المسجد بعد الجمعة فسمع جماعة من بني ربيعة وحجور يتحدثون عمن يقاتل الهادي، وسمع رجلاً ينقل عن شعيب من أهل السبيع من أرحب، وكان ممن عاونوا ابن الدعام في حربه وشكّوا في الهادي، أنه مرض في حلقه حتى أشرف على الموت فأخذ خاتم كتاب الهادي وأكله داعياً فشُفي، ثم يضيف إبراهيم بن سليمان من حجور خبراً مشابهاً عن رجل يسيل بطنه.
+  en: 'Muhammad ibn Sulayman tells how he stayed in the mosque after the Friday prayer and overheard men of Banu Rabi''a and Hajur talking about those who fight al-Hadi; one relates what Shu''ayb of al-Subay'' of Arhab, who had helped al-Da''am''s side and doubted al-Hadi, told him: gravely ill in the throat and near death, he took the seal from a letter of al-Hadi, prayed and ate it, and recovered; then Ibrahim ibn Sulayman of Hajur adds a similar report about a man whose bowels ran night and day.'
+  ur: 'محمد بن سلیمان بتاتے ہیں کہ جمعے کے بعد وہ مسجد میں رکے رہے اور بنو ربیعہ اور حجور کے لوگوں کو ہادی سے لڑنے والوں کے بارے میں باتیں کرتے سنا؛ ایک شخص ارحب کے سبیع کے شعیب کی بات نقل کرتا ہے جو دعام کے ساتھیوں کی مدد کرتا اور ہادی کی بابت شک میں تھا: حلق کی شدید بیماری سے وہ موت کے قریب پہنچا، ہادی کے خط کی مہر لے کر دعا کر کے کھا گیا اور شفا پائی؛ پھر حجور کے ابراہیم بن سلیمان ایک ایسے آدمی کا ملتا جلتا واقعہ سناتے ہیں جس کا پیٹ دن رات چلتا تھا۔'
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-08
+    hijri: 0286-08
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: شعبان سنة 286هـ؛ الشهر فقط؛ يبدأ نحو 12 آب 899م جولياني بالتقويم الجدولي؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/khiwan
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-sulayman-al-kufi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: person/shuayb-al-subayi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: person/ibrahim-ibn-sulayman-al-hajuri
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/hajur-tribe-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/al-subay-arhab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص139-140 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-18
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 139-140

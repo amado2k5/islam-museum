@@ -6,27 +6,28 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لجعفر بن محمد المستغفري النيسابوري، حافظ الحديث وصاحب الكتب؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ja'far ibn Muhammad al-Mustaghfiri of Nishapur, the hadith memorizer and author; his entry is not yet checked on the page."
+  ar: "جعفر بن محمد بن المعتز بن محمد بن المستغفر النسفي، أبو العباس، فقيه له اشتغال بالتأريخ ومن رجال الحديث، كان خطيب نسف في ما وراء النهر وتوفي بها، من سنة 350 إلى 432 هـ الموافقة 961 إلى 1041 م."
+  en: "Ja'far ibn Muhammad ibn al-Mu'tazz ibn Muhammad ibn al-Mustaghfir al-Nasafi, Abu al-Abbas, a jurist who also worked on history and a man of hadith; he was preacher of Nasaf in Transoxiana and died there, 350 to 432 AH (961 to 1041 CE)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 born: { edtf: "0961", precision: year, status: tradition, derived: true }
 died: { edtf: "1041", precision: year, status: tradition, derived: true }
 relations:
+  - { type: died_in, target: place/nasaf, note: "The entry: preacher of Nasaf, died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: died_in, target: place/transoxiana, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q25513062
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary

@@ -6,24 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لنصر المقدسي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Nasr al-Maqdisi; the entry is not yet checked on the page."
+  ar: "نصر بن إبراهيم بن نصر بن إبراهيم بن داود النابلسي المقدسي، أبو الفتح، شيخ الشافعية في عصره بالشام، أصله من نابلس ويعرف بابن أبي حافظ، رحل نحو العشرين وأقام عشر سنين في صور وتسعا في دمشق ولقي فيها الغزالي وتوفي بها سنة 490 هـ الموافقة 1096 م."
+  en: "Nasr ibn Ibrahim ibn Nasr ibn Ibrahim ibn Dawud al-Nabulsi al-Maqdisi, Abu al-Fath, called the shaykh of the Shafi'is of Syria in his day; of Nablus origin and known as Ibn Abi Hafiz, he travelled to study in his twenties, lived ten years in Tyre and nine in Damascus, met al-Ghazali there, and died in Damascus in 490 AH (1096 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1096", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala); al-A'lam Confirmed on 13 November 2026 against Wikidata Q22690398 (P570, a statement with a reference), item revision 2431884704.", sources: [source/wikidata] }
 relations:
+  - { type: lived_in, target: place/tyre, note: "The entry: he stayed ten years in Tyre.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
   - { type: buried_in, target: place/bab-al-saghir-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q96372940)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q22690398
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+born: { edtf: "987", calendar: gregorian, precision: year, derived: true, note: "al-A'lam entry: 377 AH = 987 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

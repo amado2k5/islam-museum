@@ -3,28 +3,28 @@ class: person
 label:
   ar: "يوسف ابن المبرد"
   en: "Yusuf Ibn al-Hasan Ibn al-Mibrad"
-roles: [scholar]
+roles: [scholar, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية ليوسف بن الحسن ابن المبرد، فقيه حنبلي دمشق القرن الخامس عشر، توفي سنة ١٥٠٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Yusuf ibn al-Hasan Ibn al-Mibrad, the fifteenth-century Hanbali jurist of Damascus, d. 1503; the biographical entry is not yet checked on the page."
+  ar: "يوسف بن حسن بن أحمد بن حسن ابن عبد الهادي الصالحي، جمال الدين ابن المبرد، علامة متفنن من فقهاء الحنابلة من أهل الصالحية بدمشق، ٨٤٠ إلى ٩٠٩هـ الموافقة ١٤٣٦ إلى ١٥٠٣م، وللزركلي قائمة طويلة من كتبه في الفقه والحديث والتراجم والسيرة والأصول وغيرها."
+  en: "Yusuf ibn Hasan ibn Ahmad ibn Hasan Ibn Abd al-Hadi al-Salihi, Jamal al-Din Ibn al-Mibrad, a versatile scholar and Hanbali jurist of al-Salihiyya in Damascus, 840 to 909 AH, 1436 to 1503 CE; al-Zirikli lists a long series of his books on jurisprudence, hadith, biography, the Sira, legal theory and other subjects."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam, source/wikidata]
+born: { edtf: "1436", calendar: gregorian, precision: year, derived: true, note: "840 AH = 1436 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 8 p. 219", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1503", calendar: gregorian, precision: year, derived: true, note: "909 AH = 1503 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 8 p. 219", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+relations:
+  - { type: lived_in, target: place/damascus, confidence: medium, note: "Entry: of al-Salihiyya, in Damascus (al-A'lam vol. 8 p. 219).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q60842460
   viaf: "398330"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0046
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1436", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw al-Lami (al-Sakhawi) Confirmed on 13 November 2026 against Wikidata Q60842460 (P569, a statement with a reference), item revision 2554037374.", sources: [source/wikidata] }
-died: { edtf: "1503", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw al-Lami (al-Sakhawi) Confirmed on 13 November 2026 against Wikidata Q60842460 (P570, a statement with a reference), item revision 2554037374.", sources: [source/wikidata] }
-relations:
-  - { type: lived_in, target: place/damascus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
+  completeness: 3
