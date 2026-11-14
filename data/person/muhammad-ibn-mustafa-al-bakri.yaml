@@ -6,16 +6,17 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن مصطفى البكري، من العلماء؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Mustafa al-Bakri, a scholar; the biographical entry is not yet checked on the page."
+  ar: "محمد بن مصطفى بن كمال الدين البكري الصديقي، كمال الدين، أبو الفتوح ⁦(١١٤٣ - ١١٩٦هـ = ١٧٣١ - ١٧٨٢م)⁩: أديب من فقهاء الحنفية بفلسطين، وُلد ببيت المقدس وتوفي بغزة؛ وهو ابن مصطفى البكري الدمشقي المتوفى سنة ١١٦٢هـ، وليس إياه."
+  en: "Muhammad ibn Mustafa ibn Kamal al-Din al-Bakri al-Siddiqi, Kamal al-Din, Abu al-Futuh (1143 to 1196 AH = 1731 to 1782): a man of letters among the Hanafi jurists of Palestine, born in Jerusalem and died in Gaza; the son of Mustafa al-Bakri of Damascus (d. 1162 AH), not the same man."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
-born: { edtf: "1688", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar)" }
-died: { edtf: "1749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar)" }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+born: { edtf: "1731", hijri: "1143", calendar: gregorian, precision: year, derived: false, status: historical, note: "Al-Zirikli, al-A'lam, entry Kamal al-Din al-Bakri (1143 to 1196 AH = 1731 to 1782), vol. 7 p. 100 (OpenITI/Shamela pagination), read by the museum on 14 November 2026. The earlier dates 1688 to 1749 on this card were Mustafa ibn Kamal al-Din al-Bakri's (his own entry, vol. 7 pp. 238-239) and are corrected.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1782", hijri: "1196", calendar: gregorian, precision: year, derived: false, status: historical, note: "Al-Zirikli, al-A'lam, vol. 7 p. 100: died in Gaza; read on 14 November 2026.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/misr, confidence: low, note: "Of the al-Bakri Sufi family centred in Egypt (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
+  - { type: born_in, target: place/jerusalem, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 7 p. 100: born in Bayt al-Maqdis (Jerusalem).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/gaza, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 7 p. 100: died in Gaza.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 external_ids:
   wikidata: Q136501318
 provenance:

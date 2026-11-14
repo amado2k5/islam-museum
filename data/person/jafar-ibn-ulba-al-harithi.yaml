@@ -16,8 +16,9 @@ themes: [literature]
 regions: [arabia]
 story_roles:
   - { role: poet, status: tradition, sources: [source/hamasa-abu-tammam-ed-1916] }
-died: { edtf: "760~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hamasah / Abu Tammam" }
+died: { edtf: "0762", hijri: "0145", calendar: gregorian, precision: year, derived: false, status: historical, note: "Al-Zirikli, al-A'lam, entry Jafar ibn Ulba (d. 145 AH = 762), vol. 2 p. 125 (OpenITI/Shamela pagination), read 14 November 2026: a love-poet of few verses, a mukhadram of the Umayyad and Abbasid states, who lived at Najran, was held there on suspicion of a killing and was put to death in retaliation by the Hashimite governor of Mecca for al-Mansur. Replaces the earlier estimate of about 760.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
+  - { type: lived_in, target: place/najran, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 2 p. 125: his residence was at Najran, where he was held.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
   - { type: lived_in, target: place/fars, confidence: low, note: "Associated with فارس per the record's own summary text; relation type pending review.", sources: [source/hamasa-abu-tammam-ed-1916] }
 sources: [source/hamasa-abu-tammam-ed-1916]
 status: { review: published, completeness: 1 }

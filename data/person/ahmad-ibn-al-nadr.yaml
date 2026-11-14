@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن النضر؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn al-Nadr; the entry is not yet checked on the page."
+  ar: "أحمد بن سليمان بن عبد الله الناعبي المعروف بابن النضر ⁦(٦٥٥ - ٦٩٠هـ = ١٢٥٦ - ١٢٩١م)⁩: عالم وشاعر عُماني من سمائل في العهد النبهاني، من مؤلفاته «الدعائم»، قُتل على يد السلطان خردلة بن سماعة النبهاني، بحسب مقالة ويكيبيديا العربية؛ وهو غير أحمد بن النضر النيسابوري."
+  en: "Ahmad ibn Sulayman ibn Abd Allah al-Na'abi, known as Ibn al-Nadr (655 to 690 AH = 1256 to 1291): an Omani scholar and poet of Samail in the Nabhani period, author of al-Da'a'im, killed on the orders of the sultan Khardala ibn Sam'a al-Nabhani, according to the Arabic Wikipedia article; a different man from Ahmad ibn al-Nadr al-Naysaburi."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
@@ -23,8 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mujam al-Shuara" }
-died: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mujam al-Shuara" }
+born: { edtf: "1256", hijri: "0655", calendar: gregorian, precision: year, derived: false, status: tradition, note: "Arabic Wikipedia, article Ahmad ibn al-Nadr (revision 72861250, read 14 November 2026) and Wikidata Q126123232 (P569, item revision 2549663364): 655 to 690 AH = 1256 to 1291, a Nabhani-period scholar-poet of Samail killed by the sultan Khardala ibn Sam'a al-Nabhani. The earlier estimate of about 860 CE (from Mu'jam al-Shu'ara) is kept as a divergent dating, not adopted; the Arabic article itself says he was born in the sixth century AH, which does not agree with 655 AH, so the dating stays tradition-level.", sources: [source/wikidata] }
+died: { edtf: "1291", hijri: "0690", calendar: gregorian, precision: year, derived: false, status: tradition, note: "Arabic Wikipedia (revision 72861250) and Wikidata Q126123232 (P570): 690 AH = 1291, killed. Earlier estimate about 900 CE not adopted. Kept apart from Ahmad ibn al-Nadr al-Naysaburi (Abu al-Fadl, host of al-Bukhari), a different man with his own record.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/samail, note: "Wikidata Q26200709 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/samail, note: "Wikidata Q26200709 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
