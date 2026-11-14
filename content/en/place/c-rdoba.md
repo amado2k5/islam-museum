@@ -1,0 +1,10 @@
+---
+id: place/c-rdoba
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## In Yaqut's Mu'jam al-Buldan
+Yaqut gives the name with a damma on the first letter, a sukun on the second and a damma on the ta. He thinks the word is, as he supposes, foreign and Roman, and notes that Arabic offers it a place too: it could come from «al-qurtaba», meaning a fierce run, and he reports al-Asma'i for the sense of throwing someone down in the phrase «qartabahu». {cite:mujam-al-buldan-sader-1995 4 p.324} He describes it as a great city in Andalusia, in the middle of the country, which was the seat of its kings and its capital; the Umayyad kings lived there, and he calls it the mine of the cultivated and the source of the nobles of that region. It lies five days from the sea. {cite:mujam-al-buldan-sader-1995 4 p.324}
+
+He quotes Ibn Hawqal, who travelled those lands around 350 AH, that it was the greatest city of Andalusia, without equal in the Maghrib for the number of its people and the breadth of its area, protected by a stone wall, with the common people living in its suburb and its inhabitants well-off. {cite:mujam-al-buldan-sader-1995 4 p.324} Yaqut adds that it remained so until about 440 AH. When the Umayyad era, and that of Ibn Abi 'Amir, ended and the usurpers appeared and the Banu 'Abbad grew strong, each amir took a district and Cordoba was left without a ruler to turn to; Seville flourished and became the seat of Andalusia's rule, while Cordoba fell into ruin and became like a middling city. {cite:mujam-al-buldan-sader-1995 4 p.324} He notes that poets lamented it, and gives verses of longing for it by the judge Muhammad ibn Abi 'Isa al-Laythi. {cite:mujam-al-buldan-sader-1995 4 p.324} He says many scholars are attributed to it, among them Abu Bakr Yahya ibn Sa'dun al-Azdi al-Qurtubi, a man of letters, reciter and grammarian who settled in Mosul, taught there and died in 567 AH. {cite:mujam-al-buldan-sader-1995 4 p.324}

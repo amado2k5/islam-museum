@@ -6,26 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن هارون البرديجي، محدث القرن العاشر، توفي سنة ٩١٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Harun al-Bardiji, the tenth-century muhaddith, d. 914; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن هارون بن روح، أبو بكر البرديجي، من ثقات رجال الحديث، أصله من برديج بأقصى أذربيجان، سكن بغداد وتوفي بها، له الأسماء المفردة. يذكر الزركلي وفاته سنة 301 هـ."
+  en: "Ahmad ibn Harun ibn Ruh, Abu Bakr al-Bardiji, counted among the trustworthy hadith men, from Bardij in far Azerbaijan, who settled and died in Baghdad; author of al-Asma' al-Mufrada. Al-Zirikli prints his death as 301 AH (914)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16378590
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0060
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "914", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q16378590 (P570, a statement with a reference), item revision 2567996389.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/bardhaa, note: "Wikidata Q842869 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: lived_in, target: place/baghdad, note: "Wikidata Q1530 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); al-Zirikli, vol. 1 pp. 265-266: settled in Baghdad and died there", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/baghdad, note: "Wikidata Q1530 (P551); al-Zirikli, vol. 1 pp. 265-266: settled in Baghdad", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
