@@ -1,0 +1,61 @@
+id: event/abu-al-qasim-is-sent-to-shibam-and-jaftam-is-killed-291
+class: event
+kind: other
+label:
+  ar: إقامة أبي القاسم بشبام وقتل جفتم، 291هـ
+  en: Abu al-Qasim's stay at Shibam and the killing of Jaftam, 291 AH
+  ur: ابو القاسم کا شبام میں قیام اور جفتم کا قتل، 291ھ
+summary:
+  ar: يصل أبو القاسم إلى شبام ومعه الرجل الذي أرسله ابنا يعفر، فيقيم أياماً والكتب تجري بينه وبينهما وهما يعدانه بالإذن بالانصراف، حتى يُقتل جفتم فيأمنون بعده أياماً.
+  en: Abu al-Qasim reaches Shibam with the man the sons of Ya'fur sent, stays some days while letters pass between him and them and they promise him leave to go, until Jaftam is killed and they feel secure for some days after.
+  ur: ابو القاسم اس آدمی کے ساتھ شبام پہنچتے ہیں جسے یعفر کے بیٹوں نے بھیجا تھا، کچھ دن رہتے ہیں، خط ان کے اور ان کے درمیان چلتے رہتے ہیں اور وہ انہیں جانے کی اجازت کا وعدہ دیتے ہیں، یہاں تک کہ جفتم قتل ہوتا ہے اور اس کے بعد وہ کچھ دن بے خوف رہتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0904"
+    hijri: "0291"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 291هـ مستنتجة من ترتيب الخبر؛ الكتاب لا يعيّن يوماً ولا شهراً؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: أبو القاسم ابن الهادي، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-said-ibn-yusuf
+  role: الراوي
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص273 ⁦⁦(الصفحة المطبوعة)⁩⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-31
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 273

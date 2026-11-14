@@ -1,0 +1,74 @@
+id: event/the-sons-of-yafur-plunder-arthal-and-the-reinforcement-of-ibn-khalaf-leaves-291
+class: event
+kind: other
+label:
+  ar: نهب ابني يعفر لأرثل وعودة مدد ابن خلف إلى صنعاء بلا نفقة، صفر 291هـ
+  en: The sons of Ya'fur plunder Arthal and Ibn Khalaf's reinforcement goes back to Sana'a unpaid, Safar 291 AH
+  ur: یعفر کے بیٹوں کا ارثل کو لوٹنا اور ابن خلف کی کمک کا بغیر تنخواہ صنعاء لوٹنا، صفر 291ھ
+summary:
+  ar: يوم السبت ينهب جند ابني يعفر ما في أرثل، ويرسل ابن خلف مدداً من صنعاء فيقف مع أهل القلعة إلى نصف النهار بلا قتال، ثم يطلب المدد النفقة فلا يعطيهم ابن خلف شيئاً فيرجعون إلى صنعاء.
+  en: On the Saturday the troops of the two sons of Ya'fur plunder what is in Arthal; Ibn Khalaf sends a reinforcement from Sana'a that stands with the people of the fort until midday with no fighting, then it asks Ibn Khalaf for pay, he gives it nothing and it goes back to Sana'a.
+  ur: ہفتے کے دن یعفر کے بیٹوں کے سپاہی ارثل کا مال لوٹتے ہیں؛ ابن خلف صنعاء سے کمک بھیجتا ہے جو قلعے والوں کے ساتھ دوپہر تک بغیر لڑائی کھڑی رہتی ہے، پھر کمک ابن خلف سے خرچ مانگتی ہے، وہ کچھ نہیں دیتا اور وہ صنعاء لوٹ جاتی ہے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0904-01
+    hijri: 0291-02
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: السبت والأحد بعد 23 صفر؛ لم يطابق المتحف الأيام بالتقويم الجدولي، فالتاريخ بدقة الشهر؛ السنة مستنتجة من الترتيب؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: أبو القاسم ابن الهادي، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  role: ابن خلف، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/arthal-yemen
+  role: أرثل كما في المطبوع
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص271 ⁦⁦(الصفحة المطبوعة)⁩⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-31
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 271

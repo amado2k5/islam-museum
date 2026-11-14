@@ -1,0 +1,83 @@
+id: event/abu-al-qasim-tells-his-dream-of-the-sons-of-yafur-and-the-rising-of-the-prisons-291
+class: event
+kind: other
+label:
+  ar: رؤيا أبي القاسم لابني يعفر وخروج ابن خلف وكسر حبس صنعاء، حتى 23 صفر 291هـ
+  en: Abu al-Qasim's dream of the two sons of Ya'fur, Ibn Khalaf's going out and the breaking of the prison of Sana'a, to 23 Safar 291 AH
+  ur: ابو القاسم کا یعفر کے دو بیٹوں کا خواب، ابن خلف کا نکلنا اور صنعاء کی جیل کا ٹوٹنا، 23 صفر 291ھ تک
+summary:
+  ar: يروي علي بن محمد عن محمد بن سعيد أن أبا القاسم رأى في المنام ابني يعفر يدخلان القلعة ويخلصانه من الحبس والقيد، ثم يخرج ابن خلف إلى مشرق خولان فيكسر جراح حبس صنعاء ويلحق به أصحاب الهادي، وفي يوم الجمعة 23 صفر ينهب عسكر ابني يعفر غنماً حول القلعة.
+  en: Ali ibn Muhammad tells, from Muhammad ibn Sa'id, that Abu al-Qasim dreamed of the two sons of Ya'fur entering the fort and freeing him from prison and fetter; then Ibn Khalaf goes east to Khawlan, Jarrah breaks the prison of Sana'a and the companions of al-Hadi join, and on Friday 23 Safar the troops of the two sons of Ya'fur plunder sheep around the fort.
+  ur: علی بن محمد، محمد بن سعید سے روایت کرتے ہیں کہ ابو القاسم نے خواب دیکھا کہ یعفر کے دو بیٹے قلعے میں آ کر انہیں قید اور بیڑی سے چھڑاتے ہیں؛ پھر ابن خلف مشرقِ خولان کو جاتا ہے، جراح صنعاء کی جیل توڑتا ہے اور ہادی کے ساتھی آ ملتے ہیں، اور جمعہ 23 صفر کو یعفر کے بیٹوں کا لشکر قلعے کے گرد بکریاں لوٹتا ہے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0904-01
+    hijri: 0291-02
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: الراوي يذكر يوم الجمعة 23 صفر؛ لم يطابق المتحف اليوم بالتقويم الجدولي، فالتاريخ بدقة الشهر، والسنة 291هـ مستنتجة من ترتيب الخبر؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: أبو القاسم ابن الهادي، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-said-ibn-yusuf
+  role: راوي الخبر عن أبي القاسم
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  role: الراوي
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  role: ابن خلف، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص270 ⁦⁦(الصفحة المطبوعة)⁩⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-31
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 270

@@ -1,0 +1,83 @@
+id: event/abu-al-qasim-leaves-shibam-with-gifts-and-reaches-saada-in-291
+class: event
+kind: other
+label:
+  ar: خروج أبي القاسم من شبام بالهدايا وبلوغه صعدة في أيام من سنة 291هـ
+  en: Abu al-Qasim leaves Shibam with gifts and reaches Sa'da in the first days of 291 AH
+  ur: ابو القاسم کا تحائف کے ساتھ شبام سے نکلنا اور 291ھ کے ابتدائی دنوں میں صعدہ پہنچنا
+summary:
+  ar: يكتب أبو القاسم إلى ابني يعفر يشكو طول مقامه، فيرسلان إليه دواب وخلعاً وسيفاً وكتباً تعتذر، فيقبل عذرهما ويفرق ما أرسلاه، ثم يخرج من شبام إلى الغيل ثم ريدة وورور وغيرها حتى يصل صعدة، ويذكّر الراوي بالرؤيا.
+  en: Abu al-Qasim writes to the two sons of Ya'fur complaining of the length of his stay, and they send him mounts, robes, a sword and letters of excuse; he accepts their excuse and shares out what they sent, then leaves Shibam by al-Ghayl, Raydah, Warwar and other stops until he reaches Sa'da, and recalls the dream to the narrator.
+  ur: ابو القاسم یعفر کے دونوں بیٹوں کو اپنے طویل قیام کی شکایت لکھتے ہیں، وہ سواریاں، خلعتیں، تلوار اور معذرت کے خط بھیجتے ہیں؛ وہ ان کا عذر قبول کر کے بھیجی ہوئی چیزیں بانٹ دیتے ہیں، پھر شبام سے غیل، ریدہ، ورور اور دیگر پڑاؤ سے ہوتے ہوئے صعدہ پہنچتے ہیں اور راوی کو خواب یاد دلاتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0904"
+    hijri: "0291"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 291هـ مستنتجة من ترتيب الخبر ومن قول الراوي إنهم بلغوا صعدة في أيام ماضية من سنة 291هـ؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: أبو القاسم ابن الهادي، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-said-ibn-yusuf
+  role: الراوي
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  role: عمال الدعام
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/al-ghayl-al-bawn-yemen
+  role: الغيل كما في المطبوع
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/raydah-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/warwar-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص274 ⁦⁦(الصفحة المطبوعة)⁩⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-31
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 274

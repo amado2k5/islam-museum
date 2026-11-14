@@ -1,0 +1,70 @@
+id: event/the-dearth-and-the-arms-ban-on-banu-al-harith-and-yam-at-najran-291
+class: event
+kind: other
+label:
+  ar: القحط في اليمن وقيام بني الحارث ويام على عامل الهادي بنجران ومنع حمل السلاح عليهم، 291هـ
+  en: The dearth in Yemen, the rising of Banu al-Harith and Yam against al-Hadi's governor at Najran and the ban on their carrying arms, 291 AH
+  ur: یمن میں قحط، نجران میں ہادی کے عامل کے خلاف بنو حارث اور یام کا اٹھنا اور ان پر ہتھیار اٹھانے کی ممانعت، 291ھ
+summary:
+  ar: يروي علي بن محمد أن قحطاً عمّ اليمن حتى أكل الناس بعضهم بعضاً، فقام جماعة من بني الحارث ويام على عامل الهادي بنجران، فيروي محمد بن عبيد الله أنه شدّ عليهم وحبس من أمكنه ورفعهم إلى صعدة وحرّم عليهم حمل السلاح من أعلى الوادي إلى أسفله، فأمنت البلاد حتى زال القحط.
+  en: Ali ibn Muhammad relates that a dearth overspread Yemen until people ate one another, and a body of Banu al-Harith and Yam rose against al-Hadi's governor at Najran; Muhammad ibn Ubaydallah relates that he pressed hard on them, jailed those he could take and sent them up to Sa'da, and forbade them to carry arms from the top of the valley to its bottom, so the land was secure until the dearth cleared.
+  ur: علی بن محمد روایت کرتے ہیں کہ یمن میں قحط چھا گیا یہاں تک کہ لوگ ایک دوسرے کو کھا گئے، اور بنو حارث اور یام کی ایک جماعت ہادی کے عامل کے خلاف نجران میں اٹھی؛ محمد بن عبید اللہ بیان کرتے ہیں کہ انہوں نے ان پر سختی کی، جنہیں پا سکے قید کر کے صعدہ بھیج دیا اور وادی کے اوپر سے نیچے تک ان پر ہتھیار اٹھانے سے ممانعت کر دی، تو ملک امن میں رہا یہاں تک کہ قحط چھٹ گیا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0904"
+    hijri: "0291"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 291هـ مستنتجة من ترتيب الخبر ومن قوله «في ذلك الوقت»؛ الكتاب لا يعين يوماً ولا شهراً؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  role: محمد بن عبيد الله، عامل الهادي بنجران
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  role: الراوي
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  role: بنو الحارث، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص274-275 ⁦⁦(الصفحة المطبوعة)⁩⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-31
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 274-275
