@@ -2812,3 +2812,14 @@ Resume point: modakirate-iblis episode 28 (branch from origin/main).
 | Loops, garbled stretches and side remarks (a remark on the viewers of the channel, a story of a boy and a football match, a stretch on prescriptions about a monthly cycle, a stretch on healing treatments) | ep28 00:06:00-00:07:00 (part), 00:07:30-00:09:00 (part), 00:16:30-00:17:30 (part), 00:21:00-00:22:30 (part), 00:23:00 | Not recoverable or off the lesson | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 29 (branch from origin/main).
+
+### modakirate-iblis ep29 (14 Nov 2026)
+
+13 points written for episode 29 (ar, en, ur); 10 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (36-26, 36-27, 1-5, 1-6, 59-9, 28-26, 12-55, 3-110); none typed.
+
+| Excluded (modakirate-iblis ep29) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break (no trailer text in the recording) and the closing prayer and outro chant | ep29 00:00:00, 00:11:30-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (the brotherhood saying, the rest of the Hijr report, a stretch on the Prophet's treatment of customs, the Tabuk distance) | ep29 00:05:00-00:05:30 (part), 00:06:00-00:06:30, 00:21:30-00:22:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 30 (branch from origin/main).
