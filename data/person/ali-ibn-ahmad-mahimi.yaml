@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلي بن محمود المهائمي، مفسر الهند في القرن الخامس عشر صاحب «تبصير الرحمن»، توفي سنة ١٤٣٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ali ibn Mahmud al-Mahimi, the fifteenth-century Indian exegete author of Tabsir al-Rahman, d. 1432; the biographical entry is not yet checked on the page."
+  ar: "علي بن أحمد بن علي المهائمي الهندي، أبو الحسن، علاء الدين، المعروف بالمخدوم، من النوائت، باحث مفسر يقول بوحدة الوجود كما يذكر الزركلي، ولد ومات في مهائم من ساحل الكوكن بالدكن، وله «تبصير الرحمن» وشروح وأدلة التوحيد؛ ٧٧٦ إلى ٨٣٥هـ الموافقة ١٣٧٤ إلى ١٤٣٢م."
+  en: "Ali ibn Ahmad ibn Ali al-Mahaimi al-Hindi, Abu al-Hasan, Ala al-Din, known as al-Makhdum, of the Nawa'it; a researcher and exegete who, al-Zirikli says, held the doctrine of the unity of being. Born and died at Mahaim on the Konkan coast of the Deccan; author of «Tabsir al-Rahman» and several commentaries. 776 to 835 AH, 1374 to 1432 CE."
 wings: [people]
 regions: [south-asia]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6739378
   viaf: "2008156919249454970009"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0039
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1432", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / Nuzhat al-Khawatir" }
+born: { edtf: "1374", calendar: gregorian, precision: year, derived: true, note: "776 AH = 1374 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 4 p. 250", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/india, note: "From text: Indian (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

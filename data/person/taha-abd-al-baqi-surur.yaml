@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لطه عبد الباقي سرور؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Taha Abd al-Baqi Surur; the entry is not yet checked on the page."
+  ar: "طه بن عبد الباقي سرور، من أسرة نعيم، باحث مصري فيه نزعة صوفية، كتب كثيرا في المجلات المعنية بالشؤون الإسلامية وألف رسائل عن الغزالي والحلاج ورابعة العدوية وابن عربي، وتوفي بالقاهرة سنة ١٣٨٢هـ الموافقة ١٩٦٢م."
+  en: "Taha ibn Abd al-Baqi Surur, of the Nu'aym family, an Egyptian researcher with a Sufi leaning who wrote much in the magazines on Islamic affairs and published books on al-Ghazali, al-Hallaj, Rabi'a al-Adawiyya and Ibn Arabi; he died in Cairo in 1382 AH, 1962 CE."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/modern-era]
 died: { edtf: "1962", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q100259832 (P570, a statement with a reference), item revision 2547113204.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q100259832
   viaf: "101354103"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
