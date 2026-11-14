@@ -25,10 +25,10 @@ faith:
     basis: unknown
     note: "No source read for this record makes any statement of Khedira's own religion, and no source names a school for him. The English Wikipedia article's personal-life section records only his parentage — born in Stuttgart to a Tunisian father and a German mother — and his brother Rani's football career; the Arabic article says the same (من أب تونسي وأم ألمانية) and likewise names no religion for him. Wikidata Q54094 carries no religion value at all. A father's Tunisian origin is family background, which under the lane rule never counts as an attestation of the son's faith, and his descent is the only basis on which wider coverage sometimes lists him among Muslim players; no self-identification and no school are recorded in any source read. Under the two-source rule and the doubt rule, his faith is recorded as unknown, with both directions of the picture stated here in full."
     sources: [source/wikipedia-sami-khedira-en, source/wikipedia-sami-khedira-ar, source/wikidata-sami-khedira]
-external_ids: { wikidata: "Q54094" }
+external_ids: { wikidata: "Q54094", viaf: "310508149" }
 relations:
   - { type: born_in, target: place/stuttgart, sources: [source/wikidata-sami-khedira], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1022)" }
-sources: [source/wikipedia-sami-khedira-en, source/wikipedia-sami-khedira-ar, source/wikidata-sami-khedira]
+sources: [source/wikipedia-sami-khedira-en, source/wikipedia-sami-khedira-ar, source/wikidata-sami-khedira, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Sami Khedira' (revision 1371297749 of 25 August 2026), Arabic Wikipedia «سامي خضيرة» (revision 76161080 of 9 August 2026) and Wikidata Q54094, all read in full on 26 October 2026 and checked against the recorded revisions. No earlier record for him existed in data/person/ under sami-khedira or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."

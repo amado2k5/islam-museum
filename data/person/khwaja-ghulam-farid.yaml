@@ -40,8 +40,8 @@ faith:
 relations:
   - { type: lived_in, target: place/punjab, confidence: low, note: "Associated with البنجاب per the record's own summary text; relation type pending review.", sources: [source/wikipedia-khwaja-ghulam-farid-en] }
   - { type: member_of, target: group/chishtiyya, sources: [source/wikipedia-khwaja-ghulam-farid-en, source/wikipedia-khwaja-ghulam-farid-ur] }
-external_ids: { wikidata: "Q60803" }
-sources: [source/wikipedia-khwaja-ghulam-farid-en, source/wikipedia-khwaja-ghulam-farid-ar, source/wikipedia-khwaja-ghulam-farid-ur, source/wikidata-khwaja-ghulam-farid]
+external_ids: { wikidata: "Q60803", viaf: "49416501" }
+sources: [source/wikipedia-khwaja-ghulam-farid-en, source/wikipedia-khwaja-ghulam-farid-ar, source/wikipedia-khwaja-ghulam-farid-ur, source/wikidata-khwaja-ghulam-farid, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Khwaja Ghulam Farid' (revision 1371956354), Urdu Wikipedia 'خواجہ غلام فرید' (revision 10969815) and Arabic Wikipedia 'خواجة غلام فريد' (revision 76789104), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q60803 (item revision 2554754427). The Arabic article is a translation of the English and is counted as the same text family; the Urdu article is independently written. Existence checks by name fragments (farid, ghulam farid, غلام فرید), by Arabic label across data/person, by biography and by QID found no prior record for this man; person/ibn-al-farid is the classical poet Umar ibn al-Farid, a different man. His teacher and murshid, his elder brother Khwaja Fakhr Jahan, has no person record, so no student_of edge is written; the member_of edge to group/chishtiyya is written once, here, in the subject's own record. The lane queue gives 1845–1901."
