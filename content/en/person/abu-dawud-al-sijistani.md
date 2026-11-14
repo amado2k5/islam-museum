@@ -31,3 +31,6 @@ The Sunan was handed down through several lines of transmission, and some versio
 
 ## Settling at Basra
 The amir Abu Ahmad al-Muwaffaq asked him to move to Basra to revive it with learning after the ordeal of the Zanj, to transmit the Sunan to his sons and to hold them a separate session; Abu Dawud accepted the first two and refused the third, saying: people are equal in knowledge {cite:tarikh-islam-dhahabi pp. 361-362}. He made Basra his home until his death {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}. The Encyclopaedia says this settlement is probably why some wrongly derived his nisba al-Sijistani from a village near Basra of that name, not from the province {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 6 works under the author identifier 0275AbuDawudSijistani, among them: Marasil; Masail Imam Ahmad; Risala Ila Ahl Makka; Sualat Ajurri. {cite:openiti-corpus 0275AbuDawudSijistani}

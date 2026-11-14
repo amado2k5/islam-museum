@@ -1,0 +1,18 @@
+id: concept/canon-signs-of-health
+class: concept
+kind: scientific
+label: { ar: "علامات الصحة عند ابن سينا", en: "Signs of health in the Canon", ur: "صحت کی علامات، قانون کے مطابق" }
+summary:
+  ar: "يقسم ابن سينا العلامات الصحية إلى ما يدل على اعتدال المزاج وما يدل على استواء التركيب، وهذه جوهرية وعرضية وتمامية، ثم يبين كيف يستدل من الأفعال على الأعضاء الرئيسة {cite:canon-ibn-sina-print-v1 p.154}."
+  en: "Ibn Sina divides the signs of health into those pointing to an even temperament and those pointing to a sound composition, the latter being essential, accidental and complete, and then shows how the principal organs are read from their functions {cite:canon-ibn-sina-print-v1 p.154}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 1 to 4 on symptoms, signs and the signs of temperament (scan pages 154 to 163), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-talim3-ch1-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

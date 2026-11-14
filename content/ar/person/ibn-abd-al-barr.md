@@ -48,3 +48,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker A)", model: claude-
 
 ## الرحلة في الأندلس والوفاة
 ترك قرطبة فكان في غرب الأندلس مدة، ثم تحوّل إلى شرقها فسكن [[place/dania|دانية]] و[[place/valencia|بلنسية]] و[[place/shatiba|شاطبة]]. {cite:tamhid-furqan-2017-v1 p. 18} وتوفي بشاطبة في آخر ربيع الآخر سنة ثلاث وستين وأربع مئة، ودفن يوم الجمعة لصلاة العصر، ويوافق ذلك عند المحقق 4 آذار/مارس 1071م، فعُمّر خمساً وتسعين سنة هجرية. {cite:tamhid-furqan-2017-v1 p. 18} {cite:wafayat-ayan p. 71}
+
+## أعمال في مدونة OpenITI
+تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0463IbnCabdBarr 15 من الأعمال، منها: بهجة المجالس وأنس المجالس، الدرر، اختلاف أقوال مالك وأصحابه، الإنباه على قبائل الرواة. {cite:openiti-corpus 0463IbnCabdBarr}

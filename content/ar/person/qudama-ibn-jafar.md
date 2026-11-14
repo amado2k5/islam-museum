@@ -11,3 +11,6 @@ translators: []
 
 ## كتاب الخراج في طبعة دي خويه
 تسمّيه نبذ «كتاب الخراج وصنعة الكتابة» المطبوعة في المجلد السادس من «المكتبة الجغرافية العربية»: أبا الفرج قدامة بن جعفر الكاتب البغدادي. {cite:masalik-mamalik-ibn-khurdadhbih p.192} وفي الباب الحادي عشر من المنزلة الخامسة يصف ديوان البريد ويشترط في صاحبه أن يكون ثقة متحفظاً، ثم يسرد طرق الدولة منزلاً منزلاً مبتدئاً بطريق مكة، وفي المنزلة السادسة يقسم المعمور أقاليم ويختم ببلاد المغرب والأندلس. {cite:masalik-mamalik-ibn-khurdadhbih p.192} {cite:masalik-mamalik-ibn-khurdadhbih p.193} {cite:masalik-mamalik-ibn-khurdadhbih p.238} {cite:masalik-mamalik-ibn-khurdadhbih p.274} وانظر [[work/kitab-al-kharaj-qudama|كتاب الخراج وصنعة الكتابة]].
+
+## أعمال في مدونة OpenITI
+تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0337QudamaIbnJacfar 2 من الأعمال، منها: كتاب الخراج، نقد الشعر. {cite:openiti-corpus 0337QudamaIbnJacfar}

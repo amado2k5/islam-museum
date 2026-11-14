@@ -6,24 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد تقي المجلسي، فقيه إصفهان ووالد محمد باقر في القرن السابع عشر، توفي سنة ١٦٦٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Taqi al-Majlisi, the seventeenth-century jurist of Isfahan and father of Muhammad Baqir, d. 1660; the biographical entry is not yet checked on the page."
+  ar: "محمد تقي بن مقصود علي الأصفهاني المجلسي، فقيه إمامي له اشتغال بإحياء آثار أهل البيت، تلميذ بهاء الدين العاملي ووالد محمد باقر المجلسي، ولد ومات في أصفهان سنة ١٠٧٠هـ؛ له روضة المتقين وإحياء الأحاديث."
+  en: "Muhammad Taqi ibn Maqsud Ali al-Isfahani al-Majlisi, an Imami (Twelver Shi'i) jurist devoted to reviving the legacy of the Ahl al-Bayt, a pupil of Baha' al-Din al-Amili and father of Muhammad Baqir al-Majlisi, born and died at Isfahan, d. 1070 AH (1660); author of Rawdat al-muttaqin and Ihya' al-ahadith."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16052580
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0053
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1594", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-Amili (Amal al-Amil)" }
 died: { edtf: "1660", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-Amili (Amal al-Amil)" }
 relations:
   - { type: lived_in, target: place/isfahan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
+  - { type: born_in, target: place/isfahan, note: "Al-Zirikli, al-A'lam vol. 6 p. 23: born in Isfahan.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/isfahan, note: "Al-Zirikli, al-A'lam vol. 6 p. 23: died in Isfahan.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

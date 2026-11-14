@@ -48,3 +48,6 @@ Among his best-known books is [[work/al-istidkar|al-Istidhkar al-Jami' li-Madhah
 
 ## Moves within al-Andalus and death
 He left Cordoba and spent some time in the west of al-Andalus, then moved east and lived in [[place/dania|Denia]], [[place/valencia|Valencia]] and [[place/shatiba|Xàtiva]]. {cite:tamhid-furqan-2017-v1 p. 18} He died in Xàtiva at the end of Rabi' al-Akhir 463 AH and was buried on the Friday at the afternoon prayer; the editor equates this with 4 March 1071 CE, giving him ninety-five lunar years. {cite:tamhid-furqan-2017-v1 p. 18} {cite:wafayat-ayan p. 71}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 15 works under the author identifier 0463IbnCabdBarr, among them: Bahjat Majalis; Durar; Ikhtilaf Malik Wa Ashabihi; Inbah Cala Qabail. {cite:openiti-corpus 0463IbnCabdBarr}

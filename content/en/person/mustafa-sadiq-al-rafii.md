@@ -21,3 +21,5 @@ He largely gave up poetry for prose, protesting that the limitations of metre an
 ## Death
 He died at Tanta in May 1937, aged fifty-seven — Wikidata gives the day as 10 May, while the English article's infobox gives 1 May. {cite:wikipedia-mustafa-sadiq-al-rafii-fr} {cite:wikidata-mustafa-sadiq-al-rafii} {cite:wikipedia-mustafa-sadiq-al-rafii-en}
 
+## Works in the OpenITI corpus
+The OpenITI corpus holds 11 works under the author identifier 1356MustafaSadiqRafici, among them: Awraq Ward; Hadith Qamar; Icjaz Quran; Kitab Masakin. {cite:openiti-corpus 1356MustafaSadiqRafici}

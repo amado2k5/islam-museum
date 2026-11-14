@@ -13,3 +13,6 @@ He is the author of [[work/sharh-aqida-tahawiyya|Commentary on the Tahawi Creed]
 
 ## School and dates
 His affiliation to the Hanafi school is established by the title page, and in his commentary he refers to the followers of Abu Hanifa as "our companions". The title page of the Dar al-Hadith edition gives the years 731 and 792 AH. These two dates come from one source, so they need an additional source. {cite:sharh-tahawiyya-ibn-abi-al-izz}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 4 works under the author identifier 0792SadrDinIbnAbiCizzAdhraci, among them: Ittibac; Sharh Caqida Tahawiyya; Tafsir; Tanbih. {cite:openiti-corpus 0792SadrDinIbnAbiCizzAdhraci}

@@ -37,3 +37,6 @@ F. J. Ragep, the author of the third part, notes that al-Tusi wrote over 150 pro
 He won his greatest fame in [[concept/astronomy|astronomy]]. The article calls his most original achievement his planetary theory: troubled by the departure of the Ptolemaic system from uniform circular motion, he devised a model of two spheres, the smaller rotating twice as fast as the larger and in the opposite direction, so that a point on it moves along a straight line. Used in his lunar and planetary models, it kept Ptolemaic accuracy while preserving uniform circular motion. The models first appeared in a Persian treatise for his Isma'ili patrons and were developed in his Arabic Tadhkira fi ilm al-hay'a. The article adds that the device, now called the "Tusi couple", influenced astronomers for several centuries and reached Sanskrit and Byzantine texts and Renaissance astronomers including Copernicus {cite:encyclopaedia-of-islam-2 vol. 10 p. 802}.
 
 An additional source is needed for the full list of his works. Some details of the OCR of the life section are unreadable and have been left out.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 4 works under the author identifier 0672NasirDinTusi, among them: Jawahir Faraid; Tafsir Isharat; Tahrir Majisti; Tajrid Mantiq. {cite:openiti-corpus 0672NasirDinTusi}

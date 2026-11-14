@@ -10,3 +10,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-
 
 ## The Stories of the Prophets
 Among his books is [[work/qisas-al-anbiya-ibn-kathir|Qisas al-Anbiya']], from Adam to Jesus. Its editor 'Abd al-Hayy al-Farmawi lists among his works al-Ijtihad fi Talab al-Jihad, Ahkam al-Tanbih, al-Bidaya wa-al-Nihaya, the commentary on the Qur'an, Takmilat Asma' al-Thiqat wa-al-Du'afa', Jami' al-Masanid wa-al-Sunan, part of a commentary on al-Bukhari's Sahih, Tabaqat al-'Ulama', al-Fusul fi Sirat al-Rasul and al-Wadih al-Nafis fi Manaqib al-Imam Muhammad ibn Idris. He gives his death as Sha'ban 774 AH. {cite:qisas-al-anbiya-ibn-kathir-farmawi-1997 p. 5-6}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 15 works under the author identifier 0774IbnKathir, among them: Adab Dukhul Hammam; al-Bidāyaŧ wa-al-nihāyaŧ; Fadail Quran; Fusul Min Sira. {cite:openiti-corpus 0774IbnKathir}

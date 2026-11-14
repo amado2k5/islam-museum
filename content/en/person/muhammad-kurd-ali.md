@@ -17,3 +17,6 @@ In 1897 he was entrusted with editing the government weekly al-Sham for three ye
 
 ## A note on his religion
 No source names a school or affiliation for Muhammad Kurd Ali personally. The English article, citing Rainer Brünner, notes that he was known for writing anti-Shia polemics — a stance toward another community, which does not name his own school — and Wikidata carries no religion value. His faith is therefore recorded as unknown in his data record. {cite:wikipedia-muhammad-kurd-ali-en} {cite:wikidata-muhammad-kurd-ali}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 9 works under the author identifier 1372KurdCali, among them: Dimashq Madinat Sihr Wa Shicr; Ghabir Andalus Wa Hadiruha; Idara Islamiyya Fi Cizz Carab; Islam Wa Hadara Carabiyya. {cite:openiti-corpus 1372KurdCali}

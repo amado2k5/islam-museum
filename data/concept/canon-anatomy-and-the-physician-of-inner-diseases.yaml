@@ -1,0 +1,18 @@
+id: concept/canon-anatomy-and-the-physician-of-inner-diseases
+class: concept
+kind: scientific
+label: { ar: "حاجة طبيب الأمراض الباطنة إلى التشريح عند ابن سينا", en: "The physician of inner diseases and his need of anatomy in the Canon", ur: "اندرونی امراض کے طبیب کو تشریح کی حاجت، قانون کے مطابق" }
+summary:
+  ar: "يقرر ابن سينا أن المستدل على الأمراض الباطنة يجب أن يتقدم له علم التشريح، ويعدد ما يعرفه به من جوهر العضو وخلقته وموضعه ومشاركاته وما يحتبس فيه وفعله {cite:canon-ibn-sina-print-v1 p.156}."
+  en: "Ibn Sina holds that whoever reads inner diseases must first have anatomy, and lists what it gives him: the substance, make and place of each organ, its sympathies, what can be held in it and its function {cite:canon-ibn-sina-print-v1 p.156}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 1 to 4 on symptoms, signs and the signs of temperament (scan pages 154 to 163), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-talim3-ch1-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

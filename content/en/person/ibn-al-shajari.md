@@ -17,3 +17,6 @@ He wrote *al-Amali* (Dictations), which *Kashf al-Zunun* says covers five branch
 - He lived in Baghdad under Seljuk rule, through the caliphates from al-Qa'im to al-Muqtafi. He studied lexicon and literature with al-Khatib al-Tabrizi, and taught Ibn al-Khashshab and Abu al-Barakat al-Anbari; Abu Sa'd al-Sam'ani read with him part of Tha'lab's Amali. {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 17-19}
 - Abu al-Barakat al-Anbari relates that when [[person/al-zamakhshari|al-Zamakhshari]] came to Baghdad on pilgrimage, Ibn al-Shajari called to welcome him and recited verses in his praise. Al-Zamakhshari answered with the report of Zayd al-Khayl. {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 19}
 - His best-known book is [[work/amali-ibn-al-shajari|the Amali]], in eighty-four sessions; his editor considers him a pure Basran in grammar. {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 8} {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 189}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 3 works under the author identifier 0542IbnCaliDiyaDinIbnShajari, among them: Amali; Mā lam yunšar min al-amālī al-šaǧariyyaŧ; Mukhtarat Shucara. {cite:openiti-corpus 0542IbnCaliDiyaDinIbnShajari}
