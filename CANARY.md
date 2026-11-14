@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v1.30.1 — 2026-11-14
 ### Added
+- **Harvest register: one central file records every book, audio series, website and dataset processed so far.** `docs/library/harvest-register.yaml` (with `docs/library/README.md` and a fast `npm run check:harvest-register` check, wired into `npm run validate`) lets any agent see what is downloaded, OCRed, mined and ingested before redoing work, and sets a deletion gate: a finished book's PDF may leave the microSD only after its OCR text is zipped and verified. AGENTS.md and the agent guides point to it. Nothing was deleted.
 - **Yaqut's Mu'jam al-Buldan now speaks on seven more place pages (packet 68).** Cordoba, Adhruh, Raydah, Harasta, Samasta, Haditha (of the Euphrates) and Sabalan each gain an Arabic, English and Urdu section summarising Yaqut's entry, cited to the Dar Sader volume and page. Cordoba, Harasta and Haditha get their first prose page. Three cards (Oman, al-Sayla, al-Miyanij) were skipped because Yaqut's headword is a different or unclear place; they are logged for outside research.
 
 ### Fixed
