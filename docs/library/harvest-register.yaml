@@ -17006,13 +17006,13 @@ books:
     - {name: AAlexandrina-001518.pdf, bytes: 51172752, pages: 528, ocr_pages: 528, sha256: eec0ca9de007b248133629a584ea21e78db0331e16a98b11893f58f5940c6958}
     - {name: AAlexandrina-223853.pdf, bytes: 112212590, pages: 912, ocr_pages: 912, sha256: 5591ab80691eb9f3a488cf0bfc9e3e2e4d5f260eef1673c899a0c1eceff048af}
     - {name: AAlexandrina-223861.pdf, bytes: 96658130, pages: 880, ocr_pages: 880, sha256: 7eb4642e6af002dcdc5ddce916637492b98cfab26d685e7314558c840ea522bf}
-    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 273368703, sha256_status: computed}
+    acquisition: {source: '4 archive.org items AAlexandrina-001518, AAlexandrina-223853, AAlexandrina-223861, 20240821_20240821_0039 (https://archive.org/details/<item>)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 273368703, sha256_status: computed}
     physical: {pages: 3159}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/tareekh/shadharat-dhahab/}
-    ocr_archive: {state: none}
+    ocr_archive: {path: ocr-archive/tareekh/shadharat-dhahab.zip, bytes: 4451830, sha256: 8df1cd9f3ff7edfcbe67d8e73cf4158c45f9cb118957535a465f3717571869af, pages_covered: 3159, zipped: '2026-11-14', state: verified, note: 'unzip -t passed; book.txt, pages.json and meta.json of all four scans (839, 528, 912, 880 pages), no images or PDFs'}
     mining: {state: mined, entities: '1687 data files cite source/shadharat-dhahab,qisas-anbiya-thaalabi-edition'}
     ingestion: {state: ingested, prs: [179, 2652], ledger: [docs/delegation/library/qisas-prophets.md, docs/delegation/library/shadharat-dhahab.md], graph_ids: [source/shadharat-dhahab, source/qisas-anbiya-thaalabi-edition]}
-    completion: ingested
+    completion: complete
     unverified:
     - edition
     - mining.ranges_mined
@@ -17022,7 +17022,7 @@ books:
     - physical.offset
     - publisher
     - year
-    notes: 'needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); progress file: vols 1-8 fully mined through AH 1000 and colophon; other source ids: qisas-anbiya-thaalabi-edition'
+    notes: 'OCR zip verified 14 Nov 2026; all four scans mined (vols 1-8 through AH 1000 and colophon); the AH 701-800 stretch was never scanned (source gap, not a skipped page); progress file says the book is complete (not independently verified); progress file: vols 1-8 fully mined through AH 1000 and colophon; other source ids: qisas-anbiya-thaalabi-edition'
   - id: subh-asha
     title: صبح الأعشى
     author: أبو العباس أحمد القلقشندي; Abu al-Abbas Ahmad al-Qalqashandi
