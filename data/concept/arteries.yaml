@@ -1,0 +1,18 @@
+id: concept/arteries
+class: concept
+kind: scientific
+label: { ar: "الشرايين عند ابن سينا", en: "Arteries in the Canon", ur: "قانون میں شریانیں" }
+summary:
+  ar: "الجملة الرابعة من تشريح الأعضاء المفردة عند ابن سينا في الشرايين، وهي العروق الضوارب، في خمسة فصول؛ وهي ذات غشاءين إلا واحداً، ومنبتها من التجويف الأيسر للقلب {cite:canon-ibn-sina-print-v1 pp.83-84}."
+  en: "The fourth group of the anatomy of the simple organs in Ibn Sina is the arteries, the pulsing vessels, in five chapters; they have two coats, with one exception, and spring from the left cavity of the heart {cite:canon-ibn-sina-print-v1 pp.83-84}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

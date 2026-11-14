@@ -1,0 +1,18 @@
+id: concept/veins
+class: concept
+kind: scientific
+label: { ar: "الأوردة عند ابن سينا", en: "Veins in the Canon", ur: "قانون میں وریدیں" }
+summary:
+  ar: "الجملة الخامسة من تشريح الأعضاء المفردة عند ابن سينا في الأوردة، وهي العروق الساكنة، في خمسة فصول؛ ومنبتها جميعاً من الكبد، وأول ما ينبت منه عرقان هما الباب والأجوف {cite:canon-ibn-sina-print-v1 p.87}."
+  en: "The fifth group of the anatomy of the simple organs in Ibn Sina is the veins, the still vessels, in five chapters; all of them grow from the liver, and the first two to grow from it are the gate vein and the hollow vein {cite:canon-ibn-sina-print-v1 p.87}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
