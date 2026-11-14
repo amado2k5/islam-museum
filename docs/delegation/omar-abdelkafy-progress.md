@@ -4488,3 +4488,51 @@ Resume point: sharh-saheeh-al-bukhare episode 38 (branch from origin/main).
 | Loops and garbled stretches (Paradise garden wording, descent, Joseph and the stages) | ep27 00:11:30-00:13:00, 00:23:30, 00:33:30, 00:38:00, 01:09:00-01:11:00 | Loops and garbled stretches | Clarity, Loop check | Open |
 
 Resume point: alwaad-alhaq episode 28 (branch from origin/main).
+
+### alwaad-alhaq ep28 (14 Nov 2026)
+
+22 points written for episode 28 (ar, en, ur); 18 needs_source marks for this episode in each language file; links added to the Flood, the Trench, Thamud, Aad, the false claimants, the Ridda wars, Abu Lahab and the other figures of the episode. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Remark on a named political group and its members | ep28 00:15:30-00:16:00 | Garbled and politically sensitive; the claim cannot be confirmed from the audio | Clarity, Voice rule | Open |
+| Exchange on Abu Talib and the hadith of the three who came to the gathering | ep28 00:34:30-00:36:00 | Garbled; speakers and claim contradict | Clarity | Open |
+| Anecdotes on China's one-child policy and wolves and deer in Bavaria | ep28 00:56:30-00:57:30 | Unsourced statistics and tangents | Citation, Clarity | Open |
+| Claimed number of occurrences of the promise in the Qur'an | ep28 00:59:30 | Garbled figure with no source | Citation | Open |
+| Anecdote of a claimant to prophethood before Harun al-Rashid and of Shiqq and Satih | ep28 01:01:00-01:02:00 and 01:09:00-01:10:00 | Garbled and contradictory names | Clarity | Open |
+| Stock exchange and finance remarks on Qarun | ep28 01:22:00-01:22:30 | Garbled; sweeping generalisations | Clarity, Voice rule | Open |
+| Loops and garbled stretches (Cain's story, Pharaoh's deification, Aad and Lot details) | ep28 00:19:30, 00:28:00, 00:31:30-00:32:00, 00:53:00-00:54:30, 01:00:00, 01:17:30 | Repeated loops and unreadable text | Loop check | Open |
+
+Resume point: alwaad-alhaq episode 29 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep38 (14 Nov 2026)
+
+26 points written for episode 38 (ar, en, ur); 17 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (9-84, 23-14, 59-8); none typed. Contested: He holds that whoever believes the Qur'an was altered has left the faith, and that whoever speaks ill of Abu Bakr will be struck by God's curse; both are his own rulings and are marked as his view, and the Sunna-and-Qur'an argument is his answer to those who take the Qur'an alone. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep38) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, praise, long supplication and welcome | ep38 00:00:00-00:03:30 | Greetings and prayer, not teaching content (only the lesson number is kept) | Content rule | Open |
+| Closing prayer, exams blessing and farewell | ep38 01:21:30-01:22:00 | Closing prayer and farewell | Content rule | Open |
+| Story about a non-Muslim who heard a report about Islam from a Muslim and the claim about the sincerity of enemies of Islam | ep38 00:05:30-00:06:30 | Garbled in both passes and a sweeping claim about groups | Clarity, Voice rule | Open |
+| Ruling that a person who denies the Sunna is an unbeliever (second pass only) | ep38 00:07:00-00:07:30 | First pass loops there, so only one pass supports it | Clarity | Open |
+| Loop of a repeated phrase | ep38 00:07:00-00:07:30 | Loop in the Qwen pass, resolved only where Whisper is clear | Clarity, Loop check | Open |
+| Account of an answer by Ali about a question on a battle between Companions | ep38 00:15:30-00:17:30 | Garbled in both passes and concerns a conflict between Companions | Clarity, Content rule | Open |
+| Loops and unintelligible stretch | ep38 00:16:30-00:18:00 | Garbled and looping text in both passes | Clarity, Loop check | Open |
+| Claim about what unbelievers and secularists will say on the Day of Judgement | ep38 00:20:30-00:21:30 | Sweeping claim about groups, garbled | Voice rule, Clarity | Open |
+| Hadith of Umar about God putting the right in his judgement (wording differs between passes) | ep38 00:12:00-00:12:30 | Wording garbled and differing in the two passes | Clarity | Open |
+| Chapter and name of the narrator of the report on the Prophet's household conduct | ep38 00:22:00-00:22:30 | The narrator's name differs and is garbled in the two passes, so none is stated | Clarity | Open |
+| Asides about modern bombs, markets and daily life | ep38 00:26:30-00:28:00 | Garbled and a modern conflict aside | Content rule, Clarity | Open |
+| Aside on praying behind a sheikh one is not convinced of, and a story of two brothers | ep38 00:38:30-00:39:30 | Garbled, off topic | Clarity | Open |
+| Supplication for Palestine, aside on martyrdom and commanders at battle | ep38 00:43:00-00:44:00 | Modern conflict supplication and garbled battle aside | Content rule, Clarity | Open |
+| Aside on modern workplace and marital etiquette | ep38 00:45:00-00:46:30 | Garbled and sweeping | Clarity, Voice rule | Open |
+| Account of the woman who cleaned the mosque and the Prophet's prayer over her grave | ep38 00:51:30-00:52:30 | Her name and the reward differ between passes and are garbled | Clarity | Open |
+| Account of the clothing of the Prophet and a Companion's remarks about colours | ep38 00:56:30-00:58:30 | Garbled in both passes | Clarity | Open |
+| Story of the two cloaks and a tale told in the sacred month | ep38 01:02:30-01:04:30 | Garbled story, no clear support | Clarity | Open |
+| Aside on wealth and loss of dignity | ep38 01:06:30-01:07:30 | Garbled in both passes | Clarity | Open |
+| Account of the camel and the donor, and of looking at women in the street | ep38 01:09:30-01:11:30 | Garbled in both passes and touches on women | Clarity, Voice rule | Open |
+| Story of a handsome man who proposed marriage into the Prophet's household | ep38 01:12:30-01:13:30 | Garbled in both passes, names differ | Clarity, Voice rule | Open |
+| Account of the prisoners of Quraysh and the number of the army | ep38 01:17:30-01:19:00 | The two passes give different numbers and the text is garbled | Clarity | Open |
+| Loops and filler repeated phrases | ep38 00:25:00-00:25:30, 00:32:00, 00:41:00, 01:09:30-01:10:00, 01:12:30-01:15:00 | Repeated filler in the Qwen pass | Clarity, Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep38 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 39 (branch from origin/main).
