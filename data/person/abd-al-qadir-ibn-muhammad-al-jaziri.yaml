@@ -11,14 +11,14 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
+sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002, source/wikidata, source/tdv-ceziri-abdulkadir]
 external_ids:
   wikidata: Q97357478
   viaf: "42122455"
 status:
   review: draft
   completeness: 3
-born: { edtf: "1505", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Umdat al-Safwa; al-A'lam (al-Zirikli: 911–977 AH) Confirmed on 13 November 2026 against Wikidata Q97357478 (P569, a statement with a reference), item revision 2491152698.", sources: [source/wikidata] }
+born: { edtf: "1506-01-12", hijri: "0911", calendar: julian, precision: day, status: historical, derived: false, note: "TDV Islam Ansiklopedisi vol. 7 pp. 512-513 (C. Izgi, read 14 November 2026): born 16 Sha'ban 911 = 12 January 1506 (Julian), replacing 1505 from Wikidata Q97357478. Al-Zirikli, al-A'lam vol. 4 p. 10 prints 880 AH = 1475 for the birth; TDV, which gives the day, is followed, and the A'lam figure is recorded here and in the prose. TDV dates his death only as after 976 AH (1568); the card keeps about 1570 from the A'lam (about 977 AH).", sources: [source/tdv-ceziri-abdulkadir, source/wikidata] }
 died: { edtf: "1570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Umdat al-Safwa; al-A'lam (al-Zirikli: 911–977 AH) Confirmed on 13 November 2026 against Wikidata Q97357478 (P570, a statement with a reference), item revision 2491152698.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/cairo, note: "Wikidata Q85 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }

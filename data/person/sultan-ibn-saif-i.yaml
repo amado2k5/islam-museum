@@ -13,8 +13,8 @@ regions: [arabia]
 periods: [period/gunpowder-empires]
 died: { edtf: "1680", calendar: gregorian, precision: year, derived: true, note: "1091 AH = 1680 CE as printed in the entry; the card had 1679 from Badger; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 3 p. 108", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-- { type: ruled_over, target: place/oman, sources: [source/wikidata], confidence: low, note: "Wikidata P39 office held (oman)" }
-sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
+- { type: ruled_over, target: place/oman, sources: [source/wikidata, source/badger-history-imams-seyyids-oman-1871], confidence: low, note: "Wikidata P39 office held (oman). He was chosen imam at once after Imam Nasir ibn Murshid died on Friday 22 April 1649 (1059 AH): Salil ibn Raziq, History of the Imams and Seyyids of Oman, Badger tr. (1871) p. 74 for Nasir's death and pp. 77-78 for the choice of Sultan, read 14 November 2026. Al-Zirikli, al-A'lam 3:108 prints 1050 AH for the oath of allegiance; the 1059 of the chronicle is followed. Badger's own note (p. 90) doubts the chronicle's year for Sultan's death and proposes 1079 AH; the card's death date is not changed here." }
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002, source/badger-history-imams-seyyids-oman-1871]
 external_ids:
   wikidata: Q2364811
 provenance:

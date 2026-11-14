@@ -1,0 +1,59 @@
+id: event/the-deaths-of-ali-ibn-sulayman-and-abu-al-atahiya-at-hidayn-288
+class: event
+kind: other
+label:
+  ar: "مقتل علي بن سليمان وأبي العتاهية بحدين، شوال 288هـ"
+  en: "The deaths of Ali ibn Sulayman and Abu al-Atahiya at Hidayn, Shawwal 288 AH"
+  ur: "حدین میں علی بن سلیمان اور ابو العتاہیہ کی وفات، شوال 288ھ"
+summary:
+  ar: "تقدم علي بن سليمان في أثر المنهزمين حتى وقع في أوسط خيلهم فأصابوه بطعن وضرب ووقع عن دابته، فحمل أبو العتاهية بمن معه فاستنقذه وحمله إلى صنعاء فتوفي بها، ثم أصيب أبو العتاهية بنشابة فمات، وقُتل رجل من ولد الحسين بن علي من الخيل التي في الميسرة، ورجع كل إلى معسكره."
+  en: "Ali ibn Sulayman went forward after the routed until he was in the midst of their horse, where they struck him with spear and sword and he fell from his mount; Abu al-Atahiya charged with his men, rescued him and took him to Sana'a, where he died, and Abu al-Atahiya was then hit by an arrow and died; a man of the line of al-Husayn ibn Ali was killed among the horse on the left, and each side went back to its camp."
+  ur: "علی بن سلیمان بھاگتے ہوؤں کے پیچھے بڑھتے گئے یہاں تک کہ ان کے سواروں کے بیچ پہنچ گئے جہاں ان پر نیزے اور تلوار کے وار ہوئے اور وہ سواری سے گر گئے؛ ابو العتاہیہ نے اپنے ساتھیوں کے ساتھ حملہ کر کے انہیں بچایا اور صنعاء لے گئے جہاں ان کا انتقال ہوا، پھر ابو العتاہیہ کو ایک تیر لگا اور وہ فوت ہو گئے؛ بائیں بازو کے سواروں میں سے حسین بن علی کی اولاد کا ایک شخص مارا گیا، اور ہر فریق اپنے پڑاؤ کو لوٹا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-09"
+    hijri: "0288-10"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شوال سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-sulayman-ibn-al-qasim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/hidayn-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص232-233 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 232-233
