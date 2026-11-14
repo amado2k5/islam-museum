@@ -1,0 +1,18 @@
+id: concept/canon-tearing-breaking-and-loose-pain
+class: concept
+kind: scientific
+label: { ar: "الوجع المفسخ والمكسر والرخو عند ابن سينا", en: "Tearing, breaking and loose pain in the Canon", ur: "پھٹنے والا، توڑنے والا اور ڈھیلا درد، قانون کے مطابق" }
+summary:
+  ar: "يعزو ابن سينا الوجع المفسّخ إلى مادة تتحلل من العضلة وغشائها فتمدّد الغشاء وتفرّق اتصاله، والمكسّر إلى مادة أو ريح بين العظم والغشاء المجلّل له أو برد يقبض ذلك الغشاء بقوة، والرخو إلى مادة تمدّد لحم العضلة دون وترها {cite:canon-ibn-sina-print-v1 p.149}."
+  en: "Ibn Sina ascribes tearing pain to matter that dissolves out of the muscle and its membrane, stretching the membrane and separating its continuity; breaking pain to matter or wind between bone and the membrane that covers it, or to cold that grips that membrane hard; and loose pain to matter stretching the flesh of the muscle but not its tendon {cite:canon-ibn-sina-print-v1 p.149}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2, part 2 chapters 19 to 29 on pain, pleasure, indigestion and weakness (scan pages 147 to 153), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-jumla2-ch19-29
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

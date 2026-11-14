@@ -1,0 +1,18 @@
+id: concept/canon-weakness-by-evacuation-and-by-sympathy
+class: concept
+kind: scientific
+label: { ar: "الضعف بالاستفراغ والمشاركة عند ابن سينا", en: "Weakness by evacuation and by sympathy in the Canon", ur: "استفراغ اور مشارکت سے کمزوری، قانون کے مطابق" }
+summary:
+  ar: "يذكر ابن سينا من أسباب الضعف ما يتعلق بالاستفراغ كنزف الدم والإسهال وبزل ماء الاستسقاء والعرق الكثير والرياضة المفرطة والأوجاع والجوع الكثير، ثم الضعف التابع لضعف عضو آخر وتفاوت الأعضاء في الخلقة {cite:canon-ibn-sina-print-v1 pp.152-153}."
+  en: "Among the causes of weakness Ibn Sina lists those tied to evacuation, such as bleeding, diarrhoea, draining dropsical water, heavy sweating, excess exercise, pains and much hunger, then weakness following the weakness of another organ and the unequal strength of organs by creation {cite:canon-ibn-sina-print-v1 pp.152-153}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2, part 2 chapters 19 to 29 on pain, pleasure, indigestion and weakness (scan pages 147 to 153), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-jumla2-ch19-29
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
