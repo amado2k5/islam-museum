@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الحكيم السيالكوتي، فقيه ومتكلم لاهور في القرن السابع عشر الملقب بمجدد ألف ثاني الهندوس، توفي سنة ١٦٥٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Hakim al-Sialkoti, the seventeenth-century jurist and theologian of Lahore, d. 1657; the biographical entry is not yet checked on the page."
+  ar: "عبد الحكيم بن شمس الدين الهندي السيالكوتي البنجابي، فاضل من أهل سيالكوت التابعة للاهور، اتصل بالسلطان شاهجان فأنعم عليه بضياع تكفيه مؤونة السعي للعيش، وتوفي سنة ١٠٦٧هـ الموافقة ١٦٥٦م، وله حواش على البيضاوي والعقائد النسفية والمنطق والبلاغة."
+  en: "Abd al-Hakim ibn Shams al-Din al-Hindi al-Sialkoti al-Banjabi, a man of learning from Sialkot, which belongs to Lahore; he attached himself to Sultan Shah Jahan, who gave him estates that freed him from working for a living; he died in 1067 AH, 1656 CE, and wrote glosses on al-Baydawi, the Nasafi creed commentary, logic and rhetoric."
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4665377
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0038
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
+  completeness: 3
+died: { edtf: "1656", calendar: gregorian, precision: year, derived: true, note: "1067 AH = 1656 CE as printed in the entry (birth printed 000); source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 3 p. 280", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/lahore, note: "From text: فقيه ومتكلم لاهور في القرن الس", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/sialkot, note: "Entry: of the people of Sialkot, which belongs to Lahore (al-A'lam vol. 3 p. 280); replaces the card's lahore edge, which came from its summary.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

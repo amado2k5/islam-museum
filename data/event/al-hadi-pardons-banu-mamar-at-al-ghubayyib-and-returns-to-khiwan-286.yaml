@@ -1,0 +1,69 @@
+id: event/al-hadi-pardons-banu-mamar-at-al-ghubayyib-and-returns-to-khiwan-286
+class: event
+kind: other
+label:
+  ar: الهادي يعفو عن بني معمر عند الغبيّب ويعود إلى خيوان، رجب 286هـ
+  en: Al-Hadi pardons Banu Ma'mar at al-Ghubayyib and returns to Khiwan, Rajab 286 AH
+  ur: غبیّب میں ہادی بنو معمر کو معاف کرتے ہیں اور خیوان لوٹتے ہیں، رجب 286ھ
+summary:
+  ar: بعد صلاة الجماعة عند الغبيّب أمر الهادي الناس بلزوم صفوفهم، وطلب منه رسل القوم أن يبرز عن العسكر في جماعة، فلما برز أتوه جميعاً واعتذروا، فقال إنه لولا سبق حاشد إلى نصرته لسالت دماؤهم ولكنه لا يريد أن يشمت بحاشد عدواً، فشفع فيهم من حضر من حاشد فعفا عنهم وصرفهم إلى منازلهم وعاد إلى خيوان يوم الخميس لليلتين بقيتا من رجب 286هـ.
+  en: After the prayer at al-Ghubayyib al-Hadi told the army to hold its ranks; the group's envoys asked him to come out of the camp with a party, and when he did they all came and apologised. He said that but for Hashid, the first of Hamdan to support him, he would have let their blood flow, yet he did not wish to give an enemy cause to gloat over Hashid; the Hashid men present interceded, he pardoned the group and sent them home, and returned to Khiwan on Thursday, two days from the end of Rajab 286 AH.
+  ur: غبیّب پر نماز جماعت کے بعد ہادی نے فوج کو صفوں میں ٹھہرنے کا حکم دیا؛ قوم کے قاصدوں نے درخواست کی کہ وہ لشکر سے نکل کر ایک جماعت کے ساتھ آئیں، اور جب وہ نکلے تو سب آ کر معذرت خواہ ہوئے۔ ہادی نے کہا کہ اگر حاشد سب سے پہلے ان کی مدد پر نہ اٹھتے تو ان کا خون بہا دیا جاتا، مگر وہ حاشد کے دشمن کو خوش ہونے کا موقع نہیں دینا چاہتے؛ موجود حاشدیوں نے سفارش کی تو انہوں نے معاف کر دیا، انہیں گھروں کو بھیجا اور رجب کے آخر کے دو دن باقی تھے تو جمعرات کو خیوان لوٹ آئے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-07
+    hijri: 0286-07
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: الخميس لليلتين بقيتا من رجب سنة 286هـ بنص الكتاب أي نحو 28 أو 29 رجب، ويوافق نحو 9-10 آب 899م جولياني بالتقويم الجدولي، والخميس يوافق 29 رجب جدولياً؛ الشهر فقط والتحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/hawth-yemen
+- type: occurred_at
+  target: place/khiwan
+- type: occurred_at
+  target: place/al-ghubayyib-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-sulayman-al-kufi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-mamar-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/hashid
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص137 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-18
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 137
