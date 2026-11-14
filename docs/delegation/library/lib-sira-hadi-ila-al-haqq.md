@@ -17,6 +17,10 @@ Lane A, claimed 14 Nov 2026 in `WORK-REGISTRY.md` on the microSD (row `seerah/si
 
 - **Batch 4:** printed pp. 37-44: the departure from al-Fur', the road to Sa'da (the small well, the encounter at "Zubayd"), the arrival at Sa'da on 6 Safar 284 AH with the settling of Sa'd and al-Rabi'a, and the opening of the charge to governors. Added three events, two companions (Yusuf ibn Muhammad al-Hasani, Idris ibn Ahmad), the clan Banu Muawiya ibn Harb and the place al-Suwariqiyya. Work prose gains one section. All draft, ar, en and ur.
 
+- **Batch 5:** printed pp. 44-51: the charge to the governors on the tithes, the orders on the poor's quarter, merchants' zakat and the jizya, al-Hadi's stay at Sa'da and his call to jihad with its six conditions, the sayings heard by Muhammad ibn Ubaydallah, and the opening of a night story. Five events, each in ar, en and ur, all draft; work prose gains one section. The sayings and call are the Zaydi narrators' reports, attributed; the jizya and tithe rulings are described as the book gives them, with no comparison or verdict.
+
+- **Batch 6:** printed pp. 52-59: the end of the night story, the shaving condition, the chapters on al-Hadi's humility and scrupulousness, dress and awe, tending a companion, the prison visit, orphans, a Christian's slave freed from the slaves' share of zakat. Nine events and one person (Muhammad ibn Abbas al-San'ani), each in ar, en and ur, all draft; work prose gains one section.
+
 ## Judgments recorded
 
 - **Narrators corrected.** `work/sira-hadi-ila-al-haqq` listed `person/yala-ibn-muhammad-al-yafrani` (a Zanata amir of the Maghreb, d. 347 AH, from Ibn Khaldun) and al-Hadi himself as authors, and its summary named "Ya'la ibn Muhammad". The book's own opening leaf (printed p. 15) and the editor (pp. 7-8) name Muhammad ibn Sulayman al-Kufi and Ali ibn Muhammad ibn Ubaydallah al-Abbasi al-Alawi; the earlier reading is a misreading of the title-page OCR. The work now lists the two real narrators. The Yafrani record is untouched and no longer linked from this book. Held for the founder: whether that unrelated record needs any further change (none made).
@@ -35,10 +39,14 @@ Lane A, claimed 14 Nov 2026 in `WORK-REGISTRY.md` on the microSD (row `seerah/si
 - **Omitted on purpose:** the narrator's contemptuous descriptions of opponents (not repeated in the museum's voice); the Qur'anic passages quoted in the doctrinal preface are left to batch 3, referenced by passage links only.
 - **Not recorded:** the second-appendix and body dates; the death date of the father and son (the book gives no year in the pages read).
 
+- **Batch 5 notes:** (1) p. 51 "ya Abu Jafar" shows the narrator Muhammad ibn Ubaydallah bore the kunya Abu Jafar (consistent with the existing person record). (2) One line on p. 50, in which al-Hadi speaks harshly of opponents, is not repeated (same rule as earlier batches). (3) The "father and uncles" of the illness story are read as al-Husayn ibn al-Qasim and Muhammad and al-Hasan from the wider book, marked as inferred in the prose. (4) The Yemeni term "al-athari", the sense of "ahl al-matraba" and the damaged "amarani bi-qabd" are read from context. (5) The settlement terms promised "at the end of our book" for land bought from Muslims are left for when mining reaches them. (6) The charge and orders are not entered as concept records because the tax rulings are a juristic topic that would need a perspectives block with cited Sunni and academic sources; held for Tier A review. (7) The call is dated to Safar 284 AH at month precision (derived); the end of the stay (Jumada) is not entered.
+
+- **Batch 6 notes:** (1) The kunya Abu Jafar is also given to Muhammad ibn Sulayman al-Kufi (p. 54, p. 57), so the batch 5 inference that the narrator of the sayings bore it is softened in the batch 5 records; the identity of the "I" of pp. 49-52 stays Muhammad ibn Ubaydallah by the chain at p. 48. (2) Names held back for the page image: Abd al-Malik ibn Abd al-Malik "al-Yarsami" and Ali ibn Abi Anbasa "al-Samidi" (p. 59, nisba doubtful, not entered as persons); "al-Hasan" quoted p. 58 not identified. (3) The scribe's marginal notes (pp. 54, 56, 57, 58) are marked as the copyist's. (4) Legal points (jizya belonging to the household, slaves bought from the zakat share) are stated as the book's Zaydi position; no concept records, as above, pending a cited Sunni and academic source actually read. (5) Not repeated: the line on p. 50 about opponents.
+
 ## Excluded items
 
 None this batch.
 
 ## Resume point
 
-Scan p. 41 (printed 44): the text of al-Hadi's charge to his governors, from "نسخة العهد الذي عهده الهادي إلى الحق إلى ولاته", and what follows at Sa'da. Plan: batches of about 6 to 8 printed pages, at most 25 entities each (persons, places, events, tribes, groups), reusing existing records first (`person/al-hadi-yahya-al-rassi`, `place/saada`, `place/sanaa`, `place/najran`, `place/khiwan`, `polity/rassid-dynasty`, `group/zaydiyya`). Check for Qarmatian passages (a historical group, not a blocked organisation) and write from the book's pages only.
+Scan p. 57 (printed 60): what follows the chapter on al-Hadi's scrupulousness (pp. 58-59). Plan as before.

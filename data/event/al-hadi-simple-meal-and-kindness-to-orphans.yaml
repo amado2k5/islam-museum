@@ -1,0 +1,46 @@
+id: event/al-hadi-simple-meal-and-kindness-to-orphans
+class: event
+kind: other
+label:
+  ar: طعام الهادي البسيط ورحمته باليتامى في صعدة
+  en: Al-Hadi's plain meal and his kindness to orphans at Sa'da
+  ur: صعدہ میں ہادی کا سادہ کھانا اور یتیموں پر شفقت
+summary:
+  ar: 'يروي محمد بن سليمان الكوفي عشاءً بسيطاً مع الهادي: ثلاثة أقراص وشيرج، وقوله إن هذا مع الأمر بالمعروف كثير؛ ويروي علي بن محمد استقباله يتيماً ومسحه رأسه وأمره بكسوته، وعشاء ابن عم له بطعام قليل وقوله هذا الطعام مع الجهاد، ويتيمين أمر لهما بكسوة ونفقة.'
+  en: Muhammad ibn Sulayman al-Kufi relates a plain supper with al-Hadi, three loaves and sesame oil, and his saying that with enjoining good this is plenty; Ali ibn Muhammad relates his receiving an orphan boy, stroking his head and ordering him clothes, his small supper for a cousin with the words "this is food with jihad", and two orphans for whom he ordered clothing and provision.
+  ur: محمد بن سلیمان کوفی ہادی کے ساتھ سادہ شام کے کھانے کا ذکر کرتے ہیں، تین روٹیاں اور تل کا تیل، اور ان کا قول کہ نیکی کے حکم کے ساتھ یہ بہت ہے؛ علی بن محمد ایک یتیم بچے کو قریب بٹھانے، اس کا سر سہلانے اور کپڑے دلانے، ایک چچازاد کو تھوڑا کھانا دینے اور «یہ جہاد کے ساتھ کا کھانا ہے» کہنے، اور دو یتیموں کو کپڑے اور خرچ دینے کا ذکر کرتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-sulayman-al-kufi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/sadaqa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص57-58 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-6
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 57-58

@@ -1,0 +1,18 @@
+id: concept/shoulder-and-arm-bones
+class: concept
+kind: scientific
+label: { ar: "عظام الكتف والذراع عند ابن سينا", en: "Shoulder and arm bones in the Canon", ur: "قانون میں کندھے اور بازو کی ہڈیاں" }
+summary:
+  ar: "ينتقل ابن سينا من الصدر إلى الأطراف العليا فيصف الترقوة والكتف والعضد والساعد ومفصل المرفق {cite:canon-ibn-sina-print-v1 pp.53-55}."
+  en: "Ibn Sina passes from the chest to the upper limbs and describes the collarbone, the shoulder blade, the upper arm, the forearm and the elbow joint {cite:canon-ibn-sina-print-v1 pp.53-55}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/bones, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 40 to 55), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
