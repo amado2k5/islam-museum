@@ -1,0 +1,72 @@
+id: event/abu-al-atahiya-fights-at-ayman-and-warraqatayn-and-withdraws-to-nuqm-288
+class: event
+kind: other
+label:
+  ar: "أبو العتاهية يقاتل بعيمان وورّاقتين وينحاز إلى نقم، شعبان 288هـ"
+  en: "Abu al-Atahiya fights at Ayman and Warraqatayn and withdraws to Nuqm, Sha'ban 288 AH"
+  ur: "ابو العتاہیہ عیمان اور وراقتین میں لڑتے ہیں اور نقم کی طرف ہٹ جاتے ہیں، شعبان 288ھ"
+summary:
+  ar: "أخرج الهادي أبا العتاهية مساء ليلة السبت بخيل ورجال إلى موضع عيمان وفيه جيش آل يعفر وآل طريف، فوقع القتال، وأرسل القوم إلى بيت بوس فاستمدوا عسكرهم هناك، والتقى القوم في موضع يقال له وراقتين فاقتتلوا قتالاً شديداً، ثم انحاز أبو العتاهية ومن معه إلى جبل نقم."
+  en: "On the evening of Friday night al-Hadi sent Abu al-Atahiya with horse and foot to a place called Ayman, where the army of Al Ya'fur and Al Tarif lay; fighting broke out, the men sent to Bayt Bus for their army there, they met at a place called Warraqatayn and fought hard, and Abu al-Atahiya and his men then drew off to the mountain of Nuqm."
+  ur: "ہادی نے جمعہ کی شام ابو العتاہیہ کو سواروں اور پیادوں کے ساتھ عیمان نامی جگہ بھیجا جہاں آل یعفر اور آل طریف کا لشکر تھا؛ لڑائی چھڑ گئی، ان لوگوں نے بیت بوس کی طرف ہلکارہ بھیج کر وہاں کے لشکر کو بلایا، وہ وراقتین نامی جگہ مل کر سخت لڑے، پھر ابو العتاہیہ اور ان کے ساتھی جبلِ نقم کی طرف ہٹ گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-07"
+    hijri: "0288-08"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شعبان سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  role: "قائد الخيل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/nuqm-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص227-228 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 227-228

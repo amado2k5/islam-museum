@@ -1,0 +1,75 @@
+id: event/muhammad-ibn-ubaydallah-leaves-al-hajar-for-al-hisn-and-the-strife-of-banu-al-harith-288
+class: event
+kind: other
+label:
+  ar: "محمد بن عبيد الله ينتقل من الهجر إلى الحصن وفتنة بني الحارث، سنة 288هـ"
+  en: "Muhammad ibn Ubaydallah moves from al-Hajar to al-Hisn and the strife of Banu al-Harith, 288 AH"
+  ur: "محمد بن عبید اللہ ہجر سے حصن کی طرف جاتے ہیں اور بنو حارث کا فتنہ، 288ھ"
+summary:
+  ar: "خرج محمد بن عبيد الله من الهجر إلى الحصن ورفض دعوة ابن بسطام إلى ميناس، وأرسل إلى ربيع بن أبي الركود فصيّر إليه حرمه وصبيانه، وكتب إلى الهادي فأمره بالبقاء في موضعه، ثم أغار بنو الحارث بعد خروجه وأخذوا أموال الضعفاء وجباية البلد، وأغارت عليه بادية شاكر بجعل من ابن بسطام فثبت وأقام أهل الحصن معه، فاعتذروا، وأقام عشرة أشهر ووقعت الفتنة بين بني الحارث وبين يام وشاكر."
+  en: "Muhammad ibn Ubaydallah went from al-Hajar to al-Hisn and refused Ibn Bustam's call to Minas; he sent to Rabi' ibn Abi al-Rukud who brought his womenfolk and children to al-Hisn, and he wrote to al-Hadi, who told him to stay where he was; Banu al-Harith then raided after his leaving and took the property of the weak and the tax of the town, and the Bedouin of Shakir, paid by Ibn Bustam, raided him; he held, the people of al-Hisn stood with him, the Bedouin excused themselves, he stayed ten months, and strife fell between Banu al-Harith and Yam and Shakir."
+  ur: "محمد بن عبید اللہ ہجر سے حصن کی طرف نکلے اور ابن بسطام کی میناس چلنے کی دعوت رد کی؛ انہوں نے ربیع بن ابی الرکود کو بلا بھیجا جو ان کی خواتین اور بچوں کو حصن لے آیا، اور انہوں نے ہادی کو لکھا تو ہادی نے انہیں اپنی جگہ ٹھہرے رہنے کا حکم دیا؛ پھر ان کے نکلنے کے بعد بنو حارث نے حملے کیے اور کمزوروں کا مال اور شہر کی وصولی لے لی، اور ابن بسطام کے مال دینے پر شاکر کے بدویوں نے ان پر حملہ کیا مگر وہ ڈٹے رہے اور حصن کے لوگ ان کے ساتھ کھڑے ہوئے، بدویوں نے معذرت کی، وہ دس مہینے رہے اور بنو حارث اور یام و شاکر کے درمیان فتنہ پڑ گیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900~"
+    hijri: "0288"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 288هـ؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/rabi-ibn-abi-al-rukud
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/shakir-hamdan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/yam-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص230-231 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 230-231

@@ -1,0 +1,51 @@
+id: event/al-hadi-preaches-at-sanaa-on-the-second-friday-288
+class: event
+kind: other
+label:
+  ar: "الهادي يخطب في صنعاء الجمعة الثانية، سنة 288هـ"
+  en: "Al-Hadi preaches at Sana'a on the second Friday, 288 AH"
+  ur: "ہادی صنعاء میں دوسرے جمعے کو خطبہ دیتے ہیں، 288ھ"
+summary:
+  ar: "خرج الهادي في الجمعة الثانية إلى المسجد فخطب الناس ووعظهم وأعلمهم بما يجب لله عليهم، ثم قال لهم إنهم ما نقموا عليه إلا ما حكاه الله عن قوم لوط، وإنه يقول لهم ما قاله يوسف لإخوته، ثم رجع إلى منزله وسُرّ الناس بإحسانه."
+  en: "On the second Friday al-Hadi went out to the mosque and preached, admonishing the people and telling them what is due to God from them; he then said that they resented in him only what God relates of the people of Lot, and that he said to them what Yusuf said to his brothers, then returned to his house, and the people were glad of the kindness shown them."
+  ur: "دوسرے جمعے کو ہادی مسجد گئے، خطبہ دیا، لوگوں کو نصیحت کی اور بتایا کہ اللہ کا ان پر کیا حق ہے؛ پھر کہا کہ تم مجھ سے صرف وہی ناراضی رکھتے ہو جو اللہ نے لوط کی قوم کے بارے میں بیان کی، اور میں تم سے وہی کہتا ہوں جو یوسف نے اپنے بھائیوں سے کہا، پھر وہ اپنے گھر لوٹے اور لوگ ان کے حسنِ سلوک سے خوش ہوئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900~"
+    hijri: "0288"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 288هـ؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص227 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 227
