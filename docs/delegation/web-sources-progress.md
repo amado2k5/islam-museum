@@ -829,3 +829,10 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Checked and linked: qalawun -> qala'un (Saif ad-Din Qalawun al-Salihi, the Mamluk sultan; Wikidata, VIAF and GND matches agree), kayqubad-i -> ala'_al-din_kay_qubad_i (Kayqubad I, the Seljuk sultan of Rum), qaytbay -> qa'itybay (al-Ashraf Sayf al-Din Qa'it Bay, eighteenth Burji Mamluk sultan, 872 to 901 AH).
 - Still held: kos (concept cos_city is the ancient city; our record may be the island), united-kingdom (concept is the modern state).
 
+## 2026-11-14 (p60, Lane B) — al-Thurayya batch 7: 15 more places linked; Khujand checked; all matching files read
+
+- Approval: dec-20261114-277. The last 36 settlement files whose name matches a slug of ours were read (343 in all across batches 1 to 7; every one carries an Arabic-script toponym). No more files of that kind remain unread; other settlement files in the repository have names that do not match any slug of ours and would need a name-by-name search.
+- Khujand: the earlier note said the spelling differed. It does not: our record's Arabic label is already خجندة, the same string as the Thurayya toponym (the stem KHUJANDA is only the transliteration). The point lies 3.7 km from ours, so the exact-name rule holds and the place is linked.
+- Linked (stem, km): tayma TAYMA_385E275N_S 5.7, tus TUS_594E364N_S 6.4, ush USH_728E405N_S 4.3, wahran WAHRAN_006W357N_S 1.5, washqa WASHQA_003W421N_S 5.3, yafa YAFA_347E320N_S 1.1, yanbu YANBU_381E241N_S 6.8, yazd YAZD_543E319N_S 1.9, zafar ZAFAR_443E142N_S 3.7, zanjan ZANJAN_485E366N_S 2.7, zarand ZARAND_565E308N_S 3.6, zarqa ZARQA_360E320N_S 1.9, zibatra ZIBATRA_379E380N_S 1.9, zubala ZUBALA_435E294N_S 1.5, khujand KHUJANDA_696E402N_S 3.7.
+- Left: askalan (Ascalon, founder-held), atrabulus, baja, balad, biqa, dinavar-district, faran, hisn-fayd, hamadhan and cija (reasons as in the earlier notes).
+
