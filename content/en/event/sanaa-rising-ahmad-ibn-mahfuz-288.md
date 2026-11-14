@@ -9,3 +9,6 @@ After the events at Shibam a crowd from [[place/sanaa|Sana'a]] rose with [[perso
 
 ## Where the account stands
 It belongs to the pages the editor thinks were added to the original. {cite:sira-hadi-ila-al-haqq p.20}
+
+## See also
+The same rising is told at greater length in [[event/the-rising-of-ibn-mahfuz-at-sanaa-and-ali-ibn-sulayman-leaves-for-madar-288]] {cite:sira-hadi-ila-al-haqq p.220}, where the man brought into Sana'a is named Ibn Ya'fur; the museum does not reconcile the two tellings.

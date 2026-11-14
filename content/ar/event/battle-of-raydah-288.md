@@ -9,3 +9,6 @@ translators: []
 
 ## ما بعد المعركة
 تجهز الهادي بعدها إلى صنعاء في جيوش كثيرة من خولان وهمدان {cite:sira-hadi-ila-al-haqq p.20}. انظر [[event/battle-of-al-rahba-288]].
+
+## انظر أيضاً
+انظر أيضاً روايةً أخرى للمرحلة نفسها في [[event/al-hadi-leaves-shibam-fights-on-the-road-and-goes-by-najr-and-al-bawn-to-raydah-and-bayt-dhud-288]] و[[event/al-hadi-fights-abu-ziyad-and-sasaa-at-al-ghayl-in-al-bawn-288]] {cite:sira-hadi-ila-al-haqq p.222} {cite:sira-hadi-ila-al-haqq p.224}، ولا يجزم المتحف بالتطابق.

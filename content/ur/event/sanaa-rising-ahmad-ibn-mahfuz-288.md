@@ -9,3 +9,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## اس بیان کا مقام
 یہ ان صفحات میں سے ہے جن کے بارے میں مرتب کی رائے ہے کہ وہ اصل میں شامل کیے گئے {cite:sira-hadi-ila-al-haqq p.20}۔
+
+## دیکھیے بھی
+یہی شورش [[event/the-rising-of-ibn-mahfuz-at-sanaa-and-ali-ibn-sulayman-leaves-for-madar-288]] میں زیادہ تفصیل سے بیان ہوئی ہے {cite:sira-hadi-ila-al-haqq p.220}، جہاں صنعاء میں لایا جانے والا شخص ابن یعفر کہلاتا ہے؛ عجائب گھر دونوں بیانوں کو ہم آہنگ نہیں کرتا۔

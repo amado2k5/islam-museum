@@ -12,3 +12,6 @@ It is twelve miles west of [[place/ceuta|Ceuta]], and from it to the city of Tan
 
 ## The Strait
 Al-Idrisi gives the length of the crossing called the Zuqaq (the Strait) as twelve miles, with al-Jazira al-Khadra at its eastern end and Jazirat Tarif at its western end. Facing Jazirat Tarif on the other shore is the anchorage of the fort named for the Masmuda, and facing al-Jazira al-Khadra on that coast is the city of Ceuta; the width of the sea between them is eighteen miles as the page reads, though the unit is cut off in the OCR. {cite:nuzhat-al-mushtaq-2002 p. 527}
+
+## In Yaqut's Mu'jam al-Buldan
+Yaqut's entry for Qasr Masmuda is a single phrase: it is in the Maghrib. He gives no further description and no closer location. {cite:mujam-al-buldan-sader-1995 4 p.364}

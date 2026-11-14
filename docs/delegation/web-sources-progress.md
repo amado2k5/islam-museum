@@ -1205,6 +1205,13 @@ Sources: al-Zirikli, al-A'lam (alam-zirikli-dar-al-ilm-2002) and al-Safadi, al-W
 - Merge note: packet 41 (PR before this one) had added thin first-prose stubs for ahmad-jalayir and kayqubad-i. Their text was replaced by the cited biographies above; their polity links (jalayirids, rum-seljuk-sultanate) and the Nomisma section for Ahmad were kept in all three languages, and the stubs' statements that the entry was unread were dropped as no longer true.
 
 - GEMINI: person/bahram-shah-ghaznavi — question: year of death; the data file says 1157, Ibn al-Athir says 548 AH (1153 to 1154 CE) and Hasan Ibrahim 547 AH; the source that would settle it: a numismatic or primary-chronicle check (Juzjani, Tabaqat-i Nasiri, or Ghaznavid coin dates).
+
+## 2026-11-14 (packet id, Lane B2 identity re-check)
+
+- Written (ar, en, ur): ibn-al-sikkit (al-A'lam 8:195), ruh-ibn-hatim-al-muhallabi (al-A'lam 3:34), abd-allah-ibn-yusuf (Taqrib al-Tahdhib p. 300, noisy OCR, only the legible facts used).
+- Card corrections for zayn-al-abidin-work-14608 and ibrahim-ibn-sad-ibn-abi-waqqas (wrong imam and al-Zuhri dates) found and landed first by packet corr-p1; kept as on main.
+- Skipped: ibrahim-ibn-sad-al-zuhri and ibrahim-ibn-sad-al-mulawi already have trilingual prose from earlier batches (al-Zuhri A'lam 1:40 matches the card dates 727-800; not rewritten here).
+- GEMINI: ahmad-ibn-musa-al-kazim | Death date and a dictionary entry for Ahmad ibn Musa ibn Ja'far (Shah Cheragh, Shiraz) | card: died 818~ (al-Mufid, al-Irshad), source al-A'lam; Wikidata Q5961712 says 2 Nov 818 | al-A'lam has no entry for him; al-Wafi none | the Imami sources (al-Mufid, al-Irshad) read in a Shiraz-focused source, or Ar Wikipedia with its cited sources.
 - 2026-11-14 packet 43 (B1 prose): 10 entries written (ar, en, ur) from the Encyclopaedia of Islam, 2nd ed. (vol. and PDF page read in full; Venice and the Holy Roman Empire have no entry of their own, so their pages gather the articles on Italy, Alexandria, Iskender Beg and Nemce, and say so). Nomisma holds no coin or type records for any of the ten (only concepts and, for polities, membership records). Skipped founder-held slugs: none were in the packet. Data note for review: dulafid-dynasty start 800 (tradition) differs from EI2, where the dynasty rests on Abu Dulaf (d. 225/839-40) and ends 284/897-8; qara-qoyunlu end 1468 vs EI2 1469 (874 AH); not changed.
 
 - 2026-11-14 packet 44 (B1 prose): wrote crete, tiberias, tehran, kashan (Yaqut, Dar Sader v.1 p.236, v.4 pp.17-19, 51-52, 296-297) and short pages for india, asia-minor, euboea, belgrade, hispania, pisidia. Data note: Nomisma `crete` etc. count as region only; India, Tiberias, Tehran, Belgrade, Kashan have no linked coins.
@@ -1226,3 +1233,5 @@ GEMINI: place/hormuz-island: does Yaqut's Hurmuz (Mu'jam al-Buldan 5 p.402, a po
 - GEMINI: alib — card is a village in the Hijaz (20.03,40.65) from al-Idrisi; Yaqut's 'Ulayb (v.4 p.149) is a place between Kufa and Basra; whether Alib is a different place; source: a Hijaz gazetteer.
 - GEMINI: basta — card is Baza in Andalus (Idrisi); Yaqut's Basta (v.1 p.422) is a desert tract between Syria and Iraq, so skipped; whether Yaqut has a separate entry for Baza; source: Dar Sader index
 - GEMINI: urgench — card is modern Urgench, Uzbekistan (Q472925); Yaqut's al-Jurjaniyya (v.2 p.122) is the Khwarazm capital Kurkanj, destroyed by the Mongols, now Kunya-Urgench; whether the card should be that city; source: Encyclopaedia of Islam art. Urgench
+
+GEMINI: place/amul (packet 55) - the card's prose describes Amul on the Oxus (Turkmenabat) but its coordinates [36.4696, 52.3507] point to Amol in Tabaristan; Yaqut treats both (vol 1 pp. 57-58); the Yaqut section was written for the Oxus town; the coordinate source needing confirmation is a gazetteer entry (GeoNames or al-Thurayya) for Amul Jayhun at about 39.08 N, 63.57 E.

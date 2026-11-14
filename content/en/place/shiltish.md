@@ -12,3 +12,6 @@ It stands on the island of Shiltish, surrounded by the sea on every side and joi
 
 ## Raids and distances
 Al-Idrisi says that the Majus overcame it several times, and that its people flee and leave it empty when they hear of them. From Shiltish to the island of Cadiz is a hundred miles, and northward along the sea to the fort of Qastala eighteen miles. {cite:nuzhat-al-mushtaq-2002 p. 542} It is listed in the province of al-Sharaf between Seville, Labla and the Dark Sea. {cite:nuzhat-al-mushtaq-2002 p. 537}
+
+## In Yaqut's Mu'jam al-Buldan
+Yaqut records the name Shiltish with a fatha on the first letter, a sukun on the second, a kasra on the ta and a second shin at the end, and describes it as a small town in al-Andalus, west of Seville, on the sea. {cite:mujam-al-buldan-sader-1995 3 p.359}

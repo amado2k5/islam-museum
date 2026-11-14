@@ -12,3 +12,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## واقعات کا سلسلہ
 ہادی جبل بیت ذخار پر چڑھ گئے تھے اور شبام پر [[person/muhammad-ibn-abbad-al-tamimi|محمد بن عباد]] کو نائب بنا گئے تھے؛ مخالفین شبام میں داخل ہوئے اور وہ قتل ہوئے، جمادی الآخرہ 288ھ میں۔ ہادی پہاڑ سے اترے اور انہیں بھگایا، وہ بھاگ نکلے، اور ہادی شبام میں داخل ہوئے اور ابن عباد کو دفن کیا {cite:sira-hadi-ila-al-haqq p.19}۔ دیکھیے [[group/banu-yafur|آل یعفر]] بھی۔
+
+## دیکھیے بھی
+یہی واقعہ [[event/the-qudumis-enter-shibam-break-the-prison-and-ibn-abi-abbad-is-killed-288]] اور [[event/abu-al-atahiya-and-ibn-al-daam-rout-the-qudumis-and-al-hadi-buries-ibn-abi-abbad-288]] میں زیادہ تفصیل سے بیان ہوا ہے {cite:sira-hadi-ila-al-haqq p.218} {cite:sira-hadi-ila-al-haqq p.219}؛ عجائب گھر دونوں بیانوں کو ہم آہنگ نہیں کرتا۔
