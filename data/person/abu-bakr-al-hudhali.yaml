@@ -6,20 +6,20 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبو بكر الهذلي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Bakr al-Hudhali; the entry is not yet checked on the page."
+  ar: "أبو بكر سلمة بن عبد الله الهذلي، بصري عالم بأيام العرب وأخبارها وأحد أصحاب الحديث؛ ترجمته في «الوافي بالوفيات» للصفدي، وفيها وفاته سنة 159 هـ."
+  en: "Abu Bakr Salama ibn Abdallah al-Hudhali, a Basran scholar of the Arabs' days and accounts and a hadith transmitter; his entry is in al-Safadi's al-Wafi, which gives his death as 159 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q117474573
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, vol. 15 pp. 201-202; entry read on 14 November 2026, original card from a Wikidata candidate"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
   completeness: 1

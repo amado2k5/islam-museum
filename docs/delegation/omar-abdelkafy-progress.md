@@ -4949,6 +4949,24 @@ GEMINI: ep46, the narrator and collection of the report of the man asked whether
 GEMINI: ep46, the identity of the scholar who rebuked a ruler of Egypt and called him a little mouse before his Lord (00:12:30-00:14:00), a biographical dictionary such as Siyar a'lam al-nubala
 GEMINI: ep46, the narrator and wording of the Prophet's saying about God and Umar's heart and tongue (01:01:30; the verb is garbled in both passes), Sahih al-Bukhari and Sahih Muslim, Jami al-Tirmidhi
 
+### alwaad-alhaq ep39 (14 Nov 2026)
+
+25 points written for episode 39 (ar, en, ur); 27 needs_source marks for this episode in each language file; new about links to humility, night prayer, false testimony, the names al-Mutakabbir, al-Rahman and al-Rahim, al-Khidr and Dawud. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep39) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting, travel plans and the lecturer's trip abroad | ep39 00:02:00-00:03:00 | Not lesson content; private | Content rule | Open |
+| Story of a sword and a strange word, and the lecturer's remarks on obscure vocabulary | ep39 00:37:30-00:40:00 | Transcript loops and is garbled, names unclear | Loop check and clarity | Open |
+| Verses of poetry quoted (a friend's poem to a colleague raised to office) | ep39 00:23:30-00:24:00 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep39 throughout (e.g. 00:04:30, 00:31:30, 00:33:00, 00:48:30, 01:05:30) | Wording not typed; by sense only | Hadith rule | Open |
+| Repetition loops and garbled windows | ep39 00:04:00, 00:26:30-00:27:00, 00:38:30, 00:46:00, 00:52:00, 00:57:00, 01:02:00, 01:04:30 | Whisper loop artefacts with no recoverable content | Loop check | Open |
+| Closing prayer wording and sign-off | ep39 01:11:30-01:13:00 | Not lesson content; prayer wording not reproduced | Content rule | Open |
+
+Resume point: alwaad-alhaq episode 40 (branch from origin/main).
+GEMINI: ep39, the identity, narrator and place of the story of the man of the Prophet's family who left food at the doors of the poor for forty years (the transcript gives a garbled form like Aziz al-Abidin and says Kufa; 00:42:30-00:45:00), a biographical dictionary such as Siyar a'lam al-nubala under Ali ibn al-Husayn Zayn al-Abidin
+GEMINI: ep39, who is meant by the one with knowledge of the Book who offered to bring the throne (the sheikh says many commentators take him to be Sulayman himself; 00:16:00-00:17:00), a tafsir such as al-Tabari or Ibn Kathir on al-Naml verse 40
+GEMINI: ep39, the source and narrator of the report that the servant is nearest his Lord in prostration, and of the report on the angels and the stars for the house of one who prays at night (00:46:30-00:48:30), Sahih Muslim and Sunan Abi Dawud
+GEMINI: ep39, the count of worship verses in the Qur'an (the sheikh says about one hundred and ten, about three percent) and who computed it (00:54:30-00:55:00), a study of the structure of Qur'anic verses
 ### sharh-saheeh-al-bukhare ep47 (14 Nov 2026)
 
 25 points written for episode 47 (ar, en, ur); 19 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (24-63); none typed. Contested: His fiqh preferences (the majority view on touching women and ablution, the zakat on a wife's gold, the blessing in the final sitting), his insistence on the title sayyid, his reading of the signs of love in God, and the stories he tells (the plot against the grave and its date, the sheep's head, the five wounded men, Abu Dharr and Bilal, the letter of Muhammad ibn al-Hanafiyya, Nu'ayman, the old woman, Julaybib, Abu Ruwayha) are given as his own, without chain or reference, and are read differently by scholars. This episode is a talk on love in God and does not read a hadith of al-Bukhari. Checked line by line against the transcript by a second reader before merge.
@@ -4975,3 +4993,22 @@ GEMINI: ep47, Julaybib's marriage and the family of the woman (Whisper links a d
 GEMINI: ep47, the report of Abu Ruwayha al-Khath'ami paired with Bilal and Bilal's frank introduction before a Yemeni tribe (Qwen also names Abu Hurayra), the source of the report
 GEMINI: ep47, the story of two men from Rome and Nur al-Din's dream with the lead around the grave (he dates it 557 AH; Whisper and Qwen disagree on how many times the dream came and on the sum he gave out), the early historians of Medina such as al-Samhudi
 GEMINI: ep47, the third Companion at the Prophet's door with Abu Bakr and Umar and the three qualities of goodness the Prophet names (Qwen and Whisper garble the third quality and the third speaker), the hadith on completing goodness by hastening, belittling and concealing it
+
+### sharh-saheeh-al-bukhare ep48 (14 Nov 2026)
+
+24 points written for episode 48 (ar, en, ur); 17 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (62-5, 7-175, 7-176, 7-143, 5-67); none typed. Contested: His reading that the Torah as it stands was altered, his reading of ighlaq in the divorce saying as anger, and his presentation of the Companions' disputes and of the Jews of Medina are his own views and are contested; Jewish and Muslim views on alteration of the Torah differ. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep48) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening supplication, break joins, closing greetings and messages from brothers abroad | ep48 00:00:00-00:02:30 and 01:17:30-01:18:00 | Not substantive | Content rule | Open |
+| Sweeping claims about the Jews as a people (usury, world finance figures, treatment of others, their habits, the Protocols material and alleged plans) | ep48 00:20:30-00:22:00, 00:43:30-00:46:00 and 01:09:00-01:15:30 | Demeaning generalisations about a people and conspiracy claims | Content rule | Open |
+| The hadith of the stone and tree applied to a modern state and its trees, and remarks on modern military power | ep48 00:21:30-00:22:30 | Sweeping claim about modern conflict | Content rule | Open |
+| Stretch on youth accused of extremism and a modern war reference | ep48 00:10:30-00:10:40 and 00:15:30-00:16:30 | Sweeping claim about modern conflict; a stretch dropped under the content-safety block | Content rule | Open |
+| Remarks on women and dress in past decades and on who follows the Antichrist | ep48 00:08:30-00:09:30 and 01:04:30-01:06:30 | Generalisations about women | Voice rule | Open |
+| Looped or garbled stretches (loops of one word, scrambled sentences) | ep48 00:09:00-00:09:30, 00:16:00-00:16:30, 00:18:30-00:19:30, 00:33:00-00:36:30, 00:39:30-00:40:00, 00:42:00-00:42:30, 00:47:00-00:47:30, 00:57:30-00:59:30, 01:00:00-01:00:30, 01:03:00-01:03:30, 01:05:00-01:05:30, 01:08:30-01:09:00 | Too garbled to recover in both passes | Clarity, Loop check | Open |
+| Stories too garbled to state (the two scholars in the desert, Ali and the weight on the shoulder, the plot at the wall, the Moses and Shu'ayb and Solomon remarks, the percentage figures on youth) | ep48 00:13:30-00:14:30, 00:35:00-00:36:30, 00:50:00-00:51:30, 00:57:30-00:58:30, 01:08:00-01:09:00 | Names and details differ or are unclear between the Qwen and Whisper passes | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep48 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 49 (branch from origin/main).
+GEMINI: ep48, which collection and narrator carry the report of Moses reading the tablets and asking to be of the community of Ahmad with eleven qualities, the Qwen and Whisper passes both give it at 00:28:30-00:30:00 without a source, a classical hadith collection or tafsir of the verses of al-A'raf 7:154 to 7:157
+GEMINI: ep48, which report gives the Prophet's order to the Companions about the market of Medina and the story of Umar's conversion with his sister, both passes give them at 00:03:30-00:04:30 and 00:11:30-00:13:30 without a chain, a sira source such as Ibn Hisham or a hadith collection
