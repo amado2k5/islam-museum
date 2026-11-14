@@ -1,0 +1,18 @@
+id: concept/natural-faculties-served
+class: concept
+kind: scientific
+label: { ar: "القوى الطبيعية المخدومة عند ابن سينا", en: "The served natural faculties in the Canon", ur: "قانون میں مخدوم طبعی قوتیں" }
+summary:
+  ar: "يقسم ابن سينا القوى الطبيعية إلى خادمة ومخدومة، والمخدومة جنسان: جنس يتصرف في الغذاء لبقاء الشخص وفيه الغاذية والنامية، وجنس لبقاء النوع وفيه المولدة والمصورة {cite:canon-ibn-sina-print-v1 p.95}."
+  en: "Ibn Sina divides the natural faculties into serving and served; the served are two genera: one governing food for the survival of the individual, with the nutritive and growing faculties, and one for the survival of the species, with the generative and moulding {cite:canon-ibn-sina-print-v1 p.95}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/powers-and-actions, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on the veins and the faculties (scan pages 90 to 99), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
