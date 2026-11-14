@@ -15,3 +15,9 @@ Al-Maqqari relates from Ibn Khallikan a tale in circulation: the kings of the Gr
 In the scroll it is written that whoever opened this house, the pictured people would enter the island of al-Andalus, and the king of its people would be taken from their hands. Shortly afterwards, Roderic heard of the arrival of an army from the East to conquer al-Andalus. {cite:nafh-tib-maqqari p.283-284} This is a tale which al-Maqqari relays; the accuracy of its events needs an additional source.
 
 The city lies in [[place/al-andalus|al-Andalus]]. {cite:futuh-buldan-maarif-1407}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Toletum» (Pleiades no. 266066), classed as a settlement, with activity attested from 330 BCE to 2100 CE; recorded names include «Toletum», «Toledo», «Ṭuleyṭule». In its description, Toletum, on the Tagus, was the main settlement of the Carpetani; the Romans took it in 193 BCE, it became the Visigothic capital in 507, fell to Muslim forces in 711 and was retaken by Alfonso VI in 1085. {cite:pleiades 266066}
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's iDAI.gazetteer (no. 2074550) records this place under the preferred name «Toledo (Ciudad)», typed as an archaeological site and a populated place. It sits under «Toledo (Provincia)» in the gazetteer's hierarchy, and among the names it records are «Toletum», «Toledo». {cite:idai-gazetteer 2074550}

@@ -1,0 +1,18 @@
+id: concept/canon-urine-yellow-and-red-colours
+class: concept
+kind: scientific
+label: { ar: "طبقات الصفرة والحمرة في البول عند ابن سينا", en: "The yellow and red shades of urine in the Canon", ur: "پیشاب میں زردی اور سرخی کے درجے قانون میں" }
+summary:
+  ar: "يفتتح ابن سينا الفصل الثاني في ألوان البول بسلم الصفرة من التبني إلى الزعفراني، وسلم الحمرة، ويبين أن ما بعد الأترجي يدل على الحرارة، وأن الحمرة تدل على غلبة الدم، وكلما مالت إلى الزعفرانية فالغالب المرة {cite:canon-ibn-sina-print-v1 pp.184-185}."
+  en: "Ibn Sina opens the second chapter on the colours of urine with the scale of yellows from straw to saffron and the scale of reds, saying that what lies beyond the citron shade shows heat and that reds show a predominance of blood, or of bile where they lean toward saffron {cite:canon-ibn-sina-print-v1 pp.184-185}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

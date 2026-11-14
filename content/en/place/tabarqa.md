@@ -6,3 +6,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
 Tabarqa is a harbour for ships on the coast. It lies seventy miles from Banzart, and Andalusian ships reach it, according to al-Idrisi. {cite:nuzhat-al-mushtaq-2002 p.289}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Thabraca» (Pleiades no. 315192), classed as a settlement, with activity attested from 330 BCE to 640 CE. Recorded names include Thabraca, Thabraka and Cabraca. It describes Thabraca as a maritime city of Numidia at the mouth of the river Tusca. {cite:pleiades 315192}
