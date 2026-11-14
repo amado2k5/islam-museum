@@ -6,23 +6,23 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي سالم إبراهيم المريني، سلطان المرينيين من سنة ١٣٥٩م إلى ١٣٦١م في عهد تسارع الانقلابات؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Salim Ibrahim al-Marini, the Marinid sultan of 1359–1361 in the era of rapid coups; the dynastic handbook entry is not yet checked on the page."
+  ar: "إبراهيم بن علي بن عثمان بن يعقوب المريني، أبو سالم، السلطان المستعين بالله: من ملوك بني مرين في المغرب الأقصى، بويع سنة 760هـ بعد مقام في الأندلس، واستعان بابن خلدون في كتابة سره، وخلع ثم قتل سنة 762هـ."
+  en: "Ibrahim ibn Ali ibn Uthman ibn Ya'qub al-Marini, Abu Salim, the sultan al-Musta'in billah: one of the Marinid kings of the far Maghrib, pledged to in 760 AH after a stay in al-Andalus, who made Ibn Khaldun keeper of his secret correspondence; he was deposed and killed in 762 AH."
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16847190
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0031
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1335", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-Ibar); EI2" }
 died: { edtf: "1361", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-Ibar); EI2 Confirmed on 13 November 2026 against Wikidata Q16847190 (P570, a statement with a reference), item revision 2543538141.", sources: [source/wikidata] }
 relations:
