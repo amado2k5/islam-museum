@@ -3,26 +3,26 @@ class: person
 label:
   ar: "عبد الله بن يوسف"
   en: "Abd Allah ibn Yusuf"
-roles: [scholar]
+roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن يوسف؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd Allah ibn Yusuf; the entry is not yet checked on the page."
+  ar: "عبد الله بن يوسف التنيسي، أبو محمد الكلاعي، من أصل دمشقي، ثقة متقن من أثبت الناس في الموطأ؛ توفي سنة 218 هـ الموافقة 833 م."
+  en: "Abd Allah ibn Yusuf al-Tinnisi, Abu Muhammad al-Kala'i, of Damascene origin; reliable and exact, among the most dependable narrators of the Muwatta; died 218 AH (833 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/taqrib-al-tahdhib, source/wikidata]
 external_ids:
   wikidata: Q106955937
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Ibn Hajar, Taqrib al-Tahdhib, entry for Abd Allah ibn Yusuf al-Tinnisi read from the local scan (p. 300; the OCR is noisy but the entry is legible)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-taqrib-2026-11-14
 status:
   review: draft
   completeness: 1
-died: { edtf: "833", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: al-Tinnisi" }
+died: { edtf: "833", calendar: gregorian, precision: year, derived: true, note: "Ibn Hajar, Taqrib al-Tahdhib: died 218 AH = 833 CE (derived); agrees with Wikidata Q106955937. The A'lam entry 3471 (al-Jurjani, d. 148 AH) is a different man.", sources: [source/taqrib-al-tahdhib] }
 relations:
   - { type: lived_in, target: place/damascus, note: "Wikidata Q3766 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
