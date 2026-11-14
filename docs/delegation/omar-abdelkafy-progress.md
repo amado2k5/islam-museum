@@ -2801,3 +2801,37 @@ Resume point: modakirate-iblis episode 27 (branch from origin/main).
 | A remark naming a state and its readers in the reading statistics, and a loop and garbled stretches (the stretch before the Ibn Khaldun claim, the stretch on kitchens and fashion houses) | ep27 00:15:30 (part), 00:11:30 (part), 00:16:30-00:17:30 (part) | Unsourced comparison on a named state and not recoverable stretches; held for the founder to decide | Content rule, Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 28 (branch from origin/main).
+
+### modakirate-iblis ep28 (14 Nov 2026)
+
+12 points written for episode 28 (ar, en, ur); 4 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (21-58, 21-59, 21-63, 2-127, 14-37, 37-102, 2-144, 2-149, 2-150, 89-27, 89-28, 12-53, 10-87); none typed. Contested: the lecturer's views on fatwas by satellite channels and on state-approved committees are labelled as his; sensitivity stays contested.
+
+| Excluded (modakirate-iblis ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (advertisements for a Ramadan question programme with its sponsors), and the closing prayer | ep28 00:00:00, 00:11:00-00:13:00, 00:24:30-00:25:00 | Not lesson content | Content rule | Open |
+| Loops, garbled stretches and side remarks (a remark on the viewers of the channel, a story of a boy and a football match, a stretch on prescriptions about a monthly cycle, a stretch on healing treatments) | ep28 00:06:00-00:07:00 (part), 00:07:30-00:09:00 (part), 00:16:30-00:17:30 (part), 00:21:00-00:22:30 (part), 00:23:00 | Not recoverable or off the lesson | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 29 (branch from origin/main).
+
+### modakirate-iblis ep29 (14 Nov 2026)
+
+13 points written for episode 29 (ar, en, ur); 10 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (36-26, 36-27, 1-5, 1-6, 59-9, 28-26, 12-55, 3-110); none typed.
+
+| Excluded (modakirate-iblis ep29) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break (no trailer text in the recording) and the closing prayer and outro chant | ep29 00:00:00, 00:11:30-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (the brotherhood saying, the rest of the Hijr report, a stretch on the Prophet's treatment of customs, the Tabuk distance) | ep29 00:05:00-00:05:30 (part), 00:06:00-00:06:30, 00:21:30-00:22:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 30 (branch from origin/main).
+
+### modakirate-iblis ep30 (14 Nov 2026)
+
+12 points written for episode 30 (ar, en, ur); 8 needs_source marks in each language file for this episode; 2 new `about` edges. Quran verses referenced only through passage links (28-23, 20-117 to 20-119, 22-2); none typed. Contested: the lecturer's views on women's work, mixing and the family are labelled as his; sensitivity stays contested. The series is complete at 30 episodes; the gap at the start of episode 8 stays logged and is not filled.
+
+| Excluded (modakirate-iblis ep30) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (advertisements for a programme on a Quran chapter and a commentator), and the closing prayer | ep30 00:00:00, 00:11:00-00:13:00, 00:26:30 | Not lesson content | Content rule | Open |
+| A claim that an international secret society planned to bring women into the workforce to corrupt the world | ep30 00:02:30-00:03:00 (part) | Unsourced conspiracy claim naming a group; not written in the museum's voice; held for the founder to decide | Content rule, Voice rule | Open |
+| Loops and garbled stretches (the sixties television anecdote, a stretch before the Midian story, the account of the Qasas conditions) | ep30 00:07:00-00:08:30, 00:10:00 (part), 00:11:00 (part) | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis is finished (30 of 30 episodes). Next series in the lane order: min-kunuz-al-sunnah, from episode 1. Work covered by the founder approval dec-20261114-277.

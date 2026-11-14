@@ -1,0 +1,57 @@
+id: event/sanaa-rising-ahmad-ibn-mahfuz-288
+class: event
+kind: revolt
+label:
+  ar: وثوب أهل صنعاء وإخراج علي بن سليمان سنة 288هـ
+  en: The rising in Sana'a and the expulsion of Ali ibn Sulayman, 288 AH
+  ur: صنعاء میں شورش اور علی بن سلیمان کا اخراج، 288ھ
+summary:
+  ar: وثب جمع من أهل صنعاء مع أحمد بن محفوظ فكسروا الحبس وأخرجوا علي بن سليمان نائب الهادي، واستولى عليها عبد القاهر بن أحمد بن نعيم، في سنة 288هـ.
+  en: A crowd from Sana'a with Ahmad ibn Mahfuz broke the prison and drove out al-Hadi's deputy Ali ibn Sulayman, and Abd al-Qahir ibn Ahmad ibn Na'im took the city, in 288 AH.
+  ur: صنعاء کے ایک جمگھٹے نے احمد بن محفوظ کے ساتھ مل کر قید خانہ توڑا اور ہادی کے نائب علی بن سلیمان کو نکال دیا، اور عبد القاہر بن احمد بن نعیم نے شہر پر قبضہ کر لیا، 288ھ میں۔
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900~"
+    hijri: "0288"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: في سنة 288هـ؛ يأتي الخبر بعد أحداث جمادى الآخرة من السنة ولا يُحدد الشهر
+    sources: &id001
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/sanaa
+- type: had_participant
+  target: person/ahmad-ibn-mahfuz
+  role: من يُنسب إليه الوثوب
+  sources: *id001
+- type: had_participant
+  target: person/ali-ibn-sulayman-ibn-al-qasim
+  role: نائب الهادي المُخرَج
+  sources: *id001
+- type: had_participant
+  target: person/abd-al-qahir-ibn-ahmad-ibn-naim
+  role: من استولى على صنعاء
+  sources: *id001
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص17-20 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-2
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 17-20
