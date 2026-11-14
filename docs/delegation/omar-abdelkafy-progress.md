@@ -3165,6 +3165,16 @@ Resume point: min-kunuz-al-sunnah episode 19 (branch from origin/main).
 
 Resume point: min-kunuz-al-sunnah episode 20 (branch from origin/main).
 
+### alwaad-alhaq ep05 (14 Nov 2026)
+
+19 points written for episode 5 (ar, en, ur); 16 needs_source marks for this episode in each language file; edges to discretionary punishment, hijab, Gog and Magog and the splitting of the moon. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| A story of a wolf and a man called Ahban, kept only with a needs_source mark | ep05 00:43:00 | told without a chain and the transcript is garbled; kept as a marked report | needs_source | Open |
+| ASR passages at 00:25:00 to 00:26:30 and 00:30:30 to 00:32:30 not written | ep05 00:25:00 | transcript is unintelligible or looped, no claim can be checked | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 6 (branch from origin/main).
 ### min-kunuz-al-sunnah ep20 (14 Nov 2026)
 
 14 points written for episode 20 (ar, en, ur); 11 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (3-164, 68-4, 6-162, 14-24, 14-26, 14-27, 2-254, 51-26, 51-27); none typed. Contested: He holds that rulings change with time, place and people, proposes a weekly standard-Arabic day for institutions, and gives his own applications of neighbour and guest etiquette; all are his views and are marked as such.
