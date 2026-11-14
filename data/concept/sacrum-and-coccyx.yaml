@@ -1,0 +1,18 @@
+id: concept/sacrum-and-coccyx
+class: concept
+kind: scientific
+label: { ar: "العجز والعصعص عند ابن سينا", en: "Sacrum and coccyx in the Canon", ur: "قانون میں عجز اور دم چی" }
+summary:
+  ar: "يجعل ابن سينا عظام العجز ثلاثة، وهي أشدّ الفقرات تهندماً ووثاقة مفصل، ويؤلّف العصعص من ثلاث فقرات غضروفية لا زوائد لها {cite:canon-ibn-sina-print-v1 p.52}."
+  en: "Ibn Sina makes the bones of the sacrum three, the most tightly fitted and firmly jointed of the vertebrae, and builds the coccyx from three cartilaginous vertebrae without processes {cite:canon-ibn-sina-print-v1 p.52}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/vertebral-column, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 40 to 55), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

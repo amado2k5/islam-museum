@@ -1,0 +1,18 @@
+id: concept/joints
+class: concept
+kind: scientific
+label: { ar: "المفاصل عند ابن سينا", en: "Joints in the Canon", ur: "قانون میں جوڑ" }
+summary:
+  ar: "يقسّم ابن سينا تجاور العظام في الفصل الأول من باب العظام إلى مفصل سلس، ومفصل عسر غير موثّق، ومفصل موثّق، ويفرّع الموثّق إلى مركوز ومدروز وملزق {cite:canon-ibn-sina-print-v1 pp.42-43}."
+  en: "In the first chapter on bones, Ibn Sina sorts the ways bones meet into three: the free joint, the difficult joint that is not secured, and the secured joint. The secured joint is divided into the socketed, the sutured and the glued {cite:canon-ibn-sina-print-v1 pp.42-43}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/bones, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 40 to 55), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

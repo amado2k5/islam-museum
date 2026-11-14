@@ -1,0 +1,18 @@
+id: concept/jaws-and-nose
+class: concept
+kind: scientific
+label: { ar: "عظام الفكين والأنف عند ابن سينا", en: "Jaws and nose in the Canon", ur: "قانون میں جبڑے اور ناک" }
+summary:
+  ar: "في الفصل الرابع من باب العظام يصف ابن سينا حدود الفك الأعلى ودروزه، ثم يعدّد منافع الأنف الثلاث وتركيب عظامه، ثم يوجز القول في الفك الأسفل {cite:canon-ibn-sina-print-v1 pp.45-46}."
+  en: "In the fourth chapter on bones Ibn Sina describes the limits and sutures of the upper jaw, then lists the three uses of the nose and the make-up of its bones, and then speaks briefly of the lower jaw {cite:canon-ibn-sina-print-v1 pp.45-46}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/skull, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 40 to 55), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,56 @@
+id: dec-20261114-278
+kind: decision
+date: 2026-11-14
+expires_at: 2027-11-14
+question_hash: edf6adcfa456
+lane: orchestrator
+class: process
+modality: repo
+domain: governance
+mode: conservative
+question: "How should lane workers handle a blocker or a pending decision: stop
+  and wait, or keep moving?"
+options:
+  - decide with the rule engine and judge, and if still blocked skip the item
+    and move on
+  - stop and ask the founder
+  - hold the lane until a decision arrives
+evidence:
+  - "Founder, in chat, 14 November 2026: 'as a general rule, do not let any lane
+    get held or blocked, when there is any issue or any pending decision, use
+    the rule engine/judge LLM to decide and if there is still blockage, move
+    onto the next item and do not wait. keep making progress all the time, no
+    lane and no worker should be idle or waiting at any time.'"
+  - docs/decisions/records/dec-20261114-277.yaml (the founder-held items stay
+    skipped, not guessed)
+  - "AGENTS.md: act as the human in the loop; record every judgment in the
+    decision ledger"
+status: decided
+step: safe-default
+decision: hold as draft-tier / pointer-only; record question in lane progress
+  file for the next precedent-extraction pass
+confidence: 0.4
+reversible: true
+rationale: No rule or precedent matched. Defaulting to the most conservative
+  reversible action per the decision-ledger design.
+needs_precedent: true
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 0
+  rule_ids_fired: []
+  precedent_distance: 0.816
+  top_precedent_id: ruling-docs-delegation-education-master-plan-md-415
+  top_precedent_status: founder-ruled
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-14
+    by: founder
+    note: "Founder, in chat, 14 November 2026: never-blocked, never-idle standing
+      rule for all lanes."
+  founder_override: false
+  calibration_weight: 1

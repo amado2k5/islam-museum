@@ -1,0 +1,55 @@
+id: event/al-hadi-orders-on-poor-share-trade-and-jizya-284
+class: event
+kind: declaration
+label:
+  ar: أوامر الهادي في ربع الصدقات للمساكين وزكاة التجار وجزية أهل الذمة
+  en: Al-Hadi's orders on the poor's quarter, the zakat of merchants and the jizya
+  ur: 'ہادی کے احکام: مساکین کا چوتھائی، تاجروں کی زکوٰۃ اور جزیہ'
+summary:
+  ar: يروي الكتاب أن الهادي أمر كل عامل أن يفرق ربع ما جمع في مساكين بلده وأن يبيع القضب ويقسم ثمنه، وأن يؤخذ من التجار زكاة أموالهم بعد استحلافهم، وروى محمد بن سليمان الكوفي ما أمره به من جزية اليهود والنصارى بحسب يسارهم وحكم ما اشتروه من أراضي المسلمين.
+  en: The book reports that al-Hadi ordered each governor to distribute a quarter of what he collected among the poor of his town and to sell the fodder and divide its price, that merchants' zakat be taken after an oath, and, through Muhammad ibn Sulayman al-Kufi, what he ordered about the jizya of Jews and Christians by wealth and about land they had bought from Muslims.
+  ur: کتاب بیان کرتی ہے کہ ہادی نے ہر عامل کو حکم دیا کہ وصولی کا چوتھائی اپنی بستی کے مساکین میں بانٹے اور چارہ بیچ کر قیمت تقسیم کرے، تاجروں سے قسم لے کر ان کے مال کی زکوٰۃ لی جائے، اور محمد بن سلیمان کوفی کے ذریعے یہود و نصاریٰ کے جزیے کا حکم ان کی مالداری کے مطابق اور مسلمانوں سے خریدی ہوئی زمینوں کا حکم۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+- zakat-and-sadaqa
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-sulayman-al-kufi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/jizya
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/zakat
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص47-48 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-5
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 47-48
