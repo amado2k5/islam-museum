@@ -6,24 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد زيني دحلان، مفتي مكة الشافعي ومؤرخها ومؤلف الفتوحات الإسلامية؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad Zayni Dahlan, Mecca's Shafi'i mufti, its historian, and author of al-Futuhat al-Islamiyya; his entry is not yet checked on the page."
+  ar: "أحمد بن زيني دحلان، فقيه مكي مؤرخ، ولد بمكة وتولى فيها الإفتاء والتدريس وتوفي بالمدينة، ولد سنة 1232 هـ الموافقة 1817 م وتوفي سنة 1304 هـ الموافقة 1886 م."
+  en: "Ahmad ibn Zayni Dahlan, a Meccan jurist and historian, born in Mecca where he held the office of ifta and taught, and died in Medina; 1232 to 1304 AH (1817 to 1886 CE)."
 wings: [people]
 regions: [arabia]
 periods: [period/colonial-era]
-died: { edtf: "1886", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+born: { edtf: "1817", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 111: 1232 AH = 1817 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1886", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 111: 1304 AH = 1886 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12178897
   viaf: "90057069"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/mecca, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 1 p. 111: born in Mecca.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/medina, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 1 p. 111: died in Medina.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
