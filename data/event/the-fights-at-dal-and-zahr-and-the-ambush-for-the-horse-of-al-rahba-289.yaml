@@ -1,0 +1,59 @@
+id: event/the-fights-at-dal-and-zahr-and-the-ambush-for-the-horse-of-al-rahba-289
+class: event
+kind: other
+label:
+  ar: "مرض الهادي والقتال بضلع وظهر وكمين خيل الرحبة، سنة 289هـ"
+  en: "Al-Hadi's illness, the fights at Dal' and Zahr and the ambush for the horse of al-Rahba, 289 AH"
+  ur: "ہادی کی بیماری، ضلع اور ظہر کی لڑائیاں اور رحبہ کے سواروں کا کمین، سنہ 289ھ"
+summary:
+  ar: "بعد عودة الهادي إلى صنعاء مرض مرضاً اشتد حتى قال الناس إنه هلك، ثم أمر عسكراً بالخروج إلى عسكر القوم بضلع فقتلوا جماعة وأتوا برؤوسهم إلى صنعاء، وخرج عبد الله بن الحسين إلى عسكر ظهر في واد عسر فقتل نفراً وانصرف، ثم كمن عسكر لخيل تخرج إلى الرحبة لقطع الطريق فاقتتلوا وأصيب فرسان وأُخذت دواب."
+  en: "After al-Hadi returned to Sana'a he fell ill, so gravely that people said he had died; later he sent an army against the men's camp at Dal', which killed many and brought their heads to Sana'a; Abdullah ibn al-Husayn went to the Zahr camp in a hard valley, killed some of their horse and foot and came back; and an ambush was laid for horse that went out to al-Rahba to cut the road, and a fight followed in which riders were struck down and mounts taken."
+  ur: "صنعاء لوٹنے کے بعد ہادی بیمار ہوئے اور بیماری اتنی بڑھی کہ لوگ کہنے لگے کہ وہ وفات پا گئے؛ بعد میں انہوں نے ایک لشکر کو ضلع میں مخالفوں کے پڑاؤ پر بھیجا جس نے بہت سے مارے اور ان کے سر صنعاء لائے؛ عبداللہ بن الحسین ظہر کے پڑاؤ پر ایک دشوار وادی میں ٹوٹے، کچھ سوار اور پیادے مارے اور لوٹ آئے؛ اور رحبہ کی طرف راستہ کاٹنے کے لیے نکلنے والے سواروں کے لیے کمین لگایا گیا جس میں کئی سوار گرائے گئے اور گھوڑے چھین لیے گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0902"
+    hijri: "0289"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 289هـ؛ الكتاب لا يذكر يوماً ولا شهراً لهذه الوقائع، ويذكر أنها بعد مرض الهادي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/al-rahba-sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص238-239 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-28
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 238-239

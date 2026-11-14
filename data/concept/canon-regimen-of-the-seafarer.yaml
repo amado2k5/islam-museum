@@ -1,0 +1,18 @@
+id: concept/canon-regimen-of-the-seafarer
+class: concept
+kind: scientific
+label: { ar: "تدبير راكب البحر عند ابن سينا", en: "The regimen of the seafarer in the Canon", ur: "سمندری مسافر کی تدبیر قانون میں" }
+summary:
+  ar: "في الفصل الثامن والأخير من تدبير المسافرين يذكر ابن سينا أن راكب البحر يدور به ويهيج به الغثيان والقيء في أوائل الأيام ثم يهدأ، ويذكر ما يمنع الغثيان من فواكه كالسفرجل والتفاح وبزر الكرفس والأفسنتين، والأغذية الحامضة المقوية لفم المعدة كالعدس بالخل أو بالحصرم، والخبز المبرد في شراب ريحاني {cite:canon-ibn-sina-print-v1 p.266}."
+  en: "In the eighth and last chapter of the regimen of travellers Ibn Sina says that the sea traveller turns dizzy and is seized by nausea and vomiting in the first days, then settles; he names what prevents nausea, fruits such as quince and apple, celery seed and wormwood, and sour foods that strengthen the mouth of the stomach, such as lentils with vinegar or with verjuice, and bread cooled in a fragrant wine {cite:canon-ibn-sina-print-v1 p.266}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3 Ta'lim 5 and the regimen of travellers (scan pages 258 to 266), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p258
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,59 @@
+id: event/al-hadi-marches-on-wail-of-shakir-and-takes-sureties-290
+class: event
+kind: other
+label:
+  ar: "مسير الهادي إلى بلد وائلة من شاكر وأخذه كفلاء منهم، صفر 290هـ"
+  en: "Al-Hadi marches on the land of Wa'ila of Shakir and takes sureties from them, Safar 290 AH"
+  ur: "ہادی کی شاکر کے وائلہ پر چڑھائی اور ان سے ضمانتیں لینا، صفر 290ھ"
+summary:
+  ar: "كان بطن من شاكر يقال له وائلة قد أحدثوا في طريق نجران أحداثاً والهادي غائب بصنعاء، فعزم الهادي ألا يفرّق العساكر حتى يطأ بها وائلة، فنهض إلى موضع واسط ليلة أهلّ صفر، ثم إلى كتاف والمطلاع من بلدهم فنهب العسكر وقطع الأعناب وخرّب، ثم أقبلت إليه وائلة بسمعها وطاعتها وطلبت الأمان فآمنها، وضمن بعضهم بعضاً وأخذ منهم جماعة من «الحدثين» ورجع إلى صعدة."
+  en: "A clan of Shakir called Wa'ila had made trouble on the Najran road while al-Hadi was away at Sana'a; he resolved not to disperse the armies until he had gone through Wa'ila, went to a place called Wasit on the night Safar began, then to Kitaf and al-Mutla' in their land, where the army plundered, cut vines and laid waste; then Wa'ila came to him in hearing and obedience and asked safety, which he gave; they stood surety for one another, he took some of the \"disorderers\" and returned to Sa'da."
+  ur: "شاکر کی ایک شاخ وائلہ نے نجران کے راستے میں فساد کیا جبکہ ہادی صنعاء میں تھے؛ انہوں نے عزم کیا کہ لشکروں کو اس وقت تک نہ بکھیریں گے جب تک وائلہ سے نہ گزر لیں؛ وہ صفر کا چاند دیکھنے کی رات واسط نامی جگہ پہنچے، پھر ان کی سرزمین کے کتاف اور مطلاع گئے جہاں لشکر نے لوٹ مار کی، انگور کاٹے اور تباہی کی؛ پھر وائلہ سمع و طاعت کے ساتھ آئے اور امان مانگی جو دی گئی، وہ ایک دوسرے کے ضامن بنے، ہادی نے ان میں سے چند «فساد کرنے والوں» کو لیا اور صعدہ لوٹے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0903-01"
+    hijri: "0290-02"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "صفر سنة 290هـ بنص الكتاب ⁦(ليلة أهل صفر)⁩؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/wailat-shakir
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/shakir-hamdan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص244-245 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-28
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 244-245

@@ -1,0 +1,76 @@
+id: event/the-sortie-to-hadda-and-safa-and-abu-al-ushayra-razes-the-fort-of-ziyad-289
+class: event
+kind: other
+label:
+  ar: "غارة حدة وسفاع وهدم أبي العشيرة قلعة زياد، سنة 289هـ"
+  en: "The sortie to Hadda and Safa' and Abu al-Ushayra razes the fort of Ziyad, 289 AH"
+  ur: "حدہ اور سفاع کی مہم اور ابو العشیرہ کا قلعۂ زیاد گرانا، سنہ 289ھ"
+summary:
+  ar: "أمر الهادي أخاه وابنه فخرجا بعسكر إلى حدة وسفاع فهجما على غرة وقاتل القوم وانهزموا، ثم قدمت مادة من الجعفري على أبي العشيرة بن الروية فنهض بهم حتى دخل قلعة زياد وقتل فيها وهدمها، وسأل الهادي أن يبعث إليه أخاه الربيع بن الروية بعسكره مع فرسان من الجعفري، فنزلوا إلى جانب غيمان."
+  en: "Al-Hadi sent his brother and his son out with an army to Hadda and Safa', where they fell on the men unawares, fought them and routed them; then a reinforcement from the Ja'fari reached Abu al-Ushayra ibn al-Ruwayya, who went with them into the fort of Ziyad, killed men there and razed it, and asked al-Hadi to send his brother Rabi' ibn al-Ruwayya with the army he had and more Ja'fari horse; they settled beside Ghayman."
+  ur: "ہادی نے اپنے بھائی اور بیٹے کو لشکر کے ساتھ حدہ اور سفاع بھیجا جہاں وہ بے خبری میں ان پر ٹوٹے، لڑے اور انہیں ہٹا دیا؛ پھر جعفری کی طرف سے کمک ابو العشیرہ بن الرویہ کے پاس آئی تو وہ ان کے ساتھ قلعۂ زیاد میں داخل ہوئے، وہاں آدمی مارے اور اسے گرا دیا، اور ہادی سے کہلایا کہ اپنے بھائی ربیع بن الرویہ کو اس لشکر کے ساتھ جو ان کے پاس ہے اور جعفری سواروں کے اضافے کے ساتھ بھیجیں؛ وہ غیمان کے پہلو میں اتر پڑے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0902"
+    hijri: "0289"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 289هـ؛ الكتاب لا يذكر يوماً ولا شهراً؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: "ابن الهادي، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-ushayra-ibn-al-ruwayya
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/rabi-ibn-al-ruwayya
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sabal-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/ghayman-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص240 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-28
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 240
