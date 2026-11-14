@@ -3,32 +3,33 @@ class: person
 label:
   ar: "عبد الرحمن شيخي زاده"
   en: "Abd al-Rahman Shaykhizade"
-roles: [scholar, jurist, translator]
+roles: [scholar, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرحمن شيخي زاده، العالم والفقيه والمترجم العثماني، توفي سنة ١٦٦٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahman Shaykhizade, the Ottoman scholar, jurist and translator, d. 1667; the biographical entry is not yet checked on the page."
+  ar: "عبد الرحمن بن محمد بن سليمان المعروف بشيخي زاده ويقال له الداماد، فقيه حنفي من أهل كليبولي من قضاة الجيش، توفي سنة 1078 هـ، صاحب «مجمع الأنهر في شرح ملتقى الأبحر»."
+  en: "Abd al-Rahman ibn Muhammad ibn Sulayman, known as Shaykhizade and also called al-Damad, a Hanafi jurist from Gallipoli (Kelibolu), one of the army judges, who died in 1078 AH; author of 'Majma' al-Anhur fi Sharh Multaqa al-Abhur'."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q31301096
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0083
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: secondary
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
-died: { edtf: "1667", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Majma al-Anhur; Kashf al-Zunun (d. 1078 AH)" }
+died: { edtf: "1667", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 286: 1078 AH = 1667 CE. Date-enrichment pass; source: Majma al-Anhur; Kashf al-Zunun (d. 1078 AH)" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/gallipoli, note: "Al-Zirikli, al-A'lam vol. 3 p. 286: of the people of Gallipoli (Kelibolu).", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

@@ -1,30 +1,38 @@
 id: person/muhammad-ibn-abd-al-kabir-al-kettani
 class: person
-label:
-  ar: "محمد بن عبد الكبير الكتاني"
-  en: "Muhammad ibn Abd al-Kabir al-Kettani"
+label: {ar: محمد بن عبد الكبير الكتاني, en: Muhammad ibn Abd al-Kabir al-Kettani}
 roles: [sufi]
 gender: male
-summary:
-  ar: "بطاقة أولية لمحمد بن عبد الكبير الكتاني، الصوفي والعالم والزعيم المغربي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Abd al-Kabir al-Kettani, the Moroccan Sufi scholar and leader; his entry is not yet checked on the page."
+summary: {ar: 'محمد بن عبد الكبير الكتاني، أبو الفيض وأبو عبد الله: فقيه متفلسف متصوف من أهل فاس ومؤسس الطريقة الكتانية بالمغرب، شقيق محمد عبد الحي صاحب فهرس الفهارس، سجن وجلد ومات بفاس الجديدة سنة ١٣٢٧ هـ الموافقة ١٩٠٩ م.', en: 'Muhammad ibn Abd al-Kabir al-Kettani, Abu al-Fayd and Abu Abd Allah: a jurist and philosophically inclined Sufi of Fez, founder of the Kattaniyya order in Morocco and brother of Muhammad Abd al-Hayy, author of «Fihris al-Fahaaris»; jailed and flogged, he died in Fes al-Jadid in 1327 AH (1909 CE).'}
 wings: [people]
 regions: [maghreb]
 periods: [period/modern-era]
-born: { edtf: "1873", precision: year, status: tradition, derived: true }
-died: { edtf: "1909", precision: year, status: tradition, derived: true }
+born:
+  edtf: '1873'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 6 p. 179: born 1290 AH = 1873 CE, of the people of Fez.'
+  sources: &id001 [source/alam-zirikli-dar-al-ilm-2002]
+died:
+  edtf: '1909'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 6 p. 179: died 1327 AH, in Fes al-Jadid; the entry prints 1907 CE beside it, but 1327 AH falls in 1909 and 1910 CE, so 1909 is kept.'
+  sources: *id001
 relations:
-  - { type: born_in, target: place/fes, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80985)" }
-  - { type: died_in, target: place/al-sal, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q466046)" }
-sources: [source/al-aalam]
-external_ids:
-  wikidata: Q3318597
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+- type: born_in
+  target: place/fes
+  sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  confidence: medium
+  note: 'From al-A''lam: of the people of Fez; the card''s Wikidata birth place agrees.'
+- type: died_in
+  target: place/fes
+  note: 'From al-A''lam: died in Bini''qa in Fes al-Jadid (the card''s earlier Sale is corrected).'
+  sources: *id001
+  confidence: medium
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+external_ids: {wikidata: Q3318597}
+provenance: {layer: own-research, source: 'al-Zirikli, al-A''lam, 15th ed. 2002, entry read in full from the local OpenITI text', generated_by: Claude Code (Lane B2 packet), model: claude-sonnet-5-5, run: web-b2-alam-2026-11-14}
+status: {review: draft, completeness: 3}

@@ -1,0 +1,18 @@
+id: concept/canon-uneven-pulse-across-many-beats
+class: concept
+kind: scientific
+label: { ar: "النبض المختلف في نبضات كثيرة عند ابن سينا", en: "The pulse uneven across many beats in the Canon", ur: "کئی دھڑکنوں میں مختلف نبض قانون میں" }
+summary:
+  ar: "يفتتح ابن سينا الفصل الثاني بقسمة النبض المختلف إلى ما يختلف في نبضات كثيرة وما يختلف في نبضة واحدة، ويشرح المتدرج من الأول {cite:canon-ibn-sina-print-v1 pp.171-172}."
+  en: "Ibn Sina opens the second chapter by dividing the uneven pulse into that uneven across many beats and that uneven within a single beat, and explains the graduated kind of the first {cite:canon-ibn-sina-print-v1 pp.171-172}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, the pulse chapters 2 to 11 (scan pages 171 to 179), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-causes-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

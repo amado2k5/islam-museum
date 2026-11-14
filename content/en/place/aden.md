@@ -11,3 +11,6 @@ Aden: a port in the south of [[place/yemen|Yemen]] on the Indian Ocean, and a ma
 al-Maqdisi called it "the corridor of China", and said that whoever wished to trade should go to Aden, Oman or Egypt. {cite:ahsan-al-taqasim pp.31-32}
 
 al-Hamdani counted it among the oldest markets of the Arabs. He described it as a city surrounded by a mountain that had no road until a passage was cut through the mountain at the iron gate of Bazbar, which became a path to the interior. Its water comes from the sand of a desert district. Its people include the Mirbiyyun, the Hamhamiyyun and the Mallahiyyun, and the Mirbiyyun claim descent from the sons of Harun. {cite:sifat-jazirat-al-arab p.36}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2287356 with the preferred name «Aden», classed as populated place; its parent in the hierarchy is «ʿAdan (muḥāfaẓāt)», classed as administrative unit. Recorded names include «ʿAdan», «Aden» and «عدن». {cite:idai-gazetteer 2287356}

@@ -1113,7 +1113,35 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 - Biblissima label read for 78 persons with a Biblissima id and full prose; section added in ar, en, ur (cite-check 78 of 78). VIAF has no readable public data channel in this pass (the cluster pages are not fetched), so VIAF prose is not written: a VIAF number alone is no fact worth a section.
 - Yaqut, Mu'jam al-Buldan, Dar Sader 1995 (Shamela book 23735, pages 1 to 2460 by index): download to books/geography/mujam-al-buldan-sader-shamela23735/pages.jsonl on the microSD (about 3 MB, claimed in WORK-REGISTRY.md), curl with a 2 s pause (shamela.ws answers curl). The edition is not the Khanji print of the existing scan: citations will name volume and page of the Dar Sader print and need a new source entity.
 
+## 2026-11-14 (Lane B2 al-A'lam packet 16, alm16) - ten persons from al-A'lam, Dar al-Ilm 2002
+
+- Written (ar, en, ur, draft; cite-check 10 of 10): ibn-hurmuz (vol. 3 p. 286), al-mullawi (1 p. 148), ahmad-al-buni (1 p. 156), shams-al-din-ibn-al-mawsili (7 p. 29), ibn-ajurrum (7 p. 29, replaces Biblissima-only prose), zahir-al-din-ibn-al-attar (7 p. 296), hibatullah-ibn-kamil (8 p. 70), yunus-ibn-abd-al-wahhab-al-aythawi (8 p. 235), abd-al-rahman-al-bahkali (3 p. 286), muhammad-ibn-abd-al-kabir-al-kettani (6 p. 179).
+- Corrections to cards: ibn-hurmuz Khurasan to Medina and Alexandria; al-mullawi born 1088 AH = 1677 (card note said 1098); ibn-al-mawsili Mosul to Baalbek (birth) and Tripoli (death); al-aythawi death 1570 to 1569 (976 AH); al-kettani died_in Sale to Fes, death year 1909 kept (entry prints 1907 beside 1327 AH, which falls in 1909 to 1910); al-bahkali Arabia to the Tihama; hibatullah-ibn-kamil: Fatimid Isma'ili da'i and chief judge, Tyre birth on the card is not in the entry and stays pending.
+- Skipped: muhammad-ibn-mustafa-al-bakri. The entry is for Mustafa ibn Kamal al-Din al-Bakri (1099 to 1162 AH = 1688 to 1749); the card is named Muhammad ibn Mustafa with the same years. The name differs (possibly a Wikidata naming error, possibly the card is a different man), so no prose was written. A proposal for the founder: confirm identity, then rename or alias.
+
+## 2026-11-14 (Lane B2 packet alm17) - al-A'lam persons, eleven written
+
+Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each entry read in full; match checked by name, role and dates. None skipped.
+
+- ali-ibn-abd-al-wahid-al-sijilmasi (written vol. 4 p. 250): card summary said eighteenth-century Moroccan writer and linguist: corrected to Maliki jurist, d. 1647; born 1594 removed (the entry gives no birth).
+- ibn-mawdud-al-mawsili (written vol. 4 p. 130): card born 1202 kept (599 AH spans 1202 to 1203).
+- abu-al-abbas-al-sabti (written vol. 1 p. 84): card born 1129 kept (524 AH begins late 1129); added born_in Ceuta; the divided judgements of his chroniclers are each attributed.
+- abdallah-ibn-muhammad-al-shinshawri (written vol. 4 p. 115): region corrected levant-iraq to egypt-nile; card years 1528 and 1590 kept (entry 1528 to 1591, same Hijri years).
+- al-mahdi-al-husayn (written vol. 2 p. 219): card born 986 changed to 994 (entry heading 384 AH as printed; flagged: a 9-year-old imam is odd, the heading may mark something else); died 1013 confirmed.
+- ibrahim-al-thaqafi (written vol. 1 p. 36): Zaydi then Imami labelled first; no corrections.
+- abd-al-hamid-al-zahrawi (written vol. 3 p. 286): no date corrections; role politician added; born_in Homs added; the entry's 1327 AH = 1908 written as printed.
+- al-shaykh-al-mufid (written vol. 6 p. 291): card born 948 kept; nisba corrected to al-Ukbari (born Ukbara); Imami labelled first; al-Dhahabi remark attributed.
+- abd-al-rahman-shaykhizade (written vol. 3 p. 286): role translator removed (not in the entry); Gallipoli added.
+- al-bazzazi (written vol. 7 p. 29): no corrections; the fatwa on Timur is given as the entry reports it.
+- ahmad-ibn-fahad-al-hilli (written vol. 1 p. 220): no corrections; died_in Karbala added.
 ## 2026-11-14 (p73, Lane B worker B1) — Nomisma sections on 13 pages
 
 - One SPARQL request (nomisma.org/query, counts of distinct coins and types by nmo:hasAuthority, hasIssuer or hasMint, 5,117 concepts) joined to the entries that carry a Nomisma id and prose in all three languages; 13 qualified (the others have no prose file yet or their concept has no coin record). The Nomisma definition text is not used: it is taken from Wikipedia, which is never a source for prose. Concepts whose id carries an apostrophe are skipped (citation anchor).
 - Coin-type facts per ruler (denominations, mints, dates) need the type pages of the linked catalogues and were not read in this pass.
+
+## 2026-11-14 (packet 32, place prose) - Pleiades and iDAI sections
+
+- Written: baysan, bejaia, bukhara, bursa, cairo, cartagena, cefalu, constantine, cordoba, damascus (Pleiades only), edirne, fez.
+- Skipped, iDAI GeoNames id differs from our data: ceuta (iDAI 2519582, ours 6362987), gabes (iDAI 2468369, ours 110075).
+- Skipped, iDAI record 2280221 (damascus) carries no GeoNames id, so identity cannot be confirmed; proposal for the founder.
+- Packet 31 (place prose, identifier sections): 14 places written; no iDAI GeoNames mismatches (Baghdad, Balkh, Basra iDAI records carry no GeoNames id; Almeria data has none).

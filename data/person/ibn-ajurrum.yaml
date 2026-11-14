@@ -1,31 +1,38 @@
 id: person/ibn-ajurrum
 class: person
-label:
-  ar: "محمد بن آجروم"
-  en: "Ibn Ajurrum"
+label: {ar: محمد بن آجروم, en: Ibn Ajurrum}
 roles: [scholar]
 gender: male
-summary:
-  ar: "بطاقة أولية لمحمد بن محمد بن داود الصنهاجي المعروف بابن آجروم، نحوي المغرب صاحب متن «الآجرومية» في النحو، توفي سنة ١٣٢٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Muhammad ibn Dawud al-Sanhaji known as Ibn Ajurrum, the Maghrebi grammarian author of the Ajurrumiyya matn, d. 1323; the biographical entry is not yet checked on the page."
+summary: {ar: 'محمد بن محمد بن داود الصنهاجي، أبو عبد الله، ابن آجروم: نحوي صاحب رسالة «الأجرومية»، ولد ومات بفاس ٦٧٢ إلى ٧٢٣ هـ الموافقة ١٢٧٣ إلى ١٣٢٣ م، وله شرح على الشاطبية.', en: 'Muhammad ibn Muhammad ibn Dawud al-Sanhaji, Abu Abd Allah, Ibn Ajurrum: a grammarian famous for the «Ajurrumiyya», born and died in Fez, 672 to 723 AH (1273 to 1323 CE), who also wrote a commentary on al-Shatibiyya.'}
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1273", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q2995629 (P569, a statement with a reference), item revision 2567918910.", sources: [source/wikidata] }
-died: { edtf: "1323", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q2995629 (P570, a statement with a reference), item revision 2567918910.", sources: [source/wikidata] }
+born:
+  edtf: '1273'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 7 p. 29: born 672 AH = 1273 CE, in Fez.'
+  sources: &id001 [source/alam-zirikli-dar-al-ilm-2002]
+died:
+  edtf: '1323'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 7 p. 29: died 723 AH = 1323 CE, in Fez.'
+  sources: *id001
 relations:
-  - { type: born_in, target: place/fes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/fes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/biblissima]
-external_ids:
-  wikidata: Q2995629
-  biblissima: "Q12169"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0025
-status:
-  review: draft
-  completeness: 1
+- type: born_in
+  target: place/fes
+  confidence: medium
+  note: 'From al-A''lam: born and died in Fez.'
+  sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+- type: died_in
+  target: place/fes
+  confidence: medium
+  note: 'From al-A''lam: born and died in Fez.'
+  sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+sources: [source/al-aalam, source/biblissima, source/alam-zirikli-dar-al-ilm-2002]
+external_ids: {wikidata: Q2995629, biblissima: Q12169}
+provenance: {layer: own-research, source: 'al-Zirikli, al-A''lam, 15th ed. 2002, entry read in full from the local OpenITI text', generated_by: Claude Code (Lane B2 packet), model: claude-sonnet-5-5, run: web-b2-alam-2026-11-14}
+status: {review: draft, completeness: 3}
