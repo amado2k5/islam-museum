@@ -13,11 +13,11 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-A'lam" }
-died: { edtf: "1795", calendar: gregorian, precision: year, derived: true, note: "The card's 1795 is kept; al-A'lam vol. 7 p. 311 prints 1209 AH = 1794 CE, and 1209 AH runs from August 1794 to July 1795; source: al-Zirikli, al-A'lam, 15th ed. 2002", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1795", calendar: gregorian, precision: year, derived: true, hijri: "1209", note: "The card's 1795 is kept. Al-A'lam vol. 7 p. 311 prints 1209 AH = 1794 CE; 1209 AH runs from 29 July 1794 to 18 July 1795. WikiShia (read 14 November 2026) names the day, 18 Sha'ban 1209, which falls in February-March 1795, so the year is 1795; its stated weekday and Gregorian day (Saturday, 10 March) do not agree with the tabular calendar and are not used. Sources: al-Zirikli, al-A'lam 15th ed. 2002; WikiShia.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikishia-mulla-mahdi-naraqi] }
 relations:
   - { type: born_in, target: place/naraq, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q644686)" }
   - { type: died_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q168193)" }
-sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikishia-mulla-mahdi-naraqi]
 external_ids:
   wikidata: Q6400779
 provenance:
