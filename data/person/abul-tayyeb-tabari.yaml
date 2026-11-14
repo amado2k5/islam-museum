@@ -6,25 +6,25 @@ label:
 roles: [faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي الطيب طاهر بن عبد الله الطبري، شيخ الشافعية ومستفتي بغداد؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-Tayyib Tahir ibn Abd Allah al-Tabari, shaykh of the Shafi'is and Baghdad's mufti; his entry is not yet checked on the page."
+  ar: "طاهر بن عبد الله بن طاهر الطبري، أبو الطيب، قاضٍ من أعيان الشافعية، وُلد بآمل طبرستان سنة 348 هـ واستوطن بغداد وولي القضاء بربع الكرخ وتوفي بها سنة 450 هـ {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 222}."
+  en: "Tahir ibn Abd Allah ibn Tahir al-Tabari, Abu al-Tayyib, a judge and one of the notable Shafi'is, born at Amul in Tabaristan in 348 AH, who settled in Baghdad, became judge of the Rub' al-Karkh quarter and died there in 450 AH {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 222}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-born: { edtf: "0960", precision: year, status: tradition, derived: true }
-died: { edtf: "1058", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+born: { edtf: "0960", hijri: "0348", calendar: gregorian, precision: year, status: tradition, derived: false, note: "al-Zirikli prints 348 AH = 960 CE; al-Safadi gives 348 AH.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+died: { edtf: "1058", hijri: "0450", calendar: gregorian, precision: year, status: tradition, derived: false, note: "al-Zirikli prints 450 AH = 1058 CE; al-Safadi gives 450 AH at the age of 102.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q22681280
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam vol. 3 p. 222; al-Safadi, al-Wafi bi-l-Wafayat vol. 16 pp. 230-232"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-m01-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2
 occupations:
   - job: job/faqih
     kind: primary
@@ -32,4 +32,6 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
 relations:
-  - { type: lived_in, target: place/baghdad, note: "Shaykh of the Shafi'is and mufti of Baghdad (mustafti Baghdad).", sources: [source/al-aalam], confidence: high }
+  - { type: lived_in, target: place/baghdad, note: "Settled in Baghdad and was judge of Rub' al-Karkh until his death there.", sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: high }
+  - { type: born_in, target: place/amul-mazandaran, note: "al-Zirikli and al-Safadi: born at Amul in Tabaristan.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: high }
+  - { type: died_in, target: place/baghdad, note: "al-Zirikli and al-Safadi: died in Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: high }

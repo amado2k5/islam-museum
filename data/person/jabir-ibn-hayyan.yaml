@@ -10,7 +10,7 @@ died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/tus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/fihrist-ibn-al-nadim]
+sources: [source/fihrist-ibn-al-nadim, source/biblissima]
 importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-external_ids: { wikidata: Q167852 }
+external_ids: { wikidata: Q167852, biblissima: Q5099 }

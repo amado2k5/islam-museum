@@ -42,6 +42,11 @@ relations:
   target: group/banu-yafur
   sources:
   - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  role: "محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
 - type: occurred_at
   target: place/sanaa
   sources:
@@ -54,11 +59,11 @@ sources:
 - source/sira-hadi-ila-al-haqq
 provenance:
   layer: own-research
-  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص235 ⁦(الصفحة المطبوعة)⁩"
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص235-236 ⁦(الصفحة المطبوعة)⁩"
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-27
 status:
   review: draft
   completeness: 2
-  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 235
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 235-236

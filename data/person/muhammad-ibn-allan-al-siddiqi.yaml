@@ -8,18 +8,19 @@ roles: [scholar, muhaddith, mufassir]
 traditions: [sunni]
 wings: [people]
 regions: [arabia]
-died: { hijri: "1057", calendar: julian, precision: year, status: tradition, derived: false, note: "توفي سنة 1057هـ بحسب صفحات العنوان في المجلدين الأول والثامن من طبعتي دار المعرفة ودار الكتاب العربي؛ لم يُحوَّل التاريخ.", sources: [source/dalil-al-falihin-dar-al-marifa-vol1-2004] }
+born: { edtf: "1588", hijri: "0996", calendar: gregorian, precision: year, status: tradition, derived: false, note: "al-Zirikli prints 996 AH = 1588 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1647", hijri: "1057", calendar: gregorian, precision: year, status: tradition, derived: false, note: "توفي سنة 1057هـ بحسب صفحات العنوان في المجلدين الأول والثامن من طبعتي دار المعرفة ودار الكتاب العربي، وهي 1647 م كما يطبعها الزركلي.", sources: [source/dalil-al-falihin-dar-al-marifa-vol1-2004, source/alam-zirikli-dar-al-ilm-2002] }
 summary:
   ar: "العالم العلامة المفسِّر الصديقي الشافعي الأشعري المكي، شرح «رياض الصالحين» للنووي في «دليل الفالحين لطرق رياض الصالحين»؛ توفي سنة 1057هـ بحسب صفحات العنوان. {cite:dalil-al-falihin-dar-al-marifa-vol1-2004 p. 1}"
   en: "Ibn Allan al-Siddiqi, a Shafi'i-Ash'ari scholar of Mecca and exegete, who wrote Dalil al-falihin, a commentary on al-Nawawi's Riyad al-salihin. The title pages give 1057 AH as his death year. {cite:dalil-al-falihin-dar-al-marifa-vol1-2004 p. 1}"
-sources: [source/dalil-al-falihin-dar-al-marifa-vol1-2004, source/dalil-al-falihin-dar-al-kitab-vol8]
+sources: [source/dalil-al-falihin-dar-al-marifa-vol1-2004, source/dalil-al-falihin-dar-al-kitab-vol8, source/alam-zirikli-dar-al-ilm-2002]
 provenance:
   layer: own-research
   source: "Title pages of volumes one and eight, read from the OCR (scan p. 1 of each)"
   generated_by: "Claude Haiku 5.5"
   model: "claude-haiku-5-5"
   run: "harvest-group-a-dalil-16"
-status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5 from the OCR of the scan" }
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5 from the OCR of the scan", ai_unread: "The ar, en and ur prose sections citing al-Zirikli, al-A'lam (vol. 6 p. 293) were added on 14 November 2026 (Lane B2, run web-b2-m01-2026-11-14); AI text awaiting a human read. The card itself keeps its status." }
 occupations:
   - job: job/muhaddith
     kind: secondary

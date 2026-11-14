@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لصفي الدين الأرموي، واضع علم الموسيقى الكبير صاحب كتابي العدال والشرفية في القرن الثالث عشر؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Safi al-Din al-Urmawi, the great thirteenth-century music theorist of the Adwar and the Sharafiyya; his entry is not yet checked on the page."
+  ar: "عبد المؤمن بن يوسف بن فاخر الخويي الأرموي البغدادي، صفي الدين، إمام عصره في ضرب العود والموسيقى وصاحب «كتاب الأدوار» و«الرسالة الشرقية»؛ أصله من خوي، نشأ في بغداد وخدم المستعصم ثم هولاكو وولاه الأوقاف، ومات محبوساً في دين سنة 693 هـ ⁦(1294 م)⁩."
+  en: "Abd al-Mu'min ibn Yusuf al-Khuwayyi al-Urmawi, Safi al-Din, the leading lute player and music theorist of his age and author of the Kitab al-Adwar and al-Risala al-Sharqiyya; from Khuy, raised in Baghdad, he served al-Musta'sim and then Hulagu, who gave him the endowments of Iraq, and he died imprisoned for a debt in 693 AH (1294 CE)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
@@ -15,16 +15,16 @@ died: { edtf: "1294", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/urmia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q179665)" }
   - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q980179
   viaf: "42492777"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002 (vol. 4 p. 170), entry read in full from the local OpenITI text; Wikidata candidate Q980179"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
