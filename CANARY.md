@@ -159,6 +159,8 @@ open a new block on top with the new version and today's date.
 - **Three iDAI links were withdrawn: Stuttgart, Idlib and Zurich.** iDAI gives each a GeoNames number different from ours, and the links had rested on the Arabic name alone, so under the fail-closed rule for external identifiers they are removed together with the iDAI-only prose written from them; the pages return to short records until the identity is confirmed (decision dec-20261114-277).
 - **Seventy-eight scholar pages gain a Biblissima section in Arabic, English and Urdu.** Each states the identifier and the name form, with life dates, under which the Biblissima authority file records the person, with a citation to that record (decision dec-20261114-277).
 - **Thirteen pages gain a Nomisma section in Arabic, English and Urdu.** Each names the Nomisma concept the entry is linked to and how many coins or coin types Nomisma's linked collections record under it as issuer, authority or mint, with a citation (decision dec-20261114-277).
+### Data
+- **The coverage report is regenerated** after about 150 more al-A'lam and Siyar biographies landed in Arabic, English and Urdu.
 
 ## v1.30.0 — 2026-11-14
 ### Added
