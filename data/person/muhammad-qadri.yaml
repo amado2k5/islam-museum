@@ -3,11 +3,11 @@ class: person
 label:
   ar: "محمد قدري"
   en: "Muhammad Qadri"
-roles: [scholar]
+roles: [judge, statesman, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد قدري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Qadri; the entry is not yet checked on the page."
+  ar: "محمد قدري باشا، من رجال القضاء في مصر، ولد في ملوي سنة 1237 هـ الموافقة 1821 م، مربي ولي عهد الخديوي ثم ناظر الحقانية ووزير المعارف، وصاحب «مرشد الحيران»، توفي بالقاهرة سنة 1306 هـ الموافقة 1888 م."
+  en: "Muhammad Qadri Pasha, an Egyptian jurist born in Mallawi in 1237 AH (1821 CE), tutor to the khedive's heir, then minister of justice and of education; author of Murshid al-Hayran; died in Cairo in 1306 AH (1888 CE)."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/colonial-era]
@@ -16,15 +16,15 @@ died: { edtf: "1888", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/mallawi, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q393498)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12240921
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -1016,6 +1016,12 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 - Yaqut vols 1-2 searched by Arabic name; only Uclés (أقليش) has an entry. Belvoir's Arabic name (Kawkab al-Hawa) has no entry; the `كوكب` hits are unrelated. Nakhchivan falls in a later volume.
 - Note: Uclés iDAI record links GeoNames 2510106 while the data file holds 6357543; not changed. iDAI was read through gazetteer.dainst.org/doc/<id>.json (the /place/<id>.json URL returns 404).
 
+## 2026-11-14 (Lane B2 packet alm3) - al-A'lam person prose, ten persons
+
+- Written (ar, en, ur, draft, cited to al-A'lam 15th ed. 2002 vol/page): lutfullah-al-arzurumi (5:241), muhammad-ardabili (6:291, Imami), ibn-al-mundhir-al-naysaburi (5:290), abd-al-qadir-al-maghribi (4:10), al-tabarsi (5:145, Imami), ahmad-al-badawi-zawitan (1:84), muhammad-ibn-saud (6:128), muhammad-qadri (6:291), ibrahim-ibn-sinan (1:36, Sabian), ibn-rashiq-al-maghribi (4:57). Short entries get short pages; nothing added beyond the entry.
+- Corrections to cards: ibn-al-mundhir born 856, died 931 (card 855, 930); abd-al-qadir-al-maghribi born 1868 (card 1867); al-tabarsi title Amin al-Din (card Amin al-Islam); al-ardabili death kept approximate with note (entry: after 1100 AH); roles updated for ibn-al-mundhir, al-maghribi, zawitan, qadri, ibn-sinan; relations added: died_in aleppo, sabzevar, diriyah, damascus; born_in latakia; buried_in mashhad (low); lived_in isfahan, fes, damascus.
+- Skipped: ibrahim-ibn-abdallah-physician. The packet entry is al-Asili (Abdallah ibn Ibrahim, Maliki hadith scholar of Cordoba, d. 392 AH); the card is a physician named Ibrahim ibn Abdallah (source Ibn Abi Usaybi'a, died at Methoni): a different person, proposal for the founder to unlink.
+- Note: the entry for al-Maghribi reads "بالجماعة السورية", taken as "الجامعة السورية" (an evident misprint in the text); Ibn Rashiq's card region (maghreb) rests on his nisba and was left unchanged.
 ## 2026-11-14 (Lane B2, al-A'lam packet 4, alm4) - ten persons
 
 - Written (ar, en, ur, draft, completeness 3), each from its entry in al-Zirikli, al-A'lam, 15th ed. 2002 (`alam-zirikli-dar-al-ilm-2002`, vol. and page cited): taha-abd-al-baqi-surur (3:230), sadreddinzade-al-shirwani (6:23), nuh-ibn-mustafa-egir (8:50), ibn-abd-al-qawi-mardawi (6:179), muhammad-abu-zahra (6:23), sultan-ibn-saif-i (3:108, labelled Ibadi), tawba-al-anbari (2:88), abd-al-salam-ibn-mashish (3:354), ali-ibn-ahmad-mahimi (4:250), ahmad-ibn-kayghalagh (1:84). Short entries give short pages (Surur, Sadreddinzade, Tawba, Ibn Abd al-Qawi).

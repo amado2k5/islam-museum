@@ -6,8 +6,8 @@ label:
 roles: [scribe]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن رشيق المغربي، كاتب القرن الرابع عشر، توفي سنة ١٣٤٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Rashiq al-Maghribi, the fourteenth-century scribe, d. 1349; the biographical entry is not yet checked on the page."
+  ar: "عبد الله بن رشيق المغربي، ناسخ من أهل دمشق، وصفه ابن كثير بأنه كاتب مصنفات ابن تيمية، وتاريخ وفاته 749 هـ الموافقة 1349 م."
+  en: "Abdallah ibn Rashiq al-Maghribi, a copyist of Damascus whom Ibn Kathir describes as the copyist of Ibn Taymiyya's works; dated 749 AH (1349 CE)."
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
@@ -15,15 +15,16 @@ born: { edtf: "1282", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1348", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
 relations:
   - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+  - { type: lived_in, target: place/damascus, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: of the people of Damascus.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q119439097
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0076
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
