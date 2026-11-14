@@ -12,3 +12,6 @@ translators: []
 
 ## مجرى الأحداث
 كان الهادي قد صعد جبل بيت ذخار، واستخلف على شبام [[person/muhammad-ibn-abbad-al-tamimi|محمد بن عباد]]، فدخل المخالفون شبام فقُتل، وذلك في جمادى الآخرة سنة 288هـ. ونزل الهادي من الجبل فطردهم، وخرجوا هاربين، ودخل شبام ودفن ابن عباد {cite:sira-hadi-ila-al-haqq p.19}. وانظر [[group/banu-yafur|آل يعفر]].
+
+## انظر أيضاً
+يُروى الحدث نفسه بتفصيل أوفى في [[event/the-qudumis-enter-shibam-break-the-prison-and-ibn-abi-abbad-is-killed-288]] و[[event/abu-al-atahiya-and-ibn-al-daam-rout-the-qudumis-and-al-hadi-buries-ibn-abi-abbad-288]] {cite:sira-hadi-ila-al-haqq p.218} {cite:sira-hadi-ila-al-haqq p.219}، ولم يوفق المتحف بين الروايتين.
