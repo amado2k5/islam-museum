@@ -1045,4 +1045,10 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 - Written (ar, en, ur, draft): shaizar, djerba, turbessel (Pleiades, local CSV dump and JSON read 14 Nov 2026), asilah (Pleiades plus iDAI), urmia, gelibolu, i-skenderun, philadelphia, berkeley, berat (iDAI.gazetteer via gazetteer.dainst.org/doc/<id>.json). Urmia cites Yaqut vol. 1, scan pp.206-207, and i-skenderun Yaqut vol. 1, scan p.238 (Iskandaruna); `source/mujam-al-buldan-yaqut` added to both. Skipped: none.
 - Yaqut vols 1-2: Asilah's only hit is a different place, Asil in al-Andalus, so not used; the rest fall in later volumes. Djerba's Pleiades JSON endpoint returned a features feed, so its fields come from the CSV dump.
 
+<<<<<<< HEAD
 - Lane B1 packet 11 (14 Nov 2026): wrote trilingual prose for mallawi, heraklion, stara-zagora, bato-ina, sidon, ptolemais-hermiou, gebze, antioch, erzurum, cambridge from Pleiades and iDAI.gazetteer facts; antioch also from Yaqut, Mu'jam al-buldan vol. 1 scan pp. 358-362. Skipped Yaqut for heraklion: his entry (Aqritish, scan p. 315-316) is for the island of Crete, not the city. Sidon is in volume 3 (letter sad), not in the volumes on the drive. No place skipped.
+=======
+## 2026-11-14 (Lane B1 packet 12) - place prose, ten places
+
+- Written (ar, en, ur, draft): chamchamal, biskra, k-tahya, sheffield, drama, rostov-on-don, trabzon, plovdiv, patras (iDAI.gazetteer via gazetteer.dainst.org/place/<id>, Accept application/json, read 14 Nov 2026) and aphrodisias (Pleiades JSON, 14 Nov 2026). Biskra cites Yaqut vol. 2, scan p.586 (entry Biskira); `source/mujam-al-buldan-yaqut` added to its sources. No Yaqut entry found in vols 1-2 for the others (Trabzon, Patras, Sheffield and the rest fall in later volumes or are absent). Skipped: none.
+>>>>>>> origin/main
