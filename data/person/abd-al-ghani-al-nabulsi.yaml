@@ -6,26 +6,28 @@ label:
 roles: [scholar, poet, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الغني بن إسماعيل النابلسي، عالم دمشق وصوفيها ورحّالتها في أواخر القرن السابع عشر صاحب الرحلات والتصانيف الكثيرة، توفي سنة ١٧٣١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Ghani ibn Ismail al-Nabulsi, the Damascene scholar, Sufi and travel writer of the late seventeenth century, d. 1731; the biographical entry is not yet checked on the page."
+  ar: "عبد الغني بن إسماعيل النابلسي، شاعر عالم بالدين والأدب متصوف مكثر من التصنيف، ولد ونشأ وتوفي في دمشق بعد رحلات إلى بغداد وفلسطين ولبنان ومصر والحجاز، 1050 إلى 1143 هـ."
+  en: "Abd al-Ghani ibn Isma'il al-Nabulsi, a poet, scholar of religion and literature, Sufi and very prolific author, born, raised and buried in Damascus after journeys to Baghdad, Palestine, Lebanon, Egypt and the Hijaz, 1050 to 1143 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
 themes: [spirituality-and-sufism]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
 external_ids:
   wikidata: Q4164547
   viaf: "96969918"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0017
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Silk al-Durar (al-Muradi: 1050–1143 AH) Confirmed on 13 November 2026 against Wikidata Q4164547 (P569, a statement with a reference), item revision 2568798336.", sources: [source/wikidata] }
 died: { edtf: "1731", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Silk al-Durar (al-Muradi: 1050–1143 AH) Confirmed on 13 November 2026 against Wikidata Q4164547 (P570, a statement with a reference), item revision 2568798336.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/nablus, note: "Place association from the person's nisba/name (النابلسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/damascus, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: born and raised in Damascus.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/damascus, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: settled in Damascus and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14

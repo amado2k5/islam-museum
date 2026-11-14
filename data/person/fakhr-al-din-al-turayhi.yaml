@@ -6,10 +6,10 @@ label:
 roles: [scholar, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لفخر الدين الطريحي، لغوي ومؤرخ القرن السابع عشر صاحب مجمع البحرين، توفي سنة ١٦٧٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Fakhr al-Din al-Turayhi, the seventeenth-century lexicographer and historian author of Majma' al-Bahrayn, d. 1674; the biographical entry is not yet checked on the page."
+  ar: "فخر الدين بن محمد بن علي الطريحي الرماحي النجفي، من علماء الإمامية، صاحب «مجمع البحرين ومطلع النيرين» في تفسير غريب القرآن والحديث، توفي في الرماحية ونقل إلى النجف، 979 إلى 1085 هـ."
+  en: "Fakhr al-Din al-Turayhi al-Rammahi al-Najafi, a scholar of the Imamis, author of Majma' al-Bahrayn on the rare words of the Qur'an and hadith; he died at al-Rammahiyya and was carried to Najaf, 979 to 1085 AH."
 wings: [people]
-regions: [persia-central-asia]
+regions: [levant-iraq]
 periods: [period/gunpowder-empires]
 born: { edtf: "1571", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q5942448 (P569, a statement with a reference), item revision 2533544997.", sources: [source/wikidata] }
 died: { edtf: "1675", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q5942448 (P570, a statement with a reference), item revision 2533544997.", sources: [source/wikidata] }
@@ -21,16 +21,16 @@ relations:
   - { type: lived_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: lived_in, target: place/najaf, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: lived_in, target: place/isfahan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
 external_ids:
   wikidata: Q5942448
   viaf: "77905796"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0056
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14

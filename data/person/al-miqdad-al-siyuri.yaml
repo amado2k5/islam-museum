@@ -6,25 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية للمقداد السيوري المعروف بالفاضل مقداد، فقيه القرن الخامس عشر، توفي سنة ١٤٢٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Miqdad al-Siyuri known as al-Fadil Miqdad, the fifteenth-century jurist, d. 1423; the biographical entry is not yet checked on the page."
+  ar: "مقداد بن عبد الله السيوري الحلي الأسدي، فقيه إمامي من تلاميذ الشهيد الأول، توفي في النجف سنة 826 هـ الموافقة 1423 م، صاحب «كنز العرفان في فقه القرآن» و«إرشاد الطالبين»."
+  en: "Miqdad ibn Abdallah al-Siyuri al-Hilli, an Imami (Twelver) jurist and pupil of al-Shahid al-Awwal, who died in Najaf in 826 AH, 1423 CE; author of Kanz al-'Irfan on the jurisprudence of the Qur'an and of Irshad al-Talibin."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
 external_ids:
   wikidata: Q5948121
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0063
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1423", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Hurr al-Amili (Amal al-Amil 2/325; d. 826 AH) Confirmed on 13 November 2026 against Wikidata Q5948121 (P570, a statement with a reference), item revision 2472127343.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/hilla, note: "Wikidata Q243846 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: buried_in, target: place/najaf, note: "Wikidata Q168193 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/iraq, note: "Wikidata Q796 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/najaf, note: "Al-Zirikli, al-A'lam vol. 7 p. 278: died in Najaf.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
