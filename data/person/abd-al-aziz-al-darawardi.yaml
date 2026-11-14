@@ -6,24 +6,24 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد العزيز الدراوردي، المحدث المدني في القرن الثاني؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Aziz al-Darawardi, the Medinan hadith scholar of the second century; his entry is not yet checked on the page."
+  ar: "عبد العزيز بن محمد بن عبيد الدراوردي، الجهني بالولاء، المدني، أبو محمد، محدث روى عنه خلق كثير منهم سفيان وشعبة، وأصله من دراورد من قرى خراسان، ولد ومات بالمدينة سنة ١٨٦هـ."
+  en: "Abd al-Aziz ibn Muhammad ibn Ubayd al-Darawardi, al-Juhani by clientage, al-Madani, Abu Muhammad, a hadith scholar from whom a great many narrated, among them Sufyan and Shu'ba; his family came from Darawurd, a village of Khurasan, and he was born and died in Medina, dying in 186 AH (802)."
 wings: [people]
 regions: [arabia]
 periods: [period/abbasid-early]
-died: { edtf: "0803", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+died: { edtf: "0802", hijri: "0186", precision: year, status: tradition, derived: true, sources: [source/alam-zirikli-dar-al-ilm-2002], note: "Al-Zirikli, al-A'lam vol. 4 p. 10: 186 AH = 802 CE; the card said 803." }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q106650836
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary
@@ -32,3 +32,5 @@ occupations:
     sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (المدني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/medina, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: born in Medina.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/medina, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: died in Medina.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
