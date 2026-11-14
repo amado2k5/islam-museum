@@ -4335,3 +4335,29 @@ Resume point: sharh-saheeh-al-bukhare episode 33 (branch from origin/main).
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep33 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 34 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep34 (14 Nov 2026)
+
+26 points written for episode 34 (ar, en, ur); 19 needs_source marks in each language file for this episode; 9 new `about` edges. Quran verses referenced only through passage links (24-55, 3-165, 47-6, 56-26, 36-58, 13-23, 20-59, 20-65, 20-68, 20-69, 20-71, 22-40); none typed. Contested: Attributed to him and contested: that Khalid ibn al-Walid killed Malik ibn Nuwayra and married his widow is a claim he rejects and blames on named historians (Jurji Zaydan, Salama Musa); his remark that giving up worldly songs is compensated in Paradise; his contrast of the Banu Qaynuqa episode with present reliance on international bodies; and his reading of a Qur'anic word as also meaning a scent. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep34) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening supplication, greeting and repeated istighfar loop | ep34 00:00:00-00:03:00 | Greeting and opening prayer; loop and garbled text | Clarity, Loop check | Open |
+| Garbled stretch before the first point on takfir and time | ep34 00:04:30-00:05:00 | Too garbled to recover | Clarity | Open |
+| Sweeping claims that enemies of Islam through history share one aim, and the garbled story of the grave of the Prophet's mother | ep34 00:06:30-00:07:30, 00:09:30-00:10:30 | Sweeping claim about enemies and peoples; story garbled | Voice rule, Clarity | Open |
+| Comparison of the Uhud story with present-day massacres, supplication for Muslims in conflicts, and a quoted remark attributed to a First World War general | ep34 00:12:30-00:14:30 | Sweeping claims about a modern conflict | Voice rule | Open |
+| Repeated word loops and garbled lines | ep34 00:14:30-00:15:30, 00:19:00-00:20:30, 00:25:00-00:26:00, 00:29:00-00:29:30 | Loop, no recoverable content | Clarity, Loop check | Open |
+| Garbled lines on servants of Paradise, wives, worldly talk and the Hereafter | ep34 00:22:00-00:22:30, 00:23:30-00:28:00, 00:29:30-00:30:30 | Too garbled to recover | Clarity | Open |
+| Loop lines inside the Paradise section | ep34 00:23:00-00:23:30, 00:31:30-00:32:00, 00:32:30-00:33:00, 00:33:30-00:34:00 | Loop, no recoverable content | Clarity, Loop check | Open |
+| Story of a woman whom Umar defended and advice on separate study circles for women | ep34 00:36:30-00:38:30 | Garbled, and about women in general | Voice rule, Clarity | Open |
+| Loops and garbled lines around the hadith and the man's story | ep34 00:38:30-00:39:30, 00:41:30-00:43:30 | Loop and garbled | Clarity, Loop check | Open |
+| Anecdotes about foreign women, a joke about a tiger, a report about a woman sitting beside the Prophet, and a ruling about shaking hands | ep34 00:49:00-00:53:30 | Garbled anecdotes and sweeping claims about women | Voice rule, Clarity | Open |
+| Garbled passage on a Persian commander and a pardon | ep34 00:54:30-00:56:00 | Too garbled to recover | Clarity | Open |
+| Garbled lines before and after the Quraysh man's story | ep34 00:59:00-01:00:30, 01:01:30-01:03:00 | Garbled and loop | Clarity, Loop check | Open |
+| Loops around the Moses story | ep34 01:05:00-01:05:30, 01:06:00-01:07:00, 01:07:30-01:08:30 | Loop, garbled | Clarity, Loop check | Open |
+| Garbled lines in the Quraysh offer section | ep34 01:10:00-01:11:30 | Loop, garbled | Clarity, Loop check | Open |
+| Poet and caliph story with a marble column, unclear names and loops | ep34 01:12:30-01:19:00 | Garbled and looping | Clarity, Loop check | Open |
+| Loop lines and fragments before the closing | ep34 01:19:00-01:19:30, 01:20:00-01:20:30 | Loop, garbled | Clarity, Loop check | Open |
+| Closing greeting and farewell | ep34 01:21:30-01:22:00 | Greeting and closing prayer | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 35 (branch from origin/main).
