@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعامر بن عبد الله بن الزبير؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Amir ibn Abd Allah ibn al-Zubayr; the entry is not yet checked on the page."
+  ar: "عامر بن عبد الله بن الزبير بن العوام، أبو الحارث الأسدي المدني، وصفه الذهبي بالإمام الرباني وأحد العباد، ومجمع على ثقته؛ توفي بعد سنة ١٢٠هـ."
+  en: "Amir ibn Abd Allah ibn al-Zubayr ibn al-Awwam, Abu al-Harith al-Asadi of Medina, called by al-Dhahabi the devoted imam and one of the worshippers, agreed upon as reliable; he died after 120 AH."
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q20409790
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "736", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+  completeness: 3
+died: { edtf: "0738/0747", calendar: gregorian, precision: year, derived: true, note: "Siyar A'lam al-Nubala, p. 2112: d. 'nayyif wa ishrin wa mi'a' (121-129 AH); the card's earlier death year 736 (118 AH) contradicts the book and is corrected", sources: [source/siyar-alam-nubala-ideas-house] }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

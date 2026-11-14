@@ -1,21 +1,35 @@
 id: place/doucen
 class: place
 kind: town
-label: { ar: "الدوسن", en: "Doucen" }
+label:
+  ar: الدوسن
+  en: Doucen
 summary:
-  ar: "بلدة في الجزائر."
-  en: "Town in Algeria."
-wings: [place]
-regions: [maghreb]
-coordinates: [34.5975, 5.103055555555556]
+  ar: بلدة في الجزائر.
+  en: Town in Algeria.
+wings:
+- place
+regions:
+- maghreb
+coordinates:
+- 34.5975
+- 5.103055555555556
 coordinate_precision: approx
-coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q3037852", pleiades: "334540" }
-sources: [source/wikidata, source/pleiades]
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q3037852
+  pleiades: '334540'
+sources:
+- source/wikidata
+- source/pleiades
 provenance:
   layer: own-research
-  source: "Wikidata item Q3037852 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
+  source: Wikidata item Q3037852 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.
+  generated_by: Devin
+  model: Devin (Cognition)
   run: person-place-geo-b
-status: { review: draft, completeness: 1, generated_by: "Devin" }
+  note: Prose read from Pleiades place page https://pleiades.stoa.org/places/334540/json, accessed 14 Nov 2026 (Lane B1 packet 4).
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin
