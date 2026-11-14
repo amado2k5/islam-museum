@@ -77,6 +77,7 @@ open a new block on top with the new version and today's date.
 - **VIAF identifiers added to 1,100 more persons.** Each number comes from the single VIAF statement on the person's Wikidata item; numbers already used by another person of ours were skipped (decision dec-20261114-277).
 - **The last single-statement VIAF identifiers from Wikidata are added to persons.** Every person of ours whose Wikidata item carries exactly one VIAF number now carries it too; numbers used twice were skipped (decision dec-20261114-277).
 - **Twenty-two more places carry a Pleiades identifier, matched by their Arabic name.** Tyre, Palmyra, Byblos, Latakia, Kirkuk, Tikrit, Baalbek, Hama, Beisan, Setif, Gafsa and eleven others link to Pleiades records that record the same Arabic name for a point within 1.5 km (decision dec-20261114-277).
+- **al-Dimyati now carries his Biblissima identifier.** The match rests on Biblissima's own Wikidata statement and his dates agree with ours (decision dec-20261114-277).
 
 ## v1.30.0 — 2026-11-14
 ### Added

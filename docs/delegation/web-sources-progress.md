@@ -964,3 +964,7 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 
 - Approval: dec-20261114-277. The hand-check set of p55 was settled by a stricter rule instead of a hand read: our Arabic label equals an Arabic-script name that Pleiades attests for the place (language ar or arb, diacritics folded), point within 1.5 km, exactly one such place. 27 matched; linked: kirkuk, beaufort-castle, tartus, tikrit, baalbek, qift, old-dongola, hama, baysan, shaizar, djerba, turbessel, setif, tuz-khormato, qafsa, al-ukhdud, nawa, tukra, tadmur, jubayl, tyre, ladhiqiyya.
 - Not linked: amman (the Pleiades record is a cuneiform findspot near the citadel), nihavand and nihawand (duplicate pair), nahr-al-kalb (the Pleiades record is the monuments, not the river), azeffoun (the Pleiades title carries a question mark). The other loose-name matches of p55 (names only attested in Greek or Latin) stay unlinked: their identity rests on an ancient name we do not hold, so they are left out rather than guessed.
+
+## 2026-11-14 (p69, Lane B worker B1) — Biblissima scan complete (candidates 431 to 738)
+
+- Approval: dec-20261114-277. The scan finished: 308 searched in all, 19 matched by Wikidata id. Linked in p58 (15) and here (al-dimyati Q317200, dates 1217 and 1306 agree). Left for the founder: terken-khatun, abd-al-malik-ibn-habib, ibrahim-al-halabi (listed in p58). Candidates 739 onward do not exist (the list of persons born 600 to 1500 CE with a Wikidata id ends at 738).
