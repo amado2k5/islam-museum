@@ -6,27 +6,28 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لصفي الدين الهندي، العلامة صاحب حاشية كشف الحقائق؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Safi al-Din al-Hindi, the polymath of the Kashf al-Haqa'iq gloss; his entry is not yet checked on the page."
+  ar: "محمد بن عبد الرحيم بن محمد الأرموي، أبو عبد الله، صفي الدين الهندي، فقيه أصولي وُلد بالهند واستوطن دمشق وتوفي بها ووقف كتبه بدار الحديث الأشرفية؛ يذكر الزركلي 644-715 هـ، 1246-1315 م {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 200}."
+  en: "Muhammad ibn Abd al-Rahim ibn Muhammad al-Armawi, Abu Abd Allah, Safi al-Din al-Hindi, a jurist and legal theorist born in India who settled in Damascus, died there and endowed his books to the Ashrafiyya Dar al-Hadith; al-Zirikli prints 644-715 AH, 1246-1315 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 200}."
 wings: [people]
 regions: [south-asia]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1246", precision: year, status: tradition, derived: true }
-died: { edtf: "1315", precision: year, status: tradition, derived: true }
+born: { edtf: "1246", hijri: "0644", calendar: gregorian, precision: year, status: tradition, derived: false, note: "al-Zirikli prints 644 AH = 1246 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1315", hijri: "0715", calendar: gregorian, precision: year, status: tradition, derived: false, note: "al-Zirikli prints 715 AH = 1315 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/indian-subcontinent, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q60140)" }
-  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+  - { type: died_in, target: place/damascus, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "Wikidata P20 place of death (Wikidata Q3766); al-Zirikli: he settled in Damascus and died there." }
+  - { type: lived_in, target: place/damascus, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli: settled in Damascus in 685 AH." }
   - { type: buried_in, target: place/sufism-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q104244392)" }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q45108299
   viaf: "90056543"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam vol. 6 p. 200"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-m01-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2

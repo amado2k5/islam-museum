@@ -7,25 +7,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الكريم الرافعي القزويني، فقيه الشافعية في القرن الثالث عشر صاحب «العزيز شرح الوجيز»، توفي سنة ١٢٢٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Karim al-Rafi'i al-Qazwini, the thirteenth-century Shafi'i jurist author of al-Aziz sharh al-Wajiz, d. 1226; the biographical entry is not yet checked on the page."
+  ar: "عبد الكريم بن محمد بن عبد الكريم، أبو القاسم الرافعي القزويني، فقيه من كبار الشافعية صاحب «فتح العزيز في شرح الوجيز»، كان له مجلس بقزوين للتفسير والحديث وتوفي فيها؛ توفي سنة 623 هـ، الموافقة 1226 م {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 p. 55}."
+  en: "Abd al-Karim ibn Muhammad ibn Abd al-Karim, Abu al-Qasim al-Rafi'i al-Qazwini, one of the great Shafi'i jurists and author of Fath al-Aziz fi Sharh al-Wajiz, who held a session at Qazwin for exegesis and hadith and died there; al-Zirikli prints 557-623 AH, 1162-1226 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 p. 55}."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/shadharat-dhahab, source/wikidata]
+sources: [source/shadharat-dhahab, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12177809
   viaf: "50761734"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0028
+  source: "al-Zirikli, al-A'lam vol. 4 p. 55"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-m01-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2
 born: { edtf: "1160", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat) Confirmed on 13 November 2026 against Wikidata Q12177809 (P569, a statement with a reference), item revision 2567996829.", sources: [source/wikidata] }
-died: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat) Confirmed on 13 November 2026 against Wikidata Q12177809 (P570, a statement with a reference), item revision 2567996829.", sources: [source/wikidata] }
+died: { edtf: "1226", hijri: "0623", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat) Confirmed on 13 November 2026 against Wikidata Q12177809 (P570, a statement with a reference), item revision 2567996829.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/qazwin, note: "Place association from the person's nisba/name (القزويني); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/qazwin, note: "al-Zirikli: he held a session at Qazwin for exegesis and hadith.", sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/qazwin, note: "al-Zirikli: he died at Qazwin.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
