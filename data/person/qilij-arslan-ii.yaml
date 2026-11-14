@@ -8,25 +8,31 @@ names:
 roles: [sultan]
 gender: male
 summary:
-  ar: "بطاقة أولية لعز الدين قلج أرسلان الثاني، سلطان الروم الذي هزم مانويل الأول في ميريوكيفالون، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Izz al-Din Kilij Arslan II, the sultan of Rum who defeated Manuel I at Myriokephalon, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+  ar: "قلج أرسلان بن مسعود بن قلج أرسلان بن سليمان بن قتلمش، صاحب الروم؛ وصفه الصفدي بالعدل وحسن السياسة وسداد الرأي، وكانت له قونية وأقصرا وسيواس وملطية، وتوفي سنة 588 هـ وخلفه ابنه غياث الدين كيخسرو {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203} {cite:shadharat-dhahab vol. 6 p. 484}."
+  en: "Qilij Arslan ibn Mas'ud ibn Qilij Arslan ibn Sulayman ibn Qutlumush, lord of Rum; al-Safadi credits him with justice, good statecraft and sound judgement, his lands were Konya, Aksaray, Sivas and Malatya, and he died in 588 AH (1192 CE), succeeded by his son Ghiyath al-Din Kaykhusraw {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203} {cite:shadharat-dhahab vol. 6 p. 484}."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "1192", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kilidj Arslan II) Confirmed on 13 November 2026 against Wikidata Q58982 (P570, a statement with a reference), item revision 2553922904.", sources: [source/wikidata] }
+died: { edtf: "1192", hijri: "0588", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Kilidj Arslan II) Confirmed on 13 November 2026 against Wikidata Q58982 (P570, a statement with a reference), item revision 2553922904. al-Safadi, al-Wafi, vol. 24 pp. 202-203, and Ibn al-Imad, Shadharat al-Dhahab, vol. 6 p. 484 (year 588 AH notice), both give 588 AH = 1192 CE by the museum's conversion, agreeing with the card.", sources: [source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab] }
 relations:
-  - { type: born_in, target: place/konya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q79857)" }
+  - { type: born_in, target: place/konya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q79857); neither al-Safadi nor Ibn al-Imad names a birthplace" }
   - { type: buried_in, target: place/al-eddin-mosque, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2620007)" }
-sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
+  - { type: died_in, target: place/konya, confidence: high, note: "al-Safadi, al-Wafi, vol. 24 pp. 202-203: he died at Konya in mid-Sha'ban, as Ibn al-Athir dated it", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+  - { type: ruler_of, target: place/konya, confidence: high, note: "al-Safadi, vol. 24 pp. 202-203, and Ibn al-Imad, vol. 6 p. 484: Konya among his lands", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab] }
+  - { type: ruler_of, target: place/aksaray, confidence: high, note: "al-Safadi, vol. 24 pp. 202-203, and Ibn al-Imad, vol. 6 p. 484: Aqsara among his lands", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab] }
+  - { type: ruler_of, target: place/sivas, confidence: high, note: "al-Safadi, vol. 24 pp. 202-203, and Ibn al-Imad, vol. 6 p. 484: Sivas among his lands", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab] }
+  - { type: ruler_of, target: place/malatya, confidence: high, note: "al-Safadi, vol. 24 pp. 202-203, and Ibn al-Imad, vol. 6 p. 484: Malatya among his lands", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab] }
+  - { type: child_of, target: person/masud-i-rumi, confidence: high, note: "al-Safadi, vol. 24 pp. 202-203: Qilij Arslan ibn Mas'ud ibn Qilij Arslan ibn Sulayman ibn Qutlumush, the same line as the card of Mas'ud I", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab]
 external_ids:
   wikidata: Q58982
   viaf: "38399311"
 provenance:
   layer: own-research
-  source: "Wikidata Q58982 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0011
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, vol. 24 pp. 202-203, and Ibn al-Imad, Shadharat al-Dhahab, vol. 6 p. 484, entries read in full from the local texts; Wikidata Q58982"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -1,36 +1,32 @@
 id: person/shuayb-ibn-al-layth
 class: person
 label:
-  ar: شعيب بن الليث بن سعد
-  en: Shu'ayb ibn al-Layth ibn Sa'd
-roles:
-- scholar
+  ar: "شعيب بن الليث بن سعد"
+  en: "Shu'ayb ibn al-Layth ibn Sa'd"
+names:
+  - { kind: kunya, lang: ar, value: "أبو عبد الملك" }
+roles: [scholar, jurist]
 gender: male
 summary:
-  ar: بطاقة أولية لشعيب بن الليث بن سعد؛ لم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Shu'ayb ibn al-Layth ibn Sa'd; the entry is not yet checked on the page.
-wings:
-- people
-regions:
-- egypt-nile
-periods:
-- period/abbasid-early
-sources:
-- source/al-aalam
+  ar: "شعيب بن الليث بن سعد، أبو عبد الملك الفهمي بالولاء المصري، فقيه روى عن أبيه الليث بن سعد، وكان عند الصفدي إماما مفتيا ثقة، توفي سنة 199 هـ {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 16 pp. 93-94} {cite:shadharat-dhahab vol. 2 p. 471}."
+  en: "Shu'ayb ibn al-Layth ibn Sa'd, Abu Abd al-Malik al-Fahmi by clientage, al-Misri, a jurist who transmitted from his father al-Layth ibn Sa'd and whom al-Safadi calls an imam, a mufti and trustworthy; he died in 199 AH (about 814 CE) {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 16 pp. 93-94} {cite:shadharat-dhahab vol. 2 p. 471}."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/abbasid-early]
+died: { edtf: "814", hijri: "0199", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad. al-Safadi, al-Wafi, vol. 16 pp. 93-94, and Ibn al-Imad, Shadharat al-Dhahab, vol. 2 p. 471 (year 199 AH notice), print 199 AH, which the museum's conversion gives as 814 or 815 CE, agreeing with the card.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/misr, confidence: medium, note: "Both dictionaries call him al-Misri (of Egypt); no further place is named", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab] }
+  - { type: child_of, target: person/layth-ibn-sad, confidence: high, note: "al-Safadi, al-Wafi, vol. 16 pp. 93-94: Shu'ayb ibn al-Layth ibn Sa'd; he narrated from his father", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+  - { type: student_of, target: person/layth-ibn-sad, confidence: high, note: "al-Safadi, vol. 16 pp. 93-94: he narrated from his father", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+sources: [source/al-aalam, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab]
 external_ids:
   wikidata: Q22928979
 provenance:
   layer: own-research
-  source: Wikidata candidate; entry not yet read on the page in a book source
-  generated_by: Devin (SWE-2 High)
-  model: SWE-2 High
-  run: wikidata-import-wave2
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, vol. 16 pp. 93-94, and Ibn al-Imad, Shadharat al-Dhahab, vol. 2 p. 471, entries read in full from the local texts; Wikidata Q22928979"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "814", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
-relations:
-- type: lived_in
-  target: place/misr
-  sources:
-  - source/al-aalam
+  completeness: 2
