@@ -12,3 +12,6 @@ It lies opposite Qasr Ziyad in the sea, toward the east, between Qasr Ziyad and 
 
 ## Caves
 On the western end of the island are caves and hollows in which people take refuge from anyone who attacks them, known as al-Qarbadi; from al-Qarbadi to Bayt al-Qasir is thirty-five miles. {cite:nuzhat-al-mushtaq-2002 p. 304} Elsewhere, from the end of the island of Jerba called Antijan to the bridge on Qarqana is sixty-two miles. {cite:nuzhat-al-mushtaq-2002 p. 306}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Cercina (island)» (Pleiades no. 324690), classed as island group and island, with activity attested from 330 BCE to 2100 CE. Its recorded names include insula Cercina, Île Chergui and Kerkinna. It describes a group of islands off the east coast of Tunisia in the Gulf of Gabes, a place of exile in Roman antiquity. {cite:pleiades 324690}
