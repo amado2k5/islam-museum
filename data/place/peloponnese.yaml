@@ -9,8 +9,8 @@ wings: [place]
 coordinates: [37.4, 22.3]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q78967" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q78967", nomisma: "peloponnesus" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q78967 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."

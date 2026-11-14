@@ -1,0 +1,16 @@
+id: passage/sahaba-hayat-sahaba-tibb-2-12
+class: passage
+unit: chapter
+work: work/hayat-al-sahaba
+ref: "2:12"
+label: { ar: "حياة الصحابة للكاندهلوي، المجلد المصوَّر 2، ص 12 — الطب والطبيب، البيمارستان وصناعة الطب", en: "al-Kandahlawi's Hayat al-Sahaba, scan volume 2, p. 12 — medicine and the physician; the hospital and the medical craft", ur: "حیاۃ الصحابہ، کاندھلوی، اسکین جلد 2، ص 12 — طب اور طبیب، بیمارستان" }
+text: "… وحده، لا شيء قبله ولا شيء بعده، لا شيء قبله ولا شيء بعده وحينا احتضر كان يقرأ الكلمة الطيبة والأدعية المأنورة عن النبي مَّ، وكانت تعاو البسمة على وجهه بعدما توفي. وقد كان وصوله إلى المستشفى بعد الوفاة، فحاول الأطباء …"
+summary:
+  ar: "مقطع من حياة الصحابة للكاندهلوي، المجلد المصوَّر 2، ص 12، يذكر الطب والطبيب، والبيمارستان وصناعة الطب؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Kandahlawi's Hayat al-Sahaba, scan volume 2, p. 12, that mentions medicine and the physician, the hospital and the medical craft; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "حیاۃ الصحابہ، کاندھلوی، اسکین جلد 2، ص 12 کا اقتباس جس میں طب اور طبیب، بیمارستان کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/hayat-sahaba/AAlexandrina-094235, page 12; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hayat-al-sahaba-kandahlawi-sabbani]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

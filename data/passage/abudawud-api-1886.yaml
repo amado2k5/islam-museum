@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1886
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1886"
+label: { ar: "سنن أبي داود 1886 — الحمى والوعك، الحمى", en: "Sunan Abi Dawud 1886 — fever; fever", ur: "سنن ابی داؤد 1886 — بخار، بخار" }
+text: "… عَنْ سَعِيدِ بْنِ جُبَيْرٍ، أَنَّهُ حَدَّثَ عَنِ ابْنِ عَبَّاسٍ، قَالَ قَدِمَ رَسُولُ اللَّهِ مَكَّةَ وَقَدْ وَهَنَتْهُمْ حُمَّى يَثْرِبَ فَقَالَ الْمُشْرِكُونَ إِنَّهُ يَقْدَمُ عَلَيْكُمْ قَوْمٌ قَدْ وَهَنَتْهُمُ الْحُمَّى وَلَقُوا مِنْهَا شَرًّا فَأَطْلَعَ اللَّهُ سُبْحَانَهُ نَبِيَّهُ عَلَى مَا قَالُوهُ فَأَمَرَهُمْ أَنْ يَرْمُلُوا الأَشْوَاطَ الثَّلاَثَةَ وَأَنْ يَمْشُوا بَيْنَ الرُّكْنَيْنِ فَلَمَّا رَأَوْهُمْ رَمَلُوا قَالُوا هَؤُلاَءِ الَّذِينَ ذَكَرْتُمْ أَنَّ الْحُمَّى …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1886، يذكر الحمى والوعك، والحمى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 1886 (The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)), that mentions fever, fever. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1886، جس میں بخار، بخار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1886 (book 11 hadith 166); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

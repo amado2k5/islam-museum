@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3460
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3460"
+label: { ar: "سنن ابن ماجه 3460 — السم", en: "Sunan Ibn Majah 3460 — poison", ur: "سنن ابن ماجہ 3460 — زہر" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" مَنْ شَرِبَ سُمًّا فَقَتَلَ نَفْسَهُ فَهُوَ يَتَحَسَّاهُ فِي نَارِ جَهَنَّمَ خَالِدًا مُخَلَّدًا فِيهَا أَبَدًا \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3460، يذكر السم. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3460 (Chapters on Medicine), that mentions poison. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3460، جس میں زہر کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3460 (book 31 hadith 25); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5889
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5889"
+label: { ar: "صحيح البخاري 5889 — الجراحة والختان والجبائر", en: "Sahih al-Bukhari 5889 — surgery, circumcision and splints", ur: "صحیح بخاری 5889 — جراحت، ختنہ اور پٹیاں" }
+text: "حَدَّثَنَا عَلِيٌّ، حَدَّثَنَا سُفْيَانُ، قَالَ الزُّهْرِيُّ حَدَّثَنَا عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، رِوَايَةً \" الْفِطْرَةُ خَمْسٌ ـ أَوْ خَمْسٌ مِنَ الْفِطْرَةِ ـ الْخِتَانُ، وَالاِسْتِحْدَادُ، وَنَتْفُ الإِبْطِ، وَتَقْلِيمُ الأَظْفَارِ، وَقَصُّ الشَّارِبِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5889، يذكر الجراحة والختان والجبائر. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5889 (Dress), that mentions surgery, circumcision and splints. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5889، جس میں جراحت، ختنہ اور پٹیاں کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5889 (book 77 hadith 106); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

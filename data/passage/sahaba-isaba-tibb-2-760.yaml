@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-tibb-2-760
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "2:760"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 2، ص 760 — التداوي بالعسل، الدواء", en: "Ibn Hajar's al-Isaba, scan volume 2, p. 760 — honey as a remedy; the drug", ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 760 — شہد سے علاج، دوا" }
+text: "… حسّان عن عامر بن مالك قال: بعثتُ إلى - عامر بن مالك بن أهيب بن عبد مناف بن رسول اللّٰه بَيَّ ألتمس منه دواءً، فبعث إليّ بُعكةٍ من زهرة بن كلاب الزهري:. عسل. ومالك هو أبو وقاص، يكنى أبا عمرو. …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 2، ص 760، يذكر التداوي بالعسل، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 2, p. 760, that mentions honey as a remedy, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 760 کا اقتباس جس میں شہد سے علاج، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/isaba] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/20200217_20200217_0509, page 760; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

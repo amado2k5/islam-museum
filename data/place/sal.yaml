@@ -10,8 +10,8 @@ regions: [maghreb]
 coordinates: [34.05, -6.816667]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q466046" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q466046", althurayya: "SALA_067W340N_S" }
+sources: [source/wikidata, source/althurayya-gazetteer]
 provenance:
   layer: own-research
   source: "Wikidata item Q466046 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."

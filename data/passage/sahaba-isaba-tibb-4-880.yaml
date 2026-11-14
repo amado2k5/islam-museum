@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-tibb-4-880
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "4:880"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 4، ص 880 — البيمارستان وصناعة الطب، الدواء", en: "Ibn Hajar's al-Isaba, scan volume 4, p. 880 — the hospital and the medical craft; the drug", ur: "الاصابہ، ابن حجر، اسکین جلد 4، ص 880 — بیمارستان، دوا" }
+text: "محمد الطحان، مكتبة المعارف الرياض..- الجامع لمفردات الأدوية والأغذية، لابن البيطار، أعادت طبعه بالأوفست مكتبة المثنى ببغداد. - جامع المسانيد، مجموعة الأحاديث والآثار تضم مسانيد الإمام أبى حنيفة للخوارزمى، دار الكتب العلمية، بيروت. - الجامع لمعمر بن راشد، رواية: عبد …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 4، ص 880، يذكر البيمارستان وصناعة الطب، والدواء، والعقاقير والصيدلة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 4, p. 880, that mentions the hospital and the medical craft, the drug, drugs and pharmacy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 4، ص 880 کا اقتباس جس میں بیمارستان، دوا، ادویہ اور دواسازی کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/isaba] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/HJR1995ARAR, page 880; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

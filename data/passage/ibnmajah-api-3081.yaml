@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3081
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3081"
+label: { ar: "سنن ابن ماجه 3081 — الحجامة", en: "Sunan Ibn Majah 3081 — cupping", ur: "سنن ابن ماجہ 3081 — حجامہ" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الصَّبَّاحِ، أَنْبَأَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ يَزِيدَ بْنِ أَبِي زِيَادٍ، عَنْ مِقْسَمٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ رَسُولَ اللَّهِ ـ احْتَجَمَ وَهُوَ صَائِمٌ مُحْرِمٌ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3081، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3081 (Chapters on Hajj Rituals), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3081، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3081 (book 25 hadith 200); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

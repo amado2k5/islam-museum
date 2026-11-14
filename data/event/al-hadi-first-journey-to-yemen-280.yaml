@@ -1,0 +1,48 @@
+id: event/al-hadi-first-journey-to-yemen-280
+class: event
+kind: other
+label:
+  ar: خروج الهادي الأول إلى اليمن سنة 280هـ
+  en: Al-Hadi's first journey to Yemen, 280 AH
+  ur: ہادی کا پہلا یمنی سفر، 280ھ
+summary:
+  ar: خرج الهادي إلى اليمن سنة 280هـ حتى بلغ الشرفة قرب صنعاء، فأطاعه الناس مدة يسيرة ثم خذلوه ولم يجد أعواناً، فانصرف إلى بلده بالحجاز، ثم نزل باليمن البلاء والفتن.
+  en: Al-Hadi went to Yemen in 280 AH as far as al-Sharfa near Sana'a, where people obeyed him for a short while and then abandoned him; finding no supporters, he went back to his own country in the Hijaz, and tribulation and strife then befell Yemen.
+  ur: ہادی 280ھ میں یمن گئے اور صنعاء کے قریب شرفہ تک پہنچے، جہاں لوگوں نے کچھ مدت ان کی اطاعت کی اور پھر چھوڑ دیا؛ کوئی مددگار نہ ملا تو وہ حجاز میں اپنے وطن لوٹ گئے، اور اس کے بعد یمن پر آزمائش اور فتنے آئے۔
+wings:
+- time
+themes:
+- factions-splits-schisms
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0893~"
+    hijri: "0280"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: في سنة 280هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي
+    sources: &id001
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/al-sharfa-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources: *id001
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص21-37 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-3
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 21-37

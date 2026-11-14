@@ -1,0 +1,18 @@
+id: passage/hawi-razi-tibb-3021
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "3021"
+label: { ar: "الحاوي في الطب للرازي، ص 3021 — الوجع، أسماء الأمراض", en: "al-Razi's al-Hawi fi al-Tibb, p. 3021 — pain; named diseases", ur: "الحاوی فی الطب، رازی، ص 3021 — درد، بیماریوں کے نام" }
+text: "الأدوية المفردة باب الحاء أورام العين الحارة وأورام الأحشاء إذا ضمد بها مع الزبيب. وهي نافعة من أوجاع الرحم إذا أدخلت الفرزجات وإذا جلس في طبيخها. ومتى شرب طبيخها كان موافقاً للكبد العليلة والكلى والنقرس. قال حنين في كتاب الترياق …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 3021، يذكر الوجع، وأسماء الأمراض، والجراحة والختان والجبائر، والدواء، والسم والترياق، والعقاقير والصيدلة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 3021, that mentions pain, named diseases, surgery, circumcision and splints, the drug, poison and antidote, drugs and pharmacy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 3021 کا اقتباس جس میں درد، بیماریوں کے نام، جراحت، ختنہ اور پٹیاں، دوا، زہر اور تریاق، ادویہ اور دواسازی کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 3021; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

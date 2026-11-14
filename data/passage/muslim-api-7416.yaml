@@ -1,0 +1,16 @@
+id: passage/muslim-api-7416
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7416"
+label: { ar: "صحيح مسلم 7416 — أعضاء البدن", en: "Sahih Muslim 7416 — the organs of the body", ur: "صحیح مسلم 7416 — اعضائے بدن" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ \" إِنَّ فِي الإِنْسَانِ عَظْمًا لاَ تَأْكُلُهُ الأَرْضُ أَبَدًا فِيهِ يُرَكَّبُ يَوْمَ الْقِيَامَةِ \". قَالُوا أَىُّ عَظْمٍ هُوَ يَا رَسُولَ اللَّهِ قَالَ \" عَجْبُ الذَّنَبِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 7416، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 7416 (The Book of Tribulations and Portents of the Last Hour), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 7416، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7416 (book 54 hadith 177); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

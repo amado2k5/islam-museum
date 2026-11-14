@@ -1,0 +1,16 @@
+id: passage/nasai-api-3626
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3626"
+label: { ar: "سنن النسائي 3626 — المرض والمريض، عيادة المريض", en: "Sunan al-Nasa'i 3626 — illness and the sick; visiting the sick", ur: "سنن نسائی 3626 — بیماری اور بیمار، بیمار کی عیادت" }
+text: "… بْنُ عُثْمَانَ بْنِ سَعِيدٍ، قَالَ حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ عَامِرِ بْنِ سَعْدٍ، عَنْ أَبِيهِ، قَالَ مَرِضْتُ مَرَضًا أَشْفَيْتُ مِنْهُ فَأَتَانِي رَسُولُ اللَّهِ يَعُودُنِي فَقُلْتُ يَا رَسُولَ اللَّهِ إِنَّ لِي مَالاً كَثِيرًا وَلَيْسَ يَرِثُنِي إِلاَّ ابْنَتِي أَفَأَتَصَدَّقُ بِثُلُثَىْ مَالِي قَالَ \" لاَ \". قُلْتُ فَالشَّطْرَ قَالَ \" لاَ \". قُلْتُ فَالثُّلُثَ قَالَ \" الثُّلُثَ وَالثُّلُثُ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 3626، يذكر المرض والمريض، وعيادة المريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 3626 (The Book of Wills), that mentions illness and the sick, visiting the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 3626، جس میں بیماری اور بیمار، بیمار کی عیادت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3626 (book 30 hadith 16); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

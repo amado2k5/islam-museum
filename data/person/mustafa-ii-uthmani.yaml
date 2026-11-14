@@ -21,7 +21,8 @@ relations:
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
 external_ids:
   wikidata: Q199659
-sources: [source/dawlat-uthmaniyya-salabi]
+  nomisma: "mustafa_ii"
+sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 310"

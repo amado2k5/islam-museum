@@ -1,0 +1,16 @@
+id: passage/nasai-api-2850
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2850"
+label: { ar: "سنن النسائي 2850 — الحجامة", en: "Sunan al-Nasa'i 2850 — cupping", ur: "سنن نسائی 2850 — حجامہ" }
+text: "أَخْبَرَنِي هِلاَلُ بْنُ بِشْرٍ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ خَالِدٍ، - وَهُوَ ابْنُ عَثْمَةَ - قَالَ حَدَّثَنَا سُلَيْمَانُ بْنُ بِلاَلٍ، قَالَ قَالَ عَلْقَمَةُ بْنُ أَبِي عَلْقَمَةَ أَنَّهُ سَمِعَ الأَعْرَجَ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ ابْنَ بُحَيْنَةَ، يُحَدِّثُ أَنَّ رَسُولَ اللَّهِ احْتَجَمَ وَسَطَ رَأْسِهِ وَهُوَ مُحْرِمٌ بِلَحْىِ جَمَلٍ مِنْ طَرِيقِ مَكَّةَ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2850، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 2850 (The Book of Hajj), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 2850، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2850 (book 24 hadith 233); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

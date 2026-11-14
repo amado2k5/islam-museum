@@ -1,0 +1,17 @@
+id: passage/muslim-api-4682
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4682"
+label: { ar: "صحيح مسلم 4682 — مداواة الجراح، مداواة النساء للجرحى", en: "Sahih Muslim 4682 — the treatment of wounds; women treating the wounded", ur: "صحیح مسلم 4682 — زخموں کا علاج، خواتین کا زخمیوں کا علاج" }
+text: "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا جَعْفَرُ بْنُ سُلَيْمَانَ، عَنْ ثَابِتٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ كَانَ رَسُولُ اللَّهِ يَغْزُو بِأُمِّ سُلَيْمٍ وَنِسْوَةٍ مِنَ الأَنْصَارِ مَعَهُ إِذَا غَزَا فَيَسْقِينَ الْمَاءَ وَيُدَاوِينَ الْجَرْحَى."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4682، يذكر مداواة الجراح، ومداواة النساء للجرحى، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 4682 (The Book of Jihad and Expeditions), that mentions the treatment of wounds, women treating the wounded, seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 4682، جس میں زخموں کا علاج، خواتین کا زخمیوں کا علاج، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4682 (book 32 hadith 164); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3466
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3466"
+label: { ar: "سنن ابن ماجه 3466 — الطب والطبيب", en: "Sunan Ibn Majah 3466 — medicine and the physician", ur: "سنن ابن ماجہ 3466 — طب اور طبیب" }
+text: "حَدَّثَنَا هِشَامُ بْنُ عَمَّارٍ، وَرَاشِدُ بْنُ سَعِيدٍ الرَّمْلِيُّ، قَالاَ حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، حَدَّثَنَا ابْنُ جُرَيْجٍ، عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" مَنْ تَطَبَّبَ وَلَمْ يُعْلَمْ مِنْهُ طِبٌّ قَبْلَ ذَلِكَ فَهُوَ ضَامِنٌ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3466، يذكر الطب والطبيب. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3466 (Chapters on Medicine), that mentions medicine and the physician. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3466، جس میں طب اور طبیب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3466 (book 31 hadith 31); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

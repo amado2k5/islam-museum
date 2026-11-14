@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1876
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1876"
+label: { ar: "سنن ابن ماجه 1876 — الحمى والوعك", en: "Sunan Ibn Majah 1876 — fever", ur: "سنن ابن ماجہ 1876 — بخار" }
+text: "… تَزَوَّجَنِي رَسُولُ اللَّهِ ـ وَأَنَا بِنْتُ سِتِّ سِنِينَ فَقَدِمْنَا الْمَدِينَةَ فَنَزَلْنَا فِي بَنِي الْحَارِثِ بْنِ الْخَزْرَجِ فَوُعِكْتُ فَتَمَرَّقَ شَعَرِي حَتَّى وَفَى لَهُ جُمَيْمَةٌ فَأَتَتْنِي أُمِّي أُمُّ رُومَانَ وَإِنِّي لَفِي أُرْجُوحَةٍ وَمَعِي صَوَاحِبَاتٌ لِي فَصَرَخَتْ بِي فَأَتَيْتُهَا وَمَا أَدْرِي مَا تُرِيدُ فَأَخَذَتْ بِيَدِي فَأَوْقَفَتْنِي عَلَى بَابِ الدَّارِ وَإِنِّي لأَنْهَجُ حَتَّى سَكَنَ بَعْضُ نَفَسِي ثُمَّ أَخَذَتْ شَيْئًا …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1876، يذكر الحمى والوعك. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 1876 (The Chapters on Marriage), that mentions fever. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1876، جس میں بخار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1876 (book 9 hadith 32); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

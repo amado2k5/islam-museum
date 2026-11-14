@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4207
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4207"
+label: { ar: "سنن أبي داود 4207 — الطب والطبيب", en: "Sunan Abi Dawud 4207 — medicine and the physician", ur: "سنن ابی داؤد 4207 — طب اور طبیب" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، حَدَّثَنَا ابْنُ إِدْرِيسَ، قَالَ سَمِعْتُ ابْنَ أَبْجَرَ، عَنْ إِيَادِ بْنِ لَقِيطٍ، عَنْ أَبِي رِمْثَةَ، فِي هَذَا الْخَبَرِ قَالَ فَقَالَ لَهُ أَبِي أَرِنِي هَذَا الَّذِي بِظَهْرِكَ فَإِنِّي رَجُلٌ طَبِيبٌ. قَالَ \" اللَّهُ الطَّبِيبُ بَلْ أَنْتَ رَجُلٌ رَفِيقٌ طَبِيبُهَا الَّذِي خَلَقَهَا \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4207، يذكر الطب والطبيب. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 4207 (Combing the Hair (Kitab Al-Tarajjul)), that mentions medicine and the physician. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4207، جس میں طب اور طبیب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4207 (book 35 hadith 49); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

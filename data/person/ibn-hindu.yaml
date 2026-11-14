@@ -14,6 +14,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 died: { edtf: "1019", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/rayy, confidence: low, note: "Associated with الري per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
+tags: [tibb-browser, tibb-tibb]
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q17004559

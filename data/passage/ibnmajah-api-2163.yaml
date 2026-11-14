@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-2163
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2163"
+label: { ar: "سنن ابن ماجه 2163 — الحجامة", en: "Sunan Ibn Majah 2163 — cupping", ur: "سنن ابن ماجہ 2163 — حجامہ" }
+text: "حَدَّثَنَا عَمْرُو بْنُ عَلِيٍّ أَبُو حَفْصٍ الصَّيْرَفِيُّ، حَدَّثَنَا أَبُو دَاوُدَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبَادَةَ الْوَاسِطِيُّ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، قَالاَ حَدَّثَنَا وَرْقَاءُ، عَنْ عَبْدِ الأَعْلَى، عَنْ أَبِي جَمِيلَةَ عَنْ عَلِيٍّ، قَالَ احْتَجَمَ رَسُولُ اللَّهِ ـ وَأَمَرَنِي فَأَعْطَيْتُ الْحَجَّامَ أَجْرَهُ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2163، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 2163 (The Chapters on Business Transactions), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2163، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2163 (book 12 hadith 27); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

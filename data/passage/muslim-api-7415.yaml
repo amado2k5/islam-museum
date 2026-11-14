@@ -1,0 +1,16 @@
+id: passage/muslim-api-7415
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7415"
+label: { ar: "صحيح مسلم 7415 — أعضاء البدن", en: "Sahih Muslim 7415 — the organs of the body", ur: "صحیح مسلم 7415 — اعضائے بدن" }
+text: "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا الْمُغِيرَةُ، - يَعْنِي الْحِزَامِيَّ - عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" كُلُّ ابْنِ آدَمَ يَأْكُلُهُ التُّرَابُ إِلاَّ عَجْبَ الذَّنَبِ مِنْهُ خُلِقَ وَفِيهِ يُرَكَّبُ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 7415، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 7415 (The Book of Tribulations and Portents of the Last Hour), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 7415، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7415 (book 54 hadith 176); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

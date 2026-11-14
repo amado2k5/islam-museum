@@ -1,0 +1,16 @@
+id: passage/muslim-api-5388
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5388"
+label: { ar: "صحيح مسلم 5388 — المرض والمريض، عيادة المريض", en: "Sahih Muslim 5388 — illness and the sick; visiting the sick", ur: "صحیح مسلم 5388 — بیماری اور بیمار، بیمار کی عیادت" }
+text: "… بْنُ سُوَيْدِ، بْنِ مُقَرِّنٍ قَالَ دَخَلْتُ عَلَى الْبَرَاءِ بْنِ عَازِبٍ فَسَمِعْتُهُ يَقُولُ أَمَرَنَا رَسُولُ اللَّهِ بِسَبْعٍ وَنَهَانَا عَنْ سَبْعٍ أَمَرَنَا بِعِيَادَةِ الْمَرِيضِ وَاتِّبَاعِ الْجَنَازَةِ وَتَشْمِيتِ الْعَاطِسِ وَإِبْرَارِ الْقَسَمِ أَوِ الْمُقْسِمِ وَنَصْرِ الْمَظْلُومِ وَإِجَابَةِ الدَّاعِي وَإِفْشَاءِ السَّلاَمِ. وَنَهَانَا عَنْ خَوَاتِيمَ أَوْ عَنْ تَخَتُّمٍ بِالذَّهَبِ وَعَنْ شُرْبٍ بِالْفِضَّةِ وَعَنِ الْمَيَاثِرِ وَعَنِ الْقَسِّيِّ وَعَنْ لُبْسِ الْحَرِيرِ وَالإِسْتَبْرَقِ وَالدِّيبَاجِ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5388، يذكر المرض والمريض، وعيادة المريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5388 (The Book of Clothes and Adornment), that mentions illness and the sick, visiting the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5388، جس میں بیماری اور بیمار، بیمار کی عیادت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5388 (book 37 hadith 4); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

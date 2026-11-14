@@ -1,0 +1,17 @@
+id: passage/sharh-tashrih-qanun-tibb-169
+class: passage
+unit: chapter
+work: work/sharh-tashrih-al-qanun
+ref: "169"
+label: { ar: "شرح تشريح القانون لابن النفيس، ص 169 — الحمية، أعضاء البدن", en: "Ibn al-Nafis's Commentary on the Anatomy of the Canon, p. 169 — diet as treatment; the organs of the body", ur: "شرح تشریح القانون، ابن النفیس، ص 169 — پرہیز، اعضائے بدن" }
+text: "… ألين لأن هذا الموضع منها يحتاج أن يكون حسه قوياً يشتد إدراكه للجوع وإنما يكون كذلك إذا كان جرمه إلى لين ليكون أقبل للانفعال الذي به الحس. قوله: أكثر لحمية مما للمعدة إنما كان كذلك لأن المعدة مع حاجتها إلى …"
+summary:
+  ar: "مقطع من شرح تشريح القانون لابن النفيس، ص 169، يذكر الحمية، وأعضاء البدن؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Nafis's Commentary on the Anatomy of the Canon, p. 169, that mentions diet as treatment, the organs of the body; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "شرح تشریح القانون، ابن النفیس، ص 169 کا اقتباس جس میں پرہیز، اعضائے بدن کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sharh-tashrih-qanun-print] }
+  - { type: mentions, target: concept/anatomy, sources: [source/sharh-tashrih-qanun-print] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/sharh-tashrih-qanun-ibn-nafis/sharh-tashrih-qanun-ibn-nafis, page 169; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/sharh-tashrih-qanun-print]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

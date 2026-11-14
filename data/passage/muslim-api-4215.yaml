@@ -1,0 +1,17 @@
+id: passage/muslim-api-4215
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4215"
+label: { ar: "صحيح مسلم 4215 — عيادة المريض، الشفاء", en: "Sahih Muslim 4215 — visiting the sick; healing", ur: "صحیح مسلم 4215 — بیمار کی عیادت، شفا" }
+text: "… الرَّحْمَنِ الْحِمْيَرِيِّ، عَنْ ثَلاَثَةٍ، مِنْ وَلَدِ سَعْدٍ كُلُّهُمْ يُحَدِّثُهُ عَنْ أَبِيهِ، أَنَّ النَّبِيَّ دَخَلَ عَلَى سَعْدٍ يَعُودُهُ بِمَكَّةَ فَبَكَى قَالَ \" مَا يُبْكِيكَ \". فَقَالَ قَدْ خَشِيتُ أَنْ أَمُوتَ بِالأَرْضِ الَّتِي هَاجَرْتُ مِنْهَا كَمَا مَاتَ سَعْدُ ابْنُ خَوْلَةَ. فَقَالَ النَّبِيُّ \" اللَّهُمَّ اشْفِ سَعْدًا اللَّهُمَّ اشْفِ سَعْدًا \". ثَلاَثَ مِرَارٍ. قَالَ يَا رَسُولَ اللَّهِ إِنَّ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4215، يذكر عيادة المريض، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 4215 (The Book of Wills), that mentions visiting the sick, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 4215، جس میں بیمار کی عیادت، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4215 (book 25 hadith 12); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

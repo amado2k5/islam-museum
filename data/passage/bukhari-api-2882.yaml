@@ -1,0 +1,17 @@
+id: passage/bukhari-api-2882
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2882"
+label: { ar: "صحيح البخاري 2882 — مداواة الجراح، مداواة النساء للجرحى", en: "Sahih al-Bukhari 2882 — the treatment of wounds; women treating the wounded", ur: "صحیح بخاری 2882 — زخموں کا علاج، خواتین کا زخمیوں کا علاج" }
+text: "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا بِشْرُ بْنُ الْمُفَضَّلِ، حَدَّثَنَا خَالِدُ بْنُ ذَكْوَانَ، عَنِ الرُّبَيِّعِ بِنْتِ مُعَوِّذٍ، قَالَتْ كُنَّا مَعَ النَّبِيِّ نَسْقِي، وَنُدَاوِي الْجَرْحَى، وَنَرُدُّ الْقَتْلَى إِلَى الْمَدِينَةِ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2882، يذكر مداواة الجراح، ومداواة النساء للجرحى، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 2882 (Fighting for the Cause of Allah (Jihaad)), that mentions the treatment of wounds, women treating the wounded, seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 2882، جس میں زخموں کا علاج، خواتین کا زخمیوں کا علاج، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2882 (book 56 hadith 97); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

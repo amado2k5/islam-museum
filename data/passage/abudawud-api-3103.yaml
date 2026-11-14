@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3103
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3103"
+label: { ar: "سنن أبي داود 3103 — الطاعون والوباء", en: "Sunan Abi Dawud 3103 — plague and epidemic", ur: "سنن ابی داؤد 3103 — طاعون اور وبا" }
+text: "… عَنْ عَبْدِ الْحَمِيدِ بْنِ عَبْدِ الرَّحْمَنِ بْنِ زَيْدِ بْنِ الْخَطَّابِ، عَنْ عَبْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ الْحَارِثِ بْنِ نَوْفَلٍ، عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ، قَالَ قَالَ عَبْدُ الرَّحْمَنِ بْنُ عَوْفٍ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" إِذَا سَمِعْتُمْ بِهِ بِأَرْضٍ فَلاَ تُقْدِمُوا عَلَيْهِ وَإِذَا وَقَعَ بِأَرْضٍ وَأَنْتُمْ بِهَا فَلاَ تَخْرُجُوا فِرَارًا مِنْهُ \". يَعْنِي الطَّاعُونَ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3103، يذكر الطاعون والوباء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 3103 (Funerals (Kitab Al-Jana'iz)), that mentions plague and epidemic. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3103، جس میں طاعون اور وبا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3103 (book 21 hadith 15); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

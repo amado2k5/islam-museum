@@ -1,0 +1,16 @@
+id: passage/muslim-api-4217
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4217"
+label: { ar: "صحيح مسلم 4217 — المرض والمريض، عيادة المريض", en: "Sahih Muslim 4217 — illness and the sick; visiting the sick", ur: "صحیح مسلم 4217 — بیماری اور بیمار، بیمار کی عیادت" }
+text: "وَحَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الأَعْلَى، حَدَّثَنَا هِشَامٌ، عَنْ مُحَمَّدٍ، عَنْ حُمَيْدِ، بْنِ عَبْدِ الرَّحْمَنِ حَدَّثَنِي ثَلاَثَةٌ، مِنْ وَلَدِ سَعْدِ بْنِ مَالِكٍ كُلُّهُمْ يُحَدِّثُنِيهِ بِمِثْلِ حَدِيثِ صَاحِبِهِ فَقَالَ مَرِضَ سَعْدٌ بِمَكَّةَ فَأَتَاهُ النَّبِيُّ يَعُودُهُ. بِمِثْلِ حَدِيثِ عَمْرِو بْنِ سَعِيدٍ عَنْ حُمَيْدٍ الْحِمْيَرِيِّ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4217، يذكر المرض والمريض، وعيادة المريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 4217 (The Book of Wills), that mentions illness and the sick, visiting the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 4217، جس میں بیماری اور بیمار، بیمار کی عیادت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4217 (book 25 hadith 14); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

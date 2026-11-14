@@ -1,0 +1,18 @@
+id: passage/hawi-razi-tibb-1786
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "1786"
+label: { ar: "الحاوي في الطب للرازي، ص 1786 — الوجع، أسماء الأمراض", en: "al-Razi's al-Hawi fi al-Tibb, p. 1786 — pain; named diseases", ur: "الحاوی فی الطب، رازی، ص 1786 — درد، بیماریوں کے نام" }
+text: "… أو يشرب له درهم سكبينج وبزر كرفس، أو يشرب حب الشيطرج، أو يشرب الخبث بمخيض البقر. ابن ماسويه: أجود دواء للنقرس معجون هرمس وكذلك الورك. قال: فمن أدمن عليه برأ برءاً تاماً كاملًا، وقال: تكون أوجاع المفاصل إما من دم …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 1786، يذكر الوجع، وأسماء الأمراض، والبرء من العلة، وأعضاء البدن، والدواء، والعقاقير والصيدلة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 1786, that mentions pain, named diseases, recovery from an ailment, the organs of the body, the drug, drugs and pharmacy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 1786 کا اقتباس جس میں درد، بیماریوں کے نام، بیماری سے شفایابی، اعضائے بدن، دوا، ادویہ اور دواسازی کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/anatomy, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 1786; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

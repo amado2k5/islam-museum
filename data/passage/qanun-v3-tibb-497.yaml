@@ -1,0 +1,19 @@
+id: passage/qanun-v3-tibb-497
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "497"
+label: { ar: "القانون في الطب لابن سينا ج3، ص 497 — السنا والسنوت، الوجع", en: "Ibn Sina's Canon of Medicine, vol. 3, p. 497 — senna and sannut; pain", ur: "القانون فی الطب، ابن سینا ج3، ص 497 — سنا اور سنوت، درد" }
+text: "… الأكبر : وهو ينفض الأخلاط الغليظة، ويفتح السدد، وينفع من وجع المفاصل، والخاصرة والبرص، والبهق والجذام، وداء الفيل وهو الحبّ المعروف بالماهاني. أخلاطه: يؤخذ أشق وسكبينج، وجاوشير، ومقل وصبر، وحرمل، وهليلج، وشحم الحنظل من كل واحد ثمانية دراهم. ومن الشبرم …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج3، ص 497، يذكر السنا والسنوت، والوجع، والجذام والبرص، والبيمارستان وصناعة الطب، وأعضاء البدن، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 3, p. 497, that mentions senna and sannut, pain, leprosy and vitiligo, the hospital and the medical craft, the organs of the body, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج3، ص 497 کا اقتباس جس میں سنا اور سنوت، درد، جذام اور برص، بیمارستان، اعضائے بدن، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v3] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v3/canon-ibn-sina-print-v3, page 497; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

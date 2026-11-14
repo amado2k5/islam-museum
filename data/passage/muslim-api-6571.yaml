@@ -1,0 +1,16 @@
+id: passage/muslim-api-6571
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6571"
+label: { ar: "صحيح مسلم 6571 — الصرع", en: "Sahih Muslim 6571 — epilepsy", ur: "صحیح مسلم 6571 — مرگی" }
+text: "… بْنُ أَبِي رَبَاحٍ، قَالَ قَالَ لِي ابْنُ عَبَّاسٍ أَلاَ أُرِيكَ امْرَأَةً مِنْ أَهْلِ الْجَنَّةِ قُلْتُ بَلَى. قَالَ هَذِهِ الْمَرْأَةُ السَّوْدَاءُ أَتَتِ النَّبِيَّ قَالَتْ إِنِّي أُصْرَعُ وَإِنِّي أَتَكَشَّفُ فَادْعُ اللَّهَ لِي. قَالَ \" إِنْ شِئْتِ صَبَرْتِ وَلَكِ الْجَنَّةُ وَإِنْ شِئْتِ دَعَوْتُ اللَّهَ أَنْ يُعَافِيَكِ. قَالَتْ أَصْبِرُ. قَالَتْ فَإِنِّي أَتَكَشَّفُ فَادْعُ اللَّهَ أَنْ لاَ أَتَكَشَّفَ. فَدَعَا لَهَا."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6571، يذكر الصرع. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 6571 (The Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship), that mentions epilepsy. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 6571، جس میں مرگی کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6571 (book 45 hadith 69); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2678
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2678"
+label: { ar: "سنن أبي داود 2678 — الجذام والبرص", en: "Sunan Abi Dawud 2678 — leprosy and vitiligo", ur: "سنن ابی داؤد 2678 — جذام اور برص" }
+text: "… عَبْدَ اللَّهِ بْنَ غَالِبٍ اللَّيْثِيَّ فِي سَرِيَّةٍ وَكُنْتُ فِيهِمْ وَأَمَرَهُمْ أَنْ يَشُنُّوا الْغَارَةَ عَلَى بَنِي الْمُلَوِّحِ بِالْكَدِيدِ فَخَرَجْنَا حَتَّى إِذَا كُنَّا بِالْكَدِيدِ لَقِينَا الْحَارِثَ بْنَ الْبَرْصَاءِ اللَّيْثِيَّ فَأَخَذْنَاهُ فَقَالَ إِنَّمَا جِئْتُ أُرِيدُ الإِسْلاَمَ وَإِنَّمَا خَرَجْتُ إِلَى رَسُولِ اللَّهِ فَقُلْنَا إِنْ تَكُنْ مُسْلِمًا لَمْ يَضُرَّكَ رِبَاطُنَا يَوْمًا وَلَيْلَةً وَإِنْ تَكُنْ غَيْرَ ذَلِكَ نَسْتَوْثِقْ مِنْكَ فَشَدَدْنَاهُ وِثَاقًا."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2678، يذكر الجذام والبرص. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 2678 (Jihad (Kitab Al-Jihad)), that mentions leprosy and vitiligo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2678، جس میں جذام اور برص کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2678 (book 15 hadith 202); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

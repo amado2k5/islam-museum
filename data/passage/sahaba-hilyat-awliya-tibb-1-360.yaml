@@ -1,0 +1,17 @@
+id: passage/sahaba-hilyat-awliya-tibb-1-360
+class: passage
+unit: chapter
+work: work/hilyat-al-awliya
+ref: "1:360"
+label: { ar: "حلية الأولياء لأبي نعيم، المجلد المصوَّر 1، ص 360 — الكي، عيادة المريض", en: "Abu Nu'aym's Hilyat al-Awliya', scan volume 1, p. 360 — cautery; visiting the sick", ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 1، ص 360 — داغنا، بیمار کی عیادت" }
+text: "… مما عذبه المشركون حدثنا عبد اللّٰه بن جعمر ثنا إسماعيل بن عبد اللّٰه ثنا آدم بن أبى إياس ثنا شعبة عن اسماعيل بن أبى خالد عن قيس بن أبى حازم. قال : دخلنا على خباب بن الأرت نعوده وقد اكتوى …"
+summary:
+  ar: "مقطع من حلية الأولياء لأبي نعيم، المجلد المصوَّر 1، ص 360، يذكر الكي، وعيادة المريض؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Abu Nu'aym's Hilyat al-Awliya', scan volume 1, p. 360, that mentions cautery, visiting the sick; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 1، ص 360 کا اقتباس جس میں داغنا، بیمار کی عیادت کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: mentions, target: concept/medicine, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/hilyat-awliya/hilyah-01, page 360; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

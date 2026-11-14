@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2099
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2099"
+label: { ar: "صحيح البخاري 2099 — العدوى", en: "Sahih al-Bukhari 2099 — contagion", ur: "صحیح بخاری 2099 — چھوت" }
+text: "… فَاشْتَرَى تِلْكَ الإِبِلَ مِنْ شَرِيكٍ لَهُ، فَجَاءَ إِلَيْهِ شَرِيكُهُ فَقَالَ بِعْنَا تِلْكَ الإِبِلَ. فَقَالَ مِمَّنْ بِعْتَهَا قَالَ مِنْ شَيْخٍ، كَذَا وَكَذَا. فَقَالَ وَيْحَكَ ذَاكَ ـ وَاللَّهِ ـ ابْنُ عُمَرَ. فَجَاءَهُ فَقَالَ إِنَّ شَرِيكِي بَاعَكَ إِبِلاً هِيمًا، وَلَمْ يَعْرِفْكَ. قَالَ فَاسْتَقْهَا. قَالَ فَلَمَّا ذَهَبَ يَسْتَاقُهَا فَقَالَ دَعْهَا، رَضِينَا بِقَضَاءِ رَسُولِ اللَّهِ لاَ عَدْوَى. سَمِعَ سُفْيَانُ عَمْرًا."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2099، يذكر العدوى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 2099 (Sales and Trade), that mentions contagion. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 2099، جس میں چھوت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2099 (book 34 hadith 52); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

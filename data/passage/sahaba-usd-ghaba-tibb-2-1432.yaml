@@ -1,0 +1,17 @@
+id: passage/sahaba-usd-ghaba-tibb-2-1432
+class: passage
+unit: chapter
+work: work/usd-al-ghaba
+ref: "2:1432"
+label: { ar: "أسد الغابة لابن الأثير، المجلد المصوَّر 2، ص 1432 — الكي، الرقية", en: "Ibn al-Athir's Usd al-Ghaba, scan volume 2, p. 1432 — cautery; ruqya recited over the sick", ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 2، ص 1432 — داغنا، رقیہ" }
+text: "… عمي ألفين، فإذا كثير، فهل عندك من شيءٍ تداويه به؟ فقلت: نعم. فرقيته بفاتحة الكتاب، فبَرَأ، فأعطوني مائة شاة، فلم حرج عطاؤُه قال لغلامه: انطلق فاقض ما علينا، فإني سمعت رسول اللّٰه علة يقول: من ترك ديناراً فَكَيَّةً، آخذها. فأتيت …"
+summary:
+  ar: "مقطع من أسد الغابة لابن الأثير، المجلد المصوَّر 2، ص 1432، يذكر الكي، والرقية، والبرء من العلة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Athir's Usd al-Ghaba, scan volume 2, p. 1432, that mentions cautery, ruqya recited over the sick, recovery from an ailment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 2، ص 1432 کا اقتباس جس میں داغنا، رقیہ، بیماری سے شفایابی کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/usd-al-ghaba] }
+  - { type: mentions, target: concept/medicine, sources: [source/usd-al-ghaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/usd-ghaba/20210108_20210108_0418, page 1432; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/usd-al-ghaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-3465
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3465"
+label: { ar: "سنن ابن ماجه 3465 — مداواة الجراح، التداوي", en: "Sunan Ibn Majah 3465 — the treatment of wounds; seeking treatment", ur: "سنن ابن ماجہ 3465 — زخموں کا علاج، علاج کرانا" }
+text: "… عَبَّاسِ بْنِ سَهْلِ بْنِ سَعْدٍ السَّاعِدِيِّ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، قَالَ إِنِّي لأَعْرِفُ يَوْمَ أُحُدٍ مَنْ جَرَحَ وَجْهَ رَسُولِ اللَّهِ ـ وَمَنْ كَانَ يُرْقِئُ الْكَلْمَ مِنْ وَجْهِ رَسُولِ اللَّهِ ـ وَيُدَاوِيهِ وَمَنْ يَحْمِلُ الْمَاءَ فِي الْمِجَنِّ وَبِمَا دُووِيَ بِهِ الْكَلْمُ حَتَّى رَقَأَ. قَالَ أَمَّا مَنْ كَانَ يَحْمِلُ الْمَاءَ فِي الْمِجَنِّ فَعَلِيٌّ وَأَمَّا مَنْ كَانَ يُدَاوِي …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3465، يذكر مداواة الجراح، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3465 (Chapters on Medicine), that mentions the treatment of wounds, seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3465، جس میں زخموں کا علاج، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3465 (book 31 hadith 30); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

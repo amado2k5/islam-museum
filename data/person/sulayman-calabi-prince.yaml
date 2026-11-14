@@ -24,9 +24,10 @@ relations:
   - { type: born_in, target: place/k-tahya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q188894)" }
   - { type: died_in, target: place/constan-a, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q79808)" }
   - { type: lived_in, target: place/edirne, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q43387)" }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
 external_ids:
   wikidata: Q1095044
+  nomisma: "suleyman_celebi"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي، ص 70–73"

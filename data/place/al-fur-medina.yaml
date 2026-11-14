@@ -1,0 +1,34 @@
+id: place/al-fur-medina
+class: place
+kind: town
+label:
+  ar: الفرع من نواحي المدينة
+  en: al-Fur', near Medina
+  ur: فرع، مدینہ کے نواح میں
+summary:
+  ar: قرية من نواحي المدينة بحسب حاشية المحقق عن معجم البلدان، لقي فيها محمد بن عبيد الله الهادي وأباه وعميه في ذي الحجة قبل خروجهم إلى اليمن.
+  en: A village in the environs of Medina according to the editor's footnote from Mu'jam al-Buldan, where Muhammad ibn Ubaydallah met al-Hadi, his father and his two uncles in Dhu al-Hijja before they set out for Yemen.
+  ur: مرتب کے حاشیے میں معجم البلدان کے حوالے سے مدینہ کے نواح میں ایک بستی، جہاں محمد بن عبید اللہ ذو الحجہ میں یمن روانگی سے پہلے ہادی، ان کے والد اور دو چچاؤں سے ملے۔
+wings:
+- place
+regions:
+- arabia
+relations:
+- type: located_in
+  target: place/medina
+  sources:
+  - source/sira-hadi-ila-al-haqq
+  confidence: low
+  note: قرية من نواحي المدينة بحسب الحاشية
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص21-37 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-3
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 21-37

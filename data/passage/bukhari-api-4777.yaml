@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4777
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4777"
+label: { ar: "صحيح البخاري 4777 — أطوار خلق الجنين", en: "Sahih al-Bukhari 4777 — the stages of the embryo", ur: "صحیح بخاری 4777 — جنین کے مراحل" }
+text: "… وَلَدَتِ الْمَرْأَةُ رَبَّتَهَا، فَذَاكَ مِنْ أَشْرَاطِهَا، وَإِذَا كَانَ الْحُفَاةُ الْعُرَاةُ رُءُوسَ النَّاسِ فَذَاكَ مِنْ أَشْرَاطِهَا فِي خَمْسٍ لا يَعْلَمُهُنَّ إِلاَّ اللَّهُ {إِنَّ اللَّهَ عِنْدَهُ عِلْمُ السَّاعَةِ وَيُنَزِّلُ الْغَيْثَ وَيَعْلَمُ مَا فِي الأَرْحَامِ} \". ثُمَّ انْصَرَفَ الرَّجُلُ فَقَالَ \" رُدُّوا عَلَىَّ \". فَأَخَذُوا لِيَرُدُّوا فَلَمْ يَرَوْا شَيْئًا. فَقَالَ \" هَذَا جِبْرِيلُ جَاءَ لِيُعَلِّمَ النَّاسَ دِينَهُمْ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4777، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 4777 (Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 4777، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4777 (book 65 hadith 299); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

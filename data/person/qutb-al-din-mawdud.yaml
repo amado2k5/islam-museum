@@ -16,9 +16,10 @@ died: { edtf: "1170", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: ruler_of, target: place/hamadhan, sources: [source/wikidata], confidence: low, note: "ar: 'قطب الدين مودود بن زنكي بن آقسنقر، صاحب الموصل وديار الجزيرة إحدى وعشرين سنة؛ قبض على سليمان شاه وأسنده إ" }
   - { type: ruler_of, target: place/hamadan, sources: [source/wikidata], confidence: low, note: "Zangi, lord of Mosul and the Jazira for twenty-one years; he held Sultan Sulayman Shah then sent him to the su" }
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/nomisma]
 external_ids:
   wikidata: Q1135925
+  nomisma: "qutb_al-din_mawdud_ibn_zengi"
 provenance:
   layer: own-research
   source: "ابن الأثير، الكامل ج9 ص437، ج10 ص24-25"

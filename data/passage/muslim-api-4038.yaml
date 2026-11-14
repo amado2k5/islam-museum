@@ -1,0 +1,18 @@
+id: passage/muslim-api-4038
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4038"
+label: { ar: "صحيح مسلم 4038 — الحجامة، الدواء", en: "Sahih Muslim 4038 — cupping; the drug", ur: "صحیح مسلم 4038 — حجامہ، دوا" }
+text: "… بْنُ سَعِيدٍ، وَعَلِيُّ بْنُ حُجْرٍ، قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، - يَعْنُونَ ابْنَ جَعْفَرٍ - عَنْ حُمَيْدٍ، قَالَ سُئِلَ أَنَسُ بْنُ مَالِكٍ عَنْ كَسْبِ الْحَجَّامِ، فَقَالَ احْتَجَمَ رَسُولُ اللَّهِ حَجَمَهُ أَبُو طَيْبَةَ فَأَمَرَ لَهُ بِصَاعَيْنِ مِنْ طَعَامٍ وَكَلَّمَ أَهْلَهُ فَوَضَعُوا عَنْهُ مِنْ خَرَاجِهِ وَقَالَ \" إِنَّ أَفْضَلَ مَا تَدَاوَيْتُمْ بِهِ الْحِجَامَةُ أَوْ هُوَ مِنْ أَمْثَلِ دَوَائِكُمْ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4038، يذكر الحجامة، والدواء، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 4038 (The Book of Musaqah), that mentions cupping, the drug, seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 4038، جس میں حجامہ، دوا، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4038 (book 22 hadith 77); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

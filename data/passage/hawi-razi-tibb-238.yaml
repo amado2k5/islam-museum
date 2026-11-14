@@ -1,0 +1,19 @@
+id: passage/hawi-razi-tibb-238
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "238"
+label: { ar: "الحاوي في الطب للرازي، ص 238 — الحبة السوداء، المرض والمريض", en: "al-Razi's al-Hawi fi al-Tibb, p. 238 — the black seed; illness and the sick", ur: "الحاوی فی الطب، رازی، ص 238 — کلونجی، بیماری اور بیمار" }
+text: "أمراض العين في الرمد والوجع في العين والوردينج والسرطان... الخ زيت الإنفاق وبالاستحمام بماء عذب كثير، وإذا كان بأرداً فبالأدوية القوية المحمرة نحو الخردل والشونيز، وهذه المادة ربما كان الدافع لها الدماغ نفسه، وربما كانت العروق الضوارب وغير الضوارب، وفي …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 238، يذكر الحبة السوداء، والمرض والمريض، والوجع، وأسماء الأمراض، والعروق، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 238, that mentions the black seed, illness and the sick, pain, named diseases, the vessels, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 238 کا اقتباس جس میں کلونجی، بیماری اور بیمار، درد، بیماریوں کے نام، رگیں، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/anatomy, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 238; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

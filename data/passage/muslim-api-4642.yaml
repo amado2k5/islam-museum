@@ -1,0 +1,16 @@
+id: passage/muslim-api-4642
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4642"
+label: { ar: "صحيح مسلم 4642 — مداواة الجراح", en: "Sahih Muslim 4642 — the treatment of wounds", ur: "صحیح مسلم 4642 — زخموں کا علاج" }
+text: "… يُسْأَلُ عَنْ جُرْحِ، رَسُولِ اللَّهِ يَوْمَ أُحُدٍ فَقَالَ جُرِحَ وَجْهُ رَسُولِ اللَّهِ وَكُسِرَتْ رَبَاعِيَتُهُ وَهُشِمَتِ الْبَيْضَةُ عَلَى رَأْسِهِ فَكَانَتْ فَاطِمَةُ بِنْتُ رَسُولِ اللَّهِ تَغْسِلُ الدَّمَ وَكَانَ عَلِيُّ بْنُ أَبِي طَالِبٍ يَسْكُبُ عَلَيْهَا بِالْمِجَنِّ فَلَمَّا رَأَتْ فَاطِمَةُ أَنَّ الْمَاءَ لاَ يَزِيدُ الدَّمَ إِلاَّ كَثْرَةً أَخَذَتْ قِطْعَةَ حَصِيرٍ فَأَحْرَقَتْهُ حَتَّى صَارَ رَمَادًا ثُمَّ أَلْصَقَتْهُ بِالْجُرْحِ فَاسْتَمْسَكَ الدَّمُ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4642، يذكر مداواة الجراح. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 4642 (The Book of Jihad and Expeditions), that mentions the treatment of wounds. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 4642، جس میں زخموں کا علاج کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4642 (book 32 hadith 124); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

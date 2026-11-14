@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4511
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4511"
+label: { ar: "سنن أبي داود 4511 — الحجامة", en: "Sunan Abi Dawud 4511 — cupping", ur: "سنن ابی داؤد 4511 — حجامہ" }
+text: "… وَهْبُ بْنُ بَقِيَّةَ، حَدَّثَنَا خَالِدٌ، عَنْ مُحَمَّدِ بْنِ عَمْرٍو، عَنْ أَبِي سَلَمَةَ، أَنَّ رَسُولَ اللَّهِ أَهْدَتْ لَهُ يَهُودِيَّةٌ بِخَيْبَرَ شَاةً مَصْلِيَّةً نَحْوَ حَدِيثِ جَابِرٍ قَالَ فَمَاتَ بِشْرُ بْنُ الْبَرَاءِ بْنِ مَعْرُورٍ الأَنْصَارِيُّ فَأَرْسَلَ إِلَى الْيَهُودِيَّةِ \" مَا حَمَلَكِ عَلَى الَّذِي صَنَعْتِ \". فَذَكَرَ نَحْوَ حَدِيثِ جَابِرٍ فَأَمَرَ بِهَا رَسُولُ اللَّهِ فَقُتِلَتْ وَلَمْ يَذْكُرْ أَمْرَ الْحِجَامَةِ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4511، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 4511 (Types of Blood-Wit (Kitab Al-Diyat)), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4511، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4511 (book 41 hadith 18); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

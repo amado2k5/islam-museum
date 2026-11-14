@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2473
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2473"
+label: { ar: "سنن أبي داود 2473 — المرض والمريض، عيادة المريض", en: "Sunan Abi Dawud 2473 — illness and the sick; visiting the sick", ur: "سنن ابی داؤد 2473 — بیماری اور بیمار، بیمار کی عیادت" }
+text: "… ابْنَ إِسْحَاقَ - عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، أَنَّهَا قَالَتِ السُّنَّةُ عَلَى الْمُعْتَكِفِ أَنْ لاَ يَعُودَ مَرِيضًا وَلاَ يَشْهَدَ جَنَازَةً وَلاَ يَمَسَّ امْرَأَةً وَلاَ يُبَاشِرَهَا وَلاَ يَخْرُجَ لِحَاجَةٍ إِلاَّ لِمَا لاَ بُدَّ مِنْهُ وَلاَ اعْتِكَافَ إِلاَّ بِصَوْمٍ وَلاَ اعْتِكَافَ إِلاَّ فِي مَسْجِدٍ جَامِعٍ. قَالَ أَبُو دَاوُدَ غَيْرُ عَبْدِ الرَّحْمَنِ بْنِ إِسْحَاقَ لاَ يَقُولُ فِيهِ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2473، يذكر المرض والمريض، وعيادة المريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 2473 (Fasting (Kitab Al-Siyam)), that mentions illness and the sick, visiting the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2473، جس میں بیماری اور بیمار، بیمار کی عیادت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2473 (book 14 hadith 161); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

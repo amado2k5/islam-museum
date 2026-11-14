@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-tibb-2-1794
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "2:1794"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 2، ص 1794 — الحجامة، الدواء", en: "Ibn Hajar's al-Isaba, scan volume 2, p. 1794 — cupping; the drug", ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 1794 — حجامہ، دوا" }
+text: "… إلى أبي عبيدة بإنفاذه. سلمة عن أبي هند، قال: حجمت رسول اللّٰه وَلالخفِ في قلت: والكتاب المذكور مشهور بيد ذرية تميم، وقد اليافوخ، فقال: إِنْ كَانَ فِي شَيءٍ مِنَ الدَّوَاءِ خَيْرٌ فَهْوَ فِي هَذِهِ الحِجَامَةِ يَا بَنِي بَيَاضَةَ أَنْكِحُوا أَبَا …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 2، ص 1794، يذكر الحجامة، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 2, p. 1794, that mentions cupping, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 1794 کا اقتباس جس میں حجامہ، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/isaba] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/20200217_20200217_0509, page 1794; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

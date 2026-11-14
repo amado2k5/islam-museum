@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2367
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2367"
+label: { ar: "سنن أبي داود 2367 — الحجامة", en: "Sunan Abi Dawud 2367 — cupping", ur: "سنن ابی داؤد 2367 — حجامہ" }
+text: "… وَحَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ، حَدَّثَنَا حَسَنُ بْنُ مُوسَى، حَدَّثَنَا شَيْبَانُ، - جَمِيعًا - عَنْ يَحْيَى، عَنْ أَبِي قِلاَبَةَ، عَنْ أَبِي أَسْمَاءَ، - يَعْنِي الرَّحَبِيَّ - عَنْ ثَوْبَانَ، عَنِ النَّبِيِّ قَالَ \" أَفْطَرَ الْحَاجِمُ وَالْمَحْجُومُ \". قَالَ شَيْبَانُ أَخْبَرَنِي أَبُو قِلاَبَةَ أَنَّ أَبَا أَسْمَاءَ الرَّحَبِيَّ حَدَّثَهُ أَنَّ ثَوْبَانَ مَوْلَى رَسُولِ اللَّهِ أَخْبَرَهُ أَنَّهُ سَمِعَ رَسُولَ اللَّهِ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2367، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 2367 (Fasting (Kitab Al-Siyam)), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2367، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2367 (book 14 hadith 55); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

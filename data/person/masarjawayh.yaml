@@ -11,6 +11,7 @@ born: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "715~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/umayyad-birth-to-fall-2006] }
+tags: [tibb-browser, tibb-tibb]
 sources: [source/umayyad-birth-to-fall-2006]
 provenance: { layer: own-research, source: "umayyad-birth-to-fall-2006 p. 181", generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 p. 181" }
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 p. 181" }

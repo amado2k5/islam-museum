@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2903
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2903"
+label: { ar: "صحيح البخاري 2903 — مداواة الجراح", en: "Sahih al-Bukhari 2903 — the treatment of wounds", ur: "صحیح بخاری 2903 — زخموں کا علاج" }
+text: "حَدَّثَنَا سَعِيدُ بْنُ عُفَيْرٍ، حَدَّثَنَا يَعْقُوبُ بْنُ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي حَازِمٍ، عَنْ سَهْلٍ، قَالَ لَمَّا كُسِرَتْ بَيْضَةُ النَّبِيِّ عَلَى رَأْسِهِ وَأُدْمِيَ وَجْهُهُ، وَكُسِرَتْ رَبَاعِيَتُهُ، وَكَانَ عَلِيٌّ يَخْتَلِفُ بِالْمَاءِ فِي الْمِجَنِّ، وَكَانَتْ فَاطِمَةُ تَغْسِلُهُ، فَلَمَّا رَأَتِ الدَّمَ يَزِيدُ عَلَى الْمَاءِ كَثْرَةً عَمَدَتْ إِلَى حَصِيرٍ، فَأَحْرَقَتْهَا وَأَلْصَقَتْهَا عَلَى جُرْحِهِ، فَرَقَأَ الدَّمُ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2903، يذكر مداواة الجراح. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 2903 (Fighting for the Cause of Allah (Jihaad)), that mentions the treatment of wounds. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 2903، جس میں زخموں کا علاج کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2903 (book 56 hadith 117); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

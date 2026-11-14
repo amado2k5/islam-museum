@@ -1,0 +1,18 @@
+id: passage/sahaba-usd-ghaba-tibb-2-1629
+class: passage
+unit: chapter
+work: work/usd-al-ghaba
+ref: "2:1629"
+label: { ar: "أسد الغابة لابن الأثير، المجلد المصوَّر 2، ص 1629 — المرض والمريض، مداواة الجراح", en: "Ibn al-Athir's Usd al-Ghaba, scan volume 2, p. 1629 — illness and the sick; the treatment of wounds", ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 2، ص 1629 — بیماری اور بیمار، زخموں کا علاج" }
+text: "… أخرج في جيش كذا الحديث أم هانىء الأنصارية ذكر ذلك ابن أبي خيْثَمة وكذا. قال: لا. قالت: يا رسول اللّه، إني ليس وغيره، وسنذكرها إن شاء اللّٰه تعالى. أُريد أن أُقاتل إنما أُريد أن أَداوي الجرحى والمرضى أخرجها الثلاثة، إلا …"
+summary:
+  ar: "مقطع من أسد الغابة لابن الأثير، المجلد المصوَّر 2، ص 1629، يذكر المرض والمريض، ومداواة الجراح، ومداواة النساء للجرحى، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Athir's Usd al-Ghaba, scan volume 2, p. 1629, that mentions illness and the sick, the treatment of wounds, women treating the wounded, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 2، ص 1629 کا اقتباس جس میں بیماری اور بیمار، زخموں کا علاج، خواتین کا زخمیوں کا علاج، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/usd-al-ghaba] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/usd-al-ghaba] }
+  - { type: mentions, target: concept/tadawi, sources: [source/usd-al-ghaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/usd-ghaba/20210108_20210108_0418, page 1629; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/usd-al-ghaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,18 @@
+id: passage/bukhari-api-5709
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5709"
+label: { ar: "صحيح البخاري 5709 — اللدود والسعوط، المرض والمريض", en: "Sahih al-Bukhari 5709 — medicine given by the mouth-side or the nose; illness and the sick", ur: "صحیح بخاری 5709 — لدود اور سعوط، بیماری اور بیمار" }
+text: "… اللَّهِ، عَنِ ابْنِ عَبَّاسٍ، وَعَائِشَةَ، أَنَّ أَبَا بَكْرٍ ـ قَبَّلَ النَّبِيَّ وَهْوَ مَيِّتٌ. قَالَ وَقَالَتْ عَائِشَةُ لَدَدْنَاهُ فِي مَرَضِهِ، فَجَعَلَ يُشِيرُ إِلَيْنَا، أَنْ لاَ تَلُدُّونِي. فَقُلْنَا كَرَاهِيَةُ الْمَرِيضِ لِلدَّوَاءِ. فَلَمَّا أَفَاقَ قَالَ \" أَلَمْ أَنْهَكُمْ أَنْ تَلُدُّونِي \". قُلْنَا كَرَاهِيَةَ الْمَرِيضِ لِلدَّوَاءِ. فَقَالَ \" لاَ يَبْقَى فِي الْبَيْتِ أَحَدٌ إِلاَّ لُدَّ ـ وَأَنَا أَنْظُرُ ـ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5709، يذكر اللدود والسعوط، والمرض والمريض، والدواء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5709, that mentions medicine given by the mouth-side or the nose, illness and the sick, the drug. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5709، جس میں لدود اور سعوط، بیماری اور بیمار، دوا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5709 (book 0 hadith 0); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
