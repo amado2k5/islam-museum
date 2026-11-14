@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لموسى بن شاكر، مولى المأمون ووالد بني موسى الرياضيين في القرن التاسع، توفي سنة ٨١٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Musa ibn Shakir, the ninth-century client of al-Ma'mun and father of the Banu Musa mathematicians, d. 815; the biographical entry is not yet checked on the page."
+  ar: "موسى بن شاكر، والد المهندسين الثلاثة بني موسى؛ كان في شبابه من قطاع الطرق ثم تاب ودخل في خدمة المأمون وتعلم التنجيم وهيئة الأفلاك، وتوفي نحو سنة 200 هـ ⁦(نحو 815 م)⁩ وأبناؤه صغار فنشأوا في بيت الحكمة."
+  en: "Musa ibn Shakir, father of the three engineers known as the Banu Musa; a highway robber in his youth who repented and entered al-Ma'mun's service, learned astrology and the form of the spheres, and died about 200 AH (about 815 CE) while his sons were small, who were then raised in the House of Wisdom."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 born: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Banu Musa)" }
-died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Banu Musa) Confirmed on 13 November 2026 against Wikidata Q4675911 (P570, a statement with a reference), item revision 2562900276.", sources: [source/wikidata] }
+died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Banu Musa). al-A'lam, vol. 7 p. 323, gives about 200 AH = about 815, agreeing with the card. Confirmed on 13 November 2026 against Wikidata Q4675911 (P570, a statement with a reference), item revision 2562900276.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/khorasan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2352322)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4675911
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0038
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002 (vol. 7 p. 323), entry read in full from the local OpenITI text; Wikidata candidate Q4675911"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
