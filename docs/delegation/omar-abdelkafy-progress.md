@@ -2859,3 +2859,14 @@ Resume point: min-kunuz-al-sunnah episode 2 (branch from origin/main).
 | Garbled stretches (the question put to the Prophet about the Hour in the second telling, the spellings of the bird's three sayings, a stretch on an official's secretary) | ep02 00:15:00-00:16:00 (part), 00:26:00-00:27:00 (part), 00:21:00-00:22:00 (part) | Not recoverable | Clarity | Open |
 
 Resume point: min-kunuz-al-sunnah episode 3 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep03 (14 Nov 2026)
+
+11 points written for episode 3 (ar, en, ur); 8 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (31-13, 49-13); none typed. Contested: the lecturer's remark on divorce in anger is the disputed juristic point and is given as two reported opinions without a source; sensitivity stays contested.
+
+| Excluded (min-kunuz-al-sunnah ep03) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep03 00:00:00, 00:08:30-00:09:00, 00:16:00-00:16:30 (part), 00:26:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (a run of one sound, a stretch comparing the police and a criminal, a stretch on the repetition of a request for divorce, the end of the story of Harun al-Rashid) | ep03 00:00:30, 00:06:30, 00:07:00 (part), 00:25:00-00:25:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 4 (branch from origin/main).
