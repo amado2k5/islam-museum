@@ -1,19 +1,25 @@
 id: person/udhra-bint-shahanshah
 class: person
 label: { ar: "عذراء بنت شاهنشاه", en: "Udhra bint Shahanshah" }
-died: { edtf: "1196", hijri: "0593", calendar: julian, precision: day, status: tradition, derived: true, note: "ماتت عاشر المحرم سنة ثلاث وتسعين وخمسمائة {cite:wafayat-ayan}." }
-summary:
-  ar: "عذراء بنت شاهنشاه بن أيوب؛ بنت المدرسة العذراوية بمدينة دمشق وإليها تُنسب {cite:wafayat-ayan}."
-  en: "Udhra bint Shahanshah b. Ayyub (d. 593) — Salah al-Din's niece, founder of Damascus's Udhrawiyya madrasa {cite:wafayat-ayan}."
+names:
+  - { kind: full, lang: ar, value: "عذراء عصمة الدين خاتون بنت شاهنشاه بن أيوب" }
+roles: [patron]
 gender: female
+died: { edtf: "1196", hijri: "0593", calendar: julian, precision: day, status: tradition, derived: true, note: "ماتت عاشر المحرم سنة ثلاث وتسعين وخمسمائة {cite:wafayat-ayan}. al-Zirikli, al-A'lam, vol. 4 p. 222, prints her years as ending in 593 AH = 1196 CE, agreeing with the card {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 p. 222}.", sources: [source/wafayat-ayan, source/alam-zirikli-dar-al-ilm-2002] }
+summary:
+  ar: "عذراء عصمة الدين خاتون بنت شاهنشاه بن أيوب، أميرة من الأيوبيين وبنت أخي السلطان صلاح الدين، وإليها تنسب المدرسة العذراوية في دمشق وهي من آثارها، وتوفيت بدمشق سنة 593 هـ {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 p. 222} {cite:wafayat-ayan}."
+  en: "Udhra, Ismat al-Din Khatun, daughter of Shahanshah ibn Ayyub, an Ayyubid princess and the niece of Sultan Salah al-Din; the Udhrawiyya madrasa in Damascus is among her monuments and is named for her; she died in Damascus in 593 AH (1196 CE) {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 p. 222} {cite:wafayat-ayan}."
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الثاني (عارضة 53)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
-  generated_by: "Devin (SWE-2 High) from djvu OCR text"
-  run: lib-wafayat-batch-16
-sources: [source/wafayat-ayan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, vol. 4 p. 222, entry read in full from the local OpenITI text; Ibn Khallikan, Wafayat al-A'yan (earlier card source, djvu OCR)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
+sources: [source/wafayat-ayan, source/alam-zirikli-dar-al-ilm-2002]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (Lane B2 packet)" }
 relations:
-  - { type: lived_in, target: place/damascus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wafayat-ayan] }
+  - { type: child_of, target: person/nur-al-dawla-shahanshah-ibn-ayyub, confidence: high, note: "al-Zirikli, al-A'lam, vol. 4 p. 222: daughter of Shahanshah ibn Ayyub, niece of Sultan Salah al-Din; identified with the existing card of Salah al-Din's brother by the genealogy", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/damascus, confidence: high, note: "al-Zirikli, al-A'lam, vol. 4 p. 222: she died in Damascus", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/damascus, confidence: medium, note: "al-Zirikli, vol. 4 p. 222: she died in Damascus, where the madrasa named for her stands; a longer residence is not stated", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafayat-ayan] }
