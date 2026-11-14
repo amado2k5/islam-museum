@@ -1,12 +1,15 @@
 ---
 // The Hasanat and Sayyi'at Ledger's home (docs/plan/50-hisab-browser.md): «قائمة وآلة حاسبة
-// وعدّاد للحسنات والسيئات». Three parts over the one graph: the calculator reads the
-// `reckoning` block of the curated records (what a text states for one deed), the counter is a
-// tally kept in the visitor's own browser, and the list is every passage that counts, writes,
-// erases, weighs or reckons a deed — found at build time by scripts/hisab.ts, so a book
-// harvested later brings its counting texts here the day its passage records land. The table
-// and the list are complete without JavaScript; the script only adds the sums, the tally and
-// the filter.
+// وعدّاد للحسنات والسيئات». The landing opens on one screen that needs no explanation: every
+// act a text names a figure for is a large card with one "Add" button, what was added is listed
+// like a basket, and the four sums follow at once in a bar at the foot of the screen. Everything
+// else the page held before (the counter, the full table with its sources, the ladder, the list
+// of every counting text, the caveat and the method) stays on the page, one press away under
+// "More on this page". The cards read the `reckoning` block of the curated records, the list is
+// every passage that counts, writes, erases, weighs or reckons a deed — found at build time by
+// scripts/hisab.ts, so a book harvested later brings its counting texts here the day its passage
+// records land. The cards, the table and the list are complete without JavaScript; the script
+// only adds the adding-up, the tally and the filter.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PagedNav from "../../../components/PagedNav.astro";
 import FullFilter from "../../../components/FullFilter.astro";
@@ -61,101 +64,85 @@ const figures = (r: Reckoning) => {
 const searchText = (i: (typeof hisabItems)[number]) =>
   [i.node.label.ar, i.node.label.en, i.node.label.ur, summaryText(i.node), excerptOf(i.node), workLabel(i.node), ...i.kinds.map((k) => G.kinds[k])].filter(Boolean).join(" ");
 const tallyRows = hisabRows.filter((r) => r.reckoning.times);
+const C = G.cart;
+/** A card's short name: the act itself, without the figure the label repeats after a colon. */
+const shortName = (n: Node) => { const l = label(n); const cut = l.split(/\s*[:：]\s+/)[0]; return cut.length >= 6 ? cut : l; };
+const worded = (r: Reckoning) => r.unbounded || (!r.hasanat && !r.sayyiat && !r.erased && !r.degrees);
+const tabs: HisabKind[] = HISAB_KINDS.filter((k) => hisabRows.some((r) => r.reckoning.effect === k));
 const cell = "padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:start";
 const btn = "font:inherit;min-height:44px;padding:8px 16px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg);cursor:pointer";
+const sum = "cursor:pointer;min-height:56px;padding:14px 18px;font-weight:700;font-size:1.1rem";
+const more = "margin-top:12px;border:1px solid var(--line);border-radius:14px;background:var(--card)";
 ---
 <BaseLayout lang={lang} title={pagedTitle} description={G.lede} path={paged.path}>
-  <div class="wrap" style="padding-block:10px 20px">
-    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{G.badge}</p>
-    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {G.title}</nav>
+  <div class="wrap hc-page" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .4rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {G.title}</nav>
     <div data-pagefind-body={paged.landing || undefined}>
-      <h1>{G.title}</h1>
-      <p style="font-size:1.2rem;max-width:var(--measure)">{G.lede}</p>
-      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
-      <h2 id="caveat-title" style="font-size:1.1rem">{G.caveat_title}</h2>
-      <p style="max-width:var(--measure)">{G.caveat}</p>
-      <h2 id="method-title" style="font-size:1.1rem">{G.method_title}</h2>
-      <p class="muted" style="max-width:var(--measure)">{G.method_note}</p>
-      <p class="ui muted">{G.api} <a href="/api/v1/hisab.json"><bdi dir="ltr">/api/v1/hisab.json</bdi></a></p>
-      <nav aria-label={G.parts_title} class="ui">
-        <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
-          <li><a class="chip" href="#calculator">{G.calc_title}</a></li>
-          <li><a class="chip" href="#counter">{G.counter_title}</a></li>
-          <li><a class="chip" href="#list">{G.list_title} · {num(hisabItems.length, lang)}</a></li>
-          <li><a class="chip" href={href(lang, "concept/hisab-al-hasanat-wal-sayyiat")}>{G.read_more}</a></li>
-        </ul>
-      </nav>
+      <h1 style="margin:0 0 .3rem">{G.title}</h1>
+      {paged.landing && <p class="hc-how">{C.how}</p>}
+      {paged.landing && <p class="muted" style="margin:0 0 1rem;max-width:var(--measure)">{C.note} <a href="#about">{G.caveat_title}</a></p>}
+      {!paged.landing && <p class="ui" style="margin:.4rem 0 1rem"><a class="hc-back" href={`${paged.home}#calculator`}>{C.back}</a></p>}
     </div>
 
-    {paged.landing && <HisabLadder lang={lang} />}
-    <section id="calculator" aria-labelledby="calc-title" style="margin-top:2.2rem" data-hisab-calc data-pagefind-ignore>
-      <h2 id="calc-title">{G.calc_title}</h2>
-      <p style="max-width:var(--measure)">{G.calc_intro}</p>
-      <div style="overflow-x:auto;position:relative">
-        <table style="border-collapse:collapse;width:100%;min-width:720px">
-          <caption class="sr-only">{G.calc_title}</caption>
-          <thead>
-            <tr class="ui">
-              <th scope="col" style={cell}>{G.cols.deed}</th>
-              <th scope="col" style={cell}>{G.cols.unit}</th>
-              <th scope="col" style={cell}>{G.cols.states}</th>
-              <th scope="col" style={cell}>{G.cols.texts}</th>
-              <th scope="col" style={cell}>{G.cols.count}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {hisabRows.map((r, i) => (
-              <tr data-hisab-row data-effect={r.reckoning.effect}
-                data-h={r.reckoning.hasanat ?? 0} data-hmax={r.reckoning.hasanat_max ?? r.reckoning.hasanat ?? 0}
-                data-s={r.reckoning.sayyiat ?? 0} data-e={r.reckoning.erased ?? 0} data-d={r.reckoning.degrees ?? 0}
-                data-worded={r.reckoning.unbounded || (!r.reckoning.hasanat && !r.reckoning.sayyiat && !r.reckoning.erased && !r.reckoning.degrees) ? "1" : "0"}
-                data-name={label(r.node)} data-result={loc(r.reckoning.result)}>
-                <th scope="row" style={`${cell};font-weight:600`}>
-                  <a href={href(lang, r.node.id)}>{label(r.node)}</a>
-                  <span class="chip" style="font-size:.75rem;padding:1px 8px;margin-inline-start:6px">{G.kinds[r.reckoning.effect]}</span>
-                </th>
-                <td style={cell} class="muted">{loc(r.reckoning.unit)}</td>
-                <td style={cell}>
-                  {figures(r.reckoning) && <strong style="display:block">{figures(r.reckoning)}</strong>}
-                  <span dir="auto">{loc(r.reckoning.result)}</span>
-                </td>
-                <td style={cell} class="ui">
-                  <ul style="list-style:none;padding:0;margin:0">
-                    {r.basis.map((b) => <li><a href={href(lang, b.id)}><bdi>{basisLabel(b)}</bdi></a></li>)}
-                  </ul>
-                </td>
-                <td style={cell}>
-                  <label class="sr-only" for={`hisab-n-${i}`}>{G.cols.count}: {label(r.node)}</label>
-                  <input id={`hisab-n-${i}`} type="number" min="0" step="1" inputmode="numeric" value="0" data-hisab-n disabled
-                    style="font:inherit;width:6.5em;min-height:44px;padding:6px 10px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+    {paged.landing && (
+    <section id="calculator" class="hc" aria-labelledby="calc-title" data-hc data-pagefind-ignore
+      data-t-hasanat={G.fig.hasanat} data-t-range={G.fig.hasanat_range} data-t-sayyiat={G.fig.sayyiat} data-t-erased={G.fig.erased} data-t-degrees={G.fig.degrees} data-t-remove={C.remove}>
+      <h2 id="calc-title" class="sr-only">{G.calc_title}</h2>
+      <p class="hc-tabs ui" role="group" aria-label={C.tabs_label} data-hc-tabs hidden>
+        <button type="button" class="hc-tab" data-hc-tab="" aria-pressed="true">{G.kinds_all}</button>
+        {tabs.map((k) => <button type="button" class="hc-tab" data-hc-tab={k} data-k={k} aria-pressed="false">{C.tab[k]}</button>)}
+      </p>
+      <noscript><p class="panel ui">{C.nojs}</p></noscript>
+      <div class="hc-body">
+        <ul role="list" class="hc-deeds">
+          {hisabRows.map((r, i) => (
+            <li class="hc-card" data-hc-deed data-id={r.node.id} data-k={r.reckoning.effect}
+              data-h={r.reckoning.hasanat ?? 0} data-hmax={r.reckoning.hasanat_max ?? r.reckoning.hasanat ?? 0}
+              data-s={r.reckoning.sayyiat ?? 0} data-e={r.reckoning.erased ?? 0} data-d={r.reckoning.degrees ?? 0}
+              data-worded={worded(r.reckoning) ? "1" : "0"} data-name={shortName(r.node)} data-result={loc(r.reckoning.result)}>
+              <div class="hc-what">
+                <a class="hc-name" href={href(lang, r.node.id)}>{shortName(r.node)}</a>
+                <span class="hc-fig" dir="auto">{figures(r.reckoning) || loc(r.reckoning.result)}</span>
+                <span class="hc-unit muted">{loc(r.reckoning.unit)}</span>
+                <span class="hc-src ui muted">{G.viz.basis} {r.basis.map((b, j) => <>{j > 0 ? " · " : ""}<a href={href(lang, b.id)}><bdi>{basisLabel(b)}</bdi></a></>)}</span>
+              </div>
+              <div class="hc-ctl" data-hc-ctl hidden>
+                <button type="button" class="hc-minus" data-hc-minus aria-label={`${C.less}: ${shortName(r.node)}`} disabled>−</button>
+                <label class="sr-only" for={`hc-n-${i}`}>{G.cols.count}: {shortName(r.node)}</label>
+                <input id={`hc-n-${i}`} class="hc-qty" type="number" min="0" max="1000000" step="1" inputmode="numeric" value="0" data-hc-qty />
+                <button type="button" class="hc-plus" data-hc-plus aria-label={`${C.add}: ${shortName(r.node)}`}><span aria-hidden="true">＋</span> {C.add}</button>
+              </div>
+            </li>
+          ))}
+        </ul>
+        <aside id="my-count" class="hc-mine" aria-labelledby="mine-title" data-hc-mine hidden>
+          <h3 id="mine-title" tabindex="-1" style="margin:0 0 .5rem;font-size:1.2rem">{C.mine}</h3>
+          <p class="muted" data-hc-empty style="margin:0">{C.empty}</p>
+          <ul role="list" class="hc-lines" data-hc-lines></ul>
+          <p style="margin:.8rem 0 0"><button type="button" class="hc-clear" data-hc-clear hidden>{C.clear}</button></p>
+          <p class="muted" style="margin:.8rem 0 0;font-size:.9rem">{G.total_note}</p>
+          <p class="muted" style="margin:.4rem 0 0;font-size:.9rem">{C.saved}</p>
+        </aside>
       </div>
-      <noscript><p class="panel ui">{G.calc_nojs}</p></noscript>
-      <div class="panel" style="margin-top:1rem;border:1px solid var(--gold)" aria-live="polite" data-hisab-totals hidden>
-        <h3 style="margin:0 0 .5rem;font-size:1.05rem">{G.total_title}</h3>
-        <dl class="ui" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:0">
-          <div><dt class="muted">{G.totals.hasanat}</dt><dd style="margin:0;font-size:1.5rem;font-weight:700" data-hisab-out="hasanat">0</dd></div>
-          <div><dt class="muted">{G.totals.sayyiat}</dt><dd style="margin:0;font-size:1.5rem;font-weight:700" data-hisab-out="sayyiat">0</dd></div>
-          <div><dt class="muted">{G.totals.erased}</dt><dd style="margin:0;font-size:1.5rem;font-weight:700" data-hisab-out="erased">0</dd></div>
-          <div><dt class="muted">{G.totals.degrees}</dt><dd style="margin:0;font-size:1.5rem;font-weight:700" data-hisab-out="degrees">0</dd></div>
+      <div class="hc-bar" data-hc-bar hidden>
+        <dl class="hc-sums" aria-live="polite">
+          <div class="hc-sum" data-k="hasanat"><dt>{G.totals.hasanat}</dt><dd data-hc-out="hasanat">0</dd></div>
+          <div class="hc-sum" data-k="sayyiat"><dt>{G.totals.sayyiat}</dt><dd data-hc-out="sayyiat">0</dd></div>
+          <div class="hc-sum" data-k="erasure" data-hc-opt="erased" hidden><dt>{G.totals.erased}</dt><dd data-hc-out="erased">0</dd></div>
+          <div class="hc-sum" data-k="scale" data-hc-opt="degrees" hidden><dt>{G.totals.degrees}</dt><dd data-hc-out="degrees">0</dd></div>
         </dl>
-        <div data-hisab-worded hidden>
-          <h4 style="margin:.9rem 0 .3rem;font-size:1rem">{G.worded_title}</h4>
-          <ul data-hisab-worded-list style="margin:0;padding-inline-start:1.2rem"></ul>
-        </div>
-        <p class="muted" style="margin:.8rem 0 0;font-size:.92rem">{G.total_note}</p>
-        <p style="margin:.6rem 0 0"><button type="button" data-hisab-reset style={btn}>{G.calc_reset}</button></p>
+        <a class="hc-view ui" href="#my-count">{C.mine} · <span data-hc-n>0</span></a>
       </div>
     </section>
+    )}
 
-    <section id="counter" aria-labelledby="counter-title" style="margin-top:2.4rem" data-hisab-counter data-pagefind-ignore
-      data-reached={G.counter_reached} data-free={G.counter_free}>
-      <h2 id="counter-title">{G.counter_title}</h2>
-      <p style="max-width:var(--measure)">{G.counter_intro}</p>
+    {paged.landing && <p class="ui muted" style="margin:2.2rem 0 .2rem;font-weight:700">{C.more}</p>}
+
+    {paged.landing && (
+    <details id="counter" style={more} data-hisab-counter data-pagefind-ignore data-reached={G.counter_reached} data-free={G.counter_free}>
+      <summary style={sum}><h2 id="counter-title" class="hc-h">{G.counter_title}</h2></summary>
+      <div style="padding:0 18px 18px">
+      <p style="max-width:var(--measure);margin-top:0">{G.counter_intro}</p>
       <noscript><p class="panel ui">{G.counter_nojs}</p></noscript>
       <div class="panel" style="max-width:560px" data-hisab-counter-ui hidden>
         <p class="ui" style="display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin:0 0 .8rem">
@@ -174,11 +161,63 @@ const btn = "font:inherit;min-height:44px;padding:8px 16px;border:1px solid var(
         <p class="panel ui" style="margin:.8rem 0 0;border:1px solid var(--gold)" data-hisab-reached hidden></p>
         <p class="muted" style="margin:.8rem 0 0;font-size:.92rem">{G.counter_saved}</p>
       </div>
-    </section>
+      </div>
+    </details>
+    )}
 
-    <section id="list" aria-labelledby="list-title" style="margin-top:2.4rem">
-      <h2 id="list-title">{G.list_title}</h2>
-      <p style="max-width:var(--measure)">{G.list_intro}</p>
+    {paged.landing && (
+    <details id="table" style={more} data-pagefind-ignore>
+      <summary style={sum}><h2 class="hc-h">{C.more_table}</h2></summary>
+      <div style="padding:0 18px 18px">
+      <p style="max-width:var(--measure);margin-top:0">{C.table_intro}</p>
+      <div style="overflow-x:auto;position:relative">
+        <table style="border-collapse:collapse;width:100%;min-width:620px">
+          <caption class="sr-only">{G.calc_title}</caption>
+          <thead>
+            <tr class="ui">
+              <th scope="col" style={cell}>{G.cols.deed}</th>
+              <th scope="col" style={cell}>{G.cols.unit}</th>
+              <th scope="col" style={cell}>{G.cols.states}</th>
+              <th scope="col" style={cell}>{G.cols.texts}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {hisabRows.map((r) => (
+              <tr>
+                <th scope="row" style={`${cell};font-weight:600`}>
+                  <a href={href(lang, r.node.id)}>{label(r.node)}</a>
+                  <span class="chip" style="font-size:.75rem;padding:1px 8px;margin-inline-start:6px">{G.kinds[r.reckoning.effect]}</span>
+                </th>
+                <td style={cell} class="muted">{loc(r.reckoning.unit)}</td>
+                <td style={cell}>
+                  {figures(r.reckoning) && <strong style="display:block">{figures(r.reckoning)}</strong>}
+                  <span dir="auto">{loc(r.reckoning.result)}</span>
+                </td>
+                <td style={cell} class="ui">
+                  <ul style="list-style:none;padding:0;margin:0">
+                    {r.basis.map((b) => <li><a href={href(lang, b.id)}><bdi>{basisLabel(b)}</bdi></a></li>)}
+                  </ul>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      </div>
+    </details>
+    )}
+
+    {paged.landing && (
+    <details id="ladder" style={more}>
+      <summary style={sum}><h2 class="hc-h">{G.viz.title}</h2></summary>
+      <div style="padding:0 18px 18px"><HisabLadder lang={lang} /></div>
+    </details>
+    )}
+
+    <details id="list" style={more} open={!paged.landing || undefined}>
+      <summary style={sum}><h2 id="list-title" class="hc-h">{G.list_title} · {num(hisabItems.length, lang)}</h2></summary>
+      <div style="padding:0 18px 18px">
+      <p style="max-width:var(--measure);margin-top:0">{G.list_intro}</p>
       <nav aria-label={G.sections_title} class="ui" style="margin:0 0 1rem">
         <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
           {sections.map((s) => <li><a class="chip" href={`${paged.home}#t-${s.id}`}>{G.sections[s.id]?.title ?? s.id} · {num(s.items.length, lang)}</a></li>)}
@@ -216,7 +255,82 @@ const btn = "font:inherit;min-height:44px;padding:8px 16px;border:1px solid var(
       </div>
       <p class="panel ui" data-hisab-none hidden>{G.filter_none}</p>
       {hisabItems.length === 0 && <p class="panel ui">{G.empty}</p>}
-    </section>
+      </div>
+    </details>
+
+    {paged.landing && (
+    <details id="about" style={more} data-pagefind-body>
+      <summary style={sum}><h2 class="hc-h">{C.more_about}</h2></summary>
+      <div style="padding:0 18px 18px">
+      <p style="font-size:1.1rem;max-width:var(--measure);margin-top:0">{G.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <h3 id="caveat-title" style="font-size:1.1rem">{G.caveat_title}</h3>
+      <p style="max-width:var(--measure)">{G.caveat}</p>
+      <h3 id="method-title" style="font-size:1.1rem">{G.method_title}</h3>
+      <p class="muted" style="max-width:var(--measure)">{G.method_note}</p>
+      <p class="ui muted">{G.api} <a href="/api/v1/hisab.json"><bdi dir="ltr">/api/v1/hisab.json</bdi></a></p>
+      <p class="ui"><a class="chip" href={href(lang, "concept/hisab-al-hasanat-wal-sayyiat")}>{G.read_more}</a></p>
+      </div>
+    </details>
+    )}
   </div>
+  <style is:inline>
+    /* The count (docs/plan/50-hisab-browser.md section 5): large targets, one colour per ledger kind, nothing else. The four
+       colours carry white text at 4.5:1 or better and are the same in the light and the dark theme. */
+    .hc-page { --hc-hasanat: #1e7e34; --hc-sayyiat: #b8321f; --hc-erasure: #1f6f7a; --hc-scale: #654a15; }
+    .hc-how { font-size: 1.35rem; font-weight: 700; margin: 0 0 .3rem; max-width: var(--measure); }
+    .hc-h { display: inline; font-size: inherit; margin: 0; }
+    .hc-back { display: inline-flex; align-items: center; min-height: 48px; padding: 8px 18px; border-radius: 12px; background: var(--hc-hasanat); color: #fff; font-weight: 700; text-decoration: none; }
+    .hc { min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; }
+    .hc-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+    .hc-tab { font: inherit; font-weight: 700; min-height: 52px; padding: 8px 20px; border-radius: 999px; border: 2px solid var(--line); background: var(--card); color: var(--fg); cursor: pointer; }
+    .hc-tab[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+    .hc-tab[data-k][aria-pressed="true"] { color: #fff; }
+    .hc-tab[data-k="hasanat"][aria-pressed="true"] { background: var(--hc-hasanat); border-color: var(--hc-hasanat); }
+    .hc-tab[data-k="sayyiat"][aria-pressed="true"] { background: var(--hc-sayyiat); border-color: var(--hc-sayyiat); }
+    .hc-tab[data-k="erasure"][aria-pressed="true"] { background: var(--hc-erasure); border-color: var(--hc-erasure); }
+    .hc-tab[data-k="scale"][aria-pressed="true"] { background: var(--hc-scale); border-color: var(--hc-scale); }
+    .hc-body { display: grid; gap: 20px; flex: 1; align-content: start; }
+    .hc-deeds { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 12px; }
+    .hc-card { --k: var(--hc-scale); display: flex; flex-direction: column; justify-content: space-between; gap: 12px; padding: 16px; border-radius: 16px; background: var(--card); border: 2px solid var(--line); border-inline-start: 10px solid var(--k); }
+    .hc-card[data-k="hasanat"], .hc-sum[data-k="hasanat"] { --k: var(--hc-hasanat); }
+    .hc-card[data-k="sayyiat"], .hc-sum[data-k="sayyiat"] { --k: var(--hc-sayyiat); }
+    .hc-card[data-k="erasure"], .hc-sum[data-k="erasure"] { --k: var(--hc-erasure); }
+    .hc-card[data-on] { border-color: var(--k); }
+    .hc-card[hidden] { display: none; }
+    .hc-what { display: grid; gap: 4px; }
+    .hc-name { font-size: 1.2rem; font-weight: 700; color: var(--fg); text-decoration: none; }
+    .hc-name:hover { text-decoration: underline; }
+    .hc-fig { font-size: 1.05rem; font-weight: 600; }
+    .hc-unit, .hc-src { font-size: .9rem; }
+    .hc-ctl { display: flex; gap: 8px; align-items: stretch; }
+    .hc-ctl[hidden] { display: none; }
+    .hc-ctl button, .hc-qty { font: inherit; font-size: 1.25rem; font-weight: 700; min-height: 56px; border-radius: 12px; }
+    .hc-minus { flex: 0 0 56px; border: 2px solid var(--line); background: var(--card); color: var(--fg); cursor: pointer; }
+    .hc-minus:disabled { opacity: .35; cursor: default; }
+    .hc-qty { flex: 0 1 5.5em; min-width: 3.5em; text-align: center; border: 2px solid var(--line); background: var(--bg); color: var(--fg); padding: 4px 6px; }
+    .hc-plus { flex: 1 1 auto; border: 0; background: var(--k); color: #fff; cursor: pointer; padding: 4px 14px; }
+    .hc-mine { padding: 18px; border-radius: 16px; background: var(--panel); align-self: start; }
+    .hc-lines { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+    .hc-line { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: center; padding: 10px 12px; border-radius: 12px; background: var(--card); border-inline-start: 8px solid var(--k, var(--hc-scale)); }
+    .hc-line[data-k="hasanat"] { --k: var(--hc-hasanat); } .hc-line[data-k="sayyiat"] { --k: var(--hc-sayyiat); } .hc-line[data-k="erasure"] { --k: var(--hc-erasure); }
+    .hc-line span { grid-column: 1; }
+    .hc-line button { grid-column: 2; grid-row: 1 / span 2; font: inherit; font-size: 1.3rem; width: 48px; height: 48px; border-radius: 12px; border: 2px solid var(--line); background: var(--card); color: var(--fg); cursor: pointer; }
+    .hc-clear { font: inherit; font-weight: 700; min-height: 48px; padding: 8px 18px; border-radius: 12px; border: 2px solid var(--hc-sayyiat); background: var(--card); color: var(--fg); cursor: pointer; }
+    .hc-bar { position: sticky; bottom: 0; z-index: 5; margin-top: 16px; padding: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: stretch; background: var(--bg); border-top: 2px solid var(--line); }
+    .hc-bar[hidden] { display: none; }
+    .hc-sums { flex: 1 1 200px; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; }
+    .hc-sum { --k: var(--hc-scale); flex: 1 1 90px; padding: 6px 12px; border-radius: 14px; background: var(--k); color: #fff; }
+    .hc-sum[hidden] { display: none; }
+    .hc-sum dt { font-size: .85rem; font-weight: 600; }
+    .hc-sum dd { margin: 0; font-size: clamp(1.4rem, 5vw, 2.1rem); font-weight: 800; line-height: 1.15; font-variant-numeric: tabular-nums; }
+    .hc-view { flex: 0 1 auto; display: inline-flex; align-items: center; justify-content: center; min-height: 56px; padding: 8px 18px; border-radius: 14px; border: 2px solid var(--fg); color: var(--fg); font-weight: 700; text-decoration: none; }
+    @media (min-width: 960px) {
+      .hc-body { grid-template-columns: minmax(0, 1fr) 340px; }
+      .hc-mine { position: sticky; top: 5rem; max-height: calc(100vh - 14rem); overflow: auto; }
+      .hc-view { display: none; }
+    }
+    @media (prefers-reduced-motion: no-preference) { .hc-plus:active, .hc-minus:active { transform: scale(.97); } }
+  </style>
   <script src="../../../scripts/hisab.ts"></script>
 </BaseLayout>
