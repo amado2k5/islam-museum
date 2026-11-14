@@ -1,0 +1,73 @@
+id: event/al-hadi-routs-al-yafur-and-al-tarif-before-sanaa-288
+class: event
+kind: other
+label:
+  ar: "الهادي يهزم آل يعفر وآل طريف قرب صنعاء، سنة 288هـ"
+  en: "Al-Hadi routs Al Ya'fur and Al Tarif before Sana'a, 288 AH"
+  ur: "ہادی صنعاء کے قریب آل یعفر اور آل طریف کو شکست دیتے ہیں، 288ھ"
+summary:
+  ar: "خرج الهادي قاصداً صنعاء، فخرج آل يعفر وآل طريف من صنعاء وشبام وظهر في جيش عظيم، وكان عسكره بحسب الراوي نحو خمسمائة أو ستمائة راجل وأقل من مائة فارس وعسكرهم نحو خمسمائة فارس وألفي راجل، فعبأ عسكره وحمل بنفسه، فقتل صاحب علمهم وانهزموا إلى موضع يقال له المروة وغنم أصحابه سلاحاً وثياباً."
+  en: "Al-Hadi set out for Sana'a and Al Ya'fur and Al Tarif came out from Sana'a, Shibam and Zahr in a great army; the narrator puts his force at about five or six hundred foot and under a hundred horse, and theirs at about five hundred horse and two thousand foot; he drew up his army and charged himself, their standard-bearer was killed and they fled to a place called al-Marwa, and his men took weapons, clothes and spoils."
+  ur: "ہادی صنعاء کے ارادے سے نکلے تو آل یعفر اور آل طریف صنعاء، شبام اور ظہر سے ایک بڑے لشکر میں نکلے؛ راوی کے مطابق ان کا لشکر قریباً پانچ یا چھ سو پیادے اور سو سے کم سوار تھا اور ان کا قریباً پانچ سو سوار اور دو ہزار پیادے؛ انہوں نے لشکر کی صف بندی کی اور خود حملہ کیا، ان کا علم بردار مارا گیا اور وہ المروۃ نامی جگہ تک بھاگے، اور ان کے ساتھیوں کو ہتھیار، کپڑے اور مال غنیمت ملا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900~"
+    hijri: "0288"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 288هـ؛ الكتاب يذكر الدخول بعد الواقعة يوم الجمعة دون الشهر؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  role: "قائد الميسرة"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  role: "قرب صنعاء"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص225 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 225
