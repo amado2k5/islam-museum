@@ -11,11 +11,11 @@ coordinates: [18.2225, 42.8428]
 coordinate_precision: site
 coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 relations:
-  - { type: part_of, target: place/yemen, sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa] }
+  - { type: part_of, target: place/yemen, sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa, source/mujam-al-buldan-sader-1995] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 79"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-4
-sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa]
+sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa, source/mujam-al-buldan-sader-1995]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 234-235" }
