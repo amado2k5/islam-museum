@@ -2870,3 +2870,14 @@ Resume point: min-kunuz-al-sunnah episode 3 (branch from origin/main).
 | Loops and garbled stretches (a run of one sound, a stretch comparing the police and a criminal, a stretch on the repetition of a request for divorce, the end of the story of Harun al-Rashid) | ep03 00:00:30, 00:06:30, 00:07:00 (part), 00:25:00-00:25:30 | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 4 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep04 (14 Nov 2026)
+
+10 points written for episode 4 (ar, en, ur); 7 needs_source marks in each language file for this episode; 3 new `about` edges; no Quran verse cited by the lecturer in this episode.
+
+| Excluded (min-kunuz-al-sunnah ep04) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep04 00:00:00, 00:08:30-00:09:00, 00:17:00-00:17:30, 00:27:30 | Not lesson content | Content rule | Open |
+| Garbled stretches and side remarks (a stretch on fruit seasons and artificial milk, a closing stretch on ageing and cosmetics) | ep04 00:02:30-00:04:00, 00:25:30-00:26:00 | Not recoverable or off the lesson | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 5 (branch from origin/main).
