@@ -1,0 +1,51 @@
+id: event/al-hadi-arrival-at-saada-284
+class: event
+kind: other
+label:
+  ar: وصول الهادي إلى صعدة وإصلاحه بين سعد والربيعة، صفر 284هـ
+  en: Al-Hadi's arrival at Sa'da and the settling of Sa'd and al-Rabi'a, Safar 284 AH
+  ur: ہادی کا صعدہ پہنچنا اور سعد و ربیعہ میں صلح، صفر 284ھ
+summary:
+  ar: وصل الهادي صعدة لستة أيام خلون من صفر سنة 284هـ وبين خولان فتنة عظيمة، فخطب فيهم وأحلف الفريقين على ترك الفتنة ثم بايعوه، ودخلوا صعدة، وولى الولاة على جباية الطعام في المخاليف.
+  en: Al-Hadi reached Sa'da on the sixth of Safar 284 AH, amid a great feud among Khawlan; he preached to them, had the two parties swear to give up the feud, and they pledged allegiance to him and entered Sa'da; he then appointed governors over the collection of food in the districts.
+  ur: ہادی 6 صفر 284ھ کو صعدہ پہنچے جب خولان میں شدید فتنہ تھا؛ انہوں نے خطبہ دیا، دونوں فریقوں سے فتنہ چھوڑنے کا حلف لیا، انہوں نے ان کی بیعت کی اور صعدہ میں داخل ہوئے، اور پھر انہوں نے مخالیف میں غلے کی وصولی پر عمال مقرر کیے۔
+wings:
+- time
+themes:
+- peace-making-and-coexistence
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0897-03-15'
+    hijri: '0284-02-06'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: لستة أيام خلون من صفر سنة 284هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي
+    sources: &id001
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources: *id001
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources: *id001
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص37-44 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-4
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 37-44

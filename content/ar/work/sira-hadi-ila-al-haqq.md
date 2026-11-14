@@ -35,3 +35,6 @@ translators: []
 
 ## كتب الهادي إلى المدينة وخروجه الأول، من الصفحة 35 إلى 37
 يروي علي بن محمد أن الهادي كان قد خرج إلى اليمن سنة 280هـ حتى الشرفة قرب صنعاء ثم رجع {cite:sira-hadi-ila-al-haqq p.36} [[event/al-hadi-first-journey-to-yemen-280]]، وأنه في ذي القعدة سنة 283هـ وردت كتبه إلى نفر من بني أبي طالب بالمدينة {cite:sira-hadi-ila-al-haqq p.35} {cite:sira-hadi-ila-al-haqq p.36} [[event/al-hadi-letters-to-medina-283]]، وأن أباه محمد بن عبيد الله خرج مع يحيى بن الحسين بن يحيى لهلال ذي الحجة إلى [[place/al-fur-medina|الفرع]]، فلقيا الهادي وأباه الحسين بن القاسم وعميه محمداً والحسن {cite:sira-hadi-ila-al-haqq p.37}.
+
+## الخروج إلى اليمن ووصول صعدة، من الصفحة 37 إلى 44
+يروي محمد بن عبيد الله لابنه علي كيف تردد الهادي ثم رأى النبي في المنام فخرج في قلة [[event/al-hadi-departure-from-al-fur-for-yemen]]، وكيف أصابهم العطش ووجدوا بؤيرة الماء ولقيهم الجمع عند زبيد [[event/al-hadi-road-to-saada-well-and-zubayd]]، ثم وصلوا صعدة لستة أيام خلون من صفر سنة 284هـ فأصلح الهادي بين سعد والربيعة وبايعه الناس وولى الولاة [[event/al-hadi-arrival-at-saada-284]] {cite:sira-hadi-ila-al-haqq p.37} {cite:sira-hadi-ila-al-haqq p.38} {cite:sira-hadi-ila-al-haqq p.39} {cite:sira-hadi-ila-al-haqq p.40} {cite:sira-hadi-ila-al-haqq p.41} {cite:sira-hadi-ila-al-haqq p.42} {cite:sira-hadi-ila-al-haqq p.43}. ويبدأ نص عهده إلى ولاته في الصفحة 44 {cite:sira-hadi-ila-al-haqq p.44}.

@@ -1,0 +1,46 @@
+id: event/al-hadi-departure-from-al-fur-for-yemen
+class: event
+kind: migration
+label:
+  ar: خروج الهادي من الفرع إلى اليمن
+  en: Al-Hadi's departure from al-Fur' for Yemen
+  ur: ہادی کا فرع سے یمن روانہ ہونا
+summary:
+  ar: بعد تردد الهادي في الخروج وإعراضه عن رسل اليمن، رأى النبي في المنام يحثه على النهوض، فأمر أصحابه بالرحيل وخرج ومعه قلة، وودّعه عمه محمد بن القاسم بدعاء.
+  en: After hesitating and meaning to send the Yemeni envoys away, al-Hadi saw the Prophet in a dream urging him to rise; he told his companions to set out, and went with a small party, his uncle Muhammad ibn al-Qasim bidding him farewell with a prayer.
+  ur: ہچکچاہٹ اور یمنی قاصدوں کو لوٹا دینے کے ارادے کے بعد ہادی نے خواب میں نبی کو اٹھنے پر ابھارتے دیکھا؛ انہوں نے ساتھیوں کو کوچ کا حکم دیا اور ایک چھوٹی جماعت کے ساتھ نکلے، اور ان کے چچا محمد بن قاسم نے دعا کے ساتھ انہیں رخصت کیا۔
+wings:
+- time
+themes:
+- factions-splits-schisms
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: occurred_at
+  target: place/al-fur-medina
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources: &id001
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources: *id001
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: ابنه الذي رافقه، وعُرف بالمرتضى
+  sources: *id001
+  confidence: low
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص37-44 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-4
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 37-44

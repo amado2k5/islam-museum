@@ -1,0 +1,37 @@
+id: person/idris-ibn-ahmad-al-jafari
+class: person
+label:
+  ar: إدريس بن أحمد من ولد جعفر بن أبي طالب
+  en: Idris ibn Ahmad, of the line of Jafar ibn Abi Talib
+  ur: ادریس بن احمد، جعفر بن ابی طالب کی نسل سے
+summary:
+  ar: من القلائل الذين ذُكر أنهم رافقوا الهادي في خروجه إلى اليمن.
+  en: Named among the few who accompanied al-Hadi on his journey to Yemen.
+  ur: ان چند لوگوں میں نام آیا جو یمن کے سفر میں ہادی کے ساتھ تھے۔
+gender: male
+roles:
+- scholar
+wings:
+- people
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: allied_with
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+  note: رافقه في خروجه إلى اليمن
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص37-44 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-4
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 37-44
