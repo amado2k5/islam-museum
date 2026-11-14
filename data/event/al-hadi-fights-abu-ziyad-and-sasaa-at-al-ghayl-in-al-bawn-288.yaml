@@ -1,0 +1,59 @@
+id: event/al-hadi-fights-abu-ziyad-and-sasaa-at-al-ghayl-in-al-bawn-288
+class: event
+kind: other
+label:
+  ar: "الهادي يقاتل أبا زياد وصعصعة بالغيل في البون، سنة 288هـ"
+  en: "Al-Hadi fights Abu Ziyad and Sa'sa'a at al-Ghayl in al-Bawn, 288 AH"
+  ur: "ہادی البون کے الغیل میں ابو زیاد اور صعصعہ سے لڑتے ہیں، 288ھ"
+summary:
+  ar: "انهزم أبو زياد وصعصعة بمن معهما إلى قرية بالبون يقال لها الغيل وهي حصن حصين فيها معسكرهم، فاتبعهم الهادي وقاتلهم قتالاً شديداً حتى أمسى ثم رجع إلى ريدة سالماً غانماً لم يُقتل من أصحابه أحد، وأمر في الصباح بقطع رؤوس المقتولين وحملها إلى صعدة ونجران."
+  en: "Abu Ziyad and Sa'sa'a with their men were routed to a village in al-Bawn called al-Ghayl, a strong fort where their camp was; al-Hadi followed and fought them hard until evening and returned to Raydah safe and with spoil, none of his companions killed, and in the morning ordered the heads of the slain cut off and carried to Sa'da and Najran."
+  ur: "ابو زیاد اور صعصعہ اپنے ساتھیوں سمیت شکست کھا کر البون کی ایک بستی الغیل پہنچے جو مضبوط قلعہ تھا اور وہیں ان کا کیمپ تھا؛ ہادی نے ان کا پیچھا کر کے شام تک سخت جنگ کی، پھر سلامتی اور مال غنیمت کے ساتھ ریدہ لوٹے، ان کے ساتھیوں میں سے کوئی نہ مارا گیا، اور صبح مقتولین کے سر کاٹ کر صعدہ اور نجران بھیجنے کا حکم دیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-05~"
+    hijri: "0288-06"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "جمادى الآخرة سنة 288هـ؛ آخر الشهر بحسب خبر الصفحات المضافة عن ريدة؛ لا يُذكر يوم؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/al-ghayl-al-bawn-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/sasaa-ibn-jafar-al-hamdani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/qudumis
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص224 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 224

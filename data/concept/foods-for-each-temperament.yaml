@@ -1,0 +1,18 @@
+id: concept/foods-for-each-temperament
+class: concept
+kind: scientific
+label: { ar: "الأغذية بحسب المزاج عند ابن سينا", en: "Foods for each temperament in the Canon", ur: "مزاج کے مطابق غذائیں" }
+summary:
+  ar: "يوجز ابن سينا حاجة أصحاب الأمزجة من الغذاء: السوداوي إلى مرطب كثير مسخن قليل، والصفراوي إلى ما يرطب ويبرد، ومن يتولد فيه دم حار إلى أغذية باردة قليلة الغذاء، ومن يتولد فيه دم بلغمي إلى أغذية قليلة الغذاء فيها سخونة وتلطيف {cite:canon-ibn-sina-print-v1 p.229}."
+  en: "Ibn Sina sets out in brief what each humoral type needs of food: the melancholic much moistening and a little warming, the bilious what moistens and cools, one whose blood is hot cold foods of little nourishment, and one whose blood is phlegmatic foods of little nourishment with warmth and attenuation {cite:canon-ibn-sina-print-v1 p.229}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 2 on the common regimen of adults, chapter 7 on the management of food (scan pages 227 to 236), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p227
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

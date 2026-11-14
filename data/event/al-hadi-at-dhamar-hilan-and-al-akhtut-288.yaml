@@ -1,0 +1,59 @@
+id: event/al-hadi-at-dhamar-hilan-and-al-akhtut-288
+class: event
+label:
+  ar: "الهادي بذمار وأهل حيلان والأخطوط، ربيع الأول 288هـ"
+  en: "Al-Hadi at Dhamar, the people of Hilan and al-Akhtut, Rabi I 288 AH"
+  ur: "ہادی ذمار، اہل حیلان اور الاخطوط میں، ربیع الاول 288ھ"
+summary:
+  ar: "ينزل الهادي ذمار فيجمع أهل مخاليفها ويعظهم ويقيم أياماً حتى أصلح الله البلد بحسب الراوي، ويأتيه أهل حيلان فيوجه معهم محمداً البلخي من أصحابه، ثم يولي ذمار إبراهيم بن جعفر الفطيمي وينزل الأخطوط وكان فاسداً بإقامة إبراهيم بن خلف فيه، فيخرج منه كثيرون، ويقيم أياماً ثم يرحل إلى منكث."
+  en: "Al-Hadi halts at Dhamar, gathers the people of its districts and preaches, and stays some days until, in the narrator's words, God set the town right; the people of Hilan come and he sends with them a companion, Muhammad al-Balkhi; he puts Ibrahim ibn Jafar al-Futayimi over Dhamar and goes to al-Akhtut, a place the narrator calls corrupt because Ibrahim ibn Khalaf had lived there, from which many leave on his arrival, and after some days goes on to Mankath."
+  ur: "ہادی ذمار اترتے ہیں، اس کے اضلاع کے لوگوں کو جمع کر کے نصیحت کرتے ہیں اور راوی کے الفاظ میں اللہ کے شہر کو درست کرنے تک چند دن رہتے ہیں؛ اہل حیلان آتے ہیں تو ان کے ساتھ اپنے ساتھی محمد بلخی کو بھیجتے ہیں؛ پھر ابراہیم بن جعفر فطیمی کو ذمار کا والی بنا کر الاخطوط اترتے ہیں جسے راوی ابراہیم بن خلف کے وہاں رہنے کی وجہ سے فاسد کہتا ہے، ان کے آنے پر بہت سے لوگ وہاں سے نکل جاتے ہیں، اور چند دن رہ کر وہ منکث کی طرف روانہ ہوتے ہیں۔"
+kind: other
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-02"
+    hijri: "0288-03"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ربيع الأول سنة 288هـ بنص الكتاب؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/dhamar
+- type: occurred_at
+  target: place/al-akhtut-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-jafar-al-futayimi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص212-213 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-25
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 212-213

@@ -1,0 +1,15 @@
+---
+id: event/al-hadi-enters-sanaa-a-second-time-after-leaving-shibam-288
+lang: ur
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## خلاصہ
+اصل کے حاشیے کا عنوان یہ ہے: ہادی کا شبام سے نکلنے کے بعد دوسری بار صنعاء میں داخل ہونا {cite:sira-hadi-ila-al-haqq p.225}۔ وہ بہترین حال میں صنعاء میں داخل ہوئے اور ان کے ساتھیوں میں سے کوئی نہ مارا گیا سوائے ایک عقیلی شخص کے جس کے پیٹ میں نیزہ لگا {cite:sira-hadi-ila-al-haqq p.225}۔ جملہ ص225 کے آخر میں ٹوٹ جاتا ہے اور ص226 پر اس شخص کی موت اور لوگوں کے اس تعجب میں جاری رہتا ہے کہ ہادی اور ان کے ساتھی کم ہوتے ہوئے کتنے ثابت قدم رہے، جو اس حصے سے باہر ہے {cite:sira-hadi-ila-al-haqq p.225}۔
+
+## تفصیل
+یہ [[event/al-hadi-entry-into-sanaa-288|پہلے داخلے]] کے بعد دوسرا داخلہ ہے اور [[event/al-hadi-routs-al-yafur-and-al-tarif-before-sanaa-288]] کے بعد آتا ہے۔ [[event/battle-of-al-rahba-288]] کہتا ہے کہ ہادی 288ھ میں رجب کے آخری دنوں میں ایک جمعے کو صنعاء میں داخل ہوئے، اور یہاں ص226 کا متن اسی سال کا صرف جمعہ بتاتا ہے؛ عجائب گھر اسے غالباً وہی داخلہ سمجھتا ہے مگر دعویٰ نہیں کرتا۔ عقیلی کا نام نہیں دیا گیا۔ عنوان اصل کے حاشیے کا ہے یعنی ناسخ کا۔
+
+
+## مزید دیکھیے
+[[event/the-people-wonder-at-al-hadis-steadfastness-and-his-prayer-in-battle-288|ص226 پر جملے کا باقی حصہ: لوگ ہادی کے صبر پر حیران]]۔

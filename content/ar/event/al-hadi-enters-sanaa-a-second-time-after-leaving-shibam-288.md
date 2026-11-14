@@ -1,0 +1,15 @@
+---
+id: event/al-hadi-enters-sanaa-a-second-time-after-leaving-shibam-288
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+جاء في العنوان بحاشية الأصل: دخول الهادي إلى صنعاء المرة الثانية بعد خروجه من شبام {cite:sira-hadi-ila-al-haqq p.225}. فدخل [[place/sanaa|صنعاء]] بأحسن حال، لم يُقتل من أصحابه إلا رجل عقيلي طُعن طعنة في بطنه {cite:sira-hadi-ila-al-haqq p.225}. وتنقطع الجملة في أسفل ص225 وتتصل في ص226 بقتل الرجل، وتعجب الناس من صبر الهادي وأصحابه مع قلتهم، وذلك خارج هذا القسم {cite:sira-hadi-ila-al-haqq p.225}.
+
+## تفصيل
+هذه الدخلة الثانية بعد [[event/al-hadi-entry-into-sanaa-288|الدخول الأول]]، وتأتي بعد [[event/al-hadi-routs-al-yafur-and-al-tarif-before-sanaa-288]]. ويذكر [[event/battle-of-al-rahba-288]] أن الهادي دخل صنعاء يوم الجمعة لأيام بقيت من رجب سنة 288هـ، ويقول النص هنا في ص226 إنه يوم الجمعة من السنة نفسها دون الشهر؛ ويرى المتحف أن الأرجح أنهما دخول واحد، ولا يجزم. والعقيلي لا يُسمّى. والعنوان من حاشية الأصل أي من الناسخ.
+
+
+## انظر أيضاً
+[[event/the-people-wonder-at-al-hadis-steadfastness-and-his-prayer-in-battle-288|تتمة الجملة في ص226: الناس يعجبون من صبر الهادي]].

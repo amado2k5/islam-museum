@@ -1,0 +1,77 @@
+id: event/al-hadi-jails-the-jaafir-at-mankath-and-sends-governors-from-jayshan-288
+class: event
+label:
+  ar: "الهادي يحبس الجعافر بمنكث ويوجه العمال من جيشان، ربيع الأول 288هـ"
+  en: "Al-Hadi jails the Ja'afir at Mankath, Abu al-Ushayra joins him and he sends governors from Jayshan, Rabi I 288 AH"
+  ur: "ہادی منکث میں جعافر کو قید کرتے ہیں، ابو العشیرہ ان سے آ ملتے ہیں اور وہ جیشان سے عامل بھیجتے ہیں، ربیع الاول 288ھ"
+summary:
+  ar: "يخبر أبو العتاهية الهادي وهو بمنكث أن جماعة من الجعافر عزموا على إثارة فتنة في العسكر، فيأمر بجمعهم وإرسالهم إلى صنعاء ليُحبسوا في الحديد فينفذ عبد الله بن الحسين ذلك، ثم يقدم أبو العشيرة بن الروية بعسكر كثيف ويولي الهادي منكث عبد الله بن الحسين الفطيمي، وينزل جيشان ثلاثة أيام ويوجه علي بن در إلى عدن ويخلف أبا عبد الله الرازي."
+  en: "At Mankath Abu al-Atahiya tells al-Hadi that a body of the Ja'afir have resolved to stir sedition in the army; al-Hadi has them all gathered and sent to Sana'a to be held in irons, and Abdullah ibn al-Husayn carries it out; Abu al-Ushayra ibn al-Ruwayya arrives with a dense army, al-Hadi puts Abdullah ibn al-Husayn al-Futayimi over Mankath, halts three days at Jayshan, sends Ali ibn Dirr to Aden and leaves Abu Abd Allah al-Razi behind."
+  ur: "منکث میں ابو العتاہیہ ہادی کو بتاتے ہیں کہ جعافر کی ایک جماعت نے لشکر میں فتنہ اٹھانے کا ارادہ کیا ہے؛ ہادی ان سب کو جمع کر کے صنعاء بھیجنے کا حکم دیتے ہیں تاکہ وہ بیڑیوں میں قید رہیں اور عبد اللہ بن حسین اس پر عمل کرتے ہیں؛ ابو العشیرہ ابن الرویہ گھنے لشکر کے ساتھ آتے ہیں، ہادی عبد اللہ بن حسین فطیمی کو منکث کا والی بناتے ہیں، جیشان میں تین دن ٹھہرتے ہیں، علی بن درّ کو عدن بھیجتے ہیں اور ابو عبد اللہ رازی کو وہاں چھوڑتے ہیں۔"
+kind: other
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-02"
+    hijri: "0288-03"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ربيع الأول سنة 288هـ بنص الكتاب؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/mankath-yemen
+- type: occurred_at
+  target: place/jayshan-yemen
+- type: occurred_at
+  target: place/aden
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-futayimi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-ushayra-ibn-al-ruwayya
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-dirr-governor-of-aden-288
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-abd-allah-al-razi-of-jayshan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص214 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-25
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 214

@@ -12,3 +12,6 @@ The narrator says al-Hadi had held their hands back from what was not due and fo
 
 ## The course of events
 Al-Hadi had climbed Jabal Bayt Dhukhar and left [[person/muhammad-ibn-abbad-al-tamimi|Muhammad ibn Abbad]] as deputy at Shibam; the opponents entered Shibam and he was killed, in Jumada II 288 AH. Al-Hadi came down from the mountain and drove them off, they fled, and he entered Shibam and buried Ibn Abbad. {cite:sira-hadi-ila-al-haqq p.19} See also [[group/banu-yafur|Al Ya'fur]].
+
+## See also
+The same episode is told at greater length in [[event/the-qudumis-enter-shibam-break-the-prison-and-ibn-abi-abbad-is-killed-288]] and [[event/abu-al-atahiya-and-ibn-al-daam-rout-the-qudumis-and-al-hadi-buries-ibn-abi-abbad-288]] {cite:sira-hadi-ila-al-haqq p.218} {cite:sira-hadi-ila-al-haqq p.219}; the museum does not reconcile the two tellings.

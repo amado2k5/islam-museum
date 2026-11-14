@@ -1,0 +1,59 @@
+id: event/the-raid-on-the-gate-of-sanaa-during-the-fitr-sermon-and-the-sortie-to-alab-288
+class: event
+kind: other
+label:
+  ar: "الإغارة على باب صنعاء أثناء خطبة الفطر وخروج الهادي إلى علب، شوال 288هـ"
+  en: "The raid on the gate of Sana'a during the Fitr sermon and al-Hadi's sortie to Alab, Shawwal 288 AH"
+  ur: "عید الفطر کے خطبے کے دوران صنعاء کے دروازے پر حملہ اور ہادی کی علب کی طرف مہم، شوال 288ھ"
+summary:
+  ar: "أقام الهادي بصنعاء شهر رمضان، فلما كان يوم الفطر خرج إلى المصلى وفيما هو يخطب أغار القوم بخيلهم على باب صنعاء، فأمر أبا العتاهية فخرج في الخيل وطردهم؛ وفي الجمعة الثانية للفطر خرج بعسكره وجعل جيشاً يطلع على من بنقم وسار بالخيل إلى علب لمقابلة أهل بيت بوس."
+  en: "Al-Hadi stayed in Sana'a through Ramadan, and on the day of the Fitr he went out to the prayer place; while he was preaching the men raided the gate of Sana'a with their horse, and he ordered Abu al-Atahiya to ride out and he drove them off; on the second Friday after the Fitr he went out with his army, sent a force up against those at Nuqm and rode with the horse to Alab to face the people of Bayt Bus."
+  ur: "ہادی نے رمضان صنعاء میں گزارا، عید الفطر کے دن وہ عیدگاہ گئے اور جب خطبہ دے رہے تھے تو مخالفوں نے اپنے سواروں کے ساتھ صنعاء کے دروازے پر حملہ کیا؛ انہوں نے ابو العتاہیہ کو حکم دیا تو وہ سواروں کے ساتھ نکلے اور انہیں بھگا دیا؛ فطر کے بعد دوسرے جمعے کو وہ اپنے لشکر کے ساتھ نکلے، ایک دستہ نقم پر چڑھایا اور سواروں کے ساتھ بیت بوس والوں کے مقابل علب گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-09"
+    hijri: "0288-10"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شوال سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/alab-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص231-232 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 231-232
