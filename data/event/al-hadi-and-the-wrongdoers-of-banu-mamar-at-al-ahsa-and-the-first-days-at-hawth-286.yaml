@@ -1,0 +1,69 @@
+id: event/al-hadi-and-the-wrongdoers-of-banu-mamar-at-al-ahsa-and-the-first-days-at-hawth-286
+class: event
+kind: other
+label:
+  ar: الهادي وجماعة من بني معمر المفسدين بالأحساء وأول أيامه بحوث، رجب 286هـ
+  en: Al-Hadi and the wrongdoers among Banu Ma'mar at al-Ahsa, and his first days at Hawth, Rajab 286 AH
+  ur: الاحساء میں بنو معمر کے مفسدین کے ساتھ ہادی اور حوث میں ان کے پہلے دن، رجب 286ھ
+summary:
+  ar: بعد وصوله خيوان خرج الهادي يوم السبت إلى موضع لبني معمر يقال له الأحساء، بسبب جماعة من بني معمر وقعت بينهم جراح قبل خروجه إلى نجران وصلح ابنه أبو القاسم بينهم وكتب عليهم الدية، ثم عادوا إلى الإفساد وقطع الطريق. فنزل حوث وأرسل إليهم رسلاً يدعونهم يومي السبت والاثنين فقالوا إنهم يصيرون إلى أبي القاسم ثم إلى الهادي بخيوان، فرفض وأرسل الصارخ في بني ربيعة وبني صريم، وحبسه الغيث بحوث.
+  en: After reaching Khiwan al-Hadi left on Saturday for a place of Banu Ma'mar called al-Ahsa, because of a group of them who had wounded one another before he went to Najran, whom his son Abu al-Qasim had reconciled, writing the blood-money on them, and who then went back to disorder and highway robbery. He camped at Hawth and sent messengers on Saturday and Monday; they answered that they would go to Abu al-Qasim and meet him at Khiwan, which he refused, sending the crier among Banu Rabi'a and Banu Sarim; rain kept him at Hawth.
+  ur: خیوان پہنچنے کے بعد ہادی ہفتے کے دن بنو معمر کے ایک مقام الاحساء کی طرف نکلے، ان میں سے ایک جماعت کے سبب جن کے درمیان نجران جانے سے پہلے زخم پہنچے تھے، جن میں ان کے بیٹے ابو القاسم نے صلح کرائی اور دیت لکھی، پھر وہ فساد اور راہزنی کی طرف لوٹ گئے۔ وہ حوث میں اترے اور ہفتے اور پیر کو قاصد بھیجے؛ انہوں نے کہا کہ وہ ابو القاسم کے پاس جائیں گے اور خیوان میں ان سے ملیں گے، جسے انہوں نے رد کیا اور بنو ربیعہ اور بنو صریم میں منادی بھیجا؛ بارش نے انہیں حوث میں روکے رکھا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-07
+    hijri: 0286-07
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: أواخر رجب سنة 286هـ بحسب السياق بعد وصول الهادي خيوان في الثامن عشر منه؛ الأيام المذكورة لا تُحسب يوماً بعينه، فالتاريخ بدقة الشهر وقد يمتد إلى أوائل شعبان؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/al-ahsa-banu-mamar-yemen
+- type: occurred_at
+  target: place/hawth-yemen
+- type: occurred_at
+  target: place/khiwan
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-mamar-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-rabia-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-sarim-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص134-135 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-17
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 134-135
