@@ -16,9 +16,10 @@ died: { edtf: "1760~", calendar: gregorian, precision: year, derived: true, note
 relations:
   - { type: born_in, target: place/fier, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q190897)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q936312
+  viaf: "91045405"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

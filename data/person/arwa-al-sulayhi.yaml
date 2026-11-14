@@ -17,9 +17,10 @@ born: { edtf: "1048", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1138", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Umara al-Yamani Confirmed on 13 November 2026 against Wikidata Q444206 (P570, a statement with a reference), item revision 2548029113.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/dhu-jibla, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
-sources: [source/al-aalam, source/alam-al-nisa-kahhala-risala-1984-v1]
+sources: [source/al-aalam, source/alam-al-nisa-kahhala-risala-1984-v1, source/wikidata]
 external_ids:
   wikidata: Q444206
+  viaf: "55313078"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

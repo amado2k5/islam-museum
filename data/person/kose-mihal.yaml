@@ -13,9 +13,10 @@ regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q1796711
+  viaf: "12039938"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

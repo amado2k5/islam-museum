@@ -37,11 +37,11 @@ faith:
     basis: documented
     note: "Recorded as his current affiliation; his Druze birth is background, stated here, not the value. He was born into a Druze family (English article; its short description calls him a Druze prince). The English article, citing William L. Cleveland's biography Islam Against the West (1985, p. 49), states that he later converted to Sunni Islam, 'establishing himself as an orthodox Muslim serving the interests of Sunni Islam' — a personal attestation from an independent scholarly biography. The Urdu article, citing an Arabic biography of Arslan, states independently that he worshipped in the manner of Ahl al-Sunnah; the Arabic article's infobox gives his sect as Ahl al-Sunna wa-l-Jama'a and describes him as formerly Druze, and Wikidata carries both Islam and Druze values. The museum's faith enum has no druze value; the recorded value is the documented current affiliation."
     sources: [source/wikipedia-shakib-arslan-en, source/wikipedia-shakib-arslan-ur, source/wikipedia-shakib-arslan-ar, source/wikidata-shakib-arslan]
-external_ids: { wikidata: "Q2474371" }
+external_ids: { wikidata: "Q2474371", viaf: "73935498" }
 relations:
   - { type: born_in, target: place/choueifat, sources: [source/wikidata-shakib-arslan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2477243)" }
   - { type: died_in, target: place/bayrut, sources: [source/wikidata-shakib-arslan], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3820)" }
-sources: [source/wikipedia-shakib-arslan-en, source/wikipedia-shakib-arslan-ar, source/wikipedia-shakib-arslan-ur, source/wikidata-shakib-arslan]
+sources: [source/wikipedia-shakib-arslan-en, source/wikipedia-shakib-arslan-ar, source/wikipedia-shakib-arslan-ur, source/wikidata-shakib-arslan, source/wikidata]
 provenance:
   layer: own-research
   source: "English, Arabic and Urdu Wikipedia and Wikidata Q2474371, each read at the revision recorded in its source file and checked on 26 October 2026"

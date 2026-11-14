@@ -15,9 +15,10 @@ died: { edtf: "1294", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/urmia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q179665)" }
   - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q980179
+  viaf: "42492777"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

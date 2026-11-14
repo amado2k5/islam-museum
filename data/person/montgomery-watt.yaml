@@ -14,9 +14,10 @@ periods: [period/modern-era]
 died: { edtf: "2006", precision: year, status: tradition, derived: true }
 relations:
   - { type: died_in, target: place/edinburgh, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q23436)" }
-sources: [source/watt-1956-medina]
+sources: [source/watt-1956-medina, source/wikidata]
 external_ids:
   wikidata: Q471167
+  viaf: "108266459"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

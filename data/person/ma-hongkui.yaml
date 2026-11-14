@@ -43,8 +43,8 @@ faith:
 relations:
   - { type: born_in, target: place/gansu, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh, source/wikidata-ma-hongkui] }
   - { type: child_of, target: person/ma-fuxiang, sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh] }
-external_ids: { wikidata: "Q715070" }
-sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh, source/wikidata-ma-hongkui]
+external_ids: { wikidata: "Q715070", viaf: "6354729" }
+sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh, source/wikidata-ma-hongkui, source/wikidata]
 status: { review: published }
 provenance:
   layer: own-research

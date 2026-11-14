@@ -40,12 +40,14 @@ faith:
     sources: [source/wikipedia-ullubay-buynaksky-en, source/wikipedia-ullubay-buynaksky-ru, source/wikidata-ullubay-buynaksky]
 external_ids:
   wikidata: Q4098474
+  viaf: "19532067"
 relations:
   - { type: died_in, target: place/makhachkala, sources: [source/wikidata-ullubay-buynaksky], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5168)" }
 sources:
   - source/wikipedia-ullubay-buynaksky-en
   - source/wikipedia-ullubay-buynaksky-ru
   - source/wikidata-ullubay-buynaksky
+  - source/wikidata
 status: { review: published }
 provenance:
   layer: own-research

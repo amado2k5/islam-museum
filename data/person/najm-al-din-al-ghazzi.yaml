@@ -15,9 +15,10 @@ born: { edtf: "1570", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1651", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Ghazzi); Khulasat al-Athar" }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q1963394
+  viaf: "50597046"
 provenance:
   layer: own-research
   source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.7 p.62)"

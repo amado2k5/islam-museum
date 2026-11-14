@@ -53,6 +53,7 @@ wings:
 - people
 external_ids:
   wikidata: Q444072
+  viaf: "55741902"
 relations:
   - { type: born_in, target: place/krugersdorp, sources: [source/wikidata-yusuf-dadoo], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q644506)" }
   - { type: died_in, target: place/london, sources: [source/wikidata-yusuf-dadoo], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q84)" }
@@ -60,6 +61,7 @@ relations:
 sources:
 - source/wikipedia-yusuf-dadoo-en
 - source/wikidata-yusuf-dadoo
+- source/wikidata
 provenance:
   layer: own-research
   source: English Wikipedia and Wikidata Q444072, consulted directly 26 Oct 2026

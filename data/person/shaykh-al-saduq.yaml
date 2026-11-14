@@ -18,9 +18,10 @@ died: { edtf: "991", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: born_in, target: place/qumm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q170573)" }
   - { type: died_in, target: place/rayy, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q636188)" }
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/wikidata]
 external_ids:
   wikidata: Q2743660
+  viaf: "90043815"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"

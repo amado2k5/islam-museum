@@ -14,10 +14,11 @@ periods: [period/colonial-era]
 died: { edtf: "1888", precision: year, status: tradition, derived: true }
 relations:
   - { type: died_in, target: place/zanzibar-islands, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/nomisma]
+sources: [source/al-aalam, source/nomisma, source/wikidata]
 external_ids:
   wikidata: Q703018
   nomisma: "barghash_b_sa'id"
+  viaf: "48978011"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

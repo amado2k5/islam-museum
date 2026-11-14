@@ -30,8 +30,8 @@ faith:
     sources: [source/wikipedia-nuh-ha-mim-keller-en, source/wikipedia-nuh-ha-mim-keller-ar]
 relations:
   - { type: lived_in, target: place/amman, sources: [source/wikipedia-nuh-ha-mim-keller-en, source/wikipedia-nuh-ha-mim-keller-ar, source/wikipedia-nuh-ha-mim-keller-ur] }
-external_ids: { wikidata: "Q1702471" }
-sources: [source/wikipedia-nuh-ha-mim-keller-en, source/wikipedia-nuh-ha-mim-keller-ar, source/wikipedia-nuh-ha-mim-keller-ur, source/wikidata-nuh-ha-mim-keller]
+external_ids: { wikidata: "Q1702471", viaf: "49097795" }
+sources: [source/wikipedia-nuh-ha-mim-keller-en, source/wikipedia-nuh-ha-mim-keller-ar, source/wikipedia-nuh-ha-mim-keller-ur, source/wikidata-nuh-ha-mim-keller, source/wikidata]
 provenance:
   layer: own-research
   source: "English, Arabic and Urdu Wikipedia articles on Nuh Ha Mim Keller, each fetched by its recorded revision id (EN 1367613334, AR 76983384, UR 11483457) with the returned id asserted equal before use, and Wikidata item Q1702471 (revision 2512296671). Existence checks by name fragments (Keller, Nuh Ha Mim, نوح كلر, کیلر) and by QID across data/person and data/source found no prior record. One source conflict is disclosed: the Arabic article says he converted to Islam while studying Arabic at al-Azhar in Egypt, while the English article, citing Hamid (2015), dates his conversion from Roman Catholicism to 1977 during his American studies; the English account is followed in prose. His teacher Abd al-Rahman al-Shaghouri has no record, so no student_of edge is written; his Amman residence, where he established a zawiya in the early 2000s, is written as lived_in to place/amman, which exists. The lane queue gives 1954–living; the sources agree."

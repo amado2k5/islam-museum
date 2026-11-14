@@ -50,7 +50,7 @@ faith:
       for him in any text, his faith is recorded as unknown.
     sources: [source/wikipedia-muhammad-kudarat-en, source/wikipedia-muhammad-kudarat-ar, source/wikipedia-muhammad-kudarat-id, source/wikidata-muhammad-kudarat]
 
-external_ids: { wikidata: "Q1668453" }
+external_ids: { wikidata: "Q1668453", viaf: "5727174817773933910001" }
 
 relations:
   - { type: born_in, target: place/maguindanao, sources: [source/wikidata-muhammad-kudarat], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q13845)" }
@@ -59,6 +59,7 @@ sources:
   - source/wikipedia-muhammad-kudarat-ar
   - source/wikipedia-muhammad-kudarat-id
   - source/wikidata-muhammad-kudarat
+  - source/wikidata
 
 provenance:
   layer: own-research

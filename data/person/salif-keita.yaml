@@ -26,10 +26,10 @@ faith:
     basis: unknown
     note: "The only religious statement in any source is family background: the English Wikipedia article says he was 'raised in a Muslim family' and 'went to an Islamic school where he was influenced by his Qur'an teacher's singing'. Family background and schooling never count as an attestation of a person's own school. The French and Arabic articles state no religion for him, and Wikidata (Q313318) carries no religion claim at all; no source names a school for Keita himself. Under the two-source rule and the doubt rule his faith is recorded as unknown."
     sources: [source/wikipedia-salif-keita-en, source/wikipedia-salif-keita-fr, source/wikipedia-salif-keita-ar, source/wikidata-salif-keita]
-external_ids: { wikidata: "Q313318" }
+external_ids: { wikidata: "Q313318", viaf: "85382135" }
 relations:
   - { type: born_in, target: place/mali, sources: [source/wikidata-salif-keita], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q912)" }
-sources: [source/wikipedia-salif-keita-en, source/wikipedia-salif-keita-fr, source/wikipedia-salif-keita-ar, source/wikidata-salif-keita]
+sources: [source/wikipedia-salif-keita-en, source/wikipedia-salif-keita-fr, source/wikipedia-salif-keita-ar, source/wikidata-salif-keita, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Salif Keita' (revision 1371757390 of 28 August 2026), French Wikipedia 'Salif Keïta (musicien)' (revision 239981968 of 1 October 2026), Arabic Wikipedia «سالف كيتا» (revision 75203511 of 8 June 2026), and Wikidata Q313318 read through the Wikidata API, all checked 25 October 2026. No earlier record existed in data/person/ under any spelling; this is a new build, not an enrichment. Caution recorded: the Arabic article «ساليف كيتا» (with a long vowel) is Salif Keïta the footballer (1946–2023, Wikidata Q964530), a different man, and nothing from it is used here. The French article dates Soro to 1986 where the English article dates the breakthrough album to 1987, and the Arabic article dates his move to Bamako to 1968 where the English article has him leave Djoliba in 1967; both disagreements are stated in the prose rather than merged."

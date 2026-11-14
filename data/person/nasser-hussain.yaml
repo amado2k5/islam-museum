@@ -24,10 +24,10 @@ faith:
     basis: unknown
     note: "NOT RECORDED AS DOCUMENTED — the Shia attestation traces to a single source family and is not corroborated. Attestations in full: the current English article says only that he was born in Madras into a Muslim family — family background, which does not count. An older revision of that same English article, preserved in mirrors of it (TheFreeDictionary's encyclopedia copy and low-quality biography sites copying it), worded the sentence as 'born in Madras, India as a Shia Muslim'; those copies are one Wikipedia source family, not independent sources, and the current article no longer carries the wording. No independent reputable source naming a school for him, and no supportive context for a Twelver mapping, was found. Under the two-source rule, the Shia-mapping rule and the founder's doubt rule the value stays unknown."
     sources: [source/wikipedia-nasser-hussain-en, source/wikidata-nasser-hussain]
-external_ids: { wikidata: "Q3520174" }
+external_ids: { wikidata: "Q3520174", viaf: "49140706" }
 relations:
   - { type: born_in, target: place/chennai, sources: [source/wikidata-nasser-hussain], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1352)" }
-sources: [source/wikipedia-nasser-hussain-en, source/wikipedia-nasser-hussain-ar, source/wikipedia-nasser-hussain-ur, source/wikidata-nasser-hussain]
+sources: [source/wikipedia-nasser-hussain-en, source/wikipedia-nasser-hussain-ar, source/wikipedia-nasser-hussain-ur, source/wikidata-nasser-hussain, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Nasser Hussain', read in full on 25 October 2026; Arabic Wikipedia «ناصر حسين (لاعب كريكت)» and Urdu Wikipedia «ناصر حسین (کرکٹ کھلاڑی)», read on 25 October 2026 — both are short stubs and the Arabic stub misattributes his county cricket, so county and career facts rest on the English article; Wikidata Q3520174 verified from the English article's wikibase_item (Q3520174) returned by the Wikipedia API pageprops query on 25 October 2026 (the Wikidata site itself is unreachable from this machine). This record is for the English cricketer Nasser Hussain (born 1968), not the Indian rugby union player of the same name and not Nasir Hossain. No earlier record for him existed in data/person/ under nasser-hussain or any other spelling checked; this is a new build, not an enrichment."

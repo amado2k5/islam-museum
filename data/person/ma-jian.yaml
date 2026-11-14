@@ -49,8 +49,8 @@ relations:
   - { type: student_of, target: person/ha-decheng, sources: [source/wikipedia-ha-decheng-zh, source/wikipedia-ma-jian-zh] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-ma-jian-en, source/wikipedia-ma-jian-zh] }
   - { type: traveled_to, target: place/mecca, sources: [source/wikipedia-ma-jian-en] }
-external_ids: { wikidata: "Q2474573" }
-sources: [source/wikipedia-ma-jian-en, source/wikipedia-ma-jian-zh, source/wikipedia-ma-jian-ar, source/wikipedia-ma-jian-ur, source/wikidata-ma-jian]
+external_ids: { wikidata: "Q2474573", viaf: "31696508" }
+sources: [source/wikipedia-ma-jian-en, source/wikipedia-ma-jian-zh, source/wikipedia-ma-jian-ar, source/wikipedia-ma-jian-ur, source/wikidata-ma-jian, source/wikidata]
 status: { review: published }
 provenance:
   layer: own-research

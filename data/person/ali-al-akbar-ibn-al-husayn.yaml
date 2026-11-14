@@ -17,8 +17,8 @@ died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: child_of, target: person/husayn-ibn-ali }
   - { type: died_in, target: place/karbala }
-external_ids: { wikidata: "Q4115052" }
-sources: [source/al-bidaya-wal-nihaya]
+external_ids: { wikidata: "Q4115052", viaf: "36780642" }
+sources: [source/al-bidaya-wal-nihaya, source/wikidata]
 provenance:
   layer: own-research
   source: "wikidata-import deferred Q4115052; Bidaya 61 AH 'awlad al-Husayn Ali al-Akbar wa-Abd Allah' verified in OCR (line 20826)"

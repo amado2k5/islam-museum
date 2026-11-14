@@ -17,9 +17,10 @@ relations:
   - { type: born_in, target: place/serres, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/mokro, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/sarajevo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q453455
+  viaf: "11758183"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

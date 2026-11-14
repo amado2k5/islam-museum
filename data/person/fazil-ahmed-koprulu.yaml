@@ -15,8 +15,8 @@ regions: [anatolia-balkans]
 relations:
   - { type: lived_in, target: place/vienna, confidence: low, note: "Associated with فيينا per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: child_of, target: person/koprulu-mehmed-pasha, sources: [source/dawlat-uthmaniyya-salabi] }
-external_ids: { wikidata: "Q510679" }
-sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q510679", viaf: "28488413" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 307-308"

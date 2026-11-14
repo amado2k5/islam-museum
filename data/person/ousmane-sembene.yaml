@@ -34,13 +34,13 @@ faith:
     basis: unknown
     note: "No source fetched names a religious school for Sembène, and the sources describe his religious position in ways that do not settle it. The English article records that through his mother he descended from a Serer family and as a child was made a 'cult servant' in the Serer Tuur festival — a role it says he did not take seriously — and that he attended a madrasa 'as was common for many Muslim boys'; it also records his membership of the Communist Party in Marseille, lists 'the failings of religion' among his recurrent themes, and reports that Ceddo was censored in Senegal amid readings of it as anti-Muslim. The same article records that he was buried in a shroud adorned with Qur'anic verses, and the Arabic article places his burial at Yoff. Family milieu, childhood schooling, party membership, the themes of his work and burial custom are not attestations of a school; under the lane's two-source rule his faith is recorded as unknown, and each reported position is carried attributed in the prose."
     sources: [source/wikipedia-ousmane-sembene-en, source/wikipedia-ousmane-sembene-ar]
-external_ids: { wikidata: "Q314966" }
+external_ids: { wikidata: "Q314966", viaf: "7397012" }
 relations:
   - { type: born_in, target: place/ziguinchor, sources: [source/wikidata-ousmane-sembene], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q202776)" }
   - { type: died_in, target: place/dakar, sources: [source/wikidata-ousmane-sembene], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3718)" }
   - { type: buried_in, target: place/yoff, sources: [source/wikidata-ousmane-sembene], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q3098136)" }
   - { type: lived_in, target: place/senegal, sources: [source/wikidata-ousmane-sembene], confidence: low, note: "Wikidata P937 work location (Wikidata Q1041)" }
-sources: [source/wikipedia-ousmane-sembene-en, source/wikipedia-ousmane-sembene-ar, source/wikipedia-ousmane-sembene-ur, source/wikidata-ousmane-sembene, source/britannica-ousmane-sembene]
+sources: [source/wikipedia-ousmane-sembene-en, source/wikipedia-ousmane-sembene-ar, source/wikipedia-ousmane-sembene-ur, source/wikidata-ousmane-sembene, source/britannica-ousmane-sembene, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Ousmane Sembène' (revision 1371381496), Arabic Wikipedia «عثمان سيمبين» (revision 75250723), Urdu Wikipedia «عثمان سیمبین» (revision 11720467), Wikidata Q314966 (confirmed via the Wikidata API: human, born 1 January 1923 at Ziguinchor, died 9 June 2007 at Dakar, no religion statement) and Encyclopaedia Britannica's entry 'Ousmane Sembène', checked 24 October 2026"

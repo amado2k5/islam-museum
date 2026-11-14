@@ -17,9 +17,10 @@ died: { edtf: "1765", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/diriyah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q277505)" }
   - { type: buried_in, target: place/al-oud-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4165313)" }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q1319659
+  viaf: "78360252"
 provenance:
   layer: own-research
   source: "Wikidata Q1319659 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"

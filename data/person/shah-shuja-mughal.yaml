@@ -15,9 +15,10 @@ born: { edtf: "1616", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1661", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q1645415 (P570, a statement with a reference), item revision 2568365323.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/ajmer, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q200049)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q1645415
+  viaf: "8146030485435860561"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

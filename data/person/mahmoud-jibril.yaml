@@ -39,8 +39,8 @@ faith:
 relations:
   - { type: born_in, target: place/al-bayda, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-jibril] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-mahmoud-jibril-en, source/wikipedia-mahmoud-jibril-ar] }
-external_ids: { wikidata: "Q296724" }
-sources: [source/wikipedia-mahmoud-jibril-en, source/wikipedia-mahmoud-jibril-ar, source/wikidata-mahmoud-jibril]
+external_ids: { wikidata: "Q296724", viaf: "88428087" }
+sources: [source/wikipedia-mahmoud-jibril-en, source/wikipedia-mahmoud-jibril-ar, source/wikidata-mahmoud-jibril, source/wikidata]
 provenance:
   layer: own-research
   source: "English and Arabic Wikipedia articles on Mahmoud Jibril, each fetched by its recorded revision id (EN 1381940297, AR 76479747) with the returned id asserted equal before use, and Wikidata item Q296724 (revision 2554105864, read twice with identical revisions), the QID grounded through the English article's pageprops. No Urdu article exists; the Urdu prose cites the English and Arabic articles and says so. Existence checks by Latin and Arabic name fragments (Jibril, جبريل, Warfally, الورفلي), by grounded QID across data/person, and by biography found no prior record — the other Jibril records in the graph are earlier namesakes and the angel. His interim premiership's predecessor and successor (Baghdadi Mahmudi; Ali Tarhouni acting) are prose only per block practice and have no records in any case. No founder_of or member_of edge is written for the National Forces Alliance or the National Transitional Council: neither group entity exists."

@@ -16,8 +16,8 @@ died: { edtf: "940", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-external_ids: { wikidata: "Q974105" }
-sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim]
+external_ids: { wikidata: "Q974105", viaf: "290896636" }
+sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/wikidata]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 8", sources: [source/tabari-tarikh-abu-al-fadl] }
 importance: 2
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }

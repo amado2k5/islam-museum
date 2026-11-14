@@ -15,9 +15,10 @@ died: { edtf: "1646", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
   - { type: died_in, target: place/iqritish, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q34374)" }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q1295082
+  viaf: "205709698"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

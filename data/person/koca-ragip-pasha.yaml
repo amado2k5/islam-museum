@@ -14,9 +14,10 @@ periods: [period/gunpowder-empires]
 died: { edtf: "1763", precision: year, status: tradition, derived: true }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q1584321
+  viaf: "31876500"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

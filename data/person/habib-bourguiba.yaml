@@ -42,12 +42,13 @@ relations:
   - { type: buried_in, target: place/monastir, sources: [source/wikipedia-habib-bourguiba-en] }
 wings: [people]
 regions: [maghreb]
-external_ids: { wikidata: "Q643348" }
+external_ids: { wikidata: "Q643348", viaf: "51700583" }
 sources:
   - source/wikipedia-habib-bourguiba-en
   - source/wikipedia-habib-bourguiba-ar
   - source/wikipedia-habib-bourguiba-ur
   - source/wikidata-habib-bourguiba
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Habib Bourguiba in English (revision 1380905603 of 18 Oct 2026), Arabic (revision 76945470 of 11 Oct 2026) and Urdu (revision 9466271 of 7 Mar 2026) and the Wikidata item Q643348 (item revision 2559733542 of 22 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q643348). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge is written: the articles attest that the presidency was a new office proclaimed with the republic on 25 July 1957, before which he served as prime minister under King Muhammad VIII al-Amin, so there is no predecessor in the same office; Muhammad VIII has no person record in any case. No member_of edge is written: the museum has no group entity for the Destour, the Neo Destour or the Socialist Destourian Party."

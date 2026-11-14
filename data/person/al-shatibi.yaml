@@ -14,8 +14,8 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch50
-external_ids: { wikidata: "Q2621743" }
-sources: [source/wafayat-ayan]
+external_ids: { wikidata: "Q2621743", viaf: "88033962" }
+sources: [source/wafayat-ayan, source/wikidata]
 status: { review: published, completeness: 3 }
 relations:
   - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }

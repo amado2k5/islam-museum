@@ -44,8 +44,8 @@ relations:
   - { type: member_of, target: group/barmakids, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: child_of, target: person/yahya-ibn-khalid-al-barmaki, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: participated_in, target: event/killing-of-jafar-and-the-barmakids, role: "سُجن في النكبة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
-external_ids: { wikidata: "Q1965143" }
-sources: [source/tarikh-dawla-abbasiyya-taqqush, source/tdv-kagit, source/tdv-bermekiler, source/iranica-paper-i]
+external_ids: { wikidata: "Q1965143", viaf: "284971050" }
+sources: [source/tarikh-dawla-abbasiyya-taqqush, source/tdv-kagit, source/tdv-bermekiler, source/iranica-paper-i, source/wikidata]
 provenance:
   layer: own-research
   source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 98، 100"

@@ -25,9 +25,10 @@ relations:
   - { type: student_of, target: person/ali-al-muttaqi-hindi, sources: [source/jam-wasail-thesis-qwayfili] }
   - { type: authored, target: work/jam-wasail-shamail, sources: [source/jam-wasail-thesis-qwayfili] }
   - { type: authored, target: work/mirqat-al-mafatih, sources: [source/jam-wasail-thesis-qwayfili] }
-sources: [source/al-aalam, source/jam-wasail-thesis-qwayfili]
+sources: [source/al-aalam, source/jam-wasail-thesis-qwayfili, source/wikidata]
 external_ids:
   wikidata: Q2836379
+  viaf: "35255422"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

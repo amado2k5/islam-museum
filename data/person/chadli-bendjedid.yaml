@@ -41,11 +41,12 @@ relations:
   - { type: buried_in, target: place/algiers, sources: [source/wikipedia-chadli-bendjedid-en] }
 wings: [people]
 regions: [maghreb]
-external_ids: { wikidata: "Q314688" }
+external_ids: { wikidata: "Q314688", viaf: "24683125" }
 sources:
   - source/wikipedia-chadli-bendjedid-en
   - source/wikipedia-chadli-bendjedid-ar
   - source/wikidata-chadli-bendjedid
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Chadli Bendjedid in English (revision 1379367609 of 9 Oct 2026) and Arabic (revision 76687349 of 23 Sep 2026) and the Wikidata item Q314688 (item revision 2557835953 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (both editions agree on Q314688). No Urdu Wikipedia article on him exists; several spellings were searched on 27 October 2026 and all were missing, so the Urdu prose is written from the English and Arabic articles and says so. Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge is written: both infoboxes name Rabah Bitat, expressly marked interim, as his predecessor as president (Bitat acted as head of state from Boumédiène's death on 27 December 1978 until Bendjedid took office on 9 February 1979), and an interim holder defeats a direct edge (the Sufi Abu Taleb precedent); Bitat also has no record in the museum."

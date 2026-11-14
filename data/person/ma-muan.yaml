@@ -15,9 +15,10 @@ born: { edtf: "1611~", precision: year, status: tradition, derived: true }
 died: { edtf: "1684~", precision: year, status: tradition, derived: true }
 relations:
   - { type: lived_in, target: place/china, confidence: low, note: "Associated with الصين per the record's own text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q439339
+  viaf: "172701388"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"
