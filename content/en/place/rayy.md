@@ -17,3 +17,6 @@ Rayy, an ancient city near today's Tehran, one of Persia's greatest cities in th
 
 ## For Scholars
 Rayy, an ancient city near today's Tehran, one of Persia's greatest cities in the Abbasid era, and the home of the physician Abu Bakr al-Razi. Golius says Rayy lies on a level plain against a smooth mountain, a day's journey northwest of Qumis, and that Umar ibn al-Khattab subdued it in 13 AH per the text. Yaqut transmits that fighting between the Shafi'is and Hanafis ruined the city in 617 AH. And Golius says Abu Bakr Muhammad ibn Zakariya al-Razi was born in Rayy and died there in 311 AH.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Rhaga(i)/Europos/Arsakia/Ray» (Pleiades no. 903104), classed as settlement, with activity attested from 750 BCE to 640 CE. Among its recorded names are «Rhagai», «Europos» and «Arsakia». Pleiades describes Rhagai, now the city of Rey in Iran, as an important settlement of the Medes that declined after the Mongol invasions. {cite:pleiades 903104}
