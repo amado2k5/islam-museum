@@ -6,23 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن خليل القاوقجي، خطيب طرابلس الشام ومن علمائها؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Khalil al-Qawuqji, the khatib and scholar of Tripoli; his entry is not yet checked on the page."
+  ar: "محمد بن خليل بن إبراهيم القاوقجي، أبو المحاسن، عالم بالحديث وفقيه حنفي من أهل طرابلس الشام، كان مسند بلاد الشام في عصره، وله نحو مئة كتاب؛ ١٢٢٤ إلى ١٣٠٥هـ الموافقة ١٨٠٩ إلى ١٨٨٨م."
+  en: "Muhammad ibn Khalil ibn Ibrahim al-Qawuqji, Abu al-Mahasin, a scholar of hadith and Hanafi jurist of Tripoli in Syria, regarded as the foremost holder of chains of transmission in the Levant of his time, author of about a hundred books; 1224 to 1305 AH, equal to 1809 to 1888 CE."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
 died: { edtf: "1888", precision: year, status: tradition, derived: true }
+born: { edtf: "1809", calendar: gregorian, precision: year, derived: true, note: "From the A'lam entry, converted from the Hijri year it gives", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/tripoli-al-sham, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168954)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q105344243
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

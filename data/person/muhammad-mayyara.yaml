@@ -1,30 +1,56 @@
 id: person/muhammad-mayyara
 class: person
 label:
-  ar: "محمد ميارة"
-  en: "Muhammad Mayyara"
-roles: [scholar]
+  ar: محمد ميارة
+  en: Muhammad Mayyara
+roles:
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد ميارة، فقيه مغربي القرن السابع عشر صاحب الدر الثمين، توفي سنة ١٦٦٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Mayyara, the seventeenth-century Moroccan jurist author of al-Durr al-Thamin, d. 1662; the biographical entry is not yet checked on the page."
-wings: [people]
-regions: [maghreb]
-periods: [period/gunpowder-empires]
-born: { edtf: "1591", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Safwat man Intashar)" }
-died: { edtf: "1662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Safwat man Intashar) Confirmed on 13 November 2026 against Wikidata Q6732986 (P570, a statement with a reference), item revision 2566398843.", sources: [source/wikidata] }
+  ar: محمد بن أحمد بن محمد، أبو عبد الله، ميارة، فقيه مالكي من أهل فاس، صاحب الدر الثمين؛ ٩٩٩ إلى ١٠٧٢هـ.
+  en: Muhammad ibn Ahmad ibn Muhammad, Abu Abd Allah, Mayyara, a Maliki jurist of Fes and author of al-Durr al-Thamin; 999 to 1072 AH.
+wings:
+- people
+regions:
+- maghreb
+periods:
+- period/gunpowder-empires
+born:
+  edtf: '1590'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: From the A'lam entry, given as AH = CE (al-Zirikli, al-A'lam, vol. 5 p. 290).
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+died:
+  edtf: '1662'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: al-Ifrani (Safwat man Intashar) Confirmed on 13 November 2026 against Wikidata Q6732986 (P570, a statement with a reference), item revision 2566398843.'
+  sources:
+  - source/wikidata
 relations:
-  - { type: born_in, target: place/fes, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80985)" }
-sources: [source/al-aalam, source/wikidata]
+- type: born_in
+  target: place/fes
+  sources:
+  - source/wikidata
+  confidence: medium
+  note: Wikidata P19 place of birth (Wikidata Q80985)
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q6732986
-  viaf: "12156658"
+  viaf: '12156658'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0063
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

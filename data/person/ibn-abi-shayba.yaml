@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي بكر عبد الله بن محمد بن أبي شيبة الكوفي، الحافظ صاحب «المصنف» و«المسند»، توفي سنة ٨٤٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Bakr Abd Allah ibn Muhammad ibn Abi Shayba al-Kufi, the hadith master author of the Musannaf and the Musnad, d. 849; the biographical entry is not yet checked on the page."
+  ar: "عبد الله بن محمد بن أبي شيبة العبسي مولاهم الكوفي، أبو بكر، حافظ للحديث، له المسند والمصنف في الأحاديث والآثار والإيمان والزكاة؛ ١٥٩ إلى ٢٣٥هـ الموافقة ٧٧٦ إلى ٨٤٩م."
+  en: "Abd Allah ibn Muhammad ibn Abi Shayba al-Absi, by clientage, al-Kufi, Abu Bakr, a hadith memoriser, author of the Musnad, the Musannaf on hadiths and reports, and books on faith and on zakat; 159 to 235 AH, equal to 776 to 849 CE."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
@@ -17,16 +17,16 @@ died: { edtf: "849", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/wafayat-ayan, source/wikidata]
+sources: [source/wafayat-ayan, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6532914
   viaf: "20010618"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn Khallikan, Wafayat al-A'yan — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0016
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

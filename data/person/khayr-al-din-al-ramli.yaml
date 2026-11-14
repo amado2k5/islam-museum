@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لخير الدين بن أحمد الرملي، فقيه الرملة الحنفي صاحب «الفتاوى الخيرية» في القرن السابع عشر، توفي سنة ١٦٧١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Khayr al-Din ibn Ahmad al-Ramli, the seventeenth-century Hanafi jurist of Ramla author of al-Fatawa al-Khayriyya, d. 1671; the biographical entry is not yet checked on the page."
+  ar: "خير الدين بن أحمد بن علي الأيوبي العليمي الفاروقي، فقيه باحث له نظم، من أهل الرملة بفلسطين، ولد فيها ومات، صاحب الفتاوى الخيرية؛ ٩٩٣ إلى ١٠٨١هـ الموافقة ١٥٨٥ إلى ١٦٧١م."
+  en: "Khayr al-Din ibn Ahmad ibn Ali al-Ayyubi al-Alimi al-Faruqi, a jurist and researcher who also composed verse, of Ramla in Palestine, where he was born and died, author of al-Fatawa al-Khayriyya; 993 to 1081 AH, equal to 1585 to 1671 CE."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
@@ -15,16 +15,16 @@ born: { edtf: "1585", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1671", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q6401098 (P570, a statement with a reference), item revision 2566394025.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/ramla, confidence: low, note: "Associated with الرملة per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6401098
   viaf: "90076304"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0043
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
