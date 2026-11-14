@@ -3235,6 +3235,16 @@ Resume point: min-kunuz-al-sunnah episode 23 (branch from origin/main).
 
 Resume point: min-kunuz-al-sunnah episode 24 (branch from origin/main).
 
+### alwaad-alhaq ep06 (14 Nov 2026)
+
+18 points written for episode 6 (ar, en, ur); 17 needs_source marks for this episode in each language file; edges to short measure, zakat and trust. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Unsourced statistics (30,000 Qur'ans, 84 and 150 followers, ten billion trees, 59 and 41 per cent) kept only with needs_source marks | ep06 00:27:00 to 00:52:00 | no source given for the figures | needs_source | Open |
+| Unintelligible stretches (00:16:30, 00:37:00, 00:44:00 to 00:44:30) | ep06 00:16:30 | transcript looped or unintelligible, no claim can be checked | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 7 (branch from origin/main).
 ### min-kunuz-al-sunnah ep24 (14 Nov 2026)
 
 14 points written for episode 24 (ar, en, ur); 10 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (4-148); none typed. Contested: He holds that lying is permitted in three cases (to please a wife, in war, to reconcile people) and gives his own readings of Ibrahim's three statements and of what counts as war; these are his views, and scholars discuss the scope of the three exceptions.
