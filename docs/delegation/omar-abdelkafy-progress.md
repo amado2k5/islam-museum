@@ -3507,3 +3507,25 @@ Resume point: sharh-saheeh-al-bukhare episode 5 (branch from origin/main).
 | Fine detail of the earlier bullets that the transcript does not support (the order of belief in Paradise and the Fire, the pairing of fear and hope, a link to the verse on gratitude, the claim that mercy and gentleness bring hearts close) | ep05 00:33:30, 00:56:30-00:57:30, 01:00:30-01:03:00, 01:07:30-01:09:00 | Not clearly supported by the transcript | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 6 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep06 (14 Nov 2026)
+
+28 points written for episode 6 (ar, en, ur); 16 needs_source marks in each language file for this episode; 23 new `about` edges. No Quran verses linked; none typed. Contested: His rulings and advice on purity, the urine of infants, ghusl, the awra, slaughter methods abroad, sleeping arrangements of children, oaths and obedience to parents in marriage matters are his own views, and the claim about slaughter methods in Europe, America and Australia is a sweeping statement without a source. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, greetings and long opening prayer (with a looping line) | ep06 00:00:00-00:03:00 | Greetings and closing-style prayer, loops | Clarity, Loop check | Open |
+| Asides on smoking, health and a dog-saliva experiment, a story of a dog and a fox-like tale | ep06 00:07:00-00:12:30 and 00:16:30-00:18:00 | Garbled and unsupported claims, loops of repeated letters | Clarity, Loop check | Open |
+| Story of al-Walid and a description of the Qur'an, and a story about Ahmad's writing | ep06 00:14:00-00:14:30 and 00:21:00-00:22:00 | Garbled, names unreliable | Clarity | Open |
+| Collective hypocrisy tied to jihad, a hadith about the Jews and stones, music remarks | ep06 00:23:00-00:25:00 | Sweeping claim about a group and modern conflict, garbled | Content rule / Voice rule | Open |
+| Family stories on fathers, daughters and inheritance, and a note on the elderly | ep06 00:26:00-00:27:30 and 00:28:30-00:29:30 | Sweeping generalisations, garbled, loop at 00:29:30 | Voice rule / Clarity, Loop check | Open |
+| Loops of repeated words and a parable of the poets, with contentment story | ep06 00:37:00-00:37:30, 00:39:30-00:40:30, 00:42:00-00:45:30, 00:47:00-00:47:30 | Garbled stretches and loops | Clarity, Loop check | Open |
+| Cleaning of babies and a note on a woman's period, and prayer times | ep06 00:52:30-00:53:00 and 00:56:30-00:58:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Stretch on Muslims abroad and political groups, bombing remarks and aid | ep06 01:01:00-01:02:00 | A stretch dropped under the content-safety block | Content rule | Open |
+| Eating etiquette number (31 kinds), a woman's awra, footwear and sleeping asides | ep06 01:03:30-01:04:00 and 01:05:30-01:08:30 | Number without source, garbled loops, ruling too garbled | Clarity, Loop check | Open |
+| Stretch on helping Muslims under foreign rule, a payment to kill a person, mosques and minarets in France, statistics on converts | ep06 01:11:00-01:14:00 | A stretch dropped under the content-safety block, sweeping claims about peoples and modern conflict | Content rule / Voice rule | Open |
+| Visiting tombs, a school story, loops of "ya akhi" | ep06 01:15:30-01:19:30 | Garbled and loops | Clarity, Loop check | Open |
+| Break join, request to start Q&A before the Isha prayer, tribute to a deceased teacher and appeal for unity | ep06 01:20:00-01:22:30 | Greeting and closing remarks, garbled | Clarity | Open |
+| Q&A on Friday prayer for a groom, inheritance in banks, a son visiting his mother, and the closing advertisement | ep06 01:22:30-01:23:30 and 01:24:00-01:24:30 and 01:25:30 | Garbled rulings, closing words | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 7 (branch from origin/main).
