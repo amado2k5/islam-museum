@@ -14,6 +14,9 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v1.30.1 — 2026-11-14
+### Added
+- **Yaqut's Mu'jam al-Buldan now speaks on seven more place pages (packet 68).** Cordoba, Adhruh, Raydah, Harasta, Samasta, Haditha (of the Euphrates) and Sabalan each gain an Arabic, English and Urdu section summarising Yaqut's entry, cited to the Dar Sader volume and page. Cordoba, Harasta and Haditha get their first prose page. Three cards (Oman, al-Sayla, al-Miyanij) were skipped because Yaqut's headword is a different or unclear place; they are logged for outside research.
+
 ### Fixed
 - **Eight published person cards now say which prose is AI text awaiting a human read.** Alqama ibn Abada, Talha ibn Tahir, Taha al-Jibrini, Talha ibn Musarrif, Tannus al-Shidyaq, Tawwaf ibn Ghallaq, Zafir al-Sukkari and Zahir al-Umar keep their published status, and each gets an `ai_unread` note for the al-A'lam sections added on 14 November 2026. Leftover merge-conflict markers in the web-sources progress file were removed with both sides kept.
 - **Eight person cards corrected against al-Zirikli's al-A'lam and Wikidata (Lane B corrections, packet corr-p2).** Muhammad ibn Mustafa al-Bakri now carries his own dates (1143 to 1196 AH, 1731 to 1782; Jerusalem and Gaza) instead of his father's, Arabzade and Jafar ibn Ulba al-Harithi gain sourced dates (919 to 969 AH; d. 145 AH), Abd al-Haqq al-Dihlawi records al-A'lam's one-year difference, Abd Allah ibn Yusuf is named al-Tinnisi with his death in 218 AH from Shadharat al-Dhahab, the Omani poet Ahmad ibn al-Nadr takes 655 to 690 AH from Arabic Wikipedia and Wikidata (kept apart from al-Naysaburi), the physician Ibrahim ibn Abdallah loses an impossible tenth-century date (now sixteenth century, century precision), and the Ibn al-Daya card records an unresolved conflict between sources. Why it matters: a wrong date or a merged identity misleads every reader of the card.
