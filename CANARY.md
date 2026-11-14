@@ -25,6 +25,7 @@ open a new block on top with the new version and today's date.
 - **Canon of Medicine, bones section (scan pp. 40 to 55): twelve new concept records in Arabic, English and Urdu.** Bones in general, joints, the skull, cranial sutures, jaws and nose, teeth, the spine, neck vertebrae, chest and lumbar vertebrae, sacrum and coccyx, ribs and sternum, shoulder and arm bones, each read page by page from Ibn Sina's text and cited to the printed volume. Drafts awaiting a human read.
 - **Nomisma links added to twenty-one dynasties and two houses.** The Seljuk, Rum Seljuk, Buyid, Hamdanid, Ghurid, Hafsid, Marinid, Idrisid, Tulunid, Zand, Saadi, Alawi and eleven other dynasties, with the Nasrid and Sasanian houses, now carry their Nomisma concept, matched through the shared Wikidata number and a shared name. Dynasties whose Wikidata number maps to several concepts were left alone (decision dec-20261114-277).
 - **Lane ledger for the Shamela reading lane.** `docs/delegation/web-sources-progress.md` records the trust criteria for reading shamela.ws, how Siyar A'lam al-Nubala is laid out there, and the first persons skipped with the reason; no entity changed.
+- **Pleiades is registered as a source, and twenty-five places carry its identifier.** Sufetula, Nineveh, Ephesus, Sidon, Aphrodisias, Yazd, Nazareth, Thermopylae and seventeen more places now link to their Pleiades record, chosen only where its point lies within 1.5 km of ours and its title equals our name (decision dec-20261114-277).
 
 ## v1.30.0 — 2026-11-14
 ### Added
