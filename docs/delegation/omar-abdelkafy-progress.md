@@ -4134,3 +4134,18 @@ Resume point: alwaad-alhaq episode 22 (branch from origin/main).
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep25 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 26 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep26 (14 Nov 2026)
+
+27 points written for episode 26 (ar, en, ur); 19 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (3-81, 4-163, 42-13); none typed. Contested: His views on the imam's pause and the Fatiha, on white and black lies, on the Hanafi and Shafii positions and on verifying hadiths are his own; the stories (Aisha's closed hand, the Hijra exchange, the mother's grave, Halima, al-Shayma, Zaynab's necklace, the cloak in the grave) are told without a chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening and closing prayers, break joins | ep26 00:00:00-00:04:00, 01:19:30 | Not substantive | Content rule | Open |
+| Loops (repeated words) | ep26 00:02:30-00:03:00, 00:09:30, 00:14:30, 00:34:30, 00:50:30, 01:01:00, 01:07:00 | Loops | Clarity, Loop check | Open |
+| Long stretches of garbled ASR, mixed dialect, no recoverable argument | ep26 00:11:30-01:01:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Stretches on rulings, prayer, peoples and politics, unclear | ep26 00:40:30-00:47:30, 01:16:30-01:19:00 | Garbled, sweeping or unclear claims | Voice rule, Clarity | Open |
+| A stretch dropped under the content-safety block | ep26 00:02:00-00:03:30 | Dropped under the content-safety block | Content rule | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep26 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 27 (branch from origin/main).
