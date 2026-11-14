@@ -1,0 +1,41 @@
+id: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+class: person
+label:
+  ar: أبو جعفر محمد بن عبيد الله العباسي
+  en: Abu Jafar Muhammad ibn Ubaydallah al-Abbasi
+  ur: ابو جعفر محمد بن عبید اللہ عباسی
+summary:
+  ar: والد علي بن محمد راوي «سيرة الهادي إلى الحق»، من أوائل من قبلوا دعوة الهادي قبل خروجه إلى اليمن ورافقوه إليها، وتصفه صفحة الافتتاح بالعالم الحبر وبأنه قُتل بنجران.
+  en: Father of Ali ibn Muhammad, the narrator of Sirat al-Hadi ila al-Haqq; among the first to accept al-Hadi's call before he left for Yemen, he went there with him, and the opening page calls him a great scholar and says he died a martyr at Najran.
+  ur: «سیرت الہادی الی الحق» کے راوی علی بن محمد کے والد؛ ہادی کے یمن جانے سے پہلے ان کی دعوت قبول کرنے والے اولین لوگوں میں سے، ان کے ساتھ یمن گئے؛ آغاز کا صفحہ انہیں عالم حبر کہتا ہے اور نجران میں شہید۔
+gender: male
+roles:
+- scholar
+wings:
+- people
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: allied_with
+  target: person/al-hadi-yahya-al-rassi
+  sources: &id001
+  - source/sira-hadi-ila-al-haqq
+  note: من أوائل من قبلوا دعوته ورافقوه إلى اليمن
+- type: died_in
+  target: place/najran
+  sources: *id001
+  note: قُتل في وقائع نجران بحسب الكتاب
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، مقدمة المحقق وصفحة الافتتاح، ص5-16'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar

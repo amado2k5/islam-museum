@@ -1,0 +1,42 @@
+id: person/suhayl-zakkar
+class: person
+label:
+  ar: سهيل زكار
+  en: Suhayl Zakkar
+  ur: سہیل زکار
+summary:
+  ar: محقق في التاريخ الإسلامي، محقق «سيرة الهادي إلى الحق»، نال الدكتوراة في التاريخ الإسلامي ثم وجد المخطوط في مكتبة علي أميري بإسطنبول سنة 1969م ونشره في بيروت عن دار الفكر.
+  en: 'Scholar of Islamic history, editor of Sirat al-Hadi ila al-Haqq: after his doctorate in Islamic history he found the manuscript in the Ali Amiri library in Istanbul in 1969 and published the edition in Beirut with Dar al-Fikr.'
+  ur: اسلامی تاریخ کے محقق، «سیرت الہادی الی الحق» کے مرتب؛ اسلامی تاریخ میں ڈاکٹریٹ کے بعد انہوں نے 1969ء میں استنبول کے علی امیری کتب خانے میں مخطوطہ پایا اور بیروت میں دار الفکر سے شائع کیا۔
+gender: male
+roles:
+- historian
+- scholar
+wings:
+- people
+periods:
+- period/contemporary-era
+regions:
+- arab-world
+relations:
+- type: related_to
+  target: work/sira-hadi-ila-al-haqq
+  sources: &id001
+  - source/sira-hadi-ila-al-haqq
+  note: محقق الكتاب وناشره
+- type: traveled_to
+  target: place/istanbul
+  sources: *id001
+  note: خريف 1969م، وهو في طريق العودة من لندن إلى دمشق
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، مقدمة المحقق وصفحة الافتتاح، ص5-16'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar
