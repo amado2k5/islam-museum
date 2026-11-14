@@ -3,27 +3,30 @@ class: person
 label:
   ar: "علي علاء الدين الآلوسي"
   en: "Ali Alaa al-Din al-Alusi"
-roles: [scholar]
+roles: [scholar, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلي علاء الدين الآلوسي، العالم والشاعر البغدادي ابن صاحب روح المعاني؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ali Alaa al-Din al-Alusi, the Baghdadi scholar and poet, son of the author of Ruh al-Ma'ani; his entry is not yet checked on the page."
+  ar: "علي بن نعمان بن محمود الآلوسي، علاء الدين، قاض فاضل من أهل بغداد، تخرج بمدرسة القضاة بالآستانة وولي القضاء في عدة مدن وانتخب مبعوثاً عن بغداد، مؤلف «الدر المنتثر في رجال القرن الثاني عشر والثالث عشر»، توفي سنة 1340 هـ."
+  en: "Ali ibn Nu'man ibn Mahmud al-Alusi, Ala al-Din, a learned judge of Baghdad, graduate of the school of judges in Istanbul, judge in several towns and deputy for Baghdad in the Ottoman parliament, author of al-Durr al-Muntathir on the scholars of the 12th and 13th centuries AH; died 1340 AH (1921)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-died: { edtf: "1921", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+born: { edtf: "1861", hijri: "1277", calendar: gregorian, precision: year, note: "al-Zirikli, al-A'lam, vol. 5 p. 29, prints 1277 AH = 1861 CE", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1921", hijri: "1340", precision: year, status: tradition, derived: true, note: "al-Zirikli, al-A'lam, vol. 5 p. 29, prints 1340 AH = 1921 CE, agreeing with the card", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: "Q12228150"
   viaf: "46974058"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 relations:
-  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (الآلوسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name ⁦(الآلوسي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 5 p. 29: from the people of Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 5 p. 29: his death was in Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

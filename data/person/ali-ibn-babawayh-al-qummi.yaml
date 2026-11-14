@@ -6,23 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلي بن الحسين بن بابويه القمي، فقيه قم وأبو الشيخ الصدوق في القرن العاشر؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ali ibn al-Husayn ibn Babawayh al-Qummi, the tenth-century jurist of Qum and father of al-Shaykh al-Saduq; the biographical entry is not yet checked on the page."
+  ar: "علي بن الحسين بن موسى بن بابويه، أبو الحسن القمي، شيخ الإماميين بقم في عصره بحسب الزركلي، مولده ووفاته بقم سنة 329 هـ، له كتب في التوحيد والإمامة والتفسير ورسالة في الشرائع."
+  en: "Ali ibn al-Husayn ibn Musa ibn Babawayh, Abu al-Hasan al-Qummi, called by al-Zirikli the shaykh of the Imamis (Twelver Shia) in Qum in his time; born and died in Qum in 329 AH (941); author of books on divine unity, the imamate and exegesis and a treatise on the laws."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4725313
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0042
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "941", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi / al-A'lam Confirmed on 13 November 2026 against Wikidata Q4725313 (P570, a statement with a reference), item revision 2550433323.", sources: [source/wikidata] }
+  completeness: 3
+died: { edtf: "941", hijri: "0329", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi / al-A'lam Confirmed on 13 November 2026 against Wikidata Q4725313 (P570, a statement with a reference), item revision 2550433323. al-A'lam vol. 4 p. 277 prints 329 AH = 941 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name (القمي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name ⁦(القمي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/qumm, note: "al-Zirikli, al-A'lam, vol. 4 p. 277: his birth and death were in Qum", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/qumm, note: "al-Zirikli, al-A'lam, vol. 4 p. 277: his birth and death were in Qum", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

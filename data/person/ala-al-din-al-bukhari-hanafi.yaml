@@ -6,26 +6,26 @@ label:
 roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلاء الدين البخاري الحنفي، الفقيه المتكلم صاحب كشف الأسرار في الرد على الفلاسفة؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ala al-Din al-Bukhari the Hanafi, the jurist-theologian of Kashf al-Asrar against the philosophers; his entry is not yet checked on the page."
+  ar: "محمد بن محمد بن محمد البخاري، علاء الدين، فقيه من كبار الحنفية، ولد بإيران ونشأ ببخارى وسكن مصر ثم دمشق وتوفي بها ودفن بالمزة، ردّ على ابن عربي في «فاضحة الملحدين» ثم في «الملجمة للمجسمة»."
+  en: "Muhammad ibn Muhammad ibn Muhammad al-Bukhari, Ala al-Din, a leading Hanafi jurist, born in Iran, raised in Bukhara, settled in Egypt then Damascus where he died and was buried at al-Mizza; he wrote against Ibn Arabi in Fadihat al-Mulhidin and al-Mulajjima li-l-Mujassima."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1377", precision: year, status: tradition, derived: true }
-died: { edtf: "1437", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+born: { edtf: "1377", hijri: "0779", precision: year, status: tradition, derived: true, note: "al-Zirikli, al-A'lam, vol. 7 pp. 46-47, prints 779 AH = 1377 CE", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1437", hijri: "0841", precision: year, status: tradition, derived: true, note: "The card carries 1437; al-Zirikli, al-A'lam, vol. 7 pp. 46-47, prints 841 AH = 1438 CE (841 AH began in July 1437, so both years fall within it).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q31003843
   viaf: "4711536"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary
@@ -33,4 +33,8 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
 relations:
-  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/bukhara, note: "al-Zirikli, al-A'lam, vol. 7 pp. 46-47: raised in Bukhara", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: traveled_to, target: place/india, note: "al-Zirikli, al-A'lam, vol. 7 pp. 46-47: he travelled to India", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: traveled_to, target: place/mecca, note: "al-Zirikli, al-A'lam, vol. 7 pp. 46-47: then to Mecca", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 7 pp. 46-47: he moved to Damascus and stayed there until he died", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 7 pp. 46-47: he died in Damascus and was buried at al-Mizza", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
