@@ -1,0 +1,19 @@
+id: concept/canon-veins-of-the-leg-in-venesection
+class: concept
+kind: scientific
+label: { ar: "عروق الرجل المفصودة عند ابن سينا", en: "The veins of the leg in venesection in the Canon", ur: "قانون میں پاؤں کی کھولی جانے والی رگیں" }
+summary:
+  ar: "يذكر ابن سينا عروق الرجل التي تفصد: عرق النسا والصافن وعرق مأبض الركبة والعرق خلف العرقوب، وموضع كل منها ومنافعه في أوجاع عرق النسا والنقرس والبواسير وإدرار الطمث {cite:canon-ibn-sina-print-v1 p.297}."
+  en: "Ibn Sina names the veins of the leg that are opened, the sciatic vein, the saphena, the vein of the hollow of the knee and the vein behind the Achilles tendon, with the place of each and its uses in sciatica, gout, piles and bringing on the menses {cite:canon-ibn-sina-print-v1 p.297}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

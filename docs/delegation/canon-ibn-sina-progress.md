@@ -59,3 +59,25 @@ Open items (garbled OCR, left out of the prose):
 - p.287: the sentences on rising after vomiting ("القيام بعد القيء ... ") and on the best time in summer ("بسبب وجع هو نصف النهار") are unclear and not used; a gap in the benefits list after "القروح الكائنة في الكلى والمثانة" is skipped.
 - p.288: gaps in chapter 14 (chronic headaches) and chapter 15 (the remedy for tension and pain under the ribs, and the sentences on hiccup and on the irritation) are garbled; only the clear parts are cited.
 - p.289: the word for the warm compress in the enema paragraph ("جاوِزْس") is garbled; the prose says only "a warmed compress".
+
+## Batch scan pp. 289-299 (Fann 4, chapter 20, venesection, to its end)
+Resume: scan p.299, Fann 4, chapter 21 (cupping, "الفصل الحادي والعشرون: في الحجامة"). Fann 4 has 32 chapters; Book I is not yet finished (Fann 5 follows Fann 4).
+
+Concepts: 25 (the chapter on venesection is read whole, scan pp. 289-299, and ends on p.299 where chapter 21 begins).
+
+Open items (garbled OCR, left out of the prose):
+- p.289-290: the definition of plethora ("تزايد الأخلاط على القانون في تساويها في العروق") runs across the page break; the English and Urdu render it literally as "beyond the standard in their even presence in the vessels".
+- p.290: the sentence on venesection and colic's opening ("واعلم أن الفصد مثير إلى أن يسكن والفصد ...") and "والفصد يجذبه إلى الخلاف تحبس الطبيعة كثيراً" are garbled and not used.
+- p.291: the end of "فليفرق الفصد ... ر" (dividing the bleeding when strength is weak) is cut off; only "divide the bleeding" is cited. The gloss "الحاشا" is given as "hasha" without identification.
+- p.292-293: the remedy after needless venesection ("فليتدارك ... الشعير والسكر") and the phrases on the narrow incision ("ليو og") are garbled; not cited. "الموسومين" before "المجانين" on p.293 is unclear and left out.
+- p.293: the sentence on the lengthwise and transverse cuts for the second bleeding is partly garbled; only the clear clauses (oblique, lengthwise) are used. The lines on delay by hours ("تؤخر بمقدار ...") are garbled.
+- p.293-294: the lines on bleeding one in whom the humours predominate ("صار الفصد علة لثوران تلك الأخلاط ...") and on black-bloody blood needing successive bleeding with its sequel in old age, and on wine after venesection, are garbled and not used.
+- p.294: "ويجب في جميع الثلاثة" does not say which three veins; the concept says only "for all three". The reading of "ويعلق فصده" for the median cutaneous vein is unclear and not cited.
+- p.295: the sentences on the cephalic, median cutaneous and funis brachi regions ("والقيفال يجاوز حد ناحية الكبد ... ") are garbled and not used; the artery of the right hand is given as "on the back of the palm" because the phrase "ما بين السبابة" is cut off.
+- p.296: the first of the three matters to watch when taking blood ("حقن الدم واسترخاؤه") is unclear; only colour and pulse are cited. "الكرية" in the dressing line is not identified.
+- p.297: the forehead-vein benefit list ("وخصو ... مؤخره") and the benefits of the crown vein are partly garbled; only the clear parts are cited.
+- p.298: the direction of opening the jugular veins is contradictory on the scan ("عرضاً لا طولاً ... ومع ذلك طولاً"), so no direction is stated; "الجهاررك" (the vessels of the lips) is given without its name.
+- p.299: the sentence on bleeding "to the filling" ("بالامتلاء ... واجتهد أن تملأ") is partly garbled; the remedy for a ruined lancet tip is not cited beyond the clear clause.
+
+GEMINI: canon-veins-and-arteries-opened-and-the-six-arm-veins | Which three veins does "ويجب في جميع الثلاثة أن يفتح فوق المأبض" mean on p.294 (cephalic, median cutaneous, basilic?) | card says three veins are opened above the elbow hollow | scan names six veins and then "the three" without naming them | another edition of the Canon (Bulaq or Rome) or the page image of vol. 1 p.294
+GEMINI: canon-the-asilam-and-the-artery-of-the-hand | What follows "ما بين السبابة" on p.295 (the artery of the back of the right hand, "between the index finger and ...")? | card says artery on the back of the palm | scan breaks after "السبابة" | another edition of the Canon or the page image of vol. 1 p.295

@@ -1,0 +1,19 @@
+id: concept/canon-the-second-bleeding-and-the-night-bleeding
+class: concept
+kind: scientific
+label: { ar: "التثنية في الفصد والفصد ليلاً عند ابن سينا", en: "The second bleeding and bleeding at night in the Canon", ur: "قانون میں دوسرا فصد اور رات کا فصد" }
+summary:
+  ar: "يبين ابن سينا كيف تؤدى التثنية، وهي إعادة إسالة الدم من الشق نفسه بعد تأخير، وما يدهن به المبضع، ومنافعها وما ينبغي من النوم بين الفصد والتثنية، ويذكر أن فصد المجانين ومن يفصد ليلاً في النوم يكون ضيقاً {cite:canon-ibn-sina-print-v1 p.293}."
+  en: "Ibn Sina explains how the second bleeding is done, the renewed letting of blood from the same incision after a delay, what the lancet is oiled with, its benefits and the sleep proper between the bleeding and the second, and says that the bleeding of the mad and of those bled at night in their sleep is to be narrow {cite:canon-ibn-sina-print-v1 p.293}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

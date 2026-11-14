@@ -1,0 +1,19 @@
+id: concept/canon-weak-strength-and-the-width-of-the-incision
+class: concept
+kind: scientific
+label: { ar: "الفصد مع ضعف القوة وضيق الشق وسعته عند ابن سينا", en: "Venesection with weak strength and the width of the incision in the Canon", ur: "قانون میں کمزور قوت میں فصد اور شگاف کی تنگی اور کشادگی" }
+summary:
+  ar: "يبين ابن سينا ما يفعل إذا اضطر إلى الفصد مع ضعف القوة، ثم يقابل بين الفصد الضيق الذي يحفظ القوة والفصد الواسع الأسرع إلى الغشي والأعمل في التنقية، ويذكر ما يوافق الشتاء والصيف ووضع المفصود {cite:canon-ibn-sina-print-v1 p.291}."
+  en: "Ibn Sina says what is done when bleeding is unavoidable though strength is weak, then sets the narrow incision, which keeps strength, against the wide incision, which is quicker to bring faintness and works more in cleansing, and gives what suits winter and summer and the position of the patient {cite:canon-ibn-sina-print-v1 p.291}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

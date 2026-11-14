@@ -1,0 +1,19 @@
+id: concept/canon-how-much-blood-to-take-and-when-to-stop
+class: concept
+kind: scientific
+label: { ar: "مقدار الدم المأخوذ ومتى يحبس عند ابن سينا", en: "How much blood to take and when to stop in the Canon", ur: "قانون میں کتنا خون لیا جائے اور کب روکا جائے" }
+summary:
+  ar: "يبين ابن سينا أن لحبس الدم وقتاً محدوداً وإن اختلف، وأن الناس يختلفون في احتمال مقدار الدم، ويذكر ما يراعى من لون الدم والنبض، وما ينذر بالغشي، ومن أسرع إليه ومن أبطأ {cite:canon-ibn-sina-print-v1 p.296}."
+  en: "Ibn Sina explains that the stopping of the blood has a set time though it differs, that people differ in how much blood they bear, and gives what is watched, the colour of the blood and the pulse, what warns of faintness, and who is quick to it and who slow {cite:canon-ibn-sina-print-v1 p.296}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

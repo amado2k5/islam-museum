@@ -1,0 +1,19 @@
+id: concept/canon-bleeding-on-a-full-stomach-and-indigestion
+class: concept
+kind: scientific
+label: { ar: "الفصد على امتلاء المعدة والتخمة عند ابن سينا", en: "Bleeding on a full stomach and in indigestion in the Canon", ur: "قانون میں بھرے معدے اور بدہضمی میں فصد" }
+summary:
+  ar: "يحذر ابن سينا من الفصد على امتلاء من الطعام لئلا تنجذب مادة غير نضيجة إلى العروق، وعلى امتلاء المعدة والمعي، ويأمر باستفراغها بالقيء وبالحقنة، ويمهل صاحب التخمة إلى أن تنهضم {cite:canon-ibn-sina-print-v1 p.292}."
+  en: "Ibn Sina warns against bleeding on a fullness from food, lest unripe matter be drawn into the vessels, and on a stomach and gut full to the point of felt weight, and bids them be emptied by vomiting and by the enema, and the one with indigestion be given time until his indigestion is digested {cite:canon-ibn-sina-print-v1 p.292}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

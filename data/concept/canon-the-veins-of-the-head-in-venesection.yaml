@@ -1,0 +1,19 @@
+id: concept/canon-the-veins-of-the-head-in-venesection
+class: concept
+kind: scientific
+label: { ar: "عروق الرأس المفصودة عند ابن سينا", en: "The veins of the head in venesection in the Canon", ur: "قانون میں سر کی کھولی جانے والی رگیں" }
+summary:
+  ar: "يذكر ابن سينا أوردة الرأس المفصودة، عرق الجبهة وعرقي الصدغين وعرقي المأقين والعروق الصغار خلف الأذن، ومنافعها، وأن العروق التي في ناحية الرأس إلا الوداج تفصد مورباً، ويورد إنكار جالينوس لقول في عرقين خلف الأذنين {cite:canon-ibn-sina-print-v1 p.297}."
+  en: "Ibn Sina names the veins of the head that are opened, the vein of the forehead, the two veins of the temples, the two of the corners of the eyes and the small veins behind the ear, with their uses, says that the vessels about the head, except the jugular, are opened obliquely, and cites Galen's denial of a claim about two veins behind the ears {cite:canon-ibn-sina-print-v1 p.297}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
