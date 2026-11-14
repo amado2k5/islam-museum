@@ -3103,3 +3103,21 @@ Resume point: min-kunuz-al-sunnah episode 17 (branch from origin/main).
 | Garbled stretch about Hatim and the dropped imam story setup | ep17 00:23:00-00:23:30 | Too garbled to recover | Clarity | Open |
 
 Resume point: min-kunuz-al-sunnah episode 18 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep18 (14 Nov 2026)
+
+14 points written for episode 18 (ar, en, ur); 10 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (23-51, 19-25, 9-35); none typed. Contested: He attributes to the Prophet, without chain, the hadith of relying on God like the birds and several hadiths by sense, and tells unsourced stories (the dream of Abu Ayyub and the neighbour, the sick men, the baby in the water); the opinion on forbidden food reaching the fetus and the account of the dead neighbour in Paradise are his own readings.
+
+| Excluded (min-kunuz-al-sunnah ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting and praise, introduction of the day's hadith | ep18 00:00:00-00:01:00 | Greeting and framing, no content | Content rule | Open |
+| Break join and return (after this break, welcome back) | ep18 00:09:30-00:10:00 | Break join | Content rule | Open |
+| Break join and return | ep18 00:18:30-00:19:00 | Break join | Content rule | Open |
+| Closing remarks, request for prayers and farewell | ep18 00:28:30-00:29:00 | Closing prayer and farewell | Content rule | Open |
+| Stretch of repeated syllable (aah aah) | ep18 00:01:30-00:02:00 | Loop, nothing recoverable | Clarity, Loop check | Open |
+| Stretch of repeated phrase (that which that which) | ep18 00:16:00-00:16:30 | Loop, mid-sentence fragment on the day of reckoning, not recoverable | Clarity, Loop check | Open |
+| Garbled report about green birds and Hamza | ep18 00:12:00-00:12:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Sweeping claim that the West set up means and reached what it reached, so the Muslim lands must not neglect them | ep18 00:12:00-00:12:30 | Sweeping claim about peoples | Voice rule | Open |
+| Garbled stock-market and blood-pressure figures | ep18 00:27:00-00:27:30 | Numbers garbled, not clearly supported | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 19 (branch from origin/main).
