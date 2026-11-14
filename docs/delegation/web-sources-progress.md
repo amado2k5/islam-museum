@@ -1279,3 +1279,8 @@ GEMINI: place/al-aqaba, packet 65 — card is Jordan's Red Sea port (Ayla); Yaqu
 GEMINI: place/bari, packet 65 — card is Bari in Italy; Yaqut's Bari (1 p.321) is a village of Kalwadha near Baghdad; skipped.
 GEMINI: place/lamta, packet 65 — card cites al-Idrisi (a desert city near Kabul/Multan) but coordinates point to Tunisia; Yaqut's Lamta (5 p.23) is a Berber tribe and land in the far Maghrib; identity unclear, skipped; Idrisi's Lamta passage would settle it.
 >>>>>>> origin/main
+GEMINI: place/al-shuaybiyya, packet 67 — card is a Basra estate (Futuh al-Buldan) with coordinates in the Hijaz coast; Yaqut (3 p.351) has al-Shu'aybiyya as a water of Banu Numayr in the valley of al-Harim and al-Shu'aybah as a Hijaz port; neither is Basra; skipped.
+GEMINI: place/ghawr, packet 67 — card text is Herat/Sijistan (Ghur) but coordinates are the Jordan valley; Yaqut (4 p.217-218) has both al-Ghawr (Jordan) and Ghur (between Herat and Ghazna); one card cannot be both; skipped.
+GEMINI: place/al-ghubayb-yemen, packet 67 — card is a place in Yemen (al-Hadi, 286 AH); Yaqut's Ghubayb (4 p.186) is a district of al-Yamama; skipped.
+GEMINI: place/al-bayda, packet 67 — card is Al Bayda in Libya (Wikidata Q35784); Yaqut's al-Bayda entry (1 p.530-531) lists many other places and none in Cyrenaica; skipped.
+GEMINI: place/tabarmin, packet 67 — card coordinates are Termini Imerese (13.7 E) but its Idrisi text puts Tabarmin one stage from Messina (Taormina); Yaqut (4 p.17) says only a fortress in Sicily; section written, coordinate question open.
