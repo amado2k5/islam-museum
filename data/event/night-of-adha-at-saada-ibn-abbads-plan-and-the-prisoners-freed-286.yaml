@@ -1,0 +1,79 @@
+id: event/night-of-adha-at-saada-ibn-abbads-plan-and-the-prisoners-freed-286
+class: event
+kind: other
+label:
+  ar: ليلة الأضحى في صعدة، خطة ابن عباد وتهريب المحبوسين من بني الحارث، 286هـ
+  en: The night of Adha at Sa'da, Ibn Abbad's plan and the escape of the Banu al-Harith prisoners, 286 AH
+  ur: صعدہ میں عید الاضحیٰ کی رات، ابن عباد کا منصوبہ اور بنو حارث کے قیدیوں کا فرار، 286ھ
+summary:
+  ar: يرسل الهادي من نجران إلى المهرا وخولان ويكتب إلى محمد بن عبيد الله بإخراجهم، فيدس ابن عباد مبرداً إلى المحبوسين من بني الحارث بصعدة فيخرجون، ويجمع أتباعه ليلة الأضحى ليهجم على محمد بن عبيد الله ثم على الغيل، فيستعد محمد ويستنفر بني سعد ويصلي العيد رغم الناصحين، فييأس ابن عباد ويخرج المحبوسين ومنهم أبو الوجيه ويحيى ويتخلف مرزوق.
+  en: From Najran al-Hadi sends to al-Mahra and Khawlan and writes to Muhammad ibn Ubaydallah to bring them out; Ibn Abbad slips a file to the Banu al-Harith prisoners at Sa'da and they get out, and on the night of Adha he gathers followers to fall on Muhammad ibn Ubaydallah and then on al-Ghayl; Muhammad prepares, calls out Banu Sa'd and prays the Eid despite those who urged him not to, Ibn Abbad despairs and gets the prisoners out, among them Abu al-Wajih and Yahya, while Marzuq stays.
+  ur: ہادی نجران سے مہرا اور خولان کی طرف پیغام بھیجتے اور محمد بن عبید اللہ کو انہیں نکالنے کا لکھتے ہیں؛ ابن عباد صعدہ میں بنو حارث کے قیدیوں تک ایک ریتی پہنچاتا ہے اور وہ نکل جاتے ہیں، اور عید الاضحیٰ کی رات اپنے ساتھیوں کو جمع کرتا ہے کہ محمد بن عبید اللہ اور پھر الغیل پر ٹوٹ پڑے؛ محمد تیاری کرتے ہیں، بنو سعد کو بلاتے ہیں اور ناصحوں کے باوجود عید کی نماز پڑھتے ہیں، ابن عباد مایوس ہو کر قیدیوں کو نکال لیتا ہے جن میں ابو الوجیہ اور یحییٰ ہیں اور مرزوق رک جاتا ہے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899-12"
+    hijri: "0286-12"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: ليلة الأضحى سنة 286هـ بنص الكتاب أي ليلة العاشر من ذي الحجة وهو نحو 17 كانون الأول 899م جولياني بالتقويم الجدولي؛ الدقة شهرية لأن الكتاب لا يعين اليوم؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/al-ghayl-saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-abbad-al-akili
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hasan-ibn-ali-al-futaymi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-abi-hisham
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-wajih-ibn-musa-al-khushaymi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/marzuq-ibn-muhammad-al-khushaymi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص163-164 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-20
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 163-164
