@@ -6,27 +6,30 @@ translators: []
 ---
 
 ## Brief
-Air is matter: it has mass, takes up space and pushes back. Flight is a negotiation between four forces — lift up, weight down, thrust forward, drag backward.
+This lesson asks you to identify flight-related applications of the properties of air and to describe the relationships between the four forces of flight: lift, weight, thrust and drag. The museum offers the report of Ibn Firnas's attempt at flight, set beside a modern NASA Glenn account of these forces and of gliding; any other applications of air have to come from your class. {cite:ontario-science-tech-2022}
 
-## The four forces
-Lift beats weight or the craft stays down. Thrust beats drag or it stays still. Changing any one force re-balances all the others — that is the whole game of aircraft design {cite:ontario-science-tech-2022}.
+## Which forces do we name?
+Draw a kite or a paper glider and put an arrow at each of the four forces to show its direction. Which arrow can you not draw on a glider that has no engine?
+
+## Where does air show itself?
+Write three places where you can see air acting on something that moves: a bird, a falling leaf, a ball. What changes in each example if the object moves faster?
 
 ## Go deeper
-Maqqari reports that [[person/abbas-ibn-firnas|Abbas ibn Firnas]] covered himself with feathers, fitted two wings and attempted flight, suffering injury on landing: a transmitted account, not a surviving experimental log with recalculable measurements {cite:nafh-tib-maqqari v.3 p.374}. The text supplies few elements: feathers covering the body, two wings, travel in the air and an injurious landing {cite:nafh-tib-maqqari v.3 p.374}. To name the four forces, the record of the [[invention/firnas-reported-winged-flight|reported flight]] sets NASA Glenn's explanation beside the story: weight towards Earth's centre, lift perpendicular to motion through air, drag opposing motion, and thrust from propulsion in a powered aircraft {cite:nasa-glenn-gliding Forces on an Airplane}. The historical words "feathers" and "wings" provide no magnitude for these distinct forces {cite:nasa-glenn-gliding Forces on an Airplane} {cite:nafh-tib-maqqari v.3 p.374}.
+Maqqari reports that [[person/abbas-ibn-firnas|Abbas ibn Firnas]] covered himself with feathers, fitted two wings and attempted flight, suffering injury on landing {cite:nafh-tib-maqqari v.3 p.374}. NASA Glenn's guide distinguishes weight towards Earth's centre, lift perpendicular to motion through air, drag opposing motion, and thrust from propulsion in a powered aircraft; an upward movement or a wing's presence alone does not demonstrate thrust, and the historical words "feathers" and "wings" provide no magnitude for these distinct forces {cite:nasa-glenn-gliding Forces on an Airplane} {cite:nafh-tib-maqqari v.3 p.374}. The comparison explains terminology without adding an engine or measured muscular power to the account.
 
 ## Why they did it
-The museum's records preserve no sentence in which Ibn Firnas says why he attempted flight. The flight report names neither commissioner nor financier {cite:nafh-tib-maqqari v.3 p.374}. Maqqari places the flight beside timekeeping, a representation of the heavens and poetry, among stories of ingenuity rather than in a specialized flight-observation notebook {cite:nafh-tib-maqqari v.3 pp.374–375}. Hasan Ibrahim Hasan invokes an early aspiration to flight {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}.
+The record preserves no statement in which Ibn Firnas explains his purpose: the flight report names neither commissioner nor financier {cite:nafh-tib-maqqari v.3 p.374}. Maqqari places flight beside timekeeping, a representation of the heavens and poetry, among stories of ingenuity rather than in a specialized flight-observation notebook {cite:nafh-tib-maqqari v.3 pp.374–375}. Hasan Ibrahim Hasan invokes an early aspiration to flight {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}.
 
 ## Often misunderstood
-The story is sometimes told as history's first airplane. The record says it is not certification of that, and that the label "inventor" identifies the account's claimed apparatus maker, not established global priority {cite:nafh-tib-maqqari v.3 p.374}. John Lienhard supplies a year and a tower that the Arabic passage does not specify, so the record treats the year as uncertain, attributed modern chronology, not a contemporary witness date {cite:lienhard-firnas-1910 narrative and postscript} {cite:nafh-tib-maqqari v.3 p.374}.
+The account can sound like proof of history's first airplane. The record says it is not certification of that, and that the "inventor" relationship identifies the claimed maker of the reported apparatus, not established global priority {cite:nafh-tib-maqqari v.3 p.374}.
 
 ## Think about it
-The account names feathers and wings but gives no numbers. Which of the four forces could those two words tell you something about, which could they not, and what makes you say so?
+The record says the words "feathers" and "wings" provide no magnitude for lift, weight, thrust and drag {cite:nafh-tib-maqqari v.3 p.374}. If the account were all you had, which of the four forces could you say something about, which could you not, and why?
 
 ## Into the museum
-- [[person/abbas-ibn-firnas|Abbas ibn Firnas]]: what is known of his life, the crafts attributed to him, and the confusion the record warns against.
-- [[invention/firnas-reported-winged-flight|Ibn Firnas's reported winged flight]]: Maqqari's account and Hasan Ibrahim Hasan's side by side, and the explanation of the forces.
-- [[place/cordoba|Cordoba]]: the city where he grew up and studied, as Maqqari and others write of it.
+- [[person/abbas-ibn-firnas|Abbas ibn Firnas]]: his life, the crafts attributed to him, and the limits of what is known.
+- [[invention/firnas-reported-winged-flight|Ibn Firnas's reported winged flight]]: the four forces as NASA Glenn explains them, and what Maqqari and Hasan Ibrahim Hasan say.
+- [[place/cordoba|Cordoba]]: the city where he grew up and studied.
 
 ## Try this
-Blow across the top of a strip of paper held at your lip. The strip rises — moving air lowers pressure above it. That is a wing in miniature.
+In [[invention/firnas-reported-winged-flight|the record of Ibn Firnas's attempt]] you will find NASA's account of the four forces. Draw a simple paper glider on paper only, label each force on it, and write why thrust does not appear on a glider. Do not try to jump from a height or to build wings.

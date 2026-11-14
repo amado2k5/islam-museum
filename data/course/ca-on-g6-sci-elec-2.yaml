@@ -4,56 +4,37 @@ kind: lesson
 label:
   en: Current electricity and circuits
   ar: الكهرباء التيارية والدوائر
-  ur: 'جاری بجلی اور سرکٹ'
+  ur: جاری بجلی اور سرکٹ
 summary:
-  en: 'Cells, wires, switches, series and parallel: making charge go where you want, when you want.'
-  ar: 'الخلايا والأسلاك والمفاتيح والتوالي والتوازي: إيصال الشحنة حيث تريد وقتما تريد.'
-  ur: 'سیل، تاریں، سوئچ، سلسلہ وار اور متوازی: چارج کو آپ کی مرضی کی جگہ اور وقت پر پہنچانا۔'
+  en: What current electricity is and how it differs from static electricity; good conductors and insulators; the parts of a simple circuit; series and parallel circuits (C2.2, C2.3, C2.6, C2.7).
+  ar: ما الكهرباء التيارية وبمَ تختلف عن الكهرباء الساكنة؛ المواد الجيدة التوصيل والجيدة العزل؛ مكوّنات الدائرة البسيطة؛ دوائر التوالي والتوازي، التوقعات C2.2 وC2.3 وC2.6 وC2.7.
+  ur: جاری بجلی کیا ہے اور ساکن بجلی سے کیسے مختلف ہے؛ اچھے موصل اور عایق مواد؛ سادہ سرکٹ کے اجزا؛ سلسلہ وار اور متوازی سرکٹ، توقعات C2.2، C2.3، C2.6 اور C2.7۔
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-sci-electricity
 expectations:
-- code: D2.4
+- code: C2.2
   text:
-    en: Identify components of simple circuits
-    ar: Identify components of simple circuits
-    ur: 'Identify components of simple circuits'
-- code: D2.5
+    en: describe current electricity, and compare and contrast current electricity with static electricity
+    ar: صِف الكهرباء التيارية، وقارن بينها وبين الكهرباء الساكنة بيانًا للتشابه والاختلاف
+    ur: جاری بجلی بیان کریں، اور اس کا ساکن بجلی سے موازنہ کریں اور فرق واضح کریں
+- code: C2.3
   text:
-    en: Construct series and parallel circuits
-    ar: Construct series and parallel circuits
-    ur: 'Construct series and parallel circuits'
-connections:
-- position: within
-  kind: invention
-  title:
-    en: Machines that ran themselves
-    ar: آلات تدير نفسها
-    ur: 'مشینیں جو خود چلتی تھیں'
+    en: identify materials that are good conductors of electric current and materials that are good insulators
+    ar: حدِّد المواد الجيدة التوصيل للتيار الكهربائي والمواد الجيدة العزل
+    ur: برقی رو کے اچھے موصل مواد اور اچھے عایق مواد کی شناخت کریں
+- code: C2.6
   text:
-    en: Long before electric switches, the Banu Musa brothers catalogued a hundred clever devices in Kitab al-Hiyal — fountains that alternated shapes, lamps that trimmed their own wicks. Control means
-      making a mechanism respond to conditions; circuits are our era's way of doing it.
-    ar: قبل المفاتيح الكهربائية بزمن طويل، صنّف بنو موسى مئة آلة بارعة في كتاب الحيل — نوافير تتبدل أشكالها وقناديل تتهذب فتائلها بنفسها. التحكم يعني جعل الآلية تستجيب للأحوال، والدوائر طريقة عصرنا في ذلك.
-    ur: 'برقی سوئچوں سے بہت پہلے بنو موسیٰ نے کتاب الحیل میں سو چالاک آلات درج کیے — ایسے فوّارے جو شکلیں بدلتے اور چراغ جو اپنی بتی خود ترتیب دیتے۔ کنٹرول کا مطلب ہے مشینری کو حالات کے مطابق چلانا؛ سرکٹ ہمارے زمانے کا طریقہ ہے۔'
-  entity: work/kitab-al-hiyal
-  sources:
-  - source/hill-1993
-- position: within
-  kind: scholar
-  title:
-    en: The engineer who wrote it down
-    ar: المهندس الذي دوّنه
-    ur: 'انجینئر جس نے لکھ کر رکھ دیا'
+    en: explain the functions of the components of a simple electrical circuit
+    ar: اشرح وظائف مكوّنات الدائرة الكهربائية البسيطة
+    ur: سادہ برقی سرکٹ کے اجزا کے کام کی وضاحت کریں
+- code: C2.7
   text:
-    en: Al-Jazari's Book of Knowledge of Ingenious Mechanical Devices (1206) drew each machine so precisely that modern engineers rebuild them from his pages — a reminder that a good circuit diagram is
-      a gift to whoever comes next.
-    ar: رسم الجزري في كتابه «الجامع بين العلم والعمل النافع في صناعة الحيل» ⁦(1206م)⁩ كل آلة بدقة تسمح لمهندسي اليوم بإعادة بنائها من صفحاته — تذكرة بأن مخطط الدائرة الجيد هدية لمن يأتي بعدك.
-    ur: 'الجزری نے «الجامع بین العلم والعمل النافع فی صناعة الحیل» ⁦(1206ء)⁩ میں ہر مشین اتنی درستگی سے بنائی کہ آج کے انجینئر اس کے صفحات سے وہ مشینیں دوبارہ بنا سکتے ہیں — یادگار کہ اچھا سرکٹ خاکہ آنے والوں کے لیے تحفہ ہے۔'
-  entity: person/al-jazari-engineer
-  sources:
-  - source/hill-1993
+    en: distinguish between series and parallel circuits, and identify common uses of each type of circuit
+    ar: ميّز بين دوائر التوالي ودوائر التوازي، وحدِّد الاستعمالات الشائعة لكل نوع منها
+    ur: سلسلہ وار اور متوازی سرکٹوں میں فرق کریں، اور ہر قسم کے عام استعمالات کی شناخت کریں
 order: 2

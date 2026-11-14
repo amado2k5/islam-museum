@@ -4,49 +4,51 @@ kind: lesson
 label:
   en: Controlling flight
   ar: التحكم في الطيران
-  ur: 'پرواز کا کنٹرول'
+  ur: پرواز کا کنٹرول
 summary:
-  en: Rudders, ailerons and elevators; stability, and why a tail matters — as Ibn Firnas learned.
-  ar: الدفة والجنيحات والمرفاع؛ والاتزان، ولماذا يهم الذيل — كما تعلم ابن فرناس.
-  ur: 'دُفّے، ایئرون اور ایلیویٹر؛ استحکام، اور دم کیوں اہم ہے — جیسا ابن فرناس نے سیکھا۔'
+  en: Describing how flying machines and organisms use balanced and unbalanced forces to control their flight.
+  ar: وصف كيف تستخدم الآلات الطائرة والكائنات الحية القوى المتوازنة وغير المتوازنة للتحكم في طيرانها.
+  ur: یہ بیان کرنا کہ اڑنے والی مشینیں اور جاندار اپنی پرواز کو قابو میں رکھنے کے لیے متوازن اور غیر متوازن قوتیں کیسے استعمال کرتے ہیں۔
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-sci-flight
 expectations:
-- code: C2.6
+- code: D2.3
   text:
-    en: Explain how aircraft are controlled in flight
-    ar: Explain how aircraft are controlled in flight
-    ur: 'Explain how aircraft are controlled in flight'
+    en: describe ways in which flying machines and various organisms use balanced and unbalanced forces to control their flight
+    ar: صِف الكيفيات التي تستخدم بها الآلات الطائرة ومختلف الكائنات الحية القوى المتوازنة وغير المتوازنة للتحكم في طيرانها
+    ur: بیان کریں کہ اڑنے والی مشینیں اور مختلف جاندار اپنی پرواز کو قابو میں رکھنے کے لیے متوازن اور غیر متوازن قوتوں کو کیسے استعمال کرتے ہیں
 connections:
 - position: before
   kind: story
   title:
-    en: 'Two accounts of the landing'
-    ar: 'روايتان عن الهبوط'
-    ur: 'اترنے کی دو روایتیں'
+    en: Two accounts of the landing
+    ar: روايتان عن الهبوط
+    ur: اترنے کی دو روایتیں
   text:
     en: 'Al-Maqqari reports that Abbas ibn Firnas covered himself with feathers, fitted two wings and attempted flight, suffering injury on landing. Maqqari attributes the landing difficulty to a missing tail, comparing a bird''s landing: an explanation within the narrative, not a modern aerodynamic test. Hasan Ibrahim Hasan describes unharmed survival. If you were steering a glider, what would you want at the back?'
-    ar: 'يروي المقري أن عباس بن فرناس كسا جسمه بالريش واتخذ جناحين وحاول الطيران، ثم أصيب عند الوقوع. ويعزو المقري صعوبة الوقوع إلى عدم عمل ذيل، ويقارن ذلك بهبوط الطائر؛ وهذا تفسير في الرواية، لا نتيجة اختبار هوائي حديث. أما حسن إبراهيم حسن فيصف النجاة سالماً. لو كنتَ توجّه طائرة شراعية، فماذا تريد أن يكون في مؤخرتها؟'
-    ur: 'المقری روایت کرتے ہیں کہ عباس بن فرناس نے اپنے جسم کو پروں سے ڈھانپا، دو بازو لگائے اور اڑنے کی کوشش کی، پھر اترتے وقت زخمی ہو گیا۔ المقری اترنے کی مشکل کو دم کے کام نہ کرنے سے منسوب کرتے ہیں اور اسے پرندے کے اترنے سے ملاتے ہیں؛ یہ روایت کے اندر کی توجیہ ہے، کسی جدید ہوائی آزمائش کا نتیجہ نہیں۔ حسن ابراہیم حسن بخیریت بچ نکلنے کا ذکر کرتے ہیں۔ اگر آپ گلائیڈر کو سنبھال رہے ہوتے تو پچھلے حصے میں آپ کیا چاہتے؟'
+    ar: يروي المقري أن عباس بن فرناس كسا جسمه بالريش واتخذ جناحين وحاول الطيران، ثم أصيب عند الوقوع. ويعزو المقري صعوبة الوقوع إلى عدم عمل ذيل، ويقارن ذلك بهبوط الطائر؛ وهذا تفسير في الرواية، لا نتيجة اختبار هوائي حديث. أما حسن إبراهيم حسن فيصف النجاة سالماً. لو كنتَ توجّه طائرة شراعية، فماذا تريد أن يكون في مؤخرتها؟
+    ur: المقری روایت کرتے ہیں کہ عباس بن فرناس نے اپنے جسم کو پروں سے ڈھانپا، دو بازو لگائے اور اڑنے کی کوشش کی، پھر اترتے وقت زخمی ہو گیا۔ المقری اترنے کی مشکل کو دم کے کام نہ کرنے سے منسوب کرتے ہیں اور اسے پرندے کے اترنے سے ملاتے ہیں؛ یہ روایت کے اندر کی توجیہ ہے، کسی جدید ہوائی آزمائش کا نتیجہ نہیں۔ حسن ابراہیم حسن بخیریت بچ نکلنے کا ذکر کرتے ہیں۔ اگر آپ گلائیڈر کو سنبھال رہے ہوتے تو پچھلے حصے میں آپ کیا چاہتے؟
   entity: invention/firnas-reported-winged-flight
   sources:
   - source/nafh-tib-maqqari
   - source/tarikh-islam-hasan-ibrahim
-- position: after
-  kind: career
+- position: within
+  kind: invention
   title:
-    en: Who designs tomorrow's wings
-    ar: من يصمم أجنحة الغد
-    ur: 'کل کے بازو کون ڈیزائن کرے گا'
+    en: Balanced, yet still moving
+    ar: متوازنة ومع ذلك تتحرك
+    ur: متوازن، پھر بھی حرکت میں
   text:
-    en: Aerospace engineers, pilots and air-traffic controllers of Muslim background work across the industry — from Bombardier in Montreal to Emirates' engineering crews.
-    ar: يعمل مهندسو الطيران والطيارون ومراقبو الحركة الجوية من خلفيات مسلمة في القطاع كله — من بومباردييه في مونتريال إلى طواقم هندسة طيران الإمارات.
-    ur: 'مسلم پس منظر کے فضائی انجینئر، پائلٹ اور ائیر ٹریفک کنٹرولر پوری صنعت میں ہیں — مونٹریال کی بومباردیے سے امارات کی انجینئرنگ ٹیموں تک۔'
+    en: 'In NASA Glenn''s steady-glide diagram the force components are balanced while motion continues: equilibrium here does not mean hovering, but unchanged speed and direction in the simplified model. Weight is vertical, while lift and drag are oriented relative to an inclined path. The museum''s record says al-Maqqari gives no observation series testing these components. When are forces balanced while a glider is still moving?'
+    ar: 'في رسم ناسا غلين للانزلاق المنتظم تتعادل مركبات القوى مع استمرار الحركة: «الاتزان» هنا لا يعني الوقوف في الهواء، بل عدم تغير السرعة والاتجاه في النموذج المبسط. والوزن رأسي، بينما يتجه الرفع والمقاومة بالنسبة إلى مسار مائل. ويقول سجل المتحف إن المقري لا يقدم سلسلة مشاهدات تختبر هذه المركبات. متى تكون القوى متوازنة وتبقى الطائرة الشراعية متحركة؟'
+    ur: 'ناسا گلین کے مستقل انزلاق کے نقشے میں قوتوں کے اجزا متوازن ہیں مگر حرکت جاری ہے: یہاں توازن کا مطلب ہوا میں رکنا نہیں، بلکہ سادہ نمونے میں رفتار اور سمت کا نہ بدلنا ہے۔ وزن عمودی ہے، جبکہ اٹھان اور مزاحمت مائل راستے کی نسبت سے ہیں۔ میوزیم کا ریکارڈ کہتا ہے کہ مقری ایسے مشاہدات کا سلسلہ نہیں دیتے جو ان اجزا کو آزمائیں۔ قوتیں کب متوازن ہوتی ہیں جبکہ گلائیڈر پھر بھی حرکت میں رہتا ہے؟'
+  entity: invention/firnas-reported-winged-flight
   sources:
-  - source/hill-1993
+  - source/nasa-glenn-gliding
+  - source/nafh-tib-maqqari
 order: 3

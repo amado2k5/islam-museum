@@ -6,28 +6,24 @@ translators: []
 ---
 
 ## Brief
-Constellations are patterns we drew on stars that are nowhere near each other. They still work as signposts: sailors, caravans and calendar-keepers have used them for millennia.
+This lesson asks you to identify components of the solar system, including the Sun, Earth and other planets, natural satellites, comets, asteroids and meteoroids, and to describe their main physical characteristics. The museum offers two records: al-Farghani's account of the Sun, Moon and planets moving along the zodiac, and a report of a tailed star in 905 AH; the class brings the other bodies and their physical characteristics, which the museum does not hold. {cite:ontario-science-tech-2022}
 
-## Star patterns and navigation
-The north star sits almost over the pole, so its height above the horizon is roughly your latitude. Other constellations rise and set with the seasons — a calendar in the sky {cite:ontario-science-tech-2022}.
+## What do you know about each body?
+For each body you read about, write its name, what the record says about its place or movement, and what you would still have to find out from another source.
 
 ## Go deeper
-On the northern minaret of Damascus's Umayyad Mosque, [[person/ibn-al-shatir|Ibn al-Shatir]] erected a large horizontal marble sundial with curves for multiple time readings and a gnomon directed towards the celestial pole, according to David A. King. It is not invention of shadows or the world's first clock {cite:king-ibn-shatir-bea sundial} {cite:tdv-gunes-saati-cam historical-survey}. King reports equal-hour readings relative to sunrise, sunset, midday and the afternoon prayer, alongside references to daybreak and nightfall {cite:king-ibn-shatir-bea sundial}. Muammer Dizer dates construction 773 AH/1371–1372, distinguishing the original from a nineteenth-century copy; a modern exterior photograph is therefore not a photograph of the original dial face {cite:tdv-ibn-shatir-dizer instruments} {cite:king-ibn-shatir-bea sundial}.
+In the record on [[concept/al-harakat-al-thaniya|the second motion]], al-Farghani says the moon has its own sphere in the second motion; its movement along the zodiac from west to east, contrary to the first motion, is accomplished together with the motion of the epicycle {cite:farghani-elements-astronomy p. 183} {cite:farghani-elements-astronomy p. 185}. The five planets' motion in the second motion is detailed in chapter fourteen {cite:farghani-elements-astronomy p. 187}.
 
 ## Why they did it
-Haji Khalifa says Ibn al-Shatir studied the astronomical instruments closely and found that they did not serve every task at every latitude, so he devised the Complete Quadrant {cite:kashf-zunun-furqan p. 570-571}. King describes his head timekeeping position at the Umayyad Mosque {cite:king-ibn-shatir-bea opening}. For his lunar model, Roberts highlights the exaggerated variation of lunar distance in Ptolemy's theory, which the model reduced {cite:roberts-shatir-1957 pp428,431–432}. Of the [[building/maragha-observatory|Maragha observatory]], the Encyclopaedia of Islam says Hulagu's motives seem to have been astrological, and that it was financed from the revenues of pious endowments {cite:encyclopaedia-of-islam-2 vol. 6 p. 628}.
-
-## Two views
-Roberts finds Copernicus's lunar construction structurally identical, apart from small parameter differences, to Ibn al-Shatir's {cite:roberts-shatir-1957 pp428,431}. On transmission, Roberts in 1957 leaves the question open and allows independent solutions; King later regards the reappearance of model details as evidence of some transmission {cite:roberts-shatir-1957 p432} {cite:king-ibn-shatir-bea reception}. The museum does not combine these into an undocumented travel story {cite:roberts-shatir-1957 p432} {cite:king-ibn-shatir-bea reception}.
+No sentence of the record on [[person/al-farghani|al-Farghani]] says why he wrote. It shows that the index of the Latin edition lists thirty chapters {cite:farghani-elements-astronomy p. 10}, and that the chapters show him estimating the earth's circumference from a degree measured by the cubit in al-Ma'mun's days {cite:farghani-elements-astronomy p. 100}.
 
 ## Think about it
-Roberts finds the two lunar constructions structurally alike and leaves room for independent solution, while King reads the reappearance of details as evidence of transfer. What kind of document would you need to find to settle whether one astronomer learned from the other, and why can't similar diagrams alone settle it?
+The report of 905 AH tells where a tailed star rose, where its tail lay and where it moved, while al-Farghani's second motion tells how the Sun and the planets move along the zodiac. Which of the two gives you more to compare from one night to the next, and why?
 
 ## Into the museum
-- [[person/ibn-al-shatir|Ibn al-Shatir]]: the Damascus timekeeper, his instruments, and the dates the sources do not agree on.
-- [[invention/shatir-polar-sundial|The polar sundial]]: the marble, the gnomon aimed at the pole and the hour readings.
-- [[building/maragha-observatory|The Maragha observatory]]: its founding, its funding from endowments and its library and astronomers.
-- [[concept/al-kawakib-al-thabita|The fixed stars]]: how al-Farghani counts the stars and names the brightest.
+- [[concept/al-harakat-al-thaniya|The second motion]]: the proper motion of the sun and planets along the zodiac.
+- [[event/comet-905|A comet appears, 905]]: the report in Shadharat al-Dhahab.
+- [[person/al-farghani|Al-Farghani]]: the author of the Thirty Chapters and what the sources say of his time.
 
 ## Try this
-Find a bright star tonight and learn its name. There is a good chance the name is Arabic — the card on this lesson explains why.
+Make a table of the bodies named in [[concept/al-harakat-al-thaniya|the second motion]] and in the [[event/comet-905|report of 905 AH]]: the name, what the record says about it, and what you would need to find out elsewhere.

@@ -6,52 +6,47 @@ label:
   ar: 'ترتيب الأحياء: التصنيف'
   ur: 'جانداروں کی ترتیب: درجہ بندی'
 summary:
-  en: 'Kingdoms to species: how scientists name and group organisms, and how to read a simple classification key.'
-  ar: 'من الممالك إلى الأنواع: كيف يسمي العلماء الكائنات ويجمعونها، وكيف تقرأ مفتاح تصنيف بسيطًا.'
-  ur: 'ممالک سے انواع تک: سائنسدان جانداروں کے نام کیسے رکھتے اور گروہ بناتے ہیں، اور سادہ درجہ بندی کی کلید کیسے پڑھی جائے۔'
+  en: Describing the distinguishing characteristics of groups of organisms and using them to classify the organisms further.
+  ar: وصف الخصائص المميِّزة لمجموعات الكائنات الحية واستخدامها لتصنيفها تصنيفًا أدق.
+  ur: جانداروں کے گروہوں کی امتیازی خصوصیات بیان کرنا اور انہیں جانداروں کی مزید درجہ بندی کے لیے استعمال کرنا۔
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-sci-biodiversity
 expectations:
 - code: B2.1
   text:
-    en: Describe the distinguishing characteristics of different groups of organisms
-    ar: Describe the distinguishing characteristics of different groups of organisms
-    ur: 'Describe the distinguishing characteristics of different groups of organisms'
-- code: B2.2
-  text:
-    en: Demonstrate an understanding of biodiversity as the diversity of life
-    ar: Demonstrate an understanding of biodiversity as the diversity of life
-    ur: 'Demonstrate an understanding of biodiversity as the diversity of life'
+    en: describe the distinguishing characteristics of different groups of organisms, and use these characteristics to further classify these organisms using a classification system
+    ar: صِف الخصائص المميِّزة لمجموعات مختلفة من الكائنات الحية، واستخدم هذه الخصائص لتصنيف هذه الكائنات تصنيفًا أدق باستخدام نظام تصنيف
+    ur: جانداروں کے مختلف گروہوں کی امتیازی خصوصیات بیان کریں، اور ان خصوصیات کو استعمال کرتے ہوئے درجہ بندی کے نظام کے تحت ان جانداروں کی مزید درجہ بندی کریں
 connections:
+- position: before
+  kind: object
+  title:
+    en: Walk, fly, swim or creep
+    ar: يمشي أو يطير أو يسبح أو ينساح
+    ur: چلنے والے، اڑنے والے، تیرنے والے، رینگنے والے
+  text:
+    en: 'Before the kinds of animals, al-Jahiz sets out a division of the world: bodies are in sum inanimate or growing; the growing are animals and plants; animals walk, fly, swim or creep; and those that walk are humans, beasts, predators and vermin. He says he follows the names established and known among the people of this language, singling out what they single out and grouping what they group. What would you sort the living things around you by?'
+    ar: 'قبل الدخول في أصناف الحيوان يضع الجاحظ في «كتاب الحيوان» قسمة للعالم: الأجسام في الجملة جماد ونامٍ، والنامي حيوان ونبات، والحيوان ما يمشي وما يطير وما يسبح وما ينساح، والماشي ناس وبهائم وسباع وحشرات. ويقول إنه يتبع في ذلك الأسماء القائمة المعروفة عند أهل هذه اللغة، فيُفرد ما أفردوا ويجمع ما جمعوا. فبأي صفة تقسّم أنت الكائنات التي تراها حولك؟'
+    ur: 'جانداروں کی اقسام سے پہلے جاحظ «کتاب الحیوان» میں عالم کی ایک تقسیم پیش کرتے ہیں: اجسام مجموعی طور پر جماد یا نامی ہیں؛ نامی حیوان اور نبات ہیں؛ حیوان چلنے والا، اڑنے والا، تیرنے والا یا رینگنے والا ہے؛ اور چلنے والے انسان، چوپائے، درندے اور حشرات ہیں۔ وہ کہتے ہیں کہ اس میں وہ اس زبان والوں کے ہاں قائم اور معروف ناموں کی پیروی کرتے ہیں، جسے انہوں نے الگ رکھا اسے الگ اور جسے جمع کیا اسے جمع رکھتے ہیں۔ آپ اپنے آس پاس کے جانداروں کو کس صفت سے بانٹیں گے؟'
+  entity: work/kitab-al-hayawan
+  sources:
+  - source/hayawan-jahiz-ilmiyya-2003-v1
 - position: within
-  kind: invention
+  kind: object
   title:
-    en: 'One plant, many names'
-    ar: 'نبات واحد وأسماء كثيرة'
-    ur: 'ایک پودا، کئی نام'
+    en: Feathers do not settle it
+    ar: الريش لا يحسم
+    ur: پر فیصلہ نہیں کرتے
   text:
-    en: 'One plant can have several names; one name can denote different things. In his Compendium of Simples, Ibn al-Baytar assembled earlier authors'' descriptions, circulating names and his experience in an alphabetical reference. Iranica distinguishes about 1,422 substantive simples from 931 short synonym entries, not 2,353 independent plant species. How does a list help you when two names point to the same plant?'
-    ar: 'قد يحمل النبات أسماء كثيرة، وقد يحمل الاسم الواحد أشياء مختلفة. في «الجامع للمفردات» وضع ابن البيطار أوصاف المؤلفين السابقين والأسماء المتداولة وخبرته في مرجع ألفبائي. وتوضح إيرانيكا أن عدده يضم نحو 1422 مادة أصلية و931 مدخلاً قصيراً للأسماء المترادفة، لا 2353 نوعاً نباتياً مستقلاً. كيف تعينك قائمة كهذه حين يشير اسمان إلى نبات واحد؟'
-    ur: 'ایک پودے کے کئی نام ہو سکتے ہیں، اور ایک نام مختلف چیزوں کے لیے بھی آ سکتا ہے۔ «الجامع للمفردات» میں ابن البیطار نے پہلے مؤلفین کے بیانات، رائج ناموں اور اپنے تجربے کو حروفِ تہجی کی ترتیب میں ایک مرجع کی صورت میں جمع کیا۔ ایرانیکا کے مطابق اس میں تقریباً 1422 اصل مفرد مواد اور 931 مترادف ناموں کے مختصر اندراجات ہیں، 2353 الگ پودوں کی انواع نہیں۔ ایسی فہرست آپ کی کیسے مدد کرتی ہے جب دو نام ایک ہی پودے کی طرف اشارہ کریں؟'
-  entity: invention/ibn-baytar-comparative-materia-medica
+    en: Al-Jahiz then divides birds into predators, grazers and swarming insects, and tells predators armed with talons, such as the eagle, from those armed with beaks, such as vultures and crows. He notes that the bat is reckoned among birds though featherless, that the ostrich has feathers but is not a bird, and that not everything that swims is a fish. Which feature would you trust to place an animal in its group, and why?
+    ar: ثم يقسم الجاحظ الطير إلى سباع وبهائم وهمج، ويفرّق بين السباع ذوات المخالب كالعقاب وذوات المناقير كالنسور والرخم والغربان. وينبه على أن الخفاش من الطير مع أنه بلا ريش، وأن النعامة ذات ريش وليست من الطير، وأن ليس كل عائم سمكة. فأي صفة تثق بها لتضع حيوانًا في مجموعته، ولماذا؟
+    ur: پھر جاحظ پرندوں کو درندوں، چرندوں اور ہمج میں تقسیم کرتے ہیں، اور پنجوں والے درندوں جیسے عقاب اور چونچوں والے جیسے گدھ اور کوے میں فرق کرتے ہیں۔ وہ تنبیہ کرتے ہیں کہ چمگادڑ بے پر ہونے کے باوجود پرندوں میں ہے، شتر مرغ پر رکھتا ہے مگر پرندہ نہیں، اور ہر تیرنے والا مچھلی نہیں۔ کسی جانور کو اس کے گروہ میں رکھنے کے لیے آپ کس صفت پر بھروسا کریں گے، اور کیوں؟
+  entity: work/kitab-al-hayawan
   sources:
-  - source/tdv-mufradat-kaya
-  - source/iranica-ibn-baytar
-- position: after
-  kind: career
-  title:
-    en: Naming the living world today
-    ar: تسمية عالم الأحياء اليوم
-    ur: 'آج جاندار دنیا کے نام رکھنا'
-  text:
-    en: Taxonomists, herbarium keepers and field botanists across the Muslim world — from Morocco to Indonesia — still do this work. Naming a species is the first step toward protecting it.
-    ar: ما زال علماء التصنيف وأمناء المعشبات وعلماء النبات الميدانيون في العالم الإسلامي — من المغرب إلى إندونيسيا — يقومون بهذا العمل؛ فتسمية النوع خطوة أولى نحو حمايته.
-    ur: 'مغرب سے انڈونیشیا تک اسلامی دنیا کے درجہ بندی ماہرین، نمونہ گاہوں کے نگہبان اور میدانی ماہرینِ نباتات آج بھی یہی کام کرتے ہیں۔ کسی نوع کا نام رکھنا اس کی حفاظت کا پہلا قدم ہے۔'
-  sources:
-  - source/hill-1993
+  - source/hayawan-jahiz-ilmiyya-2003-v1
 order: 2

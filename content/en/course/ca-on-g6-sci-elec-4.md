@@ -6,10 +6,7 @@ translators: []
 ---
 
 ## Brief
-The cheapest energy is energy never used. Efficiency ratings, standby power and simple habits decide most of a building's appetite.
+This lesson asks you to assess the short- and long-term impacts of generating electrical energy in Canada on society and the environment, including impacts on First Nations, Métis and Inuit communities and on climate change, and to assess choices that reduce your own use of electrical energy and speak up for its responsible use in your school. The museum holds no record that serves these expectations yet, so this lesson offers no cards. {cite:ontario-science-tech-2022}
 
-## The audit mindset
-Reading labels, measuring phantom loads and comparing LED to incandescent bulbs turns 'save energy' from a slogan into arithmetic {cite:ontario-science-tech-2022}.
-
-## Try this
-Audit one room at home: list everything plugged in, guess each device's share of the bill, then rank the top three changes.
+## Whose view are you weighing?
+For each choice, list who is affected and what each would say; then write which evidence would change your own assessment.

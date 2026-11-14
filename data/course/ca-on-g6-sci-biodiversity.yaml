@@ -2,19 +2,19 @@ id: course/ca-on-g6-sci-biodiversity
 class: course
 kind: unit
 label:
-  en: 'Strand B — Life Systems: Biodiversity'
-  ar: 'الفرع ب — الأنظمة الحياتية: التنوع الحيوي'
-  ur: 'شاخ B — حیاتی نظام: حیاتیاتی تنوع'
+  en: Strand B — Life Systems
+  ar: الفرع ب — الأنظمة الحياتية
+  ur: شاخ B — حیاتی نظام
 summary:
-  en: Assessing biodiversity, classifying organisms, and examining how species interact and how human activity puts diversity at risk (expectations B1, B2).
-  ar: تقييم التنوع الحيوي، وتصنيف الكائنات، ودراسة تفاعل الأنواع وأثر النشاط البشري على التنوع ⁦(التوقعات B1، B2)⁩.
-  ur: 'حیاتیاتی تنوع کا جائزہ، جانداروں کی درجہ بندی، اور انواع کے باہمی تعلق و انسانی سرگرمیوں کے اثرات کا مطالعہ ⁦(توقعات B1، B2)⁩۔'
+  en: Assessing why biodiversity matters and how to protect it, and understanding biodiversity, its contribution to the stability of natural systems and its benefits to humans (expectations B1, B2).
+  ar: تقييم أهمية التنوع الحيوي وطرق حمايته، وفهم التنوع الحيوي ومساهمته في استقرار النظم الطبيعية وفوائده للإنسان، التوقعان B1 وB2.
+  ur: حیاتیاتی تنوع کی اہمیت اور اس کے تحفظ کے طریقوں کا جائزہ، اور حیاتیاتی تنوع، قدرتی نظاموں کے استحکام میں اس کے حصے اور انسانوں کو اس کے فوائد کی سمجھ، توقعات B1 اور B2۔
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-science
 lessons:
 - course/ca-on-g6-sci-bio-1
@@ -24,7 +24,12 @@ lessons:
 expectations:
 - code: B1
   text:
-    en: Overall expectations, strand B
-    ar: التوقعات الكلية للفرع B
-    ur: 'مجموعی توقعات، شاخ B'
-order: 1
+    en: assess the importance of biodiversity, and describe ways of protecting biodiversity
+    ar: قيِّم أهمية التنوع الحيوي، وصِف طرق حمايته
+    ur: حیاتیاتی تنوع کی اہمیت کا جائزہ لیں، اور حیاتیاتی تنوع کے تحفظ کے طریقے بیان کریں
+- code: B2
+  text:
+    en: demonstrate an understanding of biodiversity, its contributions to the stability of natural systems, and its benefits to humans
+    ar: أظهر فهمًا للتنوع الحيوي، ومساهماته في استقرار النظم الطبيعية، وفوائده للإنسان
+    ur: حیاتیاتی تنوع، قدرتی نظاموں کے استحکام میں اس کے حصے، اور انسانوں کو اس کے فوائد کی سمجھ کا مظاہرہ کریں
+order: 2

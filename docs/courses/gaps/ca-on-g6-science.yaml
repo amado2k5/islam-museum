@@ -1,0 +1,96 @@
+course: course/ca-on-g6-science
+gaps:
+- code: A1.1
+  text: use a scientific research process and associated skills to conduct investigations
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.2
+  text: use a scientific experimentation process and associated skills to conduct investigations
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.3
+  text: use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.4
+  text: follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A1.5
+  text: communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.1
+  text: write and execute code in investigations and when modelling concepts, with a focus on obtaining input in different ways for a variety of purposes
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A2.2
+  text: identify and describe impacts of coding and of emerging technologies on everyday life, including skilled trades
+  why: 'skills expectation: names no subject matter'
+  searches:
+  - 'none: skills expectation'
+  - 'none: skills expectation'
+- code: A3.2
+  text: investigate how science and technology can be used with other subject areas to address real-world problems
+  why: The expectation asks the student to investigate how science and technology can be used with other subject areas to address real-world problems; the museum's records on instruments and engineers show a craft or a science at work, not an investigation that joins two school subjects, so no record carries it.
+  searches:
+  - 'find_entity.py "science and technology" "العلوم والتكنولوجيا" "applied science": no real record on joining subject areas'
+  - 'read job/astronomer, person/al-jazari-engineer and invention/shatir-polar-sundial in full: each shows one occupation or one device; none shows science used together with another subject area to address a problem, so they serve A3.1 and A3.3 only'
+- code: B2.6
+  text: explain how invasive species reduce biodiversity in local environments
+  why: The expectation is about invasive species and the loss of local biodiversity. The museum holds no record on introduced or invasive species, or on how a newcomer displaces native species; records that mention locusts or sparrows are a disaster report with no prose on species interaction, a locust entry with no prose, and a television preacher's anecdote, none of which can carry this expectation.
+  searches:
+  - 'find_entity.py "invasive species" "الأنواع الغازية" "introduced species": no real record, no stub'
+  - 'find_entity.py "locust" "الجراد" "jarad": concept/locust has no prose; event/baghdad-quakes-347 is a report of earthquakes and locusts in Iraq (a disaster, not an account of species displacing species); passage/muwatta-31-2696 is a hadith on eating locusts'
+  - 'find_entity.py "species" "الأنواع" "kinds of animals": only fiqh and hadith-sciences records (concept/nawa-kind-fiqh, work/muqaddimat-ibn-al-salah); none about living species'
+  - 'grep -ril "invasive" content/en/{concept,invention,work,person,event,place}: only two biographies of living scientists (person/mehmet-oz, person/ali-khademhosseini), about nothing ecological'
+  - 'concept/al-tawazun-al-kawni read in full: it reports a television presenter telling an unsourced story of sparrows and locusts (the record itself marks the date and details needs_source); a record of what was said in a programme is not evidence of the subject, so it was not linked'
+- code: B2.7
+  text: explain how climate change contributes to a loss of biodiversity, and describe the impact of this loss
+  why: The expectation is about climate change as a cause of biodiversity loss and its effects. The museum holds no record that treats climate change, warming or the loss of species; the few mentions are incidental (a conference host, an official's appointment title).
+  searches:
+  - 'find_entity.py "climate change" "التغير المناخي" "drought": the only real records are Ontario course records (course/ca-on-g10-snc2d-d); no entity of the graph'
+  - 'find_entity.py "rainfall" "المطر" "desertification": concept/rain has no prose; the rest are persons named Matar, hadith passages and a frog-rain report (event/frog-rain-amid-833)'
+  - 'find_entity.py "extinction" "انقراض" "wildlife": only records on the extinction of dynasties and the fiqh sense of inqiraz'
+  - 'grep -ril "climate change|global warming" content/en/{concept,invention,work,person,event,place}: person/hamad-bin-khalifa-al-thani (a conference held in Doha), person/rizwana-hasan (a ministerial title), work/de-koran-uitleg-voor-kinderen (a children''s book list), concept/islam-and-the-rise-of-civilisation (one passing mention); none explains how climate change affects species'
+- code: B2.8
+  text: describe the importance of biodiversity in supporting agriculture, including Indigenous agriculture around the world
+  why: 'The expectation is about the importance of biodiversity (variety of species and varieties) in supporting agriculture, including Indigenous agriculture around the world. The museum holds records on agriculture, but none says anything about variety of species supporting farming: concept/agriculture-in-islam is about agriculture as a livelihood, the revival of dead land and water use; Ibn Bassal''s record matches land types, water sources and plants, which is soil and water variety, not biodiversity.'
+  searches:
+  - 'find_entity.py "agriculture" "الفلاحة" "Ibn Bassal": person/ibn-bassal, invention/ibn-bassal-soil-water-matching, concept/agriculture-in-islam, work/filaha-nabatiyya (no prose in the search listing)'
+  - 'find_entity.py "agriculture in Islam" "الزراعة" "Ibn al-Awwam": concept/agriculture-in-islam; the other hits are persons named al-Awwam'
+  - 'entity_brief.py concept/agriculture-in-islam --full and invention/ibn-bassal-soil-water-matching --full: the first speaks of livelihood, usurped and idle land and water surplus; the second of four water sources and ten land types, their suitable plants, season and work; neither speaks of variety of species or of varieties supporting agriculture'
+  - 'find_entity.py "trees" "الشجر" "forest" and "plants botany" "النبات": concept/shajar-trees (rulings on trees in sale), exhibit/path-botany (an overview line); no biodiversity content'
+  - 'grep -ril "biodivers" content/en/{concept,invention,work,person,event,place}: no file'
+- code: E1.3
+  text: evaluate the social and environmental impacts of space exploration, while taking various perspectives into consideration
+  why: The expectation asks the student to evaluate the social and environmental impacts of space exploration while taking various perspectives into consideration; the museum's astronaut records give flights, crews and experiments, not impacts on society or the environment. person/anousheh-ansari carries two crewmates' views on paying private passengers, which is a view about who flies, not an evaluation of impacts, so it was not linked.
+  searches:
+  - 'find_entity.py "space exploration" "استكشاف الفضاء" "NASA" "rocket": place/nasa is a town in Khurasan; no record on the impacts of space exploration'
+  - 'grep -rliE "astronaut|spacecraft|space station|outer space|space shuttle|spaceflight" content/en (non-course records): person/sultan-bin-salman-al-saud, person/sheikh-muszaphar-shukor, person/anousheh-ansari, person/farouk-el-baz; none says anything on social or environmental impacts of exploration (Muszaphar and El-Baz serve E1.1 and E1.2 and are linked in ca-on-g6-sci-space-4)'
+  - 'grep -rliE "climate change|global warming|carbon" content/en: no record ties climate or the environment to space exploration other than El-Baz on desert landforms from satellite images (linked under E1.2)'
+- code: E2.2
+  text: distinguish between the concepts of mass and weight
+  why: The expectation asks the student to distinguish mass from weight; the museum's records on weight are about trade weights and the balance (mizan, tatfif), and the physics records speak of specific gravity as a ratio to water, which the record itself says is not gravitational force.
+  searches:
+  - 'find_entity.py "mass" "weight" "الكتلة" "الوزن": concept/mizan, concept/tatfif-short-measure and passage records on weights in trade; no record on mass'
+  - 'invention/biruni-displacement-vessel and invention/balance-of-wisdom read: they weigh water and samples to compare volume and weight (relative density); the first says "specific gravity" means a ratio to reference water, not gravitational force; neither separates mass from weight'
+  - 'grep -rliE "centre of gravity|free fall|falling bod|weightless" content/en: only television-programme records (work/wa-yatafakkarun and others) naming gravity in passing; they are evidence of what was said there, not of the subject'
+- code: E2.3
+  text: describe the relationship between the force of gravity and the weight of a body
+  why: The expectation asks the student to describe the relationship between the force of gravity and the weight of a body; no record states that relationship. Records that name gravity say that a medieval model is not a theory of gravity (invention/ibn-al-shatir-lunar-model, invention/zarqali-moving-solar-apogee) or mention it in passing in television-programme records.
+  searches:
+  - 'find_entity.py "gravity" "الجاذبية" "jadhibiyya" "weightlessness": no real record'
+  - 'grep -rliE "gravity|gravitation" content/en and grep -rl "الجاذبية" content/ar (non-course): hits are specific gravity (invention/biruni-displacement-vessel), disclaimers that a model is not gravitational dynamics, a metaphor in invention/tabula-rogeriana, a quality of bearing in two biographies (person/al-faradi-ubayd-allah, person/ibn-al-razzaz-said) and passing remarks in work/wa-yatafakkarun; none states the relationship between gravity and weight'

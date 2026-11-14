@@ -6,7 +6,4 @@ translators: []
 ---
 
 ## Brief
-From static sparks to working circuits, students build and draw circuits, compare energy sources, and audit how electricity is used — and wasted.
-
-## Unit overview
-Charge, controlled. From static sparks to working circuits, students build and draw circuits, compare energy sources, and audit how electricity is used — and wasted.
+Strand C of the Grade 6 Science and Technology course: Matter and Energy, which is about electrical energy. It has four lessons, on static electricity, current electricity and circuits, changing energy into and out of electricity, and using electrical energy wisely; the museum holds no record that serves any of them yet, so the four lessons offer no cards. {cite:ontario-science-tech-2022}

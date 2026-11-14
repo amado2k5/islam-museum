@@ -6,19 +6,22 @@ translators: []
 ---
 
 ## Brief
-Rudders yaw, ailerons roll, elevators pitch. Stability means the aircraft returns to level after a bump; control means the pilot can move it off level on purpose.
+This lesson asks you to describe how flying machines and various organisms use balanced and unbalanced forces to control their flight. The museum offers two accounts of Ibn Firnas's landing, with Maqqari's explanation of it by a missing tail, and NASA Glenn's diagram of steady gliding, in which the forces balance; control by rudders and ailerons, and the examples of birds and insects, have to come from your class. {cite:ontario-science-tech-2022}
 
-## Three axes
-Pitch (nose up/down), roll (wing over wing), yaw (nose left/right). A tail — horizontal and vertical stabilizers — damps all three, which is why losing it ends most flights {cite:ontario-science-tech-2022}.
+## When are forces balanced?
+Throw a paper glider a short way from a low place and watch it. Write down when it seemed to move at a steady speed and direction and when one of them changed. What do you think changed in the forces when it changed?
+
+## What do we read in accounts?
+Read the card on the two accounts of the landing and compare what each account says about the ending. What is still unknown, after both, about Ibn Firnas's wings?
 
 ## Go deeper
-Maqqari attributes the landing difficulty to a missing tail, comparing a bird's landing: an explanation within the narrative, not a modern aerodynamic test of the lost apparatus {cite:nafh-tib-maqqari v.3 p.374}. TDV repeats the missing tail and hard landing, but repetition in a modern biography does not independently supply engineering plans or measurements {cite:tdv-abbas-firnas-kirbiyik biography}. Where does the information come from? The inspected witness is Maqqari in the Ihsan Abbas edition; the editor refers to al-Mughrib and al-Muqtabis, whose original passages were not read as separate witnesses {cite:nafh-tib-maqqari v.3 pp.374–375 and note}. The wing area, inclination and control mechanism of [[person/abbas-ibn-firnas|Ibn Firnas]]'s wings cannot be recovered from the text {cite:nafh-tib-maqqari v.3 p.374}.
+Maqqari attributes the landing difficulty to a missing tail, comparing a bird's landing: an explanation within the narrative, not a modern aerodynamic test of the lost apparatus {cite:nafh-tib-maqqari v.3 p.374}. TDV repeats the missing tail and hard landing, but repetition in a modern biography does not independently supply engineering plans or measurements {cite:tdv-abbas-firnas-kirbiyik biography}. Of [[person/abbas-ibn-firnas|Ibn Firnas]] the record says that the text supplies few elements, so wing area, inclination and control mechanism cannot be recovered from it {cite:nafh-tib-maqqari v.3 p.374}.
 
-## Often misunderstood
-A missing tail can sound like the settled cause of the hard landing. The record keeps it as Maqqari's explanation, repeated in the TDV biography {cite:nafh-tib-maqqari v.3 p.374} {cite:tdv-abbas-firnas-kirbiyik biography}. Hasan Ibrahim Hasan describes unharmed survival, which differs from the injury and is not silently merged into that account {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}. The accounts do not all agree on the ending.
+## How do we know?
+The inspected witness is Maqqari in the Ihsan Abbas edition; the editor refers to al-Mughrib and al-Muqtabis, whose original passages were not read as separate witnesses {cite:nafh-tib-maqqari v.3 pp.374–375 and note}. [[invention/firnas-reported-winged-flight|The record of the reported flight]] therefore presents the account as transmitted, with disputed details, not as an experimental log with recalculable measurements.
 
 ## Think about it
-Maqqari gives the missing tail as the reason for the landing, and the record says this is an explanation within the narrative, not an aerodynamic test. If you tried a paper glider with and without a tail, why would your result be stronger evidence about tails than the account, and what would it still leave unknown about Ibn Firnas's wings?
+In NASA Glenn's steady-glide diagram the speed and direction do not change {cite:nasa-glenn-gliding Vector Balance of Forces for a Glider}, while Maqqari explains the difficulty of landing by a missing tail {cite:nafh-tib-maqqari v.3 p.374}. If the forces are balanced in a steady glide, what must change in them when a glider slows down to land, and why does the account of Ibn Firnas not let you say how his wings did it?
 
 ## Into the museum
 - [[person/abbas-ibn-firnas|Abbas ibn Firnas]]: his life, the crafts attributed to him, and the limits of what is known.
@@ -26,4 +29,4 @@ Maqqari gives the missing tail as the reason for the landing, and the record say
 - [[place/cordoba|Cordoba]]: the city his life was tied to.
 
 ## Try this
-Add a paper clip to a paper glider's nose, then move it back. Record when the glider stops gliding — that point is a stability lesson.
+In [[invention/firnas-reported-winged-flight|the record of Ibn Firnas's attempt]] compare the two accounts of the landing: underline what each says about the ending, then write one sentence on what a reader cannot learn from either. Do not try to jump from a height.

@@ -1,8 +1,8 @@
-ORACLE course: ingestion gate for course/ca-on-g6-science
-run at commit ed3a303a9efb4795cacaa334c618b7baa2879077 on 2026-11-12 02:43 EST; baseline 800467e93e; uncommitted paths under data/ content/ site/ i18n/ scripts/courses/: 1004
+ORACLE course: ingestion gate for course/ca-on-g6-science (strict)
+run at commit 758edf38f601330529ca395154260122164064de on 2026-11-14 03:21 EST; baseline 800467e93e; uncommitted paths under data/ content/ site/ i18n/ scripts/courses/: 92
 
   [PASS] every record file of this course parses
-records: 1 subject, 4 units, 16 lessons; above it: ['course/ca-on-g6', 'course/ca-on-english']
+records: 1 subject, 5 units, 17 lessons; above it: ['course/ca-on-g6', 'course/ca-on-english']
   [PASS] TREE the subject hangs under a grade under a jurisdiction — ['grade', 'jurisdiction']
   [PASS] TREE units hang on the subject and lessons on units
   [PASS] TREE every `lessons:` list names its own children — []
@@ -10,26 +10,29 @@ records: 1 subject, 4 units, 16 lessons; above it: ['course/ca-on-g6', 'course/c
   [PASS] DRAFT every record is draft and names what generated it
   [PASS] SOURCE the subject cites a curriculum source that is a source record — ['source/ontario-science-tech-2022']
   [PASS] SOURCE every record of the course cites the curriculum source
-authority's document: .cache/curricula/ontario-scitech-g7/official.json: 5 strands, 11 overall and 50 specific expectations; official language `en`
-expectation entries: 33; identical to the official text: 0; identical under the 40-word quotation rule (examples marked […], long texts cut with …): 0; wrong: 33
-  [FAIL] FIDELITY every expectation is the authority's code and text — ca-on-g6-sci-space-4 E1.1: text differs from the authority's | ca-on-g6-sci-space-4 E2.5: text differs from the authority's | ca-on-g6-sci-space-3 E2.4: text differs from the authority's | ca-on-g6-sci-space-2 E2.3: text differs from the authority's | ca-on-g6-sci-space-1 E2.1: text differs from the authority's | ca-on-g6-sci-space-1 E2.2: text differs from the authority's | ca-on-g6-sci-fly-4 C1.1: text differs from the authority's | ca-on-g6-sci-fly-4 C1.2: text differs from the authority's (+25 more)
-specific expectations in a lesson: 27; in the gap register: 0; in neither: 23
-  [FAIL] COVERAGE every specific expectation is in a lesson or in the gap register — A1.1, A1.2, A1.3, A1.4, A1.5, A2.1, A2.2, A3.1, A3.2, A3.3, B1.3, B2.5, B2.6, B2.7, B2.8, C2.1, C2.7, C2.8, D2.1, E1.2, E2.6, E2.7, E2.8
+authority's document: .cache/curricula/ontario-science-tech-2022-g6/official.json: 5 strands, 11 overall and 44 specific expectations; official language `en`
+expectation entries: 41; identical to the official text: 41; identical under the 40-word quotation rule (examples marked […], long texts cut with …): 0; wrong: 0
+  [PASS] FIDELITY every expectation is the authority's code and text
+specific expectations in a lesson: 30; in the gap register: 14; in neither: 0
+  [PASS] COVERAGE every specific expectation is in a lesson or in the gap register
   [PASS] COVERAGE no expectation is both taught and registered as a gap
   [PASS] GAPS every gap entry carries the official code and text, at least two searches, and the reason
-texts that are a byte copy of another language's text: 87
-  [FAIL] LANGUAGE no text is a copy of another language passed off as a translation — ca-on-g6-sci-space-4 expectations[0].text: en = ar | ca-on-g6-sci-space-4 expectations[0].text: en = ur | ca-on-g6-sci-space-4 expectations[0].text: ar = ur | ca-on-g6-sci-space-4 expectations[1].text: en = ar | ca-on-g6-sci-space-4 expectations[1].text: en = ur | ca-on-g6-sci-space-4 expectations[1].text: ar = ur (+81 more)
+texts that are a byte copy of another language's text: 0
+  [PASS] LANGUAGE no text is a copy of another language passed off as a translation
   [PASS] LANGUAGE Arabic is present on every label, summary and connection
+  [PASS] LANGUAGE (strict) every text is present in Arabic, English and Urdu
 lesson expectation texts with no Arabic yet (shown in the official language, labelled): 0
   [PASS] MAPPING every connection has a position, a kind, a title, a text and at least one source
-connections: 33; linking a record: 15; distinct records: 14; links that are not a record: 3 ['building/maragha-observatory', 'object/astrolabe', 'work/kitab-al-hiyal']
-  [FAIL] MAPPING every linked entity is a real record — building/maragha-observatory, object/astrolabe, work/kitab-al-hiyal
-  [FAIL] MAPPING every Qur'an connection links its passage record and cites only the Tanzil text — ca-on-g6-sci-space-4 55:33, ca-on-g6-sci-space-2 2:189, ca-on-g6-sci-fly-1 16:79, ca-on-g6-sci-elec-4 7:31, ca-on-g6-sci-bio-1 6:38
+connections: 21; linking a record: 21; distinct records: 14; links that are not a record: 0 []
+  [PASS] MAPPING every linked entity is a real record
+  [PASS] MAPPING every Qur'an connection links its passage record and cites only the Tanzil text
   [PASS] PROVENANCE every cited source is a source record
   [PASS] PROVENANCE every source a connection cites existed at the baseline commit
-entity-linked connections citing a source their record did not cite at the baseline: 12 of 15
-  [FAIL] PROVENANCE every source a connection cites was already cited by its linked record at the baseline — ca-on-g6-sci-space-4 -> person/sultan-bin-salman-al-saud: ['source/hourani-1991'] | ca-on-g6-sci-space-3 -> person/ibn-al-shatir: ['source/hill-1993'] | ca-on-g6-sci-space-2 -> concept/hijri-calendar: ['source/tanzil-quran'] | ca-on-g6-sci-space-1 -> person/al-battani: ['source/hill-1993'] | ca-on-g6-sci-fly-3 -> person/abbas-ibn-firnas: ['source/hourani-1991', 'source/hill-1993'] | ca-on-g6-sci-fly-2 -> person/ibn-al-haytham: ['source/hill-1993'] (+6 more)
-connections with no entity link: 18; lessons with no connection: 0
+entity-linked connections citing a source their record did not cite at the baseline: 0 of 21
+  [PASS] PROVENANCE every source a connection cites was already cited by its linked record at the baseline
+connections with no entity link: 0; lessons with no connection: 8
+  [PASS] MAPPING (strict) every connection links a record
+  [FAIL] MAPPING (strict) every lesson has at least one connection — ca-on-g6-sci-fly-4, ca-on-g6-sci-elec-4, ca-on-g6-sci-elec-3, ca-on-g6-sci-elec-2, ca-on-g6-sci-elec-1, ca-on-g6-sci-bio-4, ca-on-g6-sci-bio-3, ca-on-g6-sci-bio-1
   [PASS] PROSE every record has prose in Arabic and English (and Urdu when strict) with the right front matter; lessons have a Brief
 
-RESULT: NOT-GREEN (6 failed: FIDELITY every expectation is the authority's code and text; COVERAGE every specific expectation is in a lesson or in the gap register; LANGUAGE no text is a copy of another language passed off as a translation; MAPPING every linked entity is a real record; MAPPING every Qur'an connection links its passage record and cites only the Tanzil text; PROVENANCE every source a connection cites was already cited by its linked record at the baseline)
+RESULT: NOT-GREEN (1 failed: MAPPING (strict) every lesson has at least one connection)
