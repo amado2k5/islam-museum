@@ -8,8 +8,8 @@ names:
 roles: [royal-consort]
 gender: female
 summary:
-  ar: "بطاقة أولية لنور جهان، زوجة جهانكير المغولي التي صارت أقوى امرأة في الدولة المغولية، وردت في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمتها في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Nur Jahan, consort of the Mughal Jahangir who became the most powerful woman of the Mughal state, named from an open reference description (Wikidata); her entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+  ar: "نور جهان، واسمها مهر النساء، زوجة جهانكير المغولي ووُلدت في قندهار سنة 985 هـ الموافقة 1577 م وصارت صاحبة النفوذ الفعلي في الدولة؛ قرئت ترجمتها في دائرة المعارف الإسلامية."
+  en: "Nur Jahan, born Mihr al-Nisa', wife of the Mughal Jahangir, born at Kandahar in 985 AH (1577 CE) and for years the real power in the state; her Encyclopaedia of Islam article has been read."
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
@@ -20,17 +20,17 @@ relations:
   - { type: born_in, target: place/kandahar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q45604)" }
   - { type: died_in, target: place/lahore, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q11739)" }
   - { type: buried_in, target: place/tomb-of-nur-jahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q17026183)" }
-sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q541530
   viaf: "10649806"
 provenance:
   layer: own-research
-  source: "Wikidata Q541530 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0005
+  source: "Encyclopaedia of Islam, 2nd ed., article Nur Djahan, vol. 8 pp. 135-136, read in full from the local OCR copy"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-ei2-2026-11-14
 importance: 2
 status:
   review: draft
-  completeness: 1
+  completeness: 3

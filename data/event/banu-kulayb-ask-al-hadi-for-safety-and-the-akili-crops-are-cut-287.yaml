@@ -1,0 +1,65 @@
+id: event/banu-kulayb-ask-al-hadi-for-safety-and-the-akili-crops-are-cut-287
+class: event
+kind: other
+label:
+  ar: "بنو كليب يطلبون الأمان من الهادي وقلع ذرة الأكيليين، 287هـ"
+  en: "Banu Kulayb ask al-Hadi for safety and the Akili crops are cut, 287 AH"
+  ur: "بنو کلیب کی ہادی سے امان کی درخواست اور اکیلیوں کی مکئی کی کٹائی، 287ھ"
+summary:
+  ar: "يقيم الهادي بصعدة يوم الاثنين ثم يغدو الثلاثاء إلى البقعة ويأمر بقلع ذرة الأكيليين، ثم يمضي إلى علاف فيجد جماعة من الكليبيين يرأسهم الزبير بن محمد يستأمنونه فيؤمنهم على إخراج الأكيليين من جبل العدنة ويؤمّن أبناء عمومتهم ثم يعود إلى صعدة."
+  en: "Al-Hadi stays at Sa'da on the Monday, goes out to al-Buqa on the Tuesday and orders the Akilis' sorghum pulled up, then marches to Allaf where a party of Kulaybis under al-Zubayr ibn Muhammad ask his protection; he grants safety on condition they remove the Akilis from the mountain of al-Adana, extends it to their cousins and returns to Sa'da."
+  ur: "ہادی پیر کو صعدہ میں رہتے ہیں، منگل کو البقعہ جاتے ہیں اور اکیلیوں کی جوار اکھاڑنے کا حکم دیتے ہیں، پھر علاف کی طرف بڑھتے ہیں جہاں زبیر بن محمد کی سربراہی میں کلیبیوں کی ایک جماعت امان مانگتی ہے؛ وہ اس شرط پر امان دیتے ہیں کہ اکیلیوں کو العدنہ پہاڑ سے نکالیں، ان کے چچازادوں کو بھی امان دیتے ہیں اور صعدہ لوٹ جاتے ہیں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900"
+    hijri: "0287"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 287هـ؛ يوما الاثنين والثلاثاء بعد قتال علاف دون ذكر الشهر؛ الدقة سنوية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/al-buqa-saada-yemen
+- type: occurred_at
+  target: place/allaf-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-zubayr-al-kulaybi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-kulayb-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-akiliyyun-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص196-197 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-24
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 196-197

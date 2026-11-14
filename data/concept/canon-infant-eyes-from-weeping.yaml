@@ -1,0 +1,18 @@
+id: concept/canon-infant-eyes-from-weeping
+class: concept
+kind: scientific
+label: { ar: "علل عيون الصبيان من البكاء عند ابن سينا", en: "Infants' eye troubles from weeping in the Canon", ur: "قانون میں رونے سے بچوں کی آنکھوں کی تکلیفیں" }
+summary:
+  ar: "يذكر ابن سينا أن ماء الرأس عند الصبي مما سبق علاجه في علل الرأس، وانتفاخ العيون وبياض الحدقة من كثرة البكاء وسلاق الجفن، وعلاجها بالحضض واللبن وطبيخ البابونج وعصارة عنب الثعلب {cite:canon-ibn-sina-print-v1 p.216}."
+  en: "Ibn Sina says water in a child's head was treated in the chapters on diseases of the head, and mentions swelling of the eyes, whiteness in the pupil from much weeping and sores of the eyelid, treated with hudud and milk, chamomile decoction and nightshade juice {cite:canon-ibn-sina-print-v1 p.216}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 1 on upbringing, chapters 3 and 4 (scan pages 211 to 220), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p211
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
