@@ -1178,3 +1178,10 @@ Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each
 ## 2026-11-14 (p74, Lane B worker B1) — gazetteer sections on 109 place pages; Sanaa section withdrawn
 
 - Packets 31 to 38 (PRs 6817, 6818, 6828, 6830, 6836, 6837, 6842, 6844) added Pleiades and iDAI sections (ar, en, ur) to 109 places that had prose without them. cite-check on the 108 pages: 108 pass. The sections on place/sanaa (a founder-held page) were reverted to the previous text; its data keeps the iDAI link made earlier. Skipped by the subagents because iDAI's GeoNames id differs from ours or is absent: ceuta, gabes, sfax, sousse, tortosa, ubeda (ours 6358538, iDAI 2510116), qayrawan, damascus (iDAI record has no GeoNames id, not a mismatch). For the founder: the iDAI links on these places rest on name and distance, not on a shared GeoNames id.
+
+## 2026-11-14 (packet 42, Lane B worker B1) — person and polity prose
+
+- Nine entries written in ar, en and ur from the Encyclopaedia of Islam, 2nd ed. (page markers read in full) plus a Nomisma line each. Nomisma holds no coin or type records for these concepts (only the concept and, for dynasties, ruler memberships), so the Nomisma sentence states that. Skipped: polity/kingdom-of-france (no EI2 entry; data file holds only a Wikidata description, not usable for prose). No founder-held slugs in the packet.
+- 2026-11-14 packet 41 (B1 prose): 10 entries written (ar, en, ur). Skipped founder-held slugs: none were in the packet. Nomisma concepts for al-mansur-fakhr-al-din-uthman and kayqubad-i returned HTTP 500 and have no Nomisma section. Data note for review: bahram-shah-ghaznavi `died` 1157 (EI2) disagrees with Ibn al-Athir (548 AH) and Hasan Ibrahim (547 AH); not changed.
+
+- GEMINI: person/bahram-shah-ghaznavi — question: year of death; the data file says 1157, Ibn al-Athir says 548 AH (1153 to 1154 CE) and Hasan Ibrahim 547 AH; the source that would settle it: a numismatic or primary-chronicle check (Juzjani, Tabaqat-i Nasiri, or Ghaznavid coin dates).
