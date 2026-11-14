@@ -31,6 +31,8 @@ Lane A, claimed 14 Nov 2026 in `WORK-REGISTRY.md` on the microSD (row `seerah/si
 
 - **Batch 11:** printed pp. 85-92: Abu al-Dughaysh's revolt at Wasaha (three events: the sending of Abdullah ibn al-Husayn, the battle of Afara, the submission and the fallen mosque), the second march to Najran against Hunaysh al-Wadi'i, and Khiwan with al-Da'am ibn Ibrahim's letter; three persons (Abu al-Dughaysh, Hunaysh, al-Da'am). Each in ar, en and ur, all draft.
 
+- **Batch 12:** printed pp. 92-98 (to Arhab ibn al-Da'am's raid): Batnat Hujur, al-Hisn and Athafit; the people of Bayt Dhu'd against al-Da'am (with Sa'sa'a ibn Ja'far of Raydah); the confrontation and settlement at Najd al-Dayr; one place (Bayt Dhu'd; Athafit reused from `place/athafit`). Three events and one place, each in ar, en and ur, all draft.
+
 ## Judgments recorded
 
 - **Narrators corrected.** `work/sira-hadi-ila-al-haqq` listed `person/yala-ibn-muhammad-al-yafrani` (a Zanata amir of the Maghreb, d. 347 AH, from Ibn Khaldun) and al-Hadi himself as authors, and its summary named "Ya'la ibn Muhammad". The book's own opening leaf (printed p. 15) and the editor (pp. 7-8) name Muhammad ibn Sulayman al-Kufi and Ali ibn Muhammad ibn Ubaydallah al-Abbasi al-Alawi; the earlier reading is a misreading of the title-page OCR. The work now lists the two real narrators. The Yafrani record is untouched and no longer linked from this book. Held for the founder: whether that unrelated record needs any further change (none made).
@@ -63,10 +65,12 @@ Lane A, claimed 14 Nov 2026 in `WORK-REGISTRY.md` on the microSD (row `seerah/si
 
 - **Batch 11 notes:** (1) The book's calendar runs one day earlier than the tabular calendar throughout (Thursday 16 Rabi II = Friday in the tabular; Monday 12 Jumada I = Tuesday), so converted dates are marked derived and the difference is recorded in the notes. (2) "Abu Muhammad" from p. 86 is Abdullah ibn al-Husayn by context; "Abu Muhammad ibn Ubaydallah" on pp. 81 and 86 (Vision confirms the print) is read as the governor Muhammad ibn Ubaydallah, whom p. 85 calls "Abu Jafar"; the first person on pp. 87-89 is the narrator Muhammad ibn Ubaydallah, calling Abdullah "cousin"; their kinship is not spelled out and not asserted. (3) The village of Abu al-Dughaysh reads "Afara" (p. 87) and "Mafara" (p. 86); not made a place record. (4) The marvels (Hunaysh's death, the Prophet's curse in al-Hadi's dream, Ibn al-Ajami, the fallen mosque) are attributed to the narrator, not affirmed or denied; the curse formula is not repeated. (5) The cutting of Hunaysh's palms and vines is described as a punitive act in the book's account. (6) Hamza: none.
 
+- **Batch 12 notes:** (1) The allegations about al-Da'am's troops (p. 94) are the narrator's hearsay from unnamed sources and are summarised without graphic detail and attributed. (2) Abd al-Aziz ibn Marwan is "of Najran" on p. 85 and "of Bahrain, Abu Umar" on p. 95; not settled whether one man. (3) The name Bayt Dhu'd (p. 65 testimony vs p. 94 place near Athafit): likely the same, not asserted. (4) The name of the Hamdani man of al-Mahra killed (p. 97) is not given in either manuscript (editor's note). (5) "Banu Sarim" and "al-Mahra", "al-Ma'mariyyin" read as printed; no group records made. (6) The single-combat challenge and the settlement are the narrator's account in praise of the imam.
+
 ## Excluded items
 
 None this batch.
 
 ## Resume point
 
-Scan p. 89 (printed 92), from "ثم خرج من خيوان يوم الخميس ... يريد بطنة حجور": the march to Batnat Hujur and what follows. Plan as before; use Vision where the OCR is doubtful.
+Scan p. 95 (printed 98), from "خبر دخول أرحب بن الدعام أثافت": Arhab ibn al-Da'am with Banu Salman, the threat to Khiwan, and Abu al-Qasim Muhammad ibn al-Hadi at Khiwan. Plan as before.

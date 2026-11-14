@@ -1,0 +1,65 @@
+id: event/al-hadi-and-al-daam-confrontation-at-najd-al-dayr-285
+class: event
+kind: other
+label:
+  ar: مواجهة الهادي والدعام بن إبراهيم عند نجد الضير والصلح بينهما، رمضان 285هـ
+  en: The confrontation of al-Hadi and al-Da'am ibn Ibrahim at Najd al-Dayr and the settlement between them, Ramadan 285 AH
+  ur: نجد الضیر پر ہادی اور دعام بن ابراہیم کا آمنا سامنا اور ان کے درمیان صلح، رمضان 285ھ
+summary:
+  ar: بلغ الهادي في رمضان 285هـ أن الدعام خرج من بلده بعسكر عظيم يريد البون فظن أنه يريد أثافت فعاد من خيوان إليها، ثم سار إلى رأس النقيل فرآه، فنشر الرايات فرجع الدعام إلى حمدة، ثم التقيا عند نجد الضير فعبّأ الهادي عسكره، ونزل بين الصفين وصلى قصراً، وعرض على الدعام المبارزة لئلا تقتتل العرب، فكرهها، وجرت الرسل ووقع قتال محدود قُتل فيه رجلان، ثم كفّ الهادي ميمنته ووقع الصلح وحلف الدعام على السمع والطاعة.
+  en: In Ramadan 285 AH word reached al-Hadi that al-Da'am had left his land with a great army for al-Bawn, and thinking he meant Athafit he went back to it from Khiwan; then he went up to the head of al-Naqil and saw him, unfurled his banners, and al-Da'am went back to Hamda; they met at Najd al-Dayr, al-Hadi drew up his army, dismounted between the lines and prayed short, offered al-Da'am single combat so the Arabs would not fight each other, which he disliked; messengers passed, a limited fight left two dead, then al-Hadi told his right wing to stop and peace was made with al-Da'am swearing to hear and obey.
+  ur: رمضان 285ھ میں ہادی کو خبر ملی کہ دعام بڑے لشکر کے ساتھ اپنے علاقے سے البون کی طرف نکلا ہے، انہوں نے سمجھا وہ اثافت کا ارادہ رکھتا ہے تو خیوان سے اثافت لوٹے؛ پھر النقیل کی چوٹی پر گئے اور اسے دیکھا، جھنڈے لہرائے اور دعام حمدہ لوٹ گیا؛ پھر نجد الضیر پر ملاقات ہوئی، ہادی نے لشکر کی صف بندی کی، دونوں صفوں کے درمیان اتر کر مختصر نماز پڑھی، دعام کو انفرادی مقابلے کی پیشکش کی تاکہ عرب آپس میں نہ لڑیں، جو اسے ناپسند ہوا؛ قاصد چلتے رہے، محدود لڑائی میں دو آدمی مارے گئے، پھر ہادی نے اپنے دائیں بازو کو رکنے کو کہا اور صلح ہوئی جس میں دعام نے سننے اور ماننے کی قسم کھائی۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0898-09
+    hijri: 0285-09
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: رمضان سنة 285هـ بنص الكتاب ⁦(خروج الهادي من خيوان ليلة الجمعة لسبع باقية من رمضان)⁩؛ الشهر فقط؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/bayt-dhud-yemen
+- type: occurred_at
+  target: place/athafit
+- type: occurred_at
+  target: place/khiwan
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/sasaa-ibn-jafar-al-hamdani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/al-hadi-at-athafit-and-the-people-of-bayt-dhud-285
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص95-98 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-12
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 95-98
