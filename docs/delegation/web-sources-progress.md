@@ -1205,6 +1205,13 @@ Sources: al-Zirikli, al-A'lam (alam-zirikli-dar-al-ilm-2002) and al-Safadi, al-W
 - Merge note: packet 41 (PR before this one) had added thin first-prose stubs for ahmad-jalayir and kayqubad-i. Their text was replaced by the cited biographies above; their polity links (jalayirids, rum-seljuk-sultanate) and the Nomisma section for Ahmad were kept in all three languages, and the stubs' statements that the entry was unread were dropped as no longer true.
 
 - GEMINI: person/bahram-shah-ghaznavi — question: year of death; the data file says 1157, Ibn al-Athir says 548 AH (1153 to 1154 CE) and Hasan Ibrahim 547 AH; the source that would settle it: a numismatic or primary-chronicle check (Juzjani, Tabaqat-i Nasiri, or Ghaznavid coin dates).
+
+## 2026-11-14 (packet id, Lane B2 identity re-check)
+
+- Written (ar, en, ur): ibn-al-sikkit (al-A'lam 8:195), ruh-ibn-hatim-al-muhallabi (al-A'lam 3:34), abd-allah-ibn-yusuf (Taqrib al-Tahdhib p. 300, noisy OCR, only the legible facts used).
+- Card corrections for zayn-al-abidin-work-14608 and ibrahim-ibn-sad-ibn-abi-waqqas (wrong imam and al-Zuhri dates) found and landed first by packet corr-p1; kept as on main.
+- Skipped: ibrahim-ibn-sad-al-zuhri and ibrahim-ibn-sad-al-mulawi already have trilingual prose from earlier batches (al-Zuhri A'lam 1:40 matches the card dates 727-800; not rewritten here).
+- GEMINI: ahmad-ibn-musa-al-kazim | Death date and a dictionary entry for Ahmad ibn Musa ibn Ja'far (Shah Cheragh, Shiraz) | card: died 818~ (al-Mufid, al-Irshad), source al-A'lam; Wikidata Q5961712 says 2 Nov 818 | al-A'lam has no entry for him; al-Wafi none | the Imami sources (al-Mufid, al-Irshad) read in a Shiraz-focused source, or Ar Wikipedia with its cited sources.
 - 2026-11-14 packet 43 (B1 prose): 10 entries written (ar, en, ur) from the Encyclopaedia of Islam, 2nd ed. (vol. and PDF page read in full; Venice and the Holy Roman Empire have no entry of their own, so their pages gather the articles on Italy, Alexandria, Iskender Beg and Nemce, and say so). Nomisma holds no coin or type records for any of the ten (only concepts and, for polities, membership records). Skipped founder-held slugs: none were in the packet. Data note for review: dulafid-dynasty start 800 (tradition) differs from EI2, where the dynasty rests on Abu Dulaf (d. 225/839-40) and ends 284/897-8; qara-qoyunlu end 1468 vs EI2 1469 (874 AH); not changed.
 
 - 2026-11-14 packet 44 (B1 prose): wrote crete, tiberias, tehran, kashan (Yaqut, Dar Sader v.1 p.236, v.4 pp.17-19, 51-52, 296-297) and short pages for india, asia-minor, euboea, belgrade, hispania, pisidia. Data note: Nomisma `crete` etc. count as region only; India, Tiberias, Tehran, Belgrade, Kashan have no linked coins.
