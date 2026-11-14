@@ -12,7 +12,7 @@ wings: [people]
 regions: [maghreb]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [spirituality-and-sufism]
-sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002, source/arrabita-abu-al-abbas-al-sabti]
 external_ids:
   wikidata: Q2822099
   viaf: "46519792"
@@ -26,7 +26,7 @@ status:
   review: draft
   completeness: 3
 born: { edtf: "1129", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 84: 524 AH = 1130 CE; 524 AH begins in late 1129, so the card's 1129 is kept." }
-died: { edtf: "1204", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 84: 601 AH = 1204 CE." }
+died: { edtf: "1204", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 84: 601 AH = 1204 CE. Al-Rabita al-Muhammadiyya page (arrabita.ma, read 14 November 2026) states he died at Marrakesh in 601/1205 and was buried outside Bab Taghzut; 601 AH runs from late 1204 to 1205, so the year in the card is kept and 1205 is recorded as the variant. The day 3 Jumada II is not stated on that page and is not recorded.", sources: [source/arrabita-abu-al-abbas-al-sabti] }
 relations:
   - { type: lived_in, target: place/marrakesh, note: "From text: of Marrakesh", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/ceuta, note: "Al-Zirikli, al-A'lam vol. 1 p. 84: born at Ceuta (Sabta).", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
