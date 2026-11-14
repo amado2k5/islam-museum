@@ -3013,3 +3013,21 @@ Resume point: alwaad-alhaq episode 3 (branch from origin/main).
 ### min-kunuz-al-sunnah ep12 review (14 Nov 2026)
 
 Episode 12 re-read against the transcript after merge (#6642): one wording corrected in ar, en, ur (the report on lying to a brother is among the greatest major sins, not "betrayal"); no marks or links changed. All later episodes are reviewed against the transcript before merge; see their notes.
+
+### min-kunuz-al-sunnah ep13 (14 Nov 2026)
+
+15 points written for episode 13 (ar, en, ur); 11 needs_source marks in each language file for this episode; 13 new `about` edges. Quran verses referenced only through passage links (38-23, 38-24, 24-30, 9-105); none typed. Contested: He applies the hadith of charity to his own views on judicial independence, road etiquette, parking at prayer and lowering the gaze; the stories of Ali's sword, the Companion who struck a wall and al-Shafi'i's complaint are given without chains.
+
+| Excluded (min-kunuz-al-sunnah ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings and praise | ep13 00:00:00-00:00:30 | Greeting formula, no teaching content | Content rule | Open |
+| Break announcement and return greeting, suspense about the story | ep13 00:08:00-00:09:00 | Break join and promise of a surprise | Content rule | Open |
+| Break announcement before the second part | ep13 00:17:30-00:18:00 | Break join, repeated hadith recap | Content rule | Open |
+| Closing recap, prayer and farewell | ep13 00:27:30-00:28:30 | Closing prayer and farewell | Content rule | Open |
+| Claim that the Arabs before Islam despised work | ep13 00:22:00-00:22:30 | Sweeping claim about a people | Voice rule | Open |
+| Looping stretch of repeated letters | ep13 00:07:30-00:08:00 | ASR loop, unrecoverable | Clarity, Loop check | Open |
+| Looping stretch of repeated letters | ep13 00:23:00-00:23:30 | ASR loop, unrecoverable | Clarity, Loop check | Open |
+| Looping stretch, gift to son hadith lost | ep13 00:27:00-00:27:30 | ASR loop, hadith of the gift only partly recovered | Clarity, Loop check | Open |
+| Garbled asides on a wedding and vague jokes | ep13 00:13:00-00:14:30 | Partly garbled wording about nightlife, only the Paradise-and-fire point kept | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 14 (branch from origin/main).
