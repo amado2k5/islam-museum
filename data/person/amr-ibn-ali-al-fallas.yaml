@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/tahdhib-al-kamal-mizzi, source/siyar-alam-nubala]
 external_ids:
   wikidata: Q12228530
   viaf: "15149717458910951934"
@@ -19,7 +19,7 @@ status:
   review: draft
   completeness: 3
 born: { edtf: "777", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
-died: { edtf: "863", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal Confirmed on 13 November 2026 against Wikidata Q12228530 (P570, a statement with a reference), item revision 2568460000.", sources: [source/wikidata] }
+died: { edtf: "0864-01", hijri: "0249", calendar: julian, precision: month, derived: true, note: "Al-Mizzi, Tahdhib al-Kamal (Bashshar Awwad Maruf ed., Dar al-Risala), vol. 22 p. 164, entry 4416 (read 14 November 2026): died at al-Askar at the end of Dhu al-Qa'da 249 AH; al-Dhahabi, Siyar A'lam al-Nubala' (Risala ed.) vol. 11 p. 471 gives Dhu al-Qa'da 249 AH; al-Zirikli, al-A'lam vol. 5 pp. 81-82 gives 249 AH = 864 CE. The end of Dhu al-Qa'da 249 AH is about 13-14 January 864 by the tabular calendar (the Dhu al-Qa'da of 249 begins in December 863), so 864 replaces the 863 that came from a year-only conversion (Wikidata Q12228530).", sources: [source/tahdhib-al-kamal-mizzi, source/siyar-alam-nubala, source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
 relations:
   - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: lived_in, target: place/baghdad, note: "Al-Zirikli, al-A'lam vol. 5 p. 79: he settled in Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

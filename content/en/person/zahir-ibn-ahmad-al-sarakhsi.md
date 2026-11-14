@@ -14,4 +14,4 @@ He heard from Abu Lubayd Muhammad ibn Idris al-Sami, Abu al-Qasim al-Baghawi, Ya
 He held a part of the Muwatta', the chapters on musaqat and qirad, from Prince Ibrahim ibn Abd al-Samad al-Hashimi, a companion of Abu Mus'ab al-Zubayri, and he took the art of disputation and theology from Abu al-Hasan al-Ash'ari {cite:siyar-alam-nubala-ideas-house ص1706}. Al-Hakim said he heard his debate in the gathering of Abu Bakr ibn Ishaq al-Sibghi {cite:siyar-alam-nubala-ideas-house ص1706}.
 
 ## His death
-He died in Rabi' al-Akhir 389 AH {cite:siyar-alam-nubala-ideas-house ص1706}. His entry is numbered 2095 in the edition {cite:siyar-alam-nubala-ideas-house ص1706}. His year of birth could not be read with certainty in the scan the museum has, so it is not stated here.
+He died in Rabi' al-Akhir 389 AH {cite:siyar-alam-nubala-ideas-house ص1706}. His entry is numbered 2095 in the edition {cite:siyar-alam-nubala-ideas-house ص1706}. The Risala edition of the Siyar, read on the page for this correction, gives his birth in 294 AH, which is 906 to 907 CE, and says he was ninety-six years old when he died {cite:siyar-alam-nubala vol. 16 pp. 476-477}.
