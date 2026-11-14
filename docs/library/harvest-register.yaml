@@ -29115,4 +29115,2251 @@ websites:
 
 datasets:
   # BEGIN datasets
+  - id: wikidata-dump-latest-all
+    title: Wikidata JSON dump (latest-all.json.bz2)
+    kind: dump
+    source:
+      name: Wikimedia Wikidata entity dump
+      url: https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
+      release: latest as of download (snapshot date not recorded)
+    licence: CC0 1.0
+    lane: wikidata harvest (docs/delegation/wikidata-harvest-progress.md)
+    location: raw/wikidata/
+    files:
+    - {name: raw/wikidata/latest-all.json.bz2, bytes: 103337856107, date: '2026-10-11', sha256: fc0f81ff8caae6e16f78f60c53400da2cfc538a7e5d4ca242f062b728f4129bf, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    acquisition:
+      method: aria2c, two connections, resumable (scripts/harvest/sources.yaml wikidata-dump)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      derived:
+      - wikidata-subset-v1
+      - wikidata-subset-v2
+      scripts:
+      - scripts/harvest/wikidata/filter_dump.py
+      ledger:
+      - docs/delegation/wikidata-harvest-progress.md
+      - docs/delegation/harvest-retained-files.md
+    completion: ingested
+    state_note: 'Filtered twice into the subsets (v2: 121,860,985 lines read). Kept on the drive: deletion needs the founder''s go-ahead (docs/delegation/harvest-retained-files.md); a rebuild with new seeds needs it.'
+    unverified:
+    - acquisition.snapshot_date
+    - acquisition.exact_download_time
+  - id: wikidata-sparql-seed-queries
+    title: Wikidata seed queries q01 to q13d and seed QID lists
+    kind: api_pull
+    source:
+      name: Wikidata Query Service
+      url: https://query.wikidata.org/sparql
+    licence: CC0 1.0
+    lane: wikidata harvest
+    location: layers/cc0/wikidata/ (seeds-q*.json); db/ (seeds.txt, seeds.before-q11-13.txt)
+    files:
+    - {name: db/seeds.txt, bytes: 119302, date: '2026-10-18', sha256: 1e365e612e3fb72aa21dba8c0f1d82915246d0b0a77ce58404772aae8a848736, note: '12,587 QIDs, v2 seed list'}
+    - {name: db/seeds.before-q11-13.txt, bytes: 68129, date: '2026-10-18', sha256: e187c23838b4f451ac7892ada2821dcd4b1572bfa985610c47288924e97e8829, note: '6,994 QIDs, seed list before q11a to q13d'}
+    acquisition:
+      method: run_queries.py, one query file per class, 5 s pause, 60 s timeout (scripts/harvest/wikidata/queries/q01..q13d)
+      date: '2026-10-12'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      derived:
+      - wikidata-subset-v1
+      - wikidata-subset-v2
+      ledger:
+      - docs/delegation/wikidata-harvest-progress.md
+    completion: complete
+    state_note: Queries q01 to q10 run 12 Oct 2026, q11a to q13d run by 18 Oct 2026. q08 mosques filtered to at least 4 sitelinks (3,096 items); other counts in the ledger.
+    unverified:
+    - acquisition.date_per_query
+  - id: wikidata-subset-v1
+    title: Wikidata subset v1 (Islam tree, 1,074 seeds) tables and DuckDB
+    kind: derived
+    source:
+      name: derived from wikidata-dump-latest-all
+    licence: CC0 1.0
+    lane: wikidata harvest
+    location: layers/cc0/wikidata/
+    files:
+    - {name: layers/cc0/wikidata/wikidata-subset.duckdb, bytes: 1120940032, date: '2026-10-18', sha256_status: pending, note: 'tables wd_claim 6,426,519 wd_entity 788,183 wd_external_id 1,548,873 wd_label 3,341,999 wd_property 4,081 wd_sitelink 1,231,607 (estimated rows)'}
+    directory: {path: layers/cc0/wikidata/, files: 41, bytes_on_disk: 4160774144, date: '2026-10-18'}
+    acquisition:
+      method: two-pass filter of the dump (filter_dump.py), tables built 12 Oct 2026
+      date: '2026-10-12'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      entities: 25 polities and 16 buildings (commit 8e58b5194c and e7d7a95, 12 Oct 2026, pre-ruleset)
+      ledger:
+      - docs/delegation/wikidata-harvest-progress.md
+    completion: ingested
+    state_note: Superseded by v2; the founder's notes say keep v1 until v2 is verified (layers/cc0/RESUME-wikidata.md). The table counts are from the file on 14 Nov 2026 and differ from the 12 Oct ledger (18,261 entities), so the file was rebuilt after the ledger line.
+    unverified:
+    - acquisition.rebuild_date
+  - id: wikidata-subset-v2
+    title: Wikidata subset v2 (12,587 seeds) Parquet tables and DuckDB
+    kind: derived
+    source:
+      name: derived from wikidata-dump-latest-all
+    licence: CC0 1.0
+    lane: wikidata harvest and wikidata-import
+    location: layers/cc0/wikidata-v2/
+    files:
+    - {name: layers/cc0/wikidata-v2/wikidata-subset.duckdb, bytes: 1229467648, date: '2026-10-19', sha256_status: pending, note: 'tables wd_claim 7,324,901 wd_entity 838,109 wd_external_id 2,006,942 wd_label 4,033,150 wd_property 4,081 wd_sitelink 1,641,324'}
+    - {name: layers/cc0/wikidata-v2/wd_claim.parquet, bytes: 120352318, date: '2026-10-19', sha256: 10d97fd0016cfb2e772a4c54c058db16932588bc039908646c2616f27f800862}
+    - {name: layers/cc0/wikidata-v2/wd_entity.parquet, bytes: 17614380, date: '2026-10-19', sha256: ca70d8f5a74e151683334f80fc8670d6b811de1c92c7bbe0490ba2e6ee5968a1}
+    - {name: layers/cc0/wikidata-v2/wd_label.parquet, bytes: 95238436, date: '2026-10-19', sha256: 9c61ab521b800e27759f45bd2f9d64752b82d44a46d4c2ce39c7ffb65e0a18a9}
+    - {name: layers/cc0/wikidata-v2/wd_sitelink.parquet, bytes: 27939010, date: '2026-10-19', sha256: 26659a6d6cc6ca5e8a9f464c3fd2de4728396c182e2100b4332bf92df7c45b31}
+    - {name: layers/cc0/wikidata-v2/wd_external_id.parquet, bytes: 23550412, date: '2026-10-19', sha256: bc00cde0e6d5dea0a52489827980c406133b8dc60a07b8abf709e87f99243d86}
+    directory: {path: layers/cc0/wikidata-v2/, files: 25, bytes_on_disk: 4759298048, date: '2026-10-19'}
+    acquisition:
+      method: pass 1 kept 822,174 of 121,860,985 lines (15,938 neighbours needed); pass 2 kept 15,935; built 19 Oct 2026 08:05
+      date: '2026-10-19'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      lanes:
+      - wikidata-import (docs/delegation/wikidata-import/)
+      prs:
+      - 3382
+      - 3383
+      commits:
+      - 62ddd5844
+      - 2cc01d8d4
+      entities: 'wikidata-import lane: 2,233 records created, 731 linked, 79,469 candidates skipped of 82,296 (progress.json, 20 Oct 2026)'
+      ledger:
+      - docs/delegation/wikidata-import/STATUS.md
+      - docs/delegation/wikidata-harvest-progress.md
+    completion: ingested
+    state_note: Current local read path (scripts/harvest/wikidata/lookup.py). Pull request numbers 3382 and 3383 are the wave-2 draft promotions; earlier import batches were pushed before the pull-request rule and have commit hashes only.
+    unverified:
+    - used_by.prs_other_than_3382_3383
+  - id: wikidata-import-workdir
+    title: Wikidata import lane working files (frozen candidate lists, decision logs, deferred queue)
+    kind: working_area
+    source:
+      name: derived from wikidata-subset-v2
+    licence: CC0 1.0
+    lane: wikidata-import
+    location: wikidata-import/
+    files:
+    - {name: wikidata-import/candidates.tsv, bytes: 1059332, date: '2026-10-19', sha256: 7f50762aa737fffd9a4b275965e2fa09eb0fd9a324e26ea0e859af07ed4d6189, note: '82,296 candidates, sha256 7f50762a... recorded in progress.json'}
+    - {name: wikidata-import/candidates-wave2.tsv, bytes: 326076, date: '2026-10-19', sha256: 6f0e8a8749999b0136fca5f69362d3d812acb1b011600815cc2af8be97787409}
+    - {name: wikidata-import/candidates-wave3.tsv, bytes: 1848928, date: '2026-10-20', sha256: 21fed19088c3225966565a7703216ac730c0834e66ed94b5e24e6761b502786f}
+    - {name: wikidata-import/deferred-queue.tsv, bytes: 90646, date: '2026-10-22', sha256: 47d1e7e100581919887dc07613c753c24afd72b6866498d38dbab15ec948fec8, note: '5,334 deferred items mapped to QIDs'}
+    directory: {path: wikidata-import/, files: 1396, bytes_on_disk: 106024960, date: '2026-10-22'}
+    used_by:
+      ledger:
+      - docs/delegation/wikidata-import/README.md
+      - docs/delegation/wikidata-import/STATUS.md
+      prs:
+      - 3382
+      - 3383
+    completion: ingested
+    state_note: Lane finished its candidate list (next_index 82296). Per-candidate decisions are in docs/delegation/wikidata-import/ (committed); the files here are working copies and tools.
+  - id: wikipedia-dump-en
+    title: Wikipedia dump, en (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: enwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (first_ring)
+    location: raw/wikipedia/en/
+    files:
+    - {name: raw/wikipedia/en/enwiki-latest-pages-articles-multistream.xml.bz2, bytes: 26917225724, date: '2026-10-11', sha256: f3c3b5814fb08456764852fdacc3029f4c20ba70580095df6ca0f26fd24856d7, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/en/enwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 285227194, date: '2026-10-11', sha256: e337a3e2c72f73734b3d2b1948a249368c9bc2f4023745a9ba8e53e094182b9e, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/en/enwiki-latest-page.sql.gz, bytes: 2432679945, date: '2026-10-11', sha256: 4e76fc156a06ca2dc01636e93ce442c19ddd38214b4a2774aa8d3baf4592c7c1, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/en/enwiki-latest-categorylinks.sql.gz, bytes: 2549901446, date: '2026-10-11', sha256: 5fb4c80c61ca2e9d8a37e2db95e063834683f7f9657b1a55a047e2317221afe1, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/en/enwiki-latest-linktarget.sql.gz, bytes: 1443058692, date: '2026-10-11', sha256: 9569bc3be8b7cedfed24e69c3e8b1f870fdfb784a9714bcaaefe99f2b018535a, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    derived:
+    - db/wikipedia.duckdb
+    - layers/by-sa/wikipedia/en/pages.jsonl
+    completion: ingested
+    state_note: Category-walk tables loaded into db/wikipedia.duckdb; article text parsed only where a layer file or candidate list exists (see wikipedia-category-walk-duckdb). Article text was extracted into the by-sa layer (pages.jsonl).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-fr
+    title: Wikipedia dump, fr (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: frwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (first_ring)
+    location: raw/wikipedia/fr/
+    files:
+    - {name: raw/wikipedia/fr/frwiki-latest-pages-articles-multistream.xml.bz2, bytes: 7284754675, date: '2026-10-11', sha256: 0d5108b9c9852f65381b3a08c4fc4b5d68ac832d69b3ade0b01e8dde68c4b0c8, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/fr/frwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 64180327, date: '2026-10-11', sha256: 76c8367682cf8df06279d1148aa403f3da77a0e933e5b63baebb9b36d96d8ed3}
+    - {name: raw/wikipedia/fr/frwiki-latest-page.sql.gz, bytes: 485960880, date: '2026-10-11', sha256: 4698495d2e9b502e42329630f5892a230e6570e69bc2103deb9cded64c99d495, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/fr/frwiki-latest-categorylinks.sql.gz, bytes: 687992799, date: '2026-10-11', sha256: ad62ed7fb6d26099e8b4d3b7b249aa87255cf566aebf967f18dd1fc525102892, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/fr/frwiki-latest-linktarget.sql.gz, bytes: 352516801, date: '2026-10-11', sha256: 8e1334c5f599e6b11fd8d7520aa9899c10bda5aad3fa8130593442bb1fbcbf2a, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    derived:
+    - db/wikipedia-fr.duckdb
+    completion: ingested
+    state_note: Category-walk tables loaded into db/wikipedia-fr.duckdb; article text parsed only where a layer file or candidate list exists (see wikipedia-category-walk-duckdb).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-ar
+    title: Wikipedia dump, ar (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: arwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (first_ring)
+    location: raw/wikipedia/ar/
+    files:
+    - {name: raw/wikipedia/ar/arwiki-latest-pages-articles-multistream.xml.bz2, bytes: 2157051188, date: '2026-10-11', sha256: 6f7706a96d95eb8de07dcb9361e26cce5fc9e7ba3e66fdcd67a9505c45a29e1b, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ar/arwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 33882239, date: '2026-10-11', sha256: cb57bdc0e76578a2372f6c415b1ce51269bb866a9780fedc4c12fcba7520fa90}
+    - {name: raw/wikipedia/ar/arwiki-latest-page.sql.gz, bytes: 292156289, date: '2026-10-11', sha256: a6fcede91048940c5bf1b2ef906dc962a3cd617e87580f00d8bd546ae56304c4, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ar/arwiki-latest-categorylinks.sql.gz, bytes: 429507647, date: '2026-10-11', sha256: f9acff33cff1434b3026a0fafcda41c8181392c5ebea70de454b6536fa26b367, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ar/arwiki-latest-linktarget.sql.gz, bytes: 540057812, date: '2026-10-11', sha256: 446ed45a2332d4a08385228d3cd1a5b3ca15854c779541f5f838f39a5b2ea6ad, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    derived:
+    - db/wikipedia-ar.duckdb
+    - layers/by-sa/wikipedia/ar/pages.jsonl
+    completion: ingested
+    state_note: Category-walk tables loaded into db/wikipedia-ar.duckdb; article text parsed only where a layer file or candidate list exists (see wikipedia-category-walk-duckdb). Article text was extracted into the by-sa layer (pages.jsonl).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-fa
+    title: Wikipedia dump, fa (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: fawiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (first_ring)
+    location: raw/wikipedia/fa/
+    files:
+    - {name: raw/wikipedia/fa/fawiki-latest-pages-articles-multistream.xml.bz2, bytes: 1582413562, date: '2026-10-11', sha256: 1087d2f082d80485ac3aa69e170e75d2942710638d4a0ed7599e1945f1a2b863, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/fa/fawiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 36523618, date: '2026-10-11', sha256: 8793917ec97cae8bb4e082204414574e91c4bb7a91edfa3153daa2dab344fd2e}
+    - {name: raw/wikipedia/fa/fawiki-latest-page.sql.gz, bytes: 196533941, date: '2026-10-11', sha256: a3c19c69b8ca63901b1c209ea0e7a418b72fc5cbee8283196c265a4928b19a7c}
+    - {name: raw/wikipedia/fa/fawiki-latest-categorylinks.sql.gz, bytes: 198614196, date: '2026-10-11', sha256: ec9fd92d68c9248554a4b3a34a84946474f28cd2dbe36aad2842755827d30b07}
+    - {name: raw/wikipedia/fa/fawiki-latest-linktarget.sql.gz, bytes: 210414847, date: '2026-10-11', sha256: 5b7452ec5d18dea68b54ce1fc1acb6a7062c9775877bc31490f29a3ecc48cf94, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    derived:
+    - db/wikipedia-fa.duckdb
+    completion: ingested
+    state_note: Category-walk tables loaded into db/wikipedia-fa.duckdb; article text parsed only where a layer file or candidate list exists (see wikipedia-category-walk-duckdb).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-id
+    title: Wikipedia dump, id (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: idwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (first_ring)
+    location: raw/wikipedia/id/
+    files:
+    - {name: raw/wikipedia/id/idwiki-latest-pages-articles-multistream.xml.bz2, bytes: 1336686725, date: '2026-10-11', sha256: 98e283585d051d46ef12692ef8928a2d44f5f1d61af972dbf118773b83bd6bb8, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/id/idwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 18311621, date: '2026-10-11', sha256: 257f3f8131690b6e804c51f5f15742cbcc2c77108f3e436b0febdb10f03c3055}
+    - {name: raw/wikipedia/id/idwiki-latest-page.sql.gz, bytes: 132961215, date: '2026-10-11', sha256: 67b6ee1d6558b758f809647ac49ed980c7cddd05458fc8eea51b43fba16912a0}
+    - {name: raw/wikipedia/id/idwiki-latest-categorylinks.sql.gz, bytes: 131211302, date: '2026-10-11', sha256: 6375c54c2fb0b8ba550f906520a8fa8d6a99d1b809d96f7817caf01250bb2baa}
+    - {name: raw/wikipedia/id/idwiki-latest-linktarget.sql.gz, bytes: 97803039, date: '2026-10-11', sha256: 043c1a8d78044452857877d891c4cda03005d0839294ace252f77554209a528a}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    derived:
+    - db/wikipedia-id.duckdb
+    completion: ingested
+    state_note: Category-walk tables loaded into db/wikipedia-id.duckdb; article text parsed only where a layer file or candidate list exists (see wikipedia-category-walk-duckdb).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-tr
+    title: Wikipedia dump, tr (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: trwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (first_ring)
+    location: raw/wikipedia/tr/
+    files:
+    - {name: raw/wikipedia/tr/trwiki-latest-pages-articles-multistream.xml.bz2, bytes: 1136477232, date: '2026-10-11', sha256: 736d4a7fd85e2b14db27e4f6607769574faf9a0a3d848858ed00fbf53e9aab83, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/tr/trwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 15516414, date: '2026-10-11', sha256: 8579d2f178dc282edb37bf7df22db0f988b26e544a4bcf55ceaad3ff547efd39}
+    - {name: raw/wikipedia/tr/trwiki-latest-page.sql.gz, bytes: 106172476, date: '2026-10-11', sha256: aa8f33ff7720aaa01c88bf4b415479361a53cf92ffeb205c6b4cfc59fa7cbe6e}
+    - {name: raw/wikipedia/tr/trwiki-latest-categorylinks.sql.gz, bytes: 119885721, date: '2026-10-11', sha256: 8fcfafa8c609a6fce645f0a8ffc03a12455fe58f9cf4c2650866384256528d7d}
+    - {name: raw/wikipedia/tr/trwiki-latest-linktarget.sql.gz, bytes: 111006587, date: '2026-10-11', sha256: b2ab33975e4eaf3e3e7edc05dceaf039428399dfafd0b1d7e32c6a6928a556bf}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    derived:
+    - db/wikipedia-tr.duckdb
+    completion: ingested
+    state_note: Category-walk tables loaded into db/wikipedia-tr.duckdb; article text parsed only where a layer file or candidate list exists (see wikipedia-category-walk-duckdb).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-bn
+    title: Wikipedia dump, bn (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: bnwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (first_ring)
+    location: raw/wikipedia/bn/
+    files:
+    - {name: raw/wikipedia/bn/bnwiki-latest-pages-articles-multistream.xml.bz2, bytes: 566852712, date: '2026-10-11', sha256: 1b953826f0a178a3083ed5a8855783fef8986466a332627f39818ceeee11a413, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/bn/bnwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 7410304, date: '2026-10-11', sha256: dd71490029dee23310ec10a1a4d6320b50fe93d9a7bc8c53b6dddbf10251b48a}
+    - {name: raw/wikipedia/bn/bnwiki-latest-page.sql.gz, bytes: 49546652, date: '2026-10-11', sha256: 9573a1c961207f23d6e212d48db99f9c0ab95309a2b3858cfef6eb6917a4c9a3}
+    - {name: raw/wikipedia/bn/bnwiki-latest-categorylinks.sql.gz, bytes: 32653217, date: '2026-10-11', sha256: 232b960cd51a18dc8015f4e3c1919d3259f9ae3f1b305d1de0b96cfa9a9fab36}
+    - {name: raw/wikipedia/bn/bnwiki-latest-linktarget.sql.gz, bytes: 66208532, date: '2026-10-11', sha256: 7faf7a25f79421b35dde2445c46ef87f9d9413f454798471cebe72a0ce90af12}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    derived:
+    - db/wikipedia-bn.duckdb
+    completion: ingested
+    state_note: Category-walk tables loaded into db/wikipedia-bn.duckdb; article text parsed only where a layer file or candidate list exists (see wikipedia-category-walk-duckdb).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-ur
+    title: Wikipedia dump, ur (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: urwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (first_ring)
+    location: raw/wikipedia/ur/
+    files:
+    - {name: raw/wikipedia/ur/urwiki-latest-pages-articles-multistream.xml.bz2, bytes: 543654378, date: '2026-10-11', sha256: b5145153b9b36a2a170c62e83842cc68ff71363d030512c2c120a639e0e18a7b, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ur/urwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 20476009, date: '2026-10-11', sha256: 438caa88a5deee907544bb55445f99dc26146ee079885c6f4b344130b22c2db9}
+    - {name: raw/wikipedia/ur/urwiki-latest-page.sql.gz, bytes: 95422404, date: '2026-10-11', sha256: 03dcf10f196aeb7c36ba08c8e5d31421f69fd7398a9e1e216d095b189b600d3a}
+    - {name: raw/wikipedia/ur/urwiki-latest-categorylinks.sql.gz, bytes: 98550839, date: '2026-10-11', sha256: ea381a16ff6ff59fc510c5e450db390350c0aa200c4a46da3eddd8a62d005ee4}
+    - {name: raw/wikipedia/ur/urwiki-latest-linktarget.sql.gz, bytes: 49497840, date: '2026-10-11', sha256: da112e33e11f9d12f06f786f5c15ff522d24545931983c2ccd092c44478d1110}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    derived:
+    - db/wikipedia-ur.duckdb
+    completion: ingested
+    state_note: Category-walk tables loaded into db/wikipedia-ur.duckdb; article text parsed only where a layer file or candidate list exists (see wikipedia-category-walk-duckdb).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-ms
+    title: Wikipedia dump, ms (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: mswiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (first_ring)
+    location: raw/wikipedia/ms/
+    files:
+    - {name: raw/wikipedia/ms/mswiki-latest-pages-articles-multistream.xml.bz2, bytes: 441741085, date: '2026-10-11', sha256: 7b68357785b42e1c97c96e077b1cd3b11df8234b8a3ad7c23b0bb63d3190dfe0, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ms/mswiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 5831247, date: '2026-10-11', sha256: 706e524d8f76ffa1e005945e8241629e1117ae9c6a45c4984b18ac428ae7b2af}
+    - {name: raw/wikipedia/ms/mswiki-latest-page.sql.gz, bytes: 34813177, date: '2026-10-11', sha256: 1982225129149dc7d066f644f6076c7da63f84bc4dbcaa98bb0244ec6ca2e4ab}
+    - {name: raw/wikipedia/ms/mswiki-latest-categorylinks.sql.gz, bytes: 27772115, date: '2026-10-11', sha256: 2ca749bf02bf055ba2ec31d9e594bac2c01fd59179d8b064de6c5cad9b6a7185}
+    - {name: raw/wikipedia/ms/mswiki-latest-linktarget.sql.gz, bytes: 79307275, date: '2026-10-11', sha256: cc32ed3a385624fb89fc86324168245ffd278445d53f3dcd4bd7e576b48fde35}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    derived:
+    - db/wikipedia-ms.duckdb
+    completion: ingested
+    state_note: Category-walk tables loaded into db/wikipedia-ms.duckdb; article text parsed only where a layer file or candidate list exists (see wikipedia-category-walk-duckdb).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-de
+    title: Wikipedia dump, de (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: dewiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/de/
+    files:
+    - {name: raw/wikipedia/de/dewiki-latest-pages-articles-multistream.xml.bz2, bytes: 8272117613, date: '2026-10-11', sha256: 8da775ef18aa64d0cd1fc341489b14370ad7e36c0985c75b0bd6a6e8937f7811, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/de/dewiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 63489895, date: '2026-10-11', sha256: 12a828d62fa60a253a33f8613550049876a8ae91646ec88af61c716e03e4b011}
+    - {name: raw/wikipedia/de/dewiki-latest-page.sql.gz, bytes: 320871103, date: '2026-10-11', sha256: ed6e8ba8a4cdf3e5312d607c77b92397c390f07f1f3c0d29fe40a3092e1847a5, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/de/dewiki-latest-categorylinks.sql.gz, bytes: 272500618, date: '2026-10-11', sha256: 1ee5171cf24454f247e754264d5cc0cbaea0c6dcc5791a9ca9832b7cfcf64714, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/de/dewiki-latest-linktarget.sql.gz, bytes: 299234455, date: '2026-10-11', sha256: 25420c1502fca5d17ca5aa8f6bc667a2504a2c0a39016c5e6a15175fce8af53f, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    derived:
+    - db/wikipedia-de.duckdb
+    completion: ingested
+    state_note: Category-walk tables loaded into db/wikipedia-de.duckdb; article text parsed only where a layer file or candidate list exists (see wikipedia-category-walk-duckdb).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-es
+    title: Wikipedia dump, es (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: eswiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/es/
+    files:
+    - {name: raw/wikipedia/es/eswiki-latest-pages-articles-multistream.xml.bz2, bytes: 5405790725, date: '2026-10-11', sha256: 1a3ffe21aab8c1e9aeb9b3cbbb65aa5e52c0b476d328a21af5a75981b5c06f85, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/es/eswiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 50467682, date: '2026-10-11', sha256: 32e46b7f951439ff46f848260765d6038c7a50443717c5101c02e9e7470dbca2}
+    - {name: raw/wikipedia/es/eswiki-latest-page.sql.gz, bytes: 302542414, date: '2026-10-11', sha256: ea783242bfa3b8ea8459469b0f699b259cf6267abde4ac615c980c56f6912a52, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/es/eswiki-latest-categorylinks.sql.gz, bytes: 220277427, date: '2026-10-11', sha256: f09de3871eb3d57d0f3e27f96d52d1eaf32cc6fbdf763f7696afda9d432807fa, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/es/eswiki-latest-linktarget.sql.gz, bytes: 213997292, date: '2026-10-11', sha256: 59a4296606a117f4819b13d8186868f01e5bab8d24251521b913710b93df0ee3, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-ru
+    title: Wikipedia dump, ru (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: ruwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/ru/
+    files:
+    - {name: raw/wikipedia/ru/ruwiki-latest-pages-articles-multistream.xml.bz2, bytes: 6212830831, date: '2026-10-11', sha256: c22b6441176d2bc572ed6883abc6292fe168efca211f6cdd61d8772a78492a1b, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ru/ruwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 66367857, date: '2026-10-11', sha256: 17c6a4cebb90ecb2b0f881e04aa3b49356bd6ee6add802a7201b9ca1a9b093e3}
+    - {name: raw/wikipedia/ru/ruwiki-latest-page.sql.gz, bytes: 314950229, date: '2026-10-11', sha256: 24250cca6122fff02896a1ced0a85b7afa4d6be00fa119c169a5eeef3fbe5830, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ru/ruwiki-latest-categorylinks.sql.gz, bytes: 343720059, date: '2026-10-11', sha256: 1ecb32ffaff28a120b6a8f4297d4b228b65c49beb593eae022b5811ae41512e1, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ru/ruwiki-latest-linktarget.sql.gz, bytes: 243099022, date: '2026-10-11', sha256: bc1f24b7b8eb06298cbe70fdfb010ec023586d05bd2d3403ba2370091e1edc4a, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-zh
+    title: Wikipedia dump, zh (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: zhwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/zh/
+    files:
+    - {name: raw/wikipedia/zh/zhwiki-latest-pages-articles-multistream.xml.bz2, bytes: 3611931172, date: '2026-10-11', sha256: 49f7d0b59069d9376c87594e841b864f18ca11bfdb21feb5a32cb60ca318ac9b, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/zh/zhwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 43539745, date: '2026-10-11', sha256: 86b45c31384ed11bcabefbbc908896a81eef43e4ab3f3f44c3967ed57957dd25}
+    - {name: raw/wikipedia/zh/zhwiki-latest-page.sql.gz, bytes: 286144416, date: '2026-10-11', sha256: d5ea65981f5d25a39dc04ad6a21ac8a191a4641d6fe52f97c0589ac068c2f0dd, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/zh/zhwiki-latest-categorylinks.sql.gz, bytes: 258349041, date: '2026-10-11', sha256: e5262f6d8a5ae24d3a6087cca5c7f4d2cbf2113f4a49c0ceb60a1ea390ff61aa, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/zh/zhwiki-latest-linktarget.sql.gz, bytes: 217677478, date: '2026-10-11', sha256: 55e3d6a31e69160672b3107f06614d13c941096252bdddb6e6b4cc9a5611f0de, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-hi
+    title: Wikipedia dump, hi (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: hiwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/hi/
+    files:
+    - {name: raw/wikipedia/hi/hiwiki-latest-pages-articles-multistream.xml.bz2, bytes: 251878194, date: '2026-10-11', sha256: a10c4915880277d518585c74ee294fd8d6e8158f85bc2ec07a0b83e94e2234c3, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/hi/hiwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 2989209, date: '2026-10-11', sha256: 00dbffd33eb46d29c2f3f82e6dae99c31fdb2e30cf067acd3f2ffef720cbfb54}
+    - {name: raw/wikipedia/hi/hiwiki-latest-page.sql.gz, bytes: 42128862, date: '2026-10-11', sha256: ec2af1bd2bc3c5018f1bd49a13c55f5030d508abab76181c93fb37de8e8541fd}
+    - {name: raw/wikipedia/hi/hiwiki-latest-categorylinks.sql.gz, bytes: 10472307, date: '2026-10-11', sha256: bc21355300ec054d3e8955c3d8c219b4b5f7a320462e7a9510429d719cc7d906}
+    - {name: raw/wikipedia/hi/hiwiki-latest-linktarget.sql.gz, bytes: 28137149, date: '2026-10-11', sha256: 38fae293124ff3ac8d23f03579d80a658fa95fb491c8ce01006e6f8b1800fa31}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-ha
+    title: Wikipedia dump, ha (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: hawiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/ha/
+    files:
+    - {name: raw/wikipedia/ha/hawiki-latest-pages-articles-multistream.xml.bz2, bytes: 192746404, date: '2026-10-11', sha256: 4448b16afad271057b1d24c91fd31e3c0871a4d2e71485b0688deb326722dbf5}
+    - {name: raw/wikipedia/ha/hawiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 1326944, date: '2026-10-11', sha256: 2277614ed6ece00965b7105779ca809ee6a2ed9901e328e85bbd601a2f0b1d4d}
+    - {name: raw/wikipedia/ha/hawiki-latest-page.sql.gz, bytes: 6116174, date: '2026-10-11', sha256: 69cc527cdc9d9897c95b87432c8d538614aa5647a87256d5e3cd92e8a981431b}
+    - {name: raw/wikipedia/ha/hawiki-latest-categorylinks.sql.gz, bytes: 3846354, date: '2026-10-11', sha256: 26f5068f53613936c5256b8953d1fcd5dbba5a2c157d7399d4b9450c93a6cda3}
+    - {name: raw/wikipedia/ha/hawiki-latest-linktarget.sql.gz, bytes: 8105035, date: '2026-10-11', sha256: 911c1c84ae5c3dc5b5b94b5d790c39231ff44332e13bccc66fa34b1cb1513a14}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-sw
+    title: Wikipedia dump, sw (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: swwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/sw/
+    files:
+    - {name: raw/wikipedia/sw/swwiki-latest-pages-articles-multistream.xml.bz2, bytes: 80276109, date: '2026-10-11', sha256: 441929abdfd0169af950f62f793b0a36661b735cdb7695f1353e89a8a0191c38}
+    - {name: raw/wikipedia/sw/swwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 1582106, date: '2026-10-11', sha256: 42e045c8435b1b23cd2a736b886e13ec6d24bf50db717f04198490a2287938e0}
+    - {name: raw/wikipedia/sw/swwiki-latest-page.sql.gz, bytes: 7877017, date: '2026-10-11', sha256: 3377efcdb9d8ec92dc524d006e1b3f935d3f7dab5815d8b8d6630a61f4616ee0}
+    - {name: raw/wikipedia/sw/swwiki-latest-categorylinks.sql.gz, bytes: 5242824, date: '2026-10-11', sha256: 7ca38fc167160b744dce74756507185b033a997950e9e416347d048f7321e69e}
+    - {name: raw/wikipedia/sw/swwiki-latest-linktarget.sql.gz, bytes: 5492087, date: '2026-10-11', sha256: 7315e270b613885044e277b9b1cc3dfc06a98f2df775e87f0b63a6ff6d607bc5}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-so
+    title: Wikipedia dump, so (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: sowiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/so/
+    files:
+    - {name: raw/wikipedia/so/sowiki-latest-pages-articles-multistream.xml.bz2, bytes: 24503099, date: '2026-10-11', sha256: 2fbbd1f9b5135f17ca97d0183d70b3ebc70ec6aab0031e818821aed84212e8b2}
+    - {name: raw/wikipedia/so/sowiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 264035, date: '2026-10-11', sha256: 09d00c95a34cd709ec3c1a13ab01a60fd3000ac11a24a6c551bdba9d124bba5d}
+    - {name: raw/wikipedia/so/sowiki-latest-page.sql.gz, bytes: 1171532, date: '2026-10-11', sha256: cf3ff579e37fabd71bf9cad9f97947f0a6850ffda54f14ea14c71990d4673a16}
+    - {name: raw/wikipedia/so/sowiki-latest-categorylinks.sql.gz, bytes: 634972, date: '2026-10-11', sha256: 61d8f78395a102bc356f880b970845ef579bd4efe4d33309e78985a52c30711e}
+    - {name: raw/wikipedia/so/sowiki-latest-linktarget.sql.gz, bytes: 1939914, date: '2026-10-11', sha256: 5233cd57c5799523f44cd08fb5d6e6bf53c48fba2616b997c59c268896eb2993}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-bs
+    title: Wikipedia dump, bs (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: bswiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/bs/
+    files:
+    - {name: raw/wikipedia/bs/bswiki-latest-pages-articles-multistream.xml.bz2, bytes: 190761941, date: '2026-10-11', sha256: 0a43b891296577a62b6d1b1bf83de964c38de6f2dc4102a841be8d081cacb030}
+    - {name: raw/wikipedia/bs/bswiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 2248605, date: '2026-10-11', sha256: a515a66d4acb47cf613e918b83c4b5edec1ba9d68deb51dd4753e42f60c1c3f4}
+    - {name: raw/wikipedia/bs/bswiki-latest-page.sql.gz, bytes: 11439606, date: '2026-10-11', sha256: c2d7ddb7167997d5c9829bd3174d02078abe331637ba61a8ab076f6bde746dc6}
+    - {name: raw/wikipedia/bs/bswiki-latest-categorylinks.sql.gz, bytes: 8795376, date: '2026-10-11', sha256: 8f008425f57e16e15d8e3450dbc2b2fa1b8ad19450a8b2f525f5156f5e501bd4}
+    - {name: raw/wikipedia/bs/bswiki-latest-linktarget.sql.gz, bytes: 13989242, date: '2026-10-11', sha256: 805a33600bf35022eb9ac88f4614e69d9aae90e70b9c99ac40c8082eab7996e4}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-sq
+    title: Wikipedia dump, sq (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: sqwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/sq/
+    files:
+    - {name: raw/wikipedia/sq/sqwiki-latest-pages-articles-multistream.xml.bz2, bytes: 170163857, date: '2026-10-11', sha256: f68ebede261825bd113e63a72b69e6e4dd87f9a5fb24c7835f3005b6ad43cd0a}
+    - {name: raw/wikipedia/sq/sqwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 1958611, date: '2026-10-11', sha256: d873ae39fc600402706cd36a8a22a5545b20fc5470b80a78073e41d08e9bad22}
+    - {name: raw/wikipedia/sq/sqwiki-latest-page.sql.gz, bytes: 10653441, date: '2026-10-11', sha256: 687c1a037c3549352a8967fd31889208ccbade220eb426f3d5cfbc48a2fff675}
+    - {name: raw/wikipedia/sq/sqwiki-latest-categorylinks.sql.gz, bytes: 8689816, date: '2026-10-11', sha256: 60b5f490fc12052bce0b33136c0e81e5b8b300e41f16ed722aa6f047ca7bcfb8}
+    - {name: raw/wikipedia/sq/sqwiki-latest-linktarget.sql.gz, bytes: 11157049, date: '2026-10-11', sha256: 9b4b4ef31ed8c167f67015d9b107fdbf0992602f7763d3174f632d2595cc6702}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-az
+    title: Wikipedia dump, az (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: azwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/az/
+    files:
+    - {name: raw/wikipedia/az/azwiki-latest-pages-articles-multistream.xml.bz2, bytes: 354472484, date: '2026-10-11', sha256: 42ff94cdcf07ab7ca5da659c514417347a197a48df04b6a0302f237ddf54176c, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/az/azwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 4986480, date: '2026-10-11', sha256: 04c256db9784b5641e1222f795b8b7c440ad34f2fe33d3cf1ec90b6cafe17b4a}
+    - {name: raw/wikipedia/az/azwiki-latest-page.sql.gz, bytes: 22702943, date: '2026-10-11', sha256: 609cecff7bbfab6b99b4ba089a06f605b5145b9ce0773ba5ed70ec7c0d5bd9ca}
+    - {name: raw/wikipedia/az/azwiki-latest-categorylinks.sql.gz, bytes: 28244014, date: '2026-10-11', sha256: cb4cf57d54cf2c1283b4edca073db2da57039ba34d6f4be3c5c6c140becbe43f}
+    - {name: raw/wikipedia/az/azwiki-latest-linktarget.sql.gz, bytes: 19604948, date: '2026-10-11', sha256: 9182d06ad523fffcb4eea4e236a92fca876426f3a72bcec9fd16e132ed8d06f2}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-uz
+    title: Wikipedia dump, uz (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: uzwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/uz/
+    files:
+    - {name: raw/wikipedia/uz/uzwiki-latest-pages-articles-multistream.xml.bz2, bytes: 342902988, date: '2026-10-11', sha256: 6131609edf5f7a610c9d401cb7c07e05022b2bb903b4e5c9c3414a1ab786b895, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/uz/uzwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 6343092, date: '2026-10-11', sha256: 1f157826ffbee27e5ed6e9c1ac5a7b7227e34a3f1db230e41f8e338986768863}
+    - {name: raw/wikipedia/uz/uzwiki-latest-page.sql.gz, bytes: 38171779, date: '2026-10-11', sha256: 1491c1d9f722cb9c7b599acd1cd6815a432cb8a813750b86c3ffc5a852254b07}
+    - {name: raw/wikipedia/uz/uzwiki-latest-categorylinks.sql.gz, bytes: 25817322, date: '2026-10-11', sha256: a814c05f365141155fc2926ffc5eb7d21c50bfdf83cf66b71f35a17eb796d7a5}
+    - {name: raw/wikipedia/uz/uzwiki-latest-linktarget.sql.gz, bytes: 78262401, date: '2026-10-11', sha256: 32d48ca94a81c8dfca113167459e07c327b13d830fd81bd3808465fe2f9fb615}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-kk
+    title: Wikipedia dump, kk (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: kkwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/kk/
+    files:
+    - {name: raw/wikipedia/kk/kkwiki-latest-pages-articles-multistream.xml.bz2, bytes: 177711980, date: '2026-10-11', sha256: d36bb2f405da4d70b73f7abcbf704d0d6334e58384f002f108cec4c895e1b80e}
+    - {name: raw/wikipedia/kk/kkwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 3244317, date: '2026-10-11', sha256: 248b8c14cebe7b489ae7f547f77a8a1fcb8e42f21179d1500f02ab46ead2496c}
+    - {name: raw/wikipedia/kk/kkwiki-latest-page.sql.gz, bytes: 20528856, date: '2026-10-11', sha256: 417471a7f3ebacf3439c303c589ae531b8a0a1fb3fadb5bdee54ac3820ae41d4}
+    - {name: raw/wikipedia/kk/kkwiki-latest-categorylinks.sql.gz, bytes: 17529062, date: '2026-10-11', sha256: ef427dfbe3a3686afe8318d8fd5916e7e8e64f51a1eb39e699d8614cc65ce392}
+    - {name: raw/wikipedia/kk/kkwiki-latest-linktarget.sql.gz, bytes: 12060527, date: '2026-10-11', sha256: 6fcad5b9a183ac8cb262b910953f02aa8bd3e9788961575411d73c4e326ffac5}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-tt
+    title: Wikipedia dump, tt (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: ttwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/tt/
+    files:
+    - {name: raw/wikipedia/tt/ttwiki-latest-pages-articles-multistream.xml.bz2, bytes: 186809706, date: '2026-10-11', sha256: 80ffcd28f11b26738ad329355858a5a8af482a18429cadb8152a6629e7fba937}
+    - {name: raw/wikipedia/tt/ttwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 6337793, date: '2026-10-11', sha256: b8fa58a5e19f72c27697178f1175891ba5fe80a79ae3cd2e203360bd3254b443}
+    - {name: raw/wikipedia/tt/ttwiki-latest-page.sql.gz, bytes: 39594615, date: '2026-10-11', sha256: 4b5446c120e3b809489380bcde25dc53049ea3ecc4b0314620c69cf07a327312}
+    - {name: raw/wikipedia/tt/ttwiki-latest-categorylinks.sql.gz, bytes: 56765587, date: '2026-10-11', sha256: fce291894c7f5674a9eea798346262d56d6533efe4492e04717e182b4ba55505}
+    - {name: raw/wikipedia/tt/ttwiki-latest-linktarget.sql.gz, bytes: 18018623, date: '2026-10-11', sha256: 915de82cf0b922ec5e9f366e417ac50638fbcf25be8b3d6df8d6f052d703d460}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-ku
+    title: Wikipedia dump, ku (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: kuwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/ku/
+    files:
+    - {name: raw/wikipedia/ku/kuwiki-latest-pages-articles-multistream.xml.bz2, bytes: 49037805, date: '2026-10-11', sha256: 3ba300b77f1203cd9d510db0210f0a5175b37b18c9df1c4208db4c58e24fe575}
+    - {name: raw/wikipedia/ku/kuwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 1332834, date: '2026-10-11', sha256: 14ceb8cb40787728cfdc5fc2b393e679b96c0572b0dd1cd6b35fac384eb4c40d}
+    - {name: raw/wikipedia/ku/kuwiki-latest-page.sql.gz, bytes: 8620078, date: '2026-10-11', sha256: af7e6897723719f514297942abbcd52d71380716517f75fac8613a7788c081a2}
+    - {name: raw/wikipedia/ku/kuwiki-latest-categorylinks.sql.gz, bytes: 11991846, date: '2026-10-11', sha256: 0c0220c1311b27edcd2421722a3318bb151eb544c47fb927a958dfc888b689d7}
+    - {name: raw/wikipedia/ku/kuwiki-latest-linktarget.sql.gz, bytes: 12463556, date: '2026-10-11', sha256: 1717434ac2a8ed7f757e87291548645a8f16b713558015f2025844c04f0d55ae}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-ps
+    title: Wikipedia dump, ps (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: pswiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/ps/
+    files:
+    - {name: raw/wikipedia/ps/pswiki-latest-pages-articles-multistream.xml.bz2, bytes: 53560740, date: '2026-10-11', sha256: ba59702e4d3ebfc3962ea91bbdf1a552f548103c4dfc43ddd14805087454efc3}
+    - {name: raw/wikipedia/ps/pswiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 396923, date: '2026-10-11', sha256: 488870c901c2e6d3b1733ceaa13b2c384f1a4c81f61fc04ed956a8a99cf63218}
+    - {name: raw/wikipedia/ps/pswiki-latest-page.sql.gz, bytes: 2547119, date: '2026-10-11', sha256: b8bf46f63458ed461405832253373dfc6a9309cdfba2c8ac3bf61d8d17f1ce43}
+    - {name: raw/wikipedia/ps/pswiki-latest-categorylinks.sql.gz, bytes: 1455118, date: '2026-10-11', sha256: 0ff373be2d79d4743d69b71edfc08b86e2d10884762cdf251d0fab331d90c088}
+    - {name: raw/wikipedia/ps/pswiki-latest-linktarget.sql.gz, bytes: 2755444, date: '2026-10-11', sha256: e2fe69f5d4ff2bbfb28e8e750ac2745868012e6fae01ae4442e33af0907ee31d}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-pa
+    title: Wikipedia dump, pa (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: pawiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/pa/
+    files:
+    - {name: raw/wikipedia/pa/pawiki-latest-pages-articles-multistream.xml.bz2, bytes: 100577355, date: '2026-10-11', sha256: e06607ceb343a8538356f458e438de2b72bcf139772a0e8d0e01685a290a9261}
+    - {name: raw/wikipedia/pa/pawiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 982416, date: '2026-10-11', sha256: d09554cf2582912d2a2bdcfc1df592a38ea5d48524256830437c454ec0b4f894}
+    - {name: raw/wikipedia/pa/pawiki-latest-page.sql.gz, bytes: 6305731, date: '2026-10-11', sha256: ce920701fd36e7e5117a4e0eac8c8025f8aea73b12f477f22701f804ec958e17}
+    - {name: raw/wikipedia/pa/pawiki-latest-categorylinks.sql.gz, bytes: 3443014, date: '2026-10-11', sha256: b275250e3846e2080065c4cf7832f5fd88f71d02aaa9c3240368a4fb22a9f47a}
+    - {name: raw/wikipedia/pa/pawiki-latest-linktarget.sql.gz, bytes: 6228335, date: '2026-10-11', sha256: c2835bfe1fafe0b2dfae12406040aedb343a696142b986d71cd44cd8bf84ce68}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-sd
+    title: Wikipedia dump, sd (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: sdwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/sd/
+    files:
+    - {name: raw/wikipedia/sd/sdwiki-latest-pages-articles-multistream.xml.bz2, bytes: 57146699, date: '2026-10-11', sha256: d2dc3ad757e04a1e01f719390465a1a7f280c886b84fb0508f446e96001e54b7}
+    - {name: raw/wikipedia/sd/sdwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 550854, date: '2026-10-11', sha256: 7b2957bbf95816bb8dea5c87ab3adf71fc5c45dd8b4e2f5ecf25e18ce41ec270}
+    - {name: raw/wikipedia/sd/sdwiki-latest-page.sql.gz, bytes: 2802131, date: '2026-10-11', sha256: 3cb80df5c683dddff84f9d4d32a81c36e0cfc300c740ecbbe4985978a1aaa8c0}
+    - {name: raw/wikipedia/sd/sdwiki-latest-categorylinks.sql.gz, bytes: 2026395, date: '2026-10-11', sha256: 7522dd0930b0a01da8727ad7a966432db220e9284e3c8a2806ce9b3a1bc874b7}
+    - {name: raw/wikipedia/sd/sdwiki-latest-linktarget.sql.gz, bytes: 6805125, date: '2026-10-11', sha256: d14f7aa2a22b5002694a191def0e00745efc5e999d011ed0b6abc68b1a74dde2}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-ta
+    title: Wikipedia dump, ta (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: tawiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/ta/
+    files:
+    - {name: raw/wikipedia/ta/tawiki-latest-pages-articles-multistream.xml.bz2, bytes: 287368352, date: '2026-10-11', sha256: bd30f370630bdb1409ecad855c30e8ddeb663b9552a4ab4835b2fae6442c3054, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ta/tawiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 2980273, date: '2026-10-11', sha256: 483e3986c351546aa28c8ac66f0ec181ce8894d61ffd16ccfd9d47e90c5205a7}
+    - {name: raw/wikipedia/ta/tawiki-latest-page.sql.gz, bytes: 21749974, date: '2026-10-11', sha256: 235c008b5de8464bce341ff1b791ac188e8c06aff26fb47b1f6b1991d28ccb45}
+    - {name: raw/wikipedia/ta/tawiki-latest-categorylinks.sql.gz, bytes: 13888094, date: '2026-10-11', sha256: a97471fd187e74a91a16bb57560d3ddece856816b3d090d08d10f0f0ebcc82ef}
+    - {name: raw/wikipedia/ta/tawiki-latest-linktarget.sql.gz, bytes: 13955110, date: '2026-10-11', sha256: a2332cef3b6deaa77d08c6caae547ee332081c3f43cee8a660703fdc5c4623f2}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-ml
+    title: Wikipedia dump, ml (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: mlwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/ml/
+    files:
+    - {name: raw/wikipedia/ml/mlwiki-latest-pages-articles-multistream.xml.bz2, bytes: 212690690, date: '2026-10-11', sha256: 7b0efd1e747900fbe5e4000a3b840c75d7e301612c714f5b42ba258cb500ae9a, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ml/mlwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 2986277, date: '2026-10-11', sha256: 46f5c0628b404735146af7cbe063731dbccaac2c03b1862862234cd1de85d148}
+    - {name: raw/wikipedia/ml/mlwiki-latest-page.sql.gz, bytes: 19175113, date: '2026-10-11', sha256: 5d8e76c6a9b3867614678b78160d0d9999c83df799820d8a32e3b23e1b38d4ca}
+    - {name: raw/wikipedia/ml/mlwiki-latest-categorylinks.sql.gz, bytes: 8269149, date: '2026-10-11', sha256: 43d38d7c9f3271401e7ebd605eeca6ed99e1343aa0f1100fb5e2699618b62081}
+    - {name: raw/wikipedia/ml/mlwiki-latest-linktarget.sql.gz, bytes: 19099847, date: '2026-10-11', sha256: 48242d2e79d6d511a3e753234c3d0a82076cab352fe9c5c3101788969a164ea9}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-th
+    title: Wikipedia dump, th (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: thwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/th/
+    files:
+    - {name: raw/wikipedia/th/thwiki-latest-pages-articles-multistream.xml.bz2, bytes: 525085039, date: '2026-10-11', sha256: 3893194ff8b4ea2778038500a550392283d780e0ea55e1e8a883be504187afc6, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/th/thwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 6211197, date: '2026-10-11', sha256: 25d9a630fb84b4dcf2631881ecbf0d8525829c86acb48ff0c537e099d53b92ef}
+    - {name: raw/wikipedia/th/thwiki-latest-page.sql.gz, bytes: 42114755, date: '2026-10-11', sha256: 0897e4e40bcff37b6eb656a8274949f9ab4c3abfdafaa509921c78e190c50a9f}
+    - {name: raw/wikipedia/th/thwiki-latest-categorylinks.sql.gz, bytes: 33120022, date: '2026-10-11', sha256: 61895297dcbfd3e852ab0eb1c22f2459a23c1d13b0c0f0b37fa822e312eace4f}
+    - {name: raw/wikipedia/th/thwiki-latest-linktarget.sql.gz, bytes: 43378274, date: '2026-10-11', sha256: 3478aba9ffb8aecd904257123ca05eedde5c972d04db7739d58570becb43295b}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-ja
+    title: Wikipedia dump, ja (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: jawiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/ja/
+    files:
+    - {name: raw/wikipedia/ja/jawiki-latest-pages-articles-multistream.xml.bz2, bytes: 4879122470, date: '2026-10-11', sha256: c2892dceee482961b7b277125012d858f8c9bee68fc2d7ce94c31f888756947b, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ja/jawiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 31437876, date: '2026-10-11', sha256: 8a040564302dc0ba57160172abef3d4f69cc7ca36ea67b6439959d441cd037e7}
+    - {name: raw/wikipedia/ja/jawiki-latest-page.sql.gz, bytes: 172693904, date: '2026-10-11', sha256: e8c5700a0aa8223d7dd089815b6e40bef17b5ce6fd5a9097be83102d105773b7}
+    - {name: raw/wikipedia/ja/jawiki-latest-categorylinks.sql.gz, bytes: 177281841, date: '2026-10-11', sha256: 603be3542ca3d05aa8c58f20bf6310b724816aabe7513c5616e6cd65f4f3b8c8}
+    - {name: raw/wikipedia/ja/jawiki-latest-linktarget.sql.gz, bytes: 141613309, date: '2026-10-11', sha256: 7c5d2d1e46c652a170800c5b28b60bc2bc565057f1130a09b1a20cb994d945d8}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-ko
+    title: Wikipedia dump, ko (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: kowiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/ko/
+    files:
+    - {name: raw/wikipedia/ko/kowiki-latest-pages-articles-multistream.xml.bz2, bytes: 1482082829, date: '2026-10-11', sha256: 399894881b325e999cd90f2492de5259cfc1f168bc9773a78eaf8a69e053ae84, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/ko/kowiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 19301586, date: '2026-10-11', sha256: 133b4c57f0d79df61bbfd20f2d17b5f077a51b29e9e5c3682ce1d92263a8f54f}
+    - {name: raw/wikipedia/ko/kowiki-latest-page.sql.gz, bytes: 118546484, date: '2026-10-11', sha256: 3efffa6957d30d4195f1548aee82839a8d8fe9e82ac67a971dea9c6f1961541d}
+    - {name: raw/wikipedia/ko/kowiki-latest-categorylinks.sql.gz, bytes: 110053972, date: '2026-10-11', sha256: 77ba57f428697258247dc49ac680b93ff6a688f4a1f07d9f619e72baf2594902}
+    - {name: raw/wikipedia/ko/kowiki-latest-linktarget.sql.gz, bytes: 78819905, date: '2026-10-11', sha256: 1b3a76dd3ad6d79c911cafca6b0e4257bf24f6ae0192c4707012c8c18ad07f50}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-it
+    title: Wikipedia dump, it (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: itwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/it/
+    files:
+    - {name: raw/wikipedia/it/itwiki-latest-pages-articles-multistream.xml.bz2, bytes: 4456911083, date: '2026-10-11', sha256: 490f94daf2a03b558c97c0590d358ca0c6b558809552a0bd5f6495eea2197fd1, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/it/itwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 42680037, date: '2026-10-11', sha256: 888ba3f4750a31a0e84e80ecc312240afe0e192f6d17ca0ea8624bc7ddd8c393}
+    - {name: raw/wikipedia/it/itwiki-latest-page.sql.gz, bytes: 296989001, date: '2026-10-11', sha256: 70eca53e43cd29be9f2e16d45e5087a900c010d24492937472de917be143fc1d, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/it/itwiki-latest-categorylinks.sql.gz, bytes: 272724096, date: '2026-10-11', sha256: 2cdae79792727f5260e20923ebb9be953421e45b4b46bdd719738dc5a0d489f2, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/it/itwiki-latest-linktarget.sql.gz, bytes: 166540173, date: '2026-10-11', sha256: 229aa1a2267a356488addd2ed6c65f917b6441c442d2df5e6c07025eb86b038a}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-nl
+    title: Wikipedia dump, nl (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: nlwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/nl/
+    files:
+    - {name: raw/wikipedia/nl/nlwiki-latest-pages-articles-multistream.xml.bz2, bytes: 2193773453, date: '2026-10-11', sha256: 82df4a87f93c6e20b4131c93a12a6920b433ee9bf037836e6d572ff303b2c168, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/nl/nlwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 31089796, date: '2026-10-11', sha256: 881d7e16a36a2b15a4b5995d23d831636c115354892032b5dad1d0ad73c21117}
+    - {name: raw/wikipedia/nl/nlwiki-latest-page.sql.gz, bytes: 154335189, date: '2026-10-11', sha256: 53eaec9372b8f0490c066a1c70202118904f4e61ef91495e610f77ce2d02d7e5}
+    - {name: raw/wikipedia/nl/nlwiki-latest-categorylinks.sql.gz, bytes: 116277599, date: '2026-10-11', sha256: 6078054a365fcc0b3642c6a2d72aa9c3f122dba7ed42dc66489ee3eb8660ce9a}
+    - {name: raw/wikipedia/nl/nlwiki-latest-linktarget.sql.gz, bytes: 118497326, date: '2026-10-11', sha256: 86d696d37ddd62aac56ba7934856f7d0011d1acb86c11b18f90ccfbf939ffc24}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-dump-pt
+    title: Wikipedia dump, pt (articles, index, page, categorylinks, linktarget)
+    kind: dump
+    source:
+      name: Wikimedia Wikipedia dumps
+      url: https://dumps.wikimedia.org/
+      release: ptwiki-latest as of download
+    licence: CC BY-SA 4.0 and GFDL (pointers and context only, never merged into the CC0 layer)
+    lane: wikipedia harvest (second_ring)
+    location: raw/wikipedia/pt/
+    files:
+    - {name: raw/wikipedia/pt/ptwiki-latest-pages-articles-multistream.xml.bz2, bytes: 2884729691, date: '2026-10-11', sha256: 840cbc77d773b18b1b39a2e3a24a2ef0646e67308cb814bdb9cbdcc6b4bf09c5, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/pt/ptwiki-latest-pages-articles-multistream-index.txt.bz2, bytes: 28741179, date: '2026-10-11', sha256: eccc6f021313dcafa1d4690cafa75ced0cfd13eaff26e356ba20b59728ea9194}
+    - {name: raw/wikipedia/pt/ptwiki-latest-page.sql.gz, bytes: 209864147, date: '2026-10-11', sha256: 294188a85c00bd04b13867460aa2eb18a7749beb7922e96f3b11a8f56f1cab68, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/wikipedia/pt/ptwiki-latest-categorylinks.sql.gz, bytes: 161856458, date: '2026-10-11', sha256: 4bea323437e8e8c5572600db3e83057d2d3aa837edfbfb4a8f837d457d7b1baa}
+    - {name: raw/wikipedia/pt/ptwiki-latest-linktarget.sql.gz, bytes: 132358243, date: '2026-10-11', sha256: 02cc8873ec715e2d863104f3a0b5d358a67325c66f12a863e83850df0e160a6c}
+    acquisition:
+      method: download_dumps.py, two connections (scripts/harvest/sources.yaml wikipedia-dumps)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    completion: downloaded
+    state_note: Downloaded, not parsed or loaded (ledger docs/delegation/harvest-retained-files.md lists it as open for the founder).
+    unverified:
+    - acquisition.snapshot_date
+  - id: wikipedia-category-walk-duckdb
+    title: Wikipedia category-walk tables (DuckDB, ten languages)
+    kind: derived
+    source:
+      name: derived from the wikipedia-dump-* entries (page, categorylinks, linktarget)
+    licence: CC BY-SA 4.0 (pointers only)
+    lane: wikipedia harvest
+    location: db/
+    files:
+    - {name: db/wikipedia.duckdb, bytes: 2504536064, date: '2026-10-11', sha256_status: pending, note: 'en: wp_en_catdepth, wp_en_catlinks 226.6 M rows est., wp_en_linktarget, wp_en_page 21.9 M, wp_en_scope'}
+    - {name: db/wikipedia-ar.duckdb, bytes: 562049024, date: '2026-10-11', sha256_status: pending, note: 'ar: wp_ar_catdepth, wp_ar_catlinks, wp_ar_linktarget, wp_ar_page 3.6 M, wp_ar_scope'}
+    - {name: db/wikipedia-bn.duckdb, bytes: 141045760, date: '2026-11-05', sha256: 98363d16730d82dd1776b625e81d4e00e9a32a8795e444eb3fbb5b6a5d2ba330, note: 'bn: wp_bn_catlinks, wp_bn_linktarget, wp_bn_page'}
+    - {name: db/wikipedia-de.duckdb, bytes: 417607680, date: '2026-11-05', sha256_status: pending, note: 'de: wp_de_catlinks, wp_de_linktarget, wp_de_page'}
+    - {name: db/wikipedia-fa.duckdb, bytes: 291778560, date: '2026-11-05', sha256_status: pending, note: 'fa: wp_fa_catlinks, wp_fa_linktarget, wp_fa_page'}
+    - {name: db/wikipedia-fr.duckdb, bytes: 671887360, date: '2026-11-05', sha256_status: pending, note: 'fr: wp_fr_catlinks, wp_fr_linktarget, wp_fr_page'}
+    - {name: db/wikipedia-id.duckdb, bytes: 189018112, date: '2026-11-05', sha256: f2c26ac8adaee368dcce6e9c6d1a05b665bd4d4703cc00a6543c342c4cbc411a, note: 'id: wp_id_catlinks, wp_id_linktarget, wp_id_page'}
+    - {name: db/wikipedia-ms.duckdb, bytes: 72101888, date: '2026-10-11', sha256: d7eb7ee6ac2f7b81377d7edf1bc723f66570b2a2b18324ba2bcbc8d92e8ded12, note: 'ms: wp_ms_catlinks, wp_ms_linktarget, wp_ms_page'}
+    - {name: db/wikipedia-tr.duckdb, bytes: 146288640, date: '2026-11-05', sha256: b45c5a9227278c160f9fd83aaa76a832a90058209bda8602f28269bce1d6161e, note: 'tr: wp_tr_catlinks, wp_tr_linktarget, wp_tr_page'}
+    - {name: db/wikipedia-ur.duckdb, bytes: 164376576, date: '2026-10-11', sha256: c2259eeff267441dbfb9c6a914db768fa4da066eb7ef8b5f1f47b58111ce631e, note: 'ur: wp_ur_catlinks, wp_ur_linktarget, wp_ur_page'}
+    acquisition:
+      method: load_sql.py then select_pages.py (scripts/harvest/wikipedia)
+      date: 2026-10-11 (en, ar, ms, ur); 2026-11-05 (bn, de, fa, fr, id, tr)
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      derived:
+      - wikipedia-layer-pages-jsonl
+      - wikipedia-candidate-lists
+      scripts:
+      - scripts/harvest/wikipedia/*.py
+      ledger:
+      - docs/delegation/gap-batches.md
+      - docs/delegation/wikipedia-broad-rule-proposal.md
+    completion: ingested
+    state_note: Row counts are DuckDB estimates. Only ar and en have scoped page text extracted.
+    unverified:
+    - acquisition.exact_load_dates_ar_en
+  - id: wikipedia-layer-pages-jsonl
+    title: Wikipedia scoped page text, ar and en (by-sa layer)
+    kind: derived
+    source:
+      name: derived from wikipedia-dump-ar and wikipedia-dump-en
+    licence: CC BY-SA 4.0 (pointers and context only)
+    lane: wikipedia harvest
+    location: layers/by-sa/wikipedia/
+    files:
+    - {name: layers/by-sa/wikipedia/ar/pages.jsonl, bytes: 815657036, date: '2026-10-11', sha256_status: pending}
+    - {name: layers/by-sa/wikipedia/en/pages.jsonl, bytes: 651424266, date: '2026-10-11', sha256_status: pending}
+    - {name: layers/by-sa/wikipedia/ar/pages-sample.jsonl, bytes: 29176, date: '2026-10-11', sha256: 48c7d2b608fb67a49520fe62a12b4193ff811f11308234c15948d79c8ab7820c}
+    - {name: layers/by-sa/wikipedia/en/pages-sample.jsonl, bytes: 22860, date: '2026-10-11', sha256: f607158180b40cd814d1d001b2fc624fd650a24ed429b96dd37e099d62770dc5}
+    - {name: layers/by-sa/wikipedia/en/pages-test300.jsonl, bytes: 5804932, date: '2026-10-11', sha256: 6a1238cc195921b72ae25585eba61db12d80ec1bcb1fef24e8b1bc76b8230d68}
+    acquisition:
+      method: extract.py over the scoped page list (reports/wikipedia-ar-scope.txt, wikipedia-en-scope.txt)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      ledger:
+      - docs/delegation/gap-batches.md
+      - docs/agents/source-families.md
+    completion: ingested
+    state_note: Empty folders for bn, de, fa, fr, id, ms, tr, ur exist under layers/by-sa/wikipedia/ (created 5 Nov 2026, no files).
+  - id: wikipedia-candidate-lists
+    title: Candidate title lists from Arabic and English Wikipedia (ranked sources, gaps, 149 batch files, scope reports)
+    kind: derived
+    source:
+      name: derived from wikipedia-category-walk-duckdb
+    licence: titles and counts only (pointers, never a source)
+    lane: gap batches (docs/delegation/gap-batches.md)
+    location: candidates/, reports/
+    files:
+    - {name: candidates/entities/wikipedia-ar-gaps.tsv, bytes: 917914, date: '2026-10-11', sha256: dc49cf23d4044141377867c5c00e281b494fb3097a37ccbddc9d2c6a53b02e68, note: 'top 5,000 of 51,709 gaps'}
+    - {name: candidates/sources/wikipedia-ar-ranked.tsv, bytes: 585038, date: '2026-10-11', sha256: 80664df0f628eb3b7e2c2d02053cf5bd0b96b4dfdd8ac5f7aacf16b4a0178239}
+    - {name: candidates/sources/wikipedia-ar-ranked-strong.tsv, bytes: 574814, date: '2026-10-11', sha256: 3c0e6cfe3622e056c57f7acb5655bb4eb7452e120981a219a4348d1bc3c3d878}
+    - {name: candidates/sources/wikipedia-ar-web-ranked.tsv, bytes: 57292, date: '2026-10-11', sha256: dc1809bfb1016538966fa4ffc73f3bb146f2b68324cfd800cccbf60039022366}
+    - {name: candidates/sources/wikipedia-en-ranked.tsv, bytes: 557600, date: '2026-10-11', sha256: 21bda2cddb1082ce50202f7d10e1da656c580d539fbfb0a54ba33673983ddd48}
+    - {name: candidates/sources/wikipedia-en-web-ranked.tsv, bytes: 61841, date: '2026-10-11', sha256: 1767d9ca5cd29bf0d92fa6ab92e227b23507085e5d8a18010f8229edc2c1be32}
+    - {name: reports/wikipedia-ar-scope.txt, bytes: 3056, date: '2026-10-11', sha256: 5bcc0bf986b9dd82f553ffbec8f142150fead2ef696f76626e2d86d1f0606fa7}
+    - {name: reports/wikipedia-en-scope.txt, bytes: 1988, date: '2026-10-11', sha256: ffffd7beb85da355f7423e17765263db3c92bc390a5658d81469ec91867e192c}
+    - {name: reports/place-reconciliation.tsv, bytes: 2978, date: '2026-10-11', sha256: 7608344e1de68f3f1c7742ba901dd6a8014dd98c02cccc5891622a024f312a31}
+    - {name: reports/coords-verification.tsv, bytes: 4217, date: '2026-10-14', sha256: 7265d1bea19e37a1afad8fecc9cffc3cb8a76852f8dbc81132aca03069790698}
+    directory: {path: candidates/, files: 155, bytes_on_disk: 3796992, date: '2026-10-11'}
+    acquisition:
+      method: rank_sources.py, gap_report.py, plan_batches.py
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      ledger:
+      - docs/delegation/gap-batches.md
+      - docs/agents/lanes/library.md
+      scripts:
+      - scripts/harvest/wikipedia/rank_sources.py
+      - scripts/harvest/wikipedia/gap_report.py
+      - scripts/harvest/wikipedia/plan_batches.py
+    completion: ingested
+    state_note: 149 batch files in candidates/batches (25 titles each, lanes sahabiyat, sahaba, tabiun-narrators, scholars-imams, rulers-caliphs, groups-dynasties, battles-events, mosques-places, pages-review, people-other, works-books); not individually listed. Which batches produced entities is not recorded in one place.
+    unverified:
+    - used_by.prs
+    - mining.batches_used
+  - id: tanzil-quran-text-v1-1
+    title: Tanzil Qur'an text v1.1 (Uthmani and Simple Clean)
+    kind: download
+    source:
+      name: Tanzil Project
+      url: https://tanzil.net/download/
+      release: v1.1
+    licence: Tanzil terms (verbatim copies only, attribution, notice kept)
+    lane: quran (scripts/harvest/quran)
+    location: raw/quran/
+    files:
+    - {name: raw/quran/tanzil-simple-clean-v1.1.txt, bytes: 794910, date: '2026-10-11', sha256: 1862ee63c70fbfc6285e0bb0b9587b89beb5b7891109a4d543d9d2cf8283e8c8}
+    - {name: raw/quran/tanzil-uthmani-v1.1.txt, bytes: 1396684, date: '2026-10-11', sha256: 7f30c647331a61100ebf24a80507dc0fcdd9f2df97f1312b5b2dfcb982a7f326}
+    acquisition:
+      method: manual browser download, verify_quran.py
+      date: '2026-10-11'
+      by: founder session (manual)
+    used_by:
+      commits:
+      - b6e090ff22
+      entities: 6,640 data and content files cite source/tanzil-quran (14 Nov 2026 count)
+      ledger:
+      - scripts/harvest/quran/verify_quran.py
+    completion: complete
+    state_note: Frozen Qur'an text; the only source of verse text (AGENTS.md). Never edited.
+    unverified:
+    - acquisition.by
+  - id: met-open-access-objects
+    title: Metropolitan Museum of Art Open Access objects CSV (MetObjects.csv)
+    kind: download
+    source:
+      name: The Met Open Access
+      url: https://github.com/metmuseum/openaccess/raw/master/MetObjects.csv
+    licence: CC0 1.0
+    lane: collections (scripts/harvest/collections)
+    location: raw/collections/met/
+    files:
+    - {name: raw/collections/met/MetObjects.csv, bytes: 317650992, date: '2026-10-11', sha256: de617b9c947458e426111207f81a65bd1379a151c0077d3ce29cfc22fc0b9183, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    acquisition:
+      method: csv download (github raw redirect to LFS)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      derived:
+      - harvest-duckdb (met_object 484,956 rows est., met_islamic 15,573)
+      entities: 239 files cite source/met-open-access (14 Nov 2026 count); commit e02d335db4 (2026-10-16)
+    completion: ingested
+    state_note: Loaded by load_tables.py into db/harvest.duckdb.
+  - id: pleiades-dumps-2026-10
+    title: Pleiades gazetteer dumps (places, names, locations) first pull
+    kind: download
+    source:
+      name: Pleiades (via atlantides.org)
+      url: https://atlantides.org/downloads/pleiades/dumps/pleiades-places-latest.csv.gz
+    licence: CC BY 3.0
+    lane: collections
+    location: raw/collections/pleiades/
+    files:
+    - {name: raw/collections/pleiades/pleiades-places-latest.csv.gz, bytes: 6814206, date: '2026-10-11', sha256: 771a9ee426cc1941041d2518ecbfd8bf1f6763f1dbd3704fabb7886528b2ff58}
+    - {name: raw/collections/pleiades/pleiades-names-latest.csv.gz, bytes: 3813782, date: '2026-10-11', sha256: 9f3ff8ee83ef7de0bff457e7b9950fb99d0063d9719e4517d4fd8da32d54e54a}
+    - {name: raw/collections/pleiades/pleiades-locations-latest.csv.gz, bytes: 39262970, date: '2026-10-11', sha256: 1e6810667bba5f053eb2a35f06be02e7ac5f8e6e12ded5eb99794a231fb6cd62}
+    acquisition:
+      method: daily CSV dumps from atlantides.org (scripts/harvest/sources.yaml pleiades)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      derived:
+      - harvest-duckdb (pl_place 42,493, pl_name 44,228 rows est.)
+      scripts:
+      - scripts/harvest/collections/reconcile_places.py
+      ledger:
+      - reports/place-reconciliation.tsv
+    completion: ingested
+    state_note: Place reconciliation 11 Oct 2026. Source record source/pleiades was registered on 14 Nov 2026 (dec-20261114-277).
+  - id: pleiades-dumps-2026-11-b1
+    title: Pleiades places and names dumps (web-sources lane B1 pull)
+    kind: download
+    source:
+      name: Pleiades
+      url: https://atlantides.org/downloads/pleiades/dumps/
+    licence: CC BY 3.0
+    lane: web-sources lane B (docs/delegation/web-sources-progress.md, p55)
+    location: raw/pleiades-b1/
+    files:
+    - {name: raw/pleiades-b1/places.csv, bytes: 26473713, date: '2026-11-14', sha256: 9f94bb6a5d026b8107ccf30c3acc0e4b57ac00692d8a1b0c4e980b09b31f314c}
+    - {name: raw/pleiades-b1/places.csv.gz, bytes: 6839639, date: '2026-11-14', sha256: 8be5e727a2874c02c5fe50f1864c11070c21446ff2ae6be525d6c6aed13c4cb8}
+    - {name: raw/pleiades-b1/names.csv, bytes: 17463515, date: '2026-11-14', sha256: 9f2c8c2b76b97bf9ea1d03a341bc3c80e4651b0cf5fba87d86fc0a2663b72074}
+    - {name: raw/pleiades-b1/names.csv.gz, bytes: 3847508, date: '2026-11-14', sha256: acc9be7b49ddbb4e8ab19bc0667e9ca6e0ed3cbef64e41ff21039f49ba65c83d}
+    acquisition:
+      method: download of the places and names dumps
+      date: '2026-11-14'
+      by: web-sources worker B1
+    used_by:
+      prs:
+      - 6649
+      - 6675
+      - 6690
+      - 6712
+      - 6817
+      - 6818
+      - 6828
+      - 6830
+      - 6842
+      entities: 73 files cite source/pleiades (14 Nov 2026 count)
+      ledger:
+      - docs/delegation/web-sources-progress.md
+    completion: ingested
+    state_note: Approval dec-20261114-277. Links made only by a point within 1.5 km plus an equal name. The ledger says the folder was 'about 7 MB each'; the drive holds both csv and csv.gz.
+    unverified:
+    - acquisition.exact_source_url
+  - id: geonames-dumps
+    title: GeoNames dumps (allCountries, alternateNamesV2, countryInfo, admin1CodesASCII) and unzipped layer
+    kind: dump
+    source:
+      name: GeoNames
+      url: https://download.geonames.org/export/dump/
+    licence: CC BY 4.0
+    lane: collections
+    location: raw/collections/geonames/; layers/by/geonames/
+    files:
+    - {name: raw/collections/geonames/allCountries.zip, bytes: 422014673, date: '2026-10-11', sha256: 293b3f56a38fe092c2b5b873cfd76fc10d287233e2192275d58e0e5d010ae3f1, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: raw/collections/geonames/alternateNamesV2.zip, bytes: 204829015, date: '2026-10-11', sha256: 5a9433f3866015f463f4ddeb491ab690988cc8876f22294c59a304644b57e9fc}
+    - {name: raw/collections/geonames/countryInfo.txt, bytes: 31680, date: '2026-10-11', sha256: c5997ea659df5bcf42509eb937064d172b2a998bb873608603e8421d714a9974}
+    - {name: raw/collections/geonames/admin1CodesASCII.txt, bytes: 151583, date: '2026-10-11', sha256: 1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a}
+    - {name: layers/by/geonames/allCountries.txt, bytes: 1788671773, date: '2026-10-11', sha256_status: pending}
+    - {name: layers/by/geonames/alternateNamesV2.txt, bytes: 785648990, date: '2026-10-11', sha256_status: pending}
+    acquisition:
+      method: dump files from download.geonames.org (scripts/harvest/sources.yaml geonames)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      derived:
+      - harvest-duckdb (gn_place 13.5 M, gn_altname 19.2 M, gn_admin1, gn_country rows est.)
+      prs:
+      - 6893
+      commits:
+      - 4b1e0d5dfc
+      entities: 719 files cite source/geonames-gazetteer (14 Nov 2026 count)
+    completion: ingested
+    state_note: Place records carry GeoNames ids. PR 6893 fixed GeoNames identifiers (title-based association).
+    unverified:
+    - used_by.prs
+  - id: natural-earth-10m-basemaps
+    title: Natural Earth 10 m physical, admin-0 and shaded relief (map base data)
+    kind: download
+    source:
+      name: Natural Earth
+      url: https://www.naturalearthdata.com/downloads/
+    licence: Public domain
+    lane: maps (scripts/harvest/sources.yaml natural-earth)
+    location: basemaps/downloads/ and basemaps/ (unzipped)
+    files:
+    - {name: basemaps/downloads/ne_10m_land.zip, bytes: 3269070, date: '2026-10-11', sha256: e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc}
+    - {name: basemaps/downloads/ne_10m_ocean.zip, bytes: 3189765, date: '2026-10-11', sha256: db626fcd5d50b096b156c78a2cc95011b39f32a61b4e47d147e3f7a77b8b2719}
+    - {name: basemaps/downloads/ne_10m_coastline.zip, bytes: 3069451, date: '2026-10-11', sha256: bfa04cdbcbef07ef90dfca1dabb48062eca29900a113df0f389303e255484017}
+    - {name: basemaps/downloads/ne_10m_rivers_lake_centerlines.zip, bytes: 2079507, date: '2026-10-11', sha256: ded71b01870855ccfe19b51f2ec14c9bb48fae23c0e9f3c11974d426433b5c38}
+    - {name: basemaps/downloads/ne_10m_lakes.zip, bytes: 2349685, date: '2026-10-11', sha256: 0803a06f9c3cb4671d89b68c48b142aad9366ba40f665245e12a913fbc61722a}
+    - {name: basemaps/downloads/ne_10m_admin_0_countries.zip, bytes: 4930492, date: '2026-10-11', sha256: ce1ac7036499a0edd641fbc093cd209a98f96a49d2eca8480aaacad35138a7f6}
+    - {name: basemaps/downloads/SR_HR.zip, bytes: 44367365, date: '2026-10-11', sha256: b2619fff2fc73c17152983c066adfaa25c4b626916b822bad2fae8bcd9be41a5}
+    directory: {path: basemaps/, files: 56, bytes_on_disk: 1675907072, date: '2026-10-11'}
+    acquisition:
+      method: zip downloads from naciscdn.org, unzipped into basemaps
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      entities: 5 files cite source/natural-earth (14 Nov 2026 count)
+      commits:
+      - 4a3e175197
+    completion: complete
+    state_note: Used to draw base maps; derived tiles are not on this drive (no PMTiles file found under basemaps/).
+    unverified:
+    - used_by.map_build_prs
+  - id: etopo1-ice-surface
+    title: ETOPO1 Ice Surface global relief (NOAA)
+    kind: download
+    source:
+      name: NOAA NGDC ETOPO1
+      url: https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/ice_surface/grid_registered/netcdf/ETOPO1_Ice_g_gmt4.grd.gz
+    licence: Public domain (US government)
+    lane: maps
+    location: basemaps/
+    files:
+    - {name: basemaps/downloads/ETOPO1_Ice_g_gmt4.grd.gz, bytes: 395148066, date: '2026-10-11', sha256: c241db385d89f3d0c22eec8138224db9f2ebee6a1b4d1ecb4ebc6a5743a28ec8, sha256_status: 'from raw/checksums.sha256, not recomputed'}
+    - {name: basemaps/ETOPO1_Ice_g_gmt4.grd, bytes: 933509524, date: '2026-10-11', sha256_status: pending}
+    acquisition:
+      method: single netcdf download, gzip (scripts/harvest/sources.yaml etopo1)
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      entities: 5 files cite source/etopo1 (14 Nov 2026 count)
+      commits:
+      - 4a3e175197
+    completion: complete
+    state_note: Elevation for maps.
+  - id: openiti-makhzan-2026-1-2
+    title: OpenITI Makhzan 2026.1.2 (annotated manuscript and print data, metadata, release notes)
+    kind: dump
+    source:
+      name: Zenodo record 19861912
+      url: https://zenodo.org/records/19861912
+      release: 2026.1.2
+    licence: CC BY-NC-SA 4.0 (facts only, never republished)
+    lane: openiti (scripts/harvest/sources.yaml openiti-makhzan)
+    location: raw/openiti/
+    files:
+    - {name: raw/openiti/OpenITI-Makhzan_Data_2026-1-2.zip, bytes: 6109859716, date: '2026-10-11', sha256: ca7ba36d636e37aa272e78d937bbe105dfae07e308119b3eaa18cba20c504b6f, sha256_status: 'from raw/checksums.sha256, not recomputed', note: md5 347a06a5714091665b7292775840a0f0 recorded in sources.yaml}
+    - {name: raw/openiti/OpenITI-Makhzan_Metadata_2026-1-2.tsv, bytes: 568495, date: '2026-10-11', sha256: dfb98618352e5ad3281c5c20d7262cc89d76805d36aeed263a33a96c5cc2e097}
+    - {name: raw/openiti/OpenITI-Makhzan_ReleaseNotes_2026-1-2.pdf, bytes: 86921, date: '2026-10-11', sha256: a06ab27ad6e3ede60087d28a428637107d534107a4bb7f59eb54bd556da29453}
+    acquisition:
+      method: zenodo files, md5 checked
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      entities: 0 data or content files cite source/openiti-makhzan
+      derived:
+      - harvest-duckdb (oi_meta 1,497 rows est.)
+    completion: downloaded
+    state_note: Not mined beyond the metadata table; kept on the drive (harvest-retained-files).
+  - id: openiti-corpus-2025-1-9
+    title: OpenITI corpus 2025.1.9 (data zip, metadata TSV, release notes)
+    kind: dump
+    source:
+      name: Zenodo record 17767721
+      url: https://zenodo.org/records/17767721
+      release: 2025.1.9
+    licence: CC BY-NC-SA 4.0 (facts and short quotations only, text never republished)
+    lane: openiti
+    location: raw/openiti/corpus/
+    files:
+    - {name: raw/openiti/corpus/OpenITI_data_2025-1-9.zip, bytes: 5936029637, date: '2026-10-11', sha256: da8362b3a906fec9226f9dade787b0bcac0aea3f72e483339813a1b0f84d3df8, sha256_status: 'from raw/checksums.sha256, not recomputed', note: md5 95cf19a9320fee6c37c4c26c9fa860b1 recorded in sources.yaml}
+    - {name: raw/openiti/corpus/OpenITI_metadata_2025-1-9.tsv, bytes: 12092756, date: '2026-10-11', sha256: 10a025fcfc1bf96d218096f0dfe1d9416f9ff277f092c42622cb012cc4da2a61}
+    - {name: raw/openiti/corpus/OpenITI_release-notes_2025-1-9.zip, bytes: 204028, date: '2026-10-11', sha256: a35589d5f4e86abd27c69a9973080f8f5436ce483739b1f7c76d93aadc0b60ae}
+    acquisition:
+      method: zenodo files, md5 checked
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      derived:
+      - openiti-extracted-texts
+      - openiti-nc-ibn-hisham
+      - harvest-duckdb (oi_corpus_meta 14,107 rows est.)
+      prs:
+      - 6701
+      - 6797
+      - 6732
+      - 5280
+      entities: 110 data or content files cite source/openiti-corpus (14 Nov 2026 count)
+    completion: ingested
+    state_note: PR 6701 registered OpenITI facts-only and linked 108 persons; PR 6797 added work lists on 68 scholar pages.
+  - id: openiti-nc-ibn-hisham
+    title: 'OpenITI text version extracted: Ibn Hisham, Sira Nabawiyya'
+    kind: derived
+    source:
+      name: derived from openiti-corpus-2025-1-9 (extract_version.py)
+    licence: CC BY-NC-SA 4.0
+    lane: openiti
+    location: layers/nc/openiti/0213IbnHisham/
+    directory: {path: layers/nc/openiti/, files: 2, bytes_on_disk: 2658304, date: '2026-10-11'}
+    acquisition:
+      method: scripts/harvest/openiti/extract_version.py
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      ledger:
+      - docs/delegation/hisham-progress.md
+    completion: ingested
+    state_note: Also see the books segment for the printed Sira of Ibn Hisham scan.
+    unverified:
+    - used_by.prs
+  - id: openiti-extracted-texts
+    title: Ten history, biography and geography texts extracted from the OpenITI corpus
+    kind: derived
+    source:
+      name: derived from openiti-corpus-2025-1-9 (Shamela and JK versions)
+    licence: CC BY-NC-SA 4.0 (read for facts, short cited quotations only, never republished)
+    lane: prose-fill (persons, buildings)
+    location: extracted/
+    files:
+    - {name: extracted/alam-zirikli-openiti/, files: 13, bytes_on_disk: 75112448, text: 'al-Zirikli, al-A''lam (four OpenITI versions, Shamela, with metadata)', book_uri: 1396KhayrDinZirikli.Aclam, date: '2026-11-03'}
+    - {name: extracted/ansab-samani/, files: 1, bytes_on_disk: 9191424, text: 'al-Sam''ani, al-Ansab', book_uri: null, date: '2026-11-03'}
+    - {name: extracted/fihrist/, files: 1, bytes_on_disk: 1200128, text: 'Ibn al-Nadim, al-Fihrist', book_uri: 0385.IbnNadim.Fihrist, date: '2026-11-03'}
+    - {name: extracted/kamil/, files: 1, bytes_on_disk: 13656064, text: 'Ibn al-Athir, al-Kamil fi al-Tarikh', book_uri: null, date: '2026-11-03'}
+    - {name: extracted/mujam-buldan/, files: 1, bytes_on_disk: 10080256, text: 'Yaqut al-Hamawi, Mu''jam al-Buldan', book_uri: 0626.YaqutHamawi.MucjamBuldan, date: '2026-11-03'}
+    - {name: extracted/muntazam/, files: 1, bytes_on_disk: 12460032, text: 'Ibn al-Jawzi, al-Muntazam', book_uri: 0597.IbnJawzi.Muntazam, date: '2026-11-03'}
+    - {name: extracted/muruj/, files: 1, bytes_on_disk: 3792896, text: 'al-Mas''udi, Muruj al-Dhahab', book_uri: null, date: '2026-11-03'}
+    - {name: extracted/shadharat/, files: 1, bytes_on_disk: 13484032, text: 'Ibn al-Imad, Shadharat al-Dhahab', book_uri: null, date: '2026-11-03'}
+    - {name: extracted/tabaqat-fuqaha/, files: 1, bytes_on_disk: 659456, text: 'Ibn al-Salah al-Shahrazuri, Tabaqat al-Fuqaha', book_uri: 0643.IbnSalahShahrazuri.TabaqatFuqaha, date: '2026-11-03'}
+    - {name: extracted/wafayat/, files: 1, bytes_on_disk: 6406144, text: 'Ibn Khallikan, Wafayat al-A''yan', book_uri: 0681.IbnKhallikan.WafayatAcyan, date: '2026-11-03'}
+    acquisition:
+      method: unzipped one version per text from the corpus zip (Mu'jam al-Buldan on 3 Nov 2026 per ledger)
+      date: '2026-11-03'
+      by: prose-fill lanes
+    used_by:
+      ledger:
+      - docs/delegation/prose-fill-persons-progress.md
+      - docs/delegation/prose-fill-buildings-progress.md
+      prs:
+      - 6732
+      - 6703
+      entities: prose-fill persons (al-A'lam batches 2 to 6, Shadharat batch 8, Wafayat batch 9, Kamil, Fihrist, Muntazam) and buildings batches 5 and 6; per-batch counts in the ledgers
+    completion: mining
+    state_note: 'Mining continues under the prose-fill lanes; not finished for any of the ten texts (ledger: Muntazam thin rows still to probe). Book rows for these works are in the books segment if registered there.'
+    unverified:
+    - mining.ranges_mined
+    - used_by.prs_complete
+  - id: hadithunlocked-hadith
+    title: Hadith Unlocked hadith books (JSON and EPUB)
+    kind: download
+    source:
+      name: Hadith Unlocked / Islam Unlocked
+      url: https://hadithunlocked.com
+      hosts:
+      - hadithunlocked.com
+      release: files as fetched on 2026-10-24
+    licence: not recorded on the drive; no terms page recorded in the repository; treated as reference copy (facts only, text never republished)
+    lane: hadithunlocked harvest (PR 1554)
+    location: raw/hadithunlocked/hadith/
+    files:
+    - {name: raw/hadithunlocked/hadith/riyad.json, bytes: 109419482, sha256: 5aed2e817e6a511f690fb98429906431269715d852bd1ab4b96fed1075464389, format: json, url: 'https://hadithunlocked.com/riyad.json'}
+    - {name: raw/hadithunlocked/hadith/riyad.epub, bytes: 1999217, sha256: 84e9a6a8e329706cbf83a2d5edd4ee0441d5c43ca77059a9d038ac52bc11c03f, format: epub, url: 'https://hadithunlocked.com/riyad.epub'}
+    - {name: raw/hadithunlocked/hadith/ibnrajab50.json, bytes: 8018121, sha256: be16660ae1b8004620f658e8a0a9f6ade49f85c44f035f01e3a6eac98306df4a, format: json, url: 'https://hadithunlocked.com/ibnrajab50.json'}
+    - {name: raw/hadithunlocked/hadith/ibnrajab50.epub, bytes: 334740, sha256: 97484fdd6a7ea7cf64176f9a8f3b219837fbfe9141d7dc2edb5a76a1cbe37a64, format: epub, url: 'https://hadithunlocked.com/ibnrajab50.epub'}
+    - {name: raw/hadithunlocked/hadith/adab.json, bytes: 5841291, sha256: 6e4a5a10ae7653d227814c0de32c227d6cbec9ad4e43fc4550a65c7df6aa212a, format: json, url: 'https://hadithunlocked.com/adab.json'}
+    - {name: raw/hadithunlocked/hadith/adab.epub, bytes: 826141, sha256: 18ffefa5a8042f8ec1c64d4b6f420fd0f34f36dc0c33916f7bdb0a626baf5a01, format: epub, url: 'https://hadithunlocked.com/adab.epub'}
+    - {name: raw/hadithunlocked/hadith/shamail.json, bytes: 6286276, sha256: 6d5415c423fd710e62589475a35711ee01e2d597c84b326366117ee07ddad6d9, format: json, url: 'https://hadithunlocked.com/shamail.json'}
+    - {name: raw/hadithunlocked/hadith/shamail.epub, bytes: 424467, sha256: f46dc03d464ad935c0a27a1c0d13bee712576327f115ca71e2163421738643b5, format: epub, url: 'https://hadithunlocked.com/shamail.epub'}
+    - {name: raw/hadithunlocked/hadith/lulu-marjan.json, bytes: 80032154, sha256: 4014b47a5d39d7560108c17f18876749c305fd34cfac0f6c87ecbdd812b30a3c, format: json, url: 'https://hadithunlocked.com/lulu-marjan.json'}
+    - {name: raw/hadithunlocked/hadith/lulu-marjan.epub, bytes: 1462438, sha256: 5f1995364ab9e0254b7e55e14658349def0ed26125838e42870c8c6e2770c299, format: epub, url: 'https://hadithunlocked.com/lulu-marjan.epub'}
+    - {name: raw/hadithunlocked/hadith/mishkat.epub, bytes: 3820061, sha256: 3fd159dcad2f68e45357b25dcd0bd0e15ccd8fb02be1ff086244ad76d5731fcd, format: epub, url: 'https://hadithunlocked.com/mishkat.epub'}
+    - {name: raw/hadithunlocked/hadith/bukhari.json, bytes: 218034820, sha256: c1d3e1a519801069afa4ddf7a2766aacdbc4f7ad13477e9cb7aafab0462ee419, format: json, url: 'https://hadithunlocked.com/bukhari.json'}
+    - {name: raw/hadithunlocked/hadith/bukhari.epub, bytes: 4510904, sha256: 0a9feef60acd3bf918b169ec72da28a7f38878528a48d1000652e74889797299, format: epub, url: 'https://hadithunlocked.com/bukhari.epub'}
+    - {name: raw/hadithunlocked/hadith/muslim.epub, bytes: 3262846, sha256: a5a640ede24f183e3fba2296bdd9bb9f79dc218fdafa04f8a8ae12701768a1ed, format: epub, url: 'https://hadithunlocked.com/muslim.epub'}
+    - {name: raw/hadithunlocked/hadith/abudawud.epub, bytes: 2575513, sha256: 96204760483d21f5e692623a72806ac16ae2b84280ca70890a6f2e59931ed259, format: epub, url: 'https://hadithunlocked.com/abudawud.epub'}
+    - {name: raw/hadithunlocked/hadith/tirmidhi.json, bytes: 98195015, sha256: d394e1d92277d5f020c0724a153fa8860c9b0f02e3cd547b7a5574f3b64f1c4b, format: json, url: 'https://hadithunlocked.com/tirmidhi.json'}
+    - {name: raw/hadithunlocked/hadith/tirmidhi.epub, bytes: 2446641, sha256: f69bf4f6c92ea4f0fc7458b44b6d5bbd9228863f5532b7225e36489b5eae42df, format: epub, url: 'https://hadithunlocked.com/tirmidhi.epub'}
+    - {name: raw/hadithunlocked/hadith/nasai.epub, bytes: 2297075, sha256: 5dd9dcc16497a8deabe7767258c21f36800cb3b57f92df7d1f9367ff4c439a25, format: epub, url: 'https://hadithunlocked.com/nasai.epub'}
+    - {name: raw/hadithunlocked/hadith/ibnmajah.epub, bytes: 1873637, sha256: ca0b5a2a09961eae844e65f9e53c34b8afa3322960116247364822b085786100, format: epub, url: 'https://hadithunlocked.com/ibnmajah.epub'}
+    - {name: raw/hadithunlocked/hadith/ahmad.epub, bytes: 9754704, sha256: 45cf14e168146e3a2efb37bce52ec2c2b07f379b17b47a8ffc292f323d8f7919, format: epub, url: 'https://hadithunlocked.com/ahmad.epub'}
+    - {name: raw/hadithunlocked/hadith/ibnkhuzaymah.epub, bytes: 1642126, sha256: 6d597aa6c5974872b0ba3c7fe57106cb38d53eb0bdf890fb07fc7e336a642960, format: epub, url: 'https://hadithunlocked.com/ibnkhuzaymah.epub'}
+    - {name: raw/hadithunlocked/hadith/abdalrazzaq.json, bytes: 34888403, sha256: 0adc453e8822fce3366f952176c089fb87112e8552e284f5bca68c8cc707e675, format: json, url: 'https://hadithunlocked.com/abdalrazzaq.json'}
+    - {name: raw/hadithunlocked/hadith/darimi.json, bytes: 15074010, sha256: 2d4024b58cd2648e5901811f925b33eee3eaac575432f80468228f179750f260, format: json, url: 'https://hadithunlocked.com/darimi.json'}
+    - {name: raw/hadithunlocked/hadith/malik.json, bytes: 77554753, sha256: c5d59de8b6e6d1a696f449d68eea8eea1c554bbc3ec2a18767c7c9b68beb6546, format: json, url: 'https://hadithunlocked.com/malik.json'}
+    - {name: raw/hadithunlocked/hadith/ibnkhuzaymah.json, bytes: 16500152, sha256: ced959aa84e84050d5b0471085053d03114af28e65b7d646b5a9b01a10f3f467, format: json, url: 'https://hadithunlocked.com/ibnkhuzaymah.json'}
+    - {name: raw/hadithunlocked/hadith/darimi.epub, bytes: 1422438, sha256: c39357b26f8af57bf9d8e6267fb09dcd79f59b96c98dadd2eaacd9385a8a1aa2, format: epub, url: 'https://hadithunlocked.com/darimi.epub'}
+    - {name: raw/hadithunlocked/hadith/malik.epub, bytes: 1274493, sha256: d921c6181139a573272cba3c5e430c94a52998b81248f0ad2088a445ba5dbeed, format: epub, url: 'https://hadithunlocked.com/malik.epub'}
+    - {name: raw/hadithunlocked/hadith/daraqutni.epub, bytes: 1567447, sha256: c53bbbee1ae9cf65e4af836a15eb4ff90aab85f3be7db641593c5ae56741e0c1, format: epub, url: 'https://hadithunlocked.com/daraqutni.epub'}
+    - {name: raw/hadithunlocked/hadith/bazzar.epub, bytes: 3637205, sha256: feee7d592f7c1ee541c59d410e19a695a543a2b9e87030568ae5632b211f55a8, format: epub, url: 'https://hadithunlocked.com/bazzar.epub'}
+    - {name: raw/hadithunlocked/hadith/ibnhibban.epub, bytes: 4261283, sha256: 65483c466d847cae1bf70ff2fc9f648d2b811a72060c56c64fc61dbec47dc2a3, format: epub, url: 'https://hadithunlocked.com/ibnhibban.epub'}
+    - {name: raw/hadithunlocked/hadith/hakim.epub, bytes: 4989749, sha256: 6c6ef4a98479bc6bd7186399432599b0828b6f2c3678d1862d49d81c5529715e, format: epub, url: 'https://hadithunlocked.com/hakim.epub'}
+    - {name: raw/hadithunlocked/hadith/tayalisi.epub, bytes: 933518, sha256: c4f154b784b7fcd46c0653089762f71e8190299e2efff166508fb9f9671237e7, format: epub, url: 'https://hadithunlocked.com/tayalisi.epub'}
+    - {name: raw/hadithunlocked/hadith/nasai-kubra.epub, bytes: 4504375, sha256: 237e0d6577c7863a02c1ffca33fd4b98313cb80ebceac7d539b5a757bf530476, format: epub, url: 'https://hadithunlocked.com/nasai-kubra.epub'}
+    - {name: raw/hadithunlocked/hadith/bayhaqi.epub, bytes: 6651405, sha256: f0989a14ab1d2bd661e89dd759fcaac5e37260e69e9514c70001176c3f52892d, format: epub, url: 'https://hadithunlocked.com/bayhaqi.epub'}
+    - {name: raw/hadithunlocked/hadith/abdalrazzaq.epub, bytes: 3922362, sha256: 8307e7274fc708a5025fae8575d46e40f957aca8700d31c752994ef68fe77272, format: epub, url: 'https://hadithunlocked.com/abdalrazzaq.epub'}
+    - {name: raw/hadithunlocked/hadith/ibnabishaybah.epub, bytes: 4834263, sha256: 1069b3b9244093c97606dadf85df51461caf2506d4c5cff43dbf64f864c3e16b, format: epub, url: 'https://hadithunlocked.com/ibnabishaybah.epub'}
+    - {name: raw/hadithunlocked/hadith/abuyaala.epub, bytes: 2699603, sha256: e10a55dc5e015931343717827095175854cd40894572cc5f60fc9e28e1a1d74a, format: epub, url: 'https://hadithunlocked.com/abuyaala.epub'}
+    - {name: raw/hadithunlocked/hadith/matalib.epub, bytes: 2514156, sha256: 1c9acc659ba962ab88f3d0094a3bfa0a48591e7472f99f4aa5f7aa0c18078881, format: epub, url: 'https://hadithunlocked.com/matalib.epub'}
+    - {name: raw/hadithunlocked/hadith/mishkat.json, bytes: 205223585, sha256: 5117ca1cc6bf9be0a395dfe747ba33705fc4be90792553135111e88829b6e80e, format: json, url: 'https://hadithunlocked.com/mishkat.json'}
+    - {name: raw/hadithunlocked/hadith/tabarani-saghir.epub, bytes: 804091, sha256: 061dfab037598a4f2b85a209ec1fcadb0285db184f361c5721662c1fd0abb66c, format: epub, url: 'https://hadithunlocked.com/tabarani-saghir.epub'}
+    - {name: raw/hadithunlocked/hadith/tabarani-awsat.epub, bytes: 3663621, sha256: 56d68f58a56ca84b009d17e2dd160ebe4143bc43c553f32f79d796d41b4645f0, format: epub, url: 'https://hadithunlocked.com/tabarani-awsat.epub'}
+    - {name: raw/hadithunlocked/hadith/tabarani.epub, bytes: 8085027, sha256: 70a1a0394a4d1b2649f2c13521f0750ab59189308268a662be86bfbd789bb55a, format: epub, url: 'https://hadithunlocked.com/tabarani.epub'}
+    - {name: raw/hadithunlocked/hadith/shuab.epub, bytes: 3265365, sha256: f90d4e84d9c7f9ee98b25fc21cd02148db9f2cc4f12d493b6256ea524f6b3d68, format: epub, url: 'https://hadithunlocked.com/shuab.epub'}
+    - {name: raw/hadithunlocked/hadith/suyuti.epub, bytes: 9018874, sha256: aae1feb6f1604ce43d7365ad4ca1ab6346f3c1ddf1d458d8dd66e51e9d4e8c76, format: epub, url: 'https://hadithunlocked.com/suyuti.epub'}
+    acquisition:
+      method: direct file download listed in raw/hadithunlocked/manifest.jsonl (url, bytes, sha256 per file)
+      date: '2026-10-24'
+      by: harvest-hadithunlocked-books session
+      failed:
+      - mishkat.json
+      - muslim.json
+      - abudawud.json
+      - nasai.json
+      - ibnmajah.json
+      - ahmad.json
+      - darimi.json
+      - darimi.epub
+      - malik.json
+      - malik.epub
+      - ibnkhuzaymah.json
+      - daraqutni.json
+      - mishkat.json
+      - muslim.json
+      - abudawud.json
+      - nasai.json
+      - ibnmajah.json
+    used_by:
+      prs:
+      - 1554
+      ledger:
+      - docs/authenticity-ledger/books/sunan-abi-dawud.yaml
+      - docs/delegation/library/riyad-salihin.md
+    completion: downloaded
+    state_note: PR 1554 registered the source and authenticity records; copies are recorded as undecided carriers in the authenticity ledger (no edition named in EPUB metadata). Which entities used these files is not recorded in one place.
+    unverified:
+    - licence
+    - mining.ranges_mined
+    - used_by.entities
+  - id: hadithunlocked-tafsir
+    title: Islam Unlocked tafsir books (JSON and EPUB)
+    kind: download
+    source:
+      name: Hadith Unlocked / Islam Unlocked
+      url: https://quran.islamunlocked.com
+      hosts:
+      - quran.islamunlocked.com
+      release: files as fetched on 2026-10-24
+    licence: not recorded on the drive; no terms page recorded in the repository; treated as reference copy (facts only, text never republished)
+    lane: hadithunlocked harvest (PR 1554)
+    location: raw/hadithunlocked/tafsir/
+    files:
+    - {name: raw/hadithunlocked/tafsir/mokhtasar.json, bytes: 10254451, sha256: 6ce134b6ce802f7a62f76b674100aa253fc15edfa212ba35ec9f3e48a95b0ca3, format: json, url: 'https://quran.islamunlocked.com/quran/tafsir/mokhtasar.json'}
+    - {name: raw/hadithunlocked/tafsir/mokhtasar.epub, bytes: 2337209, sha256: fc8dd87cf006357e4947ca323682d8cbaceb5a20bcc3952f3f4f0f8efe63af20, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/mokhtasar.epub'}
+    - {name: raw/hadithunlocked/tafsir/tabari.epub, bytes: 9930683, sha256: eaa91dba09c6a4ef55b30b8ddb1165b5bc734bc2e3031d4ae9171d9456fe63e1, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/tabari.epub'}
+    - {name: raw/hadithunlocked/tafsir/samarqandi.epub, bytes: 2534887, sha256: 32512f3f0bc065bd19a5f603ddafc701e1e6a9cc1fd88e1e8b86d03a1e82b58e, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/samarqandi.epub'}
+    - {name: raw/hadithunlocked/tafsir/abu-zamanayn.epub, bytes: 1643372, sha256: 0873f00e0dd6118c3008870d266ff371503ccda2da1188af293bbb551e9bc6d9, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/abu-zamanayn.epub'}
+    - {name: raw/hadithunlocked/tafsir/thalabi.epub, bytes: 4118679, sha256: 030fa046891d2f054a7504514f527209277a9dae493400fa816d139baede6c74, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/thalabi.epub'}
+    - {name: raw/hadithunlocked/tafsir/makki.epub, bytes: 3383568, sha256: c889187692c894d944cd8d451c429be45dd07464d3a3de93f1abaee75f9fb684, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/makki.epub'}
+    - {name: raw/hadithunlocked/tafsir/mawardi.epub, bytes: 2387374, sha256: f872691fd0560dcb25b68ad2b08382258e956b9e54c15fde2623675ac943b8e5, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/mawardi.epub'}
+    - {name: raw/hadithunlocked/tafsir/en-wahidi.epub, bytes: 1171687, sha256: 65719fb3d098e09c17db8111c598da5fce7815ee6ce063fafaa783f4b5fc724a, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/en-wahidi.epub'}
+    - {name: raw/hadithunlocked/tafsir/basit.epub, bytes: 8502302, sha256: 4e434bb5620a3264779c3168f8a62fb0e51958ada53522ebc59bbda6e5690513, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/basit.epub'}
+    - {name: raw/hadithunlocked/tafsir/wajiz.epub, bytes: 1552582, sha256: fabc1eed0c1a62d5a2d5bb2ac19bedb05ae81bf43fc2318b2c2bafffd18693be, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/wajiz.epub'}
+    - {name: raw/hadithunlocked/tafsir/samaani.epub, bytes: 2673571, sha256: 7332ab091eba92524798b79511c53f9e58023dbc4f8242382ce29754c56737ce, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/samaani.epub'}
+    - {name: raw/hadithunlocked/tafsir/baghawi.epub, bytes: 4417776, sha256: 93f38a7794ccc28a1162340556980ae07db8dfebe3d54e7757d8ef7f4c9a51cc, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/baghawi.epub'}
+    - {name: raw/hadithunlocked/tafsir/zamakhshari.epub, bytes: 4199096, sha256: 62b49d0121ac8694f745d660a02d627e4909fb0d0cb41ce1ff5fbe0b9c0499d1, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/zamakhshari.epub'}
+    - {name: raw/hadithunlocked/tafsir/ibn-atiyah.epub, bytes: 8236971, sha256: 4b0f14013498e79286ce4efe7d41ab2faf1353a9e818d430ded27276d264e9a2, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/ibn-atiyah.epub'}
+    - {name: raw/hadithunlocked/tafsir/ibn-al-jawzi.epub, bytes: 3155535, sha256: 4250039cfd463328d1433fbac32f2b7308a9faf8589485a5df492bb60b8945ef, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/ibn-al-jawzi.epub'}
+    - {name: raw/hadithunlocked/tafsir/razi.epub, bytes: 10107760, sha256: 35215394aa95725188835ed30d073939a2e2810650ceeb035534674e8b0916a1, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/razi.epub'}
+    - {name: raw/hadithunlocked/tafsir/qurtubi.epub, bytes: 7751540, sha256: 1378b484a81d89822a489f3a600568f107f9f7ce88e0747ae886e8290e54e08a, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/qurtubi.epub'}
+    - {name: raw/hadithunlocked/tafsir/baydawi.epub, bytes: 3047857, sha256: ad99dafe250ffa4bf41375e8f39d9d3373958f2d51364a083d10169122f61593, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/baydawi.epub'}
+    - {name: raw/hadithunlocked/tafsir/nasafi.epub, bytes: 2827068, sha256: c9244d7abec6bd8cf6e3f81fe62945b1cf6825267e1f748306a59c46507b5fba, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/nasafi.epub'}
+    - {name: raw/hadithunlocked/tafsir/ibn-juzay.epub, bytes: 1780157, sha256: 9007b52661e310c8f6e84991fdc1c5dae1ec0bb8f69283351024f2cc15d7e7ae, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/ibn-juzay.epub'}
+    - {name: raw/hadithunlocked/tafsir/abu-hayyan.epub, bytes: 8236719, sha256: c17b8a23ee2261f8747f1a95c0a419f0e32d44f9c85a0aad36ec7dc8d778a312, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/abu-hayyan.epub'}
+    - {name: raw/hadithunlocked/tafsir/ibn-kathir.epub, bytes: 11029793, sha256: a1f0e7b9a6ab27af9e6ad7dedeafe59da12deddc6ddbbd2e0440c8639f52e262, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/ibn-kathir.epub'}
+    - {name: raw/hadithunlocked/tafsir/ibn-adil.epub, bytes: 9943104, sha256: f6049dcb7b26dad65453551a94847ffcf208e95192d1b5deeef684d047a3bee6, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/ibn-adil.epub'}
+    - {name: raw/hadithunlocked/tafsir/biqaii.epub, bytes: 7477415, sha256: 59ca8e3482f54b96dfc6867c3e10cb0357911822ab4f5db7cb7034d0bd3a27c9, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/biqaii.epub'}
+    - {name: raw/hadithunlocked/tafsir/iji.epub, bytes: 1865675, sha256: 08d2bab3b59aeb1d8f792d1b3c63c3065000dffa341b84ee9b8a3abd47a5bb52, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/iji.epub'}
+    - {name: raw/hadithunlocked/tafsir/jalalayn.epub, bytes: 2743616, sha256: a9b3544e1832453ae4d6d2190130be03f5a374bb2e066f28bfcc3ab55816e3ff, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/jalalayn.epub'}
+    - {name: raw/hadithunlocked/tafsir/suyuti-t.epub, bytes: 5174139, sha256: 79517fea2ef3dc2de6f57bb8825d07739902c27646dc14d20bf4c98b5e11da0b, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/suyuti-t.epub'}
+    - {name: raw/hadithunlocked/tafsir/shawkani.epub, bytes: 5302976, sha256: fb5db5466fe45da24cc2ff404519eb0572b5528b41875c74dd19925705667db4, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/shawkani.epub'}
+    - {name: raw/hadithunlocked/tafsir/alusi.epub, bytes: 13157165, sha256: 3ceeeaf854b1050a8fee662f38dbfab92efd63033154eb620f006068d5a5e2a1, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/alusi.epub'}
+    - {name: raw/hadithunlocked/tafsir/qinnawji.epub, bytes: 5419664, sha256: 1d603d15727623bb6ec839f1dab99c0a039ec6816ddb08a8354ac4eab7185104, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/qinnawji.epub'}
+    - {name: raw/hadithunlocked/tafsir/qasimi.epub, bytes: 5653591, sha256: b3b177bf42ed20fe584deb67399f5c4fe27ec4fea11106736aad20d00df16d39, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/qasimi.epub'}
+    - {name: raw/hadithunlocked/tafsir/rida.epub, bytes: 7075194, sha256: 6485c57284d4b9bd58593bdf362d8afabf8e32f2b438f903edfdf0cb2cdc1b7e, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/rida.epub'}
+    - {name: raw/hadithunlocked/tafsir/yusuf-ali.epub, bytes: 2555550, sha256: 53b76d8e5948230a96ea1f30e2316111cbc9d9443361087a4f96158b6ea59f06, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/yusuf-ali.epub'}
+    - {name: raw/hadithunlocked/tafsir/irab-al-quran.epub, bytes: 3446773, sha256: 7a2861a4c1f4cce6de85d6d8d89f527d700847715fd1b757f70dfcaa9ed7d52f, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/irab-al-quran.epub'}
+    - {name: raw/hadithunlocked/tafsir/saadi.epub, bytes: 2665259, sha256: 35f08f028411bfaf0ac3da530e83198152b4e70dc5ff3b6e67743ee16240c7b0, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/saadi.epub'}
+    - {name: raw/hadithunlocked/tafsir/en-maududi.epub, bytes: 3982930, sha256: b8e80ad4ecb4701f51a97e5a26a23e131d83f0b3e01a6deed3beda9638aeab8d, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/maududi.epub'}
+    - {name: raw/hadithunlocked/tafsir/ibn-ashur.epub, bytes: 11162080, sha256: d47186e63d5a526a5754b5d7318bcb0b366d336545c6663e6ae0e8a33fcd50d3, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/ibn-ashur.epub'}
+    - {name: raw/hadithunlocked/tafsir/shanqiti.epub, bytes: 4722998, sha256: 3b54f6832503cf50295f44af87846e235ce1fdbcb3d2ceadaf751f8d3e67627c, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/shanqiti.epub'}
+    - {name: raw/hadithunlocked/tafsir/en-maarif-al-quran.epub, bytes: 5011652, sha256: 352d623f28267ca1ba04a7b4104b8acc35179af20ab2fa7f0d6c56edeeab68f3, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/maarif-al-quran.epub'}
+    - {name: raw/hadithunlocked/tafsir/ibn-uthaymin.epub, bytes: 10566346, sha256: 864fb77db5d2223ccbf9787189957d323c80063d64ce58a1cd5c2f4b0998b97c, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/ibn-uthaymin.epub'}
+    - {name: raw/hadithunlocked/tafsir/wasit.epub, bytes: 5603105, sha256: 93518d0454f4fee0219c24d7eca45db9131b51d3cc19c7bea4b241e986334686, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/wasit.epub'}
+    - {name: raw/hadithunlocked/tafsir/aysar.epub, bytes: 2706781, sha256: 155844b433f153dfdd0d2c0699f8fa6f7199b9a16acd8824d4edae4af7e87ae7, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/aysar.epub'}
+    - {name: raw/hadithunlocked/tafsir/en-tazkir-al-quran.epub, bytes: 2045579, sha256: 54e0bfa4c68bccd7d49a63e54c94a94701c09d0a844315054fb150f1396e7f10, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/tazkir-al-quran.epub'}
+    - {name: raw/hadithunlocked/tafsir/unal.epub, bytes: 2272835, sha256: 5774a578f19e99d3cda36d25a21d594783abfe7adb8bcbd0a6789375ddb8075f, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/unal.epub'}
+    - {name: raw/hadithunlocked/tafsir/dawat.epub, bytes: 3088682, sha256: 5c98d6c16b0aca8bdd74f3d7c932461d0b79a866ff891473bc89f6741e3779c9, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/dawat.epub'}
+    - {name: raw/hadithunlocked/tafsir/dorar-t.epub, bytes: 18648326, sha256: b750402680613fb06125cb3c1d59e46392000fa9c31f0a84577cef6fdd9b57cf, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/dorar-t.epub'}
+    - {name: raw/hadithunlocked/tafsir/en-easy-tajwid.epub, bytes: 279615, sha256: d51db6e13e0c85ea4212c2643cb0252066150be644626a3f546d739999908b54, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/easy-tajwid.epub'}
+    - {name: raw/hadithunlocked/tafsir/irab-daas.epub, bytes: 1772715, sha256: 025e365f83cc6fccb7e4d9a3606ad986c89704f3b7f03fbbbaa2227a65b7c2dc, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/irab-daas.epub'}
+    - {name: raw/hadithunlocked/tafsir/ishraq.epub, bytes: 4976997, sha256: 543cd1073b70d7400f77db3c06fb2034a7ac64339bad033c708f1df1aafe1b83, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/ishraq.epub'}
+    - {name: raw/hadithunlocked/tafsir/khadiri.epub, bytes: 1089718, sha256: cfc42fe71a224e8a7acbc841319bb8add9862c93377406687183a4ff458e1f57, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/khadiri.epub'}
+    - {name: raw/hadithunlocked/tafsir/mathur.epub, bytes: 14494698, sha256: fe3743df4e2a3b57630b8a7ccd319db3cfb6d40485e5b750747f7d0cb0b771a6, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/mathur.epub'}
+    - {name: raw/hadithunlocked/tafsir/muntakhab.epub, bytes: 2168384, sha256: 67231637592bfd1da9f17cea0fe61ad638dd41da70d99b662abdf6bc7244503e, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/muntakhab.epub'}
+    - {name: raw/hadithunlocked/tafsir/muyassar.epub, bytes: 2437223, sha256: d02b7102cd9e588ea03ba8ba8477777d30e4d5307ba591938dfbf74e82060335, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/muyassar.epub'}
+    - {name: raw/hadithunlocked/tafsir/qiraat.epub, bytes: 1174118, sha256: 9976e4a5fb7c6bcca881fb5d862aa32d27ac510c2ba9fd14255c637d447b673e, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/qiraat.epub'}
+    - {name: raw/hadithunlocked/tafsir/shawi.epub, bytes: 2006565, sha256: d39abc7d685fe538de290caee76d1ff64d47d14376daad8bb9b3ac837da454d3, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/shawi.epub'}
+    - {name: raw/hadithunlocked/tafsir/tadabbur-wa-amal.epub, bytes: 2039329, sha256: da3cbd206bdfc7091ad72b387ed41045286b1a87392d806433b3bc78b447f534, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/tadabbur-wa-amal.epub'}
+    - {name: raw/hadithunlocked/tafsir/yasir.epub, bytes: 1885519, sha256: 605170df2b8020f83c2963725ede23cd51e44492816af2e9ca4ffe7df92df123, format: epub, url: 'https://quran.islamunlocked.com/quran/tafsir/yasir.epub'}
+    acquisition:
+      method: direct file download listed in raw/hadithunlocked/manifest.jsonl (url, bytes, sha256 per file)
+      date: '2026-10-24'
+      by: harvest-hadithunlocked-books session
+      failed: null
+    used_by:
+      prs:
+      - 1554
+      ledger:
+      - docs/authenticity-ledger/books/sunan-abi-dawud.yaml
+      - docs/delegation/library/riyad-salihin.md
+    completion: downloaded
+    state_note: PR 1554 registered the source and authenticity records; copies are recorded as undecided carriers in the authenticity ledger (no edition named in EPUB metadata). Which entities used these files is not recorded in one place.
+    unverified:
+    - licence
+    - mining.ranges_mined
+    - used_by.entities
+  - id: hadithunlocked-translation
+    title: Islam Unlocked Qur'an translations (JSON and EPUB)
+    kind: download
+    source:
+      name: Hadith Unlocked / Islam Unlocked
+      url: https://quran.islamunlocked.com
+      hosts:
+      - quran.islamunlocked.com
+      release: files as fetched on 2026-10-24
+    licence: not recorded on the drive; no terms page recorded in the repository; treated as reference copy (facts only, text never republished)
+    lane: hadithunlocked harvest (PR 1554)
+    location: raw/hadithunlocked/translation/
+    files:
+    - {name: raw/hadithunlocked/translation/yusuf-ali.epub, bytes: 2482987, sha256: aa56348012f869b7962faa467fc2de3dd5818d743c1621e1fb6970c990a99a8e, format: epub, url: 'https://quran.islamunlocked.com/quran/yusuf-ali.epub'}
+    - {name: raw/hadithunlocked/translation/en-khattab.epub, bytes: 1357890, sha256: ffe61332d772258dbff03424761f9e396afaec8e494efccb51bbcca549a7a016, format: epub, url: 'https://quran.islamunlocked.com/quran/en-khattab.epub'}
+    - {name: raw/hadithunlocked/translation/en-saheeh-intl.epub, bytes: 1366822, sha256: 5c03c0dc72de0853e36f6ccb619bdc6c75e7733d5f7a4617a21b772f5209cbde, format: epub, url: 'https://quran.islamunlocked.com/quran/en-saheeh-intl.epub'}
+    - {name: raw/hadithunlocked/translation/en-hilali-khan.epub, bytes: 1511307, sha256: 84fbf886a6b1023ca350e22bac4aa181487ad471bd15c8960e583088ddeef33c, format: epub, url: 'https://quran.islamunlocked.com/quran/en-hilali-khan.epub'}
+    - {name: raw/hadithunlocked/translation/en-bridges.epub, bytes: 1344416, sha256: df0c65e61d6f7726259bff1cb0d2ba3a049edb62d8fdd27df6b2cee135436309, format: epub, url: 'https://quran.islamunlocked.com/quran/en-bridges.epub'}
+    - {name: raw/hadithunlocked/translation/en-taqi-usmani.epub, bytes: 1244205, sha256: fbcc7259b5c9170a19b3fb617735bbbf9e69fb26a7fa1fa65863158b2dd40501, format: epub, url: 'https://quran.islamunlocked.com/quran/en-taqi-usmani.epub'}
+    - {name: raw/hadithunlocked/translation/en-itani.epub, bytes: 1189305, sha256: cf7f43d2321e1b25cf0223fd6d5bb0caf52731b8245de7ffc37ea94356c6f10e, format: epub, url: 'https://quran.islamunlocked.com/quran/en-itani.epub'}
+    - {name: raw/hadithunlocked/translation/en-bewley.epub, bytes: 1198331, sha256: 491121d4ef739caebbc4b011fa8881026327b90a6773f07dd4148a11d26ebe6b, format: epub, url: 'https://quran.islamunlocked.com/quran/en-bewley.epub'}
+    - {name: raw/hadithunlocked/translation/en-ahmedraza.epub, bytes: 1241454, sha256: 7d2a01a42d0ce94410e46531f62a8335e144df63cbd2d304861116cc2fad274e, format: epub, url: 'https://quran.islamunlocked.com/quran/en-ahmedraza.epub'}
+    - {name: raw/hadithunlocked/translation/en-asad.epub, bytes: 1339471, sha256: f43224702866496ca8ae01cae62b0460f6ddaef581366a38cd616dc1f0001f5f, format: epub, url: 'https://quran.islamunlocked.com/quran/en-asad.epub'}
+    - {name: raw/hadithunlocked/translation/en-busool.epub, bytes: 1181605, sha256: 8f632f94f9cf3048cb7f5f9080a9d530516cca14a24d0ea3fbcfc5b97d91fb53, format: epub, url: 'https://quran.islamunlocked.com/quran/en-busool.epub'}
+    - {name: raw/hadithunlocked/translation/en-daryabadi.epub, bytes: 1208309, sha256: 601f146e4d90c7ad5707fa5784c71d5eb15c8412554d198602745f9a3f50c4b7, format: epub, url: 'https://quran.islamunlocked.com/quran/en-daryabadi.epub'}
+    - {name: raw/hadithunlocked/translation/en-ghali.epub, bytes: 1274372, sha256: d0360289ce611ce004150b90a9957bc8c8a8680cf80a7a9bedc3ddd2384bc9d1, format: epub, url: 'https://quran.islamunlocked.com/quran/en-ghali.epub'}
+    - {name: raw/hadithunlocked/translation/en-pickthall.epub, bytes: 1217604, sha256: c11b99a0f3e2112c7f08837ea24cc1eeb01f4bdcde7f3e30d37af5dcb8582192, format: epub, url: 'https://quran.islamunlocked.com/quran/en-pickthall.epub'}
+    - {name: raw/hadithunlocked/translation/en-qarai.epub, bytes: 1213059, sha256: f373b1efdcd6ba6c3ed934127442c2e6121dcc797e74637c705fef856de7f0fb, format: epub, url: 'https://quran.islamunlocked.com/quran/en-qarai.epub'}
+    - {name: raw/hadithunlocked/translation/en-qaribullah.epub, bytes: 1199972, sha256: 06f73f9248dfe0763713237d6fb9b9d7ad3baa3c756fcc5a8e39d149629b8af8, format: epub, url: 'https://quran.islamunlocked.com/quran/en-qaribullah.epub'}
+    - {name: raw/hadithunlocked/translation/en-rowwad.epub, bytes: 1412537, sha256: 24254b0a243b15ce66babd09047b9e1f5766fbdd73f6632e569b2e26c8edfecd, format: epub, url: 'https://quran.islamunlocked.com/quran/en-rowwad.epub'}
+    - {name: raw/hadithunlocked/translation/en-sarwar.epub, bytes: 1222108, sha256: a2420d273accec1c6cb6536dbc904840e217c82e9f8bd287cb839d98a7e1a8f8, format: epub, url: 'https://quran.islamunlocked.com/quran/en-sarwar.epub'}
+    - {name: raw/hadithunlocked/translation/en-shakir.epub, bytes: 1208558, sha256: afbbf29ce42778b6fd57a150b0f537d5c164989d9b85dc34a9b91e0b1246a33e, format: epub, url: 'https://quran.islamunlocked.com/quran/en-shakir.epub'}
+    - {name: raw/hadithunlocked/translation/en-study-quran.epub, bytes: 1192220, sha256: 6f48803ebda11868bb68bd2fbea529267e542d5791047492f72b6fc176219fea, format: epub, url: 'https://quran.islamunlocked.com/quran/en-study-quran.epub'}
+    - {name: raw/hadithunlocked/translation/en-tahir-ul-qadri.epub, bytes: 1360153, sha256: ac066a66f05abe474ab47d207e0fa2bc00aecf6c8833fd89b41ed6d3563a10d5, format: epub, url: 'https://quran.islamunlocked.com/quran/en-tahir-ul-qadri.epub'}
+    - {name: raw/hadithunlocked/translation/en-wahiduddin.epub, bytes: 1229506, sha256: b7d36fe76e52182adfcf69776e40fbc9b07f90f1bbc239bf91b5fad5ce7bab79, format: epub, url: 'https://quran.islamunlocked.com/quran/en-wahiduddin.epub'}
+    acquisition:
+      method: direct file download listed in raw/hadithunlocked/manifest.jsonl (url, bytes, sha256 per file)
+      date: '2026-10-24'
+      by: harvest-hadithunlocked-books session
+      failed: null
+    used_by:
+      prs:
+      - 1554
+      ledger:
+      - docs/authenticity-ledger/books/sunan-abi-dawud.yaml
+      - docs/delegation/library/riyad-salihin.md
+    completion: downloaded
+    state_note: PR 1554 registered the source and authenticity records; copies are recorded as undecided carriers in the authenticity ledger (no edition named in EPUB metadata). Which entities used these files is not recorded in one place.
+    unverified:
+    - licence
+    - mining.ranges_mined
+    - used_by.entities
+  - id: hadithunlocked-history
+    title: Hadith Unlocked history book
+    kind: download
+    source:
+      name: Hadith Unlocked / Islam Unlocked
+      url: https://hadithunlocked.com
+      hosts:
+      - hadithunlocked.com
+      release: files as fetched on 2026-10-24
+    licence: not recorded on the drive; no terms page recorded in the repository; treated as reference copy (facts only, text never republished)
+    lane: hadithunlocked harvest (PR 1554)
+    location: raw/hadithunlocked/history/
+    files:
+    - {name: raw/hadithunlocked/history/history.epub, bytes: 20134227, sha256: da264ad7a68ab8df53ff50844a5fb0b82382a143a5995bdcbf60fd197a3d8621, format: epub, url: 'https://hadithunlocked.com/history.epub'}
+    acquisition:
+      method: direct file download listed in raw/hadithunlocked/manifest.jsonl (url, bytes, sha256 per file)
+      date: '2026-10-24'
+      by: harvest-hadithunlocked-books session
+      failed: null
+    used_by:
+      prs:
+      - 1554
+      ledger:
+      - docs/authenticity-ledger/books/sunan-abi-dawud.yaml
+      - docs/delegation/library/riyad-salihin.md
+    completion: downloaded
+    state_note: PR 1554 registered the source and authenticity records; copies are recorded as undecided carriers in the authenticity ledger (no edition named in EPUB metadata). Which entities used these files is not recorded in one place.
+    unverified:
+    - licence
+    - mining.ranges_mined
+    - used_by.entities
+  - id: hadithunlocked-sira
+    title: Hadith Unlocked sira book
+    kind: download
+    source:
+      name: Hadith Unlocked / Islam Unlocked
+      url: https://hadithunlocked.com
+      hosts:
+      - hadithunlocked.com
+      release: files as fetched on 2026-10-24
+    licence: not recorded on the drive; no terms page recorded in the repository; treated as reference copy (facts only, text never republished)
+    lane: hadithunlocked harvest (PR 1554)
+    location: raw/hadithunlocked/sira/
+    files:
+    - {name: raw/hadithunlocked/sira/ibnhisham.epub, bytes: 2437506, sha256: cbe03490dc15ef3d634aafa0935a01d75f98c16ff2dadff4b061ed59212c6ae9, format: epub, url: 'https://hadithunlocked.com/ibnhisham.epub'}
+    acquisition:
+      method: direct file download listed in raw/hadithunlocked/manifest.jsonl (url, bytes, sha256 per file)
+      date: '2026-10-24'
+      by: harvest-hadithunlocked-books session
+      failed: null
+    used_by:
+      prs:
+      - 1554
+      ledger:
+      - docs/authenticity-ledger/books/sunan-abi-dawud.yaml
+      - docs/delegation/library/riyad-salihin.md
+    completion: downloaded
+    state_note: PR 1554 registered the source and authenticity records; copies are recorded as undecided carriers in the authenticity ledger (no edition named in EPUB metadata). Which entities used these files is not recorded in one place.
+    unverified:
+    - licence
+    - mining.ranges_mined
+    - used_by.entities
+  - id: hadith-json-v1-2-0
+    title: hadith-json v1.2.0 (17 hadith books, Arabic and English, release zip and extracted)
+    kind: download
+    source:
+      name: GitHub repository AhmedBaset/hadith-json (name from docs/delegation/hadith-repos-inventory.md), release v1.2.0
+      url: null
+    licence: unverified (scraped from sunnah.com per the inventory; terms to check before any use)
+    lane: hadith repos survey (docs/delegation/hadith-repos-inventory.md)
+    location: raw/unverified/hadith-json-v1.2.0/
+    files:
+    - {name: raw/unverified/hadith-json-v1.2.0/hadith-json-v1.2.0.zip, bytes: 33049231, date: '2026-10-24', sha256: 863c20191056a62b22905a6c0cad24309de641d2b1ac60555e6bc0bb57fc9ec3}
+    directory: {path: raw/unverified/hadith-json-v1.2.0/, files: 642, bytes_on_disk: 182427648, date: '2026-10-24'}
+    acquisition:
+      method: release zip download, extracted next to it
+      date: '2026-10-24'
+      by: hadith survey session (24 Oct 2026)
+    used_by:
+      derived:
+      - catalog/hadith-json-books.tsv
+      ledger:
+      - docs/delegation/held-back-content.md
+      - docs/delegation/hadith-repos-inventory.md
+    completion: downloaded
+    state_note: Placed in raw/unverified. held-back-content.md item 35 says it was never downloaded; the file is on the drive, so that line is out of date. Reading for numbering, grading and isnad facts is allowed; text never republished.
+    unverified:
+    - source.url
+    - licence
+    - used_by.entities
+  - id: github-hadith-repo-snapshots
+    title: GitHub hadith and tafsir repository snapshots (15 repositories, unverified licences)
+    kind: clone
+    source:
+      name: GitHub repositories found by the search 'hadith' (https://github.com/search?q=hadith&type=repositories)
+      url: https://github.com/search?q=hadith&type=repositories
+      repositories_by_folder_name:
+      - 4thel00z-hadith.json
+      - AbdullahNaseer01-hadith-books-data
+      - CheeseWithSauce-HadithsJSONFormat
+      - Deen-Bridge-dnb-ai
+      - GregoryMorse-IslamSource
+      - SENODROOM-sunan-abi-dawud
+      - abdelrahmaan-Hadith-Data-Sets
+      - alQuranBD-Bangla-Hadith-api
+      - ashrafuzzaman-hadith
+      - ceefour-hadith-islamware
+      - galacticwarrior9-IslamBot
+      - halimbahae-Hadith
+      - maximromanov-HadithReader
+      - mhashim6-Open-Hadith-Data
+      - mrikhan1-iqra-tafsir-data
+    licence: mixed and unverified (maximromanov/HadithReader is CC BY-NC-SA 3.0, ceefour/hadith-islamware is copyrighted, others unchecked; see the inventory)
+    lane: hadith repos survey
+    location: raw/unverified/github-search/
+    directory: {path: raw/unverified/github-search/, files: 6660, bytes_on_disk: 7139549184, date: '2026-10-24'}
+    acquisition:
+      method: repository snapshot per search hit (exact commands not recorded)
+      date: '2026-10-24'
+      by: hadith survey session (24 Oct 2026)
+    used_by:
+      ledger:
+      - docs/delegation/hadith-repos-inventory.md
+    completion: downloaded
+    state_note: Survey material only; the inventory is a research note, not a source.
+    unverified:
+    - acquisition.method
+    - acquisition.per_repo_commit
+    - used_by.entities
+  - id: catalog-working-tables
+    title: Hadith and sharh catalogue tables (Hadith Unlocked catalogue, hadith-json book list, commentary refs, search groups)
+    kind: derived
+    source:
+      name: derived from hadithunlocked-* and hadith-json-v1-2-0
+    licence: titles and counts only
+    lane: hadith harvest
+    location: catalog/
+    files:
+    - {name: catalog/hadith-json-books.tsv, bytes: 1487, date: '2026-10-24', sha256: dca800213a1fa0c271302f68932d6247c037129acb579677d289acc1a5eec960}
+    - {name: catalog/hu-catalogue-2026-09-05.tsv, bytes: 2496, date: '2026-10-24', sha256: fe0c55b7b2bf0f7bb1f07f746d5fbcdec342d523b7ca211d9b3fad72fc334a82}
+    - {name: catalog/hu-commentary-refs.tsv, bytes: 3063, date: '2026-10-24', sha256: f9018abddb5e3530bb3472c2211817388f951666ef85477b4e7323cf015f74c5}
+    - {name: catalog/search-groups.tsv, bytes: 1946, date: '2026-10-24', sha256: 3d9c3487eaba784a3aecb2a77c0fe9f82ad11f9c23a4e8c4098080052b073f5f}
+    - {name: catalog/sharh-catalogue-2026-10.tsv, bytes: 3807, date: '2026-10-24', sha256: c42df36e20cd7ce2171baf14cea408ec75c7d448e36bf6f91575ed66c5bee40d}
+    - {name: catalog/schemas.md, bytes: 3235, date: '2026-10-24', sha256: 57b47f1d06defabffdc12758623b6e20568f74687d7064cf6b1acbba0b881814}
+    acquisition:
+      method: tables built from the catalogues
+      date: '2026-10-24'
+      by: hadith harvest sessions
+    completion: ingested
+    state_note: Catalogue snapshots dated 5 Sep 2026 (hu-catalogue) and Oct 2026 (sharh).
+    unverified:
+    - used_by.entities
+    - acquisition.by
+  - id: princeton-geniza-pgp-metadata-v1-2
+    title: Princeton Geniza Project metadata (Zenodo deposit, v1.2) and pilot layer
+    kind: download
+    source:
+      name: Zenodo 22663982 (folder name raw/geniza/pgp-zenodo-22663982)
+      url: null
+      note: Zenodo record URL not recorded in a ledger; source/princeton-geniza names the 2025 v1.0.0 deposit
+    licence: CC BY (Princeton Geniza Project data; exact licence line not re-read)
+    lane: web-sources (dec-20261108-218)
+    location: raw/geniza/pgp-zenodo-22663982/; layers/nc/geniza/
+    files:
+    - {name: raw/geniza/pgp-zenodo-22663982/pgp-metadata-v1.2.zip, bytes: 16716087, date: '2026-10-24', sha256: d3f4e5acf05577e9033938b1fb8de63868b6c9fbc0acfb528a2cd495904d072d}
+    - {name: layers/nc/geniza/pilot-10.jsonl, bytes: 2780, date: '2026-10-24', sha256: cc55824ff4d24fc33d56dc2caef76b5bd387c29795a8babb61709715468f4b10, note: '10 documents, pilot'}
+    directory: {path: raw/geniza/, files: 12, bytes_on_disk: 85594112, date: '2026-10-24'}
+    acquisition:
+      method: zip download and extraction
+      date: '2026-10-24'
+      by: web-sources session (24 Oct 2026)
+    used_by:
+      entities: 1 file cites source/princeton-geniza (14 Nov 2026 count)
+      ledger:
+      - docs/delegation/web-sources-progress.md
+      - docs/decisions/records/dec-20261108-218.yaml
+    completion: ingested
+    state_note: Pilot of 10 documents only. Registered 8 Nov 2026.
+    unverified:
+    - source.url
+    - licence
+    - acquisition.date
+  - id: tafsir-app-harvest
+    title: tafsir.app harvest tree (82-book catalogue; 20 tafsir texts fetched by ayah group)
+    kind: website_harvest
+    source:
+      name: tafsir.app (al-Bahith al-Qur'ani)
+      url: https://tafsir.app/
+      endpoint: per-book source_url in raw/library/tafsir-app/books.jsonl, e.g. https://tafsir.app/tabari/1/1
+    licence: no licence or terms page (recon 8 Nov 2026); facts-only posture, texts workspace-local, never in git or R2
+    lane: library (dec-20261108-192, founder docket)
+    location: raw/library/tafsir-app/
+    files:
+    - {name: raw/library/tafsir-app/books.jsonl, bytes: 366356, date: '2026-11-08', sha256: 7c1b1b35d95b7f74326516e681a4c926644cf2581d299bbfd3df859b1cdb761b, note: '82 catalogue rows: 72 api-text books, 10 non-api-text (skipped)'}
+    - {name: raw/library/tafsir-app/harvest.log, bytes: 6249, date: '2026-11-12', sha256: 60994bdcfdd699972063ed2a4b7e2f1e819c695332b46abcc3f463e60994ef0c}
+    - {name: raw/library/tafsir-app/harvest_tafsir.py, bytes: 9063, date: '2026-11-08', sha256: 42dc6e277678f3bdda418567a433f149c59bc25191fc31b9dc95768cfbb8577f}
+    - {name: raw/library/tafsir-app/verify_harvest.py, bytes: 8086, date: '2026-11-08', sha256: c28fcb188bd5161bfed56eec5ba8d3368fa6d24c9a1797ab0f39063d9821849f}
+    directory: {path: raw/library/tafsir-app/, files: 75123, bytes_on_disk: 1105612800, date: '2026-11-12'}
+    acquisition:
+      method: harvest_tafsir.py with watchdog.sh (get.php JSON endpoint, per-book resumable)
+      date: 2026-11-08 to 2026-11-12
+      by: library lane (watchdog harvest)
+    pulls:
+    - {book: tabari, groups: 2037, ayahs_covered: 3985, empty: 797, completed: '2026-11-08'}
+    - {book: ibn-katheer, groups: 3332, ayahs_covered: 9140, empty: 1421, completed: '2026-11-08'}
+    - {book: qurtubi, groups: 3699, ayahs_covered: 7241, empty: 1064, completed: '2026-11-08'}
+    - {book: ibn-aashoor, groups: 5147, ayahs_covered: 7325, empty: 1224, completed: '2026-11-09'}
+    - {book: baghawi, groups: 3676, ayahs_covered: 8796, empty: 1524, completed: '2026-11-09'}
+    - {book: muyassar, groups: 5665, ayahs_covered: 6807, empty: 625, completed: '2026-11-09'}
+    - {book: jalalayn, groups: 6010, ayahs_covered: 6236, empty: 226, completed: '2026-11-09'}
+    - {book: albaydawee, groups: 1972, ayahs_covered: 3346, empty: 900, completed: '2026-11-11'}
+    - {book: alnasafi, groups: 6136, ayahs_covered: 6259, empty: 163, completed: '2026-11-11'}
+    - {book: alwajeez, groups: 5168, ayahs_covered: 6236, empty: 1068, completed: '2026-11-12'}
+    - {book: alaloosi, groups: 6092, ayahs_covered: 6380, empty: 463, completed: '2026-11-12'}
+    - {book: alrazi, groups: 4409, ayahs_covered: 8063, empty: 1440, completed: '2026-11-12'}
+    - {book: kashaf, groups: 4381, ayahs_covered: 8077, empty: 1403, completed: '2026-11-12'}
+    - {book: zad-almaseer, groups: 3181, ayahs_covered: 9291, empty: 997, completed: '2026-11-12'}
+    - {book: almawirdee, groups: 3059, ayahs_covered: 9413, empty: 1350, completed: '2026-11-12'}
+    - {book: samaani, groups: 6051, ayahs_covered: 6285, empty: 365, completed: '2026-11-12'}
+    - {book: albaseet, groups: 4918, ayahs_covered: 6260, empty: 1364, completed: '2026-11-12'}
+    - {book: abu-alsuod, groups: 6215, ayahs_covered: 6257, empty: 110, completed: '2026-11-12'}
+    - {book: ibn-atiyah, groups: 3130, ayahs_covered: 9342, empty: 1458, completed: '2026-11-12'}
+    - {book: albahr-almuheet, state: 'stopped 12 Nov 2026 22:10 after 3 consecutive failures; partial, resume by restarting watchdog.sh'}
+    used_by:
+      ledger:
+      - docs/decisions/records/dec-20261108-192.yaml
+      - docs/delegation/lane-ledgers/microsd-books.md
+    completion: mining
+    state_note: 19 books complete (groups and covered ayahs from harvest.log) and al-Bahr al-Muhit partial; 52 further api-text books not started; 10 non-api-text books skipped by design. The decision record dec-20261108-192 sits on the founder docket; commit eec56494b2 (8 Nov 2026) records the harvest as approved. Mining of the texts has not been recorded in a ledger. Ayah counts are as logged in harvest.log.
+    unverified:
+    - licence
+    - mining.state
+    - used_by.entities
+    - acquisition.by
+  - id: surah-app-public-api
+    title: Surah app and Public Sura API catalogue (facts only, no local copy)
+    kind: api_pull
+    source:
+      name: Tafsir Center for Quranic Studies
+      url: https://dev.surahapp.com/api/docs
+    licence: no terms page found; facts-only (dec-20261114-279, founder docket); rights statement recorded in PR 6867
+    lane: web-sources (Lane B)
+    acquisition:
+      method: public JSON API, project catalogue and per-project content, 3 s pause; no scripture wording stored (sources.yaml surahapp)
+      date: '2026-11-14'
+      by: web-sources worker
+    used_by:
+      prs:
+      - 6659
+      - 6867
+      entities: 3 files cite source/surah-app (14 Nov 2026 count); two tafsir works linked
+    completion: ingested
+    state_note: 'No dump on the drive (sources.yaml downloads: []).'
+  - id: fatwa-explorer-catalogue
+    title: Fatwa and khutba catalogues (catalogue.json, websites.json, dar-alifta sample)
+    kind: derived
+    source:
+      name: survey of fatwa sources (archive.org advancedsearch, waqfeya, Dar al-Ifta al-Misriyyah site)
+      url: null
+    licence: titles and counts only
+    lane: fatwa explorer proposal and khutab lanes
+    location: books/fatwa/; khutab/
+    files:
+    - {name: books/fatwa/catalogue.json, bytes: 1175, date: '2026-10-31', sha256: 74b36f55d78ebfe8a06d43d42281ef9030d0c68048f8f2e7ad7fa49cd2e1631c, note: 'phase 1 search results, status partial'}
+    - {name: books/fatwa/websites.json, bytes: 18367, date: '2026-10-31', sha256: e71d6fcea33c1667e1c5850cc6bfa62fb6f2076d6a917d5fe02279dd999be3ed}
+    - {name: books/fatwa/dar-alifta/sample-1.json, bytes: 6809, date: '2026-10-31', sha256: 3d2f9b4097487c6af3f09db95882a05d371432e488a73f77d19972ba6e5b8e02}
+    - {name: khutab/catalogue.json, bytes: 4428, date: '2026-10-31', sha256: 4fdbb225164ec8b59eb95da418c6a319635a5480bce55ac642e7b2816064ccb8}
+    acquisition:
+      method: search and sample pulls
+      date: '2026-10-31'
+      by: fatwa explorer proposal session
+    used_by:
+      prs:
+      - 2957
+      ledger:
+      - docs/library/harvest-register.yaml (books:fatwa dar-alifta)
+    completion: ingested
+    state_note: The Dar al-Ifta book entry (books:fatwa) holds the mining state; this entry records the catalogue files. The four fatwa book scans under raw/books/fatwa are book rows.
+    unverified:
+    - source.url
+    - used_by.prs_other
+  - id: inventions-research-downloads
+    title: Inventions Browser research downloads (papers, scans, images, 1001 Inventions e-book index)
+    kind: download
+    source:
+      name: scholarly papers, Wikimedia Commons images, TDV Islam Ansiklopedisi pages, archive.org items (per file, see docs/inventions/research.md)
+      url: null
+    licence: per file; media only from the whitelist; PDFs and text never in git
+    lane: inventions (docs/agents/lanes/inventions.md)
+    location: inventions/
+    directory: {path: inventions/, files: 1400, bytes_on_disk: 1254522880, date: '2026-11-07'}
+    files:
+    - {name: inventions/1001-inventions-al-hassani/1001-inventions-second-edition.epub, bytes: 28272698, date: '2026-11-05', sha256: 25781c67ca7a187c7f089365a52e6168c9242a9e09e79941c991ceb951ad1194, note: 'archive.org item 1001-inventions-muslim-heritage-in-our-world_202312, accessed 2026-11-05'}
+    - {name: inventions/1001-inventions-al-hassani/access-notes.md, bytes: 1070, date: '2026-11-05', sha256: fe8fc785eccd75f330098e85b875d21961ce1c5e6734d9a6942632c6cf10f302}
+    acquisition:
+      method: browser downloads, per-file notes in inventions/ (b49 to b75 series)
+      date: '2026-11-05'
+      by: inventions lane (copilot)
+    used_by:
+      ledger:
+      - docs/inventions/progress.md
+      - docs/inventions/research.md
+      - docs/agents/lanes/inventions.md
+      prs:
+      - 5451
+      - 5403
+      - 5341
+      - 5320
+      - 5287
+      - 4884
+      - 4877
+      - 4804
+      - 4739
+      - 4598
+      entities: invention records (data/invention/, title-based PR list; the full set is in the lane ledger)
+    completion: mining
+    state_note: '523 entries in the folder (PDFs, text extractions, page images, rights JSON). Sub-folders: 1001-inventions-al-hassani (the e-book, one 1.7 MB FTS index and two empty 0-byte SQLite files), b100, asbads-mahdavinejad-2012, cheikho-al-khujandi-fakhri-1908. The phase-3 batches are still running.'
+    unverified:
+    - used_by.prs_complete
+    - acquisition.per_file_urls
+  - id: claims-tables-working
+    title: Claims tables and ledgers (per-book and per-episode claim TSVs)
+    kind: working_area
+    source:
+      name: own working notes read from books and episodes
+    licence: working notes, never in git (no claims tables in git)
+    lane: library, azhar-academy, farghani, islamic-economics, ali-ibn-abi-talib, assabile
+    location: claims/
+    directory: {path: claims/, files: 54, bytes_on_disk: 3002368, date: '2026-10-31'}
+    files:
+    - {name: claims/LEDGER.md, bytes: 8970, date: '2026-10-31', sha256: 844a736a8b888e2c41c41f81b84d53df64b4202c0207aa4109e9f792c414f466}
+    - {name: claims/sira-events-claims.json, bytes: 1810, date: '2026-10-14', sha256: 1133ab2661e16260c05f6dd3daea977cdae528ac402e03e78bf05789c9daea9b}
+    - {name: claims/uhud-claims.json, bytes: 7028, date: '2026-10-14', sha256: 53d15d37dd879bb431686c61a1f46873b8bac6c9cfd7f9bf9a1b8fc612a9af24}
+    - {name: claims/sallabi-ali-vol1.tsv, bytes: 125043, date: '2026-10-22', sha256: b62099946aefc2ea2d6fb5b479dc61ab717090649b29aad4face65ee7ea89017}
+    used_by:
+      ledger:
+      - docs/delegation/azhar-academy-progress.md
+      - docs/delegation/assabile-egypt-progress.md
+    completion: mining
+    state_note: Per-book entries in the books segment point at their claims by book.
+    unverified:
+    - used_by.prs
+  - id: harvest-duckdb
+    title: Main harvest database (GeoNames, Met, OpenITI metadata, Pleiades tables)
+    kind: derived
+    source:
+      name: derived from geonames-dumps, met-open-access-objects, pleiades-dumps-2026-10, openiti-corpus-2025-1-9, openiti-makhzan-2026-1-2
+    licence: mixed per source table (CC BY 4.0, CC0, CC BY 3.0, CC BY-NC-SA 4.0)
+    lane: collections
+    location: db/
+    files:
+    - {name: db/harvest.duckdb, bytes: 2607034368, date: '2026-10-11', sha256_status: pending, note: 'tables gn_admin1, gn_altname 19.2 M, gn_country, gn_place 13.5 M, met_islamic 15,573, met_object 484,956, oi_corpus_meta 14,107, oi_meta 1,497, pl_name 44,228, pl_place 42,493 (estimated rows)'}
+    acquisition:
+      method: scripts/harvest/collections/load_tables.py
+      date: '2026-10-11'
+      by: dataset harvest (scripts/harvest, see lane)
+    used_by:
+      scripts:
+      - scripts/harvest/collections/reconcile_places.py
+      ledger:
+      - reports/place-reconciliation.tsv
+    completion: ingested
+    state_note: Rebuildable from the raw files.
+  - id: vhmml-listing-data
+    title: vHMML repository listing (264,037 manuscript records, 7 columns)
+    kind: download
+    source:
+      name: Hill Museum and Manuscript Library data portal
+      url: https://www.vhmml.org/datasets/vhmml_rr_listingdata_csv.zip
+    licence: not recorded (data portal; robots allowed /datasets/)
+    lane: web-sources lane B (p36)
+    location: raw/vhmml/ (per ledger)
+    files:
+    - {name: vhmml_rr_listingdata_csv.zip, bytes: 3205820, status: ledger value; folder raw/vhmml/ not found on the drive on 14 Nov 2026}
+    - {name: vhmml_rr_listingdata.csv, bytes: 33160633, status: ledger value; not found on the drive}
+    acquisition:
+      method: one request, HTTP 200
+      date: '2026-11-14'
+      by: web-sources worker (approval relayed by orchestrator)
+    used_by:
+      ledger:
+      - docs/delegation/web-sources-progress.md (p36)
+    completion: downloaded
+    state_note: Measured share of Islamic or Arabic-script repositories in the ledger. The file is not on the drive at the symlinked harvest root; it may sit in another worker's clone.
+    unverified:
+    - location
+    - sha256
+    - licence
+  - id: papyri-idp-hgv-sparse-clone
+    title: Papyri.info idp.data HGV_meta_EpiDoc sparse clone (68,025 records)
+    kind: clone
+    source:
+      name: github.com/papyri/idp.data (directory HGV_meta_EpiDoc)
+      url: https://github.com/papyri/idp.data
+    licence: CC BY 3.0 (per repository README, from the web-sources ledger)
+    lane: web-sources lane B (p46)
+    location: raw/papyri-idp/ (per ledger)
+    acquisition:
+      method: one blobless sparse clone
+      date: '2026-11-14'
+      by: web-sources worker
+    files:
+    - {name: raw/papyri-idp/, status: ledger value about 494 MB with git metadata; folder not found on the drive on 14 Nov 2026}
+    used_by:
+      ledger:
+      - docs/delegation/web-sources-progress.md (p46)
+      entities: 2 places linked (ahnas, al-bahnasa) per the ledger
+    completion: ingested
+    state_note: 'Pilot: 68,025 records scanned, 20 Pleiades place numbers found, 2 places linked.'
+    unverified:
+    - location
+    - bytes
+    - sha256
+  - id: workarea-packets
+    title: Content packet pipeline (drafting, verified, landed, rejected, BOARD, LANDER, PIPELINE)
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    lane: train and packet lanes (PRs such as 6974 'train 10')
+    location: packets/
+    directory: {path: packets/, files: 1063, bytes_on_disk: 24690688, date: '2026-11-14'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-staging
+    title: Staging area for batches before commit
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    location: staging/
+    directory: {path: staging/, files: 19, bytes_on_disk: 4812800, date: '2026-10-27'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-build
+    title: Site build output 'phase2-merged' (static site copy, 5 Nov 2026)
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    lane: site builds
+    location: build/
+    directory: {path: build/, files: 269881, bytes_on_disk: 16861233152, date: '2026-11-05'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-builds
+    title: Inventions phase-2 site build (dist)
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    lane: inventions lane
+    location: builds/
+    directory: {path: builds/, files: 368826, bytes_on_disk: 20834304000, date: '2026-11-05'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-drafts
+    title: Early prose drafts (en, illustrations, group and person stubs, 12 to 27 Oct 2026)
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    lane: prose lanes
+    location: drafts/
+    directory: {path: drafts/, files: 69, bytes_on_disk: 2981888, date: '2026-10-27'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-scratch
+    title: Scratch space for assabile writer lanes (egypt, heweny, hosny, kahlawi, farid, shaarawy, qwen, suwaidan-short)
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    lane: assabile lanes
+    location: scratch/
+    directory: {path: scratch/, files: 377, bytes_on_disk: 495366144, date: '2026-11-14'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-scratch_meta
+    title: Empty scratch metadata folder
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    location: scratch_meta/
+    directory: {path: scratch_meta/, files: 0, bytes_on_disk: 0, date: '2026-10-13'}
+    completion: complete
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-library
+    title: Library lane working files (candidates.json, selection.json, manifest.jsonl, download lists, run scripts)
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    lane: library lane
+    location: library/
+    directory: {path: library/, files: 18, bytes_on_disk: 761856, date: '2026-10-22'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-work
+    title: Per-lane working folders (a1-vision, apple-chunks, assabile-denoised, companions, madkhal-mazhab-ahmad, mm-* Mostafa Mahmoud works, prose-gap, tabaqat-ibn-saad)
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    lane: library and assabile lanes
+    location: work/
+    directory: {path: work/, files: 879, bytes_on_disk: 535855104, date: '2026-11-14'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-logs
+    title: Run logs
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    location: logs/
+    directory: {path: logs/, files: 135, bytes_on_disk: 78471168, date: '2026-11-12'}
+    completion: complete
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-bench
+    title: Benchmark files
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    location: bench/
+    directory: {path: bench/, files: 26, bytes_on_disk: 110592, date: '2026-10-27'}
+    completion: complete
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-bin
+    title: Local helper binaries and scripts (judge-long-fetch.mjs)
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    location: bin/
+    directory: {path: bin/, files: 2, bytes_on_disk: 110592, date: '2026-11-11'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-awh-tools
+    title: Tools folder
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    location: awh-tools/
+    directory: {path: awh-tools/, files: 53, bytes_on_disk: 3465216, date: '2026-11-14'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-worktools
+    title: Tools folder
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    location: worktools/
+    directory: {path: worktools/, files: 7, bytes_on_disk: 45056, date: '2026-11-14'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: workarea-ocr
+    title: OCR output folder (book rows in the books segment hold the OCR state)
+    kind: working_area
+    source:
+      name: local working files, not an external source
+    licence: not applicable (never in git)
+    lane: books segment
+    location: ocr/
+    directory: {path: ocr/, files: 259, bytes_on_disk: 48775168, date: '2026-10-23'}
+    completion: mining
+    state_note: 'Working area: no download source; nothing here is a finished dataset. Listed so the drive is fully accounted for.'
+    unverified:
+    - contents_not_inventoried
+  - id: raw-checksums-ledger
+    title: raw/checksums.sha256 (hash ledger for the large raw downloads)
+    kind: ledger
+    source:
+      name: computed locally
+    licence: not applicable
+    lane: harvest
+    location: raw/checksums.sha256
+    files:
+    - {name: raw/checksums.sha256, bytes: 24873, date: '2026-10-11', sha256: 7d50ff24aa2a4230ddbaa670150a982e2194c839e52784c9be227ce1230d9f0b, note: '206 lines: Wikipedia, Wikidata, OpenITI, Met, Pleiades, GeoNames and basemap files'}
+    completion: complete
+    state_note: The sha256 values for files over 200 MB in this block are read from this file and were not recomputed in the register task.
   # END datasets
