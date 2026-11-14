@@ -3435,6 +3435,18 @@ Resume point: min-kunuz-al-sunnah episode 30 (branch from origin/main).
 
 Resume point: min-kunuz-al-sunnah episode 31 (branch from origin/main).
 
+### alwaad-alhaq ep09 (14 Nov 2026)
+
+13 points written for episode 9 (ar, en, ur); 18 needs_source marks for this episode in each language file; 11 new or reused about edges. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep09) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Tale of Iblis prostrating and the beast treading him | ep09 00:15:30-00:16:00 | Reported tale with garbled text, kept only as an attributed needs_source line | Clarity | Open |
+| Remarks on a world in which people may not sleep, on scientists and Mars, and on the fate of civilisations and Andalusian kingdoms | ep09 00:32:30, 00:36:30, 00:49:30-00:50:00 | Garbled or speculative asides outside the sheikh's sourced account | Clarity | Open |
+| Bedouin and Companion anecdote after the Dajjal hadith | ep09 00:47:00-00:48:00 | Garbled loop, unrecoverable | Loop check | Open |
+| Repetition loops and repeated blessings | ep09 00:22:30, 00:29:00, 00:34:30, 00:45:00-00:46:00 | Garbled ASR repetition | Loop check | Open |
+
+Resume point: alwaad-alhaq episode 10 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep03 (14 Nov 2026)
 
 17 points written for episode 3 (ar, en, ur); 6 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (3-64); none typed. Contested: His assessments of the Prophet's character, of the questions put to Abu Sufyan and of the Prophet's letter are his own framing; the stories of Rukana, the daughter of Hatim and the armed man are told without chains and are not endorsed by the museum. Checked line by line against the transcript by a second reader before merge.
