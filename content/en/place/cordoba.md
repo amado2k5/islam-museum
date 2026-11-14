@@ -24,3 +24,6 @@ Cordoba was the capital of the Umayyad Caliphate in al-Andalus and one of the wo
 
 ## For Scholars
 The premier metropolis of al-Andalus and capital of the Umayyad Emirate and Caliphate, located in southern Spain along the Guadalquivir River. Reaching its cultural zenith in the 4th century AH (10th century CE) under Abd al-Rahman III and al-Hakam II, it rivaled Baghdad and Constantinople as the foremost center of learning, arts, and philosophy in Europe. Renowned for its Great Mosque, extensive palace libraries containing hundreds of thousands of codices, the royal city of Madinat al-Zahra, and street lighting, it was home to monumental figures like Ibn Rushd (Averroes) and Ibn Hazm, serving as a primary conduit of classical and Arabic science into Western Europe.
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer of the German Archaeological Institute holds this place as record no. 2361201, typed as an archaeological site and a populated place, under the preferred name «Córdoba (Ciudad, Municipio)»; its parent in the hierarchy is «Córdoba (Provincia)». Among its recorded names are «Corduba», «Colonia Patricia Corduba», «Cordova». {cite:idai-gazetteer 2361201}
