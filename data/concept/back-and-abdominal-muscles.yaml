@@ -1,0 +1,18 @@
+id: concept/back-and-abdominal-muscles
+class: concept
+kind: scientific
+label: { ar: "عضل الصلب والبطن عند ابن سينا", en: "Muscles of the back and abdomen in the Canon", ur: "قانون میں پشت اور پیٹ کے پٹھے" }
+summary:
+  ar: "يقسّم ابن سينا عضل الصلب إلى ما يثنيه إلى خلف وما يحنيه إلى قدام، ويجعل عضل البطن ثمانية تشترك في منافع {cite:canon-ibn-sina-print-v1 p.72} {cite:canon-ibn-sina-print-v1 p.73}."
+  en: "Ibn Sina divides the muscles of the back into those that bend it backward and those that bow it forward, and gives the abdomen eight muscles with shared uses {cite:canon-ibn-sina-print-v1 p.72} {cite:canon-ibn-sina-print-v1 p.73}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/muscles, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumlas 2 and 3 on muscles and nerves (scan pages 72 to 78), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-muscles-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
