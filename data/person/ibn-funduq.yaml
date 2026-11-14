@@ -15,9 +15,10 @@ born: { edtf: "1097~", calendar: gregorian, precision: year, derived: true, note
 died: { edtf: "1169", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: lived_in, target: place/khorasan, confidence: low, note: "Associated with خراسان per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/wikidata]
 external_ids:
   wikidata: Q4025793
+  viaf: "100331923"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"

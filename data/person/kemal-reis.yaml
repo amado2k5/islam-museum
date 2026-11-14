@@ -16,9 +16,10 @@ died: { edtf: "1511", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/gelibolu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/mediterranean-sea, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q732272
+  viaf: "83541897"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"

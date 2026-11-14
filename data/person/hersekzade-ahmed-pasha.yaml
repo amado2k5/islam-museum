@@ -15,9 +15,10 @@ died: { edtf: "1517", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/herceg-novi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/marash, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/wikidata]
 external_ids:
   wikidata: Q1312312
+  viaf: "36831913"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"

@@ -9,14 +9,14 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe, egypt-nile]
 died: { edtf: "1287~", hijri: "0686", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بالإسكندرية سنة 686؛ التحويل مشتق {cite:nafh-tib-maqqari p. 191}.", sources: [source/nafh-tib-maqqari] }
-external_ids: { wikidata: "Q2479109" }
+external_ids: { wikidata: "Q2479109", viaf: "9720717" }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 190–191"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch47
-sources: [source/nafh-tib-maqqari]
+sources: [source/nafh-tib-maqqari, source/wikidata]
 status: { review: published, completeness: 3 }
 relations:
   - { type: died_in, target: place/alexandria, note: "From text: توفي بالإسكندرية سنة ست وثمانين وستم", sources: [source/nafh-tib-maqqari] }

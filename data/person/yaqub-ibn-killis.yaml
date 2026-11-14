@@ -21,11 +21,12 @@ provenance:
   run: prose-fill-persons-batch50
 external_ids:
   wikidata: Q786839
+  viaf: "97920899"
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
   - { type: buried_in, target: place/al-bustan-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q63341484)" }
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/wikidata]
 status: { review: published, completeness: 3 }
 occupations:
   - job: job/vizier

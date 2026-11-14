@@ -54,6 +54,7 @@ wings:
 - living
 external_ids:
   wikidata: Q732388
+  viaf: "12418633"
 relations:
   - { type: born_in, target: place/jhang, sources: [source/wikidata-tahir-ul-qadri], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1026616)" }
   - { type: lived_in, target: place/canada, sources: [source/wikidata-tahir-ul-qadri], confidence: low, note: "Wikidata P551 residence (Wikidata Q16)" }
@@ -62,6 +63,7 @@ sources:
 - source/wikipedia-tahir-ul-qadri-ar
 - source/wikipedia-tahir-ul-qadri-ur
 - source/wikidata-tahir-ul-qadri
+- source/wikidata
 provenance:
   layer: own-research
   source: English, Arabic and Urdu Wikipedia and Wikidata Q732388, consulted directly 26 Oct 2026

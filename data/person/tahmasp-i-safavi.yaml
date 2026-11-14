@@ -19,10 +19,11 @@ relations:
   - { type: born_in, target: place/shahabad-isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5853894)" }
   - { type: died_in, target: place/qazvin, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q181578)" }
   - { type: buried_in, target: place/imam-reza-shrine, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1791841)" }
-sources: [source/tarikh-islam-hasan-ibrahim, source/nomisma]
+sources: [source/tarikh-islam-hasan-ibrahim, source/nomisma, source/wikidata]
 external_ids:
   wikidata: Q298410
   nomisma: "shah_tahmasp"
+  viaf: "78638870"
 provenance:
   layer: own-research
   source: "Wikidata Q298410 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"

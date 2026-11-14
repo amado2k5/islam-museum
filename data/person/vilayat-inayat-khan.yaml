@@ -39,8 +39,8 @@ faith:
 relations:
   - { type: child_of, target: person/hazrat-inayat-khan, sources: [source/wikipedia-vilayat-inayat-khan-en, source/wikipedia-vilayat-inayat-khan-ar, source/wikidata-vilayat-inayat-khan] }
   - { type: buried_in, target: place/delhi, sources: [source/wikipedia-vilayat-inayat-khan-en, source/wikipedia-vilayat-inayat-khan-ar] }
-external_ids: { wikidata: "Q721476" }
-sources: [source/wikipedia-vilayat-inayat-khan-en, source/wikipedia-vilayat-inayat-khan-ar, source/wikidata-vilayat-inayat-khan]
+external_ids: { wikidata: "Q721476", viaf: "196611686" }
+sources: [source/wikipedia-vilayat-inayat-khan-en, source/wikipedia-vilayat-inayat-khan-ar, source/wikidata-vilayat-inayat-khan, source/wikidata]
 provenance:
   layer: own-research
   source: "English and Arabic Wikipedia articles on Vilayat Inayat Khan, each fetched by its recorded revision id (EN 1377035041, AR 74209882) with the returned id asserted equal before use, and Wikidata item Q721476 (revision 2548785143). No Urdu Wikipedia article exists for him; the Urdu prose is written from the English and Arabic sources. Existence checks by name fragments (Vilayat Inayat Khan, ولاية عنايت) and by QID across data/person and data/source found no prior record; the musician Vilayat Khan is a different person. He is a son of Hazrat Inayat Khan, built in this same wave; the child_of edge is written here, in the child's record, once. The lane queue gives 1916–2004; the sources agree."

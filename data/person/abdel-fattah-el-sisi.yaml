@@ -29,12 +29,13 @@ relations:
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-abdel-fattah-el-sisi-en] }
 wings: [people, living]
 regions: [egypt-nile]
-external_ids: { wikidata: "Q307871" }
+external_ids: { wikidata: "Q307871", viaf: "310665655" }
 sources:
   - source/wikipedia-abdel-fattah-el-sisi-en
   - source/wikipedia-abdel-fattah-el-sisi-ar
   - source/wikipedia-abdel-fattah-el-sisi-ur
   - source/wikidata-abdel-fattah-el-sisi
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Abdel Fattah el-Sisi in English (revision 1382125308 of 26 Oct 2026), Arabic (revision 76876893 of 5 Oct 2026) and Urdu (revision 5839527 of 16 Jan 2024) and the Wikidata item Q307871 (item revision 2560250240 of 24 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property. Existence checked both directions before writing: name fragments across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge is written: the articles attest that he was sworn in on 8 June 2014 after an interim presidency — Adly Mansour held the office from July 2013 — so he did not succeed Mohamed Morsi directly, and Mansour has no museum record."

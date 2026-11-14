@@ -15,9 +15,10 @@ born: { edtf: "1232", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1311", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q1397028 (P570, a statement with a reference), item revision 2567379146.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/kashf-zunun-furqan] }
-sources: [source/kashf-zunun-furqan, source/al-aalam, source/durar-kamina-jil-1993]
+sources: [source/kashf-zunun-furqan, source/al-aalam, source/durar-kamina-jil-1993, source/wikidata]
 external_ids:
   wikidata: Q1397028
+  viaf: "2625315"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Hajji Khalifa, Kashf al-Zunun — entry not yet read on the page"

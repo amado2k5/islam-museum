@@ -6,14 +6,14 @@ summary:
   en: "Ubaydallah ibn Ziyad ibn Abi Sufyan; Mu'awiya and Yazid's governor of Basra, Kufa and Iraq — a strange dirham bore his name."
 wings: [people]
 gender: male
-external_ids: { wikidata: "Q2617539" }
+external_ids: { wikidata: "Q2617539", viaf: "44025118" }
 born: { edtf: "648", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 died: { edtf: "686", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 relations:
   - { type: died_in, target: place/khazir-river, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q20391041)" }
   - { type: lived_in, target: place/khorasan, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q2352322)" }
   - { type: lived_in, target: place/basra, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q48195)" }
-sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/khudari-umayyad-state]
+sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/khudari-umayyad-state, source/wikidata]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 2; Devin (SWE-2 High), lib-futuh-buldan", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
 importance: 2
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); Devin (SWE-2 High); cites juz'/page of the scan" }

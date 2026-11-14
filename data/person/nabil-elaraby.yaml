@@ -39,11 +39,12 @@ relations:
   - { type: successor_of, target: person/amr-moussa, sources: [source/wikipedia-nabil-elaraby-en] }
 wings: [people]
 regions: [egypt-nile]
-external_ids: { wikidata: "Q456346" }
+external_ids: { wikidata: "Q456346", viaf: "222154539" }
 sources:
   - source/wikipedia-nabil-elaraby-en
   - source/wikipedia-nabil-elaraby-ar
   - source/wikidata-nabil-elaraby
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Nabil Elaraby in English (revision 1374869570 of 14 Sep 2026) and Arabic (revision 76819225 of 30 Sep 2026) and the Wikidata item Q456346 (item revision 2524743981 of 30 Jul 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (both agree on Q456346). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No Urdu Wikipedia article exists for him (the Wikidata item carries no Urdu sitelink); the Urdu prose is written from the English and Arabic articles and says so. The successor_of edge rests on the English article's infobox, which names Amr Moussa as his predecessor as Secretary-General of the Arab League, his term beginning 1 July 2011 as Moussa's ended. The museum has no group entity for the Arab League or the United Nations, so no member_of edge is written."

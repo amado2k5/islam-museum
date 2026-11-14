@@ -71,6 +71,7 @@ open a new block on top with the new version and today's date.
 - **VIAF identifiers added to two hundred more persons.** Each number comes from the single VIAF statement on the person's Wikidata item; numbers already used by another person of ours were skipped (decision dec-20261114-277).
 ### Data
 - **Six more biographies from al-Zirikli's al-A'lam (first edition, volume 2) in Arabic, English and Urdu, cited to the PDF page:** al-Zurqani, al-Malati, al-Tabari al-Makki, Abd al-Rahman ibn Khalid ibn al-Walid (the account of his death is attributed to al-Zirikli and not affirmed), al-Laqani and al-Shadhili. The first edition's entries are brief, so the pages say only what it states.
+- **VIAF identifiers added to 1,100 more persons.** Each number comes from the single VIAF statement on the person's Wikidata item; numbers already used by another person of ours were skipped (decision dec-20261114-277).
 
 ## v1.30.0 — 2026-11-14
 ### Added

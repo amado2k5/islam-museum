@@ -17,9 +17,10 @@ died: { edtf: "1453", calendar: julian, precision: year, status: tradition, deri
 relations:
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/conquest-constantinople-857, role: "الوزير المعارض للاستمرار", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/shadharat-dhahab, source/dawlat-uthmaniyya-salabi]
+sources: [source/shadharat-dhahab, source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q1572451
+  viaf: "39297815"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 98، 105"

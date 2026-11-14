@@ -28,8 +28,8 @@ faith:
     basis: unknown
     note: "No source names any affiliation or school for her, so none is recorded. The English article makes no statement of her religion anywhere and carries no religion infobox field; the Arabic stub's person infobox carries a religion field (الديانة) which stands EMPTY; the Urdu article is likewise silent; and Wikidata carries no religion (P140) value at all. Absence configuration: no religion content exists in any text, infobox, structured data or filing."
     sources: [source/wikipedia-hina-jilani-en, source/wikipedia-hina-jilani-ar, source/wikipedia-hina-jilani-ur, source/wikidata-hina-jilani]
-external_ids: { wikidata: "Q541751" }
-sources: [source/wikipedia-hina-jilani-en, source/wikipedia-hina-jilani-ar, source/wikipedia-hina-jilani-ur, source/wikidata-hina-jilani]
+external_ids: { wikidata: "Q541751", viaf: "31198227" }
+sources: [source/wikipedia-hina-jilani-en, source/wikipedia-hina-jilani-ar, source/wikipedia-hina-jilani-ur, source/wikidata-hina-jilani, source/wikidata]
 provenance:
   layer: own-research
   source: "Built 27 October 2026 for wave 105 §A of the century-additions queue from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Arabic and Urdu articles' pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (jilani, hina, جيلاني, جیلانی) across data/person/ found only the Sufi Jilani family records — no record for her — and her Q541751 appears in no existing person record. One relation is written: born_in to place/lahore, which exists. The sibling edge to person/asma-jahangir is written once, in Asma Jahangir's record, whose infobox names her as sister; it is not repeated here. Her faith is recorded unknown (absence configuration) as set out in the faith note."

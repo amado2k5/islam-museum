@@ -27,8 +27,8 @@ relations:
   - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: lived_in, target: place/baghdad, note: "From text: of Baghdad", sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan], confidence: low }
   - { type: successor_of, target: person/al-mustansir-billah, role: "بويع لولده عبد الله بعده", sources: [source/shadharat-dhahab] }
-external_ids: { wikidata: "Q293454" }
-sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan]
+external_ids: { wikidata: "Q293454", viaf: "173136478" }
+sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan, source/wikidata]
 importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 story_roles:

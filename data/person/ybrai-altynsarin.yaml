@@ -38,6 +38,7 @@ faith:
     sources: [source/wikipedia-altynsarin-en, source/wikipedia-altynsarin-kk, source/wikipedia-altynsarin-ru, source/wikidata-altynsarin]
 external_ids:
   wikidata: Q2628401
+  viaf: "47559564"
 relations:
   - { type: born_in, target: place/kostanay, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q488990)" }
 sources:
@@ -45,6 +46,7 @@ sources:
   - source/wikipedia-altynsarin-ru
   - source/wikipedia-altynsarin-kk
   - source/wikidata-altynsarin
+  - source/wikidata
 status: { review: published }
 provenance:
   layer: own-research

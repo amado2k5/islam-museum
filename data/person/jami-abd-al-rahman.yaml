@@ -21,8 +21,8 @@ relations:
   - { type: born_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/torbat-e-jam, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-external_ids: { wikidata: "Q312458", biblissima: "Q16832" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/biblissima]
+external_ids: { wikidata: "Q312458", biblissima: "Q16832", viaf: "90042997" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/biblissima, source/wikidata]
 status:
   review: published
   completeness: 3

@@ -16,9 +16,10 @@ died: { edtf: "1025", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/cordoba, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5818)" }
   - { type: died_in, target: place/ucl-s, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q959012)" }
-sources: [source/nafh-tib-maqqari]
+sources: [source/nafh-tib-maqqari, source/wikidata]
 external_ids:
   wikidata: Q919001
+  viaf: "3944166110530386100008"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Maqqari, Nafh al-Tib — entry not yet read on the page"

@@ -40,11 +40,12 @@ relations:
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-ahmed-asmat-abdel-meguid-en, source/wikidata-ahmed-asmat-abdel-meguid] }
 wings: [people]
 regions: [egypt-nile]
-external_ids: { wikidata: "Q646776" }
+external_ids: { wikidata: "Q646776", viaf: "75530178" }
 sources:
   - source/wikipedia-ahmed-asmat-abdel-meguid-en
   - source/wikipedia-ahmed-asmat-abdel-meguid-ar
   - source/wikidata-ahmed-asmat-abdel-meguid
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Ahmed Asmat Abdel-Meguid in English (revision 1366050024 of 26 Jul 2026) and Arabic (revision 76698304 of 23 Sep 2026) and the Wikidata item Q646776 (item revision 2524597880 of 30 Jul 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (both agree on Q646776). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No Urdu Wikipedia article exists for him (the Wikidata item carries no Urdu sitelink); the Urdu prose is written from the English and Arabic articles and says so. No successor_of edge is written: his predecessor as Secretary-General of the Arab League, Chedli Klibi, has no museum record; his succession by Amr Moussa is written in Moussa's record. The museum has no group entity for the Arab League, so no member_of edge is written."

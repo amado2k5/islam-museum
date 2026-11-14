@@ -36,11 +36,11 @@ faith:
     basis: unknown
     note: "FLAGGED — the Sunni reading stands one attestation short, for the founder's word (the family-framing-only configuration of khan-abdul-ghaffar-khan, wave 70 §B). The word 'Sunni' occurs in the English article's text exactly once, attached to his family and not to him: he was 'born ... to a Sunni Muslim Fulani family' — family background, which never counts. The English and Arabic articles file him under 'Nigerian Sunni Muslims' categories (filings), and Wikidata carries a single structured value, Sunni Islam (Q483654), plausibly an echo of the same framing. No independent text names Shagari himself Sunni, so under the two-source rule the value stays unknown with both readings preserved here; one founder word accepts the framing family and settles the segment as sunni/documented."
     sources: [source/wikipedia-shehu-shagari-en, source/wikipedia-shehu-shagari-ar, source/wikidata-shehu-shagari]
-external_ids: { wikidata: "Q380668" }
+external_ids: { wikidata: "Q380668", viaf: "79038848" }
 relations:
   - { type: born_in, target: place/shagari, sources: [source/wikidata-shehu-shagari], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7461162)" }
   - { type: died_in, target: place/abuja, sources: [source/wikidata-shehu-shagari], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3787)" }
-sources: [source/wikipedia-shehu-shagari-en, source/wikipedia-shehu-shagari-ar, source/wikidata-shehu-shagari]
+sources: [source/wikipedia-shehu-shagari-en, source/wikipedia-shehu-shagari-ar, source/wikidata-shehu-shagari, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Shehu Shagari' (revision 1378215348), Arabic Wikipedia 'شيخو شاجاري' (revision 75240505) and Wikidata item Q380668 (item revision 2558235394), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (shagari, shehu), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No place entity exists for Shagari town or Abuja, so no born_in or died_in edge is written; he succeeded Olusegun Obasanjo in 1979, but Obasanjo has no person record, so no successor_of edge is written."

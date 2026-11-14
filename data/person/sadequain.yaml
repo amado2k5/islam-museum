@@ -16,9 +16,10 @@ died: { edtf: "1987", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/amroha, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q584515)" }
   - { type: died_in, target: place/karachi, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8660)" }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q732347
+  viaf: "24836977"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

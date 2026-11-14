@@ -40,8 +40,8 @@ faith:
 relations:
   - { type: died_in, target: place/medina, sources: [source/wikipedia-ahmed-sharif-as-senussi-en, source/wikipedia-ahmed-sharif-as-senussi-ar] }
   - { type: buried_in, target: place/medina, sources: [source/wikipedia-ahmed-sharif-as-senussi-ar, source/wikipedia-ahmed-sharif-as-senussi-en] }
-external_ids: { wikidata: "Q400923" }
-sources: [source/wikipedia-ahmed-sharif-as-senussi-en, source/wikipedia-ahmed-sharif-as-senussi-ar, source/wikipedia-ahmed-sharif-as-senussi-fr, source/wikidata-ahmed-sharif-as-senussi]
+external_ids: { wikidata: "Q400923", viaf: "60890087" }
+sources: [source/wikipedia-ahmed-sharif-as-senussi-en, source/wikipedia-ahmed-sharif-as-senussi-ar, source/wikipedia-ahmed-sharif-as-senussi-fr, source/wikidata-ahmed-sharif-as-senussi, source/wikidata]
 provenance:
   layer: own-research
   source: "English, Arabic and French Wikipedia articles on Ahmed Sharif as-Senussi, each fetched by its recorded revision id (EN 1351655929, AR 76666748, FR 237463881) with the returned id asserted equal before use, and Wikidata item Q400923 (revision 2554099080). Existence checks by name fragments (Senussi, Sanusi, Sharif, السنوسي, الشريف) and by QID across data/person and data/source found no prior record for him; his uncle Muhammad al-Mahdi al-Sanusi, his grandfather the founder Muhammad ibn Ali al-Sanusi, and his cousin Idris already have records and are different people. The lane queue gives 1873–1933, which the sources confirm. His lineage (son of Muhammad al-Sharif, nephew of al-Mahdi, grandson of the founder) is carried in prose only: his father has no record and the predicate set has no uncle relation, so no family edge is written."

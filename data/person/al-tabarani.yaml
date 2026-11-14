@@ -15,8 +15,8 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-86
   enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: sections from mujam-awsat-haramayn-1415-v1 PDF pp. 14-22"
-external_ids: { wikidata: "Q2627801" }
-sources: [source/shadharat-dhahab, source/mujam-awsat-haramayn-1415-v1]
+external_ids: { wikidata: "Q2627801", viaf: "22113994" }
+sources: [source/shadharat-dhahab, source/mujam-awsat-haramayn-1415-v1, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: traveled_to, target: place/jerusalem, note: "From text: رحل إلى القدس سنة أربع وسبعين وإلى قيس", sources: [source/shadharat-dhahab, source/mujam-awsat-haramayn-1415-v1] }

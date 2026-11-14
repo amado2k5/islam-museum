@@ -14,9 +14,10 @@ periods: [period/colonial-era]
 died: { edtf: "1902", precision: year, status: tradition, derived: true }
 relations:
   - { type: died_in, target: place/zanzibar-islands, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q928434
+  viaf: "5061153184551927100008"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

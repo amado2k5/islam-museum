@@ -36,9 +36,10 @@ relations:
   - { type: lived_in, target: place/isfahan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-fendereski] }
   - {type: died_in, target: place/isfahan, sources: [source/iranica-mir-fendereski, source/golha-mir-fendereski]}
   - {type: buried_in, target: place/isfahan, sources: [source/golha-mir-fendereski, source/wikipedia-fa-mir-fendereski]}
-sources: [source/wikipedia-mir-fendereski, source/wikipedia-fa-mir-fendereski, source/wikipedia-ar-al-fendereski, source/iranica-mir-fendereski, source/golha-mir-fendereski, source/wikidata-mir-fendereski, source/al-aalam]
+sources: [source/wikipedia-mir-fendereski, source/wikipedia-fa-mir-fendereski, source/wikipedia-ar-al-fendereski, source/iranica-mir-fendereski, source/golha-mir-fendereski, source/wikidata-mir-fendereski, source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q4116338
+  viaf: "77598297"
 provenance:
   layer: own-research
   source: "Replaces the Devin wikidata-import draft stub at the same slug; identity follows Wikidata Q4116338. All statements were checked against the registered sources read in full (Encyclopaedia Iranica, Golha, and the English, Persian and Arabic Wikipedia articles); al-Aʿlām is retained as an unread pointer from the stub."

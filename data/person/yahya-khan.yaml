@@ -39,7 +39,7 @@ faith:
     basis: unknown
     note: "FLAGGED: one source family attests 'Shia' and no second source does. The English article's Personal life has a Religion subsection stating 'He was nominally a Shia Muslim', and the same article quotes Srinath Raghavan (1971: A Global History of the Creation of Bangladesh, Harvard University Press, 2013, p. 24) that Yahya 'was a Shia in the predominantly Sunni officer corps' — two statements inside one article, hence one family, attesting 'Shia' without naming a branch. The Arabic article's infobox gives Islam generically and its category list files him among Pakistani Shias, but a category filing is not an attestation; the Urdu article's infobox likewise gives Islam and its text records only his Qizilbash family origin, which never counts; Wikidata gives Islam (Q432) generically. The founder's Shia-mapping rule requires two independent sources attesting 'Shia', so the value stays unknown; a ruling accepting the English article's attestation would settle shia-twelver with basis documented under that mapping, his Pakistani and Qizilbash context supporting the branch."
     sources: [source/wikipedia-yahya-khan-en, source/wikipedia-yahya-khan-ar, source/wikipedia-yahya-khan-ur, source/wikidata-yahya-khan]
-external_ids: { wikidata: "Q333981" }
+external_ids: { wikidata: "Q333981", viaf: "4245317" }
 relations:
   - { type: born_in, target: place/chakwal, sources: [source/wikidata-yahya-khan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1251473)" }
   - { type: died_in, target: place/rawalpindi, sources: [source/wikidata-yahya-khan], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q93230)" }
@@ -49,6 +49,7 @@ sources:
   - source/wikipedia-yahya-khan-ar
   - source/wikipedia-yahya-khan-ur
   - source/wikidata-yahya-khan
+  - source/wikidata
 status:
   review: published
 provenance:

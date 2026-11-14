@@ -14,9 +14,10 @@ periods: [period/abbasid-early]
 died: { edtf: "914", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q1655889
+  viaf: "51597976"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Athir, al-Kamil — entry not yet read on the page"
