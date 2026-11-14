@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعمرو بن علي الفلاس البصري، محدث القرن التاسع من شيوخ البخاري، توفي سنة ٨٦٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Amr ibn Ali al-Fallas al-Basri, the ninth-century muhaddith among al-Bukhari's shaykhs, d. 864; the biographical entry is not yet checked on the page."
+  ar: "عمرو بن علي بن بحر الفلاس، أبو حفص، باحث من أهل البصرة سكن بغداد ومات بسر من رأى سنة 249 هـ الموافقة 864 م، من حفاظ الحديث الثقات، له «المسند» و«العلل» و«التاريخ» وكتاب في التفسير."
+  en: "Amr ibn Ali al-Fallas, Abu Hafs, a scholar of Basra who settled in Baghdad and died at Samarra in 249 AH, 864 CE; a reliable hadith memoriser, author of a Musnad, a work on defects, a history and a book of commentary."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
@@ -15,16 +15,18 @@ sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q12228530
   viaf: "15149717458910951934"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0052
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "777", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 died: { edtf: "863", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal Confirmed on 13 November 2026 against Wikidata Q12228530 (P570, a statement with a reference), item revision 2568460000.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/baghdad, note: "Al-Zirikli, al-A'lam vol. 5 p. 79: he settled in Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/samarra, note: "Al-Zirikli, al-A'lam vol. 5 p. 79: died at Surra man Ra'a (Samarra).", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
