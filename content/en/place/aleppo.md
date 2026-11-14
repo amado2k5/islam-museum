@@ -70,3 +70,9 @@ Aleppo is a city in northern Syria, among the oldest continuously inhabited citi
 
 ## For Scholars
 Aleppo (Halab al-Shahba; Greek Beroea) is a city in northern Syria, among the oldest continuously inhabited cities in the world, dominated by its stone citadel on a central hill. In Islamic history it appeared as the Hamdanid capital in the tenth century under Sayf al-Dawla, a court for poets and philosophers, then passed among Ayyubids, Zengids, Mamluks and Ottomans. The sources record that Hulagu took it in 658 AH (1260 CE) after a ten-day siege and destroyed it, and that Selim I took it in 922 AH (1516 CE) from Qansuh al-Ghawri. A trade junction between the Mediterranean, the Euphrates, Anatolia and the Jazira, its long covered souks gathered eastern silk and western goods; it was famous for textiles and soap. Several etymologies of its name are told: milk, the giants' building, and its Jews' view that it is Aram-Zobah. In modern times it suffered heavy bombardment and destruction in the Syrian war from 2012, then rebuilding began. Historians read it as a model of a routes-city layering civilizations.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Beroia» (Pleiades no. 658409), classed as settlement, mosque and plaza, with activity attested from 2000 BCE to 2000 CE. Recorded names include «Beroia», «Halab» and «Berrhoia». It describes the place as the ancient city of Aleppo in present-day Syria, whose urban fabric carries Hittite, Hellenistic, Roman, Byzantine, Ayyubid and Umayyad architecture, and notes its UNESCO World Heritage inscription in 1986. {cite:pleiades 658409}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2280212 with the preferred name «Aleppo», classed as populated place; its parent in the hierarchy is «Nahiyat Markaz Jabal Samʿan». Recorded names include «Halep», «Beroea» and «Ḩalab». {cite:idai-gazetteer 2280212}

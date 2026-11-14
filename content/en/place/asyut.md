@@ -23,3 +23,6 @@ Like the other industrial towns of Egypt, Asyut had a large Christian population
 
 ## Encyclopaedia of Islam: people born at Asyut
 The entry names Asyut as the birthplace of Plotinus, of the Coptic saint John of Lykopolis, and of several Arab scholars named al-Suyuti, of whom the historian Jalal al-Din (died 911 AH, 1505) is the best known. {cite:encyclopaedia-of-islam-2 vol. 1 p. 778}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2042814 with the preferred name «Asyūt», classed as archaeological site and populated place; its parent in the hierarchy is «Asyūt (Muhāfazat)», classed as administrative unit. Recorded names include «Lykopolis», «Siut» and «Syut». {cite:idai-gazetteer 2042814}
