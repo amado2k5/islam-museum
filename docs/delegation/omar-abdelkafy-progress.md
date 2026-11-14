@@ -2962,6 +2962,25 @@ Resume point: min-kunuz-al-sunnah episode 11 (branch from origin/main).
 
 Resume point: min-kunuz-al-sunnah episode 12 (branch from origin/main).
 
+## alwaad-alhaq (Al-Wa'd al-Haqq), episodes 1 onward (14 Nov 2026, Claude Code claude-sonnet-5-5, worker C2)
+
+Series record `work/alwaad-alhaq` created (no earlier record existed; sensitivity contested; 24 `about` edges). Source folder: `books/assabile/omar-abdelkafy/alwaad-alhaq/pass5-qwen`, 44 episodes (ep01 to ep44), all present; sizes 68 to 148 KB, so none is truncated. Transcripts carry repetition loops; a cleaning script (outside the repo) collapses them and marks each `[LOOP]`, and only cleaned text is read. Episodes 27 to 40 are longest (100 to 148 KB raw) and have the most loops.
+
+### alwaad-alhaq ep01 (14 Nov 2026)
+
+24 points written for episode 1 (ar, en, ur); 18 needs_source marks in each language file; 24 `about` edges. Quran verses only as passage links (21-99, 1-4, 1-6, 80-34..37, 48-11, 14-48..51); none typed.
+
+| Excluded (alwaad-alhaq ep01) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops (a repeated "yes", repeated blessing formula, repeated syllables) | ep01 00:14:00, 00:16:00, 00:30:00, 00:31:30, 00:32:00, 00:34:30, 00:47:30 | Not speech | Loop check | Open |
+| A remark on Muhibb al-Din al-Khatib and the media's neglect of scholars | ep01 00:13:00-00:13:30 | Garbled | Clarity | Open |
+| A saying attributed to Abu Dharr about people as roses without thorns | ep01 00:35:00 | Garbled; attribution cannot be read | Clarity | Open |
+| A passage on men and women wronged for fifty years and on the hijab, as a remark about those who deny it | ep01 00:31:30 | Garbled and a contested ruling; held for the founder, not an opinion to record | Clarity, opinion ruling | Open |
+| Greetings, trailers, thanks and closing formulae | ep01 00:00:00, 00:05:00-00:05:30, 00:30:00, 00:51:00-00:51:30 | Not lesson content | Content rule | Open |
+
+Proposal (process): the clean-then-read script could be moved into `scripts/` so every lane uses one loop collapser.
+
+Resume point: alwaad-alhaq episode 2 (branch from origin/main).
 ### min-kunuz-al-sunnah ep12 (14 Nov 2026)
 
 14 points written for episode 12 (ar, en, ur); 9 needs_source marks in each language file for this episode; 10 new `about` edges. Quran verses referenced only through passage links (2-30, 5-27, 5-28, 19-45, 113-5, 49-10, 17-23, 17-24); none typed. Contested: His claim that a person who honors his parents will not enter the Fire however many wrongs he does, his attributions of sayings to Ali and of an exchange to Mu'awiya, and his view that applying the hadith would restore Muslim leadership of the nations are his own and unsourced or contested.
@@ -2977,3 +2996,7 @@ Resume point: min-kunuz-al-sunnah episode 12 (branch from origin/main).
 | The Cain and Abel marriage detail | ep12 00:03:30-00:04:00 | Garbled, unrecoverable | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 13 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep12 review (14 Nov 2026)
+
+Episode 12 re-read against the transcript after merge (#6642): one wording corrected in ar, en, ur (the report on lying to a brother is among the greatest major sins, not "betrayal"); no marks or links changed. All later episodes are reviewed against the transcript before merge; see their notes.

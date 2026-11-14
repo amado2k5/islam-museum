@@ -1,0 +1,21 @@
+id: source/pleiades
+class: source
+kind: reference_data
+type: database
+label:
+  ar: "بليادس: فهرس أماكن العالم القديم (Pleiades)"
+  en: "Pleiades gazetteer of ancient places"
+  ur: "Pleiades gazetteer of ancient places"
+summary:
+  ar: "فهرس مفتوح للأماكن في العالم القديم يضم لكل موضع معرّفًا ثابتًا وإحداثيات وأسماء مؤرَّخة بلغات متعددة وفترات زمنية، وبياناته مرخّصة بموجب CC BY 3.0؛ يُستعمل هنا لتحديد هوية المواضع فقط."
+  en: "An open gazetteer of places in the ancient world giving each place a stable identifier, coordinates, attested names in several languages and time periods, licensed CC BY 3.0; used here only to establish the identity of places."
+  ur: "An open gazetteer of places in the ancient world giving each place a stable identifier, coordinates, attested names in several languages and time periods, licensed CC BY 3.0; used here only to establish the identity of places."
+title: "Pleiades"
+publisher: "Institute for the Study of the Ancient World, New York University, and partners"
+URL: "https://pleiades.stoa.org"
+language: en
+reliability_note: "Scholarly, curated gazetteer with stable place URIs (https://pleiades.stoa.org/places/<id>), representative points, attested and transliterated names and period tags, published as regular open dumps (CC BY 3.0, attribution in docs/attribution.md). A place is linked only when a representative point lies within 1.5 km of ours and one of its names equals our label."
+sources: [source/pleiades]
+open_access: true
+provenance: { layer: own-research, source: "Pleiades places and names dumps of 14 November 2026 (docs/attribution.md); approval dec-20261114-277", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: web-b1-pleiades }
+status: { review: draft, generated_by: "Claude Code" }
