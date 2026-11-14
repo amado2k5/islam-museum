@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لحسن بن عمر الشطي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hasan ibn 'Umar al-Shatti; the entry is not yet checked on the page."
+  ar: "حسن بن عمر بن معروف الشطي الحنبلي، فقيه فرضي بغدادي الأصل دمشقي المولد والوفاة، ولد سنة 1205 هـ الموافقة 1790 م وتوفي سنة 1274 هـ الموافقة 1858 م."
+  en: "Hasan ibn Umar ibn Ma'ruf al-Shatti, a Hanbali jurist and specialist in the law of inheritance, of Baghdadi origin and born and died in Damascus, 1205 to 1274 AH (1790 to 1858 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
@@ -16,15 +16,15 @@ died: { edtf: "1858", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q28715668
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
