@@ -6,25 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن عبد القوي المرداوي، نحوي وشاعر وفقيه القرن الثالث عشر، توفي سنة ١٢٩٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Abd al-Qawi Mardawi, the thirteenth-century grammarian, poet and jurist, d. 1299; the biographical entry is not yet checked on the page."
+  ar: "محمد بن عبد القوي بن بدران المرداوي المقدسي، أبو عبد الله، شمس الدين، فقيه حنبلي ولد بمردا من قرى نابلس وتوفي بدمشق، من كتبه منظومة في الفقه طبعت باسم «عقد الفرائد وكنز الفوائد» و«منظومة الآداب»؛ ١٢٣٢ إلى ١٢٩٩م."
+  en: "Muhammad ibn Abd al-Qawi ibn Badran al-Mardawi al-Maqdisi, Abu Abd Allah, Shams al-Din, a Hanbali jurist born at Marda, a village of Nablus, who died in Damascus; his verse compendium of the school's rulings was printed as «Aqd al-Fara'id wa Kanz al-Fawa'id». 630 to 699 AH, 1232 to 1299 CE."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-died: { edtf: "1300", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1299", calendar: gregorian, precision: year, derived: true, note: "699 AH = 1299 CE as printed in the entry; the card had 1300; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 6 p. 179", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "1232", calendar: gregorian, precision: year, derived: true, note: "630 AH = 1232 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 6 p. 179", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/mount-qasioun, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q110260214
   viaf: "8756526"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0057
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -1,0 +1,65 @@
+id: event/al-hadi-and-the-people-of-al-asum-at-bayt-yathi-286
+class: event
+kind: other
+label:
+  ar: خبر أهل الأعصوم ومسير الهادي إلى بيت يثيع، جمادى الأولى 286هـ
+  en: The people of al-A'sum and al-Hadi's march to Bayt Yathi', Jumada I 286 AH
+  ur: اہل الاعصوم کا معاملہ اور ہادی کا بیت یثیع کی طرف سفر، جمادی الاولیٰ 286ھ
+summary:
+  ar: أقام الهادي بخيوان حتى مضت أيام من جمادى الأولى 286هـ فبلغه عن قوم في بلد يقال له الأعصوم عادة في إكرام الضيف يصفها الراوي بأنها قبيحة وأنهم لا يرون فيها حرجاً، فقال إنه ينبغي جهادهم قبل جهاد الروم. ثم سار إلى أثافت فبيت يثيع، وكان أهلها قد كاتبوه وكانت في يد الدعام، فبايعوه، وبعث إلى أهل الأعصوم فوعظهم وحذرهم، وأمر بالبراقع للنساء وأخذ عليهم يميناً مغلظة، ثم عاد إلى أثافت.
+  en: Al-Hadi stayed at Khiwan until some days of Jumada I 286 AH had passed, when word came to him of a people in a place called al-A'sum whose way of honouring a guest the narrator calls ugly, though they saw no sin in it, and he said they must be fought before the Romans. He went to Athafit and then Bayt Yathi', whose notables had written to him though it was in al-Da'am's hand; they pledged to him, he sent for the people of al-A'sum, admonished and warned them, laid down the veil for women and took a strong oath, then returned to Athafit.
+  ur: ہادی خیوان میں ٹھہرے رہے یہاں تک کہ جمادی الاولیٰ 286ھ کے چند دن گزر گئے، تب انہیں ایک جگہ الاعصوم کے لوگوں کی خبر پہنچی جن کا مہمان نوازی کا ایک طریقہ راوی کے بقول برا تھا مگر وہ اس میں کوئی گناہ نہیں سمجھتے تھے، اور انہوں نے کہا کہ ان سے رومیوں سے پہلے لڑنا چاہیے۔ پھر وہ اثافت اور بیت یثیع گئے، جس کے معززین نے انہیں لکھا تھا اور جو دعام کے ہاتھ میں تھا؛ لوگوں نے بیعت کی، انہوں نے الاعصوم والوں کو بلا کر نصیحت اور تنبیہ کی، عورتوں کے لیے نقاب مقرر کیا اور سخت قسم لی، پھر اثافت لوٹ آئے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-05
+    hijri: 0286-05
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: أيام ماضية من جمادى الأولى سنة 286هـ؛ وجمادى الأولى يبدأ نحو 15 أيار 899م جولياني بالتقويم الجدولي؛ والكتاب يوافق التقويم الرصدي بفارق يوم عن الجدولي في الأيام المسماة، فالتحويل مشتق ومعتمد الشهر فقط
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/bayt-yathi-yemen
+- type: occurred_at
+  target: place/al-asum-yemen
+- type: occurred_at
+  target: place/athafit
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-sulayman-al-kufi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/hijab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص125-126 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-16
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 125-126

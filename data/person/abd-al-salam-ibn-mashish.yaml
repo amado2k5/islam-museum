@@ -6,25 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد السلام بن مشيش العلمي، شيخ الشاذلي في المغرب وقطب جبل العلم في القرن الثالث عشر، توفي سنة ١٢٢٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Salam ibn Mashish al-Alami, the Moroccan Sufi master of al-Shadhili on Jabal al-Alam in the thirteenth century, d. 1228; the biographical entry is not yet checked on the page."
+  ar: "عبد السلام بن مشيش بن أبي بكر الإدريسي الحسني، أبو محمد، ناسك مغربي اشتهر برسالة له تدعى «الصلاة المشيشية» شرحها كثيرون، ولد في جبل العلم بثغر تطوان وقتل فيه ودفن بقمة الجبل؛ توفي سنة ٦٢٢هـ الموافقة ١٢٢٥م."
+  en: "Abd al-Salam ibn Mashish ibn Abi Bakr al-Idrisi al-Hasani, Abu Muhammad, a Moroccan ascetic famed for a text called «al-Salat al-Mashishiyya», on which many have written commentaries; born on Jabal al-Alam by the port of Tetouan and killed there, he was buried at the mountain's summit. He died in 622 AH, 1225 CE."
 wings: [people]
 regions: [maghreb]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [spirituality-and-sufism]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q308115
   viaf: "90060156"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0023
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1227", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli: 554–625 AH) Confirmed on 13 November 2026 against Wikidata Q308115 (P570, a statement with a reference), item revision 2555346583.", sources: [source/wikidata] }
+  completeness: 3
+died: { edtf: "1225", calendar: gregorian, precision: year, derived: true, note: "622 AH = 1225 CE as printed in the entry; the card had 1227 from Wikidata (625 AH); source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 3 p. 354", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/morocco, note: "From text: Moroccan (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

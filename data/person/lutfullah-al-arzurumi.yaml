@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية للطف الله الأرضرومي، الشيخ العثماني المتوفى سنة ١٧٨٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Lutfullah al-Arzurumi, the Ottoman shaykh d. 1788; the biographical entry is not yet checked on the page."
+  ar: "لطف الله بن محمد الأرضرومي، فقيه حنفي من أهل أرضروم، توفي بحلب سنة 1202 هـ الموافقة 1788 م، وله «راموز التحرير والتفسير» مخطوط."
+  en: "Lutfullah ibn Muhammad al-Arzurumi, a Hanafi jurist from Erzurum who died in Aleppo in 1202 AH (1788 CE); author of Ramuz al-Tahrir wa-al-Tafsir, in manuscript."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 died: { edtf: "1788", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q12237231 (P570, a statement with a reference), item revision 2386397629.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/erzurum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: died_in, target: place/aleppo, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 5 p. 241: he died in Aleppo.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12237231
   viaf: "28151302858248660020"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0078
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
