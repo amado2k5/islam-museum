@@ -1,0 +1,18 @@
+id: concept/shoulder-muscles
+class: concept
+kind: scientific
+label: { ar: "عضل حركة العضد عند ابن سينا", en: "Muscles that move the upper arm in the Canon", ur: "قانون میں بازو کو حرکت دینے والے پٹھے" }
+summary:
+  ar: "يذكر ابن سينا لمفصل الكتف ثلاث عضل تأتيها من الصدر وتجذبها إلى أسفل، وعضلتين من ناحية الخاصرة، وخمس عضل من عظم الكتف، وعضلة ذات رأسين {cite:canon-ibn-sina-print-v1 pp.68-69}."
+  en: "For the shoulder joint Ibn Sina lists three muscles coming from the chest and drawing it down, two from the flank, five from the shoulder blade, and a two-headed muscle {cite:canon-ibn-sina-print-v1 pp.68-69}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/muscles, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 2 on muscles (scan pages 66 to 72), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-muscles-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

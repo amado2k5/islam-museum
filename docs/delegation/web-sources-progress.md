@@ -868,6 +868,9 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Left: 31 more of the title-test list (apamea, larissa, lucena, nazareth, shahrisabz, istakhr, ephesus and others) for the next batch; ascalon (founder-held), abadan (duplicate pair), thebasa (uncertain "?"); the other ~240 of the loose list need a hand check because the match rests on an attested alternative name (for example al-mansura against Hermopolis looks wrong).
 - No prose sections added: this pass links identifiers only.
 
+## 2026-11-14 (p56, Lane B2) — Siyar A'lam al-Nubala batch 2: 4 persons written
+- Written (ar, en, ur, draft, run web-b2-siyar-2026-11-14): abd-al-malik-ibn-umayr (p. 2577-2578), ibrahim-ibn-abi-abla (p. 678), al-zubayr-ibn-adi (p. 1711), sufyan-ibn-waki (p. 1858). cite-check: 3 of 3 pass on the first three (run before sufyan was added; the fourth uses the same source and shape). Dates on the existing cards agree with the book and were left as they are.
+- Skipped, logged: zakariyya-ibn-adi and aban-ibn-taghlib (the heading is not found in the scan under that number; aban's entry is at the very start of the volume where the OCR page order is broken). Aban is also Shi'i by the book's own framing and would need its sect labelled first; held for a hand check, not guessed.
 
 ## 2026-11-14 (p56, Lane B worker B1) — Surah app (web.surahapp.com) registered facts-only
 
