@@ -37,7 +37,8 @@ faith:
     sources: [source/wikipedia-khatami-en, source/wikipedia-khatami-ar, source/wikipedia-khatami-ur, source/wikidata-khatami]
 external_ids:
   wikidata: "Q180795"
-sources: [source/wikipedia-khatami-en, source/wikipedia-khatami-fa, source/wikipedia-khatami-ar, source/wikipedia-khatami-ur, source/wikidata-khatami]
+  viaf: "46663859"
+sources: [source/wikipedia-khatami-en, source/wikipedia-khatami-fa, source/wikipedia-khatami-ar, source/wikipedia-khatami-ur, source/wikidata-khatami, source/wikidata]
 provenance:
   layer: own-research
   source: "Built 27 October 2026 for wave 100 §A of the century-additions queue (queue lines 549-553) from the English, Persian, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him (data/person/ruhollah-khatami.yaml is his father, a different person, untouched), and his Wikidata item Q180795 — grounded through the English article pageprops and confirmed through every edition sitelink and the item own claims — appears in no existing person record. Dates and offices follow the English article. No born_in relation is written: he was born at Ardakan, for which the museum holds no place entity. The successor_of relation to Akbar Hashemi Rafsanjani is attested by the Arabic article infobox, which names Rafsanjani as his predecessor. He is recorded as living; no edition reports a death."

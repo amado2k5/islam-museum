@@ -19,8 +19,8 @@ provenance:
   run: lib-shadharat-batch-6
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
-external_ids: { wikidata: "Q130169" }
-sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
+external_ids: { wikidata: "Q130169", viaf: "79207794" }
+sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi, source/wikidata]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 born: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q130169 (P569, a statement with a reference), item revision 2554175783.", sources: [source/wikidata] }
 died: { edtf: "1044", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q130169 (P570, a statement with a reference), item revision 2554175783.", sources: [source/wikidata] }

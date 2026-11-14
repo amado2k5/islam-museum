@@ -18,8 +18,8 @@ relations:
   - { type: successor_of, target: person/abd-al-hamid-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
   - { type: died_in, target: place/constantinople, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q16869)" }
-external_ids: { wikidata: "Q199633", nomisma: "selim_iii" }
-sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
+external_ids: { wikidata: "Q199633", nomisma: "selim_iii", viaf: "39533215" }
+sources: [source/dawlat-uthmaniyya-salabi, source/nomisma, source/wikidata]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 320-330"

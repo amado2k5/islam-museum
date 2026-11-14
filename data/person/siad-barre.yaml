@@ -41,12 +41,12 @@ faith:
     basis: unknown
     note: "No article text names a school for Barre personally. The French infobox gives his religion as Islam and Wikidata's single religion value is Islam; the Urdu stub files him under Somali Muslims and Islamic socialists — structure and filings, which never count. What the texts discuss is his regime: the Somali Revolutionary Socialist Party's attempt to reconcile scientific socialism with the Islamic tenets of the official state religion, and his January 1975 execution of ten sheikhs who had opposed the new family law's inheritance provisions. A state's Islamisation programme and its clash with clerics are the record of a government, not the man's attested school (the brief's Siad Barre weighing). Structured values, filings and programme only; the value stays unknown."
     sources: [source/wikipedia-siad-barre-en, source/wikipedia-siad-barre-ar, source/wikipedia-siad-barre-ur, source/wikipedia-siad-barre-fr, source/wikidata-siad-barre]
-external_ids: { wikidata: "Q209828" }
+external_ids: { wikidata: "Q209828", viaf: "77621303" }
 relations:
   - { type: born_in, target: place/garbahaareey, sources: [source/wikidata-siad-barre], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1017167)" }
   - { type: died_in, target: place/lagos, sources: [source/wikidata-siad-barre], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8673)" }
   - { type: buried_in, target: place/garbaharey-district, sources: [source/wikidata-siad-barre], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5521998)" }
-sources: [source/wikipedia-siad-barre-en, source/wikipedia-siad-barre-ar, source/wikipedia-siad-barre-ur, source/wikipedia-siad-barre-fr, source/wikidata-siad-barre]
+sources: [source/wikipedia-siad-barre-en, source/wikipedia-siad-barre-ar, source/wikipedia-siad-barre-ur, source/wikipedia-siad-barre-fr, source/wikidata-siad-barre, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia revision 1381727709 of 24 October 2026, Arabic revision 76941715 of 10 October 2026, Urdu revision 11538630 of 12 July 2026 and French revision 238278900 of 1 August 2026, each fetched on 26 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q209828 revision 2558176355 of 18 October 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q209828. No successor_of relation is written: the French infobox itself lists his immediate predecessor as Sheikh Mukhtar Mohamed Hussein, acting president for the six days between Shermarke's assassination and the coup, who has no person record — and Barre in any case took power by the coup of 21 October 1969, not by succession, so an edge to Shermarke would misstate it. No place entities exist for Shilabo, Garbaharey or Lagos, so no place relations are written."

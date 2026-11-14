@@ -39,12 +39,13 @@ relations:
   - { type: buried_in, target: place/algiers, sources: [source/wikipedia-ahmed-ben-bella-en, source/wikipedia-ahmed-ben-bella-ar] }
 wings: [people]
 regions: [maghreb]
-external_ids: { wikidata: "Q179908" }
+external_ids: { wikidata: "Q179908", viaf: "100298032" }
 sources:
   - source/wikipedia-ahmed-ben-bella-en
   - source/wikipedia-ahmed-ben-bella-ar
   - source/wikipedia-ahmed-ben-bella-ur
   - source/wikidata-ahmed-ben-bella
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Ahmed Ben Bella in English (revision 1381382192 of 22 Oct 2026), Arabic (revision 77066676 of 25 Oct 2026) and Urdu (revision 11276372 of 26 Jun 2026) and the Wikidata item Q179908 (item revision 2557611503 of 16 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q179908). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge is written: he was the first holder of the presidency, an office created in 1963 — the English infobox's predecessor field for it is empty, and Ferhat Abbas, who has a record, headed the Provisional Government of the Algerian Republic (1958–1961), a different office; the English text's remark that Ben Bella succeeded Abbas describes the headship of the state, not succession within the presidency."

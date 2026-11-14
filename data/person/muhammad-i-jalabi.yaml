@@ -21,10 +21,11 @@ relations:
   - { type: sibling_of, target: person/musa-ibn-bayezid, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/fetret-interregnum, role: "الغالب فيها ومعيد وحدة الدولة", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: died_in, target: place/edirne, sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 aliases: [person/mehmed-i-uthmani]
 external_ids:
   wikidata: Q168769
+  viaf: "263937854"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 76-77"

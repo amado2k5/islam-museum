@@ -20,10 +20,11 @@ relations:
   - { type: related_to, target: person/dawud-al-qaysari, role: "عهد إليه إدارة أول مدرسة عثمانية", sources: [source/dawlat-uthmaniyya-salabi] }
 
   - { type: lived_in, target: place/constantinople, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 aliases: [person/orhan-uthmani]
 external_ids:
   wikidata: Q133168
+  viaf: "314814836"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 52"
