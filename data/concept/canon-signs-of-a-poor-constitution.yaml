@@ -1,0 +1,18 @@
+id: concept/canon-signs-of-a-poor-constitution
+class: concept
+kind: scientific
+label: { ar: "علامات سوء الخلقة عند ابن سينا", en: "Signs of a poorly formed constitution in the Canon", ur: "بری ساخت کی علامات قانون میں" }
+summary:
+  ar: "في الفصل الخامس يصف ابن سينا من ليس جيد الحال في خلقته، وهو من لا تتشابه أمزجة أعضائه، ويربط بين تفاوت بنيته وردائة فهمه وعقله {cite:canon-ibn-sina-print-v1 p.164}."
+  en: "In the fifth chapter Ibn Sina describes the person whose constitution is not good, one whose organs do not share a like temperament, and ties the unevenness of build to poor understanding and intellect {cite:canon-ibn-sina-print-v1 p.164}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
