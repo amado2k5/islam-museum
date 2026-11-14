@@ -3747,3 +3747,27 @@ Resume point: sharh-saheeh-al-bukhare episode 11 (branch from origin/main).
 | Break join, thanks and closing, trailing noise | ep11 01:14:30-01:15:00 | Greetings and closing remarks | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 12 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep12 (14 Nov 2026)
+
+22 points written for episode 12 (ar, en, ur); 6 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (24-30, 24-31, 49-11); none typed. Contested: He says the tongue is a calamity in our time, treats hunger, sickness and death as things the sound heart loves, and gives a view on saying the phrase that God has spoken truly after recitation (not established by an authentic report, either view may be taken); all are marked as his view. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep12) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, praise and opening prayer | ep12 00:00:00-00:02:00 | Opening formulas and recap of the previous lesson, no content point | Content rule | Open |
+| Closing prayer, farewell and announcement of a company | ep12 01:19:30-01:20:00, 01:25:30-01:25:30 | Closing prayer, break join and commercial notice, not teaching | Content rule | Open |
+| Narrator name and place of the meeting with Abu Dharr | ep12 00:02:00-00:03:00 | Names garbled, left out rather than guessed | Clarity | Open |
+| Talk of the Prophet being seen in dreams, a question put to Ibn Taymiyya and the friends of God | ep12 00:13:30-00:18:00 | Garbled, speakers and sequence unclear | Clarity | Open |
+| Stories of Umar, the tent at Fustat and doves, and talk of illness in Egypt | ep12 00:23:00-00:26:00 | Garbled and partly invented by the recognizer, speakers unclear | Clarity | Open |
+| Stretch on names the Prophet changed and on a madman | ep12 00:25:30-00:27:00 | Garbled | Clarity | Open |
+| Looping and unrelated stretch with a fox tale and repeated words | ep12 00:27:00-00:29:30 | Loop and garbled speech with no recoverable point | Clarity, Loop check | Open |
+| Stories of Umar and a dream, a girl and a river, and a shaykh's pupils | ep12 00:33:00-00:39:00 | Loop and garbled speech, speakers unclear | Clarity, Loop check | Open |
+| Mention of a ruling about a visitor, the adhan and the muezzins, and a story of a sacrifice | ep12 00:43:30-00:46:30 | Garbled, only the report of the flute of the family of David is nearly clear and its reply is not recoverable | Clarity | Open |
+| Talk of marriage proposals, fathers and daughters, and newspaper marriage notices | ep12 00:53:30-00:57:00 | Garbled and sweeping remarks about people | Voice rule, Clarity | Open |
+| Stretch on present-day conflicts and calls to action in a named country | ep12 01:05:30-01:07:30 | Sweeping claim about modern conflict | Voice rule | Open |
+| Remarks on lawyers, doctors and professions | ep12 01:07:30-01:09:00 | Garbled and sweeping claims about professions | Voice rule, Clarity | Open |
+| Story of a scholar, a ruler and a reading of Sahih al-Bukhari | ep12 01:17:00-01:19:00 | Garbled and carries a sweeping political claim about rulers | Voice rule, Clarity | Open |
+| Remarks on politics, peoples, voting and an exchange with an emperor attributed to Harun al-Rashid | ep12 01:21:30-01:25:30 | Garbled and sweeping claims about peoples and modern conflict | Voice rule, Clarity | Open |
+| Loops at 00:27:30, 00:29:00, 00:36:00, 00:37:00, 00:40:30, 00:48:30, 00:50:00, 00:53:00, 00:57:00, 00:57:30, 01:00:00, 01:02:00, 01:03:00, 01:03:30, 01:06:30, 01:07:00, 01:09:30, 01:14:30, 01:16:30, 01:22:30 | ep12 various | Repeated words | Clarity, Loop check | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 13 (branch from origin/main).
