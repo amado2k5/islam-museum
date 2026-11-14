@@ -11,13 +11,15 @@ roles: [poet]
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+born: { edtf: "0526", calendar: julian, precision: year, status: tradition, note: "Birth year from Wikidata Q696929 (revision 2533549175); fills a previously empty field; not independently sourced on this card.", sources: [source/wikidata-amr-ibn-kulthum] }
 died: { edtf: "584~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Aghani / al-A'lam" }
 relations:
   - { type: ruler_of, target: place/al-hira, note: "From text: صاحب الحيرة حين أهان أمه ليلى", sources: [source/kamil-ibn-al-athir, source/nihayat-al-arab-nuwayri-vol3-scan], confidence: low }
   - { type: member_of, target: group/banu-taghlib, sources: [source/kamil-ibn-al-athir] }
   - { type: related_to, target: person/al-muhalhil, note: "جده لأمه", sources: [source/kamil-ibn-al-athir] }
   - { type: related_to, target: person/kulayb-ibn-rabia, note: "عمه لأمه", sources: [source/kamil-ibn-al-athir] }
-sources: [source/kamil-ibn-al-athir, source/nihayat-al-arab-nuwayri-vol3-scan]
+sources: [source/kamil-ibn-al-athir, source/nihayat-al-arab-nuwayri-vol3-scan, source/wikidata-amr-ibn-kulthum]
+external_ids: { wikidata: "Q696929" }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير — الحرب بين الحارث الأعرج وبني تغلب ص403، قتل مضرط الحجارة ص409"
