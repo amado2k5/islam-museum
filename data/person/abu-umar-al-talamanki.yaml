@@ -6,26 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبو عمر الطلمنكي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Umar al-Talamanki; the entry is not yet checked on the page."
+  ar: "أحمد بن محمد بن عبد الله المعافري الأندلسي الطلمنكي، أبو عمر، مقرئ وعالم بالتفسير والحديث من أهل الأندلس، أول من أدخل علم القراءات إلى الأندلس بحسب الزركلي؛ وُلد سنة 340 هـ وتوفي سنة 429 هـ {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 212}."
+  en: "Ahmad ibn Muhammad ibn Abd Allah al-Ma'afiri al-Andalusi al-Talamanki, Abu Umar, a reciter and scholar of exegesis and hadith of al-Andalus, the first to bring the science of the recitations there according to al-Zirikli; born 340 AH, died 429 AH {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 212}."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q5473850
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam vol. 1 pp. 212-213; al-Safadi, al-Wafi bi-l-Wafayat vol. 8 p. 23"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-m01-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "951", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Bashkuwal (al-Sila) Confirmed on 13 November 2026 against Wikidata Q5473850 (P569, a statement with a reference), item revision 2512613637.", sources: [source/wikidata] }
-died: { edtf: "1038", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Bashkuwal (al-Sila) Confirmed on 13 November 2026 against Wikidata Q5473850 (P570, a statement with a reference), item revision 2512613637.", sources: [source/wikidata] }
+  completeness: 2
+born: { edtf: "951", hijri: "0340", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Bashkuwal (al-Sila) Confirmed on 13 November 2026 against Wikidata Q5473850 (P569, a statement with a reference), item revision 2512613637.", sources: [source/wikidata] }
+died: { edtf: "1038", hijri: "0429-12", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Bashkuwal (al-Sila) Confirmed on 13 November 2026 against Wikidata Q5473850 (P570, a statement with a reference), item revision 2512613637.", sources: [source/wikidata] }
 relations:
+  - { type: lived_in, target: place/cordoba, note: "al-Safadi: the reciter who settled in Cordoba; al-Zirikli: settled in Cordoba.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: high }
   - { type: born_in, target: place/majrit, note: "Wikidata Q2807 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: died_in, target: place/talamanca, note: "Wikidata Q16738 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/talamanca, note: "Wikidata Q16738 (P20); al-Zirikli says he died in Talamanca.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: lived_in, target: place/caliphate-of-c-rdoba, note: "Wikidata Q171740 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
