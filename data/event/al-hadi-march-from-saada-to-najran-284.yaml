@@ -1,0 +1,55 @@
+id: event/al-hadi-march-from-saada-to-najran-284
+class: event
+kind: other
+label:
+  ar: تعبئة الهادي جيشه وخطبته وسيره من صعدة إلى نجران، جمادى الآخرة 284هـ
+  en: Al-Hadi's drawing up of his army, his sermon and the march from Sa'da to Najran, Jumada II 284 AH
+  ur: ہادی کا لشکر کی صف بندی، خطبہ اور صعدہ سے نجران کی روانگی، جمادی الآخرہ 284ھ
+summary:
+  ar: بعد دعوة وفد نجران جمع الهادي الناس وخرج بهم خارج صعدة فعبّأهم ميمنة وميسرة وقلباً ووصف لهم القتال، وخطب الجمعة لأربع خلون من جمادى الآخرة 284هـ في الجهاد وإصلاح العباد، ثم سار يوم الأحد لست خلون منه بعسكر كثيف من خولان وغيرهم إلى نجران في مسيرة يومين.
+  en: After the Najran delegation's call al-Hadi gathered the people and led them out of Sa'da, drew them up in right, left and centre and described fighting to them; he preached on Friday 4 Jumada II 284 AH on jihad and reform, and on Sunday the 6th marched with a dense force of Khawlan and others to Najran, a two-day journey.
+  ur: نجران کے وفد کی دعوت کے بعد ہادی نے لوگوں کو جمع کیا، صعدہ کے باہر لے جا کر دائیں، بائیں اور قلب میں صف بندی کی اور لڑائی کا طریقہ بتایا؛ جمعہ 4 جمادی الآخرہ 284ھ کو جہاد اور اصلاح پر خطبہ دیا، اور اتوار 6 کو خولان وغیرہ کے بھاری لشکر کے ساتھ دو دن کی مسافت پر نجران روانہ ہوئے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0897-07-11'
+    hijri: '0284-06-06'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: يوم الأحد لست خلون من جمادى الآخرة سنة 284هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/khawlan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص67-68 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-8
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 67-68
