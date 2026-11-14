@@ -3151,3 +3151,15 @@ Resume point: min-kunuz-al-sunnah episode 19 (branch from origin/main).
 | Looped repetitions in the dua of the Arab and provision section | ep19 00:06:30-00:07:00 | Repeated phrases, only the core recovered | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 20 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep20 (14 Nov 2026)
+
+14 points written for episode 20 (ar, en, ur); 11 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (3-164, 68-4, 6-162, 14-24, 14-26, 14-27, 2-254, 51-26, 51-27); none typed. Contested: He holds that rulings change with time, place and people, proposes a weekly standard-Arabic day for institutions, and gives his own applications of neighbour and guest etiquette; all are his views and are marked as such.
+
+| Excluded (min-kunuz-al-sunnah ep20) | Episode / time | Reason | Gate failed | Override |
+| greeting, opening praise, break joins and closing prayer | ep20 00:00:00-00:00:30, 00:08:30-00:09:00, 00:17:30-00:18:00, 00:30:00-00:30:30 | not lesson content | Content rule | Open |
+| looping repetition of one word, then garbled stretch about a fast eater | ep20 00:25:00-00:25:30 | transcript loops and cannot be recovered | Clarity, Loop check | Open |
+| looping repetition of one word | ep20 00:27:30-00:28:00 | transcript loops and cannot be recovered | Clarity, Loop check | Open |
+| remarks on children preferring TV-drama dialect and on mixed foreign speech heard by a visitor | ep20 00:23:00-00:24:00 | garbled and anecdotal, leans on generalisations about groups | Voice rule, Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 21 (branch from origin/main).
