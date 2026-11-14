@@ -1,0 +1,18 @@
+id: concept/canon-temperature-of-drinking-water
+class: concept
+kind: scientific
+label: { ar: "حرارة ماء الشرب عند ابن سينا", en: "The temperature of drinking water in the Canon", ur: "پینے کے پانی کی حرارت قانون میں" }
+summary:
+  ar: "يبين ابن سينا أن شرب الماء البارد جداً رديء إلا بعد طعام كاف، وأن الفاتر يغثي، وأن المسخن إذا استكثر منه أوهن المعدة، وإذا شرب في الأحيان غسل المعدة وأطلق الطبيعة {cite:canon-ibn-sina-print-v1 p.237}."
+  en: "Ibn Sina says that very cold water is poor drinking unless taken after a sufficient meal, that lukewarm water brings nausea, and that heated water in quantity weakens the stomach but, drunk now and then, washes the stomach and loosens the bowels {cite:canon-ibn-sina-print-v1 p.237}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 2 on the common regimen of adults, chapters 8 to 13 on water and drink, sleep, strengthening weak organs and fatigue (scan pages 236 to 244), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p236
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
