@@ -10,8 +10,8 @@ regions: [anatolia-balkans]
 coordinates: [37.78333333333333, 29.09638888888889]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q170967" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q170967", pleiades: "755967974" }
+sources: [source/wikidata, source/pleiades]
 provenance:
   layer: own-research
   source: "Wikidata item Q170967 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
