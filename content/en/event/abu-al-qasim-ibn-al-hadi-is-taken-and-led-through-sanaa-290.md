@@ -1,0 +1,11 @@
+---
+id: event/abu-al-qasim-ibn-al-hadi-is-taken-and-led-through-sanaa-290
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+His son Abu al-Qasim took another road with a troop of horse; they kept fighting and passed through rough places until they fell on a ridge with no way down, the men behind them: some hid in a place until taken, and some drove their mounts down the slope and got through {cite:sira-hadi-ila-al-haqq p.249}. Abu al-Qasim was blocked in front and was among the last to be reached; his colt was weak and stopped, the men's horse overtook him and he skirmished with them for an hour, and they could get nothing from him, then he was struck on the head with a stone and fell senseless from his horse, and the men reached him hoping to strike him down. Among them was [[person/ibn-al-dahhak-rebel-at-khiwan-286|Ibn al-Dahhak]] al-Khiwani, who stood between the men and his being struck {cite:sira-hadi-ila-al-haqq p.249}.
+
+## Detail
+They took him and brought him back to [[person/ibrahim-ibn-khalaf-ibn-tarif|Ibn Khalaf]]; his horse died where it was; they went on with him and his companions and spent the night at [[place/madar-yemen|Madar]], the night before Wednesday, and on Wednesday they took them toward Sana'a and spent a night on the road; when Thursday dawned they put them on camels, Abu al-Qasim on a mule facing his companions, and took them until they entered [[place/sanaa|Sana'a]] and paraded them through the markets, and the people of Sana'a rejoiced greatly {cite:sira-hadi-ila-al-haqq p.249} {cite:sira-hadi-ila-al-haqq p.250}. The margin of the original glosses "ridge" as a horn or wing of the mountain. The joy of the people of Sana'a is the narrator's word. Before this is [[event/al-hadi-is-hemmed-in-and-the-tabaris-ask-him-to-leave-290|the encirclement of al-Hadi]]; after it, [[event/abu-al-qasim-ibn-al-hadi-is-chained-at-sanaa-and-moved-to-bayt-bus-290|his chaining at Sana'a and move to Bayt Bus]]. The museum does not say that this Ibn al-Dahhak al-Khiwani is the one of the Khiwan report and links him as probable only; the book's heading on the previous page calls the man of the report Muhammad, so he is probably al-Murtada Muhammad, whose kunya is Abu al-Qasim, but the museum does not state it as settled.
