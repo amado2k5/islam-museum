@@ -4,6 +4,8 @@ Applies to every agent and human. Rules that never bend are in [`AGENTS.md`](../
 
 _Origin: founder decision of 11 October 2026 that several sessions work in parallel and nobody's work is ever ignored, discarded or reverted._
 
+> Harvest register: before any download, OCR, harvest, mining or ingestion, look the item up in `docs/library/harvest-register.yaml` and update its entry in the same PR (`docs/library/README.md`).
+
 ## 1. Set up your own copy (once per session)
 
 - Work in your own clone or `git worktree`, never in a folder another session uses.

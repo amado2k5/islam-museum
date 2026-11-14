@@ -4,6 +4,8 @@ For any agent turning a book, a dictionary, a chronicle or a text collection int
 
 You work from the book's extracted text, never from memory. Retrieve, then write.
 
+> Harvest register: before any download, OCR, harvest, mining or ingestion, look the item up in `docs/library/harvest-register.yaml` and update its entry in the same PR (`docs/library/README.md`).
+
 ## 1. Where the text lives (outside git, on the founder's Mac)
 
 - Original scans and downloads: `~/islam-museum-harvest/raw/` (a symlink to the external drive, which must be mounted). Library PDFs from archive.org: `raw/library/<category>/<book-id>/`; manifest of what was found: `library/manifest.jsonl`.

@@ -2,6 +2,8 @@
 
 _The book library (`scripts/harvest/library/`) is one shelf. The corpus cannot be completed from books alone — whole classes (5,460 buildings missing prose, 490 objects, the works backlog) have no mineable book, and the facts that date a building or a reign live in inscriptions, coins, documents and catalogues, not narratives. This catalogue is the standing answer to "where else do we look": the families an enriching agent may use, the ones to onboard next, the ones to explore, and the criteria for judging any new resource before it is touched._
 
+> Harvest register: before any download, OCR, harvest, mining or ingestion, look the item up in `docs/library/harvest-register.yaml` and update its entry in the same PR (`docs/library/README.md`).
+
 ## Registration comes first (no exceptions)
 
 A family is usable only when it is **registered**, in one commit:
