@@ -1049,3 +1049,7 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 ## 2026-11-14 (Lane B1 packet 12) - place prose, ten places
 
 - Written (ar, en, ur, draft): chamchamal, biskra, k-tahya, sheffield, drama, rostov-on-don, trabzon, plovdiv, patras (iDAI.gazetteer via gazetteer.dainst.org/place/<id>, Accept application/json, read 14 Nov 2026) and aphrodisias (Pleiades JSON, 14 Nov 2026). Biskra cites Yaqut vol. 2, scan p.586 (entry Biskira); `source/mujam-al-buldan-yaqut` added to its sources. No Yaqut entry found in vols 1-2 for the others (Trabzon, Patras, Sheffield and the rest fall in later volumes or are absent). Skipped: none.
+
+## 2026-11-14 (Lane B1 packet 13) - place prose, ten places
+
+- Written (ar, en, ur, draft): yozgat, i-znik, tulkarm, khoy, t-touan, kolkata, idlib, tokat, manisa, tomislavgrad (iDAI.gazetteer via gazetteer.dainst.org/doc/<id>.json, read 14 Nov 2026; the /place/<id> URL with Accept: application/json returns a 303 redirect, so curl needs the doc form). No Yaqut entry found in vols 1-2 (OCR searched by Arabic name); no Yaqut source added. Skipped: none. Note: idlib data file has GeoNames 169388, iDAI links 169389; the prose states iDAI's number and the data file is unchanged.
