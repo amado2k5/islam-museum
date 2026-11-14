@@ -3235,6 +3235,16 @@ Resume point: min-kunuz-al-sunnah episode 23 (branch from origin/main).
 
 Resume point: min-kunuz-al-sunnah episode 24 (branch from origin/main).
 
+### alwaad-alhaq ep06 (14 Nov 2026)
+
+18 points written for episode 6 (ar, en, ur); 17 needs_source marks for this episode in each language file; edges to short measure, zakat and trust. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Unsourced statistics (30,000 Qur'ans, 84 and 150 followers, ten billion trees, 59 and 41 per cent) kept only with needs_source marks | ep06 00:27:00 to 00:52:00 | no source given for the figures | needs_source | Open |
+| Unintelligible stretches (00:16:30, 00:37:00, 00:44:00 to 00:44:30) | ep06 00:16:30 | transcript looped or unintelligible, no claim can be checked | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 7 (branch from origin/main).
 ### min-kunuz-al-sunnah ep24 (14 Nov 2026)
 
 14 points written for episode 24 (ar, en, ur); 10 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (4-148); none typed. Contested: He holds that lying is permitted in three cases (to please a wife, in war, to reconcile people) and gives his own readings of Ibrahim's three statements and of what counts as war; these are his views, and scholars discuss the scope of the three exceptions.
@@ -3290,3 +3300,22 @@ Resume point: min-kunuz-al-sunnah episode 26 (branch from origin/main).
 | Remark on a thief who hurries and would receive his provision lawfully had he waited | ep01 00:52:30-00:53:00 | Garbled stretch, meaning not clearly recoverable | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 2 (branch from origin/main).
+### min-kunuz-al-sunnah ep26 (14 Nov 2026)
+
+14 points written for episode 26 (ar, en, ur); 12 needs_source marks in each language file for this episode; 2 new `about` edges. Quran verses referenced only through passage links (17-70, 28-77); none typed. Contested: He attributes new diseases to neglect of the Sunna, claims veterinary findings on stressed animals, tells an unreferenced Second World War story about a British commander, and presents reward figures for killing pests; all are his views and unsourced.
+
+| Excluded (min-kunuz-al-sunnah ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting, praise and salutations | ep26 00:00:00-00:00:30 | Greeting formula, no teaching | Content rule | Open |
+| Stretch of repeated vowel sounds | ep26 00:01:30-00:02:00 | Loop of one syllable, nothing recoverable | Clarity, Loop check | Open |
+| Break join and closing prayer of first part | ep26 00:08:30-00:09:00 | Break announcement and farewell | Content rule | Open |
+| Repeated vowel loop after the break | ep26 00:09:00-00:09:30 | Loop of one letter, nothing recoverable | Clarity, Loop check | Open |
+| Repeated syllable loop | ep26 00:12:00-00:12:30 | Loop, no content | Clarity, Loop check | Open |
+| Sweeping stereotypes of wives and husbands and a spider comparison | ep26 00:11:30-00:13:30 | Demeaning generalisations about women and men, kept only as a neutral point about harm in marriage | Voice rule | Open |
+| Break join, welcome back and restart of the hadith | ep26 00:16:30-00:17:30 | Welcome back and repetition of the opening hadith | Content rule | Open |
+| Anecdote of a painting in a museum and sweeping remarks on colonial peoples | ep26 00:20:30-00:21:00 | Unreferenced, garbled, sweeping claim about a people | Voice rule, Clarity | Open |
+| Repeated syllable loop in the blind cat section | ep26 00:23:00-00:23:30 | Loop, no content | Clarity, Loop check | Open |
+| Fish and whale disease speculation | ep26 00:15:30-00:16:00 | Too garbled to recover | Clarity | Open |
+| Garbled sentences on the sheep and on naming God at slaughter | ep26 00:07:30-00:08:30 | Partly unrecoverable wording, kept only the clear sense | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 27 (branch from origin/main).
