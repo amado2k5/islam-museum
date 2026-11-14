@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن هارون الروياني، محدث وكاتب القرن العاشر، توفي سنة ٩١٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Harun al-Ruyani, the tenth-century muhaddith and writer, d. 919; the biographical entry is not yet checked on the page."
+  ar: "محمد بن هارون الروياني، أبو بكر، حافظ ثقة وصاحب المسند المشهور، رحل رحلة واسعة وروى عن أبي كريب وأبي زرعة الرازي وغيرهما، وتوفي سنة 307 هـ."
+  en: "Muhammad ibn Harun al-Ruyani, Abu Bakr, trustworthy memoriser and author of the famous Musnad, who travelled widely and narrated from Abu Kurayb, Abu Zur'a al-Razi and others; he died in 307 AH."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
 died: { edtf: "919", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Confirmed on 13 November 2026 against Wikidata Q12240278 (P570, a statement with a reference), item revision 2533331724.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/al-ruwayan, sources: [source/wikidata], confidence: low, note: "Nisba الروياني attested in the record." }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q12240278
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0053
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages 3745 (Apple Vision OCR on the harvest drive)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لالجراح بن مليح؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Al-Jarrah ibn Malih; the entry is not yet checked on the page."
+  ar: "الجراح بن مليح، والد المحدث وكيع، تولى بيت المال في بغداد وكان على دار الضرب بالري في دولة الرشيد؛ اختلف النقاد فيه بين توثيق أبي داود وتضعيف ابن سعد وابن معين في رواية وقول الدارقطني فيه ليس بشيء، وتوفي سنة 175 أو 176 هـ."
+  en: "Al-Jarrah ibn Malih, father of the hadith scholar Waki', held the treasury in Baghdad and ran the mint at Rayy under al-Rashid; critics differed, from Abu Dawud's trust to the weakness noted by Ibn Sa'd, one report from Ibn Ma'in and al-Daraqutni's verdict that he was nothing, and he died in 175 or 176 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q92821694
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
-died: { edtf: "792", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mizzi (Tahdhib al-Kamal 4/514; d. 176 AH)" }
+died: { edtf: "792", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mizzi (Tahdhib al-Kamal 4/514; d. 176 AH). Siyar A'lam al-Nubala p. 1284: Khalifa ibn Khayyat 175 AH, Ibn Qani' 176 AH; the entry heading carries 175 AH." }
 relations:
   - { type: died_in, target: place/kufa, note: "Wikidata Q186234 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/kufa, note: "Wikidata Q186234 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/baghdad, note: "Held the treasury in Madinat al-Salam (Baghdad) per Ibn Sa'd, quoted by al-Dhahabi (Siyar p. 1283); the Wikidata link to Kufa is not confirmed by the entry.", sources: [source/siyar-alam-nubala-ideas-house], confidence: medium }
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages 1283-1284 (Apple Vision OCR on the harvest drive)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
+status:
+  review: draft
+  completeness: 3
