@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v1.29.0 — 2026-11-13
 ### Added
+- **Du'a by occasion: names.** The division of al-Adhkar on names is open: the record on naming gains al-Nawawi's chapters on the call to prayer in a newborn's ear, the prayer for blessing at the tahnik, the day of naming and the names he reports as dearest, each with its page.
 - **Du'a by occasion: marriage.** The division of al-Adhkar on marriage is open: the record on the marriage contract gains what al-Nawawi gathers on the address before the contract, the words said to the groom, and the supplication on the wedding night, each with its page.
 - **Du'a by occasion: greeting.** The division of al-Adhkar on greeting, asking leave and sneezing is open: the record on the greeting of peace gains al-Nawawi's reports on its merit, the best wording and reply, and his ruling on beginning and returning it, each with its page.
 - **Du'a by occasion: travel.** The division of al-Adhkar on the traveller is open with one record: what al-Nawawi gathers for setting out and for farewell, from consulting and istikhara to the words «أستودع الله دينك وأمانتك وخواتيم عملك» and the supplication for the traveller's piety, each with its page.
