@@ -4096,6 +4096,19 @@ Resume point: alwaad-alhaq episode 20 (branch from origin/main).
 
 Resume point: alwaad-alhaq episode 21 (branch from origin/main).
 
+### alwaad-alhaq ep21 (14 Nov 2026)
+
+19 points written for episode 21 (ar, en, ur); 16 needs_source marks for this episode in each language file; edges added to the series record for envy, showing off, self-admiration, intention, sincerity, grudge, truthfulness, the sight of God, the divine saying and Malik ibn Anas. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Statistic from a respectable institution on kindness | ep21 00:46:00 | promised but the passage is lost to a repetition loop | accuracy | Open |
+| Opening stretch before the good-ending topic | ep21 00:02:30 | lost to repetition, only the gist kept | accuracy | Open |
+| Passage on the two calamities of the envier (second) | ep21 00:35:00 | lost to repetition loop | accuracy | Open |
+| Answer to the host's question on turning sins into good deeds | ep21 00:24:30 | deferred by the sheikh in the episode, not answered here | completeness | Open |
+| Passage after the Iblis and Isa tale (transcript loops) | ep21 00:12:30 | garbled by repetition, only the gist kept | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 22 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep25 (14 Nov 2026)
 
 32 points written for episode 25 (ar, en, ur); 29 needs_source marks in each language file for this episode; 14 new `about` edges. Quran verses referenced only through passage links (3-159, 12-92); none typed. Contested: His accounts of the Crusader killings, Umar's entry into Jerusalem and the course of the conquest are attributed to him and given without sources, and his framing of the jihad question is his own. Checked line by line against the transcript by a second reader before merge.
