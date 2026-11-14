@@ -1,0 +1,18 @@
+id: concept/canon-drink-that-delays-intoxication-and-sobering
+class: concept
+kind: scientific
+label: { ar: "شراب مبطئ للسكر ومصحيات السكران عند ابن سينا", en: "A drink that delays intoxication and the sobering of the drunk in the Canon", ur: "نشہ دیر سے چڑھانے والا مشروب اور نشہ اتارنے کی تدبیریں قانون میں" }
+summary:
+  ar: "ينقل ابن سينا تركيباً يبطئ بالسكر من ماء الكرنب الأبيض وماء الرمان الحامض والخل، وحباً من الملح والسذاب والكمون الأسود، ثم يعدد ما يصحي السكران من الماء والخل والمصل والرائب والكافور والصندل والمبردات على الرأس، ويحيل علاج الخمار إلى الجزئيات {cite:canon-ibn-sina-print-v1 p.239}."
+  en: "Ibn Sina gives a mixture that slows intoxication, of white cabbage water, sour pomegranate juice and vinegar, and pills of salt, rue and black cumin, then lists what sobers the drunk, water and vinegar, whey and sour curd, camphor and sandalwood and cooling applications on the head, leaving the hangover to the particular books {cite:canon-ibn-sina-print-v1 p.239}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 2 on the common regimen of adults, chapters 8 to 13 on water and drink, sleep, strengthening weak organs and fatigue (scan pages 236 to 244), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p236
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

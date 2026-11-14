@@ -15,6 +15,8 @@ died: { edtf: "745", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: lived_in, target: place/kufa, note: "al-A'lam vol. 2 p. 99: of the people of Kufa.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: died_in, target: place/kufa, note: "al-A'lam vol. 2 p. 99: he died in Kufa.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+faith:
+  - { value: other, basis: tradition, note: "al-Zirikli, al-A'lam vol. 2 p. 99, calls him a tabi'i and one of the jurists of the Shi'a, of Kufa; the later Twelver tradition counts him among its authorities, but no finer school label is recorded (read 14 Nov 2026, corr-p4). Some hadith men praised him and others accused him of holding the raj'a." }
 sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q17991892
