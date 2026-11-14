@@ -1,0 +1,67 @@
+id: event/abu-al-dughaysh-submits-and-the-mosque-collapse-at-wasaha-285
+class: event
+kind: other
+label:
+  ar: استئمان أبي الدغيش ورجوع عبد الله بن الحسين وانهيار مسجد على جمع أبي الدغيش في وسحة، 285هـ
+  en: Abu al-Dughaysh seeks security, Abdullah ibn al-Husayn returns, and a mosque collapses on part of Abu al-Dughaysh's force at Wasaha, 285 AH
+  ur: ابو الدغیش کا امان مانگنا، عبد اللہ بن الحسین کی واپسی اور وسحہ میں ابو الدغیش کے لشکر پر مسجد کا گرنا، 285ھ
+summary:
+  ar: بعد المعركة طلب أبو الدغيش الأمان عن طريق يوسف بن محمد الحسني فأعطاه واستحلفه، وأجاز عبد الله بن الحسين الأمان وأطلقه، وأقام في وسحة حتى آخر ربيع الآخر ثم جاءه كتاب الهادي بالانصراف فعاد إلى صعدة يوم الخميس أول جمادى الأولى؛ وحكى محمد بن عبيد الله أن أبا الدغيش جمع جماعة وأتى في ليلة ريح ومطر فانهدم مسجد خارج القرية على بعض أصحابه فقتل منهم نفراً وانقلبوا خائبين.
+  en: After the battle Abu al-Dughaysh sought security through Yusuf ibn Muhammad al-Hasani, who gave it and took his oath; Abdullah ibn al-Husayn confirmed the security and let him go; he stayed at Wasaha until the end of Rabi' II, then al-Hadi's letter ordered him back and he reached Sa'da on Thursday the first of Jumada I; Muhammad ibn Ubaydallah adds that Abu al-Dughaysh gathered a force and came on a night of wind and rain, and a mosque outside the village fell on some of his men, killing several, and they turned back disappointed.
+  ur: لڑائی کے بعد ابو الدغیش نے یوسف بن محمد حسنی کے ذریعے امان مانگی، انہوں نے دی اور قسم لی؛ عبد اللہ بن الحسین نے امان کو نافذ کیا اور اسے چھوڑ دیا؛ وہ ربیع الآخر کے آخر تک وسحہ میں رہے، پھر ہادی کا واپسی کا خط آیا اور وہ جمعرات یکم جمادی الاولیٰ کو صعدہ پہنچے؛ محمد بن عبید اللہ بتاتے ہیں کہ ابو الدغیش نے جمعیت جمع کی اور ہوا اور بارش کی رات آیا، بستی کے باہر ایک مسجد اس کے کچھ ساتھیوں پر گر گئی جس سے کئی مرے اور وہ ناکام لوٹ گئے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0898-05
+    hijri: 0285-04
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: نهاية ربيع الآخر وأول جمادى الأولى 285هـ بنص الكتاب؛ الشهر فقط؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/wasaha-yemen
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-dughaysh-al-shihabi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/yusuf-ibn-muhammad-al-hasani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/battle-of-afara-285
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص88-89 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-11
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 88-89

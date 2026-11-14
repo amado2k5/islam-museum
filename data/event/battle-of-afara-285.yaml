@@ -1,0 +1,65 @@
+id: event/battle-of-afara-285
+class: event
+kind: other
+label:
+  ar: معركة عفارة بين عسكر عبد الله بن الحسين وأبي الدغيش الشهابي كما يرويها محمد بن عبيد الله، ربيع الآخر 285هـ
+  en: The battle of Afara between Abdullah ibn al-Husayn's force and Abu al-Dughaysh al-Shihabi, as Muhammad ibn Ubaydallah tells it, Rabi' II 285 AH
+  ur: 'عفارہ کی لڑائی: عبد اللہ بن الحسین کا لشکر اور ابو الدغیش شہابی، جیسے محمد بن عبید اللہ بیان کرتے ہیں، ربیع الآخر 285ھ'
+summary:
+  ar: يروي محمد بن عبيد الله أنه سار يوم الثلاثاء لسبع باقية من ربيع الآخر من طريق ثانية إلى عفارة، فخرج عليه كمين لأبي الدغيش وهو في أهل وسحة، فانهزم أصحابه وثبت في عشرين راجلاً ثم في أحد عشر رجلاً أمام مئتين، وعُقر فرسه، وقاتل راجلاً وقتل منهم رجل، وفي الأثناء هزم عبد الله بن الحسين أبا الدغيش، ثم رأى الناس النار في عفارة فانقلب مقاتلوهم منهزمين.
+  en: Muhammad ibn Ubaydallah tells that on Tuesday with seven days left of Rabi' II he went by another road to Afara; an ambush of Abu al-Dughaysh came out on him with the men of Wasaha, his companions fled, and he stood with twenty on foot and then eleven men against two hundred, his horse was killed and he fought on foot; a man of his killed one of them; meanwhile Abdullah ibn al-Husayn defeated Abu al-Dughaysh, and when people saw fire at Afara their opponents turned and fled.
+  ur: محمد بن عبید اللہ بتاتے ہیں کہ ربیع الآخر کے سات دن باقی رہتے منگل کو وہ دوسرے راستے سے عفارہ کی طرف گئے؛ وسحہ والوں کے ساتھ ان پر ابو الدغیش کا کمین نکلا، ان کے ساتھی بھاگ گئے اور وہ بیس پیادوں اور پھر گیارہ آدمیوں کے ساتھ دو سو کے سامنے ڈٹے رہے، ان کا گھوڑا مارا گیا اور وہ پیدل لڑے؛ ان کے ایک آدمی نے ان میں سے ایک کو مارا؛ اسی دوران عبد اللہ بن الحسین نے ابو الدغیش کو شکست دی اور جب لوگوں نے عفارہ میں آگ دیکھی تو ان کے مخالف بھاگ نکلے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0898-04
+    hijri: 0285-04
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: يوم الثلاثاء لسبعة أيام باقية من ربيع الآخر سنة 285هـ؛ الشهر فقط لاختلاف طول الشهر؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/wasaha-yemen
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-dughaysh-al-shihabi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/yusuf-ibn-muhammad-al-hasani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/al-hadi-sends-abdullah-ibn-al-husayn-against-abu-al-dughaysh-285
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص86-88 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-11
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 86-88
