@@ -3886,3 +3886,20 @@ Resume point: sharh-saheeh-al-bukhare episode 18 (branch from origin/main).
 | Remarks that the environment shapes people, with a comparison naming a modern politician, and sweeping claims about Muslims' ignorance | ep18 01:14:30-01:16:00 | Sweeping claims, garbled | Voice rule | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 19 (branch from origin/main).
+
+### alwaad-alhaq ep16 (14 Nov 2026)
+
+19 points written for episode 16 (ar, en, ur); 17 needs_source marks for this episode in each language file; 16 new `about` edges (ghulul, zakat, innovation, martyr, betrayal, trust, the unseen, tale-bearing, deviation, gifts to workers, the gift, purity, ongoing charity, Abd Allah ibn Rawaha, Abu al-Darda, Awf ibn Malik); Contested: his readings of the verses, the soul-and-body account, the decay figures and his views on gifts, innovation and funeral customs are marked as his. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Loop and garbled stretches | ep16 00:07:30, 00:15:30, 00:25:30, 00:29:30-00:30:30, 00:40:30-00:41:00, 00:43:00-00:43:30, 00:44:30-00:45:00, 00:46:00, 00:51:00-00:51:30 | Repeated tokens and noise, nothing recoverable | Clarity, Loop check | Open |
+| Names in the grave-aflame cloak report (Abd al-Rahman ibn Awf and a cemetery) | ep16 00:06:00-00:07:00 | Names unstable in the transcript, left unlinked pending the founder | Accuracy | Open |
+| Saying that the followers of innovation are dogs of Hell, and remarks on the funeral reciters' fees and a figure of one hundred thousand | ep16 00:27:30-00:29:30 | Sweeping and garbled, unreferenced figure | Voice rule, Clarity | Open |
+| Remark that people in the West each live as an isolated island | ep16 00:17:00-00:17:30 | Sweeping generalisation about a people | Voice rule | Open |
+| Report on the previous nations punished by general torment, and the sheikh's answer on whether the unbeliever is punished in the grave | ep16 00:09:30-00:10:00 | Garbled, only the clear sentence recorded | Clarity | Open |
+| Attribution to Ata ibn Abi Rabah about waiting for rain and for the stone, and the Ibn Hazm and Ibn Hajar remarks on the ruler's duty | ep16 00:30:30, 00:32:30-00:33:00 | Garbled and misattributed in the transcript | Accuracy | Open |
+| Remarks on objecting to God's words, the deceiver and schemer details | ep16 00:42:30-00:43:00, 00:47:30-00:48:30 | Garbled | Clarity | Open |
+| Opening greeting and closing farewell | ep16 00:00:30-00:01:30, 00:51:30-00:52:30 | Greeting, prayer and housekeeping | Content rule | Open |
+
+Resume point: alwaad-alhaq episode 17 (branch from origin/main).
