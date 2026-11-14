@@ -1,0 +1,18 @@
+id: concept/southern-dwellings-in-the-canon
+class: concept
+kind: scientific
+label: { ar: "المساكن الجنوبية عند ابن سينا", en: "Southern dwellings in the Canon", ur: "قانون میں جنوبی مسکن" }
+summary:
+  ar: "يعطي ابن سينا المساكن الجنوبية أحكام البلاد والفصول الحارة، ويفصل حال الرجال والنساء والكهول فيها {cite:canon-ibn-sina-print-v1 pp.128-129}."
+  en: "Ibn Sina gives southern dwellings the rulings of hot lands and seasons and details the state of men, women and the middle-aged there {cite:canon-ibn-sina-print-v1 pp.128-129}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/air-as-a-cause, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on harmful changes of the air, winds, dwellings, motion, sleep and the motions of the soul (scan pages 125 to 131), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-air-dwellings-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,18 @@
+id: concept/motion-and-rest-in-the-canon
+class: concept
+kind: scientific
+label: { ar: "الحركة والسكون عند ابن سينا", en: "Motion and rest in the Canon", ur: "قانون میں حرکت اور سکون" }
+summary:
+  ar: "في الفصل الثاني عشر، في موجبات الحركة والسكون، يبين ابن سينا أن فعل الحركة في بدن الإنسان يختلف بالشدة والضعف والقلة والكثرة وبما يخالطها من السكون، وأن الحكماء يعدون ذلك قسماً برأسه {cite:canon-ibn-sina-print-v1 p.130}."
+  en: "In the twelfth chapter, on the causes that lie in motion and rest, Ibn Sina shows that the action of motion in the human body differs by intensity and weakness, by little and much, and by the rest mixed with it, and that the philosophers count this a division by itself {cite:canon-ibn-sina-print-v1 p.130}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on harmful changes of the air, winds, dwellings, motion, sleep and the motions of the soul (scan pages 125 to 131), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-air-dwellings-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

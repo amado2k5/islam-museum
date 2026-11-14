@@ -1,0 +1,18 @@
+id: concept/elevated-sunken-rocky-snowy-and-seaside-dwellings
+class: concept
+kind: scientific
+label: { ar: "المساكن العالية والغائرة والحجرية والثلجية والبحرية عند ابن سينا", en: "Elevated, sunken, rocky, snowy and seaside dwellings in the Canon", ur: "قانون میں بلند، نشیبی، پتھریلے، برفانی اور ساحلی مسکن" }
+summary:
+  ar: "يتابع ابن سينا أحكام المساكن بحسب موضعها، العالية والغائرة والحجرية المكشوفة والجبلية الثلجية والبحرية {cite:canon-ibn-sina-print-v1 pp.127-128}."
+  en: "Ibn Sina continues the rulings on dwellings by their site: high, sunken, rocky and exposed, snowy mountain, and seaside {cite:canon-ibn-sina-print-v1 pp.127-128}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/air-as-a-cause, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on harmful changes of the air, winds, dwellings, motion, sleep and the motions of the soul (scan pages 125 to 131), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-air-dwellings-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

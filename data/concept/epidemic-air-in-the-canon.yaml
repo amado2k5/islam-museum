@@ -1,0 +1,18 @@
+id: concept/epidemic-air-in-the-canon
+class: concept
+kind: scientific
+label: { ar: "الهواء الوبائي عند ابن سينا", en: "Epidemic air in the Canon", ur: "قانون میں وبائی ہوا" }
+summary:
+  ar: "في الفصل التاسع من التعليم الثاني يعرض ابن سينا التغيرات الهوائية الرديئة المضادة للمجرى الطبيعي، ويبدأ بما يصيب جوهر الهواء، وهو الوباء، فيصفه بأنه تعفن يعرض في الهواء يشبه تعفن الماء المستنقع الآجن {cite:canon-ibn-sina-print-v1 p.125}."
+  en: "In the ninth chapter of the second lesson Ibn Sina treats the harmful changes of the air that run against its natural course, and begins with changes in the air's substance, the epidemic, which he describes as a putrefaction arising in the air like the putrefaction of stagnant, stale water {cite:canon-ibn-sina-print-v1 p.125}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/air-as-a-cause, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on harmful changes of the air, winds, dwellings, motion, sleep and the motions of the soul (scan pages 125 to 131), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-air-dwellings-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
