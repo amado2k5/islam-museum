@@ -4619,6 +4619,22 @@ GEMINI: alwaad-alhaq ep31 (01:05:00-01:05:30): "alf firawn" likely a mishearing 
 GEMINI: alwaad-alhaq ep31 (01:03:30-01:04:00): the sheikh seems to place "do not despair of God's mercy" (39:53) in Ghafir; Surat al-Zumar is the source; a mushaf would settle the sura attribution.
 GEMINI: alwaad-alhaq ep31 (00:09:00 and 00:40:00): two counts of the verses on the Fire (271 and 211); one is probably a mishearing.
 
+### alwaad-alhaq ep32 (14 Nov 2026)
+
+13 points written for episode 32 (ar, en, ur); 18 needs_source marks for this episode in each language file; 13 about edges linked to the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep32) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Episode 32 minutes 01:00-01:20 (the spoken account of a man and Abu Hurayra on praying after the dawn prayer) | ep32 00:29:00-00:30:30 | Garbled and looped in the transcription, no reliable account recoverable | Accuracy | Open |
+| Episode 32 remarks on borders, treaties and a changing fatwa | ep32 00:42:00-00:43:00 | Garbled and politically sensitive remark, not reliably transcribed (founder-held: opinion rulings) | Accuracy; sensitivity | Open |
+| Episode 32 remark on veiled women inside the backbiting example | ep32 01:02:00-01:02:30 | Garbled in the transcription and could not be attributed safely | Accuracy | Open |
+| Episode 32 story of a man with women at a door in Medina and a camel rope | ep32 00:57:30-00:59:30 | Garbled and incomplete in the transcription | Accuracy | Open |
+
+Resume point: alwaad-alhaq episode 33 (branch from origin/main).
+
+GEMINI: alwaad-alhaq ep32 (00:54:30) the report of Umar asking a man his name and clan that carried the meaning of fire and telling him his family had burned; the transcript garbles the names; which collection (probably Malik's Muwatta) gives the exact names and wording?
+GEMINI: alwaad-alhaq ep32 (00:57:00) the saying "the flesh of the learned is poisoned" attributed by the sheikh to Ibn al-Jawzi; the source that would settle it is the earliest book attributing it (commonly cited to Ibn Asakir), to confirm the attribution.
+GEMINI: alwaad-alhaq ep32 (00:25:30) the hadith "among the greatest betrayals with God is a man confiding to his wife and she spreads it", which the sheikh places in Muslim; the exact text and number in Sahih Muslim would settle the wording.
 ### sharh-saheeh-al-bukhare ep40 (14 Nov 2026)
 
 26 points written for episode 40 (ar, en, ur); 17 needs_source marks in each language file for this episode; 14 new `about` edges. Quran verses referenced only through passage links (46-20); none typed. Contested: He is made to hold that the expeditions before Badr were not piracy because Companions had left property in Mecca and may recover it, that zakat funds may be used to marry off poor young men, and that the Arab wars before Islam were a divine training; all are his own arguments, not established positions. Checked line by line against the transcript by a second reader before merge.
