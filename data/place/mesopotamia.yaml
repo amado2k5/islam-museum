@@ -9,8 +9,8 @@ wings: [place]
 coordinates: [33.7, 43.5]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q11767" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q11767", nomisma: "mesopotamia" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q11767 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."

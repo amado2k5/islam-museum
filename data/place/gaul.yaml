@@ -9,8 +9,8 @@ wings: [place]
 coordinates: [46.5, 2.9]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q38060" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q38060", nomisma: "gallia" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q38060 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."

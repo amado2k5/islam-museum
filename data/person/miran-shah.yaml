@@ -18,9 +18,10 @@ died: { edtf: "1408", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: died_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/kur-amir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/biblissima]
 external_ids:
   wikidata: Q936616
+  biblissima: "Q232466"
 provenance:
   layer: own-research
   source: "Wikidata Q936616 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"

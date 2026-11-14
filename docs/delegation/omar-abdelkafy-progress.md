@@ -2835,3 +2835,61 @@ Resume point: modakirate-iblis episode 30 (branch from origin/main).
 | Loops and garbled stretches (the sixties television anecdote, a stretch before the Midian story, the account of the Qasas conditions) | ep30 00:07:00-00:08:30, 00:10:00 (part), 00:11:00 (part) | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis is finished (30 of 30 episodes). Next series in the lane order: min-kunuz-al-sunnah, from episode 1. Work covered by the founder approval dec-20261114-277.
+
+### min-kunuz-al-sunnah ep01 (14 Nov 2026)
+
+New record work/min-kunuz-al-sunnah (series record, sensitivity contested) with episode 1 written in ar, en and ur (draft, provenance); 15 points; 10 needs_source marks in each language file; 14 `about` edges. Quran verses referenced only through passage links (33-36, 4-65, 3-31, 9-111, 9-60, 20-117 to 20-119, 18-94, 18-95, 59-7, 5-90, 2-284, 2-285); none typed. The lecturer's views on zakat by analogy and on the veil are labelled as his; work covered by the founder approval dec-20261114-277.
+
+| Excluded (min-kunuz-al-sunnah ep01) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings and the Ramadan supplications, the break joins and the closing prayer | ep01 00:00:00, 00:01:30-00:02:30 (part), 00:10:30-00:11:00, 00:28:30-00:29:30 | Not lesson content | Content rule | Open |
+| A remark commending one named state's choice of administrators, and a supplication for the oppressed in the east and west of the earth | ep01 00:21:30-00:22:00 (part), 00:01:30-00:02:00 (part) | Modern political aside; held for the founder to decide | Content rule | Open |
+| Loops and garbled stretches (about Hafsa walking in Medina's street, a stretch of legal hesitation, the sale-purchase restatement) | ep01 00:08:30-00:09:00 (part), 00:26:00-00:26:30, 00:29:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 2 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep02 (14 Nov 2026)
+
+11 points written for episode 2 (ar, en, ur); 9 needs_source marks in each language file for this episode; -14 new `about` edges. Quran verses referenced only through passage links (30-41, 11-61); none typed.
+
+| Excluded (min-kunuz-al-sunnah ep02) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings and supplications, the break joins and the closing prayer | ep02 00:00:00, 00:09:30-00:10:00, 00:27:00-00:27:30 | Not lesson content | Content rule | Open |
+| A long run of one letter, a run of repeated sounds, and a repeated loop at the end | ep02 00:01:30, 00:16:00, 00:27:30 | Loop | Loop check | Open |
+| Garbled stretches (the question put to the Prophet about the Hour in the second telling, the spellings of the bird's three sayings, a stretch on an official's secretary) | ep02 00:15:00-00:16:00 (part), 00:26:00-00:27:00 (part), 00:21:00-00:22:00 (part) | Not recoverable | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 3 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep03 (14 Nov 2026)
+
+11 points written for episode 3 (ar, en, ur); 8 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (31-13, 49-13); none typed. Contested: the lecturer's remark on divorce in anger is the disputed juristic point and is given as two reported opinions without a source; sensitivity stays contested.
+
+| Excluded (min-kunuz-al-sunnah ep03) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep03 00:00:00, 00:08:30-00:09:00, 00:16:00-00:16:30 (part), 00:26:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (a run of one sound, a stretch comparing the police and a criminal, a stretch on the repetition of a request for divorce, the end of the story of Harun al-Rashid) | ep03 00:00:30, 00:06:30, 00:07:00 (part), 00:25:00-00:25:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 4 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep04 (14 Nov 2026)
+
+10 points written for episode 4 (ar, en, ur); 7 needs_source marks in each language file for this episode; 3 new `about` edges; no Quran verse cited by the lecturer in this episode.
+
+| Excluded (min-kunuz-al-sunnah ep04) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep04 00:00:00, 00:08:30-00:09:00, 00:17:00-00:17:30, 00:27:30 | Not lesson content | Content rule | Open |
+| Garbled stretches and side remarks (a stretch on fruit seasons and artificial milk, a closing stretch on ageing and cosmetics) | ep04 00:02:30-00:04:00, 00:25:30-00:26:00 | Not recoverable or off the lesson | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 5 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep05 (14 Nov 2026)
+
+12 points written for episode 5 (ar, en, ur); 6 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (9-103, 49-12, 24-30, 2-3, 9-111); none typed. Contested: the lecturer's view on handshakes between men and women is a disputed juristic question and is attributed to him; sensitivity stays contested.
+
+| Excluded (min-kunuz-al-sunnah ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep05 00:00:00, 00:10:00-00:10:30, 00:19:00-00:19:30, 00:26:30-00:27:30 | Not lesson content | Content rule | Open |
+| A naming of three peoples whose refugee camps he suggests visiting | ep05 00:16:00-00:16:30 (part) | Modern conflict aside; the proposal to visit camps is kept without the names, held for the founder to decide | Content rule | Open |
+| Garbled stretches (the cases of intention and finding in the discussion on breaking ablution, the long remark on the mother and a youth) | ep05 00:05:30-00:06:30 (part), 00:07:00 (part) | Not recoverable | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 6 (branch from origin/main).

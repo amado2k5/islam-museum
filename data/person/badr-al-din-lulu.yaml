@@ -21,6 +21,6 @@ relations:
   - { type: lived_in, target: place/mosul, confidence: low, note: "Associated with الموصل per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
   - { type: participated_in, target: event/lulu-takes-mosul-621, role: "المستولي", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/zangid-house-ends-631, role: "المتسلطن", sources: [source/shadharat-dhahab] }
-external_ids: { wikidata: "Q4841102" }
-sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab]
+external_ids: { wikidata: "Q4841102", nomisma: "badr_al-din_lu'lu'" }
+sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab, source/nomisma]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
