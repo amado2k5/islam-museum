@@ -1,0 +1,18 @@
+id: concept/canon-thick-urine
+class: concept
+kind: scientific
+label: { ar: "البول الغليظ عند ابن سينا", en: "Thick urine in the Canon", ur: "گاڑھا پیشاب قانون میں" }
+summary:
+  ar: "يبين ابن سينا أن الغليظ جداً يدل في الأكثر على عدم النضج وفي الأقل على نضج أخلاط غليظة، ويفرق بين ما يستفرغ دفعة وما يستفرغ قليلاً قليلاً، ويعلل كون الرقة والغلظ جميعاً يدلان على عدم النضج {cite:canon-ibn-sina-print-v1 pp.189-190}."
+  en: "Ibn Sina says very thick urine mostly shows lack of ripening and less often the ripening of thick humours, distinguishes what is passed at once from what is passed little by little, and explains why both thinness and thickness show lack of ripening {cite:canon-ibn-sina-print-v1 pp.189-190}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

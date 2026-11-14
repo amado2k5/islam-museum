@@ -1,0 +1,18 @@
+id: concept/canon-purple-urine
+class: concept
+kind: scientific
+label: { ar: "البول الأرجواني عند ابن سينا", en: "Purple urine in the Canon", ur: "ارغوانی پیشاب قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن البول الأرجواني رديء قتال لأنه يدل على احتراق المرتين، وأن الأحمر الذي يجري فيه سواد يدل على الحميات المركبة والحميات من الأخلاط الغليظة، وعلى ذات الجنب إن كان أصفى وكان السواد أميل إلى رأسه {cite:canon-ibn-sina-print-v1 pp.188-189}."
+  en: "Ibn Sina says purple urine is bad and deadly because it shows the burning of both biles, and that red running into black shows compound fevers and fevers from thick humours, and pleurisy if it is clearer and the black lies nearer its top {cite:canon-ibn-sina-print-v1 pp.188-189}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

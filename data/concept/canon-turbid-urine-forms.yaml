@@ -1,0 +1,18 @@
+id: concept/canon-turbid-urine-forms
+class: concept
+kind: scientific
+label: { ar: "صور البول الكدر عند ابن سينا", en: "Forms of turbid urine in the Canon", ur: "گدلے پیشاب کی صورتیں قانون میں" }
+summary:
+  ar: "يذكر ابن سينا صوراً من البول الكدر ودلالاتها: الكدر يدل على سقوط القوة، والشبيه بالشراب الرديء أو ماء الحمص للحبالى وأصحاب الأورام الحارة المزمنة، والشبيه ببول الحمير يدل على فساد الأخلاط {cite:canon-ibn-sina-print-v1 p.191}."
+  en: "Ibn Sina lists forms of turbid urine and what they show: turbid urine shows collapse of strength, wine-like or chickpea-water urine belongs to pregnant women and those with long hot swellings, and urine like that of asses shows corruption of the humours {cite:canon-ibn-sina-print-v1 p.191}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

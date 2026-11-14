@@ -4374,6 +4374,18 @@ Resume point: sharh-saheeh-al-bukhare episode 34 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 35 (branch from origin/main).
 
+### alwaad-alhaq ep25 (14 Nov 2026)
+
+25 points written for episode 25 (ar, en, ur); 11 needs_source marks for this episode in each language file; links to the straight path, tawhid, enjoining good, al-Husayn ibn Ali, Sulayman, Ayyub, Isa, Aisha, Abu Hazim al-A'raj and al-Hasan al-Basri. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep25) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Zakat rates quoted in the garbled passage (percentages for money, rents, crops, mineral finds and shares) | ep25 00:19:30-00:20:00 | The transcript figures are garbled and contradict the known rates, so no number is stated | statistics unverifiable | Open |
+| Further categories of those who enter Paradise without a reckoning (a drink and a servant exchange) | ep25 00:28:00-00:29:00 | Passage is too garbled to restate faithfully | transcript illegible | Open |
+| Remarks on people walking in the streets and on young men seeing images | ep25 00:43:00 | Sermon-voice remarks about groups of people; not restated | voice and scope | Open |
+| Speed list of crossing the Sirat in part (sheep or lamb comparison) | ep25 00:36:30-00:37:00 | Transcript lost in loops; only the legible comparisons kept | transcript illegible | Open |
+
+Resume point: alwaad-alhaq episode 26 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep35 (14 Nov 2026)
 
 22 points written for episode 35 (ar, en, ur); 18 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (17-85, 9-3, 6-93, 89-27, 39-42, 7-172); none typed. Contested: His view that nothing may be added to the religion and that the Companions saw while awake what others see in sleep, his account of the world of spirits and the stations of the soul, and his advice that the wronged should not pray against the wrongdoer are his own views. Checked line by line against the transcript by a second reader before merge.
