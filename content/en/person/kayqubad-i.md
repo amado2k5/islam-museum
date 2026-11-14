@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 ---
 ## Overview
-Kayqubad I, Ala al-Din, was the most distinguished of the Seljuk sultans of Rum, according to the Encyclopaedia of Islam, and many later rulers would connect themselves to him. His brother and predecessor Kayka'us I had removed him from power, and he succeeded him in 618 AH, 1220 CE {cite:encyclopaedia-of-islam-2 vol. 4 p. 855}.
+Kayqubad I, Ala al-Din, was the most distinguished of the Seljuk sultans of Rum, according to the Encyclopaedia of Islam, and many later rulers would connect themselves to him. His brother and predecessor Kayka'us I had removed him from power, and he succeeded him in 618 AH, 1220 CE {cite:encyclopaedia-of-islam-2 vol. 4 p. 855}. The record also links him to [[polity/rum-seljuk-sultanate|the sultanate of Rum]], which reached its greatest extent under him.
 
 ## Foreign policy
 The article says his policy made his dynasty one of the most powerful of its time. From the start he extended his rule over much of the Cilician Taurus, where he settled Turkmens, and he took Alaiyya, which became his winter residence and the place where he kept his treasury {cite:encyclopaedia-of-islam-2 vol. 4 p. 855}. On the Black Sea he disputed the lordship of Trebizond and sent a naval expedition under the emir Chupan that put the Crimean harbour of Sughdaq under Seljuk protection {cite:encyclopaedia-of-islam-2 vol. 4 p. 855}. In the east, with the help of the Ayyubid al-Ashraf, he annexed the Artuqid holdings on the right bank of the middle Euphrates, and he annexed the principality of the Mangujakids at Erzincan, which he made over to his eldest son Kaykhusraw {cite:encyclopaedia-of-islam-2 vol. 4 p. 855}.

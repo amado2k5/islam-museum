@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 ---
 ## Overview
-Ahmad ibn Uways ibn Hasan al-Jalayiri, Ghiyath al-Din, has an entry in al-Zirikli's al-A'lam under the name Sultan Ahmad Bahadur. Al-Zirikli calls him the last sultan of the Jalayirid state at Baghdad, Mongol by origin and Arabised, and gives his death as 813 AH, 1410 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 101}.
+Ahmad ibn Uways ibn Hasan al-Jalayiri, Ghiyath al-Din, has an entry in al-Zirikli's al-A'lam under the name Sultan Ahmad Bahadur. Al-Zirikli calls him the last sultan of the Jalayirid state at Baghdad, Mongol by origin and Arabised, and gives his death as 813 AH, 1410 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 101}. He belongs to [[polity/jalayirids|the Jalayirids]].
 
 ## Upbringing and accession
 Al-Zirikli says his forebears were men of Genghis Khan and Hulagu, and that rule over Iraq passed to his grandfather Shaykh Hasan. He grew up in Tabriz, lived for a time in Baghdad, and acted for his brother Sultan Husayn in Basra; then he killed his brother and took the sultanate in 784 AH, and killed a number of army emirs whom he feared would turn on him {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 101}.
@@ -18,3 +18,6 @@ Al-Zirikli says that [[person/timur-lang|Timur]] appeared in Turkestan and Bukha
 
 ## His death
 Al-Zirikli says another Mongol, the emir [[person/qara-yusuf|Qara Yusuf]], rose against him; Ahmad fought him and was defeated, captured and strangled in Baghdad {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 101}.
+
+## In Nomisma
+The Nomisma numismatic vocabulary lists him as the person concept «sultan_ahmad_ibn_uways», preferred label «Sultan Ahmad ibn Uways» (Arabic «ساطان أحمد بن أويس»). A query of 14 November 2026 found no coin or coin type in its linked collections naming him as authority or issuer. {cite:nomisma sultan_ahmad_ibn_uways}
