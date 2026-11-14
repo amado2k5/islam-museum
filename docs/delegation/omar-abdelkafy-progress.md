@@ -4504,3 +4504,18 @@ Resume point: alwaad-alhaq episode 28 (branch from origin/main).
 | Loops and garbled stretches (Cain's story, Pharaoh's deification, Aad and Lot details) | ep28 00:19:30, 00:28:00, 00:31:30-00:32:00, 00:53:00-00:54:30, 01:00:00, 01:17:30 | Repeated loops and unreadable text | Loop check | Open |
 
 Resume point: alwaad-alhaq episode 29 (branch from origin/main).
+
+### alwaad-alhaq ep29 (14 Nov 2026)
+
+27 points written for episode 29 (ar, en, ur); 22 needs_source marks for this episode in each language file; links added to fear, the Sirat, voluntary acts, the hijab, the fitra, Jahannam, the Fire, showing off, miserliness, hypocrisy, truthfulness, repentance, the sacred hadith, whim, the sound heart, treachery, lying, al-Hasan al-Basri and al-Fudayl ibn Iyad. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep29) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Chain of the sheikh's remarks on a modern writer's claim about Ibrahim and Ismail | ep29 00:12:00-00:12:30 | Garbled; no name or source recoverable | Clarity | Open |
+| Poem recited around the Eid sermon of al-Qasri | ep29 00:11:30 | Garbled verse text; cannot be restored without a source | Citation, Clarity | Open |
+| Details of the punishment of the two Maghribi men in the Nur al-Din story | ep29 00:14:30-00:15:00 | Garbled and loops; only 'they were punished' kept | Clarity, Loop check | Open |
+| Passage on fiqh and fatwa about the Muslim's relation to government law and Caesar | ep29 00:35:30-00:36:00 | Garbled and loops | Clarity | Open |
+| Hadith details about the five people of the Fire fifth type and the Zubr wording | ep29 00:56:00-00:58:30 | Garbled; fifth type kept in softened form | Clarity | Open |
+| Stretches with loops or unreadable text (rhetorical 'ya Ibn Ammar', the fifth person, Paradise and Fire story) | ep29 00:08:30, 00:10:30, 00:12:30, 00:22:30, 00:25:30, 00:26:30-00:27:30, 00:34:00, 00:37:30, 00:40:00, 00:41:30-00:42:30, 00:56:00, 01:00:00-01:00:30, 01:03:00-01:03:30, 01:09:30-01:10:00, 01:13:00 | Repeated loops and unreadable text | Loop check | Open |
+
+Resume point: alwaad-alhaq episode 30 (branch from origin/main).
