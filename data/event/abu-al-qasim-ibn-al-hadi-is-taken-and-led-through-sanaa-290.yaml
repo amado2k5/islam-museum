@@ -1,0 +1,74 @@
+id: event/abu-al-qasim-ibn-al-hadi-is-taken-and-led-through-sanaa-290
+class: event
+kind: other
+label:
+  ar: "أسر أبي القاسم ابن الهادي وسوقه إلى صنعاء وطوافهم به في الأسواق، رجب 290هـ"
+  en: "Abu al-Qasim, al-Hadi's son, is taken and led to Sana'a and paraded through its markets, Rajab 290 AH"
+  ur: "ہادی کے بیٹے ابو القاسم کی گرفتاری، صنعاء لے جانا اور بازاروں میں پھرانا، رجب 290ھ"
+summary:
+  ar: "مضى أبو القاسم ابن الهادي في فرقة من الخيل فوقعوا في موضع وعر لا منزل له، وكان تحته مهر ضعيف فأصيب برجمة في رأسه فسقط مغشياً عليه، وحال ابن الضحاك الخيواني بين القوم وبين قتله، فأخذوه إلى ابن خلف، وبعد ليلة بـمدر سيقوا إلى صنعاء يوم الخميس على الإبل وطافوا بهم في الأسواق، وجذل أهلها بحسب الراوي."
+  en: "Abu al-Qasim, al-Hadi's son, took another road with a troop of horse and they came to rough ground with no way down; his colt was weak, he was struck on the head with a stone and fell senseless, and Ibn al-Dahhak al-Khiwani stood between the men and his killing; he was taken to Ibn Khalaf, and after a night at Madar he and his companions were brought to Sana'a on Thursday on camels and paraded in the markets, and the people of Sana'a rejoiced greatly, according to the narrator."
+  ur: "ہادی کے بیٹے ابو القاسم گھڑسواروں کی ایک ٹکڑی کے ساتھ دوسرے راستے پر گئے اور ایسی دشوار جگہ آ پہنچے جہاں اترنے کا راستہ نہ تھا؛ ان کا ٹٹو کمزور تھا، سر پر پتھر لگا تو وہ بے ہوش ہو کر گر پڑے، اور ابن الضحاک خیوانی مخالفوں اور ان کے قتل کے بیچ حائل ہوا؛ انہیں ابن خلف کے پاس لے گئے، اور مدر میں ایک رات کے بعد وہ اپنے ساتھیوں سمیت جمعرات کو اونٹوں پر صنعاء لائے گئے اور بازاروں میں پھرائے گئے، اور راوی کے مطابق صنعاء والے بہت خوش ہوئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0903-05"
+    hijri: "0290-07"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "رجب سنة 290هـ؛ يوم الثلاثاء أول رجب بنص الكتاب، والتقويم الجدولي يجعل أول رجب الاثنين، فالدقة شهرية؛ السنة مستنتجة من الترتيب؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: "أبو القاسم ابن الهادي، ويسميه عنوان الكتاب محمد بن الهادي، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-al-dahhak-rebel-at-khiwan-286
+  role: "ابن الضحاك الخيواني كما سماه الكتاب، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  role: "ابن خلف، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/madar-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص249-250 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-29
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 249-250

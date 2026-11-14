@@ -1,0 +1,76 @@
+id: event/the-fights-near-bayt-hadir-and-the-withdrawal-by-matara-and-madar-to-atwa-290
+class: event
+kind: other
+label:
+  ar: "قتال بيت حاضر وانسحاب الهادي بمطرة ومدر إلى أتوة، جمادى الآخرة 290هـ"
+  en: "The fights near Bayt Hadir and al-Hadi's withdrawal by Matara and Madar to Atwa, Jumada II 290 AH"
+  ur: "بیت حاضر کی لڑائیاں اور ہادی کی مطرہ اور مدر کے راستے اتوہ کی طرف پسپائی، جمادی الآخرہ 290ھ"
+summary:
+  ar: "أنزل ابن خلف بعض عسكره قرب عسكر الهادي فأخرج الهادي عسكراً من الخولانيين فاقتتلوا مرتين وأمدّهم برجال من همدان، وأصيب رجلان من أصحاب الهادي، ثم ارتحل ليلاً فبات بمطرة يومين ثم بمدر وأذن لمن معه من خولان وهمدان ونجران، ثم نهض إلى أتوة بعدما نزل آل طريف قريباً منه ووقف آل يعفر في موضعهم."
+  en: "Ibn Khalaf camped part of his army near al-Hadi's and al-Hadi sent out an army of Khawlanis, who fought twice, and he reinforced them with Hamdani men; two of his men were hit, and he left by night, spent two days at Matara, then reached Madar and gave leave to the men with him from Khawlan, Hamdan and Najran, and went on to Atwa after Al Tarif had halted near him and Al Ya'fur had held to their place."
+  ur: "ابن خلف نے اپنے لشکر کا ایک حصہ ہادی کے لشکر کے قریب اتارا تو ہادی نے خولانیوں کا ایک لشکر نکالا جو دو بار لڑے، اور انہوں نے ہمدانی مردوں سے ان کی مدد کی؛ ان کے دو آدمی زخمی ہوئے، پھر وہ رات کو روانہ ہوئے، مطرہ میں دو دن رہے، پھر مدر پہنچ کر ساتھ والے خولان، ہمدان اور نجران کے لوگوں کو رخصت دی، اور جب آل طریف ان کے قریب اترے اور آل یعفر اپنی جگہ پر رکے رہے تو وہ اتوہ چلے گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0903-05"
+    hijri: "0290-06"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "جمادى الآخرة سنة 290هـ بنص الكتاب ثم بما يلي من ترتيب الخبر، والسنة مستنتجة؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  role: "ابن خلف، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/khawlan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/madar-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/atwa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص246-247 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-29
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 246-247

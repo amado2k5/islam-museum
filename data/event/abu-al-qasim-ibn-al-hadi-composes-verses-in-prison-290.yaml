@@ -1,0 +1,69 @@
+id: event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290
+class: event
+kind: other
+label:
+  ar: "أشعار أبي القاسم ابن الهادي في حبسه ببيت بوس، 290هـ"
+  en: "The verses ascribed to Abu al-Qasim, al-Hadi's son, in his imprisonment at Bayt Bus, 290 AH"
+  ur: "بیت بوس میں قید کے دوران ہادی کے بیٹے ابو القاسم سے منسوب اشعار، 290ھ"
+summary:
+  ar: "يورد الكتاب تحت عنوان «خبر أشعار أبي القاسم ابن الهادي» عدة مقطوعات ينسبها إليه في حبسه، تتناول احتقاره ثقل الحديد وعتابه همدان لتركهم الوفاء وذكره خولان، وخطابه لأحد من آل طريف وردّه عليهم، وتفاخره بنسبه وقصده الحق، وخطاباً لأبي الغشام يذكر فيه ضيق شبام، وتبدأ مقطوعة أخرى في آخر ص255 وتتمتها في ص256 لم تُقرأ في هذه الدفعة."
+  en: "Under the heading \"report of the verses of Abu al-Qasim, al-Hadi's son\" the book gives several pieces it ascribes to him in prison: his scorn for the weight of the irons, his reproach of Hamdan for not keeping faith and his mention of Khawlan, an address to a man of Al Tarif and his reply to them, his pride in his descent and his seeking the right, and an address to Abu al-Ghasham mentioning the strait of Shibam; another piece begins at the foot of p. 255 and continues on p. 256, which is not read in this batch."
+  ur: "«ابو القاسم بن الہادی کے اشعار کا بیان» کے عنوان تلے کتاب کئی ٹکڑے دیتی ہے جو وہ ان سے قید میں منسوب کرتی ہے: بیڑیوں کے وزن کی حقارت، ہمدان کو وفا نہ کرنے پر عتاب اور خولان کا ذکر، آل طریف کے ایک شخص سے خطاب اور ان کا جواب، اپنے نسب پر فخر اور حق کی طلب، اور ابو الغشام سے خطاب جس میں شبام کی تنگی کا ذکر ہے؛ ایک اور ٹکڑا ص255 کے آخر میں شروع ہوتا ہے اور ص256 میں جاری ہے جو اس دفعہ نہیں پڑھا گیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0903"
+    hijri: "0290"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 290هـ مستنتجة من ترتيب الخبر؛ الكتاب لا يذكر يوماً ولا شهراً لهذا الخبر؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: "أبو القاسم ابن الهادي، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/khawlan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-ghasham-ibn-tarif
+  role: "أبو الغشام كما سماه الكتاب، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص253-255 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-29
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 253-255
