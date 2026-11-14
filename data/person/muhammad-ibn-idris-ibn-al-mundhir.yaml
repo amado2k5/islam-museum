@@ -1,22 +1,26 @@
 id: person/muhammad-ibn-idris-ibn-al-mundhir
 class: person
 label: { ar: "محمد بن إدريس بن المنذر أبو حاتم الحنظلي", en: "Abu Hatim al-Handhali al-Razi" }
-roles: [scholar]
+roles: [muhaddith, scholar]
 gender: male
 summary:
-  ar: "أبو حاتم الحنظلي الرازي، كان أحد الأئمة الحفاظ والأثبات العارفين بعلل الحديث والجرح والتعديل، سمع جماعة من أهل العلم وروى عنه خلق كثير {cite:muntazam-ibn-al-jawzi p. 171}."
-  en: "Abu Hatim al-Handhali of Rayy, counted among the imam-huffaz who knew hadith-defects and the science of jarh wa-ta'dil; many transmitted from him {cite:muntazam-ibn-al-jawzi p. 171}."
+  ar: "محمد بن إدريس بن المنذر بن داود بن مهران الحنظلي، أبو حاتم الرازي ⁦(195 - 277 هـ / 810 - 890 م)⁩: حافظ للحديث من أقران البخاري ومسلم، ولد في الري وتنقل في العراق والشام ومصر وبلاد الروم وتوفي ببغداد، وله «طبقات التابعين» و«الزينة» و«أعلام النبوة» {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 27}؛ وعدّه ابن الجوزي من الأئمة الحفاظ العارفين بعلل الحديث والجرح والتعديل {cite:muntazam-ibn-al-jawzi p. 171}."
+  en: "Muhammad ibn Idris ibn al-Mundhir ibn Dawud ibn Mihran al-Handhali, Abu Hatim al-Razi (195-277 AH / 810-890): a hadith memorizer, contemporary of al-Bukhari and Muslim, born in Rayy, travelled in Iraq, Syria, Egypt and Rum and died in Baghdad; author of Tabaqat al-Tabi'in, al-Zina and A'lam al-Nubuwwa {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 27}. Ibn al-Jawzi counts him among the imam-huffaz who knew hadith-defects and jarh wa-ta'dil {cite:muntazam-ibn-al-jawzi p. 171}."
 wings: [people]
 periods: [period/abbasid-early]
 regions: [persia-central-asia]
+sources: [source/muntazam-ibn-al-jawzi, source/alam-zirikli-dar-al-ilm-2002]
+born: { edtf: "810", hijri: "0195", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 6 p. 27, prints 195 AH = 810 CE, agreeing with the card (earlier note: al-Dhahabi, Siyar)", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "890", hijri: "0277", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 6 p. 27, prints 277 AH = 890 CE, agreeing with the card (earlier note: al-Dhahabi, Siyar)", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+relations:
+  - { type: born_in, target: place/rayy, note: "al-Zirikli, al-A'lam, vol. 6 p. 27: he was born in Rayy, to which his nisba points", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 6 p. 27: he died in Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
 provenance:
   layer: own-research
-  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
-  run: lib-muntazam-258-349-batch34
-sources: [source/muntazam-ibn-al-jawzi]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
-born: { edtf: "810", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
-died: { edtf: "890", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
-relations:
-  - { type: lived_in, target: place/rayy, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muntazam-ibn-al-jawzi] }
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
+status:
+  review: draft
+  completeness: 3

@@ -1,18 +1,27 @@
 id: person/muawiya-al-ashari-abu-ubaydallah
 class: person
-label: { ar: "أبو عبيد الله معاوية الأشعري" }
-died: { edtf: "0786~", hijri: "0170~", calendar: julian, precision: year, status: debated, derived: true, note: "قيل مات في الوقت الذي مات فيه موسى الهادي (سنة 170هـ) وكانت وفاته ببغداد ودفن في مقابر قريش {cite:wafayat-ayan}." }
-summary:
-  ar: "أبو عبيد الله معاوية الأشعري؛ توفي ببغداد وقيل مات في الوقت الذي مات فيه الخليفة موسى الهادي، ودفن في مقابر قريش {cite:wafayat-ayan}."
+label:
+  ar: "أبو عبيد الله معاوية الأشعري"
+  en: "Mu'awiya ibn Ubaydallah al-Ash'ari"
+roles: [vizier]
 gender: male
+summary:
+  ar: "معاوية بن عبيد الله بن يسار الأشعري بالولاء، أبو عبيد الله، أصله من طبرية، كاتب المهدي العباسي ووزيره، وأول من صنف كتابا في الخراج، عزله المهدي ومات ببغداد سنة 170 هـ الموافقة 786 م ودفن في مقبرة قريش."
+  en: "Mu'awiya ibn Ubaydallah ibn Yasar, al-Ash'ari by clientage, Abu Ubaydallah, of Tiberias; secretary and vizier of the Abbasid al-Mahdi and, per al-Zirikli, the first to write a book on the land tax; dismissed by al-Mahdi, he died in Baghdad in 170 AH (786) and was buried in the Quraysh cemetery."
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "0718", hijri: "0100", calendar: gregorian, precision: year, derived: false, status: historical, note: "al-Zirikli, al-A'lam, vol. 7 p. 262: 100 AH = 718 CE as printed.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "0786", hijri: "0170", calendar: gregorian, precision: year, derived: false, status: historical, note: "al-Zirikli, al-A'lam, vol. 7 p. 262: 170 AH = 786 CE as printed; agrees with the earlier Wafayat al-A'yan report that he died when al-Hadi died in 170 AH.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafayat-ayan] }
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/wafayat-ayan, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wafayat al-A'yan; al-Zirikli, al-A'lam, vol. 7 p. 262: buried in the Quraysh cemetery in Baghdad." }
+  - { type: buried_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, al-A'lam, vol. 7 p. 262: the Quraysh cemetery in Baghdad." }
+sources: [source/wafayat-ayan, source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء السابع (الواو والياء)، طبعة إحسان عباس، النص المقروء آلياً من archive.org"
-  generated_by: "Devin (SWE-2 High) from djvu OCR text"
-  run: lib-wafayat-batch-8
-relations:
-  - { type: died_in, target: place/baghdad, sources: [source/wafayat-ayan], confidence: low, note: "died: { edtf: '0786~', hijri: '0170~', calendar: julian, precision: year, status: debated, derived: true, note" }
-sources: [source/wafayat-ayan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
+status:
+  review: draft
+  completeness: 3

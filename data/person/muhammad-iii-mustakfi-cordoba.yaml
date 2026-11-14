@@ -6,26 +6,26 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد الثالث المستكفي بالله، الخليفة الأموي في قرطبة ١٠٢٤–١٠٢٥م في فتنة الأندلس وقد عُرف برغبته في حياة البساطة؛ تذكره مصادر تاريخ الأندلس ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad III al-Mustakfi bi-llah, Umayyad caliph of Cordoba 1024–1025 in the Andalusi fitna, remembered for preferring a simple life; the source entry is not yet checked on the page."
+  ar: "محمد بن عبد الرحمن بن عبيد الله بن الناصر الأموي، أبو عبد الرحمن، المستكفي بالله ⁦(366 - 416 هـ / 976 - 1025 م)⁩: صاحب قرطبة من ملوك الأمويين بالأندلس، ثار بطائفة من الغوغاء على المستظهر بالله فقتلوه وتولى الأمر بعده سنة 414 هـ وأقام سبعة عشر شهراً ثم خلعه أهل قرطبة وتوفي مقتولاً أو مسموماً. {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 190–191}"
+  en: "Muhammad ibn Abd al-Rahman ibn Ubaydallah ibn al-Nasir al-Umawi, Abu Abd al-Rahman, al-Mustakfi bi-llah (366-416 AH / 976-1025): lord of Cordoba among the Umayyad rulers of al-Andalus, who rose with a band of rabble against al-Mustazhir bi-llah, whom they killed, and took power in 414 AH; he lasted seventeen months before the people of Cordoba deposed him, and he died killed or poisoned. {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 190–191}"
 wings: [people]
 regions: [andalus-europe]
 periods: [period/abbasid-fragmentation]
-born: { edtf: "976", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hazm (Jamharat Ansab al-Arab) Confirmed on 13 November 2026 against Wikidata Q919001 (P569, a statement with a reference), item revision 2553830564.", sources: [source/wikidata] }
-died: { edtf: "1025", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hazm (Jamharat Ansab al-Arab) Confirmed on 13 November 2026 against Wikidata Q919001 (P570, a statement with a reference), item revision 2553830564.", sources: [source/wikidata] }
+born: { edtf: "976", hijri: "0366", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hazm (Jamharat Ansab al-Arab) Confirmed on 13 November 2026 against Wikidata Q919001 (P569, a statement with a reference), item revision 2553830564.", sources: [source/wikidata] }
+died: { edtf: "1025", hijri: "0416", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hazm (Jamharat Ansab al-Arab) Confirmed on 13 November 2026 against Wikidata Q919001 (P570, a statement with a reference), item revision 2553830564.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/cordoba, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5818)" }
-  - { type: died_in, target: place/ucl-s, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q959012)" }
-sources: [source/nafh-tib-maqqari, source/wikidata]
+  - { type: died_in, target: place/ucl-s, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q959012); al-Zirikli, al-A'lam vol. 6 pp. 190-191, names Shamnat near Madinat Salim and, in another report, Aqlish (Ucles)" }
+sources: [source/nafh-tib-maqqari, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q919001
   viaf: "3944166110530386100008"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Maqqari, Nafh al-Tib — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0012
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

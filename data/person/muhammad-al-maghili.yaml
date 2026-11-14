@@ -6,24 +6,24 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن عبد الكريم المغيلي التلمساني، فقيه التوات الذي نصح ملوك سوكوتو والسونغاي في القرن السادس عشر، توفي سنة ١٥٠٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Abd al-Karim al-Maghili al-Tilimsani, the Tuwat jurist who advised the kings of Sokoto and Songhai in the sixteenth century, d. 1504; the biographical entry is not yet checked on the page."
+  ar: "محمد بن عبد الكريم بن محمد المغيلي التلمساني، مفسر فقيه مالكي من أهل تلمسان، اشتهر في توات بمناوأته لليهود، ورحل إلى السودان وبلاد التكرور لنشر أحكام الشرع، وله البدر المنير وتاج الدين فيما يجب على الملوك وأحكام أهل الذمة وشرح مختصر خليل؛ توفي في توات."
+  en: "Muhammad ibn Abd al-Karim ibn Muhammad al-Maghili al-Tilimsani, an exegete and Maliki jurist of Tlemcen, known in Tuwat for his opposition to the Jews; he travelled to the Sudan and Takrur to spread the rulings of the shari'a and wrote al-Badr al-munir, a treatise on the duties of kings, a work on the dhimma and a commentary on Khalil's Mukhtasar; he died in Tuwat."
 wings: [people]
 regions: [maghreb, west-africa-sahel]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
 external_ids:
   wikidata: Q4118605
   viaf: "226394274"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0030
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1505", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+  completeness: 3
+died: { edtf: "1505", calendar: gregorian, precision: year, derived: true, note: "Card date kept (date-enrichment pass; source: EI2). al-Zirikli, al-A'lam, vol. 6 p. 216, prints 909 AH = 1503 CE, two years earlier; see the GEMINI line in the packet manifest.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/tlemcen, confidence: low, note: "Association inferred from the nisba 'التلمساني'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
+  - { type: lived_in, target: place/tlemcen, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 6 p. 216: of the people of Tlemcen; the nisba al-Tilimsani.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
