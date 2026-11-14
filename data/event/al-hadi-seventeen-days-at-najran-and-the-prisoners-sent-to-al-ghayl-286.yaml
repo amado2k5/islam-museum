@@ -1,0 +1,81 @@
+id: event/al-hadi-seventeen-days-at-najran-and-the-prisoners-sent-to-al-ghayl-286
+class: event
+kind: other
+label:
+  ar: سبعة عشر يوماً للهادي في نجران وإخراج المحدثين وحبسهم في الغيل قرب صعدة، جمادى الآخرة–رجب 286هـ
+  en: Al-Hadi's seventeen days at Najran, the expulsion of the troublemakers and their jailing at al-Ghayl near Sa'da, Jumada II to Rajab 286 AH
+  ur: نجران میں ہادی کے سترہ دن، فساد برپا کرنے والوں کا اخراج اور صعدہ کے قریب الغیل میں ان کی قید، جمادی الآخرہ سے رجب 286ھ
+summary:
+  ar: أقام الهادي في نجران سبعة عشر يوماً، وأخرج المحدثين الذين كان منهم الفساد، وسمّى الكتاب منهم من يأم ابن أبي الجراح وبشر بن بكار وأبا محجن وخباب بن المحتمل، ومن الخشيميين مرزوق بن محمد ونخيل بن مهاجر وأبا الوجيه بن موسى، فأوثقهم في القيود وحملهم في المحامل إلى صعدة وحبسهم في قرية الغيل القريبة منها لا في صعدة، لأن رجلاً من الدهميين فرّ من حبس صعدة بمعونة نفر من الأكيليين.
+  en: Al-Hadi stayed seventeen days at Najran and put out the troublemakers; the book names, from Yam, Ibn Abi al-Jarrah, Bishr ibn Bakkar, Abu Mihjan and Khabbab ibn al-Muhtamil, and from the Khushaymis Marzuq ibn Muhammad, Nukhayl ibn Muhajir and Abu al-Wajih ibn Musa; he had them put in irons, carried in litters to Sa'da and jailed at the nearby village of al-Ghayl rather than in Sa'da, because a man of the Duhmis had escaped the Sa'da jail with the help of some of al-Akilis.
+  ur: ہادی نجران میں سترہ دن رہے اور فساد برپا کرنے والوں کو نکال دیا؛ کتاب یام میں سے ابن ابی الجراح، بشر بن بکار، ابو محجن اور خباب بن المحتمل کے نام دیتی ہے اور خشیمیوں میں سے مرزوق بن محمد، نخیل بن مہاجر اور ابو الوجیہ بن موسیٰ؛ انہوں نے انہیں بیڑیوں میں جکڑوایا، ہودجوں میں صعدہ لے جایا گیا اور صعدہ کی جگہ اس کے قریب بستی الغیل میں قید کیا گیا، کیونکہ دہمیوں کا ایک آدمی اکیلیوں کے کچھ لوگوں کی مدد سے صعدہ کی قید سے نکل بھاگا تھا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-06
+    hijri: 0286-06
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: جمادى الآخرة سنة 286هـ؛ الشهر فقط؛ يبدأ نحو 14 حزيران 899م جولياني بالتقويم الجدولي؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: occurred_at
+  target: place/al-ghayl-saada
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/husayn-ibn-hubaysh-al-duhmi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/marzuq-ibn-muhammad-al-khushaymi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/nukhayl-ibn-muhajir-al-khushaymi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-wajih-ibn-musa-al-khushaymi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/al-khushaymiyyun
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/al-hadi-leaves-saada-for-khiwan-and-the-dry-journey-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص132-133 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-17
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 132-133
