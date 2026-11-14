@@ -1,0 +1,18 @@
+id: concept/canon-wine-and-the-humours
+class: concept
+kind: scientific
+label: { ar: "أثر الشراب في الأخلاط والدماغ عند ابن سينا", en: "What wine does to the humours and the brain in the Canon", ur: "اخلاط اور دماغ پر شراب کا اثر قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن الشراب ينفع الممرورين بإدرار المرة والمرطوبين بإنضاج الرطوبة، وكلما زادت عطريته وطيبه فهو أوفق، وهو منفذ في البدن يقطع البلغم ويخرج الصفراء في البول ويزلق السوداء، وأن قوي الدماغ لا يسكر بسرعة ويصفو ذهنه {cite:canon-ibn-sina-print-v1 p.237}."
+  en: "Ibn Sina says wine benefits the bilious by bringing out bile and the phlegmatic by ripening moisture, the more so the more fragrant and pleasant it is, and that it carries through the body, cuts phlegm, brings out yellow bile in the urine and makes black bile slip away, while one of strong brain does not quickly grow drunk and his mind clears {cite:canon-ibn-sina-print-v1 p.237}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 2 on the common regimen of adults, chapters 8 to 13 on water and drink, sleep, strengthening weak organs and fatigue (scan pages 236 to 244), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p236
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

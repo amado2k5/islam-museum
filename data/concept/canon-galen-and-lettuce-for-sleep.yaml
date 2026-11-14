@@ -1,0 +1,18 @@
+id: concept/canon-galen-and-lettuce-for-sleep
+class: concept
+kind: scientific
+label: { ar: "جالينوس والخس للنوم عند ابن سينا", en: "Galen and lettuce for sleep in the Canon", ur: "جالینوس اور نیند کے لیے کاہو قانون میں" }
+summary:
+  ar: "ينقل ابن سينا عن جالينوس أنه كان يتناول كل ليلة بقيلة خس مطيبة، الخس لينومه والتطييب ليتدارك به تبريده، لأنه شيخ ينفعه ترطيب النوم، ويعد ذلك أنعم تدبير لمن يعصيه النوم، ويضيف إليه الحمام بعد الهضم وصب الماء الحار على الرأس {cite:canon-ibn-sina-print-v1 p.241}."
+  en: "Ibn Sina reports of Galen that he took every night a seasoned dish of lettuce, the lettuce for sleep and the seasoning to make good its cooling, since as an old man he profited from the moistening of sleep; he calls this the gentlest regimen for one whom sleep eludes, adding a bath after digestion and hot water poured over the head {cite:canon-ibn-sina-print-v1 p.241}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 2 on the common regimen of adults, chapters 8 to 13 on water and drink, sleep, strengthening weak organs and fatigue (scan pages 236 to 244), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p236
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,18 @@
+id: concept/canon-wine-by-age-and-climate
+class: concept
+kind: scientific
+label: { ar: "الشراب بحسب السن والبلد عند ابن سينا", en: "Wine by age and climate in the Canon", ur: "عمر اور ملک کے لحاظ سے شراب قانون میں" }
+summary:
+  ar: "يرى ابن سينا أن شرب الصبيان الشراب كزيادة نار على نار في حطب ضعيف، وأن الشيخ يحتمل منه ما يحتمل، وأن الأولى للشبان العتيق ممزوجاً بماء الرمان أو بالماء البارد، وأن البلد البارد يحتمل الشرب والحار لا يحتمله {cite:canon-ibn-sina-print-v1 p.238}."
+  en: "Ibn Sina compares boys' drinking of wine to adding fire to fire in weak wood, says the old man bears what he bears, advises the young to take old wine mixed with pomegranate juice or cold water, and says a cold country tolerates drinking while a hot one does not {cite:canon-ibn-sina-print-v1 p.238}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 2 on the common regimen of adults, chapters 8 to 13 on water and drink, sleep, strengthening weak organs and fatigue (scan pages 236 to 244), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p236
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
