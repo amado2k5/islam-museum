@@ -1,0 +1,18 @@
+id: concept/canon-movement-season-and-the-aims-of-vomiting
+class: concept
+kind: scientific
+label: { ar: "الحركة والفصل ومقاصد القيء عند ابن سينا", en: "Movement, season and the aims of vomiting in the Canon", ur: "قانون میں حرکت، موسم اور قے کے مقاصد" }
+summary:
+  ar: "يقرر ابن سينا أن الحركة تكثّر القيء والسكون يقلّله، وأن الصيف أولى زمان به لمن لا يواتيه القيء، وأن القيء إذا كان تنقية أولى فهو من المعدة وحدها، وإذا كان تنقية ثانية فمن الرأس وسائر البدن، أما الجذب والقلع فمن الأسافل {cite:canon-ibn-sina-print-v1 p.286}."
+  en: "Ibn Sina states that movement increases vomiting and rest lessens it, that summer is the best season for those who do not vomit easily, and that vomiting as a first cleansing comes from the stomach alone, as a second cleansing from the head and body, while drawing and uprooting come from below {cite:canon-ibn-sina-print-v1 p.286}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 10 to 19, on vomiting, the enema, paints and douches (scan pages 285 to 289), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch10-19
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
