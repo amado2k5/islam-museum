@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3916
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3916"
+label: { ar: "سنن أبي داود 3916 — العدوى", en: "Sunan Abi Dawud 3916 — contagion", ur: "سنن ابی داؤد 3916 — چھوت" }
+text: "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا هِشَامٌ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ قَالَ \" لاَ عَدْوَى وَلاَ طِيَرَةَ وَيُعْجِبُنِي الْفَأْلُ الصَّالِحُ وَالْفَأْلُ الصَّالِحُ الْكَلِمَةُ الْحَسَنَةُ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3916، يذكر العدوى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 3916 (Divination and Omens (Kitab Al-Kahanah Wa Al-Tatayyur)), that mentions contagion. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3916، جس میں چھوت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3916 (book 30 hadith 13); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

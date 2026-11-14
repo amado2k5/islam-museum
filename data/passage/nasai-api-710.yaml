@@ -1,0 +1,17 @@
+id: passage/nasai-api-710
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "710"
+label: { ar: "سنن النسائي 710 — عيادة المريض، أعضاء البدن", en: "Sunan al-Nasa'i 710 — visiting the sick; the organs of the body", ur: "سنن نسائی 710 — بیمار کی عیادت، اعضائے بدن" }
+text: "أَخْبَرَنَا عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، قَالَ حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ أُصِيبَ سَعْدٌ يَوْمَ الْخَنْدَقِ رَمَاهُ رَجُلٌ مِنْ قُرَيْشٍ رَمْيَةً فِي الأَكْحَلِ فَضَرَبَ عَلَيْهِ رَسُولُ اللَّهِ خَيْمَةً فِي الْمَسْجِدِ لِيَعُودَهُ مِنْ قَرِيبٍ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 710، يذكر عيادة المريض، وأعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 710 (The Book of the Masjids), that mentions visiting the sick, the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 710، جس میں بیمار کی عیادت، اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/anatomy, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 710 (book 8 hadith 23); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

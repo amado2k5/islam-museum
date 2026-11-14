@@ -15,6 +15,7 @@ died: { edtf: "1634", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/qus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+tags: [tibb-browser, tibb-tibb]
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q105338234

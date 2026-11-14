@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-86
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "86"
+label: { ar: "سنن ابن ماجه 86 — العدوى، أسماء الأمراض", en: "Sunan Ibn Majah 86 — contagion; named diseases", ur: "سنن ابن ماجہ 86 — چھوت، بیماریوں کے نام" }
+text: "… بْنُ مُحَمَّدٍ، قَالاَ حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا يَحْيَى بْنُ أَبِي حَيَّةَ أَبُو جَنَابٍ الْكَلْبِيُّ، عَنْ أَبِيهِ، عَنِ ابْنِ عُمَرَ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" لاَ عَدْوَى وَلاَ طِيَرَةَ وَلاَ هَامَةَ \". فَقَامَ إِلَيْهِ رَجُلٌ أَعْرَابِيٌّ فَقَالَ يَا رَسُولَ اللَّهِ أَرَأَيْتَ الْبَعِيرَ يَكُونُ بِهِ الْجَرَبُ فَيُجْرِبُ الإِبِلَ كُلَّهَا قَالَ \" ذَلِكُمُ الْقَدَرُ فَمَنْ أَجْرَبَ الأَوَّلَ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 86، يذكر العدوى، وأسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 86 (The Book of the Sunnah), that mentions contagion, named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 86، جس میں چھوت، بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 86 (book 0 hadith 86); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

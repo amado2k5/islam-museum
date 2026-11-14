@@ -1,0 +1,18 @@
+id: passage/zad-maad-tibb-1-694
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:694"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 694 — المرض والمريض، الدواء", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 694 — illness and the sick; the drug", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 694 — بیماری اور بیمار، دوا" }
+text: "… يعشق امرأة غيره، أو يعشق المردان والبغايا، ينال بعشقه درجة الشهداء، وهل هذا إلَّا خلافُ المعلوم من دينه بالضرورة؟ كيف والعشقُ مرض مِن الأمراض التي جعل اللَّه سبحانه لها الأدوية شرعاً وقدراً، والتداوي منه إما واجب إن كان عشقاً حراماً، …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 694، يذكر المرض والمريض، والدواء، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 694, that mentions illness and the sick, the drug, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 694 کا اقتباس جس میں بیماری اور بیمار، دوا، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/tadawi, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 694; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

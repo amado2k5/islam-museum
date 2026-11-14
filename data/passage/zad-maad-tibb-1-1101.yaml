@@ -1,0 +1,17 @@
+id: passage/zad-maad-tibb-1-1101
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:1101"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 1101 — البيمارستان وصناعة الطب، العلاج", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 1101 — the hospital and the medical craft; treatment", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 1101 — بیمارستان، علاج" }
+text: "… فصل : في هديه في علاج الفَزعِ، والأَرَقِ المانِع من النوم فصل : في هديه كل لير في علاج داء الحريق وإطفائه أثر التكبير في إخماد النار مادة الشيطان.. فصل : في هديه في حفظ الصحة قوام البدن على الحرارة …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 1101، يذكر البيمارستان وصناعة الطب، والعلاج، والصحة، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 1101, that mentions the hospital and the medical craft, treatment, health, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 1101 کا اقتباس جس میں بیمارستان، علاج، صحت، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 1101; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

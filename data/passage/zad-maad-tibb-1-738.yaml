@@ -1,0 +1,18 @@
+id: passage/zad-maad-tibb-1-738
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:738"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 738 — اللدود والسعوط، الوجع", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 738 — medicine given by the mouth-side or the nose; pain", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 738 — لدود اور سعوط، درد" }
+text: "… الحبل، وإذا دُقَّ ورقُه اليابس، وكُمِدَ به، أذهب آثار الدم العارض تحت العين، وإذا ضُمِّد به مع الخل، نفع لسعة العقرب. ودُهنه نافع لوجع الظهر والركبتين، ويذهب بالإعياء، ومن أدمن شمَّه لم ينزِل في عينيه الماء، وإذا استُعِط بمائه مع …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 738، يذكر اللدود والسعوط، والوجع، والجراحة والختان والجبائر؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 738, that mentions medicine given by the mouth-side or the nose, pain, surgery, circumcision and splints; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 738 کا اقتباس جس میں لدود اور سعوط، درد، جراحت، ختنہ اور پٹیاں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 738; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

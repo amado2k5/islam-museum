@@ -1,0 +1,16 @@
+id: passage/nasai-api-2054
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2054"
+label: { ar: "سنن النسائي 2054 — الطاعون والوباء", en: "Sunan al-Nasa'i 2054 — plague and epidemic", ur: "سنن نسائی 2054 — طاعون اور وبا" }
+text: "أَخْبَرَنَا عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا يَحْيَى، عَنِ التَّيْمِيِّ، عَنْ أَبِي عُثْمَانَ، عَنْ عَامِرِ بْنِ مَالِكٍ، عَنْ صَفْوَانَ بْنِ أُمَيَّةَ، قَالَ الطَّاعُونُ وَالْمَبْطُونُ وَالْغَرِيقُ وَالنُّفَسَاءُ شَهَادَةٌ. قَالَ وَحَدَّثَنَا أَبُو عُثْمَانَ مِرَارًا وَرَفَعَهُ مَرَّةً إِلَى النَّبِيِّ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2054، يذكر الطاعون والوباء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 2054 (The Book of Funerals), that mentions plague and epidemic. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 2054، جس میں طاعون اور وبا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2054 (book 21 hadith 237); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

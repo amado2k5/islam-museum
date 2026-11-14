@@ -1,0 +1,17 @@
+id: passage/zad-maad-tibb-1-714
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:714"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 714 — السقم، الصحة", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 714 — sickness; health", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 714 — سقم، صحت" }
+text: "… الطِلَّسْم فَاذَ بِكَنْزِهِ أكثر اسقام البدن والقلب من عدم الصبر وأكثرُ أسقام البدن والقلب، إنما تنشأ عن عدم الصبر، فما حُفِظَت صِحَةُ القلوب والأبدان والأرواح بمثل الصبر، فهو الفاروق الأكبر، والتِّرياق الأعظم، ولو لم يكن فيه إلا معيةُ اللهِ مع …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 714، يذكر السقم، والصحة، والسم والترياق؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 714, that mentions sickness, health, poison and antidote; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 714 کا اقتباس جس میں سقم، صحت، زہر اور تریاق کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 714; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

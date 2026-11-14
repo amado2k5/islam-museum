@@ -1,0 +1,24 @@
+id: concept/al-tiryaq
+class: concept
+kind: scientific
+label: { ar: "الترياق والسموم", en: "Theriac and poisons (al-tiryaq wal-sumum)", ur: "تریاق اور زہر" }
+summary:
+  ar: "يخصّص ابن سينا الفن السادس من الكتاب الرابع في «القانون» للسموم، ويقسمها إلى ما يفعل بكيفية فيه وما يفعل بصورته وجملة جوهره، ويذكر علامات الاستدلال عليها وقانون علاج من سُقي سمّاً {cite:canon-ibn-sina-print-v3 pp.281-283}. ويفتتح الكتاب الخامس مقالة الترياقات بالترياق الفاروق، ويصفه بأنه أجلّ الأدوية المركبة وأفضلها، وأن نسخته الأصلية لأندروماخس {cite:canon-ibn-sina-print-v3 p.399}. وفي الأحاديث التي رواها البخاري ومسلم خبر الشاة المسمومة التي أُهديت للنبي حين فُتحت خيبر، وحديث «من تصبح كل يوم سبع تمرات عجوة» {cite:sahih-al-bukhari 3169} {cite:sahih-al-bukhari 5445}."
+  en: "Ibn Sina gives the sixth fann of Book IV of the Canon to poisons, dividing them into those that act by a quality in them and those that act by their form and whole substance, and he sets out signs for recognising them and a rule for treating one who has been given poison {cite:canon-ibn-sina-print-v3 pp.281-283}. Book V opens its treatise on theriacs with the Faruq theriac, which he calls the most majestic and best of compound drugs, its original formula being Andromachus's {cite:canon-ibn-sina-print-v3 p.399}. The hadith collections of al-Bukhari and Muslim report the poisoned sheep given to the Prophet when Khaybar was conquered, and a report that begins 'whoever eats seven ajwa dates each morning' {cite:sahih-al-bukhari 3169} {cite:sahih-al-bukhari 5445}."
+  ur: "ابن سینا «قانون» کی چوتھی کتاب کا چھٹا فن زہروں کے لیے رکھتے ہیں، انہیں ان میں بانٹتے ہیں جو اپنی کسی کیفیت سے اثر کرتے ہیں اور ان میں جو اپنی صورت اور پورے جوہر سے اثر کرتے ہیں، اور پہچان کی علامتیں اور زہر پلائے ہوئے شخص کے علاج کا قاعدہ بیان کرتے ہیں {cite:canon-ibn-sina-print-v3 pp.281-283}۔ پانچویں کتاب تریاقوں کا مقالہ ترياق فاروق سے شروع کرتی ہے، جسے وہ مرکب ادویہ میں سب سے جلیل اور بہترین کہتے ہیں اور جس کا اصل نسخہ اندروماخس کا ہے {cite:canon-ibn-sina-print-v3 p.399}۔ بخاری اور مسلم کی احادیث میں فتحِ خیبر کے موقع پر نبی کو ہدیہ کی گئی زہریلی بکری کی خبر اور وہ روایت آتی ہے جو «جو شخص ہر صبح سات عجوہ کھجوریں کھائے» سے شروع ہوتی ہے {cite:sahih-al-bukhari 3169} {cite:sahih-al-bukhari 5445}۔"
+wings: [ideas]
+themes: [health-body-death]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v3, source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: related_to, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v3] }
+  - { type: related_to, target: concept/tiryaq-antidote, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: related_to, target: event/battle-of-khaybar, sources: [source/sahih-al-bukhari] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book II (scan page 315), vol. 3, Book IV, Fann 6 (scan pages 281 to 283) and Book V, treatise 1 on theriacs (scan page 399); Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read from the OCR on the harvest drive; Sahih al-Bukhari 5445, 3169, 4249 and 2617 and Sahih Muslim 5705 read in the hadith-api Arabic edition"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-2
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

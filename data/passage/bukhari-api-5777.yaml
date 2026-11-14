@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5777
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5777"
+label: { ar: "صحيح البخاري 5777 — السم", en: "Sahih al-Bukhari 5777 — poison", ur: "صحیح بخاری 5777 — زہر" }
+text: "… بْنِ أَبِي سَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّهُ قَالَ لَمَّا فُتِحَتْ خَيْبَرُ أُهْدِيَتْ لِرَسُولِ اللَّهِ شَاةٌ فِيهَا سَمٌّ، فَقَالَ رَسُولُ اللَّهِ \" اجْمَعُوا لِي مَنْ كَانَ هَا هُنَا مِنَ الْيَهُودِ \". فَجُمِعُوا لَهُ فَقَالَ لَهُمْ رَسُولُ اللَّهِ \" إِنِّي سَائِلُكُمْ عَنْ شَىْءٍ فَهَلْ أَنْتُمْ صَادِقِيَّ عَنْهُ \". فَقَالُوا نَعَمْ يَا أَبَا الْقَاسِمِ. فَقَالَ لَهُمْ رَسُولُ اللَّهِ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5777، يذكر السم. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5777 (Medicine), that mentions poison. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5777، جس میں زہر کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5777 (book 76 hadith 89); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

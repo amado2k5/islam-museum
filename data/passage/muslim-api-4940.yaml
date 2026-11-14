@@ -1,0 +1,16 @@
+id: passage/muslim-api-4940
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4940"
+label: { ar: "صحيح مسلم 4940 — الطاعون والوباء", en: "Sahih Muslim 4940 — plague and epidemic", ur: "صحیح مسلم 4940 — طاعون اور وبا" }
+text: "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ سُمَىٍّ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" بَيْنَمَا رَجُلٌ يَمْشِي بِطَرِيقٍ وَجَدَ غُصْنَ شَوْكٍ عَلَى الطَّرِيقِ فَأَخَّرَهُ فَشَكَرَ اللَّهُ لَهُ فَغَفَرَ لَهُ \". وَقَالَ \" الشُّهَدَاءُ خَمْسَةٌ الْمَطْعُونُ وَالْمَبْطُونُ وَالْغَرِقُ وَصَاحِبُ الْهَدْمِ وَالشَّهِيدُ فِي سَبِيلِ اللَّهِ عَزَّ وَجَلَّ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4940، يذكر الطاعون والوباء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 4940 (The Book on Government), that mentions plague and epidemic. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 4940، جس میں طاعون اور وبا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4940 (book 33 hadith 235); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

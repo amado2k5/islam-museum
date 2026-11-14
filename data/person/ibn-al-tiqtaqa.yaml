@@ -16,6 +16,7 @@ regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
 external_ids:
   wikidata: Q1959585
+  biblissima: "Q12210"
 relations:
   - { type: born_in, target: place/mosul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/mosul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
@@ -28,7 +29,7 @@ relations:
   - { type: participated_in, target: event/ibn-al-tiqtaqa-travels, role: "الرحّالة النقيب", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/ibn-al-tiqtaqa-fakhri-mosul-701, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/death-ibn-al-tiqtaqa-709, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/al-aalam] }
-sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/al-aalam]
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/al-aalam, source/biblissima]
 provenance:
   layer: own-research
   source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn al-Tiktaka (F. Rosenthal), printed p. 988, citing Ibn Inaba, 'Umdat al-Talib p. 180 f.; al-Dhahabi, Tarikh al-Islam source list (601-610 AH volume) printed p. 738; al-Zirikli, al-A'lam j.3 p. 149 (harvest OCR scans). Earlier: Wikidata import card."

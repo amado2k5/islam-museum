@@ -1,0 +1,17 @@
+id: passage/bukhari-api-4639
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4639"
+label: { ar: "صحيح البخاري 4639 — الكمأة، الشفاء", en: "Sahih al-Bukhari 4639 — truffles and their water for the eye; healing", ur: "صحیح بخاری 4639 — کھمبی، شفا" }
+text: "حَدَّثَنَا مُسْلِمٌ، حَدَّثَنَا شُعْبَةُ، عَنْ عَبْدِ الْمَلِكِ، عَنْ عَمْرِو بْنِ حُرَيْثٍ، عَنْ سَعِيدِ بْنِ زَيْدٍ، عَنِ النَّبِيِّ قَالَ \" الْكَمْأَةُ مِنَ الْمَنِّ وَمَاؤُهَا شِفَاءُ الْعَيْنِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4639، يذكر الكمأة، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 4639 (Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))), that mentions truffles and their water for the eye, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 4639، جس میں کھمبی، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4639 (book 65 hadith 161); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

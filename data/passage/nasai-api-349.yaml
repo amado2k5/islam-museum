@@ -1,0 +1,16 @@
+id: passage/nasai-api-349
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "349"
+label: { ar: "سنن النسائي 349 — أعضاء البدن", en: "Sunan al-Nasa'i 349 — the organs of the body", ur: "سنن نسائی 349 — اعضائے بدن" }
+text: "… ابْنُ سَمَاعَةَ - قَالَ حَدَّثَنَا الأَوْزَاعِيُّ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، قَالَ أَخْبَرَنِي هِشَامُ بْنُ عُرْوَةَ، عَنْ عُرْوَةَ، أَنَّ فَاطِمَةَ بِنْتَ قَيْسٍ، مِنْ بَنِي أَسَدِ قُرَيْشٍ أَنَّهَا أَتَتْ رَسُولَ اللَّهِ فَذَكَرَتْ أَنَّهَا تُسْتَحَاضُ فَزَعَمَتْ أَنَّهُ قَالَ لَهَا \" إِنَّمَا ذَلِكِ عِرْقٌ فَإِذَا أَقْبَلَتِ الْحَيْضَةُ فَدَعِي الصَّلاَةَ وَإِذَا أَدْبَرَتْ فَاغْتَسِلِي وَاغْسِلِي عَنْكِ الدَّمَ ثُمَّ صَلِّي \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 349، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 349 (The Book of Menstruation and Istihadah), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 349، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 349 (book 3 hadith 2); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

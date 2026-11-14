@@ -1,0 +1,16 @@
+id: passage/hawi-razi-tibb-2166
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "2166"
+label: { ar: "الحاوي في الطب للرازي، ص 2166 — المرض والمريض، الوجع", en: "al-Razi's al-Hawi fi al-Tibb, p. 2166 — illness and the sick; pain", ur: "الحاوی فی الطب، رازی، ص 2166 — بیماری اور بیمار، درد" }
+text: "… في هذه الأبدان وتنقص معه الحرارة الغريزية لذلك فهي ردية قتالة، وبعض هذه الحميات تجلب الغشي وعلاجها الاستفراغ، وهذه الحمى يقحل فيها البدن ويقشعر وقتاً بعد وقت وبه صداع ووجع في الأحشاء ويتقيأ مراراً، وإذا هاج به المرض لم يقدر …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 2166، يذكر المرض والمريض، والوجع، والحمى والوعك، والحمى، وأسماء الأمراض، والعلاج؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 2166, that mentions illness and the sick, pain, fever, fever, named diseases, treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 2166 کا اقتباس جس میں بیماری اور بیمار، درد، بخار، بخار، بیماریوں کے نام، علاج کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 2166; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

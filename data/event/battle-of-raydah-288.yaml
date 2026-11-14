@@ -1,0 +1,64 @@
+id: event/battle-of-raydah-288
+class: event
+kind: battle
+label:
+  ar: معركة ريدة سنة 288هـ
+  en: The battle of Raydah, 288 AH
+  ur: معرکۂ ریدہ، 288ھ
+summary:
+  ar: أتى صعصعة بن جعفر الهادي ومعه أهل قدم وغيرهم فحاربوه بريدة، فهزمهم وقتل منهم خلقاً عظيماً، وخرّب قصر ريدة في آخر جمادى الآخرة سنة 288هـ.
+  en: Sa'sa'a ibn Ja'far came to al-Hadi with the people of Qudum and others and fought him at Raydah; al-Hadi routed them, killed a great many, and razed the palace of Raydah at the end of Jumada II 288 AH.
+  ur: صعصعہ بن جعفر قدم کے لوگوں اور دوسروں کے ساتھ ہادی کے پاس آیا اور ریدہ میں ان سے لڑا؛ ہادی نے انہیں شکست دی، بہت سے مارے، اور جمادی الآخرہ 288ھ کے آخر میں ریدہ کا قصر ڈھا دیا۔
+wings:
+- time
+themes:
+- battles
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0901-05~
+    hijri: 0288-06
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: في آخر جمادى الآخرة سنة 288هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي
+    sources: &id001
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/raydah-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  role: قائد المنتصرين
+  sources: *id001
+- type: had_participant
+  target: person/sasaa-ibn-jafar-al-hamdani
+  role: قائد المهزومين
+  sources: *id001
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص17-20 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-2
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 17-20
+sides:
+- label:
+    ar: قوات الهادي
+    en: Al-Hadi's forces
+  commanders:
+  - person/al-hadi-yahya-al-rassi
+- label:
+    ar: قوات صعصعة بن جعفر وأهل قدم
+    en: Sa'sa'a ibn Ja'far and the people of Qudum
+  commanders:
+  - person/sasaa-ibn-jafar-al-hamdani

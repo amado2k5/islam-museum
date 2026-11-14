@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-tibb-2-671
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "2:671"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 2، ص 671 — الجراحة والختان والجبائر، الدواء", en: "Ibn Hajar's al-Isaba, scan volume 2, p. 671 — surgery, circumcision and splints; the drug", ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 671 — جراحت، ختنہ اور پٹیاں، دوا" }
+text: "… شهد بدراً، واتفقوا على أنه استشهد بأحد. وشذّ أبو الشابة قال: فَصْدُ العِرْق، وتَحْسيمُ الطعْنَة إن عبيد فقال: إنّه استشهد ببدر. اضْطُرِرْتَ، وَلاَ تَجْعَلْ فِي دَوَائِكَ شُبرماً، وعَلَيْكَ بالسَّنَا، ولا تداوِ أحَداً حتّى تَعْرِفَ دَاءَهُ. قال: فقبّل وقال حسّان يرثيه …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 2، ص 671، يذكر الجراحة والختان والجبائر، والدواء، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 2, p. 671, that mentions surgery, circumcision and splints, the drug, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 671 کا اقتباس جس میں جراحت، ختنہ اور پٹیاں، دوا، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/isaba] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/20200217_20200217_0509, page 671; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

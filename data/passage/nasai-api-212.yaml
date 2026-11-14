@@ -1,0 +1,16 @@
+id: passage/nasai-api-212
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "212"
+label: { ar: "سنن النسائي 212 — أعضاء البدن", en: "Sunan al-Nasa'i 212 — the organs of the body", ur: "سنن نسائی 212 — اعضائے بدن" }
+text: "… إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ أَخْبَرَنَا عَبْدَةُ، وَوَكِيعٌ، وَأَبُو مُعَاوِيَةَ قَالُوا حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ جَاءَتْ فَاطِمَةُ بِنْتُ أَبِي حُبَيْشٍ إِلَى رَسُولِ اللَّهِ فَقَالَتْ إِنِّي امْرَأَةٌ أُسْتَحَاضُ فَلاَ أَطْهُرُ أَفَأَدَعُ الصَّلاَةَ قَالَ \" لاَ إِنَّمَا ذَلِكِ عِرْقٌ وَلَيْسَ بِالْحَيْضَةِ فَإِذَا أَقْبَلَتِ الْحَيْضَةُ فَدَعِي الصَّلاَةَ وَإِذَا أَدْبَرَتْ فَاغْسِلِي عَنْكِ الدَّمَ وَصَلِّي \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 212، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 212 (The Book of Purification), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 212، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 212 (book 1 hadith 213); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

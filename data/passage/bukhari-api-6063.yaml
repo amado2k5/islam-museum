@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6063
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6063"
+label: { ar: "صحيح البخاري 6063 — الطب والطبيب", en: "Sahih al-Bukhari 6063 — medicine and the physician", ur: "صحیح بخاری 6063 — طب اور طبیب" }
+text: "… فَقَالَ الَّذِي عِنْدَ رِجْلَىَّ لِلَّذِي عِنْدَ رَأْسِي مَا بَالُ الرَّجُلِ قَالَ مَطْبُوبٌ. يَعْنِي مَسْحُورًا. قَالَ وَمَنْ طَبَّهُ قَالَ لَبِيدُ بْنُ أَعْصَمَ. قَالَ وَفِيمَ قَالَ فِي جُفِّ طَلْعَةٍ ذَكَرٍ فِي مُشْطٍ وَمُشَاقَةٍ، تَحْتَ رَعُوفَةٍ فِي بِئْرِ ذَرْوَانَ \". فَجَاءَ النَّبِيُّ فَقَالَ \" هَذِهِ الْبِئْرُ الَّتِي أُرِيتُهَا كَأَنَّ رُءُوسَ نَخْلِهَا رُءُوسُ الشَّيَاطِينِ، وَكَأَنَّ مَاءَهَا نُقَاعَةُ الْحِنَّاءِ \". …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6063، يذكر الطب والطبيب. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 6063 (Good Manners and Form (Al-Adab)), that mentions medicine and the physician. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 6063، جس میں طب اور طبیب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6063 (book 78 hadith 93); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

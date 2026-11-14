@@ -1,0 +1,17 @@
+id: passage/sahaba-isti-ab-tibb-3-957
+class: passage
+unit: chapter
+work: work/al-istiab
+ref: "3:957"
+label: { ar: "الاستيعاب لابن عبد البر، المجلد المصوَّر 3، ص 957 — مداواة الجراح، مداواة النساء للجرحى", en: "Ibn 'Abd al-Barr's al-Isti'ab, scan volume 3, p. 957 — the treatment of wounds; women treating the wounded", ur: "الاستیعاب، ابن عبد البر، اسکین جلد 3، ص 957 — زخموں کا علاج، خواتین کا زخمیوں کا علاج" }
+text: "… بن يقولان : أم عطِيَّة الأَنصاريّة نُسيبة بنت كعب. قال أَبو عمر : في هذا نظر، لأنٌّ نسيبة بنت كعب أم عمارة. تُعَدُّ أم عطِيَّة في أَهل البصرة، كانت من كِبارٍ نساء الصحابة رضوان اللّٰه عليهم أَجمعين، وكانت وتداوي الجرحى، …"
+summary:
+  ar: "مقطع من الاستيعاب لابن عبد البر، المجلد المصوَّر 3، ص 957، يذكر مداواة الجراح، ومداواة النساء للجرحى، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn 'Abd al-Barr's al-Isti'ab, scan volume 3, p. 957, that mentions the treatment of wounds, women treating the wounded, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الاستیعاب، ابن عبد البر، اسکین جلد 3، ص 957 کا اقتباس جس میں زخموں کا علاج، خواتین کا زخمیوں کا علاج، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: mentions, target: concept/tadawi, sources: [source/isti-ab-ibn-abd-al-barr] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isti-ab/alfirdwsiy2018_gmail_0423, page 957; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/isti-ab-ibn-abd-al-barr]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

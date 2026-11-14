@@ -62,6 +62,7 @@ set bind every view listed here.
 | Dreams | Dreams the sources relate: five constellations by section | `sig/DreamsSky.astro` | `dreamItems`, `DREAM_SECTIONS` | stars placed equal the records |
 | Household | The household: a family chart from kinship edges only, and a dated strip of events | `sig/BaytHousehold.astro` | `baytItems`, `child_of`, `spouse_of`, `sibling_of`, `member_of` | every drawn line is an edge |
 | Usra | Marriages on record: a knot diagram of `spouse_of` edges | `sig/UsraKnots.astro` | `usraCouples` | drawn marriages equal the edges |
+| Medicine | The apothecary's jars: six shelves, a jar per remedy, disease or procedure filled by the passages that name it; gold lids open records | `sig/TibbJars.astro` | `tibbShelves`, `TIBB_JARS` | every signal in one jar; named records exist; every admitted passage in a jar |
 | Ansab | The tree of tribes: trees from `part_of`, `member_of` and `founder_of` edges between group subjects | `sig/AnsabTribes.astro` | `ansabSubjects`, group edges | no loop, no second parent, every connector an edge |
 | Mukatabat | Letters and their senders: a flow from sender class to kind to corpus | `sig/MukatabatFlow.astro` | `mukatabatItems` | every column sums to the records |
 | Islamic Economy | Coin, deed and endowment through time: three ledgers on one axis, dated records only | `sig/IeLedgers.astro` | `ieItems`, `IE_TOPICS` | every topic, class and section drawn |

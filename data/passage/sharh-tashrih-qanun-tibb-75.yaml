@@ -1,0 +1,16 @@
+id: passage/sharh-tashrih-qanun-tibb-75
+class: passage
+unit: chapter
+work: work/sharh-tashrih-al-qanun
+ref: "75"
+label: { ar: "شرح تشريح القانون لابن النفيس، ص 75 — أعضاء البدن، العظام", en: "Ibn al-Nafis's Commentary on the Anatomy of the Canon, p. 75 — the organs of the body; the bones", ur: "شرح تشریح القانون، ابن النفیس، ص 75 — اعضائے بدن، ہڈیاں" }
+text: "… الحنجرة يجذب الغضروف الدرقي تكفي فيه عضلة واحدة تتصل بوسطه فخلقت اثنين لتقوم الواحدة مقام الأخرى إذا عرض لها آفة، فاستغني بذلك عن عضلة تقوم مقامها بتحريك هذا العظم مع أن تحريكه من هناك موهن لثباته على وضعه. واللّٰه أعلم …"
+summary:
+  ar: "مقطع من شرح تشريح القانون لابن النفيس، ص 75، يذكر أعضاء البدن، والعظام؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Nafis's Commentary on the Anatomy of the Canon, p. 75, that mentions the organs of the body, the bones; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "شرح تشریح القانون، ابن النفیس، ص 75 کا اقتباس جس میں اعضائے بدن، ہڈیاں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sharh-tashrih-qanun-print] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/sharh-tashrih-qanun-ibn-nafis/sharh-tashrih-qanun-ibn-nafis, page 75; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/sharh-tashrih-qanun-print]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

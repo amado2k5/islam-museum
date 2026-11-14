@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5734
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5734"
+label: { ar: "صحيح البخاري 5734 — الطاعون والوباء", en: "Sahih al-Bukhari 5734 — plague and epidemic", ur: "صحیح بخاری 5734 — طاعون اور وبا" }
+text: "… بُرَيْدَةَ، عَنْ يَحْيَى بْنِ يَعْمَرَ، عَنْ عَائِشَةَ، زَوْجِ النَّبِيِّ أَنَّهَا أَخْبَرَتْنَا أَنَّهَا سَأَلَتْ رَسُولَ اللَّهِ عَنِ الطَّاعُونِ فَأَخْبَرَهَا نَبِيُّ اللَّهِ \" أَنَّهُ كَانَ عَذَابًا يَبْعَثُهُ اللَّهُ عَلَى مَنْ يَشَاءُ، فَجَعَلَهُ اللَّهُ رَحْمَةً لِلْمُؤْمِنِينَ، فَلَيْسَ مِنْ عَبْدٍ يَقَعُ الطَّاعُونُ فَيَمْكُثُ فِي بَلَدِهِ صَابِرًا، يَعْلَمُ أَنَّهُ لَنْ يُصِيبَهُ إِلاَّ مَا كَتَبَ اللَّهُ لَهُ، إِلاَّ كَانَ لَهُ مِثْلُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5734، يذكر الطاعون والوباء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5734 (Medicine), that mentions plague and epidemic. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5734، جس میں طاعون اور وبا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5734 (book 76 hadith 49); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

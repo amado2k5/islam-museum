@@ -1,0 +1,18 @@
+id: passage/bukhari-api-5736
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5736"
+label: { ar: "صحيح البخاري 5736 — الرقية، البرء من العلة", en: "Sahih al-Bukhari 5736 — ruqya recited over the sick; recovery from an ailment", ur: "صحیح بخاری 5736 — رقیہ، بیماری سے شفایابی" }
+text: "… مِنْ أَحْيَاءِ الْعَرَبِ فَلَمْ يَقْرُوهُمْ، فَبَيْنَمَا هُمْ كَذَلِكَ إِذْ لُدِغَ سَيِّدُ أُولَئِكَ فَقَالُوا هَلْ مَعَكُمْ مِنْ دَوَاءٍ أَوْ رَاقٍ فَقَالُوا إِنَّكُمْ لَمْ تَقْرُونَا، وَلاَ نَفْعَلُ حَتَّى تَجْعَلُوا لَنَا جُعْلاً. فَجَعَلُوا لَهُمْ قَطِيعًا مِنَ الشَّاءِ، فَجَعَلَ يَقْرَأُ بِأُمِّ الْقُرْآنِ، وَيَجْمَعُ بُزَاقَهُ، وَيَتْفِلُ، فَبَرَأَ، فَأَتَوْا بِالشَّاءِ، فَقَالُوا لاَ نَأْخُذُهُ حَتَّى نَسْأَلَ النَّبِيَّ فَسَأَلُوهُ فَضَحِكَ وَقَالَ \" وَمَا …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5736، يذكر الرقية، والبرء من العلة، والدواء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5736 (Medicine), that mentions ruqya recited over the sick, recovery from an ailment, the drug. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5736، جس میں رقیہ، بیماری سے شفایابی، دوا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5736 (book 76 hadith 51); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

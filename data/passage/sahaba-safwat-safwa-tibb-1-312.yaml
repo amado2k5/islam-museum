@@ -1,0 +1,18 @@
+id: passage/sahaba-safwat-safwa-tibb-1-312
+class: passage
+unit: chapter
+work: work/sifat-al-safwa
+ref: "1:312"
+label: { ar: "صفة الصفوة لابن الجوزي، المجلد المصوَّر 1، ص 312 — المرض والمريض، مداواة الجراح", en: "Ibn al-Jawzi's Sifat al-Safwa, scan volume 1, p. 312 — illness and the sick; the treatment of wounds", ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 1، ص 312 — بیماری اور بیمار، زخموں کا علاج" }
+text: "… اسم أم عمارة المتقدمة. عن حفصة بنت سيرين عن أم عطية قالت: غزوت مع رسول اللّٰه وَتَيِ سبع غزوات، وكنت أخلفهم في الرحال، وأصنع لهم الطعام، وأقوم على المرضى، وأداوي الجرحى. - أم ورقة بنت عبد اللّٰه بن الحارث يِيهَا …"
+summary:
+  ar: "مقطع من صفة الصفوة لابن الجوزي، المجلد المصوَّر 1، ص 312، يذكر المرض والمريض، ومداواة الجراح، ومداواة النساء للجرحى، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Jawzi's Sifat al-Safwa, scan volume 1, p. 312, that mentions illness and the sick, the treatment of wounds, women treating the wounded, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 1، ص 312 کا اقتباس جس میں بیماری اور بیمار، زخموں کا علاج، خواتین کا زخمیوں کا علاج، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/safwat-safwa/20200206_20200206_0626, page 312; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

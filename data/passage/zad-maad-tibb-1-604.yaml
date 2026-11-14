@@ -1,0 +1,16 @@
+id: passage/zad-maad-tibb-1-604
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:604"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 604 — المرض والمريض، الطاعون والوباء", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 604 — illness and the sick; plague and epidemic", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 604 — بیماری اور بیمار، طاعون اور وبا" }
+text: "… مَرِضُوا بذلك، فيحصل لهم بمجاورتهم من جنس أمراضهم. وفي سنن أبي داود مرفوعاً : إن مِن القرفِ التلفَ أحمد:، وأبو داود:، وفي سنده جهالة. قال ابن قتيبة: القرف مداناة الوباء، ومداناة المرضى. حمية النفوس عن العدوى والطيرة الخامس: حمية النفوس …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 604، يذكر المرض والمريض، والطاعون والوباء، والعدوى، والحمية؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 604, that mentions illness and the sick, plague and epidemic, contagion, diet as treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 604 کا اقتباس جس میں بیماری اور بیمار، طاعون اور وبا، چھوت، پرہیز کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 604; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

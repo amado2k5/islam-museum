@@ -12,7 +12,7 @@ gender: male
 wings: [people]
 born: { edtf: "1116~", hijri: "0510~", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2], note: "ولد سنة عشر وخمسمائة أو قبلها {cite:shadharat-dhahab p. 809}؛ ودائرة المعارف: ولد ببغداد سنة ٥١٠هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 783}؛ التحويل مشتق." }
 died: { edtf: "1201-06~", hijri: "0597-09", calendar: julian, precision: month, status: tradition, derived: true, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2], note: "توفي ليلة الجمعة بين العشاءين من شهر رمضان وكان في تموز فأفطر بعض من حضر جنازته لشدة الزحام والحر {cite:shadharat-dhahab p. 811}؛ ودائرة المعارف: مات سنة ٥٩٧هـ بعد عودته من المنفى {cite:encyclopaedia-of-islam-2 vol. 3 p. 784}؛ التحويل مشتق." }
-external_ids: { wikidata: "Q731866" }
+external_ids: { wikidata: "Q731866", biblissima: "Q16842" }
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 story_roles:
@@ -28,7 +28,7 @@ relations:
   - { type: participated_in, target: event/ibn-jawzi-zenith-574, role: "شيخ الوعّاظ", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/ibn-jawzi-wasit-exile-590, role: "المنفيّ", sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/ibn-jawzi-release-595, role: "المُطلَق العائد", sources: [source/encyclopaedia-of-islam-2] }
-sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan, source/assabile-abu-ishaq-alheweny, source/encyclopaedia-of-islam-2, source/zad-al-masir-dar-al-kitab-al-arabi-2001-v1, source/talbis-iblis-muniriyya-1928, source/tabaqat-huffaz]
+sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan, source/assabile-abu-ishaq-alheweny, source/encyclopaedia-of-islam-2, source/zad-al-masir-dar-al-kitab-al-arabi-2001-v1, source/talbis-iblis-muniriyya-1928, source/tabaqat-huffaz, source/biblissima]
 importance: 2
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker G)" }
 provenance:

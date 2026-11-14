@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4105
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4105"
+label: { ar: "سنن أبي داود 4105 — الحجامة", en: "Sunan Abi Dawud 4105 — cupping", ur: "سنن ابی داؤد 4105 — حجامہ" }
+text: "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَابْنُ، مَوْهَبٍ قَالاَ حَدَّثَنَا اللَّيْثُ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، أَنَّ أُمَّ سَلَمَةَ، اسْتَأْذَنَتْ رَسُولَ اللَّهِ فِي الْحِجَامَةِ فَأَمَرَ أَبَا طَيْبَةَ أَنْ يَحْجُمَهَا. قَالَ حَسِبْتُ أَنَّهُ قَالَ كَانَ أَخَاهَا مِنَ الرَّضَاعَةِ أَوْ غُلاَمًا لَمْ يَحْتَلِمْ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4105، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 4105 (Clothing (Kitab Al-Libas)), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4105، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4105 (book 34 hadith 86); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

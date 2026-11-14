@@ -9,5 +9,6 @@ born: { edtf: "830~", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "910", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
 relations:
   - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
+tags: [tibb-browser, tibb-tibb]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

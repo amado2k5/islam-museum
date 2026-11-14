@@ -1,0 +1,18 @@
+id: passage/qanun-v3-tibb-144
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "144"
+label: { ar: "القانون في الطب لابن سينا ج3، ص 144 — الحمى والوعك، الحمى", en: "Ibn Sina's Canon of Medicine, vol. 3, p. 144 — fever; fever", ur: "القانون فی الطب، ابن سینا ج3، ص 144 — بخار، بخار" }
+text: "… فقلّما يحتاج إليه الناقه وربما احتاج أيضاً، وتدلّ عليه السحنة وعلامات الدم، لا سيما إذا وجدت للحمّى كالتعقّد في العروق ورأيت بثوراً في الشفة، وربما أحوجتك إلى فصد المحموم رداءة دمه لما بقي فيه من رمادية الأخلاط الرديئة، فيلزمك أن …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج3، ص 144، يذكر الحمى والوعك، والحمى، والبيمارستان وصناعة الطب، والعروق، والجراحة والختان والجبائر؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 3, p. 144, that mentions fever, fever, the hospital and the medical craft, the vessels, surgery, circumcision and splints; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج3، ص 144 کا اقتباس جس میں بخار، بخار، بیمارستان، رگیں، جراحت، ختنہ اور پٹیاں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/canon-ibn-sina-print-v3] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v3/canon-ibn-sina-print-v3, page 144; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

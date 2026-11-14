@@ -1,0 +1,19 @@
+id: passage/ibnmajah-api-3468
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3468"
+label: { ar: "سنن ابن ماجه 3468 — القسط والعود الهندي، أسماء الأمراض", en: "Sunan Ibn Majah 3468 — costus (Indian aloeswood); named diseases", ur: "سنن ابن ماجہ 3468 — قسط ہندی، بیماریوں کے نام" }
+text: "… سَمْعَانَ عَنِ ابْنِ شِهَابٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، عَنْ أُمِّ قَيْسٍ بِنْتِ مِحْصَنٍ، قَالَتْ قَالَ رَسُولُ اللَّهِ ـ \" عَلَيْكُمْ بِالْعُودِ الْهِنْدِيِّ - يَعْنِي بِهِ الْكُسْتَ - فَإِنَّ فِيهِ سَبْعَةَ أَشْفِيَةٍ مِنْهَا ذَاتُ الْجَنْبِ \". قَالَ ابْنُ سَمْعَانَ فِي الْحَدِيثِ \" فَإِنَّ فِيهِ شِفَاءً مِنْ سَبْعَةِ أَدْوَاءٍ مِنْهَا ذَاتُ الْجَنْبِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3468، يذكر القسط والعود الهندي، وأسماء الأمراض، والداء، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3468 (Chapters on Medicine), that mentions costus (Indian aloeswood), named diseases, the disease and its remedy, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3468، جس میں قسط ہندی، بیماریوں کے نام، بیماری، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3468 (book 31 hadith 33); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

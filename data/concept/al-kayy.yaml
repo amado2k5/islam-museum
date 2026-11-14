@@ -1,0 +1,27 @@
+id: concept/al-kayy
+class: concept
+kind: scientific
+label:
+  ar: "الكي"
+  en: "Cautery (al-kayy)"
+  ur: "داغنا ⁦(الكي)⁩"
+summary:
+  ar: "الكي علاج بالنار، وردت فيه أخبار بعضها يفعله وبعضها يكرهه: ففي البخاري «الشفاء في ثلاثة: شربة عسل، وشرطة محجم، وكية نار، وأنا أنهى أمتي عن الكي» {cite:sahih-al-bukhari 5680}، وفيه «وما أحب أن أكتوي» {cite:sahih-al-bukhari 5683}، وفي مسلم أن النبي حسم جرح سعد بن معاذ {cite:sahih-muslim 5748}، وفي أبي داود عن عمران بن حصين «نهى النبي عن الكي» {cite:sunan-abi-dawud 3865}. ويجمع ابن قيم الجوزية بينها بأنها أربعة أنواع: فعله، وعدم محبته، والثناء على تاركه، والنهي عنه، فلا تعارض عنده {cite:zad-al-maad p.612}."
+  en: "Cautery is treatment by fire, and the reports on it include some in which the Prophet has it done and some in which he dislikes it. In al-Bukhari: 'healing is in three things: a drink of honey, the cut of a cupper's blade and a burn of fire, and I forbid my community to cauterise' {cite:sahih-al-bukhari 5680}, and 'I do not like to be cauterised' {cite:sahih-al-bukhari 5683}; in Muslim the Prophet seared the wound of Sa'd ibn Mu'adh {cite:sahih-muslim 5748}; in Abu Dawud 'Imran ibn Husayn says 'the Prophet forbade cautery' {cite:sunan-abi-dawud 3865}. Ibn Qayyim al-Jawziyya reconciles them by saying they are of four kinds, his act, his not liking it, his praise of those who leave it and his prohibition, and finds no contradiction among them {cite:zad-al-maad p.612}."
+  ur: "داغنا آگ سے علاج ہے، اور اس کے بارے میں ایسی روایات آئی ہیں جن میں نبی نے داغنے کا عمل بھی کیا اور ناپسند بھی کیا۔ بخاری میں ہے: «شفا تین چیزوں میں ہے: شہد کا گھونٹ، پچھنے کا نشتر اور آگ کا داغ، اور میں اپنی امت کو داغنے سے منع کرتا ہوں» {cite:sahih-al-bukhari 5680}، اور «مجھے داغا جانا پسند نہیں» {cite:sahih-al-bukhari 5683}؛ مسلم میں ہے کہ نبی نے سعد بن معاذ کے زخم کو داغا {cite:sahih-muslim 5748}؛ ابو داود میں عمران بن حصین کہتے ہیں کہ نبی نے داغنے سے منع فرمایا {cite:sunan-abi-dawud 3865}۔ ابن قیم الجوزیہ ان میں یوں جمع کرتے ہیں کہ یہ چار قسم کی ہیں: آپ کا عمل، آپ کا ناپسند کرنا، چھوڑنے والے کی تعریف، اور ممانعت؛ اور ان کے نزدیک ان میں کوئی تضاد نہیں {cite:zad-al-maad p.612}۔"
+wings: [ideas]
+themes: [health-body-death]
+regions: [global]
+tags: [tibb-browser, tibb-nabawi]
+sources: [source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/sunan-abi-dawud, source/muwatta-maruf-1997]
+relations:
+  - { type: part_of, target: concept/al-tibb-al-nabawi, note: "Cautery is one of the treatments named in the reports on healing.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/hijama, note: "Cupping and cautery appear together in the report on healing in three things.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/tawakkul, note: "The report on the seventy thousand ties not cauterising to trust in God.", sources: [source/zad-al-maad] }
+provenance:
+  layer: own-research
+  source: "Zad al-Ma'ad by Ibn Qayyim al-Jawziyya, Tibb Nabawi chapters; OCR scan folder zad-maad/20200822_20200822_1205 (1120 pages), scan pages 607, 611-612; hadith wording checked against the hadith-api Arabic editions (hadith numbers are those of that edition); passages linked from the graph."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-1
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

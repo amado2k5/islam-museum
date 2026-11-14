@@ -1,0 +1,18 @@
+id: passage/bukhari-api-5713
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5713"
+label: { ar: "صحيح البخاري 5713 — القسط والعود الهندي، اللدود والسعوط", en: "Sahih al-Bukhari 5713 — costus (Indian aloeswood); medicine given by the mouth-side or the nose", ur: "صحیح بخاری 5713 — قسط ہندی، لدود اور سعوط" }
+text: "… عُبَيْدُ اللَّهِ، عَنْ أُمِّ قَيْسٍ، قَالَتْ دَخَلْتُ بِابْنٍ لِي عَلَى رَسُولِ اللَّهِ وَقَدْ أَعْلَقْتُ عَلَيْهِ مِنَ الْعُذْرَةِ فَقَالَ \" عَلَى مَا تَدْغَرْنَ أَوْلاَدَكُنَّ بِهَذَا الْعِلاَقِ عَلَيْكُنَّ بِهَذَا الْعُودِ الْهِنْدِيِّ، فَإِنَّ فِيهِ سَبْعَةَ أَشْفِيَةٍ، مِنْهَا ذَاتُ الْجَنْبِ يُسْعَطُ مِنَ الْعُذْرَةِ، وَيُلَدُّ مِنْ ذَاتِ الْجَنْبِ \". فَسَمِعْتُ الزُّهْرِيَّ يَقُولُ بَيَّنَ لَنَا اثْنَيْنِ وَلَمْ يُبَيِّنْ لَنَا خَمْسَةً. قُلْتُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5713، يذكر القسط والعود الهندي، واللدود والسعوط، وأسماء الأمراض، وعلاج العذرة، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5713 (Medicine), that mentions costus (Indian aloeswood), medicine given by the mouth-side or the nose, named diseases, treating the throat ailment (al-udhra), healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5713، جس میں قسط ہندی، لدود اور سعوط، بیماریوں کے نام، گلے کی بیماری عذرہ کا علاج، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5713 (book 76 hadith 30); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

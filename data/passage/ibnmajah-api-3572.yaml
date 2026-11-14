@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3572
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3572"
+label: { ar: "سنن ابن ماجه 3572 — أعضاء البدن", en: "Sunan Ibn Majah 3572 — the organs of the body", ur: "سنن ابن ماجہ 3572 — اعضائے بدن" }
+text: "… الأَحْوَصِ، عَنْ أَبِي إِسْحَاقَ، عَنْ مُسْلِمِ بْنِ نُذَيْرٍ، عَنْ حُذَيْفَةَ، قَالَ أَخَذَ رَسُولُ اللَّهِ ـ بِأَسْفَلِ عَضَلَةِ سَاقِي أَوْ سَاقِهِ فَقَالَ \" هَذَا مَوْضِعُ الإِزَارِ فَإِنْ أَبَيْتَ. فَأَسْفَلَ فَإِنْ أَبَيْتَ فَأَسْفَلَ فَإِنْ أَبَيْتَ فَلاَ حَقَّ لِلإِزَارِ فِي الْكَعْبَيْنِ \". حَدَّثَنَا عَلِيُّ بْنُ مُحَمَّدٍ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، حَدَّثَنِي أَبُو إِسْحَاقَ، عَنْ مُسْلِمِ بْنِ نُذَيْرٍ، عَنْ …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3572، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3572 (Chapters on Dress), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3572، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3572 (book 32 hadith 23); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

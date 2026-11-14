@@ -1,0 +1,16 @@
+id: passage/nasai-api-1938
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1938"
+label: { ar: "سنن النسائي 1938 — المرض والمريض، عيادة المريض", en: "Sunan al-Nasa'i 1938 — illness and the sick; visiting the sick", ur: "سنن نسائی 1938 — بیماری اور بیمار، بیمار کی عیادت" }
+text: "أَخْبَرَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ مُوسَى، عَنْ سَعِيدِ بْنِ أَبِي سَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" لِلْمُؤْمِنِ عَلَى الْمُؤْمِنِ سِتُّ خِصَالٍ يَعُودُهُ إِذَا مَرِضَ وَيَشْهَدُهُ إِذَا مَاتَ وَيُجِيبُهُ إِذَا دَعَاهُ وَيُسَلِّمُ عَلَيْهِ إِذَا لَقِيَهُ وَيُشَمِّتُهُ إِذَا عَطَسَ وَيَنْصَحُ لَهُ إِذَا غَابَ أَوْ شَهِدَ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 1938، يذكر المرض والمريض، وعيادة المريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 1938 (The Book of Funerals), that mentions illness and the sick, visiting the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 1938، جس میں بیماری اور بیمار، بیمار کی عیادت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1938 (book 21 hadith 121); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

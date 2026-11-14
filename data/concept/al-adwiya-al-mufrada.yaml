@@ -1,0 +1,24 @@
+id: concept/al-adwiya-al-mufrada
+class: concept
+kind: scientific
+label: { ar: "الأدوية المفردة والمركبة", en: "Simple and compound drugs (al-adwiya al-mufrada wal-murakkaba)", ur: "مفرد اور مرکب ادویہ" }
+summary:
+  ar: "الكتاب الثاني من «القانون» في الأدوية المفردة، وجملته الأولى في القوانين الطبيعية لمعرفتها، ستّ مقالات، منها تعرّف أمزجتها بالتجربة وبالقياس {cite:canon-ibn-sina-print-v1 pp.314-315}. ويشترط ابن سينا للتجربة شروطاً سبعة، منها أن يكون الدواء خالياً من كيفية عارضة، وأن تكون العلّة مفردة، وأن تكون التجربة على بدن الإنسان {cite:canon-ibn-sina-print-v1 pp.318-319}. أما الكتاب الخامس فهو في الأدوية المركبة، وهو الأقراباذين، ويبدأ بمقالة في الحاجة إلى التركيب {cite:canon-ibn-sina-print-v3 pp.395-398}."
+  en: "Book II of the Canon is on simple drugs, and its first part sets out the natural rules for knowing them in six treatises, among them the knowing of their temperaments by experiment and by analogy {cite:canon-ibn-sina-print-v1 pp.314-315}. For experiment Ibn Sina sets seven conditions, among them that the drug be free of an accidental quality, that the illness be a single one, and that the trial be on the human body {cite:canon-ibn-sina-print-v1 pp.318-319}. Book V is on compound drugs, the pharmacopoeia (al-aqrabadhin), and opens with a treatise on why compounding is needed {cite:canon-ibn-sina-print-v3 pp.395-398}."
+  ur: "«قانون» کی دوسری کتاب مفرد ادویہ کے بارے میں ہے اور اس کا پہلا جملہ انہیں پہچاننے کے قدرتی قوانین چھ مقالوں میں بیان کرتا ہے، جن میں ان کے امزجہ کو تجربے اور قیاس سے جاننا شامل ہے {cite:canon-ibn-sina-print-v1 pp.314-315}۔ تجربے کے لیے ابن سینا سات شرطیں رکھتے ہیں، جن میں یہ ہے کہ دوا کسی عارضی کیفیت سے خالی ہو، مرض اکیلا ہو اور تجربہ انسانی بدن پر ہو {cite:canon-ibn-sina-print-v1 pp.318-319}۔ پانچویں کتاب مرکب ادویہ، یعنی اقرباذین، کی ہے اور اس کا آغاز اس مقالے سے ہوتا ہے کہ ترکیب کی ضرورت کیوں پڑتی ہے {cite:canon-ibn-sina-print-v3 pp.395-398}۔"
+wings: [ideas]
+themes: [health-body-death]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v3]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: invention/ibn-sina-seven-drug-assessment-conditions, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-tiryaq, sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v3] }
+  - { type: related_to, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book II, Jumla 1 (scan pages 313 to 320) and vol. 3, Book V, preface and treatise on the need for compound drugs (scan pages 395 to 398), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read from the OCR on the harvest drive"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-2
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

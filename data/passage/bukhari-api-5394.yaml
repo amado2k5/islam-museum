@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5394
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5394"
+label: { ar: "صحيح البخاري 5394 — أعضاء البدن", en: "Sahih al-Bukhari 5394 — the organs of the body", ur: "صحیح بخاری 5394 — اعضائے بدن" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ سَلاَمٍ، أَخْبَرَنَا عَبْدَةُ، عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَما ـ قَالَ رَسُولُ اللَّهِ \" إِنَّ الْمُؤْمِنَ يَأْكُلُ فِي مِعًى وَاحِدٍ، وَإِنَّ الْكَافِرَ ـ أَوِ الْمُنَافِقَ فَلاَ أَدْرِي أَيَّهُمَا قَالَ عُبَيْدُ اللَّهِ ـ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ \". وَقَالَ ابْنُ بُكَيْرٍ حَدَّثَنَا مَالِكٌ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ بِمِثْلِهِ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5394، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5394 (Food, Meals), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5394، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5394 (book 70 hadith 22); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

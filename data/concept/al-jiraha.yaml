@@ -1,0 +1,25 @@
+id: concept/al-jiraha
+class: concept
+kind: scientific
+label: { ar: "الجراحة وأعمال اليد", en: "Surgery, the work of the hand (al-jiraha)", ur: "جراحت اور ہاتھ کے اعمال" }
+summary:
+  ar: "يجعل ابن سينا في «القانون» استعمال أعمال اليد ثالث وجوه العلاج بعد التدبير والدواء {cite:canon-ibn-sina-print-v1 p.267}. ويضمّ هذا الباب عنده البطّ وقطع العضو الفاسد والكيّ وعلاج تفرّق الاتصال في اللحم والعظم، وفصد العروق {cite:canon-ibn-sina-print-v1 pp.289-310}. ويشترط في الباطّ أن يعرف تشريح العصب والأوردة والشرايين، وأن يكون معه ما يحبس الدم من الأدوية {cite:canon-ibn-sina-print-v1 p.306}."
+  en: "In the Canon Ibn Sina makes the use of manual operations the third mode of treatment, after regimen and drugs {cite:canon-ibn-sina-print-v1 p.267}. For him this heading takes in incision of abscesses, the cutting away of a corrupted organ, cautery, the treatment of breaks in the continuity of flesh and bone, and the opening of veins {cite:canon-ibn-sina-print-v1 pp.289-310}. He requires the operator to know the anatomy of nerves, veins and arteries, and to have blood-stopping drugs at hand {cite:canon-ibn-sina-print-v1 p.306}."
+  ur: "ابن سینا «قانون» میں ہاتھ کے اعمال کے استعمال کو تدبیر اور دوا کے بعد علاج کا تیسرا طریقہ قرار دیتے ہیں {cite:canon-ibn-sina-print-v1 p.267}۔ ان کے ہاں اس عنوان میں پھوڑے کا چیرنا، فاسد عضو کا کاٹنا، داغنا، گوشت اور ہڈی میں اتصال ٹوٹنے کا علاج اور رگ کھولنا شامل ہیں {cite:canon-ibn-sina-print-v1 pp.289-310}۔ وہ شرط لگاتے ہیں کہ جراح اعصاب، وریدوں اور شریانوں کی تشریح جانتا ہو اور اس کے پاس خون روکنے والی دوائیں موجود ہوں {cite:canon-ibn-sina-print-v1 p.306}۔"
+wings: [ideas]
+themes: [health-body-death]
+tags: [tibb-browser, tibb-jiraha]
+sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v3, source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-jabr-wal-kasr, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: related_to, target: concept/mudawat-al-jarha, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: related_to, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 25 to 30 (scan pages 267 and 304 to 310); vol. 3, Book IV, Fann 4 (scan pages 197 to 198); Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read from the OCR on the harvest drive"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-2
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

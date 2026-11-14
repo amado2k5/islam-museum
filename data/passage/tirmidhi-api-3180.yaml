@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3180
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3180"
+label: { ar: "جامع الترمذي 3180 — الحمى والوعك", en: "Jami' al-Tirmidhi 3180 — fever", ur: "جامع ترمذی 3180 — بخار" }
+text: "… لَقَدْ رَجَعْتُ إِلَى بَيْتِي وَكَأَنَّ الَّذِي خَرَجْتُ لَهُ لَمْ أَخْرُجْ لاَ أَجِدُ مِنْهُ قَلِيلاً وَلاَ كَثِيرًا وَوُعِكْتُ فَقُلْتُ لِرَسُولِ اللَّهِ أَرْسِلْنِي إِلَى بَيْتِ أَبِي فَأَرْسَلَ مَعِي الْغُلاَمَ فَدَخَلْتُ الدَّارَ فَوَجَدْتُ أُمَّ رُومَانَ فِي السُّفْلِ وَأَبُو بَكْرٍ فَوْقَ الْبَيْتِ يَقْرَأُ فَقَالَتْ أُمِّي مَا جَاءَ بِكِ يَا بُنَيَّةُ قَالَتْ فَأَخْبَرْتُهَا وَذَكَرْتُ لَهَا الْحَدِيثَ فَإِذَا هُوَ لَمْ يَبْلُغْ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3180، يذكر الحمى والوعك. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 3180 (Chapters on Tafsir), that mentions fever. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 3180، جس میں بخار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3180 (book 47 hadith 232); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/muslim-api-5822
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5822"
+label: { ar: "صحيح مسلم 5822 — الجذام والبرص", en: "Sahih Muslim 5822 — leprosy and vitiligo", ur: "صحیح مسلم 5822 — جذام اور برص" }
+text: "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا هُشَيْمٌ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا شَرِيكُ بْنُ عَبْدِ اللَّهِ، وَهُشَيْمُ بْنُ بَشِيرٍ، عَنْ يَعْلَى بْنِ عَطَاءٍ، عَنْ عَمْرِو بْنِ الشَّرِيدِ، عَنْ أَبِيهِ، قَالَ كَانَ فِي وَفْدِ ثَقِيفٍ رَجُلٌ مَجْذُومٌ فَأَرْسَلَ إِلَيْهِ النَّبِيُّ \" إِنَّا قَدْ بَايَعْنَاكَ فَارْجِعْ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5822، يذكر الجذام والبرص. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5822 (The Book of Greetings), that mentions leprosy and vitiligo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5822، جس میں جذام اور برص کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5822 (book 39 hadith 174); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

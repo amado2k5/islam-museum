@@ -1,0 +1,18 @@
+id: passage/zad-maad-tibb-1-678
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:678"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 678 — البيمارستان وصناعة الطب، الصحة", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 678 — the hospital and the medical craft; health", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 678 — بیمارستان، صحت" }
+text: "… بالماء ومنافعه وكان يشربُ اللبن خالصاً تارةً، ومشوباً بالماء خالصاً ومشوباً نفعٌ عظيم في حفظ الصحة، وترطيب البدن، وريّ الكبد، ولا سيما اللبن الذي ترعى دوابه الشيحَ والقَيْصُومَ والخُزامى وما أشبهها، فإن لبنها غذاء مع الأغذية، وشراب مع الأشربة، ودواء …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 678، يذكر البيمارستان وصناعة الطب، والصحة، وأعضاء البدن، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 678, that mentions the hospital and the medical craft, health, the organs of the body, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 678 کا اقتباس جس میں بیمارستان، صحت، اعضائے بدن، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/anatomy, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 678; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

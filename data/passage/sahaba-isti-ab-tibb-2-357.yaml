@@ -1,0 +1,17 @@
+id: passage/sahaba-isti-ab-tibb-2-357
+class: passage
+unit: chapter
+work: work/al-istiab
+ref: "2:357"
+label: { ar: "الاستيعاب لابن عبد البر، المجلد المصوَّر 2، ص 357 — الطب والطبيب، الجراحة والختان والجبائر", en: "Ibn 'Abd al-Barr's al-Isti'ab, scan volume 2, p. 357 — medicine and the physician; surgery, circumcision and splints", ur: "الاستیعاب، ابن عبد البر، اسکین جلد 2، ص 357 — طب اور طبیب، جراحت، ختنہ اور پٹیاں" }
+text: "باب حرف الضاد - ضماد الأزدي : من أزد شنوءة، كان هذا الموضع بتمامه. صديقًا للنَّبيِّ وَاليم في الجاهلية، وكان رجلاً يتطبّب وروى مسلمة بن علقمة، عن دَاوُدَ بن أبي هند، ويَرقي، ويطلب العلم، أسلم في أَوَّل الإسلام. عن سعيدٍ …"
+summary:
+  ar: "مقطع من الاستيعاب لابن عبد البر، المجلد المصوَّر 2، ص 357، يذكر الطب والطبيب، والجراحة والختان والجبائر؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn 'Abd al-Barr's al-Isti'ab, scan volume 2, p. 357, that mentions medicine and the physician, surgery, circumcision and splints; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الاستیعاب، ابن عبد البر، اسکین جلد 2، ص 357 کا اقتباس جس میں طب اور طبیب، جراحت، ختنہ اور پٹیاں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/isti-ab-ibn-abd-al-barr] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isti-ab/alfirdwsiy2018_gmail_0280, page 357; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/isti-ab-ibn-abd-al-barr]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

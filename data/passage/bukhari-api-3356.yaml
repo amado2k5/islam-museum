@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3356
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3356"
+label: { ar: "صحيح البخاري 3356 — الجراحة والختان والجبائر", en: "Sahih al-Bukhari 3356 — surgery, circumcision and splints", ur: "صحیح بخاری 3356 — جراحت، ختنہ اور پٹیاں" }
+text: "… الرَّحْمَنِ الْقُرَشِيُّ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ ـ قَالَ قَالَ رَسُولُ اللَّهِ \" اخْتَتَنَ إِبْرَاهِيمُ ـ وَهْوَ ابْنُ ثَمَانِينَ سَنَةً بِالْقَدُّومِ \". حَدَّثَنَا أَبُو الْيَمَانِ أَخْبَرَنَا شُعَيْبٌ حَدَّثَنَا أَبُو الزِّنَادِ \" بِالْقَدُومِ \". مُخَفَّفَةً. تَابَعَهُ عَبْدُ الرَّحْمَنِ بْنُ إِسْحَاقَ عَنْ أَبِي الزِّنَادِ. تَابَعَهُ عَجْلاَنُ عَنْ أَبِي هُرَيْرَةَ. وَرَوَاهُ مُحَمَّدُ بْنُ عَمْرٍو عَنْ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3356، يذكر الجراحة والختان والجبائر. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 3356 (Prophets), that mentions surgery, circumcision and splints. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 3356، جس میں جراحت، ختنہ اور پٹیاں کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3356 (book 60 hadith 31); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

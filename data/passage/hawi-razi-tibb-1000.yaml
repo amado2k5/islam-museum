@@ -1,0 +1,18 @@
+id: passage/hawi-razi-tibb-1000
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "1000"
+label: { ar: "الحاوي في الطب للرازي، ص 1000 — المرض والمريض، الحمى والوعك", en: "al-Razi's al-Hawi fi al-Tibb, p. 1000 — illness and the sick; fever", ur: "الحاوی فی الطب، رازی، ص 1000 — بیماری اور بیمار، بخار" }
+text: "… بارد مفرد أو من بلغم لاصق بطبقاتها، قال: وإن كان البطن يختلف اختلافات رديئة بعقب أمراض وباء أو غيرها فلا تحبسه بالقوية جداً لأن حبسه بالقوية حميات وورماً في الكبد خاصة وفي سائر الأحشاء. الأعضاء، الأقربادين الكبير؛ صفة دواء المعجون …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 1000، يذكر المرض والمريض، والحمى والوعك، والطاعون والوباء، وأعضاء البدن، والدواء، والعقاقير والصيدلة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 1000, that mentions illness and the sick, fever, plague and epidemic, the organs of the body, the drug, drugs and pharmacy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 1000 کا اقتباس جس میں بیماری اور بیمار، بخار، طاعون اور وبا، اعضائے بدن، دوا، ادویہ اور دواسازی کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/anatomy, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 1000; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

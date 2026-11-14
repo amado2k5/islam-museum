@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3388
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3388"
+label: { ar: "صحيح البخاري 3388 — الحمى", en: "Sahih al-Bukhari 3388 — fever", ur: "صحیح بخاری 3388 — بخار" }
+text: "… فَأَخْبَرَتْهَا. قَالَتْ فَسَمِعَهُ أَبُو بَكْرٍ وَرَسُولُ اللَّهِ قَالَتْ نَعَمْ. فَخَرَّتْ مَغْشِيًّا عَلَيْهَا، فَمَا أَفَاقَتْ إِلاَّ وَعَلَيْهَا حُمَّى بِنَافِضٍ، فَجَاءَ النَّبِيُّ فَقَالَ \" مَا لِهَذِهِ \". قُلْتُ حُمَّى أَخَذَتْهَا مِنْ أَجْلِ حَدِيثٍ تُحُدِّثَ بِهِ، فَقَعَدَتْ فَقَالَتْ وَاللَّهِ لَئِنْ حَلَفْتُ لاَ تُصَدِّقُونِي، وَلَئِنِ اعْتَذَرْتُ لاَ تَعْذِرُونِي، فَمَثَلِي وَمَثَلُكُمْ كَمَثَلِ يَعْقُوبَ وَبَنِيهِ، فَاللَّهُ الْمُسْتَعَانُ عَلَى مَا تَصِفُونَ. فَانْصَرَفَ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3388، يذكر الحمى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 3388 (Prophets), that mentions fever. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 3388، جس میں بخار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3388 (book 60 hadith 62); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/rayy, sources: [source/wikipedia-avicenna-en] }
   - { type: had_participant, target: person/ibn-sina, role: "طبيب البلاط", sources: [source/wikipedia-avicenna-en] }
+tags: [tibb-browser, tibb-tibb]
 sources: [source/wikipedia-avicenna-en]
 status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
 provenance:

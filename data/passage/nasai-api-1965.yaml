@@ -1,0 +1,16 @@
+id: passage/nasai-api-1965
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1965"
+label: { ar: "سنن النسائي 1965 — السم", en: "Sunan al-Nasa'i 1965 — poison", ur: "سنن نسائی 1965 — زہر" }
+text: "… تَرَدَّى مِنْ جَبَلٍ فَقَتَلَ نَفْسَهُ فَهُوَ فِي نَارِ جَهَنَّمَ يَتَرَدَّى خَالِدًا مُخَلَّدًا فِيهَا أَبَدًا وَمَنْ تَحَسَّى سُمًّا فَقَتَلَ نَفْسَهُ فَسُمُّهُ فِي يَدِهِ يَتَحَسَّاهُ فِي نَارِ جَهَنَّمَ خَالِدًا مُخَلَّدًا فِيهَا أَبَدًا وَمَنْ قَتَلَ نَفْسَهُ بِحَدِيدَةٍ - ثُمَّ انْقَطَعَ عَلَىَّ شَىْءٌ خَالِدٌ يَقُولُ - كَانَتْ حَدِيدَتُهُ فِي يَدِهِ يَجَأُ بِهَا فِي بَطْنِهِ فِي نَارِ جَهَنَّمَ خَالِدًا مُخَلَّدًا …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 1965، يذكر السم. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 1965 (The Book of Funerals), that mentions poison. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 1965، جس میں زہر کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1965 (book 21 hadith 148); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

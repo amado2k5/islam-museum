@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-77
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "77"
+label: { ar: "جامع الترمذي 77 — أعضاء البدن", en: "Jami' al-Tirmidhi 77 — the organs of the body", ur: "جامع ترمذی 77 — اعضائے بدن" }
+text: "… رَأَى النَّبِيَّ نَامَ وَهُوَ سَاجِدٌ حَتَّى غَطَّ أَوْ نَفَخَ ثُمَّ قَامَ يُصَلِّي. فَقُلْتُ يَا رَسُولَ اللَّهِ إِنَّكَ قَدْ نِمْتَ قَالَ \" إِنَّ الْوُضُوءَ لاَ يَجِبُ إِلاَّ عَلَى مَنْ نَامَ مُضْطَجِعًا فَإِنَّهُ إِذَا اضْطَجَعَ اسْتَرْخَتْ مَفَاصِلُهُ \". قَالَ أَبُو عِيسَى وَأَبُو خَالِدٍ اسْمُهُ يَزِيدُ بْنُ عَبْدِ الرَّحْمَنِ. قَالَ وَفِي الْبَابِ عَنْ عَائِشَةَ وَابْنِ مَسْعُودٍ وَأَبِي هُرَيْرَةَ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 77، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 77 (The Book on Purification), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 77، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 77 (book 1 hadith 77); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

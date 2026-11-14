@@ -1,0 +1,16 @@
+id: passage/sharh-tashrih-qanun-tibb-197
+class: passage
+unit: chapter
+work: work/sharh-tashrih-al-qanun
+ref: "197"
+label: { ar: "شرح تشريح القانون لابن النفيس، ص 197 — أعضاء البدن، أطوار خلق الجنين", en: "Ibn al-Nafis's Commentary on the Anatomy of the Canon, p. 197 — the organs of the body; the stages of the embryo", ur: "شرح تشریح القانون، ابن النفیس، ص 197 — اعضائے بدن، جنین کے مراحل" }
+text: "… أو لا وهو الغشاء المشيمي واغتذاء الجنين هو من ذلك الغشاء ما دام جنينا لأن هذا الغشاء يحتوي على عروق كثيرة بعضها يتصل بالأوردة النافذة إلى الرحم فتكون في هذه العروق الدم ومن ذلك يغتذي الجنين بأن ينفذ في عروق …"
+summary:
+  ar: "مقطع من شرح تشريح القانون لابن النفيس، ص 197، يذكر أعضاء البدن، وأطوار خلق الجنين، والعروق؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Nafis's Commentary on the Anatomy of the Canon, p. 197, that mentions the organs of the body, the stages of the embryo, the vessels; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "شرح تشریح القانون، ابن النفیس، ص 197 کا اقتباس جس میں اعضائے بدن، جنین کے مراحل، رگیں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sharh-tashrih-qanun-print] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/sharh-tashrih-qanun-ibn-nafis/sharh-tashrih-qanun-ibn-nafis, page 197; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/sharh-tashrih-qanun-print]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

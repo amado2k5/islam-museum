@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3420
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3420"
+label: { ar: "سنن أبي داود 3420 — الرقية", en: "Sunan Abi Dawud 3420 — ruqya recited over the sick", ur: "سنن ابی داؤد 3420 — رقیہ" }
+text: "… فَأَتَوْهُ فَقَالُوا إِنَّكَ جِئْتَ مِنْ عِنْدِ هَذَا الرَّجُلِ بِخَيْرٍ فَارْقِ لَنَا هَذَا الرَّجُلَ. فَأَتَوْهُ بِرَجُلٍ مَعْتُوهٍ فِي الْقُيُودِ فَرَقَاهُ بِأُمِّ الْقُرْآنِ ثَلاَثَةَ أَيَّامٍ غُدْوَةً وَعَشِيَّةً كُلَّمَا خَتَمَهَا جَمَعَ بُزَاقَهُ ثُمَّ تَفَلَ فَكَأَنَّمَا أُنْشِطَ مِنْ عِقَالٍ فَأَعْطُوهُ شَيْئًا فَأَتَى النَّبِيَّ فَذَكَرَهُ لَهُ فَقَالَ النَّبِيُّ \" كُلْ فَلَعَمْرِي لَمَنْ أَكَلَ بِرُقْيَةٍ بَاطِلٍ لَقَدْ أَكَلْتَ بِرُقْيَةٍ حَقٍّ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3420، يذكر الرقية. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 3420 (Wages (Kitab Al-Ijarah)), that mentions ruqya recited over the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3420، جس میں رقیہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3420 (book 24 hadith 5); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

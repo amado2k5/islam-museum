@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-3565
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3565"
+label: { ar: "جامع الترمذي 3565 — المرض والمريض، السقم", en: "Jami' al-Tirmidhi 3565 — illness and the sick; sickness", ur: "جامع ترمذی 3565 — بیماری اور بیمار، سقم" }
+text: "حَدَّثَنَا سُفْيَانُ بْنُ وَكِيعٍ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، عَنْ إِسْرَائِيلَ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْحَارِثِ، عَنْ عَلِيٍّ، قَالَ كَانَ النَّبِيُّ إِذَا عَادَ مَرِيضًا قَالَ \" اللَّهُمَّ أَذْهِبِ الْبَأْسَ رَبَّ النَّاسِ وَاشْفِ فَأَنْتَ الشَّافِي لاَ شِفَاءَ إِلاَّ شِفَاؤُكَ شِفَاءً لاَ يُغَادِرُ سَقَمًا \". قَالَ هَذَا حَدِيثٌ حَسَنٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3565، يذكر المرض والمريض، والسقم، وعيادة المريض، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 3565 (Chapters on Supplication), that mentions illness and the sick, sickness, visiting the sick, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 3565، جس میں بیماری اور بیمار، سقم، بیمار کی عیادت، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3565 (book 48 hadith 196); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

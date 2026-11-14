@@ -1,0 +1,16 @@
+id: passage/zad-maad-tibb-1-43
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:43"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 43 — الإثمد، الكحل", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 43 — ithmid (antimony kohl); kohl for the eye", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 43 — اثمد سرمہ، سرمہ" }
+text: "… وتَوْرٌ من حجارة يتوضا منه، ومِخْضب من شبَهٍ، وقعب يسمى: السعة، ومغتسل من صُفْر، ومُدهُن، ورَبْعة يجعل فيها المرآة والمشط. قيل: وكان المُشط من عاجٍ، وهو الذّبْلُ، ومكحلة يكتجِل منها عند النوم ثلاثاً في كل عين بالإثمد، وكان في الربعة …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 43، يذكر الإثمد، والكحل؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 43, that mentions ithmid (antimony kohl), kohl for the eye; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 43 کا اقتباس جس میں اثمد سرمہ، سرمہ کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 43; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }
