@@ -10,8 +10,8 @@ regions: [south-asia]
 coordinates: [23.03, 72.58]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q507796" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q507796", nomisma: "gujarat_sultanate" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q507796 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
