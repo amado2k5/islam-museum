@@ -245,3 +245,39 @@ EXCLUSION (proposal for the founder): person/umayr-ibn-wahb-al-jumahi: Q7881216 
 EXCLUSION (proposal for the founder): person/muhammadu-mai-turare: no Q-id added - two candidates, see gemini line
 EXCLUSION (proposal for the founder): person/sasaa-ibn-jafar-al-hamdani: no Q-id added - no candidate found
 EXCLUSION (proposal for the founder): Wikidata dates differing from sourced card dates (Fatima bint Asad death, al-Zahir Ghazi death day, al-Muntasir birth) - sourced card dates are never overwritten; recorded in ledger only
+person/abu-jandal-ibn-suhayl: accepted Q22304984 (revision 2551137742); agreeing facts: exact Arabic label, father Suhayl ibn Amr (Q1440361), companion. Wikidata death 639 differs from the card's 633 (al-Isaba), not added, conflict recorded here only.
+person/ahmad-ibn-umar-ibn-surayj: accepted Q6535970 (revision 2552470245); agreeing facts: qadi (Q217029), Muslim, died 918 = 306 AH as the card records. The other candidate Q22928911 is a singer (d. 716), not a match. Birth 863 not added (no clean Hijri conversion).
+person/ghiyath-al-din-muhammad-ibn-sam: accepted Q3918363 (revision 2514397450); agreeing facts: Ghurid sultan, father Sam (Q15620227), brother Muhammad of Ghor (Q1647182, the card's sibling shihab-al-din-ghuri), Sunni. Wikidata death 1202 differs from the card's January 1203, not added, conflict recorded here only.
+person/habil: accepted Q313421 (revision 2568673009); agreeing facts: son of Adam (Q70899), occupation shepherd (Q81710) as the card says (herdsman). Biblical-Quranic figure, accepted on two facts; schematic Wikidata dates not added.
+person/iyas-ibn-qabisa: accepted Q6417381 (revision 2562506262); agreeing facts: died 618 as the card records, participant in the Battle of Dhu Qar (Q2888408) as the card narrates, Lakhmid-era Hira governor.
+person/kab-ibn-zuhayr: accepted Q953200 (revision 2553821866); agreeing facts: poet, father Zuhayr (Q228566), Muslim, death 647 against the card's approximate 645. Wikidata birth 700 is later than its death 647, an item error, not added.
+person/musa-ibn-bugha: accepted Q6939999 (revision 2511736792); agreeing facts: Abbasid general, father Bugha al-Kabir (Q2927730, the card's EI2 source), died 877 as the card records. Wikidata label adds al-Kabir.
+person/qusayy-ibn-kilab: accepted Q2724873 (revision 2533525288); agreeing facts: ruler of Mecca and Quraysh leader, father Kilab ibn Murrah (Q2327777), died about 480 as the card records. Wikidata spouse Fatimah bint Sa'd differs from the card's Hubba bint Hulayl and religion monotheism differs from the card's arabian-polytheism, not added, conflicts recorded here only.
+person/tamim-al-dari: accepted Q3818186 (revision 2568777892); agreeing facts: exact Arabic label, Sahabi and Muslim, died 660 as the card records (the item also holds 661).
+person/utba-ibn-farqad: skipped; sole candidate Q12224322 holds exact label, Islam and a Khaybar participation claim, none matching the card (Jazira conquests, d. 644~), so identity rests on the name alone.
+person/harun: skipped; two candidates, Q51676 (Aaron, biblical and quranic) and Q380714 (Harun, Islamic prophet); not decided, founder item.
+person/nuaym-ibn-masud: skipped; sole candidate Q1748997 matches on name and generic role (Sahabi) only, its death values 650 and 700 do not settle against the card's debated 656, so identity rests on weak facts.
+EXCLUSION (proposal for the founder): person/harun - GEMINI/founder: two Wikidata candidates Q51676 and Q380714 (Aaron / Harun), a duplicate pair on Wikidata; not decided.
+EXCLUSION (proposal for the founder): person/utba-ibn-farqad - only the name matches on the sole candidate Q12224322 (weak accept)
+EXCLUSION (proposal for the founder): person/nuaym-ibn-masud - only name and generic role match on the sole candidate Q1748997 (weak accept)
+lane-c-wikidata-person-8-b, 14 Nov 2026 (wd-person-next lines 85-96; 12 records): 7 accepted, 5 skipped; identity rule: exactly one candidate and two agreeing facts.
+ACCEPTED person/abd-al-aziz-ibn-marwan = Q3780173 (rev 2568475159): died 705 matches card; governor of Egypt and brother of Abd al-Malik ibn Marwan (card summary). CONFLICT (ledger only): Wikidata born 700 (century-level), card born 649 derived; card kept.
+ACCEPTED person/abu-al-as-ibn-al-rabi = Q1147555 (rev 2560315628): died 634 = 12 AH matches card; husband of Zaynab bint Muhammad matches card summary. Card dates untouched.
+ACCEPTED person/ala-al-din-tekish = Q723036 (rev 2479684731): died 1200 matches card (Ramadan 596 AH); Khwarazmshah title matches card. Born 1132 (Julian, year) added because the card field was empty, no Hijri year given as 1132 spans two Hijri years.
+ACCEPTED person/attab-ibn-usayd = Q12224314 (rev 2533515802): described as governor of Mecca matches card; died 642 lies inside card range 634-644. Born 612 vs card born 610~ is a near match; card kept.
+ACCEPTED person/ibrahim-pasha-misri = Q311789 (rev 2557927405): born 1789 and died 1848 match card; son of Muhammad Ali matches card child_of. Card dates untouched.
+ACCEPTED person/jahm-ibn-qays = Q12206380 (rev 2418791835): spouse Umm Harmala bint Abd al-Aswad matches card spouse_of; Companion (religion Islam). The item has no dates.
+ACCEPTED person/hujr-ibn-al-harith-al-kindi = Q22933283 (rev 2486733610, label spelled 'Hujr ibin al-Harith'): child Imru al-Qais (Q1051776) matches card 'father of the poet Imru al-Qays'; full name matches. Item has no dates. Distinct from Q16117462 (Hujr Akil al-Murar, Hujr ibn Amr), not used.
+SKIPPED person/boabdil-muhammad-xii: Q312763 already carried by person/muhammad-xii-andalusi on origin/main; duplicate proposal, not added.
+SKIPPED person/ibn-sayyid-al-nas: Q6536228 (died 1334) already carried by person/ibn-sayyid-al-nas-al-akbar on origin/main; duplicate or misattributed id, not added.
+SKIPPED person/abd-al-rahman-sokoto: no Wikidata candidate found by Arabic or English search (Abd al-Rahman Atiku, Abdurrahman, Sultan of Sokoto 1891); not guessed.
+SKIPPED person/hatim-al-tai: one candidate Q2746159 (poet/chieftain, died 578, place of death Ha'il) but card died 605~ conflicts and the card's role field has nothing that agrees besides the name; weak accept, proposal only.
+SKIPPED person/hilal-ibn-umayya: one candidate Q6846579 holds only the name and 'one of the companions of Muhammad' (no dates, relations or places); weak accept.
+GEMINI/founder: person/abd-al-rahman-sokoto (caliph of Sokoto 1891-1902; card cites generic Wikidata): confirm whether an item exists and its Q-id.
+GEMINI/founder: person/hatim-al-tai: Q2746159 (died 578) vs card died 605~; which date is right and whether to attach the id.
+EXCLUSION (proposal for the founder): person/boabdil-muhammad-xii: Q312763 not added - duplicate proposal with person/muhammad-xii-andalusi
+EXCLUSION (proposal for the founder): person/ibn-sayyid-al-nas: Q6536228 not added - id already on ibn-sayyid-al-nas-al-akbar; founder decides
+EXCLUSION (proposal for the founder): person/abd-al-rahman-sokoto: no Q-id added - no candidate found
+EXCLUSION (proposal for the founder): person/hatim-al-tai: Q2746159 not added - card death date conflicts and only the name agrees; founder decides
+EXCLUSION (proposal for the founder): person/hilal-ibn-umayya: Q6846579 not added - weak accept, item holds only name and generic Companion role
+EXCLUSION (proposal for the founder): Wikidata dates differing from sourced card dates (Abd al-Aziz ibn Marwan born, Ibn Sayyid al-Nas born) - sourced card dates are never overwritten; recorded in ledger only

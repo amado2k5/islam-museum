@@ -20,5 +20,6 @@ died: { edtf: "877", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: lived_in, target: place/samarra, sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab] }
   - { type: traveled_to, target: place/qumm, sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab] }
-sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/wikidata-musa-ibn-bugha]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+external_ids: { wikidata: "Q6939999" }
