@@ -6,25 +6,25 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الملك بن عمير، التابعي الكوفي المحدث؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Malik ibn Umayr, the Kufan tabi'i and hadith scholar; his entry is not yet checked on the page."
+  ar: "عبد الملك بن عمير بن سويد القرشي أو اللخمي، المعروف بالقبطي، حافظ ومحدث الكوفة ومسند أهلها وقاضيها، رأى علياً؛ توفي نحو سنة ١٣٦هـ، وقد اختلف النقاد في ضبطه."
+  en: "Abd al-Malik ibn Umayr ibn Suwayd al-Qurashi, or al-Lakhmi, known as al-Qibti, the hadith scholar, chain-bearer and judge of Kufa who saw Ali; he died about 136 AH, and the critics differed on his precision."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 born: { edtf: "0653", precision: year, status: tradition, derived: true }
 died: { edtf: "0753", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q12223833
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary
