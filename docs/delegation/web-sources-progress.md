@@ -1113,6 +1113,11 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 - Biblissima label read for 78 persons with a Biblissima id and full prose; section added in ar, en, ur (cite-check 78 of 78). VIAF has no readable public data channel in this pass (the cluster pages are not fetched), so VIAF prose is not written: a VIAF number alone is no fact worth a section.
 - Yaqut, Mu'jam al-Buldan, Dar Sader 1995 (Shamela book 23735, pages 1 to 2460 by index): download to books/geography/mujam-al-buldan-sader-shamela23735/pages.jsonl on the microSD (about 3 MB, claimed in WORK-REGISTRY.md), curl with a 2 s pause (shamela.ws answers curl). The edition is not the Khanji print of the existing scan: citations will name volume and page of the Dar Sader print and need a new source entity.
 
+## 2026-11-14 (Lane B2 al-A'lam packet 16, alm16) - ten persons from al-A'lam, Dar al-Ilm 2002
+
+- Written (ar, en, ur, draft; cite-check 10 of 10): ibn-hurmuz (vol. 3 p. 286), al-mullawi (1 p. 148), ahmad-al-buni (1 p. 156), shams-al-din-ibn-al-mawsili (7 p. 29), ibn-ajurrum (7 p. 29, replaces Biblissima-only prose), zahir-al-din-ibn-al-attar (7 p. 296), hibatullah-ibn-kamil (8 p. 70), yunus-ibn-abd-al-wahhab-al-aythawi (8 p. 235), abd-al-rahman-al-bahkali (3 p. 286), muhammad-ibn-abd-al-kabir-al-kettani (6 p. 179).
+- Corrections to cards: ibn-hurmuz Khurasan to Medina and Alexandria; al-mullawi born 1088 AH = 1677 (card note said 1098); ibn-al-mawsili Mosul to Baalbek (birth) and Tripoli (death); al-aythawi death 1570 to 1569 (976 AH); al-kettani died_in Sale to Fes, death year 1909 kept (entry prints 1907 beside 1327 AH, which falls in 1909 to 1910); al-bahkali Arabia to the Tihama; hibatullah-ibn-kamil: Fatimid Isma'ili da'i and chief judge, Tyre birth on the card is not in the entry and stays pending.
+- Skipped: muhammad-ibn-mustafa-al-bakri. The entry is for Mustafa ibn Kamal al-Din al-Bakri (1099 to 1162 AH = 1688 to 1749); the card is named Muhammad ibn Mustafa with the same years. The name differs (possibly a Wikidata naming error, possibly the card is a different man), so no prose was written. A proposal for the founder: confirm identity, then rename or alias.
 
 ## 2026-11-14 (Lane B2 packet alm17) - al-A'lam persons, eleven written
 
