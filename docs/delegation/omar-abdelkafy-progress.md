@@ -3116,3 +3116,17 @@ Resume point: min-kunuz-al-sunnah episode 17 (branch from origin/main).
 | Garbled stretch about Hatim and the dropped imam story setup | ep17 00:23:00-00:23:30 | Too garbled to recover | Clarity | Open |
 
 Resume point: min-kunuz-al-sunnah episode 18 (branch from origin/main).
+
+### alwaad-alhaq ep04 (14 Nov 2026)
+
+16 points written for episode 4 (ar, en, ur); 13 needs_source marks for this episode in each language file; about edges added for signs of the Hour, loyalty and disavowal and five persons. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep04) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops (numbers, 'hadhi hiya', 'ala Allah') | ep04 00:30:00, 00:42:00, 00:46:00 | Not speech | Loop check | Open |
+| Story of Mu'awiya and a man claiming brotherhood from Adam | ep04 00:19:30 to 00:20:00 | Garbled facts | Clarity | Open |
+| Claims on European history and women's pay and rights | ep04 00:38:30 to 00:40:00 | Unsupported historical statistics, garbled; one stated view kept | No source | Open |
+| Call to boycott companies with immodest advertising | ep04 00:26:30 to 00:27:30 | Opinion ruling (founder-held) | Policy | Open |
+| Advice on greeting non-Muslim neighbours at their festivals; remark on a woman chairing a meeting | ep04 00:40:30 to 00:41:30; 00:44:30 | Opinion rulings, garbled (founder-held) | Policy | Open |
+
+Resume point: alwaad-alhaq episode 5 (branch from origin/main).
