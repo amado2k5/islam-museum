@@ -11,10 +11,10 @@ coordinates: [40.5075, 43.572777777778]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
 external_ids: { wikidata: "Q546010", pleiades: "863739" }
-sources: [source/wikidata, source/pleiades]
+sources: [source/wikidata, source/pleiades, source/mujam-al-buldan-yaqut]
 provenance:
   layer: own-research
-  source: "Wikidata item Q546010 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  source: "Wikidata item Q546010 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Pleiades place 863739 (https://pleiades.stoa.org/places/863739/json), accessed 14 Nov 2026; Yaqut al-Hamawi, Mu'jam al-buldan, Cairo 1907, vol. 1, scan p.69"
   generated_by: "Devin"
   model: "Devin (Cognition)"
   run: person-place-geo-b
