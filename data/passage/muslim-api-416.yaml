@@ -1,0 +1,16 @@
+id: passage/muslim-api-416
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "416"
+label: { ar: "صحيح مسلم 416 — شق الصدر", en: "Sahih Muslim 416 — the opening of the chest", ur: "صحیح مسلم 416 — شقِّ صدر" }
+text: "… إِلَى كَذَا وَكَذَا \". قَالَ قَتَادَةُ فَقُلْتُ لِلَّذِي مَعِي مَا يَعْنِي قَالَ إِلَى أَسْفَلِ بَطْنِهِ \" فَاسْتُخْرِجَ قَلْبِي فَغُسِلَ بِمَاءِ زَمْزَمَ ثُمَّ أُعِيدَ مَكَانَهُ ثُمَّ حُشِيَ إِيمَانًا وَحِكْمَةً ثُمَّ أُتِيتُ بِدَابَّةٍ أَبْيَضَ يُقَالُ لَهُ الْبُرَاقُ فَوْقَ الْحِمَارِ وَدُونَ الْبَغْلِ يَقَعُ خَطْوُهُ عِنْدَ أَقْصَى طَرْفِهِ فَحُمِلْتُ عَلَيْهِ ثُمَّ انْطَلَقْنَا حَتَّى أَتَيْنَا السَّمَاءَ الدُّنْيَا فَاسْتَفْتَحَ جِبْرِيلُ فَقِيلَ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 416، يذكر شق الصدر. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 416 (The Book of Faith), that mentions the opening of the chest. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 416، جس میں شقِّ صدر کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 416 (book 1 hadith 321); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/nasai-api-5756
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5756"
+label: { ar: "سنن النسائي 5756 — التداوي بالعسل", en: "Sunan al-Nasa'i 5756 — honey as a remedy", ur: "سنن نسائی 5756 — شہد سے علاج" }
+text: "أَخْبَرَنَا سُوَيْدٌ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنِ ابْنِ عَوْنٍ، عَنْ مُحَمَّدِ بْنِ سِيرِينَ، عَنْ عَبِيدَةَ، قَالَ أَحْدَثَ النَّاسُ أَشْرِبَةً مَا أَدْرِي مَا هِيَ وَمَا لِي شَرَابٌ مُنْذُ عِشْرِينَ سَنَةً إِلاَّ الْمَاءُ وَاللَّبَنُ وَالْعَسَلُ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 5756، يذكر التداوي بالعسل. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 5756 (The Book of Drinks), that mentions honey as a remedy. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 5756، جس میں شہد سے علاج کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5756 (book 51 hadith 218); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

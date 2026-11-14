@@ -1,0 +1,16 @@
+id: passage/muslim-api-7067
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7067"
+label: { ar: "صحيح مسلم 7067 — أسماء الأمراض", en: "Sahih Muslim 7067 — named diseases", ur: "صحیح مسلم 7067 — بیماریوں کے نام" }
+text: "… تَأْتِي السَّمَاءُ بِدُخَانٍ مُبِينٍ} قَالَ يَأْتِي النَّاسَ يَوْمَ الْقِيَامَةِ دُخَانٌ فَيَأْخُذُ بِأَنْفَاسِهِمْ حَتَّى يَأْخُذَهُمْ مِنْهُ كَهَيْئَةِ الزُّكَامِ. فَقَالَ عَبْدُ اللَّهِ مَنْ عَلِمَ عِلْمًا فَلْيَقُلْ بِهِ وَمَنْ لَمْ يَعْلَمْ فَلْيَقُلِ اللَّهُ أَعْلَمُ فَإِنَّ مِنْ فِقْهِ الرَّجُلِ أَنْ يَقُولَ لِمَا لاَ عِلْمَ لَهُ بِهِ اللَّهُ أَعْلَمُ. إِنَّمَا كَانَ هَذَا أَنَّ قُرَيْشًا لَمَّا اسْتَعْصَتْ عَلَى النَّبِيِّ دَعَا عَلَيْهِمْ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 7067، يذكر أسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 7067 (Characteristics of the Day of Judgment, Paradise, and Hell), that mentions named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 7067، جس میں بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7067 (book 52 hadith 23); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

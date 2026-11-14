@@ -1,0 +1,17 @@
+id: passage/bukhari-api-5007
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5007"
+label: { ar: "صحيح البخاري 5007 — الرقية، البرء من العلة", en: "Sahih al-Bukhari 5007 — ruqya recited over the sick; recovery from an ailment", ur: "صحیح بخاری 5007 — رقیہ، بیماری سے شفایابی" }
+text: "… فِي مَسِيرٍ لَنَا فَنَزَلْنَا فَجَاءَتْ جَارِيَةٌ فَقَالَتْ إِنَّ سَيِّدَ الْحَىِّ سَلِيمٌ، وَإِنَّ نَفَرَنَا غُيَّبٌ فَهَلْ مِنْكُمْ رَاقٍ فَقَامَ مَعَهَا رَجُلٌ مَا كُنَّا نَأْبُنُهُ بِرُقْيَةٍ فَرَقَاهُ فَبَرَأَ فَأَمَرَ لَهُ بِثَلاَثِينَ شَاةً وَسَقَانَا لَبَنًا فَلَمَّا رَجَعَ قُلْنَا لَهُ أَكُنْتَ تُحْسِنُ رُقْيَةً أَوْ كُنْتَ تَرْقِي قَالَ لاَ مَا رَقَيْتُ إِلاَّ بِأُمِّ الْكِتَابِ. قُلْنَا لاَ تُحْدِثُوا شَيْئًا حَتَّى نَأْتِيَ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5007، يذكر الرقية، والبرء من العلة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5007 (Virtues of the Qur'an), that mentions ruqya recited over the sick, recovery from an ailment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5007، جس میں رقیہ، بیماری سے شفایابی کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5007 (book 66 hadith 29); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

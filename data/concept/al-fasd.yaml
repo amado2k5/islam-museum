@@ -1,0 +1,23 @@
+id: concept/al-fasd
+class: concept
+kind: scientific
+label: { ar: "الفصد", en: "Venesection, or bloodletting (al-fasd)", ur: "فصد، یعنی رگ کھولنا" }
+summary:
+  ar: "الفصد عند ابن سينا استفراغ كلّي يخفّف كثرة الأخلاط، وهو أحد وجوه المعالجة بأعمال اليد، وقد أفرد له في الفن الرابع من الكتاب الأول فصلاً، وأقام فيه الكلام على من يُفصد ومن يُحذر عليه، وعلى ضيق الشق وسعته، وعلى عروق الذراع الستة وخطر الشريان تحت الباسليق {cite:canon-ibn-sina-print-v1 pp.289-295}. ويعرض القانون الحجامة والعلق في فصلين تاليين، فالفصد في ميزانه غير الحجامة {cite:canon-ibn-sina-print-v1 p.299}."
+  en: "For Ibn Sina venesection is a general evacuation that relieves a plethora of the humours, one of the manual modes of treatment. The fourth fann of Book I gives it its own chapter, covering who may be bled and who should be spared, narrow and wide incisions, the six veins of the arm, and the danger of the artery lying under the basilic vein {cite:canon-ibn-sina-print-v1 pp.289-295}. The Canon treats cupping and leeches in the chapters that follow, so for Ibn Sina bloodletting is a different procedure from cupping {cite:canon-ibn-sina-print-v1 p.299}."
+  ur: "ابن سینا کے نزدیک فصد ایک کلی استفراغ ہے جو اخلاط کی کثرت کو کم کرتا ہے اور ہاتھ کے اعمال سے علاج کا ایک طریقہ ہے۔ پہلی کتاب کے چوتھے فن میں اس کا الگ فصل ہے جس میں بتایا گیا ہے کہ کس کا فصد کھولا جائے اور کس سے احتراز ہو، شگاف تنگ ہو یا کشادہ، بازو کی چھ رگیں کون سی ہیں، اور باسلیق کے نیچے شریان کا خطرہ کیا ہے {cite:canon-ibn-sina-print-v1 pp.289-295}۔ قانون حجامت اور جونکوں کو اگلے فصلوں میں الگ بیان کرتا ہے، یعنی ابن سینا کے ہاں فصد حجامت سے مختلف عمل ہے {cite:canon-ibn-sina-print-v1 p.299}۔"
+wings: [ideas]
+themes: [health-body-death]
+tags: [tibb-browser, tibb-jiraha]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/hijama, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-jiraha, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20 on venesection (scan pages 289 to 295), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read from the OCR on the harvest drive"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-2
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

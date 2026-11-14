@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4472
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4472"
+label: { ar: "سنن أبي داود 4472 — الشكوى من العلة، عيادة المريض", en: "Sunan Abi Dawud 4472 — a complaint of an ailment; visiting the sick", ur: "سنن ابی داؤد 4472 — بیماری کی شکایت، بیمار کی عیادت" }
+text: "… أَخْبَرَنِي أَبُو أُمَامَةَ بْنُ سَهْلِ بْنِ حُنَيْفٍ، أَنَّهُ أَخْبَرَهُ بَعْضُ، أَصْحَابِ رَسُولِ اللَّهِ مِنَ الأَنْصَارِ أَنَّهُ اشْتَكَى رَجُلٌ مِنْهُمْ حَتَّى أُضْنِيَ فَعَادَ جِلْدَةً عَلَى عَظْمٍ فَدَخَلَتْ عَلَيْهِ جَارِيَةٌ لِبَعْضِهِمْ فَهَشَّ لَهَا فَوَقَعَ عَلَيْهَا فَلَمَّا دَخَلَ عَلَيْهِ رِجَالُ قَوْمِهِ يَعُودُونَهُ أَخْبَرَهُمْ بِذَلِكَ وَقَالَ اسْتَفْتُوا لِي رَسُولَ اللَّهِ فَإِنِّي قَدْ وَقَعْتُ عَلَى جَارِيَةٍ دَخَلَتْ عَلَىَّ. فَذَكَرُوا ذَلِكَ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4472، يذكر الشكوى من العلة، وعيادة المريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 4472 (Prescribed Punishments (Kitab Al-Hudud)), that mentions a complaint of an ailment, visiting the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4472، جس میں بیماری کی شکایت، بیمار کی عیادت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4472 (book 40 hadith 122); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

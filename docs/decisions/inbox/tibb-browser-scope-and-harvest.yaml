@@ -1,0 +1,5 @@
+question: "Medicine Browser (lane tibb, 14 Nov 2026): the agent harvested 1,033 hadith-api reports and 650 OCR excerpts in one pull request (above the 25-entity batch size), limited book passages to those with more than a bare illness word, and left a list of incidentally medical records untagged. Confirm or override."
+class: "process"
+lane: "tibb"
+options: ["confirm as shipped", "tag the left-out records", "split future harvests into 25-record batches"]
+evidence: ["docs/agents/lanes/tibb.md", "docs/plan/57-tibb-browser.md section 4 and 5", "precedent: hisab lane, 538 hadith-api passages in one change (docs/plan/50-hisab-browser.md)"]

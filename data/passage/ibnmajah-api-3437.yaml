@@ -1,0 +1,18 @@
+id: passage/ibnmajah-api-3437
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3437"
+label: { ar: "سنن ابن ماجه 3437 — الرقية، الدواء", en: "Sunan Ibn Majah 3437 — ruqya recited over the sick; the drug", ur: "سنن ابن ماجہ 3437 — رقیہ، دوا" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الصَّبَّاحِ، أَنْبَأَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنِ ابْنِ أَبِي خِزَامَةَ، عَنْ أَبِي خِزَامَةَ، قَالَ سُئِلَ رَسُولُ اللَّهِ ـ أَرَأَيْتَ أَدْوِيَةً نَتَدَاوَى بِهَا وَرُقًى نَسْتَرْقِي بِهَا وَتُقًى نَتَّقِيهَا هَلْ تَرُدُّ مِنْ قَدَرِ اللَّهِ شَيْئًا قَالَ \" هِيَ مِنْ قَدَرِ اللَّهِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3437، يذكر الرقية، والدواء، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3437 (Chapters on Medicine), that mentions ruqya recited over the sick, the drug, seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3437، جس میں رقیہ، دوا، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3437 (book 31 hadith 2); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

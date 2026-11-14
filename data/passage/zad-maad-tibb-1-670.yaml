@@ -1,0 +1,16 @@
+id: passage/zad-maad-tibb-1-670
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:670"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 670 — المرض والمريض، البيمارستان وصناعة الطب", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 670 — illness and the sick; the hospital and the medical craft", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 670 — بیماری اور بیمار، بیمارستان" }
+text: "… عِباده إلى إدخالِ ما يُقِيمُ البدن من الطعام والشراب عِوَضَ ما تحلَّل منه، وأن يكون بقدر ذلك كان إسرافاً، وكلاهما مانع من الصحة جالب للمرض، أعني عدم الأكل والشرب، أو الإسراف فيه. فحفظ الصحة كله في هاتين الكلمتين الإلهتين، ولا …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 670، يذكر المرض والمريض، والبيمارستان وصناعة الطب، والصحة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 670, that mentions illness and the sick, the hospital and the medical craft, health; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 670 کا اقتباس جس میں بیماری اور بیمار، بیمارستان، صحت کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 670; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/nasai-api-4027
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4027"
+label: { ar: "سنن النسائي 4027 — ألبان الإبل وأبوالها", en: "Sunan al-Nasa'i 4027 — camel milk and urine as treatment", ur: "سنن نسائی 4027 — اونٹنی کا دودھ اور پیشاب" }
+text: "أَخْبَرَنَا أَحْمَدُ بْنُ سُلَيْمَانَ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ بِشْرٍ، قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ أَيُّوبَ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَنَسٍ، قَالَ أَتَى النَّبِيَّ نَفَرٌ مِنْ عُكْلٍ أَوْ عُرَيْنَةَ فَأَمَرَ لَهُمْ - وَاجْتَوَوُا الْمَدِينَةَ - بِذَوْدٍ أَوْ لِقَاحٍ يَشْرَبُونَ أَلْبَانَهَا وَأَبْوَالَهَا فَقَتَلُوا الرَّاعِيَ وَاسْتَاقُوا الإِبِلَ فَبَعَثَ فِي طَلَبِهِمْ فَقَطَّعَ أَيْدِيَهُمْ وَأَرْجُلَهُمْ وَسَمَلَ أَعْيُنَهُمْ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4027، يذكر ألبان الإبل وأبوالها. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 4027 (The Book of Fighting [The Prohibition of Bloodshed]), that mentions camel milk and urine as treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 4027، جس میں اونٹنی کا دودھ اور پیشاب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4027 (book 37 hadith 62); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

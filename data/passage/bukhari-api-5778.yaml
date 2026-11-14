@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5778
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5778"
+label: { ar: "صحيح البخاري 5778 — السم", en: "Sahih al-Bukhari 5778 — poison", ur: "صحیح بخاری 5778 — زہر" }
+text: "… عَنِ النَّبِيِّ قَالَ \" مَنْ تَرَدَّى مِنْ جَبَلٍ فَقَتَلَ نَفْسَهُ، فَهْوَ فِي نَارِ جَهَنَّمَ، يَتَرَدَّى فِيهِ خَالِدًا مُخَلَّدًا فِيهَا أَبَدًا، وَمَنْ تَحَسَّى سَمًّا فَقَتَلَ نَفْسَهُ، فَسَمُّهُ فِي يَدِهِ، يَتَحَسَّاهُ فِي نَارِ جَهَنَّمَ خَالِدًا مُخَلَّدًا فِيهَا أَبَدًا، وَمَنْ قَتَلَ نَفْسَهُ بِحَدِيدَةٍ، فَحَدِيدَتُهُ فِي يَدِهِ، يَجَأُ بِهَا فِي بَطْنِهِ فِي نَارِ جَهَنَّمَ خَالِدًا مُخَلَّدًا فِيهَا أَبَدًا \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5778، يذكر السم. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5778 (Medicine), that mentions poison. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5778، جس میں زہر کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5778 (book 76 hadith 90); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

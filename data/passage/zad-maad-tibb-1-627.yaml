@@ -1,0 +1,17 @@
+id: passage/zad-maad-tibb-1-627
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:627"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 627 — الطب والطبيب، المرض والمريض", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 627 — medicine and the physician; illness and the sick", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 627 — طب اور طبیب، بیماری اور بیمار" }
+text: "… ويذكر عن النبي في أن المَعِدَة حوضُ البدن، والعُروق إليها واردة، فإذا صحَّت المَعِدَةُ صدرت العروقُ بالصحة، وإذا سَقِمَتِ المعدَةُ، صدرت العروقُ بالسقم. وقال الحارث: رأس الطَّبِّ الحمية، والحمية عندهم للصحيح في المضرة بمنزلة التخليط للمريض والنَّاقِه، وأنفعُ ما تكون …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 627، يذكر الطب والطبيب، والمرض والمريض، والسقم، والصحة، والحمية، وأعضاء البدن، والعروق؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 627, that mentions medicine and the physician, illness and the sick, sickness, health, diet as treatment, the organs of the body, the vessels; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 627 کا اقتباس جس میں طب اور طبیب، بیماری اور بیمار، سقم، صحت، پرہیز، اعضائے بدن، رگیں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/anatomy, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 627; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/sahaba-safwat-safwa-tibb-4-467
+class: passage
+unit: chapter
+work: work/sifat-al-safwa
+ref: "4:467"
+label: { ar: "صفة الصفوة لابن الجوزي، المجلد المصوَّر 4، ص 467 — الطب والطبيب، العلاج", en: "Ibn al-Jawzi's Sifat al-Safwa, scan volume 4, p. 467 — medicine and the physician; treatment", ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 4، ص 467 — طب اور طبیب، علاج" }
+text: "… لي بعلاج هذا الداء؟ وهل أقرح قلبي إلا التفكر في نيل معالجته؟ أو ليس عجيباً أن أكون حية بين أظهركم وفي قلبي من الاشتياق إلى ربي وعيل مثل شعل النار التي لا تطفاً حتى أصير إلى الطبيب الذي عنده برء …"
+summary:
+  ar: "مقطع من صفة الصفوة لابن الجوزي، المجلد المصوَّر 4، ص 467، يذكر الطب والطبيب، والعلاج، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Jawzi's Sifat al-Safwa, scan volume 4, p. 467, that mentions medicine and the physician, treatment, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 4، ص 467 کا اقتباس جس میں طب اور طبیب، علاج، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/safwat-safwa/AAlexandrina-154190, page 467; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

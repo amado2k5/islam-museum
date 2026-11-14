@@ -1,0 +1,17 @@
+id: passage/abudawud-api-3855
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3855"
+label: { ar: "سنن أبي داود 3855 — الدواء، الداء", en: "Sunan Abi Dawud 3855 — the drug; the disease and its remedy", ur: "سنن ابی داؤد 3855 — دوا، بیماری" }
+text: "… بْنُ عُمَرَ النَّمَرِيُّ، حَدَّثَنَا شُعْبَةُ، عَنْ زِيَادِ بْنِ عِلاَقَةَ، عَنْ أُسَامَةَ بْنِ شَرِيكٍ، قَالَ أَتَيْتُ النَّبِيَّ وَأَصْحَابُهُ كَأَنَّمَا عَلَى رُءُوسِهِمُ الطَّيْرُ فَسَلَّمْتُ ثُمَّ قَعَدْتُ فَجَاءَ الأَعْرَابُ مِنْ هَا هُنَا وَهَا هُنَا فَقَالُوا يَا رَسُولَ اللَّهِ أَنَتَدَاوَى فَقَالَ \" تَدَاوَوْا فَإِنَّ اللَّهَ عَزَّ وَجَلَّ لَمْ يَضَعْ دَاءً إِلاَّ وَضَعَ لَهُ دَوَاءً غَيْرَ دَاءٍ وَاحِدٍ الْهَرَمُ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3855، يذكر الدواء، والداء، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 3855 (Medicine (Kitab Al-Tibb)), that mentions the drug, the disease and its remedy, seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3855، جس میں دوا، بیماری، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3855 (book 29 hadith 1); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

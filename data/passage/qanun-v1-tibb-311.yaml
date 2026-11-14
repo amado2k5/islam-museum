@@ -1,0 +1,18 @@
+id: passage/qanun-v1-tibb-311
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "311"
+label: { ar: "القانون في الطب لابن سينا ج1، ص 311 — المرض والمريض، الوجع", en: "Ibn Sina's Canon of Medicine, vol. 1, p. 311 — illness and the sick; pain", ur: "القانون فی الطب، ابن سینا ج1، ص 311 — بیماری اور بیمار، درد" }
+text: "… نبدأ بعلاج المرض، إلا أن يغلبه العرض، فحينئذ نقصد فصد العرض ولا نلتفت إلى المرض، كما نسقي المخدّرات في القولنج الشديد الوجع إذا صعب، وإن كان يضرّ نفس القولنج، وكذلك ربما أخرنا الواجب من الفصد لضعف المعدة أو لإسهال متقدّم …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج1، ص 311، يذكر المرض والمريض، والوجع، وأسماء الأمراض، والعلاج، وأعضاء البدن، والجراحة والختان والجبائر؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 1, p. 311, that mentions illness and the sick, pain, named diseases, treatment, the organs of the body, surgery, circumcision and splints; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج1، ص 311 کا اقتباس جس میں بیماری اور بیمار، درد، بیماریوں کے نام، علاج، اعضائے بدن، جراحت، ختنہ اور پٹیاں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/canon-ibn-sina-print-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v1/canon-ibn-sina-print-v1, page 311; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v1]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

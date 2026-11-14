@@ -1,0 +1,16 @@
+id: passage/nasai-api-5581
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5581"
+label: { ar: "سنن النسائي 5581 — التداوي بالعسل", en: "Sunan al-Nasa'i 5581 — honey as a remedy", ur: "سنن نسائی 5581 — شہد سے علاج" }
+text: "… لَنَا شَرَابًا عَشِيًّا فَإِذَا أَصْبَحْنَا شَرِبْنَا. قَالَ أَنْهَاكَ عَنِ الْمُسْكِرِ قَلِيلِهِ وَكَثِيرِهِ وَأُشْهِدُ اللَّهَ عَلَيْكَ أَنْهَاكَ عَنِ الْمُسْكِرِ قَلِيلِهِ وَكَثِيرِهِ وَأُشْهِدُ اللَّهَ عَلَيْكَ إِنَّ أَهْلَ خَيْبَرَ يَنْتَبِذُونَ شَرَابًا مِنْ كَذَا وَكَذَا وَيُسَمُّونَهُ كَذَا وَكَذَا وَهِيَ الْخَمْرُ وَإِنَّ أَهْلَ فَدَكٍ يَنْتَبِذُونَ شَرَابًا مِنْ كَذَا وَكَذَا يُسَمُّونَهُ كَذَا وَكَذَا وَهِيَ الْخَمْرُ حَتَّى عَدَّ أَشْرِبَةً أَرْبَعَةً أَحَدُهَا الْعَسَلُ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 5581، يذكر التداوي بالعسل. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 5581 (The Book of Drinks), that mentions honey as a remedy. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 5581، جس میں شہد سے علاج کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5581 (book 51 hadith 43); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

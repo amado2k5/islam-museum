@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2103
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2103"
+label: { ar: "صحيح البخاري 2103 — الحجامة", en: "Sahih al-Bukhari 2103 — cupping", ur: "صحیح بخاری 2103 — حجامہ" }
+text: "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا خَالِدٌ ـ هُوَ ابْنُ عَبْدِ اللَّهِ ـ حَدَّثَنَا خَالِدٌ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍما ـ قَالَ احْتَجَمَ النَّبِيُّ وَأَعْطَى الَّذِي حَجَمَهُ، وَلَوْ كَانَ حَرَامًا لَمْ يُعْطِهِ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2103، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 2103 (Sales and Trade), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 2103، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2103 (book 34 hadith 56); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

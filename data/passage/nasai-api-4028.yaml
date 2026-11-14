@@ -1,0 +1,16 @@
+id: passage/nasai-api-4028
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4028"
+label: { ar: "سنن النسائي 4028 — ألبان الإبل وأبوالها", en: "Sunan al-Nasa'i 4028 — camel milk and urine as treatment", ur: "سنن نسائی 4028 — اونٹنی کا دودھ اور پیشاب" }
+text: "… عَبْدُ اللَّهِ بْنُ عُمَرَ، وَغَيْرُهُ، عَنْ حُمَيْدٍ الطَّوِيلِ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ نَاسًا، مِنْ عُرَيْنَةَ قَدِمُوا عَلَى رَسُولِ اللَّهِ فَاجْتَوَوُا الْمَدِينَةَ فَبَعَثَهُمُ النَّبِيُّ إِلَى ذَوْدٍ لَهُ فَشَرِبُوا مِنْ أَلْبَانِهَا وَأَبْوَالِهَا فَلَمَّا صَحُّوا ارْتَدُّوا عَنِ الإِسْلاَمِ وَقَتَلُوا رَاعِيَ رَسُولِ اللَّهِ مُؤْمِنًا وَاسْتَاقُوا الإِبِلَ فَبَعَثَ رَسُولُ اللَّهِ فِي آثَارِهِمْ فَأُخِذُوا فَقَطَّعَ أَيْدِيَهُمْ وَأَرْجُلَهُمْ وَسَمَلَ أَعْيُنَهُمْ وَصَلَبَهُمْ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4028، يذكر ألبان الإبل وأبوالها. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 4028 (The Book of Fighting [The Prohibition of Bloodshed]), that mentions camel milk and urine as treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 4028، جس میں اونٹنی کا دودھ اور پیشاب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4028 (book 37 hadith 63); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/qanun-v3-tibb-438
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "438"
+label: { ar: "القانون في الطب لابن سينا ج3، ص 438 — الوجع، الحمى والوعك", en: "Ibn Sina's Canon of Medicine, vol. 3, p. 438 — pain; fever", ur: "القانون فی الطب، ابن سینا ج3، ص 438 — درد، بخار" }
+text: "الكتاب الخامس الجملة الأولى: في المركّبات الراتبة في القراباذينات ويدرّ الطمث، والطحال والكلى والقولنج الكبد وجع المحتبس، ومن الجذام والبرص، ومن وجع النقرس والمفاصل والحقوين، ومن الحمّيات المزمنة المتقادمة وإسهاله بلا أذى. أخلاطه: يؤخذ صبر ستون درهماً، غاريقون أربعة وعشرون …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج3، ص 438، يذكر الوجع، والحمى والوعك، والجذام والبرص، وأسماء الأمراض، وأعضاء البدن؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 3, p. 438, that mentions pain, fever, leprosy and vitiligo, named diseases, the organs of the body; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج3، ص 438 کا اقتباس جس میں درد، بخار، جذام اور برص، بیماریوں کے نام، اعضائے بدن کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v3] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v3/canon-ibn-sina-print-v3, page 438; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

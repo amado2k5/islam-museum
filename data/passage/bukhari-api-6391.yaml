@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6391
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6391"
+label: { ar: "صحيح البخاري 6391 — الطب والطبيب، الوجع", en: "Sahih al-Bukhari 6391 — medicine and the physician; pain", ur: "صحیح بخاری 6391 — طب اور طبیب، درد" }
+text: "… اللَّهِ قَالَ \" جَاءَنِي رَجُلاَنِ فَجَلَسَ أَحَدُهُمَا عِنْدَ رَأْسِي، وَالآخَرُ عِنْدَ رِجْلَىَّ فَقَالَ أَحَدُهُمَا لِصَاحِبِهِ مَا وَجَعُ الرَّجُلِ قَالَ مَطْبُوبٌ. قَالَ مَنْ طَبَّهُ قَالَ لَبِيدُ بْنُ الأَعْصَمِ. قَالَ فِيمَا ذَا قَالَ فِي مُشْطٍ وَمُشَاطَةٍ وَجُفِّ طَلْعَةٍ. قَالَ فَأَيْنَ هُوَ قَالَ فِي ذَرْوَانَ، وَذَرْوَانُ بِئْرٌ فِي بَنِي زُرَيْقٍ \". قَالَتْ فَأَتَاهَا رَسُولُ اللَّهِ ثُمَّ رَجَعَ إِلَى …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6391، يذكر الطب والطبيب، والوجع. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 6391 (Invocations), that mentions medicine and the physician, pain. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 6391، جس میں طب اور طبیب، درد کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6391 (book 80 hadith 86); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/nasai-api-165
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "165"
+label: { ar: "سنن النسائي 165 — أطوار خلق الجنين", en: "Sunan al-Nasa'i 165 — the stages of the embryo", ur: "سنن نسائی 165 — جنین کے مراحل" }
+text: "… قَالَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ بَدْرٍ، عَنْ قَيْسِ بْنِ طَلْقِ بْنِ عَلِيٍّ، عَنْ أَبِيهِ، قَالَ خَرَجْنَا وَفْدًا حَتَّى قَدِمْنَا عَلَى رَسُولِ اللَّهِ فَبَايَعْنَاهُ وَصَلَّيْنَا مَعَهُ فَلَمَّا قَضَى الصَّلاَةَ جَاءَ رَجُلٌ كَأَنَّهُ بَدَوِيٌّ فَقَالَ يَا رَسُولَ اللَّهِ مَا تَرَى فِي رَجُلٍ مَسَّ ذَكَرَهُ فِي الصَّلاَةِ قَالَ \" وَهَلْ هُوَ إِلاَّ مُضْغَةٌ مِنْكَ أَوْ بَضْعَةٌ مِنْكَ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 165، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 165 (The Book of Purification), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 165، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 165 (book 1 hadith 166); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

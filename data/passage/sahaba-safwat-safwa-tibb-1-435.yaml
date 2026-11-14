@@ -1,0 +1,17 @@
+id: passage/sahaba-safwat-safwa-tibb-1-435
+class: passage
+unit: chapter
+work: work/sifat-al-safwa
+ref: "1:435"
+label: { ar: "صفة الصفوة لابن الجوزي، المجلد المصوَّر 1، ص 435 — الطب والطبيب، المرض والمريض", en: "Ibn al-Jawzi's Sifat al-Safwa, scan volume 1, p. 435 — medicine and the physician; illness and the sick", ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 1، ص 435 — طب اور طبیب، بیماری اور بیمار" }
+text: "… وقال المروزي: سمعت أبا عبد اللّٰه يقول: الخوف يمنعني من أكل الطعام والشراب، فما أشتهيه. قال المروزي : وبال أبو عبد اللّٰه في مرضه دماً، فأريته عبد الرحمن المتطبب، فقال: هذا رجل قد فتت الغمُّ والحزن كبده. وعن إبراهيم بن …"
+summary:
+  ar: "مقطع من صفة الصفوة لابن الجوزي، المجلد المصوَّر 1، ص 435، يذكر الطب والطبيب، والمرض والمريض، وأعضاء البدن؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Jawzi's Sifat al-Safwa, scan volume 1, p. 435, that mentions medicine and the physician, illness and the sick, the organs of the body; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 1، ص 435 کا اقتباس جس میں طب اور طبیب، بیماری اور بیمار، اعضائے بدن کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: mentions, target: concept/anatomy, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/safwat-safwa/20200206_20200206_0626, page 435; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

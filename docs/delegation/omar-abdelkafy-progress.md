@@ -2870,3 +2870,60 @@ Resume point: min-kunuz-al-sunnah episode 3 (branch from origin/main).
 | Loops and garbled stretches (a run of one sound, a stretch comparing the police and a criminal, a stretch on the repetition of a request for divorce, the end of the story of Harun al-Rashid) | ep03 00:00:30, 00:06:30, 00:07:00 (part), 00:25:00-00:25:30 | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 4 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep04 (14 Nov 2026)
+
+10 points written for episode 4 (ar, en, ur); 7 needs_source marks in each language file for this episode; 3 new `about` edges; no Quran verse cited by the lecturer in this episode.
+
+| Excluded (min-kunuz-al-sunnah ep04) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep04 00:00:00, 00:08:30-00:09:00, 00:17:00-00:17:30, 00:27:30 | Not lesson content | Content rule | Open |
+| Garbled stretches and side remarks (a stretch on fruit seasons and artificial milk, a closing stretch on ageing and cosmetics) | ep04 00:02:30-00:04:00, 00:25:30-00:26:00 | Not recoverable or off the lesson | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 5 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep05 (14 Nov 2026)
+
+12 points written for episode 5 (ar, en, ur); 6 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (9-103, 49-12, 24-30, 2-3, 9-111); none typed. Contested: the lecturer's view on handshakes between men and women is a disputed juristic question and is attributed to him; sensitivity stays contested.
+
+| Excluded (min-kunuz-al-sunnah ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep05 00:00:00, 00:10:00-00:10:30, 00:19:00-00:19:30, 00:26:30-00:27:30 | Not lesson content | Content rule | Open |
+| A naming of three peoples whose refugee camps he suggests visiting | ep05 00:16:00-00:16:30 (part) | Modern conflict aside; the proposal to visit camps is kept without the names, held for the founder to decide | Content rule | Open |
+| Garbled stretches (the cases of intention and finding in the discussion on breaking ablution, the long remark on the mother and a youth) | ep05 00:05:30-00:06:30 (part), 00:07:00 (part) | Not recoverable | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 6 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep06 (14 Nov 2026)
+
+12 points written for episode 6 (ar, en, ur); 8 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (6-153, 42-49, 42-50, 2-228, 4-11, 24-30, 49-11, 49-12, 5-3); none typed.
+
+| Excluded (min-kunuz-al-sunnah ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep06 00:00:00, 00:08:00-00:08:30, 00:17:30-00:18:00, 00:27:00-00:27:30 | Not lesson content | Content rule | Open |
+| A sweeping claim that the shorter a woman's dress the less her reason | ep06 00:07:30-00:08:00 (part) | Demeaning generalisation about women, unsourced; not written in the museum's voice; held for the founder to decide | Content rule, Voice rule | Open |
+| Loops and garbled stretches (a repeated phrase on a saying attributed to Ali, a loop over the list of what he believes, a loop on the worker who wastes hours) | ep06 00:06:00-00:06:30, 00:10:30-00:11:00, 00:15:00-00:15:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 7 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep07 (14 Nov 2026)
+
+12 points written for episode 7 (ar, en, ur); 8 needs_source marks in each language file for this episode; 10 new `about` edges. Quran verses referenced only through passage links (29-2, 29-3, 26-218, 26-219); none typed.
+
+| Excluded (min-kunuz-al-sunnah ep07) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep07 00:00:00, 00:09:30-00:10:00, 00:17:00-00:17:30, 00:24:30 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (a run of one letter, the stretch on limestone temperaments, the stretch on the Companions' attention to the world) | ep07 00:01:00, 00:07:30-00:08:30 (part), 00:13:00 (part) | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 8 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep08 (14 Nov 2026)
+
+10 points written for episode 8 (ar, en, ur); 5 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (37-101, 51-28, 11-75, 59-9, 64-16, 17-29, 4-171, 42-11, 6-103); none typed.
+
+| Excluded (min-kunuz-al-sunnah ep08) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep08 00:00:00, 00:08:00-00:08:30, 00:15:30-00:16:30 (part), 00:25:30-00:26:00 | Not lesson content | Content rule | Open |
+| A remark calling Isaac the ancestor of one people, a loop on the structure of the word for righteousness, and a loop in the story of Abu Hanifa | ep08 00:05:30-00:06:00 (part), 00:02:30-00:03:00, 00:22:30 | Off the lesson or not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 9 (branch from origin/main).

@@ -1,0 +1,20 @@
+id: passage/qanun-v1-tibb-510
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "510"
+label: { ar: "القانون في الطب لابن سينا ج1، ص 510 — الوجع، أعضاء البدن", en: "Ibn Sina's Canon of Medicine, vol. 1, p. 510 — pain; the organs of the body", ur: "القانون فی الطب، ابن سینا ج1، ص 510 — درد، اعضائے بدن" }
+text: "… رطباً، ولبن اللفاح يقلع النمش والكلف بلا لذع ولا حرقة. يستعمل على الأورام الصلبة : الأورام والبثور على الجمرة أبرأها، ويزيل البثور أيضاً. آلات المفاصل : أصله بالسويق ضمّاد لوجع المفاصل، وقد يشفي من داء الفيل. أعضاء الرأس : مُسْبِت …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج1، ص 510، يذكر الوجع، وأعضاء البدن، والجراحة والختان والجبائر، والداء، والشفاء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 1, p. 510, that mentions pain, the organs of the body, surgery, circumcision and splints, the disease and its remedy, healing; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج1، ص 510 کا اقتباس جس میں درد، اعضائے بدن، جراحت، ختنہ اور پٹیاں، بیماری، شفا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/tadawi, sources: [source/canon-ibn-sina-print-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v1/canon-ibn-sina-print-v1, page 510; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v1]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

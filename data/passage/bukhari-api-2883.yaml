@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2883
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2883"
+label: { ar: "صحيح البخاري 2883 — مداواة الجراح، مداواة النساء للجرحى", en: "Sahih al-Bukhari 2883 — the treatment of wounds; women treating the wounded", ur: "صحیح بخاری 2883 — زخموں کا علاج، خواتین کا زخمیوں کا علاج" }
+text: "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا بِشْرُ بْنُ الْمُفَضَّلِ، عَنْ خَالِدِ بْنِ ذَكْوَانَ، عَنِ الرُّبَيِّعِ بِنْتِ مُعَوِّذٍ، قَالَتْ كُنَّا نَغْزُو مَعَ النَّبِيِّ فَنَسْقِي الْقَوْمَ وَنَخْدُمُهُمْ، وَنَرُدُّ الْجَرْحَى وَالْقَتْلَى إِلَى الْمَدِينَةِ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2883، يذكر مداواة الجراح، ومداواة النساء للجرحى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 2883 (Fighting for the Cause of Allah (Jihaad)), that mentions the treatment of wounds, women treating the wounded. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 2883، جس میں زخموں کا علاج، خواتین کا زخمیوں کا علاج کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2883 (book 56 hadith 98); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

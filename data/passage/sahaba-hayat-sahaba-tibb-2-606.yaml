@@ -1,0 +1,18 @@
+id: passage/sahaba-hayat-sahaba-tibb-2-606
+class: passage
+unit: chapter
+work: work/hayat-al-sahaba
+ref: "2:606"
+label: { ar: "حياة الصحابة للكاندهلوي، المجلد المصوَّر 2، ص 606 — المرض والمريض، مداواة الجراح", en: "al-Kandahlawi's Hayat al-Sahaba, scan volume 2, p. 606 — illness and the sick; the treatment of wounds", ur: "حیاۃ الصحابہ، کاندھلوی، اسکین جلد 2، ص 606 — بیماری اور بیمار، زخموں کا علاج" }
+text: "… تأذن ان اخرج فى جيش كذا وكذا. قال: لا. قالت: يا رسول اللّٰه - - ! انه ليس أريد ان اقاتل، انما اريد اداوى الجرحى، والمرضى او أسقى المرضى. قال: لولا ان تكون سنّة ويقال: فلانة خرجت لأذنت لك، ولكن …"
+summary:
+  ar: "مقطع من حياة الصحابة للكاندهلوي، المجلد المصوَّر 2، ص 606، يذكر المرض والمريض، ومداواة الجراح، ومداواة النساء للجرحى، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Kandahlawi's Hayat al-Sahaba, scan volume 2, p. 606, that mentions illness and the sick, the treatment of wounds, women treating the wounded, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "حیاۃ الصحابہ، کاندھلوی، اسکین جلد 2، ص 606 کا اقتباس جس میں بیماری اور بیمار، زخموں کا علاج، خواتین کا زخمیوں کا علاج، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+  - { type: mentions, target: concept/tadawi, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/hayat-sahaba/AAlexandrina-094235, page 606; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hayat-al-sahaba-kandahlawi-sabbani]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

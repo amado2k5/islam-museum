@@ -1,0 +1,18 @@
+id: passage/ibnmajah-api-3523
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3523"
+label: { ar: "سنن ابن ماجه 3523 — الرقية، الشكوى من العلة", en: "Sunan Ibn Majah 3523 — ruqya recited over the sick; a complaint of an ailment", ur: "سنن ابن ماجہ 3523 — رقیہ، بیماری کی شکایت" }
+text: "حَدَّثَنَا بِشْرُ بْنُ هِلاَلٍ الصَّوَّافُ، حَدَّثَنَا عَبْدُ الْوَارِثِ، عَنْ عَبْدِ الْعَزِيزِ بْنِ صُهَيْبٍ، عَنْ أَبِي نَضْرَةَ، عَنْ أَبِي سَعِيدٍ، أَنَّ جِبْرَائِيلَ، أَتَى النَّبِيَّ ـ فَقَالَ يَا مُحَمَّدُ اشْتَكَيْتَ قَالَ \" نَعَمْ \". قَالَ بِسْمِ اللَّهِ أَرْقِيكَ مِنْ كُلِّ شَىْءٍ يُؤْذِيكَ مِنْ شَرِّ كُلِّ نَفْسٍ أَوْ عَيْنٍ أَوْ حَاسِدٍ اللَّهُ يَشْفِيكَ بِسْمِ اللَّهِ أَرْقِيكَ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3523، يذكر الرقية، والشكوى من العلة، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3523 (Chapters on Medicine), that mentions ruqya recited over the sick, a complaint of an ailment, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3523، جس میں رقیہ، بیماری کی شکایت، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3523 (book 31 hadith 88); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

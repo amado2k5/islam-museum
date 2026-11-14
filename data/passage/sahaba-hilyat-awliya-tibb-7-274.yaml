@@ -1,0 +1,17 @@
+id: passage/sahaba-hilyat-awliya-tibb-7-274
+class: passage
+unit: chapter
+work: work/hilyat-al-awliya
+ref: "7:274"
+label: { ar: "حلية الأولياء لأبي نعيم، المجلد المصوَّر 7، ص 274 — الطب والطبيب، المرض والمريض", en: "Abu Nu'aym's Hilyat al-Awliya', scan volume 7, p. 274 — medicine and the physician; illness and the sick", ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 7، ص 274 — طب اور طبیب، بیماری اور بیمار" }
+text: "… فيسأل عيسى عن شرار أهلها، ويسأل يحيي عن خيار أهلها، فقال له يحيى : لم تنزل على شرار الناس قال : إنما أنا طبيب أداوى المرضى. حدثنا أبو بكر بن مالك أنا عبد اللّٰه حدثنى أبو معمر عن سفيان قال: …"
+summary:
+  ar: "مقطع من حلية الأولياء لأبي نعيم، المجلد المصوَّر 7، ص 274، يذكر الطب والطبيب، والمرض والمريض، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Abu Nu'aym's Hilyat al-Awliya', scan volume 7, p. 274, that mentions medicine and the physician, illness and the sick, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 7، ص 274 کا اقتباس جس میں طب اور طبیب، بیماری اور بیمار، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: mentions, target: concept/tadawi, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/hilyat-awliya/hilyah-07, page 274; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

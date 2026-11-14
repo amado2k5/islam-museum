@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-2067
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2067"
+label: { ar: "جامع الترمذي 2067 — الكمأة، الشفاء", en: "Jami' al-Tirmidhi 2067 — truffles and their water for the eye; healing", ur: "جامع ترمذی 2067 — کھمبی، شفا" }
+text: "… قال حَدَّثَنَا عُمَرُ بْنُ عُبَيْدٍ الطَّنَافِسِيُّ، عَنْ عَبْدِ الْمَلِكِ بْنِ عُمَيْرٍ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قال حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، قال حَدَّثَنَا شُعْبَةُ، عَنْ عَبْدِ الْمَلِكِ بْنِ عُمَيْرٍ، عَنْ عَمْرِو بْنِ حُرَيْثٍ، عَنْ سَعِيدِ بْنِ زَيْدٍ، عَنِ النَّبِيِّ قَالَ \" الْكَمْأَةُ مِنَ الْمَنِّ وَمَاؤُهَا شِفَاءٌ لِلْعَيْنِ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2067، يذكر الكمأة، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 2067 (Chapters on Medicine), that mentions truffles and their water for the eye, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 2067، جس میں کھمبی، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2067 (book 28 hadith 32); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-3459
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3459"
+label: { ar: "سنن ابن ماجه 3459 — الدواء، السم والترياق", en: "Sunan Ibn Majah 3459 — the drug; poison and antidote", ur: "سنن ابن ماجہ 3459 — دوا، زہر اور تریاق" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ يُونُسَ بْنِ أَبِي إِسْحَاقَ، عَنْ مُجَاهِدٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ نَهَى رَسُولُ اللَّهِ ـ عَنِ الدَّوَاءِ الْخَبِيثِ. يَعْنِي السُّمَّ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3459، يذكر الدواء، والسم والترياق، والتداوي بالمحرم. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3459 (Chapters on Medicine), that mentions the drug, poison and antidote, treatment with what is forbidden. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3459، جس میں دوا، زہر اور تریاق، حرام سے علاج کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3459 (book 31 hadith 24); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

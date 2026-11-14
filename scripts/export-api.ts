@@ -32,6 +32,7 @@ import { JANNA_TAG, jannaCorpusOf, jannaKindOf, jannaSignalsOf, jannaTagSection,
 import { MUKATABAT_TAG, mukatabatCorpusOf, mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf, mukatabatTagSection, mukatabatTagSender, isMukatabatPassage } from "./mukatabat.js";
 import { NAR_TAG, narKindOf, narSectionOf, narSignalsOf, narTagSection, isNarPassage } from "./nar.js";
 import { QIYAMA_TAG, qiyamaCorpusOf, qiyamaKindOf, qiyamaSignalsOf, qiyamaTagSection, isQiyamaPassage, type QiyamaKind } from "./qiyama.js";
+import { TIBB_TAG, tibbCorpusOf, tibbSignalsOf, tibbTagSection, tibbTagTopics, tibbTopicsOfSignals } from "./tibb.js";
 import { USRA_TAG, usraCorpusOf, usraSignalsOf, usraTagSection, usraTopicsOf, isUsraPassage } from "./usra.js";
 import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
@@ -375,6 +376,19 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       qiyama_kind: n.class === "passage" ? qiyamaKindOf(n) : null,
       signals: n.class === "passage" ? qiyamaSignalsOf(n) : [],
     }) },
+  { file: "tibb.json", feature: "tibb-browser",
+    pick: (n) => n.tags.includes(TIBB_TAG) || tibbSignalsOf(n).length > 0,
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => {
+      const signals = n.class === "passage" ? tibbSignalsOf(n) : [];
+      return {
+        section: n.class === "passage"
+          ? tibbCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+          : tibbTagSection(n),
+        topics: n.class === "passage" ? [...new Set([...tibbTopicsOfSignals(signals), ...tibbTagTopics(n)])] : tibbTagTopics(n),
+        signals,
+      };
+    } },
   { file: "usra.json", feature: "usra-browser",
     pick: (n) => n.tags.includes(USRA_TAG) || isUsraPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],

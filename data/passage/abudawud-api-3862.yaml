@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3862
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3862"
+label: { ar: "سنن أبي داود 3862 — الحجامة", en: "Sunan Abi Dawud 3862 — cupping", ur: "سنن ابی داؤد 3862 — حجامہ" }
+text: "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، أَخْبَرَنِي أَبُو بَكْرَةَ، بَكَّارُ بْنُ عَبْدِ الْعَزِيزِ أَخْبَرَتْنِي عَمَّتِي، كَبْشَةُ بِنْتُ أَبِي بَكْرَةَ - وَقَالَ غَيْرُ مُوسَى كَيِّسَةُ بِنْتُ أَبِي بَكْرَةَ - أَنَّ أَبَاهَا، كَانَ يَنْهَى أَهْلَهُ عَنِ الْحِجَامَةِ، يَوْمَ الثُّلاَثَاءِ وَيَزْعُمُ عَنْ رَسُولِ اللَّهِ أَنَّ يَوْمَ الثُّلاَثَاءِ يَوْمُ الدَّمِ وَفِيهِ سَاعَةٌ لاَ يَرْقَأُ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3862، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 3862 (Medicine (Kitab Al-Tibb)), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3862، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3862 (book 29 hadith 8); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

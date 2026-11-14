@@ -1,0 +1,17 @@
+id: passage/zad-maad-tibb-1-1097
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:1097"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 1097 — المرض والمريض، الوجع", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 1097 — illness and the sick; pain", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 1097 — بیماری اور بیمار، درد" }
+text: "… هدية في علاج الصُّداع والشقيقة حقيقة الصداع أسباب الصداع فصل سبب صداع الشقيقة وتعصيب الرأس يسكن الوجع فصل علاج الصداع العلاج بالحناء جزئي فصل منافع الحناء وخواصه فصل : في هديه في معالجة المرضى بترك إعطائهم ما يكرهونه من الطعام …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 1097، يذكر المرض والمريض، والوجع، وأسماء الأمراض، والعلاج، والحناء دواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 1097, that mentions illness and the sick, pain, named diseases, treatment, henna as a remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 1097 کا اقتباس جس میں بیماری اور بیمار، درد، بیماریوں کے نام، علاج، مہندی بطور دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 1097; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

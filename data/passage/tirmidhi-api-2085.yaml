@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-2085
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2085"
+label: { ar: "جامع الترمذي 2085 — مداواة الجراح", en: "Jami' al-Tirmidhi 2085 — the treatment of wounds", ur: "جامع ترمذی 2085 — زخموں کا علاج" }
+text: "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، قال حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي حَازِمٍ، قَالَ سُئِلَ سَهْلُ بْنُ سَعْدٍ وَأَنَا أَسْمَعُ، بِأَىِّ شَيْءٍ دُووِيَ جُرْحُ رَسُولِ اللَّهِ فَقَالَ مَا بَقِيَ أَحَدٌ أَعْلَمُ بِهِ مِنِّي كَانَ عَلِيٌّ يَأْتِي بِالْمَاءِ فِي تُرْسِهِ وَفَاطِمَةُ تَغْسِلُ عَنْهُ الدَّمَ وَأُحْرِقَ لَهُ حَصِيرٌ فَحُشِيَ بِهِ جُرْحُهُ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2085، يذكر مداواة الجراح. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 2085 (Chapters on Medicine), that mentions the treatment of wounds. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 2085، جس میں زخموں کا علاج کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2085 (book 28 hadith 50); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

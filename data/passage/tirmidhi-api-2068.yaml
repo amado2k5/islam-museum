@@ -1,0 +1,19 @@
+id: passage/tirmidhi-api-2068
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2068"
+label: { ar: "جامع الترمذي 2068 — الكمأة، تمر العجوة", en: "Jami' al-Tirmidhi 2068 — truffles and their water for the eye; 'ajwa dates", ur: "جامع ترمذی 2068 — کھمبی، عجوہ کھجور" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قال حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، قال حَدَّثَنَا أَبِي، عَنْ قَتَادَةَ، عَنْ شَهْرِ بْنِ حَوْشَبٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ نَاسًا، مِنْ أَصْحَابِ النَّبِيِّ قَالُوا الْكَمْأَةُ جُدَرِيُّ الأَرْضِ فَقَالَ النَّبِيُّ \" الْكَمْأَةُ مِنَ الْمَنِّ وَمَاؤُهَا شِفَاءٌ لِلْعَيْنِ وَالْعَجْوَةُ مِنَ الْجَنَّةِ وَهِيَ شِفَاءٌ مِنَ السُّمِّ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2068، يذكر الكمأة، وتمر العجوة، وأسماء الأمراض، والسم والترياق، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 2068 (Chapters on Medicine), that mentions truffles and their water for the eye, 'ajwa dates, named diseases, poison and antidote, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 2068، جس میں کھمبی، عجوہ کھجور، بیماریوں کے نام، زہر اور تریاق، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2068 (book 28 hadith 33); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

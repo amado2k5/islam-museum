@@ -1,0 +1,18 @@
+id: passage/ibnmajah-api-3527
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3527"
+label: { ar: "سنن ابن ماجه 3527 — الرقية، الحمى والوعك", en: "Sunan Ibn Majah 3527 — ruqya recited over the sick; fever", ur: "سنن ابن ماجہ 3527 — رقیہ، بخار" }
+text: "حَدَّثَنَا عَمْرُو بْنُ عُثْمَانَ بْنِ سَعِيدِ بْنِ كَثِيرِ بْنِ دِينَارٍ الْحِمْصِيُّ، حَدَّثَنَا أَبِي، عَنِ ابْنِ ثَوْبَانَ، عَنْ عُمَيْرٍ، أَنَّهُ سَمِعَ جُنَادَةَ بْنَ أَبِي أُمَيَّةَ، قَالَ سَمِعْتُ عُبَادَةَ بْنَ الصَّامِتِ، يَقُولُ أَتَى جِبْرَائِيلُ النَّبِيَّ ـ وَهُوَ يُوعَكُ فَقَالَ بِسْمِ اللَّهِ أَرْقِيكَ مِنْ كُلِّ شَىْءٍ يُؤْذِيكَ مِنْ حَسَدِ حَاسِدٍ وَمِنْ كُلِّ عَيْنٍ اللَّهُ يَشْفِيكَ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3527، يذكر الرقية، والحمى والوعك، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3527 (Chapters on Medicine), that mentions ruqya recited over the sick, fever, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3527، جس میں رقیہ، بخار، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3527 (book 31 hadith 92); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

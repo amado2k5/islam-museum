@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-3449
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3449"
+label: { ar: "سنن ابن ماجه 3449 — الحبة السوداء، المرض والمريض", en: "Sunan Ibn Majah 3449 — the black seed; illness and the sick", ur: "سنن ابن ماجہ 3449 — کلونجی، بیماری اور بیمار" }
+text: "… عُبَيْدُ اللَّهِ، أَنْبَأَنَا إِسْرَائِيلُ، عَنْ مَنْصُورٍ، عَنْ خَالِدِ بْنِ سَعْدٍ، قَالَ خَرَجْنَا وَمَعَنَا غَالِبُ بْنُ أَبْجَرَ فَمَرِضَ فِي الطَّرِيقِ فَقَدِمْنَا الْمَدِينَةَ وَهُوَ مَرِيضٌ فَعَادَهُ ابْنُ أَبِي عَتِيقٍ وَقَالَ لَنَا عَلَيْكُمْ بِهَذِهِ الْحَبَّةِ السَّوْدَاءِ فَخُذُوا مِنْهَا خَمْسًا أَوْ سَبْعًا فَاسْحَقُوهَا ثُمَّ اقْطُرُوهَا فِي أَنْفِهِ بِقَطَرَاتِ زَيْتٍ فِي هَذَا الْجَانِبِ وَفِي هَذَا الْجَانِبِ فَإِنَّ عَائِشَةَ حَدَّثَتْهُمْ أَنَّهَا …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3449، يذكر الحبة السوداء، والمرض والمريض، وعيادة المريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3449 (Chapters on Medicine), that mentions the black seed, illness and the sick, visiting the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3449، جس میں کلونجی، بیماری اور بیمار، بیمار کی عیادت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3449 (book 31 hadith 14); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

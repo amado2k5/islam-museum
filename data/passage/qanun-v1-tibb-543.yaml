@@ -1,0 +1,17 @@
+id: passage/qanun-v1-tibb-543
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "543"
+label: { ar: "القانون في الطب لابن سينا ج1، ص 543 — الوجع، الحمى والوعك", en: "Ibn Sina's Canon of Medicine, vol. 1, p. 543 — pain; fever", ur: "القانون فی الطب، ابن سینا ج1، ص 543 — درد، بخار" }
+text: "… الأمعاء وللإسهال المريء، شرباً من بزره، واحتقاناً من عصارته، ويحبس نزف البواسير، ويشرب ورقه بالطلاء لوجع المثانة والكلى الحمّيات : قيل: إنه نافع من الحمّى المثلثة يعني الغبّ. وقيل: إنه يجب أن يشرب للغبّ ثلاثة من أصوله في أربع أواق …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج1، ص 543، يذكر الوجع، والحمى والوعك، والحمى، وأسماء الأمراض، وأعضاء البدن؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 1, p. 543, that mentions pain, fever, fever, named diseases, the organs of the body; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج1، ص 543 کا اقتباس جس میں درد، بخار، بخار، بیماریوں کے نام، اعضائے بدن کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v1/canon-ibn-sina-print-v1, page 543; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v1]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

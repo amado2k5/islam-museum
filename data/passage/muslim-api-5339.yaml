@@ -1,0 +1,17 @@
+id: passage/muslim-api-5339
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5339"
+label: { ar: "صحيح مسلم 5339 — تمر العجوة، السم", en: "Sahih Muslim 5339 — 'ajwa dates; poison", ur: "صحیح مسلم 5339 — عجوہ کھجور، زہر" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ هَاشِمِ بْنِ هَاشِمٍ، قَالَ سَمِعْتُ عَامِرَ بْنَ سَعْدِ بْنِ أَبِي وَقَّاصٍ، يَقُولُ سَمِعْتُ سَعْدًا، يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" مَنْ تَصَبَّحَ بِسَبْعِ تَمَرَاتٍ عَجْوَةً لَمْ يَضُرَّهُ ذَلِكَ الْيَوْمَ سُمٌّ وَلاَ سِحْرٌ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5339، يذكر تمر العجوة، والسم. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5339 (The Book of Drinks), that mentions 'ajwa dates, poison. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5339، جس میں عجوہ کھجور، زہر کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5339 (book 36 hadith 213); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

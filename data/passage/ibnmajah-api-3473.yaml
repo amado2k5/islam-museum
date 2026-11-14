@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3473
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3473"
+label: { ar: "سنن ابن ماجه 3473 — الحمى", en: "Sunan Ibn Majah 3473 — fever", ur: "سنن ابن ماجہ 3473 — بخار" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا مُصْعَبُ بْنُ الْمِقْدَامِ، حَدَّثَنَا إِسْرَائِيلُ، عَنْ سَعِيدِ بْنِ مَسْرُوقٍ، عَنْ عَبَايَةَ بْنِ رِفَاعَةَ، عَنْ رَافِعِ بْنِ خَدِيجٍ، قَالَ سَمِعْتُ النَّبِيَّ ـ يَقُولُ \" الْحُمَّى مِنْ فَيْحِ جَهَنَّمَ فَابْرُدُوهَا بِالْمَاءِ \". فَدَخَلَ عَلَى ابْنٍ لِعَمَّارٍ فَقَالَ \" اكْشِفِ الْبَاسْ رَبَّ النَّاسْ إِلَهَ النَّاسْ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3473، يذكر الحمى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3473 (Chapters on Medicine), that mentions fever. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3473، جس میں بخار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3473 (book 31 hadith 38); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

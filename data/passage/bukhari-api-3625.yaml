@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3625
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3625"
+label: { ar: "صحيح البخاري 3625 — مرض النبي، الوجع", en: "Sahih al-Bukhari 3625 — the Prophet's illness; pain", ur: "صحیح بخاری 3625 — نبی کی بیماری، درد" }
+text: "… بْنُ قَزَعَةَ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنْ أَبِيهِ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَا ـ قَالَتْ دَعَا النَّبِيُّ فَاطِمَةَ ابْنَتَهُ فِي شَكْوَاهُ الَّذِي قُبِضَ فِيهِ، فَسَارَّهَا بِشَىْءٍ فَبَكَتْ، ثُمَّ دَعَاهَا، فَسَارَّهَا فَضَحِكَتْ، قَالَتْ فَسَأَلْتُهَا عَنْ ذَلِكَ. فَقَالَتْ سَارَّنِي النَّبِيُّ فَأَخْبَرَنِي أَنَّهُ يُقْبَضُ فِي وَجَعِهِ الَّذِي تُوُفِّيَ فِيهِ فَبَكَيْتُ، ثُمَّ سَارَّنِي فَأَخْبَرَنِي أَنِّي أَوَّلُ أَهْلِ بَيْتِهِ أَتْبَعُهُ فَضَحِكْتُ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3625، يذكر مرض النبي، والوجع. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 3625, that mentions the Prophet's illness, pain. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 3625، جس میں نبی کی بیماری، درد کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3625 (book 0 hadith 0); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

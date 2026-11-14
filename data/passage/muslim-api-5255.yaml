@@ -1,0 +1,16 @@
+id: passage/muslim-api-5255
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5255"
+label: { ar: "صحيح مسلم 5255 — الطاعون والوباء", en: "Sahih Muslim 5255 — plague and epidemic", ur: "صحیح مسلم 5255 — طاعون اور وبا" }
+text: "… عَنْ يَحْيَى بْنِ سَعِيدٍ، عَنْ جَعْفَرِ بْنِ عَبْدِ اللَّهِ بْنِ الْحَكَمِ، عَنِ الْقَعْقَاعِ بْنِ حَكِيمٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" غَطُّوا الإِنَاءَ وَأَوْكُوا السِّقَاءَ فَإِنَّ فِي السَّنَةِ لَيْلَةً يَنْزِلُ فِيهَا وَبَاءٌ لاَ يَمُرُّ بِإِنَاءٍ لَيْسَ عَلَيْهِ غِطَاءٌ أَوْ سِقَاءٍ لَيْسَ عَلَيْهِ وِكَاءٌ إِلاَّ نَزَلَ فِيهِ مِنْ ذَلِكَ الْوَبَاءِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5255، يذكر الطاعون والوباء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5255 (The Book of Drinks), that mentions plague and epidemic. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5255، جس میں طاعون اور وبا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5255 (book 36 hadith 129); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

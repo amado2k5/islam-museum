@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3261
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3261"
+label: { ar: "صحيح البخاري 3261 — الحمى", en: "Sahih al-Bukhari 3261 — fever", ur: "صحیح بخاری 3261 — بخار" }
+text: "حَدَّثَنِي عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا أَبُو عَامِرٍ، حَدَّثَنَا هَمَّامٌ، عَنْ أَبِي جَمْرَةَ الضُّبَعِيِّ، قَالَ كُنْتُ أُجَالِسُ ابْنَ عَبَّاسٍ بِمَكَّةَ، فَأَخَذَتْنِي الْحُمَّى، فَقَالَ أَبْرِدْهَا عَنْكَ بِمَاءِ زَمْزَمَ، فَإِنَّ رَسُولَ اللَّهِ قَالَ \" الْحُمَّى مِنْ فَيْحِ جَهَنَّمَ فَأَبْرِدُوهَا بِالْمَاءِ \". أَوْ قَالَ \" بِمَاءِ زَمْزَمَ \". شَكَّ هَمَّامٌ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3261، يذكر الحمى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 3261 (Beginning of Creation), that mentions fever. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 3261، جس میں بخار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3261 (book 59 hadith 71); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

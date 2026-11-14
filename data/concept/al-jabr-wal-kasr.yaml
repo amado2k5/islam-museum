@@ -1,0 +1,23 @@
+id: concept/al-jabr-wal-kasr
+class: concept
+kind: scientific
+label: { ar: "جبر الكسور والخلع", en: "Setting fractures and dislocations (al-jabr wal-kasr)", ur: "ٹوٹی ہڈی اور جوڑ اترنے کا علاج" }
+summary:
+  ar: "يخصّص ابن سينا الفن الخامس من الكتاب الرابع في «القانون» للجبر، في ثلاث مقالات: الخلع وما يتعلق به، وأصول كلية في الكسر، وكسور الأعضاء عضواً عضواً من القحف إلى أصابع الرجل {cite:canon-ibn-sina-print-v3 pp.245-280}. ويعرّف الخلع بأنه خروج العظم عن موضعه الطبيعي، والكسر بأنه تفرّق الاتصال الخاص بالعظم {cite:canon-ibn-sina-print-v3 pp.245, 257}. ويقوم الجبر عنده على المدّ بمقدار، ثم نصب العظمين على الاستقامة، ثم الرفائد والرباطات والجبائر، وتعهّد ذلك حتى يتكوّن الدشبذ، أي الجسر الذي يلحم طرفي العظم {cite:canon-ibn-sina-print-v3 pp.258-263}."
+  en: "Ibn Sina devotes the fifth fann of Book IV of the Canon to bone-setting, in three treatises: dislocation and what goes with it, general principles of fracture, and fractures of each part of the body from the skull to the toes {cite:canon-ibn-sina-print-v3 pp.245-280}. He defines dislocation as the departure of a bone from its natural place, and fracture as the break in continuity that is peculiar to bone {cite:canon-ibn-sina-print-v3 pp.245, 257}. For him setting rests on traction in due measure, then aligning the two bone ends, then pads, bandages and splints, with continued attention until the callus forms {cite:canon-ibn-sina-print-v3 pp.258-263}."
+  ur: "ابن سینا «قانون» کی چوتھی کتاب کا پانچواں فن جبر، یعنی ہڈی بٹھانے، کے لیے مخصوص کرتے ہیں، اور اسے تین مقالوں میں بانٹتے ہیں: جوڑ اترنا اور اس سے متعلق امور، ٹوٹنے کے عمومی اصول، اور کھوپڑی سے پاؤں کی انگلیوں تک ہر عضو کے ٹوٹنے کا بیان {cite:canon-ibn-sina-print-v3 pp.245-280}۔ وہ خلع کو ہڈی کا اپنی قدرتی جگہ سے نکل جانا اور کسر کو ہڈی سے مخصوص اتصال کا ٹوٹنا قرار دیتے ہیں {cite:canon-ibn-sina-print-v3 pp.245, 257}۔ ان کے نزدیک جبر کی بنیاد مناسب مقدار میں کھینچنا، پھر دونوں ہڈیوں کو سیدھا بٹھانا، پھر گدیاں، پٹیاں اور پھٹیاں لگانا، اور دشبذ یعنی ہڈی کا جوڑ بننے تک نگرانی کرنا ہے {cite:canon-ibn-sina-print-v3 pp.258-263}۔"
+wings: [ideas]
+themes: [health-body-death]
+tags: [tibb-browser, tibb-jiraha]
+sources: [source/canon-ibn-sina-print-v3, source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: related_to, target: concept/al-jiraha, sources: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print-v3] }
+  - { type: related_to, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v3] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 3, Book IV, Fann 5 on bone-setting (scan pages 245 to 280) and vol. 1, Book I, Fann 4, chapter 28 (scan pages 306 to 307), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read from the OCR on the harvest drive"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-2
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

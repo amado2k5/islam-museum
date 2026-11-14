@@ -1,0 +1,17 @@
+id: passage/muslim-api-5769
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5769"
+label: { ar: "صحيح مسلم 5769 — التلبينة، المرض والمريض", en: "Sahih Muslim 5769 — talbina (barley gruel); illness and the sick", ur: "صحیح مسلم 5769 — تلبینہ، بیماری اور بیمار" }
+text: "… خَالِدٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، زَوْجِ النَّبِيِّ أَنَّهَا كَانَتْ إِذَا مَاتَ الْمَيِّتُ مِنْ أَهْلِهَا فَاجْتَمَعَ لِذَلِكَ النِّسَاءُ ثُمَّ تَفَرَّقْنَ إِلاَّ أَهْلَهَا وَخَاصَّتَهَا - أَمَرَتْ بِبُرْمَةٍ مِنْ تَلْبِينَةٍ فَطُبِخَتْ ثُمَّ صُنِعَ ثَرِيدٌ فَصُبَّتِ التَّلْبِينَةُ عَلَيْهَا ثُمَّ قَالَتْ كُلْنَ مِنْهَا فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" التَّلْبِينَةُ مَجَمَّةٌ لِفُؤَادِ الْمَرِيضِ تُذْهِبُ بَعْضَ الْحُزْنِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5769، يذكر التلبينة، والمرض والمريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5769 (The Book of Greetings), that mentions talbina (barley gruel), illness and the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5769، جس میں تلبینہ، بیماری اور بیمار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5769 (book 39 hadith 121); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

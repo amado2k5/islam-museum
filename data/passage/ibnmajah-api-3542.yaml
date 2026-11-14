@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3542
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3542"
+label: { ar: "سنن ابن ماجه 3542 — الجذام والبرص", en: "Sunan Ibn Majah 3542 — leprosy and vitiligo", ur: "سنن ابن ماجہ 3542 — جذام اور برص" }
+text: "حَدَّثَنَا أَبُو بَكْرٍ، وَمُجَاهِدُ بْنُ مُوسَى، وَمُحَمَّدُ بْنُ خَلَفٍ الْعَسْقَلاَنِيُّ، قَالُوا حَدَّثَنَا يُونُسُ بْنُ مُحَمَّدٍ، حَدَّثَنَا مُفَضَّلُ بْنُ فَضَالَةَ، عَنْ حَبِيبِ بْنِ الشَّهِيدِ، عَنْ مُحَمَّدِ بْنِ الْمُنْكَدِرِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ ـ أَخَذَ بِيَدِ رَجُلٍ مَجْذُومٍ فَأَدْخَلَهَا مَعَهُ فِي الْقَصْعَةِ ثُمَّ قَالَ \" كُلْ ثِقَةً بِاللَّهِ وَتَوَكُّلاً عَلَى اللَّهِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3542، يذكر الجذام والبرص. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3542 (Chapters on Medicine), that mentions leprosy and vitiligo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3542، جس میں جذام اور برص کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3542 (book 31 hadith 107); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

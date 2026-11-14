@@ -1,0 +1,17 @@
+id: passage/abudawud-api-3857
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3857"
+label: { ar: "سنن أبي داود 3857 — الحجامة، التداوي", en: "Sunan Abi Dawud 3857 — cupping; seeking treatment", ur: "سنن ابی داؤد 3857 — حجامہ، علاج کرانا" }
+text: "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا حَمَّادٌ، عَنْ مُحَمَّدِ بْنِ عَمْرٍو، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" إِنْ كَانَ فِي شَىْءٍ مِمَّا تَدَاوَيْتُمْ بِهِ خَيْرٌ فَالْحِجَامَةُ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3857، يذكر الحجامة، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 3857 (Medicine (Kitab Al-Tibb)), that mentions cupping, seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3857، جس میں حجامہ، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3857 (book 29 hadith 3); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

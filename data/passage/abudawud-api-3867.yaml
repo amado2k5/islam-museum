@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3867
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3867"
+label: { ar: "سنن أبي داود 3867 — اللدود والسعوط", en: "Sunan Abi Dawud 3867 — medicine given by the mouth-side or the nose", ur: "سنن ابی داؤد 3867 — لدود اور سعوط" }
+text: "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَحْمَدُ بْنُ إِسْحَاقَ، حَدَّثَنَا وُهَيْبٌ، عَنْ عَبْدِ اللَّهِ بْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ رَسُولَ اللَّهِ اسْتَعَطَ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3867، يذكر اللدود والسعوط. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 3867 (Medicine (Kitab Al-Tibb)), that mentions medicine given by the mouth-side or the nose. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3867، جس میں لدود اور سعوط کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3867 (book 29 hadith 13); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

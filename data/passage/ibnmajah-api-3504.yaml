@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-3504
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3504"
+label: { ar: "سنن ابن ماجه 3504 — السم والترياق، الشفاء", en: "Sunan Ibn Majah 3504 — poison and antidote; healing", ur: "سنن ابن ماجہ 3504 — زہر اور تریاق، شفا" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، عَنِ ابْنِ أَبِي ذِئْبٍ، عَنْ سَعِيدِ بْنِ خَالِدٍ، عَنْ أَبِي سَلَمَةَ، حَدَّثَنِي أَبُو سَعِيدٍ، أَنَّ رَسُولَ اللَّهِ ـ قَالَ \" فِي أَحَدِ جَنَاحَىِ الذُّبَابِ سُمٌّ وَفِي الآخَرِ شِفَاءٌ فَإِذَا وَقَعَ فِي الطَّعَامِ فَامْقُلُوهُ فِيهِ فَإِنَّهُ يُقَدِّمُ السُّمَّ وَيُؤَخِّرُ الشِّفَاءَ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3504، يذكر السم والترياق، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3504 (Chapters on Medicine), that mentions poison and antidote, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3504، جس میں زہر اور تریاق، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3504 (book 31 hadith 69); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
