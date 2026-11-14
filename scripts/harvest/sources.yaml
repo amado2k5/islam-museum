@@ -117,6 +117,15 @@ sources:
       dest: raw/collections/pleiades/pleiades-names-latest.csv.gz
     - url: https://atlantides.org/downloads/pleiades/dumps/pleiades-locations-latest.csv.gz
       dest: raw/collections/pleiades/pleiades-locations-latest.csv.gz
+  surahapp:
+    name: Surah app and Public Sura API (Tafsir Center for Quranic Studies)
+    url: https://dev.surahapp.com/api/docs
+    licence: no terms page found; facts-only (decision dec-20261114-279, founder docket)
+    layer: facts
+    method: public JSON API, project catalogue and per-project content, 3 s pause; no scripture wording stored
+    status: enabled
+    limits: {}
+    downloads: []
   forbidden:
   - name: Quran Foundation API
     reason: no storage beyond a week

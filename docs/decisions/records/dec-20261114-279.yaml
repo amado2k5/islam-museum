@@ -1,0 +1,27 @@
+id: dec-20261114-279
+kind: "decision"
+date: "2026-11-14"
+expires_at: "2027-11-14"
+question_hash: 2b21635d9648
+lane: "web-sources"
+class: "uncategorised"
+modality: "repo"
+domain: "safety"
+mode: "conservative"
+question: "Register the Surah web app (web.surahapp.com, publisher Tafsir Center for Quranic Studies, public API at dev.surahapp.com) as a facts-only source family for translation, commentary catalogue and metadata facts; the scripture wording itself is never taken from it. No terms page found; robots.txt sets no content signals; API open and documented. Should it be registered facts-only?"
+options:
+status: founder-docket
+step: policy-gate
+decision: "Qur'an text is never agent-decided"
+confidence: n/a
+reversible: false
+rationale: ""
+gate: "nd-quran"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-quran
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["nd-quran"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
