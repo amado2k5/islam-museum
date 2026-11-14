@@ -6,23 +6,24 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي حفص عمر بن أبي بكر الحفصي، خليفة أفريقية القرن الرابع عشر، توفي سنة ١٣٤٧م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Hafs Umar ibn Abi Bakr, the fourteenth-century Hafsid caliph of Ifriqiya, d. 1347; the dynastic handbook entry is not yet checked on the page."
+  ar: "عمر بن أبي بكر الحفصي، أبو حفص، ملك تونس سنة 747 هـ، قتل إخوته الثائرين عليه ثم قتله بعض الجند بقرب قابس بعد عشرة أشهر و13 يوما، سنة 748 هـ الموافقة 1347 م."
+  en: "Umar ibn Abi Bakr al-Hafsi, Abu Hafs, king in Tunis from 747 AH, who killed the brothers who rose against him and was himself killed by soldiers near Gabes after ten months and 13 days, in 748 AH (1347)."
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12177947
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0048
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text (vol. 5 p. 43)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1347", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun, Kitab al-Ibar; Brunschvig" }
 relations:
   - { type: ruler_of, target: place/ifriqiya, note: "From text: caliph of Ifriqiya", sources: [source/bosworth-new-islamic-dynasties-1996] }
+  - { type: ruler_of, target: place/tunis, note: "al-Zirikli, al-A'lam, vol. 5 p. 43: one of the kings in Tunis, ten months and 13 days", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

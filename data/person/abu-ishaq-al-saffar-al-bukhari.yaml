@@ -6,26 +6,26 @@ label:
 roles: [faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي إسحاق الصفار البخاري، الفقيه الحنفي وصاحب تالكيس؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ishaq al-Saffar al-Bukhari, the Hanafi jurist and author of Talkhis al-adilla; his entry is not yet checked on the page."
+  ar: "إبراهيم بن إسماعيل، أبو إسحاق ركن الإسلام البخاري الصفار، فقيه حنفي زاهد من أهل بخارى نفاه السلطان سنجر إلى مرو، توفي ببخارى سنة 534 هـ الموافقة 1139 م، وله تلخيص الأدلة لقواعد التوحيد."
+  en: "Ibrahim ibn Ismail, Abu Ishaq Rukn al-Islam al-Bukhari al-Saffar, a Hanafi jurist and ascetic of Bukhara whom the sultan Sanjar banished to Marw, died in Bukhara in 534 AH (1139); author of Talkhis al-adilla li-qawa'id al-tawhid."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1067", precision: year, status: tradition, derived: true }
 died: { edtf: "1139", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q62630871
   viaf: "90058503"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text (vol. 1 pp. 32-33)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary
@@ -33,4 +33,6 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
 relations:
-  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/bukhara, note: "al-Zirikli, al-A'lam, vol. 1 pp. 32-33: from the people of Bukhara", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/bukhara, note: "al-Zirikli, al-A'lam, vol. 1 pp. 32-33: he died there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/marw, note: "al-Zirikli, al-A'lam, vol. 1 pp. 32-33: banished to Marw by the sultan Sanjar", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

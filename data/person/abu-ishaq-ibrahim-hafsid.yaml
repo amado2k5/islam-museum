@@ -6,23 +6,25 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي إسحاق إبراهيم بن يحيى، أمير الحفصيين من سنة ١٢٧٩م إلى ١٢٨٣م في انقسام الدولة؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ishaq Ibrahim ibn Yahya, the Hafsid amir of 1279–1283 during the dynasty's division; the dynastic handbook entry is not yet checked on the page."
+  ar: "إبراهيم بن يحيى الحفصي، أبو إسحاق، أمير المؤمنين بتونس بويع سنة 678 هـ بعد عودته من الأندلس، خلع نفسه أمام ثورة ابن أبي عمارة وقتل ببجاية سنة 682 هـ الموافقة 1283 م."
+  en: "Ibrahim ibn Yahya al-Hafsi, Abu Ishaq, commander of the faithful in Tunis, given allegiance in 678 AH on his return from al-Andalus, who stood down before the revolt of Ibn Abi Umara and was killed in Bejaia in 682 AH (1283)."
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q335076
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0032
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text (vol. 1 pp. 79-80)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun, Kitab al-Ibar; Brunschvig" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }
+  - { type: ruler_of, target: place/tunis, note: "al-Zirikli, al-A'lam, vol. 1 pp. 79-80: commander of the faithful in Tunis, allegiance in 678 AH", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/bejaia, note: "al-Zirikli, al-A'lam, vol. 1 pp. 79-80: killed in Bejaia", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

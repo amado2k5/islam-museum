@@ -6,25 +6,29 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي إسحاق إبراهيم بن أبي بكر الأنصاري التلمساني، فقيه ولغوي مغربي القرن الثالث عشر؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ishaq Ibrahim ibn Abi Bakr al-Ansari al-Tilimsani, the thirteenth-century Maghribi jurist and linguist; the biographical entry is not yet checked on the page."
+  ar: "إبراهيم بن أبي بكر الأنصاري التلمساني، عالم بالفرائض أندلسي الأصل، مولده بتلمسان واستقراره بسبتة، اشتهر بمنظومته التلمسانية في الفرائض."
+  en: "Ibrahim ibn Abi Bakr al-Ansari al-Tilimsani, a scholar of the law of inheritance of Andalusian origin, born in Tlemcen and settled in Ceuta, known for his versified al-Tilimsaniyya on inheritance."
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q107356660
   viaf: "713147266558035480117"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0064
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text (vol. 1 pp. 33-34)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1212", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Qadi, Durrat al-Hijal; al-Zirikli, al-A'lam" }
 died: { edtf: "1298", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Qadi, Durrat al-Hijal; al-Zirikli, al-A'lam" }
 relations:
-  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/tlemcen, note: "al-Zirikli, al-A'lam, vol. 1 pp. 33-34: born in Tlemcen", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/granada, note: "al-Zirikli, al-A'lam, vol. 1 pp. 33-34: three years in Granada", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/malaga, note: "al-Zirikli, al-A'lam, vol. 1 pp. 33-34: moved to Malaga", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/ceuta, note: "al-Zirikli, al-A'lam, vol. 1 pp. 33-34: settled in Ceuta until he died", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/ceuta, note: "al-Zirikli, al-A'lam, vol. 1 pp. 33-34: settled in Ceuta until he died; the place of death is implied, not stated", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

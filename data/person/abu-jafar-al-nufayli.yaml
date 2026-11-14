@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبو جعفر النفيلي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ja'far al-Nufayli; the entry is not yet checked on the page."
+  ar: "عبد الله بن محمد بن علي بن نفيل، أبو جعفر النفيلي، من أهل حران، من كبار حفاظ الحديث وثقاتهم، له كتاب المغازي، توفي سنة 234 هـ الموافقة 848 م."
+  en: "Abd Allah ibn Muhammad ibn Ali ibn Nufayl, Abu Ja'far al-Nufayli, of Harran, one of the great memorisers of hadith and among the most reliable, author of Kitab al-Maghazi, died in 234 AH (848)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q22684072
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text (vol. 4 p. 117)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
 died: { edtf: "848", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal Confirmed on 13 November 2026 against Wikidata Q22684072 (P570, a statement with a reference), item revision 2473940131.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Early-Abbasid hadith scholar of the Nufayl family associated with the Baghdad transmission milieu. Inferred; flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/harran, note: "al-Zirikli, al-A'lam, vol. 4 p. 117: from the people of Harran", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

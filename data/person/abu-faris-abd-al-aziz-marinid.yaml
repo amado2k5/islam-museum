@@ -6,23 +6,25 @@ label:
 roles: [sultan]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي فارس عبد العزيز المريني، سلطان فاس الذي استرد الملك من المستنصر؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Faris Abd al-Aziz II, the Marinid sultan who regained the throne of Fez; his entry is not yet checked on the page."
+  ar: "أبو فارس عبد العزيز بن أحمد المريني، الملقب بالمستنصر بالله، من ملوك الدولة المرينية في المغرب الأقصى، بويع بتازا سنة 796 هـ ومات بفاس سنة 799 هـ بعد ملك دام ثلاث سنين وشهرا."
+  en: "Abu Faris Abd al-Aziz ibn Ahmad, styled al-Mustansir bi-llah, a Marinid king of the far Maghrib, given allegiance at Taza in 796 AH and died in Fez in 799 AH (1396) after a reign of three years and a month."
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1396", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q2822082
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text (vol. 4 p. 14)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 relations:
   - { type: lived_in, target: place/fez, note: "From text: of Fez", sources: [source/tarikh-islam-hasan-ibrahim], confidence: low }
+  - { type: died_in, target: place/fez, note: "al-Zirikli, al-A'lam, vol. 4 p. 14: he died in Fez", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/granada, note: "al-Zirikli, al-A'lam, vol. 4 p. 14: held with his father in the detention of the Marinid princes in the Alhambra of Granada", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

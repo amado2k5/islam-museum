@@ -6,23 +6,24 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي إسحاق إبراهيم الثاني، خليفة الحفصيين من سنة ١٣٥٠م إلى ١٣٦٩م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ishaq Ibrahim II, the Hafsid caliph of 1350–1369; the dynastic handbook entry is not yet checked on the page."
+  ar: "إبراهيم بن أبي بكر الحفصي، أبو إسحاق، ولي تونس سنة 751 هـ وهو غلام وطال عهده والفتن محيطة به، وتوفي فجأة سنة 770 هـ الموافقة 1369 م."
+  en: "Ibrahim ibn Abi Bakr al-Hafsi, Abu Ishaq, who took power in Tunis in 751 AH as a boy and reigned long amid strife, and died suddenly in 770 AH (1369)."
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q10949545
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0037
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text (vol. 1 p. 34)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1369", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun, Kitab al-Ibar; Brunschvig" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }
+  - { type: ruler_of, target: place/tunis, note: "al-Zirikli, al-A'lam, vol. 1 p. 34: Hafsid king in Tunis from 751 AH", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
