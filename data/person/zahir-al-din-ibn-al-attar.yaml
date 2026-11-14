@@ -1,43 +1,32 @@
 id: person/zahir-al-din-ibn-al-attar
 class: person
-label:
-  ar: ظهير الدين بن العطار
-  en: Zahir al-Din ibn al-Attar
-roles:
-- vizier
+label: {ar: ظهير الدين بن العطار, en: Zahir al-Din ibn al-Attar}
+roles: [vizier]
 gender: male
-summary:
-  ar: بطاقة أولية لظهير الدين بن العطار، الوزير العباسي في خلافة المستضيء بين سنتي ١١٧٨ و١١٨٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Zahir al-Din ibn al-Attar, the Abbasid vizier under al-Mustadi' in 1178–1180; the biographical entry is not yet checked on the page.
-wings:
-- people
-regions:
-- levant-iraq
-periods:
-- period/crusades-ayyubid-mamluk
-sources:
-- source/al-aalam
-external_ids:
-  wikidata: Q125263546
-provenance:
-  layer: own-research
-  source: 'Wikidata candidate; book source: al-Zirikli, al-A''lam — entry not yet read on the page'
-  generated_by: Devin (SWE-2 High)
-  model: SWE-2 High
-  run: wikidata-import-0078
-status:
-  review: draft
-  completeness: 1
+summary: {ar: 'منصور بن نصر الحراني ثم البغدادي، أبو بكر، ظهير الدين ابن العطار: وزير كاتب وصاحب المخزن، ولي الوزارة للمستضيء سنة ٥٧٣ هـ ثم قبض عليه الناصر وأخرج من محبسه ميتاً سنة ٥٧٥ هـ الموافقة ١١٨٠ م.', en: 'Mansur ibn Nasr al-Harrani then al-Baghdadi, Abu Bakr, Zahir al-Din ibn al-Attar: a secretary and vizier, keeper of the Makhzan, vizier of al-Mustadi'' from 573 AH, seized by al-Nasir and brought out of prison dead in 575 AH (1180 CE).'}
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+external_ids: {wikidata: Q125263546}
+provenance: {layer: own-research, source: 'al-Zirikli, al-A''lam, 15th ed. 2002, entry read in full from the local OpenITI text', generated_by: Claude Code (Lane B2 packet), model: claude-sonnet-5-5, run: web-b2-alam-2026-11-14}
+status: {review: draft, completeness: 3}
 occupations:
 - job: job/vizier
   kind: primary
   status: historical
   note: bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep
-  sources:
-  - source/al-aalam
-died: { edtf: "1180", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil fi al-Tarikh (Ibn al-Athir)" }
+  sources: [source/al-aalam]
+died:
+  edtf: '1180'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 7 p. 296: died 575 AH = 1180 CE.'
+  sources: [source/alam-zirikli-dar-al-ilm-2002]
 relations:
 - type: lived_in
   target: place/baghdad
-  sources:
-  - source/al-aalam
+  sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  note: 'From al-A''lam: Baghdadi; vizier in Baghdad.'
+  confidence: medium
