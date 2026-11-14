@@ -2950,3 +2950,14 @@ Resume point: min-kunuz-al-sunnah episode 10 (branch from origin/main).
 | A remark on the cow of the Israelites made as a rebuke of a group, and a loop in the stretch on the hump hadith | ep10 00:20:30-00:21:00 (part) | Group generalisation and not recoverable | Voice rule, Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 11 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep11 (14 Nov 2026)
+
+11 points written for episode 11 (ar, en, ur); 5 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (2-83, 17-53, 11-88, 66-10, 3-110, 13-11); none typed. Contested: his reading that "by hand" includes founding alternatives is offered as his view against the classical assignment to the ruler.
+
+| Excluded (min-kunuz-al-sunnah ep11) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep11 00:00:00, 00:08:00-00:08:30, 00:16:30-00:17:00, 00:26:30 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (a stretch on the hall of the Friday sermon and a football match, a loop in the Noah stretch, a stretch on a trained worker) | ep11 00:07:00-00:07:30 (part), 00:21:00-00:21:30 (part), 00:03:30-00:04:00 (part) | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 12 (branch from origin/main).
