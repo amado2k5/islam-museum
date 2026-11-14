@@ -4435,3 +4435,42 @@ Resume point: sharh-saheeh-al-bukhare episode 36 (branch from origin/main).
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep36 whole | Qwen pass garbled | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 37 (branch from origin/main).
+
+### alwaad-alhaq ep26 (14 Nov 2026)
+
+20 points written for episode 26 (ar, en, ur); 18 needs_source marks for this episode in each language file; links to the Basin, intercession and Abu Talib added to the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Story of al-Hasan al-Basri, the youths on the Euphrates and al-Hajjaj | ep26 00:08:30-00:09:30 | Garbled; names and sequence rest on single words | Clarity | Open |
+| Remarks on veiled women abroad and sweeping remarks on women | ep26 00:07:30 | Sweeping about women, garbled | Voice rule, Clarity | Open |
+| Remarks on the shaf' and watr (even and odd) and the household example | ep26 00:26:30-00:28:00 | Garbled, argument not recoverable | Clarity | Open |
+| Story of a man asked what he did, and of the sheikh's teacher on the rich | ep26 00:37:30-00:39:00 | Garbled, loops | Clarity, Loop check | Open |
+| Remarks on an alleged fatwa on riba beyond the sheikh's stated view; remarks on a dancer and an oud player in a band | ep26 00:45:30-00:47:30 | Garbled and tied to a ruling (opinion rulings held for the founder) | Clarity, Voice rule | Open |
+| Loop stretches of repeated syllables in the Qwen pass | ep26 00:10:00-00:10:30, 00:15:30, 00:32:30, 00:49:00-00:49:30 | Repeated-token loops | Loop check | Open |
+
+Resume point: alwaad-alhaq episode 27 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep37 (14 Nov 2026)
+
+24 points written for episode 37 (ar, en, ur); 15 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (111-1, 11-46, 7-128, 21-105, 39-74, 9-40); none typed. Contested: His argument that the Companions received no revelation and varied in faith, his claim that kinship and company with the righteous do not save, his definition of a Companion, his reading that the earth is inherited by the people of tawhid, his advice to pray for rulers, his proposal to spend zakat on marriages of young Muslims and his classing of Abu Hanifa among the generations are his views, and the rank he gives the Companions is contested between schools. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep37) | Episode / time | Reason | Gate failed | Override |
+| Opening supplication and greeting, and closing farewell | ep37 00:00:00-00:02:00 and 01:30:00 | Greetings and prayers, not teaching | Content rule | Open |
+| Stretch with repeated loops and fragments about those who criticise the Companions | ep37 00:04:30-00:07:00 | Qwen loops; Whisper too fragmentary to state a point | Clarity, Loop check | Open |
+| Brief passing political remark about a living public figure (Qwen pass only) | ep37 00:06:00-00:06:30 | Modern political reference, not a teaching point | Voice rule | Open |
+| Dialogue with Abu Dharr and remark on nearness to God | ep37 00:08:00-00:09:00 | Garbled in both passes; speaker and wording unclear | Clarity | Open |
+| Anecdote about Abu Bakr and "35" items, and a Companion's name | ep37 00:15:00-00:17:00 | Numbers and name garbled in both passes, partial loop | Clarity, Loop check | Open |
+| Remarks on present-day countries, peoples and politics around the inheritance of the earth | ep37 00:24:00-00:26:30 | Sweeping claims about peoples and modern conflict, plus garbled loops | Voice rule, Clarity | Open |
+| Anecdote about cursing and a household dispute | ep37 00:29:30-00:30:30 | Garbled in both passes | Clarity | Open |
+| Sections on frontier guarding, fighting willingly or unwillingly, and rows of Friday prayer | ep37 00:38:00-00:41:00 | Garbled in both passes | Clarity | Open |
+| A stretch dropped under the content-safety block | ep37 00:41:00-00:42:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Anecdotes of a preacher and a ruler, Friday sermon topics | ep37 00:42:30-00:47:30 | Garbled in both passes; names and plot not recoverable | Clarity | Open |
+| Remarks on young people, media and universities | ep37 00:55:30-00:57:00 | Garbled, sweeping generalisations | Voice rule, Clarity | Open |
+| Digressions and loops around al-Shafi'i's youth and al-Bukhari | ep37 00:59:30-01:03:30 | Loops and garbled stretches | Clarity, Loop check | Open |
+| Account of two disputants before David, Solomon's horses and an anecdote of Abd al-Rahman ibn Awf, with jokes | ep37 01:05:00-01:14:00 | Garbled in both passes, details contradict | Clarity | Open |
+| Conference anecdote and stories told in a joking register | ep37 01:22:00-01:24:00 | Garbled in both passes | Clarity | Open |
+| Dream narration and a governor's request that a preacher curse a Companion | ep37 01:25:00-01:27:00 | Garbled; sectarian subject whose names cannot be recovered | Clarity, Voice rule | Open |
+| Pulpit steps and closing remarks | ep37 01:27:30-01:30:00 | Garbled in both passes | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep37 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 38 (branch from origin/main).
