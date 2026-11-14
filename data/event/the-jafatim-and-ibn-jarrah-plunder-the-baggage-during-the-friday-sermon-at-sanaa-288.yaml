@@ -1,0 +1,69 @@
+id: event/the-jafatim-and-ibn-jarrah-plunder-the-baggage-during-the-friday-sermon-at-sanaa-288
+class: event
+label:
+  ar: "الجفاتم وابن جراح ينهبون أثقال أصحاب الهادي أثناء خطبة الجمعة بصنعاء، محرم 288هـ"
+  en: "The Jafatim and Ibn Jarrah plunder the baggage during the Friday sermon at Sana'a, Muharram 288 AH"
+  ur: "جمعہ کے خطبے کے دوران صنعاء میں جفاتم اور ابن جراح ہادی کے ساتھیوں کا سامان لوٹتے ہیں، محرم 288ھ"
+summary:
+  ar: "يبلغ الخبر عبد الله بن جراح والجفاتم من السر بأن أبا العتاهية أدخل الهادي صنعاء فيقبلون وهم يقولون إنهم لا يريدون العلوي، وكذلك آل طريف، ويتفق إبراهيم بن خلف وأبو زياد مع جيش من الخيل والرجال على إثارة الفتنة حين ينشغل الناس بالجمعة، فينهب الجفاتم وابن جراح أثقال أصحاب الهادي وهو على المنبر ولا يلتفت حتى يتم خطبته ويصلي."
+  en: "News reaches Abdullah ibn Jarrah and the Jafatim at al-Sirr that Abu al-Atahiya has brought al-Hadi into Sana'a and they ride in saying they do not want the Alawi, as Al Tarif say too; Ibrahim ibn Khalaf and Abu Ziyad, with a large force of horse and men, plan to stir the sedition once people are busy with the Friday prayer, and the Jafatim and Ibn Jarrah plunder the baggage of al-Hadi's men while he is on the pulpit; he does not turn aside but finishes the sermon and leads the prayer."
+  ur: "عبد اللہ بن جراح اور جفاتم کو السر میں خبر پہنچتی ہے کہ ابو العتاہیہ ہادی کو صنعاء میں لے آئے ہیں، وہ یہ کہتے ہوئے آتے ہیں کہ انہیں علوی نہیں چاہیے، اور آل طریف بھی یہی کہتے ہیں؛ ابراہیم بن خلف اور ابو زیاد گھڑ سواروں اور آدمیوں کے بڑے لشکر کے ساتھ طے کرتے ہیں کہ جب لوگ جمعہ میں مصروف ہوں تو فتنہ اٹھائیں، چنانچہ جب ہادی منبر پر ہیں جفاتم اور ابن جراح ان کے ساتھیوں کا سامان لوٹتے ہیں؛ ہادی توجہ نہیں دیتے اور خطبہ پورا کر کے نماز پڑھاتے ہیں۔"
+kind: other
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-12"
+    hijri: "0288-01"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "محرم سنة 288هـ بنص الكتاب؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/sanaa
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-jarrah-of-al-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-jafatim-sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص207-208 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-25
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 207-208

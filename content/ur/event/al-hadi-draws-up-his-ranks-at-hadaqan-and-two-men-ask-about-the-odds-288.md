@@ -9,3 +9,5 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## تفصیل
 خثعمی کا نام ابو رفاعہ چھپا ہے اور اسے شخص کے طور پر درج نہیں کیا گیا۔ دونوں گنتیاں اس لیے مختلف ہیں کہ راوی کے اعداد تقریبی ہیں اور حاشیے کا عدد بعد کا مجموعہ ہے؛ عجائب گھر دونوں دیتا ہے۔ اس سے پہلے [[event/abu-al-atahiya-writes-to-al-hadi-and-sends-the-jafatim-and-al-tarif-to-an-ambush-at-al-sirr-288]]۔
+
+بیان [[event/al-hadi-answers-yazid-and-abu-rifaa-and-abu-al-atahiyas-army-appears-288|ہادی کے جواب اور ابو العتاہیہ کے لشکر کے نمودار ہونے]] میں جاری رہتا ہے {cite:sira-hadi-ila-al-haqq p.206}۔
