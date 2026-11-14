@@ -1,0 +1,70 @@
+id: event/the-men-of-zahr-break-the-prison-and-al-hadi-warns-ali-ibn-sulayman-288
+class: event
+kind: other
+label:
+  ar: "أهل ظهر يكسرون الحبس والهادي يحذر علي بن سليمان من الخروج من صنعاء، جمادى الآخرة 288هـ"
+  en: "The men of Zahr break the prison and al-Hadi warns Ali ibn Sulayman not to leave Sana'a, Jumada II 288 AH"
+  ur: "اہل ظہر قید خانہ توڑتے ہیں اور ہادی علی بن سلیمان کو صنعاء سے نہ نکلنے کی تنبیہ کرتے ہیں، جمادی الآخرہ 288ھ"
+summary:
+  ar: "بعد مقتل ابن أبي عباد فرّ الناس إلى صنعاء والبون وظهر، وقال الذين وجههم عبيد الله بن محمد مدداً من ظهر بعضهم لبعض أن يهولوا على واليهم، فصاحوا بالسلاح ورموا درب ظهر، فهرب الوالي إلى صنعاء وفتحوا أبا الغشام بن طريف ومن معه من آل يعفر، فكتب الهادي إلى علي بن سليمان ألا يخرج من صنعاء."
+  en: "After Ibn Abi Abbad was killed the people fled to Sana'a, al-Bawn and Zahr; the men whom Ubaydallah ibn Muhammad had sent from Zahr as reinforcement agreed to alarm their governor, shouted for arms and shot at the gate of Zahr, the governor fled to Sana'a and they freed Abu al-Ghasham ibn Tarif and the men of Al Ya'fur with him; al-Hadi wrote to Ali ibn Sulayman not to leave Sana'a."
+  ur: "ابن ابی عباد کے قتل کے بعد لوگ صنعاء، البون اور ظہر کی طرف بھاگے؛ جنہیں عبید اللہ بن محمد نے ظہر سے کمک کے طور پر بھیجا تھا انہوں نے آپس میں طے کیا کہ اپنے والی کو ڈرائیں، ہتھیاروں کی پکار لگائی اور ظہر کے درب پر تیر پھینکے، والی صنعاء بھاگ گیا اور انہوں نے ابو الغشام بن طریف اور آل یعفر کے ساتھیوں کو آزاد کر دیا؛ ہادی نے علی بن سلیمان کو لکھا کہ صنعاء سے نہ نکلیں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-05~"
+    hijri: "0288-06"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "جمادى الآخرة سنة 288هـ؛ بعد مقتل ابن أبي عباد؛ لا يُذكر يوم؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/zahr-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ubaydallah-ibn-muhammad-al-hasani
+  role: "والي ظهر الفارّ إلى صنعاء"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-ghasham-ibn-tarif
+  role: "من فُتح عنه الحبس"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-sulayman-ibn-al-qasim
+  role: "مرسَل إليه التحذير"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص219 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 219

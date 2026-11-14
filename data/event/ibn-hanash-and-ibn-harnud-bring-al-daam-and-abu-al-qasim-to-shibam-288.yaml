@@ -1,0 +1,68 @@
+id: event/ibn-hanash-and-ibn-harnud-bring-al-daam-and-abu-al-qasim-to-shibam-288
+class: event
+kind: other
+label:
+  ar: "ابن حنش وابن حرنود يأتيان بالدعام وأبي القاسم إلى شبام، جمادى الآخرة 288هـ"
+  en: "Ibn Hanash and Ibn Harnud bring al-Da'am and Abu al-Qasim to Shibam, Jumada II 288 AH"
+  ur: "ابن حنش اور ابن حرنود دعام اور ابو القاسم کو شبام لے آتے ہیں، جمادی الآخرہ 288ھ"
+summary:
+  ar: "رأى عبيد الله بن حنش رجوع الجند إلى صنعاء فأخبر علي بن سليمان أن الخبر قبيح وأن خروجه خير، فخرج هو وأحمد بن حرنود إلى الدعام بن إبراهيم يستنهضانه إلى الهادي، فجمع الدعام عسكراً كثيفاً وكتب إلى أبي القاسم فالتقيا بريدة وساروا إلى شبام، ثم عزم الهادي على توجيههم إلى صنعاء."
+  en: "Ubaydallah ibn Hanash, seeing the troops return to Sana'a, told Ali ibn Sulayman the news was bad and that his leaving was better, and he and Ahmad ibn Harnud went to al-Da'am ibn Ibrahim to rouse him to al-Hadi; al-Da'am gathered a dense army and wrote to Abu al-Qasim, they met at Raydah and went on to Shibam, and al-Hadi then resolved to send them to Sana'a."
+  ur: "عبید اللہ بن حنش نے سپاہیوں کو صنعاء لوٹتے دیکھا تو علی بن سلیمان سے کہا کہ خبر بری ہے اور ان کا جانا بہتر ہے، اور وہ اور احمد بن حرنود دعام بن ابراہیم کے پاس گئے کہ اسے ہادی کی طرف اٹھائیں؛ دعام نے گھنا لشکر جمع کیا اور ابو القاسم کو لکھا، وہ ریدہ میں ملے اور شبام کی طرف چلے، پھر ہادی نے انہیں صنعاء بھیجنے کا ارادہ کیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-05~"
+    hijri: "0288-06"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "جمادى الآخرة سنة 288هـ؛ قبل الأيام الباقية من الشهر؛ لا يُذكر يوم؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/raydah-yemen
+  role: "لقاء الدعام وأبي القاسم"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ubaydallah-ibn-hanash
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-sulayman-ibn-al-qasim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص219-220 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 219-220
