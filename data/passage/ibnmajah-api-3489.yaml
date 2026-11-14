@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-3489
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3489"
+label: { ar: "سنن ابن ماجه 3489 — الكي، الرقية", en: "Sunan Ibn Majah 3489 — cautery; ruqya recited over the sick", ur: "سنن ابن ماجہ 3489 — داغنا، رقیہ" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ، عَنْ لَيْثٍ، عَنْ مُجَاهِدٍ، عَنْ عَقَّارِ بْنِ الْمُغِيرَةِ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ ـ قَالَ \" مَنِ اكْتَوَى أَوِ اسْتَرْقَى فَقَدْ بَرِئَ مِنَ التَّوَكُّلِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3489، يذكر الكي، والرقية، والبرء من العلة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3489 (Chapters on Medicine), that mentions cautery, ruqya recited over the sick, recovery from an ailment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3489، جس میں داغنا، رقیہ، بیماری سے شفایابی کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3489 (book 31 hadith 54); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

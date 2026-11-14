@@ -1,0 +1,16 @@
+id: passage/muslim-api-5797
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5797"
+label: { ar: "صحيح مسلم 5797 — العدوى", en: "Sahih Muslim 5797 — contagion", ur: "صحیح مسلم 5797 — چھوت" }
+text: "… ابْنُ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ سَمِعْتُ النَّبِيَّ يَقُولُ \" لاَ عَدْوَى وَلاَ صَفَرَ وَلاَ غُولَ \". وَسَمِعْتُ أَبَا الزُّبَيْرِ يَذْكُرُ أَنَّ جَابِرًا فَسَّرَ لَهُمْ قَوْلَهُ \" وَلاَ صَفَرَ \". فَقَالَ أَبُو الزُّبَيْرِ الصَّفَرُ الْبَطْنُ. فَقِيلَ لِجَابِرٍ كَيْفَ قَالَ كَانَ يُقَالُ دَوَابُّ الْبَطْنِ. قَالَ وَلَمْ يُفَسِّرِ الْغُولَ. قَالَ أَبُو …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5797، يذكر العدوى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5797 (The Book of Greetings), that mentions contagion. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5797، جس میں چھوت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5797 (book 39 hadith 149); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

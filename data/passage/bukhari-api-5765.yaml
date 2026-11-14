@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5765
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5765"
+label: { ar: "صحيح البخاري 5765 — الطب والطبيب", en: "Sahih al-Bukhari 5765 — medicine and the physician", ur: "صحیح بخاری 5765 — طب اور طبیب" }
+text: "… رَأْسِي، وَالآخَرُ عِنْدَ رِجْلَىَّ، فَقَالَ الَّذِي عِنْدَ رَأْسِي لِلآخَرِ مَا بَالُ الرَّجُلِ قَالَ مَطْبُوبٌ. قَالَ وَمَنْ طَبَّهُ قَالَ لَبِيدُ بْنُ أَعْصَمَ، رَجُلٌ مِنْ بَنِي زُرَيْقٍ حَلِيفٌ لِيَهُودَ، كَانَ مُنَافِقًا. قَالَ وَفِيمَ قَالَ فِي مُشْطٍ وَمُشَاقَةٍ. قَالَ وَأَيْنَ قَالَ فِي جُفِّ طَلْعَةٍ ذَكَرٍ، تَحْتَ رَعُوفَةٍ، فِي بِئْرِ ذَرْوَانَ \". قَالَتْ فَأَتَى النَّبِيُّ الْبِئْرَ حَتَّى اسْتَخْرَجَهُ فَقَالَ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5765، يذكر الطب والطبيب. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5765 (Medicine), that mentions medicine and the physician. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5765، جس میں طب اور طبیب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5765 (book 76 hadith 79); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

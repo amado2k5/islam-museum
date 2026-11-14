@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1557
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1557"
+label: { ar: "جامع الترمذي 1557 — الرقية", en: "Jami' al-Tirmidhi 1557 — ruqya recited over the sick", ur: "جامع ترمذی 1557 — رقیہ" }
+text: "… قَالَ فَأَمَرَ بِي فَقُلِّدْتُ السَّيْفَ فَإِذَا أَنَا أَجُرُّهُ فَأَمَرَ لِي بِشَيْءٍ مِنْ خُرْثِيِّ الْمَتَاعِ وَعَرَضْتُ عَلَيْهِ رُقْيَةً كُنْتُ أَرْقِي بِهَا الْمَجَانِينَ فَأَمَرَنِي بِطَرْحِ بَعْضِهَا وَحَبْسِ بَعْضِهَا. وَفِي الْبَابِ عَنِ ابْنِ عَبَّاسٍ. وَهَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ. وَالْعَمَلُ عَلَى هَذَا عِنْدَ بَعْضِ أَهْلِ الْعِلْمِ أَنْ لاَ يُسْهَمَ لِلْمَمْلُوكِ وَلَكِنْ يُرْضَخُ لَهُ بِشَيْءٍ. وَهُوَ قَوْلُ الثَّوْرِيِّ وَالشَّافِعِيِّ وَأَحْمَدَ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1557، يذكر الرقية. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 1557 (The Book on Military Expeditions), that mentions ruqya recited over the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 1557، جس میں رقیہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1557 (book 21 hadith 12); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

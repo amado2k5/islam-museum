@@ -1,0 +1,16 @@
+id: passage/nasai-api-4035
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4035"
+label: { ar: "سنن النسائي 4035 — ألبان الإبل وأبوالها", en: "Sunan al-Nasa'i 4035 — camel milk and urine as treatment", ur: "سنن نسائی 4035 — اونٹنی کا دودھ اور پیشاب" }
+text: "… اللَّهِ فَأَسْلَمُوا فَاجْتَوَوُا الْمَدِينَةَ حَتَّى اصْفَرَّتْ أَلْوَانُهُمْ وَعَظُمَتْ بُطُونُهُمْ فَبَعَثَ بِهِمْ نَبِيُّ اللَّهِ إِلَى لِقَاحٍ لَهُ فَأَمَرَهُمْ أَنْ يَشْرَبُوا مِنْ أَلْبَانِهَا وَأَبْوَالِهَا حَتَّى صَحُّوا فَقَتَلُوا رُعَاتِهَا وَاسْتَاقُوا الإِبِلَ فَبَعَثَ نَبِيُّ اللَّهِ فِي طَلَبِهِمْ فَأُتِيَ بِهِمْ فَقَطَّعَ أَيْدِيَهُمْ وَأَرْجُلَهُمْ وَسَمَّرَ أَعْيُنَهُمْ. قَالَ أَمِيرُ الْمُؤْمِنِينَ عَبْدُ الْمَلِكِ لأَنَسٍ وَهُوَ يُحَدِّثُهُ هَذَا الْحَدِيثَ بِكُفْرٍ أَوْ بِذَنْبٍ قَالَ بِكُفْرٍ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4035، يذكر ألبان الإبل وأبوالها. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 4035 (The Book of Fighting [The Prohibition of Bloodshed]), that mentions camel milk and urine as treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 4035، جس میں اونٹنی کا دودھ اور پیشاب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4035 (book 37 hadith 70); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

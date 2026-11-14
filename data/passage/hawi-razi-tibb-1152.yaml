@@ -1,0 +1,19 @@
+id: passage/hawi-razi-tibb-1152
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "1152"
+label: { ar: "الحاوي في الطب للرازي، ص 1152 — الحمى، أسماء الأمراض", en: "al-Razi's al-Hawi fi al-Tibb, p. 1152 — fever; named diseases", ur: "الحاوی فی الطب، رازی، ص 1152 — بخار، بیماریوں کے نام" }
+text: "… تنفعه الأدوية التي تجلو جلاءاً قوياً كما أن من أصابه يرقان في كبده إنما ينتفع بما يشفي ذلك الورم، فإن أجتمعت سدد وورم فيحتاج إلى أدوية نجلو وترخي وينبغي أن تحذر عند الحمى والورم الأدوية القوية، والكائن عن السدد يعالج …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 1152، يذكر الحمى، وأسماء الأمراض، والعلاج، وأعضاء البدن، والدواء، والشفاء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 1152, that mentions fever, named diseases, treatment, the organs of the body, the drug, healing; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 1152 کا اقتباس جس میں بخار، بیماریوں کے نام، علاج، اعضائے بدن، دوا، شفا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/anatomy, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/tadawi, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 1152; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

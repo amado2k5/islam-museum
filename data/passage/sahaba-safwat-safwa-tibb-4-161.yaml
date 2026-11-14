@@ -1,0 +1,17 @@
+id: passage/sahaba-safwat-safwa-tibb-4-161
+class: passage
+unit: chapter
+work: work/sifat-al-safwa
+ref: "4:161"
+label: { ar: "صفة الصفوة لابن الجوزي، المجلد المصوَّر 4، ص 161 — المرض والمريض، عيادة المريض", en: "Ibn al-Jawzi's Sifat al-Safwa, scan volume 4, p. 161 — illness and the sick; visiting the sick", ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 4، ص 161 — بیماری اور بیمار، بیمار کی عیادت" }
+text: "… من شقي في بطن أمه، وإن السعيد من وعظ بغيره، ألا وإن قتال المسلم كفر وسبابه فسوق، ولا يحل لمسلم أن يهجر أخاه فوق ثلاثة أيام حتى يسلم عليه إذا لقيه، ويجيبه إذا دعاه، ويعوده إذا مرض، ألا وإن شر …"
+summary:
+  ar: "مقطع من صفة الصفوة لابن الجوزي، المجلد المصوَّر 4، ص 161، يذكر المرض والمريض، وعيادة المريض، وأطوار خلق الجنين؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Jawzi's Sifat al-Safwa, scan volume 4, p. 161, that mentions illness and the sick, visiting the sick, the stages of the embryo; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 4، ص 161 کا اقتباس جس میں بیماری اور بیمار، بیمار کی عیادت، جنین کے مراحل کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: mentions, target: concept/anatomy, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/safwat-safwa/AAlexandrina-154190, page 161; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

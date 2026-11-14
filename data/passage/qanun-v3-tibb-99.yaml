@@ -1,0 +1,16 @@
+id: passage/qanun-v3-tibb-99
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "99"
+label: { ar: "القانون في الطب لابن سينا ج3، ص 99 — الوجع، الحمى والوعك", en: "Ibn Sina's Canon of Medicine, vol. 3, p. 99 — pain; fever", ur: "القانون فی الطب، ابن سینا ج3، ص 99 — درد، بخار" }
+text: "… يصحبه مع الحمّى صداع ووجع عنق، والحرارة وإن اشتعلت في هذه الأورام فليست بشديدة الحدّة جداً كما تكون في المحرقة إلا أن يكون أمر عظيم، والسبب فيه أنَّ العفونة غير فاشية ولا متحركة إلى خارج، والنبض في حمّيات الورم الباطن …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج3، ص 99، يذكر الوجع، والحمى والوعك، والحمى، وأسماء الأمراض، والبيمارستان وصناعة الطب؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 3, p. 99, that mentions pain, fever, fever, named diseases, the hospital and the medical craft; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج3، ص 99 کا اقتباس جس میں درد، بخار، بخار، بیماریوں کے نام، بیمارستان کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v3/canon-ibn-sina-print-v3, page 99; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6619
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6619"
+label: { ar: "صحيح البخاري 6619 — الطاعون والوباء", en: "Sahih al-Bukhari 6619 — plague and epidemic", ur: "صحیح بخاری 6619 — طاعون اور وبا" }
+text: "… اللَّهِ بْنِ بُرَيْدَةَ، عَنْ يَحْيَى بْنِ يَعْمَرَ، أَنَّ عَائِشَةَا ـ أَخْبَرَتْهُ أَنَّهَا، سَأَلَتْ رَسُولَ اللَّهِ عَنِ الطَّاعُونِ فَقَالَ \" كَانَ عَذَابًا يَبْعَثُهُ اللَّهُ عَلَى مَنْ يَشَاءُ، فَجَعَلَهُ اللَّهُ رَحْمَةً لِلْمُؤْمِنِينَ، مَا مِنْ عَبْدٍ يَكُونُ فِي بَلَدٍ يَكُونُ فِيهِ، وَيَمْكُثُ فِيهِ، لاَ يَخْرُجُ مِنَ الْبَلَدِ، صَابِرًا مُحْتَسِبًا، يَعْلَمُ أَنَّهُ لاَ يُصِيبُهُ إِلاَّ مَا كَتَبَ اللَّهُ لَهُ، …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6619، يذكر الطاعون والوباء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 6619 (Divine Will (Al-Qadar)), that mentions plague and epidemic. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 6619، جس میں طاعون اور وبا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6619 (book 82 hadith 25); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

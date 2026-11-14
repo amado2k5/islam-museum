@@ -1,0 +1,18 @@
+id: passage/hawi-razi-tibb-1781
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "1781"
+label: { ar: "الحاوي في الطب للرازي، ص 1781 — الطب والطبيب، الوجع", en: "al-Razi's al-Hawi fi al-Tibb, p. 1781 — medicine and the physician; pain", ur: "الحاوی فی الطب، رازی، ص 1781 — طب اور طبیب، درد" }
+text: "… عمره عند الراحة، وعند نقصان العلة. ننظر في ذلك. الإسكندر قال: النقرس داء عياء لا يكاد يصيب الأطباء علاجه إذا كان من أخلاط كثيرة مجتمعة. قال: وقد يكون من دم كثير سخن يملأ المفاصل وتمتد العروق فيلقون وجعاً شديداً، أو …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 1781، يذكر الطب والطبيب، والوجع، وأسماء الأمراض، والعلاج، وأعضاء البدن، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 1781, that mentions medicine and the physician, pain, named diseases, treatment, the organs of the body, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 1781 کا اقتباس جس میں طب اور طبیب، درد، بیماریوں کے نام، علاج، اعضائے بدن، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/anatomy, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 1781; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

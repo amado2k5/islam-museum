@@ -1,0 +1,16 @@
+id: passage/abudawud-api-333
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "333"
+label: { ar: "سنن أبي داود 333 — ألبان الإبل وأبوالها", en: "Sunan Abi Dawud 333 — camel milk and urine as treatment", ur: "سنن ابی داؤد 333 — اونٹنی کا دودھ اور پیشاب" }
+text: "… رَسُولُ اللَّهِ بِذَوْدٍ وَبِغَنَمٍ فَقَالَ لِي \" اشْرَبْ مِنْ أَلْبَانِهَا \". قَالَ حَمَّادٌ وَأَشُكُّ فِي \" أَبْوَالِهَا \". هَذَا قَوْلُ حَمَّادٍ. فَقَالَ أَبُو ذَرٍّ فَكُنْتُ أَعْزُبُ عَنِ الْمَاءِ وَمَعِي أَهْلِي فَتُصِيبُنِي الْجَنَابَةُ فَأُصَلِّي بِغَيْرِ طُهُورٍ فَأَتَيْتُ رَسُولَ اللَّهِ بِنِصْفِ النَّهَارِ وَهُوَ فِي رَهْطٍ مِنْ أَصْحَابِهِ وَهُوَ فِي ظِلِّ الْمَسْجِدِ فَقَالَ \" أَبُو ذَرٍّ \". فَقُلْتُ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 333، يذكر ألبان الإبل وأبوالها. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 333 (Purification (Kitab Al-Taharah)), that mentions camel milk and urine as treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 333، جس میں اونٹنی کا دودھ اور پیشاب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 333 (book 1 hadith 333); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

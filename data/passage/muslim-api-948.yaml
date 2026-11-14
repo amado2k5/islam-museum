@@ -1,0 +1,16 @@
+id: passage/muslim-api-948
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "948"
+label: { ar: "صحيح مسلم 948 — مرض النبي، المرض والمريض", en: "Sahih Muslim 948 — the Prophet's illness; illness and the sick", ur: "صحیح مسلم 948 — نبی کی بیماری، بیماری اور بیمار" }
+text: "… بْنُ عَلِيٍّ، عَنْ زَائِدَةَ، عَنْ عَبْدِ الْمَلِكِ بْنِ عُمَيْرٍ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ مَرِضَ رَسُولُ اللَّهِ فَاشْتَدَّ مَرَضُهُ فَقَالَ \" مُرُوا أَبَا بَكْرٍ فَلْيُصَلِّ بِالنَّاسِ \". فَقَالَتْ عَائِشَةُ يَا رَسُولَ اللَّهِ إِنَّ أَبَا بَكْرٍ رَجُلٌ رَقِيقٌ مَتَى يَقُمْ مَقَامَكَ لاَ يَسْتَطِعْ أَنْ يُصَلِّيَ بِالنَّاسِ فَقَالَ \" مُرِي أَبَا بَكْرٍ فَلْيُصَلِّ بِالنَّاسِ فَإِنَّكُنَّ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 948، يذكر مرض النبي، والمرض والمريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 948 (The Book of Prayers), that mentions the Prophet's illness, illness and the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 948، جس میں نبی کی بیماری، بیماری اور بیمار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 948 (book 4 hadith 110); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

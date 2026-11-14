@@ -1,0 +1,16 @@
+id: passage/muwatta-api-804
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "804"
+label: { ar: "موطأ مالك 804 — التداوي", en: "Muwatta Malik 804 — seeking treatment", ur: "موطأ مالک 804 — علاج کرانا" }
+text: "… عُمَرَ وَعَبْدَ اللَّهِ بْنَ الزُّبَيْرِ وَمَرْوَانَ بْنَ الْحَكَمِ فَذَكَرَ لَهُمُ الَّذِي عَرَضَ لَهُ فَكُلُّهُمْ أَمَرَهُ أَنْ يَتَدَاوَى بِمَا لاَ بُدَّ لَهُ مِنْهُ وَيَفْتَدِيَ فَإِذَا صَحَّ اعْتَمَرَ فَحَلَّ مِنْ إِحْرَامِهِ ثُمَّ عَلَيْهِ حَجُّ قَابِلٍ وَيُهْدِي مَا اسْتَيْسَرَ مِنَ الْهَدْىِ. قَالَ مَالِكٌ وَعَلَى هَذَا الأَمْرُ عِنْدَنَا فِيمَنْ أُحْصِرَ بِغَيْرِ عَدُوٍّ وَقَدْ أَمَرَ عُمَرُ بْنُ الْخَطَّابِ أَبَا أَيُّوبَ …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 804، يذكر التداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Muwatta Malik, no. 804 (Hajj), that mentions seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "موطأ مالک کی حدیث نمبر 804، جس میں علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tadawi, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 804 (book 20 hadith 100); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-3461
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3461"
+label: { ar: "سنن ابن ماجه 3461 — السنا والسنوت، الشفاء", en: "Sunan Ibn Majah 3461 — senna and sannut; healing", ur: "سنن ابن ماجہ 3461 — سنا اور سنوت، شفا" }
+text: "… الْحَمِيدِ بْنِ جَعْفَرٍ، عَنْ زُرْعَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ مَوْلًى، لِمَعْمَرٍ التَّيْمِيِّ عَنْ مَعْمَرٍ التَّيْمِيِّ، عَنْ أَسْمَاءَ بِنْتِ عُمَيْسٍ، قَالَتْ قَالَ لِي رَسُولُ اللَّهِ ـ \" بِمَاذَا كُنْتِ تَسْتَمْشِينَ \". قُلْتُ بِالشُّبْرُمِ قَالَ \" حَارٌّ جَارٌّ \". ثُمَّ اسْتَمْشَيْتُ بِالسَّنَى. فَقَالَ \" لَوْ كَانَ شَىْءٌ يَشْفِي مِنَ الْمَوْتِ كَانَ السَّنَى وَالسَّنَى شِفَاءٌ مِنَ الْمَوْتِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3461، يذكر السنا والسنوت، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3461 (Chapters on Medicine), that mentions senna and sannut, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3461، جس میں سنا اور سنوت، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3461 (book 31 hadith 26); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

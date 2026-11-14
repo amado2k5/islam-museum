@@ -16,9 +16,10 @@ died: { edtf: "1520", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/al-hilmiyya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12201430)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/shadharat-dhahab, source/daw-lami-jil-1992]
+sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/biblissima]
 external_ids:
   wikidata: Q4117458
+  biblissima: "Q293"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"

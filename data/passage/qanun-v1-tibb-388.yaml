@@ -1,0 +1,18 @@
+id: passage/qanun-v1-tibb-388
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "388"
+label: { ar: "القانون في الطب لابن سينا ج1، ص 388 — الجذام والبرص، أسماء الأمراض", en: "Ibn Sina's Canon of Medicine, vol. 1, p. 388 — leprosy and vitiligo; named diseases", ur: "القانون فی الطب، ابن سینا ج1، ص 388 — جذام اور برص، بیماریوں کے نام" }
+text: "… مورم يحرق الدم والأخلاط. الزينة: يقطع الثآليل ويذهب البرص ويقلع الوشم ويبرئ من داء الثعلب البلغمي. يهيج الأورام الحارة : الأورام والبثور. في الباطن آلات المفاصل : ينفع من برد العصب واسترخائه ومن الفالج أعضاء الرأس : ينفع من فساد …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج1، ص 388، يذكر الجذام والبرص، وأسماء الأمراض، والبيمارستان وصناعة الطب، والبرء من العلة، وأعضاء البدن، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 1, p. 388, that mentions leprosy and vitiligo, named diseases, the hospital and the medical craft, recovery from an ailment, the organs of the body, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج1، ص 388 کا اقتباس جس میں جذام اور برص، بیماریوں کے نام، بیمارستان، بیماری سے شفایابی، اعضائے بدن، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v1/canon-ibn-sina-print-v1, page 388; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v1]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

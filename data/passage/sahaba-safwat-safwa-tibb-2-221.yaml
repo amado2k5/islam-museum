@@ -1,0 +1,18 @@
+id: passage/sahaba-safwat-safwa-tibb-2-221
+class: passage
+unit: chapter
+work: work/sifat-al-safwa
+ref: "2:221"
+label: { ar: "صفة الصفوة لابن الجوزي، المجلد المصوَّر 2، ص 221 — الطب والطبيب، البرء من العلة", en: "Ibn al-Jawzi's Sifat al-Safwa, scan volume 2, p. 221 — medicine and the physician; recovery from an ailment", ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 2، ص 221 — طب اور طبیب، بیماری سے شفایابی" }
+text: "… له نعالجك ؟ فقال لهم يا قوم اعلموا ان لى طبيبا ان سألته داوى كل عليل لكنى الا لا اسأله ان يدأوينى فقيل له ولم ذاك وانت تحتاج الى الدواء ؟ فعال اخشى ان برأت من هذه العلة طغيت فقيل …"
+summary:
+  ar: "مقطع من صفة الصفوة لابن الجوزي، المجلد المصوَّر 2، ص 221، يذكر الطب والطبيب، والبرء من العلة، والدواء، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Jawzi's Sifat al-Safwa, scan volume 2, p. 221, that mentions medicine and the physician, recovery from an ailment, the drug, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 2، ص 221 کا اقتباس جس میں طب اور طبیب، بیماری سے شفایابی، دوا، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/safwat-safwa/AAlexandrina-139498, page 221; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/sahaba-safwat-safwa-tibb-4-215
+class: passage
+unit: chapter
+work: work/sifat-al-safwa
+ref: "4:215"
+label: { ar: "صفة الصفوة لابن الجوزي، المجلد المصوَّر 4، ص 215 — الطب والطبيب، المرض والمريض", en: "Ibn al-Jawzi's Sifat al-Safwa, scan volume 4, p. 215 — medicine and the physician; illness and the sick", ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 4، ص 215 — طب اور طبیب، بیماری اور بیمار" }
+text: "… مثل المؤمن في الدنيا كمثل المريض معه طبيبه الذي يعلم داءه ودواءه فإذا اشتهى ما يضره منعه وقال: لا تقربه فإنك إن أتيته أهلكك. فلا يزال يمنعه حتى يبرأ من وجعه. وكذلك المؤمن يشتهي أشياء كثيرة مما قد فضل به …"
+summary:
+  ar: "مقطع من صفة الصفوة لابن الجوزي، المجلد المصوَّر 4، ص 215، يذكر الطب والطبيب، والمرض والمريض، والوجع، والبرء من العلة، والدواء، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Jawzi's Sifat al-Safwa, scan volume 4, p. 215, that mentions medicine and the physician, illness and the sick, pain, recovery from an ailment, the drug, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "صفۃ الصفوہ، ابن الجوزی، اسکین جلد 4، ص 215 کا اقتباس جس میں طب اور طبیب، بیماری اور بیمار، درد، بیماری سے شفایابی، دوا، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/safwat-safwa/AAlexandrina-154190, page 215; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

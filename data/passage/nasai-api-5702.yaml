@@ -1,0 +1,16 @@
+id: passage/nasai-api-5702
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5702"
+label: { ar: "سنن النسائي 5702 — الرقية", en: "Sunan al-Nasa'i 5702 — ruqya recited over the sick", ur: "سنن نسائی 5702 — رقیہ" }
+text: "أَخْبَرَنَا سُوَيْدٌ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنْ عُبَيْدِ اللَّهِ بْنِ عُمَرَ السَّعِيدِيِّ، قَالَ حَدَّثَتْنِي رُقَيَّةُ بِنْتُ عَمْرِو بْنِ سَعِيدٍ، قَالَتْ كُنْتُ فِي حَجْرِ ابْنِ عُمَرَ فَكَانَ يُنْقَعُ لَهُ الزَّبِيبُ فَيَشْرَبُهُ مِنَ الْغَدِ ثُمَّ يُجَفَّفُ الزَّبِيبُ وَيُلْقَى عَلَيْهِ زَبِيبٌ آخَرُ وَيُجْعَلُ فِيهِ مَاءٌ فَيَشْرَبُهُ مِنَ الْغَدِ حَتَّى إِذَا كَانَ بَعْدَ الْغَدِ طَرَحَهُ. وَاحْتَجُّوا بِحَدِيثِ أَبِي مَسْعُودٍ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 5702، يذكر الرقية. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 5702 (The Book of Drinks), that mentions ruqya recited over the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 5702، جس میں رقیہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5702 (book 51 hadith 164); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

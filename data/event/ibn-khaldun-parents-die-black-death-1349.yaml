@@ -15,6 +15,7 @@ relations:
   - { type: occurred_at, target: place/tunis, sources: [source/britannica-ibn-khaldun] }
   - { type: had_participant, target: person/ibn-khaldun, role: "الابن الذي فقد والديه", sources: [source/britannica-ibn-khaldun] }
   - { type: during_reign, target: person/al-hakim-bi-amr-illah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+tags: [tibb-browser, tibb-tibb]
 sources: [source/britannica-ibn-khaldun]
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
 provenance:

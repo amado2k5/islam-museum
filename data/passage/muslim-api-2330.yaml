@@ -1,0 +1,16 @@
+id: passage/muslim-api-2330
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2330"
+label: { ar: "صحيح مسلم 2330 — أعضاء البدن", en: "Sahih Muslim 2330 — the organs of the body", ur: "صحیح مسلم 2330 — اعضائے بدن" }
+text: "… عَائِشَةَ، تَقُولُ إِنَّ رَسُولَ اللَّهِ قَالَ \" إِنَّهُ خُلِقَ كُلُّ إِنْسَانٍ مِنْ بَنِي آدَمَ عَلَى سِتِّينَ وَثَلاَثِمَائَةِ مَفْصِلٍ فَمَنْ كَبَّرَ اللَّهَ وَحَمِدَ اللَّهَ وَهَلَّلَ اللَّهَ وَسَبَّحَ اللَّهَ وَاسْتَغْفَرَ اللَّهَ وَعَزَلَ حَجَرًا عَنْ طَرِيقِ النَّاسِ أَوْ شَوْكَةً أَوْ عَظْمًا عَنْ طَرِيقِ النَّاسِ وَأَمَرَ بِمَعْرُوفٍ أَوْ نَهَى عَنْ مُنْكَرٍ عَدَدَ تِلْكَ السِّتِّينَ وَالثَّلاَثِمِائَةِ السُّلاَمَى فَإِنَّهُ يَمْشِي يَوْمَئِذٍ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2330، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 2330 (The Book of Zakat), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 2330، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2330 (book 12 hadith 67); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

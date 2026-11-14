@@ -15,8 +15,8 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch50
-external_ids: { wikidata: "Q334882" }
-sources: [source/wafayat-ayan]
+external_ids: { wikidata: "Q334882", nomisma: "abu_bakr_ibn_'umar" }
+sources: [source/wafayat-ayan, source/nomisma]
 status: { review: published, completeness: 3 }
 died: { edtf: "1087", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Zar', Rawd al-Qirtas; al-Dhahabi, Siyar Confirmed on 13 November 2026 against Wikidata Q334882 (P570, a statement with a reference), item revision 2533201719.", sources: [source/wikidata] }
 relations:

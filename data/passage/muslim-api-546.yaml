@@ -1,0 +1,16 @@
+id: passage/muslim-api-546
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "546"
+label: { ar: "صحيح مسلم 546 — أطوار خلق الجنين", en: "Sahih Muslim 546 — the stages of the embryo", ur: "صحیح مسلم 546 — جنین کے مراحل" }
+text: "… حُمْرَانَ بْنَ أَبَانَ، قَالَ كُنْتُ أَضَعُ لِعُثْمَانَ طَهُورَهُ فَمَا أَتَى عَلَيْهِ يَوْمٌ إِلاَّ وَهُوَ يُفِيضُ عَلَيْهِ نُطْفَةً. وَقَالَ عُثْمَانُ حَدَّثَنَا رَسُولُ اللَّهِ عِنْدَ انْصِرَافِنَا مِنْ صَلاَتِنَا هَذِهِ - قَالَ مِسْعَرٌ أُرَاهَا الْعَصْرَ - فَقَالَ \" مَا أَدْرِي أُحَدِّثُكُمْ بِشَىْءٍ أَوْ أَسْكُتُ \". فَقُلْنَا يَا رَسُولَ اللَّهِ إِنْ كَانَ خَيْرًا فَحَدِّثْنَا وَإِنْ كَانَ غَيْرَ ذَلِكَ فَاللَّهُ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 546، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 546 (The Book of Purification), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 546، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 546 (book 2 hadith 13); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

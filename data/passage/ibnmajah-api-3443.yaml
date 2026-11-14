@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3443
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3443"
+label: { ar: "سنن ابن ماجه 3443 — أسماء الأمراض", en: "Sunan Ibn Majah 3443 — named diseases", ur: "سنن ابن ماجہ 3443 — بیماریوں کے نام" }
+text: "… عَنْ عَبْدِ الْحَمِيدِ بْنِ صَيْفِيٍّ، - مِنْ وَلَدِ صُهَيْبٍ - عَنْ أَبِيهِ، عَنْ جَدِّهِ، صُهَيْبٍ قَالَ قَدِمْتُ عَلَى النَّبِيِّ ـ وَبَيْنَ يَدَيْهِ خُبْزٌ وَتَمْرٌ فَقَالَ النَّبِيُّ ـ \" ادْنُ فَكُلْ \". فَأَخَذْتُ آكُلُ مِنَ التَّمْرِ فَقَالَ النَّبِيُّ ـ \" تَأْكُلُ تَمْرًا وَبِكَ رَمَدٌ \". قَالَ فَقُلْتُ إِنِّي أَمْضُغُ مِنْ نَاحِيَةٍ أُخْرَى. فَتَبَسَّمَ رَسُولُ اللَّهِ ـ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3443، يذكر أسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3443 (Chapters on Medicine), that mentions named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3443، جس میں بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3443 (book 31 hadith 8); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

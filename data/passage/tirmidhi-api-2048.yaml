@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-2048
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2048"
+label: { ar: "جامع الترمذي 2048 — الحجامة، الإثمد", en: "Jami' al-Tirmidhi 2048 — cupping; ithmid (antimony kohl)", ur: "جامع ترمذی 2048 — حجامہ، اثمد سرمہ" }
+text: "… عَبَّادُ بْنُ مَنْصُورٍ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِنَّ خَيْرَ مَا تَدَاوَيْتُمْ بِهِ اللَّدُودُ وَالسَّعُوطُ وَالْحِجَامَةُ وَالْمَشِيُّ وَخَيْرُ مَا اكْتَحَلْتُمْ بِهِ الإِثْمِدُ فَإِنَّهُ يَجْلُو الْبَصَرَ وَيُنْبِتُ الشَّعْرَ \". قَالَ وَكَانَ لِرَسُولِ اللَّهِ مُكْحُلَةٌ يَكْتَحِلُ بِهَا عِنْدَ النَّوْمِ ثَلاَثًا فِي كُلِّ عَيْنٍ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ وَهُوَ حَدِيثُ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2048، يذكر الحجامة، والإثمد، والكحل، واللدود والسعوط، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 2048 (Chapters on Medicine), that mentions cupping, ithmid (antimony kohl), kohl for the eye, medicine given by the mouth-side or the nose, seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 2048، جس میں حجامہ، اثمد سرمہ، سرمہ، لدود اور سعوط، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2048 (book 28 hadith 13); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

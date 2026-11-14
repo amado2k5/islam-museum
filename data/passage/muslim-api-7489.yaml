@@ -1,0 +1,16 @@
+id: passage/muslim-api-7489
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7489"
+label: { ar: "صحيح مسلم 7489 — أسماء الأمراض", en: "Sahih Muslim 7489 — named diseases", ur: "صحیح مسلم 7489 — بیماریوں کے نام" }
+text: "… بْنِ الأَكْوَعِ عَنْ أَبِيهِ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا أَبُو النَّضْرِ، هَاشِمُ بْنُ الْقَاسِمِ حَدَّثَنَا عِكْرِمَةُ بْنُ عَمَّارٍ، حَدَّثَنِي إِيَاسُ بْنُ سَلَمَةَ بْنِ الأَكْوَعِ، أَنَّ أَبَاهُ، حَدَّثَهُ أَنَّهُ، سَمِعَ النَّبِيَّ وَعَطَسَ رَجُلٌ عِنْدَهُ فَقَالَ لَهُ \" يَرْحَمُكَ اللَّهُ \". ثُمَّ عَطَسَ أُخْرَى فَقَالَ لَهُ رَسُولُ اللَّهِ \" الرَّجُلُ مَزْكُومٌ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 7489، يذكر أسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 7489 (The Book of Zuhd and Softening of Hearts), that mentions named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 7489، جس میں بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7489 (book 55 hadith 72); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1356
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1356"
+label: { ar: "صحيح البخاري 1356 — المرض والمريض، عيادة المريض", en: "Sahih al-Bukhari 1356 — illness and the sick; visiting the sick", ur: "صحیح بخاری 1356 — بیماری اور بیمار، بیمار کی عیادت" }
+text: "… بْنُ حَرْبٍ، حَدَّثَنَا حَمَّادٌ ـ وَهْوَ ابْنُ زَيْدٍ ـ عَنْ ثَابِتٍ، عَنْ أَنَسٍ ـ قَالَ كَانَ غُلاَمٌ يَهُودِيٌّ يَخْدُمُ النَّبِيَّ فَمَرِضَ، فَأَتَاهُ النَّبِيُّ يَعُودُهُ، فَقَعَدَ عِنْدَ رَأْسِهِ فَقَالَ لَهُ \" أَسْلِمْ \". فَنَظَرَ إِلَى أَبِيهِ وَهْوَ عِنْدَهُ فَقَالَ لَهُ أَطِعْ أَبَا الْقَاسِمِ. فَأَسْلَمَ، فَخَرَجَ النَّبِيُّ وَهْوَ يَقُولُ \" الْحَمْدُ لِلَّهِ الَّذِي أَنْقَذَهُ مِنَ النَّارِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1356، يذكر المرض والمريض، وعيادة المريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 1356 (Funerals (Al-Janaa'iz)), that mentions illness and the sick, visiting the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 1356، جس میں بیماری اور بیمار، بیمار کی عیادت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1356 (book 23 hadith 109); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

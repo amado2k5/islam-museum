@@ -1,0 +1,17 @@
+id: passage/qanun-v2-tibb-803
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "803"
+label: { ar: "القانون في الطب لابن سينا ج2، ص 803 — الوجع، الحمى والوعك", en: "Ibn Sina's Canon of Medicine, vol. 2, p. 803 — pain; fever", ur: "القانون فی الطب، ابن سینا ج2، ص 803 — درد، بخار" }
+text: "… إلى الدبيلة، أن يكون الوجع فم ي الا نارد جداً، والأعراض تشتد، تختلف الحمّيات اختلاف البطن، وإخراج البول. وعلامة النضج التام، أن تسكن الحمّى والضربان، ويتحرك النافض، وورم الرحم، ودبيلته، إذا كانا في الرحم أمكن أن ترى، وإن كان غائصاً …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج2، ص 803، يذكر الوجع، والحمى والوعك، والحمى، وأسماء الأمراض، وأطوار خلق الجنين؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 2, p. 803, that mentions pain, fever, fever, named diseases, the stages of the embryo; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج2، ص 803 کا اقتباس جس میں درد، بخار، بخار، بیماریوں کے نام، جنین کے مراحل کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v2] }
+  - { type: mentions, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v2] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v2/canon-ibn-sina-print-v2, page 803; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v2]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

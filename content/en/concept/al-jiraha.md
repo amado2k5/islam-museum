@@ -1,0 +1,23 @@
+---
+id: concept/al-jiraha
+lang: en
+source_lang: ar
+translators: [ai]
+---
+## Overview
+In the first chapter of the fourth fann of Book I, Ibn Sina says that treatment is completed by three things: regimen and diet, the use of drugs, and the use of manual operations {cite:canon-ibn-sina-print-v1 p.267}. The "work of the hand" is what is called surgery today and what goes with it: lancing abscesses, cutting away a corrupted organ, cautery, setting bones, and opening veins. This record describes what Ibn Sina wrote; it gives no treatment advice.
+
+## Incision and what the operator must know
+Chapter 26 treats incision of abscesses (al-batt). Ibn Sina advises cutting along the folds and creases of the organ and gives the forehead as his example: cut against its creases and the muscle is severed and the eyebrow falls {cite:canon-ibn-sina-print-v1 p.305}. He requires the operator to know the anatomy of nerves, veins and arteries so as not to sever one and kill the patient, and to have to hand a number of blood-stopping drugs, ointments that ease pain, instruments and cauteries; for staunching blood he names rabbit fur, spider's web and egg white {cite:canon-ibn-sina-print-v1 p.306}. After the abscess is emptied he warns against greasy ointments and prefers a drying ointment with a sponge soaked in an astringent wine {cite:canon-ibn-sina-print-v1 p.306}. Earlier he cautions that a hernia can be mistaken for an internal swelling, and that opening it is then dangerous {cite:canon-ibn-sina-print-v1 p.305}.
+
+## Cutting away a corrupted organ
+Chapter 27 deals with an organ that has become corrupt through a bad temper when scarification and the application of paints have failed. The corrupt flesh must be taken away, preferably without iron if possible, since iron may do heavy harm to muscle, nerve and pulsing vessels. If the corruption has reached the flesh, it is cut and the cut cauterised with boiling oil so that the bleeding stops {cite:canon-ibn-sina-print-v1 p.306}. To remove bone he passes a probe round it: where pain is sharp the attachment is sound and that marks the limit of safety, and where he finds slackness and weak attachment that part is cut away, by drilling and breaking or by sawing, while the flesh is shielded from the cutting tool. If the bone is a large one like the thigh, close to nerves, arteries and veins, and the corruption is extensive, he says the physician's course is to flee, that is, not to attempt it {cite:canon-ibn-sina-print-v1 p.306}.
+
+## Wounds and breaks in continuity
+In chapter 28 Ibn Sina divides breaks of continuity into those in large bony parts, treated by reduction and bandaging in the art of bone-setting, and those in soft parts, where three principles apply: stop what flows, join the edges of the wound with suitable drugs and food, and prevent putrefaction as far as possible {cite:canon-ibn-sina-print-v1 pp.306-307}. The aim in treating ulcers is drying; clean ones are only dried, putrid ones get sharp, corrosive drugs, and if they fail there is no choice but fire {cite:canon-ibn-sina-print-v1 p.307}. In Book IV he returns to wounds, classing them as simple straight cuts, round ones, those with loss of flesh, deep and exposed ones, and makes stopping the blood and preventing swelling the first care; he mentions stitching for wounds whose edges do not meet {cite:canon-ibn-sina-print-v3 p.198}.
+
+## Cautery and the easing of pain
+Chapter 29 calls cautery a useful treatment to stop the spread of corruption, to strengthen an organ, to dissolve corrupt matter and to stop bleeding. Gold is the best material, and he describes a mould to be passed into the mouth, nose or anus to protect the surrounding tissue; for bleeding the cautery must be strong so that its scab is deep and thick and does not fall quickly {cite:canon-ibn-sina-print-v1 p.309}. Chapter 30 deals with easing pain and names opium as the strongest narcotic, then mandrake, poppies, henbane and hemlock, warning that narcotics can themselves do harm and are used with their counter-drugs {cite:canon-ibn-sina-print-v1 pp.309-310}.
+
+## In the reports of the Prophet's time
+The hadith books report the dressing of wounds in the time of the Prophet, among them the account of Sahl ibn Sa'd about the wound of the Prophet at Uhud and what Fatima did with a piece of burnt mat {cite:sahih-al-bukhari 4075}, and the report of the cauterising of Sa'd ibn Mu'adh's wound {cite:hadith-api-fawazahmed0 Muslim 5748}. These are set out in [[concept/mudawat-al-jarha|Treating the wounded in the Prophet's time]]. See also [[concept/al-fasd|Venesection]], [[concept/al-jabr-wal-kasr|Fractures and dislocations]] and [[concept/medical-treatment|Treatment in the Canon]].

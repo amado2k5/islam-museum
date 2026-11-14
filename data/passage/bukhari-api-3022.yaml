@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3022
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3022"
+label: { ar: "صحيح البخاري 3022 — الجراحة والختان والجبائر", en: "Sahih al-Bukhari 3022 — surgery, circumcision and splints", ur: "صحیح بخاری 3022 — جراحت، ختنہ اور پٹیاں" }
+text: "… دَخَلَ عَلَىَّ فَضَرَبَنِي. قَالَ فَوَضَعْتُ سَيْفِي فِي بَطْنِهِ، ثُمَّ تَحَامَلْتُ عَلَيْهِ حَتَّى قَرَعَ الْعَظْمَ، ثُمَّ خَرَجْتُ وَأَنَا دَهِشٌ، فَأَتَيْتُ سُلَّمًا لَهُمْ لأَنْزِلَ مِنْهُ فَوَقَعْتُ فَوُثِئَتْ رِجْلِي، فَخَرَجْتُ إِلَى أَصْحَابِي فَقُلْتُ مَا أَنَا بِبَارِحٍ حَتَّى أَسْمَعَ النَّاعِيَةَ، فَمَا بَرِحْتُ حَتَّى سَمِعْتُ نَعَايَا أَبِي رَافِعٍ تَاجِرِ أَهْلِ الْحِجَازِ. قَالَ فَقُمْتُ وَمَا بِي قَلَبَةٌ حَتَّى أَتَيْنَا النَّبِيَّ فَأَخْبَرْنَاهُ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3022، يذكر الجراحة والختان والجبائر. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 3022 (Fighting for the Cause of Allah (Jihaad)), that mentions surgery, circumcision and splints. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 3022، جس میں جراحت، ختنہ اور پٹیاں کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3022 (book 56 hadith 231); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

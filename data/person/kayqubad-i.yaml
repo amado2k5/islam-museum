@@ -14,9 +14,10 @@ periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1237", precision: year, status: tradition, derived: true }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
 external_ids:
   wikidata: Q61964
+  nomisma: "ala'_al-din_kay_qubad_i"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

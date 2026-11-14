@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4143
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4143"
+label: { ar: "صحيح البخاري 4143 — الحمى", en: "Sahih al-Bukhari 4143 — fever", ur: "صحیح بخاری 4143 — بخار" }
+text: "… رَسُولُ اللَّهِ قَالَتْ نَعَمْ. قَالَتْ وَأَبُو بَكْرٍ قَالَتْ نَعَمْ. فَخَرَّتْ مَغْشِيًّا عَلَيْهَا، فَمَا أَفَاقَتْ إِلاَّ وَعَلَيْهَا حُمَّى بِنَافِضٍ، فَطَرَحْتُ عَلَيْهَا ثِيَابَهَا فَغَطَّيْتُهَا. فَجَاءَ النَّبِيُّ فَقَالَ \" مَا شَأْنُ هَذِهِ \". قُلْتُ يَا رَسُولَ اللَّهِ أَخَذَتْهَا الْحُمَّى بِنَافِضٍ. قَالَ \" فَلَعَلَّ فِي حَدِيثٍ تُحُدِّثَ بِهِ \". قَالَتْ نَعَمْ. فَقَعَدَتْ عَائِشَةُ فَقَالَتْ وَاللَّهِ لَئِنْ حَلَفْتُ لاَ تُصَدِّقُونِي، …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4143، يذكر الحمى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 4143 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), that mentions fever. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 4143، جس میں بخار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4143 (book 64 hadith 187); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

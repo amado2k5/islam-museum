@@ -1,0 +1,16 @@
+id: passage/zad-maad-tibb-1-641
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:641"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 641 — الطب والطبيب، المرض والمريض", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 641 — medicine and the physician; illness and the sick", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 641 — طب اور طبیب، بیماری اور بیمار" }
+text: "… خلافاً في أن المعالِج إذا تعدى، فتَلِفَ المريضُ كان ضامناً، والمتعاطي علماً أو عملاً لا يعرفه متعد، فإذا تولد مِن فعله التلف ضمن الدية، وسقط عنه القودُ، لأنه لا يستبدُّ بذلك بدون إذن المريض وجناية المتطبب في قول عامة الفقهاء …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 641، يذكر الطب والطبيب، والمرض والمريض، والعلاج؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 641, that mentions medicine and the physician, illness and the sick, treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 641 کا اقتباس جس میں طب اور طبیب، بیماری اور بیمار، علاج کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 641; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

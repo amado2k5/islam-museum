@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-99
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "99"
+label: { ar: "جامع الترمذي 99 — مرض النبي، المرض والمريض", en: "Jami' al-Tirmidhi 99 — the Prophet's illness; illness and the sick", ur: "جامع ترمذی 99 — نبی کی بیماری، بیماری اور بیمار" }
+text: "… تَكُنْ نَعْلَيْنِ إِذَا كَانَا ثَخِينَيْنِ. قَالَ وَفِي الْبَابِ عَنْ أَبِي مُوسَى. قَالَ أَبُو عِيسَى سَمِعْتُ صَالِحَ بْنَ مُحَمَّدٍ التِّرْمِذِيَّ قَالَ سَمِعْتُ أَبَا مُقَاتِلٍ السَّمَرْقَنْدِيَّ يَقُولُ دَخَلْتُ عَلَى أَبِي حَنِيفَةَ فِي مَرَضِهِ الَّذِي مَاتَ فِيهِ فَدَعَا بِمَاءٍ فَتَوَضَّأَ وَعَلَيْهِ جَوْرَبَانِ فَمَسَحَ عَلَيْهِمَا ثُمَّ قَالَ فَعَلْتُ الْيَوْمَ شَيْئًا لَمْ أَكُنْ أَفْعَلُهُ مَسَحْتُ عَلَى الْجَوْرَبَيْنِ وَهُمَا غَيْرُ مُنَعَّلَيْنِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 99، يذكر مرض النبي، والمرض والمريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 99 (The Book on Purification), that mentions the Prophet's illness, illness and the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 99، جس میں نبی کی بیماری، بیماری اور بیمار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 99 (book 1 hadith 99); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

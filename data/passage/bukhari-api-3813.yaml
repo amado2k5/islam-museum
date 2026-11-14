@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3813
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3813"
+label: { ar: "صحيح البخاري 3813 — الرقية", en: "Sahih al-Bukhari 3813 — ruqya recited over the sick", ur: "صحیح بخاری 3813 — رقیہ" }
+text: "… السَّمَاءِ، فِي أَعْلاَهُ عُرْوَةٌ فَقِيلَ لَهُ ارْقَهْ. قُلْتُ لاَ أَسْتَطِيعُ. فَأَتَانِي مِنْصَفٌ فَرَفَعَ ثِيَابِي مِنْ خَلْفِي، فَرَقِيتُ حَتَّى كُنْتُ فِي أَعْلاَهَا، فَأَخَذْتُ بِالْعُرْوَةِ، فَقِيلَ لَهُ اسْتَمْسِكْ. فَاسْتَيْقَظْتُ وَإِنَّهَا لَفِي يَدِي، فَقَصَصْتُهَا عَلَى النَّبِيِّ قَالَ \" تِلْكَ الرَّوْضَةُ الإِسْلاَمُ، وَذَلِكَ الْعَمُودُ عَمُودُ الإِسْلاَمِ، وَتِلْكَ الْعُرْوَةُ عُرْوَةُ الْوُثْقَى، فَأَنْتَ عَلَى الإِسْلاَمِ حَتَّى تَمُوتَ \". وَذَاكَ الرَّجُلُ عَبْدُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3813، يذكر الرقية. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 3813 (Merits of the Helpers in Madinah (Ansaar)), that mentions ruqya recited over the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 3813، جس میں رقیہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3813 (book 63 hadith 38); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

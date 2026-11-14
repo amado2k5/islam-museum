@@ -1,0 +1,17 @@
+id: passage/sahaba-isti-ab-tibb-1-477
+class: passage
+unit: chapter
+work: work/al-istiab
+ref: "1:477"
+label: { ar: "الاستيعاب لابن عبد البر، المجلد المصوَّر 1، ص 477 — الحجامة، التداوي", en: "Ibn 'Abd al-Barr's al-Isti'ab, scan volume 1, p. 477 — cupping; seeking treatment", ur: "الاستیعاب، ابن عبد البر، اسکین جلد 1، ص 477 — حجامہ، علاج کرانا" }
+text: "… خالد بن الوليدانه احتجم فى راسه وبين كثفيه فقيل ما هذا فقال ان رصول الله صلى اقّه عليه وسلم قال عن اهراق منه هذه الد ماء فلا يضره ان لا يتداوى بشى • عبد الرحمن بن رقش بن رباب إن …"
+summary:
+  ar: "مقطع من الاستيعاب لابن عبد البر، المجلد المصوَّر 1، ص 477، يذكر الحجامة، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn 'Abd al-Barr's al-Isti'ab, scan volume 1, p. 477, that mentions cupping, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الاستیعاب، ابن عبد البر، اسکین جلد 1، ص 477 کا اقتباس جس میں حجامہ، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: mentions, target: concept/tadawi, sources: [source/isti-ab-ibn-abd-al-barr] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isti-ab/011813191901pdf236, page 477; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/isti-ab-ibn-abd-al-barr]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

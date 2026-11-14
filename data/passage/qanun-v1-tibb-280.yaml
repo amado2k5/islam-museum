@@ -1,0 +1,18 @@
+id: passage/qanun-v1-tibb-280
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "280"
+label: { ar: "القانون في الطب لابن سينا ج1، ص 280 — الطب والطبيب، الطاعون والوباء", en: "Ibn Sina's Canon of Medicine, vol. 1, p. 280 — medicine and the physician; plague and epidemic", ur: "القانون فی الطب، ابن سینا ج1، ص 280 — طب اور طبیب، طاعون اور وبا" }
+text: "… الرياح والأخلاط الغليظة اللزجة، ويفتح السدد، ويصلح هواء الطاعون والوباء، وهو يفسد الذوق ويخدّر، ويخشن الصدر ويصلحه العسل، ويبطئ الهضم ويصلحه الكرفس. وفي الطب الحديث يستعمل كمسكّن عام وهاضم، وضد التشنجات، وضد رياح المعدة. التداوي بالنباتات والأعشاب قديماً وحديثاً، أحمد …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج1، ص 280، يذكر الطب والطبيب، والطاعون والوباء، والبيمارستان وصناعة الطب، وأعضاء البدن، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 1, p. 280, that mentions medicine and the physician, plague and epidemic, the hospital and the medical craft, the organs of the body, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج1، ص 280 کا اقتباس جس میں طب اور طبیب، طاعون اور وبا، بیمارستان، اعضائے بدن، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/tadawi, sources: [source/canon-ibn-sina-print-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v1/canon-ibn-sina-print-v1, page 280; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v1]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

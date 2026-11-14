@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1679
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1679"
+label: { ar: "سنن ابن ماجه 1679 — الحجامة", en: "Sunan Ibn Majah 1679 — cupping", ur: "سنن ابن ماجہ 1679 — حجامہ" }
+text: "حَدَّثَنَا أَيُّوبُ بْنُ مُحَمَّدٍ الرَّقِّيُّ، وَدَاوُدُ بْنُ رُشَيْدٍ، قَالاَ حَدَّثَنَا مُعَمَّرُ بْنُ سُلَيْمَانَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ بِشْرٍ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ: قَالَ رَسُولُ اللَّهِ ـ \" أَفْطَرَ الْحَاجِمُ وَالْمَحْجُومُ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1679، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 1679 (Fasting), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1679، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1679 (book 7 hadith 42); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

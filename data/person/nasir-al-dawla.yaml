@@ -13,14 +13,14 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch40
-external_ids: { wikidata: "Q4164636" }
+external_ids: { wikidata: "Q4164636", nomisma: "nasir_al-dawlah" }
 born: { edtf: "905~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasir al-Dawla Hamdani); Ibn al-Athir" }
 died: { edtf: "969", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasir al-Dawla Hamdani); Ibn al-Athir" }
 relations:
   - { type: born_in, target: place/mosul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q83317)" }
   - { type: died_in, target: place/zakho-fort, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q12232925)" }
   - { type: lived_in, target: place/aleppo, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q41183)" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi]
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi, source/nomisma]
 status:
   review: published
   completeness: 3

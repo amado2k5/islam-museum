@@ -19,6 +19,7 @@ relations:
   - { type: had_participant, target: person/ibn-al-nafis, role: "رئيس الأطباء والطبيب الخاص", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/baybars, role: "السلطان", sources: [source/encyclopaedia-of-islam-2, source/assabile-tareq-al-suwaidan] }
   - { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
+tags: [tibb-browser, tibb-tibb]
 sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/assabile-tareq-al-suwaidan]
 provenance:
   layer: own-research

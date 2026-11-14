@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-tibb-2-1453
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "2:1453"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 2، ص 1453 — الجذام والبرص، العلاج", en: "Ibn Hajar's al-Isaba, scan volume 2, p. 1453 — leprosy and vitiligo; treatment", ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 1453 — جذام اور برص، علاج" }
+text: "… ذكره مع أخيه وأنشد له المَرْزُبَانِيّ يرثي أخاه من الحارث وأبو سلمة بن عبد الرحمن بن عوف. أبيات : قال أبو عمر : كان به داء الجذام. وقيل: البرص وَمَنْ لاَ يُنَادِي بالهضيمةِ جَارُه فعولج بأمر عمر بن الخطاب حتى …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 2، ص 1453، يذكر الجذام والبرص، والعلاج، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 2, p. 1453, that mentions leprosy and vitiligo, treatment, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 1453 کا اقتباس جس میں جذام اور برص، علاج، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/isaba] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/20200217_20200217_0509, page 1453; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

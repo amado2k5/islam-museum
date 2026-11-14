@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-2728
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2728"
+label: { ar: "سنن ابن ماجه 2728 — المرض والمريض، عيادة المريض", en: "Sunan Ibn Majah 2728 — illness and the sick; visiting the sick", ur: "سنن ابن ماجہ 2728 — بیماری اور بیمار، بیمار کی عیادت" }
+text: "حَدَّثَنَا هِشَامُ بْنُ عَمَّارٍ، حَدَّثَنَا سُفْيَانُ، عَنْ مُحَمَّدِ بْنِ الْمُنْكَدِرِ، سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ مَرِضْتُ فَأَتَانِي رَسُولُ اللَّهِ يَعُودُنِي هُوَ وَأَبُو بَكْرٍ مَعَهُ وَهُمَا مَاشِيَانِ وَقَدْ أُغْمِيَ عَلَىَّ فَتَوَضَّأَ رَسُولُ اللَّهِ فَصَبَّ عَلَىَّ مِنْ وَضُوئِهِ فَقُلْتُ يَا رَسُولَ اللَّهِ كَيْفَ أَصْنَعُ كَيْفَ أَقْضِي فِي مَالِي حَتَّى نَزَلَتْ آيَةُ الْمِيرَاثِ فِي آخِرِ النِّسَاءِ {وَإِنْ …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2728، يذكر المرض والمريض، وعيادة المريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 2728 (Chapters on Shares of Inheritance), that mentions illness and the sick, visiting the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2728، جس میں بیماری اور بیمار، بیمار کی عیادت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2728 (book 23 hadith 10); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,18 @@
+id: passage/muslim-api-5341
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5341"
+label: { ar: "صحيح مسلم 5341 — تمر العجوة، السم والترياق", en: "Sahih Muslim 5341 — 'ajwa dates; poison and antidote", ur: "صحیح مسلم 5341 — عجوہ کھجور، زہر اور تریاق" }
+text: "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَيَحْيَى بْنُ أَيُّوبَ، وَابْنُ، حُجْرٍ قَالَ يَحْيَى بْنُ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا إِسْمَاعِيلُ، - وَهُوَ ابْنُ جَعْفَرٍ - عَنْ شَرِيكٍ، - وَهُوَ ابْنُ أَبِي نَمِرٍ - عَنْ عَبْدِ اللَّهِ بْنِ أَبِي عَتِيقٍ، عَنْ عَائِشَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" إِنَّ فِي عَجْوَةِ الْعَالِيَةِ شِفَاءً أَوْ إِنَّهَا تِرْيَاقٌ أَوَّلَ الْبُكْرَةِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5341، يذكر تمر العجوة، والسم والترياق، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5341 (The Book of Drinks), that mentions 'ajwa dates, poison and antidote, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5341، جس میں عجوہ کھجور، زہر اور تریاق، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5341 (book 36 hadith 215); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

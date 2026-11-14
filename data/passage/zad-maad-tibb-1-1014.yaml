@@ -1,0 +1,17 @@
+id: passage/zad-maad-tibb-1-1014
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:1014"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 1014 — الكحل، الشكوى من العلة", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 1014 — kohl for the eye; a complaint of an ailment", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 1014 — سرمہ، بیماری کی شکایت" }
+text: "… قال: لا تكتجِلُ، ولا تتطيب، ولا تَخْتَضِب، ولا تلبَسُ المعصفر، ولا ثوباً مصبوغاً، ولا برداً، ولا تتزينٍ بِحلي، ولا تلبَسُ شيئاً تُريد به الزينة، ولا تكتحِلُ بكُحل تُريد به الزينة، إلَّا أن تشتكي عينها. وصح عنه من طريق عبد الرزاق، …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 1014، يذكر الكحل، والشكوى من العلة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 1014, that mentions kohl for the eye, a complaint of an ailment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 1014 کا اقتباس جس میں سرمہ، بیماری کی شکایت کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 1014; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

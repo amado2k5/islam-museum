@@ -10,8 +10,8 @@ regions: [anatolia-balkans]
 coordinates: [39.21, 26.28]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q128087" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q128087", nomisma: "lesbos" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q128087 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."

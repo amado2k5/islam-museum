@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4091
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4091"
+label: { ar: "صحيح البخاري 4091 — أعضاء البدن", en: "Sahih al-Bukhari 4091 — the organs of the body", ur: "صحیح بخاری 4091 — اعضائے بدن" }
+text: "… أَوْ أَكُونُ خَلِيفَتَكَ، أَوْ أَغْزُوكَ بِأَهْلِ غَطَفَانَ بِأَلْفٍ وَأَلْفٍ، فَطُعِنَ عَامِرٌ فِي بَيْتِ أُمِّ فُلاَنٍ فَقَالَ غُدَّةٌ كَغُدَّةِ الْبَكْرِ فِي بَيْتِ امْرَأَةٍ مِنْ آلِ فُلاَنٍ ائْتُونِي بِفَرَسِي. فَمَاتَ عَلَى ظَهْرِ فَرَسِهِ، فَانْطَلَقَ حَرَامٌ أَخُو أُمِّ سُلَيْمٍ هُوَ {وَ} رَجُلٌ أَعْرَجُ وَرَجُلٌ مِنْ بَنِي فُلاَنٍ قَالَ كُونَا قَرِيبًا حَتَّى آتِيَهُمْ، فَإِنْ آمَنُونِي كُنْتُمْ، وَإِنْ قَتَلُونِي أَتَيْتُمْ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4091، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 4091 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 4091، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4091 (book 64 hadith 135); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

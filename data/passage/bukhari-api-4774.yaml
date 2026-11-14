@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4774
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4774"
+label: { ar: "صحيح البخاري 4774 — أسماء الأمراض", en: "Sahih al-Bukhari 4774 — named diseases", ur: "صحیح بخاری 4774 — بیماریوں کے نام" }
+text: "… رَجُلٌ يُحَدِّثُ فِي كِنْدَةَ فَقَالَ يَجِيءُ دُخَانٌ يَوْمَ الْقِيَامَةِ فَيَأْخُذُ بِأَسْمَاعِ الْمُنَافِقِينَ وَأَبْصَارِهِمْ، يَأْخُذُ الْمُؤْمِنَ كَهَيْئَةِ الزُّكَامِ. فَفَزِعْنَا، فَأَتَيْتُ ابْنَ مَسْعُودٍ، وَكَانَ مُتَّكِئًا، فَغَضِبَ فَجَلَسَ فَقَالَ مَنْ عَلِمَ فَلْيَقُلْ، وَمَنْ لَمْ يَعْلَمْ فَلْيَقُلِ اللَّهُ أَعْلَمُ. فَإِنَّ مِنَ الْعِلْمِ أَنْ يَقُولَ لِمَا لاَ يَعْلَمُ لاَ أَعْلَمُ. فَإِنَّ اللَّهَ قَالَ لِنَبِيِّهِ {قُلْ مَا أَسْأَلُكُمْ عَلَيْهِ مِنْ أَجْرٍ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4774، يذكر أسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 4774 (Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))), that mentions named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 4774، جس میں بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4774 (book 65 hadith 296); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-356
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "356"
+label: { ar: "سنن أبي داود 356 — الجراحة والختان والجبائر", en: "Sunan Abi Dawud 356 — surgery, circumcision and splints", ur: "سنن ابی داؤد 356 — جراحت، ختنہ اور پٹیاں" }
+text: "حَدَّثَنَا مَخْلَدُ بْنُ خَالِدٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، قَالَ أُخْبِرْتُ عَنْ عُثَيْمِ بْنِ كُلَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّهُ جَاءَ إِلَى النَّبِيِّ فَقَالَ قَدْ أَسْلَمْتُ. فَقَالَ لَهُ النَّبِيُّ \" أَلْقِ عَنْكَ شَعْرَ الْكُفْرِ \". يَقُولُ احْلِقْ. قَالَ وَأَخْبَرَنِي آخَرُ أَنَّ النَّبِيَّ قَالَ لآخَرَ مَعَهُ \" أَلْقِ عَنْكَ شَعْرَ الْكُفْرِ وَاخْتَتِنْ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 356، يذكر الجراحة والختان والجبائر. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 356 (Purification (Kitab Al-Taharah)), that mentions surgery, circumcision and splints. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 356، جس میں جراحت، ختنہ اور پٹیاں کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 356 (book 1 hadith 356); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/nasai-api-3554
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3554"
+label: { ar: "سنن النسائي 3554 — أطوار خلق الجنين", en: "Sunan al-Nasa'i 3554 — the stages of the embryo", ur: "سنن نسائی 3554 — جنین کے مراحل" }
+text: "… مَا نُسِخَ مِنَ الْقُرْآنِ الْقِبْلَةُ وَقَالَ { وَالْمُطَلَّقَاتُ يَتَرَبَّصْنَ بِأَنْفُسِهِنَّ ثَلاَثَةَ قُرُوءٍ وَلاَ يَحِلُّ لَهُنَّ أَنْ يَكْتُمْنَ مَا خَلَقَ اللَّهُ فِي أَرْحَامِهِنَّ } إِلَى قَوْلِهِ { إِنْ أَرَادُوا إِصْلاَحًا } وَذَلِكَ بِأَنَّ الرَّجُلَ كَانَ إِذَا طَلَّقَ امْرَأَتَهُ فَهُوَ أَحَقُّ بِرَجْعَتِهَا وَإِنْ طَلَّقَهَا ثَلاَثًا فَنَسَخَ ذَلِكَ وَقَالَ { الطَّلاَقُ مَرَّتَانِ فَإِمْسَاكٌ بِمَعْرُوفٍ أَوْ تَسْرِيحٌ بِإِحْسَانٍ }."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3554، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 3554 (The Book of Divorce), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 3554، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3554 (book 27 hadith 168); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
