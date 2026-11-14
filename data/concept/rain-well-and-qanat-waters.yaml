@@ -1,0 +1,18 @@
+id: concept/rain-well-and-qanat-waters
+class: concept
+kind: scientific
+label: { ar: "مياه المطر والآبار والقنى عند ابن سينا", en: "Rain, well and underground channel waters in the Canon", ur: "قانون میں بارش، کنووں اور قناتوں کے پانی" }
+summary:
+  ar: "يذكر ابن سينا أن من المياه الفاضلة ماء المطر، وخصوصاً الصيفي ومن سحاب راعد، بخلاف ما يكون من سحاب ذي رياح عاصفة فهو كدر مغشوش الجوهر. لكن العفونة تبادر إلى ماء المطر لشدة رقته، فتضر بالصدر والصوت، ويقل قبوله للعفونة إذا بودر إلى إغلائه، وتؤمن مضرته بتناول الحموضات {cite:canon-ibn-sina-print-v1 p.136}."
+  en: "Ibn Sina counts rain water among the excellent waters, especially summer rain from thundering cloud, as opposed to rain from cloud driven by violent winds, which is turbid and of mixed substance. Because it is so thin, however, putrefaction comes quickly to rain water and harms the chest and the voice. It is less open to putrefaction if boiled promptly, and its harm is made safe by taking sour things {cite:canon-ibn-sina-print-v1 p.136}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on food, drink, waters, retention and evacuation, and non-necessary causes (scan pages 131 to 140), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-food-water-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
