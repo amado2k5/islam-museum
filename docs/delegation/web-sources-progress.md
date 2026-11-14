@@ -852,3 +852,10 @@ Nothing is registered this turn. Each registration needs the three-part commit i
   - person/hamdun-al-qassar: the gap list was stale; he already has ar, en and ur prose from the Risala Qushayriyya lane.
   - person/abd-allah-ibn-tawus: entry in Siyar vol. 6 not yet located (scan from id 4255 started, not finished).
 - Process note: building a worktree on the microSD took over 30 minutes with six workers; a worktree on local disk works (the orchestrator's correction of 14 November 2026).
+
+## 2026-11-14 (p55, Lane B worker B1) — Pleiades registered; 25 places linked
+
+- Approval: dec-20261114-277. Downloaded the Pleiades places and names dumps (about 7 MB each, to /Users/ahmedabdelaal/islam-museum-harvest/raw/pleiades-b1/, outside git); registered `source/pleiades` (CC BY 3.0).
+- Rule: our place without a Pleiades id; exactly one Pleiades place whose representative point is within 0.8 km, whose title (or a slash-separated part of it) equals our English label, kind city, town, site or island. 296 places passed the looser name test (any attested name, 1.5 km); 56 passed the title test; 25 linked: sufetula, qalhat, firuzabad, ioannina, yerevan, ardabil, nineveh, bolnisi, nicomedia, thermopylae, belvoir-fortress, zafar, burs, antequera, mahan, denizli, hit, ani, mdina, asilah, heraklion, sidon, erzurum, aphrodisias, yazd.
+- Left: 31 more of the title-test list (apamea, larissa, lucena, nazareth, shahrisabz, istakhr, ephesus and others) for the next batch; ascalon (founder-held), abadan (duplicate pair), thebasa (uncertain "?"); the other ~240 of the loose list need a hand check because the match rests on an attested alternative name (for example al-mansura against Hermopolis looks wrong).
+- No prose sections added: this pass links identifiers only.
