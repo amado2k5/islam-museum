@@ -1,0 +1,18 @@
+id: concept/canon-medicinal-bath-waters
+class: concept
+kind: scientific
+label: { ar: "مياه الحمامات الدوائية عند ابن سينا", en: "Medicinal bath waters in the Canon", ur: "دوائی حمام کے پانی، قانون کے مطابق" }
+summary:
+  ar: "يعدد ابن سينا أثر الاستحمام في المياه النطرونية والكبريتية والبحرية والرمادية والمالحة والنحاسية والحديدية والزاجية والكبريتية والقفرية، وما يفيد كل نوع منها وما يضر، ثم يوصي بالتدرج والرفق عند دخول الحمام {cite:canon-ibn-sina-print-v1 pp.141-142}."
+  en: "Ibn Sina lists what bathing in natron, sulphur, sea, ash, salt, copper, iron, vitriol and desert waters does, which kinds help and which harm, and advises gradual and gentle entry into the bath {cite:canon-ibn-sina-print-v1 pp.141-142}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2, chapter 19 on baths, sun, sand and oils, and part 2 chapters 1 to 18 on the causes of bodily symptoms (scan pages 140 to 147), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-ch19-jumla2-ch18
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,18 @@
+id: concept/canon-dry-wet-and-timed-uses-of-the-bath
+class: concept
+kind: scientific
+label: { ar: "استعمالات الحمام اليابس والرطب وأوقاته عند ابن سينا", en: "Dry and wet bathing and the timing of the bath in the Canon", ur: "خشک اور تر حمام اور اس کے اوقات، قانون کے مطابق" }
+summary:
+  ar: "يفصل ابن سينا كيف يختلف أثر الحمام باختلاف استعماله: يابسا يجفف وينفع الاستسقاء والترهل، ورطبا يرطب، وطويل المقام يجفف بالتحليل والتعريق، وقصيره يرطب، وعلى الريق يجفف ويهزل، وبعد الشبع يسمن مع خطر السدد، وعند آخر الهضم الأول ينفع باعتدال {cite:canon-ibn-sina-print-v1 p.141}."
+  en: "Ibn Sina sets out how the effect of the bath changes with its use: dry it dries and helps dropsy and soft swelling; wet it moistens; a long stay dries by dissolving and sweating, a short one moistens; on an empty stomach it dries and emaciates; just after a meal it fattens but risks blockages; at the end of the first digestion it helps in moderation {cite:canon-ibn-sina-print-v1 p.141}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2, chapter 19 on baths, sun, sand and oils, and part 2 chapters 1 to 18 on the causes of bodily symptoms (scan pages 140 to 147), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-ch19-jumla2-ch18
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
