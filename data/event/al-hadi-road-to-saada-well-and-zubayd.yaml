@@ -1,0 +1,46 @@
+id: event/al-hadi-road-to-saada-well-and-zubayd
+class: event
+kind: migration
+label:
+  ar: 'طريق الهادي إلى صعدة: بؤيرة الماء ولقاء زبيد'
+  en: 'Al-Hadi''s road to Sa''da: the small well and the encounter at Zubayd'
+  ur: 'ہادی کا صعدہ کا راستہ: چھوٹا کنواں اور زبید میں مڈبھیڑ'
+summary:
+  ar: في طريق الهادي إلى اليمن أصابهم عطش فوجدوا بئراً صغيرة خفية عذبة الماء، ثم لقيهم جمع كثير عند ما يقرؤه النص «زبيد» فرموهم، فحمل عليهم الهادي وأسر جماعة ثم كساهم وردهم إلى عشائرهم.
+  en: On the road to Yemen the party suffered thirst and found a small hidden well of sweet water; then a large crowd at a place the text reads as Zubayd attacked them with missiles, al-Hadi charged them and took a number captive, then clothed them and sent them back to their clans.
+  ur: یمن کے راستے میں قافلے کو پیاس لگی اور انہیں ایک چھپا ہوا میٹھے پانی کا چھوٹا کنواں ملا؛ پھر ایک مقام پر جسے متن «زبید» پڑھتا ہے ایک بڑے ہجوم نے ان پر حملہ کیا، ہادی نے ان پر دھاوا بولا اور ایک جماعت کو قید کیا، پھر انہیں کپڑے پہنا کر ان کے قبیلوں میں لوٹا دیا۔
+wings:
+- time
+themes:
+- skirmishes-raids-expeditions
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources: &id001
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources: *id001
+- type: had_participant
+  target: person/yusuf-ibn-muhammad-al-hasani
+  sources: *id001
+- type: had_participant
+  target: group/banu-muawiya-ibn-harb
+  sources: *id001
+  confidence: low
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص37-44 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-4
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 37-44
