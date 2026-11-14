@@ -1,0 +1,57 @@
+id: event/al-hadi-at-al-darb-harries-athafit-and-routs-the-sortie-285
+class: event
+kind: other
+label:
+  ar: 'الهادي في الدرب يقلق أثافت بالرمي ومنتصف ذي القعدة 285هـ: خروج جيش الدعام وهزيمته قرب أثافت'
+  en: Al-Hadi at al-Darb harasses Athafit, and in mid Dhu al-Qa'da 285 AH al-Da'am's army sorties and is routed near the town
+  ur: ہادی کا الدرب سے اثافت کو تنگ کرنا اور وسط ذوالقعدہ 285ھ میں دعام کے لشکر کا نکلنا اور شہر کے قریب پسپا ہونا
+summary:
+  ar: لزم الهادي درب بني ربيعة وصار يوجه بين كل ليالٍ جماعة إلى أثافت ترمي منزل الدعام وتسهر ليله، وفي منتصف ذي القعدة بعث جماعة من بني صريم وبني ربيعة ينظرون من بقي مع الدعام، فخرج لهم نحو مئة رجل من عسكره وانحاز رجال الهادي إلى جبل قريب حتى جاءهم مدد من بني سعد من خولان فهُزم جند الدعام إلى القرية بعد قتال شديد، ثم خرج الدعام من أثافت إلى خيوان يوم الأربعاء لأيام بقيت من ذي القعدة.
+  en: Al-Hadi stayed at the Banu Rabi'a al-Darb and sent a party at intervals of a few nights to Athafit to shoot at al-Da'am's lodging and keep him awake; in mid Dhu al-Qa'da he sent men of Banu Sarim and Banu Rabi'a to see who remained with al-Da'am, about a hundred of whose men came out; al-Hadi's men drew back to a nearby mountain until reinforcements of Banu Sa'd of Khawlan arrived, and al-Da'am's men were routed into the village after hard fighting. Al-Da'am then left Athafit for Khiwan on a Wednesday near the end of Dhu al-Qa'da.
+  ur: ہادی بنو ربیعہ کے الدرب میں رہے اور چند راتوں کے وقفے سے اثافت کی طرف ایک جماعت بھیجتے رہے جو دعام کی قیام گاہ پر تیر برساتی اور اس کی راتیں جگاتی؛ وسط ذوالقعدہ میں انہوں نے بنو صریم اور بنو ربیعہ کے آدمی بھیجے کہ دیکھیں دعام کے پاس کون بچا ہے، تو اس کے لشکر کے تقریباً سو آدمی نکلے، ہادی کے آدمی قریب کے ایک پہاڑ کی طرف ہٹ گئے یہاں تک کہ خولان کے بنو سعد کی کمک آ گئی، اور سخت لڑائی کے بعد دعام کے لشکر کو بستی کی طرف پسپا کر دیا گیا۔ پھر دعام ذوالقعدہ کے آخری دنوں میں ایک بدھ کو اثافت سے خیوان چلا گیا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0898-12
+    hijri: 0285-11
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: منتصف ذي القعدة سنة 285هـ نحو 3 كانون الأول 898م (جولياني) بالتقويم الجدولي، ثم يوم أربعاء لأيام بقيت من الشهر؛ الشهر فقط؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/athafit
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/khiwan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/al-darb-banu-rabia-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص106-107 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-14
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 106-107

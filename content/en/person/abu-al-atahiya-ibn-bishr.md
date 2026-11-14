@@ -12,3 +12,6 @@ Abu al-Atahiya invited al-Hadi to Sana'a and asked him to come, and al-Hadi set 
 
 ## After the entry
 He asked al-Hadi to imprison [[group/banu-yafur|Al Ya'fur]] and Al Tarif; the two agreed on it, and he and Ibn Abbad were the men closest to al-Hadi, affairs issuing from their counsel and consultation. {cite:sira-hadi-ila-al-haqq p.18} When al-Da'am and he asked that those held by al-Hadi be put to death, al-Hadi refused; and he left Shibam with Abu al-Atahiya ibn Bishr for Bayt Nud, a name the editor notes the geographer al-Hamdani spells with a zayn. {cite:sira-hadi-ila-al-haqq p.19}
+
+## In the account of Dhu al-Hijja 285 and Muharram 286 AH
+On p. 110 the book introduces him as Abd Allah ibn Bishr, with the kunya Abu al-Atahiya, governor of Sanaa and its districts, whose vizier was Muhammad ibn Abi Abbad of Tamim; the two had written to al-Hadi, desired his justice and affirmed his imamate. {cite:sira-hadi-ila-al-haqq p.110} He promised to supply horse and men, and then, seeing the soldiers' dislike of going to al-Hadi, sent his brother [[person/jarrah-ibn-bishr|Jarrah]] with fifty horsemen in the last days of Muharram 286 AH. {cite:sira-hadi-ila-al-haqq p.111} The book's index refers "Abd Allah ibn Bishr" to "Abu al-Atahiya". {cite:sira-hadi-ila-al-haqq p.450} See [[event/abu-al-atahiya-promises-horse-and-sends-his-brother-jarrah-285]].
