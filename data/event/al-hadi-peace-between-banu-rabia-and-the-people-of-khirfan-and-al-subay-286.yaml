@@ -1,0 +1,63 @@
+id: event/al-hadi-peace-between-banu-rabia-and-the-people-of-khirfan-and-al-subay-286
+class: event
+kind: other
+label:
+  ar: صلح الهادي بين بني ربيعة وأهل خرفان والسبيع في دعوى القتل، 286هـ
+  en: Al-Hadi's peace between Banu Rabi'a and the people of Khirfan and al-Subay' over a killing claim, 286 AH
+  ur: قتل کے دعوے پر بنو ربیعہ اور اہل خرفان و السبیع کے بیچ ہادی کی صلح، 286ھ
+summary:
+  ar: ادّعت بنو ربيعة على أهل السبيع وخرفان دعوى في نفس لهم، فحضر الفريقان عند الهادي في أثافت فجمع بينهم وأصلح ذات بينهم وحسم الأمر على تسعمئة دينار واختلطوا، ثم خرج يوم السبت من أثافت واستعمل عليها حسين بن الحسن العلوي ووصل إلى خيوان من يومه وأقام بها.
+  en: Banu Rabi'a claimed against the people of al-Subay' and Khirfan over a life held against them; both sides came to al-Hadi at Athafit, he brought them together, set things right between them and settled the matter at nine hundred dinars, after which they mixed freely; on the Saturday he left Athafit, appointed Husayn ibn al-Hasan al-Alawi over it, and reached Khiwan the same day to stay.
+  ur: بنو ربیعہ نے السبیع اور خرفان والوں پر ان کے پاس ایک جان کا دعویٰ کیا؛ دونوں فریق ہادی کے پاس اثافت میں حاضر ہوئے، انہوں نے انہیں جمع کر کے آپس میں صلح کرا دی اور معاملہ نو سو دینار پر طے کر دیا اور وہ مل گئے؛ پھر ہفتے کے دن اثافت سے نکلے، حسین بن حسن العلوی کو وہاں عامل مقرر کیا اور اسی دن خیوان پہنچ کر وہیں ٹھہرے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-05
+    hijri: 0286-05
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: آخر جمادى الأولى سنة 286هـ أو ما يليه؛ وجمادى الأولى يبدأ نحو 15 أيار 899م جولياني بالتقويم الجدولي؛ الشهر فقط والتحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/athafit
+- type: occurred_at
+  target: place/khiwan
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-rabia-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/al-subay-arhab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/khirfan-arhab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص126 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-16
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 126

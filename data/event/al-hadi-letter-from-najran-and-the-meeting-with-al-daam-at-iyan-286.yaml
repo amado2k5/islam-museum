@@ -1,0 +1,77 @@
+id: event/al-hadi-letter-from-najran-and-the-meeting-with-al-daam-at-iyan-286
+class: event
+kind: other
+label:
+  ar: كتاب عامل نجران وملاقاة الهادي للدعام بعيان، جمادى الآخرة 286هـ
+  en: The Najran governor's letter and al-Hadi's meeting with al-Da'am at Iyan, Jumada II 286 AH
+  ur: نجران کے عامل کا خط اور عیان میں ہادی کی دعام سے ملاقات، جمادی الآخرہ 286ھ
+summary:
+  ar: وصل الهادي يوم الأحد لعشرة أيام خلون من جمادى الآخرة كتاب من أحمد بن محمد العباسي واليه على نجران يذكر أن ابن بسطام أفسد على الإمام وبذل مالاً لليامين لإعادة الفتنة بينهم وبين بني الحارث، فكتب الهادي إلى الدعام أن يلقاه في بلد بني سلمان، وخلّف ابنه أبا القاسم بخيوان، والتقيا بعيان، فطلب الدعام الأمان لبني سلمان فأمّنهم وحلفوا على السمع والطاعة، ثم سارا إلى نجران حتى القمشية.
+  en: On the Sunday ten days into Jumada II a letter reached al-Hadi from Ahmad ibn Muhammad al-Abbasi, his governor at Najran, saying that Ibn Bustam had worked mischief against the imam and offered the Yam money to revive strife between them and Banu al-Harith; al-Hadi wrote to al-Da'am to meet him in the land of Banu Salman, left his son Abu al-Qasim at Khiwan, and met him at Iyan, where al-Da'am asked and was given safe-conduct for Banu Salman, who swore hearing and obedience, and the two went on toward Najran as far as al-Qamashiyya.
+  ur: جمادی الآخرہ کے دس دن گزرنے پر اتوار کو ہادی کے پاس نجران پر ان کے عامل احمد بن محمد العباسی کا خط پہنچا کہ ابن بسطام نے امام کے خلاف فساد کھڑا کیا اور یام والوں کو مال دیا کہ ان کے اور بنو الحارث کے بیچ فتنہ لوٹ آئے؛ ہادی نے دعام کو لکھا کہ بنو سلمان کے علاقے میں ان سے ملے، اپنے بیٹے ابو القاسم کو خیوان میں چھوڑا اور عیان میں ملاقات ہوئی جہاں دعام نے بنو سلمان کے لیے امان مانگی جو دے دی گئی اور انہوں نے سمع و طاعت پر قسم کھائی، پھر دونوں نجران کی طرف القمشیہ تک چلے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-06
+    hijri: 0286-06
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: يوم الأحد لعشرة أيام خلون من جمادى الآخرة سنة 286هـ؛ وجمادى الآخرة يبدأ نحو 14 حزيران 899م جولياني بالتقويم الجدولي؛ والكتاب يوافق التقويم الرصدي بفارق يوم عن الجدولي في الأيام المسماة، فالتحويل مشتق ومعتمد الشهر فقط
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: occurred_at
+  target: place/khiwan
+- type: occurred_at
+  target: place/iyan-yemen
+- type: occurred_at
+  target: place/al-qamashiyya-yemen
+- type: occurred_at
+  target: place/asal-khawlan
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-muhammad-governor-of-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-salman-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص127 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-16
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 127
