@@ -6,25 +6,27 @@ label:
 roles: [philosopher]
 gender: male
 summary:
-  ar: "بطاقة أولية لجلال الدين الدواني، الفيلسوف والمتكلم الفارسي صاحب أخلاق الجلالي في القرن الخامس عشر؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Jalal al-Din Davani, the Persian philosopher and theologian of the Akhlaq-i Jalali in the fifteenth century; his entry is not yet checked on the page."
+  ar: "محمد بن أسعد الصديقي الدواني، جلال الدين، قاض وباحث يعد من الفلاسفة، ولد في دوان من بلاد كازرون وسكن شيراز وولي قضاء فارس وتوفي بها سنة 918 هـ، من كتبه أنموذج العلوم وإثبات الواجب وحاشية على شرح القوشجي لتجريد الكلام وشرح العقائد العضدية."
+  en: "Muhammad ibn As'ad al-Siddiqi al-Dawwani, Jalal al-Din, a judge and scholar counted among the philosophers; born at Dawan in the land of Kazarun, he settled in Shiraz, became judge of Fars and died there in 918 AH (1512); his works include Unmudhaj al-Ulum, Ithbat al-Wajib, a gloss on al-Qushji's commentary on the Tajrid al-Kalam and a commentary on the Adudiyya creed."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
-died: { edtf: "1512", precision: year, status: tradition, derived: true }
+born: { edtf: "1427", hijri: "0830", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli prints 830 AH = 1427 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 32-33}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1512", hijri: "0918", precision: year, status: tradition, derived: true, note: "al-Zirikli prints 918 AH = 1512 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 32-33}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/kazarun, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/kazarun, confidence: medium, note: "Place link from Wikidata. al-Zirikli, vol. 6 pp. 32-33: born at Dawan, of the land of Kazarun (the Dawan of Fars is not the Hadramawt town place/dawan).", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/shiraz, confidence: high, note: "al-Zirikli, vol. 6 pp. 32-33: he settled in Shiraz.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
   - { type: buried_in, target: building/jalal-al-din-davani-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4116938
   viaf: "159962989"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

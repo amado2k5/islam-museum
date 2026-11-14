@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لحسين بن علي الجعفي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Husayn ibn Ali al-Ju'fi; the entry is not yet checked on the page."
+  ar: "الحسين بن علي بن الوليد الجعفي مولاهم الكوفي، مقرئ زاهد من رواة الحديث، وثقه ابن معين وقال ابن حنبل إنه لم ير أفضل منه، توفي سنة 203 هـ بحسب الصفدي."
+  en: "Al-Husayn ibn Ali ibn al-Walid al-Ju'fi, a client of the Ju'fi tribe, a Kufan reciter and ascetic who transmitted hadith; Ibn Ma'in called him reliable and Ibn Hanbal said he had seen none better; died 203 AH according to al-Safadi."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 born: { edtf: "737", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "818", hijri: "0203", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar. al-Safadi, al-Wafi, vol. 13 p. 14, prints 203 AH, agreeing with the card.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
-  - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source. al-Safadi, al-Wafi, vol. 13 p. 14, gives the nisba al-Kufi.", sources: [source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+sources: [source/al-aalam, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q22687525
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, ed. al-Arna'ut and Mustafa, Dar Ihya al-Turath 2000, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

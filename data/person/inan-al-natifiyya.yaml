@@ -6,26 +6,27 @@ label:
 roles: [poet]
 gender: female
 summary:
-  ar: "بطاقة أولية لعنان الناطفية، شاعرة البصرة وجارية المتوكل في القرن التاسع التي نظمت وحكمت، توفت سنة ٨٤١م؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Inan al-Natifiyya, the ninth-century Basran poet-songstress of al-Mutawakkil's court, d. 841; the biographical entry is not yet checked on the page."
+  ar: "عنان الناطفية، شاعرة جارية لرجل من أهل بغداد يدعى الناطفي، من مولدات اليمامة وقيل المدينة، اشتهرت ببغداد وكانت من أذكى النساء وأشعرهن، أخبارها مع العباس بن الأحنف وأبي نواس، توفيت سنة 226 هـ."
+  en: "Inan al-Natifiyya, a poet and slave girl of a Baghdadi called al-Natifi, raised in al-Yamama or, by another report, Medina, and famous in Baghdad as one of the quickest-witted and most gifted women poets; she has reports with al-Abbas ibn al-Ahnaf and Abu Nuwas; died 226 AH (841)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-died: { edtf: "841", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani / Abu al-Faraj al-Isfahani Confirmed on 13 November 2026 against Wikidata Q11926586 (P570, a statement with a reference), item revision 2544688209.", sources: [source/wikidata] }
+died: { edtf: "841", hijri: "0226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani / Abu al-Faraj al-Isfahani Confirmed on 13 November 2026 against Wikidata Q11926586 (P570, a statement with a reference), item revision 2544688209. al-Zirikli prints 226 AH = 841 CE and no birth year {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 90}.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/iraq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/misr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: buried_in, target: place/iraq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/iraq, confidence: low, note: "Place link from Wikidata; pending a second source. al-Zirikli, al-A'lam, vol. 5 p. 90, says she was raised in al-Yamama, or by another report Medina, and became famous in Baghdad; he names no birthplace.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/baghdad, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 5 p. 90: she was a slave girl of a man of Baghdad and became famous there.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/misr, confidence: medium, note: "Place link from Wikidata. al-Zirikli, vol. 5 p. 90, gives two reports: she died in Khurasan; and, citing al-Mustatraf min Akhbar al-Nisa', that after her emancipation she went to Egypt and died there.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: buried_in, target: place/iraq, confidence: low, note: "Place link from Wikidata; pending a second source. al-Zirikli, vol. 5 p. 90, records no burial place.", sources: [source/wikidata] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q11926586
   viaf: "312892245"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0024
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

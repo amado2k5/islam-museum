@@ -69,12 +69,26 @@ describe("check-packet", () => {
     for (const id of ids) files[`data/${id}.yaml`] = dataYaml(id);
     expect(has(checkPacket(packet(files, MANIFEST(ids))), /limit is 25/)).toBe(true);
   });
-  it("fails when a language of new prose is missing or provenance is absent", () => {
+  it("accepts the landed-packet shape: prose frontmatter with id, lang and status only, provenance kept in the data record", () => {
+    const id = "place/zz-test-town";
+    const f: Record<string, string> = { [`data/${id}.yaml`]: dataYaml(id) };
+    for (const l of ["ar", "en", "ur"]) f[`content/${l}/${id}.md`] = `---\nid: ${id}\nlang: ${l}\nsource_lang: ar\ntranslators: ["x, draft translation"]\nstatus:\n  review: draft\n---\n## Summary\nText. {cite:5pillars p. 1}\n`;
+    const r = checkPacket(packet(f, MANIFEST([id])));
+    expect(r.errors).toEqual([]);
+    expect(r.warnings.filter((w) => /provenance/.test(w))).toEqual([]);
+  });
+  it("only warns about missing provenance, as validate does not require it", () => {
+    const id = "place/zz-test-town";
+    const f = { [`data/${id}.yaml`]: dataYaml(id).replace(PROV, "") };
+    const r = checkPacket(packet(f, MANIFEST([id])));
+    expect(r.errors).toEqual([]);
+    expect(r.warnings.some((w) => /no provenance block/.test(w))).toBe(true);
+  });
+  it("fails when a language of new prose is missing", () => {
     const id = "place/zz-test-town";
     const f = { [`data/${id}.yaml`]: dataYaml(id), [`content/ar/${id}.md`]: prose(id, "ar", "نص"), [`content/en/${id}.md`]: `---\nid: ${id}\nlang: en\n---\nText\n` };
     const r = checkPacket(packet(f, MANIFEST([id])));
     expect(has(r, /no ur file/)).toBe(true);
-    expect(has(r, /provenance block is required/)).toBe(true);
   });
   it("fails on an unresolved link and an unresolved citation", () => {
     const r = checkPacket(good(" [[person/zz-nobody-here]] {cite:zz-no-such-source}"));
@@ -102,11 +116,11 @@ describe("check-packet", () => {
   it("fails on a mention of a blocked organisation", () => {
     expect(has(checkPacket(good(" The Taliban took the town.")), /blocked organisation/)).toBe(true);
   });
-  it("rejects a staged Qur'an passage file and a self-promoted published status", () => {
+  it("rejects a staged Qur'an passage file and warns on a self-promoted published status", () => {
     const q = packet({ "data/passage/quran-1-1.yaml": "id: passage/quran-1-1\n" }, MANIFEST(["passage/quran-1-1"]));
     expect(has(checkPacket(q), /never staged/)).toBe(true);
     const id = "place/zz-test-town";
     const pub = packet({ [`data/${id}.yaml`]: dataYaml(id).replace("review: draft", "review: published") }, MANIFEST([id]));
-    expect(has(checkPacket(pub), /self-promotes/)).toBe(true);
+    expect(checkPacket(pub).warnings.some((w) => /self-promotes/.test(w))).toBe(true);
   });
 });

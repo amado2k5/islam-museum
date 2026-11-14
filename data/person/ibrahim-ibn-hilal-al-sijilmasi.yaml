@@ -6,28 +6,30 @@ label:
 roles: [faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لإبراهيم بن هلال السجلماسي، الفقيه المالكي المغربي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibrahim ibn Hilal al-Sijilmasi, the Moroccan Maliki jurist; his entry is not yet checked on the page."
+  ar: "إبراهيم بن هلال بن علي، أبو إسحاق الصنهاجي الفلالي السجلماسي، فقيه مالكي، مفتي سجلماسة وعالمها، من كتبه النوازل وشرح البخاري وشرح مختصر خليل، توفي بها، ويذكر الزركلي وفاته سنة 903 هـ."
+  en: "Ibrahim ibn Hilal ibn Ali, Abu Ishaq al-Sanhaji al-Falali al-Sijilmasi, a Maliki jurist, mufti and scholar of Sijilmasa; his books include al-Nawazil and commentaries on al-Bukhari and the Mukhtasar of Khalil; died there; al-Zirikli gives his death as 903 AH."
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1414", precision: year, status: tradition, derived: true }
-died: { edtf: "1498", precision: year, status: tradition, derived: true }
+born: { edtf: "1414", hijri: "0817", precision: year, status: tradition, derived: true, note: "al-Zirikli, al-A'lam, vol. 1 p. 78, prints 817 AH = 1414 CE, agreeing with the card", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1498", hijri: "0903", precision: year, status: tradition, derived: true, note: "al-Zirikli, al-A'lam, vol. 1 p. 78, prints 903 AH = 1497 CE; the card year is kept", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: lived_in, target: place/sijilmasa, confidence: high, note: "al-Zirikli, al-A'lam, vol. 1 p. 78: he was the mufti and scholar of Sijilmasa", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/sijilmasa, confidence: high, note: "al-Zirikli, al-A'lam, vol. 1 p. 78: his death was there", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12181730
   viaf: "90058018"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary
