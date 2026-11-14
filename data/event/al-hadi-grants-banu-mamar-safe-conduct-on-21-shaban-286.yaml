@@ -1,0 +1,79 @@
+id: event/al-hadi-grants-banu-mamar-safe-conduct-on-21-shaban-286
+class: event
+kind: other
+label:
+  ar: بنو معمر يعودون يوم السبت 21 شعبان 286هـ والهادي يمنحهم الأمان بوساطة مشايخ خيوان
+  en: Banu Ma'mar return on Saturday 21 Sha'ban 286 AH and al-Hadi grants them safe-conduct through the elders of Khiwan
+  ur: بنو معمر ہفتہ 21 شعبان 286ھ کو لوٹتے ہیں اور خیوان کے بزرگوں کی وساطت سے ہادی انہیں امان دیتے ہیں
+summary:
+  ar: يوم السبت لإحدى وعشرين من شعبان عند صلاة الظهر عاد نحو ثلاثمائة من القوم واستندوا إلى جبل قرب خيوان، فركب الهادي وابنه مسلحين وتبطّن الوادي، فلقيه الحسين بن الحسن العلوي من أثافت بعسكر من بني ربيعة وبني صريم مدداً، وبينما يعبّئ الناس جاءه مشايخ خيوان ووجوه همدان وخولان يقولون إنهم صرفوا القوم، فعاد غاضباً إلى خيوان، ثم أعاد المشايخ القوم يطلبون الأمان فمنحهم إياه، وفي ذلك شدّ همدان.
+  en: On Saturday the twenty-first of Sha'ban at the noon prayer about three hundred of the group came back and leaned on a hill near Khiwan; al-Hadi and his son rode out armed and went down the valley, where al-Husayn ibn al-Hasan al-Alawi met him from Athafit with a force of Banu Rabi'a and Banu Sarim as reinforcement; while he was arraying, elders of Khiwan and notables of Hamdan and Khawlan came and said they had turned the group, he went back to Khiwan like an angry man, and when the elders brought the group back asking safe-conduct he granted it, which bound Hamdan to him.
+  ur: ہفتے 21 شعبان کو ظہر کی نماز کے وقت قوم کے تقریباً تین سو آدمی لوٹ آئے اور خیوان کے قریب ایک پہاڑ سے ٹیک لگا لی؛ ہادی اور ان کے بیٹے مسلح ہو کر سوار ہوئے اور وادی میں اترے، جہاں اثافت سے حسین بن حسن علوی بنو ربیعہ اور بنو صریم کے لشکر کے ساتھ مدد کو آ ملے؛ ابھی وہ صف بندی کر رہے تھے کہ خیوان کے بزرگ اور ہمدان و خولان کے معززین آئے اور کہا کہ انہوں نے قوم کو ہٹا دیا ہے، وہ غضب ناک آدمی کی طرح خیوان لوٹ گئے، پھر بزرگ قوم کو واپس لائے جو امان مانگتی تھی تو انہوں نے دے دیا، جس سے ہمدان ان کے ساتھ بندھ گئے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0899-09-01'
+    hijri: '0286-08-21'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: السبت لإحدى وعشرين من شعبان سنة 286هـ بنص الكتاب؛ يوافق 1 أيلول 899م جولياني بالتقويم الجدولي، وهو الجمعة جدولياً؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/khiwan
+- type: occurred_at
+  target: place/athafit
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-sulayman-al-kufi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/husayn-ibn-al-hasan-al-alawi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-mamar-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-rabia-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-sarim-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص141-142 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-18
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 141-142

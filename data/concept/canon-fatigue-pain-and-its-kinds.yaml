@@ -1,0 +1,18 @@
+id: concept/canon-fatigue-pain-and-its-kinds
+class: concept
+kind: scientific
+label: { ar: "الوجع الإعيائي وأنواعه عند ابن سينا", en: "Fatigue pain and its kinds in the Canon", ur: "تھکاوٹ کا درد اور اس کی اقسام، قانون کے مطابق" }
+summary:
+  ar: "يقسّم ابن سينا الوجع الإعيائي بحسب سببه إلى إعياء تعبي، وتمددي من خلط ممدّد، ونافخ من ريح، وقروحي من خلط لاذع، ويذكر أن منها تراكيب مثل البورقي المركب من التمددي والقروحي {cite:canon-ibn-sina-print-v1 p.150}."
+  en: "Ibn Sina divides fatigue pain by its cause into exertional fatigue, tensive fatigue from a stretching humour, inflative fatigue from wind and ulcerative fatigue from an irritating humour, and notes compounds such as the boric kind, a mix of tensive and ulcerative {cite:canon-ibn-sina-print-v1 p.150}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2, part 2 chapters 19 to 29 on pain, pleasure, indigestion and weakness (scan pages 147 to 153), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-jumla2-ch19-29
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
