@@ -14,7 +14,8 @@ roles: [jurist]
 wings: [people]
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+external_ids: { openiti: "0750IbnTurkamani" }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/openiti-corpus]
 status:
   review: published
   completeness: 3

@@ -15,7 +15,8 @@ died: { edtf: "1329~", hijri: "0729", calendar: julian, precision: year, status:
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Author of Ma'alim al-Qurba on hisba, d. 729 AH, placed in Egypt by the edition's editors per the record's cited source.", sources: [source/maalim-qurba-edition-1976] }
   - { type: authored, target: work/maalim-al-qurba-fi-ahkam-al-hisba, sources: [source/maalim-qurba-edition-1976] }
-sources: [source/maalim-qurba-edition-1976]
+external_ids: { openiti: "0729IbnUkhuwwa" }
+sources: [source/maalim-qurba-edition-1976, source/openiti-corpus]
 provenance:
   layer: own-research
   source: "Maalim al-Qurba fi Ahkam al-Hisba, Arabic edition (1976), scan pages 2 and 6"

@@ -61,6 +61,7 @@ open a new block on top with the new version and today's date.
 ### Data
 - **Three more Siyar A'lam al-Nubala' biographies in Arabic, English and Urdu, cited to the page:** Alqama ibn Marthad (re-read from the page image with Apple Vision after the text scan mixed him with another Alqama), Musa ibn Ulayy al-Lakhmi (governor of Egypt and reliable transmitter) and the poet-prince Muqatil ibn Atiyya, whose card wrongly placed him in the Buyid era and Iraq (now Herat, from the book).
 - **VIAF identifiers added to one hundred more persons.** Each number comes from the single VIAF statement on the person's Wikidata item, so the link to the library authority record rests on the Wikidata identity our record already carries (decision dec-20261114-277).
+- **OpenITI is registered as a facts-only source, and 108 scholars carry their OpenITI author identifier.** The identifier is the Hijri death year plus a short name (for example 0310Tabari); each link needs our Arabic name to equal the corpus author name, our Hijri death year to equal the identifier's year, and exactly one author to match (decision dec-20261114-277).
 
 ## v1.30.0 — 2026-11-14
 ### Added

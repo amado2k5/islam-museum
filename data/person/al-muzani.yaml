@@ -7,7 +7,7 @@ summary:
   en: "Abu Ibrahim Isma'il b. Yahya al-Muzani, author of the Mukhtasar and al-Shafi'i's great pupil — died in Egypt, Rabi' I 264 {cite:muruj-al-dhahab p. 576-577}."
 gender: male
 wings: [people]
-external_ids: { wikidata: "Q48703", viaf: "22166826" }
+external_ids: { wikidata: "Q48703", viaf: "22166826", openiti: "0264IbnYahyaMuzani" }
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي ج2 ص 576–577"
@@ -17,7 +17,7 @@ died: { hijri: "0264", edtf: "0878~", calendar: julian, precision: year, status:
 relations:
   - { type: died_in, target: place/misr, note: "From text: died in Egypt", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي، وقال فيه: ناصر مذهبي (PDF ص51)", sources: [source/tabaqat-fuqaha-abbas-1981] }
-sources: [source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981, source/wikidata]
+sources: [source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981, source/wikidata, source/openiti-corpus]
 status:
   review: published
   completeness: 3
