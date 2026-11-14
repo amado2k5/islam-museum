@@ -1,0 +1,18 @@
+id: concept/hollow-vein-ascending-trunk
+class: concept
+kind: scientific
+label: { ar: "الأجوف وما يصعد منه إلى القلب عند ابن سينا", en: "The hollow vein and its ascending trunk to the heart in the Canon", ur: "قانون میں اجوف اور دل تک اس کا چڑھتا تنہ" }
+summary:
+  ar: "في الفصل الثالث يصف ابن سينا الأجوف: أصله يتفرق في الكبد كالشعر ليجذب الغذاء من شعب الباب، ثم يطلع ساقه عند الحدبة فينقسم صاعداً وهابطاً، ويخرق الصاعد الحجاب ويبلغ القلب عند أذنه اليمنى {cite:canon-ibn-sina-print-v1 p.88}."
+  en: "In the third chapter Ibn Sina describes the hollow vein: its root spreads in the liver like hairs to draw food from the branches of the gate vein, its stem then rises at the convexity and divides into rising and descending parts, and the rising part pierces the diaphragm and reaches the heart at its right auricle {cite:canon-ibn-sina-print-v1 p.88}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/veins, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

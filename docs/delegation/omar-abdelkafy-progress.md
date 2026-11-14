@@ -3363,3 +3363,35 @@ Resume point: min-kunuz-al-sunnah episode 28 (branch from origin/main).
 | Closing prayer and farewell | ep28 00:26:00-00:26:30 | Closing prayer and farewell | Content rule | Open |
 
 Resume point: min-kunuz-al-sunnah episode 29 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep29 (14 Nov 2026)
+
+14 points written for episode 29 (ar, en, ur); 9 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (16-43, 4-59, 33-35, 7-205); none typed. Contested: He attributes to himself or states as his view a proposal of premarital health, fiqh and psychiatric certificates, a divorce rate of 60 percent in some Arab countries, and proposals to screen teachers and preachers; the hadith wordings and scholars' accounts are quoted by sense without chains.
+
+| Excluded (min-kunuz-al-sunnah ep29) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting, opening praise and introduction | ep29 00:00:00-00:00:30 | Greeting and preamble, no content | Content rule | Open |
+| Break joins and closing prayer | ep29 00:08:30-00:09:00, 00:16:30-00:17:00, 00:26:00-00:27:00 | Break lead-in and return, closing prayer and farewell, no content | Content rule | Open |
+| Analogies of plumber, pharmacist and chemistry for the Sharia, jokes about Arabs | ep29 00:02:00-00:04:00 | Mockery and sweeping remarks about Arabs; the substantive point is kept in a bullet | Voice rule | Open |
+| Claim that girls see marriage only as a dress and wedding day, remarks on mothers and a girl's grievances against men | ep29 00:12:30-00:13:00, 00:15:30-00:16:00 | Demeaning generalisations about women | Voice rule | Open |
+| Remarks on women smoking water pipes, mothers blowing on food, and the modern wife as a part-time role | ep29 00:19:00-00:20:30 | Demeaning generalisations about women | Content rule | Open |
+| Looping stretch of repeated words | ep29 00:18:00-00:18:30, 00:13:30-00:14:00 | Garbled ASR repetition; only the clear start of the line is used | Clarity, Loop check | Open |
+| Garbled phrases on accepting the easy and on teachers and pupils | ep29 00:07:30-00:08:00, 00:10:00-00:10:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Stray final line | ep29 00:27:00 | One garbled token | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 30 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep30 (14 Nov 2026)
+
+14 points written for episode 30 (ar, en, ur); 7 needs_source marks in each language file for this episode; 9 new `about` edges. Quran verses referenced only through passage links (3-110); none typed. Contested: He attributes to himself the ruling of sixty days for a deliberate break of the fast, the view that smoking harms body and money, and applications of the audit idea; the Umar and al-Abbas story and Aisha's description are given without chain.
+
+| Excluded (min-kunuz-al-sunnah ep30) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening prayer and thanks | ep30 00:00:00-00:01:00 | Greeting formula, not substantive | Content rule | Open |
+| Break joins and welcome back | ep30 00:08:30-00:09:30 and 00:18:30-00:19:30 | Programme break joins; Eid greeting | Content rule | Open |
+| Garbled stretch on prayer that omits the obligation and a reported saying on forty days | ep30 00:11:30-00:12:00 and 00:22:30-00:23:00 | ASR too garbled to recover | Clarity, Loop check | Open |
+| Remark about a wife's smile and teeth, and spoken scenes of family meals | ep30 00:16:30-00:17:00 and 00:25:30-00:26:30 | Joking asides, partly garbled | Voice rule | Open |
+| Closing prayers for countries and for current conflicts, thanks, closing prayer and farewell | ep30 00:27:30-00:30:00 | Prayers for peoples, states and modern conflicts; closing prayer | Content rule, Voice rule | Open |
+| Repeated filler tokens | ep30 00:30:30-00:30:30 | Loop, no content | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 31 (branch from origin/main).

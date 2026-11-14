@@ -1,0 +1,18 @@
+id: concept/lumbar-nerves
+class: concept
+kind: scientific
+label: { ar: "أعصاب القطن عند ابن سينا", en: "Lumbar nerves in the Canon", ur: "قانون میں کمر کے اعصاب" }
+summary:
+  ar: "في الفصل الخامس يبين ابن سينا أن أعصاب القطن، وهو أسفل الظهر، تذهب بجزء إلى عضل الصلب وبجزء إلى عضل البطن، وأن الزوجين السافلين يرسلان شعباً كباراً إلى الساقين {cite:canon-ibn-sina-print-v1 p.83}."
+  en: "In the fifth chapter Ibn Sina shows that the lumbar nerves, those of the lower back, send one part to the back muscles and one to the abdominal muscles, and that the two lowest pairs send large branches to the legs {cite:canon-ibn-sina-print-v1 p.83}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/nerves, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
