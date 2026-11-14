@@ -13,9 +13,10 @@ regions: [anatolia-balkans]
 periods: [period/modern-era]
 relations:
   - { type: born_in, target: place/prizren-municipality, sources: [source/wikidata], confidence: low, note: "Wikidata Q16362428 ('Zgatar'), located in Prizren Municipality" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q16350131
+  viaf: "88413278"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

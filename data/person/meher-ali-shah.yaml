@@ -45,8 +45,8 @@ relations:
   - { type: died_in, target: place/golra-sharif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-meher-ali-shah] }
   - { type: buried_in, target: building/shrine-of-meher-ali-shah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-meher-ali-shah] }
   - { type: member_of, target: group/chishtiyya, sources: [source/wikipedia-meher-ali-shah-en, source/wikipedia-meher-ali-shah-ur] }
-external_ids: { wikidata: "Q6809463" }
-sources: [source/wikipedia-meher-ali-shah-en, source/wikipedia-meher-ali-shah-ar, source/wikipedia-meher-ali-shah-ur, source/wikidata-meher-ali-shah]
+external_ids: { wikidata: "Q6809463", viaf: "23506182" }
+sources: [source/wikipedia-meher-ali-shah-en, source/wikipedia-meher-ali-shah-ar, source/wikipedia-meher-ali-shah-ur, source/wikidata-meher-ali-shah, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Meher Ali Shah' (revision 1378743170), Arabic Wikipedia 'مهر علي شاه' (revision 76614039) and Urdu Wikipedia 'پیر مہر علی شاہ' (revision 12168582), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q6809463 (item revision 2557544071). The Arabic article's core is a translation of the English and is counted as the same text family; the Urdu article is independently written. Existence checks by name fragments (meher, mehr, مهر علي شاه), by Arabic label across data/person, by biography and by QID found no prior record for this man. No person record exists for his teacher Shams-ud-din Sialvi, so no student_of edge is written; the member_of edge to group/chishtiyya is written once, here, in the subject's own record. The lane queue gives 1859–1937; the sources agree."

@@ -42,9 +42,9 @@ faith:
 relations:
   - { type: born_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hakim-abdul-hameed] }
   - { type: born_in, target: place/delhi, sources: [source/wikipedia-hakim-abdul-hameed-en] }
-external_ids: { wikidata: "Q19891676" }
+external_ids: { wikidata: "Q19891676", viaf: "93823231" }
 tags: [tibb-browser, tibb-tibb]
-sources: [source/wikipedia-hakim-abdul-hameed-en, source/wikipedia-hakim-abdul-hameed-ur, source/wikidata-hakim-abdul-hameed]
+sources: [source/wikipedia-hakim-abdul-hameed-en, source/wikipedia-hakim-abdul-hameed-ur, source/wikidata-hakim-abdul-hameed, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Hakim Abdul Hameed' (revision 1362074994), Urdu Wikipedia 'حکیم عبد الحمید' (revision 6880328) and Wikidata item Q19891676 (item revision 2540519610), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the Wikidata item was queried twice with identical item revisions. Existence checks by name fragments (hameed, hamid, hamdard) across data/person, by QID and by biography (Delhi Unani physician, founder of Hamdard, 1908–1999) found no prior record for this man; the Hamdard mentions in the records of Muhammad Ali Jauhar and Shaukat Ali concern their newspaper Hamdard, not this man's institution. No Arabic Wikipedia article exists for him (Arabic search returns only unrelated names), so the Arabic prose is written from the English and Urdu sources and says so. Relations are limited to born_in Delhi: Hamdard and Jamia Hamdard have no group entity, and his younger brother Hakeem Muhammad Saeed, named in the English article, has no person record. The Urdu article calls his Aligarh office vice-chancellor and dates his Padma Bhushan to 1991; the English article (chancellor 1996–1999; Padma Bhushan 1992) is followed on both points, with the variants disclosed in the Urdu source's reliability note. The lane queue gives 'Hakim Abdul Hameed (1908–1999)', which the sources confirm."

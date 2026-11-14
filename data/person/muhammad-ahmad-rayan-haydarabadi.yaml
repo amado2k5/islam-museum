@@ -14,9 +14,10 @@ periods: [period/contemporary-era]
 died: { edtf: "1970~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuzhat al-Khawatir" }
 relations:
   - { type: born_in, target: place/hyderabad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1361)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q140309514
+  viaf: "1104159234275203371302"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

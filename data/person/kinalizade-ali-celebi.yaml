@@ -15,9 +15,10 @@ born: { edtf: "1510", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1572", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q6019580 (P570, a statement with a reference), item revision 2566129367.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/isparta, confidence: low, note: "Associated with إسبرطة per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q6019580
+  viaf: "8691332"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

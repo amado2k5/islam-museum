@@ -14,9 +14,10 @@ periods: [period/modern-era]
 died: { edtf: "2012", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuzhat al-Khawatir Confirmed on 13 November 2026 against Wikidata Q113877641 (P570, a statement with a reference), item revision 2562570884.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/azamgarh-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q113877641
+  viaf: "43428924"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

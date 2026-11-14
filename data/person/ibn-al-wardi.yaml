@@ -16,9 +16,10 @@ died: { edtf: "1349", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/maarrat-al-numan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
+sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993, source/wikidata]
 external_ids:
   wikidata: Q5984176
+  viaf: "81959174"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"

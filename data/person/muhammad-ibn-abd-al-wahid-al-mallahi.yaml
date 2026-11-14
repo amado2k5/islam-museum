@@ -15,9 +15,10 @@ born: { edtf: "1154", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1222", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marrakushi Confirmed on 13 November 2026 against Wikidata Q57693362 (P570, a statement with a reference), item revision 2535232863.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/granada, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8810)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q57693362
+  viaf: "90054823"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

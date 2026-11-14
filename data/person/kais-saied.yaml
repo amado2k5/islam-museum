@@ -29,12 +29,13 @@ relations:
   - { type: born_in, target: place/tunis, sources: [source/wikipedia-kais-saied-en, source/wikidata-kais-saied] }
 wings: [people, living]
 regions: [maghreb]
-external_ids: { wikidata: "Q16120878" }
+external_ids: { wikidata: "Q16120878", viaf: "4199157162078378980006" }
 sources:
   - source/wikipedia-kais-saied-en
   - source/wikipedia-kais-saied-ar
   - source/wikipedia-kais-saied-ur
   - source/wikidata-kais-saied
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Kais Saied in English (revision 1381282158 of 21 Oct 2026), Arabic (revision 76478240 of 8 Sep 2026) and Urdu (revision 7918593 of 15 Apr 2025) and the Wikidata item Q16120878 (item revision 2558065617 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q16120878). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed, and his Arabic label قيس سعيد collides with no other person's label, so no homonym registration is needed. No successor_of edge is written: the English infobox names his predecessor as president as Mohamed Ennaceur, expressly acting — Ennaceur held the office from Essebsi's death on 25 July 2019 until Saied took office on 23 October 2019, and an interim holder defeats the direct sequence the predicate requires (the Abu Taleb precedent); Ennaceur has no person record in any case."

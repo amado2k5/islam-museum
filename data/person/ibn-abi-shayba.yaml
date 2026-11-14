@@ -17,9 +17,10 @@ died: { edtf: "849", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/wikidata]
 external_ids:
   wikidata: Q6532914
+  viaf: "20010618"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn Khallikan, Wafayat al-A'yan — entry not yet read on the page"

@@ -15,9 +15,10 @@ born: { edtf: "1471~", calendar: gregorian, precision: year, derived: true, note
 died: { edtf: "1548~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q23022539 (P570, a statement with a reference), item revision 2514227812.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/edirne, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q43387)" }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q23022539
+  viaf: "59500531"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

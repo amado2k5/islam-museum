@@ -18,9 +18,10 @@ relations:
   - { type: lived_in, target: place/bahrayn, confidence: low, note: "From the people of Bahrain (من أهل البحرين) per al-A'lam.", sources: [source/al-aalam] }
   - { type: lived_in, target: place/fars, confidence: low, note: "Moved to Fars and resided there (رحل إلى فارس وأقام فيها) per al-A'lam.", sources: [source/al-aalam] }
   - { type: died_in, target: place/fars, confidence: low, note: "Resided in Fars until he died per al-A'lam.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q86067951
+  viaf: "70941018"
 provenance:
   layer: own-research
   source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.128)"

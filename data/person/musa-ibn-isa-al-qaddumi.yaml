@@ -16,9 +16,10 @@ died: { edtf: "1917", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/kafr-qaddum, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2896936)" }
   - { type: died_in, target: place/nablus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q214178)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q126164295
+  viaf: "7149415035489551590"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

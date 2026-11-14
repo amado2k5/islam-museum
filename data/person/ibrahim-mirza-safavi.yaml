@@ -15,9 +15,10 @@ died: { edtf: "1577", precision: year, status: tradition, derived: true }
 relations:
   - { type: died_in, target: place/qazvin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/wikidata]
 external_ids:
   wikidata: Q5956963
+  viaf: "20529115"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

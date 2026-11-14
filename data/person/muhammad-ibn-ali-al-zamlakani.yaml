@@ -15,9 +15,10 @@ born: { edtf: "1269", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1327", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Dhayl Tarikh al-Islam) Confirmed on 13 November 2026 against Wikidata Q6533639 (P570, a statement with a reference), item revision 2533301359.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/wikidata]
 external_ids:
   wikidata: Q6533639
+  viaf: "46526106"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"

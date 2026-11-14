@@ -16,9 +16,10 @@ died: { edtf: "2021", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q5962088
+  viaf: "38145067033166631246"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

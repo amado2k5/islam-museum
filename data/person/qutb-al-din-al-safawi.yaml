@@ -14,9 +14,10 @@ periods: [period/gunpowder-empires]
 relations:
   - { type: born_in, target: place/gujarat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1061)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q57477040
+  viaf: "44144447"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

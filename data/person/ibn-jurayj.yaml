@@ -9,8 +9,8 @@ born: { edtf: "699~", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "767", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal Confirmed on 13 November 2026 against Wikidata Q5984216 (P570, a statement with a reference), item revision 2554013544.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/al-is, confidence: low, note: "Associated with العيص per the record's own summary text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
-external_ids: { wikidata: "Q5984216" }
-sources: [source/fihrist-ibn-al-nadim, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
+external_ids: { wikidata: "Q5984216", viaf: "15170124" }
+sources: [source/fihrist-ibn-al-nadim, source/qiraat-inda-al-tabari-thesis-umm-al-qura, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 provenance:
   layer: own-research
