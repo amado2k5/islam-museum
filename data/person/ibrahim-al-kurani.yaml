@@ -6,27 +6,28 @@ label:
 roles: [faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لإبراهيم الكوراني، الشافعي المدني الكبير وشيخ الحرمين؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibrahim al-Kurani, the great Medinan Shafi'i and shaykh of the Haramayn; his entry is not yet checked on the page."
+  ar: "إبراهيم بن حسن بن شهاب الدين الشهراني الشهرزوري الكوراني، برهان الدين، مجتهد من فقهاء الشافعية وعالم بالحديث، ولد بشهران من أعمال شهرزور سنة ١٠٢٥هـ وسكن المدينة وتوفي بها ودفن بالبقيع سنة ١١٠١هـ."
+  en: "Ibrahim ibn Hasan ibn Shihab al-Din al-Shahrani al-Shahrazuri al-Kurani, Burhan al-Din, a mujtahid among the Shafi'i jurists and a scholar of hadith, born at Shahran in the district of Shahrazur in 1025 AH, who settled in Medina, died there and was buried at al-Baqi' in 1101 AH (1690)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1616", precision: year, status: tradition, derived: true }
 died: { edtf: "1690", precision: year, status: tradition, derived: true }
 relations:
-  - { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata, confirmed by al-Zirikli, al-A'lam vol. 1 p. 26: he died in Medina and was buried at al-Baqi'.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: born_in, target: place/shahrazur, confidence: low, note: "Al-Zirikli, al-A'lam vol. 1 p. 26: born at Shahran, in the district of Shahrazur, in the Kurdish mountains.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q29514437
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary
