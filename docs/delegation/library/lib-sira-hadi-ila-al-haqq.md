@@ -23,6 +23,8 @@ Lane A, claimed 14 Nov 2026 in `WORK-REGISTRY.md` on the microSD (row `seerah/si
 
 - **Batch 7:** printed pp. 60-66: al-Hadi and the tithe (refusing goods from it, the lawful measure), a girl detained and freed, visiting merchants and the dhimmis, a dawn petitioner, the peach and lamp sayings of the first journey, small restitutions at Najran and Bisha, rain reports, and al-Kufi's party in drought. Nine events, each in ar, en and ur, all draft; work prose gains one section.
 
+- **Batch 8:** printed pp. 67-73: the march from Sa'da to Najran (Friday 4 and Sunday 6 Jumada II 284 AH = 9 and 11 July 897 Julian, derived from the tabular calendar), the oath between Hamdan and Banu al-Harith, the flogging and proclamation, wrongs restored, the date appraisal for the tithe, and the settlement with the dhimmis of Najran at one-ninth (text begins p. 73). Six events, each in ar, en and ur, all draft.
+
 ## Judgments recorded
 
 - **Narrators corrected.** `work/sira-hadi-ila-al-haqq` listed `person/yala-ibn-muhammad-al-yafrani` (a Zanata amir of the Maghreb, d. 347 AH, from Ibn Khaldun) and al-Hadi himself as authors, and its summary named "Ya'la ibn Muhammad". The book's own opening leaf (printed p. 15) and the editor (pp. 7-8) name Muhammad ibn Sulayman al-Kufi and Ali ibn Muhammad ibn Ubaydallah al-Abbasi al-Alawi; the earlier reading is a misreading of the title-page OCR. The work now lists the two real narrators. The Yafrani record is untouched and no longer linked from this book. Held for the founder: whether that unrelated record needs any further change (none made).
@@ -47,10 +49,12 @@ Lane A, claimed 14 Nov 2026 in `WORK-REGISTRY.md` on the microSD (row `seerah/si
 
 - **Batch 7 notes:** (1) Names held back for the page image, not entered as persons: Ubaydallah ibn Hudhayf (p. 60-61), Hasan ibn Ali ibn Qutayma (p. 61), Muhammad ibn al-Hajjaj "al-Khaywani" or "al-Yarsami" (pp. 64-65), Ali ibn Abi Anbasa, Muhammad ibn Hisham (p. 63); the place "Bayt Dhu'd" (p. 65) is not identified with `place/bayt-dhukhar`. (2) Top of p. 60 repeats lines of p. 58 (OCR overlap), disregarded. (3) The delegation from Najran and its date (Monday, last day of Jumada I, year "four") continue on p. 67; the delegation event waits for that page. (4) The long panegyric paragraph on p. 66 is summarised and attributed, not copied. (5) Legal views (no zakat from visiting merchants, protection of dhimmis) are the book's, stated without comparison; no concept records, same reason as batch 5.
 
+- **Batch 8 notes:** (1) The date of the Najran delegation's invitation (Monday, last day of Jumada I 284 AH) is read from the sentence at pp. 66-67; the weekday was not checked against a calendar. (2) Held for the page image: Muhammad ibn Bihar al-Hamdani and Ahmad ibn Abbad al-Akili (p. 67, not entered as persons); the village "al-Ajar" of Najran (p. 68). (3) The sentence of p. 48 that promises the settlement with the dhimma "at the end of our book" may or may not be the Najran settlement of pp. 72-73; stated in the record, to settle when the text is read. (4) No tribe records created for Wadi'a, Shakir, Yam, al-Ahlaf or Hamdan (no matching registered record; the Thaqif record is the Ta'if tribe and is not linked); Banu al-Harith ibn Ka'b is linked. Tier A: create these group records from the editor's footnotes (Muntakhabat fi akhbar al-Yaman, Mu'jam al-buldan). (5) Legal positions (hadd flogging, appraisal, one-ninth settlement) are the book's, stated without comparison.
+
 ## Excluded items
 
 None this batch.
 
 ## Resume point
 
-Scan p. 64 (printed 67): the rest of the Najran delegation sentence (year of the invitation) and al-Hadi's answer. Plan as before.
+Scan p. 70 (printed 73), from the heading of the settlement text ("بسم الله الرحمن الرحيم هذا كتاب كتبه الهادي..."): read the whole text of the settlement with the dhimma (pp. 73 onward) and record its terms, then continue. Plan as before.
