@@ -1,0 +1,18 @@
+id: concept/canon-theoretical-and-practical-medicine
+class: concept
+kind: scientific
+label: { ar: "الطب النظري والعملي وعلما حفظ الصحة والعلاج", en: "Theoretical and practical medicine, and the two sciences of preserving health and of treatment", ur: "طب نظری و عملی اور حفظ صحت و علاج کے دو علم" }
+summary:
+  ar: "يفتتح ابن سينا الفن الثالث من الكتاب الأول بتقسيم الطب إلى جزء نظري وجزء عملي، ثم تقسيم العملي إلى علم حفظ الصحة وعلم العلاج، ويعلن أن الفن الأول استوفى الجزء النظري الكلي وأن ما بعده للعملي على نحو كلي {cite:canon-ibn-sina-print-v1 p.200}."
+  en: "Ibn Sina opens Fann 3 of Book I by dividing medicine into a theoretical part and a practical part, then dividing the practical into the science of preserving health and the science of treatment. He states that Fann 1 finished the general theoretical part and that what follows turns to the practical part in general terms {cite:canon-ibn-sina-print-v1 p.200}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, the cause of health and disease, Ta'lim 1 on upbringing (scan pages 200 to 211), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p200
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
