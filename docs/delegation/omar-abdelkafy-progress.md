@@ -2710,3 +2710,25 @@ Resume point: modakirate-iblis episode 19 (branch from origin/main).
 | Garbled and looping stretches | ep19 00:08:30-00:09:00, 00:18:00-00:18:30, 00:20:00 (part) | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 20 (branch from origin/main).
+
+### modakirate-iblis ep20 (14 Nov 2026)
+
+15 points written for episode 20 (ar, en, ur); 8 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (3-33 to 3-37, 3-42, 96-1); none typed. Sensitivity stays contested: his claims about the poisoning of Umar ibn Abd al-Aziz and the choice of Uthman over Ali are attributed to him and marked as needing a source.
+
+| Excluded (modakirate-iblis ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (an advert for a Ramadan question-and-answer programme), and the closing prayer | ep20 00:00:00, 00:10:30-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (psychology remarks, a stretch on Mary, the counting of a life) | ep20 00:07:30-00:08:00, 00:15:30-00:16:00, 00:17:30-00:18:00, 00:20:30-00:21:00 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 21 (branch from origin/main).
+
+### modakirate-iblis ep21 (14 Nov 2026)
+
+14 points written for episode 21 (ar, en, ur); 11 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (12-106, 51-22, 19-25, 3-37, 17-45, 58-1, 24-58, 48-10); none typed.
+
+| Excluded (modakirate-iblis ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (advertisements for a Ramadan question programme with its sponsors), the closing prayer and the outro chant | ep21 00:00:00, 00:11:30-00:13:00, 00:24:00-00:25:00 | Not lesson content | Content rule | Open |
+| A garbled opening remark about a person walking astray, and loops and garbled stretches (a stretch on an actor, a stretch before the thief report) | ep21 00:00:30 (part), 00:01:00 (part), 00:19:30-00:20:00, 00:22:30-00:23:00 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 22 (branch from origin/main). Work on episodes 14 to 30 of this series and on the three following series is covered by the founder approval recorded as dec-20261114-277.
