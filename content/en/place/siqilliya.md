@@ -12,3 +12,6 @@ Al-Idrisi calls Sicily "unique in its age for excellence and virtues, and singul
 
 ## The Frankish conquest in al-Idrisi's account
 Al-Idrisi says that Roger ibn Tancred began to conquer its lands "in the year four hundred and fifty-three" after the Hijra. He took all of it over a period of thirty years, and was succeeded by his son. {cite:nuzhat-al-mushtaq-2002 p.589}
+
+## In Nomisma
+The Nomisma numismatic vocabulary links this entry to the concept «sicily», and its linked collections record 13 coins or coin types that name it as issuer, authority or mint. {cite:nomisma sicily}
