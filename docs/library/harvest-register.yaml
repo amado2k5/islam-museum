@@ -17907,6 +17907,323 @@ books:
     - year
     notes: needs OCR zip (ocr_archive none)
   # END books:usul
+  # BEGIN books:older-lanes
+  - id: durus-fatawa-haramayn
+    title: دروس وفتاوى من الحرمين الشريفين (Durus wa fatawa min al-Haramayn al-Sharifayn)
+    author: Muhammad ibn Salih al-'Uthaymin (read from the OCR of the title page; unverified)
+    publisher: Mu'assasat al-Shaykh Muhammad ibn Salih al-'Uthaymin al-Khayriyya (read from the OCR of vol. 1 title page; unverified)
+    language: ar
+    category: fatwa
+    volumes: 19 file(s)
+    files:
+    - {name: 00_171023.pdf, bytes: 1299441, pages: 1, ocr_pages: 1, sha256: 3f921ad0800ca3679475ad7b437023e35d39e30b2364428045d5df88110d1c23}
+    - {name: 01_171023.pdf, bytes: 16275149, pages: 873, ocr_pages: 873, sha256: df2a5d77112e73880ba0fc7b246d0310a5b9cb8781c3652373a654047a6a2b16}
+    - {name: 02_171024.pdf, bytes: 15692982, pages: 853, ocr_pages: 851, sha256: e4edaff43128ec205494ae68e8917524a145f62cd4228766c2a722610c55874c}
+    - {name: 03_171025.pdf, bytes: 14825115, pages: 800, ocr_pages: 798, sha256: effc5a1509868ea208342abde8dccee3eae30038aba1e365a4208bd1a28896de}
+    - {name: 04_171026.pdf, bytes: 13845037, pages: 736, ocr_pages: 735, sha256: 1308f58053f5c035077a6ff997c7f996fc90997ec92fb20b5f39566254d356ac}
+    - {name: 05_171027.pdf, bytes: 14341837, pages: 767, ocr_pages: 766, sha256: a05d5c46cdaa2bccb4afd4a102b5e9bb1949cf3e54bf035476ff3b38d5f2840f}
+    - {name: 06_171028.pdf, bytes: 11706955, pages: 640, ocr_pages: 638, sha256: 507e934944bece79ad83322dd237cac617db9bc811793c9a21e9b9fa0808c420}
+    - {name: 07_171029.pdf, bytes: 18360960, pages: 1040, ocr_pages: 1038, sha256: c8999fa592f52f5fec51d5a92f9ea8e6fe60af1e962ddd02268703ea7c1d4211}
+    - {name: 08_171030.pdf, bytes: 13173464, pages: 728, ocr_pages: 728, sha256: b7e4d99a316c7ec61e0a9d6466d16706e69915c8587c801e7d50896d6992981a}
+    - {name: 09_171031.pdf, bytes: 11203607, pages: 616, ocr_pages: 616, sha256: 0441969609aecdee9457627289172933d500b208bacb20795c57171d34152029}
+    - {name: 10_171032.pdf, bytes: 9106722, pages: 504, ocr_pages: 503, sha256: 57827d3584ae9b541ebf3f222d91145bec2dd5aadc70951fa6b5b8a3ea6d7685}
+    - {name: 11_171033.pdf, bytes: 12884269, pages: 720, ocr_pages: 714, sha256: 9f16caa3ef66e2b18e5ab8be4e36a210b5d643eda2aaf7853c403f4fa6958a52}
+    - {name: 12_171034.pdf, bytes: 11847090, pages: 671, ocr_pages: 670, sha256: e649dd76c056a7336dc7a71785d82076536d095f1d873663bc30c14ac61795f9}
+    - {name: 13_171035.pdf, bytes: 13610263, pages: 760, ocr_pages: 758, sha256: 5bb6b8e8e7ec852f79ea5eb38efabff47a2b449584454c24e492025629700565}
+    - {name: 14_171036.pdf, bytes: 12289964, pages: 692, ocr_pages: 688, sha256: 4691d90702048398d147da135b8710b50d94cec351d998710152f17c99d2d3fb}
+    - {name: 15_171037.pdf, bytes: 12355587, pages: 720, ocr_pages: 718, sha256: bc5ea3e68a6a60c252c008537b8bad4cd90c7b0dc0d30f19244aa59d5be328c1}
+    - {name: 16_171038.pdf, bytes: 14076634, pages: 835, ocr_pages: 832, sha256: bcb3a5782aea763b75882d088c25b74ecf4148667032c91e1462f3dfed1ab2ce}
+    - {name: 17_171039.pdf, bytes: 10317272, pages: 592, ocr_pages: 588, sha256: 5e675fc6f22e71f56403cee2172629361f72954dd53d253dc878c84c5ae9602b}
+    - {name: 18_171040.pdf, bytes: 15819650, pages: 904, ocr_pages: 901, sha256: 78a709ee525e9f2362e1febe750f96de2f4e782d179a9fefd9040de9029e1ada}
+    acquisition:
+      source: archive.org item FP171023 (https://archive.org/download/FP171023/), URL list in raw/books/fatwa/list-durus-haramayn.txt
+      date: '2026-10-31'
+      by: fatwa explorer proposal session (claude-haiku-5-5, per WORK-REGISTRY.md)
+      bytes: 243031998
+      sha256_status: computed
+    physical:
+      pages: 13452
+    ocr:
+      state: complete
+      ocr_pages: 13416
+      engine: Apple Vision via ocrmac, ar-SA, accurate (ocr_apple_vision.py)
+      unzipped_location: raw/books/fatwa/durus-fatawa-haramayn/<volume>/ (pages.json, book.txt, pages-png)
+    ocr_archive:
+      state: none
+    mining:
+      state: none
+    ingestion:
+      state: none
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - publisher
+    - year
+    - title.exact_wording
+    - mining.ranges_mined
+    - ocr.quality
+    - ocr.date_is_log_time
+    - physical.offset
+    notes: 'Volumes 00 to 18 (volume 00 is a 1-page cover file). WORK-REGISTRY.md row: waqfeya archive FP171023, 19 volumes. Needs OCR zip (ocr_archive none). Fatwa explorer (docs/plan/25-fatwa-explorer.md); no data/source record cites it yet (checked 14 Nov 2026).'
+  - id: permanent-committee-fatwas
+    title: فتاوى اللجنة الدائمة للبحوث العلمية والإفتاء (Fatawa al-Lajna al-Da'ima)
+    author: al-Lajna al-Da'ima li-l-Buhuth al-'Ilmiyya wa-l-Ifta (Saudi Arabia); compiled by Ahmad ibn Abd al-Razzaq al-Duwaish (read from OCR of vol. 1 title page; unverified)
+    language: ar
+    category: fatwa
+    volumes: 16 file(s)
+    files:
+    - {name: 00_124536.pdf, bytes: 4051579, pages: 1, ocr_pages: 1, sha256: 9ba45e659aadd58da5e210d1737a7bccbacf8ad1a10c3c28909273c889391715}
+    - {name: 01_124536.pdf, bytes: 21740652, pages: 959, ocr_pages: 959, sha256: f8506ef1ec0caa4088072592a126d52971ea4589eb7738b71611c95e86521797}
+    - {name: 02_124537.pdf, bytes: 6767913, pages: 256, ocr_pages: 256, sha256: 022024b1cc87593513a552f2b278c729d1a8e5d635386632e73cfdc290db2e4f}
+    - {name: 03_124538.pdf, bytes: 6571384, pages: 253, ocr_pages: 252, sha256: b275b7c78bafdd26795ffe7eb2f9d0fd512da48a579ba5697f6c17a8fb5324e7}
+    - {name: 04_124539.pdf, bytes: 14250604, pages: 669, ocr_pages: 669, sha256: 5c752462717b1c41f82946c1f9777e598f2784008b08f9fc4d15d5f8e024c7ef}
+    - {name: 05_124540.pdf, bytes: 11901272, pages: 546, ocr_pages: 546, sha256: 842a9c66c984e1bdd1fd0c070bdc48cb08de64a92bd9c094a3f35bdab749f041}
+    - {name: 06_124541.pdf, bytes: 11086090, pages: 481, ocr_pages: 481, sha256: 524016c99fcad425ac1ac1c2bb894aec47cb626870806d8ea15945993995629f}
+    - {name: 07_124542.pdf, bytes: 17295365, pages: 795, ocr_pages: 794, sha256: 9e0a0d96136526f963f9fab3834336dca878dffcf285a0ac3d3fb320c20643a6}
+    - {name: 08_124543.pdf, bytes: 12717772, pages: 552, ocr_pages: 551, sha256: f2256af63ff5577b513653a2d866a59e7794b5894437e6d8ce199bfe7a30228c}
+    - {name: 09_124544.pdf, bytes: 15986094, pages: 727, ocr_pages: 726, sha256: 044c46bbead0502ea115675ab2c15189e25f0e397a8dad1a446b63ef6d234446}
+    - {name: 10_124545.pdf, bytes: 18476488, pages: 847, ocr_pages: 846, sha256: 52d8cb8afd0efbe2b0b91f2d70d1f994a88ab570a74287a104b47b50138160c3}
+    - {name: 11_124546.pdf, bytes: 16587665, pages: 724, ocr_pages: 723, sha256: b1e99d6d643ef04a811b920b453e705a4e6f566ae0f725010dff9fc993263fe7}
+    - {name: 12_124547.pdf, bytes: 12372169, pages: 519, ocr_pages: 518, sha256: 0a863d9f834cf1b263031162c44e517d12f7ea3e1c3f5415205d58bf1eef731c}
+    - {name: 13_124548.pdf, bytes: 5163456, pages: 168, ocr_pages: 168, sha256: 5f062c9ff68669361d351207ac374d58b2d069d52b8e4d74dfecf8b1f5b40ea0}
+    - {name: 14_124549.pdf, bytes: 20165299, pages: 947, ocr_pages: 946, sha256: 9ff89bd03a1526cfb0f21eacb13dfbc79e1e04d674fd55212fc6a9217a0c033e}
+    - {name: 15_124550.pdf, bytes: 20004008, pages: 938, ocr_pages: 937, sha256: 8fe296a75adf7cef1768d18579ac29a1a9640dbf02fcd0d045469ab1f306c45e}
+    acquisition:
+      source: archive.org item FP124536 (https://archive.org/download/FP124536/), URL list in raw/books/fatwa/list-permanent-committee.txt
+      date: '2026-10-31'
+      by: fatwa explorer proposal session (claude-haiku-5-5, per WORK-REGISTRY.md)
+      bytes: 215137810
+      sha256_status: computed
+    physical:
+      pages: 9382
+    ocr:
+      state: complete
+      ocr_pages: 9373
+      engine: Apple Vision via ocrmac, ar-SA, accurate (ocr_apple_vision.py)
+      unzipped_location: raw/books/fatwa/permanent-committee-fatwas/<volume>/ (pages.json, book.txt, pages-png)
+    ocr_archive:
+      state: none
+    mining:
+      state: none
+    ingestion:
+      state: none
+    completion: ocr_done
+    unverified:
+    - author
+    - compiler
+    - edition
+    - publisher
+    - year
+    - title.exact_wording
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    notes: 'Volumes 00 to 15 (volume 00 is a 1-page cover file). WORK-REGISTRY.md row: waqfeya archive FP124536, 16 volumes. Needs OCR zip (ocr_archive none). The title page OCR is garbled; wording above is a reading, not verified. Fatwa explorer (docs/plan/25-fatwa-explorer.md); no data/source record cites it yet (checked 14 Nov 2026). Related website entry: web-fatwa-permanent-committee-alifta-gov-sa-en-fatwa-commi.'
+  - id: taqrib-fatawa-ibn-taymiyya
+    title: تقريب فتاوى شيخ الإسلام ابن تيمية (Taqrib fatawa Ibn Taymiyya)
+    author: Ibn Taymiyya; prepared by Muhammad ibn Nasir al-Tayyar (read from the OCR of vol. 1 title page; unverified)
+    publisher: Dar Ibn al-Jawzi, 1440 AH (read from the OCR of vol. 1 title and imprint pages; unverified)
+    language: ar
+    category: fatwa
+    volumes: 4 file(s)
+    files:
+    - {name: 01_tfrsit.pdf, bytes: 16949000, pages: 908, ocr_pages: 904, sha256: 406203fa02250e3f7831998d18db19b27d52bfe490a77b294a77b7341b2aaa38}
+    - {name: 02_tfrsit.pdf, bytes: 18871114, pages: 814, ocr_pages: 812, sha256: adb93d724c750b10cff037b987320d30910df49ba054da0327fd821b44cfeb6e}
+    - {name: 03_tfrsit.pdf, bytes: 15683083, pages: 670, ocr_pages: 669, sha256: 324a0af0356ec7f1fd258f7ea8cb2a5c4e73b13749901389c6bb4bfe90ef07f9}
+    - {name: 04_tfrsit.pdf, bytes: 13940245, pages: 615, ocr_pages: 614, sha256: 8be84a776701e38df6c40e856dc981cd7026d692f7c1ea618ce560808d61d471}
+    acquisition:
+      source: archive.org item tfrsitFP (https://archive.org/download/tfrsitFP/), URL list in raw/books/fatwa/list-taymiyya-taqrib.txt
+      date: '2026-10-31'
+      by: fatwa explorer proposal session (claude-haiku-5-5, per WORK-REGISTRY.md)
+      bytes: 65443442
+      sha256_status: computed
+    physical:
+      pages: 3007
+    ocr:
+      state: complete
+      ocr_pages: 2999
+      engine: Apple Vision via ocrmac, ar-SA, accurate (ocr_apple_vision.py)
+      unzipped_location: raw/books/fatwa/taqrib-fatawa-ibn-taymiyya/<volume>/ (pages.json, book.txt, pages-png)
+    ocr_archive:
+      state: none
+    mining:
+      state: none
+    ingestion:
+      state: none
+    completion: ocr_done
+    unverified:
+    - author
+    - editor
+    - edition
+    - publisher
+    - year
+    - title.exact_wording
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    notes: 'Four volumes. WORK-REGISTRY.md row: waqfeya archive tfrsitFP, 4 volumes, 3,629 pages. Needs OCR zip (ocr_archive none). Fatwa explorer (docs/plan/25-fatwa-explorer.md); no data/source record cites it yet (checked 14 Nov 2026). Majmu'' al-fatawa is the separate entry majmu-fatawa.'
+  - id: subki-qat-lisan-mubtadin
+    title: فتاوى أئمة المسلمين بقطع لسان المبتدعين (Fatawa a'immat al-muslimin bi-qat' lisan al-mubtadi'in)
+    author: Mahmud Khattab al-Subki (as listed by waqfeya)
+    publisher: Matba'at al-Sa'ada, Cairo
+    edition: Matba'at al-Sa'ada, Cairo, 1344 AH / 1926 CE, 148 pages (as listed on waqfeya); editor not confirmed
+    year:
+      hijri: '1344'
+      ce: '1926'
+    language: ar
+    category: fatwa
+    volumes: 1 file(s)
+    files:
+    - {name: 71266.pdf, bytes: 5454276, pages: 148, ocr_pages: 148, sha256: cfe44748bc6b67c2305c94165223bc09043b7a25ff8b500e65df72d63d0c1396}
+    acquisition:
+      source: waqfeya.net book a9e9e433d31e45538b2142f93696e26c; archive.org item FP71266 (file 71266.pdf)
+      date: '2026-10-31'
+      by: fatwa explorer proposal session (claude-haiku-5-5, per WORK-REGISTRY.md)
+      bytes: 5454276
+      sha256_status: computed
+    physical:
+      pages: 148
+    ocr:
+      state: complete
+      date: '2026-10-31'
+      ocr_pages: 148
+      engine: Apple Vision via ocrmac, ar-SA, accurate, 200 dpi; 268,325 characters in 98 s (README.md)
+      unzipped_location: raw/books/fatwa/subki-qat-lisan-mubtadin/ (book.txt, pages-png)
+    ocr_archive:
+      state: none
+    mining:
+      state: in_progress
+      entities: 26 data and content files cite source/fatawa-aimmat-al-muslimin-subki (14 Nov 2026 count)
+    ingestion:
+      state: partial
+      graph_ids:
+      - source/fatawa-aimmat-al-muslimin-subki
+      - work/fatawa-aimmat-al-muslimin-subki
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - licence_layer
+    - mining.ranges_mined
+    - mining.state_derived_from_counts
+    - ocr.quality
+    - physical.offset
+    - prs
+    notes: Needs OCR zip (ocr_archive none). The README states the licence layer is not verified (1926 suggests public domain; not checked). Fatwa explorer (docs/plan/25-fatwa-explorer.md). PR numbers not recorded in a ledger.
+  - id: athar-bilad-qazwini
+    title: آثار البلاد وأخبار العباد (Athar al-bilad wa akhbar al-'ibad)
+    author: Zakariyya ibn Muhammad al-Qazwini
+    publisher: Dar Sader (Shamela export)
+    language: ar
+    category: geography
+    volumes: 1 file(s)
+    files:
+    - {name: book.htm, bytes: 893412, sha256: a0efb3a46c1390bf951d872945aa3b0c307a6c2b8f7facd7c45c940c15bc6266, note: 'Shamela htm export; text, no OCR'}
+    - {name: book.txt, bytes: 1447356, sha256: 8ae4d0095fa9384a99a17393ebde6ada5ab302e8e4bf2329d1a1044da615d557, note: 'cp1256 decoded, tags stripped'}
+    acquisition:
+      source: archive.org item 0006Htm (Shamela htm export, 0.36 MB zip)
+      date: '2026-11-14'
+      by: web-sources lane B worker B1 (claude-sonnet-5-5, WORK-REGISTRY.md)
+      sha256_status: computed
+    physical:
+      pages: null
+    ocr:
+      state: none
+      note: born-digital text, no OCR needed
+      unzipped_location: books/geography/athar-bilad-qazwini/0006Htm/
+    ocr_archive:
+      state: none
+    mining:
+      state: in_progress
+      note: 'WORK-REGISTRY row: download and read for place prose (ar, en, ur); no ledger line records pages read yet'
+    ingestion:
+      state: none
+    completion: downloaded
+    unverified:
+    - author.full_name
+    - edition
+    - year
+    - physical.pages
+    - mining.ranges_read
+    - used_by.prs
+    notes: 'Not an OCR book: the OCR zip rule does not apply. Registered in the websites block as a page taken from archive.org (web-archive-org-books).'
+  - id: jazirat-arab-wahba
+    title: جزيرة العرب في القرن العشرين (Jazirat al-'Arab fi al-qarn al-'ishrin)
+    author: Hafiz Wahba
+    year:
+      ce: '1935'
+    language: ar
+    category: geography
+    volumes: 1 file(s)
+    files:
+    - {name: book.txt, bytes: 1014660, sha256: 145f66bcd87486aacbc002b341e254bbc083a3ce79387c47186267603db57748, note: 'DjVu text only, noisy OCR from archive.org; PDF not downloaded'}
+    acquisition:
+      source: archive.org item hamlaenglish_gmail_20180316 (DjVu text only, 1 MB)
+      date: '2026-11-14'
+      by: web-sources lane B worker B1 (claude-sonnet-5-5, WORK-REGISTRY.md)
+      sha256_status: computed
+    physical:
+      pages: null
+    ocr:
+      state: partial
+      note: archive.org DjVu text layer, noisy; not rerun locally
+      unzipped_location: books/geography/jazirat-arab-wahba/hamlaenglish/
+    ocr_archive:
+      state: none
+    mining:
+      state: in_progress
+      note: 'WORK-REGISTRY row: download and read for place prose (ar, en, ur); no ledger line records pages read yet'
+    ingestion:
+      state: none
+    completion: downloaded
+    unverified:
+    - publisher
+    - edition
+    - physical.pages
+    - ocr.quality
+    - mining.ranges_read
+    - used_by.prs
+    notes: PDF scan not downloaded; the text file needs a zip only if kept long term (ocr_archive none).
+  - id: 1001-inventions-second-edition
+    title: '1001 Inventions: Muslim Heritage in Our World (second edition, EPUB)'
+    author: Salim T. S. Al-Hassani (editor), from the folder name 1001-inventions-al-hassani; unverified
+    publisher: Foundation for Science, Technology and Civilisation (not recorded on the drive; unverified)
+    edition: second edition (label of the archive.org item; the title-page metadata does not give a publication year)
+    language: en
+    category: medicine-science
+    volumes: 1 file(s)
+    files:
+    - {name: 1001-inventions-second-edition.epub, bytes: 28272698, sha256: 25781c67ca7a187c7f089365a52e6168c9242a9e09e79941c991ceb951ad1194, note: 353 numbered HTML pages with printed page labels; contents on pages 3 and 4}
+    - {name: 1001-inventions-second-edition-fts.sqlite, bytes: 1691648, sha256: 5b24e6a586fd062be2a1b41c207e099c5afc668d60b95f2fe63dcfbe9f36ff7c, note: full-text index built locally}
+    acquisition:
+      source: 'archive.org item 1001-inventions-muslim-heritage-in-our-world_202312 (EPUB and OCR download); other items checked but borrow-only: 1001inventionsmu0000unse, 1001inventionsen0000unse (3rd edition, 2012)'
+      date: '2026-11-05'
+      by: inventions lane (copilot), access notes in inventions/1001-inventions-al-hassani/access-notes.md
+      sha256_status: computed
+    physical:
+      pages: 353
+      note: 353 numbered HTML pages in the EPUB
+    ocr:
+      state: none
+      note: EPUB with text; no OCR run
+      unzipped_location: inventions/1001-inventions-al-hassani/extracted/
+    ocr_archive:
+      state: none
+    mining:
+      state: in_progress
+      note: claims and leads only; verify in reference literature or primary sources; text and illustrations never reproduced
+    ingestion:
+      state: none
+    completion: mining
+    unverified:
+    - author
+    - publisher
+    - year
+    - mining.ranges_read
+    - used_by.prs
+    notes: 'Two files named 1001-inventions.sqlite and 1001-inventions-fts.sqlite in the same folder are 0 bytes and are not counted. Inventions lane docs: docs/inventions/research.md. Dataset entry inventions-research-downloads covers the rest of the folder.'
+  # END books:older-lanes
   # END books
 
 # audio_series and video_series share one shape (media_type: audio | video | audio_video).
