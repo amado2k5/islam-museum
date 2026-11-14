@@ -758,3 +758,9 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Date differences noticed, not changed: al-bakri-abu-ubayd birth 1041 and 1040; ibn-kathir 1302~ and 1301; ibn-taghribirdi-yusuf 1409 and 1411, death 1469 and 1470; ibn-abd-al-barr death 1071~ and 1070; qara-yusuf 1356~ and 1357; miran-shah 1366 and 1367.
 - Measured Arabic share: 0 of the 23 matched Biblissima records carries an Arabic-script label.
 
+## 2026-11-14 (p49, Lane B) — Nomisma batch 5: 25 more issuers linked
+
+- Approval: dec-20261114-277. Same crosswalk as p47 (Nomisma concepts with a Wikidata exactMatch, exactly one concept per Wikidata id, a shared name element between the concept and our slug). No new download (the SPARQL result of p47 was reused; no file over 50 MB is involved).
+- Linked (25 persons): muizz-al-dawla, al-hadi, ali-bin-hussein-al-hashimi, al-mustansir-hafsi, muhammad-ii-aghlabid, fuad-i-of-egypt, abu-yaqub-yusuf-almohad, al-mustain, al-ashraf-shaban, uthman-iii-uthmani, al-zahir-fatimid, muhammad-ahmad, yaqub-al-mansur-al-muwahhidi, moulay-ismail, abu-yahya-ibn-abd-al-haqq, abd-al-mumin-ibn-ali, al-hafiz-fatimid, mansur-ibn-nuh, selim-i-ottoman, al-mutadid, hisham-ii-al-muayyad, abu-al-abbas-al-saffah, khayr-al-din-barbarossa, napoleon-bonaparte, al-aziz-fatimid.
+- Still open (single-concept matches): 44 persons, of which 17 share no name element with the concept (for example qalawun and qala'un, farouk-of-egypt and faruq, sulayman-al-qanuni and suleyman_i_kanuni: spelling variants to check by hand), 6 polities and 31 regional or state places. Next PRs.
+
