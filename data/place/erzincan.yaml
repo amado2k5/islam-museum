@@ -24,6 +24,7 @@ external_ids:
 sources:
 - source/wikidata
 - source/idai-gazetteer
+- source/mujam-al-buldan-yaqut
 status:
   review: draft
   completeness: 1
@@ -36,3 +37,4 @@ provenance:
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
   source: Wikidata item Q136217 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q136217 (labels, coordinates, description)
+  web_sources: "https://gazetteer.dainst.org/doc/2212380.json, accessed 14 November 2026; Yaqut al-Hamawi, Mu'jam al-Buldan, Cairo 1907, vol. 1, scan p. 194"
