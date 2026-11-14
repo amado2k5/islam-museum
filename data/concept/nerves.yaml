@@ -1,0 +1,18 @@
+id: concept/nerves
+class: concept
+kind: scientific
+label: { ar: "العصب عند ابن سينا", en: "Nerves in the Canon", ur: "قانون میں اعصاب" }
+summary:
+  ar: "يفتتح ابن سينا الجملة الثالثة من تشريح الأعضاء المفردة، وهي العصب في ستة فصول، بكلام خاص في منفعة العصب ومبدئه، ثم يشرع في الأزواج الدماغية السبعة {cite:canon-ibn-sina-print-v1 pp.77-78}."
+  en: "Ibn Sina opens the third group of the anatomy of the simple organs, the nerves, in six chapters, with a special discourse on the use and origin of the nerve, and then begins on the seven cranial pairs {cite:canon-ibn-sina-print-v1 pp.77-78}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumlas 2 and 3 on muscles and nerves (scan pages 72 to 78), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-muscles-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
