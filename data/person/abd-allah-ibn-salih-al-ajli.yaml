@@ -6,23 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن صالح العجلي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd Allah ibn Salih al-'Ajli; the entry is not yet checked on the page."
+  ar: "عبد الله بن صالح بن مسلم العجلي الكوفي المقرئ، والد الحافظ أحمد العجلي، ولد بالكوفة سنة 141 هـ وتوفي سنة 211 هـ كما يذكر الصفدي في الوافي."
+  en: "Abd Allah ibn Salih ibn Muslim al-Ajli al-Kufi, Qur'an reciter and father of the hafiz Ahmad al-Ajli; born in Kufa in 141 AH, died 211 AH according to al-Safadi's al-Wafi."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q122173456
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Entry read on the page: al-Safadi, al-Wafi bi-l-Wafayat"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-m03-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "826", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: Abu Ahmad al-Ijli" }
+  completeness: 2
+died: { edtf: "826", hijri: "0211", calendar: gregorian, precision: year, derived: true, note: "al-Safadi, al-Wafi vol. 17 pp. 112-113: died 211 AH, and it is said around the twenties after the two hundreds; the CE year is derived.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+born: { edtf: "0758~", hijri: "0141", calendar: gregorian, precision: year, derived: true, note: "al-Safadi, al-Wafi vol. 17 p. 112: born in Kufa in 141 AH; the CE year is approximate and derived.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: born_in, target: place/kufa, note: "al-Safadi, al-Wafi vol. 17 p. 112: born in Kufa in 141 AH", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: high }

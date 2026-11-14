@@ -6,23 +6,23 @@ label:
 roles: [sultan]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي عامر عبد الله بن أحمد المريني، سلطان فاس من ١٣٩٦ إلى ١٣٩٨م؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Amir Abdallah ibn Ahmad, the Marinid sultan of Fez from 1396 to 1398; his entry is not yet checked on the page."
+  ar: "أبو عامر عبد الله بن أحمد بن إبراهيم المريني، الملقب بالمستنصر بالله، من ملوك بني مرين؛ بويع في أوائل سنة 799 هـ ومدة دولته سنة وخمسة أشهر، وتوفي سنة 800 هـ الموافقة 1398 م."
+  en: "Abu Amir Abdallah ibn Ahmad ibn Ibrahim al-Marini, styled al-Mustansir bi-llah, a Marinid king; given allegiance in early 799 AH, reigned a year and five months, died 800 AH (1398)."
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
-died: { edtf: "1398", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-ibn-khaldun-ibar]
+died: { edtf: "1398", hijri: "0800", calendar: gregorian, precision: year, status: historical, derived: false, note: "al-Zirikli, al-A'lam vol. 4 p. 68: 000 - 800 AH = 000 - 1398 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/tarikh-ibn-khaldun-ibar, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q2822076
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Entry read on the page: al-Zirikli, al-A'lam"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-m03-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2
 relations:
   - { type: ruler_of, target: place/fez, note: "From text: sultan of Fez", sources: [source/tarikh-ibn-khaldun-ibar] }

@@ -3,27 +3,29 @@ class: person
 label:
   ar: "عبد الجليل بن أحمد الجميل"
   en: "Abdul Jalil bin Ahmed al-Jameel"
-roles: [scholar]
+roles: [scholar, mufti]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الجليل بن أحمد الجميل؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdul Jalil bin Ahmed al-Jameel; the entry is not yet checked on the page."
+  ar: "عبد الجليل بن أحمد بن عبد الرزاق، من آل جميل، فاضل من أعيان بغداد ولد فيها ومات فيها، مفتي الكاظمية سنة 1328 هـ؛ 1287 - 1376 هـ الموافق 1870 - 1957 م."
+  en: "Abd al-Jalil ibn Ahmad ibn Abd al-Razzaq of Al Jamil, a learned notable of Baghdad, born and died there, mufti of al-Kazimiyya in 1328 AH; 1287 to 1376 AH (1870 to 1957)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q51597435
   viaf: "3161996956044430446"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "Entry read on the page: al-Zirikli, al-A'lam"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-m03-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2
+born: { edtf: "1870", hijri: "1287", calendar: gregorian, precision: year, status: historical, derived: false, note: "al-Zirikli, al-A'lam vol. 3 p. 275: 1287 - 1376 AH = 1870 - 1957 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1957", hijri: "1376", calendar: gregorian, precision: year, status: historical, derived: false, note: "al-Zirikli, al-A'lam vol. 3 p. 275.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
