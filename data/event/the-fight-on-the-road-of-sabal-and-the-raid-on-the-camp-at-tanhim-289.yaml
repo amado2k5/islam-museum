@@ -1,0 +1,59 @@
+id: event/the-fight-on-the-road-of-sabal-and-the-raid-on-the-camp-at-tanhim-289
+class: event
+kind: other
+label:
+  ar: "القتال على درب صبل والإغارة على عسكر تنهم، سنة 289هـ"
+  en: "The fight on the road of Sabal and the raid on the camp at Tanhim, 289 AH"
+  ur: "صبل کے راستے کی لڑائی اور تنہم کے پڑاؤ پر حملہ، سنہ 289ھ"
+summary:
+  ar: "أمر الهادي جيشاً بالخروج إلى صبل فأقام بها أياماً، ثم خرج إليهم عسكر من بيت بوس فاقتتلوا على درب صبل قتالاً شديداً وانكشف القوم إلى موضع يقال له تنهم، فوجّه الهادي عسكراً من خيل ورجال هجموا عليهم في معسكرهم وقتلوا جماعة وأخذوا خيلاً وغنموا، وأقام أهل صبل بها وانصرفت المادة إلى صنعاء."
+  en: "Al-Hadi ordered an army to Sabal, where it stayed some days; an army of the men came out to them from Bayt Bus and they fought hard on the road of Sabal and the men broke back to a place called Tanhim; al-Hadi sent horse and foot who fell on them in their camp, killed a number, took horses and spoil, and the people of Sabal stayed there while the reinforcement went back to Sana'a."
+  ur: "ہادی نے ایک لشکر کو صبل بھیجا جو وہاں چند دن ٹھہرا؛ بیت بوس سے مخالفوں کا ایک لشکر ان کی طرف نکلا اور صبل کے راستے پر سخت لڑائی ہوئی، وہ تنہم نامی جگہ تک پیچھے ہٹ گئے؛ ہادی نے سواروں اور پیادوں کو بھیجا جو ان کے پڑاؤ پر ٹوٹ پڑے، چند کو مارا، گھوڑے اور غنیمت لی، اور صبل والے وہیں رہے جبکہ کمک صنعاء لوٹ گئی۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0902"
+    hijri: "0289"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 289هـ؛ الكتاب لا يذكر يوماً ولا شهراً؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sabal-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص239 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-28
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 239
