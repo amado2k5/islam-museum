@@ -34,3 +34,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## أعمال في مدونة OpenITI
 تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0275AbuDawudSijistani 6 من الأعمال، منها: المراسيل، مسائل الإمام أحمد رواية أبي داود السجستاني، رسالة أبي داود في وصف سننه، سؤالات الآجري لأبي داود. {cite:openiti-corpus 0275AbuDawudSijistani}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q15590 بصيغة الاسم «Sulaymān ibn al-Ašʿaṯ Abū Dāwūd al-Siǧistānī (0817?-0889?)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q15590}

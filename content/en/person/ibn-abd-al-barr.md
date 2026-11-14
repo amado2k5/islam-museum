@@ -51,3 +51,6 @@ He left Cordoba and spent some time in the west of al-Andalus, then moved east a
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 15 works under the author identifier 0463IbnCabdBarr, among them: Bahjat Majalis; Durar; Ikhtilaf Malik Wa Ashabihi; Inbah Cala Qabail. {cite:openiti-corpus 0463IbnCabdBarr}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16720 with the name form «Yūsuf ibn ʿAbd Allâh Ibn ʿAbd al-Barr al-Qurṭubī (0978-1070)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16720}

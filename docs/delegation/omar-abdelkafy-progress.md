@@ -4095,3 +4095,42 @@ Resume point: alwaad-alhaq episode 20 (branch from origin/main).
 | Lombroso and a book on Quraysh figures | ep20 00:29:30 | names garbled, not attributed | accuracy | Open |
 
 Resume point: alwaad-alhaq episode 21 (branch from origin/main).
+
+### alwaad-alhaq ep21 (14 Nov 2026)
+
+19 points written for episode 21 (ar, en, ur); 16 needs_source marks for this episode in each language file; edges added to the series record for envy, showing off, self-admiration, intention, sincerity, grudge, truthfulness, the sight of God, the divine saying and Malik ibn Anas. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Statistic from a respectable institution on kindness | ep21 00:46:00 | promised but the passage is lost to a repetition loop | accuracy | Open |
+| Opening stretch before the good-ending topic | ep21 00:02:30 | lost to repetition, only the gist kept | accuracy | Open |
+| Passage on the two calamities of the envier (second) | ep21 00:35:00 | lost to repetition loop | accuracy | Open |
+| Answer to the host's question on turning sins into good deeds | ep21 00:24:30 | deferred by the sheikh in the episode, not answered here | completeness | Open |
+| Passage after the Iblis and Isa tale (transcript loops) | ep21 00:12:30 | garbled by repetition, only the gist kept | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 22 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep25 (14 Nov 2026)
+
+32 points written for episode 25 (ar, en, ur); 29 needs_source marks in each language file for this episode; 14 new `about` edges. Quran verses referenced only through passage links (3-159, 12-92); none typed. Contested: His accounts of the Crusader killings, Umar's entry into Jerusalem and the course of the conquest are attributed to him and given without sources, and his framing of the jihad question is his own. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep25) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting-free opening address to a questioner about Americans, mosques and Western society, with sweeping claims about peoples and societies | ep25 00:00:00-00:06:30 | Sweeping generalisations about peoples and societies, and garbled in both transcripts | Voice rule | Open |
+| Closing-style supplication before the main talk | ep25 00:10:00-00:11:00 | Prayer, not content, and a loop of repeated particles in the Qwen pass | Content rule | Open |
+| Stretch on the past centuries of Europe and the Muslim world, a dating to about 700, and a casualty figure of 7,000 in one transcript and 70,000 in the other | ep25 00:11:30-00:12:30 | Sweeping claim about modern history and the two transcripts give different figures | Voice rule | Open |
+| Takbir loop and stories of Umar's journey, his servant, a man named Salim, and the Jerusalem handover dialogue | ep25 00:14:00-00:21:30 | Loops and garbled dialogue in both transcripts, nothing clearly supported | Clarity, Loop check | Open |
+| Church story and covenant clause on Jews | ep25 00:23:00-00:24:30 | Garbled in both transcripts, the clause and church scene cannot be stated faithfully | Clarity | Open |
+| Colonial occupations, the British empire and Muslims in Europe and America | ep25 00:25:30-00:28:00 | Sweeping claims about peoples and modern conflict, partly looped | Voice rule, Loop check | Open |
+| Anecdote of the most beautiful place, the tree and the lake | ep25 00:29:00-00:32:00 | Garbled in both transcripts and the speaker's meaning is unclear | Clarity | Open |
+| Remarks on politics in a modern country and a named teacher | ep25 00:33:00-00:33:30 | Modern political aside, garbled | Content rule, Clarity | Open |
+| Garbled and looped stretches of the Hudaybiyya negotiation | ep25 00:35:30-00:37:30 | Loops of repeated words in the Qwen pass and unrecoverable in the Whisper pass | Clarity, Loop check | Open |
+| Garbled stretch on the treaty terms and Umm Salama's tent | ep25 00:38:30-00:39:30, 00:41:00-00:42:00 | Both transcripts garbled, Umm Salama's advice not recoverable | Clarity, Loop check | Open |
+| Abu Sufyan and the Khuza'a men on the road, the dates and the dialogue | ep25 00:44:00-00:45:00 | Garbled, nothing supported by both passes | Clarity | Open |
+| Digression on armour and travelling by car on the pilgrimage | ep25 01:03:30-01:04:30 | Digression, garbled | Clarity | Open |
+| Garbled stretch on Umar's words at the tent and on forgiveness | ep25 01:05:00-01:05:30, 01:07:00-01:07:30 | Garbled, speakers unclear | Clarity | Open |
+| Garbled stretch on the instruction not to raise swords and the exchange with Khalid | ep25 01:12:30-01:13:00 | Garbled in both transcripts | Clarity, Loop check | Open |
+| Greeting, thanks, closing prayer and sign-off | ep25 01:18:00-01:18:30 | Closing prayer and greetings are not part of the teaching | Content rule | Open |
+| Names of the Badr Companion who sent the letter, of the man left to lead prayers in Medina and of the commander who relayed the Jerusalem reply | ep25 00:14:30, 00:53:30, 00:59:30 | Each rests on a single garbled word and the two transcripts disagree | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep25 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 26 (branch from origin/main).

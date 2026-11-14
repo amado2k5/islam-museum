@@ -9,3 +9,6 @@ Ali ibn Muhammad ibn Ali al-Jurjani, known as al-Sharif, a scholar of philosophy
 
 ## Notes for researchers
 - His works, teachers and pupils need an additional source.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16861 with the name form «ʿAlī ibn Muḥammad al- Ǧurǧānī (1339?-1413)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16861}

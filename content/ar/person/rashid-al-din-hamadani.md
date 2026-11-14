@@ -16,3 +16,6 @@ translators: []
 ## سقوطه ومقتله
 
 بعد وفاة أولجايتو سنة 1316 اتهمه خصومه في بلاط أبي سعيد بأنه سمّ الإلخان الراحل، فأُعدم في 13 يوليو 1318 عن سبعين عامًا؛ وتؤرخ المقالة العربية مقتله بجمادى الأولى سنة 718 هـ وتنقل مصادرة أمواله وتسليم الربع الرشيدي للعسكر. {cite:wikipedia-rashid-al-din-hamadani-en} {cite:wikipedia-rashid-al-din-hamadani-ar} {cite:wikidata-rashid-al-din-hamadani}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q4604 بصيغة الاسم «Faḍl Allāh ibn Abī al-H̲ayr al-Hamad̲ānī Abū al-Faḍl Rašīd al-Dīn al-Ṭabīb (1248?-1318)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q4604}

@@ -16,3 +16,6 @@ All three article texts agree that he was born into a Jewish family of Hamadan �
 ## Fall and death
 
 After Oldjaitu's death in 1316, Rashid al-Din's rivals at the court of Abu Sa'id charged him with having poisoned the late Ilkhan, and he was executed on 13 July 1318 at the age of seventy; the Arabic article dates the killing to Jumada I 718 AH and recounts that his property was confiscated and the Rab'-i Rashidi given over to the soldiery. {cite:wikipedia-rashid-al-din-hamadani-en} {cite:wikipedia-rashid-al-din-hamadani-ar} {cite:wikidata-rashid-al-din-hamadani}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q4604 with the name form «Faḍl Allāh ibn Abī al-H̲ayr al-Hamad̲ānī Abū al-Faḍl Rašīd al-Dīn al-Ṭabīb (1248?-1318)», the form including the years of birth and death as the file gives them. {cite:biblissima Q4604}

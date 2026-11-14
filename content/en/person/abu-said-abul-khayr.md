@@ -12,3 +12,6 @@ In the first period he disciplined himself severely, for forty years, and the ar
 
 ## Later years and the quatrains
 He wished to accompany his son Abu Tahir on the pilgrimage, but was restrained at Kharakan by Abu l-Hasan al-Kharaqani, and then visited the grave of Abu Yazid at Bistam, Damghan and Rayy. He spent the rest of his life at Mayhana. The article says that he is supposed to have written many quatrains, but that the attribution is doubtful; the quatrain that cured his Qur'an teacher Abu Salih was made the subject of a commentary, the Risala-yi Hawra'iyya. His family tended his tomb for more than a hundred years. {cite:encyclopaedia-of-islam-2 vol. 1 p. 165}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q316297 with the name form «Abū Saʿīd Faḍl Allāh ibn Abī al-H̲ayr (0967-1050?)», the form including the years of birth and death as the file gives them. {cite:biblissima Q316297}

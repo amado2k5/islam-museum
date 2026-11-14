@@ -16,3 +16,6 @@ translators: []
 ## ولادته وتتلمذه على الطوسي ووفاته
 
 تجعل المقالة الإنجليزية، تبعًا للموسوعة الإيرانية، ولادته في أكتوبر 1236 بشيراز؛ وتجعلها المقالتان العربية والأردية في كازرون، مدينة أسرته الأصلية، وقد حُفظ هذا الخلاف في سجله ولم يُحسم بصمت. {cite:wikipedia-qutb-al-din-shirazi-en} {cite:wikipedia-qutb-al-din-shirazi-ar} {cite:wikipedia-qutb-al-din-shirazi-ur} وفي مراغة درس «الإشارات» لابن سينا وعلم الفلك على نصير الدين الطوسي، وشاركه إتمام الجداول الفلكية الجديدة. {cite:wikipedia-qutb-al-din-shirazi-en} {cite:wikipedia-qutb-al-din-shirazi-ar} وتوفي بتبريز سنة 1311 — وهي 710 هـ في المقالة العربية — ودُفن في مقبرة چرنداب بالمدينة. {cite:wikipedia-qutb-al-din-shirazi-en} {cite:wikipedia-qutb-al-din-shirazi-ar} {cite:wikidata-qutb-al-din-shirazi}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q10899 بصيغة الاسم «Maḥmūd ibn Mas´ūd Quṭb al-Dīn al- Šīrāzī (1236-1311)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q10899}

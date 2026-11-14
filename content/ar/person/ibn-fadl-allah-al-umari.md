@@ -21,3 +21,6 @@ translators: []
 
 ## أعمال في مدونة OpenITI
 تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0749IbnFadlAllahCumari 3 من الأعمال، منها: مسالك الأبصار في ممالك الأمصار، كتاب الشتويات، التعريف بالمصطلح الشريف. {cite:openiti-corpus 0749IbnFadlAllahCumari}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q521 بصيغة الاسم «Aḥmad ibn Yaḥyá Ibn Faḍl Allâh al-ʿUmarī (1301-1349)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q521}

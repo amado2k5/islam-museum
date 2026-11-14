@@ -20,3 +20,6 @@ His works include [[work/tarikh-dimashq|Tarikh Madinat Dimashq]], [[work/amali-i
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 30 works under the author identifier 0571IbnCasakir, among them: Aḫbār li-ḥifẓ al-Qurān; Maǧlis fī nafy al-tašbīh; al-Arbaʿūn al-abdāl al-ʿawālī; al-Arbaʿūn al-buldāniyyaŧ. {cite:openiti-corpus 0571IbnCasakir}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16855 with the name form «ʿAli ibn al-Hasan Ibn ʿAsākir (1105-1176)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16855}

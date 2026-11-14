@@ -57,3 +57,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 وفي دهلي ولّاه السلطان [[person/muhammad-ibn-tughluq|محمد شاه]] قضاء دار الملك براتب اثني عشر ألف دينار في السنة، فاعتذر بأنه على مذهب مالك وأهلها حنفية وأنه لا يعرف لسانهم، فعيّن السلطان معه نائبين يشاورهما. {cite:rihla-ibn-battuta-khayriyya-1904 p.412} ويذكر ابن خلدون في مقدمته، في نص ينقله مصحح الطبعة، أنه استعمله في خطة القضاء بمذهب المالكية. {cite:rihla-ibn-battuta-khayriyya-1904 p.313}
 
 وفي آخر الرحلة يصل إليه بتكدا أمر السلطان [[person/abu-inan-faris|أبي عنان]] بالقدوم، فيخرج منها في شعبان سنة 754هـ ويصل إلى فاس ليلة عيد الأضحى، ويقبّل يد السلطان ويقيم في كنفه. {cite:rihla-ibn-battuta-khayriyya-1904 p.565} {cite:rihla-ibn-battuta-khayriyya-1904 p.566} ويصفه ابن جزي بأنه «رحّال العصر» الذي اختار فاس مستوطناً بعد رحلة خمسة وعشرين عاماً. {cite:rihla-ibn-battuta-khayriyya-1904 p.566} وانظر [[question/credibility-of-ibn-battuta|مسألة تصديق أخباره]].
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q12201 بصيغة الاسم «Muḥammad ibn ʿAbd Allâh Ibn Baṭṭūṭaẗ (1304-1369?)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q12201}

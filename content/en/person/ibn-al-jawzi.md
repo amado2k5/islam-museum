@@ -46,3 +46,6 @@ On the title page of the second Muniriyya printing of his [[work/talbis-iblis|Ta
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 61 works under the author identifier 0597IbnJawzi, among them: Adab Hasan Basri; Adhkiya; Akhbar Hamqa Wa Mughaffalin; Akhbar Nisa. {cite:openiti-corpus 0597IbnJawzi}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16842 with the name form «ʿAbd al-Raḥmân ibn ʿAlī Ibn al-Ǧawzī (1116-1201)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16842}

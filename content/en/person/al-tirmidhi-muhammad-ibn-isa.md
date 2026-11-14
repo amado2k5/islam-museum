@@ -36,3 +36,6 @@ Abu 'Isa al-Tirmidhi wrote the book "al-Jami'", known as the Sunan of al-Tirmidh
 - Taqrib al-Tahdhib, entry 6206 (Majmu'at al-kutub scan, p. 558).
 - "Of the twelfth layer" is al-Taqrib's grading for the late third-century imams.
 - The Taqrib vocalizes the father's name "Sawra"; the museum's summary and other works give "Sura".
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q12215 with the name form «Muḥammad ibn ʿIsá ibn Sawraẗ al- Tirmiḏī (0825-0892)», the form including the years of birth and death as the file gives them. {cite:biblissima Q12215}

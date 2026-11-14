@@ -136,3 +136,6 @@ Al-Suwaidan explains the doctrine of the created Qur'an: in his view the Mu'tazi
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 17 works under the author identifier 0241IbnHanbal, among them: aḥkam al-nisāʾ; al-Asāmī wa-l-kuná; al-Ašribaŧ; Caqida Riwayat Khallal. {cite:openiti-corpus 0241IbnHanbal}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q511 with the name form «Aḥmad ibn Muḥammad Ibn Ḥanbal (0780-0855)», the form including the years of birth and death as the file gives them. {cite:biblissima Q511}

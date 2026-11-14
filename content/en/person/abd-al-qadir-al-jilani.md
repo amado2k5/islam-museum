@@ -28,3 +28,6 @@ He closes: the supreme model after the Companions and Followers for balancing so
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 2 works under the author identifier 0561CabdQadirJilani, among them: Ghunya; Tafsir. {cite:openiti-corpus 0561CabdQadirJilani}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q12223 with the name form «Muḥyī al-Dīn ʿAbd al-Qādir al-Ǧīlānī (1078?-1166)», the form including the years of birth and death as the file gives them. {cite:biblissima Q12223}

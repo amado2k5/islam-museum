@@ -79,3 +79,6 @@ His contemporary al-Dabbi called him a well-known jurist and memoriser who took 
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 20 works under the author identifier 0595IbnRushdHafid, among them: Bidayat Mujtahid; Daruri Fi Usul Fiqh; Fasl Maqal; al-Kulliyyāt fī al-ṭibb. {cite:openiti-corpus 0595IbnRushdHafid}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q2016 with the name form «Averroès (1126-1198)», the form including the years of birth and death as the file gives them. {cite:biblissima Q2016}

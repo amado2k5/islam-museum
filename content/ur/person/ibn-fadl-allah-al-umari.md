@@ -21,3 +21,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## OpenITI مجموعے میں تصانیف
 OpenITI مجموعہ اس مصنف کے لیے شناخت 0749IbnFadlAllahCumari کے تحت 3 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: مسالك الأبصار في ممالك الأمصار، كتاب الشتويات، التعريف بالمصطلح الشريف۔ {cite:openiti-corpus 0749IbnFadlAllahCumari}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q521 کے تحت نام کی صورت «Aḥmad ibn Yaḥyá Ibn Faḍl Allâh al-ʿUmarī (1301-1349)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q521}
