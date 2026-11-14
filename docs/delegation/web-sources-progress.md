@@ -776,3 +776,9 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Linked polities: mughal-empire, kingdom-of-france, holy-roman-empire, qara-qoyunlu, sasanian-empire, republic-of-venice. Linked places (regions and ancient cities, concept in parentheses where it differs): india, asia-minor, siqilliya (sicily), surqusa (syracuse_city), ephesus (ephesus_city), gaul (gallia), greece, peloponnese (peloponnesus), fars (persis), syria, mesopotamia, cilicia, cappadocia, byzantine-empire, dalmatia, gujarat-sultanate, misr (egypt), crete, hispania.
 - Not linked: rasulid-dynasty (the only concept for its Wikidata id is a person, al-malik_al-mansur_'umar_b_ali, not the dynasty); italy, france, germany and denmark (concepts are modern state organisations: italian_republic, french_republic, bundesrepublik_deutschland, kingdom_of_denmark). Held for the next PR with the remaining regional places: euboea, pisidia, kos, attica, paphlagonia, bithynia, lesbos, united-kingdom.
 
+## 2026-11-14 (p52, Lane B) — iDAI.gazetteer batch 5: 21 places linked
+
+- Approval: dec-20261114-277. Same method and accept rule as batches 3 and 4 (search.json, 3 s pause; exactly one populated place within 1.5 km that carries our GeoNames id or has our Arabic label among its names). Records 161 to 240 of the importance-ordered list of our cities with a GeoNames or Pleiades id and no iDAI id; 240 of 474 have now been searched. No downloads.
+- Linked: rethymno 2764408, alanya 2280263, khosrowshahr 2733884, zurich 2090501 (Arabic name only, 1.09 km), nev-ehir 2194610, san-francisco 2095870, akhisar 2283106, qift 2277744, erzincan 2212380, i-skilip 2089957, marseille 2080498, masyaf 2298647, kazan 2068865, karaman 2102352, montreal 2091730, new-york-city 2090485, quchan 2733913, kavala 2090168, bergen-op-zoom 2085508, tirana 2758083, gelibolu 2102584.
+- Not linked: the other 59 of the 80 had no passing result.
+
