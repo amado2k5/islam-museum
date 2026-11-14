@@ -1,0 +1,42 @@
+id: dec-20261114-281
+kind: "decision"
+date: "2026-11-14"
+expires_at: "2027-11-14"
+question_hash: b3cbdf621144
+lane: "corrections"
+class: "content"
+modality: "repo"
+domain: "safety"
+mode: "conservative"
+question: "Gemini returned verdicts on the pending-corrections ledger (14 Nov 2026). Should its sections 1 to 5 be applied only where each claim is independently confirmed against a primary source read by the worker, and left unchanged and logged as unresolved otherwise, with section 6 kept as advice for the founder?"
+options:
+  - "apply only independently verified items and log the rest as unresolved"
+  - "apply all Gemini verdicts as given"
+  - "apply none"
+evidence:
+  - "PRs 6865, 6868, 6888, 6893, 6897, 6903, 6917"
+  - "Applied: ibn-al-sikkit, ibn-mattawayh, al-tamirtashi, zayn-al-abidin-work-14608, said-ibn-al-mubarak, ibn-al-dahan, ibrahim-ibn-sad-ibn-abi-waqqas, ibrahim-ibn-abdallah-physician (partly), muhammad-ibn-mustafa-al-bakri (son's dates), arabzade, abd-allah-ibn-yusuf (al-Tinnisi) and new al-Jurjani, abd-al-haqq-dihlawi (note), jafar-ibn-ulba, ahmad-ibn-al-nadr (partly), section 2 items 2.1-2.6, 2.8, 2.9, 2.11, 2.12, notes on 2.3, 2.4, 2.13, section 3 items 3.1, 3.6, 3.13 and confirmations of the rest, VIAF 4.1, GeoNames 4.2a-e, 31 Biblissima links, mehmed-rashid birth 1670"
+  - "Rejected Gemini: 1.8 (card is the son; father already has own card), 1.4 (Safavid illustrator, not the Imam), 1.5 nisba al-Hammami not al-Jammal, 3.9 Ibn Kharrash 242 AH stands (283 is Abd al-Rahman ibn Yusuf), 3.1 not a typo, 1.1 Shi'a label unsupported, 5.1 birth c. 675, 1.10b birth 919 AH, 4.2e Sfax 280566 is a spring"
+  - "Unresolved: 1.9 ahmad-ibn-yusuf-al-misri (may be two men), 1.10c Shi'a label, 1.10f, 1.11 Ibadi label, 2.7, 2.10, 3.17 (1204 stands), 5.22 floruit, al-Zuhri 108-183 AH, John of Damascus 675/676"
+status: decided
+step: rule
+decision: "corrections are made openly: fix the record, cite what the correction rests on, append a CANARY entry — errors are corrected when found, never hidden"
+confidence: 0.85
+reversible: true
+rationale: "Answered by a standing repository rule (rule-corrections-open): AGENTS.md + Method page: 'corrections in the open'."
+rule: "AGENTS.md + Method page: 'corrections in the open'"
+rule_id: "rule-corrections-open"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-corrections-open
+chain:
+  depth: 0
+  root_id: "rule:rule-corrections-open"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "3237722fa0053237"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-corrections-open"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
