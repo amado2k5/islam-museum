@@ -1,0 +1,55 @@
+id: dec-20261114-277
+kind: decision
+date: 2026-11-14
+expires_at: 2027-11-14
+question_hash: e07ad2ba0a40
+lane: orchestrator
+class: process
+modality: repo
+domain: process
+mode: conservative
+question: Which next steps for lanes A, B and C did the founder approve in chat
+  on 13 and 14 November 2026, and which questions stay held?
+options:
+  - record the approvals exactly as quoted, with the three held questions left
+    open
+  - treat 'approve all' as covering the three held questions too
+  - record nothing until each item is approved by name
+evidence:
+  - "Founder, in chat, 14 November 2026, on the lane plan: 'for lane B i approve
+    all, please proceed' (earlier, on the four web-source pilots)"
+  - "Founder, in chat, 14 November 2026: 'please do the vHMML 3 MB CSV download
+    for lane B'"
+  - "Founder, in chat, 14 November 2026: 'i approve all, please proceed' (reply
+    to the orchestrator's list of next steps for each lane)"
+  - "Founder, in chat, 14 November 2026: 'please add my approval in the repo as
+    a decision record'"
+  - docs/delegation/web-sources-progress.md p36 (the worker declined to record
+    approvals relayed only by the orchestrator)
+status: founder-docket
+step: founder-reserved
+decision: the question reserves this decision to the founder
+confidence: n/a
+reversible: false
+rationale: ""
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 0
+  rule_ids_fired: []
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-14
+    by: founder
+    note: "Founder, in chat, 14 November 2026: 'i approve all, please proceed' and
+      'please add my approval in the repo as a decision record'. Scope as in the
+      record; the held questions are not covered."
+  founder_override: false
+  calibration_weight: 1
