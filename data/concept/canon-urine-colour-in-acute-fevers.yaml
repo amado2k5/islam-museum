@@ -1,0 +1,18 @@
+id: concept/canon-urine-colour-in-acute-fevers
+class: concept
+kind: scientific
+label: { ar: "لون البول في الحميات الحادة عند ابن سينا", en: "The colour of urine in acute fevers in the Canon", ur: "تیز بخاروں میں پیشاب کا رنگ قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن لون البول في الأمراض الحادة المحرقة يضرب إلى الزعفرانية والنارية، وأن اشتداد الصفرة يدل على ازدياد الحرارة وازدياد الصفاء على نقصانها، ويفصل في البول الدموي والغزير والرقيق قبل البحران {cite:canon-ibn-sina-print-v1 p.185}."
+  en: "Ibn Sina says that in acute burning diseases the colour of urine leans toward saffron and fire, that deepening yellow shows rising heat and increasing clearness shows falling heat, and he treats blood-like, abundant and thin urine before the crisis {cite:canon-ibn-sina-print-v1 p.185}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

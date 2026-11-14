@@ -1,0 +1,18 @@
+id: concept/canon-urine-turning-thick-or-clear
+class: concept
+kind: scientific
+label: { ar: "تحول البول من الرقة إلى الغلظ أو الصفاء عند ابن سينا", en: "Urine turning from thin to thick, or from thick to clear, in the Canon", ur: "پیشاب کا پتلے سے گاڑھا یا گاڑھے سے صاف ہونا قانون میں" }
+summary:
+  ar: "يذكر ابن سينا ثلاث حالات ينظر فيها بحسب تحول البول: أن يبال رقيقاً ثم يغلظ، أو غليظاً ثم يصفو ويرسب، أو حالة وسطى بينهما، ويبين أن البول المائي الذي يبقى مائياً دليل عدم النضج {cite:canon-ibn-sina-print-v1 p.190}."
+  en: "Ibn Sina gives three cases by how urine changes: passed thin then thickening, passed thick then clearing and depositing, or a middle state between them, and says water-like urine that stays water-like shows lack of ripening {cite:canon-ibn-sina-print-v1 p.190}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

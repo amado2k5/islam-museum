@@ -1,0 +1,18 @@
+id: concept/canon-urine-like-washings-of-flesh
+class: concept
+kind: scientific
+label: { ar: "البول الشبيه بغسالة اللحم عند ابن سينا", en: "Urine like the washings of fresh meat in the Canon", ur: "تازہ گوشت کے دھوون جیسا پیشاب قانون میں" }
+summary:
+  ar: "يصف ابن سينا اللون المركب الشبيه بغسالة اللحم الطري، كأنه دم مزج في الماء، ويرده في الأكثر إلى ضعف الكبد وفي الأقل إلى كثرة الدم {cite:canon-ibn-sina-print-v1 p.188}."
+  en: "Ibn Sina describes the compound colour like the washings of fresh meat, as if blood were mixed into water, and traces it mostly to a weak liver and less often to an excess of blood {cite:canon-ibn-sina-print-v1 p.188}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
