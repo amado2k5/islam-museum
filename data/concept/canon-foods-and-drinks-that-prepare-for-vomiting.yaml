@@ -1,0 +1,18 @@
+id: concept/canon-foods-and-drinks-that-prepare-for-vomiting
+class: concept
+kind: scientific
+label: { ar: "الأطعمة والأشربة المهيئة للقيء عند ابن سينا", en: "Foods and drinks that prepare for vomiting in the Canon", ur: "قانون میں قے کے لیے تیار کرنے والی غذائیں اور مشروبات" }
+summary:
+  ar: "يعدّد ابن سينا الأشياء المهيئة للقيء من خضر وأطعمة وأشربة، ويوصي بأن يحضر المتقيئون ويرتاضوا ويتعبوا ثم يقيئوا عند انتصاف النهار، وأن يُغطى العينان ويُشد البطن شداً معتدلاً {cite:canon-ibn-sina-print-v1 p.286}."
+  en: "Ibn Sina lists the foods and drinks that prepare for vomiting, and advises that those about to vomit be present, exercise and tire themselves and then vomit at midday, with the eyes covered and the belly bound moderately {cite:canon-ibn-sina-print-v1 p.286}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 10 to 19, on vomiting, the enema, paints and douches (scan pages 285 to 289), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch10-19
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

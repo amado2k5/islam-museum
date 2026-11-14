@@ -1,0 +1,18 @@
+id: concept/canon-diseases-for-vomiting-and-its-cautions
+class: concept
+kind: scientific
+label: { ar: "أمراض ينفعها القيء ومحاذيره عند ابن سينا", en: "Diseases helped by vomiting and its cautions in the Canon", ur: "قانون میں قے سے فائدہ اٹھانے والی بیماریاں اور احتیاطیں" }
+summary:
+  ar: "يذكر ابن سينا أن أولى ما يُستعمل فيه القيء الأمراض المزمنة العسيرة كالاستسقاء والمالنخوليا والصرع والجذام والنقرس وعرق النسا، وأن القيء قد يجلب أمراضاً كالطرش، فلا يُتبع بالفصد بل يؤخر ثلاثة أيام، ولا تُقيَّأ الحبلى {cite:canon-ibn-sina-print-v1 p.287}."
+  en: "Ibn Sina says vomiting is most fittingly used in hard, long-lasting diseases such as dropsy, melancholia, epilepsy, leprosy, gout and sciatica, that it may bring diseases such as deafness, that venesection should not follow it at once but wait three days, and that a pregnant woman should not be made to vomit {cite:canon-ibn-sina-print-v1 p.287}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 10 to 19, on vomiting, the enema, paints and douches (scan pages 285 to 289), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch10-19
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

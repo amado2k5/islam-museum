@@ -1,0 +1,18 @@
+id: concept/canon-giving-a-strong-emetic-such-as-hellebore
+class: concept
+kind: scientific
+label: { ar: "سقي المقيئ القوي كالخربق وتدبير القيء عند ابن سينا", en: "Giving a strong emetic such as hellebore in the Canon", ur: "قانون میں خربق جیسی قوی قے آور دوا دینے کی تدبیر" }
+summary:
+  ar: "يذكر ابن سينا أن المقيئ القوي كالخربق يُسقى على الريق إن لم يكن مانع، بعد ساعتين من النهار وبعد إخراج الثفل من المعي، وأن يُحرَّك القيء بالريشة، وإلا أُدخل الحمام، وأن يُعان على الغثيان بتسخين المعدة والأطراف، وأن يُسكَّن الدواء إن أسرع {cite:canon-ibn-sina-print-v1 p.286}."
+  en: "Ibn Sina says a strong emetic such as hellebore is given on an empty stomach if nothing forbids, two hours into the day and after the dregs are cleared from the gut; the vomiting is helped with a feather, otherwise the bath, and if the drug acts too fast the patient is calmed {cite:canon-ibn-sina-print-v1 p.286}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 10 to 19, on vomiting, the enema, paints and douches (scan pages 285 to 289), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch10-19
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

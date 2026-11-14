@@ -1,0 +1,61 @@
+id: dec-20261114-283
+kind: decision
+date: 2026-11-14
+expires_at: 2027-11-14
+question_hash: 702872ed356a
+lane: library
+class: process
+modality: repo
+domain: governance
+mode: conservative
+question: 'The founder instructed in chat on 14 November 2026: "we also need a
+  register of all the pending records, all the records that are missing wikidata
+  id or anything else you or other agents still wants to enrich, and all the
+  proses that are partial or empty. and their status, so that at any time any
+  agent can directly and easily find those and work on them." Should the museum
+  keep an enrichment register under docs/library/enrichment/ (a script that
+  derives every gap live from data/ and content/, sharded queue files, an
+  append-only claims.yaml, and a check script), with the AGENTS.md rule that
+  agents take work from it when their queue is empty, claim it in their first
+  commit and never start an item another agent has claimed?'
+options:
+  - build the enrichment register as described, with the AGENTS.md rule
+  - build it without the AGENTS.md rule
+  - do not build it
+evidence:
+  - Founder instruction in chat, 14 November 2026, quoted in the question
+  - "Counterpart: docs/library/harvest-register.yaml (books, audio, websites,
+    datasets), already merged"
+  - "Never blocked, never idle (founder rule, 14 November 2026): idle agents
+    need a standing queue"
+  - "Reversible: docs and scripts only; no entity changes"
+status: founder-docket
+step: policy-gate
+decision: governance surfaces (schema, classes, enums, predicates, routes,
+  headers, infra, CI) are founder-only
+confidence: n/a
+reversible: false
+rationale: ""
+gate: nd-governance
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-governance
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - nd-governance
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-14
+    by: founder
+    note: Founder instruction in chat, 14 November 2026 (quoted in the question)
+  founder_override: false
+  calibration_weight: 1
