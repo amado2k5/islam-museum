@@ -2961,3 +2961,19 @@ Resume point: min-kunuz-al-sunnah episode 11 (branch from origin/main).
 | Loops and garbled stretches (a stretch on the hall of the Friday sermon and a football match, a loop in the Noah stretch, a stretch on a trained worker) | ep11 00:07:00-00:07:30 (part), 00:21:00-00:21:30 (part), 00:03:30-00:04:00 (part) | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 12 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep12 (14 Nov 2026)
+
+14 points written for episode 12 (ar, en, ur); 9 needs_source marks in each language file for this episode; 10 new `about` edges. Quran verses referenced only through passage links (2-30, 5-27, 5-28, 19-45, 113-5, 49-10, 17-23, 17-24); none typed. Contested: His claim that a person who honors his parents will not enter the Fire however many wrongs he does, his attributions of sayings to Ali and of an exchange to Mu'awiya, and his view that applying the hadith would restore Muslim leadership of the nations are his own and unsourced or contested.
+
+| Excluded (min-kunuz-al-sunnah ep12) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, welcome, break joins and closing prayer | ep12 00:00:00-00:01:00, 00:09:00-00:09:30, 00:17:00-00:17:30, 00:27:00-00:27:30 | Not substantive content | Content rule | Open |
+| Looping vowel stretch | ep12 00:02:30-00:03:00 | Loop, no recoverable content | Clarity, Loop check | Open |
+| Looping letter stretch | ep12 00:06:00-00:06:30 | Loop, no recoverable content | Clarity, Loop check | Open |
+| Looping article stretch and garbled parents passage including a report about the angels and the Throne | ep12 00:21:30-00:22:00 | Loop and garbled, cannot recover | Clarity, Loop check | Open |
+| Remedy about taking water from the one who envies, and a story of a poor man, a letter and a request to execute several nobles | ep12 00:07:00-00:09:00 | Garbled, details unrecoverable | Clarity, Loop check | Open |
+| Remarks on a particular airport's passport officers | ep12 00:05:30-00:06:00 | Sweeping generalisation about a group of officials | Voice rule | Open |
+| The Cain and Abel marriage detail | ep12 00:03:30-00:04:00 | Garbled, unrecoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 13 (branch from origin/main).
