@@ -1,0 +1,18 @@
+id: concept/canon-intermittent-returning-and-continuous-pulse
+class: concept
+kind: scientific
+label: { ar: "النبض المنقطع والعائد والمتصل عند ابن سينا", en: "The intermittent, returning and continuous pulse in the Canon", ur: "منقطع، عائد اور متصل نبض قانون میں" }
+summary:
+  ar: "يقسم ابن سينا اختلاف النبض في جزء واحد إلى المنقطع والعائد والمتصل، ويعرف كلاً منها {cite:canon-ibn-sina-print-v1 p.172}."
+  en: "Ibn Sina divides unevenness in a single part of the pulse into the intermittent, the returning and the continuous, and defines each {cite:canon-ibn-sina-print-v1 p.172}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, the pulse chapters 2 to 11 (scan pages 171 to 179), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-causes-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
