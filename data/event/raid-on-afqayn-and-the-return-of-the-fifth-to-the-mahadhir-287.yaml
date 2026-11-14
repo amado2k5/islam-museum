@@ -1,0 +1,59 @@
+id: event/raid-on-afqayn-and-the-return-of-the-fifth-to-the-mahadhir-287
+class: event
+kind: other
+label:
+  ar: "الغارة على أفقين ورد الخمس على المهاذر، 287هـ"
+  en: "The raid on Afqayn and the return of the fifth to the Mahadhir, 287 AH"
+  ur: "افقین پر چھاپہ اور مہاذر کو خمس کی واپسی، 287ھ"
+summary:
+  ar: "بلغ الهادي أن دواب المهاذر أُوضعت بأفقين ومعها جماعة منهم، فأرسل علي بن محمد ومحمد بن القاسم بقطعة من الخيل والرجّالة فأغارا وغنما، وقُسمت الغنيمة على خمسة أسهم، ثم استأمن المهاذر فرد عليهم الهادي الخمس."
+  en: "Word reached al-Hadi that the Mahadhir's animals had been put out at Afqayn with a party of them, so he sent Ali ibn Muhammad and Muhammad ibn al-Qasim with a party of horse and foot, who raided and took spoils; the spoil was divided in five shares and the Mahadhir then sought safety and al-Hadi returned the fifth to them."
+  ur: "ہادی کو خبر ملی کہ مہاذر کے جانور ان کی ایک جماعت کے ساتھ افقین میں چھوڑے گئے ہیں تو انہوں نے علی بن محمد اور محمد بن قاسم کو سواروں اور پیادوں کی ایک ٹکڑی کے ساتھ بھیجا جنہوں نے چھاپہ مار کر غنیمت لی؛ غنیمت پانچ حصوں میں بانٹی گئی، پھر مہاذر نے امان مانگی تو ہادی نے خمس انہیں لوٹا دیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900"
+    hijri: "0287"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 287هـ بحسب ترتيب السرد؛ الدقة سنوية؛ لا يعطي الكتاب يوماً؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/afqayn-yemen
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-al-qasim-al-alawi-raider-at-afqayn-287
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-mahadhir-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص193-194 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-23
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 193-194

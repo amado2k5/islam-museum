@@ -9,3 +9,5 @@ With his letter to Banu Ma'mar [[person/al-murtada-muhammad|Abu al-Qasim]] sent 
 
 ## The hamstringing
 Ali ibn Muhammad said: when Abu al-Qasim's letter reached Banu Ma'mar they met and took counsel, knew they had no strength against [[person/al-hadi-yahya-al-rassi|al-Hadi]] whose affair had risen and grown strong, and told one of their foolish men to hamstring [[person/ibn-al-dahhak-rebel-at-khiwan-286|Ibn al-Dahhak]]'s mare, and he hamstrung it by night. {cite:sira-hadi-ila-al-haqq p.184} The sentence breaks off at the start of the next page with the words "and when it became clear", so the museum stops here and resumes from the next page.
+
+The account continues in [[event/ibn-al-dahhak-seeks-safety-through-abu-al-atahiya-and-abu-al-qasim-writes-in-verse-286]] on the next page.
