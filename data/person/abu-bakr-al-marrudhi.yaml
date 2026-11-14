@@ -6,25 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي بكر أحمد المروذي، راوية مسائل أحمد بن حنبل في القرن التاسع، توفي سنة ٨٨٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Bakr Ahmad al-Marrudhi, the ninth-century transmitter of Ahmad ibn Hanbal's masa'il, d. 888; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن محمد بن الحجاج، أبو بكر المروذي ⁦(المروزي)⁩، عالم بالفقه والحديث وأجل أصحاب الإمام أحمد بن حنبل وخصيص بخدمته، روى عنه مسائل كثيرة وتولى إغماضه وغسله، وتوفي ببغداد في 6 جمادى الأولى سنة 275 هـ ⁦(888 م)⁩ ودفن إلى جانبه."
+  en: "Ahmad ibn Muhammad ibn al-Hajjaj, Abu Bakr al-Marrudhi (al-Marwazi), a scholar of fiqh and hadith and one of the most eminent companions of Ahmad ibn Hanbal, devoted to his service; transmitted many of his questions, closed his eyes and washed his body, and died in Baghdad on 6 Jumada al-Ula 275 AH (888 CE), buried beside him."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q18340020
   viaf: "55744026"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0053
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002 (vol. 1 p. 205) and al-Safadi, al-Wafi bi-l-Wafayat (vol. 7 p. 256), entries read in full from the local OpenITI texts; Wikidata candidate Q18340020"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Ya'la, Tabaqat al-Hanabila; al-Dhahabi, Siyar Confirmed on 13 November 2026 against Wikidata Q18340020 (P570, a statement with a reference), item revision 2543804811.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: student_of, target: person/ahmad-ibn-hanbal, confidence: high, note: "al-Zirikli, al-A'lam, vol. 1 p. 205, and al-Safadi, al-Wafi, vol. 7 p. 256: among the most eminent companions of Imam Ahmad, who stayed with him until he died", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
