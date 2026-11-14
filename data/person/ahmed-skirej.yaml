@@ -1,36 +1,77 @@
 id: person/ahmed-skirej
 class: person
 label:
-  ar: "أحمد سكيرج"
-  en: "Ahmed Skirej"
-roles: [qadi]
+  ar: أحمد سكيرج
+  en: Ahmed Skirej
+roles:
+- qadi
+- writer
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد سكيرج، القاضي والعالم المغربي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmed Skirej, the Moroccan qadi and scholar; his entry is not yet checked on the page."
-wings: [people]
-regions: [maghreb]
-periods: [period/modern-era]
-born: { edtf: "1878", precision: year, status: tradition, derived: true }
-died: { edtf: "1944", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+  ar: أحمد بن العياشي سكيرج الخزرجي الأنصاري، فاسي من أهل الطريقة التجانية، قاض ولي الأحباس بفاس والقضاء بوجدة والجديدة وسطات، صاحب «كشف الحجاب» و«رياض السلوان»، 1295 إلى 1363هـ.
+  en: Ahmad ibn al-Ayyashi Sukayrij al-Khazraji al-Ansari, a man of Fes of the Tijani order, a qadi who supervised the awqaf at Fes and held the judgeship of Oujda, al-Jadida and Settat, author of Kashf al-Hijab and Riyad al-Salwan, 1295 to 1363 AH.
+wings:
+- people
+regions:
+- maghreb
+periods:
+- period/modern-era
+born:
+  edtf: '1878'
+  hijri: '1295'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 1 p. 188: 1295 to 1363 AH = 1878 to 1944 CE; agrees with the card.'
+  sources: &id001
+  - source/alam-zirikli-dar-al-ilm-2002
+died:
+  edtf: '1944'
+  hijri: '1363'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 1 p. 188: 1295 to 1363 AH = 1878 to 1944 CE; agrees with the card.'
+  sources: *id001
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q4696030
-  viaf: "90080494"
+  viaf: '90080494'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
-  - job: job/qadi
-    kind: primary
-    status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+- job: job/qadi
+  kind: primary
+  status: historical
+  note: bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep
+  sources:
+  - source/al-aalam
 relations:
-  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+- type: lived_in
+  target: place/maghreb
+  note: Place association from the person's nisba/name (المغربي); denotes association, not proven residence.
+  sources:
+  - source/al-aalam
+  confidence: low
+- type: born_in
+  target: place/fes
+  note: al-Zirikli, al-A'lam, 15th ed. 2002 (entry names the place)
+  sources: *id001
+  confidence: medium
+- type: died_in
+  target: place/marrakesh
+  note: al-Zirikli, al-A'lam, 15th ed. 2002 (entry names the place)
+  sources: *id001
+  confidence: medium

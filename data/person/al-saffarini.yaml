@@ -1,29 +1,57 @@
 id: person/al-saffarini
 class: person
 label:
-  ar: "محمد بن أحمد السفاريني"
-  en: "al-Saffarini"
-roles: [scholar]
+  ar: محمد بن أحمد السفاريني
+  en: al-Saffarini
+roles:
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن أحمد السفاريني، فقيه حنبلي نابلس في القرن الثامن عشر صاحب «الغذاء الألباب»، توفي سنة ١٧٧٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Ahmad al-Saffarini, the eighteenth-century Hanbali jurist of Nablus author of Ghidha' al-Albab, d. 1774; the biographical entry is not yet checked on the page."
-wings: [people]
-regions: [levant-iraq]
-periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+  ar: محمد بن أحمد بن سالم السفاريني، شمس الدين أبو العون، عالم بالحديث والأصول والأدب ولد في سفارين من قرى نابلس ودرس وأفتى في نابلس، صاحب «غذاء الألباب»، 1114 إلى 1188هـ.
+  en: Muhammad ibn Ahmad ibn Salim al-Saffarini, Shams al-Din Abu al-Awn, a scholar of hadith, usul and letters, born in Saffarin near Nablus, who taught and gave fatwas in Nablus, author of Ghidha al-Albab, 1114 to 1188 AH.
+wings:
+- people
+regions:
+- levant-iraq
+periods:
+- period/gunpowder-empires
+sources:
+- source/al-aalam
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q12240064
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0037
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1702", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q12240064 (P569, a statement with a reference), item revision 2539576250.", sources: [source/wikidata] }
-died: { edtf: "1774", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q12240064 (P570, a statement with a reference), item revision 2539576250.", sources: [source/wikidata] }
+  completeness: 3
+born:
+  edtf: '1702'
+  hijri: '1114'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 5 p. 290: 1114 to 1188 AH = 1702 to 1774 CE. The entry does not call him Hanbali; the earlier card summary did.'
+  sources: &id001
+  - source/alam-zirikli-dar-al-ilm-2002
+died:
+  edtf: '1774'
+  hijri: '1188'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 5 p. 290: 1114 to 1188 AH = 1702 to 1774 CE. The entry does not call him Hanbali; the earlier card summary did.'
+  sources: *id001
 relations:
-  - { type: lived_in, target: place/nablus, note: "From text: فقيه حنبلي نابلس في القرن الثا", sources: [source/al-aalam], confidence: low }
+- type: lived_in
+  target: place/nablus
+  note: 'From text: فقيه حنبلي نابلس في القرن الثا'
+  sources:
+  - source/al-aalam
+  confidence: low
