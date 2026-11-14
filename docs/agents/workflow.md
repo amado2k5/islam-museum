@@ -4,6 +4,7 @@ Applies to every agent and human. Rules that never bend are in [`AGENTS.md`](../
 
 _Origin: founder decision of 11 October 2026 that several sessions work in parallel and nobody's work is ever ignored, discarded or reverted._
 
+> Packet pipeline (founder-approved 14 November 2026): lane content is drafted and verified as packets and landed only by the lander, in one train pull request, with release notes written from the packet manifests (`docs/agents/pipeline.md`). Lane workers no longer open or merge pull requests; the steps below apply to work outside the lanes (site code, schema, scripts, docs, fixes).
 > Harvest register: before any download, OCR, harvest, mining or ingestion, look the item up in `docs/library/harvest-register.yaml` and update its entry in the same PR (`docs/library/README.md`).
 > Enrichment register: when your queue is empty or you finish early, take work from `docs/library/enrichment/` (`npm run enrichment-queue`), claim it in `claims.yaml` in your first commit, mark it done when merged; never start an item another agent has claimed.
 
