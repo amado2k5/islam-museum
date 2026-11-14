@@ -12,3 +12,6 @@ Between Rutumaghsh and Lazawdash is forty miles, and there the river of Rutumagh
 
 ## Neighbours
 Dyaba is a populous city on the sea with moorings, sailing and building of ships for voyages, and from Hanfalat to it eastward is forty miles. {cite:nuzhat-al-mushtaq-2002 p. 865} Rutumaghsh is listed in the land of Zamandiya (as the text has it) with Biyawsh, Irawsh, Bentiz, Dyaba, Qam and Qastans, a land with many villages and continuous settlements. {cite:nuzhat-al-mushtaq-2002 p. 864}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2081087 with the preferred name «Rouen», classed as populated place; its parent in the hierarchy is «Seine-et-Marne (Département)», classed as administrative unit. Recorded names include «Rouen» and «Ruan». {cite:idai-gazetteer 2081087}

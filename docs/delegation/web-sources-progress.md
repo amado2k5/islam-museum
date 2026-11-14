@@ -1159,3 +1159,22 @@ Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each
 - Written (ar, en, ur, draft; cite-check 10 of 10): abu-al-qasim-al-burzuli (5 p. 171, continuing p. 172), al-dimyati (4 p. 167; replaces Biblissima-only prose), abu-al-baqa-al-kafawi (2 p. 25), muhammad-ibn-husayn-al-zaghuli (6 p. 23), abdullah-al-bosnevi (4 p. 57), abd-al-qadir-al-fasi (4 p. 10), abu-wajzah-al-sadi (8 p. 179), abd-al-wahid-ibn-ashir (4 p. 167), shams-al-din-al-ramli (5 p. 290), al-muhsin-ibn-muhammad-al-bayhaqi (5 p. 283).
 - Corrections to cards: al-burzuli born 1339 to 1340 and died 1438 to 1440 (entry 844 AH = 1440; the heading's printed birth 641 does not fit 1340, 741 would, and fits al-Sakhawi's 103 years; years written as printed, flagged), lived_in maghreb replaced by Tunis; abdullah-al-bosnevi father Abd al-Rahman to Muhammad, poet and Malamati removed, born 1584 added, died_in Konya; abd-al-qadir-al-fasi theologian removed; abd-al-wahid-ibn-ashir lived_in Medina (from the nisba) replaced by Fez; shams-al-din-al-ramli lived_in Ramla replaced by Cairo (the nisba is a village of al-Minufiyya, not Palestinian Ramla); abu-wajzah-al-sadi roles poet and scholar; ibn-karama Zaydi school labelled before anything else, Sanaa and Mecca added. Other cards: dates agree with the entry in the same Hijri years.
 - Skipped: ahmad-ibn-yusuf-al-misri. The card is Ahmad ibn Yusuf ibn Ibrahim (Ibn al-Daya, mathematician of Baghdad, d. 912); the packet entry is Ibrahim ibn Yusuf al-Razi al-Hasanjani, hadith hafiz, d. 301 AH = 913 (a different man). A proposal for the founder; no prose written.
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Packet 36 (gazetteer sections): 13 places written. Skipped: sfax (iDAI 2042776 carries GeoNames 2467454, ours is 280566; iDAI section not written, a proposal for the founder).
+=======
+=======
+## Packet 35 (place identifier sections)
+- Written: 13 places (see CANARY). Skipped: qayrawan (iDAI 2042772 has no GeoNames id; our data has 2473449, cannot confirm identity; proposal for the founder).
+>>>>>>> origin/main
+## 2026-11-14 (Lane B2 packet alm20) - al-A'lam persons, nine written, none skipped
+
+Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each entry read in full; match checked by name, role, region and dates.
+
+- Written (ar, en, ur, draft, run web-b2-alam-2026-11-14; cite-check 9 of 9): abdallah-al-shabrawi (4 p. 115), muhammad-ibn-abd-al-hadi-al-sindi (6 p. 179), yahya-ibn-abd-al-wahhab-ibn-mandah (8 p. 133), hashim-al-bahrani (8 p. 64, Imami), ahmad-ibn-said-al-busaidi (1 p. 111, Ibadi), abd-al-aziz-al-alawi (4 p. 10), abd-al-karim-ibn-tawus (4 p. 10, Imami), abd-al-rahman-al-fasi (3 p. 286), nimat-allah-al-jazairi (8 p. 32, Imami).
+- Corrections to cards: al-Busaidi died 1783 to 1782 (entry 1196 AH = 1782), roles add imam, ruler_of Oman and lived_in Sohar added; al-Sindi born_in Sind added, role faqih; Ibn Mandah summary 1117 to 1118, born_in and died_in Isfahan; al-Bahrani summary 1695 to 1696, buried_in Tubli; Abd al-Aziz born 1881 added, died_in Tangier; Ibn Tawus died_in Kadhimiya, lived_in Baghdad; al-Fasi summary no longer says astronomer, musician and historian (entry: jurist, author of seventy-odd books); al-Jaza'iri born_in Basra (medium, from the nisba and the village al-Sabbaghiyya of the Jaza'ir of Basra).
+- Years kept on the card where the entry's AH year spans the card's CE year: al-Shabrawi born 1681 (1091 AH = 1680), al-Jaza'iri died 1700 (1112 AH = 1701). Abd al-Aziz: the entry prints 1363 AH = 1944; the card's 1943 (the year given by the other sources the museum holds; 1363 AH begins at the end of December 1943) is kept and the printed year is flagged, with no claim in the prose about the card.
+- Skipped: none.
+
+>>>>>>> origin/main

@@ -1,0 +1,57 @@
+id: event/ahmad-ibn-muhammad-al-madanis-poem-faulting-banu-al-harith-286
+class: event
+kind: other
+label:
+  ar: قصيدة أحمد بن محمد المداني يخطّئ فيها بني الحارث، 286هـ
+  en: The poem of Ahmad ibn Muhammad al-Madani faulting Banu al-Harith, 286 AH
+  ur: احمد بن محمد مدانی کا وہ قصیدہ جس میں وہ بنو حارث کو خطا کار ٹھہراتے ہیں، 286ھ
+summary:
+  ar: يقول الكتاب إن أحمد بن محمد المداني قال، عند دخول الهادي القرية وقتله بني الحارث وأخذه ابن حميد، شعراً يخطّئ فيه بني الحارث، يذكر فيه أنه سهر من الهمّ لما نزل بقومه حين ضلت حلومهم وحاربوا الله وابن نبيه، وأنهم أُنذروا ونُصحوا، ويصف الهادي سليل الطهارة والتقى وإماماً شجاعاً.
+  en: 'The book says Ahmad ibn Muhammad al-Madani spoke, when al-Hadi entered the village, killed Banu al-Harith and took Ibn Humayd, a poem faulting Banu al-Harith for what they did: he lost sleep through grief at what came on his people when their wits went astray and they fought God and the son of His prophet, says they were warned and counselled, and describes al-Hadi as a descendant of the pure and godfearing and a brave imam.'
+  ur: 'کتاب کہتی ہے کہ احمد بن محمد مدانی نے، ہادی کے بستی میں داخل ہونے، بنو حارث کو قتل کرنے اور ابن حمید کو پکڑنے کے وقت، ایک قصیدہ کہا جس میں وہ بنو حارث کو ان کے فعل پر خطا کار ٹھہراتے ہیں: ان کی قوم پر جو آیا اس کے غم میں نیند چلی گئی جب ان کی عقلیں بہک گئیں اور انہوں نے اللہ اور اس کے نبی کے بیٹے سے جنگ کی، انہیں خبردار اور نصیحت کی گئی، اور وہ ہادی کو پاکیزگی و تقویٰ کی نسل اور بہادر امام بتاتے ہیں۔'
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899"
+    hijri: "0286"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 286هـ؛ الكتاب لا يعين الشهر ولا اليوم، والخبر يُروى استطراداً عن دخول الهادي القرية الأول بحسب ترتيب السرد؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-muhammad-al-madani-poet-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص179 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-22
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 179

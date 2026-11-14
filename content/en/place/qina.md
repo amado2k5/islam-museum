@@ -8,3 +8,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 Qina is a city of Upper Egypt (al-Sa'id), east of the Nile. Ibn Jubayr describes it as white and elegant in appearance, with grand buildings, and mentions that its women keep to their houses. {cite:rihla-ibn-jubayr-1907 p.370}
 
 An additional source is needed: the page number in the data is taken from the scanned copy and awaits verification.
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2751436 with the preferred name «Qinā», classed as archaeological site and populated place; its parent in the hierarchy is «Genā (Muhāfazat)», classed as administrative unit. Recorded names include «Kainopolis», «Maximianopolis» and «Qina». {cite:idai-gazetteer 2751436}

@@ -43,3 +43,6 @@ The earliest coins assignable to the Sana'a mint date from 156-8/772-4. In the n
 
 ## Further reading
 The article calls the 1983 volume edited by Serjeant and Lewcock, Sana'a, an Arabian Islamic city, essential for almost any aspect of the town's history, culture and daily life. {cite:encyclopaedia-of-islam-2 vol. 9 p. 12}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2281510 with the preferred name «Sanʿaʾ», classed as archaeological site and populated place; its parent in the hierarchy is «Amānat al-ʿāṣima (muḥāfaẓāt)», classed as administrative unit. Recorded names include «Ṣanʿāʾ», «Azal» and «Sanaa». {cite:idai-gazetteer 2281510}
