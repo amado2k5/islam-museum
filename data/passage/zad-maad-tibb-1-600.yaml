@@ -1,0 +1,18 @@
+id: passage/zad-maad-tibb-1-600
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:600"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 600 — التداوي بالعسل، المرض والمريض", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 600 — honey as a remedy; illness and the sick", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 600 — شہد سے علاج، بیماری اور بیمار" }
+text: "… اللَّه، لا سيما في أحد الأيام المذكورة في الحديث، وهي الأيام التي يقع فيها بُحران الأمراض الحادة كثيراً، سيما في البلاد المذكورة لرقة أخلاط سكانها، وسُرعة انفعالهم عن الدواء النافع. فصل في هديه في علاج استطلاق البطن علاجه بالعسل في …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 600، يذكر التداوي بالعسل، والمرض والمريض، وأسماء الأمراض، والعلاج، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 600, that mentions honey as a remedy, illness and the sick, named diseases, treatment, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 600 کا اقتباس جس میں شہد سے علاج، بیماری اور بیمار، بیماریوں کے نام، علاج، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 600; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

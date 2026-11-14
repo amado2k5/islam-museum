@@ -1,0 +1,26 @@
+id: concept/al-habba-al-sawda
+class: concept
+kind: scientific
+label:
+  ar: "الحبة السوداء"
+  en: "Black seed (al-habba al-sawda)"
+  ur: "الحبۃ السوداء ⁦(کلونجی)⁩"
+summary:
+  ar: "الحبة السوداء حبّ ورد في الصحيحين قول النبي فيها: «في الحبة السوداء شفاء من كل داء إلا السام»، والسام الموت {cite:sahih-al-bukhari 5688} {cite:sahih-muslim 5766}. ويقول ابن قيم الجوزية إنها الشونيز، ويعدّ قول من جعلها الخردل أو ثمر البطم وهماً {cite:zad-al-maad p.701}، ويفهم «من كل داء» على أنه عام يراد به الخاص، أي كل داء يقبل ذلك، وأنها نافعة من الأمراض الباردة {cite:zad-al-maad p.701}."
+  en: "The black seed is the subject of a report in both Sahih collections in which the Prophet says 'in the black seed is a cure for every disease except al-sam', and al-sam is death {cite:sahih-al-bukhari 5688} {cite:sahih-muslim 5766}. Ibn Qayyim al-Jawziyya says it is the shuniz and counts the views that make it mustard or the fruit of the terebinth a mistake {cite:zad-al-maad p.701}; he reads 'every disease' as a general expression meant in a particular sense, every disease that admits it, and holds it beneficial for the cold diseases {cite:zad-al-maad p.701}."
+  ur: "کلونجی کے بارے میں صحیحین میں نبی کا یہ فرمان آیا ہے: «کلونجی میں ہر بیماری سے شفا ہے سوائے سام کے»، اور سام موت ہے {cite:sahih-al-bukhari 5688} {cite:sahih-muslim 5766}۔ ابن قیم الجوزیہ کہتے ہیں کہ یہ شونیز ہے، اور جو اسے سرسوں یا بطم کا پھل بتاتے ہیں ان کی بات کو وہ وہم قرار دیتے ہیں {cite:zad-al-maad p.701}؛ وہ «ہر بیماری سے» کو ایسا عام سمجھتے ہیں جس سے خاص مراد ہے، یعنی ہر وہ بیماری جو اسے قبول کرے، اور اسے ٹھنڈی بیماریوں میں مفید بتاتے ہیں {cite:zad-al-maad p.701}۔"
+wings: [ideas]
+themes: [health-body-death]
+regions: [global]
+tags: [tibb-browser, tibb-nabawi]
+sources: [source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/jami-al-tirmidhi]
+relations:
+  - { type: part_of, target: concept/al-tibb-al-nabawi, note: "One of the simple remedies Ibn al-Qayyim lists among the prophetic drugs.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/asal, note: "Ibn al-Qayyim notes it is taken mixed with honey for some uses.", sources: [source/zad-al-maad] }
+provenance:
+  layer: own-research
+  source: "Zad al-Ma'ad by Ibn Qayyim al-Jawziyya, Tibb Nabawi chapters; OCR scan folder zad-maad/20200822_20200822_1205 (1120 pages), scan pages 701-702; hadith wording checked against the hadith-api Arabic editions (hadith numbers are those of that edition); passages linked from the graph."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-1
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

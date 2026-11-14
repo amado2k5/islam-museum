@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-708
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "708"
+label: { ar: "سنن ابن ماجه 708 — أعضاء البدن", en: "Sunan Ibn Majah 708 — the organs of the body", ur: "سنن ابن ماجہ 708 — اعضائے بدن" }
+text: "… ثُمَّ وَضَعَ يَدَهُ عَلَى نَاصِيَةِ أَبِي مَحْذُورَةَ ثُمَّ أَمَرَّهَا عَلَى وَجْهِهِ مِنْ بَيْنِ يَدَيْهِ ثُمَّ عَلَى كَبِدِهِ ثُمَّ بَلَغَتْ يَدُ رَسُولِ اللَّهِ ـ سُرَّةَ أَبِي مَحْذُورَةَ ثُمَّ قَالَ رَسُولُ اللَّهِ ـ \" بَارَكَ اللَّهُ لَكَ وَبَارَكَ عَلَيْكَ \". فَقُلْتُ يَا رَسُولَ اللَّهِ أَمَرْتَنِي بِالتَّأْذِينِ بِمَكَّةَ قَالَ \" نَعَمْ قَدْ أَمَرْتُكَ \". فَذَهَبَ كُلُّ شَىْءٍ كَانَ …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 708، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 708 (The Book of the Adhan and the Sunnah Regarding It), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 708، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 708 (book 3 hadith 3); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,29 @@
+id: concept/mudawat-al-jarha
+class: concept
+kind: scientific
+label: { ar: "مداواة الجرحى في العهد النبوي", en: "Treating the wounded in the Prophet's time (mudawat al-jarha)", ur: "عہدِ نبوی میں زخمیوں کا علاج" }
+summary:
+  ar: "تروي كتب الحديث مداواة الجرحى في مغازي العهد النبوي: فتقول الرُّبيّع بنت معوّذ إنهن كنّ مع النبي «نسقي ونداوي الجرحى» {cite:sahih-al-bukhari 2882}، ويذكر سهل بن سعد أن فاطمة أخذت قطعة حصير فأحرقتها وألصقتها بجرح النبي يوم أحد فاستمسك الدم {cite:sahih-al-bukhari 4075}، وتروي عائشة أن النبي ضرب خيمة في المسجد ليعود سعد بن معاذ المصاب في الأكحل يوم الخندق {cite:sahih-al-bukhari 463}، ويروي جابر أنه حسم جرح سعد بمشقص {cite:hadith-api-fawazahmed0 Muslim 5748}. وهذه الروايات تُعرض هنا كما رُويت، مقابل ما كتبه ابن سينا في الجراحة والكيّ."
+  en: "The hadith books report the care of the wounded in the Prophet's campaigns. Al-Rubayyi' bint Mu'awwidh says the women were with the Prophet 'giving drink and treating the wounded' {cite:sahih-al-bukhari 2882}; Sahl ibn Sa'd tells that Fatima took a piece of mat, burned it and pressed it to the Prophet's wound at Uhud, and the blood held {cite:sahih-al-bukhari 4075}; A'isha reports that the Prophet pitched a tent in the mosque to visit Sa'd ibn Mu'adh, struck in the arm vein at the Trench, from close by {cite:sahih-al-bukhari 463}; and Jabir reports that he cauterised Sa'd's wound with a broad arrowhead {cite:hadith-api-fawazahmed0 Muslim 5748}. The reports are set out here as transmitted, beside what Ibn Sina wrote on surgery and cautery."
+  ur: "کتبِ حدیث عہدِ نبوی کے غزوات میں زخمیوں کی دیکھ بھال کا ذکر کرتی ہیں۔ رُبیّع بنت معوّذ کہتی ہیں کہ وہ عورتیں نبی کے ساتھ «پانی پلاتیں اور زخمیوں کا علاج کرتیں» {cite:sahih-al-bukhari 2882}۔ سہل بن سعد بتاتے ہیں کہ فاطمہ نے چٹائی کا ایک ٹکڑا لے کر جلایا اور احد کے دن نبی کے زخم پر چپکا دیا تو خون رک گیا {cite:sahih-al-bukhari 4075}۔ عائشہ روایت کرتی ہیں کہ نبی نے خندق کے دن بازو کی رگ میں زخمی سعد بن معاذ کی قریب سے عیادت کے لیے مسجد میں خیمہ لگوایا {cite:sahih-al-bukhari 463}۔ جابر روایت کرتے ہیں کہ آپ نے چوڑے پھل والے تیر سے سعد کے زخم کو داغا {cite:hadith-api-fawazahmed0 Muslim 5748}۔ یہ روایات یہاں اسی طرح پیش کی گئی ہیں جیسے نقل ہوئیں، اور ان کے پہلو میں وہ ہے جو ابن سینا نے جراحت اور داغنے کے بارے میں لکھا۔"
+wings: [ideas]
+themes: [health-body-death]
+periods: [period/prophetic-era]
+tags: [tibb-browser, tibb-jiraha]
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0, source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: concept/al-jiraha, sources: [source/canon-ibn-sina-print-v1, source/sahih-al-bukhari] }
+  - { type: related_to, target: invention/rufayda-medical-tent, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: person/rufayda-al-aslamiyya, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: person/sad-ibn-muadh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: related_to, target: person/al-rubayyi-bint-muawwidh, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: event/battle-of-uhud, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: event/battle-of-the-trench, sources: [source/sahih-al-bukhari] }
+provenance:
+  layer: own-research
+  source: "Sahih al-Bukhari 2882, 4075, 463 and Sahih Muslim 5745, 5748, 4642, 4598 as numbered in the hadith-api Arabic edition (fawazahmed0), matn excerpts of at most 40 words, honorific formulas left out; Canon of Medicine vol. 1, scan pages 306 and 309"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-2
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

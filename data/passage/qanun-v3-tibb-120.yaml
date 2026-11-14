@@ -1,0 +1,16 @@
+id: passage/qanun-v3-tibb-120
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "120"
+label: { ar: "القانون في الطب لابن سينا ج3، ص 120 — المرض والمريض، الحمى", en: "Ibn Sina's Canon of Medicine, vol. 3, p. 120 — illness and the sick; fever", ur: "القانون فی الطب، ابن سینا ج3، ص 120 — بیماری اور بیمار، بخار" }
+text: "… إلى سبات، وتواتر شديد من النبض، وتقدم سهر مؤذ. وما كان بسبب إسهال تجد الإسهال قد تقدّم، وأفرط. وما كان من جوع تجد ذلك حادثاً بتدريج لا دُفعة، ومما يؤكد أنّه من المرض فقدان تلك الأسباب، وشدّة حدّة الحمّى وإحساس …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج3، ص 120، يذكر المرض والمريض، والحمى، وأسماء الأمراض، والبيمارستان وصناعة الطب؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 3, p. 120, that mentions illness and the sick, fever, named diseases, the hospital and the medical craft; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج3، ص 120 کا اقتباس جس میں بیماری اور بیمار، بخار، بیماریوں کے نام، بیمارستان کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v3/canon-ibn-sina-print-v3, page 120; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

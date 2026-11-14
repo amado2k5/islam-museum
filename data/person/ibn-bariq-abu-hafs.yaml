@@ -19,6 +19,7 @@ story_roles:
 died: { edtf: "1218", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Takmila (Ibn al-Abbar)" }
 relations:
   - { type: lived_in, target: place/qayrawan, confidence: low, note: "Associated with القيروان per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+tags: [tibb-browser, tibb-tibb]
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

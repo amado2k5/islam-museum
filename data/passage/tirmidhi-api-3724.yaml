@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3724
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3724"
+label: { ar: "جامع الترمذي 3724 — أسماء الأمراض", en: "Jami' al-Tirmidhi 3724 — named diseases", ur: "جامع ترمذی 3724 — بیماریوں کے نام" }
+text: "… وَرَسُولَهُ وَيُحِبُّهُ اللَّهُ وَرَسُولُهُ \". قَالَ فَتَطَاوَلْنَا لَهَا فَقَالَ \" ادْعُ لِي عَلِيًّا \". فَأَتَاهُ وَبِهِ رَمَدٌ فَبَصَقَ فِي عَيْنِهِ فَدَفَعَ الرَّايَةَ إِلَيْهِ فَفَتَحَ اللَّهُ عَلَيْهِ. وَأُنْزِلَتْ هَذِهِ الآيَةُ : ( فَقلْ تَعَالَوْا نَدْعُ أَبْنَاءَنَا وَأَبْنَاءَكُمْ ) الآيَةَ دَعَا رَسُولُ اللَّهِ عَلِيًّا وَفَاطِمَةَ وَحَسَنًا وَحُسَيْنًا فَقَالَ \" اللَّهُمَّ هَؤُلاَءِ أَهْلِي \". قَالَ أَبُو عِيسَى هَذَا …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3724، يذكر أسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 3724 (Chapters on Virtues), that mentions named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 3724، جس میں بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3724 (book 49 hadith 121); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

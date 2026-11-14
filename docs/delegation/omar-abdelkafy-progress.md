@@ -2881,3 +2881,27 @@ Resume point: min-kunuz-al-sunnah episode 4 (branch from origin/main).
 | Garbled stretches and side remarks (a stretch on fruit seasons and artificial milk, a closing stretch on ageing and cosmetics) | ep04 00:02:30-00:04:00, 00:25:30-00:26:00 | Not recoverable or off the lesson | Clarity | Open |
 
 Resume point: min-kunuz-al-sunnah episode 5 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep05 (14 Nov 2026)
+
+12 points written for episode 5 (ar, en, ur); 6 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (9-103, 49-12, 24-30, 2-3, 9-111); none typed. Contested: the lecturer's view on handshakes between men and women is a disputed juristic question and is attributed to him; sensitivity stays contested.
+
+| Excluded (min-kunuz-al-sunnah ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep05 00:00:00, 00:10:00-00:10:30, 00:19:00-00:19:30, 00:26:30-00:27:30 | Not lesson content | Content rule | Open |
+| A naming of three peoples whose refugee camps he suggests visiting | ep05 00:16:00-00:16:30 (part) | Modern conflict aside; the proposal to visit camps is kept without the names, held for the founder to decide | Content rule | Open |
+| Garbled stretches (the cases of intention and finding in the discussion on breaking ablution, the long remark on the mother and a youth) | ep05 00:05:30-00:06:30 (part), 00:07:00 (part) | Not recoverable | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 6 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep06 (14 Nov 2026)
+
+12 points written for episode 6 (ar, en, ur); 8 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (6-153, 42-49, 42-50, 2-228, 4-11, 24-30, 49-11, 49-12, 5-3); none typed.
+
+| Excluded (min-kunuz-al-sunnah ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep06 00:00:00, 00:08:00-00:08:30, 00:17:30-00:18:00, 00:27:00-00:27:30 | Not lesson content | Content rule | Open |
+| A sweeping claim that the shorter a woman's dress the less her reason | ep06 00:07:30-00:08:00 (part) | Demeaning generalisation about women, unsourced; not written in the museum's voice; held for the founder to decide | Content rule, Voice rule | Open |
+| Loops and garbled stretches (a repeated phrase on a saying attributed to Ali, a loop over the list of what he believes, a loop on the worker who wastes hours) | ep06 00:06:00-00:06:30, 00:10:30-00:11:00, 00:15:00-00:15:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 7 (branch from origin/main).

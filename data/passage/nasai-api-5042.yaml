@@ -1,0 +1,16 @@
+id: passage/nasai-api-5042
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5042"
+label: { ar: "سنن النسائي 5042 — الجراحة والختان والجبائر", en: "Sunan al-Nasa'i 5042 — surgery, circumcision and splints", ur: "سنن نسائی 5042 — جراحت، ختنہ اور پٹیاں" }
+text: "أَخْبَرَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ أَبِي بِشْرٍ، عَنْ طَلْقِ بْنِ حَبِيبٍ، قَالَ عَشْرَةٌ مِنَ السُّنَّةِ السِّوَاكُ وَقَصُّ الشَّارِبِ وَالْمَضْمَضَةُ وَالاِسْتِنْشَاقُ وَتَوْفِيرُ اللِّحْيَةِ وَقَصُّ الأَظْفَارِ وَنَتْفُ الإِبْطِ وَالْخِتَانُ وَحَلْقُ الْعَانَةِ وَغَسْلُ الدُّبُرِ. قَالَ أَبُو عَبْدِ الرَّحْمَنِ وَحَدِيثُ سُلَيْمَانَ التَّيْمِيِّ وَجَعْفَرِ بْنِ إِيَاسٍ أَشْبَهُ بِالصَّوَابِ مِنْ حَدِيثِ مُصْعَبِ بْنِ شَيْبَةَ وَمُصْعَبٌ مُنْكَرُ الْحَدِيثِ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 5042، يذكر الجراحة والختان والجبائر. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 5042 (The Book of Adornment), that mentions surgery, circumcision and splints. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 5042، جس میں جراحت، ختنہ اور پٹیاں کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5042 (book 48 hadith 3); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

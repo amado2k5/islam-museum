@@ -1,0 +1,16 @@
+id: passage/muslim-api-3342
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3342"
+label: { ar: "صحيح مسلم 3342 — الشكوى من العلة، الطاعون والوباء", en: "Sahih Muslim 3342 — a complaint of an ailment; plague and epidemic", ur: "صحیح مسلم 3342 — بیماری کی شکایت، طاعون اور وبا" }
+text: "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدَةُ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ قَدِمْنَا الْمَدِينَةَ وَهْىَ وَبِيئَةٌ فَاشْتَكَى أَبُو بَكْرٍ وَاشْتَكَى بِلاَلٌ فَلَمَّا رَأَى رَسُولُ اللَّهِ شَكْوَى أَصْحَابِهِ قَالَ \" اللَّهُمَّ حَبِّبْ إِلَيْنَا الْمَدِينَةَ كَمَا حَبَّبْتَ مَكَّةَ أَوْ أَشَدَّ وَصَحِّحْهَا وَبَارِكْ لَنَا فِي صَاعِهَا وَمُدِّهَا وَحَوِّلْ حُمَّاهَا إِلَى الْجُحْفَةِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3342، يذكر الشكوى من العلة، والطاعون والوباء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 3342 (The Book of Pilgrimage), that mentions a complaint of an ailment, plague and epidemic. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 3342، جس میں بیماری کی شکایت، طاعون اور وبا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3342 (book 15 hadith 546); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

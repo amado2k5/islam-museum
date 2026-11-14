@@ -1,0 +1,16 @@
+id: passage/nasai-api-3657
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3657"
+label: { ar: "سنن النسائي 3657 — العقاقير والصيدلة", en: "Sunan al-Nasa'i 3657 — drugs and pharmacy", ur: "سنن نسائی 3657 — ادویہ اور دواسازی" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ أَحْمَدَ أَبُو يُوسُفَ الصَّيْدَلاَنِيُّ، عَنْ عِيسَى، - وَهُوَ ابْنُ يُونُسَ - عَنِ الأَوْزَاعِيِّ، عَنِ الزُّهْرِيِّ، أَخْبَرَهُ عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنِ ابْنِ عَبَّاسٍ، عَنْ سَعْدِ بْنِ عُبَادَةَ، أَنَّهُ اسْتَفْتَى النَّبِيَّ فِي نَذْرٍ كَانَ عَلَى أُمِّهِ فَتُوُفِّيَتْ قَبْلَ أَنْ تَقْضِيَهُ فَقَالَ رَسُولُ اللَّهِ \" اقْضِهِ عَنْهَا \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3657، يذكر العقاقير والصيدلة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 3657 (The Book of Wills), that mentions drugs and pharmacy. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 3657، جس میں ادویہ اور دواسازی کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3657 (book 30 hadith 47); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

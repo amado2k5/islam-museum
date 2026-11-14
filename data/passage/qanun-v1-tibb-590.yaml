@@ -1,0 +1,18 @@
+id: passage/qanun-v1-tibb-590
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "590"
+label: { ar: "القانون في الطب لابن سينا ج1، ص 590 — أسماء الأمراض، أعضاء البدن", en: "Ibn Sina's Canon of Medicine, vol. 1, p. 590 — named diseases; the organs of the body", ur: "القانون فی الطب، ابن سینا ج1، ص 590 — بیماریوں کے نام، اعضائے بدن" }
+text: "الكتاب الثاني الجملة الثانية: في بيان الأدوية المفردة - حرف السين استكثر منه ضمَّاداً صلب الورم، وهو حجر، وكذلك هو ترياق جميع المفاصل، وخصوصاً في أوقات النوازل. أعضاء الغذاء : رديء للمعدة مضعّف لها، والأحمر والأسود يحبسان أدوية الإسهال في …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج1، ص 590، يذكر أسماء الأمراض، وأعضاء البدن، والدواء، والسم والترياق، والعقاقير والصيدلة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 1, p. 590, that mentions named diseases, the organs of the body, the drug, poison and antidote, drugs and pharmacy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج1، ص 590 کا اقتباس جس میں بیماریوں کے نام، اعضائے بدن، دوا، زہر اور تریاق، ادویہ اور دواسازی کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v1/canon-ibn-sina-print-v1, page 590; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v1]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

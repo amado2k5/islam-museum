@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-2046
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2046"
+label: { ar: "جامع الترمذي 2046 — الدواء، الداء", en: "Jami' al-Tirmidhi 2046 — the drug; the disease and its remedy", ur: "جامع ترمذی 2046 — دوا، بیماری" }
+text: "… شَهِدَ النَّبِيَّ وَسَأَلَهُ سُوَيْدُ بْنُ طَارِقٍ أَوْ طَارِقُ بْنُ سُوَيْدٍ عَنِ الْخَمْرِ فَنَهَاهُ عَنْهُ فَقَالَ إِنَّنَا نَتَدَاوَى بِهَا. فَقَالَ رَسُولُ اللَّهِ \" إِنَّهَا لَيْسَتْ بِدَوَاءٍ وَلَكِنَّهَا دَاءٌ \". حَدَّثَنَا مَحْمُودٌ، قال حَدَّثَنَا النَّضْرُ بْنُ شُمَيْلٍ، وَشَبَابَةُ، عَنْ شُعْبَةَ، بِمِثْلِهِ. قَالَ مَحْمُودٌ قَالَ النَّضْرُ طَارِقُ بْنُ سُوَيْدٍ وَقَالَ شَبَابَةُ سُوَيْدُ بْنُ طَارِقٍ. قَالَ أَبُو عِيسَى هَذَا …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2046، يذكر الدواء، والداء، والتداوي، والتداوي بالمحرم. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 2046 (Chapters on Medicine), that mentions the drug, the disease and its remedy, seeking treatment, treatment with what is forbidden. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 2046، جس میں دوا، بیماری، علاج کرانا، حرام سے علاج کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2046 (book 28 hadith 11); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

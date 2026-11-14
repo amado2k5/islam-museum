@@ -1,0 +1,17 @@
+id: passage/muwatta-api-1269
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1269"
+label: { ar: "موطأ مالك 1269 — الكحل، الشكوى من العلة", en: "Muwatta Malik 1269 — kohl for the eye; a complaint of an ailment", ur: "موطأ مالک 1269 — سرمہ، بیماری کی شکایت" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ نَافِعٍ، أَنَّ صَفِيَّةَ بِنْتَ أَبِي عُبَيْدٍ، اشْتَكَتْ عَيْنَيْهَا وَهِيَ حَادٌّ عَلَى زَوْجِهَا عَبْدِ اللَّهِ بْنِ عُمَرَ فَلَمْ تَكْتَحِلْ حَتَّى كَادَتْ عَيْنَاهَا تَرْمَصَانِ. قَالَ مَالِكٌ تَدَّهِنُ الْمُتَوَفَّى عَنْهَا زَوْجُهَا بِالزَّيْتِ وَالشَّبْرَقِ وَمَا أَشْبَهَ ذَلِكَ إِذَا لَمْ يَكُنْ فِيهِ طِيبٌ. قَالَ مَالِكٌ وَلاَ تَلْبَسُ الْمَرْأَةُ الْحَادُّ عَلَى زَوْجِهَا شَيْئًا مِنَ الْحَلْىِ خَاتَمًا وَلاَ …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 1269، يذكر الكحل، والشكوى من العلة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Muwatta Malik, no. 1269 (Divorce), that mentions kohl for the eye, a complaint of an ailment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "موطأ مالک کی حدیث نمبر 1269، جس میں سرمہ، بیماری کی شکایت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1269 (book 29 hadith 66); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

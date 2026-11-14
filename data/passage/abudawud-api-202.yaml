@@ -1,0 +1,16 @@
+id: passage/abudawud-api-202
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "202"
+label: { ar: "سنن أبي داود 202 — أعضاء البدن", en: "Sunan Abi Dawud 202 — the organs of the body", ur: "سنن ابی داؤد 202 — اعضائے بدن" }
+text: "… \" إِنَّمَا الْوُضُوءُ عَلَى مَنْ نَامَ مُضْطَجِعًا \". زَادَ عُثْمَانُ وَهَنَّادٌ \" فَإِنَّهُ إِذَا اضْطَجَعَ اسْتَرْخَتْ مَفَاصِلُهُ \". قَالَ أَبُو دَاوُدَ قَوْلُهُ \" الْوُضُوءُ عَلَى مَنْ نَامَ مُضْطَجِعًا \". هُوَ حَدِيثٌ مُنْكَرٌ لَمْ يَرْوِهِ إِلاَّ يَزِيدُ أَبُو خَالِدٍ الدَّالاَنِيُّ عَنْ قَتَادَةَ وَرَوَى أَوَّلَهُ جَمَاعَةٌ عَنِ ابْنِ عَبَّاسٍ وَلَمْ يَذْكُرُوا شَيْئًا مِنْ هَذَا وَقَالَ كَانَ النَّبِيُّ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 202، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 202 (Purification (Kitab Al-Taharah)), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 202، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 202 (book 1 hadith 202); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

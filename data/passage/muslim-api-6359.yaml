@@ -1,0 +1,16 @@
+id: passage/muslim-api-6359
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6359"
+label: { ar: "صحيح مسلم 6359 — ماء زمزم", en: "Sahih Muslim 6359 — Zamzam water", ur: "صحیح مسلم 6359 — آبِ زمزم" }
+text: "… فَسَمِنْتُ حَتَّى تَكَسَّرَتْ عُكَنُ بَطْنِي وَمَا أَجِدُ عَلَى كَبِدِي سُخْفَةَ جُوعٍ قَالَ \" إِنَّهَا مُبَارَكَةٌ إِنَّهَا طَعَامُ طُعْمٍ \". فَقَالَ أَبُو بَكْرٍ يَا رَسُولَ اللَّهِ ائْذَنْ لِي فِي طَعَامِهِ اللَّيْلَةَ. فَانْطَلَقَ رَسُولُ اللَّهِ وَأَبُو بَكْرٍ وَانْطَلَقْتُ مَعَهُمَا فَفَتَحَ أَبُو بَكْرٍ بَابًا فَجَعَلَ يَقْبِضُ لَنَا مِنْ زَبِيبِ الطَّائِفِ وَكَانَ ذَلِكَ أَوَّلَ طَعَامٍ أَكَلْتُهُ بِهَا ثُمَّ غَبَرْتُ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6359، يذكر ماء زمزم. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 6359 (The Book of the Merits of the Companions), that mentions Zamzam water. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 6359، جس میں آبِ زمزم کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6359 (book 44 hadith 189); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

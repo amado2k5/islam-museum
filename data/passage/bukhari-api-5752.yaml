@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5752
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5752"
+label: { ar: "صحيح البخاري 5752 — الكي، الرقية", en: "Sahih al-Bukhari 5752 — cautery; ruqya recited over the sick", ur: "صحیح بخاری 5752 — داغنا، رقیہ" }
+text: "… فَقَالُوا أَمَّا نَحْنُ فَوُلِدْنَا فِي الشِّرْكِ، وَلَكِنَّا آمَنَّا بِاللَّهِ وَرَسُولِهِ، وَلَكِنْ هَؤُلاَءِ هُمْ أَبْنَاؤُنَا، فَبَلَغَ النَّبِيَّ فَقَالَ \" هُمُ الَّذِينَ لاَ يَتَطَيَّرُونَ، وَلاَ يَسْتَرْقُونَ، وَلاَ يَكْتَوُونَ، وَعَلَى رَبِّهِمْ يَتَوَكَّلُونَ \". فَقَامَ عُكَّاشَةُ بْنُ مِحْصَنٍ فَقَالَ أَمِنْهُمْ أَنَا يَا رَسُولَ اللَّهِ قَالَ \" نَعَمْ \". فَقَامَ آخَرُ فَقَالَ أَمِنْهُمْ أَنَا فَقَالَ \" سَبَقَكَ بِهَا عُكَّاشَةُ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5752، يذكر الكي، والرقية. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5752 (Medicine), that mentions cautery, ruqya recited over the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5752، جس میں داغنا، رقیہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5752 (book 76 hadith 67); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

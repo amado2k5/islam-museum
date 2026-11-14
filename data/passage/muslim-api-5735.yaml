@@ -1,0 +1,17 @@
+id: passage/muslim-api-5735
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5735"
+label: { ar: "صحيح مسلم 5735 — الرقية، البرء من العلة", en: "Sahih Muslim 5735 — ruqya recited over the sick; recovery from an ailment", ur: "صحیح مسلم 5735 — رقیہ، بیماری سے شفایابی" }
+text: "… أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ نَزَلْنَا مَنْزِلاً فَأَتَتْنَا امْرَأَةٌ فَقَالَتْ إِنَّ سَيِّدَ الْحَىِّ سَلِيمٌ لُدِغَ فَهَلْ فِيكُمْ مِنْ رَاقٍ فَقَامَ مَعَهَا رَجُلٌ مِنَّا مَا كُنَّا نَظُنُّهُ يُحْسِنُ رُقْيَةً فَرَقَاهُ بِفَاتِحَةِ الْكِتَابِ فَبَرَأَ فَأَعْطَوْهُ غَنَمًا وَسَقَوْنَا لَبَنًا فَقُلْنَا أَكُنْتَ تُحْسِنُ رُقْيَةً فَقَالَ مَا رَقَيْتُهُ إِلاَّ بِفَاتِحَةِ الْكِتَابِ. قَالَ فَقُلْتُ لاَ تُحَرِّكُوهَا حَتَّى نَأْتِيَ النَّبِيَّ. فَأَتَيْنَا النَّبِيَّ فَذَكَرْنَا …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5735، يذكر الرقية، والبرء من العلة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5735 (The Book of Greetings), that mentions ruqya recited over the sick, recovery from an ailment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5735، جس میں رقیہ، بیماری سے شفایابی کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5735 (book 39 hadith 89); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

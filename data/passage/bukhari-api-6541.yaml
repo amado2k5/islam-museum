@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6541
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6541"
+label: { ar: "صحيح البخاري 6541 — الكي، الرقية", en: "Sahih al-Bukhari 6541 — cautery; ruqya recited over the sick", ur: "صحیح بخاری 6541 — داغنا، رقیہ" }
+text: "… هَؤُلاَءِ أُمَّتُكَ، وَهَؤُلاَءِ سَبْعُونَ أَلْفًا قُدَّامَهُمْ، لاَ حِسَابَ عَلَيْهِمْ وَلاَ عَذَابَ. قُلْتُ وَلِمَ قَالَ كَانُوا لاَ يَكْتَوُونَ، وَلاَ يَسْتَرْقُونَ، وَلاَ يَتَطَيَّرُونَ، وَعَلَى رَبِّهِمْ يَتَوَكَّلُونَ \". فَقَامَ إِلَيْهِ عُكَّاشَةُ بْنُ مِحْصَنٍ فَقَالَ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ. قَالَ \" اللَّهُمَّ اجْعَلْهُ مِنْهُمْ \". ثُمَّ قَامَ إِلَيْهِ رَجُلٌ آخَرُ قَالَ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ. قَالَ \" …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6541، يذكر الكي، والرقية. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 6541 (To make the Heart Tender (Ar-Riqaq)), that mentions cautery, ruqya recited over the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 6541، جس میں داغنا، رقیہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6541 (book 81 hadith 130); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

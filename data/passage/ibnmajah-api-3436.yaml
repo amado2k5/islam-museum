@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-3436
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3436"
+label: { ar: "سنن ابن ماجه 3436 — الداء، التداوي", en: "Sunan Ibn Majah 3436 — the disease and its remedy; seeking treatment", ur: "سنن ابن ماجہ 3436 — بیماری، علاج کرانا" }
+text: "… وَضَعَ اللَّهُ الْحَرَجَ إِلاَّ مَنِ اقْتَرَضَ مِنْ عِرْضِ أَخِيهِ شَيْئًا فَذَاكَ الَّذِي حَرَجٌ \". فَقَالُوا يَا رَسُولَ اللَّهِ هَلْ عَلَيْنَا جُنَاحٌ أَنْ نَتَدَاوَى قَالَ \" تَدَاوَوْا عِبَادَ اللَّهِ فَإِنَّ اللَّهَ سُبْحَانَهُ لَمْ يَضَعْ دَاءً إِلاَّ وَضَعَ مَعَهُ شِفَاءً إِلاَّ الْهَرَمَ \". قَالُوا يَا رَسُولَ اللَّهِ مَا خَيْرُ مَا أُعْطِيَ الْعَبْدُ قَالَ \" خُلُقٌ حَسَنٌ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3436، يذكر الداء، والتداوي، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3436 (Chapters on Medicine), that mentions the disease and its remedy, seeking treatment, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3436، جس میں بیماری، علاج کرانا، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3436 (book 31 hadith 1); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/muslim-api-4012
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4012"
+label: { ar: "صحيح مسلم 4012 — الحجامة", en: "Sahih Muslim 4012 — cupping", ur: "صحیح مسلم 4012 — حجامہ" }
+text: "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، عَنِ الأَوْزَاعِيِّ، عَنْ يَحْيَى، بْنِ أَبِي كَثِيرٍ حَدَّثَنِي إِبْرَاهِيمُ بْنُ قَارِظٍ، عَنِ السَّائِبِ بْنِ يَزِيدَ، حَدَّثَنِي رَافِعُ بْنُ خَدِيجٍ، عَنْ رَسُولِ اللَّهِ قَالَ \" ثَمَنُ الْكَلْبِ خَبِيثٌ وَمَهْرُ الْبَغِيِّ خَبِيثٌ وَكَسْبُ الْحَجَّامِ خَبِيثٌ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4012، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 4012 (The Book of Musaqah), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 4012، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4012 (book 22 hadith 51); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

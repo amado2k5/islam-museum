@@ -1,0 +1,16 @@
+id: passage/muslim-api-5409
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5409"
+label: { ar: "صحيح مسلم 5409 — التداوي", en: "Sahih Muslim 5409 — seeking treatment", ur: "صحیح مسلم 5409 — علاج کرانا" }
+text: "… لَهُ \". فَخِفْتُ أَنْ يَكُونَ الْعَلَمُ مِنْهُ وَأَمَّا مِيثَرَةُ الأُرْجُوَانِ فَهَذِهِ مِيثَرَةُ عَبْدِ اللَّهِ فَإِذَا هِيَ أُرْجُوَانٌ. فَرَجَعْتُ إِلَى أَسْمَاءَ فَخَبَّرْتُهَا فَقَالَتْ هَذِهِ جُبَّةُ رَسُولِ اللَّهِ. فَأَخْرَجَتْ إِلَىَّ جُبَّةَ طَيَالَسَةٍ كِسْرَوَانِيَّةً لَهَا لِبْنَةُ دِيبَاجٍ وَفَرْجَيْهَا مَكْفُوفَيْنِ بِالدِّيبَاجِ فَقَالَتْ هَذِهِ كَانَتْ عِنْدَ عَائِشَةَ حَتَّى قُبِضَتْ فَلَمَّا قُبِضَتْ قَبَضْتُهَا وَكَانَ النَّبِيُّ يَلْبَسُهَا فَنَحْنُ نَغْسِلُهَا لِلْمَرْضَى يُسْتَشْفَى بِهَا."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5409، يذكر التداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5409 (The Book of Clothes and Adornment), that mentions seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5409، جس میں علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5409 (book 37 hadith 24); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-api-665
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "665"
+label: { ar: "صحيح البخاري 665 — مرض النبي، المرض والمريض", en: "Sahih al-Bukhari 665 — the Prophet's illness; illness and the sick", ur: "صحیح بخاری 665 — نبی کی بیماری، بیماری اور بیمار" }
+text: "… مَعْمَرٍ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ، قَالَ قَالَتْ عَائِشَةُ لَمَّا ثَقُلَ النَّبِيُّ وَاشْتَدَّ وَجَعُهُ اسْتَأْذَنَ أَزْوَاجَهُ أَنْ يُمَرَّضَ فِي بَيْتِي فَأَذِنَّ لَهُ، فَخَرَجَ بَيْنَ رَجُلَيْنِ تَخُطُّ رِجْلاَهُ الأَرْضَ، وَكَانَ بَيْنَ الْعَبَّاسِ وَرَجُلٍ آخَرَ. قَالَ عُبَيْدُ اللَّهِ فَذَكَرْتُ ذَلِكَ لاِبْنِ عَبَّاسٍ مَا قَالَتْ عَائِشَةُ فَقَالَ لِي وَهَلْ تَدْرِي مَنِ الرَّجُلُ الَّذِي لَمْ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 665، يذكر مرض النبي، والمرض والمريض، والوجع. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 665 (Call to Prayers (Adhaan)), that mentions the Prophet's illness, illness and the sick, pain. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 665، جس میں نبی کی بیماری، بیماری اور بیمار، درد کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 665 (book 10 hadith 59); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

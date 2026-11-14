@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-tibb-2-1968
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "2:1968"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 2، ص 1968 — الدواء، التداوي", en: "Ibn Hajar's al-Isaba, scan volume 2, p. 1968 — the drug; seeking treatment", ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 1968 — دوا، علاج کرانا" }
+text: "… النَّبي للغيا فقالت: يا عائشة أغيثيني بدعوة من رسول ابن نوفل: اللّٰه بي تطمنني؛ فقال: ضَعِي يَدَكِ الْيَمِين عَلَى فُؤَادِكِ والدة عبد اللّٰه بن أبي مليكة التابعي المشهور خبرها فَامْسَحيهِ وَقُولِي : اللَّهُمَّ دَاوِنِي بِدَوائِكَ وَاشْفِنِي بِشِفَائِكَ في ترجمة والدها …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 2، ص 1968، يذكر الدواء، والتداوي، والشفاء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 2, p. 1968, that mentions the drug, seeking treatment, healing; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 1968 کا اقتباس جس میں دوا، علاج کرانا، شفا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/isaba] }
+  - { type: mentions, target: concept/tadawi, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/20200217_20200217_0509, page 1968; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

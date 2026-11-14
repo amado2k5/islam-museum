@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2891
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2891"
+label: { ar: "صحيح البخاري 2891 — مفاصل البدن", en: "Sahih al-Bukhari 2891 — the joints of the body", ur: "صحیح بخاری 2891 — بدن کے جوڑ" }
+text: "حَدَّثَنِي إِسْحَاقُ بْنُ نَصْرٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنْ هَمَّامٍ، عَنْ أَبِي هُرَيْرَةَ ـ عَنِ النَّبِيِّ قَالَ \" كُلُّ سُلاَمَى عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ، يُعِينُ الرَّجُلَ فِي دَابَّتِهِ يُحَامِلُهُ عَلَيْهَا أَوْ يَرْفَعُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ، وَالْكَلِمَةُ الطَّيِّبَةُ، وَكُلُّ خَطْوَةٍ يَمْشِيهَا إِلَى الصَّلاَةِ صَدَقَةٌ، وَدَلُّ الطَّرِيقِ صَدَقَةٌ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2891، يذكر مفاصل البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 2891 (Fighting for the Cause of Allah (Jihaad)), that mentions the joints of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 2891، جس میں بدن کے جوڑ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2891 (book 56 hadith 106); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

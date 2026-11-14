@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4510
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4510"
+label: { ar: "سنن أبي داود 4510 — الحجامة", en: "Sunan Abi Dawud 4510 — cupping", ur: "سنن ابی داؤد 4510 — حجامہ" }
+text: "… نَعَمْ. قَالَ \" فَمَا أَرَدْتِ إِلَى ذَلِكَ \". قَالَتْ قُلْتُ إِنْ كَانَ نَبِيًّا فَلَنْ يَضُرَّهُ وَإِنْ لَمْ يَكُنِ اسْتَرَحْنَا مِنْهُ. فَعَفَا عَنْهَا رَسُولُ اللَّهِ وَلَمْ يُعَاقِبْهَا وَتُوُفِّيَ بَعْضُ أَصْحَابِهِ الَّذِينَ أَكَلُوا مِنَ الشَّاةِ وَاحْتَجَمَ رَسُولُ اللَّهِ عَلَى كَاهِلِهِ مِنْ أَجْلِ الَّذِي أَكَلَ مِنَ الشَّاةِ حَجَمَهُ أَبُو هِنْدٍ بِالْقَرْنِ وَالشَّفْرَةِ وَهُوَ مَوْلًى لِبَنِي بَيَاضَةَ مِنَ الأَنْصَارِ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4510، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 4510 (Types of Blood-Wit (Kitab Al-Diyat)), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4510، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4510 (book 41 hadith 17); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

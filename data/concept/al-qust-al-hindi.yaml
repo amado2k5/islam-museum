@@ -1,0 +1,27 @@
+id: concept/al-qust-al-hindi
+class: concept
+kind: scientific
+label:
+  ar: "القسط الهندي والبحري"
+  en: "Indian and marine costus (al-qust al-hindi, al-qust al-bahri)"
+  ur: "ہندی اور بحری قسط ⁦(القسط الهندي والبحري)⁩"
+summary:
+  ar: "القسط الهندي والبحري من الأدوية المذكورة في الأخبار: ففي البخاري «عليكم بهذا العود الهندي، فإن فيه سبعة أشفية، يُستعط به من العذرة، ويُلد به من ذات الجنب» {cite:sahih-al-bukhari 5692}، وفيه «إن أمثل ما تداويتم به الحجامة والقسط البحري» {cite:sahih-al-bukhari 5696}. ويرى ابن قيم الجوزية أن القسط البحري هو العود الهندي، وهو الأبيض منه وهو حلو {cite:zad-al-maad p.624}، ويفرّق في ذات الجنب بين الحقيقي وهو ورم حار، وغير الحقيقي الناشئ عن ريح غليظة، ويرى أن العلاج المذكور في الحديث لهذا الثاني {cite:zad-al-maad p.619}."
+  en: "Indian and marine qust (costus) is among the drugs named in the reports. In al-Bukhari: 'hold to this Indian aloeswood, for in it are seven cures: it is used as a nasal drop for the throat ailment (udhra) and as an oral drop for pleurisy' {cite:sahih-al-bukhari 5692}, and 'the best of what you treat yourselves with is cupping and the marine qust' {cite:sahih-al-bukhari 5696}. Ibn Qayyim al-Jawziyya holds that the marine qust is the Indian ud, the white kind, and sweet {cite:zad-al-maad p.624}; he distinguishes true pleurisy, a hot swelling, from false pleurisy arising from thick winds, and holds that the treatment in the report is for the second {cite:zad-al-maad p.619}."
+  ur: "ہندی اور بحری قسط ان دواؤں میں سے ہے جن کا ذکر روایات میں آیا ہے۔ بخاری میں ہے: «اس ہندی عود کو لازم پکڑو، اس میں سات شفائیں ہیں: اسے ناک میں سعوط کے طور پر عذرہ کے لیے اور منہ میں لدود کے طور پر ذات الجنب کے لیے استعمال کیا جاتا ہے» {cite:sahih-al-bukhari 5692}، اور «جن چیزوں سے تم علاج کرتے ہو ان میں بہترین حجامہ اور بحری قسط ہے» {cite:sahih-al-bukhari 5696}۔ ابن قیم الجوزیہ کے نزدیک بحری قسط ہی ہندی عود ہے، اس کی سفید قسم، اور وہ میٹھی ہے {cite:zad-al-maad p.624}؛ وہ حقیقی ذات الجنب کو، جو گرم ورم ہے، غیر حقیقی سے الگ کرتے ہیں جو غلیظ ہواؤں سے پیدا ہوتی ہے، اور سمجھتے ہیں کہ حدیث میں مذکور علاج دوسری قسم کے لیے ہے {cite:zad-al-maad p.619}۔"
+wings: [ideas]
+themes: [health-body-death]
+regions: [global]
+tags: [tibb-browser, tibb-nabawi]
+sources: [source/zad-al-maad, source/sahih-al-bukhari, source/sunan-abi-dawud]
+relations:
+  - { type: part_of, target: concept/al-tibb-al-nabawi, note: "One of the simple remedies named in the reports on treatment.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/al-ladud-wal-saut, note: "The reports name qust as a nasal drop (saut) and an oral drop (ladud).", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/hijama, note: "The report on the best remedies pairs cupping with the marine qust.", sources: [source/zad-al-maad] }
+provenance:
+  layer: own-research
+  source: "Zad al-Ma'ad by Ibn Qayyim al-Jawziyya, Tibb Nabawi chapters; OCR scan folder zad-maad/20200822_20200822_1205 (1120 pages), scan pages 618-619, 623-624; hadith wording checked against the hadith-api Arabic editions (hadith numbers are those of that edition); passages linked from the graph."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-1
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

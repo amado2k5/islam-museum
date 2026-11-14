@@ -1,0 +1,17 @@
+id: passage/abudawud-api-3887
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3887"
+label: { ar: "سنن أبي داود 3887 — الرقية، الشفاء", en: "Sunan Abi Dawud 3887 — ruqya recited over the sick; healing", ur: "سنن ابی داؤد 3887 — رقیہ، شفا" }
+text: "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مَهْدِيٍّ الْمِصِّيصِيُّ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنْ عَبْدِ الْعَزِيزِ بْنِ عُمَرَ بْنِ عَبْدِ الْعَزِيزِ، عَنْ صَالِحِ بْنِ كَيْسَانَ، عَنْ أَبِي بَكْرِ بْنِ سُلَيْمَانَ بْنِ أَبِي حَثْمَةَ، عَنِ الشِّفَاءِ بِنْتِ عَبْدِ اللَّهِ، قَالَتْ دَخَلَ عَلَىَّ رَسُولُ اللَّهِ وَأَنَا عِنْدَ حَفْصَةَ فَقَالَ لِي \" أَلاَ تُعَلِّمِينَ هَذِهِ رُقْيَةَ النَّمْلَةِ كَمَا عَلَّمْتِيهَا الْكِتَابَةَ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3887، يذكر الرقية، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 3887 (Medicine (Kitab Al-Tibb)), that mentions ruqya recited over the sick, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3887، جس میں رقیہ، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3887 (book 29 hadith 33); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

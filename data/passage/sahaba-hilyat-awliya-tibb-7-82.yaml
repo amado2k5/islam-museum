@@ -1,0 +1,17 @@
+id: passage/sahaba-hilyat-awliya-tibb-7-82
+class: passage
+unit: chapter
+work: work/hilyat-al-awliya
+ref: "7:82"
+label: { ar: "حلية الأولياء لأبي نعيم، المجلد المصوَّر 7، ص 82 — الطب والطبيب، العلاج", en: "Abu Nu'aym's Hilyat al-Awliya', scan volume 7, p. 82 — medicine and the physician; treatment", ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 7، ص 82 — طب اور طبیب، علاج" }
+text: "… لا يرفع وفيه عجب، ولا تأخذن دينك إلا ممن هو مشفق على دينه، فان مثل الذى هو غير مشفق على دينه، كمثل طبيب به داء لا يستطيع أن يمالج داء نفسه، وينصح لنفسه، كيف يعالج داء الناس وينصح لهم أ …"
+summary:
+  ar: "مقطع من حلية الأولياء لأبي نعيم، المجلد المصوَّر 7، ص 82، يذكر الطب والطبيب، والعلاج، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Abu Nu'aym's Hilyat al-Awliya', scan volume 7, p. 82, that mentions medicine and the physician, treatment, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 7، ص 82 کا اقتباس جس میں طب اور طبیب، علاج، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/hilyat-awliya/hilyah-07, page 82; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1501
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1501"
+label: { ar: "صحيح البخاري 1501 — ألبان الإبل وأبوالها", en: "Sahih al-Bukhari 1501 — camel milk and urine as treatment", ur: "صحیح بخاری 1501 — اونٹنی کا دودھ اور پیشاب" }
+text: "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ شُعْبَةَ، حَدَّثَنَا قَتَادَةُ، عَنْ أَنَسٍ ـ أَنَّ نَاسًا، مِنْ عُرَيْنَةَ اجْتَوَوُا الْمَدِينَةَ، فَرَخَّصَ لَهُمْ رَسُولُ اللَّهِ أَنْ يَأْتُوا إِبِلَ الصَّدَقَةِ فَيَشْرَبُوا مِنْ أَلْبَانِهَا وَأَبْوَالِهَا، فَقَتَلُوا الرَّاعِيَ وَاسْتَاقُوا الذَّوْدَ، فَأَرْسَلَ رَسُولُ اللَّهِ فَأُتِيَ بِهِمْ، فَقَطَّعَ أَيْدِيَهُمْ وَأَرْجُلَهُمْ وَسَمَرَ أَعْيُنَهُمْ، وَتَرَكَهُمْ بِالْحَرَّةِ يَعَضُّونَ الْحِجَارَةَ. تَابَعَهُ أَبُو قِلاَبَةَ وَحُمَيْدٌ وَثَابِتٌ عَنْ أَنَسٍ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1501، يذكر ألبان الإبل وأبوالها. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 1501 (Obligatory Charity Tax (Zakat)), that mentions camel milk and urine as treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 1501، جس میں اونٹنی کا دودھ اور پیشاب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1501 (book 24 hadith 101); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

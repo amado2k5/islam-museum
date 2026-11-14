@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4627
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4627"
+label: { ar: "صحيح البخاري 4627 — أطوار خلق الجنين", en: "Sahih al-Bukhari 4627 — the stages of the embryo", ur: "صحیح بخاری 4627 — جنین کے مراحل" }
+text: "… عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمِ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِيهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" مَفَاتِحُ الْغَيْبِ خَمْسٌ إِنَّ اللَّهَ عِنْدَهُ عِلْمُ السَّاعَةِ، وَيُنَزِّلُ الْغَيْثَ، وَيَعْلَمُ مَا فِي الأَرْحَامِ، وَمَا تَدْرِي نَفْسٌ مَاذَا تَكْسِبُ غَدًا، وَمَا تَدْرِي نَفْسٌ بِأَىِّ أَرْضٍ تَمُوتُ، إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4627، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 4627 (Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 4627، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4627 (book 65 hadith 149); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/zad-maad-tibb-1-663
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:663"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 663 — الصحة، الحمية", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 663 — health; diet as treatment", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 663 — صحت، پرہیز" }
+text: "… الكِبْرِ والعجب والفرعنة وقسوة القلب - ما هو سببُ هلاكه عاجلاً وآجلاً، فمن رحمة أرحم الراحمين أن يتفقَّده في الأحيان بأنواع من أدوية المصائب، تكون حِمية له من هذه الأدواء، وحِفظاً لصحة عُبوديته، واستفراغاً للمواد الفاسدة الرديئة المهلكة منه، فسبحانَ …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 663، يذكر الصحة، والحمية، والدواء، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 663, that mentions health, diet as treatment, the drug, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 663 کا اقتباس جس میں صحت، پرہیز، دوا، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 663; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

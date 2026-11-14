@@ -1,0 +1,16 @@
+id: passage/muslim-api-2293
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2293"
+label: { ar: "صحيح مسلم 2293 — الكي", en: "Sahih Muslim 2293 — cautery", ur: "صحیح مسلم 2293 — داغنا" }
+text: "وَحَدَّثَنَاهُ قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، - يَعْنِي الدَّرَاوَرْدِيَّ - عَنْ سُهَيْلٍ، بِهَذَا الإِسْنَادِ. وَسَاقَ الْحَدِيثَ. وَحَدَّثَنِيهِ مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ بَزِيعٍ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا رَوْحُ بْنُ الْقَاسِمِ، حَدَّثَنَا سُهَيْلُ بْنُ أَبِي صَالِحٍ، بِهَذَا الإِسْنَادِ وَقَالَ بَدَلَ عَقْصَاءُ عَضْبَاءُ وَقَالَ \" فَيُكْوَى بِهَا جَنْبُهُ وَظَهْرُهُ \". وَلَمْ يَذْكُرْ جَبِينُهُ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2293، يذكر الكي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 2293 (The Book of Zakat), that mentions cautery. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 2293، جس میں داغنا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2293 (book 12 hadith 31); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

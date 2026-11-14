@@ -1,0 +1,16 @@
+id: passage/qanun-v3-tibb-31
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "31"
+label: { ar: "القانون في الطب لابن سينا ج3، ص 31 — الحمى والوعك، الحمى", en: "Ibn Sina's Canon of Medicine, vol. 3, p. 31 — fever; fever", ur: "القانون فی الطب، ابن سینا ج3، ص 31 — بخار، بخار" }
+text: "الكتاب الرابع الفن الأوّل من الفنون السبعة: كلام كلّي في الحمّيات لسان المحموم مع خفة فحمّاه مدفونة، وقد يصحب الحمّى فالج فتعالج الحمّى أولاً، ومما يصلح لهم السكنجبين ممروساً فيه الجلنجبين، وماء الحمص بالزيت إن احتملت الحمّى، وحلق الرأس مما …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج3، ص 31، يذكر الحمى والوعك، والحمى، وأسماء الأمراض، والعلاج؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 3, p. 31, that mentions fever, fever, named diseases, treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج3، ص 31 کا اقتباس جس میں بخار، بخار، بیماریوں کے نام، علاج کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v3/canon-ibn-sina-print-v3, page 31; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

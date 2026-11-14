@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4249
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4249"
+label: { ar: "صحيح البخاري 4249 — السم", en: "Sahih al-Bukhari 4249 — poison", ur: "صحیح بخاری 4249 — زہر" }
+text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، حَدَّثَنَا اللَّيْثُ، حَدَّثَنِي سَعِيدٌ، عَنْ أَبِي هُرَيْرَةَ ـ قَالَ لَمَّا فُتِحَتْ خَيْبَرُ أُهْدِيَتْ لِرَسُولِ اللَّهِ شَاةٌ فِيهَا سُمٌّ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4249، يذكر السم. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 4249 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), that mentions poison. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 4249، جس میں زہر کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4249 (book 64 hadith 284); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

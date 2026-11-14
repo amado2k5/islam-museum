@@ -1,0 +1,16 @@
+id: passage/muslim-api-5771
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5771"
+label: { ar: "صحيح مسلم 5771 — التداوي بالعسل", en: "Sahih Muslim 5771 — honey as a remedy", ur: "صحیح مسلم 5771 — شہد سے علاج" }
+text: "وَحَدَّثَنِيهِ عَمْرُو بْنُ زُرَارَةَ، أَخْبَرَنَا عَبْدُ الْوَهَّابِ، - يَعْنِي ابْنَ عَطَاءٍ - عَنْ سَعِيدٍ، عَنْ قَتَادَةَ، عَنْ أَبِي الْمُتَوَكِّلِ النَّاجِيِّ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ رَجُلاً، أَتَى النَّبِيَّ فَقَالَ إِنَّ أَخِي عَرِبَ بَطْنُهُ. فَقَالَ لَهُ \" اسْقِهِ عَسَلاً \". بِمَعْنَى حَدِيثِ شُعْبَةَ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5771، يذكر التداوي بالعسل. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5771 (The Book of Greetings), that mentions honey as a remedy. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5771، جس میں شہد سے علاج کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5771 (book 39 hadith 123); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

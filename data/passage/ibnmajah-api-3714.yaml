@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3714
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3714"
+label: { ar: "سنن ابن ماجه 3714 — أسماء الأمراض", en: "Sunan Ibn Majah 3714 — named diseases", ur: "سنن ابن ماجہ 3714 — بیماریوں کے نام" }
+text: "حَدَّثَنَا عَلِيُّ بْنُ مُحَمَّدٍ، حَدَّثَنَا وَكِيعٌ، عَنْ عِكْرِمَةَ بْنِ عَمَّارٍ، عَنْ إِيَاسِ بْنِ سَلَمَةَ بْنِ الأَكْوَعِ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" يُشَمَّتُ الْعَاطِسُ ثَلاَثًا فَمَا زَادَ فَهُوَ مَزْكُومٌ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3714، يذكر أسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3714 (Etiquette), that mentions named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3714، جس میں بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3714 (book 33 hadith 58); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

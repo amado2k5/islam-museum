@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4063
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4063"
+label: { ar: "صحيح البخاري 4063 — أسماء الأمراض", en: "Sahih al-Bukhari 4063 — named diseases", ur: "صحیح بخاری 4063 — بیماریوں کے نام" }
+text: "حَدَّثَنِي عَبْدُ اللَّهِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ إِسْمَاعِيلَ، عَنْ قَيْسٍ، قَالَ رَأَيْتُ يَدَ طَلْحَةَ شَلاَّءَ، وَقَى بِهَا النَّبِيَّ يَوْمَ أُحُدٍ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4063، يذكر أسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 4063 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), that mentions named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 4063، جس میں بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4063 (book 64 hadith 108); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

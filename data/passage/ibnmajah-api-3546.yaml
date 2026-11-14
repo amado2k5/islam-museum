@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-3546
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3546"
+label: { ar: "سنن ابن ماجه 3546 — الوجع، السم والترياق", en: "Sunan Ibn Majah 3546 — pain; poison and antidote", ur: "سنن ابن ماجہ 3546 — درد، زہر اور تریاق" }
+text: "… دِينَارٍ الْحِمْصِيُّ، حَدَّثَنَا بَقِيَّةُ، حَدَّثَنَا أَبُو بَكْرٍ الْعَنْسِيُّ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، وَمُحَمَّدِ بْنِ يَزِيدَ الْمِصْرِيَّيْنِ، قَالاَ حَدَّثَنَا نَافِعٌ، عَنِ ابْنِ عُمَرَ، قَالَ قَالَتْ أُمُّ سَلَمَةَ يَا رَسُولَ اللَّهِ لاَ يَزَالُ يُصِيبُكَ كُلَّ عَامٍ وَجَعٌ مِنَ الشَّاةِ الْمَسْمُومَةِ الَّتِي أَكَلْتَ. قَالَ \" مَا أَصَابَنِي شَىْءٌ مِنْهَا إِلاَّ وَهُوَ مَكْتُوبٌ عَلَىَّ وَآدَمُ فِي طِينَتِهِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3546، يذكر الوجع، والسم والترياق. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3546 (Chapters on Medicine), that mentions pain, poison and antidote. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3546، جس میں درد، زہر اور تریاق کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3546 (book 31 hadith 111); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

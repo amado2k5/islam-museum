@@ -1,0 +1,17 @@
+id: passage/sahaba-hilyat-awliya-tibb-2-106
+class: passage
+unit: chapter
+work: work/hilyat-al-awliya
+ref: "2:106"
+label: { ar: "حلية الأولياء لأبي نعيم، المجلد المصوَّر 2، ص 106 — الطب والطبيب، الوجع", en: "Abu Nu'aym's Hilyat al-Awliya', scan volume 2, p. 106 — medicine and the physician; pain", ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 2، ص 106 — طب اور طبیب، درد" }
+text: "… : انتهى الزهد إلى ثمانية من التابعين فأما الربيع بن خيتم فقيل له حين أصابه الفالج لوتداويت، فقال لقد علمت أن الدواء حق ولكن ذكرب عاداً وموداً وأهاب الرس وقرونا بين ذلك كثيرا كانت فيهم الأوجاع وكانت لطم الأطباء فلا …"
+summary:
+  ar: "مقطع من حلية الأولياء لأبي نعيم، المجلد المصوَّر 2، ص 106، يذكر الطب والطبيب، والوجع، وأسماء الأمراض، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Abu Nu'aym's Hilyat al-Awliya', scan volume 2, p. 106, that mentions medicine and the physician, pain, named diseases, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 2، ص 106 کا اقتباس جس میں طب اور طبیب، درد، بیماریوں کے نام، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/hilyat-awliya/hilyah-02, page 106; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

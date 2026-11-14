@@ -1,0 +1,17 @@
+id: passage/bukhari-api-5780
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5780"
+label: { ar: "صحيح البخاري 5780 — ألبان الإبل وأبوالها، التداوي", en: "Sahih al-Bukhari 5780 — camel milk and urine as treatment; seeking treatment", ur: "صحیح بخاری 5780 — اونٹنی کا دودھ اور پیشاب، علاج کرانا" }
+text: "… يُونُسُ، عَنِ ابْنِ شِهَابٍ، قَالَ وَسَأَلْتُهُ هَلْ نَتَوَضَّأُ أَوْ نَشْرَبُ أَلْبَانَ الأُتُنِ أَوْ مَرَارَةَ السَّبُعِ أَوْ أَبْوَالَ الإِبِلِ. قَالَ قَدْ كَانَ الْمُسْلِمُونَ يَتَدَاوَوْنَ بِهَا، فَلاَ يَرَوْنَ بِذَلِكَ بَأْسًا، فَأَمَّا أَلْبَانُ الأُتُنِ فَقَدْ بَلَغَنَا أَنَّ رَسُولَ اللَّهِ نَهَى عَنْ لُحُومِهَا، وَلَمْ يَبْلُغْنَا عَنْ أَلْبَانِهَا أَمْرٌ وَلاَ نَهْىٌ، وَأَمَّا مَرَارَةُ السَّبُعِ قَالَ ابْنُ شِهَابٍ أَخْبَرَنِي أَبُو إِدْرِيسَ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5780، يذكر ألبان الإبل وأبوالها، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5780, that mentions camel milk and urine as treatment, seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5780، جس میں اونٹنی کا دودھ اور پیشاب، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5780 (book 0 hadith 0); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

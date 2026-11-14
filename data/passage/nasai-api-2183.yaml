@@ -1,0 +1,16 @@
+id: passage/nasai-api-2183
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2183"
+label: { ar: "سنن النسائي 2183 — العقاقير والصيدلة", en: "Sunan al-Nasa'i 2183 — drugs and pharmacy", ur: "سنن نسائی 2183 — ادویہ اور دواسازی" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ أَحْمَدَ بْنِ أَبِي يُوسُفَ الصَّيْدَلاَنِيُّ، - حَرَّانِيٌّ - قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ سَلَمَةَ، عَنْ هِشَامٍ، عَنِ ابْنِ سِيرِينَ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، عَنْ عَائِشَةَ، قَالَ سَأَلْتُهَا عَنْ صِيَامِ، رَسُولِ اللَّهِ قَالَتْ كَانَ رَسُولُ اللَّهِ يَصُومُ حَتَّى نَقُولَ قَدْ صَامَ وَيُفْطِرُ حَتَّى نَقُولَ قَدْ أَفْطَرَ وَلَمْ يَصُمْ شَهْرًا تَامًّا مُنْذُ أَتَى الْمَدِينَةَ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 2183، يذكر العقاقير والصيدلة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 2183 (The Book of Fasting), that mentions drugs and pharmacy. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 2183، جس میں ادویہ اور دواسازی کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2183 (book 22 hadith 94); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

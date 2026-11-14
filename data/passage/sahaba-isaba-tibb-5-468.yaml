@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-tibb-5-468
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "5:468"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 5، ص 468 — الجذام والبرص، العلاج", en: "Ibn Hajar's al-Isaba, scan volume 5, p. 468 — leprosy and vitiligo; treatment", ur: "الاصابہ، ابن حجر، اسکین جلد 5، ص 468 — جذام اور برص، علاج" }
+text: "… ابناه محمد والحرث وابن ابنه أياس بن الحرث وأبو سلمة بن عبد الرحمن بن عوف قال أبو عمر كان به. داء الجدام وقيل البرص فعولج بامر عمر بن الخطاب حتى وقف معيقيب بن معرض المامي • تقدم فى معرض - …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 5، ص 468، يذكر الجذام والبرص، والعلاج، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 5, p. 468, that mentions leprosy and vitiligo, treatment, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 5، ص 468 کا اقتباس جس میں جذام اور برص، علاج، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/isaba] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/isaba_tamiz_sahaba, page 468; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

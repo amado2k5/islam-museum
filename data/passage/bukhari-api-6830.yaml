@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6830
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6830"
+label: { ar: "صحيح البخاري 6830 — الحمى والوعك", en: "Sahih al-Bukhari 6830 — fever", ur: "صحیح بخاری 6830 — بخار" }
+text: "… رَجُلٌ مُزَمَّلٌ بَيْنَ ظَهْرَانَيْهِمْ فَقُلْتُ مَنْ هَذَا فَقَالُوا هَذَا سَعْدُ بْنُ عُبَادَةَ. فَقُلْتُ مَا لَهُ قَالُوا يُوعَكُ. فَلَمَّا جَلَسْنَا قَلِيلاً تَشَهَّدَ خَطِيبُهُمْ، فَأَثْنَى عَلَى اللَّهِ بِمَا هُوَ أَهْلُهُ ثُمَّ قَالَ أَمَّا بَعْدُ فَنَحْنُ أَنْصَارُ اللَّهِ وَكَتِيبَةُ الإِسْلاَمِ، وَأَنْتُمْ مَعْشَرَ الْمُهَاجِرِينَ رَهْطٌ، وَقَدْ دَفَّتْ دَافَّةٌ مِنْ قَوْمِكُمْ، فَإِذَا هُمْ يُرِيدُونَ أَنْ يَخْتَزِلُونَا مِنْ أَصْلِنَا وَأَنْ يَحْضُنُونَا …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6830، يذكر الحمى والوعك. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 6830 (Limits and Punishments set by Allah (Hudood)), that mentions fever. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 6830، جس میں بخار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6830 (book 86 hadith 56); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
