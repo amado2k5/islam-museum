@@ -1,0 +1,11 @@
+---
+id: event/ibn-bustam-writes-to-both-sides-and-banu-al-harith-resolve-to-march-on-wadia-292
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Al-Hadi's poem to Banu al-Harith ends on p. 286 {cite:sira-hadi-ila-al-haqq p.286}, and Ali ibn Muhammad then tells that when the letter reached Muhammad ibn Ubaydallah he sent it on to Banu al-Harith, who on reading the verses were gravely distressed and found their affairs thrown into confusion {cite:sira-hadi-ila-al-haqq p.286}.
+
+## Detail
+The lines end with al-Hadi saying that the mask is off, that the swords of truth and the slender lances will fall on them on a day when they are cut off, and that he has long forgiven and still waits, though a measure of pardon, he adds, can lead the sinner astray {cite:sira-hadi-ila-al-haqq p.286}. This is al-Hadi's own voice in a Zaydi book, given by its sense and neither affirmed nor denied; the notes give manuscript S's reading of one line {cite:sira-hadi-ila-al-haqq p.286}. The narrator then explains that Ibn Bustam wrote to Muhammad ibn Ubaydallah of his affection and that he stood by his pledge, and why: when Muhammad left Minas, Banu al-Harith met Ibn Bustam, who excused himself for what had passed and offered his fort; they accepted and went to him at once, and Ibn Humayd lodged there with a company of Banu al-Harith and of Yam who were with him, so that Ibn Bustam feared for himself and kept writing both to al-Hadi and to Muhammad ibn Ubaydallah, to mend his standing, while letters passed between them {cite:sira-hadi-ila-al-haqq p.286}. He adds that when Abu Ja'far left the village, Banu al-Harith raided what was in it, the "ma'aqib" (printed so, with no gloss by the editor), and agreed to march on Wadi'a and make war on it until it gave Abu Ja'far up {cite:sira-hadi-ila-al-haqq p.286}. The text calls the recipient of the letter "Abu Muhammad ibn Ubaydallah" here, which is read as the Muhammad ibn Ubaydallah who bears the kunya Abu Ja'far; the ledger records the reading. The poem follows [[event/al-hadi-adds-a-poem-to-banu-al-harith-on-the-lion-and-the-call-to-the-quran-292|the poem "you were struck, sons of al-Harith ibn Ka'b"]]; the account is told from al-Hadi's side in a Zaydi source and no abuse is repeated.

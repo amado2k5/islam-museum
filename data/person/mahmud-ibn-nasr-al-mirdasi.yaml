@@ -6,23 +6,23 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمود بن نصر المرداسي، أمير مرداسي القرن الحادي عشر، توفي سنة ١٠٧٥م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Mahmud ibn Nasr al-Mirdasi, the eleventh-century Mirdasid emir, d. 1075; the source entry is not yet checked on the page."
+  ar: "محمود بن نصر بن صالح بن مرداس الكلابي، عز الدولة ابن شبل الدولة، أحد الأمراء المرداسيين أصحاب حلب، ولي حلب سنة 452 هـ وأخذها منه عمه ثمال سنة 453 ثم استعادها سنة 454 واستمر فيها إلى وفاته سنة 467 هـ الموافقة 1075 م."
+  en: "Mahmud ibn Nasr ibn Salih ibn Mirdas al-Kilabi, 'Izz al-Dawla, known as Ibn Shibl al-Dawla, a Mirdasid emir of Aleppo; he took the city in 452 AH, lost it to his uncle Thimal in 453, regained it in 454 and held it until his death in 467 AH (1075)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "1075", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Zubdat al-Halab" }
+died: { edtf: "1075", hijri: "0467", calendar: gregorian, precision: year, derived: false, status: historical, note: "al-Zirikli, al-A'lam, vol. 7 p. 189: 467 AH = 1075 CE as printed; agrees with the earlier date-enrichment note (Zubdat al-Halab).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+  - { type: ruled_over, target: place/aleppo, confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 p. 189: took Aleppo in 452 AH, lost it in 453, regained it in 454 and held it until his death.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q11934635
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0057
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

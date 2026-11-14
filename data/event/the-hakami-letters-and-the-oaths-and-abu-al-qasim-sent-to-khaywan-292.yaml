@@ -1,0 +1,75 @@
+id: event/the-hakami-letters-and-the-oaths-and-abu-al-qasim-sent-to-khaywan-292
+class: event
+kind: other
+label:
+  ar: "كتب الحكميين إلى الهادي وحلفهم وإرسال أبي القاسم إلى خيوان، ص295"
+  en: "The letters of the two Hakamis to al-Hadi, their oaths and Abu al-Qasim's sending to Khaywan, p. 295"
+  ur: "دونوں حکمیوں کے ہادی کو خطوط، ان کے حلف اور ابو القاسم کا خیوان بھیجا جانا، ص295"
+summary:
+  ar: "وصلت الهادي بصعدة كتب من إبراهيم بن علي والغطريف الحكميين يسألانه المسير إلى بلدهما ويسلّمان إليه ما في أيديهما، فلم يجبهما لعلمه بقلة وفاء أهل اليمن حتى استحلف ثقاته إياهما، فأرسل الصوارخ في خولان وبعث ابنه أبا القاسم إلى خيوان."
+  en: "Letters reached al-Hadi at Sa'da from the two Hakamis Ibrahim ibn Ali and al-Ghatrif asking him to come to their country and offering to hand over what they held; he would not agree, knowing the Yemenis' fickleness, until his trusted men had taken their oaths, and then he sent criers among Khawlan and his son Abu al-Qasim to Khaywan."
+  ur: "صعدہ میں ہادی کو دونوں حکمیوں، ابراہیم بن علی اور الغطریف کے خطوط پہنچے جن میں ان سے اپنے ملک آنے کی درخواست تھی اور جو کچھ ان کے ہاتھ میں تھا اسے سونپنے کی پیشکش؛ انہوں نے اہل یمن کی کم وفائی جان کر نہ مانا جب تک ان کے معتمدوں نے ان سے حلف نہ لیا، پھر خولان میں پکارنے والے بھیجے اور بیٹے ابو القاسم کو خیوان روانہ کیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905-09"
+    hijri: "0292-11"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ذو القعدة 292هـ على ترتيب الرواية ⁦(انظر الحدث السابق في تعارض السنة)⁩؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-ali-al-hakami
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-ghatrif-al-hakami
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/khawlan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/qaramita
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/khiwan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص295 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-33
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 295

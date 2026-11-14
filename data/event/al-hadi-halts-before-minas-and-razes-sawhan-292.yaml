@@ -1,0 +1,67 @@
+id: event/al-hadi-halts-before-minas-and-razes-sawhan-292
+class: event
+kind: other
+label:
+  ar: "وقوف الهادي قبالة ميناس وتخريب سوحان، ص290-291"
+  en: "Al-Hadi halts before Minas and razes Sawhan, pp. 290-291"
+  ur: "ہادی کا میناس کے سامنے رکنا اور سوحان کو ڈھانا، ص290-291"
+summary:
+  ar: "يوم الخميس جمع الهادي عساكره ودنا من ميناس فأوقفها ناحية لأن ابن بسطام كان يكاتبه، ثم مضى إلى سوحان فأخربها وهدمها وطمع أن يخرج القوم فلم يخرجوا، ثم عاد إلى الحصن فأقام الجمعة والسبت."
+  en: "On Thursday al-Hadi gathered his troops and drew near Minas, halted them to one side because Ibn Bustam was writing to him, stood an hour facing it, then went on to Sawhan, ruined and demolished it, hoped the people would come out and they did not, and went back to al-Hisn for Friday and Saturday."
+  ur: "جمعرات کو ہادی نے لشکر جمع کیا اور میناس کے قریب پہنچے، لشکر کو ایک طرف روک دیا کیونکہ ابن بسطام ان سے خط و کتابت کرتا تھا، ایک ساعت اس کے سامنے ٹھہرے، پھر سوحان گئے، اسے ویران اور مسمار کیا، لوگوں کے نکلنے کی امید کی مگر کوئی نہ نکلا، اور جمعہ و ہفتہ الحصن میں رہے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905-05"
+    hijri: "0292-07"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "رجب سنة 292هـ بنص الكتاب ⁦(يوم الخميس بعد الأحد الرابع)⁩؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي ⁦(يبدأ رجب 292 في 9 أيار 905م)⁩"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/shakir-hamdan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/minas-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sawhan-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص290, ص291 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-33
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 290, 291

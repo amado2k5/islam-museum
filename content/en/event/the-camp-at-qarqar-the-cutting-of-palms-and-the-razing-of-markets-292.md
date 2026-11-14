@@ -1,0 +1,11 @@
+---
+id: event/the-camp-at-qarqar-the-cutting-of-palms-and-the-razing-of-markets-292
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+The text says al-Hadi stayed some days at al-Hisn with the horse riding out against them; then he had the markets made ready and the iron prepared, went out with his troops until near the village, drew up his army, hoped the people would come out to him and set men to cutting the palms, but no one came out {cite:sira-hadi-ila-al-haqq p.292}. He then marched with his whole army and camped at a place called [[place/qarqar-najran|Qarqar]] near the village of [[place/al-hajar-najran|al-Hajar]] and stayed there {cite:sira-hadi-ila-al-haqq p.292}.
+
+## Detail
+Every day a party of the army rode out against them and skirmished, and none came out except to meet them at the lane, so the fighting never stopped between them while the troops cut their palms and demolished their fortresses {cite:sira-hadi-ila-al-haqq p.292}. Banu al-Harith gathered in the village of al-Hajar and at Minas, with Qarqar between them, and al-Hadi's troops went out to all the markets of Banu al-Harith, demolishing them and taking what was in them, "and the one in charge of that was Ali ibn Muhammad, by al-Hadi's order"; the original's margin says: cutting the palms, razing the markets and taking what was in them {cite:sira-hadi-ila-al-haqq p.292}. The narrator then says the fighting went on between the days, one or two men being killed and the horse raiding to take what they found around the village, Banu al-Harith in great straits, until Ibn Bustam and those of Banu Rabi'a with him asked for safety at the end of Rajab {cite:sira-hadi-ila-al-haqq p.292}. Ibn Humayd had been with him at Minas; when he saw it he moved to the village of al-Hajar with his clan and left Minas, "and the army was wary of him" {cite:sira-hadi-ila-al-haqq p.292}. The cutting of palms and razing of markets is the narrator's description of what the imam's army did in war, told in a Zaydi book, and the museum passes no judgement on it. The editor does not explain "Banu Rabi'a", and no matching record exists for them. A like operation is met earlier at [[event/al-hadi-cuts-the-palms-of-minas-and-al-kharba-after-adha-286|the cutting of the palms of Minas and al-Kharba in 286]].
