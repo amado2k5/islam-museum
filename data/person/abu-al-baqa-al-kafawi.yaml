@@ -1,28 +1,54 @@
 id: person/abu-al-baqa-al-kafawi
 class: person
 label:
-  ar: "أبو البقاء الكفوي"
-  en: "Abu al-Baqa al-Kafawi"
-roles: [scholar]
+  ar: أبو البقاء الكفوي
+  en: Abu al-Baqa al-Kafawi
+roles:
+- scholar
+- qadi
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي البقاء الكفوي، فقيه وكاتب القرن السابع عشر صاحب الكليات، توفي سنة ١٦٨٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-Baqa al-Kafawi, the seventeenth-century jurist and writer author of al-Kulliyyat, d. 1683; the biographical entry is not yet checked on the page."
-wings: [people]
-regions: [anatolia-balkans]
-periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+  ar: أيوب بن موسى الحسيني القريمي الكفوي، أبو البقاء، صاحب «الكليات»، من قضاة الأحناف، ولي القضاء في كفه وبالقدس وبغداد وتوفي بإستانبول سنة 1094 هـ.
+  en: Ayyub ibn Musa al-Husayni al-Qirimi al-Kafawi, Abu al-Baqa, author of 'al-Kulliyyat', one of the Hanafi judges; he served as judge in Kaffa, Jerusalem and Baghdad and died in Istanbul in 1094 AH.
+wings:
+- people
+regions:
+- anatolia-balkans
+periods:
+- period/gunpowder-empires
+sources:
+- source/al-aalam
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q28713555
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0054
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1683", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q28713555 (P570, a statement with a reference), item revision 2533526131.", sources: [source/wikidata] }
+  completeness: 3
+died:
+  edtf: '1683'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Agrees with al-Zirikli, al-A''lam vol. 2 p. 25 (same year). Date-enrichment pass; source: al-Zirikli (al-A''lam) Confirmed on 13 November 2026 against Wikidata Q28713555 (P570, a statement with a reference), item revision 2533526131.'
+  sources:
+  - source/wikidata
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
-  - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+- type: lived_in
+  target: place/anatolia
+  note: Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.
+  sources:
+  - source/al-aalam
+  confidence: low
+- type: died_in
+  target: place/istanbul
+  confidence: medium
+  note: 'From al-A''lam: died in Istanbul, buried in the tomb of Khalid.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002

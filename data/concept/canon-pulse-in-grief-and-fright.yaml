@@ -1,0 +1,18 @@
+id: concept/canon-pulse-in-grief-and-fright
+class: concept
+kind: scientific
+label: { ar: "نبض الغم والفزع عند ابن سينا", en: "The pulse in grief and fright in the Canon", ur: "غم اور خوف کی نبض قانون میں" }
+summary:
+  ar: "يصف ابن سينا في الفصل الثامن عشر نبض الغم ونبض الفزع المفاجئ والممتد {cite:canon-ibn-sina-print-v1 p.182}."
+  en: "In the eighteenth chapter Ibn Sina describes the pulse of grief and of sudden and of prolonged fright {cite:canon-ibn-sina-print-v1 p.182}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, pulse chapters 12 to 19 and the opening of urine, chapter 1 (scan pages 179 to 184), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-urine-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

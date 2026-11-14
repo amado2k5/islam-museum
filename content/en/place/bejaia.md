@@ -20,3 +20,6 @@ The coordinates are taken from GeoNames for a modern place of the same name; mat
 - After the Hammadids fell in 1152 it became the seat of an Almohad province, then from 1234 a Hafsid seat and a centre for merchants of Venice, Pisa, Genoa, Marseille and Catalonia; its exports included wax, alum, bark and raisins. {cite:marcais-poteries-faiences-bougie-1916 p. 7}
 - The Spanish took it in 1510, Salah Rais retook it in 1555, and it declined under the Turks. {cite:marcais-poteries-faiences-bougie-1916 p. 8} {cite:marcais-poteries-faiences-bougie-1916 p. 9}
 - Marçais holds that Bougie inherited the ceramic industry of the Qal'a of the Banu Hammad, had its own style, and made and exported "golden faience", as a text of 1312 attests. {cite:marcais-poteries-faiences-bougie-1916 p. 32} {cite:marcais-poteries-faiences-bougie-1916 p. 33}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer of the German Archaeological Institute holds this place as record no. 2123033, typed as a populated place, under the preferred name «Bejaia»; its parent in the hierarchy is «Algerien (Algeria)». Among its recorded names are «Bougie», «Bugia». {cite:idai-gazetteer 2123033}

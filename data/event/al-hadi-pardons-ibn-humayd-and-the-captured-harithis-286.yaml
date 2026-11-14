@@ -1,0 +1,59 @@
+id: event/al-hadi-pardons-ibn-humayd-and-the-captured-harithis-286
+class: event
+kind: other
+label:
+  ar: عفو الهادي عن ابن حميد وأسرى بني الحارث، 286هـ
+  en: Al-Hadi pardons Ibn Humayd and the captured Harithis, 286 AH
+  ur: ہادی کا ابن حمید اور قید بنو حارث کو معاف کرنا، 286ھ
+summary:
+  ar: يوبّخ الهادي ابن حميد وجماعته على ما فعلوا بعد إحسانه إليهم، فيقرّون بأنهم استحقوا ما نزل بهم، فيطرق ثم يقول كما قال يوسف لإخوته ويأمرهم بالعودة إلى أهلهم عفواً وصفحاً، ويبقى ابن حميد ساعة ويأكل عنده وينصرف على فرس عبد الله بن الحسين.
+  en: Al-Hadi asks Ibn Humayd and his men what they thought when they acted so after his kindness to them; they admit they deserved what befell them, and after a long silence he speaks as Joseph spoke to his brothers, pardons them and sends them home; Ibn Humayd stays an hour, eats with him and goes off on Abdullah ibn al-Husayn's horse.
+  ur: ہادی ابن حمید اور اس کے ساتھیوں سے پوچھتے ہیں کہ ان کے احسان کے بعد ایسا کرتے وقت انہوں نے کیا سوچا؛ وہ مانتے ہیں کہ جو ان پر آیا وہ اس کے مستحق تھے، تو دیر خاموش رہ کر وہ یوسف کی طرح اپنے بھائیوں سے کہی گئی بات کہتے ہیں، انہیں معاف کر کے گھر بھیجتے ہیں؛ ابن حمید ایک گھڑی ٹھہرتا ہے، ان کے ساتھ کھانا کھاتا ہے اور عبداللہ بن حسین کے گھوڑے پر روانہ ہوتا ہے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899"
+    hijri: "0286"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 286هـ؛ الكتاب لا يعين الشهر ولا اليوم، والخبر يلي أحداث ذي الحجة بحسب ترتيب السرد؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: occurred_at
+  target: place/al-hajar-najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص166-167 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-21
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 166-167
