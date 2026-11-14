@@ -21,6 +21,8 @@ Lane A, claimed 14 Nov 2026 in `WORK-REGISTRY.md` on the microSD (row `seerah/si
 
 - **Batch 6:** printed pp. 52-59: the end of the night story, the shaving condition, the chapters on al-Hadi's humility and scrupulousness, dress and awe, tending a companion, the prison visit, orphans, a Christian's slave freed from the slaves' share of zakat. Nine events and one person (Muhammad ibn Abbas al-San'ani), each in ar, en and ur, all draft; work prose gains one section.
 
+- **Batch 7:** printed pp. 60-66: al-Hadi and the tithe (refusing goods from it, the lawful measure), a girl detained and freed, visiting merchants and the dhimmis, a dawn petitioner, the peach and lamp sayings of the first journey, small restitutions at Najran and Bisha, rain reports, and al-Kufi's party in drought. Nine events, each in ar, en and ur, all draft; work prose gains one section.
+
 ## Judgments recorded
 
 - **Narrators corrected.** `work/sira-hadi-ila-al-haqq` listed `person/yala-ibn-muhammad-al-yafrani` (a Zanata amir of the Maghreb, d. 347 AH, from Ibn Khaldun) and al-Hadi himself as authors, and its summary named "Ya'la ibn Muhammad". The book's own opening leaf (printed p. 15) and the editor (pp. 7-8) name Muhammad ibn Sulayman al-Kufi and Ali ibn Muhammad ibn Ubaydallah al-Abbasi al-Alawi; the earlier reading is a misreading of the title-page OCR. The work now lists the two real narrators. The Yafrani record is untouched and no longer linked from this book. Held for the founder: whether that unrelated record needs any further change (none made).
@@ -43,10 +45,12 @@ Lane A, claimed 14 Nov 2026 in `WORK-REGISTRY.md` on the microSD (row `seerah/si
 
 - **Batch 6 notes:** (1) The kunya Abu Jafar is also given to Muhammad ibn Sulayman al-Kufi (p. 54, p. 57), so the batch 5 inference that the narrator of the sayings bore it is softened in the batch 5 records; the identity of the "I" of pp. 49-52 stays Muhammad ibn Ubaydallah by the chain at p. 48. (2) Names held back for the page image: Abd al-Malik ibn Abd al-Malik "al-Yarsami" and Ali ibn Abi Anbasa "al-Samidi" (p. 59, nisba doubtful, not entered as persons); "al-Hasan" quoted p. 58 not identified. (3) The scribe's marginal notes (pp. 54, 56, 57, 58) are marked as the copyist's. (4) Legal points (jizya belonging to the household, slaves bought from the zakat share) are stated as the book's Zaydi position; no concept records, as above, pending a cited Sunni and academic source actually read. (5) Not repeated: the line on p. 50 about opponents.
 
+- **Batch 7 notes:** (1) Names held back for the page image, not entered as persons: Ubaydallah ibn Hudhayf (p. 60-61), Hasan ibn Ali ibn Qutayma (p. 61), Muhammad ibn al-Hajjaj "al-Khaywani" or "al-Yarsami" (pp. 64-65), Ali ibn Abi Anbasa, Muhammad ibn Hisham (p. 63); the place "Bayt Dhu'd" (p. 65) is not identified with `place/bayt-dhukhar`. (2) Top of p. 60 repeats lines of p. 58 (OCR overlap), disregarded. (3) The delegation from Najran and its date (Monday, last day of Jumada I, year "four") continue on p. 67; the delegation event waits for that page. (4) The long panegyric paragraph on p. 66 is summarised and attributed, not copied. (5) Legal views (no zakat from visiting merchants, protection of dhimmis) are the book's, stated without comparison; no concept records, same reason as batch 5.
+
 ## Excluded items
 
 None this batch.
 
 ## Resume point
 
-Scan p. 57 (printed 60): what follows the chapter on al-Hadi's scrupulousness (pp. 58-59). Plan as before.
+Scan p. 64 (printed 67): the rest of the Najran delegation sentence (year of the invitation) and al-Hadi's answer. Plan as before.

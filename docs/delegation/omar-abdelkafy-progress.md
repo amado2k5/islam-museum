@@ -3010,3 +3010,6 @@ Resume point: min-kunuz-al-sunnah episode 13 (branch from origin/main).
 | A verse-poem recited at the opening about the dying | ep02 00:01:00 | Unattributed poem fragment, garbled | Clarity, no source | Open |
 
 Resume point: alwaad-alhaq episode 3 (branch from origin/main).
+### min-kunuz-al-sunnah ep12 review (14 Nov 2026)
+
+Episode 12 re-read against the transcript after merge (#6642): one wording corrected in ar, en, ur (the report on lying to a brother is among the greatest major sins, not "betrayal"); no marks or links changed. All later episodes are reviewed against the transcript before merge; see their notes.

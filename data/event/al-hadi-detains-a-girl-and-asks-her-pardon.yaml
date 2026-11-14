@@ -1,0 +1,42 @@
+id: event/al-hadi-detains-a-girl-and-asks-her-pardon
+class: event
+kind: other
+label:
+  ar: الهادي يحبس جارية احتياطاً ثم يطلب إليها أن تحلّله
+  en: Al-Hadi has a girl held for a time, then asks her to release him from blame
+  ur: ہادی ایک لڑکی کو احتیاطاً روکتے ہیں پھر اس سے معافی مانگتے ہیں
+summary:
+  ar: رأى الكوفي الهادي وعنده قوم يختصمون في جارية وبعض أهل الدعوى غائب، فأمر بحبسها حتى ينظر في أمرها، وبعد يومين أو ثلاثة بعث إلى قوم من أهل البلد وقال إن الحبس لم يكن واجباً عليها وإنما فعله رجاء انقطاع أمرها، وأمرهم أن يسألوها أن تجعله في حل وأن يطلقوها.
+  en: Al-Kufi saw al-Hadi while a party disputed over a girl and one claimant was absent; he had her held until he could look into it, and after two or three days he sent to some townsmen saying that the detention was not owed by her and was done in hope the matter would end, and told them to ask her to hold him blameless and to free her.
+  ur: کوفی نے ہادی کو دیکھا جب کچھ لوگ ایک لڑکی کے بارے میں جھگڑ رہے تھے اور ایک دعویدار غائب تھا؛ انہوں نے اسے معاملہ دیکھنے تک روکنے کا حکم دیا، اور دو تین دن بعد شہر کے کچھ لوگوں کو بلا کر کہا کہ اس پر قید واجب نہ تھی اور میں نے معاملہ ختم ہونے کی امید پر کیا، اور کہا اس سے کہو کہ مجھے معاف کر دے اور اسے چھوڑ دو۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-sulayman-al-kufi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص60 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-7
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 60

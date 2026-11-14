@@ -1,0 +1,17 @@
+---
+id: event/al-hadi-refuses-to-use-goods-from-the-tithe
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+In continuation of the "chapter on scrupulousness" the book gives a run of reports on [[person/al-hadi-yahya-al-rassi|al-Hadi]]'s care to keep clear of goods from the tithe, told by [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]] and [[person/muhammad-ibn-sulayman-al-kufi|Muhammad ibn Sulayman al-Kufi]] and those they relay from. The book is Zaydi; the praise is the narrators' and not a finding of the museum. {cite:sira-hadi-ila-al-haqq p.60} {cite:sira-hadi-ila-al-haqq p.61} {cite:sira-hadi-ila-al-haqq p.62} The top of p. 60 repeats lines of p. 58 through a text-recognition overlap, and is disregarded.
+
+## Paper and the jujubes
+Muhammad ibn Ubaydallah sent a servant to ask al-Hadi for paper to write a letter on; al-Hadi said paper was not lawful for him and sent the servant a leaf of cotton. {cite:sira-hadi-ila-al-haqq p.60} On a journey they passed a dawm tree bearing jujubes (nabiq) and one of his party took a few; al-Hadi shouted at him sharply and told them to pay the owner from flour they carried; the owner refused, saying the fruit is taken by whoever passes, and al-Hadi told them to put the flour under the tree, which was done. {cite:sira-hadi-ila-al-haqq p.60} A footnote from al-Qamus explains the dawm as the tree of the mugl-palm. {cite:sira-hadi-ila-al-haqq p.60}
+
+## The straw and the fodder
+Al-Kufi relates from Ubaydallah ibn Hudhayf (the reading of the name is doubtful, so he is not entered as a person) that he looked for straw for the animals from other than tithe straw, found none, and told a groom to take a known measure to be repaid in kind; al-Hadi learned of it and spoke to him roughly: "We want nothing of it; what have we to do with the tithe? Set it aside for someone it is lawful for to feed", and his horses were not fed from it that night; he had cane thrown to them without straw for two nights and said: "O God, I call You to witness that I have taken this off my neck and put it on theirs." {cite:sira-hadi-ila-al-haqq p.60} {cite:sira-hadi-ila-al-haqq p.61} The narrator also saw him order fodder for his horses and camels to be bought, while tithe fodder lay stacked and nothing was fed from it, small or large, but was shared out among his companions. {cite:sira-hadi-ila-al-haqq p.61} {cite:sira-hadi-ila-al-haqq p.62}
+
+## The bag of zakat, the rag and the table
+Al-Kufi, who used to receive the zakat on goods, brought one night a bag of coins from the zakat and asked al-Hadi to keep it under his bed; he said "Take it away from me; by God, if I were driven to what is collected of your alms and tithes and found carrion, I would eat the carrion and eat nothing of that." {cite:sira-hadi-ila-al-haqq p.61} He once called a servant about a rag, and it was found among his clothes; he said "Woe to you, you have no religion, to put a rag of the tithe among my clothes"; and on another day, having washed for prayer, he wiped his face with a rag and then said "To God we belong... this rag is from the tithe", adding that it is not lawful for us to wipe our faces with it or shelter from the sun by it. {cite:sira-hadi-ila-al-haqq p.62} The narrator also says that when his table was set he called every person present, but one day he sat apart while the people ate, and said that only this stopped him: the food was not lawful for him since it came from the tithe. {cite:sira-hadi-ila-al-haqq p.63}
