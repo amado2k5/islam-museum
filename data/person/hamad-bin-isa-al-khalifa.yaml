@@ -30,12 +30,13 @@ relations:
   - { type: member_of, target: group/al-khalifa, sources: [source/wikipedia-hamad-bin-isa-al-khalifa-en, source/wikidata-hamad-bin-isa-al-khalifa] }
 wings: [people, living]
 regions: [arabia]
-external_ids: { wikidata: "Q57352" }
+external_ids: { wikidata: "Q57352", viaf: "61682080" }
 sources:
   - source/wikipedia-hamad-bin-isa-al-khalifa-en
   - source/wikipedia-hamad-bin-isa-al-khalifa-ar
   - source/wikipedia-hamad-bin-isa-al-khalifa-ur
   - source/wikidata-hamad-bin-isa-al-khalifa
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Hamad bin Isa Al Khalifa in English (revision 1381037683 of 19 Oct 2026), Arabic (revision 76795069 of 28 Sep 2026) and Urdu (revision 9684618 of 3 Apr 2026) and the Wikidata item Q57352 (item revision 2558024819 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and record provenances — no prior record of the man existed. SUCCESSION VERIFIED against the articles, as the run brief required: he succeeded his father Isa bin Salman Al Khalifa directly as Emir on 6 March 1999 (English article, lead and Reign section; infobox predecessor1), and his kingship of 14 February 2002 succeeded his own emirate under the new constitution — no interim holder intervened in either step. His father has no museum record, so no successor_of or child_of edge can be written; the fact stands here and in the born note."

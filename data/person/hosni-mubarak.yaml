@@ -41,12 +41,13 @@ relations:
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-hosni-mubarak-en] }
 wings: [people]
 regions: [egypt-nile]
-external_ids: { wikidata: "Q34105" }
+external_ids: { wikidata: "Q34105", viaf: "2664478" }
 sources:
   - source/wikipedia-hosni-mubarak-en
   - source/wikipedia-hosni-mubarak-ar
   - source/wikipedia-hosni-mubarak-ur
   - source/wikidata-hosni-mubarak
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Hosni Mubarak in English (revision 1381132303 of 20 Oct 2026), Arabic (revision 76720769 of 24 Sep 2026) and Urdu (revision 12091027 of 3 Oct 2026) and the Wikidata item Q34105 (item revision 2557925352 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property. Existence checked both directions before writing: name fragments across data/person/ (the Mubarak hits are other men, classical and modern), the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge to Anwar Sadat is written: the articles attest that between Sadat's assassination on 6 October 1981 and Mubarak's accession on 14 October 1981 the speaker Sufi Abu Taleb served as acting president, so the direct sequence the predicate requires does not hold."

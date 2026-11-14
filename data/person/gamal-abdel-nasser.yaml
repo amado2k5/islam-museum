@@ -41,13 +41,14 @@ relations:
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-gamal-abdel-nasser-en] }
 wings: [people]
 regions: [egypt-nile]
-external_ids: { wikidata: "Q39524", nomisma: "gamal_abdel_nasser" }
+external_ids: { wikidata: "Q39524", nomisma: "gamal_abdel_nasser", viaf: "97349541" }
 sources:
   - source/wikipedia-gamal-abdel-nasser-en
   - source/wikipedia-gamal-abdel-nasser-ar
   - source/wikipedia-gamal-abdel-nasser-ur
   - source/wikidata-gamal-abdel-nasser
   - source/nomisma
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Gamal Abdel Nasser in English (revision 1382125122 of 26 Oct 2026), Arabic (revision 76605607 of 16 Sep 2026) and Urdu (revision 12088513 of 3 Oct 2026) and the Wikidata item Q39524 (item revision 2560301995 of 24 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property. Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/ (the many Nasir/Nasser hits are other men), the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge is written in this record: he assumed executive office in 1954 over President Mohamed Naguib, who has no museum record; the direct succession from Nasser to Anwar Sadat in 1970 belongs in Sadat's existing record and is not written from here."

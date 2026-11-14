@@ -44,8 +44,8 @@ relations:
   - { type: lived_in, target: place/bilad-al-sudan, note: "Place association from the person's nisba/name (المالي); denotes association, not proven residence.", sources: [source/wikipedia-ahmad-tajuddin-en, source/wikipedia-ahmad-tajuddin-ms, source/wikipedia-ahmad-tajuddin-ar, source/wikipedia-ahmad-tajuddin-ur, source/wikidata-ahmad-tajuddin], confidence: low }
   - { type: child_of, target: person/muhammad-jamalul-alam-ii, sources: [source/wikipedia-ahmad-tajuddin-en, source/wikipedia-ahmad-tajuddin-ms, source/wikidata-ahmad-tajuddin] }
   - { type: successor_of, target: person/muhammad-jamalul-alam-ii, sources: [source/wikipedia-ahmad-tajuddin-en, source/wikipedia-ahmad-tajuddin-ms] }
-external_ids: { wikidata: "Q40111" }
-sources: [source/wikipedia-ahmad-tajuddin-en, source/wikipedia-ahmad-tajuddin-ms, source/wikipedia-ahmad-tajuddin-ar, source/wikipedia-ahmad-tajuddin-ur, source/wikidata-ahmad-tajuddin]
+external_ids: { wikidata: "Q40111", viaf: "219980846" }
+sources: [source/wikipedia-ahmad-tajuddin-en, source/wikipedia-ahmad-tajuddin-ms, source/wikipedia-ahmad-tajuddin-ar, source/wikipedia-ahmad-tajuddin-ur, source/wikidata-ahmad-tajuddin, source/wikidata]
 status: { review: published }
 provenance:
   layer: own-research
