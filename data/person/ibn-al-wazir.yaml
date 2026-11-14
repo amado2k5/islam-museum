@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن إبراهيم الوزير، فقيه اليمن الزيدي القرن الخامس عشر، توفي سنة ١٤٣٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Ibrahim al-Wazir, the fifteenth-century Zaydi jurist of Yemen, d. 1436; the biographical entry is not yet checked on the page."
+  ar: "محمد بن إبراهيم بن علي بن المرتضى الحسني القاسمي، أبو عبد الله، عز الدين، من آل الوزير: مجتهد باحث من أعيان اليمن، أخو الهادي بن إبراهيم، تعلم بصنعاء وصعدة ومكة، 775 إلى 840هـ؛ من كتبه «إيثار الحق على الخلق» و«العواصم والقواصم»."
+  en: "Muhammad ibn Ibrahim ibn Ali ibn al-Murtada al-Hasani al-Qasimi, Abu Abdallah, Izz al-Din, of the house of al-Wazir: a mujtahid and researcher, one of the notables of Yemen and brother of al-Hadi ibn Ibrahim; educated at Sanaa, Sa'da and Mecca, 775 to 840 AH; author of «Ithar al-haqq ala al-khalq» and «al-Awasim wa-l-qawasim»."
 wings: [people]
 regions: [arabia]
 periods: [period/mongol-post-mongol]
@@ -16,15 +16,15 @@ died: { edtf: "1436", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: died_in, target: place/sanaa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/farwa-bin-msik-mosque, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12240076
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0044
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

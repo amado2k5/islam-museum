@@ -7,25 +7,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن محمد الدردير، فقيه مالكي مصر في القرن الثامن عشر صاحب «الشرح الكبير»، توفي سنة ١٧٨٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Muhammad al-Dardir, the eighteenth-century Maliki jurist of Egypt author of al-Sharh al-Kabir, d. 1786; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن محمد بن أحمد العدوي، أبو البركات، الشهير بالدردير، من فقهاء المالكية، ولد في بني عدي بمصر وتعلم في الأزهر وتوفي بالقاهرة، 1127 إلى 1201هـ؛ من كتبه «أقرب المسالك لمذهب الإمام مالك»."
+  en: "Ahmad ibn Muhammad ibn Ahmad al-Adawi, Abu al-Barakat, known as al-Dardir, a Maliki jurist born at Bani Adi in Egypt, educated at al-Azhar, died in Cairo, 1127 to 1201 AH; author of «Aqrab al-masalik li-madhhab al-Imam Malik»."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12178564
   viaf: "90076084"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0037
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1715", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib) Confirmed on 13 November 2026 against Wikidata Q12178564 (P569, a statement with a reference), item revision 2568061732.", sources: [source/wikidata] }
 died: { edtf: "1786", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib) Confirmed on 13 November 2026 against Wikidata Q12178564 (P570, a statement with a reference), item revision 2568061732.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/al-aalam], confidence: low }
+  - { type: died_in, target: place/cairo, note: "Al-Zirikli, al-A'lam vol. 1 p. 220: died in Cairo.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

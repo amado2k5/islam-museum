@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن عبد الحميد الأسمندي السمرقندي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Abd al-Hamid al-Usmandi; the entry is not yet checked on the page."
+  ar: "محمد بن عبد الحميد بن الحسين الأسمندي السمرقندي، أبو الفتح، علاء الدين: فقيه من كبار الحنفية، مناظر من فرسان الكلام، من أهل سمرقند ونسبته إلى أسمند، رحل إلى بغداد وناظر علماءها، 488 إلى 552هـ؛ من كتبه «مختلف الرواية»."
+  en: "Muhammad ibn Abd al-Hamid ibn al-Husayn al-Usmandi al-Samarqandi, Abu al-Fath, Ala al-Din: a jurist, one of the great Hanafis and a disputant, from Samarqand, named for the village of Usmand; he travelled to Baghdad and debated its scholars, 488 to 552 AH; author of «Mukhtalaf al-riwaya»."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q25513070
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1095", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jawahir al-Mudiyya Confirmed on 13 November 2026 against Wikidata Q25513070 (P569, a statement with a reference), item revision 2533523361.", sources: [source/wikidata] }
 died: { edtf: "1157", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jawahir al-Mudiyya Confirmed on 13 November 2026 against Wikidata Q25513070 (P570, a statement with a reference), item revision 2533523361.", sources: [source/wikidata] }
 relations:

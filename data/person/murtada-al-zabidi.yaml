@@ -6,25 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد مرتضى الزبيدي، لغوي ومحدث القرن الثامن عشر صاحب «تاج العروس»، توفي سنة ١٧٩٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Murtada al-Zabidi, the eighteenth-century philologist and hadith scholar author of Taj al-Arus, d. 1790; the biographical entry is not yet checked on the page."
+  ar: "محمد بن محمد بن محمد بن عبد الرزاق الحسيني الزبيدي، أبو الفيض، الملقب بمرتضى: علامة باللغة والحديث والرجال والأنساب، أصله من واسط ومولده بلجرام بالهند ومنشؤه زبيد باليمن، وتوفي بالطاعون في مصر، 1145 إلى 1205هـ؛ من كتبه «تاج العروس في شرح القاموس»."
+  en: "Muhammad ibn Muhammad ibn Muhammad ibn Abd al-Razzaq al-Husayni al-Zabidi, Abu al-Fayd, surnamed Murtada: a great scholar of language, hadith, transmitter-criticism and genealogy; his family from Wasit, born at Bilgram in India, raised in Zabid in Yemen, died of the plague in Egypt, 1145 to 1205 AH; author of «Taj al-arus fi sharh al-Qamus»."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4120098
   viaf: "90055027"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0038
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1732", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Murtada al-Zabidi); al-A'lam Confirmed on 13 November 2026 against Wikidata Q4120098 (P569, a statement with a reference), item revision 2558948412.", sources: [source/wikidata] }
 died: { edtf: "1791", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Murtada al-Zabidi); al-A'lam Confirmed on 13 November 2026 against Wikidata Q4120098 (P570, a statement with a reference), item revision 2558948412.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/zabid, confidence: low, note: "Association inferred from the nisba 'الزبيدي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
+  - { type: died_in, target: place/misr, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: died of the plague in Egypt.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

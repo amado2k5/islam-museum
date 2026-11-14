@@ -10,16 +10,24 @@ gender: male
 roles: [poet]
 traditions: [sunni]
 summary:
-  ar: "شاعر كوفي من بني أسد، لقب بالأقيشر، اشتهر بشعر الخمر ونوادره في الشرب والحانات. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 51-52}"
-  en: "A Kufan poet of the Asad tribe, nicknamed al-Aqayshar, known for wine poetry and anecdotes of tavern drinking. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 51-52}"
-  ur: "بنو اسد کے کوفی شاعر، جن کا لقب الاقیشر تھا؛ شراب کی شاعری اور میخانوں کے قصوں سے مشہور ہیں۔ {cite:nihayat-al-arab-nuwayri-vol4-scan p. 51-52}"
+  ar: "المغيرة بن عبد الله بن معرض الأسدي، أبو معرض، المعروف بالأقيشر: شاعر هجاء من بادية الكوفة، كان يتردد إلى الحيرة، أدرك أول الإسلام ودولة عبد الملك بن مروان، وقتل قرب الكوفة نحو سنة 80هـ."
+  en: "Al-Mughira ibn Abdallah ibn Mu'arrid al-Asadi, Abu Mu'arrid, known as al-Aqayshar: a satirical poet from the Bedouin country of Kufa who frequented al-Hira, reached the early days of Islam and the state of Abd al-Malik ibn Marwan, and was killed near Kufa about 80 AH."
+  ur: "مغیرہ بن عبداللہ بن معرض اسدی، ابو معرض، المعروف اقیشر: کوفہ کے بادیہ کے ہجو گو شاعر، حیرہ آتے جاتے تھے، اسلام کا ابتدائی دور اور عبدالملک بن مروان کی حکومت پائی، اور تقریباً 80ھ میں کوفہ کے نواح میں قتل ہوئے۔"
 wings: [people]
 themes: [literature]
 story_roles:
   - { role: poet, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
-sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4 humour chapter, pages 51-52, from helper claims file; not yet image-checked)" }
-provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 51-52", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-06" }
+sources: [source/nihayat-al-arab-nuwayri-vol4-scan, source/alam-zirikli-dar-al-ilm-2002]
+status:
+  review: draft
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 died: { edtf: "699~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
   - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (كوفي); denotes association, not proven residence.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan], confidence: low }
+  - { type: died_in, target: place/kufa, note: "Al-Zirikli, al-A'lam vol. 7 p. 275: killed at the outskirts of Kufa.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
