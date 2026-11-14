@@ -836,3 +836,9 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Linked (stem, km): tayma TAYMA_385E275N_S 5.7, tus TUS_594E364N_S 6.4, ush USH_728E405N_S 4.3, wahran WAHRAN_006W357N_S 1.5, washqa WASHQA_003W421N_S 5.3, yafa YAFA_347E320N_S 1.1, yanbu YANBU_381E241N_S 6.8, yazd YAZD_543E319N_S 1.9, zafar ZAFAR_443E142N_S 3.7, zanjan ZANJAN_485E366N_S 2.7, zarand ZARAND_565E308N_S 3.6, zarqa ZARQA_360E320N_S 1.9, zibatra ZIBATRA_379E380N_S 1.9, zubala ZUBALA_435E294N_S 1.5, khujand KHUJANDA_696E402N_S 3.7.
 - Left: askalan (Ascalon, founder-held), atrabulus, baja, balad, biqa, dinavar-district, faran, hisn-fayd, hamadhan and cija (reasons as in the earlier notes).
 
+
+## 2026-11-14 (p54, Lane B worker B1) — Nomisma batch 8: 21 dynasties and 2 houses linked
+
+- Approval: dec-20261114-277. The Nomisma SPARQL query (one request, nomisma.org/query) was re-run for exactMatch to Wikidata; joined to our records without a Nomisma id (54 left). Linked where exactly one concept carries our Wikidata id: alawi, anushtegin, banu-hud, buyid, dulafid, ghurid, hafsid, hamdanid, hammudid, idrisid, ikhshidid, ilkhanate, marinid, mirdasid, rum-seljuk, saadi, sajid, seljuk-empire, tulunid, uqaylid, zand, group/banu-nasr (nasrids), group/al-sasan (sassanid_dynasty).
+- Not linked: records whose Wikidata id maps to several concepts (about 14 persons, artuqid-dynasty, rasulid-dynasty, spain); mongol-empire (concept is "Great Mongol Khaqans"); group/al-bu-said (concept is the Zanzibar branch); mikail (an archangel, not an issuer); modern states (italy, france, germany, denmark); kos and united-kingdom (held).
+- Process note: worktrees on the microSD are too slow with several workers; mine is on local disk.
