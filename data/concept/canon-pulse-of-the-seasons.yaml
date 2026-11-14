@@ -1,0 +1,18 @@
+id: concept/canon-pulse-of-the-seasons
+class: concept
+kind: scientific
+label: { ar: "نبض الفصول عند ابن سينا", en: "The pulse of the seasons in the Canon", ur: "موسموں کی نبض قانون میں" }
+summary:
+  ar: "يصف ابن سينا في الفصل التاسع النبض في الربيع والصيف والشتاء والخريف وفي الفصول التي بينها {cite:canon-ibn-sina-print-v1 pp.177-178}."
+  en: "In the ninth chapter Ibn Sina describes the pulse in spring, summer, winter and autumn and in the seasons between {cite:canon-ibn-sina-print-v1 pp.177-178}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, the pulse chapters 2 to 11 (scan pages 171 to 179), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-causes-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

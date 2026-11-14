@@ -1,0 +1,18 @@
+id: concept/canon-wormlike-ant-and-sawlike-pulses
+class: concept
+kind: scientific
+label: { ar: "النبض الدودي والنملي والمنشاري عند ابن سينا", en: "The wormlike, ant and saw pulses in the Canon", ur: "دودی، نملی اور منشاری نبض قانون میں" }
+summary:
+  ar: "يصف ابن سينا ثلاثة أصناف قريبة من الموجي: الدودي والنملي والمنشاري، ويبين وجه الشبه والفرق {cite:canon-ibn-sina-print-v1 p.173}."
+  en: "Ibn Sina describes three kinds close to the wave pulse, the wormlike, the ant and the saw, and shows how they are alike and how they differ {cite:canon-ibn-sina-print-v1 p.173}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, the pulse chapters 2 to 11 (scan pages 171 to 179), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-causes-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
