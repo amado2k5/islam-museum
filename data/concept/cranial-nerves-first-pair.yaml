@@ -1,0 +1,18 @@
+id: concept/cranial-nerves-first-pair
+class: concept
+kind: scientific
+label: { ar: "الزوج الأول من أعصاب الدماغ عند ابن سينا", en: "First pair of cranial nerves in the Canon", ur: "قانون میں دماغی اعصاب کا پہلا جوڑا" }
+summary:
+  ar: "يقول ابن سينا إنه تنبت من الدماغ سبعة أزواج من العصب، ومبدأ الأول من غور البطنين المقدمين عند جواز الزائدتين الشبيهتين بحلمتي الثدي اللتين بهما الشم، وهو عصب عظيم مجوف إلى الحدقتين {cite:canon-ibn-sina-print-v1 p.78}."
+  en: "Ibn Sina says seven pairs of nerves grow from the brain. The first begins from the depth of the two front ventricles beside the two projections like nipples, by which smell works, and is a great hollow nerve going to the two pupils {cite:canon-ibn-sina-print-v1 p.78}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/nerves, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 3 on nerves (scan pages 78 to 82), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-nerves-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

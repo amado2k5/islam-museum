@@ -1,0 +1,63 @@
+id: event/al-hadi-march-to-wasaha-and-governor-appointed-284
+class: event
+kind: other
+label:
+  ar: مسير الهادي إلى وسحة وإقامته فيها ثمانية أيام وتوليته أبا محمد بن عبيد الله عليها، شوال 284هـ
+  en: Al-Hadi's march to Wasaha, his eight-day stay and the appointment of Muhammad ibn Ubaydallah there, Shawwal 284 AH
+  ur: ہادی کا وسحہ کی طرف جانا، آٹھ دن قیام اور محمد بن عبید اللہ کو وہاں مقرر کرنا، شوال 284ھ
+summary:
+  ar: خرج الهادي يوم الثلاثاء ثامن شوال 284هـ إلى وسحة وسط جبال وعرة لم يسلكها من السلاطين إلا سلطان لآل يعفر هلك جنده على يد البحري، فدخلها بالهيبة وبايعه أهلها وأقام ثمانية أيام وأطاعه من حولها، ثم عاد إلى صعدة السبت وخلّف عليها أبا محمد بن عبيد الله العلوي.
+  en: On Tuesday the eighth of Shawwal 284 AH al-Hadi marched to Wasaha in rough mountains which no ruler had entered but a sultan of Al Ya'fur, whose force was destroyed there by al-Bahri; he entered with awe, its people pledged to him, he stayed eight days and the neighbouring people obeyed, then returned to Sa'da on Saturday leaving Abu Muhammad ibn Ubaydallah al-Alawi in charge.
+  ur: منگل 8 شوال 284ھ کو ہادی وسحہ کی طرف نکلے جو دشوار پہاڑوں میں ہے اور جس میں آل یعفر کے ایک سلطان کے سوا کوئی حکمران نہ گیا تھا اور اس کا لشکر وہاں بحری کے ہاتھوں تباہ ہوا؛ وہ رعب کے ساتھ داخل ہوئے، اہل وسحہ نے بیعت کی، آٹھ دن رہے اور آس پاس کے لوگ مطیع ہوئے، پھر ہفتے کو صعدہ لوٹے اور ابو محمد بن عبید اللہ علوی کو وہاں چھوڑا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0897-11-08'
+    hijri: '0284-10-08'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: يوم الثلاثاء ثامن شوال سنة 284هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/wasaha-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-bahri-of-banu-bahr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص80-81 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-10
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 80-81

@@ -41,12 +41,13 @@ relations:
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-boutros-boutros-ghali-en] }
 wings: [people]
 regions: [egypt-nile]
-external_ids: { wikidata: "Q1257" }
+external_ids: { wikidata: "Q1257", viaf: "230800036" }
 sources:
   - source/wikipedia-boutros-boutros-ghali-en
   - source/wikipedia-boutros-boutros-ghali-ar
   - source/wikipedia-boutros-boutros-ghali-ur
   - source/wikidata-boutros-boutros-ghali
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Boutros Boutros-Ghali in English (revision 1382126506 of 26 Oct 2026), Arabic (revision 76932002 of 9 Oct 2026) and Urdu (revision 12095087 of 4 Oct 2026, a stub) and the Wikidata item Q1257 (item revision 2557822148 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three agree on Q1257). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge is written: his predecessor as UN Secretary-General, Javier Pérez de Cuéllar, has no museum record, and the museum has no group entities for the United Nations or La Francophonie, so no member_of edge is written either."

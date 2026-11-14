@@ -26,7 +26,7 @@ faith:
     sources: [source/wikipedia-moncef-marzouki-en, source/wikipedia-moncef-marzouki-ar, source/wikipedia-moncef-marzouki-ur, source/wikidata-moncef-marzouki]
 wings: [people, living]
 regions: [maghreb]
-external_ids: { wikidata: "Q4715" }
+external_ids: { wikidata: "Q4715", viaf: "41828074" }
 relations:
   - { type: born_in, target: place/grombalia, sources: [source/wikidata-moncef-marzouki], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1344058)" }
 sources:
@@ -34,6 +34,7 @@ sources:
   - source/wikipedia-moncef-marzouki-ar
   - source/wikipedia-moncef-marzouki-ur
   - source/wikidata-moncef-marzouki
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Moncef Marzouki in English (revision 1378406003 of 4 Oct 2026), Arabic (revision 76312951 of 23 Aug 2026) and Urdu (revision 9466268 of 7 Mar 2026) and the Wikidata item Q4715 (item revision 2558174442 of 18 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q4715). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No relations are written: Grombalia has no place entity, and no successor_of edge is written because both infoboxes mark his predecessor as president as Fouad Mebazaa, expressly acting — an interim holder defeats the direct sequence the predicate requires, and Mebazaa has no person record in any case. No member_of or founder_of edge is written: the museum has no group entity for the Congress for the Republic, Al-Irada or the Tunisian Human Rights League."

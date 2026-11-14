@@ -27,10 +27,10 @@ faith:
     basis: unknown
     note: "Anelka's conversion to Islam is documented, but no source read names a school or madhhab for him personally. The English Wikipedia article, citing The Guardian of 14 February 2007, records that after discussing religion with childhood friends he converted to Islam in 2004 in the United Arab Emirates, taking the Muslim name Abdul-Salam Bilal, and quotes his own account of fasting in Ramadan and later relaxing his observance after injuries; its categories file him under “Converts to Islam” and “French Muslims”. The Arabic article likewise recounts his embrace of Islam, deepening at Fenerbahçe, the French article describes him as converted to Islam in 2004, and Wikidata Q1939 gives his religion as Islam (Q432), generically. Lane practice does not record a convert's former faith, so no christian segment is written; and a documented conversion plus generic identifications are not two independent sources naming a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, with the conversion itself documented here and in the prose."
     sources: [source/wikipedia-nicolas-anelka-en, source/wikipedia-nicolas-anelka-ar, source/wikipedia-nicolas-anelka-fr, source/wikidata-nicolas-anelka]
-external_ids: { wikidata: "Q1939" }
+external_ids: { wikidata: "Q1939", viaf: "228386606" }
 relations:
   - { type: born_in, target: place/le-chesnay, sources: [source/wikidata-nicolas-anelka], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q237281)" }
-sources: [source/wikipedia-nicolas-anelka-en, source/wikipedia-nicolas-anelka-ar, source/wikipedia-nicolas-anelka-fr, source/wikidata-nicolas-anelka]
+sources: [source/wikipedia-nicolas-anelka-en, source/wikipedia-nicolas-anelka-ar, source/wikipedia-nicolas-anelka-fr, source/wikidata-nicolas-anelka, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Nicolas Anelka' (revision 1382001088 of 26 October 2026), Arabic Wikipedia «نيكولا أنيلكا» (revision 75948620 of 19 July 2026), French Wikipedia 'Nicolas Anelka' (revision 240177657 of 8 October 2026) and Wikidata Q1939, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: Anelka's birthplace, Le Chesnay, has no entity in data/place/. No earlier record for him existed in data/person/ under anelka or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."

@@ -3245,3 +3245,35 @@ Resume point: min-kunuz-al-sunnah episode 24 (branch from origin/main).
 | Unintelligible stretches (00:16:30, 00:37:00, 00:44:00 to 00:44:30) | ep06 00:16:30 | transcript looped or unintelligible, no claim can be checked | accuracy | Open |
 
 Resume point: alwaad-alhaq episode 7 (branch from origin/main).
+### min-kunuz-al-sunnah ep24 (14 Nov 2026)
+
+14 points written for episode 24 (ar, en, ur); 10 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (4-148); none typed. Contested: He holds that lying is permitted in three cases (to please a wife, in war, to reconcile people) and gives his own readings of Ibrahim's three statements and of what counts as war; these are his views, and scholars discuss the scope of the three exceptions.
+
+| Excluded (min-kunuz-al-sunnah ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening praise and invocation | ep24 00:00:00-00:00:30 | Opening formula, no teaching content | Content rule | Open |
+| Break join, return greeting and closing prayer | ep24 00:08:30-00:09:30, 00:17:30-00:18:00, 00:27:00-00:27:30 | Break joins, farewell and closing prayer | Content rule | Open |
+| Generalisations about women's emotions and about husbands and wives comparisons (storm, sea bird) | ep24 00:02:30-00:04:00 | Sweeping claims about women | Voice rule | Open |
+| Jokes about colleagues and news presenters, and about husbands hiding accounts | ep24 00:04:00-00:04:30, 00:06:30-00:07:30 | Mocking, not substantive | Voice rule | Open |
+| Description of occupation and invasion of Muslim lands as the setting of war | ep24 00:10:30-00:12:00 | Sweeping claim about modern conflict | Voice rule | Open |
+| Waiting period and a wife leaving the home after divorce, with remarks on spouses | ep24 00:16:00-00:17:30 | Garbled and sweeping about spouses | Clarity, Loop check | Open |
+| Repeated letter loop | ep24 00:07:30 | Loop of one letter, nothing recoverable | Clarity, Loop check | Open |
+| Garbled passage on the wife's mother and the judge | ep24 00:19:00-00:19:30 | Too garbled to recover | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 25 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep25 (14 Nov 2026)
+
+13 points written for episode 25 (ar, en, ur); 9 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (19-43, 40-28, 3-110); none typed. Contested: He gives a view on how advice should be delivered (privately, gently, briefly, fitted to the listener) and applies it to rulers and to youths raised in the West; these are his opinions, and the stories and sayings he tells carry no chains.
+
+| Excluded (min-kunuz-al-sunnah ep25) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting, opening prayer, break joins and closing prayer | ep25 00:00:00-00:00:30, 00:08:30-00:09:00, 00:17:00-00:17:30, 00:24:30 | Not substantive teaching | Content rule | Open |
+| Claim that the Arab man never accepts a wife's advice and the Arab claims to know everything | ep25 00:04:00-00:04:30, 00:08:00-00:08:30 | Sweeping generalisation about a people and about women | Voice rule | Open |
+| Remark that some officials in Arab and Muslim countries speak for four or five hours | ep25 00:06:30-00:07:00 | Sweeping claim about rulers and states | Voice rule | Open |
+| Remark about flatterers around rulers | ep25 00:22:30-00:23:00 | Sweeping claim about a group, garbled | Voice rule | Open |
+| Looping stretch of repeated letters | ep25 00:11:00-00:11:30 | ASR loop, text lost | Clarity, Loop check | Open |
+| Looping stretch of repeated letters | ep25 00:18:00-00:18:30 | ASR loop, text lost | Clarity, Loop check | Open |
+| Garbled phrases on typing and writing media | ep25 00:11:30-00:12:00 | Words unclear (kept only the general point on generations) | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 26 (branch from origin/main).

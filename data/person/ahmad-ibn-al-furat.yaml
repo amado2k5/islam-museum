@@ -6,23 +6,23 @@ label:
 roles: [politician]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن الفرات؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn al-Furat; the entry is not yet checked on the page."
+  ar: "أحمد بن الفرات بن خالد الضبي الرازي، أبو مسعود، حافظ حجة ومحدث أصبهان، روى عنه أبو داود في سننه؛ توفي سنة ٢٥٨هـ."
+  en: "Ahmad ibn al-Furat ibn Khalid al-Dabbi al-Razi, Abu Mas'ud, a memoriser and authority and the hadith scholar of Isfahan, from whom Abu Dawud narrated in his Sunan; he died in 258 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q22684130
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "872", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
-  - { type: lived_in, target: place/baghdad, note: "Of the Ibn al-Furat vizieral family of Baghdad. Association inferred; flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/isfahan, confidence: medium, note: "Al-Dhahabi calls him the hadith scholar of Isfahan, where he settled; the earlier link to Baghdad belonged to a different Ibn al-Furat (the vizieral family).", sources: [source/siyar-alam-nubala-ideas-house] }
