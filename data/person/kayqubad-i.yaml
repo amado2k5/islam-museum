@@ -6,26 +6,26 @@ label:
 roles: [sultan]
 gender: male
 summary:
-  ar: "بطاقة أولية لكيقباد الأول، سلطان سلاجقة الروم الذي بلغت الدولة في عهده ذروة اتساعها؛ توفي سنة ١٢٣٧م ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Kayqubad I, the Seljuk sultan of Rum under whom the sultanate reached its height; he died in 1237 and his entry is not yet checked on the page."
+  ar: "كيقباد الأول علاء الدين، أبرز سلاطين سلاجقة الروم، تولى سنة 618 هـ الموافقة 1220 م وتوفي سنة 634 هـ الموافقة 1237 م؛ قرئت ترجمته في دائرة المعارف الإسلامية."
+  en: "Kayqubad I Ala al-Din, the most distinguished Seljuk sultan of Rum, who took the throne in 618 AH (1220 CE) and died in 634 AH (1237 CE); his Encyclopaedia of Islam article has been read."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1237", precision: year, status: tradition, derived: true }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi, source/nomisma, source/wikidata]
+sources: [source/encyclopaedia-of-islam-2, source/nomisma, source/wikidata]
 external_ids:
   wikidata: Q61964
   nomisma: "ala'_al-din_kay_qubad_i"
   viaf: "80825176"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Encyclopaedia of Islam, 2nd ed., article Kaykubad I, vol. 4 pp. 855-856, read in full from the local OCR copy; al-Salabi's Ottoman history, named on the earlier draft card, has no entry for him in the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-ei2-2026-11-14
 importance: 2
 status:
   review: draft
-  completeness: 1
+  completeness: 3

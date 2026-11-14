@@ -1,29 +1,30 @@
 id: person/al-murtada-muhammad
 class: person
 label:
-  ar: "المترضى محمد يحيى الحسين"
+  ar: "المرتضى محمد بن يحيى"
   en: "al-Murtada Muhammad"
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية للمرتضى محمد يحيى الحسين، الإمام الزيدي في اليمن القرن العاشر، توفي سنة ٩٢٢م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Murtada Muhammad Yahya al-Husayn, the tenth-century Zaydi imam of Yemen, d. 922; the dynastic handbook entry is not yet checked on the page."
+  ar: "محمد بن يحيى بن الحسين بن القاسم العلوي الطالبي، الملقب بالمرتضى، إمام زيدي من صعدة باليمن، ولد سنة 278 هـ الموافقة 891 م وتوفي سنة 310 هـ الموافقة 922 م؛ قرئت ترجمته في الأعلام للزركلي."
+  en: "Muhammad ibn Yahya ibn al-Husayn al-Alawi al-Talibi, called al-Murtada, a Zaydi imam of Sa'da in Yemen, born 278 AH (891 CE) and died 310 AH (922 CE); his entry in al-Zirikli's al-A'lam has been read."
 wings: [people]
 regions: [arabia]
 periods: [period/abbasid-fragmentation]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/alam-zirikli-dar-al-ilm-2002, source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q4702966
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0050
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, vol. 7 p. 135, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "891", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q4702966 (P569, a statement with a reference), item revision 2548794099.", sources: [source/wikidata] }
 died: { edtf: "922", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q4702966 (P570, a statement with a reference), item revision 2548794099.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/yemen, note: "From text: imam of Yemen", sources: [source/bosworth-new-islamic-dynasties-1996] }
+  - { type: lived_in, target: place/yemen, note: "From text: imam of Yemen", sources: [source/alam-zirikli-dar-al-ilm-2002, source/bosworth-new-islamic-dynasties-1996] }
+  - { type: died_in, target: place/saada, note: "al-Zirikli, al-A'lam, vol. 7 p. 135: died at Sa'da and buried beside his father", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
