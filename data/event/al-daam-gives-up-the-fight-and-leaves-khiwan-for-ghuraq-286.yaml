@@ -1,0 +1,61 @@
+id: event/al-daam-gives-up-the-fight-and-leaves-khiwan-for-ghuraq-286
+class: event
+kind: other
+label:
+  ar: الدعام يعزم على ترك قتال الهادي ويخرج من خيوان إلى غرق، صفر 286هـ
+  en: Al-Da'am resolves not to fight al-Hadi and leaves Khiwan for Ghuraq, Safar 286 AH
+  ur: دعام کا ہادی سے نہ لڑنے کا فیصلہ اور خیوان سے غرق روانگی، صفر 286ھ
+summary:
+  ar: لما اختلف رأي أهل خيوان بين قتال الهادي ومخادعته، قال الدعام إنه أول من استدعى هذا الرجل وأخرجه من بلده، وإنه عازم ألا يقاتله أبداً وأن يسمع له ويطيع، وإنه خارج من خيوان إلى بلده، وترك لهم أن يعملوا لأنفسهم. وأرسل جماعة من مشايخ خيوان ووجوهها إلى الهادي بهذا الكلام وخرج هو إلى غرق، فوصلوا إلى حوث وطلبوا الأمان لأهل خيوان فأعطاهم إياه.
+  en: When the people of Khiwan differed between fighting al-Hadi and deceiving him, al-Da'am said that he was the first to bring this man and take him out of his own land, that he was resolved never to fight him and to hear and obey, and that he was leaving Khiwan for his own country, leaving them to act for themselves. He sent a party of Khiwan's elders and notables to al-Hadi with this message and went out to Ghuraq; they came to Hawth and asked safe-conduct for the people of Khiwan, which al-Hadi gave.
+  ur: جب خیوان والوں کی رائے ہادی سے لڑنے اور انہیں دھوکہ دینے کے بارے میں بٹ گئی تو دعام نے کہا کہ وہی ہے جس نے اس شخص کو بلایا اور اس کے وطن سے نکالا، اور وہ طے کر چکا ہے کہ کبھی اس سے نہیں لڑے گا بلکہ سنے گا اور مانے گا، اور وہ خیوان سے اپنے ملک جا رہا ہے، لوگ اپنی فکر خود کریں۔ اس نے خیوان کے کچھ بزرگوں اور معززین کو یہ پیغام دے کر ہادی کے پاس بھیجا اور خود غرق چلا گیا؛ وہ حوث پہنچے اور اہل خیوان کے لیے امان مانگی جو انہوں نے دے دی۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-02
+    hijri: 0286-02
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: أيام ماضية من صفر سنة 286هـ؛ وصفر يبدأ نحو 16 شباط 899م جولياني بالتقويم الجدولي؛ الشهر فقط؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/ghuraq-yemen
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/khiwan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/hawth-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص112-113 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-15
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 112-113
