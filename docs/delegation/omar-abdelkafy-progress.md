@@ -3194,3 +3194,17 @@ Resume point: min-kunuz-al-sunnah episode 21 (branch from origin/main).
 | Third pillar of faith | ep21 00:12:00-00:13:00 | The third of the three pillars is not stated in the transcript | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 22 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep22 (14 Nov 2026)
+
+15 points written for episode 22 (ar, en, ur); 10 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (39-42); none typed. Contested: He holds that provision is a wide encyclopedia with money its last page, that dawn-prayer timing affects blessing in provision, that a hormone claim ties happiness to night sleep, and that a person is compelled in what he is not reckoned for and free in what he is; these are his views.
+
+| Excluded (min-kunuz-al-sunnah ep22) | Episode / time | Reason | Gate failed | Override |
+| Greetings, praise and opening prayer | ep22 00:00:00-00:00:30 | Opening formula, no content | Content rule | Open |
+| Break join and welcome back | ep22 00:08:00-00:08:30, 00:16:00-00:16:30 | Break announcements and greetings | Content rule | Open |
+| Closing prayer for sincere intentions | ep22 00:24:30-00:25:00 | Closing prayer, not lesson content | Content rule | Open |
+| Remark about the faces of Arabs and a comparison with the West on life as one chance | ep22 00:11:30-00:12:00, 00:15:30-00:16:00 | Sweeping claim about peoples | Voice rule | Open |
+| Satellite dish tuning analogy | ep22 00:23:30-00:24:00 | Garbled aside, not recoverable | Clarity | Open |
+| Repeated filler characters | ep22 00:23:00-00:23:30 | Loop in the transcript | Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 23 (branch from origin/main).
