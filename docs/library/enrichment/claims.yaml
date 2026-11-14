@@ -2,10 +2,17 @@
 # change only the state, prs and note of your own (or append a new entry).
 claims:
   - id: c-20261114-founder-held-musta-in
-    gap: ledger
-    class: "*"
-    slugs: [sulayman-al-mustain-duplicate-merge, babil-and-askalan-wording, sanaa-old-city-entry, kitab-al-manazir-pages-532-546-666, mawkib-al-nour-episode-29, opinion-rulings]
+    gap: ledger.open
+    class: ledger
+    slugs: [README-L22, README-L23, README-L24, README-L25, README-L26, README-L27, README-L28, README-L29, README-L30, README-L31, README-L32, README-L33, README-L34]
     agent: orchestrator
     state: blocked
     date: 2026-11-14
-    reason: "needs founder: items held in docs/delegation/lane-ledgers/README.md (Not decided); approval record dec-20261114-277"
+    reason: "needs founder: items under Not decided in docs/delegation/lane-ledgers/README.md; approval record dec-20261114-277"
+  - id: c-20261114-gemini-batch
+    gap: ledger.gemini
+    class: ledger
+    agent: orchestrator
+    state: blocked
+    date: 2026-11-14
+    reason: "needs Gemini: questions logged as GEMINI: lines are sent in batches through the founder; the orchestrator hands back verified answers, which you still verify against a primary source"

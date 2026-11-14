@@ -6,22 +6,24 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية للناصر الحسن بن عز الدين، إمام الدولة الزيدية في اليمن القرن السادس عشر، توفي سنة ١٥٢٣م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Nasir al-Hasan ibn Izz al-Din, the sixteenth-century imam of the Zaydi state of Yemen, d. 1523; the dynastic handbook entry is not yet checked on the page."
+  ar: "الحسن بن عز الدين بن الحسن، الناصر للدين، من أئمة الزيدية باليمن، دعا لنفسه في حصن كحلان بعد وفاة أبيه سنة 900 هـ، ثم فسخ القضاء إمامته، وتوفي في فللة، له القسطاس المقبول، ⁦(862 - 929 هـ = 1458 - 1523 م)⁩."
+  en: "Al-Hasan ibn Izz al-Din ibn al-Hasan, al-Nasir li-Din Allah, a Zaydi imam of Yemen who claimed the imamate at Kuhlan after his father's death in 900 AH, saw it annulled by a judicial ruling, and died at Fallala; author of al-Qistas al-Maqbul (862-929 AH, 1458-1523)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4749677
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0050
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+born: { edtf: "1458", hijri: "0862", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli prints 862 AH = 1458 CE (entry al-Nasir al-Zaydi) {cite:alam-zirikli-dar-al-ilm-2002 vol. 2 p. 199}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1523", hijri: "0929", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli prints 929 AH = 1523 CE (entry al-Nasir al-Zaydi) {cite:alam-zirikli-dar-al-ilm-2002 vol. 2 p. 199}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/yemen, note: "From text: of Yemen", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

@@ -148,8 +148,44 @@ export function build(): { items: Item[]; stats: Record<string, any>; seconds: n
     }
   }
 
+  items.push(...ledgerItems());
   const stats: Record<string, any> = { entities: ents.length, stubs_wanted: seen.size };
   return { items, stats, seconds: (Date.now() - t0) / 1000 };
+}
+
+
+// ---------- ledger items: GEMINI lines, flagged links and mismatches, open lane items (text-derived, nothing invented) ----------
+function walkMd(dir: string, out: string[] = []): string[] {
+  if (!existsSync(dir)) return out;
+  for (const n of readdirSync(dir)) {
+    const p = join(dir, n);
+    if (statSync(p).isDirectory()) walkMd(p, out); else if (n.endsWith(".md")) out.push(p);
+  }
+  return out;
+}
+export function ledgerItems(): Item[] {
+  const items: Item[] = [];
+  const done = /\b(resolved|answered|fixed|done|merged|closed)\b/i;
+  const flagFiles = [...walkMd("docs/delegation/lane-ledgers"), "docs/delegation/web-sources-progress.md", ...walkMd("docs/delegation/library")].filter((f) => existsSync(f));
+  const mk = (gap: string, f: string, n: number, line: string, score: number) =>
+    items.push({ gap, cls: "ledger", slug: `${slugOf(f)}-L${n}`, score, text: `${line.trim().replace(/\s+/g, " ").slice(0, 220)}\tfile=${f}:${n}` });
+  for (const f of walkMd("docs/delegation")) {
+    const lines = readFileSync(f, "utf8").split("\n");
+    lines.forEach((l, i) => { if (l.includes("GEMINI:") && !done.test(l)) mk("ledger.gemini", f, i + 1, l, 10); });
+  }
+  for (const f of flagFiles) {
+    const lines = readFileSync(f, "utf8").split("\n");
+    lines.forEach((l, i) => { if (/unlinked|mismatch|identity|unmatched|needs link/i.test(l) && !done.test(l) && !l.includes("GEMINI:") && !l.startsWith("#")) mk("ledger.flagged", f, i + 1, l, 5); });
+  }
+  for (const f of walkMd("docs/delegation/lane-ledgers")) {
+    const lines = readFileSync(f, "utf8").split("\n");
+    let on = false, founder = false;
+    lines.forEach((l, i) => {
+      if (/^#{1,3} /.test(l)) { on = /resume point|^#+ next|open|pending|held|not decided|todo/i.test(l); founder = /not decided/i.test(l); return; }
+      if (on && /^\s*[-*] /.test(l) && !done.test(l)) mk("ledger.open", f, i + 1, (founder ? "HELD FOR THE FOUNDER (skip): " : "") + l, founder ? 1 : 3);
+    });
+  }
+  return items;
 }
 
 // ---------- claims ----------

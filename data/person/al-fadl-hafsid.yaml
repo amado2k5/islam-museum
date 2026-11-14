@@ -6,23 +6,25 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي العباس الفضل، خليفة أفريقية الحفصي القرن الرابع عشر، توفي سنة ١٣٥٠م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu'l-Abbas al-Fadl, the fourteenth-century Hafsid caliph of Ifriqiya, d. 1350; the dynastic handbook entry is not yet checked on the page."
+  ar: "الفضل بن أبي بكر المتوكل على الله الحفصي، أبو العباس، من ملوك الحفصيين بتونس، ولي سنة 750 هـ في أيام اختلال الدولة ومكث خمسة أشهر ونصفا ثم قتله بعض المتغلبين، ⁦(721 - 751 هـ = 1321 - 1350 م)⁩."
+  en: "Al-Fadl ibn Abi Bakr al-Mutawakkil ala Allah al-Hafsi, Abu al-Abbas, a Hafsid king in Tunis who took power in 750 AH amid the state's disorder, held it five and a half months and was killed by usurpers (721-751 AH, 1321-1350)."
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q11904617
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0048
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1350", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (al-Ibar)" }
+  completeness: 2
+died: { edtf: "1350", hijri: "0751", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (al-Ibar). al-Zirikli prints 751 AH = 1350 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 147}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "1321", hijri: "0721", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli prints 721 AH = 1321 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 147}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: ruler_of, target: place/ifriqiya, note: "From text: caliph of Ifriqiya", sources: [source/bosworth-new-islamic-dynasties-1996] }
+  - { type: ruler_of, target: place/tunis, note: "al-Zirikli, al-A'lam, vol. 5 p. 147: one of the Hafsid kings in Tunis; took power in 750 AH", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

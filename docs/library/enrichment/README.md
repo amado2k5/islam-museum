@@ -36,6 +36,9 @@ Or open a shard directly, no script needed: `docs/library/enrichment/queue/<gap>
 | `fact.date` | event without `date` | event |
 | `fact.author`, `fact.composed` | work without an author (no `authors`, no `written_by`, no inbound `authored`) or without `composed` or `date` | work |
 | `stub` | an id wanted in `data/_stubs.yaml` or `data/_stubs.d/*` that has no record yet: **create this record** | any |
+| `ledger.gemini` | a `GEMINI:` line in `docs/delegation/**`: a question outside research must settle. **Blocked (needs Gemini); agents skip them** | ledger |
+| `ledger.flagged` | a lane-ledger line that flags an unlinked match, identity mismatch or unmatched item | ledger |
+| `ledger.open` | a bullet under a resume, next, open or held heading in the lane ledgers; items under "Not decided" are marked HELD FOR THE FOUNDER and skipped | ledger |
 
 Thresholds and why:
 
@@ -88,19 +91,22 @@ Held for the founder (agents skip them): the items in `docs/delegation/lane-ledg
 | `id.openiti` | 2080 | 0 | work 1683, person 397 |
 | `id.pleiades` | 3843 | 0 | place 3843 |
 | `id.viaf` | 1938 | 0 | work 1683, person 255 |
-| `prose.missing.ar` | 13771 | 0 | building 5384, person 2452, event 2417, place 1904, work 1236, concept 151, group 114, polity 109, object 4 |
-| `prose.missing.en` | 13977 | 0 | building 5384, event 2474, person 2470, place 1919, work 1236, concept 265, group 114, polity 109, object 4, journey 1, practice 1 |
-| `prose.missing.ur` | 13991 | 0 | building 5386, event 2474, person 2470, place 1919, work 1236, concept 276, group 114, polity 109, object 5, journey 1, practice 1 |
-| `prose.partial.ar` | 10794 | 0 | person 4784, event 1537, place 1282, concept 835, object 501, screen 310, exhibit 307, course 290, work 261, question 193, group 189, building 133, listing 87, polity 34, journey 16, language 13, practice 12, award 9, period 1 |
-| `prose.partial.en` | 8478 | 0 | person 3653, place 1113, event 1071, concept 548, object 488, exhibit 305, course 286, screen 275, work 212, question 176, group 125, building 84, listing 83, polity 18, language 13, journey 11, award 10, practice 7 |
-| `prose.partial.ur` | 9682 | 0 | person 4080, event 1194, place 1162, concept 927, object 491, exhibit 307, screen 294, course 293, work 270, question 178, group 158, listing 134, building 112, award 26, polity 20, language 13, journey 12, practice 10, period 1 |
+| `ledger.flagged` | 92 | 0 | ledger 92 |
+| `ledger.gemini` | 0 | 186 |  |
+| `ledger.open` | 36 | 13 | ledger 36 |
+| `prose.missing.ar` | 13760 | 0 | building 5384, person 2442, event 2417, place 1903, work 1236, concept 151, group 114, polity 109, object 4 |
+| `prose.missing.en` | 13966 | 0 | building 5384, event 2474, person 2460, place 1918, work 1236, concept 265, group 114, polity 109, object 4, journey 1, practice 1 |
+| `prose.missing.ur` | 13980 | 0 | building 5386, event 2474, person 2460, place 1918, work 1236, concept 276, group 114, polity 109, object 5, journey 1, practice 1 |
+| `prose.partial.ar` | 10799 | 0 | person 4789, event 1537, place 1277, concept 840, object 501, screen 310, exhibit 307, course 290, work 261, question 193, group 189, building 133, listing 87, polity 34, journey 16, language 13, practice 12, award 9, period 1 |
+| `prose.partial.en` | 8479 | 0 | person 3657, place 1110, event 1071, concept 548, object 488, exhibit 305, course 286, screen 275, work 212, question 176, group 125, building 84, listing 83, polity 18, language 13, journey 11, award 10, practice 7 |
+| `prose.partial.ur` | 9682 | 0 | person 4085, event 1194, place 1157, concept 927, object 491, exhibit 307, screen 294, course 293, work 270, question 178, group 158, listing 134, building 112, award 26, polity 20, language 13, journey 12, practice 10, period 1 |
 | `review.draft.ar` | 200 | 0 | person 178, concept 17, event 5 |
 | `review.draft.en` | 213 | 0 | person 178, concept 34, work 1 |
 | `review.draft.ur` | 212 | 0 | person 178, concept 33, work 1 |
 | `sources.none` | 22 | 0 | place 17, event 5 |
 | `sources.weak` | 70 | 0 | person 52, event 6, award 5, work 5, building 1, listing 1 |
 | `stub` | 1871 | 0 | person 1465, concept 92, group 89, place 86, work 80, practice 22, language 20, source 7, listing 4, event 3, building 2, object 1 |
-| `wikidata` | 15361 | 0 | person 5600, concept 3042, event 2838, place 1537, work 1109, object 479, group 331, building 253, invention 100, polity 52, period 13, award 7 |
+| `wikidata` | 15417 | 0 | person 5600, concept 3084, event 2852, place 1537, work 1109, object 479, group 331, building 253, invention 100, polity 52, period 13, award 7 |
 <!-- COUNTS:END -->
 
 `status.yaml` holds the same counts by class with the date and the run time.
