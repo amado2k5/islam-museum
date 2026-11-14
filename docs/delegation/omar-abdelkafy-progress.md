@@ -3814,3 +3814,24 @@ Resume point: sharh-saheeh-al-bukhare episode 13 (branch from origin/main).
 | Throne-bearers' two praise formulas and the "shy" middle person in the three-people report | ep13 00:55:30-00:56:00, 01:17:00-01:17:30 | Garbled; wording not recoverable from the transcript | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 14 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep14 (14 Nov 2026)
+
+23 points written for episode 14 (ar, en, ur); 12 needs_source marks in each language file for this episode; 12 new `about` edges. Quran verses referenced only through passage links (1-1, 1-2, 1-3, 1-4, 1-5, 1-6, 1-7); none typed. Contested: He gives his own readings on how faith rises and falls, on the shortcomings of the Companions, on the secret of purity and of the opening takbir, on the Fatiha, on naming prophets and later scholars as those favoured, and a rule on saying God knows best versus God and His Messenger know best; all are marked as his view. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep14) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, praise and opening prayer | ep14 00:00:00-00:03:00 | Opening formulas and invocations, no content point | Content rule | Open |
+| Break join, advert for a company and closing remarks | ep14 01:22:30-01:23:30 | Looping words, then closing remarks and a commercial notice, not teaching | Content rule, Loop check | Open |
+| Inheritance case before Umar, slave-market story and remarks on the science of inheritance | ep14 00:08:30-00:11:30 | Garbled, speakers and figures unclear | Clarity | Open |
+| Dialect aside, grammar question and repeated words | ep14 00:15:30-00:17:30 | Garbled and looping | Clarity, Loop check | Open |
+| Stretch on what a nursing child's urine does to a prayer and on the prayer of a person pressed or tightly shod | ep14 00:25:00-00:34:30 | Garbled, partly colloquial and unclear who is quoted; only the report at 00:26:30 is used | Clarity | Open |
+| Remarks on a sign-of-ablution dispute, ring marriage vows and divorce | ep14 00:36:30-00:37:30 | Garbled | Clarity | Open |
+| Sweeping asides on how Muslims are today and on others | ep14 00:33:00 | One passing generalisation about present-day Muslims | Voice rule | Open |
+| Loops at 00:14:30, 00:17:00, 00:28:30, 00:29:00, 00:44:30, 00:48:30, 00:51:00, 00:53:30, 00:55:00, 00:59:30, 01:08:00-01:09:30, 01:10:30, 01:16:30, 01:22:30 | ep14 various | Repeated words | Clarity, Loop check | Open |
+| Hunger story, stories of those given contentment and the man of the heroin trade and Iblis | ep14 01:00:00-01:06:00 | Garbled, speakers and sequence unclear | Clarity | Open |
+| Stretch on reciting the Fatiha correctly, a preacher on the pulpit and a man late for prayer in Umar's time | ep14 01:10:00-01:13:00 | Garbled, speakers unclear | Clarity | Open |
+| Names and details the transcript does not clearly support: the exact count of the series, the narrator of the man's departure remark, the name of the scholar quoted at 00:51:30, the Companion reports at 00:11:00 | ep14 00:00:00, 00:19:00, 00:51:30, 00:11:00 | Garbled or absent, reduced to what is clear | Clarity | Open |
+| Percentages and sums of money in the two illustrations (marks falling, money given from a small and a large sum), the tie of the dignity of a gift to what is left, the full list of what faith is believed in, and the claim that cleaning the outward serves a clean heart | ep14 00:06:00, 00:08:00, 00:18:30-00:19:00, 00:47:30 | Illustrative figures, garbled or not clearly stated; reduced to what is clear | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 15 (branch from origin/main).
