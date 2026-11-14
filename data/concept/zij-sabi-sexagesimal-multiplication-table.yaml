@@ -1,0 +1,20 @@
+id: concept/zij-sabi-sexagesimal-multiplication-table
+class: concept
+kind: scientific
+label: { ar: "جدول ضرب الأجناس الستينية", en: "The table for multiplying sexagesimal orders", ur: "ستینی اجناس کے ضرب کا جدول" }
+summary:
+  ar: "يضع البتاني جدولين مرتبين لمعرفة جنس حاصل ضرب أي جنسين من أجناس الدرج والكسور دون حساب، ويشرح طريقة استعمالهما: يؤخذ أحد الجنسين من سطر الجدول الأول في العرض ويُخرج منه على استقامة إلى أن يوازي الجنس الآخر في الجدول الثاني، فالبيت الذي يلتقيان فيه هو جنس الحاصل. {cite:zij-sabi-nallino-byblion pp.13-14}."
+  en: "Al-Battani sets two arranged tables for finding the order of the product of any two orders of degrees and fractions without computing, and explains their use: take one order from the first table's row along the width, run straight out from it until it faces the other order in the second table, and the cell where they meet is the order of the product. {cite:zij-sabi-nallino-byblion pp.13-14}."
+  ur: "البتانی دو مرتب جدول رکھتے ہیں تاکہ درجوں اور کسور کی کسی بھی دو اجناس کے حاصل ضرب کی جنس بغیر حساب کے معلوم ہو، اور ان کے استعمال کا طریقہ بتاتے ہیں: پہلے جدول کی چوڑائی کی ایک سطر سے ایک جنس لی جاتی ہے، اس سے سیدھے نکل کر دوسرے جدول میں دوسری جنس کے محاذی پہنچا جاتا ہے، اور جس خانے میں دونوں ملیں وہ حاصل کی جنس ہے۔ {cite:zij-sabi-nallino-byblion pp.13-14}۔"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "al-Zij al-Sabi, introduction and chapters 1 to 4 (scan pages 5 to 23), Arabic text ed. C. A. Nallino (Byblion, Jbeil 2005), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: zij-sabi-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

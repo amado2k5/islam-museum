@@ -1,0 +1,20 @@
+id: concept/zij-sabi-sexagesimal-square-roots
+class: concept
+kind: scientific
+label: { ar: "الجذر في الأعداد الستينية", en: "Square roots of sexagesimal quantities", ur: "ستینی اعداد کا جذر" }
+summary:
+  ar: "يعرّف البتاني الجذر بأنه العدد الذي إذا ضرب في مثله كان المجتمع منه العدد المفروض، ثم يبين أن جذر الدرج درج وأن جذر الأجناس الزوجية التي دون الدرج كالثواني والروابع والسوادس يكون من الجنس الأرفع منه بمقدار النصف، وأن الأجناس الفردية كالدقائق والثوالث لا جذر محدوداً لها إلا إذا بُسطت إلى الجنس الذي دونها حتى تصير زوجية. {cite:zij-sabi-nallino-byblion pp.14-15}."
+  en: "Al-Battani defines the root as the number which multiplied by itself gives the given number, then shows that the root of degrees is degrees, that the root of the even orders below the degree, seconds, fourths and sixths, falls in the higher order at half the distance, and that the odd orders, minutes and thirds, have no definite root unless they are extended to the order beneath them until they become even. {cite:zij-sabi-nallino-byblion pp.14-15}."
+  ur: "البتانی جذر کی تعریف اس عدد کے طور پر کرتے ہیں جو اپنے ہی مثل سے ضرب پائے تو مفروض عدد حاصل ہو، پھر بتاتے ہیں کہ درجوں کا جذر درجے ہے، درجے سے نیچے کی جفت اجناس، یعنی ثوانی، روابع اور سوادس، کا جذر آدھے فاصلے کے برابر اوپر والی جنس میں آتا ہے، اور طاق اجناس، دقائق اور ثوالث، کا کوئی محدود جذر نہیں جب تک انہیں نیچے والی جنس تک پھیلا کر جفت نہ بنا لیا جائے۔ {cite:zij-sabi-nallino-byblion pp.14-15}۔"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "al-Zij al-Sabi, introduction and chapters 1 to 4 (scan pages 5 to 23), Arabic text ed. C. A. Nallino (Byblion, Jbeil 2005), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: zij-sabi-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

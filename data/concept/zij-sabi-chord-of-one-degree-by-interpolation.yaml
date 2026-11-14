@@ -1,0 +1,20 @@
+id: concept/zij-sabi-chord-of-one-degree-by-interpolation
+class: concept
+kind: scientific
+label: { ar: "وتر الجزء الواحد بالتقريب عند البتاني", en: "The chord of one degree by approximation in al-Battani", ur: "البتانی کے ہاں ایک درجے کے وتر کا تقریبی استخراج" }
+summary:
+  ar: "يقرر البتاني أن بعض الأوتار، كوتر الجزء الواحد وما يتضاعف منه، لا يمكن استخراجه بالحساب على طريق البرهان كما تستخرج الأوتار الأخرى، لكنه يعلم بالبرهان أن نسبة وتر القوس الصغرى إلى قوسها أعظم من نسبة وتر القوس العظمى إلى قوسها، فيستعين بوتري الجزء والنصف والنصف والربع المعلومين، ويأخذ وتر الثلاثة الأرباع ويزيد عليه ثلثه ليجعله وتر الجزء الواحد. {cite:zij-sabi-nallino-byblion p.18}."
+  en: "Al-Battani states that some chords, such as that of one degree and its multiples, cannot be derived by calculation along the road of proof as the others are, but it is known by proof that the ratio of the chord of a smaller arc to its arc is greater than that of a larger arc, so he relies on the known chords of a degree and a half and of a half and a quarter, and takes the chord of three quarters of a degree and adds a third of it to make the chord of one degree. {cite:zij-sabi-nallino-byblion p.18}."
+  ur: "البتانی طے کرتے ہیں کہ بعض اوتار، جیسے ایک درجے کا وتر اور اس کے اضعاف، دوسرے اوتار کی طرح برہانی حساب سے نہیں نکالے جا سکتے، لیکن برہان سے معلوم ہے کہ چھوٹی قوس کے وتر کی اپنی قوس سے نسبت بڑی قوس کے وتر کی اپنی قوس سے نسبت سے زیادہ ہے؛ چنانچہ وہ ڈیڑھ درجے اور سوا درجے کے معلوم اوتار سے مدد لیتے ہیں، تین چوتھائی درجے کا وتر لے کر اس میں اس کا تہائی جوڑ دیتے ہیں اور اسے ایک درجے کا وتر بناتے ہیں۔ {cite:zij-sabi-nallino-byblion p.18}۔"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "al-Zij al-Sabi, introduction and chapters 1 to 4 (scan pages 5 to 23), Arabic text ed. C. A. Nallino (Byblion, Jbeil 2005), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: zij-sabi-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
