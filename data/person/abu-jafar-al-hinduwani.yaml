@@ -3,27 +3,28 @@ class: person
 label:
   ar: "أبو جعفر الهندواني"
   en: "Abu Ja'far al-Hinduwani"
-roles: [scholar]
+roles: [scholar, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي جعفر الهندواني، فقيه القرن العاشر، توفي سنة ٩٧٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ja'far al-Hinduwani, the tenth-century jurist, d. 972; the biographical entry is not yet checked on the page."
+  ar: "محمد بن عبد الله بن محمد، أبو جعفر البلخي الهندواني، فقيه كان يقال له أبو حنيفة الصغير لبراعته في الفقه، توفي ببخارى سنة 362 هـ، ونسبته إلى باب هندوان محلة ببلخ، على ما يذكر ابن العماد."
+  en: "Muhammad ibn Abdallah ibn Muhammad, Abu Ja'far al-Balkhi al-Hinduwani, a jurist called Little Abu Hanifa for his skill in jurisprudence; died in Bukhara in 362 AH (972-973) according to Ibn al-Imad; the nisba is to Bab Hinduwan, a quarter of Balkh."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/shadharat-dhahab]
 external_ids:
   wikidata: Q130261649
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0068
+  source: "Ibn al-Imad, Shadharat al-Dhahab, entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "913", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya; al-Dhahabi, Siyar" }
-died: { edtf: "973", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya; al-Dhahabi, Siyar" }
+died: { edtf: "973", hijri: "0362", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya; al-Dhahabi, Siyar. Ibn al-Imad lists him among those who died in 362 AH {cite:shadharat-dhahab vol. 4 p. 328}; that year runs from October 972 to October 973, and the earlier card summary said 972.", sources: [source/shadharat-dhahab] }
 relations:
-  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/iran, sources: [source/al-aalam], confidence: low, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review." }
+  - { type: died_in, target: place/bukhara, sources: [source/shadharat-dhahab], confidence: high, note: "Ibn al-Imad, Shadharat al-Dhahab, vol. 4 p. 329: he died in Bukhara and was the shaykh of those lands in his time" }

@@ -3,27 +3,30 @@ class: person
 label:
   ar: "أحمد العطار"
   en: "Ahmad al-Attar"
-roles: [poet, scholar]
+roles: [poet, scholar, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد العطار، فقيه وشاعر عراقي، توفي سنة ١٨٠٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad al-Attar, the Iraqi jurist and poet, d. 1800; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن محمد بن علي الحسني البغدادي العطار، فقيه إمامي ينقل الزركلي أنه من أهل بغداد انتقل إلى النجف أو أنه نجفي ولادة ووفاة، من كتبه «التحقيق» في 12 مجلدا و«رياض الجنان في أعمال شهر رمضان» وديوان شعر في مديح الأئمة، وتوفي سنة 1215 هـ."
+  en: "Ahmad ibn Muhammad ibn Ali al-Hasani al-Baghdadi al-Attar, an Imami jurist whom al-Zirikli describes as of Baghdad and moved to al-Najaf, or else Najafi by birth and death; his books include al-Tahqiq in 12 volumes, Riyad al-Jinan fi A'mal Shahr Ramadan and a diwan in praise of the Imams; died 1215 AH (1800)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q56605536
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0071
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); A'yan al-Shi'a" }
-died: { edtf: "1800", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); A'yan al-Shi'a" }
+  completeness: 3
+born: { edtf: "1713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); A'yan al-Shi'a. Card year kept: al-Zirikli prints 1127 AH = 1715 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 244}, two years later (see the GEMINI line in the ledger)." }
+died: { edtf: "1800", hijri: "1215", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); A'yan al-Shi'a. al-Zirikli prints 1215 AH = 1800 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 244}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/iraq, sources: [source/al-aalam], confidence: low, note: "Place association from the person's nisba/name ⁦(عراقي)⁩; denotes association, not proven residence." }
+  - { type: lived_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, al-A'lam, vol. 1 p. 244: of the people of Baghdad (or Baghdadi by origin)" }
+  - { type: lived_in, target: place/najaf, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, al-A'lam, vol. 1 p. 244: moved to al-Najaf, or Najafi by birth and death" }
+  - { type: died_in, target: place/najaf, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, al-A'lam, vol. 1 p. 244: both versions put him in al-Najaf; the second says Najafi by death" }

@@ -3,26 +3,28 @@ class: person
 label:
   ar: "عين الشمس بنت أحمد"
   en: "Ayn al-Shams bint Ahmad"
-roles: [poet]
-gender: male
+names:
+  - { kind: full, lang: ar, value: "عين الشمس بنت أحمد بن أبي الفرج الأصبهانية" }
+roles: [scholar]
+gender: female
 summary:
-  ar: "بطاقة أولية لعين الشمس بنت أحمد؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ayn al-Shams bint Ahmad; the entry is not yet checked on the page."
+  ar: "عين الشمس بنت أحمد بن أبي الفرج، الفقيهة الأصبهانية، سمعت من إسماعيل بن الإخشيذ ومن أبي ذر وكانت آخر من حدث عنهما، وتوفيت في ربيع الآخر سنة 610 هـ."
+  en: "Ayn al-Shams bint Ahmad ibn Abi al-Faraj, the woman jurist of Isfahan, who heard from Isma'il ibn al-Ikhshid and from Abu Dharr and was the last to narrate from them; died in Rabi' al-Akhir 610 AH (1213)."
 wings: [people]
-regions: [levant-iraq]
+regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "1213", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
+died: { edtf: "1213", hijri: "0610", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam). Ibn al-Imad lists her among the deaths of 610 AH, in Rabi' al-Akhir {cite:shadharat-dhahab vol. 7 p. 79}, agreeing with the card.", sources: [source/shadharat-dhahab] }
 relations:
-  - { type: lived_in, target: place/iraq, note: "Record regions field is levant-iraq, flagged.", sources: [source/al-aalam], confidence: low }
-sources: [source/al-aalam]
+  - { type: lived_in, target: place/isfahan, note: "Place association from the nisba al-Isbahaniyya given by Ibn al-Imad, Shadharat al-Dhahab, vol. 7 p. 79; denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+sources: [source/al-aalam, source/shadharat-dhahab]
 external_ids:
   wikidata: Q20395157
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Ibn al-Imad, Shadharat al-Dhahab (Dar Ibn Kathir ed.), entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
