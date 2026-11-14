@@ -1,30 +1,37 @@
 id: person/ahmad-al-buni
 class: person
-label:
-  ar: "أحمد بن علي البوني"
-  en: "Ahmad al-Buni"
+label: {ar: أحمد بن علي البوني, en: Ahmad al-Buni}
 roles: [scholar, writer]
 gender: male
-summary:
-  ar: "بطاقة أولية لأحمد بن علي البوني، صوفي المغرب في القرن الثالث عشر صاحب «شمس المعارف» وأعمال الحروف، توفي سنة ١٢٢٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Ali al-Buni, the thirteenth-century Maghrebi Sufi author of Shams al-Ma'arif and works on letter-lore, d. 1225; the biographical entry is not yet checked on the page."
+summary: {ar: 'أحمد بن علي بن يوسف البوني، أبو العباس: متصوف مغربي الأصل من مصنفي علم الحروف، صاحب «شمس المعارف الكبرى»، توفي بالقاهرة سنة ٦٢٢ هـ الموافقة ١٢٢٥ م.', en: 'Ahmad ibn Ali al-Buni, Abu al-Abbas: a Sufi of Maghribi origin who wrote on the science of letters, author of «Shams al-Ma''arif al-Kubra», died in Cairo in 622 AH (1225 CE).'}
 wings: [people]
-regions: [maghreb]
+regions: [maghreb, egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [spirituality-and-sufism]
-sources: [source/al-aalam, source/wikidata]
-external_ids:
-  wikidata: Q4695507
-  viaf: "27877669"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0026
-status:
-  review: draft
-  completeness: 1
-died: { edtf: "1225", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q4695507 (P570, a statement with a reference), item revision 2567226968.", sources: [source/wikidata] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+external_ids: {wikidata: Q4695507, viaf: '27877669'}
+provenance: {layer: own-research, source: 'al-Zirikli, al-A''lam, 15th ed. 2002, entry read in full from the local OpenITI text', generated_by: Claude Code (Lane B2 packet), model: claude-sonnet-5-5, run: web-b2-alam-2026-11-14}
+status: {review: draft, completeness: 3}
+died:
+  edtf: '1225'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 1 p. 156: died 622 AH = 1225 CE, in Cairo.'
+  sources: &id001 [source/alam-zirikli-dar-al-ilm-2002]
 relations:
-  - { type: lived_in, target: place/maghreb, note: "From text: Maghrebi (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }
+- type: lived_in
+  target: place/maghreb
+  note: 'From text: Maghrebi (nationality adjective); broad association, flagged for review.'
+  sources: [source/al-aalam]
+  confidence: low
+- type: died_in
+  target: place/cairo
+  note: 'From al-A''lam: died in Cairo.'
+  sources: *id001
+  confidence: medium
+- type: lived_in
+  target: place/bunah
+  note: Nisba to Bona on the coast of Ifriqiya, as al-A'lam states; an association, not a stated residence.
+  sources: *id001
+  confidence: medium

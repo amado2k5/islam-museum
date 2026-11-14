@@ -1,34 +1,49 @@
 id: person/al-mullawi
 class: person
-label:
-  ar: "الملوي"
-  en: "al-Mullawi"
+label: {ar: الملوي, en: al-Mullawi}
 roles: [jurist]
 gender: male
-summary:
-  ar: "بطاقة أولية للملوي، الفقيه الشافعي المصري صاحب الحاشية المشهورة، توفي سنة ١٧٦٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Mullawi, the Egyptian Shafi'i jurist known for his commentary, d. 1767; the biographical entry is not yet checked on the page."
+summary: {ar: أحمد بن عبد الفتاح الملوي المجيري، أبو العباس شهاب الدين، شافعي أزهري وصفه الزركلي بشيخ الشيوخ في عصره، حموي الأصل، ولد ومات بالقاهرة ١٠٨٨ إلى ١١٨١ هـ الموافقة ١٦٧٧ إلى ١٧٦٧ م، وله شروح وحواش في المنطق والتوحيد والبلاغة., en: 'Ahmad ibn Abd al-Fattah al-Mullawi al-Mujiri, Abu al-Abbas Shihab al-Din, a Shafi''i of al-Azhar whom al-Zirikli calls the shaykh of the shaykhs of his age, of Hamawi origin, born and died in Cairo, 1088 to 1181 AH (1677 to 1767 CE), author of commentaries and glosses in logic, theology and rhetoric.'}
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
-external_ids:
-  wikidata: Q28714945
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0083
-status:
-  review: draft
-  completeness: 1
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+external_ids: {wikidata: Q28714945}
+provenance: {layer: own-research, source: 'al-Zirikli, al-A''lam, 15th ed. 2002, entry read in full from the local OpenITI text', generated_by: Claude Code (Lane B2 packet), model: claude-sonnet-5-5, run: web-b2-alam-2026-11-14}
+status: {review: draft, completeness: 3}
 occupations:
-  - job: job/faqih
-    kind: primary
-    status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
-died: { edtf: "1767", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 1/298; Ahmad al-Mallawi; 1098–1181 AH) Confirmed on 13 November 2026 against Wikidata Q28714945 (P570, a statement with a reference), item revision 2566687633.", sources: [source/wikidata] }
+- job: job/faqih
+  kind: primary
+  status: historical
+  note: bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep
+  sources: [source/al-aalam]
+died:
+  edtf: '1767'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 1 p. 148: died 1181 AH = 1767 CE, in Cairo.'
+  sources: &id001 [source/alam-zirikli-dar-al-ilm-2002]
 relations:
-  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+- type: lived_in
+  target: place/misr
+  note: Egypt; the card's earlier nisba-based note is replaced by the entry.
+  sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  confidence: medium
+- type: born_in
+  target: place/cairo
+  note: 'From al-A''lam: born and died in Cairo.'
+  sources: *id001
+  confidence: medium
+- type: died_in
+  target: place/cairo
+  note: 'From al-A''lam: born and died in Cairo.'
+  sources: *id001
+  confidence: medium
+born:
+  edtf: '1677'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 1 p. 148: born 1088 AH = 1677 CE, in Cairo. The earlier card note (1098 AH) is corrected to the entry.'
+  sources: *id001
