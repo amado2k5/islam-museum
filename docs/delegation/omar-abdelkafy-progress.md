@@ -2905,3 +2905,14 @@ Resume point: min-kunuz-al-sunnah episode 6 (branch from origin/main).
 | Loops and garbled stretches (a repeated phrase on a saying attributed to Ali, a loop over the list of what he believes, a loop on the worker who wastes hours) | ep06 00:06:00-00:06:30, 00:10:30-00:11:00, 00:15:00-00:15:30 | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 7 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep07 (14 Nov 2026)
+
+12 points written for episode 7 (ar, en, ur); 8 needs_source marks in each language file for this episode; 10 new `about` edges. Quran verses referenced only through passage links (29-2, 29-3, 26-218, 26-219); none typed.
+
+| Excluded (min-kunuz-al-sunnah ep07) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep07 00:00:00, 00:09:30-00:10:00, 00:17:00-00:17:30, 00:24:30 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (a run of one letter, the stretch on limestone temperaments, the stretch on the Companions' attention to the world) | ep07 00:01:00, 00:07:30-00:08:30 (part), 00:13:00 (part) | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 8 (branch from origin/main).
