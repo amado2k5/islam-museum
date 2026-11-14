@@ -1,0 +1,18 @@
+id: concept/canon-black-and-green-stool-and-its-form-and-time
+class: concept
+kind: scientific
+label: { ar: "البراز الأسود والأخضر وهيئته ووقته عند ابن سينا", en: "Black and green stool, and its form and timing, in the Canon", ur: "سیاہ اور سبز فضلہ، اس کی شکل اور وقت قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن البراز الأسود يدل مثل البول الأسود على احتراق شديد أو نضج مرض سوداوي أو تناول صابغ أو مسهل للسوداء، وأن الأخضر يدل على انطفاء الغريزة، ثم هيئة البراز ووقته وصفة أفضله. {cite:canon-ibn-sina-print-v1 p.199}."
+  en: "Ibn Sina says black stool shows, like black urine, intense burning, the maturing of a black-bile illness, a dye taken in, or a drink that purges black bile; green shows the quenching of the innate heat; then he turns to its form, timing and the best stool. {cite:canon-ibn-sina-print-v1 p.199}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-stool-signs, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,59 @@
+id: event/al-hadi-charges-the-akilis-at-al-sabra-and-the-fourteen-arrows-287
+class: event
+kind: other
+label:
+  ar: "الهادي يحمل على الأكيليين في الصبرة والسهام الأربعة عشر، شعبان 287هـ"
+  en: "Al-Hadi charges the Akilis at al-Sabra and the fourteen arrows, Sha'ban 287 AH"
+  ur: "الصبرہ میں ہادی کا اکیلیوں پر حملہ اور چودہ تیر، شعبان 287ھ"
+summary:
+  ar: "حمل الهادي في سبعة فرسان على نحو مئة وخمسين فارساً انتخبهم ابن عباد في جبل الصبرة، فرموه بالنبل فأصابوه بأربعة عشر سهماً بحسب الراوي، وطردهم وهزمتهم رجالته، وأمر بقطع رؤوس قتلى الأكيليين."
+  en: "Al-Hadi charged, with seven riders, about a hundred and fifty riders Ibn Abbad had picked on the mountain of al-Sabra; they shot at him and, by the narrator's count, hit him with fourteen arrows, and he drove them off and his foot routed them; he ordered the heads of the Akili dead cut off."
+  ur: "ہادی نے سات سواروں کے ساتھ ان تقریباً ایک سو پچاس سواروں پر حملہ کیا جنہیں ابن عباد نے الصبرہ پہاڑ میں چنا تھا؛ انہوں نے تیر برسائے اور راوی کے حساب سے ہادی کو چودہ تیر لگے، انہوں نے انہیں بھگایا اور ان کے پیادوں نے شکست دی، اور اکیلی مقتولوں کے سر کاٹنے کا حکم دیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-08"
+    hijri: "0287-08"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شعبان سنة 287هـ بحسب ترتيب السرد في اليوم التالي لليلة النصف؛ الدقة شهرية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/allaf-yemen
+- type: occurred_at
+  target: place/al-sabra-allaf-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-abbad-al-akili
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-akiliyyun-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص192 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-23
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 192

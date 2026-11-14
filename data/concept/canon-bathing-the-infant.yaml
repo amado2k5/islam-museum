@@ -1,0 +1,18 @@
+id: concept/canon-bathing-the-infant
+class: concept
+kind: scientific
+label: { ar: "إحمام المولود", en: "Bathing the infant", ur: "نومولود کو نہلانا" }
+summary:
+  ar: "يحدد ابن سينا طريقة إحمام الطفل: بماء معتدل صيفاً ومائل إلى الحرارة غير اللاذعة شتاء، بعد نومه الأطول، مرتين أو ثلاثاً في اليوم، بإمساك خاص وتنشيف رفيق ثم تقطير زيت عذب في أنفه {cite:canon-ibn-sina-print-v1 p.204}."
+  en: "Ibn Sina sets out how to bathe an infant: in balanced water in summer and in water leaning to warm but not stinging in winter, after its longest sleep, two or three times a day, with a particular hold, gentle drying and then sweet oil dropped in the nose {cite:canon-ibn-sina-print-v1 p.204}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, the cause of health and disease, Ta'lim 1 on upbringing (scan pages 200 to 211), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p200
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

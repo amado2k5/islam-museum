@@ -1,0 +1,59 @@
+id: event/al-hadi-razes-akili-houses-and-cuts-vines-at-saada-and-afqayn-287
+class: event
+kind: other
+label:
+  ar: "الهادي يهدم منازل الأكيليين ويقطع أعنابهم بصعدة وأفقين، جمادى الآخرة 287هـ"
+  en: "Al-Hadi pulls down Akili houses and cuts their vines at Sa'da and Afqayn, Jumada II 287 AH"
+  ur: "ہادی کا صعدہ اور افقین میں اکیلیوں کے مکان گرانا اور بیلیں کاٹنا، جمادیٰ الآخرہ 287ھ"
+summary:
+  ar: "سار الهادي إلى صعدة في جمادى الآخرة 287هـ فلقيه بنو سعد، وحارب الأكيليون وأحلافهم من ربيعة وانحازوا إلى حصنين، فأمر بهدم منازل الأكيليين إلا منازل الضعيفات وقطع أعنابهم، فاجتمع الربيعة بصرخة ابن عباد."
+  en: "Al-Hadi went to Sa'da in Jumada II 287 AH and Banu Sa'd met him; the Akilis and their allies of Rabi'a fought and withdrew to two forts, and he ordered the Akilis' houses pulled down, except the weak women's houses, and their vines cut, whereupon the Rabi'a gathered at Ibn Abbad's cry."
+  ur: "ہادی جمادیٰ الآخرہ 287ھ میں صعدہ گئے اور بنو سعد ان سے ملے؛ اکیلی اور ان کے ربیعہ کے حلیف لڑے اور دو قلعوں میں چلے گئے، تو انہوں نے اکیلیوں کے مکان، سوائے کمزور عورتوں کے، گرانے اور بیلیں کاٹنے کا حکم دیا، اور ابن عباد کی پکار پر ربیعہ جمع ہو گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-06"
+    hijri: "0287-06"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "جمادى الآخرة سنة 287هـ بحسب عنوان الكتاب؛ الدقة شهرية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/afqayn-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-abbad-al-akili
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-akiliyyun-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص189-190 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-23
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 189-190

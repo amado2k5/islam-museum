@@ -1,0 +1,18 @@
+id: concept/canon-urine-of-men-and-women
+class: concept
+kind: scientific
+label: { ar: "بول الرجال والنساء والحبالى عند ابن سينا", en: "The urine of men, women, pregnant women and new mothers in the Canon", ur: "مردوں، عورتوں، حاملہ اور زچہ کا پیشاب قانون میں" }
+summary:
+  ar: "يقارن ابن سينا في الفصل العاشر بين بول النساء وبول الرجال، ويصف بول الحبالى والنفساء وبول الرجل بعد الجماع. {cite:canon-ibn-sina-print-v1 p.197}."
+  en: "In chapter ten Ibn Sina compares women's urine with men's and describes that of pregnant women, women after childbirth, and men after intercourse. {cite:canon-ibn-sina-print-v1 p.197}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

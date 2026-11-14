@@ -1,0 +1,18 @@
+id: concept/canon-quantity-of-urine
+class: concept
+kind: scientific
+label: { ar: "كثرة البول وقلته عند ابن سينا", en: "Abundant and scanty urine in the Canon", ur: "پیشاب کی زیادتی اور کمی قانون میں" }
+summary:
+  ar: "يعرض ابن سينا في الفصل السابع دلالات كمية البول: القليل يدل على ضعف القوى، والكثير على ذوبان أو استفراغ فضول، ويفرق بينهما بحال القوة، ويذكر البول المختلف والقطري. {cite:canon-ibn-sina-print-v1 pp.196-197}."
+  en: "In chapter seven Ibn Sina sets out what the amount of urine shows: scanty shows weak strength, abundant shows melting or purging of waste, told apart by the state of strength, and he describes erratic and dripping urine. {cite:canon-ibn-sina-print-v1 pp.196-197}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
