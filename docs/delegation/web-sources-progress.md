@@ -1185,3 +1185,5 @@ Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each
 - 2026-11-14 packet 41 (B1 prose): 10 entries written (ar, en, ur). Skipped founder-held slugs: none were in the packet. Nomisma concepts for al-mansur-fakhr-al-din-uthman and kayqubad-i returned HTTP 500 and have no Nomisma section. Data note for review: bahram-shah-ghaznavi `died` 1157 (EI2) disagrees with Ibn al-Athir (548 AH) and Hasan Ibrahim (547 AH); not changed.
 
 - GEMINI: person/bahram-shah-ghaznavi — question: year of death; the data file says 1157, Ibn al-Athir says 548 AH (1153 to 1154 CE) and Hasan Ibrahim 547 AH; the source that would settle it: a numismatic or primary-chronicle check (Juzjani, Tabaqat-i Nasiri, or Ghaznavid coin dates).
+
+- 2026-11-14 packet 44 (B1 prose): wrote crete, tiberias, tehran, kashan (Yaqut, Dar Sader v.1 p.236, v.4 pp.17-19, 51-52, 296-297) and short pages for india, asia-minor, euboea, belgrade, hispania, pisidia. Data note: Nomisma `crete` etc. count as region only; India, Tiberias, Tehran, Belgrade, Kashan have no linked coins.
