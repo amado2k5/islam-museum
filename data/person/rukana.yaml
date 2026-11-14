@@ -5,18 +5,19 @@ label:
   en: "Rukana"
   ur: "رکانہ"
 summary:
-  ar: "ركانة رجل من بني المطلب، روى أهل الأخبار أنه صارع النبي في خبر المصارعة المشهور. أورده أبو نعيم في معرفة الصحابة، وذكر ابن حجر في الإصابة أن الحديث فيه اضطراب في السند، وأن الاحتمال الراجح عنده أن في السند سقطًا. {cite:marifat-sahaba-abu-nuaym} {cite:ibn-hajar-isaba p. 531}"
-  en: "Rukana, a man of Banu al-Muttalib, is the companion named in the story of the wrestling bout with the Prophet. Abu Nu'aym records the report in his Ma'rifat al-Sahaba; Ibn Hajar, in al-Isaba, notes that the chain of narration is disputed and judges that a link is likely missing. {cite:marifat-sahaba-abu-nuaym} {cite:ibn-hajar-isaba p. 531}"
+  ar: "ركانة بن عبد يزيد بن هاشم بن المطلب بن عبد مناف المطلبي، اشتهر بخبر مصارعته النبي؛ ينقل ابن حجر في الإصابة أنه أسلم يوم الفتح وقيل عقب المصارعة وأن ابن حبان قال في إسناد الخبر نظر، ويورد أبو نعيم في معرفة الصحابة الخبر برواياته مع خبر طلاقه امرأته {cite:ibn-hajar-isaba p. 481}{cite:marifat-sahaba-abu-nuaym p. 1113}."
+  en: "Rukana ibn Abd Yazid ibn Hashim ibn al-Muttalib ibn Abd Manaf al-Muttalibi, known for the story of his wrestling bout with the Prophet; Ibn Hajar in al-Isaba says he became a Muslim at the conquest of Mecca, or by another view right after the bout, and quotes Ibn Hibban that the chain of the report needs examining, while Abu Nu'aym gives the report in several versions with the report of his divorce. {cite:ibn-hajar-isaba p. 481} {cite:marifat-sahaba-abu-nuaym p. 1113}"
 wings: [people]
 gender: male
 sources: [source/marifat-sahaba-abu-nuaym, source/ibn-hajar-isaba]
 provenance:
   layer: own-research
-  source: "أبو نعيم، معرفة الصحابة (حديث صارع ركانة)؛ ابن حجر، الإصابة (القسم الرابع، حرف الميم، ص 531 من نسخة المسح)"
+  source: "أبو نعيم، معرفة الصحابة (حديث صارع ركانة)؛ ابن حجر، الإصابة (القسم الرابع، حرف الميم، ص 481 و482 من نسخة المسح؛ حرف الراء، رقم 2766 و2767)"
   generated_by: "Claude Code (claude-haiku-5-5)"
   model: "claude-haiku-5-5"
   run: person-rukana
-status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5)", ai_unread: "The ar, en and ur prose sections citing Ibn Hajar, al-Isaba (pp. 481-482) and Abu Nu'aym, Ma'rifat al-Sahaba (printed pp. 1113-1117) were added on 14 November 2026 (Lane B2, run web-b2-isaba-2026-11-14), and the card summary and places were corrected from them; AI text awaiting a human read. The card keeps its status." }
 died: { edtf: "662~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr)" }
 relations:
-  - { type: lived_in, target: place/sind, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/marifat-sahaba-abu-nuaym, source/ibn-hajar-isaba] }
+  - { type: lived_in, target: place/mecca, confidence: medium, note: "al-Zubayr, quoted by Ibn Hajar, al-Isaba p. 481: he was in Mecca before Islam", sources: [source/ibn-hajar-isaba] }
+  - { type: died_in, target: place/medina, confidence: medium, note: "al-Zubayr, quoted by Ibn Hajar, al-Isaba p. 482: he died in Medina in the caliphate of Mu'awiya; Abu Nu'aym says in the caliphate of Uthman", sources: [source/ibn-hajar-isaba] }
