@@ -169,6 +169,7 @@ open a new block on top with the new version and today's date.
 - **Thirteen pages gain a Nomisma section in Arabic, English and Urdu.** Each names the Nomisma concept the entry is linked to and how many coins or coin types Nomisma's linked collections record under it as issuer, authority or mint, with a citation (decision dec-20261114-277).
 ### Data
 - **The coverage report is regenerated** after about 150 more al-A'lam and Siyar biographies landed in Arabic, English and Urdu.
+- **A gazetteer section was withdrawn from the Sanaa page.** Sanaa is held for the founder, and the batch that added Pleiades and iDAI sections to 109 place pages had reached it; the page returns to its earlier text in all three languages.
 
 ## v1.30.0 — 2026-11-14
 ### Added
