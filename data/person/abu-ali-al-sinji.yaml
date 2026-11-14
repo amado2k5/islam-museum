@@ -3,26 +3,28 @@ class: person
 label:
   ar: "أبو علي السنجي"
   en: "Abu 'Ali al-Sinji"
-roles: [scholar]
+roles: [jurist, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبو علي السنجي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu 'Ali al-Sinji; the entry is not yet checked on the page."
+  ar: "أبو علي الحسين بن شعيب المروزي السنجي الشافعي، عالم أهل مرو في وقته، تفقه بالقفال المروزي، وشرح فروع ابن الحداد والتلخيص لابن القاص، وله «المجموع»، وهو أول من جمع بين طريقتي العراق وخراسان، توفي نحو سنة 430 هـ."
+  en: "Abu Ali al-Husayn ibn Shu'ayb al-Marwazi al-Sinji, the Shafi'i jurist who was the leading scholar of Merv in his time; pupil of al-Qaffal al-Marwazi, commentator on Ibn al-Haddad's Furu' and Ibn al-Qass's Talkhis, author of al-Majmu', and the first to combine the Iraqi and Khurasani methods; died about 430 AH (1039 CE)."
 wings: [people]
-regions: [levant-iraq]
-periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/wafayat-ayan]
 external_ids:
   wikidata: Q107115508
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Safadi, al-Wafi bi-l-Wafayat (OpenITI Shamela0006677), vol. 12 pp. 234-235; Ibn Khallikan, Wafayat al-A'yan (OpenITI 0681), vol. 2 pp. 135-136, entries read in full from the local texts"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-wafayat-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1039", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki, Tabaqat al-Shafi'iyya; al-Shirazi, Tabaqat" }
+  completeness: 3
+died: { edtf: "1039", hijri: "0430", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki, Tabaqat al-Shafi'iyya; al-Shirazi, Tabaqat. al-Safadi, al-Wafi vol. 12 p. 235, prints 430 AH; Ibn Khallikan, vol. 2 p. 136, gives only a year beyond 430 AH. The Gregorian year is the museum's conversion and agrees with the card.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/wafayat-ayan] }
 relations:
   - { type: died_in, target: place/merv, note: "Wikidata Q193325 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/merv, note: "al-Safadi, vol. 12 pp. 234-235: al-Marwazi, the scholar of the people of Merv in his time.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: medium }
+  - { type: student_of, target: person/al-qaffal-al-marwazi, note: "al-Safadi, vol. 12 p. 235: tafaqqaha bi-Abi Bakr al-Qaffal al-Marwazi; Ibn Khallikan, vol. 2 p. 135, agrees.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/wafayat-ayan], confidence: high }

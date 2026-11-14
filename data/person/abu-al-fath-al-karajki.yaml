@@ -6,24 +6,26 @@ label:
 roles: [linguist, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي الفتح الكراجكي، لغوي وفقيه من علماء الشيعة؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-Fath al-Karajki, the linguist and jurist among Shia scholars; the biographical entry is not yet checked on the page."
+  ar: "أبو الفتح محمد بن علي الكراجكي، أي الخيمي، من علماء الشيعة، وصفه ابن العماد بأنه رأس الشيعة وصاحب التصانيف، كان نحويا لغويا منجما طبيبا متكلما ومن كبار أصحاب الشريف المرتضى، وله «تلقين أولاد المؤمنين»، ومات بصور في ربيع الآخر سنة 449 هـ."
+  en: "Abu al-Fath Muhammad ibn Ali al-Karajki, that is al-Khaymi, a Shia scholar whom the Hanbali chronicler Ibn al-Imad calls the head of the Shia and a prolific author; grammarian, philologist, astrologer, physician and theologian, a chief companion of al-Sharif al-Murtada and author of Talqin Awlad al-Mu'minin; died at Tyre in Rabi' al-Akhir 449 AH (1057 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/shadharat-dhahab]
 external_ids:
   wikidata: Q25423614
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0069
+  source: "Ibn al-Imad, Shadharat al-Dhahab (OpenITI Shamela0012398), vol. 5 p. 214, entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1057", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+  completeness: 3
+died: { edtf: "1057", hijri: "0449", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala). Ibn al-Imad, vol. 5 p. 214, lists him under 449 AH, in Rabi' al-Akhir, and names Tyre as the place of death. The Gregorian year is the museum's conversion and agrees with the card.", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: died_in, target: place/tyre, note: "Ibn al-Imad, vol. 5 p. 214: mata bi-Sur (died at Tyre).", sources: [source/shadharat-dhahab], confidence: high }
+  - { type: student_of, target: person/al-sharif-al-murtada, note: "Ibn al-Imad, vol. 5 p. 214: among the chief companions of al-Sharif al-Murtada.", sources: [source/shadharat-dhahab], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/fatimid-caliphate, note: "Wikidata Q160307 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

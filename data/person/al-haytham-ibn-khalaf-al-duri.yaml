@@ -3,29 +3,31 @@ class: person
 label:
   ar: "الهيثم بن خلف الدوري"
   en: "Al-Haytham ibn Khalaf al-Duri"
+names:
+  - { kind: full, lang: ar, value: "أبو محمد الهيثم بن خلف الدوري" }
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لالهيثم بن خلف الدوري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Al-Haytham ibn Khalaf al-Duri; the entry is not yet checked on the page."
+  ar: "الحافظ أبو محمد الهيثم بن خلف الدوري، محدث توفي ببغداد سنة 307 هـ، روى عن عبيد الله بن عمر القواريري وطبقته، وجمع وصنف، وكان ثقة عند ابن العماد."
+  en: "The hafiz Abu Muhammad al-Haytham ibn Khalaf al-Duri, a hadith transmitter who died in Baghdad in 307 AH; he narrated from Ubaydallah ibn Umar al-Qawariri and his generation, compiled and wrote works, and was called trustworthy by Ibn al-Imad."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+born: { edtf: "831", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 14/552; 216-307 AH)" }
+died: { edtf: "919", hijri: "0307", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 14/552; 216-307 AH) Confirmed on 13 November 2026 against Wikidata Q107012769 (P570, a statement with a reference), item revision 2524276105. Ibn al-Imad lists him among the deaths of 307 AH {cite:shadharat-dhahab vol. 4 p. 37}, agreeing with the card.", sources: [source/wikidata, source/shadharat-dhahab] }
+relations:
+  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); Ibn al-Imad, Shadharat al-Dhahab, vol. 4 p. 37: he died in Baghdad.", sources: [source/wikidata, source/shadharat-dhahab], confidence: high }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+sources: [source/al-aalam, source/wikidata, source/shadharat-dhahab]
 external_ids:
   wikidata: Q107012769
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Ibn al-Imad, Shadharat al-Dhahab (Dar Ibn Kathir ed.), entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "831", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 14/552; 216–307 AH)" }
-died: { edtf: "919", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 14/552; 216–307 AH) Confirmed on 13 November 2026 against Wikidata Q107012769 (P570, a statement with a reference), item revision 2524276105.", sources: [source/wikidata] }
-relations:
-  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  completeness: 3

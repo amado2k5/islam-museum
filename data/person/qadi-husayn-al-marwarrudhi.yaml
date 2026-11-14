@@ -3,26 +3,27 @@ class: person
 label:
   ar: "القاضي حسين بن محمد المروّرودي"
   en: "Qadi Husayn al-Marwarrudhi"
-roles: [scholar]
+roles: [jurist, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية للقاضي حسين بن محمد المروّرودي، من أئمة الشافعية وصاحب التعليقة؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Qadi Husayn ibn Muhammad al-Marwarrudhi, a Shafi'i imam and author of the Ta'liqa; his entry is not yet checked on the page."
+  ar: "أبو علي الحسين بن محمد بن أحمد المرورودي، الفقيه الشافعي المعروف بالقاضي، صاحب التعليقة في الفقه، إمام كبير صاحب وجوه غريبة في المذهب، أخذ عن القفال المروزي وأخذ عنه البغوي، توفي بمروروذ سنة 462 هـ."
+  en: "Abu Ali al-Husayn ibn Muhammad ibn Ahmad al-Marwarrudhi, the Shafi'i jurist known as al-Qadi and author of the Ta'liqa, a great imam with unusual views in the school; pupil of al-Qaffal al-Marwazi and teacher of al-Baghawi; died at Marw al-Rudh in 462 AH (1069 CE)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "1069", precision: year, status: tradition, derived: true }
+died: { edtf: "1069", hijri: "0462", calendar: gregorian, precision: year, derived: true, note: "Ibn Khallikan, Wafayat al-A'yan, vol. 2 p. 135: died in 462 AH at Marw al-Rudh. The Gregorian year is the museum's conversion and agrees with the card.", sources: [source/wafayat-ayan] }
 relations:
-  - { type: died_in, target: place/marw-al-rudh, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q11935738)" }
-sources: [source/al-aalam]
+  - { type: died_in, target: place/marw-al-rudh, sources: [source/wikidata, source/wafayat-ayan], confidence: high, note: "Wikidata P20 (Q11935738); Ibn Khallikan, vol. 2 p. 135: died at Marw al-Rudh" }
+  - { type: student_of, target: person/al-qaffal-al-marwazi, sources: [source/wafayat-ayan], confidence: high, note: "Ibn Khallikan, vol. 2 p. 134: took fiqh from Abu Bakr al-Qaffal al-Marwazi" }
+sources: [source/al-aalam, source/wafayat-ayan]
 external_ids:
   wikidata: Q107087623
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Ibn Khallikan, Wafayat al-A'yan (OpenITI 0681), vol. 2 pp. 134-135, entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafayat-ayan-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

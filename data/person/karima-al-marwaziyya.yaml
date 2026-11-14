@@ -4,28 +4,31 @@ label:
   ar: "كريمة المروزية"
   en: "Karima al-Marwaziyya"
 roles: [muhaddith]
-gender: male
+gender: female
 summary:
-  ar: "بطاقة أولية لكريمة المروزية، المحدثة البغدادية التي أخذ عنها الخطيب البغدادي؛ لم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Karima al-Marwaziyya, the Baghdadi hadith transmitter from whom al-Khatib al-Baghdadi took; her entry is not yet checked on the page."
+  ar: "كريمة بنت أحمد بن محمد بن حاتم، أم الكرام المروزية، المجاورة بمكة، من أهل كشميهن من قرى مرو؛ محدثة روت الصحيح عن الكشميهني، وقرأ عليها الخطيب والسمعاني وغيرهما، وتوفيت بمكة سنة 463 هـ."
+  en: "Karima bint Ahmad ibn Muhammad ibn Hatim, Umm al-Kiram al-Marwaziyya, a neighbour of the sanctuary at Mecca, from Kushmihan near Merv; a woman hadith transmitter who narrated the Sahih from al-Kushmihani, read with by al-Khatib and al-Sam'ani among others; died at Mecca in 463 AH (1070 CE)."
 wings: [people]
-regions: [levant-iraq]
+regions: [persia-central-asia, arabia]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "1070", precision: year, status: tradition, derived: true }
+died: { edtf: "1070", hijri: "0463", calendar: gregorian, precision: year, derived: true, note: "Ibn al-Imad lists her under the year 463 AH {cite:shadharat-dhahab vol. 5 p. 266}; Ibn al-Jawzi says she died at Mecca in that year {cite:muntazam-ibn-al-jawzi vol. 16 p. 135}. The Gregorian year is the museum's conversion and agrees with the card.", sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi] }
 relations:
-  - { type: born_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; Ibn al-Jawzi names Kushmihan, a village of Merv, as her home, vol. 16 pp. 134-135.", sources: [source/wikidata, source/muntazam-ibn-al-jawzi] }
+  - { type: lived_in, target: place/kashmihan, confidence: medium, note: "Ibn al-Jawzi: of the people of Kushmihan, a village of Merv, vol. 16 pp. 134-135.", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: lived_in, target: place/mecca, confidence: high, note: "Ibn al-Imad: al-mujawira bi-Makka (neighbour of the sanctuary), vol. 5 p. 266.", sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/mecca, confidence: high, note: "Ibn al-Jawzi, al-Muntazam, vol. 16 p. 135.", sources: [source/muntazam-ibn-al-jawzi] }
+sources: [source/al-aalam, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
 external_ids:
   wikidata: Q22689340
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Ibn al-Imad, Shadharat al-Dhahab (OpenITI Shamela0012398), vol. 5 p. 266; Ibn al-Jawzi, al-Muntazam (OpenITI 0597), vol. 16 pp. 134-135, entries read in full from the local texts"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-muntazam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary

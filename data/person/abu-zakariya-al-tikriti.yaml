@@ -3,11 +3,11 @@ class: person
 label:
   ar: "أبو زكريا التكريتي"
   en: "Abu Zakariya al-Tikriti"
-roles: [scholar, poet]
+roles: [scholar, jurist, qadi, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي زكريا التكريتي، عالم وشاعر وقاضٍ عراقي القرن الثالث عشر، توفي سنة ١٢١٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Zakariya al-Tikriti, the thirteenth-century Iraqi scholar, poet and qadi, d. 1219; the biographical entry is not yet checked on the page."
+  ar: "يحيى بن القاسم بن مفرج بن درع، أبو زكريا الثعلبي التكريتي، فاضل أديب من فقهاء الشافعية، ولد بتكريت وولي قضاءها، وانتقل إلى بغداد سنة 607 هـ فولي تدريس النظامية، وتوفي ببغداد سنة 616 هـ."
+  en: "Yahya ibn al-Qasim ibn Mufarrij ibn Dar', Abu Zakariya al-Tha'labi al-Tikriti, a learned man and littérateur among the Shafi'i jurists; born in Tikrit and its qadi, he moved to Baghdad in 607 AH to teach at the Nizamiyya and died there in 616 AH (1219)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
@@ -17,14 +17,17 @@ external_ids:
   viaf: "280411247"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0063
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1135", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat al-Shafi'iyya)" }
-died: { edtf: "1219", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat al-Shafi'iyya)" }
+  completeness: 3
+born: { edtf: "1135", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat al-Shafi'iyya). Card year kept: al-Zirikli prints 531 AH = 1136 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 162}, one year later (see the GEMINI line in the ledger)." }
+died: { edtf: "1219", hijri: "0616", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat al-Shafi'iyya). al-Zirikli prints 616 AH = 1219 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 162}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/iraq, sources: [source/al-aalam], confidence: low, note: "Place association from the person's nisba/name ⁦(عراقي)⁩; denotes association, not proven residence." }
+  - { type: born_in, target: place/tikrit, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 162: born in Tikrit and later its qadi" }
+  - { type: lived_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 pp. 162-163: moved to Baghdad in 607 AH to teach at the Nizamiyya" }
+  - { type: died_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 163: died in Baghdad" }
