@@ -1,0 +1,18 @@
+id: concept/canon-pustules-in-infants
+class: concept
+kind: scientific
+label: { ar: "البثور عند الصبيان عند ابن سينا", en: "Pustules in infants in the Canon", ur: "قانون میں بچوں کے جسم کے دانے" }
+summary:
+  ar: "يبين ابن سينا أن البثور تعرض في أبدان الصبيان، فالقرحي الأسود منها قتال والأبيض أسلم وكذلك الأحمر، وربما كان في خروجها منافع، وعلاجها بالمجففات اللطيفة في ماء الغسل وبالمراهم عند التقرح {cite:canon-ibn-sina-print-v1 pp.216-217}."
+  en: "Ibn Sina explains that pustules may come out on infants' bodies: the black ulcerous kind is deadly, the white safer and the red likewise, their coming out may bring benefit, and they are treated with gentle dryers in the washing water and with ointments when they ulcerate {cite:canon-ibn-sina-print-v1 pp.216-217}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 1 on upbringing, chapters 3 and 4 (scan pages 211 to 220), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p211
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

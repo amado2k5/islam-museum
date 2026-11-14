@@ -1,0 +1,18 @@
+id: concept/canon-thigh-abrasion-in-infants
+class: concept
+kind: scientific
+label: { ar: "سحج الفخذ عند الصبيان عند ابن سينا", en: "Abrasion of the thigh in infants in the Canon", ur: "قانون میں بچوں کی ران کا چھل جانا" }
+summary:
+  ar: "يذكر ابن سينا سحجاً يعرض في فخذ الصبي، وعلاجه بذر مسحوق الآس أو أصل السوسن أو الورد أو السعد أو دقيق الشعير أو دقيق العدس عليه {cite:canon-ibn-sina-print-v1 p.220}."
+  en: "Ibn Sina mentions an abrasion that befalls a child's thigh, treated by dusting it with ground myrtle, iris root, rose, sa'd, barley flour or lentil flour {cite:canon-ibn-sina-print-v1 p.220}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 1 on upbringing, chapters 3 and 4 (scan pages 211 to 220), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p211
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

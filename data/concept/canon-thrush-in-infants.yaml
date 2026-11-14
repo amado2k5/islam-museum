@@ -1,0 +1,18 @@
+id: concept/canon-thrush-in-infants
+class: concept
+kind: scientific
+label: { ar: "القلاع عند الصبيان عند ابن سينا", en: "Thrush in infants in the Canon", ur: "قانون میں بچوں کے منہ کے چھالے" }
+summary:
+  ar: "يبين ابن سينا أن قلاع الصبيان كثير لرقة غشاء الفم واللسان، وأن أردأه الفحمي الأسود القاتل وأسلمه الأبيض والأحمر، ويذكر أدوية مجففة ومنظفة بالتدريج من الأخف إلى الأقوى {cite:canon-ibn-sina-print-v1 pp.214-215}."
+  en: "Ibn Sina explains that thrush is frequent in infants because the lining of the mouth and tongue is so soft, that the worst kind is the black, charcoal-like and deadly one and the safest the white and the red, and he lists drying and cleansing remedies from the lightest to the stronger {cite:canon-ibn-sina-print-v1 pp.214-215}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 1 on upbringing, chapters 3 and 4 (scan pages 211 to 220), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p211
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
