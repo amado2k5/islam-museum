@@ -1,0 +1,35 @@
+id: group/banu-tarif
+class: group
+kind: clan
+label:
+  ar: آل طريف
+  en: Al Tarif (Banu Tarif)
+  ur: آل طریف
+summary:
+  ar: أسرة يمنية حبسها الهادي مع آل يعفر، وقاد إبراهيم بن خلف بن طريف القتال ضده فيمن ظاهره من بني طريف وغيرهم من أهل اليمن سنة 288هـ.
+  en: A Yemeni family imprisoned by al-Hadi with Al Ya'fur; Ibrahim ibn Khalaf ibn Tarif led the fighting against him in 288 AH among Banu Tarif and other Yemenis who backed him.
+  ur: ایک یمنی خاندان جسے ہادی نے آل یعفر کے ساتھ قید کیا؛ ابراہیم بن خلف بن طریف نے 288ھ میں بنو طریف اور یمن کے دوسرے ہم نواؤں کے ساتھ ان کے خلاف لڑائی کی قیادت کی۔
+wings:
+- people
+regions:
+- arabia
+periods:
+- period/abbasid-fragmentation
+relations:
+- type: opposed
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+  note: قاتلوه سنة 288هـ
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص17-20 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-2
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 17-20

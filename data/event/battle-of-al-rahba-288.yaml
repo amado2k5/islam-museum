@@ -1,0 +1,70 @@
+id: event/battle-of-al-rahba-288
+class: event
+kind: battle
+label:
+  ar: معركة الرحبة وعودة الهادي إلى صنعاء، رجب 288هـ
+  en: The battle of al-Rahba and al-Hadi's return to Sana'a, Rajab 288 AH
+  ur: معرکۂ رحبہ اور ہادی کی صنعاء میں واپسی، رجب 288ھ
+summary:
+  ar: لقي إبراهيم بن خلف بن طريف الهادي في الرحبة في عساكر كثيفة، فاقتتلوا فظفر بهم الهادي، ودخل صنعاء يوم الجمعة لأيام بقيت من رجب سنة 288هـ، وهاجت الحرب بينه وبين آل يعفر وآل طريف.
+  en: Ibrahim ibn Khalaf ibn Tarif met al-Hadi at al-Rahba with dense forces; al-Hadi prevailed, entered Sana'a on a Friday with some days left of Rajab 288 AH, and war flared between him and Al Ya'fur and Al Tarif.
+  ur: ابراہیم بن خلف بن طریف رحبہ میں گھنے لشکروں کے ساتھ ہادی سے ملا؛ ہادی غالب آئے، رجب 288ھ کے آخری دنوں میں جمعہ کے روز صنعاء میں داخل ہوئے، اور ان کے اور آل یعفر و آل طریف کے درمیان جنگ بھڑک اٹھی۔
+wings:
+- time
+themes:
+- battles
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0901-06~
+    hijri: 0288-07
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: يوم الجمعة لأيام بقيت من رجب سنة 288هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي
+    sources: &id001
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/al-rahba-sanaa
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  role: قائد المنتصرين
+  sources: *id001
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  role: قائد المهزومين
+  sources: *id001
+- type: had_participant
+  target: group/banu-tarif
+  sources: *id001
+- type: had_participant
+  target: group/banu-yafur
+  sources: *id001
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص17-20 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-2
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 17-20
+sides:
+- label:
+    ar: قوات الهادي
+    en: Al-Hadi's forces
+  commanders:
+  - person/al-hadi-yahya-al-rassi
+- label:
+    ar: قوات إبراهيم بن خلف بن طريف وآل طريف
+    en: Ibrahim ibn Khalaf ibn Tarif and Al Tarif
+  commanders:
+  - person/ibrahim-ibn-khalaf-ibn-tarif
