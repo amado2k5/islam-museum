@@ -1,0 +1,67 @@
+id: event/ibn-bustam-advises-the-madanis-and-muhammad-ibn-ubaydallah-leaves-for-minas-292
+class: event
+kind: other
+label:
+  ar: "مشورة ابن بسطام لبني عبد المدان وانتقال أبي جعفر إلى ميناس، ص281-282"
+  en: "Ibn Bustam's advice to the Madanis and Abu Ja'far's move to Minas, pp. 281-282"
+  ur: "ابن بسطام کا بنو عبد المدان کو مشورہ اور ابو جعفر کی میناس کو روانگی، ص281-282"
+summary:
+  ar: "يأتي ابن بسطام فيسأل لقاء المدانيين ويعلمهم أن الأمر عظيم ويشير بإخراج أبي جعفر، فيسألونه أن يخرج من القرية، فيخرج ومعه ابن بسطام، ويقول له ابن بسطام إن ميناس أحصن من الحصن، فيسير إليها ويرسل صبيانه وحرمه."
+  en: "Ibn Bustam comes and asks to meet the Madanis, tells them the matter is grave and advises that Abu Ja'far be put out; they ask him to leave the village, and he goes with Ibn Bustam, who says Minas is stronger than al-Hisn, so he goes there and sends for his children and womenfolk."
+  ur: "ابن بسطام آ کر مدانیوں سے ملنا چاہتا ہے، انہیں بتاتا ہے کہ معاملہ سنگین ہے اور ابو جعفر کو نکالنے کا مشورہ دیتا ہے؛ وہ ان سے بستی چھوڑنے کی درخواست کرتے ہیں، وہ ابن بسطام کے ساتھ نکلتے ہیں جو کہتا ہے کہ میناس حصن سے زیادہ مضبوط ہے، چنانچہ وہ وہاں جا کر بچوں اور گھر والیوں کو بلوا لیتے ہیں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905"
+    hijri: "0292"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 292هـ؛ لا يذكر الكتاب يوماً ولا شهراً لهذه الأحداث وتُرتَّب بحسب سياق الرواية بعد حلف جمادى الأولى؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-abd-al-madan-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/minas-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص281-282 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-32
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 281-282

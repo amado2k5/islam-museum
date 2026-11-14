@@ -1,0 +1,76 @@
+id: event/the-abd-al-madan-march-on-minas-and-the-fight-at-its-two-gates-292
+class: event
+kind: other
+label:
+  ar: "مسير بني عبد المدان ويأم والأحلاف إلى ميناس وقتال الدربين، ص282-283"
+  en: "The march of Banu Abd al-Madan, Yam and al-Ahlaf on Minas and the fight at the two gates, pp. 282-283"
+  ur: "بنو عبد المدان، یام اور احلاف کی میناس پر چڑھائی اور دو دروازوں کی لڑائی، ص282-283"
+summary:
+  ar: "بعد يومين تعلم بنو عبد المدان بصيرورة أبي جعفر إلى ابن بسطام فيسيرون إلى ميناس بقيادة ربيع بن أبي الركود وعلي بن ربيع ومعهم اليأميون والأحلاف، فيقف أبو جعفر على الدرب الشرقي وابن بسطام وبنو ربيعة على الدرب الغربي، ويشتد القتال حتى العشاء."
+  en: "Two days later Banu Abd al-Madan learn that Abu Ja'far has gone to Ibn Bustam and march on Minas, led by Rabi' ibn Abi al-Rukud and Ali ibn Rabi' with the Yamis and al-Ahlaf; Abu Ja'far holds the east gate, Ibn Bustam and Banu Rabi'a the west, and the fight is hard until evening."
+  ur: "دو دن بعد بنو عبد المدان کو معلوم ہوا کہ ابو جعفر ابن بسطام کے پاس چلے گئے تو وہ ربیع بن ابی الرکود اور علی بن ربیع کی قیادت میں یام اور احلاف کے ساتھ میناس پر چڑھے؛ ابو جعفر مشرقی دروازے پر اور ابن بسطام اور بنو ربیعہ مغربی پر رہے اور شام تک سخت لڑائی ہوئی۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905"
+    hijri: "0292"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 292هـ؛ لا يذكر الكتاب يوماً ولا شهراً لهذه الأحداث وتُرتَّب بحسب سياق الرواية بعد حلف جمادى الأولى؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/rabi-ibn-abi-al-rukud
+  role: "محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-abd-al-madan-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/yam-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-ahlaf-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/minas-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص282-283 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-32
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 282-283

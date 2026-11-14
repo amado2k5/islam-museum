@@ -1,0 +1,64 @@
+id: event/ali-and-al-qasim-sons-of-muhammad-ibn-ubaydallah-ask-shakir-thaqif-and-wadia-for-aid-292
+class: event
+kind: other
+label:
+  ar: "ابنا محمد بن عبيد الله علي والقاسم يطلبان النصرة من شاكر وثقيف ووادعة، ص283"
+  en: "The two sons of Muhammad ibn Ubaydallah, Ali and al-Qasim, ask Shakir, Thaqif and Wadi'a for aid, p. 283"
+  ur: "محمد بن عبید اللہ کے دو بیٹے علی اور القاسم شاکر، ثقیف اور وادعہ سے مدد مانگتے ہیں، ص283"
+summary:
+  ar: "يكون ابنا أبي جعفر علي والقاسم في الحصن مع شاكر، فيأتيان أباهما بعد الوقعة، فيأمرهما أن يطلبا النصرة من شاكر وثقيف ووادعة، فتجيب شاكر وثقيف بنصف رجالها، ويمضيان إلى وادعة التي تعد بالخروج بكرة."
+  en: "Abu Ja'far's two sons Ali and al-Qasim are at al-Hisn with Shakir, come to their father after the fight, and are told to seek aid from Shakir, Thaqif and Wadi'a; Shakir and Thaqif give half their men, and the sons go on to Wadi'a, who promise to come out at dawn."
+  ur: "ابو جعفر کے دونوں بیٹے علی اور القاسم حصن میں شاکر کے ساتھ ہیں، لڑائی کے بعد باپ کے پاس آتے ہیں اور انہیں شاکر، ثقیف اور وادعہ سے مدد مانگنے کا کہا جاتا ہے؛ شاکر اور ثقیف اپنے آدھے لوگ دیتے ہیں اور بیٹے وادعہ کے پاس جاتے ہیں جو صبح نکلنے کا وعدہ کرتے ہیں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905"
+    hijri: "0292"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 292هـ؛ لا يذكر الكتاب يوماً ولا شهراً لهذه الأحداث وتُرتَّب بحسب سياق الرواية بعد حلف جمادى الأولى؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  role: "محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/shakir-hamdan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/wadia-tribe-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/minas-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص283 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-32
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 283
