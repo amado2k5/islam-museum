@@ -3671,6 +3671,20 @@ Resume point: sharh-saheeh-al-bukhare episode 10 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 16 (branch from origin/main).
 
+### alwaad-alhaq ep13 (14 Nov 2026)
+
+30 points written for episode 13 (ar, en, ur); 26 needs_source marks for this episode in each language file; 20 new about-links on the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Umar's night address at the grave | ep13 00:30:30-00:31:00 | Garbled, wording not recoverable | Clarity | Open |
+| Asma bint Umays and the camel with the weight of revelation | ep13 00:29:30-00:30:00 | Garbled, chapter name and details not recoverable | Clarity | Open |
+| Seniority over Abu Bakr and Umar by years | ep13 00:19:30-00:20:00 | Garbled numbers | Clarity | Open |
+| Martyr's body found intact decades later (Hamza and personal sighting) | ep13 00:45:30-00:46:30 | Garbled, personal anecdote without source | Clarity | Open |
+| Closing verse lines on the darkness of the grave | ep13 00:52:30-00:53:00 | Unclear whether quotation or poem, no source | Clarity | Open |
+| Looped passages | ep13 00:21:30-00:22:30, 00:50:00-00:50:30, 00:13:30-00:14:00 | ASR loops, unrecoverable | Clarity, Loop check | Open |
+
+Resume point: alwaad-alhaq episode 14 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep16 (14 Nov 2026)
 
 27 points written for episode 16 (ar, en, ur); 20 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (17-14, 32-16, 31-11); none typed. Contested: He attributes to scholars a count of ten witnesses against a person, relates unreferenced reports (the grave, the limbs, the gift to the Byzantine ruler's wife) and states that in the majority view of jurists visiting graves is not for women; all are marked as his. Checked line by line against the transcript by a second reader before merge.
@@ -3691,3 +3705,45 @@ Resume point: sharh-saheeh-al-bukhare episode 16 (branch from origin/main).
 | Closing remark that one should be someone people regret losing | ep16 00:12:00-00:12:30 | Garbled, not recoverable | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 17 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep10 (14 Nov 2026)
+
+19 points written for episode 10 (ar, en, ur); 13 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (3-173, 3-144); none typed. Contested: He holds that a shared deed or shared heart is not accepted, that istikhara has no link to dreams, and that fear of infection is weaker than certainty; these are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep10) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening loop, greetings, opening supplication | ep10 00:00:00-00:02:00 | Repeated-phrase loop and opening prayer | Clarity, Loop check | Open |
+| Break joins, closing prayer, announcements and credits | ep10 01:10:30-01:14:00 | Closing words, donation and publisher announcements | Content rule | Open |
+| A stretch touching a modern conflict and a political figure | ep10 00:28:00-00:28:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Garbled stretch on the world's problems and a leader | ep10 00:33:30-00:34:30 | Garbled, claim about the Prophet and world problems not recoverable | Clarity | Open |
+| Remarks on children, parents and wives, and divorce vows | ep10 00:26:00-00:29:30, 01:05:30-01:06:00 | Garbled; sweeping advice about family not recoverable | Voice rule, Clarity | Open |
+| Hasan al-Basri sayings and the duas on wealth and children | ep10 00:29:30-00:30:30 | Garbled, speaker and words unclear | Clarity | Open |
+| Two kinds of heart disease, hypocrites' signs and promises | ep10 00:39:30-00:42:00 | Garbled, items not recoverable | Clarity | Open |
+| Advice on a visit to graves and the Kaaba, and on choosing a path | ep10 00:42:30-00:43:30 | Garbled | Clarity | Open |
+| Stories of the ant and a ruler, and of Yaqub's shirt | ep10 00:53:00-00:53:30, 00:56:00-00:56:30 | Garbled, report unclear | Clarity | Open |
+| Questions on cure, wealth and signs of God's care | ep10 00:58:30-01:01:00, 01:02:00-01:04:30 | Garbled, loops and unclear reports | Clarity, Loop check | Open |
+| Remarks on household habits and a saying on teaching groups | ep10 01:05:00-01:06:30, 01:08:00-01:09:00 | Garbled | Clarity | Open |
+| Loop stretches of repeated syllables | ep10 00:09:00-00:09:30, 00:15:30-00:16:00, 00:16:30-00:17:00, 00:18:00-00:18:30, 00:21:30-00:22:00, 00:25:30-00:26:00, 00:32:30-00:33:00, 00:41:00-00:41:30, 00:42:00-00:42:30, 00:43:30-00:44:00, 00:46:30-00:47:30, 00:49:00-00:49:30, 00:54:30-00:55:00, 00:56:30-00:57:30, 01:04:00-01:04:30, 01:06:30-01:07:00, 01:07:30-01:08:00, 01:09:30-01:10:00, 01:11:30-01:12:30 | Repeated-token loops | Loop check | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 11 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep11 (14 Nov 2026)
+
+21 points written for episode 11 (ar, en, ur); 13 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (31-14, 33-28, 33-29); none typed. Contested: His reading of the hadith on kindness forgotten by a wife, his saying that knowledge shows in uprightness, and his advice on gratitude to parents and the teacher are his own views; the sayings and reports he relates by sense carry no chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep11) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, loop and opening prayer | ep11 00:00:00-00:02:00 | Greetings and prayer, loops | Clarity, Loop check | Open |
+| Stories of al-Hajjaj and others, remarks on killing and politics, loops | ep11 00:08:30-00:14:30 | Garbled, sweeping remarks on modern conflict | Voice rule / Clarity, Loop check | Open |
+| Stories about the table, Jesus and Mary, epidemics, innovations | ep11 00:15:30-00:21:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Loops on the Fire and the number of its layers | ep11 00:22:00-00:24:30 | Loops, garbled | Clarity, Loop check | Open |
+| Garbled passages on paradise and parents, loops | ep11 00:27:30-00:34:00 | Garbled stories and repeated words | Clarity, Loop check | Open |
+| Remarks on war and resistance, loops | ep11 00:35:00-00:38:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Closing-style prayer after the first part | ep11 00:42:00-00:42:30 | Prayer | Clarity | Open |
+| Remedies for family quarrels, a late-comer story, loops | ep11 00:45:00-00:50:30 | Garbled, names unreliable | Clarity, Loop check | Open |
+| Asides on wealth and poverty | ep11 00:54:00-00:55:00 | Garbled | Clarity | Open |
+| Advice on wives, kinds of women, a woman's advice, loops | ep11 01:00:00-01:08:00 | Sweeping claims about women, garbled | Voice rule / Clarity, Loop check | Open |
+| Questions and answers on mothers-in-law, cameras and visits, loops | ep11 01:08:00-01:13:00 | Garbled | Clarity, Loop check | Open |
+| Break join, thanks and closing, trailing noise | ep11 01:14:30-01:15:00 | Greetings and closing remarks | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 12 (branch from origin/main).
