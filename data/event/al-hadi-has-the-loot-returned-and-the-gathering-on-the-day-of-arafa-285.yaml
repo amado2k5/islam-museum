@@ -1,0 +1,57 @@
+id: event/al-hadi-has-the-loot-returned-and-the-gathering-on-the-day-of-arafa-285
+class: event
+kind: other
+label:
+  ar: الهادي يستتيب أصحابه ويردّ نهب أثافت ومجلس يوم عرفة وخطبته بالنار، ذو الحجة 285هـ
+  en: Al-Hadi calls his allies to account, has the loot of Athafit returned, and the gathering and the fire on the day of Arafa, Dhu al-Hijja 285 AH
+  ur: ہادی کا اپنے ساتھیوں سے توبہ کرانا، اثافت کی لوٹ کی واپسی اور یوم عرفہ کا اجتماع اور آگ کا وعظ، ذوالحجہ 285ھ
+summary:
+  ar: أرسل الهادي إلى القوم فسألهم عما حملهم على نهب أثافت فقالوا إن أهلها قتلوا أبا عمر وانتهبوه، فأنكر أن يفعلوا ذلك دون رأيه وقال إنه لا عمل بينه وبينهم حتى يردوا ما أخذوا، فتابوا ووعدوا بالرد في الثاني من ذي الحجة، فأحضر بعضهم ما عندهم وجاء أهل أثافت يتعرفون متاعهم. وفي يوم عرفة اجتمع إليه خلق كثير فوعظهم وأمر بنار توقد في الحطب ودعا من يدخلها وله جميع ما معه، ليبين لهم أن أفعالهم تدخلهم النار، فأعلنوا الطاعة، وبعد الأضحى بيوم أو يومين ردوا ما عندهم وأخذ أهل أثافت متاعهم.
+  en: Al-Hadi sent for the people and asked what had moved them to plunder Athafit; they said its people had killed Abu Umar and plundered him. He denied that they could act so without his opinion and said there would be no dealing between them until they returned what they took; they repented and promised to return it on the second of Dhu al-Hijja, some brought what they held and the people of Athafit came to recognise their goods. On the day of Arafa a great crowd gathered to him; he preached, had a fire lit in a pile of firewood and called on anyone who would enter it to take everything he had, to show that their deeds would take them into the fire; they declared obedience, and a day or two after the Adha they returned what they held and Athafit's people took their goods.
+  ur: ہادی نے لوگوں کو بلایا اور پوچھا کہ اثافت کو لوٹنے پر انہیں کس چیز نے ابھارا؛ انہوں نے کہا کہ اثافت والوں نے ابو عمر کو قتل کیا اور لوٹا تھا۔ ہادی نے کہا کہ ان کی رائے کے بغیر ایسا کرنا ان کے لیے جائز نہ تھا اور کہا کہ جب تک جو لیا واپس نہ کریں ان کے درمیان کوئی معاملہ نہیں؛ انہوں نے توبہ کی اور دو ذوالحجہ کو لوٹانے کا وعدہ کیا، کچھ نے اپنا لیا ہوا سامان پیش کیا اور اثافت والے اپنا سامان پہچاننے آئے۔ عرفہ کے دن بڑی خلقت ان کے پاس جمع ہوئی؛ انہوں نے وعظ کیا، لکڑیوں میں آگ جلوائی اور کہا کہ جو اس میں داخل ہو گا اسے وہ اپنا سب کچھ دیں گے، تاکہ دکھائیں کہ ان کے کام انہیں آگ میں لے جاتے ہیں؛ انہوں نے اطاعت کا اعلان کیا اور عید الاضحی کے ایک دو دن بعد جو کچھ ان کے پاس تھا لوٹا دیا اور اثافت والوں نے اپنا سامان لے لیا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0898-12-27'
+    hijri: '0285-12-09'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: الثاني من ذي الحجة سنة 285هـ نحو 20 كانون الأول 898م ويوم عرفة 9 ذي الحجة نحو 27 كانون الأول 898م (جولياني) بالتقويم الجدولي؛ لم يذكر الكتاب اليوم من الأسبوع؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/athafit
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/al-darb-banu-rabia-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/khiwan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص109-110 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-14
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 109-110

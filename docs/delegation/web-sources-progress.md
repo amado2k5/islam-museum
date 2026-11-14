@@ -994,3 +994,10 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 - Corrections to cards: al-Shabramallisi region and place moved from Anatolia to Egypt; Ibn Wahban role scientist dropped (the entry names no astronomy); al-Kurdi born 1715 (card 1714); Jabir died 745 (card 746); al-Hasan ibn Mahbub dates made exact; al-Kafawi's work is Kata'ib A'lam al-Akhyar (card said A'yan al-Zaman); Ahmad ibn Atwa region moved to Arabia.
 - Proposals for the founder: (1) Alqama's card is `published` (golden, from the Mufaddaliyyat); only its sources list gained the A'lam, its summary and provenance were left, while the new prose files are draft. (2) Ahmad ibn Atwa's card has an occupation `qadi` and a Wikidata death place al-Jubayliyah that the entry does not support (it says only "died in his town"); both left, the edge flagged low. (3) Al-Hasan ibn Mahbub and Jabir al-Ju'fi are labelled Imami and Shi'i first as the entry states; the old card phrases "transmitter from al-Sadiq / al-Baqir" are not in the entry and were dropped. (4) Ibn Wahban's entry prints a title as "al-Mtithal al-Amr" (likely a misprint for Imtithal); kept as printed.
 - Skipped: none; every entry matched its card by name, role, region and death year.
+## 2026-11-14 (Lane B1 packet 3) — ten place pages
+
+- Written (ar, en, ur, draft): ardestan (Yaqut vol. 1 p. 184, Istakhri passage and scholars, plus iDAI), bolnisi and peshawar (Pleiades only; no iDAI id), kayseri, surabaya, najafabad, budapest, mytilene, bal-kesir, stuttgart (iDAI only).
+- No Yaqut entry found in volumes 1-2 for the others (Kayseri: the Qaysariyya hits are other places). Note: Stuttgart's iDAI record links GeoNames 2825297, while the data file holds 6690189; not changed. Pleiades JSON endpoint was read via the local CSV dump (same revision fields).
+## 2026-11-14 (Lane B1 packet 4) - place prose, ten places
+
+- Written (ar, en, ur, draft): nicomedia, thermopylae, itea, doucen (Pleiades), washington-dc, birmingham, famagusta, detroit, samalut, los-angeles (iDAI.gazetteer). Yaqut Mu'jam al-buldan vols 1-2 OCR searched for each Arabic name: no entry found, so no Yaqut citation. Nothing skipped.
