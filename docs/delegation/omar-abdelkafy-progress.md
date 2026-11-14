@@ -3933,3 +3933,23 @@ Resume point: sharh-saheeh-al-bukhare episode 20 (branch from origin/main).
 | Garbled remarks before the orphan line and loops after Qur'an teaching | ep20 01:13:00-01:13:30; 01:14:30; 01:17:00-01:18:00 | Garbled and loop | Clarity, Loop check | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 21 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep21 (14 Nov 2026)
+
+19 points written for episode 21 (ar, en, ur); 10 needs_source marks in each language file for this episode; 9 new `about` edges. Quran verses referenced only through passage links (99-1, 105-5, 21-30, 3-31, 59-7); none typed. Contested: He says the Prophet's forbidding is like God's, that the Sunna is revelation alongside the Qur'an, and offers earthquakes, wind and illness as signs and reminders from God; these are his readings and are attributed to him. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, supplications and the closing greetings and prayer | ep21 00:00:00-00:05:00; 01:15:30-01:16:00 | Greetings and prayer, not teaching content | Content rule | Open |
+| Long supplications for the sick and for the ill in hospitals | ep21 00:20:00-00:21:30 | Closing-style prayer, garbled | Content rule | Open |
+| Statistics on the share of earthquakes around the Pacific and comparisons with Muslim regions | ep21 00:11:30-00:12:30 | Inconsistent figures, garbled, unreferenced | Clarity, Loop check | Open |
+| Direct appeals to ministers, judges and the media, and a call to cut relations with a party and govern differently | ep21 00:12:30-00:13:30; 00:28:30-00:29:30 | Sweeping claims about modern politics and peoples | Voice rule | Open |
+| Repeated filler loops | ep21 00:13:30, 00:21:00, 00:33:30, 00:35:00, 00:43:30, 00:48:30, 00:54:30, 00:58:30-00:59:00, 01:01:30, 01:03:00, 01:04:00, 01:06:30, 01:14:00, 01:15:00 | Loop or repeated token, no content | Clarity, Loop check | Open |
+| Story of David, Solomon and the stone, and the claim about who dies by stones | ep21 00:40:00-00:42:00 | Too garbled to recover | Clarity | Open |
+| Claims about wives of prophets betraying and about wives sharing secrets, and sweeping claims about women | ep21 00:46:00-00:47:30 | Demeaning generalisations about women | Voice rule | Open |
+| Remarks on Lut's people, a country's statistics and a disease | ep21 00:48:00-00:50:30 | Sweeping claims about a group, unreferenced statistics | Voice rule, Content rule | Open |
+| Remarks on Palestine, maps and other peoples and countries | ep21 01:01:30-01:03:30; 01:05:00-01:06:00 | Sweeping claims about peoples and modern conflict, garbled | Voice rule | Open |
+| Stretches on hearts of scholars, teachers and a conference | ep21 00:59:00-01:00:30; 01:05:00-01:05:30 | Too garbled to recover | Clarity | Open |
+| Stretch about the pious and the hypocrite and a remark about trade | ep21 01:14:30; 00:29:30-00:30:00 | Garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 22 (branch from origin/main).
