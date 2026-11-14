@@ -1,0 +1,59 @@
+id: event/fight-at-nuqm-in-dhu-al-qada-and-the-hakamis-commander-is-killed-288
+class: event
+kind: other
+label:
+  ar: "القتال عند نقم في ذي القعدة ومقتل قائد الحكمي، سنة 288هـ"
+  en: "The fight at Nuqm in Dhu al-Qa'da and the death of al-Hakami's commander, 288 AH"
+  ur: "ذی القعدہ میں نقم کے پاس لڑائی اور الحکمی کے سالار کا مارا جانا، 288ھ"
+summary:
+  ar: "زحف القوم بعساكرهم يوم الأربعاء لاثني عشر يوماً من ذي القعدة إلى نقم فدخلت منهم جماعة القرية، فأخرج الهادي جماعة من درب الجبانة وجماعة من درب ابن زامرد وخرج هو من درب القطيع فهزمهم من القرية، واشتد القتال في الميسرة إلى صلاة العشاء ثم انهزموا وقُتل منهم جماعة فيهم قائد الحكمي."
+  en: "On Wednesday, twelve days of Dhu al-Qa'da, the men advanced with their armies to Nuqm and a body of them entered the village; al-Hadi sent a party out by the Darb al-Jabbana and another by the Darb Ibn Zamarid and went out himself by the Darb al-Qutay', routing them from the village; the fighting was hard on the left until the evening prayer, then they were routed and a number were killed, among them the commander of al-Hakami's men."
+  ur: "ذی القعدہ کے بارہ دن کو بدھ کے دن مخالف اپنے لشکروں کے ساتھ نقم کی طرف بڑھے اور ان کی ایک جماعت بستی میں داخل ہو گئی؛ ہادی نے ایک دستہ درب الجبانہ سے اور ایک درب ابن زامرد سے نکالا اور خود درب القطیع سے نکلے اور انہیں بستی سے بھگا دیا؛ بائیں بازو میں عشاء کی نماز تک سخت لڑائی ہوئی، پھر وہ شکست کھا گئے اور ان کے کئی آدمی مارے گئے جن میں الحکمی کا سالار تھا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-10"
+    hijri: "0288-11"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ذو القعدة سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/nuqm-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص233 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 233

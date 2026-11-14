@@ -1,0 +1,59 @@
+id: event/the-night-of-safety-after-the-maydan-battle-and-its-breaking-288
+class: event
+kind: other
+label:
+  ar: "ليلة الأمان بعد معركة الميدان ونكثه، ذو الحجة 288هـ"
+  en: "The night of safety after the battle on the parade ground and its breaking, Dhu al-Hijja 288 AH"
+  ur: "میدان کے معرکے کے بعد امان کی رات اور اس کا ٹوٹنا، ذی الحجہ 288ھ"
+summary:
+  ar: "لما علم القوم أن الهادي حامل عليهم خافوا الهلكة فصاح بعضهم بالأمان، فأوقف الهادي عسكره وأقبل جماعة من قوادهم ورجالهم ونزلوا عن دوابهم وسلموا عليه وسألوه أن يرجع عنهم ليلته، فكره أن يقتلهم بعض عسكره وانتضى سيفه على أصحابه وأمرهم بالانصراف إلى صنعاء؛ ووعد القوم بالمجيء من الغد فلم يأتوا ونكثوا وعادت الحرب."
+  en: "When the men knew that al-Hadi was about to charge them they feared destruction and some cried out for safety; al-Hadi halted his army, and a number of their commanders and men came, dismounted, greeted him and asked him to turn back from them that night; some of his army meant to kill them, he disliked it, drew his sword on his companions and ordered them back to Sana'a; the men promised to come the next day but did not, they broke it and the war resumed."
+  ur: "جب مخالفوں نے جانا کہ ہادی ان پر حملہ آور ہونے والے ہیں تو انہیں ہلاکت کا ڈر ہوا اور بعض نے امان کی پکار لگائی؛ ہادی نے اپنا لشکر روک لیا، ان کے کچھ سردار اور آدمی آئے، سواریوں سے اترے، سلام کیا اور درخواست کی کہ وہ اس رات ان سے ہٹ جائیں؛ ہادی کے لشکر میں سے بعض نے انہیں مارنے کا ارادہ کیا تو انہوں نے اسے ناپسند کیا اور اپنے ساتھیوں پر تلوار سونت کر انہیں صنعاء لوٹنے کا حکم دیا؛ مخالفوں نے اگلے دن آنے کا وعدہ کیا مگر نہ آئے، عہد توڑ دیا اور جنگ پھر شروع ہو گئی۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-11"
+    hijri: "0288-12"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ذو الحجة سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص234-235 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 234-235

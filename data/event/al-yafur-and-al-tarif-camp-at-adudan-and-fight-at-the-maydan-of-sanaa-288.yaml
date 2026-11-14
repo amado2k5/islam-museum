@@ -1,0 +1,59 @@
+id: event/al-yafur-and-al-tarif-camp-at-adudan-and-fight-at-the-maydan-of-sanaa-288
+class: event
+kind: other
+label:
+  ar: "آل يعفر وآل طريف يعسكرون بعضدان ويقاتلون في ميدان صنعاء، شوال 288هـ"
+  en: "Al Ya'fur and Al Tarif camp at Adudan and fight on the parade ground of Sana'a, Shawwal 288 AH"
+  ur: "آل یعفر اور آل طریف عضدان میں پڑاؤ ڈالتے ہیں اور صنعاء کے میدان میں لڑتے ہیں، شوال 288ھ"
+summary:
+  ar: "سار آل يعفر وأبو الغشام بن طريف من شبام بعساكرهم حتى عسكروا بعضدان وأقاموا أياماً، ثم نزلوا في يوم الثلاثاء لأربع عشرة خلت من شوال إلى ميدان صنعاء، فوقف الهادي في وجوههم حتى حضرت الصلاة فصلى، وحملوا على ميسرته فأُصيب جماعة من أصحابه، ثم أمر خيلاً فحملت عليهم فطردتهم إلى معسكرهم."
+  en: "Al Ya'fur and Abu al-Ghasham ibn Tarif set out from Shibam with their armies and camped at Adudan for some days; on Tuesday, fourteen days of Shawwal gone, they came down to the parade ground of Sana'a, al-Hadi stood in front of them until the prayer was due, dismounted and prayed, they charged his left and a number of his companions were struck, and he then ordered horse to charge, which drove them back to their camp."
+  ur: "آل یعفر اور ابو الغشام بن طریف اپنے لشکروں کے ساتھ شبام سے نکلے اور عضدان میں پڑاؤ ڈال کر کئی دن رہے؛ شوال کے چودہ دن گزرنے پر منگل کے دن وہ صنعاء کے میدان میں اترے، ہادی ان کے سامنے کھڑے ہو گئے یہاں تک کہ نماز کا وقت آیا تو اتر کر نماز پڑھی، مخالفوں نے ان کے بائیں بازو پر حملہ کیا تو ان کے کئی ساتھی زخمی ہوئے، پھر انہوں نے سواروں کو حملے کا حکم دیا تو وہ انہیں ان کے پڑاؤ تک بھگا لے گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-09"
+    hijri: "0288-10"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شوال سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-ghasham-ibn-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص233 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 233
