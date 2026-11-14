@@ -3953,3 +3953,31 @@ Resume point: sharh-saheeh-al-bukhare episode 21 (branch from origin/main).
 | Stretch about the pious and the hypocrite and a remark about trade | ep21 01:14:30; 00:29:30-00:30:00 | Garbled | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 22 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep22 (14 Nov 2026)
+
+26 points written for episode 22 (ar, en, ur); 23 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (5-101, 102-8); none typed. Contested: He holds that innovation is confined to worship and not customs or dress, that disputation breeds rancour, that doubtful gains should be given to the poor, and he applies the hadith to modern work and birthdays; all are his views, marked "This is his view". Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep22) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting, opening praise and prayer | ep22 00:00:00-00:00:30 | Not substantive | Content rule | Open |
+| Garbled and looping stretch on backbiting, a story of a stoning of a sinner and a repeated phrase | ep22 00:03:30-00:06:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Garbled hadith of the people of Paradise and Hell, with a story of an oppressive emir and a fish | ep22 00:07:00-00:09:00 | Garbled, text of the hadith and the story cannot be recovered | Clarity, Loop check | Open |
+| Garbled reflection on worldly gifts and unrecoverable asides | ep22 00:10:00-00:11:00 | Too garbled to recover | Clarity | Open |
+| Garbled passages on the neighbour hadith, daughter and parents dialogues and a looping stretch | ep22 00:16:30-00:20:30 | Loops and garbling | Clarity, Loop check | Open |
+| Questions on dog's milk, a cow and other food rulings, partly garbled and looping | ep22 00:21:00-00:24:30 | Garbled and sweeping rulings not recoverable | Clarity, Loop check | Open |
+| Garbled stretch on marriage prohibitions and looping repetition | ep22 00:26:00-00:27:00 | Loops and garbling | Clarity, Loop check | Open |
+| Story of a prophet's two men sent and fasting asides | ep22 00:29:30-00:30:30 | Garbled | Clarity | Open |
+| Selling-words story, a long story of a king, a courtier and a minister with bad breath, and a ruler's treasury | ep22 00:31:30-00:37:30 | Story too garbled to relate faithfully | Clarity | Open |
+| Asides on lying and the tongue, and the fourth major sin of the tongue | ep22 00:38:00-00:38:30, 00:49:30 | Garbled wording, listed only as unclear | Clarity | Open |
+| Stretch on the sweeping remark that many shaykhs said all cities of a country are in the Fire | ep22 00:44:00 | Sweeping claim about a country, dropped from the macaroni bullet | Voice rule | Open |
+| Comments on the education of children, the university, the young man and the workplace | ep22 00:45:30-00:48:30 | Garbled, generalising about youth and society | Clarity, Voice rule | Open |
+| Stretch on a developing-country generalisation and on youth opposing parents | ep22 00:50:00-00:51:30 | Sweeping claims about peoples and garbled | Voice rule, Clarity | Open |
+| Remarks on the veil, niqab and women's dress being called a regression, and on women in public | ep22 00:51:30-00:52:00, 00:55:00-00:56:00 | Sweeping claims about women and dress, garbled | Voice rule, Clarity | Open |
+| Remarks on public workers, the car and the company, with looping repetition | ep22 00:53:00-00:58:00 | Looping and garbled | Clarity, Loop check | Open |
+| Garbled looping stretch on the heart and obedience | ep22 01:01:30-01:03:30 | Loops and garbling | Clarity, Loop check | Open |
+| Garbled looping repetition on gratitude and the teacher's ink | ep22 01:08:30-01:09:30 | Loops and garbling | Clarity, Loop check | Open |
+| Closing advice to students, closing prayer, announcements and contact details | ep22 01:09:30-01:11:30 | Break joins and closing prayer | Content rule | Open |
+| Badr attribution for the captives teaching reading and writing, and the Paradise framing in the Companion report | ep22 00:08:00, 00:11:30 | Transcript does not say Badr or Paradise there | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 23 (branch from origin/main).
