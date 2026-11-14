@@ -1160,14 +1160,9 @@ Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each
 - Corrections to cards: al-burzuli born 1339 to 1340 and died 1438 to 1440 (entry 844 AH = 1440; the heading's printed birth 641 does not fit 1340, 741 would, and fits al-Sakhawi's 103 years; years written as printed, flagged), lived_in maghreb replaced by Tunis; abdullah-al-bosnevi father Abd al-Rahman to Muhammad, poet and Malamati removed, born 1584 added, died_in Konya; abd-al-qadir-al-fasi theologian removed; abd-al-wahid-ibn-ashir lived_in Medina (from the nisba) replaced by Fez; shams-al-din-al-ramli lived_in Ramla replaced by Cairo (the nisba is a village of al-Minufiyya, not Palestinian Ramla); abu-wajzah-al-sadi roles poet and scholar; ibn-karama Zaydi school labelled before anything else, Sanaa and Mecca added. Other cards: dates agree with the entry in the same Hijri years.
 - Skipped: ahmad-ibn-yusuf-al-misri. The card is Ahmad ibn Yusuf ibn Ibrahim (Ibn al-Daya, mathematician of Baghdad, d. 912); the packet entry is Ibrahim ibn Yusuf al-Razi al-Hasanjani, hadith hafiz, d. 301 AH = 913 (a different man). A proposal for the founder; no prose written.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Packet 36 (gazetteer sections): 13 places written. Skipped: sfax (iDAI 2042776 carries GeoNames 2467454, ours is 280566; iDAI section not written, a proposal for the founder).
-=======
-=======
 ## Packet 35 (place identifier sections)
 - Written: 13 places (see CANARY). Skipped: qayrawan (iDAI 2042772 has no GeoNames id; our data has 2473449, cannot confirm identity; proposal for the founder).
->>>>>>> origin/main
 ## 2026-11-14 (Lane B2 packet alm20) - al-A'lam persons, nine written, none skipped
 
 Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each entry read in full; match checked by name, role, region and dates.
@@ -1177,4 +1172,5 @@ Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each
 - Years kept on the card where the entry's AH year spans the card's CE year: al-Shabrawi born 1681 (1091 AH = 1680), al-Jaza'iri died 1700 (1112 AH = 1701). Abd al-Aziz: the entry prints 1363 AH = 1944; the card's 1943 (the year given by the other sources the museum holds; 1363 AH begins at the end of December 1943) is kept and the printed year is flagged, with no claim in the prose about the card.
 - Skipped: none.
 
->>>>>>> origin/main
+
+- 2026-11-14 packet 37: 12 places given Pleiades/iDAI sections. Skipped iDAI section: sousse (iDAI GeoNames 2464915 vs ours 221715), tortosa (iDAI 3107677 vs ours 6361397); founder-held slugs absent from packet.
