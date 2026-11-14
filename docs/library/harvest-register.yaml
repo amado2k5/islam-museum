@@ -25796,6 +25796,875 @@ websites:
     pages:
     - {url: 'https://www.qantara-med.org', taken: registry URL of the family, date: '2026-11-08', lane: web-sources (Lane B), state: registered}
   # END websites:sources-registry-and-core
+  # BEGIN websites:authenticity-fatwa-wayback
+  - id: web-ablibrary-net
+    title: ablibrary.net (authenticity-ledger site)
+    site_url: https://ablibrary.net
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: ingested
+    state: 'registered in the authenticity ledger as tier T3, status reference-edition-dependent, allowed uses pointer (retrieved 2026-10-25); checks: 2026-10-25 text comparison, 2 rows: matched'
+    registered: '2026-10-25'
+    notes: 'owner: Ahl al-Bayt Digital Library, a non-profit run by a Shia organization (Wikipedia, Arabic)'
+    pages:
+    - {url: 'https://ablibrary.net', taken: site URL of the ledger entry, date: '2026-10-25', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-alfiqhia-com
+    title: alfiqhia.com (authenticity-ledger site)
+    site_url: https://alfiqhia.com
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T3, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://alfiqhia.com', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-awqaf-gov-kw
+    title: awqaf.gov.kw (authenticity-ledger site)
+    site_url: https://www.awqaf.gov.kw/ar
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T2, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://www.awqaf.gov.kw/ar', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-britannica-com
+    title: britannica.com (authenticity-ledger site)
+    site_url: https://www.britannica.com
+    licence: 'not stated in the ledger; allowed uses: pointer, facts'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T3, status verified, allowed uses pointer, facts (retrieved 2026-10-27)
+    registered: '2026-10-27'
+    notes: 'owner: Encyclopaedia Britannica, Inc. (a company; editorial articles with named authors and editors)'
+    pages:
+    - {url: 'https://www.britannica.com/biography/Ibn-Battuta', taken: 'page read for departure for the hajj (1325), pilgrimage completed (1326), envoy to China (1342), arrival at Fez (November 1349), journ; ledger entry authenticity-ledger/pages/britannica-ibn-battuta', date: '2026-10-29', lane: authenticity ledger, state: ingested, author: Britannica Editors}
+    - {url: 'https://www.britannica.com/place/Jeddah-Saudi-Arabia', taken: page read for founding of Jeddah as the pilgrim port in 646 under Caliph Uthman; ledger entry authenticity-ledger/pages/britannica-jeddah, date: '2026-10-27', lane: authenticity ledger, state: ingested, author: Britannica Editors (revised by Adam Zeidan)}
+    - {url: 'https://www.britannica.com/biography/al-Biruni', taken: 'page read for birth 973 Khwārezm; civil war 996–998 and refuge at Bukhara; Qābūs''s court at Gurgān (Ibn Sīnā correspondence, dedicatio; ledger entry authenticity-ledger/pages/britannica-al-biruni', date: '2026-10-28', lane: authenticity ledger, state: ingested, author: George Saliba; Britannica Editors}
+    - {url: 'https://www.britannica.com/biography/Rumi', taken: 'page read for birth at Balkh (c. 30 September 1207), the family''s departure from Balkh (about 1218), the arrival at Konya (1228), the ; ledger entry authenticity-ledger/pages/britannica-rumi', date: '2026-11-01', lane: authenticity ledger, state: ingested, author: 'Annemarie Schimmel, fact-checked by Britannica Editors'}
+    - {url: 'https://www.britannica.com/biography/al-Khwarizmi', taken: 'page read for born c. 780, died c. 850; worked at the Dār al-Ḥikma under al-Maʾmūn; Algebra; Algoritmi de numero Indorum; Ṣūrat al-arḍ; ledger entry authenticity-ledger/pages/britannica-al-khwarizmi', date: '2026-10-28', lane: authenticity ledger, state: ingested, author: Britannica Editors}
+    - {url: 'https://www.britannica.com/biography/Ibn-Khaldun', taken: page read for Ibn Khaldun's parents die in the Black Death at Tunis (1349); his post at the court of Tunis at about age 20; his embass; ledger entry authenticity-ledger/pages/britannica-ibn-khaldun, date: '2026-10-29', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.britannica.com/biography/al-Farabi', taken: 'page read for born c. 878 Turkistan; moved to Baghdad (most works written there); 942 residence at Sayf al-Dawlah''s court, Aleppo; die; ledger entry authenticity-ledger/pages/britannica-al-farabi', date: '2026-10-28', lane: authenticity ledger, state: ingested, author: Britannica Editors}
+    - {url: 'https://www.britannica.com/biography/al-Ghazali', taken: page read for birth and death dates of al-ghazali (Britannica biography); ledger entry authenticity-ledger/pages/britannica-al-ghazali, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.britannica.com/biography/Ibn-al-Haytham', taken: page read for birth and death dates of ibn-al-haytham (Britannica biography); ledger entry authenticity-ledger/pages/britannica-ibn-al-haytham, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.britannica.com/biography/Saladin', taken: 'page read for birth (1137/38, Tikrit), vizierate (1169), end of the Fatimid caliphate (1171), unification (1174-1186), recovery of Jer; ledger entry authenticity-ledger/pages/britannica-saladin', date: '2026-10-28', lane: authenticity ledger, state: ingested, author: Paul E. Walker; Britannica Editors}
+    - {url: 'https://www.britannica.com/biography/Averroes', taken: 'page read for audience with the caliph via Ibn Ṭufayl, chief qāḍī of Córdoba, physician to the caliph in 1182, treatises of 1179–80, b; ledger entry authenticity-ledger/pages/britannica-averroes', date: '2026-10-28', lane: authenticity ledger, state: ingested, author: Britannica Editors}
+    - {url: 'https://www.britannica.com/biography/Abu-Abd-Allah-ash-Shafii', taken: page read for birth and death dates of al-Shafi'i (Britannica biography); ledger entry authenticity-ledger/pages/britannica-al-shafii, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-dorar-net
+    title: dorar.net (authenticity-ledger site)
+    site_url: https://dorar.net
+    licence: 'not stated in the ledger; allowed uses: pointer, grades'
+    lane: authenticity gate (library lane)
+    completion: ingested
+    state: 'registered in the authenticity ledger as tier T3, status reference-scoped, allowed uses pointer, grades (retrieved 2026-10-25); checks: 2026-10-25 text comparison, 1 row: matched'
+    registered: '2026-10-25'
+    notes: 'owner: Dorar hadith and scholarly encyclopaedia (site claims supervision by Alawi bin Abd al-Qadir al-Saqqaf; not independently verified)'
+    pages:
+    - {url: 'https://dorar.net', taken: site URL of the ledger entry, date: '2026-10-25', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-hadithbd-com
+    title: hadithbd.com (authenticity-ledger site)
+    site_url: https://www.hadithbd.com
+    licence: 'not stated in the ledger; allowed uses: none'
+    lane: authenticity gate (library lane)
+    completion: ingested
+    state: 'registered in the authenticity ledger as tier T5, status not-verified, allowed uses none (retrieved 2026-10-25); checks: 2026-10-25 text comparison, 1 row: matched'
+    registered: '2026-10-25'
+    notes: 'owner: Developer named in the privacy policy (Rokonul Haque); no method page found'
+    pages:
+    - {url: 'https://www.hadithbd.com', taken: site URL of the ledger entry, date: '2026-10-25', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-iifa-aifi-org
+    title: iifa-aifi.org (authenticity-ledger site)
+    site_url: https://iifa-aifi.org/en/
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T2, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://iifa-aifi.org/en/', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-ircica-org
+    title: ircica.org (authenticity-ledger site)
+    site_url: https://www.ircica.org/
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T2, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://www.ircica.org/', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-islamqa-info
+    title: islamqa.info (authenticity-ledger site)
+    site_url: https://islamqa.info
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T4, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://islamqa.info/', taken: 'fatwa-site list entry (IslamQA.info): authorised; no crawl started. Plan and page count to be agreed first; robots: Mac Chrome 31 Oct: Disallow /_next/; sitemap index', date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-islamstory-com
+    title: islamstory.com (authenticity-ledger site)
+    site_url: https://islamstory.com
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T4, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://islamstory.com', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-islamweb-net
+    title: islamweb.net (authenticity-ledger site)
+    site_url: https://islamweb.net/ar/library/
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T3, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://www.islamweb.net/en/', taken: 'fatwa-site list entry (Islamweb fatwa bank): authorised; no crawl started. Plan and page count to be agreed first; robots: Mac Chrome 31 Oct: Disallow /newislamweb/ only', date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-iu-edu-sa
+    title: iu.edu.sa (authenticity-ledger site)
+    site_url: https://iu.edu.sa/
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T2, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://iu.edu.sa/', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-journals-ku-edu-kw
+    title: journals.ku.edu.kw (authenticity-ledger site)
+    site_url: https://journals.ku.edu.kw/jsis/index.php/jsis
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T2, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://journals.ku.edu.kw/jsis/index.php/jsis', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-kau-edu-sa
+    title: kau.edu.sa (authenticity-ledger site)
+    site_url: https://www.kau.edu.sa/en
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T2, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://www.kau.edu.sa/en', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-majlah-shatiby-edu-sa
+    title: majlah.shatiby.edu.sa (authenticity-ledger site)
+    site_url: https://majlah.shatiby.edu.sa/
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T3, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://majlah.shatiby.edu.sa/', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-mandumah-com
+    title: mandumah.com (authenticity-ledger site)
+    site_url: https://www.mandumah.com
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T3, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://www.mandumah.com', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-muslimheritage-com
+    title: muslimheritage.com (authenticity-ledger site)
+    site_url: https://muslimheritage.com
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T3, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    notes: 'owner: MuslimHeritage.com academic portal (founder Salim Al-Hassani)'
+    pages:
+    - {url: 'https://muslimheritage.com', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-quran-com
+    title: quran.com (authenticity-ledger site)
+    site_url: https://quran.com
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T4, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://quran.com', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-quranenc-com
+    title: quranenc.com (authenticity-ledger site)
+    site_url: https://quranenc.com
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T3, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://quranenc.com', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-quranislam-github-io
+    title: quranislam.github.io (authenticity-ledger site)
+    site_url: https://quranislam.github.io
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T5, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://quranislam.github.io', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-sjournals-sdl-edu-sa
+    title: sjournals.sdl.edu.sa (authenticity-ledger site)
+    site_url: https://sjournals.sdl.edu.sa/
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T3, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://sjournals.sdl.edu.sa/', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-sunnah-com
+    title: sunnah.com (authenticity-ledger site)
+    site_url: https://sunnah.com
+    licence: 'not stated in the ledger; allowed uses: pointer, text, grades'
+    lane: authenticity gate (library lane)
+    completion: ingested
+    state: 'registered in the authenticity ledger as tier T3, status reference-edition-dependent, allowed uses pointer, text, grades (retrieved 2026-10-24); checks: 2026-10-24 30-row sample against a named edition (Sunan Abi Dawud, ed. Muhyi al-Din Abd al-Hamid, al-Maktaba al-Asriya, Sidon-Beirut; Shamela book 1726, shamela.ws/book/1726, typed text with diacritics; reader pages 1 to 7200, seed 20261026, first hadith on each page): PASSES (75 percent passing grade, founder 24 Oct 2026). 29 of 30 rows matched in full (normalised, first 200 characters of each row) in a sunnah.com Sunan Abi D | 2026-10-24 30-row sample attempt against a named edition (Sunan Abi Dawud, ed. Muhyi al-Din Abd al-Hamid, al-Maktaba al-Asriya, Sidon-Beirut; archive.org item anouaroc_hotmail_20160729, OCR search text): not run; the OCR text is too garbled to sample (35 occurrences of the opening formula, most mangled, for example ''حدتنا''); a mismatch would reflect the OCR, not'
+    registered: '2026-10-24'
+    notes: 'owner: Sunnah.com hadith texts, references and grades'
+    pages:
+    - {url: 'https://sunnah.com', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-sunnielibrary-com
+    title: sunnielibrary.com (authenticity-ledger site)
+    site_url: https://www.sunnielibrary.com
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T5, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    notes: 'owner: Sunni E-Library, run by volunteers (About page)'
+    pages:
+    - {url: 'https://www.sunnielibrary.com', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-tafsir-net
+    title: tafsir.net (authenticity-ledger site)
+    site_url: https://tafsir.net
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T3, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://tafsir.net', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-themwl-org
+    title: themwl.org (authenticity-ledger site)
+    site_url: https://themwl.org/ar
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T3, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://themwl.org/ar', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-turath-io
+    title: turath.io (authenticity-ledger site)
+    site_url: https://turath.io
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T4, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://turath.io', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-uqu-edu-sa
+    title: uqu.edu.sa (authenticity-ledger site)
+    site_url: https://uqu.edu.sa/
+    licence: 'not stated in the ledger; allowed uses: pointer'
+    lane: authenticity gate (library lane)
+    completion: claimed
+    state: registered in the authenticity ledger as tier T2, status not-verified, allowed uses pointer (retrieved 2026-10-24)
+    registered: '2026-10-24'
+    pages:
+    - {url: 'https://uqu.edu.sa/', taken: site URL of the ledger entry, date: '2026-10-24', lane: authenticity gate (library lane), state: registered}
+    unverified:
+    - pr_numbers
+    - licence
+  - id: web-fatwa-al-azhar-fatwa-azhar-eg-fatwa
+    title: Al-Azhar fatwa (azhar.eg/fatwa)
+    site_url: https://azhar.eg/fatwa
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: https://azhar.eg/robots.txt: User-agent * with Disallow for /admin/, /App_*, /bin/, /Components/ and other system paths; /fatwa not listed as disallowed (read in full before any crawl)'
+    pages:
+    - {url: 'https://azhar.eg/fatwa', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-dar-al-ifta-al-misriyya-dar-alifta-org
+    title: Dar al-Ifta al-Misriyya (dar-alifta.org)
+    site_url: https://www.dar-alifta.org/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: Disallow query strings (/*?), /*SID=, error pages; sitemaps in ar, en, fr, sw, ur, ha, de'
+    notes: 33 data files cite source/dar-alifta (see books block entry dar-alifta); PR 2957.
+    pages:
+    - {url: 'https://www.dar-alifta.org/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    - {url: 'https://www.dar-alifta.org/en/fatwa/details/', taken: 'harvest sample (sample-1.json, 6,809 bytes, captured through Mac Chrome 31 Oct 2026); verbatim Q and A stay on the drive; fatwa id range in the sample not recorded here', date: '2026-10-31', lane: fatwa explorer, state: downloaded, path: books/fatwa/dar-alifta/sample-1.json}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-islamqa-org
+    title: IslamQA.org
+    site_url: https://islamqa.org/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: Disallow trackback, xmlrpc, wp-*.php, cgi-bin, wp-admin; sitemaps; uploads allowed'
+    pages:
+    - {url: 'https://islamqa.org/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-askimam-org
+    title: AskImam.org
+    site_url: https://askimam.org/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: robots.txt returns an HTML page, not a robots file; unclear'
+    pages:
+    - {url: 'https://askimam.org/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-darulifta-deoband-org
+    title: Darulifta-Deoband.org
+    site_url: https://darulifta-deoband.org/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: site unreachable (error page); retry'
+    pages:
+    - {url: 'https://darulifta-deoband.org/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-daruliftaa-com
+    title: Daruliftaa.com
+    site_url: https://daruliftaa.com/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: 522 Cloudflare timeout; origin server down; retry later'
+    pages:
+    - {url: 'https://daruliftaa.com/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-fatwaa-com
+    title: Fatwaa.com
+    site_url: https://fatwaa.com/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: robots URL shows no text; no robots file found'
+    pages:
+    - {url: 'https://fatwaa.com/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-seekersguidance
+    title: SeekersGuidance
+    site_url: https://seekersguidance.org/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct (earlier curl): Disallow wp-admin, wp-login, wp-json, feed, calendar and event actions'
+    pages:
+    - {url: 'https://seekersguidance.org/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-alifta-general-presidency-of-islamic-research-an
+    title: Alifta (General Presidency of Islamic Research and Ifta, Saudi Arabia)
+    site_url: https://alifta.gov.sa/en/home
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: Allow /; Disallow /login-success, /API/, /eGate/API/; sitemap published'
+    pages:
+    - {url: 'https://alifta.gov.sa/en/home', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-permanent-committee-alifta-gov-sa-en-fatwa-commi
+    title: Permanent Committee (alifta.gov.sa/en/fatwa-committee)
+    site_url: https://alifta.gov.sa/en/fatwa-committee
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: same site as Alifta: same rules'
+    pages:
+    - {url: 'https://alifta.gov.sa/en/fatwa-committee', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-ecfr-european-council-for-fatwa-and-research
+    title: ECFR (European Council for Fatwa and Research)
+    site_url: https://e-cfr.org/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: search=yes, ai-train=no, use=reference; Amazonbot and Applebot-Extended disallowed'
+    pages:
+    - {url: 'https://e-cfr.org/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-iifa-international-islamic-fiqh-academy
+    title: IIFA (International Islamic Fiqh Academy)
+    site_url: https://www.iifa-aifrc.org/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: robots not fetched: the domain did not resolve from this Mac; use the Mac browser to confirm the real address'
+    pages:
+    - {url: 'https://www.iifa-aifrc.org/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-fatwa-finder-fatwafinder-org
+    title: Fatwa Finder (fatwafinder.org)
+    site_url: https://fatwafinder.org/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: navigated to a different domain (redirect); check the real address'
+    pages:
+    - {url: 'https://fatwafinder.org/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-sistani-official-site-sistani-org
+    title: Sistani official site (sistani.org)
+    site_url: https://www.sistani.org/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: robots has User-agent * with no rules (allow all). Shia reference: held for founder decision'
+    pages:
+    - {url: 'https://www.sistani.org/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-uae-council-for-fatwa
+    title: UAE Council for Fatwa
+    site_url: https://fatwacouncil.org/en/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: Disallow /wp-admin/ except admin-ajax.php; sitemap'
+    pages:
+    - {url: 'https://fatwacouncil.org/en/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-hukoomi-fatwa-portal-qatar
+    title: Hukoomi Fatwa Portal (Qatar)
+    site_url: https://hukoomi.gov.qa/en/categories/religion-and-islamic-affairs/fatwa-search
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: Disallow /login/, /404/, /500/, /comingsoon, /*sitecore*; sitemaps in en and ar'
+    pages:
+    - {url: 'https://hukoomi.gov.qa/en/categories/religion-and-islamic-affairs/fatwa-search', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-islamic-fatwa-council-ifc
+    title: Islamic Fatwa Council (IFC)
+    site_url: https://fatwacouncil.org/en/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: Disallow /wp-admin/ except admin-ajax.php; sitemap'
+    pages:
+    - {url: 'https://fatwacouncil.org/en/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-general-secretariat-for-fatwa-authorities-worldw
+    title: General Secretariat for Fatwa Authorities Worldwide
+    site_url: https://www.fatwaacademy.org/en/index
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: error page, robots not readable; retry'
+    pages:
+    - {url: 'https://www.fatwaacademy.org/en/index', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-amja-online
+    title: AMJA Online
+    site_url: https://www.amjaonline.org/fatwa/en/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: Disallow /wp-admin/ except admin-ajax.php; sitemaps'
+    pages:
+    - {url: 'https://www.amjaonline.org/fatwa/en/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-darul-fiqh-uk
+    title: Darul Fiqh (UK)
+    site_url: https://www.askimam.org/affiliatedsites
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: robots URL is a single-page app, no robots text; unclear'
+    pages:
+    - {url: 'https://www.askimam.org/affiliatedsites', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-fatwa-canada
+    title: Fatwa Canada
+    site_url: https://www.askimam.org/affiliatedsites
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: robots URL is a single-page app, no robots text; unclear'
+    pages:
+    - {url: 'https://www.askimam.org/affiliatedsites', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-fatwa-online
+    title: Fatwa-Online
+    site_url: https://www.fatwa-online.com/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: Disallow wp-admin, wp-includes, plugins, wordfence query; AhrefsBot, BLEXBot, DotBot, MJ12bot and others fully blocked'
+    pages:
+    - {url: 'https://www.fatwa-online.com/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-australian-fatwa-council-anic
+    title: Australian Fatwa Council (ANIC)
+    site_url: https://anic.org.au/australian-fatwa-council/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: Disallow /wp-admin/ only; sitemap index'
+    pages:
+    - {url: 'https://anic.org.au/australian-fatwa-council/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-darulfatwa-islamic-high-council-of-australia
+    title: Darulfatwa, Islamic High Council of Australia
+    site_url: https://en.wikipedia.org/wiki/Islamic_High_Council_of_Australia
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: not checked yet (to be checked in the Mac browser)'
+    pages:
+    - {url: 'https://en.wikipedia.org/wiki/Islamic_High_Council_of_Australia', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-ecfr-french-fatwa-page
+    title: ECFR French fatwa page
+    site_url: https://www.e-cfr.org/les-fatwas-conseil-francais/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: not checked yet (to be checked in the Mac browser)'
+    pages:
+    - {url: 'https://www.e-cfr.org/les-fatwas-conseil-francais/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-british-board-of-scholars-and-imams-bbsi
+    title: British Board of Scholars and Imams (BBSI)
+    site_url: https://fatwacommission.com/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: no Disallow (allow all); no sitemap line'
+    pages:
+    - {url: 'https://fatwacommission.com/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-central-council-of-muslims-in-germany-zmd
+    title: Central Council of Muslims in Germany (ZMD)
+    site_url: https://www.fatwaacademy.org/en/index
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: error page, robots not readable; retry'
+    pages:
+    - {url: 'https://www.fatwaacademy.org/en/index', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-fiqh-council-of-north-america-fcna
+    title: Fiqh Council of North America (FCNA)
+    site_url: https://fiqhcouncil.org/fatwas/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: no Disallow (allow all); sitemap index'
+    pages:
+    - {url: 'https://fiqhcouncil.org/fatwas/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-muslim-judicial-council-darul-ifta-north-america
+    title: Muslim Judicial Council / Darul Ifta North America
+    site_url: https://www.amjaonline.org/fatwa/en/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: Disallow /wp-admin/ except admin-ajax.php; sitemaps'
+    pages:
+    - {url: 'https://www.amjaonline.org/fatwa/en/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-centro-islamico-de-la-republica-argentina-cira
+    title: Centro Islamico de la Republica Argentina (CIRA)
+    site_url: https://fatwacommission.com/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: no Disallow (allow all); no sitemap line'
+    pages:
+    - {url: 'https://fatwacommission.com/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-fatwa-fambras-brazil
+    title: FAMBRAS (Brazil)
+    site_url: https://fatwacommission.com/
+    licence: terms not read (recorded 31 Oct 2026); authorised for use by the founder on 31 Oct 2026 regardless of missing robots or terms; verbatim answers never published
+    lane: fatwa explorer
+    completion: claimed
+    state: 'listed in books/fatwa/websites.json, 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first. Robots: Mac Chrome 31 Oct: no Disallow (allow all); no sitemap line'
+    pages:
+    - {url: 'https://fatwacommission.com/', taken: listed 31 Oct 2026; authorised; no crawl started. Plan and page count to be agreed first, date: '2026-10-31', lane: fatwa explorer, state: claimed}
+    unverified:
+    - terms
+    - pages_read
+    - pr_numbers
+  - id: web-al-mostafa
+    title: al-Mostafa digital library (al-mostafa.com)
+    site_url: https://www.al-mostafa.com/
+    licence: not yet checked for licence or terms; not added to any fetch step
+    lane: library (medicine-science, burhan-juwayni)
+    completion: claimed
+    state: founder asked to use it for future downloads; one digital text (Burhan al-Juwayni, 855 pp., paragraph-numbered, no editor named) was compared with a drive scan; no harvest recorded
+    pages:
+    - {url: 'https://www.al-mostafa.com/', taken: named in docs/delegation/library/medicine-science.md as a source for future downloads, lane: library, state: claimed}
+    unverified:
+    - date
+    - pages_read
+  - id: web-noor-book
+    title: Noor-Book (noor-book.com)
+    licence: unknown; PDFs read under the sources policy, never republished
+    lane: library (hadith, usul, fiqh)
+    completion: downloaded
+    state: 'several Noor-Book PDFs were downloaded and OCRed in October 2026: Muwatta Malik (Ma''ruf 1997, 2 vols, OCR 15 Oct 2026), al-Mawsu''a al-Fiqhiyya al-Kuwaitiyya copy, Madkhal of Ibn Badran (Turki ed.), al-Risala of al-Shafi''i (0.02 GiB); per-book detail in the books block'
+    pages:
+    - {taken: 'noor-book.com-2_20240118 (al-Risala, al-Shafi''i), listed in a usul-fiqh batch', lane: library usul-fiqh-depth, state: downloaded, identifier: noor-book.com-2_20240118}
+    unverified:
+    - site_url
+    - dates
+    - per_book_urls
+  - id: web-waqfeya
+    title: Waqfeya (waqfeya.net / waqfeya.com) and its archive.org mirror
+    licence: unknown; books read under the sources policy
+    lane: fatwa explorer
+    completion: downloaded
+    state: 'three fatwa sets were downloaded and OCRed on 31 Oct 2026 via waqfeya archive.org items: al-Subki Qat'' lisan al-mubtadi''in (FP71266), Taqrib fatawa Ibn Taymiyya (tfrsitFP, 4 vols), Permanent Committee fatwas (FP124536, 16 vols), Durus fatawa al-Haramayn (FP171023, 19 vols); modern web record from the 14 Dec 2005 capture (data/source wayback-waqfeya-2005)'
+    pages:
+    - {taken: 'Subki, Qat'' lisan al-mubtadi''in, 71266.pdf', date: '2026-10-31', lane: fatwa explorer, state: released, identifier: FP71266}
+    - {taken: 'Taqrib fatawa Ibn Taymiyya, 4 vols', date: '2026-10-31', lane: fatwa explorer, state: downloaded, identifier: tfrsitFP}
+    - {taken: 'Permanent Committee fatwas, 16 vols', date: '2026-10-31', lane: fatwa explorer, state: downloaded, identifier: FP124536}
+    - {taken: 'Durus fatawa al-Haramayn, 19 vols', date: '2026-10-31', lane: fatwa explorer, state: downloaded, identifier: FP171023}
+    unverified:
+    - site_url
+    notes: Per-book entries are in the books block (fatwa category).
+  - id: web-official-designation-lists
+    title: Official designation lists (EU, US, Canada, UN, UK, Australia)
+    licence: official public lists; used only to check names against the hard block, never to carry content
+    lane: content-safety (extremism firewall)
+    completion: ingested
+    state: read on 14 Nov 2026 to extend the blocked-organisation list (docs/agents/content-safety.md section 2); no page on the museum quotes them
+    pages:
+    - {url: 'http://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-eng.aspx', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://eur-lex.europa.eu/eli/dec/2026/421/oj/eng', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02002R0881-20241213', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://main.un.org/securitycouncil/en/sanctions/1267/aq_sanctions_list', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://ofac.treasury.gov/recent-actions/20030220', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://ofac.treasury.gov/recent-actions/20130321', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://ofac.treasury.gov/recent-actions/20190415_33', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://ofac.treasury.gov/recent-actions/20250305', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://ofac.treasury.gov/recent-actions/20260309', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://sanctionslist.ofac.treas.gov/Home/static/sdn.html', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://www.consilium.europa.eu/en/policies/sanctions-against-terrorism/', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2/proscribed-terrorist-groups-or-organisations-accessible-version', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://www.nationalsecurity.gov.au/what-australia-is-doing-subsite/Pages/listed-terrorist-organisations.aspx', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    - {url: 'https://www.state.gov/foreign-terrorist-organizations/', taken: list page read for the 14 Nov 2026 additions, date: '2026-11-14', lane: content-safety, state: ingested}
+    unverified:
+    - pr_numbers
+  - id: web-wayback-machine
+    title: Internet Archive Wayback Machine (captures read for the Modern Islam Browser)
+    site_url: https://web.archive.org
+    licence: archived captures cited for what the site said about itself at the capture date; no content republished
+    lane: modern-islam web section
+    completion: ingested
+    state: 18 data/source wayback-* records, each citing one capture URL; the earliest capture was used to date a website's launch; also used 8 Nov 2026 for Archnet and QDL pages the live sites block
+    prs:
+    - 5280
+    - 5166
+    - 5661
+    pages:
+    - {url: 'https://web.archive.org/web/20141226062348/http://5pillarsuk.com/', taken: 'capture read in Chrome for the modern web record: 5pillarsuk.com (capture of 2014-12-26)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-5pillars-2014}
+    - {url: 'https://web.archive.org/web/20060207031828/http://alukah.net/', taken: 'capture read in Chrome for the modern web record: alukah.net (capture of 2006-02-07)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-alukah-2006}
+    - {url: 'https://web.archive.org/web/19991127104654/http://www.binbaz.org.sa:80/', taken: 'capture read in Chrome for the modern web record: binbaz.org.sa (capture of 1999-11-27)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-binbaz-1999}
+    - {url: 'https://web.archive.org/web/20011117105752/http://dorar.net/', taken: 'capture read in Chrome for the modern web record: dorar.net (capture of 2001-11-17)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-dorar-2001}
+    - {url: 'https://web.archive.org/web/19980119192551/http://www.islam-qa.com/', taken: 'capture read in Chrome for the modern web record: Islam Questions and Answers (www.islam-qa.com), archived captures', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-islam-qa-com-1998}
+    - {url: 'https://web.archive.org/web/20070428044118/http://islam21c.com/', taken: 'capture read in Chrome for the modern web record: islam21c.com (capture of 2007-04-28)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-islam21c-2007}
+    - {url: 'https://web.archive.org/web/20001206210600/http://islamhouse.com/', taken: 'capture read in Chrome for the modern web record: islamhouse.com (capture of 2000-12-06)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-islamhouse-2000}
+    - {url: 'https://web.archive.org/web/19981203001102/http://islamicfinder.org/', taken: 'capture read in Chrome for the modern web record: islamicfinder.org (captures of 1998-12-03, 1999-10-04 and 2001-05-12)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-islamicfinder-1998}
+    - {url: 'https://web.archive.org/web/19990508130030/http://islamicity.com/', taken: 'capture read in Chrome for the modern web record: islamicity.com (capture of 1999-05-08)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-islamicity-1999}
+    - {url: 'https://web.archive.org/web/20060414024458/http://islamstory.com/', taken: 'capture read in Chrome for the modern web record: islamstory.com (captures of 2002-01-21 to 2007-01-02)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-islamstory-2006}
+    - {url: 'https://web.archive.org/web/20020325115153/http://islamtoday.net/', taken: 'capture read in Chrome for the modern web record: islamtoday - A web site about islam and muslims, captured 25 March 2002', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-islamtoday-2002}
+    - {url: 'https://web.archive.org/web/19981212030038/http://www.islamway.com:80/', taken: 'capture read in Chrome for the modern web record: islamway.com (capture of 1998-12-12)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-islamway-1998}
+    - {url: 'https://web.archive.org/web/19991009211542/http://www.islamweb.net:80/', taken: 'capture read in Chrome for the modern web record: islamweb.net (captures of 1999-10-09 and 1999-10-12)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-islamweb-1999}
+    - {url: 'https://web.archive.org/web/20070313222609/http://muslimmatters.org/', taken: 'capture read in Chrome for the modern web record: muslimmatters.org (capture of 2007-03-13)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-muslimmatters-2007}
+    - {url: 'https://web.archive.org/web/20100507050859/http://seekersguidance.org/', taken: 'capture read in Chrome for the modern web record: seekersguidance.org (capture of 2010-05-07)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-seekersguidance-2010}
+    - {url: 'https://web.archive.org/web/20051214094237/http://waqfeya.com/', taken: 'capture read in Chrome for the modern web record: waqfeya.com (capture of 2005-12-14)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-waqfeya-2005}
+    - {url: 'https://web.archive.org/web/20000520014507/http://whyislam.org/', taken: 'capture read in Chrome for the modern web record: whyislam.org (capture of 2000-05-20)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-whyislam-2000}
+    - {url: 'https://web.archive.org/web/20160807014821/http://yaqeeninstitute.org/', taken: 'capture read in Chrome for the modern web record: yaqeeninstitute.org (capture of 2016-08-07)', date: '2026-11-07', lane: modern-islam web, state: ingested, source_id: source/wayback-yaqeen-2016}
+    unverified:
+    - captures_without_a_wayback_source_record
+  # END websites:authenticity-fatwa-wayback
   # END websites
 
 datasets:
