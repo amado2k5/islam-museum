@@ -15,9 +15,10 @@ died: { edtf: "1829", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/khairpur-state, sources: [source/wikidata], confidence: low, note: "Wikidata Q5222125 ('Daraza'), located in Khairpur State" }
   - { type: died_in, target: place/khairpur-state, sources: [source/wikidata], confidence: low, note: "Wikidata Q5222125 ('Daraza'), located in Khairpur State" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q732446
+  viaf: "51877896"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

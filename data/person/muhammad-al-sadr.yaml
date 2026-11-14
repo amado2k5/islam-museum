@@ -15,9 +15,10 @@ died: { edtf: "1999", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168193)" }
   - { type: lived_in, target: place/al-hannana, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q110765381)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q659184
+  viaf: "61864508"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

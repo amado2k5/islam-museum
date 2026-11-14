@@ -17,9 +17,10 @@ died: { edtf: "1720", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/azimabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q2355593
+  viaf: "57523601"
 provenance:
   layer: own-research
   source: "Wikidata Q2355593 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"

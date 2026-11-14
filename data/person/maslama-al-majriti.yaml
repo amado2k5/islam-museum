@@ -16,9 +16,10 @@ died: { edtf: "1007~", calendar: gregorian, precision: year, derived: true, note
 relations:
   - { type: born_in, target: place/majrit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cordoba, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/fihrist-ibn-al-nadim]
+sources: [source/fihrist-ibn-al-nadim, source/wikidata]
 external_ids:
   wikidata: Q783253
+  viaf: "100277971"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Nadim, al-Fihrist — entry not yet read on the page"

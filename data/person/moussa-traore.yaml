@@ -40,8 +40,8 @@ relations:
   - { type: successor_of, target: person/modibo-keita, sources: [source/wikipedia-moussa-traore-en] }
   - { type: born_in, target: place/kayes, sources: [source/wikidata-moussa-traore], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q325164)" }
   - { type: died_in, target: place/bamako, sources: [source/wikidata-moussa-traore], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3703)" }
-external_ids: { wikidata: "Q313242" }
-sources: [source/wikipedia-moussa-traore-en, source/wikipedia-moussa-traore-ar, source/wikipedia-moussa-traore-ur, source/wikidata-moussa-traore]
+external_ids: { wikidata: "Q313242", viaf: "12962520" }
+sources: [source/wikipedia-moussa-traore-en, source/wikipedia-moussa-traore-ar, source/wikipedia-moussa-traore-ur, source/wikidata-moussa-traore, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Moussa Traoré' (revision 1356533056 of 28 May 2026), Arabic Wikipedia 'موسى تراوري' (revision 76480110 of 8 September 2026), Urdu Wikipedia 'موسی تراورے' (revision 4784691 of 12 October 2021) and Wikidata item Q313242 (item revision 2558175986 of 18 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (traore — the hit is the footballer Adama Traoré, a different man; Wikidata's same-name items are footballers), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No place entity exists for Kayes or Bamako, so no born_in or died_in edge is written; his successor_of edge to Modibo Keïta (head of state, 1968) is written in his own record — the English article's infobox names Keïta as his predecessor."

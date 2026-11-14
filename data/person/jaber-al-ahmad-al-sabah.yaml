@@ -42,12 +42,13 @@ relations:
   - { type: member_of, target: group/al-sabah, sources: [source/wikipedia-jaber-al-ahmad-al-sabah-en, source/wikidata-jaber-al-ahmad-al-sabah] }
 wings: [people]
 regions: [arabia]
-external_ids: { wikidata: "Q217194" }
+external_ids: { wikidata: "Q217194", viaf: "35605988" }
 sources:
   - source/wikipedia-jaber-al-ahmad-al-sabah-en
   - source/wikipedia-jaber-al-ahmad-al-sabah-ar
   - source/wikipedia-jaber-al-ahmad-al-sabah-ur
   - source/wikidata-jaber-al-ahmad-al-sabah
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Jaber Al-Ahmad Al-Sabah in English (revision 1375558025 of 18 Sep 2026), Arabic (revision 76533646 of 12 Sep 2026) and Urdu (revision 12095782 of 4 Oct 2026) and the Wikidata item Q217194 (item revision 2557940304 of 17 Oct 2026), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and record provenances — no prior record of the man existed (the Jaber on file is Jaber II, who died in 1942). No successor_of edge is written in this record: his own predecessor Sabah Al-Salim Al-Sabah has no museum record, and edges are written in the successor's record in any case. His kinship to Sabah Al-Ahmad is written as sibling_of in Sabah's record, and his kinship to Mishal Al-Ahmad in Mishal's record, so each pair stands once."

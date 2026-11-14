@@ -15,9 +15,10 @@ relations:
   - { type: born_in, target: place/karaman-province, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q482975)" }
   - { type: born_in, target: place/karaman, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q262579)" }
   - { type: died_in, target: place/bilecik-province, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q46763)" }
-sources: [source/dawlat-uthmaniyya-salabi, source/sicill-i-osmani]
+sources: [source/dawlat-uthmaniyya-salabi, source/sicill-i-osmani, source/wikidata]
 external_ids:
   wikidata: Q3481733
+  viaf: "9737170868739022930002"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

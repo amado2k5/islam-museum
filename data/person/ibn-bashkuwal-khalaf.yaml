@@ -20,8 +20,8 @@ story_roles:
 relations:
   - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with الأندلس per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
   - { type: authored, target: work/qudat-qurtuba-ibn-bashkuwal, sources: [source/kashf-zunun-furqan] }
-external_ids: { wikidata: "Q1655886" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan]
+external_ids: { wikidata: "Q1655886", viaf: "90074654" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/wikidata]
 status:
   review: published
   completeness: 3

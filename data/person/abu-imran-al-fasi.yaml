@@ -13,8 +13,8 @@ provenance:
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ibar-batch-3
-external_ids: { wikidata: "Q3818646" }
-sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab]
+external_ids: { wikidata: "Q3818646", viaf: "171710440" }
+sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: lived_in, target: place/fez, note: "Place association from the person's nisba/name (الفاسي); denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab], confidence: low }

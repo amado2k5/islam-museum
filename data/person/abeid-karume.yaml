@@ -43,8 +43,8 @@ relations:
   - type: died_in
     target: place/zanzibar
     sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar]
-external_ids: { wikidata: "Q318310" }
-sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar, source/wikipedia-abeid-karume-ur, source/wikidata-abeid-karume]
+external_ids: { wikidata: "Q318310", viaf: "57930948" }
+sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar, source/wikipedia-abeid-karume-ur, source/wikidata-abeid-karume, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia revision 1376190564 of 22 September 2026, Arabic revision 76851538 of 4 October 2026 and Urdu revision 11994684 of 20 September 2026, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q318310 revision 2557345493 of 15 October 2026, read from the Wikidata API the same way. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q318310; his Arabic labels عبيد كرومي and عبيد أماني كرومي collide with no existing record's label. Relations written: died_in Zanzibar Town only. His son Amani's child_of edge to him is written in Amani's record (same batch), not here. No succession edge arises from his own record: he was the first holder of the Zanzibar presidency, and his successor Aboud Jumbe, who would carry the edge, has no museum record; his birthplace is disputed between Nyasaland and Mwera, so no born_in is written."

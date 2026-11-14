@@ -16,9 +16,10 @@ died: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/urmia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q179665)" }
   - { type: died_in, target: place/konya, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q79857)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q2784660
+  viaf: "4026337"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

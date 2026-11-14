@@ -14,9 +14,10 @@ periods: [period/gunpowder-empires]
 died: { edtf: "1520~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Neshri); TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q1984103 (P570, a statement with a reference), item revision 2552408427.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/ottoman-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12560)" }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q1984103
+  viaf: "59884357"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

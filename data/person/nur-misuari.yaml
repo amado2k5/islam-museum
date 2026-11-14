@@ -25,10 +25,10 @@ faith:
     basis: unknown
     note: "No article read names a school for Nur Misuari. Wikidata's religion value is Islam in general (Q432), a structured value from a single structured family, which never counts on its own, and no second, independent source naming a school for the man himself was found among the articles read. His founding and leadership of the Moro National Liberation Front is movement leadership, which never counts. Under the two-source rule and the doubt rule his school stays unknown. No school reading exists anywhere, so the value is unknown and unflagged."
     sources: [source/wikipedia-nur-misuari-en, source/wikipedia-nur-misuari-ar, source/wikidata-nur-misuari]
-external_ids: { wikidata: "Q2005240" }
+external_ids: { wikidata: "Q2005240", viaf: "8790546" }
 relations:
   - { type: born_in, target: place/jolo, sources: [source/wikidata-nur-misuari], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q156024)" }
-sources: [source/wikipedia-nur-misuari-en, source/wikipedia-nur-misuari-ar, source/wikidata-nur-misuari]
+sources: [source/wikipedia-nur-misuari-en, source/wikipedia-nur-misuari-ar, source/wikidata-nur-misuari, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Nur Misuari' (revision 1381857895 of 25 October 2026), Arabic Wikipedia «نور ميسواري» (revision 72117790 of 25 September 2025) and Wikidata item Q2005240 (item revision 2558187505 of 18 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property, with the item's description ('Filipino politician') matching the queue entry. Existence checked both directions before building: name fragments (Misuari, ميسواري) and Q2005240 grepped across all data/person files on origin/main — no hits. No relations are written: he has no relation targets among existing records that the pair rule would place here, and Tapul, Jolo and Sulu have no place entities here (verified against origin/main in this session), so no born_in edge is possible; his MNLF leadership is organisational and is carried in prose."

@@ -28,10 +28,10 @@ faith:
     basis: unknown
     note: "The English article makes no statement of his religion anywhere in its text and files him only in the category 'Nigerian Muslims' — a category filing, which never counts. Wikidata gives a single structured value, Islam, with no school. No source used names an affiliation beyond that or a school at all, so under the two-source rule the value stays unknown, unflagged: this is the plain configuration in which even 'Muslim' rests on a filing and a structured value, and no reading stands one attestation short."
     sources: [source/wikipedia-nuhu-ribadu-en, source/wikidata-nuhu-ribadu]
-external_ids: { wikidata: "Q551605" }
+external_ids: { wikidata: "Q551605", viaf: "100841742" }
 relations:
   - { type: born_in, target: place/yola, sources: [source/wikidata-nuhu-ribadu], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q994114)" }
-sources: [source/wikipedia-nuhu-ribadu-en, source/wikidata-nuhu-ribadu]
+sources: [source/wikipedia-nuhu-ribadu-en, source/wikidata-nuhu-ribadu, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Nuhu Ribadu' (revision 1375910472) and Wikidata item Q551605 (item revision 2550177789), read via the MediaWiki API on 26 October 2026; the article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (ribadu, nuhu), by Arabic label and by the QID route across data/person/ — no earlier record exists, and he is not the Ghanaian chief imam Osman Nuhu Sharubutu. No place entity exists for Yola and no person record exists for his father Ahmadu Ribadu, so no born_in or child_of edges are written."

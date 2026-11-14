@@ -16,11 +16,11 @@ periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 story_roles:
   - { role: traveller-observer, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-external_ids: { wikidata: "Q217915" }
+external_ids: { wikidata: "Q217915", viaf: "173366743" }
 relations:
   - { type: born_in, target: place/gelibolu, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q216907)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikidata]
 importance: 2
 status:
   review: published

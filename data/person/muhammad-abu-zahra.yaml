@@ -14,9 +14,10 @@ periods: [period/modern-era]
 died: { edtf: "1974", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/misr, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q79)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q718677
+  viaf: "201126558"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

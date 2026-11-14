@@ -17,9 +17,10 @@ relations:
   - { type: born_in, target: place/alnif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/meknes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q2750774
+  viaf: "97050364"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

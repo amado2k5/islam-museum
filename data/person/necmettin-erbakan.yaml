@@ -34,12 +34,12 @@ faith:
     basis: unknown
     note: "Wikidata gives the religion as Sunni Islam. The English Wikipedia article describes his Millî Görüş movement and his membership of the İskenderpaşa Naqshbandi community but gives no denomination, and the Arabic Wikipedia article describes his Islamic orientations without naming a school. Not recorded as sunni until a second source confirms it."
     sources: [source/wikidata-necmettin-erbakan, source/wikipedia-necmettin-erbakan-en, source/wikipedia-necmettin-erbakan-ar]
-external_ids: { wikidata: "Q243550" }
+external_ids: { wikidata: "Q243550", viaf: "18027960" }
 relations:
   - { type: born_in, target: place/sinop, sources: [source/wikidata-necmettin-erbakan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q599416)" }
   - { type: died_in, target: place/ankara, sources: [source/wikidata-necmettin-erbakan], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3640)" }
   - { type: buried_in, target: place/merkezefendi-cemetery, sources: [source/wikidata-necmettin-erbakan], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q6819633)" }
-sources: [source/wikipedia-necmettin-erbakan-en, source/wikipedia-necmettin-erbakan-ar, source/wikidata-necmettin-erbakan]
+sources: [source/wikipedia-necmettin-erbakan-en, source/wikipedia-necmettin-erbakan-ar, source/wikidata-necmettin-erbakan, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia article 'Necmettin Erbakan' (revision of 28 September 2026), Arabic Wikipedia article «نجم الدين أربكان» (revision of 24 September 2026), Wikidata Q243550; checked 24 Oct 2026"

@@ -30,8 +30,8 @@ faith:
 relations:
   - { type: born_in, target: place/minna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-babangida] }
   - { type: successor_of, target: person/muhammadu-buhari, sources: [source/wikipedia-ibrahim-babangida-en] }
-external_ids: { wikidata: "Q333415" }
-sources: [source/wikipedia-ibrahim-babangida-en, source/wikipedia-ibrahim-babangida-ar, source/wikipedia-ibrahim-babangida-ur, source/wikidata-ibrahim-babangida]
+external_ids: { wikidata: "Q333415", viaf: "164176624" }
+sources: [source/wikipedia-ibrahim-babangida-en, source/wikipedia-ibrahim-babangida-ar, source/wikipedia-ibrahim-babangida-ur, source/wikidata-ibrahim-babangida, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Ibrahim Babangida' (revision 1382112702, the article's revision of 26 October 2026), Arabic Wikipedia 'إبراهيم بابنجيدا' (revision 74901643), Urdu Wikipedia 'ابراہیم بابانگیدا' (revision 11615275) and Wikidata item Q333415 (item revision 2557927307), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (babangida), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and the Arabic label matches no existing record's label. No place entity exists for Minna, so no born_in edge is written; his successor_of edge to Muhammadu Buhari (1985) is written in his own record; he was himself succeeded by the interim head of state Ernest Shonekan, who has no person record."

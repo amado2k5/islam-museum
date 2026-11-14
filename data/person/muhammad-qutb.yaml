@@ -15,9 +15,10 @@ died: { edtf: "2014", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/musha, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3868503)" }
   - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q2614690
+  viaf: "129145067369466631357"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

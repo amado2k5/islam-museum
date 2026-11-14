@@ -39,12 +39,13 @@ relations:
   - { type: died_in, target: place/jerusalem, sources: [source/wikipedia-saeb-erekat-en, source/wikipedia-saeb-erekat-ar] }
 wings: [people]
 regions: [levant-iraq]
-external_ids: { wikidata: "Q970706" }
+external_ids: { wikidata: "Q970706", viaf: "33395584" }
 sources:
   - source/wikipedia-saeb-erekat-en
   - source/wikipedia-saeb-erekat-ar
   - source/wikipedia-saeb-erekat-ur
   - source/wikidata-saeb-erekat
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Saeb Erekat in English (revision 1378145264 of 3 Oct 2026), Arabic (revision 76665602 of 22 Sep 2026) and Urdu (revision 12094970 of 4 Oct 2026) and the Wikidata item Q970706 (item revision 2558232309 of 18 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property. Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. One relation is written: died_in Jerusalem, where both articles place his death (Hadassah Ein Karem Hospital). No born_in or buried_in edge is written: his birthplace Abu Dis and his burial place Jericho (and Ramallah, of the funeral) have no place entities in the museum, and neither Fatah nor the PLO has a group entity, so no member_of or founder_of edge is written."

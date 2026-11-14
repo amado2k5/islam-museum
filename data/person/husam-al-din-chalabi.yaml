@@ -15,9 +15,10 @@ born: { edtf: "1225", precision: year, status: tradition, derived: true }
 died: { edtf: "1283", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/konya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q3875793
+  viaf: "41146030532635860655"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

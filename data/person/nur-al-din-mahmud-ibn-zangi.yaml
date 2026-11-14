@@ -30,12 +30,12 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-41
   canon: "Encyclopaedia of Islam 2nd ed., vol. 8, article Nur al-Din Mahmud b. Zangi, PDF pages 138-143, written by Claude Sonnet 5.5, run canon-cornerstones-20"
-external_ids: { wikidata: "Q312973", nomisma: "nur_al-din_mahmud_ibn_zengi" }
+external_ids: { wikidata: "Q312973", nomisma: "nur_al-din_mahmud_ibn_zengi", viaf: "90039925" }
 relations:
   - { type: born_in, target: place/mosul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q83317)" }
   - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
   - { type: buried_in, target: building/nur-al-din-madrasa-damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q7070003)" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/assabile-tareq-al-suwaidan, source/encyclopaedia-of-islam-2, source/nomisma]
+sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/assabile-tareq-al-suwaidan, source/encyclopaedia-of-islam-2, source/nomisma, source/wikidata]
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 

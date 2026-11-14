@@ -26,10 +26,10 @@ faith:
     basis: unknown
     note: "No source read for this record names a school or madhhab for Shaqiri himself. The English Wikipedia article's personal-life section states: 'Shaqiri is a Muslim but celebrates Christmas, despite it being a mainly Christian holiday,' explaining it by his family's childhood practice, and quoting him in 2014 on the family Christmas tree; the Arabic article likewise states «شاكيري مسلم» ('Shaqiri is a Muslim'), and Wikidata Q252190 gives his religion as Islam (Q432), generically. A family custom carried from childhood is practice and background, not an attestation of a school, and the generic statements name no school: Kosovo's historic Hanafi tradition may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
     sources: [source/wikipedia-xherdan-shaqiri-en, source/wikipedia-xherdan-shaqiri-ar, source/wikidata-xherdan-shaqiri]
-external_ids: { wikidata: "Q252190" }
+external_ids: { wikidata: "Q252190", viaf: "2081154983532367860008" }
 relations:
   - { type: born_in, target: place/gilan, sources: [source/wikidata-xherdan-shaqiri], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q739808)" }
-sources: [source/wikipedia-xherdan-shaqiri-en, source/wikipedia-xherdan-shaqiri-ar, source/wikidata-xherdan-shaqiri]
+sources: [source/wikipedia-xherdan-shaqiri-en, source/wikipedia-xherdan-shaqiri-ar, source/wikidata-xherdan-shaqiri, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Xherdan Shaqiri' (revision 1381495408 of 22 October 2026), Arabic Wikipedia «جردان شكيري» (revision 75058675 of 5 June 2026) and Wikidata Q252190, read on 26 October 2026 and checked against the recorded revisions. No earlier record for him existed in data/person/ under xherdan-shaqiri or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."

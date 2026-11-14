@@ -17,9 +17,10 @@ relations:
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/uthman-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: sibling_of, target: person/urkhan-ibn-uthman, sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q720989
+  viaf: "340146707059800791016"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي، ص 54–55، 72"

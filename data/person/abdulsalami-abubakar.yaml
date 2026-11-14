@@ -29,8 +29,8 @@ faith:
 relations:
   - { type: lived_in, target: place/nigeria, note: "From text: Nigerian (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-abdulsalami-abubakar-en, source/wikipedia-abdulsalami-abubakar-ar, source/wikidata-abdulsalami-abubakar], confidence: low }
   - { type: successor_of, target: person/sani-abacha, sources: [source/wikipedia-abdulsalami-abubakar-en] }
-external_ids: { wikidata: "Q262346" }
-sources: [source/wikipedia-abdulsalami-abubakar-en, source/wikipedia-abdulsalami-abubakar-ar, source/wikidata-abdulsalami-abubakar]
+external_ids: { wikidata: "Q262346", viaf: "70159866" }
+sources: [source/wikipedia-abdulsalami-abubakar-en, source/wikipedia-abdulsalami-abubakar-ar, source/wikidata-abdulsalami-abubakar, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Abdulsalami Abubakar' (revision 1380782590), Arabic Wikipedia 'عبد السلام أبو بكر' (revision 70719735) and Wikidata item Q262346 (item revision 2561155192), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (abdulsalami, abubakar), by Arabic label, by biography and by the QID route across data/person/ — the existing abubakar records are other men (Abubakar Gumi, Abubakar Tafawa Balewa, Atiku Abubakar), and the Arabic label matches no existing record's label. No Urdu article exists for him (Wikidata links the English, Arabic and Hausa articles), so the Urdu prose is written from the English and Arabic articles and Wikidata. No place entity exists for Minna, so no born_in edge is written; his successor_of edge to Sani Abacha is written in his own record on the English article's lead statement that he succeeded Abacha upon the latter's death; he handed over to Olusegun Obasanjo, who has no person record."

@@ -31,9 +31,9 @@ provenance:
   run: prose-fill-persons-batch50
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b58", source: "Append defined identity/default-frame basis, bounded solar-time contribution and sourced trilingual prose extensions. Preserve original date/summary/occupations/identifier/provenance/status and all existing prose/front matter; old source not newly certified." }
-sources: [source/wafayat-ayan, source/ibn-yunus-king-bea, source/tdv-ibn-yunus-dizer, source/ibn-yunus-mactutor]
+sources: [source/wafayat-ayan, source/ibn-yunus-king-bea, source/tdv-ibn-yunus-dizer, source/ibn-yunus-mactutor, source/wikidata]
 status: { review: published, completeness: 3 }
-external_ids: { wikidata: Q459921 }
+external_ids: { wikidata: Q459921, viaf: "95367985" }
 occupations:
   - job: job/astronomer
     kind: secondary

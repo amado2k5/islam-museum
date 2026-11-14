@@ -63,10 +63,11 @@ relations:
     sources: [source/wikipedia-sami-frasheri-en, source/wikidata-sami-frasheri]
 
   - { type: born_in, target: place/albania, sources: [source/wikipedia-sami-frasheri-en, source/tdv-semseddin-sami, source/wikidata-sami-frasheri] }
-sources: [source/tdv-semseddin-sami, source/wikidata-sami-frasheri, source/wikipedia-sami-frasheri-en, source/wikipedia-sami-frasheri-sq, source/wikipedia-sami-frasheri-tr]
+sources: [source/tdv-semseddin-sami, source/wikidata-sami-frasheri, source/wikipedia-sami-frasheri-en, source/wikipedia-sami-frasheri-sq, source/wikipedia-sami-frasheri-tr, source/wikidata]
 
 external_ids:
   wikidata: Q331896
+  viaf: "29685410"
 
 provenance:
   layer: own-research

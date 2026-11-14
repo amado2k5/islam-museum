@@ -16,9 +16,10 @@ died: { edtf: "1683", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/ruthenia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1147883)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q621548
+  viaf: "45470699"
 provenance:
   layer: own-research
   source: "Wikidata Q621548 (religion claim Islam); book source: al-Salabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

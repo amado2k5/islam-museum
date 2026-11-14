@@ -28,8 +28,8 @@ faith:
     basis: unknown
     note: "FLAGGED (the Qabbani configuration, wave 95 section A). No article text names her religion or any school: the English text (a translation of the Arabic, one family) calls her family prominent and conservative, the Arabic text calls it a bourgeois Damascene family, and neither names a faith for her personally. Wikidata's religion value is Islam in general — a single structured value, and generic rather than a school. The English article's categories file her under 'Syrian Muslims' and the Urdu article's under 'Syrian Muslim personalities'; category filings never count. Recorded unknown with exactly this stated."
     sources: [source/wikipedia-ghada-al-samman-en, source/wikipedia-ghada-al-samman-ar, source/wikipedia-ghada-al-samman-ur, source/wikidata-ghada-al-samman]
-external_ids: { wikidata: "Q2612563" }
-sources: [source/wikipedia-ghada-al-samman-en, source/wikipedia-ghada-al-samman-ar, source/wikipedia-ghada-al-samman-ur, source/wikidata-ghada-al-samman]
+external_ids: { wikidata: "Q2612563", viaf: "24713220" }
+sources: [source/wikipedia-ghada-al-samman-en, source/wikipedia-ghada-al-samman-ar, source/wikipedia-ghada-al-samman-ur, source/wikidata-ghada-al-samman, source/wikidata]
 provenance:
   layer: own-research
   source: "English, Arabic and Urdu Wikipedia articles on Ghada al-Samman, each fetched by its recorded revision id (EN 1369585068, AR 72935183, UR 12139351) with the returned id asserted equal before use, and Wikidata item Q2612563 (item revision 2555663911, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic and Urdu articles' pageprops. Existence checks by Latin fragments (Samman) and Arabic fragments (غادة السمان) across data/person, by the grounded QID across all person files, and by biography found no prior record — azhar-al-samman and ibn-al-samman-of-damascus are different people. No lived_in edge is written: Beirut and Paris have no place entities."

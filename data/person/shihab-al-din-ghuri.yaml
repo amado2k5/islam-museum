@@ -18,11 +18,11 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-05
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
-external_ids: { wikidata: "Q1647182" }
+external_ids: { wikidata: "Q1647182", viaf: "50628517" }
 relations:
   - { type: born_in, target: place/ghor, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q23884786)" }
   - { type: died_in, target: place/dhamiak, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5268827)" }
   - { type: buried_in, target: place/sohawa-tehsil, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q3249571)" }
-sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab]
+sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab, source/wikidata]
 importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

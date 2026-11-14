@@ -22,6 +22,7 @@ story_roles:
 external_ids:
   wikidata: Q316364
   biblissima: "Q16682"
+  viaf: "5728728"
 relations:
   - { type: student_of, target: person/al-ukbari-abu-al-baqa, sources: [source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/ibn-yaish, sources: [source/encyclopaedia-of-islam-2] }
@@ -47,7 +48,7 @@ relations:
   - { type: lived_in, target: place/mosul, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
   - { type: traveled_to, target: place/damascus, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
   - { type: traveled_to, target: place/irbil, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba, source/biblissima]
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba, source/biblissima, source/wikidata]
 importance: 2
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium)" }
 provenance:
