@@ -1,0 +1,63 @@
+id: event/second-battle-of-athafit-al-kitd-and-the-ambush-285
+class: event
+kind: other
+label:
+  ar: 'المعركة الثانية عند أثافت: الكتد وكمين الدعام، الجمعة 14 شوال 285هـ'
+  en: 'The second battle at Athafit: al-Kitd and al-Da''am''s ambush, Friday 14 Shawwal 285 AH'
+  ur: 'اثافت کی دوسری لڑائی: الکتد اور دعام کا گھات، جمعہ 14 شوال 285ھ'
+summary:
+  ar: يصلي الهادي الظهر أول وقتها قرب أثافت ويعبئ جيشه، ويستولي الدعام على موضع يقال له الكتد ويبني له درجة ينزل منها إلى أثافت، ثم يصعد خيله إليه، وهي نحو مئتين وثلاثين فارساً وألفا راجل مقابل ثلاثين فارساً وسبعمئة راجل مع الهادي؛ فيحمل أبو القاسم بأربعة فرسان ويطرد من أمامه حتى يقارب أثافت، وكان الدعام قد أكمن خيلاً ورجالاً، فيخرج بمئة فارس وألف راجل ليقطع من في الكتد.
+  en: Al-Hadi prays the noon prayer early near Athafit and draws up his army; al-Da'am takes a place called al-Kitd and has a ramp built to come down to Athafit, then brings his horse up to it, some 230 horse and 2,000 foot against 30 horse and 700 foot with al-Hadi; Abu al-Qasim charges with four horsemen and drives back those before him until he nears Athafit, where al-Da'am had hidden horse and foot, and al-Da'am comes out with 100 horse and 1,000 foot to cut off those on al-Kitd.
+  ur: ہادی اثافت کے قریب ظہر کی نماز اول وقت پڑھ کر لشکر کی صف بندی کرتے ہیں؛ دعام «الکتد» نامی مقام لے لیتا ہے، اثافت میں اترنے کے لیے وہاں سیڑھی بنواتا ہے اور اپنے سوار اوپر چڑھاتا ہے، کوئی 230 سوار اور دو ہزار پیادے، جبکہ ہادی کے ساتھ تیس سوار اور سات سو پیادے ہیں؛ ابو القاسم چار سواروں کے ساتھ حملہ کر کے سامنے والوں کو اثافت کے قریب تک ہٹا دیتے ہیں، دعام نے گھات میں سوار اور پیادے چھپا رکھے تھے، وہ سو سوار اور ہزار پیادوں کے ساتھ نکلتا ہے تاکہ الکتد والوں کو کاٹ دے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0898-11-03'
+    hijri: '0285-10-14'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: يوم الجمعة بعد الخميس 13 شوال سنة 285هـ؛ التحويل مشتق من التقويم الجدولي
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/athafit
+- type: occurred_at
+  target: place/al-kitd-athafit-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/al-hadi-at-al-darb-and-abu-al-qasim-joins-285
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص101-102 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-13
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 101-102
