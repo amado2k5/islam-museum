@@ -1,0 +1,18 @@
+id: concept/psychic-motions-in-the-canon
+class: concept
+kind: scientific
+label: { ar: "الحركات النفسانية عند ابن سينا", en: "The motions of the soul in the Canon", ur: "قانون میں نفسانی حرکات" }
+summary:
+  ar: "في الفصل الرابع عشر، في موجبات الحركات النفسانية، يبين ابن سينا أن جميع العوارض النفسانية يتبعها أو يصحبها حركة الروح، إما إلى خارج وإما إلى داخل، وإما دفعة وإما قليلاً قليلاً {cite:canon-ibn-sina-print-v1 p.131}."
+  en: "In the fourteenth chapter, on the causes that lie in the motions of the soul, Ibn Sina shows that all the soul's accidents are followed or accompanied by a movement of the spirit, outward or inward, suddenly or little by little {cite:canon-ibn-sina-print-v1 p.131}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on harmful changes of the air, winds, dwellings, motion, sleep and the motions of the soul (scan pages 125 to 131), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-air-dwellings-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
