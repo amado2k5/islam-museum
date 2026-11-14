@@ -1,0 +1,18 @@
+id: concept/canon-signs-of-obstructions
+class: concept
+kind: scientific
+label: { ar: "علامات السدد عند ابن سينا", en: "Signs of obstructions in the Canon", ur: "رکاوٹوں کی علامات قانون میں" }
+summary:
+  ar: "في الفصل الثامن يبين ابن سينا كيف يستدل على السدد حين تجتمع مواد ولا تظهر علامات الامتلاء في البدن كله {cite:canon-ibn-sina-print-v1 p.165}."
+  en: "In the eighth chapter Ibn Sina shows how obstructions are recognised when matter has gathered but the signs of fullness do not appear in the whole body {cite:canon-ibn-sina-print-v1 p.165}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

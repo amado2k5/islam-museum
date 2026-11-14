@@ -23,3 +23,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## وفات
 وہ سنہ 449ھ میں فوت ہوئے، اس وقت ان کی عمر چھیاسی سال تھی {cite:shadharat-dhahab p. 288-289}.
+
+## OpenITI مجموعے میں تصانیف
+OpenITI مجموعہ اس مصنف کے لیے شناخت 0449AbuCalaMacarri کے تحت 6 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: ديوان أبي العلاء المعري، الفصول والغايات في تمجيد الله والمواعظ، رسالة الغفران۔ {cite:openiti-corpus 0449AbuCalaMacarri}

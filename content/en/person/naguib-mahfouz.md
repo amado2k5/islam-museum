@@ -49,3 +49,6 @@ His legacy is considered a cornerstone of modern Egyptian culture. His books are
 - The English article disagrees with itself on the novel count — 35 in the lead, 34 in the writing-career section — so this article records both.
 - The Nobel Prize facts page places his death in Cairo, while the English article specifies Agouza, Giza; this article uses the more precise location and records the difference here. The Nobel record's official wording is "an Arabian narrative art", where the English article's current lead says "an Egyptian narrative art"; this article follows the Nobel wording.
 - Later translations and edits of this article need periodic review with clear update dates.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 48 works under the author identifier 1427NajibMahfuz, among them: Afrah Qubba; Asda Sira Dhatiyya; Awlad Haratna; Baqi Min Zaman Saca. {cite:openiti-corpus 1427NajibMahfuz}

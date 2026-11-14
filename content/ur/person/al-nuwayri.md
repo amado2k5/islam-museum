@@ -18,3 +18,6 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 
 ## تواریخ
 پیدائش 21 ذیقعدہ 677ھ/5 اپریل 1279ء اخمیم — معجم اسلامی کے مطابق، زرکلی کے ہاں قوص؛ وفات 21 رمضان 733ھ/5 جون 1333ء قاہرہ {cite:encyclopaedia-of-islam-2 vol. 8 pp. 156, 159} {cite:durar-kamina-jil-1993 1/197}۔
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q530 کے تحت نام کی صورت «Aḥmad ibn ʿAbd al-Wahhāb al- Nuwayrī (1279-1333)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q530}

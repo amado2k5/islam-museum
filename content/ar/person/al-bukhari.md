@@ -43,3 +43,6 @@ translators: []
 وأبوه إسماعيل قال عند موته «لا أعلم من مالي درهم من حرام ولا درهم من شبهة» — والبخاري يعلق: أصدق ما يكون الرجل عند الموت {cite:assabile-tareq-al-suwaidan al-mubdioune/ep10 00:21:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep10 00:21:30}.
 ومن شهادات العلماء: قتيبة «لو كان في الصحابة لكان آية»، وأحمد «لم يجئنا من خراسان مثل محمد بن إسماعيل»، وابن خزيمة «ما رأيت تحت أديم السماء أعلم بحديث رسول الله وأحفظ من محمد بن إسماعيل» {cite:assabile-tareq-al-suwaidan al-mubdioune/ep10 00:22:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep10 00:23:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep10 00:23:30}.
 ومات عن اثنتين وستين سنة؛ ويستخرج الدرس: كتاب واحد يكفي لتخليد إنسان — «كتاب العالم ولده المخلد» — مع التركيز على مجال وهدف وعدم الانشغال بغيره {cite:assabile-tareq-al-suwaidan al-mubdioune/ep10 00:23:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep10 00:24:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep10 00:24:30}.
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q12161 بصيغة الاسم «Muḥammad ibn Ismāʿīl al- Buẖārī (0810-0870)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q12161}

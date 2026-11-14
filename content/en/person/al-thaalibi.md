@@ -12,3 +12,6 @@ Ibn Bassam, author of al-Dhakhira, said of him: he was in his time the guardian 
 
 ## Works and death
 Among his works are Yatimat al-Dahr on the merits of the people of his age, which covers the lives of poets; Fiqh al-Lugha wa Sirr al-Arabiyya; and Latif al-Ma'arif, on seasonal matters. He was born in 350 AH and died in 429 AH {cite:wafayat-ayan}.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 19 works under the author identifier 0429AbuMansurThacalibi, among them: Aḥsan mā samiʿtu; Diwan; Durar al-ḥikam; Fiqh al-luġaŧ wa sirr al-ʿarabiyyaŧ. {cite:openiti-corpus 0429AbuMansurThacalibi}

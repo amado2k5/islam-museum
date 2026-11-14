@@ -43,3 +43,9 @@ Abd al-Razzaq al-Mahdi gives his name as Jamal al-Din Abu al-Faraj Abd al-Rahman
 
 ## In Talbis Iblis
 On the title page of the second Muniriyya printing of his [[work/talbis-iblis|Talbis Iblis]] he is styled "the hadith master and imam Jamal al-Din Abu al-Faraj 'Abd al-Rahman ibn al-Jawzi al-Baghdadi", with his death dated 597 AH. {cite:talbis-iblis-muniriyya-1928 p. 5} In the book's preface he says he composed it to warn of the devil's trials and uncover what is hidden, and divided it into thirteen chapters that begin with holding to the Sunna and the community and end with long hope. {cite:talbis-iblis-muniriyya-1928 p. 8} {cite:talbis-iblis-muniriyya-1928 p. 9} In it he mentions that he compiled a separate book on the reports about [[person/al-hallaj|al-Hallaj]]. {cite:talbis-iblis-muniriyya-1928 p. 176} In his closing note the corrector Muhammad Munir al-Dimashqi calls the author "the scholar of the horizons and preacher of Iraq". {cite:talbis-iblis-muniriyya-1928 p. 407}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 61 works under the author identifier 0597IbnJawzi, among them: Adab Hasan Basri; Adhkiya; Akhbar Hamqa Wa Mughaffalin; Akhbar Nisa. {cite:openiti-corpus 0597IbnJawzi}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16842 with the name form «ʿAbd al-Raḥmân ibn ʿAlī Ibn al-Ǧawzī (1116-1201)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16842}

@@ -17,3 +17,6 @@ The title page calls him "Shaykh al-Islam", and the foreword by the university's
 
 ## Not yet written here
 His notices in the biographical and historical literature have not yet been read on the page. His birthplace, upbringing, travels and teachers, his ties with the rulers of his time, and what has been written for and against his call all need sources, which will be given here with each view attributed to its holders.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 39 works under the author identifier 1206IbnCabdWahhab, among them: Adab Mashy Ila Salat; Ahadith Fi Fitan. {cite:openiti-corpus 1206IbnCabdWahhab}

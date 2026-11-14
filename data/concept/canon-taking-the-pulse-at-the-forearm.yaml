@@ -1,0 +1,18 @@
+id: concept/canon-taking-the-pulse-at-the-forearm
+class: concept
+kind: scientific
+label: { ar: "جس نبض الساعد عند ابن سينا", en: "Taking the pulse at the forearm in the Canon", ur: "بازو کی نبض ٹٹولنا قانون میں" }
+summary:
+  ar: "يعلل ابن سينا اختيار عرق الساعد للجس، ويبين وضع اليد ووقت الجس وشروط الممتحن والمفحوص {cite:canon-ibn-sina-print-v1 p.169}."
+  en: "Ibn Sina explains why the vessel at the forearm is chosen for feeling the pulse and sets out the position of the hand, the time of examination and the conditions for the patient {cite:canon-ibn-sina-print-v1 p.169}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

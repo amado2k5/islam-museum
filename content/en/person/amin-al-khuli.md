@@ -8,3 +8,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 Amin al-Khuli (around 1895 CE – 1966 CE), an Egyptian scholar and writer, born in Sharshay, one of the villages of al-Minufiyya in Egypt. {cite:mawsuat-a3lam-ulama-adaba}
 
 The data we have hold only his birth, death and place of upbringing, and the rest needs an additional source.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 3 works under the author identifier 1385AminKhuli, among them: Fi Adab Misri; Hadha Nahw; Ray Fi Abi Cala. {cite:openiti-corpus 1385AminKhuli}

@@ -6,26 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمسلمة بن أحمد المجريطي القرطبي، رياضي وفلكي وكيميائي قرطبة في القرن العاشر الذي تُنسب إليه «غاية الحكيم»، توفي سنة ١٠٠٧م؛ يذكره ابن النديم في الفهرست ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Maslama ibn Ahmad al-Majriti of Cordoba, the tenth-century mathematician, astronomer and alchemist to whom Ghayat al-Hakim is ascribed, d. 1007; Ibn al-Nadim's Fihrist entry is not yet checked on the page."
+  ar: "مسلمة بن أحمد بن قاسم المجريطي، أبو القاسم، فيلسوف رياضي فلكي وإمام الرياضيين بالأندلس، ولد ومات بمجريط، أي مدريد، ٣٣٨ إلى ٣٩٨هـ؛ من كتبه ثمار العدد وغاية الحكيم واختصار تعديل الكواكب من زيج البتاني."
+  en: "Maslama ibn Ahmad ibn Qasim al-Majriti, Abu al-Qasim, a philosopher, mathematician and astronomer, the leading mathematician of al-Andalus, born and died at Majrit, that is Madrid, 338 to 398 AH (950 to 1007); his books include Thimar al-adad, Ghayat al-hakim and a digest of the planetary equations from al-Battani's zij."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [mathematics, astronomy-and-timekeeping, chemistry-and-alchemy]
-died: { edtf: "1007~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhabbi (Bughya) Confirmed on 13 November 2026 against Wikidata Q783253 (P570, a statement with a reference), item revision 2563393659.", sources: [source/wikidata] }
+died: { edtf: "1007", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 223: 398 AH = 1007 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/majrit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/cordoba, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/fihrist-ibn-al-nadim, source/wikidata]
+  - { type: died_in, target: place/majrit, note: "Al-Zirikli, al-A'lam vol. 7 p. 223: born and died at Majrit (Madrid); the card had Cordoba.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+sources: [source/fihrist-ibn-al-nadim, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q783253
   viaf: "100277971"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Nadim, al-Fihrist — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0014
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+born: { edtf: "950", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 223: 338 AH = 950 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

@@ -1,0 +1,18 @@
+id: concept/canon-pulse-size-and-its-kinds
+class: concept
+kind: scientific
+label: { ar: "أنواع النبض بحسب المقدار عند ابن سينا", en: "The kinds of pulse by size in the Canon", ur: "مقدار کے لحاظ سے نبض کی قسمیں قانون میں" }
+summary:
+  ar: "يبدأ ابن سينا الأجناس بمقدار الانبساط، فيبين أن النبض له ثلاثة أقطار هي الطول والعرض والعمق، ولكل منها ثلاثة أحوال بسيطة، ثم المركبات {cite:canon-ibn-sina-print-v1 p.169}."
+  en: "Ibn Sina begins the genera with the extent of expansion: the pulse has three dimensions, length, breadth and depth, each with three simple states, and compound ones follow {cite:canon-ibn-sina-print-v1 p.169}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

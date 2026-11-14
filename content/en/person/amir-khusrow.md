@@ -16,3 +16,9 @@ In 1310 Khusrow became a disciple of the Chishti Sufi saint Nizamuddin Auliya of
 ## Death
 
 Khusrow died in October 1325, a few months after his master, and the Urdu article states expressly that he died in Delhi. {cite:wikipedia-amir-khusrow-ur} {cite:wikidata-amir-khusrow} October 1325 falls within 725 AH, the Hijri year the Arabic article gives for his death. {cite:wikipedia-amir-khusrow-ar}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 6 works under the author identifier 0725AmirKhusraw, among them: Āyīnah-yi Sikandarī; Dīwān; Hašt Bihišt; Ḫusraw ū Šīrīn. {cite:openiti-corpus 0725AmirKhusraw}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q925 with the name form «Amīr H̱osrow Dehlavī (1253-1325)», the form including the years of birth and death as the file gives them. {cite:biblissima Q925}

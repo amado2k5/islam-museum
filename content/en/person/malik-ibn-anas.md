@@ -135,3 +135,6 @@ Sheikh Omar Abdelkafy recounts that al-Shafi'i, then about nine years old by his
 
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 Omar Abdelkafy relates that the Commander of the Faithful asked Malik to write a book avoiding the severities of Ibn Umar, the concessions of Ibn Abbas and the oddities of Ibn Mas'ud, and he wrote al-Muwatta'; when the caliph wanted to copy and distribute it, Malik asked that it be placed on the roof of the Ka'ba for a year to see how sincere he had been, and when they returned after the next hajj not a letter was gone, and he said he knew then that he had been sincere in it (needs_source: the story is the Sheikh's narration). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:09:00}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 2 works under the author identifier 0179MalikIbnAnas, among them: Muwatta; Risala Ila Harun. {cite:openiti-corpus 0179MalikIbnAnas}

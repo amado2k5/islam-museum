@@ -97,3 +97,6 @@ The [[invention/jalali-calendar|Jalali reform]] anchors New Year to the equinox,
 The [[invention/khayyam-parallel-quadrilateral|quadrilateral analysis of parallels]] is distinct from cubics and calendar. Vahabzadeh dates the [[work/khayyam-euclid-commentary|Euclid commentary]]470/1077and explains equal perpendicular legs,three cases and eight propositions. Convergence/divergence premises remain admitted,so the project is not relabelled as deriving the fifth postulate from the remaining axioms alone {cite:vahabzadeh-khayyam-mathematician author-p1-p3}.
 
 Stanford emphasizes replacing foundations and improving Euclid,not inventing complete modern non-Euclidean systems. The modern analysis/author version was read,not the original commentary/editions;the modern image's lettering differs from our example. Earlier qualified identity/poetry perspectives remain intact:quadrilateral geometry supplies no new verdict about a person's belief {cite:sep-umar-khayyam sec2.7-and4.2} {cite:vahabzadeh-khayyam-mathematician author-p3}.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q5777 with the name form «Ġīāṯ al-Dīn abō al-Fatḥ ʿOmar bin Ibrāhīm H̱ayyām Nīšāpōrī (1048-1131)», the form including the years of birth and death as the file gives them. {cite:biblissima Q5777}

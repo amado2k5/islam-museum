@@ -46,3 +46,6 @@ The publisher lists among his works:
 He quotes al-Dhahabi: his book on criticism and validation of transmitters proves his mastery in memorising hadith. {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 8} {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 9}
 
 Among the stories of his piety, he wept when told of Yahya ibn Ma'in's saying: we criticise people who may have set down their saddles in Paradise two hundred years ago. He died in Muharram 327. {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 10} {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 6}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 6 works under the author identifier 0327IbnAbiHatimRazi, among them: Adab Shafici; Bayan Khata Bukhari; Cilal Hadith; Jarh Wa Tacdil. {cite:openiti-corpus 0327IbnAbiHatimRazi}

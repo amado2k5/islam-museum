@@ -6,24 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لسلطان المزاحي، فقيه وأصولي وقارئ مصري القرن السابع عشر، توفي سنة ١٦٦٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sultan al-Mazzahi, the seventeenth-century Egyptian jurist, usuli and qari, d. 1665; the biographical entry is not yet checked on the page."
+  ar: "سلطان بن أحمد بن سلامة بن إسماعيل المزاحي المصري الشافعي، شيخ الإقراء بالقاهرة، تعلم وتوفي بها، من كتبه حاشية على شرح المنهج للقاضي زكريا، 985 إلى 1075 هـ."
+  en: "Sultan ibn Ahmad ibn Salama ibn Isma'il al-Mazzahi, the Egyptian Shafi'i, shaykh of Qur'anic recitation in Cairo, who studied and died there; among his books a gloss on Zakariyya's commentary on 'al-Manhaj', 985 to 1075 AH."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-died: { edtf: "1665", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi) Confirmed on 13 November 2026 against Wikidata Q105359251 (P570, a statement with a reference), item revision 2521339050.", sources: [source/wikidata] }
+died: { edtf: "1665", hijri: "1075", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 108: 1075 AH = 1664 CE; 1075 AH runs from July 1664 to July 1665, so the card's 1665 is kept. Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi) Confirmed on 13 November 2026 against Wikidata Q105359251 (P570, a statement with a reference), item revision 2521339050.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "1577", hijri: "0985", calendar: gregorian, precision: year, derived: true, sources: [source/alam-zirikli-dar-al-ilm-2002], note: "Al-Zirikli, al-A'lam vol. 3 p. 108: 985 AH = 1577 CE." }
 relations:
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/al-aalam, source/wikidata]
+  - { type: lived_in, target: place/cairo, note: "Al-Zirikli, al-A'lam vol. 3 p. 108: learned and died in Cairo; shaykh of recitation there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q105359251
   viaf: "90042398"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0064
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

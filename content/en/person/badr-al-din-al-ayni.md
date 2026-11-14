@@ -35,3 +35,9 @@ He became market inspector (muhtasib) of Cairo in Dhu al-Hijja 801, replacing [[
 - **Sunni: Ibn Hajar in Inba' al-Ghumr, as the biography reports**: says that when al-'Ayni was teased in verses about the leaning minaret of the Mu'ayyadiyya, he had someone compose a two-line reply and passed it off as his own, the lines being al-Nawaji's; the biography rejects this, noting that al-Maqrizi firmly attributed the lines to al-'Ayni. {cite:umdat-qari-ilmiyya-2001-v1 p. 13}
 - **Sunni: al-Sakhawi, as the biography reports**: faulted al-'Ayni for the miscopyings and dropped names in his history, due to his fast pen, while saying he knew no one after his own teacher Ibn Hajar with more works; the biography quotes Taqi al-Din al-Tamimi that this is no fault given how much al-'Ayni wrote. {cite:umdat-qari-ilmiyya-2001-v1 p. 10}
 :::
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 10 works under the author identifier 0855BadrDinCayni, among them: Binaya Sharh Hidaya; ʿIqd al-jumān fī tārīḫ ahl al-zamān; Cumdat Qari; Maghani Akhyar. {cite:openiti-corpus 0855BadrDinCayni}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q2052 with the name form «Badr al-Dīn Maḥmūd ibn Aḥmad al- ʿAynī (1361-1451)», the form including the years of birth and death as the file gives them. {cite:biblissima Q2052}

@@ -107,3 +107,9 @@ The inspected 1999 Arabic page images were compared with Tibi's translation in t
 
 ## Individual identity basis and affiliation readings
 **Sunni frame:** Britannica explicitly calls him a Muslim physician; Alper challenges Shia classification through the reported biography and interpretation of concepts, not a conclusive personal declaration or a school inferred solely from a Hanafi teacher {cite:britannica-avicenna opening} {cite:tdv-ibn-sina-alper affiliation-discussion}. **Reported contrary reading:** Alper presents Corbin's and Türker-Küyel's connection of his thought with Shiism or Ismailism and disputes it; attribution is through Alper, not an independent reading of those originals in this enrichment {cite:tdv-ibn-sina-alper affiliation-discussion}. Earlier positions remain in the record and disagreement stays attributed, not settled by the museum {cite:tdv-ibn-sina-alper affiliation-discussion}.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 15 works under the author identifier 0428IbnSina, among them: Isharat Wa Tanbihat; Ma Hiya Cishq; Macrifat Nafs Natiq; al-Muḫtaṣar al-awsaṭ fī al-manṭiq. {cite:openiti-corpus 0428IbnSina}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q2018 with the name form «Avicenne (0980-1037)», the form including the years of birth and death as the file gives them. {cite:biblissima Q2018}

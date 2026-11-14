@@ -12,3 +12,6 @@ Abu Sa'id Nashwan ibn Sa'id al-Himyari, a Yemeni scholar from Dhu Maraid, from a
 The encyclopedia gives his death as 573 AH (about 1178 CE). This report rests on that source alone. {cite:mawsuat-a3lam-ulama-adaba p.294}
 
 An additional source is needed for his works, his teachers, and his date of birth.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 3 works under the author identifier 0573NashwanHimyari, among them: Hur Cin; Shams Culum. {cite:openiti-corpus 0573NashwanHimyari}

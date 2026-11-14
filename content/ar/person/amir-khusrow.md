@@ -16,3 +16,9 @@ translators: []
 ## وفاته
 
 توفي خسرو في أكتوبر 1325 بعد شيخه بأشهر، وتنص المقالة الأردية صراحة على أن وفاته كانت في دهلي. {cite:wikipedia-amir-khusrow-ur} {cite:wikidata-amir-khusrow} ويوافق أكتوبر 1325 سنة 725 هـ التي تؤرخ بها المقالة العربية وفاته. {cite:wikipedia-amir-khusrow-ar}
+
+## أعمال في مدونة OpenITI
+تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0725AmirKhusraw 6 من الأعمال، منها: آيينهي سكندري، ديوان، هشت بهشت، خسرو أو شيرين. {cite:openiti-corpus 0725AmirKhusraw}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q925 بصيغة الاسم «Amīr H̱osrow Dehlavī (1253-1325)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q925}

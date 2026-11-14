@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد رضا كاشف الغطاء؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Ridha Kashif al-Ghita; the entry is not yet checked on the page."
+  ar: "محمد رضا بن هادي بن عباس، من آل كاشف الغطاء، فاضل من أهل النجف وله شعر، ١٣١٠ إلى ١٣٦٦هـ؛ من كتبه المطبوعة الشريف الرضي والغيب والشهادة ونقد الآراء المنطقية."
+  en: "Muhammad Ridha ibn Hadi ibn Abbas of the Kashif al-Ghita family, a man of learning from Najaf who also wrote verse, 1310 to 1366 AH (1893 to 1947); his printed books include a work on al-Sharif al-Radi, al-Ghayb wa al-shahada and Naqd al-ara' al-mantiqiyya."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
@@ -15,15 +15,16 @@ died: { edtf: "1947", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168193)" }
   - { type: died_in, target: place/bayrut, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3820)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q108559898
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+born: { edtf: "1893", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 122: 1310 AH = 1893 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

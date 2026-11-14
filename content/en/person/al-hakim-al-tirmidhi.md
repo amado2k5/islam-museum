@@ -10,3 +10,6 @@ Muhammad ibn Ali ibn al-Hasan ibn Bishr, Abu Abd Allah al-Hakim al-Tirmidhi: a s
 Al-Subki says he went to Balkh after his expulsion from Tirmidh and its people received him for agreeing with them in doctrine, and that the reading 'they killed him' is mistaken; Lisan al-Mizan records that the people of Tirmidh ostracized him late in life for writing Khatm al-Wilaya wa-Ilal al-Shari'a, that he was carried to Balkh where its people honoured him, and that he was then about ninety. His chroniclers disagree on the year of his death between 255, 285 and about 320 AH; al-Zirikli answers the first by noting al-Subki has him teaching at Nishapur in 285, and the second by Ibn Hajar's report that al-Anbari heard him in 318. {cite:al-aalam v.6 p.272}
 
 Among his books are Nawadir al-Usul fi Ahadith al-Rasul and Khatm al-Wilaya. {cite:al-aalam v.6 p.272}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q12208 with the name form «Muḥammad ibn ʿAlī al-Ḥakīm al- Tirmiḏī (0820?-0932?)», the form including the years of birth and death as the file gives them. {cite:biblissima Q12208}

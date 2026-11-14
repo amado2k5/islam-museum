@@ -85,3 +85,9 @@ In the *Tadhkira* of the *Ibar* he says that he asked the sultan al-Nasir Faraj 
 
 ## At the khanqah of Baybars al-Jashankir
 Yeomans writes that Ibn Khaldun, born in Tunis, served the courts of Fez, Granada, Tlemcen and Tunis before settling in Cairo, and met the great figures of his day, among them Tamerlane, for whom he wrote a brief history of North Africa. {cite:yeomans-islamic-cairo-2006 p.150} He counts him the first historian to develop a sociological explanation of history, analysing geographical, climatic, social, economic and moral factors in the Muqaddima. {cite:yeomans-islamic-cairo-2006 p.150} He came to Egypt in 1384, was made professor of Maliki law and then Maliki chief judge by al-Zahir Barquq, directed the khanqah of Baybars al-Jashankir, and died in 1406, buried in the Sufi cemetery outside Cairo. {cite:yeomans-islamic-cairo-2006 p.150} {cite:yeomans-islamic-cairo-2006 p.151}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 2 works under the author identifier 0808IbnKhaldun, among them: Riḥlaŧ; Tārīḫ. {cite:openiti-corpus 0808IbnKhaldun}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16838 with the name form «ʿAbd al-Raḥmân ibn Muḥammad Ibn H̱aldūn (1332-1406)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16838}

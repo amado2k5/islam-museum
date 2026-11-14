@@ -37,3 +37,6 @@ His travels show in the chains at the end of the book:
 - at Nishapur he read to Abu al-Hasan al-Mu'ayyad ibn Muhammad ibn Ali al-Muqri, once at the head of the grave of Muslim ibn al-Hajjaj;
 - also at Nishapur, to Zaynab bint Abi al-Qasim al-Sha'ri and to Abu al-Fath Mansur ibn Abd al-Mun'im al-Furawi.
 {cite:muqaddima-ibn-salah-itr p. 405} {cite:muqaddima-ibn-salah-itr p. 406} {cite:muqaddima-ibn-salah-itr p. 407}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16882 with the name form «ʿUṯmān ibn ʿAbd al-Raḥmān Ibn al-Ṣalāḥ al-Šahrazūrī (1181-1245)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16882}

@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرحمن بن قدامة المقدسي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahman ibn Qudama al-Maqdisi; the entry is not yet checked on the page."
+  ar: "عبد الرحمن بن محمد بن قدامة المقدسي الحنبلي، أبو الفرج، شمس الدين، من أعيان الحنابلة، أول من ولي قضاء الحنابلة بدمشق ونحو اثنتي عشرة سنة، وصاحب «الشافي» شرح المقنع، 597 إلى 682 هـ."
+  en: "Abd al-Rahman ibn Muhammad ibn Qudama al-Maqdisi, a Hanbali jurist of Damascus, the first Hanbali judge there (about twelve years, without pay), author of al-Shafi, the great commentary on al-Muqni', 597 to 682 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
@@ -15,15 +15,9 @@ sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q25452443
   viaf: "17128810"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1200", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: Shams al-Din Confirmed on 13 November 2026 against Wikidata Q25452443 (P569, a statement with a reference), item revision 2567500384.", sources: [source/wikidata] }
 died: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: Shams al-Din Confirmed on 13 November 2026 against Wikidata Q25452443 (P570, a statement with a reference), item revision 2567500384.", sources: [source/wikidata] }
 relations:
@@ -31,3 +25,9 @@ relations:
   - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: buried_in, target: place/mount-qasioun, note: "Wikidata Q1261879 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/mamluk-sultanate-of-egypt, note: "Wikidata Q282428 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14

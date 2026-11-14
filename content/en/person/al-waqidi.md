@@ -36,3 +36,6 @@ Al-Dhahabi quotes [[person/al-khatib-al-baghdadi-ahmad|al-Khatib]]'s *History of
 - **Sunni: Ahmad, Ibn Ma'in, al-Bukhari, Abu Hatim, al-Nasa'i, Ibn al-Madini, Ibn Rahawayh, al-Daraqutni, Ibn Adi, and al-Dhahabi**: abandoned or a forger of hadith; for al-Dhahabi, consensus settled on his weakness. {cite:mizan-itidal-bijawi-v3 p. 663} {cite:mizan-itidal-bijawi-v3 p. 665} {cite:mizan-itidal-bijawi-v3 p. 666}
 - **Sunni: Mus'ab al-Zubayri, Yazid ibn Harun, Abu Ubayd, Ibrahim al-Harbi, al-Darawardi and al-Saghani**: trustworthy and reliable, an authority in reports. {cite:mizan-itidal-bijawi-v3 p. 665}
 :::
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 3 works under the author identifier 0207Waqidi, among them: Futuh Sham; al-Maġāzi; Kitāb al-Riddaŧ. {cite:openiti-corpus 0207Waqidi}

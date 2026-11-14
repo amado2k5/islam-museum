@@ -57,3 +57,9 @@ His analysis of the virtuous city: man's need for man and cooperation, sixteen q
 His reconciling project: reconciling Plato and Aristotle as differing only superficially while one in essence, so that religion might face a single philosophy, proving no contradiction between revelation and reason. {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:18:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:18:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:19:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:19:30}
 Of his works: al-Jam' bayna Ra'yay al-Hakimayn, Ara' Ahl al-Madina al-Fadila, Kitab al-Musiqi al-Kabir, Ihsa' al-'Ulum, and a treatise on the rules of poetry, forty surviving of over a hundred. {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:21:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:22:00}
 He died in Damascus in 339 AH, the recording saying 950 by error, corrected to 339 AH, after a life of austerity focused on a single field. {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:23:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:24:00}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 10 works under the author identifier 0339AbuNasrFarabi, among them: Alfaz Mustacmala Fi Mantiq; Ara Ahl Madina; ʿUyūn al-masāʾil; Risālaŧ fī al-ʿAql. {cite:openiti-corpus 0339AbuNasrFarabi}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q12167 with the name form «Muḥammad ibn Muḥammad Abū Naṣr al- Fārābī (0870?-0950)», the form including the years of birth and death as the file gives them. {cite:biblissima Q12167}

@@ -6,25 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية للمؤيد في الدين الشيرازي، داعي الإسماعيليين الرئيس في القرن الحادي عشر صاحب «المجالس المؤيدية»، توفي سنة ١٠٧٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Mu'ayyad fi'l-Din al-Shirazi, the eleventh-century chief Isma'ili da'i author of al-Majalis al-Mu'ayyadiyya, d. 1078; the biographical entry is not yet checked on the page."
+  ar: "هبة الله بن موسى الشيرازي، أبو نصر، المؤيد في الدين، داعي الدعاة، من زعماء الإسماعيلية وكتابها، ولد وتعلم بشيراز وخدم المستنصر الفاطمي بمصر وتوفي فيها سنة ٤٧٠هـ، له المجالس المؤيدية والمرشد إلى أدب الإسماعيلية."
+  en: "Hibat Allah ibn Musa al-Shirazi, Abu Nasr, al-Mu'ayyad fi'l-Din, chief da'i, an Isma'ili leader and writer born and schooled at Shiraz, who served the Fatimid al-Mustansir in Egypt and died there in 470 AH (1078); author of al-Majalis al-Mu'ayyadiyya and al-Murshid ila adab al-Isma'iliyya."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6930533
   viaf: "15106635"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0036
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1000", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'ayyad fi'l-Din' / Verena Klemm; d. 470 AH) Confirmed on 13 November 2026 against Wikidata Q6930533 (P569, a statement with a reference), item revision 2552256433.", sources: [source/wikidata] }
 died: { edtf: "1078", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'ayyad fi'l-Din' / Verena Klemm; d. 470 AH) Confirmed on 13 November 2026 against Wikidata Q6930533 (P570, a statement with a reference), item revision 2552256433.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: died_in, target: place/misr, note: "Al-Zirikli, al-A'lam vol. 8 p. 70: he returned to Egypt and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

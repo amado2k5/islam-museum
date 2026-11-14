@@ -57,3 +57,9 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 ومشروعه التوفيقي: التوفيق بين أفلاطون وأرسطو أن الخلاف بينهما ظاهري وجوهرهما واحد، غايته أن يواجه الدين فلسفة واحدة لا فلسفات، إثباتاً لعدم التناقض بين الوحي والعقل {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:18:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:18:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:19:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:19:30}.
 ومن مؤلفاته: الجمع بين رأيي الحكيمين، آراء أهل المدينة الفاضلة، كتاب الموسيقى الكبير، إحصاء العلوم، ورسالة في قوانين صناعة الشعر، بقي من أكثر من مئة أربعون {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:21:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:22:00}.
 وتوفي بدمشق سنة 339هـ، وقد ذكر التسجيل 950 خطأً فصُحّح إلى 339هـ، بعد حياة زهد وتقشف وتركيز على مجال واحد {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:23:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep26 00:24:00}.
+
+## أعمال في مدونة OpenITI
+تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0339AbuNasrFarabi 10 من الأعمال، منها: الألفاظ المستعملة في المنطق، آراء أهل المدينة الفاضلة ومضاداتها، عيون المسائل، رسالة في العقل. {cite:openiti-corpus 0339AbuNasrFarabi}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q12167 بصيغة الاسم «Muḥammad ibn Muḥammad Abū Naṣr al- Fārābī (0870?-0950)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q12167}
