@@ -1,0 +1,18 @@
+id: concept/canon-day-sleep-and-night-sleep
+class: concept
+kind: scientific
+label: { ar: "نوم النهار ونوم الليل عند ابن سينا", en: "Day sleep and night sleep in the Canon", ur: "دن کی نیند اور رات کی نیند قانون میں" }
+summary:
+  ar: "يعد ابن سينا نوم النهار رديئاً يورث الأمراض الرطوبية والنوازل ويفسد اللون ويورث الطحال ويرخي العصب ويكسل ويضعف الشهوة ويورث الأورام، ويفضل نوم الليل لأنه تام مستمر غرق، مع ألا يهجر معتاد نوم النهار نومه دفعة {cite:canon-ibn-sina-print-v1 p.241}."
+  en: "Ibn Sina holds day sleep poor, since it brings moist diseases and catarrhs, spoils the colour, brings spleen trouble, slackens the nerve, makes sluggish, weakens appetite and brings tumours, and prefers night sleep as complete, continuous and deep, while one used to day sleep is not to give it up all at once {cite:canon-ibn-sina-print-v1 p.241}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 2 on the common regimen of adults, chapters 8 to 13 on water and drink, sleep, strengthening weak organs and fatigue (scan pages 236 to 244), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p236
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -11,9 +11,12 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house, source/alam-zirikli-dar-al-ilm-2002]
+died: { hijri: "0505", edtf: "1111~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "al-Dhahabi, Siyar A'lam al-Nubala p. 3925: died around 505 AH (fi hudud 505); al-Zirikli, al-A'lam vol. 7 p. 281 heads the entry 505 AH. 505 AH = 1111-12 CE; both read 14 Nov 2026 (corr-p4).", sources: [source/siyar-alam-nubala-ideas-house, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/herat, confidence: medium, note: "Al-Dhahabi says he settled in Herat, where he fell ill and died; the earlier Iraq link, from a Buyid-era misreading, is replaced.", sources: [source/siyar-alam-nubala-ideas-house] }
+  - { type: lived_in, target: place/baghdad, confidence: medium, note: "Siyar p. 3925: he travelled to Baghdad; al-Zirikli, al-A'lam vol. 7 p. 281: he left the Hijaz and settled in Baghdad, and returned to it after Nizam al-Mulk was killed (read 14 Nov 2026; Baghdad kept alongside Herat).", sources: [source/siyar-alam-nubala-ideas-house, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/marw, confidence: medium, note: "al-Zirikli, al-A'lam vol. 7 p. 281: he lived in Marw until he died; this differs from al-Dhahabi, who has him settle and die at Herat (Siyar p. 3925); the two are left side by side, no verdict.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 external_ids:
   wikidata: Q6932174
 provenance:
