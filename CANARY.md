@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.29.1 — 2026-11-14
+### Changed
+- **The museum's block on terrorist-organisation content now covers the full official designation lists.** The screening patterns behind the build's extremism check were compared, name by name, with the terrorist-organisation lists published by the European Union, the United States (State Department and Treasury), Canada, the United Nations Security Council, the United Kingdom, Australia and New Zealand, and every Islam-linked organisation on those lists that the check did not already catch is now caught — among them JNIM, the Abdallah Azzam Brigades, Al-Murabitoun, the Caucasus Emirate, Egyptian Islamic Jihad, the Islamic Movement of Uzbekistan, Lashkar-e-Jhangvi and Hizbul Mujahideen, together with spelling variants that previously slipped through (GIA and the Gama'a al-Islamiyya, long named in the rule, are now actually matched). Nothing already in the museum was removed or changed: the collection is the golden reference, and the handful of designated names whose patterns would also catch records the founder has kept are documented in the content-safety rule for his decision.
+
 ## v1.29.0 — 2026-11-13
 ### Added
 - **Du'a by occasion: names.** The division of al-Adhkar on names is open: the record on naming gains al-Nawawi's chapters on the call to prayer in a newborn's ear, the prayer for blessing at the tahnik, the day of naming and the names he reports as dearest, each with its page.
