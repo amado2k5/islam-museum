@@ -6,26 +6,28 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لسراج الدين محمود بن أبي بكر الأرموي، نظري وكاتب القرن الثالث عشر صاحب «لطائف الحكمة»، توفي سنة ١٢٨٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Siraj al-Din Mahmud ibn Abi Bakr al-Urmawi, the thirteenth-century theorist and secretary author of Lata'if al-Hikma, d. 1283; the biographical entry is not yet checked on the page."
+  ar: "محمود بن أبي بكر بن أحمد، أبو الثناء، سراج الدين الأرموي، عالم بالأصول والمنطق من الشافعية، أصله من أرمية، قرأ بالموصل وسكن دمشق وتوفي بقونية، صاحب مطالع الأنوار في المنطق ولطائف الحكمة، توفي سنة 682 هـ."
+  en: "Mahmud ibn Abi Bakr ibn Ahmad, Abu al-Thana', Siraj al-Din al-Urmawi, a Shafi'i scholar of legal theory and logic from a family of Urmiya; he studied in Mosul, settled in Damascus and died in Konya; author of Matali' al-Anwar on logic and Lata'if al-Hikma; died 682 AH (1283)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1198", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q2784660 (P569, a statement with a reference), item revision 2541310868.", sources: [source/wikidata] }
-died: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q2784660 (P570, a statement with a reference), item revision 2541310868.", sources: [source/wikidata] }
+born: { edtf: "1198", hijri: "0594", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q2784660 (P569, a statement with a reference), item revision 2541310868. al-Zirikli prints 594 AH = 1198 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 166}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1283", hijri: "0682", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q2784660 (P570, a statement with a reference), item revision 2541310868. al-Zirikli prints 682 AH = 1283 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 166}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/urmia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q179665)" }
-  - { type: died_in, target: place/konya, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q79857)" }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/urmia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q179665); al-Zirikli, al-A'lam, vol. 7 p. 166, says only that his family came from Urmiya" }
+  - { type: died_in, target: place/konya, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "Wikidata P20 place of death (Wikidata Q79857); al-Zirikli, al-A'lam, vol. 7 p. 166: died in the city of Konya" }
+  - { type: lived_in, target: place/damascus, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 p. 166: settled in Damascus" }
+  - { type: lived_in, target: place/mosul, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, al-A'lam, vol. 7 p. 166: he studied in Mosul" }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q2784660
   viaf: "4026337"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0027
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

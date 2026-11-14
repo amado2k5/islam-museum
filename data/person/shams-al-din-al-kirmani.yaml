@@ -6,24 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لشمس الدين الكرماني، فقيه القرن الرابع عشر، توفي سنة ١٣٨٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shams al-Din al-Kirmani, the fourteenth-century scholar, d. 1384; the biographical entry is not yet checked on the page."
+  ar: "محمد بن يوسف بن علي بن سعيد، شمس الدين الكرماني، عالم بالحديث أصله من كرمان، اشتهر في بغداد وأقام مدة بمكة وفرغ فيها من «الكواكب الدراري في شرح صحيح البخاري»، ومات راجعاً من الحج ودفن في بغداد؛ توفي سنة 786 هـ الموافقة 1384 م."
+  en: "Muhammad ibn Yusuf ibn Ali ibn Sa'id, Shams al-Din al-Kirmani, a hadith scholar of Kirmani origin, well known in Baghdad, who stayed in Mecca and finished there his commentary on Sahih al-Bukhari, al-Kawakib al-Darari; he died on his way back from the pilgrimage and was buried in Baghdad; died 786 AH (1384)."
 wings: [people]
-regions: [persia-central-asia]
+regions: [persia-central-asia, levant-iraq, arabia]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q7487680
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0047
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1317", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q7487680 (P569, a statement with a reference), item revision 2568903788.", sources: [source/wikidata] }
-died: { edtf: "1384", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q7487680 (P570, a statement with a reference), item revision 2568903788.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1317", hijri: "0717", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q7487680 (P569, a statement with a reference), item revision 2568903788. al-A'lam vol. 7 p. 153 prints 717 AH = 1317 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1384", hijri: "0786", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q7487680 (P570, a statement with a reference), item revision 2568903788. al-A'lam vol. 7 p. 153 prints 786 AH = 1384 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/kirman, confidence: low, note: "Association inferred from the nisba 'الكرماني'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
+  - { type: lived_in, target: place/kirman, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 7 p. 153: his family came from Kirman", sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/baghdad, confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 p. 153: well known in Baghdad, where he devoted himself to teaching for thirty years (Ibn Hajji)", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/mecca, confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 p. 153: stayed a time in Mecca and finished al-Kawakib al-Darari there", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: buried_in, target: place/baghdad, confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 p. 153: died returning from the pilgrimage and was buried in Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002] }
