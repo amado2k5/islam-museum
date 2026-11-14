@@ -15,3 +15,6 @@ Al-Idrisi says that Roger ibn Tancred began to conquer its lands "in the year fo
 
 ## In Nomisma
 The Nomisma numismatic vocabulary links this entry to the concept «sicily», and its linked collections record 13 coins or coin types that name it as issuer, authority or mint. {cite:nomisma sicily}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Sicilia (island)» (Pleiades no. 462492), classed as an island, with activity attested from 750 BCE to 2100 CE. Recorded names include Sicilia, Sicily and Trinacria. It describes Sicily as the largest island of the Mediterranean, inhabited since about 8000 BCE, and lists Punic, Carthaginian, Greek, Roman, Vandal, Ostrogothic, Byzantine, Arab and Norman settlement among its cultural layers. {cite:pleiades 462492}

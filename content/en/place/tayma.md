@@ -13,3 +13,6 @@ Jewish tribes settled in Yathrib, Khaybar and Tayma after the Romans occupied Pa
 
 ## Not covered here
 Al-Idrisi's description of Tayma is part of this entry's data. The Prophet's treaty with the Jews of Tayma after Khaybar is in its own entry.
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's iDAI.gazetteer holds this place as record 2281940, typed as a populated place, with the preferred name «Tayma» and the parent «Saudi Arabia» in its hierarchy. Recorded names include Taymā’ (Arabic), Taima and Teima. {cite:idai-gazetteer 2281940}

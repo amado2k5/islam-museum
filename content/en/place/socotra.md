@@ -15,3 +15,6 @@ The leaves of the aloe are gathered in July, their juice extracted and boiled in
 
 ## Al-Hamdani's account
 Al-Hamdani, who came earlier, counted it at about eighty farsakhs, with about ten thousand fighting men of the Mahra tribes, who are Christians. Its people relate that a group of people from the land of the Romans were cast there in the time of Kisra, and the Mahra lived alongside them, and some of them became Christians. It has many palms, ambergris, dam al-akhawayn (dragon's blood) and much aloe. The people of Aden say that the Romans did not enter it, but that monks settled there and then died out. {cite:sifat-jazirat-al-arab p. 36}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Diosko(u)rides (island)» (Pleiades no. 39338), classed as an island, with activity attested from 30 BCE to 2100 CE. Recorded names include Suqutra, Dioskourides and Socotra. It describes Socotra as an island in the Arabian Sea, the main island of its archipelago with about 95 percent of the archipelago's land, inhabited since the Lower Palaeolithic and recorded in the Periplus of the Erythraean Sea as Dioskouridou. {cite:pleiades 39338}
