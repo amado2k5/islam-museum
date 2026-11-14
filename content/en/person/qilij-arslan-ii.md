@@ -1,0 +1,20 @@
+---
+id: person/qilij-arslan-ii
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Qilij Arslan ibn Mas'ud ibn Qilij Arslan ibn Sulayman ibn Qutlumush ibn Isra'il ibn Saljuq ibn Duqaq, the Turkmen, is called lord of Rum by al-Safadi {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}. Ibn al-Imad calls him the Turk and Seljuk, lord of Rum and father-in-law of the caliph al-Nasir li-Din Allah {cite:shadharat-dhahab vol. 6 p. 484}.
+
+## Rule
+Al-Safadi says that justice, good statecraft and sound judgement were in him, that his days were long, and that he was the father of the Seljuk lady who was the wife of al-Nasir li-Din Allah {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}. His lands were Konya, Aksaray, Sivas and Malatya, and his reign lasted twenty-nine years, or, it was said, thirty-odd; it was also said that he was killed {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}. Al-Safadi describes him as a man of statecraft, justice and great authority, with many campaigns in the lands of Rum {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}. Ibn al-Imad says that his days were prolonged and he grew old, that his sons grew strong against him and disposed of his realms in his lifetime, namely Konya, Aksaray, Sivas and Malatya, and that he lived as sultan for more than thirty years {cite:shadharat-dhahab vol. 6 p. 484}.
+
+## Old age and the division of his lands
+Al-Safadi reports that his sons grew so strong against him that only the bare name was left to him, because he had grown old {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}. He adds that when he was old he divided his lands among his sons; he restrained his son Qutb al-Din, who fled to another son, and that son grew weary of him; then Kaykhusraw treated him generously, he went into his service, and he regretted having divided his lands among his sons {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}.
+
+## With Nur al-Din
+Al-Safadi relates that Nur al-Din once moved against him, and Qilij Arslan wrote to appeal for his mercy; Nur al-Din agreed to peace and told him he wanted certain things from him, of which he would not give up three {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}. The first was that he should renew his Islam at the hand of Nur al-Din's envoy, so that Nur al-Din might lawfully leave him over lands of Islam, because, he said, he did not believe him to be a believer; al-Safadi notes that Qilij Arslan was accused of holding the beliefs of the philosophers {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}. The second was that when Nur al-Din asked for his army for a campaign he should send it, since he held a large part of the lands of Islam and had left off the jihad against the Romans and made a truce with them: either he should aid Nur al-Din with his army against the Franks or fight his Roman neighbours with all effort {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}. The third was that he should marry his daughter to Sayf al-Din Ghazi, the son of Nur al-Din's brother, and other matters were mentioned too {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}. When Qilij Arslan heard the message, al-Safadi says, he replied that Nur al-Din only meant to slander him as a heretic, that he had agreed to what was asked, and that he would renew his Islam at the hand of the envoy {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}.
+
+## Death
+Al-Safadi says he died in 588 AH and that his son Ghiyath al-Din Kaykhusraw took the sultanate after him {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}, and that he died at Konya in mid-Sha'ban, as dated by Ibn al-Athir {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 24 pp. 202-203}. Ibn al-Imad records his death in the events of 588 AH, with his son Ghiyath al-Din taking power after him {cite:shadharat-dhahab vol. 6 p. 484}. The year corresponds to 1192 CE by the museum's conversion (derived).

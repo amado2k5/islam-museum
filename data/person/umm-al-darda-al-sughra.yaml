@@ -3,26 +3,30 @@ class: person
 label:
   ar: "أم الدرداء الصغرى"
   en: "Umm al-Darda al-Sughra"
-roles: [scholar]
+names:
+  - { kind: full, lang: ar, value: "هجيمة بنت حيي الوصابية" }
+roles: [scholar, jurist]
 gender: female
 summary:
-  ar: "بطاقة أولية لهجيمة أم الدرداء الصغرى، فقيهة ومحدثة دمشق في القرنين السابع والثامن التي قُدّر فقهها ونُقل عنها في دمشق؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Hujayma Umm al-Darda al-Sughra, the jurist and hadith transmitter of Damascus in the seventh-eighth centuries esteemed for her fiqh; the biographical entry is not yet checked on the page."
+  ar: "هجيمة بنت حيي الوصابية الحميرية، أم الدرداء الصغرى، فقيهة محدثة تابعية من أهل دمشق، نشأت في حجر أبي الدرداء وتزوجها، وعاشت معظمة عند بني أمية بين بيت المقدس ودمشق، وروى لها مسلم وأبو داود والترمذي وابن ماجة، وتذكر وفاتها بعد سنة 81 هـ {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 77} {cite:shadharat-dhahab vol. 1 p. 333}."
+  en: "Hujayma bint Huyayy al-Wasabiyya al-Himyariyya, Umm al-Darda al-Sughra, a female jurist and hadith transmitter of the Tabi'un generation from Damascus; she grew up in the care of Abu al-Darda and married him, lived honoured under the Umayyads between Jerusalem and Damascus, and has hadith recorded for her by Muslim, Abu Dawud, al-Tirmidhi and Ibn Majah; her death is placed after 81 AH (about 700 CE) {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 77} {cite:shadharat-dhahab vol. 1 p. 333}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
-died: { edtf: "700", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tahdhib al-Kamal" }
+died: { edtf: "700", hijri: "0081", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tahdhib al-Kamal. al-Zirikli, al-A'lam, vol. 8 p. 77, prints 'after 81 AH = after 700 CE' (no birth year), and Ibn al-Imad, Shadharat al-Dhahab, vol. 1 p. 333, mentions her in the events of 81 AH (he records her pilgrimage that year, not her death); the card year 700 is kept as the lower bound.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab] }
 relations:
-  - { type: lived_in, target: place/damascus, sources: [source/al-aalam] }
-sources: [source/al-aalam]
+  - { type: lived_in, target: place/damascus, confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 77: from the people of Damascus, grew up there in Abu al-Darda's care; Ibn al-Imad, vol. 1 p. 333: great esteem in Syria", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/al-aalam] }
+  - { type: lived_in, target: place/jerusalem, confidence: high, note: "al-Zirikli, vol. 8 p. 77: she spent six months of the year at Bayt al-Maqdis and six months at Damascus", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: spouse_of, target: person/abu-al-darda, confidence: high, note: "al-Zirikli, vol. 8 p. 77: Abu al-Darda (Uwaymir ibn Malik) married her and died leaving her; Ibn al-Imad, vol. 1 p. 333, says Mu'awiya proposed to her after Abu al-Darda", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab]
 external_ids:
   wikidata: Q19573135
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0027
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, vol. 8 p. 77, and Ibn al-Imad, Shadharat al-Dhahab, vol. 1 p. 333, entries read in full from the local texts; Wikidata Q19573135"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -16,6 +16,18 @@ Chapters covered: 5 (closing lines only), 6 (spheres and inhabited earth, scan 2
 Resume point: scan page 38, chapter 12 (the meridian line; long chapter, scan 38-43), then chapter 13 (scan 43). The Zij is not finished.
 Page PNGs are not on the drive (pages-png is empty); garbled numbers could not be checked against images.
 
+## Batch 3: scan 38-52, chapters 12 to 18 (25 concepts, `concept/zij-sabi-*`, run zij-sabi-3)
+Chapters covered: 12 (meridian line, 38-42), 13 (risings of the signs in each country, hours, 43-47), 14 (47-48), 15 (48), 16 (48-49), 17 (50), 18 (50-52, to the heading of chapter 19). Citations are scan pages (printed page = scan minus 4).
+Resume point: scan page 52, chapter 19 (semi-arc of a star, starts at the foot of scan 52), then chapters 20 to 26 (stars). The Zij is not finished (chapters 19 to 57 remain; star catalogue after scan 214).
+
+## Batch 4: scan 52-65, chapters 19 to 26 (25 concepts, `concept/zij-sabi-*`, run zij-sabi-4)
+Chapters covered: 19 (semi-arc, 52-53), 20 (degree rising and setting with a star, 53-54), 21 (night hours and ascendant from a star, 54-56), 22 (star altitude from hours, 56-57), 23 (star azimuth, 57-58), 24 (distance from the equator from the rising azimuth, 58), 25 (place and latitude of a star, 58-61), 26 (distances between stars, 61-65 top). Citations are scan pages as in earlier batches (printed page = scan minus 4). The tail of chapter 18 on scan 52 was already covered in batch 3.
+Resume point: scan page 65, chapter 27 (the length of the solar year and mean motion of the Sun, 65-68), then chapter 28 (anomaly of the Sun, long, 68-77). The Zij is not finished (chapters 27 to 57 remain; star catalogue after scan 214).
+
+- Batch 4: scan 52-53 the name of the "difference" of the star's circle (word before "circle", read "rij") is damaged; not named. Scan 55-56 the steps with the returned chord are reported in the order read. Scan 58 the formula of chapter 24 (chord of altitude of Aries times chord of rising azimuth over radius) is reported as stated without judging it. Scan 59-60 the long chord chain of chapter 25 is given by structure only (letters and operators partly disturbed); scan 60 the opposite-sides case likewise. Scan 62-63 the intermediate numbers of the worked example of chapter 26 are garbled; only the 60 parts of longitude and 30 parts of latitude are given, with the statement that the true distance differs from the longitude difference. Scan 65 the word before "nativities" (what the chapter is needed for) is damaged. Latin apparatus at the foot of each page is noise and was ignored.
+GEMINI: scan 53: the damaged word naming the "difference" of a star's circle in chapter 19 (read "rij"); confirm against Nallino's Latin translation (Opus astronomicum Part I, chapter 19).
+GEMINI: scan 62-63: the final true distance in the worked example of chapter 26 (two stars 60 parts apart in longitude, one with 30 parts of latitude): confirm the number from Nallino's Latin text, since the OCR of the intermediate and final values is garbled.
+
 ## Gaps and garbled OCR
 - Scan 24 is a leaf of the star catalogue (Capricornus figure table, header "من أسماء كواكب صورة الجدي", catalogue page number 262) misbound between the text pages 23 and 25; the printed text page 20 (the beginning of chapter 5, risings in the right sphere) is therefore missing from this scan, and chapter 5's heading never appears. Scan 25 opens with the tail of chapter 5. No chapter 5 concept written; the contents (scan 5) names its subject.
 - Scan 13-14: the OCR of the two multiplication tables (rows of fractions) is noise; only the instructions are used.
@@ -41,3 +53,9 @@ GEMINI: scan 22: which observing instrument does al-Battani name before "the lon
 - Proposal: register zij-sabi-harrani in docs/library/harvest-register.yaml when the orchestrator next edits it.
 GEMINI: scan 32: which work does al-Battani mean by the well-known Book of the Form of the Earth (94 cities, longitudes from the Khalidat islands)? Settle from Nallino's Latin notes (Opus astronomicum, Part I, chapter 6 note) before any link to work/surat-al-ard-khwarizmi or work/surat-al-ard-ibn-hawqal.
 GEMINI: scan 30-31: confirm the place names the OCR gives (Taprobane/Sarandib, Gadira, Tanais, Maetis, Laziqa, Bahr al-Bab) against Nallino's Latin translation and notes.
+
+- Batch 3: scan 41-42 the numbers of the fourth-clime example (pole altitude, noon altitudes, the Cancer amplitude) and the figure letters are garbled and not given; the final altitude read as 42 deg 32 min is flagged as read with caution (number words partly damaged). The multiplication product in the proof (scan 42) is unreadable and not given.
+- Batch 3: scan 44 the step of the day's increase in the clime tables ("... hour") is garbled; only the statement that it is finer than the half-hour step is given. Scan 46 the name "crooked hours" (al-sa'at al-mu'awwaja) is read from a damaged word. Scan 49 the name of the altitude-measuring instrument is damaged and not given. Scan 51 "for the night" is read as "for the declination" (al-mayl) by the sense and flagged in the page.
+- Batch 3: the first ascensional-difference method (scan 43, chord of right ascension times chord of half the longest-day excess over the radius) is reported as stated, without judging it.
+GEMINI: scan 46: the term المعوجة ("crooked hours") for seasonal hours; confirm the reading of the damaged word against Nallino's Latin translation (Opus astronomicum Part I, chapter 13).
+GEMINI: scan 49: which instrument does al-Battani name for measuring the Sun's altitude in chapter 16 (damaged word before "or the shadow")? Nallino's Latin translation would settle it.

@@ -29,7 +29,8 @@ relations:
   - { type: participated_in, target: event/expedition-of-dhu-qarad, role: "بطل الغزوة المستنقذ للقاح", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
   - { type: participated_in, target: event/battle-of-khaybar, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
-sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari, source/ibn-hisham-saqqa, source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994]
+external_ids: { wikidata: "Q31313988" }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari, source/ibn-hisham-saqqa, source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994, source/wikidata-salama-ibn-al-akwa]
 status: { review: draft, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 362–364, 370" }
 provenance:
   layer: own-research

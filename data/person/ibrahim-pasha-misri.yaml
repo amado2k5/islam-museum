@@ -16,7 +16,8 @@ died: { edtf: "1848", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: lived_in, target: place/alexandria, confidence: low, note: "Associated with الإسكندرية per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: child_of, target: person/muhammad-ali-pasha, sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: Q311789 }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata-ibrahim-pasha-misri]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 365-368"

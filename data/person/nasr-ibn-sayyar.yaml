@@ -9,6 +9,7 @@ born: { edtf: "663", calendar: gregorian, precision: year, derived: true, note: 
 died: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasr b. Sayyar); al-Tabari" }
 relations:
   - { type: lived_in, target: place/balis, sources: [source/wikidata], confidence: low, note: "Nisba بالسي attested in the record." }
-sources: [source/tabari-tarikh-abu-al-fadl, source/tabari-khayyat-part2, source/muruj-al-dhahab, source/khudari-umayyad-state, source/salabi-umayyad-state-2020, source/akhbar-tiwal-amir]
+external_ids: { wikidata: "Q1370548" }
+sources: [source/tabari-tarikh-abu-al-fadl, source/tabari-khayyat-part2, source/muruj-al-dhahab, source/khudari-umayyad-state, source/salabi-umayyad-state-2020, source/akhbar-tiwal-amir, source/wikidata-nasr-ibn-sayyar]
 provenance: { source: "Sources cited in the record (tabari-tarikh-abu-al-fadl, tabari-khayyat-part2, muruj-al-dhahab, khudari-umayyad-state, salabi-umayyad-state-2020, akhbar-tiwal-amir)", layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 4", sources: [source/tabari-tarikh-abu-al-fadl], run: "lib-akhbar-tiwal-batch-3-2026-10-31 (enrichment)" }
 status: { review: published, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
