@@ -1,0 +1,55 @@
+id: event/al-hadi-recalls-the-nine-men-of-the-city-and-the-command-to-give-notice-on-equal-terms-292
+class: event
+kind: other
+label:
+  ar: "الكتاب إلى بني الحارث: رهط المدينة والإيذان على سواء، ص276-277"
+  en: "Al-Hadi's letter to Banu al-Harith: the nine men of the city and notice on equal terms, pp. 276-277"
+  ur: "بنو حارث کے نام ہادی کا خط: شہر کے نو آدمی اور برابر اطلاعِ جنگ، ص276-277"
+summary:
+  ar: "يذكر الكتاب قصة تسعة رهط في المدينة ومكرهم وعاقبته، ثم يقول الهادي إنه أحق من تأدب بأدب الله، وإنه لا يستجيز الغدر ولا الخديعة، وإنه آذنهم بالحرب على سواء."
+  en: "The letter recalls the nine men of the city and the end of their scheme, then al-Hadi says he is the readier to take God's discipline, that he allows no treachery or deceit, and that he has given them notice of war on equal terms."
+  ur: "خط شہر کے نو آدمیوں اور ان کے مکر کے انجام کا ذکر کرتا ہے، پھر ہادی کہتے ہیں کہ وہ اللہ کے ادب سے ادب سیکھنے کے زیادہ حق دار ہیں، غدر اور فریب جائز نہیں سمجھتے اور برابری پر جنگ کی اطلاع دے چکے ہیں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905"
+    hijri: "0292"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 292هـ؛ لا يذكر الكتاب يوماً ولا شهراً لهذه الأحداث وتُرتَّب بحسب سياق الرواية بعد حلف جمادى الأولى؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص277 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-32
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 277
