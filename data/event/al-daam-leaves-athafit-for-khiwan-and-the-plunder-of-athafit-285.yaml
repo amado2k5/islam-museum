@@ -1,0 +1,53 @@
+id: event/al-daam-leaves-athafit-for-khiwan-and-the-plunder-of-athafit-285
+class: event
+kind: other
+label:
+  ar: خروج الدعام من أثافت إلى خيوان ونهب أثافت وغمّ الهادي وعزمه على الاحتجاب، ذو القعدة 285هـ
+  en: Al-Da'am leaves Athafit for Khiwan, Athafit is plundered, and al-Hadi's grief and resolve to withdraw, Dhu al-Qa'da 285 AH
+  ur: دعام کا اثافت سے خیوان جانا، اثافت کی لوٹ اور ہادی کا غم اور گوشہ نشینی کا ارادہ، ذوالقعدہ 285ھ
+summary:
+  ar: يذكر الكتاب أن بعض أهل خيوان كان يكاتب الدعام ويسأله القدوم، فلما خرج من أثافت إلى خيوان أغار من بني صريم وبني ربيعة السفيه والعبد والصبي فنهبوا ما بقي من متاع أثافت، وكان أهلها قد رفعوا أكثره، لأنهم لم ينصروهم يوم قُتل أبو عمر. ولم يصدق الهادي الخبر أول الأمر، ثم تأكد منه وغمّه غماً شديداً وقال لمحمد بن سعيد إنه عازم على الاحتجاب وترك الناس، ولولا خوفه على الإسلام لعاد إلى بلده، حتى أشار عليه محمد بن سعيد ومحمد بن سليمان بالرفق بهم واستتابتهم لأنهم أعراب جهال.
+  en: The book says some people of Khiwan had been writing to al-Da'am asking him to come; when he left Athafit for Khiwan, the foolish, the slave and the boy among Banu Sarim and Banu Rabi'a raided and plundered what was left in Athafit, whose people had removed most of their goods because the two peoples had not supported them on the day Abu Umar was killed. Al-Hadi first did not believe the news, then confirmed it and was deeply grieved; he told Muhammad ibn Sa'id he meant to withdraw from the people, and but for his fear for Islam would have gone home, until Muhammad ibn Sa'id and Muhammad ibn Sulayman urged gentleness and asking them to repent, since they were ignorant bedouins.
+  ur: کتاب کہتی ہے کہ خیوان کے بعض لوگ دعام کو لکھ کر آنے کی درخواست کرتے تھے؛ جب وہ اثافت سے خیوان چلا گیا تو بنو صریم اور بنو ربیعہ کے نادان، غلام اور بچے نے حملہ کر کے اثافت کا بچا کھچا مال لوٹ لیا جس کے اکثر حصے کو اہل اثافت اٹھا چکے تھے کیونکہ ابو عمر کے قتل کے دن ان دونوں نے ان کی مدد نہیں کی تھی۔ ہادی کو پہلے خبر پر یقین نہ آیا، پھر تصدیق ہوئی تو سخت غمگین ہوئے اور محمد بن سعید سے کہا کہ وہ لوگوں سے الگ تھلگ ہونا چاہتے ہیں، اگر اسلام پر خطرے کا خوف نہ ہوتا تو اپنے وطن لوٹ جاتے، یہاں تک کہ محمد بن سعید اور محمد بن سلیمان نے نرمی اور توبہ کرانے کا مشورہ دیا کیونکہ وہ نادان بدو ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0898-12
+    hijri: 0285-11
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: يوم أربعاء لأيام بقيت من ذي القعدة سنة 285هـ بحسب الصفحة 107؛ الشهر فقط؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/athafit
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/khiwan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص108-109 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-14
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 108-109

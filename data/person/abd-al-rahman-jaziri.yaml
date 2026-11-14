@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرحمن الجزيري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahman Jaziri; the entry is not yet checked on the page."
+  ar: "عبد الرحمن بن محمد عوض الجزيري، فقيه من علماء الأزهر، ولد بجزيرة شندويل من مركز سوهاج بمصر سنة 1299 هـ الموافقة 1882م، وعُيّن مفتشاً للمساجد بوزارة الأوقاف ثم أستاذاً في كلية أصول الدين وعضواً في هيئة كبار العلماء، وصاحب «الفقه على المذاهب الأربعة»؛ توفي بحلوان سنة 1360 هـ الموافقة 1941م."
+  en: "Abd al-Rahman ibn Muhammad Awad al-Jaziri, a jurist of al-Azhar born on the island of Shandawil in the Sohag district of Egypt in 1299 AH (1882 CE), later inspector of mosques in the Ministry of Endowments, professor at the Faculty of Usul al-Din and member of the Council of Senior Scholars, author of al-Fiqh ala al-Madhahib al-Arba'a; he died at Helwan in 1360 AH (1941 CE)."
 wings: [people]
-regions: [levant-iraq]
+regions: [egypt-nile]
 periods: [period/modern-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12222674
   viaf: "282272327"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fiqh ala al-Madhahib al-Arba'a; al-A'lam (1300–1360 AH) Confirmed on 13 November 2026 against Wikidata Q12222674 (P569, a statement with a reference), item revision 2566779198.", sources: [source/wikidata] }
 died: { edtf: "1941", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fiqh ala al-Madhahib al-Arba'a; al-A'lam (1300–1360 AH) Confirmed on 13 November 2026 against Wikidata Q12222674 (P570, a statement with a reference), item revision 2566779198.", sources: [source/wikidata] }
 relations:

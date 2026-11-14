@@ -3,11 +3,11 @@ class: person
 label:
   ar: "عبد الوهاب بن أحمد ابن وهبان"
   en: "Abd al-Wahhab ibn Ahmad ibn Wahban"
-roles: [scientist, scholar]
+roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الوهاب بن أحمد ابن وهبان، فقيه حنفي وعالم بالفلك القرن الرابع عشر، توفي سنة ١٣٦٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Wahhab ibn Ahmad ibn Wahban, the fourteenth-century Hanafi jurist and astronomer, d. 1367; the source entry is not yet checked on the page."
+  ar: "عبد الوهاب بن أحمد بن وهبان الحارثي الدمشقي، أمين الدين، فقيه حنفي أديب ولي قضاء حماة وتوفي في نحو الأربعين من عمره، له قيد الشرائد وعقد القائد وأحاسن الأخبار في محاسن السبعة الأخيار؛ توفي سنة 768 هـ الموافقة 1367م."
+  en: "Abd al-Wahhab ibn Ahmad ibn Wahban al-Harithi al-Dimashqi, Amin al-Din, a Hanafi jurist and man of letters who held the judgeship of Hama and died at about forty, author of Qayd al-Shara'id, Iqd al-Qa'id and Ahasin al-Akhbar fi Mahasin al-Sab'a al-Akhyar; he died in 768 AH (1367 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
@@ -16,16 +16,16 @@ died: { edtf: "1367", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/hama, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/shadharat-dhahab, source/wikidata]
+sources: [source/shadharat-dhahab, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6538165
   viaf: "82043587"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0072
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
