@@ -3235,6 +3235,16 @@ Resume point: min-kunuz-al-sunnah episode 23 (branch from origin/main).
 
 Resume point: min-kunuz-al-sunnah episode 24 (branch from origin/main).
 
+### alwaad-alhaq ep06 (14 Nov 2026)
+
+18 points written for episode 6 (ar, en, ur); 17 needs_source marks for this episode in each language file; edges to short measure, zakat and trust. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Unsourced statistics (30,000 Qur'ans, 84 and 150 followers, ten billion trees, 59 and 41 per cent) kept only with needs_source marks | ep06 00:27:00 to 00:52:00 | no source given for the figures | needs_source | Open |
+| Unintelligible stretches (00:16:30, 00:37:00, 00:44:00 to 00:44:30) | ep06 00:16:30 | transcript looped or unintelligible, no claim can be checked | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 7 (branch from origin/main).
 ### min-kunuz-al-sunnah ep24 (14 Nov 2026)
 
 14 points written for episode 24 (ar, en, ur); 10 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (4-148); none typed. Contested: He holds that lying is permitted in three cases (to please a wife, in war, to reconcile people) and gives his own readings of Ibrahim's three statements and of what counts as war; these are his views, and scholars discuss the scope of the three exceptions.
@@ -3251,3 +3261,19 @@ Resume point: min-kunuz-al-sunnah episode 24 (branch from origin/main).
 | Garbled passage on the wife's mother and the judge | ep24 00:19:00-00:19:30 | Too garbled to recover | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 25 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep25 (14 Nov 2026)
+
+13 points written for episode 25 (ar, en, ur); 9 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (19-43, 40-28, 3-110); none typed. Contested: He gives a view on how advice should be delivered (privately, gently, briefly, fitted to the listener) and applies it to rulers and to youths raised in the West; these are his opinions, and the stories and sayings he tells carry no chains.
+
+| Excluded (min-kunuz-al-sunnah ep25) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting, opening prayer, break joins and closing prayer | ep25 00:00:00-00:00:30, 00:08:30-00:09:00, 00:17:00-00:17:30, 00:24:30 | Not substantive teaching | Content rule | Open |
+| Claim that the Arab man never accepts a wife's advice and the Arab claims to know everything | ep25 00:04:00-00:04:30, 00:08:00-00:08:30 | Sweeping generalisation about a people and about women | Voice rule | Open |
+| Remark that some officials in Arab and Muslim countries speak for four or five hours | ep25 00:06:30-00:07:00 | Sweeping claim about rulers and states | Voice rule | Open |
+| Remark about flatterers around rulers | ep25 00:22:30-00:23:00 | Sweeping claim about a group, garbled | Voice rule | Open |
+| Looping stretch of repeated letters | ep25 00:11:00-00:11:30 | ASR loop, text lost | Clarity, Loop check | Open |
+| Looping stretch of repeated letters | ep25 00:18:00-00:18:30 | ASR loop, text lost | Clarity, Loop check | Open |
+| Garbled phrases on typing and writing media | ep25 00:11:30-00:12:00 | Words unclear (kept only the general point on generations) | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 26 (branch from origin/main).
