@@ -3,27 +3,27 @@ class: person
 label:
   ar: "محمد بن أحمد العتبي"
   en: "Muhammad ibn Ahmad al-Utbi"
-roles: [scholar]
+roles: [faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن أحمد العتبي، فقيه أندلسي القرن التاسع، توفي سنة ٨٦٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Ahmad al-Utbi, the ninth-century Andalusi jurist, d. 869; the biographical entry is not yet checked on the page."
+  ar: "محمد بن أحمد بن عبد العزيز الأموي القرطبي الأندلسي، أبو عبد الله، فقيه مالكي نسبته إلى عتبة بن أبي سفيان بالولاء، صاحب المستخرجة العتبية على الموطأ، توفي بالأندلس سنة ٢٥٥هـ."
+  en: "Muhammad ibn Ahmad ibn Abd al-Aziz al-Umawi al-Qurtubi al-Andalusi, Abu Abdallah, a Maliki jurist whose name points by clientage to Utba ibn Abi Sufyan, author of al-Mustakhraja al-Utbiyya ala al-Muwatta; he died in al-Andalus in 255 AH (869)."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/abbasid-fragmentation]
 died: { edtf: "869", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik Confirmed on 13 November 2026 against Wikidata Q12190022 (P570, a statement with a reference), item revision 2533250629.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/al-andalus, sources: [source/al-aalam] }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12190022
   viaf: "48246717"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0058
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

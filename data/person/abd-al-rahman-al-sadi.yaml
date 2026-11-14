@@ -6,24 +6,26 @@ label:
 roles: [historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرحمن السعدي، مؤرخ تمبكتو القرن السابع عشر صاحب تاريخ السودان، توفي سنة ١٦٥٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahman al-Sa'di, the seventeenth-century chronicler of Timbuktu author of Tarikh al-Sudan, d. 1656; the biographical entry is not yet checked on the page."
+  ar: "عبد الرحمن بن عبد الله بن عمران السعدي، مؤرخ ولد في تمبكتو سنة ١٠٠٤هـ وتولى الإمامة بجامع سانكور واستقر في مملكة سونرهاي وتوفي فيها سنة ١٠٦٦هـ، صاحب تاريخ السودان."
+  en: "Abd al-Rahman ibn Abdallah ibn Imran al-Sa'di, a historian born in Timbuktu in 1004 AH who served as imam at the Sankore mosque, settled in the kingdom of Songhai and died there in 1066 AH (1656); author of Tarikh al-Sudan."
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q2821252
   viaf: "62401445"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0054
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1656~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Sudan; EI2 (b. 1004 AH Confirmed on 13 November 2026 against Wikidata Q2821252 (P570, a statement with a reference), item revision 2567323241.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1595", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 286: 1004 AH = 1595 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Sudan; EI2 (b. 1004 AH; al-A'lam vol. 3 p. 286 gives 1066 AH = 1656 CE, so the approximation mark was dropped) Confirmed on 13 November 2026 against Wikidata Q2821252 (P570, a statement with a reference), item revision 2567323241.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/timbuktu, note: "From text: of Timbuktu", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/timbuktu, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 3 p. 286: he was born in Timbuktu.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
