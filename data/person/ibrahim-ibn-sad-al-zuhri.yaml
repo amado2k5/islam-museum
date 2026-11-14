@@ -11,12 +11,12 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/abbasid-early]
-born: { edtf: "0727", precision: year, status: tradition, derived: true }
-died: { edtf: "0800", precision: year, status: tradition, derived: true }
+born: { edtf: "0726", precision: year, status: tradition, derived: true, note: "Born 108 AH (Abdallah ibn Ahmad ibn Hanbal, from a son of the man): al-Mizzi, Tahdhib al-Kamal, Bashshar Awwad Ma'ruf ed., vol. 2 p. 92, entry 174; 108 AH begins in 726. Read 14 November 2026; the earlier 727 came from al-A'lam and Wikidata.", sources: [source/tahdhib-al-kamal-mizzi] }
+died: { edtf: "0799", precision: year, status: tradition, derived: true, note: "Died 183 AH (Ali ibn al-Madini, Khalifa ibn Khayyat, Ibn Sa'd and Ibn Abi Khaythama), 182 or 183 AH (Muhammad ibn al-Muthanna) or 184 AH (Ibn Ufayr): al-Mizzi, Tahdhib al-Kamal, vol. 2 p. 92, entry 174. 183 AH begins in February 799. Read 14 November 2026; the earlier 800 came from al-A'lam and Wikidata.", sources: [source/tahdhib-al-kamal-mizzi] }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/tahdhib-al-kamal-mizzi]
 external_ids:
   wikidata: Q12181692
 provenance:
