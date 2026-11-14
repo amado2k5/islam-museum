@@ -5117,3 +5117,29 @@ GEMINI: ep50, the name of the Companion who ate the poisoned sheep and the name 
 GEMINI: ep50, the name of the Qurayshi orator and chief negotiator whom Umar wished to silence, the first pass has Said ibn Amir and the second Suhayl and ibn Amr in garbled form, a Sira source on the captives of Badr and the speech in Mecca after the Prophet's death
 GEMINI: ep50, which great expedition the Prophet began preparing for after Khaybar, the first pass says Nabk or Tabuk and the second says the opening of Mecca, both garbled, the episode's closing remark and a Sira chronology
 GEMINI: ep50, what Abu Jahl said he saw behind the Prophet when he paid the Qurayshi man for his camel, both passes garble it, the Sira of Ibn Ishaq on Abu Jahl and the man of Irash
+
+### sharh-saheeh-al-bukhare ep51 (14 Nov 2026)
+
+26 points written for episode 51 (ar, en, ur); 46 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (15-6, 83-29, 4-65, 33-36); none typed. Contested: His readings of patience, mercy and the Hudaybiyya clauses, the figures he gives (eighty-four believers, twenty-two months, twenty-five dead, fighters and horsemen) and his stories without a chain (Moses and the field, the lion, the mat, the letter) are his own account or unsourced. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep51) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, long supplication and repeated words | ep51 00:00:00-00:02:30 | greetings and prayer, with a loop of repeated words in the first pass | Clarity, Loop check | Open |
+| Closing greeting and farewell | ep51 01:20:00-01:20:30 | closing prayer and greeting | Clarity | Open |
+| Remarks on a woman's work outside the home and how a husband should speak to his wife, and the claim about a devil in the home influencing children | ep51 00:25:00-00:28:00 | sweeping remarks about women and households, garbled in both passes | Voice rule, Clarity | Open |
+| Stories on lowering the gaze and a Companion looking at a woman, with repeated loops | ep51 00:22:00-00:24:30 | too garbled in both passes to restate without invention and a loop in the first pass | Clarity, Loop check | Open |
+| Remarks on verses and a hadith about those who will not smell paradise and an edited recording | ep51 00:52:30-00:54:00 | garbled and not clearly supported by both passes | Clarity | Open |
+| The story of the camels bought on credit for the detachment and an objection by Umar | ep51 01:17:30-01:19:30 | names and details rest on single garbled words and loops | Clarity, Loop check | Open |
+| Stretches of repeated words and loops | ep51 00:01:00, 00:23:30-00:24:00, 00:32:30, 00:33:00, 00:34:30, 00:39:00-00:40:00, 00:41:00, 00:44:30, 00:49:00, 00:56:00-00:57:00, 01:01:00, 01:05:00, 01:07:30, 01:12:00-01:12:30, 01:16:00, 01:18:00, 01:19:00-01:19:30 | loops of one repeated word in the first pass or garbled text in the second | Clarity, Loop check | Open |
+| Names of the son of Abu Lahab, Abu Bakr's reply to Abu Sufyan, the intercessor and the adviser, the sender of the letter, Amr ibn Salim | ep51 00:47:30-00:48:30, 01:03:00, 01:04:30, 01:06:00, 01:14:00-01:15:30, 00:56:00-00:57:00 | names rest on single garbled words | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep51 whole | Qwen pass garbled | Clarity | Open |
+| Name of the tribe in the Prophet's alliance, the man who asked Aisha, the Umar link on the remark about the clause | ep51 00:33:30-00:34:00, 01:07:30-01:08:30, 00:54:00-00:54:30 | names rest on single garbled words or are not stated at that point | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 52 (branch from origin/main).
+GEMINI: ep51, who is the son of Abu Lahab killed by the lion on the Syria road (a name that may be Utba) and which daughter of the Prophet he was married to, the first pass has a garbled name and the second pass has Utba in garbled form, a Sira source (Ibn Ishaq, al-Waqidi) on Abu Lahab's sons
+GEMINI: ep51, who is the Mu'awiya who recited the line about death's claws on his deathbed and who visited him (an Ibn Abdullah or Ibn Abbas), both passes garble the names, a source on Mu'awiya ibn Abi Sufyan's final illness
+GEMINI: ep51, the name of the man who carried the Quraysh letter and the woman who bore it, both passes garble them (Hatib ibn Abi Balta'a is the likely name), the Sahih accounts of the story of Hatib in the conquest of Mecca
+GEMINI: ep51, which daughter of the Prophet Abu Sufyan asked to intercede with her father and who advised him to proclaim protection, both passes garble the names, a Sira source on Abu Sufyan's embassy to Medina
+GEMINI: ep51, whether the detachment sent under Abu Ubayda ibn al-Jarrah to the Red Sea shore is the Khabt expedition and the story of the debt for camels that follows, the second pass has Khabt and Qays ibn Sa'd in garbled form, a Sira source on the expedition
+GEMINI: ep51, the exact wording and speaker of the verse about the crying out of Khuza'a (the man's name may be Amr ibn Salim) and the tribe that attacked Khuza'a, both passes garble them, a Sira source on the breach of the Hudaybiyya treaty
+GEMINI: ep51, who asked Aisha whether she knew the Prophet's intention before the march (Abu Bakr is likely) and which tribe entered the Prophet's alliance in the Hudaybiyya clauses (Khuza'a is likely), the first pass has no name and the second pass has garbled words, a Sira source on the Hudaybiyya clauses and on the preparations for the conquest of Mecca
