@@ -4435,3 +4435,18 @@ Resume point: sharh-saheeh-al-bukhare episode 36 (branch from origin/main).
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep36 whole | Qwen pass garbled | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 37 (branch from origin/main).
+
+### alwaad-alhaq ep26 (14 Nov 2026)
+
+20 points written for episode 26 (ar, en, ur); 18 needs_source marks for this episode in each language file; links to the Basin, intercession and Abu Talib added to the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Story of al-Hasan al-Basri, the youths on the Euphrates and al-Hajjaj | ep26 00:08:30-00:09:30 | Garbled; names and sequence rest on single words | Clarity | Open |
+| Remarks on veiled women abroad and sweeping remarks on women | ep26 00:07:30 | Sweeping about women, garbled | Voice rule, Clarity | Open |
+| Remarks on the shaf' and watr (even and odd) and the household example | ep26 00:26:30-00:28:00 | Garbled, argument not recoverable | Clarity | Open |
+| Story of a man asked what he did, and of the sheikh's teacher on the rich | ep26 00:37:30-00:39:00 | Garbled, loops | Clarity, Loop check | Open |
+| Remarks on an alleged fatwa on riba beyond the sheikh's stated view; remarks on a dancer and an oud player in a band | ep26 00:45:30-00:47:30 | Garbled and tied to a ruling (opinion rulings held for the founder) | Clarity, Voice rule | Open |
+| Loop stretches of repeated syllables in the Qwen pass | ep26 00:10:00-00:10:30, 00:15:30, 00:32:30, 00:49:00-00:49:30 | Repeated-token loops | Loop check | Open |
+
+Resume point: alwaad-alhaq episode 27 (branch from origin/main).
