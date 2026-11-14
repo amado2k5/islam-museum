@@ -2916,3 +2916,14 @@ Resume point: min-kunuz-al-sunnah episode 7 (branch from origin/main).
 | Loops and garbled stretches (a run of one letter, the stretch on limestone temperaments, the stretch on the Companions' attention to the world) | ep07 00:01:00, 00:07:30-00:08:30 (part), 00:13:00 (part) | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 8 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep08 (14 Nov 2026)
+
+10 points written for episode 8 (ar, en, ur); 5 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (37-101, 51-28, 11-75, 59-9, 64-16, 17-29, 4-171, 42-11, 6-103); none typed.
+
+| Excluded (min-kunuz-al-sunnah ep08) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep08 00:00:00, 00:08:00-00:08:30, 00:15:30-00:16:30 (part), 00:25:30-00:26:00 | Not lesson content | Content rule | Open |
+| A remark calling Isaac the ancestor of one people, a loop on the structure of the word for righteousness, and a loop in the story of Abu Hanifa | ep08 00:05:30-00:06:00 (part), 00:02:30-00:03:00, 00:22:30 | Off the lesson or not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 9 (branch from origin/main).
