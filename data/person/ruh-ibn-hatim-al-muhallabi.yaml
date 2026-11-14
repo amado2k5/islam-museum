@@ -10,13 +10,14 @@ names:
   value: روح بن حاتم المهلبي
 gender: male
 roles:
+- emir
 - commander
 traditions:
 - sunni
 summary:
-  ar: قائد عسكري، ورد في قصة أبي دلامة حين أُكره على الخروج معه ضد الخوارج. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 41-42}
-  en: A military commander named in an anecdote of Abu Dulama, who was pressed into a campaign under him against the Kharijites. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 41-42}
-  ur: فوجی کمانڈر؛ ابو دلامہ کے قصے میں ان کے ساتھ خارجیوں کے خلاف مہم میں جانے پر مجبور ہونے کا ذکر ہے۔ {cite:nihayat-al-arab-nuwayri-vol4-scan p. 41-42}
+  ar: أمير من الأجواد الممدوحين، حاجب المنصور، وولي السند والبصرة والكوفة وفلسطين ثم القيروان، وتوفي سنة 174 هـ الموافقة 791 م؛ وورد في قصة أبي دلامة حين أُكره على الخروج معه ضد الخوارج. {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 34} {cite:nihayat-al-arab-nuwayri-vol4-scan p. 41-42}
+  en: An amir counted among the praised generous, chamberlain of al-Mansur and governor of Sind, Basra, Kufa, Palestine and then Qayrawan, who died in 174 AH (791 CE) {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 34}; also named in an anecdote of Abu Dulama, who was pressed into a campaign under him against the Kharijites. {cite:nihayat-al-arab-nuwayri-vol4-scan p. 41-42}
+  ur: ایک امیر، مشہور سخیوں میں سے، منصور کے حاجب اور سندھ، بصرہ، کوفہ، فلسطین اور پھر قیروان کے والی، جن کی وفات 174ھ بمطابق 791ء میں ہوئی {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 34}؛ ابو دلامہ کے قصے میں ان کے ساتھ خارجیوں کے خلاف مہم میں جانے پر مجبور ہونے کا ذکر ہے۔ {cite:nihayat-al-arab-nuwayri-vol4-scan p. 41-42}
 wings:
 - people
 themes:
@@ -28,19 +29,32 @@ story_roles:
   - source/nihayat-al-arab-nuwayri-vol4-scan
 sources:
 - source/nihayat-al-arab-nuwayri-vol4-scan
+- source/alam-zirikli-dar-al-ilm-2002
 status:
   review: draft
   completeness: 1
   generated_by: Claude Haiku 5.5 (Nihayat vol. 4 humour chapter, pages 41-42, from helper claims file; not yet image-checked)
 provenance:
-  layer: pd
-  source: archive.org nefa04 (Nihayat al-Arab vol. 4), pages 41-42
-  generated_by: Claude Haiku 5.5
-  model: claude-haiku-5-5
-  run: lib-nihayat-batch-06
-died: { edtf: "791", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-l-Muluk (al-Tabari)" }
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text (vol. 3 p. 34); Nihayat vol. 4 anecdote from the earlier card"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
+died: { edtf: "791", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 3 p. 34: died 174 AH = 791 CE in Qayrawan", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
 - type: ruled_over
   target: place/ifriqiya
   sources:
   - source/nihayat-al-arab-nuwayri-vol4-scan
+- type: died_in
+  target: place/qayrawan
+  confidence: high
+  note: "al-Zirikli, al-A'lam, vol. 3 p. 34: governor of Qayrawan from 171 AH until he died there"
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+- type: sibling_of
+  target: person/yazid-ibn-hatim
+  confidence: high
+  note: "al-Zirikli, al-A'lam, vol. 3 p. 34: his brother Yazid ibn Hatim, amir of Ifriqiya"
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002

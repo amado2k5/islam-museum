@@ -4661,3 +4661,34 @@ GEMINI: alwaad-alhaq ep32 (00:25:30) the hadith "among the greatest betrayals wi
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep40 whole | Qwen pass garbled | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 41 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep41 (14 Nov 2026)
+
+26 points written for episode 41 (ar, en, ur); 19 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (2-96, 26-62, 17-102); none typed. Contested: He holds that Islam is religion and state and calls talk of different kinds of Islam nonsense, and he presents his own views on learning from enemies, on teaching children the ancestors' history and on the three sources of cowardice; the many reports he tells without a chain are marked needs_source. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep41) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, opening supplication and greetings | ep41 00:00:00-00:04:00 | greeting and prayer, not teaching | Content rule | Open |
+| Prayers against named opponents inside the opening supplication | ep41 00:02:30-00:03:30 | sweeping claims about modern conflict | Voice rule | Open |
+| Closing prayer and farewell | ep41 01:17:00 | closing prayer | Content rule | Open |
+| Garbled stretch about the Companions and "we" | ep41 00:10:30-00:11:30 | Qwen loops and Whisper garbled | Clarity, Loop check | Open |
+| Comparison of cowards with brave men, school and battle details of the proverbial coward | ep41 00:14:30-00:15:00 and 00:17:00-00:18:30 | too garbled to recover | Clarity, Loop check | Open |
+| Comparisons of Arab fighters with modern soldiers and statements about modern wars | ep41 00:25:30-00:27:00 | sweeping claim about modern conflict and garbled | Voice rule, Clarity | Open |
+| Conclusion on the death of the coward | ep41 00:33:30-00:34:00 | Qwen loop and Whisper garbled | Clarity, Loop check | Open |
+| Garbled passage before the three sources | ep41 00:34:30-00:35:00 | Qwen loop and Whisper partial | Clarity, Loop check | Open |
+| Comments on fighting in places of modern conflict and on a modern war | ep41 00:36:00-00:37:00 | sweeping claims about modern conflict | Voice rule | Open |
+| A garbled name in the list around Pharaoh's court (a stretch dropped under the content-safety block) | ep41 00:47:30-00:48:00 | garbled word that could be read as a blocked name | Content rule | Open |
+| Garbled passage on a bureaucrat's signature and numbered law | ep41 00:41:00-00:41:30 and 00:43:00-00:44:00 | analogy too garbled to recover | Clarity, Loop check | Open |
+| Garbled passage on treaties and the logic of the opponents | ep41 00:49:00-00:50:00 | garbled and sweeping about a people | Voice rule, Clarity | Open |
+| Claims about the cowardice of a whole people | ep41 00:53:30-00:55:30 | demeaning generalisation about a people | Voice rule | Open |
+| Poets and rewards, boy's memory and recitation stretches | ep41 01:03:30-01:08:30 | too garbled and looping to recover | Clarity, Loop check | Open |
+| Ending of the caliph anecdote and loops | ep41 01:10:00-01:11:00 | Qwen loops and Whisper partial | Clarity, Loop check | Open |
+| Garbled part of the siege story | ep41 01:13:30-01:14:00 | Qwen loop and Whisper partial | Clarity, Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep41 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 42 (branch from origin/main).
+GEMINI: ep41, who is the Companion-poet addressed by the Prophet as Abu Layla who recited a poem on the day he accepted Islam whose last verse speaks of reaching the heavens in glory and what short prayer the Prophet made for him, the two transcripts spell the name only in garbled forms so no name is written, al-Isti'ab of Ibn Abd al-Barr or al-Isaba of Ibn Hajar
+GEMINI: ep41, is there a report that Gabriel told the Prophet he pushed something into Pharaoh's mouth for fear mercy would reach him and that Gabriel put to Pharaoh the question of the slave and his master, the transcripts give the substance as garbled ("water") and the chain not at all, Sunan al-Tirmidhi and Musnad Ahmad and the classical tafsir of the sea verses
+GEMINI: ep41, is the divine saying about the servant who holds fast to God reported by Ibn Hibban in his Sahih from Abdullah ibn al-Zubayr from his father, the transcripts give this chain but the wording is garbled, Sahih Ibn Hibban itself
+GEMINI: ep41, the story of the Persian commander asking Khalid about a sword from heaven, the transcripts disagree on whether Khalid said the sword was made by God or by a man so only his denial is written, a primary account of the campaigns of Khalid ibn al-Walid in Iraq
+GEMINI: ep41, is the poet whom the Prophet called Abu Layla (reciter of the poem ending 'we reached the heavens in glory') al-Nabigha al-Ja'di, Whisper gives al-Nabigha al-Ja'di clearly and Qwen a close garbled form, al-Isti'ab of Ibn Abd al-Barr or al-Isaba of Ibn Hajar
