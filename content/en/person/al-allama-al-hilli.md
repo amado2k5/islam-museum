@@ -20,3 +20,6 @@ Ibn Taymiyya describes him as one of the Imami shaykhs of his own time, who comp
 
 ## Not covered here
 His dates of birth and death, his teachers and students, and his other works, including those the earlier card credits to him (*Khulasat al-Aqwal* and *Tadhkirat al-Fuqaha*), have not yet been read on a source page, so they are not stated here.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q803 with the name form «al-Ḥasan ibn Yūsuf ibn ʿAlī al-ʿAllāmaẗ Ibn al-Muṭahhar al-Ḥillī (1250-1325)», the form including the years of birth and death as the file gives them. {cite:biblissima Q803}

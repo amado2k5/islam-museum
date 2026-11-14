@@ -45,3 +45,6 @@ provenance:
 ## الدين الوسيط في حساب عملي
 
 في [[work/hisab-kuttab-abu-wafa|حساب الكتّاب والعمّال]] شاهد [[invention/abu-wafa-debt-multiplication|الضرب بالمتمم والدين]]: المثال3×5 يمر بدين2 مضروب في10، ثم يجمع35 ليكون15، لا اختراع كل الأعداد السالبة {cite:abu-wafa-youschkevitch-dsb PDFp2}. تختلف تواريخ الكتاب بين TDV961 وماكتوتر961–976 وإيرانيكا979–983؛ لا نصحح الخلاف بغير شاهد جديد {cite:tdv-ebul-vefa-buzcani works2} {cite:abu-wafa-mactutor arithmetic} {cite:iranica-abu-wafa-works work1}. القاعدة قُرئت في عرض ثانوي وصورة صفحةPDF2؛ لم تُقرأ طبعة سعيدان أو العربية كاملة هنا. أمثلة المتحف الجبرية الحديثة وخط الأعداد الحديث ليست رسوماً أو رموزاً ننسبها إليه.
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q23308 بصيغة الاسم «Abō al-Wafāʿ Moḥammad ibn Moḥammad Bōzǧānī (0940-0998)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q23308}

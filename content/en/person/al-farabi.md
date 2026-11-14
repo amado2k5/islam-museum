@@ -60,3 +60,6 @@ He died in Damascus in 339 AH, the recording saying 950 by error, corrected to 3
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 10 works under the author identifier 0339AbuNasrFarabi, among them: Alfaz Mustacmala Fi Mantiq; Ara Ahl Madina; ʿUyūn al-masāʾil; Risālaŧ fī al-ʿAql. {cite:openiti-corpus 0339AbuNasrFarabi}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q12167 with the name form «Muḥammad ibn Muḥammad Abū Naṣr al- Fārābī (0870?-0950)», the form including the years of birth and death as the file gives them. {cite:biblissima Q12167}

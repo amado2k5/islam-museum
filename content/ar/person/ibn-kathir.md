@@ -13,3 +13,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-
 
 ## أعمال في مدونة OpenITI
 تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0774IbnKathir 15 من الأعمال، منها: الآداب والأحكام المتعلقة بدخول الحمام، البداية والنهاية، فضائل القرآن، الفصول في السيرة. {cite:openiti-corpus 0774IbnKathir}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q105729 بصيغة الاسم «Ismāʿīl ibn ʿUmar Ibn Kaṯīr (1301?-1373)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q105729}

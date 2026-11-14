@@ -15,3 +15,6 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 
 ## وفات اور کتاب کی شہرت
 وہ 709ھ میں فوت ہوئے جیسا کہ ذہبی نے لکھا ہے {cite:tarikh-islam-dhahabi s.a. 601-610 p. 738}، جبکہ زرکلی صرف 1302ء دیتا ہے {cite:al-aalam j.3 p. 149}؛ ہندوشاہ بن سنجر نے 723-4ھ/1323-4ء میں «الفخری» کا فارسی ترجمہ «تجارب السلف» کے نام سے کیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}۔
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q12210 کے تحت نام کی صورت «Muḥammad ibn ʿAli Ibn al-Ṭiqṭaqī (1262-1309)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q12210}

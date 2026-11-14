@@ -1,0 +1,18 @@
+id: concept/canon-signs-of-excess-of-yellow-bile
+class: concept
+kind: scientific
+label: { ar: "علامات غلبة الصفراء عند ابن سينا", en: "Signs of an excess of yellow bile in the Canon", ur: "صفراء کے غلبے کی علامات قانون میں" }
+summary:
+  ar: "يعدد ابن سينا علامات غلبة الصفراء في اللون والفم واللسان والعطش والتنفس والقيء والإسهال والأحلام {cite:canon-ibn-sina-print-v1 p.165}."
+  en: "Ibn Sina lists the signs of a dominant yellow bile in colour, mouth, tongue, thirst, breathing, vomiting, stools and dreams {cite:canon-ibn-sina-print-v1 p.165}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

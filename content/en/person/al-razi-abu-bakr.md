@@ -95,3 +95,6 @@ The [[invention/razi-patient-group-comparison|reported patient-group comparison]
 The approximate300 of2000 in a *Doubts about Galen* passage concerns courses contrary to expectation, not automatically the comparison's patients or a cure rate. The15% ratio is modern arithmetic on an approximate count, not efficacy or mortality. A difficult text's three cases and another outcome do not become a verified four-person trial {cite:razi-pormann-uncertainty-2013 pp.371–372}.
 
 The read evidence is a selected translation, commentary and2013 paper, not an inspected Arabic original or the complete primary works. The Hyderabad volumeI/15, page122 discrepancy remains visible pending collation. This addition does not retrospectively certify monkey-experiment or universal-priority claims in the preceding programme account: they remain the speaker's claims, and disputed identity remains without a museum verdict. No treatment instructions or reenactment {cite:tibi-razi-comparison-jll references} {cite:razi-pormann-uncertainty-2013 introduction}.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q12191 with the name form «Muḥammad ibn Zakarīyā Abū Bakr al- Rāzī (0864?-0925?)», the form including the years of birth and death as the file gives them. {cite:biblissima Q12191}

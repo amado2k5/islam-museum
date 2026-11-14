@@ -80,3 +80,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 
 ## أعمال في مدونة OpenITI
 تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0595IbnRushdHafid 20 من الأعمال، منها: بداية المجتهد ونهاية المقتصد، الضروري في أصول الفقه أو مختصر المستصفى، فصل المقال، الكليات في الطب. {cite:openiti-corpus 0595IbnRushdHafid}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q2016 بصيغة الاسم «Averroès (1126-1198)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q2016}

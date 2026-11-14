@@ -18,3 +18,6 @@ He settled in the khan outside Aleppo under al-Qifti's wing, who helped him grea
 
 ## Works
 The Irshad al-Arib ila Ma'rifat al-Adib (Mujam al-Udaba') in four volumes; the Mujam al-Buldan; the Mujam al-Shu'ara' (lost); al-Mushtarik wad'an wa-l-muftariq suq'an; al-Mubda' wa-l-Ma'ad on history and dynasties; al-Muqtadab fi-l-Nasab; Majmu' kalam Abi Ali al-Farisi; and 'Unwan Kitab al-Aghani {cite:shadharat-dhahab p. 121-122} {cite:encyclopaedia-of-islam-2 vol. 11 p. 265-266}.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16682 with the name form «Yāqūt ibn ʿAbd Allāh al-Rūmī al- Ḥamawī (1179-1229)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16682}

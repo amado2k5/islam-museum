@@ -13,3 +13,6 @@ He was a money-changer in Harran. Muhammad ibn Musa took him along when he saw t
 Ibn al-Nadim also reports that the Banu al-Munajjim used to pay him, together with [[person/hunayn-ibn-ishaq|Hunayn ibn Ishaq]], about five hundred dinars a month for translation and attendance {cite:fihrist-ibn-al-nadim p.340}.
 
 al-Mas'udi reports that when [[person/al-mutadid|al-Mu'tadid]], in the year 289 AH, was pursuing Wasif the servant, he came to the temple of Antioch, venerated it, and spoke of its significance {cite:muruj-al-dhahab p.542}.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q271 with the name form «Abū al-Ḥasan T̲ābit ibn Qurrah al-Ṣābī (083.?-0901)», the form including the years of birth and death as the file gives them. {cite:biblissima Q271}

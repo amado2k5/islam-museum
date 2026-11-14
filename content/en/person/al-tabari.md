@@ -65,3 +65,6 @@ Among his students the thesis introduces [[person/ibn-mujahid|Abu Bakr ibn Mujah
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 7 works under the author identifier 0310Tabari, among them: Ikhtilaf Fuqaha; Jamic Bayan; Ṣarīḥ al-sunnaŧ; Tabsir Fi Macalim Din. {cite:openiti-corpus 0310Tabari}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q23653 with the name form «Muḥammad ibn Ǧarīr ibn Yazīd al- Ṭabarī (0839?-0923)», the form including the years of birth and death as the file gives them. {cite:biblissima Q23653}

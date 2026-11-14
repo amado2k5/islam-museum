@@ -6,25 +6,27 @@ label:
 roles: [sufi]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد العزيز الدباغ، متصوف فاس القرن الثامن عشر بطل الإبريز؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Aziz al-Dabbagh, the eighteenth-century mystic of Fez celebrated in al-Ibriz; the biographical entry is not yet checked on the page."
+  ar: "عبد العزيز بن مسعود، أبو فارس، الدباغ، متصوف من الأشراف الحسنيين، مولده ووفاته بفاس، كان أمياً، وجمع أحمد بن مبارك اللمطي كلامه في «الإبريز»، 1095 إلى 1132 هـ."
+  en: "Abd al-Aziz ibn Mas'ud, Abu Faris, al-Dabbagh, a Sufi of the Hasanid sharifs, born and died at Fez, who could neither read nor write; Ahmad ibn Mubarak al-Lamti set down his sayings in 'al-Ibriz', 1095 to 1132 AH."
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q112154620
   viaf: "1237159248452204870008"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0057
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ibriz (Ahmad ibn al-Mubarak: 1090–1131 AH) Confirmed on 13 November 2026 against Wikidata Q112154620 (P569, a statement with a reference), item revision 2563071652.", sources: [source/wikidata] }
-died: { edtf: "1719", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ibriz (Ahmad ibn al-Mubarak: 1090–1131 AH) Confirmed on 13 November 2026 against Wikidata Q112154620 (P570, a statement with a reference), item revision 2563071652.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1684", hijri: "1095", calendar: gregorian, precision: year, derived: true, sources: [source/alam-zirikli-dar-al-ilm-2002], note: "Al-Zirikli, al-A'lam vol. 4 p. 10: 1095 AH = 1684 CE (the card had 1679 from a Wikidata year that matches 1090 AH)." }
+died: { edtf: "1720", hijri: "1132", calendar: gregorian, precision: year, derived: true, sources: [source/alam-zirikli-dar-al-ilm-2002], note: "Al-Zirikli, al-A'lam vol. 4 p. 10: 1132 AH = 1720 CE (the card had 1719, 1131 AH)." }
 relations:
   - { type: lived_in, target: place/fez, note: "From text: of Fez", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/fez, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: born in Fez.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/fez, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: died in Fez.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

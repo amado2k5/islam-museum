@@ -49,3 +49,6 @@ provenance:
 
 ## أعمال في مدونة OpenITI
 تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0600CabdGhaniMaqdisi 22 من الأعمال، منها: أحاديث الجماعيلي، أخبار الدجال، من أخبار الحسن البصري، أخبار الصلاة. {cite:openiti-corpus 0600CabdGhaniMaqdisi}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q16802 بصيغة الاسم «ʿAbd al-Ġanī ibn ʿAbd al-Wāḥid al- Ǧammāʿīlī (1146-1203)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q16802}

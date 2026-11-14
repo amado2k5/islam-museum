@@ -1,0 +1,18 @@
+id: concept/canon-signs-of-excess-of-blood
+class: concept
+kind: scientific
+label: { ar: "علامات غلبة الدم عند ابن سينا", en: "Signs of an excess of blood in the Canon", ur: "خون کے غلبے کی علامات قانون میں" }
+summary:
+  ar: "في الفصل السابع يبدأ ابن سينا بعلامات غلبة الدم، وهي قريبة من علامات الامتلاء بحسب الأوعية {cite:canon-ibn-sina-print-v1 pp.164-165}."
+  en: "In the seventh chapter Ibn Sina begins the signs of a dominant humour with blood, whose signs are close to those of fullness of the vessels {cite:canon-ibn-sina-print-v1 pp.164-165}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

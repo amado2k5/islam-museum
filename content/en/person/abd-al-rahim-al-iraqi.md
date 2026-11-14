@@ -16,3 +16,6 @@ This date of death agrees with al-Sakhawi above, who gives the month and place: 
 
 ## Note on this record
 A duplicate record with the id `person/al-iraqi-zayn-al-din` has been merged into this one; that id remains as an alias pointing here.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16828 with the name form «ʿAbd al-Raḥīm ibn al-Ḥusayn al- Ḥāfīẓ al-ʿIrāqī (1325-1404)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16828}

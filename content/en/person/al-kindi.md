@@ -79,3 +79,6 @@ In [[invention/kindi-drug-degrees|his calculation of compound-drug degrees]], al
 **Sunni frame and the TDV reference:** Mahmut Kaya discusses al-Kindi's defence of Islam and rejects shared questions as sufficient proof of Mu'tazili membership {cite:tdv-kindi-kaya Mu'tezile section}. The museum uses its Sunni frame with the disagreement marked, not as a documented personal declaration of a specific school.
 
 **Academic classifications reported by Kaya:** Kaya reports and challenges Walzer's and de Boer's Mu'tazili classifications; this is through his article, not a claim to have read their originals {cite:tdv-kindi-kaya Mu'tezile section}. The disagreement remains visible without a museum verdict.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16688 with the name form «Yaʿqūb ibn Isḥāq Abū Yūsuf al- Kindī (0801?-0867?)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16688}

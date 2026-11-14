@@ -51,3 +51,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker A)", model: claude-
 
 ## OpenITI مجموعے میں تصانیف
 OpenITI مجموعہ اس مصنف کے لیے شناخت 0463IbnCabdBarr کے تحت 15 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: بهجة المجالس وأنس المجالس، الدرر، اختلاف أقوال مالك وأصحابه، الإنباه على قبائل الرواة۔ {cite:openiti-corpus 0463IbnCabdBarr}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q16720 کے تحت نام کی صورت «Yūsuf ibn ʿAbd Allâh Ibn ʿAbd al-Barr al-Qurṭubī (0978-1070)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q16720}
