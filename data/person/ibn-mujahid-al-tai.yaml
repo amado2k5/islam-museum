@@ -6,24 +6,26 @@ label:
 roles: [theologian]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي عبد الله بن مجاهد الطائي، المتكلم، توفي سنة ٩٨٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Abd Allah ibn Mujahid al-Ta'i, the theologian, d. 980; the biographical entry is not yet checked on the page."
+  ar: "محمد بن أحمد بن مجاهد، أبو عبد الله الطائي البغدادي، متكلم من أصحاب أبي الحسن الأشعري، علّم الباقلاني الكلام ببغداد، وتوفي سنة ٣٧٠ هـ الموافقة ٩٨٠ م."
+  en: "Muhammad ibn Ahmad ibn Mujahid, Abu Abd Allah al-Ta'i al-Baghdadi, a theologian of al-Ash'ari's circle who taught al-Baqillani kalam in Baghdad; d. 370 AH, 980 CE."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
 born: { edtf: "883", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "980", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q29514441 (P570, a statement with a reference), item revision 2467608206.", sources: [source/wikidata] }
+died: { edtf: "980", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam vol. 5 p. 311, prints 370 AH = 980 CE; al-Safadi, al-Wafi vol. 2 p. 35, says about the seventies of the fourth century AH. Earlier note: confirmed on 13 November 2026 against Wikidata Q29514441 (P570), item revision 2467608206.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/wikidata] }
 relations:
+  - { type: lived_in, target: place/baghdad, confidence: high, note: "al-Zirikli, al-A'lam vol. 5 p. 311: he settled in Baghdad; al-Safadi, al-Wafi vol. 2 p. 35: he came to Baghdad and taught kalam there", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+  - { type: student_of, target: person/al-ashari, confidence: high, note: "al-Zirikli, al-A'lam vol. 5 p. 311, and al-Safadi, al-Wafi vol. 2 p. 35: companion of Abu al-Hasan al-Ash'ari", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q29514441
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0083
+  source: "al-Zirikli, al-A'lam vol. 5 p. 311, and al-Safadi, al-Wafi bi-l-Wafayat vol. 2 p. 35, read on the page"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-alam-2026-11-14
 status:
   review: draft
   completeness: 1
