@@ -1,0 +1,57 @@
+id: event/al-hadi-letters-to-medina-283
+class: event
+kind: other
+label:
+  ar: كتب الهادي إلى أهل المدينة في ذي القعدة سنة 283هـ
+  en: Al-Hadi's letters to Medina, Dhu al-Qa'da 283 AH
+  ur: ہادی کے خطوط مدینہ کے نام، ذو القعدہ 283ھ
+summary:
+  ar: وردت في ذي القعدة سنة 283هـ كتب من الهادي على نفر من بني أبي طالب بالمدينة يدعوهم إلى طاعة الله والجهاد، ويخبرهم أن أهل اليمن كتبوا إليه يسألونه الخروج ويعطونه بيعاتهم.
+  en: In Dhu al-Qa'da 283 AH letters from al-Hadi reached a group of the Banu Abi Talib and others at Medina, calling them to obey God and strive, and telling them that Yemenis had written asking him to come and giving their pledges.
+  ur: ذو القعدہ 283ھ میں ہادی کے خطوط مدینہ میں بنو ابی طالب وغیرہ کے کچھ لوگوں کو ملے، جن میں انہیں اللہ کی اطاعت اور جہاد کی دعوت تھی اور بتایا گیا تھا کہ اہل یمن نے ان سے آنے کی درخواست کی اور بیعتیں دی ہیں۔
+wings:
+- time
+themes:
+- factions-splits-schisms
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0896-12~
+    hijri: 0283-11
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: في ذي القعدة سنة 283هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي
+    sources: &id001
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/medina
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  role: كاتب الكتب
+  sources: *id001
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  role: من وصله الكتاب وعزم على الخروج
+  sources: *id001
+- type: had_participant
+  target: person/yahya-ibn-al-husayn-ibn-yahya-al-umari
+  role: من وصله الكتاب
+  sources: *id001
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص21-37 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-3
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 21-37
