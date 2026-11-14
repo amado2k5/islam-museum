@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله الزواوي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdullah al-Zawawi; the entry is not yet checked on the page."
+  ar: "عبد الله بن محمد صالح الزواوي ثم الأحسائي المكي الحسني الإدريسي، مفتي الشافعية بمكة، ولد سنة 1266 هـ الموافقة 1850 م وتوفي سنة 1343 هـ الموافقة 1924 م."
+  en: "Abdullah ibn Muhammad Salih al-Zawawi, then al-Ahsa'i, al-Makki, al-Hasani, al-Idrisi, the Shafi'i mufti of Mecca, 1266 to 1343 AH (1850 to 1924 CE)."
 wings: [people]
-regions: [southeast-asia]
+regions: [arabia]
 periods: [period/modern-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q129756469
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1850", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 died: { edtf: "1924", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
-  - { type: lived_in, target: place/malay, note: "Only the record-level region (southeast-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/mecca, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 130: studied and taught in Mecca and was its Shafi'i mufti.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

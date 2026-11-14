@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبان بن تغلب الجريري، قارئ ولغوي وفقيه الكوفة القرن الثامن، توفي سنة ٧٥٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Aban ibn Taghlib al-Jariri, the eighth-century Kufan Qur'an reader, linguist and jurist, d. 758; the biographical entry is not yet checked on the page."
+  ar: "أبان بن تغلب بن رباح البكري الجريري بالولاء، أبو سعيد، قارئ لغوي من أهل الكوفة، يعده الزركلي من غلاة الشيعة، توفي سنة 141 هـ الموافقة 758 م."
+  en: "Aban ibn Taghlib ibn Rabah al-Bakri al-Jariri by clientage, Abu Sa'id, a reciter and linguist of Kufa whom al-Zirikli counts among the extreme Shi'a (ghulat al-Shi'a); he died in 141 AH (758 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4119053
   viaf: "35158259466402302356"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0045
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "758", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi; al-A'lam (al-Zirikli: d. 141 AH) Confirmed on 13 November 2026 against Wikidata Q4119053 (P570, a statement with a reference), item revision 2463915240.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/kufa, note: "From text: فقيه الكوفة القرن الثامن", sources: [source/al-aalam], confidence: low }
