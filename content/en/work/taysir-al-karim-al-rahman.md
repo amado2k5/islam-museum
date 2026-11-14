@@ -26,3 +26,6 @@ The museum used the Obeikan (Riyadh) 1st edition of 1422 AH / 2001, edited by al
 
 ## Its close and the appendix of principles
 At the end of the commentary al-Sa'di records that he completed it at the beginning of Rabi' I 1344 AH. {cite:taysir-karim-rahman-obeikan-2001 p.938} The edition adds 'Principles and generalities of exegesis that no exegete of the Qur'an can do without': rules on what words signify — such as the generality of an indefinite noun after a negation, and that the general wording governs rather than the particular occasion — together with generalities on the Qur'an's meanings and definitions of its terms; see [[concept/qawaid-al-tafsir|principles and rules of exegesis]]. {cite:taysir-karim-rahman-obeikan-2001 p.939} {cite:taysir-karim-rahman-obeikan-2001 p.941} {cite:taysir-karim-rahman-obeikan-2001 p.942}
+
+## The edition in the Surah app
+The Surah app, published by the Tafsir Center for Quranic Studies, carries al-Sa'di's commentary in the Dar Ibn al-Jawzi edition, organised verse by verse, so the commentary on any verse opens from a sura number and a verse number. The app's own description of the project gives only the title of the edition and no further details. {cite:surah-app tafsir-saadi}
