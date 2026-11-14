@@ -6,8 +6,8 @@ label:
 roles: [scholar, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن علي الزملكاني، فقيه وقاضٍ من أسرة الزملكاني الدمشقية؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Ali al-Zamlakani, the jurist and qadi of the Damascene Zamlakani family; the source entry is not yet checked on the page."
+  ar: "محمد بن علي بن عبد الواحد الأنصاري، كمال الدين، المعروف بابن الزملكاني، فقيه شافعي انتهت إليه رياسة الشافعية في عصره، ولد ونشأ بدمشق وولي قضاء حلب سنتين، وتوفي في بلبيس سنة 727 هـ ودفن بالقاهرة."
+  en: "Muhammad ibn Ali ibn Abd al-Wahid al-Ansari, Kamal al-Din, known as Ibn al-Zamlakani, a Shafi'i jurist to whom the leadership of the Shafi'is passed in his time; born and educated in Damascus, judge of Aleppo for two years, he died at Bilbays in 727 AH and was buried in Cairo."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
@@ -15,19 +15,22 @@ born: { edtf: "1269", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1327", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Dhayl Tarikh al-Islam) Confirmed on 13 November 2026 against Wikidata Q6533639 (P570, a statement with a reference), item revision 2533301359.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
-sources: [source/shadharat-dhahab, source/wikidata]
+  - { type: died_in, target: place/bilbays, note: "Al-Zirikli, al-A'lam vol. 6 p. 179: died at Bilbays.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: buried_in, target: place/cairo, note: "Al-Zirikli, al-A'lam vol. 6 p. 179: buried in Cairo.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: lived_in, target: place/aleppo, note: "Al-Zirikli, al-A'lam vol. 6 p. 179: judge of Aleppo for two years.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+sources: [source/shadharat-dhahab, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6533639
   viaf: "46526106"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0072
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/qadi
     kind: secondary

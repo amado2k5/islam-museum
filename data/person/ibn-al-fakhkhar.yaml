@@ -6,23 +6,26 @@ label:
 roles: [scientist, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن عمر بن الفخار، عالم ومحدث وفقيه القرن الحادي عشر، توفي سنة ١٠٢٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Umar ibn al-Fakhkhar, the eleventh-century scientist, muhaddith and jurist, d. 1028; the biographical entry is not yet checked on the page."
+  ar: "محمد بن عمر بن يوسف، أبو عبد الله بن الفخار، عالم الأندلس في زمانه ومن أئمة المالكية بقرطبة، رحل إلى المشرق وسكن المدينة ثم عاد وفر من قرطبة إلى بلنسية فتوفي فيها سنة 419 هـ."
+  en: "Muhammad ibn Umar ibn Yusuf, Abu Abdallah ibn al-Fakhkhar, the scholar of al-Andalus in his time and a Maliki imam at Cordoba, who travelled east and lived in Medina, then returned and fled Cordoba for Valencia, where he died in 419 AH."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
 died: { edtf: "1028", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sila (Ibn Bashkuwal) Confirmed on 13 November 2026 against Wikidata Q22689712 (P570, a statement with a reference), item revision 2533307225.", sources: [source/wikidata] }
+born: { edtf: "950~", hijri: "0339", calendar: gregorian, precision: year, derived: true, sources: [source/alam-zirikli-dar-al-ilm-2002], note: "Al-Zirikli, al-A'lam vol. 6 p. 291: 339 AH = 950 CE, printed with a question mark." }
 relations:
   - { type: died_in, target: place/valencia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: lived_in, target: place/medina, note: "Al-Zirikli, al-A'lam vol. 6 p. 291: lived in Medina after the pilgrimage.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: lived_in, target: place/cordoba, note: "Al-Zirikli, al-A'lam vol. 6 p. 291: a Maliki imam at Cordoba, which he fled when the Berbers overcame it.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q22689712
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0069
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

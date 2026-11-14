@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد الجوهري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad al-Jawhari; the entry is not yet checked on the page."
+  ar: "أحمد بن الحسن بن عبد الكريم الخالدي الجوهري، فاضل مصري أزهري، كان أبوه يبيع الجوهر، من كتبه «منقذة العبيد من ربقة التقليد» في التوحيد، 1096 إلى 1182 هـ."
+  en: "Ahmad ibn al-Hasan ibn Abd al-Karim al-Khalidi al-Jawhari, an Egyptian scholar of al-Azhar whose father sold jewels, author of 'Munqidhat al-'Abid min Ribqat al-Taqlid' on the oneness of God, 1096 to 1182 AH."
 wings: [people]
-regions: [arabia]
+regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12178531
   viaf: "1909194"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1768", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti; al-Muradi (Silk al-Durar) Confirmed on 13 November 2026 against Wikidata Q12178531 (P570, a statement with a reference), item revision 2533143103.", sources: [source/wikidata] }
+born: { edtf: "1685", hijri: "1096", calendar: gregorian, precision: year, derived: true, sources: [source/alam-zirikli-dar-al-ilm-2002], note: "Al-Zirikli, al-A'lam vol. 1 p. 111: 1096 AH = 1685 CE." }
 relations:
-  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/misr, note: "Al-Zirikli, al-A'lam vol. 1 p. 111: an Egyptian scholar of al-Azhar (the card had Arabia).", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
