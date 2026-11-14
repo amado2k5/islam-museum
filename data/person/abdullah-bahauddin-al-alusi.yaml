@@ -3,27 +3,29 @@ class: person
 label:
   ar: "عبد الله بهاء الدين الآلوسي"
   en: "Abdullah Bahauddin al-Alusi"
-roles: [scholar]
+roles: [scholar, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بهاء الدين الآلوسي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdullah Bahauddin al-Alusi; the entry is not yet checked on the page."
+  ar: "عبد الله بهاء الدين بن محمود شهاب الدين الآلوسي، فقيه بغدادي من قضاة الشافعية، ولي قضاء البصرة مدة سنتين؛ 1248 - 1291 هـ الموافق 1832 - 1874 م."
+  en: "Abdullah Bahauddin ibn Mahmud Shihab al-Din al-Alusi, a Baghdadi jurist and Shafi'i judge, qadi of Basra for two years; 1248 to 1291 AH (1832 to 1874)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12223605
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Entry read on the page: al-Zirikli, al-A'lam"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-m03-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1832", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q12223605 (P569, a statement with a reference), item revision 2533250106.", sources: [source/wikidata] }
-died: { edtf: "1874", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+  completeness: 2
+born: { edtf: "1832", hijri: "1248", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q12223605 (P569, a statement with a reference), item revision 2533250106.", sources: [source/wikidata] }
+died: { edtf: "1874", hijri: "1291", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (الآلوسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/basra, note: "al-Zirikli, al-A'lam vol. 4 p. 136: judge of Basra for two years", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/baghdad, note: "al-Zirikli, al-A'lam vol. 4 p. 136: returned to Baghdad and died", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
