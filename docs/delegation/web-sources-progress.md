@@ -897,6 +897,10 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - FOR THE FOUNDER, matched by id and left unlinked: terken-khatun (Biblissima holds no dates), abd-al-malik-ibn-habib (birth 790 ours, 796? Biblissima; death 853 on both), and ibrahim-al-halabi (already listed, 1460 and 1401). Together with the earlier lists 31 stay unlinked.
 - Date differences noticed, not changed: al-sakhawi-alam birth 1164 and 1163?; al-khazin-al-baghdadi birth 1279 and 1280.
 
+## 2026-11-14 (p58, Lane B2) — Siyar A'lam al-Nubala batch 4: 4 persons written, 4 cards corrected to the book
+- Written (ar, en, ur, draft): zakariyya-ibn-adi (p. 1722; found by searching the scan for the name in the page text, the heading digits had OCR noise "٢١١٦٠"), bashar-ibn-musa (p. 1203), ahmad-ibn-al-furat (p. 879), al-hasan-ibn-sallam (p. 1407).
+- Cards corrected to the book, each with a cited note (coordinator's instruction of 14 Nov): bashar-ibn-musa died 887 to 843 (228 AH), born 796 removed (no source); al-hasan-ibn-sallam died 884 to 890 (277 AH Safar); ahmad-ibn-al-furat lived_in Baghdad (a vizier family) to Isfahan; ali-ibn-khasram lived_in Kufa to Merv (nisba al-Marwazi), died 871 already set in batch 3. Anything that was the card's only support for a claim and is replaced is listed here; nothing else removed.
+- Skipped, logged: aban-ibn-taghlib (no entry by that name in the scan text), ahmad-ibn-al-nadr (the entry text is garbled and mixed with the next entry), alqama-ibn-marthad (the extracted text belongs to another Alqama).
 ## 2026-11-14 (p59, Lane B worker B1) — Pleiades batch 2: 25 more places linked
 
 - Approval: dec-20261114-277. Same rule as p55 (point within 0.8 km, title or slash-part equals our English label, city, town, site or island). Linked: larissa, lucena, nazareth, shahrisabz, istakhr, ephesus, vila, th-nia, plo-nik, peshawar, itea, doucen, ain-zara, babadag, mu, abusir, pre-ov, ptolemais-hermiou, ancona, mystras, siraf, al-aqsa-mosque, acropolis-of-athens, sardarapat, bato-ina. Identifier links only, no prose.

@@ -48,6 +48,8 @@ open a new block on top with the new version and today's date.
 ### Data
 - **Three more hadith scholars have full trilingual biographies from al-Dhahabi's Siyar A'lam al-Nubala', cited to the page:** Abd al-Aziz ibn Rufay, Amr ibn Marzuq (with the critics' differing verdicts) and Ali ibn Khashram, whose card wrongly called him Kufan (the book names him al-Marwazi). All draft until a human reads them.
 - **Twenty-five more places carry a Pleiades identifier.** Ephesus, Nazareth, Larissa, Ancona, Peshawar, Siraf, Istakhr, Shahrisabz, the Acropolis of Athens, al-Aqsa Mosque and fifteen others now link to their Pleiades record, chosen only where its point lies within 0.8 km of ours and its title equals our name (decision dec-20261114-277).
+### Data
+- **Four more hadith scholars have full trilingual biographies from al-Dhahabi's Siyar A'lam al-Nubala', cited to the page:** Zakariyya ibn Adi, Bashshar ibn Musa (critics' disagreement given to each speaker), Ahmad ibn al-Furat and al-Hasan ibn Sallam. **Four cards were corrected to what the book says:** Bashshar ibn Musa's death year (843, not 887) and the uncited birth year removed; al-Hasan ibn Sallam's death (890, not 884); Ahmad ibn al-Furat now lives in Isfahan, not Baghdad (the old link belonged to another Ibn al-Furat); Ali ibn Khashram now lives in Merv, not Kufa.
 
 ## v1.30.0 — 2026-11-14
 ### Added

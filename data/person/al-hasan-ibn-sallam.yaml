@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لالحسن بن سلام؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Al-Hasan ibn Sallam; the entry is not yet checked on the page."
+  ar: "الحسن بن سلام السواق، أبو علي البغدادي، محدث ثقة صدوق بحسب الخطيب؛ توفي في صفر سنة ٢٧٧هـ."
+  en: "Al-Hasan ibn Sallam al-Sawwaq, Abu Ali of Baghdad, a reliable hadith scholar whom al-Khatib calls reliable and truthful; he died in Safar 277 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 born: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi (Tarikh Baghdad 7/331; 180–271 AH)" }
-died: { edtf: "884", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi (Tarikh Baghdad 7/331; 180–271 AH)" }
+died: { edtf: "890", calendar: gregorian, precision: year, derived: true, note: "Siyar A'lam al-Nubala (al-Dhahabi), p. 1407: d. Safar 277 AH, from Abu Bakr al-Shafi'i; replaces the card's 884 (271 AH)" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Record regions field is levant-iraq.", sources: [source/al-aalam], confidence: low }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q106696889
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
