@@ -1,0 +1,11 @@
+---
+id: event/al-hadi-razes-akili-houses-and-cuts-vines-at-saada-and-afqayn-287
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Under the heading of al-Hadi's going from Najran to Sa'da in Jumada II of 287 the book says that when [[person/al-hadi-yahya-al-rassi|al-Hadi]] reached [[place/saada|Sa'da]] [[group/banu-sad-khawlan|Banu Sa'd]] met him in a great force and he went with them until he camped at the village of Sa'da. {cite:sira-hadi-ila-al-haqq p.189} Then some of the Khawlan of Rabi'a called [[group/al-akiliyyun-saada|the Akilis]], Banu Kulayb, the Mahadhir, the 'Uwayrat, the Bahriyyun and a part of Banu Jama'a fought him and set themselves against him, and withdrew into two forts of theirs, Allaf and al-Thawr al-A'la. {cite:sira-hadi-ila-al-haqq p.189} Al-Hadi camped at Sa'da and ordered the houses of the Akilis pulled down, and they were, except the houses of some weak women with no man, and those of men who had not entered the war; Ali ibn Muhammad al-Alawi carried out the pulling down at his order and was ordered to cut their vines, which he cut. {cite:sira-hadi-ila-al-haqq p.189}
+
+## Detail
+When [[person/ahmad-ibn-abbad-al-akili|Ibn Abbad al-Akili]] learned of it he cried out to Rabi'a, who gathered to him, and he told them what al-Hadi had done and that he would do the same to them, so they should press the man; they agreed on war and fortified in their two forts among rough mountains. {cite:sira-hadi-ila-al-haqq p.189} The Akilis and their cousins [[group/al-mahadhir-saada|the Mahadhir]] had vines at [[place/afqayn-yemen|Afqayn]]; al-Hadi went out there, ordered the Akilis' vines cut and left the Mahadhir's, and went back to Sa'da, a party of [[group/banu-hayy-sad-khawlan|Banu Hayy]] of Sa'd Khawlan staying behind him. {cite:sira-hadi-ila-al-haqq p.189} {cite:sira-hadi-ila-al-haqq p.190} The Ali ibn Muhammad al-Alawi here is probably the narrator [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali ibn Muhammad]]; the museum does not assert it. This is al-Hadi's conduct as his followers tell it and the museum gives no judgement. Previous: [[event/ibn-bustam-is-given-safety-and-al-hadi-leaves-najran-for-saada-287]]; next: [[event/the-clash-at-samin-and-the-march-on-allaf-287]].

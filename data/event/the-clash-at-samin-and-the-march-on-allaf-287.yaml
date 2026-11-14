@@ -1,0 +1,59 @@
+id: event/the-clash-at-samin-and-the-march-on-allaf-287
+class: event
+kind: other
+label:
+  ar: "اصطدام الحييين بالأكيليين في سمعين وزحف الهادي على علاف، 287هـ"
+  en: "The Hayyiyun clash with the Akilis at Sam'in and al-Hadi's march on Allaf, 287 AH"
+  ur: "سمعین میں حییوں کا اکیلیوں سے ٹکرانا اور ہادی کا علاف کی طرف بڑھنا، 287ھ"
+summary:
+  ar: "أبصر الحييون جماعة من الأكيليين على جبل يقال له سمعين فاقتتلوا ولم يعلم الهادي حتى سمع الصراخ فرجع، ثم خرج بعد أيام إلى فروة وقطع أعنابها وتقدم إلى علاف فصعد القوم الجبل فانصرف إلى صعدة."
+  en: "The Hayyiyun saw a party of Akilis on a mountain called Sam'in and fought them without al-Hadi knowing until a cry brought him back; days later he went out to Furwa, cut its vines and advanced to Allaf, the enemy climbing the mountain, and returned to Sa'da."
+  ur: "حییوں نے سمعین نامی پہاڑ پر اکیلیوں کی ایک جماعت دیکھی اور لڑ پڑے، ہادی کو اس وقت تک خبر نہ ہوئی جب تک چیخ نے انہیں واپس نہ بلایا؛ کچھ دن بعد وہ فروہ گئے، اس کی بیلیں کاٹیں اور علاف کی طرف بڑھے، دشمن پہاڑ پر چڑھ گیا، اور وہ صعدہ لوٹ گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900"
+    hijri: "0287"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 287هـ بحسب ترتيب السرد؛ الدقة سنوية؛ لا يعطي الكتاب يوماً؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/allaf-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-hayy-sad-khawlan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-akiliyyun-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص190-191 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-23
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 190-191
