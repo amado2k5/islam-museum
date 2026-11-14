@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لالزبير بن عدي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Al-Zubayr ibn 'Adi; the entry is not yet checked on the page."
+  ar: "الزبير بن عدي الهمداني اليامي الكوفي، أبو عدي، عالم ثقة وقاضي الري وصاحب سنة، روى عن أنس بن مالك؛ قيل إنه مات سنة ١٣١هـ."
+  en: "Al-Zubayr ibn Adi al-Hamdani al-Yami of Kufa, Abu Adi, a reliable scholar, judge of Rayy and a man of the sunna who narrated from Anas ibn Malik; he is said to have died in 131 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
@@ -16,13 +16,13 @@ external_ids:
   wikidata: Q12188059
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal Confirmed on 13 November 2026 against Wikidata Q12188059 (P570, a statement with a reference), item revision 2511762756.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/ray, note: "Wikidata Q636188 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
