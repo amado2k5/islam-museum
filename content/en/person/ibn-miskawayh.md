@@ -35,3 +35,6 @@ The editor lists his works, among them: Tartib al-sa'adat wa-manazil al-ulum, on
 
 ## History in his view
 In the preface to Tajarib al-umam he makes the aim of history that what a person retains of past events should become "as if experiences of his own", because "the affairs of the world are alike, and its conditions correspond". {cite:tajarib-al-umam-surush-v1 p.48} He says that most of what he relates after 340 AH is seen and witnessed, or verified reports from Ibn al-Amid and al-Muhallabi. {cite:tajarib-al-umam-surush-v1 p.34}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 3 works under the author identifier 0421Miskawayh, among them: Tahdhib Akhlaq; Taǧārib al-umam wa-taʿāqub al-himam. {cite:openiti-corpus 0421Miskawayh}

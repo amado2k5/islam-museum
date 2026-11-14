@@ -57,3 +57,6 @@ Muwaffaq al-Din Abu Muhammad Abdullah ibn Ahmad ibn Qudama al-Maqdisi the Hanbal
 
 ## For Scholars
 Muwaffaq al-Din Abu Muhammad Abdullah ibn Ahmad ibn Qudama al-Maqdisi the Hanbali, a jurist of the Jerusalem house. He wrote 'Lum'at al-I'tiqad' on the creed of the Sunna folk in the salaf manner, titled Hanbali on the edition's title page. And he wrote the book 'al-Mughni'. Born at Jamma'il in 541 AH, he died at Damascus in 620 AH by the Lum'a editor's introduction (2nd ed.); it is said he died on the day of the Fitr feast and was buried at the foot of Qasyun. Both dates rest on one source and need a further source.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 24 works under the author identifier 0620IbnQudamaMaqdisi, among them: Bulghat Talib Hathith; Burhan; Cumdat Fiqh; Cumdat Hazim. {cite:openiti-corpus 0620IbnQudamaMaqdisi}

@@ -86,3 +86,6 @@ Her honours include the Council of Europe's North–South Prize (2004), the Inan
 ## References
 - English Wikipedia article "Nawal El Saadawi" (revision 1380913352); Arabic Wikipedia article «نوال السعداوي» (revision 76661130); Urdu Wikipedia article «نوال السعداوی» (revision 9653893 — used only for its biographical frame; its unsourced polemical "beliefs" section is not relied on anywhere); Wikidata item Q238514; Encyclopaedia Britannica entry "Nawal El Saadawi".
 - Conflicts recorded, not resolved: Women and Sex is dated 1969 by Britannica and the English article's bibliography but 1972 in the English article's narrative; her Ain Shams research is dated 1973–1976 by the English article and 1972–1974 by Britannica; Memoirs of a Woman Doctor is dated 1958 by the English article's bibliography and 1960 by Britannica; her place of death is Cairo in the English article and Britannica, "South Giza" in the Arabic infobox.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 31 works under the author identifier 1442NawalSacdawi, among them: Adab Umm Qillat Adab; Atfal; Ghaib; Hakim Bi Amr Allah. {cite:openiti-corpus 1442NawalSacdawi}

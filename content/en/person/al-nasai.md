@@ -26,3 +26,6 @@ According to the article, his collection of traditions is divided into 51 chapte
 
 ## Other works
 The article, following Sezgin and Brockelmann, mentions nine further works by him, some extant and some known only from citations {cite:encyclopaedia-of-islam-2 vol. 7 p. 1024}. They include a work on the virtues of Ali, the Khasa'is, printed at Cairo in 1308/1890-1, now recorded as [[work/khasais-amir-al-muminin|Khasais of Amir al-Mu'minin]] {cite:encyclopaedia-of-islam-2 vol. 7 p. 1024}. They also include a work on weak and unreliable narrators, the Du'afa' wa-l-matrukin, printed in 1323/1905-6, recorded as [[work/kitab-al-duafa-wa-al-matrukin|Kitab al-Du'afa' wa-l-Matrukin]] {cite:encyclopaedia-of-islam-2 vol. 7 p. 1024}. Two further titles named are Tasmiyat fukaha' al-amsar and a Tafsir {cite:encyclopaedia-of-islam-2 vol. 7 p. 1024}.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 23 works under the author identifier 0303Nasai, among them: Aḥsan asānīd al-latī tarwī ʿan rasūl Allāh; Asʾilaŧ li-al-Nasāʾī fī al-rijāl; Camal Yawm Wa Layla; Cishrat Nisa. {cite:openiti-corpus 0303Nasai}

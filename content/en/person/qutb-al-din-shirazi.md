@@ -16,3 +16,6 @@ His father Ziya al-Din had received the khirqa, the Sufi investiture robe, from 
 ## Birth, study under al-Tusi, and death
 
 The English article, following the Encyclopaedia Iranica, gives his birth in October 1236 at Shiraz; the Arabic and Urdu articles give Kazerun, his family's town of origin, and the variant is preserved in his record rather than silently resolved. {cite:wikipedia-qutb-al-din-shirazi-en} {cite:wikipedia-qutb-al-din-shirazi-ar} {cite:wikipedia-qutb-al-din-shirazi-ur} At Maragha he studied Avicenna's al-Isharat and astronomy under Nasir al-Din al-Tusi, with whom he worked on completing the new astronomical tables. {cite:wikipedia-qutb-al-din-shirazi-en} {cite:wikipedia-qutb-al-din-shirazi-ar} He died at Tabriz in 1311 — 710 AH in the Arabic article — and was buried in the city's Charandab cemetery. {cite:wikipedia-qutb-al-din-shirazi-en} {cite:wikipedia-qutb-al-din-shirazi-ar} {cite:wikidata-qutb-al-din-shirazi}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q10899 with the name form «Maḥmūd ibn Mas´ūd Quṭb al-Dīn al- Šīrāzī (1236-1311)», the form including the years of birth and death as the file gives them. {cite:biblissima Q10899}

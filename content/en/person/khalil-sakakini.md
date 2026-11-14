@@ -23,3 +23,6 @@ During the 1948 war the Sakakinis were among the last families to leave the Kata
 
 ## A note on his religion
 The Arabic article names him personally in its lead: a Palestinian educator from Jerusalem, "a Christian and an Arab nationalist". The English article says he was born into a Palestinian Christian Orthodox family — family framing — and records his own acts within that church: he campaigned to reform the Greek Orthodox Church of Jerusalem, published the pamphlet "The Orthodox Renaissance in Palestine" in 1913, founded the Orthodox Brotherhood society, and was excommunicated by the church — a penalty directed at a member personally. Because two independent texts thus attest him personally, his faith is recorded in his data record as christian, following the settlement reached for Yacoub Artin; the church the two texts place him in is the Orthodox church of Jerusalem, and no branch value is separately recorded. {cite:wikipedia-khalil-sakakini-en} {cite:wikipedia-khalil-sakakini-ar} {cite:wikidata-khalil-sakakini}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 2 works under the author identifier 1372KhalilSakakini, among them: Li Dhikraka; Mutalacat Fi Lugha Wa Adab. {cite:openiti-corpus 1372KhalilSakakini}

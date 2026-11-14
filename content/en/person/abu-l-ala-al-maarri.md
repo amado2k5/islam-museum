@@ -22,3 +22,6 @@ The author of "Shadharat al-Dhahab" calls him a man of famous heterodoxy and phi
 
 ## His death
 He died in 449 AH at the age of eighty-six. {cite:shadharat-dhahab p. 288-289}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 6 works under the author identifier 0449AbuCalaMacarri, among them: Diwan; Fusul Wa Ghayat; Risalat Ghufran. {cite:openiti-corpus 0449AbuCalaMacarri}

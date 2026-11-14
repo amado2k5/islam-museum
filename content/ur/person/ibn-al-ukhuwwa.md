@@ -9,3 +9,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## نوٹ
 ان کی تاریخِ وفات کو اعتماد میں لانے سے پہلے دوسرے ماخذ کی ضرورت ہے۔
+
+## OpenITI مجموعے میں تصانیف
+OpenITI مجموعہ اس مصنف کے لیے شناخت 0729IbnUkhuwwa کے تحت 2 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: أحاديث وحكايات وأشعار - مخطوط، معالم القربة في طلب الحسبة۔ {cite:openiti-corpus 0729IbnUkhuwwa}

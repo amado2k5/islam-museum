@@ -21,3 +21,6 @@ His renown rests on his geographical work, which has two books. The Mu'jam ma-st
 
 ## In Wüstenfeld's edition of the Mu'jam ma sta'jam
 The Arabic title page of Wüstenfeld's edition names him the jurist, hadith master and man of letters Abu Ubayd Abd Allah ibn Abd al-Aziz ibn Abi Mus'ab al-Bakri, the vizier. {cite:mujam-ma-istaajam-bakri p.13} Wüstenfeld's preface, drawing on the Cambridge manuscript, names among his teachers Abu Marwan ibn Hayyan, Abu Bakr al-Mushafi, Abu al-Abbas al-Udhri, whom he heard at Almería, and the most famous, Abu Umar ibn Abd al-Barr, who gave him a licence to teach. {cite:mujam-ma-istaajam-bakri p.7} He says al-Bakri copied his own and others' books in a beautiful vocalized hand and cared for them so much that he wrapped them in fine linen cloths, and that he died at a great age in 487 AH (1094) and was buried in the cemetery of Umm Salima. {cite:mujam-ma-istaajam-bakri p.7} {cite:mujam-ma-istaajam-bakri p.8} See [[work/mujam-ma-istaajam|the Mu'jam ma sta'jam]].
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q106012 with the name form «ʿAbd Allâh ibn ʿAbd al-ʿAzīz Abū ʿUbayd al- Bakrī (1040-1094)», the form including the years of birth and death as the file gives them. {cite:biblissima Q106012}

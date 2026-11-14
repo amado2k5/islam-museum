@@ -18,3 +18,6 @@ His most famous book is [[work/al-ansab-samani|al-Ansab]], in 350 folios — the
 
 ## Dates
 His birth and death dates are transmitted in Hijri years from al-Dhahabi's Tarikh al-Islam; the Julian equivalents are derived following the Encyclopaedia of Islam's conversion. The Muntazam lists his death among those of 563. {cite:tarikh-islam-dhahabi pp. 118, 123}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 5 works under the author identifier 0562Samcani, among them: Adab Imla; al-Ansāb; Faḍāʾil al-Šām; Muntakhab. {cite:openiti-corpus 0562Samcani}

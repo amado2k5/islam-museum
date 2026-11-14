@@ -27,3 +27,6 @@ He closes with counsel to parents: never force your children into fields they do
 
 ## In Zaghloul El-Naggar's series 'al-Hadara al-Nabawiyya'
 Explaining the hadith of the lump of flesh that sets the whole body right, [[person/zaghloul-el-naggar|Zaghloul El-Naggar]] says in [[work/el-hadara-el-nabaouia|al-Hadara al-Nabawiyya]] that Muslims grasped the hadith's worth only when Ibn al-Nafis discovered the lesser (pulmonary) circulation, which in his view is "wrongly attributed" to William Harvey and other Western scientists. {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep09 00:04:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep09 00:05:00}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16852 with the name form «ʿAlī ibn Abī al-Ḥazm al-Qaršī ʿAlāʾ al-Dīn Ibn al-Nafīs (1208?-1288)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16852}

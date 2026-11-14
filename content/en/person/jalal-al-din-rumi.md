@@ -60,3 +60,6 @@ On the afterlife, the article says he never describes [[concept/fana-sufi|annihi
 
 ## Style
 The ghazals were often sung, or meant to be; tradition shows him improvising odes while dancing round a pillar of his school, and another story has him find Salah al-Din in the street, listening enraptured to the beat of a goldsmith's hammer. His strong sense of rhythm does not always keep to the classical metres, of which he complains, and irregularities appear in both major works. The Divan has a singing and a didactic style; the Mathnavi, one continuous discourse, has narrative, didactic and ecstatic styles. The narrative and didactic parts are remarkably simple and colloquial, with some verses containing colloquial Greek. The article says he found almost no imitators but is highly valued by modern Persians. {cite:encyclopaedia-of-islam-2 vol. 2 p. 422}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q5179 with the name form «Ǧalāl al-Dīn Rūmī (1207-1273)», the form including the years of birth and death as the file gives them. {cite:biblissima Q5179}

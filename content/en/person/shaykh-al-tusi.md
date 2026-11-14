@@ -12,3 +12,6 @@ Born at Tus in Ramadan 385/995, he moved to Buyid-dominated Baghdad in 408/1017 
 
 ## Karkh and Najaf
 In the sectarian riots after Tughril Beg's takeover, the Shi'i quarters were attacked; in Safar 449 his house was stormed and his books and teaching chair burned in the Karkh market. He took refuge in Najaf, taught a limited circle there and died at the blessed Mashhad in Muharram 460/1067 {cite:muntazam-ibn-al-jawzi j.8 p.521} {cite:tarikh-islam-dhahabi p. 490}.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 14 works under the author identifier 0460ShaykhTusi, among them: al-Fihrist; Iḫtiyār Maʿrifaŧ al-riǧāl. {cite:openiti-corpus 0460ShaykhTusi}

@@ -6,25 +6,27 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن الحسن الحر العاملي، فقيه الإمامية ومحدثها صاحب «وسائل الشيعة»، توفي سنة ١٦٩٣م بمشهد؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn al-Hasan al-Hurr al-Amili, the Imami jurist and hadith scholar author of Wasa'il al-Shi'a, d. 1693 at Mashhad; the biographical entry is not yet checked on the page."
+  ar: "محمد بن الحسن بن علي العاملي، الملقب بالحر، فقيه إمامي مؤرخ، ولد في مشغر من جبل عامل وانتهى إلى طوس بخراسان فتوفي فيها، ١٠٣٣ إلى ١١٠٤هـ؛ صاحب وسائل الشيعة وأمل الآمل وديوان شعر."
+  en: "Muhammad ibn al-Hasan ibn Ali al-Amili, called al-Hurr, an Imami (Twelver Shi'i) jurist and historian born at Mashghar in Jabal Amil who ended at Tus in Khurasan and died there, 1033 to 1104 AH (1623 to 1692); author of Wasa'il al-Shi'a, Amal al-amil and a diwan of verse."
 wings: [people]
 regions: [levant-iraq, persia-central-asia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q3777119
   viaf: "18307333"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0022
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hurr al-Amili' / Brunner; 1033–1104 AH) Confirmed on 13 November 2026 against Wikidata Q3777119 (P569, a statement with a reference), item revision 2556559268.", sources: [source/wikidata] }
-died: { edtf: "1693", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hurr al-Amili' / Brunner; 1033–1104 AH) Confirmed on 13 November 2026 against Wikidata Q3777119 (P570, a statement with a reference), item revision 2556559268.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1623", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 23: 1033 AH = 1623 CE (the card had 1624 from the date-enrichment pass).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1692", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 23: 1104 AH = 1692 CE, died at Tus (the card had 1693 and Mashhad).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/jabal-amel, note: "Al-Zirikli, al-A'lam vol. 6 p. 23: born in the village of Mashghar in Jabal Amil.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/tus, note: "Al-Zirikli, al-A'lam vol. 6 p. 23: ended at Tus in Khurasan, stayed and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

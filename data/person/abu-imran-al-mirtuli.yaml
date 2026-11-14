@@ -3,28 +3,30 @@ class: person
 label:
   ar: "أبو عمران الميرتلي"
   en: "Abu Imran al-Mirtuli"
-roles: [sufi, scholar]
+roles: [sufi, scholar, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي عمران الميرتلي، متصوف وشاعر ومفسر أندلسي القرن الثاني عشر، توفي سنة ١٢٠٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Imran al-Mirtuli, the twelfth-century Andalusi mystic, poet and exegete, d. 1207; the biographical entry is not yet checked on the page."
+  ar: "موسى بن حسين بن موسى بن عمران القيسي، أبو عمران، الزاهد المعروف بالميرتلي، شاعر أندلسي له علم بالتفسير والفقه والحديث، أصله من ميرتلة وأقام بإشبيلية وتوفي بفاس، ٥٢٢ إلى ٦٠٤هـ؛ له ديوان شعر في الزهد."
+  en: "Musa ibn Husayn al-Qaysi, Abu Imran, the ascetic known as al-Mirtuli, an Andalusi poet with knowledge of exegesis, jurisprudence and hadith, from Mertola, who lived in Seville and died at Fes, 522 to 604 AH (1128 to 1207); author of a diwan mostly on asceticism."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q57991962
   viaf: "152687877"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0062
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1128", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Abbar, al-Takmila; al-Dhahabi, Siyar" }
-died: { edtf: "1207", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Abbar, al-Takmila; al-Dhahabi, Siyar" }
+  completeness: 3
+born: { edtf: "1128", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 315: 522 AH = 1128 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1207", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 315: 604 AH = 1207 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (أندلسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/seville, note: "Al-Zirikli, al-A'lam vol. 7 p. 315: lived in Seville.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/fez, note: "Al-Zirikli, al-A'lam vol. 7 p. 315: died at Fes and was buried outside Bab al-Futuh.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

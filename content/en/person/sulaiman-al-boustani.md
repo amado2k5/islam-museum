@@ -20,3 +20,6 @@ His health failed in his last years and he travelled to America for treatment, d
 
 ## A note on his religion
 The English article states of him personally: "He was a Maronite Catholic." The Arabic article's text names no religion for him: it records that he learned Arabic and Syriac from his father's uncle, a bishop — family background and schooling — and its categories file him among the Lebanese Maronites, which is a filing, not an attestation; Wikidata carries the single structured value "Christianity". That makes one personal text attestation supported only by filings, the same configuration as May Ziade's, which under the museum's rule — a faith is recorded only when two independent sources name it for the person — stands as unknown. His faith is therefore recorded as unknown in his data record, with both readings preserved and the question flagged for a founder ruling. {cite:wikipedia-sulaiman-al-boustani-en} {cite:wikipedia-sulaiman-al-boustani-ar} {cite:wikidata-sulaiman-al-boustani}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 2 works under the author identifier 1343SulaymanBustani, among them: Dawla Cuthmaniyya; Iliadha. {cite:openiti-corpus 1343SulaymanBustani}

@@ -21,3 +21,6 @@ He is credited with [[work/adab-al-katib|Adab al-Katib]].
 
 ## His place in al-Tabari's Jami' al-Bayan
 Ahmad Khalid Babakr says [[person/al-tabari|al-Tabari]] drew on Ibn Qutayba's [[work/tafsir-gharib-al-quran|Tafsir Gharib al-Qur'an]], and cites its editor al-Sayyid Ahmad Saqr that al-Tabari profited from it greatly, in places copying its words literally without clear acknowledgement, as he did with al-Farra and Abu Ubayda, and that a careful reader senses Ibn Qutayba's spirit where al-Tabari reworded him. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.51} The thesis suggests in al-Tabari's defence that he was Ibn Qutayba's contemporary and that both drew on similar sources. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.52}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16815 with the name form «ʿAbd Allâh ibn Muslim Ibn Qutaybaẗ (0828-0889)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16815}

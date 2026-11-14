@@ -11,3 +11,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 انسائیکلوپیڈیا ان کی وفات 573ھ (تقریباً 1178ء) بتاتا ہے، اور یہ روایت صرف اسی ماخذ پر مبنی ہے۔ {cite:mawsuat-a3lam-ulama-adaba p.294}
 
 مزید ماخذ درکار ہے: ان کی تصانیف، اساتذہ اور پیدائش کی تاریخ۔
+
+## OpenITI مجموعے میں تصانیف
+OpenITI مجموعہ اس مصنف کے لیے شناخت 0573NashwanHimyari کے تحت 3 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: الحور العين، شمس العلوم ودواء كلام العرب من الكلوم۔ {cite:openiti-corpus 0573NashwanHimyari}

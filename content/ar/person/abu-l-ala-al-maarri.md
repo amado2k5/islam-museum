@@ -22,3 +22,6 @@ translators: []
 
 ## وفاته
 توفي سنة 449هـ وله ست وثمانون سنة. {cite:shadharat-dhahab p. 288-289}
+
+## أعمال في مدونة OpenITI
+تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0449AbuCalaMacarri 6 من الأعمال، منها: ديوان أبي العلاء المعري، الفصول والغايات في تمجيد الله والمواعظ، رسالة الغفران. {cite:openiti-corpus 0449AbuCalaMacarri}

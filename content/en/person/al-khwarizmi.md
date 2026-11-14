@@ -65,3 +65,6 @@ The record [[invention/khwarizmi-sindhind-tables|Al-Khwarizmi's Sindhind tables]
 
 ## Faith and frame
 The person record bases an individual Muslim identification on the algebra preface attributed to the author's own words, rather than his name or occupation {cite:khwarizmi-jabr-cairo-1939 scan pp. 29–30}. The museum presents him within its Sunni default frame without assigning a personal legal school that the cited basis does not establish {cite:khwarizmi-jabr-cairo-1939 scan pp. 29–30}.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q295 with the name form «Abū ʿAbd Allāh Muḥammad ibn Mūsā al- H̱uwārizmī (0780?-0850?)», the form including the years of birth and death as the file gives them. {cite:biblissima Q295}
