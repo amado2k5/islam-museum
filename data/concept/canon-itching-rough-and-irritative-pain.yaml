@@ -1,0 +1,18 @@
+id: concept/canon-itching-rough-and-irritative-pain
+class: concept
+kind: scientific
+label: { ar: "الوجع الحكاك والخشن واللاذع عند ابن سينا", en: "Itching, rough and irritative pain in the Canon", ur: "کھجانے والا، کھردرا اور جلانے والا درد، قانون کے مطابق" }
+summary:
+  ar: "يرد ابن سينا الوجع الحكاك إلى خلط حريف أو مالح، والخشن إلى خلط خشن، واللاذع إلى خلط ذي كيفية حادة {cite:canon-ibn-sina-print-v1 pp.149-150}."
+  en: "Ibn Sina traces itching pain to a pungent or salty humour, rough pain to a rough humour, and irritative pain to a humour with a sharp quality {cite:canon-ibn-sina-print-v1 pp.149-150}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2, part 2 chapters 19 to 29 on pain, pleasure, indigestion and weakness (scan pages 147 to 153), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-jumla2-ch19-29
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -6,24 +6,24 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن علي المنيني، أديب ومؤرخ ومحدث العهد العثماني، توفي سنة ١٧٥٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Ali al-Manini, the Ottoman-era litterateur, historian and muhaddith, d. 1758; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن علي بن عمر بن صالح، شهاب الدين أبو النجاح المنيني، أديب من علماء دمشق، مولده في منين ومنشأه ووفاته في دمشق، له الفتح الوهبي في شرح تاريخ العتبي والإعلام بفضائل الشام؛ ١٠٨٩ إلى ١١٧٢هـ الموافقة ١٦٧٨ إلى ١٧٥٩م."
+  en: "Ahmad ibn Ali ibn Umar ibn Salih, Shihab al-Din Abu al-Najah al-Manini, a man of letters among the scholars of Damascus, born at Manin, raised and deceased in Damascus, author of al-Fath al-Wahbi, a commentary on the history of al-Utbi, and al-I'lam bi Fada'il al-Sham; 1089 to 1172 AH, equal to 1678 to 1759 CE."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q105277177
   viaf: "90057568"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0057
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1678", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q105277177 (P569, a statement with a reference), item revision 2528265137.", sources: [source/wikidata] }
 died: { edtf: "1759", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q105277177 (P570, a statement with a reference), item revision 2528265137.", sources: [source/wikidata] }
 relations:
