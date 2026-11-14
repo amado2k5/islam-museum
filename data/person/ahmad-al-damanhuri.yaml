@@ -7,26 +7,28 @@ roles: [scholar]
 gender: male
 themes: [medicine]
 summary:
-  ar: "بطاقة أولية لأحمد الدمنهوري، شيخ الأزهر وطبيب وفقيه القرن الثامن عشر، توفي سنة ١٧٧٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad al-Damanhuri, the eighteenth-century Grand Imam of al-Azhar, physician and jurist, d. 1778; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن عبد المنعم بن يوسف بن صيام الدمنهوري، شيخ الجامع الأزهر المعروف بالمذاهبي لعلمه بالمذاهب الأربعة، ولد في دمنهور وتوفي بالقاهرة، 1101 إلى 1192 هـ."
+  en: "Ahmad ibn Abd al-Mun'im ibn Yusuf ibn Siyam al-Damanhuri, shaykh of al-Azhar, known as al-Madhahibi for his knowledge of the four schools, born at Damanhur and died in Cairo, 1101 to 1192 AH."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
 tags: [tibb-browser, tibb-tibb]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12178566
   viaf: "427281"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0052
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1689", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti; al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12178566 (P569, a statement with a reference), item revision 2567602539.", sources: [source/wikidata] }
-died: { edtf: "1778", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti; al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12178566 (P570, a statement with a reference), item revision 2567602539.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1689", hijri: "1101", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 156: 1101 AH = 1690 CE; 1101 AH runs from October 1689 to September 1690, so the card's 1689 is kept. Date-enrichment pass; source: al-Jabarti; al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12178566 (P569, a statement with a reference), item revision 2567602539.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1778", hijri: "1192", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 156: 1192 AH = 1778 CE. Date-enrichment pass; source: al-Jabarti; al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12178566 (P570, a statement with a reference), item revision 2567602539.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/damanhur, note: "Al-Zirikli, al-A'lam vol. 1 p. 156: born at Damanhur.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/cairo, note: "Al-Zirikli, al-A'lam vol. 1 p. 156: died in Cairo.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

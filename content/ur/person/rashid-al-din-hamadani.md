@@ -16,3 +16,6 @@ translators: []
 ## زوال و قتل
 
 اولجایتو کی وفات (1316ء) کے بعد ابو سعید کے دربار میں ان کے حریفوں نے ان پر مرحوم ایل خان کو زہر دینے کا الزام لگایا، اور 13 جولائی 1318ء کو ستر برس کی عمر میں انھیں پھانسی دے دی گئی؛ عربی مضمون ان کے قتل کی تاریخ جمادی الاول 718ھ بتاتا ہے۔ {cite:wikipedia-rashid-al-din-hamadani-en} {cite:wikipedia-rashid-al-din-hamadani-ar} {cite:wikidata-rashid-al-din-hamadani}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q4604 کے تحت نام کی صورت «Faḍl Allāh ibn Abī al-H̲ayr al-Hamad̲ānī Abū al-Faḍl Rašīd al-Dīn al-Ṭabīb (1248?-1318)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q4604}

@@ -19,3 +19,6 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 
 ## OpenITI مجموعے میں تصانیف
 OpenITI مجموعہ اس مصنف کے لیے شناخت 0571IbnCasakir کے تحت 30 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: أخبار لحفظ القران، مجلس في نفي التشبيه، الأربعون الأبدال العوالي، الأربعون البلدانية۔ {cite:openiti-corpus 0571IbnCasakir}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q16855 کے تحت نام کی صورت «ʿAli ibn al-Hasan Ibn ʿAsākir (1105-1176)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q16855}

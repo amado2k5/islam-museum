@@ -43,3 +43,6 @@ The studies discuss reception by al-Karaji and Fibonacci; TDV describes Arabic w
 [[work/abu-kamil-taraif|Rare Things in Calculation]] presents a distinct question: [[invention/abu-kamil-integer-enumeration|systematic multiple-integer solutions]] of two equations in three to five unknowns, rather than one successful answer. Aydin retains Indian precedents and disputed knowledge of their methods, and describes verbal unknown names. Neither modern museum notation nor the first bird puzzle worldwide is attributed to the author {cite:tdv-abu-kamil work2}.
 
 The separately listed Book of Birds has unknown contents in Aydin and is not automatically merged with the Taraif. Witness and translation reports are attributed, not newly collated. The discrepancy between one manuscript and later Leiden/Paris witnesses remains visible, as does a possible Spanish intermediary for the Hebrew version {cite:tdv-abu-kamil work2-and-conclusion}.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q105975 with the name form «Šuğāʿ ibn Aslam al-Ḥāsib al-Miṣrī Abū Kāmil (0850?-0930?)», the form including the years of birth and death as the file gives them. {cite:biblissima Q105975}

@@ -29,3 +29,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## زغلول النجار کے سلسلے «الحضارة النبوية» میں
 اس حدیث کی شرح کرتے ہوئے کہ گوشت کا ایک ٹکڑا ٹھیک ہو تو سارا جسم ٹھیک ہوتا ہے، [[person/zaghloul-el-naggar|زغلول النجار]] [[work/el-hadara-el-nabaouia|الحضارة النبوية]] میں کہتے ہیں کہ مسلمانوں نے اس حدیث کی قدر تب جانی جب ابن النفیس نے چھوٹی (پھیپھڑوں کی) دورانِ خون دریافت کی، جو ان کی رائے میں «غلطی سے» ولیم ہاروے اور دوسرے مغربی سائنس دانوں سے منسوب کی جاتی ہے۔ {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep09 00:04:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep09 00:05:00}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q16852 کے تحت نام کی صورت «ʿAlī ibn Abī al-Ḥazm al-Qaršī ʿAlāʾ al-Dīn Ibn al-Nafīs (1208?-1288)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q16852}

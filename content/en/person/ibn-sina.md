@@ -110,3 +110,6 @@ The inspected 1999 Arabic page images were compared with Tibi's translation in t
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 15 works under the author identifier 0428IbnSina, among them: Isharat Wa Tanbihat; Ma Hiya Cishq; Macrifat Nafs Natiq; al-Muḫtaṣar al-awsaṭ fī al-manṭiq. {cite:openiti-corpus 0428IbnSina}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q2018 with the name form «Avicenne (0980-1037)», the form including the years of birth and death as the file gives them. {cite:biblissima Q2018}

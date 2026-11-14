@@ -7,25 +7,28 @@ roles: [scholar]
 gender: male
 themes: [spirituality-and-sufism]
 summary:
-  ar: "بطاقة أولية لعبد الله بن أسعد اليافعي، فقيه ومؤرخ ومتصوف اليمن صاحب «مرآة الجنان» في القرن الرابع عشر، توفي سنة ١٣٦٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdullah ibn As'ad al-Yafi'i, the fourteenth-century Yemeni jurist, historian and Sufi author of Mir'at al-Jinan, d. 1367; the biographical entry is not yet checked on the page."
+  ar: "عبد الله بن أسعد بن علي اليافعي، عفيف الدين، مؤرخ باحث متصوف من شافعية اليمن، ولد ونشأ في عدن وأقام بمكة وتوفي بها، صاحب «مرآة الجنان وعبرة اليقظان»، 698 إلى 768 هـ."
+  en: "Abdallah ibn As'ad ibn Ali al-Yafi'i, Afif al-Din, historian, researcher and Sufi, one of the Shafi'is of Yemen, born and raised in Aden, who settled and died in Mecca, author of 'Mir'at al-Janan wa-'Ibrat al-Yaqzan', 698 to 768 AH."
 wings: [people]
 regions: [arabia]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12223451
   viaf: "102404336"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0048
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1298", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina) Confirmed on 13 November 2026 against Wikidata Q12223451 (P569, a statement with a reference), item revision 2558603691.", sources: [source/wikidata] }
-died: { edtf: "1367", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina)" }
+  completeness: 3
+born: { edtf: "1298", hijri: "0698", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: 698 AH = 1298 CE. Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina) Confirmed on 13 November 2026 against Wikidata Q12223451 (P569, a statement with a reference), item revision 2558603691.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1367", hijri: "0768", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: 768 AH = 1367 CE. Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina)" }
 relations:
   - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (yemeni); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/aden, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: born and raised in Aden.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/mecca, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: settled in Mecca in 718 AH and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: lived_in, target: place/mecca, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: settled in Mecca in 718 AH.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

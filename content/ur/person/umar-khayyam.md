@@ -97,3 +97,6 @@ provenance: { generated_by: "Devin (SWE-2 Medium); earlier translation Claude Ha
 [[invention/khayyam-parallel-quadrilateral|متوازی خطوط کا چہارضلعی تجزیہ]] تکعیبی مساوات اور تقویم سے الگ ہے۔ وہاب زادہ [[work/khayyam-euclid-commentary|شرح اقلیدس]]470/1077کی بتاتا،مساوی عمودی ساقیں،تین صورتیں و آٹھ قضیے سمجھاتا ہے۔ تقارب و تباعد کے مقدمے تسلیم رہتے ہیں،اس لیے منصوبہ باقی مسلموں سے تنہا پانچویں مسلمے کا اخذ نہیں کہلاتا {cite:vahabzadeh-khayyam-mathematician author-p1-p3}۔
 
 اسٹینفورڈ بنیاد بدل کر اقلیدس بہتر کرنا کہتا،مکمل جدید غیر اقلیدسی نظام بنانا نہیں۔ جدید تجزیہ و مصنف نسخہ پڑھا،اصل شرح و اشاعتیں نہیں؛جدید تصویر کے حروف مثال سے الگ ہیں۔ پہلے شناخت و شاعری کے مشروط موقف محفوظ ہیں:چہارضلعی ہندسہ کسی کے عقیدے کا نیا فیصلہ نہیں دیتا {cite:sep-umar-khayyam sec2.7-and4.2} {cite:vahabzadeh-khayyam-mathematician author-p3}۔
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q5777 کے تحت نام کی صورت «Ġīāṯ al-Dīn abō al-Fatḥ ʿOmar bin Ibrāhīm H̱ayyām Nīšāpōrī (1048-1131)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q5777}

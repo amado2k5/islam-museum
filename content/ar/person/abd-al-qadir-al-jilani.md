@@ -29,3 +29,6 @@ translators: []
 
 ## أعمال في مدونة OpenITI
 تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0561CabdQadirJilani 2 من الأعمال، منها: الغنية لطالبي طريق الحق عز وجل، تفسير الجيلاني. {cite:openiti-corpus 0561CabdQadirJilani}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q12223 بصيغة الاسم «Muḥyī al-Dīn ʿAbd al-Qādir al-Ǧīlānī (1078?-1166)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q12223}

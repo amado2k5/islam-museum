@@ -88,3 +88,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## أعمال في مدونة OpenITI
 تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0808IbnKhaldun 2 من الأعمال، منها: رحلة، تاريخ. {cite:openiti-corpus 0808IbnKhaldun}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q16838 بصيغة الاسم «ʿAbd al-Raḥmân ibn Muḥammad Ibn H̱aldūn (1332-1406)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q16838}

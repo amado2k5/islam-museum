@@ -49,3 +49,6 @@ He died on Monday 23 Rabi' al-Awwal 600, spent Tuesday night in the mosque, and 
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 22 works under the author identifier 0600CabdGhaniMaqdisi, among them: Ahadith Jamacili; Akhbar Dajjal; Akhbar Hasan Basri; Akhbar Salat. {cite:openiti-corpus 0600CabdGhaniMaqdisi}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16802 with the name form «ʿAbd al-Ġanī ibn ʿAbd al-Wāḥid al- Ǧammāʿīlī (1146-1203)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16802}

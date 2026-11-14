@@ -60,3 +60,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## أعمال في مدونة OpenITI
 تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0339AbuNasrFarabi 10 من الأعمال، منها: الألفاظ المستعملة في المنطق، آراء أهل المدينة الفاضلة ومضاداتها، عيون المسائل، رسالة في العقل. {cite:openiti-corpus 0339AbuNasrFarabi}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q12167 بصيغة الاسم «Muḥammad ibn Muḥammad Abū Naṣr al- Fārābī (0870?-0950)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q12167}

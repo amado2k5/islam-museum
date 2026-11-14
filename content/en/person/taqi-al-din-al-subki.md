@@ -9,3 +9,6 @@ translators: ["Claude Opus 5.5 (claude-opus-5-5)"]
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 11 works under the author identifier 0756TaqiDinSubki, among them: al-Durraŧ al-muḍiyyaŧ fī al-radd ʿalá Ibn Taymiyyaŧ; Fatawa; Ibraz Hikam; Manc Tarmim Kanais. {cite:openiti-corpus 0756TaqiDinSubki}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q106025 with the name form «ʿAlī ibn ʿAbd al-Kāfī Taqī al-Dīn al-Subkī (1284-1355)», the form including the years of birth and death as the file gives them. {cite:biblissima Q106025}

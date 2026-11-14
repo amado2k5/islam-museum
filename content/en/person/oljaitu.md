@@ -25,3 +25,6 @@ He died at Soltaniyeh on 16 December 1316 — the English article's death sectio
 ## Sources
 - The defined source entities cited above, recorded in `data/source/`.
 - Revisions of this article must be dated, and must name the source that changed each fact.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q231675 with the name form «Öldjeïtu (1282-1316)», the form including the years of birth and death as the file gives them. {cite:biblissima Q231675}

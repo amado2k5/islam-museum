@@ -6,24 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن محمد ابن عرفة الورغمي، إمام تونس المالكي في القرن الرابع عشر صاحب «المختصر»، توفي سنة ١٤٠١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Muhammad Ibn Arafa al-Warghami, the fourteenth-century Maliki imam of Tunis author of the Mukhtasar, d. 1401; the biographical entry is not yet checked on the page."
+  ar: "محمد بن محمد ابن عرفة الورغمي، أبو عبد الله، إمام تونس وعالمها وخطيبها في عصره، ولد وتوفي بتونس، صاحب «المختصر الكبير» في فقه المالكية، 716 إلى 803 هـ."
+  en: "Muhammad ibn Muhammad Ibn Arafa al-Warghami, Abu Abdallah, imam, scholar and preacher of Tunis in his time, born and died there, author of 'al-Mukhtasar al-Kabir' on Maliki jurisprudence, 716 to 803 AH."
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1316", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
-died: { edtf: "1401", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+born: { edtf: "1316", hijri: "0716", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: 716 AH. Date-enrichment pass; source: EI2" }
+died: { edtf: "1401", hijri: "0803", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: 803 AH (printed with 1400 CE; 803 AH runs from September 1400 to August 1401, so the card's 1401 is kept; the entry also reports a tomb inscription saying 800 AH). Date-enrichment pass; source: EI2" }
 relations:
-  - { type: lived_in, target: place/tunis, confidence: low, note: "Associated with تونس per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam, source/al-mutun-al-ilmiyya-azhar]
+  - { type: born_in, target: place/tunis, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: born in Tunis.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/tunis, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: died in Tunis.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: lived_in, target: place/tunis, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: imam, preacher and mufti of the Great Mosque of Tunis.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+sources: [source/al-aalam, source/al-mutun-al-ilmiyya-azhar, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q3147436
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0041
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -88,3 +88,6 @@ Yeomans writes that Ibn Khaldun, born in Tunis, served the courts of Fez, Granad
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 2 works under the author identifier 0808IbnKhaldun, among them: Riḥlaŧ; Tārīḫ. {cite:openiti-corpus 0808IbnKhaldun}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16838 with the name form «ʿAbd al-Raḥmân ibn Muḥammad Ibn H̱aldūn (1332-1406)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16838}
