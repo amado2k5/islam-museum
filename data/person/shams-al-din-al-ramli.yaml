@@ -1,30 +1,65 @@
 id: person/shams-al-din-al-ramli
 class: person
 label:
-  ar: "شمس الدين الرملي"
-  en: "Shams al-Din al-Ramli"
-roles: [scholar]
+  ar: شمس الدين الرملي
+  en: Shams al-Din al-Ramli
+roles:
+- scholar
+- jurist
 gender: male
 summary:
-  ar: "بطاقة أولية لشمس الدين محمد بن أحمد الرملي المعروف بالشافعي الصغير، فقيه مصر في القرن السادس عشر صاحب «نهاية المحتاج»، توفي سنة ١٥٩٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shams al-Din Muhammad ibn Ahmad al-Ramli known as al-Shafi'i al-Saghir, the sixteenth-century jurist of Egypt author of Nihayat al-Muhtaj, d. 1596; the biographical entry is not yet checked on the page."
-wings: [people]
-regions: [egypt-nile]
-periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+  ar: محمد بن أحمد بن حمزة، شمس الدين الرملي، فقيه الديار المصرية في عصره ومرجعها في الفتوى، يقال له الشافعي الصغير، ولد ومات بالقاهرة، صاحب «نهاية المحتاج إلى شرح المنهاج»، 919 إلى 1004 هـ.
+  en: Muhammad ibn Ahmad ibn Hamza, Shams al-Din al-Ramli, the jurist of the Egyptian lands in his time and their authority for fatwa, called al-Shafi'i al-Saghir; born and died in Cairo, author of 'Nihayat al-Muhtaj ila Sharh al-Minhaj', 919 to 1004 AH.
+wings:
+- people
+regions:
+- egypt-nile
+periods:
+- period/gunpowder-empires
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q60843105
-  viaf: "52106475"
+  viaf: '52106475'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0039
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1513", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q60843105 (P569, a statement with a reference), item revision 2565617946.", sources: [source/wikidata] }
-died: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q60843105 (P570, a statement with a reference), item revision 2565617946.", sources: [source/wikidata] }
+  completeness: 3
+born:
+  edtf: '1513'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Agrees with al-Zirikli, al-A''lam vol. 5 p. 290 (same year). Date-enrichment pass; source: al-A''lam Confirmed on 13 November 2026 against Wikidata Q60843105 (P569, a statement with a reference), item revision 2565617946.'
+  sources:
+  - source/wikidata
+  - source/alam-zirikli-dar-al-ilm-2002
+died:
+  edtf: '1596'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Agrees with al-Zirikli, al-A''lam vol. 5 p. 290 (same year). Date-enrichment pass; source: al-A''lam Confirmed on 13 November 2026 against Wikidata Q60843105 (P570, a statement with a reference), item revision 2565617946.'
+  sources:
+  - source/wikidata
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
-  - { type: lived_in, target: place/ramla, confidence: low, note: "Association inferred from the nisba in the name 'Shams al-Din al-Ramli'; specific residence not individually documented.", sources: [source/al-aalam] }
+- type: born_in
+  target: place/cairo
+  confidence: medium
+  note: 'From al-A''lam: born and died in Cairo; the nisba is to al-Ramla, a village of al-Minufiyya in Egypt.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+- type: died_in
+  target: place/cairo
+  confidence: medium
+  note: 'From al-A''lam: born and died in Cairo.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
