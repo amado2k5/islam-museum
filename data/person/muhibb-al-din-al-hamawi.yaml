@@ -3,33 +3,29 @@ class: person
 label:
   ar: "محب الدين الحموي"
   en: "Muhibb al-Din al-Hamawi"
-roles: [qadi, scholar]
+roles: [jurist, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحب الدين الحموي، فقيه وقاضٍ ومفسر القرن السادس عشر، توفي سنة ١٦٠٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhibb al-Din al-Hamawi, the sixteenth-century jurist, judge and exegete, d. 1608; the source entry is not yet checked on the page."
+  ar: "محمد بن أبي بكر بن داود الحموي، أبو الفضل، المعروف بمحب الدين ابن تقي الدين، من كبار علماء عصره وفقهاء الحنفية وجد أبي المحبي صاحب «خلاصة الأثر»، ولد في حماة وسكن دمشق وتوفي فيها، ومن كتبه «عمدة الحكام» و«تنزيل الآيات»."
+  en: "Muhammad ibn Abi Bakr al-Hamawi, Abu al-Fadl, known as Muhibb al-Din ibn Taqi al-Din, a leading scholar of his age and Hanafi jurist, grandfather of Abu al-Muhibbi, author of Khulasat al-Athar; born in Hama, he settled in Damascus and died there, and wrote among others Umdat al-Hukkam and Tanzil al-Ayat."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/shadharat-dhahab, source/wikidata]
+sources: [source/shadharat-dhahab, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q57631789
   viaf: "5892157162082078980003"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0071
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-occupations:
-  - job: job/qadi
-    kind: secondary
-    status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/shadharat-dhahab]
-died: { edtf: "1607", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
+  completeness: 3
+died: { edtf: "1607", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar). Entry in al-A'lam: 1016 AH = 1608 CE; 1016 AH runs from April 1607 to April 1608, so the card's year is kept." }
 relations:
-  - { type: lived_in, target: place/hama, confidence: low, note: "Association inferred from the nisba in the name 'Muhibb al-Din al-Hamawi'; specific residence not individually documented.", sources: [source/shadharat-dhahab] }
+  - { type: born_in, target: place/hama, note: "al-Zirikli, al-A'lam, vol. 6 p. 23: born in Hama (replaces the earlier association inferred from the nisba)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 6 p. 23: settled in Damascus and died there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+born: { edtf: "1542", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 6 p. 23: 949 AH = 1542 CE (stated in the entry)" }

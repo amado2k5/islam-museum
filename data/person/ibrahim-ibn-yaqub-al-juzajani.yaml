@@ -3,28 +3,28 @@ class: person
 label:
   ar: "أبو إسحاق الجوزجاني"
   en: "Ibrahim ibn Ya'qub al-Juzajani"
-roles: [scholar]
+roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي إسحاق إبراهيم بن يعقوب الجوزجاني، محدث القرن التاسع صاحب «الصحابة عند أهل السنة»، توفي سنة ٨٧٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ishaq Ibrahim ibn Ya'qub al-Juzajani, the ninth-century muhaddith author of the work on Companions, d. 872; the biographical entry is not yet checked on the page."
+  ar: "إبراهيم بن يعقوب بن إسحاق السعدي الجوزجاني، أبو إسحاق، محدث الشام وأحد الحفاظ المصنفين، ولد في جوزجان من كور بلخ ورحل إلى مكة والبصرة والرملة ثم سكن دمشق إلى وفاته سنة 259هـ، وله كتاب في الجرح والتعديل وكتاب في الضعفاء."
+  en: "Ibrahim ibn Ya'qub al-Juzajani, Abu Ishaq, the hadith scholar of Syria and one of the memorisers and authors, born in Juzjan in the districts of Balkh; he travelled to Mecca, Basra and Ramla and then lived in Damascus until his death in 259 AH, and wrote a book on criticism and accreditation and a book on weak narrators."
 wings: [people]
-regions: [persia-central-asia]
+regions: [persia-central-asia, levant-iraq]
 periods: [period/abbasid-fragmentation]
 died: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi Confirmed on 13 November 2026 against Wikidata Q5984794 (P570, a statement with a reference), item revision 2561842781.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/guzgan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q5984794
   viaf: "51527411"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0046
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
