@@ -15,8 +15,8 @@ born: { edtf: "1043", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1118", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q116817416 (P570, a statement with a reference), item revision 2555430180. al-A'lam gives 511 AH = 1118, agreeing with the card (the card's earlier summary said 1117; corrected).", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/isfahan, sources: [source/al-aalam] }
-  - { type: born_in, target: place/isfahan, note: "al-Zirikli, al-A'lam, vol. 8 p. 133: born and died in Isfahan", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
-  - { type: died_in, target: place/isfahan, note: "al-Zirikli, al-A'lam, vol. 8 p. 133", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: born_in, target: place/isfahan, note: "al-Zirikli, al-A'lam, vol. 8 p. 156: born and died in Isfahan", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/isfahan, note: "al-Zirikli, al-A'lam, vol. 8 p. 156", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
 sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q116817416

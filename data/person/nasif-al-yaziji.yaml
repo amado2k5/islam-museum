@@ -11,11 +11,11 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/colonial-era]
-born: { edtf: "1800", calendar: gregorian, precision: year, derived: true, note: "1214 AH = 1800 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 7 p. 346", sources: [source/alam-zirikli-dar-al-ilm-2002] }
-died: { edtf: "1871", calendar: gregorian, precision: year, derived: true, note: "1287 AH = 1871 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 7 p. 346", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "1800", calendar: gregorian, precision: year, derived: true, note: "1214 AH = 1800 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 7 pp. 350-351", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1871", calendar: gregorian, precision: year, derived: true, note: "1287 AH = 1871 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 7 pp. 350-351", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/kfarshima, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3055952); entry: born at Kafarshima in Lebanon (al-A'lam vol. 7 p. 346)." }
-  - { type: died_in, target: place/bayrut, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3820); entry: died in Beirut (al-A'lam vol. 7 p. 346)." }
+  - { type: born_in, target: place/kfarshima, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3055952); entry: born at Kafarshima in Lebanon (al-A'lam vol. 7 pp. 350-351)." }
+  - { type: died_in, target: place/bayrut, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3820); entry: died in Beirut (al-A'lam vol. 7 pp. 350-351)." }
 sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4166020

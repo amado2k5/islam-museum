@@ -15,7 +15,7 @@ died: { edtf: "1526", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/fes, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80985)" }
   - { type: died_in, target: place/morocco, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1028)" }
-  - { type: died_in, target: place/fes, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: died at Fez.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/fes, note: "Al-Zirikli, al-A'lam vol. 7 p. 56: died at Fez.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
 sources: [source/tarikh-ibn-khaldun-ibar, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q307599

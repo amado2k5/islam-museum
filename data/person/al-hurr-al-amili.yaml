@@ -24,9 +24,9 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "1623", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 23: 1033 AH = 1623 CE (the card had 1624 from the date-enrichment pass).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
-died: { edtf: "1692", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 23: 1104 AH = 1692 CE, died at Tus (the card had 1693 and Mashhad).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "1623", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 90: 1033 AH = 1623 CE (the card had 1624 from the date-enrichment pass).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1692", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 90: 1104 AH = 1692 CE, died at Tus (the card had 1693 and Mashhad).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
-  - { type: born_in, target: place/jabal-amel, note: "Al-Zirikli, al-A'lam vol. 6 p. 23: born in the village of Mashghar in Jabal Amil.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
-  - { type: died_in, target: place/tus, note: "Al-Zirikli, al-A'lam vol. 6 p. 23: ended at Tus in Khurasan, stayed and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: born_in, target: place/jabal-amel, note: "Al-Zirikli, al-A'lam vol. 6 p. 90: born in the village of Mashghar in Jabal Amil.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/tus, note: "Al-Zirikli, al-A'lam vol. 6 p. 90: ended at Tus in Khurasan, stayed and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

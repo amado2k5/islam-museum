@@ -23,8 +23,8 @@ born: { edtf: "1641", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1731", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Silk al-Durar (al-Muradi: 1050–1143 AH) Confirmed on 13 November 2026 against Wikidata Q4164547 (P570, a statement with a reference), item revision 2568798336.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/nablus, note: "Place association from the person's nisba/name (النابلسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
-  - { type: born_in, target: place/damascus, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: born and raised in Damascus.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
-  - { type: died_in, target: place/damascus, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: settled in Damascus and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: born_in, target: place/damascus, note: "Al-Zirikli, al-A'lam vol. 4 pp. 32-33: born and raised in Damascus.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/damascus, note: "Al-Zirikli, al-A'lam vol. 4 pp. 32-33: settled in Damascus and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
 provenance:
   layer: own-research
   source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"

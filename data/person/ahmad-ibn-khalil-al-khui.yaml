@@ -33,5 +33,5 @@ occupations:
 born: { edtf: "1187", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a Confirmed on 13 November 2026 against Wikidata Q57252424 (P569, a statement with a reference), item revision 2533144444.", sources: [source/wikidata] }
 died: { edtf: "1239", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a. Entry in al-A'lam: 637 AH = 1240 CE; 637 AH runs from August 1239 to July 1240, so the card's year is kept." }
 relations:
-  - { type: born_in, target: place/khoy, note: "al-Zirikli, al-A'lam, vol. 1 p. 111: born in Khuy in Azerbaijan (replaces the earlier broad Iran association)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
-  - { type: died_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 1 p. 111", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: born_in, target: place/khoy, note: "al-Zirikli, al-A'lam, vol. 1 p. 121: born in Khuy in Azerbaijan (replaces the earlier broad Iran association)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 1 p. 121", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
