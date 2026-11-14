@@ -1,28 +1,44 @@
 id: person/bilal-ibn-abi-al-darda
 class: person
 label:
-  ar: "بلال بن أبي الدرداء"
-  en: "Bilal ibn Abi al-Darda'"
-roles: [scholar]
+  ar: بلال بن أبي الدرداء
+  en: Bilal ibn Abi al-Darda'
+roles:
+  - scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لبلال بن أبي الدرداء؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Bilal ibn Abi al-Darda'; the entry is not yet checked on the page."
-wings: [people]
-regions: [levant-iraq]
-periods: [period/umayyad]
-died: { edtf: "711", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
+  ar: بلال بن أبي الدرداء الأنصاري، حدث عن أبيه وأم الدرداء، ووصفه البخاري بأمير الشام، وولي القضاء بعد النعمان بن بشير ثم عزله عبد الملك بن مروان بأبي إدريس الخولاني؛ وقال أبو عبيد إنه مات سنة ٩٣هـ.
+  en: Bilal ibn Abi al-Darda al-Ansari, a narrator from his father and Umm al-Darda whom al-Bukhari calls the emir of al-Sham; he held the judgeship after al-Nu'man ibn Bashir until Abd al-Malik replaced him with Abu Idris al-Khawlani, and Abu Ubayd says he died in 93 AH.
+wings:
+  - people
+regions:
+  - levant-iraq
+periods:
+  - period/umayyad
+died:
+  edtf: "711"
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)"
 relations:
-  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+  - type: lived_in
+    target: place/al-sham
+    note: Al-Bukhari calls him the emir of al-Sham and he held its judgeship (Siyar, p. 1242); the card's earlier Iraq edge was a coarse region guess and was replaced.
+    sources:
+      - source/siyar-alam-nubala-ideas-house
+    confidence: high
+sources:
+  - source/al-aalam
+  - source/siyar-alam-nubala-ideas-house
 external_ids:
   wikidata: Q28714917
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned page 1242 (Apple Vision OCR on the harvest drive)
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
