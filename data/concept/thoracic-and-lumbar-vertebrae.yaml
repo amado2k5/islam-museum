@@ -1,0 +1,18 @@
+id: concept/thoracic-and-lumbar-vertebrae
+class: concept
+kind: scientific
+label: { ar: "فقار الصدر والقطن عند ابن سينا", en: "Thoracic and lumbar vertebrae in the Canon", ur: "قانون میں سینے اور کمر کی کڑیاں" }
+summary:
+  ar: "يخصّ ابن سينا فقار الصدر باثنتي عشرة فقرة تتصل بها الأضلاع، وفقار القطن بخمس فقرات تحمل عظم العانة وتنبت منها أعصاب الرجل {cite:canon-ibn-sina-print-v1 pp.51-52}."
+  en: "Ibn Sina assigns to the chest twelve vertebrae to which the ribs attach, and to the lower back five lumbar vertebrae that carry the pubic bone and from which the nerves of the leg grow {cite:canon-ibn-sina-print-v1 pp.51-52}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/vertebral-column, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 40 to 55), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
