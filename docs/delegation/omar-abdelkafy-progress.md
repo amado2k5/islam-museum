@@ -3835,3 +3835,21 @@ Resume point: sharh-saheeh-al-bukhare episode 14 (branch from origin/main).
 | Percentages and sums of money in the two illustrations (marks falling, money given from a small and a large sum), the tie of the dignity of a gift to what is left, the full list of what faith is believed in, and the claim that cleaning the outward serves a clean heart | ep14 00:06:00, 00:08:00, 00:18:30-00:19:00, 00:47:30 | Illustrative figures, garbled or not clearly stated; reduced to what is clear | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 15 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep17 (14 Nov 2026)
+
+25 points written for episode 17 (ar, en, ur); 16 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (17-32, 9-36, 5-101, 5-3); none typed. Contested: He holds that whoever declares lawful what God forbade or forbids what God made lawful has set up a partner with God, that whoever rejects a matter known by necessity has left the faith, and he gives his own rulings on the face veil, wine-related transactions, renamed interest and the waiting period for animals fed on filth; these are his views and are contested among scholars. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, long opening supplication and closing prayer, farewell and announcement about who may speak in the mosque | ep17 00:00:00-00:03:00, 01:13:30-01:14:30 | Greetings, prayers and administrative announcements, not teaching; the opening prayer also names fighters in places, dropped under the content-safety block | Content rule | Open |
+| Rant on magazines, pictures of women and the youth of secondary schools | ep17 00:10:30-00:12:30 | Demeaning generalisation about women and young people, and ASR is garbled | Voice rule | Open |
+| Remarks on wives who object to a husband's second marriage, calling them lacking in reason and a ruling of polytheism on them | ep17 00:16:30-00:18:00 | Demeaning generalisation about women | Voice rule | Open |
+| Account of animals' ages and "50,000 years" arithmetic and garbled side comments | ep17 00:08:30-00:09:30 | Garbled and speculative numbers | Clarity, Loop check | Open |
+| Stories about pig-fat, wine and beer used on cows and about a trader and a doubtful stock of meat and a man named Rabia | ep17 00:23:30-00:25:30, 00:27:30-00:34:30 | Garbled stories, names and details cannot be recovered | Clarity, Loop check | Open |
+| Stretch on Ali, Usama and Umar ibn Abd al-Aziz's daughters | ep17 00:37:30-00:43:30 | Garbled and partial; only the later milk story is recoverable | Clarity | Open |
+| Loop stretches (repeated letters or words) | ep17 00:22:30-00:23:00, 00:28:00-00:28:30, 00:30:00-00:30:30, 00:34:30-00:35:00, 00:41:30-00:42:00, 00:43:00-00:43:30, 00:45:30-00:46:00, 00:46:30-00:47:00, 00:51:00-00:51:30, 00:55:30-00:56:30, 01:04:00-01:04:30, 01:02:00-01:02:30 | Repeated tokens and noise | Clarity, Loop check | Open |
+| Claims about the modern world: electricity, medical drugs and alcohol, hormones in chickens and kidney failure in Egypt, and foreign countries | ep17 00:46:00-00:47:30, 00:55:30-00:56:30, 01:04:00-01:05:30, 01:07:30-01:08:30 | Sweeping unsupported claims and garbled | Content rule, Clarity | Open |
+| Stretch about a Gulf or Arab league meeting and the leaders there | ep17 01:01:30-01:02:30 | Garbled and sweeping | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 18 (branch from origin/main).
