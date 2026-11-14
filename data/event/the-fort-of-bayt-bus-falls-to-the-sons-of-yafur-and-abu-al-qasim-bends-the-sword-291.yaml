@@ -1,0 +1,65 @@
+id: event/the-fort-of-bayt-bus-falls-to-the-sons-of-yafur-and-abu-al-qasim-bends-the-sword-291
+class: event
+kind: other
+label:
+  ar: سقوط قلعة بيت بوس بيد ابني يعفر وثني أبي القاسم للسيف، صفر 291هـ
+  en: The fort of Bayt Bus falls to the sons of Ya'fur and Abu al-Qasim bends the sword, Safar 291 AH
+  ur: بیت بوس کے قلعے کا یعفر کے بیٹوں کے ہاتھ آنا اور ابو القاسم کا تلوار موڑ دینا، صفر 291ھ
+summary:
+  ar: عند طلوع شمس الأحد يتقدم ابنا يعفر واليافعي بعسكرهم إلى القلعة، ويقع القتال بالحجارة والنبل، وينشر آل يعفر ثياباً فينزل إليهم ستة نفر من أهل القلعة، ثم يُفتح الباب بالمفتاح ويدخلون ويأسرون من فيها وينهبون، ويرفع أحدهم سيفاً على أبي القاسم فيقبض عليه ويحنيه كالحلقة، ثم يطلقونهم.
+  en: At sunrise on Sunday the two sons of Ya'fur and al-Yafi'i advance with their troops on the fort and fighting breaks out with stones and arrows; Al Ya'fur spread out clothes, six men of the fort came down to them, the gate was opened with a key, they entered, took the people prisoner and plundered, and one raised a sword on Abu al-Qasim, who seized it and bent it like a ring, and they let them go.
+  ur: اتوار کو طلوعِ آفتاب پر یعفر کے دونوں بیٹے اور یافعی اپنے لشکر کے ساتھ قلعے کی طرف بڑھتے ہیں، پتھروں اور تیروں سے لڑائی ہوتی ہے؛ آلِ یعفر کپڑے پھیلاتے ہیں تو قلعے کے چھ آدمی ان کے پاس اترتے ہیں، دروازہ چابی سے کھولا جاتا ہے، وہ داخل ہوتے ہیں، لوگوں کو قید کرتے اور لوٹتے ہیں، ایک شخص ابو القاسم پر تلوار اٹھاتا ہے تو وہ اسے پکڑ کر حلقے کی طرح موڑ دیتے ہیں، اور وہ انہیں چھوڑ دیتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0904-01
+    hijri: 0291-02
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: الأحد بعد 23 صفر؛ لم يطابق المتحف اليوم بالتقويم الجدولي، فالتاريخ بدقة الشهر؛ السنة مستنتجة من الترتيب؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: أبو القاسم ابن الهادي، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-said-ibn-yusuf
+  role: الراوي عن أبي القاسم
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص271 ⁦⁦(الصفحة المطبوعة)⁩⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-31
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 271
