@@ -81,3 +81,21 @@ Open items (garbled OCR, left out of the prose):
 
 GEMINI: canon-veins-and-arteries-opened-and-the-six-arm-veins | Which three veins does "ويجب في جميع الثلاثة أن يفتح فوق المأبض" mean on p.294 (cephalic, median cutaneous, basilic?) | card says three veins are opened above the elbow hollow | scan names six veins and then "the three" without naming them | another edition of the Canon (Bulaq or Rome) or the page image of vol. 1 p.294
 GEMINI: canon-the-asilam-and-the-artery-of-the-hand | What follows "ما بين السبابة" on p.295 (the artery of the back of the right hand, "between the index finger and ...")? | card says artery on the back of the palm | scan breaks after "السبابة" | another edition of the Canon or the page image of vol. 1 p.295
+
+## Batch scan pp. 299-311 (Fann 4, chapters 21 to 31, to the end of Book I)
+Resume: scan p.313 (Book II, on simple drugs, title page; its preface is on p.314). Book I of the Canon (the Generalities) is finished: chapter 31 on the order of treatments ends on scan p.311 with the printed line declaring Book I complete, and p.312 is blank. Fann 4 had 31 chapters in this edition's numbering, not 32 as noted earlier.
+
+Concepts: 25 (chapters 21 to 31, scan pp. 299-311; chapter 21 begins at the foot of p.299).
+
+Open items (garbled OCR, left out of the prose):
+- p.300: the clause "على الكاهل وبين الفخذين" (cupping on the withers "and between the thighs") for chest diseases is unclear and cited only for the withers; "بين الفخذين" is not stated. The graying clause ("وتبطيء فيما قالوا بالشيبة ... نظر") is partly garbled, so only "said to slow graying, in some bodies and not others" is given; the later "it hastens graying" is not cited.
+- p.301: the sentence naming cupping's benefits ("ونقول إن للحجامة ... أمل ما") is garbled before "first, second, third"; only the three numbered benefits are cited.
+- p.302: the list of leeches to choose after the green-backed kind ("الشقر الزرق المستديرة الجنوب ... الدقاق الصغار الرؤوس") is ambiguous (chosen or avoided) and not cited; the instruction "طين الرأس" for encouraging attachment is unclear and left out.
+- p.303: the passage on helping the evacuation ("المزلقة بالأيارج ... تنقطع مادة القيء الثابت") and the sentence before "السدد" on blockages ("ولإني اي a ii e ara") are garbled; only clear clauses are used.
+- p.304-305: the first lines of p.305 on drawing a deep swelling to the skin are interleaved with gloss fragments; the forehead exception in chapter 26 (p.305-306) is partly garbled ("إلا أن يكون العضو مثل الجبهة () ") and is rendered as the exception it names.
+- p.307-308: "الكفشير" is given in transliteration (kafshir) without identification; the "طين الممر" in the internal-ulcer sealing line and "سلاءة" for bone splinters are unclear and not cited; the sentence on relapsing ulcers ("في طريق البنصر") is garbled and left out.
+- p.309: the cautery of the nose, mouth and anus names the mould materials (talc, ochre) from the text and not from the editor's footnotes.
+- p.311: the example of treating a blockage and fever and the passage on ulcer and fever ("ولم نبال من الحمى ... بما فيه شيء من التسخين") are partly garbled; only the blockage-before-fever example is cited. The closing blessing line is not reproduced.
+
+GEMINI: canon-cupping-the-legs-occiput-chin-and-loins | What does "القطن" mean as a cupping site on p.300 (loins, or lumbar region)? | card says loins | scan names thigh boils, mange, gout and piles with it | a lexicon of Canon anatomical terms or another edition
+GEMINI: canon-matching-the-drying-to-organ-and-body-and-internal-ulcers | What is "الكفشير" on p.306-307 (a food that generates a gristly nourishment for fractures)? | card gives the transliteration kafshir | scan has no gloss | another edition of the Canon (Bulaq or Rome) or a materia medica lexicon

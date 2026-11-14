@@ -1,0 +1,18 @@
+id: concept/canon-the-surgeons-incision-and-its-precautions
+class: concept
+kind: scientific
+label: { ar: "البط وشروطه واحتياطاته عند ابن سينا", en: "The surgeon's incision and its precautions in the Canon", ur: "قانون میں چیرا لگانا اور اس کی احتیاطیں" }
+summary:
+  ar: "يتناول ابن سينا في الفصل السادس والعشرين البط، فيذكر الاتجاه الذي يشق فيه، وعلم الباط بالتشريح، وما يجب أن يعده من أدوية حابسة وآلات، وما يفعل بعد بط الخراج {cite:canon-ibn-sina-print-v1 pp.305-306}."
+  en: "In chapter 26 Ibn Sina treats incision: the direction in which the cut is made, the incisor's knowledge of anatomy, what he must have ready in the way of blood-stopping drugs and instruments, and what to do after an abscess has been opened {cite:canon-ibn-sina-print-v1 pp.305-306}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 21 to 31, on cupping, leeches, stopping evacuations, obstructions, swellings, incision, wounds, ulcers, cautery, pain and the order of treatment (scan pages 299 to 311), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch21-31
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

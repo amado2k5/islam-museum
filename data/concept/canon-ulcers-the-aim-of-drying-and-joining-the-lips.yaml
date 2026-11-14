@@ -1,0 +1,18 @@
+id: concept/canon-ulcers-the-aim-of-drying-and-joining-the-lips
+class: concept
+kind: scientific
+label: { ar: "القروح: التجفيف وإلحام الشفتين عند ابن سينا", en: "Ulcers: the aim of drying and joining the lips in the Canon", ur: "قانون میں زخم: خشک کرنا اور کناروں کو ملانا" }
+summary:
+  ar: "يبين ابن سينا أن الغرض في مداواة القروح هو التجفيف، ويفرق بين النقي والعفن، والمفردة والمركبة، والصغيرة والكبيرة، وما يذهب منها من الجلد أو اللحم {cite:canon-ibn-sina-print-v1 p.307}."
+  en: "Ibn Sina says the aim in treating ulcers is drying, and distinguishes the clean from the foul, the simple from the compound, the small from the large, and what has lost skin from what has lost flesh {cite:canon-ibn-sina-print-v1 p.307}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 21 to 31, on cupping, leeches, stopping evacuations, obstructions, swellings, incision, wounds, ulcers, cautery, pain and the order of treatment (scan pages 299 to 311), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch21-31
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

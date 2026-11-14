@@ -1,0 +1,18 @@
+id: concept/canon-a-corrupted-organ-and-its-cutting-away
+class: concept
+kind: scientific
+label: { ar: "فساد العضو وقطعه عند ابن سينا", en: "A corrupted organ and cutting it away in the Canon", ur: "قانون میں عضو کا بگاڑ اور اسے کاٹنا" }
+summary:
+  ar: "يعالج ابن سينا في الفصل السابع والعشرين العضو الفاسد بأخذ اللحم الفاسد ثم القطع والكي، ويصف كيف يعرف حد السلامة في العظم وكيف يقطع، ويقرر متى يهرب الطبيب {cite:canon-ibn-sina-print-v1 p.306}."
+  en: "In chapter 27 Ibn Sina treats a corrupted organ by removing the corrupt flesh and then cutting and cauterising, describes how the limit of safety is found in the bone and how it is cut, and says when the physician should flee {cite:canon-ibn-sina-print-v1 p.306}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 21 to 31, on cupping, leeches, stopping evacuations, obstructions, swellings, incision, wounds, ulcers, cautery, pain and the order of treatment (scan pages 299 to 311), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch21-31
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
