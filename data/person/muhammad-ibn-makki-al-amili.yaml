@@ -6,25 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن مكي العاملي الشهيد الأول، فقيه جبل عامل في القرن الرابع عشر صاحب «اللمعة الدمشقية»، أعدم سنة ١٣٨٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Makki al-Amili known as al-Shahid al-Awwal, the fourteenth-century jurist of Jabal Amil author of al-Lum'a al-Dimashqiyya, executed in 1385; the biographical entry is not yet checked on the page."
+  ar: "محمد بن مكي بن محمد بن حامد العاملي النبطي الجزيني، شمس الدين، الملقب بالشهيد الأول، فقيه إمامي من جبل عامل، رحل إلى العراق والحجاز ومصر ودمشق وفلسطين، وسجن في قلعة دمشق ثم ضربت عنقه، من سنة 734 إلى 786 هـ الموافقة 1333 إلى 1384 م."
+  en: "Muhammad ibn Makki ibn Muhammad ibn Hamid al-Amili al-Nabati al-Jizzini, Shams al-Din, called al-Shahid al-Awwal, an Imami (Twelver Shi'i) jurist of Jabal Amil who travelled to Iraq, the Hijaz, Egypt, Damascus and Palestine, was imprisoned in the citadel of Damascus and then beheaded, 734 to 786 AH (1333 to 1384 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4117198
   viaf: "37146462562027771353"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0035
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1334", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Hurr al-Amili (Amal al-Amil)" }
+  completeness: 3
+born: { edtf: "1333", calendar: gregorian, precision: year, derived: true, note: "al-A'lam entry: 734 AH = 1333 CE; corrects the card's 1334.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1384", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Hurr al-Amili (Amal al-Amil)" }
 relations:
+  - { type: lived_in, target: place/jezzine, note: "The entry: he settled in Jizzin in Lebanon.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: lived_in, target: place/mecca, confidence: low, note: "Association inferred from the nisba in the name 'Muhammad ibn Makki al-Amili'; specific residence not individually documented.", sources: [source/al-aalam] }
