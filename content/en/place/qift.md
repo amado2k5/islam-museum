@@ -15,3 +15,6 @@ Pleiades, the open gazetteer of ancient places, lists this place under the title
 
 ## In the iDAI.gazetteer
 The iDAI.gazetteer of the German Archaeological Institute records this place as no. 2277744, of type archaeological site and populated place, with the preferred name «Koptos», placed in its hierarchy under «Genā (Muhāfazat)». Recorded names include Kbt, Kuft, Qifţ and Justinianopolis. {cite:idai-gazetteer 2277744}
+
+## In Yaqut's Mu'jam al-Buldan
+Yaqut gives the name with a kasra on the first letter and a sukun on the second, calls it a foreign word whose Arabic root he does not know, and says the city is named for Qift, son of Misr ibn Baysar ibn Ham ibn Nuh, to whom his father granted Upper Egypt as far as Aswan; Qift founded the city in the middle of his lands. He says it has been an endowment for the Alids since the days of Ali ibn Abi Talib, that it lies about a mile from the Nile with a river landing called Qatr, and that it is about a farsakh from Qus. He describes its markets, its wealthy people, a livelihood based on trade and travel to India, and surrounding fields and gardens of date palms, citron and lemon. He names among its people the vizier Jamal al-Din Abu al-Hasan Ali ibn Yusuf al-Qifti, whose family came from Kufa and who held the vizierate in Aleppo. {cite:mujam-al-buldan-sader-1995 4 p.383}
