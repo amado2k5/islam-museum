@@ -1,0 +1,78 @@
+id: event/ibn-khalaf-flees-to-tihama-and-abu-al-qasim-enters-sanaa-with-the-sons-of-yafur-291
+class: event
+kind: other
+label:
+  ar: فرار ابن خلف إلى تهامة ودخول أبي القاسم صنعاء مع ابني يعفر وغلاء الأسعار فيها، صفر 291هـ
+  en: Ibn Khalaf flees to Tihama, Abu al-Qasim enters Sana'a with the sons of Ya'fur and the dearth in the city, Safar 291 AH
+  ur: ابن خلف کا تہامہ فرار، ابو القاسم کا یعفر کے بیٹوں کے ساتھ صنعاء میں داخلہ اور شہر میں مہنگائی، صفر 291ھ
+summary:
+  ar: في الغد يخرج ابنا يعفر ومعهما أبو القاسم، فتخرج خيل من صنعاء مستأمنة، ويتبين أن ابن خلف هرب إلى تهامة، فيدخلون صنعاء وينزلون دار أبي جعفر العلوي، ويدخل جفتم في جماعة، ثم يعرض ابنا يعفر على أبي القاسم أن يسير إلى شبام مع أحمد بن أبي الخير، وتُذكر شدة الغلاء والجوع.
+  en: Next morning the two sons of Ya'fur set out with Abu al-Qasim; horse from Sana'a come out asking safe-conduct and it is found that Ibn Khalaf has fled to Tihama; they enter Sana'a and lodge at the house of Abu Ja'far al-Alawi, Jaftam comes in with a party, and the sons of Ya'fur then propose that Abu al-Qasim go to Shibam with Ahmad ibn Abi al-Khayr; the severity of the dearth and hunger is reported.
+  ur: اگلی صبح یعفر کے دونوں بیٹے ابو القاسم کے ساتھ نکلتے ہیں؛ صنعاء سے امان مانگنے والے سوار نکلتے ہیں اور معلوم ہوتا ہے کہ ابن خلف تہامہ بھاگ گیا؛ وہ صنعاء میں داخل ہو کر ابو جعفر علوی کے گھر ٹھہرتے ہیں، جفتم ایک جماعت کے ساتھ آتا ہے، پھر یعفر کے بیٹے ابو القاسم کو احمد بن ابی الخیر کے ساتھ شبام جانے کی تجویز دیتے ہیں؛ قحط اور بھوک کی شدت بیان ہوتی ہے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0904-01
+    hijri: 0291-02
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: اليوم التالي لسقوط القلعة؛ التاريخ بدقة الشهر؛ السنة مستنتجة من الترتيب؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: أبو القاسم ابن الهادي، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  role: ابن خلف، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-said-ibn-yusuf
+  role: الراوي
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/tihama
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص272-273 ⁦⁦(الصفحة المطبوعة)⁩⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-31
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 272-273

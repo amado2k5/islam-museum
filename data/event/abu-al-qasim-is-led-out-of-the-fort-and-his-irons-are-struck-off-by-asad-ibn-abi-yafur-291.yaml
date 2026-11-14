@@ -1,0 +1,75 @@
+id: event/abu-al-qasim-is-led-out-of-the-fort-and-his-irons-are-struck-off-by-asad-ibn-abi-yafur-291
+class: event
+kind: other
+label:
+  ar: خروج أبي القاسم من القلعة وفك أسعد بن أبي يعفر قيده، صفر 291هـ
+  en: Abu al-Qasim is led out of the fort and As'ad ibn Abi Ya'fur has his irons struck off, Safar 291 AH
+  ur: ابو القاسم کا قلعے سے نکلنا اور اسعد بن ابی یعفر کے ہاں ان کی بیڑیوں کا کھلنا، صفر 291ھ
+summary:
+  ar: يخرج أبو القاسم وصاحبه من باب الدار بلا ثياب، فيستر الأعراب عليهما، ويلقاهما أسعد بن أبي يعفر فينزل عن بغله ويسلم عليه ويأمره بركوبه، ثم يفك الحديد من أبي القاسم في مجلس ابن خلف بالقلعة بعد تعب، ويتبرك أسعد بمسّه، ويبيتون في بيت بوس.
+  en: Abu al-Qasim and his companion leave by the door of the house with nothing on them, Bedouin throw clothes over them, As'ad ibn Abi Ya'fur meets them, dismounts from his mule, greets him and has him ride it; the irons are then taken off Abu al-Qasim in Ibn Khalaf's council room in the fort after some trouble, As'ad seeks blessing by touching him, and they spend the night at Bayt Bus.
+  ur: ابو القاسم اور ان کے ساتھی گھر کے دروازے سے بغیر کپڑوں کے نکلتے ہیں، بدو ان پر کپڑے ڈالتے ہیں، اسعد بن ابی یعفر ان سے ملتا ہے، اپنے خچر سے اتر کر سلام کرتا ہے اور انہیں اس پر سوار ہونے کا کہتا ہے؛ پھر قلعے میں ابن خلف کی مجلس میں کچھ مشقت کے بعد ابو القاسم کی بیڑیاں کھلتی ہیں، اسعد انہیں چھو کر برکت لیتا ہے، اور وہ رات بیت بوس میں گزارتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0904-01
+    hijri: 0291-02
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: بعد سقوط القلعة وفي اليوم نفسه وليلته؛ التاريخ بدقة الشهر؛ السنة مستنتجة من الترتيب؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: أبو القاسم ابن الهادي، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/asad-ibn-abi-yafur
+  role: محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  role: ابن خلف، محتمل
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-said-ibn-yusuf
+  role: الراوي
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص271-272 ⁦⁦(الصفحة المطبوعة)⁩⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-31
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 271-272
