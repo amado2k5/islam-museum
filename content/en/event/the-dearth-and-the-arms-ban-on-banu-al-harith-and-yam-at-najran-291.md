@@ -1,0 +1,11 @@
+---
+id: event/the-dearth-and-the-arms-ban-on-banu-al-harith-and-yam-at-najran-291
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Ali ibn Muhammad said: a severe dearth had befallen Yemen and covered the land until people in it ate one another, and the people of corruption and falsehood, as the narrator calls them, of Banu al-Harith and Yam rose against al-Hadi's governor at [[place/najran|Najran]] {cite:sira-hadi-ila-al-haqq p.274}. Muhammad ibn Ubaydallah said: I pressed hard on them and denounced it, took those of them I could, threw them into prison and irons and sent them up to Sa'da, and I forbade them to carry arms from the top of the valley to its bottom, so no one carried arms, the people mixed, the land was secure and the people of falsehood submitted {cite:sira-hadi-ila-al-haqq p.274}.
+
+## Detail
+He had with him at that time no troops except servants of his, about twenty men (manuscript S says twenty-six), standing to what God requires of him, himself and his son, and God was his help in it; he kept on so for a while until the dearth cleared {cite:sira-hadi-ila-al-haqq p.274} {cite:sira-hadi-ila-al-haqq p.275}. The margin of the original has the heading "the governor of al-Hadi forbids Banu al-Harith at Najran to carry arms", and a note explains "hatma" as a hard year. Muhammad ibn Ubaydallah, who is [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Abu Ja'far Muhammad ibn Ubaydallah]], speaks in the first person; he is al-Hadi's governor at Najran and the father of the narrator [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali ibn Muhammad]]. The words describing the governor's opponents are the narrator's in a Zaydi book and the museum does not give them as its own judgement; the book does not name those jailed. The same dearth is reported in [[event/ibn-khalaf-flees-to-tihama-and-abu-al-qasim-enters-sanaa-with-the-sons-of-yafur-291|the Sana'a report]] of the same year. The date is to the year. The group is close to [[group/banu-al-harith-ibn-kab|Banu al-Harith]] of the earlier Najran reports, a link given as probable only. The report comes after Abu al-Qasim's return to [[place/saada|Sa'da]].

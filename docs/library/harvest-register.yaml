@@ -1,0 +1,99 @@
+# Harvest register: the one central record of every book, audio series, website and dataset
+# downloaded, harvested, OCRed, mined or ingested. Schema, states and rules: docs/library/README.md.
+# Paths are relative to the microSD harvest root. No absolute paths, no secrets, no OCR text.
+# Unknown values are null or "unknown"; never invent. Fields not checked are listed in `unverified`.
+# Each segment owner appends only inside its own BEGIN/END block, so parallel PRs do not collide.
+schema_version: 1
+updated: "2026-11-14"
+
+books:
+  # BEGIN books (example entry, kept as the shape to copy)
+  - id: example-book
+    title: "Example title (remove when real entries exist)"
+    author: null
+    editor_translator: null
+    edition: null
+    publisher: null
+    place: null
+    year: { hijri: null, ce: null }
+    volumes: null
+    language: ar
+    category: seerah
+    acquisition:
+      source: null          # URL or site
+      date: null
+      by: null              # lane or agent
+      file_name: null
+      bytes: null
+      sha256: null
+      sha256_status: pending   # pending | computed | skipped-large
+    physical: { pages: null, offset: null, missing_or_duplicate: null }
+    ocr:
+      state: none           # none | partial | complete
+      engine: null
+      date: null
+      quality: null
+      failed_pages: null
+      unzipped_location: null   # relative folder holding loose OCR text today, or null
+    ocr_archive:
+      state: none           # none | partial | complete | verified
+      path: null            # ocr-archive/<category>/<book-id>.zip
+      bytes: null
+      sha256: null
+      pages_covered: null
+      zipped: null
+    mining:
+      state: none           # none | in_progress | mined
+      ranges_mined: null    # e.g. ["1-120", "130-410"]
+      skipped: null         # [{pages, reason}]
+      held: null            # [{pages, reason}]
+      entities: null
+      edges: null
+    ingestion:
+      state: none           # none | partial | ingested
+      prs: []
+      ledger: null
+      graph_ids: []         # e.g. source/..., work/...
+    work_registry: null     # claim state in WORK-REGISTRY.md
+    completion: downloaded  # claimed | downloaded | ocr_done | mining | mined | ingested | complete | deleted
+    deletion: null          # {date, deleted, kept: [ocr_archive], restore: {url, sha256}}
+    unverified: []
+    notes: null
+  # END books
+
+# audio_series and video_series share one shape (media_type: audio | video | audio_video).
+# Shape of an entry (copy it):
+#   - id: assabile-<lecturer>-<series>
+#     title: ...
+#     media_type: audio
+#     site_url: https://...        # main site, only if found in a ledger, log, script or on the drive
+#     lecturer: { name: ..., page_url: ... }
+#     series_page_url: ...
+#     episodes_total: 0            # and episodes_audio, episodes_transcribed
+#     transcript: { pass: pass5-qwen, model: ..., state: none|partial|complete }
+#     mining: { state: ..., ranges: null }
+#     ingestion: { state: ..., prs: [], ledger: null }
+#     episodes:                    # one compact line per episode
+#       - { n: 1, title: null, page_url: null, file: null, format: mp3, duration: null, bytes: null,
+#           from: null, downloaded: null, transcript: null, mining: null, prs: [] }
+#     completion: ...
+#     unverified: []
+audio_series:
+  # BEGIN audio_series
+  # END audio_series
+
+video_series:
+  # BEGIN video_series
+  # END video_series
+
+# websites: one entry per site (id, title, site_url, licence, lane, state, notes) and a `pages` list of
+# every page, endpoint, API route, dump or dataset URL actually processed:
+#   pages: [ { url: ..., taken: "what was taken", date: ..., lane: ..., state: ..., ids_read: "e.g. shamela book ids and page-id ranges" } ]
+# Use only URLs found in ledgers, logs, scripts, config or the drive; never reconstruct one.
+websites:
+  # BEGIN websites
+  # END websites
+
+datasets:
+  # BEGIN datasets
+  # END datasets

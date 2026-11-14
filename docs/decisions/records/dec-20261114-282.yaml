@@ -1,0 +1,57 @@
+id: dec-20261114-282
+kind: decision
+date: 2026-11-14
+expires_at: 2027-11-14
+question_hash: a48cd95c1e3f
+lane: library
+class: process
+modality: process
+domain: media
+mode: conservative
+question: Should one central file in git, docs/library/harvest-register.yaml,
+  record every book, audio series, website and dataset harvested, OCRed, mined
+  or ingested, so that every agent looks an item up before any download, OCR,
+  harvest, mining or ingestion, and a finished book's PDF and working files may
+  later be deleted from the microSD, with its OCR text kept as one zip on the
+  microSD?
+options:
+  - Adopt the single register plus a deletion gate (OCR zip verified first)
+  - Keep per-lane registries on the microSD only
+evidence:
+  - "Founder, 14 November 2026, in chat: we can have one centralized file and
+    have it in repo itself not on microsd, referenced in any harvesting and
+    AGENTS.md so that no matter what agent is attempting to harvest, OCR, inject
+    or mine, it always refers to that file"
+  - "Founder, 14 November 2026, in chat: OCR text can be compressed in zip on
+    microsd"
+status: founder-docket
+step: policy-gate
+decision: destructive operations are never autonomous — negation tricks must not
+  disarm this gate
+confidence: n/a
+reversible: false
+rationale: ""
+gate: nd-delete
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-delete
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - nd-delete
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-14
+    by: founder
+    note: "Approved in chat 14 November 2026: central register in git; OCR text kept
+      as one zip on the microSD"
+  founder_override: false
+  calibration_weight: 1
