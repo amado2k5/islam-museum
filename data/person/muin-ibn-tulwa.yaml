@@ -3,11 +3,11 @@ class: person
 label: { ar: "المعين ابن تولوا الشاعر", en: "al-Mu'in ibn Tulwa" }
 names:
   - { value: "المعين بن تولوا الشاعر المشهور عثمان بن سعيد الفهري المصري", kind: full }
-born: { edtf: "1208~", hijri: "0605~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وله ثمانون سنة {cite:shadharat-dhahab p. 663}." }
-died: { edtf: "1286-06~", hijri: "0685-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ربيع الأول بالقاهرة وله ثمانون سنة {cite:shadharat-dhahab p. 663}." }
+born: { edtf: "1208~", hijri: "0605~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وله ثمانون سنة {cite:shadharat-dhahab vol. 7 p. 685}." }
+died: { edtf: "1286-05~", hijri: "0685-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ربيع الأول بالقاهرة وله ثمانون سنة {cite:shadharat-dhahab vol. 7 p. 685}؛ ربيع الأول 685 هـ يوافق أيار 1286 م تقريبا بحسب التحويل الجدولي." }
 summary:
-  ar: "الشاعر المشهور الفهري المصري؛ توفي في ربيع الأول بالقاهرة وله ثمانون سنة {cite:shadharat-dhahab p. 663}."
-  en: "The famous Egyptian poet of the Fihri house — d. Cairo Rabi' I 685 at eighty {cite:shadharat-dhahab p. 663}."
+  ar: "الشاعر المشهور الفهري المصري؛ توفي في ربيع الأول بالقاهرة وله ثمانون سنة {cite:shadharat-dhahab vol. 7 p. 685}."
+  en: "The famous Egyptian poet of the Fihri house, d. Cairo Rabi' I 685 at eighty {cite:shadharat-dhahab vol. 7 p. 685}."
 gender: male
 roles: [poet]
 wings: [people]
@@ -17,11 +17,14 @@ faith:
   - value: sunni
     basis: tradition
 relations:
-  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/cairo, confidence: high, note: "Ibn al-Imad, vol. 7 p. 685: died in Cairo", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج7، سنة 685)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-133
+  source: "Ibn al-Imad, Shadharat al-Dhahab, year 685 AH, entry read in full from the local OpenITI text (Dar Ibn Kathir edition, vol. 7); earlier card cites (p. 663) came from another edition"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-2026-11-14
+status:
+  review: draft
+  completeness: 3
