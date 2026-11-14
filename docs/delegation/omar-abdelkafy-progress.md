@@ -3969,3 +3969,19 @@ Resume point: sharh-saheeh-al-bukhare episode 21 (branch from origin/main).
 | Stretch about the pious and the hypocrite and a remark about trade | ep21 01:14:30; 00:29:30-00:30:00 | Garbled | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 22 (branch from origin/main).
+
+### alwaad-alhaq ep17 (14 Nov 2026)
+
+19 points written for episode 17 (ar, en, ur); 17 needs_source marks for this episode in each language file; links added to ghayba, kadhib, sihr, ghayb, jinn, hajj-rulings, tahara, kahana, wudu-fiqh and the Companions discussed. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening and closing greetings, thanks, poems and prayers | ep17 00:00:00-00:02:30; 00:50:00-00:51:30 | Greetings and prayer, not teaching content | Content rule | Open |
+| Stretches of repeated filler loops | ep17 00:12:30; 00:15:30; 00:33:30; 00:35:00; 00:48:30 | Loop or repeated token, no content | Clarity, Loop check | Open |
+| Remark on security agencies, Umar and spying on soldiers, and a comparison of pre-Islamic houses with Europe today | ep17 00:10:30-00:11:30; 00:13:00-00:13:30 | Sweeping claims about modern politics and peoples, garbled | Voice rule, Clarity | Open |
+| Astronomy question and stretch on the pilgrimage compared with spouses and mothers | ep17 00:24:00; 00:26:30-00:27:30 | Garbled, jokes about wives | Clarity, Voice rule | Open |
+| Story of Aisha and her nephew, and the hems of women's clothes | ep17 00:48:00-00:48:30; 00:44:30-00:45:30 | Too garbled to recover | Clarity | Open |
+| Mention of al-Ghazali and al-Munqidh before the Ibn al-Qayyim saying | ep17 00:45:30 | Attribution unclear in transcript; saying kept under Ibn al-Qayyim only | Clarity | Open |
+| Name of the person to whom the prayer-time saying is ascribed | ep17 00:28:30 | Transcript reads Abu Bakr al-Salih; kept as unclear Abu Bakr | Clarity | Open |
+
+Resume point: alwaad-alhaq episode 18 (branch from origin/main).
