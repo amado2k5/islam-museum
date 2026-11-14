@@ -61,6 +61,8 @@ open a new block on top with the new version and today's date.
 ### Data
 - **Three more Siyar A'lam al-Nubala' biographies in Arabic, English and Urdu, cited to the page:** Alqama ibn Marthad (re-read from the page image with Apple Vision after the text scan mixed him with another Alqama), Musa ibn Ulayy al-Lakhmi (governor of Egypt and reliable transmitter) and the poet-prince Muqatil ibn Atiyya, whose card wrongly placed him in the Buyid era and Iraq (now Herat, from the book).
 - **VIAF identifiers added to one hundred more persons.** Each number comes from the single VIAF statement on the person's Wikidata item, so the link to the library authority record rests on the Wikidata identity our record already carries (decision dec-20261114-277).
+### Data
+- **A new person, Ahmad ibn al-Nadr al-Naysaburi (Abu al-Fadl), host and source of al-Bukhari at Nishapur,** with full Arabic, English and Urdu prose from al-Dhahabi's Siyar A'lam al-Nubala' (read from the page image with Apple Vision). He is kept apart from the Omani poet of the same name already in the museum. Ahmad ibn al-Furat's role is corrected from politician to scholar.
 
 ## v1.30.0 — 2026-11-14
 ### Added
