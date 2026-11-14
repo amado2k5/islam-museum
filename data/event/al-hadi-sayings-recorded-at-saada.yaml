@@ -1,0 +1,46 @@
+id: event/al-hadi-sayings-recorded-at-saada
+class: event
+kind: gathering
+label:
+  ar: 'أقوال الهادي في صعدة كما سمعها محمد بن عبيد الله: العزم والدعاء ومصحف بينه وبين الناس'
+  en: 'Al-Hadi''s sayings at Sa''da as Muhammad ibn Ubaydallah heard them: resolve, prayer, and the Qur''an between him and the people'
+  ur: 'صعدہ میں ہادی کے اقوال جیسے محمد بن عبید اللہ نے سنے: عزم، دعا اور لوگوں کے درمیان مصحف'
+summary:
+  ar: 'يروي محمد بن عبيد الله ما سمعه من الهادي في صعدة: تمنيه الصبر وتحمل الجوع في سبيل إصلاح الأمة، ودعاؤه حين مرض أن يحييه الله حتى يبلغه الجهاد، ووصفه راية أصحابه براية بدر، وقوله لو علم أن أحداً من أهل البيت أقوم بالأمر منه لاتبعه، وإمساكه المصحف وقوله إنه إن خالفه بحرف فلا طاعة له.'
+  en: 'Muhammad ibn Ubaydallah relates what he heard al-Hadi say at Sa''da: his wish to endure hunger for the good of the community, his prayer when ill that God keep him alive to reach jihad, his comparing his followers'' banner to that of Badr, his saying that he would follow anyone of the family better fitted for the task, and his holding up the Qur''an and saying that if he departed from it by a letter he was owed no obedience.'
+  ur: 'محمد بن عبید اللہ بیان کرتے ہیں کہ انہوں نے صعدہ میں ہادی سے کیا سنا: امت کی اصلاح کے لیے بھوک سہنے کی تمنا، بیماری میں یہ دعا کہ اللہ انہیں جہاد تک زندہ رکھے، اپنے ساتھیوں کے جھنڈے کو بدر کے جھنڈے سے تشبیہ، یہ کہنا کہ اہل بیت میں سے کوئی اس کام کے لیے ان سے بہتر ہو تو وہ اس کی پیروی کریں گے، اور مصحف اٹھا کر کہنا کہ اگر وہ ایک حرف بھی اس کے خلاف جائیں تو ان کی اطاعت نہیں۔'
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/jihad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص49-51 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-5
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 49-51

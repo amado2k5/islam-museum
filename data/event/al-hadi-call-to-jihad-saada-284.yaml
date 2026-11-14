@@ -1,0 +1,61 @@
+id: event/al-hadi-call-to-jihad-saada-284
+class: event
+kind: declaration
+label:
+  ar: إقامة الهادي في صعدة ودعوته إلى الجهاد وشروطه الستة، 284هـ
+  en: Al-Hadi's stay at Sa'da and his call to jihad with its six conditions, 284 AH
+  ur: ہادی کا صعدہ میں قیام اور جہاد کی دعوت اور اس کی چھ شرائط، 284ھ
+summary:
+  ar: أقام الهادي في صعدة صفر وشهري ربيع وجمادى والناس يكتبون إليه من اليمن، وكان قد كتب إلى أهل اليمن كتاب دعوة يحضهم فيه على الجهاد؛ يدعو إلى الكتاب والسنة والأمر بالمعروف والنهي عن المنكر، ويشترط على نفسه أربعاً وعلى الناس اثنتين.
+  en: Al-Hadi stayed at Sa'da through Safar and the two Rabi' months and Jumada while people of Yemen wrote to him; on arrival he had written to all Yemen a letter of call urging jihad, summoning to the Book, the sunna and enjoining good and forbidding wrong, and setting four conditions on himself and two on the people.
+  ur: ہادی صعدہ میں صفر اور دونوں ربیع اور جمادی میں ٹھہرے رہے اور یمن کے لوگ انہیں خط لکھتے رہے؛ آتے ہی انہوں نے پورے یمن کو دعوت نامہ لکھا تھا جس میں جہاد پر ابھارا، کتاب و سنت اور امر بالمعروف و نہی عن المنکر کی طرف بلایا، اور اپنے اوپر چار اور لوگوں پر دو شرطیں رکھیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0897-03
+    hijri: 0284-02
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: إقامته بصعدة في صفر وشهري ربيع وجمادى، والسنة 284هـ مفهومة من السياق؛ التحويل مشتق من التقويم الجدولي
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/dawa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/jihad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص48-49 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-5
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 48-49
