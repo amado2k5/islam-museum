@@ -1,0 +1,63 @@
+id: event/abu-al-atahiya-holds-the-fort-of-alab-and-the-fight-at-hidayn-288
+class: event
+kind: other
+label:
+  ar: "أبو العتاهية في قلعة علب والقتال بحدين، شوال 288هـ"
+  en: "Abu al-Atahiya at the fort of Alab and the fight at Hidayn, Shawwal 288 AH"
+  ur: "ابو العتاہیہ قلعۂ علب میں اور حدین کی لڑائی، شوال 288ھ"
+summary:
+  ar: "أمر الهادي في يوم الاثنين لخمسة أيام داخلة من شوال أبا العتاهية فخرج في عسكر إلى قلعة علب وبات بها، فلما كان صلاة الصبح أغارت عليه خيل القوم فنزل فطردهم، ثم خرج القوم بعسكرهم إلى موضع يقال له حدين، فخرج الهادي بجميع عسكره وعبأ أصحابه ميمنة وميسرة وقلباً، وحمل على الميسرة وقلبهم فهزمهم."
+  en: "On Monday, five days gone into Shawwal, al-Hadi ordered Abu al-Atahiya to go out with an army to the fort of Alab, where he passed the night; at the morning prayer the men's horse raided him, he came down and drove them off, then the men came out with their army to a place called Hidayn; al-Hadi went out with all his army, drew up his men in right, left and centre, charged the left and the centre and routed them."
+  ur: "پیر کے دن، شوال کے پانچ دن گزرنے پر، ہادی نے ابو العتاہیہ کو حکم دیا تو وہ لشکر کے ساتھ علب کے قلعے گئے اور وہیں رات گزاری؛ فجر کی نماز کے وقت مخالفوں کے سواروں نے ان پر حملہ کیا، وہ اترے اور انہیں بھگا دیا، پھر مخالف اپنے لشکر کے ساتھ حدین نامی جگہ گئے، اور ہادی اپنے تمام لشکر کے ساتھ نکلے، ساتھیوں کو دائیں، بائیں اور قلب میں ترتیب دیا اور بائیں بازو اور قلب پر حملہ کر کے انہیں شکست دی۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-09"
+    hijri: "0288-10"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شوال سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-sulayman-ibn-al-qasim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/alab-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/hidayn-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص232 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 232
