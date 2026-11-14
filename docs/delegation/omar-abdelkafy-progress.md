@@ -4794,3 +4794,21 @@ GEMINI: ep43, which commanders he names as stopping on high ground about three h
 GEMINI: ep43, who composed the elegy on the fall of Andalusian cities he recites at the end (both passes garble the poet's name as Abu al-Faqr al-Razi or similar, but the verses on everything completed declining and the crowned kings are legible), the anthology of Andalusian elegies or a standard edition of the poem to settle the poet and the title
 GEMINI: ep43, exact name of the practice he proposes to young people (read as a week of lowering the gaze: Qwen gives ghadb al-basar, Whisper gives a garbled form), the audio at 00:19:00 to settle the phrase
 GEMINI: ep43, who is the last king he says handed over the last stronghold and wept (both passes give Abdullah ibn al-Ahmar, which may be Muhammad XII of Granada), a history of the fall of Granada and the report attributed to his mother
+
+### alwaad-alhaq ep36 (14 Nov 2026)
+
+25 points written for episode 36 (ar, en, ur); 33 needs_source marks for this episode in each language file; 19 new persons, concepts and events linked as about edges on the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep36) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Houri description and knocking segments | ep36 00:08:30-00:09:00, 00:11:00-00:12:00 | ASR loop and garbling | Clarity, Loop check | Open |
+| Passage on what to do when angry | ep36 00:28:00-00:29:30 | ASR loop repetition, not summarised | Loop check | Open |
+| Egoism passage and attributed saying of al-Hasan al-Basri | ep36 00:52:00-00:52:30 | garbled | Clarity | Open |
+| Names of the servant's master, the captive Companion, the rooftop man and the surety | ep36 ep36 various | garbled in transcript, not named | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 37 (branch from origin/main).
+GEMINI: alwaad-alhaq ep36 00:19:00-00:23:00 the dream and death story told of Sa'id ibn Zayd (stray arrow at sunset while fasting); the transcript names him one of the ten and husband of Fatima bint al-Khattab, but standard accounts of his death differ; the source that would settle it is the biography of Sa'id ibn Zayd in Ibn Sa'd's Tabaqat or Ibn Hajar's Isaba and the origin of the story.
+GEMINI: alwaad-alhaq ep36 00:34:00 the bedouin, the orchard and the surety story: the transcript names the surety as Abu Hurayra, but the story is commonly told of another Companion in the time of Umar; the source that would settle it is a hadith-commentary or Tabari/Ibn Kathir passage on the guarantor of the condemned bedouin.
+GEMINI: alwaad-alhaq ep36 00:33:30 the master who answered the servant's recitation of the verse on restraining anger (the transcript reads like Harun al-Rashid but is garbled; commonly told of Ali ibn al-Husayn); the source that would settle it is an adab or tafsir work retelling the story (for example in the commentary on Al Imran 134).
+GEMINI: alwaad-alhaq ep36 00:51:00 the Companion captured by Quraysh who said he would not wish the Prophet pricked by a thorn in his place (the transcript gives a garbled name resembling Khabbab ibn Arat; the story is usually told of Zayd ibn al-Dathina at al-Raji); the source that would settle it is Ibn Ishaq/Ibn Hisham on the expedition of al-Raji.
+GEMINI: alwaad-alhaq ep36 00:40:30 the man who heard the verse on the submission of hearts on a rooftop and turned back (the transcript gives a garbled name, possibly Ibrahim ibn Adham, usually told of al-Fudayl ibn Iyad); the source that would settle it is the biography of al-Fudayl in Abu Nu'aym's Hilya.
