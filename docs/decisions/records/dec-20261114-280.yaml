@@ -1,0 +1,31 @@
+id: dec-20261114-280
+kind: "decision"
+date: "2026-11-14"
+expires_at: "2027-11-14"
+question_hash: 13b1440f8fb1
+lane: "web-sources"
+class: "person"
+modality: "website"
+domain: "process"
+mode: "conservative"
+question: "Should person/rawh-ibn-hatim be merged into person/ruh-ibn-hatim-al-muhallabi (same man, died 174 AH, al-Zirikli al-A'lam vol. 3 p. 34), keeping the richer record person/ruh-ibn-hatim-al-muhallabi, with the other slug kept as an alias and every reference repointed?"
+options:
+  - "Merge: ruh-ibn-hatim-al-muhallabi survives; rawh-ibn-hatim becomes an alias; unique facts and sources folded in; references repointed; duplicate files deleted"
+  - "Keep both records"
+evidence:
+  - "Both cards: Hatim's son, al-Muhallabi, governor of Ifriqiya after his brother Yazid ibn Hatim, died 174 AH (791 CE); al-A'lam vol. 3 p. 34 read in full from the OpenITI text"
+  - "Rawh card cites Siyar A'lam al-Nubala p. 1700 (death Ramadan 174, buried beside his brother at Qayrawan) and Futuh al-Buldan p. 326; no fact on either card conflicts with the other"
+  - "AGENTS.md: reuse before you create; a duplicate becomes an alias of the richer entity"
+status: decided
+step: safe-default
+decision: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"
+confidence: 0.4
+reversible: true
+rationale: "No rule or precedent matched. Defaulting to the most conservative reversible action per the decision-ledger design."
+needs_precedent: true
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":0,"rule_ids_fired":[],"precedent_distance":0.822,"top_precedent_id":"dec-20261108-153","top_precedent_status":"ledger-override","founder_resolution":null,"founder_override":false,"calibration_weight":1}
