@@ -3,31 +3,23 @@ class: person
 label:
   ar: "محمد بن أحمد الخويي"
   en: "Muhammad ibn Ahmad al-Khu'i"
-roles: [muhaddith, qadi]
+roles: [muhaddith, qadi, faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن أحمد الخويي، محدث وقاضٍ وفقيه القرن الثالث عشر، توفي سنة ١٢٩٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Ahmad al-Khu'i, the thirteenth-century muhaddith, qadi and jurist, d. 1294; the biographical entry is not yet checked on the page."
+  ar: "محمد بن أحمد بن خليل بن سعادة الخويي، شهاب الدين، أبو عبد الله ⁦(626 - 693 هـ / 1229 - 1294 م)⁩: قاضي دمشق وابن قاضيها، فقيه شافعي باحث، ولد في دمشق وتوفي فيها، وتولى القضاء في القدس وحلب والديار المصرية ثم الشام، وله «أقاليم التعاليم» وشرح على «الفصول الخمسين» ومنظومات. {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 324}"
+  en: "Muhammad ibn Ahmad ibn Khalil ibn Sa'ada al-Khu'i, Shihab al-Din, Abu Abdallah (626-693 AH / 1229-1294): qadi of Damascus and son of a qadi, a Shafi'i jurist and researcher born and died in Damascus, who held the judgeship in Jerusalem, Aleppo, the Egyptian lands and Syria, and wrote Aqalim al-Ta'lim, a commentary on al-Fusul al-Khamsun and verse treatises. {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 324}"
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1229", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidayah" }
-died: { edtf: "1294", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidayah" }
+born: { edtf: "1229", hijri: "0626", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 5 p. 324, prints 626 AH = 1229 CE, agreeing with the card (earlier note: al-Bidayah)", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1294", hijri: "0693", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 5 p. 324, prints 693 AH = 1294 CE, agreeing with the card (earlier note: al-Bidayah)", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/damascus, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "Wikidata P19 place of birth (Wikidata Q3766); al-Zirikli, al-A'lam vol. 5 p. 324: his birth and death were in Damascus" }
+  - { type: died_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 5 p. 324: he died in Damascus", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q57481404
   viaf: "90063982"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0071
-status:
-  review: draft
-  completeness: 1
 occupations:
   - job: job/muhaddith
     kind: secondary
@@ -39,3 +31,12 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
+status:
+  review: draft
+  completeness: 3

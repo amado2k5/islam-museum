@@ -6,24 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد حياة السندي، محدث وفقيه المدينة في القرن الثامن عشر شيخ محمد بن عبد الوهاب، توفي سنة ١٧٥٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Hayat al-Sindi, the eighteenth-century Medinan hadith scholar and jurist, teacher of Muhammad ibn Abd al-Wahhab, d. 1750; the biographical entry is not yet checked on the page."
+  ar: "محمد حياة بن إبراهيم السندي المدني، عالم بالحديث، مولده في السند وإقامته ووفاته في المدينة المنورة، له شرح الترغيب والترهيب للمنذري وتحفة المحبين في شرح الأربعين النووية؛ توفي سنة 1163 هـ الموافقة 1750 م."
+  en: "Muhammad Hayat ibn Ibrahim al-Sindi al-Madani, a hadith scholar born in al-Sind who lived and died in Medina; author of a commentary on al-Mundhiri's al-Targhib wa-l-tarhib and of Tuhfat al-muhibbin on the Forty of al-Nawawi; died 1163 AH (1750)."
 wings: [people]
 regions: [arabia, south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
 external_ids:
   wikidata: Q6892016
   viaf: "308275985"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0028
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1750", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sulk al-Durar" }
+  completeness: 3
+died: { edtf: "1750", hijri: "1163", calendar: gregorian, precision: year, derived: false, status: historical, note: "al-Zirikli, al-A'lam, vol. 6 p. 111: 1163 AH = 1750 CE as printed; agrees with the earlier note (Sulk al-Durar).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/sind, confidence: low, note: "Association inferred from the nisba in the name 'Muhammad Hayat al-Sindi'; specific residence not individually documented.", sources: [source/al-aalam] }
+  - { type: born_in, target: place/sind, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 111: born in al-Sind.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/medina, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 111: resided and died in Medina.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/medina, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 111.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

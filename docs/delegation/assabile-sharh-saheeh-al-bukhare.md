@@ -1,0 +1,58 @@
+# Ledger: sharh-saheeh-al-bukhare (Omar Abdelkafy, Assabile), lane C
+
+### sharh-saheeh-al-bukhare ep52 (14 Nov 2026)
+
+25 points written for episode 52 (ar, en, ur); 24 needs_source marks in each language file for this episode; 2 new `about` edges. Quran verses referenced only through passage links (20-131, 63-8, 18-28, 14-36, 5-118, 71-26, 10-88, 22-25, 17-81); none typed. Contested: His five lessons of the campaigns (including that no people gives up jihad without humiliation), his claim that trial is the inheritance of prophethood and that forty days without trial calls for a review of accounts, his reading of an evil intention inside the Meccan sanctuary, his account of the four conditions and the curfew, his figures (five thousand, eight miles, ten kilometres, twentieth of Ramadan) and his stories without a chain (the walled-in man, the opening of the chest, the grave visit, the banner of Ibn Umm Maktum, the exchanges of Umar, al-Abbas and Abu Sufyan) are his own account or unsourced. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep52) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings and supplication | ep52 00:00:00-00:01:00 | greetings and prayer | Clarity | Open |
+| Long supplication including remarks on modern conflicts and peoples | ep52 00:03:00-00:05:30 | closing-style prayer with sweeping remarks about modern conflicts and peoples | Voice rule | Open |
+| Closing greeting and farewell | ep52 01:18:30 | closing greeting and farewell | Clarity | Open |
+| Remarks that the Western world is about to collapse and on the fall of communism | ep52 00:10:30-00:12:30 | sweeping claims about modern peoples and political systems | Voice rule | Open |
+| Remarks on believers and non-believers, the state of the Muslims and their rulers, and being shut out of heaven | ep52 00:12:30-00:13:30 | sweeping claims about peoples and garbled in both passes | Voice rule, Clarity | Open |
+| Jeweller story and remarks on a husband and wife | ep52 00:27:00-00:28:00 | story told in garbled words with remarks about a wife | Voice rule, Clarity | Open |
+| Remarks on school fees, university degrees and careers | ep52 00:23:30-00:24:00 | modern asides garbled in both passes | Clarity | Open |
+| Remarks on conscripts, bribes to avoid service and guard duty | ep52 00:34:30-00:35:30 | sweeping remarks about modern societies and garbled | Voice rule, Clarity | Open |
+| Asides on distances, airports, taxis, driving and giving way on the road | ep52 00:53:00-00:55:30 | modern asides with loops in the first pass and garbled in the second | Clarity, Loop check | Open |
+| Story of Umar and a famed warrior about his sword | ep52 00:56:30-00:58:00 | the names rest on garbled words and the story is not recoverable in both passes | Clarity | Open |
+| The saying that a prophet may not have a treacherous eye | ep52 01:05:30 | garbled in both passes | Clarity | Open |
+| Names and numbers of the tribes and their commanders passing before Abu Sufyan | ep52 01:08:00-01:10:00 | names and numbers rest on single garbled words | Clarity | Open |
+| The second condition of Abu Sufyan's protection | ep52 01:01:00-01:02:00 | wording garbled in both passes | Clarity | Open |
+| The Quraysh groups that refused protection and their leaders, and Hind | ep52 01:15:30-01:16:30 | names rest on single garbled words and loops | Clarity, Loop check | Open |
+| Remarks on the size of the Kaaba | ep52 01:12:00-01:12:30 | figures garbled and conflicting | Clarity | Open |
+| The distance from which the Muslims first learned of the target and the strength of the army | ep52 00:49:00 | the two passes give conflicting figures | Clarity | Open |
+| Stretches of repeated words and loops | ep52 00:13:00, 00:19:00, 00:20:30, 00:23:30, 00:25:00, 00:27:00, 00:29:00, 00:33:00, 00:35:00, 00:51:30, 00:53:00-00:53:30, 00:54:30-00:55:00, 00:57:30, 01:03:30, 01:05:00, 01:07:30, 01:10:30, 01:13:30, 01:16:30 | loops of one repeated word in the first pass or garbled text in the second | Clarity, Loop check | Open |
+| Names that rest on single garbled words: the companion who narrated the grave visit, the ruler in the walled-in story, the companion at the Prophet's left, the son of Sa'd given the standard | ep52 00:15:00, 00:22:00, 01:10:00, 01:11:30 | names rest on single garbled words | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep52 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 53 (branch from origin/main).
+GEMINI: ep52, who is the man whom a ruler styled commander of the believers tried to humble and who was found praying outside the room walled around him, both passes garble the names (the first pass has a name close to al-Rashid, the second has Marun al-Rashid), a classical akhbar source on the story and on the caliph concerned
+GEMINI: ep52, which Companion related that the Prophet recalled his mother's mercy when passing her grave (the first pass has a name close to Abd Allah ibn Mas'ud, the second has none), a hadith or Sira source on the Prophet's visit to the grave of Amina
+GEMINI: ep52, whether the report that Abd Allah ibn Umm Maktum asked to carry the standard though blind is from the conquest of Mecca or from a later campaign, both passes give his words but not the setting, a Sira or tabaqat source on Ibn Umm Maktum
+GEMINI: ep52, the second of the four conditions of Abu Sufyan's protection and who laid them down (the second pass has Abu Sufyan standing on the four conditions, both passes garble the second), a Sira source on Abu Sufyan's protection on the night at Marr al-Zahran
+GEMINI: ep52, who is the son of Sa'd ibn Ubada who was given the standard (the second pass has a name that may be Qays) and which companion stood at the Prophet's left beside Abu Bakr (the second pass has a name close to Usayd ibn Hudayr, the first pass is garbled), a Sira source on the standards of the conquest of Mecca
+GEMINI: ep52, the commanders of the tribes who passed before Abu Sufyan (Ghifar, Aslam, Muzayna, Juhayna, Ashja and others) and the names and numbers he gives, both passes garble them, a Sira source on the order of the tribes on the day of the conquest
+GEMINI: ep52, the famed Arab warrior asked by Umar about his sword (the second pass has Amr ibn Ma'dikarib and a sword called Samsama, the first pass has a close name) and the reply about the hand that wields it, a source on Amr ibn Ma'dikarib and Umar
+GEMINI: ep52, the saying of the Prophet that nations will call one another against the community as diners to a dish, the saying on appointing a leader while a better man exists and the saying on those who will later belittle the worship of the Companions, he gives no narrator, a hadith source with chain for each
+GEMINI: ep52, who is credited with the saying that people should keep chaste so that their households are kept chaste and with the verses that adultery is a debt repaid from one's own household (the second pass has Ali, the first pass gives no name), a hadith or adab source with chain for the saying and for the verses
+episode 52 section appended; see file
+EXCLUSION (proposal for the founder): | Opening greetings and supplication | ep52 00:00:00-00:01:00 | greetings and prayer | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Long supplication including remarks on modern conflicts and peoples | ep52 00:03:00-00:05:30 | closing-style prayer with sweeping remarks about modern conflicts and peoples | Voice rule | Open | - see row
+EXCLUSION (proposal for the founder): | Closing greeting and farewell | ep52 01:18:30 | closing greeting and farewell | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Remarks that the Western world is about to collapse and on the fall of communism | ep52 00:10:30-00:12:30 | sweeping claims about modern peoples and political systems | Voice rule | Open | - see row
+EXCLUSION (proposal for the founder): | Remarks on believers and non-believers, the state of the Muslims and their rulers, and being shut out of heaven | ep52 00:12:30-00:13:30 | sweeping claims about peoples and garbled in both passes | Voice rule, Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Jeweller story and remarks on a husband and wife | ep52 00:27:00-00:28:00 | story told in garbled words with remarks about a wife | Voice rule, Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Remarks on school fees, university degrees and careers | ep52 00:23:30-00:24:00 | modern asides garbled in both passes | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Remarks on conscripts, bribes to avoid service and guard duty | ep52 00:34:30-00:35:30 | sweeping remarks about modern societies and garbled | Voice rule, Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Asides on distances, airports, taxis, driving and giving way on the road | ep52 00:53:00-00:55:30 | modern asides with loops in the first pass and garbled in the second | Clarity, Loop check | Open | - see row
+EXCLUSION (proposal for the founder): | Story of Umar and a famed warrior about his sword | ep52 00:56:30-00:58:00 | the names rest on garbled words and the story is not recoverable in both passes | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | The saying that a prophet may not have a treacherous eye | ep52 01:05:30 | garbled in both passes | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Names and numbers of the tribes and their commanders passing before Abu Sufyan | ep52 01:08:00-01:10:00 | names and numbers rest on single garbled words | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | The second condition of Abu Sufyan's protection | ep52 01:01:00-01:02:00 | wording garbled in both passes | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | The Quraysh groups that refused protection and their leaders, and Hind | ep52 01:15:30-01:16:30 | names rest on single garbled words and loops | Clarity, Loop check | Open | - see row
+EXCLUSION (proposal for the founder): | Remarks on the size of the Kaaba | ep52 01:12:00-01:12:30 | figures garbled and conflicting | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | The distance from which the Muslims first learned of the target and the strength of the army | ep52 00:49:00 | the two passes give conflicting figures | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Stretches of repeated words and loops | ep52 00:13:00, 00:19:00, 00:20:30, 00:23:30, 00:25:00, 00:27:00, 00:29:00, 00:33:00, 00:35:00, 00:51:30, 00:53:00-00:53:30, 00:54:30-00:55:00, 00:57:30, 01:03:30, 01:05:00, 01:07:30, 01:10:30, 01:13:30, 01:16:30 | loops of one repeated word in the first pass or garbled text in the second | Clarity, Loop check | Open | - see row
+EXCLUSION (proposal for the founder): | Names that rest on single garbled words: the companion who narrated the grave visit, the ruler in the walled-in story, the companion at the Prophet's left, the son of Sa'd given the standard | ep52 00:15:00, 00:22:00, 01:10:00, 01:11:30 | names rest on single garbled words | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep52 whole | Qwen pass garbled | Clarity | Open | - see row

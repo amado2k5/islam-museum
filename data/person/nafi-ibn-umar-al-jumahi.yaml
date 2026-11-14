@@ -7,8 +7,8 @@ roles:
 - scholar
 gender: male
 summary:
-  ar: بطاقة أولية لنافع بن عمر الجمحي؛ لم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Nafi' ibn Umar al-Jumahi; the entry is not yet checked on the page.
+  ar: نافع بن عمر القرشي الجمحي المكي، حافظ للحديث وكان محدث مكة في زمانه، توفي بمكة سنة 169 هـ، وقال فيه أحمد بن حنبل إنه ثبت ثبت صحيح الكتاب.
+  en: "Nafi' ibn Umar al-Qurashi al-Jumahi al-Makki, a hafiz of hadith and the muhaddith of Mecca in his time, who died there in 169 AH (785); Ahmad ibn Hanbal called him firmly reliable with a sound book."
 wings:
 - people
 regions:
@@ -17,20 +17,19 @@ periods:
 - period/umayyad
 sources:
 - source/al-aalam
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q20423751
 provenance:
   layer: own-research
-  source: Wikidata candidate; entry not yet read on the page in a book source
-  generated_by: Devin (SWE-2 High)
-  model: SWE-2 High
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "785", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib) Confirmed on 13 November 2026 against Wikidata Q20423751 (P570, a statement with a reference), item revision 2533521813.", sources: [source/wikidata] }
+  completeness: 3
+died: { edtf: "785", hijri: "0169", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib) Confirmed on 13 November 2026 against Wikidata Q20423751 (P570, a statement with a reference), item revision 2533521813. al-Zirikli prints 169 AH = 785 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 5}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-- type: lived_in
-  target: place/medina
-  sources:
-  - source/al-aalam
+- { type: lived_in, target: place/mecca, confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 5: al-Makki, muhaddith of Mecca; replaces the draft card's place/medina edge, which the entry does not support", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+- { type: died_in, target: place/mecca, confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 5: died there", sources: [source/alam-zirikli-dar-al-ilm-2002] }

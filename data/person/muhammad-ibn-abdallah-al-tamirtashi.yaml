@@ -16,16 +16,16 @@ died: { edtf: "1596", hijri: "1004", calendar: julian, precision: year, derived:
 relations:
   - { type: born_in, target: place/gaza, sources: [source/al-aalam, source/wikidata], confidence: high, note: "Al-Zirikli: of the people of Gaza, born and died there (read 14 Nov 2026); Wikidata P19 agrees." }
   - { type: died_in, target: place/gaza, sources: [source/al-aalam], confidence: high, note: "Al-Zirikli, al-A'lam vol. 6 p. 239: his birth and death were in Gaza." }
-sources: [source/al-aalam, source/shadharat-dhahab, source/wikidata]
+sources: [source/al-aalam, source/shadharat-dhahab, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q60844562
   viaf: "41726304"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0072
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
