@@ -11,3 +11,6 @@ Tabna is a city abounding in water, orchards, crops and cotton, with crafts and 
 Al-Idrisi describes Tabna as a city of al-Zab: a fine town rich in water, orchards and fields, where wheat, barley and cotton are grown, and it is walled with earth. Its people are of mixed origins. It has crafts and markets, its inhabitants hold property which they put to many kinds of trade, and its dates are plentiful, as are all its other fruits. {cite:nuzhat-al-mushtaq-2002 p.263}
 
 He also gives the stages around it. From al-Masila to Maqra is one stage, and from Maqra to Tabna is another. From Tabna to Bajaya is six stages, and to Baghay four. Eastward to Dar Malul is one long stage. {cite:nuzhat-al-mushtaq-2002 p.263} From Tabna to Naqawus is two stages. Naqawus is a small town of many trees and gardens, whose most abundant fruit is the walnut. {cite:nuzhat-al-mushtaq-2002 p.264}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Thubunae/Tuben Oppidum» (Pleiades no. 334641), classed as a settlement, with activity attested from 30 BCE to 640 CE. Recorded names include Thubunae and Tuben Oppidum. Its description only points to the Barrington Atlas map 34 D2 for the ancient place. {cite:pleiades 334641}

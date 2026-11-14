@@ -61,3 +61,6 @@ Only part of the article's section on architecture is legible. The best survivin
 
 ## Tabriz in Yaqut
 Yaqut, in the museum's earlier record, says Tabriz was once a village until Ruwad al-Azdi settled there in the days of al-Mutawakkil, after which his son and brothers built palaces and a wall. In Yaqut's time it was the capital and largest city of Azerbaijan, a fine place with strong walls, flowing rivers and orchards, whose people made terms with the Tatars in 618. {cite:mujam-al-buldan-yaqut p. 766} {cite:mujam-al-buldan-yaqut p. 767}
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's iDAI.gazetteer holds this place as record 2109526, typed as a populated place and an archaeological site, with the preferred name «Tabriz» and the parent «Āzārbāydschān-e Scharghi (Ostan), East Azerbaijan Province» in its hierarchy. Recorded names include Täbris (German), Tebriz (Turkish) and Тебриз (Russian). {cite:idai-gazetteer 2109526}

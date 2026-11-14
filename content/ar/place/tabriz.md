@@ -61,3 +61,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## تبريز عند ياقوت
 يذكر ياقوت، في سجل المتحف السابق، أن تبريز كانت قرية حتى نزلها الرواد الأزدي في أيام المتوكل، ثم بنى ابنه وإخوته قصوراً وسوراً. وكانت في زمنه قصبة أذربيجان وأكبر مدنها، مدينة حسنة ذات أسوار محكمة وأنهار جارية وبساتين، وصالح أهلها التتر سنة 618. {cite:mujam-al-buldan-yaqut p. 766} {cite:mujam-al-buldan-yaqut p. 767}
+
+## في فهرس المعهد الألماني للآثار
+يحتفظ فهرس المعهد الألماني للآثار iDAI.gazetteer بهذا الموضع في السجل رقم 2109526، ويصنفه موضع مأهول وموقع أثري، واسمه المفضل «Tabriz»، وأصله في التسلسل الهرمي «Āzārbāydschān-e Scharghi (Ostan), East Azerbaijan Province». ومن أسمائه المسجلة Täbris (German), Tebriz (Turkish) and Тебриз (Russian). {cite:idai-gazetteer 2109526}
