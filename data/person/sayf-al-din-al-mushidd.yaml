@@ -3,28 +3,29 @@ class: person
 label:
   ar: "سيف الدين المشد"
   en: "Sayf al-Din al-Mushidd"
-roles: [poet]
+roles: [poet, emir]
 gender: male
 summary:
-  ar: "بطاقة أولية لسيف الدين المشد، شاعر وكاتب القرن الثالث عشر، توفي سنة ١٢٥٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sayf al-Din al-Mushidd, the thirteenth-century poet and writer, d. 1258; the biographical entry is not yet checked on the page."
+  ar: "علي بن عمر بن قزل التركماني الياروقي المصري، سيف الدين، المعروف بالمشد، شاعر من أمراء التركمان، كان مشد الديوان بدمشق، ولد بمصر وتوفي بدمشق، وله ديوان شعر مخطوط؛ توفي سنة 656 هـ الموافقة 1258 م."
+  en: "Ali ibn Umar ibn Qizil al-Turkmani al-Yaruqi al-Misri, Sayf al-Din, known as al-Mushidd, a poet and Turkmen amir who was overseer (mushidd) of the diwan in Damascus; born in Egypt, died in Damascus, left a diwan of poetry in manuscript; died 656 AH (1258)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1205", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q27665732 (P569, a statement with a reference), item revision 2408190004.", sources: [source/wikidata] }
-died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q27665732 (P570, a statement with a reference), item revision 2408190004.", sources: [source/wikidata] }
+born: { edtf: "1205", hijri: "0602", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q27665732 (P569, a statement with a reference), item revision 2408190004. al-A'lam vol. 4 p. 315 prints 602 AH = 1205 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1258", hijri: "0656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q27665732 (P570, a statement with a reference), item revision 2408190004. al-A'lam vol. 4 p. 315 prints 656 AH = 1258 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q839456)" }
-  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q839456); al-A'lam vol. 4 p. 315 says only that he was born in Egypt" }
+  - { type: died_in, target: place/damascus, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "Wikidata P20 place of death (Wikidata Q3766); al-A'lam vol. 4 p. 315: he died in Damascus" }
+  - { type: lived_in, target: place/damascus, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 4 p. 315: mushidd of the diwan in Damascus" }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q27665732
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0061
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

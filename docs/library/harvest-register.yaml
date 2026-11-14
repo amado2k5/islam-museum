@@ -7449,7 +7449,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: 'needs OCR zip (ocr_archive none); other source ids: fiqh-mawsua-noor-doc'
+    notes: 'needs OCR zip (ocr_archive none); progress file resume point: scan p.1429 of an 18079-page scan (Kuwaiti Fiqh Encyclopedia); other source ids: fiqh-mawsua-noor-doc'
   - id: fiqh-mawsua-noor-doc
     title: الموسوعة الفقهية
     author: وزارة الأوقاف الكويتية
@@ -8024,6 +8024,7 @@ books:
     ocr_archive: {state: none}
     mining: {state: none}
     ingestion: {state: none}
+    work_registry: 'read (place prose ar/en/ur): active (claude-sonnet-5-5 / lane-b1)'
     completion: downloaded
     unverified:
     - author
@@ -10313,7 +10314,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: needs OCR zip (ocr_archive none); ocr_pages 956 of 1047 pages (pages without text may be blank); progress file says the book is complete (not independently verified)
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 956 of 1047 pages (pages without text may be blank); progress file says the book is complete (not independently verified); progress file: STATUS COMPLETE, all 50 hadiths mined'
   - id: lamaat-tanqih
     title: لمعات التنقيح في شرح مشكاة المصابيح (+1 more scans)
     category: hadith
@@ -12370,7 +12371,7 @@ books:
     - physical.offset
     - publisher
     - year
-    notes: needs OCR zip (ocr_archive none)
+    notes: 'needs OCR zip (ocr_archive none); ACTIVE: another worker is mining the Canon (founder ledger 14 Nov 2026); single-file copy, citing source is canon-ibn-sina-print'
   - id: canon-ibn-sina-print-v1
     title: القانون في الطب
     author: al-Husayn ibn Ali Ibn Sina; Muhammad Amin al-Dannawi
@@ -12386,7 +12387,7 @@ books:
     physical: {pages: 741}
     ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/canon-ibn-sina-print-v1/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '600 data files cite source/canon-ibn-sina-print-v1,canon-ibn-sina-print'}
+    mining: {state: in_progress, ranges_mined: ['scan about 36-311 (Book I, Generalities, finished at scan p.311 per canon-ibn-sina-progress.md)'], entities: '600 data files cite source/canon-ibn-sina-print-v1,canon-ibn-sina-print'}
     ingestion: {state: partial, prs: [188, 6340, 6341, 6342, 6344, 6345, 6346, 6347, 6348, 6349, 6350, 6351, 6352, 6353, 6354, 6355, 6356, 6357, 6370, 6373, 6385, 6387, 6389, 6391, 6392, 6395, 6398, 6400, 6402, 6404, 6406, 6408, 6410, 6412, 6414, 6417, 6418, 6420, 6421, 6423], ledger: [docs/delegation/library/medicine-science.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print], prs_total: 80}
     work_registry: 'harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser); mine (read-only OCR text, no new OCR): active (claude-sonnet-5-5 / lane-a-a2-canon)'
     completion: mining
@@ -12398,7 +12399,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: 'needs OCR zip (ocr_archive none); other source ids: canon-ibn-sina-print'
+    notes: 'needs OCR zip (ocr_archive none); ACTIVE: another worker is mining the Canon (founder ledger 14 Nov 2026); next is Book II (scan p.313 on); a proper Galen person record is still needed; other source ids: canon-ibn-sina-print'
   - id: canon-ibn-sina-print-v2
     title: القانون في الطب
     author: al-Husayn ibn Ali Ibn Sina; Muhammad Amin al-Dannawi
@@ -12425,7 +12426,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: 'needs OCR zip (ocr_archive none); other source ids: canon-ibn-sina-print'
+    notes: 'needs OCR zip (ocr_archive none); ACTIVE: another worker is mining the Canon (founder ledger 14 Nov 2026); other source ids: canon-ibn-sina-print'
   - id: canon-ibn-sina-print-v3
     title: القانون في الطب
     author: al-Husayn ibn Ali Ibn Sina; Muhammad Amin al-Dannawi
@@ -12452,7 +12453,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: 'needs OCR zip (ocr_archive none); other source ids: canon-ibn-sina-print'
+    notes: 'needs OCR zip (ocr_archive none); ACTIVE: another worker is mining the Canon (founder ledger 14 Nov 2026); other source ids: canon-ibn-sina-print'
   - id: hawi-razi
     title: hawi razi
     category: medicine-science
@@ -12489,7 +12490,7 @@ books:
     physical: {pages: 803}
     ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/ibn-haytham-manazir/}
     ocr_archive: {state: none}
-    mining: {state: in_progress}
+    mining: {state: in_progress, ranges_mined: [scan 60-200 (Book 1), Article 2 to scan 339, Article 3 to scan 371], held: [{pages: 'printed 532, 546 and 666', reason: held for the founder per the Manazir ledger (dec-20261114-277); the hilyat-awliya ledger lists the same pages}]}
     ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
     work_registry: 'harvest (entities + ar/en/ur prose from existing OCR): active (claude-fable-5-2 / microsd-books)'
     completion: mining
@@ -12504,7 +12505,7 @@ books:
     - publisher
     - title
     - year
-    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+    notes: 'needs OCR zip (ocr_archive none); Manazir: remaining scan pp. 372-533 (Article 3 chapters 2-7); title unknown: label is the archive.org or folder identifier'
   - id: khwarizmi-algebra
     title: كتاب الجبر والمقابلة
     author: Muhammad ibn Musa al-Khwarizmi
@@ -12608,7 +12609,7 @@ books:
     - physical.offset
     - publisher
     - year
-    notes: needs OCR zip (ocr_archive none)
+    notes: 'needs OCR zip (ocr_archive none); ACTIVE: another worker mines al-Zij al-Sabi (founder ledger 14 Nov 2026); worker L OCR-harvest pass found nothing to add on 4 Nov'
   # END books:medicine-science
   # BEGIN books:modern
   - id: ghazali-islam-socialist-methods
@@ -13565,7 +13566,7 @@ books:
     physical: {pages: 3593}
     ocr: {state: complete, date: '2026-11-04', unzipped_location: books/sahaba/hilyat-awliya/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: 182 data files cite source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988}
+    mining: {state: in_progress, held: [{pages: 'printed 532, 546 and 666', reason: held for the founder per the hilyat-awliya ledger (dec-20261114-277)}], entities: 182 data files cite source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988}
     ingestion: {state: partial, prs: [3463, 5722, 5744, 6119, 6120, 6122, 6124, 6125, 6127, 6128, 6130, 6135, 6137, 6140, 6145, 6150, 6156, 6161, 6167, 6186, 6190, 6196, 6201, 6204, 6206, 6207, 6210, 6213, 6221, 6225, 6232, 6239, 6246, 6253, 6259, 6261, 6265, 6267, 6269, 6272], ledger: [docs/delegation/library/hilyat-awliya.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988], prs_total: 86}
     work_registry: 'harvest (entities + ar/en/ur prose from existing OCR; no new OCR): active (claude-fable-5-2 / microsd-books); harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser)'
     completion: mining
@@ -13577,7 +13578,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: needs OCR zip (ocr_archive none)
+    notes: 'needs OCR zip (ocr_archive none); vol. 10 body ends at printed 689 (scan p.408); next step needs a ruling: the seeded queue or the next volume'
   - id: isaba
     title: الإصابة في تمييز الصحابة
     author: ابن حجر العسقلاني
@@ -13961,7 +13962,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); a second OCR run also sits at ocr/nisa-hawl-alrasul/ (ocr.log, pages/); no merged PR found in git history for this book (mined before pull-request-only rule or not traceable)
+    notes: 'needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); progress file: lane complete, all 49 biographies mined (7 batches); a second OCR run also sits at ocr/nisa-hawl-alrasul/ (ocr.log, pages/); no merged PR found in git history for this book (mined before pull-request-only rule or not traceable)'
   - id: nisa-sahabiyat-tabaqat
     title: الطبقات الكبرى لابن سعد — القسم المتمم لتابعي أهل المدينة ومن بعدهم
     author: محمد ابن سعد; Muhammad Ibn Sa'd
@@ -14457,8 +14458,8 @@ books:
     physical: {pages: 461}
     ocr: {state: complete, date: '2026-10-22', unzipped_location: books/seerah/sira-hadi-ila-al-haqq/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: 450 data files cite source/sira-hadi-ila-al-haqq}
-    ingestion: {state: partial, prs: [401, 6046, 6577, 6581, 6599, 6613, 6635, 6640, 6644, 6651, 6658, 6669, 6683, 6693, 6700, 6720, 6737, 6746, 6759, 6771, 6784, 6793, 6807, 6819, 6833, 6848, 6858, 6869, 6882, 6894, 6906, 6915, 6924, 6938, 6952], ledger: [docs/delegation/library/lib-sira-hadi-ila-al-haqq.md], graph_ids: [source/sira-hadi-ila-al-haqq, work/sira-hadi-ila-al-haqq]}
+    mining: {state: in_progress, ranges_mined: ['printed 1-285 (approximate: continuous batches to 276-285 on 14 Nov 2026)'], entities: 450 data files cite source/sira-hadi-ila-al-haqq}
+    ingestion: {state: partial, prs: [401, 6046, 6577, 6581, 6599, 6613, 6635, 6640, 6644, 6651, 6658, 6669, 6683, 6693, 6700, 6720, 6737, 6746, 6759, 6771, 6784, 6793, 6807, 6819, 6833, 6848, 6858, 6869, 6882, 6894, 6906, 6915, 6924, 6938, 6952, 6972], ledger: [docs/delegation/library/lib-sira-hadi-ila-al-haqq.md], graph_ids: [source/sira-hadi-ila-al-haqq, work/sira-hadi-ila-al-haqq]}
     work_registry: 'ocr: active (claude-haiku-5-5 / orchestrator-lane-a)'
     completion: mining
     unverified:
@@ -14470,7 +14471,7 @@ books:
     - physical.offset
     - publisher
     - year
-    notes: needs OCR zip (ocr_archive none)
+    notes: 'needs OCR zip (ocr_archive none); ACTIVE: another worker is mining this book (founder ledger 14 Nov 2026); tax-ruling concept records held until a cited Sunni and academic source is read'
   - id: sira-ibn-hisham
     title: السيرة النبوية ⁦(سيرة ابن هشام)⁩
     category: seerah
@@ -15092,7 +15093,7 @@ books:
     physical: {pages: 675}
     ocr: {state: complete, date: '2026-10-12', unzipped_location: books/tabaqat/tabaqat-fuqaha/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: 151 data files cite source/tabaqat-fuqaha-abbas-1981}
+    mining: {state: in_progress, ranges_mined: [PDF about 1-65], entities: 151 data files cite source/tabaqat-fuqaha-abbas-1981}
     ingestion: {state: partial, prs: [3407, 3437, 3442, 3458, 3467, 3468, 6001], ledger: [docs/delegation/library/tabaqat-fuqaha.md], graph_ids: [source/tabaqat-fuqaha-abbas-1981, work/tabaqat-fuqaha]}
     completion: mining
     unverified:
@@ -15103,7 +15104,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: needs OCR zip (ocr_archive none)
+    notes: 'needs OCR zip (ocr_archive none); progress file next step: PDF p.64 foot (Abu Hamid al-Isfara''ini) onward, of a 675-page scan; PDF pages not printed pages'
   - id: tabaqat-huffaz
     title: تذكرة الحفاظ
     author: الذهبي الذهبي
@@ -15468,9 +15469,9 @@ books:
     physical: {pages: 7372}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/tafsir/tafsir-ibn-kathir/}
     ocr_archive: {state: none}
-    mining: {state: mined, entities: '210 data files cite source/tafsir-ibn-kathir,tafsir-tabari-shakir-v01'}
-    ingestion: {state: ingested, prs: [3194, 3486, 5535, 5553, 5554, 5555, 5556, 5558, 5559, 5560, 5562, 5563, 5564, 5565, 5566, 5567, 5569, 5571, 5572, 5573, 5574, 5575, 5576, 5577, 5578, 5579, 5580, 5582, 5583, 5585, 5586, 5587, 5588, 5589, 5590, 5591, 5592, 5593, 5594, 5596], ledger: [docs/delegation/library/tafsir-tabari-shakir.md], graph_ids: [source/tafsir-ibn-kathir, source/tafsir-tabari-shakir-v01, work/tafsir-ibn-kathir], prs_total: 52}
-    completion: ingested
+    mining: {state: in_progress, entities: '210 data files cite source/tafsir-ibn-kathir,tafsir-tabari-shakir-v01'}
+    ingestion: {state: partial, prs: [3194, 3486, 5535, 5553, 5554, 5555, 5556, 5558, 5559, 5560, 5562, 5563, 5564, 5565, 5566, 5567, 5569, 5571, 5572, 5573, 5574, 5575, 5576, 5577, 5578, 5579, 5580, 5582, 5583, 5585, 5586, 5587, 5588, 5589, 5590, 5591, 5592, 5593, 5594, 5596], ledger: [docs/delegation/library/tafsir-tabari-shakir.md], graph_ids: [source/tafsir-ibn-kathir, source/tafsir-tabari-shakir-v01, work/tafsir-ibn-kathir], prs_total: 52}
+    completion: mining
     unverified:
     - edition
     - mining.ranges_mined
@@ -15479,7 +15480,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: 'needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); other source ids: tafsir-tabari-shakir-v01'
+    notes: 'needs OCR zip (ocr_archive none); other source ids: tafsir-tabari-shakir-v01'
   - id: tafsir-jalalayn
     title: تفسير الجلالين
     author: جلال الدين المحلي; جلال الدين السيوطي; محمد محمد تامر
@@ -16025,9 +16026,9 @@ books:
     physical: {pages: 3529}
     ocr: {state: partial, date: '2026-10-14', failed_pages: 525, unzipped_location: books/tafsir/tafsir-tabari/}
     ocr_archive: {state: none}
-    mining: {state: mined, entities: '153 data files cite source/qiraat-inda-al-tabari-thesis-umm-al-qura,muharrar-wajiz-dar-ibn-hazm,tafsir-tabari-shakir-v01'}
-    ingestion: {state: ingested, prs: [3431, 3449, 3462, 3486, 3489, 3490, 3494, 3498, 3500, 3503, 3505, 5553, 5554, 5555, 5556, 5558, 5559, 5560, 5562, 5563, 5564, 5565, 5566, 5567, 5569, 5571, 5572, 5573, 5574, 5575, 5576, 5577, 5578, 5579, 5580, 5582, 5583, 5585, 5586, 5587], ledger: [docs/delegation/library/tafsir-tabari.md, docs/delegation/library/tafsir-tabari-shakir.md], graph_ids: [source/qiraat-inda-al-tabari-thesis-umm-al-qura, source/muharrar-wajiz-dar-ibn-hazm, source/tafsir-tabari-shakir-v01], prs_total: 59}
-    completion: ingested
+    mining: {state: in_progress, entities: '153 data files cite source/qiraat-inda-al-tabari-thesis-umm-al-qura,muharrar-wajiz-dar-ibn-hazm,tafsir-tabari-shakir-v01'}
+    ingestion: {state: partial, prs: [3431, 3449, 3462, 3486, 3489, 3490, 3494, 3498, 3500, 3503, 3505, 5553, 5554, 5555, 5556, 5558, 5559, 5560, 5562, 5563, 5564, 5565, 5566, 5567, 5569, 5571, 5572, 5573, 5574, 5575, 5576, 5577, 5578, 5579, 5580, 5582, 5583, 5585, 5586, 5587], ledger: [docs/delegation/library/tafsir-tabari.md, docs/delegation/library/tafsir-tabari-shakir.md], graph_ids: [source/qiraat-inda-al-tabari-thesis-umm-al-qura, source/muharrar-wajiz-dar-ibn-hazm, source/tafsir-tabari-shakir-v01], prs_total: 59}
+    completion: mining
     unverified:
     - edition
     - mining.ranges_mined
@@ -16036,7 +16037,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: 'needs OCR zip (ocr_archive none); ocr_pages 3004 of 3529 pages (pages without text may be blank); progress file says the book is complete (not independently verified); other source ids: muharrar-wajiz-dar-ibn-hazm, tafsir-tabari-shakir-v01'
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 3004 of 3529 pages (pages without text may be blank); other source ids: muharrar-wajiz-dar-ibn-hazm, tafsir-tabari-shakir-v01'
   - id: tafsir-tabari-shakir
     title: جامع البيان عن تأويل آي القرآن، الجزء ١
     author: Muhammad ibn Jarir al-Tabari
@@ -16066,10 +16067,10 @@ books:
     physical: {pages: 10242}
     ocr: {state: complete, date: '2026-11-04', unzipped_location: books/tafsir/tafsir-tabari-shakir/}
     ocr_archive: {state: none}
-    mining: {state: mined, entities: 112 data files cite source/tafsir-tabari-shakir-v01}
-    ingestion: {state: ingested, prs: [3486, 3489, 3490, 3494, 3498, 3500, 3503, 3505, 5553, 5554, 5555, 5556, 5558, 5559, 5560, 5562, 5563, 5564, 5565, 5566, 5567, 5569, 5571, 5572, 5573, 5574, 5575, 5576, 5577, 5578, 5579, 5580, 5582, 5583, 5585, 5586, 5587, 5588, 5589, 5590], ledger: [docs/delegation/library/tafsir-tabari-shakir.md], graph_ids: [source/tafsir-tabari-shakir-v01], prs_total: 56}
+    mining: {state: in_progress, entities: 112 data files cite source/tafsir-tabari-shakir-v01}
+    ingestion: {state: partial, prs: [3486, 3489, 3490, 3494, 3498, 3500, 3503, 3505, 5553, 5554, 5555, 5556, 5558, 5559, 5560, 5562, 5563, 5564, 5565, 5566, 5567, 5569, 5571, 5572, 5573, 5574, 5575, 5576, 5577, 5578, 5579, 5580, 5582, 5583, 5585, 5586, 5587, 5588, 5589, 5590], ledger: [docs/delegation/library/tafsir-tabari-shakir.md], graph_ids: [source/tafsir-tabari-shakir-v01], prs_total: 56}
     work_registry: 'download + ocr: released 2026-11-04 16:30 (stopped by founder) (claude-opus-5-5 / ocr-harvest-2026-11-04)'
-    completion: ingested
+    completion: mining
     unverified:
     - edition
     - mining.ranges_mined
@@ -16078,7 +16079,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified)
+    notes: 'needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); progress file: volume 1 complete (7 Nov 2026) and later volumes filed by batches (for example batch 75, pp. 578-586); the book is not finished'
   - id: tafsir-tantawi-wasit
     title: التفسير الوسيط للقرآن الكريم
     author: محمد سيد طنطاوي
@@ -16404,6 +16405,7 @@ books:
     ocr_archive: {state: none}
     mining: {state: in_progress, entities: 1087 data files cite source/dawlat-uthmaniyya-salabi}
     ingestion: {state: partial, graph_ids: [source/dawlat-uthmaniyya-salabi]}
+    work_registry: 'read (place prose ar/en/ur): active (claude-sonnet-5-5 / lane-b1)'
     completion: mining
     unverified:
     - edition
@@ -16550,9 +16552,9 @@ books:
     physical: {pages: 2263}
     ocr: {state: partial, date: '2026-10-13', failed_pages: 1, unzipped_location: books/tareekh/futuh-buldan/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: 1573 data files cite source/futuh-buldan-maarif-1407}
-    ingestion: {state: partial, prs: [2654, 3540], ledger: [docs/delegation/library/futuh-buldan.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/futuh-buldan-maarif-1407, work/futuh-buldan]}
-    completion: mining
+    mining: {state: mined, ranges_mined: ['printed 1-665 (of a 768-page scan; end of text, rest is index)'], entities: 1573 data files cite source/futuh-buldan-maarif-1407}
+    ingestion: {state: ingested, prs: [2654, 3540], ledger: [docs/delegation/library/futuh-buldan.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/futuh-buldan-maarif-1407, work/futuh-buldan]}
+    completion: ingested
     unverified:
     - edition
     - mining.ranges_mined
@@ -16561,7 +16563,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: needs OCR zip (ocr_archive none); ocr_pages 2262 of 2263 pages (pages without text may be blank)
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 2262 of 2263 pages (pages without text may be blank); progress file says the book is complete (not independently verified); progress file: Futuh al-Buldan COMPLETE, about 99 batches and 1100 entities'
   - id: futuh-misr
     title: فتوح مصر والمغرب
     author: عبد الرحمن بن عبد الله ابن عبد الحكم; Abd al-Rahman ibn Abd Allah Ibn Abd al-Hakam
@@ -16647,7 +16649,7 @@ books:
     - physical.offset
     - publisher
     - year
-    notes: needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); no merged PR found in git history for this book (mined before pull-request-only rule or not traceable)
+    notes: 'needs OCR zip (ocr_archive none); progress file kamil-ibn-al-athir.md: lane essentially complete for this scan (vol mined through 629, vol. 1 end to end); microsd-books ledger lists it as complete; no merged PR found in git history for this book (mined before pull-request-only rule or not traceable)'
   - id: kamil-ziyarat
     title: كامل الزيارات
     author: Ja'far b. Muhammad Ibn Quluwayh al-Qummi
@@ -16863,7 +16865,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified)
+    notes: 'needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); progress file: COMPLETE, both Dar al-Afriqiyya volumes mined end to end (to p.721 and p.751 colophon); other scans are duplicates not mined'
   - id: musawat-atabat
     title: موسوعة العتبات المقدسة — قسم سامراء
     author: Ja'far al-Khalili
@@ -17017,7 +17019,7 @@ books:
     - physical.offset
     - publisher
     - year
-    notes: 'needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); other source ids: qisas-anbiya-thaalabi-edition'
+    notes: 'needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); progress file: vols 1-8 fully mined through AH 1000 and colophon; other source ids: qisas-anbiya-thaalabi-edition'
   - id: subh-asha
     title: صبح الأعشى
     author: أبو العباس أحمد القلقشندي; Abu al-Abbas Ahmad al-Qalqashandi
@@ -17050,7 +17052,7 @@ books:
     ocr_archive: {state: none}
     mining: {state: in_progress, entities: '29 data files cite source/subh-al-asha-cairo-v1,subh-al-asha-cairo-v14'}
     ingestion: {state: partial, prs: [3449, 3470], ledger: [docs/delegation/library/subh-asha.md], graph_ids: [source/subh-al-asha-cairo-v1, source/subh-al-asha-cairo-v14]}
-    work_registry: 'download+ocr: done 2026-10-31 (claude-opus-5-5 / islamic-history-books-ocr-353be5)'
+    work_registry: 'download+ocr: done 2026-10-31 (claude-opus-5-5 / islamic-history-books-ocr-353be5); read (place prose ar/en/ur): active (claude-sonnet-5-5 / lane-b1)'
     completion: mining
     unverified:
     - edition
@@ -17154,6 +17156,7 @@ books:
     ocr_archive: {state: none}
     mining: {state: none}
     ingestion: {state: none}
+    work_registry: 'read (place prose ar/en/ur): active (claude-sonnet-5-5 / lane-b1)'
     completion: downloaded
     unverified:
     - author
@@ -17240,6 +17243,7 @@ books:
     ocr_archive: {state: none}
     mining: {state: in_progress, entities: '530 data files cite source/tarikh-ibn-khaldun-ibar,muqaddima-ibn-khaldun'}
     ingestion: {state: partial, ledger: [docs/delegation/library/tarikh-ibn-khaldun-ibar.md], graph_ids: [source/tarikh-ibn-khaldun-ibar, source/muqaddima-ibn-khaldun]}
+    work_registry: 'read (place prose ar/en/ur): active (claude-sonnet-5-5 / lane-b1)'
     completion: mining
     unverified:
     - edition
@@ -17351,6 +17355,7 @@ books:
     ocr_archive: {state: none}
     mining: {state: in_progress, entities: 6873 data files cite source/tarikh-islam-hasan-ibrahim}
     ingestion: {state: partial, prs: [4226, 6059], graph_ids: [source/tarikh-islam-hasan-ibrahim, work/tarikh-islam-hasan-ibrahim]}
+    work_registry: 'read (place prose ar/en/ur): active (claude-sonnet-5-5 / lane-b1)'
     completion: mining
     unverified:
     - edition
@@ -17409,7 +17414,7 @@ books:
     physical: {pages: 1123}
     ocr: {state: complete, date: '2026-10-13', unzipped_location: books/tareekh/tarikh-khulafa/}
     ocr_archive: {state: none}
-    mining: {state: mined, entities: 2230 data files cite source/tarikh-khulafa-minhaj-1434}
+    mining: {state: mined, ranges_mined: [93-801], entities: 2230 data files cite source/tarikh-khulafa-minhaj-1434}
     ingestion: {state: ingested, prs: [2882, 4739, 4804], ledger: [docs/delegation/library/tarikh-khulafa.md], graph_ids: [source/tarikh-khulafa-minhaj-1434]}
     completion: ingested
     unverified:
@@ -17420,7 +17425,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified)
+    notes: 'needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); progress file: BOOK COMPLETE, body to p.793 plus appendices to p.801'
   - id: tarikh-tabari
     title: 223581 - تاريخ الرسل والملوك (+3 more scans)
     category: tareekh
@@ -17463,6 +17468,7 @@ books:
     ocr_archive: {state: none}
     mining: {state: none}
     ingestion: {state: none}
+    work_registry: 'read (place prose ar/en/ur): active (claude-sonnet-5-5 / lane-b1)'
     completion: downloaded
     unverified:
     - author
@@ -17518,9 +17524,9 @@ books:
     physical: {pages: 1643}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/tareekh/wafayat-ayan/}
     ocr_archive: {state: none}
-    mining: {state: mined, entities: 387 data files cite source/wafayat-ayan}
-    ingestion: {state: ingested, ledger: [docs/delegation/library/wafayat-ayan.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/wafayat-ayan]}
-    completion: ingested
+    mining: {state: in_progress, entities: 387 data files cite source/wafayat-ayan}
+    ingestion: {state: partial, ledger: [docs/delegation/library/wafayat-ayan.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/wafayat-ayan]}
+    completion: mining
     unverified:
     - edition
     - mining.ranges_mined
@@ -17530,7 +17536,7 @@ books:
     - physical.offset
     - publisher
     - year
-    notes: needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); no merged PR found in git history for this book (mined before pull-request-only rule or not traceable)
+    notes: needs OCR zip (ocr_archive none)
   - id: wafi-wafayat
     title: wafi wafayat
     category: tareekh

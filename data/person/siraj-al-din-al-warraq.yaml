@@ -6,25 +6,26 @@ label:
 roles: [poet, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لسراج الدين الوراق، كاتب وشاعر القرن الثالث عشر، توفي سنة ١٢٩٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Siraj al-Din al-Warraq, the thirteenth-century writer and poet, d. 1296; the biographical entry is not yet checked on the page."
+  ar: "عمر بن محمد بن حسن، أبو حفص، سراج الدين الوراق، شاعر مصر في عصره وكاتب واليها الأمير يوسف بن سباسلار، له ديوان شعر كبير في سبعة مجلدات اختار منه الصفدي لمع السراج، توفي بالقاهرة سنة 695 هـ."
+  en: "Umar ibn Muhammad ibn Hasan, Abu Hafs, Siraj al-Din al-Warraq, the poet of Egypt in his age and secretary to its governor, the emir Yusuf ibn Sabasalar; his large diwan in seven volumes was the source of al-Safadi's selection Lum' al-Siraj; died in Cairo in 695 AH (1296)."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1218", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat" }
-died: { edtf: "1296", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat" }
+born: { edtf: "1218", hijri: "0615", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat. al-Zirikli prints 615 AH = 1219 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 63}; 615 AH began in March 1218, so the card year 1218 is kept.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1296", hijri: "0695", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat. al-Zirikli prints 695 AH = 1296 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 63}, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q85)" }
-sources: [source/al-aalam, source/wikidata]
+  - { type: died_in, target: place/cairo, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 5 p. 63: died in Cairo" }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12215647
   viaf: "41150747060216302655"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0048
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

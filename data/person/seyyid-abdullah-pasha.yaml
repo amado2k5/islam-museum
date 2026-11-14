@@ -6,29 +6,35 @@ label:
 roles: [vizier]
 gender: male
 summary:
-  ar: "بطاقة أولية لسيد عبد الله باشا، الصدر الأعظم العثماني في عهد محمود الأول؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Seyyid Abdullah Pasha, the Ottoman grand vizier under Mahmud I; his entry is not yet checked on the page."
+  ar: "عبد الله باشا بن إبراهيم الحسيني الجرمكي الشتجي، والٍ عثماني من جرمك في أعمال ديار بكر، ولي الصدارة العظمى وآخر ما وليه حلب ثم دمشق سنة 1172 هـ، وصنف «أنهار الجنان في ينابيع آيات القرآن»؛ توفي سنة 1174 هـ الموافقة 1761 م."
+  en: "Abd Allah Pasha ibn Ibrahim al-Husayni al-Jarmaki al-Shatji, an Ottoman governor from Jarmak in the district of Diyarbakir, who held the grand vizierate, last served at Aleppo and then Damascus (1172 AH) and wrote Anhar al-Jinan fi Yanabi' Ayat al-Qur'an; died 1174 AH (1761)."
 wings: [people]
-regions: [anatolia-balkans]
+regions: [anatolia-balkans, levant-iraq]
 periods: [period/gunpowder-empires]
-died: { edtf: "1761", precision: year, status: tradition, derived: true }
+born: { edtf: "1703", hijri: "1115", calendar: gregorian, precision: year, status: historical, note: "al-A'lam vol. 4 p. 64 prints 1115 AH = 1703 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1761", hijri: "1174", calendar: gregorian, precision: year, status: tradition, derived: true, note: "al-A'lam vol. 4 p. 64 prints 1174 AH = 1761 CE, agreeing with the card; the entry adds that it was rumoured he had been killed and gives no place of death.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: died_in, target: place/aleppo-eyalet, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3043596)" }
-sources: [source/dawlat-uthmaniyya-salabi]
+  - { type: died_in, target: place/aleppo-eyalet, sources: [source/wikidata], confidence: low, note: "Wikidata P20 place of death (Wikidata Q3043596); al-A'lam vol. 4 p. 64 gives no place of death (see the GEMINI line in the packet manifest)" }
+  - { type: lived_in, target: place/damascus, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, al-A'lam, vol. 4 p. 64: governor of Damascus in 1172 AH, a short term" }
+  - { type: lived_in, target: place/aleppo, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, al-A'lam, vol. 4 p. 64: held Aleppo before Damascus" }
+  - { type: lived_in, target: place/diyarbak-r, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, al-A'lam, vol. 4 p. 64: served at Diyarbakir and was transferred there after dismissal" }
+  - { type: lived_in, target: place/edirne, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, al-A'lam, vol. 4 p. 64: served at Edirne" }
+  - { type: lived_in, target: place/van, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, al-A'lam, vol. 4 p. 64: served at Van" }
+sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6097381
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/vizier
     kind: primary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/dawlat-uthmaniyya-salabi]
+    note: "al-Zirikli, al-A'lam, vol. 4 p. 64: held the grand vizierate; dates not given"
+    sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002]

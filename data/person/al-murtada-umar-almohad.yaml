@@ -17,7 +17,8 @@ provenance:
   source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان ⁦(حرف الياء)⁩"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-wafayat-batch-3
-sources: [source/wafayat-ayan]
+external_ids: { wikidata: Q2822085 }
+sources: [source/wafayat-ayan, source/wikidata-al-murtada-umar-almohad]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari] }

@@ -6,25 +6,28 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لسراج الدين المخزومي، عالم القرن الخامس عشر؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Siraj al-Din al-Makhzumi, the fifteenth-century scholar; the biographical entry is not yet checked on the page."
+  ar: "محمد بن عبد الله بن محمد المخزومي الرفاعي الحسيني، سراج الدين، وصفه الزركلي بأنه شيخ الإسلام في عصره، ولد بواسط ورحل إلى الشام ومصر وتوفي ببغداد، من كتبه صحاح الأخبار في نسب السادة الفاطمية، توفي سنة 885 هـ."
+  en: "Muhammad ibn Abdallah ibn Muhammad al-Makhzumi al-Rifa'i al-Husayni, Siraj al-Din, called by al-Zirikli the shaykh al-Islam of his time; born in Wasit, he travelled to Syria and Egypt and died in Baghdad; author of Sihah al-Akhbar on the lineage of the Fatimid sayyids; died 885 AH (1480)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam, source/wikidata]
-born: { edtf: "1378", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
-died: { edtf: "1480", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+born: { edtf: "1378", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami. Card year kept; al-Zirikli prints 793 AH = 1391 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 238}, which differs by thirteen years (see the GEMINI line in the ledger).", sources: [source/wikidata] }
+died: { edtf: "1480", hijri: "0885", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami. al-Zirikli prints 885 AH = 1480 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 238}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/mecca, confidence: low, note: "Nisba al-Makhzumi, of Quraysh of Mecca (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
+  - { type: born_in, target: place/wasit, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 238: born in Wasit in Iraq" }
+  - { type: died_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 238: died in Baghdad" }
+  - { type: traveled_to, target: place/syria, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 238: travelled to al-Sham" }
+  - { type: traveled_to, target: place/misr, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 238: travelled to Egypt" }
 external_ids:
   wikidata: Q110260192
   viaf: "90082466"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0057
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

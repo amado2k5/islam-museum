@@ -55,6 +55,10 @@ inside your segment's `BEGIN`/`END` block. Check: `npm run check:harvest-registe
 Items the repository and drive cannot settle go in as `unverified` and as a line starting `GEMINI:`
 below, for the founder to send in a batch.
 
+GEMINI: ibn-haytham-manazir / hilyat-awliya: held printed pages 532, 546 and 666; the founder's held list names Kitab al-Manazir, the hilyat-awliya ledger (docs/delegation/library/hilyat-awliya.md) lists the same page numbers for Hilyat al-Awliya; which book holds them? I recorded them as held in both entries.
+GEMINI: books segment, entries with an archive.org identifier as title (unverified: title): author, title and edition could not be read from the manifest or ledgers; the scan's title page would settle them.
+GEMINI: raw/library/tafsir-app and the fatwa catalogue JSON files: not books; left for the websites and datasets segments (tafsir.app harvest tree, dar-alifta catalogue).
+
 ## Wrap-up queue
 (Maintained from the register: every partly mined or nearly complete book, ranked by share of pages
 mined, highest first, with what remains: pages left, held pages, OCR gaps, zip needed, and whether a

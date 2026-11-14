@@ -6,23 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لسليمان بن عبد الوهاب، فقيه نجد القرن الثامن عشر وأخ محمد بن عبد الوهاب الذي خالفه، توفي سنة ١٧٩٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sulayman ibn Abd al-Wahhab, the eighteenth-century jurist of Najd and brother of Muhammad ibn Abd al-Wahhab who differed with him, d. 1794; the biographical entry is not yet checked on the page."
+  ar: "سليمان بن عبد الوهاب بن سليمان التميمي النجدي، أخو الشيخ محمد بن عبد الوهاب، يذكر الزركلي أنه عارض أخاه في الدعوة وكتب رسائل في ذلك ثم عاد وأظهر الندم، وتوفي نحو سنة 1210 هـ."
+  en: "Sulayman ibn Abd al-Wahhab ibn Sulayman al-Tamimi al-Najdi, brother of Shaykh Muhammad ibn Abd al-Wahhab; al-Zirikli says he opposed his brother's call and wrote treatises on it, then returned and expressed regret; died about 1210 AH (about 1795)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q92314346
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0051
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1793", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q92314346 (P570, a statement with a reference), item revision 2560903691.", sources: [source/wikidata] }
+  completeness: 3
+died: { edtf: "1793", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q92314346 (P570, a statement with a reference), item revision 2560903691. Card year kept; al-Zirikli prints about 1210 AH = about 1795 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 130}, two years later (see the GEMINI line in the ledger).", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/najd, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
+  - { type: sibling_of, target: person/muhammad-ibn-abd-al-wahhab, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 3 p. 130: brother of Shaykh Muhammad ibn Abd al-Wahhab" }
+  - { type: lived_in, target: place/najd, confidence: low, note: "The nisba al-Najdi in al-Zirikli, vol. 3 p. 130, is the only place named; specific residence or role there is not documented.", sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002] }

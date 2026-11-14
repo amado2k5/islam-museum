@@ -21,13 +21,14 @@ honours:
   - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1982, sources: [source/wikipedia-king-faisal-prize-en] }
 relations:
   - { type: lived_in, target: place/riyadh, confidence: low, note: "Associated with Riyadh per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/wikipedia-king-faisal-prize-en]
+external_ids: { wikidata: Q307193 }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikipedia-king-faisal-prize-en, source/wikidata-ibn-baz-abd-al-aziz]
 status:
   review: published
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص86"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج3 ص86"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch58
