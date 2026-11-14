@@ -26,6 +26,22 @@ describe("extremism hard block: names that must be caught", () => {
     "حركة حماس",
     "جبهة النصرة",
     "افغان طالبان کی حکومت",
+    "a JNIM communiqué",
+    "TTP claimed the attack",
+    "the GIA in Algeria",
+    "Jama'at Nusrat al-Islam wal-Muslimin",
+    "Ansaru in northern Nigeria",
+    "the Abdallah Azzam Brigades",
+    "Al-Murabitoun in the Sahel",
+    "the Gama'a al-Islamiyya in Egypt",
+    "Caucasus Emirate fighters",
+    "Egyptian Islamic Jihad merged into it",
+    "the Islamic Movement of Uzbekistan",
+    "Lashkar-e-Jhangvi",
+    "Hizbul Mujahideen",
+    "Jund al-Aqsa",
+    "جند الأقصى",
+    "تنظيم حراس الدين",
   ])("blocks %s", (t) => expect(blocked(t)).toBe(true));
 });
 
