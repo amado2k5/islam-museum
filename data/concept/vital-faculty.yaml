@@ -1,0 +1,18 @@
+id: concept/vital-faculty
+class: concept
+kind: scientific
+label: { ar: "القوة الحيوانية عند ابن سينا", en: "The vital faculty in the Canon", ur: "قانون میں حیوانی قوت" }
+summary:
+  ar: "القوة الحيوانية عند ابن سينا هي التي إذا حصلت في الأعضاء هيأتها لقبول قوة الحس والحركة وأفعال الحياة، وروحها متولد من بخارية الأخلاط ولطافتها، ومعدنها القلب {cite:canon-ibn-sina-print-v1 pp.98-99}."
+  en: "The vital faculty in Ibn Sina is that which, once present in the organs, prepares them to receive the power of sensation and movement and the acts of life; its spirit is generated from the vapour and fineness of the humours, and its seat is the heart {cite:canon-ibn-sina-print-v1 pp.98-99}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/powers-and-actions, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on the veins and the faculties (scan pages 90 to 99), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
