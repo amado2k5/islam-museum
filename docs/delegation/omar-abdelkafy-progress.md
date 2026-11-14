@@ -4234,3 +4234,14 @@ Resume point: sharh-saheeh-al-bukhare episode 29 (branch from origin/main).
 | Detail dropped from three description bullets (speech pace and amount, chest, downhill gait) | ep29 00:49:00-00:49:30, 00:51:00, 00:58:30 | Not clearly supported by the garbled transcript | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 30 (branch from origin/main).
+
+### alwaad-alhaq ep23 (14 Nov 2026)
+
+22 points written for episode 23 (ar, en, ur); 17 needs_source marks for this episode in each language file; about edges added to israfil, the Day of Spreading, the land of gathering, the Day of Gathering, the states of the Day of Rising, the blasts of the Trumpet, the signs of the Hour and intercession. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| garbled transcript passages (the exchange with Abraham on fearing the Rising, the Safiyya anecdote, the closing poem, the sura named for steadfastness, looping segments 00:41:30-00:42:30 and 00:47:30) | ep23 00:20:00-00:59:30 | transcript too garbled to assert | accuracy | Open |
+| the sheikh's view that the fetus is a person from the first day | ep23 00:19:30 | recorded as his view only, contested among scholars | sensitivity | Open |
+
+Resume point: alwaad-alhaq episode 24 (branch from origin/main).
