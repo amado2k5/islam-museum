@@ -1,0 +1,18 @@
+id: concept/canon-wine-on-food-and-fruit
+class: concept
+kind: scientific
+label: { ar: "الشراب على الطعام والفواكه عند ابن سينا", en: "Wine on food and on fruit in the Canon", ur: "کھانے اور پھلوں پر شراب قانون میں" }
+summary:
+  ar: "يعد ابن سينا تناول الشراب على كل طعام رديئاً ويؤخره إلى بعد انهضام الطعام وانحداره، ويخص الطعام الرديء الكيموس والفواكه وخصوصاً البطيخ، ويرخص في قدحين أو ثلاثة للمعتاد وبعد الفصد للصحيح {cite:canon-ibn-sina-print-v1 p.237}."
+  en: "Ibn Sina holds drinking wine on any food to be poor and puts it off until the food is digested and has descended, singling out food of bad chyme and fruit, melon above all, while allowing two or three cups to the accustomed and after bloodletting for the healthy {cite:canon-ibn-sina-print-v1 p.237}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 2 on the common regimen of adults, chapters 8 to 13 on water and drink, sleep, strengthening weak organs and fatigue (scan pages 236 to 244), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p236
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

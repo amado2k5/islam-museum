@@ -4662,6 +4662,23 @@ GEMINI: alwaad-alhaq ep32 (00:25:30) the hadith "among the greatest betrayals wi
 
 Resume point: sharh-saheeh-al-bukhare episode 41 (branch from origin/main).
 
+### alwaad-alhaq ep33 (14 Nov 2026)
+
+15 points written for episode 33 (ar, en, ur); 20 needs_source marks for this episode in each language file; about concept/jahannam, concept/sirat, concept/sabr, concept/kibr, concept/hidaya, concept/qadar and eight persons linked. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep33) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Anecdote of al-Hasan al-Basri and the young thief, with a remark on the thief of the secret | ep33 00:12:30-00:13:00 | Garbled and the saying cannot be read | Clarity | Open |
+| Remarks on satellite channels and a call against intellectual invasion in the context of the ruler's duty | ep33 00:18:30-00:19:30 | Sweeping modern political remarks and garbled | Voice rule, Clarity | Open |
+| Remark that fever in this world is the believer's share of the Fire | ep33 00:49:00-00:49:30 | Garbled and given without a source | Clarity | Open |
+| Remark on the many eternal residents of the Fire, whose speaker is unclear | ep33 00:28:00-00:28:30 | Speaker and sense unclear in the transcript | Clarity | Open |
+| Stretches of repeated words and loops | ep33 00:34:00, 00:45:30, 00:57:00-00:57:30, 00:59:00-00:59:30, 01:00:30-01:01:30 | Repetition loops, no recoverable content | Clarity, Loop check | Open |
+| Remark on the sheikh's views of Islamic law on Saturday and Sunday listeners and the closing announcements | ep33 01:15:30-01:17:00 | Administrative and a repeated recitation | Clarity | Open |
+
+Resume point: alwaad-alhaq episode 34 (branch from origin/main).
+
+- GEMINI: alwaad-alhaq ep33 00:57:30, the hadith of Jahannam brought with seventy thousand reins, each pulled by seventy thousand angels, which the sheikh places in Sahih al-Bukhari; settle which collection and number record it (the source that would settle it is the printed hadith collections and a primary-source check, not applied until verified).
+- GEMINI: alwaad-alhaq ep33 01:04:00, the saying of eight things that make prayer unanswered, told without a speaker; settle who is credited with it (the source that would settle it is the early books of asceticism and a primary-source check).
 ### sharh-saheeh-al-bukhare ep41 (14 Nov 2026)
 
 26 points written for episode 41 (ar, en, ur); 19 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (2-96, 26-62, 17-102); none typed. Contested: He holds that Islam is religion and state and calls talk of different kinds of Islam nonsense, and he presents his own views on learning from enemies, on teaching children the ancestors' history and on the three sources of cowardice; the many reports he tells without a chain are marked needs_source. Checked line by line against the transcript by a second reader before merge.
