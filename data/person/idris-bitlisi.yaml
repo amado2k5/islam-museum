@@ -6,26 +6,26 @@ label:
 roles: [writer, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لإدريس بن حسام الدين علي البدليسي، المؤرخ العثماني الكردي صاحب «هشت بهشت» في تاريخ الدولة العلية، توفي سنة ١٥٢٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Idris ibn Husam al-Din Ali al-Bitlisi, the Kurdish-Ottoman historian author of Hasht Bihisht on the Ottoman state, d. 1520; the biographical entry is not yet checked on the page."
+  ar: "المولى إدريس بن حسام الدين البدليسي، العجمي ثم الرومي الحنفي، كان موقعا في ديوان أمراء العجم، وارتحل بعد فتنة ابن أردويل إلى بلاد الروم فأكرمه السلطان أبو يزيد، وأمره أن ينشئ «تواريخ آل عثمان» بالفارسية؛ ذكره ابن العماد في وفيات سنة 925 هـ تقريبا {cite:shadharat-dhahab vol. 10 p. 184}."
+  en: "The mawla Idris ibn Husam al-Din al-Bidlisi, an Ajami Hanafi scholar who became one of the Rumis; secretary-attestor in the chancery of the emirs of the Ajam, he moved to Rum after the strife of Ibn Ardawil, was honoured by Sultan Abu Yazid and was commissioned to write the histories of the House of Osman in Persian; Ibn al-Imad lists him among those who died in about 925 AH {cite:shadharat-dhahab vol. 10 p. 184}."
 wings: [people]
 regions: [anatolia-balkans, persia-central-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1457~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
-died: { edtf: "1520", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q343494 (P570, a statement with a reference), item revision 2561677588.", sources: [source/wikidata] }
+born: { edtf: "1457~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi. Ibn al-Imad gives no birth year." }
+died: { edtf: "1520", hijri: "0925~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q343494 (P570, a statement with a reference), item revision 2561677588. Ibn al-Imad, vol. 10 p. 184, lists him under 925 AH with the word approximately; 925 AH runs from January to December 1519 by the museum's conversion, one year before the card.", sources: [source/wikidata, source/shadharat-dhahab] }
 relations:
-  - { type: born_in, target: place/bitlis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/biblissima]
+  - { type: born_in, target: place/bitlis, confidence: medium, note: "Place link from Wikidata; pending a second source. Ibn al-Imad gives the nisba al-Bidlisi, put between brackets by the editor from other sources, but no birthplace.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source. Ibn al-Imad names no place of death.", sources: [source/wikidata] }
+sources: [source/al-aalam, source/biblissima, source/shadharat-dhahab]
 external_ids:
   wikidata: Q343494
   biblissima: "Q232348"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0018
+  source: "Ibn al-Imad, Shadharat al-Dhahab, year 925 AH, entry read in full from the local OpenITI text (Dar Ibn Kathir edition, vol. 10)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

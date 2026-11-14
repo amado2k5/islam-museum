@@ -8,23 +8,25 @@ names:
 roles: [sultan]
 gender: male
 summary:
-  ar: "بطاقة أولية لركن الدين مسعود الأول، سلطان سلاجقة الروم الذي نقل العاصمة إلى قونية، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Rukn al-Din Mas'ud I, sultan of Rum who fixed the capital at Konya, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+  ar: "الملك مسعود بن قلج أرسلان بن سليمان بن قتلمش، صاحب قونية وما يجاورها من بلاد الروم، توفي سنة 551 هـ وملك بعده ابنه قلج أرسلان {cite:kamil-ibn-al-athir vol. 9 p. 407}."
+  en: "Al-Malik Mas'ud ibn Qilij Arslan ibn Sulayman ibn Qutlumush, lord of Konya and the neighbouring parts of Rum; he died in 551 AH (1156 CE) and his son Qilij Arslan succeeded him {cite:kamil-ibn-al-athir vol. 9 p. 407}."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "1156", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV (I. Mesud)" }
+died: { edtf: "1156", hijri: "0551", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV (I. Mesud). Ibn al-Athir, al-Kamil, vol. 9 p. 407, records the death under 551 AH = 1156 CE by the museum's conversion, agreeing with the card.", sources: [source/kamil-ibn-al-athir] }
 relations:
+  - { type: ruler_of, target: place/konya, confidence: high, note: "Ibn al-Athir, al-Kamil, vol. 9 p. 407: lord of Konya and its neighbouring parts of Rum", sources: [source/kamil-ibn-al-athir] }
+  - { type: child_of, target: person/qilij-arslan-i, confidence: medium, note: "Ibn al-Athir, vol. 9 p. 407, gives his father as Qilij Arslan son of Sulayman son of Qutlumush; identified here with Qilij Arslan I by the genealogy", sources: [source/kamil-ibn-al-athir] }
   - { type: buried_in, target: place/al-eddin-mosque, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q58810
 provenance:
   layer: own-research
-  source: "Wikidata Q58810 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0011
+  source: "Ibn al-Athir, al-Kamil fi al-Tarikh, year 551 AH, entry read in full from the local OpenITI text (vol. 9); Wikidata Q58810"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-kamil-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
