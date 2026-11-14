@@ -6,24 +6,24 @@ label:
 roles: [scholar, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن خليل الخويي، فقيه وقاضٍ القرن الثالث عشر، توفي سنة ١٢٤٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Khalil al-Khu'i, the thirteenth-century jurist and judge, d. 1240; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن خليل بن سعادة، أبو العباس شمس الدين المهلبي الخويي، قاض شافعي من العلماء بالكلام وله معرفة بالطب، ولد في خوي بأذربيجان وتعلم بها وبخراسان وولي قضاء القضاة بالشام وتوفي بدمشق، صاحب «السفينة النوحية» في النفس والروح."
+  en: "Ahmad ibn Khalil al-Khu'i, Abu al-Abbas Shams al-Din, a Shafi'i judge learned in theology and with a knowledge of medicine, born in Khuy in Azerbaijan, who studied there and in Khurasan, became chief judge in Syria and died in Damascus; author of al-Safina al-Nuhiyya on the soul and spirit."
 wings: [people]
-regions: [persia-central-asia]
+regions: [persia-central-asia, levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q57252424
   viaf: "90078986"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0062
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/qadi
     kind: secondary
@@ -31,6 +31,7 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
 born: { edtf: "1187", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a Confirmed on 13 November 2026 against Wikidata Q57252424 (P569, a statement with a reference), item revision 2533144444.", sources: [source/wikidata] }
-died: { edtf: "1239", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
+died: { edtf: "1239", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a. Entry in al-A'lam: 637 AH = 1240 CE; 637 AH runs from August 1239 to July 1240, so the card's year is kept." }
 relations:
-  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/khoy, note: "al-Zirikli, al-A'lam, vol. 1 p. 111: born in Khuy in Azerbaijan (replaces the earlier broad Iran association)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 1 p. 111", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

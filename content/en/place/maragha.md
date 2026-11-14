@@ -12,3 +12,6 @@ Its people had taken refuge with Marwan, who bought it. People grew numerous the
 In the caliphate of al-Rashid, Khuzayma ibn Khazim governed Armenia and Azerbaijan. He built its wall and established it as a garrison city, and settled a dense force in it. When Babak appeared, people took refuge in it. The agents of al-Ma'mun repaired its wall, and then people settled its suburb and it was fortified. {cite:futuh-buldan-maarif-1407}
 
 An additional source is needed for the page number.
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2733333 with the preferred name «Maragheh», classed as populated place; its parent in the hierarchy is «Āzārbāydschān-e Scharghi (Ostan)», classed as administrative unit. Recorded names include «Marāgheh», «مراغه» and «Maragha». {cite:idai-gazetteer 2733333}

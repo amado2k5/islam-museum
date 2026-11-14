@@ -135,3 +135,9 @@ Medina is the illuminated city to which the Prophet and early Muslims migrated, 
 
 ## For Scholars
 Taybah, the City of the Prophet, and the second holiest sanctuary in Islam, situated in a fertile volcanic oasis in the Hejaz roughly 400 kilometers north of Mecca. Following the Hijra in 622 CE, it served as the political and spiritual capital of the early Islamic state, where the Prophet forged brotherhood between Emigrants and Helpers and promulgated the Constitution of Medina. Encompassing the Prophet's Mosque, the Rawdah, Jannat al-Baqi, and the Mosque of Quba, Medina was designated an inviolable sanctuary (haram), serving as the crucible for the revelation of communal laws and civic ethics.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Iathrippa» (Pleiades no. 814688), classed as settlement and modern settlement, with activity attested from 1200 BCE to 2100 CE. Recorded names include «al-Madīna», «Yaṯrib» and «Iáthrippa». Its description calls it an oasis settlement on the Incense Road, seat of influential Jewish and Arab tribes from the Roman period until Islam, which became an important centre of Islam after 622 when it was renamed al-Madina, remained a key centre until 656, and holds the grave of Muhammad and is a place of Muslim pilgrimage. {cite:pleiades 814688}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2043268 with the preferred name «Medina»; its parent in the hierarchy is «Saudi-Arabien», classed as administrative unit. Recorded names include «المدينة», «Lathrippa» and «Yathrib». {cite:idai-gazetteer 2043268}

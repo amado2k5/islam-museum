@@ -6,26 +6,27 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن علوي الحداد، عالم حضرموت وشيخ الطريقة العلوية في القرن الثامن عشر صاحب «النصائح الدينية»، توفي سنة ١٧٢٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdullah ibn Alawi al-Haddad, the eighteenth-century scholar of Hadramawt and shaykh of the Alawi path author of al-Nasa'ih al-Diniyya, d. 1720; the biographical entry is not yet checked on the page."
+  ar: "عبد الله بن علوي بن محمد الحسيني الحضرمي، المعروف بالحداد باعلوي، فاضل من أهل تريم بحضرموت، ولد في السبير من ضواحيها وتوفي في الحاوي ودفن بتريم، كان كفيفاً، ومن كتبه «الدعوة التامة والتذكرة العامة» و«النصائح الدينية» وديوان «الدر المنظوم»."
+  en: "Abd Allah ibn Alawi al-Haddad Ba Alawi, a man of learning from Tarim in Hadramawt, born at al-Subayr, died at al-Hawi and buried in Tarim; he was blind from childhood, and his books include al-Da'wa al-Tamma wa'l-Tadhkira al-Amma, al-Nasa'ih al-Diniyya and the poetry collection al-Durr al-Manzum."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
 themes: [spirituality-and-sufism]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6003118
   viaf: "54360067"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0033
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Nafais al-Ulwiyya; EI2 ('al-Haddad': 1044–1132 AH) Confirmed on 13 November 2026 against Wikidata Q6003118 (P569, a statement with a reference), item revision 2567052878.", sources: [source/wikidata] }
 died: { edtf: "1720", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Nafais al-Ulwiyya; EI2 ('al-Haddad': 1044–1132 AH) Confirmed on 13 November 2026 against Wikidata Q6003118 (P570, a statement with a reference), item revision 2567052878.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/hadramawt, note: "From text: عالم حضرموت وشيخ الطريقة العلو", sources: [source/al-aalam], confidence: low }
+  - { type: buried_in, target: place/tarim, note: "al-Zirikli, al-A'lam, vol. 4 p. 57: buried in Tarim", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

@@ -3,28 +3,29 @@ class: person
 label:
   ar: "عبد الرحمن بن عيسى المرشدي"
   en: "Abd al-Rahman al-Murshidi"
-roles: [scholar]
+roles: [mufti, poet, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرحمن بن عيسى المرشدي، فقيه حجازي القرن السابع عشر، توفي سنة ١٦٢٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahman ibn Isa al-Murshidi, the seventeenth-century Hejazi jurist, d. 1628; the biographical entry is not yet checked on the page."
+  ar: "عبد الرحمن بن عيسى بن مرشد، أبو الوجاهة العمري المرشدي، مفتي الحرم المكي وأحد الشعراء العلماء في الحجاز، ولد بمكة وولي الإمامة والخطابة والإفتاء السلطاني، وتوفي في سجنه مخنوقاً في عهد الشريف أحمد بن عبد المطلب."
+  en: "Abd al-Rahman ibn Isa al-Murshidi, Abu al-Wajaha, mufti of the Meccan sanctuary and one of the scholar-poets of the Hejaz, born in Mecca; he held the imamate, preaching and sultanic ifta' of the Sacred Mosque and died strangled in prison under the Sharif Ahmad ibn Abd al-Muttalib."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q57268563
   viaf: "65148175"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0062
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1568", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: 975–1037 AH)" }
+  completeness: 3
+born: { edtf: "1568", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: 975–1037 AH). Entry in al-A'lam: 975 AH = 1567 CE; 975 AH runs from June 1567 to June 1568, so the card's year is kept." }
 died: { edtf: "1628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: 975–1037 AH)" }
 relations:
   - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name (حجازي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/mecca, note: "al-Zirikli, al-A'lam, vol. 3 p. 286: born in Mecca", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

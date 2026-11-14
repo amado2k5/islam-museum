@@ -1,28 +1,54 @@
 id: person/abu-wajzah-al-sadi
 class: person
 label:
-  ar: "أبو وجزة السعدي"
-  en: "Abu Wajzah al-Sa'di"
-roles: [scholar]
+  ar: أبو وجزة السعدي
+  en: Abu Wajzah al-Sa'di
+roles:
+- poet
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لأبو وجزة السعدي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Wajzah al-Sa'di; the entry is not yet checked on the page."
-wings: [people]
-regions: [arabia]
-periods: [period/umayyad]
-sources: [source/al-aalam]
+  ar: 'يزيد بن عبيد السلمي السعدي، أبو وجزة: شاعر محدث مقرئ من التابعين، أصله من بني سليم، نشأ في بني سعد بن بكر بن هوازن فنسب إليهم، وسكن المدينة وتوفي بها سنة 130 هـ.'
+  en: 'Yazid ibn Ubayd al-Sulami al-Sa''di, Abu Wajza: a poet, hadith transmitter and Qur''an reciter of the Tabi''un, of Banu Sulaym origin, raised among Banu Sa''d ibn Bakr ibn Hawazin, to whom his nisba refers; he lived in Medina and died there in 130 AH.'
+wings:
+- people
+regions:
+- arabia
+periods:
+- period/umayyad
+sources:
+- source/al-aalam
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q110720127
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "747", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam Confirmed on 13 November 2026 against Wikidata Q110720127 (P570, a statement with a reference), item revision 2533411680.", sources: [source/wikidata] }
+  completeness: 3
+died:
+  edtf: '747'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Agrees with al-Zirikli, al-A''lam vol. 8 p. 179 (same year). Date-enrichment pass; source: Tarikh al-Islam Confirmed on 13 November 2026 against Wikidata Q110720127 (P570, a statement with a reference), item revision 2533411680.'
+  sources:
+  - source/wikidata
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
-  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+- type: lived_in
+  target: place/jazirat-al-arab
+  note: Only the record-level region (arabia) is attested; broad-region edge flagged for review.
+  sources:
+  - source/al-aalam
+  confidence: low
+- type: died_in
+  target: place/medina
+  confidence: medium
+  note: 'From al-A''lam: lived in Medina and died there.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
