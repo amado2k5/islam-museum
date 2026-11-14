@@ -3208,3 +3208,19 @@ Resume point: min-kunuz-al-sunnah episode 22 (branch from origin/main).
 | Repeated filler characters | ep22 00:23:00-00:23:30 | Loop in the transcript | Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 23 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep23 (14 Nov 2026)
+
+14 points written for episode 23 (ar, en, ur); 9 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (6-153, 42-13, 27-44, 3-52, 2-133, 3-85, 18-39); none typed. Contested: He holds that standing for others as a local custom contradicts no creed, that Islam in a wide sense is the religion of all prophets, and that Muslims should be ashamed of Ramadan habits; these are his views, and the "forty days" claim about doubtful food is unreferenced.
+
+| Excluded (min-kunuz-al-sunnah ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting and invocation, closing prayer and farewell | ep23 00:00:00-00:00:30, 00:25:00-00:25:30 | Greetings and closing prayer, not lesson content | Content rule | Open |
+| Break join and welcome back | ep23 00:16:30-00:17:00 | Break join | Content rule | Open |
+| Claim that "the Westerners" take haya to be shyness and that translations get it wrong, as a sweeping claim about peoples (kept only the neutral point that translations render it poorly) | ep23 00:08:30-00:09:00 | Sweeping claim about a people | Voice rule | Open |
+| Repeated filler particles and looped syllables inside the lines | ep23 00:02:00-00:02:30, 00:04:00-00:04:30 | Loop, text unrecoverable | Clarity, Loop check | Open |
+| Garbled allusion on the stare of unbelievers and a garbled saying on counting faults | ep23 00:03:30-00:04:00, 00:02:00-00:02:30 | Too garbled to identify with certainty | Clarity, Loop check | Open |
+| Garbled wording inside the Abu Jahl report | ep23 00:11:30-00:12:00 | Partly garbled, only the recoverable point kept | Clarity, Loop check | Open |
+| Garbled sentences on what tempts unbelievers and devils of men and jinn | ep23 00:23:30-00:24:00 | Garbled, sweeping | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 24 (branch from origin/main).
