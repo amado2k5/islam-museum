@@ -4888,6 +4888,22 @@ GEMINI: ep45, the name of the companion who prayed two units before being killed
 GEMINI: ep45, the narrator and collection of the pledge on three matters and of the companion who got down to pick up what fell from his hand (00:07:30-00:08:30), Musnad Ahmad and Sahih Muslim
 GEMINI: ep45, the companion left behind to follow the army in the slander affair (Qwen gives a form like Sakhr ibn Atiyya, Whisper a form like Safwan ibn Mu'attal), Sahih al-Bukhari Kitab al-Maghazi chapter on the slander
 
+### alwaad-alhaq ep38 (14 Nov 2026)
+
+22 points written for episode 38 (ar, en, ur); 19 needs_source marks for this episode in each language file; the series record now lists episodes 1-38 with new about links to ikhlas, tawakkul, the houris, the jinn, Ibn Mas'ud, Khalid ibn al-Walid, Musa, Sulayman and kasb. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep38) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Story of the animals offering themselves as food in Paradise | ep38 00:40:00-00:40:30 | transcript garbled and mixed across several lines | garbled source | Open |
+| Passage on the houris and worldly outlook | ep38 00:22:00-00:23:30 | transcript looping and garbled | garbled source | Open |
+| Abu Hazim and the caliph washing the dead | ep38 01:00:00-01:00:30 | names garbled and unclear who speaks | garbled source | Open |
+| Segments with repeated loops (houri passage, quarters of the tent, reclining passage) | ep38 00:47:30-00:55:30 and 01:05:00 | Whisper loop artefacts with no recoverable content | garbled source | Open |
+| Chains and books for the reports flagged needs_source | ep38 throughout | sheikh gives no chain or book | unchained report | Open |
+
+Resume point: alwaad-alhaq episode 39 (branch from origin/main).
+GEMINI: ep38, the narrator of the last-to-leave-the-Fire hadith (Qwen gives a form like Hudhayfa ibn Mas'ud, the sheikh says Ibn Mas'ud) and whether the laughing exchange is in Sahih Muslim (00:07:30-00:08:30), Sahih Muslim Kitab al-Iman, chapter on the last of the people of the Fire to leave
+GEMINI: ep38, the report that the tent of Paradise is a hollowed pearl the size of the world and who is named as the narrator (a form like Umar, ibn al-Khattab; 00:54:30), Sahih al-Bukhari Kitab Tafsir surat al-Rahman and Sahih Muslim Kitab al-Jannah
+GEMINI: ep38, the report of the Prophet reciting Surat al-Rahman to his Companions and the jinn's reply (00:37:00-00:38:00), Jami al-Tirmidhi tafsir surat al-Rahman
 ### sharh-saheeh-al-bukhare ep46 (14 Nov 2026)
 
 26 points written for episode 46 (ar, en, ur); 22 needs_source marks in each language file for this episode; 15 new `about` edges. Quran verses referenced only through passage links (28-77, 33-10, 33-11); none typed. Contested: His accounts of the supplication at al-Ta'if, the angel of the mountains, the dream of Umar's palace, the hadith on Sa'd's jealousy, the rock at the trench, the numbers (1,900 Muslims, 13,000 enemy, 650 horsemen, 300 Companions, forty-five believers in Mecca), the Shawwal of year four dating, the duel of Ali and the deaths of Khadija and Abu Talib are given as his own without chain or reference, and his readings of bribery, certainty and hardship as a mercy are his own views. Checked line by line against the transcript by a second reader before merge.
