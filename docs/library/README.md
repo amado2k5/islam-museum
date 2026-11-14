@@ -61,6 +61,13 @@ GEMINI: raw/library/tafsir-app and the fatwa catalogue JSON files: not books; le
 GEMINI: web-hadithunlocked: licence of hadithunlocked.com and which of the 17 failed hadith files were retried; what the manifest and drive show: 44 ok, 17 failed, no licence page recorded; the site's own terms page would settle it.
 GEMINI: web-princeton-geniza: the Zenodo record URL of the metadata zip pgp-metadata-v1.2.zip; what the drive shows: folder name pgp-zenodo-22663982 only; the Zenodo record page would settle it.
 
+GEMINI: durus-fatawa-haramayn: title, author and publisher were read from garbled Apple Vision OCR of the title page (al-'Uthaymin, Mu'assasat al-Shaykh al-'Uthaymin al-Khayriyya); the printed title page or the archive.org item FP171023 metadata would settle them.
+GEMINI: permanent-committee-fatwas: compiler read from garbled OCR as Ahmad ibn Abd al-Razzaq al-Duwaish, edition and publisher unknown; archive.org item FP124536 metadata would settle them.
+GEMINI: taqrib-fatawa-ibn-taymiyya: editor (Muhammad ibn Nasir al-Tayyar) and publisher (Dar Ibn al-Jawzi, 1440 AH) read from OCR of the title page; archive.org item tfrsitFP metadata would settle them.
+GEMINI: vhmml-listing-data and papyri-idp-hgv-sparse-clone (datasets): the web-sources ledger says the vHMML CSV (raw/vhmml/) and the idp.data sparse clone (raw/papyri-idp/) were saved under the harvest root on 14 Nov 2026, but neither folder exists on the drive. Were they saved in another worker's clone, or deleted?
+GEMINI: hadith-json-v1-2-0 (datasets): the exact GitHub URL and licence of the v1.2.0 release are not recorded anywhere; the inventory names AhmedBaset/hadith-json only.
+GEMINI: princeton-geniza-pgp-metadata-v1-2 (datasets): the Zenodo record URL for deposit 22663982 and its licence line are not recorded in a ledger.
+
 ## Wrap-up queue
 (Maintained from the register: every partly mined or nearly complete book, ranked by share of pages
 mined, highest first, with what remains: pages left, held pages, OCR gaps, zip needed, and whether a
