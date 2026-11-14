@@ -1,0 +1,18 @@
+id: concept/motive-faculty
+class: concept
+kind: scientific
+label: { ar: "القوة النفسانية المحركة عند ابن سينا", en: "The psychic motive faculty in the Canon", ur: "قانون میں نفسانی محرک قوت" }
+summary:
+  ar: "في الفصل السادس يصف ابن سينا القوة المحركة بأنها التي تشنج الأوتار وترخيها فتحرك الأعضاء والمفاصل، وهي جنس يتنوع بحسب مبادئ الحركات وتابعة لحكم الوهم الموجب للإجماع {cite:canon-ibn-sina-print-v1 p.101}."
+  en: "In the sixth chapter Ibn Sina describes the motive faculty as that which tightens and slackens the tendons and so moves the organs and joints; it is a genus that varies with the origins of movements and follows the judgment of estimation that brings about resolve {cite:canon-ibn-sina-print-v1 p.101}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/powers-and-actions, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1 end and Fann 2 opening (scan pages 99 to 105), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-faculties-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

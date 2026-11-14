@@ -1,29 +1,60 @@
 id: person/abdallah-ibn-al-harith-ibn-nawfal
 class: person
 label:
-  ar: "عبد الله بن الحارث بن نوفل"
-  en: "Abdallah ibn al-Harith ibn Nawfal"
-roles: [scholar]
+  ar: عبد الله بن الحارث بن نوفل
+  en: Abdallah ibn al-Harith ibn Nawfal
+roles:
+  - scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن الحارث بن نوفل العبداري، محدث مكة القرن الثامن، توفي سنة ٧٠٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdallah ibn al-Harith ibn Nawfal al-Abdari, the eighth-century muhaddith of Mecca, d. 703; the biographical entry is not yet checked on the page."
-wings: [people]
-regions: [arabia]
-periods: [period/umayyad]
-sources: [source/al-aalam]
+  ar: عبد الله بن الحارث بن نوفل الهاشمي المدني، أبو محمد ولقبه ببة، ولد في حياة النبي وروى عن عمر وعثمان وعلي وغيرهم؛ أمّره أهل البصرة بعد هروب عبيد الله بن زياد وأقره ابن الزبير ثم عزله، وقيل توفي بعمان سنة ٨٤هـ وقيل ٨٣هـ.
+  en: Abd Allah ibn al-Harith ibn Nawfal al-Hashimi al-Madani, Abu Muhammad, nicknamed Babba, born in the Prophet's lifetime and a narrator from Umar, Uthman, Ali and others; the people of Basra made him their emir after Ubayd Allah ibn Ziyad fled, Ibn al-Zubayr confirmed and later dismissed him, and he is said to have died in Oman in 84 AH, or 83.
+wings:
+  - people
+regions:
+  - arabia
+periods:
+  - period/umayyad
+sources:
+  - source/al-aalam
+  - source/siyar-alam-nubala-ideas-house
 external_ids:
   wikidata: Q16119436
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0053
+  source: al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned page 2363 (Apple Vision OCR on the harvest drive)
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Confirmed on 13 November 2026 against Wikidata Q16119436 (P569, a statement with a reference), item revision 2533519461.", sources: [source/wikidata] }
-died: { edtf: "703", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Confirmed on 13 November 2026 against Wikidata Q16119436 (P570, a statement with a reference), item revision 2533519461.", sources: [source/wikidata] }
+  completeness: 3
+born:
+  edtf: "630"
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Confirmed on 13 November 2026 against Wikidata Q16119436 (P569, a statement with a reference), item revision 2533519461."
+  sources:
+    - source/wikidata
+died:
+  edtf: "703"
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Confirmed on 13 November 2026 against Wikidata Q16119436 (P570, a statement with a reference), item revision 2533519461."
+  sources:
+    - source/wikidata
 relations:
-  - { type: lived_in, target: place/mecca, note: "From text: of Mecca", sources: [source/al-aalam], confidence: low }
+  - type: lived_in
+    target: place/basra
+    note: The Basran notables made him their emir (Siyar, p. 2363).
+    sources:
+      - source/siyar-alam-nubala-ideas-house
+    confidence: high
+  - type: lived_in
+    target: place/medina
+    note: Al-Dhahabi gives his nisba as al-Madani (Siyar, p. 2363); the card's earlier link to Mecca, which read "of Mecca" from a text, was replaced.
+    sources:
+      - source/siyar-alam-nubala-ideas-house
+    confidence: medium
